@@ -11,10 +11,6 @@
     "snapshot": "node scripts/snapshot-to-ios.mjs",
     "test": "node scripts/build.mjs && node scripts/validate.mjs && node scripts/test-content.mjs && LANGS=ru,pt,en node scripts/build.mjs && node scripts/validate-no-cyrillic.mjs && node scripts/validate-parity.mjs",
     "translate": "node scripts/translate-whole-file.mjs",
-    "deploy": "node scripts/deploy-ovh.mjs",
-    "deploy:dry": "node scripts/deploy-ovh.mjs --dry-run"
-  },
-  "devDependencies": {
-    "basic-ftp": "^6.0.0"
+    "deploy": "git push origin main"
   }
 }

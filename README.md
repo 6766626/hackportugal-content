@@ -50,11 +50,31 @@ XRELAY_KEY=xr_... npm run translate -- --ids /tmp/ids.txt --langs pt --force --c
 
 ## Deploy
 
-GitHub Pages через `.github/workflows/deploy.yml`:
-- Push в `main` → workflow запускает validate + build (RU/PT/EN) + копирует `web/*` + `dist/*` в `_site/`
-- Сайт публикуется на `https://hackportugal.github.io/hackportugal-content/`
-  - `/privacy.html`, `/terms.html`, `/index.html` — публичные страницы
-  - `/v1/manifest.json` + `/v1/guides.{ru,pt,en}.json` — потребляется iOS-приложением через `RemoteContentService`
+Контент публикуется через **GitHub Pages**, единственный источник истины для iOS.
+
+```bash
+# Любая правка контента → обычный git flow:
+git add content/...
+git commit -m "..."
+npm run deploy   # = git push origin main
+```
+
+`.github/workflows/deploy.yml` на push в main:
+1. `npm test` — build + validate + content-regressions + multi-build + no-cyrillic + parity
+2. Stage `dist/v1/*` (контент) + `web/*` (privacy/terms/index) в `_site/`
+3. Deploy в GitHub Pages (~30 секунд end-to-end)
+
+**Public URLs** (репо `6766626/hackportugal-content`):
+- `https://6766626.github.io/hackportugal-content/` — landing
+- `https://6766626.github.io/hackportugal-content/privacy.html` — Privacy Policy
+- `https://6766626.github.io/hackportugal-content/terms.html` — Terms
+- `https://6766626.github.io/hackportugal-content/v1/manifest.json` — потребляется iOS
+
+iOS-приложение через `RemoteContentService.swift`:
+- На launch peek'ает `manifest.json` → если remote `contentVersion` > local → показывает баннер на Home
+- При тапе «Обновить» — modal sheet с progress bar, sha256-проверка каждого файла из manifest, atomic swap в Application Support cache
+- Если без интернета или Pages недоступен — fallback на bundled snapshot
+- 7-дневный stale alert если давно не проверялись обновления
 
 ## Правила авторинга
 
