@@ -1,0 +1,134 @@
+{
+  "guideId": "must-try-dishes",
+  "categoryId": "food_leisure",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом пригоден, но есть несколько гастрономических неточностей и одно важное уточнение по couvert/закускам в ресторанах.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "🐚 Ameijoas à Bulhão Pato — моллюски в чесночно-лаймовом бульоне с кинзой",
+        "problem": "В классическом Amêijoas à Bulhão Pato используется лимонный сок/лимон, а не лайм. По-португальски limão = лимон; лайм был бы lima.",
+        "suggestion": "Написать: «моллюски в соусе из чеснока, оливкового масла, кинзы и лимона». Также исправить написание на «Amêijoas à Bulhão Pato».",
+        "confidence": "high",
+        "source": "VisitPortugal — Portuguese gastronomy / Amêijoas à Bulhão Pato"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4]",
+        "current": "🧀 Queijo da Serra da Estrela — мягкий овечий сыр DOP, с августа по март",
+        "problem": "Сыр Serra da Estrela относится к региону Serra da Estrela/Beiras, а не к Лиссабону и центральному побережью. Сезон «с августа по март» тоже выглядит неверно/сбивает с толку: традиционно производство связано с осенне-зимне-весенним периодом лактации овец, а не с августом.",
+        "suggestion": "Перенести в отдельный блок «Beiras / Serra da Estrela» или написать: «Queijo Serra da Estrela DOP — мягкий овечий сыр из региона Serra da Estrela; лучший сезон обычно поздняя осень — весна».",
+        "confidence": "medium",
+        "source": "DGADR / Qualifica — Queijo Serra da Estrela DOP"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[6]",
+        "current": "🍷 Vinho de Carcavelos — historic fortified белое вино района Cascais",
+        "problem": "Carcavelos DOC — историческое креплёное вино зоны Oeiras/Cascais, но не обязательно только белое: допускаются белые и красные сорта, хотя белые версии наиболее известны.",
+        "suggestion": "Написать: «Vinho de Carcavelos — историческое креплёное DOC-вино зоны Oeiras/Cascais, чаще белое/янтарное, но не строго только белое».",
+        "confidence": "high",
+        "source": "CVR Lisboa / Wines of Portugal — Carcavelos DOC"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Алентежу: cozido, açorda.",
+        "problem": "Cozido — скорее обще-португальское блюдо с региональными вариантами, а не блюдо-икона именно Алентежу. Для Алентежу более характерны açorda alentejana, migas, ensopado de borrego, carne de porco à alentejana, pratos de caça.",
+        "suggestion": "Заменить на: «Алентежу: açorda, migas, ensopado de borrego, carne de porco à alentejana».",
+        "confidence": "medium",
+        "source": "VisitPortugal — Alentejo gastronomy"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3]",
+        "current": "🍷 Vinho verde — молодое лёгкое вино с лёгкой искоркой, лучший regional",
+        "problem": "Фраза «лучший regional» непонятна и звучит как оценочное утверждение. Кроме того, Vinho Verde не всегда «с искоркой» и не всегда нужно описывать только как молодое простое вино: в регионе есть и более серьёзные Alvarinho/Loureiro, включая выдержанные стили.",
+        "suggestion": "Написать: «Vinho Verde — вино северо-запада Португалии; часто лёгкое, свежее и слегка газированное, но есть и более сложные стили, особенно Alvarinho и Loureiro».",
+        "confidence": "high",
+        "source": "Comissão de Viticultura da Região dos Vinhos Verdes"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[6]",
+        "current": "🍮 Pão de Rala — миндально-тыквенный десерт монастырского происхождения",
+        "problem": "Классическая начинка Pão de Rala — миндаль, сахар, яичные желтки и doce de gila/chila. Gila/chila — это fig-leaf gourd; по-русски её иногда называют тыквой, но «тыквенный десерт» может создать неверное ожидание вкуса обычной тыквы.",
+        "suggestion": "Написать: «Pão de Rala — монастырский десерт из миндаля, яичных желтков и doce de gila/chila».",
+        "confidence": "medium",
+        "source": "VisitPortugal / Turismo do Alentejo — conventual sweets"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "🦐 Gambas à la Plancha — креветки на гриле с солью",
+        "problem": "«À la plancha» — испанская/французская формулировка, не типичное португальское название. В Португалии чаще пишут «gambas grelhadas», «gambas na chapa» или «camarão grelhado».",
+        "suggestion": "Заменить на: «Gambas grelhadas / camarão grelhado — креветки на гриле с солью и лимоном».",
+        "confidence": "high",
+        "source": "Common Portuguese menu usage"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4]",
+        "current": "🍯 Medronho — алкоголь из земляничного дерева, 48% spirit местного производства",
+        "problem": "Крепость medronho не фиксированно 48%; aguardente de medronho обычно встречается примерно в диапазоне 40–50% ABV, часто около 42–48%. Указание ровно 48% слишком категорично.",
+        "suggestion": "Написать: «Medronho — крепкая aguardente из плодов земляничного дерева, обычно около 40–50%».",
+        "confidence": "high",
+        "source": "IGP Aguardente de Medronho do Algarve / Portuguese spirits product specs"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0].content[0].items[1]",
+        "current": "Bolo do caco — лепёшка из сладкого картофеля с чесночным маслом",
+        "problem": "Bolo do caco не просто «из сладкого картофеля»: это пшеничная лепёшка с добавлением батата/сладкого картофеля. Текущее описание может восприниматься как безглютеновое или полностью картофельное, что неверно.",
+        "suggestion": "Написать: «Bolo do caco — пшеничная лепёшка с добавлением батата, обычно подаётся с чесночным маслом».",
+        "confidence": "high",
+        "source": "VisitMadeira — Madeira gastronomy"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0].content[0].items[2]",
+        "current": "Poncha — ром + мёд + лимон + местный фрукт",
+        "problem": "Традиционная poncha делается не с ромом в узком смысле, а с aguardente de cana da Madeira — местным дистиллятом из сахарного тростника. Ром как упрощение допустим, но для гида лучше точнее.",
+        "suggestion": "Написать: «Poncha — aguardente de cana da Madeira + мёд + лимон/апельсин; бывают версии с маракуйей и другими фруктами».",
+        "confidence": "high",
+        "source": "VisitMadeira — Poncha / Madeira gastronomy"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].text",
+        "current": "Треска — самая важная рыба для португальцев, хотя почти вся ловится в норвежских водах.",
+        "problem": "«Почти вся ловится в норвежских водах» — слишком сильное и неточное утверждение. Португалия импортирует bacalhau из Северной Атлантики; Норвегия — ключевой поставщик, но также важны Исландия, Фареры/Дания, Канада и другие источники. Речь также идёт о видах cod/saithe/ling/tusk в категории salted dried fish, а не только о рыбе из норвежских вод.",
+        "suggestion": "Написать: «…хотя сама Португалия почти не ловит эту рыбу: bacalhau в основном импортируется из Северной Атлантики, особенно из Норвегии и Исландии».",
+        "confidence": "high",
+        "source": "Norwegian Seafood Council / Statistics Portugal import data for bacalhau"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[1].text",
+        "current": "Couvert — закуски на стол (хлеб, оливки, сыр) НЕ бесплатны в PT, всегда платные. Отказывайтесь «нет, obrigado» если не хотите, иначе будут в счёте.",
+        "problem": "Правильная логика тоньше: couvert обычно платный, если вы его съели/использовали, но ресторан не должен взимать плату за продукты, которые клиент не заказывал и не потреблял. Цены на couvert должны быть указаны в меню/прайс-листе. Формулировка «всегда платные» и «иначе будут в счёте» может создать впечатление, что можно законно брать оплату просто за поставленные на стол нетронутые закуски.",
+        "suggestion": "Написать: «Couvert в Португалии обычно платный, если вы его потребляете. Если не хотите — сразу откажитесь и не ешьте; за непрошенные и нетронутые закуски платить не обязаны. Цена couvert должна быть указана в меню/прайс-листе».",
+        "confidence": "high",
+        "source": "Lei n.º 24/96, art. 9.º; ASAE consumer guidance for restaurants"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[2]",
+        "current": "🧀 Casa de pasto — дневной обед с меню do dia (8–12 €)",
+        "problem": "Диапазон 8–12 € для menu do dia в 2026 году всё ещё возможен в небольших городах и нетуристических местах, но для Лиссабона/Порту/туристических зон часто занижен. Для общенационального гида лучше дать более широкий диапазон.",
+        "suggestion": "Написать: «menu do dia часто около 10–15 €, в небольших городах иногда дешевле, в туристических районах дороже».",
+        "confidence": "medium",
+        "source": "Market observation; no single official source"
+      }
+    ],
+    "missing_topics": [
+      "Нет отдельного блока Beiras/Centro Interior: leitão da Bairrada, chanfana, queijo Serra da Estrela, ovos moles de Aveiro, arroz de pato.",
+      "Нет отдельного блока Minho/Trás-os-Montes: rojões, posta mirandesa, alheira de Mirandela, cabrito, caldo verde/verde wines можно точнее привязать к северо-западу.",
+      "Для островов стоит добавить, что на Азорах ключевой винный регион — Pico, включая Paisagem da Cultura da Vinha da Ilha do Pico UNESCO; Biscoitos — важный, но не единственный ориентир.",
+      "Для ресторанов полезно добавить caveat про alergénios: рестораны в ЕС/Португалии обязаны предоставлять информацию об аллергенах, но туристу лучше прямо спрашивать."
+    ]
+  },
+  "model": "gpt-5.5"
+}

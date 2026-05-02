@@ -1,0 +1,255 @@
+{
+  "guideId": "andante-porto",
+  "categoryId": "public_transport",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по идее, но смешивает разные продукты Andante, неверно описывает зоны/приложение/семейные билеты и содержит несколько явно неправильных примеров вроде BUGA в Porto и Aveiro по Andante.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Регион MetroPorto разбит на 12 зон. Билет считается по количеству зон, через которые проходит маршрут.",
+        "problem": "Это вводит в заблуждение: в системе Andante не «12 географических зон», а много географических зон с кодами; Z2, Z3, Z4 и т.д. — это типы тарифов по количеству зон, разрешённых поездкой. Формулировка путает тарифные титулы с реальными зонами.",
+        "suggestion": "Написать: «Сеть Andante разделена на множество географических зон. Билет покупается как Z2, Z3, Z4 и т.д. — это количество зон, в которых можно ехать от зоны первой валидации/маршрута. Для конкретного маршрута лучше проверить тариф в автомате, приложении или планировщике Andante».",
+        "confidence": "high",
+        "source": "Andante / TIP tariff zoning information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0]",
+        "current": "🟦 Z2 — 1-2 зоны: центр Porto (Trindade, Bolhão, São Bento), Vila Nova de Gaia",
+        "problem": "Z2 — это не «1–2 зоны» в бытовом смысле и не гарантирует всю Vila Nova de Gaia. Gaia большая, разные районы могут требовать Z3/Z4+ в зависимости от точки старта и назначения.",
+        "suggestion": "Написать: «Z2 — минимальный тариф Andante для поездок в пределах выбранной зоны и соседней зоны; подходит для многих коротких поездок по центру Porto и ближайшим соседним зонам, но не для всей Gaia».",
+        "confidence": "high",
+        "source": "Andante / TIP tariff zoning information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1]",
+        "current": "🟩 Z3 — 3 зоны: Maia, Matosinhos, Gondomar, Senhora da Hora",
+        "problem": "Примеры слишком обобщены и могут быть неверны для конкретного маршрута: Matosinhos, Maia, Gondomar и Senhora da Hora не являются «зоной Z3» сами по себе; нужный тариф зависит от пары зон. Senhora da Hora, например, часто находится в ближайших зонах от Porto и не всегда требует Z3.",
+        "suggestion": "Заменить на нейтральное: «Z3/Z4 и выше — для более длинных поездок между муниципалитетами AMP; точный тариф зависит от начальной и конечной зоны».",
+        "confidence": "high",
+        "source": "Andante / TIP zone maps"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items[3]",
+        "current": "🟨 Z5+ — пригороды дальше: Aveiro, Trofa",
+        "problem": "Aveiro не является обычной зоной Andante/MetroPorto для проезда по Andante; это отдельный город за пределами AMP, поезд Porto–Aveiro обслуживается CP с отдельными тарифами CP. Trofa может входить в сеть Andante/AMP, но ставить её в один ряд с Aveiro неправильно.",
+        "suggestion": "Удалить Aveiro из примеров Andante. Написать: «Z5+ — более дальние зоны внутри сети Andante/AMP; для Aveiro обычно нужен билет CP, а не Andante».",
+        "confidence": "high",
+        "source": "CP Urbanos do Porto tariff information; Andante network information"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Для туристов — Andante Tour 1/3 дня (7-15 €).",
+        "problem": "Цены Andante Tour выглядят устаревшими/неточными. В последние тарифные таблицы Andante Tour 1 и Andante Tour 3 обычно указываются как €7.50 и €16.00, а не €7 и €15.",
+        "suggestion": "Проверить по актуальной таблице Andante на 2026 и заменить на: «Andante Tour 1 — около €7.50, Andante Tour 3 — около €16.00» либо убрать точные цены и дать ссылку на официальный тариф.",
+        "confidence": "medium",
+        "source": "Andante official fare table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[2]",
+        "current": "💰 **Andante 24h Tour 1**: 7 € — безлимит сутки в Z4",
+        "problem": "Смешаны два разных продукта: Andante Tour 1 — туристический билет на 24 часа для широкой сети Andante, а не «24h Tour 1 в Z4». Кроме того, цена, вероятно, устаревшая.",
+        "suggestion": "Написать: «Andante Tour 1 — туристический билет на 24 часа; действует в сети Andante в рамках условий продукта, без привязки к обычному Z2/Z3/Z4. Цена по актуальному тарифу Andante».",
+        "confidence": "high",
+        "source": "Andante Tour official product page"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "💰 **Andante 24h Tour 3**: 15 € — 3 дня в Z4",
+        "problem": "Смешаны Andante Tour 3 и обычные зональные 24h-титулы; Andante Tour 3 не является «3 дня в Z4». Цена также выглядит устаревшей.",
+        "suggestion": "Написать: «Andante Tour 3 — туристический билет на 72 часа; действует по условиям Tour, а не как обычный Z4. Указать актуальную цену из официального тарифа».",
+        "confidence": "high",
+        "source": "Andante Tour official product page"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "💰 **Andante Tour 24h** (z2): 4,15 € — для тех, кто только в центре",
+        "problem": "Название неверное: обычный суточный зональный билет — это Andante 24, а не Andante Tour 24h. Цена €4.15 для Z2, вероятно, устарела; её надо сверить с текущей таблицей.",
+        "suggestion": "Заменить на: «Andante 24 Z2 — суточный зональный билет для коротких поездок в пределах Z2; цена по актуальному тарифу Andante». Не называть его Tour.",
+        "confidence": "high",
+        "source": "Andante official fare table"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "Andante Tour 24h Z4 — 7",
+        "problem": "Такого корректного названия продукта нет: Andante Tour и Andante 24 Z4 — разные тарифные продукты. €7 может относиться к старому/округлённому Tour 1, а не к «Z4».",
+        "suggestion": "Разделить: «Andante Tour 1 — цена по официальному тарифу» и «Andante 24 Z4 — отдельный зональный 24h-билет, цена по официальному тарифу».",
+        "confidence": "high",
+        "source": "Andante official fare table"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "Andante Tour 3 дня — 15",
+        "problem": "Цена выглядит устаревшей; актуальная цена, вероятно, €16.00. Нужно сверить с официальной таблицей 2026.",
+        "suggestion": "Заменить на актуальную цену из официального тарифа Andante или написать «около €16, проверяйте перед поездкой».",
+        "confidence": "medium",
+        "source": "Andante official fare table"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].title",
+        "current": "Месячные пасы (резиденты)",
+        "problem": "Месячные проездные не строго «для резидентов» в иммиграционном смысле. Обычно нужна именная карта Andante/данные пользователя, но не necessarily ВНЖ. Формулировка может отпугнуть людей без residência.",
+        "suggestion": "Написать: «Месячные пасы (для регулярных поездок; нужна именная карта Andante)».",
+        "confidence": "high",
+        "source": "Andante monthly pass rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[3]",
+        "current": "🚇 **Mensal MetroPorto** (безлимит весь регион): 40 €/мес",
+        "problem": "Название «Mensal MetroPorto» не является стандартным названием тарифа. Обычно речь о Passe Andante Metropolitano / passe metropolitano за €40, действующем в municípios da Área Metropolitana do Porto, но не «весь регион» в широком смысле и не до Aveiro.",
+        "suggestion": "Заменить на: «Passe Andante Metropolitano — €40/мес, действует в сети Andante в Área Metropolitana do Porto; не покрывает направления вне сети, например Aveiro».",
+        "confidence": "high",
+        "source": "TIP/Andante metropolitan pass information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[4]",
+        "current": "🎓 **Andante Estudante** (для студентов): -50%, ≈15 €",
+        "problem": "Слишком упрощено и может быть неверно: скидки для студентов зависят от возраста, статуса, учебного заведения, программы 4_18/sub23/estudante и могут быть 25%, 50% или бесплатными/частично субсидированными по действующим правилам. «≈15 €» не универсально.",
+        "suggestion": "Написать: «Студенческие/молодёжные скидки зависят от программы 4_18/sub23/estudante, возраста и документов; размер скидки нужно проверять по Andante/TIP и учебному заведению».",
+        "confidence": "high",
+        "source": "Andante 4_18 and sub23 pass rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[5]",
+        "current": "👴 **Andante Sénior** (>65): -50%",
+        "problem": "Слишком обобщено. У senior-тарифов условия зависят от продукта, возраста, иногда дохода/социального статуса и муниципальных программ. Нельзя без caveat обещать всем 65+ автоматические -50%.",
+        "suggestion": "Написать: «Для 65+ есть льготные варианты, но условия и размер скидки зависят от тарифа/муниципалитета и документов; проверяйте правила Andante Sénior».",
+        "confidence": "medium",
+        "source": "Andante senior pass rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[6]",
+        "current": "👨‍👩‍👧 **Andante Família** (3+ человека) — общий пас, -25% на каждом",
+        "problem": "Описание неверное. Passe Família — не просто «3+ человека» и не скидка -25% каждому; это семейный режим/потолок стоимости для домохозяйства с конкретными условиями и заявлением. Есть также отдельный weekend/holiday семейный билет, который нельзя смешивать с месячным passe família.",
+        "suggestion": "Разделить продукты: «Passe Família — семейный месячный режим для членов одного agregado familiar с документами и ограничением общей стоимости; условия уточнять в Andante». Если упоминать weekend ticket — описать отдельно.",
+        "confidence": "high",
+        "source": "Andante Passe Família rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[7]",
+        "current": "⚠️ Для оформления нужна Andante Branca (именная) — фото + CC, в станции метро",
+        "problem": "Для иностранцев не обязательно CC; обычно принимаются паспорт/документ идентификации, NIF может понадобиться для некоторых профилей/счетов. «В станции метро» тоже неполно: есть lojas Andante, Espaços Cliente и другие пункты.",
+        "suggestion": "Написать: «Нужна именная Andante personalizada/Branca: фото и документ ID — CC, паспорт или título de residência; оформить можно в пунктах Andante/Metro/STCP/CP, в зависимости от продукта».",
+        "confidence": "high",
+        "source": "Andante personalized card rules"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[2].title",
+        "current": "Приложение Andante (eTransit)",
+        "problem": "Смешаны/искажены названия цифровых продуктов. Официальное приложение называется Anda; «eTransit» не является общеупотребимым названием приложения Andante для поездок. Есть также отдельные цифровые/QR-продукты, но их нельзя описывать как одно и то же.",
+        "suggestion": "Переименовать раздел в «Приложения Anda / Andante» и точно описать, что именно поддерживается: Anda для NFC/post-paid поездок и/или Andante e-ticket/QR, если он доступен на момент проверки.",
+        "confidence": "high",
+        "source": "Anda official app information; Andante digital ticket information"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[2].content[0].items[1]",
+        "current": "🛒 Покупка билетов в телефоне, QR на турникете",
+        "problem": "Для приложения Anda это неверно: Anda historically работает через NFC-валидацию на валидаторах и post-paid расчёт, а не через QR на турникете. QR может относиться к другому продукту/приложению, если доступен, но это нужно явно разделить.",
+        "suggestion": "Написать: «В Anda поездка валидируется NFC на валидаторе; приложение рассчитывает тариф. Если используете отдельный Andante e-ticket/QR, проверяйте, на каких операторах и станциях он принимается».",
+        "confidence": "high",
+        "source": "Anda official app instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[2]",
+        "current": "🔋 NFC валидация одним касанием телефона",
+        "problem": "Нужно указать ограничение по устройствам/ОС. Anda долгое время требовала Android с NFC; поддержка iOS/QR/цифровых билетов зависит от продукта и даты. Без caveat пользователь iPhone может получить неверное ожидание.",
+        "suggestion": "Добавить: «Проверьте совместимость: для Anda требуется совместимый телефон с NFC; доступность на iOS и поддерживаемые операторы нужно проверять в App Store/Google Play и на сайте Andante».",
+        "confidence": "medium",
+        "source": "Anda official app requirements"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2]",
+        "current": "🚞 В пригородном поезде CP — валидировать в автомате на платформе или попросить контролёра",
+        "problem": "«Попросить контролёра» — опасный совет. В Andante/CP нужно валидировать до посадки на валидаторе; поездка без предварительной валидации может считаться безбилетной. Контролёр не является штатной заменой валидации.",
+        "suggestion": "Написать: «В CP Urbanos в зоне Andante валидируйте карту до посадки на валидаторе на станции/платформе. Если валидатор не работает — зафиксируйте проблему и обратитесь к персоналу до поездки, но не рассчитывайте на контролёра как на способ оплаты».",
+        "confidence": "high",
+        "source": "CP Urbanos do Porto / Andante validation rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[5]",
+        "current": "⚠️ Контроль на станциях/в автобусах — штраф 60-120 € если без билета или с просроченным",
+        "problem": "Диапазон штрафа, скорее всего, занижен/неточен. В Португалии штрафы за отсутствие действительного транспортного билета регулируются как contraordenação и могут быть существенно выше; часто указывается минимум около €120 и максимум до €350, с возможными reduced payment rules.",
+        "suggestion": "Заменить на: «Штрафы за отсутствие действительного билета могут составлять от примерно €120 до €350; условия оплаты/снижения зависят от оператора и процедуры. Проверяйте правила Metro/STCP/CP».",
+        "confidence": "medium",
+        "source": "Lei n.º 28/2006 and operator fare inspection rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "🌅 По выходным дешевле: Andante Família на 4 человек = 7,50 € безлимит",
+        "problem": "Неверно или как минимум сильно неточно. Weekend/holiday family ticket, если имеется, имеет конкретные условия по составу семьи, возрасту детей, зонам и цене; это не универсальный «4 человека = €7.50 безлимит». Также это не то же самое, что месячный Andante Família.",
+        "suggestion": "Удалить конкретную цену или переписать: «Есть семейные/групповые продукты для выходных и праздников, но они имеют ограничения по составу группы, зонам и времени; перед покупкой проверьте Andante Família/Andante 24 Família на официальном сайте».",
+        "confidence": "high",
+        "source": "Andante Família / Andante 24 Família official rules"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[3]",
+        "current": "🚲 BUGA — городские велосипеды Porto, бесплатно с залогом",
+        "problem": "BUGA — это система велосипедов Aveiro, а не Porto. В Porto такой совет фактически неверен.",
+        "suggestion": "Удалить BUGA из гайда про Porto. Если нужен совет про велосипеды Porto, упомянуть актуальные local bike-sharing/веломаршруты Porto после проверки, либо написать нейтрально: «В Porto есть частные сервисы проката велосипедов/самокатов; условия меняются».",
+        "confidence": "high",
+        "source": "BUGA Aveiro official information"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[4]",
+        "current": "🚜 Aveiro / Espinho достижимы по Andante Z5 — пляж за 2 € в день!",
+        "problem": "Aveiro не достижим по обычному Andante Z5; нужен билет CP. «2 € в день» также не соответствует указанным выше тарифам и не объяснено. Espinho может быть в зоне Andante/CP Urbanos в зависимости от тарифа, но Aveiro — нет.",
+        "suggestion": "Написать: «Espinho можно планировать через Andante/CP Urbanos, проверив нужный Z-тариф. Для Aveiro покупайте билет CP Porto–Aveiro; Andante обычно не покрывает эту поездку». Удалить «2 € в день».",
+        "confidence": "high",
+        "source": "CP Urbanos do Porto fares; Andante zone map"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "📅 1-е число месяца — толпа в метро Trindade на оформление пасов; идите 5-10 числа",
+        "problem": "Практический совет может быть полезным, но он не учитывает, что месячные пасы действуют по календарному месяцу; если купить/оформить 5–10 числа, пользователь теряет часть оплаченного месяца. Также пополнить часто можно заранее/онлайн/в автоматах, если карта уже оформлена.",
+        "suggestion": "Написать: «Именную карту лучше оформить заранее, до начала месяца. Пополнение месячного пасса часто можно сделать в автоматах/пунктах продаж; в первые дни месяца бывают очереди».",
+        "confidence": "high",
+        "source": "Andante monthly pass usage rules"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Только Metro do Porto и STCP",
+        "problem": "Для гайда, где обсуждаются Andante-тарифы, CP Urbanos, Tour, Família, приложение Anda и штрафы, источников недостаточно. Metro/STCP — операторы, но не полная тарифная база.",
+        "suggestion": "Добавить официальные источники: сайт Andante/TIP с тарифами и картой зон; CP Urbanos do Porto для поездов; страницу приложения Anda; правила fiscalização/contraordenações или страницы операторов о штрафах.",
+        "confidence": "high",
+        "source": "Andante/TIP; CP; Anda official; Lei n.º 28/2006"
+      }
+    ],
+    "missing_topics": [
+      "Разница между Andante Tour, Andante 24 и обычными разовыми Z2/Z3/Z4 билетами",
+      "Официальная карта зон Andante и планировщик тарифа для конкретного маршрута",
+      "Чёткое предупреждение, что Aveiro обычно не покрывается Andante и требует билета CP",
+      "Различие между именной Andante personalizada/Branca и пополняемой Andante Azul",
+      "Совместимость и ограничения приложения Anda: NFC, поддерживаемые телефоны, операторы и отсутствие универсального QR",
+      "Правила обязательной валидации перед каждой поездкой и при пересадках",
+      "Актуальная официальная таблица штрафов/contraordenações",
+      "Где оформлять и пополнять месячные проездные: lojas Andante, автоматы, pontos de venda, online/app если применимо"
+    ]
+  },
+  "model": "gpt-5.5"
+}

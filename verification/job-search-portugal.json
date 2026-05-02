@@ -1,0 +1,150 @@
+{
+  "guideId": "job-search-portugal",
+  "categoryId": "work_business",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен для job search, но содержит несколько фактических ошибок по визам/налогам/трудовому договору и устаревший источник вакансий Stack Overflow Jobs.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "📋 Non-EU: работодатель должен получить «Contrato de Trabalho com Visto» от AIMA (часть процесса D3/D2)",
+        "problem": "Такого обязательного документа от AIMA нет. Национальные визы D1/D3 оформляются через консульство/VFS на основании трудового договора или promessa de contrato de trabalho и других документов; AIMA занимается в основном видом на жительство после въезда. D2 — это предпринимательская/самозанятая виза, а не виза по найму у работодателя.",
+        "suggestion": "Заменить на: «Non-EU: для работы по найму обычно нужна D1 или D3 через консульство/VFS с contrato de trabalho или promessa de contrato de trabalho; после въезда — запись/процедура в AIMA на residência. D2 — для предпринимателей/самозанятых, не для обычного трудового найма».",
+        "confidence": "high",
+        "source": "Lei 23/2007; Portal Diplomático / vistos nacionais; AIMA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[4]",
+        "current": "🌴 IFICI tax regime — 20 % IRS на квалифицированные IT/инженерные должности",
+        "problem": "Слишком широкое и вводящее в заблуждение описание. IFICI/NHR 2.0 не является автоматической льготой для любых IT/engineering должностей: нужны соответствие закрытому перечню высококвалифицированных профессий/видов деятельности, условия по работодателю/сектору/организации и регистрация в установленном порядке. Не все IT-работники в Португалии получают 20% IRS.",
+        "suggestion": "Написать: «IFICI/NHR 2.0 может дать 20% IRS на eligible employment/self-employment income, но только для квалифицированных профессий и деятельности из утверждённых перечней и при выполнении условий режима; обычная IT-должность сама по себе не гарантирует право».",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais, art. 58.º-A; Portaria 352/2024/1"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].title",
+        "current": "Stack Overflow Jobs / RemoteOK",
+        "problem": "Stack Overflow Jobs закрыт как отдельная доска вакансий ещё в 2022 году; ссылаться на него как на актуальный портал вакансий в 2026 году неправильно.",
+        "suggestion": "Убрать Stack Overflow Jobs. Оставить RemoteOK и добавить актуальные альтернативы: Otta/Welcome to the Jungle, We Work Remotely, EU Remote Jobs, LinkedIn remote filters, GitHub/комьюнити-каналы.",
+        "confidence": "high",
+        "source": "Stack Overflow public announcement on discontinuing Jobs/Talent"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "IT (Landing.jobs, ITJobs.pt, Stack Overflow Jobs)",
+        "problem": "Повторяется устаревший источник: Stack Overflow Jobs больше не существует как актуальная job board.",
+        "suggestion": "Заменить на: «IT: Landing.jobs, ITJobs.pt, RemoteOK, We Work Remotely, LinkedIn».",
+        "confidence": "high",
+        "source": "Stack Overflow public announcement on discontinuing Jobs/Talent"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3].content[0].items[0]",
+        "current": "Тип: sem termo (бессрочный), a termo (срочный 6м–2 года), sem vínculo (фриланс через RV)",
+        "problem": "Смешаны трудовой договор и гражданско-правовая самозанятость. Recibos verdes/sem vínculo не является типом трудового договора. Также «a termo 6м–2 года» слишком упрощено: fixed-term может быть shorter в разрешённых случаях, а лимиты зависят от типа договора и оснований.",
+        "suggestion": "Написать: «Типы трудового договора: sem termo, a termo certo, a termo incerto. Recibos verdes — не трудовой договор, а prestação de serviços/самозанятость; проверьте риск falso recibo verde».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 139.º–149.º; ACT"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3].content[0].items[3]",
+        "current": "14-я зарплата + férias = по PT-закону",
+        "problem": "Формулировка может быть понята как «14-я зарплата плюс отпускные», то есть лишняя выплата. В Португалии обычно 12 месячных зарплат + subsídio de férias + subsídio de Natal = 14 выплат, если субсидии не выплачиваются duodécimos.",
+        "suggestion": "Заменить на: «Обычно 14 выплат в год: 12 зарплат + subsídio de férias + subsídio de Natal; иногда субсидии выплачиваются частями duodécimos».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 263.º и 264.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3].content[0].items[1]",
+        "current": "Trial period (período experimental): 90 дней / 180 для senior",
+        "problem": "«Для senior» неточно. 180 дней применяется не ко всем senior-ролям, а к работникам с technical complexity, high degree of responsibility, special qualification, trust positions, first-job seekers или long-term unemployed при определённых условиях.",
+        "suggestion": "Написать: «Período experimental: обычно 90 дней для бессрочного договора; 180 дней для ролей с technical complexity/high responsibility/special qualification и некоторых категорий работников; 240 дней для direção/quadros superiores».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 112.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3]",
+        "current": "Jobs.at (PT) — Немецкая платформа, популярна в DACH-компаниях в PT. Много EN вакансий, хорошие условия.",
+        "problem": "Jobs.at — австрийский/DACH job board, не общеизвестный значимый канал поиска работы именно в Португалии. Утверждение о популярности в PT и «много EN вакансий» выглядит недоказанным и может увести читателя в нерелевантный канал.",
+        "suggestion": "Заменить на более релевантные Portugal/EU-каналы: Expresso Emprego, Sapo Emprego, Emprego XL, JobTeaser, EURES или Welcome to the Jungle. Если оставить DACH-фокус — явно написать, что это нишевый канал для австрийских/немецких работодателей, а не общий PT-портал.",
+        "confidence": "medium",
+        "source": "EURES; IEFP"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4].content[0].text",
+        "current": "Государственный. Регистрация обязательна для безработных с пособием. Низкоквалифицированные + certains subsidies.",
+        "problem": "Смешение русского/французского/английского: «certains subsidies». Кроме того, IEFP не только про низкоквалифицированные вакансии; там есть меры поддержки занятости, стажировки, обучение и вакансии разных уровней.",
+        "suggestion": "Заменить на: «Государственный портал. Регистрация обычно нужна для получения/сохранения пособия по безработице. Есть вакансии, обучение, estágios и меры поддержки найма».",
+        "confidence": "high",
+        "source": "IEFP"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2]",
+        "current": "🎓 Признание дипломов: для regulated профессий (врач, архитектор, инженер) — через DGES + Ordens",
+        "problem": "Чрезмерно упрощено. DGES отвечает за признание иностранных academic degrees/diplomas, но доступ к регулируемой профессии часто решается соответствующей Ordem/профессиональным регулятором; для врачей важны Ordem dos Médicos и ACSS/Ministério da Saúde-процедуры, для инженеров — Ordem dos Engenheiros/Ordem dos Engenheiros Técnicos. Не всегда процесс «DGES + Ordem» одинаков.",
+        "suggestion": "Написать: «Academic recognition — через DGES/вуз; право работать в regulated profession — через соответствующую Ordem/регулятора, требования отличаются по профессии».",
+        "confidence": "medium",
+        "source": "DGES; professional Ordens"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "Средняя зарплата (national) — 1700 gross/мес",
+        "problem": "Не указано, что именно считается: base salary, monthly earnings, average vs median, 12 или 14 выплат. Для Португалии эти метрики сильно различаются; число без методологии может вводить в заблуждение.",
+        "suggestion": "Уточнить метрику и год: например «salário médio mensal bruto / remuneração bruta mensal por trabalhador, INE/GEP, latest available» или заменить на диапазон и добавить median, если цель — ориентир для кандидата.",
+        "confidence": "medium",
+        "source": "INE; GEP/MTSSS"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "INE — Estatísticas de salários — https://www.ine.pt/",
+        "problem": "Ссылка слишком общая для чувствительной цифры зарплаты. Читатель не сможет проверить конкретные 1700 €/мес, IT middle 2500–4000 и senior 4500–7500.",
+        "suggestion": "Добавить конкретные источники по зарплатам: INE/GEP for national wages; для IT — landing.jobs salary report, Hays Portugal Salary Guide, Michael Page Salary Benchmark или Teamlyzer, с годом отчёта.",
+        "confidence": "high",
+        "source": "INE; GEP/MTSSS; Hays Portugal Salary Guide; Michael Page Salary Benchmark"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Минимальная зарплата 2026 — 920 €/мес gross.",
+        "problem": "Для материковой Португалии значение верное, но без caveat по автономным регионам. На Madeira и Azores региональная минимальная зарплата обычно выше национальной.",
+        "suggestion": "Написать: «SMN 2026 на материке — 920 €/мес gross; в Madeira/Azores действуют региональные минимумы».",
+        "confidence": "high",
+        "source": "Decreto-Lei que fixa a RMMG 2026; regional legislation Madeira/Azores"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[0]",
+        "current": "Мин. зарплата PT 2026 — 920 gross/мес",
+        "problem": "Корректно для mainland, но не уточнено, что это Continente/RMMG; автономные регионы могут иметь повышенные минимумы.",
+        "suggestion": "Изменить label/note на: «Мин. зарплата Continente 2026 — 920 €/мес gross; Madeira/Azores — региональные значения».",
+        "confidence": "high",
+        "source": "Decreto-Lei que fixa a RMMG 2026; regional legislation Madeira/Azores"
+      }
+    ],
+    "missing_topics": [
+      "Различить визы D1, D3 и D2: D1 — обычная работа по найму, D3 — highly qualified activity, D2 — предпринимательство/самозанятость.",
+      "Добавить предупреждение про право на работу: наличие NIF/NISS само по себе не даёт non-EU гражданину права работать; нужен подходящий статус/разрешение.",
+      "Указать, что Portuguese employment offers обычно обсуждаются в gross annual package или gross monthly x14; сравнение с remote/EOR офферами требует учитывать 14 payments, IRS и Social Security.",
+      "Добавить caveat про recibos verdes и falso recibo verde: постоянная работа как подрядчик при признаках подчинения может быть незаконной схемой.",
+      "Добавить официальные источники по трудовым правам: ACT pages on contrato, período experimental, subsídios de férias/Natal.",
+      "Добавить актуальные источники по IT-зарплатам за 2025/2026 вместо только общей ссылки INE."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3575,
+    "prompt_tokens": 2962,
+    "total_tokens": 6537
+  },
+  "model": "gpt-5.5"
+}

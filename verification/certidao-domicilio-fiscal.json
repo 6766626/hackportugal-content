@@ -1,0 +1,121 @@
+{
+  "guideId": "certidao-domicilio-fiscal",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом полезный, но местами смешивает certidão de domicílio fiscal и certidão de residência fiscal, переобещает принятие документа AIMA/банками и даёт несколько неточных формулировок про меню, язык, срок действия и нерезидентов.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Нужна для: ... подтверждения резидентства для двойного налогообложения.",
+        "problem": "Certidão de domicílio fiscal подтверждает налоговый адрес, а не налоговое резидентство для целей соглашений об избежании двойного налогообложения. Для DTT нужна отдельная Certidão de Residência Fiscal, обычно за конкретный год/страну/цель. В тексте это дальше частично объясняется, но TLDR вводит в заблуждение.",
+        "suggestion": "Разделить: «Certidão de domicílio fiscal подтверждает налоговый адрес. Для подтверждения налогового резидентства по DTT нужна отдельная Certidão de Residência Fiscal».",
+        "confidence": "high",
+        "source": "Autoridade Tributária / Portal das Finanças; ePortugal — Certidão de residência fiscal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4]",
+        "current": "Certificado de residência fiscal для зарубежных налоговых — подтверждает, что вы PT-налоговый резидент для применения соглашений об избежании двойного налогообложения",
+        "problem": "В гайде про certidão de domicílio fiscal этот пункт выглядит как будто это тот же документ. На практике Certidão de Residência Fiscal — отдельная справка, не синоним certidão de domicílio fiscal.",
+        "suggestion": "Написать: «Не путать: для зарубежных налоговых и DTT нужна отдельная Certidão de Residência Fiscal, а не certidão de domicílio fiscal».",
+        "confidence": "high",
+        "source": "ePortugal — Certidão de residência fiscal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "\"Certidão de Residência Fiscal\" или \"Certidão de Domicílio Fiscal\" (зависит от вашего статуса — резидент или не-резидент).",
+        "problem": "Выбор справки зависит прежде всего от цели запроса, а не просто от статуса «резидент/нерезидент». Certidão de domicílio fiscal — про адрес; Certidão de residência fiscal — про налоговое резидентство за период/год и обычно для DTT/иностранного органа.",
+        "suggestion": "Заменить на: «Выбирайте Certidão de Domicílio Fiscal, если нужен адрес в AT; выбирайте Certidão de Residência Fiscal, если нужно подтвердить налоговое резидентство Португалии за конкретный год для иностранного налогового органа/DTT».",
+        "confidence": "high",
+        "source": "Autoridade Tributária / Portal das Finanças; ePortugal — Certidão de residência fiscal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Меню слева → \"Serviços\" → \"Certidões\" → \"Certidão de Residência Fiscal\" или \"Certidão de Domicílio Fiscal\"",
+        "problem": "Путь в Portal das Finanças может отличаться: обычно услуга находится через поиск по сайту или через «Todos os Serviços» / «Certidões» / «Pedir certidão». Формулировка слишком конкретная и может быстро устареть.",
+        "suggestion": "Написать менее хрупко: «В поиске Portal das Finanças введите “certidão domicílio fiscal” или откройте Todos os Serviços → Certidões → Pedir certidão и выберите нужный тип».",
+        "confidence": "medium",
+        "source": "Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[2]",
+        "current": "Выбрать язык — PT по умолчанию, есть EN версия для международного использования",
+        "problem": "Английская версия доступна не обязательно для всех типов certidões. Для Certidão de Residência Fiscal международная/англоязычная выдача встречается, но для Certidão de Domicílio Fiscal это не стоит обещать без оговорки.",
+        "suggestion": "Уточнить: «Для некоторых certidões, особенно residência fiscal, может быть доступна версия на английском; для domicílio fiscal часто достаточно португальского PDF с кодом верификации».",
+        "confidence": "medium",
+        "source": "Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3].content[0].text",
+        "current": "Банки и AIMA принимают электронную версию, распечатанную на принтере.",
+        "problem": "Слишком категорично. Документ с кодом верификации является официальной электронной certidão, но конкретный банк, balcão или AIMA-процесс может попросить иной proof of address или более свежий документ.",
+        "suggestion": "Заменить на: «Обычно принимают PDF/распечатку с кодом верификации, но банк или AIMA могут запросить другой или более свежий proof of address».",
+        "confidence": "high",
+        "source": "Практика банков/AIMA; Portal das Finanças для электронной certidão"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3]",
+        "current": "Выдают распечатанную версию с печатью — срок выдачи в день",
+        "problem": "Не гарантировано, что в каждом serviço de finanças выдадут именно «с печатью» и всегда в тот же день. Часто сотрудник просто помогает получить/распечатать электронную certidão.",
+        "suggestion": "Написать: «Обычно выдают или помогают распечатать certidão в день обращения, но формат и срок зависят от serviço de finanças и типа справки».",
+        "confidence": "medium",
+        "source": "Autoridade Tributária / atendimento presencial"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "IRN / AIMA — до 6 мес принимают",
+        "problem": "Нет универсального официального правила «до 6 месяцев» для всех процедур IRN/AIMA. На практике срок свежести зависит от процедуры и сотрудника; часто требуют 3 месяца, иногда 6.",
+        "suggestion": "Заменить на: «IRN/AIMA: зависит от процедуры; безопаснее подавать справку не старше 3 месяцев, если в конкретном списке документов не указан иной срок».",
+        "confidence": "high",
+        "source": "IRN/AIMA procedural practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].text",
+        "current": "Для нерезидентов (не-PT налоговых резидентов) Portal das Finanças показывает только адрес страны происхождения.",
+        "problem": "Неточно: речь не о «стране происхождения», а о налоговом domicilio fiscal, который у нерезидента обычно находится за границей; это может быть страна проживания, а не происхождения/гражданства. Также возможны fiscal representative, morada de contacto и другие нюансы.",
+        "suggestion": "Заменить на: «У нерезидентов domicilio fiscal в AT обычно является зарубежный адрес налогового проживания, а не португальский адрес; поэтому certidão может не подтвердить фактический адрес в Португалии».",
+        "confidence": "high",
+        "source": "Código do IRS / Autoridade Tributária — domicílio fiscal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].text",
+        "current": "Если нужно подтвердить адрес в PT для небюрократических целей (банк) — вместо certidão fiscal используйте atestado de residência Junta de Freguesia.",
+        "problem": "Atestado de residência от Junta de Freguesia не является автоматической заменой: junta может требовать доказательства фактического проживания, свидетелей/eleitores da freguesia, договор, счета и т.п.; требования отличаются по freguesia. Также банки не обязаны принимать именно этот документ.",
+        "suggestion": "Добавить оговорку: «Junta выдаёт atestado только при подтверждении фактического проживания; список доказательств зависит от freguesia, а банк заранее стоит спросить, какой proof of address он принимает».",
+        "confidence": "high",
+        "source": "Juntas de Freguesia — emissão de atestado de residência"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Portal das Finanças — Certidões — https://www.portaldasfinancas.gov.pt/at/html/index.html",
+        "problem": "URL ведёт на общий Portal das Finanças, а не на конкретную услугу/страницу certidões. Это не dead link, но слабая ссылка для проверки конкретных шагов.",
+        "suggestion": "Добавить более проверяемую ссылку или инструкцию через поиск Portal: «Portal das Finanças → pesquisa: certidão domicílio fiscal / pedir certidão». Если доступен публичный deep link услуги, использовать его.",
+        "confidence": "medium",
+        "source": "Portal das Finanças"
+      }
+    ],
+    "missing_topics": [
+      "Явное предупреждение «certidão de domicílio fiscal ≠ certidão de residência fiscal» в начале гайда.",
+      "Оговорка, что Certidão de Residência Fiscal выдаётся только при наличии подтверждаемого налогового резидентства Португалии за соответствующий год/период.",
+      "Уточнение, что для proof of address банки/AIMA могут принять и другие документы: contrato de arrendamento, recibos de renda, utilities, atestado da Junta, declaração da entidade patronal — зависит от процедуры.",
+      "Краткое указание, что изменить налоговый адрес нужно отдельно в AT/Cartão de Cidadão, и certidão только отражает уже зарегистрированный адрес."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3125,
+    "prompt_tokens": 2052,
+    "total_tokens": 5177
+  },
+  "model": "gpt-5.5"
+}

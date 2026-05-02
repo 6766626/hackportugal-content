@@ -1,0 +1,232 @@
+{
+  "guideId": "close-activity",
+  "categoryId": "work_business",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has several material errors on deadlines, VAT/IRS/Social Security mechanics, company dissolution procedure/costs, record-retention periods, and insolvency options.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "«ст. 33 CIVA — через Portal das Finanças бесплатно в 15 дней после последнего выставленного чека»",
+        "problem": "Deadline is wrong and the trigger is misleading. The declaration of cessation is generally due within 30 days, not 15, and it is tied to cessation of activity, not simply the last recibo issued.",
+        "suggestion": "Write: «cessação de atividade подаётся в Portal das Finanças бесплатно; обычно срок — 30 дней с даты прекращения деятельности. При поздней подаче возможна coima.»",
+        "confidence": "high",
+        "source": "CIVA art. 33; CIRS art. 112"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[4]",
+        "current": "«Pozvolяет закрыть на любой день, в том числе ретроактивно (но с обоснованием)»",
+        "problem": "Retroactive cessation is possible in practice, but presenting it as freely allowed is misleading. Late declarations can trigger fines and AT may require evidence.",
+        "suggestion": "Write: «Можно указать фактическую дату прекращения, включая прошлую дату, но если 30-дневный срок пропущен — возможна coima и запрос доказательств от AT.»",
+        "confidence": "high",
+        "source": "CIVA art. 33; Regime Geral das Infrações Tributárias"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[2]",
+        "current": "«Срок: до 20-го числа следующего месяца»",
+        "problem": "VAT periodic declaration deadlines are not simply the 20th of the next month. Monthly and quarterly VAT returns are generally due by the 20th day of the second month after the relevant period, with payment normally by the 25th.",
+        "suggestion": "Write: «Срок final IVA — по обычным правилам периода IVA: декларация обычно до 20-го числа второго месяца после месяца/квартала, оплата — до 25-го. Проверяйте календарь AT.»",
+        "confidence": "high",
+        "source": "CIVA arts. 27 and 41; AT Calendário Fiscal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[0]",
+        "current": "«Если были IVA payer (>15k оборот) — подать final IVA-декларацию»",
+        "problem": "Being an IVA taxable person is not only determined by turnover above €15,000. Some activities/operations require VAT regardless of turnover, and some taxpayers under Article 53 exemption do not submit periodic VAT returns.",
+        "suggestion": "Write: «Если вы были в normal IVA regime и подавали periodic IVA declarations — подайте последнюю декларацию за период cessação. Если вы были в isenção art. 53 CIVA, periodic IVA обычно не подаётся.»",
+        "confidence": "high",
+        "source": "CIVA arts. 29, 41 and 53"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[2]",
+        "current": "«Если CTC / cat simplif — 75% как база»",
+        "problem": "The 75% coefficient is not universal. In the simplified regime, coefficients vary by type of income: e.g. 0.75 for many professional services, 0.35 for other services, 0.15 for sales and certain hospitality, etc.",
+        "suggestion": "Write: «В regime simplificado база считается по коэффициенту ст. 31 CIRS: часто 75% для профессиональных услуг из таблицы ст. 151, но для других доходов коэффициенты другие.»",
+        "confidence": "high",
+        "source": "CIRS art. 31; Portaria 1011/2001 activity table"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[4].content[0].items[2]",
+        "current": "«Final взнос за месяц cessação: 21.4% от 70% оборота того месяца»",
+        "problem": "This is materially wrong. Social Security contributions for trabalhadores independentes are based on relevant income declared quarterly, normally 70% of services or 20% of sales/production/hotel/restaurant income from the previous quarter, not simply 70% of turnover in the month of cessation.",
+        "suggestion": "Write: «Взносы TI считаются по quarterly declaration: relevant income обычно 70% услуг или 20% sales/production/hotel/restaurant за предыдущий квартал, ставка TI — 21,4%, с возможной корректировкой в пределах правил SS. После cessação проверьте последнюю квартальную декларацию/обязанность в Segurança Social Direta.»",
+        "confidence": "high",
+        "source": "Código dos Regimes Contributivos do Sistema Previdencial de Segurança Social; Segurança Social — Trabalhadores Independentes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4].content[0].items[3]",
+        "current": "«Срок: 20-е число следующего месяца»",
+        "problem": "For Segurança Social contributions, payment is normally from the 10th to the 20th of the following month. Saying only “20th” omits the payment window and can confuse readers.",
+        "suggestion": "Write: «Оплата взносов SS обычно с 10-го по 20-е число следующего месяца.»",
+        "confidence": "high",
+        "source": "Segurança Social — Pagamento de contribuições dos trabalhadores independentes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1]",
+        "current": "«если вы открыли, закрыли в < 12 мес — AT может flag как suspicious (попытка уйти от налогов)»",
+        "problem": "This is presented as a rule but there is no clear official 12-month anti-abuse threshold for reopening an activity. It is speculative and may scare readers unnecessarily.",
+        "suggestion": "Remove or soften: «Частые открытия/закрытия без реальной причины могут вызвать вопросы AT/SS, поэтому храните доказательства фактической деятельности и причин cessação/reabertura.»",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "«Рекомендуется держать ≥ 12 мес между close и re-open»",
+        "problem": "There is no general legal requirement or official recommendation to wait 12 months before reopening activity.",
+        "suggestion": "Delete this sentence or replace with: «Reabertura можно сделать, когда деятельность фактически возобновилась; важнее корректно декларировать реальные даты.»",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3]",
+        "current": "«снова 12 мес carência освобождения SS (если не работали по recibos verdes в prev 3 года)»",
+        "problem": "The “previous 3 years” condition is likely wrong/misleading for the Social Security initial effects/exemption rule. The relevant rule is not a simple 3-year reset as written.",
+        "suggestion": "Write more cautiously: «При reabertura проверьте в Segurança Social Direta, возникает ли новое enquadramento и с какого месяца начинаются взносы; автоматическая новая 12-месячная carência не гарантирована.»",
+        "confidence": "medium",
+        "source": "Código dos Regimes Contributivos do Sistema Previdencial de Segurança Social; Segurança Social — Trabalhadores Independentes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[2]",
+        "current": "«Publicação в Boletim Oficial»",
+        "problem": "For mainland Portugal companies, commercial acts are published via the Ministry of Justice commercial publication system, not “Boletim Oficial” in the usual sense. “Boletim Oficial” is misleading terminology here.",
+        "suggestion": "Write: «Publicação/registo comercial é feito através dos serviços do registo comercial / publicações do Ministério da Justiça.»",
+        "confidence": "high",
+        "source": "Portal da Justiça / IRN — publicações de atos societários"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3].content[0].items[0]",
+        "current": "«“Empresa na Hora” dissolução — за день в Conservatória»",
+        "problem": "The service name is wrong. “Empresa na Hora” is for incorporating companies. The closure service is generally “Dissolução e Liquidação na Hora” / immediate extinction of commercial entities.",
+        "suggestion": "Write: «Dissolução e Liquidação na Hora / extinção imediata — в Conservatória, если выполнены условия.»",
+        "confidence": "high",
+        "source": "IRN — Dissolução e Liquidação na Hora / Extinção imediata de entidades comerciais"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3].content[0].items[2]",
+        "current": "«Стоимость: ~360 €»",
+        "problem": "The quoted amount is likely inaccurate for the standard immediate dissolution/liquidation service. The commonly published IRN fee is €300 for dissolução e liquidação na hora, subject to extras/specific acts.",
+        "suggestion": "Write: «Стоимость обычно около €300 по IRN fee table, но проверьте актуальные emolumentos и возможные дополнительные расходы.»",
+        "confidence": "medium",
+        "source": "IRN — tabela de emolumentos / Dissolução e Liquidação na Hora"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[0].title",
+        "current": "«Этап 1: Dissolução (распаковка)»",
+        "problem": "Translation is wrong. “Dissolução” means dissolution, not “unpacking”.",
+        "suggestion": "Write: «Этап 1: Dissolução (роспуск/прекращение компании)».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[2].content[0].items[3]",
+        "current": "«Depósito book-keeping 5 лет (по закону)»",
+        "problem": "The 5-year retention period is wrong/misleading for company accounting and tax records. In Portugal, accounting/tax documents are generally kept for 10 years.",
+        "suggestion": "Write: «Сохранить бухгалтерские и налоговые документы обычно на 10 лет; уточните у contabilista для конкретного типа документов.»",
+        "confidence": "high",
+        "source": "CIRC art. 123; CIVA art. 52; Código Comercial art. 40"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "«PEVE (Processo Especial de Viabilização) — для микро-бизнеса»",
+        "problem": "PEVE was an exceptional/temporary COVID-era viability procedure and is not a normal available insolvency/restructuring route in 2026. Presenting it as current is outdated.",
+        "suggestion": "Remove PEVE or write: «PEVE был временным механизмом и в 2026 обычно не является доступной стандартной процедурой; актуальные варианты — PER для компаний/debtors meeting requirements, PEAP for individuals in some cases, insolvência under CIRE.»",
+        "confidence": "high",
+        "source": "Lei 75/2020; CIRE"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[6]",
+        "current": "«Close bank account компании (или convert в личный)»",
+        "problem": "A company bank account generally cannot simply be converted into a personal account. It should be closed after liquidation/settlement, with remaining funds distributed according to the liquidation accounts.",
+        "suggestion": "Write: «Закрыть корпоративный банковский счёт после завершения расчётов и распределения остатка; не “convert в личный”.»",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].items[0]",
+        "current": "«Informar regulator если деятельность была regulated (например, immobiliaria — APEMIP; seguros — ASF)»",
+        "problem": "For real estate mediation, APEMIP is an association, not the public regulator/licensing authority. The relevant authority is IMPIC for AMI licensing. ASF for insurance is correct.",
+        "suggestion": "Write: «например, mediação imobiliária — IMPIC/AMI; seguros — ASF; другие regulated activities — соответствующий regulador/licensing authority.»",
+        "confidence": "high",
+        "source": "IMPIC — mediação imobiliária; ASF"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr vs steps[2].content[1].items[1].content[0].items[5]",
+        "current": "tldr: «Процесс 6-12 мес»; body: «Процесс: 6-18 мес»",
+        "problem": "Internal contradiction on expected duration of company liquidation.",
+        "suggestion": "Use one range consistently, e.g. «simple immediate cases can be same-day; ordinary liquidation often takes months and can exceed 12 months depending on assets, debts and disputes.»",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "tldr vs steps[0].content[0].items[4].content[0].items[0]",
+        "current": "tldr: «уведомить Segurança Social»; body: «Автоматически получают уведомление от AT в 10 дней»",
+        "problem": "The guide contradicts itself on whether the taxpayer must notify Segurança Social. In practice AT/SS data exchange exists, but the taxpayer should still verify status and obligations in Segurança Social Direta.",
+        "suggestion": "Write consistently: «AT обычно передаёт информацию, но после cessação проверьте Segurança Social Direta и последнюю декларацию/взносы.»",
+        "confidence": "high",
+        "source": "Segurança Social — Trabalhadores Independentes"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1].content[0].items[3]",
+        "current": "«Hand over archived records (5 лет hold)»",
+        "problem": "Repeats the wrong 5-year retention period.",
+        "suggestion": "Write: «Архивировать бухгалтерские/налоговые документы обычно на 10 лет.»",
+        "confidence": "high",
+        "source": "CIRC art. 123; CIVA art. 52; Código Comercial art. 40"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "«Portal das Finanças — Cessação Atividade», url: «https://info.portaldasfinancas.gov.pt/»",
+        "problem": "Source URL is too generic for a guide relying on specific deadlines and obligations. It does not point readers to the actual cessation/activity or VAT/IRS guidance.",
+        "suggestion": "Use specific AT pages or legal sources for cessação de atividade, CIVA art. 33, CIVA arts. 27/41, CIRS art. 112, and Calendário Fiscal.",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira; Diário da República"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "«IRN — Conservatória Comercial», url: «https://justica.gov.pt/»",
+        "problem": "URL is too generic and does not substantiate the immediate dissolution/liquidation procedure or fee.",
+        "suggestion": "Use the specific IRN/Portal da Justiça page for «Dissolução e Liquidação na Hora» / «Extinção imediata de entidades comerciais» and the applicable emoluments table.",
+        "confidence": "high",
+        "source": "IRN / Portal da Justiça"
+      }
+    ],
+    "missing_topics": [
+      "Mention that late cessação de atividade can generate coimas and that evidence of actual cessation may be requested.",
+      "Explain the difference between invoice, invoice-receipt, receipt, credit note and bad-debt/write-off treatment; a recibo is not the same as an unpaid invoice.",
+      "For companies, mention the duty of directors to request insolvency within the legal deadline when the company is insolvent.",
+      "For companies with employees, mention separate employment-law steps: terminations, compensation, ACT/Segurança Social reporting and final payroll.",
+      "For VAT, mention asset regularisations/self-supply issues on cessation if business assets remain or VAT was deducted.",
+      "For companies, mention closing beneficial owner/RCBE and other registrations only where applicable, and coordinating with a certified accountant.",
+      "For licensed activities, name actual regulators such as IMPIC for real estate mediation rather than trade associations."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5385,
+    "prompt_tokens": 3399,
+    "total_tokens": 8784
+  },
+  "model": "gpt-5.5"
+}

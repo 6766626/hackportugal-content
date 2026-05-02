@@ -1,0 +1,130 @@
+{
+  "guideId": "portuguese-phrases",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен как разговорник, но содержит несколько заметных фактических ошибок и устаревших ссылок/институций, особенно про Duolingo, ACM/PLA и формальность «você».",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«tu» реже, «você» — формальное",
+        "problem": "Это вводит в заблуждение для европейского португальского. В Португалии «tu» очень часто используется в неформальном общении, а «você» не является безопасным универсальным формальным обращением: оно может звучать холодно, дистанцированно или даже невежливо. Для вежливого обращения чаще используют «o senhor / a senhora», имя/титул или просто глагол в 3-м лице без местоимения.",
+        "suggestion": "Заменить на: «В Португалии “tu” — обычное неформальное обращение с друзьями/ровесниками; для вежливого общения безопаснее “o senhor/a senhora” или 3-е лицо без местоимения. “Você” лучше не считать универсально формальным: в Португалии оно может звучать дистанцированно».",
+        "confidence": "high",
+        "source": "Priberam/Infopédia usage notes; standard European Portuguese usage"
+      },
+      {
+        "severity": "major",
+        "where": "steps[7].content[0].items[0]",
+        "current": "📚 Programa PLA (Português Língua de Acolhimento) — бесплатные курсы от ACM в муниципальных центрах",
+        "problem": "ACM как прежний орган интеграции мигрантов устарел: его функции были переданы AIMA с октября 2023. Кроме того, PLA не следует описывать просто как «курсы от ACM в муниципальных центрах»: программа реализуется через сеть организаций/школ/IEFP/Qualifica и другие уполномоченные структуры, условия и наличие мест зависят от провайдера.",
+        "suggestion": "Написать: «Programa PLA (Português Língua de Acolhimento) — курсы португальского для мигрантов через публичную сеть провайдеров, включая школы/IEFP/centros Qualifica; информацию и направления ищите через AIMA, IEFP, DGEstE/Qualifica и муниципальные службы. Места и расписание зависят от региона».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2023; AIMA; IEFP; DGEstE/Qualifica"
+      },
+      {
+        "severity": "major",
+        "where": "steps[7].content[0].items[3]",
+        "current": "📱 Duolingo — базово, но European Portuguese",
+        "problem": "Неверно: курс Portuguese в Duolingo в основном обучает бразильскому португальскому, а не европейскому. Это критично для произношения, лексики и некоторых грамматических/прагматических привычек.",
+        "suggestion": "Заменить на: «Duolingo — базово, но в основном Brazilian Portuguese; для европейского португальского лучше дополнять Practice Portuguese, Portuguese With Leo, RTP, Instituto Camões/CAPLE-материалами».",
+        "confidence": "high",
+        "source": "Duolingo Portuguese course description / course content"
+      },
+      {
+        "severity": "major",
+        "where": "sources[1]",
+        "current": "ACM — Programa PLA, https://www.acm.gov.pt/-/programa-portugues-lingua-de-acolhimento-pla-",
+        "problem": "Источник завязан на ACM, который институционально устарел после создания AIMA. Даже если старые страницы ACM где-то доступны/архивируются, для гайда с lastVerified 2026 лучше ссылаться на актуальные страницы AIMA/IEFP/DGEstE/Qualifica по PLA.",
+        "suggestion": "Заменить или дополнить актуальными официальными источниками: AIMA page on Portuguese language/PLA, IEFP PLA information, DGEstE/Qualifica network pages. Не оставлять ACM как единственный официальный источник.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2023; AIMA; IEFP"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[9]",
+        "current": "🧾 Com NIF, por favor (ком НИФ) — с НИФом, пожалуйста (чтобы fatura пошла в Faturas.pt для вычета IRS)",
+        "problem": "Название сервиса указано неправильно/неудачно. Для налоговых вычетов счета с NIF появляются в e-Fatura на Portal das Finanças, а не в «Faturas.pt». Также не любая fatura автоматически дает вычет: важны категория расходов, подтверждение/валидация и правила IRS.",
+        "suggestion": "Написать: «Com NIF, por favor — с NIF, пожалуйста, чтобы счет появился в e-Fatura на Portal das Finanças; для IRS-вычетов категорию расходов иногда нужно проверить/подтвердить».",
+        "confidence": "high",
+        "source": "Portal das Finanças — e-Fatura"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[4]",
+        "current": "🥐 Um pastel de nata (ум пашта́у ди на́та) — пастель де ната",
+        "problem": "Русская транскрипция неверная: «pastel» не произносится как «пашта́у»; это может быть спутано с окончанием «-ão». В европейском португальском ближе к «паштел/паштэл» с темным финальным L.",
+        "suggestion": "Исправить на: «Um pastel de nata (ум паштел ди ната / паштэл ди ната) — пастель де ната».",
+        "confidence": "high",
+        "source": "European Portuguese pronunciation norms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0]",
+        "current": "🌅 Bom dia (бон дия) — доброе утро / день (до 12:00)",
+        "problem": "Слишком жесткая привязка ко времени. В Португалии «Bom dia» обычно до обеда/lunch time, а не строго до 12:00.",
+        "suggestion": "Написать: «Bom dia — доброе утро / добрый день до обеда».",
+        "confidence": "high",
+        "source": "Common European Portuguese usage"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "☀️ Boa tarde (боа тард) — добрый день (12:00-19:00)",
+        "problem": "Слишком жесткая привязка ко времени. «Boa tarde» обычно используется после обеда и до вечера; граница зависит от контекста, сезона и ситуации, а не строго 12:00–19:00.",
+        "suggestion": "Написать: «Boa tarde — добрый день/вечер после обеда и до наступления “boa noite”».",
+        "confidence": "high",
+        "source": "Common European Portuguese usage"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2].content[0].text",
+        "current": "Между гласными — «з» (casa = кáза). В начале / после согласной — «с» (sol = со́ль).",
+        "problem": "Правило для S в европейском португальском слишком упрощено и частично неверно. В начале слова S обычно [s], между гласными [z], но в конце слога/слова часто [ʃ] или [ʒ] в зависимости от следующего звука: например, «os carros» ≈ «уш карруш», «os amigos» ≈ «уж амигуш». «После согласной — с» как общее правило неверно.",
+        "suggestion": "Заменить на: «S в начале слова обычно “с” (sol), между гласными — “з” (casa). В конце слога/слова в европейском португальском часто звучит как “ш/ж” в зависимости от следующего звука: os carros ≈ уш карруш, os amigos ≈ уж амигуш».",
+        "confidence": "high",
+        "source": "European Portuguese phonology"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[3].content[0].text",
+        "current": "LH = «ль» (trabalho), NH = «нь» (senhor). Как в испанском ll и ñ.",
+        "problem": "Сравнение с испанским ll может вводить в заблуждение: в современном испанском ll во многих регионах произносится как [ʝ]/«й», а не как португальский LH [ʎ]. Сравнение с ñ для NH нормально.",
+        "suggestion": "Написать: «LH — мягкий “ль/льй” [ʎ], NH — “нь” [ɲ]. Не ориентируйтесь на современное испанское ll, которое во многих странах звучит иначе».",
+        "confidence": "high",
+        "source": "European Portuguese phonology; Spanish yeísmo"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[4]",
+        "current": "⚠️ «Bicha» — ОЧЕРЕДЬ в PT (в Бразилии — оскорбление; будьте осторожны)",
+        "problem": "Недостаточная оговорка: в Португалии «bicha» действительно может означать очередь, но это разговорное слово и также может иметь оскорбительные/вульгарные значения в зависимости от контекста. Для новичков безопаснее использовать «fila».",
+        "suggestion": "Написать: «“Bicha” — разговорно “очередь” в Португалии, но слово может иметь оскорбительные значения; безопаснее говорить “fila”. В Бразилии особенно не используйте».",
+        "confidence": "high",
+        "source": "Priberam; Infopédia"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0]",
+        "current": "📅 Quero marcar uma consulta — хочу записаться на приём",
+        "problem": "В бюрократическом контексте «consulta» часто звучит как медицинская консультация. Для Finanças/AIMA/Loja do Cidadão естественнее «marcação» или «agendamento». Фраза не ошибочная, но может быть менее точной.",
+        "suggestion": "Добавить вариант: «Quero fazer uma marcação / Quero agendar um atendimento — хочу записаться на прием в учреждении».",
+        "confidence": "medium",
+        "source": "Common administrative Portuguese usage"
+      }
+    ],
+    "missing_topics": [
+      "Добавить номер экстренной помощи 112 и фразу «Ligue para o 112, por favor».",
+      "Добавить короткую оговорку, что русская транскрипция приблизительная и не заменяет аудио европейского португальского.",
+      "Добавить безопасные формы вежливого обращения: «o senhor / a senhora», «podia…?», «se faz favor».",
+      "Добавить caveat, что CIPLE A2 — не единственный способ подтвердить знание языка для гражданства; возможны школьные/сертификационные альтернативы и освобождения в отдельных случаях."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4170,
+    "prompt_tokens": 3369,
+    "total_tokens": 7539
+  },
+  "model": "gpt-5.5"
+}

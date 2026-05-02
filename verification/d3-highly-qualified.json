@@ -1,0 +1,152 @@
+{
+  "guideId": "d3-highly-qualified",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly about the right route, but it materially misstates IFICI, EU Blue Card/D3 salary logic, the legal article for the residence permit, and makes D3 look available for ordinary remote/international-company employment.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[4].content[0].text",
+        "current": "До 31 марта года, следующего за становлением резидентом — 20% плоский налог на квалифицированный доход 10 лет.",
+        "problem": "This uses the old NHR-style 31 March deadline. IFICI/NHR 2.0 has a different application deadline and is not a generic 20% flat tax for every D3 holder. The regime only applies if the person meets the IFICI legal conditions, has not been Portuguese tax resident in the previous 5 years, is not using/has not used NHR in incompatible ways, and performs eligible activities with the required employer/entity certification/registration where applicable.",
+        "suggestion": "Replace with: \"IFICI не автоматический для D3. Обычно заявление подают до 15 января года, следующего за годом, когда вы стали налоговым резидентом. Режим даёт 20% IRS на eligible net employment/self-employment income from listed scientific, innovation or qualified activities for up to 10 years, если выполнены условия IFICI; нужно отдельно проверить профессию, работодателя/организацию и отсутствие налогового резидентства в PT за предыдущие 5 лет.\"",
+        "confidence": "high",
+        "source": "Portaria 352/2024/1; Estatuto dos Benefícios Fiscais art. 58-A"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "D3 — для специалистов с высшим образованием на контракте в португальской или международной компании.",
+        "problem": "Misleading for remote workers and foreign employers. A D3 subordinate-work route normally requires a work contract or promise of contract for highly qualified activity with an employer established/operating in Portugal. A contract with a foreign company with no Portuguese employment setup is usually not enough; remote work for a foreign employer is more likely D8, not D3.",
+        "suggestion": "Write: \"D3 — для высококвалифицированной работы в Португалии: нужен contrato de trabalho или promessa de contrato, как правило с португальским работодателем/португальской структурой иностранной компании. Для удалённой работы на иностранную компанию без португальского контракта смотрите D8.\"",
+        "confidence": "high",
+        "source": "Lei 23/2007, arts. 61 and 90; vistos.mne.gov.pt national visa rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Диплом высшего образования (5+ лет обучения) с апостилем и переводом",
+        "problem": "The '5+ years of study' wording is not the D3 rule and can wrongly exclude bachelor-level graduates. Highly qualified activity is based on adequate higher qualification/specialised skills; in some contexts equivalent high professional experience may also matter. Five years is more relevant to recognition of professional experience in some EU Blue Card contexts, not a blanket D3 diploma requirement.",
+        "suggestion": "Replace with: \"Диплом о высшем образовании/квалификация, соответствующая высококвалифицированной деятельности, с апостилем и переводом; в отдельных случаях может приниматься подтверждённый релевантный профессиональный опыт. Для регулируемых профессий — признание диплома и/или регистрация в профессиональной Ordem.\"",
+        "confidence": "high",
+        "source": "Lei 23/2007, arts. 3, 61, 90 and 121-A"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3]",
+        "current": "Зарплата ≥ 1.5× средняя зарплата PT (примерно €2 200/мес по 2026)",
+        "problem": "Oversimplified and potentially wrong as a hard minimum. D3/highly qualified visa materials usually refer to annual remuneration of at least 1.5× the national average gross annual salary or 3× IAS. For 2026 IAS is €537.13, so 3× IAS is €1,611.39/month. Also the law/source speaks in annual gross remuneration, and Portuguese pay is often discussed over 14 salaries, so a monthly number without saying 12 vs 14 payments is misleading.",
+        "suggestion": "Write: \"Порог указывается как годовая gross remuneration: обычно ≥ 1.5× national average gross annual salary или ≥ 3× IAS. В 2026 IAS = €537.13, 3× IAS = €1,611.39/мес; если считать по 1.5× средней зарплате, пересчитывайте именно годовую gross сумму и уточняйте практику конкретного консульства/AIMA.\"",
+        "confidence": "medium",
+        "source": "Lei 23/2007; Portaria setting IAS 2026; MNE national visa requirements"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].text",
+        "current": "Для EU Blue Card (часто совмещается с D3) порог выше: ≈ €4 400/мес.",
+        "problem": "The EU Blue Card is a separate residence title/route, not something 'often combined' with D3 in the way written. The quoted €4,400/month threshold appears materially too high for Portugal's standard EU Blue Card salary rule. The Blue Card threshold is generally tied to 1.5× national average gross annual salary, with possible reduced thresholds for shortage/ISCO groups, not roughly double the D3 threshold.",
+        "suggestion": "Replace with: \"EU Blue Card / Cartão Azul UE — отдельный режим для высококвалифицированной работы. Порог зарплаты также считается от national average gross annual salary, с особыми правилами/пониженными коэффициентами для некоторых профессий; не используйте фиксированные €4,400/мес без проверки актуального AIMA/MNE порога.\"",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 121-A et seq.; Directive (EU) 2021/1883"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "AIMA — ВНЖ (art. 75)",
+        "problem": "Wrong legal article for D3/highly qualified residence. Article 75 is not the substantive highly qualified activity residence permit article. The relevant residence permit after D3 for highly qualified activity is Article 90 of Lei 23/2007; EU Blue Card has its own articles.",
+        "suggestion": "Change label to: \"AIMA — emissão do título de residência para atividade altamente qualificada (art. 90 Lei 23/2007)\". If discussing EU Blue Card, list it separately as \"Cartão Azul UE\" with its own legal basis and fees.",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 90"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Есть доступ к IFICI (20% налог).",
+        "problem": "Too broad. D3 status does not by itself grant IFICI. Many D3 workers, including ordinary IT employees in non-certified/private roles, may not qualify depending on the activity, employer/entity, registration and tax-history conditions.",
+        "suggestion": "Write: \"D3 может помочь попасть в профиль, потенциально совместимый с IFICI, но IFICI проверяется отдельно: eligible activity + eligible employer/entity/registration + no PT tax residence in previous 5 years + timely application.\"",
+        "confidence": "high",
+        "source": "Portaria 352/2024/1; Estatuto dos Benefícios Fiscais art. 58-A"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "Работодатель готовит contrato de trabalho, часто регистрирует в Segurança Social (социальное страхование).",
+        "problem": "Missing a critical D3 requirement: for the national visa, a promise/contract duration requirement is commonly applied. D3 documentation normally expects an employment contract or promise of employment contract for highly qualified activity, often with at least one year duration.",
+        "suggestion": "Add: \"Для D3 контракт/promessa должен быть на высококвалифицированную деятельность и обычно минимум на 1 год; salary threshold считается по annual gross remuneration.\"",
+        "confidence": "high",
+        "source": "MNE national visa requirements; Lei 23/2007, art. 61"
+      },
+      {
+        "severity": "minor",
+        "where": "tags[3]",
+        "current": "ict",
+        "problem": "ICT can be confused with intra-corporate transfer, which is a different immigration category with separate rules. Tagging a D3 guide as ICT may mislead readers who are looking for intra-company transfer permits.",
+        "suggestion": "Remove the \"ict\" tag unless the guide explicitly explains that intra-corporate transfer is not the same as D3 and links to the correct ICT route.",
+        "confidence": "medium",
+        "source": "Lei 23/2007, intra-corporate transfer provisions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3].content[0].text",
+        "current": "После визы — заехать, оформить NIF/NISS, записаться в AIMA.",
+        "problem": "The wording is too generic. NIF is often obtained before applying for/using the visa, NISS may require a work relationship and can be handled by the employer, and some national visas historically carried an AIMA/SEF appointment rather than requiring the applicant to 'book' one from scratch.",
+        "suggestion": "Write: \"NIF часто оформляют заранее; NISS обычно оформляется после начала трудовых отношений/через работодателя. Проверьте, указана ли AIMA appointment в визе; если нет — нужно добиваться записи через AIMA.\"",
+        "confidence": "medium",
+        "source": "AIMA/Social Security administrative practice"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "AIMA — приём + анализ: €133, note: с 01.03.2026",
+        "problem": "Fee label is imprecise and should cite the actual AIMA fee table item. If this is the post-01.03.2026 amount, readers need to know it is the 'pedido/análise de concessão' fee, separate from card issuance, and amounts may include cents/updates depending on the table.",
+        "suggestion": "Rename to \"AIMA — pedido/análise de concessão de autorização de residência\" and cite the AIMA fee table in force from 01.03.2026. Keep cents exactly as in the table.",
+        "confidence": "medium",
+        "source": "AIMA tabela de taxas em vigor desde 01.03.2026"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "https://aima.gov.pt/pt/",
+        "problem": "AIMA homepage is not a sufficient source for a D3/highly qualified residence permit guide, especially where fees and legal articles are quoted.",
+        "suggestion": "Replace or add direct AIMA pages for the relevant residence permit category and the current AIMA fee table effective 01.03.2026.",
+        "confidence": "high",
+        "source": "AIMA official website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "https://diariodarepublica.pt/dr/pesquisa?q=IFICI",
+        "problem": "A Diário da República search URL is not a stable legal citation for IFICI, and the guide gives tax advice without citing the operative law/regulation.",
+        "suggestion": "Use direct references to \"Portaria 352/2024/1\" and the relevant EBF/CIRS provisions governing IFICI, plus AT/Portal das Finanças guidance if available.",
+        "confidence": "high",
+        "source": "Portaria 352/2024/1; Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "audience.citizenships",
+        "current": "[\"thirdCountry\", \"cplp\"]",
+        "problem": "Including CPLP is not wrong, but the guide does not explain that CPLP citizens may also have a separate CPLP residence-permit channel with different practical rules/fees, while D3 requirements remain the same if they choose D3.",
+        "suggestion": "Add a caveat: \"Для граждан CPLP D3 возможна, но существует отдельный режим CPLP; требования, сроки, права на семью и сборы могут отличаться — сравните маршруты перед подачей.\"",
+        "confidence": "medium",
+        "source": "Lei 23/2007 CPLP provisions; AIMA CPLP guidance"
+      }
+    ],
+    "missing_topics": [
+      "D3 requires the job itself to qualify as highly qualified activity; not every IT/manager title qualifies automatically.",
+      "Contract/promessa duration and annual gross salary calculation should be explained, including 12 vs 14 salary payments.",
+      "Separate comparison of D3 highly qualified residence permit vs EU Blue Card, with distinct thresholds, rights and legal bases.",
+      "IFICI eligibility checklist and deadline separate from immigration status.",
+      "Regulated professions: diploma recognition is not enough for medicine/engineering/etc.; professional Ordem registration may be required.",
+      "Family members: whether to use accompanying family visa or later family reunification and what documents are needed.",
+      "CPLP caveat: CPLP residence route is separate from D3 and may have different fees/procedure.",
+      "Direct official sources for AIMA fee table effective 01.03.2026 and for the Article 90 residence permit."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5235,
+    "prompt_tokens": 1913,
+    "total_tokens": 7148
+  },
+  "model": "gpt-5.5"
+}

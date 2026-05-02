@@ -1,0 +1,84 @@
+{
+  "guideId": "lisbon-walking-tour-belem",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гид в целом пригоден как прогулочный маршрут, но содержит устаревшую/неверную информацию о билетах и несколько исторических неточностей.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3]",
+        "current": "💶 Jerónimos + Torre combo-билет 16 € (экономия 4 €) на visitlisboa",
+        "problem": "Цена и сам формат combo-билета выглядят устаревшими: к 2026 году стандартные отдельные билеты на Mosteiro dos Jerónimos и Torre de Belém стоят существенно дороже, а старый комбинированный билет за 16 € не является надежной актуальной опцией. Это может ввести туриста в заблуждение по бюджету почти в 2 раза.",
+        "suggestion": "Заменить на: «💶 Цены проверяйте перед визитом на официальных страницах Museus e Monumentos de Portugal / Visit Lisboa: в 2026 ориентир — Jerónimos около 18 € за клуатр, Torre de Belém около 15 €; Lisboa Card может давать вход/скидки. Старый combo за 16 € не закладывайте в бюджет».",
+        "confidence": "high",
+        "source": "Museus e Monumentos de Portugal; Visit Lisboa ticket pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Магеллан обогнул земной шар (1519–1522).",
+        "problem": "Фернан Магеллан не обогнул земной шар: он погиб на Филиппинах в 1521 году. Первое кругосветное плавание завершила экспедиция Магеллана—Элькано в 1522 году.",
+        "suggestion": "Написать: «экспедиция Магеллана—Элькано совершила первое кругосветное плавание (1519–1522); сам Магеллан погиб на Филиппинах в 1521 году».",
+        "confidence": "high",
+        "source": "Encyclopaedia Britannica; Wikipedia — Ferdinand Magellan / Juan Sebastián Elcano"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].points[1].description",
+        "current": "Пирожные-предки pastéis de nata по оригинальному рецепту монахов Jerónimos с 1837 года.",
+        "problem": "Формулировка «предки pastéis de nata» неточная: Pastéis de Belém — не предки, а знаменитая брендовая/оригинальная версия pastel de nata, производимая по секретному рецепту, связанному с монастырём Jerónimos. Магазин работает с 1837 года, но сами custard tarts существовали ранее.",
+        "suggestion": "Написать: «Самая знаменитая версия pastéis de nata — Pastéis de Belém — по секретному рецепту, связанному с монахами Jerónimos; фабрика работает с 1837 года».",
+        "confidence": "high",
+        "source": "Pastéis de Belém official history"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "🚋 Трамвай №15 от Praça da Figueira — прямой, 20 мин",
+        "problem": "20 минут — слишком оптимистично для туристического планирования: трамвай 15E часто идёт дольше из-за трафика, посадки туристов и задержек. Реалистичнее закладывать около 25–35 минут до Belém/Jerónimos.",
+        "suggestion": "Заменить на: «🚋 Трамвай 15E от Praça da Figueira — прямой, обычно 25–35 мин; в часы пик и выходные закладывайте больше».",
+        "confidence": "medium",
+        "source": "Carris route 15E timetable / real-world operating conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0]",
+        "current": "\"distanceKm\": 4 ... points include optional Museu Nacional dos Coches",
+        "problem": "Дистанция 4 км примерно сходится для основного маршрута без захода к Museu Nacional dos Coches после Torre de Belém. Если включать музей карет как точку 7 после башни, маршрут становится заметно длиннее и менее линейным, потому что музей находится обратно восточнее.",
+        "suggestion": "Уточнить: «4 км — без возвращения к Museu Nacional dos Coches; с музеем карет после Torre de Belém получится около 5–6 км, либо лучше ставить Museu Nacional dos Coches до Padrão/Torre».",
+        "confidence": "high",
+        "source": "Route geometry / map distances"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "\"title\": \"Visit Lisboa — Belém\", \"url\": \"https://www.visitlisboa.com/\"",
+        "problem": "Источник указан как конкретная страница Belém, но URL ведёт на главную страницу Visit Lisboa. Для проверки билетов/маршрута это слабая ссылка.",
+        "suggestion": "Заменить на конкретную страницу Visit Lisboa про Belém или конкретные страницы билетов/достопримечательностей, если они используются для цен.",
+        "confidence": "high",
+        "source": "Visit Lisboa"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "\"title\": \"Patrimonio Cultural PT\", \"url\": \"https://www.patrimoniocultural.gov.pt/\"",
+        "problem": "Для расписаний и билетов Jerónimos/Torre de Belém в 2026 году более релевантен оператор Museus e Monumentos de Portugal, а не только общий сайт Património Cultural. Текущий источник недостаточно точен для практической информации.",
+        "suggestion": "Добавить/заменить на официальные страницы Museus e Monumentos de Portugal для Mosteiro dos Jerónimos и Torre de Belém.",
+        "confidence": "high",
+        "source": "Museus e Monumentos de Portugal"
+      }
+    ],
+    "missing_topics": [
+      "Уточнение про бесплатный/льготный вход в музеи и памятники Museus e Monumentos de Portugal для резидентов/граждан Португалии в рамках лимита бесплатных дней — если гид даёт практический бюджет.",
+      "Ссылки на официальные страницы с актуальными часами работы и билетами для Mosteiro dos Jerónimos и Torre de Belém, а не только общие сайты.",
+      "Предупреждение, что Belém Tower и Jerónimos часто требуют отдельных очередей/слотов, а даже онлайн-билет не всегда означает вход без ожидания."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3123,
+    "prompt_tokens": 2684,
+    "total_tokens": 5807
+  },
+  "model": "gpt-5.5"
+}

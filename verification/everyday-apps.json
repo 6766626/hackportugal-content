@@ -1,0 +1,160 @@
+{
+  "guideId": "everyday-apps",
+  "categoryId": "digital_gov",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен как чек-лист приложений, но содержит несколько существенных фактических ошибок по CMD, MB WAY, транспорту, AIMA и ряду приложений/сервисов, часть из которых перепутаны или устарели.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«По закону с 2023 многие гос-сервисы требуют Chave Móvel Digital — установите первой.»",
+        "problem": "Формулировка вводит в заблуждение: нет общего правила «по закону с 2023», что многие госуслуги требуют именно CMD. Большинство порталов допускают альтернативы: Cartão de Cidadão, NIF+пароль, иногда eIDAS/европейскую eID. CMD очень полезна, но не является универсально обязательной.",
+        "suggestion": "Заменить на: «CMD сильно упрощает вход и подписание на гос‑порталах, но часто доступны и альтернативы: Cartão de Cidadão, NIF+пароль или другие способы аутентификации. Установите и активируйте CMD как можно раньше, если можете.»",
+        "confidence": "high",
+        "source": "Autenticação.gov; ePortugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "«CMD (Chave Móvel Digital) — государственная электронная подпись. Без неё не работают: Portal AT, AIMA online, SNS 24, IRN, Segurança Social Direta.»",
+        "problem": "CMD — это средство аутентификации и электронной подписи, но утверждение «без неё не работают» неверно. Portal das Finanças работает с NIF+паролем, SNS 24 может использовать номер SNS/данные пользователя и другие способы, Segurança Social Direta имеет собственный логин, IRN/ePortugal часто допускают Cartão de Cidadão. CMD не единственный способ доступа.",
+        "suggestion": "Написать: «CMD — государственный способ входа и электронной подписи. Она нужна или удобна для многих операций на ePortugal/IRN/AIMA/SNS/AT, но часть сервисов также работает через NIF+пароль, Cartão de Cidadão или другие логины.»",
+        "confidence": "high",
+        "source": "Autenticação.gov; Portal das Finanças; Segurança Social Direta; SNS 24"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "«Активация: autenticacao.gov.pt → Aderir CMD → NIF + PT-номер телефона.»",
+        "problem": "Слишком упрощено и может быть неверно для иностранцев. Для активации CMD нужен мобильный номер, но способ зависит от статуса и документов: граждане с Cartão de Cidadão могут активировать онлайн/банкомат/видеозвонок, иностранцам часто нужен presencial atendimento с паспортом/титулом резидента или другой допустимый способ. NIF+португальский номер сам по себе не всегда достаточен.",
+        "suggestion": "Заменить на: «Активация зависит от документов: с Cartão de Cidadão — онлайн/ATM/видеозвонок; иностранцам обычно нужен паспорт или título de residência и активация через balcão/доступный канал Autenticação.gov. Нужен мобильный номер, на который приходят коды.»",
+        "confidence": "high",
+        "source": "Autenticação.gov — Aderir à Chave Móvel Digital"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4].content[0].text",
+        "current": "«AIMA Renovações… Основное место где живёт ваш immigration статус с 2026.»",
+        "problem": "Портал AIMA Renovações — это портал для продления отдельных autorização de residência, а не универсальное место, где «живёт весь immigration статус». Не все типы процессов доступны там; первичные заявления, записи, pending cases, CPLP/другие режимы и вопросы карты могут идти через другие каналы AIMA/ePortugal/личный кабинет/контакт-центр.",
+        "suggestion": "Написать: «AIMA Renovações — портал для онлайн‑продления подходящих autorização de residência. Он не покрывает все иммиграционные процессы; для первичных заявлений, записей, CPLP и нестандартных случаев проверяйте AIMA/ePortugal и официальные уведомления.»",
+        "confidence": "high",
+        "source": "AIMA — portal-renovacoes.aima.gov.pt; AIMA official website"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[1]",
+        "current": "«Отправка денег по номеру / NIF»",
+        "problem": "MB WAY переводы физлицам выполняются по номеру мобильного телефона, привязанному к MB WAY. Перевод «по NIF» — некорректная формулировка для стандартной функции enviar dinheiro.",
+        "suggestion": "Заменить на: «Отправка денег по номеру телефона, привязанному к MB WAY.»",
+        "confidence": "high",
+        "source": "MB WAY / SIBS FAQ"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "«Лимиты: 2 500 €/день, 5 000 €/мес»",
+        "problem": "Лимиты MB WAY указаны слишком категорично и, вероятно, неверно/смешивают разные лимиты. У MB WAY есть лимиты по операции, дневные/месячные лимиты и лимиты банка-эмитента; они зависят от типа операции и могут меняться банком. Для переводов часто указывается лимит на операцию и месячные лимиты, а не универсальные 2 500 €/день и 5 000 €/мес.",
+        "suggestion": "Написать без конкретных сумм либо дать актуальную ссылку: «Лимиты зависят от операции и банка; смотрите в app MB WAY и FAQ SIBS. Для переводов есть лимит на операцию и месячные ограничения.»",
+        "confidence": "high",
+        "source": "MB WAY / SIBS FAQ"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2]",
+        "current": "«Anda (Lisboa app для дорожного трафика)»",
+        "problem": "Это неверно. Anda — приложение для оплаты и использования общественного транспорта в Área Metropolitana do Porto / Andante, а не приложение Лиссабона и не приложение для дорожного трафика.",
+        "suggestion": "Заменить на: «Anda — app для общественного транспорта Porto/Área Metropolitana do Porto: билеты Andante через телефон.» Для Лиссабона указать Carris, Metro Lisboa, CP, Fertagus, Navegante или Moovit/Citymapper в зависимости от задачи.",
+        "confidence": "high",
+        "source": "Andante / TIP — Anda app"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[10]",
+        "current": "«GoEuro / Rome2Rio — сравнение способов доехать»",
+        "problem": "GoEuro давно переименован в Omio. Название GoEuro устарело.",
+        "suggestion": "Заменить на: «Omio / Rome2Rio — сравнение поездов, автобусов и маршрутов.»",
+        "confidence": "high",
+        "source": "Omio official website"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1]",
+        "current": "«Id.Gov.Pt — portfolio ваших digital-документов (CC, CMD, carta de condução)»",
+        "problem": "CMD не является «документом» в Id.Gov.Pt. Это средство аутентификации/подписи. Id.Gov.Pt хранит цифровые версии поддерживаемых документов, например Cartão de Cidadão, carta de condução, cartão ADSE и другие, если они доступны пользователю.",
+        "suggestion": "Заменить на: «Id.Gov.Pt — цифровой кошелёк поддерживаемых документов: Cartão de Cidadão, carta de condução и др. CMD используется для входа/подтверждения, но сама не является документом.»",
+        "confidence": "high",
+        "source": "id.gov.pt official information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[7]",
+        "current": "«Bolt Food — в Порту популярен»",
+        "problem": "Сервисность Bolt Food в Португалии нужно перепроверить: доступность Bolt Food по городам менялась, и утверждение «в Порту популярен» может быть устаревшим/неуниверсальным. Для пользователя важнее проверить доступность по адресу в приложении.",
+        "suggestion": "Заменить на: «Bolt Food — если доступен в вашем городе/районе; проверяйте покрытие в приложении.»",
+        "confidence": "medium",
+        "source": "Bolt Food app / Bolt local availability"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[2]",
+        "current": "«BlaBlaLines — ежедневные carpool короткими маршрутами»",
+        "problem": "BlaBlaLines не является актуальным массовым сервисом для Португалии; сервис был ориентирован в основном на commuter carpooling во Франции и бренд/продукт менялся. Для Португалии это вводит в заблуждение.",
+        "suggestion": "Удалить или заменить на: «BlaBlaCar — междугородний carpooling; для ежедневных поездок по Португалии отдельного широко используемого аналога BlaBlaLines обычно нет.»",
+        "confidence": "medium",
+        "source": "BlaBlaCar official services"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[0]",
+        "current": "«IdealGás / Buy the Way — самая дешёвая заправка рядом»",
+        "problem": "Buy the Way — это бренд/сервис, связанный с дорожной инфраструктурой/сервисными зонами, а не нейтральный агрегатор «самой дешёвой заправки». Для цен на топливо в Португалии более корректно ссылаться на официальные данные DGEG или приложения/сайты, которые используют цены combustíveis.",
+        "suggestion": "Заменить на: «Para preços de combustível: официальный portal Preços dos Combustíveis Online / DGEG или приложения вроде Mais Gasolina; Via Verde/Buy the Way полезны для дорог и сервисов, но не как главный поиск самой дешёвой заправки.»",
+        "confidence": "medium",
+        "source": "DGEG — Preços dos Combustíveis Online"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[2]",
+        "current": "«Проверка статуса NIF / adress»",
+        "problem": "Опечатка «adress» и формулировка неясная: в Portal das Finanças пользователь обычно управляет morada fiscal, e-Fatura, IRS, IMI/IUC и другими налоговыми услугами, а не просто «статусом NIF».",
+        "suggestion": "Заменить на: «Проверка и изменение morada fiscal, данные NIF, e-Fatura, IRS, IMI/IUC и платежи AT.»",
+        "confidence": "high",
+        "source": "Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[0].items[5]",
+        "current": "«Trial symptom-checker»",
+        "problem": "Похоже на ошибку перевода/опечатку: должно быть «triage/triagem», а не «trial».",
+        "suggestion": "Заменить на: «Triagem / symptom checker — оценка симптомов и рекомендации SNS 24.»",
+        "confidence": "high",
+        "source": "SNS 24"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: ePortugal, Autenticação.gov, SNS 24 app",
+        "problem": "Для гайда, который даёт конкретные инструкции по AIMA, MB WAY, налогам, транспорту и цифровым документам, источников недостаточно. Особенно нужны официальные ссылки для AIMA Renovações, Portal das Finanças/e-Fatura, MB WAY/SIBS, id.gov.pt и транспортных приложений.",
+        "suggestion": "Добавить источники: AIMA Renovações; Portal das Finanças/e-Fatura; MB WAY/SIBS FAQ; id.gov.pt; Andante/Anda; Navegante/Carris Metropolitana/Metro Lisboa; DGEG Preços dos Combustíveis Online.",
+        "confidence": "high",
+        "source": "AIMA; Portal das Finanças; SIBS; id.gov.pt; Andante; DGEG"
+      }
+    ],
+    "missing_topics": [
+      "Уточнить, что CMD полезна, но не всегда обязательна: альтернативы — NIF+пароль, Cartão de Cidadão, Segurança Social Direta login, eIDAS в отдельных случаях.",
+      "Добавить официальную ссылку AIMA Renovações и caveat, что портал покрывает не все иммиграционные процессы.",
+      "Добавить MB WAY/SIBS как источник для актуальных лимитов и функций.",
+      "Разделить транспортные apps по регионам: Lisboa/Navegante, Porto/Andante/Anda, Cascais/MobiCascais.",
+      "Добавить предупреждение: доступность доставок, scooter-sharing и car-sharing сильно зависит от города и может быстро меняться.",
+      "Добавить официальные налоговые приложения/сервисы AT: e-Fatura, Situação Fiscal, IRS Automático/declaração IRS через Portal das Finanças.",
+      "Для цен на топливо добавить официальный DGEG Preços dos Combustíveis Online."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5226,
+    "prompt_tokens": 3154,
+    "total_tokens": 8380
+  },
+  "model": "gpt-5.5"
+}

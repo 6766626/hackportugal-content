@@ -1,0 +1,93 @@
+{
+  "guideId": "douro-valley",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but contains several factual/practical inaccuracies about geography, baggage rules, specific quinta affiliations, and overclaiming of landmarks.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Выше по течению — регион Alto Douro (250 км от Испании), где выращивают виноград для port wine и столовых вин.",
+        "problem": "Фраза «250 км от Испании» фактически сбивает с толку: винодельческий регион Douro/Alto Douro тянется на восток в сторону испанской границы и доходит до района Douro Superior у границы. Число 250 скорее похоже на площадь/масштаб региона в тысячах гектаров, а не расстояние от Испании.",
+        "suggestion": "Написать: «Выше по течению от Порту — винодельческий регион Douro, который тянется примерно от Baixo Corgo через Cima Corgo до Douro Superior у испанской границы; здесь выращивают виноград для портвейна и сухих вин Douro DOC.»",
+        "confidence": "high",
+        "source": "IVDP; UNESCO Alto Douro Wine Region"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].text",
+        "current": "Склоны до 60°. Ветровые разновидности: Touriga Nacional, Touriga Franca, Tinta Roriz.",
+        "problem": "«Ветровые разновидности» — ошибка термина, должны быть сорта винограда. Кроме того, «склоны до 60°» выглядит как вероятная путаница градусов и процентов уклона; для Douro обычно говорят о крутых склонах/террасах, но 60° как угол — очень сильное и потенциально неверное утверждение без источника.",
+        "suggestion": "Написать: «Террасные виноградники (socalcos) — рукотворный пейзаж UNESCO на очень крутых склонах. Основные сорта винограда: Touriga Nacional, Touriga Franca, Tinta Roriz/Tempranillo, Tinta Barroca, Tinto Cão.»",
+        "confidence": "medium",
+        "source": "IVDP; UNESCO Alto Douro Wine Region"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Provesende — Архитектурная жемчужина — хорошо сохранённая деревня XVIII в. с barquinho (традиционный хлеб), фонтаны, гербовые фасады.",
+        "problem": "«barquinho» как традиционный хлеб Provesende выглядит неверно или как минимум неподтверждённо. В Douro более известен pão de Favaios, а «barco rabelo» — лодка, не хлеб.",
+        "suggestion": "Убрать «barquinho» или заменить на проверяемую гастрономическую привязку: «хорошо сохранённая деревня с особняками XVIII века, фонтанами и гербовыми фасадами; рядом можно пробовать вина малых производителей».",
+        "confidence": "medium",
+        "source": "Turismo do Porto e Norte"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[5].content[0].text",
+        "current": "Дамба с навигационным шлюзом 35 м — самый высокий в Европе.",
+        "problem": "Утверждение «самый высокий в Европе» слишком категорично и, вероятно, неверно/устарело. Carrapatelo часто описывают как один из самых высоких навигационных шлюзов Европы, а не гарантированно самый высокий.",
+        "suggestion": "Написать: «Дамба с навигационным шлюзом около 35 м — один из самых высоких в Европе; через него проходят круизные суда.»",
+        "confidence": "high",
+        "source": "Douro Azul / regional tourism references; EDP information on Douro dams"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[6]",
+        "current": "🍷 Quinta de la Rosa — англо-португальская семья, Relais & Châteaux",
+        "problem": "Quinta de la Rosa не является объектом Relais & Châteaux. Это вводит в заблуждение при выборе размещения. Relais & Châteaux в списке корректно относится к Quinta Nova de Nossa Senhora do Carmo.",
+        "suggestion": "Написать: «🍷 Quinta de la Rosa — семейная quinta с отелем и рестораном Cozinha da Clara» без упоминания Relais & Châteaux.",
+        "confidence": "high",
+        "source": "Relais & Châteaux official directory; Quinta de la Rosa official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "🎭 Miradouros — обзорные точки для закатов (Casal de Loivos, São Leonardo da Galafura, Sabrosa)",
+        "problem": "Sabrosa — это муниципалитет/посёлок, а не конкретная обзорная площадка. В таком виде пункт менее полезен и может запутать.",
+        "suggestion": "Заменить на конкретные miradouros: «Casal de Loivos, São Leonardo da Galafura, São Salvador do Mundo, Ujo/Alijó» или указать точную обзорную площадку рядом с Sabrosa.",
+        "confidence": "medium",
+        "source": "Turismo do Porto e Norte"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[3]",
+        "current": "🍷 Ноябрь-март — vinificação, туристов мало, приятные скидки",
+        "problem": "Vinificação в строгом смысле начинается сразу после сбора винограда в сентябре-октябре; к ноябрю активная ферментация обычно уже в основном завершена, дальше идут выдержка, переливки, купажирование и cellar work. Формулировка может создать неправильное ожидание.",
+        "suggestion": "Написать: «Ноябрь-март — тихий сезон: меньше туристов, возможны скидки; в погребах идут выдержка, переливки и подготовка вин, но не классическая vindima/vinificação.»",
+        "confidence": "high",
+        "source": "IVDP; general winemaking calendar"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[6].content[0].items[8]",
+        "current": "🧳 Лимит багажа 1 бутылка в ручной клади, остальное проверить",
+        "problem": "Практически неверный совет. В авиаперелётах внутри ЕС действует ограничение жидкостей в ручной клади: обычно ёмкости до 100 мл, если бутылка не куплена после контроля безопасности/duty free и не упакована в STEB-пакет. Нет общего правила «1 бутылка в ручной клади». В зарегистрированном багаже лимиты зависят от авиакомпании, веса, крепости алкоголя и таможенных правил страны назначения.",
+        "suggestion": "Написать: «Если летите самолётом: обычные бутылки вина нельзя брать в ручную кладь до security из-за правила 100 мл; покупайте airside/duty free или сдавайте в багаж с защитной упаковкой. Проверьте лимиты авиакомпании и таможенные нормы страны назначения.»",
+        "confidence": "high",
+        "source": "ANA Aeroportos / EU airport liquid rules; airline baggage rules"
+      }
+    ],
+    "missing_topics": [
+      "Уточнить, что для посещения quintas в высокий сезон и во время vindima часто нужна предварительная бронь конкретного слота, а не просто приезд на место.",
+      "Добавить предупреждение для водителей: после дегустаций действует лимит алкоголя за рулём в Португалии; лучше назначать трезвого водителя, брать такси/трансфер или ночевать в quinta.",
+      "Добавить ссылку на CP — Comboios de Portugal для актуальных расписаний и цен поездов Douro Line."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2941,
+    "prompt_tokens": 3089,
+    "total_tokens": 6030
+  },
+  "model": "gpt-5.5"
+}

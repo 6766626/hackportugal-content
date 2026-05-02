@@ -1,0 +1,214 @@
+{
+  "guideId": "sns-foreigner-no-niss",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд содержит несколько опасно вводящих в заблуждение тезисов: экстренная помощь в SNS не является «всегда бесплатной», NISS не является ключом к доступу в SNS, а ссылка на DL 67/2014 фактически использована не по назначению.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "«emergencias всё равно бесплатны в государственной urgência (по DL 67/2014)»",
+        "problem": "Экстренная помощь в государственной больнице должна быть оказана независимо от статуса, но это не означает, что она всегда бесплатна. В Portugal taxas moderadoras в urgência сохраняются в ряде случаев, если обращение не было направлено SNS 24/INEM/медучреждением и не закончилось госпитализацией; для лиц без права на SNS/EHIC/страховки также возможен счёт по тарифам SNS/больницы. Кроме того, DL 67/2014 не является правильной общей опорой для такого утверждения.",
+        "suggestion": "Заменить на: «В urgência/экстренной ситуации государственная больница обязана оказать помощь независимо от документов и статуса. Но “обязаны принять” ≠ “всегда бесплатно”: возможны taxas moderadoras или счёт, если у вас нет права на SNS/EHIC/страховки; бесплатно/освобождение зависит от статуса, направления SNS 24/INEM, госпитализации и льготной категории».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022; Lei de Bases da Saúde, Lei n.º 95/2019; SNS24 — taxas moderadoras"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].title",
+        "current": "«🚨 Emergency помощь — всегда бесплатно»",
+        "problem": "Заголовок неверен и может привести к финансовому риску для читателя. Экстренная помощь оказывается независимо от документов, но не всегда бесплатна.",
+        "suggestion": "Написать: «🚨 Emergency помощь — обязаны оказать, но она не всегда бесплатна».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022; SNS24 — taxas moderadoras"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].text",
+        "current": "«Decreto-Lei 67/2014 + Constituição art. 64 гарантируют всеобщее право на emergency care независимо от documents.»",
+        "problem": "Ссылка на DL 67/2014 выглядит неправильной для заявленного правила. В контексте доступа иностранцев обычно важны Lei de Bases da Saúde, Despacho n.º 25360/2001, режимы RNU/SNS, а для несовершеннолетних в нерегулярном положении — Decreto-Lei n.º 67/2004, не 2014. Конституция art. 64 закрепляет право на охрану здоровья, но сама по себе не означает бесплатную urgência для любого иностранца.",
+        "suggestion": "Убрать DL 67/2014 как основание для «бесплатной emergency». Написать: «Право на доступ к медицинской помощи следует из Lei de Bases da Saúde и правил доступа иностранцев к SNS; для иностранцев в нерегулярной ситуации применяются специальные правила, включая Despacho n.º 25360/2001, а для несовершеннолетних — DL n.º 67/2004».",
+        "confidence": "high",
+        "source": "Despacho n.º 25360/2001; Decreto-Lei n.º 67/2004; Lei n.º 95/2019"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "«DL 67/2014 — Direito ao acesso ao SNS», url: «https://diariodarepublica.pt/dr/detalhe/decreto-lei/67-2014-25344876»",
+        "problem": "Название источника не соответствует содержанию, которое гайд на него навешивает. Если автор имел в виду доступ несовершеннолетних иностранцев в нерегулярном положении к здравоохранению и образованию, это обычно Decreto-Lei n.º 67/2004, а не 67/2014. Если ссылка действительно ведёт на DL 67/2014, она не подтверждает общее правило «всем emergency бесплатно».",
+        "suggestion": "Заменить источник на релевантные: Despacho n.º 25360/2001 для доступа иностранцев к SNS, Decreto-Lei n.º 67/2004 для несовершеннолетних иностранцев в нерегулярном положении, Decreto-Lei n.º 37/2022 для taxas moderadoras.",
+        "confidence": "high",
+        "source": "Diário da República — Despacho n.º 25360/2001; Decreto-Lei n.º 67/2004; Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].title",
+        "current": "«🆔 Чтобы получить полные права — оформите NISS»",
+        "problem": "NISS не является «ключом» к доступу в SNS. Для здравоохранения ключевой идентификатор — Número de Utente / регистрация в Registo Nacional de Utentes через Centro de Saúde. NISS нужен для Segurança Social и может быть связан с некоторыми льготами/статусом, но отсутствие NISS само по себе не должно блокировать регистрацию в SNS при наличии права на доступ.",
+        "suggestion": "Заменить на: «Чтобы получить полноценный доступ — оформите Número de Utente в Centro de Saúde». В тексте пояснить: «NISS — номер Segurança Social; он полезен для соцстрахования и некоторых льгот, но не является основным документом для регистрации в SNS».",
+        "confidence": "high",
+        "source": "SNS24 — Acesso de cidadãos estrangeiros ao Serviço Nacional de Saúde; ACSS/RNU guidance"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[0]",
+        "current": "«NISS (соцномер) — ключ к full SNS access»",
+        "problem": "Фактически неверно: полные права в SNS зависят от права на проживание/статуса, регистрации в RNU и получения número de utente, а не от NISS как такового.",
+        "suggestion": "Написать: «Número de Utente — основной номер для SNS. NISS — номер соцстраха; он не заменяет número de utente и обычно не является обязательным условием для доступа к медицинской помощи».",
+        "confidence": "high",
+        "source": "SNS24 — Acesso de cidadãos estrangeiros ao Serviço Nacional de Saúde"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].title",
+        "current": "«📋 Utente provisório — для residents без NISS»",
+        "problem": "Категория описана неточно. Резидент без NISS не обязан получать именно «utente provisório» из-за отсутствия NISS; при наличии действительного residence permit/certificate de residência он обычно регистрируется в SNS/RNU и получает número de utente. Временные/условные номера применяются в других административных ситуациях, но гайд создаёт впечатление, что NISS является обязательным этапом.",
+        "suggestion": "Переписать раздел как «Número de Utente для иностранцев-резидентов». Указать документы: residence permit / EU registration certificate / other proof of legal stay, NIF при наличии, адрес/atestado или proof of address, паспорт. Не связывать это с обязательным NISS.",
+        "confidence": "high",
+        "source": "SNS24 — Acesso de cidadãos estrangeiros ao Serviço Nacional de Saúde"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[2]",
+        "current": "«Без NISS — реализуете intention oформить (через Segurança Social в 30 дней)»",
+        "problem": "Нет общего правила, что для acesso ao SNS нужно доказать намерение оформить NISS в течение 30 дней. Это выглядит как выдуманное или локальное административное требование, не подкреплённое источником.",
+        "suggestion": "Удалить. Если автор видел такое требование в конкретном centro de saúde, оформить как caveat: «Некоторые центры могут ошибочно просить NISS; официально для SNS нужен número de utente/RNU, а NISS — номер Segurança Social. При отказе просите письменное основание или обращайтесь в ACES/USF/ULS».",
+        "confidence": "high",
+        "source": "SNS24 — Acesso de cidadãos estrangeiros ao Serviço Nacional de Saúde"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[7]",
+        "current": "«🕒 Действует 6 мес, после нужно update со статусом NISS»",
+        "problem": "Утверждение о сроке 6 месяцев и обязательном обновлении через NISS не подтверждено общим правилом SNS. Может существовать временная административная регистрация, но гайд подаёт это как универсальную норму.",
+        "suggestion": "Заменить на: «Если вам выдали временную/условную регистрацию, уточните срок действия и какие документы нужно донести в вашем Centro de Saúde/ULS. Универсального правила “6 месяцев до NISS” нет».",
+        "confidence": "high",
+        "source": "SNS24 — Acesso de cidadãos estrangeiros ao Serviço Nacional de Saúde; ACSS/RNU guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[1]",
+        "current": "«Show card + passport at hospital — все услуги покрываются»",
+        "problem": "EHIC/CESD не покрывает «все услуги». Она даёт доступ к medically necessary state-provided healthcare during temporary stay на тех же условиях, что и застрахованным в стране пребывания. Она не покрывает частную медицину, репатриацию, плановое лечение без отдельного разрешения и может не означать нулевую оплату.",
+        "suggestion": "Написать: «EHIC/CESD покрывает medically necessary помощь в государственной системе во время временного пребывания на тех же условиях, что и для местных пользователей. Возможны те же сборы/условия, что для резидентов; private clinics, repatriation и planned treatment не покрываются».",
+        "confidence": "high",
+        "source": "European Commission — European Health Insurance Card; SNS24 — CESD"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "«✅ Emergency: бесплатно immediate, потом счёт на your insurance / pocket»",
+        "problem": "Фраза противоречива и вводит в заблуждение: если потом выставлен счёт, помощь не была «бесплатной». Корректно: экстренную помощь должны оказать немедленно, но расходы могут быть выставлены пациенту/страховщику.",
+        "suggestion": "Заменить на: «Emergency: помощь окажут немедленно; затем больница может выставить счёт вам или вашей страховке, если у вас нет права на SNS/EHIC или другого покрытия».",
+        "confidence": "high",
+        "source": "Lei n.º 95/2019; Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[5]",
+        "current": "«⚠️ Non-emergency без utente: придётся платить как private patient (rate ~50-100 €/visit)»",
+        "problem": "Неверно смешаны понятия. В SNS пациент без права/регистрации может получить счёт по административным тарифам SNS, а не просто «как private patient». Суммы могут сильно отличаться от €50–100 и зависеть от типа услуги, эпизода, обследований и госпитализации.",
+        "suggestion": "Написать: «Non-emergency без права на SNS/страховки может быть платной по тарифам SNS/учреждения; итоговая сумма зависит от услуги и может быть существенно выше простой консультации».",
+        "confidence": "high",
+        "source": "Portaria n.º 207/2017 и последующие изменения к tabelas de preços das instituições do SNS"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "«Emergency в SNS hospitalу», amountEUR: 0, note: «для всех»",
+        "problem": "Стоимость €0 «для всех» неверна. В urgência сохраняются taxas moderadoras в некоторых случаях, а лица без покрытия могут получить счёт за оказанные услуги.",
+        "suggestion": "Заменить на диапазон/примечание без фиксированного нуля: «Обязаны оказать; цена зависит от статуса и покрытия. Может быть €0 при освобождении/направлении/госпитализации, но возможны taxas moderadoras или счёт по тарифам SNS».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022; SNS24 — taxas moderadoras"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0]",
+        "current": "«✅ 112 / 911 / SNS 24: работают для всех»",
+        "problem": "911 не является португальским номером экстренной помощи. В Португалии экстренный номер — 112. SNS 24 — 808 24 24 24, это triage/health advice, не замена 112 при immediate danger.",
+        "suggestion": "Написать: «112 — emergency. SNS 24: 808 24 24 24 — triage/совет, может направить в urgência; при угрозе жизни звоните 112».",
+        "confidence": "high",
+        "source": "INEM — Número Europeu de Emergência 112; SNS24"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[2]",
+        "current": "«👶 Children under 16 undocumented — full SNS rights independent от parents status»",
+        "problem": "Возраст и формулировка, вероятно, неверны/слишком узки. Португальский специальный режим касается несовершеннолетних иностранных граждан в нерегулярной ситуации, то есть minors, обычно до 18 лет, а не только under 16. Нужно также различать право на доступ и административную регистрацию.",
+        "suggestion": "Заменить на: «Несовершеннолетние иностранцы в нерегулярной ситуации имеют специальную защиту и доступ к healthcare/education независимо от статуса родителей; оформляется регистрация/процедура через компетентные службы. Уточняйте по DL n.º 67/2004».",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 67/2004"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[3]",
+        "current": "«🤰 Pregnant women: full antenatal + delivery — даже без any documents»",
+        "problem": "Правильная идея о защите беременных есть, но формулировка «без any documents» слишком широкая. На практике для регистрации и бесплатности/освобождений могут требовать идентификацию, proof of residence или оформление в Centro de Saúde; без документов экстренную акушерскую помощь окажут, но административный и платёжный режим зависит от статуса.",
+        "suggestion": "Написать: «Беременные женщины относятся к защищённым категориям и должны получать acompanhamento da gravidez/parto; даже при нерегулярном статусе обращайтесь в Centro de Saúde/urgência. Возьмите любые документы, удостоверяющие личность и адрес, если есть; вопрос оплаты/освобождения зависит от регистрации и статуса».",
+        "confidence": "medium",
+        "source": "Despacho n.º 25360/2001; SNS24 — acesso de cidadãos estrangeiros ao SNS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[4]",
+        "current": "«🏥 Asylum seekers / pending refugee: full rights from moment подачи»",
+        "problem": "Слишком абсолютная формулировка. Заявители на международную защиту имеют право на healthcare under reception conditions, но реализация зависит от подтверждения подачи/документов от AIMA и регистрации; «full rights» без оговорок может быть неверно для всех видов помощи и оплаты.",
+        "suggestion": "Заменить на: «Asylum seekers после подачи заявления имеют право на доступ к SNS/необходимой медицинской помощи по режиму приёма; для регистрации обычно нужен comprovativo/declaração о подаче заявления. Уязвимые группы имеют дополнительные гарантии».",
+        "confidence": "medium",
+        "source": "Lei n.º 27/2008, as amended; AIMA — proteção internacional"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[4]",
+        "current": "«✅ Mental health emergency: tale crisis lines»",
+        "problem": "Опечатка/непонятная формулировка и нет полезного номера. Для срочного риска — 112/urgência; для психологической поддержки есть линия SNS 24 с opção de aconselhamento psicológico.",
+        "suggestion": "Написать: «Mental health emergency: при immediate danger — 112/urgência. Для психологической поддержки — SNS 24: 808 24 24 24».",
+        "confidence": "high",
+        "source": "SNS24 — aconselhamento psicológico"
+      },
+      {
+        "severity": "major",
+        "where": "sources[1]",
+        "current": "«SNS — для иностранцев», url: «https://www.sns.gov.pt/sns-em-numeros/imigrantes/»",
+        "problem": "Этот URL выглядит как статистическая/информационная страница «SNS em números», а не официальный практический источник о правах иностранцев и регистрации в SNS. Для чувствительной темы нужны более точные официальные источники.",
+        "suggestion": "Добавить/заменить на официальную страницу SNS24 «Acesso de cidadãos estrangeiros ao Serviço Nacional de Saúde» и, при необходимости, ACSS/RNU guidance по número de utente.",
+        "confidence": "medium",
+        "source": "SNS24 — Acesso de cidadãos estrangeiros ao Serviço Nacional de Saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "tags[2]",
+        "current": "«туристам» записано как «турistам»",
+        "problem": "Смешение латиницы и кириллицы в теге ухудшает поиск/индексацию.",
+        "suggestion": "Исправить на «туристам».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[5]",
+        "current": "«Online consultation: Knok, Doctorino — €30-50 video visit, recipt»",
+        "problem": "Опечатка «recipt» и цены/доступность у коммерческих провайдеров быстро меняются; без даты и источника это может устареть.",
+        "suggestion": "Исправить на «receipt» и добавить caveat: «цены и наличие English-speaking doctors меняются, проверяйте перед записью».",
+        "confidence": "high",
+        "source": ""
+      }
+    ],
+    "missing_topics": [
+      "Различие между Número de Utente/RNU, NISS, NIF и residence permit: сейчас гайд ошибочно ставит NISS в центр доступа к SNS.",
+      "Правило taxas moderadoras после Decreto-Lei n.º 37/2022: когда urgência бесплатна, а когда возможна оплата.",
+      "Официальная процедура регистрации иностранца в Centro de Saúde/ULS и что делать при отказе: просить письменное основание, обращаться в direção do ACES/ULS, Livro de Reclamações, ERS.",
+      "Отдельный блок для граждан ЕС-резидентов в Portugal: certificado de registo de cidadão da UE, S1 для пенсионеров/командированных, отличие EHIC для туристов от S1 для резидентов.",
+      "Корректный блок по лицам в нерегулярной ситуации: Despacho n.º 25360/2001, доказательство проживания более 90 дней через Junta de Freguesia, какие услуги могут быть бесплатны и какие могут быть выставлены к оплате.",
+      "Украинская temporary protection: как получить número de utente/доступ к SNS через temporary protection documentation, а не просто фраза «automatic full SNS access».",
+      "Официальные источники SNS24/ACSS/ERS вместо или дополнительно к общим/статистическим страницам SNS."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6069,
+    "prompt_tokens": 2833,
+    "total_tokens": 8902
+  },
+  "model": "gpt-5.5"
+}

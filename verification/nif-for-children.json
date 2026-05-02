@@ -1,0 +1,151 @@
+{
+  "guideId": "nif-for-children",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has several material inaccuracies/overstatements about automatic NIF at birth, CPLP/fiscal representation, document legalisation, and what NIF is actually mandatory for.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Дети-граждане PT получают NIF автоматически при рождении через Balcão do Nado Vivo.»",
+        "problem": "This is too broad. Balcão do Nado Vivo is primarily for birth registration; automatic assignment of NIF/NISS/Número de Utente is tied to the newborn citizen/Cartão de Cidadão/Nascer Cidadão workflow and is not simply a universal consequence of birth registration. Foreign newborns registered in Portugal may still need separate steps for NIF/utente/NISS depending on nationality/status and whether a citizen card is issued.",
+        "suggestion": "Write: «Если ребёнок получает португальское гражданство и оформляется первый Cartão de Cidadão/Nascer Cidadão, NIF/NISS/Número de Utente обычно присваиваются в рамках этой процедуры. Для ребёнка-иностранца, даже родившегося в PT, NIF может потребоваться оформлять отдельно в Finanças.»",
+        "confidence": "high",
+        "source": "ePortugal/IRN — Registar nascimento no Balcão do Nado Vivo; IRN — Cartão de Cidadão / Nascer Cidadão"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1]",
+        "current": "«Автоматически присваивается NIF + NISS + Número de Utente одним пакетом»",
+        "problem": "Overstates the rule for all children born in Portugal. This is not guaranteed for every birth registration, especially where the child is not Portuguese and no Cartão de Cidadão is issued.",
+        "suggestion": "Replace with: «Если ребёнку оформляют португальский Cartão de Cidadão/Nascer Cidadão, вместе с ним обычно присваиваются NIF, NISS и Número de Utente. Если ребёнок остаётся иностранным гражданином, уточняйте отдельно: NIF — в Finanças, utente — в centro de saúde, NISS — в Segurança Social/ISS.»",
+        "confidence": "high",
+        "source": "IRN — Cartão de Cidadão; ePortugal — Balcão do Nado Vivo"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].title",
+        "current": "«Вариант C — для граждан ЕС/CPLP»",
+        "problem": "CPLP is wrongly grouped with EU. For Portuguese tax representative rules, the key distinction is generally tax residence/address in Portugal/EU/EEA versus third country, not CPLP nationality. A Brazilian/Angolan/etc. citizen resident outside the EU/EEA is not exempt merely because they are CPLP.",
+        "suggestion": "Change heading to: «Вариант C — если налоговый адрес в Portugal/EU/EEA». Then add: «CPLP само по себе не освобождает от правил о fiscal representative; важен налоговый адрес и наличие налоговых обязанностей в PT.»",
+        "confidence": "high",
+        "source": "AT — regras de representante fiscal; Ofício Circulado n.º 90057/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "«Представитель не требуется. Родитель-гражданин ЕС/CPLP приходит с паспортом ребёнка и свидетельством о рождении. Адрес можно заявить домашний (ЕС/CPLP-страна).»",
+        "problem": "Misleading on two points: CPLP country address is not treated like EU/EEA address, and nationality of the parent is not the decisive criterion. A home address in Brazil, Angola, Mozambique, etc. is still a third-country address for tax domicile purposes.",
+        "suggestion": "Write: «Если налоговый адрес ребёнка/родителя находится в Portugal/EU/EEA, fiscal representative обычно не нужен. Если адрес в третьей стране, правила о representante fiscal/электронных уведомлениях нужно проверять отдельно; CPLP-гражданство само по себе не даёт EU-режим.»",
+        "confidence": "high",
+        "source": "AT — representante fiscal; Ofício Circulado n.º 90057/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "«Представитель указывается временным, после получения ВНЖ можно снять.»",
+        "problem": "Residence permit alone does not automatically remove the need for a fiscal representative. What matters is updating the fiscal address to Portugal/EU/EEA or meeting the electronic-notification conditions where applicable. A person can have a residence card but still have an outdated non-EU tax address in the AT system.",
+        "suggestion": "Write: «После переезда нужно изменить morada fiscal на адрес в Portugal/EU/EEA; тогда representante fiscal обычно можно снять. Сам ВНЖ без смены morada fiscal в Finanças этого не делает.»",
+        "confidence": "high",
+        "source": "AT — alteração de morada fiscal; AT — representante fiscal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].text",
+        "current": "«для стран вне Гааги (Канада, Китай) потребуется консульская легализация вместо апостиля»",
+        "problem": "Examples are outdated/wrong. Canada has been party to the Apostille Convention since 11 January 2024. China also joined the Apostille Convention for mainland China in November 2023; Hong Kong and Macau were already covered separately. These are no longer good examples of non-Hague countries.",
+        "suggestion": "Write: «Если страна выдачи не участвует в Гаагской конвенции об апостиле, нужна консульская легализация. Проверяйте статус страны в HCCH Apostille status table; Канада и Китай уже используют апостиль.»",
+        "confidence": "high",
+        "source": "HCCH — Apostille Convention status table"
+      },
+      {
+        "severity": "minor",
+        "where": "documents[0].note",
+        "current": "«апостиль + присяжный перевод, если не-PT/EN»",
+        "problem": "Portugal does not have a simple universal category of 'sworn translator' equivalent to some other countries; authorities usually require a certified translation. Also English acceptance is not guaranteed by law for all Finanças desks. EU multilingual standard forms can remove translation/legalisation needs for certain EU civil-status documents.",
+        "suggestion": "Write: «апостиль/легализация, если применимо, + перевод на PT, заверенный допустимым способом в Portugal; для документов ЕС проверьте возможность multilingual standard form по Reg. (EU) 2016/1191.» Avoid implying English is always accepted.",
+        "confidence": "high",
+        "source": "Regulation (EU) 2016/1191; Portuguese notarial/certified translation practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "«свидетельство о рождении (с апостилем + присяжным переводом, если не PT/EN)»",
+        "problem": "Same issue: English is not a guaranteed exemption, and the correct term is certified translation rather than 'sworn translation' in the Portuguese context. Apostille/legalisation also depends on country and treaty status.",
+        "suggestion": "Write: «свидетельство о рождении: апостиль/легализация, если применимо, и заверенный перевод на португальский, если документ не принимается напрямую; для документов ЕС — проверить Reg. 2016/1191.»",
+        "confidence": "high",
+        "source": "Regulation (EU) 2016/1191; HCCH Apostille Convention"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].title",
+        "current": "«Когда NIF ребёнку обязателен»",
+        "problem": "Several listed situations often request NIF in practice, but 'obligatory' is too strong. Children cannot generally be denied compulsory schooling or essential healthcare solely because they do not yet have a NIF. For SNS, Número de Utente is the key identifier; for Abono de Família, NISS and Segurança Social conditions are central.",
+        "suggestion": "Change title to «Когда NIF ребёнка обычно просят» and add caveat: «Для школы и SNS отсутствие NIF не должно блокировать базовый доступ, но NIF часто нужен для административных записей, пособий, страховок и налоговых/финансовых действий.»",
+        "confidence": "medium",
+        "source": "SNS/ACSS user registration guidance; Portuguese education access rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2]",
+        "current": "«Подача на Abono de Família (детское пособие)»",
+        "problem": "Incomplete: Abono de Família is primarily processed through Segurança Social and requires the child to have/be linked with NISS and meet residence/resource conditions. NIF may be useful/requested but is not the whole requirement.",
+        "suggestion": "Write: «Подача на Abono de Família — кроме NIF обычно нужен NISS ребёнка/связка в Segurança Social и выполнение условий по резидентству и доходам.»",
+        "confidence": "high",
+        "source": "Segurança Social — Abono de família para crianças e jovens"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[3]",
+        "current": "«Если родители-иностранцы — ребёнок наследует их гражданство; PT-гражданство только если один из родителей — резидент PT ≥ 1 год (Lei 37/81 ст. 1.1.f)»",
+        "problem": "Over-simplified and slightly misleading. Foreign nationality is not always automatically 'inherited' under every country’s law. Portuguese nationality by birth has additional routes/exceptions, and the cited rule is specifically that one parent has been resident in Portugal, regardless of title, for at least one year and is not in service of the foreign state. Also a new nationality law was approved on 01.04.2026 but, as of April 2026, awaits promulgation and is not yet in force.",
+        "suggestion": "Write: «Гражданство ребёнка зависит от законов страны родителей. По действующей Lei da Nacionalidade ребёнок, родившийся в PT от иностранных родителей, может быть português de origem, если на момент рождения один из родителей проживает в PT не менее 1 года и не находится на службе иностранного государства; есть и другие специальные основания. Закон о гражданстве, одобренный 01.04.2026, ещё не вступил в силу до промульгации.»",
+        "confidence": "high",
+        "source": "Lei n.º 37/81, art. 1.º; parliamentary approval of new nationality law 01.04.2026"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0]",
+        "current": "«NIF ребёнка привязан к родителю-«gestor» в Portal das Finanças (им управляет родитель до 18 лет ребёнка)»",
+        "problem": "The wording suggests a formal automatic 'gestor' role in Portal das Finanças, which is not the usual AT terminology and may confuse users. A minor can have Portal das Finanças credentials/password; parents/legal representatives act on the minor’s behalf, and the child can be included in the household/agregado familiar for IRS purposes.",
+        "suggestion": "Write: «Родитель/законный представитель действует от имени ребёнка; при необходимости можно запросить пароль Portal das Finanças для NIF ребёнка. Для налогов важна также корректная связка ребёнка в agregado familiar.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças — senha de acesso / agregado familiar"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.portaldasfinancas.gov.pt/at/html/index.html",
+        "problem": "This is only the general Portal das Finanças entry page, not a useful source for NIF assignment, minor representation, or fiscal representative rules.",
+        "suggestion": "Replace/add more specific AT sources: pages/FAQ on NIF assignment, alteração de morada fiscal, representante fiscal, and e-Balcão service for NIF requests.",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — Portal das Finanças / e-Balcão"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No source for fiscal representative rules, document legalisation/translation, Abono de Família, or nationality claim.",
+        "problem": "The guide makes sensitive legal/administrative claims without sources. This is especially risky for fiscal representative rules and citizenship-by-birth statements.",
+        "suggestion": "Add sources: AT guidance/Ofício Circulado n.º 90057/2022 for representante fiscal; HCCH Apostille status table; Regulation (EU) 2016/1191; Segurança Social page for Abono de Família; Lei n.º 37/81 art. 1.º for nationality.",
+        "confidence": "high",
+        "source": "AT; HCCH; Regulation (EU) 2016/1191; Segurança Social; Lei n.º 37/81"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that fiscal representative rules depend mainly on tax residence/address and tax obligations, not CPLP nationality.",
+      "Clarify that for foreign newborns born in Portugal, NIF/NISS/Número de Utente may require separate steps unless a Portuguese Cartão de Cidadão/Nascer Cidadão workflow applies.",
+      "Mention EU civil-status documents and multilingual standard forms under Regulation (EU) 2016/1191.",
+      "Mention that Canada and China are now Apostille Convention countries and users should check the HCCH status table.",
+      "Add a caveat that schools/SNS may ask for NIF administratively, but basic access for children should not be blocked solely due to lack of NIF.",
+      "Add Segurança Social/NISS conditions for Abono de Família.",
+      "Add a precise official AT source for NIF assignment to minors and fiscal representative/e-Balcão procedures."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4855,
+    "prompt_tokens": 2380,
+    "total_tokens": 7235
+  },
+  "model": "gpt-5.5"
+}

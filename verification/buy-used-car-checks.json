@@ -1,0 +1,242 @@
+{
+  "guideId": "buy-used-car-checks",
+  "categoryId": "auto_trips",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide contains several materially misleading claims about Portuguese vehicle checks, tax debts, registration bodies/fees, and the legal effect of hidden defects.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "ACP / Standvirtual — исторический отчёт по VIN, €15-30 даёт fines, km, аварии",
+        "problem": "Portuguese vehicle-history reports are not an official universal source for fines, complete accident history, or guaranteed mileage history. Traffic fines are generally personal/administrative and are not reliably discoverable via a VIN report. Accident history in Portugal is not in a complete public database.",
+        "suggestion": "Write instead: \"ACP/other history reports can help with technical data, registrations/inspections and possible mileage or damage signals, but they are not official proof of absence of fines, accidents or odometer fraud.\"",
+        "confidence": "high",
+        "source": "ACP vehicle history service; IMT/IRN public vehicle records"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Portal das Finanças — проверить нет долгов IUC, ISV",
+        "problem": "This is misleading. IUC debts are tax debts of the taxpayer who owed them; they do not automatically transfer to the buyer with the vehicle. ISV is normally an import/registration tax, not a recurring debt that a buyer checks like IUC on a normal domestic used-car purchase.",
+        "suggestion": "Replace with: \"Ask the seller for proof that recent IUC was paid; tax debts normally remain with the liable taxpayer. For imported vehicles, verify that the vehicle is properly registered/legalized and that ISV regularization was completed.\"",
+        "confidence": "high",
+        "source": "Código do Imposto Único de Circulação; Código do ISV; Autoridade Tributária"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Штраф продавцу за сокрытие: до 3 × стоимости авто.",
+        "problem": "No general Portuguese rule says a used-car seller is fined up to 3 times the car value for concealing defects. Remedies depend on whether the seller is a professional dealer or a private seller. Dealer sales are covered by consumer warranty rules; private sales mainly by Civil Code rules on defects/fraud.",
+        "suggestion": "Replace with: \"Если продавец — dealer, действует законная гарантия потребителя на б/у товар; при частной продаже защита слабее и зависит от доказательства скрытого дефекта/обмана по Código Civil.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 84/2021; Código Civil"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[0]",
+        "current": "ACP (Automóvel Club de Portugal) — официальный отчёт",
+        "problem": "ACP is not a state authority. It is a private automobile club/service provider. Calling its report \"official\" overstates its legal value.",
+        "suggestion": "Write: \"ACP — частный платный отчёт/сервис; полезен как дополнительная проверка, но не заменяет IRN/IMT/Finanças документы.\"",
+        "confidence": "high",
+        "source": "ACP; IRN; IMT"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "Показывает: регистрации, смены владельцев, IPO, accident-history, км-history",
+        "problem": "This is too definitive. Portuguese accident history is not comprehensively available through ACP/Carfax-style reports, and mileage history may be incomplete or based mainly on IPO/inspection records and available databases.",
+        "suggestion": "Write: \"Может показывать: данные регистрации, владельцев/регистрационные события, IPO/inspection mileage where available, and possible damage/history signals. Не считать доказательством отсутствия аварий или скрученного пробега.\"",
+        "confidence": "high",
+        "source": "ACP vehicle history service; IMT IPO records"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[2]",
+        "current": "SICV ... Показывает: matricula, модель, дату регистрации, техосмотр, долги IUC",
+        "problem": "SICV/IMT vehicle-certificate systems are not a tool to check a seller’s IUC tax debts. IUC status is in the taxpayer’s Autoridade Tributária account, not a public vehicle certificate lookup.",
+        "suggestion": "Remove \"долги IUC\". Write: \"SICV/IMT can be used for vehicle/certificate data checks, but IUC payment proof must come from the seller/Autoridade Tributária.\"",
+        "confidence": "high",
+        "source": "IMT SICV; Autoridade Tributária"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4].content[0].text",
+        "current": "Через продавца (он входит со своим CMD) — проверить нет задолженностей IUC, ISV. Задолженности переходят на нового владельца!",
+        "problem": "Wrong and unsafe framing. The buyer should not require the seller to log in with CMD in front of them as a standard procedure, and tax debts do not simply transfer to the new owner. The seller can provide IUC payment proof. For ISV, the critical check is whether an imported vehicle was properly legalized/registered.",
+        "suggestion": "Write: \"Попросите продавца показать/прислать comprovativo de pagamento do IUC за последние годы. Налоговые долги обычно остаются за налогоплательщиком. Для импортного авто проверьте, что регистрация и ISV/legalização завершены.\"",
+        "confidence": "high",
+        "source": "Autoridade Tributária; Código do IUC; Código do ISV"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1]",
+        "current": "IPO certificado — действующий на дату покупки (не истекает в ближайшие 30 дней)",
+        "problem": "There is no general legal rule that IPO must not expire within the next 30 days. It must be valid if the vehicle is subject to periodic inspection and is being driven on public roads. Also newer vehicles may not yet need IPO.",
+        "suggestion": "Write: \"Если авто уже подлежит IPO, сертификат должен быть действующим; проверьте дату следующего IPO. Правила периодичности зависят от категории и возраста автомобиля.\"",
+        "confidence": "high",
+        "source": "IMT / Decreto-Lei 144/2012"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "Manual do condutor (service book) + service history желательно",
+        "problem": "Manual do condutor is an owner’s manual, not the service book. It is not legally mandatory for transfer. Service history is commercially important but not an obligatory seller document.",
+        "suggestion": "Separate the terms: \"Manual do proprietário/condutor — полезно, но не обязательно. Livro de revisões/service history/faturas de manutenção — очень желательно для проверки пробега и обслуживания.\"",
+        "confidence": "high",
+        "source": "IRN vehicle registration practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3]",
+        "current": "2 ключа: оригинал + запасной",
+        "problem": "Two keys are useful but not a legal requirement. Presenting this under \"Документы от продавца — обязательно\" is misleading.",
+        "suggestion": "Move to negotiation checklist: \"2 ключа — желательно; если один ключ, закладывайте стоимость изготовления/кодирования и повышенный риск.\"",
+        "confidence": "high",
+        "source": "General vehicle sale practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4]",
+        "current": "Factura proforma / contrato de compra-venda — от dealer (если comerciante)",
+        "problem": "A proforma invoice is not a final fiscal invoice and is not proof of sale/payment. A professional seller should issue a proper fatura/fatura-recibo or equivalent invoice.",
+        "suggestion": "Write: \"Dealer/comerciante должен выдать fatura или fatura-recibo с данными продавца, покупателя, автомобиля, ценой и IVA/regime применимым к продаже.\"",
+        "confidence": "high",
+        "source": "Código do IVA; Autoridade Tributária invoicing rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[5]",
+        "current": "Registo de propriedade — свидетельство собственности",
+        "problem": "This is confusing. In Portugal the DUA/Certificado de Matrícula identifies the registered holder, but the official proof of current registration, ownership reservation, liens, pledges, seizures etc. is obtained via the Registo Automóvel/Certidão Permanente from IRN. There is not usually a separate seller-held \"registo de propriedade\" certificate required in every sale.",
+        "suggestion": "Write: \"Для проверки собственности и обременений запросите Certidão Permanente do Registo Automóvel / certidão do registo automóvel через IRN/Automóvel Online.\"",
+        "confidence": "high",
+        "source": "IRN Registo Automóvel; Automóvel Online"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3]",
+        "current": "Показывает: реальный km (не скрутят), saved errors, live data",
+        "problem": "OBD-II does not reliably show the \"real\" mileage. Odometer data can be altered in the instrument cluster and other modules, and many cars do not expose authoritative mileage via a generic OBD app.",
+        "suggestion": "Write: \"OBD может показать ошибки, readiness monitors, live data и иногда пробег в отдельных модулях; это не доказательство реального пробега. Сверяйте с IPO, сервисными счетами и wear-and-tear.\"",
+        "confidence": "high",
+        "source": "General OBD-II diagnostics practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[1]",
+        "current": "MBWay до 2 500 €",
+        "problem": "The commonly advertised MB WAY person-to-person sending limit is lower per transaction, and limits also depend on bank/app settings and monthly caps. €2,500 as a simple payment limit is misleading for buying a car.",
+        "suggestion": "Write: \"MB WAY обычно не подходит для оплаты автомобиля: лимиты зависят от банка/MB WAY и часто ограничены по операции/дню/месяцу. Для машины безопаснее bank transfer, cheque bancário или оплата у dealer-а по согласованной схеме.\"",
+        "confidence": "medium",
+        "source": "MB WAY/SIBS service limits; bank-specific MB WAY limits"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].items[0]",
+        "current": "Лучше в IMT / Conservatória Automóvel",
+        "problem": "Ownership registration is handled through IRN/Conservatória do Registo Automóvel or Automóvel Online, not IMT as the normal place for registering the transfer of ownership.",
+        "suggestion": "Write: \"Лучше оформить в Conservatória do Registo Automóvel / balcão IRN / Loja de Cidadão с serviço de registos, либо через Automóvel Online.\"",
+        "confidence": "high",
+        "source": "IRN Registo Automóvel; Automóvel Online"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1].content[0].items[3]",
+        "current": "НЕ наличные > 3 000 € (Lei 92/2017 — вообще нельзя между physical persons)",
+        "problem": "Threshold wording is slightly wrong: the prohibition applies to cash payments of €3,000 or more, not only above €3,000. There are also different thresholds for certain taxpayer/business contexts and non-residents.",
+        "suggestion": "Write: \"Не платите наличными ≥ €3 000 между резидентами/частными лицами; для business/taxable persons and some non-resident cases thresholds differ. Use traceable payment.\"",
+        "confidence": "high",
+        "source": "Lei 92/2017; Lei Geral Tributária art. 63-E"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2].content[0].items[0]",
+        "current": "В 60 дней (по закону) — зарегистрировать переход в IMT / Conservatória do Registo Automóvel / Espaço Automóvel в Loja do Cidadão",
+        "problem": "The 60-day deadline is right, but IMT is not the correct normal body for ownership transfer registration. \"Espaço Automóvel\" is also imprecise; the relevant service is IRN/registos or Automóvel Online.",
+        "suggestion": "Write: \"В течение 60 дней нужно попросить регистрацию перехода собственности в Conservatória do Registo Automóvel/IRN, Loja de Cidadão с serviço de registos или через Automóvel Online.\"",
+        "confidence": "high",
+        "source": "IRN Registo Automóvel; Automóvel Online"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2].content[0].items[1]",
+        "current": "Пошлина: 45-65 € (online / presencial)",
+        "problem": "The range is likely inaccurate/outdated. The standard on-time used-vehicle ownership registration fee is commonly €65 in person, with an online discount around 15%; after the deadline the fee increases. €45 is not the normal Automóvel Online value.",
+        "suggestion": "Write: \"Пошлина обычно €65 presencial; online через Automóvel Online — со скидкой около 15% (€55,30). При регистрации после 60 дней сумма увеличивается.\"",
+        "confidence": "high",
+        "source": "IRN Tabela de Emolumentos; Automóvel Online"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "{\"label\":\"Регистрация перехода (IMT)\",\"amountEURMin\":45,\"amountEURMax\":65}",
+        "problem": "Wrong agency label and likely wrong minimum. This is an IRN/Registo Automóvel fee, not an IMT fee; normal online fee is around €55.30, not €45.",
+        "suggestion": "Change label to \"Регистрация перехода собственности — IRN/Automóvel Online\" and amount to approximately €55.30 online / €65 in person, with a note that late registration costs more.",
+        "confidence": "high",
+        "source": "IRN Tabela de Emolumentos; Automóvel Online"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[1]",
+        "current": "Залог на машине: проверить Registo Automóvel (можно бесплатно через ACP или IRN)",
+        "problem": "Checking legal encumbrances/reserva de propriedade/penhora is done via IRN/Registo Automóvel, typically through a certidão/certidão permanente, and it is not generally free. ACP is not the official registry.",
+        "suggestion": "Write: \"Залог/reserva de propriedade/penhora: запросите Certidão Permanente do Registo Automóvel через IRN/Automóvel Online; услуга платная.\"",
+        "confidence": "high",
+        "source": "IRN Certidão Permanente do Registo Automóvel; Automóvel Online"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2]",
+        "current": "Автомобиль в аресте: SICV покажет",
+        "problem": "A seizure/penhora or other registration encumbrance should be checked through Registo Automóvel/IRN, not relied on via SICV.",
+        "suggestion": "Write: \"Арест/penhora/обременения проверяйте по Certidão Permanente do Registo Automóvel через IRN/Automóvel Online.\"",
+        "confidence": "high",
+        "source": "IRN Registo Automóvel"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[6]",
+        "current": "Подставные dealer-ы в AliExpress-style: только через acknowledged автошколы / комиссионки",
+        "problem": "The phrase is unclear and \"автошколы\" means driving schools, not car dealers. This may confuse readers.",
+        "suggestion": "Replace with: \"Покупайте у реально зарегистрированного stand/concessionário/comerciante automóvel; проверяйте NIF/NIPC, livro de reclamações, morada, fatura и гарантию.\"",
+        "confidence": "high",
+        "source": "Livro de Reclamações; consumer sale practice"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "{\"title\":\"IMT — SICV (проверка авто)\",\"url\":\"https://portal.imt-ip.pt/\"}",
+        "problem": "The source URL is generic and not the SICV URL mentioned in the guide. For a guide relying on SICV, link directly to the relevant IMT/SICV page where possible.",
+        "suggestion": "Use the specific SICV URL mentioned in the content, e.g. \"https://sicv.imt-ip.pt/\", and keep the general IMT portal only as a secondary source.",
+        "confidence": "medium",
+        "source": "IMT SICV"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only IMT, ACP, IRN generic sources are listed.",
+        "problem": "The guide makes legal claims about cash limits, consumer warranty, registration fees and tax debts but does not cite Autoridade Tributária, IRN fee table/Automóvel Online, or consumer-law sources.",
+        "suggestion": "Add sources: Autoridade Tributária cash/IUC guidance, Lei Geral Tributária art. 63-E / Lei 92/2017, Decreto-Lei 84/2021 for dealer warranties, IRN/Automóvel Online fee page for registration.",
+        "confidence": "high",
+        "source": "AT; IRN; Decreto-Lei 84/2021; Lei 92/2017"
+      }
+    ],
+    "missing_topics": [
+      "Dealer warranty rules for used cars under Decreto-Lei 84/2021, including difference between professional seller and private seller",
+      "How to obtain Certidão Permanente do Registo Automóvel / check reserva de propriedade, penhora, locação financeira and other encumbrances through IRN",
+      "Automóvel Online as the standard online channel for transfer registration",
+      "Late registration consequences after 60 days and increased fees",
+      "Need for valid mandatory insurance before driving the car away; insurance does not transfer automatically with the car",
+      "Imported car caveat: verify legalização, Portuguese matrícula, DAV/ISV regularization where relevant",
+      "Clear distinction between DUA/Certificado de Matrícula and proof of legal registration/encumbrances",
+      "Caveat that mileage/accident reports and OBD checks are only indicators, not proof"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5469,
+    "prompt_tokens": 3447,
+    "total_tokens": 8916
+  },
+  "model": "gpt-5.5"
+}

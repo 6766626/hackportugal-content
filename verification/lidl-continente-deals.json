@@ -1,0 +1,275 @@
+{
+  "guideId": "lidl-continente-deals",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по теме, но содержит много неподтверждённых или неверных утверждений о Lidl Outlet, механике Cartão Continente/Poupa Mais, топливных партнёрах, циклах folhetos и сравнении цен DECO.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].text",
+        "current": "lidl.pt/outlet — отдельный онлайн-магазин для непродовольственных товаров: техника, одежда, инвентарь, туризм.",
+        "problem": "Формулировка создаёт впечатление постоянного отдельного онлайн-магазина Lidl Outlet. У Lidl Portugal основной публичный канал — lidl.pt и приложение Lidl Plus; наличие постоянного интернет-магазина outlet с такими условиями требует проверки. Указанный URL выглядит сомнительно как стабильная страница.",
+        "suggestion": "Переписать осторожно: «Если Lidl Portugal запускает временный Lidl Outlet/кампанию non-food, условия, ассортимент, доставка и сроки указаны на официальной странице Lidl Portugal или в Lidl Plus. Это не постоянный продуктовый онлайн-магазин». Проверить фактический URL перед публикацией.",
+        "confidence": "medium",
+        "source": "Lidl Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1]",
+        "current": "Доставка по всей стране, €3-5 на заказ",
+        "problem": "Стоимость доставки указана как фиксированный факт, но для Lidl Outlet/онлайн-кампаний она может отличаться по весу, товару, региону и условиям конкретной акции. Без актуального тарифного источника это вводит в заблуждение.",
+        "suggestion": "Заменить на: «Доставка и её стоимость зависят от условий конкретной онлайн-кампании; проверяйте на странице заказа».",
+        "confidence": "medium",
+        "source": "Lidl Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "Pickup в магазине Lidl — бесплатно",
+        "problem": "Бесплатный самовывоз из магазина Lidl не является общеизвестным постоянным условием Lidl Portugal для outlet/non-food онлайн-продаж. Нужен источник; иначе это, вероятно, неверно.",
+        "suggestion": "Удалить или заменить на: «Если доступен самовывоз, это будет указано при оформлении заказа; не рассчитывайте на него как на стандартную опцию».",
+        "confidence": "medium",
+        "source": "Lidl Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[3]",
+        "current": "Возврат — 30 дней без причины (по EU Directive 2011/83)",
+        "problem": "EU Directive 2011/83/EU даёт минимум 14 дней для отказа от дистанционной покупки, а не 30. 30 дней может быть добровольной политикой продавца, но не требованием директивы.",
+        "suggestion": "Написать: «Для дистанционных покупок в ЕС минимальный срок отказа — 14 дней; если Lidl даёт 30 дней, это добровольное коммерческое условие конкретной кампании».",
+        "confidence": "high",
+        "source": "Directive 2011/83/EU; Decreto-Lei n.º 24/2014"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[5]",
+        "current": "Сезонные окна: открывают 2-3 раза в год на 2-3 недели каждое",
+        "problem": "Утверждение слишком конкретное и не подтверждено официальным источником. Если это основано на прошлых кампаниях, нельзя подавать как правило на 2026 год.",
+        "suggestion": "Заменить на: «Outlet/кампании, если проводятся, обычно временные; даты объявляются Lidl Portugal».",
+        "confidence": "medium",
+        "source": "Lidl Portugal"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0].content[0].items[2]",
+        "current": "Накопление: 1% от покупки (500 pts = 5 €) базово",
+        "problem": "Cartão Continente не работает как универсальная балльная система «500 pts = 5 €» и не даёт гарантированный базовый 1% на любую покупку. Основной механизм — saldo/descontos em Cartão по акциям и купонам.",
+        "suggestion": "Заменить на: «Cartão Continente накапливает saldo em Cartão по конкретным акциям, купонам и партнёрским предложениям; гарантированного 1% cashback на все покупки обычно нет».",
+        "confidence": "high",
+        "source": "Continente — Cartão Continente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "До 5% на маркированные товары (promo + Cartão)",
+        "problem": "Скидки Cartão Continente часто выражаются конкретной суммой или процентом em Cartão и могут быть 10%, 25%, 50% и т.п.; «до 5%» выглядит неверно и занижает/искажает механику.",
+        "suggestion": "Написать: «На промо-товарах бывает desconto imediato или saldo em Cartão с разными процентами/суммами; условия видны на ценнике и в приложении».",
+        "confidence": "high",
+        "source": "Continente — Cartão Continente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[5]",
+        "current": "Combustível в Galp / Repsol — со скидкой 0.06 €/л при оплате Continente Cartão",
+        "problem": "Continente традиционно связан с Galp через купоны/Cartão Continente; Repsol как партнёр здесь выглядит неверно. Также скидка 0,06 €/л не является универсальным постоянным правилом и не обязательно требует «оплаты Cartão Continente».",
+        "suggestion": "Заменить на: «Топливные акции Cartão Continente обычно идут через Galp и зависят от купона/кампании; проверяйте номинал, срок и условия в приложении».",
+        "confidence": "high",
+        "source": "Continente — Cartão Continente; Galp/Continente partnership terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[6]",
+        "current": "Универсальный кэшбек работает и в Worten, Zippy, MO, Sport Zone, Wells (все в группе Sonae)",
+        "problem": "Неверно как минимум по двум причинам: Sport Zone не следует описывать как обычного участника группы Sonae в 2026, а Cartão Continente не является универсальным кэшбеком во всех этих сетях. Партнёрские условия различаются по брендам и кампаниям.",
+        "suggestion": "Написать: «Cartão Continente имеет партнёрские акции с отдельными брендами группы/партнёрами, но правила накопления и использования saldo отличаются; проверяйте список партнёров на сайте Cartão Continente».",
+        "confidence": "high",
+        "source": "Continente — parceiros Cartão Continente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].title",
+        "current": "🟩 Pingo Doce — Poupa Mais",
+        "problem": "Название программы смешано. У Pingo Doce клиентская экосистема сейчас обычно продвигается как O Meu Pingo Doce/app, а Poupa Mais исторически связан с топливным партнёрством BP. Надо различать карту/app Pingo Doce и программу топлива.",
+        "suggestion": "Уточнить: «Pingo Doce / O Meu Pingo Doce; Poupa Mais — связанные скидки/партнёрские механики, включая топливо, если доступны по актуальным условиям».",
+        "confidence": "medium",
+        "source": "Pingo Doce; Poupa Mais"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1].content[0].items[4]",
+        "current": "Бензин в Repsol: скидки комбинируются",
+        "problem": "Для Pingo Doce/Poupa Mais топливным партнёром исторически является BP, а не Repsol. Утверждение про Repsol, вероятно, неверно.",
+        "suggestion": "Заменить на: «Топливные скидки Pingo Doce/Poupa Mais проверяйте в актуальных условиях; исторически партнёр — BP, а не Repsol».",
+        "confidence": "high",
+        "source": "Pingo Doce; BP/Poupa Mais"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[1]",
+        "current": "Купоны вирые еженедельно",
+        "problem": "Опечатка: «вирые» непонятно.",
+        "suggestion": "Исправить на: «Купоны обновляются еженедельно».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[3]",
+        "current": "Scratch-card ежедневно — иногда выигрывают 5-50 €",
+        "problem": "Lidl Plus scratch-card/raspadinha обычно привязана к покупкам или конкретным кампаниям, а не является гарантированной ежедневной возможностью. Диапазон 5–50 € требует источника.",
+        "suggestion": "Написать: «В Lidl Plus периодически бывают raspadinhas/игры и купоны после покупки; призы и частота зависят от кампании».",
+        "confidence": "medium",
+        "source": "Lidl Plus Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1]",
+        "current": "🗓️ Цикл: среда-вторник (большинство) / понедельник-воскресенье (Lidl)",
+        "problem": "Циклы folhetos в Португалии различаются по сети и кампании; Lidl Portugal часто публикует folhetos/акции с периодами не только понедельник-воскресенье. Утверждение «большинство» без источника слишком категорично.",
+        "suggestion": "Заменить на: «Периоды folhetos отличаются по сети: проверяйте даты на обложке флаера; часто акции меняются еженедельно, но дни старта не универсальны».",
+        "confidence": "high",
+        "source": "Folhetos oficiais das cadeias"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[2]",
+        "current": "📉 Folheto \"Super Poupança\" Continente — среда до 50% скидок",
+        "problem": "Название и день/скидка поданы как постоянное правило, хотя Continente меняет кампании, названия и даты. «До 50%» может быть верно для отдельных акций, но не как еженедельная гарантия.",
+        "suggestion": "Написать: «У Continente регулярно бывают folhetos/campanhas de poupança; даты и проценты меняются, смотрите приложение или continente.pt».",
+        "confidence": "medium",
+        "source": "Continente folhetos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[3]",
+        "current": "💎 Folheto \"Descobertas\" Pingo Doce — пятница-воскресенье, 30-40% на selection",
+        "problem": "Слишком конкретно и не подтверждено как постоянный формат Pingo Doce. Названия, дни и проценты меняются.",
+        "suggestion": "Заменить на: «У Pingo Doce бывают тематические кампании и короткие акции выходного дня; условия меняются по folheto/app».",
+        "confidence": "medium",
+        "source": "Pingo Doce folhetos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "DECO PROteste ... каждый год публикует исследование цен на корзину 164 базовых продуктов.",
+        "problem": "Число товаров в корзине DECO может меняться по методологии и конкретному исследованию. Без ссылки на конкретный отчёт 2025/2026 утверждение «164» рискованно.",
+        "suggestion": "Указать конкретную статью DECO и формулировать так: «DECO PROteste регулярно сравнивает цены на корзину товаров; состав корзины и методология указаны в конкретном отчёте».",
+        "confidence": "medium",
+        "source": "DECO PROteste — estudo de preços dos supermercados"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[1].items[0]",
+        "current": "🏆 Cheapest (2025 DECO): Mercadona, следом Aldi, Lidl, Continente Bom Dia",
+        "problem": "Очень сомнительное ранжирование: Continente Bom Dia — формат convenience/городских магазинов, обычно не ожидается среди самых дешёвых. DECO ранжирует по конкретным магазинам/районам и типам корзин, а не так обобщённо. Нужна точная ссылка на отчёт; без неё это выглядит неверно.",
+        "suggestion": "Удалить конкретный рейтинг или заменить на: «По исследованиям DECO, самые дешёвые сети/магазины зависят от города и типа корзины; перед покупкой проверяйте актуальный рейтинг DECO и локальные цены».",
+        "confidence": "high",
+        "source": "DECO PROteste — estudo supermercados"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[5]",
+        "current": "🇪🇸 Mercadona: дёшево (pt.mercadona.es) — 40+ магазинов",
+        "problem": "URL выглядит неверным/устаревшим для Португалии; официальный португальский сайт — mercadona.pt. Количество «40+» сильно занижено для 2026 года: Mercadona Portugal уже имела существенно больше магазинов до 2026.",
+        "suggestion": "Заменить на: «Mercadona: официальный сайт mercadona.pt; число магазинов быстро растёт, проверяйте актуальный локатор магазинов на сайте».",
+        "confidence": "high",
+        "source": "Mercadona Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[7]",
+        "current": "🍻 Алкоголь: до 40% разница — Lidl дешевле всего",
+        "problem": "«Lidl дешевле всего» по алкоголю — неподтверждённое абсолютное утверждение. Цены на вино, пиво и крепкий алкоголь сильно зависят от бренда, промо и налогообложения; Continente/Pingo Doce/Auchan часто дают крупные скидки по карте.",
+        "suggestion": "Написать: «На алкоголь разброс цен может быть большим, особенно в промо; сравнивайте конкретные бренды по folhetos и цене за литр».",
+        "confidence": "high",
+        "source": "Folhetos oficiais das cadeias"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "🛒 Покупать тушки private-label Lidl/Continente — качество топ, цена -30% к брендам",
+        "problem": "Опечатка/непонятное слово «тушки». Кроме того, «качество топ» и «-30%» — оценочные и не универсальные утверждения.",
+        "suggestion": "Исправить на: «Покупать товары private label Lidl/Continente: часто дешевле брендовых аналогов; сравнивайте цену за кг/л и состав».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2]",
+        "current": "🥯 Вечерние скидки пекарни Pingo Doce/Continente — после 20:00 на pão, pasteis -50%",
+        "problem": "Не является универсальным правилом сетей. Уценка выпечки зависит от конкретного магазина, города и политики списания; часто такие скидки идут через Too Good To Go или локальные акции, а не обязательно после 20:00 и не обязательно -50%.",
+        "suggestion": "Написать: «Некоторые магазины уценивают выпечку/готовую еду ближе к закрытию или через Too Good To Go; это зависит от точки».",
+        "confidence": "high",
+        "source": "Store-specific policies; Too Good To Go Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "💳 Continente Combustível card для АЗС — €10/мес скидка среднестатистической семье",
+        "problem": "Слишком конкретная экономия без расчёта и источника. Скидка зависит от литража, купонов, АЗС, срока действия и того, накапливается ли saldo em Cartão.",
+        "suggestion": "Заменить на: «Топливные купоны Continente/Galp могут давать заметную экономию, но считайте по литрам и условиям купона; не всегда это реальная скидка наличными».",
+        "confidence": "high",
+        "source": "Continente/Galp campaign terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "🌽 Mercados municipais (Ribeira Bolhão Porto, Mercado Arroios Lisboa) — свежие овощи/рыба дешевле на 20-40%, чем супермаркет",
+        "problem": "Утверждение вводит в заблуждение. Mercado da Ribeira в Лиссабоне и Bolhão в Порту после реконструкции/туристификации не являются надёжными примерами мест, где всё дешевле супермаркета на 20–40%. Муниципальные рынки могут быть дешевле по сезонным продуктам, но часто дороже по рыбе, деликатесам и туристическим зонам.",
+        "suggestion": "Написать: «Муниципальные рынки могут быть выгодны для сезонных овощей/фруктов у локальных продавцов, но туристические рынки вроде Ribeira/Bolhão не гарантируют низкие цены; сравнивайте цену за кг».",
+        "confidence": "high",
+        "source": "Local market pricing; municipal market listings"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "\"Lidl Outlet доставка\", amountEURMin: 3, amountEURMax: 5",
+        "problem": "Стоимость доставки не подтверждена и может зависеть от условий конкретной кампании. В таком виде выглядит как гарантированный тариф.",
+        "suggestion": "Заменить на переменную стоимость: «проверяется при checkout» или удалить из costs до подтверждения официальным тарифом.",
+        "confidence": "medium",
+        "source": "Lidl Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "\"Экономия от Cartão Continente (семья)\", amountEURMin: 200, amountEURMax: 800, note: \"€/год\"",
+        "problem": "Диапазон экономии 200–800 €/год не обоснован и связан с неверным описанием базового 1% cashback. Реальная экономия зависит от бюджета, промо, купонов, топлива и структуры покупок.",
+        "suggestion": "Заменить на: «Экономия индивидуальна; считайте по saldo em Cartão/купонам и не покупайте лишнее ради промо». Если оставлять цифры — дать пример расчёта.",
+        "confidence": "high",
+        "source": "Continente — Cartão Continente"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "\"DECO PROteste — сравнение супермаркетов\", url: \"https://www.deco.proteste.pt/\", kind: \"official\"",
+        "problem": "DECO PROteste — не официальный государственный источник, а потребительская организация. Также ссылка ведёт на главную страницу, а не на конкретный рейтинг/исследование.",
+        "suggestion": "Поставить kind: \"secondary\" и дать URL конкретной статьи DECO о сравнении цен в супермаркетах за нужный год.",
+        "confidence": "high",
+        "source": "DECO PROteste"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Нет источников Pingo Doce, Lidl Plus, Auchan, Intermarché, Mercadona",
+        "problem": "Гайд даёт конкретные условия программ лояльности и скидок, но источники есть только для Lidl Outlet, Continente, folhetos.pt и DECO. Для коммерческих условий нужны первичные ссылки каждой сети.",
+        "suggestion": "Добавить официальные источники: Pingo Doce/O Meu Pingo Doce/Poupa Mais, Lidl Plus Portugal, Auchan Cartão, Intermarché Portugal, Mercadona Portugal store locator.",
+        "confidence": "high",
+        "source": "Official supermarket websites"
+      }
+    ],
+    "missing_topics": [
+      "Предупреждение, что скидки em Cartão — это не всегда немедленная скидка наличными: часть выгоды можно потратить только в той же сети и в установленные сроки.",
+      "Совет сравнивать preço por kg/l/unidade, а не только цену упаковки.",
+      "Отдельное упоминание apps/сервисов Too Good To Go и Phenix для уценённых продуктов и готовой еды, если цель — экономия.",
+      "Уточнение, что топливные купоны часто требуют минимальной покупки, имеют срок действия и лимит литров.",
+      "Ссылка на Livro de Reclamações Eletrónico/ASAE для жалоб на неверные цены, ценники и промо."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6146,
+    "prompt_tokens": 2962,
+    "total_tokens": 9108
+  },
+  "model": "gpt-5.5"
+}

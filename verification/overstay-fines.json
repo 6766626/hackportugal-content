@@ -1,0 +1,12 @@
+{
+  "guideId": "overstay-fines",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Expected ',' or ']' after array element in JSON at position 12192 (line 148 column 6)",
+    "raw": "{\n  \"verdict\": \"major_issues\",\n  \"summary\": \"Guide has useful practical framing, but materially overstates SIS/entry-ban consequences, gives incorrect fine brackets, and is too loose about in-country regularisation after DL 37-A/2024.\",\n  \"issues\": [\n    {\n      \"severity\": \"major\",\n      \"where\": \"tldr\",\n      \"current\": \"штрафы €80–700, запись в Шенгенскую информационную систему (SIS II), риск отказа в продлении и будущих визах на 1-5 лет, в тяжёлых случаях — запрет въезда в Шенген\",\n      \"pr",
+    "issues": [],
+    "missing_topics": []
+  },
+  "model": "gpt-5.5"
+}

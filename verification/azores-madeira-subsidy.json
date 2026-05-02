@@ -1,0 +1,251 @@
+{
+  "guideId": "azores-madeira-subsidy",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд системно неверно описывает португальскую субсидию мобильности: она предназначена в первую очередь для жителей автономных регионов, а не для всех PT-резидентов/туристов с материка, и процесс/лимиты/названия/URL перепутаны.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Резиденты PT получают субсидию **«Social Territorial de Passageiros»** (STP) на авиаперелёты в Azores и Madeira — до 134 € возврата за билет (2026). Действует для PT-резидентов с NIF + NISS.",
+        "problem": "Это неверно. Официальная схема называется Subsídio Social de Mobilidade, а не «Social Territorial de Passageiros/STP». Она не действует для всех резидентов Португалии с NIF/NISS и не является туристической скидкой для жителей материка на поездки на острова. Право обычно связано с резидентством в автономном регионе — Açores или Madeira/Porto Santo — и поездками между регионом и материком/другим автономным регионом.",
+        "suggestion": "Заменить на: «Subsídio Social de Mobilidade — государственная компенсация транспортных расходов для резидентов автономных регионов Açores и Madeira, а также некоторых студентов/приравненных категорий, при поездках между автономным регионом и материковой Португалией или другим автономным регионом. Обычные резиденты материковой Португалии, летящие на острова как туристы, на эту субсидию не имеют права.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015; CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items[0]",
+        "current": "✅ Кто имеет право: **резиденты Португалии** с NIF (иностранцы с ВНЖ — тоже!)",
+        "problem": "Слишком широко и фактически неверно. Наличие NIF и ВНЖ в Португалии само по себе не даёт права на субсидию. Нужна подтверждённая резиденция в автономном регионе и соответствующий маршрут/категория.",
+        "suggestion": "Написать: «Кто имеет право: резиденты Açores или Madeira/Porto Santo, а также отдельные категории студентов/приравненных лиц, при выполнении условий конкретного режима. Резидент материка с NIF/NISS, летящий в отпуск на острова, обычно не eligible.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items[2]",
+        "current": "✅ **Residents mainland → islands** (как турист): более низкая субсидия, в зависимости от маршрута",
+        "problem": "Это вводит читателя в заблуждение: для обычных резидентов материковой Португалии, летящих на Азоры/Мадейру как туристы, такой субсидии нет.",
+        "suggestion": "Удалить пункт или заменить на: «Residents mainland → islands как туристы: субсидия Social Mobility обычно не применяется; покупается обычный коммерческий тариф.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1]",
+        "current": "✅ **Residents islands → mainland**: субсидия до 134 € (2026)",
+        "problem": "Формулировка «до 134 € возврата» неверно объясняет механику. Для Азорских островов 134 € обычно фигурирует как максимальная итоговая стоимость round trip для резидента после субсидии, а не как универсальный максимум возврата. Для Madeira значения отличаются.",
+        "suggestion": "Написать отдельно по регионам: «Açores: резидент обычно несёт итоговую стоимость до 134 € за round trip на eligible routes; студент — ниже. Madeira: действует отдельный режим с другими порогами/значениями. Возврат зависит от фактической цены, такс и правил тарифа.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015; CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[3]",
+        "current": "✅ **Max 4 поездки в год** для резидентов islands; 2 туристам",
+        "problem": "В гайде указан лимит без источника и, судя по официальной схеме social mobility, это не является общим правилом. Особенно неверна часть про «2 туристам», потому что туристы с материка в принципе не являются eligible по этой схеме.",
+        "suggestion": "Удалить этот пункт, если нет точной ссылки на конкретную региональную программу. Для основной SSM-схемы написать: «Проверяйте действующие лимиты и eligible journeys в официальных правилах; туристам с материка схема не доступна.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].title",
+        "current": "Вариант A — встроенная при покупке (SATA, TAP)",
+        "problem": "Для основной государственной субсидии Social Mobility описание как «встроенная скидка при покупке» misleading. Классическая процедура — купить билет, совершить поездку и затем запросить возмещение у уполномоченного оператора/CTT с документами. У авиакомпаний могут быть resident fares или специальные тарифы, но это не то же самое, что автоматическая выплата государственной субсидии всем eligible пассажирам.",
+        "suggestion": "Переписать раздел: «Обычно билет покупается полностью, поездка совершается, затем eligible резидент запрашивает reimbursement через CTT/уполномоченный канал с boarding pass, invoice/receipt и доказательством резидентства. Не путать с коммерческими resident fares авиакомпаний.»",
+        "confidence": "high",
+        "source": "CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[1]",
+        "current": "Система автоматически применяет tariff «residente»",
+        "problem": "Смешаны два разных понятия: коммерческий/специальный resident fare и государственный Subsídio Social de Mobilidade. Автоматическое применение тарифа при вводе NIF не является универсальным способом получения субсидии.",
+        "suggestion": "Заменить на: «Некоторые перевозчики могут показывать специальные тарифы для резидентов при подтверждении статуса, но государственный SSM обычно оформляется как reimbursement после поездки по правилам CTT/официального режима.»",
+        "confidence": "high",
+        "source": "CTT — Subsídio Social de Mobilidade; SATA/TAP fare rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "После поездки — заявление на sata.pt → «Bonificação STP»",
+        "problem": "Неверный канал и название. Для государственной social mobility subsidy ключевой оператор выплаты — CTT/официальные каналы, а не универсально sata.pt. «Bonificação STP» не выглядит как официальное название схемы.",
+        "suggestion": "Написать: «После поездки — запрос reimbursement через CTT/официально указанный канал для Subsídio Social de Mobilidade. Проверяйте актуальный порядок на сайте CTT и регионального правительства.»",
+        "confidence": "high",
+        "source": "CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[3]",
+        "current": "Срок возврата: до 30 дней после рейса",
+        "problem": "Срок выглядит неверным/неподтверждённым. Для SSM действуют конкретные сроки подачи после поездки, которые нужно проверять в официальных правилах; в гайде нет источника, а указание «30 дней» может лишить читателя права или создать ложное ожидание.",
+        "suggestion": "Заменить на: «Срок подачи зависит от действующих правил SSM и канала подачи; проверьте актуальный prazo на CTT/официальной странице перед поездкой. Не полагайтесь на 30 дней без проверки.»",
+        "confidence": "medium",
+        "source": "CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[5]",
+        "current": "Бюрократично, но работает для международных carriers",
+        "problem": "Маршруты SSM — это не любые международные перевозчики/международные рейсы. Важны eligible routes между автономными регионами и материком/другими регионами, документы и условия тарифа. Формулировка может создать впечатление, что субсидируются международные перелёты.",
+        "suggestion": "Написать: «Работает только для eligible routes и eligible пассажиров; перевозчик сам по себе не делает международный/любой рейс субсидируемым.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items",
+        "current": "NIF; Atestado de residência (если запрашивают; обычно достаточно NIF в системе); Boarding pass в обе стороны; Invoice; IBAN",
+        "problem": "Документы описаны неполно и misleading. Обычно нужен не просто NIF, а доказательство фискального/фактического резидентства в автономном регионе и документы поездки/оплаты. NISS не является ключевым универсальным требованием, хотя в tldr он указан.",
+        "suggestion": "Указать: «Проверьте официальный checklist: документ ID, NIF, доказательство резидентства в автономном регионе/fiscal address, boarding passes, invoice/receipt with NIF, bank details/IBAN и, для студентов, подтверждение статуса. NIF/NISS сами по себе не дают права.»",
+        "confidence": "high",
+        "source": "CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Если вы живёте на островах — получаете дополнительные льготы от Governo Regional.",
+        "problem": "Раздел подаёт основную государственную субсидию как будто она уже доступна всем PT-резидентам, а островитянам положены только «дополнительные» льготы. На самом деле именно резидентство в автономном регионе является центральным условием основной SSM-схемы.",
+        "suggestion": "Перестроить статью: сначала объяснить, что основная SSM — для residents of autonomous regions; затем отдельно перечислить региональные программы, inter-island fares и Porto Santo-specific benefits.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[0]",
+        "current": "**Super-subsidy** через SATA для jeвителей Azores: до 80% возврата стоимости билета",
+        "problem": "Неясное и неподтверждённое утверждение, плюс опечатка «jeвителей». Основная схема для Азорских островов не описывается как универсальные «до 80% через SATA»; есть specific social mobility rules и отдельные inter-island/encaminhamento regimes.",
+        "suggestion": "Заменить на конкретику: «Для резидентов Açores действует Subsídio Social de Mobilidade для eligible trips to mainland/Madeira и отдельные правила inter-island air transport/encaminhamento. Размер зависит от официального режима, а не от произвольных “до 80%”.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 41/2015; Governo dos Açores"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[1]",
+        "current": "Max 6 поездок в год",
+        "problem": "Лимит «6 поездок в год» не подтверждён и не выглядит как общее правило SSM для Açores. Может относиться к какой-то отдельной региональной программе, но без источника это misleading.",
+        "suggestion": "Удалить или привязать к конкретной программе с точным названием, правовым актом и условиями. Для общей статьи лучше написать: «Лимиты зависят от конкретного режима; проверяйте Governo dos Açores/CTT.»",
+        "confidence": "medium",
+        "source": "Governo dos Açores; CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[1].items[0].content[0].items[3]",
+        "current": "Подача через srprorainol.azores.gov.pt или muni offices",
+        "problem": "URL выглядит несуществующим/ошибочным. Это критично, потому что пользователь может уйти на неправильный сайт или решить, что программа недоступна.",
+        "suggestion": "Заменить на официальные источники: portal.azores.gov.pt для Governo dos Açores и страницу CTT по Subsídio Social de Mobilidade. Если имеется конкретный сервис, дать точный действующий URL после проверки.",
+        "confidence": "high",
+        "source": "portal.azores.gov.pt; CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1].content[0].items[1]",
+        "current": "Bonificação tarifária: 50-80% возврата",
+        "problem": "Для Madeira это слишком грубо и может быть неверно. У Madeira/Porto Santo есть собственные пороги и правила social mobility subsidy; она не описывается корректно как универсальный возврат 50–80%.",
+        "suggestion": "Заменить на: «Для Madeira действует отдельный Subsídio Social de Mobilidade с собственными максимальными итоговыми стоимостями/порогами для резидентов и студентов. Проверяйте значения на madeira.gov.pt/CTT перед покупкой.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 134/2015; Governo Regional da Madeira; CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "**Porto Santo Line** — паромная компания (3 часа, 50-80 € round-trip, скидка 30% для residents)",
+        "problem": "Скидка для residents указана без уточнения, каких именно residents: резидентов Madeira/Porto Santo, автономного региона или всей Португалии. Это может быть спутано с основной SSM.",
+        "suggestion": "Уточнить eligibility: «resident discount — только для категорий, указанных Porto Santo Line/Região Autónoma da Madeira; резидент материка с NIF обычно не получает региональную resident fare автоматически.»",
+        "confidence": "medium",
+        "source": "Porto Santo Line fare rules; Governo Regional da Madeira"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1]",
+        "current": "Residents: супер-tariff 35-60 € one-way между соседними островами",
+        "problem": "Inter-island Azores tariffs имеют специальные public service/resident rules, но указанная формулировка «35–60 € one-way между соседними островами» слишком упрощена и может быть неверной по направлению, resident category и round-trip/one-way basis.",
+        "suggestion": "Переписать осторожно: «Для резидентов Açores действуют специальные inter-island tariffs/public service rules; цена зависит от маршрута и статуса. Проверяйте SATA Air Açores/Governo dos Açores. Не распространяется на обычных туристов с материка.»",
+        "confidence": "medium",
+        "source": "SATA Air Açores; Governo dos Açores"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[4]",
+        "current": "🥾 **Треккинг**: Azores — 8 островов, каждый со своими trails.",
+        "problem": "На Азорах 9 островов, а не 8.",
+        "suggestion": "Исправить на: «Azores — 9 островов, многие со своими trails.»",
+        "confidence": "high",
+        "source": "Governo dos Açores; Visit Azores"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[7]",
+        "current": "🏖️ **Пляжи**: Porto Santo (Madeira) — единственный sandy в регионе; Azores — вулканические, чёрные",
+        "problem": "Слишком категорично. Porto Santo — знаменитый длинный песчаный пляж, но не единственный sandy beach в регионе в широком смысле: на Madeira есть искусственные/завозные песчаные пляжи, а на Azores есть песчаные пляжи, например на Santa Maria и São Miguel.",
+        "suggestion": "Заменить на: «Porto Santo — главный длинный золотой песчаный пляж архипелага Madeira; на Azores много вулканических/чёрных пляжей, но есть и песчаные пляжи, особенно на Santa Maria и São Miguel.»",
+        "confidence": "high",
+        "source": "Visit Madeira; Visit Azores"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "Subsídio STP: amountEURMin 50, amountEURMax 134, note: € возврат",
+        "problem": "Название «STP» неверное, а диапазон как «возврат 50–134 €» misleading. 134 € — не универсальный максимум возврата; для разных регионов и категорий действуют разные правила, а сумма reimbursement зависит от цены билета и eligible cap.",
+        "suggestion": "Заменить label на «Subsídio Social de Mobilidade» и не указывать один диапазон для всех. Лучше: «Açores resident cap/own contribution: до 134 € round trip по eligible routes; Madeira — отдельные значения; reimbursement рассчитывается по официальной формуле.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015; CTT — Subsídio Social de Mobilidade"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "Билет Лиссабон-Azores (резидент): 120–180",
+        "problem": "Неясно, какой резидент имеется в виду. Если резидент материковой Португалии — субсидии нет. Если резидент Açores — итоговая стоимость после SSM может рассчитываться иначе и не обязательно соответствует этому диапазону.",
+        "suggestion": "Переименовать: «Лиссабон–Açores, обычный коммерческий тариф: зависит от сезона» и отдельно «Açores resident after eligible SSM: см. official cap/rules».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 41/2015; airline fare rules"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "Билет Лиссабон-Madeira (резидент): 80–160",
+        "problem": "Снова неясно, какой resident. Резидент материка не получает social mobility subsidy на туристическую поездку. Madeira residents подпадают под отдельный режим с другими порогами.",
+        "suggestion": "Переименовать и разделить: «Лиссабон–Madeira, обычный коммерческий тариф» vs «Madeira resident eligible SSM — по официальным правилам Madeira/CTT».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 134/2015; airline fare rules"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "SATA Azores — Bonificação STP, https://www.sata.pt/",
+        "problem": "Источник слишком общий и использует неверное название «STP». Для sensitive financial entitlement нужен официальный источник/страница с правилами, а не главная страница авиакомпании.",
+        "suggestion": "Добавить/заменить на официальные страницы CTT «Subsídio Social de Mobilidade», Governo dos Açores, Governo Regional da Madeira и соответствующие правовые акты. SATA можно оставить только как источник тарифов/перевозчика.",
+        "confidence": "high",
+        "source": "CTT — Subsídio Social de Mobilidade; Decreto-Lei n.º 41/2015; Decreto-Lei n.º 134/2015"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Источники: SATA, TAP, portal.azores.gov.pt, madeira.gov.pt",
+        "problem": "Не хватает ключевого официального источника по выплатам и процедуре — CTT/официальная страница Subsídio Social de Mobilidade — и конкретных правовых актов. Главные страницы TAP/SATA/flytap.com не подтверждают eligibility, сроки и размеры субсидии.",
+        "suggestion": "Добавить конкретные ссылки/названия: «CTT — Subsídio Social de Mobilidade», «Decreto-Lei n.º 41/2015» для Açores, «Decreto-Lei n.º 134/2015» для Madeira, плюс актуальные regional government pages for Madeira/Açores.",
+        "confidence": "high",
+        "source": "CTT — Subsídio Social de Mobilidade; Diário da República"
+      }
+    ],
+    "missing_topics": [
+      "Чёткое различие между Subsídio Social de Mobilidade, commercial resident fares и regional/inter-island tariffs",
+      "Явное предупреждение: резиденты материковой Португалии, летящие на острова как туристы, обычно не eligible",
+      "Отдельные правила для Açores и Madeira/Porto Santo вместо одного общего лимита €134",
+      "Официальная процедура reimbursement через CTT/уполномоченный канал и актуальные сроки подачи",
+      "Точный checklist документов: proof of residence in autonomous region/fiscal address, invoice/receipt with NIF, boarding passes, student proof where relevant",
+      "Конкретные legal sources: Decreto-Lei n.º 41/2015, Decreto-Lei n.º 134/2015 and current amendments",
+      "Отдельное объяснение inter-island Azores fares/encaminhamento and who qualifies",
+      "Уточнение, какие Porto Santo discounts apply to Madeira/Porto Santo residents versus ordinary Portugal residents"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6269,
+    "prompt_tokens": 2901,
+    "total_tokens": 9170
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,98 @@
+{
+  "guideId": "aveiro-coast",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гид в целом полезный, но в нём есть несколько заметных фактических ошибок по транспорту, географии и отдельным POI/адресам.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0]",
+        "current": "🚆 Porto-Campanhã → Aveiro: 35 мин Urbano или 28 мин IC/AP, 3.50-13 €",
+        "problem": "Urbano из Porto-Campanhã до Aveiro не идёт 35 минут: пригородный поезд Porto–Aveiro обычно занимает около 1ч05–1ч15. 28–40 минут — это скорее Alfa Pendular/Intercidades. Цена 3.50 € также выглядит заниженной/устаревшей для пригородного билета.",
+        "suggestion": "Написать: «Porto-Campanhã → Aveiro: Urbano около 1ч05–1ч15, примерно 4 €; IC/AP около 30–40 мин, цена зависит от тарифа и покупки заранее, ориентировочно 8–18+ €».",
+        "confidence": "high",
+        "source": "CP — Comboios de Portugal schedules/fares"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "От Порту 35 мин поезд",
+        "problem": "Фраза без уточнения типа поезда вводит в заблуждение: 35 минут возможно только на быстрых IC/AP, но не на обычном пригородном Urbano, которым чаще пользуются туристы из Порту.",
+        "suggestion": "Написать: «От Порту: около 30–40 мин на IC/AP или около 1ч10 на Urbano».",
+        "confidence": "high",
+        "source": "CP — Comboios de Portugal schedules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[4]",
+        "current": "🌊 Costa da Caparica — пляж (150 км дальше)",
+        "problem": "Costa da Caparica не находится «в окрестностях» Авейру: это пляжная зона у Лиссабона/Алмады, примерно в 250–270 км от Авейру, а не 150 км. Включение её в окрестности Авейру сбивает маршрутно.",
+        "suggestion": "Удалить этот пункт из раздела «В окрестностях» или заменить на релевантное побережье рядом: Praia da Barra, Praia da Costa Nova, Praia da Vagueira, São Jacinto / Reserva Natural das Dunas de São Jacinto.",
+        "confidence": "high",
+        "source": "Google Maps / официальные карты муниципалитетов Aveiro и Almada"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Знаменита палисадниками-домиками в ярких полосах (исторически — для рыбаков, чтобы корабли могли различать свои дома с моря).",
+        "problem": "Слово «палисадниками-домиками» некорректно: речь о palheiros — деревянных рыбацких домиках/складах. Объяснение про то, что корабли различали дома с моря, является популярной легендой и подано слишком уверенно; более корректно говорить, что яркие полосы помогали идентифицировать домики и стали местной традицией.",
+        "suggestion": "Написать: «Знаменита palheiros — бывшими деревянными рыбацкими домиками/складами в ярких полосах. Полосатая раскраска стала местной традицией и помогала различать домики».",
+        "confidence": "medium",
+        "source": "Turismo Centro de Portugal / Município de Ílhavo tourism materials"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[1]",
+        "current": "🎨 Casas de Palheiro — полосатые домики (жёлто-белые, красно-белые)",
+        "problem": "Форма названия выглядит неестественно: обычно говорят «palheiros da Costa Nova» или «casas às riscas da Costa Nova». «Casas de Palheiro» как название может выглядеть ошибочно.",
+        "suggestion": "Заменить на: «Palheiros da Costa Nova / casas às riscas — полосатые домики».",
+        "confidence": "medium",
+        "source": "Turismo Centro de Portugal / Município de Ílhavo tourism materials"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[8]",
+        "current": "🥖 Pastelarias — Oficina do Doce (Rua Tenente Rezende) лучше всего для ovos moles",
+        "problem": "Адрес, вероятно, неверный: Oficina do Doce обычно указывается на Rua João Mendonça в центре Авейру. Кроме того, «лучше всего» — субъективное утверждение без основания.",
+        "suggestion": "Написать нейтрально: «Ovos moles можно попробовать в Oficina do Doce, Confeitaria Peixinho и других pastelarias в центре; адреса и часы лучше проверить перед визитом». Если оставлять адрес Oficina do Doce — указать актуальный официальный адрес.",
+        "confidence": "medium",
+        "source": "Oficina do Doce official listing / Município de Aveiro tourism"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[6]",
+        "current": "🎨 Fábrica Centro Ciência Viva — интерактивный научный центр для детей, 4 €",
+        "problem": "Цена 4 € может быть неполной: у Centro Ciência Viva обычно разные тарифы для взрослых, детей, семей и временных программ. Указание одной цены без уточнения может устаревать и вводить в заблуждение.",
+        "suggestion": "Написать: «Fábrica Centro Ciência Viva — интерактивный научный центр; билеты зависят от возраста/тарифа, проверьте актуальную цену на сайте».",
+        "confidence": "medium",
+        "source": "Fábrica Centro Ciência Viva de Aveiro official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "🏛️ Ílhavo — бывшая столица трески (сушка бакальяу), Музей бакальяу",
+        "problem": "В Ílhavo главный профильный музей называется Museu Marítimo de Ílhavo; он посвящён морской культуре и промыслу bacalhau, но «Музей бакальяу» как официальное название неточно.",
+        "suggestion": "Написать: «Ílhavo — город с сильной историей промысла bacalhau; Museu Marítimo de Ílhavo и Navio-Museu Santo André».",
+        "confidence": "high",
+        "source": "Museu Marítimo de Ílhavo official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "🚆 Lisboa Oriente → Aveiro: 2ч-2ч 30мин AP/IC, 20-30 €",
+        "problem": "Время для Intercidades может быть ближе к 2ч30–2ч45 в зависимости от рейса; цена 20–30 € слишком жёстко задана, потому что тарифы CP зависят от класса, скидок и покупки заранее.",
+        "suggestion": "Написать: «Lisboa Oriente → Aveiro: примерно 2ч05–2ч45 на AP/IC; цена зависит от тарифа и покупки заранее, ориентировочно 15–35+ €».",
+        "confidence": "medium",
+        "source": "CP — Comboios de Portugal schedules/fares"
+      }
+    ],
+    "missing_topics": [
+      "Ссылка на официальный сайт CP для проверки расписания и покупки билетов на поезда",
+      "Ссылка на актуальные расписания AveiroBus/автобусов до Barra и Costa Nova, потому что номера линий и тарифы меняются",
+      "Предупреждение про холодную воду, сильные течения и флаги на океанских пляжах Costa Nova/Barra",
+      "Упоминание São Jacinto / Reserva Natural das Dunas de São Jacinto как более релевантной близкой поездки вместо Costa da Caparica"
+    ]
+  },
+  "model": "gpt-5.5"
+}

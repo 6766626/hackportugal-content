@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HackPortugal — справочник по Португалии</title>
+  <meta name="description" content="Приложение-справочник для русскоязычных, переезжающих и живущих в Португалии. 124+ гайда, верифицированные источники, обновления в реальном времени.">
+  <meta property="og:title" content="HackPortugal">
+  <meta property="og:description" content="Справочник по жизни в Португалии — визы, налоги, документы, здравоохранение.">
+  <meta property="og:type" content="website">
+  <meta name="apple-itunes-app" content="app-id=0">
+  <style>
+    :root {
+      --primary: #0A4D34;
+      --accent: #D2232A;
+      --bg: #FAFAF7;
+      --ink: #1A1A1A;
+      --muted: #666;
+      --card: #FFF;
+      --border: #E7E5E0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0A0E0C;
+        --ink: #F0EEE8;
+        --muted: #9A9590;
+        --card: #14211A;
+        --border: #223027;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Inter", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      padding: 4rem 1.5rem 3rem;
+      text-align: center;
+      background: linear-gradient(180deg, var(--primary) 0%, #126a46 100%);
+      color: #FFF;
+    }
+    header h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem; }
+    header .tagline { font-size: 1.1rem; opacity: 0.9; max-width: 40ch; margin: 0 auto; }
+    main { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+    }
+    h2 { font-size: 1.3rem; margin-bottom: 0.75rem; color: var(--primary); }
+    @media (prefers-color-scheme: dark) { h2 { color: #5FB896; } }
+    p { margin-bottom: 0.75rem; color: var(--muted); }
+    p:last-child { margin-bottom: 0; }
+    a { color: var(--accent); text-decoration: none; border-bottom: 1px solid currentColor; }
+    a:hover { opacity: 0.8; }
+    ul { padding-left: 1.5rem; margin-bottom: 0.75rem; color: var(--muted); }
+    li { margin-bottom: 0.25rem; }
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem 3rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    .links { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; margin-top: 1rem; }
+    .links a { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>HackPortugal</h1>
+    <p class="tagline">Справочник по жизни в Португалии — визы, налоги, документы, здравоохранение. Для русскоязычных экспатов и будущих резидентов.</p>
+  </header>
+  <main>
+    <section class="card">
+      <h2>Что внутри</h2>
+      <ul>
+        <li>124+ гайда по категориям: ВНЖ, AIMA, налоги, банки, здравоохранение, образование</li>
+        <li>Контент подстроен под ваше гражданство (CPLP, ЕС, третьи страны)</li>
+        <li>Только официальные источники: AIMA, Portal das Finanças, SNS, IRN, DRE</li>
+        <li>Автоматические обновления контента при изменении законодательства</li>
+        <li>Работает офлайн — весь контент в бандле</li>
+        <li>Бесплатное приложение, без подписок и рекламы</li>
+      </ul>
+    </section>
+    <section class="card">
+      <h2>Скачать</h2>
+      <p>Приложение доступно в App Store для iPhone и iPad (iOS 18+). <em>Ссылка появится после релиза.</em></p>
+    </section>
+    <section class="card">
+      <h2>Для кого</h2>
+      <p>Для тех, кто планирует переезд в Португалию, только что приехал, оформляет ВНЖ, живёт несколько лет или готовится к гражданству. Контент адаптируется под ваш статус и страну гражданства.</p>
+    </section>
+    <section class="card">
+      <h2>Связаться</h2>
+      <p>По вопросам и предложениям: <a href="mailto:feedback@hackportugal.pt">feedback@hackportugal.pt</a></p>
+      <p>Telegram-канал с оперативными апдейтами: <a href="https://t.me/portugalpages">@portugalpages</a></p>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 HackPortugal</p>
+    <div class="links">
+      <a href="./privacy.html">Политика конфиденциальности</a>
+      <a href="./support.html">Поддержка</a>
+      <a href="./terms.html">Условия использования</a>
+    </div>
+  </footer>
+</body>
+</html>

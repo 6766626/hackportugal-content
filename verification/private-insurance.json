@@ -1,0 +1,179 @@
+{
+  "guideId": "private-insurance",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но есть несколько существенных неточностей: SNS описан слишком упрощённо как полностью бесплатный, рынок страховщиков смешан с брокерами/TPA и международными продуктами, а налоговый вычет и требования ASF поданы слишком категорично.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "SNS — универсальная система, оплачивается налогами, бесплатна для легальных резидентов.",
+        "problem": "Фраза «бесплатна» слишком широкая и вводит в заблуждение. В SNS многие услуги действительно освобождены от taxas moderadoras, но это не означает полностью бесплатную медицину: лекарства, часть диагностических услуг/процедур, стоматология, очки и некоторые другие расходы оплачиваются частично или полностью пациентом. Кроме того, taxas moderadoras в urgência могут применяться в отдельных случаях, например при обращении без направления SNS24/INEM/центра здоровья и без последующей госпитализации.",
+        "suggestion": "Заменить на: «SNS финансируется налогами и доступен резидентам; большинство первичных консультаций и многие услуги освобождены от taxas moderadoras, но лекарства, часть обследований, стоматология/очки и некоторые обращения в urgência могут требовать оплаты или соплатежа.»",
+        "confidence": "high",
+        "source": "SNS / ERS guidance on taxas moderadoras; Decreto-Lei 113/2011 as amended"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].text",
+        "current": "Многие услуги, которые SNS почти не покрывает (полноценная стоматология, психотерапия, офтальмология), в частной страховке доступны.",
+        "problem": "Офтальмология не является услугой, которую SNS «почти не покрывает»: это обычная специальность SNS, проблема скорее в сроках ожидания. Психология/психотерапия и стоматология действительно ограничены, но формулировка смешивает разные ситуации. Также частные страховки часто покрывают не «полноценную стоматологию», а скидочную сеть или отдельный dental module с лимитами.",
+        "suggestion": "Написать точнее: «SNS покрывает офтальмологию и психическое здоровье, но доступ может быть медленным; стоматология в SNS ограничена. В частных полисах эти направления часто доступны быстрее, но стоматология обычно идёт отдельным модулем/сетью скидок и с лимитами.»",
+        "confidence": "high",
+        "source": "SNS; ERS information on access to healthcare"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].text",
+        "current": "На 2026 лицензированы и активны ~10 страховщиков со специализацией на здоровье.",
+        "problem": "Число «~10» выглядит произвольным и может быть неверно в зависимости от того, считать ли только португальских страховщиков, филиалы, компании ЕС, работающие по свободе предоставления услуг, или продукты класса Doença. ASF ведёт реестр авторизованных страховщиков, но не в такой простой категории «10 health-specialized insurers».",
+        "suggestion": "Заменить на: «Проверяйте конкретную компанию в публичном реестре ASF: у страховщика должна быть авторизация на ramo Doença / health insurance либо право работать в Португалии через филиал или по regime de livre prestação de serviços. Не ориентируйтесь на число игроков: рынок меняется, а многие бренды — это не отдельные страховщики.»",
+        "confidence": "medium",
+        "source": "ASF — Registo de empresas de seguros e resseguros"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0]",
+        "current": "Медицинские страховщики, аффилированные с банковскими группами (Médis / Millennium BCP; Multicare / Fidelidade)",
+        "problem": "Формулировка неточная. Médis — бренд/оператор в экосистеме Ageas Portugal/Ocidental, распространяемый в том числе через Millennium bcp, но не просто «Médis / Millennium BCP». Multicare — бренд Fidelidade, это корректнее. Список смешивает бренды, страховщиков и каналы дистрибуции.",
+        "suggestion": "Написать: «Крупные массовые бренды: Médis/Ocidental–Ageas Portugal, Multicare/Fidelidade, Allianz, Generali Tranquilidade, Ageas, Zurich, Mapfre и др.; конкретного юридического страховщика проверяйте в apólice и реестре ASF.»",
+        "confidence": "medium",
+        "source": "ASF register; public corporate information of Ageas Portugal, Fidelidade/Multicare"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1]",
+        "current": "Специализированные международные: Allianz Care, Cigna Global (для экспатов)",
+        "problem": "Это не всегда сопоставимые с португальским seguro de saúde продукты. Международные полисы могут быть оформлены иностранным страховщиком, работать по другим условиям, иметь иной порядок жалоб/надзора, не иметь прямых соглашений с локальными сетями и не всегда дают такой же налоговый режим в IRS. Нужно явно отделить их от португальских health insurance policies.",
+        "suggestion": "Добавить caveat: «Международные expat-полисы Allianz Care/Cigna Global сравнивайте отдельно: проверяйте, кто юридический страховщик, применимое право, наличие прямого billing в Португалии, покрытие pre-existing conditions и пригодность для IRS/визы. Это не всегда то же самое, что локальный seguro de saúde, регулируемый ASF как португальский продукт.»",
+        "confidence": "high",
+        "source": "ASF rules on insurance undertakings and distribution; policy terms of international insurers"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2]",
+        "current": "Страховщики с репутацией для семей: Tranquilidade Saúde (Generali), Liberty Saúde",
+        "problem": "Liberty в Португалии была приобретена Generali Group; бренд/продуктовая линейка могли быть интегрированы или изменены. Упоминать «Liberty Saúde» как отдельного актуального семейного страховщика в 2026 рискованно и может быть устаревшим.",
+        "suggestion": "Заменить на нейтральное: «Generali Tranquilidade и другие массовые страховщики; проверяйте актуальные бренды и юридического страховщика в ASF и в condições particulares.» Не выделять Liberty Saúde без проверки актуального продукта.",
+        "confidence": "medium",
+        "source": "Generali Group acquisition of Liberty Seguros operations in Portugal; ASF register"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[3]",
+        "current": "B2B-продукты для сотрудников: Advancecare (через Mercer)",
+        "problem": "AdvanceCare — не классический страховщик, а health network/claims/plan management provider, работающий с разными страховщиками и корпоративными программами. Mercer — брокер/консультант, а не страховщик. Формулировка смешивает страховщика, управляющего сетью и брокера.",
+        "suggestion": "Написать: «В корпоративных схемах могут участвовать страховщик, брокер/консультант и управляющий сетью/claims administrator. Например, AdvanceCare часто выступает как сеть/администратор, а Mercer — как брокер/benefits consultant; юридического страховщика смотрите в apólice.»",
+        "confidence": "high",
+        "source": "ASF register; public descriptions of AdvanceCare and Mercer"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[2].text",
+        "current": "При поиске ищите «seguro de saúde» в search.",
+        "problem": "Фраза «в search» выглядит как редакционная заглушка/англицизм и не объясняет, что важно отличать seguro de saúde от plano/cartão de saúde.",
+        "suggestion": "Заменить на: «При поиске используйте термин “seguro de saúde” и отличайте его от “plano de saúde” или “cartão de saúde”: последние часто являются скидочными планами, а не страхованием.»",
+        "confidence": "high",
+        "source": "ASF consumer information on insurance; DECO/ERS consumer guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].text",
+        "current": "ASF требует, чтобы все quotes были полными и сравнимыми.",
+        "problem": "Слишком категоричное и, вероятно, неверное утверждение. ASF/страховое законодательство требует преддоговорную информацию, IPID/условия, прозрачность и обязанности дистрибьютора, но не гарантирует, что «все quotes» будут полными и легко сравнимыми между страховщиками. На практике котировки часто различаются по plafonds, copayments, исключениям, waiting periods и сети.",
+        "suggestion": "Заменить на: «Страховщик/посредник обязан предоставить преддоговорную информацию и условия продукта, но котировки разных компаний не стандартизированы. Сравнивайте IPID, Condições Gerais/Especiais, plafonds, copayments, exclusions, carências и сеть.»",
+        "confidence": "high",
+        "source": "ASF consumer information; Decreto-Lei 72/2008; insurance distribution rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1].content[0].text",
+        "current": "Мед-анкета обязательна.",
+        "problem": "Не всегда. Для индивидуальных полноценных полисов questionnaire de saúde часто требуется, но некоторые базовые продукты, dental plans, group insurance или corporate policies могут иметь simplified underwriting или вообще не требовать анкеты.",
+        "suggestion": "Заменить на: «Для индивидуальных полноценных полисов обычно требуется questionário de saúde; в групповых корпоративных схемах или базовых/dental продуктах анкетирование может быть упрощено или отсутствовать.»",
+        "confidence": "high",
+        "source": "Typical policy underwriting practice; ASF consumer information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3].content[0].text",
+        "current": "Полис активен со следующего дня (но carência применяется).",
+        "problem": "Не универсально. Начало покрытия зависит от acceptance, даты начала в condições particulares и оплаты первого взноса. Иногда дата старта будущая или нужна активация direct debit.",
+        "suggestion": "Написать: «Полис начинает действовать с даты, указанной в condições particulares, обычно после принятия риска страховщиком и оплаты первого взноса; carência всё равно применяется.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 72/2008; standard insurance policy terms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[2].text",
+        "current": "договор регулируется Ley do Contrato de Seguro (Decreto-Lei (декрет-закон) 72/2008)",
+        "problem": "Опечатка/испанизм: по-португальски и по-русски корректно «Lei do Contrato de Seguro», не «Ley». Также Decreto-Lei 72/2008 утвердил regime jurídico do contrato de seguro; лучше формулировать без смешения языков.",
+        "suggestion": "Заменить на: «договор регулируется Lei do Contrato de Seguro / Regime Jurídico do Contrato de Seguro, утверждённым Decreto-Lei n.º 72/2008.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 72/2008"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "Если работодатель предлагает B2B-страховку — обычно дешевле индивидуальной и без анкетирования",
+        "problem": "«Без анкетирования» не гарантировано. В group insurance часто есть simplified/no underwriting для стандартного пакета, но для dependents, upgrades, high limits, dental/maternity or pre-existing conditions могут применяться ограничения, waiting periods или медицинская декларация. Также покрытие обычно прекращается при увольнении, если нет conversion/portability option.",
+        "suggestion": "Заменить на: «Корпоративная страховка часто дешевле и может иметь упрощённое андеррайтинг-правило, но проверяйте dependents, upgrades, pre-existing conditions, carências и что происходит при увольнении — есть ли право перейти на индивидуальный полис без новых waiting periods.»",
+        "confidence": "high",
+        "source": "Typical group health insurance policy conditions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[5]",
+        "current": "Вычет IRS: страховые взносы — частично вычитаемы (категория «despesas de saúde»)",
+        "problem": "Фраза слишком неполная для налогового совета. В IRS health expenses обычно дают вычет 15% с лимитом для household health expenses, но применимость к страховым взносам зависит от того, что полис покрывает health risks, как выставлен документ в e-Fatura, налогового резидентства и общих лимитов/категорий. Это не «любой premium всегда вычитается».",
+        "suggestion": "Написать: «Для налоговых резидентов Portugal страховые взносы по health insurance могут учитываться в IRS как despesas de saúde при корректной классификации в e-Fatura; обычно вычет составляет 15% health expenses в пределах применимого household cap. Проверяйте e-Fatura и recibos.»",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 78.º-C; Portal das Finanças guidance on despesas de saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[6]",
+        "current": "При смене работы сохраняйте страховку, т.к. carência обнуляется при повторной покупке",
+        "problem": "Смысл верный, но формулировка не объясняет механизм. Нельзя просто «сохранить» корпоративную страховку, если она принадлежит работодателю; нужно заранее узнать о continuation/conversion option или оформить индивидуальный полис. Кроме того, новый страховщик иногда может зачесть предыдущую страховку, но это не автоматическое право.",
+        "suggestion": "Заменить на: «Перед увольнением спросите HR/страховщика о continuation или conversion to individual policy. При покупке нового полиса waiting periods обычно начинаются заново, если новый страховщик письменно не зачёл предыдущую страховку.»",
+        "confidence": "high",
+        "source": "Typical group health insurance policy conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "€40-80 средний, €80-150 полный",
+        "problem": "Есть внутреннее расхождение с блоком costs: там «Средний план» €40-70, а «Полный план» €70-150. Это небольшая, но заметная несогласованность.",
+        "suggestion": "Синхронизировать диапазоны: например, везде использовать «средний €40–80/мес, полный €80–150/мес» или везде «средний €40–70, полный €70–150», с пометкой, что цена сильно зависит от возраста, deductible, network и dental/maternity modules.",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "Семья 4 чел средний: €120-200/мес",
+        "problem": "Диапазон может быть занижен для семьи из 4 человек, если считать двух взрослых и двух детей по полноценному среднему полису с outpatient + hospitalization + dental/maternity modules. В tldr написано «от €120/мес», что нормально как нижний ориентир, но в таблице это подано как обычный диапазон.",
+        "suggestion": "Уточнить: «Семья 4 чел, базовый/средний пакет: примерно от €120–200+/мес; полноценные пакеты с госпитализацией, dental/maternity и широкими сетями могут быть заметно дороже.»",
+        "confidence": "medium",
+        "source": "Market pricing varies by insurer, age and coverage"
+      }
+    ],
+    "missing_topics": [
+      "Явно отличить seguro de saúde от plano de saúde/cartão de saúde/discount card: это разные продукты с разным регулированием и уровнем защиты.",
+      "Добавить проверку юридического страховщика в apólice и в реестре ASF, особенно если бренд — Médis, Multicare, AdvanceCare, банковский канал или международный expat-policy.",
+      "Указать, что возрастные лимиты, максимальный возраст вступления и условия renewability/cancellation критичны для людей 55–65+.",
+      "Добавить раздел о pre-authorisation для госпитализации, операций, expensive diagnostics и maternity: наличие страховки не означает автоматическое одобрение процедуры.",
+      "Добавить caveat по pregnancy/maternity: обычно нужен отдельный лимит и waiting period часто 365 дней; беременность, начавшаяся до полиса/до окончания carência, может не покрываться.",
+      "Добавить порядок жалоб: сначала страховщик/Provedor do Cliente, Livro de Reclamações, затем ASF; для клинического качества услуги может быть релевантна ERS, а не ASF.",
+      "Добавить налоговую ссылку на Código do IRS artigo 78.º-C и практический совет проверять e-Fatura.",
+      "Добавить предупреждение, что международные полисы могут не иметь прямой billing-сети в Португалии и часто работают через reimbursement."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5073,
+    "prompt_tokens": 2865,
+    "total_tokens": 7938
+  },
+  "model": "gpt-5.5"
+}

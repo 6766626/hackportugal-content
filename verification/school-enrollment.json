@@ -1,0 +1,119 @@
+{
+  "guideId": "school-enrollment",
+  "categoryId": "education_children",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но содержит несколько существенных ошибок по обязательности pré-escolar, PLNM, домашнему обучению, IRS-вычету, срокам/результатам matrícula и требованиям к документам.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1]",
+        "current": "Pré-escolar / Jardim de Infância (3-6 лет) — с 5 лет обязательно",
+        "problem": "Pré-escolar в Португалии не является обязательным ни с 5 лет, ни с 3 лет. Обязательное образование начинается с 6 лет и длится до 18 лет или завершения secundário. Для pré-escolar действует принцип универсальности/доступности, но посещение факультативно.",
+        "suggestion": "Написать: \"Pré-escolar / Jardim de Infância (3–6 лет) — факультативно; государство обеспечивает сеть мест, но обязательное обучение начинается с 6 лет.\"",
+        "confidence": "high",
+        "source": "Lei n.º 85/2009; Decreto-Lei n.º 176/2012; Lei-Quadro da Educação Pré-Escolar"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Creche (0-3 года) — не обязательно, платно даже в гос. учреждениях",
+        "problem": "Формулировка устаревшая/слишком категоричная. Creche действительно не является обязательной, но программа Creche Feliz сделала creche бесплатной для многих детей в социальной/публичной сети и у частных aderentes при соблюдении условий. Нельзя писать, что она всегда платная даже в госучреждениях.",
+        "suggestion": "Написать: \"Creche (0–3 года) — не обязательно; стоимость зависит от учреждения и условий семьи, но для многих детей действует бесплатная программа Creche Feliz.\"",
+        "confidence": "high",
+        "source": "Segurança Social — Programa Creche Feliz"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Приём новых учеников — до 15 июня для сентября, иностранцы могут подавать в течение года.",
+        "problem": "Это противоречит разделу enrollment, где указано окно 14 апреля – 14 мая 2026 для pré-escolar и 1-го класса. Кроме того, сроки matrícula различаются по уровню обучения и ежегодно утверждаются despacho; единого дедлайна «до 15 июня» нет.",
+        "suggestion": "Написать: \"Основные окна matrícula зависят от уровня обучения и ежегодного despacho; для переезда/перевода школа может принять заявление в течение года при наличии места.\"",
+        "confidence": "high",
+        "source": "Portal das Matrículas; despacho anual de matrículas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "Portal das Matrículas → зарегистрироваться через Chave Móvel Digital (государственная электронная подпись) + CC родителя (если есть).",
+        "problem": "Доступ к Portal das Matrículas не ограничивается CMD и Cartão de Cidadão. Обычно возможен вход через autenticação.gov.pt, включая Chave Móvel Digital, Cartão de Cidadão, а также credenciais do Portal das Finanças. Для родителей без цифровых средств школа должна помочь с matrícula. Текущая формулировка может отпугнуть иностранцев без CC/CMD.",
+        "suggestion": "Написать: \"Войти можно через autenticação.gov.pt/CMD/Cartão de Cidadão или credenciais do Portal das Finanças; если у родителей нет доступа, matrícula можно оформить при поддержке школы/agrupamento.\"",
+        "confidence": "high",
+        "source": "Portal das Matrículas; ePortugal — matricular ou renovar a matrícula"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].items",
+        "current": "NIF ребёнка и родителей; Подтверждение адреса (atestado de residência от Junta); Número de Utente (номер пациента SNS); Фото 3х4",
+        "problem": "Список выглядит как обязательный чеклист, но для иностранных детей часть документов может отсутствовать. Школа не должна фактически блокировать доступ ребёнка к обязательному образованию из-за отсутствия NIF, número de utente, atestado da junta или полного пакета документов. Подтверждение адреса может быть не только atestado. Иностранные документы/табели могут потребоваться для эквивалентности/размещения, но ребёнка часто зачисляют предварительно.",
+        "suggestion": "Разделить на \"обычно просят\" и \"если есть\". Добавить: \"Отсутствие NIF, SNS number или полного комплекта иностранных школьных документов не должно лишать ребёнка доступа к школе; школа/agrupamento подскажет временное зачисление и процедуру equivalência/posicionamento.\"",
+        "confidence": "high",
+        "source": "ePortugal — matricular ou renovar a matrícula; Constituição da República Portuguesa art. 74; Lei de Bases do Sistema Educativo"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "Для детей, не говорящих по-португальски — программа PLNM. Дополнительные часы языка (2-5/неделю), адаптация оценок в первые 2 года. Автоматически применяется при зачислении иностранного ребёнка в гос. школу.",
+        "problem": "PLNM не применяется автоматически ко всем иностранным детям. Оно зависит от владения португальским и диагностического/уровневого оценивания; ребёнок-иностранец, уже владеющий португальским, может не попасть в PLNM, а ребёнок с португальским гражданством, для которого португальский не родной, может попасть. Также нет универсального правила «адаптация оценок в первые 2 года» в таком виде.",
+        "suggestion": "Написать: \"PLNM назначается после оценки уровня владения португальским, обычно для учеников с недостаточным уровнем языка. Это не автоматическое право/обязанность для каждого иностранца; школа определяет уровень и меры поддержки по правилам DGE.\"",
+        "confidence": "high",
+        "source": "DGE — Português Língua Não Materna; Portaria n.º 223-A/2018; Portaria n.º 226-A/2018"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "Разрешено с регистрацией в DGESTE. Ежегодные экзамены в школе-партнёре.",
+        "problem": "Домашнее обучение описано слишком упрощённо и местами неверно. Ensino doméstico/ensino individual оформляется через matrícula в школе, с ответственным лицом и индивидуальным учебным планом; существуют требования к responsável educativo и оцениванию. Это не просто регистрация в DGEstE и ежегодные экзамены.",
+        "suggestion": "Написать: \"Ensino doméstico/individual разрешён, но ребёнок должен быть зачислен в школу, оформляется запрос с ответственным за обучение и планом, а оценивание проходит по правилам школы/законодательства. Перед выбором нужно проверить требования Portaria n.º 69/2019 и актуальные инструкции DGEstE/DGE.\"",
+        "confidence": "high",
+        "source": "Portaria n.º 69/2019; Decreto-Lei n.º 55/2018"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "Вычет IRS за образование — 30% до €800/ребёнок",
+        "problem": "Лимит €800 по расходам на образование в IRS применяется в общем к household/agregado familiar, а не «на ребёнка». Есть специальные случаи увеличения лимита, например rent for displaced student, но базовая формулировка «до €800/ребёнок» неверна.",
+        "suggestion": "Написать: \"IRS: 30% eligible education expenses, обычно до €800 на agregado familiar; лимит может увеличиваться в отдельных случаях, например при rent for displaced student.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 78.º-D; Autoridade Tributária — despesas de educação"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "Бесплатные учебники для всех учеников гос. школ",
+        "problem": "Нужно уточнить, что речь о manuais escolares через MEGA/vouchers и в основном о государственных школах и частных школах с contrato de associação. Обычно не покрываются все рабочие тетради, материалы и канцелярия.",
+        "suggestion": "Написать: \"Бесплатные manuais escolares через MEGA/vouchers для учеников госшкол и некоторых школ с contrato de associação; рабочие тетради и материалы часто оплачиваются отдельно.\"",
+        "confidence": "high",
+        "source": "MEGA — Manuais Escolares Gratuitos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "ASE (Acção Social Escolar) — для семей с низким доходом: бесплатные обеды, транспорт, экскурсии",
+        "problem": "Старое написание «Acção» лучше заменить на современное «Ação». Также ASE обычно привязана к escalão do abono de família и может давать не только полностью бесплатное, но и частично субсидированное питание/транспорт/материалы.",
+        "suggestion": "Написать: \"ASE (Ação Social Escolar) — поддержка по escalão do abono de família: питание, транспорт, материалы и visitas de estudo могут быть бесплатными или субсидированными.\"",
+        "confidence": "high",
+        "source": "DGEstE/DGE — Ação Social Escolar"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[4].content[0].text",
+        "current": "Для 1 класса — результаты в конце июля. Для перевода — школа отвечает за 30 дней.",
+        "problem": "Для pré-escolar/1.º ano списки placement обычно публикуются раньше, а в конце июля чаще публикуются списки turma. Срок «школа отвечает за 30 дней» не выглядит как универсальное правило для всех переводов/matrículas и требует источника.",
+        "suggestion": "Написать менее категорично: \"Даты публикации списков colocação и turmas ежегодно указываются в despacho/на Portal das Matrículas; для переводов сроки зависят от школы и наличия места.\"",
+        "confidence": "medium",
+        "source": "Portal das Matrículas; despacho anual de matrículas"
+      }
+    ],
+    "missing_topics": [
+      "Критерии приоритета при зачислении: irmãos na escola, residência/atividade profissional dos encarregados de educação, ASE, idade и наличие мест.",
+      "Что делать иностранной семье без Chave Móvel Digital, Cartão de Cidadão или Portal das Finanças credentials: обращаться напрямую в agrupamento/escola.",
+      "Equivalência/posicionamento для детей, приехавших из иностранной школы: как школа определяет год обучения и что возможно временное зачисление.",
+      "Право ребёнка на доступ к школе независимо от статуса ВНЖ родителей и наличия полного пакета документов.",
+      "Разница между matrícula, renovação de matrícula и transferência.",
+      "Что бесплатность госшколы не означает отсутствие расходов: refeições, prolongamento/ATL, transportes, cadernos de atividades, material escolar.",
+      "Для частных и международных школ: отдельные admission deadlines, application fees, waiting lists и возможные entrance assessments."
+    ]
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,223 @@
+{
+  "guideId": "car-import-from-eu",
+  "categoryId": "auto_ownership",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide captures the broad idea of importing an EU car but has several materially wrong steps, fees, deadlines and tax caveats, especially around IPO/IMT/IRN order, IUC timing, ISV age reductions, VAT on “new” EU vehicles and relocation exemption documentation.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[5]",
+        "current": "Шаг 6: IPO (техосмотр) ... Обязательно после ввоза ... Стоимость: ~40 €",
+        "problem": "For an imported used vehicle the relevant inspection is normally an inspection for assignment of Portuguese registration/matrícula, done before the final registration process, not a normal periodic IPO after receiving PT plates. The cost is not the ordinary ~€40 periodic inspection fee; it is materially higher.",
+        "suggestion": "Move the inspection step before/alongside DAV/IMT matrícula work and write: “Нужна inspeção para atribuição de matrícula / inspeção tipo B в centro de inspeção autorizado; это не обычный IPO periódico, стоимость обычно около €80–100+. Обычный IPO затем будет по календарю после регистрации.”",
+        "confidence": "high",
+        "source": "IMT procedure for atribuição de matrícula; Decreto-Lei 144/2012 and regulated inspection fee tables"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[6].content[0].items[1]",
+        "current": "IUC (ежегодный налог) — рассчитывается автоматически, оплата в апреле",
+        "problem": "IUC is not generally paid in April. For category A/B vehicles it is normally due annually by the end of the month of the vehicle’s Portuguese registration anniversary; for first registration there are specific initial payment rules. Saying “in April” is wrong for most cars.",
+        "suggestion": "Replace with: “IUC платится ежегодно в месяц португальской регистрации/матрикулы автомобиля; счёт появляется в Portal das Finanças. Для первой регистрации проверьте срок сразу после выдачи matrícula.”",
+        "confidence": "high",
+        "source": "Código do IUC; Autoridade Tributária — IUC"
+      },
+      {
+        "severity": "critical",
+        "where": "missing_topics",
+        "current": "No mention of VAT treatment for EU vehicles that are new for VAT purposes.",
+        "problem": "A car bought in another EU country can still trigger Portuguese IVA if it is considered a “new means of transport” for VAT purposes: generally less than 6 months since first entry into service or less than 6,000 km. This is a critical cost caveat and can add 23% VAT in Portugal, with foreign VAT handling depending on the sale.",
+        "suggestion": "Add a dedicated warning: “Если авто <6 месяцев или <6 000 км, для IVA оно считается новым средством транспорта: Portuguese IVA 23% может быть due even внутри ЕС. До покупки уточните, продаётся ли net/export VAT-free и как декларировать IVA в PT.”",
+        "confidence": "high",
+        "source": "Código do IVA, rules on meios de transporte novos; Autoridade Tributária"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "для б/у частичные скидки до 65%",
+        "problem": "The age reduction statement is outdated/misleading. Current used-vehicle ISV reductions can go beyond 65% depending on age and component; the reduction is applied under the ISV used-vehicle tables and is not a single flat “up to 65%” rule.",
+        "suggestion": "Write: “для б/у авто применяются таблицы redução por antiguidade, отдельно по компонентам ISV; для старых авто reduction может превышать 65%, поэтому считайте через официальный simulador ISV.”",
+        "confidence": "high",
+        "source": "Código do ISV, Article 11 and Tabela D"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].items[3]",
+        "current": "**Скидка для б/у**: 5-20% в 1-й год, до 65% после 5 лет",
+        "problem": "Wrong/misleading age-reduction numbers. The reduction is not simply 5–20% in year one and “65% after 5 years”; Portuguese ISV uses statutory age brackets, and reductions can be higher for older cars. A 5-year-old car is not accurately summarized this way.",
+        "suggestion": "Replace with: “Редукция для usados зависит от возраста по таблице Código do ISV; применяется по компонентам цилиндрада/ambiental. Не используйте грубую ‘65% после 5 лет’ — проверяйте официальный simulador AT по VIN/CO₂/cc/дате первой регистрации.”",
+        "confidence": "high",
+        "source": "Código do ISV, Article 11 and Tabela D; AT ISV simulator"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2]",
+        "current": "ISV ... для 5-летнего авто скидка 40%",
+        "problem": "The quoted 40% discount for a 5-year-old vehicle is not a reliable current rule and may be materially wrong depending on the exact age bracket and ISV component. It also conflicts with the later “до 65% после 5 лет” wording.",
+        "suggestion": "Remove the fixed 40% claim. Say: “для 5-летнего авто reduction определяется таблицей ISV по точной дате первой регистрации и компоненту налога; считайте в simulador AT.”",
+        "confidence": "high",
+        "source": "Código do ISV, Article 11 and Tabela D"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[4]",
+        "current": "После оплаты ISV — AT выдаёт certificado desalfandegamento; ... идёте в IMT ... Получаете: Documento Único Automóvel (DUA) + номера PT",
+        "problem": "This conflates AT, IMT and IRN roles. AT/DAV handles fiscal clearance and can assign/enable matrícula; IMT handles technical approval/homologation and registration assignment procedures where needed; the DUA/certificado de matrícula is issued through IRN/Conservatória/Automóvel Online after ownership registration. Physical plates are made by authorized plate manufacturers, not “received” from IMT.",
+        "suggestion": "Rewrite the step: “После DAV/ISV и atribuição de matrícula нужно зарегистрировать ownership в Registo Automóvel/IRN (Automóvel Online или Conservatória) и заказать физические chapas de matrícula у authorized maker. DUA/certificado de matrícula приходит от IRN, не от IMT.”",
+        "confidence": "high",
+        "source": "IMT — matrícula de veículos; IRN — Registo Automóvel / Documento Único Automóvel"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[4].content[0].items[2]",
+        "current": "Запись на portal.imt-ip.pt → Matrícula — 135 € пошлина",
+        "problem": "The €135 figure is not a reliable single official fee for the Portuguese registration/legalisation step and appears to mix different costs. The user will normally face separate costs: inspection for matrícula, possible IMT homologation/technical acts, IRN vehicle registration/DUA, and physical plates.",
+        "suggestion": "Replace with a breakdown instead of one €135 line: “Расходы разбиты: inspeção para atribuição de matrícula, возможные IMT/homologação fees, registo automóvel/DUA в IRN, изготовление chapas. Проверяйте актуальные tabelas IMT/IRN.”",
+        "confidence": "medium",
+        "source": "IMT fee table; IRN emolumentos do Registo Automóvel"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "\"Матрикуляция IMT\", amountEUR: 135",
+        "problem": "Same fee problem as above: presenting €135 as the official IMT matrícula cost is misleading because the legalisation process has multiple fees and the DUA/registration is not an IMT product.",
+        "suggestion": "Change this cost item to multiple items: “inspeção para atribuição de matrícula: ~€80–100+”, “registo automóvel/DUA IRN: check current IRN fee”, “chapas de matrícula: market price”, “IMT/homologação: if applicable, check IMT table”.",
+        "confidence": "medium",
+        "source": "IMT fee table; IRN emolumentos do Registo Automóvel"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "\"IPO техосмотр\", amountEUR: 40",
+        "problem": "For an imported used vehicle, the key required inspection is not the normal periodic IPO at about €40; it is the inspection for assignment of registration, with a higher regulated fee. This underestimates the cost and mislabels the required step.",
+        "suggestion": "Replace with: “Inspeção para atribuição de matrícula / tipo B: usually ~€80–100+; ordinary IPO periódico is separate and cheaper.”",
+        "confidence": "high",
+        "source": "IMT/inspection regime; regulated inspection fee tables"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].items[4]",
+        "current": "Оплата ISV: ~30 дней на payment",
+        "problem": "The payment deadline is not safely stated as “~30 days”. ISV payment deadlines after liquidation/notification are shorter and procedural; giving 30 days can cause late payment or process failure.",
+        "suggestion": "Write more cautiously and precisely: “После liquidação/notificação AT выдаёт DUC; срок оплаты короткий и указан в DUC/Portal das Finanças — обычно считайте его в рабочих днях и не откладывайте. Проверяйте конкретный prazo в DAV.”",
+        "confidence": "medium",
+        "source": "Código do ISV; Autoridade Tributária DAV/ISV procedures"
+      },
+      {
+        "severity": "major",
+        "where": "relocation-exemption.content[1].items[4]",
+        "current": "📄 **Документы**: certificado de transferência de residência от MNE (PT consulate страны выезда) + документы на авто + proof of residence в PT",
+        "problem": "Too narrow and partly misleading, especially for EU-to-Portugal moves. Proof of transfer of residence can involve certificates/documents from competent authorities in the country of origin and proof of residence dates; it is not always simply an MNE/Portuguese consulate certificate. Consular certificates may be used in some cases, especially from non-EU jurisdictions, but the evidentiary package is broader.",
+        "suggestion": "Replace with: “Документы: proof of normal residence abroad and dates of departure/arrival from competent authorities/consulate as accepted by AT, proof of PT residence, vehicle title/registration, insurance/use evidence for 6+ months, purchase invoice/contract, COC/technical docs. Requirements vary by origin country — confirm with AT before moving.”",
+        "confidence": "high",
+        "source": "Código do ISV, Articles 58–60; Autoridade Tributária guidance on transferência de residência"
+      },
+      {
+        "severity": "major",
+        "where": "relocation-exemption.content[1].items[3]",
+        "current": "🚫 **Нельзя продать** в 12 мес после ввоза (иначе ISV ретроактивно)",
+        "problem": "The restriction is broader than sale. Exempt vehicles generally cannot be sold, rented, lent, pledged or otherwise transferred/assigned during the restriction period without tax consequences/authorization.",
+        "suggestion": "Write: “В течение 12 месяцев нельзя продавать, сдавать в аренду, одалживать, закладывать или передавать использование третьим лицам без соблюдения правил AT; иначе может стать due ISV.”",
+        "confidence": "high",
+        "source": "Código do ISV, transfer-of-residence exemption rules"
+      },
+      {
+        "severity": "major",
+        "where": "common-issues.content[0].items[0]",
+        "current": "**Нет COC**: без него ISV высчитывается по max тарифу + матрикуляция заблокирована; заказать у производителя в DE 200-500 €, ждать 4-8 недель",
+        "problem": "Overstated. Lack of COC complicates homologation and may require IMT technical approval/equivalence and additional documentation, but it does not automatically mean ISV is calculated at the maximum tariff or that matriculation is simply blocked forever. CO₂/technical data can sometimes be established through official homologation records or technical procedures.",
+        "suggestion": "Replace with: “Нет COC: процесс дольше и дороже; может понадобиться pedido de homologação/equivalência at IMT, ficha técnica, manufacturer certificate or technical inspection. If certified CO₂ data is unavailable, AT may use legally prescribed fallback methods, which can increase ISV.”",
+        "confidence": "high",
+        "source": "IMT homologation/matrícula procedures; Código do ISV"
+      },
+      {
+        "severity": "major",
+        "where": "common-issues.content[0].items[2]",
+        "current": "**Старше 25 лет / vintage**: отдельная категория матрикуляции («veículo histórico»), дешевле ISV, но ограничения по эмиссиям",
+        "problem": "This is inaccurate. Portuguese historic/classic treatment is not simply “older than 25 years” with a separate matriculation category and cheaper ISV. Historic status generally requires certification/recognition under specific rules, often associated with 30+ years and preservation criteria; ISV treatment depends on statutory exemption/reduction conditions, not just age.",
+        "suggestion": "Rewrite as: “Классика/veículo de interesse histórico: не автоматически с 25 лет. Нужна сертификация/условия historical interest; возможные ISV льготы проверяются по Código do ISV and recognized entities. До покупки запросите подтверждение у AT/IMT/сертифицирующей entidade.”",
+        "confidence": "medium",
+        "source": "Código do ISV; IMT rules on veículos de interesse histórico"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].items[5]",
+        "current": "**Льготный**: PHEV с запасом >50 км",
+        "problem": "Incomplete condition. The ISV reduced rate for plug-in hybrids is not based only on electric range; statutory CO₂ emissions thresholds and exact vehicle category/rules also matter. “>50 km” alone can mislead buyers.",
+        "suggestion": "Write: “PHEV может иметь reduced ISV only if it meets the statutory conditions, including minimum electric range and CO₂ threshold; check the current Código do ISV and AT simulator for the exact model.”",
+        "confidence": "high",
+        "source": "Código do ISV rules for hybrid and plug-in hybrid vehicles"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Для новых EV — ISV 0%",
+        "problem": "Too narrow: BEV exemption is not limited to new electric vehicles. Used BEVs imported from the EU also generally have no ISV, assuming they are pure electric and meet the rules.",
+        "suggestion": "Change to: “Для BEV/pure electric vehicles — ISV 0%, whether new or used; still budget registration, inspection/DUA and insurance.”",
+        "confidence": "high",
+        "source": "Código do ISV"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3]",
+        "current": "немецкий TÜV = подробная история",
+        "problem": "TÜV is a periodic roadworthiness inspection, not a full vehicle history report. It does not prove accident-free status, mileage integrity across the whole life, finance status, or full maintenance history.",
+        "suggestion": "Write: “German TÜV confirms roadworthiness at inspection dates; still check service book, invoices, mileage databases, accident history and seller reputation.”",
+        "confidence": "high",
+        "source": "General TÜV inspection scope"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[2]",
+        "current": "В PT — въезд свободный, таможни нет (ЕС)",
+        "problem": "Simplified wording can mislead. There is no customs duty/import customs border for EU goods, but the vehicle still requires DAV/fiscal regularisation and ISV before Portuguese registration.",
+        "suggestion": "Write: “Таможенной пошлины как при non-EU нет, но fiscal regularisation через DAV/AT и ISV обязательны.”",
+        "confidence": "high",
+        "source": "Código do ISV; Autoridade Tributária DAV"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[1]",
+        "current": "Подача: через Portal das Finanças (NIF + CMD) → IVA/ISV → DAV",
+        "problem": "The navigation label is likely imprecise and may confuse users. DAV is part of AT customs/vehicle tax services and may appear under Serviços Aduaneiros/ISV rather than a simple “IVA/ISV” path.",
+        "suggestion": "Use a less brittle instruction: “Подача DAV через Portal das Finanças/Serviços Aduaneiros/ISV using NIF authentication; menu names change, search for ‘DAV’ or ‘Imposto Sobre Veículos’.”",
+        "confidence": "medium",
+        "source": "Portal das Finanças / Autoridade Tributária"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "https://info.portaldasfinancas.gov.pt/",
+        "problem": "This is a generic homepage, not a direct source for DAV/ISV procedures, simulator, tables or deadlines. For a tax-sensitive guide this is too weak.",
+        "suggestion": "Add direct official links to AT pages for ISV, DAV, ISV simulator and IUC, or cite the consolidated Código do ISV articles used for deadlines/exemptions.",
+        "confidence": "high",
+        "source": "Autoridade Tributária — ISV/DAV/IUC official pages"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No IRN source listed.",
+        "problem": "The guide discusses DUA/Documento Único Automóvel and vehicle registration but cites only AT and IMT. DUA/ownership registration is an IRN/Registo Automóvel matter, so a source is missing.",
+        "suggestion": "Add an official IRN source for Registo Automóvel, Automóvel Online and Documento Único Automóvel fees/procedure.",
+        "confidence": "high",
+        "source": "IRN — Registo Automóvel / Automóvel Online"
+      }
+    ],
+    "missing_topics": [
+      "Portuguese IVA/VAT rules for EU vehicles considered new means of transport: less than 6 months or less than 6,000 km",
+      "Correct order and distinction between inspection for assignment of matrícula, DAV/ISV, IMT technical approval, IRN registration/DUA and physical plate manufacture",
+      "Driving on foreign/export plates in Portugal during regularisation: valid foreign registration, insurance, DAV deadline and resident-driver limitations",
+      "IUC due month and first-payment rule after Portuguese registration, not a universal April deadline",
+      "Direct official sources for AT ISV simulator/DAV, IUC, IMT matrícula/homologation and IRN DUA/Registo Automóvel",
+      "Exact statutory conditions for PHEV/hybrid ISV reductions, including CO₂ threshold and range, not only electric autonomy",
+      "Relocation exemption evidence package and the broader no-sale/no-loan/no-rent/no-transfer restriction period"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6052,
+    "prompt_tokens": 3571,
+    "total_tokens": 9623
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,245 @@
+export default {
+  "editorialVoice": "hackportugal",
+  "id": "via-verde-full",
+  "categoryId": "auto_trips",
+  "title": "Via Verde (sistema de pagamento eletrónico de portagens) — guia completo para pagar portagens em Portugal",
+  "tldr": "Via Verde — pagamento eletrónico de portagens através de um transponder (identificador). Subscrição a partir de 5 € pela ativação + 1,75 €/mês. Alternativa — pós-pagamento através de portagens.ctt.pt ou terminais CTT/Payshop: para matrículas portuguesas, o pagamento fica normalmente disponível **cerca de 48 horas** após a passagem e é válido durante **15 dias úteis**. Atraso → a dívida passa para cobrança administrativa: coima fixa por contraordenação (intervalo conforme tabela, não «25× o valor da portagem»), mais % por falta de pagamento. IMPORTANTE: a partir de 01.01.2025 foram abolidas as portagens na A22, A23, A24, A25, em partes da A28, A4, A13. O «bloqueio automático do DUA» NÃO é uma consequência padrão.",
+  "tags": [
+    "via verde",
+    "portagens",
+    "estradas",
+    "automóvel",
+    "autoestradas"
+  ],
+  "estimatedReadMinutes": 7,
+  "steps": [
+    {
+      "id": "what-is",
+      "title": "O que é a Via Verde",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "A Via Verde Portugal é uma concessão Brisa / Ascendi / IP (Infraestruturas de Portugal). É o principal sistema de pagamento eletrónico de portagens: um pequeno dispositivo (identificador) no para-brisas, que debita automaticamente a portagem ao passar sob o pórtico sem parar."
+        },
+        {
+          "kind": "checklist",
+          "items": [
+            "Cobre TODAS as autoestradas e pontes com portagem em Portugal",
+            "Funciona também em parques de estacionamento de muitos aeroportos e centros comerciais",
+            "Funciona em Espanha (Bip&Drive) e em França (TIS) com o mesmo dispositivo",
+            "Tarifa separada para motociclos",
+            "Classes de veículos 1–4 por dimensões"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-get",
+      "title": "Como obter o identificador",
+      "content": [
+        {
+          "kind": "substeps",
+          "items": [
+            {
+              "id": "g1",
+              "title": "A. Residente em Portugal",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "Online em `viaverde.pt` ou através da aplicação «Via Verde»",
+                    "Necessário: NIF, documento de identificação (CC/autorização de residência), dados do veículo (matrícula, modelo), IBAN ou cartão",
+                    "Entrega do identificador — 3–5 dias úteis através dos CTT",
+                    "Está disponível a versão «Via Verde Digital» — transponder virtual na aplicação, sem dispositivo (funciona em Portugal através do reconhecimento da matrícula)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "g2",
+              "title": "B. Não residente / turista (Via Verde Visitors)",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Tarifa especial para turistas. Pode ser obtida nos aeroportos de Lisboa/Porto/Faro ou em terminais CTT. A associação é feita a um cartão bancário. Pagamento de acordo com as passagens efetuadas, sem subscrição."
+                }
+              ]
+            },
+            {
+              "id": "g3",
+              "title": "C. Através de bancos parceiros",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Millennium, Santander, Novo Banco — permitem encomendar a Via Verde diretamente na aplicação do banco, com débito direto."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tariffs",
+      "title": "Tarifas e subscrições",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "💶 Ativação do identificador: ~5–10 € uma só vez (com devolução da caução em caso de cancelamento)",
+            "💶 Mensalidade: ~1,75 €/mês por dispositivo",
+            "💶 Portagem — valor fixo por troços (por exemplo, Lisboa → Porto pela A1 ~22 €)",
+            "💶 Via Verde Visitors: sem mensalidade, apenas % adicional",
+            "🏷️ Descontos para veículos elétricos em algumas autoestradas",
+            "🏷️ «Dispositivos múltiplos» — desconto para vários carros na mesma conta"
+          ]
+        },
+        {
+          "kind": "warning",
+          "text": "As tarifas são atualizadas anualmente a 1 de janeiro. O preçário atualizado está apenas em `viaverde.pt`."
+        }
+      ]
+    },
+    {
+      "id": "no-via-verde",
+      "title": "Se não tiver Via Verde — como pagar",
+      "content": [
+        {
+          "kind": "substeps",
+          "items": [
+            {
+              "id": "n1",
+              "title": "A. Autoestradas eletrónicas (antigas SCUT). A partir de 01.01.2025, as portagens foram abolidas em várias autoestradas — A22 Algarve, A23, A24, A25, partes da A28, A4, A13",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Não há cabina — apenas pórticos com câmaras. Estes leem a matrícula e emitem a cobrança."
+                },
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "Pagamento em terminais CTT / Payshop no prazo de 48 horas após a passagem",
+                    "Online em `portagens.ctt.pt`",
+                    "Pré-pagamento em postos de abastecimento — associar previamente o cartão",
+                    "Se o pagamento não for feito no prazo estabelecido (normalmente 15 dias úteis a partir do momento em que a dívida aparece no sistema) — a dívida passa para cobrança administrativa: aplica-se uma coima por contraordenação (intervalo fixo previsto na lei), mais % por falta de pagamento"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "n2",
+              "title": "B. Autoestradas clássicas (A1, A2, A5 — com cabinas)",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Pode pagar em dinheiro ou com cartão na cabina. Siga pela via com o sinal «Outras Vias». Não confunda com «Via Verde» (via verde) — essa é APENAS para quem tem dispositivo; caso contrário, há coima."
+                }
+              ]
+            },
+            {
+              "id": "n3",
+              "title": "C. Carro alugado",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Todas as grandes empresas de aluguer (Europcar, Avis, Sixt, Goldcar, Drivalia) oferecem aluguer de Via Verde. Preço médio — 3–5 €/dia + valor das passagens. Nas antigas SCUT, não é aconselhável recusar — caso contrário, a empresa de aluguer irá cobrar-lhe as coimas."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "app-features",
+      "title": "Aplicação Via Verde — o que mais permite fazer",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "⛽ Pagamento de combustível sem passar pela caixa (parceiros Galp, BP, Repsol)",
+            "🅿️ Pagamento de estacionamento (EMEL Lisboa, SABA, Estrela do Norte)",
+            "🚇 Pagamento de transportes públicos em algumas cidades (modo piloto)",
+            "📊 Histórico de passagens e extratos para efeitos fiscais (Anexo H no IRS)",
+            "📱 Notificações de coimas e débitos em tempo real",
+            "🧾 Fatura eletrónica com NIF — dedução no IRS como despesa na categoria despesas gerais familiares"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disputes",
+      "title": "Débitos contestados",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "Classe do veículo incorreta → formulário de reclamação em `viaverde.pt` + fotografia do documento do veículo",
+            "Débito duplicado → normalmente regularização automática em 5 dias",
+            "Coima com identificador funcional → contestação através da AT Ascendi / Brisa",
+            "Pórtico sem funcionamento → num pórtico preto é feita uma fotografia emulada; contestar através de `portagens.ctt.pt`"
+          ]
+        },
+        {
+          "kind": "warning",
+          "text": "A falta de pagamento e o atraso no pagamento da coima levam ao bloqueio do DUA (documento do veículo). Não passará na inspeção (IPO)."
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "label": "Ativação do dispositivo",
+      "amountEURMin": 5,
+      "amountEURMax": 10,
+      "note": "frequentemente reembolsável"
+    },
+    {
+      "label": "Mensalidade",
+      "amountEUR": 1.75,
+      "note": "€/mês"
+    },
+    {
+      "label": "Coima por falta de pagamento de portagem",
+      "amountEURMin": 25,
+      "amountEURMax": 250,
+      "note": "intervalo fixo por contraordenação; depende da portagem e das circunstâncias — valores exatos na notificação IP/AT"
+    },
+    {
+      "label": "Lisboa → Porto pela A1",
+      "amountEUR": 22
+    }
+  ],
+  "sources": [
+    {
+      "title": "Via Verde — site do operador",
+      "url": "https://www.viaverde.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Portagens CTT — pós-pagamento de autoestradas eletrónicas",
+      "url": "https://portagens.ctt.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Infraestruturas de Portugal — portagens e concessões",
+      "url": "https://www.infraestruturasdeportugal.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "IMT — Regulamento de Portagens",
+      "url": "https://www.imt-ip.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    }
+  ],
+  "lastVerified": "2026-04-28",
+  "verifyIntervalDays": 90
+}

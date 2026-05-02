@@ -1,0 +1,175 @@
+{
+  "guideId": "lisbon-top-sights",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гид в целом полезен как маршрут, но для материала с lastVerified 2026-04-22 содержит много устаревших цен, старое название музея Berardo и несколько misleading-практических советов.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[0]",
+        "current": "Lisboa Card (22/36/43 € на 24/48/72 ч) — бесплатный транспорт + 30+ достопримечательностей",
+        "problem": "Цены Lisboa Card сильно устарели. К 2026 году 24/48/72 часа стоят существенно дороже, поэтому совет вводит в заблуждение при планировании бюджета.",
+        "suggestion": "Заменить на актуальную формулировку без фиксирования старых цен либо обновить: «Lisboa Card — проезд + бесплатный/льготный вход во многие музеи; цены часто меняются, проверяйте на официальном сайте перед покупкой». Если указываете цены, брать их с lisboacard.org.",
+        "confidence": "high",
+        "source": "Lisboa Card official website"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0]",
+        "current": "Mosteiro dos Jerónimos ... 12 €, вт-вс 10-18, пн выходной",
+        "problem": "Цена 12 € устарела для 2026 года. Кроме того, часы работы у Jerónimos сезонные, а не просто «10-18» круглый год.",
+        "suggestion": "Написать: «Mosteiro dos Jerónimos — билет для взрослого около 18 €; часы работы сезонные, понедельник обычно выходной, проверяйте на официальном сайте Museus e Monumentos de Portugal».",
+        "confidence": "high",
+        "source": "Museus e Monumentos de Portugal / Mosteiro dos Jerónimos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1]",
+        "current": "Torre de Belém (XVI в., UNESCO) — сторожевая башня на реке, символ Лиссабона. 8 €",
+        "problem": "Цена 8 € устарела для 2026 года.",
+        "suggestion": "Заменить на: «Torre de Belém — взрослый билет около 15 €; проверяйте актуальную цену и расписание на сайте Museus e Monumentos de Portugal».",
+        "confidence": "high",
+        "source": "Museus e Monumentos de Portugal / Torre de Belém"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2]",
+        "current": "Билеты в Jerónimos и Torre de Belém — комбо 18 € вместо 20 €, но бронировать онлайн заранее (часовые слоты)",
+        "problem": "Числа не сходятся с актуальными ценами: в самом тексте Jerónimos указан как 12 €, Torre de Belém как 8 €, но «комбо 18 вместо 20» уже основано на старой ценовой сетке. В 2026 это misleading.",
+        "suggestion": "Убрать конкретную цену комбо или заменить на: «Для Jerónimos и Torre de Belém проверяйте наличие комбинированных билетов и тайм-слотов на официальном сайте; цены и правила входа меняются».",
+        "confidence": "high",
+        "source": "Museus e Monumentos de Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[5]",
+        "current": "Museu Coleção Berardo / MAAT — современное искусство, часто бесплатно",
+        "problem": "Museu Coleção Berardo как бренд/институция больше не является актуальным названием: с 2023 года пространство в CCB работает как MAC/CCB — Museu de Arte Contemporânea / Centro Cultural de Belém. Формулировка «часто бесплатно» тоже слишком расплывчата и может быть неверной для постоянных билетов.",
+        "suggestion": "Заменить на: «MAC/CCB — Museu de Arte Contemporânea в Centro Cultural de Belém; рядом MAAT. У обоих свои билеты и дни/периоды бесплатного входа — проверяйте на официальных сайтах».",
+        "confidence": "high",
+        "source": "MAC/CCB official website; MAAT official website"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "Padrão dos Descobrimentos — памятник открытиям 1960 года, обзорная площадка на крыше 5 €",
+        "problem": "Цена 5 € устарела; к 2026 году взрослый билет на смотровую площадку стоит дороже.",
+        "suggestion": "Написать без старой цены: «Padrão dos Descobrimentos — памятник открытиям 1960 года, есть обзорная площадка; актуальные цены проверяйте на официальном сайте».",
+        "confidence": "high",
+        "source": "Padrão dos Descobrimentos official website / EGEAC"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[4]",
+        "current": "Museu Nacional dos Coches — королевские кареты XVI-XIX вв., 8 €",
+        "problem": "Цена 8 € устарела для 2026 года.",
+        "suggestion": "Заменить на: «Museu Nacional dos Coches — королевские кареты XVI–XIX вв.; взрослый билет около 12 €, проверяйте актуальную цену на официальном сайте».",
+        "confidence": "high",
+        "source": "Museus e Monumentos de Portugal / Museu Nacional dos Coches"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2]",
+        "current": "Elevador de Santa Justa — чугунный лифт 1902 года в стиле Эйфеля, обзорная 5.30 €",
+        "problem": "Формулировка путает проезд на лифте и доступ на смотровую площадку; цена 5,30 € выглядит устаревшей/неполной. Проезд может покрываться транспортной картой, но смотровая площадка обычно оплачивается отдельно.",
+        "suggestion": "Написать: «Elevador de Santa Justa — проезд входит в городские транспортные тарифы/карты, отдельный доступ на смотровую площадку оплачивается отдельно; проверяйте тариф Carris».",
+        "confidence": "medium",
+        "source": "Carris; Câmara Municipal de Lisboa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[7]",
+        "current": "Museu Nacional do Azulejo — бывший монастырь с коллекцией плитки. 8 €",
+        "problem": "Музей азулежу находится не в Alfama, а восточнее центра, в Xabregas/Beato; включение в раздел Alfama может сбить с маршрута. Цена 8 € также, вероятно, устарела.",
+        "suggestion": "Перенести в отдельный блок «восточнее центра / Xabregas» и написать: «Museu Nacional do Azulejo — бывший монастырь Madre de Deus; закладывайте отдельную поездку на автобусе/такси; цену проверяйте на официальном сайте».",
+        "confidence": "high",
+        "source": "Museu Nacional do Azulejo official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4]",
+        "current": "Museu Nacional de Arte Antiga (MNAA) — главный художественный, 10 €",
+        "problem": "Цена 10 € выглядит устаревшей для 2026 года после повышения тарифов в национальных музеях.",
+        "suggestion": "Заменить на: «Museu Nacional de Arte Antiga — главный художественный музей; взрослый билет около 12 €, проверяйте актуальную цену на сайте музея».",
+        "confidence": "medium",
+        "source": "Museu Nacional de Arte Antiga / Museus e Monumentos de Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2]",
+        "current": "Teleférico — канатная дорога вдоль реки, 4 €/взр",
+        "problem": "Цена 4 € устарела и слишком низкая для 2026 года; актуальный билет для взрослого стоит заметно дороже, особенно туда-обратно.",
+        "suggestion": "Заменить на: «Teleférico do Parque das Nações — канатная дорога вдоль реки; билет для взрослого обычно около 7–10 € в зависимости от one-way/return, проверяйте официальный тариф».",
+        "confidence": "high",
+        "source": "Telecabine Lisboa official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[5]",
+        "current": "Ponte Vasco da Gama — 17 км моста через Тежу (2-й по длине в Европе)",
+        "problem": "Фраза «17 км моста через Тежу» неточная: общая длина около 17,2 км включает виадуки/подъезды, а не только пролёт непосредственно над водой. Рейтинг «2-й по длине в Европе» зависит от методологии и может спорить с другими мостами/сооружениями.",
+        "suggestion": "Написать: «Ponte Vasco da Gama — один из самых длинных мостовых комплексов Европы, около 17,2 км с виадуками и подъездами».",
+        "confidence": "medium",
+        "source": "Visit Lisboa; Lusoponte"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Jardim do Príncipe Real — парк с огромной 150-летней сосной, воскресный блошиный рынок",
+        "problem": "Знаменитое дерево в Jardim do Príncipe Real — не сосна, а большой кедр/cedro-do-Buçaco. «Воскресный блошиный рынок» тоже сомнительно: регулярные рынки там обычно привязаны к субботам/определённым дням месяца, а главный блошиный рынок Лиссабона — Feira da Ladra — проходит в другом месте.",
+        "suggestion": "Заменить на: «Jardim do Príncipe Real — парк со знаменитым гигантским cedro-do-Buçaco; по выходным/в отдельные дни бывают небольшие рынки, расписание проверяйте заранее».",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Lisboa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[4]",
+        "current": "Вода бесплатная в ресторанах НЕТ, попросите «água da torneira» (из крана, не везде дают)",
+        "problem": "Формулировка слишком категоричная и может быть устаревшей/misleading. В Португалии tap water безопасна, а заведения общественного питания должны иметь доступную питьевую воду из-под крана для клиентов; на практике могут пытаться продать bottled water, но «не везде дают» не лучший совет.",
+        "suggestion": "Написать: «Бутилированная вода платная. Если хотите бесплатно/дешевле, просите “água da torneira”; tap water безопасна, но в туристических местах официанты могут по умолчанию приносить bottled water».",
+        "confidence": "medium",
+        "source": "ERSAR; Portuguese rules on reduction of single-use plastics/tap water availability"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[5]",
+        "current": "Tipping: 5-10% принято в ресторане",
+        "problem": "Для Португалии это звучит слишком обязательно. Чаевые приветствуются, особенно за хороший сервис или в туристических ресторанах, но не являются обязательной нормой как в США.",
+        "suggestion": "Заменить на: «Чаевые не обязательны; за хороший сервис обычно можно округлить счёт или оставить 5–10%».",
+        "confidence": "high",
+        "source": "Visit Portugal / general consumer practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[6]",
+        "current": "Нельзя купаться в Tejo — загрязнена. Пляжи в Cascais / Costa da Caparica",
+        "problem": "Фраза упрощает ситуацию. В центральной части Лиссабона купаться действительно не принято/не предусмотрено, но причина не только «загрязнена»: нет городских bathing beaches на набережной, есть судоходство и ограничения. При этом в устье Тежу есть зоны с мониторингом качества воды, а официальные пляжи нужно проверять по сезону.",
+        "suggestion": "Написать: «В центре Лиссабона в Тежу не купаются: это не оборудованные пляжи, есть судоходство и ограничения. Для купания езжайте на официальные пляжи Cascais, Oeiras, Costa da Caparica и проверяйте качество воды на APA/SNIRH».",
+        "confidence": "medium",
+        "source": "Agência Portuguesa do Ambiente / Qualidade das Águas Balneares"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].text",
+        "current": "Вход в большинство достопримечательностей 10-14 €, Lisboa Card даёт бесплатно или со скидкой.",
+        "problem": "Диапазон 10–14 € устарел: ключевые достопримечательности Belém в 2026 часто стоят около 15–18 € и выше для взрослого билета.",
+        "suggestion": "Заменить на: «Вход в основные достопримечательности Belém часто около 12–18 € за взрослого; Lisboa Card может дать бесплатный вход или скидку, но условия проверяйте по конкретному объекту».",
+        "confidence": "high",
+        "source": "Museus e Monumentos de Portugal; Lisboa Card official website"
+      }
+    ],
+    "missing_topics": [
+      "Для материала с актуальными ценами нужны прямые источники по каждому крупному объекту: Museus e Monumentos de Portugal, EGEAC/Padrão dos Descobrimentos, Oceanário, Telecabine Lisboa, Lisboa Card.",
+      "Нужно добавить caveat, что бесплатные дни/льготы в национальных музеях часто зависят от статуса резидента Portugal и конкретных правил музея, а не всегда доступны туристам.",
+      "Стоит добавить предупреждение, что многие популярные объекты Belém требуют онлайн-бронирования/тайм-слотов и очереди остаются даже с Lisboa Card.",
+      "Стоит добавить транспортный caveat: с 2024–2026 используются карты Navegante/occasional и contactless-оплата на некоторых видах транспорта; Viva Viagem всё ещё встречается, но формулировка должна быть обновлена."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4820,
+    "prompt_tokens": 2610,
+    "total_tokens": 7430
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,154 @@
+{
+  "guideId": "creche-kindergarten",
+  "categoryId": "education_children",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has major factual problems around compulsory pre-school, Creche Feliz eligibility/payment, and what is actually free in public pre-school.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Jardim de Infância (3-6 лет, pré-escolar) — бесплатный в гос. учреждениях. С 5 лет — обязательный.",
+        "problem": "Pré-escolar is not compulsory from age 5 in Portugal. Compulsory education starts at age 6 and runs until 18 or completion of secondary education. The state has a duty to ensure universal access to pre-school from age 3, but attendance remains optional.",
+        "suggestion": "Write: \"Jardim de Infância / educação pré-escolar (3–6 лет) — в гос. сети бесплатная образовательная часть; посещение не обязательно. Обязательное школьное образование начинается с 6 лет.\"",
+        "confidence": "high",
+        "source": "Lei n.º 85/2009; Lei n.º 65/2015; DGE — Educação Pré-Escolar"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "Часть государственной школьной системы. Бесплатный. Обязательный с 5 лет (с 2022).",
+        "problem": "Same factual error: there is no general legal obligation to attend jardim de infância from age 5, and not since 2022. Pre-school is universal/available, not compulsory.",
+        "suggestion": "Replace with: \"Часть системы educação pré-escolar. В государственной сети образовательная часть бесплатна. Посещение добровольное; обязательная школа начинается с 6 лет.\"",
+        "confidence": "high",
+        "source": "Lei n.º 85/2009; Lei n.º 65/2015"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Creche (0-3 года) — платная, даже государственная (по доходу: €0-400/мес).",
+        "problem": "Misleading/outdated. Since the Creche Feliz expansion, many children in covered social-sector creches are free regardless of abono/income tier; the guide later says this too, creating an internal contradiction. Also 'государственная creche' is not the normal category — the main networks are social/solidarity sector IPSS and private; public municipal/state creches exist but are not the standard route.",
+        "suggestion": "Write: \"Creche (обычно 0–3) бывает IPSS/социальная, частная и реже муниципальная/публичная. По Creche Feliz место может быть бесплатным в покрытых учреждениях; вне программы или при частной оплате цена зависит от учреждения/дохода.\"",
+        "confidence": "high",
+        "source": "Segurança Social — Creche Feliz"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "Программа «Creche Feliz»: БЕСПЛАТНО для детей 1-2 эшелона abono. С 2024-2025 расширяется на все детки до 3 лет. В гос. и солидарных (IPSS) учреждениях.",
+        "problem": "This mixes old and newer rules. Creche Feliz is no longer just for 1st/2nd abono tiers. It also should not be described simply as 'гос. и IPSS': the core is social/solidarity network places, with private-profit creches only under specific conditions/adhesion and normally when no social-sector vacancy is available. Free means the standard monthly family fee, not necessarily optional extras.",
+        "suggestion": "Write: \"Creche Feliz: бесплатное место для eligible children in covered creches, mainly the social/solidarity network; private-profit creches may be covered only if participating and under the Segurança Social rules, typically when there is no suitable vacancy in the social network. The abono tier rule was the initial phase; by 2026 it should not be presented as only 1–2 эшелон. Optional extras may still be charged.\"",
+        "confidence": "high",
+        "source": "Segurança Social — Creche Feliz; Portaria n.º 198/2022 and later amendments"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "{\"label\":\"Creche Feliz / гос.\",\"amountEUR\":0,\"note\":\"бесплатно для 1-2 эшелона\"}",
+        "problem": "Outdated and internally inconsistent with the text saying the scheme expanded to all children under 3. Also the label equates Creche Feliz with 'state/public', which is inaccurate.",
+        "suggestion": "Use: {\"label\":\"Creche Feliz\", \"amountEUR\":0, \"note\":\"для covered/eligible places, mainly IPSS/social-sector; not limited to 1–2 abono tiers; private participating places only under programme rules\"}",
+        "confidence": "high",
+        "source": "Segurança Social — Creche Feliz"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].text",
+        "current": "Частные не-коммерческие. По договору с Seg. Social. Оплата по доходу €0-400/мес.",
+        "problem": "Misleading for 2026. Many IPSS creche places covered by Creche Feliz have no monthly family co-payment for the standard service. Income-based comparticipação is relevant where the child/place is not covered by the free scheme or for other services. The €0–400 range is an unsourced simplification and may be wrong by institution/family formula.",
+        "suggestion": "Write: \"IPSS/sector social: если место покрыто Creche Feliz — стандартная mensalidade €0; если не покрыто, может применяться comparticipação familiar по доходу согласно правилам учреждения/Segurança Social. Питание обычно включено в стандарт, но extras/extended services могут оплачиваться отдельно.\"",
+        "confidence": "high",
+        "source": "Segurança Social — Creche Feliz"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "{\"label\":\"Creche IPSS\",\"amountEURMin\":0,\"amountEURMax\":400,\"note\":\"/мес, по доходу\"}",
+        "problem": "This cost line should distinguish IPSS places covered by Creche Feliz from IPSS places outside the free scheme. As written it implies IPSS is normally paid €0–400/month, which is misleading after the free-creche expansion.",
+        "suggestion": "Split into two lines: \"IPSS covered by Creche Feliz — €0/month standard mensalidade\" and \"IPSS not covered / extras — income-based, varies by institution\". Avoid a hard €400 cap unless sourced.",
+        "confidence": "high",
+        "source": "Segurança Social — Creche Feliz"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "seg-social.pt → SSD → Família → Creche Feliz. Выбрать учреждения (до 5).",
+        "problem": "Too broad. Not all creche applications are done through Segurança Social Direta. SSD/Creche Feliz is for the Creche Feliz/request workflow and covered/adherent institutions; many private creches and some admission processes still require direct contact with the institution. The 'до 5' choice limit should be verified against the current SSD workflow before stating as a hard rule.",
+        "suggestion": "Write: \"Для мест по Creche Feliz используйте Segurança Social Direta / Creche Feliz / Pedido de Creche and follow the current portal limit for preferred institutions. For private creches or non-covered places, apply directly to the creche as well.\"",
+        "confidence": "medium",
+        "source": "Segurança Social — Creche Feliz"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Jardim de Infância (3-6 лет, pré-escolar) — бесплатный в гос. учреждениях.",
+        "problem": "Needs a caveat: in public pre-school, the educational component is free, but meals, transport, and extended hours/AAAF may be charged depending on municipality and the child's Ação Social Escolar income tier. Saying simply 'free' can mislead families budgeting for full-day care.",
+        "suggestion": "Write: \"В государственной сети образовательная часть pré-escolar бесплатна; питание, transporte escolar and AAAF/prolongamento may be paid or subsidised by municipality/ASE tier.\"",
+        "confidence": "high",
+        "source": "DGE — Educação Pré-Escolar; DGEstE/municipal Ação Social Escolar rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "Бесплатный.",
+        "problem": "Overstates the cost position for jardim de infância. Free tuition/educational component does not mean full-day care is always free.",
+        "suggestion": "Replace with: \"В гос. сети бесплатна образовательная часть; meals/AAAF/extended hours can have income-based or municipal fees.\"",
+        "confidence": "high",
+        "source": "DGE — Educação Pré-Escolar"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "portaldasmatriculas.edu.gov.pt → регистрация → выбрать agrupamento.",
+        "problem": "A parent usually indicates specific schools/kindergartens/preferences, not just an agrupamento. The process also requires authentication, normally Chave Móvel Digital, Cartão de Cidadão or tax portal credentials; families without access often need school-office help.",
+        "suggestion": "Write: \"Portal das Matrículas → login/authentication → choose preferred establishments/agrupamentos in order; if you cannot authenticate online, contact the school/agrupamento services.\"",
+        "confidence": "medium",
+        "source": "Portal das Matrículas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "Основная сессия — апрель-май для следующего учебного года (сентябрь). Свободные места — до середины июня.",
+        "problem": "Deadlines are set annually by despacho/calendar and should not be presented as fixed without a year. 'Свободные места — до середины июня' is vague and may confuse application deadlines with placement/publication dates.",
+        "suggestion": "Write: \"Сроки ежегодно публикуются for that school year, usually in April–May for pré-escolar/1.º ano. Check Portal das Matrículas for the current calendar and later placement/publication dates.\"",
+        "confidence": "high",
+        "source": "Portal das Matrículas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[2]",
+        "current": "International Preparatory School — американский, 3-15 лет",
+        "problem": "Likely inaccurate. International Preparatory School in the Lisbon/Cascais area is generally known as a British/international preparatory school, not an American school, and the age range stated as 3–15 is questionable.",
+        "suggestion": "Verify against the school's current official page. Safer wording: \"International Preparatory School — англоязычная international/British-style школа; age range and fees should be checked on the school site.\"",
+        "confidence": "medium",
+        "source": "International Preparatory School official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[2].text",
+        "current": "Стоимость €8 000 – 18 000/год.",
+        "problem": "This range may be roughly plausible for international schools but is incomplete: registration/enrolment fees, capital/development fees, meals, uniforms, transport and after-school care can materially increase first-year cost. Some nursery/kindergarten programmes may be below or above this depending on school and schedule.",
+        "suggestion": "Write: \"Tuition often falls roughly in this range, but first-year registration/capital fees, meals, uniforms, transport and after-school care are usually extra; check each school's fee table.\"",
+        "confidence": "high",
+        "source": "Individual school fee schedules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "Ассигнование IRS / справка о доходе",
+        "problem": "Terminology is confusing in Russian. 'Ассигнование IRS' is not a normal term. Families are usually asked for declaração de IRS / nota de liquidação or proof of income, and sometimes abono/household composition depending on process.",
+        "suggestion": "Replace with: \"Declaração de IRS и nota de liquidação / справка о доходах; при необходимости comprovativo do escalão de abono/household composition.\"",
+        "confidence": "high",
+        "source": "Segurança Social / creche admission practice"
+      }
+    ],
+    "missing_topics": [
+      "Explain that Creche Feliz availability is subject to covered/adherent vacancies and programme rules; it is not a guaranteed place for every child in the preferred neighbourhood.",
+      "Mention that public pre-school/jardim de infância often follows school hours and full-day coverage depends on AAAF/prolongamento, municipality and availability.",
+      "Mention Ação Social Escolar / municipal subsidies for meals, transport and extended hours in public pre-school.",
+      "Clarify age cut-offs for pré-escolar applications: priority depends on age by the legally relevant date for the school year, and 3-year-olds may have lower priority than 4- and 5-year-olds.",
+      "Add official source for annual matrícula calendar/deadlines, not only the generic Portal das Matrículas homepage.",
+      "Clarify that nursery/private school fee tables often have non-tuition extras: registration, insurance, meals, diapers, uniforms, transport and activities."
+    ]
+  },
+  "model": "gpt-5.5"
+}

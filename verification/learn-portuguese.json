@@ -1,0 +1,154 @@
+{
+  "guideId": "learn-portuguese",
+  "categoryId": "before_arrival",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but contains several material inaccuracies about PLA eligibility, citizenship language requirements, public-school courses, IEFP subsidies, and some outdated/misleading learning-resource claims.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "Бесплатно для **всех** иностранцев с любым статусом (включая беженцев и нерезидентов)",
+        "problem": "Too broad. PLA courses are not simply free for every foreigner with any status, especially not generic non-residents. Access is aimed at adult migrants, refugees/asylum seekers and beneficiaries of temporary protection, usually with a legal/documented status in Portugal or a process that allows enrolment. Availability also depends on local course openings and vacancies.",
+        "suggestion": "Write: \"Бесплатно для взрослых мигрантов в Португалии, включая беженцев, просителей убежища и лиц с временной защитой; на практике при записи могут попросить документ о легальном пребывании/процессе и NIF/NISS/контакты. Это не гарантированный курс для любого нерезидента — зависит от мест и набора.\"",
+        "confidence": "high",
+        "source": "Portaria n.º 183/2020; IEFP/DGEstE PLA information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[4]",
+        "current": "BR понимают — но на A2 для гражданства нужен PT-PT.",
+        "problem": "Misleading. Portuguese nationality law requires proof of sufficient knowledge of the Portuguese language, normally at A2 or higher; it does not say the language must be specifically European Portuguese. CAPLE/CIPLE is based on European Portuguese, but the legal requirement is Portuguese language knowledge, and there are other recognised forms of proof such as Portuguese schooling/certificates.",
+        "suggestion": "Write: \"Для гражданства нужен документально подтверждённый португальский минимум A2. Экзамен CIPLE/CAPLE в Португалии ориентирован на европейский португальский, поэтому для подготовки к экзамену лучше PT-PT; но закон не формулирует требование как ‘только PT-PT’.\"",
+        "confidence": "high",
+        "source": "Regulamento da Nacionalidade Portuguesa; CAPLE"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].text",
+        "current": "Escolas Secundárias часто имеют вечерние курсы «Português para Estrangeiros» в рамках PLNM — за символическую запись (10-25 €/семестр).",
+        "problem": "Conflates different systems. PLNM is primarily the school subject/support framework for non-native pupils in basic/secondary education, not a general adult evening-course system. Adult Portuguese courses in public schools are more commonly PLA/EFA/Qualifica-linked, and fees/availability are not reliably 10–25 €/semester.",
+        "suggestion": "Write: \"Некоторые государственные школы и Agrupamentos de Escolas проводят PLA/EFA/курсы для взрослых через Centros Qualifica или местные программы. Наличие, расписание и возможные административные сборы зависят от школы/муниципалитета; PLNM как правило относится к ученикам школьной системы, а не к взрослым экспатам.\"",
+        "confidence": "high",
+        "source": "DGEstE; ANQEP/Centros Qualifica; Portaria n.º 183/2020"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "Бесплатно + bolsa de formação (субсидия, часть IAS), покрывают транспорт и питание",
+        "problem": "Overpromises. IEFP training supports are conditional. Not every unemployed person receives a bolsa de formação; eligibility depends on registration status, course type, unemployment benefits, household situation and IEFP rules. Meal/transport allowances also have conditions and documentation requirements.",
+        "suggestion": "Write: \"Курс может быть бесплатным; при соблюдении условий IEFP возможны apoios sociais à formação: subsídio de alimentação, transporte и иногда bolsa de formação. Размер и право на выплаты зависят от статуса в IEFP и от того, получаете ли вы другие пособия.\"",
+        "confidence": "high",
+        "source": "IEFP Regulamento dos Apoios Sociais à Formação Profissional"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[3]",
+        "current": "Идеально для тех, кто только приехал и ещё не работает",
+        "problem": "Misleading without caveat. A newcomer usually needs to be able to register with IEFP, which normally requires legal residence/valid visa or residence process, tax/social security details, and employability in Portugal. It is not automatically available to every newly arrived person.",
+        "suggestion": "Add: \"Подходит, если вы уже можете зарегистрироваться в IEFP как desempregado/à procura de emprego и имеете документы, позволяющие жить и работать/искать работу в Португалии.\"",
+        "confidence": "high",
+        "source": "IEFP registration rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[0]",
+        "current": "Государственная программа AIMA + образование",
+        "problem": "Imprecise institutional description. PLA is not simply an 'AIMA + education' programme. Courses are delivered through public schools, IEFP training centres and other certified entities, under education/employment/training frameworks; AIMA may publicise/integration-support it but is not the sole operational authority.",
+        "suggestion": "Write: \"Государственная программа Português Língua de Acolhimento, проводимая через escolas/centros de formação/entidades certificadas, с участием структур образования, занятости и интеграции.\"",
+        "confidence": "medium",
+        "source": "Portaria n.º 183/2020; IEFP; DGEstE"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[2]",
+        "current": "300 часов для B1/B2",
+        "problem": "Potentially confusing. PLA is commonly structured as 150 hours for A1+A2 and 150 hours for B1+B2. Saying '300 hours for B1/B2' can be read as the B1/B2 module alone being 300 hours.",
+        "suggestion": "Write: \"Обычно 150 ч для A1+A2 и ещё 150 ч для B1+B2; итого около 300 ч от нуля до B2.\"",
+        "confidence": "high",
+        "source": "IEFP PLA course structure"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[2]",
+        "current": "вы = você (BR часто) / vocês (PT формально)",
+        "problem": "Linguistically inaccurate. In European Portuguese, 'vocês' is the normal plural 'you' and is not specifically formal; for formal singular address people often use 'o senhor/a senhora' or title + name. 'Você' in Portugal can be neutral in some contexts but also sounds distant/rude depending on region/social context.",
+        "suggestion": "Write: \"Обращение: в BR você очень обычное; в PT с você осторожно — часто используют имя, o senhor/a senhora для формального обращения, а vocês — обычное множественное ‘вы’.\"",
+        "confidence": "high",
+        "source": "Standard European Portuguese usage"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[3]",
+        "current": "🎬 Фильмы: бразильские фильмы всегда с субтитрами в PT — noticias PT не показываются в BR без перевода",
+        "problem": "The statement is confusing and factually overbroad. Brazilian films are not 'always' subtitled into European Portuguese, and Portuguese news/content is generally intelligible to Brazilian audiences without translation, though accents and vocabulary differ.",
+        "suggestion": "Write: \"Медиа: бразильского контента гораздо больше, но для уха в Португалии полезнее слушать RTP/SIC/TVI, podcasts и сериалы с европейским акцентом. Субтитры и локализация зависят от платформы.\"",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].text",
+        "current": "Audio-only, 90 лекций по 30 мин.",
+        "problem": "Likely inaccurate for Pimsleur European Portuguese. Pimsleur's European Portuguese offering has historically been much smaller than Brazilian Portuguese and is commonly listed as one level/around 30 lessons, not 90. The catalogue changes, so this should be verified before giving a hard number.",
+        "suggestion": "Write: \"Audio-only курс; проверьте актуальное число lessons на сайте Pimsleur, потому что European Portuguese обычно имеет меньше уровней, чем Brazilian Portuguese.\"",
+        "confidence": "medium",
+        "source": "Pimsleur official catalogue"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[3]",
+        "current": "**italki Community** — бесплатные notebook-коррекции португальцев",
+        "problem": "Possibly outdated. italki's old community/notebook correction features have changed over time and may not be available in the same form to all users. This should not be presented as a reliable current feature without verification.",
+        "suggestion": "Write: \"italki/HelloTalk/Tandem сообщества — иногда можно получить исправления от носителей; проверьте актуальные функции приложения.\"",
+        "confidence": "medium",
+        "source": "italki product pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "**Soap operas** — TVI / SIC вечером, напр. «Quero é Viver»",
+        "problem": "Outdated example. 'Quero é Viver' was a TVI telenovela from 2022 and is not a current evening example in 2026, unless referring to archives/reruns.",
+        "suggestion": "Write: \"TVI/SIC/RTP telenovelas и programas da atualidade; выбирайте текущие выпуски или архивы на RTP Play/OPTO/TVI Player.\"",
+        "confidence": "high",
+        "source": "TVI programme history"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[7]",
+        "current": "**Разговор с bairro neighbours** — señhor/senhora в кафе, продавец в padaria",
+        "problem": "Typo/wrong language: 'señhor' is Spanish-looking and misspelled. Portuguese is 'senhor/senhora'.",
+        "suggestion": "Replace with: \"senhor/senhora\".",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "AIMA — PLA, https://aima.gov.pt/",
+        "problem": "Too generic for a sensitive official claim. The guide makes specific statements about PLA eligibility, hours and certificates but cites only the AIMA homepage. A deep link to the official PLA page and/or IEFP/DGEstE/ANQEP page is needed.",
+        "suggestion": "Use official deep links for PLA, for example the AIMA/ACM PLA information page plus IEFP's 'Português Língua de Acolhimento' page and the governing Portaria n.º 183/2020.",
+        "confidence": "high",
+        "source": "Portaria n.º 183/2020; IEFP PLA"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "Instituto Camões — сертификация, https://www.instituto-camoes.pt/",
+        "problem": "The relevant exam body for CIPLE/CAPLE is CAPLE/Faculdade de Letras da Universidade de Lisboa; Instituto Camões is not the best primary source for CIPLE fees, dates and registration. The guide already cites CAPLE, so this source should either be made specific or removed.",
+        "suggestion": "For CIPLE exam information, cite CAPLE directly: exam descriptions, calendário, propinas and centros de exame pages.",
+        "confidence": "high",
+        "source": "CAPLE"
+      }
+    ],
+    "missing_topics": [
+      "Clarify accepted language-proof routes for Portuguese nationality: CIPLE/CAPLE A2, recognised school certificates, PLA certificate, Portuguese schooling, and exemptions where applicable.",
+      "Mention that the 2026 nationality-law reform was approved on 01.04.2026 but is still awaiting promulgation/publication, so language requirements should be rechecked before applying.",
+      "Add practical warning that PLA places can have long waiting lists and schedules vary heavily by municipality.",
+      "Add that PLA certificate usefulness depends on completing the correct level/module and receiving an official certificate with the required level, not merely attending classes.",
+      "Add CAPLE practicalities: registration windows, limited seats, exam centres, ID requirements, and that fees/dates should be checked on CAPLE for the year of the exam.",
+      "Add official IEFP caveat that training subsidies are conditional and not guaranteed for every registered unemployed person."
+    ]
+  },
+  "model": "gpt-5.5"
+}

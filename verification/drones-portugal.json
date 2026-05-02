@@ -1,0 +1,198 @@
+{
+  "guideId": "drones-portugal",
+  "categoryId": "digital_gov",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has several major factual problems: it omits Portugal’s AAN authorization regime for aerial photography/filming, misstates insurance and night-flight rules, oversimplifies airport/geozone restrictions, and includes likely invented fine/seasonal-beach figures.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«регистрация оператора в ANAC (бесплатно) для дронов ≥250г или с камерой + статическая подготовка»",
+        "problem": "Training is not required for every registered operator/drone. In the Open category, pilots of C0 / privately built drones under 250 g generally do not need the A1/A3 online exam; they must read the manufacturer instructions. The A1/A3 online training/exam is required for heavier Open-category operations such as C1/C3/C4 and legacy drones ≥250 g.",
+        "suggestion": "Write: «Регистрация оператора нужна для дронов ≥250 г и для дронов с камерой/сенсором персональных данных, если это не игрушка. Онлайн-обучение/экзамен A1/A3 обычно нужен для дронов ≥250 г; для C0/<250 г достаточно соблюдать инструкцию производителя и правила Open».",
+        "confidence": "high",
+        "source": "Regulation (EU) 2019/947, Annex Part A, UAS.OPEN.020 and UAS.OPEN.040"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Нельзя — над людьми»",
+        "problem": "Too broad and contradicts the later A1 section. In Open A1, C0 drones under 250 g may fly over uninvolved people, though pilots should avoid or minimize overflight; C1 may unintentionally overfly but should minimize it. What is prohibited is flight over assemblies of people.",
+        "suggestion": "Replace with: «Нельзя летать над массовыми скоплениями людей; полёты рядом/над отдельными людьми зависят от подкатегории A1/A2/A3 и класса дрона».",
+        "confidence": "high",
+        "source": "Regulation (EU) 2019/947, UAS.OPEN.020; EASA Open Category guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "«Дрона с маркировкой C0-C4 (класс ЕС)»",
+        "problem": "Having a C0-C4 class mark by itself is not the registration trigger. Registration is based mainly on operator/UAS criteria: MTOM ≥250 g, kinetic energy risk, or sensor capable of capturing personal data unless the drone is a toy. A C0 toy without camera does not automatically require operator registration simply because it is C0.",
+        "suggestion": "Remove this bullet or rewrite: «Маркировка C0-C4 определяет, в какой подкатегории Open можно летать; сама по себе она не является отдельным основанием для регистрации».",
+        "confidence": "high",
+        "source": "Regulation (EU) 2019/947, Article 14"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[1].content[0].text",
+        "current": "«Система выдаёт UAS Operator ID в формате PRT-RP-XXXXXXXX»",
+        "problem": "The shown format looks like a remote-pilot certificate reference, not the EU UAS operator registration number format. EU operator registration numbers include the Member State code and an operator-specific string plus a private secret part; the secret part should not be displayed on the drone.",
+        "suggestion": "Write more safely: «Система выдаёт UAS Operator Registration Number с кодом PRT. На дрон наносится только публичная часть номера оператора; секретную часть не публикуют».",
+        "confidence": "medium",
+        "source": "Regulation (EU) 2019/947, Article 14; EASA UAS operator registration guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[3].content[0].text",
+        "current": "«Обязательна для коммерческих операторов и дронов ≥ 20 кг. Для бытовых — рекомендуется.»",
+        "problem": "This is misleading for Portugal. Portugal has national liability-insurance requirements for UAS above a much lower mass threshold than 20 kg; commonly cited ANAC guidance requires civil-liability insurance for UAS with operational mass over 900 g. Commercial/non-commercial purpose is not the only trigger.",
+        "suggestion": "Replace with: «Проверьте обязательную responsabilidade civil: в Португалии страхование обязательно как минимум для UAS с massa operacional >900 г; для более лёгких дронов оно обычно рекомендуется. Уточняйте на ANAC/страховщике перед полётом».",
+        "confidence": "high",
+        "source": "ANAC Portugal UAS/Drones guidance; Decreto-Lei n.º 58/2018 and national insurance rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "«Только днём и в пределах прямой видимости (VLOS)»",
+        "problem": "Open-category night flights are not categorically banned under EU rules. Since the EU Open-category framework, night operations are possible if the UAS has the required lights, including a green flashing light, and the pilot maintains VLOS and complies with local geographical zones. Portugal may impose local/geozone conditions, but “only daytime” is not correct as a general rule.",
+        "suggestion": "Write: «VLOS обязателен. Ночью полёты в Open возможны при соблюдении EU-требований к освещению дрона и местных геозон/разрешений; это не автоматический запрет».",
+        "confidence": "high",
+        "source": "Regulation (EU) 2019/947, UAS.OPEN.060; Commission Implementing Regulation (EU) 2020/639"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "«В 5 км от любого аэропорта / аэродрома»",
+        "problem": "Portugal does not operate on a simple universal “5 km from every airport” rule for all drones. Restrictions depend on published UAS geographical zones, controlled airspace, airport/heliport zones, NOTAMs and permissions/coordination. A fixed 5 km statement is overbroad and may also understate restrictions in some areas.",
+        "suggestion": "Replace with: «Вблизи аэропортов, аэродромов, вертодромов и контролируемого воздушного пространства действуют UAS geographical zones и условия на voanouceu.anac.pt; иногда нужен запрос/разрешение, иногда полёт запрещён. Проверяйте карту перед каждым полётом».",
+        "confidence": "high",
+        "source": "ANAC Voa na Boa / Voa na Céu geographical zones; Regulation (EU) 2019/947 Article 15"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[5]",
+        "current": "«На пляжах в сезон (июнь-сентябрь) — запрет ICNF + муниципалитеты»",
+        "problem": "This is presented as a blanket national rule but is not accurate. Beaches are usually relevant because of crowds, privacy, take-off/landing on public maritime domain, municipal rules, lifeguard/bathing-season restrictions, and the maritime authority/captaincy; ICNF is only relevant for protected areas, not all beaches.",
+        "suggestion": "Write: «На пляжах: нельзя летать над скоплениями людей; в купальный сезон часто действуют местные ограничения, правила concession/municipality и Autoridade Marítima/Capitania. Если пляж в protected area — дополнительно ICNF».",
+        "confidence": "medium",
+        "source": "Autoridade Marítima Nacional / Capitanias; ANAC geographical zones; ICNF for protected areas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[7]",
+        "current": "«Ночью (без специального разрешения)»",
+        "problem": "Repeats the incorrect idea that night Open-category operations are generally prohibited unless specially authorized. EU Open rules allow night operations subject to lighting and VLOS; local/geographical-zone restrictions still apply.",
+        "suggestion": "Replace with: «Ночью — только при VLOS, обязательном освещении/зелёном мигающем огне и соблюдении геозон; отдельное разрешение нужно не всегда, а только если этого требует зона/категория операции».",
+        "confidence": "high",
+        "source": "Regulation (EU) 2019/947, UAS.OPEN.060"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[8]",
+        "current": "«В погодных условиях: ветер >12 м/с, дождь, видимость <500м»",
+        "problem": "These are not general legal thresholds in EU/Portuguese drone law. Weather limits depend on the manufacturer manual, the pilot’s ability to keep VLOS/control, and specific operational authorization/SORA conditions. Presenting “12 m/s” and “500 m” as law is misleading.",
+        "suggestion": "Write: «Не летайте, если погода не позволяет безопасно управлять дроном и поддерживать VLOS; соблюдайте ограничения производителя по ветру/дождю и условия конкретной зоны/разрешения».",
+        "confidence": "high",
+        "source": "Regulation (EU) 2019/947, UAS.OPEN.060"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2]",
+        "current": "Section has no mention of AAN authorization for aerial photography/filming.",
+        "problem": "The guide omits a critical Portugal-specific requirement: aerial photography/filming/remote sensing may require authorization from Autoridade Aeronáutica Nacional (AAN), separate from ANAC operator registration and EU Open-category compliance. This is especially important because most users fly camera drones.",
+        "suggestion": "Add a subsection: «Фото/видео с воздуха: помимо ANAC, для captação de imagens/levantamentos aéreos в Португалии часто требуется autorização da Autoridade Aeronáutica Nacional через e-AAN, независимо от того, коммерческая это съёмка или хобби. Запрашивайте заранее и соблюдайте GDPR/privacy».",
+        "confidence": "high",
+        "source": "Autoridade Aeronáutica Nacional — autorizações para levantamentos aéreos / e-AAN"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0]",
+        "current": "«Съёмка коммерческих фото/видео — нужна регистрация как коммерческий оператор + налоговая деклаpация»",
+        "problem": "EU drone rules no longer use “commercial vs recreational” as the main operational distinction; risk category matters. There is no separate ANAC “commercial operator” category in the way stated. For paid work, tax registration/invoicing may be needed, but aviation permissions depend on Open/Specific/Certified category, geozones, insurance, and AAN image-capture authorization.",
+        "suggestion": "Rewrite: «Для платной съёмки нужны обычная регистрация оператора ANAC, соблюдение Open/Specific rules, страхование если применимо, разрешения геозон и AAN для съёмки; отдельно — налоговая регистрация/recibos verdes или компания для выставления счетов».",
+        "confidence": "high",
+        "source": "Regulation (EU) 2019/947; ANAC UAS guidance; AAN e-AAN"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1]",
+        "current": "«Пляжи: вне сезона (октябрь-май) — можно; в сезон (июнь-сентябрь) — запрет в часы 8:00-20:00»",
+        "problem": "The specific nationwide “June–September, 8:00–20:00” ban is not supported as a general drone rule. Bathing-season dates and beach rules vary by municipality/captaincy, and the key drone-law constraints are crowds, privacy, takeoff/landing permissions, geozones, maritime authority rules and protected-area restrictions.",
+        "suggestion": "Replace with: «Пляжи: проверяйте местные правила município/capitania и карту ANAC; не летайте над людьми/скоплениями, соблюдайте privacy. В protected areas может понадобиться ICNF, а для съёмки — AAN».",
+        "confidence": "medium",
+        "source": "Autoridade Marítima Nacional; ANAC Voa na Boa; ICNF for protected areas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3]",
+        "current": "«Съёмка свадеб, мероприятий — допустимо в A1/A2, но рекомендуется уведомить ANAC за 48 часов»",
+        "problem": "There is no general rule that wedding/event filming in Open A1/A2 merely requires or benefits from a 48-hour ANAC notice. Events often involve assemblies of people, private property/privacy issues, insurance, AAN image-capture authorization and possibly Specific-category authorization if Open limits cannot be met.",
+        "suggestion": "Write: «Свадьбы/мероприятия: нельзя летать над скоплениями людей; часто нужны согласия площадки/организатора, AAN для съёмки, страхование и, если Open-условия не соблюдаются, Specific authorization от ANAC».",
+        "confidence": "high",
+        "source": "Regulation (EU) 2019/947; AAN e-AAN; ANAC UAS guidance"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[2]",
+        "current": "«Батареи: LiPo >100Wh — запрещены в ручной клади самолёта, только в чемодане»",
+        "problem": "This is backwards and potentially dangerous. Spare lithium batteries are generally not allowed in checked baggage and must travel in carry-on with terminals protected. Batteries over 100 Wh up to 160 Wh usually require airline approval and are limited in number; over 160 Wh are generally forbidden as passenger baggage.",
+        "suggestion": "Replace with: «Запасные LiPo/Li-ion батареи перевозят в ручной клади, с защищёнными контактами. 100–160 Wh — только с разрешения авиакомпании и обычно максимум 2 запасные; >160 Wh обычно нельзя в пассажирском багаже. Проверяйте правила авиакомпании/IATA».",
+        "confidence": "high",
+        "source": "IATA Dangerous Goods Regulations passenger lithium battery guidance; airline dangerous-goods rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "«Из третьих стран (РФ, США, Китай): через таможню при стоимости >150 € — IVA 23% + возможная пошлина»",
+        "problem": "Misleading threshold. Customs duty normally applies above €150, but import VAT is generally due on commercial imports regardless of value, with IOSS/simplified collection for consignments up to €150. Also the Portuguese VAT rate can differ for Madeira/Azores.",
+        "suggestion": "Write: «Из третьих стран: import VAT обычно взимается независимо от стоимости; пошлина обычно появляется при стоимости товаров >€150. На материке IVA 23%, на Madeira/Açores ставки ниже; возможны сборы перевозчика».",
+        "confidence": "high",
+        "source": "EU Customs/VAT e-commerce rules; Autoridade Tributária e Aduaneira"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3]",
+        "current": "«DJI из США — рекомендуется обновить прошивку до EU-версии (снимает ограничения геозонирования US)»",
+        "problem": "This is not a legal requirement and is technically dubious as written. DJI geofencing, class marking and regional compliance are model/firmware/app dependent; updating firmware does not necessarily convert a US-market drone into an EU class-marked drone or “remove US restrictions”.",
+        "suggestion": "Replace with: «Проверьте, есть ли у конкретной модели EU class marking C0/C1/C2 и поддержка европейских remote ID/geozone functions; прошивка DJI не заменяет юридическую сертификацию/маркировку».",
+        "confidence": "medium",
+        "source": "EASA class identification label guidance; DJI model-specific documentation"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4]",
+        "current": "«Штрафы: Полёт без регистрации €500–1500; Нарушение геозоны €1000–2000; ... Штрафы до €2000»",
+        "problem": "The fine table looks unsourced and likely understates exposure. Portuguese drone/aviation, protected-area, privacy and military/security violations can have different administrative-offence ranges and can exceed €2,000, especially for legal persons or serious/very serious offences. Listing precise amounts without legal basis is risky.",
+        "suggestion": "Replace with a caveated version: «Штрафы зависят от нормы: ANAC/aviation offences, ICNF protected areas, AAN image-capture rules, privacy/GDPR and police/security restrictions have separate ranges; для компаний суммы выше. Проверяйте Decreto-Lei n.º 58/2018, ANAC, ICNF/AAN и конкретное уведомление о нарушении». Avoid precise amounts unless sourced.",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 58/2018; ANAC enforcement guidance; ICNF protected-area sanctions; AAN rules"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.anac.pt/drones",
+        "problem": "This short URL may redirect, but ANAC’s drone content is usually published under the Portuguese site path for drones/UAS rather than this bare path. If it does not reliably resolve, it is a weak citation for a compliance guide.",
+        "suggestion": "Use the current ANAC drones/UAS landing page URL as displayed on anac.pt, and keep the Voa na Boa / voanouceu portal as the operational source for registration and geozones.",
+        "confidence": "low",
+        "source": "ANAC official website"
+      }
+    ],
+    "missing_topics": [
+      "Autoridade Aeronáutica Nacional (AAN) authorization for aerial photography/filming/remote sensing in Portugal",
+      "Privacy/GDPR and image rights when filming people, homes, cars, private property or events",
+      "Difference between ANAC operator registration, remote pilot competency certificate, EU Open subcategories, and Specific-category operational authorization",
+      "UAS geographical zones: checking voanouceu/ANAC map before each flight and complying with zone-specific conditions rather than fixed distance rules",
+      "Remote ID / EU class marking transition rules for legacy drones and C0-C6 labels",
+      "Insurance threshold and minimum coverage under Portuguese national rules",
+      "Rules for take-off/landing from private land, municipal land, beaches/public maritime domain and protected areas",
+      "Assemblies of people definition and why concerts, demonstrations, sports events and crowded beaches are usually incompatible with Open-category flight",
+      "Drone transport by air: spare lithium batteries in cabin, Wh limits, airline approval"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6051,
+    "prompt_tokens": 2789,
+    "total_tokens": 8840
+  },
+  "model": "gpt-5.5"
+}

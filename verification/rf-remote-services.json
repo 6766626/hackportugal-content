@@ -1,0 +1,196 @@
+{
+  "guideId": "rf-remote-services",
+  "categoryId": "country_specific",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful in scope but contains several material errors on Russian state duties, IP closure, banking/payment workarounds, military deregistration, apostilles, and electronic signatures.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[1].content[0].items[2]",
+        "current": "Госпошлина: 160 € (через Госуслуги — 112 € со скидкой 30%)",
+        "problem": "Wrong currency and outdated rule. The state duty is 160 RUB, not EUR. The 30% Gosuslugi discount for state duties ended in 2023. Also, when filing registration documents electronically with an enhanced qualified electronic signature, the state duty is generally not charged.",
+        "suggestion": "Госпошлина: 160 ₽ при подаче на бумаге; при электронной подаче через ФНС/Госуслуги с КЭП госпошлина обычно не взимается. Скидка 30% на Госуслугах больше не действует.",
+        "confidence": "high",
+        "source": "НК РФ ст. 333.33; ФНС России — прекращение деятельности ИП"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "\"Закрытие ИП (Госуслуги)\", amountEURMin: 1, amountEURMax: 3, note: \"112-160 ₽\"",
+        "problem": "Contradicts the main text, which says 160 €. The amount range is also misleading: electronic filing with QES is normally free; paper filing is 160 RUB.",
+        "suggestion": "Set amount to 0 for electronic filing with КЭП, or add a separate note: «160 ₽ при бумажной подаче; 0 ₽ при электронной подаче с КЭП».",
+        "confidence": "high",
+        "source": "НК РФ ст. 333.33; ФНС России"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "\"Апостиль (Минюст РФ)\", amountEURMin: 30, amountEURMax: 50, note: \"2500 BYN\"",
+        "problem": "Wrong currency: BYN is Belarusian ruble. Russian apostille state duty is normally 2500 RUB. Also, for a Russian criminal record certificate the apostille is handled by МВД/its territorial bodies, not generally by Минюст.",
+        "suggestion": "Use: «Апостиль РФ — 2500 ₽ госпошлина; ведомство зависит от документа: справка МВД — МВД, документы ЗАГС — орган ЗАГС субъекта РФ, нотариальные/судебные документы — Минюст/уполномоченные органы».",
+        "confidence": "high",
+        "source": "НК РФ ст. 333.33; МВД РФ; Минюст РФ"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "Дополнительно — апостиль: либо через Госуслуги (dig. apostille), либо через МФЦ / МИД",
+        "problem": "For a Russian МВД criminal record certificate, the apostille is not a MИД function. МИД generally legalizes/apostilles documents in its competence, but criminal record certificates are apostilled by МВД/territorial МВД channels. The wording can send users to the wrong authority.",
+        "suggestion": "Write: «Апостиль на справку о несудимости оформляется через МВД/территориальный орган МВД; подача может быть доступна через Госуслуги или МФЦ в отдельных регионах. Проверяйте, примет ли португальский орган электронный апостиль/PDF».",
+        "confidence": "high",
+        "source": "МВД РФ — предоставление справок о наличии/отсутствии судимости и проставление апостиля"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "Для PT достаточно PDF с ЭП + апостиль PDF + присяжный перевод на PT",
+        "problem": "Overstates acceptance in Portugal. Portuguese authorities may require a legalized/apostilled certificate and translation, but acceptance of Russian electronic PDFs/e-apostilles is not guaranteed across AIMA, courts, universities, banks, municipalities, etc. Also Portugal does not have a single universal category of “присяжный перевод” in the same way as some countries; translations are commonly certified by a Portuguese notary, lawyer/solicitor, chamber of commerce, consulate, or equivalent accepted form.",
+        "suggestion": "Add caveat: «Перед подачей уточните у конкретного органа PT, принимает ли он электронную справку МВД и электронный апостиль; иногда безопаснее иметь бумажную справку/апостиль. Перевод должен быть certified/certificado в форме, принимаемой конкретным органом».",
+        "confidence": "medium",
+        "source": "AIMA/document legalization practice; Portuguese certified translation practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "Выписка автоматически снимает с воинского учёта (если военнообязанный — подтвердить в военкомате тоже)",
+        "problem": "Misleading and risky. Deregistration from residence does not reliably/automatically remove a person from military registration. Russian military-registration obligations are separate; citizens leaving Russia for more than 6 months must deal with military registration/notification separately under the current rules.",
+        "suggestion": "Replace with: «Снятие с регистрационного учёта по месту жительства не равно снятию с воинского учёта. Военнообязанным нужно отдельно проверить обязанность уведомить/сняться с воинского учёта при выезде более чем на 6 месяцев; способ подачи и последствия лучше уточнять по актуальным правилам военкомата/Госуслуг».",
+        "confidence": "high",
+        "source": "ФЗ №53-ФЗ «О воинской обязанности и военной службе»; Положение о воинском учёте"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1]",
+        "current": "Нужна КЭП (квалифицированная электронная подпись) — есть в Госуслугах с подтверждённым аккаунтом ЕСИА",
+        "problem": "A confirmed ESIA/Gosuslugi account is not the same as a qualified electronic signature. КЭП is not automatically “in Gosuslugi”. Some actions use simple e-signature via ESIA, some use Госключ, and some require a separate qualified certificate.",
+        "suggestion": "Write: «Тип подписи зависит от услуги: подтверждённая ЕСИА даёт простую электронную подпись; КЭП оформляется отдельно или через Госключ, если услуга это поддерживает. Перед подачей проверьте требования конкретной услуги».",
+        "confidence": "high",
+        "source": "Госуслуги/Госключ; ФЗ №63-ФЗ «Об электронной подписи»"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "получить справку о несудимости через Госуслуги (с квалифицированной ЭЦП)",
+        "problem": "Misleading: ordering a criminal record certificate on Gosuslugi generally requires a confirmed account, not necessarily the applicant’s qualified electronic signature. The certificate itself is issued as an official electronic document signed by МВД.",
+        "suggestion": "Change to: «получить справку о несудимости через Госуслуги с подтверждённой учётной записью; электронная справка приходит с ЭП МВД».",
+        "confidence": "high",
+        "source": "Госуслуги; МВД РФ"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].items[1]",
+        "current": "Оплатить страховые взносы в ПФР (пропорционально времени в году)",
+        "problem": "Outdated agency and payment mechanics. ПФР was merged into Социальный фонд России from 2023. Fixed insurance contributions for ИП are administered through the tax authority/ЕНС, not paid “to ПФР” in the old sense.",
+        "suggestion": "Write: «Оплатить фиксированные страховые взносы ИП за период до закрытия через ФНС/единый налоговый счёт; ПФР больше нет, его функции переданы СФР».",
+        "confidence": "high",
+        "source": "ФНС России; Федеральный закон №236-ФЗ о создании Социального фонда России"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[0]",
+        "current": "В 15 дней после закрытия — подать финальные декларации по налогам",
+        "problem": "Overgeneralized and partly wrong. Deadlines depend on the tax regime. For USN, the final declaration deadline after termination is generally by the 25th day of the month following the month of termination of entrepreneurial activity. For patent, ОСНО, employees, VAT, etc., rules differ. The 15-day rule is not a universal declaration deadline.",
+        "suggestion": "Replace with: «Сроки финальной отчётности зависят от режима: УСН — обычно до 25-го числа месяца, следующего за месяцем прекращения деятельности; по патенту/ОСНО/НПД/наличию работников сроки другие. Проверяйте в ЛК ФНС или у бухгалтера».",
+        "confidence": "high",
+        "source": "НК РФ; ФНС России — прекращение деятельности ИП"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].items[2]",
+        "current": "Снять с учёта ОКВЭД в Росстате (автоматически при закрытии)",
+        "problem": "Confusing wording. ОКВЭД is not a separate “registration in Rosstat” that an ИП manually cancels. Codes are in ЕГРИП; statistical codes/records update from registry data.",
+        "suggestion": "Write: «Отдельно “снимать ОКВЭД” не нужно: после записи о прекращении деятельности данные обновляются по ЕГРИП/межведомственному обмену».",
+        "confidence": "high",
+        "source": "ФНС России; Росстат"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2]",
+        "current": "Visa/Mastercard от не-санкционных банков: Райффайзен (Raiffeisen Bank International — под давлением, статус меняется), Тинькофф Банк — частично",
+        "problem": "Misleading. Visa/Mastercard cards issued by Russian banks do not work outside Russia because Visa/Mastercard suspended Russian operations. Tinkoff/T-Bank is sanctioned by the EU/US/UK and should not be presented as a non-sanctioned workaround. Raiffeisen Bank International is Austrian; Russian-issued cards from Raiffeisenbank Russia are still subject to Russian-card international network limitations.",
+        "suggestion": "Replace with: «Visa/Mastercard, выпущенные российскими банками, за пределами РФ не работают. Для оплат в ЕС нужны карты банков вне РФ. Для оплат в РФ используйте российский счёт/карту внутри РФ или законные альтернативы; статус банков и санкций постоянно меняется».",
+        "confidence": "high",
+        "source": "Visa/Mastercard Russia suspension notices; EU sanctions listings"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[3]",
+        "current": "крипта → рубли через P2P Binance / BestChange",
+        "problem": "Outdated and risky. Binance exited the Russian market and removed/limited RUB-related P2P services after 2023. Recommending specific crypto/P2P routes without AML/sanctions caveats is risky for Portugal residents and can trigger bank compliance issues.",
+        "suggestion": "Remove Binance as a suggested route. If mentioning crypto at all, add a strong caveat: «проверяйте законность, санкционные ограничения, налоговые последствия и AML-риски; банки PT могут блокировать операции с P2P/крипто».",
+        "confidence": "high",
+        "source": "Binance 2023 Russia exit announcement; EU/Portuguese AML practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "Используйте Wise / Revolut для перевода на российского получателя, у которого есть не-санкционный банк",
+        "problem": "Likely wrong as practical advice. Wise suspended transfers to Russia; Revolut and EU fintechs generally do not support ordinary transfers to Russian bank accounts under current sanctions/compliance restrictions. This can send users into failed or blocked transactions.",
+        "suggestion": "Replace with: «Wise/Revolut обычно не подходят для переводов в РФ. Возможность SWIFT/SEPA-посредников зависит от конкретного банка, получателя, валюты, санкционного статуса и compliance-проверок; заранее подтверждайте у обоих банков».",
+        "confidence": "high",
+        "source": "Wise Russia service suspension; Revolut sanctions/payment restrictions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[4]",
+        "current": "Санкции 12-го пакета: переводы в РФ через SWIFT из ЕС-банков сильно ограничены.",
+        "problem": "Over-specific and imprecise. SWIFT/payment restrictions on Russian banks began long before the EU 12th sanctions package; the limits come from multiple EU/US/UK sanctions packages, bank de-risking, and internal compliance policies.",
+        "suggestion": "Write: «Из-за санкций ЕС/США/Великобритании и внутреннего compliance банков переводы в РФ через SWIFT сильно ограничены; ситуация зависит от банка и получателя».",
+        "confidence": "high",
+        "source": "EU restrictive measures concerning Russia"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[4]",
+        "current": "Готовая доверенность — действует в РФ как нотариальная (ст. 38 Закона о консульском учреждении)",
+        "problem": "Wrong legal reference/name. The relevant Russian act is the Consular Charter of the Russian Federation, not “Закон о консульском учреждении”. Article 38 of the Consular Charter concerns notarial acts by consular officials.",
+        "suggestion": "Write: «…действует в РФ как нотариально удостоверенная; консульские должностные лица совершают нотариальные действия по Консульскому уставу РФ, в т.ч. ст. 38».",
+        "confidence": "high",
+        "source": "Федеральный закон №154-ФЗ «Консульский устав Российской Федерации»"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[1]",
+        "current": "Срок: 30 рабочих дней",
+        "problem": "Likely inaccurate formulation. МВД/Gosuslugi commonly state the service term as up to 30 calendar days from registration of the application, with possible extension in some cases, not 30 working days.",
+        "suggestion": "Use: «обычно до 30 календарных дней; возможны задержки/продление по регламенту».",
+        "confidence": "medium",
+        "source": "МВД РФ administrative regulation / Госуслуги service page"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "Апостиль: на повторном свидетельстве делается отдельно (Минюст или региональный ЗАГС)",
+        "problem": "For Russian civil registry certificates, the apostille is normally placed by the authorized civil registry authority of the relevant Russian region, not by Минюст in the ordinary case. Минюст is relevant for other categories such as notarial/court documents.",
+        "suggestion": "Write: «Апостиль на документы ЗАГС ставит уполномоченный орган ЗАГС соответствующего субъекта РФ; Минюст — для других категорий документов, например нотариальных/судебных».",
+        "confidence": "high",
+        "source": "Минюст РФ / органы ЗАГС субъектов РФ"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[7]",
+        "current": "Оплата консульских сборов: картой (любой, включая Mir работала в 2023-2024, проверяйте актуально) или евро-наличными",
+        "problem": "Potentially misleading and internally tense with the banking section saying Mir does not work in Portugal. MIR may have worked only in a specific consular payment setup, not in Portugal generally. “Любой” card is too broad under sanctions/payment restrictions.",
+        "suggestion": "Write: «Способ оплаты консульских сборов часто меняется: перед визитом проверяйте на сайте/в записи консульского отдела, принимают ли наличные евро и какие карты. MIR не работает в обычной торговой сети/банкоматах PT».",
+        "confidence": "medium",
+        "source": "Посольство РФ в Португалии — консульский отдел"
+      }
+    ],
+    "missing_topics": [
+      "Add official source links for МВД criminal record certificate and apostille procedure, not only generic Gosuslugi.",
+      "Add official FNS source for ИП closure, state duty, electronic filing, and post-closure tax deadlines.",
+      "Add separate caveat that КЭП cannot usually be obtained from scratch abroad unless the user already has the required Russian identity/account/biometrics or can use Госключ-supported flows.",
+      "Add military-registration warning for Russian citizens subject to military duty who leave Russia for more than 6 months.",
+      "Add Portugal-side caveat that each authority may have its own requirements for accepting Russian electronic documents, e-apostilles, and certified translations.",
+      "Add sanctions/AML caveat for crypto/P2P and bank-transfer workarounds for Portugal residents.",
+      "Add consulate-specific source for current address, appointment system, fees, accepted payment methods, and notarial services."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5823,
+    "prompt_tokens": 3442,
+    "total_tokens": 9265
+  },
+  "model": "gpt-5.5"
+}

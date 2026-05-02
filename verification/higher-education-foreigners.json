@@ -1,0 +1,234 @@
+{
+  "guideId": "higher-education-foreigners",
+  "categoryId": "education_children",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but contains several material errors on D4 funds/post-study residence/citizenship counting, DGES scholarships, FCT grant amounts, medicine/integrated degrees, and some misleading admissions/cost statements.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[7].content[0].items[1]",
+        "current": "Документы: acceptance letter, proof of funds (>€7000/год), медстраховка, apartment",
+        "problem": "The proof-of-means figure is outdated/misleading. For 2026 the Portuguese minimum wage is €920/month, and subsistence calculations for residence visas are normally tied to the minimum wage, not a fixed €7,000/year. €7,000 is below 12×SMN 2026 (€11,040).",
+        "suggestion": "Write: \"proof of means: ориентируйтесь минимум на 12×SMN в год для основного заявителя — в 2026 это €11,040; консульство/VFS может принимать стипендию, банковский баланс, спонсорство и/или prepaid accommodation depending on post.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 112/2025 (SMN 2026 €920); Portaria 1563/2007 on means of subsistence"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[7].content[0].items[5]",
+        "current": "После окончания: Procuro-trabalho D-виза (120 дней на поиск работы)",
+        "problem": "This confuses the external job-seeker visa with the post-study residence route. The 120-day job-seeker visa is for applying from abroad and is extendable once; graduates already legally resident in Portugal normally use a residence permit/renewal route to look for work or start a business, commonly up to 12 months under the student/researcher mobility framework.",
+        "suggestion": "Write: \"После окончания: можно запросить autorização de residência para procura de trabalho ou criação de empresa после завершения обучения — обычно до 12 месяцев; это не та же процедура, что visto para procura de trabalho на 120+60 дней для въезда из-за границы.\"",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 122 and AIMA guidance on residence permits for students/researchers"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[7].content[0].items[7]",
+        "current": "Время учёбы ЗАСЧИТЫВАЕТСЯ в стаж для гражданства (но с коэффициентом 0.5 — т.е. 2 года учёбы = 1 год стажа)",
+        "problem": "Portugal does not have a general 'student residence counts at 0.5' rule for nationality. Lawful temporary residence time is counted normally for the residence-period requirement. Also, as of April 2026 the new nationality law was approved on 01.04.2026 but was awaiting promulgation, so any statement about future residence counting needs a caveat.",
+        "suggestion": "Write: \"По действующему праву нет коэффициента 0.5: годы с действующим título de residência студента обычно считаются как обычное легальное проживание для натурализации. Важно: новая редакция закона о гражданстве была одобрена 01.04.2026 и ждёт промульгации; правила могут измениться после вступления в силу.\"",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, Lei 37/81, art. 6; new nationality law approved 01.04.2026 awaiting promulgation"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2]",
+        "current": "**Mestrado Integrado**: 5 лет, 300 ECTS — для медицины, архитектуры, инженерии; единый курс вместо bac+mag",
+        "problem": "Medicine in Portugal is normally an integrated master of 6 years / 360 ECTS, not 5 years / 300 ECTS. Architecture is typically 300 ECTS; engineering integrated masters have been reduced/changed in many institutions after legal reforms and should not be presented as the default.",
+        "suggestion": "Write: \"Mestrado Integrado: для некоторых регулируемых профессий. Medicina — обычно 6 лет / 360 ECTS; Arquitetura — часто 5 лет / 300 ECTS; в Engenharia многие antigos mestrados integrados были reorganized into licenciatura + mestrado, check each course in DGES.\"",
+        "confidence": "high",
+        "source": "DGES course registry; A3ES accreditation listings"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].title",
+        "current": "Граждане ЕС / ЕЭЗ / Швейцарии + резиденты PT",
+        "problem": "The eligibility split is oversimplified. Not every Portuguese resident can automatically use the national access route instead of the international student competition. Under the international student statute, non-EU nationals are excluded from 'international student' status only in specific cases, including legal residence in Portugal for more than two uninterrupted years on 1 January of the application year, excluding residence time based solely on study, or where equal-rights status applies.",
+        "suggestion": "Write: \"Граждане PT/ЕС/ЕЭЗ/Швейцарии и некоторые non-EU резиденты: CNA applies if you are not considered an 'estudante internacional' — e.g. legal residence in Portugal for >2 uninterrupted years by 1 January, not only on a student permit, or equal-rights status.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 36/2014, Estatuto do Estudante Internacional"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "Требования: диплом средней школы, подходящий для high ed в стране происхождения + certificado de equivalência (1-3 мес на получение через DGES)",
+        "problem": "Secondary-school equivalence is not obtained through DGES. DGES handles higher-education access information and recognition of foreign higher degrees, but equivalence/recognition of foreign basic/secondary education is handled through schools/DGE processes. Also, universities may accept foreign qualifications directly under their CEIE rules without a generic 'DGES equivalência' in every case.",
+        "suggestion": "Write: \"Требования зависят от университета: foreign secondary qualification giving access to higher education in the issuing country; sometimes equivalência/reconhecimento do ensino secundário via Portuguese secondary school/DGE process, plus translated/legalized documents. Check the university CEIE edital.\"",
+        "confidence": "high",
+        "source": "DGE guidance on equivalence of foreign basic/secondary education; DGES international student access rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[6]",
+        "current": "⚠️ Некоторые факультеты медицины, ветеринарии имеют квоту только для PT/ЕС — не-ЕС не могут поступить",
+        "problem": "This is imprecise. The public international-student special competition generally does not apply to integrated master degrees in medicine. Veterinary medicine is not categorically excluded in the same way; restrictions depend on the institution/course and numerus clausus.",
+        "suggestion": "Write: \"Medicina: public CEIE generally does not apply to mestrado integrado em medicina, so non-EU applicants usually cannot use the international-student quota for public medicine. Veterinária and other regulated courses: check each edital; restrictions are course-specific, not a blanket national ban.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 36/2014, art. 3"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[2]",
+        "current": "Process: regresso ao ensino superior",
+        "problem": "This names the wrong access regime for transferring from another university/course. 'Regresso' is generally for former students returning to a course/institution they previously attended. Transfer/change is 'mudança de par instituição/curso'.",
+        "suggestion": "Write: \"Process: mudança de par instituição/curso for transfer/change of institution/course; regresso applies to returning to a course where you were previously enrolled.\"",
+        "confidence": "high",
+        "source": "DGES regimes for mudança de par instituição/curso and reingresso"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].items[0]",
+        "current": "**ЕС/резиденты**: 697-1400 €/год (bac), 1200-3000 € (mag), 2500-4000 € (PhD)",
+        "problem": "For public licenciatura and integrated master programmes covered by the national tuition cap, the annual tuition for national/EU-equivalent students is generally capped around €697, not €1,400. €1,400 may occur in other contexts but is misleading as a bachelor public-university range for EU/PT students.",
+        "suggestion": "Write: \"Public licenciatura / mestrado integrado for PT/EU-equivalent students: usually up to about €697/year where the statutory cap applies. Mestrado and doutoramento tuition varies much more by institution and programme.\"",
+        "confidence": "high",
+        "source": "Lei 37/2003 as amended by Lei 75/2019; DGES tuition guidance"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "\"label\": \"Bac state univ (ЕС)\", \"amountEURMin\": 697, \"amountEURMax\": 1400",
+        "problem": "Same tuition-cap issue as in the cost section: the max of €1,400 for EU/public bachelor is misleading.",
+        "suggestion": "Change to approximately €697 max for capped public licenciatura, or add a note that exceptions/special programmes may differ and the exact fee is set in each institution's annual table.",
+        "confidence": "high",
+        "source": "Lei 37/2003 as amended by Lei 75/2019"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[3]",
+        "current": "Ограничение: доход семьи ≤ 5× IAS",
+        "problem": "The DGES social scholarship threshold is not simply 'family income ≤ 5×IAS'. Eligibility uses annual per-capita household income and other asset/academic criteria. With IAS 2026 = €537.13, quoting an unexplained 5×IAS is both outdated-looking and misleading.",
+        "suggestion": "Write: \"Eligibility is formula-based: annual per-capita household income and assets are assessed under the Regulamento de Atribuição de Bolsas; in recent rules the key annual per-capita threshold is expressed as a multiple of IAS, plus movable-assets limits and ECTS/enrolment requirements. IAS 2026 = €537.13. Use the DGES/SAS simulator and annual regulation.\"",
+        "confidence": "high",
+        "source": "DGES Regulamento de Atribuição de Bolsas de Estudo; IAS 2026 = €537.13"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].items[2]",
+        "current": "**FCT (Fundação para a Ciência e Tecnologia)**: PhD bolsa 1100 €/мес + tuition",
+        "problem": "The FCT doctoral grant value is outdated. It has been above €1,100/month for several years; the domestic PhD grant value is around €1,259.64/month in recent FCT tables, with different values for mixed/abroad grants.",
+        "suggestion": "Write: \"FCT PhD bolsa: check the annual FCT table; recent domestic doctoral grants are about €1,260/month plus eligible tuition/insurance components, with different values for mixed/abroad grants.\"",
+        "confidence": "high",
+        "source": "FCT table of monthly maintenance allowances for research grants"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "\"label\": \"Bolsa FCT PhD\", \"amountEUR\": 1100",
+        "problem": "Outdated FCT PhD monthly grant amount.",
+        "suggestion": "Update to the current FCT doctoral grant table value, or avoid a hard number and link to FCT's annual table. If using the recent domestic value, use about €1,259.64/month rather than €1,100.",
+        "confidence": "high",
+        "source": "FCT table of monthly maintenance allowances for research grants"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].items[0]",
+        "current": "**Erasmus+**: для резидентов / краткий обмен, 800-1000 €/мес",
+        "problem": "The amount is too high as a general statement for Erasmus+ study mobility from Portugal within Europe. Erasmus grants vary by destination and mobility type; many intra-European study grants are significantly below €800/month, with possible top-ups for fewer-opportunity students or travel/green travel.",
+        "suggestion": "Write: \"Erasmus+: amount depends on destination group, mobility type and top-ups; intra-European study mobility is often a few hundred euros per month, while some international mobility/special cases can be higher. Check the university's Erasmus table for the year.\"",
+        "confidence": "high",
+        "source": "Erasmus+ Programme Guide; Portuguese National Agency Erasmus+"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Erasmus+ — полный доступ.",
+        "problem": "Overbroad. Non-EU students enrolled in Portuguese institutions can often participate, but access depends on the institution's Erasmus charter, agreements, mobility type, nationality/residence rules, and scholarship budget. It is not an unconditional 'full access'.",
+        "suggestion": "Write: \"Erasmus+: доступен через Portuguese HEI if the programme/institution has agreements and you meet mobility rules; funding is not guaranteed.\"",
+        "confidence": "medium",
+        "source": "Erasmus+ Programme Guide"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[1]",
+        "current": "**Universidade Nova de Lisboa** — модерный, топ-300 QS.",
+        "problem": "Likely outdated/inaccurate for QS 2026: NOVA is not generally top-300 in the overall QS ranking; it is closer to top-400. Nova SBE may rank highly in specific business-school rankings, but that is a separate claim.",
+        "suggestion": "Write: \"Universidade Nova de Lisboa — top-400 QS overall; Nova SBE is highly ranked in business/economics-specific rankings.\"",
+        "confidence": "medium",
+        "source": "QS World University Rankings 2026"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].items[2]",
+        "current": "🍽️ Столовая университета: 2.65 €/приём (cantina social)",
+        "problem": "This looks too specific and may be outdated. Social meal prices vary by SAS/institution and can change annually; many are around but not necessarily exactly €2.65.",
+        "suggestion": "Write: \"Cantina social: usually around €2.50-€3.50 per meal depending on SAS/institution; check your university's Serviços de Ação Social.\"",
+        "confidence": "medium",
+        "source": "University Serviços de Ação Social price tables"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].items[3]",
+        "current": "🚇 Студенческий passe: 30 €/мес (Lisbon/Porto)",
+        "problem": "Incomplete for 2026. In Lisbon/Porto the standard municipal pass can be around €30, but many students under 23 are eligible for free or discounted public transport under the sub23/free pass regimes, subject to conditions.",
+        "suggestion": "Write: \"Transport: standard Lisbon/Porto municipal passes are about €30/month, but many students under 23 can get free/discounted sub23 passes; rules depend on age, enrolment and operator/municipality.\"",
+        "confidence": "high",
+        "source": "IMT/Área Metropolitana de Lisboa/Área Metropolitana do Porto sub23 pass rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].items[5]",
+        "current": "💳 Карта Acedo (студенческая): скидки на транспорт, еду, билеты",
+        "problem": "Likely typo/incorrect card name. There is no standard national 'Cartão Acedo' student card. Students normally use the university student card, ISIC, European Youth Card/Cartão Jovem, or specific transport sub23 documentation.",
+        "suggestion": "Write: \"Student card / cartão de estudante, ISIC or Cartão Jovem: discounts vary; for transport use the relevant sub23/student pass documents.\"",
+        "confidence": "high",
+        "source": "ISIC Portugal; Cartão Jovem; local transport operators"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[5]",
+        "current": "Courses португальского для иностранцев бесплатно в большинстве универов",
+        "problem": "Overstated. Some universities offer free or subsidized Portuguese courses for enrolled international students, but many charge fees or have limited places.",
+        "suggestion": "Write: \"Portuguese courses are offered by many universities; some are free for enrolled international students, others are paid or have limited places.\"",
+        "confidence": "medium",
+        "source": "University international office language-course pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[7].content[0].items[2]",
+        "current": "Подача в консульстве страны happy",
+        "problem": "Text contains a typo/placeholder and is unclear. D4 applications are usually filed via the Portuguese consulate or outsourced visa center competent for the applicant's country of legal residence, not any country.",
+        "suggestion": "Write: \"Подача через Portuguese consulate/VFS/BLS competent for your country of legal residence.\"",
+        "confidence": "high",
+        "source": "Portal Diplomático / VFS Portugal visa application pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[7].content[0].items[6]",
+        "current": "Или переход на D3 / D8 / D2 после получения контракта / бизнеса",
+        "problem": "Visa-code language is confusing inside Portugal. D2/D3/D8 are visa categories for entry from abroad; when already resident, the practical step is normally applying for/altering/renewing a residence permit under the relevant legal basis. D3 also requires highly qualified activity, not just any contract; D8 is remote-work/digital-nomad income; D2 is entrepreneurship/self-employment.",
+        "suggestion": "Write: \"После учёбы можно менять legal basis of residence if conditions are met: work contract/subordinate work or highly qualified work, research/teaching, self-employment/entrepreneurship, or remote-work routes. D2/D3/D8 are visa labels mainly for entry applications; AIMA will assess the corresponding residence-permit basis.\"",
+        "confidence": "high",
+        "source": "Lei 23/2007; AIMA residence permit categories"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://www.dges.gov.pt/guias/indest.asp",
+        "problem": "This old DGES guide URL may still redirect/work, but it is a brittle legacy endpoint for a guide that changes annually.",
+        "suggestion": "Prefer linking to the current DGES CNA portal/Guia da Candidatura page for the relevant academic year, and mention that URLs change annually.",
+        "confidence": "medium",
+        "source": "DGES CNA portal"
+      }
+    ],
+    "missing_topics": [
+      "Official AIMA/Portal Diplomático source for D4 visa/residence requirements and current 2026 AIMA fee table, which changed on 01.03.2026",
+      "Clear explanation of the Estatuto do Estudante Internacional and the 2-year residence/equal-rights exceptions",
+      "CPLP caveat: some universities apply special CPLP tuition reductions or admission rules, but this is institutional and not the same as EU/PT fees",
+      "Recognition/equivalence path for foreign secondary education via DGE/Portuguese schools, distinct from DGES higher-degree recognition",
+      "Post-study residence route after graduation, distinct from the external job-seeker visa",
+      "Caveat on the nationality-law reform approved on 01.04.2026 and awaiting promulgation as of April 2026",
+      "DGES scholarship regulation details: per-capita income, assets, ECTS/enrolment requirements, deadlines and simulator",
+      "Whether a programme is accredited by A3ES/DGES and how to verify accreditation before paying tuition",
+      "Health coverage nuance for non-EU students: private insurance for visa/residence, then possible SNS registration depending on residence status and NISS/NIF/local rules"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6581,
+    "prompt_tokens": 3903,
+    "total_tokens": 10484
+  },
+  "model": "gpt-5.5"
+}

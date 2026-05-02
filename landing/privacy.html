@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Политика конфиденциальности — HackPortugal</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif; max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; line-height: 1.7; color: #1A1A1A; background: #FAFAF7; }
+    @media (prefers-color-scheme: dark) { body { background: #0A0E0C; color: #F0EEE8; } }
+    h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; margin-bottom: 0.75rem; color: #0A4D34; }
+    @media (prefers-color-scheme: dark) { h2 { color: #5FB896; } }
+    p, li { margin-bottom: 0.75rem; }
+    .updated { color: #666; font-size: 0.9rem; margin-bottom: 2rem; }
+    ul { padding-left: 1.5rem; }
+    a { color: #D2232A; }
+    nav { margin-bottom: 2rem; }
+    nav a { font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <nav><a href="./">← HackPortugal</a></nav>
+  <h1>Политика конфиденциальности</h1>
+  <p class="updated">Последнее обновление: 22 апреля 2026</p>
+
+  <p>HackPortugal — справочное приложение. Мы сознательно спроектировали его так, чтобы собирать как можно меньше данных. Ниже — исчерпывающее описание того, что приложение делает, а чего — нет.</p>
+
+  <h2>Что приложение НЕ делает</h2>
+  <ul>
+    <li><strong>Не собирает аналитику.</strong> Никаких Firebase, Sentry, Google Analytics, пикселей.</li>
+    <li><strong>Не отслеживает рекламные идентификаторы</strong> (IDFA, IDFV, SKAdNetwork).</li>
+    <li><strong>Не требует аккаунта</strong> и не имеет его. Нет логина, нет пароля.</li>
+    <li><strong>Не отправляет ваши данные никому</strong> — все действия локальны.</li>
+    <li><strong>Не использует геолокацию, камеру, микрофон, контакты, календарь.</strong></li>
+    <li><strong>Не показывает рекламу.</strong></li>
+  </ul>
+
+  <h2>Что приложение хранит на устройстве</h2>
+  <p>Следующее хранится локально на вашем iPhone/iPad и никогда не покидает его:</p>
+  <ul>
+    <li>Выбранные вами страна гражданства, статус (турист / резидент / …) и язык интерфейса — сохраняются в <code>UserDefaults</code>.</li>
+    <li>Ваши закладки на гайды — в файле JSON в <em>Application Support</em>.</li>
+    <li>Счётчики прочитанных гайдов и закладок — для локального триггера «Оценить приложение» (<code>SKStoreReviewController</code>).</li>
+    <li>Кэш загруженного контента (JSON-файлы гайдов) — для работы офлайн.</li>
+  </ul>
+
+  <h2>Сетевые запросы</h2>
+  <p>Приложение делает HTTPS-запросы только на:</p>
+  <ul>
+    <li><code>https://hackportugal.github.io/hackportugal-content/</code> — скачивание обновлений контента (публичный статический хостинг GitHub Pages).</li>
+  </ul>
+  <p>Эти запросы не содержат никаких ваших данных: только URL запрашиваемого файла. GitHub получает стандартный IP-адрес и User-Agent — этого нам не видно и мы этим не пользуемся.</p>
+
+  <h2>Apple и App Store</h2>
+  <p>Когда вы скачиваете приложение, Apple предоставляет анонимизированную статистику загрузок. Мы не получаем ваших идентификаторов Apple ID, email или платёжных данных.</p>
+
+  <h2>Функция «Отправить отзыв»</h2>
+  <p>При нажатии кнопки «Отправить отзыв» открывается ваш почтовый клиент с предзаполненным письмом на <a href="mailto:feedback@hackportugal.pt">feedback@hackportugal.pt</a>. В теле письма — версия приложения, iOS и локаль, чтобы мы могли воспроизвести проблему. Отправка письма — полностью ваше действие. Если вы отправляете письмо, мы читаем его в обычном почтовом ящике.</p>
+
+  <h2>Функция «Оценить приложение»</h2>
+  <p>Вызывает стандартный системный диалог <code>SKStoreReviewController</code>. Apple управляет этим процессом, мы не видим ни вашей оценки, ни текста отзыва.</p>
+
+  <h2>Дети</h2>
+  <p>Приложение не ориентировано на детей младше 13 лет и не собирает их данные (потому что вообще не собирает ничьих).</p>
+
+  <h2>Ваши права (GDPR, LGPD)</h2>
+  <p>Поскольку мы не собираем и не храним персональные данные на серверах, нет ни «базы», ни «контроллера данных» в смысле GDPR/LGPD. Все ваши локальные данные удаляются при удалении приложения.</p>
+
+  <h2>Изменения в этой политике</h2>
+  <p>При любом значимом изменении мы поднимем версию в шапке и — если политика начнёт собирать новые типы данных — покажем баннер при запуске приложения.</p>
+
+  <h2>Контакт</h2>
+  <p>Вопросы по приватности: <a href="mailto:feedback@hackportugal.pt">feedback@hackportugal.pt</a></p>
+</body>
+</html>

@@ -1,0 +1,277 @@
+{
+  "guideId": "ctt-correios-services",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has useful structure but contains several materially misleading claims about CTT’s status, 2026 tariffs, customs/VAT rules, CTT lockers, Espaço Cidadão services and parcel retention/delivery practices.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "CTT (Correios de Portugal) — государственная почта.",
+        "problem": "CTT is not a state post office in the simple sense implied here. CTT was privatized; it is a private listed company operating postal services, including under the universal postal service concession/regulatory framework.",
+        "suggestion": "Write: \"CTT — бывшая государственная почта, сейчас частная компания и оператор универсальной почтовой услуги в Португалии.\"",
+        "confidence": "high",
+        "source": "CTT institutional information; ANACOM postal sector regulation"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Цены 2026: письмо до 20г = 0,55 €; посылка до 2кг — от 5 €.",
+        "problem": "The 2026 prices are not supported by the cited sources and appear outdated/too low. CTT tariffs change frequently and should not be hard-coded without linking the exact CTT tariff table or simulator. The guide claims last verification in April 2026 but only links the CTT homepage.",
+        "suggestion": "Either remove exact prices from the TLDR or replace with: \"Актуальные цены проверяйте в симуляторе/тарифах CTT на ctt.pt; тарифы меняются ежегодно.\" If keeping numbers, cite the exact 2026 CTT tariff PDF/page for Correio Normal and Encomendas.",
+        "confidence": "medium",
+        "source": "CTT Tarifários / Simulador de Preços"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items",
+        "current": "Carta Normal ... до 20г 0,55 € внутри PT, до 50г 0,80 €; Carta Registada — 2,80 € + 1,90 €; Encomenda Postal ... до 2 кг — 5,50 €, до 5 кг — 9,80 €, до 30 кг — 26 €; EU ... Carta до 20г — 1,30 €; посылка 2 кг — 13,50 €",
+        "problem": "This section presents many exact tariffs as 2026 facts but gives no exact CTT tariff source. Several values look like old tariffs or rough estimates, not a verified April 2026 price table.",
+        "suggestion": "Do not present these as fixed 2026 prices unless copied from the current CTT tariff table. Add a direct source such as the CTT 'Tarifário do Serviço Postal Universal' and 'Encomendas' tariff page/PDF, or say: \"ориентир; финальную цену считайте в simulador de preços CTT\".",
+        "confidence": "medium",
+        "source": "CTT Tarifários / Simulador de Preços"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[5]",
+        "current": "⚡ **Carta Verde** (1-2 дня): +1,5x от стандарта",
+        "problem": "This misdescribes the product. 'Correio Verde' is a prepaid envelope/packaging product, not simply a speed surcharge of 1.5x over standard mail. The pricing depends on the envelope/format, not a multiplier.",
+        "suggestion": "Write: \"Correio Verde — предоплаченный конверт/пакет CTT; цена зависит от формата. Это не надбавка '+1,5x' к Carta Normal.\"",
+        "confidence": "high",
+        "source": "CTT Correio Verde product page"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[1]",
+        "current": "🌐 Международные expresso через DHL/UPS partner network",
+        "problem": "Misleading. CTT Expresso/international services are CTT/EMS-style postal-express products and CTT’s own partner network; they are not generally 'through DHL/UPS'. DHL and UPS are separate courier companies.",
+        "suggestion": "Write: \"Международная экспресс-доставка у CTT идёт через продукты CTT Expresso/EMS и партнёрскую почтовую сеть; DHL/UPS — отдельные курьерские службы.\"",
+        "confidence": "high",
+        "source": "CTT Expresso international services"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[3]",
+        "current": "🏛️ Пункт выдачи: ваш местный Loja CTT или партнёр (Pingo Doce, BP, Galp)",
+        "problem": "Overgeneralized. CTT pickup/drop-off points depend on the specific shipment and network point; not every Pingo Doce, BP or Galp is a CTT point, and Amazon/other carriers may use different networks.",
+        "suggestion": "Write: \"Пункт выдачи указан в SMS/email/tracking; это может быть Loja CTT, Locky/cacifo или конкретный партнёр. Не все Pingo Doce/BP/Galp участвуют.\"",
+        "confidence": "high",
+        "source": "CTT store and pickup point locator"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[4]",
+        "current": "⚖️ Если посылка не востребована за 15 дней — возвращается отправителю",
+        "problem": "The retention period is not universally 15 days. It depends on the product, pickup point, notice, customs status and carrier. For pickup points/lockers it can be shorter; for postal items the aviso normally states the deadline.",
+        "suggestion": "Write: \"Срок хранения зависит от типа отправления и пункта выдачи; смотрите дату в aviso/SMS/tracking. После срока отправление возвращают или переводят в другой статус.\"",
+        "confidence": "high",
+        "source": "CTT general conditions for postal/express services"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[2]",
+        "current": "🏛️ Espaço Cidadão (госуслуги) в крупных Loja: NIF, CC, изменение адреса, справки",
+        "problem": "Misleading. Espaço Cidadão availability varies by location and service. NIF issuance for foreigners is not generally a normal CTT/Espaço Cidadão service; Cartão de Cidadão services are limited and do not mean any CC procedure. This could send immigrants to the wrong place.",
+        "suggestion": "Write: \"Некоторые lojas CTT имеют Espaço Cidadão, но набор услуг зависит от точки. Обычно это ограниченные цифровые/административные услуги; NIF и многие операции с Cartão de Cidadão нужно проверять отдельно на ePortugal/AMA или в Finanças/IRN.\"",
+        "confidence": "high",
+        "source": "ePortugal / AMA Espaço Cidadão service catalogue"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3].content[0].items[0]",
+        "current": "💸 Оплата счетов (luz, água, gaz, IRS) — наличными в Loja",
+        "problem": "Typo in Portuguese: 'gaz' should be 'gás'. Also not every payment/reference can necessarily be paid in cash at every CTT point; payment acceptance depends on the entity/reference and channel.",
+        "suggestion": "Write: \"luz, água, gás, algumas referências de impostos/serviços — если у счёта есть referência Multibanco/Payshop/CTT и точка принимает этот платеж.\"",
+        "confidence": "high",
+        "source": "CTT Pagamentos / Payshop payment services"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].title",
+        "current": "Через CTT Box (автомат)",
+        "problem": "The terminology is likely wrong/confusing. CTT’s locker network is commonly branded as Locky / cacifos, not 'CTT Box' as a generic public product name. Users may not find the service by this label.",
+        "suggestion": "Use the current product name: \"Через Locky / cacifo CTT\" and explain that availability depends on the origin/destination and selected shipment product.",
+        "confidence": "medium",
+        "source": "CTT Locky / cacifos service"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[5]",
+        "current": "💰 Те же тарифы как Loja, без очереди",
+        "problem": "Not safe as a general rule. Online, locker and counter prices/conditions can differ by product, campaign, dimensions, insurance and label options.",
+        "suggestion": "Write: \"Цена считается онлайн при создании отправления; она может отличаться от цены в Loja в зависимости от продукта, веса/размера и опций.\"",
+        "confidence": "high",
+        "source": "CTT online shipping simulator"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "почтальон оставляет в почтовом ящике (письма) или у двери (мелкие)",
+        "problem": "Too broad. Ordinary letters may be put in the mailbox, but tracked/registered parcels normally require delivery procedure, signature/code or a safe-delivery rule. Saying parcels are left 'at the door' can mislead users about liability and theft risk.",
+        "suggestion": "Write: \"Обычные письма кладут в ящик; посылки/заказные отправления обычно вручают адресату или оставляют aviso/инструкции в tracking.\"",
+        "confidence": "high",
+        "source": "CTT delivery conditions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "🏛️ Идти в Loja CTT с aviso + CC, забрать в 15 дней",
+        "problem": "Again, 15 days is not a universal rule. Also foreigners may use passport/residence card, not only Cartão de Cidadão.",
+        "suggestion": "Write: \"Идите в указанный пункт с aviso/tracking и документом ID; срок забора указан в aviso/SMS/tracking.\"",
+        "confidence": "high",
+        "source": "CTT delivery notice / general conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[3]",
+        "current": "🚚 Большие посылки (>5 кг) — позвонят и договорятся о повторной доставке",
+        "problem": "Not a reliable rule. Calling the recipient is not guaranteed and does not depend simply on a >5 kg threshold.",
+        "suggestion": "Write: \"Для некоторых отправлений возможна повторная доставка/контакт курьера, но это зависит от продукта и данных отправителя; следите за tracking.\"",
+        "confidence": "high",
+        "source": "CTT Expresso delivery conditions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "Pingo Doce / Continente / BP / Galp — большинство имеют CTT-точку",
+        "problem": "False/overstated. Most branches of these chains do not necessarily have CTT pickup points. Availability is location-specific.",
+        "suggestion": "Write: \"Некоторые магазины/заправки работают как pickup points; проверяйте конкретный адрес в tracking или локаторе CTT/перевозчика.\"",
+        "confidence": "high",
+        "source": "CTT locator"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].items[4]",
+        "current": "⚠️ Если посылка из не-EU >150 € — растаможка через Finanças, IVA + ввозные",
+        "problem": "Incorrect and incomplete. Import VAT can apply to non-EU goods below €150 too; the €150 threshold mainly affects customs duties. Clearance is usually handled through CTT’s customs portal/customs broker process with AT/Aduaneira involvement, not simply 'through Finanças'.",
+        "suggestion": "Write: \"Для товаров из non‑EU IVA может взиматься даже до €150; выше €150 могут добавиться таможенные пошлины. Для отправлений CTT оформление обычно идёт через Portal de Desalfandegamento CTT/AT; следуйте ссылке из tracking/SMS и остерегайтесь фишинга.\"",
+        "confidence": "high",
+        "source": "CTT Desalfandegamento; Autoridade Tributária e Aduaneira import VAT rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].items[5]",
+        "current": "💸 IVA 23% + ~7-13 € fee CTT за обработку",
+        "problem": "Overgeneralized. Mainland IVA is 23%, but Madeira/Azores have different VAT rates. CTT customs presentation/handling fees vary by shipment type, IOSS/prepaid VAT status, value and process; not always 7–13 €. Duties may also apply above €150.",
+        "suggestion": "Write: \"IVA: 23% mainland, lower regional rates in Madeira/Azores. CTT/декларантские сборы зависят от типа отправления и статуса IOSS; выше €150 возможны пошлины.\"",
+        "confidence": "high",
+        "source": "CTT Desalfandegamento tariff table; AT VAT rates"
+      },
+      {
+        "severity": "major",
+        "where": "costs[6]",
+        "current": "{\"label\":\"IVA + растаможка (>150 €)\",\"amountEURMin\":25,\"amountEURMax\":60,\"note\":\"процент от стоимости\"}",
+        "problem": "The data model is internally inconsistent: amountEURMin/Max are euro amounts, but the note says 'percentage of value'. Also customs cost cannot be represented as €25–€60 for all parcels; it depends on value, VAT rate, duty category, CTT/broker fee and whether VAT was prepaid through IOSS.",
+        "suggestion": "Replace with a formula-style note: \"non‑EU imports: IVA on goods+shipping; above €150 possible customs duty; CTT/broker fee according to current tariff; exact amount calculated in customs portal.\"",
+        "confidence": "high",
+        "source": "CTT Desalfandegamento; AT import rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "🚚 **PostManager** — мульти-tracker для CTT, GLS, DHL, UPS",
+        "problem": "This app recommendation is not clearly sourced and may not be widely available/relevant in Portugal. For a practical guide, third-party tracking apps should be labeled as unofficial.",
+        "suggestion": "Write: \"Неофициальные мульти-трекеры: 17TRACK, Parcel app и др.; вводите tracking codes только если доверяете сервису.\"",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4]",
+        "current": "🇪🇺 **EasyTrack** — единый трекер для EU перевозчиков",
+        "problem": "This sounds like an official EU-wide tracker, but there is no standard official 'single tracker for EU carriers' under that name. Potentially misleading.",
+        "suggestion": "Remove or rephrase as an unofficial app if it exists: \"другие неофициальные трекеры — по желанию; официальным считается tracking на сайте перевозчика.\"",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "📦 Упаковка дома экономит — в Loja коробка стоит +5 €",
+        "problem": "Overbroad. CTT sells different packaging sizes; the extra cost is not always €5.",
+        "suggestion": "Write: \"Упаковка дома обычно дешевле; в Loja упаковка продаётся отдельно, цена зависит от размера.\"",
+        "confidence": "high",
+        "source": "CTT packaging products"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2]",
+        "current": "⏰ После 16:00 уже не отправят сегодня (collection truck уехал)",
+        "problem": "Too absolute. Cut-off times vary by Loja, product, location and collection schedule. Some shops accept parcels after 16:00, but dispatch may occur next working day.",
+        "suggestion": "Write: \"Cut-off для отправки в тот же день зависит от Loja и продукта; после локального cut-off отправление уйдёт на следующий рабочий день.\"",
+        "confidence": "high",
+        "source": "CTT store/product conditions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "🇷🇺/🇧🇾 Отправка в РФ/BY: с 2022 ограничения. Можно через Wise/PayPal-эквиваленты, но физическую посылку — только через 3-х стран",
+        "problem": "This mixes money-transfer/payment tools with physical parcel shipping and gives an unsupported categorical claim that parcels are 'only through third countries'. Restrictions to Russia/Belarus depend on carrier service availability, sanctions/export controls, prohibited items and current routes.",
+        "suggestion": "Write: \"Для РФ/Беларуси с 2022 действуют санкционные, логистические и carrier-specific ограничения. Перед отправкой проверяйте текущую доступность направления у CTT/DHL/UPS и списки запрещённых товаров; платежные сервисы вроде Wise/PayPal не решают вопрос доставки.\"",
+        "confidence": "high",
+        "source": "CTT international service availability; EU sanctions/export controls"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[6]",
+        "current": "⚖️ Если CTT потеряли посылку: livro de reclamações + Anacom (anacom.pt → Reclamação)",
+        "problem": "Incomplete procedure. Normally the first step is a complaint/claim with CTT using tracking and proof of posting; Livro de Reclamações can be used, and ANACOM supervises postal services but does not act as a compensation court for every lost parcel.",
+        "suggestion": "Write: \"Сначала откройте reclamação/claim у CTT с tracking и comprovativo; при споре используйте Livro de Reclamações eletrónico и, при необходимости, ANACOM/centro de arbitragem.\"",
+        "confidence": "high",
+        "source": "CTT complaints procedure; Livro de Reclamações; ANACOM"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[7]",
+        "current": "🏠 Почтовый ящик MUST: каждый дом имеет ящик, проверьте ваш номер квартиры на нём",
+        "problem": "Reasonable practical advice, but 'MUST' is too absolute for all housing situations and does not mention the key practical point: the mailbox should show the correct apartment/fraction/name or delivery may fail.",
+        "suggestion": "Write: \"Убедитесь, что на ящике/домофоне есть правильная fração/andar и фамилия, если в доме это принято; иначе письма и avisos могут не дойти.\"",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[9]",
+        "current": "💰 Cashback на Continente Card работает на оплате счетов CTT-Pagamentos",
+        "problem": "Dubious and likely misleading. Continente Card cashback rules are campaign-specific and generally tied to purchases/partners, not guaranteed for bill payments made through CTT/Payshop. This needs a source or removal.",
+        "suggestion": "Remove, or write: \"Промо/кэшбэк по Cartão Continente зависят от текущих условий и обычно не стоит рассчитывать на них при оплате счетов через CTT/Payshop.\"",
+        "confidence": "medium",
+        "source": "Cartão Continente terms and campaign conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only homepage sources: https://www.ctt.pt/ and https://www.anacom.pt/",
+        "problem": "For a guide with many specific prices, customs claims and service rules, homepage-level sources are insufficient. Sensitive/variable claims need direct links to tariff tables, customs portal, service conditions and official complaint channels.",
+        "suggestion": "Add direct official sources: CTT price simulator/tariff PDFs, CTT Locky/cacifos page, CTT Desalfandegamento page and tariff, CTT general conditions, Livro de Reclamações Eletrónico, ePortugal/AMA Espaço Cidadão catalogue.",
+        "confidence": "high",
+        "source": "CTT; ePortugal/AMA; Livro de Reclamações; ANACOM"
+      },
+      {
+        "severity": "minor",
+        "where": "verifyIntervalDays",
+        "current": "365",
+        "problem": "Too long for a page dominated by tariffs, pickup networks, customs fees and carrier availability. These change more often than yearly.",
+        "suggestion": "Use 90 days, or at least 180 days, and mark exact prices as 'check current tariff'.",
+        "confidence": "high",
+        "source": ""
+      }
+    ],
+    "missing_topics": [
+      "CTT customs clearance portal: how to verify legitimate SMS/email links and avoid phishing",
+      "IOSS/prepaid VAT caveat for AliExpress/Temu/Amazon non-EU orders",
+      "Difference between Correio Normal, Correio Azul, Correio Registado, Correio Verde and CTT Expresso",
+      "Locky/cacifos terminology and how pickup codes/locker deadlines work",
+      "Direct official CTT tariff/simulator links instead of homepage-only source",
+      "Postal code format in Portugal and importance of correct porta/andar/fração in addresses",
+      "Compensation/insurance limits for lost parcels and when extra insurance is needed"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6410,
+    "prompt_tokens": 3293,
+    "total_tokens": 9703
+  },
+  "model": "gpt-5.5"
+}

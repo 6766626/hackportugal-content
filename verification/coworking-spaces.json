@@ -1,0 +1,104 @@
+{
+  "guideId": "coworking-spaces",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен как обзор коворкингов, но налоговый блок содержит несколько существенных ошибок и опасных упрощений.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].text",
+        "current": "Для recibos verdes (ИП) и юрлиц оплата коворкинга — 100% вычет как business expense.",
+        "problem": "Для recibos verdes это неверно как общее правило. В упрощённом режиме IRS расходы не вычитаются «100%» напрямую: налогооблагаемый доход обычно считается по коэффициентам, а часть расходов лишь может учитываться для обоснования 15% расходов деятельности. Полный учёт фактических расходов возможен в основном при contabilidade organizada. Для компаний расходы обычно deductible, но только если они документированы, связаны с деятельностью и соответствуют общим правилам.",
+        "suggestion": "Написать: «Для компании и для recibos verdes с contabilidade organizada коворкинг обычно может быть расходом деятельности, если есть fatura com NIF и связь с бизнесом. У recibos verdes в regime simplificado расход не вычитается автоматически на 100%: он может учитываться в e-Fatura/AT только в рамках правил упрощённого режима.»",
+        "confidence": "high",
+        "source": "Código do IRS, art. 31; Autoridade Tributária — regime simplificado / despesas da atividade"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].text",
+        "current": "IVA возврат: 23% от суммы.",
+        "problem": "Слишком категорично и фактически неверно. НДС по коворкингу не «возвращается» всем. Дедукция IVA возможна только для VAT-liable деятельности, если услуга используется для облагаемых операций и есть корректная fatura. Если предприниматель на isenção de IVA по art. 53 CIVA или оказывает освобождённые услуги, VAT обычно не deductível. Также ставка на материке 23%, но на Мадейре и Азорах ставки отличаются.",
+        "suggestion": "Написать: «IVA можно deduct только если вы являетесь sujeito passivo de IVA, не на освобождении по art. 53 CIVA, и расход относится к облагаемой деятельности. На материке стандартная ставка 23%; в автономных регионах ставки отличаются. Это не автоматический cashback.»",
+        "confidence": "high",
+        "source": "Código do IVA, arts. 19, 20, 53; AT — taxas de IVA Continente/Madeira/Açores"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[1]",
+        "current": "Фиксированный office: аналогично, но можно claim как \"rendimento imóvel afeto a actividade\"",
+        "problem": "Фраза смешивает разные налоговые понятия. «Rendimento imóvel» — это доход от недвижимости, а не категория расхода арендатора/пользователя коворкинга. Для клиента коворкинга это услуга/аренда/office service expense, а не rendimento predial.",
+        "suggestion": "Заменить на: «Фиксированный desk/private office: обычно отражается как расход на office/coworking services или аренду/услуги офиса, в зависимости от фактуры и договора; используйте категорию расхода деятельности в e-Fatura/contabilidade.»",
+        "confidence": "high",
+        "source": "Código do IRS; Código do IRC; AT e-Fatura categories"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[3]",
+        "current": "IFICI (бывший NHR) — расходы на коворкинг снижают налогооблагаемую базу даже на 20% flat rate",
+        "problem": "IFICI не является просто «бывшим NHR»; это отдельный режим Incentivo Fiscal à Investigação Científica e Inovação, пришедший на смену NHR для новых заявителей только частично и с более узкими критериями. Утверждение про снижение базы «даже на 20% flat rate» вводит в заблуждение: база зависит от категории дохода и режима учёта расходов. У recibos verdes в simplified regime расход на коворкинг не уменьшает базу напрямую евро-в-евро.",
+        "suggestion": "Написать: «IFICI — новый специальный режим для ограниченных категорий деятельности, не универсальная замена NHR. Ставка 20% применяется к qualifying income, но порядок расчёта taxable income и учёта расходов зависит от категории дохода и режима учёта; коворкинг не всегда уменьшает базу напрямую.»",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais, art. 58-A; Portaria 352/2024/1; AT — IFICI"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[8]",
+        "current": "💼 Mail-forwarding адрес (часть ИП-статусов требует)",
+        "problem": "Звучит так, будто для части статусов recibos verdes обязательно нужен mail-forwarding/коворкинг-адрес. Для обычного início de atividade нужен налоговый адрес/домициль и адрес деятельности, но это не обязательно mail-forwarding в коворкинге. Для компании юридический адрес важен, но это другая ситуация.",
+        "suggestion": "Написать: «Юридический/почтовый адрес: полезно для компаний и иногда для business presence, но для обычных recibos verdes обычно достаточно корректного fiscal address/activity address в AT; уточняйте у бухгалтера.»",
+        "confidence": "high",
+        "source": "Autoridade Tributária — início de atividade; Código do IRS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[10]",
+        "current": "🆓 Пробный день или неделя — почти всегда дают",
+        "problem": "Слишком сильное обобщение. Многие коворкинги дают тур, paid day-pass или разовый trial day, но бесплатная неделя далеко не стандарт.",
+        "suggestion": "Заменить на: «Пробный день/тур — часто доступен; бесплатная неделя встречается редко, чаще предлагают paid day-pass.»",
+        "confidence": "high",
+        "source": "Company pricing pages / coworking terms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Ponta do Sol (15 км от Funchal)",
+        "problem": "Расстояние занижено для практического ориентира: по дороге от Фуншала до Ponta do Sol обычно около 22–25 км, не 15 км.",
+        "suggestion": "Написать: «Ponta do Sol, примерно 25 км по дороге от Funchal».",
+        "confidence": "medium",
+        "source": "Madeira road distance / maps"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Digital Nomads Village Ponta do Sol (Мадейра) — бесплатный коворкинг для зарегистрированных удалёнщиков.",
+        "problem": "В целом верно, но не хватает caveat: бесплатный доступ зависит от регистрации, доступности мест, текущих правил проекта и конкретной локации/часов работы. Иначе читатель может ожидать гарантированное бесплатное рабочее место в любое время.",
+        "suggestion": "Написать: «Digital Nomads Madeira / Ponta do Sol — бесплатный community/coworking-доступ для зарегистрированных участников, при наличии мест и по текущим правилам проекта.»",
+        "confidence": "medium",
+        "source": "Digital Nomads Madeira official site"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "В источниках указаны только Digital Nomads Madeira, Avila Spaces, Porto i/o, Impact Hub Lisboa.",
+        "problem": "Для гайда с множеством конкретных цен и локаций не хватает источников по большинству упомянутых сетей: Second Home, LACS, WorkIO, Heden, Selina, Cowork Central, CoworkLisboa, Madeira coworkings, региональные пространства. Цены коворкингов часто меняются, поэтому без ссылок часть значений трудно проверить.",
+        "suggestion": "Добавить официальные pricing/location pages для основных упомянутых коворкингов или пометить цены как ориентировочные: «prices vary; check current pricing».",
+        "confidence": "high",
+        "source": "Official coworking pricing pages"
+      }
+    ],
+    "missing_topics": [
+      "Краткое предупреждение, что цены коворкингов часто указаны без IVA и могут требовать депозит/commitment на месяц или год.",
+      "Разделение налоговых правил для recibos verdes в regime simplificado, contabilidade organizada и компаний.",
+      "Caveat по IVA: art. 53 exemption, освобождённые виды деятельности, разные ставки IVA на материке/Мадейре/Азорских островах.",
+      "Практический пункт про factura com NIF: проверять, что документ загружен в e-Fatura и классифицирован как расход деятельности.",
+      "Уточнение, что юридический адрес/virtual office особенно релевантен для компаний, но не является универсальным требованием для всех freelancers."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3195,
+    "prompt_tokens": 3005,
+    "total_tokens": 6200
+  },
+  "model": "gpt-5.5"
+}

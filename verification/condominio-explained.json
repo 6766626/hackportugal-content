@@ -1,0 +1,177 @@
+{
+  "guideId": "condominio-explained",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but contains several legally misleading statements about condominium legal status, mandatory insurance, meeting timing/quorum, minutes deadlines, voting/challenge rules and debt recovery forums.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Condomínio — обязательное юрлицо всех собственников в многоквартирном доме",
+        "problem": "A condomínio is not a full legal person in the ordinary sense. It is an organisational structure for owners in propriedade horizontal, with NIPC/tax identification and procedural capacity for certain acts, represented by the administrador. Calling it an 'обязательное юрлицо' is misleading.",
+        "suggestion": "Write: \"Condomínio — обязательная организация/сообщество собственников в здании, разделённом на propriedade horizontal; у него обычно есть NIPC и администратор, но это не обычное юрлицо вроде компании.\"",
+        "confidence": "high",
+        "source": "Código Civil arts. 1414–1438-A; Código de Processo Civil art. 12(e)"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "Страховка multi-risco здания",
+        "problem": "Mandatory insurance in propriedade horizontal is fire insurance (seguro contra o risco de incêndio), either for each fraction or arranged collectively by the condomínio. Multi-risco is common and often recommended, but it is not the mandatory legal minimum.",
+        "suggestion": "Write: \"Обязательная страховка от пожара; часто condomínio оформляет коллективный seguro multirriscos, но по закону минимально обязателен именно fire insurance.\"",
+        "confidence": "high",
+        "source": "Código Civil art. 1429"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[6]",
+        "current": "Fundo Comum de Reserva — 10% от месячного взноса по закону",
+        "problem": "The 10% rule is broadly right, but the legal basis is more precise: the common reserve fund must receive at least 10% of each owner's share in the remaining condominium charges. Saying simply '10% of monthly fee' can be inaccurate if charges are not structured monthly or if the assembly separates ordinary quotas and reserve contributions.",
+        "suggestion": "Write: \"Fundo Comum de Reserva — минимум 10% от доли каждого собственника в остальных расходах condomínio; на практике часто добавляется как 10% к регулярному взносу.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 268/94, art. 4"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "📅 Ежегодное обязательное — между 1 января и 30 июня (по Lei 8/2022)",
+        "problem": "This is wrong. The ordinary annual assembly for approval of accounts and budget is in the first fortnight of January. It may exceptionally be held in the first quarter if the condominium regulation says so or if the assembly decides so by majority. 'Until 30 June' is not the general rule.",
+        "suggestion": "Write: \"Обычное ежегодное собрание — в первые 15 дней января; может быть перенесено на I квартал, если это предусмотрено regulamento или решением собрания.\"",
+        "confidence": "high",
+        "source": "Código Civil art. 1431, as amended by Lei n.º 8/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "🧑‍💼 Председательствует administrador (избирается на 1 год, минимальная зарплата или волонтёр)",
+        "problem": "There is no rule that the administrador must receive the minimum wage. The role may be unpaid or paid as agreed by the assembly; professional administrators charge market fees. Also the person chairing the assembly is not necessarily described in practice as the administrador in all condominiums; the minutes normally identify the chair/secretary.",
+        "suggestion": "Write: \"Administrador избирается обычно на один год; может быть собственником или профессиональной компанией, оплачиваемым или бесплатным — как решит assembleia.\"",
+        "confidence": "high",
+        "source": "Código Civil arts. 1435–1436"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3]",
+        "current": "✅ Кворум — 1/2 прав голосов в 1-м созыве, без кворума во 2-м",
+        "problem": "The first part is essentially correct, but 'without quorum' for the second call is misleading. If the first meeting cannot deliberate, the second meeting can deliberate by majority of votes of owners present, provided they represent at least one quarter of the total value of the building, unless stricter majorities apply.",
+        "suggestion": "Write: \"В 1-м созыве обычно нужна простая majority от общей стоимости здания; во 2-м созыве решения принимаются большинством присутствующих, если они представляют минимум 1/4 стоимости здания, кроме вопросов со специальным большинством.\"",
+        "confidence": "high",
+        "source": "Código Civil art. 1432"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "🗳️ Большинство простое для бюджета, 2/3 для крупных работ, ЕДИНОГЛАСНО для изменения título constitutivo",
+        "problem": "The '2/3 for major works' formulation is too broad. Necessary conservation/repair works to common parts are not all subject to a 2/3 rule; 2/3 is especially relevant for innovations/alterations, and some acts require unanimity or other special rules. This could lead owners to wrongly think necessary roof/facade repairs always need 2/3.",
+        "suggestion": "Write: \"Бюджет и обычные расходы — обычно простое большинство; необходимые ремонтные работы общих частей имеют свои правила и не всегда требуют 2/3; innovations/alterações обычно требуют 2/3 общей стоимости здания; изменение título constitutivo, как правило, требует unanimidade.\"",
+        "confidence": "high",
+        "source": "Código Civil arts. 1422, 1425, 1432"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "📱 Допустимо digital-голосование если предусмотрено regulamento",
+        "problem": "This is too narrow. After Lei 8/2022, condominium meetings may be held by videoconference if the administrator decides so or if the majority of owners request it, provided owners have the necessary conditions; the regulation is not the only route.",
+        "suggestion": "Write: \"Собрание может проходить по videoconferência, если это организует administrador или просит большинство собственников и у участников есть технические условия; regulamento может детализировать процедуру.\"",
+        "confidence": "medium",
+        "source": "Código Civil art. 1431/1432 as amended by Lei n.º 8/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[6]",
+        "current": "📝 Ata протокола — подписывается и рассылается всем в 15 дней",
+        "problem": "The 15-day deadline is not the standard rule. The law requires minutes and communication to absent owners, commonly within 30 days. Lei 8/2022 also strengthened the evidentiary/enforcement role of minutes. '15 days' should not be stated as a legal deadline.",
+        "suggestion": "Write: \"Ata составляется и подписывается по правилам закона; решения должны быть сообщены отсутствующим собственникам, как правило, заказным письмом/e-mail при согласии, в установленный законом срок — ориентир 30 дней, а не 15.\"",
+        "confidence": "high",
+        "source": "Código Civil art. 1432; Decreto-Lei n.º 268/94 art. 1"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].text",
+        "current": "Если вы не согласны с решением — есть 60 дней на обжалование в суде. Пропустили — решение вступило в силу.",
+        "problem": "Oversimplified. The 60-day period applies to annulment of certain resolutions, with different counting rules for present/absent owners and possible prior request for an extraordinary assembly. Some resolutions may be null/ineffective rather than merely annulable, so 'missed 60 days = always valid' is misleading.",
+        "suggestion": "Write: \"Для оспоримых решений обычно есть 60 дней на ação de anulação, но срок считается по-разному для присутствующих и отсутствующих, а для ничтожных/ineficazes решений могут действовать другие правила. При споре лучше быстро консультироваться с advogado.\"",
+        "confidence": "high",
+        "source": "Código Civil art. 1433"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0].content[0].items[5]",
+        "current": "Право подключить EV-зарядку на парковке (Lei 98/2021 защищает)",
+        "problem": "The right exists but is not unconditional. Installation generally requires prior written communication to the condomínio/administrator and can be opposed on limited grounds, such as safety risk, existing shared charging infrastructure, or technical issues. The guide should not imply a blanket right.",
+        "suggestion": "Write: \"EV-зарядку можно установить при соблюдении процедуры уведомления condomínio; condomínio может возражать только по ограниченным законным основаниям, например безопасность или уже существующая общая инфраструктура.\"",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 39/2010, as amended by Lei n.º 98/2021"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[0]",
+        "current": "💰 Просрочка > 3 мес — администратор имеет право подать в суд (Julgado de Paz, быстрый процесс)",
+        "problem": "The 90-day idea is close, but the law frames it more as a duty of the administrator to start judicial action within 90 days from the first unpaid amount, unless the assembly decides otherwise and the amount does not justify action. Also Julgado de Paz is not always available: it has territorial limits and monetary jurisdiction, and enforcement of an enforceable title may go through the ordinary enforcement system, not necessarily a Julgado de Paz.",
+        "suggestion": "Write: \"Если долг не погашен, administrador должен инициировать cobrança judicial в течение 90 дней после первой просрочки, если assembleia не решит иначе и сумма не слишком мала. Это может быть Julgado de Paz только там, где он компетентен; execução обычно идёт через судебную/исполнительную процедуру.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 268/94 art. 6; Lei n.º 78/2001 on Julgados de Paz"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[1]",
+        "current": "⚖️ Взнос становится «título executivo» — принудительное взыскание возможно без долгого процесса",
+        "problem": "Not the 'fee' itself automatically, but the minutes/resolution of the assembly approving the amounts due to the condominium, if properly documented, can constitute an enforceable title. The wording misses the formal requirement and may mislead owners about what document is needed.",
+        "suggestion": "Write: \"Ata/решение assembleia, где утверждены суммы, сроки и задолженность по condomínio, может быть título executivo для cobrança coerciva.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 268/94 art. 6, as amended by Lei n.º 8/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2]",
+        "current": "🔒 Неплательщик ограничен в правах голосования на собрании",
+        "problem": "This is too absolute. Portuguese law does restrict voting by owners in arrears in certain condominium decisions, but the restriction is not a blanket removal of all voting rights in all matters. The guide needs the legal qualification.",
+        "suggestion": "Write: \"Собственник с долгами может быть ограничен в голосовании по вопросам, связанным с расходами condomínio, но это не означает автоматическую потерю всех прав голоса по любым вопросам.\"",
+        "confidence": "medium",
+        "source": "Código Civil art. 1430/1432 as amended by Lei n.º 8/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "🤝 Conflict с соседом — сначала mediação в Junta de Freguesia (районное управление), только потом суд",
+        "problem": "There is no general mandatory rule that neighbour/condominium disputes must first go to mediation at the Junta de Freguesia before court. Mediation may be useful and some parishes/municipalities have services, but it is optional unless a specific agreement or procedure applies.",
+        "suggestion": "Write: \"Сначала стоит попробовать переговоры, administrador, livro de ocorrências или mediação, если доступна; но обязательного этапа Junta de Freguesia перед судом в общем случае нет.\"",
+        "confidence": "high",
+        "source": "Código Civil arts. 1433, 1437; Lei n.º 78/2001"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "\"Иск Julgado de Paz (взыскание)\", \"amountEUR\": 70",
+        "problem": "€70 is the usual Julgado de Paz case fee, but the entry is misleading for condominium debt recovery because Julgado de Paz is not always competent/available and enforcement costs in ordinary execution can be different and higher.",
+        "suggestion": "Write: \"Julgado de Paz, если компетентен: обычно €70 taxa de justiça; execução через tribunal/agente de execução может стоить иначе.\"",
+        "confidence": "high",
+        "source": "Lei n.º 78/2001; Portaria n.º 342/2019"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].text",
+        "current": "Lei 8/2022 ... обновил процедуры собраний, digital-голосование, штрафы за просрочку.",
+        "problem": "Lei 8/2022 did update condominium procedures and debt collection, but 'digital-голосование' is imprecise: the law mainly addresses remote meetings/videoconference and communications/signatures, not a general free-standing electronic voting system. 'Штрафы за просрочку' also needs nuance: penalties/interest must be based on law/regulation/assembly resolutions and have limits.",
+        "suggestion": "Write: \"Lei 8/2022 обновила правила собраний, remote participation/communications, полномочия administrador и cobrança de dívidas; penalties за просрочку зависят от regulamento/решений assembleia и закона.\"",
+        "confidence": "medium",
+        "source": "Lei n.º 8/2022; Decreto-Lei n.º 268/94"
+      }
+    ],
+    "missing_topics": [
+      "Sale of an apartment: since Lei 8/2022 sellers normally need a condominium debt declaration issued by the administrador, or the buyer must expressly waive it and accept responsibility in the deed.",
+      "Mandatory insurance should be explained as seguro contra incêndio, with multi-risco as common but optional/enhanced coverage.",
+      "Renters do not automatically have voting rights in assembleia; they need owner authorisation/proxy, although the lease may pass some costs internally.",
+      "CCTV in common areas requires GDPR/privacy cautions and a valid condominium decision; it is not just an ordinary optional expense.",
+      "Difference between necessary repairs, useful improvements and innovations, because approval majorities differ.",
+      "What to do when there is no elected administrador: owners can convene meetings and, if necessary, request court appointment."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5082,
+    "prompt_tokens": 2709,
+    "total_tokens": 7791
+  },
+  "model": "gpt-5.5"
+}

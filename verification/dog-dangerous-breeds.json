@@ -1,0 +1,224 @@
+{
+  "guideId": "dog-dangerous-breeds",
+  "categoryId": "animals",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has several material legal inaccuracies: it uses wrong dangerous-dog licence categories, overstates/understates some obligations, gives a likely wrong SIAC URL, and misstates rabies, abandonment penalties and containment rules.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Опасные породы (Categoria A/B по DL 315/2009)",
+        "problem": "Dangerous / potentially dangerous dogs are not municipal licence categories A/B. In Portugal dog licence categories are different; dangerous/potentially dangerous dogs are normally category H and G respectively. DL 315/2009 uses the legal concepts “cão perigoso” and “cão potencialmente perigoso”, not “Categoria A/B”. This error is repeated throughout the guide.",
+        "suggestion": "Replace with: “Опасные и потенциально опасные собаки по DL 315/2009: licenças especiais na Junta, обычно categorias H (perigoso) и G (potencialmente perigoso), со страховкой RC минимум €50 000, курсом владельца и особыми правилами выгула.”",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009; SIAC/licenciamento municipal categories"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].title",
+        "current": "⚠️ Опасные породы — Categoria A и B",
+        "problem": "Wrong category labels. Category A/B is not the legal split for dangerous breeds in Portuguese dog licensing. This will mislead users at the Junta de Freguesia.",
+        "suggestion": "Change title to: “⚠️ Опасные и потенциально опасные собаки — categorias G/H”.",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009; municipal dog licence categories"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].title",
+        "current": "Список пород (Categoria B — potencialmente perigoso)",
+        "problem": "Potentially dangerous breed list exists, but calling it “Categoria B” is wrong. The licence category for potentially dangerous dogs is not B.",
+        "suggestion": "Write: “Список пород потенциально опасных собак (cães potencialmente perigosos; licença municipal geralmente categoria G)”.",
+        "confidence": "high",
+        "source": "Portaria 422/2004; Decreto-Lei 315/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[8]",
+        "current": "Метисы этих пород (≥ 50% крови)",
+        "problem": "The law does not use a simple “≥50% blood” threshold. It covers crosses of the listed breeds and dogs with the relevant morphological/typological characteristics, depending on the legal wording and official assessment. The 50% rule is an unsafe simplification.",
+        "suggestion": "Replace with: “Метисы/скрещивания этих пород и собаки с типологией, подпадающей под перечень потенциально опасных пород; спорные случаи лучше проверять у veterinário municipal/Junta.”",
+        "confidence": "high",
+        "source": "Portaria 422/2004"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[3]",
+        "current": "Проверка чипа: siac.dgav.pt по номеру",
+        "problem": "The public SIAC site is generally siac.vet, not siac.dgav.pt. The stated URL is likely wrong or at least not the correct public reference.",
+        "suggestion": "Use: “Проверка/сообщение о найденном или пропавшем животном: https://www.siac.vet/”. Keep DGAV as regulator/source, not as the SIAC search URL.",
+        "confidence": "high",
+        "source": "SIAC official website"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1]",
+        "current": "Разведение категории A/B — запрещено (с 2009) — можно только стерилизация",
+        "problem": "Again uses wrong categories A/B. Also the wording is too vague: Portuguese rules concern cães perigosos/potencialmente perigosos and include strict restrictions on reproduction, sale/transfer, advertising, registration and, in some cases, sterilisation requirements. “Можно только стерилизация” is not clear legal guidance.",
+        "suggestion": "Rewrite as: “Разведение/продажа опасных и потенциально опасных собак регулируется DL 315/2009: для cães perigosos/potencialmente perigosos действуют запреты и специальные условия; перед вязкой/передачей проверяйте DGAV/Junta/veterinário municipal. Не используйте категории A/B.”",
+        "confidence": "medium",
+        "source": "Decreto-Lei 315/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[2]",
+        "current": "Без противопоказаний по психике (certidão médica)",
+        "problem": "A generic medical/psychiatric certificate is not one of the standard national requirements usually listed for special licence holders under DL 315/2009. Required documents include criminal record, civil liability insurance, training certificate, term of responsibility and animal documentation. This may make readers chase a document that the Junta does not require.",
+        "suggestion": "Replace with: “Для специальной лицензии обычно нужны: ≥18 лет, registo criminal, seguro RC, termo de responsabilidade, comprovativo de formação do detentor, boletim sanitário/SIAC и документы о стерилизации, когда применимо. Конкретный список уточнять в Junta.”",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[3]",
+        "current": "Проходить специальный курс «formação em comportamento canino» (по некоторым муниципалитетам)",
+        "problem": "This is understated. Training of the holder of dangerous/potentially dangerous dogs is a national legal requirement for the special licence, not merely something required by some municipalities.",
+        "suggestion": "Write: “Обязателен curso/formação для detentor de cão perigoso ou potencialmente perigoso; сертификат обычно нужен для licença especial в Junta.”",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009; Portaria 317/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2].content[0].items[2]",
+        "current": "Во дворе: забор ≥ 1.8 м, табличка «cão perigoso»",
+        "problem": "The legal containment standard is commonly stated as at least 2 metres for the fence/enclosure, with warning signage. 1.8 m is likely below the statutory minimum.",
+        "suggestion": "Replace with: “Во дворе/на участке: меры усиленной безопасности, включая ограждение не менее 2 м и предупреждающую табличку («cão perigoso»/«cão potencialmente perigoso»).”",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2].content[0].items[1]",
+        "current": "Нельзя на детских площадках, в общ. транспорте, ресторанах",
+        "problem": "This is overbroad and mixes different regimes. Dangerous/potentially dangerous dogs have strict muzzle/leash and control rules in public spaces, but a blanket national ban on public transport and restaurants is not stated this way. Transport operators and restaurants may have their own rules; restaurants generally regulate animals separately from dangerous-dog law.",
+        "suggestion": "Rewrite: “В общественных местах — только с коротким поводком и функциональным намордником; некоторые места/операторы транспорта/рестораны могут запрещать вход по своим правилам. Детские площадки и зоны с местным запретом — не использовать.”",
+        "confidence": "medium",
+        "source": "Decreto-Lei 315/2009; operator/municipal rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[0]",
+        "current": "Бешенство — обязательно ежегодно (подтверждается veterinário)",
+        "problem": "Rabies vaccination is mandatory for dogs, but “annually” is too absolute. Revaccination depends on the vaccine validity / official veterinary rules recorded in the boletim/passport; many vaccines are valid for more than one year.",
+        "suggestion": "Write: “Бешенство — обязательно для собак; ревакцинация по сроку действия вакцины, указанному ветеринаром в boletim/passaporte, а не всегда строго раз в год.”",
+        "confidence": "high",
+        "source": "DGAV rabies vaccination rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[3]",
+        "current": "Ветеринар также проверяет blood titer при въезде из не-EU",
+        "problem": "Rabies antibody titre test is not required for every non-EU origin. It is required for entry from certain non-listed/high-risk third countries, under EU pet travel rules, and must be done before entry with specific timing. A Portuguese vet “checking it” after arrival is not the normal compliance step.",
+        "suggestion": "Replace with: “При въезде из некоторых стран вне ЕС нужен rabies antibody titre test, сделанный заранее в утверждённой лаборатории и в правильные сроки; для listed third countries требования мягче. Проверяйте правила ЕС/DGAV до поездки.”",
+        "confidence": "high",
+        "source": "Regulation (EU) No 576/2013; DGAV pet travel guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "Брошенная собака в PT — criminal если доказан умысел (до 3 лет ареста по Lei 69/2014)",
+        "problem": "The penalty is misstated. Abandonment of companion animals is a criminal offence in the Penal Code, but the maximum is not simply “up to 3 years” for abandonment. Three years relates to aggravated animal mistreatment outcomes, not ordinary abandonment.",
+        "suggestion": "Write: “Брошенное животное — crime de abandono de animais de companhia; базово наказывается штрафом или лишением свободы до 6 месяцев, а при создании опасности для жизни/здоровья животного — строже. Отдельно maus-tratos may carry higher penalties.”",
+        "confidence": "high",
+        "source": "Código Penal arts. 387–388; Lei 69/2014; Lei 39/2020"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Или GNR SEPNA (заповедная полиция) 217 653 100 — для диких / potentially dangerous cases",
+        "problem": "The commonly published national SEPNA/SOS Ambiente e Território contact is 808 200 520. The listed Lisbon number may be a GNR contact but is not the standard national SEPNA hotline and may misdirect readers outside Lisbon.",
+        "suggestion": "Use: “GNR SEPNA / Linha SOS Ambiente e Território: 808 200 520; emergency/immediate danger: 112; local municipal kennel/câmara for collection.”",
+        "confidence": "high",
+        "source": "GNR SEPNA / Linha SOS Ambiente e Território"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[0].items[4]",
+        "current": "Продление ежегодно до 31 марта",
+        "problem": "This is not a safe national rule. Dog licence renewal practice is municipal and linked to annual licence validity / rabies documentation; many juntas do not use a universal 31 March deadline.",
+        "suggestion": "Write: “Продление ежегодно в сроки вашей Junta de Freguesia; обычно при продлении нужны licença anterior, boletim/passaporte с vacina antirrábica válida и SIAC.”",
+        "confidence": "medium",
+        "source": "municipal dog licensing practice"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "SIAC ... обязательна после microchip — бесплатно у ветеринара",
+        "problem": "Misleading wording. The microchip and SIAC registration are done by a vet, but users normally pay the vet for implantation/registration. SIAC itself may have a small registration fee included in the vet invoice; it is not experienced by owners as “free at the vet”.",
+        "suggestion": "Write: “Microchip + SIAC-регистрация делаются у ветеринара; обычно всё включено в счёт примерно €20–40/€50, отдельно ‘бесплатно’ рассчитывать не стоит.”",
+        "confidence": "medium",
+        "source": "SIAC/DGAV practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "Автоматически регистрируется в SIAC (centralized database) — бесплатно",
+        "problem": "Same issue: registration is mandatory and normally submitted by the vet, but “free” is misleading for the pet owner.",
+        "suggestion": "Replace with: “Ветеринар вносит животное в SIAC; стоимость обычно включена в услугу чипирования/регистрации.”",
+        "confidence": "medium",
+        "source": "SIAC official practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[0].content[0].items[9]",
+        "current": "Любая собака, показавшая агрессию к человеку или животному (вне provocación) — переводится в Categoria A (perigoso) по решению veterinário municipal",
+        "problem": "Wrong category label again, and the legal definition is more precise than “any aggression”. A dog can be classified as dangerous after biting/attacking/injuring/killing in legally defined circumstances or by competent authority assessment; it is not simply any aggression and not “Categoria A”.",
+        "suggestion": "Write: “Собака может быть признана cão perigoso при нападении/укусе/серьёзном ранении или смерти человека/животного в предусмотренных законом случаях либо по решению компетентных органов; это не ‘categoria A’.”",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2].label",
+        "current": "Licença Canina Categoria A/B",
+        "problem": "Wrong category label in costs table.",
+        "suggestion": "Change to: “Licença especial cão potencialmente perigoso/perigoso — categorias G/H”.",
+        "confidence": "high",
+        "source": "municipal dog licensing categories"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3].label",
+        "current": "Страховка for cat A/B",
+        "problem": "Wrong category label and awkward English/Russian mix. Insurance applies to dangerous/potentially dangerous dogs, not “cat A/B”.",
+        "suggestion": "Change to: “Страховка RC для cão perigoso/potencialmente perigoso”.",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "DGAV — SIAC / https://www.dgav.pt/",
+        "problem": "This is too generic for a guide relying heavily on SIAC and microchip obligations. It should cite the official SIAC website or the SIAC legal regime directly.",
+        "suggestion": "Add a specific SIAC source: “SIAC — Sistema de Informação de Animais de Companhia, https://www.siac.vet/” and/or cite the SIAC legal regime created by DL 82/2019.",
+        "confidence": "high",
+        "source": "SIAC; Decreto-Lei 82/2019"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources list lacks Portaria 422/2004 and training/insurance sources",
+        "problem": "For a legally sensitive dangerous-breed guide, the breed list and owner training/insurance requirements should be sourced specifically, not only via DL 315/2009.",
+        "suggestion": "Add official sources: Portaria 422/2004 for the potentially dangerous breed list; Portaria 317/2015 for detentor training; relevant insurance minimum source/municipal guidance for RC coverage.",
+        "confidence": "high",
+        "source": "Portaria 422/2004; Portaria 317/2015"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that dangerous/potentially dangerous dog licence categories are G/H, while ordinary municipal categories A, B, C etc. mean something else.",
+      "Mention that the special licence for dangerous/potentially dangerous dogs is issued by the Junta de Freguesia and must be renewed periodically with specific documents.",
+      "Mention mandatory owner training as a national requirement and point to recognised training entities.",
+      "Mention that dogs entering Portugal from non-EU countries must comply with EU pet travel rules: microchip before rabies vaccine, valid rabies vaccine, possible titre test, health certificate/TRACES depending on origin.",
+      "Mention that rabies vaccine validity may be more than one year depending on vaccine and veterinary record.",
+      "Add the official SIAC website and the legal source for SIAC obligations.",
+      "Add specific official source for the potentially dangerous breed list: Portaria 422/2004.",
+      "Add standard emergency/reporting contacts: 112 for immediate danger and GNR SEPNA/SOS Ambiente 808 200 520."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5891,
+    "prompt_tokens": 3342,
+    "total_tokens": 9233
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,205 @@
+{
+  "guideId": "business-account",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "В гайде есть серьёзные ошибки в базовой логике: пороги 25 000 € для обязательного бизнес-счёта/бухгалтерии у recibos verdes выдуманы или перепутаны, а процесс Lda неверно описывает необходимость банковского счёта и блокировки capital social до регистрации.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Бизнес-счёт обязателен для recibos verdes (ИП) от 25 000 €/год оборота и ВСЕГДА для Lda (ООО).",
+        "problem": "Для recibos verdes нет общего правила, что бизнес-счёт становится обязательным с 25 000 € оборота. Обязательный отдельный банковский счёт связан прежде всего с субъектами IRC и IRS с contabilidade organizada, а для IRS Categoria B обязательная contabilidade organizada обычно начинается при превышении 200 000 € годового дохода или по выбору налогоплательщика. 25 000 € здесь выглядит как неверный/несуществующий порог для банковского счёта.",
+        "suggestion": "Написать: «Для recibos verdes в regime simplificado отдельный бизнес-счёт обычно не обязателен, но очень рекомендуется. Отдельный счёт обязателен для IRS с contabilidade organizada и для компаний/субъектов IRC. Порог обязательной contabilidade organizada для Categoria B — 200 000 € годового rendimento ilíquido; можно выбрать её добровольно».",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 63.º-C; Código do IRS art. 28.º"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[0].content[0].items[1]",
+        "current": "🟡 От 25 000 €/год: AT (налоговая) рекомендует отдельный счёт",
+        "problem": "Нет известного официального правила AT с порогом 25 000 € для рекомендации отдельного счёта. Это вводит в заблуждение и выглядит как смешение с другими налоговыми порогами.",
+        "suggestion": "Заменить на: «При любом обороте рекомендуется отделять личные и профессиональные операции для доказуемости расходов и контроля денежных потоков; юридическая обязанность отдельного счёта возникает при contabilidade organizada / для субъектов IRC».",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 63.º-C"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "🔴 От 200 000 €/год или регулируемые профессии (адвокат, врач, нотариус): обязательно",
+        "problem": "Порог 200 000 € релевантен для обязательной contabilidade organizada у Categoria B, но не означает сам по себе отдельное правило «бизнес-счёта» для всех ИП вне контекста contabilidade organizada. Утверждение про регулируемые профессии как общий налоговый банковский критерий неверно: адвокаты могут иметь специальные правила по клиентским средствам, но врач/инженер не становятся автоматически обязанными иметь отдельный банковский счёт только из-за профессии.",
+        "suggestion": "Написать: «Если recibos verdes переходят на contabilidade organizada — например, из-за превышения 200 000 € или добровольного выбора — нужен банковский счёт, используемый для операций деятельности. У отдельных профессий могут быть дополнительные правила профессиональной палаты, например client account для адвокатов, но это не общий налоговый порог».",
+        "confidence": "high",
+        "source": "Código do IRS art. 28.º; Lei Geral Tributária art. 63.º-C"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "🆔 Capital social блокируется на счёте до regista comercial",
+        "problem": "Для Lda это устаревшая/неверная схема. Сейчас уставный капитал не нужно заранее блокировать на банковском счёте до коммерческой регистрации; внесение capital social может быть отложено, в общем случае до конца первого финансового года, если это предусмотрено/допустимо. Компания регистрируется без предварительного банковского счёта.",
+        "suggestion": "Заменить на: «Capital social указывается при регистрации; его внесение обычно может быть сделано после регистрации в срок, предусмотренный законом/учредительными документами. Банк может запросить подтверждения происхождения средств, но предварительная блокировка капитала до registo comercial не является стандартным обязательным шагом».",
+        "confidence": "high",
+        "source": "Código das Sociedades Comerciais arts. 201.º, 202.º; Empresa na Hora / IRN"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[1].content[0].items[3]",
+        "current": "📋 Без бизнес-счёта Lda не зарегистрировать в Conservatória do Registo Comercial",
+        "problem": "Неверно. Lda можно зарегистрировать через Empresa na Hora/IRN без уже открытого банковского счёта. На практике банковский счёт открывают после регистрации, когда уже есть NIPC/NIF da sociedade, certidão permanente и pacto social.",
+        "suggestion": "Написать: «Для регистрации Lda банковский счёт заранее обычно не нужен. После регистрации компания открывает счёт на своё имя и использует его для операций деятельности».",
+        "confidence": "high",
+        "source": "Empresa na Hora / IRN; Código das Sociedades Comerciais"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[1]",
+        "current": "💰 Минимальный capital social: 1 € (но банки часто требуют ≥ 1 000 € для открытия)",
+        "problem": "Фраза «минимальный capital social: 1 €» неполная. В Lda минимальная quota каждого sócio — 1 €, поэтому общий capital social зависит от числа участников; для sociedade unipessoal por quotas фактически может быть 1 €. Утверждение, что банки часто требуют ≥ 1 000 € именно capital social для открытия, слишком категорично и не является правовым требованием.",
+        "suggestion": "Написать: «Минимальная quota — 1 € на участника; у sociedade unipessoal por quotas capital social может быть 1 €. На практике банки могут предпочитать более высокий капитал или первый депозит, но это коммерческая/KYC-политика банка, а не закон».",
+        "confidence": "high",
+        "source": "Código das Sociedades Comerciais art. 201.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[4]",
+        "current": "⚠️ Нельзя смешивать с личными деньгами — это считается «levantamento de fundos» и облагается IRS",
+        "problem": "Смысл правильный — деньги компании и участников нельзя смешивать, — но налоговое описание неверное. Выплаты участникам/директорам могут быть зарплатой, dividends/distribuição de lucros, suprimentos/loans, adiantamentos por conta de lucros, reimbursement of expenses и т.д.; налогообложение зависит от природы операции, а не автоматически «levantamento de fundos = IRS».",
+        "suggestion": "Заменить на: «Не смешивайте деньги компании и личные средства. Любые переводы между Lda и sócios/gerentes должны иметь юридическое основание — зарплата, дивиденды, suprimentos/займ, reimbursement и т.п.; налоговые последствия зависят от классификации операции и должны проходить через бухгалтера».",
+        "confidence": "high",
+        "source": "Código do IRS; Código do IRC; SNC/accounting practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[0]",
+        "current": "🏛️ **Шаг 1**: Регистрация Lda через «Empresa na Hora» (60 мин, 360 €) или Conservatória (5-10 дней, 220 €)",
+        "problem": "Сама цена Empresa na Hora 360 € в целом правдоподобна, но процесс дальше противоречит действительности: если Lda уже зарегистрирована на шаге 1, то capital social не «блокируется» до регистрации и банковский счёт не является предварительным условием. Также «Conservatória 220 €» без уточнения может быть неверно в зависимости от типа акта/онлайн-регистрации/модели pacto.",
+        "suggestion": "Описать последовательность так: «1) зарегистрировать Lda; 2) получить NIPC и certidão permanente; 3) подать declaração de início de atividade в AT; 4) подать RCBE в срок; 5) открыть счёт компании и внести capital social/начать операции согласно уставу и срокам». Для тарифов дать ссылку на tabela emolumentar IRN/Empresa na Hora.",
+        "confidence": "medium",
+        "source": "Empresa na Hora / IRN; Regulamento Emolumentar dos Registos e Notariado"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[2]",
+        "current": "📃 **Шаг 3**: Декларация RCBE (онлайн в IRN, 5 дней)",
+        "problem": "«5 дней» как срок для RCBE неверен/сбивает с толку. Первичная декларация RCBE для новой компании подаётся в установленный срок после регистрации, обычно 30 дней, а не 5 дней. Банки могут запросить RCBE, но это не обязательно отдельный этап «на 5 дней».",
+        "suggestion": "Написать: «Подать declaração inicial RCBE онлайн после регистрации компании, как правило в течение 30 дней; хранить код/подтверждение для банка».",
+        "confidence": "high",
+        "source": "Lei 89/2017; Regime Jurídico do RCBE; IRN/RCBE"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[4]",
+        "current": "💰 **Шаг 5**: Заблокировать capital social",
+        "problem": "Неверный обязательный шаг. Для современной Lda нет стандартной процедуры обязательной блокировки уставного капитала в банке после регистрации; капитал вносится/отражается согласно закону и учредительным документам, а банк открывает счёт по KYC-документам.",
+        "suggestion": "Заменить на: «Внести capital social/первый депозит на счёт компании, если это предусмотрено уставом и сроками внесения; сохранить подтверждения для бухгалтерии».",
+        "confidence": "high",
+        "source": "Código das Sociedades Comerciais arts. 201.º, 202.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[6]",
+        "current": "📊 Бухгалтерия (contabilidade) обязательна для Lda и для recibos verdes >25k — закладывайте 80-200 €/мес",
+        "problem": "Для Lda contabilidade organizada обязательна, но для recibos verdes порог 25 000 € неверен. Для IRS Categoria B обязательная contabilidade organizada обычно при превышении 200 000 € годового rendimento ilíquido либо по добровольному выбору. Многие recibos verdes с оборотом выше 25 000 € остаются в regime simplificado.",
+        "suggestion": "Написать: «Contabilidade organizada обязательна для Lda. Для recibos verdes она обязательна обычно при превышении 200 000 € годового rendimento ilíquido или если предприниматель сам выбрал этот режим; до этого часто применяется regime simplificado, хотя консультация бухгалтера всё равно полезна».",
+        "confidence": "high",
+        "source": "Código do IRS art. 28.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "🌐 **Wise Business** — для международных платежей, но НЕ португальский IBAN, не подходит для Lda",
+        "problem": "Слишком категорично и потенциально неверно. Наличие не-португальского, но SEPA/EU IBAN само по себе не делает счёт незаконным или «неподходящим» для Lda; IBAN discrimination в SEPA запрещена. Практически у компаний в Португалии часто всё равно нужен/удобен PT IBAN для некоторых банковских, налоговых, зарплатных, POS, direct debit и контрагентских процессов, но это надо формулировать как практический caveat, а не юридический запрет.",
+        "suggestion": "Написать: «Wise Business может быть полезен как дополнительный счёт для международных платежей. Для повседневной работы Lda часто практичнее иметь PT IBAN в португальском банке; отказ принимать EU SEPA IBAN только из-за страны IBAN может быть IBAN discrimination, но на практике интеграции с AT/SS/fornecedores могут создавать трение».",
+        "confidence": "high",
+        "source": "Regulation (EU) No 260/2012, art. 9; Banco de Portugal guidance on IBAN discrimination"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[4]",
+        "current": "⚠️ Для Lda нужен португальский IBAN — некоторые fintech не подходят",
+        "problem": "Как юридическое утверждение это слишком широко. Закон не устанавливает общее правило «Lda обязана иметь именно португальский IBAN». Для некоторых практических операций PT IBAN может быть удобнее или фактически требоваться отдельными сервисами, но это не то же самое, что общая правовая обязанность.",
+        "suggestion": "Заменить на: «Для Lda почти всегда практично иметь PT IBAN в местном банке, но EU SEPA IBAN не должен отклоняться только из-за страны. Проверяйте совместимость с AT, Segurança Social, salários, débito direto, POS/TPA и бухгалтерией».",
+        "confidence": "high",
+        "source": "Regulation (EU) No 260/2012, art. 9"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "📜 **Certidão Permanente** — выписка о регистрации (можно онлайн на portalcidadao.pt за 25 €)",
+        "problem": "portalcidadao.pt — устаревшая/неправильная ссылка для этой услуги. Официальные каналы сейчас — justiça.gov.pt/ePortugal и certidaopermanente.pt. Цена 25 € за коммерческую certidão permanente на 1 год в целом выглядит корректной, но URL надо исправить.",
+        "suggestion": "Написать: «Certidão Permanente Comercial — получить/продлить через certidaopermanente.pt или justiça.gov.pt; стандартная подписка на 1 год стоит 25 €».",
+        "confidence": "high",
+        "source": "IRN / certidaopermanente.pt; justiça.gov.pt"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "💻 **ActivoBank Empresas** — субсидирована Millennium, онлайн-первый",
+        "problem": "Фраза на русском неверная по смыслу: ActivoBank не «субсидирован» Millennium, а является банком/брендом группы Millennium bcp. Кроме того, утверждение про полноценный «ActivoBank Empresas» требует проверки: ActivoBank традиционно ориентирован на розничных клиентов, а не на корпоративные счета; для компаний обычно используют Millennium bcp Empresas.",
+        "suggestion": "Заменить на осторожное: «ActivoBank — банк группы Millennium bcp, в основном retail/online; наличие и условия счетов для empresas нужно проверять напрямую. Для корпоративных счетов чаще рассматривают Millennium bcp Empresas».",
+        "confidence": "medium",
+        "source": "ActivoBank / Millennium bcp official websites"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "🏧 **Снятие в банкомате**: бесплатно у своего банка, 0,50-2 € у других",
+        "problem": "Для Португалии это вводит в заблуждение: сеть Multibanco обычно не работает по модели «свой банк бесплатно, чужой банк платно» как в некоторых странах; прямые комиссии за обычные domestic ATM withdrawals по дебетовым картам в сети Multibanco обычно отсутствуют/регулируются иначе. Для бизнес-карт и международных карт возможны тарифы банка-эмитента, но формулировка слишком обобщённая.",
+        "suggestion": "Написать: «Снятия в сети Multibanco по португальским дебетовым картам обычно без прямой комиссии банкомата; проверяйте тарифы именно вашей business debit/credit card, особенно за cash advance, валюту и операции вне Португалии».",
+        "confidence": "medium",
+        "source": "Banco de Portugal; Portuguese bank fee schedules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "📱 **MB WAY**: бесплатно для бизнеса",
+        "problem": "Слишком широко и вероятно неверно. MB WAY P2P для частных лиц может быть бесплатным в определённых лимитах/условиях, но MB WAY для merchants/business payments обычно имеет merchant service fees или комиссии по договору с acquirer/PSP/банком.",
+        "suggestion": "Заменить на: «MB WAY для клиентов-физлиц часто бесплатен в пределах условий банка; для бизнеса/merchant payments комиссии зависят от банка, acquirer или PSP и должны быть проверены в preçário».",
+        "confidence": "high",
+        "source": "SIBS MB WAY merchant information; Banco de Portugal preçários"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[6]",
+        "current": "📊 **Извлечение Certidão Permanente** банк может списать 25-50 €/год",
+        "problem": "Формулировка путает банковскую комиссию и стоимость самой certidão permanente. Обычно компания сама покупает/продлевает certidão permanente и предоставляет access code банку; стандартная стоимость коммерческой certidão permanente на 1 год — 25 €. Банк не обязательно «списывает» это ежегодно.",
+        "suggestion": "Написать: «Certidão Permanente Comercial обычно оплачивает сама компания: 25 €/год за стандартную подписку; банк попросит код доступа. Дополнительные банковские administrative fees проверяйте в preçário».",
+        "confidence": "high",
+        "source": "IRN / certidaopermanente.pt"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[4].label",
+        "current": "Conservatória registração Lda (классически)",
+        "problem": "Опечатка/смешение языков: «registração» неверно. Также сумма 220 € без пояснения типа регистрации может быть неполной.",
+        "suggestion": "Исправить на «Registo de Lda em Conservatória / pedido online» и добавить caveat: «стоимость зависит от канала и типа pacto; проверять tabela emolumentar IRN».",
+        "confidence": "medium",
+        "source": "IRN; Regulamento Emolumentar dos Registos e Notariado"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Нет источника для обязательности отдельного счёта, contabilidade organizada, RCBE и capital social.",
+        "problem": "Гайд делает юридически чувствительные утверждения, но источники ведут только на общие страницы Banco de Portugal, Empresa na Hora и AT. Для спорных правил нужны прямые нормативные источники.",
+        "suggestion": "Добавить источники: Lei Geral Tributária art. 63.º-C для банковских счетов; Código do IRS art. 28.º для contabilidade organizada/порога 200 000 €; Código das Sociedades Comerciais arts. 201.º-202.º для capital social; официальный RCBE/IRN и Lei 89/2017 для beneficial owners.",
+        "confidence": "high",
+        "source": "LGT art. 63.º-C; CIRS art. 28.º; CSC arts. 201.º-202.º; Lei 89/2017"
+      }
+    ],
+    "missing_topics": [
+      "Чёткое различие между «рекомендуемый отдельный счёт» и «юридически обязательный счёт» по Lei Geral Tributária art. 63.º-C",
+      "Обязательная contabilidade organizada для Categoria B только при пороге 200 000 € или добровольном выборе, а не 25 000 €",
+      "Практические KYC/AML требования банков для иностранных sócios/gerentes: proof of tax residence, source of funds, apostilled corporate documents for foreign shareholders, UBO structure",
+      "Срок и порядок подачи RCBE: initial declaration after incorporation, обычно 30 дней, и ежегодное подтверждение/обновление при изменениях",
+      "IBAN discrimination: EU SEPA IBAN нельзя отклонять только из-за страны IBAN, но PT IBAN часто практичнее",
+      "Banco de Portugal comparador de comissões / preçários как источник для сравнения банковских комиссий",
+      "Различие между payment institution/e-money account и счётом в банке для целей кредитования, POS/TPA, direct debit и банковской репутации"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6366,
+    "prompt_tokens": 3541,
+    "total_tokens": 9907
+  },
+  "model": "gpt-5.5"
+}

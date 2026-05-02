@@ -1,0 +1,197 @@
+{
+  "guideId": "customs-parcels",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен, но содержит несколько существенных ошибок по ставкам IVA в Madeira/Açores, CTT fees, самостоятельному H7-декларированию, IOSS и акцизным/льготным исключениям.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[4]",
+        "current": "🌍 Исключение: специальная зона Madeira + Azores — пониженная IVA (16 % / 9 %)",
+        "problem": "Ставки перепутаны/неполные. В автономных регионах действуют свои ставки IVA: стандартная ставка на Madeira не 16% и не 9%; 16% — стандартная ставка Açores. Для Madeira стандартная ставка 22%. Также есть reduced/intermediate rates, которые зависят от категории товара.",
+        "suggestion": "Написать: «Madeira и Açores имеют пониженные региональные ставки IVA: Mainland — 23% / 13% / 6%; Madeira — 22% / 12% / 5%; Açores — 16% / 9% / 4%. Для посылок ставка зависит от места ввоза/доставки и категории товара.»",
+        "confidence": "high",
+        "source": "Código do IVA; Autoridade Tributária — Taxas de IVA no Continente, Madeira e Açores"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Customs handling fee CTT ~1.80 €",
+        "problem": "€1.80 выглядит устаревшим значением. У CTT после реформы e-commerce VAT применяются отдельные тарифы desalfandegamento/apresentação à alfândega, обычно указываемые в таблице CTT и облагаемые IVA; актуальная сумма не должна подаваться как фиксированные €1.80 без ссылки на тариф.",
+        "suggestion": "Заменить на: «CTT взимает отдельную плату за serviço de desalfandegamento/apresentação à alfândega по текущей таблице CTT; проверяйте актуальный тариф на странице CTT Desalfandegamento, т.к. сумма меняется и может облагаться IVA.» Если нужен ориентир — дать диапазон и дату проверки, а не фиксированные €1.80.",
+        "confidence": "high",
+        "source": "CTT — Tabela de preços / Desalfandegamento de encomendas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[1]",
+        "current": "Handling fee CTT: 1.80 €",
+        "problem": "Та же проблема: фиксированный CTT fee €1.80, вероятно, устарел и вводит в заблуждение. Кроме того, тариф зависит от типа отправления/процесса и может быть указан с IVA или без IVA.",
+        "suggestion": "Написать: «CTT service fee: по актуальной tabela de preços CTT para desalfandegamento; сумма зависит от типа отправления и может включать/не включать IVA. Перед оплатой проверяйте детализацию в Portal CTT.»",
+        "confidence": "high",
+        "source": "CTT — Desalfandegamento / Tabela de preços"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "{ \"label\": \"CTT handling fee\", \"amountEUR\": 1.8 }",
+        "problem": "Стоимость CTT handling fee указана как фиксированные €1.80 без актуальной тарифной базы. Для гайда с lastVerified 2026 это рискованно и, скорее всего, устарело.",
+        "suggestion": "Заменить на объект с диапазоном или текстовой пометкой: «по текущей tabela de preços CTT para desalfandegamento; проверить перед оплатой». Не хранить как фиксированный amountEUR, если нет точной официальной ставки на дату проверки.",
+        "confidence": "high",
+        "source": "CTT — Tabela de preços / Desalfandegamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[1]",
+        "current": "💰 Система рассчитает IVA + duty",
+        "problem": "Для Declaração H7 это неверно/сильно вводит в заблуждение. H7 применяется к low-value consignments до €150, которые не облагаются customs duty. H7 не предназначена для расчёта пошлины по товарам свыше €150; для них нужен другой тип импортной декларации.",
+        "suggestion": "Написать: «H7 используется для товаров с intrinsic value до €150, не подлежащих акцизам/запретам/ограничениям; обычно рассчитывается IVA и сборы, но customs duty для H7 не применяется. Для товаров свыше €150 используется стандартная импортная декларация, процесс сложнее и часто требует представителя.»",
+        "confidence": "high",
+        "source": "EU VAT e-commerce package; Union Customs Code; AT — Declaração Aduaneira de Importação / H7"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "Через Portal Aduaneiro на portaldasfinancas.gov.pt → «Alfândegas» → «Declaração H7» (для посылок < 150 €).",
+        "problem": "Формулировка слишком широкая. H7 не для всех посылок <€150: она не применяется к excise goods и товарам с запретами/ограничениями; также IOSS-отправления могут уже быть оформлены продавцом/оператором. Кроме того, в таможенных правилах обычно используется порог «до €150» по intrinsic value, а не просто «<150» по общей стоимости.",
+        "suggestion": "Уточнить: «H7 — для low-value consignments с intrinsic value до €150, кроме акцизных и ограниченных товаров. Если продавец использует IOSS и данные корректно переданы перевозчику, отдельное декларирование получателем обычно не требуется.»",
+        "confidence": "high",
+        "source": "European Commission — Import One Stop Shop; Union Customs Code Delegated Regulation"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].text",
+        "current": "Крупные маркетплейсы после IOSS (с 2021) платят IVA на стадии покупки. Если видите поле «VAT included» в чеке — всё ок, в PT не платите. Если нет — CTT уведомит.",
+        "problem": "Слишком категорично. IOSS действует только для товаров с intrinsic value до €150 и не применяется к excise goods. Маркетплейс не «платит» IVA в смысле импортного оформления, а собирает VAT с покупателя и декларирует через IOSS. Даже при «VAT included» возможен повторный запрос оплаты, если IOSS номер не был корректно передан перевозчику/таможне; тогда нужно спорить с CTT/курьером и продавцом.",
+        "suggestion": "Написать: «IOSS работает для товаров до €150: продавец/маркетплейс собирает VAT при покупке и передаёт IOSS-данные перевозчику. Если IOSS передан корректно, в Portugal второй раз IVA платить не должны. Если CTT/курьер всё равно выставил IVA, запросите у продавца invoice с IOSS/VAT evidence и оспорьте начисление; для товаров >€150 IOSS не применяется.»",
+        "confidence": "high",
+        "source": "European Commission — Import One Stop Shop / VAT e-commerce rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[5]",
+        "current": "🍷 Акцизы (tabaco, alcool, perfume) — сверху IVA",
+        "problem": "Perfume не является гармонизированным excise good в ЕС как алкоголь, табак или energy products. Для парфюмерии могут быть duty/VAT и ограничения/исключения из relief/IOSS в отдельных контекстах, но называть perfume акцизным товаром некорректно.",
+        "suggestion": "Написать: «Акцизы — прежде всего tobacco, alcohol и energy products; для таких товаров действуют отдельные правила и IOSS/low-value упрощения могут не применяться. Perfume/toilet waters имеют особые исключения из некоторых льгот, но это не тот же акцизный режим, что табак/алкоголь.»",
+        "confidence": "high",
+        "source": "Directive 2008/118/EC; European Commission — Excise duties"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1]",
+        "current": "📦 Коммерческая посылка < 150 €: только IVA 23 %, без duty",
+        "problem": "Правило в целом верное для обычных товаров, но без критичных caveats. Порог считается по intrinsic value товара, а не обязательно по total paid с доставкой. Освобождение от customs duty до €150 не применяется к некоторым категориям, включая alcohol, tobacco, perfumes/toilet waters. IVA не всегда 23%: книги и некоторые товары имеют reduced rate, а Madeira/Açores — региональные ставки.",
+        "suggestion": "Написать: «Обычная коммерческая посылка с intrinsic value до €150: customs duty обычно нет, но IVA начисляется по ставке товара/региона. Исключения: alcohol, tobacco, perfumes/toilet waters и товары с запретами/ограничениями.»",
+        "confidence": "high",
+        "source": "Council Regulation (EC) No 1186/2009; EU VAT e-commerce rules; Código do IVA"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[2]",
+        "current": "📦 Коммерческая > 150 €: IVA + customs duty (0–17 % по HS коду)",
+        "problem": "Диапазон 0–17% подходит как грубый ориентир для многих consumer goods, но не универсален. По TARIC отдельные товары, особенно agricultural/food products, могут иметь более высокие, специфические или комбинированные пошлины.",
+        "suggestion": "Написать: «Для товаров с intrinsic value свыше €150: IVA + customs duty по TARIC/HS-коду. Для многих consumer goods это часто 0–17%, но food/agricultural/specific goods могут иметь другие или более высокие ставки.»",
+        "confidence": "high",
+        "source": "TARIC — EU Integrated Tariff"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].text",
+        "current": "Формально до 45 € освобождение, но только если отправитель указал «GIFT» на CN22/CN23 и заявленная стоимость < 45 €. Выше — обычные правила.",
+        "problem": "Недостаточно условий и может звучать как совет просто написать GIFT. Освобождение до €45 действует только для occasional private-to-private consignments без коммерческого характера, для личного/семейного использования, при отсутствии оплаты. Таможня может запросить доказательства и не обязана принимать отметку GIFT. Для табака/алкоголя/парфюма действуют количественные ограничения или исключения.",
+        "suggestion": "Написать: «Private-to-private gift до €45 может быть освобождён, если отправление occasional, без оплаты, для личного/семейного использования и не имеет коммерческого характера. Надпись GIFT сама по себе не гарантирует освобождение; ложная декларация незаконна. Для alcohol/tobacco/perfume действуют отдельные ограничения.»",
+        "confidence": "high",
+        "source": "Council Regulation (EC) No 1186/2009; AT customs guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].text",
+        "current": "В PT реализация — Código do IVA, Código das Alfândegas.",
+        "problem": "«Código das Alfândegas» — неудачное/неточное название источника для текущего таможенного режима. Основная база — Código Aduaneiro da União / Union Customs Code и акты его исполнения; в Portugal применяются национальные нормы AT, но не стоит ссылаться на неясный «Código das Alfândegas».",
+        "suggestion": "Написать: «В PT: Código do IVA + правила Autoridade Tributária; таможенная база — Código Aduaneiro da União (Reg. UE 952/2013), Delegated/Implementing Regulations и TARIC.»",
+        "confidence": "medium",
+        "source": "Regulation (EU) No 952/2013 — Union Customs Code"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[3]",
+        "current": "Certo pessoal подписание — ваш CC/ВНЖ скан",
+        "problem": "Фраза непонятна и, вероятно, содержит ошибку/опечатку. «Certo pessoal» не является стандартным термином в этом контексте. Также не всегда требуется скан CC/ВНЖ; чаще нужны NIF, invoice/proof of payment, authorization/declaração, данные получателя.",
+        "suggestion": "Заменить на понятный список документов: «Могут запросить: NIF, invoice/recibo, comprovativo de pagamento, описание товара/HS-код, proof of identity/authorization if needed.»",
+        "confidence": "medium",
+        "source": "CTT — Desalfandegamento: documentos necessários"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0]",
+        "current": "💵 Handling fee: DHL 15–40 €, FedEx 10–30 €, UPS 15–25 €",
+        "problem": "Диапазоны могут быть полезны как ориентир, но без caveat вводят в заблуждение: у express-курьеров сборы зависят от услуги, disbursement/advancement fee, storage, broker fee, duty/VAT amount и тарифов конкретной компании. К 2026 эти суммы могли измениться.",
+        "suggestion": "Добавить: «Ориентиры; точные суммы зависят от tariff/service и могут включать disbursement/advancement fee, storage и IVA. Проверяйте текущую таблицу DHL/FedEx/UPS Portugal.»",
+        "confidence": "medium",
+        "source": "DHL/FedEx/UPS Portugal tariff schedules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2].content[0].items[3]",
+        "current": "Украшения: 2.5 % duty + IVA 23 %",
+        "problem": "Слишком обобщённо. Duty зависит от HS-кода: precious jewellery, imitation jewellery, watches, parts and materials могут иметь разные ставки. 2.5% не универсально.",
+        "suggestion": "Написать: «Украшения: ставка зависит от HS-кода; проверять TARIC. Для некоторых ювелирных изделий ставка может быть около 2.5%, но imitation jewellery/часы/части могут отличаться.»",
+        "confidence": "high",
+        "source": "TARIC — chapters 71, 91"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2].content[0].items[0]",
+        "current": "Книги: 0 % duty, IVA 6 %",
+        "problem": "Верно для mainland в общем случае, но не для Madeira/Açores, где reduced IVA ниже. В гайде уже упоминаются автономные регионы, поэтому таблица должна быть согласована.",
+        "suggestion": "Написать: «Книги: duty обычно 0%; IVA — reduced rate: mainland 6%, Madeira 5%, Açores 4%.»",
+        "confidence": "high",
+        "source": "Código do IVA — Lista I; regional VAT rates"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "https://www.portaldasfinancas.gov.pt/at/html/index.html",
+        "problem": "Ссылка ведёт на общий вход/главную страницу Portal das Finanças, а не на конкретную страницу по importação/desalfandegamento/H7. Для чувствительной таможенной темы источник слишком общий.",
+        "suggestion": "Заменить или дополнить прямой ссылкой на раздел AT/Portal das Finanças по «Alfândegas», «Importação de encomendas», «Declaração Aduaneira de Importação» или «H7», если доступна публичная страница.",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira / Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "https://www.ctt.pt/",
+        "problem": "Ссылка на homepage CTT, а не на конкретную страницу desalfandegamento/encomendas internacionais/tabela de preços. При этом в тексте есть конкретные суммы CTT fee, которые требуют точного источника.",
+        "suggestion": "Использовать прямую страницу CTT «Desalfandegar encomendas», «Receber encomendas do estrangeiro» и/или PDF/страницу «Tabela de preços».",
+        "confidence": "high",
+        "source": "CTT — Desalfandegamento de encomendas"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "https://eportugal.gov.pt/",
+        "problem": "Ссылка на homepage ePortugal, а не на конкретную услугу/информационную страницу «Importar bens de países fora da UE». Такая ссылка плохо проверяема.",
+        "suggestion": "Заменить на прямой URL конкретной страницы ePortugal по импорту товаров из стран вне ЕС, если страница существует, или убрать источник и сослаться на AT/CTT/EU Commission.",
+        "confidence": "high",
+        "source": "ePortugal"
+      }
+    ],
+    "missing_topics": [
+      "Пояснение, что порог €150 считается по intrinsic value товара; shipping/insurance обычно включаются в VAT taxable amount, но не в сам threshold для customs duty relief.",
+      "IOSS caveat: только до €150, не для excise goods; если IOSS не передан перевозчику, возможна ошибочная повторная cobrança de IVA.",
+      "Разница между VAT rate по категории товара и региональной ставкой mainland/Madeira/Açores.",
+      "Исключения из low-value relief: alcohol, tobacco, perfumes/toilet waters и restricted/prohibited goods.",
+      "Рекомендация проверять HS/TARIC-код в TARIC перед покупкой дорогих товаров.",
+      "Что делать при двойном начислении IVA: собрать invoice/proof of VAT/IOSS, обратиться в CTT/курьера и к продавцу за refund/коррекцией.",
+      "Предупреждение о фишинговых SMS якобы от CTT/DHL и проверке ссылок через официальный tracking/портал.",
+      "Список типичных документов: invoice, proof of payment, NIF, descrição do conteúdo, autorização de desalfandegamento, proof of identity if requested."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5621,
+    "prompt_tokens": 2812,
+    "total_tokens": 8433
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,316 @@
+{
+  "guideId": "vaccinations-pt",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has several major factual errors in the Portuguese PNV schedule, overstates school/vaccine obligations, uses outdated/unclear travel-vaccine references, and confuses adult booster recommendations.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Дети получают комплекс обязательных прививок по графику (0-18 лет).",
+        "problem": "In Portugal the vaccines in the PNV are recommended and free, but they are not generally legally mandatory; calling them “обязательные” is misleading, especially because the guide later says schools can refuse admission.",
+        "suggestion": "Write: “Дети получают рекомендованные и бесплатные прививки по PNV; юридически они обычно не являются обязательными, но школы/врачи могут попросить boletim de vacinas и направить на догоняющую вакцинацию.”",
+        "confidence": "high",
+        "source": "DGS — Programa Nacional de Vacinação / SNS24 Vacinação"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Tdap (столбняк) каждые 10 лет",
+        "problem": "Portuguese adult boosters are not Tdap every 10 years for all adults. PNV uses Td boosters at specific adult ages and then more frequently after 65; Tdap is specifically recommended in pregnancy and at defined ages, not as the routine lifelong 10-year adult vaccine.",
+        "suggestion": "Replace with: “Td/Tdap: в PNV ревакцинация против столбняка/дифтерии по возрастному графику; Tdap особенно при беременности. Проверьте e-Boletim/центр здоровья.” Avoid saying “Tdap every 10 years”.",
+        "confidence": "high",
+        "source": "DGS — PNV, Norma 018/2020 and updates"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "flu ежегодно для 65+ и risk-groups",
+        "problem": "Seasonal influenza eligibility in recent DGS campaigns includes people aged 60+ as a key group, not only 65+. Exact pharmacy/SNS channels can vary by campaign.",
+        "suggestion": "Write: “грипп — ежегодно осенью/зимой для групп, определённых DGS в текущей campanha sazonal, обычно 60+, беременные, хронические заболевания и др.”",
+        "confidence": "high",
+        "source": "DGS — Campanha de Vacinação Sazonal contra a Gripe e COVID-19"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Travel-vacciens",
+        "problem": "Typo in English word.",
+        "suggestion": "Use “Travel vaccines”.",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Travel-vacciens (malaria, Hep A, yellow fever)",
+        "problem": "Malaria is not a vaccine in routine travel medicine; the guide later correctly says it is prophylactic tablets. Listing it under vaccines in the TLDR is misleading.",
+        "suggestion": "Write: “Travel vaccines and prophylaxis: Hep A, typhoid, yellow fever, rabies, Japanese encephalitis; malaria — профилактические таблетки, не вакцина.”",
+        "confidence": "high",
+        "source": "SNS24 — Consulta do Viajante"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "PNV ... утверждается DGS ежегодно. Последняя редакция — 2024.",
+        "problem": "PNV is maintained through DGS norms/updates, not necessarily “approved annually”. Saying the last edition is 2024 is risky/outdated for a guide verified in April 2026; the correct reference should be the current DGS PNV page/norm and its latest update date.",
+        "suggestion": "Write: “PNV утверждается и обновляется DGS через нормы и технические документы; проверяйте актуальную версию на странице DGS/SNS24.” Cite the current PNV norm/update rather than a bare “2024”.",
+        "confidence": "medium",
+        "source": "DGS — Programa Nacional de Vacinação; Norma 018/2020 and updates"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].title",
+        "current": "Дети — обязательные прививки PNV",
+        "problem": "“Обязательные” is legally misleading. PNV vaccination is strongly recommended and free, but not generally compulsory by law.",
+        "suggestion": "Change title to: “Дети — прививки по PNV” or “Дети — рекомендованные бесплатные прививки PNV”.",
+        "confidence": "high",
+        "source": "DGS — Programa Nacional de Vacinação"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0].content[0].items[0]",
+        "current": "0 мес: BCG (туберкулёз), Hep B доза 1",
+        "problem": "BCG is no longer universal at birth in Portugal; since 2017 it is given only to children in defined risk groups. Presenting it as a routine 0-month PNV vaccine is wrong.",
+        "suggestion": "Write: “0 мес: Hep B доза 1. BCG — только для детей из групп риска/по критериям DGS, не универсально.”",
+        "confidence": "high",
+        "source": "DGS — Estratégia de vacinação contra a tuberculose / PNV"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "6 мес: Hep B, MenB",
+        "problem": "At 6 months the standard PNV dose is the hexavalent DTPa-Hib-IPV-HB combination; MenB is not normally scheduled at 6 months in the standard PNV schedule.",
+        "suggestion": "Write: “6 мес: DTPa-Hib-IPV-HB / hexavalent dose.” Check the current DGS schedule for exact product names.",
+        "confidence": "high",
+        "source": "DGS — PNV schedule"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "12 мес: Prevnar 13, MenC, MMR (корь-паротит-краснуха), ветрянка",
+        "problem": "Varicella is not a universal routine PNV vaccine for all children in Portugal. It is used in specific situations/risk groups. The item also omits MenB booster at 12 months if describing the standard current PNV schedule.",
+        "suggestion": "Write: “12 мес: pneumococcal conjugate, MenB, MenC/MenACWY as per current PNV, MMR/VASPR. Varicella — не универсальная PNV-вакцина; только по показаниям/частно.”",
+        "confidence": "high",
+        "source": "DGS — PNV schedule"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "18 мес: DTaP-HBV-Hib-IPV (бустер), MMR 2, ветрянка 2",
+        "problem": "MMR second dose is not scheduled at 18 months in the standard Portuguese PNV; it is given later, commonly at 5 years. Varicella second dose is not universal PNV. The 18-month hexavalent booster part is plausible, but the rest is wrong.",
+        "suggestion": "Write: “18 мес: DTPa-Hib-IPV-HB booster/hexavalent booster. MMR 2 — в возрасте 5 лет по PNV; varicella — не универсально.”",
+        "confidence": "high",
+        "source": "DGS — PNV schedule"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "5 лет: DTaP-IPV (бустер)",
+        "problem": "The 5-year PNV visit also includes the second MMR/VASPR dose. The guide wrongly placed MMR2 at 18 months.",
+        "suggestion": "Write: “5 лет: DTPa-IPV booster + MMR/VASPR 2.”",
+        "confidence": "high",
+        "source": "DGS — PNV schedule"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[0]",
+        "current": "10 лет (девочки): HPV — защита от рака шейки матки",
+        "problem": "HPV vaccination is not only for cervical cancer and is part of the PNV for girls and boys. Splitting into “girls” and “boys since 2020” is historically informative but less useful than stating the current rule. The current number of doses should also be checked because Portugal has moved toward simplified HPV schedules.",
+        "suggestion": "Write: “10 лет: HPV для девочек и мальчиков по PNV; защищает от HPV-related cancers and disease. Проверяйте актуальное число доз в e-Boletim/DGS.”",
+        "confidence": "medium",
+        "source": "DGS — PNV / HPV vaccination updates"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[2]",
+        "current": "14 лет: Tdap (столбняк-дифтерия-коклюш, бустер)",
+        "problem": "The adolescent Tdap/Td timing shown is not the standard Portuguese PNV schedule. Portugal’s routine adolescent booster is around 10 years in the PNV, with later adult Td boosters.",
+        "suggestion": "Verify against the current DGS table and write the actual PNV age; do not state 14 years unless citing a specific DGS update.",
+        "confidence": "high",
+        "source": "DGS — PNV schedule"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[2].content[0].items[3]",
+        "current": "18 лет: MenACWY (менингококк)",
+        "problem": "MenACWY is not a routine PNV vaccine at 18 years in Portugal. It is part of the adolescent schedule at a younger age and/or used for risk/travel/academic-residence indications depending on rules.",
+        "suggestion": "Replace with the current DGS adolescent meningococcal schedule, e.g. “MenACWY — в подростковом возрасте по PNV, не ‘18 лет’ для всех; для поездок/общежитий может понадобиться отдельно.”",
+        "confidence": "high",
+        "source": "DGS — PNV schedule"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0]",
+        "current": "Tdap ... каждые 10 лет на всю жизнь",
+        "problem": "Incorrect vaccine/product and interval for the Portuguese adult PNV. Routine adult boosters are Td, with different intervals by age; Tdap is not routinely every 10 years lifelong.",
+        "suggestion": "Write: “Td/Tdap: ревакцинация по PNV adult schedule; обычно Td в 25/45/65 и затем чаще после 65, Tdap при беременности и отдельных показаниях. Проверьте e-Boletim.”",
+        "confidence": "high",
+        "source": "DGS — PNV adult schedule"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1]",
+        "current": "Flu (грипп): ежегодно с октября для 65+, беременных, medical risk groups. Для остальных — платно 15-25 €",
+        "problem": "Age threshold is outdated/misleading; recent Portuguese seasonal campaigns include 60+ as a main free/recommended group. Also the campaign details and pharmacy eligibility can change each season.",
+        "suggestion": "Write: “Грипп: ежегодно в сезонной кампании DGS, обычно бесплатно/рекомендовано для 60+, беременных, chronic/risk groups and professionals; exact pharmacy/SNS eligibility changes by campaign.”",
+        "confidence": "high",
+        "source": "DGS — Campanha de Vacinação Sazonal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "COVID booster: по рекомендации DGS. 2024-2026 — обычно для 65+, risk groups",
+        "problem": "The age threshold is likely too narrow: recent seasonal campaigns have commonly aligned COVID boosters with 60+ and risk groups. Saying “2024-2026” as a fixed rule is unsafe because DGS issues seasonal campaign rules.",
+        "suggestion": "Write: “COVID booster — по текущей campanhaonal DGS, usually older adults, risk groups, pregnant people and health/social-care groups; age threshold can change.”",
+        "confidence": "medium",
+        "source": "DGS — Campanha de Vacinação Sazonal COVID-19"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[6]",
+        "current": "HPV для взрослых: доступна до 45 лет платно (3 дозы × 180 €)",
+        "problem": "This is oversimplified. HPV vaccines are authorised/recommended by age, sex, prior vaccination and clinical judgement; “до 45 лет” is not a universal Portuguese entitlement/rule. Cost also varies by product and pharmacy/clinic.",
+        "suggestion": "Write: “HPV adults: возможна вне PNV по назначению врача/фармакотерапевтическим показаниям; возраст, число доз и цена зависят от препарата и анамнеза. Для не покрытых PNV — обычно платно.”",
+        "confidence": "medium",
+        "source": "Infarmed product information; DGS HPV vaccination guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[7]",
+        "current": "Пневмококк PPSV23: для 65+ или chronic conditions",
+        "problem": "This is too simplified and potentially misleading. Portuguese pneumococcal recommendations often use conjugate vaccines and/or PPSV23 depending on age/risk group; free SNS coverage is not simply all 65+ in the same way as PNV childhood vaccines.",
+        "suggestion": "Write: “Pneumococcal vaccination: for older adults and defined risk groups, but product sequence and reimbursement/free eligibility depend on DGS norms and doctor prescription; ask centro de saúde.”",
+        "confidence": "medium",
+        "source": "DGS — pneumococcal vaccination norms"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[1].items[0].content[0].items[0]",
+        "current": "CINAP (Consulta de Medicina do Viajante) — государственные консультации в Lisboa, Porto, Coimbra. По записи, бесплатная консультация + платные вакцины",
+        "problem": "“CINAP” is not the standard name for travel medicine in Portugal. The usual terms are “Consulta do Viajante” and “Centros de Vacinação Internacional”. Public consultations are not limited to Lisbon/Porto/Coimbra, and “free consultation” is not a safe general statement.",
+        "suggestion": "Use: “Consulta do Viajante / Centros de Vacinação Internacional — список и контакты на SNS24/DGS; доступность, booking and fees vary by unit.”",
+        "confidence": "high",
+        "source": "SNS24 — Consulta do Viajante; DGS — Centros de Vacinação Internacional"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[1].items[0].content[0].items[2]",
+        "current": "SNS — YellowFever делает только в специализированных центрах (Lisboa Hospital CUF Infante Santo, Porto Hospital de São João)",
+        "problem": "Yellow fever vaccination is administered in authorised International Vaccination Centres, and there are many authorised public/private centres. It is not “only” at those two hospitals, and CUF is private rather than “SNS”.",
+        "suggestion": "Write: “Yellow fever — только в authorised Centros de Vacinação Internacional, которые выдают International Certificate; check the official SNS24/DGS list for locations.”",
+        "confidence": "high",
+        "source": "SNS24/DGS — Centros de Vacinação Internacional"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[0].content[0].items[3]",
+        "current": "Запись CINAP: portaldasaude.pt или тел. 808 24 24 24",
+        "problem": "portaldasaude.pt is an old/obsolete reference and not a good booking source in 2026. The correct general official entry point is SNS24/SNS 24 line or the specific hospital/ULS/CVI contact.",
+        "suggestion": "Replace with: “Запись: через SNS24 information pages, SNS 24 line 808 24 24 24, or directly with the chosen Consulta do Viajante/Centro de Vacinação Internacional.”",
+        "confidence": "high",
+        "source": "SNS24 — Consulta do Viajante"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[1].content[0].items[0]",
+        "current": "Yellow Fever ... 40-60 € + сертификат",
+        "problem": "The price range may be outdated/too narrow for 2026 and depends on centre, vaccine price and certificate/administration fees. The important legal point is that the certificate must be issued by an authorised International Vaccination Centre.",
+        "suggestion": "Write: “Yellow fever: 1 dose usually lifelong; must be administered/recorded by authorised CVI for the International Certificate. Price varies by centre—check official tariff/clinic price.”",
+        "confidence": "medium",
+        "source": "SNS24/DGS — Centros de Vacinação Internacional; WHO International Health Regulations"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "С 2015 боолетим — электронный в SNS 24 app",
+        "problem": "Typo: “боолетим”. Also, the electronic vaccination record is available through SNS 24/Área do Cidadão, but paper records may still exist and foreign/private vaccines may not appear until registered.",
+        "suggestion": "Write: “Boletim de Vacinas может быть электронным в SNS 24/Área do Cidadão; старые бумажные записи и иностранные/частные прививки нужно принести для регистрации.”",
+        "confidence": "high",
+        "source": "SNS24 — Boletim de Vacinas / e-Boletim"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].items[4]",
+        "current": "Дети: требуется boletim при записи в школу; без него школа может отказать",
+        "problem": "This is misleading and likely wrong. Schools may request vaccination records and alert health authorities, but because PNV vaccines are not generally compulsory, a public school should not refuse access to education solely because the child lacks a boletim/vaccines.",
+        "suggestion": "Write: “Школа может попросить boletim de vacinas and refer the family to the health centre, but absence/incomplete vaccination normally should not by itself bar school enrolment; clarify case-by-case with school/centro de saúde.”",
+        "confidence": "high",
+        "source": "DGS/SNS24 vaccination guidance; Portuguese right to education framework"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "в PNV обязательных вакцин можно догнать в один визит",
+        "problem": "Catch-up vaccination cannot always be completed “in one visit”; some vaccines require minimum intervals and multi-dose series. Multiple vaccines can often be started at the same visit, but not necessarily finished.",
+        "suggestion": "Write: “Недостающие прививки начнут догонять по catch-up schedule; часть можно сделать в один визит, но серии требуют интервалов.”",
+        "confidence": "high",
+        "source": "DGS — PNV catch-up vaccination guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[6]",
+        "current": "пневмококк (Prevnar 13) и MenB часто не делали — догонят в PT",
+        "problem": "“Prevnar 13” is a brand/product and may not be the currently used pneumococcal conjugate product. Also catch-up eligibility depends on age and PNV rules; not every older child/adult will simply get all infant vaccines for free.",
+        "suggestion": "Write: “pneumococcal conjugate vaccine and MenB may differ from your home-country schedule; the health centre will assess age-appropriate catch-up and eligibility.”",
+        "confidence": "medium",
+        "source": "DGS — PNV schedule and catch-up rules"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "Flu shot платно: 15-25",
+        "problem": "This is not always paid. Seasonal flu vaccination is free for DGS-defined eligible groups and, in recent campaigns, many 60+ residents can receive it through SNS/pharmacies. Paid price varies.",
+        "suggestion": "Change label to: “Flu shot outside eligible free groups: approx. pharmacy/clinic price varies; eligible groups per annual DGS campaign: free.”",
+        "confidence": "high",
+        "source": "DGS — Campanha de Vacinação Sazonal"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "Travel consultation CINAP: 0-30",
+        "problem": "“CINAP” is the wrong/unclear label, and the cost range is not reliable across public ULS/hospitals and private clinics. The consultation may be subject to a fee or private tariff.",
+        "suggestion": "Use: “Consulta do Viajante: fee varies by public/private provider; check the chosen ULS/hospital/clinic.”",
+        "confidence": "high",
+        "source": "SNS24 — Consulta do Viajante"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "DGS — Plano Nacional de Vacinação — https://www.dgs.pt/",
+        "problem": "The source is only the DGS homepage, not the specific PNV page/norm. For a schedule-heavy guide this is insufficient and makes verification hard.",
+        "suggestion": "Replace/add the specific DGS PNV page and the applicable PNV norm/update PDF, e.g. DGS Programa Nacional de Vacinação / Norma 018/2020 and amendments.",
+        "confidence": "high",
+        "source": "DGS — Programa Nacional de Vacinação"
+      },
+      {
+        "severity": "major",
+        "where": "sources[2]",
+        "current": "CINAP — Medicina do Viajante — https://www.sns.gov.pt/",
+        "problem": "Generic SNS homepage and non-standard “CINAP” title. It should link to SNS24 Consulta do Viajante and/or DGS list of Centros de Vacinação Internacional.",
+        "suggestion": "Replace with official specific pages: “SNS24 — Consulta do Viajante” and “DGS/SNS24 — Centros de Vacinação Internacional”.",
+        "confidence": "high",
+        "source": "SNS24 — Consulta do Viajante; DGS — Centros de Vacinação Internacional"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that PNV vaccines are recommended/free, not generally legally mandatory.",
+      "Add the exact current DGS PNV schedule table or link to the current official schedule instead of manually listing a partly wrong schedule.",
+      "Explain BCG is only for defined risk groups, not universal newborn vaccination.",
+      "Explain varicella is not a universal PNV childhood vaccine in Portugal.",
+      "Mention pregnancy vaccination: Tdap in every pregnancy and seasonal flu/COVID per DGS campaign.",
+      "Mention seasonal campaign rules for flu/COVID change annually and eligibility should be checked each autumn.",
+      "Add catch-up vaccination caveat: foreign records need assessment; some series require intervals and cannot be completed in one visit.",
+      "Add official travel medicine terminology: Consulta do Viajante and Centros de Vacinação Internacional, not CINAP.",
+      "Add that yellow fever certificates must be issued by authorised International Vaccination Centres.",
+      "Add specific official DGS/SNS24 source links for PNV schedule, e-Boletim, Consulta do Viajante, and Centros de Vacinação Internacional."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6723,
+    "prompt_tokens": 3060,
+    "total_tokens": 9783
+  },
+  "model": "gpt-5.5"
+}

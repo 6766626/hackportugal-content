@@ -1,0 +1,159 @@
+{
+  "guideId": "hiking-trails",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гид в целом полезный, но содержит несколько существенных фактических ошибок и устаревших утверждений по Madeira/Açores, маркировке PR, пожарным ограничениям и приложениям.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Бесплатно за вход, но некоторые парки требуют регистрации онлайн.",
+        "problem": "Слишком обобщённо и частично неверно: на Мадейре с 2025 года для нерезидентов старше 12 лет введена плата за официальные рекомендуемые пешеходные маршруты IFCN, включая популярные levadas; на Pico в Азорах восхождение на гору требует регистрации и оплаты через Casa da Montanha. Это не просто «некоторые парки требуют регистрации».",
+        "suggestion": "Написать: «На материке большинство природных парков бесплатны, но на Мадейре официальные recommended walking routes IFCN платные для нерезидентов старше 12 лет, а на Pico/Açores подъём на Montanha do Pico требует регистрации, лимитов по вместимости и оплаты».",
+        "confidence": "high",
+        "source": "IFCN Madeira; Governo dos Açores / Casa da Montanha do Pico"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[1]",
+        "current": "350 км размеченных троп",
+        "problem": "Формулировка про levadas вводит в заблуждение. Сеть levadas на Мадейре обычно указывается как около/более 3 000 км каналов, но не все они являются официальными или безопасными маршрутами. Если речь об официальных walking routes, нужно отделять их от всей сети levadas.",
+        "suggestion": "Заменить на: «На Мадейре около 3 000 км levadas, но ходить следует по официальным recommended walking routes IFCN/Visit Madeira и проверять статус маршрута перед выходом».",
+        "confidence": "high",
+        "source": "Visit Madeira; IFCN Madeira"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].title",
+        "current": "🟡⚪ PR (Pequena Rota) — однодневные",
+        "problem": "Неверная маркировка: в Португалии PR/Pequena Rota маркируются жёлто-красным, а не жёлто-белым. Бело-красная маркировка используется для GR.",
+        "suggestion": "Заменить заголовок на: «🟡🔴 PR (Pequena Rota) — короткие/однодневные». Можно добавить: «GR = branco/vermelho, PR = amarelo/vermelho, SL = verde/branco».",
+        "confidence": "high",
+        "source": "Federação Portuguesa de Campismo e Montanhismo / Rede de Trilhos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3]",
+        "current": "**ViewRanger / Komoot** — Європейские, detailed",
+        "problem": "ViewRanger как самостоятельное приложение устарело: сервис был закрыт/перенесён в Outdooractive после приобретения Outdooractive. Рекомендовать его в 2026 году некорректно.",
+        "suggestion": "Заменить на: «Komoot / Outdooractive — европейские приложения с офлайн-картами и GPX». ViewRanger убрать.",
+        "confidence": "high",
+        "source": "Outdooractive / ViewRanger service migration notices"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[4]",
+        "current": "🔥 **Пожары**: июль-сентябрь — высокий риск; красный уровень = запрет на все открытые трассы. Проверить на dgeg.gov.pt",
+        "problem": "Неверный источник: DGEG — это энергетика/геология, не официальный источник для лесных пожаров и запретов на маршруты. Также «красный уровень = запрет на все открытые трассы» слишком грубо: ограничения зависят от уровня пожароопасности, муниципалитета, protected area, конкретных closures и правил ICNF/ANEPC/municipality.",
+        "suggestion": "Заменить на: «Пожары: летом проверяйте risco de incêndio rural и ограничения на ICNF, IPMA, ANEPC и сайтах муниципалитетов/парков. В периоды muito elevado/máximo могут быть запрещены прогулки в лесных зонах, доступ к отдельным маршрутам и использование огня».",
+        "confidence": "high",
+        "source": "ICNF; IPMA; ANEPC"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[1]",
+        "current": "**Pico**: восхождение на Pico Mountain (2 351 м) — самая высокая точка PT. Сложно, с гидом, 7-9 часов",
+        "problem": "«С гидом» звучит как обязательное требование, но для Montanha do Pico ключевые обязательные элементы — регистрация, оплата, лимиты посещаемости и check-in/check-out в Casa da Montanha; гид обычно рекомендован, но не всегда обязателен.",
+        "suggestion": "Написать: «Pico: 2 351 м, самая высокая точка Португалии. Требуются регистрация/оплата через Casa da Montanha, есть лимиты по количеству людей и погодные закрытия; гид настоятельно рекомендован для неопытных, но не всегда обязателен».",
+        "confidence": "high",
+        "source": "Governo dos Açores / Casa da Montanha do Pico"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[3]",
+        "current": "Tent (если бэкпэкинг) или бронь albergue заранее",
+        "problem": "Нет важного юридического caveat: wild camping/bivouac в Португалии ограничен, а в protected areas часто запрещён или требует разрешения. Фраза создаёт впечатление, что можно свободно идти с палаткой по многодневным маршрутам.",
+        "suggestion": "Добавить: «Палатка — только если ночёвка разрешена: wild camping в protected areas обычно запрещён/ограничен; используйте campings, parques de campismo, albergues или заранее согласованные места».",
+        "confidence": "high",
+        "source": "ICNF; Portuguese protected area regulations"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Rota Vicentina в SW Alentejo (450 км)",
+        "problem": "Число 450 км устаревшее/неполное, если речь обо всей Rota Vicentina. Сейчас официальный продукт включает Historical Way, Fishermen’s Trail и Circular Routes, суммарно обычно указывается как более 750 км пешеходных маршрутов. Если речь только о двух главных линейных маршрутах, это нужно уточнить.",
+        "suggestion": "Написать: «Rota Vicentina — сеть маршрутов SW Alentejo и Costa Vicentina: более 750 км с учётом Circular Routes; две главные линии — Historical Way и Fishermen’s Trail».",
+        "confidence": "high",
+        "source": "Rota Vicentina official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].title",
+        "current": "Algarve — Rota Vicentina",
+        "problem": "Заголовок географически сужает маршрут. Rota Vicentina проходит по Southwest Alentejo и Costa Vicentina, включая Alentejo и Algarve; значительная часть — не Algarve.",
+        "suggestion": "Заменить на: «SW Alentejo и Costa Vicentina — Rota Vicentina».",
+        "confidence": "high",
+        "source": "Rota Vicentina official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[0]",
+        "current": "**Trilho dos Pescadores** — costal trail, 230 км по SW побережью",
+        "problem": "Опечатка «costal» вместо «coastal». Также официальная длина Fishermen’s Trail обычно указывается около 226 км/226,5 км, так что 230 км допустимо как округление, но лучше обозначить как приблизительное.",
+        "suggestion": "Написать: «Fishermen’s Trail / Trilho dos Pescadores — coastal trail, около 226–230 км».",
+        "confidence": "high",
+        "source": "Rota Vicentina official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[4].content[0].items[1]",
+        "current": "**Serra de Sintra** — лесные trails через национальный дворец Pena",
+        "problem": "Маршруты не проходят «через» дворец Pena; они проходят по Serra de Sintra, парку/лесам и окрестностям Palácio da Pena. Фраза может создать неверное ожидание свободного прохода через платную дворцовую территорию.",
+        "suggestion": "Заменить на: «Serra de Sintra — лесные тропы вокруг Parque da Pena, Castelo dos Mouros и других точек; вход в отдельные памятники/парки может быть платным».",
+        "confidence": "high",
+        "source": "Parques de Sintra"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2]",
+        "current": "🐍 **Змеи**: vípera seoanei ядовитая — редко встречается, обычно убегает. Проверить ботинки утром",
+        "problem": "Неполно: в Португалии есть две ядовитые гадюки, включая Vipera latastei, которая релевантна для большей части территории. Vipera seoanei ограничена севером/северо-западом.",
+        "suggestion": "Написать: «Ядовитые гадюки встречаются редко: Vipera latastei и на севере Vipera seoanei. Обычно избегают людей; смотрите под ноги, не лезьте руками в камни/кусты».",
+        "confidence": "high",
+        "source": "ICNF / Portuguese herpetology references"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[0]",
+        "current": "Вход в parks (NP Gerês, Estrela) — 0",
+        "problem": "Для Gerês и Serra da Estrela это в целом верно, но в таблице costs нет отдельных обязательных расходов для Madeira official trails и Pico Mountain, хотя они прямо описаны в guide. Это делает блок расходов неполным.",
+        "suggestion": "Оставить строку про материк, но добавить отдельные строки: «Madeira official recommended walking routes — платно для нерезидентов старше 12 лет» и «Montanha do Pico — регистрация/плата через Casa da Montanha».",
+        "confidence": "high",
+        "source": "IFCN Madeira; Governo dos Açores / Casa da Montanha do Pico"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "\"title\": \"Federação Portuguesa de Campismo e Montanhismo\", \"url\": \"https://fcmportugal.com/\", \"kind\": \"company\"",
+        "problem": "FCMP — не company в смысле коммерческого источника; это федерация/официальный спортивный орган для homologação de percursos pedestres. Классификация источника как company снижает доверие и путает.",
+        "suggestion": "Изменить kind на «official» или «association/official federation» в зависимости от вашей схемы.",
+        "confidence": "high",
+        "source": "Federação Portuguesa de Campismo e Montanhismo"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Нет отдельного источника для Азорских маршрутов и Pico Mountain",
+        "problem": "В guide есть отдельный блок про Açores и Pico, но в sources нет trails.visitazores.com или Casa da Montanha. Для безопасности и обязательной регистрации это должен быть первичный источник.",
+        "suggestion": "Добавить источники: «Azores Trails — https://trails.visitazores.com/» и официальный источник Casa da Montanha / Montanha do Pico от Governo dos Açores.",
+        "confidence": "high",
+        "source": "Visit Azores; Governo dos Açores"
+      }
+    ],
+    "missing_topics": [
+      "Платные маршруты Madeira/IFCN для нерезидентов и необходимость проверять closures после дождей, оползней и работ",
+      "Регистрация, лимиты, оплата и погодные закрытия для Montanha do Pico",
+      "Правила wild camping/bivouac и запреты в protected areas",
+      "Официальные источники по пожароопасности: ICNF, IPMA, ANEPC и муниципальные alerts вместо DGEG",
+      "Проверка статуса маршрута перед выходом: closures, landslides, hunting/forestry works, погодные предупреждения",
+      "Различие маркировки GR/PR/SL: GR бело-красный, PR жёлто-красный, SL зелёно-белый"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4602,
+    "prompt_tokens": 3734,
+    "total_tokens": 8336
+  },
+  "model": "gpt-5.5"
+}

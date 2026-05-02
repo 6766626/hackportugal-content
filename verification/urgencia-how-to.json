@@ -1,0 +1,185 @@
+{
+  "guideId": "urgencia-how-to",
+  "categoryId": "emergency_rights",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful in spirit but has several healthcare-specific factual errors and misleading shortcuts, especially around SNS 24 staffing/app functionality, fees, private hospital costs, and outdated hospital names in Porto/Lisbon.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Вами займутся в пределах 10 мин (красный) — 240 мин (синий).",
+        "problem": "Manchester triage target time for red is immediate, not 10 minutes. 10 minutes is orange.",
+        "suggestion": "Write: «Вас должны принять немедленно при красном, до 10 минут при оранжевом, до 60/120/240 минут при жёлтом/зелёном/синем».",
+        "confidence": "high",
+        "source": "Grupo Português de Triagem / Manchester Triage System"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Врач / медсестра по телефону определит что делать",
+        "problem": "SNS 24 triage line is primarily nurse-led triage using clinical algorithms. Presenting it as a doctor line is misleading; callers should not expect to speak to a doctor.",
+        "suggestion": "Write: «медсестра/оператор SNS 24 по протоколу триажа оценит симптомы и направит: self-care, consulta aberta/centro de saúde, atendimento complementar, urgência или 112».",
+        "confidence": "high",
+        "source": "SNS 24 — Triagem, Aconselhamento e Encaminhamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[5]",
+        "current": "Приложение SNS 24: чат с врачом, видеозвонок — без ожидания телефонного оператора",
+        "problem": "This overstates the SNS 24 app. The app/portal gives access to digital services and may support scheduled teleconsultations or contacts in specific contexts, but it is not a general on-demand doctor chat/video triage replacement for calling 808 24 24 24.",
+        "suggestion": "Replace with: «Приложение/портал SNS 24 полезны для рецептов, marcações, certificados, utente data и некоторых цифровых сервисов, но для срочного триажа обычно звонят 808 24 24 24 или 112 при угрозе жизни».",
+        "confidence": "high",
+        "source": "SNS 24 official app and portal service descriptions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[6]",
+        "current": "💡 У SNS 24 часто менее загруженно, чем у urgência — 15 мин на диагностику",
+        "problem": "The fixed '15 min' expectation is not reliable. SNS 24 waiting times vary heavily by season, epidemics, strikes, and regional incidents.",
+        "suggestion": "Write: «Часто быстрее, чем ехать в urgência без направления, но ожидание на линии зависит от нагрузки».",
+        "confidence": "high",
+        "source": "SNS 24 operational practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "Центры здоровья имеют dedicated «Atendimento Complementar» — для ситуаций, не требующих госпитализации",
+        "problem": "Not every centro de saúde/USF has a dedicated Atendimento Complementar unit, and naming/availability differs by ULS: consulta aberta, doença aguda, atendimento complementar, SAP-like services, etc.",
+        "suggestion": "Write: «Во многих ULS есть consulta aberta / doença aguda / atendimento complementar для острых, но не hospital-level случаев. Доступ, часы и название зависят от вашего centro de saúde/ULS; лучше уточнять через SNS 24 или свою USF/UCSP».",
+        "confidence": "high",
+        "source": "SNS 24 and ULS local service pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[4]",
+        "current": "Бесплатно (taxa moderadora отменена, Lei 22/2022)",
+        "problem": "Reference is wrong/misleading. The relevant reform is Decreto-Lei 37/2022, not 'Lei 22/2022'. Also, taxas moderadoras were broadly abolished in SNS, but hospital emergency fees can still apply if the patient was not referred by SNS 24/INEM/primary care and is not admitted, subject to exemptions.",
+        "suggestion": "Write: «В SNS большинство taxas moderadoras отменены с 2022 года, но hospital urgência может быть платной, если вы пришли без направления SNS 24/INEM/centro de saúde и вас не госпитализировали. С направлением SNS 24 обычно не платите taxa moderadora».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022; ACSS taxas moderadoras"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[3]",
+        "current": "📱 **Приложение «Tempos de Espera SNS»** — реальные waiting times по всем госпиталям!",
+        "problem": "Misleading scope. The official service shows estimated waiting times for SNS/public emergency departments that report data; it is not literally 'all hospitals', does not cover private hospitals, and data can lag or be unavailable. Calling it an app may also be confusing because the reliable reference is the official web service.",
+        "suggestion": "Write: «Официальный сайт Tempos de Espera SNS показывает ориентировочные waiting times по urgências do SNS, где есть данные; частные hospitals туда не входят, а данные могут обновляться с задержкой».",
+        "confidence": "high",
+        "source": "Tempos de Espera SNS — https://tempos.min-saude.pt/"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].items[0]",
+        "current": "Стоимость: 20-80 € за visit (no insurance), 0-15 € co-payment with private insurance",
+        "problem": "Too low for private emergency without insurance and too optimistic for insurance copay. Private urgent-care consultation alone commonly costs around €70-120+ without insurance, and tests/imaging/procedures are billed separately. Insurance copays often exceed €15 depending on plan/network.",
+        "suggestion": "Write: «Без страховки: ориентируйтесь примерно на €80-150+ только за консультацию urgência/atendimento permanente; анализы, RX, TAC, УЗИ, процедуры и лекарства оплачиваются отдельно. Со страховкой copay зависит от плана и сети: часто €15-50+».",
+        "confidence": "high",
+        "source": "Published price lists of CUF, Luz Saúde, Lusíadas and common Portuguese private insurance tables"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3].content[0].items[4]",
+        "current": "Консультация, анализы, рентген, UK — на месте",
+        "problem": "Likely typo: 'UK' is not a medical exam in Russian/Portuguese context. It probably means 'УЗИ' / ultrasound / ecografia.",
+        "suggestion": "Replace «UK» with «УЗИ / ecografia», and add that availability depends on the specific private unit and time of day.",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[4].content[0].items[0]",
+        "current": "**Pediátrica** (дети до 15-18 лет): отдельные отделения, обычно менее загружены. Hospital Dona Estefânia в Лиссабоне, Maria Pia в Porto",
+        "problem": "Hospital Maria Pia in Porto is outdated as a pediatric emergency reference; pediatric services were integrated into Centro Materno-Infantil do Norte / ULS Santo António years ago. Also 'usually less busy' is not safe advice: pediatric urgências in Portugal often have constraints/closures and SNS 24 routing is important.",
+        "suggestion": "Write: «Pediátrica: до 18 лет в many SNS settings. В Лиссабоне — e.g. Dona Estefânia / Santa Maria depending on area and availability; в Porto — Centro Materno-Infantil do Norte / ULS Santo António and São João pediatric services. Always check SNS 24/Tempos de Espera because pediatric urgências can be constrained».",
+        "confidence": "high",
+        "source": "ULS Santo António / Centro Materno-Infantil do Norte; SNS Tempos de Espera"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[4].content[0].items[1]",
+        "current": "**Gnecológica / Obstétrica**: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)",
+        "problem": "Maternidade Júlio Dinis as a standalone Porto maternity reference is outdated; services moved into Centro Materno-Infantil do Norte. Also typo: 'Gnecológica' should be 'Ginecológica'.",
+        "suggestion": "Write: «Ginecológica / Obstétrica: Lisboa — Maternidade Alfredo da Costa and other SNS maternity units depending on escala; Porto — Centro Materno-Infantil do Norte / ULS Santo António, São João, etc. Confirm through SNS 24/112 for pregnancy emergencies».",
+        "confidence": "high",
+        "source": "ULS Santo António / Centro Materno-Infantil do Norte; SNS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[4].content[0].items[2]",
+        "current": "**Psiquiátrica**: Hospital Magalhães Lemos (Porto), Hospital Júlio de Matos (Lisboa)",
+        "problem": "Psychiatric emergency routing is more complex and changes by ULS/on-call arrangements. Hospital Júlio de Matos is not a simple walk-in psychiatric emergency recommendation for Lisbon in the way the text implies. In acute risk of self-harm/psychosis/aggression, 112/INEM is the correct route.",
+        "suggestion": "Write: «Psiquiátrica: for imminent self-harm, suicide risk, severe psychosis or danger to others call 112. Non-immediate cases: SNS 24 can route to the correct urgência psiquiátrica/ULS; do not assume every psychiatric hospital has walk-in emergency access».",
+        "confidence": "medium",
+        "source": "SNS 24; INEM; ULS local emergency service pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[0]",
+        "current": "У каждого резидента с utente есть право на одного",
+        "problem": "Legally/administratively residents registered in SNS should have access to primary care, but many users have no assigned médico de família because of shortages. Saying everyone 'has' one is misleading for newcomers.",
+        "suggestion": "Write: «После регистрации в centro de saúde вас ставят в USF/UCSP и, если есть availability, назначают médico de família. На практике многие utentes остаются sem médico de família; тогда используют consulta aberta/doença aguda, e-mail/secretaria da unidade и SNS 24».",
+        "confidence": "high",
+        "source": "SNS/ACSS primary care access data"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1]",
+        "current": "📝 **Rezipência (рецепт)**: medico de família выписывает на 3-6 мес для хронических — не надо ходить каждый раз в urgência",
+        "problem": "Typo and terminology error. 'Rezipência' is not Portuguese or Russian. Also chronic prescriptions can often be renewed electronically, but duration depends on medicine and clinical judgment.",
+        "suggestion": "Replace with: «📝 Receita médica / receita sem papel: для хронических лекарств médico de família может выписывать повторяемые электронные рецепты на несколько месяцев, в зависимости от препарата и контроля заболевания».",
+        "confidence": "high",
+        "source": "SNS 24 — Receita Sem Papel"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[3]",
+        "current": "💻 **MySNS portal** (mysns.min-saude.pt): видеть свои рецепты, записи, результаты анализов",
+        "problem": "Branding is outdated/confusing. Public-facing digital health services are now generally under SNS 24 / Área pessoal do portal SNS 24 and the app SNS 24. Some legacy MySNS references exist, but users are more likely to need sns24.gov.pt/app or the SNS 24 app.",
+        "suggestion": "Write: «Portal/app SNS 24 — área pessoal: receitas, marcações, certificados, contactos, boletins and available exam results depending on provider integration».",
+        "confidence": "high",
+        "source": "SNS 24 official portal"
+      },
+      {
+        "severity": "major",
+        "where": "sources[2]",
+        "current": "DGS — Manchester Triage System / https://www.dgs.pt/",
+        "problem": "The URL is too generic and not a useful/verifiable source for the exact Manchester target times. DGS homepage is not a direct Manchester triage reference.",
+        "suggestion": "Use a direct source such as Grupo Português de Triagem / Manchester Triage System materials, or a direct SNS/ULS page listing priority colors and target times.",
+        "confidence": "high",
+        "source": "Grupo Português de Triagem"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "posto médico de bairro",
+        "problem": "This is not the standard term a newcomer should search for. In Portugal people normally use centro de saúde, USF, UCSP, consulta aberta, atendimento complementar, or unidade de saúde.",
+        "suggestion": "Replace with «centro de saúde / USF / UCSP / consulta aberta» and explain the local name varies by ULS.",
+        "confidence": "high",
+        "source": "SNS primary care terminology"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "online cpueue status",
+        "problem": "Typo: 'cpueue' should be 'queue'.",
+        "suggestion": "Replace with «online queue status / tempos de espera».",
+        "confidence": "high",
+        "source": ""
+      }
+    ],
+    "missing_topics": [
+      "Explain that 112/INEM should be used immediately for chest pain suggestive of heart attack, stroke symptoms, severe breathing difficulty, major trauma, severe allergic reaction, unconsciousness, seizures, or imminent suicide/self-harm risk; do not call SNS 24 first in true emergencies.",
+      "Mention that a SNS 24 referral can affect hospital urgência fees and sometimes routing/priority; walking in without referral may still be accepted but can be slower and may trigger taxa moderadora if not admitted.",
+      "Clarify access for foreigners without Número de Utente: emergency care is provided, but billing/document requirements differ for tourists, EU EHIC holders, residents, asylum/protection holders, and people with private insurance.",
+      "Add caveat that emergency department availability in Portugal changes due to closures, strikes, specialty rota constraints, maternity/pediatric restrictions; check SNS 24/112/Tempos de Espera before choosing a hospital when the situation is not life-threatening.",
+      "Add direct official sources for taxas moderadoras, SNS 24 triage, and Manchester triage target times instead of only generic homepages."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4787,
+    "prompt_tokens": 3192,
+    "total_tokens": 7979
+  },
+  "model": "gpt-5.5"
+}

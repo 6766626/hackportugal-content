@@ -1,0 +1,177 @@
+{
+  "guideId": "flat-tyre-highway",
+  "categoryId": "auto_trips",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful on general safety behavior, but it contains several material inaccuracies: wrong Portuguese term for the shoulder, overstates a legal ban on changing a tyre, mislabels assistance numbers/operators, and gives unsafe tyre-pressure advice.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "съезжать на aceite de emergência",
+        "problem": "“aceite” in Portuguese means oil. This is not the motorway shoulder/emergency lane and will confuse readers in an emergency.",
+        "suggestion": "Replace with “berma / faixa de emergência” or, in Russian, “на обочину / аварийную полосу (berma/faixa de emergência)”.",
+        "confidence": "high",
+        "source": "Código da Estrada terminology; Portuguese road-safety usage"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2]",
+        "current": "съехать на aceite de emergência (обочина)",
+        "problem": "Same terminology error: “aceite de emergência” is not a valid road term.",
+        "suggestion": "Write: “съехать на berma / faixa de emergência, если это можно сделать безопасно”.",
+        "confidence": "high",
+        "source": "Código da Estrada terminology"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "треугольник 30 м → жилет",
+        "problem": "The order is unsafe and contradicts the guide’s own later instruction. The reflective vest should be put on before leaving the vehicle, especially before placing the warning triangle.",
+        "suggestion": "Change to: “аварийка → плавно съехать на berma/faixa de emergência → надеть colete retrorrefletor до выхода → пассажиры за отбойник → треугольник ≥30 м позади, видимый минимум за 100 м → звонок assistência/112”.",
+        "confidence": "high",
+        "source": "Código da Estrada, art. 88"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "707 500 501 Brisa или 707 509 510 IP",
+        "problem": "707 509 510 is not the general Infraestruturas de Portugal roadside number; it is commonly associated with Ascendi assistance. Labeling it as “IP” is misleading.",
+        "suggestion": "Write: “Brisa: 707 500 501; Ascendi: 707 509 510. Если не уверены в концессионере — используйте SOS-пост, номер на табличках трассы или звоните страховщику/112 при опасности”. Do not present 707 509 510 as IP.",
+        "confidence": "high",
+        "source": "Brisa Assistência Rodoviária; Ascendi roadside assistance contacts"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].text",
+        "current": "НЕ меняйте колесо на обочине autoestrada даже если у вас есть запаска. Это прямо запрещено Código da Estrada",
+        "problem": "The safety advice is sensible, but the legal claim is overstated. Código da Estrada does not support the simple blanket statement that changing a wheel is “categorically” and “directly” prohibited in every emergency situation. Portuguese law generally prohibits stopping/parking on motorways except emergency/breakdown situations and regulates repairs/signalling; the practical recommendation should be framed as safety-first rather than a categorical legal ban.",
+        "suggestion": "Replace with: “На autoestrada не пытайтесь менять колесо на стороне движения и не оставайтесь у машины: это крайне опасно. При поломке остановка на berma/faixa de emergência допустима только как вынужденная мера; включите аварийку, наденьте жилет, выставьте треугольник и вызывайте assistência. Самостоятельная замена возможна только если это абсолютно безопасно, но на трассе обычно правильнее вызвать помощь”.",
+        "confidence": "medium",
+        "source": "Código da Estrada, arts. 48, 72, 87, 88"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3]",
+        "current": "Поставить треугольник на расстоянии ≥30 м позади автомобиля (ст. 88 Código da Estrada)",
+        "problem": "The 30 m part is incomplete. Article 88 also requires the warning triangle to be visible from at least 100 m where possible. On fast roads this is an important safety detail.",
+        "suggestion": "Write: “Поставить треугольник позади автомобиля минимум за 30 м и так, чтобы он был виден минимум за 100 м; ставить только после того, как надели жилет и если это безопасно”.",
+        "confidence": "high",
+        "source": "Código da Estrada, art. 88"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "страховка assistência em viagem обычно покрывает эвакуацию и shuttle до ближайшего СТО. Обычно бесплатно первые 50–100 км.",
+        "problem": "Too broad. Assistance limits vary substantially by insurer and policy: towing distance, passenger transport, replacement car, hotel/taxi and territorial coverage are policy-specific. “Usually free first 50–100 km” may mislead drivers into assuming coverage.",
+        "suggestion": "Write: “Условия зависят от apólice: проверьте лимит reboque, transporte de passageiros, viatura de substituição, franquias и лимит километров. Не обещайте 50–100 км как правило; приведите это только как пример возможного лимита”.",
+        "confidence": "high",
+        "source": "Portuguese motor insurance policy conditions vary by insurer"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items",
+        "current": "Brisa (A1, A2, A5, A6, A9-A14): 707 500 501; Ascendi (A4, A7, A24, A25, A41, A42): 707 509 510; AE do Atlântico (A8, A15): 707 200 002; Norscut (A24): 800 203 021",
+        "problem": "The concession/operator mapping is oversimplified and partly confusing. A single motorway number can have different operators on different sections, and the list gives conflicting information for A24 by assigning it to both Ascendi and Norscut. It also omits/oversimplifies several concessions and may lead users to call the wrong operator.",
+        "suggestion": "Replace the route list with a safer instruction: “На autoestrada звоните по номеру, указанному на SOS-посте/табличках участка, или используйте SOS-пост; если не уверены — звоните страховщику assistência em viagem или 112 при опасности/ДТП. Примеры: Brisa 707 500 501; Ascendi 707 509 510; AE do Atlântico 707 200 002 — но оператор зависит от конкретного участка”.",
+        "confidence": "high",
+        "source": "Brisa, Ascendi and concessionaire official assistance pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[4]",
+        "current": "Всегда есть emergency-столбики (SOS) каждые 2 км",
+        "problem": "Overstated. SOS posts are common on many motorways, but “always” is too absolute; availability and spacing can vary by road/section and maintenance status. Drivers should also use mobile phone/112/insurer if no post is reachable.",
+        "suggestion": "Write: “На многих autoestradas есть SOS-посты примерно через регулярные интервалы; если ближайшего поста нет или идти к нему опасно — звоните 112 при опасности/ДТП или assistência/страховщику с телефона”.",
+        "confidence": "medium",
+        "source": "Concessionaire road-safety guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "GNR Brigada de Trânsito выезжает на trafiq accidents.",
+        "problem": "Contains an English typo/malformed phrase and outdated/loose naming. “Brigada de Trânsito” is not the current usual public-facing designation; road policing is commonly referred to as GNR/Unidade Nacional de Trânsito or traffic patrols. For the reader, the key is 112 for injuries/danger and police attendance when needed.",
+        "suggestion": "Write: “112 — единый номер экстренных служб. При пострадавших, аварии, препятствии на полосе или опасной ситуации вызывают 112; на место может приехать GNR/PSP traffic patrol depending on location”.",
+        "confidence": "medium",
+        "source": "GNR and 112 public information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "если поломка из-за ямы / мусора, можно претендовать у концессионера (707 500 501)",
+        "problem": "Misleading because 707 500 501 is Brisa, not a universal concessionaire number. Also compensation is not automatic: liability depends on proof and on whether the concessionaire can rebut responsibility/compliance with safety duties.",
+        "suggestion": "Write: “Если повреждение вызвано ямой, предметом на дороге, жидкостью, животным и т.п., фиксируйте место, km marker, фото/видео, свидетелей и по возможности relatório da GNR. Претензию подавайте конкретному concessionário участка, а не автоматически в Brisa”.",
+        "confidence": "high",
+        "source": "Lei n.º 24/2007, art. 12; concessionaire complaint procedures"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3]",
+        "current": "Срок претензии — 30 дней",
+        "problem": "A universal 30-day claim deadline is not supported here and may be wrong. Different mechanisms have different time limits: insurer notification periods may be policy-based; Livro de Reclamações has response rules; civil liability limitation periods are different. Stating “30 days” as a hard deadline is misleading.",
+        "suggestion": "Write: “Подайте претензию как можно быстрее, ideally in the first days, and follow the concessionaire/insurer procedure. Do not state a universal 30-day legal deadline unless you cite the exact rule/policy.”",
+        "confidence": "medium",
+        "source": "Lei n.º 24/2007; general Portuguese civil-liability and complaints rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "Concession часто возмещает стоимость шины, если докажете причину",
+        "problem": "Overpromising. Concessionaires do not “often” reimburse just because a tyre was damaged; claims are frequently contested, and the operator may argue absence of fault or that patrol/maintenance duties were fulfilled. The burden/proof regime depends on the cause and facts.",
+        "suggestion": "Write: “Компенсация возможна, но не гарантирована. Нужны доказательства причины, места и ущерба: фото, km marker, invoice, tow receipt, witnesses, relatório/auto da GNR if available. Concessionário may reject the claim.”",
+        "confidence": "high",
+        "source": "Lei n.º 24/2007, art. 12; Portuguese motorway liability case law/practice"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[1]",
+        "current": "Летом +0.3 бар от номинала — португальская жара «сдувает» шины",
+        "problem": "Unsafe and technically wrong. Heat generally increases tyre pressure, not “deflates” tyres. Drivers should not add a blanket +0.3 bar to the manufacturer’s recommended cold pressure unless the vehicle/tyre guidance or load condition requires it. Tyre pressure should be checked cold and set to the vehicle placard/manual values.",
+        "suggestion": "Replace with: “Давление проверять на холодных шинах и выставлять по табличке автомобиля/мануалу с учётом нагрузки. Не снижать давление на горячих шинах и не добавлять универсальные +0.3 bar без рекомендации производителя”.",
+        "confidence": "high",
+        "source": "IMT/road-safety tyre guidance; tyre manufacturer safety guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "Проверять давление раз в месяц на заправке (бесплатно у Galp/BP)",
+        "problem": "“Free at Galp/BP” is too broad. Air pumps may be free at many stations, but not guaranteed; some are paid, unavailable or inaccurate.",
+        "suggestion": "Write: “Проверять давление раз в месяц на холодных шинах; на многих заправках есть компрессор, но он не всегда бесплатный/исправный”.",
+        "confidence": "medium",
+        "source": "General service-station practice in Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "Infraestruturas de Portugal — Segurança rodoviária, https://www.infraestruturasdeportugal.pt/",
+        "problem": "The source is only the homepage, not a specific road-safety or roadside-assistance page. It is weak support for operational claims such as emergency numbers and SOS posts.",
+        "suggestion": "Use a specific IP road-safety/contact/assistance page if citing IP, or remove IP-specific claims and cite the relevant concessionaire pages instead.",
+        "confidence": "high",
+        "source": "Infraestruturas de Portugal official website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "IMT — Segurança de pneus, https://www.imt-ip.pt/",
+        "problem": "This is only the IMT homepage, not a specific tyre-safety page. It does not substantiate the tyre-pressure advice, and the guide’s current advice is unsafe.",
+        "suggestion": "Replace with a specific IMT/ANSR tyre-safety page or a tyre manufacturer safety source explaining cold-pressure checks and manufacturer placard values.",
+        "confidence": "high",
+        "source": "IMT; ANSR"
+      }
+    ],
+    "missing_topics": [
+      "Mention that the warning triangle must be visible from at least 100 m, not only placed 30 m behind the vehicle.",
+      "Clarify that 707 numbers are often paid-rate numbers and may be expensive from some phones; in danger, injuries or live-lane obstruction use 112.",
+      "Explain what information to give when calling assistance: motorway number, direction, km marker, nearest exit/service area, lane/shoulder position, number of occupants, injuries, vehicle plate.",
+      "Add instruction not to stand between the vehicle and the barrier/traffic side and not to walk along the carriageway to find help if unsafe.",
+      "Add that animals, children and passengers should be moved behind the safety barrier where possible, but not across lanes.",
+      "Add that compensation claims against a motorway concessionaire are possible but evidence-heavy and not guaranteed; cite Lei n.º 24/2007 for objects/liquids/animals on motorways."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5017,
+    "prompt_tokens": 2261,
+    "total_tokens": 7278
+  },
+  "model": "gpt-5.5"
+}

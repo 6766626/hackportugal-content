@@ -1,0 +1,20 @@
+{
+  "name": "hackportugal-content",
+  "version": "1.0.0",
+  "description": "Content repo for HackPortugal iOS app — verified guides for life in Portugal",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "validate": "node scripts/validate.mjs",
+    "validate:translations": "node scripts/validate-no-cyrillic.mjs && node scripts/validate-parity.mjs",
+    "snapshot": "node scripts/snapshot-to-ios.mjs",
+    "test": "node scripts/build.mjs && node scripts/validate.mjs && node scripts/test-content.mjs && LANGS=ru,pt,en node scripts/build.mjs && node scripts/validate-no-cyrillic.mjs && node scripts/validate-parity.mjs",
+    "translate": "node scripts/translate-whole-file.mjs",
+    "deploy": "node scripts/deploy-ovh.mjs",
+    "deploy:dry": "node scripts/deploy-ovh.mjs --dry-run"
+  },
+  "devDependencies": {
+    "basic-ftp": "^6.0.0"
+  }
+}

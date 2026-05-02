@@ -1,0 +1,304 @@
+{
+  "guideId": "residential-parking",
+  "categoryId": "auto_trips",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по теме, но содержит несколько существенных ошибок и упрощений по тарифам, зонам действия dístico, льготам для электромобилей и процедурам штрафов/обжалования.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "EMEL ... управляет всей платной парковкой в городе.",
+        "problem": "Слишком широкое утверждение: EMEL управляет муниципальной уличной платной парковкой и муниципальными парковками/паркоматами в Лиссабоне, но не «всей» платной парковкой в городе — есть частные паркинги, концессии и зоны со специальным режимом.",
+        "suggestion": "Написать: «EMEL управляет муниципальной уличной платной парковкой и частью муниципальных парковок Лиссабона; частные паркинги и отдельные объекты имеют свои правила».",
+        "confidence": "high",
+        "source": "EMEL — estacionamento na via pública / regulamentos municipais"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0].content[0].items[0]",
+        "current": "Proof of residência — atestado de residência от Junta de Freguesia в зоне парковки (не в соседней)",
+        "problem": "Для EMEL это вводит в заблуждение: ключевой критерий обычно связан с местом жительства/домицилем в соответствующей зоне EMEL, а не обязательно именно atestado от Junta. EMEL принимает/проверяет документы по residência fiscal/адресу, а не формулу «atestado в зоне парковки».",
+        "suggestion": "Написать: «Подтверждение адреса проживания/домициля в зоне EMEL, к которой запрашивается dístico; конкретный список документов проверять в личном кабинете EMEL, так как atestado от Junta не всегда единственный или обязательный документ».",
+        "confidence": "medium",
+        "source": "EMEL — Dístico de Residente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0].content[0].items[1]",
+        "current": "Авто зарегистрировано на ваш NIF в IMT (не на кого-то другого)",
+        "problem": "Слишком категорично. Для dístico de residente обычно допускаются не только автомобили в собственности заявителя: могут быть leasing/ALD/renting, служебный автомобиль или иные ситуации при наличии подтверждающих документов. «На ваш NIF в IMT» не покрывает эти случаи.",
+        "suggestion": "Заменить на: «Автомобиль должен быть связан с заявителем: собственность, leasing/renting/ALD, служебный автомобиль или иная разрешённая EMEL ситуация — с документами, подтверждающими право пользования».",
+        "confidence": "high",
+        "source": "EMEL — Dístico de Residente, condições/documentos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0].content[0].items[2]",
+        "current": "Действующий техосмотр (IPO) и страховка",
+        "problem": "Может быть верно как практическая рекомендация для эксплуатации авто, но как обязательный пакет именно для выдачи dístico EMEL сформулировано слишком уверенно. EMEL в первую очередь проверяет право на dístico, связь заявителя с автомобилем и отсутствие задолженностей/соответствие регламенту.",
+        "suggestion": "Оставить как caveat: «Для законной эксплуатации авто должны быть действующие IPO, страховка и IUC; EMEL может запрашивать документы по своему списку».",
+        "confidence": "medium",
+        "source": "EMEL — Dístico de Residente; Código da Estrada"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0].content[0].items[3]",
+        "current": "IUC оплачен (нет задолженностей)",
+        "problem": "Оплата IUC важна, но задолженности по IUC не следует смешивать с муниципальными условиями EMEL. Для dístico критично также отсутствие долгов перед EMEL/муниципалитетом, если это предусмотрено регламентом.",
+        "suggestion": "Написать: «IUC должен быть уплачен как налог по авто; отдельно проверьте отсутствие задолженности перед EMEL/муниципалитетом, если это требуется для dístico».",
+        "confidence": "medium",
+        "source": "EMEL — Dístico de Residente; Autoridade Tributária — IUC"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1].content[0].text",
+        "current": "EMEL.pt → Dísticos → «Pedir Dístico» — онлайн с CMD. Либо в отделении EMEL (Av. Casal Ribeiro). Выдаётся 7-14 дней.",
+        "problem": "Срок «7–14 дней» не является гарантированным официальным сроком и может вводить в заблуждение. Также онлайн-подача не ограничивается только CMD: возможны другие способы аутентификации/личный кабинет, в зависимости от текущего портала.",
+        "suggestion": "Написать: «Подача онлайн через портал EMEL/Loja EMEL Digital с доступной электронной аутентификацией или лично в atendimento EMEL. Срок зависит от проверки документов; не планируйте как гарантированные 7–14 дней».",
+        "confidence": "medium",
+        "source": "EMEL — Loja Online / Dísticos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2].content[0].items",
+        "current": "1-я машина: €12/год ... 2-я машина домохозяйства: €36/год ... Каждая следующая: €72/год ... Dístico de visitante: €24/год ... Пенсионеры 65+ — скидка 50%",
+        "problem": "Тарифы и льготы указаны без ссылки на действующий regulamento/tabela EMEL и выглядят устаревшими/сомнительными. Особенно подозрительны €36 и €72 для 2-го/следующих автомобилей и универсальная скидка 50% для пенсионеров 65+. В Лиссабоне тарифы зависят от действующего муниципального регламента, типа dístico и категории заявителя; их нельзя подавать как стабильные цифры без прямой ссылки.",
+        "suggestion": "Заменить на нейтральную формулировку: «Тарифы dístico de residente, visitor и льготы меняются по regulamento/tabela de preços EMEL. Перед подачей проверяйте актуальную “Tabela de Preços / Dísticos” на сайте EMEL. Не указывать скидку 65+ без подтверждения конкретной нормы».",
+        "confidence": "medium",
+        "source": "EMEL — Tabela de Preços / Regulamento Geral de Estacionamento e Paragem na Via Pública"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[3].content[0].text",
+        "current": "Dístico действует ТОЛЬКО в вашей freguesia. Для соседних — платить почасово.",
+        "problem": "Неверное упрощение. В Лиссабоне dístico действует не просто «по freguesia», а по зоне/зонам резидентской парковки EMEL, привязанным к адресу. Границы зон EMEL не всегда совпадают с границами freguesia; в некоторых случаях могут применяться специальные зоны или соседние участки, определённые картой EMEL.",
+        "suggestion": "Написать: «Dístico действует только в зоне/зонах EMEL, указанных для вашего адреса в самом dístico. Эти зоны не обязательно совпадают с границами freguesia; проверяйте карту EMEL и описание разрешения».",
+        "confidence": "high",
+        "source": "EMEL — Mapa de zonas / Dístico de Residente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[3]",
+        "current": "Далее: €10-30/год в зависимости от зоны",
+        "problem": "Тариф Cascais указан без прямой официальной таблицы и может быть неверным или неполным. В Cascais режимы зависят от типа dístico, zona de estacionamento de duração limitada, residência, número de viaturas и статуса cartão viver Cascais; диапазон €10–30/год выглядит как неподтверждённое обобщение.",
+        "suggestion": "Написать: «Стоимость зависит от типа dístico и зоны Cascais Próxima; проверяйте актуальную tabela de preços/regulamento на cascaisproxima.pt перед подачей». Если есть точные тарифы — дать прямую ссылку на PDF/страницу с таблицей.",
+        "confidence": "medium",
+        "source": "Cascais Próxima — Estacionamento / Regulamento e tarifário"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[4]",
+        "current": "Работает в центре Cascais и Estoril — в других зонах муниципалитета (Alcabideche, São Domingos de Rana) парковка бесплатная",
+        "problem": "Вводит в заблуждение. В муниципалитете Cascais платная/регулируемая парковка есть не только в центре Cascais и Estoril; режимы могут действовать в Carcavelos, Parede, у пляжей, станций и других зонах. Нельзя утверждать, что Alcabideche и São Domingos de Rana в целом бесплатны: отдельные улицы/паркинги могут иметь регулирование.",
+        "suggestion": "Написать: «Платные и резидентские зоны в Cascais зависят от конкретной улицы/парковки. Проверяйте карту Cascais Próxima; не исходите из того, что вся freguesia бесплатна».",
+        "confidence": "high",
+        "source": "Cascais Próxima — mapa de estacionamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1]",
+        "current": "Подача в Divisão de Trânsito, Rua Dr. Francisco Santana Ramos",
+        "problem": "Адрес/орган указан слишком конкретно без подтверждения и может быть устаревшим. В Setúbal многие муниципальные услуги подаются через Balcão Único/serviços online Câmara Municipal de Setúbal, а не обязательно по этому адресу.",
+        "suggestion": "Заменить на: «Подача через Câmara Municipal de Setúbal/Balcão Único или сервис, указанный на странице муниципалитета для cartões/dísticos de residente; актуальный адрес atendimento проверяйте на mun-setubal.pt».",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Setúbal — Balcão Único / Estacionamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2]",
+        "current": "Cartão de Residente для парковки — €20/год",
+        "problem": "Цена указана как фиксированная без ссылки на действующую муниципальную tabela de taxas. Муниципальные тарифы Setúbal могут различаться по зоне/типу cartão и обновляться постановлениями Câmara/Assembleia Municipal.",
+        "suggestion": "Писать: «Стоимость cartão/dístico de residente определяется актуальной Tabela de Taxas/Regulamento de Estacionamento da Câmara Municipal de Setúbal; перед подачей проверьте текущую цену на сайте муниципалитета».",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Setúbal — Tabela de Taxas / Regulamento de estacionamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3]",
+        "current": "Работает в центре Setúbal; Azeitão, Palmela и дальше — бесплатная парковка",
+        "problem": "Palmela — отдельный муниципалитет, не часть Setúbal, поэтому включать его в раздел Câmara Municipal de Setúbal как «дальше» некорректно. Также нельзя обобщать, что Azeitão/Palmela бесплатны: правила зависят от конкретной улицы и муниципалитета.",
+        "suggestion": "Написать: «В Setúbal dístico действует только в указанных муниципальных зонах. Azeitão — часть муниципалитета Setúbal, но правила надо проверять отдельно; Palmela — отдельный município со своими правилами парковки».",
+        "confidence": "high",
+        "source": "CAOP/DGT — municípios e freguesias; Câmara Municipal de Setúbal; Câmara Municipal de Palmela"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[0]",
+        "current": "Лиссабон: EMEL — первые 2 часа бесплатно для EV с зелёным номерным знаком (маркировка MEV)",
+        "problem": "Скорее всего неверно. В Лиссабоне льгота EMEL для электромобилей оформляется через Dístico Verde/электрическое разрешение EMEL, а не автоматически по «зелёному номерному знаку» и не как универсальные «первые 2 часа бесплатно». Правила зависят от актуального regulamento EMEL и типа зоны.",
+        "suggestion": "Написать: «Лиссабон: для 100% electric vehicles нужна проверка актуального режима EMEL Dístico Verde/benefício EV; льгота не применяется автоматически только по зелёной полосе на номере. Условия, стоимость и ограничения зон смотреть на EMEL».",
+        "confidence": "high",
+        "source": "EMEL — Dístico Verde / Veículos elétricos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Porto: парковка EV — 50% скидка в муниципальных зонах",
+        "problem": "Гайд заявлен для Лиссабона, Кашкаиша и Сетубала, но внезапно добавляет Porto. Утверждение про «50% скидку» без указания entidade gestora и regulamento Porto может быть устаревшим или неверным; Porto имеет свои dísticos/zonas и правила.",
+        "suggestion": "Либо удалить Porto из этого гайда, либо добавить отдельную проверенную строку с прямой ссылкой на Câmara Municipal do Porto/entidade gestora и актуальный tarifário для EV.",
+        "confidence": "medium",
+        "source": "Câmara Municipal do Porto / estacionamento regulamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "Cascais: бесплатная парковка для EV на муниципальных станциях зарядки",
+        "problem": "Формулировка опасно широкая. Места у зарядных станций обычно предназначены для зарядки и могут иметь ограничение времени/необходимость фактической зарядки; это не «бесплатная парковка» как обычная стоянка. За занятие места без зарядки или сверх лимита возможны штрафы/эвакуация.",
+        "suggestion": "Написать: «На местах зарядки EV можно стоять только на условиях, указанных на знаках и в правилах оператора — обычно во время зарядки и с лимитом времени; это не бесплатная обычная парковка».",
+        "confidence": "high",
+        "source": "Mobi.E — regras de utilização; Código da Estrada sinalização de lugares de carregamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3]",
+        "current": "Nationwide: бесплатная парковка на зонах зарядки Mobi.E во время зарядки",
+        "problem": "Слишком обобщено. Сеть Mobi.E — это инфраструктура зарядки, но парковочный режим определяется дорожными знаками, муниципальными правилами, оператором и условиями конкретного места. «Бесплатная парковка nationwide» не гарантирована; может взиматься плата за парковку/занятие места или действовать лимит.",
+        "suggestion": "Заменить на: «Места Mobi.E предназначены для зарядки; стоимость зарядки, idle fee/penalty и парковочные ограничения зависят от CEME/OPC, муниципалитета и знаков на месте. Не считать это бесплатной парковкой по всей стране».",
+        "confidence": "high",
+        "source": "Mobi.E — condições de utilização; municípios; Código da Estrada"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4]",
+        "current": "Дистиктивный знак: EV получают выделенный символ в свидетельстве + зелёная рамка номерного знака",
+        "problem": "Терминология неточная. В Португалии для 100% electric vehicles используется зелёная боковая идентификация/полоса на matrícula, но это не «рамка номерного знака» и не универсальный парковочный dístico. Наличие EV-идентификации не заменяет муниципальное разрешение.",
+        "suggestion": "Написать: «У 100% electric vehicles может быть зелёная идентификация на matrícula; она не равна муниципальному dístico и сама по себе не даёт бесплатной парковки во всех городах».",
+        "confidence": "high",
+        "source": "IMT — matrícula de veículos elétricos; EMEL — Dístico Verde"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0]",
+        "current": "Parking без dístico или оплаты: 30-50 € (при быстрой оплате)",
+        "problem": "Диапазон выглядит неверным/неполным. За нарушение правил стоянки/неоплату в зоне платной парковки обычно применяется coima с минимальным и максимальным пределом по Código da Estrada/муниципальному режиму, часто не ограниченная €50. Указывать «30–50» как штраф без dístico вводит в заблуждение.",
+        "suggestion": "Написать: «За неоплату/парковку без действительного título в зоне платной парковки возможна coima как минимум от установленного законом минимума; точный диапазон зависит от нарушения и органа. Обычно при добровольной оплате платят minimum da coima, а не произвольные €30–50».",
+        "confidence": "high",
+        "source": "Código da Estrada; ANSR — contraordenações rodoviárias"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1]",
+        "current": "Парковка в зоне инвалидов без документа: €120 (штраф + штрафбалл)",
+        "problem": "Сумма указана как фиксированная, что некорректно: за незаконную стоянку на месте для pessoas com deficiência применяется диапазон coima, а не фиксированные €120. Также надо различать coima, дополнительные санкции и points system; формулировка «штрафбалл» разговорная и неточная.",
+        "suggestion": "Написать: «Парковка на месте для pessoas com deficiência без cartão/основания — серьёзное нарушение с coima в диапазоне, предусмотренном Código da Estrada, и возможной потерей points/дополнительной санкцией; проверяйте актуальный текст Código da Estrada/ANSR».",
+        "confidence": "medium",
+        "source": "Código da Estrada; ANSR"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2]",
+        "current": "Эвакуация: 80-150 € + хранение 15 €/день",
+        "problem": "Стоимость эвакуации и хранения регулируется таблицами/нормами и зависит от типа автомобиля, места, времени, distância и entidade. Универсальный диапазон €80–150 и €15/день может быть устаревшим или неверным.",
+        "suggestion": "Написать: «Эвакуация и depósito оплачиваются по действующей официальной tabela de remoção e depósito; сумма зависит от категории транспортного средства и обстоятельств. Дайте ссылку на актуальную таблицу ANSR/муниципалитета».",
+        "confidence": "medium",
+        "source": "Código da Estrada; ANSR; tabelas de taxas de remoção e depósito"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[3]",
+        "current": "Скидка 50% при оплате в 15 дней (minimum da coima)",
+        "problem": "Неверно. В Португалии при voluntary payment обычно платится minimum da coima в установленный срок, а не «скидка 50%». Если минимум и максимум не соотносятся как 50%, такой скидки нет. Срок часто считается в рабочих днях и зависит от типа уведомления.",
+        "suggestion": "Написать: «При добровольной оплате в установленный срок обычно уплачивается minimum da coima; это не скидка 50%. Срок и порядок указаны в уведомлении/auto de contraordenação».",
+        "confidence": "high",
+        "source": "Código da Estrada; ANSR — pagamento voluntário"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[4]",
+        "current": "Apelar штраф — через EMEL.pt или Câmara, сроки 30 дней",
+        "problem": "Слишком обобщено и местами неверно. Обжалование дорожных contraordenações обычно идёт по процедуре ANSR/autoridade administrativa после auto de contraordenação; срок часто 15 working days для defesa, а не универсальные 30 дней. У EMEL/муниципалитета может быть первичная reclamação, но это не всегда полноценное «appeal».",
+        "suggestion": "Написать: «Смотрите орган и тип уведомления. Если это contraordenação rodoviária, defesa/impugnação подаётся по процедуре, указанной в auto, обычно в ANSR/autoridade administrativa и в срок, указанный в уведомлении. EMEL/Câmara могут принимать reclamação только для определённых уведомлений».",
+        "confidence": "high",
+        "source": "ANSR — defesa de contraordenação; Código da Estrada"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "Лиссабон EMEL dístico (1-я машина) — amountEUR: 12, note: /год, часто 1-й год бесплатно",
+        "problem": "Цена и примечание «часто 1-й год бесплатно» не подтверждены прямым источником и могут быть устаревшими. Для денежных значений в 2026 нужен прямой tarifário/regulamento.",
+        "suggestion": "Либо обновить по актуальной EMEL Tabela de Preços с прямой ссылкой, либо заменить на «проверяйте актуальный tarifário EMEL».",
+        "confidence": "medium",
+        "source": "EMEL — Tabela de Preços / Dísticos"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "Лиссабон EMEL dístico (2-я машина) — amountEUR: 36",
+        "problem": "Тариф для второго автомобиля выглядит неподтверждённым и потенциально устаревшим. В гиде он дан как факт без ссылки на актуальную таблицу EMEL.",
+        "suggestion": "Проверить и заменить на точную сумму из актуального EMEL tarifário; если таблица не фиксируется в гайде, указать «по текущей таблице EMEL».",
+        "confidence": "medium",
+        "source": "EMEL — Tabela de Preços / Dísticos"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "Cascais dístico — amountEURMin: 10, amountEURMax: 30, note: /год, 1-й бесплатно",
+        "problem": "Диапазон и «1-й бесплатно» не подтверждены прямым официальным источником; в Cascais тариф зависит от конкретного режима и cartão viver Cascais.",
+        "suggestion": "Заменить на актуальные значения из Cascais Próxima tarifário или убрать фиксированный диапазон и написать «по тарифу Cascais Próxima».",
+        "confidence": "medium",
+        "source": "Cascais Próxima — tarifário estacionamento"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "Setúbal cartão residente — amountEUR: 20",
+        "problem": "Фиксированная сумма без ссылки на текущую Tabela de Taxas Setúbal; может быть устаревшей или зависеть от зоны/типа cartão.",
+        "suggestion": "Проверить актуальную Tabela de Taxas da Câmara Municipal de Setúbal и указать точную ссылку; иначе оставить без суммы.",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Setúbal — Tabela de Taxas"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "Штраф без dístico — amountEURMin: 30, amountEURMax: 50",
+        "problem": "Не соответствует типичной структуре coima: есть statutory minimum/maximum, а при добровольной оплате платится minimum da coima. Диапазон €30–50 выглядит как неверное обобщение.",
+        "suggestion": "Заменить на: «от minimum da coima, указанного в уведомлении; диапазон зависит от нарушения». Для точных сумм дать ссылку на Código da Estrada/ANSR.",
+        "confidence": "high",
+        "source": "Código da Estrada; ANSR"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "https://www.emel.pt/",
+        "problem": "Ссылка слишком общая для чувствительных цифр: тарифы, dísticos, EVльготы и зоны должны ссылаться на конкретные страницы/PDF EMEL, иначе невозможно проверить актуальность.",
+        "suggestion": "Добавить прямые URL на EMEL Dístico de Residente, Dístico Verde, mapa de zonas и Tabela de Preços/Regulamento.",
+        "confidence": "high",
+        "source": "EMEL"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "https://www.cascaisproxima.pt/",
+        "problem": "Ссылка слишком общая; для цен и карты зон нужна прямая страница Cascais Próxima по estacionamento/dísticos/tarifário.",
+        "suggestion": "Добавить прямые ссылки на Cascais Próxima estacionamento, mapa e tarifário/regulamento.",
+        "confidence": "high",
+        "source": "Cascais Próxima"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "https://www.mun-setubal.pt/",
+        "problem": "Ссылка слишком общая для адреса подачи, цены €20 и зон действия. Нужны прямые страницы Câmara Municipal de Setúbal по estacionamento/cartão de residente/tabela de taxas.",
+        "suggestion": "Добавить прямые ссылки на страницу estacionamento/cartão de residente и Tabela de Taxas Setúbal.",
+        "confidence": "high",
+        "source": "Câmara Municipal de Setúbal"
+      }
+    ],
+    "missing_topics": [
+      "Для каждого города нужна прямая ссылка на карту зон резидентской парковки, потому что dístico действует по конкретной зоне/улицам, а не просто по freguesia/муниципалитету.",
+      "Нужно объяснить случаи leasing, renting, ALD, company car и автомобиль супруга/домохозяйства — сейчас ошибочно выглядит так, будто допускается только авто, зарегистрированное лично на NIF заявителя.",
+      "Нужно добавить caveat про смену адреса, продажу авто, смену matrícula и обязанность обновлять/аннулировать dístico.",
+      "Нужно указать, что наличие cartão viver Cascais или residência само по себе не гарантирует право парковаться бесплатно в любой зоне Cascais.",
+      "Нужно добавить различие между municipal parking notice/reclamação и formal contraordenação/defesa через ANSR или другую autoridade administrativa.",
+      "Нужно добавить caveat по местам зарядки EV: стоянка только во время зарядки, лимиты времени, idle fees и знаки на месте.",
+      "Нужно добавить прямые официальные источники для всех денежных сумм: EMEL tabela de preços, Cascais Próxima tarifário, Setúbal tabela de taxas, Código da Estrada/ANSR для штрафов."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 7592,
+    "prompt_tokens": 2378,
+    "total_tokens": 9970
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,112 @@
+export default {
+  editorialVoice: 'hackportugal',
+  id: 'cafe-meia-leite-galao',
+  categoryId: 'food_leisure',
+  title: 'Cultura do café: meia de leite, galão, bica, garoto, abatanado',
+  tldr: 'Em Portugal, o café pede-se de forma curta e precisa: bica — expresso, garoto — expresso com um pouco de leite, meia de leite — chávena “metade café / metade leite”, galão — copo alto com bastante leite, abatanado — a versão local do americano, descafeinado — sem cafeína. Num café normal em 2026, conte com 0,80–1,50 € para as opções básicas; em zonas turísticas, pastelarias com vista e cafés specialty será mais caro.',
+  tags: ['café', 'café', 'bica', 'galão'],
+  estimatedReadMinutes: 4,
+  steps: [
+    {
+      id: 'basic-map',
+      title: 'Mapa das bebidas sem pânico',
+      content: [
+        { kind: 'paragraph', text: 'Um café português não é apenas um local, mas também o próprio expresso. Se disser simplesmente “um café”, quase sempre lhe trazem um expresso pequeno. Em Lisboa, é muitas vezes chamado bica; no Porto e no norte, é mais comum ouvir cimbalino.' },
+        { kind: 'checklist', items: [
+          'Bica / café — expresso pequeno, normalmente 25–35 ml.',
+          'Café cheio — expresso tirado um pouco mais cheio do que o habitual.',
+          'Café curto / italiana — expresso mais curto e mais forte.',
+          'Garoto — expresso com uma pequena quantidade de leite ou espuma de leite.',
+          'Meia de leite — chávena com aproximadamente metade café e metade leite quente.',
+          'Galão — copo alto: muito leite, pouco café; mais suave do que a meia de leite.',
+          'Abatanado — café preto grande, próximo do americano, mas o sabor depende da máquina e do café.',
+          'Descafeinado — café sem cafeína; pode ser pedido como bica, meia de leite ou galão.'
+        ] }
+      ]
+    },
+    {
+      id: 'how-to-order',
+      title: 'Como pedir em português ☕',
+      content: [
+        { kind: 'paragraph', text: 'A fórmula é simples: “Queria…” ou “Um/uma…, por favor”. Num café do dia a dia, soa mais natural do que frases longas em inglês. Muitas vezes paga-se depois de beber, ao balcão; nos locais com serviço à mesa, paga-se ao empregado.' },
+        { kind: 'checklist', items: [
+          '“Uma bica, por favor.” — um expresso.',
+          '“Um café cheio, se faz favor.” — expresso um pouco mais cheio.',
+          '“Um garoto, por favor.” — expresso com um pouco de leite.',
+          '“Uma meia de leite.” — café com leite em chávena.',
+          '“Um galão.” — copo alto de café com leite.',
+          '“Um abatanado.” — café preto grande.',
+          '“Descafeinado, por favor.” — sem cafeína.',
+          '“Com leite frio?” — se quiser leite frio à parte ou em vez de leite quente, especifique “com leite frio”.'
+        ] },
+        { kind: 'warning', text: 'Latte, flat white e cappuccino não existem em todo o lado. Numa pastelaria normal, é mais seguro pedir meia de leite ou galão. Um cappuccino em zonas turísticas pode significar qualquer coisa: desde café com espuma até uma bebida com canela e natas batidas.' }
+      ]
+    },
+    {
+      id: 'milk-difference',
+      title: 'Meia de leite vs galão vs garoto',
+      content: [
+        { kind: 'paragraph', text: 'O principal erro de quem chega é achar que meia de leite e galão são a mesma coisa. Ambos levam leite, mas o tamanho, o recipiente e o equilíbrio são diferentes.' },
+        { kind: 'substeps', items: [
+          { id: 'meia-de-leite', title: 'Meia de leite', content: [
+            { kind: 'paragraph', text: 'É servida numa chávena. Normalmente é a opção mais “a café”: cerca de metade café e metade leite quente. Boa para o pequeno-almoço com torrada, croissant ou pastel de nata.' }
+          ] },
+          { id: 'galao', title: 'Galão', content: [
+            { kind: 'paragraph', text: 'É servido num copo alto. Tem claramente mais leite e o café fica mais suave. Se está habituado a latte, comece pelo galão.' }
+          ] },
+          { id: 'garoto', title: 'Garoto', content: [
+            { kind: 'paragraph', text: 'Não é café para crianças, apesar do nome. Na prática, é um expresso pequeno suavizado com um pouco de leite. É útil se a bica lhe parecer demasiado forte e a meia de leite demasiado grande.' }
+          ] }
+        ] }
+      ]
+    },
+    {
+      id: 'prices-and-places',
+      title: 'Preços em 2026 e onde beber',
+      content: [
+        { kind: 'paragraph', text: 'Num café de bairro ou numa pastelaria normal, o café básico continua barato para padrões europeus. A variação depende da cidade, da zona, de beber ao balcão ou sentado à mesa e do grau turístico do local.' },
+        { kind: 'checklist', items: [
+          'Bica / café ao balcão: frequentemente cerca de 0,80–1,10 €.',
+          'Bica à mesa ou no centro de Lisboa/Porto: cerca de 1,00–1,50 €.',
+          'Garoto: normalmente próximo do preço da bica ou ligeiramente mais caro.',
+          'Meia de leite: frequentemente 1,10–1,50 € numa pastelaria normal.',
+          'Galão: frequentemente 1,20–1,70 €, sobretudo se for servido à mesa.',
+          'Abatanado: normalmente 1,00–1,60 €.',
+          'Specialty coffee: expresso, filtro ou flat white podem custar 2,00–4,50 € ou mais.',
+          'Pastel de nata + bica como lanche rápido: conte com 2,00–3,50 € fora das armadilhas turísticas.'
+        ] },
+        { kind: 'warning', text: 'O preço ao balcão e o preço à mesa podem ser diferentes. A ementa/lista de preços deve estar disponível, mas em cafés pequenos por vezes é preciso pedi-la: “Tem a lista de preços, por favor?”' }
+      ]
+    },
+    {
+      id: 'local-etiquette',
+      title: 'Etiqueta: balcão, água, gorjeta',
+      content: [
+        { kind: 'paragraph', text: 'O café em Portugal é um ritual social rápido. Muitas pessoas bebem uma bica em 2 minutos ao balcão, sem abrir o portátil. Trabalhar durante muito tempo no computador é normal em cafés specialty, mas nem sempre é adequado numa pastelaria pequena à hora do pequeno-almoço ou do almoço.' },
+        { kind: 'checklist', items: [
+          'Se quiser algo rápido e mais barato — beba ao balcão.',
+          'Se se sentar à mesa, espere pelo empregado ou confirme ao balcão como funciona nesse café.',
+          'Nem sempre servem água automaticamente com o expresso; peça “um copo de água”.',
+          'O açúcar costuma vir em saqueta no pires; não é preciso dizer especialmente que quer sem açúcar.',
+          'Nem todos os locais têm leite vegetal; pergunte “tem bebida vegetal?”.',
+          'A gorjeta por um café não é obrigatória; pode deixar 0,10–0,50 € em moedas por um serviço simpático.',
+          'MB WAY e cartão são comuns, mas cafés pequenos podem preferir numerário para valores até 5 €.',
+          'Se pedir “para levar”, confirme: nem todos os cafés antigos funcionam em regime de takeaway.'
+        ] }
+      ]
+    }
+  ],
+  costs: [
+    { label: 'Bica / café num café normal', amountEURMin: 0.8, amountEURMax: 1.5, note: 'Referência para 2026; ao balcão é mais barato, em zonas turísticas é mais caro.' },
+    { label: 'Meia de leite', amountEURMin: 1.1, amountEURMax: 1.5, note: 'Preço típico numa pastelaria fora de locais premium e specialty.' },
+    { label: 'Galão', amountEURMin: 1.2, amountEURMax: 1.7, note: 'Copo alto, mais leite; o preço depende de beber sentado e da zona.' },
+    { label: 'Specialty coffee', amountEURMin: 2, amountEURMax: 4.5, note: 'Flat white, filtro, single origin e opções semelhantes em cafés modernos.' }
+  ],
+  sources: [
+    { title: 'Visit Portugal — comida e bebidas de Portugal', url: 'https://www.visitportugal.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'A Brasileira — café histórico de Lisboa e bica', url: 'https://www.abrasileira.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Delta Cafés — cultura portuguesa do café', url: 'https://www.deltacafes.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+  ],
+  lastVerified: '2026-04-28',
+  verifyIntervalDays: 180
+}

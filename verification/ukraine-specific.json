@@ -1,0 +1,224 @@
+{
+  "guideId": "ukraine-specific",
+  "categoryId": "country_specific",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful but has several materially misleading points about eligibility, processing timelines, rights/benefits, Schengen travel, and especially the supposed 'transition to a D visa' from inside Portugal.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1]",
+        "current": "Обратиться в AIMA в течение первых дней после въезда",
+        "problem": "This implies a strict deadline of the first few days. Temporary protection should indeed be requested as soon as possible, but the guide does not cite a legal 'first days' deadline and may unnecessarily alarm readers.",
+        "suggestion": "Write: \"Подать запрос на временную защиту в AIMA как можно скорее после прибытия; отдельного визового процесса для подпадающих под режим временной защиты нет.\"",
+        "confidence": "high",
+        "source": "AIMA / ePortugal temporary protection guidance; Council Implementing Decision (EU) 2022/382"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2]",
+        "current": "Документы: паспорт, фото 3х4, proof of Ukrainian residency",
+        "problem": "For Ukrainian citizens the key proof is Ukrainian citizenship/identity, not 'proof of Ukrainian residency'. Proof of residence in Ukraine is mainly relevant for non-Ukrainian nationals, refugees/stateless persons, or family members covered by the EU temporary protection regime. The current wording is confusing and too narrow/too broad at the same time.",
+        "suggestion": "Write: \"Документы зависят от категории: граждане Украины — документ, подтверждающий личность/гражданство; члены семьи — документы о родстве; граждане третьих стран/лица без гражданства — доказательство законного проживания или статуса защиты в Украине до 24.02.2022. AIMA может запросить дополнительные документы.\"",
+        "confidence": "high",
+        "source": "Council Implementing Decision (EU) 2022/382; Council Directive 2001/55/EC; Portuguese temporary protection regime"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].text",
+        "current": "Процесс быстрый — обычно permit выдают за 1-2 недели. Для спешных случаев — 1 день.",
+        "problem": "This is too categorical and likely misleading as of 2026. AIMA processing and issuance times vary significantly, and there have been backlogs/appointment constraints. A '1 day' urgent issuance is not a generally guaranteed public rule.",
+        "suggestion": "Write: \"Сроки зависят от AIMA, загруженности и полноты документов; не рассчитывайте на фиксированные 1–2 недели. Для срочных ситуаций нужно отдельно уточнять у AIMA/служб поддержки, но ускоренное оформление не гарантировано.\"",
+        "confidence": "high",
+        "source": "AIMA operational practice; ePortugal/AIMA guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3]",
+        "current": "Получить «título de proteção temporária» — действует до 1 года, продлевается",
+        "problem": "The guide already says the EU regime is extended to 4 March 2027, but here it only says the title is valid up to 1 year. That may be formally true for individual documents, but it is incomplete without explaining automatic/national renewals and the current EU end date. Readers may think they only have a one-year status.",
+        "suggestion": "Write: \"Получить документ/сертификат временной защиты. Индивидуальный документ может иметь ограниченный срок действия и продлеваться, при этом общеевропейский режим временной защиты для Украины продлён до 4 марта 2027; проверяйте актуальную дату и правила продления в AIMA.\"",
+        "confidence": "medium",
+        "source": "Council extension of temporary protection for Ukraine until 4 March 2027; AIMA temporary protection guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3]",
+        "current": "✅ Рассчётный NISS автоматически",
+        "problem": "The word should be 'расчётный' only as spelling, but the substantive issue is that automatic assignment of NIF/NISS/SNS numbers has existed in the temporary protection process but is not always seamless or immediate. Some people still need follow-up with AT, Segurança Social, SNS/health centre, or AIMA if numbers are missing or not activated.",
+        "suggestion": "Write: \"✅ Обычно при оформлении временной защиты запрашиваются/присваиваются NIF, NISS и número de utente SNS, но на практике возможны задержки — проверяйте, что номера действительно выданы и активны.\"",
+        "confidence": "high",
+        "source": "Portuguese temporary protection implementation guidance; Segurança Social / SNS practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4]",
+        "current": "✅ Банковский счёт без дополнительных сложностей",
+        "problem": "This overpromises. Banks still apply KYC/AML checks and may require NIF, ID, address, phone number, proof of status/source of funds, and may delay or refuse onboarding. Temporary protection helps legal status but does not remove banking compliance requirements.",
+        "suggestion": "Write: \"✅ Возможность открыть банковский счёт, но банк всё равно проводит KYC-проверки и может запросить NIF, документ личности, адрес, подтверждение статуса/доходов и другие сведения.\"",
+        "confidence": "high",
+        "source": "Banco de Portugal banking/KYC rules; general AML compliance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[5]",
+        "current": "✅ Social housing очередь наравне с гражданами",
+        "problem": "Too broad. Access to social/public housing in Portugal is usually municipal or programme-specific and depends on legal residence, income, household composition, local rules and availability. It is not a simple nationwide 'queue on equal terms with citizens'.",
+        "suggestion": "Write: \"✅ Возможность обращаться за жилищной поддержкой/социальным жильём при выполнении условий конкретной муниципальной программы или государственной схемы; доступ зависит от дохода, состава семьи, места проживания и наличия жилья.\"",
+        "confidence": "high",
+        "source": "Instituto da Habitação e da Reabilitação Urbana (IHRU); municipal social housing rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[6]",
+        "current": "✅ Abono de Família (пособие на ребёнка) и другие детские пособия",
+        "problem": "This omits a critical caveat: family/child benefits are not automatic rights paid to everyone with temporary protection. They depend on application, household income brackets, child age/schooling, residence and Segurança Social rules.",
+        "suggestion": "Write: \"✅ Можно подать заявление на Abono de Família и некоторые другие пособия, но они назначаются не автоматически: Segurança Social проверяет доходы, состав семьи, возраст ребёнка, школьное посещение и другие условия.\"",
+        "confidence": "high",
+        "source": "Segurança Social — Abono de Família rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[7]",
+        "current": "✅ Безвизовое путешествие внутри Шенгена",
+        "problem": "Overbroad and potentially misleading. Ukrainian biometric passport holders have Schengen visa-free short stays, and residence/temporary protection documents may allow short travel, but temporary protection rights are granted by Portugal and do not give the right to live/work in another Schengen country. Non-Ukrainian beneficiaries may have different travel document/visa issues.",
+        "suggestion": "Write: \"✅ Короткие поездки по Шенгену возможны при наличии действительного проездного документа и соблюдении правила 90/180; украинский биометрический паспорт даёт безвиз. Но португальская временная защита не даёт права жить или работать в другой стране ЕС, а для неграждан Украины правила зависят от паспорта/проездного документа.\"",
+        "confidence": "high",
+        "source": "Schengen Borders Code; Council Directive 2001/55/EC; EU temporary protection guidance"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[8]",
+        "current": "❌ НЕ путь к ВНЖ автоматически — нужно перевести на D-визу при желании постоянного",
+        "problem": "This is conceptually wrong/misleading. A D visa is normally a national entry visa obtained through a Portuguese consulate before entering Portugal for a residence purpose; it is not something people simply 'convert to' inside Portugal. Also temporary protection itself is a legal residence/status document, even if it is not a permanent residence pathway automatically.",
+        "suggestion": "Write: \"❌ Временная защита не превращается автоматически в постоянный ВНЖ или гражданство. Если вы хотите остаться после окончания режима, нужно заранее проверить доступные основания для обычного residence permit/визы: работа, высококвалифицированная работа, учёба, семья, пассивный доход, удалённая работа и т.п. Часть путей может требовать подачи через консульство за пределами Португалии; правила нужно проверять в AIMA/консульстве на момент подачи.\"",
+        "confidence": "high",
+        "source": "Lei n.º 23/2007, as amended; AIMA residence permit guidance; Portuguese consular visa rules"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].text",
+        "current": "Чтобы остаться навсегда — нужно подать на D-визу (D1/D3 при работе, D7 при пассивном доходе, D8 при удалёнке) или через воссоединение семьи.",
+        "problem": "Misleading for people already in Portugal under temporary protection. D1/D3/D7/D8 are visa categories for entry/residence purposes normally handled by consulates, not a simple in-country 'transition' route. Family reunification is also not a 'D visa' in the same way for all cases. The text should distinguish visas from residence permits and warn that in-country regularisation routes are limited and have changed since the end of the old manifestação de interesse regime.",
+        "suggestion": "Write: \"Чтобы остаться после окончания временной защиты, заранее подберите обычное основание для проживания: employment/residence permit, highly qualified activity, study, family reunification, D7 passive income, D8 remote work, etc. Не называйте это автоматическим 'переходом на D-визу': D-визы обычно оформляются через консульство для въезда, а в Португалии речь может идти о residence permit only if the law allows that route. После отмены прежней manifestação de interesse правила особенно важно проверять у AIMA/юриста.\"",
+        "confidence": "high",
+        "source": "Lei n.º 23/2007; Lei 61/2025; AIMA guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "D1/D3 при работе, D7 при пассивном доходе, D8 при удалёнке",
+        "problem": "The visa-code mapping is simplified in a way that can mislead. D1 is subordinate employment, D3 is highly qualified activity, D7 is passive/stable income, D8 is remote work/digital nomad. Ordinary work is not simply 'D1/D3' interchangeably; D3 has salary/qualification/employer criteria.",
+        "suggestion": "Write: \"D1 — работа по трудовому договору/обещанию договора; D3 — высококвалифицированная деятельность при соблюдении специальных критериев; D7 — пассивный/стабильный доход; D8 — удалённая работа на иностранного работодателя/клиентов.\"",
+        "confidence": "high",
+        "source": "Portuguese consular visa categories; Lei n.º 23/2007"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].text",
+        "current": "Годы временной защиты МОГУТ быть засчитаны в стаж для постоянного ВНЖ и гражданства — проверьте в AIMA на момент подачи.",
+        "problem": "This is too vague for a highly consequential point. It may be true in some interpretations/contexts, but the guide should not imply users can rely on it. Permanent residence and nationality require specific forms of legal residence and documentary proof; nationality law is also in flux in April 2026 with the new nationality law approved on 01.04.2026 awaiting promulgation.",
+        "suggestion": "Write: \"Не рассчитывайте автоматически, что весь период временной защиты будет засчитан для постоянного проживания или гражданства. Сохраните все документы AIMA и перед подачей проверяйте действующую редакцию закона и практику IRN/AIMA. В апреле 2026 новая редакция закона о гражданстве уже одобрена парламентом, но ожидает промульгации, поэтому правила могут измениться.\"",
+        "confidence": "medium",
+        "source": "Lei da Nacionalidade; Lei n.º 23/2007; parliamentary approval of new nationality law on 01.04.2026"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Свидетельства ЗАГС (ДРАЦС): повторные + апостиль Минюст. Срок 14-60 дней",
+        "problem": "The fixed 14–60 day range may be unreliable during wartime and depends on document type, region, consular route, online/offline process and apostille workload. It should be framed as indicative, not guaranteed.",
+        "suggestion": "Write: \"Свидетельства ДРАЦС: при необходимости повторные экземпляры + апостиль Минюста; сроки сильно зависят от способа получения и текущей нагрузки, поэтому проверяйте актуальные сроки в Украине/консульстве.\"",
+        "confidence": "medium",
+        "source": "Ukraine Ministry of Justice / Diia document services"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "Справка о несудимости: МВД → апостиль. Через «Дію» онлайн доступно",
+        "problem": "The statement is plausible but incomplete: online issuance and apostille/acceptance abroad can differ depending on document format, language, QR/e-signature and the Portuguese authority requesting it. Some authorities may still require apostille and certified translation.",
+        "suggestion": "Write: \"Справка о несудимости: МВД/Дія; для использования в Португалии заранее уточняйте, нужен ли апостиль и сертифицированный перевод, и принимает ли конкретный орган электронный документ.\"",
+        "confidence": "medium",
+        "source": "Ukraine MFA/Ministry of Internal Affairs; Portuguese authority document requirements"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "Социальная помощь: Segurança Social (социальное страхование) — abono, RSI, housing",
+        "problem": "This conflates different schemes and agencies. Abono and RSI are Segurança Social benefits subject to conditions; housing support is often handled by municipalities/IHRU and specific programmes, not simply by Segurança Social. RSI has strict means-testing and residence/household conditions.",
+        "suggestion": "Write: \"Социальная помощь: Segurança Social — abono, RSI и другие пособия при выполнении условий; жилищная помощь/социальное жильё — чаще муниципалитеты и/или IHRU, условия зависят от программы.\"",
+        "confidence": "high",
+        "source": "Segurança Social; IHRU; municipal housing programmes"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[5]",
+        "current": "Для возврата в Украину временно: статус сохраняется, но проверяйте у AIMA",
+        "problem": "The caveat is good but incomplete. Temporary absences normally do not automatically cancel protection, but long absences, registering for protection in another EU country, or returning permanently may affect status and benefits. Benefits may also stop if residence in Portugal is no longer effective.",
+        "suggestion": "Write: \"Краткая поездка в Украину обычно не означает автоматическую потерю статуса, но длительное отсутствие, переезд/регистрация временной защиты в другой стране ЕС или фактическое прекращение проживания в Португалии могут повлиять на статус и выплаты — проверяйте AIMA и Segurança Social до поездки.\"",
+        "confidence": "high",
+        "source": "EU temporary protection guidance; AIMA/Social Security practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[6]",
+        "current": "Водительские права Украины признаются на весь срок действия Proteção Temporária (Regulation EU 2022/1280, продлена до 4 марта 2027) — без обязательного обмена в первые 185 дней. При переходе на D-визу/ВНЖ — обмен в IMT по двустороннему соглашению UA–PT 2019 без экзамена",
+        "problem": "Mostly right, but the phrase 'без обязательного обмена в первые 185 дней' is confusing: under Regulation (EU) 2022/1280, the special recognition applies for beneficiaries of temporary protection for the duration of that protection, not merely the first 185 days. The 185-day concept belongs to normal residence/licence-exchange rules, not the temporary-protection exception.",
+        "suggestion": "Write: \"Для получателей временной защиты украинские водительские документы признаются по Regulation (EU) 2022/1280 на период действия временной защиты в ЕС, без обычного требования обмена после 185 дней проживания. Если позже вы переходите на обычный ВНЖ, применяются стандартные правила IMT для обмена; для Украины действует взаимное признание/обмен без экзамена при соблюдении условий IMT.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 2022/1280; IMT rules on exchange of Ukrainian driving licences"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://aima.gov.pt/",
+        "problem": "Generic homepage, not a specific temporary protection page. For sensitive immigration guidance, a specific official source is needed so readers can verify procedures and forms.",
+        "suggestion": "Use the exact AIMA page for Proteção Temporária/Ukraine and, if relevant, the active AIMA portal URL for requests/renewals instead of only the homepage.",
+        "confidence": "high",
+        "source": "AIMA official website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2].url",
+        "current": "https://eportugal.gov.pt/",
+        "problem": "Generic homepage, not the specific ePortugal temporary protection service page. This is insufficient for a guide that gives procedural claims and rights.",
+        "suggestion": "Replace with the specific ePortugal page for temporary protection for people displaced from Ukraine, including the service/process URL.",
+        "confidence": "high",
+        "source": "ePortugal official website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No source for Council extension to 4 March 2027",
+        "problem": "The TLDR relies on the extension to 4 March 2027 but the sources list only the original 2001 directive, not the later Council implementing decision extending temporary protection for Ukraine.",
+        "suggestion": "Add the Council implementing decision/regulation extending temporary protection for displaced persons from Ukraine until 4 March 2027.",
+        "confidence": "high",
+        "source": "Council of the European Union decision extending temporary protection until 4 March 2027"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No Portuguese national legal source for implementation of temporary protection",
+        "problem": "The guide explains Portuguese rights and process but does not cite the Portuguese legal instrument implementing temporary protection for Ukraine.",
+        "suggestion": "Add the Portuguese national source implementing temporary protection for Ukraine, e.g. Resolução do Conselho de Ministros / Decreto-Lei regime applicable to displaced persons from Ukraine, plus AIMA/ePortugal procedural pages.",
+        "confidence": "medium",
+        "source": "Portuguese Diário da República temporary protection instruments"
+      }
+    ],
+    "missing_topics": [
+      "Eligibility categories: Ukrainian citizens, family members, stateless persons/refugees and certain third-country nationals legally residing in Ukraine before 24.02.2022; not every person connected to Ukraine qualifies.",
+      "Interaction with temporary protection in another EU country: rights are not meant to be duplicated; moving/registering in another Member State may affect Portuguese status and benefits.",
+      "Clear distinction between temporary protection, residence permit, D visa, permanent residence and nationality.",
+      "Means-testing and application requirements for Segurança Social benefits such as Abono de Família and RSI.",
+      "Practical next steps if NIF/NISS/SNS number is not automatically issued or does not work.",
+      "Specific official AIMA/ePortugal URLs for requesting or renewing temporary protection, instead of generic homepages.",
+      "Nationality-law caveat: as of April 2026 the new nationality law was approved on 01.04.2026 but awaited promulgation, so citizenship timelines/counting rules may change.",
+      "Warning that D-visa routes are normally consular entry visas and not an automatic in-country conversion from temporary protection."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6423,
+    "prompt_tokens": 2213,
+    "total_tokens": 8636
+  },
+  "model": "gpt-5.5"
+}

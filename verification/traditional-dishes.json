@@ -1,0 +1,142 @@
+{
+  "guideId": "traditional-dishes",
+  "categoryId": "food_leisure",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом полезный и не содержит критичных ошибок, но есть несколько неточных описаний блюд/напитков и пара вводящих в заблуждение бытовых советов по ресторанам.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4]",
+        "current": "🐟 Arroz de Marisco — рис с морепродуктами, самый популярный в Алгарве",
+        "problem": "Фраза «самый популярный в Алгарве» вводит в заблуждение: arroz de marisco — обще-португальское прибрежное блюдо, часто ассоциируется с центральным побережьем/Marinha Grande и не является специфически алгарвским специалитетом. Для Алгарве более характерно упоминать cataplana de marisco.",
+        "suggestion": "Написать: «🐟 Arroz de Marisco — рис с морепродуктами, классика прибрежной Португалии»; а для Алгарве отдельно оставить cataplana.",
+        "confidence": "medium",
+        "source": "Turismo de Portugal — Gastronomia"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[7]",
+        "current": "🥪 Francesinha — сэндвич с мясом, сыром, соусом и яйцом (Порту, must)",
+        "problem": "Яйцо во francesinha — частая, но не обязательная добавка. Базовая francesinha — хлеб, мясные начинки, сыр и соус; яйцо обычно указывается как opção/com ovo.",
+        "suggestion": "Написать: «🥪 Francesinha — сэндвич с мясом, сыром и соусом; яйцо часто добавляют сверху (Порту, must)».",
+        "confidence": "high",
+        "source": "Turismo de Portugal — Gastronomia"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[9]",
+        "current": "🥟 Pastéis de Bacalhau — треска в кляре (закуска)",
+        "problem": "Pastéis de bacalhau — это не «треска в кляре», а жареные крокеты/оладьи из солёной трески, картофеля, яйца, лука/петрушки. «В кляре» описывает другое блюдо и создаёт неверное ожидание.",
+        "suggestion": "Написать: «🥟 Pastéis de Bacalhau — жареные крокеты из трески и картофеля (закуска)».",
+        "confidence": "high",
+        "source": "Turismo de Portugal — Gastronomia"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1]",
+        "current": "🥚 Ovos Moles de Aveiro — яичный желток + сахар, в вафле (PDO Aveiro)",
+        "problem": "Ovos Moles de Aveiro имеют статус IGP/PGI, а не DOP/PDO. Английская аббревиатура PDO фактически неверна.",
+        "suggestion": "Заменить на: «🥚 Ovos Moles de Aveiro — яичный желток + сахар, в вафельной оболочке (IGP/PGI Aveiro)».",
+        "confidence": "high",
+        "source": "DGADR — Produtos tradicionais portugueses / IGP Ovos Moles de Aveiro"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "Bica (Лиссабон) / Cimbalino (Порту) — эспрессо, 0.70-1€",
+        "problem": "Диапазон €0.70–1 выглядит заниженным для 2026 года в Лиссабоне/Порту и туристических местах. В обычных pastelarias ещё можно найти около €0.90–1.10, но €1.20–1.50 уже не редкость.",
+        "suggestion": "Написать: «Bica (Лиссабон) / Cimbalino (Порту) — эспрессо, обычно около €0.90–1.30 в обычных кафе, дороже в туристических местах».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[4]",
+        "current": "Madeira — десертное остров Мадейра",
+        "problem": "Madeira — креплёное вино, но не всегда десертное: бывают сухие, полусухие, полусладкие и сладкие стили; сухие часто пьют как аперитив.",
+        "suggestion": "Написать: «Madeira — креплёное вино с Мадейры: от сухого до сладкого, часто как аперитив или десертное».",
+        "confidence": "high",
+        "source": "Instituto do Vinho, do Bordado e do Artesanato da Madeira"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[5]",
+        "current": "Bairrada sparkling — газированное белое",
+        "problem": "«Газированное» звучит как искусственно насыщенное CO₂, тогда как речь об espumante — игристом вине. Кроме того, Bairrada espumante бывает не только белым, но и rosé/другие стили.",
+        "suggestion": "Написать: «Bairrada espumante — игристое вино, чаще белое или rosé».",
+        "confidence": "high",
+        "source": "Comissão Vitivinícola da Bairrada"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[1]",
+        "current": "Licor Beirão — травяной бренди",
+        "problem": "Licor Beirão — травяной ликёр, а не бренди. Бренди — отдельная категория дистиллята.",
+        "suggestion": "Написать: «Licor Beirão — португальский травяной ликёр».",
+        "confidence": "high",
+        "source": "Licor Beirão official product description"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Центр (Coimbra, Aveiro) — ovos moles, leitão, chanfana (козлёнок)",
+        "problem": "Chanfana обычно готовится из козлятины/старой козы, тушённой в красном вине; «козлёнок» по-португальски скорее cabrito и это другое блюдо.",
+        "suggestion": "Написать: «Центр (Coimbra, Aveiro) — ovos moles, leitão, chanfana (козлятина/коза, тушённая в красном вине)».",
+        "confidence": "high",
+        "source": "Turismo de Portugal — Gastronomia"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "Хлеб и оливки приносят «бесплатно» — но обычно платные (couvert 1-3€). Скажите «não, obrigado» если не хотите",
+        "problem": "Совет в целом верный, но не хватает важной оговорки: couvert/entradas оплачиваются, если вы их приняли/съели; рестораны должны указывать цены. Если не трогали или отказались — просите убрать и не платить.",
+        "suggestion": "Написать: «Хлеб, оливки, масло, паштеты могут поставить на стол как couvert, но они платные, если вы их едите; цены должны быть в меню. Не хотите — сразу скажите “não, obrigado” и попросите убрать».",
+        "confidence": "high",
+        "source": "ASAE — direitos do consumidor em restauração / regras de afixação de preços"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[3]",
+        "current": "Tipping: 5-10% принято в ресторане, округление для кафе",
+        "problem": "Формулировка «принято» слишком сильная. В Португалии чаевые не обязательны; местные часто округляют счёт или оставляют небольшую сумму, а 5–10% характернее для хорошего сервиса, туристических/более дорогих ресторанов.",
+        "suggestion": "Написать: «Чаевые не обязательны: в кафе обычно округляют, в ресторане за хороший сервис можно оставить небольшую сумму или около 5–10%».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "Menu do dia (обед дня) — самый дешёвый вариант в ресторане, часто 8-12€",
+        "problem": "Диапазон €8–12 может быть занижен для 2026 года в Лиссабоне/Порту и туристических районах. В небольших городах ещё реально, но в городских центрах чаще €10–15+.",
+        "suggestion": "Написать: «Menu do dia/prato do dia — обычно самый бюджетный обед: примерно €9–15 в зависимости от города и района».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[5]",
+        "current": "В «taxa» включено НЕ чаевые, а VAT",
+        "problem": "Терминология путает: НДС в Португалии называется IVA, а не taxa. В меню/счёте обычно пишут «IVA incluído». «Taxa de serviço» — это уже сервисный сбор, если он есть и заранее указан, а не VAT.",
+        "suggestion": "Написать: «На счёте “IVA incluído” означает, что НДС уже включён в цену. Чаевые не обязательны и обычно не включены; отдельная “taxa de serviço” возможна только если заранее указана».",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira / ASAE — regras de preços e IVA"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2].title",
+        "current": "DGADR — программа DOP/IGP (защищённые рецепты)",
+        "problem": "DOP/IGP защищают географические наименования и спецификации продуктов, а не «рецепты» в бытовом смысле. Формулировка может создать неверное понимание правовой защиты.",
+        "suggestion": "Заменить на: «DGADR — DOP/IGP: защищённые наименования и традиционные продукты».",
+        "confidence": "high",
+        "source": "DGADR — Produtos Tradicionais Portugueses"
+      }
+    ],
+    "missing_topics": [
+      "Краткая оговорка про alergénios в меню и полезные фразы для аллергий/непереносимостей: glúten, lactose, frutos secos, marisco",
+      "Различие между prato do dia/menu do dia и couvert/entradas, чтобы не путать фиксированный обед с платными закусками на столе",
+      "Уточнение, что многие региональные блюда сезонны или доступны в конкретных регионах, а в туристических ресторанах могут быть дороже и хуже по качеству"
+    ]
+  },
+  "model": "gpt-5.5"
+}

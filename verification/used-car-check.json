@@ -1,0 +1,197 @@
+{
+  "guideId": "used-car-check",
+  "categoryId": "auto_ownership",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has useful practical structure, but several core legal/administrative facts are wrong or misleading: vehicle registry is IRN/Automóvel Online, not IMT; IUC debts do not simply transfer to the buyer; IUC liability timing is misstated; and registration/certidão fees are outdated or incorrect.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].title",
+        "current": "1. IMT — официальный реестр",
+        "problem": "Misidentifies the competent authority. The official vehicle property register is the Registo Automóvel under IRN/Conservatória/Automóvel Online, not IMT. IMT deals mainly with circulation/technical matters, driving licences and vehicle approval/inspection framework, not ownership registration certidão.",
+        "suggestion": "Change to: \"1. IRN / Automóvel Online — официальный registo automóvel\". Explain that ownership, penhoras and reserva de propriedade are checked through the Certidão Permanente do Registo Automóvel / Conservatória do Registo Automóvel, not through IMT.",
+        "confidence": "high",
+        "source": "IRN — Registo Automóvel; Automóvel Online"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[0]",
+        "current": "💻 imt-ip.pt → «Veículos» → «Registo Automóvel»",
+        "problem": "Wrong path and misleading official source. The IMT website is not the correct place to request the ownership registry/certidão for penhora/reserva. The guide sends users to the wrong authority.",
+        "suggestion": "Replace with: \"💻 automovelonline.mj.pt или justica.gov.pt → Registo Automóvel → pedir Certidão Permanente do Registo Automóvel / consultar registo\".",
+        "confidence": "high",
+        "source": "Automóvel Online; IRN — Registo de veículos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2]",
+        "current": "📋 Покажет: владелец (последний), дата регистрации, класс, статус",
+        "problem": "Oversimplified and partly misleading. The relevant document is the registo/certidão, which shows registered ownership and registered charges/encumbrances such as reserva de propriedade, penhoras, hipotecas or locação financeira where registered. It is not a generic IMT 'status' check.",
+        "suggestion": "Write: \"Certidão Permanente do Registo Automóvel показывает зарегистрированного собственника и зарегистрированные обременения: reserva de propriedade, penhora, hipoteca, locação financeira и т.п.\"",
+        "confidence": "high",
+        "source": "IRN — Certidão Permanente do Registo Automóvel"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[6]",
+        "current": "💶 Стоимость: онлайн-выписка 8 € (Certidão Automóvel)",
+        "problem": "Fee appears outdated/incorrect for the relevant IRN online vehicle registry certificate. The usual official online Certidão Permanente do Registo Automóvel fee is €10, not €8.",
+        "suggestion": "Replace with: \"💶 Certidão Permanente do Registo Automóvel online: обычно 10 €; бумажные/балконные услуги могут стоить иначе — проверяйте tabela de emolumentos IRN.\"",
+        "confidence": "high",
+        "source": "IRN / Automóvel Online fee table"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].text",
+        "current": "Продавец обязан показать Declaração sem dívidas по IUC и IMT за последние 3 года.",
+        "problem": "This is legally misleading. There is no standard legal obligation in a private used-car sale for the seller to show a specific 'declaração sem dívidas по IUC и IMT за последние 3 года'. Certidão de Não Dívida from Portal das Finanças is generally a tax-debt certificate, not a vehicle-specific IUC/IMT certificate. Also, IMT in Portuguese tax law is property transfer tax for real estate, not a car tax; using IMT here is confusing/wrong.",
+        "suggestion": "Replace with: \"Попросите у продавца comprovativos de pagamento do IUC за последние годы и, при желании, Certidão de Não Dívida fiscal geral. Это не стандартная vehicle-specific справка и продавец не обязан автоматически её предоставлять без договорённости.\" Remove \"IMT\" from this section.",
+        "confidence": "high",
+        "source": "Portal das Finanças; Código do IUC"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[1].items[0]",
+        "current": "Если IUC не оплачен — долг переходит к вам",
+        "problem": "Wrong. IUC tax liability is generally personal to the taxable person registered as owner/possessor at the relevant time; unpaid IUC of the seller does not simply become the buyer's tax debt merely because the vehicle is sold. The buyer can have practical headaches, but the legal statement 'debt transfers to you' is inaccurate.",
+        "suggestion": "Write: \"Неоплаченный IUC продавца обычно остаётся долгом продавца, но это красный флаг: попросите comprovativos and clarify in the contract that the seller is responsible for all taxes, tolls and fines up to the delivery date.\"",
+        "confidence": "high",
+        "source": "Código do IUC, Lei n.º 22-A/2007"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2]",
+        "current": "Также проверить штрафы — через CGA / Finanças",
+        "problem": "CGA is Caixa Geral de Aposentações, a public pension body, not the place to check traffic fines. Traffic administrative offences are handled via ANSR/Portal das Contraordenações Rodoviárias. Toll debts may involve CTT/Pagamento de Portagens, Via Verde, Ascendi/Brisa etc. Fines generally attach to the offender/owner at the time, not automatically to the new buyer.",
+        "suggestion": "Replace with: \"Штрафы: попросите у продавца подтверждение отсутствия pendências; дорожные contraordenações проверяются через ANSR/Portal das Contraordenações Rodoviárias. Отдельно проверьте/оговорите portagens/toll debts up to delivery date.\"",
+        "confidence": "high",
+        "source": "ANSR — Portal das Contraordenações Rodoviárias"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2]",
+        "current": "📅 Последний IPO не старше года (свежий — лучший знак)",
+        "problem": "Misleading as a universal rule. Portuguese periodic inspection intervals depend on vehicle category and age. A normal passenger car does not have IPO for the first 4 years, then generally every 2 years until 8 years, then annually. Therefore a valid IPO can be older than one year for many cars and still fully legal.",
+        "suggestion": "Write: \"Проверьте, что IPO válido по графику для возраста/категории машины: легковые обычно первый IPO через 4 года, затем каждые 2 года до 8 лет, потом ежегодно. Для старых машин свежий IPO — плюс.\"",
+        "confidence": "high",
+        "source": "IMT / Decreto-Lei n.º 144/2012 periodic inspection rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "Показывают ДТП, пробег, хозяев по всем странам ЕС.",
+        "problem": "Overpromises commercial VIN reports. Carvertical/Carfax-like services have incomplete coverage and cannot reliably show all accidents, mileage events or owners across all EU countries. Owner identity data is restricted by privacy law and usually not available as a complete EU-wide history.",
+        "suggestion": "Write: \"Могут показать часть истории: mileage records, страховые/аукционные записи, импорты, ДТП из доступных баз. Покрытие неполное; отсутствие записей не доказывает, что ДТП/скрутки не было.\"",
+        "confidence": "high",
+        "source": "Commercial VIN-report service limitations; GDPR/privacy rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "Carvertical (carvertical.com), CarfaxPT, Autobiz",
+        "problem": "The references are vague and partly questionable for Portugal. 'CarfaxPT' is not a clearly established official or standard Portuguese service, and Autobiz is primarily a valuation/automotive data business rather than a definitive official vehicle-history source. This may mislead users into thinking these are official or comprehensive.",
+        "suggestion": "Clarify: \"Это коммерческие сервисы, не официальные источники. Перед оплатой проверьте, какие базы покрывает отчёт именно для Portugal/import country.\" Avoid presenting them as Carfax-equivalent official checks.",
+        "confidence": "medium",
+        "source": "Commercial service websites"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "🏢 Registo de propriedade в IRN (irn.justica.gov.pt) — 45 € + оформление",
+        "problem": "Fee is wrong/outdated for standard vehicle ownership transfer. The common IRN fee for purchase/sale registration is €65 if requested within the legal deadline, with a discount when done online via Automóvel Online; late registration is more expensive. €45 is not the standard 2026 value for ordinary transfer.",
+        "suggestion": "Replace with: \"Registo de propriedade: обычно 65 € в balcão/IRN within deadline, или 58,50 € online with 10% discount; late registration costs more. Check current IRN emolumentos.\"",
+        "confidence": "high",
+        "source": "IRN — Tabela de emolumentos do registo automóvel; Automóvel Online"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].items[7]",
+        "current": "🧾 IUC уже не перерасчёт — текущий год остаётся на продавце, следующий — на вас",
+        "problem": "Wrong/misleading. IUC is not simply allocated by calendar year between seller and buyer. It is normally due annually in the month of the vehicle's Portuguese registration anniversary and the liable person is the registered owner/taxable person at the relevant point. If the sale happens before the IUC due month, the buyer may be responsible for that year's IUC; if the seller already paid it, there is generally no pro-rata refund mechanism.",
+        "suggestion": "Write: \"IUC платится ежегодно в месяц matrícula. Кто владелец/зарегистрированный субъект в период начисления — тот и платит. В договоре отдельно укажите, что налоги/штрафы/portagens до даты и времени передачи несёт продавец, после — покупатель.\"",
+        "confidence": "high",
+        "source": "Código do IUC, Lei n.º 22-A/2007; Portal das Finanças IUC guidance"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "{\"label\":\"Certidão Automóvel IMT\",\"amountEUR\":8}",
+        "problem": "Wrong authority and likely wrong fee. This is an IRN/Automóvel Online certidão, not IMT, and the online Certidão Permanente do Registo Automóvel fee is commonly €10.",
+        "suggestion": "Change to: {\"label\":\"Certidão Permanente do Registo Automóvel — IRN/Automóvel Online\",\"amountEUR\":10}",
+        "confidence": "high",
+        "source": "IRN / Automóvel Online"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "{\"label\":\"Registo propriedade IRN\",\"amountEUR\":45}",
+        "problem": "Incorrect standard cost. Ordinary ownership transfer registration is generally €65 at IRN/balcão, or €58.50 online with the usual 10% discount, if within the deadline.",
+        "suggestion": "Use min/max: {\"label\":\"Registo propriedade IRN\",\"amountEURMin\":58.5,\"amountEURMax\":65} and note late registration costs more.",
+        "confidence": "high",
+        "source": "IRN — Registo Automóvel fees; Automóvel Online"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[4]",
+        "current": "{\"label\":\"ИТОГО проверок перед сделкой\",\"amountEURMin\":60,\"amountEURMax\":120}",
+        "problem": "The total no longer matches the corrected certidão cost precisely. With €10 certidão + €15–30 history report + €40–80 oficina, the checks total €65–120. If the buyer skips the commercial VIN report, the range is different.",
+        "suggestion": "Change to \"ИТОГО проверок перед сделкой: примерно 65–120 €\" or split optional costs: official certidão + oficina = €50–90; with VIN report = €65–120.",
+        "confidence": "high",
+        "source": "Arithmetic based on corrected costs"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "IMT online — совпадение DUA, отсутствие аресто, кредитов",
+        "problem": "Same core authority error as above: official encumbrance/ownership check is via IRN/Automóvel Online Certidão Permanente do Registo Automóvel, not IMT online.",
+        "suggestion": "Replace with: \"IRN / Automóvel Online Certidão Permanente — собственник, penhora, reserva de propriedade/кредитные обременения\".",
+        "confidence": "high",
+        "source": "IRN — Registo Automóvel"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "За ~50 € избежите покупки машины с долгом или скрытыми дефектами, которые потом станут вашими.",
+        "problem": "Misleading cost and legal framing. Corrected minimum with official certidão + oficina is around €50 if no commercial report, but the guide's own five checks including VIN report are about €65–120. Also seller's tax/fine debts do not automatically become the buyer's debts.",
+        "suggestion": "Write: \"За ~50–120 € можно снизить риск: официальная certidão + независимая oficina + при желании коммерческий VIN-отчёт. Налоги/штрафы продавца обычно не становятся автоматически вашими, но должны быть закрыты/оговорены в договоре.\"",
+        "confidence": "high",
+        "source": "Arithmetic; Código do IUC"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "{\"title\":\"IMT — Registo Automóvel\",\"url\":\"https://www.imt-ip.pt/sites/IMTT/Portugues/Pages/Home.aspx\"}",
+        "problem": "Wrong source title and weak/outdated URL for the stated purpose. IMT is not 'Registo Automóvel' for ownership certificates. The URL is a generic/legacy IMT homepage and does not support the claims about ownership, penhora or reserva de propriedade.",
+        "suggestion": "Replace with official IRN/Automóvel Online sources, e.g. \"IRN — Registo Automóvel\" and \"Automóvel Online — Certidão Permanente / Registo de propriedade\". Keep IMT only for IPO/inspection periodicity if needed.",
+        "confidence": "high",
+        "source": "IRN; Automóvel Online; IMT"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "{\"title\":\"ePortugal — Comprar veículo usado\",\"url\":\"https://eportugal.gov.pt/\"}",
+        "problem": "Too generic to verify the claims. The homepage is not a useful source for buying/selling a used vehicle or registration deadlines/fees.",
+        "suggestion": "Use a specific ePortugal service page, such as pages for registering vehicle ownership or buying/selling a vehicle, and keep the IRN page as the primary source for fees/deadlines.",
+        "confidence": "high",
+        "source": "ePortugal service pages; IRN"
+      }
+    ],
+    "missing_topics": [
+      "Explain that the official ownership/encumbrance check is the Certidão Permanente do Registo Automóvel from IRN/Automóvel Online, usually valid for a limited period, and not an IMT check.",
+      "Add a contract clause allocating responsibility for taxes, tolls, fines, parking tickets and damages before/after exact delivery date and time.",
+      "Mention toll debts separately: unpaid portagens are a common practical issue and should be checked/contractually allocated, even though they do not simply become the buyer's tax debt.",
+      "Mention that the buyer must have mandatory third-party liability insurance active before driving the car away; insurance does not automatically transfer with the vehicle.",
+      "Clarify IPO periodicity by vehicle age/category instead of saying the last IPO must always be under one year old.",
+      "Mention that ownership transfer can be done at IRN/Conservatória, Loja do Cidadão/CAA, by solicitador/advogado/notary, or online via Automóvel Online when both parties can authenticate/sign digitally.",
+      "Mention late registration consequence: after the 60-day deadline the registration fee increases, and unresolved registration can create tax/fine/insurance problems for both parties.",
+      "Mention seller protection if the buyer does not register the car: seller can use official mechanisms to request registration/regularisation or protect themselves, depending on the case."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5128,
+    "prompt_tokens": 2351,
+    "total_tokens": 7479
+  },
+  "model": "gpt-5.5"
+}

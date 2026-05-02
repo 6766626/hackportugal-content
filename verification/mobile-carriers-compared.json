@@ -1,0 +1,203 @@
+{
+  "guideId": "mobile-carriers-compared",
+  "categoryId": "telecom",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful on market positioning, but it contains several legally risky simplifications about fidelização/cancellation/portability, a wrong legal source, internal contradictions on DIGI fibre installation/fidelity, and some outdated or misleading operator claims.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "При досрочном расторжении — штраф: остаток месячной платы × оставшиеся месяцы.",
+        "problem": "This is an oversimplification and can be materially wrong. In Portugal early-termination charges during a loyalty period are regulated and are not normally the full remaining monthly fees. They are capped by the advantages granted to the customer and statutory percentage limits of the remaining monthly fees; device subsidies can be treated separately.",
+        "suggestion": "Write instead: \"При досрочном расторжении во время fidelização оператор может взыскать encargos, но они ограничены законом: обычно это не вся сумма оставшихся mensalidades, а сумма/процент, связанный с предоставленными скидками/льготами и оставшимся сроком. Перед расторжением запросите у оператора расчёт encargos de cessação antecipada.\"",
+        "confidence": "high",
+        "source": "Lei n.º 16/2022, Lei das Comunicações Eletrónicas; ANACOM guidance on encargos por cessação antecipada"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[1].content[0].items[1]",
+        "current": "Досрочное расторжение с фиделизацией: остаток месячной платы × оставшиеся месяцы",
+        "problem": "Same legal error repeated in the contract section. This can cause readers to overestimate or misunderstand cancellation costs.",
+        "suggestion": "Replace with: \"Досрочное расторжение с fidelização: оператор может выставить encargos de cessação antecipada, но они рассчитываются по правилам Lei das Comunicações Eletrónicas и не должны автоматически равняться всем оставшимся mensalidades. Требуйте расчёт письменно.\"",
+        "confidence": "high",
+        "source": "Lei n.º 16/2022; ANACOM"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2].content[0].text",
+        "current": "Старый автоматически закрывает контракт.",
+        "problem": "Misleading. Portability transfers the number; it does not necessarily cancel all contractual obligations, bundled services, loyalty periods, equipment rental, or early-termination charges. If the number is part of a bundle, the remaining services/contract may continue or penalties may apply.",
+        "suggestion": "Write: \"Перенос номера обычно запрашивается у нового оператора, но он не всегда автоматически закрывает весь старый договор/пакет и не отменяет fidelização. До portabilidade проверьте encargos, оборудование и оставшиеся услуги у старого оператора.\"",
+        "confidence": "high",
+        "source": "ANACOM portability rules; Lei n.º 16/2022"
+      },
+      {
+        "severity": "major",
+        "where": "sources[5]",
+        "current": "Decreto-Lei 74-B/2021 — serviços de comunicações",
+        "problem": "Wrong or at least misleading primary legal source for telecom contracts/consumer electronic communications. The core current statute is Lei n.º 16/2022, de 16 de agosto, the Portuguese Electronic Communications Law, as amended.",
+        "suggestion": "Replace or add: \"Lei n.º 16/2022, de 16 de agosto — Lei das Comunicações Eletrónicas\" with the official Diário da República link, and use it for fidelização, cancellation and portability claims.",
+        "confidence": "high",
+        "source": "Lei n.º 16/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[2]",
+        "current": "Фибра 1 Gbps — 10 €/мес (установка бесплатно при 3-месячной фиделизации)",
+        "problem": "This conflicts with the later statement that DIGI fibre has installation for 20 € with fidelity and 70 € without fidelity. The guide gives two different installation conditions.",
+        "suggestion": "Use one consistent formulation based on the current DIGI tariff page, e.g. \"DIGI Fibra 1 Gbps — 10 €/мес; условия установки/ativação зависят от выбора com/sem fidelização, проверьте цену установки при заказе.\" If the current offer is free installation with 3-month fidelity, remove the \"20 €\" reference elsewhere.",
+        "confidence": "high",
+        "source": "DIGI Portugal — fibra óptica"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1]",
+        "current": "DIGI фибра — только 3 мес фиделизации; без неё установка стоит 70 € вместо 20 €",
+        "problem": "Internally contradictory: \"только 3 мес фиделизации\" says there is no no-fidelity option, but the same sentence describes a no-fidelity option. It also contradicts the earlier \"установка бесплатно при 3-месячной фиделизации\".",
+        "suggestion": "Rewrite as: \"DIGI Fibra: обычно предлагается короткая fidelização 3 месяца; вариант sem fidelização/условия установки нужно проверять в заказе. Не смешивайте: если установка бесплатна при fidelização, не пишите 'вместо 20 €'.\"",
+        "confidence": "high",
+        "source": "DIGI Portugal — fibra óptica"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "NOS запустил low-cost бренд WOO (5 €/мес, 100 GB, без фиделизации).",
+        "problem": "Misleading timing/context. WOO was not newly launched in 2025/2026 as a response to DIGI; it existed years before DIGI's Portuguese launch. NOS may have repositioned or repriced WOO after DIGI, but not 'launched' it then.",
+        "suggestion": "Write: \"NOS ответил на DIGI через свой уже существующий digital/low-cost бренд WOO: тарифы от 5 €/мес...\"",
+        "confidence": "high",
+        "source": "WOO/NOS corporate history and WOO tariff pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "их 1 Gbps фибра за 10 €/мес и мобильный безлимит за 6 € вынудили конкурентов ответить low-cost брендами. NOS запустил WOO",
+        "problem": "Incorrect chronology. WOO was an existing NOS digital brand before DIGI entered Portugal; it was not launched because of DIGI.",
+        "suggestion": "Change to: \"...вынудили конкурентов снижать цены и активнее продвигать low-cost/digital бренды. NOS сделал ставку на уже существующий WOO...\"",
+        "confidence": "high",
+        "source": "WOO/NOS; DIGI Portugal launch coverage"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[6]",
+        "current": "Запущен 2025 в ответ на DIGI; позиционируется как «поуаже",
+        "problem": "Factually wrong launch date/context and the sentence is truncated/garbled. WOO was not launched in 2025.",
+        "suggestion": "Replace with: \"WOO — уже существующий digital/low-cost бренд NOS; после выхода DIGI стал агрессивнее по цене. Позиционируется как простой app-first оператор без лишних пакетов.\"",
+        "confidence": "high",
+        "source": "WOO/NOS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[8].content[0].items[2]",
+        "current": "⚖️ Arbitragem CNIACC — обязательна для операторов при требовании < 5 000 €",
+        "problem": "Misleadingly names only CNIACC. Consumer disputes can go through the competent consumer arbitration centre; CNIACC is not the only venue. Also the key caveat is that necessary arbitration applies when the consumer chooses arbitration and within the legal monetary limits.",
+        "suggestion": "Write: \"⚖️ Arbitragem de consumo: для потребителя споры с telecom-оператором до установленного лимита могут идти в обязательный для оператора арбитраж, если потребитель выбирает этот путь. Используйте CNIACC или региональный Centro de Arbitragem de Conflitos de Consumo по месту жительства.\"",
+        "confidence": "high",
+        "source": "Lei n.º 144/2015; CNIACC; ANACOM consumer dispute guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[8].content[0].items[0]",
+        "current": "📋 Livro de Reclamações (книга жалоб) — обязан ответить в 15 дней",
+        "problem": "Should specify 15 working days/dias úteis, not simply 15 calendar days.",
+        "suggestion": "Change to: \"обязан ответить в 15 рабочих дней (dias úteis)\".",
+        "confidence": "high",
+        "source": "Livro de Reclamações regime / Direção-Geral do Consumidor"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[5]",
+        "current": "🌐 Роуминг в ЕС — бесплатно (RLAH) на всех операторах",
+        "problem": "Overbroad. EU roaming is subject to fair-use rules, special caps for unlimited/cheap data plans, and it applies to roaming while temporarily in another EEA country, not to international calls from Portugal.",
+        "suggestion": "Write: \"Роуминг в ЕС/ЕЭЗ по RLAH обычно без доплаты, но с fair-use лимитами, особенно на дешёвых и безлимитных тарифах; звонки из Португалии за границу — это не roaming.\"",
+        "confidence": "high",
+        "source": "EU Roam Like at Home rules; ANACOM roaming guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[4]",
+        "current": "⏰ Без пополнения SIM деактивируется через 6 мес",
+        "problem": "This varies by operator and tariff. Many prepaid cards have validity/active periods, but the exact suspension and deactivation timing is not universally 6 months.",
+        "suggestion": "Write: \"Без пополнения SIM может быть приостановлена/деактивирована; сроки зависят от оператора и тарифа, часто около 180 дней, но проверяйте условия.\"",
+        "confidence": "medium",
+        "source": "Operator prepaid terms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[0].content[0].items[1]",
+        "current": "CC или ВНЖ",
+        "problem": "Too narrow for newcomers. Many operators can accept passport/foreign ID for identification, although requirements vary and a residence card or Portuguese ID may make online contracting easier.",
+        "suggestion": "Write: \"Документ: CC/Cartão de Residência или паспорт/иностранный ID — зависит от оператора и канала оформления.\"",
+        "confidence": "medium",
+        "source": "Operator onboarding requirements"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[0].content[0].items[4]",
+        "current": "Подпись контракта лично или онлайн через CMD",
+        "problem": "CMD is not available to every newcomer and is not the only online verification method. This may confuse non-residents/new arrivals.",
+        "suggestion": "Write: \"Подпись лично; онлайн — через CMD, video/KYC или загрузку документа, если оператор поддерживает. У новоприбывших часто проще оформить в магазине.\"",
+        "confidence": "high",
+        "source": "Chave Móvel Digital requirements; operator onboarding flows"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[2]",
+        "current": "🆔 Вход через CMD или верификация документа",
+        "problem": "For eSIM/online contracting, CMD is only for people who have Chave Móvel Digital; many expats will not have it initially. Also availability of eSIM and online issue/replacement differs by brand and plan.",
+        "suggestion": "Add caveat: \"CMD нужен не всегда и есть не у всех; некоторые операторы требуют video/KYC, визит в loja или уже активный клиентский аккаунт.\"",
+        "confidence": "high",
+        "source": "Chave Móvel Digital; operator eSIM terms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1].content[0].items[3]",
+        "current": "После срока — автопродление на 1 мес (можно расторгнуть в любой момент)",
+        "problem": "Imprecise. After the loyalty period, the service contract may continue, but the loyalty commitment ends; cancellation usually requires notice and return of equipment. It is not necessarily a formal 'one-month auto-renewal'.",
+        "suggestion": "Write: \"После окончания fidelização договор обычно продолжает действовать без нового обязательного срока; расторгнуть можно с соблюдением процедуры/срока уведомления и возвратом оборудования.\"",
+        "confidence": "high",
+        "source": "Lei n.º 16/2022; ANACOM"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[5].content[0].text",
+        "current": "мобильная сеть арендует NOS",
+        "problem": "Potentially outdated or uncertain after market consolidation involving NOWO/DIGI. NOWO's mobile network arrangement and commercial availability should be checked; the text also vaguely says 'после поглощений рынка (Vodafone/DIGI)' without stating what actually happened.",
+        "suggestion": "Verify and update NOWO separately: state the current owner/status and the current host network, or remove the host-network claim if not essential.",
+        "confidence": "medium",
+        "source": "AdC decisions on Vodafone/NOWO and DIGI/NOWO; NOWO tariff terms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[4].content[0].items[3]",
+        "current": "Red M (~23 €/мес) — 25 GB + Spotify/TVOD",
+        "problem": "Specific Vodafone plan names, data allowances and included entertainment benefits change frequently; this claim is unsourced and likely to become stale quickly. It also conflicts with the guide's broader claim of ~14.99 €/month for 100 GB.",
+        "suggestion": "Either remove this specific Red M example or mark it as an example requiring live verification: \"пример старого/акционного Red-пакета; актуальные Red/Yorn/Vodafone tariffs проверяйте на сайте Vodafone.\"",
+        "confidence": "medium",
+        "source": "Vodafone Portugal tariff pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[8].content[0].items[5]",
+        "current": "Tarifarios.anacom.pt — официальный сравнитель тарифов",
+        "problem": "The source title later says \"Tarifário.pt\", while the URL is tarifarios.anacom.pt. The official tool should be named consistently to avoid looking like a third-party site.",
+        "suggestion": "Use one consistent label, e.g. \"ANACOM — Comparador de tarifários: https://tarifarios.anacom.pt/\".",
+        "confidence": "high",
+        "source": "ANACOM"
+      }
+    ],
+    "missing_topics": [
+      "Add a short legal note that fidelização cannot be treated as a simple private penalty: operators must disclose cancellation charges and follow Lei n.º 16/2022 limits.",
+      "Add a warning that porting a mobile number does not necessarily cancel a bundled internet/TV contract or remove early-termination charges.",
+      "Add fair-use details for EU roaming, especially for very cheap/unlimited plans.",
+      "Add a caveat that coverage, fibre availability and 5G quality must be checked by exact address, not only by operator reputation.",
+      "Add official Lei n.º 16/2022 / ANACOM sources for cancellation, portability, loyalty periods and consumer rights."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5336,
+    "prompt_tokens": 4975,
+    "total_tokens": 10311
+  },
+  "model": "gpt-5.5"
+}

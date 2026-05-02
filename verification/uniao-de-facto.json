@@ -1,0 +1,224 @@
+{
+  "guideId": "uniao-de-facto",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide overstates the legal effects of união de facto and contains several material errors on inheritance, nationality proof, health/Social Security, civil registry, dissolution and costs.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Даёт большинство прав супругов: налоговое joint filing, наследование, SNS beneficiary, право на reagrupamento familiar, гражданство супруга после 3 лет.",
+        "problem": "Misleading overstatement. União de facto does not give most spousal rights. The surviving partner is not a legal heir by default; SNS access is not normally obtained “through” a partner; nationality through união with a Portuguese citizen has special proof requirements and is not simply the same as marriage.",
+        "suggestion": "Write: «Даёт отдельные права, близкие к браку в налогах, соцзащите, жилье и family reunification, но не создаёт брачного режима имущества и не делает партнёра законным наследником. Для гражданства с гражданином PT после 3 лет обычно требуется судебное признание união de facto.»",
+        "confidence": "high",
+        "source": "Lei 7/2001; Código Civil; Lei da Nacionalidade, art. 3.º"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0].content[0].items[2]",
+        "current": "Наследование — без налога на наследство (Imposto do Selo 10% освобождён для união)",
+        "problem": "This implies an automatic inheritance right. A de facto partner is not a statutory heir like a spouse. Stamp duty exemption may matter if assets are transferred by will/donation, but união de facto does not itself create inheritance rights.",
+        "suggestion": "Write: «Партнёр в união de facto не является законным наследником автоматически. Нужны завещание/другие инструменты планирования; при безвозмездных передачах surviving partner in união de facto is generally exempt from the 10% Imposto do Selo under the Stamp Duty Code.»",
+        "confidence": "high",
+        "source": "Código Civil; Código do Imposto do Selo, art. 6.º"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[2].content[0].items[1]",
+        "current": "**Гражданство по união** после 3 лет (аналог брачного пути, по той же ст. 3 Lei 37/81)",
+        "problem": "Incomplete and misleading. Nationality through união de facto with a Portuguese citizen requires more than a Junta certificate; the law refers to judicial recognition of the união de facto. It is not procedurally identical to marriage.",
+        "suggestion": "Write: «Гражданство: после более 3 лет união de facto с гражданином/гражданкой Portugal можно подать по art. 3 Lei da Nacionalidade, но для união de facto обычно нужно предварительное reconhecimento judicial в civil court; Junta certificate alone is not enough for this route.»",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, art. 3.º; Regulamento da Nacionalidade Portuguesa"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Если оба заявили себя как «união de facto» в IRS 2 года подряд — AT автоматически признаёт união. Для большинства целей (reagrupamento, гражданство) этого НЕДОСТАТОЧНО — всё равно нужен certificado Junta.",
+        "problem": "For nationality the statement is still wrong: a Junta certificate is not sufficient for the união de facto nationality route with a Portuguese citizen; judicial recognition is normally required. Also AT’s acceptance for IRS purposes does not amount to a universal legal recognition by all authorities.",
+        "suggestion": "Write: «IRS joint filing helps prove common life for tax purposes but does not bind AIMA/IRN/courts. For nationality under art. 3 with a Portuguese citizen, plan for judicial recognition of união de facto, not merely a Junta certificate.»",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, art. 3.º; Regulamento da Nacionalidade Portuguesa"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[5]",
+        "current": "❌ Не быть родственниками (прямые предки, братья-сёстры, племянники)",
+        "problem": "The kinship impediment is misstated. Lei 7/2001 bars direct line kinship and 2nd-degree collateral kinship, plus direct-line affinity. Nephew/niece relationships are 3rd-degree collateral and are not the example stated in the law.",
+        "suggestion": "Write: «❌ Не иметь impedimentos из art. 2 Lei 7/2001: direct line kinship, 2nd-degree collateral kinship (siblings), direct-line affinity, etc.»",
+        "confidence": "high",
+        "source": "Lei 7/2001, art. 2.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Regулируется Lei 7/2001 (с изменениями 23/2010 для same-sex).",
+        "problem": "Misleading. Lei 7/2001 already covered two people regardless of sex. Lei 23/2010 is primarily the law allowing civil marriage between same-sex persons, not the key amendment that made união de facto same-sex.",
+        "suggestion": "Write: «Регулируется Lei 7/2001, которая применяется к двум людям независимо от пола; Lei 23/2010 касается same-sex marriage.»",
+        "confidence": "high",
+        "source": "Lei 7/2001; Lei 23/2010"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "Право на alimony после разрыва (если зависимый партнёр)",
+        "problem": "Overbroad. União de facto does not create a general post-breakup spousal maintenance regime equivalent to divorce. Maintenance rights are much more limited and should not be presented as automatic after separation.",
+        "suggestion": "Write: «Нет общего режима “spousal alimony” как при разводе. Возможные claims after breakup/death are limited and fact-specific; get legal advice if financially dependent.»",
+        "confidence": "high",
+        "source": "Lei 7/2001; Código Civil"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "Beneficiário da Segurança Social через партнёра (если у него есть NISS)",
+        "problem": "Misleading. NISS/Social Security status is individual. União de facto may matter for certain benefits and survivor’s pension, but a partner does not generally become a Segurança Social beneficiary merely through the other partner’s NISS.",
+        "suggestion": "Write: «Segurança Social: união de facto can be relevant for means-tested family benefits and survivor benefits, but each person normally has their own NISS and contribution/benefit status.»",
+        "confidence": "high",
+        "source": "Segurança Social; Lei 7/2001"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "SNS beneficiary — доступ к медицине через партнёра-резидента",
+        "problem": "Misleading for Portugal. SNS access is generally based on the person’s own lawful residence/registration and user number, not dependent coverage through a spouse/partner.",
+        "suggestion": "Write: «SNS: партнёрство само по себе не “прикрепляет” к SNS через партнёра. Обычно нужен собственный lawful residence/registration and SNS user number; união can help prove household/address but is not the basis of coverage.»",
+        "confidence": "high",
+        "source": "SNS / Ministério da Saúde rules on user registration"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[4]",
+        "current": "Решения в экстренных случаях (медицинская представительность)",
+        "problem": "Overstated. União de facto may support hospital access/recognition as a close person, but automatic broad medical decision-making powers are not the same as a formal healthcare proxy or court-appointed representative.",
+        "suggestion": "Write: «Hospital visits/being treated as close family are easier, but for clear authority to make healthcare decisions use a formal advance directive/procurador de cuidados de saúde where appropriate.»",
+        "confidence": "medium",
+        "source": "Lei 25/2012 on advance healthcare directives"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[4]",
+        "current": "Действительно для всех государственных целей: Finanças, SNS, AIMA, IRN",
+        "problem": "Too broad. Different authorities may require different documents, dates, apostilles/translations, updated birth certificates, proof of no impediments, or judicial recognition. IRN nationality via união de facto is the key exception.",
+        "suggestion": "Write: «Достаточно для многих бытовых и налоговых целей, but each authority can request additional evidence. For IRN nationality via união de facto, Junta certificate alone is normally insufficient; for AIMA expect extra evidence of durable relationship/cohabitation.»",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, art. 3.º; AIMA family reunification practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[0]",
+        "current": "Для complete формализации, вводится в Assento de Nascimento обоих",
+        "problem": "Misleading. Civil registry registration of união de facto is optional and does not necessarily get entered in the birth record of both partners in the way implied, especially where one or both are foreigners without a Portuguese birth record. It also is not a substitute for judicial recognition where the nationality law requires it.",
+        "suggestion": "Write: «Registo civil da união de facto is optional and mainly records the situation in the Portuguese civil registry system where legally possible; for foreigners the practical effect depends on their civil registration status. It does not create extra substantive rights and does not replace court recognition for nationality.»",
+        "confidence": "medium",
+        "source": "IRN / Código do Registo Civil"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[3]",
+        "current": "Стоимость ~10 €, в день визита",
+        "problem": "Likely outdated/wrong. IRN civil registry fees for registering união de facto are not reliably €10; official service pages have listed different amounts. The guide should not state €10 without an IRN fee source.",
+        "suggestion": "Replace with: «Проверьте текущий preço on the IRN/ePortugal service page before booking; Junta certificates are municipal-priced, while civil registry fees follow the IRN emolument table.»",
+        "confidence": "medium",
+        "source": "IRN/ePortugal service page; Regulamento Emolumentar dos Registos e Notariado"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "{\"label\":\"Registo в Conservatória\",\"amountEUR\":10}",
+        "problem": "Unsupported and probably wrong/outdated. The source list only links to the IRN homepage, not the specific IRN/ePortugal fee page.",
+        "suggestion": "Do not hard-code €10 unless verified against the current IRN fee table. Use a range or say «see IRN/ePortugal current fee».",
+        "confidence": "medium",
+        "source": "IRN/ePortugal; Regulamento Emolumentar dos Registos e Notariado"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "Certificado de dissolução — подать в Junta / Conservatória, 10 €",
+        "problem": "Oversimplified and likely wrong. União de facto dissolves by death, marriage, or will of one/both partners. Judicial declaration may be needed when the dissolution is invoked for certain legal effects. A generic “certificado de dissolução” from Junta/Conservatória for €10 is not a safe statement.",
+        "suggestion": "Write: «Dissolution occurs by death, marriage or will of one/both partners. Notify AT/Segurança Social/AIMA/IRN where relevant. If you need to assert rights arising from dissolution, a court declaration may be required. Fees depend on the authority/service.»",
+        "confidence": "high",
+        "source": "Lei 7/2001, art. 8.º"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "{\"label\":\"Dissolução\",\"amountEUR\":10}",
+        "problem": "Unsupported and misleading because dissolution is not a single standard €10 administrative service in all cases; court/civil registry/municipal costs differ depending on what is being requested.",
+        "suggestion": "Remove the fixed €10 line or replace with «varies: municipal certificate/civil registry/court costs depend on the procedure».",
+        "confidence": "high",
+        "source": "Lei 7/2001, art. 8.º; IRN/ePortugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[3]",
+        "current": "Право запретить продажу общего жилья без согласия",
+        "problem": "Overstated. A non-owner de facto partner does not generally have the same automatic veto over sale of property as a spouse under matrimonial property rules. União de facto gives certain protections for the family home, especially in lease/death/breakup contexts, but not a blanket veto on sale.",
+        "suggestion": "Write: «Family home has specific protections, especially for leases and after death/breakup, but união de facto does not automatically give a non-owner a veto over sale. Co-own or contractually protect the home if needed.»",
+        "confidence": "high",
+        "source": "Lei 7/2001; Código Civil"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[0]",
+        "current": "Joint IRS filing (вариант: «englobamento»)",
+        "problem": "Terminology error. Joint filing is «tributação conjunta». «Englobamento» is aggregation of certain income categories and is a different tax concept.",
+        "suggestion": "Write: «Joint IRS filing / tributação conjunta». Do not call it englobamento.",
+        "confidence": "high",
+        "source": "Código do IRS; Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[3]",
+        "current": "Для EU-гражданина: unregistered partner (just cohabiting) имеет ограниченные права; registered — полные",
+        "problem": "Too simplified. Under EU free movement rules Portugal recognises a partner with whom the EU citizen lives in união de facto, but proof and facilitation/recognition depend on circumstances. “Registered = full” is not a precise legal test.",
+        "suggestion": "Write: «For EU free movement, a de facto partner may be treated as family/durable partner if the relationship is duly proven; expect documentary proof of cohabitation and relationship, not merely informal cohabitation.»",
+        "confidence": "medium",
+        "source": "Law 37/2006; Directive 2004/38/EC"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "🔸 **Брак**: больше прав — автоматическое joint property (meação), полное наследование без налога, proxy права в медицине",
+        "problem": "Overgeneralised. Marriage does not always mean automatic joint property: Portugal has selectable marital property regimes, and separation of property can be mandatory or chosen. Default is communion of acquired property, not universal automatic joint ownership.",
+        "suggestion": "Write: «Брак: spouse is a legal heir and default property regime is communion of acquired assets unless another/m mandatory regime applies; more family-home and representation protections than união de facto.»",
+        "confidence": "high",
+        "source": "Código Civil"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].text",
+        "current": "Если планируете подавать на гражданство/reagrupamento — предпочтительнее зарегистрированная união в Conservatória (не только certificado Junta), чтобы избежать вопросов AIMA/IRN.",
+        "problem": "For nationality this understates the issue: civil registry registration is not the key missing piece; judicial recognition is. For AIMA, a civil registry record may help but evidence of durable relationship/cohabitation is still important.",
+        "suggestion": "Write: «For reagrupamento, collect strong proof of cohabitation/relationship and check AIMA’s current list. For nationality via união de facto with a Portuguese citizen, plan for judicial recognition; Conservatória registration alone is not enough.»",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, art. 3.º; AIMA"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "IRN — Registo de União de Facto — https://irn.justica.gov.pt/",
+        "problem": "This is only the IRN homepage, not a specific source for the claimed registration procedure or fee. It is too weak for a guide making precise claims about Conservatória registration and costs.",
+        "suggestion": "Replace with the specific IRN/ePortugal service page for registo da união de facto and/or the current Regulamento Emolumentar dos Registos e Notariado fee reference.",
+        "confidence": "high",
+        "source": "IRN/ePortugal"
+      }
+    ],
+    "missing_topics": [
+      "Nationality caveat: união de facto with a Portuguese citizen generally requires judicial recognition before the civil nationality application.",
+      "No automatic inheritance: surviving de facto partner is not a legal heir unless protected by will/contractual estate planning.",
+      "Documents for Junta proof: birth certificates, declarations of no impediments, apostille/legalisation and certified translation for foreign documents may be required.",
+      "Civil registry registration is optional and its practical effect for foreign partners should be explained separately from a Junta certificate and from court recognition.",
+      "AIMA family reunification requires current AIMA document list and relationship/cohabitation evidence; a certificate alone may not be enough.",
+      "SNS and Segurança Social rights should be framed as individual residence/contribution/benefit rules, not dependent coverage through the partner.",
+      "Dissolution may require court declaration when legal effects are being claimed; there is no single universal €10 dissolution procedure.",
+      "Mention that the nationality law reform approved on 01.04.2026 was awaiting promulgation as of April 2026 and may change nationality timing/conditions, so nationality claims need re-checking before filing."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5817,
+    "prompt_tokens": 2884,
+    "total_tokens": 8701
+  },
+  "model": "gpt-5.5"
+}

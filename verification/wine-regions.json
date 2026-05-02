@@ -1,0 +1,85 @@
+{
+  "guideId": "wine-regions",
+  "categoryId": "food_leisure",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Главная проблема — смешаны понятия wine region, DOC/DOP и стиль вина Port, из-за чего список «14 DOC-регионов» фактически неверен; есть также устаревшая/сомнительная статистика по месту Португалии в ЕС.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Португалия — 4-й производитель вин в ЕС. 14 DOC-регионов.»",
+        "problem": "Обе формулировки вводят в заблуждение. По последним доступным общеевропейским данным Португалия обычно не 4-я, а около 5-го места в ЕС по объёму производства вина, после Италии/Франции/Испании/Германии. Кроме того, в Португалии не «14 DOC-регионов»: есть 14 винных регионов/региональных зон, а DOC/DO/DOP — это отдельные защищённые наименования внутри регионов, их больше 14.",
+        "suggestion": "Заменить на: «Португалия — один из крупнейших производителей вина в ЕС, обычно около 5-го места по объёму. Удобно ориентироваться по 14 винным регионам; DOC/DO/DOP — это защищённые наименования внутри этих регионов.»",
+        "confidence": "high",
+        "source": "OIV State of the World Vine and Wine Sector; Wines of Portugal / IVV regional classification"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].title",
+        "current": "«14 DOC регионов»",
+        "problem": "Неверный термин. Это не 14 DOC-регионов. Корректнее говорить о 14 винных регионах Португалии; DOC/DO/DOP — не то же самое, что региональная карта Wines of Portugal.",
+        "suggestion": "Переименовать раздел в «14 винных регионов» или «Основные винные регионы Португалии». Добавить короткое пояснение: «DOC/DO/DOP — защищённые наименования происхождения; IGP/Vinho Regional — более широкая категория».",
+        "confidence": "high",
+        "source": "Wines of Portugal; Instituto da Vinha e do Vinho (IVV)"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items",
+        "current": "Список 14 пунктов считает отдельно «Douro DOC» и «Port», но не включает «Távora-Varosa» и не отражает «Dão e Lafões» / «Península de Setúbal» как официальные региональные названия.",
+        "problem": "Список не соответствует официальной логике 14 винных регионов: Port — это не отдельный регион, а защищённое креплёное вино из демаркированного региона Douro/Porto e Douro. Из-за этого выпадает Távora-Varosa, а Dão/Lafões и Península de Setúbal названы неполно/смешанно.",
+        "suggestion": "Для списка 14 регионов использовать структуру: Vinho Verde; Trás-os-Montes; Porto e Douro; Távora-Varosa; Bairrada; Dão e Lafões; Beira Interior; Lisboa; Tejo; Península de Setúbal; Alentejo; Algarve; Açores; Madeira. Port описать внутри «Porto e Douro», а не как отдельный регион.",
+        "confidence": "high",
+        "source": "Wines of Portugal regional map; IVV"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[1]",
+        "current": "«Douro DOC — родина Port wine, также tinto (Duorum, Quinta do Crasto)»",
+        "problem": "Фраза может создать впечатление, что Port wine — это часть Douro DOC. На практике Port/Porto и Douro DOC — разные защищённые наименования: Port — креплёное вино из Douro, а Douro DOC обычно относится к некреплёным винам региона.",
+        "suggestion": "Написать: «Porto e Douro — регион, откуда происходят Port/Porto и некреплёные Douro DOC; для красных Douro tinto: Duorum, Quinta do Crasto и др.»",
+        "confidence": "high",
+        "source": "IVDP"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "«Выдержанное в дубе 10/20/30/40 лет.»",
+        "problem": "Не все Tawny имеют возрастную категорию 10/20/30/40 лет. Есть базовый Tawny и Reserve Tawny; 10/20/30/40/50 years old — это специальные категории с indication of age, причём возраст означает стиль/средний характер купажа, а не простую выдержку каждой капли ровно указанное число лет.",
+        "suggestion": "Написать: «Tawny — выдерживается в дереве; бывает базовый/Reserve и с указанием возраста 10/20/30/40/50 years old. Возраст на этикетке — категория стиля и среднего характера купажа.»",
+        "confidence": "high",
+        "source": "IVDP Port wine categories"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[1]",
+        "current": "«Setúbal — десертное Moscatel de Setúbal, сухие белые»",
+        "problem": "Регион корректнее называть Península de Setúbal. Moscatel de Setúbal — не просто «десертное», а fortified/licoroso wine с защищённым наименованием; также регион известен Palmela и сухими красными, не только белыми.",
+        "suggestion": "Написать: «Península de Setúbal — Moscatel de Setúbal/Moscatel Roxo как креплёные сладкие вина; Palmela и сухие красные/белые.»",
+        "confidence": "medium",
+        "source": "Wines of Portugal; IVV"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "«Vinho Verde — идеально для лета, лёгкая искристость»",
+        "problem": "Обобщение слишком широкое. Vinho Verde — это регион/DO, а не один стиль; многие массовые вина действительно лёгкие и слегка газированные, но есть и серьёзные тихие Alvarinho/Loureiro, выдержанные или более структурные вина без заметной искристости.",
+        "suggestion": "Написать: «Массовые Vinho Verde часто лёгкие, свежие и слегка искристые; но регион также делает серьёзные тихие Alvarinho/Loureiro.»",
+        "confidence": "high",
+        "source": "Wines of Portugal"
+      }
+    ],
+    "missing_topics": [
+      "Короткое объяснение DOC/DO/DOP vs IGP/Vinho Regional vs Vinho без географического указания",
+      "Юридические caveats для жителей: продажа алкоголя с 18 лет и лимиты алкоголя за рулём в Португалии",
+      "Как читать этикетку: região, DOC/DOP, colheita, reserva/garrafeira, castas",
+      "Официальный источник IVV для классификации регионов и наименований, помимо Wines of Portugal"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3378,
+    "prompt_tokens": 2280,
+    "total_tokens": 5658
+  },
+  "model": "gpt-5.5"
+}

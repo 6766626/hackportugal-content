@@ -1,0 +1,158 @@
+export default {
+  editorialVoice: 'hackportugal',
+  id: 'passes-aveiro-coimbra-algarve',
+  categoryId: 'public_transport',
+  title: 'Regional passes: Aveiro, Coimbra, Algarve, Centro',
+  tldr: 'Outside Lisbon and Porto there is no single “Navegante”: passes depend on the region and operator. In 2026, the PART benchmark is up to €30 per month within one município and up to €40 for an intermunicipal/regional pass, but Aveirobus, Coimbra Smart Card, Vamus Algarve and Move Centro have their own cards, zones and discounts. Before buying, check the route on passe.pt: CP, city buses and intercity lines are often counted separately.',
+  tags: ['passes', 'transport', 'algarve', 'coimbra', 'aveiro'],
+  estimatedReadMinutes: 5,
+  steps: [
+    {
+      id: 'how-it-works',
+      title: 'How regional passes work in 2026',
+      content: [
+        { kind: 'paragraph', text: 'In Portugal, regional passes are subsidised through PART/PROTransP, but this does not turn the country into one fare zone. The practical maximum for a regular user is around €30 for a monthly pass within one município and €40 for an intermunicipal/regional pass, if the region has included the route in its system.' },
+        { kind: 'paragraph', text: 'The main expat mistake is buying a “city” pass and expecting it to cover trips to a neighbouring concelho, CP or a private intercity operator. In Aveiro, Coimbra, the Algarve and Centro, the same plastic card/app may look similar, but the coverage is different.' },
+        { kind: 'checklist', items: [
+          'Check the specific route, not the region name: origem → destino.',
+          'Check whether the operator is included: Aveirobus, SMTUC/Coimbra, Vamus, Move Centro, CP or another operator.',
+          'Confirm the pass type: municipal, intermunicipal, regional, urbano, estudante, sénior.',
+          'A regular monthly pass usually runs for the calendar month, not 30 days from the purchase date.',
+          'The first card often costs extra: usually €3–€7, depending on the operator.',
+          'For discounts, you almost always need a NIF and a document: residence permit/passport, comprovativo de morada, declaração de matrícula or a Segurança Social certificate.',
+          'Top-up may be possible at kiosks/lojas do operador, Multibanco, Payshop, in an app or online — but not everywhere in the same way.',
+          'If you travel rarely, compare with a caderneta/prepaid journeys: a pass does not always pay off.'
+        ] }
+      ]
+    },
+    {
+      id: 'aveiro',
+      title: 'Aveiro and Aveirobus',
+      content: [
+        { kind: 'paragraph', text: 'Aveirobus is Aveiro city transport. It is convenient for daily trips around the city, the university, estação, Glicínias, hospital and residential areas within the município. For trips Aveiro ↔ Ílhavo, Águeda, Estarreja, Ovar, Oliveira do Bairro or other concelhos, you already need an intermunicipal option, if the route is included in the regional fare.' },
+        { kind: 'checklist', items: [
+          'If you live and work/study within Aveiro: first check the Aveirobus city mensal.',
+          'If you travel from a neighbouring concelho: check the intermunicipal pass on passe.pt using the exact stops.',
+          'CP Linha do Norte / Linha do Vouga is usually not automatically considered part of the Aveirobus pass.',
+          'Students at Universidade de Aveiro should check the student pass and separate agreements with the município.',
+          'For a discounted pass, prepare your NIF, identity document and proof of address in Aveiro or the region.',
+          'It is better to arrange the card in advance at the start of the month: queues are longer on the first working days.'
+        ] },
+        { kind: 'warning', text: 'An Aveirobus pass is not the same as a “pass for the Aveiro district”. If the route is served by another operator or by a CP train, you need to check the fare separately.' }
+      ]
+    },
+    {
+      id: 'coimbra',
+      title: 'Coimbra Smart Card and transport in Coimbra',
+      content: [
+        { kind: 'paragraph', text: 'In Coimbra, city transport has historically been linked to SMTUC and the Coimbra Smart Card. It covers Coimbra city bus routes, but it does not always cover intercity trips from Condeixa-a-Nova, Lousã, Miranda do Corvo, Mealhada, Figueira da Foz or other municípios in the region.' },
+        { kind: 'paragraph', text: 'For living in the city itself, a city pass is usually enough. For commuting from the suburbs, check Região de Coimbra/Move Centro intermunicipal passes and the specific operator. In 2026, the normal price benchmark is: up to €30 municipal and up to €40 intermunicipal, if the route is included in the subsidised network.' },
+        { kind: 'checklist', items: [
+          'Within Coimbra: look for mensal urbano / SMTUC / Coimbra Smart Card.',
+          'From the suburbs: look for an intermunicipal/regional pass, not only SMTUC.',
+          'Check whether a separate pass is needed for CP trains Coimbra-B, Coimbra, Figueira da Foz or Serpins.',
+          'Students at Universidade de Coimbra and Instituto Politécnico de Coimbra: check Passe Gratuito Jovem Estudante/Sub23 through the educational institution and operator.',
+          'Families with children: school passes are arranged through the escola/município, not always directly at the ticket office.',
+          'For the social fare, a declaração da Segurança Social or composição do agregado familiar may be required.'
+        ] }
+      ]
+    },
+    {
+      id: 'algarve',
+      title: 'Vamus Algarve',
+      content: [
+        { kind: 'paragraph', text: 'Vamus Algarve is the main brand for regional buses in the Algarve. It is important if you do not live in a single centre, but travel between Faro, Loulé, Albufeira, Portimão, Lagos, Tavira, Olhão, Silves, Lagoa or Vila Real de Santo António.' },
+        { kind: 'paragraph', text: 'In 2026, for regular journeys around the Algarve, people most often look at a municipal pass for one concelho or a Vamus regional/intermunicipal pass. The practical cap for a regular monthly regional pass is around €40, but city networks, airport routes, tourist shuttles and the CP Linha do Algarve train may have separate rules.' },
+        { kind: 'checklist', items: [
+          'Check the route on vamusalgarve.pt or passe.pt: in the Algarve, distances are large and service frequency varies by season.',
+          'Faro Airport, praia routes and extra summer lines may have different fares.',
+          'Do not include CP Linha do Algarve in your pass calculation until you see this explicitly in the conditions.',
+          'If you live in Loulé/Albufeira/Portimão/Lagos and travel only within the concelho, a municipal pass may be cheaper than a regional one.',
+          'For young students, use Passe Gratuito Jovem Estudante/Sub23 if you meet the requirements.',
+          'For sénior/social discounts, ask the Câmara Municipal and Vamus: some benefits are municipally funded.'
+        ] },
+        { kind: 'warning', text: 'In the Algarve, the timetable depends more heavily on the season than in Coimbra or Aveiro. Before buying a pass, check not only the price, but also the actual number of services on working days, weekends and after 20:00.' }
+      ]
+    },
+    {
+      id: 'move-centro',
+      title: 'Move Centro: when you need a regional Centro pass',
+      content: [
+        { kind: 'paragraph', text: 'Move Centro is the umbrella regional logic for travel in central Portugal, where routes often run between municípios and CIM. It is useful for people who live in a small town and travel to Coimbra, Aveiro, Viseu, Castelo Branco, Leiria, Guarda or another centre for work, study or medical appointments.' },
+        { kind: 'paragraph', text: 'The key point is not to buy a pass “by the region name”. There are many operators and routes in Centro, so first search for the origem/destino pair on passe.pt, then check where the card is issued and topped up.' },
+        { kind: 'checklist', items: [
+          'Identify the exact paragens: not only the town, but also the departure/arrival stop.',
+          'Check whether the journey is municipal or intermunicipal: the price and pass depend on this.',
+          'Ask whether the pass is valid on all of the operator’s services or only on the specified linha.',
+          'Confirm whether you can top up online; in small towns, a loja/agente is sometimes required.',
+          'If the route includes CP + bus, count them separately until integration is confirmed.',
+          'Keep the comprovativo de carregamento: if the validator fails, this is your evidence.'
+        ] }
+      ]
+    },
+    {
+      id: 'buying-checklist',
+      title: 'How to buy without unnecessary costs',
+      content: [
+        { kind: 'substeps', items: [
+          { id: 'route', title: '1. Check the route first', content: [
+            { kind: 'paragraph', text: 'Open passe.pt and enter origem/destino. If the service shows several operators, compare the coverage: sometimes it is cheaper to buy one regional pass, sometimes a city pass + single tickets.' }
+          ] },
+          { id: 'documents', title: '2. Prepare the documents', content: [
+            { kind: 'checklist', items: [
+              'Identity document: Cartão de Cidadão, residence permit or passport.',
+              'NIF.',
+              'Comprovativo de morada, if the pass is linked to residência/município.',
+              'Photo, if the operator makes a personalised card.',
+              'Declaração de matrícula for 4_18/Sub23/Jovem Estudante.',
+              'Segurança Social document for the social fare, if applicable.',
+              'Bank card/Multibanco or cash: small agentes do not always accept everything.'
+            ] }
+          ] },
+          { id: 'validate', title: '3. Check the card after topping up', content: [
+            { kind: 'paragraph', text: 'After carregamento, check the receipt: month, zones, origem/destino, operador. It is easier to correct an error immediately in the loja than after a fine from an inspector.' }
+          ] }
+        ] },
+        { kind: 'warning', text: 'Do not throw away your old card when moving within the region. Sometimes a new profile or pass can be loaded onto it, while a new card costs extra.' }
+      ]
+    }
+  ],
+  costs: [
+    { label: 'Regular municipal pass', amountEURMax: 30, note: 'Typical subsidised 2026 cap for journeys within one município; the actual price depends on the operator.' },
+    { label: 'Regular intermunicipal/regional pass', amountEURMax: 40, note: '2026 benchmark for intermunicipal journeys within PART/the regional network, if the route is included.' },
+    { label: 'Transport card issue', amountEURMin: 3, amountEURMax: 7, note: 'One-off; depends on Aveirobus, Coimbra/SMTUC, Vamus, Move Centro or the local agente.' },
+    { label: 'Passe Gratuito Jovem Estudante / Sub23', amountEUR: 0, note: 'For eligible students/school pupils with annual matrícula confirmation; arranged according to the rules of the operator and educational institution.' }
+  ],
+  sources: [
+    {
+      title: 'Passe.pt — search for passes and fares by route',
+      url: 'https://www.passe.pt',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'Transportes & Viagens — information on regional transport and passes',
+      url: 'https://www.transporteseviagens.pt',
+      kind: 'company',
+      language: 'pt',
+      lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'República Portuguesa — Programme to Support Fare Reduction in Public Transport',
+      url: 'https://www.portugal.gov.pt/pt/gc23/comunicacao/noticia?i=programa-de-apoio-a-reducao-tarifaria-nos-transportes-publicos',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'AMT — consumer information on public passenger transport',
+      url: 'https://www.amt-autoridade.pt',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-04-28'
+    }
+  ],
+  lastVerified: '2026-04-28',
+  verifyIntervalDays: 180
+}

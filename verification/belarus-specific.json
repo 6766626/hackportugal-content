@@ -1,0 +1,17 @@
+{
+  "guideId": "belarus-specific",
+  "categoryId": "country_specific",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Expected ',' or '}' after property value in JSON at position 31 (line 2 column 30)",
+    "raw": "{\n  \"verdict\": \"major_issues  \"summary\": \"Guide has several high-impact misleading claims about visa jurisdiction, Belarus/EU sanctions and money transfers, plus incorrect apostille/translation details.\",\n  \"issues\": [\n    {\n      \"severity\": \"critical\",\n      \"where\": \"tldr\",\n      \"current\": \"Визы D через эти консульства.\",\n      \"problem\": \"Misleading: Portuguese national/residence visa applications are not generally filed at any nearby Portuguese consulate chosen by the applicant. The compet",
+    "issues": [],
+    "missing_topics": []
+  },
+  "usage": {
+    "completion_tokens": 4598,
+    "prompt_tokens": 2088,
+    "total_tokens": 6686
+  },
+  "model": "gpt-5.5"
+}

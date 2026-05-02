@@ -1,0 +1,78 @@
+{
+  "guideId": "lisbon-neighborhoods",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом пригоден как ориентир по районам, но есть несколько неточностей по транспорту, источникам и формулировкам про цены/географию.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "Câmara Municipal (муниципалитет) de Lisboa — гид по районам и freguesias — https://www.lisboa.pt/cidade/uplisboa",
+        "problem": "Ссылка и описание не совпадают: этот URL не является нормальной страницей CML с районами/freguesias Лиссабона. Для официальной информации по административным freguesias у CML используется раздел про juntas de freguesia; «районы» вроде Chiado, Alfama, Avenidas Novas, Cacilhas и Cascais в тексте смешивают неофициальные bairros, freguesias и отдельные муниципалитеты.",
+        "suggestion": "Заменить источник на официальную страницу CML по freguesias, например: «Câmara Municipal de Lisboa — Juntas de Freguesia», https://www.lisboa.pt/municipio/juntas-de-freguesia. Если нужны именно bairros, добавить caveat: «Это не официальный список административных районов; в гайде смешаны bairros, freguesias и муниципалитеты агломерации».",
+        "confidence": "high",
+        "source": "Câmara Municipal de Lisboa — Juntas de Freguesia"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "Avenidas Novas / Saldanha ... Метро синей+жёлтой линии.",
+        "problem": "Для Saldanha указаны неправильные линии метро: станция Saldanha — жёлтая и красная линии, не синяя. В районе Avenidas Novas действительно рядом есть синяя линия через São Sebastião, но формулировка «Saldanha — синяя+жёлтая» вводит в заблуждение.",
+        "suggestion": "Написать: «Метро: Saldanha — жёлтая+красная линии; São Sebastião — синяя+красная; Campo Pequeno/Entrecampos — жёлтая».",
+        "confidence": "high",
+        "source": "Metropolitano de Lisboa — network map"
+      },
+      {
+        "severity": "minor",
+        "where": "title",
+        "current": "Районы Лиссабона — где жить",
+        "problem": "Заголовок обещает районы Лиссабона, но значительная часть гайда описывает не районы города, а отдельные муниципалитеты Большого Лиссабона: Almada, Seixal, Barreiro, Cascais, Oeiras. Это не ошибка по сути, но географически misleading для новичков.",
+        "suggestion": "Переименовать в «Лиссабон и пригороды — где жить» или добавить в начало: «В гайде смешаны районы Лиссабона и муниципалитеты агломерации — Cascais/Oeiras/Almada/Seixal/Barreiro не входят в município de Lisboa».",
+        "confidence": "high",
+        "source": "Área Metropolitana de Lisboa; Câmara Municipal de Lisboa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3].content[0].text",
+        "current": "Almada / Cacilhas ... -30-40% от цен города. T1 600-1000€.",
+        "problem": "Формулировка слишком обобщает Almada и Cacilhas. Cacilhas рядом с паромом и набережной обычно заметно дороже, чем более удалённые зоны Almada; «T1 600-1000€» как общий ориентир для Cacilhas в 2026 может быть заниженным для экспатского рынка долгосрочной аренды. Также не указано, это asking prices, новые контракты, furnished/unfurnished, с коммунальными или без.",
+        "suggestion": "Написать осторожнее: «Almada в среднем дешевле Лиссабона, но Cacilhas из-за парома и вида на реку может стоить почти как некоторые районы города. Для T1 ориентируйтесь по текущим объявлениям; цены сильно зависят от ремонта, мебели и близости к ferry/metro surface». Добавить источник/методологию для всех rent ranges.",
+        "confidence": "medium",
+        "source": "INE — Estatísticas de Rendas da Habitação ao nível local; market listings methodology needed"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "Penha de França / Anjos ... T1 от 800-1500€.",
+        "problem": "Синтаксис «от 800-1500€» некорректен и может читаться как гарантированный диапазон. Для 2026 низ 800€ для T1 в Anjos/Penha de França выглядит скорее как редкая нижняя граница, а не обычный ориентир, особенно для меблированной аренды для иностранцев.",
+        "suggestion": "Заменить на «T1 примерно 900–1600€; варианты около 800€ возможны, но редки и обычно требуют компромиссов по состоянию/локации». Либо оставить исходный диапазон, но добавить: «диапазоны — ориентир по объявлениям, не официальная медиана; utilities обычно не включены».",
+        "confidence": "medium",
+        "source": "INE — Estatísticas de Rendas da Habitação ao nível local; rental portals should be cited for asking prices"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[7]",
+        "current": "Русскоязычная школа/клуб → Oeiras (Carlos Freixo), Cascais",
+        "problem": "Формулировка может быть misleading: неясно, речь об официальной школе, языковом центре, субботней школе или клубе. Для семей это критично: аккредитация, язык преподавания, возраст, дипломы и статус школы сильно отличаются.",
+        "suggestion": "Уточнить тип: «русскоязычные кружки/языковые занятия/субботние школы — проверяйте актуальный статус, адрес, возрастные группы и аккредитацию напрямую». Если упоминается Carlos Freixo, дать точное название организации и ссылку.",
+        "confidence": "medium",
+        "source": "school/club official site needed"
+      }
+    ],
+    "missing_topics": [
+      "Методология цен аренды: long-term vs short-term, furnished/unfurnished, asking prices vs signed contracts, utilities included/excluded, дата проверки.",
+      "Явное разделение: bairros/freguesias внутри Lisboa vs отдельные муниципалитеты Greater Lisbon.",
+      "Транспортные caveats: время до работы в часы пик, паром/поезд/метро, ночной транспорт, зависимость от автомобиля в Cascais/Oeiras/южном берегу.",
+      "Практические риски жилья: старые дома без лифта/изоляции/отопления, влажность, шум, холмы и доступность с колясками.",
+      "Шум аэропорта в северных/центральных районах Лиссабона и шум nightlife в Bairro Alto/Cais do Sodré/Alfama.",
+      "Ссылки на официальные transport maps: Metropolitano de Lisboa, CP Linha de Cascais, Transtejo/Soflusa, Carris Metropolitana."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3286,
+    "prompt_tokens": 2721,
+    "total_tokens": 6007
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,104 @@
+{
+  "guideId": "domestic-flights-ferries",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен, но есть несколько существенных неточностей по субсидиям для резидентов островов, расписаниям паромов и тарифам городского транспорта.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].text",
+        "current": "Резиденты Азор и Мадейры получают субсидированные тарифы на внутренние рейсы — до -80%. Нужно подтверждение резидентства.",
+        "problem": "Формулировка слишком широкая и вводит в заблуждение: субсидия социальной мобильности для резидентов Азор/Мадейры в основном касается поездок между автономными регионами и материком, а не любых «внутренних рейсов». Обычно это не просто скидка «до -80%» при покупке, а режим с предельной стоимостью/возмещением при соблюдении условий. Для Азор также есть отдельные правила для межостровных перевозок.",
+        "suggestion": "Написать: «Для резидентов Азор и Мадейры действует Subsí­dio Social de Mobilidade на поездки между автономным регионом и материком: правила зависят от региона, маршрута и статуса пассажира; часто требуется подтверждение резидентства и оформление/возмещение по установленной процедуре. Для межостровных рейсов на Азорах действуют отдельные тарифы/условия SATA Air Açores.»",
+        "confidence": "high",
+        "source": "ANAC — Subsídio Social de Mobilidade; Decreto-Lei n.º 41/2015 and subsequent amendments"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].text",
+        "current": "Покупать через «tarifa residente» на SATA или TAP с указанием ВНЖ Мадейры/Азор.",
+        "problem": "У иностранцев нет отдельного «ВНЖ Мадейры/Азор»: residence permit is national, not region-specific. Для льготы важно доказать фактическое/фискальное резидентство в автономном регионе, а не просто иметь Portuguese residence permit. Также не всегда достаточно выбрать тариф при покупке — могут требоваться документы и процедура возмещения.",
+        "suggestion": "Заменить на: «Проверяйте условия tarifa residente / subsídio de mobilidade у перевозчика и в официальных правилах региона. Обычно нужны документы, подтверждающие резидентство в Madeira/Açores, например адрес/фискальное резидентство в автономном регионе, а не просто обычный ВНЖ Португалии.»",
+        "confidence": "high",
+        "source": "ANAC — Subsídio Social de Mobilidade; Governo Regional da Madeira/Açores guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "Transtejo / Soflusa — паромы через реку Тежу. Главные: Cacilhas (южный берег, вид на Лиссабон), Barreiro, Seixal, Montijo, Trafaria. Оплата Navegante или билетом. От Cais do Sodré/Belém.",
+        "problem": "Смешаны терминалы: не все эти направления идут от Cais do Sodré/Belém. Barreiro обслуживается от Terreiro do Paço; Cacilhas, Seixal и Montijo — от Cais do Sodré; Trafaria/Porto Brandão — от Belém. Текущий текст может отправить читателя не на тот терминал.",
+        "suggestion": "Написать: «Терминалы разные: Cais do Sodré → Cacilhas/Seixal/Montijo; Terreiro do Paço → Barreiro; Belém → Porto Brandão/Trafaria. Оплата Navegante или разовым билетом.»",
+        "confidence": "high",
+        "source": "Transtejo Soflusa official routes — ttsl.pt"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Atlânticoline — паромы между островами. В сезон (апрель-октябрь) работают все линии. Зимой — ограничение.",
+        "problem": "«Апрель-октябрь работают все линии» слишком категорично и, как правило, неверно: на Азорах часть линий работает круглогодично в центральной группе, а расширенная сезонная сеть зависит от года и обычно не гарантируется на весь период апрель–октябрь. Расписания сильно сезонные и меняются ежегодно.",
+        "suggestion": "Заменить на: «Atlânticoline обслуживает межостровные линии; часть маршрутов работает круглый год, расширенная сеть — сезонно, по ежегодному расписанию. Перед поездкой обязательно проверяйте актуальное расписание на atlanticoline.pt.»",
+        "confidence": "high",
+        "source": "Atlânticoline official schedules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].text",
+        "current": "Porto Santo Line. Ежедневный паром Funchal → Porto Santo (маленький остров с пляжами), 2.5ч, 30-60€.",
+        "problem": "Паром Funchal–Porto Santo не является гарантированно ежедневным круглый год: расписание сезонное, бывают дни без рейсов и периоды техобслуживания/приостановки. «Ежедневный» вводит в заблуждение.",
+        "suggestion": "Написать: «Porto Santo Line: паром Funchal ↔ Porto Santo, около 2 ч 30 мин. Летом рейсы часто ежедневные/почти ежедневные, вне сезона расписание сокращается; проверяйте календарь перед планированием.»",
+        "confidence": "high",
+        "source": "Porto Santo Line official schedules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "Lisboa/Porto → Funchal 4-8 рейсов/день, 1.5ч.",
+        "problem": "Формулировка выглядит так, будто и из Lisboa, и из Porto у TAP обычно по 4–8 рейсов в день в Funchal. Для Lisboa это может быть близко в высокий спрос, но Porto–Funchal у TAP обычно значительно реже и зависит от сезона/дня.",
+        "suggestion": "Разделить: «Lisboa → Funchal: несколько рейсов в день, около 1 ч 45 мин. Porto → Funchal: обычно реже и зависит от сезона/дня; проверяйте расписание TAP.»",
+        "confidence": "medium",
+        "source": "TAP Air Portugal schedules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3]",
+        "current": "Airport → город: Lisboa Alameda метро 1.70€ 20мин; Porto Aeroporto метро (фиолетовая линия) 2.25€ 30мин",
+        "problem": "Тариф Lisboa metro 1.70€ устарел/занижен для 2026: разовый билет метро/городской транспорт Lisboa стоит не 1.70€; также нужна карта Navegante occasional, если её нет. Для Porto цена 2.25€ зависит от зоны до центра и также требует Andante card, если её нет.",
+        "suggestion": "Написать: «Lisboa Airport → центр: метро Red Line, разовый тариф Carris/Metro по актуальной цене + карта Navegante occasional, если её нет. Porto Airport → centro: Metro line E/Violet, обычно зона Z4 до центра + Andante card; проверяйте актуальные тарифы Metro do Porto/Andante.»",
+        "confidence": "high",
+        "source": "Metro Lisboa official fares; Andante/Metro do Porto official fares"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "Для жителей Порту — rabelo catamarans от Cais da Ribeira.",
+        "problem": "Фраза «для жителей Порту» misleading: rabelo/catamaran trips on the Douro are tourist cruises, not regular public transport for residents. Также посадка часто бывает не только у Cais da Ribeira, но и со стороны Vila Nova de Gaia.",
+        "suggestion": "Заменить на: «Это туристические круизы на rabelo/catamaran boats, а не общественный транспорт. Посадка обычно у Ribeira и/или Vila Nova de Gaia; проверяйте точку отправления у оператора.»",
+        "confidence": "high",
+        "source": "Tour operators' official boarding information"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: TAP, SATA, Atlânticoline, Transtejo Soflusa",
+        "problem": "Не хватает официальных источников для важных утверждений: Porto Santo Line, Ryanair, тарифы Metro Lisboa/Metro do Porto/Andante, а также официальный источник по субсидиям резидентов Madeira/Açores.",
+        "suggestion": "Добавить источники: Porto Santo Line official site; Ryanair route page; Metro Lisboa fares; Andante/Metro do Porto fares; ANAC или региональные страницы о Subsídio Social de Mobilidade.",
+        "confidence": "high",
+        "source": "Porto Santo Line; Ryanair; Metro Lisboa; Andante; ANAC"
+      }
+    ],
+    "missing_topics": [
+      "Чёткое объяснение Subsídio Social de Mobilidade для резидентов Madeira/Açores: кто имеет право, какие маршруты покрываются, какие документы нужны, скидка или возмещение.",
+      "Официальный источник и caveat по Porto Santo Line: сезонность, дни без рейсов, ежегодные остановки на обслуживание.",
+      "Актуальные источники по тарифам Lisbon/Porto airport public transport и стоимости транспортных карт Navegante/Andante.",
+      "Разделение Azores inter-island travel: когда лучше самолёт SATA Air Açores, когда ferry Atlânticoline, и что многие ferry routes are seasonal/weather-dependent.",
+      "Указание, что паромы на Азорах и Madeira могут отменяться из-за погоды/моря, поэтому нельзя планировать tight same-day connections with flights."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3506,
+    "prompt_tokens": 2212,
+    "total_tokens": 5718
+  },
+  "model": "gpt-5.5"
+}

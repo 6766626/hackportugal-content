@@ -1,0 +1,137 @@
+{
+  "guideId": "finding-doctor",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен, но содержит несколько существенных неточностей про доступ к SNS, сроки получения семейного врача, urgência/taxas moderadoras и частные клиники.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Семейный врач (médico de família) — бесплатно через SNS в Centro de Saúde ... но очередь на запись 2-14 дней.",
+        "problem": "Формулировка создаёт впечатление, что семейный врач гарантирован всем зарегистрированным в SNS. На практике в 2026 году значительная часть пользователей SNS не имеет médico de família; можно быть зарегистрированным в Unidade de Saúde, но обслуживаться через consultas abertas/consulta do dia/врача, доступного в unidade. Срок 2–14 дней до записи сильно зависит от региона и наличия врача.",
+        "suggestion": "Написать: «После получения número de utente и регистрации в Unidade de Saúde вас могут прикрепить к médico de família, но это не гарантировано: во многих районах есть lista de espera. Если врача нет, просите consulta aberta/consulta do dia или запись к доступному врачу в вашей unidade. Сроки записи сильно различаются по району».",
+        "confidence": "high",
+        "source": "SNS / Ministério da Saúde — informação sobre inscrição em cuidados de saúde primários; Portal da Transparência SNS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "Нужны NIF, NISS, Utente (см. SNS guide).",
+        "problem": "NISS обычно не является обязательным документом для регистрации в Centro de Saúde/SNS. Для иностранцев критичны número de utente или документы для его получения, удостоверение личности/паспорт, документ о законном проживании или применимый статус, подтверждение адреса; NIF часто просят, но NISS как обязательное требование вводит в заблуждение.",
+        "suggestion": "Заменить на: «Обычно просят паспорт/ID, título de residência или другой документ, подтверждающий право на доступ к SNS, comprovativo de morada, NIF если есть, и número de utente; конкретный список зависит от unidade. NISS обычно не нужен для самой регистрации в SNS».",
+        "confidence": "high",
+        "source": "SNS 24 — Inscrição no Centro de Saúde / Número de utente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "Через 3-6 мес присваивается.",
+        "problem": "Это слишком оптимистично и не является правилом. В ряде муниципалитетов ожидание médico de família может длиться значительно дольше, включая год и более; в некоторых местах врача не присваивают до появления вакансии.",
+        "suggestion": "Написать: «Срок присвоения не гарантирован: это может занять месяцы или дольше, а в перегруженных районах — неопределённо долго. Пока врача нет, просите consulta aberta/consulta do dia в вашей unidade».",
+        "confidence": "high",
+        "source": "Portal da Transparência SNS — utentes sem médico de família"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[0].items[0]",
+        "current": "📞 SNS 24 (808 24 24 24) — общий канал, запись в ваш Centro",
+        "problem": "SNS 24 не всегда является «общим каналом записи» в любой Centro de Saúde. Через SNS 24/портал/app можно делать некоторые записи и запросы, но доступность зависит от unidade и типа консультации; часто запись всё ещё делается напрямую через USF/UCSP по телефону, email, Balcão SNS 24 или лично.",
+        "suggestion": "Уточнить: «SNS 24 / app / portal могут позволять запись или контакт с вашей unidade, но не везде и не для всех типов консультаций; если слотов нет — звоните/пишите напрямую в USF/UCSP или идите на atendimento».",
+        "confidence": "medium",
+        "source": "SNS 24 — Marcar consulta"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[2].text",
+        "current": "Если срочно — Urgência (скорая).",
+        "problem": "Urgência — это отделение неотложной помощи/emergency department, а не «скорая помощь» как ambulance. Для жизнеугрожающих ситуаций нужно звонить 112; для неясных, но не критических симптомов обычно рекомендуется сначала звонить SNS 24, чтобы получить triagem и направление.",
+        "suggestion": "Заменить на: «Если есть угроза жизни — звоните 112. Если ситуация срочная, но не очевидно жизнеугрожающая, позвоните SNS 24; вас могут направить в urgência. Urgência — это отделение неотложной помощи в больнице, не сама скорая машина».",
+        "confidence": "high",
+        "source": "SNS 24; INEM — 112"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].title",
+        "current": "Urgência (скорая помощь)",
+        "problem": "Перевод неверный: urgência в португальском контексте обычно означает hospital emergency department / serviço de urgência. «Скорая помощь» — ambulância/INEM, номер 112.",
+        "suggestion": "Переименовать в: «Urgência — больничное отделение неотложной помощи» и отдельно указать: «Скорая/ambulância: 112».",
+        "confidence": "high",
+        "source": "SNS 24; INEM"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[2].content[0].text",
+        "current": "Taxa moderadora с 2022 отменена — бесплатно.",
+        "problem": "Это неверно в части urgência. С 2022 года taxas moderadoras в SNS в основном отменены, но в Serviço de Urgência они всё ещё могут взиматься, если пациент пришёл без предварительного направления через SNS/SNS24/INEM/cuidados primários и случай не привёл к госпитализации. Есть исключения и освобождения, но «бесплатно» как общее правило неправильно.",
+        "suggestion": "Написать: «В SNS многие taxas moderadoras отменены, но в urgência плата может взиматься, если вы пришли без направления SNS 24/INEM/врача и вас не госпитализировали. Если вас направили SNS 24/INEM или после urgência была госпитализация — обычно taxa moderadora не взимается. Уязвимые категории могут быть освобождены».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022; SNS/ACSS — Taxas moderadoras"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].text",
+        "current": "Но если с цветом «белый/синий» (не срочно) — могут направить в Centro.",
+        "problem": "Связка с оплатой и triage color неполная. Плата в urgência зависит не просто от цвета triage, а от того, был ли пациент направлен SNS24/INEM/другим сервисом SNS и была ли госпитализация. Пациента с низким приоритетом могут всё равно принять, перенаправить или оставить ждать; правила зависят от учреждения и клинической оценки.",
+        "suggestion": "Уточнить: «Низкий приоритет по Manchester означает более длинное ожидание и возможное перенаправление в cuidados de saúde primários. Для снижения риска ненужного визита и возможной taxa moderadora лучше сначала звонить SNS 24, кроме экстренных случаев — тогда 112».",
+        "confidence": "high",
+        "source": "SNS 24; Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3].content[0].text",
+        "current": "В частной клинике (CUF, Luz) — без очереди, но 80-150€ первый приём.",
+        "problem": "«Без очереди» вводит в заблуждение: частные urgências/atendimentos permanentes тоже используют triage/очередь, а ожидание может быть существенным. Цена 80–150€ часто является только базовой консультацией/episódio; анализы, imaging, процедуры и наблюдение оплачиваются отдельно и могут быстро увеличить счёт.",
+        "suggestion": "Написать: «В частной urgência обычно быстрее, но не без очереди: тоже есть triage и ожидание. Базовый episódio/consulta может стоить примерно 80–150€+, но анализы, RX/CT/MRI, лекарства и процедуры оплачиваются отдельно; со страховкой действует copagamento по условиям полиса».",
+        "confidence": "high",
+        "source": "Price lists of CUF/Luz/Lusíadas; insurer tables"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[5]",
+        "current": "Clinica Médis — dove с сетью врачей",
+        "problem": "Есть явная опечатка/мусорное слово «dove». Кроме того, Médis прежде всего страховая/health network; Clínica Médis — не сопоставимая по роли с CUF, Luz, Lusíadas как больничная сеть.",
+        "suggestion": "Исправить на: «Clínica Médis / rede Médis — сеть клиник и партнёрских провайдеров, особенно релевантна для клиентов Médis» или убрать из списка «главных сетей больниц».",
+        "confidence": "high",
+        "source": "Médis — Rede médica / Clínicas Médis"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "Первый приём 50-80€, анализы отдельно. Со страховкой (Médis, Multicare) — copagamento 15-30€.",
+        "problem": "Диапазон 50–80€ слишком узкий для 2026 года и может быть занижен для частных специалистов в крупных сетях; 50–80€ больше похоже на часть GP/teleconsulta/простых консультаций. У специалистов в крупных частных больницах часто встречаются более высокие цены, а copagamento зависит от сети, specialty, лимитов и waiting periods полиса.",
+        "suggestion": "Написать: «Без страховки обычная консультация часто стоит примерно 60–120€+ в зависимости от сети и специальности; анализы/исследования отдельно. Со страховкой copagamento может быть около 15–40€+, но зависит от полиса, сети и периода ожидания».",
+        "confidence": "medium",
+        "source": "Public price lists of private providers and insurance copayment tables"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items",
+        "current": "Кардиолог: 3-6 мес; Офтальмолог: 2-4 мес; Дерматолог: 4-8 мес; ...",
+        "problem": "Сроки ожидания по SNS представлены как универсальные, но фактически зависят от hospital, região, priority level и triagem. Для SNS существуют TMRG и данные по waiting lists; конкретные сроки без источника могут быстро устаревать.",
+        "suggestion": "Добавить оговорку: «Это ориентиры по опыту, не гарантированные сроки. Реальное ожидание зависит от региона, больницы и приоритета направления; проверяйте через Consulta a Tempo e Horas / hospital / Portal da Transparência SNS».",
+        "confidence": "high",
+        "source": "Portaria n.º 153/2017; Portal da Transparência SNS; CTH"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[5]",
+        "current": "Стоматолог: SNS почти не покрывает — платно",
+        "problem": "В целом верно для обычной взрослой стоматологии, но не хватает важной оговорки: в SNS существуют cheques-dentista и некоторые программы для детей, беременных, пожилых получателей определённых пособий, людей с HIV/AIDS, подозрением на oral cancer и других групп; также есть consultas de saúde oral в некоторых unidades.",
+        "suggestion": "Написать: «Обычная стоматология для взрослых в SNS покрыта ограниченно; чаще платно. Но есть cheques-dentista/программы saúde oral для детей, беременных и некоторых групп риска/льготников — уточняйте в Centro de Saúde».",
+        "confidence": "high",
+        "source": "DGS / SNS — Programa Nacional de Promoção da Saúde Oral"
+      }
+    ],
+    "missing_topics": [
+      "Разделить 112/INEM ambulance и hospital urgência: когда звонить 112, когда SNS 24, когда идти в Centro de Saúde.",
+      "Указать, что для неэкстренных случаев перед urgência часто разумно звонить SNS 24: это влияет на направление, triage и возможную taxa moderadora.",
+      "Добавить официальную ссылку на правила taxas moderadoras после Decreto-Lei n.º 37/2022.",
+      "Добавить caveat по доступу иностранцев к SNS: нужен número de utente и право на доступ; туристам/нерезидентам могут выставлять счёт или использовать EHIC/страховку.",
+      "Упомянуть Balcão SNS 24 и Área Pessoal do SNS 24 как каналы для рецептов, exames, marcações и контакта с unidade.",
+      "Уточнить, что многие Centros de Saúde сейчас организованы как USF/UCSP/ULS; название и порядок записи зависят от unidade.",
+      "Добавить информацию о cheques-dentista и ограниченном покрытии oral health в SNS."
+    ]
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "svc-viaverde",
+    "title": "Via Verde — portagens",
+    "categoryId": "auto_trips",
+    "telegramUrl": "https://www.viaverde.pt/",
+    "tags": [
+      "via verde"
+    ]
+  },
+  {
+    "id": "svc-visitportugal",
+    "title": "VisitPortugal — turismo oficial",
+    "categoryId": "travel_portugal",
+    "telegramUrl": "https://www.visitportugal.com/",
+    "tags": [
+      "turismo"
+    ]
+  },
+  {
+    "id": "svc-visitlisboa",
+    "title": "VisitLisboa — oficial",
+    "categoryId": "travel_portugal",
+    "telegramUrl": "https://www.visitlisboa.com/",
+    "tags": [
+      "lisboa",
+      "turismo"
+    ]
+  },
+  {
+    "id": "svc-visitporto",
+    "title": "Visit Porto",
+    "categoryId": "travel_portugal",
+    "telegramUrl": "https://visitporto.travel/",
+    "tags": [
+      "porto",
+      "turismo"
+    ]
+  },
+  {
+    "id": "svc-visitalgarve",
+    "title": "Visit Algarve",
+    "categoryId": "travel_portugal",
+    "telegramUrl": "https://www.visitalgarve.pt/",
+    "tags": [
+      "algarve"
+    ]
+  },
+  {
+    "id": "svc-visitmadeira",
+    "title": "Visit Madeira",
+    "categoryId": "travel_portugal",
+    "telegramUrl": "https://www.visitmadeira.com/",
+    "tags": [
+      "madeira"
+    ]
+  },
+  {
+    "id": "svc-visitazores",
+    "title": "Visit Azores",
+    "categoryId": "travel_portugal",
+    "telegramUrl": "https://www.visitazores.com/",
+    "tags": [
+      "açores"
+    ]
+  },
+  {
+    "id": "svc-espaco-cidadao",
+    "title": "ePortugal — Espaços Cidadão (mapa)",
+    "categoryId": "digital_gov",
+    "telegramUrl": "https://eportugal.gov.pt/espacos",
+    "tags": [
+      "espaço cidadão"
+    ],
+    "fullGuideId": "espaco-cidadao"
+  },
+  {
+    "id": "svc-chavemovel",
+    "title": "Chave Móvel Digital (autenticação)",
+    "categoryId": "digital_gov",
+    "telegramUrl": "https://www.autenticacao.gov.pt/",
+    "tags": [
+      "chave"
+    ],
+    "fullGuideId": "chave-movel-digital"
+  }
+]

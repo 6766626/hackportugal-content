@@ -1,0 +1,317 @@
+export default {
+  "editorialVoice": "hackportugal",
+  "id": "rent-a-car",
+  "categoryId": "auto_trips",
+  "title": "Aluguer de automóvel em Portugal — conselhos para residentes e turistas",
+  "tldr": "O aluguer em Portugal vai de 20 € / dia por um citadino económico a 150+ € / dia por um veículo premium. As internacionais Hertz / Europcar / Avis são mais caras do que as empresas locais, mas mais fiáveis. Opções económicas: Sixt, Goldcar, Centauro — baratas, mas com muitas taxas ocultas. Requisitos: idade do condutor ≥ 21 anos, carta de condução há ≥ 1 ano, cartão de crédito (cartões de débito não são aceites em todo o lado). Seguro completo (CDW + TP + zero excess) ~15-25 € / dia — essencial se não tiver um cartão de crédito premium com seguro. Depósito 800-2500 €. Via Verde normalmente incluída, portagens — consoante o caso.",
+  "tags": [
+    "aluguer",
+    "automóvel",
+    "carro",
+    "sixt",
+    "europcar"
+  ],
+  "estimatedReadMinutes": 6,
+  "steps": [
+    {
+      "id": "companies",
+      "title": "🚗 Empresas — comparação",
+      "content": [
+        {
+          "kind": "substeps",
+          "items": [
+            {
+              "id": "c1",
+              "title": "Internacionais premium",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "**Hertz, Europcar, Avis, Enterprise, Sixt** — grandes empresas, com apoio 24/7, transparentes",
+                    "Preços: 40-150 € / dia",
+                    "O seguro completo está muitas vezes incluído no pacote",
+                    "Automóveis novos (<1 ano), boa manutenção",
+                    "Balcões em aeroportos, cidades e estações ferroviárias",
+                    "Incluem Via Verde em alguns pacotes"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c2",
+              "title": "Económicas",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "**Goldcar, Centauro, OK Mobility, Firefly** — mais baratas (20-50 € / dia)",
+                    "⚠️ **Taxas ocultas**: limpeza adicional, “política de combustível sujo” (multa se não atestar), exclusões ocultas do seguro",
+                    "As filas no aeroporto podem ser de 30-60 min",
+                    "Os automóveis são frequentemente mais antigos (>3 anos), por vezes com riscos",
+                    "TravelTrolls / Reclaim escrevem frequentemente sobre elas — leia as avaliações"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c3",
+              "title": "Peer-to-peer e nicho",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "**Drivy / Getaround** — aluguer P2P a particulares, 20-60 € / dia",
+                    "**Miles** — carsharing com pagamento ao minuto em Lisboa / Porto (para viagens curtas)",
+                    "**Muving** — ciclomotores / scooters no centro",
+                    "**TURO** — não opera em Portugal (apenas para residentes da EU em alguns países)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "c4",
+              "title": "Agregadores para comparação",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "**Kayak, Rentalcars, Skyscanner, Discover Cars**",
+                    "⚠️ O preço no agregador não é o preço final. Seguro, depósito e política de combustível podem diferir",
+                    "**Rentalcars.com** tem seguro próprio — muitas vezes mais barato do que o da empresa de aluguer",
+                    "Reserve com 2-4 semanas de antecedência para obter o melhor preço",
+                    "À última hora, sobretudo na época alta (julho-agosto, Páscoa), os preços podem ser ×2"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "requirements",
+      "title": "📋 Requisitos",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "🆔 **Carta de condução**: válida na EU (qualquer carta de condução da EU) ou licença internacional de condução + carta nacional para cidadãos de fora da EU",
+            "👥 **Idade**: normalmente ≥ 21 anos, 25+ para classe premium / pessoas <25 — “taxa de condutor jovem” 5-15 € / dia",
+            "📅 **Antiguidade da carta**: ≥ 1 ano (2 anos para classe premium)",
+            "💳 **Cartão de crédito**: obrigatório, não cartão de débito (algumas empresas económicas aceitam cartão de débito + depósito ×2)",
+            "🧾 **Depósito**: 800-2500 € bloqueados no cartão de crédito",
+            "🏠 **Morada**: algumas exigem comprovativo (para cidadãos de fora da EU, o passaporte é muitas vezes suficiente)",
+            "📄 **Documentos**: carta de condução + passaporte + cartão de crédito + voucher da reserva"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "insurance",
+      "title": "🛡️ Seguro — o ponto-chave",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "O seguro básico está sempre incluído, mas tem uma franquia elevada (até 1500 €). Seguros adicionais reduzem ou eliminam a franquia."
+        },
+        {
+          "kind": "substeps",
+          "items": [
+            {
+              "id": "i1",
+              "title": "Tipos",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "**CDW (Collision Damage Waiver)**: cobre danos no automóvel em acidente por culpa sua, mas com franquia",
+                    "**TP (Theft Protection)**: cobertura de roubo",
+                    "**SCDW / Zero Excess** (Super CDW): reduz a franquia para 0 — frequentemente +10-15 € / dia",
+                    "**TP Extra**: roubo sem franquia",
+                    "**Third Party Liability (RC)**: normalmente incluído, obrigatório por lei",
+                    "**Glass & Tyres** (seguro janelas e pneus): frequentemente separado, 2-5 € / dia",
+                    "**Personal Accident Insurance**: seguro adicional de acidentes pessoais; se não tiver o seu — vale a pena considerar"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "i2",
+              "title": "Alternativa: seguro do cartão bancário",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "**American Express Gold/Platinum**: inclui CDW gratuitamente",
+                    "**Revolut Premium / Metal**: seguro de automóvel alugado incluído",
+                    "**Alguns Visa Infinite / Mastercard World Elite**: condições semelhantes",
+                    "Paga o aluguer do automóvel com esse cartão → o seguro é ativado",
+                    "MAS: algumas empresas de aluguer recusam e vendem na mesma o seu próprio seguro — confirme"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "i3",
+              "title": "Seguro externo",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "**Rentalcars.com Protect** — 8-15 € / dia, muitas vezes mais barato do que o seguro da empresa de aluguer",
+                    "**Insurance4CarHire, iCarhireinsurance** — subscrição anual 40-80 €, cobre todos os alugueres durante um ano",
+                    "Importante: em caso de acidente, paga a rental excess e depois recebe o reembolso da seguradora"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pickup",
+      "title": "🚘 No levantamento — passos obrigatórios",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "🚗 **Inspecionar o automóvel antes de assinar o contrato** — dar a volta ao veículo, tirar fotografias de riscos/manchas com o telemóvel",
+            "📸 **Vídeo do interior** — estofos, painel, botões",
+            "⛽ **Combustível**: depósito cheio / conforme indicado no contrato; se for “full-to-full” — devolve com o mesmo nível",
+            "🔑 **Documentos**: documentos de registo, seguro, inspeção periódica (IPO) — no porta-luvas",
+            "💡 **Perguntar**: se o ar condicionado, luz de travagem, Bluetooth e GPS funcionam",
+            "📋 **Assinar o contrato APENAS depois da verificação** — tudo o que foi fotografado deve ficar registado",
+            "💳 **Depósito**: bloqueio no cartão — pedir para mostrar antes de assinar",
+            "🛣️ **Via Verde** — confirmar se está incluída. Se não estiver — escolha estradas alternativas ou pague por sua conta depois da viagem"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "return",
+      "title": "↩️ Na devolução",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "⛽ **Atestar** até ao mesmo nível (política full-to-full — mais barata do que o preço deles para abastecimento)",
+            "🧹 **Interior limpo** — retirar o lixo; se estiver sujo — taxa de limpeza 30-100 €",
+            "🚗 **Lavar por fora** — normalmente não é necessário, mas se estiver muito sujo — há taxa",
+            "📸 **Fotografar novamente** na entrega — proteção contra reclamações inesperadas por riscos",
+            "📝 **Obter a declaração de devolução assinada** — confirmação de ausência de danos",
+            "⏰ **A horas** — devolução tardia = pagamento de um dia + multa",
+            "📅 **Período de tolerância**: normalmente 30 min",
+            "💳 **Desbloqueio do depósito**: 1-14 dias para o cartão"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "💡 Conselhos práticos",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "🎫 **Reserve com antecedência**: 2-6 semanas antes — -30-40% face ao preço no balcão",
+            "📍 **Algarve vs Lisboa**: o aeroporto de Faro é frequentemente mais barato, com maior escolha local",
+            "📅 **Levantamento Monday-Thursday** — mais barato do que ao fim de semana",
+            "⏰ **Horário de manhã** — menos fila",
+            "🏝️ **Ilhas (Madeira, Azores)** — reserve obrigatoriamente com antecedência, as frotas são limitadas",
+            "🌍 **Saída para o estrangeiro** (para Espanha, França) — confirme, nem todas permitem. Suplemento 20-50 €",
+            "🪄 **Upgrade ao balcão** — muitas vezes um upgrade “gratuito” = tentativa de vender seguro; não aceite de imediato",
+            "🎒 **Cadeira de criança**: 5-10 € / dia (melhor levar a sua)",
+            "📡 **GPS**: não é necessário (Google Maps + telemóvel), 5-10 € / dia de pagamento extra",
+            "🏎️ **Idade do automóvel** — quanto mais antigo o automóvel, maior a probabilidade de problemas técnicos. Europcar / Hertz normalmente < 1 ano"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fines",
+      "title": "⚠️ Multas",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "📸 Multa por velocidade / passagem com vermelho é registada na matrícula do automóvel — a empresa de aluguer recebe a notificação",
+            "Eles emitem-lhe uma cobrança: **multa + taxa administrativa 30-80 €**",
+            "Não pagamento da Via Verde = multa ×25 do valor → a empresa de aluguer reencaminha-lha com taxa",
+            "Pagamento: no prazo de 30 dias; ignorar — bloqueio de alugueres futuros + cobrança da dívida",
+            "Contestação apenas através da empresa de aluguer (eles encaminham às autoridades)"
+          ]
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "label": "Automóvel económico de orçamento",
+      "amountEURMin": 20,
+      "amountEURMax": 50,
+      "note": "€ / dia"
+    },
+    {
+      "label": "Classe premium média",
+      "amountEURMin": 40,
+      "amountEURMax": 100,
+      "note": "€ / dia"
+    },
+    {
+      "label": "Luxo/SUV",
+      "amountEURMin": 80,
+      "amountEURMax": 200,
+      "note": "€ / dia"
+    },
+    {
+      "label": "Suplemento por seguro zero-excess",
+      "amountEURMin": 10,
+      "amountEURMax": 25,
+      "note": "€ / dia"
+    },
+    {
+      "label": "Taxa de condutor jovem",
+      "amountEURMin": 5,
+      "amountEURMax": 15,
+      "note": "€ / dia"
+    },
+    {
+      "label": "Cadeira de criança",
+      "amountEURMin": 5,
+      "amountEURMax": 10,
+      "note": "€ / dia"
+    },
+    {
+      "label": "Abastecimento até depósito cheio (se se esqueceu)",
+      "amountEURMin": 30,
+      "amountEURMax": 60,
+      "note": "multa"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Rentalcars.com — agregador",
+      "url": "https://www.rentalcars.com/",
+      "kind": "company",
+      "language": "en",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Discover Cars — agregador",
+      "url": "https://www.discovercars.com/",
+      "kind": "company",
+      "language": "en",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "DECO PROteste — avaliações de empresas de aluguer",
+      "url": "https://www.deco.proteste.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    }
+  ],
+  "lastVerified": "2026-04-22",
+  "verifyIntervalDays": 180
+}

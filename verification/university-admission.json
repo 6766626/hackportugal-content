@@ -1,0 +1,243 @@
+{
+  "guideId": "university-admission",
+  "categoryId": "education_children",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful structurally but contains several material inaccuracies about international-student status, language certificates, tuition caps, D4 finances/work rights, and recognition procedures.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[1].content[0].items[0]",
+        "current": "👥 Для: граждан не-ЕС со школьным аттестатом из своей страны",
+        "problem": "CEEI/Estudante Internacional is not simply 'all non-EU citizens'. It excludes, among others, EU citizens, family members of EU citizens, people legally resident in Portugal for more than 2 years uninterruptedly on 1 January of the year of entry, and beneficiaries of equal rights/status in some cases. Some non-EU residents therefore cannot use the international-student route and may have to use the general regime or another applicable route.",
+        "suggestion": "Write: \"Для: кандидатов со статусом Estudante Internacional по DL 36/2014 — обычно non‑EU, но НЕ EU/EEA, не члены семей EU, не резиденты PT более 2 лет к 1 января года поступления и не лица с применимым estatuto de igualdade. Проверяйте статус до выбора CEEI.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 36/2014, Estatuto do Estudante Internacional"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "через CNES/DGES portal Concurso Nacional",
+        "problem": "The acronym is wrong/misleading. The body is CNAES, and applications are through the DGES online application system for the Concurso Nacional de Acesso, not a 'CNES portal'.",
+        "suggestion": "Replace with: \"через DGES / Concurso Nacional de Acesso ao Ensino Superior (CNAES регулирует правила доступа)\".",
+        "confidence": "high",
+        "source": "DGES; CNAES"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[1]",
+        "current": "📊 Конкурс по баллам: 65% — оценки школы + 35% — provas de ingresso (вступительные)",
+        "problem": "This is presented as a general rule, but the weighting varies by institution/course within legal limits. For the national competition, entrance exams normally have a minimum weight and the secondary-school final classification has a minimum weight; prerequisites may also count.",
+        "suggestion": "Write: \"Формула зависит от курса/вуза: обычно учитываются nota do secundário + provas de ingresso; веса публикует DGES для каждой пары instituição/curso. Не считать 65/35 универсальным правилом.\"",
+        "confidence": "high",
+        "source": "DGES Guia da Candidatura / Concurso Nacional de Acesso"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[4]",
+        "current": "🔢 Quotas: до 25% мест на курсе для иностранцев",
+        "problem": "The '25%' cap is not a safe general statement. International-student vacancies are fixed annually by each institution/course under the international student regime and published in notices; there is no simple universal 'up to 25%' rule that applicants can rely on.",
+        "suggestion": "Replace with: \"Vagas для Estudantes Internacionais устанавливает каждый вуз/курс ежегодно; смотрите edital/notice конкретного CEEI.\"",
+        "confidence": "medium",
+        "source": "Decreto-Lei 36/2014; institutional CEEI editais"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "📑 Подача напрямую в университет, обычно через GIRA (Gabinete de Internacionalização)",
+        "problem": "GIRA is not a generic name used by all Portuguese universities. International offices are usually called Gabinete de Relações Internacionais, International Office, Serviços Académicos, etc.; each university has its own portal.",
+        "suggestion": "Write: \"Подача напрямую в вуз через его CEEI/International Student portal или Serviços Académicos/International Office; название платформы зависит от вуза.\"",
+        "confidence": "high",
+        "source": "Institutional admission portals"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[0]",
+        "current": "🌐 Подача через certificacao.dge.mec.pt (онлайн)",
+        "problem": "For equivalence of foreign basic/secondary education, the standard procedure is not accurately described as an online application through certificacao.dge.mec.pt. In practice it is handled through Portuguese public schools/school clusters under DGE rules; the portal cited is not enough as a universal application route.",
+        "suggestion": "Write: \"Эквивалентность иностранного среднего образования оформляется через escola pública / agrupamento de escolas по правилам DGE; конкретная школа принимает заявление и документы. Проверяйте актуальные инструкции DGE.\"",
+        "confidence": "medium",
+        "source": "DGE — Equivalências de habilitações estrangeiras; Decreto-Lei 227/2005; Portaria 224/2006"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[3]",
+        "current": "💰 Цена: 50 € госпошлина",
+        "problem": "A flat national €50 state fee is not reliably correct. Fees for secondary-school equivalence are not presented as a uniform national €50 government duty; schools may have administrative charges, and in many cases the amount is lower or varies.",
+        "suggestion": "Replace with: \"Стоимость: зависит от школы/муниципалитета; обычно небольшая административная плата или бесплатно. Уточняйте в escola pública, куда подаёте.\"",
+        "confidence": "medium",
+        "source": "DGE — Equivalências de habilitações estrangeiras"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[0].content[0].items[1]",
+        "current": "🎓 Сертификат CIPLE (B1) или DEPLE (B2) от Camões Institute",
+        "problem": "CAPLE levels are wrong. CIPLE is A2, DEPLE is B1, DIPLE is B2. This is a serious factual error because applicants may book the wrong exam.",
+        "suggestion": "Write: \"CAPLE: CIPLE = A2, DEPLE = B1, DIPLE = B2, DAPLE = C1, DUPLE = C2. Если вуз требует B2 — нужен DIPLE или эквивалент.\"",
+        "confidence": "high",
+        "source": "CAPLE — Certificados de Português Língua Estrangeira"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "💰 Сдача CIPLE 85 €",
+        "problem": "The exam fee should not be hard-coded without checking the current CAPLE price table and the exact level. Also, because CIPLE is A2, it does not evidence B1/B2 university-level Portuguese.",
+        "suggestion": "Write: \"Стоимость зависит от уровня и центра CAPLE; проверяйте tabela de preços CAPLE. Для B1/B2 смотрите DEPLE/DIPLE, а не CIPLE.\"",
+        "confidence": "high",
+        "source": "CAPLE — preços e calendário"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[3]",
+        "current": "📅 Сессии: ежемесячно в крупных городах",
+        "problem": "CAPLE exams are not generally monthly in every major city. They are offered on official dates by accredited centres, and availability depends on centre/level/session.",
+        "suggestion": "Replace with: \"Сессии проходят по календарю CAPLE в аккредитованных центрах; даты и уровни зависят от центра, записываться нужно заранее.\"",
+        "confidence": "high",
+        "source": "CAPLE — calendário de exames"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[0].content[0].items[4]",
+        "current": "🌐 ВУЗ может принять и сертификат DELE Camões уровня B2",
+        "problem": "DELE is the Spanish-language certificate administered by Instituto Cervantes, not a Portuguese/Camões certificate. For Portuguese the relevant CAPLE certificate at B2 is DIPLE.",
+        "suggestion": "Replace with: \"Вуз может принять CAPLE DIPLE B2 или другой признанный сертификат португальского, если это указано в edital.\"",
+        "confidence": "high",
+        "source": "CAPLE; Instituto Cervantes DELE"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[5]",
+        "current": "⚠️ Для CPLP стран (Бразилия, Ангола, Капе-Верде и др.) — требование освобождено",
+        "problem": "This is too broad. Exemption from Portuguese-language proof depends on the institution, programme, language of prior education, and edital. CPLP citizenship alone is not always enough, especially for candidates from countries where the applicant's schooling language needs to be evidenced.",
+        "suggestion": "Write: \"Для кандидатов с образованием на португальском языке многие вузы освобождают от сертификата, но это зависит от edital; CPLP citizenship by itself is not a universal exemption.\"",
+        "confidence": "high",
+        "source": "Institutional CEEI editais"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "🎓 Программы на английском: ULisboa (медицина — IMED), NOVA SBE (бизнес), UPorto (engineering)",
+        "problem": "This overstates English-taught undergraduate options. Medicine in Portuguese public universities is generally taught in Portuguese and requires Portuguese proficiency; English-taught options in Portugal are much more common at master's level and in business schools than in undergraduate medicine/engineering.",
+        "suggestion": "Write: \"Англоязычных licenciatura в PT меньше, чем магистратур. Проверяйте language of instruction на сайте конкретного курса; медицина в госвузах обычно на португальском.\"",
+        "confidence": "high",
+        "source": "DGES course information; institutional programme pages"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Стоимость: ~700-1500 €/год для лиценциатуры (государственные)",
+        "problem": "For Portuguese/EU students in public first-cycle degrees, the maximum annual tuition has been around €697, not €1,500. €1,500 may occur in other cycles/situations but is misleading for public licenciatura national/EU tuition.",
+        "suggestion": "Write: \"PT/EU в гос. licenciatura: до примерно €697/год; international students under CEEI pay separate higher propinas set by each institution.\"",
+        "confidence": "high",
+        "source": "DGES — Propinas no ensino superior público"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[0]",
+        "current": "🟢 PT/EU студенты: 700-1 250 €/год (государственный)",
+        "problem": "Same tuition issue: the stated range is too high for standard public licenciatura/integrated-master national/EU tuition and mixes different cases.",
+        "suggestion": "Replace with: \"PT/EU в гос. licenciatura/mestrado integrado abrangido: около €697/год максимум; другие cycles and special cases may differ.\"",
+        "confidence": "high",
+        "source": "DGES — Propinas no ensino superior público"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "\"PT/EU лиценциатура (государственная) — propina\", amountEURMin: 700, amountEURMax: 1250",
+        "problem": "Cost table repeats the misleading tuition range for PT/EU public licenciatura.",
+        "suggestion": "Use amountEURMax around 697 for standard public first-cycle tuition, or avoid a min/max and write \"até ~€697/ano\" with caveat for other cycles.",
+        "confidence": "high",
+        "source": "DGES — Propinas no ensino superior público"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[1]",
+        "current": "доказательство финансов (≥ 7 200 €/год = 12× IAS)",
+        "problem": "The arithmetic and 2026 value are wrong. IAS 2026 is €537.13, so 12×IAS = €6,445.56, not €7,200. Some consulates may ask for different practical evidence, but the stated equation is false.",
+        "suggestion": "Write: \"доказательство средств: ориентир 12×IAS = €6,445.56 в 2026, но конкретный консульский пост может требовать дополнительные доказательства/более высокий буфер.\"",
+        "confidence": "high",
+        "source": "IAS 2026 = €537.13"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].items[4]",
+        "current": "💼 D4 даёт право на part-time работу до 20 часов/нед",
+        "problem": "The 20-hours/week rule is outdated/misleading. Current Portuguese rules allow higher-education students with residence authorization to work, generally with notification to AIMA and compliance with labour/social-security rules; the law is not a simple fixed 20-hour cap. Also the right is tied to the residence situation after entry, not merely the visa sticker.",
+        "suggestion": "Write: \"После получения/при наличии autorização de residência para estudo студент высшего образования может работать по трудовому договору или как independent worker, уведомив AIMA и соблюдая правила Segurança Social/налогов; не описывать это как универсальный лимит 20 ч/нед.\"",
+        "confidence": "high",
+        "source": "Lei 23/2007, as amended; AIMA guidance for students"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[5]",
+        "current": "🎓 После окончания (бакалавриат): 1 год «procura de trabalho» виза для поиска работы",
+        "problem": "This is imprecise. It is not usually a new 'visa' obtained after graduation inside Portugal; graduates may apply for/renew residence authorization for up to one year to seek work or create a business under the residence regime.",
+        "suggestion": "Write: \"После завершения higher education можно запросить продление/AR для поиска работы или создания бизнеса сроком до 1 года, при соблюдении условий; это не консульская job-seeker visa.\"",
+        "confidence": "high",
+        "source": "Lei 23/2007, Article 122 and AIMA practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[6]",
+        "current": "💼 «Equivalência» лиценциатуры из своей страны (для master): через UPorto Reitoria или IST, 3-6 мес, 200 €",
+        "problem": "Recognition of foreign higher-education degrees is not generally done 'through UPorto Reitoria or IST'. Portugal has a national DGES recognition framework/platform with three types of recognition: automatic, level, and specific. Fees and timelines depend on the institution and recognition type; €200 is not a reliable general price.",
+        "suggestion": "Write: \"Для признания foreign higher-education degree use the DGES reconhecimento platform (automatic/level/specific recognition). The competent Portuguese HEI and fee depend on the degree/type; often several hundred euros and timelines vary.\"",
+        "confidence": "high",
+        "source": "DGES — Reconhecimento de Graus e Diplomas Estrangeiros; Decreto-Lei 66/2018"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0].content[0].items[3]",
+        "current": "💵 Жильё: 250-500 €/мес комната, 600-900 €/мес студия",
+        "problem": "For Lisbon/Porto in 2026, €250 for a room is very optimistic except subsidised residence halls, remote areas, or rare deals. Since the guide later says 'Жизнь студента в Лисбоа', this can understate realistic budgets.",
+        "suggestion": "Write: \"Комната: примерно €350-650+ в Lisbon/Porto private market; меньше возможно в residences or smaller cities. Studio in Lisbon often €750-1,100+.\"",
+        "confidence": "medium",
+        "source": "Market rental listings / university residence price lists"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[6]",
+        "current": "🎨 **IST (Instituto Superior Técnico)** — флагманких наук",
+        "problem": "IST is not a separate university in the same category as ULisboa/UPorto; it is a school of Universidade de Lisboa. Listing it among 'top universities' without clarification is confusing.",
+        "suggestion": "Write: \"Instituto Superior Técnico — школа Universidade de Lisboa, flagship for engineering/technology.\"",
+        "confidence": "high",
+        "source": "Universidade de Lisboa / Instituto Superior Técnico"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No legal source for Estudante Internacional / CEEI, D4, or degree recognition",
+        "problem": "The guide covers sensitive admission/visa/legal statuses but cites only broad portals. It should cite the legal regimes or official pages for international-student status, foreign degree recognition, and student residence.",
+        "suggestion": "Add sources: Decreto-Lei 36/2014 for Estudante Internacional; DGES Concurso Nacional and recognition pages; Decreto-Lei 66/2018 for recognition of foreign degrees; Lei 23/2007/AIMA pages for student residence and post-study residence.",
+        "confidence": "high",
+        "source": "DGES; AIMA; Decreto-Lei 36/2014; Decreto-Lei 66/2018; Lei 23/2007"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[5]",
+        "current": "\"Виза D4 (консульский сбор)\", amountEUR: 90",
+        "problem": "The visa fee may be only the consular stage. The guide omits the later AIMA residence-permit fee after arrival, and AIMA's fee table changed on 01.03.2026. Readers may underbudget.",
+        "suggestion": "Keep the consular fee if verified, but add a separate line: \"AIMA residence permit/card fee after arrival — check current AIMA fee table in force from 01.03.2026.\"",
+        "confidence": "medium",
+        "source": "AIMA fee table in force from 01.03.2026"
+      }
+    ],
+    "missing_topics": [
+      "Clear explanation of who qualifies as Estudante Internacional and who is excluded despite non-EU citizenship",
+      "Difference between Concurso Nacional, institutional CEEI, and other special competitions/regimes",
+      "DGES course-by-course prerequisites and entrance-exam requirements instead of generic subject examples",
+      "Official CAPLE level mapping and exam calendar/fees",
+      "AIMA residence-permit appointment/card costs after entering on D4",
+      "Post-arrival obligations for student workers: AIMA notification, tax/NIF, Segurança Social, employment contract or independent-worker registration",
+      "DGES recognition platform for foreign higher-education degrees: automatic, level, specific recognition",
+      "Caveat that many English-taught programmes are at master's level; undergraduate medicine is normally Portuguese-taught",
+      "CPLP/Brazil caveats: reduced tuition or exemptions depend on the institution and edital, not citizenship alone"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6211,
+    "prompt_tokens": 4028,
+    "total_tokens": 10239
+  },
+  "model": "gpt-5.5"
+}

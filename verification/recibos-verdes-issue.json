@@ -1,0 +1,271 @@
+{
+  "guideId": "recibos-verdes-issue",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide contains several material tax errors for 2026: obsolete VAT exemption threshold, wrong invoicing/VAT deadlines, misleading IVA place-of-supply rules, incorrect IRS withholding, and incorrect Segurança Social treatment.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "IVA зависит от режима (нормальный 23% / освобождение < 14 500 €/год).",
+        "problem": "The Article 53 small-business VAT exemption threshold is outdated for 2026. It is not €14,500; the threshold rose to €15,000 from 2025. Also, the normal VAT rate is not always 23%: rates differ by region and by type of supply.",
+        "suggestion": "Write: \"IVA зависит от режима: regime normal, обычно 23% на материке для большинства услуг, но ставки зависят от услуги и региона; освобождение по art. 53 CIVA возможно при обороте до €15,000/год при выполнении условий.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 53; Orçamento do Estado 2023 threshold schedule"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Срок выставления — до 5-го дня следующего месяца после оплаты.",
+        "problem": "This is misleading/wrong. Portuguese invoice/receipt timing is generally tied to the taxable event or advance payment and must be issued by the 5th working day after the tax becomes due, not simply by the 5th calendar day of the next month after payment.",
+        "suggestion": "Write: \"Фатура/recibo verde обычно должен быть выставлен не позднее 5-го рабочего дня после момента, когда налог становится exigível: завершение услуги, выставление счета или получение аванса — в зависимости от ситуации.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigos 7, 8, 36"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3]",
+        "current": "✅ Решение по IVA: regime especial (если первый год + оборот < 14 500 €) или nominal 23 %",
+        "problem": "Multiple inaccuracies: threshold should be €15,000 in 2026; Article 53 is not only a 'first year' regime; the first-year test is based on expected annualized turnover; 'nominal' is not the standard Portuguese term; 23% is not universal.",
+        "suggestion": "Write: \"✅ Решение по IVA: regime de isenção do art. 53 CIVA, если ожидаемый/предыдущий годовой оборот не превышает €15,000 и выполнены остальные условия, либо regime normal de IVA; ставка зависит от услуги и региона, часто 23% на материке.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 53"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "✅ CAE — код вашей деятельности (consulting — 7022, IT — 6201)",
+        "problem": "CAE codes are incomplete/misleading: they are normally 5-digit codes such as 70220 and 62010. Also, many independent professionals use CIRS activity codes under artigo 151 CIRS rather than only CAE.",
+        "suggestion": "Write: \"✅ Код деятельности: CAE/CIRS. Например, CAE 70220 для business/management consultancy, CAE 62010 для computer programming; для многих профессий выбирается также код CIRS по art. 151.\"",
+        "confidence": "high",
+        "source": "CAE Rev.3; Código do IRS, artigo 151"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4]",
+        "current": "✅ NISS активный для Segurança Social (социальное страхование)",
+        "problem": "An active NISS is important for Segurança Social, but it is not normally a technical prerequisite to issue a recibo verde in Portal das Finanças. Presenting it as required before the first receipt can mislead newcomers.",
+        "suggestion": "Write: \"✅ NISS нужен для Segurança Social; для emissão do recibo в Finanças обычно достаточно aberta atividade, NIF и доступа к Portal das Finanças, но NISS нужно оформить для социальных взносов.\"",
+        "confidence": "medium",
+        "source": "Segurança Social Direta / AT procedures for início de atividade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "Адрес (authomatic если PT NIF)",
+        "problem": "Spelling aside, this is not reliably true. Portal may pre-fill some taxpayer data for Portuguese NIFs, but address auto-fill is not guaranteed and depends on the form/client data.",
+        "suggestion": "Write: \"Адрес клиента — иногда данные подтягиваются по PT NIF, но их нужно проверить и при необходимости заполнить вручную.\"",
+        "confidence": "medium",
+        "source": "Portal das Finanças functionality"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[3]",
+        "current": "Если клиент вне ЕС — «Não sujeito a IVA» autoselect",
+        "problem": "This is too broad. VAT treatment depends on B2B/B2C status, place-of-supply rules, type of service, and whether the freelancer is in Article 53 exemption or normal VAT regime. It is not safe to say that non-EU clients are automatically 'não sujeito'.",
+        "suggestion": "Write: \"Для иностранных клиентов IVA зависит от B2B/B2C, страны, типа услуги и режима IVA. Для многих B2B услуг клиенту вне Португалии применяется 'não sujeito' / reverse charge rules, но это нужно проверить по regras de localização do art. 6 CIVA.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 6"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[0]",
+        "current": "Regime especial: 0 % IVA, надпись «IVA — regime de isenção art. 53»",
+        "problem": "Article 53 is an exemption, not a '0% IVA' rate. Calling it 0% can confuse it with zero-rated VAT and with 'não sujeito'. The invoice must indicate the exemption reason.",
+        "suggestion": "Write: \"Regime de isenção art. 53 CIVA: IVA не начисляется; указать мотив освобождения — 'IVA - regime de isenção [artigo 53.º do CIVA]'. Не называть это ставкой 0%.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 53"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[1]",
+        "current": "Nominal: 23 % IVA на сумму",
+        "problem": "The correct term is 'regime normal', not 'nominal'. 23% is the standard mainland rate but not universal: Madeira/Azores have different rates, and some goods/services use reduced/intermediate rates.",
+        "suggestion": "Write: \"Regime normal de IVA: применить соответствующую ставку IVA — часто 23% на материке для обычных услуг, но ставка зависит от услуги и региона.\"",
+        "confidence": "high",
+        "source": "Código do IVA; VAT rate tables for Mainland, Madeira, Azores"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[2]",
+        "current": "Исключение: клиент в другой стране ЕС с VAT-кодом → 0 % IVA (reverse charge)",
+        "problem": "Reverse charge is not a 0% VAT rate; it is generally 'não sujeito' or VAT due by the customer under place-of-supply/reverse-charge rules. It also usually requires a valid EU VAT number/VIES validation for B2B and may trigger a recapitulative statement. If the supplier is under Article 53, the treatment can differ and should not be oversimplified.",
+        "suggestion": "Write: \"B2B клиент в другой стране ЕС с действительным VAT/VIES: обычно IVA не начисляется в Португалии, указывается reverse charge / autoliquidação согласно regras de localização; проверьте VIES и возможную declaração recapitulativa.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 6; EU VAT Directive reverse-charge rules; VIES"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[3]",
+        "current": "Клиент вне ЕС → 0 % IVA",
+        "problem": "Too broad and incorrectly framed as '0%'. For many B2B services to non-EU clients the place of supply is outside Portugal, but B2C and special services can be different. This should not be stated as a blanket rule.",
+        "suggestion": "Write: \"Клиент вне ЕС: часто для B2B услуг место налогообложения вне Португалии и IVA PT не начисляется, но нужно проверить B2B/B2C и специальные правила art. 6 CIVA. Не обозначать как '0%'.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 6"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[4].content[0].items[0]",
+        "current": "Клиент-юрлицо PT удерживает 11.5 % (artigo 101 CIRS)",
+        "problem": "This is materially wrong for many recibos verdes. IRS withholding depends on the type of income/activity and exemptions. Many professional services under the artigo 151 CIRS table are subject to 25% withholding when paid by an entity with organized accounting. 11.5% applies only to certain category B income not covered by the higher rates. Also, small taxpayers may be exempt from withholding under artigo 101-B if conditions are met.",
+        "suggestion": "Write: \"Если клиент в Португалии — компания/entidade com contabilidade organizada, retenção na fonte зависит от вида деятельности: часто 25% для профессий из tabela art. 151 CIRS; 11.5% только для некоторых других доходов Cat. B. При обороте до лимита и выполнении условий может применяться dispensa de retenção по art. 101-B CIRS.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigos 101 and 101-B; tabela artigo 151 CIRS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].items[3]",
+        "current": "IFICI статус — retention 11.5 % но refund при годовой",
+        "problem": "Misleading. IFICI is a tax incentive with a 20% IRS rate on eligible income, but it does not mean a universal 11.5% withholding rate or automatic refund. Withholding still depends on payer/type of income and implementing rules.",
+        "suggestion": "Write: \"При IFICI eligible income может облагаться по специальной ставке IRS 20% в годовой декларации, но retenção na fonte не становится автоматически 11.5%; нужно выбирать код/ставку согласно CIRS и инструкциям AT.\"",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais, artigo 58-A; Código do IRS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[5].content[0].text",
+        "current": "PDF recibo автоматически отправляется клиенту на email и доступен в Portal. Клиент подтверждает получение оплаты в своем Portal.",
+        "problem": "The client confirmation statement is misleading. Portal das Finanças issues/generates the document and it can be downloaded/sent, but the client does not normally 'confirm receipt of payment' in their Portal as a standard step for recibos verdes.",
+        "suggestion": "Write: \"После emissão документ доступен в Portal das Finanças; его можно скачать PDF и отправить клиенту. Не рассчитывайте на отдельное подтверждение оплаты клиентом в Portal.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças — Recibos Verdes Eletrónicos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0]",
+        "current": "📅 По завершении услуги ИЛИ получении оплаты (что раньше)",
+        "problem": "This is too simplified. For VAT/invoicing purposes, timing depends on the chargeable event and whether there is an advance payment, invoice, continuous services, etc. 'What earlier' is not always the correct legal formulation.",
+        "suggestion": "Write: \"Обычно фатура/recibo выставляется после выполнения услуги или при получении аванса; для непрерывных услуг и некоторых случаев есть специальные правила exigibilidade.\"",
+        "confidence": "medium",
+        "source": "Código do IVA, artigos 7, 8, 36"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1]",
+        "current": "⏰ До 5-го числа следующего месяца после оплаты",
+        "problem": "Wrong deadline formulation. The general invoice issuance deadline is by the 5th working day following the moment the tax becomes due, not the 5th day of the following month.",
+        "suggestion": "Write: \"⏰ В общем случае — до 5-го рабочего дня после момента exigibilidade/выполнения услуги или получения аванса.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 36"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "⚠️ Просрочка — штраф 150–3 750 € по CIVA",
+        "problem": "The fine range may be broadly plausible for invoice-issuance failures, but the legal basis is usually RGIT, not simply 'по CIVA'. The range also depends on facts, negligence/intentionality, and taxpayer type.",
+        "suggestion": "Write: \"⚠️ За нарушение правил faturação возможны штрафы по RGIT; размер зависит от ситуации и статуса налогоплательщика.\"",
+        "confidence": "medium",
+        "source": "Regime Geral das Infrações Tributárias"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[5]",
+        "current": "🧾 Электронно vs бумажный — 2024+ только электронные для recibos verdes (электронные чеки самозанятого)",
+        "problem": "Misleading dating. Electronic recibos verdes have been the normal system for much longer than 2024. Some invoicing can also be done through certified invoicing software depending on the case; the statement is too categorical.",
+        "suggestion": "Write: \"Recibos verdes обычно оформляются электронно через Portal das Finanças / AT-authorized systems; бумажные recibos verdes практически не используются и допустимы только в ограниченных случаях.\"",
+        "confidence": "medium",
+        "source": "Portal das Finanças — Recibos Verdes Eletrónicos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "🔄 Anulação — в Portal в течение 48 часов",
+        "problem": "The 48-hour rule is not a reliable general rule for cancelling recibos verdes. Cancellation/correction rules depend on document type, timing, VAT/IRS declarations, and whether the document was already included in submitted returns. Presenting a strict 48-hour window is misleading.",
+        "suggestion": "Write: \"Anulação/correção делается в Portal, но допустимость и последствия зависят от типа документа и уже поданных деклараций. Если ошибка обнаружена поздно, может понадобиться nota de crédito/декларация substitutiva/исправление IVA или IRS.\"",
+        "confidence": "medium",
+        "source": "Portal das Finanças — Recibos Verdes Eletrónicos; Código do IVA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "🚨 После 48 часов — nota de crédito (на отрицательную сумму) + новый recibo",
+        "problem": "This is over-specific and may be wrong depending on the document and accounting status. A credit note is not simply 'a negative receipt' and is not always the required or only correction method.",
+        "suggestion": "Write: \"Если простой anulação уже невозможен или документ попал в декларации, корректировка зависит от случая: nota de crédito, новый документ, declaração substitutiva или корректировка IVA/IRS.\"",
+        "confidence": "medium",
+        "source": "Código do IVA; Portal das Finanças"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].title",
+        "current": "IVA — раз в квартал (если vnomination)",
+        "problem": "Terminology is wrong/confusing: 'vnomination' is not a Portuguese tax term. Should be 'regime normal de IVA', and VAT can be monthly or quarterly depending on turnover/regime.",
+        "suggestion": "Write: \"IVA — mensal ou trimestral, se estiver no regime normal de IVA\".",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 41"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[0]",
+        "current": "Declaração Periódica (периодическая декларация) до 20-го числа следующего месяца после квартала",
+        "problem": "Wrong for the quarterly VAT regime. The quarterly VAT return is generally due by the 20th day of the second month following the quarter, not the next month after the quarter.",
+        "suggestion": "Write: \"В trimestral regime: declaração periódica до 20-го числа второго месяца после квартала; оплата обычно до 25-го числа того же месяца.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 41; AT VAT periodic return deadlines"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[2]",
+        "current": "Regime especial (< 14 500 €) освобождён",
+        "problem": "Threshold outdated and incomplete. In 2026 Article 53 threshold is €15,000, and eligibility has additional conditions beyond turnover.",
+        "suggestion": "Write: \"Regime de isenção art. 53 CIVA: até €15,000/ano e при выполнении остальных условий — без cobrança de IVA и без declaração periódica de IVA.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 53"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[1].content[0].text",
+        "current": "21.4 % базы. Первый год — скидка 50 % + carência 12 мес. Минимум 20 €/мес.",
+        "problem": "Materially misleading. The independent-worker contribution rate is 21.4%, but the base is not simply total turnover: relevant income is usually 70% of services or 20% of goods/hotel/restaurant activities, with quarterly declarations and possible ±25% adjustment. New self-employed workers generally have a 12-month initial exemption, not a general '50% discount + 12-month grace period'. The €20 minimum applies in specific situations and is not a blanket first-year rule.",
+        "suggestion": "Write: \"Segurança Social: trabalhadores independentes обычно платят 21.4% sobre o rendimento relevante, обычно 70% дохода от услуг или 20% от sales/production/hotelaria/restauração, рассчитанного по квартальной declaração, с возможной корректировкой. При первом início de atividade обычно есть isenção inicial 12 месяцев; после этого может применяться минимум €20 в отдельных случаях.\"",
+        "confidence": "high",
+        "source": "Código dos Regimes Contributivos do Sistema Previdencial de Segurança Social; Segurança Social — Trabalhadores Independentes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2].content[0].text",
+        "current": "Март–июнь. Regime simplificado: 75 % от оборота считается доходом (25 % презумп. расходы). Для IFICI — 20 % flat.",
+        "problem": "IRS return period is wrong: Modelo 3 IRS is normally submitted from 1 April to 30 June. The 75% coefficient applies to many professional services but not all Category B income. The 25% expense presumption is also simplified because part of the deduction may depend on justified expenses. IFICI is not a universal '20% flat' for all income; it applies to eligible income/activities under conditions.",
+        "suggestion": "Write: \"IRS Modelo 3 обычно подается с 1 апреля по 30 июня. В regime simplificado коэффициент зависит от вида дохода: для многих professional services — 0.75, но для других доходов могут быть 0.35, 0.15 и др.; часть расходов может требовать подтверждения. IFICI дает специальную ставку 20% только для eligible income при выполнении условий.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigos 31 and 58-A EBF/IFICI rules; AT IRS filing calendar"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.portaldasfinancas.gov.pt/at/html/index.html",
+        "problem": "This is the general Portal das Finanças landing page, not a direct source for the Recibos Verdes rules or workflow. It is not wrong, but weak as a reference for a procedural guide.",
+        "suggestion": "Use a direct AT/Portal das Finanças service/help page for 'Faturas e Recibos Verdes' or 'Recibos Verdes Eletrónicos', plus direct links to CIVA/CIRS provisions.",
+        "confidence": "high",
+        "source": "Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3].url",
+        "current": "https://eportugal.gov.pt/",
+        "problem": "Generic ePortugal homepage is not a useful citation for 'Emitir recibos verdes'. It should link to the exact service/article page if used.",
+        "suggestion": "Replace with the specific ePortugal page for issuing recibos verdes, or remove if no exact page is cited.",
+        "confidence": "high",
+        "source": "ePortugal"
+      }
+    ],
+    "missing_topics": [
+      "Article 53 CIVA eligibility conditions beyond turnover: no organized accounting requirement, no import/export or related excluded operations, annualized first-year turnover test",
+      "Dispensa de retenção na fonte under artigo 101-B CIRS for eligible small taxpayers, and when the client must withhold IRS",
+      "Difference between fatura, recibo, and fatura-recibo in Portal das Finanças",
+      "Quarterly Segurança Social declaração, calculation of rendimento relevante, payment window, and ±25% adjustment option",
+      "VAT place-of-supply rules for foreign clients: B2B vs B2C, EU VAT/VIES validation, reverse charge wording, and declaração recapitulativa when applicable",
+      "Regional VAT rates for Madeira and Azores and reduced/intermediate rates where relevant",
+      "Annual IVA Article 53 threshold update for 2026: €15,000, not €14,500",
+      "Correct IRS filing window: 1 April to 30 June",
+      "Need to validate client's EU VAT number in VIES for intra-EU B2B treatment",
+      "How to choose correct CIRS/CAE activity code and why it affects IRS withholding and simplified-regime coefficients"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6863,
+    "prompt_tokens": 2549,
+    "total_tokens": 9412
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,12 @@
+{
+  "guideId": "emergency-112",
+  "categoryId": "emergency_rights",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Expected ',' or ']' after array element in JSON at position 7507 (line 94 column 6)",
+    "raw": "{\n  \"verdict\": \"major_issues\",\n  \"summary\": \"Гайд полезный, но содержит несколько существенных неточностей: неверно обобщает платность номеров, устаревшую пошлину AIMA, неправильные/устаревшие контакты документов и посольств.\",\n  \"issues\": [\n    {\n      \"severity\": \"major\",\n      \"where\": \"tldr\",\n      \"current\": \"«Номера универсальные и бесплатные.»\",\n      \"problem\": \"Это неверно как общее утверждение. 112 бесплатный; линии 116 обычно бесплатные; но географические номера PSP/GNR и часть других",
+    "issues": [],
+    "missing_topics": []
+  },
+  "model": "gpt-5.5"
+}

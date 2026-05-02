@@ -1,0 +1,177 @@
+{
+  "guideId": "cp-comboios-intercity",
+  "categoryId": "public_transport",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "В целом структура полезная, но есть несколько существенных фактических ошибок: Sud Express давно не ходит, неверно описаны проездные Navegante/Andante, противоречие по молодёжной скидке и ряд слишком широких утверждений про багаж, Wi‑Fi, велосипеды и пересадку на следующий поезд.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Скидки: молодёжь (до 30) -50%, дети (4-12) -50%, ≥65 — 50%.",
+        "problem": "Молодёжная скидка CP с Cartão Jovem обычно 25%, а не 50%. Внутри гайда ниже уже написано -25%, то есть есть прямое противоречие.",
+        "suggestion": "Написать: «Скидки: дети 4–12 — 50%; Cartão Jovem до 30 лет — обычно 25%; ≥65 — 50%; промо-тарифы могут давать большую скидку, но это отдельные ограниченные билеты».",
+        "confidence": "high",
+        "source": "CP — Descontos / Cartão Jovem"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Велосипеды только в Regional / выходные в Urbano.",
+        "problem": "Это неверно/устаревше сформулировано. В Urbano велосипеды допускаются не только по выходным, а по правилам CP с ограничениями по месту, часу пик и типу поезда. В AP/IC есть отдельные правила: складной велосипед как багаж и/или ограниченные места на некоторых IC.",
+        "suggestion": "Заменить на: «Велосипеды: бесплатно в Urbano/Regional/InterRegional при наличии места и соблюдении правил CP; на AP/IC — только по специальным правилам, обычно складной как багаж или ограниченные места на отдельных IC с бронированием».",
+        "confidence": "high",
+        "source": "CP — Transporte de bicicletas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[2]",
+        "current": "💳 Carris Metro Lisboa: Navegante card 30 €/мес покрывает Sintra/Cascais линии",
+        "problem": "Смешаны разные операторы и неверно описано покрытие. Navegante Municipal за 30 €/мес действует в пределах одного муниципалитета, а поездки Lisboa–Sintra или Lisboa–Cascais требуют Navegante Metropolitano за 40 €/мес либо подходящего зонального/разового тарифа. «Carris Metro Lisboa» тоже некорректное название для всей системы.",
+        "suggestion": "Написать: «Lisboa/AML: Navegante Municipal — 30 €/мес в пределах выбранного муниципалитета; Navegante Metropolitano — 40 €/мес по всей Área Metropolitana de Lisboa, включая CP Urbanos Sintra/Cascais/Azambuja/Sado в зоне покрытия».",
+        "confidence": "high",
+        "source": "navegante.pt / Transportes Metropolitanos de Lisboa"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[3]",
+        "current": "💳 Porto: Andante card покрывает Urbano",
+        "problem": "Слишком широкое утверждение. Andante действует по зонам и не покрывает автоматически все направления CP Urbano do Porto до Aveiro, Braga, Guimarães или Marco de Canaveses на всём протяжении. Для части станций нужны CP-билеты или корректный Andante-зональный титул, если станция входит в сеть.",
+        "suggestion": "Написать: «Porto: Andante действует по выбранным зонам и только на участках CP, включённых в систему Andante; для поездок дальше по линиям Aveiro/Braga/Guimarães/Marco de Canaveses проверяйте зоны или покупайте билет CP».",
+        "confidence": "high",
+        "source": "Andante / CP Urbanos do Porto"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[3]",
+        "current": "🇪🇸 **Sud Express** (Lisboa-Hendaye, Франция) — спальный поезд через Испанию, ходит каждый день",
+        "problem": "Фактически неверно. Sud Express/Lusitânia были приостановлены в 2020 году и по состоянию на 2026 год регулярного ежедневного ночного поезда Lisboa–Hendaye нет.",
+        "suggestion": "Удалить этот пункт или заменить на: «Международные поезда: регулярное сообщение CP сейчас фактически ограничено, например Celta Porto–Vigo; ночные Sud Express/Lusitânia Lisboa–Hendaye/Madrid не восстановлены».",
+        "confidence": "high",
+        "source": "CP — International trains / Sud Expresso service notices"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[4]",
+        "current": "👨‍👩‍👧 Идеально для коротких поездок: Lisboa-Sintra, Porto-Aveiro",
+        "problem": "Lisboa–Sintra — это не Regional/InterRegional, а CP Urbanos de Lisboa. Porto–Aveiro в повседневном контексте тоже обычно Urbano do Porto, а не пример Regional/InterRegional. Пункт находится в разделе Regional + InterRegional и вводит в заблуждение.",
+        "suggestion": "Заменить примеры на настоящие региональные маршруты или перенести эти маршруты в раздел Urbano. Например: «Для Regional/InterRegional: Coimbra–Figueira da Foz, Porto–Régua/Pocinho, Faro–Lagos/VRSA».",
+        "confidence": "high",
+        "source": "CP — Urbanos de Lisboa / Urbanos do Porto / Regional services"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].title",
+        "current": "Intercidades (IC) — региональные эксперессы",
+        "problem": "Intercidades — это не региональные экспрессы, а поезда дальнего следования/intercity. Формулировка путает IC с Regional/InterRegional.",
+        "suggestion": "Написать: «Intercidades (IC) — междугородние поезда дальнего следования». Также исправить опечатку «эксперессы» на «экспрессы».",
+        "confidence": "high",
+        "source": "CP — Alfa Pendular e Intercidades"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "🪑 Конфорт: 2 класса (Conforto + Turística), Wi-Fi, розетки, ресторан-вагон",
+        "problem": "«Ресторан-вагон» звучит слишком сильно: в Alfa Pendular обычно есть bar/cafetaria или serviço de bar, а не полноценный ресторан-вагон. Также «Конфорт» — опечатка.",
+        "suggestion": "Написать: «Комфорт: 2 класса (Conforto и Turística), розетки, Wi‑Fi на части/основных маршрутах, bar/cafetaria/serviço de bordo».",
+        "confidence": "medium",
+        "source": "CP — Alfa Pendular onboard services"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[3]",
+        "current": "👨‍👩‍👧‍👦 Семья (≥3): -25% на всех",
+        "problem": "Семейные/групповые скидки CP зависят от конкретного продукта, состава группы, поезда и наличия мест. Формулировка «≥3: -25% на всех» слишком общая и может быть неверной для действующих правил; у CP есть отдельные family/group/promotional products с другими условиями.",
+        "suggestion": "Заменить на осторожную формулировку: «Семейные/групповые тарифы существуют, но условия зависят от поезда, состава группы и наличия мест; проверяйте раздел Descontos на cp.pt при покупке».",
+        "confidence": "medium",
+        "source": "CP — Descontos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[5]",
+        "current": "👨‍🎓 Студенты (Cartão de Estudante): -25%",
+        "problem": "Слишком обобщено. В CP нет универсальной автоматической скидки 25% для любого «Cartão de Estudante» на все поезда. Часто речь идёт о Cartão Jovem, sub23/социальных проездных или специальных соглашениях/абонементах.",
+        "suggestion": "Написать: «Студенты: проверяйте конкретные продукты — Cartão Jovem, sub23/social pass или специальные абонементы; обычный студенческий билет сам по себе не всегда даёт -25% на CP».",
+        "confidence": "high",
+        "source": "CP — Descontos; IMT / passes sub23"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[6]",
+        "current": "🎖️ Сотрудники CP: бесплатно (для них и семьи)",
+        "problem": "Это не публичная скидка для пассажиров/экспатов и не помогает читателю. Кроме того, условия служебного бесплатного проезда зависят от внутренних правил и не должны подаваться как обычная скидка CP.",
+        "suggestion": "Удалить пункт из раздела «Скидки» или заменить на публично применимые скидки: группы, возврат туда-обратно, промо-тарифы, Cartão Jovem, senior, children.",
+        "confidence": "high",
+        "source": "CP — Descontos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3]",
+        "current": "📦 Ручной багаж бесплатно (до 30 кг или 2 шт + рюкзак). Большой багаж — отдельный вагон в IC",
+        "problem": "Правила багажа CP не следует описывать как «отдельный вагон в IC»: в обычных Intercidades нет стандартной услуги checked baggage/багажного вагона для крупного багажа. Ограничение «30 кг или 2 шт + рюкзак» тоже требует проверки по актуальным Condições Gerais, иначе выглядит как выдуманная норма.",
+        "suggestion": "Написать: «Обычный ручной багаж перевозится бесплатно, если пассажир может сам его переносить и он не мешает другим; отдельной регистрации багажа обычно нет. Для негабаритного багажа проверяйте Condições Gerais de Transporte CP».",
+        "confidence": "high",
+        "source": "CP — Condições Gerais de Transporte"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[6]",
+        "current": "☕ Wi-Fi в AP/IC включается в Lisboa-Porto, в других маршрутах слабее",
+        "problem": "Wi‑Fi не стоит обещать для всех Intercidades. У CP Wi‑Fi надёжнее ассоциируется с Alfa Pendular и отдельными составами/маршрутами; на IC услуга может отсутствовать или быть нестабильной. Формулировка создаёт ожидание, что AP и IC всегда имеют Wi‑Fi.",
+        "suggestion": "Написать: «Wi‑Fi чаще всего есть в Alfa Pendular; в Intercidades наличие зависит от состава/маршрута и не гарантировано. Для работы лучше рассчитывать на мобильный интернет».",
+        "confidence": "medium",
+        "source": "CP — onboard services"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[8]",
+        "current": "⌨️ Если перенесли поезд — билет действителен на следующий поезд той же категории",
+        "problem": "Слишком широкое и потенциально опасное утверждение. Действительность билета при отмене/задержке/изменении расписания зависит от причины, типа билета, тарифа и инструкций CP. Для promo/advance tickets самостоятельная посадка на следующий поезд без подтверждения может привести к проблемам.",
+        "suggestion": "Написать: «Если поезд отменён или сильно задержан, обращайтесь в кассу/к контролёру/поддержку CP: обычно доступны перебронирование, следующий подходящий поезд или возврат, но условия зависят от тарифа и ситуации».",
+        "confidence": "high",
+        "source": "CP — Passenger rights / Condições Gerais de Transporte; Regulation (EU) 2021/782"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "⚠️ В Regional/Urbano поездах автомат проверки на самой платформе",
+        "problem": "Формулировка непонятна и не универсальна. В Urbanos часто нужно валидировать карту/билет до посадки на валидаторе или через турникет; в Regional правила могут отличаться, и «автомат проверки на платформе» есть не всегда.",
+        "suggestion": "Написать: «В Urbanos валидируйте билет/карту до посадки на турникете или валидаторе. В Regional покупайте билет заранее в кассе/автомате/онлайн, если это доступно; правила покупки у проводника зависят от станции и поезда».",
+        "confidence": "medium",
+        "source": "CP — Urban and Regional ticketing rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4]",
+        "current": "🚂 **Comboio Histórico do Vouga** — туристический паровоз, лето/осень",
+        "problem": "Comboio Histórico do Vouga — исторический туристический поезд, но «паровоз» может быть неверным: на Linha do Vouga исторические рейсы часто выполняются историческим дизельным/узкоколейным материалом, а не паровой тягой. Паровой исторический поезд более характерен для Douro.",
+        "suggestion": "Написать нейтрально: «Comboio Histórico do Vouga — исторический туристический поезд, обычно сезонные рейсы; проверяйте календарь CP».",
+        "confidence": "medium",
+        "source": "CP — Comboio Histórico do Vouga"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: CP homepage и IMT homepage",
+        "problem": "Для гайда с конкретными правилами скидок, багажа, велосипедов, животных, возвратов и проездных одних главных страниц недостаточно. Нужны прямые ссылки на соответствующие страницы CP и Navegante/Andante.",
+        "suggestion": "Добавить прямые источники: CP Descontos, CP Condições Gerais de Transporte, CP Transporte de bicicletas, CP Animais de companhia, CP Alfa Pendular/Intercidades, Navegante fares, Andante zones/fares.",
+        "confidence": "high",
+        "source": "CP; navegante.pt; Andante"
+      }
+    ],
+    "missing_topics": [
+      "Пояснение про Navegante Municipal 30 € vs Navegante Metropolitano 40 € и зоны действия в AML",
+      "Пояснение про зоны Andante и то, что Andante не всегда покрывает весь маршрут CP Urbano do Porto",
+      "Актуальный статус международных поездов: Celta Porto–Vigo работает, Sud Express/Lusitânia не восстановлены",
+      "Права пассажиров при отменах/задержках и забастовках: refund/rebooking/assistance по правилам CP и EU rail passenger rights",
+      "Условия Tarifa Antecipada/Promo: ограниченное число мест, обмен/возврат часто ограничены",
+      "Прямые ссылки на CP Descontos, bagagem, bicicletas, animais и Condições Gerais de Transporte"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5464,
+    "prompt_tokens": 2874,
+    "total_tokens": 8338
+  },
+  "model": "gpt-5.5"
+}

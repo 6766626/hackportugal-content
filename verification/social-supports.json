@@ -1,0 +1,277 @@
+{
+  "guideId": "social-supports",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по структуре, но содержит несколько существенных ошибок по RSI, desemprego, жилищным программам и Tarifa Social, а также смешивает разные режимы пособий.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "RSI ... минимум для доходов <242 €/мес",
+        "problem": "RSI не является простым порогом «доход <242 €/мес». Право и сумма рассчитываются по household reference value: 100% для titular, 70% для каждого другого взрослого и 50% для каждого несовершеннолетнего, минус учитываемые доходы семьи. Также есть лимиты по движимому имуществу.",
+        "suggestion": "Написать: «RSI — доплата до референтной суммы домохозяйства: 100% базовой суммы RSI для заявителя, 70% для каждого следующего взрослого и 50% для каждого ребёнка; выплата равна разнице между этой суммой и учитываемыми доходами семьи».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Rendimento Social de Inserção"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0]",
+        "current": "📊 **Размер**: ~242,30 €/мес для первого взрослого (2026, привязка к SS reference value). +50% на супруга (~121 €), +30% на ребёнка",
+        "problem": "Доли членов семьи указаны наоборот/устаревше: для RSI обычно 70% базовой суммы для каждого дополнительного взрослого и 50% для каждого несовершеннолетнего, а не 50% на супруга и 30% на ребёнка. Кроме того, при IAS 2026 €537,13 базовая сумма RSI около €242,8, а не €242,30, если используется коэффициент 45,208% IAS.",
+        "suggestion": "Заменить на: «Базовая сумма для заявителя — около €242,8/мес в 2026; +70% этой суммы за каждого дополнительного взрослого; +50% за каждого несовершеннолетнего. Фактическая выплата = эта референтная сумма − учитываемые доходы семьи».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Rendimento Social de Inserção; IAS 2026 = €537,13"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[3]",
+        "current": "👨‍👩‍👧 **Для иностранцев**: легальное проживание в PT ≥ 1 года (3 лет для не-EU). Исключение: беженцы, TPD — с момента получения статуса",
+        "problem": "Требование «3 года для не-EU» выглядит неверным/устаревшим для RSI. В практических правилах Segurança Social для граждан третьих стран обычно указывается легальное проживание в Португалии не менее 1 года; для EU/EEA/Swiss — право проживания. Также статус временной защиты и беженцев требует аккуратной формулировки по конкретному режиму.",
+        "suggestion": "Написать осторожнее: «Для иностранцев требуется законное проживание в Португалии; для граждан третьих стран Segurança Social обычно требует residence permit/легальное проживание не менее 1 года. Для беженцев и некоторых защищённых статусов действуют специальные правила — проверять актуальный Guia Prático RSI».",
+        "confidence": "medium",
+        "source": "Segurança Social — Guia Prático Rendimento Social de Inserção"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[2].text",
+        "current": "RSI несовместим с: subsídio de desemprego, полноценной работой (>RSI-порога), crescент имуществом (>4× RSI в банке).",
+        "problem": "Это вводит в заблуждение. RSI не «несовместим» автоматически с пособием по безработице или работой: соответствующие суммы учитываются как доход и могут уменьшить/обнулить RSI. Лимит по движимому имуществу для RSI — не «4× RSI в банке», а существенно выше: обычно 60× IAS для движимого имущества семьи.",
+        "suggestion": "Заменить на: «Пособие по безработице, зарплата и другие доходы учитываются при расчёте RSI и могут уменьшить или исключить выплату. Движимое имущество семьи не должно превышать установленный лимит, обычно 60× IAS».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Rendimento Social de Inserção"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[1]",
+        "current": "Уволен **не по своей вине** (ст. 381, 387 Código do Trabalho) — сокращение, банкротство, extinction",
+        "problem": "Ссылки на статьи Código do Trabalho слишком узкие и частично сбивают: право на subsídio de desemprego определяется не только этими статьями, а режимом desemprego involuntário в законодательстве Segurança Social. Важны также caducidade de contrato, despedimento coletivo, extinção do posto de trabalho, inadaptação, resolução com justa causa pelo trabalhador и другие случаи.",
+        "suggestion": "Написать: «Нужно состояние desemprego involuntário: например despedimento coletivo, extinção do posto de trabalho, inadaptação, caducidade de contrato a termo, банкротство работодателя или расторжение работником с justa causa, подтверждённое документами».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Subsídio de Desemprego"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "❌ ИП (recibos verdes) без cessação de atividade — не покрывает",
+        "problem": "Фраза слишком грубая. Обычный subsídio de desemprego действительно предназначен для работников por conta de outrem, но для некоторых self-employed существуют отдельные режимы: subsídio por cessação de atividade для trabalhadores independentes economicamente dependentes и subsídio por cessação de atividade profissional для empresários/gerentes при соблюдении условий.",
+        "suggestion": "Заменить на: «Для recibos verdes обычный subsídio de desemprego не применяется. Возможны отдельные пособия при cessação de atividade для экономически зависимых trabalhadores independentes или empresários/gerentes, если выполнены специальные условия по взносам и прекращению деятельности».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Subsídio por Cessação de Atividade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "**65% средней зарплаты** последних 12 мес (brutto), cap ~ 2.5× IAS = 1 342 €/мес (2026)",
+        "problem": "Расчёт описан неточно. Используется remuneração de referência, рассчитанная по заработкам за первые 12 месяцев из 14 месяцев до безработицы, включая subsídios de férias/Natal по правилам SS. Есть также ограничение по net reference remuneration. 2,5× IAS при IAS €537,13 = €1 342,83, не €1 342.",
+        "suggestion": "Написать: «Обычно 65% remuneração de referência: сумма зарегистрированных remunerations за первые 12 месяцев из 14 месяцев, предшествующих безработице, делённая на 360. Максимум — 2,5× IAS (€1 342,83 в 2026) и не выше установленных ограничений по net reference remuneration».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Subsídio de Desemprego; IAS 2026 = €537,13"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "Minimum: 1× IAS = 537,13 €/мес",
+        "problem": "Минимум не всегда равен 1× IAS. Subsídio de desemprego имеет минимальный размер 1× IAS, но он не может превышать net remuneration of reference; для низких зарплат выплата может быть ниже IAS.",
+        "suggestion": "Написать: «Минимум обычно 1× IAS (€537,13 в 2026), но не выше net remuneration de referência; при очень низкой зарплате пособие может быть ниже IAS».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Subsídio de Desemprego"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "Срок зависит от возраста + стажа: < 30 лет, 540-720 взносов: 12-18 мес; 30-40 лет, 720-1080: 18-24 мес; ≥ 50 лет, 1800+: до 30 мес",
+        "problem": "Сроки сильно упрощены и местами неверны. Длительность subsídio de desemprego в Португалии обычно выражается в днях и зависит от возраста и количества месяцев с remunerações, с базовыми периодами вроде 150/210/330 дней для лиц младше 30 лет и дополнительными днями за длинный contributory career. Указанные диапазоны 12–30 месяцев могут завысить ожидания.",
+        "suggestion": "Заменить на: «Срок определяется таблицей Segurança Social по возрасту и стажу: от 150 дней для молодых работников с минимальным стажем до 540 дней и более с добавочными днями за длинную карьеру. Не указывать 12–30 мес без полной таблицы; дать ссылку на Guia Prático».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Subsídio de Desemprego"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[6]",
+        "current": "После истечения: Subsídio Social de Desemprego (80% RSI, 6-18 мес доп.) если низкий доход семьи",
+        "problem": "Размер subsídio social de desemprego не считается как «80% RSI». Он привязан к IAS: обычно 100% IAS для безработного с household или 80% IAS для одинокого, при проверке доходов семьи. Длительность также зависит от того, initial это пособие или subsequent после subsídio de desemprego.",
+        "suggestion": "Написать: «Subsídio social de desemprego доступен при low household income; размер обычно 80% IAS для одинокого или 100% IAS для лица с household, а срок зависит от возраста/стажа и от того, назначается ли он initial или subsequent».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Subsídio Social de Desemprego"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "**Porta 65 Jovem**: для молодёжи 18-35 лет — до 200 €/мес субсидия на аренду",
+        "problem": "Предел «до €200/мес» неверен как общее правило. Porta 65 Jovem рассчитывается как процент eligible rent с учётом района, доходов, состава household и максимальной допустимой rent; в дорогих муниципалитетах поддержка может быть выше €200. Для couples также есть возрастное исключение: один заявитель может быть до 37 лет.",
+        "suggestion": "Написать: «Porta 65 Jovem — для 18–35 лет; в паре один из заявителей может быть до 37. Размер — процент от eligible rent по таблицам IHRU/Portal da Habitação, а не фиксированный cap €200».",
+        "confidence": "high",
+        "source": "Portal da Habitação / IHRU — Porta 65 Jovem"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[1]",
+        "current": "**Apoio ao Arrendamento** (IHRU): для семей с низким доходом, до 50% ренты",
+        "problem": "Смешаны разные жилищные меры. «Apoio extraordinário à renda» — это отдельная мера поддержки арендаторов, обычно до €200/мес и с критериями esforço/rendimento, а «Programa de Apoio ao Arrendamento»/affordable rental — не просто субсидия «до 50% ренты». Формулировка может привести к подаче не туда.",
+        "suggestion": "Разделить: «Apoio extraordinário à renda — денежная поддержка арендаторам при высоком esforço com renda, обычно до €200/мес, назначается через AT/Segurança Social по условиям закона. Programa de Arrendamento Acessível/municipal affordable rent — это аренда по сниженной цене, а не универсальная субсидия 50%».",
+        "confidence": "high",
+        "source": "IHRU; Portal da Habitação; Decreto-Lei 20-B/2023 and subsequent updates"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "Требования: доход ≤ 4× IAS семейный, контракт аренды",
+        "problem": "Это не универсальное правило ни для Porta 65 Jovem, ни для apoio à renda. Porta 65 использует собственные критерии дохода, effort rate, максимальной rent by municipality and typology, age and household composition. Extraordinary rent support использует другие критерии, включая effort rate and income brackets.",
+        "suggestion": "Убрать «≤ 4× IAS» как общее требование. Написать: «Критерии зависят от программы: Porta 65 — age, lease, tax residence, income/rent-effort and maximum rent tables; apoio extraordinário à renda — effort rate and household income criteria».",
+        "confidence": "high",
+        "source": "Portal da Habitação / IHRU — Porta 65 Jovem; Apoio Extraordinário à Renda"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "Ставка: обычно 20-80 €/мес (зависит от дохода и размера семьи)",
+        "problem": "Слишком низкий и вводящий в заблуждение диапазон для habitação social. Муниципальная renda apoiada рассчитывается по формуле от дохода household; у некоторых семей rent действительно может быть очень низкой, но не ограничивается €20–80.",
+        "suggestion": "Написать: «Рента рассчитывается муниципалитетом по regime de renda apoiada на основе дохода и состава семьи; может быть очень низкой, но не имеет универсального диапазона €20–80».",
+        "confidence": "high",
+        "source": "Lei 81/2014, regime do arrendamento apoiado"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[4]",
+        "current": "Приоритет: multicoроды, инвалиды, пенсионеры, жертвы домашнего насилия",
+        "problem": "Опечатка/непонятный термин «multicoроды». Вероятно имелись в виду многодетные семьи или households with dependants. Также приоритеты зависят от municipal regulation.",
+        "suggestion": "Заменить на: «Приоритеты зависят от муниципалитета: homelessness, unsafe housing, disability, elderly, minors/dependants, domestic violence victims, low income, overcrowding и др.»",
+        "confidence": "high",
+        "source": "Municipal social housing regulations; Lei 81/2014"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Renda Acessível ... аренда на 20-30% ниже рыночной в специально отведённых зданиях. Lotação через SIGA, бюджет от муниципалитетов.",
+        "problem": "Описание смешивает национальный Programa de Arrendamento Acessível, муниципальные программы renda acessível и систему SIGA. Национальная affordable rent программа не обязательно про «специально отведённые здания» или municipal budget; часто это частные landlords с налоговыми льготами и rent below reference values. В Лиссабоне/Порту могут быть отдельные municipal lotteries/platforms.",
+        "suggestion": "Разделить: «Programa de Arrendamento Acessível — договоры аренды с rent below reference values and tax benefits for landlords. Муниципальные программы renda acessível подаются через сайты Câmara/municipal platforms and may use lotteries; правила отличаются по городу».",
+        "confidence": "high",
+        "source": "Portal da Habitação — Programa de Arrendamento Acessível; municipal housing portals"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "Скидка **33,8%** на электричество + **10%** на газ",
+        "problem": "Скидка на газ указана неверно. Социальный тариф на natural gas обычно даёт скидку около 31,2% на regulated tariff components, а не 10%. Electricity 33,8% — корректно как headline discount, но применяется к определённым компонентам тарифа, не обязательно ко всему счёту с taxes/fees.",
+        "suggestion": "Написать: «Electricity social tariff: discount around 33,8% on eligible regulated tariff components. Natural gas social tariff: discount around 31,2% for eligible low-pressure household contracts».",
+        "confidence": "high",
+        "source": "DGEG — Tarifa Social de Energia Elétrica; DGEG — Tarifa Social de Gás Natural"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "- Пенсионер с доходом < 6 820 €/год",
+        "problem": "Eligibility для social electricity tariff по low income не ограничивается пенсионерами. Есть отдельный критерий annual household income below the legal threshold, plus contracted power limit. Сумма €6 820 выглядит устаревшей/неподтверждённой для 2026 и должна быть заменена официальным порогом DGEG/AT/SS для текущего года.",
+        "suggestion": "Написать: «Также eligible households with annual income below the legal threshold for Tarifa Social, increased by a percentage per additional household member, subject to electricity contract power limit. Use the current DGEG threshold instead of €6 820 unless verified».",
+        "confidence": "medium",
+        "source": "DGEG — Tarifa Social de Energia Elétrica"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items",
+        "current": "Eligibility list for Tarifa Social Energia",
+        "problem": "Не указаны ключевые caveats: для electricity contract обычно должен быть domestic low-voltage contract with potência contratada up to 6.9 kVA; для natural gas — domestic low-pressure contract with annual consumption limit and a different eligibility list. Автоматическое применение зависит от matching NIF/NISS/address.",
+        "suggestion": "Добавить: «Electricity: domestic contract, potência contratada ≤ 6.9 kVA, eligible social benefit or low income. Gas: domestic low-pressure contract and annual consumption limit; eligibility categories differ. If automatic match fails, supplier can request proof».",
+        "confidence": "high",
+        "source": "DGEG — Tarifa Social de Energia Elétrica; DGEG — Tarifa Social de Gás Natural"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "\"amountEUR\": 1342, \"note\": \"€/мес (2.5 IAS)\"",
+        "problem": "2.5 × IAS 2026 (€537,13) = €1 342,825, обычно округляется до €1 342,83. Значение €1 342 занижено и не соответствует собственной формуле.",
+        "suggestion": "Исправить на €1 342,83 или указать «≈ €1 343».",
+        "confidence": "high",
+        "source": "IAS 2026 = €537,13"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "Porta 65 Jovem (аренда): amountEURMin 100, amountEURMax 200",
+        "problem": "Диапазон €100–200/мес не является официальным лимитом Porta 65 Jovem и может быть неверен для многих заявителей. Размер зависит от rent, municipality, typology, income and support percentage.",
+        "suggestion": "Заменить на «varies» или убрать из fixed costs. Написать: «Размер рассчитывается симулятором Portal da Habitação; может быть ниже или выше €200 depending on eligible rent and municipality».",
+        "confidence": "high",
+        "source": "Portal da Habitação — Porta 65 Jovem"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "Habitação social (аренда): amountEURMin 20, amountEURMax 80",
+        "problem": "Нет универсального официального диапазона €20–80. Renda apoiada рассчитывается по формуле и может быть выше.",
+        "suggestion": "Убрать фиксированный диапазон и заменить на: «calculated by municipality under renda apoiada formula based on household income/composition».",
+        "confidence": "high",
+        "source": "Lei 81/2014, regime do arrendamento apoiado"
+      },
+      {
+        "severity": "major",
+        "where": "costs[5]",
+        "current": "\"Tarifa Social energia скидка\", \"note\": \"33.8% от счёта\"",
+        "problem": "33,8% не применяется буквально ко всему счёту: налоги, audiovisual contribution and some charges may not be discounted the same way. Для газа отдельный discount около 31,2%, а не 33,8%.",
+        "suggestion": "Написать: «Electricity: 33,8% discount on eligible tariff components; final bill reduction is lower after taxes/other charges. Gas has separate social tariff discount».",
+        "confidence": "high",
+        "source": "DGEG — Tarifa Social de Energia"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1]",
+        "current": "👶 **Subsídio Parental**: 120-180 дней декрета 100% / 90% зарплаты",
+        "problem": "Ставки parental benefit указаны неточно. В Португалии initial parental leave имеет разные режимы: 120 days at 100%, 150 days at 80% или повышенные проценты при shared leave; 180 days can be 83% or 90% depending on sharing/extra periods and current rules. Простое «120–180 дней 100%/90%» неверно.",
+        "suggestion": "Написать: «Subsídio parental inicial: проценты зависят от выбранной длительности и sharing между родителями; например 120 дней — 100%, 150 дней — 80% или выше при sharing, 180 дней — по специальным shared-leave rules. Проверять таблицу Segurança Social».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Subsídio Parental"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "👵 **Complemento Solidário para Idosos (CSI)**: для пенсионеров с доходом < IAS",
+        "problem": "CSI не определяется как «доход < IAS». Это means-tested top-up for elderly people with annual resources below a legally defined reference value, considering applicant and family resources; threshold is annual and not simply monthly IAS.",
+        "suggestion": "Написать: «CSI — доплата для пожилых людей с annual resources below the CSI reference threshold; учитываются доходы самого заявителя, супруга/партнёра и в ряде случаев children. Порог нужно брать из актуального Guia Prático CSI».",
+        "confidence": "high",
+        "source": "Segurança Social — Guia Prático Complemento Solidário para Idosos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[6]",
+        "current": "🧑‍⚕️ **Isenção de taxas moderadoras**: автоматически для benefit-receivers + беременные, дети < 18, пенсионеры > 65 с low income",
+        "problem": "Контекст устаревший/неполный: после реформы taxas moderadoras в SNS большинство planned care fees отменены; taxas mainly remain for emergency episodes without referral/admission in certain cases. «Benefit-receivers» тоже слишком широко: не все получатели пособий автоматически exempt.",
+        "suggestion": "Написать: «Taxas moderadoras в SNS в основном отменены, но могут применяться в urgência without referral/admission. Exemptions существуют для minors, pregnant women, people with economic insufficiency, certain chronic conditions/disabilities and other legal categories».",
+        "confidence": "high",
+        "source": "SNS / ERS guidance on taxas moderadoras; Decreto-Lei 37/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1]",
+        "current": "Собрать: CC/ВНЖ, NISS, IBAN, доказательства дохода (3-12 мес), состав семьи, документы иждивенцев",
+        "problem": "Для многих пособий иностранцам также нужны NIF, residence permit/CRUE, proof of address, declaração de agregado familiar/IRS, bank statements/assets declarations, lease registered with AT for housing supports, and employer unemployment declaration for desemprego. Текущий список слишком общий для практического гайда.",
+        "suggestion": "Добавить caveat: «Список зависит от пособия: для desemprego нужна employer declaration/modelo RP5044 or equivalent and IEFP registration; для housing — registered lease and tax data; для RSI — proof of household income/assets and residence status».",
+        "confidence": "high",
+        "source": "Segurança Social practical guides; Portal da Habitação"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Generic homepages: https://www.seg-social.pt/, https://www.ihru.pt/, https://www.dgeg.gov.pt/",
+        "problem": "Для чувствительных категорий пособий источники слишком общие. Нужны прямые ссылки на актуальные Guia Prático / official pages for RSI, subsídio de desemprego, subsídio social de desemprego, parental benefit, CSI, Porta 65 and DGEG social tariffs. Иначе невозможно проверить конкретные суммы и условия.",
+        "suggestion": "Добавить прямые источники: Segurança Social Guia Prático RSI; Guia Prático Subsídio de Desemprego; Guia Prático Subsídio Social de Desemprego; Guia Prático Subsídio Parental; Guia Prático CSI; Portal da Habitação Porta 65 Jovem; DGEG Tarifa Social Energia Elétrica; DGEG Tarifa Social Gás Natural.",
+        "confidence": "high",
+        "source": "Segurança Social; Portal da Habitação; DGEG"
+      }
+    ],
+    "missing_topics": [
+      "Различие между contributory benefits и means-tested benefits: для одних нужен стаж взносов, для других — проверка доходов/имущества household.",
+      "Для RSI: точный лимит movable assets, household reference calculation and income categories counted by Segurança Social.",
+      "Для desemprego: registration deadline at IEFP, employer declaration/modelo required, and penalties for refusing suitable work.",
+      "Отдельные unemployment regimes for economically dependent self-employed workers and company managers.",
+      "Electricity/gas social tariff technical eligibility: contracted power, low-pressure gas, annual consumption limits and NIF/address matching.",
+      "Housing: separate treatment of Porta 65 Jovem, Apoio Extraordinário à Renda, Programa de Arrendamento Acessível and municipal social housing waiting lists.",
+      "Appeal/reclamação process after refusal or wrong calculation by Segurança Social/IHRU/DGEG."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 8217,
+    "prompt_tokens": 3560,
+    "total_tokens": 11777
+  },
+  "model": "gpt-5.5"
+}

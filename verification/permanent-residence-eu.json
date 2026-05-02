@@ -1,0 +1,242 @@
+{
+  "guideId": "permanent-residence-eu",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "В гайде есть несколько существенных ошибок: перепутаны статьи Lei 23/2007, неверно описан зачёт 5 лет, завышены/выдуманы требования для EU Long-Term Resident, слишком широко описаны права мобильности в ЕС и некорректно подана реформа гражданства 2026 как уже действующая.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "title",
+        "current": "Постоянное резидентство Португалии (art. 125) и EU Long-Term Resident",
+        "problem": "Art. 125 Lei 23/2007 не является статьёй про национальную Autorização de Residência Permanente. Национальная постоянная резиденция регулируется в блоке про autorização de residência permanente, в частности art. 76 и условия в art. 80 Lei 23/2007. Art. 125 относится к regime do residente de longa duração / EU long-term resident, а не к обычному национальному PMJ.",
+        "suggestion": "Переименовать: \"Постоянное резидентство Португалии — Autorização de Residência Permanente (arts. 76 и 80 Lei 23/2007) и Estatuto de Residente de Longa Duração UE (arts. 125.º e seguintes)\".",
+        "confidence": "high",
+        "source": "Lei 23/2007, arts. 76, 80, 125.º e seguintes"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "После 5 лет легального проживания можно подать на **Autorização de Residência Permanente** (art. 125 Lei 23/2007)",
+        "problem": "Для национального permanent residence требуется не просто 5 лет любого \"легального проживания\", а, как правило, 5 лет в качестве holder of temporary residence permit. Периоды ожидания manifestação de interesse/заявок/процессов легализации сами по себе не равны периоду владения autorização de residência для целей permanent residence.",
+        "suggestion": "Написать: \"После 5 лет владения временной autorização de residência в Португалии можно подать на Autorização de Residência Permanente, если выполнены условия art. 80 Lei 23/2007\".",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 80"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "EU Long-Term Resident ... даёт право свободно жить и работать в любой стране ЕС.",
+        "problem": "Это слишком широко и вводит в заблуждение. EU long-term resident status облегчает переезд во второе государство-член, но не даёт автоматического безусловного права просто жить и работать в любой стране ЕС как гражданин ЕС. Второе государство требует подачу на свой residence permit и может применять условия по доходу, жилью, страховке, рынку труда/квотам в пределах директивы. Режим также не работает одинаково для всех стран ЕС; Дания и Ирландия не участвуют в Directive 2003/109/EC.",
+        "suggestion": "Заменить на: \"EULTR облегчает переезд во многие страны ЕС: после въезда во второе государство обычно нужно подать на местный residence permit и выполнить его условия; это не свобода передвижения как у граждан ЕС и не распространяется на Данию/Ирландию\".",
+        "confidence": "high",
+        "source": "Directive 2003/109/EC, arts. 14–15; recital/participation clauses"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0]",
+        "current": "📅 **5 лет легального проживания** в PT (как и для гражданства — включая периоды ожидания MdI по старому режиму и переходные моменты)",
+        "problem": "Это смешивает правила гражданства и permanent residence. Для гражданства после Lei Orgânica 1/2024 стали учитывать период с момента запроса temporary residence при определённых условиях, но это не означает автоматический зачёт ожидания manifestação de interesse для permanent residence. Для AR permanente ключевой критерий — 5 лет временного ВНЖ, а не 5 лет \"процесса\" или ожидания.",
+        "suggestion": "Написать: \"5 лет владения временной autorização de residência. Не путать с правилами гражданства: периоды ожидания заявлений могут иметь значение для nationality clock, но обычно не заменяют 5 лет temporary residence permit для PMJ\".",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 80; Lei da Nacionalidade as amended by Lei Orgânica 1/2024"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1]",
+        "current": "Освобождение: граждане CPLP, лица с PT-дипломом",
+        "problem": "Бланкетное освобождение граждан CPLP от подтверждения базового португальского для permanent residence выглядит неверным/слишком широким. Для гражданства есть отдельные презумпции/правила по знанию португальского для носителей португалоязычных стран, но это не следует автоматически переносить на art. 80 permanent residence. PT-диплом или обучение на португальском может служить доказательством, но формулировку надо привязать к конкретному официальному основанию.",
+        "suggestion": "Заменить на: \"Португальский A2: CIPLE/CAPLE, certificado de curso de português reconhecido, либо иной документ, прямо принимаемый AIMA по закону/регламенту. Не считать гражданство CPLP автоматическим освобождением без проверки актуальной нормы AIMA\".",
+        "confidence": "medium",
+        "source": "Lei 23/2007, art. 80; Decreto Regulamentar 84/2007"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].text",
+        "current": "Через portal-renovacoes.aima.gov.pt с CMD / CC. Выбрать «Autorização de Residência Permanente». Загрузить сканы документов.",
+        "problem": "portal-renovacoes.aima.gov.pt — это портал для renewals/автоматических продлений определённых residence permits, а не надёжно доступный общий канал подачи на national permanent residence или EU long-term resident. Утверждение, что можно выбрать «Autorização de Residência Permanente» и загрузить документы, требует официального подтверждения и, вероятно, неверно для большинства заявителей.",
+        "suggestion": "Написать осторожно: \"Подача зависит от актуального канала AIMA: онлайн-portal, если AIMA открыл соответствующую опцию, либо запись/подача через AIMA. Проверяйте страницу AIMA для 'autorização de residência permanente' / 'estatuto de residente de longa duração' перед подачей\".",
+        "confidence": "high",
+        "source": "AIMA official procedures / portal-renovacoes.aima.gov.pt"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "Нельзя потерять при длительных выездах (до 24 мес подряд)",
+        "problem": "Формулировка слишком категорична. Национальную permanent residence можно потерять/аннулировать при отсутствии в Португалии 24 последовательных месяца или 30 месяцев суммарно в течение 3 лет, если нет надлежащего обоснования. Надо указать и лимит суммарных отсутствий, и возможность оправдать отсутствие.",
+        "suggestion": "Написать: \"Можно отсутствовать до 24 месяцев подряд или до 30 месяцев суммарно за 3 года; более длительное отсутствие может привести к cancellation, если не было заранее/надлежаще обосновано перед AIMA\".",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 85"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1]",
+        "current": "🌍 Можно уезжать на ≤ 24 мес подряд (национальный) / 12 мес (EULTR) без потери",
+        "problem": "Для национального PMJ пропущен лимит 30 месяцев суммарно за 3 года. Для EULTR важно говорить об отсутствии из территории ЕС, а также о специальных основаниях потери статуса, включая получение long-term status в другой стране и длительное отсутствие из Португалии/ЕС по правилам директивы и национального закона.",
+        "suggestion": "Заменить на: \"Национальный PMJ: риск cancellation при отсутствии 24 месяца подряд или 30 месяцев суммарно за 3 года без уважительной причины. EULTR: риск потери при отсутствии из ЕС 12 месяцев подряд и в других случаях, предусмотренных Lei 23/2007/Directive 2003/109\".",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 85 and arts. 131.º e seguintes; Directive 2003/109/EC, art. 9"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[3]",
+        "current": "Требования чуть строже — стабильный доход выше",
+        "problem": "Не подтверждено как общее правило. EU long-term resident требует стабильные и регулярные ресурсы, медицинскую страховку и выполнение интеграционных условий, но утверждение, что доход обязательно выше, чем для national permanent residence, должно быть подкреплено конкретной нормой. В гайде далее указан 1.5× SMN, что, вероятно, неверно.",
+        "suggestion": "Написать: \"Требования отличаются: нужно доказать стабильные и регулярные ресурсы, жильё/страховку и условия интеграции; конкретный порог проверять по актуальной норме AIMA/Lei 23/2007\".",
+        "confidence": "medium",
+        "source": "Directive 2003/109/EC, art. 5; Lei 23/2007, regime do residente de longa duração"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[6].content[0].items[1]",
+        "current": "Требует **стабильный доход ≥ 1.5× SMN** (1 380 €/мес 2026)",
+        "problem": "Порог 1.5× SMN для EU Long-Term Resident не выглядит как действующее универсальное требование Lei 23/2007/Directive 2003/109. Директива говорит о стабильных и регулярных ресурсах, достаточных без обращения к social assistance. Если автор хочет указать конкретный порог, нужен официальный источник AIMA/закон/portaria. Без источника это вводит в заблуждение.",
+        "suggestion": "Удалить 1.5× SMN или заменить на: \"стабильные и регулярные средства к существованию, достаточные для заявителя и семьи без обращения к социальной помощи; на практике AIMA обычно ориентируется на Portuguese subsistence thresholds, проверяйте актуальный список документов/порог\".",
+        "confidence": "medium",
+        "source": "Directive 2003/109/EC, art. 5"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[6].content[0].items[2]",
+        "current": "Нужна **интеграционная программа**: A2 + civics course (5-10 часов \"Cidadão PT\")",
+        "problem": "Требование civics course \"Cidadão PT\" для Portuguese EU Long-Term Resident не подтверждено и выглядит выдуманным/смешанным с интеграционными курсами в других странах. Для Португалии ключевое интеграционное условие обычно — basic Portuguese language requirement, а не отдельный обязательный civics course.",
+        "suggestion": "Заменить на: \"Нужно выполнить условие интеграции, в Португалии — доказательство базового знания португальского языка в форме, принимаемой AIMA. Отдельный civics course указывать только при наличии официального источника\".",
+        "confidence": "high",
+        "source": "Lei 23/2007; Decreto Regulamentar 84/2007; Directive 2003/109/EC, art. 5(2)"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[5]",
+        "current": "**Не** применимо: беженцы с PT-статусом, студенты, дипломаты",
+        "problem": "Список некорректен. После изменений Directive 2011/51/EU long-term resident regime распространяется также на beneficiaries of international protection при выполнении условий. Студенты/учебные резиденции действительно имеют специальные ограничения: residence solely for study не даёт статус напрямую, но периоды учёбы могут частично учитываться при последующем подходящем статусе. Дипломаты/лица с привилегированным статусом исключаются.",
+        "suggestion": "Написать: \"Есть исключения и специальные правила: дипломатические/временные статусы исключаются; периоды учёбы обычно не дают право сами по себе и могут считаться частично; beneficiaries of international protection не следует исключать blanket — проверять специальные правила Lei 23/2007/Directive 2011/51/EU\".",
+        "confidence": "high",
+        "source": "Directive 2003/109/EC as amended by Directive 2011/51/EU"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[3]",
+        "current": "Допустимое отсутствие из ЕС: ≤ 12 мес подряд / ≤ 6 лет суммарно",
+        "problem": "Это смешивает правила сохранения уже полученного EULTR и условия для получения статуса. Для получения long-term resident обычно требуется 5 лет непрерывного легального проживания; непрерывность нарушается отсутствиями более 6 месяцев подряд или 10 месяцев суммарно за 5 лет, кроме предусмотренных исключений. В гайде это критически не объяснено.",
+        "suggestion": "Добавить отдельный пункт: \"Для получения EULTR 5-летнее проживание должно быть непрерывным: обычные лимиты — отсутствие не более 6 месяцев подряд и не более 10 месяцев суммарно за 5 лет, если нет исключений. После получения действуют отдельные правила потери статуса\".",
+        "confidence": "high",
+        "source": "Directive 2003/109/EC, art. 4"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[4]",
+        "current": "Mobility: после получения — уведомление другой страны ЕС за 30 дней, резидентство там 1-3 мес",
+        "problem": "Слишком упрощено и частично неверно. По директиве long-term resident должен подать заявление на residence permit во втором государстве-члене не позднее 3 месяцев после въезда, но условия, сроки и предварительные процедуры зависят от страны. Это не просто уведомление за 30 дней.",
+        "suggestion": "Написать: \"Во втором государстве ЕС обычно нужно подать заявление на местный residence permit в течение 3 месяцев после въезда и выполнить условия этой страны; некоторые страны требуют предварительных шагов/визу/проверку рынка труда\".",
+        "confidence": "high",
+        "source": "Directive 2003/109/EC, arts. 14–15"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[3]",
+        "current": "Путь к гражданству через 5 лет (общий случай) или 7 по новому закону 2026",
+        "problem": "На 22.04.2026 новый закон о гражданстве, одобренный 01.04.2026, ожидал promulgation и не был действующим законом. Формулировка \"по новому закону 2026\" создаёт впечатление, что 7 лет уже действуют. Кроме того, в гайде далее указано \"5-10 лет\", что противоречит \"5 или 7\".",
+        "suggestion": "Написать: \"По действующему на апрель 2026 режиму общий срок натурализации — 5 лет legal residence; парламент одобрил реформу 01.04.2026, которая может изменить сроки, но до promulgation/publication её нельзя применять как действующее право\".",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade; status of nationality law reform approved 01.04.2026 awaiting promulgation"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[6]",
+        "current": "🎫 Гражданство: 5+ лет PMJ (совокупно с временным периодом = 5-10 лет зависит от nationality law 2026)",
+        "problem": "Фраза неверно намекает, что нужно 5 лет именно PMJ. Для гражданства не требуется иметь permanent residence; засчитывается legal residence period. Также диапазон \"5-10 лет\" не объяснён и противоречит предыдущему пункту про \"5 или 7\".",
+        "suggestion": "Заменить на: \"Гражданство: отдельная процедура через IRN; permanent residence не обязателен. По действующему на апрель 2026 праву общий срок — 5 лет legal residence, но реформа 2026 может изменить сроки после вступления в силу\".",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[5]",
+        "current": "⚖️ **Без criminal record** с наказанием ≥ 1 года lишением свободы",
+        "problem": "Опечатка: смешана латинская 'l' в слове \"lишением\". Кроме того, лучше формулировать юридически: отсутствие condamnation/conviction за преступление, которое в Португалии карается лишением свободы более 1 года, либо отсутствие фактического приговора к лишению свободы более 1 года — в зависимости от конкретной нормы.",
+        "suggestion": "Исправить на: \"Без судимости/осуждения за преступление, которое по португальскому праву препятствует выдаче permanent residence; в art. 80 используется порог pena privativa de liberdade superior a 1 ano\".",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 80"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[7]",
+        "current": "Registo criminal: PT (бесплатно на eportugal.gov.pt) + страны проживания ≥ 1 года в последние 5 лет",
+        "problem": "Список документов для criminal record не привязан к официальному списку AIMA и может быть неверен для permanent residence. Для многих процедур AIMA запрашивает consent to consult Portuguese criminal record, а иностранные criminal records зависят от типа процедуры/предыдущего проживания. Утверждение про страны проживания ≥1 года в последние 5 лет требует официального источника.",
+        "suggestion": "Написать: \"Criminal record/authorization for AIMA to consult Portuguese criminal record; иностранные справки — если указаны AIMA для вашей процедуры или запрошены дополнительно. Проверить актуальный checklist AIMA\".",
+        "confidence": "medium",
+        "source": "AIMA official checklist for autorização de residência permanente / residente de longa duração"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[8]",
+        "current": "📸 2 фото 3х4",
+        "problem": "Для современных процедур AIMA обычно биометрия/фото снимаются на месте или используются цифровые данные; требование \"2 фото 3х4\" выглядит устаревшим без подтверждения актуальным checklist.",
+        "suggestion": "Заменить на: \"Фото/биометрия — по требованию AIMA; обычно снимается на appointment, но проверяйте актуальный checklist\".",
+        "confidence": "medium",
+        "source": "AIMA official checklist"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].text",
+        "current": "AIMA — concessão art. 76 = **351,10 €** (tabela 01.03.2026). Дополнительно приём + анализ ~133 €.",
+        "problem": "Суммы пошлин являются чувствительной категорией и должны быть привязаны к конкретной Portaria/tabela AIMA от 01.03.2026. В тексте нет источника на fee table, а label \"art. 76\" может быть спутан со статьёй Lei 23/2007, а не с тарифной строкой. Без ссылки сложно проверить, включён ли \"приём + анализ\" отдельно или уже входит в процедуру.",
+        "suggestion": "Добавить точную ссылку/название актуальной tabela de taxas AIMA с 01.03.2026 и расписать: \"taxa de análise/receção\" отдельно от \"emissão/concessão do título\", если они действительно cumulativas. Если источник не подтверждает €351,10 + €133, убрать конкретику.",
+        "confidence": "medium",
+        "source": "AIMA tabela de taxas vigente desde 01.03.2026"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "{\"label\":\"AIMA приём + анализ\",\"amountEUR\":133}",
+        "problem": "Пошлина указана без официального источника и без точной суммы до центов. Для 2026 после изменения fee table 01.03.2026 такие значения нужно верифицировать по актуальной таблице AIMA/Portaria. Округление до 133 может быть допустимо для бытового гайда, но рядом указана точная сумма 351,10, что создаёт несогласованность.",
+        "suggestion": "Указать точную сумму из tabela AIMA 01.03.2026 или писать \"около €133 — проверить по актуальной tabela de taxas AIMA\".",
+        "confidence": "medium",
+        "source": "AIMA tabela de taxas vigente desde 01.03.2026"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "{\"title\":\"Lei 23/2007 art. 125 — Autorização Permanente\",\"url\":\"https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275\"}",
+        "problem": "Название источника фактически неверное: art. 125 — не national Autorização Permanente. Это усиливает главную ошибку гайда.",
+        "suggestion": "Заменить title на: \"Lei 23/2007 — autorização de residência permanente: arts. 76 and 80; residente de longa duração: arts. 125.º e seguintes\".",
+        "confidence": "high",
+        "source": "Lei 23/2007"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "{\"title\":\"AIMA — Autorização Permanente\",\"url\":\"https://aima.gov.pt/\"}",
+        "problem": "Ссылка ведёт на главную страницу AIMA, а не на конкретную процедуру или fee table. Для sensitive immigration procedure это слабый источник: пользователь не сможет проверить требования, документы и пошлины.",
+        "suggestion": "Заменить на конкретные страницы AIMA для \"Autorização de residência permanente\", \"Estatuto de residente de longa duração\" и \"Tabela de taxas\" либо добавить их отдельными источниками.",
+        "confidence": "high",
+        "source": "AIMA official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "Можно получить одновременно оба (рекомендуется advokaty не злоупотреблять — AIMA может затянуть).",
+        "problem": "Опечатка/транслит \"advokaty\" и неясная рекомендация. Также утверждение о возможности получить оба статуса одновременно требует осторожности: national permanent residence card and EU long-term resident status are related but procedurally different; AIMA может рассматривать разные applications/endorsements.",
+        "suggestion": "Написать: \"Теоретически можно иметь национальный permanent residence и/или статус EU long-term resident, но процедура и отметка/карта зависят от AIMA; лучше уточнять стратегию перед подачей\".",
+        "confidence": "medium",
+        "source": "Lei 23/2007"
+      }
+    ],
+    "missing_topics": [
+      "Чёткое различие между national Autorização de Residência Permanente и Estatuto de Residente de Longa Duração UE по статьям Lei 23/2007: national PMJ — arts. 76/80; EULTR — arts. 125.º e seguintes.",
+      "Для national permanent residence нужно 5 лет владения temporary residence permit; отдельно объяснить, что правила зачёта времени для гражданства не равны правилам PMJ.",
+      "Для EULTR нужно описать continuity of residence before application: обычные лимиты отсутствий 6 месяцев подряд / 10 месяцев суммарно за 5 лет, с исключениями.",
+      "Уточнить, что EU long-term resident mobility не распространяется как свобода передвижения граждан ЕС и не применяется к Дании/Ирландии.",
+      "Добавить конкретную официальную ссылку AIMA на procedure checklist и fee table с 01.03.2026.",
+      "Отдельно указать grounds for cancellation/loss for national PMJ: 24 месяца подряд или 30 месяцев суммарно за 3 года без уважительного основания.",
+      "Обновить блок гражданства: на апрель 2026 реформа nationality law approved 01.04.2026 ещё awaiting promulgation, поэтому нельзя подавать её сроки как действующие.",
+      "Пояснить, что permanent residence не является обязательным шагом для подачи на Portuguese nationality."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 7609,
+    "prompt_tokens": 3309,
+    "total_tokens": 10918
+  },
+  "model": "gpt-5.5"
+}

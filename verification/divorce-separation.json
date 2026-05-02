@@ -1,0 +1,224 @@
+{
+  "guideId": "divorce-separation",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide contains several material legal inaccuracies on mutual divorce with children, custody, foreign-law/recognition rules, immigration consequences, and multiple unsupported or misleading cost/procedure claims.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[0].content[0].items[4]",
+        "current": "💰 **Cost**: 280 € стандарт + 200 € если есть дети (acta CPCJ)",
+        "problem": "In a mutual-consent divorce with minor children, the parental responsibilities agreement is not approved by CPCJ. It is sent to the Ministério Público for review. CPCJ is a child-protection body and is not the normal approval authority in divorce. The extra €200 'acta CPCJ' fee is not a standard IRN divorce fee.",
+        "suggestion": "Write: “💰 **Cost**: €280 for divorce by mutual consent at the Conservatória. If there are minor children, the agreement on parental responsibilities is sent to the Ministério Público for an opinion; this normally adds time, not a CPCJ fee. Extra fees may apply for property sharing/registrations.”",
+        "confidence": "high",
+        "source": "IRN fee table; Código Civil arts. 1775-1776-A"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "**Если дети** — agreement идёт сначала на CPCJ для approval (3-4 недели)",
+        "problem": "Wrong authority. Agreements on parental responsibilities in mutual divorce are referred to the Ministério Público, not CPCJ, unless there is a separate child-protection risk process.",
+        "suggestion": "Replace with: “**Если есть несовершеннолетние дети** — соглашение о responsabilidades parentais направляется в Ministério Público; если MP считает, что интересы ребёнка не защищены, потребуется изменить соглашение или вопрос уйдёт в суд.”",
+        "confidence": "high",
+        "source": "Código Civil arts. 1775-1776-A; Regime Geral do Processo Tutelar Cível"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Divórcio por mútuo consentimento ... — в Conservatória, 1 день, 280 €",
+        "problem": "Misleading timing. A mutual divorce can be quick if documents are complete and there are no children/property complications, but with minor children it depends on the Ministério Público opinion and is not reliably “1 day”.",
+        "suggestion": "Write: “обычно быстро после готовности всех соглашений; без детей может быть оформлен на одной сессии, с детьми — после parecer do Ministério Público, что часто добавляет недели.”",
+        "confidence": "high",
+        "source": "IRN; Código Civil arts. 1775-1776-A"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[3]",
+        "current": "⏱️ **Длительность**: 1 day appointment + 30-дневный «cooling off» period",
+        "problem": "Portugal does not have a general mandatory 30-day cooling-off period for mutual-consent divorce at the Conservatória. This is likely imported from another jurisdiction or confused with scheduling/MP review time.",
+        "suggestion": "Remove the “30-дневный cooling off” statement. Use: “После подачи полного пакета Conservatória назначает conferência; если всё принято, развод регистрируется. С детьми нужно дождаться parecer do Ministério Público.”",
+        "confidence": "high",
+        "source": "Código Civil arts. 1775-1778-A; IRN"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[6]",
+        "current": "🗓️ **Online platform**: divorcio.pt (2022+) для simple cases с заполнением",
+        "problem": "divorcio.pt is not the official government platform. The official online channel is through Portuguese justice/registry services, notably Civil Online / justica.gov.pt. Calling divorcio.pt the online divorce platform is misleading and may direct users to a private service.",
+        "suggestion": "Write: “Онлайн-подача возможна через официальные сервисы justiça.gov.pt / Civil Online, если применимо; избегайте путать это с частными сайтами вроде divorcio.pt.”",
+        "confidence": "high",
+        "source": "IRN / justica.gov.pt / Civil Online"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "{ \"label\": \"Mutual divorce + дети\", \"amountEUR\": 480 }",
+        "problem": "The €480 figure appears to be €280 + a non-standard €200 CPCJ fee, but CPCJ is not the approval authority and there is no standard “mutual divorce + children = €480” IRN tariff.",
+        "suggestion": "Change to €280 as the base IRN fee, with a note: “with minor children, MP review is required; additional costs depend on lawyer drafting, property sharing, registrations or translations.”",
+        "confidence": "high",
+        "source": "IRN fee table; Código Civil arts. 1775-1776-A"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "**Guarda partilhada** (joint custody) — default since 2024 reforms; ребёнок living alternately в two households (часто по 1-2 нед)",
+        "problem": "There was no general 2024 reform making alternating residence the default. Portuguese law distinguishes joint exercise of parental responsibilities from alternating residence. Joint exercise of important parental responsibilities has been the general rule since earlier reforms, while alternating residence is possible when in the child’s best interests, not automatic/default.",
+        "suggestion": "Write: “По умолчанию обычно совместное осуществление responsabilidades parentais по важным вопросам. Место проживания может быть с одним родителем или alternada/residência alternada, если это отвечает интересам ребёнка; это не автоматический default.”",
+        "confidence": "high",
+        "source": "Código Civil art. 1906; Lei 65/2020"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[0]",
+        "current": "**Pensão de alimentos** — обязательна от non-custodian parent",
+        "problem": "Too simplistic. Child maintenance is based on the child’s needs and each parent’s means. In alternating residence or shared-care setups, there may still be payments, but it is not simply always “from the non-custodian parent”.",
+        "suggestion": "Write: “Pensão de alimentos определяется по потребностям ребёнка и возможностям каждого родителя; даже при residência alternada может быть компенсационный платёж, если доходы/расходы неравны.”",
+        "confidence": "high",
+        "source": "Código Civil arts. 1878, 1905, 1906"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "Сумма: court formula (income, child needs)",
+        "problem": "Portugal does not have a single statutory court formula for child maintenance comparable to a fixed calculator. Courts assess needs, parents’ means and standard of living case by case.",
+        "suggestion": "Replace with: “Нет единой statutory formula; суд/соглашение учитывает доходы родителей, потребности ребёнка, расходы на жильё/школу/здоровье и режим проживания.”",
+        "confidence": "high",
+        "source": "Código Civil arts. 2003-2004"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[6]",
+        "current": "💼 **Pension rights**: split за время marriage (с 2010)",
+        "problem": "Portugal does not generally split future state pension rights between spouses on divorce in the way this sentence suggests. There may be property sharing, compensatory claims or survivor-pension consequences, but “pension rights split since 2010” is misleading without a specific legal basis.",
+        "suggestion": "Remove or narrow: “Пенсионные накопления/частные pension products могут входить в имущество в зависимости от режима и условий продукта; государственные пенсионные права обычно не делятся как актив 50/50.”",
+        "confidence": "medium",
+        "source": "Código Civil property regimes; Segurança Social rules"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Для иностранцев — закон страны брака матт; PT суд делает по PT правилам если оба резиденты.",
+        "problem": "Incorrect conflict-of-law summary. The law of the country where the marriage was celebrated is not the default rule for divorce. In Portugal, EU Rome III rules may determine applicable law based on valid choice of law, habitual residence, nationality and forum criteria. Procedure/jurisdiction are separate from applicable substantive law.",
+        "suggestion": "Write: “Для международных пар нужно отдельно проверить jurisdiction и applicable law. В Португалии применяются EU rules, включая Rome III for applicable divorce law and Brussels II ter for jurisdiction/recognition внутри ЕС; место заключения брака само по себе не решает вопрос.”",
+        "confidence": "high",
+        "source": "Council Regulation (EU) No 1259/2010; Regulation (EU) 2019/1111"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "EU regulation 1259/2010 — choice law for divorce",
+        "problem": "Incomplete and potentially misleading: Regulation 1259/2010 covers applicable law for divorce/legal separation for participating Member States, not jurisdiction or recognition. Portugal is participating, but not every relevant country is. Jurisdiction/recognition within the EU is mainly Brussels II ter.",
+        "suggestion": "Expand to: “Reg. 1259/2010/Rome III governs applicable law in participating EU states; jurisdiction and EU recognition are governed mainly by Reg. 2019/1111 Brussels II ter. Non-EU recognition depends on each country’s law.”",
+        "confidence": "high",
+        "source": "Council Regulation (EU) No 1259/2010; Regulation (EU) 2019/1111"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[4]",
+        "current": "**Recognition в other countries**: PT divorce + apostille — recognized worldwide (Hague countries)",
+        "problem": "False. Apostille only certifies the origin/signature of a public document; it does not guarantee legal recognition of the divorce. Recognition rules differ by country. EU recognition is governed by EU instruments; outside the EU, local recognition/exequatur or registration may be required.",
+        "suggestion": "Write: “Apostille helps authenticate the Portuguese divorce certificate for Hague Apostille countries, but recognition is not automatic worldwide. Check the recognition/registration procedure in the country where you need to use the divorce.”",
+        "confidence": "high",
+        "source": "Hague Apostille Convention; Regulation (EU) 2019/1111"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[6]",
+        "current": "**Visa implications**: если ВНЖ зависел от партнёра — вы получаете autonomous permit (art. 107)",
+        "problem": "Too broad. A family-member residence permit does not always automatically become autonomous on divorce. Article 107 of Lei 23/2007 has conditions and exceptions, including duration and specific circumstances; EU-citizen family-member rules are also different.",
+        "suggestion": "Write: “Если ВНЖ был по reunificação familiar, срочно проверьте право на autorização de residência autónoma under Art. 107 Lei 23/2007. Оно зависит от условий; при domestic violence, death, divorce or custody situations may have exceptions. Do not assume automatic conversion.”",
+        "confidence": "high",
+        "source": "Lei 23/2007 art. 107"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[7]",
+        "current": "**Brazilian nationals**: under CPLP, often easier — могут use Embaixada services",
+        "problem": "Misleading and irrelevant. CPLP residence facilitation does not make divorce easier. Brazilian consular services may register or handle Brazilian civil-status formalities, but Portuguese divorce procedure is not simplified because someone is Brazilian/CPLP.",
+        "suggestion": "Replace with: “Brazilian citizens may need to transcribe/register the Portuguese divorce in Brazil via consulate/cartório rules; CPLP immigration status does not simplify the Portuguese divorce itself.”",
+        "confidence": "high",
+        "source": "Brazilian consular civil registry rules; Portuguese divorce law"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[6]",
+        "current": "🆘 **Apoio judiciário** (legal aid) если доход < 1.5 IAS",
+        "problem": "Portuguese legal aid is not a simple gross-income threshold of 1.5 IAS. It is assessed using household income, assets, expenses and a formula. Also, for 2026 IAS is €537.13, so any threshold should be updated and sourced if used.",
+        "suggestion": "Write: “Apoio judiciário is means-tested by Segurança Social using household income/assets and legal criteria; apply through Segurança Social and do not rely on a simple 1.5 IAS rule. IAS 2026 = €537.13.”",
+        "confidence": "high",
+        "source": "Lei 34/2004; Segurança Social; IAS 2026 = €537.13"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "Separação де Pessoas ... Сохраняет наследственные права, статус для immigration.",
+        "problem": "Overbroad and likely wrong. Judicial separation of persons and property has serious effects similar to divorce in many respects and does not safely “preserve inheritance rights”. It also should not be presented as preserving immigration status; immigration authorities may look at the real family relationship and the legal basis of the permit.",
+        "suggestion": "Write: “Separação de pessoas e bens does not dissolve the marriage but changes spouses’ rights/duties and property relations. Check succession and immigration consequences with a lawyer/AIMA before relying on it.”",
+        "confidence": "medium",
+        "source": "Código Civil rules on separação de pessoas e bens and succession; Lei 23/2007"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3].content[0].items[5]",
+        "current": "Alimony: starts on agreed date, paid via SS Direta or directly",
+        "problem": "Normal private child/spousal maintenance is usually paid directly by bank transfer or another agreed method. Segurança Social Direta is not the standard payment channel for ordinary alimony between private parties; it is relevant for some social-security interactions and funds.",
+        "suggestion": "Write: “Alimony should be paid by traceable method, ideally bank transfer with clear reference; SS Direta is not the normal channel for ordinary private maintenance payments.”",
+        "confidence": "high",
+        "source": "General Portuguese family-law practice; Segurança Social FGADM rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[2]",
+        "current": "Travel abroad: ОБА parents must agree (signed authorization для emigração / passport)",
+        "problem": "Too absolute. Rules differ depending on whether the child is travelling with one parent, with a third party, residence arrangements, nationality, passport issuance and border requirements. For Portuguese minors, travel authorisation rules are specific and not simply “both parents always”.",
+        "suggestion": "Write: “Для поездок ребёнка за границу проверяйте конкретные rules: паспорт/ID issuance, travel authorisation for minors and the court-approved parental agreement. If the child travels without one parent, written authorisation may be required depending on custody/residence setup.”",
+        "confidence": "medium",
+        "source": "Portuguese border/minor travel authorisation rules; Código Civil art. 1906"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "⚠️ **Mediation**: до courts мandатory mediation в некоторых case (Casa de Mediação) — 100-300 €, иногда сэкономит много",
+        "problem": "Family mediation is generally voluntary; it can be encouraged or referred, but describing pre-court mediation as mandatory in some divorce cases and giving €100-300 as “Casa de Mediação” cost is unsupported and likely inaccurate. Public family mediation fees are not presented this way.",
+        "suggestion": "Write: “Family mediation can be useful and may be suggested/referred, but it is not a general mandatory precondition to divorce. Check the Sistema de Mediação Familiar / DGPJ current fee table.”",
+        "confidence": "medium",
+        "source": "DGPJ Sistema de Mediação Familiar"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "{ \"title\": \"IRN — Divórcio\", \"url\": \"https://irn.justica.gov.pt/\" }",
+        "problem": "The URL is only the IRN homepage, not a specific divorce procedure or fee source. For a legal/cost guide, this is too vague and makes verification hard.",
+        "suggestion": "Use the specific IRN/justica.gov.pt page for “Divórcio e separação de pessoas e bens por mútuo consentimento” and the current IRN emolumentos/fee table.",
+        "confidence": "high",
+        "source": "IRN / justica.gov.pt"
+      },
+      {
+        "severity": "major",
+        "where": "sources[3]",
+        "current": "{ \"title\": \"CPCJ — Comissão de Protecção de Crianças\", \"url\": \"https://www.cnpdpcj.gov.pt/\" }",
+        "problem": "This source is used to support a process role CPCJ does not normally have in divorce. The needed source is Ministério Público / family court / Código Civil parental-responsibilities review, not CPCJ.",
+        "suggestion": "Remove CPCJ as the authority for approving divorce child agreements; cite Código Civil arts. 1775-1776-A and an official Ministério Público / IRN explanation instead.",
+        "confidence": "high",
+        "source": "Código Civil arts. 1775-1776-A; IRN"
+      }
+    ],
+    "missing_topics": [
+      "Official Ministério Público review process for parental-responsibility agreements in mutual divorce with minor children",
+      "Difference between parental responsibilities, residence of the child, and alternating residence",
+      "EU Brussels II ter jurisdiction/recognition rules and non-EU recognition caveat",
+      "Translations, apostille/legalisation and registration/transcription of foreign marriage/divorce certificates",
+      "Current official IRN fee table and distinction between divorce fee, property sharing, registrations and lawyer costs",
+      "Legal aid application through Segurança Social and means-test caveat",
+      "Domestic violence / urgent protective measures and their effect on residence permits, housing and parental responsibilities",
+      "Tax consequences of divorce year: IRS household status, dependants, deductions and property-transfer taxes"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5593,
+    "prompt_tokens": 3630,
+    "total_tokens": 9223
+  },
+  "model": "gpt-5.5"
+}

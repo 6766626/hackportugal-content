@@ -1,0 +1,205 @@
+{
+  "guideId": "rent-a-car",
+  "categoryId": "auto_trips",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен как практический чек-лист, но содержит несколько существенных неточностей по правам non-EU/резидентов, Via Verde/электронным tolls, штрафам и страховкам карт, а также устаревшие/сомнительные сервисы car-sharing.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Budget: Sixt, Goldcar, Centauro — дешёвые, но много hidden fees.",
+        "problem": "Sixt обычно не относится к budget-сегменту в Португалии и сам же ниже в гайде указан как premium international. Это внутренняя противоречивость и вводит в заблуждение.",
+        "suggestion": "Заменить на: \"Budget/low-cost: Goldcar, Centauro, OK Mobility, Firefly/InterRent — дешевле, но внимательно читайте условия по депозиту, страховке, топливу и доплатам. Sixt скорее относится к international/premium-сегменту.\"",
+        "confidence": "high",
+        "source": "Собственная классификация компаний в guide.steps[0].content[0].items[0]"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Via Verde обычно включено, платные дороги — выборочно.",
+        "problem": "Формулировка misleading: в rent-a-car часто есть транспондер/устройство Via Verde или аналог, но его использование обычно является платной опцией с daily service fee + фактические tolls. Это не то же самое, что \"включено\". Кроме того, часть дорог в Португалии имеет только электронную оплату, и без устройства/правильной схемы оплаты можно получить дополнительные сборы.",
+        "suggestion": "Написать: \"Уточняйте электронный toll device/Via Verde: устройство часто есть в машине, но активация обычно платная — daily fee + tolls. Для электронных toll roads лучше подключить устройство у rental company заранее.\"",
+        "confidence": "high",
+        "source": "Via Verde / PortugalTolls; условия rent-a-car компаний"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0]",
+        "current": "🆔 **Права**: действительные в EU (любой EU license), или international driving permit + domestic для non-EU",
+        "problem": "Слишком грубо и потенциально неверно для резидентов. Для туристов non-EU правила зависят от страны выдачи, конвенций и языка документа; IDP не заменяет национальные права. Для резидентов Португалии отдельный вопрос: иностранные non-EU права нельзя использовать бессрочно, а обмен/признание зависит от страны. Для российских прав особенно важно уточнить, что после резидентства могут потребоваться португальские права/процедура через IMT, а rental company может сдать авто даже если с точки зрения дорожного закона есть риск.",
+        "suggestion": "Разделить на туристов и резидентов: \"Туристы: EU/EEA licence принимается; non-EU — национальные права +, если требуется/рекомендуется, IDP, особенно если права не на латинице/непонятны rental company. IDP сам по себе не действует без domestic licence. Резиденты PT: проверьте в IMT, можно ли использовать/обменять ваши права и в какие сроки; правила отличаются по стране выдачи.\"",
+        "confidence": "high",
+        "source": "IMT — Conduzir em Portugal com carta estrangeira / Troca de carta estrangeira"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[2]",
+        "current": "Via Verde неоплата = fine ×25 стоимости → rental пересылает вам с fee",
+        "problem": "Неверная и чрезмерно упрощённая формула. Штрафы за неоплату tolls в Португалии не являются универсально \"×25 стоимости\"; с 2024 действуют сниженные/ограниченные штрафы, зависящие от суммы toll и установленных минимумов/максимумов. Rental company также обычно добавляет admin fee, но это отдельная договорная комиссия.",
+        "suggestion": "Заменить на: \"Неоплата tolls = сам toll + административные расходы rental company + возможный штраф по португальским правилам; размер не считается как фиксированные ×25. Проверяйте электронные tolls/Via Verde до выезда.\"",
+        "confidence": "high",
+        "source": "Lei n.º 27/2023; Autoridade Tributária / PortugalTolls"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[4]",
+        "current": "Appeal только через rental company (они передают authorities)",
+        "problem": "Слишком категорично. На практике rental company часто сначала идентифицирует водителя и/или списывает admin fee, но после официального уведомления водитель может платить или оспаривать штраф напрямую перед компетентным органом в установленные сроки. Не всегда appeal идёт \"только через rental company\".",
+        "suggestion": "Написать: \"Rental company обычно передаёт данные водителя и берёт admin fee. Если приходит официальное уведомление, сроки оплаты/оспаривания и адресат указаны в нём; traffic fines обычно оспариваются перед компетентным органом, а не через rental company.\"",
+        "confidence": "high",
+        "source": "ANSR — contraordenações rodoviárias; Código da Estrada"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1].content[0].items[0]",
+        "current": "**American Express Gold/Platinum**: включает CDW бесплатно",
+        "problem": "Опасное обобщение. Покрытие car rental/CDW у Amex зависит от страны выпуска карты, конкретного продукта, enrolment, лимитов, исключений по странам/типам авто/длительности аренды. У многих европейских карт это может быть не CDW, а excess reimbursement или вообще отсутствовать.",
+        "suggestion": "Заменить на: \"Некоторые Amex Gold/Platinum и premium Visa/Mastercard включают car rental cover, но условия зависят от страны выпуска и конкретной карты. До аренды проверьте policy wording: покрывается ли Portugal, excess, tyres/glass, theft, liability, срок аренды и тип авто.\"",
+        "confidence": "high",
+        "source": "Policy wording конкретного эмитента карты"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1].content[0].items[1]",
+        "current": "**Revolut Premium / Metal**: rental car insurance включена",
+        "problem": "Слишком широкое утверждение. У Revolut страховые бенефиты зависят от страны клиента, плана, даты подключения и страховщика; часто речь идёт не о полной rental insurance/CDW, а о car hire excess reimbursement с лимитами и исключениями.",
+        "suggestion": "Написать: \"У Revolut Premium/Metal/Ultra страхование аренды авто зависит от страны аккаунта и актуальных Terms & Conditions; обычно нужно читать раздел car hire excess / travel insurance и не считать это заменой ответственности перед rental company.\"",
+        "confidence": "high",
+        "source": "Revolut Insurance Terms & Conditions по стране клиента"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[0]",
+        "current": "**Drivy / Getaround** — P2P аренда у физлиц, 20-60 €/день",
+        "problem": "Drivy — устаревшее название, бренд был поглощён/переименован в Getaround. Кроме того, наличие полноценной P2P-аренды Getaround именно в Португалии сомнительно; сервис работает не во всех странах Европы. Для гайда по Португалии это может отправлять читателя к неработающему варианту.",
+        "suggestion": "Проверить доступность Getaround в Португалии на дату публикации. Если сервиса нет, удалить пункт или написать: \"P2P car rental в Португалии ограничен; проверяйте актуальные локальные платформы, Getaround/Drivy не следует считать надёжным вариантом для PT.\"",
+        "confidence": "medium",
+        "source": "Getaround official country availability"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[1]",
+        "current": "**Miles** — car-sharing по минутам в Лиссабоне / Порту (для коротких)",
+        "problem": "Похоже на неверный сервис для Португалии. MILES известен как car-sharing оператор в Германии/Бельгии, но не как стандартный оператор в Лиссабоне/Порту. Читатель может искать несуществующий сервис.",
+        "suggestion": "Проверить актуальных операторов car-sharing в Lisbon/Porto. Если MILES не работает в PT, удалить и заменить на реально доступные варианты на 2026 год либо написать более нейтрально: \"car-sharing в PT меняется; проверяйте Bolt Drive/Free2move/локальные сервисы по городу\" только если они реально доступны.",
+        "confidence": "medium",
+        "source": "MILES official service areas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[2]",
+        "current": "**Muving** — mopeds / скутеры в центре",
+        "problem": "Вероятно устарело для Португалии. Muving как бренд shared scooters в Португалии не выглядит актуальным массовым вариантом на 2026 год; рынок микромобильности часто менялся, многие операторы ушли или сменились.",
+        "suggestion": "Проверить, работает ли Muving в Лиссабоне/Порту в 2026. Если нет — удалить или заменить на актуальные e-scooter/moped сервисы с caveat: \"операторы меняются, проверяйте приложение перед поездкой\".",
+        "confidence": "medium",
+        "source": "Muving official service areas / municipal mobility pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[3]",
+        "current": "**TURO** — не работает в PT (только EU-residents в некоторых странах)",
+        "problem": "Главная мысль про отсутствие Turo в Португалии может быть верной, но пояснение \"только EU-residents в некоторых странах\" выглядит неточным: Turo работает в ограниченном списке стран/рынков, и eligibility определяется не просто EU-residency.",
+        "suggestion": "Написать проще: \"Turo в Португалии не работает; доступность зависит от страны, где запущен сервис, и условий аккаунта.\"",
+        "confidence": "medium",
+        "source": "Turo official country availability"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Базовая страховка всегда включена, но имеет высокий excess (до 1500 €).",
+        "problem": "\"Всегда\" и \"до 1500\" неточны. Обязательной является гражданская ответственность перед третьими лицами; CDW/TP обычно включены в европейские rental rates, но условия зависят от тарифа/брокера. Excess в Португалии может быть выше 1500 €, особенно для SUV, premium, vans или low-cost тарифов.",
+        "suggestion": "Написать: \"Обязательная third-party liability включена по закону. CDW/TP обычно включены в тариф, но проверяйте voucher/contract. Excess часто 900–2500+ €, для premium/SUV может быть выше.\"",
+        "confidence": "high",
+        "source": "ASF / Decreto-Lei n.º 291/2007; условия rent-a-car компаний"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[0].content[0].items[5]",
+        "current": "**Glass & Tyres** (SEguro janelas e pneus): часто отдельно, 2-5 €/день",
+        "problem": "Опечатка и неверный португальский термин: \"SEguro\"; также по-португальски чаще \"vidros e pneus\", а не \"janelas e pneus\".",
+        "suggestion": "Исправить на: \"**Glass & Tyres** (seguro/cobertura de vidros e pneus): часто отдельно\".",
+        "confidence": "high",
+        "source": "Стандартная терминология rent-a-car PT"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3]",
+        "current": "🔑 **Документы**: registo, страховка, IPO — в бардачке",
+        "problem": "Не у всех rental cars должен быть действующий IPO-документ в бардачке: обязанность техосмотра зависит от возраста/категории авто, а документы могут быть цифровыми или храниться в другом формате. Формулировка создаёт ложное ожидание.",
+        "suggestion": "Написать: \"Проверьте, что в машине есть документы/копии, которые rental company обязана предоставить: регистрация/DUA, подтверждение страховки и, если применимо, IPO.\"",
+        "confidence": "medium",
+        "source": "IMT — inspeções periódicas obrigatórias"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4]",
+        "current": "📋 **Спросить**: работает ли кондиционер, стоп-кран, Bluetooth, GPS",
+        "problem": "\"стоп-кран\" — неуместный термин для автомобиля; вероятно имелся в виду ручник/аварийка/тормоза. Это не юридическая ошибка, но выглядит как машинный перевод и сбивает с толку.",
+        "suggestion": "Заменить на: \"кондиционер, ручник/тормоза, аварийка, Bluetooth, GPS\".",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[7]",
+        "current": "🛣️ **Via Verde** — узнать включен ли. Если нет — take alternate roads или платите сами после поездки",
+        "problem": "\"Платите сами после поездки\" не всегда практически работает для rental cars и электронных toll roads. На дорогах с exclusively electronic tolls оплата может быть привязана к владельцу автомобиля/rental company; если транспондер не активирован, счета и комиссии могут прийти через rental company.",
+        "suggestion": "Написать: \"Если планируете motorways/electronic tolls, лучше активировать toll device у rental company и уточнить daily fee. Без устройства не рассчитывайте, что всегда сможете легко оплатить после поездки самостоятельно; счета могут уйти владельцу авто и прийти к вам с admin fee.\"",
+        "confidence": "high",
+        "source": "PortugalTolls; Via Verde; условия rental companies"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "full-to-full policy — дешевле чем их cena за заправку",
+        "problem": "Смешение русского/португальского/английского: \"их cena\" выглядит как опечатка/неудачная вставка. Фактически смысл понятен, но текст выглядит непрофессионально.",
+        "suggestion": "Заменить на: \"дешевле, чем их тариф за дозаправку/service fee\".",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[7]",
+        "current": "💳 **Deposit release**: 1-14 дней назад на карту",
+        "problem": "Срок может быть дольше из-за банка/типа авторизации, особенно при debit cards, foreign cards или если ждут tolls/fines. \"1–14 дней\" как гарантия слишком оптимистично.",
+        "suggestion": "Написать: \"Обычно hold снимается за несколько дней, но может занять 1–30 дней в зависимости от банка и условий; tolls/fines/admin fees могут списать позже отдельно.\"",
+        "confidence": "medium",
+        "source": "Условия банковских card authorisations и rental companies"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[5]",
+        "current": "🌍 **Cross-border** (в Испанию, Францию) — уточнить, не все разрешают. Surcharge 20-50 €",
+        "problem": "Сумма 20–50 € может быть сильно занижена: cross-border fee часто берётся за rental или за день, может превышать 50 €, а выезд за пределы Iberia/в островные/паромные маршруты может быть запрещён. Нужен caveat.",
+        "suggestion": "Написать: \"Cross-border в Испанию/другие страны только с письменным разрешением rental company; fee может быть от десятков евро до 100+ €, а некоторые страны/паромы запрещены.\"",
+        "confidence": "high",
+        "source": "Условия Hertz/Europcar/Avis/Sixt/Goldcar PT"
+      },
+      {
+        "severity": "major",
+        "where": "sources[2]",
+        "current": "{\"title\":\"DECO PROteste — оценки rental companies\",\"url\":\"https://www.deco.proteste.pt/\",\"kind\":\"official\"}",
+        "problem": "DECO PROteste не является official/government source; это потребительская организация/издание. Для гайда с юридическими аспектами прав, страховки, tolls и штрафов нужны официальные источники. Поле kind:\"official\" неверно.",
+        "suggestion": "Изменить kind на \"consumer\" или \"media/association\". Добавить официальные источники: IMT для driving licences/IPO, ASF для обязательной автостраховки, ANSR/Código da Estrada для штрафов, PortugalTolls/Via Verde для tolls.",
+        "confidence": "high",
+        "source": "DECO PROteste; IMT; ASF; ANSR; PortugalTolls"
+      }
+    ],
+    "missing_topics": [
+      "Отдельный блок для резидентов Португалии с non-EU правами: сколько можно ездить, когда нужен обмен/португальские права, где проверять в IMT.",
+      "Официальное объяснение electronic tolls: Via Verde/toll device, daily service fee, electronic-only motorways, что происходит с tolls после аренды.",
+      "Разница между обязательной third-party liability, CDW/TP, SCDW/zero excess и сторонней excess reimbursement insurance.",
+      "Что external insurance/credit-card cover обычно не отменяет депозит и обязанность сначала заплатить rental company excess.",
+      "Ограничения аренды на островах: Madeira/Azores, запреты на off-road/levadas/dirt roads, steep roads и требования к категории авто.",
+      "Политика выезда за границу: только письменное разрешение rental company, ограничения по странам и паромам.",
+      "Официальные источники: IMT, ASF, ANSR/Código da Estrada, PortugalTolls/Via Verde вместо одних агрегаторов."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5861,
+    "prompt_tokens": 3654,
+    "total_tokens": 9515
+  },
+  "model": "gpt-5.5"
+}

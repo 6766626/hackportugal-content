@@ -1,0 +1,181 @@
+{
+  "guideId": "domestic-violence",
+  "categoryId": "emergency_rights",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful in spirit, but contains several potentially dangerous inaccuracies about emergency lines, police/court powers, medical evidence, shelters, legal aid, children, and aggressor-support contacts.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[1]",
+        "current": "☎️ **800 202 148** — Linha Nacional de Emergência Social (бесплатно, 24/7, анонимно, EN/RU/UK иногда)",
+        "problem": "800 202 148 is not the Linha Nacional de Emergência Social. It is the national domestic-violence victim information/support line run under CIG. The emergency social line is 144. The claim about RU/UK availability is not reliably official.",
+        "suggestion": "Write: “☎️ **800 202 148** — Serviço de Informação às Vítimas de Violência Doméstica / Linha de apoio a vítimas de violência doméstica, бесплатно, 24/7. Для emergência social/sem-abrigo/urgent social support также существует **144**.” Avoid promising Russian/Ukrainian unless you cite a current official interpreter-service source.",
+        "confidence": "high",
+        "source": "CIG; Segurança Social Linha Nacional de Emergência Social 144"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[6].content[1].items[0]",
+        "current": "**Linha SOS Agressor: 808 24 24 24**",
+        "problem": "808 24 24 24 is SNS 24, not a dedicated “SOS Agressor” domestic-violence aggressor line. This could send people to the wrong service.",
+        "suggestion": "Remove this item or replace with verified programmes: “Para pessoas agressoras: programas como **PAVD — Programa para Agressores de Violência Doméstica** are normally via DGRSP/court/probation; for immediate mental-health crisis call SNS 24 **808 24 24 24** or 112 if there is imminent danger.”",
+        "confidence": "high",
+        "source": "SNS 24; DGRSP PAVD"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0]",
+        "current": "☎️ **112** — если непосредственная угроза. Полиция приедет, заберёт виновника (medida de coação)",
+        "problem": "Police do not automatically “take away the aggressor” as a medida de coação. Medidas de coação are imposed by judicial authority/prosecutor/judge under criminal procedure. Police can intervene, detain in flagrante delicto or in legally defined urgent cases, and trigger protection measures, but the wording is too categorical.",
+        "suggestion": "Write: “112 — при непосредственной угрозе. Полиция вмешается, может задержать при flagrante delicto/urgent legal grounds and will report to Ministério Público; court/prosecutor can then impose measures such as no-contact, removal from home, electronic monitoring.”",
+        "confidence": "high",
+        "source": "Código de Processo Penal; Lei 112/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4]",
+        "current": "🏥 **Госпитальная urgência** — медицинский осмотр + medical-legal report (обязательно для уголовного дела).",
+        "problem": "A medical/legal report is not “mandatory” for a criminal domestic-violence case. Domestic violence is a public crime and can be investigated based on complaint, police report, witness statements, photos, messages, clinical records, etc. Forensic examination may be requested, but lack of hospital exam does not block a case.",
+        "suggestion": "Write: “Hospital urgência — если есть травмы, боль, sexual violence, pregnancy risk, panic crisis etc. Ask the doctor to record injuries and context. A forensic exam by INMLCF may be requested later; medical evidence helps but is not mandatory to file a complaint.”",
+        "confidence": "high",
+        "source": "Lei 112/2009; Código Penal art. 152; INMLCF"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2]",
+        "current": "🏠 **Casa-abrigo**: secret-address shelter, бесплатно, до 1 года. Включает еду, юриста, психолога. Транспорт обеспечивает APAV / Cruz Vermelha",
+        "problem": "Too absolute. Shelter stay duration is not simply “up to 1 year”; in practice it is temporary and commonly framed around 6 months, extendable depending on assessment/regulation. Transport is not guaranteed specifically by APAV/Cruz Vermelha in every case. Shelter placement is through the national support network, CIG/ISS/NGOs/police referral, not only APAV.",
+        "suggestion": "Write: “Casa-abrigo — confidential temporary shelter through RNAVVD/CIG/ISS/NGO referral; free for victims, with food/basic support and social/psychological/legal support. Duration is assessed case by case, often initial temporary placement with possible extension. Transport/logistics are coordinated by the support network/police/social services, not guaranteed by one named NGO.”",
+        "confidence": "high",
+        "source": "Lei 112/2009; RNAVVD/CIG"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[3]",
+        "current": "Stay 6-12 мес, в это время помощь с работой / документами / детьми",
+        "problem": "This contradicts the earlier “до 1 года” wording and still overstates a fixed duration. Shelter duration is case-managed and depends on availability, safety plan, technical assessment and regulatory limits/extensions.",
+        "suggestion": "Use consistent wording: “temporary stay, duration decided case by case; ask the referring service about the current limit and extension rules.”",
+        "confidence": "high",
+        "source": "Lei 112/2009; RNAVVD/CIG"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[3]",
+        "current": "👨‍👩‍👧 **Дети**: остаются с родителем-жертвой; временное custody решается в суде. Школа уведомляется, не сообщает адрес",
+        "problem": "Children do not automatically “stay with the victim parent” in all cases. Courts/CPCJ decide based on the child’s best interests, risk assessment and parental responsibilities. School confidentiality is important, but cannot be described as automatic without a court/protection measure or formal instruction.",
+        "suggestion": "Write: “Если есть дети, immediately tell police/APAV/social services. Temporary residence/parental responsibilities/contact with the aggressor are decided by family court/CPCJ according to child safety. Ask for written safety/confidentiality measures for school/kindergarten.”",
+        "confidence": "high",
+        "source": "Regime Geral do Processo Tutelar Cível; Lei de Proteção de Crianças e Jovens em Perigo"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[0]",
+        "current": "**CPCJ** (Comissão de Protecção de Crianças e Jovens): местная комиссия защиты детей — каждый municipio. Может временно изъять / защитить ребёнка",
+        "problem": "CPCJ powers are oversimplified. CPCJ measures normally require consent of parents/guardian and the child if aged 12+, except urgent danger situations involving police/judicial mechanisms. “Can remove the child” is too broad and may scare victims.",
+        "suggestion": "Write: “CPCJ assesses risk and can apply protection measures, usually with parental consent; in urgent/imminent danger police/court can intervene immediately. Contact CPCJ/APAV/police if children witnessed or suffered violence.”",
+        "confidence": "high",
+        "source": "Lei de Proteção de Crianças e Jovens em Perigo"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[1]",
+        "current": "**Apoio judiciário** (legal aid): бесплатно если доход < 1.5 IAS — через Segurança Social",
+        "problem": "Portuguese legal aid is not based on a simple “income < 1.5 IAS” rule. It uses a means test considering household income, assets, expenses and formulae. The guide gives a misleading threshold; for 2026 IAS is €537.13, but that alone is not the eligibility rule.",
+        "suggestion": "Write: “Apoio judiciário — apply through Segurança Social; eligibility is means-tested based on household income/assets/expenses, not a simple fixed threshold. Victim-support services can help fill the application.”",
+        "confidence": "high",
+        "source": "Lei 34/2004; Segurança Social apoio judiciário; IAS 2026 = €537.13"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[2]",
+        "current": "**Ordem dos Advogados** — pro-bono attorney для victims",
+        "problem": "Misleading. Ordem dos Advogados appoints lawyers mainly under the legal-aid system after Segurança Social approval or under procedural appointment rules; it is not a general free pro-bono attorney service for all victims.",
+        "suggestion": "Write: “If apoio judiciário is approved, Ordem dos Advogados appoints a lawyer. APAV/NGOs can provide legal information and help request legal aid, but representation is not automatically free for every victim outside the legal-aid rules.”",
+        "confidence": "high",
+        "source": "Lei 34/2004; Ordem dos Advogados/Sistema de Acesso ao Direito"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "\"State indemnização (advance)\", amountEUR: 0, note: \"до 6 IAS\"",
+        "problem": "The “up to 6 IAS” statement is likely wrong/over-simplified for advance compensation to domestic-violence victims. Lei 104/2009 has specific criteria, monthly/temporary advance rules and assessment by Comissão de Proteção às Vítimas de Crimes; it is not just a flat free benefit capped at 6 IAS.",
+        "suggestion": "Write: “Adiantamento da indemnização pelo Estado: possible for victims of violent crime/domestic violence under Lei 104/2009, subject to application, economic hardship/damage criteria and CPVC decision; amount and duration are assessed case by case. Do not present it as guaranteed or simply ‘up to 6 IAS’.”",
+        "confidence": "medium",
+        "source": "Lei 104/2009; Comissão de Proteção às Vítimas de Crimes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[1].items[1]",
+        "current": "**Plataforma Pares — para agresseros**: ngogether.pt",
+        "problem": "This reference is unclear and likely unreliable: the spelling “agresseros” is wrong, the URL is not presented as an official Portuguese public-service source, and it is not clearly a recognised domestic-violence aggressor intervention channel.",
+        "suggestion": "Remove unless verified. Replace with official/court-linked references such as DGRSP PAVD or local municipality/NGO programmes for perpetrators, with official URLs.",
+        "confidence": "medium",
+        "source": "DGRSP PAVD"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[5]",
+        "current": "💊 **Hospital de São José, Júlio de Matos** в Лисcabe / **Hospital de São João** в Порту имеют GAV (Gabinete de Apoio à Vítima)",
+        "problem": "The sentence has a typo (“Лисcabe”) and the claim that these hospitals have GAV should be sourced. GAV commonly refers to APAV victim-support offices/gabinetes and specialised victim-support structures, not something that can be safely listed for hospitals without current verification.",
+        "suggestion": "Either cite current hospital/APAV pages for each unit or generalise: “Some hospitals and local services have specialised victim-support teams; ask urgência/social worker or call 800 202 148/APAV for the nearest GAV.”",
+        "confidence": "medium",
+        "source": "APAV GAV network; hospital websites if retained"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].items[3]",
+        "current": "**Comissão de Cidadania para a Igualdade** (CIG): государственная комиссия, координирует support",
+        "problem": "The name is wrong/incomplete.",
+        "suggestion": "Write: “**CIG — Comissão para a Cidadania e a Igualdade de Género**.”",
+        "confidence": "high",
+        "source": "CIG"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[1]",
+        "current": "🛡️ **Medidas de coação**: ограничение приближения, удаление из общего жилья, conдa proibição вооружения, мониторинг электронным браслетом",
+        "problem": "There is a corrupted/unclear phrase “conдa proibição вооружения”. Also some items may be injunction/protection measures rather than all strictly labelled medidas de coação in everyday explanation.",
+        "suggestion": "Write: “Medidas de coação/proteção may include no-contact/no-approach, removal from the shared home, prohibition on possessing weapons, and electronic monitoring.”",
+        "confidence": "high",
+        "source": "Lei 112/2009; Código de Processo Penal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "🇷🇺 **RU**: APAV в Лиссабоне имеет RU-speaker; SOS Voz Amiga 213 544 545 — иногда",
+        "problem": "A named Russian-speaking APAV staff member/service in Lisbon is not safe to promise without current source. SOS Voz Amiga is an emotional-support line, not a specialised domestic-violence or interpretation service, and “sometimes” is not actionable.",
+        "suggestion": "Write: “For Russian/Ukrainian, ask 800 202 148/APAV whether interpretation is available; do not rely on a guaranteed RU-speaker unless confirmed at the time. SOS Voz Amiga is emotional support, not a substitute for police/APAV/CIG in domestic violence.”",
+        "confidence": "medium",
+        "source": "APAV; CIG; SOS Voz Amiga"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include APAV, CIG, Lei 112/2009, UMAR only.",
+        "problem": "For a guide giving legal/medical/child-protection/immigration/legal-aid/compensation advice, the source list is too thin. It lacks primary sources for Código Penal art. 152, Lei 23/2007 art. 107, Lei 104/2009, Segurança Social legal aid, CPCJ/LPCJP, INMLCF/forensic evidence, and DGRSP if aggressor programmes are retained.",
+        "suggestion": "Add official/law sources for each sensitive claim: Código Penal art. 152, Lei 23/2007 art. 107, Lei 104/2009/CPVC, Segurança Social apoio judiciário, CPCJ/LPCJP, INMLCF, DGRSP PAVD, SNS 24.",
+        "confidence": "high",
+        "source": "Diário da República; Segurança Social; CPVC; INMLCF; DGRSP; SNS 24"
+      }
+    ],
+    "missing_topics": [
+      "Official emergency-social number 144 should be distinguished from domestic-violence line 800 202 148.",
+      "Victim status/statute: Estatuto de Vítima and special status for especially vulnerable victims, including rights during criminal proceedings.",
+      "How to file a complaint: PSP/GNR, Ministério Público/DIAP, online complaint limits, and that domestic violence is a public crime.",
+      "Forensic evidence route: INMLCF exam, preserving photos/messages/audio where lawful, medical records, witnesses.",
+      "Sexual violence caveat: urgent medical care, STI prophylaxis, emergency contraception, forensic evidence timing.",
+      "Teleassistance/electronic protection measures for high-risk victims.",
+      "Immigration caveat: autonomous residence under Lei 23/2007 art. 107 is not automatic; keep police reports/victim status and seek AIMA/legal help.",
+      "Data/privacy safety: disable location sharing, AirTags/trackers, shared banking/mobile plans, social media geotags.",
+      "Legal aid source and means-test explanation through Segurança Social.",
+      "Compensation advance procedure via Comissão de Proteção às Vítimas de Crimes, with eligibility and non-guarantee caveat."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5197,
+    "prompt_tokens": 3321,
+    "total_tokens": 8518
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,207 @@
+{
+  "guideId": "rental-contract",
+  "categoryId": "housing_rent",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но содержит несколько юридически значимых неточностей по срокам договора, выселению, caução/гарантиям, возврату депозита, регистрации договора и органам для споров.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Минимальный срок — 1 год, если не оговорено.",
+        "problem": "Смешаны два разных правила. Для договора с определённым сроком действительно действует минимум 1 год, но если срок в договоре не указан, договор не становится «на 1 год»: по Código Civil он считается заключённым на 5 лет. Также есть исключение для договоров с временной целью, где срок может быть меньше 1 года.",
+        "suggestion": "Написать: «Для contratos com prazo certo минимальный срок обычно 1 год и максимум 30 лет; если срок не указан, договор считается заключённым на 5 лет. Исключение: contratos para habitação não permanente ou para fins especiais transitórios могут быть короче 1 года, если временная цель прямо указана в договоре.»",
+        "confidence": "high",
+        "source": "Código Civil, arts. 1094 и 1095"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "отменён CAE (принудительная аренда пустых квартир)",
+        "problem": "«CAE» — это обычно Código de Atividade Económica, а не принудительная аренда. Для мер Mais Habitação корректнее говорить об arrendamento coercivo/arrendamento forçado de imóveis devolutos. Формулировка может ввести читателя в заблуждение.",
+        "suggestion": "Заменить на: «отменены/изменены меры об arrendamento coercivo de imóveis devolutos (принудительная аренда пустующих объектов)» — без аббревиатуры CAE.",
+        "confidence": "high",
+        "source": "Decreto-Lei 81/2024"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "reformado IRS с арендного дохода",
+        "problem": "Слишком расплывчато и потенциально вводит в заблуждение: Decreto-Lei 81/2024 прежде всего изменял/отменял отдельные меры Mais Habitação, связанные с AL и arrendamento coercivo. Налоговые ставки IRS по arrendamento имеют отдельные правила и изменения, зависящие от срока договора; это нельзя описывать одной фразой без деталей.",
+        "suggestion": "Либо убрать фразу, либо уточнить отдельно: «Налог на доходы от аренды у владельца зависит от срока договора и применимых правил CIRS; для арендатора важно требовать recibos de renda для возможного IRS deduction.»",
+        "confidence": "medium",
+        "source": "Código do IRS; Decreto-Lei 81/2024"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[0]",
+        "current": "Требуется структурировать как seguro de fiança, depósito de garantia или иную гарантию",
+        "problem": "Фраза про «depósito de garantia» опасна: если это денежный депозит, обеспечивающий обязательства арендатора, его могут квалифицировать как caução, а caução ограничена 2 месячными рентами. Простое переименование extra cash в «depósito de garantia» не делает сумму законной.",
+        "suggestion": "Написать: «Избыток сверх 2 месяцев не стоит оформлять как дополнительный денежный depósito/caução. Обсуждаемые легальные альтернативы — seguro de fiança, garantia bancária, fiador или иная независимая гарантия; структуру лучше проверить с advogado/solicitador.»",
+        "confidence": "high",
+        "source": "Código Civil, art. 1076"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[2]",
+        "current": "Защита от выселения — только по решению суда, исключая case недо-платы 2+ мес или grave нарушения",
+        "problem": "Формулировка создаёт впечатление, что при задолженности 2+ месяца или серьёзном нарушении арендодатель может выселить без формальной процедуры. Это неверно: landlord не вправе самовольно менять замки или физически выселять жильца; расторжение и освобождение жилья идут через предусмотренную законом процедуру, включая Balcão do Arrendatário e do Senhorio/tribunal, в зависимости от случая.",
+        "suggestion": "Написать: «Самовольное выселение незаконно. Даже при задолженности 2+ месяца или серьёзном нарушении арендодатель должен расторгнуть договор и использовать предусмотренную законом процедуру despejo/BAS/tribunal; нельзя просто менять замки или выносить вещи.»",
+        "confidence": "high",
+        "source": "Código Civil, arts. 1083–1084; Balcão do Arrendatário e do Senhorio"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[4]",
+        "current": "Возврат caução в течение 30 дней после окончания договора",
+        "problem": "В общем режиме arrendamento нет универсального законного срока «30 дней» для возврата caução. Такой срок может быть прописан в договоре, но как общее право арендатора это неточно.",
+        "suggestion": "Написать: «Срок возврата caução лучше прямо указать в договоре, например 15–30 дней после entrega das chaves и проверки состояния жилья. Если срок не указан, caução должна быть возвращена после окончания договора и зачёта доказанного ущерба/долгов, но конкретного универсального 30-дневного срока в законе нет.»",
+        "confidence": "high",
+        "source": "Código Civil, art. 1076"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[4]",
+        "current": "При отсутствии fiador: заложить бюджет на предоплату 3-12 мес либо seguro de fiança",
+        "problem": "Это противоречит остальной части гайда, где верно указано, что предоплата аренды ограничена 2 месяцами. Без caveat читатель может понять, что 3–12 месяцев именно как предоплата — нормальная законная опция.",
+        "suggestion": "Заменить на: «При отсутствии fiador: заранее обсудить легальные гарантии — максимум 2 месяца предоплаты + максимум 2 месяца caução, либо seguro de fiança/garantia bancária/fiador. Требование 3–12 месяцев наличными как renda antecipada или caução юридически уязвимо.»",
+        "confidence": "high",
+        "source": "Código Civil, art. 1076"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5].content[0].text",
+        "current": "Без регистрации: вы не можете использовать договор для atestado de residência, для AIMA, для вычета аренды в IRS.",
+        "problem": "Слишком категорично. Для IRS deduction действительно нужны корректная регистрация/recibos de renda или comunicação adequada в Finanças. Но atestado de residência выдаёт Junta de Freguesia, и оно может быть получено не только на основании зарегистрированного договора, но и через другие доказательства/свидетелей по практике конкретной Junta. Для AIMA требования зависят от процедуры; зарегистрированный договор очень полезен, но утверждение «не можете использовать» слишком абсолютное.",
+        "suggestion": "Написать: «Без регистрации и recibos de renda вы, как правило, не сможете корректно заявить rent deduction в IRS. Для Junta/AIMA зарегистрированный договор сильно повышает надёжность доказательства адреса, но конкретный набор документов зависит от Junta и типа процедуры AIMA.»",
+        "confidence": "high",
+        "source": "Portal das Finanças; ePortugal/Juntas de Freguesia; AIMA practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3].content[0].text",
+        "current": "Обязательные элементы по Lei 6/2006: имена и NIF сторон, подробный адрес объекта, матрикальный номер (artigo matricial) и freguesia (районное управление), срок, сумма ренты и способ индексации, размер caução, дата начала.",
+        "problem": "Список обязательных элементов неполный и источник указан неточно. Формальные элементы договора аренды детализированы не только NRAU, но и Decreto-Lei 160/2006. Обычно нужно указывать, среди прочего, данные licença de utilização или основание освобождения/замены, цель аренды, идентификацию объекта, данные сторон, срок, ренту. Также важен certificado energético при аренде, если объект не освобождён.",
+        "suggestion": "Дополнить: «Проверьте также licença de utilização или применимое освобождение/замену, finalidade do arrendamento, identificação matricial/predial, certificado energético, если требуется, и все anexos/inventário.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 160/2006; SCE rules on certificado energético"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[8]",
+        "current": "Condomínio — квота на содержание общих зон дома (обычно в ренту не входит)",
+        "problem": "На практике в долгосрочной жилой аренде condomínio часто уже включён в advertised rent и остаётся обязанностью собственника перед condominium. Если арендатор должен возмещать какие-то despesas/encargos, это должно быть прямо и письменно указано в договоре.",
+        "suggestion": "Написать: «Condomínio — взносы дома; перед condomínio отвечает собственник. В аренде они часто включены в ренту, но договор может отдельно переложить на арендатора некоторые despesas/encargos, если это прямо прописано.»",
+        "confidence": "high",
+        "source": "Código Civil, art. 1078"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2].content[0].text",
+        "current": "кто платит IMI и condomínio",
+        "problem": "IMI — налог собственника. Его налоговым должником является владелец/правообладатель, а не арендатор. Частное соглашение о компенсации расходов теоретически возможно, но для обычного жильца формулировка «кто платит IMI» вводит в заблуждение.",
+        "suggestion": "Заменить на: «IMI по закону платит собственник; внимательно проверяйте, не пытается ли договор переложить на вас налоговые/домовые расходы. Condomínio/despesas должны быть отдельно и ясно прописаны.»",
+        "confidence": "high",
+        "source": "Código do IMI; Código Civil, art. 1078"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[9]",
+        "current": "Recibo de renda — ежемесячный чек от владельца",
+        "problem": "«Чек» по-русски может означать payment cheque. В Португалии recibo de renda — это налоговая квитанция/receipt, обычно электронная через Portal das Finanças, а не банковский чек.",
+        "suggestion": "Написать: «Recibo de renda — ежемесячная налоговая квитанция/receipt от арендодателя, обычно электронная на Portal das Finanças.»",
+        "confidence": "high",
+        "source": "Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "OLX Imóveis — много объявлений напрямую от собственников (meno fees)",
+        "problem": "Опечатка/смешение языков: «meno fees».",
+        "suggestion": "Заменить на «меньше комиссий» или «menos fees».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[5]",
+        "current": "Вычет в IRS за аренду — 15% до 700–800 €/год (порог поднят OE 2024/25; точное значение уточните на portaldasfinancas.gov.pt)",
+        "problem": "Для гайда, заявленного как проверенный 2026-04-28, диапазон «700–800» выглядит устаревшим/неуверенным. В 2026 нужно указывать конкретный действующий лимит и caveat для специальных случаев низкого дохода/применимых ограничений.",
+        "suggestion": "Написать: «В IRS обычно можно вычесть 15% расходов на renda de habitação permanente в пределах лимита, действующего для соответствующего налогового года; для 2026 укажите конкретный лимит по актуальной редакции art. 78.º-E CIRS и проверьте e-Fatura/Portal das Finanças.»",
+        "confidence": "medium",
+        "source": "Código do IRS, art. 78.º-E"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[7].content[0].items[0]",
+        "current": "Невозврат caução — письменная претензия владельцу, затем в Balcão Nacional do Arrendamento (BNA) или в Julgados de Paz",
+        "problem": "BNA как название устарело/неполно для текущей архитектуры. После реформы используется Balcão do Arrendatário e do Senhorio (BAS), а для денежных требований в арендных отношениях может применяться injunção em matéria de arrendamento, если соблюдены условия. Для caução также возможны Julgados de Paz или tribunal.",
+        "suggestion": "Заменить на: «письменная претензия; затем Julgado de Paz/tribunal или, если условия подходят, механизм injunção em matéria de arrendamento через Balcão do Arrendatário e do Senhorio (BAS).»",
+        "confidence": "high",
+        "source": "Balcão do Arrendatário e do Senhorio; Lei 56/2023"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[7].content[0].items[3]",
+        "current": "Нежелательное повышение ренты — оспаривать в BNA; коэффициент выше ИНЕ незаконен",
+        "problem": "Опять используется BNA; кроме того, не всякое повышение выше коэффициента INE автоматически незаконно, если речь не об обычной ежегодной atualização, а о новом договоре, согласованном изменении, окончании льготного режима или иных специальных режимах. Для действующего договора ежегодная индексация действительно ограничена применимым коэффициентом, если нет специального законного основания.",
+        "suggestion": "Написать: «Если это ежегодная atualização renda в действующем договоре, она не должна превышать официальный коэффициент, если нет специального законного основания. Спор — письменное возражение, затем BAS/Julgado de Paz/tribunal/advogado.»",
+        "confidence": "high",
+        "source": "Código Civil; Aviso anual de coeficiente de atualização de rendas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[7].content[0].items[2]",
+        "current": "Шум и соседи — жалоба в Junta de Freguesia, полиция (112 для громкой ночной)",
+        "problem": "112 — номер экстренной помощи, не обычная линия для бытового ночного шума. Для шума обычно обращаются в PSP/GNR или municipal police/condomínio; 112 только при реальной срочной опасности.",
+        "suggestion": "Написать: «Шум — сначала condomínio/администратор, затем PSP/GNR или polícia municipal; 112 используйте только в экстренной ситуации.»",
+        "confidence": "high",
+        "source": "PSP/GNR public guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[0]",
+        "current": "Caução: amountEURMin 500, amountEURMax 3000; note: макс 2 мес аренды",
+        "problem": "Диапазон не согласуется с приведёнными выше рыночными ценами: если T1 в Lisboa стоит 2500 €/мес, законный максимум caução может быть 5000 €, а не 3000 €. Это не юридическая ошибка, но числовой диапазон вводит в заблуждение.",
+        "suggestion": "Либо убрать фиксированный max, либо считать как «до 2 × месячная renda». Например: amount note «0–2 месячные ренты; при rent 2500 € максимум 5000 €».",
+        "confidence": "high",
+        "source": "Código Civil, art. 1076"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "Предоплата аренды: amountEURMin 500, amountEURMax 3000; note: макс 2 мес",
+        "problem": "Та же проблема: при аренде выше 1500 €/мес законная предоплата до 2 месяцев может превышать 3000 €. Диапазон конфликтует с собственными ценовыми ориентирами гайда.",
+        "suggestion": "Указать как формулу: «до 2 × месячная renda», а не фиксированный максимум 3000 €.",
+        "confidence": "high",
+        "source": "Código Civil, art. 1076"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[5].url",
+        "current": "https://eportugal.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa",
+        "problem": "URL выглядит как информационная страница ePortugal, но для правовых обязательных элементов договора, recibos, регистрации и споров нужны более точные официальные источники. Одного общего ePortugal недостаточно для чувствительных юридических утверждений.",
+        "suggestion": "Добавить точечные источники: Decreto-Lei 160/2006 для elementos do contrato, Portal das Finanças для comunicação de contrato/recibos, BAS/Citius или justiça.gov.pt для despejo/injunção arrendamento, Aviso INE/Diário da República для коэффициента atualização rendas.",
+        "confidence": "high",
+        "source": "Decreto-Lei 160/2006; Portal das Finanças; justiça.gov.pt; Diário da República"
+      }
+    ],
+    "missing_topics": [
+      "Исключение из минимального срока 1 год для contratos para habitação não permanente ou fins especiais transitórios",
+      "Default term 5 years if prazo is omitted from a fixed-term residential lease",
+      "Certificado energético при сдаче жилья, если объект не освобождён",
+      "Licença de utilização / применимые правила и реквизиты, которые должны быть проверены в договоре",
+      "Разница между caução, renda antecipada, fiador, seguro de fiança и garantia bancária; предупреждение, что extra cash «depósito de garantia» может быть признан caução",
+      "Balcão do Arrendatário e do Senhorio (BAS) и injunção em matéria de arrendamento вместо устаревшего/узкого упоминания BNA",
+      "Запрет self-help eviction: нельзя менять замки, отключать коммунальные услуги или выносить вещи арендатора",
+      "Порядок и сроки oposição à renovação/denúncia договора зависят от срока договора; 120 дней не универсальны",
+      "Практический чек перед подписанием: caderneta predial, certidão permanente predial, identity/authority of landlord or agent, power of attorney if подписывает представитель"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6487,
+    "prompt_tokens": 4882,
+    "total_tokens": 11369
+  },
+  "model": "gpt-5.5"
+}

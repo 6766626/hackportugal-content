@@ -1,0 +1,148 @@
+{
+  "guideId": "intercity-transport",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но содержит несколько практических ошибок: устаревший автобусный терминал Porto, неточные скидки CP, путаницу с SATA/Azores Airlines и слишком обобщённые утверждения про рейсы, паромы и агрегаторы.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[7]",
+        "current": "Терминал Porto: Campo 24 de Agosto",
+        "problem": "Для междугородних автобусов в Porto это устаревшая/вводящая в заблуждение информация. Основной междугородний терминал Porto сейчас — Terminal Intermodal de Campanhã, а не Campo 24 de Agosto.",
+        "suggestion": "Заменить на: \"Терминал Porto: Terminal Intermodal de Campanhã; всегда проверяйте терминал в билете, потому что отдельные рейсы/операторы могут отличаться.\"",
+        "confidence": "high",
+        "source": "Terminal Intermodal de Campanhã / Rede Expressos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1].content[0].items[4]",
+        "current": "Скидки: 50% молодёжи 4-13 лет, 25-50% студентам, 50% senior 65+",
+        "problem": "Скидки CP описаны неточно. Детская скидка CP обычно применяется к детям 4–12 лет, а не 4–13. Для молодёжи/студентов условия зависят от типа скидки, возраста, карты/статуса и поезда; фраза \"25-50% студентам\" слишком широкая и может быть неверной для Alfa/Intercidades.",
+        "suggestion": "Написать конкретнее: \"CP: дети 4–12 лет — обычно 50%; молодёжь/Cartão Jovem и senior 65+ — скидки по условиям CP; студенческие/молодёжные скидки зависят от возраста, документа и типа поезда. Проверяйте раздел Discounts на cp.pt перед покупкой.\"",
+        "confidence": "high",
+        "source": "CP — Discounts / Descontos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].title",
+        "current": "Внутренние перелёты — только на острова",
+        "problem": "Заголовок противоречит следующему пункту, где сказано, что между материковыми городами всё же бывают рейсы. Формулировка \"только на острова\" слишком категорична: регулярная/сезонная внутренняя авиация на материке может существовать, но для большинства маршрутов поезд/автобус практичнее.",
+        "suggestion": "Заменить на: \"Внутренние перелёты — в основном на острова\" или \"На материке самолёт почти не нужен; основные внутренние рейсы — Madeira и Azores.\"",
+        "confidence": "high",
+        "source": "TAP Air Portugal / ANA Aeroportos flight schedules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3]",
+        "current": "🇵🇹 SATA Azores Airlines — специалист по Азорам, межостровные рейсы",
+        "problem": "Смешаны два бренда/перевозчика группы SATA. Azores Airlines обычно выполняет рейсы между Азорами, материком и международные направления; межостровные рейсы на Азорах выполняет SATA Air Açores.",
+        "suggestion": "Заменить на: \"SATA Air Açores — межостровные рейсы на Азорах; Azores Airlines — рейсы между Азорами, материковой Португалией и международные направления.\"",
+        "confidence": "high",
+        "source": "SATA Group / Azores Airlines / SATA Air Açores"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0].content[0].items[0]",
+        "current": "Alfa Pendular — скоростной (220 км/ч), Lisboa–Porto 2:40, комфорт «Conforto» / «Turístico»",
+        "problem": "Время Lisboa–Porto указано слишком оптимистично. Самые быстрые Alfa Pendular обычно идут около 2:49 между Lisboa-Oriente и Porto-Campanhã и ближе к 2:58/3:00 при Santa Apolónia.",
+        "suggestion": "Написать: \"Lisboa–Porto примерно 2:50–3:00 в зависимости от станции и рейса.\"",
+        "confidence": "high",
+        "source": "CP timetable Lisboa–Porto Alfa Pendular"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0].content[0].items[1]",
+        "current": "Intercidades — быстрый, 3 часа Lisboa–Porto, дешевле",
+        "problem": "Intercidades Lisboa–Porto обычно занимает больше 3 часов, чаще около 3:15–3:30 в зависимости от станции и рейса.",
+        "suggestion": "Заменить на: \"Intercidades — быстрый, Lisboa–Porto примерно 3:15–3:30, дешевле Alfa.\"",
+        "confidence": "high",
+        "source": "CP timetable Lisboa–Porto Intercidades"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[1].content[0].items[5]",
+        "current": "Interrail Pass: доступен резидентам PT",
+        "problem": "Фраза неполная. Interrail доступен резидентам Европы, включая резидентов Portugal, но для страны проживания действуют ограничения: Global Pass обычно даёт только ограниченные inbound/outbound поездки в своей стране. Для нерезидентов Европы используется Eurail, не Interrail.",
+        "suggestion": "Написать: \"Interrail — для резидентов Европы, включая Portugal, но поездки внутри страны проживания ограничены правилами inbound/outbound; нерезиденты Европы покупают Eurail.\"",
+        "confidence": "high",
+        "source": "Interrail.eu — Country of residence rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3].title",
+        "current": "EVA Transportes",
+        "problem": "Для пассажира в Algarve более актуальный бренд региональной сети — VAMUS Algarve. EVA/Barraqueiro остаётся связанным оператором, но поиск маршрутов только по EVA может сбивать с толку.",
+        "suggestion": "Заменить заголовок на: \"VAMUS Algarve / EVA Transportes\" и добавить: \"Основной сайт для региональных автобусов Algarve — vamusalgarve.pt.\"",
+        "confidence": "high",
+        "source": "VAMUS Algarve"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0]",
+        "current": "⛴️ Atlanticoline — Азоры межостровные. São Miguel ↔ Terceira ↔ Faial и др. От 15 €",
+        "problem": "Маршруты Atlanticoline сильно зависят от сезона и островной группы. Формулировка создаёт впечатление регулярной круглогодичной связки São Miguel–Terceira–Faial, что может быть неверно для конкретной даты.",
+        "suggestion": "Написать: \"Atlanticoline — межостровные паромы на Азорах; часть линий сезонная, расписание и доступность между группами островов проверяйте на atlanticoline.pt. Короткие маршруты — от примерно 15 €, длинные дороже.\"",
+        "confidence": "high",
+        "source": "Atlanticoline timetables"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "⛴️ Transtejo / Soflusa — Lisboa ↔ Almada/Cacilhas/Barreiro (общественный, 1–2 €)",
+        "problem": "Диапазон 1–2 € слишком узкий для всех указанных маршрутов, особенно Barreiro. Цена зависит от маршрута, способа оплаты и тарифной системы Navegante/Zapping.",
+        "suggestion": "Заменить на: \"Transtejo/Soflusa — Lisboa ↔ Cacilhas/Seixal/Montijo/Barreiro; тариф зависит от маршрута и карты Navegante/Zapping, обычно около 1,5–3 € за разовую поездку.\"",
+        "confidence": "medium",
+        "source": "Transtejo Soflusa tariffs / Navegante"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "🔍 Omio (omio.com) — поиск по поездам + автобусам + самолётам",
+        "problem": "В tldr сказано, что Omio \"объединяет всё\", но на практике Omio не покрывает все локальные/региональные автобусы, все варианты CP и сезонные/островные перевозки. Это может привести к ложному выводу, что маршрута нет.",
+        "suggestion": "Написать: \"Omio — удобен для части поездов, автобусов и самолётов, но не покрывает все локальные автобусы, островные паромы и региональные маршруты; для финальной проверки используйте сайты CP, Rede Expressos, FlixBus, VAMUS/локальных операторов и Atlanticoline.\"",
+        "confidence": "high",
+        "source": "Omio coverage / operator booking sites"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "FlixBus (международные)",
+        "problem": "FlixBus в Португалии — не только международные рейсы: он активно выполняет внутренние маршруты, что сам гайд ниже признаёт в разделе FlixBus.",
+        "suggestion": "Заменить на: \"FlixBus — дешёвые внутренние и международные рейсы\".",
+        "confidence": "high",
+        "source": "FlixBus Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "🇵🇹 TAP Portugal — основной перевозчик, Lisboa hub",
+        "problem": "Официальное название бренда — TAP Air Portugal, а не TAP Portugal.",
+        "suggestion": "Заменить на: \"TAP Air Portugal — основной перевозчик, hub в Lisboa.\"",
+        "confidence": "high",
+        "source": "TAP Air Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники включают CP, Rede Expressos, IP, TAP, Atlanticoline, AMT",
+        "problem": "Для заявленных в тексте операторов не хватает прямых источников: FlixBus, ALSA, VAMUS Algarve/EVA, Porto Santo Line, Transtejo/Soflusa, SATA/Azores Airlines. Для практического транспортного гайда официальные сайты операторов важнее общего источника AMT.",
+        "suggestion": "Добавить официальные источники: flixbus.pt, alsa.com, vamusalgarve.pt, portosantoline.pt, transtejo.pt, azoresairlines.pt/sata.pt.",
+        "confidence": "high",
+        "source": "Official operator websites"
+      }
+    ],
+    "missing_topics": [
+      "Berlengas: нужен BerlengaPass/регистрация ICNF и действует дневной лимит посетителей; билет на лодку сам по себе не всегда достаточен.",
+      "Острова: для жителей/резидентов Madeira и Azores существуют специальные тарифы/субсидии на авиаперелёты, но условия зависят от резидентства и направления.",
+      "Portugal mainland public transport planning: полезно упомянуть, что Google Maps/Rome2Rio могут ошибаться для региональных автобусов; расписание надо подтверждать у оператора.",
+      "Билеты CP Promo: обычно привязаны к конкретному поезду и имеют ограничения на обмен/возврат; это важно при покупке заранее."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4004,
+    "prompt_tokens": 3008,
+    "total_tokens": 7012
+  },
+  "model": "gpt-5.5"
+}

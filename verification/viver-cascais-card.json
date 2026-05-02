@@ -1,0 +1,214 @@
+{
+  "guideId": "viver-cascais-card",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but materially misleading on eligibility and overstates/over-specifies several benefits that are not blanket Viver Cascais card benefits or need current tariff/regulation caveats.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "для жителей муниципалитета Кашкаиш (Cascais, Estoril, Alcabideche, São Domingos, Parede)",
+        "problem": "The list of civil parishes is inaccurate/outdated and incomplete: Cascais and Estoril are not separate freguesias, Carcavelos is missing, and 'São Domingos' should be 'São Domingos de Rana'.",
+        "suggestion": "Write: \"для жителей муниципалитета Кашкаиш: Alcabideche; Carcavelos e Parede; Cascais e Estoril; São Domingos de Rana\".",
+        "confidence": "high",
+        "source": "Câmara Municipal de Cascais / administrative parish structure"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[2]",
+        "current": "Работающие в муниципалитете, но живущие в другом — НЕ подходят (только residência)",
+        "problem": "This is misleading/wrong for Viver Cascais/MobiCascais purposes. Cascais has card/profile categories not only for residents; workers and students connected to Cascais can also be eligible for Viver Cascais access and free municipal public transport, subject to proof.",
+        "suggestion": "Replace with: \"Есть разные профили Viver Cascais: residente, trabalhador, estudante и др. Для резидента нужен адрес в Cascais; работающие или учащиеся в Cascais, но живущие в другом município, могут оформить соответствующий профиль с declaração da entidade patronal/estabelecimento de ensino. Льготы могут отличаться по профилю.\"",
+        "confidence": "high",
+        "source": "Viver Cascais official portal; MobiCascais/Cascais Próxima terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0]",
+        "current": "Любой житель муниципалитета Кашкаиш с atestado de residência (прописка ≥ 30 дней)",
+        "problem": "The '≥ 30 дней' requirement is presented as a hard eligibility rule but is not clearly the Viver Cascais rule. Usually the relevant point is having a valid proof of address/residence in Cascais, often an atestado/comprovativo issued recently; requirements can vary by Junta and by card profile.",
+        "suggestion": "Write: \"Для профиля residente нужен comprovativo de morada/residência в município de Cascais — например atestado da Junta или иной документ, принимаемый порталом. Проверяйте срок действия документа; часто требуют документ, выданный недавно.\"",
+        "confidence": "medium",
+        "source": "Viver Cascais official portal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "Возраст неважен — дети с 6 лет могут иметь свою карту",
+        "problem": "The wording is internally confusing: if children only from 6 can have their own card, age does matter. Also the age threshold and procedure should be sourced because child access/transport rules can differ from adult card issuance rules.",
+        "suggestion": "Write more cautiously: \"Карту/профиль можно оформить и для несовершеннолетних; для детей заявление подаёт законный представитель. Возрастные пороги и документы проверяйте на Viver Cascais.\"",
+        "confidence": "medium",
+        "source": "Viver Cascais official portal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3]",
+        "current": "Иностранцы с ВНЖ — полностью ok",
+        "problem": "Too narrow and potentially misleading: EU citizens may have CRUE rather than a residence permit; some foreign residents may use passport plus accepted proof of address depending on profile. The decisive point is legal ID plus accepted proof/profile documents, not necessarily 'ВНЖ' in the Russian sense.",
+        "suggestion": "Write: \"Иностранцы тоже могут оформить карту при наличии принятого удостоверения личности и документов, подтверждающих профиль: morada em Cascais / trabalho / estudo. Для граждан ЕС это может быть CC/паспорт + CRUE/адресные документы, для non-EU — título de residência или иной принимаемый документ.\"",
+        "confidence": "medium",
+        "source": "Viver Cascais official portal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[0]",
+        "current": "Бесплатные автобусы MobiCascais (кроме M-Line в Эшторил)",
+        "problem": "Over-broad and under-caveated. Free travel is not simply 'all MobiCascais buses' for anyone with any card; it depends on Viver Cascais profile/validation and the current Cascais Próxima/MobiCascais network rules. Exceptions and line names change, so naming only 'M-Line in Estoril' may be outdated or incomplete.",
+        "suggestion": "Write: \"Муниципальные автобусы MobiCascais обычно бесплатны для валидированного профиля Viver Cascais residente/trabalhador/estudante, но нужно проверять текущие исключения по линиям и условия в приложении/на сайте MobiCascais.\"",
+        "confidence": "high",
+        "source": "MobiCascais official website; Cascais Próxima tariff/rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[1]",
+        "current": "Бесплатные велосипеды Bikes MobiCascais (до 45 мин в день)",
+        "problem": "Likely inaccurate/over-simplified. Bike-sharing conditions are tariff-plan based and usually limits are per trip/session, not simply '45 min per day'. Availability, deposits, overage fees, and resident/visitor tariffs need the current MobiCascais tariff table.",
+        "suggestion": "Replace with: \"Bikes MobiCascais: для держателей Viver Cascais могут быть льготные/бесплатные условия по текущему тарифу; лимиты времени, штрафы за превышение и необходимость активировать услугу смотрите в приложении MobiCascais.\"",
+        "confidence": "medium",
+        "source": "MobiCascais official tariff/terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "Dístico de residente — первый год бесплатно",
+        "problem": "This is stated as a general Viver Cascais benefit but resident parking permits are governed by Cascais Próxima municipal parking regulations/tariffs and depend on zone, vehicle/address eligibility and annual renewal. 'First year free' is not safely supported and may be wrong.",
+        "suggestion": "Write: \"Dístico de residente оформляется отдельно через Cascais Próxima/Loja Cascais по адресу и автомобилю; стоимость, зоны, количество машин и сроки зависят от действующего regulamento/tabela de tarifas.\"",
+        "confidence": "medium",
+        "source": "Cascais Próxima parking regulations/tariff table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "Далее €10–30/год в зависимости от зоны",
+        "problem": "The annual parking-permit price range is unsourced and may be outdated or incomplete. Parking tariffs are sensitive and change by regulation; the guide should not give a precise range without the current Cascais Próxima tariff table.",
+        "suggestion": "Either remove the range or replace with: \"тариф ежегодного dístico смотрите в действующей tabela de tarifas da Cascais Próxima; зависит от зоны/типа разрешения\".",
+        "confidence": "medium",
+        "source": "Cascais Próxima parking tariff table"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[0]",
+        "current": "Муниципальные бассейны: 30-50% скидка на абонементы",
+        "problem": "The percentage is too specific without naming the facility/tariff. Sports facilities in Cascais have different concessionaires, price lists and discounts; not all 'municipal pools' necessarily grant a uniform 30-50% Viver Cascais discount.",
+        "suggestion": "Write: \"В некоторых муниципальных спортивных объектах есть тарифы/скидки для Viver Cascais; размер зависит от объекта и действующей таблицы цен.\"",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Cascais / facility tariff tables"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[1]",
+        "current": "Теннисные корты, футбольные поля: скидка 20-40%",
+        "problem": "Over-specific and unsourced. Facility tariffs and resident discounts vary; a blanket 20-40% promise may mislead users.",
+        "suggestion": "Replace with: \"Некоторые спортивные объекты и партнёры дают тарифы для резидентов/Viver Cascais; проверяйте конкретный объект и расписание цен.\"",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Cascais / facility tariff tables"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3].content[0].items[0]",
+        "current": "Библиотеки: бесплатный абонемент (читательская карта)",
+        "problem": "This is not a meaningful Viver Cascais-specific benefit if library registration is already free or broadly available. It may create the impression that Viver Cascais is required for library access.",
+        "suggestion": "Write: \"Муниципальные библиотеки обычно имеют бесплатную регистрацию/читательскую карту; Viver Cascais может использоваться как ID/для отдельных программ, но не всегда обязателен.\"",
+        "confidence": "medium",
+        "source": "Bibliotecas Municipais de Cascais"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[1]",
+        "current": "Театры Casa das Histórias Paula Rego, Centro Cultural — скидки 30-50%",
+        "problem": "Casa das Histórias Paula Rego is a museum, not a theatre. The 30-50% discount range is unsourced and likely varies by museum/exhibition/event/promoter; not a safe blanket Viver Cascais promise.",
+        "suggestion": "Write: \"Музеи и культурные пространства Cascais могут давать бесплатный вход или скидки резидентам/Viver Cascais в зависимости от объекта и мероприятия; проверяйте страницу конкретного события.\"",
+        "confidence": "high",
+        "source": "Câmara Municipal de Cascais / Fundação D. Luís I / Casa das Histórias Paula Rego"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[3]",
+        "current": "Детские кружки и курсы в Casas da Juventude — бесплатно",
+        "problem": "Over-broad. Youth-centre activities may be free, paid, subsidised, limited by age/residence, or require registration. It is not safe to state all children's clubs/courses are free.",
+        "suggestion": "Write: \"В Casas da Juventude есть бесплатные и платные активности; условия, возраст и цены зависят от программы и регистрации.\"",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Cascais / Casas da Juventude programme pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].items[0]",
+        "current": "Cascais Social Card — для пенсионеров и инвалидов, дополнительные льготы",
+        "problem": "This mixes Viver Cascais with separate social-support instruments and oversimplifies eligibility. Social cards/supports usually depend on age, disability, income, household and municipal rules, not merely pensioner/disabled status.",
+        "suggestion": "Write: \"Социальные льготы оформляются отдельно от Viver Cascais и зависят от конкретной программы, дохода/возраста/инвалидности и оценки Câmara/Junta. Проверяйте раздел Ação Social Cascais.\"",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Cascais — Ação Social"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].items[1]",
+        "current": "Бесплатные медобследования (мамография, холестерин, сахар) раз в год",
+        "problem": "Potentially misleading as a blanket annual Viver Cascais benefit. Health screenings are generally programme-, age-, risk- and availability-dependent and may be run by SNS/municipal campaigns rather than by the card itself.",
+        "suggestion": "Replace with: \"Муниципалитет периодически проводит программы профилактики/скрининга, но они зависят от возраста, критериев и расписания кампаний; это не гарантированная ежегодная услуга по карте.\"",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Cascais health programmes; SNS screening programmes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[2]",
+        "current": "Документы: atestado, CC/ВНЖ, фото (можно с телефона), email",
+        "problem": "Document list is incomplete for non-resident profiles and too rigid for resident profiles. Workers/students need employer/school declarations; residents may be able to use accepted address proofs other than atestado depending on portal rules. The guide also omits NIF/phone or account validation if required by the portal.",
+        "suggestion": "Write: \"Документы зависят от профиля: residente — documento de identificação + comprovativo de morada/residência; trabalhador — declaração da entidade patronal; estudante — declaração/comprovativo de matrícula; minors — guardian documents. Проверяйте список при регистрации.\"",
+        "confidence": "high",
+        "source": "Viver Cascais official portal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[4]",
+        "current": "Карта приходит по почте 7-14 дней, либо заказываете приходом в Loja",
+        "problem": "Delivery timing and plastic-card issuance can vary and may not be guaranteed; digital validation may be immediate/after approval. The phrase 'заказываете приходом' is also unclear Russian.",
+        "suggestion": "Write: \"После одобрения профиль/виртуальная карта становится доступен в приложении/портале; физическую карту, если нужна, можно запросить/получить по текущим правилам Loja Cascais. Сроки доставки не гарантированы.\"",
+        "confidence": "medium",
+        "source": "Viver Cascais official portal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3]",
+        "current": "Cartão Família Cascais — для семей с 3+ детьми, дополнительные льготы в магазинах-партнёрах",
+        "problem": "Needs caveat that this is a separate programme/card from Viver Cascais and may have its own eligibility, renewal and partner list. '3+ children' should be tied to the official definition of família numerosa and household/residence rules.",
+        "suggestion": "Write: \"Cartão Família Cascais — отдельная программа для famílias numerosas; обычно 3+ детей, но условия, документы, срок действия и партнёры проверяйте на странице программы.\"",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Cascais — Cartão Família Cascais"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "Atestado de residência от Junta: €5–15",
+        "problem": "The range may be plausible but is not universal: fees differ by Junta, urgency, format and exemptions. It should not be presented as fixed for all parishes.",
+        "suggestion": "Write: \"примерно €5–15, но тариф зависит от Junta de Freguesia, срочности и способа выдачи; проверьте tabela de taxas своей Junta\".",
+        "confidence": "high",
+        "source": "Juntas de Freguesia tariff tables"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Only generic portal/homepage sources are listed: Viver Cascais, MobiCascais, Câmara Municipal de Cascais.",
+        "problem": "For precise claims about parking prices, bike limits, sports discounts, health screenings and social cards, generic homepages are not enough. The guide needs direct sources to current terms/tariff tables/programme pages.",
+        "suggestion": "Add direct sources for: Viver Cascais eligibility/FAQs; MobiCascais tariff and conditions; Cascais Próxima parking regulamento/tabela de tarifas; specific sports/culture facility tariff pages; Ação Social/Cartão Família Cascais pages.",
+        "confidence": "high",
+        "source": "Viver Cascais; MobiCascais; Cascais Próxima; Câmara Municipal de Cascais"
+      }
+    ],
+    "missing_topics": [
+      "Distinction between Viver Cascais profiles: residente, trabalhador, estudante and visitor/other profiles, with different proofs and possibly different benefits.",
+      "Renewal/revalidation rules: whether the card/profile must be renewed or periodically validated and how expired proofs affect free transport.",
+      "Accepted proof alternatives: atestado da Junta vs tax address/comprovativo de morada vs employer/school declarations.",
+      "Direct link to current tariff/conditions pages for MobiCascais buses, Bikes, parking and resident permits.",
+      "Caveat that many sports, culture, health and social benefits are facility/programme-specific and not guaranteed merely by holding the card.",
+      "Procedure if the user moves out of Cascais or changes address/profile.",
+      "What to do if the physical card is lost and whether virtual card/app is sufficient for each service."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5521,
+    "prompt_tokens": 2345,
+    "total_tokens": 7866
+  },
+  "model": "gpt-5.5"
+}

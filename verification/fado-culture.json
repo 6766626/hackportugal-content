@@ -1,0 +1,93 @@
+{
+  "guideId": "fado-culture",
+  "categoryId": "food_leisure",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гид в целом полезный, но содержит несколько заметных фактических ошибок и вводящих в заблуждение формулировок по ценам, оплате/tips, Mariza и Coimbra fado.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[7]",
+        "current": "📝 Ценник на двери — proforma, реально рассчёт с tips",
+        "problem": "Формулировка вводит в заблуждение. В Португалии рестораны обязаны иметь доступный/вывешенный прейскурант с ценами, как правило с НДС; счёт должен соответствовать заказанным позициям. Чаевые добровольны и не являются обязательной частью расчёта. В casas de fado могут быть menu fechado, consumo mínimo, couvert или доплата за espectáculo, но это должно быть заранее указано.",
+        "suggestion": "Заменить на: «Проверяйте menu/consumo mínimo/couvert и включён ли espectáculo. Цены должны быть указаны заранее; чаевые в Португалии добровольны, обычно округляют счёт или оставляют 5–10% за хороший сервис».",
+        "confidence": "high",
+        "source": "ASAE guidance on price lists in restauração/bebidas; Decreto-Lei 10/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2]",
+        "current": "🎤 Mariza — современная звезда, бразильско-португальская",
+        "problem": "Mariza не бразильско-португальская. Она родилась в Мозамбике, выросла в Португалии; обычно описывается как португальская fadista, родившаяся в Мозамбике.",
+        "suggestion": "Написать: «🎤 Mariza — современная звезда fado, португальская певица, родилась в Мозамбике и выросла в Лиссабоне».",
+        "confidence": "high",
+        "source": "Official Mariza biography / Encyclopaedia Britannica"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0]",
+        "current": "🎓 Fado ao Centro — ежедневные вечерние концерты в историческом доме, 10 € с portvino",
+        "problem": "Цена 10 € выглядит устаревшей. У Fado ao Centro в Coimbra последние публичные цены обычно выше — около 15 € за взрослый билет; расписание и включённый напиток нужно проверять на официальном сайте. Также «portvino» — неестественная русская форма, лучше «портвейн».",
+        "suggestion": "Написать: «Fado ao Centro — ежедневные концерты, обычно около 15 € за взрослый билет; иногда включает бокал портвейна. Проверяйте актуальную цену и расписание на официальном сайте».",
+        "confidence": "medium",
+        "source": "Fado ao Centro official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Поют ТОЛЬКО мужчины — студенты и выпускники, в чёрных плащах (capas e batinas).",
+        "problem": "Слишком абсолютная формулировка. Coimbra fado исторически и традиционно мужская академическая традиция, но «только мужчины» без оговорки может быть misleading: сейчас встречаются исключения, женское участие и современные интерпретации. Для туристического гида корректнее говорить о традиционной норме, а не о жёстком запрете.",
+        "suggestion": "Заменить на: «Традиционно исполняется мужчинами — студентами и выпускниками Universidade de Coimbra — в capas e batinas; в современной практике возможны исключения».",
+        "confidence": "medium",
+        "source": "Turismo Centro de Portugal / Universidade de Coimbra cultural descriptions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].text + steps[6].content[0].items[1]",
+        "current": "«Публика должна быть тихой, аплодируют только в конце.» / «Пауза после каждой песни = аплодисменты.»",
+        "problem": "Внутреннее противоречие: сначала сказано, что аплодируют «только в конце», затем — после каждой песни. Для fado обычно корректно: не аплодировать во время песни/между куплетами, аплодировать после окончания каждой композиции или в конце сета.",
+        "suggestion": "В первом месте заменить на: «Публика молчит во время песни; аплодируют после окончания композиции или сета».",
+        "confidence": "high",
+        "source": "General fado house etiquette / Museu do Fado cultural guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[7].content[0].text",
+        "current": "Государственный музей, 5 € вход.",
+        "problem": "Museu do Fado не совсем «государственный»: это муниципальный музей Лиссабона, управляемый EGEAC/Câmara Municipal de Lisboa. Цена 5 € может быть верной, но её стоит привязать к актуальной странице билетов, потому что тарифы музеев меняются.",
+        "suggestion": "Написать: «Муниципальный музей Лиссабона, управляется EGEAC; стандартный билет около 5 €, проверяйте актуальную цену на официальном сайте».",
+        "confidence": "high",
+        "source": "Museu do Fado official website / EGEAC"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[3]",
+        "current": "🎪 Queima das Fitas (май, 8 дней) — главный фестиваль с fado",
+        "problem": "Queima das Fitas — главный студенческий праздник Coimbra, но не «фестиваль с fado» в узком смысле. Самая важная fado-составляющая — Serenata Monumental, которая традиционно открывает праздник у Sé Velha.",
+        "suggestion": "Написать: «Queima das Fitas — главный студенческий праздник Coimbra; для fado важна Serenata Monumental, обычно открывающая праздник у Sé Velha».",
+        "confidence": "high",
+        "source": "Universidade de Coimbra / Queima das Fitas Coimbra official information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "🎓 á Capella — в бывшей часовне XIV в.",
+        "problem": "Название написано с неправильным регистром/акцентом. Заведение обычно пишется «À Capella» или «aCapella».",
+        "suggestion": "Исправить на: «À Capella — в бывшей часовне XIV в.»",
+        "confidence": "high",
+        "source": "À Capella official listings"
+      }
+    ],
+    "missing_topics": [
+      "Добавить caveat, что цены на casas de fado сильно зависят от формата: menu fechado, consumo mínimo, couvert, напитки и доплата за espectáculo могут считаться отдельно.",
+      "Для конкретных заведений с ценами и расписанием лучше давать официальные сайты или совет бронировать/проверять актуальность перед визитом.",
+      "Стоит упомянуть, что в туристических районах часть fado shows — короткие tourist-oriented performances без ужина, а не классическая casa de fado."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3310,
+    "prompt_tokens": 2753,
+    "total_tokens": 6063
+  },
+  "model": "gpt-5.5"
+}

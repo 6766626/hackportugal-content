@@ -1,0 +1,213 @@
+{
+  "guideId": "charity-donations-tax",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has several material inaccuracies on the IVA consignation, donation tax-benefit mechanics, corporate mecenato caps, outdated volunteering terminology, and some dubious charity references.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items[6]",
+        "current": "🇵🇹 ALSO: дополнительно direct 1% от **IVA** на charities (с 2018) — двойная opportunity",
+        "problem": "This is wrong. The IVA consignation is not '1% of IVA'. Taxpayers may consign the VAT tax benefit/deduction they would otherwise receive, commonly 15% of eligible VAT from certain invoice categories. Unlike the 0.5% IRS consignation, this is not cost-free: you give up that VAT deduction.",
+        "suggestion": "Replace with: 'Дополнительно можно consignar o benefício fiscal do IVA: вы передаёте выбранной организации сумму вашего вычета по IVA из eligible invoices. Это НЕ бесплатно для вас: в отличие от 0.5% IRS, вы теряете этот IVA deduction.'",
+        "confidence": "high",
+        "source": "Código do IRS, art. 78.º-F; Portal das Finanças — Consignação de IRS/IVA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[5]",
+        "current": "✅ **Вычет**: 25% от donation × 1.30 (corrective factor для IPSS)",
+        "problem": "Overgeneralised. The 25% IRS deduction is broadly correct for eligible mecenato donations, but the 130% uplift does not automatically apply to every IPSS donation in every situation. The exact treatment depends on whether the beneficiary and donation fall under the Estatuto dos Benefícios Fiscais mecenato rules, and the entity must be eligible/recognised and issue the proper donation receipt.",
+        "suggestion": "Write: 'Обычно для eligible donativos ao abrigo do mecenato: IRS credit = 25% от eligible amount; для некоторых social-mecenato entities amount may be uplifted, e.g. 130%, but only if the beneficiary/donation qualifies under EBF. Проверяйте eligibility и просите recibo de donativo com NIF.'",
+        "confidence": "medium",
+        "source": "Estatuto dos Benefícios Fiscais, arts. 61.º-66.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[4]",
+        "current": "⚠️ **Cap**: до 15% от сумма tax due (большинство family — не достигают cap)",
+        "problem": "Misleading as a universal rule. The 15% of coleta cap applies to many private/social mecenato donations, but some categories of donations, especially to the State and certain public entities, may have no such IRS cap or different treatment.",
+        "suggestion": "Write: 'Cap зависит от типа получателя: many private/social mecenato donations are limited to 15% of IRS coleta; donations to some public/state entities may have different or no cap. Проверяйте category of beneficiary.'",
+        "confidence": "medium",
+        "source": "Estatuto dos Benefícios Fiscais, art. 63.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items",
+        "current": "Donation 200 € → tax credit ~65 € (200 × 1.3 × 25%); Donation 1000 € → tax credit ~325 €; Donation 5000 € → tax credit ~1625 €",
+        "problem": "Examples assume the 130% uplift always applies. That can materially overstate the tax benefit if the donation is only deductible at 25% without uplift or if the cap applies.",
+        "suggestion": "Qualify examples: 'If the donation qualifies for 130% uplift: 200 € → up to 65 €. If no uplift: 200 € → 50 €. In all cases subject to the applicable cap/category.'",
+        "confidence": "medium",
+        "source": "Estatuto dos Benefícios Fiscais, arts. 61.º-66.º"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1].note",
+        "current": "25% × 1.3 от donation",
+        "problem": "Same overstatement as above: presents the uplift as automatic for all IRS donation deductions.",
+        "suggestion": "Change to: 'Usually 25% of eligible donation; some mecenato donations may be valued at 130% or other uplift if the beneficiary/category qualifies.'",
+        "confidence": "medium",
+        "source": "Estatuto dos Benefícios Fiscais, arts. 61.º-66.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[1]",
+        "current": "✅ **Cash transfer** (не наличные): bank transfer / MB WAY / charity's payment portal",
+        "problem": "Terminology is confusing. 'Cash transfer' in English can mean cash, but the text says not cash. More importantly, the legal point is not simply 'bank transfer only'; the taxpayer needs documentary proof/receipt and the donation must be traceable. Cash may be problematic for evidence and anti-money-laundering/payment-limit reasons, but the rule should not be stated as if every qualifying donation legally must be bank transfer/MB WAY.",
+        "suggestion": "Replace with: 'Лучше платить traceable method: bank transfer, MB WAY, cartão или официальный portal. Главное — получить recibo de donativo with your NIF and proof of payment; avoid cash because it is hard to prove and may not be accepted for tax benefit.'",
+        "confidence": "medium",
+        "source": "Estatuto dos Benefícios Fiscais; Autoridade Tributária guidance on donativos/mecenato"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[2]",
+        "current": "✅ Получить **factura/receipt с NIF** от charity",
+        "problem": "For donations, the document is normally a 'recibo de donativo' or declaration/receipt, not a normal commercial 'fatura'. Calling it a fatura may confuse readers and e-Fatura treatment.",
+        "suggestion": "Write: 'Получить recibo de donativo / declaração de donativo with your NIF, amount, date, beneficiary NIF and legal framing for mecenato.'",
+        "confidence": "high",
+        "source": "Autoridade Tributária guidance on donativos/mecenato"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[3]",
+        "current": "✅ Sum NIF в e-Fatura",
+        "problem": "Misleading wording. Donations are not ordinary consumer invoices like restaurant/pharmacy expenses. They may appear in the taxpayer's IRS/deductions data if properly communicated, but taxpayers should verify in Portal das Finanças and may need to declare/confirm them in IRS Annex H, depending on whether they are pre-filled.",
+        "suggestion": "Write: 'Проверьте в Portal das Finanças/IRS deductions whether the donativo was communicated. If not pre-filled, keep the receipt and declare/confirm it in Modelo 3 / Anexo H as applicable.'",
+        "confidence": "medium",
+        "source": "Autoridade Tributária — IRS Modelo 3 / Anexo H instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2].content[0].items[1]",
+        "current": "Cap: 0.6% of turnover",
+        "problem": "Likely wrong/incomplete for companies. Under Portuguese mecenato rules, corporate IRC caps and multipliers vary by beneficiary/category. Social mecenato to IPSS is commonly capped at 8/1000 of sales/services, not a universal 0.6%, and some public/state donations can have different/no cap.",
+        "suggestion": "Replace with: 'IRC mecenato caps vary by category. For many social-mecenato donations, limit is commonly 8‰ of sales/services, with 130%/140%/150% treatment depending on conditions; public/state/cultural/sports categories can differ. Check EBF art. 62 before relying on the deduction.'",
+        "confidence": "medium",
+        "source": "Estatuto dos Benefícios Fiscais, art. 62.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "🎯 **EVS (European Voluntary Service)**: 6-12 мес in PT, accommodation + food + pocket money",
+        "problem": "Outdated. EVS was replaced by the European Solidarity Corps. Referring to EVS in 2026 is obsolete and may lead readers to the wrong programme.",
+        "suggestion": "Replace with: 'European Solidarity Corps: volunteering projects in Portugal/EU, usually with travel/support arrangements, accommodation/food or allowances depending on the project.'",
+        "confidence": "high",
+        "source": "European Commission — European Solidarity Corps"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "🎯 **CPCJ (защита детей)**: ongoing volunteering для caring for children",
+        "problem": "Misleading and sensitive. CPCJ are official child and youth protection commissions, not a simple open volunteering programme for 'caring for children'. Work with minors requires screening, suitability checks and is usually done through authorised institutions/services.",
+        "suggestion": "Write: 'Для volunteering with children use accredited IPSS/associations and expect screening/background checks. CPCJ are official child-protection commissions; contact them for guidance, not as a casual volunteering route.'",
+        "confidence": "high",
+        "source": "Comissão Nacional de Promoção dos Direitos e Proteção das Crianças e Jovens; Lei de Proteção de Crianças e Jovens em Perigo"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[4]",
+        "current": "💰 Конкретно: 0.5% от вашего итогового tax. Для 30 000 €/год — это ~50-150 €",
+        "problem": "The example is plausible but underspecified. The amount is 0.5% of IRS liquidado/coleta, not 0.5% of salary/income. For many residents with low or zero final IRS liability, the consignation may be small or zero.",
+        "suggestion": "Clarify: '0.5% of IRS liquidado/coleta, not of gross income. If your IRS due/liquidado is low or zero, the amount may be very small or zero.'",
+        "confidence": "high",
+        "source": "Portal das Finanças — Consignação de IRS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3].title",
+        "current": "Médicos do Mundo / SOS Crianças",
+        "problem": "This combines unrelated organisations/services. SOS Criança is associated with Instituto de Apoio à Criança, not Médicos do Mundo. The URL 'soscriancas.pt' is also questionable and may be wrong/dead.",
+        "suggestion": "Separate them: 'Médicos do Mundo — medicosdomundo.pt' and 'Instituto de Apoio à Criança / SOS-Criança — use the official IAC site, iacrianca.pt'.",
+        "confidence": "high",
+        "source": "Médicos do Mundo Portugal; Instituto de Apoio à Criança"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[1]",
+        "current": "cruzvermelha.pt → Donar",
+        "problem": "'Donar' is Spanish. Portuguese Red Cross uses Portuguese wording such as 'Donativos'/'Doar'.",
+        "suggestion": "Change to: 'cruzvermelha.pt → Donativos / Doar'.",
+        "confidence": "high",
+        "source": "Cruz Vermelha Portuguesa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[4]",
+        "current": "Дотация / time → 11 млн meals/год",
+        "problem": "The Banco Alimentar annual impact figure appears outdated or too low for the national network. Recent public figures are typically much higher, depending on year and metric, often tens of millions of meal-equivalents annually.",
+        "suggestion": "Avoid a fixed number unless updated annually: 'distributes tens of thousands of tonnes of food annually through local partner institutions; check current annual report for exact meal-equivalent figure.'",
+        "confidence": "medium",
+        "source": "Banco Alimentar Contra a Fome annual reports/statistics"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[5].content[0].items[1]",
+        "current": "**Programadores do Futuro**: digital skills для disadvantaged",
+        "problem": "This organisation/programme name is not a widely established national charity reference and may be hard for readers to verify. It needs a URL or should be replaced with a verifiable organisation.",
+        "suggestion": "Add an official URL and legal entity/NIF, or replace with a better-known verifiable digital inclusion organisation/programme.",
+        "confidence": "low",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[5].content[0].items[2]",
+        "current": "**Code Club Portugal**: free coding for kids",
+        "problem": "May be inactive or not a straightforward charity donation target in Portugal. Needs verification and URL.",
+        "suggestion": "Verify current activity and add official URL; otherwise remove from 'top organisations' and list only clearly active registered entities.",
+        "confidence": "low",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "✅ **Тах receipt**: запросить с NIF после donation для деduction",
+        "problem": "Typo and wrong terminology. Should be 'Tax receipt' or, better, 'recibo de donativo'.",
+        "suggestion": "Change to: '✅ Recibo de donativo: запросить документ with your NIF for IRS deduction.'",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://info.portaldasfinancas.gov.pt/",
+        "problem": "Too generic for a sensitive tax claim. Readers need the specific AT page/list for IRS/IVA consignation and the annual list of eligible entities.",
+        "suggestion": "Use a specific Portal das Finanças/AT link for 'Consignação IRS/IVA' and the downloadable official list of eligible entities for the relevant tax year.",
+        "confidence": "high",
+        "source": "Portal das Finanças — Consignação de IRS/IVA"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No official source for EBF / IRS donation deduction rules",
+        "problem": "The guide gives detailed tax-deduction rules but does not cite the Estatuto dos Benefícios Fiscais or AT guidance on donativos/mecenato. This is a source gap for a sensitive tax category.",
+        "suggestion": "Add official sources: Estatuto dos Benefícios Fiscais arts. 61.º-66.º and AT/Portal das Finanças guidance for donativos/mecenato and Modelo 3/Anexo H.",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais; Autoridade Tributária"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2].url",
+        "current": "https://www.seg-social.pt/",
+        "problem": "Too generic. The instruction says to verify IPSS status on Segurança Social, but the source should point to the actual IPSS register/search page, not the homepage.",
+        "suggestion": "Link to the specific Segurança Social page for 'Instituições Particulares de Solidariedade Social' / IPSS register or search tool.",
+        "confidence": "high",
+        "source": "Segurança Social — IPSS registry"
+      }
+    ],
+    "missing_topics": [
+      "Explain that IRS 0.5% consignation is cost-free, but IVA consignation is not cost-free because the taxpayer gives up the VAT deduction.",
+      "Add a short 'how to verify charity eligibility' section: confirm NIF, IPSS/utilidade pública/status, inclusion in AT consignation list if using consignation, and mecenato eligibility if claiming tax deduction.",
+      "Add warning that tax benefits require proper documentation: recibo de donativo with donor NIF, beneficiary NIF, amount, date and legal basis; keep payment proof.",
+      "Mention that some donations may not be pre-filled in IRS and may need confirmation/declaration in Modelo 3 / Anexo H.",
+      "For companies, note that IRC mecenato rules vary significantly by category, cap and multiplier, so businesses should check EBF art. 62 or ask an accountant.",
+      "Add official AT/EBF sources for donation deductions, not only charity websites."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5001,
+    "prompt_tokens": 3164,
+    "total_tokens": 8165
+  },
+  "model": "gpt-5.5"
+}

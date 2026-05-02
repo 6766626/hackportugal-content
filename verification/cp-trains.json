@@ -1,0 +1,141 @@
+{
+  "guideId": "cp-trains",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезный, но содержит несколько фактических ошибок по классам Alfa Pendular, международным поездам, станциям Порту, зонам Urbanos и скидкам CP.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "2 класса: Conforto (эконом), Primeira (первый).",
+        "problem": "У Alfa Pendular классы названы неверно: Conforto — это более высокий/1-й класс, а эконом-класс называется Turística. Класса Primeira в AP как коммерческого названия нет.",
+        "suggestion": "Написать: «2 класса: Turística (эконом) и Conforto (более дорогой/1-й класс)».",
+        "confidence": "high",
+        "source": "CP — Alfa Pendular / passenger classes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "Lisboa-Madrid ночной Sud Expresso (больше не ходит с 2020 — замещён автобусом).",
+        "problem": "Перепутаны маршруты. Sud Expresso был поездом Lisboa–Hendaye/Irun, а ночной Lisboa–Madrid назывался Lusitânia. Формулировка про «замещён автобусом» тоже вводит в заблуждение: CP не эксплуатирует прямой ночной поезд Lisboa–Madrid с 2020 года, а автобус — это не эквивалентный сервис CP.",
+        "suggestion": "Написать: «Ночные международные поезда Sud Expresso (Lisboa–Hendaye/Irun) и Lusitânia (Lisboa–Madrid) приостановлены с 2020 года и по состоянию на 2026 не восстановлены. Из регулярных международных поездов CP актуален Celta/Porto–Vigo».",
+        "confidence": "high",
+        "source": "CP — International trains / Celta; historical CP Sud Expresso and Lusitânia service notices"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4].content[0].text",
+        "current": "Пригородные Лиссабона (Cascais, Sintra, Tomar, Setúbal) и Порту (Braga, Aveiro, Guimarães).",
+        "problem": "Tomar не является обычной линией Urbanos de Lisboa; это направление обслуживается региональными/межрегиональными поездами через Entroncamento. Для Urbanos de Lisboa корректнее указывать Cascais, Sintra/Azambuja и Sado/Setúbal.",
+        "suggestion": "Написать: «Пригородные Лиссабона: Cascais, Sintra/Azambuja, Sado/Setúbal; Порту: Braga, Guimarães, Marco de Canaveses, Aveiro». Tomar вынести в Regional/InterRegional.",
+        "confidence": "high",
+        "source": "CP — Urbanos de Lisboa; CP — Regional/InterRegional services"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[2]",
+        "current": "Trindade — метро и Urbanos",
+        "problem": "Trindade — станция Metro do Porto, но не станция CP Urbanos. Поезда CP Urbanos в Порту идут через Campanhã и São Bento, а не через Trindade.",
+        "suggestion": "Удалить «Trindade — метро и Urbanos» или заменить на: «Trindade — важная пересадочная станция метро, но не вокзал CP».",
+        "confidence": "high",
+        "source": "Metro do Porto network; CP — Porto urban stations"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[6]",
+        "current": "Lisboa ↔ Cascais Urbano: 40мин, 1.95€ (Navegante)",
+        "problem": "Цена выглядит неверной/устаревшей и смешивает разные тарифные системы. Разовый билет CP Urbanos Lisboa оплачивается по зонам на Navegante occasional/Viva Viagem, а не просто «1.95€ Navegante». Полная поездка Cais do Sodré–Cascais обычно относится к нескольким зонам и стоит не как короткая городская поездка.",
+        "suggestion": "Проверить по актуальной таблице CP Urbanos de Lisboa и написать зонально, например: «Cais do Sodré ↔ Cascais: около 40 мин; разовый билет CP по зонам на Navegante occasional/Viva Viagem — проверяйте актуальную цену в таблице Urbanos de Lisboa». Если указываете точную цену, брать её из таблицы CP 2026.",
+        "confidence": "medium",
+        "source": "CP — Urbanos de Lisboa fare table / Tarifários"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[7]",
+        "current": "Lisboa ↔ Sintra Urbano: 40мин, 2.45€",
+        "problem": "Цена может быть устаревшей или округлённой без пояснения зон. Для Sintra, как и для Cascais, цена зависит от зон и носителя билета; лучше ссылаться на тариф CP Urbanos de Lisboa, а не давать неподтверждённую фиксированную сумму.",
+        "suggestion": "Написать: «Lisboa/Rossio ↔ Sintra: около 40 мин; разовый билет CP по зонам, актуальную цену смотрите в тарифе Urbanos de Lisboa». Если оставлять цену, сверить с таблицей CP 2026.",
+        "confidence": "medium",
+        "source": "CP — Urbanos de Lisboa fare table / Tarifários"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[3]",
+        "current": "Cartão Amigo (годовой 25€): -20% на все поездки",
+        "problem": "Слишком широкое и, вероятно, неверное описание. Cartão Amigo не означает автоматическую скидку «-20% на все поездки» без ограничений; у CP скидки зависят от типа поезда, маршрута, условий покупки, наличия мест и применимости тарифа.",
+        "suggestion": "Заменить на: «Cartão Amigo: платная карта CP с ограниченными скидками по условиям CP; перед покупкой проверьте, действует ли на ваш тип поезда/маршрут и можно ли совмещать с promo-тарифами». Указать точные проценты только после сверки с текущей страницей CP.",
+        "confidence": "medium",
+        "source": "CP — Cartão Amigo / Discounts"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[4]",
+        "current": "Семейная скидка: 4+ = -50% детям 4-12 лет",
+        "problem": "Формулировка смешивает стандартную детскую скидку и семейные тарифы. У CP дети 4–12 лет обычно имеют отдельную детскую скидку, а семейные/групповые предложения имеют свои условия по числу пассажиров, возрасту детей, типам поездов и датам. «4+ = -50% детям» как универсальное правило вводит в заблуждение.",
+        "suggestion": "Разделить: «Дети 4–12 лет: обычно 50% скидка при соблюдении условий CP. Семейные/групповые тарифы — отдельные предложения с ограничениями; проверяйте условия на странице Discounts».",
+        "confidence": "high",
+        "source": "CP — Children discounts; CP — Family/group discounts"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[5]",
+        "current": "Студенты с удостоверением — дополнительные скидки",
+        "problem": "Слишком общее утверждение. Обычный студенческий билет сам по себе не гарантирует скидку на AP/IC. Основные массовые скидки для молодых пассажиров обычно идут через Cartão Jovem, Sub23/4_18 относятся в основном к проездным/общественному транспорту, а не к любым междугородним билетам CP.",
+        "suggestion": "Написать: «Студенческие скидки не универсальны: для AP/IC чаще применим Cartão Jovem или специальные кампании/протоколы. Sub23/4_18 — в основном про проездные и имеют отдельные условия».",
+        "confidence": "medium",
+        "source": "CP — Discounts; IMT/AMT public transport pass programmes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].text",
+        "current": "Можно купить на станции, через app или с картой Navegante (Lisboa) / Andante (Porto).",
+        "problem": "Фраза вводит в заблуждение. Navegante действует в системе Лиссабонской агломерации и на соответствующих CP Urbanos de Lisboa, но не является универсальным билетом на все пригородные/региональные направления. Andante действует по зонам в Porto Metropolitan Area и не покрывает все поездки CP Urbanos до Braga/Aveiro/Guimarães как обычный безлимитный способ оплаты. Кроме того, не все urban tickets удобно/всегда доступны через приложение CP.",
+        "suggestion": "Написать: «Urbanos обычно покупаются в автомате/кассе или оплачиваются соответствующей транспортной картой в пределах зон действия: Navegante/Viva Viagem для Lisboa, Andante только в зонах Andante вокруг Porto; для Braga/Aveiro/Guimarães часто нужен билет CP по тарифу CP».",
+        "confidence": "high",
+        "source": "CP — Urbanos de Lisboa fares; CP — Urbanos do Porto fares; Andante zonal coverage"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[0]",
+        "current": "5 дней вперёд: -65% на AP (Lisboa-Porto с 40€ до 14€)",
+        "problem": "Promo-тарифы CP не являются гарантированной скидкой на любой AP: они зависят от наличия мест, поезда, маршрута и условий обмена/возврата. Также скидки CP Promo обычно применяются к AP и IC, а не только AP.",
+        "suggestion": "Написать: «Promo tickets AP/IC: скидки до 65% при покупке заранее, но квоты ограничены, не на все поезда/даты, условия обмена и возврата строже».",
+        "confidence": "high",
+        "source": "CP — Promo tickets terms and conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Типы: Alfa Pendular (быстрые Lisboa-Porto 2.5ч)",
+        "problem": "«2.5ч» слишком оптимистично/округлено: типичное время Lisboa–Porto на Alfa Pendular ближе к 2ч45–3ч в зависимости от станций и рейса. В самом разделе маршрутов далее указано 2ч45мин, что противоречит TLDR.",
+        "suggestion": "Заменить на «около 2ч45–3ч Lisboa–Porto» или синхронизировать с разделом маршрутов: «2ч45мин».",
+        "confidence": "high",
+        "source": "CP — Lisboa-Porto timetable"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Lisboa ↔ Porto AP: 2ч 45мин, 25-40€",
+        "problem": "Диапазон цен неполный без пояснения: стандартный билет Alfa Pendular в Conforto может быть выше 40€, а promo-билеты могут быть ниже. Сейчас это выглядит как полный диапазон цен.",
+        "suggestion": "Написать: «AP: около 2ч45–3ч; стандартный Turística обычно около 35€, Conforto дороже; promo при ранней покупке может быть существенно дешевле. Точные цены зависят от рейса».",
+        "confidence": "medium",
+        "source": "CP — Alfa Pendular fares / booking engine"
+      }
+    ],
+    "missing_topics": [
+      "Условия Promo tickets: ограниченные квоты, не все рейсы, специальные правила обмена/возврата",
+      "Разница между обязательным местом в AP/IC и свободной посадкой в Urbanos/Regional",
+      "Зональность Navegante/Viva Viagem и Andante: карты не являются универсальным способом оплаты всех поездов CP",
+      "Официальные страницы CP по скидкам: Cartão Jovem, Cartão Amigo, crianças, família/grupos",
+      "Правила провоза багажа, велосипедов и животных",
+      "Что делать при забастовках/отменах: проверять avisos/perturbações CP и права на возврат/перебронирование"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4525,
+    "prompt_tokens": 2367,
+    "total_tokens": 6892
+  },
+  "model": "gpt-5.5"
+}

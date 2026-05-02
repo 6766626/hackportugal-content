@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ext-eportugal",
+    "title": "ePortugal — portal único de serviços públicos",
+    "categoryId": "digital_gov",
+    "telegramUrl": "https://eportugal.gov.pt/cidadaos",
+    "tags": [
+      "oficial",
+      "serviços públicos"
+    ]
+  },
+  {
+    "id": "ext-sns24",
+    "title": "SNS24 — cuidados de saúde online",
+    "categoryId": "healthcare",
+    "telegramUrl": "https://www.sns24.gov.pt/",
+    "tags": [
+      "oficial",
+      "sns"
+    ]
+  },
+  {
+    "id": "ext-imt",
+    "title": "IMT — Instituto da Mobilidade e dos Transportes",
+    "categoryId": "driving_license",
+    "telegramUrl": "https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx",
+    "tags": [
+      "oficial",
+      "carta de condução"
+    ]
+  },
+  {
+    "id": "ext-vistosmne",
+    "title": "Vistos MNE — portal de vistos",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://vistos.mne.gov.pt/pt/",
+    "tags": [
+      "oficial",
+      "vistos"
+    ]
+  },
+  {
+    "id": "ext-dgav",
+    "title": "DGAV — autoridade veterinária para animais",
+    "categoryId": "animals",
+    "telegramUrl": "https://www.dgav.pt/animais/",
+    "tags": [
+      "oficial",
+      "animais"
+    ]
+  },
+  {
+    "id": "ext-autenticacao",
+    "title": "Autenticacao.gov — Chave Móvel Digital",
+    "categoryId": "digital_gov",
+    "telegramUrl": "https://www.autenticacao.gov.pt/",
+    "tags": [
+      "oficial",
+      "chave"
+    ],
+    "fullGuideId": "chave-movel-digital"
+  },
+  {
+    "id": "ext-deco",
+    "title": "DECO Proteste — defesa do consumidor",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.deco.proteste.pt/",
+    "tags": [
+      "site",
+      "consumidores"
+    ]
+  },
+  {
+    "id": "ext-oa",
+    "title": "Ordem dos Advogados — pesquisa de advogado",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://portal.oa.pt/",
+    "tags": [
+      "site",
+      "advogado"
+    ]
+  },
+  {
+    "id": "ext-dge",
+    "title": "DGE — Direcção-Geral da Educação",
+    "categoryId": "education_children",
+    "telegramUrl": "https://www.dge.mec.pt/",
+    "tags": [
+      "oficial",
+      "educação"
+    ]
+  },
+  {
+    "id": "ext-portalmatriculas",
+    "title": "Portal das Matrículas — matrícula escolar",
+    "categoryId": "education_children",
+    "telegramUrl": "https://portaldasmatriculas.edu.gov.pt/",
+    "tags": [
+      "oficial",
+      "escola"
+    ],
+    "fullGuideId": "school-enrollment"
+  },
+  {
+    "id": "ext-dges",
+    "title": "DGES — Direcção-Geral do Ensino Superior",
+    "categoryId": "education_children",
+    "telegramUrl": "https://www.dges.gov.pt/pt",
+    "tags": [
+      "oficial",
+      "ensino superior"
+    ],
+    "fullGuideId": "d4-student"
+  },
+  {
+    "id": "ext-dre",
+    "title": "DRE — Diário da República (leis)",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://dre.pt/",
+    "tags": [
+      "oficial",
+      "leis"
+    ]
+  },
+  {
+    "id": "ext-apav",
+    "title": "APAV — apoio a vítimas de violência",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://apav.pt/",
+    "tags": [
+      "oficial",
+      "segurança"
+    ]
+  },
+  {
+    "id": "ext-cicdr",
+    "title": "CICDR — comissão para a discriminação",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.cicdr.pt/",
+    "tags": [
+      "oficial",
+      "direitos"
+    ]
+  },
+  {
+    "id": "ext-siac",
+    "title": "SIAC — base de dados de registo de animais",
+    "categoryId": "animals",
+    "telegramUrl": "https://siac.vet/",
+    "tags": [
+      "oficial",
+      "animais"
+    ],
+    "fullGuideId": "pet-import"
+  },
+  {
+    "id": "ext-inem",
+    "title": "INEM — serviço nacional de emergência médica",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.inem.pt/",
+    "tags": [
+      "oficial",
+      "emergência"
+    ],
+    "fullGuideId": "emergency-112"
+  },
+  {
+    "id": "ext-psp",
+    "title": "PSP — Polícia de Segurança Pública",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.psp.pt/",
+    "tags": [
+      "oficial",
+      "polícia"
+    ]
+  },
+  {
+    "id": "ext-mne-moscow",
+    "title": "Embaixada de Portugal em Moscovo",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://moscovo.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "oficial",
+      "consulado",
+      "rússia"
+    ]
+  },
+  {
+    "id": "ext-mne-warsaw",
+    "title": "Embaixada de Portugal em Varsóvia",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://varsovia.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "oficial",
+      "consulado",
+      "polónia"
+    ]
+  },
+  {
+    "id": "ext-mne-madrid",
+    "title": "Embaixada de Portugal em Madrid",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://madrid.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "oficial",
+      "consulado",
+      "espanha"
+    ]
+  },
+  {
+    "id": "ext-mne-berlin",
+    "title": "Embaixada de Portugal em Berlim",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://berlim.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "oficial",
+      "consulado",
+      "alemanha"
+    ]
+  },
+  {
+    "id": "ext-mne-consulates-map",
+    "title": "Todas as embaixadas e consulados de Portugal (mapa)",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://www.portaldascomunidades.mne.gov.pt/pt/rede-consular",
+    "tags": [
+      "oficial",
+      "consulados",
+      "mapa"
+    ]
+  },
+  {
+    "id": "ext-cmvm",
+    "title": "CMVM — comissão do mercado de valores mobiliários (fundos Golden Visa)",
+    "categoryId": "housing_buy",
+    "telegramUrl": "https://www.cmvm.pt/",
+    "tags": [
+      "oficial",
+      "investimentos"
+    ],
+    "fullGuideId": "golden-visa-2026"
+  },
+  {
+    "id": "ext-adene",
+    "title": "ADENE — certificado energético",
+    "categoryId": "housing_buy",
+    "telegramUrl": "https://www.adene.pt/",
+    "tags": [
+      "oficial",
+      "imobiliário"
+    ],
+    "fullGuideId": "buying-property"
+  }
+]

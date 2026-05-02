@@ -1,0 +1,188 @@
+{
+  "guideId": "credit-card-pt",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по общей логике, но содержит несколько сильных обобщений про требования банков, неверное объяснение «direito ao esquecimento», путаницу с TAEG/просрочкой и много неподтверждённых/сомнительных названий и условий конкретных карт.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Для получения cartão de crédito нужны: NIF + NISS + резидентский статус 6+ мес + регулярный доход",
+        "problem": "Это подано как обязательное юридическое требование, но в Португалии нет общего правила, что для кредитной карты обязательно нужны NISS и именно 6+ месяцев резидентства. Банки оценивают KYC, налоговое резидентство/адрес, доход, стабильность занятости и риск; требования отличаются по банкам. NISS обычно нужен как подтверждение работы/соцвзносов, но не всегда как формальный документ для всех заявителей, например пенсионеров или лиц с другим доходом.",
+        "suggestion": "Написать: «Обычно попросят NIF, документ ID/ВНЖ или certificado de registo для EU, comprovativo de morada, подтверждение дохода и иногда NISS/доказательство соцвзносов. Многие банки хотят видеть несколько месяцев отношений с банком/дохода в PT, но правило “6+ месяцев” — банковская практика, не закон».",
+        "confidence": "high",
+        "source": "Banco de Portugal — Portal do Cliente Bancário; general bank KYC/creditworthiness practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0]",
+        "current": "🪪 Резидентский статус (ВНЖ или EU registo) ≥ 6 мес",
+        "problem": "Слишком категорично. У банков может быть внутренний порог по времени проживания/отношениям с банком, но единого требования «EU registo или ВНЖ минимум 6 месяцев» нет. Нерезиденты и новые резиденты иногда получают кредитные продукты при достаточном доходе/активах, а иногда получают отказ даже после 6 месяцев.",
+        "suggestion": "Заменить на: «Подтверждённый легальный статус/адрес в PT; стаж проживания и отношений с банком повышает шансы, но конкретный порог зависит от банка».",
+        "confidence": "high",
+        "source": "Banco de Portugal — responsible lending/creditworthiness assessment principles"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1]",
+        "current": "🆔 NIF + NISS",
+        "problem": "NIF почти всегда нужен, но NISS не универсален для кредитной карты. Для работника NISS может фигурировать в payroll/Segurança Social, но пенсионер, владелец капитала или заявитель с иностранным доходом может подаваться без NISS, если банк принимает иной proof of income.",
+        "suggestion": "Написать: «NIF обязателен практически всегда; NISS часто просят у работающих/recibos verdes, но список документов зависит от банка и источника дохода».",
+        "confidence": "high",
+        "source": "Banco de Portugal — Portal do Cliente Bancário"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4]",
+        "current": "⚠️ Безработица или зависимый ВНЖ = откажут или дадут лимит на свою carga",
+        "problem": "Фраза фактически и терминологически неверная/непонятная. «Зависимый ВНЖ» сам по себе не является автоматическим основанием для отказа; ключевой фактор — собственный доход, household income, поручительство/совместный заявитель и внутренний scoring банка. «дадут лимит на свою carga» не является нормальным банковским термином.",
+        "suggestion": "Заменить на: «Если нет собственного подтверждённого дохода, банк часто откажет или предложит очень низкий лимит; иногда возможен совместный заявитель/guarantor или secured product, если банк такое предлагает».",
+        "confidence": "high",
+        "source": "Banco de Portugal — creditworthiness assessment"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[6]",
+        "current": "⛔ Долги в Mapa de Responsabilidades de Crédito (CRC) = автоотказ",
+        "problem": "CRC показывает не только «плохие долги», а все кредитные обязательства, включая нормальную ипотеку, автокредит, кредитную карту и овердрафт. Наличие записей в CRC не равно автоотказу; проблемой являются просрочки/incumprimento, реструктурированные кредиты, высокий debt-to-income и excessive exposure.",
+        "suggestion": "Написать: «Просрочки/incumprimento или чрезмерная долговая нагрузка в CRC почти наверняка ухудшат решение; обычные кредиты без просрочек сами по себе не являются автоматическим отказом».",
+        "confidence": "high",
+        "source": "Banco de Portugal — Central de Responsabilidades de Crédito / Mapa de Responsabilidades de Crédito"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[4]",
+        "current": "⛔ Просрочка = чёрная метка на 5 лет",
+        "problem": "Слишком упрощённо и, вероятно, неверно как описание CRC. CRC — это не публичный FICO-скоринг и не «чёрный список на 5 лет» в бытовом смысле. Банки видят данные, сообщаемые финансовыми учреждениями, и оценивают риск по своим моделям; последствия просрочки зависят от статуса долга, урегулирования, времени и внутренних правил банка.",
+        "suggestion": "Заменить на: «Просрочка попадает в отчётность CRC и может серьёзно ухудшить доступ к кредиту; после урегулирования важно проверить, как банк обновил статус в CRC. Сроки хранения/использования данных и эффект на scoring не равны простому правилу “5 лет”».",
+        "confidence": "medium",
+        "source": "Banco de Portugal — Central de Responsabilidades de Crédito"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].items[6]",
+        "current": "⚖️ DEC (Direito a Esquecimento de Crédito): через 5 лет долги аннулируются если не реактивированы",
+        "problem": "Это неверно. «Direito ao esquecimento» в португальском контексте касается запрета дискриминации при доступе к кредиту/страхованию для людей, преодолевших онкологическое заболевание или имеющих определённые состояния/инвалидность; это не механизм списания долгов. Долги не «аннулируются через 5 лет» по DEC. Сроки prescrição зависят от типа долга и могут прерываться, а признание/взыскание долга имеет отдельные правила.",
+        "suggestion": "Удалить этот пункт полностью или заменить на: «Не путать: direito ao esquecimento не списывает долги по кредиткам. Если есть старые долги, сроки prescrição зависят от вида обязательства и прерываний; нужна консультация юриста/DECO».",
+        "confidence": "high",
+        "source": "Lei n.º 75/2021; regime do direito ao esquecimento para acesso a crédito e seguros"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "🔁 Возможна 100% оплата без процентов (carência)",
+        "problem": "Неправильное использование термина. Для кредитных карт корректнее говорить о pagamento a 100% / modalidade de pagamento a 100% или período de crédito gratuito до даты списания. «Carência» обычно означает grace period/отсрочку в кредитном договоре и может иметь другое значение.",
+        "suggestion": "Написать: «Можно выбрать pagamento a 100% na data de vencimento — тогда проценты по покупкам обычно не начисляются. Если платить частями/minimum payment, начисляются TAN/TAEG и налоги/комиссии по договору».",
+        "confidence": "high",
+        "source": "Banco de Portugal — Cartões de crédito, Portal do Cliente Bancário"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[5]",
+        "current": "🔁 «Carência» — возможность отложить оплату на 1-3 мес (полезно при кризисе), но банк может занести в CRC",
+        "problem": "Смешаны разные вещи: договорная carência/мораторий, изменение payment plan, revolving payment и просрочка. Если отсрочка согласована банком, это не то же самое, что просрочка; если клиент просто не платит, это incumprimento и будет отражено. Формулировка может подтолкнуть к неверному решению.",
+        "suggestion": "Заменить на: «Если не можете оплатить 100%, заранее согласуйте с банком modalidade de pagamento/restructuring. Неуплата без соглашения = incumprimento и ухудшение CRC. Отсрочки и рассрочки обычно стоят денег через проценты/комиссии».",
+        "confidence": "high",
+        "source": "Banco de Portugal — prevenção e gestão do incumprimento; Portal do Cliente Bancário"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "label: APR (просрочка платежа), amountEURMin: 12, amountEURMax: 22, note: %",
+        "problem": "APR/TAEG не является «стоимостью просрочки платежа». TAEG — годовая эффективная ставка стоимости кредита; просрочка может включать default interest/juros de mora, комиссии, imposto do selo и последствия по CRC. Кроме того, в Португалии надо использовать термины TAN/TAEG и проверять максимальные ставки Banco de Portugal для consumer credit/credit cards, которые меняются по кварталам.",
+        "suggestion": "Заменить на отдельные строки: «TAEG/TAN при pagamento fracionado/revolving: зависит от карты и не может превышать максимальные ставки BdP для соответствующей категории потребкредита» и «Просрочка: juros de mora/комиссии/CRC — по договору и закону».",
+        "confidence": "high",
+        "source": "Banco de Portugal — taxas máximas no crédito aos consumidores; Decreto-Lei n.º 133/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[5]",
+        "current": "⚠️ APR обычно 12-22% если не платите 100%",
+        "problem": "В Португалии потребительские кредитные карты раскрываются через TAN/TAEG, а не «APR». Диапазон 12–22% без даты и ссылки быстро устаревает и может конфликтовать с квартальными maximum rates Banco de Portugal. Для 2026 нужно ссылаться на актуальную таблицу BdP, а не давать неподтверждённый диапазон.",
+        "suggestion": "Написать: «Если не платить 100%, начисляются TAN/TAEG по договору; проверяйте FINE/FIN и квартальные limites máximos de TAEG Banco de Portugal для cartões de crédito/linhas de crédito».",
+        "confidence": "high",
+        "source": "Banco de Portugal — taxas máximas no crédito aos consumidores"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2]",
+        "current": "Популярные карты: Millennium Cartão Premium, ActivoBank Visa Classic, Santander Light, CGD Caixa Worldwide, BPI 5 estrelas, Millennium World Mastercard, ActivoBank Gold, CGD Universal Plus, Santander Light Visa, Wizink White, Millennium Visa Platinum, BPI World Elite Mastercard, Santander Select, Caixa Geral Visa Infinite",
+        "problem": "Список выглядит как смесь реальных, старых, переименованных или неподтверждённых продуктов, а условия cashback/fees/лимитов указаны без ссылок. Для кредитных карт условия в Португалии часто меняются, а названия типа «ActivoBank Gold», «CGD Universal Plus», «Caixa Geral Visa Infinite», «Millennium Cartão Premium» в таком виде требуют проверки по официальным product pages. Без источников это может вводить в заблуждение.",
+        "suggestion": "Либо убрать конкретные продукты и оставить критерии выбора, либо для каждой карты дать ссылку на официальный folheto/FINE/FIN банка и дату проверки. Не указывать annual fee/cashback/лимиты без официального источника.",
+        "confidence": "medium",
+        "source": "Official product pages and FIN/FINE documents of Millennium bcp, ActivoBank, Santander, CGD, BPI, WiZink"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[4]",
+        "current": "🟡 **Wizink White**: 0 €/год, 0% IRR на 24 мес для перевода долга",
+        "problem": "Термин «IRR» здесь не португальский потребкредитный термин; нужно TAN/TAEG. Условия balance transfer у WiZink исторически были промо-кампаниями с ограничениями, комиссиями и eligibility, а не универсальным постоянным правом на «0% на 24 месяца». Без официальной ссылки это опасное финансовое утверждение.",
+        "suggestion": "Написать: «Иногда у WiZink/других эмитентов бывают campanhas de transferência de saldo с промо TAN 0%, но нужно проверять TAEG, comissão de transferência, prazo, eligibility и FIN/FINE на дату заявки».",
+        "confidence": "medium",
+        "source": "WiZink Portugal official card terms / FIN; Banco de Portugal consumer credit disclosure rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[4]",
+        "current": "⚠️ MB Net (онлайн платежи) — отдельная виртуальная",
+        "problem": "MB NET сейчас фактически используется через MB WAY как сервис создания виртуальных карт для онлайн-платежей, а не обязательно «отдельная виртуальная карта» от банка в бытовом смысле. Формулировка может запутать новых пользователей.",
+        "suggestion": "Заменить на: «Для онлайн-платежей можно создавать cartões virtuais MB NET через MB WAY, если банк/карта поддерживает сервис».",
+        "confidence": "high",
+        "source": "SIBS / MB WAY — MB NET"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2]",
+        "current": "🌍 Платить за поездки за границу — кредитки имеют страхование и chargeback (вернёт деньги при мошенничестве)",
+        "problem": "Chargeback не является гарантированным «вернёт деньги»; это процедура платёжной схемы/банка с условиями, сроками и доказательствами. Страхование путешествий тоже есть не у всех кредитных карт и часто действует только если поездка оплачена картой.",
+        "suggestion": "Написать: «Некоторые карты дают travel insurance и возможность dispute/chargeback, но условия, лимиты, сроки и необходимость оплатить поездку картой надо проверять в apólice/terms».",
+        "confidence": "high",
+        "source": "Banco de Portugal — payment card disputes; card issuer insurance terms"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "Cash advance fee: amountEURMin 5, amountEURMax 25",
+        "problem": "В тексте выше cash advance описан как «комиссия 5%», а в costs — как 5–25 евро. На практике cash advance может иметь фиксированную комиссию, процент, minimum fee, проценты с даты снятия и imposto do selo. В текущем виде цифры не складываются и не объясняют реальную стоимость.",
+        "suggestion": "Заменить на: «Cash advance: обычно фиксированная комиссия + процент от суммы и проценты с даты снятия; точные valores смотрите в preçário/FIN карты. Избегать без крайней необходимости».",
+        "confidence": "high",
+        "source": "Banco de Portugal — preçários bancários / Portal do Cliente Bancário"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[7]",
+        "current": "💰 Хорошая история через 12 мес = доступ к ипотеке, авто-кредитам",
+        "problem": "Слишком обещающе. 12 месяцев нормальной кредитной истории не гарантируют ипотеку или автокредит. Решают доход, contrato efetivo/стабильность, LTV, taxa de esforço, собственный взнос, тип ВНЖ, возраст, оценка недвижимости и политика банка.",
+        "suggestion": "Написать: «Хорошая история и отсутствие просрочек помогают, но ипотека/автокредит зависят от дохода, taxa de esforço, первоначального взноса, статуса и политики банка».",
+        "confidence": "high",
+        "source": "Banco de Portugal — responsible lending and mortgage credit rules"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Только 2 источника Banco de Portugal: Mapa de Responsabilidades и Cartões de Crédito",
+        "problem": "Для гайда с конкретными ставками, fees, cashback и названиями карт недостаточно источников. Нужны официальные preçários/FIN/FINE эмитентов и источник BdP по maximum rates/TAEG. Иначе sensitive financial claims выглядят неподтверждёнными.",
+        "suggestion": "Добавить: Banco de Portugal — taxas máximas no crédito aos consumidores; Banco de Portugal — preçários; официальные страницы/FIN каждой упомянутой карты; SIBS/MB WAY для MB NET.",
+        "confidence": "high",
+        "source": "Banco de Portugal; SIBS; official bank product documents"
+      }
+    ],
+    "missing_topics": [
+      "Разница между TAN, TAEG, MTIC и APR; в Португалии в документах по кредиту используются TAN/TAEG",
+      "Квартальные maximum rates Banco de Portugal для cartões de crédito/linhas de crédito и необходимость проверять актуальную таблицу",
+      "Imposto do selo и комиссии, которые могут применяться к кредиту, снятию наличных и процентам",
+      "Modalidades de pagamento: 100%, fixed percentage, minimum payment, fixed amount; последствия каждой модели",
+      "FIN/FINE/preçário: какие документы банк обязан дать до заключения договора и где смотреть реальные комиссии",
+      "Право на отказ/withdrawal от потребительского кредита в установленный срок и порядок жалоб через Livro de Reclamações/Banco de Portugal",
+      "Что делать при финансовых трудностях: PARI/PERSI и контакт с банком до просрочки",
+      "Безопасность карт: 3-D Secure, MB WAY/MB NET, лимиты, блокировка карты, liability при fraud и сроки dispute"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5480,
+    "prompt_tokens": 3194,
+    "total_tokens": 8674
+  },
+  "model": "gpt-5.5"
+}

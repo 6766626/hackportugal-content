@@ -1,0 +1,135 @@
+export default {
+  editorialVoice: 'hackportugal',
+  id: 'pediatric-care',
+  categoryId: 'healthcare',
+  title: 'Педиатр в Португалии — SNS, частные врачи, чего ожидать',
+  tldr: 'В SNS каждому ребёнку по умолчанию назначается **médico de família** (это не обязательно педиатр — чаще семейный врач). Плановые осмотры по графику Saúde Infantil: 1, 2, 4, 6, 9, 12, 15, 18, 24 мес, 3, 4, 5, 6, 8, 10, 13, 15, 18 лет — бесплатно. Педиатры-специалисты (pediatria) — через направление семейного врача или в частных клиниках (Lusíadas, CUF, Luz) за 60–120 €/визит без страховки. Детская неотложная помощь: Hospital Dona Estefânia (Lisboa), педиатрическое отделение Hospital de São João (Porto). Запись: через приложение SNS 24 или через Centro de Saúde.',
+  tags: ['педиатр', 'дети', 'sns', 'médico de família'],
+  estimatedReadMinutes: 5,
+  steps: [
+    {
+      id: 'sns-system',
+      title: '🏥 Как работает SNS для детей',
+      content: [
+        { kind: 'paragraph', text: 'Важное отличие от РФ/BR: в PT дети наблюдаются у **médico de família** (семейного врача) — не у педиатра как отдельного врача. Педиатры — узкие специалисты для сложных случаев.' },
+        { kind: 'substeps', items: [
+          { id: 'f1', title: 'Регистрация ребёнка в SNS', content: [
+            { kind: 'checklist', items: [
+              '1. После рождения / приезда — в **Centro de Saúde** по месту жительства',
+              '2. Документы: паспорт / Cartão de Cidadão ребёнка, NIF, NISS, свидетельство о рождении, Atestado de Residência',
+              '3. Присвоят **Número de Utente** (пожизненный)',
+              '4. Назначат médico de família (семейного врача) — ведёт ребёнка до 18 лет',
+              '5. Автоматически включат в программу Saúde Infantil — плановые визиты по графику DGS',
+              '⚠️ Если в вашем Centro de Saúde нет свободных врачей — ставят в лист ожидания. В 2025 ~800 тыс детей в PT без médico de família'
+            ]}
+          ]},
+          { id: 'f2', title: 'Saúde Infantil — плановые визиты', content: [
+            { kind: 'checklist', items: [
+              'Бесплатно для utente, по графику DGS:',
+              '🍼 **< 1 года**: 1, 2, 4, 6, 9, 12 мес — вес/рост, развитие, вакцины, питание',
+              '🧒 **1-5 лет**: 15, 18, 24 мес, 3-4-5 лет — речь, моторика, вакцины',
+              '📚 **Школа**: 6, 8, 10 лет — рост, зрение, слух, вакцины',
+              '🧑 **Подросток**: 13, 15, 18 лет — половое развитие, психоэмоциональное состояние, самостоятельность',
+              '📱 Напоминания приходят в приложение SNS 24',
+              '📋 Электронная карта вакцин и консультаций — в приложении'
+            ]}
+          ]},
+          { id: 'f3', title: 'Специалист pediatra', content: [
+            { kind: 'checklist', items: [
+              'Направление от семейного врача (через RRVE) — бесплатно, но ожидание 2-6 мес',
+              'Для срочного случая: частный pediatra за 60–120 € / визит',
+              'Распространённые направления: детская эндокринология, детская неврология, детская дерматология',
+              '**Частный pediatra со страховкой** (Médis/Multicare): доплата 10–25 €'
+            ]}
+          ]}
+        ]}
+      ]
+    },
+    {
+      id: 'private-clinics',
+      title: '💼 Частные педиатры и клиники',
+      content: [
+        { kind: 'substeps', items: [
+          { id: 'c1', title: 'Когда идти в частную клинику', content: [
+            { kind: 'checklist', items: [
+              'Нет médico de família в SNS (лист ожидания)',
+              'Языковой барьер — врачи SNS не всегда говорят по-английски',
+              'Быстрая запись (24-48 ч в частной клинике)',
+              'Дополнительные услуги: оценка питания, психолог, логопед',
+              'Кажется, что семейный врач не специалист по конкретной проблеме'
+            ]}
+          ]},
+          { id: 'c2', title: 'Сети клиник', content: [
+            { kind: 'checklist', items: [
+              '**CUF Pediatrics** (Lisboa, Porto, Algarve) — комплексные услуги',
+              '**Lusíadas Pediatrics** — Amadora, Porto',
+              '**Hospital da Luz Pediatrics** — Lisboa, Setúbal',
+              '**Grupo Trofa Saúde** — район Porto',
+              '**Joaquim Chaves** — клиники формата retail',
+              '**Сеть AdvanceCare** — через страховку'
+            ]}
+          ]},
+          { id: 'c3', title: 'Цены без страховки', content: [
+            { kind: 'checklist', items: [
+              'Консультация общего педиатра: 60–100 €',
+              'Педиатр-специалист (неврология, кардиология): 80–150 €',
+              'Частная urgência pediátrica: 50–80 €',
+              'Анализы и обследования (анализ крови, УЗИ): 30–150 € за исследование',
+              'Пакет «наблюдение в первый год»: 300–600 € (ежемесячные приёмы + контроль этапов развития)'
+            ]}
+          ]},
+          { id: 'c4', title: 'С частной страховкой', content: [
+            { kind: 'checklist', items: [
+              '**Médis**: семейный план ~100–180 €/мес, доплата 10–20 €',
+              '**Multicare** (Fidelidade): ~80–150 €/мес, такая же доплата',
+              '**AdvanceCare** (Generali): более индивидуальные планы',
+              '**Tranquilidade**: прогрессивный вариант',
+              'Для ребёнка отдельно: ~20–40 €/мес',
+              'Обычно нет периода ожидания на педиатрию (работает сразу)'
+            ]}
+          ]}
+        ]}
+      ]
+    },
+    {
+      id: 'urgencia',
+      title: '🚨 Детская urgência',
+      content: [
+        { kind: 'substeps', items: [
+          { id: 'u1', title: 'Больницы с педиатрической urgência', content: [
+            { kind: 'checklist', items: [
+              '🏥 **Lisboa**: Hospital Dona Estefânia — основной педиатрический, 24/7',
+              '🏥 **Porto**: Hospital de São João, Centro Materno-Infantil do Norte',
+              '🏥 **Coimbra**: Hospital Pediátrico',
+              '🏥 **Faro**: педиатрическое отделение Hospital de Faro',
+              '🏥 **Cascais**: Hospital de Cascais (педиатрическое отделение)',
+              'Частные: CUF Tejo Pediatric, Luz Pediatric — меньше очередей'
+            ]}
+          ]},
+          { id: 'u2', title: 'Когда идти в urgência', content: [
+            { kind: 'checklist', items: [
+              '🔴 ДА: высокая температура у ребёнка <3 мес (любая >38°C), судороги, сильная одышка, обморок, тяжёлая травма, аллергическая реакция',
+              '🟡 Обычно не надо: простуда без осложнений, температура до 39°C у детей постарше, лёгкая травма',
+              '📞 **Сначала SNS 24 (808 24 24 24)** — оценят по Manchester triage',
+              '💡 Во многих Centro de Saúde есть Atendimento Complementar — менее загруженная альтернатива'
+            ]}
+          ]}
+        ]}
+      ]
+    },
+    {
+      id: 'vaccinations-children',
+      title: '💉 Вакцины PNV для детей',
+      content: [
+        { kind: 'paragraph', text: 'См. отдельный гайд «Прививки в Португалии» — полная схема PNV + особенности.' }
+      ]
+    }
+  ],
+  sources: [
+    { title: 'DGS — Saúde Infantil e Juvenil', url: 'https://www.dgs.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'SNS 24 — Saúde Infantil', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Hospital Dona Estefânia (педиатрический)', url: 'https://www.chlc.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+  ],
+  lastVerified: '2026-04-28',
+  verifyIntervalDays: 180
+}

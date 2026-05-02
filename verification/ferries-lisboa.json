@@ -1,0 +1,195 @@
+{
+  "guideId": "ferries-lisboa",
+  "categoryId": "public_transport",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has several material inaccuracies about ferry routes, ticket integration and Navegante pricing; it should not be published without corrections.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].title",
+        "current": "Terreiro do Paço ↔ Barreiro / Montijo (Soflusa)",
+        "problem": "Montijo is incorrectly grouped with Terreiro do Paço/Barreiro and Soflusa. The regular Barreiro route uses Terreiro do Paço, but the Montijo river connection is not the Terreiro do Paço-Barreiro Soflusa route.",
+        "suggestion": "Split into separate routes: “Terreiro do Paço ↔ Barreiro” and “Cais do Sodré ↔ Montijo” if the Montijo service is being covered. Do not label Montijo as the Soflusa Terreiro do Paço route.",
+        "confidence": "high",
+        "source": "Transtejo/Soflusa official routes map and timetables"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Cais Sodré-Trafaria-Porto Brandão",
+        "problem": "The Trafaria/Porto Brandão ferry is from Belém, not Cais do Sodré. Cais do Sodré serves routes such as Cacilhas, Seixal and Montijo.",
+        "suggestion": "Replace with “Belém–Porto Brandão–Trafaria” and, separately if needed, “Cais do Sodré–Cacilhas/Seixal/Montijo”.",
+        "confidence": "high",
+        "source": "Transtejo/Soflusa official routes map and timetables"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].title",
+        "current": "Cais do Sodré ↔ Porto Brandão (через Trafaria)",
+        "problem": "Wrong departure terminal. Porto Brandão/Trafaria service is the Belém route, not Cais do Sodré.",
+        "suggestion": "Change title to “Belém ↔ Porto Brandão ↔ Trafaria”.",
+        "confidence": "high",
+        "source": "Transtejo/Soflusa official routes map and timetables"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0].content[0].items[2]",
+        "current": "⏰ Билет ВРЕМЕННОЙ: 1 час с момента валидирования",
+        "problem": "Misleading for ferry tickets. A single ferry ticket is not a general 1-hour multimodal ticket like Carris/Metro; ferry occasional tickets are route-specific/validated for the river crossing. Time validity and transfer rules differ by product.",
+        "suggestion": "Write: “Разовый билет на паром валидируется для конкретной речной поездки/маршрута; это не универсальный 1-часовой билет на метро/автобус. Для пересадок используйте месячный Navegante или отдельные билеты/Zapping по правилам каждого оператора.”",
+        "confidence": "high",
+        "source": "Transtejo/Soflusa tariff conditions; Metropolitano/Carris ticket conditions"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "🔁 За это время можно сделать пересадку метро/автобус (один тариф)",
+        "problem": "Incorrect. A Transtejo/Soflusa occasional ferry ticket does not normally include a free transfer to metro/bus on one fare. Integration applies mainly through Navegante monthly passes or specific multimodal products, not ordinary ferry singles.",
+        "suggestion": "Remove this line or replace with: “Разовый паромный билет не включает бесплатную пересадку на метро/автобус; пересадки покрывает месячный Navegante или оплачиваются отдельно.”",
+        "confidence": "high",
+        "source": "Transtejo/Soflusa tariff conditions; Transportes Metropolitanos de Lisboa/Navegante tariff information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "💰 30 €/мес — безлимит автобус, метро, поезд CP, паромы",
+        "problem": "Wrong price for Navegante Metropolitano. €30/month is the municipal pass price; the metropolitan pass covering the Lisbon metropolitan area including cross-river commuting is €40/month for the standard adult product.",
+        "suggestion": "Write: “Navegante Municipal — 30 €/мес в пределах одного муниципалитета; Navegante Metropolitano — 40 €/мес по AML, включая метро, Carris/Carris Metropolitana, CP suburban, Fertagus, Metro Sul do Tejo и Transtejo/Soflusa по правилам тарифа.”",
+        "confidence": "high",
+        "source": "Transportes Metropolitanos de Lisboa / Navegante fare table"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "Navegante metropolitano (безлимит) — 30 €/мес",
+        "problem": "Same pricing error: the metropolitan pass is €40/month, not €30/month. €30 is municipal.",
+        "suggestion": "Change amountEUR to 40 and label clearly as “Navegante Metropolitano”. Optionally add a separate cost line for “Navegante Municipal — 30 €/мес”.",
+        "confidence": "high",
+        "source": "Transportes Metropolitanos de Lisboa / Navegante fare table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "🌐 Навегант metropolitano (Lisboa-Margem Sul) включает паромы",
+        "problem": "Understates and confuses the product scope. Navegante Metropolitano covers the Lisbon Metropolitan Area, not merely “Lisboa-Margem Sul”. There is also a municipal €30 product with narrower validity.",
+        "suggestion": "Write: “Navegante Metropolitano действует по всей Área Metropolitana de Lisboa; Navegante Municipal действует только в выбранном муниципалитете.”",
+        "confidence": "high",
+        "source": "Transportes Metropolitanos de Lisboa / Navegante"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[0]",
+        "current": "🛥️ **Yellow Boat** (Hop-on Hop-off) — туристические паромы Belém + Cacilhas + центр, ≈25 €/день",
+        "problem": "This mixes commercial tourist cruises with public ferries and may imply Yellow Boat is part of the Transtejo/Soflusa ferry network or Navegante. It is a private tourist product with separate ticketing and routes.",
+        "suggestion": "Clarify: “Это не городской паром и не входит в Navegante; это отдельный туристический оператор/круиз, цены и маршруты проверять у Yellow Bus/Yellow Boat.”",
+        "confidence": "high",
+        "source": "Yellow Bus/Yellow Boat official ticketing; Transtejo/Soflusa ticketing"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[5]",
+        "current": "🚌 От Cacilhas автобус 124 → Costa da Caparica (пляж)",
+        "problem": "Line number appears outdated/misleading after Carris Metropolitana reorganisation. The old TST-style numbering is not the reliable current reference for Cacilhas–Costa da Caparica travel.",
+        "suggestion": "Replace with: “От Cacilhas до Costa da Caparica ходят автобусы Carris Metropolitana; номера и частоту проверяйте в приложении/планировщике Carris Metropolitana, т.к. линии менялись.” If giving a number, verify against the current Carris Metropolitana timetable on the publication date.",
+        "confidence": "medium",
+        "source": "Carris Metropolitana route planner/timetables"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "💰 1,40 € (Navegante 0,90 €), Tejo 24h 6 €",
+        "problem": "The “Navegante 0,90 €” wording is unclear and likely wrong: Navegante is a fare system/card/pass, not a generic reduced single fare for everyone. The “Tejo 24h 6 €” figure also does not match the commonly published Lisbon 24h multimodal ticket pricing with Transtejo, which is materially higher than €6.",
+        "suggestion": "Replace with official current fare names from the TTSL/Navegante tariff table. Avoid “Navegante 0,90 €” unless you identify the exact product and eligibility. For 24h tickets, specify the exact product, e.g. Carris/Metro only vs Carris/Metro/Transtejo, and use the current official price.",
+        "confidence": "medium",
+        "source": "Transtejo/Soflusa tariff table; Navegante fare table"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "Tejo 24h tourist — 6",
+        "problem": "Likely outdated/incorrect and not precisely named. A 24h ticket including Transtejo is not simply a €6 “Tejo tourist” ticket; Lisbon 24h tickets differ depending on whether they include only Carris/Metro or also Transtejo/CP.",
+        "suggestion": "Use the exact current official product name and price from the Navegante/Metropolitano/Carris tariff table, or remove this cost line if not verified.",
+        "confidence": "medium",
+        "source": "Navegante fare table; Metropolitano de Lisboa ticket prices"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[3]",
+        "current": "📲 Карта Navegante или приложение Carris",
+        "problem": "Misleading for AML-wide pass/ferry use. The relevant card/product is Navegante; Carris is only one operator and its app is not the general reference for all ferry/Navegante products.",
+        "suggestion": "Write: “Карта Navegante; пополнение — через официальные каналы Navegante/операторов/автоматы. Для планирования маршрутов используйте Navegante/Carris Metropolitana/операторские приложения.”",
+        "confidence": "high",
+        "source": "Navegante official channels"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0]",
+        "current": "🚲 Велосипеды бесплатно на пароме — отличный план «Cacilhas + велосипед на Costa da Caparica»",
+        "problem": "Overbroad. Bikes may be allowed free but subject to capacity, designated spaces, crew instructions and route/vessel constraints. Presenting it as unconditional is misleading.",
+        "suggestion": "Write: “Велосипеды обычно можно провозить бесплатно, но при наличии места и по правилам экипажа/оператора; в часы пик могут быть ограничения.”",
+        "confidence": "high",
+        "source": "Transtejo/Soflusa passenger rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "⛅ Зимой расписание сокращено, ночные паромы только с пятницы по воскресенье",
+        "problem": "Too general and likely inaccurate across all routes. Timetables vary by route, weekday/weekend/holiday and seasonal changes; “night ferries only Friday to Sunday” is not a universal rule.",
+        "suggestion": "Write: “Расписания сильно зависят от маршрута, дня недели и сезона; поздние рейсы есть не на всех линиях. Проверяйте PDF/поиск расписания на TTSL перед поездкой.”",
+        "confidence": "medium",
+        "source": "Transtejo/Soflusa timetables"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3]",
+        "current": "🌊 Шторм >2 м: паромы могут отменить (редко, только Belém-Trafaria)",
+        "problem": "The “>2 m” threshold and “only Belém-Trafaria” claim need a source. Weather cancellations can depend on wind, river/sea conditions, vessel type and port authority/operator decisions, not a simple public 2 m rule.",
+        "suggestion": "Replace with: “При сильном ветре/шторме отдельные рейсы могут задерживать или отменять; чаще страдают более открытые участки. Проверяйте alerts/avisos на TTSL.”",
+        "confidence": "medium",
+        "source": "Transtejo/Soflusa service alerts"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1]",
+        "current": "🐶 Маленькие животные в переноске — бесплатно",
+        "problem": "Needs caveat. Pet transport rules depend on carrier, hygiene/safety conditions, assistance animals, and potentially ticketing/size rules. “Free” without conditions may mislead.",
+        "suggestion": "Write: “Маленьких животных обычно можно везти в переноске по правилам оператора; собаки-поводыри допускаются отдельно. Проверьте актуальные condições de transporte de animais у TTSL.”",
+        "confidence": "medium",
+        "source": "Transtejo/Soflusa transport conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "Carris Metropolitana — Navegante — https://www.carrismetropolitana.pt/",
+        "problem": "Carris Metropolitana is not the best source for Navegante pass pricing and multimodal tariff validity. It is an operator/planner source, not the authoritative fare-system source for all Navegante products.",
+        "suggestion": "Add/replace with the official Navegante/TML fare source, e.g. navegante.pt or Transportes Metropolitanos de Lisboa tariff pages. Keep Carris Metropolitana only for bus route planning.",
+        "confidence": "high",
+        "source": "Transportes Metropolitanos de Lisboa / Navegante"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Transtejo / Soflusa — официальный — https://ttsl.pt/",
+        "problem": "Homepage is acceptable but insufficient for a guide with fares/timetables. Sensitive changing data should cite the specific timetable/tariff pages, not only the root domain.",
+        "suggestion": "Add direct official links to TTSL “Horários”, “Tarifários” and “Avisos” pages, with retrieval date.",
+        "confidence": "high",
+        "source": "Transtejo/Soflusa official site"
+      }
+    ],
+    "missing_topics": [
+      "Explain the difference between Navegante Municipal (€30) and Navegante Metropolitano (€40).",
+      "Clarify that single ferry tickets do not generally include free metro/bus transfers.",
+      "List the correct public ferry routes by terminal: Cais do Sodré–Cacilhas/Seixal/Montijo, Terreiro do Paço–Barreiro, Belém–Porto Brandão–Trafaria.",
+      "Add current official fare-table links for Transtejo/Soflusa and Navegante/TML.",
+      "Add note that timetables change by route, weekday/weekend/holiday and strikes/service alerts should be checked on TTSL.",
+      "Add caveats for bicycles and pets: allowed subject to operator rules/capacity, not unconditional."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5088,
+    "prompt_tokens": 2361,
+    "total_tokens": 7449
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,142 @@
+{
+  "guideId": "buying-property",
+  "categoryId": "housing_buy",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful structurally, but several tax tables and legal statements are materially misleading for 2026, especially IMT calculations, IMI rates/payment dates, youth exemption conditions, and when ownership transfers.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "costs[1] through costs[5]",
+        "current": "\"IMT primary residence (€104 261 – €142 618)\" amountEURMax 2800; \"€142 618 – €194 458\" amountEURMax 6900; \"€194 458 – €324 058\" amountEURMax 18000; \"€324 058 – €648 022\" amountEURMax 60000; \"€648 022+\" amountEURMin 40000 amountEURMax 100000",
+        "problem": "The IMT amounts do not match the Portuguese IMT formula for own permanent residence. The rates are marginal/progressive with abatements up to €648,022, and above that the tax is generally a single rate, not the bracket-style euro ranges shown. For example, at €142,618 the tax is about €767, not €2,800; at €194,458 about €3,359, not €6,900; at €324,058 about €12,431, not €18,000.",
+        "suggestion": "Replace euro min/max ranges with the official formula: taxable value × marginal rate − parcela a abater, or provide a calculator-style example. For 2026 mainland own permanent residence: up to €104,261 exempt; €104,261–€142,618: 2% minus €2,085.22; €142,618–€194,458: 5% minus €6,363.76; €194,458–€324,058: 7% minus €10,252.92; €324,058–€648,022: 8% minus €13,493.50; above €648,022: single rate 6%; above €1,128,287: single rate 7.5%. Verify exact table before publishing.",
+        "confidence": "high",
+        "source": "Código do IMT / Portal das Finanças IMT tables, OE 2026"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Налоги: IMT (1-10% прогрессивно), IS 0.8%.",
+        "problem": "This compresses several different regimes into a misleading statement. For mainland urban residential property, IMT is not simply “1–10% progressive”: own permanent residence can be 0%; normal brackets go to 8% with abatements, then single rates of 6% or 7.5%; 10% is a special flat rate for buyers/entities resident in blacklisted jurisdictions, not the ordinary progressive top rate.",
+        "suggestion": "Write: \"IMT зависит от назначения и цены: для habitação própria e permanente есть освобождение в нижнем диапазоне и прогрессивные ставки с abatimentos; выше установленного порога применяются single rates 6%/7.5%; 10% — только для покупателей из юрисдикций из португальского blacklist/offshore list.\"",
+        "confidence": "high",
+        "source": "Código do IMT"
+      },
+      {
+        "severity": "major",
+        "where": "costs[6]",
+        "current": "Молодые покупатели до 35 (primary residence ≤ €324 058) ... IMT+IS 0% с августа 2024 по DL 44/2024",
+        "problem": "The legal reference is wrong/misleading and the conditions are incomplete. The youth exemption was introduced by Decreto-Lei n.º 48-A/2024, not DL 44/2024. It is not just a simple “under 35 and ≤ €324,058” rule: it applies to first own permanent residence, with conditions such as age up to 35, not being considered a dependent, and not having owned residential property in the relevant previous period. There is also a partial exemption band above the full-exemption threshold up to the next IMT bracket limit.",
+        "suggestion": "Write: \"Jovens até 35: under DL 48-A/2024, IMT and 0.8% stamp duty exemption for first habitação própria e permanente, subject to conditions: age ≤35 at deed date, not dependent, no ownership/right over residential property in the previous 3 years, and value limits. Full exemption up to the 4th IMT bracket limit; partial relief may apply up to the next bracket. Check 2026 thresholds before signing.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 48-A/2024; Código do IMT; Código do Imposto do Selo"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3].content[0].text",
+        "current": "Право собственности переходит с регистрацией.",
+        "problem": "In Portugal, for ordinary property sales, ownership generally transfers by the valid purchase-and-sale title, i.e. escritura pública or documento particular autenticado. Land registry is crucial for publicity, priority and enforceability against third parties, but it is generally not the constitutive act that transfers ownership.",
+        "suggestion": "Write: \"Право собственности обычно переходит при действительном подписании escritura/documento particular autenticado; регистрация в Conservatória необходима для публичности, приоритета и защиты от третьих лиц и должна быть сделана сразу после сделки.\"",
+        "confidence": "high",
+        "source": "Código Civil; Código do Registo Predial"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2] and steps[2].content[0].items[3]",
+        "current": "Licença de utilização — лицензия на жилое использование; Ficha Técnica da Habitação — тех. паспорт (для после-2004 построек)",
+        "problem": "Since the Simplex Urbanístico changes, presentation of the licença de utilização and ficha técnica da habitação is no longer required for the execution of the sale deed in the same way as before. They remain very important due-diligence documents, but saying them as a simple mandatory pre-signing requirement is outdated/misleading.",
+        "suggestion": "Write: \"Licença de utilização / situação urbanística — после Simplex Urbanístico нотариус может не требовать предъявления лицензии для сделки, но покупателю всё равно нужно проверять законность строительства/использования, разрешения, возможные незаконные работы и риски с ипотекой/перепродажей. Ficha Técnica da Habitação: применимость зависит от возраста здания; после реформы её предъявление при сделке не работает как прежнее обязательное условие, но документ стоит запросить, если применимо.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 10/2024, Simplex Urbanístico"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[3]",
+        "current": "IMI (муниципальный налог) — платится ежегодно в мае/августе, 0.3-0.8% от фискальной стоимости",
+        "problem": "For urban residential property the normal municipal IMI rate is 0.3%–0.45% of VPT, not 0.3%–0.8%. The 0.8% rate is for rural property. Payment dates are incomplete: depending on the amount, IMI can be paid in May only, May/November, or May/August/November.",
+        "suggestion": "Write: \"IMI ежегодно по VPT: для prédios urbanos обычно 0.3%–0.45% по ставке município; 0.8% относится к rural property; для blacklisted/offshore owners может применяться повышенная ставка. Платежи: до €100 — май; €100–€500 — май и ноябрь; >€500 — май, август и ноябрь.\"",
+        "confidence": "high",
+        "source": "Código do IMI; Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[13].note",
+        "current": "0.3-0.45% фискальной стоимости, ставка назначается Câmara Municipal",
+        "problem": "This contradicts the earlier checklist, which says 0.3%–0.8%. The cost note is closer for urban residential property, but it omits special higher rates for blacklisted/offshore ownership.",
+        "suggestion": "Make both places consistent: \"urban residential IMI normally 0.3%–0.45% of VPT; rural 0.8%; special increased rates may apply for entities in blacklisted jurisdictions.\"",
+        "confidence": "high",
+        "source": "Código do IMI"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1].content[0].items[1]",
+        "current": "IS 0.8% — автоматически",
+        "problem": "Stamp duty on the acquisition is not simply “automatic”. In practice it is usually assessed/paid together with IMT before the deed, and proof of payment is needed at signing. Calling it automatic may cause buyers to miss the need to obtain/pay the guia.",
+        "suggestion": "Write: \"IS 0.8% sobre a aquisição — обычно liquidado вместе с IMT в Portal das Finanças/через нотариуса/solicitador и оплачивается до escritura; подтверждение оплаты предъявляется на сделке.\"",
+        "confidence": "high",
+        "source": "Código do Imposto do Selo; Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[7]",
+        "current": "\"IMT для покупателей из налоговых оффшоров\", \"amountEUR\": 0, \"note\": \"10% flat — независимо от стоимости\"",
+        "problem": "The note is directionally correct, but amountEUR: 0 is misleading because this is not a zero-cost item. Also the rule is not about any colloquial “offshore” but about entities/persons resident or domiciled in jurisdictions on Portugal’s official blacklist, with details depending on the buyer structure.",
+        "suggestion": "Remove amountEUR: 0 and use a percentage field or text only: \"10% flat IMT for buyers resident/domiciled in jurisdictions on Portugal’s official lista de países, territórios e regiões com regimes de tributação privilegiada, subject to legal details.\"",
+        "confidence": "high",
+        "source": "Código do IMT; Portaria n.º 150/2004 and subsequent blacklist updates"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[4]",
+        "current": "Agentes imobiliários (риелторы) — комиссия платит продавец (обычно 5%)",
+        "problem": "Usually true for listings where the seller contracted the agency, but not a legal rule. Commission is commonly 5% plus IVA, and a buyer may owe fees if they sign a buyer-representation/search agreement.",
+        "suggestion": "Write: \"Обычно комиссию агентству продавца платит продавец — часто около 5% + IVA 23%, но проверьте договор: если вы подписываете buyer-agent/search agreement, fee может лечь на покупателя.\"",
+        "confidence": "high",
+        "source": "general Portuguese real estate practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "Открыть счёт в PT-банке",
+        "problem": "A Portuguese bank account is very practical and often required by banks/utility providers, but it is not a strict legal prerequisite for buying property. Non-resident buyers can sometimes complete with foreign bank transfers, subject to AML controls and notary/bank acceptance.",
+        "suggestion": "Write: \"Открыть счёт в PT-банке — не всегда юридически обязательно для покупки, но практически сильно упрощает оплату налогов, ипотеку, utilities и AML-проверки.\"",
+        "confidence": "high",
+        "source": "general conveyancing practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[0]",
+        "current": "Уведомить Finanças об смене адреса (если primary residence)",
+        "problem": "The guide should mention the deadline and the fact that tax-residence/address changes can have wider tax consequences. For Portuguese residents the tax address must generally be updated within 60 days.",
+        "suggestion": "Write: \"Если это ваш domicílio fiscal / habitação própria permanente, обновите morada fiscal в Finanças/Cartão de Cidadão обычно в течение 60 дней; это важно для IMI exemptions, correspondence and tax status.\"",
+        "confidence": "high",
+        "source": "Lei Geral Tributária / Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Portal das Finanças — IMT, url: https://www.portaldasfinancas.gov.pt/",
+        "problem": "The source is too generic for a guide that publishes specific IMT thresholds and exemptions. Readers cannot verify the numbers easily.",
+        "suggestion": "Add direct references to Código do IMT / official IMT table or AT simulator, and separate sources for Código do Imposto do Selo, Código do IMI, and DL 48-A/2024 for the youth exemption.",
+        "confidence": "high",
+        "source": "Portal das Finanças; Diário da República"
+      }
+    ],
+    "missing_topics": [
+      "AML/source-of-funds checks, especially important for Russian-speaking buyers and anyone using funds from high-risk or sanctioned banks; legal ability to buy does not mean banks/notaries will accept the transaction without enhanced documentation.",
+      "Difference between escritura pública and documento particular autenticado / Casa Pronta as alternative ways to complete a sale.",
+      "IMT table differs for own permanent residence vs secondary/investment property, and autonomous regions may have adapted rules or reductions.",
+      "Possible IMI exemption for habitação própria permanente for low-income/new owners, subject to VPT/income conditions.",
+      "Condominium due diligence should include minutes, reserve fund/works, insurance, pending litigation and special assessments, not only absence of current debt.",
+      "Mortgage-related costs beyond 0.6% stamp duty: bank valuation, opening/processing fees, mandatory life and multirisk insurance, and APR/TAEG comparison.",
+      "Short-term rental caveat: Alojamento Local registration/municipal and condominium restrictions are required for tourist lets; this is more than just 'possibly license AL'."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4655,
+    "prompt_tokens": 2913,
+    "total_tokens": 7568
+  },
+  "model": "gpt-5.5"
+}

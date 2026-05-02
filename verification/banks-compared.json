@@ -1,0 +1,171 @@
+{
+  "guideId": "banks-compared",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has useful structure but contains several material inaccuracies on Revolut/PT IBAN, MB WAY limits/fees, Russian sanctions, moey! ownership, Wise card pricing, and missing deposit-guarantee caveats.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[1].content[0].items[4]",
+        "current": "Ограничение 100 000 € депозит для граждан РФ (санкции)",
+        "problem": "Overbroad and misleading. The EU deposit restriction is not simply for all Russian citizens. It applies to accepting deposits above €100,000 from Russian nationals, natural persons residing in Russia, or entities established in Russia, with important exemptions including EU/EEA/Swiss nationals and persons with a temporary or permanent residence permit in an EU/EEA/Swiss country. A Russian citizen legally resident in Portugal with a residence permit is generally not in the same category as a person resident in Russia.",
+        "suggestion": "Replace with: \"Санкции ЕС: банки ЕС не могут принимать депозиты свыше 100 000 € от граждан РФ/лиц, проживающих в РФ, и российских юрлиц, если не применимо исключение. Для граждан РФ с ВНЖ/ПМЖ в ЕС/ЕЭЗ/Швейцарии действует важное исключение, но банк всё равно может запросить расширенный KYC/доказательства резидентства и происхождения средств.\"",
+        "confidence": "high",
+        "source": "Council Regulation (EU) No 833/2014, Article 5b"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[0].content[0].items[3]",
+        "current": "Лимит 100 000 € на иностранный счёт EU-банка (санкции для РФ, Reg 833/2014)",
+        "problem": "Same sanctions issue, plus \"иностранный счёт EU-банка\" is confusing: the restriction concerns deposits accepted by EU credit institutions, including Portuguese banks, not only a foreign/non-Portuguese account. It is also not a generic account balance limit for every Russian citizen.",
+        "suggestion": "Write the sanctions caveat as above and avoid saying it applies only to a \"foreign\" EU account.",
+        "confidence": "high",
+        "source": "Council Regulation (EU) No 833/2014, Article 5b"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].title / steps[1].content[0].items[2].content[0].text",
+        "current": "Moey! (цифровой банк Caixa Económica) ... Цифровой бренд CGD (Caixa Geral de Depósitos)",
+        "problem": "Wrong institution. moey! is not a CGD brand and not Caixa Económica. It is a digital banking brand/service of Crédito Agrícola / Caixa Central de Crédito Agrícola Mútuo.",
+        "suggestion": "Replace with: \"Moey! — цифровой бренд Crédito Agrícola / Caixa Central de Crédito Agrícola Mútuo. PT IBAN, бесплатный счёт и карта, 100% mobile onboarding при выполнении KYC.\"",
+        "confidence": "high",
+        "source": "moey! official site; Banco de Portugal institution register"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "С 2024 Revolut открыл филиал Revolut Bank в Португалии и даёт **PT IBAN (PT50) бесплатно всем новым клиентам** (Standard/Plus/Premium). Ранее PT IBAN был за Premium+",
+        "problem": "Overconfident and likely inaccurate in timing/scope. Revolut did launch Portuguese IBANs via its Portuguese branch, but availability and migration have been phased and product terms can vary. The statement \"всем новым клиентам\" and the claim that PT IBAN was previously only for \"Premium+\" need verification. Revolut does not have a plan called \"Premium+\" in the standard Portuguese product naming.",
+        "suggestion": "Replace with: \"Revolut постепенно переводит клиентов в Португалии на PT IBAN через португальский филиал Revolut Bank UAB; доступность зависит от статуса аккаунта/онбординга и условий Revolut на дату открытия. Проверяйте в приложении, какой IBAN выдан: PT, LT или другой.\"",
+        "confidence": "medium",
+        "source": "Revolut Portugal terms / Revolut Bank UAB Portuguese branch communications"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Необанки Revolut / Wise / N26 — европейский IBAN (LT/DE/BE)",
+        "problem": "Contradicts the later claim that Revolut gives PT IBAN to new Portuguese clients. If Revolut can issue PT IBAN in Portugal, the TLDR should not list Revolut only as LT.",
+        "suggestion": "Change to: \"Revolut может выдавать PT или LT IBAN в зависимости от миграции/аккаунта; Wise обычно BE IBAN; N26 — DE IBAN.\"",
+        "confidence": "high",
+        "source": "Internal consistency; Revolut Portugal terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[1]",
+        "current": "💸 Переводы по телефону мгновенно, до 2500 €/день, 5000 €/мес",
+        "problem": "The MB WAY transfer limits are wrong/misleading. Standard MB WAY P2P limits are commonly much lower per transaction and monthly, and banks may impose their own limits. The commonly cited MB WAY ceiling is €750 per transfer and €2,500 per month, not €2,500/day and €5,000/month.",
+        "suggestion": "Replace with: \"💸 Переводы по телефону мгновенно; типовые лимиты MB WAY — до 750 € за перевод и до 2 500 €/мес, но конкретный банк может установить более низкие лимиты.\"",
+        "confidence": "high",
+        "source": "SIBS / MB WAY conditions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[4]",
+        "current": "🆓 Бесплатно для физлиц",
+        "problem": "Too broad. MB WAY purchases are generally free for consumers, but P2P transfers may be charged by some banks, especially above statutory small-transfer thresholds. It is not safe to say MB WAY is always free for individuals.",
+        "suggestion": "Replace with: \"🆓 Оплата покупок обычно бесплатна для клиента; P2P-переводы могут быть бесплатными только в пределах лимитов/условий банка, выше которых банк может брать комиссию.\"",
+        "confidence": "high",
+        "source": "Banco de Portugal client banking rules; Law 53/2020 / bank fee schedules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].text",
+        "current": "Необанки с не-PT IBAN часто НЕ принимаются: госпорталами Finanças (для refunds), Segurança Social (социальное страхование), некоторыми арендодателями.",
+        "problem": "Misleading without the IBAN-discrimination caveat. Under SEPA rules, payers generally must not require an IBAN from a specific Member State. In practice Portuguese public portals may have extra validation steps or require proof for a foreign IBAN, but saying non-PT IBANs are simply not accepted overstates the legal position.",
+        "suggestion": "Replace with: \"На практике PT IBAN проще для Finanças, Segurança Social, зарплаты, аренды и direct debit. По правилам SEPA дискриминация IBAN запрещена, но для иностранного IBAN могут потребовать ручную валидацию/документы, а отдельные арендодатели или компании всё ещё пытаются требовать PT IBAN.\"",
+        "confidence": "high",
+        "source": "SEPA Regulation (EU) No 260/2012, Article 9"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "Приложение на RU/EN",
+        "problem": "Millennium BCP app is not generally offered in Russian. English support may be available, but Russian-language app support should not be stated unless verified.",
+        "suggestion": "Replace with: \"Приложение обычно PT/EN; русской версии не рассчитывайте.\"",
+        "confidence": "high",
+        "source": "Millennium BCP app store listings / bank app language options"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[2]",
+        "current": "Приложение на RU/EN",
+        "problem": "Santander Portugal app is not generally available in Russian. This is important for Russian-speaking expats choosing a bank.",
+        "suggestion": "Replace with: \"Приложение обычно PT/EN/ES; русской версии не рассчитывайте.\"",
+        "confidence": "high",
+        "source": "Santander Portugal app store listings / bank app language options"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[2]",
+        "current": "Debit Mastercard бесплатно",
+        "problem": "Wise physical card is normally not free; Wise usually charges a one-time fee for ordering the card, while virtual cards may be free. Pricing varies by country and should be checked.",
+        "suggestion": "Replace with: \"Debit card: физическая карта обычно за одноразовую плату; виртуальная карта может быть бесплатной. Проверяйте тариф Wise для Portugal.\"",
+        "confidence": "high",
+        "source": "Wise pricing page"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "\"Revolut Premium\", \"amountEUR\": 9",
+        "problem": "Revolut Premium in Portugal is commonly priced at €9.99/month, not €9. The guide rounds down in a way that can mislead in a costs table.",
+        "suggestion": "Use \"€9.99/month\" or write \"около €10/мес\".",
+        "confidence": "medium",
+        "source": "Revolut Portugal pricing"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "Нет отделений — всё онлайн + call-center",
+        "problem": "ActivoBank is primarily digital but it has physical service points/branches in Portugal. Saying \"нет отделений\" is inaccurate.",
+        "suggestion": "Replace with: \"Почти всё онлайн; есть ограниченное число физических pontos ActivoBank/службы поддержки, но сеть несравнима с Millennium/CGD/Santander.\"",
+        "confidence": "high",
+        "source": "ActivoBank official branch/service point locator"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "recibos verdes (электронные чеки самозанятого)",
+        "problem": "Bad translation. Recibos verdes are invoices/receipts issued by self-employed workers through Portal das Finanças, not cheques.",
+        "suggestion": "Replace with: \"recibos verdes — электронные инвойсы/квитанции самозанятого через Portal das Finanças\".",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — recibos verdes"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "MB Way — португальская система Instant payments от SIBS. Как Revolut но только для PT-IBAN.",
+        "problem": "Imprecise. MB WAY is tied to participating banks/cards in the Portuguese payment ecosystem, not literally only to the IBAN format. The simplification is useful but technically misleading.",
+        "suggestion": "Replace with: \"MB WAY — сервис SIBS для мгновенных переводов по номеру телефона, оплат и виртуальных карт, доступный через участвующие португальские банки/карты.\"",
+        "confidence": "medium",
+        "source": "SIBS / MB WAY official information"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Banco de Portugal — Lista de instituições / https://www.bportugal.pt/",
+        "problem": "Too generic for a fact-check source. For bank status/authorization, the guide should link to Banco de Portugal's institution register, not just the homepage.",
+        "suggestion": "Use the direct Banco de Portugal institution search/register page for supervised institutions.",
+        "confidence": "high",
+        "source": "Banco de Portugal — Lista de instituições supervisionadas"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "Banco de Portugal — Comparador de comissões / https://clientebancario.bportugal.pt/",
+        "problem": "Too generic. Since the guide quotes monthly fees, it should cite the actual Banco de Portugal fee comparator page and/or each bank's FIN/Folheto de Comissões.",
+        "suggestion": "Add direct links to Banco de Portugal's Comparador de Comissões and note that fees change frequently and depend on account package.",
+        "confidence": "high",
+        "source": "Banco de Portugal — Comparador de Comissões"
+      }
+    ],
+    "missing_topics": [
+      "Deposit guarantee caveat: Portuguese banks are covered by Fundo de Garantia de Depósitos up to €100,000 per depositor per institution; Revolut Bank deposits are generally protected by the Lithuanian deposit guarantee scheme; Wise balances are e-money/safeguarded funds, not bank deposits covered by a deposit guarantee scheme.",
+      "SEPA IBAN discrimination: legally a Portuguese payer/merchant generally cannot reject a valid SEPA IBAN solely because it is non-PT, although practical friction remains.",
+      "Conta de serviços mínimos bancários: low-cost regulated basic bank account option in Portugal, useful for residents who only need essential services.",
+      "Tax reporting caveat: foreign accounts such as Wise/Revolut/N26 may need to be declared in IRS Modelo 3 Annex J if the taxpayer is Portuguese tax resident and the account qualifies as a foreign bank/payment account.",
+      "Direct debit and Multibanco caveat: PT banks usually integrate better with Portuguese direct debits, Multibanco references, tax/social security payments, and local payment habits than non-PT IBAN providers."
+    ]
+  },
+  "model": "gpt-5.5"
+}

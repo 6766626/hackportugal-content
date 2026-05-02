@@ -1,0 +1,200 @@
+{
+  "guideId": "natural-pools-beaches",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гид полезен как подборка мест, но содержит несколько существенных географических ошибок, устаревшие/сомнительные цены и опасные упрощения по безопасности, собакам, нудистским пляжам и доступу к природным объектам.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Бесплатные муниципальные бассейны есть в большинстве Junta.»",
+        "problem": "Муниципальные бассейны обычно находятся в ведении Câmaras Municipais или муниципальных компаний, а не Juntas de Freguesia. Кроме того, они, как правило, платные; бесплатный вход бывает только для отдельных категорий/акций и сильно зависит от муниципалитета.",
+        "suggestion": "Заменить на: «Муниципальные бассейны обычно управляются Câmara Municipal/муниципальной компанией; вход чаще платный, с льготами для резидентов, детей, пенсионеров и людей с инвалидностью. Бесплатные дни/категории нужно проверять на сайте конкретной Câmara.»",
+        "confidence": "high",
+        "source": "Сайты Câmaras Municipais / regulamentos municipais de piscinas"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "«Madeira (21-23°C круглый год)»",
+        "problem": "Это завышает зимнюю температуру воды на Мадейре и противоречит разделу ниже, где указано 19-23°C. Зимой море на Мадейре часто около 18-19°C, летом/осенью около 22-24°C.",
+        "suggestion": "Написать: «Madeira: примерно 18-19°C зимой и 22-24°C летом/осенью; купаться можно почти круглый год, но зимой вода не “21-23°C”.»",
+        "confidence": "high",
+        "source": "IPMA / sea temperature climatology for Madeira"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[0]",
+        "current": "«Viana do Castelo — Piscinas Praia do Carreço — architect Távora дизайн»",
+        "problem": "Смешаны разные места. Известный объект Фернанду Таворы — Piscina da Praia Norte / Piscina do Atlântico в Viana do Castelo, а не «Praia do Carreço». Carreço — другой участок побережья севернее Вианы.",
+        "suggestion": "Заменить на: «Viana do Castelo — Piscina da Praia Norte / Piscina do Atlântico, проект Fernando Távora; это архитектурный морской бассейн у Praia Norte, не Carreço.»",
+        "confidence": "high",
+        "source": "Município de Viana do Castelo / documentação sobre Piscina da Praia Norte"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[1]",
+        "current": "«Matosinhos (Porto) — Piscinas de Leça — Siza Vieira architecture, fees 2-5 € за вход»",
+        "problem": "Цена выглядит устаревшей/заниженной. Piscina das Marés / Piscinas de Leça da Palmeira — объект Álvaro Siza Vieira, но актуальные тарифы обычно выше 2-5 € и зависят от резидентства, возраста, сезона и полного/полудневного билета.",
+        "suggestion": "Не указывать фиксированную цену 2-5 €. Написать: «тарифы меняются ежегодно; проверяйте tabela de preços Piscina das Marés / Matosinhos Sport перед поездкой». Если нужна цена — брать её из актуальной таблицы Matosinhos Sport на сезон 2026.",
+        "confidence": "medium",
+        "source": "Matosinhos Sport / Município de Matosinhos — tabela de preços Piscina das Marés"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[3]",
+        "current": "«Praia da Marinha (Carvoeiro)»",
+        "problem": "Praia da Marinha находится в муниципалитете Lagoa, рядом с Benagil/Caramujeira, а не в Carvoeiro. Carvoeiro — соседняя зона, но такая привязка может вводить в заблуждение.",
+        "suggestion": "Заменить на: «Praia da Marinha (Lagoa, Algarve; рядом с Benagil/Caramujeira)».",
+        "confidence": "high",
+        "source": "Visit Algarve / Município de Lagoa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3].content[0].items[0]",
+        "current": "«Porto Moniz (Madeira) — знаменитые piscinas вулканические, 2 € вход»",
+        "problem": "Цена, вероятно, устарела: вход в основные Piscinas Naturais do Porto Moniz для взрослых в последние годы был выше 2 € и меняется по муниципальному тарифу. Есть также бесплатные/необслуживаемые природные бассейны рядом, что нужно различать.",
+        "suggestion": "Написать: «Porto Moniz — есть платный комплекс Piscinas Naturais do Porto Moniz с инфраструктурой и рядом бесплатные природные бассейны; актуальные цены проверяйте на сайте Município do Porto Moniz.»",
+        "confidence": "medium",
+        "source": "Município do Porto Moniz — Piscinas Naturais / tabela de preços"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3].content[0].items[1]",
+        "current": "«Seixal, Madeira — естественные чёрно-песчаные бассейны»",
+        "problem": "Фраза смешивает два объекта: в Seixal есть известный чёрно-песчаный пляж Praia do Porto do Seixal и отдельно природные вулканические бассейны/Poças das Lesmas. «Чёрно-песчаные бассейны» звучит неверно.",
+        "suggestion": "Заменить на: «Seixal, Madeira — чёрно-песчаный пляж Praia do Porto do Seixal и рядом природные вулканические бассейны/Poças das Lesmas.»",
+        "confidence": "high",
+        "source": "Visit Madeira"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "«В 2025 — 370+ пляжей и порт-марин в Португалии.»",
+        "problem": "Формулировка слишком расплывчатая и может неверно смешивать категории Blue Flag: пляжи, marinas и embarcações ecoturísticas считаются отдельно. Для справочного гайда лучше дать точные числа по категориям за 2025 или написать «свыше X объектов» с ссылкой на ABAAE.",
+        "suggestion": "Уточнить по официальному релизу ABAAE 2025: «В 2025 Blue Flag получили X praias, Y marinas и Z embarcações ecoturísticas» либо заменить на нейтральное «сотни пляжей и несколько марин; актуальный список — на bandeiraazul.abae.pt».",
+        "confidence": "medium",
+        "source": "ABAAE — Bandeira Azul 2025"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[0].content[0].items[2]",
+        "current": "«Praia de Odeceixe (Alentejo)»",
+        "problem": "Praia de Odeceixe Mar официально относится к Aljezur, Algarve, хотя находится на границе с Alentejo и рядом с Odemira. Пометка «Alentejo» неточна.",
+        "suggestion": "Заменить на: «Praia de Odeceixe Mar (Aljezur, Algarve; на границе с Alentejo)».",
+        "confidence": "high",
+        "source": "Visit Algarve / Município de Aljezur"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].title",
+        "current": "«🏊 Бесплатные муниципальные бассейны»",
+        "problem": "Заголовок противоречит содержанию раздела, где указаны цены 3-6 € / 5-10 €. Большинство муниципальных бассейнов не бесплатные.",
+        "suggestion": "Переименовать в: «Муниципальные бассейны: цены, льготы и правила» или «Недорогие муниципальные бассейны».",
+        "confidence": "high",
+        "source": "Сайты Câmaras Municipais / regulamentos municipais"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "«Многие Câmaras Municipales управляют общественными бассейнами»",
+        "problem": "Использована испанизированная форма «Municipales». По-португальски — Câmaras Municipais. Для русскоязычного гайда это не критическая фактическая ошибка, но в юридико-бытовом контексте название органа лучше писать корректно.",
+        "suggestion": "Заменить на: «Многие Câmaras Municipais управляют общественными бассейнами напрямую или через муниципальные компании».",
+        "confidence": "high",
+        "source": "Официальная терминология органов местного самоуправления Португалии"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[1]",
+        "current": "«Бесплатно для детей до 12 (в большинстве)»",
+        "problem": "Слишком широкое утверждение без источника. Возрастные пороги и бесплатный вход зависят от муниципалитета; часто есть льготные тарифы, но не обязательно бесплатный вход до 12 лет.",
+        "suggestion": "Заменить на: «Для детей часто есть льготные тарифы; бесплатный вход и возрастные пороги зависят от правил конкретной Câmara/бассейна.»",
+        "confidence": "high",
+        "source": "Regulamentos municipais de piscinas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[3]",
+        "current": "«Часы: обычно 7:00-22:00 будни, 9:00-21:00 выходные»",
+        "problem": "Слишком обобщённо: муниципальные бассейны часто имеют разные расписания для свободного плавания, школ, клубов, технических перерывов, летнего/зимнего сезона; многие не работают до 22:00 или 21:00 по выходным.",
+        "suggestion": "Написать: «Расписание сильно зависит от бассейна и сезона; проверяйте “horário de utilização livre” на сайте муниципалитета.»",
+        "confidence": "high",
+        "source": "Regulamentos/horários municipais de piscinas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[7]",
+        "current": "«Нудистские: легальные в 21 пляже — знак “praia naturista”. Не путать с обычными»",
+        "problem": "Число 21 выглядит неверным или как минимум смешивает официальные naturist beaches с неофициально терпимыми пляжами. Официально признанных praias naturistas в Португалии существенно меньше; «легальные в 21 пляже» вводит в заблуждение.",
+        "suggestion": "Заменить на: «Официальные praias naturistas обозначены как “praia naturista”; кроме них есть неофициально терпимые места, но правила и практика различаются. Проверяйте актуальный список Federação Portuguesa de Naturismo/муниципалитета.»",
+        "confidence": "high",
+        "source": "Federação Portuguesa de Naturismo / legislação portuguesa sobre praias naturistas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[8]",
+        "current": "«Собаки: запрет 15 июня - 30 сентября на всех голубых пляжах; есть отдельные dog-beaches»",
+        "problem": "Неверно как универсальное правило. Запреты на собак зависят от praia concessionada, época balnear, муниципального edital и локальных правил. Даты bathing season не везде 15 июня-30 сентября. Запрет не привязан только к Blue Flag; он может действовать на любых охраняемых/концессионных пляжах в купальный сезон. Исключение — cães de assistência.",
+        "suggestion": "Написать: «На большинстве concessioned/lifeguarded beaches собаки запрещены в época balnear, кроме собак-поводырей/assistance dogs. Даты сезона и штрафы устанавливаются локально; смотрите таблички на пляже и edital da praia. Для собак есть официальные praias caninas.»",
+        "confidence": "high",
+        "source": "APA / editais de praia / regulamentos municipais; Decreto-Lei 159/2012"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0]",
+        "current": "«Praia de Faro, Ilha do Farol — на острове, паром из Olhão»",
+        "problem": "Смешаны разные места. Praia de Faro находится на Ilha de Faro и обычно доступна из Faro, в том числе по мосту/дороге. Ilha do Farol — часть Ilha da Culatra, туда ходят паромы из Olhão и Faro. Это разные островные зоны Ria Formosa.",
+        "suggestion": "Разделить на два пункта: «Praia de Faro / Ilha de Faro — доступ по мосту из Faro» и «Ilha do Farol / Ilha da Culatra — паромы из Olhão или Faro».",
+        "confidence": "high",
+        "source": "Visit Algarve / Município de Faro / ferry operators Ria Formosa"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2]",
+        "current": "«Praia do Arrifana (Aljezur, Alentejo)»",
+        "problem": "Arrifana находится в муниципалитете Aljezur, district Faro, регион Algarve, а не Alentejo.",
+        "suggestion": "Заменить на: «Praia da Arrifana (Aljezur, Algarve)».",
+        "confidence": "high",
+        "source": "Visit Algarve / Município de Aljezur"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "«Praia da Ursa (Sintra) — рядом с Cabo da Roca, 10 мин спуск пешком»",
+        "problem": "Опасное занижение сложности маршрута. Спуск к Praia da Ursa обычно крутой, скользкий и занимает заметно больше 10 минут; для неподготовленных туристов это может быть 25-45 минут в одну сторону. Пляж неохраняемый, без инфраструктуры, с сильным океаном.",
+        "suggestion": "Написать: «Praia da Ursa — крутой неофициальный спуск примерно 25-45 минут, нужна нормальная обувь; пляж без спасателей и инфраструктуры, купание часто опасно.»",
+        "confidence": "high",
+        "source": "Município de Sintra / local safety guidance for Praia da Ursa"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "«https://www.apambiente.pt/»",
+        "problem": "Для качества воды ссылка слишком общая. Пользователю нужен официальный портал для águas balneares / info praia, где публикуются результаты анализов и статусы пляжей.",
+        "suggestion": "Добавить конкретный источник: «APA / SNIRH — Águas Balneares / InfoPraia: https://infopraia.apambiente.pt/ или https://snirh.apambiente.pt/».",
+        "confidence": "high",
+        "source": "APA — InfoPraia / SNIRH"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: APA, Visit Portugal, ABAE",
+        "problem": "Для разделов о собаках, нудистских пляжах, муниципальных бассейнах и безопасности нужны более точные источники: local editais de praia, regulamentos municipais, Federação Portuguesa de Naturismo, Autoridade Marítima Nacional.",
+        "suggestion": "Добавить источники: Autoridade Marítima Nacional/Polícia Marítima для флагов и безопасности; Federação Portuguesa de Naturismo для praias naturistas; сайты конкретных Câmaras для бассейнов и praias caninas; InfoPraia для качества воды и bathing season.",
+        "confidence": "high",
+        "source": "Autoridade Marítima Nacional; Federação Portuguesa de Naturismo; APA InfoPraia; Câmaras Municipais"
+      }
+    ],
+    "missing_topics": [
+      "Указать, что época balnear и наличие спасателей различаются по муниципалитетам и пляжам; вне сезона пляж может быть без lifeguards даже при хорошей погоде.",
+      "Добавить официальный способ проверки пляжей: APA InfoPraia/SNIRH, включая качество воды, bathing season, флаги и ограничения.",
+      "Для природных бассейнов добавить предупреждение о приливах, волнах и скользких скалах: многие tidal pools безопасны только при low tide и спокойном море.",
+      "Для Benagil/Algar de Benagil добавить caveat: доступ регулируется, высадка/плавание в пещере могут быть запрещены или ограничены; нужно проверять актуальные правила Capitania/Autoridade Marítima.",
+      "Разделить официальные praias naturistas и неофициально терпимые нудистские пляжи.",
+      "Добавить caveat по собакам: правила зависят от praia, concession, época balnear и local edital; собаки-помощники являются исключением.",
+      "Для муниципальных бассейнов добавить, что часто требуется шапочка, иногда медицинская декларация/регистрация/карточка пользователя, а расписание свободного плавания отличается от общего расписания объекта."
+    ]
+  },
+  "model": "gpt-5.5"
+}

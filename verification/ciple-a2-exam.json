@@ -1,0 +1,185 @@
+{
+  "guideId": "ciple-a2-exam",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has several legally important misleading statements about when A2 proof is required, what certificates are accepted, PLA/IEFP conditions, and the not-yet-in-force 2026 nationality changes.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Сертификат уровня A2 нужен только для натурализации через 5 (по новому закону 2026 — 7 лет для CPLP+EU / 10 лет для остальных) лет проживания.»",
+        "problem": "The 2026 nationality amendments are described too much as if already applicable. As of the guide date they were approved by Parliament on 01.04.2026 but still awaiting promulgation/publication; the current rule remains 5 years until the new law enters into force.",
+        "suggestion": "Write: «Сейчас для натурализации по проживанию требуется 5 лет законного проживания и подтверждение португальского A2. Парламент 01.04.2026 одобрил изменения до 7 лет для граждан CPLP/EU и 10 лет для остальных, но на 22.04.2026 они ещё ожидают промульгации и не применяются.»",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, Lei 37/81; new nationality law approved 01.04.2026 awaiting promulgation"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0]",
+        "current": "«✅ Натурализация после 5 лет проживания (по новому закону 2026 — 7 для CPLP/EU или 10 для остальных; закон принят парламентом 01.04.2026, ожидает подписания Президента Сегуру)»",
+        "problem": "Same issue: the wording mixes current law and a non-promulgated future law. Also, identifying the President by name is unnecessary and risky; the legally relevant point is promulgation/publication/entry into force.",
+        "suggestion": "Write: «✅ Натурализация по проживанию: сейчас — после 5 лет законного проживания; одобренные парламентом 01.04.2026 изменения до 7/10 лет ещё не вступили в силу, пока не будут промульгированы и опубликованы.»",
+        "confidence": "high",
+        "source": "Lei 37/81; Assembleia da República approval 01.04.2026"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "«Если не хотите сдавать экзамен — сертификата о прохождении 150 часов PLA достаточно.»",
+        "problem": "Misleading. For nationality, it is not mere attendance or completion of 150 hours that matters; the applicant needs an accepted certificate proving knowledge at A2 or higher. A PLA certificate must show successful completion/qualification at the required level, not just that the person sat in class for 150 hours.",
+        "suggestion": "Write: «Экзамен CIPLE можно заменить официальным сертификатом PLA/IEFP/школы, который подтверждает успешное освоение уровня A2 или выше; одной справки о посещении 150 часов недостаточно.»",
+        "confidence": "high",
+        "source": "Regulamento da Nacionalidade Portuguesa, Decreto-Lei 237-A/2006, art. 25; IRN guidance on proof of Portuguese language knowledge"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "«Полностью бесплатно для всех иностранцев с любым статусом (включая беженцев).»",
+        "problem": "Overbroad. PLA is aimed at adult migrants/asylum/refugee beneficiaries and access depends on age, placement, availability, and the specific entity. It should not be stated as unconditional access for literally all foreigners with any status.",
+        "suggestion": "Write: «PLA обычно бесплатна для взрослых мигрантов, включая заявителей/получателей международной защиты, но запись зависит от мест, уровня, возраста и требований конкретного Centro Qualifica/школы/IEFP. Уточняйте документы при записи.»",
+        "confidence": "medium",
+        "source": "Portaria 183/2020; AIMA/ANQEP information on Português Língua de Acolhimento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[1].items[0]",
+        "current": "«150 часов для уровня A2 (достаточно для натурализации)»",
+        "problem": "This is too imprecise. 150 hours is a typical A1+A2 PLA block, but for nationality the accepted proof is the final certificate/qualification proving A2, not the number of hours alone.",
+        "suggestion": "Write: «Обычно 150 часов покрывают A1+A2; для натурализации нужен официальный сертификат успешного завершения/квалификации с уровнем A2 или выше.»",
+        "confidence": "high",
+        "source": "Portaria 183/2020; Regulamento da Nacionalidade Portuguesa, Decreto-Lei 237-A/2006, art. 25"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[1].items[1]",
+        "current": "«300 часов для уровня B1 / B2»",
+        "problem": "Potentially misleading. PLA is commonly structured in levels/modules, and 300 hours should not be presented as a blanket rule that gives B1/B2. The exact level and workload depend on the course pathway and provider.",
+        "suggestion": "Write: «Более высокие уровни организуются отдельными модулями; длительность и итоговый уровень зависят от программы и провайдера.»",
+        "confidence": "medium",
+        "source": "Portaria 183/2020; ANQEP/PLA course framework"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[1].items[3]",
+        "current": "«Стипендия (bolsa de formação): частично IAS 2026 (537,13 €) — обычно 50–80% IAS в зависимости от программы.»",
+        "problem": "The IAS value is correct for 2026, but the 50–80% IAS range is not safe as a general rule. IEFP/FSE training supports are conditional and vary by measure; training allowance may be capped differently and may not be paid to people receiving certain unemployment/social benefits.",
+        "suggestion": "Write: «Возможны apoios sociais de formação: питание, транспорт и иногда bolsa de formação. Размер и право на выплату зависят от программы, статуса безработного и наличия других пособий; уточняйте в IEFP перед записью. IAS 2026 = 537,13 €.»",
+        "confidence": "medium",
+        "source": "IEFP rules on apoios sociais; IAS 2026 = €537.13"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[1].items[4]",
+        "current": "«Питание (subsídio de alimentação): ~6 €/день»",
+        "problem": "This is presented as if automatic and fixed. Meal allowance depends on the training programme, schedule/duration, attendance and applicable funding rules. The daily public-sector meal reference may also change.",
+        "suggestion": "Write: «Subsídio de alimentação может выплачиваться за фактические дни обучения, если программа и расписание дают на него право; сумма зависит от действующих правил IEFP/финансирования.»",
+        "confidence": "medium",
+        "source": "IEFP apoios sociais de formação"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[2].text",
+        "current": "«Подходит даже тем, кто не активно ищет работу — достаточно быть зарегистрированным.»",
+        "problem": "Misleading and potentially harmful. A registered jobseeker has obligations to cooperate with IEFP, attend convocations, and accept suitable job/training offers. Suggesting that active job search is not needed can lead to sanctions or loss of registration/benefits.",
+        "suggestion": "Write: «Подходит тем, кто действительно зарегистрирован в IEFP как desempregado/à procura de emprego и готов выполнять обязанности перед IEFP: являться на вызовы, участвовать в мерах и принимать подходящие предложения.»",
+        "confidence": "high",
+        "source": "IEFP duties of registered jobseekers"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[1].items[7]",
+        "current": "«При трудоустройстве в период курса стипендия сохраняется до конца (частично)»",
+        "problem": "Too broad. Employment can change eligibility for IEFP training supports; whether any payment continues depends on the measure, schedule, income/status and funding rules.",
+        "suggestion": "Write: «Если вы трудоустроились во время курса, немедленно сообщите IEFP: право на bolsa/apoios может измениться или прекратиться в зависимости от программы.»",
+        "confidence": "medium",
+        "source": "IEFP apoios sociais de formação"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[3].items[4]",
+        "current": "«❌ Для граждан CPLP (Бразилия, Ангола, Кабо-Верде и др.) при натурализации — португальский считается родным»",
+        "problem": "The practical idea is partly right for many nationals of Portuguese-speaking countries, but the wording is legally sloppy. It is not because Portuguese is necessarily the applicant’s native language; the nationality regulation treats knowledge as presumed/provable differently for nationals of Portuguese-speaking countries. Also CPLP includes countries where Portuguese is not necessarily the applicant’s mother tongue.",
+        "suggestion": "Write: «Для граждан стран, где португальский является официальным языком, подтверждение A2 обычно не требуется/знание презюмируется по правилам Regulamento da Nacionalidade; проверяйте конкретный случай и документы IRN.»",
+        "confidence": "high",
+        "source": "Regulamento da Nacionalidade Portuguesa, Decreto-Lei 237-A/2006, art. 25"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[3].items[0]",
+        "current": "«❌ Гражданство по браку с португальцем или по união de facto — Lei 37/81 язык не требует»",
+        "problem": "Mostly correct, but missing a caveat: language is not a statutory requirement for acquisition by marriage/de facto union, but other grounds for opposition/registration refusal may still matter, and documentary evidence of the relationship/effective connection may be relevant depending on duration and circumstances.",
+        "suggestion": "Write: «Язык не является отдельным требованием для гражданства по браку/união de facto, но остаются другие требования и возможные основания для opposition/recusa; проверяйте актуальные правила IRN.»",
+        "confidence": "medium",
+        "source": "Lei 37/81; Regulamento da Nacionalidade Portuguesa"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[1].items[2]",
+        "current": "«Формат: полноценные классы с преподавателем, сертификат от школы»",
+        "problem": "For nationality, not every school attendance certificate is accepted. The certificate must be an official document proving Portuguese knowledge at A2 or higher under the categories accepted by IRN.",
+        "suggestion": "Write: «Перед записью спросите, выдаёт ли школа официальный сертификат с уровнем A2, который IRN принимает для nacionalidade; обычная справка о посещении курса может не подойти.»",
+        "confidence": "high",
+        "source": "IRN guidance; Regulamento da Nacionalidade Portuguesa, art. 25"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].text",
+        "current": "«вечерние курсы для взрослых, включая Português para Estrangeiros в рамках PLNM (Português Língua Não Materna)»",
+        "problem": "PLNM is primarily a school subject/framework for non-native Portuguese students in the education system, not a generic label for all adult evening courses. Adult migrant language provision is usually PLA/EFA/Qualifica-linked.",
+        "suggestion": "Write: «Некоторые школы и Centros Qualifica проводят PLA/EFA или другие курсы português para estrangeiros для взрослых; не путайте их с PLNM для школьников.»",
+        "confidence": "medium",
+        "source": "DGEstE/ANQEP framework for PLNM and adult education"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "«Центры в PT: Lisboa, Porto, Coimbra, Braga, Faro; за рубежом — Instituto Camões в столицах»",
+        "problem": "Overgeneralised. CAPLE centres vary by exam session and country; abroad they are not simply 'Instituto Camões in capitals'. Some are universities, schools or cultural centres, and not every centre offers every session.",
+        "suggestion": "Write: «Центры и доступные сессии зависят от даты; проверяйте список centros de exame на сайте CAPLE перед регистрацией.»",
+        "confidence": "high",
+        "source": "CAPLE list of examination centres"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "«CAPLE публикует Exemplos de Provas на caple.letras.ulisboa.pt — 5 прошлых комплектов бесплатно»",
+        "problem": "Likely inaccurate. CAPLE publishes sample/model papers, but not necessarily five full past CIPLE sets. This number should not be stated unless verified for 2026.",
+        "suggestion": "Write: «CAPLE публикует exemplos/modelos de prova для CIPLE; количество доступных материалов меняется, проверяйте страницу CAPLE.»",
+        "confidence": "medium",
+        "source": "CAPLE official website"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "No IRN / Regulamento da Nacionalidade source is listed.",
+        "problem": "The guide makes legal claims about nationality and accepted language proof but does not cite IRN or the nationality regulation. AIMA/CAPLE/IEFP sources are not enough for this legal category.",
+        "suggestion": "Add official sources: IRN page on nationality and proof of knowledge of Portuguese; Regulamento da Nacionalidade Portuguesa, Decreto-Lei 237-A/2006, especially art. 25; Lei 37/81.",
+        "confidence": "high",
+        "source": "IRN; Decreto-Lei 237-A/2006; Lei 37/81"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "«AIMA — Português Língua de Acolhimento (PLA)», url: «https://aima.gov.pt/»",
+        "problem": "The URL is too generic for a source supporting detailed PLA claims. It may be live, but it is not a stable direct reference to the PLA rules/page.",
+        "suggestion": "Use a direct AIMA/ANQEP/Qualifica PLA page and cite the legal framework for PLA, e.g. Portaria 183/2020 and subsequent amendments if applicable.",
+        "confidence": "medium",
+        "source": "Portaria 183/2020; AIMA/ANQEP PLA pages"
+      }
+    ],
+    "missing_topics": [
+      "Explain the exact IRN-accepted alternatives to CIPLE: CAPLE exam, official school certificate proving A2+, IEFP certificate, PLA certificate proving A2+, and cases where proof is waived/presumed.",
+      "Clarify that a PLA/IEFP certificate must show successful completion/qualification at A2; attendance hours alone are not enough.",
+      "Add IRN and Diário da República legal sources for nationality-language proof, not only CAPLE/AIMA/IEFP.",
+      "Add a caveat that the 2026 nationality reform is not in force until promulgation, publication and entry into force.",
+      "Clarify IEFP jobseeker obligations and that training allowances are conditional, not guaranteed."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5100,
+    "prompt_tokens": 3970,
+    "total_tokens": 9070
+  },
+  "model": "gpt-5.5"
+}

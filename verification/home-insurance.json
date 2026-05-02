@@ -1,0 +1,143 @@
+{
+  "guideId": "home-insurance",
+  "categoryId": "housing_rent",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "В целом структура полезная, но есть несколько фактически неверных или вводящих в заблуждение мест по срокам claim, процедуре жалоб, статусу Liberty/посредников и формулировкам об обязательности/содержании страховок.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].title",
+        "current": "Немедленно (48 ч)",
+        "problem": "48 часов подано как общий срок уведомления о страховом случае. В португальском режиме договора страхования общий дефолтный срок — 8 дней после того, как страхователь узнал о sinistro, если договор не устанавливает иной срок. Для emergency assistance может требоваться немедленный звонок, но это не универсальное правило для всех claims.",
+        "suggestion": "Заменить на: «Как можно быстрее: сразу для emergency assistance, а для официального aviso de sinistro — проверьте apólice; по закону, если договор не говорит иначе, срок уведомления составляет 8 дней после того, как вы узнали о страховом случае».",
+        "confidence": "high",
+        "source": "Decreto-Lei 72/2008, Regime Jurídico do Contrato de Seguro, art. 100.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].items[2]",
+        "current": "**Споры**: Provedor do Cliente страховой компании → Provedor dos Segurados (ASF) → tribunal",
+        "problem": "Нет универсального «Provedor dos Segurados (ASF)» как следующей инстанции. ASF — надзорный орган и принимает reclamações, но обычно не решает индивидуальный спор как омбудсмен и не присуждает компенсацию. Правильный маршрут: страховщик/mediador, Livro de Reclamações, provedor do cliente страховщика при наличии/когда применимо, ASF complaint, CIMPAS/centro de arbitragem или суд.",
+        "suggestion": "Заменить на: «Споры: reclamação страховщику/mediador + Livro de Reclamações → provedor do cliente страховщика, если доступен → reclamação в ASF как надзорному органу → CIMPAS/centro de arbitragem или tribunal».",
+        "confidence": "high",
+        "source": "ASF consumer guidance on insurance complaints; Livro de Reclamações regime; CIMPAS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].items[3]",
+        "current": "Помощь бесплатно: DECO Proteste (consumer protection) для споров",
+        "problem": "DECO/DECO PROteste не является бесплатной государственной службой для всех; значительная часть поддержки связана с членством/подпиской или условиями ассоциации. Для бесплатных/низкозатратных официальных каналов уместнее указать Livro de Reclamações, ASF, CIAC/centros de arbitragem/CIMPAS.",
+        "suggestion": "Написать: «Бесплатные/официальные каналы: Livro de Reclamações, reclamação в ASF, CIAC/centro de arbitragem; для страховых споров часто используют CIMPAS. DECO может помочь как consumer association, но условия и стоимость зависят от членства/сервиса».",
+        "confidence": "high",
+        "source": "ASF; Livro de Reclamações; CIMPAS"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Лучшие страховщики 2026: Fidelidade, Generali Tranquilidade (бренд Generali), Allianz, Zurich, Liberty.",
+        "problem": "Фраза «лучшие страховщики 2026» выглядит как рейтинг без методологии и источника. Кроме того, Liberty Seguros в Португалии была приобретена Generali и интегрирована/ребрендирована в группу Generali Tranquilidade, поэтому перечислять Liberty как отдельного актуального игрока рядом с Generali Tranquilidade в 2026 году вводит в заблуждение.",
+        "suggestion": "Заменить на: «Крупные/часто встречающиеся игроки и каналы: Fidelidade, Generali Tranquilidade, Allianz, Zurich, Ageas/Seguro Directo, Mapfre, Zurich, CTT как канал/посредник и др. Liberty в Португалии больше не стоит подавать как отдельный независимый бренд без оговорки об интеграции в Generali».",
+        "confidence": "medium",
+        "source": "Generali acquisition/integration announcements; ASF market registers"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "**Liberty Seguros** — conкретные пакеты с bonuses",
+        "problem": "Устаревшее/сомнительное для 2026 упоминание Liberty Seguros как самостоятельной компании на рынке домашнего страхования Португалии после покупки Liberty Seguros Generali и интеграции в Generali Tranquilidade.",
+        "suggestion": "Удалить Liberty из списка самостоятельных страховщиков или написать: «бывшая Liberty — интегрирована в Generali/Tranquilidade; проверяйте, кто фактический segurador в apólice».",
+        "confidence": "medium",
+        "source": "Generali acquisition/integration announcements; ASF market registers"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[5]",
+        "current": "**Cofidis, Mediator** — аdмаркет, срабатывают как интермедиатор",
+        "problem": "«Mediator» — это не компания, а категория страхового посредника. Cofidis — прежде всего кредитная/финансовая компания и может выступать каналом/партнёром, но не должна стоять в списке «топ компаний»-страховщиков без пояснения, кто фактический segurador. Формулировка также содержит опечатки и непонятна.",
+        "suggestion": "Разделить список на «страховщики» и «посредники/каналы». Написать: «Посредники и каналы продаж: mediadores de seguros, bancos, CTT, онлайн-сравнители; всегда проверяйте в apólice поле segurador, а не только продавца».",
+        "confidence": "high",
+        "source": "ASF rules on insurance distribution and mediation"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "**Raconoscer / Seguros.pt** — специализированные",
+        "problem": "«Raconoscer» выглядит как неправильное или несуществующее название сервиса. Это снижает доверие и может быть dead/wrong reference. «Seguros.pt» тоже нужно проверять как актуальный сервис, а не официальный источник.",
+        "suggestion": "Удалить «Raconoscer» или заменить на проверенный актуальный сайт с корректным названием и URL. Для чувствительных рекомендаций по страхованию лучше писать нейтрально: «онлайн-сравнители и mediadores registados na ASF» и дать ссылку на поиск посредников ASF.",
+        "confidence": "medium",
+        "source": "ASF register of insurance intermediaries"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].title",
+        "current": "Seguro de Recheio (только для арендаторов)",
+        "problem": "Seguro de recheio не «только для арендаторов». Владельцы тоже страхуют recheio — отдельно или как секцию в multirriscos habitação. Для арендатора это особенно актуально, потому что здание обычно страхует собственник, но продукт не ограничен арендаторами.",
+        "suggestion": "Заменить заголовок на: «Seguro de Recheio / conteúdos — особенно важно для арендаторов, но доступно и владельцам».",
+        "confidence": "high",
+        "source": "ASF consumer materials on multirriscos habitação"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[0]",
+        "current": "**Обязательно** как договорное условие — банк требует при ипотеке (кредит = страховой договор)",
+        "problem": "«кредит = страховой договор» фактически неверно и путает понятия. Ипотечный кредит — не страховой договор. Банк может требовать страхование недвижимости как гарантию кредита, но клиент обычно не обязан покупать страховку именно у банка/его партнёра; важно сравнивать TAEG/условия bonificação spread при выборе внешней страховки.",
+        "suggestion": "Написать: «При ипотеке банк обычно требует seguro multirriscos/seguro do imóvel как условие кредита. Это не закон об обязательном multirriscos, а договорное условие банка; страховщика можно выбирать, но банк может менять условия кредита/бонусы spread согласно договору».",
+        "confidence": "high",
+        "source": "Banco de Portugal mortgage credit consumer guidance; ASF"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].title",
+        "current": "Seguro contra incêndio (обязательный по закону)",
+        "problem": "Как заголовок без оговорки это может читаться так, будто пожарная страховка обязательна для любого жилья. Обязательность по art. 1429 Código Civil относится к edifício em propriedade horizontal/condomínio: автономные фракции и общие части. Для отдельного дома без propriedade horizontal такой общей законной обязанности нет, хотя может быть требование банка или договора.",
+        "suggestion": "Заменить заголовок на: «Seguro contra incêndio — обязателен для propriedade horizontal/condomínio».",
+        "confidence": "high",
+        "source": "Código Civil, art. 1429.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "🌊 **Природные катастрофы**: quake coverage дешёв в PT (мало активной зоны), но если ваш регион rosk (Algarve, Azores) — добавьте",
+        "problem": "Фраза «в PT мало активной зоны» вводит в заблуждение: у Португалии есть существенный сейсмический риск, особенно Lisbon/Tejo valley, Algarve и Azores. Стоимость earthquake/seismic coverage зависит от зоны, здания, капитала и франшизы; нельзя обобщать, что оно дешёвое из-за низкой активности. Также есть опечатка «rosk».",
+        "suggestion": "Написать: «Сейсмический риск в Португалии неодинаков: особенно важны Lisboa/Tejo, Algarve и Azores. Earthquake/fenómenos sísmicos часто является отдельным покрытием с особыми лимитами и франшизой — проверьте, включено ли оно и сколько стоит для вашего postal code/здания».",
+        "confidence": "high",
+        "source": "ANEPC/IPMA seismic risk information; ASF policy guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].title",
+        "current": "ASF — Autoridade de Supervisão de Seguros",
+        "problem": "Неполное официальное название регулятора. ASF = Autoridade de Supervisão de Seguros e Fundos de Pensões.",
+        "suggestion": "Исправить на: «ASF — Autoridade de Supervisão de Seguros e Fundos de Pensões».",
+        "confidence": "high",
+        "source": "ASF official website"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Годовая 150-500 € для квартиры 70-100 m² зависит от покрытия и франшизы.",
+        "problem": "Диапазон может быть реалистичным, но без уточнения, что цена радикально меняется от insured capital, localização, seismic cover, recheio, idade/tipo de construção and mortgage bank package, он может восприниматься как универсальная цена для любой квартиры 70–100 m².",
+        "suggestion": "Добавить: «Это ориентир для типового полиса; цена может быть ниже/выше в зависимости от capital seguro do edifício/recheio, localização, idade do prédio, coberturas sísmicas, franquias и требований банка».",
+        "confidence": "medium",
+        "source": "ASF consumer materials on home insurance pricing"
+      }
+    ],
+    "missing_topics": [
+      "Regra proporcional / underinsurance: если capital seguro ниже стоимости восстановления или содержимого, выплата может быть пропорционально уменьшена.",
+      "Distinction between capital seguro do edifício and market value: хорошо упомянуто, но стоит добавить источник/метод оценки и что condominium может задавать valor de reconstrução для общих частей.",
+      "Для ипотеки: клиент обычно может выбрать страховщика вне банка, но банк может пересчитать spread/bonificação; нужно сравнивать полную стоимость кредита.",
+      "Для condomínio: риск double insurance/overlap между индивидуальной apólice фракции и apólice condomínio; нужно координировать с administrador и проверять, что покрывают общие части.",
+      "Official complaint channels: Livro de Reclamações, ASF, CIMPAS/centros de arbitragem should be described more accurately.",
+      "Проверка посредника: перед покупкой через mediador/агрегатор стоит проверить регистрацию посредника в ASF.",
+      "Earthquake/fenómenos sísmicos: обычно отдельное покрытие с лимитами и франшизой; особенно важно для Lisboa/Algarve/Azores.",
+      "Rental caveat: арендатору стоит проверить contrato de arrendamento — иногда landlord требует responsabilidade civil/recheio insurance contractually, even if not required by law."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4729,
+    "prompt_tokens": 3522,
+    "total_tokens": 8251
+  },
+  "model": "gpt-5.5"
+}

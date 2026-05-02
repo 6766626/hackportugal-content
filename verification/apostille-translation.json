@@ -1,0 +1,151 @@
+{
+  "guideId": "apostille-translation",
+  "categoryId": "before_arrival",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful in structure but contains several materially misleading statements about Portuguese certified translations, NIF/AIMA document requirements, and apostille authorities for Russian documents.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Документы из страны происхождения для PT должны быть: 1) с апостилем ...; 2) переведены присяжным переводчиком. Без этого не принимаются в AIMA, Finanças, IRN, университетах.",
+        "problem": "Overbroad and partly contradictory. Portugal does not have a general “sworn translator” regime, and not every foreign document for Portugal must be apostilled and translated. Finanças normally does not require an apostilled birth certificate to issue a NIF; universities may accept documents in English or apply their own rules; AIMA/IRN requirements depend on the procedure and document type.",
+        "suggestion": "Write: “Для большинства официальных процедур в Portugal иностранные публичные документы должны быть легализованы апостилем/консульской легализацией и, если они не на португальском, сопровождаться заверенным переводом. Конкретные требования зависят от органа и процедуры: AIMA/IRN обычно строже, Finanças и университеты — по ситуации.”",
+        "confidence": "high",
+        "source": "HCCH Apostille Convention; IRN/Portuguese notarial practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Свидетельство о рождении — ВСЕГДА (для NIF, AIMA, гражданства, брака)",
+        "problem": "“ВСЕГДА” is false. A birth certificate is not normally required for NIF. For AIMA it is not universally required for every residence permit; it is commonly needed for family reunification, minors, civil status, marriage, nationality, etc.",
+        "suggestion": "Write: “Свидетельство о рождении — нужно для брака, гражданства, регистрации рождения/родства, часто для детей и семейных процедур; для NIF обычно не требуется; для AIMA — только в процедурах, где нужно подтвердить родство/личные данные.”",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira NIF procedures; AIMA procedure-specific document lists"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[0].title",
+        "current": "Вариант A — Tradutor Certificado в Conservatória",
+        "problem": "Misleading terminology. Portugal generally does not have a public list/status of “tradutor certificado” equivalent to sworn translators. Certification is usually of the translation/signature by a notary, consulate, lawyer/solicitor, chamber of commerce/industry or other legally competent entity, depending on the case. A civil registry office is not the standard generic route for certifying all translations.",
+        "suggestion": "Replace with: “Вариант A — перевод, заверенный у notário / advogado / solicitador / câmara de comércio или в консульстве”. Explain that the authority certifies the translation or translator’s signature, not that the translator has a Portuguese sworn status.",
+        "confidence": "high",
+        "source": "Código do Notariado; DL 237/2001; IRN guidance on certified translations/recognitions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[0].content[0].text",
+        "current": "Переводчик делает перевод → заверяет в Conservatória do Registo Civil. Это официальный путь.",
+        "problem": "This makes the conservatória sound like the default official certification body for translations. In practice, the common route in Portugal is notarial/lawyer/solicitor certification or consular certification. Conservatórias may deal with documents in specific registry procedures but are not the universal “official path” for all translations.",
+        "suggestion": "Write: “Самый распространённый путь в Portugal: переводчик делает перевод, затем notário/advogado/solicitador удостоверяет перевод или подпись переводчика. Для процедур IRN/AIMA заранее уточняйте, какую форму заверения принимает конкретный орган.”",
+        "confidence": "high",
+        "source": "Código do Notariado; Ordem dos Advogados/Ordem dos Solicitadores certification powers"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[1].content[0].text",
+        "current": "Нотариус делает Termo de Autenticação к переводу.",
+        "problem": "Terminology is imprecise. In Portuguese practice for translations the relevant act is often a certified translation/certification of translation or recognition/certification of the translator’s signature, not necessarily a “termo de autenticação” in the strict sense used for private documents.",
+        "suggestion": "Write: “Notário может заверить перевод или удостоверить подпись переводчика/соответствие перевода в форме, принятой для нотариальных заверений. Название акта может отличаться; важно, чтобы документ был ‘tradução certificada’/‘reconhecimento’ accepted by the receiving authority.”",
+        "confidence": "medium",
+        "source": "Código do Notariado"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[3].title",
+        "current": "Вариант D — Присяжный переводчик в своей стране",
+        "problem": "Misleading for Russian-speaking audience. Russia does not have a true public-law institute of “присяжный переводчик” comparable to Spain/Germany. Usually a translator’s signature is notarised; the apostille, if any, is placed on the notarial act, not on the translation as such.",
+        "suggestion": "Write: “Вариант D — перевод, нотариально заверенный в стране происхождения, с апостилем на нотариальное заверение, если принимающий орган Portugal это допускает. В РФ это не ‘присяжный перевод’, а нотариальное удостоверение подписи переводчика.”",
+        "confidence": "high",
+        "source": "Russian notarial practice; HCCH Apostille Convention"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[3].content[0].text",
+        "current": "Перевод у присяжного (если институт есть, как в РФ/Украине) + апостиль на перевод — принимается в PT.",
+        "problem": "Too categorical. Portugal may reject or question a foreign-certified translation depending on the procedure. Also the apostille certifies the public act/signature/seal, not the translation quality/content. “Как в РФ” is wrong because Russia has notarised translator signatures, not sworn translators.",
+        "suggestion": "Write: “В некоторых случаях принимают перевод, заверенный за границей, если нотариальное/официальное заверение снабжено апостилем. Но AIMA/IRN/университет могут потребовать перевод, заверенный в Portugal или консульством; уточняйте заранее.”",
+        "confidence": "high",
+        "source": "HCCH Apostille Convention; Portuguese administrative practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "МВД → апостиль через Минюст.",
+        "problem": "For Russian police clearance certificates issued by МВД, the apostille is generally placed by МВД/its competent information centres, not by the Ministry of Justice. Минюст apostilles notarial acts and documents within its competence, not ordinary МВД criminal-record certificates.",
+        "suggestion": "Write: “Справка о несудимости: МВД РФ выдаёт справку; апостиль ставится компетентным подразделением МВД/информационным центром МВД. Минюст нужен, если апостилируется нотариальное действие, а не сама справка МВД.”",
+        "confidence": "high",
+        "source": "Russian designated apostille authorities under the HCCH Apostille Convention"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Рособрнадзор → апостиль. Или нотариальное заверение копии + апостиль в Минюсте.",
+        "problem": "The second option is risky and misleading for Portugal. An apostille on a notarised copy confirms the notary’s signature/seal, not the authenticity of the diploma itself. For recognition/equivalence, Portuguese institutions often require the original education document apostilled by the competent education authority.",
+        "suggestion": "Write: “Для диплома обычно нужен апостиль компетентного органа образования/Рособрнадзора на оригинале или официальном дубликате. Нотариальная копия с апостилем Минюста подтверждает только нотариальное заверение и может не подойти для reconhecimento/equivalência в Portugal.”",
+        "confidence": "high",
+        "source": "DGES academic recognition practice; HCCH Apostille Convention"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "Получить повторное свидетельство в ЗАГС → апостиль в областном управлении ЗАГС или Минюсте.",
+        "problem": "For Russian civil-status certificates, the usual competent apostille authority is the civil registry authority of the relevant Russian region, not Минюст. Mentioning Минюст here can confuse readers; Минюст is relevant mainly for notarial/judicial documents within its competence.",
+        "suggestion": "Write: “Свидетельства ЗАГС: апостиль ставит орган ЗАГС/компетентный орган субъекта РФ, выдавший или обслуживающий документ. Минюст — не стандартный путь для самих свидетельств ЗАГС.”",
+        "confidence": "high",
+        "source": "Russian designated apostille authorities under the HCCH Apostille Convention"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3].content[0].text",
+        "current": "Альтернатива — легализация в консульстве (только если апостиль недоступен).",
+        "problem": "For documents between Hague Apostille Convention states, consular legalisation is normally replaced by apostille. Portuguese consulates generally are not a routine alternative for legalising Russian public documents that are eligible for apostille.",
+        "suggestion": "Write: “Для РФ–Portugal применяется апостиль. Консульская легализация нужна только для документов из стран/территорий вне Гаагской конвенции или когда конкретный тип документа не подпадает под апостиль; уточняйте у консульства до записи.”",
+        "confidence": "medium",
+        "source": "HCCH Apostille Convention"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[4]",
+        "current": "Справка о несудимости — срок годности 3-6 мес, часто требуется «свежая»",
+        "problem": "The phrase is broadly useful but imprecise. Apostille itself has no expiry; the receiving authority applies a freshness rule to the underlying certificate. For immigration, the relevant period is often counted from issue date and may be stricter than 6 months.",
+        "suggestion": "Write: “Апостиль не ‘истекает’, но сама справка о несудимости должна быть свежей по правилам процедуры; для виз/AIMA часто требуют документ, выданный не более чем за 90 дней/3 месяца, но проверяйте конкретный чек-лист.”",
+        "confidence": "high",
+        "source": "HCCH Apostille Convention; AIMA/visa document checklists"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].text",
+        "current": "Паспорт и ВНЖ апостилировать НЕ нужно — они сами по себе международно признаются.",
+        "problem": "The practical conclusion is mostly right, but the explanation is imprecise. Passports/residence cards are generally not apostilled because they are identity/travel documents and apostille is for public documents within the Convention scope; authorities may still require certified copies or translations in specific procedures.",
+        "suggestion": "Write: “Паспорт и карточку ВНЖ обычно не апостилируют. Но для отдельных процедур могут попросить заверенную копию и/или перевод страницы с данными.”",
+        "confidence": "medium",
+        "source": "HCCH Apostille Convention"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "IRN — Traduções e reconhecimentos, url: https://irn.justica.gov.pt/",
+        "problem": "The URL is only the IRN homepage, not a specific source for translations/recognitions. For a sensitive legal-practice topic, this is too weak and makes verification difficult.",
+        "suggestion": "Use a direct official or professional-source page for recognition/certification of signatures/translations, and add sources for notaries/lawyers/solicitors’ certification powers, e.g. IRN notarial acts pages, Código do Notariado, Ordem dos Advogados/Ordem dos Solicitadores guidance.",
+        "confidence": "high",
+        "source": "IRN; Código do Notariado"
+      }
+    ],
+    "missing_topics": [
+      "Explain that an apostille certifies the origin/signature/seal of a public document, not the truth of its contents or the quality of a translation.",
+      "Clarify order of operations: usually apostille the original public document first, then translate; if the translation is certified abroad, the apostille is on the notarial/official certification of the translation.",
+      "Add a clear table of Portuguese-accepted translation certification routes: notary, lawyer, solicitor, chamber of commerce/industry, Portuguese consulate, with caveat to confirm with AIMA/IRN/university.",
+      "Mention that apostille itself has no expiry; only the underlying document or receiving authority’s freshness rule may expire.",
+      "Add country-specific competent apostille authorities with official links for Russia, Belarus and Ukraine instead of generic descriptions.",
+      "Mention that some authorities may accept documents in English/French/Spanish or multilingual forms, while others require Portuguese translation.",
+      "Mention that academic recognition in Portugal is governed by DGES/institution rules and may require original apostilled diploma, transcript and certified Portuguese translation."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4279,
+    "prompt_tokens": 2522,
+    "total_tokens": 6801
+  },
+  "model": "gpt-5.5"
+}

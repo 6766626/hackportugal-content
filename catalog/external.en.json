@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ext-eportugal",
+    "title": "ePortugal — single government services portal",
+    "categoryId": "digital_gov",
+    "telegramUrl": "https://eportugal.gov.pt/cidadaos",
+    "tags": [
+      "official",
+      "government services"
+    ]
+  },
+  {
+    "id": "ext-sns24",
+    "title": "SNS24 — online healthcare",
+    "categoryId": "healthcare",
+    "telegramUrl": "https://www.sns24.gov.pt/",
+    "tags": [
+      "official",
+      "sns"
+    ]
+  },
+  {
+    "id": "ext-imt",
+    "title": "IMT — Institute for Mobility and Transport",
+    "categoryId": "driving_license",
+    "telegramUrl": "https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx",
+    "tags": [
+      "official",
+      "driving licence"
+    ]
+  },
+  {
+    "id": "ext-vistosmne",
+    "title": "Vistos MNE — visa portal",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://vistos.mne.gov.pt/pt/",
+    "tags": [
+      "official",
+      "visas"
+    ]
+  },
+  {
+    "id": "ext-dgav",
+    "title": "DGAV — veterinary authority for animals",
+    "categoryId": "animals",
+    "telegramUrl": "https://www.dgav.pt/animais/",
+    "tags": [
+      "official",
+      "animals"
+    ]
+  },
+  {
+    "id": "ext-autenticacao",
+    "title": "Autenticacao.gov — Chave Móvel Digital",
+    "categoryId": "digital_gov",
+    "telegramUrl": "https://www.autenticacao.gov.pt/",
+    "tags": [
+      "official",
+      "chave"
+    ],
+    "fullGuideId": "chave-movel-digital"
+  },
+  {
+    "id": "ext-deco",
+    "title": "DECO Proteste — consumer protection",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.deco.proteste.pt/",
+    "tags": [
+      "website",
+      "consumers"
+    ]
+  },
+  {
+    "id": "ext-oa",
+    "title": "Ordem dos Advogados — find a lawyer",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://portal.oa.pt/",
+    "tags": [
+      "website",
+      "lawyer"
+    ]
+  },
+  {
+    "id": "ext-dge",
+    "title": "DGE — Direcção-Geral da Educação",
+    "categoryId": "education_children",
+    "telegramUrl": "https://www.dge.mec.pt/",
+    "tags": [
+      "official",
+      "education"
+    ]
+  },
+  {
+    "id": "ext-portalmatriculas",
+    "title": "Portal das Matrículas — school enrolment",
+    "categoryId": "education_children",
+    "telegramUrl": "https://portaldasmatriculas.edu.gov.pt/",
+    "tags": [
+      "official",
+      "school"
+    ],
+    "fullGuideId": "school-enrollment"
+  },
+  {
+    "id": "ext-dges",
+    "title": "DGES — Direcção-Geral do Ensino Superior",
+    "categoryId": "education_children",
+    "telegramUrl": "https://www.dges.gov.pt/pt",
+    "tags": [
+      "official",
+      "higher education"
+    ],
+    "fullGuideId": "d4-student"
+  },
+  {
+    "id": "ext-dre",
+    "title": "DRE — Diário da República (laws)",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://dre.pt/",
+    "tags": [
+      "official",
+      "laws"
+    ]
+  },
+  {
+    "id": "ext-apav",
+    "title": "APAV — support for victims of violence",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://apav.pt/",
+    "tags": [
+      "official",
+      "safety"
+    ]
+  },
+  {
+    "id": "ext-cicdr",
+    "title": "CICDR — commission for discrimination",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.cicdr.pt/",
+    "tags": [
+      "official",
+      "rights"
+    ]
+  },
+  {
+    "id": "ext-siac",
+    "title": "SIAC — animal registration database",
+    "categoryId": "animals",
+    "telegramUrl": "https://siac.vet/",
+    "tags": [
+      "official",
+      "animals"
+    ],
+    "fullGuideId": "pet-import"
+  },
+  {
+    "id": "ext-inem",
+    "title": "INEM — national emergency medical service",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.inem.pt/",
+    "tags": [
+      "official",
+      "ambulance"
+    ],
+    "fullGuideId": "emergency-112"
+  },
+  {
+    "id": "ext-psp",
+    "title": "PSP — Public Security Police",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.psp.pt/",
+    "tags": [
+      "official",
+      "police"
+    ]
+  },
+  {
+    "id": "ext-mne-moscow",
+    "title": "Embassy of Portugal in Moscow",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://moscovo.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "official",
+      "consulate",
+      "russia"
+    ]
+  },
+  {
+    "id": "ext-mne-warsaw",
+    "title": "Embassy of Portugal in Warsaw",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://varsovia.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "official",
+      "consulate",
+      "poland"
+    ]
+  },
+  {
+    "id": "ext-mne-madrid",
+    "title": "Embassy of Portugal in Madrid",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://madrid.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "official",
+      "consulate",
+      "spain"
+    ]
+  },
+  {
+    "id": "ext-mne-berlin",
+    "title": "Embassy of Portugal in Berlin",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://berlim.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "official",
+      "consulate",
+      "germany"
+    ]
+  },
+  {
+    "id": "ext-mne-consulates-map",
+    "title": "All Portuguese embassies and consulates (map)",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://www.portaldascomunidades.mne.gov.pt/pt/rede-consular",
+    "tags": [
+      "official",
+      "consulates",
+      "map"
+    ]
+  },
+  {
+    "id": "ext-cmvm",
+    "title": "CMVM — securities market commission (Golden Visa funds)",
+    "categoryId": "housing_buy",
+    "telegramUrl": "https://www.cmvm.pt/",
+    "tags": [
+      "official",
+      "investments"
+    ],
+    "fullGuideId": "golden-visa-2026"
+  },
+  {
+    "id": "ext-adene",
+    "title": "ADENE — energy performance certificate",
+    "categoryId": "housing_buy",
+    "telegramUrl": "https://www.adene.pt/",
+    "tags": [
+      "official",
+      "property"
+    ],
+    "fullGuideId": "buying-property"
+  }
+]

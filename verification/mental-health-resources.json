@@ -1,0 +1,242 @@
+{
+  "guideId": "mental-health-resources",
+  "categoryId": "emergency_rights",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has several misleading crisis-line details, overconfident SNS waiting-time claims, and a materially wrong tax/business-expense caveat.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1]",
+        "current": "☎️ **SNS 24: 808 24 24 24** → option 4 — психологическая помощь, 24/7, бесплатно. PT/EN",
+        "problem": "The SNS 24 psychological counselling service is free as a service, but 808 numbers are not necessarily free calls; they are charged according to the caller's tariff/shared-cost/local-rate rules. Calling it simply 'бесплатно' is misleading, especially for mobile/foreign SIM users.",
+        "suggestion": "Write: \"☎️ SNS 24: 808 24 24 24 → opção 4 — aconselhamento psicológico 24/7; услуга бесплатная, но звонок на 808 может тарифицироваться оператором. В непосредственной опасности — 112.\"",
+        "confidence": "high",
+        "source": "SNS 24; ANACOM rules on 808/707 shared-cost numbers"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4]",
+        "current": "☎️ **Linha Vida (наркомания и алкоголь): 1414** — бесплатно круглосуточно",
+        "problem": "Linha Vida 1414 is not a 24/7 crisis line. It is an ICAD/SICAD helpline for addictive behaviours/dependencies with limited service hours. Saying 'круглосуточно' may send someone in acute crisis to a closed line.",
+        "suggestion": "Replace with: \"☎️ Linha Vida — 1414 — apoio sobre comportamentos aditivos/dependências; бесплатная/анонимная линия, но не 24/7 — проверьте актуальные часы на сайте ICAD/SICAD. При угрозе жизни — 112.\"",
+        "confidence": "high",
+        "source": "ICAD/SICAD — Linha Vida 1414"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[5]",
+        "current": "☎️ **Linha Apoio Emocional COVID: 808 24 24 24** — продолжает работать post-pandemic для emotional support",
+        "problem": "This is confusing/outdated branding. The current practical route is SNS 24 psychological counselling via option 4, not a separate 'COVID emotional support' line. It duplicates the previous item and may imply a COVID-specific service still exists under that name.",
+        "suggestion": "Delete this bullet, or replace with: \"SNS 24 mantém aconselhamento psicológico através da opção 4 do 808 24 24 24; не отдельная COVID-линия.\"",
+        "confidence": "high",
+        "source": "SNS 24 — Aconselhamento psicológico"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[6]",
+        "current": "☎️ **APAV (для жертв насилия): 116 006** — национальная помощь жертвам преступлений",
+        "problem": "APAV 116 006 is a victim support line, but it is not a 24/7 emergency line. In a crisis section, the lack of hours and emergency caveat is misleading for domestic violence/stalking/assault situations.",
+        "suggestion": "Write: \"☎️ APAV — 116 006 — apoio a vítimas de crime/violência; бесплатная линия с ограниченными часами работы. Если есть немедленная опасность — 112 / PSP / GNR.\"",
+        "confidence": "high",
+        "source": "APAV — Linha de Apoio à Vítima 116 006"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "SOS Voz Amiga 213 544 545 (горячая линия для предотвращения суицида)",
+        "problem": "SOS Voz Amiga is better described as an emotional-support and suicide-prevention listening line, not a clinical emergency suicide service. It also has more than one contact number and limited hours.",
+        "suggestion": "Write: \"SOS Voz Amiga — linha de apoio emocional/prevenção do suicídio, com horários limitados; consulte os números atuais no site. При непосредственной угрозе жизни — 112.\"",
+        "confidence": "high",
+        "source": "SOS Voz Amiga"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2]",
+        "current": "☎️ **SOS Voz Amiga: 213 544 545** — анонимная линия 16:00-24:00 ежедневно",
+        "problem": "The hours/numbers for SOS Voz Amiga have changed over time and the guide gives only one fixed number. As of recent public materials, SOS Voz Amiga commonly lists multiple numbers and slightly different hours. A crisis guide should avoid stale single-number/hours wording.",
+        "suggestion": "Use: \"SOS Voz Amiga — apoio emocional anónimo; consulte números e horário atualizados em sosvozamiga.org. Common numbers include 213 544 545 and mobile numbers listed by the service.\"",
+        "confidence": "medium",
+        "source": "SOS Voz Amiga"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[0]",
+        "current": "Записаться через SNS 24 app или центр здоровья",
+        "problem": "This omits a critical caveat for immigrants: to use the normal SNS primary-care route, the person generally needs to be registered as a utente at a centro de saúde. Many immigrants do not have an assigned médico de família; they may be seen by another doctor/open consultation, or use urgent care/emergency routes.",
+        "suggestion": "Add: \"Нужен número de utente и регистрация в centro de saúde. Если médico de família не назначен, просите consulta aberta/consulta do dia или atendimento por médico disponível. В остром кризисе не ждите семейного врача — 112 или urgência psiquiátrica.\"",
+        "confidence": "high",
+        "source": "SNS / ACSS rules on SNS user registration and primary care access"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[0]",
+        "current": "Очередь: 1-3 мес typical, до 6 мес в столицах",
+        "problem": "Waiting times for SNS psychology are highly local and can be much longer or unavailable depending on ULS/health centre staffing. Presenting 1–3 months as 'typical' is overconfident and may be misleading.",
+        "suggestion": "Write: \"Сроки сильно зависят от ULS/centro de saúde: от нескольких недель до многих месяцев; в некоторых местах доступ к психологу ограничен. Уточняйте в своём centro de saúde и просите triagem/priority при ухудшении.\"",
+        "confidence": "high",
+        "source": "SNS local ULS access model; Ordem dos Psicólogos Portugueses reports on SNS psychology shortages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[1].content[0].items[1]",
+        "current": "6-12 сессий стандартно",
+        "problem": "This is too definitive. There is no universal SNS rule that outpatient psychology is normally 6–12 sessions; session number depends on service, clinical need, and local capacity.",
+        "suggestion": "Replace with: \"Количество сессий не гарантировано: зависит от оценки специалиста и доступности службы; часто это краткосрочное сопровождение.\"",
+        "confidence": "high",
+        "source": "SNS/ULS mental-health service practice; Ordem dos Psicólogos Portugueses"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2].content[0].items[1]",
+        "current": "Очередь короче (1-2 мес) чем у психолога",
+        "problem": "Psychiatry waiting times in the SNS are not reliably shorter than psychology waiting times and vary substantially by region, hospital, priority and triage. This statement is not safe as general advice.",
+        "suggestion": "Write: \"Очередь к психиатру зависит от triagem и региона; срочные случаи направляются быстрее, обычные consultas могут ждать месяцы. При риске самоубийства/психозе/опасности — 112 или urgência.\"",
+        "confidence": "high",
+        "source": "SNS hospital specialty referral/triage practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[2].content[0].items[2]",
+        "current": "Только по направлению семейного врача",
+        "problem": "For routine SNS specialty consultations this is broadly true, but 'только' is too absolute: urgent psychiatric assessment can happen through emergency services/urgência without waiting for a family-doctor referral.",
+        "suggestion": "Write: \"Для плановой консультации в SNS обычно нужно направление из primary care; при остром кризисе — 112/INEM или urgência psiquiátrica без ожидания направления.\"",
+        "confidence": "high",
+        "source": "SNS emergency care rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[5]",
+        "current": "**Therapie em Lisboa** — expat-friendly",
+        "problem": "The name appears misspelled/mixed-language. The known Lisbon practice is commonly styled 'Therapy in Lisboa'. A wrong clinic name hurts searchability.",
+        "suggestion": "Verify the provider name and write the exact brand/domain, e.g. \"Therapy in Lisboa\" if that is the intended clinic.",
+        "confidence": "medium",
+        "source": "Provider website / public business listing"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[5]",
+        "current": "Поиск: ordemdospsicologos.pt → Encontrar Psicólogo",
+        "problem": "This is important but incomplete: in Portugal, the safe way to verify a psychologist is through the Ordem dos Psicólogos Portugueses member directory. The guide should warn that 'coach', 'therapist' or 'psychotherapist' are not always protected/regulated titles in the same way.",
+        "suggestion": "Add: \"Проверяйте, что psicólogo имеет cédula profissional в Ordem dos Psicólogos Portugueses; 'coach/terapeuta' может не быть клиническим психологом.\"",
+        "confidence": "high",
+        "source": "Ordem dos Psicólogos Portugueses"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[0]",
+        "current": "**Médis**: 10-30 € co-pay; обычно 8-12 сессий/год",
+        "problem": "Insurance mental-health coverage varies heavily by plan, network and optional modules. The 'обычно 8-12 sessions/year' wording is too specific without caveat and may be wrong for many policies.",
+        "suggestion": "Write: \"Покрытие зависит от конкретного plano/rede: могут быть лимиты по числу сессий, plafond, copay и pre-authorisation. Проверяйте Condições Particulares before booking.\"",
+        "confidence": "high",
+        "source": "Médis/Multicare/AdvanceCare policy conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "**Talkspace** — text + video, 65-120 €/неделю",
+        "problem": "Talkspace is primarily a US-focused service and may not provide Portugal-licensed clinical care or prescriptions. Listing it without jurisdiction/licensing caveat can mislead users who need regulated healthcare in Portugal.",
+        "suggestion": "Add caveat: \"Проверяйте страну лицензии специалиста, GDPR/data handling, право практиковать в Portugal/EU, и что онлайн-платформы не подходят для emergency.\"",
+        "confidence": "medium",
+        "source": "Talkspace terms of service; Ordem dos Psicólogos Portugueses"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "**Hoory, Wysa** — AI chatbot для anxiety / depression — бесплатно, не replace therapy",
+        "problem": "Good caveat that it does not replace therapy, but the guide should also explicitly say AI chatbots are not crisis services and should not be used for suicidal ideation/emergency situations.",
+        "suggestion": "Write: \"AI chatbots can be self-help tools only; не использовать при suicidal thoughts, psychosis, self-harm risk or emergency — call 112/SNS24.\"",
+        "confidence": "high",
+        "source": "General medical-device/safety guidance; app terms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[0]",
+        "current": "**Russian Mental Health PT** Telegram/Facebook — peer support",
+        "problem": "This looks like an informal/unverified community name. For a mental-health guide, peer-support groups should not be presented like reliable services unless the group exists and is moderated/safe.",
+        "suggestion": "Either provide a verified link and caveat \"peer support, not clinical help\", or rewrite generically: \"Russian-speaking expat Telegram/Facebook groups may help with peer support; verify moderators and do not use them for emergencies.\"",
+        "confidence": "medium",
+        "source": "No official source provided"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1]",
+        "current": "**Internations Lisbon Mental Health** — meetups, free",
+        "problem": "InterNations events are often paid/member-only and the specific 'Lisbon Mental Health' meetup may not be a stable or official resource. Calling it 'free' is likely unreliable.",
+        "suggestion": "Write: \"InterNations/Meetup/Facebook events may exist, but availability and cost vary; verify current event pages.\"",
+        "confidence": "medium",
+        "source": "InterNations event/member model"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[6]",
+        "current": "**Anonymous Alcoholics Portugal** — daily meetings, EN/PT/RU",
+        "problem": "The organisation name is wrong in English/Portuguese. It is Alcoholics Anonymous / Alcoólicos Anónimos. 'EN/PT/RU daily' is too strong unless verified; Russian-language meetings in Portugal may be online or not daily.",
+        "suggestion": "Write: \"Alcoholics Anonymous / Alcoólicos Anónimos Portugal — PT/EN meetings in some areas; Russian-language support may be online and should be verified on the official meeting list.\"",
+        "confidence": "high",
+        "source": "Alcoólicos Anónimos Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[0]",
+        "current": "Расходы на психолога/психиатра — **medical expenses** для IRS вычета",
+        "problem": "Generally true, but incomplete: the invoice must be correctly classified in e-Fatura as a health expense, and eligibility depends on the provider's activity/VAT treatment. Some services with 23% VAT may require a prescription or manual validation to count as health expenses.",
+        "suggestion": "Write: \"Расходы могут попасть в saúde no IRS, если factura com NIF корректно классифицирована в e-Fatura; для услуг/товаров с 23% IVA может потребоваться receita médica/validação manual.\"",
+        "confidence": "high",
+        "source": "Código do IRS art. 78.º-C; Autoridade Tributária e-Fatura guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[5]",
+        "current": "Если по recibos verdes (ИП): расходы на терапию для work-related stress — могут зачитываться как business expense (consult бухгалтер)",
+        "problem": "This is materially misleading. Personal therapy/medical costs are normally personal IRS health expenses, not deductible professional/business expenses for recibos verdes merely because stress is work-related. Treating them as business expenses can create audit risk unless there is a very specific occupational/legal justification.",
+        "suggestion": "Replace with: \"Для recibos verdes терапия обычно остаётся личным medical expense для IRS, а не business expense. Не списывайте как atividade profissional без письменной позиции contabilista/AT and strong documentation.\"",
+        "confidence": "high",
+        "source": "Código do IRS rules on Category B deductible expenses; Autoridade Tributária guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[3]",
+        "current": "Лекарства из аптеки с рецептом тоже зачитываются",
+        "problem": "Too simplified. Pharmacy expenses with reduced VAT are normally health expenses; items taxed at 23% generally require a medical prescription to be deductible as health expenses and may need validation in e-Fatura.",
+        "suggestion": "Write: \"Лекарства с NIF в factura обычно идут в e-Fatura; товары с 23% IVA требуют receita médica и проверки/validação для IRS saúde.\"",
+        "confidence": "high",
+        "source": "Autoridade Tributária e-Fatura; Código do IRS art. 78.º-C"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "{\"title\":\"SNS 24 — Saúde Mental\",\"url\":\"https://www.sns24.gov.pt/\",\"kind\":\"official\"}",
+        "problem": "The source URL is only the SNS 24 homepage, not the specific page for psychological counselling/mental health. For crisis-line advice, a deep official URL is important.",
+        "suggestion": "Use the specific SNS 24 page for aconselhamento psicológico / saúde mental, not only the homepage.",
+        "confidence": "high",
+        "source": "SNS 24"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include SNS24, Ordem dos Psicólogos, SOS Voz Amiga, APAV only",
+        "problem": "The guide gives specific facts about Linha Vida, tax deductions, insurance, and online/regulated professionals but lacks official sources for several of these sensitive claims.",
+        "suggestion": "Add official sources: ICAD/SICAD for Linha Vida 1414; Autoridade Tributária/CIRS art. 78.º-C for health-expense deductions; ANACOM for 808 call costs; Alcoólicos Anónimos Portugal/Narcóticos Anónimos Portugal for addiction meetings.",
+        "confidence": "high",
+        "source": "ICAD/SICAD; Autoridade Tributária; ANACOM; AA Portugal; NA Portugal"
+      }
+    ],
+    "missing_topics": [
+      "Urgent psychiatric route: 112/INEM and hospital urgência psiquiátrica for suicidal intent, psychosis, severe withdrawal, violence risk, or inability to stay safe",
+      "How immigrants access SNS mental-health care: número de utente, centro de saúde registration, no assigned médico de família, and what to do while waiting",
+      "Clear distinction between crisis lines, peer support, psychotherapy, psychiatry, and emergency medical care",
+      "Professional verification: check psychologist registration/cédula with Ordem dos Psicólogos Portugueses; psychiatrist must be a medical doctor registered with Ordem dos Médicos",
+      "Language/interpreter caveat: SNS does not reliably provide interpreters for mental-health consultations; bring a trusted interpreter only if clinically/privacy appropriate",
+      "Children/adolescents: school psychologist, pediatra/family doctor, child psychiatry referral, and emergency route for self-harm",
+      "Medication caveat: GPs can prescribe some medication, but benzodiazepines/sleeping pills have dependence risks and should be medically supervised",
+      "Domestic violence crisis routes: 112 in immediate danger, APAV for victim support, and police/GNR/PSP reporting options"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5732,
+    "prompt_tokens": 3252,
+    "total_tokens": 8984
+  },
+  "model": "gpt-5.5"
+}

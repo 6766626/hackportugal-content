@@ -1,0 +1,12 @@
+{
+  "guideId": "relocation-shipping",
+  "categoryId": "before_arrival",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Unexpected non-whitespace character after JSON at position 1107 (line 9 column 6)",
+    "raw": "  \"verdict\": \"major_issues\",\n  \"summary\": \"Гайд в целом полезен по вариантам перевозки, но содержит несколько существенных ошибок по таможенной льготе, документам, авиабагажу и ввозу автомобиля.\",\n  \"issues\": [\n    {\n      \"severity\": \"major\",\n      \"where\": \"tldr\",\n      \"current\": \"«Таможня: личное имущество без пошлин при переезде (Isenção por transferência de residência), нужен сертификат AIMA + invoice.»\",\n      \"problem\": \"AIMA не выдаёт сертификат для таможенной льготы на личное имущество",
+    "issues": [],
+    "missing_topics": []
+  },
+  "model": "gpt-5.5"
+}

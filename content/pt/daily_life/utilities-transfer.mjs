@@ -1,0 +1,257 @@
+export default {
+  "editorialVoice": "hackportugal",
+  "id": "utilities-transfer",
+  "categoryId": "daily_life",
+  "title": "Serviços públicos — contratos, mudança de fornecedor, poupança",
+  "tldr": "Em Portugal há 3 serviços essenciais: eletricidade, água, gás (se estiver ligado). A eletricidade e o gás funcionam num mercado liberalizado: pode escolher o fornecedor, por exemplo EDP, Galp, Iberdrola, Endesa e outros. A água é sempre um serviço municipal (EPAL em Lisboa). A mudança de fornecedor é gratuita e ocorre sem interrupções. A transferência de contratos para uma nova morada em caso de mudança de casa demora 5–15 dias, sem penalização, ao abrigo do Decreto-Lei 38/2017.",
+  "tags": [
+    "eletricidade",
+    "gás",
+    "água",
+    "edp",
+    "galp",
+    "iberdrola"
+  ],
+  "estimatedReadMinutes": 6,
+  "steps": [
+    {
+      "id": "market",
+      "title": "Mercado regulado e liberalizado",
+      "content": [
+        {
+          "kind": "paragraph",
+          "text": "A eletricidade e o gás em Portugal estão liberalizados desde 2015 — o fornecedor pode ser qualquer empresa, com preços livres. Em paralelo, desde 2021, voltou a existir a tarifa regulada para clientes vulneráveis: pessoas idosas e pessoas com baixos rendimentos."
+        },
+        {
+          "kind": "checklist",
+          "items": [
+            "💡 Eletricidade: mais de 20 fornecedores (EDP Comercial, Galp, Iberdrola, Endesa, Goldenergy, Coopérnico, Luzigás e outros)",
+            "🔥 Gás: mais de 10 fornecedores (muitas vezes os mesmos)",
+            "💧 Água: municipal (EPAL, SMAS, Águas do Douro e outros) — não é possível escolher",
+            "📜 Regulador: ERSE (Entidade Reguladora dos Serviços Energéticos)",
+            "💡 Comparação de tarifários: poupaenergia.pt (agregador oficial da ERSE)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choose-supplier",
+      "title": "Como escolher o fornecedor",
+      "content": [
+        {
+          "kind": "substeps",
+          "items": [
+            {
+              "id": "s1",
+              "title": "1. Conhecer o consumo",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Apartamento médio de 70 m² para 2 pessoas: 150–250 kWh/mês (eletricidade), 50 m³ de gás no inverno. Famílias numerosas — 500+ kWh."
+                }
+              ]
+            },
+            {
+              "id": "s2",
+              "title": "2. Escolher a potência (potência)",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "3.45 kVA — apartamento pequeno sem equipamentos de grande potência",
+                    "4.60 kVA — apartamento T2 padrão",
+                    "6.90 kVA — apartamento T3 com ar condicionado e placa elétrica",
+                    "10.35 kVA — casa grande / termoacumulador",
+                    "13.80+ kVA — utilização profissional"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s3",
+              "title": "3. Tarifário (tarifa)",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "Simples — um único preço 24/7",
+                    "Bi-horária — dia / noite (das 22:00 às 08:00)",
+                    "Tri-horária — ponta / cheias / vazio (para indústria)"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "s4",
+              "title": "4. Comparar em poupaenergia.pt",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Site oficial da ERSE. É necessário introduzir o código postal, o consumo e a potência → aparece uma lista de todos os tarifários com o preço mensal."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "new-contract",
+      "title": "Celebração do contrato",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "📋 Documentos: Cartão de Cidadão/autorização de residência, NIF, IBAN para débito direto",
+            "🏠 Morada e códigos energéticos (CPE para eletricidade, CUI para gás) — indicados no contador já instalado",
+            "💻 Online através do site do fornecedor ou do centro de atendimento",
+            "📞 Pagamento: débito direto mensal ou referência Multibanco",
+            "📅 Ligação: 2–10 dias úteis",
+            "📊 Leituras do contador — de 2 em 2 meses, autonomamente ou por telefone"
+          ]
+        },
+        {
+          "kind": "warning",
+          "text": "Uma nova ligação exige o Certificado Energético do edifício (renovado de 10 em 10 anos). Em edifícios antigos, muitas vezes não está atualizado — resolva isto com o senhorio / proprietário."
+        }
+      ]
+    },
+    {
+      "id": "change",
+      "title": "Mudança de fornecedor",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "💻 Online no site do novo fornecedor — demora 5 minutos",
+            "📝 Necessários: NIF, CPE / CUI (na fatura), IBAN",
+            "📅 Transição automática — no máximo 3 semanas",
+            "💡 A eletricidade não é interrompida nem por um minuto",
+            "💰 Não há comissão pela mudança",
+            "🔒 O contrato antigo é encerrado automaticamente, o novo fornecedor trata do processo",
+            "📊 Fatura final do fornecedor antigo — após a última leitura"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "move",
+      "title": "Mudança de casa — transferência do contrato",
+      "content": [
+        {
+          "kind": "substeps",
+          "items": [
+            {
+              "id": "m1",
+              "title": "Manter o fornecedor antigo, mas mudar a morada",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Pedido através da aplicação: «Alteração de morada do contrato». Mantêm-se o tarifário e o número do contrato. Prazo — 5–10 dias."
+                }
+              ]
+            },
+            {
+              "id": "m2",
+              "title": "Novo fornecedor na nova casa",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Se o morador anterior deixou o contrato ativo, encerra-o por declaração e celebra imediatamente o seu. Sem atrasos."
+                }
+              ]
+            },
+            {
+              "id": "m3",
+              "title": "Serviço desligado após uma longa interrupção",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "É necessária uma nova ligação: 50–100 € + técnico no local. Prazo — até 15 dias. Se o contador for antigo, a substituição é obrigatória."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "disputes",
+      "title": "Problemas e reclamações",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "📋 Livro de Reclamações — em papel ou em livroreclamacoes.pt",
+            "⚖️ ERSE — regulador, erse.pt/reclamações",
+            "⚡ DGEG (Direcção-Geral de Energia) — para casos graves",
+            "💰 CTC (Centro de Arbitragem de Conflitos de Consumo) — a nível regional",
+            "🚫 É proibido cortar a eletricidade sem aviso; há direito a compensação",
+            "📅 Atrasos no reembolso / crédito >30 dias — coima para o fornecedor"
+          ]
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "label": "Eletricidade, apartamento médio de 70 m²",
+      "amountEURMin": 40,
+      "amountEURMax": 80,
+      "note": "€/mês"
+    },
+    {
+      "label": "Gás (se estiver ligado)",
+      "amountEURMin": 30,
+      "amountEURMax": 80,
+      "note": "€/mês"
+    },
+    {
+      "label": "Água (EPAL Lisboa, 2 pessoas)",
+      "amountEURMin": 15,
+      "amountEURMax": 30,
+      "note": "€/mês"
+    },
+    {
+      "label": "Mudança de fornecedor",
+      "amountEUR": 0
+    },
+    {
+      "label": "Nova ligação de serviço desligado",
+      "amountEURMin": 50,
+      "amountEURMax": 100
+    }
+  ],
+  "sources": [
+    {
+      "title": "ERSE — Entidade Reguladora dos Serviços Energéticos",
+      "url": "https://www.erse.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Poupa Energia — agregador oficial da ERSE",
+      "url": "https://www.poupaenergia.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "DGEG — Direcção-Geral de Energia e Geologia",
+      "url": "https://www.dgeg.gov.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "Decreto-Lei 38/2017 — comercialização de eletricidade",
+      "url": "https://diariodarepublica.pt/dr/detalhe/decreto-lei/38-2017",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    }
+  ],
+  "lastVerified": "2026-04-22",
+  "verifyIntervalDays": 365
+}

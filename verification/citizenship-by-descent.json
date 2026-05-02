@@ -1,0 +1,165 @@
+{
+  "guideId": "citizenship-by-descent",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but contains several material inaccuracies about who qualifies by descent, especially great-grandchildren, the “automatic” nature of nationality, the A2/effective-link rule, Sephardic-law history, and IRN fees.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "«Доступно внукам/правнукам португальцев, если подтверждается связь… Для правнука — более сложный процесс.»",
+        "problem": "This is misleading: Portuguese nationality law has a specific route for children of Portuguese nationals and for grandchildren of Portuguese nationals, but there is no standalone direct “great-grandchild” route just by proving stronger connection. A great-grandchild usually needs the intermediate generation to acquire/establish Portuguese nationality first, then the applicant may fit as child or grandchild depending on the chain and timing/effects.",
+        "suggestion": "Write: «Прямые маршруты есть для детей португальцев и для внуков португальцев. Для правнуков нет отдельной прямой категории: обычно сначала гражданство должен оформить родитель или дедушка/бабушка в цепочке, после чего заявитель подаёт уже как ребёнок или внук португальца, если выполняются условия закона.»",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, Lei 37/81, art. 1.º"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Для внука — автоматическое при рождении + запись.»",
+        "problem": "Grandchildren of Portuguese nationals are not simply “automatic at birth + registration”. They acquire Portuguese nationality of origin by declaration/registration if statutory conditions are met, including effective connection as defined by law/regulation and criminal/security exclusions. Calling it automatic understates the substantive eligibility checks.",
+        "suggestion": "Write: «Для внука это гражданство по происхождению, но не “автоматически”: нужно подать декларацию/заявление в IRN/Conservatória и выполнить условия ст. 1.º Lei da Nacionalidade, включая связь с португальским сообществом и отсутствие предусмотренных законом препятствий.»",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 1.º, n.º 1, al. d); Regulamento da Nacionalidade Portuguesa"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].title",
+        "current": "«Ребёнок португальца (любое поколение)»",
+        "problem": "“Any generation” is confusing and legally unsafe. Portuguese law looks at the applicant’s own parent being Portuguese, not an unlimited generational chain. Remote descendants do not qualify as “children” unless the intermediate parent is legally Portuguese in the relevant sense.",
+        "suggestion": "Change title to: «Ребёнок португальского гражданина». Add caveat: «Дальние поколения не перескакивают цепочку: если вы правнук, сначала нужно проверить/оформить статус промежуточного поколения.»",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 1.º and art. 2.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "«Если один из родителей португалец (получил гражданство к моменту рождения ребёнка) — ребёнок автоматически имеет право на португальское гражданство. Регистрация в Conservatória.»",
+        "problem": "The wording mixes several regimes. Children born abroad to a Portuguese parent are not automatically Portuguese in the practical/legal sense without registration/declaration. Also, if the parent acquired Portuguese nationality after the child’s birth, the child’s route depends on the type of nationality, age and legal basis; it is not covered by this simple sentence.",
+        "suggestion": "Write: «Если на момент рождения один из родителей уже был португальским гражданином, ребёнок, рождённый за границей, может получить гражданство по происхождению через регистрацию рождения или декларацию в Conservatória/IRN/консульстве. Если родитель стал португальцем после рождения ребёнка, применяется отдельный анализ: для несовершеннолетних может быть режим приобретения гражданства, а для взрослых прямой маршрут не всегда есть.»",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 1.º, n.º 1, al. c); art. 2.º"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "«Правнук и далее: Возможно, но сложнее — требуется более сильное доказательство связи (проживание в PT, владение языком, семейные корни).»",
+        "problem": "This is materially wrong as stated. Portuguese law does not provide a generic “great-grandchild and further” nationality route based on stronger proof of ties. Residence/language/family roots may matter for naturalisation or for a grandchild application, but they do not create a direct great-grandchild descent entitlement.",
+        "suggestion": "Replace with: «Правнук и далее: прямого маршрута только по факту правнука нет. Обычно нужно сначала, чтобы промежуточное поколение оформило португальское гражданство; затем заявитель проверяет, может ли подать как ребёнок или внук португальца. Иначе остаются обычные маршруты — например, натурализация после законного проживания.»",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 1.º; IRN nationality service pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].text",
+        "current": "«Требуется “связь с португальским сообществом” — язык A2 или культурная связь.»",
+        "problem": "This oversimplifies the current rule. For grandchildren, the law/regulation treats sufficient knowledge of Portuguese as the central way the effective connection is verified, alongside statutory exclusions. “A2 or cultural connection” suggests that vague cultural ties can replace language, which is unsafe and may be wrong for many applicants.",
+        "suggestion": "Write: «Для внуков нужна связь с португальским сообществом; на практике ключевое доказательство — достаточное знание португальского языка, обычно уровень A2/CIPLE или признанный эквивалент/освобождение. Одних “культурных связей” обычно недостаточно без проверки конкретного основания.»",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 1.º, n.º 1, al. d); Regulamento da Nacionalidade Portuguesa, art. 10.º-A"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4]",
+        "current": "«Язык португальский A2 (или эквивалент)»",
+        "problem": "This is presented as a universal descent requirement, but it is not universal. Children of Portuguese nationals generally do not need A2. Grandchildren usually need proof of sufficient knowledge of Portuguese unless they fall under a recognised exemption/equivalence. Sephardic naturalisation and other regimes have different rules.",
+        "suggestion": "Change to: «Для внуков: доказательство достаточного знания португальского языка — обычно CIPLE A2 или признанный эквивалент/освобождение. Для детей португальцев это обычно не требуется.»",
+        "confidence": "high",
+        "source": "Lei 37/81; Regulamento da Nacionalidade Portuguesa"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[6]",
+        "current": "«Отсутствие военной службы в оппозиционной стране (редкое требование)»",
+        "problem": "The phrase is legally inaccurate and confusing. Portuguese nationality law does not ask for “absence of military service in an opposition country”. Some acquisition/naturalisation contexts include grounds for opposition involving non-compulsory military service to a foreign state or non-technical public functions for a foreign state, but this is not a standard checklist item for every descent case and “opposition country” is not the concept.",
+        "suggestion": "Either remove it from the generic checklist or write narrowly: «В некоторых режимах приобретения гражданства Ministério Público может возражать, например, при добровольной военной службе иностранному государству или нетехнических публичных функциях для иностранного государства; это не то же самое, что “служба в оппозиционной стране”.»",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 9.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[5]",
+        "current": "«Справка о несудимости»",
+        "problem": "Too vague for nationality cases. Applicants often need criminal record certificates from Portugal and/or from countries of nationality, birth and residence after a certain age, depending on the route and IRN instructions. The guide also omits the key statutory exclusions for serious criminal conviction and terrorism/security risk, which are especially relevant for grandchildren.",
+        "suggestion": "Write: «Справки о несудимости: обычно требуются из стран гражданства и стран проживания после 16 лет; португальскую справку IRN может получить по разрешению заявителя. Для внуков важно отсутствие приговора к лишению свободы на 3 года и более по португальской шкале, а также отсутствие угрозы безопасности/связи с терроризмом.»",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 1.º, n.º 1, al. d); IRN nationality instructions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "«Для записей из архивов Португалии — запрос через Arquivo Nacional.»",
+        "problem": "Misleading: Portuguese birth/baptism/civil records may be held by Conservatórias, Arquivos Distritais, parish archives, or Torre do Tombo depending on date/location. “Arquivo Nacional” is not the single route for all Portuguese archival records.",
+        "suggestion": "Write: «Португальские записи ищут по месту и периоду: Conservatória/IRN для civil registry, Arquivo Distrital для многих старых записей, Torre do Tombo для отдельных фондов. Начинать лучше с точного concelho/freguesia и года.»",
+        "confidence": "high",
+        "source": "DGLAB/Arquivo Nacional Torre do Tombo; IRN civil registry services"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "«…был введён Lei 43/2013 (через Decreto-Lei 30-A/2015 — Regulamento da Nacionalidade)…»",
+        "problem": "The legal citation appears wrong. The Sephardic route was introduced into the Nationality Law by Lei Orgânica n.º 1/2013, not “Lei 43/2013”. Decreto-Lei 30-A/2015 amended the nationality regulation to operationalise the route.",
+        "suggestion": "Write: «Маршрут для потомков сефардских евреев был введён Lei Orgânica n.º 1/2013, а процедурно урегулирован Decreto-Lei n.º 30-A/2015, который изменил Regulamento da Nacionalidade Portuguesa.»",
+        "confidence": "high",
+        "source": "Lei Orgânica n.º 1/2013; Decreto-Lei n.º 30-A/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "«С 1 сентября 2022 правила ужесточили Lei 2/2022 — потребовали доказательства реальной связи с Португалией…»",
+        "problem": "The instrument is likely misidentified. The major 2022 regulatory tightening for Sephardic applications effective from 1 September 2022 came through Decreto-Lei n.º 26/2022, which amended the nationality regulation and added specific proof of connection requirements. “Lei 2/2022” is not the correct citation for that operational change.",
+        "suggestion": "Write: «С 1 сентября 2022 требования существенно ужесточил Decreto-Lei n.º 26/2022: помимо сертификата сефардской общины стали требовать установленную регламентом эффективную связь с Португалией.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 26/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].text",
+        "current": "«Decreto AR 17/XVII … отменяет этот маршрут… на 22.04.2026 закон ещё НЕ промульгирован… Как только Сегуру подпишет — путь закроется.»",
+        "problem": "The guide discusses a sensitive pending legislative change but does not include any source for the parliamentary decree, presidential status, or TC judgment. Also, “Как только подпишет — путь закроется” may be too absolute without stating transitional rules, effective date after publication, and possible vacatio legis/transitional protection for pending applications.",
+        "suggestion": "Add official sources and caveat: «По состоянию на 22.04.2026 новый закон о гражданстве одобрен парламентом 01.04.2026, но ожидает промульгации/публикации. Закрытие маршрута зависит от окончательного текста, даты публикации в Diário da República и переходных положений для уже поданных заявлений.»",
+        "confidence": "high",
+        "source": "Assembleia da República legislative record; Tribunal Constitucional Acórdão 1133/2025; Diário da República after promulgation"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "No source for Decreto AR 17/XVII, TC Acórdão 1133/2025, or 01.04.2026 parliamentary approval",
+        "problem": "The guide makes time-sensitive claims about a pending nationality-law overhaul and Sephardic route closure but only cites older laws and generic IRN pages. For this category, official sources are necessary.",
+        "suggestion": "Add official links to the Assembleia da República page for the approved decree/new nationality law, the Tribunal Constitucional Acórdão 1133/2025 page, and the Presidency/Diário da República status once promulgated/published.",
+        "confidence": "high",
+        "source": "Assembleia da República; Tribunal Constitucional; Diário da República"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "«Пошлина IRN», amountEUR: 250",
+        "problem": "A flat €250 IRN fee is misleading for a guide about descent. €250 is common for naturalisation/acquisition routes, but nationality attribution by origin for children/grandchildren often has different emoluments, and minors may be free in some attribution cases. The fee depends on the exact legal basis.",
+        "suggestion": "Write: «Пошлина IRN зависит от основания: для многих заявлений о гражданстве по происхождению сумма отличается от натурализации; для несовершеннолетних детей португальцев может быть бесплатно. Проверяйте актуальную Tabela de Emolumentos/IRN перед подачей.» If giving numbers, split by route rather than one €250 line.",
+        "confidence": "medium",
+        "source": "Regulamento Emolumentar dos Registos e Notariado; IRN nationality fee table"
+      },
+      {
+        "severity": "minor",
+        "where": "timelineDaysMin/timelineDaysMax",
+        "current": "timelineDaysMin: 180, timelineDaysMax: 720",
+        "problem": "6–24 months is optimistic for many IRN nationality cases, especially grandchild and Sephardic files, which have commonly taken longer. The range may create unrealistic expectations.",
+        "suggestion": "Use a broader, less definitive range: «От нескольких месяцев для простых регистраций детей до 2–4+ лет для внуков/сложных дел; сроки IRN сильно зависят от основания, полноты документов и загруженности.»",
+        "confidence": "medium",
+        "source": "IRN practice / nationality case processing experience; official IRN pages generally avoid guaranteed timelines"
+      }
+    ],
+    "missing_topics": [
+      "Clear distinction between nationality of origin, acquisition by declaration, and naturalisation",
+      "No direct great-grandchild route and need to build the chain through intermediate generations",
+      "Criminal conviction and terrorism/national-security exclusions for grandchildren",
+      "Exact documentary rules: apostille/legalisation, certified translations, full-form birth certificates, name discrepancies, marriage certificates where surnames/parentage changed",
+      "Country-specific criminal record requirements and Portuguese criminal record authorisation",
+      "Special rules for minors, incapacitated applicants, and adopted children",
+      "Transitional rules and official sources for the 2026 nationality-law amendment awaiting promulgation",
+      "Route-specific IRN fees instead of one flat €250 amount"
+    ]
+  },
+  "model": "gpt-5.5"
+}

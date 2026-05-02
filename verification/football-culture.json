@@ -1,0 +1,152 @@
+{
+  "guideId": "football-culture",
+  "categoryId": "food_leisure",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но содержит несколько явных фактических ошибок по клубам, дерби, Кубку Португалии и футбольной истории, плюс внутреннее противоречие по числу sócios Benfica.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Sóócios (члены клубов) — ~200 000 у Benfica, рекорд мира.",
+        "problem": "Есть опечатка в слове sócios, а число противоречит тексту ниже, где указано 250+ тыс. Кроме того, у Benfica в последние годы заявлялось существенно больше 200 тыс. членов; формулировка про мировой рекорд требует аккуратности и привязки к официальному/Guinness-источнику.",
+        "suggestion": "Написать: \"Sócios (члены клуба) — у Benfica их сотни тысяч; клуб заявлял о мировом рекорде Guinness по числу членов. Точное число меняется, проверяйте на сайте клуба.\"",
+        "confidence": "high",
+        "source": "SL Benfica; Guinness World Records"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "250+ тыс. сóóциос — Guinness World Record.",
+        "problem": "Опечатка/искажение термина: по-португальски \"sócios\", не \"сóóциос\". Также число не совпадает с tldr (~200 000) и нуждается в обновлении/уточнении, потому что членство меняется.",
+        "suggestion": "Заменить на: \"сотни тысяч sócios; Benfica заявляла о рекорде Guinness по числу членов футбольного клуба — актуальную цифру лучше проверять на slbenfica.pt.\"",
+        "confidence": "high",
+        "source": "SL Benfica; Guinness World Records"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].text",
+        "current": "Единственный португальский клуб в Clube dos 21 (UEFA).",
+        "problem": "Формулировка непонятна и выглядит как несуществующая/неофициальная категория UEFA. \"Clube dos 21\" не является общеупотребимым официальным статусом UEFA для FC Porto. Это вводит читателя в заблуждение.",
+        "suggestion": "Удалить эту фразу или заменить на проверяемый факт: \"FC Porto — самый успешный португальский клуб в еврокубках: выигрывал Кубок европейских чемпионов/Лигу чемпионов в 1987 и 2004, Кубок UEFA/Лигу Европы, Суперкубок UEFA и Межконтинентальный кубок.\"",
+        "confidence": "high",
+        "source": "UEFA; FC Porto"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "Академия Alcochete — одна из лучших в мире: выпустила Cristiano Ronaldo, Luís Figo, João Félix, Nani.",
+        "problem": "João Félix не выпускник академии Sporting CP/Alcochete. Он связан с Benfica; до Benfica был в FC Porto и Padroense. Указание его как продукта Sporting — фактическая ошибка.",
+        "suggestion": "Заменить João Félix на реальных выпускников Sporting: \"Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa\".",
+        "confidence": "high",
+        "source": "Sporting CP; player career records"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "🔥 Derby do Norte / Invicta — FC Porto vs Sporting (менее накалённый, но тоже классика)",
+        "problem": "FC Porto vs Sporting — это не Derby da Invicta и не Derby do Norte. Derby da Invicta — это Porto vs Boavista. Porto vs Sporting обычно называют clássico между двумя из Três Grandes, но не городским/северным дерби.",
+        "suggestion": "Написать: \"🔥 FC Porto vs Sporting — ещё один clássico между клубами из Três Grandes. А Derby da Invicta — это FC Porto vs Boavista.\"",
+        "confidence": "high",
+        "source": "Liga Portugal; club usage"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3]",
+        "current": "🔥 Clássico Eterno — Benfica vs Sporting историческое ощущение",
+        "problem": "Для Benfica vs Sporting стандартные названия — Derby de Lisboa / Dérbi de Lisboa или Derby Eterno. \"Clássico Eterno\" звучит нестандартно и может путать с O Clássico Benfica-Porto.",
+        "suggestion": "Заменить на: \"🔥 Derby Eterno / Dérbi de Lisboa — Benfica vs Sporting, историческое лиссабонское противостояние.\"",
+        "confidence": "medium",
+        "source": "Liga Portugal; Portuguese sports media usage"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].text",
+        "current": "Официальный комментатор RTP плачет от эмоций — традиция.",
+        "problem": "Это выглядит как неподтверждённая шутка или гипербола, но подано как факт/традиция. У RTP нет такой официальной традиции.",
+        "suggestion": "Либо удалить, либо переформулировать как шутливое наблюдение: \"ТВ-комментаторы и болельщики переживают очень эмоционально.\"",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "Клазико и Champions League — за месяц.",
+        "problem": "Опечатка \"Клазико\". Кроме того, сроки продаж зависят от клуба, турнира, статуса sócio, категории матча и жеребьёвки; \"за месяц\" не универсальное правило.",
+        "suggestion": "Написать: \"Clássico/derby и еврокубки — сроки зависят от клуба и категории матча; часто сначала открывают продажу для sócios, затем для широкой публики.\"",
+        "confidence": "high",
+        "source": "SL Benfica; FC Porto; Sporting CP ticket pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "Членство от 30 €/мес (Benfica).",
+        "problem": "Сумма выглядит завышенной как минимальный ежемесячный взнос Benfica. У клубов есть разные категории членства, возрастные тарифы и способы оплаты; минимальная ставка обычно ниже 30 €/мес. Без ссылки это может ввести в заблуждение.",
+        "suggestion": "Написать: \"Стоимость зависит от клуба и категории sócio; у Benfica/Sporting/Porto есть разные тарифы и возрастные категории — проверяйте актуальную mensalidade на сайте клуба.\"",
+        "confidence": "medium",
+        "source": "SL Benfica membership page"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3].content[0].items[1]",
+        "current": "Class Champions League: 25-80 €",
+        "problem": "Опечатка/смешение языков: \"Class Champions League\". Также цены на еврокубки сильно зависят от соперника и стадии; для плей-офф и топ-соперников диапазон может быть выше.",
+        "suggestion": "Заменить на: \"Champions League / еврокубки: примерно 25-100+ €, в зависимости от стадии, соперника и сектора.\"",
+        "confidence": "medium",
+        "source": "club ticket pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].items[4]",
+        "current": "Финал Taça de Portugal (Coimbra): 30-80 €",
+        "problem": "Финал Taça de Portugal традиционно проводится на Estádio Nacional do Jamor в Oeiras, а не в Coimbra. Coimbra была исключением в отдельные годы, но не стандартным местом финала.",
+        "suggestion": "Написать: \"Финал Taça de Portugal обычно проходит на Estádio Nacional do Jamor, Oeiras; цены и квоты объявляет FPF ближе к финалу.\"",
+        "confidence": "high",
+        "source": "FPF"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[7]",
+        "current": "🍺 Алкоголь внутри стадиона НЕТ (по закону). В баре у стадиона и после",
+        "problem": "Смысл в целом верный, но формулировка слишком абсолютная: на стадионах могут продавать безалкогольное пиво или напитки с ограничениями; режим зависит от закона о безопасности на спортивных мероприятиях и правил конкретного матча.",
+        "suggestion": "Написать: \"Алкогольные напитки на матчах обычно запрещены/строго ограничены; внутри часто продают только безалкогольное пиво и soft drinks. Проверяйте правила конкретного стадиона.\"",
+        "confidence": "medium",
+        "source": "Lei n.º 39/2009, regime jurídico da segurança em espetáculos desportivos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "Selecção das Quinas",
+        "problem": "После орфографической реформы стандартное написание в Португалии — \"Seleção\", хотя старое \"Selecção\" всё ещё встречается стилистически/исторически.",
+        "suggestion": "Использовать современное написание: \"Seleção das Quinas\".",
+        "confidence": "high",
+        "source": "FPF"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[3]",
+        "current": "👑 Роландо — 5× Balão de Ouro, рекорд бомбардир сборной ever (130+)",
+        "problem": "Опечатка: должно быть \"Роналду\". Название награды по-португальски обычно \"Bola de Ouro\", а международно — Ballon d'Or; \"Balão de Ouro\" буквально означает \"золотой воздушный шар\" и выглядит ошибочно.",
+        "suggestion": "Написать: \"👑 Cristiano Ronaldo / Криштиану Роналду — 5× Ballon d'Or, лучший бомбардир в истории сборных; актуальное число голов проверяйте у FPF/FIFA.\"",
+        "confidence": "high",
+        "source": "FPF; FIFA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[1].text",
+        "current": "Региональные клубы: FC Braga, Vitória SC (Guimarães), Rio Ave, Boavista — формируют «Primeira Liga», но никогда не побеждали в чемпионате (кроме Boavista 2001 — единственный раз, когда НЕ Benfica/Porto/Sporting).",
+        "problem": "Сразу несколько ошибок. Клуб называется SC Braga, не FC Braga. Утверждение, что Boavista 2001 — единственный случай победы не из Big Three, неверно: Belenenses также выигрывал чемпионат Португалии в 1945/46. Rio Ave не является постоянным символом Primeira Liga в том же смысле, что Braga/Vitória/Boavista, и периодически вылетал.",
+        "suggestion": "Написать: \"Сильные/исторические клубы вне Três Grandes: SC Braga, Vitória SC (Guimarães), Boavista, Belenenses, Rio Ave и др. Чемпионат почти всегда выигрывали Benfica/Porto/Sporting, но исключения были: Belenenses в 1945/46 и Boavista в 2000/01.\"",
+        "confidence": "high",
+        "source": "Liga Portugal; FPF historical records"
+      }
+    ],
+    "missing_topics": [
+      "Уточнить, что билеты на топ-матчи часто сначала доступны sócios/season-ticket holders, а свободная продажа может быть ограниченной или отсутствовать.",
+      "Добавить предупреждение про away sector: гостевые сектора, клубные цвета и маршруты фанатов на дерби/классико могут регулироваться PSP и клубами.",
+      "Добавить официальные страницы покупки билетов/туров каждого клуба как источники, а не только главные страницы сайтов.",
+      "Указать, что финалы и матчи сборной продаются через FPF/официальные каналы, а не через случайные вторичные сайты."
+    ]
+  },
+  "model": "gpt-5.5"
+}

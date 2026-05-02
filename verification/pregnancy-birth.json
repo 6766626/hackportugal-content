@@ -1,0 +1,240 @@
+{
+  "guideId": "pregnancy-birth",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful in structure but contains several material errors on SNS pregnancy follow-up, parental leave/payments, newborn documents, and birth/benefit registration rules.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "9 обязательных консультаций + 3 УЗИ.",
+        "problem": "For low-risk pregnancy the DGS programme does not define '9 obligatory consultations' as the standard minimum; the commonly cited DGS minimum is 6 prenatal consultations, with frequency adjusted by gestational age and clinical risk. The 3 ultrasound scans are correct, but their windows need precision.",
+        "suggestion": "Replace with: «В низкорисковой беременности DGS предусматривает минимум 6 консультаций наблюдения и обычно 3 скрининговых УЗИ: 11–13+6, 20–22 и 30–32 недели; при рисках/осложнениях визитов и обследований больше.»",
+        "confidence": "high",
+        "source": "DGS, Programa Nacional para a Vigilância da Gravidez de Baixo Risco"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Ребёнок регистрируется в Conservatória на 20 день.",
+        "problem": "Misleading wording: birth must be declared within 20 days, not specifically on the 20th day. It can often be done immediately through Balcão do Nado Vivo / online / civil registry.",
+        "suggestion": "Write: «Рождение нужно зарегистрировать в течение 20 дней — часто прямо в роддоме через Balcão do Nado Vivo или позже в Conservatória/онлайн, если применимо.»",
+        "confidence": "high",
+        "source": "IRN / Código do Registo Civil"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Открывается «Processo Clínico» в SNS24, выдаётся boletim de grávida — зелёная книжка",
+        "problem": "The clinical file is not 'opened in SNS24' as such. Follow-up is opened/recorded in the local SNS health unit/USF/UCSP and hospital systems; SNS24 is a portal/app/line. The correct booklet name is usually «Boletim de Saúde da Grávida».",
+        "suggestion": "Replace with: «Семейный врач/USF открывает наблюдение беременности в SNS, оформляет направления и выдаёт Boletim de Saúde da Grávida — книжку беременной, куда записывают консультации, анализы и УЗИ.»",
+        "confidence": "high",
+        "source": "DGS, Programa Nacional para a Vigilância da Gravidez de Baixo Risco"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[2].content[0].text",
+        "current": "С 23 недель можно подать в Segurança Social Direta ... предварительную заявку на Subsídio Parental — чтобы выплаты начались сразу после рождения.",
+        "problem": "This confuses different benefits. Subsídio parental is generally requested after the birth / start of leave, not as a standard prenatal application from 23 weeks. The prenatal benefit is Abono de Família Pré-Natal, which can be requested from the 13th week of pregnancy subject to income/eligibility.",
+        "suggestion": "Replace with: «С 13-й недели можно запросить Abono de Família Pré-Natal, если семья проходит по доходам. Subsídio Parental подают после рождения ребёнка/начала отпуска через Segurança Social Direta; срок подачи — обычно до 6 месяцев с первого дня, за который запрашивается пособие.»",
+        "confidence": "high",
+        "source": "Segurança Social — Abono de família pré-natal; Segurança Social — Subsídio parental"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Стандарт SNS — 9 обязательных консультаций:",
+        "problem": "Same substantive error as TLDR: DGS low-risk pathway is not a fixed 9 mandatory consultation schedule. Calling them 'obligatory' is misleading.",
+        "suggestion": "Replace the lead-in with: «Для низкорисковой беременности DGS рекомендует минимум 6 консультаций; на практике график часто плотнее к концу беременности и зависит от USF/больницы и клинического риска.»",
+        "confidence": "high",
+        "source": "DGS, Programa Nacional para a Vigilância da Gravidez de Baixo Risco"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items",
+        "current": "1-я: до 12 недель — первичная, анализы, УЗИ раннее; 2-я: 16-20 недель — морфологическое УЗИ; 4-я: 28-32 недели — 3-е УЗИ",
+        "problem": "The ultrasound windows are inaccurate. Standard DGS ultrasound timing is 1st trimester 11–13 weeks + 6 days, morphology scan 20–22 weeks, and 3rd trimester scan 30–32 weeks. The guide also implies ultrasound at the first consultation before 12 weeks as a routine early scan, which is not always the screening ultrasound.",
+        "suggestion": "Write a separate line: «Плановые УЗИ в SNS обычно: 11–13+6 недель, 20–22 недели, 30–32 недели. Раннее УЗИ до 11 недель делают не всем, а по показаниям/доступности.»",
+        "confidence": "high",
+        "source": "DGS, Programa Nacional para a Vigilância da Gravidez de Baixo Risco"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[2].text",
+        "current": "Дополнительные анализы автоматически: TORCH, группа крови, HIV, сифилис, гепатиты, моча ежемесячно.",
+        "problem": "Misleading. A broad 'TORCH' panel is not automatically done for every pregnancy as a package. DGS specifies particular screening tests by trimester, including blood group/Rh, hemogram, glycemia/diabetes screening, urine tests/urine culture, HIV, syphilis, hepatitis B, rubella immunity, toxoplasmosis depending on immunity, etc. Urine is not simply 'monthly' as a universal rule.",
+        "suggestion": "Replace with: «Анализы назначают по протоколу DGS по триместрам: группа крови/Rh, общий анализ крови, глюкоза/скрининг гестационного диабета, моча/уринокультура, HIV, сифилис, гепатит B, иммунитет к краснухе, токсоплазмоз при отсутствии иммунитета и др.; частота зависит от срока и риска.»",
+        "confidence": "high",
+        "source": "DGS, Programa Nacional para a Vigilância da Gravidez de Baixo Risco"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[5]",
+        "current": "📞 Линия SNS24 (808 24 24 24) — помощь в критических случаях",
+        "problem": "Unsafe wording. SNS24 is for triage/clinical advice and referral, not for life-threatening emergencies. In critical emergencies the number is 112.",
+        "suggestion": "Write: «SNS24 808 24 24 24 — медицинская триаж-линия при сомнениях/неэкстренных ситуациях. При угрозе жизни, сильном кровотечении, судорогах, потере сознания и т.п. звонить 112.»",
+        "confidence": "high",
+        "source": "SNS24; INEM emergency guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2].content[0].text",
+        "current": "В роддоме есть Balcão do Nado Vivo — одно окно",
+        "problem": "Not every maternity unit necessarily has an operational Balcão do Nado Vivo at all times. The statement should say 'many' hospitals/maternities, and mention alternatives.",
+        "suggestion": "Write: «Во многих роддомах есть Balcão do Nado Vivo, где можно зарегистрировать рождение; если его нет/он закрыт, регистрацию делают в Conservatória или через доступные онлайн-сервисы в течение 20 дней.»",
+        "confidence": "high",
+        "source": "IRN — Balcão do Nado Vivo / nascimento"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[3].content[0].items[2]",
+        "current": "Cartão de Cidadão (удостоверение гражданина Португалии) для ребёнка — можно оформить в Conservatória",
+        "problem": "Misleading for expats. Cartão de Cidadão is only for Portuguese citizens. A child born in Portugal to foreign parents is not automatically Portuguese in all cases; nationality depends on the nationality law conditions applicable at birth. As of April 2026, nationality-law changes have been approved on 01.04.2026 but are awaiting promulgation, so the guide should avoid implying automatic citizenship.",
+        "suggestion": "Replace with: «Cartão de Cidadão оформляют только если ребёнок является гражданином Португалии. Дети иностранцев, родившиеся в Португалии, получают гражданство только при выполнении условий закона о гражданстве; иначе оформляются иностранные документы/паспорт через консульство родителей и, при необходимости, residence process.»",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade; IRN; new nationality law approved 01.04.2026 awaiting promulgation"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3].content[0].items[3]",
+        "current": "NIF для ребёнка (автоматически при регистрации)",
+        "problem": "Birth registration does not universally and automatically provide a NIF for every newborn in all situations. Portuguese citizen card processes may include tax number assignment, but foreign newborns often need the NIF requested separately from Autoridade Tributária, with representation rules if applicable.",
+        "suggestion": "Write: «NIF не всегда появляется автоматически. Если ребёнку оформляют Cartão de Cidadão, номера могут быть связаны с этим процессом; для иностранного ребёнка NIF обычно запрашивают отдельно в Autoridade Tributária/через представителя.»",
+        "confidence": "high",
+        "source": "Autoridade Tributária; IRN"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3].content[0].items[4]",
+        "current": "Número de Utente для ребёнка (автоматически)",
+        "problem": "Too categorical. There are mechanisms such as Nascer Utente / registration via birth services, but in practice foreign families may need to confirm or request the SNS user number at the health centre, especially if automatic assignment fails.",
+        "suggestion": "Write: «Número de Utente часто создаётся через механизм регистрации новорождённого, но проверьте его после выписки; если номер не появился, запросите его в Centro de Saúde/ULS с assento de nascimento и документами родителей.»",
+        "confidence": "medium",
+        "source": "SNS / SPMS Nascer Utente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[0].content[0].items[1]",
+        "current": "150 дней — 80% (если разделить между родителями)",
+        "problem": "Wrong. The lower 80% rate applies to 150 days not shared in the qualifying way. If the leave is shared under the legal conditions, 150 days can be paid at 100%.",
+        "suggestion": "Write: «150 дней — 80% если не выполнены условия разделения; 150 дней при разделении между родителями по правилам Segurança Social — 100%.»",
+        "confidence": "high",
+        "source": "Segurança Social — Subsídio parental; Código do Trabalho"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[0].content[0].items[2]",
+        "current": "180 дней — 90% (если оба родителя берут минимум 30 дней каждый; Lei 13/2023 / Agenda do Trabalho Digno, ранее 83%)",
+        "problem": "The rate is broadly in the right direction, but the condition is imprecise. It is not simply 'both take minimum 30 days each'; the shared-leave rules require an exclusive period by each parent after the mother's mandatory leave, commonly 30 consecutive days or two 15-day periods, and the exact configuration matters.",
+        "suggestion": "Write: «180 дней при разделении — 90%, если после обязательного периода матери каждый родитель берёт предусмотренный законом исключительный период, например 30 последовательных дней или два периода по 15 дней, согласно правилам Segurança Social.»",
+        "confidence": "medium",
+        "source": "Segurança Social — Subsídio parental; Lei 13/2023"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].items[0].content[0].items[3]",
+        "current": "Отец — обязательные 20 дней «Licença Parental Exclusiva do Pai» + 8 дополнительных (опциональных) = до 28 дней (Lei 90/2019)",
+        "problem": "Outdated/wrong. Since the Agenda do Trabalho Digno changes, father's exclusive leave is 28 mandatory days, with 7 days to be taken consecutively immediately after birth, and there are additional optional days. The guide's 20+8=28 formulation is no longer current.",
+        "suggestion": "Replace with: «Отец: 28 обязательных дней licença parental exclusiva do pai; 7 из них подряд сразу после рождения, остальные в первые 42 дня. Дополнительно есть 7 факультативных дней, которые можно взять одновременно с отпуском матери.»",
+        "confidence": "high",
+        "source": "Código do Trabalho art. 43, as amended by Lei 13/2023"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2].content[0].items[0]",
+        "current": "Licença parental complementar — до 3 мес дополнительно, 25% зарплаты",
+        "problem": "The percentage is wrong/misleading. The benefit commonly relevant here is subsídio parental alargado, generally 30% of reference remuneration for up to 3 months per parent when taken immediately after initial parental leave, with specific rules.",
+        "suggestion": "Write: «Licença parental complementar / subsídio parental alargado: до 3 месяцев на каждого родителя сразу после licença parental inicial, обычно 30% от remuneração de referência; есть и другие формы complementar leave с отдельными условиями.»",
+        "confidence": "high",
+        "source": "Segurança Social — Subsídio parental alargado; Código do Trabalho"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2].content[0].items[2]",
+        "current": "Перерывы на кормление до 1 года — 2× 30 мин в день оплачиваемо",
+        "problem": "Wrong duration and length. Under the Labour Code, breastfeeding breaks are generally two distinct periods of up to one hour each; breastfeeding can continue beyond one year if proven by medical certificate. 'Aleitação' without breastfeeding is until the child is one year old.",
+        "suggestion": "Write: «Перерывы на amamentação/aleitação: обычно 2 периода до 1 часа в день. Aleitação — до 1 года; amamentação может продолжаться после 1 года при медицинском подтверждении.»",
+        "confidence": "high",
+        "source": "Código do Trabalho art. 47–48"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2].content[0].items[3]",
+        "current": "Работа part-time — по желанию мамы до 3-го года ребёнка",
+        "problem": "Over-narrow and inaccurate. Rights to part-time/flexible work are parental rights for either parent and can apply beyond age 3 under Labour Code conditions; not just the mother and not simply 'by mother's wish' without employer/process rules.",
+        "suggestion": "Write: «Право на part-time или flexible working time может быть у матери или отца при ребёнке до 12 лет, при соблюдении процедуры уведомления и условий Código do Trabalho.»",
+        "confidence": "high",
+        "source": "Código do Trabalho art. 55–57"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].items[3].content[0].items[0]",
+        "current": "Bónus Bebé (2026) — единовременно 146 € на ребёнка (1-й эшелон дохода)",
+        "problem": "There is no universal national Portuguese 'Bónus Bebé' one-off benefit of €146 in 2026. Some municipalities have local birth/baby vouchers, and national family support is mainly Abono de Família, Abono de Família Pré-Natal, Garantia para a Infância and social parental benefits where applicable. This line is likely fabricated or confused with another benefit amount.",
+        "suggestion": "Delete this item or replace with: «Единого национального “baby bonus” нет. Проверьте муниципальные apoios à natalidade по месту жительства; на национальном уровне возможны Abono de Família, Abono de Família Pré-Natal, Garantia para a Infância и Subsídio Social Parental при выполнении условий.»",
+        "confidence": "high",
+        "source": "Segurança Social; municipal apoios à natalidade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[3].content[0].items[1]",
+        "current": "Subsídio Parental прибыли (complementary allowance) — в некоторых случаях",
+        "problem": "This appears to be a mistranslation/garbled benefit name. There is no standard benefit called 'Subsídio Parental прибыли'. The relevant caveat is likely Subsídio Social Parental for people who do not qualify for contributory parental benefit and meet low-income conditions.",
+        "suggestion": "Replace with: «Subsídio Social Parental — для тех, кто не имеет права на обычный Subsídio Parental и проходит по условиям низкого дохода/ресурсов.»",
+        "confidence": "high",
+        "source": "Segurança Social — Subsídio social parental"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[1].content[0].items[0]",
+        "current": "💰 2500-5000 € за вагинальные роды без страховки",
+        "problem": "Internal inconsistency with TLDR, which says private births are €3500–8000. The section says €2500–8000 overall. Costs vary, but the guide should use one consistent range or explain vaginal vs C-section/package exclusions.",
+        "suggestion": "Make ranges consistent, e.g. TLDR: «в частных клиниках ориентировочно €2,500–8,000+ без страховки: вагинальные роды дешевле, кесарево и осложнения дороже.»",
+        "confidence": "medium",
+        "source": "private hospital price lists vary"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Direção-Geral da Saúde — programa para grávidas / https://www.dgs.min-saude.pt/",
+        "problem": "The source is too generic for a medical-protocol guide and does not directly support the consultation/ultrasound schedule. A specific DGS programme document should be cited.",
+        "suggestion": "Use a direct source: «DGS — Programa Nacional para a Vigilância da Gravidez de Baixo Risco» and link to the DGS document/page if available.",
+        "confidence": "high",
+        "source": "DGS"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "SNS24 — beneficios de maternidade / https://www.sns24.gov.pt/",
+        "problem": "Generic homepage and title is not the best source for benefits, which are handled by Segurança Social. For emergency/triage and pregnancy advice SNS24 is fine, but benefits should cite Segurança Social guides directly.",
+        "suggestion": "Either retitle it to an SNS24 pregnancy/triage source with a direct URL, or remove it as a benefits source and cite Segurança Social direct pages/PDF practical guides for parentalidade.",
+        "confidence": "high",
+        "source": "SNS24; Segurança Social"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[4]",
+        "current": "IRN — Balcão do Nado Vivo / https://irn.justica.gov.pt/",
+        "problem": "Generic IRN homepage; the guide makes specific claims about birth registration and should link to the specific IRN birth registration / Balcão do Nado Vivo service page.",
+        "suggestion": "Use a direct IRN page for «Registar nascimento» / «Balcão do Nado Vivo» rather than the IRN homepage.",
+        "confidence": "high",
+        "source": "IRN"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that children born in Portugal to foreign parents are not automatically Portuguese; explain that nationality depends on current law and that 2026 nationality-law reform is approved but awaiting promulgation.",
+      "Mention that pregnant women are exempt from many SNS user charges/taxas moderadoras and that access rules can differ for legal residents, people without a family doctor, and urgent maternal care.",
+      "Add a practical post-birth checklist for foreign parents: consular passport/birth registration with parents' country, AIMA/residence regularisation for the child where applicable, NIF, SNS number, health centre registration.",
+      "Add the distinction between Abono de Família Pré-Natal, Abono de Família for the child, Subsídio Parental, and Subsídio Social Parental.",
+      "Add emergency guidance: call 112 for emergencies; SNS24 is triage/advice and may direct the patient to urgent care.",
+      "Add caveat that private insurance maternity coverage usually has waiting periods, exclusions, ceilings and pre-authorisation requirements."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6836,
+    "prompt_tokens": 3548,
+    "total_tokens": 10384
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,92 @@
+{
+  "guideId": "coffee-culture",
+  "categoryId": "food_leisure",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом годный для бытовой темы, но содержит несколько чрезмерных обобщений, устаревший/слишком низкий ценовой ориентир и неточные формулировки про сети и кофейные термины.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Португальцы пьют 3-5 кофе в день.",
+        "problem": "Это выглядит как точное статистическое утверждение, но в источниках гайда нет подтверждения; формулировка чрезмерно обобщает привычки всех португальцев.",
+        "suggestion": "Заменить на более мягкое: «Кофе в Португалии пьют часто: для многих нормально выпить несколько маленьких café/bica в течение дня».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Bica (Лиссабон) / Cimbalino (Порту) = маленький эспрессо за 0.70-1€.",
+        "problem": "Диапазон €0.70–1 в 2026 году слишком узкий и часто занижен для Лиссабона/Порту, исторических кафе, туристических зон и specialty-кофеен. В обычной pastelaria маленький café всё ещё может стоить около €0.80–1.20, но €0.70 уже не стоит подавать как норму.",
+        "suggestion": "Написать: «обычно около €0.80–1.30 в районной pastelaria; в центре, исторических кафе и specialty-местах — заметно дороже».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0]",
+        "current": "Bica (Lx) / Cimbalino / Café (Porto) — эспрессо 25-30 мл, ~0.80€",
+        "problem": "Формулировка сбивает: «café» — общеупотребительное слово по всей Португалии, не только в Порту; «cimbalino» — скорее северный/портуанский регионализм. Цена ~€0.80 как универсальная оценка тоже занижена для 2026 в крупных городах.",
+        "suggestion": "Написать: «Café — обычный маленький эспрессо; bica — лиссабонское слово, cimbalino — север/Порту. В районной pastelaria часто ~€0.80–1.30».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Лучшие сети: Nicola, A Brasileira, Fábrica.",
+        "problem": "Nicola и A Brasileira — не «сети кофеен» в обычном смысле. A Brasileira do Chiado — историческое кафе; Nicola — историческое кафе/кофейный бренд. Fábrica Coffee Roasters — specialty-сеть/группа заведений. Формулировка «лучшие сети» вводит в заблуждение.",
+        "suggestion": "Разделить: «Исторические кафе: A Brasileira, Nicola, Martinho da Arcada, Majestic. Specialty: Fábrica Coffee Roasters, Copenhagen Coffee Lab, Combi, 7g».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[8]",
+        "current": "Abatanado / Americano — «длинный» кофе",
+        "problem": "Abatanado и Americano часто используются похожим образом, но это не строго одно и то же: abatanado обычно воспринимается как более длинный café/эспрессо в большой чашке, а americano — эспрессо, разбавленный горячей водой. В некоторых местах их приготовят по-разному.",
+        "suggestion": "Написать: «Abatanado — длинный café в большой чашке; Americano — эспрессо с добавленной горячей водой. На практике в кафе могут использовать почти взаимозаменяемо».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "После обеда — bica (местные считают галло «детским» днём).",
+        "problem": "Фраза про galão как «детский» днём — сильное культурное обобщение. Galão действительно чаще ассоциируется с завтраком/ланчем, но утверждать, что местные в целом считают его «детским» днём, неточно и может звучать как стереотип.",
+        "suggestion": "Смягчить: «После обеда чаще берут маленький café/bica; galão обычно воспринимается скорее как утренний напиток».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[1]",
+        "current": "Nicola (Rossio) — открыт 1700-е",
+        "problem": "Слишком расплывчато и немного неаккуратно для исторического факта. Обычно указывают 1787 год для Café Nicola/Botequim do Nicola на Rossio.",
+        "suggestion": "Заменить на: «Nicola (Rossio) — историческое кафе, корни обычно датируют 1787 годом».",
+        "confidence": "medium",
+        "source": "Café Nicola / исторические справки о Rossio"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "Turismo de Portugal — Cafés, https://www.visitportugal.com/",
+        "problem": "Источник заявлен как страница про cafés, но URL ведёт на главную VisitPortugal, а не на конкретную релевантную страницу. Для проверки читателем это почти бесполезно.",
+        "suggestion": "Заменить на конкретную страницу VisitPortugal о cafés/гастрономии или убрать источник, если он не подтверждает конкретные утверждения.",
+        "confidence": "high",
+        "source": "VisitPortugal"
+      }
+    ],
+    "missing_topics": [
+      "Кратко упомянуть, что цены сильно зависят от места: районная pastelaria, историческое кафе, туристическая зона и specialty-кофейня — это разные ценовые категории.",
+      "Добавить пару практических фраз для заказа: «um café, por favor», «cheio/curto», «com açúcar?», «para levar»."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2077,
+    "prompt_tokens": 1743,
+    "total_tokens": 3820
+  },
+  "model": "gpt-5.5"
+}

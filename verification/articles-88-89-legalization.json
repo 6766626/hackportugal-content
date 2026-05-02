@@ -1,0 +1,152 @@
+{
+  "guideId": "articles-88-89-legalization",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly aligned on the end of Manifestação de Interesse, but contains several material errors on visa/article mapping, Article 88/89 requirements, family reunification after Lei 61/2025, criminal-record documents, and appeal deadlines.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "Для лиц с действующей визой D2/D3 с правом на работу. После въезда и трудоустройства подача в AIMA.",
+        "problem": "Wrong visa/article mapping. Article 88.1 is the normal route for subordinate employment and corresponds primarily to a residence visa for subordinate work, i.e. D1. D2 is for independent activity/entrepreneurship and normally maps to Article 89, while D3 is for highly qualified activity and has its own legal route, not the generic Article 88 employment route.",
+        "suggestion": "Replace with: «88.1 — обычный режим для наёмной работы: въезд по резидентской визе для trabalho subordinado, обычно D1, затем подача в AIMA на ВНЖ по ст. 88. D2 относится к предпринимателям/ИП и ст. 89; D3 — к highly qualified activity и отдельному режиму.»",
+        "confidence": "high",
+        "source": "Lei 23/2007, arts. 58, 88, 89, 90"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].title",
+        "current": "89.1 — для ИП (recibos verdes)",
+        "problem": "Misleading without saying this is the visa-based normal route. Article 89.1 is not the old internal regularisation/MdI route; it is the ordinary residence-authorisation route after the proper residence visa for independent professional activity or entrepreneurship.",
+        "suggestion": "Write: «89.1 — обычный визовый режим для independent professional activity / empreendedorismo: сначала соответствующая резидентская виза, обычно D2, затем ВНЖ в AIMA.»",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 89"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].title",
+        "current": "89.2 — для владельцев компаний (Lda)",
+        "problem": "Article 89.2 is being described too narrowly and somewhat incorrectly. Historically 89.2 was the exceptional/visa-waiver route tied to independent activity or entrepreneurship from inside Portugal, not simply a generic route for Lda owners. Owning or managing an Lda alone was not enough.",
+        "suggestion": "Replace with: «89.2 — прежний исключительный режим без резидентской визы для уже находившихся в PT independent professionals / empreendedores при выполнении условий закона; для новых заявителей закрыт. Владение Lda само по себе не даёт право на 89.2 — нужны реальная деятельность, налоговая и социальная регистрация, доходы/оборот и соблюдение требований AIMA.»",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 89; Decreto-Lei 37-A/2024; Lei 61/2025"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "ст. 89 для ИП и инвесторов",
+        "problem": "Calling Article 89 an investor route is misleading. Article 89 covers independent professional activity and immigrant entrepreneurs. Investment residence permits/golden visa are a different legal category, historically Article 90-A, not Article 89.",
+        "suggestion": "Change to: «ст. 89 — для independent professionals / ИП и предпринимателей; не путать с инвестиционными ВНЖ/golden visa.»",
+        "confidence": "high",
+        "source": "Lei 23/2007, arts. 89 and 90-A"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Для тех, кто уже в Португалии легально (турвиза / шенген / безвиз). Нужно: действующий трудовой договор ≥ 12 мес, NISS, доказательства пребывания, apostile справки о несудимости, НИФ.",
+        "problem": "Two inaccuracies. First, the old 88.2 route was based on lawful entry and employment/SS contributions; the person did not necessarily have to still be in a valid Schengen/tourist stay at the moment of decision. Second, a universal requirement of an employment contract of at least 12 months is not stated in Article 88.2; the law refers to an employment contract, promise of contract, or proven employment relationship, plus other conditions.",
+        "suggestion": "Replace with: «Старый 88.2 был исключением из требования резидентской визы: для тех, кто законно въехал в PT и имел трудовой договор / promessa de contrato / comprovada relação laboral, NIF/NISS, регистрацию в Segurança Social и прочие документы. Для новых заявителей закрыт; для pending MdI применяются переходные правила.» Do not state “≥ 12 мес” as a universal legal requirement unless you cite a specific AIMA checklist requiring it.",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 88; Decreto-Lei 37-A/2024"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[1].items[0]",
+        "current": "С декабря 2025 новых заявок по 88.2 НЕ принимают",
+        "problem": "Misleading timing. New MdI submissions were already stopped by Decreto-Lei 37-A/2024 in June 2024. Lei 61/2025 later revoked the old 88.2/89.2 routes for new cases from its entry into force on 23.10.2025. Saying “from December 2025” suggests applications were open until then.",
+        "suggestion": "Write: «Новые MdI/заявки по старому 88.2/89.2 не принимаются с 03/04.06.2024; с 23.10.2025 Lei 61/2025 окончательно убрала эти маршруты для новых заявителей. 31.12.2025 — только переходный дедлайн для уже существовавших дел, если применимо.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 37-A/2024; Lei 61/2025"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[1].items[3]",
+        "current": "В это время — легальное пребывание подтверждается comprovativo (подтверждение) de submissão (подтверждение подачи)",
+        "problem": "Overstates the legal effect of the MdI submission receipt. A comprovativo of a pending MdI/procedure may be important evidence and may protect a pending case under transitional rules, but it is not a residence card, does not equal a Schengen residence permit, and should not be presented as giving a general right to travel in Schengen or re-enter Portugal.",
+        "suggestion": "Write: «Comprovativo de submissão / pending MdI — это доказательство поданной процедуры и основание ссылаться на переходный режим, но не cartão de residência. Не используйте его как документ для Schengen travel/re-entry; для поездок и работы проверяйте конкретные права и риски с AIMA/юристом.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 37-A/2024; Lei 23/2007 as amended by Lei 61/2025"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[1].items[2]",
+        "current": "Срок рассмотрения — до 18 месяцев",
+        "problem": "This is not a reliable legal maximum and may be misleading given AIMA backlog. Some cases take longer; statutory administrative deadlines and real processing times are different.",
+        "suggestion": "Replace with: «Сроки непредсказуемы: AIMA обрабатывает backlog поэтапно, на практике ожидание может занимать месяцы или годы; “18 месяцев” не является гарантированным максимумом.»",
+        "confidence": "high",
+        "source": "AIMA public backlog communications; Código do Procedimento Administrativo"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[5]",
+        "current": "⏳ AIMA обрабатывает backlog MdI постепенно — приёмы идут до 2027 г.",
+        "problem": "The statement may be true as a practical expectation, but it is too definite and has no cited source. AIMA schedules/backlog plans can change.",
+        "suggestion": "Write more cautiously: «AIMA обрабатывает backlog MdI поэтапно; по состоянию на 2026 часть приёмов может растянуться на 2026–2027 гг., но график зависит от AIMA и конкретного processo.» Add an AIMA/Missão Estrutura source if available.",
+        "confidence": "medium",
+        "source": "AIMA public communications"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "📄 Справка о несудимости PT (через ePortugal, бесплатно)",
+        "problem": "Incorrect. Portuguese criminal record certificates requested online are generally paid, not free. Also for residence procedures AIMA often obtains/consults the Portuguese criminal record with the applicant’s authorisation rather than requiring the applicant to bring a Portuguese certificate.",
+        "suggestion": "Replace with: «📄 Разрешение AIMA на проверку португальского registo criminal; если AIMA отдельно просит certificado do registo criminal português, его можно заказать онлайн/лично, обычно за плату.»",
+        "confidence": "high",
+        "source": "ePortugal / Registo Criminal Online"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[4]",
+        "current": "🆘 Если ВНЖ отказали — 30 дней на подачу impugnação в tribunal administrativo",
+        "problem": "The deadline is oversimplified and likely wrong as a general rule. Judicial challenge of administrative acts in Portugal commonly follows CPTA deadlines, often 3 months for an ação administrativa de impugnação, while other remedies and urgent procedures can have different deadlines. “30 days” should not be presented as the general tribunal deadline for AR refusal.",
+        "suggestion": "Write: «При отказе срочно проверяйте срок в уведомлении и с адвокатом. Возможны reclamação/recurso hierárquico и судебная impugnação/intimação; сроки различаются, а общий судебный срок для оспаривания административного акта часто не “30 дней”.»",
+        "confidence": "high",
+        "source": "Código de Processo nos Tribunais Administrativos, art. 58; Código do Procedimento Administrativo"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[0].items[5]",
+        "current": "Право на реагрупирование семьи — сразу после получения ВНЖ",
+        "problem": "Outdated/misleading after Lei 61/2025. Family reunification rules were tightened; it should not be stated as an automatic immediate right for all residents right after receiving the first card. There are conditions, documentation, accommodation/means requirements, and post-2025 waiting-period/exceptions rules depending on family member category and circumstances.",
+        "suggestion": "Replace with: «Reagrupamento familiar после Lei 61/2025 не является автоматически “сразу для всех”: проверяйте актуальные условия ст. 98–99 Lei 23/2007, наличие средств/жилья, категорию родственника и возможные исключения. Для части случаев может применяться период ожидания; срочно сверяйте с AIMA перед планированием переезда семьи.»",
+        "confidence": "medium",
+        "source": "Lei 23/2007 as amended by Lei 61/2025, arts. 98–99"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].text",
+        "current": "Не путайте этот путь с новыми ВНЖ (D7, D8, CPLP) — они работают из-за границы через консульство.",
+        "problem": "Overgeneralised. D7 and D8 are residence visa routes via a Portuguese consulate/VFS abroad. CPLP is not a visa code like D7/D8 and applies only to nationals of CPLP countries under specific mobility/residence rules; it is irrelevant for most Russian nationals unless they also hold CPLP nationality.",
+        "suggestion": "Write: «D7/D8 — это визовые маршруты через консульство. CPLP — отдельный режим только для граждан стран CPLP; он не является универсальной альтернативой и не применим к гражданам РФ без гражданства CPLP.»",
+        "confidence": "high",
+        "source": "Lei 23/2007; Acordo sobre a Mobilidade entre os Estados-Membros da CPLP"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "AIMA — Tipos de autorização de residência / https://aima.gov.pt/",
+        "problem": "The source is too generic for a sensitive legal guide. A homepage does not substantiate specific claims about Article 88/89 documents, pending MdI transition, appointments, or fees.",
+        "suggestion": "Use precise AIMA pages/checklists where available, e.g. pages for autorização de residência para atividade profissional subordinada/independente, transitional MdI communications, and the current fee table effective 01.03.2026.",
+        "confidence": "high",
+        "source": "AIMA official website; AIMA fee table effective 01.03.2026"
+      }
+    ],
+    "missing_topics": [
+      "AIMA fees for Article 88/89 residence-card issuance and renewals under the fee table changed on 01.03.2026",
+      "Precise explanation of the 31.12.2025 transitional deadline: who it applied to, what had to be submitted/updated, and what happens if documents were not completed",
+      "Clear warning that MdI/comprovativo is not a residence card and is risky for Schengen travel or re-entry",
+      "Correct visa-code map: D1 = subordinate work / Article 88; D2 = independent activity or entrepreneur / Article 89; D3 = highly qualified activity; D4 = study; D6 = family reunification; D7 = passive income; D8 = remote work/digital nomad",
+      "Updated family-reunification rules after Lei 61/2025, including conditions, waiting periods/exceptions, accommodation and means of subsistence",
+      "A dedicated section on refusal/remedies with correct distinction between administrative appeal, judicial impugnação, intimação for rights/freedoms/guarantees, and deadlines shown in the notification",
+      "Document caveat that foreign criminal-record certificates usually need legalisation/apostille and certified translation, and that validity periods depend on AIMA/consular rules",
+      "Source links to the exact AIMA document checklists and not just the AIMA homepage"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5440,
+    "prompt_tokens": 2815,
+    "total_tokens": 8255
+  },
+  "model": "gpt-5.5"
+}

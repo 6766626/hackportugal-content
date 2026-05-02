@@ -1,0 +1,12 @@
+{
+  "guideId": "reagrupamento-familiar",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "No JSON object in: ",
+    "raw": "",
+    "issues": [],
+    "missing_topics": []
+  },
+  "model": "gpt-5.5"
+}

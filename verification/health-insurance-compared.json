@@ -1,0 +1,198 @@
+{
+  "guideId": "health-insurance-compared",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но содержит несколько существенных фактических ошибок по страховщикам/сетям, ADSE, требованиям для виз и условиям покрытия.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "Крупнейший, государственный capital",
+        "problem": "Fidelidade/Multicare не является страховщиком с «государственным капиталом» в практическом смысле: Fidelidade была приватизирована, контрольный пакет принадлежит Fosun через Longrun Portugal; государственная CGD не является контролирующим владельцем.",
+        "suggestion": "Заменить на: «Крупнейшая страховая группа; Multicare — бренд медицинского страхования Fidelidade. Не государственная страховка».",
+        "confidence": "high",
+        "source": "Fidelidade shareholder / corporate information; ASF registered insurance undertakings"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].title",
+        "current": "AdvanceCare (Generali)",
+        "problem": "AdvanceCare — прежде всего managed-care/network administrator и бренд сети/услуг, а не просто отдельный страховщик. Связка с Generali без пояснения вводит в заблуждение: продукты могут продаваться через Generali Tranquilidade, но AdvanceCare часто выступает как сеть/платформа, используемая разными продуктами.",
+        "suggestion": "Написать: «AdvanceCare — сеть/платформа медицинских услуг, часто используемая страховыми продуктами Generali Tranquilidade и партнёров; проверяйте, кто именно является страховщиком в полисе».",
+        "confidence": "medium",
+        "source": "ASF; AdvanceCare corporate information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].title",
+        "current": "Tranquilidade / Allianz",
+        "problem": "Tranquilidade и Allianz — не один поставщик. Tranquilidade относится к Generali Tranquilidade, Allianz Portugal — отдельная страховая группа. Объединение через слэш создаёт ложное впечатление общего продукта/группы.",
+        "suggestion": "Разделить на два пункта: «Generali Tranquilidade» и «Allianz Portugal», с отдельным описанием планов и сетей.",
+        "confidence": "high",
+        "source": "ASF registered insurance undertakings"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].title",
+        "current": "Adse (для госслужащих)",
+        "problem": "Название и описание неточны: правильно ADSE, и это не «кооперативная страховая», а публичная подсистема здравоохранения для работников публичного сектора и некоторых бенефициаров.",
+        "suggestion": "Заменить на: «ADSE — публичная подсистема здравоохранения для работников государственного сектора, пенсионеров публичной службы и их eligible dependants; это не частная страховая и не обычный полис для экспатов».",
+        "confidence": "high",
+        "source": "ADSE, I.P.; Decreto-Lei n.º 7/2017"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "Hospital da Luz — флагман. Все страховки принимают.",
+        "problem": "«Все страховки принимают» неверно. Частные больницы работают только с конкретными страховщиками/планами/acts médicaux, и наличие соглашения с сетью не означает покрытие любого врача, обследования или госпитализации.",
+        "suggestion": "Заменить на: «Hospital da Luz — флагман сети. Принимаемые страховки зависят от конкретного Hospital/Clínica da Luz, плана, врача и услуги; проверяйте acordo/convenção и pre-authorisation до визита».",
+        "confidence": "high",
+        "source": "ERS; provider insurance agreements"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "50+ объектов по PT.",
+        "problem": "Число выглядит завышенным для CUF как сети больниц/клиник. CUF обычно указывает порядка нескольких десятков unidades, а не 50+. Без источника это рискованное утверждение.",
+        "suggestion": "Заменить на нейтральное: «Одна из крупнейших частных сетей в Португалии, с десятками больниц и клиник; актуальный список unidades проверяйте на сайте CUF».",
+        "confidence": "medium",
+        "source": "CUF official network page"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Португальское отделение американской HCA.",
+        "problem": "Это неверно/устарело. Lusíadas Saúde не является португальским отделением HCA Healthcare. После периода владения UnitedHealth/Amil сеть была продана европейской группе Vivalto Santé.",
+        "suggestion": "Заменить на: «Lusíadas Saúde — крупная частная сеть больниц и клиник; с 2023 года принадлежит французской группе Vivalto Santé».",
+        "confidence": "high",
+        "source": "Vivalto Santé / Lusíadas Saúde corporate announcements"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[7]",
+        "current": "❌ Хронические болезни с diagnóstico pré-existente — часто не покрыты первые 6–12 мес",
+        "problem": "Для pre-existing conditions проблема обычно не просто waiting period. Часто они исключаются полностью, покрываются только если явно приняты страховщиком, либо покрываются с надбавкой/лимитами. Формулировка «первые 6–12 мес» может создать ложное ожидание автоматического покрытия после carência.",
+        "suggestion": "Написать: «Pre-existing conditions обычно исключаются, если страховщик заранее письменно не принял их покрытие; иногда возможны лимиты, надбавка или carência. Обязательно читать Condições Particulares/Especiais».",
+        "confidence": "high",
+        "source": "ASF consumer guidance; policy general conditions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3]",
+        "current": "✅ Cirurgias (операции плановые и экстренные)",
+        "problem": "Слишком широкое обещание. Частные медстраховки обычно покрывают surgery/hospitalisation в рамках лимитов, сети и pre-authorisation; экстренная помощь и emergency surgery могут иметь отдельные правила, ограничения по сети, исключения и лимиты.",
+        "suggestion": "Заменить на: «Cirurgias/hospitalização — если включены в план, в пределах capital seguro, сети и после pre-authorisation; emergency care проверять отдельно».",
+        "confidence": "high",
+        "source": "ASF consumer guidance; policy general conditions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].text",
+        "current": "Консулаты требуют проездную медстраховку от получения визы и первый год в PT.",
+        "problem": "Для residence visas D7/D8 требование формулируется консульством как travel medical insurance/medical insurance, обычно для периода действия визы/въезда и до доступа к SNS или оформления резиденции. «Первый год в PT» не является универсальным официальным правилом и зависит от консульства и типа подачи.",
+        "suggestion": "Написать: «Для D7/D8 консульства обычно требуют travel medical insurance с покрытием медицинской помощи и репатриации для въезда/периода действия визы; после приезда для AIMA/жизни нужен доступ к SNS или частная страховка. Проверяйте требования конкретного консульства VFS/MNE».",
+        "confidence": "high",
+        "source": "Portal dos Vistos MNE; consular checklists"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[2]",
+        "current": "📅 Срок: минимум 12 месяцев или до первого renovação",
+        "problem": "Внутренне противоречиво и юридически неточно. Первая residence permit обычно не равна одному году, а «до первого renovação» может означать существенно дольше. Консульские требования чаще привязаны к периоду визы/поездки, а не к первому продлению ВНЖ.",
+        "suggestion": "Заменить на: «Срок: как требует конкретное консульство; часто полис должен покрывать период действия визы/первый въезд, а для дальнейшего проживания нужен SNS number или частная страховка».",
+        "confidence": "high",
+        "source": "Portal dos Vistos MNE; consular checklists"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[5]",
+        "current": "Уехать в PT и купить локальную — можно. Консулат часто акцептирует \"commitment to buy on arrival\"",
+        "problem": "Опасная рекомендация. Для визовой подачи консульства обычно требуют действующий полис travel medical insurance; простое обещание купить страховку после приезда может привести к отказу/запросу документов. Такое иногда может пройти только в отдельных консульствах и не должно подаваться как общее правило.",
+        "suggestion": "Заменить на: «Не рассчитывайте на commitment to buy unless your consulate explicitly allows it. Безопаснее приложить действующий travel medical insurance, соответствующий чек-листу консульства».",
+        "confidence": "high",
+        "source": "Portal dos Vistos MNE; consular checklists"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2]",
+        "current": "SNS taxas moderadoras (ко-платы) — ОТМЕНЕНЫ с сентября 2022 (Lei 22/2022) для основных услуг.",
+        "problem": "Дата указана неточно: Lei n.º 22/2022 была опубликована 27.06.2022 и отменила большинство taxas moderadoras с 2022 года; «с сентября» выглядит неверно. Также лучше пояснить, что остаются сборы за urgência без referral/SNS24/INEM и за некоторые не-SNS услуги.",
+        "suggestion": "Написать: «Большинство taxas moderadoras в SNS отменены с 2022 года Lei n.º 22/2022; остаются, например, urgência без referral от SNS24/INEM/центра здоровья и некоторые услуги вне SNS».",
+        "confidence": "high",
+        "source": "Lei n.º 22/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "SNS (государственная система) бесплатная для резидентов",
+        "problem": "Слишком широкая формулировка. SNS доступен резидентам/зарегистрированным пользователям, но не означает полностью бесплатное покрытие всего лечения: есть исключения, лекарства оплачиваются частично, стоматология/очки/часть услуг ограничены, а для некоторых иностранцев важна регистрация в centro de saúde и получение número de utente.",
+        "suggestion": "Заменить на: «SNS доступен зарегистрированным резидентам/utente и большинство основных услуг без taxas moderadoras, но лекарства, стоматология, очки и часть услуг оплачиваются отдельно или частично».",
+        "confidence": "high",
+        "source": "SNS; Lei n.º 22/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "очереди 2–8 недель на специалистов",
+        "problem": "Это слишком категорично. Сроки ожидания в SNS сильно зависят от специальности, региона, приоритета и hospital referral; по некоторым специальностям ожидание может быть месяцы и дольше.",
+        "suggestion": "Написать: «очереди на специалистов варьируются от недель до месяцев в зависимости от региона, приоритета и специальности».",
+        "confidence": "high",
+        "source": "SNS transparency/waiting time data"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "🏥 Частная — консультация в тот же / след. день",
+        "problem": "Обещание завышено. В частной системе срочная consulta geral может быть в тот же день, но popular specialists, exames and surgeries часто требуют ожидания и pre-authorisation.",
+        "suggestion": "Заменить на: «Частная система обычно быстрее: GP/urgent care часто в тот же день, specialists/exames — от нескольких дней до недель в зависимости от сети и врача».",
+        "confidence": "high",
+        "source": "ERS; provider booking availability"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "💊 Cover hospitalização — минимум 30 дней в году",
+        "problem": "Критерий «30 дней в году» не является стандартным главным параметром выбора в Португалии. Важнее annual capital, copay, deductible/franquia, room limits, network, pre-authorisation and exclusions.",
+        "suggestion": "Заменить на: «Hospitalização: смотрите capital anual, franquia/copagamento, limites por acto, quartos, cirurgia, urgência и правила pre-authorisation».",
+        "confidence": "medium",
+        "source": "ASF consumer guidance; policy general conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2]",
+        "current": "💰 Годовой capital (max payout) — > 250 000 €",
+        "problem": "Порог >250 000 € не универсален и может быть избыточным/недостижимым для базовых планов. Для ambulatorial plans capital может быть намного ниже; для hospitalização важны лимиты по конкретным гарантиям, а не только общий capital.",
+        "suggestion": "Написать: «Сравнивайте capital por garantia: ambulatório, hospitalização, parto, estomatologia, próteses, oncology; высокий общий capital не заменяет проверку sub-limits».",
+        "confidence": "medium",
+        "source": "ASF consumer guidance; policy general conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[8]",
+        "current": "❌ Cosmética — никогда",
+        "problem": "Слово «никогда» слишком категорично. Чистая эстетическая хирургия обычно исключена, но reconstructive surgery после несчастного случая, онкологии или medically necessary procedures могут покрываться при условиях полиса.",
+        "suggestion": "Заменить на: «Чисто эстетическая/cosmetic surgery обычно исключена; reconstructive/medically necessary procedures могут покрываться при условиях полиса».",
+        "confidence": "high",
+        "source": "Policy general conditions; ASF consumer guidance"
+      }
+    ],
+    "missing_topics": [
+      "Разница между seguro de saúde, plano de saúde/cartão de descontos и subsystem типа ADSE — это разные продукты с разной защитой.",
+      "Нужно объяснить copagamento, franquia, rede convencionada vs livre escolha/reimbursement, plafond/capital, pre-authorisation and claim reimbursement.",
+      "Возрастные лимиты: многие частные страховки имеют возраст вступления, повышение премий с возрастом и ограничения после 65/70/75 лет.",
+      "Carências по категориям: hospitalização, parto/maternidade, doenças graves, dental, psych/therapy — сроки отличаются.",
+      "Обязанность читать Condições Gerais, Especiais e Particulares и проверять insurer under ASF supervision.",
+      "Порядок доступа к SNS для иностранцев: número de utente, centro de saúde, family doctor may be unavailable, связь со страховкой для AIMA/после въезда.",
+      "Для виз D7/D8 лучше дать ссылку на конкретный чек-лист консульства/VFS и предупредить, что требования отличаются по стране подачи.",
+      "Исключения: mental health/psychotherapy, physiotherapy, infertility/IVF, dental, optical, prostheses, oncologia, chronic medication, overseas coverage.",
+      "Жалобы и регуляторы: Livro de Reclamações, ERS for providers, ASF for insurers, CIMPAS/arbitration options."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5386,
+    "prompt_tokens": 2962,
+    "total_tokens": 8348
+  },
+  "model": "gpt-5.5"
+}

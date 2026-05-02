@@ -1,0 +1,121 @@
+{
+  "guideId": "historical-villages",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "В целом тема и список 12 деревень корректны, но есть несколько существенных фактических ошибок по Belmonte, Castelo Rodrigo, маршрутам/километражу и датам фестивалей.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].text",
+        "current": "Еврейское наследие — крупнейшая сохранившаяся сефардская община в Европе.",
+        "problem": "Belmonte действительно известен уникальной крипто-иудейской/сефардской общиной, но называть её крупнейшей сохранившейся сефардской общиной в Европе некорректно и сильно преувеличено.",
+        "suggestion": "Заменить на: «Еврейское наследие — уникальная община потомков крипто-иудеев, сохранившая традиции в изоляции на протяжении веков; один из самых известных центров сефардской истории в Португалии.»",
+        "confidence": "high",
+        "source": "Museu Judaico de Belmonte; VisitPortugal — Belmonte"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[1].items[1]",
+        "current": "Museu Judaico — бесплатно, с объяснениями",
+        "problem": "Museu Judaico de Belmonte не является стабильно бесплатным музеем; обычно посещение муниципальных музеев Belmonte платное или входит в комбинированный билет. Утверждение «бесплатно» вводит в заблуждение.",
+        "suggestion": "Написать: «Museu Judaico — платный муниципальный музей; проверьте актуальные часы и цену на сайте Município de Belmonte / Rede de Museus de Belmonte.»",
+        "confidence": "high",
+        "source": "Município de Belmonte — Rede de Museus de Belmonte"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[1].items[2]",
+        "current": "Музей Oliva (оливковое масло) — дегустации",
+        "problem": "Название выглядит неверно/смешано с португальским словом oliva. В Belmonte обычно упоминается Museu do Azeite, а не «Museu Oliva».",
+        "suggestion": "Заменить на: «Museu do Azeite — музей оливкового масла; проверьте часы работы и возможность дегустаций заранее.»",
+        "confidence": "high",
+        "source": "Município de Belmonte — Museu do Azeite"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4]",
+        "current": "5. **Castelo Rodrigo** — на границе с Испанией, отлично сохранилось, 16-летняя осада в истории",
+        "problem": "«16-летняя осада» для Castelo Rodrigo выглядит фактически неверно. Из известных событий обычно упоминают Batalha de Castelo Rodrigo 1664 года во время Guerra da Restauração, а не 16-летнюю осаду.",
+        "suggestion": "Заменить на: «Castelo Rodrigo — деревня у испанской границы; связана с Batalha de Castelo Rodrigo 1664 года во время войны за восстановление независимости Португалии.»",
+        "confidence": "high",
+        "source": "VisitPortugal — Castelo Rodrigo; Aldeias Históricas de Portugal — Castelo Rodrigo"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "День 3: Monsanto → Idanha-a-Velha → обратно в Lisboa (450 км от Monsanto)",
+        "problem": "Расстояние Monsanto/Idanha-a-Velha до Lisboa не около 450 км. От Monsanto до Lisboa обычно примерно 280–310 км в зависимости от маршрута; 450 км сильно завышено и конфликтует с заявленным общим маршрутом около 500 км.",
+        "suggestion": "Исправить на: «День 3: Monsanto → Idanha-a-Velha → Lisboa — примерно 300 км до Лиссабона, 3–3,5 часа без длинных остановок.»",
+        "confidence": "high",
+        "source": "Google Maps / ViaMichelin route estimates"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Компактный road-trip из Порту или Лиссабона — 2-3 дня, маршрут около 500 км.",
+        "problem": "Фраза слишком обобщает. Если старт/финиш в Lisboa или Porto и хочется увидеть несколько удалённых деревень, общий пробег часто будет больше 500 км. Например маршрут Coimbra → Piódão → Sortelha → Belmonte → Castelo Novo → Monsanto → Idanha-a-Velha → Lisboa получается ближе к 600+ км.",
+        "suggestion": "Написать: «Компактный road-trip на 2–3 дня; частичный маршрут обычно 500–700 км в зависимости от старта, финиша и количества деревень.»",
+        "confidence": "high",
+        "source": "Google Maps / ViaMichelin route estimates"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[3]",
+        "current": "Маршрут ~500 км, бензин ~60 €",
+        "problem": "Для описанного маршрута километраж занижен, а стоимость топлива зависит от фактического пробега, расхода и цен. При 600–650 км и расходе 6–7 л/100 км бензин часто будет ближе к 65–85 €, плюс возможны платные дороги.",
+        "suggestion": "Заменить на: «Пробег примерно 600–650 км; топливо ориентировочно 65–85 € при обычном расходе, платные дороги отдельно.»",
+        "confidence": "medium",
+        "source": "DGEG fuel price bulletins; Google Maps / ViaMichelin route estimates"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[6]",
+        "current": "📅 Фестиваль Aldeias Históricas — конец мая, по всем деревням театр, концерты",
+        "problem": "Фестивальная программа Aldeias Históricas не является фиксированным событием «в конце мая» каждый год. Проект 12 em Rede / programação cultural обычно распределяется по разным деревням и датам, которые меняются ежегодно.",
+        "suggestion": "Написать: «Культурная программа Aldeias Históricas / 12 em Rede проходит в разные даты в течение года; расписание нужно проверять на официальном сайте перед поездкой.»",
+        "confidence": "high",
+        "source": "Aldeias Históricas de Portugal — agenda / 12 em Rede"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "1. **Almeida** — звёздная крепость XVII века (Vauban-style), отличный пример военной архитектуры",
+        "problem": "«Vauban-style» может быть понято как связь с самим Vauban, хотя Almeida — португальская bastion/star fortress в традиции европейской фортификационной школы, а не объект, спроектированный Vauban.",
+        "suggestion": "Заменить на: «Almeida — звёздная бастионная крепость XVII–XVIII вв., один из лучших примеров португальской военной архитектуры.»",
+        "confidence": "medium",
+        "source": "VisitPortugal — Almeida; Aldeias Históricas de Portugal — Almeida"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0]",
+        "current": "🚗 Все деревни — только на машине (общественный транспорт практически не ходит)",
+        "problem": "Формулировка «только на машине» чрезмерно категорична: до некоторых мест вроде Belmonte, Trancoso или Almeida можно добраться автобусами/такси, но расписания редкие и неудобные.",
+        "suggestion": "Написать: «Лучше ехать на машине: общественный транспорт есть не везде, ходит редко и плохо подходит для маршрута по нескольким деревням.»",
+        "confidence": "high",
+        "source": "Rede Expressos / municipal transport schedules"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://www.visitportugal.com/",
+        "problem": "Источник указан слишком общо: это главная страница VisitPortugal, а не конкретная страница про Aldeias Históricas или отдельные деревни. Для проверки фактов ссылка мало полезна.",
+        "suggestion": "Заменить или дополнить конкретными страницами VisitPortugal по Aldeias Históricas / Belmonte / Castelo Rodrigo / Almeida.",
+        "confidence": "high",
+        "source": "VisitPortugal"
+      }
+    ],
+    "missing_topics": [
+      "Уточнение про платные дороги и электронные tolls/SCUT при поездке на арендованной машине",
+      "Совет проверять часы работы музеев и замков: в малых деревнях расписания сезонные и часто с перерывом на обед",
+      "Предупреждение о летнем риске лесных пожаров/перекрытий дорог в Центральной Португалии",
+      "Ссылка на актуальную agenda официального сайта Aldeias Históricas для фестивалей и событий"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3785,
+    "prompt_tokens": 2571,
+    "total_tokens": 6356
+  },
+  "model": "gpt-5.5"
+}

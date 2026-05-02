@@ -1,0 +1,168 @@
+{
+  "guideId": "noise-neighbors",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful in intent but contains several substantive legal inaccuracies: wrong fine ranges, misleading dB limits, incorrect repair-work hours, overstatement of police measurements, and confusion between neighbour noise, temporary noise licences, municipal enforcement and ASAE/IGAMAOT roles.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Штрафы до 2500 € физлицам, 24 000 € юрлицам.",
+        "problem": "The fine ranges are not the standard ranges under the Regulamento Geral do Ruído and environmental offences framework. For many RGR offences the applicable ranges depend on whether the offence is light/serious and on negligence/intent; the commonly cited ranges for neighbourhood-noise/light offences are not 500–2,500 and 2,500–24,000. The guide also presents only maxima, hiding that different offences have different ranges.",
+        "suggestion": "Replace with a caveated formulation: «Размер штрафа зависит от состава нарушения и от того, физическое это лицо или компания. По RGR/Lei-Quadro das Contraordenações Ambientais типичные диапазоны для “leves” начинаются примерно с €200 для физлиц и €2,000 для юрлиц, а для более тяжких нарушений могут быть существенно выше. Проверяйте art. 28.º DL 9/2007 и Lei n.º 50/2006 в актуальной редакции.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, art. 28.º; Lei n.º 50/2006"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items",
+        "current": "Частное лицо: 500–2 500 €; Юрлицо (бар, магазин, стройка): 2 500–24 000 €",
+        "problem": "Same problem as the TLDR: the fine ranges are likely wrong/oversimplified and do not match the offence categories in DL 9/2007 plus Lei 50/2006. They also mix neighbours, bars and construction as if the same tariff applied.",
+        "suggestion": "Do not give one universal range. Write: «Штрафы зависят от типа нарушения: ruído de vizinhança, obras no interior do edifício, atividade ruidosa temporária, incumprimento de licença especial, etc. Указывайте диапазоны по art. 28.º DL 9/2007 и Lei n.º 50/2006; для “leves” они отличаются от “graves”.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, art. 28.º; Lei n.º 50/2006"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "\"Штраф соседу (физлицу)\", amountEURMin: 500, amountEURMax: 2500",
+        "problem": "This repeats the incorrect/over-specific fine range and implies a fixed fine tariff for a private neighbour. In practice the range depends on the exact offence and the environmental contra-ordination framework.",
+        "suggestion": "Either remove this cost item or replace with: «Штрафы: зависят от квалификации нарушения; см. DL 9/2007 art. 28.º и Lei 50/2006. Не указывать €500–€2,500 как универсальный диапазон.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, art. 28.º; Lei n.º 50/2006"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4]",
+        "current": "📏 Предельный уровень: Lden 55 dB(A), Lnight 45 dB(A) для residential zones",
+        "problem": "Misleading. Lden/Lnight are environmental-noise planning indicators for classified zones, not a simple neighbour-noise threshold. 55/45 dB applies to «zonas sensíveis», while «zonas mistas» have different values. Many residential areas may be classified differently by the municipal noise map.",
+        "suggestion": "Replace with: «Lden/Lnight — это показатели карт шума и планирования. В “zonas sensíveis” обычно 55/45 dB(A), в “zonas mistas” — 65/55 dB(A). Для жалобы на соседский шум полиция может действовать и без формального превышения этих Lden/Lnight лимитов; важен ruído de vizinhança и период 23:00–07:00.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, arts. 3.º, 11.º, 24.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "Днём — допустима, если не превышает лимиты dB. Измеряется PSP с sonómetro.",
+        "problem": "Overstates both points. Daytime neighbour noise is not simply legal unless it exceeds dB limits; authorities can order measures/deadlines even outside 23:00–07:00 if the noise is unjustified or excessive. Also PSP/GNR generally do not routinely arrive with a sound meter; formal acoustic measurements are usually municipal/accredited technical processes, while police can record the occurrence and order cessation during quiet hours.",
+        "suggestion": "Write: «Днём шум не автоматически “разрешён”: если он явно чрезмерен/повторяется, PSP/GNR или Câmara могут вмешаться и установить срок для прекращения/снижения шума. Не рассчитывайте, что PSP/GNR приедут с sonómetro; часто они фиксируют факт, предупреждают/приказывают прекратить, а технические замеры делает муниципалитет или аккредитованная служба.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, art. 24.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "Приедут с sonómetro, измерят",
+        "problem": "Misleading operational advice. PSP/GNR do not reliably or normally attend ordinary neighbour-noise calls with a calibrated sonometer. For many neighbour-noise interventions the police act without measurement; formal measurements are usually requested through Câmara Municipal/technical services.",
+        "suggestion": "Replace with: «Могут приехать, зафиксировать ocorrência/auto, предупредить или приказать прекратить шум в período de repouso. Замеры sonómetro — не гарантированы; для формального замера обычно обращаются в Câmara Municipal.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, art. 24.º; ePortugal noise complaint guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Большинство regulamentos разрешают 09:00–19:00 будни. В субботу — ограничено, воскресенье — ЗАПРЕЩЕНО (кроме emergency).",
+        "problem": "Incorrect/misleading for ordinary renovation/conservation works inside residential/commercial/service buildings. The national RGR rule is weekdays 08:00–20:00; weekends and public holidays are not allowed for these works, except urgent works. The guide’s earlier section also contradicts this by saying repairs are usually 08:00–20:00 weekdays and 09:00–18:00 weekends.",
+        "suggestion": "Write consistently: «Обычные obras de recuperação/remodelação/conservação внутри жилых/коммерческих зданий: только в dias úteis, 08:00–20:00; без licença especial de ruído, но нужно вывесить aviso с длительностью и часами работ. Срочные работы — исключение. Для строительных работ/temporary noisy activities могут действовать licença especial de ruído и муниципальные правила.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, art. 16.º and art. 24.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3]",
+        "current": "🔨 Ремонты: обычно 08:00–20:00 в будни, 09:00–18:00 в выходные (зависит от município)",
+        "problem": "Contradicts the later repair section and is misleading under national law. Ordinary interior renovation/remodelling/conservation works in housing/commercial/service buildings are limited to weekdays 08:00–20:00, not generally weekends 09:00–18:00.",
+        "suggestion": "Replace with: «Обычные ремонты внутри здания: dias úteis 08:00–20:00; выходные и праздники — нельзя, кроме срочных работ. Для иных строительных/temporary noisy activities возможна licença especial de ruído.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, art. 24.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].text",
+        "current": "Имеют licença especial de ruído. Запись жалоб — в ASAE и в муниципальную «Fiscalização». Массовые жалобы ведут к отзыву лицензии.",
+        "problem": "Confuses restaurant/bar operating rules with «licença especial de ruído». A licença especial de ruído is generally for temporary noisy activities, not the ordinary permanent operation of every bar/restaurant. Noise complaints about bars/restaurants are mainly for PSP/GNR and Câmara Municipal; ASAE may receive Livro de Reclamações/economic complaints but is not the main technical noise authority. “Mass complaints lead to licence withdrawal” is too categorical.",
+        "suggestion": "Write: «Бары/рестораны должны соблюдать horário de funcionamento, licensing/use rules and noise limits; for temporary events they may need licença especial de ruído. Жалобы: PSP/GNR during the event, Câmara Municipal/Fiscalização for recurring noise/licence conditions, Livro de Reclamações/ASAE for consumer-book complaints. Санкции can include fines, restrictions on hours, conditions, or in serious/repeated cases suspension, but not automatically because of “mass complaints”.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007, arts. 14.º–15.º; ePortugal; ASAE Livro de Reclamações framework"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Жалобы: сначала мирно, затем PSP/GNR, Câmara Municipal (муниципалитет) и Inspeção-Geral da Agricultura, do Mar, do Ambiente (IGAMAOT).",
+        "problem": "IGAMAOT is presented as a normal escalation channel for neighbour noise. For ordinary neighbour noise, local police and Câmara Municipal are the practical/competent channels. IGAMAOT may have inspection powers in environmental matters but is not the standard first-line body for a noisy neighbour or bar.",
+        "suggestion": "Replace with: «Жалобы: сначала мирно/condomínio, затем PSP/GNR во время эпизода, Câmara Municipal/Fiscalização для повторяющихся случаев, Livro de Reclamações for licensed businesses. IGAMAOT only for specific environmental-inspection matters, not as a default route for neighbour noise.»",
+        "confidence": "high",
+        "source": "ePortugal noise complaint guidance; Decreto-Lei n.º 9/2007"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].title",
+        "current": "2. PSP/GNR (112)",
+        "problem": "112 is the emergency number. For ordinary noise complaints it is often better to call the local PSP/GNR station, especially if there is no immediate danger. Presenting 112 as the default may be bad practical advice.",
+        "suggestion": "Write: «PSP/GNR: for urgent ongoing incidents call 112; otherwise call the local esquadra/posto directly.»",
+        "confidence": "high",
+        "source": "ePortugal / emergency services general guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "🌙 Выходные и праздники: часто продлено до 09:00 в муниципальных регламентах",
+        "problem": "Possible but too broad and unsourced. National RGR neighbour-noise rule uses 23:00–07:00. Municipal regulations may add stricter rules, but “often extended to 09:00” needs a municipal example or should be caveated.",
+        "suggestion": "Write: «На национальном уровне для ruído de vizinhança ключевой período de repouso — 23:00–07:00. Некоторые municípios/condomínios вводят более строгие часы, например утром в выходные, но это нужно проверять в местном regulamento.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 9/2007, art. 24.º; municipal noise regulations"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].text",
+        "current": "Иначе — штраф и в крайнем случае forced relocation животного.",
+        "problem": "The phrase “forced relocation” is vague and may overstate what happens in an ordinary barking-dog case. Authorities may issue orders/fines and animal-welfare/municipal veterinary services may intervene, but removal/relocation requires a specific legal basis and procedure.",
+        "suggestion": "Replace with: «Возможны предупреждения/предписания и штрафы; при признаках neglect/animal welfare issues подключаются serviços veterinários municipais/autoridades competentes. Изъятие или перемещение животного — только в специальных случаях и по процедуре.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 9/2007; municipal veterinary/animal welfare rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[5].content[0].text",
+        "current": "Освобождены от ограничений по уровню dB (религиозная деятельность), но не от часов покоя — звонят только днём и в святые дни.",
+        "problem": "Too categorical and likely oversimplified. Religious bells and calls may be treated under local rules, nuisance rules, heritage/customary practice and proportionality; they are not simply “exempt from dB but only daytime and holy days”.",
+        "suggestion": "Write more cautiously: «Колокола/религиозные звуки часто регулируются местными правилами и практикой; полное освобождение от всех noise rules предполагать нельзя. Если звук регулярный и чрезмерный, жалоба обычно идёт в Câmara Municipal/PSP/GNR, но оценка будет case-by-case.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 9/2007; municipal regulations"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[1]",
+        "current": "Письменная жалоба через site municípo или лично",
+        "problem": "Typo in Portuguese word: “municípo” should be “município”.",
+        "suggestion": "Correct to: «site do município».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[2]",
+        "current": "Municipal Fiscalização выезжает с замером",
+        "problem": "Too absolute. Câmara may inspect, request information, notify the offender, or arrange measurements, but it is not guaranteed that Fiscalização will perform a sound measurement on every complaint.",
+        "suggestion": "Write: «Fiscalização municipal may inspect and, where needed, arrange technical noise measurements; keep records because the process may take time.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 9/2007; ePortugal noise complaint guidance"
+      }
+    ],
+    "missing_topics": [
+      "Explain the legal distinction between ruído de vizinhança, atividades ruidosas temporárias, atividades ruidosas permanentes and obras no interior de edifícios; the rules and authorities differ.",
+      "Mention that ordinary interior renovation works must post an aviso visible to neighbours stating expected duration and working hours.",
+      "Clarify that condominium rules can be stricter contractually/internal to the building, but they do not replace national law or municipal enforcement.",
+      "Add practical contacts: local PSP esquadra/GNR posto, municipal fiscalização/ambiente department, and Câmara online complaint form where available; do not rely only on 112.",
+      "Add a caveat that smartphone dB apps are not calibrated evidence; useful for diary/context but not a substitute for official/accredited measurement.",
+      "For bars/restaurants, separate noise complaint from Livro de Reclamações consumer complaint and from operating-hours/licence complaints."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4895,
+    "prompt_tokens": 2884,
+    "total_tokens": 7779
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,172 @@
+{
+  "guideId": "surfing-beaches",
+  "categoryId": "food_leisure",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен для отдыха, но содержит несколько фактических ошибок по спотам, сезонам и соревнованиям, а также устаревшие/ненадёжные ссылки.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[5]",
+        "current": "WSL чемпионат Big Wave — каждый январь",
+        "problem": "Соревнования WSL в Nazaré не проводятся «каждый январь» по фиксированному расписанию: это big-wave event с waiting period и проведением только при подходящих условиях; даты меняются, иногда событие не проводится в январе.",
+        "suggestion": "Написать: «WSL/Nazaré big-wave events проходят в зимний waiting period и только при подходящем swell; даты нужно проверять на сайте WSL и у Município da Nazaré».",
+        "confidence": "high",
+        "source": "World Surf League event calendar"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[0]",
+        "current": "4 км побережья, **7+ world-class spotов** в одном",
+        "problem": "Ericeira World Surfing Reserve официально описывается как участок примерно 8 км береговой линии с 7 основными waves/spots, а не 4 км.",
+        "suggestion": "Заменить на: «около 8 км побережья и 7 официально признанных world-class waves».",
+        "confidence": "high",
+        "source": "Ericeira World Surfing Reserve / Save The Waves"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[1]",
+        "current": "**Ribeira d'Ilhas** — WSL QS stop, pipeline-style",
+        "problem": "Ribeira d'Ilhas не является «pipeline-style» волной. Это длинный правый reef/point break, известный длинными стенками, а не тяжёлой трубой в стиле Pipeline.",
+        "suggestion": "Написать: «Ribeira d'Ilhas — длинный правый reef/point break, часто используется для соревнований; подходит intermediate+ при нормальных условиях».",
+        "confidence": "high",
+        "source": "Ericeira World Surfing Reserve"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[4]",
+        "current": "**São Lourenço** — beach break новички",
+        "problem": "São Lourenço в зоне Ericeira WSR обычно описывается как мощная правая reef/point wave и не является типичным beginner beach break. Для новичков больше подходят Foz do Lizandro, São Julião, Praia do Sul или защищённые дни в Ribeira d’Ilhas с инструктором.",
+        "suggestion": "Заменить на: «São Lourenço — powerful right-hand reef/point, скорее intermediate/advanced; новичкам лучше Foz do Lizandro / São Julião / Praia do Sul с школой».",
+        "confidence": "high",
+        "source": "Ericeira World Surfing Reserve"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[0].items[7]",
+        "current": "45 мин на машине из Lisboa",
+        "problem": "45 минут возможно только при хорошем трафике и из северной/западной части Лиссабона; для туриста из центра/аэропорта реалистичнее 45–60+ минут.",
+        "suggestion": "Написать: «примерно 45–60 минут на машине из Lisboa, дольше в час пик».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[4]",
+        "current": "Оffshore winds: south (Algarve)",
+        "problem": "Фраза вводит в заблуждение: offshore wind зависит от ориентации конкретного пляжа. На западном побережье Algarve/Aljezur чаще offshore при восточных ветрах; на южном побережье Algarve — при северных. «South» не является универсальным offshore.",
+        "suggestion": "Написать: «Offshore зависит от ориентации пляжа: west coast обычно лучше при E/NE winds, south coast — при N/NW; проверяйте Windguru/Surfline по конкретному spot».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].items[7]",
+        "current": "⚠️ Проверить credentials: FPS (Federação Portuguesa de Surf) certified instructor",
+        "problem": "Полезно, но неполно: для школы важны не только FPS credentials, но и страховка, лицензия/разрешение на деятельность, безопасность, ratio инструктор/ученики и работа в зоне с lifeguards. В природных парках/охраняемых зонах могут быть дополнительные правила.",
+        "suggestion": "Дополнить: «проверяйте FPS/qualified instructor, наличие страховки, rescue plan, ratio группы, легальную школу/оператора и условия занятия на пляже».",
+        "confidence": "medium",
+        "source": "Federação Portuguesa de Surf"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[5]",
+        "current": "📱 **Проверка conditions**: windguru.cz, surfforecast.com, magicseaweed.com — за 24 часа",
+        "problem": "Magicseaweed как самостоятельный сервис был закрыт/интегрирован в Surfline в 2023 году; magicseaweed.com больше не является актуальной основной ссылкой для прогноза.",
+        "suggestion": "Заменить на: «Windguru, Surf-Forecast, Surfline, IPMA морской прогноз; проверять утром и за 24–48 часов».",
+        "confidence": "high",
+        "source": "Surfline / Magicseaweed shutdown notice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "☀️ **Июнь-Август**: best for beginners, маленькие волны 0.5-1.5 м. Вода 17-20°C, wetsuit 3/2 short",
+        "problem": "«3/2 short» некорректно сформулировано: 3/2 обычно full suit; shorty — отдельный тип. На севере и центральном побережье многие всё равно используют 3/2 full suit летом из-за апвеллинга.",
+        "suggestion": "Написать: «3/2 full suit; в тёплые дни на юге возможен shorty, но на west coast вода часто холодная из-за upwelling».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[3]",
+        "current": "Все пляжные surf-spotы имеют точки проката",
+        "problem": "Это неверно и потенциально вредно для планирования: многие дикие пляжи в Aljezur/Sagres/Alentejo/North coast не имеют проката на месте, особенно вне сезона. Часто нужно брать gear в городе или через школу заранее.",
+        "suggestion": "Заменить на: «На популярных пляжах часто есть прокат, но на диких/удалённых spotах его может не быть; бронируйте заранее и проверяйте сезонность».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1]",
+        "current": "**WSL events 2026**: MEO Rip Curl Pro Portugal (Peniche, октябрь), Nazaré Tow Surfing Challenge (декабрь-январь)",
+        "problem": "MEO Rip Curl Pro Portugal в Peniche обычно является этапом Championship Tour в конце зимы/весной, а не в октябре; расписание WSL нужно проверять по официальному календарю. Nazaré Tow Surfing Challenge также не имеет фиксированного «декабрь-январь» проведения — это waiting-period event.",
+        "suggestion": "Написать: «WSL events: MEO Rip Curl Pro Portugal в Peniche — даты по календарю WSL; Nazaré big-wave/tow events — зимний waiting period, проведение зависит от swell».",
+        "confidence": "high",
+        "source": "World Surf League event calendar"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "**Amateur contests**: Liga MEO (национальная лига) — открытые для любителей",
+        "problem": "Liga MEO Surf — это главная национальная competitive circuit/лига с участием сильнейших португальских серферов, а не casual amateur contests «открытые для любителей» в бытовом смысле.",
+        "suggestion": "Заменить на: «Liga MEO Surf — национальная соревновательная лига; для любителей искать local club contests, school competitions и муниципальные beach events».",
+        "confidence": "high",
+        "source": "Liga MEO Surf / FPS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "Соц. сети: **@visit ericeira, @peniche_surf, @surfpt** — daily content",
+        "problem": "В Instagram handle не может содержать пробел; «@visit ericeira» выглядит как неверный аккаунт. Также неясно, являются ли все перечисленные аккаунты актуальными официальными источниками.",
+        "suggestion": "Проверить и заменить на реальные handles, например формат без пробелов: «@visitericeira» если это действующий аккаунт, либо убрать неподтверждённые handles.",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "**Ежегодные surf expos**: Portugal Surf Expo в Cascais (апрель)",
+        "problem": "Нужна проверка: «Portugal Surf Expo в Cascais (апрель)» не выглядит как стабильно ежегодное крупное событие с фиксированной датой. Без официальной ссылки это может быть устаревшим или несуществующим ориентиром.",
+        "suggestion": "Либо дать официальную ссылку на актуальное событие 2026, либо заменить на осторожное: «surf/outdoor events меняются по годам; проверяйте municipal agenda Cascais/Ericeira/Peniche и FPS calendar».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[6]",
+        "current": "**Festivals**: Bom Vibes Fest Peniche, Ericeira Surf'n'Soul — surf + music",
+        "problem": "События выглядят неподтверждёнными как регулярные surf festivals; без ссылок и дат это может вводить в заблуждение.",
+        "suggestion": "Добавить официальные ссылки/актуальные даты или заменить на: «локальные surf/music events меняются каждый сезон; проверяйте agendas муниципалитетов Peniche, Mafra/Ericeira и Nazaré».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "\"kind\": \"company\" для WSR Ericeira — World Surf Reserve",
+        "problem": "Ericeira World Surfing Reserve не стоит классифицировать как обычную company source; это World Surfing Reserve/NGO-linked conservation designation. Категория источника может вводить в заблуждение.",
+        "suggestion": "Поменять kind на «official» или «ngo»/«reference», если схема позволяет; добавить Save The Waves как источник.",
+        "confidence": "medium",
+        "source": "Save The Waves Coalition"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "Visit Portugal — Surf, url: https://www.visitportugal.com/",
+        "problem": "Ссылка слишком общая и не ведёт прямо на surf-раздел; для проверяемости лучше указывать конкретную страницу Visit Portugal о surfing.",
+        "suggestion": "Заменить на конкретный URL раздела Visit Portugal про surf/surfing или добавить его отдельным источником.",
+        "confidence": "high",
+        "source": "Visit Portugal"
+      }
+    ],
+    "missing_topics": [
+      "Безопасность: флаги на пляжах, lifeguard season, rip currents, запрет заходить одному в большой swell",
+      "Нужно объяснить, что Nazaré big-wave surfing не для обычных advanced surfers без команды, jet-ski rescue и local knowledge",
+      "Указать актуальные источники прогноза: IPMA marine forecast, Surfline, Windguru, Surf-Forecast",
+      "Разделить beginner-friendly beaches и advanced/reef spots, чтобы не отправлять новичков на São Lourenço/Coxos/Nazaré",
+      "Предупреждение о protected areas и local rules в Parque Natural do Sudoeste Alentejano e Costa Vicentina",
+      "Проверка школы: страховка, квалификация инструктора, group ratio, included equipment, cancellation policy"
+    ]
+  },
+  "model": "gpt-5.5"
+}

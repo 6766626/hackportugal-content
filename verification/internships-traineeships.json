@@ -1,0 +1,197 @@
+{
+  "guideId": "internships-traineeships",
+  "categoryId": "work_business",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд смешивает разные режимы стажировок IEFP и частных estágios, занижает/искажает выплаты, неверно описывает Estágios de Inserção и права студентов/non-EU, а также не упоминает ключевой режим Decreto-Lei 66/2011 для extracurricular internships.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Estágios profissionais (государственные, IEFP, ~750 €/мес 9 мес) ... Estágios de inserção (для долгосрочных безработных, до 2 лет, 80% IAS)",
+        "problem": "Смешаны разные программы и неверно описан адресат Estágios de Inserção. IEFP-стажировки сейчас не сводятся к старому ярлыку «Estágios Profissionais»; выплаты зависят от уровня квалификации и обычно выражаются в кратных IAS, а не как единая сумма. «Estágios de Inserção» — это не общая программа для long-term unemployed на 2 года; в IEFP этот термин относится к мерам для pessoas com deficiência e incapacidade, с иными условиями.",
+        "suggestion": "Разделить: «IEFP estágios, например Estágios INICIAR / +Talento / другие действующие меры, обычно 6–9 месяцев; bolsa зависит от уровня QNQ/образования и считается в IAS. Estágios de Inserção — отдельная мера для pessoas com deficiência e incapacidade; не путать с мерами emprego-inserção для безработных». Убрать утверждение «для долгосрочных безработных, до 2 лет, 80% IAS», если нет конкретной региональной программы.",
+        "confidence": "high",
+        "source": "IEFP pages on Estágios; IEFP measures for pessoas com deficiência e incapacidade"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[0].content[0].items[3]",
+        "current": "**Bolsa**: 80-100% IAS = ~430-540 €/мес (2026)",
+        "problem": "Для основных IEFP professional/insertion-style internships это вводит в заблуждение: многие bolsas são de estágio рассчитываются не как 80–100% IAS, а по уровню квалификации, часто начиная примерно с 1.3 IAS и выше. При IAS 2026 = €537.13 это, например, около €698.27 для 1.3 IAS, €751.98 для 1.4 IAS, €859.41 для 1.6 IAS. Текст занижает выплату и противоречит tldr, где указано «~750 €/мес».",
+        "suggestion": "Заменить на: «Bolsa зависит от программы и уровня квалификации; в основных IEFP estágios она обычно считается в кратных IAS. При IAS 2026 €537.13 ориентиры: 1.3 IAS ≈ €698.27, 1.4 IAS ≈ €751.98, 1.6 IAS ≈ €859.41; проверяйте таблицу конкретной medida IEFP».",
+        "confidence": "high",
+        "source": "IAS 2026 = €537.13; IEFP fee/bolsa tables for current estágio measures"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "\"label\": \"IEFP estágio bolsa (80% IAS)\", \"amountEUR\": 430, \"note\": \"€/мес 2026\"",
+        "problem": "€430 математически соответствует 80% IAS 2026 (€537.13 × 0.8 = €429.70), но как общий «IEFP estágio bolsa» это неверно/слишком узко. Для большинства читателей IEFP estágio будет иметь bolsa по квалификации, часто выше 1 IAS.",
+        "suggestion": "Переименовать, если это действительно специфическая мера: «Bolsa 80% IAS — только для конкретных мер, где это прямо указано: €429.70/мес в 2026». Добавить отдельные строки для 1.3/1.4/1.6 IAS или убрать как общий ориентир.",
+        "confidence": "high",
+        "source": "IAS 2026 = €537.13; IEFP tables for estágio measures"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[1]",
+        "current": "Estágios Inserção / Empregabilidade Plus ... Для long-term unemployed (>12 мес) ... Длительность: до 2 лет ... Bolsa аналогично 80% IAS",
+        "problem": "Это, вероятно, смешение «Estágios de Inserção» с «Contrato Emprego-Inserção / Emprego-Inserção+» или региональными программами. В континентальном IEFP Estágios de Inserção связаны с integração de pessoas com deficiência e incapacidade, а не с обычными долгосрочно безработными; срок и bolsa описаны неверно.",
+        "suggestion": "Переписать блок: «Estágios de Inserção — мера IEFP для pessoas com deficiência e incapacidade, с собственной длительностью, eligibility и bolsa. Для долгосрочно безработных существуют другие меры IEFP, например Contrato Emprego-Inserção/CEI+, но это не обычная оплачиваемая стажировка и условия оплаты другие».",
+        "confidence": "high",
+        "source": "IEFP — Estágios de Inserção; IEFP — Contrato Emprego-Inserção / CEI+"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[4]",
+        "current": "**Volunteer / unpaid**: legally allowed только для curricular (университет-партнёр) или extreme short-term",
+        "problem": "Неполно и юридически опасно. В Португалии extracurricular internships регулируются Decreto-Lei 66/2011: обычно нужен письменный contrato de estágio, seguro, horário/план и bolsa de estágio не ниже IAS, плюс subsídio de refeição, если аналогичные работники его получают. Исключения есть, но их нужно назвать точно; «extreme short-term» слишком расплывчато.",
+        "suggestion": "Написать: «Extracurricular internship вне учебной программы обычно регулируется Decreto-Lei 66/2011 и должен быть оформлен письменно, с seguro и bolsa минимум IAS (€537.13 в 2026), плюс meal allowance при условиях закона. Unpaid допустим в основном для curricular internships и отдельных исключений закона, включая очень короткие стажировки до 3 месяцев без продления, если они подпадают под исключение».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 66/2011"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[1]",
+        "current": "Bolsa paid monthly directly to your IBAN",
+        "problem": "Для IEFP-стажировок обычно принимающая организация платит estagiário, а IEFP софинансирует/возмещает entidade promotora. Формулировка «directly» от IEFP на IBAN стажёра может быть неверной.",
+        "suggestion": "Заменить на: «Bolsa выплачивается ежемесячно принимающей организацией; IEFP финансирует/возмещает часть расходов entidade promotora по правилам конкретной меры».",
+        "confidence": "high",
+        "source": "IEFP regulations for estágio measures"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[0]",
+        "current": "**D4 Student**: можно работать до 20 hours/week — internship входит",
+        "problem": "Устаревшее/неточное правило. После изменений в Lei de Estrangeiros студенты с residence permit for study могут работать при соблюдении уведомительных/регистрационных требований; жёсткий общий лимит 20 часов в неделю для Portugal residence permit не является корректным универсальным правилом. Кроме того, curricular internship и трудовой договор — разные режимы.",
+        "suggestion": "Написать: «D4/student residence permit: студент может работать или проходить стажировку при соблюдении условий режима студенческого ВНЖ; для трудовой деятельности обычно требуется уведомить AIMA и иметь регистрацию/взносы Segurança Social. Не сводите это к универсальному лимиту 20 h/week; проверяйте условия ВНЖ и тип internship — curricular, extracurricular или employment-like».",
+        "confidence": "high",
+        "source": "Lei n.º 23/2007 as amended; AIMA guidance for students"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "**Procuro Trabalho** (D-visa): можно estágio counted как «trabalhar»",
+        "problem": "«Procura de trabalho» — это виза для поиска работы, а не обычная D-residence visa category. Нельзя обобщённо обещать, что qualquer estágio будет засчитан как «trabalhar» для целей последующего ВНЖ: для residence permit обычно нужен трудовой договор/обещание договора или подходящее основание, а estágio может быть не employment contract.",
+        "suggestion": "Заменить на: «Job-seeker visa / visto para procura de trabalho позволяет въехать для поиска работы и запросить ВНЖ при наличии подходящего трудового основания. Internship может помочь, но не всякий estágio заменяет contrato de trabalho для AIMA; заранее проверяйте, сможет ли принимающая организация оформить трудовой договор или другой допустимый титул».",
+        "confidence": "high",
+        "source": "Lei n.º 23/2007; AIMA guidance on visto para procura de trabalho"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[2]",
+        "current": "**D3 Highly Qualified**: typically для full-time, internship needs separate sub-status",
+        "problem": "Фраза «separate sub-status» не является нормальным португальским immigration термином. D3 предназначена для highly qualified activity при наличии договора/обещания договора или подходящего legal basis; обычная стажировка, особенно краткосрочная или учебная, обычно не является D3 основанием.",
+        "suggestion": "Написать: «D3 подходит для highly qualified employment/activity при наличии соответствующего договора/обещания договора и квалификационных условий. Обычный estágio сам по себе обычно не D3-основание; если компания хочет нанять после стажировки, нужен корректный контракт и immigration route».",
+        "confidence": "high",
+        "source": "Lei n.º 23/2007; AIMA D3 guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].items[3]",
+        "current": "IEFP estágio считается work experience for visa / immigration purposes",
+        "problem": "Слишком широкое и рискованное утверждение. Стажировка может быть опытом для CV, но для AIMA/visa renewal часто важны contrato de trabalho, descontos Segurança Social, meios de subsistência и конкретное основание ВНЖ. IEFP estágio не всегда равен трудовому договору.",
+        "suggestion": "Заменить на: «IEFP estágio можно указывать как профессиональный опыт, но для immigration purposes он не всегда заменяет contrato de trabalho или другое основание ВНЖ. Для продления/смены статуса проверяйте требования AIMA по вашей категории».",
+        "confidence": "high",
+        "source": "AIMA residence permit guidance; Lei n.º 23/2007"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].items[1]",
+        "current": "~70% trainees получают job offer",
+        "problem": "Нет источника, и число выглядит как рекламная/усреднённая метрика, которая сильно зависит от программы, года, отрасли и компании. В официальных IEFP measures может быть prémio ao emprego за найм после estágio, но это не означает 70% офферов.",
+        "suggestion": "Либо удалить процент, либо написать: «Некоторые компании нанимают после estágio; в отдельных IEFP measures есть incentives/prémios for employment conversion. Конкретный placement rate зависит от программы и года — проверяйте отчёты IEFP».",
+        "confidence": "medium",
+        "source": "IEFP annual reports / execution reports"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[4]",
+        "current": "+ subsídio de alimentação (talón) ~6 €/раб день",
+        "problem": "«~6 €» может быть занижено/неуниверсально. В IEFP measures subsídio de alimentação обычно соответствует тому, что получает большинство работников entidade promotora, или установленному valor do subsídio de refeição для função pública, если выше/применимо по правилам меры. В 2026 ориентир meal allowance часто выше €6.",
+        "suggestion": "Написать: «+ subsídio de alimentação за рабочий день по правилам конкретной medida/entidade promotora; ориентир — значение, применяемое в организации или public-sector meal allowance, а не фиксированные €6».",
+        "confidence": "medium",
+        "source": "IEFP regulations for estágio measures"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[5]",
+        "current": "+ subsídio de transport",
+        "problem": "Transport allowance не является универсальным элементом всех IEFP estágios. Часто он предусмотрен только для отдельных категорий, например pessoas com deficiência/incapacidade или особые меры/расстояния.",
+        "suggestion": "Заменить на: «+ возможная компенсация транспорта только если предусмотрена конкретной medida или вашим статусом; не считать универсальным правом».",
+        "confidence": "high",
+        "source": "IEFP regulations for estágio measures"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3].content[0].items[0]",
+        "current": "40 hours/week (или part-time agreed)",
+        "problem": "Для IEFP internships режим обычно следует нормальному horário da entidade promotora и является full-time; part-time не стоит подавать как обычную опцию без проверки конкретной medida.",
+        "suggestion": "Написать: «Обычно full-time по horário da entidade promotora, в пределах закона; part-time — только если прямо допускается правилами конкретной программы».",
+        "confidence": "medium",
+        "source": "IEFP regulations for estágio measures"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0]",
+        "current": "IEFP открывает batches каждые 2-3 мес, заполняются быстро",
+        "problem": "IEFP application periods are not reliably every 2–3 months. Periods are opened by aviso/calendário and can vary by budget and measure.",
+        "suggestion": "Заменить на: «Периоды подачи открываются по avisos IEFP и зависят от меры/бюджета; проверяйте calendário de candidaturas на сайте IEFP».",
+        "confidence": "high",
+        "source": "IEFP calendário de candidaturas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "💰 **Тах implications**: bolsa IEFP — облагается IRS (10-20% типично, depending on level)",
+        "problem": "Формулировка слишком грубая и может быть неверной по сумме. Налогообложение зависит от правовой природы выплаты, суммы, семейного положения, withholding tables и возможных social security contributions. «10–20% типично» без источника вводит в заблуждение.",
+        "suggestion": "Написать: «Налоги/SS: многие bolsas de estágio в IEFP/extracurricular regimes могут облагаться IRS и/или Segurança Social по правилам конкретного договора; фактическое удержание зависит от суммы, статуса и tabelas de retenção. Просите у host entity payslip/declaração и проверяйте с contabilista/AT».",
+        "confidence": "medium",
+        "source": "Autoridade Tributária guidance; Segurança Social guidance; IEFP regulations"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "\"IEFP — Estágios Profissionais\", \"url\": \"https://www.iefp.pt/\"",
+        "problem": "Ссылка ведёт на главную страницу IEFP, а не на действующую программу, regulation, таблицу bolsas или calendário. Для чувствительной темы с суммами и eligibility это недостаточный источник; title «Estágios Profissionais» также может быть устаревшим generic label.",
+        "suggestion": "Заменить/добавить прямые источники: страницы IEFP по действующим measures de estágio, соответствующие Portarias/regulamentos, calendário de candidaturas и таблицы apoios/bolsas.",
+        "confidence": "high",
+        "source": "IEFP official program pages"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Sources include only IEFP homepage, Erasmus+ Portugal, EURES Portugal",
+        "problem": "Не хватает обязательных источников для правовых утверждений: Decreto-Lei 66/2011 для extracurricular internships; AIMA/Lei de Estrangeiros для студентов, D3, job-seeker visa, CPLP; Segurança Social/AT для налогов и взносов.",
+        "suggestion": "Добавить: Decreto-Lei n.º 66/2011; Lei n.º 23/2007 as amended; AIMA pages on student residence, D3, job-seeker visa and CPLP residence; Segurança Social and Autoridade Tributária guidance on estágio payments.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 66/2011; Lei n.º 23/2007; AIMA; AT; Segurança Social"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Бразильцы по CPLP mobility — full работа права, including estágio. Часто IEFP подаются на equality стандарт с PT.",
+        "problem": "Упрощено. CPLP residence permit действительно даёт доступ к work rights, но доступ к IEFP мерам зависит от наличия действительного residence title, регистрации в IEFP, NISS/NIF и условий конкретной measure. «equality standard with PT» лучше не писать без уточнения Estatuto de Igualdade для бразильцев, который является отдельным режимом.",
+        "suggestion": "Написать: «CPLP residence permit обычно даёт право работать, но для IEFP нужны действительный título de residência, регистрация как desempregado/à procura de emprego и eligibility конкретной меры. Не путать с Estatuto de Igualdade de Direitos e Deveres для граждан Бразилии — это отдельная процедура».",
+        "confidence": "high",
+        "source": "AIMA CPLP guidance; Tratado de Porto Seguro / Estatuto de Igualdade"
+      }
+    ],
+    "missing_topics": [
+      "Decreto-Lei n.º 66/2011: mandatory rules for extracurricular internships, including written contract, insurance, minimum bolsa at least IAS and meal allowance rules",
+      "Current IEFP measure names and direct links/regulations for 2026, instead of generic «Estágios Profissionais»",
+      "Exact 2026 IAS-based bolsa table by qualification level for each IEFP estágio measure",
+      "Difference between curricular internship, extracurricular internship, IEFP-funded internship and employment contract",
+      "AIMA caveats for non-EU residents: student work notification, job-seeker visa limitations, D3 not suitable for ordinary internships",
+      "Social Security treatment of estágio payments and whether contributions are due",
+      "Tax treatment with reference to Autoridade Tributária rather than an unsourced 10–20% estimate",
+      "Eligibility requirement for IEFP registration as desempregado/à procura de emprego and legal residence/work authorization"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6088,
+    "prompt_tokens": 3195,
+    "total_tokens": 9283
+  },
+  "model": "gpt-5.5"
+}

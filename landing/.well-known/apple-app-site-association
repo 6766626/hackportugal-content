@@ -1,0 +1,27 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": ["2X24MR5RY6.pt.1in.HackPortugal"],
+        "components": [
+          {
+            "/": "/guide/*",
+            "comment": "Open a specific guide"
+          },
+          {
+            "/": "/category/*",
+            "comment": "Open a category"
+          },
+          {
+            "/": "/search",
+            "comment": "Open search with ?q= query"
+          }
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": ["2X24MR5RY6.pt.1in.HackPortugal"]
+  }
+}

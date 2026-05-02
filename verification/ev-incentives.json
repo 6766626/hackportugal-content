@@ -1,0 +1,253 @@
+{
+  "guideId": "ev-incentives",
+  "categoryId": "auto_ownership",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide mixes real EV concepts with several materially wrong 2026 claims: Fundo Ambiental amounts/limits are presented as fixed without the specific Aviso, the €62,500 cap is used in the wrong context, BEV IUC is incorrectly described as no longer exempt, and the Mobi.E/green-plate/parking sections contain broad false generalisations.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items[0].title",
+        "current": "«Суммы 2026»",
+        "problem": "The guide presents 2026 Fundo Ambiental incentive amounts as established facts, but the applicable amounts, eligible categories, quotas, application window and conditions are set by the annual Aviso. Without citing the 2026 Aviso number/text, this is unsafe. Past years cannot be treated as 2026 rules.",
+        "suggestion": "Replace with: «Актуальные суммы смотрите в Aviso Fundo Ambiental 2026 для Mobilidade Elétrica; до публикации/открытия Aviso нельзя гарантировать суммы, квоты, сроки и условия. Ниже — ориентиры прошлых Avisos.»",
+        "confidence": "high",
+        "source": "Fundo Ambiental — annual Aviso for Incentivo pela Introdução no Mercado/Consumo de Veículos de Emissões Nulas"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items[0].content[0].items[0]",
+        "current": "«Физлицо, новый BEV легковой (категория M1): до €4 000 (макс 2 машины в год)»",
+        "problem": "The «max 2 cars per year» claim is very likely wrong. Recent Fundo Ambiental Avisos for M1 passenger BEVs limited individuals to one vehicle/application per candidate, not two. The guide also omits important annual conditions such as the exact price cap and, where applicable, scrappage/abate requirements.",
+        "suggestion": "Write conditionally: «Физлицо, новый BEV M1: сумма и лимит на кандидата определяются Aviso текущего года; в недавних Avisos было до €4 000 и обычно не более 1 автомобиля на кандидата.» Add the current Aviso citation.",
+        "confidence": "high",
+        "source": "Fundo Ambiental Avisos 2023–2025 for Mobilidade Elétrica"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items[0].content[0].items[1]",
+        "current": "«Юрлицо/ИП, новый BEV M1: до €6 000 (макс 4 машины в год)»",
+        "problem": "This confuses passenger M1 cars with N1 goods vehicles and/or tax benefits. In recent Fundo Ambiental schemes, M1 passenger BEV support was aimed at individuals; companies were not generally eligible for a €6,000 M1 passenger-car grant. €6,000 is associated with light goods vehicles N1 in past Avisos, not corporate passenger M1 cars.",
+        "suggestion": "Replace with: «Юрлица/ИП: проверяйте Aviso текущего года. В прошлых Avisos поддержка €6 000 относилась к новым BEV N1, а не к легковым M1 для компаний.»",
+        "confidence": "high",
+        "source": "Fundo Ambiental Avisos 2023–2025 for Mobilidade Elétrica"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items[0].content[0].items[5]",
+        "current": "«Цена авто не должна превышать €62 500 (без IVA) для участия»",
+        "problem": "€62,500 excl. VAT is not the Fundo Ambiental passenger-car purchase-price cap. It is a tax/VAT/depreciation threshold commonly relevant for electric vehicles in company taxation. Recent Fundo Ambiental M1 caps were much lower, e.g. around €38,500 including VAT and all associated costs.",
+        "suggestion": "Replace with: «Потолок цены для субсидии M1 устанавливается ежегодным Aviso; в недавних Avisos он был около €38 500 с IVA и расходами. €62 500 без IVA — это отдельный налоговый порог для компаний, не лимит Fundo Ambiental.»",
+        "confidence": "high",
+        "source": "Fundo Ambiental Avisos; Código do IVA / tax rules for electric vehicles"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1].content[0].text",
+        "current": "«Открытие окон — обычно 15 января. Нужны: счёт-фактура на авто (можно pré-factura)…»",
+        "problem": "Application windows have not reliably opened on 15 January; they depend on the annual Aviso and may open months later. Also, for vehicle grants, a pro-forma/pre-invoice is not necessarily sufficient; recent procedures typically require final invoice/receipt and vehicle registration documents. Saying «можно pré-factura» may lead readers to submit invalid applications.",
+        "suggestion": "Replace with: «Окно подачи и перечень документов определяются Aviso текущего года. Обычно нужны final invoice/receipt, proof of payment, matrícula/DUA or certificado de matrícula, NIF, IBAN and proof of no debts to AT/Segurança Social where required; pré-factura may not be accepted unless the Aviso explicitly allows it.»",
+        "confidence": "high",
+        "source": "Fundo Ambiental annual application rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "«Бюджет перезапускается 1 января и обычно заканчивается за 2-4 месяца.»",
+        "problem": "The budget does not automatically «restart» on 1 January for applicants. Funding depends on the publication of the annual Aviso, the opening of the application platform and the specific calendar. The «2–4 months» statement is a rough observation, not a rule.",
+        "suggestion": "Write: «Программа обычно ежегодная, но стартует только после публикации Aviso и открытия платформы; даты и срок исчерпания бюджета меняются каждый год.»",
+        "confidence": "high",
+        "source": "Fundo Ambiental annual Avisos"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "«IUC reduced (НЕ полностью 0% после OE 2024)»",
+        "problem": "Misleading/wrong. Pure electric vehicles have remained exempt from IUC under the IUC exemption rules; OE 2024 did not generally turn BEV IUC into a €30–50 annual tax. This contradicts the commonly applicable AT rule for exclusively electric vehicles.",
+        "suggestion": "Replace with: «IUC: BEV generally exempt from IUC; PHEV/HEV pay according to the applicable IUC category and emissions/cylinder rules. Always confirm in Portal das Finanças for the specific vehicle.»",
+        "confidence": "high",
+        "source": "Código do Imposto Único de Circulação, exemption for vehicles powered exclusively by electricity/non-combustible renewable energy"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "«BEV: с 2024 НЕ полностью освобождён (было 100% до 2023). Сейчас ~€30-50/год в зависимости от CC / мощности»",
+        "problem": "Wrong on substance and internally odd: BEVs do not have engine displacement («CC») for IUC. Pure electric vehicles are generally IUC-exempt; there is no standard €30–50 annual BEV IUC by CC/power.",
+        "suggestion": "Replace with: «BEV: generally exempt from IUC. There is no CC component for pure EVs. Check the конкретный veículo in Portal das Finanças/AT if in doubt.»",
+        "confidence": "high",
+        "source": "Código do IUC; Autoridade Tributária e Aduaneira"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[1]",
+        "current": "«PHEV (plug-in hybrid) с запасом электрохода ≥50 км: льготный ISV (скидка 25-40%)»",
+        "problem": "Oversimplified and likely numerically misleading. ISV reductions for hybrids/PHEVs depend not only on electric range but also CO2 emissions and the exact legal category. The reduction is not simply «25–40%» for all PHEVs with ≥50 km range.",
+        "suggestion": "Write: «PHEV/HEV: ISV reduction only if the vehicle meets the current Código do ISV conditions, typically including minimum electric range and CO2 threshold. Use the AT ISV simulator or customs broker for the exact amount.»",
+        "confidence": "high",
+        "source": "Código do Imposto sobre Veículos; Portal das Finanças ISV simulator"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].title",
+        "current": "«IRS (для компаний/ИП)»",
+        "problem": "The heading is taxonomically wrong. Companies are subject to IRC, not IRS. Sole traders/freelancers can be under IRS Categoria B, but the rules differ depending on organised accounting vs simplified regime and VAT status.",
+        "suggestion": "Rename to: «IRC/IVA/tributação autónoma для компаний; IRS Categoria B только для ИП/recibos verdes при подходящем режиме».",
+        "confidence": "high",
+        "source": "Código do IRC; Código do IRS; Código do IVA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[0]",
+        "current": "«Служебный EV: полная амортизация до €62 500 (для бензинового — €25 000)»",
+        "problem": "Misleading. The €62,500 threshold is a maximum acquisition-cost limit for tax depreciation/VAT treatment of electric passenger vehicles, not a promise of «full amortization» in the ordinary-language sense. Depreciation must follow accounting/tax useful-life rules and depends on the taxpayer regime.",
+        "suggestion": "Replace with: «Для компаний налогово принимаемая амортизация легкового BEV ограничена предельной стоимостью, обычно €62 500 без IVA; амортизация списывается по нормам и срокам, а не единовременно.»",
+        "confidence": "high",
+        "source": "Portuguese tax depreciation limits for passenger vehicles; Código do IRC / Portaria depreciation rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[1]",
+        "current": "«Заправка (КВт·ч) — 100% вычет IVA для компаний (для бензина — 50%)»",
+        "problem": "Too broad. VAT deduction on electricity for EV charging applies only to taxable persons with VAT deduction rights and within business-use rules; it does not apply to private individuals, VAT-exempt freelancers, or non-deductible/private use. «КВт·ч» should be written «кВт·ч».",
+        "suggestion": "Write: «IVA на электроэнергию для зарядки EV может быть deductible for VAT-taxable businesses with deduction rights, subject to business-use documentation. Not available to private users or VAT-exempt regimes.»",
+        "confidence": "high",
+        "source": "Código do IVA; AT guidance on VAT deduction for electric vehicles/electricity"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2].content[0].items[2]",
+        "current": "«Ключевое для фрилансеров: EV — самый эффективный способ по tax relief, если у вас recibos verdes с высоким оборотом»",
+        "problem": "Overgeneralised tax advice. Many recibos verdes are in the simplified regime, have limited actual-expense deductions, may be VAT-exempt under Art. 53, and may not benefit meaningfully from vehicle depreciation/VAT deduction. It can also create private-use and documentation issues.",
+        "suggestion": "Replace with: «Для recibos verdes выгода зависит от режима IRS Categoria B, VAT status, organised accounting, % professional use and documentation. Consult a contabilista before buying mainly for tax relief.»",
+        "confidence": "high",
+        "source": "Código do IRS; Código do IVA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "«Все публичные зарядки … работают через общий хаб. Один аккаунт — весь pt.»",
+        "problem": "Misleading. The public charging network is integrated through Mobi.E, but users normally contract with a CEME/e-mobility supplier, not with Mobi.E as a universal retail account. Some networks/offers may have their own apps, ad-hoc payment or roaming specifics. «One account — the whole country» is an oversimplification.",
+        "suggestion": "Write: «Большинство публичных зарядок интегрировано в Mobi.E; для оплаты обычно нужен договор/карта/app CEME, который работает на большинстве постов сети. Условия и доступ зависят от CEME/OPC.»",
+        "confidence": "high",
+        "source": "Mobi.E official explanation of CEME/OPC model"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0]",
+        "current": "«Обычная (AC 11-22 кВт): €0,28–0,35/кВт·ч»",
+        "problem": "Mobi.E public charging prices are not clean per-kWh prices. Bills can include energy price from the CEME, OPC tariff, time component, activation/session fees, network fees and VAT. A per-kWh range can be very misleading, especially for slow AC sessions with time-based fees.",
+        "suggestion": "Replace the price list with: «Стоимость зависит от CEME + OPC + времени подключения + мощности + IVA; проверяйте цену в приложении перед стартом. Указывать только €/кВт·ч без времени часто некорректно.»",
+        "confidence": "high",
+        "source": "Mobi.E tariff structure; CEME/OPC pricing model"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1]",
+        "current": "«Быстрая (DC 50-150 кВт): €0,40–0,55/кВт·ч»",
+        "problem": "Same pricing problem: DC charging often includes time/session/operator components, and the effective cost can be outside this range depending on CEME, OPC, vehicle charging curve and idle/parking time.",
+        "suggestion": "State that these are only illustrative effective costs and tell readers to check the CEME app’s final estimated price before charging.",
+        "confidence": "high",
+        "source": "Mobi.E tariff structure; CEME/OPC pricing model"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[4]",
+        "current": "«Оплата: карта Mobi.E (€5 регистрация) ИЛИ плата через приложения EDP, Galp, Iberdrola»",
+        "problem": "Mobi.E is the network manager and does not function as a single universal retail card provider in the way described. Cards/apps are issued by CEMEs such as EDP Comercial, Galp Electric, Prio, Miio, etc.; fees vary. A fixed «€5 Mobi.E registration» is not generally correct.",
+        "suggestion": "Replace with: «Оплата через CEME card/app; у каждого поставщика свои комиссии, абонплата или free plan. Mobi.E управляет сетью, но не является универсальным розничным тарифом.»",
+        "confidence": "high",
+        "source": "Mobi.E official CEME model"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[1].items[5]",
+        "current": "«Бесплатная парковка: во время зарядки на станциях Mobi.E — первые 2 часа»",
+        "problem": "False as a general national rule. Parking at charging bays is governed by local municipality/parking operator rules and the charger/site terms. Some places charge parking, some require payment after a grace period, some allow only while actively charging, and some municipal EV parking benefits require a local permit.",
+        "suggestion": "Replace with: «Парковка во время зарядки зависит от муниципалитета/парковочного оператора и правил конкретной станции. Бесплатные 2 часа не являются общенациональным правилом.»",
+        "confidence": "high",
+        "source": "Municipal parking regulations; Mobi.E site-specific conditions"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[0]",
+        "current": "«EV с 2023 — зелёная рамка на номерном знаке (обязательна при первой регистрации)»",
+        "problem": "Portugal does not have a mandatory green-frame number plate regime for EVs like the one described. EV identification benefits are associated with an IMT-issued electric-vehicle identifier/dístico, not a mandatory green licence-plate frame at first registration.",
+        "suggestion": "Replace with: «В Португалии для некоторых льгот используется dístico identificativo de veículo elétrico, выдаваемый IMT; это не обязательная зелёная рамка номерного знака.»",
+        "confidence": "high",
+        "source": "IMT — dístico identificativo de veículo elétrico"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[1]",
+        "current": "«Старые EV — можно поменять на зелёный за €30 в IMT»",
+        "problem": "Wrong object and likely wrong fee. IMT issues the EV identifier/dístico; it is not a licence plate replacement into a «green» plate. The fee should be checked in IMT’s fee table, not asserted as €30.",
+        "suggestion": "Replace with: «Для уже зарегистрированного BEV можно запросить dístico EV в IMT; проверьте актуальную fee table IMT.»",
+        "confidence": "high",
+        "source": "IMT fee table; IMT EV dístico information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "«Зелёный знак = бесплатный въезд в ZER Лиссабона (зона низкой эмиссии, расширена с 2025)»",
+        "problem": "Misleading. Lisbon ZER is not a paid congestion-charge zone where a green sign gives «free entry». Access rules are municipal, vehicle-emission-class based and subject to exceptions/suspensions/changes. The claim that it was «expanded from 2025» needs a municipal source.",
+        "suggestion": "Write: «ZER/ZAAC rules in Lisbon are municipal and change over time; EVs may have access advantages, but check Câmara Municipal de Lisboa rules for the exact zone, hours and exemptions. Do not describe it as “free entry” unless there is a fee-based scheme.»",
+        "confidence": "high",
+        "source": "Câmara Municipal de Lisboa — ZER/traffic restrictions"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "«Субсидия юрлицу (BEV M1) — amountEUR: 6000»",
+        "problem": "Likely wrong category. The €6,000 figure has been used for N1 light goods BEVs, not as a general company subsidy for M1 passenger BEVs.",
+        "suggestion": "Change label to «Субсидия N1 BEV, если предусмотрена Aviso текущего года» or remove until the 2026 Aviso confirms eligibility.",
+        "confidence": "high",
+        "source": "Fundo Ambiental annual Avisos"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "«Mobi.E карта (регистрация) — amountEUR: 5»",
+        "problem": "There is no single standard Mobi.E retail card registration fee. CEME providers set their own card/app/pricing models; some cards/apps may be free, subscription-based or have different fees.",
+        "suggestion": "Replace with: «CEME card/app: fee varies by provider; check EDP/Galp/Prio/Miio/etc.»",
+        "confidence": "high",
+        "source": "Mobi.E CEME model; individual CEME tariffs"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "«Fundo Ambiental — Mobilidade Elétrica», url: «https://www.fundoambiental.pt/»",
+        "problem": "For a guide giving exact subsidy amounts and eligibility, the homepage is not a sufficient source. It should cite the specific 2026 Aviso, regulation page and/or application page. Otherwise readers cannot verify the amounts, quotas, dates, caps and documents.",
+        "suggestion": "Add the exact current Aviso title/number and URL for the 2026 Fundo Ambiental mobility incentive, plus the application platform URL when open.",
+        "confidence": "high",
+        "source": "Fundo Ambiental specific Aviso"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "No specific legal sources for IUC/ISV/IVA/IRC claims",
+        "problem": "The guide makes sensitive tax claims but only links to generic Portal das Finanças. It should cite the relevant legal bases or AT pages/simulators for Código do ISV, Código do IUC, Código do IVA and company tax treatment.",
+        "suggestion": "Add sources: Código do ISV, Código do IUC exemption article for BEVs, Código do IVA rules on vehicle/electricity VAT deduction, and AT ISV/IUC simulators.",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira; Diário da República"
+      }
+    ],
+    "missing_topics": [
+      "Exact 2026 Fundo Ambiental Aviso number/title, opening and closing dates, quotas and application platform link",
+      "Current Fundo Ambiental M1 price cap and whether it is PVP with IVA and associated costs, not the €62,500 tax threshold",
+      "Whether scrappage/abate of an old fossil vehicle is required for the current M1 incentive",
+      "Per-candidate limits by category: M1, N1, bicycles, cargo bikes, motorcycles/scooters",
+      "Requirement to have no tax/social-security debts where applicable and how to obtain certificates",
+      "Final invoice, proof of payment, certificado de matrícula/DUA and other exact documents required by the annual Aviso",
+      "Distinction between Fundo Ambiental grants and company tax benefits: IRC depreciation, IVA deduction, tributação autónoma",
+      "CEME versus OPC versus Mobi.E roles and why public charging prices are not simply €/kWh",
+      "Municipal nature of EV parking benefits and Lisbon-specific permits/rules",
+      "IMT dístico identificativo de veículo elétrico instead of alleged green licence-plate frame"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6729,
+    "prompt_tokens": 2729,
+    "total_tokens": 9458
+  },
+  "model": "gpt-5.5"
+}

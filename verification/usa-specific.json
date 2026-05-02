@@ -1,0 +1,147 @@
+{
+  "guideId": "usa-specific",
+  "categoryId": "country_specific",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful but contains several materially misleading tax/investment statements for US persons in Portugal, especially Roth IRA treaty treatment, NHR dividend wording, IFICI scope, FATCA reporting mechanics, Golden Visa caveats, and SNS access/cost wording.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].text",
+        "current": "FATCA обязывает все банки PT отчитываться IRS о счетах US-граждан.",
+        "problem": "Overbroad and technically wrong. Under the US-Portugal Model 1 FATCA IGA, Portuguese financial institutions generally report to the Portuguese tax authority, which exchanges information with the IRS; they do not generally report directly to the IRS. Also FATCA applies to reporting Portuguese financial institutions/accounts, not literally 'all banks' in every case.",
+        "suggestion": "Write: \"FATCA/IGA обязывает португальские финансовые учреждения выявлять US persons и передавать данные в Autoridade Tributária, которая обменивается ими с IRS; на практике банки требуют W-9 и FATCA self-certification.\"",
+        "confidence": "high",
+        "source": "US-Portugal FATCA Model 1 IGA; IRS FATCA"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[3]",
+        "current": "Ежегодный отчёт банка в IRS автоматически",
+        "problem": "Same FATCA mechanics issue: in Portugal reporting normally goes via Autoridade Tributária under the IGA, not directly from the bank to the IRS.",
+        "suggestion": "Replace with: \"Ежегодная автоматическая передача данных через Autoridade Tributária в рамках FATCA IGA.\"",
+        "confidence": "high",
+        "source": "US-Portugal FATCA Model 1 IGA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "NHR-старый (до 2024) был очень выгоден: 10% на US-пенсии + 20% на квалифицированную работу + 0% на US дивиденды.",
+        "problem": "Misleading for Americans. Under old NHR, Portugal could exempt qualifying foreign dividends, but this was not '0%' overall for US citizens because the US still taxes citizens on worldwide income. The US-Portugal treaty and US citizenship-based taxation mean US dividends may still be reportable/taxable in the US. Also foreign pension treatment under NHR depends on when the person entered NHR: the 10% regime applied after the 2020 change, while earlier grandfathered NHR cases could have different treatment.",
+        "suggestion": "Write: \"При старом NHR Portugal часто освобождала qualifying foreign-source dividends/interest/royalties from PT tax, но US-гражданин всё равно декларирует их в IRS и может платить US tax. Foreign pensions under NHR: для многих заявок после реформы 2020 — 10% в PT; у ранних grandfathered NHR возможны иные правила.\"",
+        "confidence": "high",
+        "source": "Portuguese Personal Income Tax Code NHR rules; US-Portugal Tax Treaty; IRS worldwide income rules for US citizens"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].text",
+        "current": "IFICI (2024+): 20% плоская ставка, но УЖЕ список квалифицированных профессий. Традиционному remote worker сложнее попасть.",
+        "problem": "Too compressed and potentially misleading. IFICI/NHR 2.0 is not a general 20% flat tax for all income. The 20% rate applies mainly to employment/self-employment income from eligible scientific, innovation, higher-education, R&D or qualifying business activities, subject to strict conditions. It does not replicate old NHR, does not generally cover pensions, and ordinary remote workers usually do not qualify merely because they work remotely.",
+        "suggestion": "Write: \"IFICI/NHR 2.0: 20% applies only to qualifying category A/B income from eligible activities/entities under the IFICI rules; it is not a blanket 20% regime for all remote workers or all income, and pensions are not treated like under old NHR. Eligibility and registration deadlines must be checked case by case.\"",
+        "confidence": "high",
+        "source": "CIRS Article 58-A; Portaria 352/2024/1; Portuguese Tax Authority IFICI guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0]",
+        "current": "US-паспорт: безвиз Шенген 90 дней",
+        "problem": "Incomplete. The Schengen short-stay rule is 90 days in any rolling 180-day period, not simply '90 days'.",
+        "suggestion": "Write: \"US-паспорт: безвиз Шенген 90 дней в любом скользящем 180-дневном периоде.\"",
+        "confidence": "high",
+        "source": "European Commission Schengen short-stay rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "Golden Visa — доступна, процесс стандартный",
+        "problem": "Misleading without the post-2023 caveat. Golden Visa remains available, but residential/most real-estate investment and simple capital-transfer routes were removed by the Mais Habitação changes. Remaining routes are narrower, e.g. qualifying funds, job creation, research, cultural heritage/artistic production, or company investment routes, subject to conditions.",
+        "suggestion": "Write: \"Golden Visa остаётся доступна, но с 2023 real estate и простые capital-transfer опции закрыты; остаются ограниченные маршруты вроде qualifying investment funds, job creation, research/cultural investment и некоторых company-investment routes.\"",
+        "confidence": "high",
+        "source": "Lei 56/2023; AIMA/ARI Golden Visa guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3]",
+        "current": "Консульство Португалии: NYC, Washington DC, Miami, Chicago, Boston, Providence, San Francisco, Los Angeles, Newark, Houston",
+        "problem": "Misleading. This mixes embassy/consulates/honorary consulates/VFS locations and implies all process national visas. Portuguese visa processing in the US is jurisdiction-specific and many honorary consulates do not handle visa applications. Applicants should use the official consular/VFS jurisdiction for their state.",
+        "suggestion": "Write: \"Заявление подаётся через соответствующую консульскую юрисдикцию/VFS Global для вашего штата; не все honorary consulates принимают визовые заявления. Проверяйте актуальную юрисдикцию на Portal Diplomático/VFS Portugal USA.\"",
+        "confidence": "medium",
+        "source": "Portal Diplomático Portugal; VFS Global Portugal USA"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[3]",
+        "current": "Roth IRA — не налогооблагается в PT (договор защищает)",
+        "problem": "This is a dangerous overstatement. The US-Portugal tax treaty does not clearly give Roth IRA distributions the same tax-free treatment in Portugal as under US domestic law. A Portuguese tax resident may have Portuguese reporting/tax exposure on Roth IRA distributions or embedded gains depending on classification and facts. The treaty generally allocates pension taxation rights but does not simply 'protect' Roth tax-free status for Portugal.",
+        "suggestion": "Write: \"Roth IRA: US tax-free treatment does not automatically carry over to Portugal. Portuguese taxation/reporting is uncertain and fact-specific; get PT-US cross-border tax advice before contributions, conversions, or withdrawals.\"",
+        "confidence": "high",
+        "source": "US-Portugal Tax Treaty; Portuguese IRS/CIRS rules on foreign pension/investment income"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[4]",
+        "current": "401(k) — пенсионные выплаты облагаются в PT",
+        "problem": "Directionally often true for a Portuguese tax resident, but incomplete for US citizens. The treaty may give Portugal residence-state taxation rights over pensions, but the US saving clause can still allow US taxation of its citizens, with foreign tax credit coordination. This should not be presented as PT-only taxation.",
+        "suggestion": "Write: \"401(k): для PT tax resident выплаты обычно декларируются в Portugal; US citizen всё равно декларирует их в IRS, а двойное налогообложение координируется treaty/FTC rules.\"",
+        "confidence": "high",
+        "source": "US-Portugal Tax Treaty Articles on pensions and saving clause; IRS foreign tax credit guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "PT Pension Fund (PPR) — US считает PFIC, плохой выбор для US-гражданина",
+        "problem": "Too categorical. Many Portuguese PPRs are insurance-wrapped or fund-based products and may create PFIC/foreign trust/foreign pension reporting issues for US persons, but not every PPR is automatically a PFIC. The correct warning is that PPRs are high-risk for US tax complexity and require product-specific review.",
+        "suggestion": "Write: \"PPR: для US persons часто создаёт сложную IRS-отчётность, включая potential PFIC/foreign trust/foreign pension issues depending on wrapper and underlying investments; не покупать без US-PT tax review.\"",
+        "confidence": "medium",
+        "source": "IRS PFIC rules; IRS foreign trust/reporting rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2]",
+        "current": "US-ETFs — лучше PT/EU фондов для американцев",
+        "problem": "Tax-wise this is often true for US persons because EU funds may be PFICs, but the guide omits a critical practical caveat: EU/Portugal retail brokers often cannot sell US-domiciled ETFs to EU retail residents because of PRIIPs/KID rules. This can make implementation difficult.",
+        "suggestion": "Write: \"US-domiciled ETFs are often preferable from a US tax/PFIC perspective, but EU retail access can be restricted by PRIIPs/KID rules; brokerage access must be checked.\"",
+        "confidence": "high",
+        "source": "EU PRIIPs Regulation; IRS PFIC rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[0]",
+        "current": "SNS — после получения ВНЖ доступен бесплатно",
+        "problem": "Misleading. SNS access is generally available to legal residents after obtaining a Número de Utente, and in some cases applicants/other lawful residents can access earlier with proper documentation. It is not simply 'after residence permit'. Also SNS is not exactly 'free': most user charges were abolished, but exceptions can remain, especially emergency care without referral and certain services; it is funded by taxes.",
+        "suggestion": "Write: \"SNS: legal residents can register for a Número de Utente and access the public system; many services have no user fee, but it is not private-style free insurance and some charges/exceptions can apply. Rules for applicants without a residence card depend on documentation and local practice.\"",
+        "confidence": "high",
+        "source": "SNS/ACSS guidance; Decreto-Lei 113/2011 as amended by SNS user-fee reforms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[5]",
+        "current": "IRS International: +1 267-941-1000 (для вопросов FBAR / FATCA / FEIE)",
+        "problem": "The number is the IRS international individual taxpayer line and can help with international tax questions, but FBAR is administered by FinCEN, not the IRS. For FBAR-specific filing/help, FinCEN/BSA E-Filing contacts are the more accurate reference.",
+        "suggestion": "Write: \"IRS International individual tax: +1 267-941-1000; FBAR is filed through FinCEN BSA E-Filing, so FBAR technical questions should use FinCEN/BSA E-Filing support.\"",
+        "confidence": "high",
+        "source": "IRS International Taxpayers; FinCEN BSA E-Filing FBAR"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include IRS International, treaty, embassy, Portal das Finanças only.",
+        "problem": "For the guide's sensitive claims, important primary sources are missing: FinCEN FBAR official page, IRS Form 8938/FATCA thresholds, official FATCA IGA source, IFICI legal guidance, SNS registration/user-fee source, and official Golden Visa/AIMA or legal source.",
+        "suggestion": "Add official sources: FinCEN FBAR/BSA E-Filing; IRS Form 8938 instructions; US Treasury/IRS FATCA IGA Portugal; CIRS Article 58-A and Portaria 352/2024/1 for IFICI; SNS/ACSS guidance; AIMA ARI/Golden Visa or Lei 56/2023.",
+        "confidence": "high",
+        "source": "FinCEN; IRS; US Treasury FATCA; Diário da República; SNS/ACSS; AIMA"
+      }
+    ],
+    "missing_topics": [
+      "State taxes for US citizens moving abroad: some US states can continue to claim residency or tax ties after departure.",
+      "FBAR filing deadline nuance: due April 15 with automatic extension to October 15.",
+      "Portugal tax year filing basics for new residents: annual IRS Modelo 3 filing, NIF/Finanças portal, and reporting of foreign income.",
+      "Exchange-rate and currency conversion rules for reporting USD income/assets in Portugal and EUR values to the IRS/FinCEN.",
+      "US Social Security benefits in Portugal: treaty/totalization and Portuguese taxation should be addressed separately from private pensions.",
+      "Self-employment/remote work social security: US-Portugal totalization agreement and certificates of coverage can matter.",
+      "Exit/arrival year residency split-year treatment in Portugal and the US foreign earned income exclusion bona fide residence/physical presence tests.",
+      "FATCA/FBAR thresholds differ and use different asset/account definitions; readers should not rely only on the simplified thresholds in the TLDR."
+    ]
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,113 @@
+{
+  "guideId": "rental-sites-compared",
+  "categoryId": "housing_rent",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен, но содержит несколько существенных неточностей про комиссии платформ, правовой статус аренды, лимиты upfront-платежей и официальный источник по агентам недвижимости.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "Платформа берёт 10–15 % от landlord, клиент без оплаты сверх",
+        "problem": "Это вводит в заблуждение: у Flatio обычно есть сервисный сбор/fee для арендатора, а не модель «клиент без оплаты сверх». Условия зависят от страны, срока и конкретного бронирования, но утверждать, что арендатор ничего не платит сверх аренды, нельзя.",
+        "suggestion": "Заменить на: «Flatio показывает итоговую стоимость до бронирования; обычно у арендатора есть сервисный сбор платформы, а условия и размер fee зависят от срока и объекта. Проверяйте breakdown перед оплатой».",
+        "confidence": "high",
+        "source": "Flatio Help Center / Pricing and service fee terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[4]",
+        "current": "Первый месяц + caução (обычно 2–3 месяца)",
+        "problem": "Фраза может быть прочитана как «caução обычно 2–3 месяца». После изменений Mais Habitação залог по договору аренды жилья ограничен суммой до 2 арендных плат, а предоплата аренды — также до 2 арендных плат. Требование caução 3 месяца для habitação противоречит действующему лимиту.",
+        "suggestion": "Написать: «Обычно просят 1-й месяц + caução; по закону для habitação caução не может превышать 2 месячные аренды, и предоплата rentas antecipadas также ограничена 2 месяцами. На практике иногда просят больше — это повод торговаться или проверять законность условия».",
+        "confidence": "high",
+        "source": "Código Civil art. 1076, as amended by Lei 56/2023"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[7]",
+        "current": "📄 Каждый контракт в AT (Portal das Finanças) — это закон",
+        "problem": "Слишком категорично и юридически неточно. Обязанность сообщить договор аренды в Autoridade Tributária лежит на landlord/senhorio, обычно до конца месяца, следующего за началом договора, и затем выдавать recibos de renda. Нерегистрация в AT не означает автоматически, что письменный договор между сторонами «не существует», но создаёт налоговые и доказательные риски, особенно для арендатора-иностранца.",
+        "suggestion": "Заменить на: «Senhorio обязан сообщить договор аренды в AT/Portal das Finanças и выдавать recibos de renda. Просите comprovativo de comunicação do contrato или проверяйте recibos — это важно для доказательства адреса, налогов и будущих процедур».",
+        "confidence": "high",
+        "source": "Portal das Finanças — Comunicação de contratos de arrendamento / Modelo 2; Código do Imposto do Selo"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].text",
+        "current": "С 2024 года в PT ограничен local lodging (AL). Долгосрочные listing через «Monthly stays» — 28+ дней, скидки до 40 %. Без PT-контракта, но дорого.",
+        "problem": "Формулировка устаревшая/упрощённая. Ограничения AL не являются единым национальным запретом «с 2024»: режим AL менялся Mais Habitação в 2023 и затем был снова изменён в 2024 с большей ролью муниципалитетов. Правила зависят от муниципалитета и зоны. Кроме того, Airbnb monthly stay остаётся туристическим/платформенным бронированием, а не обычным arrendamento urbano, и обычно не даёт зарегистрированного в AT договора аренды.",
+        "suggestion": "Написать: «AL/Alojamento Local регулируется отдельно от долгосрочной аренды; правила и ограничения зависят от муниципалитета и зоны. Airbnb Monthly stays — это бронирование через платформу на 28+ дней, а не стандартный contrato de arrendamento, зарегистрированный в AT; для ВНЖ/адреса/школы может не подойти».",
+        "confidence": "high",
+        "source": "Regime Jurídico da Exploração dos Estabelecimentos de Alojamento Local; Lei 56/2023; Decreto-Lei 76/2024"
+      },
+      {
+        "severity": "major",
+        "where": "sources[2]",
+        "current": "AMI — Associação dos Mediadores Imobiliários, https://www.ami.pt/",
+        "problem": "Источник выглядит неверно как официальный. В Португалии AMI — это номер лицензии atividade de mediação imobiliária, а официальный надзор/реестр медиаторов ведёт IMPIC. Профессиональная ассоциация рынка — скорее APEMIP, но она не является госорганом. Для проверки агентств нужен IMPIC, а не «AMI — Associação dos Mediadores Imobiliários».",
+        "suggestion": "Заменить источник на официальный: «IMPIC — Consulta de mediadores imobiliários / licença AMI» с URL https://www.impic.pt/ и добавить в текст совет проверять номер licença AMI агентства/посредника.",
+        "confidence": "high",
+        "source": "IMPIC — Instituto dos Mercados Públicos, do Imobiliário e da Construção"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Для переезда до получения NIF — Flatio / Uniplaces (принимают просто паспорт).",
+        "problem": "Практически полезно, но неполно и может ввести иммигрантов в заблуждение: то, что платформа принимает паспорт без NIF, не означает, что жильё даст полноценный португальский contrato de arrendamento, зарегистрированный в AT, или будет принято как подтверждение адреса для AIMA, школы, банка или других процедур.",
+        "suggestion": "Добавить caveat: «Flatio/Uniplaces/Airbnb удобны до NIF, но это часто не зарегистрированный в AT долгосрочный договор. До оплаты уточняйте, выдаёт ли landlord contrato de arrendamento, recibos и можно ли использовать адрес для AIMA/банка/школы».",
+        "confidence": "high",
+        "source": "Portal das Finanças — contratos de arrendamento; AIMA document practice for proof of accommodation"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[1]",
+        "current": "Фильтры: cena, кол-во комнат, метраж, petos, terraço, garagem, certificado energético",
+        "problem": "Есть языковые/терминологические ошибки: по-португальски «цена» — preço, не cena; «pets» обычно animais de estimação/permite animais, не petos. Для русскоязычного гайда это мешает пользоваться поиском.",
+        "suggestion": "Исправить на: «Фильтры: preço, número de quartos, área, permite animais/animais de estimação, terraço, garagem, certificado energético».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[1]",
+        "current": "60 % от частников (без агента = без комиссии)",
+        "problem": "Число 60% выглядит как неподтверждённая оценка. Доля частных объявлений на OLX меняется по городу и времени, а объявления агентств там тоже встречаются. Без источника конкретный процент лучше не давать.",
+        "suggestion": "Заменить на: «Много объявлений от частных владельцев, но агентства тоже публикуются; проверяйте, кто именно сдаёт объект и есть ли comissão».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "Приходят отклики быстрее на Idealista",
+        "problem": "В разделе про OLX фраза звучит противоречиво: непонятно, быстрее где — на OLX или на Idealista. Вероятно, имелось в виду, что на OLX собственники отвечают быстрее, чем на Idealista, но текущий текст читается наоборот.",
+        "suggestion": "Переписать: «На OLX иногда отвечают быстрее, чем на Idealista, особенно частные владельцы — но качество объявлений и риск скама хуже».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].items[5]",
+        "current": "Поручительство Company — если работаете",
+        "problem": "Фраза неясна и не отражает обычную практику. Агент/landlord может просить fiador, seguro de renda, доказательство дохода или рабочий contrato, но «поручительство Company» как стандартное требование звучит странно; работодатель редко выступает поручителем по аренде.",
+        "suggestion": "Заменить на: «Если работаете в PT: contrato de trabalho, recibos de vencimento и/или declaração da entidade patronal; fiador обычно отдельное физическое лицо-резидент, а не работодатель».",
+        "confidence": "high",
+        "source": ""
+      }
+    ],
+    "missing_topics": [
+      "Добавить совет проверять у агентства/посредника номер licença AMI через IMPIC перед оплатой комиссии или подписанием документов.",
+      "Добавить предупреждение, что reserva/sinal и caução нужно платить только после идентификации собственника или лицензированного агента, проверки объекта и получения письменного документа с NIF/NIPC получателя.",
+      "Добавить caveat про проверку владельца/полномочий: pedir caderneta predial или certidão permanente predial, либо хотя бы сверить имя senhorio в договоре с документами.",
+      "Добавить разницу между contrato de arrendamento, alojamento local/Airbnb booking и licença de utilização/comunicação в AT — особенно важно для ВНЖ, школы, банка и налогового адреса.",
+      "Добавить, что recibos de renda в Portal das Finanças важны для IRS deductions and proof of rent, а не только сам договор."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3505,
+    "prompt_tokens": 2892,
+    "total_tokens": 6397
+  },
+  "model": "gpt-5.5"
+}

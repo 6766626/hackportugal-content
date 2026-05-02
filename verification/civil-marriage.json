@@ -1,0 +1,242 @@
+{
+  "guideId": "civil-marriage",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful at a high level but contains several major legal/process errors: it invents a 30-day objection period, misdescribes urgent marriage, requires witnesses when normally not required, and gives misleading rules on religious marriage, children, IRS and matrimonial property regimes.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Срок: 30+ дней процесс (от запроса до церемонии); urgência для туристов 5-10 дней.",
+        "problem": "Portugal does not have a general mandatory 30-day public objection/banns period for every civil marriage, and 'casamento urgente' is not a tourist fast-track taking 5-10 days. The preliminary marriage process is an administrative check of impediments; once authorised, the marriage must generally be celebrated within 6 months. Urgent marriage is an exceptional mechanism mainly for imminent death or imminent childbirth and is later subject to homologation.",
+        "suggestion": "Write: «Срок зависит от Conservatória и документов: после abertura do processo preliminar регистратор проверяет impedimentos; после autorização брак должен быть заключён в течение 6 месяцев. Нет гарантированного “туристического fast-track”. Casamento urgente применяется только в исключительных ситуациях, например perigo de morte / parto iminente, и требует последующей homologação.»",
+        "confidence": "high",
+        "source": "Código do Registo Civil; IRN — Casamento; Código Civil arts. 1590-1599"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0].content[0].items[6]",
+        "current": "Conservadora открывает процесс — 30+ дней публичного объявления",
+        "problem": "This describes an obsolete/misleading 'public announcement' model. Current ordinary civil marriage procedure is not a fixed 30-day publication period during which 'anyone' objects. The registrar verifies legal impediments in the preliminary process.",
+        "suggestion": "Replace with: «Conservatória abre o processo preliminar de casamento и проверяет impedimentos; срок зависит от загруженности и полноты документов. После despacho favorável/authorização церемония должна пройти в течение 6 месяцев.»",
+        "confidence": "high",
+        "source": "Código do Registo Civil; IRN — Casamento"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1]",
+        "current": "Шаг 2: Período de proibição ... 30-дневный период во время которого любой может оспорить брак",
+        "problem": "There is no standard 'período de proibição' of 30 days in the current process. The term is also wrong/confusing: the relevant concept is 'impedimentos matrimoniais' and the preliminary process, not a fixed public challenge window.",
+        "suggestion": "Delete this step or replace with: «Проверка impedimentos: Conservatória анализирует документы, гражданское состояние, возраст, дееспособность и возможные legal impediments. Если нет impediments, выдается authorization/despacho para casamento.»",
+        "confidence": "high",
+        "source": "Código Civil arts. 1600-1609; Código do Registo Civil"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3]",
+        "current": "Срочный брак (Casamento Urgente) ... Основания: pregnancy, severe illness, planned travel ... Сокращение proibição period с 30 до 5-10 дней ... Без оснований — возможно но не гарантированно одобрят",
+        "problem": "This is materially wrong. Casamento urgente is not a discretionary expedited service for travel or convenience. It is an exceptional marriage celebrated without the normal preliminary process in legally urgent circumstances, classically imminent death or imminent childbirth, and later must be homologated. Ordinary 'please do it faster' scheduling is separate and depends on the registry.",
+        "suggestion": "Write: «Casamento urgente — исключительная процедура, когда невозможно ждать обычный processo preliminar, например perigo iminente de morte или parto iminente. Это не “express wedding” для туристов или поездки. После церемонии Conservatória проверяет законность и homologação; при impediment брак не будет зарегистрирован/признан.»",
+        "confidence": "high",
+        "source": "Código Civil arts. 1590-1599; Código do Registo Civil"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Стоимость: 120 € стандарт, 200 € urgentе.",
+        "problem": "The €200 figure is likely conflated with celebration outside the registry/outside normal hours. The base civil marriage process/registration fee is €120; fees for outside registry or outside opening hours are a separate emolument. Calling €200 the urgent-marriage fee is misleading.",
+        "suggestion": "Write: «Базовый processo e registo de casamento civil: €120. Celebração fora da conservatória / fora do horário normal: обычно дополнительный emolumento около €200 плюс возможные расходы deslocação. Для casamento urgente проверяйте актуальную tabela de emolumentos IRN/RERN.»",
+        "confidence": "high",
+        "source": "Regulamento Emolumentar dos Registos e Notariado; IRN — Emolumentos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[5]",
+        "current": "- 2 свидетеля (testemunhas) — PT-резиденты с CC",
+        "problem": "Witnesses are not normally required for a Portuguese civil marriage. They may be needed only in specific situations, for example if identity cannot be verified by the registrar. If used, they do not generally have to be Portuguese residents with Cartão de Cidadão.",
+        "suggestion": "Replace with: «Свидетели обычно не нужны. Conservatória может потребовать testemunhas в отдельных случаях, например для подтверждения identity. Если свидетели нужны, уточняйте требования конкретной Conservatória; обычно достаточно valid ID/passport.»",
+        "confidence": "high",
+        "source": "Código do Registo Civil; IRN — Casamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "- Atestado de residência (если паспорт)",
+        "problem": "This is too categorical. Atestado de residência is not a universal statutory document for everyone using a passport. Required documents depend on nationality, residence status, and the conservatória. Non-residents may marry without Portuguese residence.",
+        "suggestion": "Write: «Documento de identificação válido. Подтверждение адреса/контактов может быть запрошено Conservatória, особенно для non-residents, но atestado de residência не является универсальным обязательным документом для всех с паспортом.»",
+        "confidence": "medium",
+        "source": "IRN — Casamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[4]",
+        "current": "Действителен 6 мес",
+        "problem": "The validity of foreign certificates is not always a universal 6 months. Portuguese marriage authorisation is generally valid for 6 months, but foreign certificates may have their own validity stated by the issuing country; if no validity is stated, Portuguese authorities often apply practical recency requirements. The statement is too absolute.",
+        "suggestion": "Write: «Certificate of capacity / no impediment должен быть актуальным; если в документе указан срок действия — применяется он. На практике Conservatória часто требует recent documents, commonly issued within 6 months; confirm with the registry before ordering.»",
+        "confidence": "medium",
+        "source": "IRN — Casamento; Código do Registo Civil"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[5]",
+        "current": "Apostille + присяжный перевод PT",
+        "problem": "Portugal does not have a single 'sworn translator' system like some countries. Foreign documents generally need apostille/legalisation and translation into Portuguese if not already acceptable, but translations can be certified through legally accepted channels, such as Portuguese consulate, notary, lawyer/solicitador, chamber of commerce, or other accepted certification route. Multilingual/international extracts may not need translation.",
+        "suggestion": "Write: «Apostille/legalização + tradução para português, если документ не на Portuguese/accepted multilingual form. Перевод должен быть certified/legalised by an accepted entity; заранее спросите Conservatória, какой формат они примут.»",
+        "confidence": "high",
+        "source": "Código do Notariado; IRN practice guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3].content[0].items[2]",
+        "current": "Brazil tourists: easier — speak PT, have automatic right под Tratado de Amizade",
+        "problem": "The Treaty of Friendship with Brazil does not give Brazilian tourists an automatic simplified right to marry in Portugal. Marriage rules are the same; Brazilians may benefit practically from Portuguese-language documents or consular access, but the Estatuto de Igualdade/Tratado rights generally require residence/formal status and are not a wedding shortcut.",
+        "suggestion": "Replace with: «Brazilian citizens follow the same marriage rules. Практически может быть проще из-за языка и получения Brazilian civil-registry documents, но Tratado de Amizade сам по себе не является fast-track для tourist marriage.»",
+        "confidence": "high",
+        "source": "Tratado de Amizade, Cooperação e Consulta Portugal-Brasil; IRN — Casamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0]",
+        "current": "Catholic: Concordata Santa Sé-Portugal (1940, revised 2004) — automatic civil recognition",
+        "problem": "Catholic marriage can have civil effects, but it is not simply 'automatic'. It normally requires the preliminary civil process/certificate and transcription/registration in the civil registry. The applicable Concordat is the 2004 Concordat, which replaced the 1940 framework for these purposes.",
+        "suggestion": "Write: «Catholic marriage can have civil effects under the 2004 Concordat, but normally requires processo preliminar/certificado para casamento and later transcrição/registration in the civil registry.»",
+        "confidence": "high",
+        "source": "Concordata entre a Santa Sé e a República Portuguesa 2004; Código do Registo Civil"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1]",
+        "current": "Evangelico / Protestant / Other: registered minister can perform with civil effect (Lei 16/2001)",
+        "problem": "Too broad. Civil effects for non-Catholic religious marriages require a legally recognised religious community/church rooted in Portugal and a minister authorised/registered for this purpose. Not every Protestant/other minister can perform a legally effective marriage.",
+        "suggestion": "Write: «Non-Catholic religious marriage can have civil effects only if the religious community and minister meet the requirements of Lei da Liberdade Religiosa and are recognised/registered for civil-effect marriages. Confirm status before relying on it.»",
+        "confidence": "high",
+        "source": "Lei 16/2001; Código do Registo Civil"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2]",
+        "current": "Muslim, Jewish, Hindu, Buddhist religions also recognized",
+        "problem": "This is overbroad and may mislead readers into thinking every community of those religions can celebrate marriages with civil effect. Recognition depends on the specific religious community and authorised minister, not the religion label.",
+        "suggestion": "Write: «Some non-Catholic religious communities, including communities from Muslim/Jewish/Hindu/Buddhist traditions, may qualify if legally recognised and if the minister is authorised. Check the specific community/minister with Conservatória.»",
+        "confidence": "high",
+        "source": "Lei 16/2001; Código do Registo Civil"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "Same-sex religious ceremonies — only by accepting denominations (some Methodist, Quakers, secular humanists)",
+        "problem": "Secular humanist ceremonies are not religious marriages under Lei da Liberdade Religiosa and do not by themselves create civil effects. Also, even if a denomination conducts a same-sex ceremony, civil effect depends on the community/minister being authorised and the civil preliminary process being completed.",
+        "suggestion": "Write: «Same-sex religious/symbolic ceremonies depend on the denomination/community. For civil effect, the same civil preliminary process and legally authorised celebrant rules apply. Secular/humanist ceremonies are symbolic unless paired with a civil marriage registration.»",
+        "confidence": "high",
+        "source": "Lei 16/2001; Código do Registo Civil; Lei 9/2010"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[7]",
+        "current": "👶 Children — automatic legal recognition если рождены ≥ 180 дней после свадьбы",
+        "problem": "This is an oversimplified and partly wrong statement of Portuguese parentage presumptions. The classic presumption concerns paternity of a husband for children born or conceived during marriage, with detailed rules including conception windows and post-dissolution periods. It does not automatically cover every same-sex, assisted reproduction, surrogacy or foreign-parentage scenario.",
+        "suggestion": "Write: «For different-sex spouses, Portuguese law has presumptions of paternity for children born/conceived during marriage, subject to Civil Code rules. Same-sex parentage, PMA/assisted reproduction, adoption and foreign birth certificates can require separate legal analysis/registration steps.»",
+        "confidence": "high",
+        "source": "Código Civil arts. 1796-1838; Lei da Procriação Medicamente Assistida"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[7]",
+        "current": "👨‍👩‍👧 Дети: legal во всех parental capacities (joint custody, наследование, страховка)",
+        "problem": "As written, this suggests same-sex marriage automatically gives both spouses parental status over all children. Marriage gives spouses family/inheritance rights, but parentage over children depends on biological parentage, adoption, PMA rules, recognition of foreign birth records, or court/registry decisions.",
+        "suggestion": "Write: «Marriage itself does not automatically make both spouses legal parents of an existing child. Parental rights depend on parentage/adoption/PMA/recognition rules. For same-sex couples and foreign birth certificates, get specific legal advice.»",
+        "confidence": "high",
+        "source": "Código Civil; Lei da Procriação Medicamente Assistida"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[8]",
+        "current": "IRS: married couples могут choose «opção pelo englobamento» (joint filing)",
+        "problem": "Wrong tax terminology. 'Englobamento' is the inclusion/aggregation of certain categories of income, not the marital joint-filing option. Married couples choose between separate taxation and joint taxation ('tributação conjunta').",
+        "suggestion": "Write: «IRS: married couples can choose tributação separada or tributação conjunta in the annual Modelo 3. Separately, englobamento is a different election for certain income types such as capital gains/investment income.»",
+        "confidence": "high",
+        "source": "Código do IRS; Autoridade Tributária — IRS"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[6].content[1].items[6]",
+        "current": "Modify regime после марriage — possible but more complex (notarial conditions)",
+        "problem": "This is misleading. Portuguese matrimonial property regimes are generally subject to the principle of immutability after marriage. Spouses cannot freely change from comunhão de adquiridos to separação or comunhão geral by a simple notarial act after marriage, except in limited legally allowed situations.",
+        "suggestion": "Write: «После marriage property regime generally cannot be freely changed because of the principle of imutabilidade das convenções antenupciais/regime de bens. Choose the regime before the wedding; post-marriage changes are only possible in limited legal situations and need legal advice.»",
+        "confidence": "high",
+        "source": "Código Civil art. 1714"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[1].items[1]",
+        "current": "Comunhão geral: всё shared, even pre-marriage assets",
+        "problem": "Incomplete in a legally important way. Comunhão geral is not always available; for example, it is prohibited when either spouse has non-common children. It also has statutory exclusions.",
+        "suggestion": "Write: «Comunhão geral: broad community of assets, including many pre-marriage assets, but not literally everything and it is legally prohibited in some cases, notably when either spouse has children who are not common to both spouses.»",
+        "confidence": "high",
+        "source": "Código Civil art. 1699"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[1].items[2]",
+        "current": "Separação total: ничего не shared, каждый владеет своим",
+        "problem": "The description is broadly understandable but misses mandatory separation-of-property cases. In Portugal separação de bens is mandatory in some situations, notably if a spouse is 60 or older, or for marriages celebrated without the preliminary marriage process.",
+        "suggestion": "Add: «Separação de bens can be mandatory in specific cases, including marriage by a person aged 60+ and certain marriages without the preliminary process.»",
+        "confidence": "high",
+        "source": "Código Civil art. 1720"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "Outside venue extra: 50-150",
+        "problem": "This range is likely too low and misleading. The official emolument for celebration outside the registry office or outside normal opening hours is commonly €200, separate from the €120 base process/registration fee, with possible travel/venue costs.",
+        "suggestion": "Change to: «Outside registry / outside normal hours: official extra fee commonly €200 + possible travel/venue costs; confirm with IRN fee table and the selected Conservatória.»",
+        "confidence": "high",
+        "source": "Regulamento Emolumentar dos Registos e Notariado; IRN — Emolumentos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4]",
+        "current": "Bigamy — criminal в PT, до 2 лет ареста",
+        "problem": "Terminology is imprecise. The penalty is imprisonment up to 2 years or fine up to 240 days, not 'arrest'.",
+        "suggestion": "Write: «Bigamy is a crime in Portugal: imprisonment up to 2 years or fine up to 240 days.»",
+        "confidence": "high",
+        "source": "Código Penal art. 247"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[1].content[0].items[3]",
+        "current": "Из БР: cartório civil → apostille в МINRE",
+        "problem": "This is ambiguous and likely wrong if 'БР' means Brazil. Brazilian apostilles are issued by authorised cartórios under CNJ rules, not by the foreign ministry as a routine step. If 'БР' means Belarus, 'cartório civil' is the wrong terminology.",
+        "suggestion": "Clarify the country. For Brazil: «Brazil: obtain recent certidão from cartório de registro civil and apostille at an authorised cartório; then translate/certify if required.» For Belarus/Russia/etc., give the local apostille authority separately.",
+        "confidence": "medium",
+        "source": "CNJ — Apostila da Haia; Hague Apostille Convention authorities"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "IRN — Casamento Civil — https://irn.justica.gov.pt/",
+        "problem": "The source URL is only the IRN homepage, not the specific marriage page or fee table. For a sensitive legal guide this is too vague and makes verification hard.",
+        "suggestion": "Use specific official pages, e.g. IRN/Justiça.gov.pt page for 'Casamento' and the IRN emoluments/price list page, plus Código do Registo Civil and RERN.",
+        "confidence": "high",
+        "source": "IRN; Justiça.gov.pt"
+      }
+    ],
+    "missing_topics": [
+      "Explain that the ordinary preliminary marriage process authorisation is valid for 6 months after approval.",
+      "Mention that some countries do not issue a certificate of capacity to marry; Conservatória may accept substitute documents or require a declaration/consular certificate depending on nationality.",
+      "Add a caveat that foreign same-sex marriages or Portuguese same-sex marriages may not be recognised by the couple's home country.",
+      "Add a section on name rules: in Portugal a spouse may generally add up to two surnames from the other spouse, but marriage is not an automatic surname change.",
+      "Add official fee-table source: Regulamento Emolumentar dos Registos e Notariado / IRN emoluments.",
+      "Add Código do Registo Civil as a source, because procedure is governed there, not only by the Civil Code.",
+      "Clarify document translation/legalisation routes and that multilingual civil-status certificates may reduce translation needs.",
+      "Mention mandatory separation-of-property cases and limits on choosing comunhão geral before recommending property regimes."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6116,
+    "prompt_tokens": 3226,
+    "total_tokens": 9342
+  },
+  "model": "gpt-5.5"
+}

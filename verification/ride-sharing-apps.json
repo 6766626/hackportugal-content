@@ -1,0 +1,123 @@
+{
+  "guideId": "ride-sharing-apps",
+  "categoryId": "auto_trips",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по структуре, но содержит несколько фактически неверных или вводящих в заблуждение утверждений про тарифы такси, аэропортовые цены, чаевые, покрытие Uber/Bolt и правовую ссылку на TVDE.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Uber и Bolt — лидеры. Работают по всей стране.",
+        "problem": "Uber/Bolt не работают равномерно «по всей стране»: покрытие сильно лучше в Lisboa, Porto, Algarve и крупных городах, но в малых городах, interior, сельских районах и на островах доступность может быть ограниченной или отсутствовать.",
+        "suggestion": "Заменить на: «Uber и Bolt — основные TVDE-приложения в крупных городах и туристических зонах; в сельских районах, interior и на островах покрытие может быть слабым или отсутствовать — проверяйте app заранее.»",
+        "confidence": "high",
+        "source": "Uber/Bolt service coverage pages; Lei 45/2018 TVDE regime"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "Tariff 1 (день) 3.25€ стартовая + 0.47€/km. Tariff 2 (ночь, выходные) +20%. Аэропорт — фиксированные цены по направлению.",
+        "problem": "Описание тарифов такси чрезмерно упрощено и частично неверно. В Португалии тарифы зависят от urban/interurban, времени, дня недели, багажа/животных, ожидания и иногда tolls. Число 0.47€/km без контекста вводит в заблуждение: для городской поездки пассажир обычно видит не такую простую формулу «старт + 0.47/км». Утверждение про фиксированные цены из аэропорта неверно как общее правило: обычные такси едут по счётчику; фиксированная цена возможна только через prepaid/voucher или заранее согласованный/специальный сервис.",
+        "suggestion": "Заменить на: «Официальное такси едет по счётчику по утверждённым тарифам; цена зависит от городской/межмуниципальной поездки, времени суток/выходных, багажа, ожидания и tolls. В аэропорту обычное такси обычно едет по счётчику; фиксированная цена бывает только через официальный voucher/prepaid service или заранее согласованную услугу.» Не указывать формулу тарифа без ссылки на актуальную таблицу тарифов.",
+        "confidence": "high",
+        "source": "IMT taxi tariff information; DGAE/ANTRAL/FPT taxi price conventions; Lisbon Airport taxi/voucher information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Aeroporto → Baixa (Lx): Uber/Bolt 10-15€, Taxi 15-20€, FreeNow ~15€",
+        "problem": "Цены могут быть правдоподобными как ориентир, но связаны с предыдущим неверным тезисом о фиксированных аэропортовых ценах. Для Lisbon Airport нужно явно сказать, что taxi по счётчику и могут добавляться багаж/tolls/ночной или праздничный тариф; TVDE pickup может быть в выделенной зоне, а цена зависит от surge.",
+        "suggestion": "Добавить caveat: «Ориентир, не фиксированная цена. Такси из аэропорта — по счётчику плюс применимые доплаты; Uber/Bolt — динамическая цена и pickup в designated TVDE area.»",
+        "confidence": "high",
+        "source": "Lisbon Airport official taxi information; IMT taxi rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[4]",
+        "current": "Чаевые: 5-10% принято в PT для Uber/Bolt (в app можно оставить)",
+        "problem": "В Португалии чаевые в такси/TVDE не являются обязательными и не считаются «принятыми» в смысле ожидаемой нормы 5–10%. Чаевые возможны, но обычно optional/round-up/маленькая сумма за хороший сервис.",
+        "suggestion": "Заменить на: «Чаевые необязательны. Можно округлить сумму или оставить небольшие чаевые в app за хороший сервис, но 5–10% не ожидаются как правило.»",
+        "confidence": "high",
+        "source": "General consumer practice; Uber/Bolt app tipping policies"
+      },
+      {
+        "severity": "major",
+        "where": "sources[2]",
+        "current": "Decreto-Lei (декрет-закон) 45/2018 — регулирование TVDE (Uber/Bolt), url: https://diariodarepublica.pt/dr/detalhe/decreto-lei/45-2018",
+        "problem": "Неверный тип акта и, вероятно, неверная ссылка. Режим TVDE установлен Lei n.º 45/2018, de 10 de agosto, а не Decreto-Lei 45/2018.",
+        "suggestion": "Заменить title и URL на: «Lei n.º 45/2018, de 10 de agosto — regime jurídico da atividade de transporte individual e remunerado de passageiros em veículos descaracterizados a partir de plataforma eletrónica (TVDE)», URL: «https://diariodarepublica.pt/dr/detalhe/lei/45-2018»",
+        "confidence": "high",
+        "source": "Lei n.º 45/2018, de 10 de agosto"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "Такси (официальные чёрно-зелёные) через app.",
+        "problem": "Официальные такси в Португалии не только чёрно-зелёные: очень распространены beige/ivory taxis. Формулировка может создать ложное впечатление, что бежевое такси неофициальное.",
+        "suggestion": "Заменить на: «Официальные такси через app: чаще бежевые/ivory, иногда старого чёрно-зелёного цвета.»",
+        "confidence": "high",
+        "source": "IMT taxi licensing/vehicle identification rules"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "FreeNow — такси с водителем (официальные такси).",
+        "problem": "Фраза «такси с водителем» звучит путано: любое такси с водителем. Важнее объяснить отличие от Uber/Bolt: FreeNow в Португалии используется прежде всего для заказа licensed taxis, а не обычного TVDE.",
+        "suggestion": "Заменить на: «FreeNow — app для заказа лицензированных такси; цена обычно по таксометру/правилам такси, а не TVDE-тариф Uber/Bolt.»",
+        "confidence": "medium",
+        "source": "FreeNow Portugal service description"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4].content[0].text",
+        "current": "Lisboa-Porto может быть 15-25€ (дешевле автобуса).",
+        "problem": "«Дешевле автобуса» часто неверно: автобусы Lisboa–Porto у FlixBus/Rede Expressos/Gipsyy нередко стоят ниже 15–25€, особенно при ранней покупке или акциях.",
+        "suggestion": "Заменить на: «Lisboa–Porto часто 15–25€; может быть дешевле поезда, но автобус по акциям нередко дешевле — сравнивайте с Rede Expressos/FlixBus.»",
+        "confidence": "high",
+        "source": "Rede Expressos/FlixBus public fares"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1]",
+        "current": "Uber имеет Uber Pool (poolshare) — дешевле но медленнее (сейчас не везде)",
+        "problem": "Название Uber Pool устарело во многих рынках; в Португалии наличие shared rides нужно проверять по городу и дате. В таком виде совет может вводить в заблуждение, если опции нет в приложении.",
+        "suggestion": "Заменить на: «Если в app доступна опция shared ride/UberX Share, она может быть дешевле, но медленнее; наличие зависит от города и текущего запуска сервиса.»",
+        "confidence": "medium",
+        "source": "Uber Portugal app/service availability"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[5]",
+        "current": "Оплата: любая карта международная + MB Way",
+        "problem": "«Любая карта международная» слишком категорично: отдельные иностранные карты могут не проходить из-за 3-D Secure, санкций, банка-эмитента или antifraud. Набор способов оплаты также различается между Uber, Bolt, FreeNow и BlaBlaCar.",
+        "suggestion": "Заменить на: «Обычно работают международные Visa/Mastercard и иногда MB Way/PayPal/Apple Pay/Google Pay — зависит от app. Иностранные карты могут отклоняться, лучше иметь запасной способ оплаты.»",
+        "confidence": "high",
+        "source": "Uber/Bolt/FreeNow/BlaBlaCar payment help pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[6]",
+        "current": "Если такси обсчитал — запомните номер и жалуйтесь в Autoridade de Mobilidade e Transportes",
+        "problem": "AMT — важный регулятор, но практический consumer route неполный: у такси должен быть livro de reclamações; жалобу можно подать через Livro de Reclamações Electrónico, а также полезно просить recibo/fatura и фиксировать matrícula/licença. Для некоторых вопросов компетентен IMT/муниципалитет/ASAE/полиция в зависимости от нарушения.",
+        "suggestion": "Заменить на: «Если такси обсчитало: попросите recibo/fatura, запишите matrícula/licença, подайте жалобу в Livro de Reclamações/Livro de Reclamações Electrónico; при необходимости — AMT/IMT или полиция в зависимости от ситуации.»",
+        "confidence": "high",
+        "source": "Livro de Reclamações Electrónico; IMT/AMT consumer information"
+      }
+    ],
+    "missing_topics": [
+      "Уточнить разницу между TVDE Uber/Bolt и лицензированным taxi: TVDE не может брать пассажира с улицы без заказа через app.",
+      "Добавить caveat про airport pickup zones для Uber/Bolt и про то, что taxi из аэропорта обычно едет по счётчику, а fixed fare — только voucher/prepaid/заранее согласованная услуга.",
+      "Добавить официальную ссылку на актуальные taxi tariffs/price convention, а не только общие сайты AMT/IMT.",
+      "Упомянуть, что official taxis могут быть beige/ivory или чёрно-зелёные.",
+      "Добавить практический порядок жалобы: recibo/fatura, matrícula/licença, Livro de Reclamações Electrónico.",
+      "Добавить предупреждение о tolls и extra charges для дальних поездок на такси/TVDE."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3965,
+    "prompt_tokens": 1845,
+    "total_tokens": 5810
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,162 @@
+{
+  "guideId": "navegante-lisboa",
+  "categoryId": "public_transport",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has correct core pass prices, but several practical claims are materially wrong or outdated: youth/student discounts, card issuance/validity, digital wallet support, monthly validity, and tourist ticket prices.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Дети до 12 — бесплатно (с 2024), дети 13–18 и студенты — 20 €.",
+        "problem": "As of 2026 this is misleading/outdated. In the current regime, students aged 4–18 and higher-education students up to 23 are generally eligible for free monthly passes, subject to proof/enrolment rules. The €20 figure is not the current general student price.",
+        "suggestion": "Write instead: \"Дети/школьники и студенты: passe gratuito для учащихся 4–18 и студентов до 23 лет при подтверждении matrícula/eligibility; без этого применяются обычные тарифы/спецрежимы. Проверяйте правила на navegante.pt.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 21/2024; navegante.pt passe gratuito estudantes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[1]",
+        "current": "13–18 + студенты до 23 — 20 €/мес",
+        "problem": "Outdated/misleading for 2026: eligible students 4–18 and higher-education students up to 23 have free passes under the current national free-pass regime. €20 is not the general student price.",
+        "suggestion": "Replace with: \"Estudantes 4–18 e ensino superior até 23 — gratuito при ежегодном/периодическом подтверждении matrícula; детали зависят от статуса и документов.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 21/2024; navegante.pt"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[0]",
+        "current": "Дети до 12 лет — БЕСПЛАТНО (с 2024)",
+        "problem": "The date/cut-off is imprecise. In AML the free child pass existed before 2024; 2024 is mainly relevant to the broader national free student-pass expansion. Also the product is usually framed around children/students and requires a personalised card, not just \"free by age\" at the gate.",
+        "suggestion": "Write: \"Дети до 12/13 лет и учащиеся — бесплатно через персонализированный navegante при оформлении соответствующего профиля; с 2024 расширены бесплатные passes для студентов.\"",
+        "confidence": "medium",
+        "source": "navegante.pt; Decreto-Lei n.º 21/2024"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[2]",
+        "current": "Senior 65+ — 20 €/мес",
+        "problem": "This is broadly true for the AML-wide +65 tariff, but incomplete: some municipalities, especially Lisboa for eligible residents, have municipal programmes making the pass free for residents aged 65+. Without the caveat, readers in Lisbon may overpay or miss the municipal benefit.",
+        "suggestion": "Write: \"Senior 65+ — обычно 20 €/мес по тарифу navegante +65; в Lisboa и некоторых municípios для резидентов могут быть бесплатные municipal programmes — проверяйте по своему município.\"",
+        "confidence": "high",
+        "source": "navegante.pt; Câmara Municipal de Lisboa free public transport programme"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "{\"label\":\"Дети 13–18 / студенты\",\"amountEUR\":20,\"note\":\"€/мес\"}",
+        "problem": "The cost table repeats the outdated €20 student/youth amount. In 2026 eligible students should be listed as free, with documentation caveats.",
+        "suggestion": "Change amountEUR to 0 and note: \"для eligible students 4–18 / ensino superior até 23 при подтверждении matrícula; иначе обычный тариф\".",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 21/2024; navegante.pt"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[2]",
+        "current": "Первая карта: 6 € + первая месячная",
+        "problem": "The standard personalised navegante card fee is not reliably €6 in 2026. The usual published prices are higher for normal/urgent issuance, and free/discounted issuance may apply only in specific profiles or campaigns.",
+        "suggestion": "Write: \"Персонализированная карта: обычно около 7 € при обычном выпуске и около 12 € при срочном; точную цену смотрите в тарифе navegante/оператора.\"",
+        "confidence": "high",
+        "source": "navegante.pt card/tariff information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "Выдача моментально",
+        "problem": "Misleading. Personalised navegante cards are not generally issued instantly at every Metro/Carris location. Normal issuance can take several working days; urgent issuance is available only at selected points and costs more.",
+        "suggestion": "Write: \"Обычный выпуск занимает несколько рабочих дней; срочный/на месте — только в отдельных пунктах и дороже.\"",
+        "confidence": "high",
+        "source": "navegante.pt; Metropolitano de Lisboa customer support pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[4]",
+        "current": "Карта действительна бессрочно",
+        "problem": "Personalised navegante/Lisboa Viva cards have an expiry date printed/encoded on the card; they are not indefinite.",
+        "suggestion": "Write: \"Карта действует до указанной на ней даты; затем её нужно заменить/обновить.\"",
+        "confidence": "high",
+        "source": "navegante.pt card FAQ"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[3]",
+        "current": "С 2025 Navegante интегрирован. Navegante Wallet Pass в iPhone/Android — приложил к туринкету, проехал. Удобно, заменяет пластик.",
+        "problem": "This appears false/misleading. There is no general Apple Wallet/Google Pay Navegante monthly-pass product that replaces the personalised plastic card across Metro/Carris/CP/Fertagus/Transtejo/MTS. Contactless bank-card payment exists only in limited contexts/products and is not the same as a navegante monthly pass.",
+        "suggestion": "Remove this section or replace with: \"Apple Pay/Google Pay с банковской картой может работать только там, где оператор поддерживает contactless ticketing, и обычно как разовая поездка, не как monthly navegante pass. Для passe mensal нужен personalised navegante/card/app-supported top-up.\"",
+        "confidence": "high",
+        "source": "navegante.pt; Metropolitano de Lisboa contactless bank card information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "Скачать «Navegante» app (Android / iOS). Привязать существующую карту через NFC или создать digital wallet. Пополнение через MB Way, карта.",
+        "problem": "The top-up/consultation part is plausible, but \"создать digital wallet\" is misleading if it implies a fully virtual pass usable at validators instead of the physical personalised card. The official app functionality should be described narrowly unless verified for all operators.",
+        "suggestion": "Write: \"Через app можно управлять/пополнять карту при поддержке NFC и доступных способов оплаты; не рассчитывайте, что телефон полностью заменит карту на всех видах транспорта.\"",
+        "confidence": "medium",
+        "source": "navegante.pt app information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "💰 Месяц считается с числа активации (не календарный)",
+        "problem": "Wrong for standard Navegante monthly passes. The €30/€40 passes are monthly calendar products, not rolling 30-day passes from activation date.",
+        "suggestion": "Write: \"Passe mensal действует на календарный месяц; обычно следующий месяц можно купить ближе к концу текущего месяца.\"",
+        "confidence": "high",
+        "source": "navegante.pt tariff conditions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "🔄 Продление за 5 дней до окончания — без перерыва",
+        "problem": "The timing is misleading. Monthly pass sales/renewals are tied to the monthly sales window, commonly from around the 26th for the following month, not a generic \"5 days before expiry\" rule.",
+        "suggestion": "Write: \"Пополнение на следующий месяц обычно открывается в конце текущего месяца; проверяйте окно продаж у Navegante/оператора.\"",
+        "confidence": "high",
+        "source": "navegante.pt tariff conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "passe de 24h (6.80 €)",
+        "problem": "The 24-hour Carris/Metro ticket price is likely outdated for 2026; recent tariff tables list a higher value than €6.80. This should not be hard-coded without checking the current tariff table.",
+        "suggestion": "Write: \"passe de 24h Carris/Metro — около 7 €; точную цену смотрите в тарифе navegante/Metro/Carris.\"",
+        "confidence": "medium",
+        "source": "navegante.pt tariff table"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "Поездка ~1.80 € метро, 2 € автобус. Скидка 15 % от обычного тарифа.",
+        "problem": "Over-simplified and partly misleading. Zapping fares differ by operator/mode and are not a flat 15% discount. Carris/Metro zapping has its own tariff, CP/Fertagus/Transtejo have different fare rules.",
+        "suggestion": "Write: \"Zapping — предоплаченный баланс; цена зависит от оператора и маршрута. Для Carris/Metro это дешевле разового билета, но не универсальная скидка 15%.\"",
+        "confidence": "high",
+        "source": "navegante.pt tariff table"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[0].text",
+        "current": "Только в ВАШЕМ муниципалитете.",
+        "problem": "Misleading wording. Navegante Municipal is a pass valid for one selected municipality; it is not necessarily limited to the municipality where the buyer resides, except where a local benefit/free programme imposes residency conditions.",
+        "suggestion": "Write: \"Действует в одном выбранном município; municipal free/discount programmes may require residence in that município.\"",
+        "confidence": "high",
+        "source": "navegante.pt"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include Navegante, Metro, Carris, CP, AMT only.",
+        "problem": "For claims about youth/student free passes and senior/free municipal programmes, the guide should cite the specific legal/official sources, not only general operator homepages.",
+        "suggestion": "Add sources: Decreto-Lei n.º 21/2024 for free student passes; Câmara Municipal de Lisboa page for free resident passes; Navegante tariff table/FAQ URL rather than only the homepage.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 21/2024; Câmara Municipal de Lisboa; navegante.pt tariff/FAQ pages"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that standard monthly Navegante passes are calendar-month products, not rolling 30-day products.",
+      "Explain current free-pass rules for eligible students aged 4–18 and higher-education students up to 23, including matrícula/proof requirements.",
+      "Mention Lisbon municipal free-pass programmes for eligible residents, especially 65+ residents, separately from the general AML +65 tariff.",
+      "Clarify that Apple Pay/Google Pay/contactless bank cards are not the same as a Navegante monthly pass and are only accepted for specific operators/products.",
+      "Add practical details on personalised card issuance time, urgent issuance, expiry date, and where cards can actually be issued."
+    ]
+  },
+  "model": "gpt-5.5"
+}

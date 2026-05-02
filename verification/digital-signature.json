@@ -1,0 +1,150 @@
+{
+  "guideId": "digital-signature",
+  "categoryId": "digital_gov",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it overstates what a Portuguese QES/CMD can replace, conflates authentication with signing, and contains several misleading use-case and source/URL claims.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "С QES можно подписывать контракты аренды, нотариальные документы, подавать в AIMA/Finanças/IRN без бумаги.",
+        "problem": "Overbroad and misleading. A qualified electronic signature does not generally replace notarisation/authentication of documents where Portuguese law requires a notarial act, lawyer/solicitor authentication, certified copy,ille, biometrics, or in-person appearance. AIMA processes especially often still require appointments, biometrics and/or original documents; QES is not a general 'paperless AIMA' solution.",
+        "suggestion": "Write instead: \"QES можно использовать для подписания частных документов, например договоров аренды или заявлений, если конкретная процедура принимает электронную форму. Но она не заменяет нотариальное удостоверение/аутентификацию, апостиль, биометрию или личную явку там, где это требуется; для AIMA/IRN/Finanças нужно проверять правила конкретной услуги.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 910/2014 Article 25; Portuguese notarial/form requirements depend on the specific act"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].text",
+        "current": "Электронная подпись в ЕС регулируется регламентом eIDAS (Regulation (EU) 910/2014).",
+        "problem": "Incomplete as of 2026. Regulation 910/2014 is still the base eIDAS regulation, but it has been materially amended by Regulation (EU) 2024/1183, usually called eIDAS 2.0.",
+        "suggestion": "Write: \"Электронная подпись в ЕС регулируется eIDAS — Regulation (EU) 910/2014, с изменениями, внесёнными Regulation (EU) 2024/1183 (eIDAS 2.0).\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 2024/1183"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[3]",
+        "current": "Qualificada (QES) — AES + сертификат QTSP + устройство QSCD.",
+        "problem": "Simplified to the point of being slightly misleading. A QES is an advanced electronic signature created by a qualified electronic signature creation device and based on a qualified certificate. For remote signing such as CMD, the QSCD may be a server-side/remote qualified signature creation device, not necessarily a physical device held by the user.",
+        "suggestion": "Write: \"Qualificada (QES) — advanced signature, created by/under a QSCD, based on a qualified certificate issued by a QTSP; in CMD this is implemented as remote qualified signing.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 910/2014 Articles 3, 26, 28, 29"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Для граждан PT с CC (нерезидентам эта опция недоступна — у них ВНЖ без чипа подписи).",
+        "problem": "Terminology is wrong/misleading. The relevant distinction is not resident vs non-resident, but Portuguese citizen vs foreign resident. Portuguese citizens living abroad can have a Cartão de Cidadão. Foreign residents generally have residence cards/titles, not a Portuguese citizen card, but many foreigners can still use CMD for authentication/signature.",
+        "suggestion": "Write: \"CC-подпись доступна владельцам Cartão de Cidadão, то есть прежде всего гражданам Португалии, включая живущих за границей. Иностранные резиденты обычно не получают CC; для них практический государственный вариант — CMD, если она активирована.\"",
+        "confidence": "high",
+        "source": "ePortugal / IRN rules on Cartão de Cidadão; Autenticação.gov rules on CMD"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[3].content[0].items",
+        "current": "PIN Autenticação (вход на госпорталы) — 4 цифры; PIN Assinatura (подпись) — 4 цифры, отдельный; PUK (разблокировка) — 8 цифр, в конверте CC; Забыли PIN → до 3 попыток → блок → разблокировать на eportugal.gov.pt с PUK",
+        "problem": "Too categorical and may be inaccurate for different generations of Cartão de Cidadão and activation-letter formats. PIN/PUK handling changed over time, and unblocking/changing is normally done through the official Autenticação.gov application or at a service desk, depending on the case; saying simply 'on eportugal.gov.pt with PUK' is misleading.",
+        "suggestion": "Write more cautiously: \"PIN-коды и PUK зависят от поколения CC и письма с кодами. После нескольких неправильных попыток PIN блокируется; разблокировка/смена делается через приложение Autenticação.gov с картой и PUK либо в service desk, если онлайн-вариант недоступен.\"",
+        "confidence": "medium",
+        "source": "Autenticação.gov help pages on Cartão de Cidadão PIN/PUK"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items",
+        "current": "📋 Декларация IRS и другие fiscal declarations; 🏥 Доступ к медицинским записям SNS24",
+        "problem": "This conflates electronic signature with electronic authentication. Submitting IRS declarations and accessing SNS24 records normally use login/authentication via NIF/password, CMD or CC, not necessarily a qualified electronic signature on a document.",
+        "suggestion": "Separate the concepts: \"CMD/CC бывают двух разных режимов: autenticação/login на порталы и assinatura digital/QES для подписания документов. IRS, Portal das Finanças and SNS24 are mainly authentication use cases; they are not examples of documents that normally require QES.\"",
+        "confidence": "high",
+        "source": "Autenticação.gov; Portal das Finanças; SNS24"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[8]",
+        "current": "📜 Power of attorney (procuração) с цифровой подписью",
+        "problem": "Overbroad. Some powers of attorney may be simple private documents, but many Portuguese procurações require specific form, notarisation/authentication, lawyer/solicitor/notary intervention, special wording, or registration depending on the act being delegated. QES alone is not universally enough.",
+        "suggestion": "Write: \"Некоторые простые procurações могут быть подписаны электронно, если получатель принимает такую форму. Но для сделок с недвижимостью, корпоративных действий, нотариальных/регистрационных действий и представительства перед отдельными органами часто требуется нотариальное удостоверение или authentication by notary/lawyer/solicitor; проверяйте форму конкретной procuração.\"",
+        "confidence": "high",
+        "source": "Portuguese Civil Code and notarial/authentication practice; IRN notarial guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "⚖️ Decisões judiciais — процессуальные документы",
+        "problem": "The wording is wrong and misleading. 'Decisões judiciais' are judicial decisions issued by courts, not documents an expat signs with CMD. Filing procedural documents in court is usually done by lawyers/solicitors through Citius or specific professional systems, not simply by any citizen signing a PDF with CMD.",
+        "suggestion": "Remove this bullet or replace with: \"Некоторые заявления/документы для органов правосудия могут приниматься в электронном виде, но судебные процессуальные документы обычно подаются через установленные court/professional platforms and rules.\"",
+        "confidence": "high",
+        "source": "Portuguese court electronic filing practice / Citius"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "🏢 Сделки с компаниями (Empresa na Hora)",
+        "problem": "Empresa na Hora is primarily the immediate company-incorporation service and is not a generic category of company transactions. For online company incorporation the relevant service is closer to Empresa Online, and the accepted signature/authentication methods depend on the service.",
+        "suggestion": "Write: \"Некоторые corporate/registry services, for example Empresa Online or specific IRN/Registo Comercial online procedures, may accept CC/CMD or other qualified certificates; check the rules of the specific service.\"",
+        "confidence": "medium",
+        "source": "ePortugal / IRN / Empresa Online service descriptions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].text",
+        "current": "Проверка: подписанный PDF можно валидировать на любом ЕС-портале (DSS Validator от EU Commission — dss.nowina.lu).",
+        "problem": "Wrong/overstated. Not 'any EU portal' validates every signed PDF. Also dss.nowina.lu is not the canonical official European Commission DSS validator URL; it is commonly associated with a DSS demo/contractor environment. The official EU DSS demo is hosted under the European Commission digital building blocks domain, and production validation should rely on trusted validation services or software using EU Trusted Lists.",
+        "suggestion": "Write: \"Проверять можно через Autenticação.gov, Adobe Acrobat/EUTL-aware tools, national validators, or the European Commission DSS demo at the official EC Digital Building Blocks site. Not every EU portal validates every format.\"",
+        "confidence": "high",
+        "source": "European Commission Digital Signature Services (DSS); EU Trusted Lists"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].text",
+        "current": "commercial quality trust service providers",
+        "problem": "Terminology error: the correct term is 'qualified trust service providers' (QTSP), not 'quality trust service providers'.",
+        "suggestion": "Replace with \"commercial qualified trust service providers\" / \"квалифицированные поставщики доверительных услуг\".",
+        "confidence": "high",
+        "source": "Regulation (EU) 910/2014 terminology"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[0]",
+        "current": "DigitalSign (PT) — крупнейший коммерческий QTSP",
+        "problem": "The claim 'largest' is unsupported and may be contestable. For a practical guide, it is safer to list examples without ranking unless sourced.",
+        "suggestion": "Write: \"DigitalSign (PT) — example of a Portuguese QTSP\" or cite a reliable source for market ranking.",
+        "confidence": "medium",
+        "source": "EU Trusted List"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[3]",
+        "current": "Список всех QTSP в ЕС — EU Trust List (eidas.ec.europa.eu/efda/browse)",
+        "problem": "The URL is not the safest/current deep link for the EU Trusted List Browser and may be incomplete or redirect-dependent.",
+        "suggestion": "Use the official Trusted List Browser URL: \"https://eidas.ec.europa.eu/efda/tl-browser/\" or the European Commission Trusted List Browser page.",
+        "confidence": "medium",
+        "source": "European Commission EU Trusted List Browser"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include Autenticação.gov, eIDAS 910/2014, Decreto-Lei 12/2021, AMA.",
+        "problem": "For claims about EU-wide recognition, QTSPs and validation, the guide should cite the EU Trusted List Browser and eIDAS 2.0 amendment. For CMD/CC signature mechanics it should cite the specific Autenticação.gov signature/CMD/CC help pages, not only the homepage.",
+        "suggestion": "Add sources: Regulation (EU) 2024/1183; European Commission EU Trusted List Browser; Autenticação.gov pages for Assinatura Digital with CMD and Cartão de Cidadão; Autenticação.gov signature validation page.",
+        "confidence": "high",
+        "source": "Regulation (EU) 2024/1183; European Commission EU Trusted List Browser; Autenticação.gov"
+      }
+    ],
+    "missing_topics": [
+      "Clear distinction between CMD/CC authentication/login and qualified electronic signing of a document",
+      "Caveat that QES does not replace notarisation, certified copies, apostilles, biometrics or in-person formalities where the law or the receiving entity requires them",
+      "Foreign-citizen CMD eligibility and activation methods, because the article is for expats",
+      "eIDAS 2.0 / Regulation (EU) 2024/1183 update",
+      "Official EU Trusted List Browser and official/current validator references",
+      "Practical note that the recipient/platform must accept the electronic format and signature profile even if QES has EU legal effect"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4408,
+    "prompt_tokens": 2762,
+    "total_tokens": 7170
+  },
+  "model": "gpt-5.5"
+}

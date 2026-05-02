@@ -1,0 +1,215 @@
+{
+  "guideId": "via-verde-full",
+  "categoryId": "auto_trips",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по теме, но содержит несколько существенных ошибок про сроки постоплаты, размер штрафов, Via Verde Digital/Visitors, прокатные авто и последствия неоплаты.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Via Verde Portugal — концессия Brisa / Ascendi / IP (Infraestruturas de Portugal).",
+        "problem": "Via Verde не является «концессией Brisa / Ascendi / IP». Это система/оператор электронного взимания платы и мобильных сервисов. Brisa, Ascendi и Infraestruturas de Portugal — разные концессионеры/операторы дорог и инфраструктуры; IP не равен Via Verde.",
+        "suggestion": "Написать: «Via Verde — португальская система электронного взимания дорожных сборов через identificador, используемая на платных дорогах разных концессионеров, включая Brisa, Ascendi, Infraestruturas de Portugal и др.»",
+        "confidence": "high",
+        "source": "Via Verde; IMT/Infraestruturas de Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "Доступна версия «Via Verde Digital» — виртуальный транспондер в приложении без устройства (работает в PT через распознавание номера)",
+        "problem": "Это вводит в заблуждение. Для оплаты motorway tolls Via Verde обычно требуется физический identificador. Распознавание номера используется для отдельных сервисов типа парковок/заправок/некоторых мобильных услуг, но не является универсальной заменой транспондера для платных автомагистралей.",
+        "suggestion": "Удалить или заменить на: «Для автоматической оплаты portagens на автострадах нужен identificador. Некоторые сервисы Via Verde в приложении могут работать по matrícula, но это не заменяет устройство для tolls, если Via Verde прямо не предлагает такой продукт для конкретного случая.»",
+        "confidence": "high",
+        "source": "Via Verde — условия adesão/identificador"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Специальный тариф для туристов. Получить в аэропортах Lisboa/Porto/Faro или терминалах CTT. Привязка — к банковской карте. Оплата по факту проездов, без подписки.",
+        "problem": "Описание Via Verde Visitors слишком упрощено и местами сомнительно: условия, наличие пунктов выдачи, комиссии/депозит/срок действия и каналы получения менялись. Для туристов с иностранными номерами критически важно упомянуть официальные альтернативы: EASYToll, TollCard, TollService и предоплату/оплату через специализированные порталы. CTT-постоплата не является универсальным решением для иностранных номеров.",
+        "suggestion": "Написать: «Для иностранного автомобиля проверьте актуальный продукт Via Verde Visitors на viaverde.pt и альтернативы для foreign plates: EASYToll, TollCard, TollService / pagamentodeportagens.pt. Условия выдачи, депозит/комиссии и срок действия зависят от продукта и канала покупки.»",
+        "confidence": "high",
+        "source": "Via Verde; Portugal Tolls / pagamentodeportagens.pt; CTT Portagens"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0]",
+        "current": "💶 Активация identificador: ~5–10 € единоразово (с возвратом залога при расторжении)",
+        "problem": "Формулировка про «активацию» и «возвратный залог» выглядит устаревшей/неточной. У Via Verde действуют разные планы и комиссии; не все платежи являются возвратным залогом, а preço/adesão зависит от тарифа и кампаний.",
+        "suggestion": "Заменить на: «Стоимость зависит от выбранного плана Via Verde и актуального preçário: может быть ежемесячная абонплата, комиссия за adesão/ativação или другие условия. Проверяйте preçário на viaverde.pt перед оформлением.»",
+        "confidence": "medium",
+        "source": "Via Verde — Preçário"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1]",
+        "current": "💶 Абонплата: ~1.75 €/мес за устройство",
+        "problem": "Указание одной абонплаты как универсальной вводит в заблуждение: у Via Verde несколько планов, цена зависит от продукта, использования и акций. Значение 1,75 €/мес может не соответствовать актуальному тарифу на дату проверки для всех клиентов.",
+        "suggestion": "Написать: «Абонплата зависит от плана Via Verde; ориентируйтесь на актуальный preçário на viaverde.pt, а не на фиксированную сумму.»",
+        "confidence": "medium",
+        "source": "Via Verde — Preçário"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "💶 Тариф toll — фиксированный per-участок (например Лиссабон → Порту через A1 ~22 €)",
+        "problem": "Сумма Лиссабон—Порту по A1 около 22 € может быть устаревшей/заниженной в зависимости от класса автомобиля, въезда/выезда и ежегодной индексации. В тексте нет оговорки, что это для Classe 1 и конкретного маршрута.",
+        "suggestion": "Написать: «например Lisboa–Porto по A1 для Classe 1 — ориентировочно около 22–25 €, точную сумму считайте в simulador de portagens / на сайте концессионера.»",
+        "confidence": "medium",
+        "source": "Brisa/Via Verde toll simulator"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[4]",
+        "current": "🏷️ Скидки для электромобилей на ряде трасс",
+        "problem": "Сформулировано слишком широко. Общенациональной автоматической скидки на portagens для электромобилей нет; могут быть отдельные кампании/локальные режимы/скидки на парковку или другие сервисы, но не универсальное правило для «ряда трасс».",
+        "suggestion": "Удалить или уточнить: «Периодически бывают акции/специальные условия для отдельных сервисов, но универсальной скидки на tolls для электромобилей нет — проверяйте условия конкретной концессии/акции.»",
+        "confidence": "medium",
+        "source": "Via Verde; concessionaires' tariff pages"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Альтернатива — постоплата через `portagens.ctt.pt` или терминалы CTT/Payshop, срок 48 часов / 5 рабочих дней.",
+        "problem": "Срок постоплаты указан неверно/устаревше. Для Portuguese-registered vehicles на электронных tolls оплата обычно становится доступна спустя 48 часов после проезда и может быть оплачена в течение более длительного срока, чем 5 рабочих дней; 5 рабочих дней — старое правило. Кроме того, CTT/Payshop не является универсальной альтернативой для иностранных номеров.",
+        "suggestion": "Написать: «Для Portuguese plates задолженность обычно появляется примерно через 48 часов после проезда и оплачивается через CTT/Payshop/portagens.ctt.pt в актуальный установленный срок; проверьте срок на CTT. Для foreign plates используйте официальные продукты/порталы для иностранных автомобилей, например EASYToll/TollCard/TollService/pagamentodeportagens.pt.»",
+        "confidence": "high",
+        "source": "CTT Portagens; Lei n.º 27/2023; Portugal Tolls"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[0].content[0].items[0]",
+        "current": "Оплата в терминалах CTT / Payshop в течение 48 часов после проезда",
+        "problem": "Фраза перепутывает момент доступности платежа и срок оплаты. Обычно платить можно не «в течение 48 часов», а после того как долг появляется в системе — примерно через 48 часов после проезда. Затем действует отдельный срок оплаты.",
+        "suggestion": "Заменить на: «Платёж обычно появляется в системе примерно через 48 часов после проезда; после появления его нужно оплатить в установленный CTT срок.»",
+        "confidence": "high",
+        "source": "CTT Portagens"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[0].content[0].items[3]",
+        "current": "Через 5 рабочих дней штраф +25× стоимости",
+        "problem": "Неверны и срок, и размер санкции. Правило «5 рабочих дней» устарело, а штраф не составляет автоматически 25× стоимости проезда. После изменений режима санкций за неоплату tolls применяются минимальные/максимальные пределы coima, привязанные к кратности суммы toll, с минимальным значением, а также административные расходы/издержки.",
+        "suggestion": "Написать: «Если не оплатить в срок, долг переходит в cobrança/coima: к сумме toll добавляются административные расходы и штраф по действующему режиму infrações tributárias. Не рассчитывайте на формулу 25× — проверяйте уведомление и законный срок оплаты/обжалования.»",
+        "confidence": "high",
+        "source": "Regime Geral das Infrações Tributárias; Lei n.º 27/2023; AT/IMT"
+      },
+      {
+        "severity": "critical",
+        "where": "costs[2]",
+        "current": "Штраф за неоплату ex-SCUT: amountEURMin 25, amountEURMax 250, note '~25× стоимости проезда'",
+        "problem": "Таблица противоречит действующему режиму и тексту. Штраф не считается как 25× toll; диапазон 25–250 € как универсальный тоже некорректен, потому что зависит от суммы toll, статуса нарушителя, стадии процесса и возможных administrative costs.",
+        "suggestion": "Заменить на: «Штраф/расходы за неоплату: зависит от суммы toll и стадии взыскания; минимум coima обычно от 25 €, плюс toll и administrative costs. Точную сумму см. в уведомлении CTT/концессионера/AT.»",
+        "confidence": "high",
+        "source": "Regime Geral das Infrações Tributárias; Lei n.º 27/2023"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].text",
+        "current": "Все крупные прокаты (Europcar, Avis, Sixt, Goldcar, Drivalia) предлагают Via Verde rental. Средняя цена — 3–5 €/день + сумма проездов. Отказаться нельзя на ex-SCUT — иначе прокатчик вам выкатит штрафы.",
+        "problem": "«Отказаться нельзя» — неверно. Условия зависят от прокатчика: часто устройство/услуга optional или автоматически установлена, но клиент может не активировать/отказаться; при этом он всё равно обязан оплатить electronic tolls, а прокатчик может выставить tolls и admin fees. Цена 3–5 €/день тоже не универсальна и часто имеет дневной/максимальный cap.",
+        "suggestion": "Написать: «У прокатных компаний обычно есть услуга toll device/Via Verde за дневную плату + фактические tolls, иногда с максимальным cap. От неё часто можно отказаться, но тогда нужно заранее понять, как оплачивать electronic tolls; иначе прокатчик позже спишет tolls и admin fees по договору.»",
+        "confidence": "high",
+        "source": "Rental companies' Portugal toll terms; Portugal Tolls"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "📊 История проездов и выписки за налоговую (Anexo H при IRS)",
+        "problem": "Anexo H указан неправильно. Обычные дорожные сборы не декларируются вручную в Anexo H как отдельная налоговая льгота. Если fatura с NIF попадает в e-Fatura, она может учитываться только в рамках общих правил despesas gerais familiares, но это не специфический вычет за tolls и не через «выписки за Anexo H» в обычной ситуации.",
+        "suggestion": "Заменить на: «Можно получать историю проездов и faturas. Если fatura с NIF попадает в e-Fatura, она учитывается по общим правилам e-Fatura/despesas gerais familiares, если применимо; обычно вручную в Anexo H tolls не вносят.»",
+        "confidence": "high",
+        "source": "Portal das Finanças — e-Fatura/IRS despesas gerais familiares"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "🧾 Электронная fatura с NIF — вычет в IRS как расход despesas gerais familiares",
+        "problem": "Слишком категорично. Не всякая fatura автоматически даёт дополнительную выгоду: despesas gerais familiares имеют общий лимит и учитываются через e-Fatura по правилам AT. Это не специальный налоговый вычет за Via Verde.",
+        "suggestion": "Написать: «Fatura с NIF может попасть в e-Fatura и, при соблюдении правил и лимитов, учитываться в despesas gerais familiares; это не отдельный специальный вычет за tolls.»",
+        "confidence": "high",
+        "source": "Portal das Finanças — e-Fatura/IRS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[4]",
+        "current": "📱 Уведомления о штрафах и списаниях в real-time",
+        "problem": "Via Verde может уведомлять о проходах/списаниях и событиях аккаунта, но «уведомления о штрафах в real-time» как общее свойство сервиса неверны. Штрафы/уведомления о нарушениях приходят от концессионера, CTT/AT или административного органа, а не гарантированно в real time через приложение Via Verde.",
+        "suggestion": "Заменить на: «Уведомления о проходах, списаниях и статусе аккаунта; штрафы и cobrança могут приходить отдельными уведомлениями от концессионера/CTT/AT.»",
+        "confidence": "high",
+        "source": "Via Verde app terms; CTT/AT collection procedures"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2]",
+        "current": "Штраф при исправном identificador → обжалование через AT Ascendi / Brisa",
+        "problem": "«AT Ascendi / Brisa» смешивает разные сущности. AT — Autoridade Tributária, государственный налоговый орган; Ascendi и Brisa — концессионеры/операторы. На ранней стадии спор обычно направляют в Via Verde или соответствующему концессионеру; после налогового взыскания — через AT по процедуре cobrança/coima.",
+        "suggestion": "Написать: «Если списание/проход спорный — сначала reclamação в Via Verde и/или соответствующему concessionário. Если дело уже у AT/cobrança coerciva/coima — следуйте процедуре и срокам в уведомлении AT.»",
+        "confidence": "high",
+        "source": "Via Verde complaints; Autoridade Tributária"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[3]",
+        "current": "Неработающий портал → на чёрном портале идёт эмулированное фото, спорить через `portagens.ctt.pt`",
+        "problem": "Фраза непонятна и выглядит технически недостоверной: «чёрный портал» и «эмулированное фото» не являются стандартными терминами. При споре важны дата/время, matrícula, concessionário и канал reclamação, а не portagens.ctt.pt как универсальный орган споров.",
+        "suggestion": "Заменить на: «Если считаете начисление ошибочным, сохраните дату/время/маршрут/матrícula и подайте reclamação в Via Verde или соответствующему concessionário; CTT обычно является каналом оплаты/консультации долга, а не универсальным арбитром спора.»",
+        "confidence": "medium",
+        "source": "CTT Portagens; Via Verde complaints"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Без оплаты штраф 25× стоимость проезда + потенциальная блокировка DUA.",
+        "problem": "Неверна формула штрафа и крайне сомнительно утверждение про «блокировку DUA» как стандартное последствие. Неоплаченные tolls могут перейти к принудительному взысканию через AT, с coima, custos administrativos и возможными мерами взыскания, но обычная формулировка «блокировка DUA» вводит в заблуждение.",
+        "suggestion": "Написать: «При неоплате к toll добавляются административные расходы и штраф/coima; долг может перейти в AT/cobrança coerciva. Формулы 25× и автоматической блокировки DUA как стандартного правила нет.»",
+        "confidence": "high",
+        "source": "Regime Geral das Infrações Tributárias; Autoridade Tributária"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[1].text",
+        "current": "Неоплата и просрочка штрафа ведёт к блоку DUA (техпаспорта). Техосмотр (IPO) не пройдёте.",
+        "problem": "Это выглядит фактически неверно как общее правило. Просроченные toll debts обычно взыскиваются как налоговые/административные долги; автоматическая блокировка DUA и невозможность пройти IPO из-за неоплаченных portagens не являются стандартным последствием, которое можно заявлять без сильного источника.",
+        "suggestion": "Удалить и заменить на: «Неоплаченные tolls могут перейти в cobrança coerciva через AT, увеличить сумму долга и привести к мерам принудительного взыскания. Не игнорируйте уведомления и сроки обжалования/оплаты.»",
+        "confidence": "high",
+        "source": "Autoridade Tributária; Regime Geral das Infrações Tributárias"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2].url",
+        "current": "https://www.infraestruturasdeportugal.pt/",
+        "problem": "Ссылка слишком общая для подтверждения конкретных утверждений о portagens/concessões; пользователю сложно проверить тарифы, классы и правила.",
+        "suggestion": "Добавить более точную ссылку на раздел IP про portagens/concessões или на официальный simulador/lista de taxas соответствующего concessionário.",
+        "confidence": "medium",
+        "source": "Infraestruturas de Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3].url",
+        "current": "https://www.imt-ip.pt/",
+        "problem": "Ссылка слишком общая и не подтверждает конкретные правила о штрафах, классах и регулировании portagens.",
+        "suggestion": "Добавить конкретные нормативные источники: Regime Geral das Infrações Tributárias, Lei n.º 27/2023 и/или официальные страницы AT/IMT о cobrança de portagens.",
+        "confidence": "high",
+        "source": "IMT; Diário da República; Autoridade Tributária"
+      }
+    ],
+    "missing_topics": [
+      "Отдельный блок для foreign plates: EASYToll, TollCard, TollService, pagamentodeportagens.pt и ограничения CTT/portagens.ctt.pt для иностранных автомобилей",
+      "Актуальный срок постоплаты: платеж появляется примерно через 48 часов, затем действует отдельный официальный срок оплаты; старое «5 рабочих дней» не использовать без проверки",
+      "Точное объяснение действующего режима coima/administrative costs вместо формулы «25×»",
+      "Разница между exclusively electronic toll roads/ex-SCUT и обычными автострадами с ticket/barrier system",
+      "Как узнать concessionário по дороге и куда подавать reclamação: Via Verde, Brisa, Ascendi, IP и др.",
+      "Ограничения Via Verde в Испании/Франции: работает только если конкретный тариф/устройство поддерживает interoperabilidade и соответствующие страны",
+      "Классы транспортных средств 1–4 и проблема класса 1/2 для высоких автомобилей, SUV/минивэнов и мотоциклов",
+      "Что делать при смене matrícula, продаже автомобиля или утере/неисправности identificador"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5711,
+    "prompt_tokens": 2868,
+    "total_tokens": 8579
+  },
+  "model": "gpt-5.5"
+}

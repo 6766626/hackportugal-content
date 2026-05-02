@@ -1,0 +1,113 @@
+{
+  "guideId": "evora-alentejo",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гид в целом пригоден, но содержит несколько фактических неточностей по достопримечательностям Эворы/Алентежу и пару потенциально устаревших/неподтверждённых цен.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1]",
+        "current": "Capela dos Ossos — часовня украшена костями 5000 монахов, XVI в.",
+        "problem": "Неверно: часовня обычно датируется XVII веком, а кости — примерно 5000 человек, эксгумированных с городских кладбищ; это не «5000 монахов».",
+        "suggestion": "Написать: «Capela dos Ossos — часовня XVII века, украшенная костями и черепами примерно 5000 человек, перенесёнными с кладбищ Эворы. Надпись над входом: “Nós ossos que aqui estamos, pelos vossos esperamos”.»",
+        "confidence": "high",
+        "source": "Igreja de São Francisco / Capela dos Ossos; Câmara Municipal de Évora"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "Sé de Évora — готический собор XIII в., сокровищница со Святым Саваном. 5 €",
+        "problem": "Формулировка про «Святой Саван» вводит в заблуждение: Святой Саван обычно ассоциируется с Туринской плащаницей. В сокровищнице/музее собора Эворы известны реликварии, сакральное искусство и, в частности, Santo Lenho, но не «Святой Саван» как ключевой экспонат.",
+        "suggestion": "Написать: «Sé de Évora — готический собор XIII века; стоит зайти в клуатр, на террасу/крышу и в музей сакрального искусства с реликвариями и церковной утварью.» Цену лучше перепроверять на официальном сайте собора.",
+        "confidence": "high",
+        "source": "Sé Catedral de Évora / Museu de Arte Sacra da Sé de Évora"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Templo Romano (Templo de Diana) — римский храм I в.",
+        "problem": "Название «Templo de Diana» популярное, но историческая атрибуция Диане не доказана; официальнее — Templo Romano de Évora. Текущая формулировка может закреплять старый туристический миф.",
+        "suggestion": "Написать: «Templo Romano de Évora, часто называемый Templo de Diana, — римский храм I века...»",
+        "confidence": "high",
+        "source": "Câmara Municipal de Évora; Direção-Geral do Património Cultural"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[4]",
+        "current": "Igreja de São Francisco — над Capela dos Ossos",
+        "problem": "«Над Capela dos Ossos» звучит пространственно неверно/странно: Capela dos Ossos находится в комплексе Igreja de São Francisco, а не является объектом «под» церковью.",
+        "suggestion": "Написать: «Igreja de São Francisco — церковь, в комплексе которой находится Capela dos Ossos.»",
+        "confidence": "high",
+        "source": "Igreja de São Francisco / Capela dos Ossos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].text",
+        "current": "вид на озеро Alqueva (искусственное, крупнейшее в Европе)",
+        "problem": "Alqueva часто описывают как крупнейшее искусственное озеро в Португалии или одно из крупнейших/крупнейшее в Западной Европе, но «крупнейшее в Европе» слишком сильное и спорное утверждение: в Европе есть более крупные водохранилища.",
+        "suggestion": "Написать: «вид на Alqueva — крупнейшее искусственное озеро Португалии и одно из крупнейших в Западной Европе.»",
+        "confidence": "high",
+        "source": "EDIA — Empresa de Desenvolvimento e Infra-estruturas do Alqueva; Visit Alentejo"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0].content[0].text",
+        "current": "Средневековый «deserto» на холме",
+        "problem": "Слово «deserto» по-португальски означает «пустыня/пустынный», и для Monsaraz это выглядит как ошибка или неудачная метафора. Для укреплённого средневекового городка уместнее «vila», «aldeia» или «burgo».",
+        "suggestion": "Написать: «Средневековая укреплённая деревня/вила на холме...»",
+        "confidence": "high",
+        "source": "Visit Alentejo"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[4]",
+        "current": "🍄 Carne de porco à alentejana — свинина с моллюсками",
+        "problem": "Эмодзи гриба не соответствует блюду: carne de porco à alentejana — свинина с моллюсками/ameijoas и картофелем, не грибное блюдо.",
+        "suggestion": "Заменить эмодзи на «🐷» или «🐚»: «🐷 Carne de porco à alentejana — свинина с моллюсками и картофелем».",
+        "confidence": "high",
+        "source": "традиционная португальская кухня"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[4]",
+        "current": "Évora Card 15 € (3 дня) — музеи + транспорт со скидкой",
+        "problem": "Требует перепроверки: туристические карты, их цена, срок действия и набор включённых музеев/транспорта часто меняются. В гиде нет прямого источника на Évora Card, а утверждение дано как точное на 2026 год.",
+        "suggestion": "Либо добавить официальный источник муниципалитета/турофиса Эворы, либо смягчить: «Если доступна Évora Card, проверьте актуальную цену и список включённых объектов в туристическом офисе/на сайте Câmara Municipal de Évora.»",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Évora / Posto de Turismo de Évora"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[5]",
+        "current": "Цены ниже чем в Лиссабоне/Порту — пляжи и регион недооценены",
+        "problem": "Для гайда про Эвору и внутренний Алентежу упоминание пляжей сбивает с толку: пляжи есть на побережье Алентежу, но они далеко от Эворы и не относятся к описанному маршруту.",
+        "suggestion": "Написать: «Цены в Эворе и внутренних городках обычно ниже, чем в Лиссабоне/Порту; побережье Алентежу — отдельный маршрут.»",
+        "confidence": "high",
+        "source": "география региона Alentejo"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: Visit Alentejo, Câmara Municipal de Évora, Visit Portugal",
+        "problem": "Для конкретных цен и расписаний транспорта в тексте не хватает первичных источников: CP, Rede Expressos, официальные страницы Capela dos Ossos/Sé de Évora. Иначе цены «12–18 €», «12–15 €», «6 €», «5 €» быстро устаревают.",
+        "suggestion": "Добавить источники: CP — https://www.cp.pt/, Rede Expressos — https://rede-expressos.pt/, официальный сайт/страницу Igreja de São Francisco/Capela dos Ossos и Sé Catedral de Évora; либо пометить цены как ориентировочные.",
+        "confidence": "high",
+        "source": "CP; Rede Expressos; Câmara Municipal de Évora; Sé Catedral de Évora"
+      }
+    ],
+    "missing_topics": [
+      "Предупреждение, что летом во внутреннем Алентежу возможны экстремальная жара и очень ограниченные часы работы/сиеста у маленьких музеев, ресторанов и виноделен.",
+      "Совет бронировать визиты на винодельни заранее: многие quintas принимают только по записи, особенно дегустации и обеды.",
+      "Уточнение, что без машины реально посмотреть Эвору, но Monsaraz/Marvão/винодельни общественным транспортом неудобны и часто требуют такси/трансфера.",
+      "Ссылки на CP и Rede Expressos для актуальных расписаний и тарифов.",
+      "Отдельное пояснение, что побережье Алентежу — другой маршрут, не рядом с Эворой."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3730,
+    "prompt_tokens": 2615,
+    "total_tokens": 6345
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,193 @@
+{
+  "guideId": "brazil-specific",
+  "categoryId": "country_specific",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide contains several high-risk errors: it overstates the ability of Brazilians to regularize from visa-free entry via CPLP, gives wrong Estatuto de Igualdade procedure/conditions, and misstates Brazilian dual-nationality and tax-residence rules.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "«безвиз 90 дней, подача ВНЖ изнутри через CPLP Mobility»",
+        "problem": "Misleading as a general rule. Visa-free entry is for short stay. The CPLP facilitated route is not a universal in-country regularisation mechanism for any Brazilian who entered as a tourist. After the abolition/restriction of manifestação de interesse routes, first residence applications generally require the correct visa/route or a specific legal basis. Presenting tourist entry as a normal path to residence is risky.",
+        "suggestion": "Write: «Бразильцы могут въехать без визы на 90 дней как туристы/для краткого пребывания. Для переезда на жительство обычно нужно заранее проверить подходящий маршрут: CPLP visa/residence route, work visa, D7/D8/D2 etc. Не рассчитывайте, что въезд туристом автоматически позволит подать на ВНЖ изнутри.»",
+        "confidence": "high",
+        "source": "Lei 23/2007 as amended by Lei 61/2025; AIMA guidance on CPLP residence permits"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[2]",
+        "current": "«На границе — заявить цель: “vou residir em Portugal ao abrigo do Acordo de Mobilidade CPLP”»",
+        "problem": "Dangerous advice. If entering visa-free, the declared purpose must match a short-stay entry. Saying at the border that the real purpose is to reside can trigger refusal questions unless the person has the correct residence/long-stay visa or another valid legal basis.",
+        "suggestion": "Replace with: «На границе цель въезда должна соответствовать вашим документам: туризм/краткое пребывание — для безвиза; переезд на жительство — только если у вас есть соответствующая виза/разрешение или подтверждённый законный маршрут.»",
+        "confidence": "high",
+        "source": "Schengen Borders Code; Lei 23/2007"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3]",
+        "current": "«Запись в AIMA — в первые 30-60 дней после въезда»",
+        "problem": "Overpromises both legally and practically. AIMA appointments are not reliably available within 30–60 days, and for a Brazilian who entered visa-free there may be no eligible first-residence CPLP appointment at all without the proper visa/route.",
+        "suggestion": "Write: «Если ваш маршрут действительно предусматривает подачу в AIMA, пытайтесь записаться как можно раньше, но сроки непредсказуемы. Перед въездом проверьте, имеете ли вы право на подачу именно из Португалии.»",
+        "confidence": "high",
+        "source": "AIMA operational guidance; Lei 23/2007 as amended by Lei 61/2025"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[5]",
+        "current": "«Получить NIF в Finanças (без представителя — CPLP)»",
+        "problem": "CPLP nationality is not a blanket exemption from the Portuguese fiscal representative rules. The need for a representante fiscal depends mainly on whether the taxpayer is resident outside the EU/EEA and whether they use electronic notifications/other exceptions; it is not simply waived because the person is Brazilian/CPLP.",
+        "suggestion": "Write: «NIF можно получить в Finanças/через представителя. Если вы ещё налоговый нерезидент и живёте вне ЕС/ЕЭЗ, может потребоваться fiscal representative, если не применима электронная нотификация/иная актуальная льгота. После налогового резидентства в PT представитель обычно не нужен.»",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira guidance on representante fiscal"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[1].items[1].content[0].text",
+        "current": "«Через официальный AIMA-портал или по телефону 217 115 000. Выбрать “Acordo de Mobilidade CPLP”.»",
+        "problem": "This implies there is a simple general AIMA appointment option for any Brazilian under CPLP Mobility. In practice CPLP residence processing has been route-specific and often limited to holders of CPLP visas, pending legacy processes, renewals/conversions, or other categories announced by AIMA. The guide should not present this as a guaranteed menu option.",
+        "suggestion": "Write: «Проверьте на сайте AIMA, открыт ли именно ваш тип процесса CPLP: первичная подача по CPLP visa, продление/конверсия существующего CPLP title, legacy/pending cases и т.п. Наличие телефона/портала не означает права на подачу после туристического въезда.»",
+        "confidence": "high",
+        "source": "AIMA — Autorização de Residência CPLP guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2].content[0].items[3]",
+        "current": "«Подтверждение средств: контракт работы или выписки банка (минимум 1 IAS = 537,13 €/мес либо 12× IAS = 6 445,56 € депозит)»",
+        "problem": "The IAS value and multiplication are correct for 2026, but the legal threshold is likely misstated for residence/visa subsistence means. Many Portuguese immigration routes use the national minimum wage/SMN or route-specific criteria, not automatically 1 IAS. For 2026 SMN is €920. The guide needs to distinguish CPLP-specific document simplifications from general subsistence rules.",
+        "suggestion": "Replace with a route-specific caveat: «Требования к средствам зависят от типа процесса/визы. Не используйте универсально 1 IAS. Для многих резидентских виз ориентиром является SMN (€920 в 2026) и/или правила Portaria 1563/2007; для CPLP могут действовать специальные упрощения — проверяйте актуальный список AIMA/консульства.»",
+        "confidence": "medium",
+        "source": "IAS 2026 = €537.13; SMN 2026 = €920; Portaria 1563/2007"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[2].content[0].items[4]",
+        "current": "«Antecedentes Criminais do Brasil (апостиль + перевод — хотя португальский понимают, но переводы часто требуют)»",
+        "problem": "Misleading: Brazilian criminal-record certificates are in Portuguese, so translation is normally not the issue. Apostille/legalisation and document format/validity are the key points. Portugal may also require authorisation to consult the Portuguese criminal record and certificates from countries of previous residence.",
+        "suggestion": "Write: «Certidão de antecedentes criminais do Brasil, обычно с apostila de Haia; перевод с португальского обычно не нужен. Также AIMA может требовать autorização para consulta do registo criminal português и справки из стран прежнего проживания.»",
+        "confidence": "medium",
+        "source": "AIMA document checklists"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[3].content[0].text",
+        "current": "«Первичный на 1 год. Продление на 2 года × 2 → итого 5 лет.»",
+        "problem": "This is too categorical and may be outdated depending on the title issued. Standard temporary residence permits in Portugal are generally valid for 2 years and renewable for 3-year periods, while CPLP certificates/cards have had separate transitional validity rules. The guide should not state one fixed 1+2+2 schedule without specifying the exact CPLP instrument.",
+        "suggestion": "Write: «Срок зависит от вида документа: стандартная temporary residence permit обычно выдаётся на 2 года и продлевается на 3; CPLP certificates/cards имели отдельные переходные правила. Проверяйте срок прямо на вашем título и актуальные правила AIMA.»",
+        "confidence": "medium",
+        "source": "Lei 23/2007, art. 75; AIMA CPLP guidance"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].text",
+        "current": "«После 3 лет резидентства в PT бразильцы могут подать на Estatuto de Igualdade de Direitos Políticos (Политическое равенство) или Civis (Гражданское).»",
+        "problem": "Wrong condition split. The general Estatuto de Igualdade de Direitos e Deveres for Brazilians does not require 3 years; it requires, among other things, Brazilian nationality, majority/civil capacity and habitual residence/legal residence in Portugal. The 3-year habitual residence requirement is for political rights.",
+        "suggestion": "Write: «Estatuto de Igualdade de Direitos e Deveres можно запрашивать при законном/обычном проживании в Portugal и выполнении личных условий. Estatuto de Direitos Políticos — отдельный статус, обычно после 3 лет habitual residence и при наличии политических прав в Бразилии.»",
+        "confidence": "high",
+        "source": "Tratado de Amizade, Cooperação e Consulta Brasil-Portugal; Decreto-Lei 154/2003; ePortugal/AIMA guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[2]",
+        "current": "«Подача в IRN (Conservatória)»",
+        "problem": "Wrong agency. Estatuto de Igualdade is not a normal IRN/Conservatória nationality/civil-registry application. It is handled through the competent immigration/administrative channel, currently AIMA/Portuguese administration, with publication/registration effects depending on the status.",
+        "suggestion": "Replace with: «Подача: через AIMA/указанный государственный канал для Estatuto de Igualdade; не путать с IRN-процедурами гражданства.»",
+        "confidence": "high",
+        "source": "ePortugal — Pedir o estatuto de igualdade de direitos e deveres; AIMA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[4]",
+        "current": "«По Estatuto Igualdade — бразильцы могут проживать и работать в PT без ограничений»",
+        "problem": "Overstated. Estatuto de Igualdade grants equality of certain rights/duties but does not make the person Portuguese, does not replace all immigration obligations, and does not remove all restrictions. It is tied to residence status and excludes reserved sovereign functions/roles.",
+        "suggestion": "Write: «Estatuto расширяет гражданские/политические права, но не является гражданством и не отменяет требования иметь/поддерживать законное проживание. Некоторые должности и политические функции остаются зарезервированы для граждан Portugal.»",
+        "confidence": "high",
+        "source": "Tratado de Amizade Brasil-Portugal; Decreto-Lei 154/2003"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[0]",
+        "current": "«По действующему закону (Lei 37/81) — 5 лет легального проживания»",
+        "problem": "Broadly correct as of the currently promulgated law, but incomplete: nationality by residence also requires other conditions such as sufficient Portuguese knowledge, no relevant serious criminal conviction, no danger/threat findings, and documentary proof. For Brazilians the language proof is simplified, not the whole process.",
+        "suggestion": "Write: «Сейчас базовый срок — 5 лет legal residence, но также нужны прочие условия Lei da Nacionalidade: отсутствие определённых судимостей/угроз, документы, Portuguese language requirement с упрощением для граждан португалоязычных стран.»",
+        "confidence": "high",
+        "source": "Lei 37/81; Regulamento da Nacionalidade Portuguesa"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[2].text",
+        "current": "«Конституция Бразилии (ст. 12, §4) разрешает двойное в двух случаях: (1) вы родились гражданином Бразилии (nato) и получаете португальское — бразильское сохраняется автоматически; (2) вы натурализованный бразилец и добровольно приобретаете другое — бразильское теряется.»",
+        "problem": "Outdated/wrong after Brazil's Constitutional Amendment 131/2023. Brazil no longer automatically strips nationality merely because a Brazilian voluntarily acquires another nationality. Loss is now mainly by express request for loss of Brazilian nationality, or cancellation of naturalisation by court in specific cases.",
+        "suggestion": "Replace the warning with: «После EC 131/2023 Бразилия в общем случае допускает множественное гражданство. Добровольное получение португальского гражданства само по себе обычно не ведёт к потере бразильского. Потеря возможна, например, по express request самого гражданина или при судебной отмене натурализации в предусмотренных Конституцией случаях. Для натурализованных бразильцев и сложных кейсов — проверить у юриста/консульства.»",
+        "confidence": "high",
+        "source": "Constituição Federal do Brasil, art. 12 §4, as amended by Emenda Constitucional 131/2023"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2]",
+        "current": "«Обмен прав: по CPLP-соглашению, без экзамена в IMT»",
+        "problem": "Too simplified. The exam waiver for Brazilian/CPLP licences has conditions: valid licence, equivalent category, age/medical requirements, not suspended/revoked, residence timing/deadlines, and IMT document requirements. It is not an unconditional CPLP benefit.",
+        "suggestion": "Write: «Бразильские права обычно можно обменять в IMT без экзамена при соблюдении условий: действительная CNH, подходящая категория, возраст/медсправка при необходимости, отсутствие лишения прав, соблюдение сроков после получения residência и полный пакет документов.»",
+        "confidence": "high",
+        "source": "IMT guidance on exchange of foreign driving licences; Decreto-Lei 46/2022"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[5]",
+        "current": "«Налоги: PT облагает мировой доход резидентов. Бразилия освобождает при резидентстве PT»",
+        "problem": "Wrong and risky. Brazil does not automatically stop taxing a person merely because they become Portuguese tax resident. Brazilian tax residence must be terminated through the proper saída definitiva process/communication and final declaration, or tax residence may continue for a period. The Portugal–Brazil tax treaty may reduce double taxation but is not a blanket exemption.",
+        "suggestion": "Write: «Portugal taxes worldwide income of Portuguese tax residents. Brazil stops taxing worldwide income only after proper non-resident/saída definitiva steps under Brazilian rules; otherwise Brazilian reporting/tax obligations may continue. Use the PT-BR double tax treaty/foreign tax credits where applicable.»",
+        "confidence": "high",
+        "source": "Receita Federal do Brasil — Comunicação/Declaração de Saída Definitiva; Convenção Portugal-Brasil para evitar dupla tributação"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1]",
+        "current": "«Консульства: Porto, Faro»",
+        "problem": "Incomplete/possibly misleading. Brazil has consular services in Lisbon and Porto; Faro may be honorary/limited or service-post dependent rather than a full consulate-general. The guide should specify the official consular offices and link to Itamaraty rather than a bare list.",
+        "suggestion": "Write: «Проверяйте актуальные консульские округа и типы услуг на сайте Embaixada/Consulado-Geral do Brasil em Lisboa/Porto; почётные консульства не всегда выполняют паспортные/регистрационные действия.»",
+        "confidence": "medium",
+        "source": "Ministério das Relações Exteriores do Brasil / Portal Consular"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[3]",
+        "current": "«~500 000+ бразильцев легально в PT по данным AIMA конца 2024»",
+        "problem": "Needs a precise source/date because the figure has changed quickly and AIMA/INE figures distinguish residence-title holders, foreign residents, and nationality groups. As written, it is hard to verify.",
+        "suggestion": "Write with the exact AIMA report and number, e.g. «по Relatório de Migrações e Asilo/AIMA за [год]: [точное число] граждан Бразилии с residência válida».",
+        "confidence": "medium",
+        "source": "AIMA Relatório de Migrações e Asilo / statistical reports"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "«AIMA — Acordo de Mobilidade CPLP», url: «https://aima.gov.pt/»",
+        "problem": "Too generic for a sensitive immigration guide. A homepage is not enough to substantiate CPLP eligibility, documents, fees, and appointment channels.",
+        "suggestion": "Use direct AIMA pages for «Autorização de Residência CPLP», renewals/conversions, fee table, and appointment/contact pages, with retrieval dates.",
+        "confidence": "high",
+        "source": "AIMA official website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "«IRN — Estatuto de Igualdade», url: «https://irn.justica.gov.pt/»",
+        "problem": "Likely wrong/insufficient source for Estatuto de Igualdade and reinforces the incorrect IRN filing instruction. The official practical source should be ePortugal/AIMA or the competent administrative page, plus the treaty/decree-law.",
+        "suggestion": "Replace or add direct sources: ePortugal/AIMA page for «Pedir o estatuto de igualdade de direitos e deveres» and legal sources such as Tratado de Amizade and Decreto-Lei 154/2003.",
+        "confidence": "high",
+        "source": "ePortugal; Decreto-Lei 154/2003"
+      }
+    ],
+    "missing_topics": [
+      "AIMA fee amounts and payment rules under the fee table in force from 01.03.2026",
+      "Clear distinction between visa-free short stay, CPLP visa, CPLP residence permit/certificate, and other residence visas such as D1/D2/D3/D7/D8",
+      "Practical warning that CPLP residence certificates/cards may have different recognition/use for Schengen travel and should not be treated as a Portuguese passport or EU residence right",
+      "Effect of Lei 61/2025 in force since 23.10.2025 on in-country regularisation/manifestação de interesse routes",
+      "Exact current AIMA page links and official document checklist for the Brazilian/CPLP route",
+      "Brazilian tax exit procedure: Comunicação de Saída Definitiva and Declaração de Saída Definitiva",
+      "Portugal–Brazil double tax treaty and social security coordination/INSS versus Segurança Social",
+      "Estatuto de Igualdade procedure, competent authority, conditions for civil versus political rights, and loss/termination conditions",
+      "Nationality-law caveat: new law approved 01.04.2026 is awaiting promulgation and not yet the operative law until published/in force"
+    ]
+  },
+  "model": "gpt-5.5"
+}

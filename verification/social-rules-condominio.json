@@ -1,0 +1,231 @@
+{
+  "guideId": "social-rules-condominio",
+  "categoryId": "housing_rent",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but contains several materially wrong or overbroad statements on quiet hours, condominium law, fines/debts, pets, tenants’ rights and EV charging.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "тихий период 22:00-08:00 (в некоторых регионах 23:00-07:00)",
+        "problem": "The statutory periods in the Regulamento Geral do Ruído are not 22:00-08:00. The standard definitions are daytime 07:00-20:00, evening 20:00-23:00 and night 23:00-07:00. Municipalities may affect local rules/licensing, but presenting 22:00-08:00 as the general rule is misleading.",
+        "suggestion": "Write: \"По DL 9/2007 стандартные периоды: diurno 07:00-20:00, entardecer 20:00-23:00, nocturno 23:00-07:00. Для ruído de vizinhança полиция может приказать прекратить шум в ночной период 23:00-07:00; местные правила/лицензии могут добавлять ограничения.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 9/2007, art. 3 and art. 24"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[0]",
+        "current": "**Período nocturno**: 22:00-08:00 (или 23:00-07:00 в зависимости от муниципалитета)",
+        "problem": "Same issue: the national legal definition of período nocturno is 23:00-07:00, not 22:00-08:00.",
+        "suggestion": "Replace with: \"**Período nocturno**: 23:00-07:00 по DL 9/2007; проверьте дополнительные муниципальные rules/licences для конкретных случаев.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 9/2007, art. 3"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[1]",
+        "current": "**Período diurno**: 08:00-20:00",
+        "problem": "The statutory daytime period starts at 07:00, not 08:00.",
+        "suggestion": "Write: \"**Período diurno**: 07:00-20:00.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 9/2007, art. 3"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "**Período entardecer**: 20:00-22:00 (сниженные лимиты)",
+        "problem": "The statutory evening period is 20:00-23:00, not 20:00-22:00.",
+        "suggestion": "Write: \"**Período entardecer**: 20:00-23:00.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 9/2007, art. 3"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[3]",
+        "current": "📏 **Предел**: L_den ≤ 55 dB в жилых зонах, L_night ≤ 45 dB",
+        "problem": "The values 55/45 dB are for zonas sensíveis, not all residential areas. Zonas mistas have higher reference values, and classification depends on municipal planning.",
+        "suggestion": "Write: \"Для zonas sensíveis: Lden ≤ 55 dB(A), Ln ≤ 45 dB(A); для zonas mistas обычно Lden ≤ 65 dB(A), Ln ≤ 55 dB(A). Классификацию зоны смотрят в муниципальном plano/zonamento.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 9/2007, art. 11"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "Стройка / ремонт в non-allowed часы (обычно 9:00-19:00 пн-пт, 10:00-18:00 сб, запрет вс и праздники)",
+        "problem": "For noisy works inside residential buildings, the national rule is generally working days 08:00-20:00, with notice posted in the building; Saturdays are not generally allowed under the same rule. Municipal licences can differ for exterior/public works.",
+        "suggestion": "Write: \"Ремонт/obras ruidosas внутри жилого здания: как правило только в рабочие дни 08:00-20:00 и с aviso в здании о сроках работ; срочные работы — исключение. Для наружных/крупных работ проверяют licença municipal.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 9/2007, art. 16"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Штрафы шум: 200-2500 € для физлица.",
+        "problem": "The stated fine range is likely wrong/over-simplified. Noise offences under DL 9/2007 are classified as environmental administrative offences and the actual coima depends on the type of offence and on the general environmental offences regime; common public guidance cites €200-€2,000 for individuals for light offences, with higher values in other cases.",
+        "suggestion": "Avoid a single universal number. Write: \"Coimas зависят от типа нарушения и режима contraordenações ambientais; для лёгких нарушений физлица часто указывают диапазон от €200, но точный размер определяет autoridade по DL 9/2007 + Lei 50/2006.\"",
+        "confidence": "medium",
+        "source": "Decreto-Lei 9/2007, art. 28; Lei 50/2006"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[1]",
+        "current": "Администратор вызовет нарушителя в assembleia condomínio",
+        "problem": "This overstates the administrator’s powers and describes a non-standard process. The administrator may notify, enforce the regulation, include the matter on the agenda or convene/ask for a meeting, but there is no simple rule that the administrator 'summons the violator' to an assembly.",
+        "suggestion": "Write: \"Администратор может направить письменное предупреждение, зафиксировать жалобу, проверить regulamento и вынести вопрос в agenda da assembleia; серьёзные/повторные нарушения решаются по правилам condomínio и закону.\"",
+        "confidence": "high",
+        "source": "Código Civil, arts. 1436 and 1437; Decreto-Lei 268/94"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[2]",
+        "current": "Решение: письменное предупреждение → fine из общего бюджета",
+        "problem": "A condominium fine/penalty is not paid 'from the general budget'. Penalties must have a legal/regulatory basis and are charged to the infringing owner/condómino; enforceability depends on proper approval/minutes.",
+        "suggestion": "Write: \"Возможны письменное предупреждение и, если regulamento/assembleia законно предусматривают penalidade, штраф нарушителю; решение и сумма должны быть оформлены в ata.\"",
+        "confidence": "high",
+        "source": "Código Civil, art. 1434; Decreto-Lei 268/94, art. 6"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "В Португалии Lei 8/2022 регулирует propriedade horizontal — каждое многоквартирное здание — condomínio.",
+        "problem": "Lei 8/2022 did not by itself 'regulate' all condominium law; it amended the Civil Code, DL 268/94 and related rules. Also not every apartment building is legally a condomínio: the building must be constituted under propriedade horizontal; a building owned by one landlord may not have a condominium of owners.",
+        "suggestion": "Write: \"Propriedade horizontal регулируется прежде всего Código Civil, arts. 1414.º и далее, и DL 268/94; Lei 8/2022 внесла важные изменения. Condomínio возникает, когда здание юридически разделено на frações autónomas under propriedade horizontal.\"",
+        "confidence": "high",
+        "source": "Código Civil, arts. 1414 ff.; Decreto-Lei 268/94; Lei 8/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[0].content[0].items[3]",
+        "current": "**Fundo Comum de Reserva** — 10% от ежемесячного взноса идёт в резерв на крупные ремонты (крыша, лифт)",
+        "problem": "The 10% is a statutory minimum calculated by reference to each owner’s share of the remaining condominium expenses, not necessarily a literal '10% of the monthly fee' in every accounting presentation.",
+        "suggestion": "Write: \"Fundo Comum de Reserva — обязательный резерв; минимум 10% от quota-parte каждого condómino nas restantes despesas do condomínio, обычно собирается вместе с регулярными взносами.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 268/94, art. 4"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1].content[0].items[0]",
+        "current": "**Ordinária**: ежегодно между 1 января и 30 июня — утверждение бюджета, выборы",
+        "problem": "The ordinary condominium assembly is not generally 'between 1 January and 30 June'. The Civil Code rule is the first fortnight of January, with possibility of the first quarter in cases allowed by the regulation or assembly decision.",
+        "suggestion": "Write: \"Ordinária: обычно в первой половине января; может быть в первом квартале, если это предусмотрено regulamento или решением assembleia.\"",
+        "confidence": "high",
+        "source": "Código Civil, art. 1431, as amended by Lei 8/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[1].content[0].items[1]",
+        "current": "**Extraordinária**: по запросу 1/4 владельцев или администратора",
+        "problem": "The legal threshold is tied to ownership capital/permilagem, not simply one quarter of owners by headcount.",
+        "suggestion": "Write: \"Extraordinária: созывается администратором или по требованию condóminos, представляющих не менее 25% capital investido/permilagem.\"",
+        "confidence": "high",
+        "source": "Código Civil, art. 1431"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[2].content[0].items[4]",
+        "current": "Задолженность: **административный** долг → суд за rent recovery; правового lien на квартиру",
+        "problem": "This is legally confused. Condominium arrears are not 'rent recovery'. Properly approved minutes can be an enforceable title and the condominium may use enforcement proceedings against the debtor. The phrase about no lien is too categorical and not the key point for readers.",
+        "suggestion": "Write: \"Долг по condomínio: ata da assembleia с утверждёнными суммами может быть título executivo; condomínio может начать ação executiva/enforcement против владельца-должника. Это не rent recovery.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 268/94, art. 6, as amended by Lei 8/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3].content[0].items[1]",
+        "current": "Штрафы условия regulamento: от 50-500 € за нарушение",
+        "problem": "There is no general statutory €50-€500 range for condominium penalties. Penalties depend on the condominium regulation/assembly decision and are subject to legal limits.",
+        "suggestion": "Write: \"Penalidades возможны, если предусмотрены regulamento/assembleia и не превышают законные пределы; универсального диапазона €50-€500 нет.\"",
+        "confidence": "high",
+        "source": "Código Civil, art. 1434"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3].content[0].items[2]",
+        "current": "Крупные изменения квартиры (сломать стены): assembleia согласование",
+        "problem": "Too broad and potentially wrong. Internal works inside a private fraction do not always require condominium assembly approval; approval/permits depend on whether common parts, structural elements, façade, safety, use, title deed or municipal licensing are affected.",
+        "suggestion": "Write: \"Внутренние работы не всегда требуют assembleia, но если затрагиваются structural elements, common parts, façade, building safety, use of the fraction or municipal licensing, нужно согласование/лицензия. Перед сносом стен — инженер + Câmara/condomínio check.\"",
+        "confidence": "high",
+        "source": "Código Civil, propriedade horizontal rules; RJUE"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3].content[0].items[4]",
+        "current": "Pets: если regulamento запрещает — нельзя; если разрешает — есть правила (leash в общих зонах)",
+        "problem": "Misleading. Condominium regulations can regulate common areas and nuisance, but a blanket ban on keeping pets inside a private fraction is not generally enforceable merely because the internal regulation says so. National animal rules set limits and welfare obligations.",
+        "suggestion": "Write: \"Pets: condomínio может регулировать common areas, hygiene, leash/noise and nuisance. Blanket ban on pets inside a private fração is legally questionable and often unenforceable unless tied to title/very specific lawful basis. Также действуют national limits on number of dogs/cats and municipal rules.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 314/2003, art. 3; Código Civil propriedade horizontal rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Если соседи мешают и владелец не помогает → вы можете требовать снижения аренды или выход из контракта без штрафа",
+        "problem": "Overbroad. A tenant does not automatically get rent reduction or penalty-free termination because third-party neighbours are noisy. Remedies depend on whether the landlord is breaching obligations, whether the defect prevents use of the property, evidence, notice and court/contract analysis.",
+        "suggestion": "Write: \"Если шум серьёзно мешает пользованию жильём, письменно уведомите landlord и собирайте evidence. Снижение аренды/termination возможны только case-by-case, если есть legal grounds or landlord breach; лучше получить legal advice before stopping payment or terminating.\"",
+        "confidence": "high",
+        "source": "Código Civil lease rules; Lei 6/2006/NRAU"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "**Ремонты у соседей**: владелец обязан предупредить за 8 дней о плановых работах",
+        "problem": "This is not a correct general rule for neighbours' works. For noisy works in residential buildings, the RGR requires a notice posted in a visible place in the building stating expected duration and working period; the landlord is not generally the person who must warn a tenant about a neighbour's works.",
+        "suggestion": "Write: \"Для noisy obras в жилом здании responsible party должен afixar aviso в видимом месте здания с duration and horário; landlord не всегда контролирует работы соседей.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 9/2007, art. 16"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[5]",
+        "current": "⚠️ **EV зарядка**: имеете право установить на своём parкing месте (Lei 39/2021) — владелец не может отказать, только поставить условия",
+        "problem": "The legal reference is wrong/very likely wrong: the core electric mobility regime is Decreto-Lei 39/2010, not Lei 39/2021. The statement is also too broad for tenants: installation in a parking space may require prior communication to the condominium/administrator and, for tenants or works affecting the property/electrical installation, landlord consent and technical/safety compliance.",
+        "suggestion": "Write: \"EV charging: основная база — Decreto-Lei 39/2010, art. 29. Для места в condominium обычно нужна comunicação prévia to administração; opposition is limited to legal/safety/existing-solution grounds. Если вы tenant, проверьте lease and get landlord consent for works affecting the property/electrical installation.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 39/2010, art. 29"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[5]",
+        "current": "**Сосед-агрессор**: PSP 112 при физической угрозе; Provedor de Justiça при повторяющемся конфликте",
+        "problem": "Provedor de Justiça is not the right body for recurring private neighbour aggression; it deals with public administration/rights issues, not ordinary private disputes. For threats/harassment/violence the route is police complaint, Ministério Público and possibly protective measures.",
+        "suggestion": "Write: \"Сосед-агрессор: при срочной угрозе — 112; не срочно — PSP/GNR complaint и, при threats/harassment, queixa-crime/Ministério Público. Provedor de Justiça не является обычным каналом для частных конфликтов между соседями.\"",
+        "confidence": "high",
+        "source": "Provedor de Justiça institutional remit; Código Penal/Criminal procedure general route"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "\"Штраф шум (физлицо)\", amountEURMin: 200, amountEURMax: 2500",
+        "problem": "Same fine-range issue as in the TLDR. A single €200-€2,500 range is not reliable for all noise offences.",
+        "suggestion": "Replace with a note rather than fixed max: \"Coimas depend on offence classification under DL 9/2007 and Lei 50/2006; check current authority table/case.\"",
+        "confidence": "medium",
+        "source": "Decreto-Lei 9/2007, art. 28; Lei 50/2006"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only DL 9/2007, Lei 8/2022 and Lei 6/2006 are listed.",
+        "problem": "For the condominium claims, citing only Lei 8/2022 is insufficient because it is mainly an amending law. The guide relies heavily on Civil Code and DL 268/94 rules but does not cite them.",
+        "suggestion": "Add sources: Código Civil consolidated, especially arts. 1414-1438-A; Decreto-Lei 268/94 consolidated; Decreto-Lei 39/2010 for EV charging; Lei 50/2006 for environmental offence fines.",
+        "confidence": "high",
+        "source": "Código Civil; Decreto-Lei 268/94; Decreto-Lei 39/2010; Lei 50/2006"
+      }
+    ],
+    "missing_topics": [
+      "Distinction between ruído de vizinhança handled by police authorities and permanent/commercial/environmental noise handled by Câmara/APA-style measurement procedures.",
+      "For noisy works in residential buildings: mandatory posted notice with duration and working hours, and urgent works exception.",
+      "Condominium enforcement: ata as título executivo for unpaid quotas/charges.",
+      "Correct legal basis for condominium law: Código Civil + Decreto-Lei 268/94, not only Lei 8/2022.",
+      "EV charging procedure in condominiums under Decreto-Lei 39/2010 and tenant-specific landlord consent caveat.",
+      "Pet rules: national limits on dogs/cats and the limited power of condomínio to ban pets inside private units."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6255,
+    "prompt_tokens": 3743,
+    "total_tokens": 9998
+  },
+  "model": "gpt-5.5"
+}

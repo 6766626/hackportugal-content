@@ -1,0 +1,180 @@
+{
+  "guideId": "recibos-verdes",
+  "categoryId": "work_business",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has several material oversimplifications and some wrong tax/Social Security/VAT rules for recibos verdes as of April 2026.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Упрощённый режим: 75% оборота — база для налога, 25% — освобождение.",
+        "problem": "75% taxable coefficient is not universal. It applies mainly to professional services listed in the CIRS table / many service activities; other category B income can have different simplified-regime coefficients, e.g. sales and some non-listed services.",
+        "suggestion": "Write: \"В упрощённом режиме база зависит от типа дохода: для большинства профессиональных услуг — 75% оборота; для других видов деятельности коэффициенты могут быть ниже/иными. Проверяйте CIRS/CAE при открытии atividade.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 31.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[0]",
+        "current": "Regime Simplificado — дефолт для оборота < €200 000/год. Упрощённая база.",
+        "problem": "The €200,000 limit is broadly correct, but the text omits that some taxpayers may be forced/choose organized accounting and that the simplified coefficient depends on the activity/income type. It also implies a single simplified base.",
+        "suggestion": "Add: \"Лимит для упрощённого режима — €200 000 годового gross income; коэффициенты базы зависят от типа дохода, а не всегда 75%.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigos 28.º e 31.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].text",
+        "current": "Выбрать CAE (код деятельности). Для IT — 62010 (программирование), для консалтинга — 70220, для дизайна — 74100.",
+        "problem": "Misleading: many independent professionals use CIRS activity codes, not only CAE. For example IT freelancers may use the CIRS code for programmers rather than CAE 62010. The choice affects IRS coefficients and withholding treatment.",
+        "suggestion": "Write: \"Выбрать код деятельности: CAE и/или код из tabela do artigo 151.º CIRS. Для профессиональных услуг часто важен именно CIRS-код; при сомнении уточните у contabilista.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 151.º; Portal das Finanças — início de atividade"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[0]",
+        "current": "Оборот ≤ €15 000/год — освобождены от IVA (Regime de Isenção)",
+        "problem": "Threshold statement is incomplete. The exemption under article 53 CIVA is subject to conditions and, for starting activity, expected turnover is annualized. It also excludes some operations and taxpayers in organized accounting.",
+        "suggestion": "Write: \"Regime de isenção de IVA по art. 53 CIVA возможен при годовом/ожидаемом годовом обороте ≤ €15 000 и выполнении условий режима; при открытии atividade ожидаемый оборот считается пропорционально году.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 53.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[1]",
+        "current": "Оборот > €15 000 — регистрация IVA, ставка 23% (или 13%/6% для некоторых услуг)",
+        "problem": "Too simplistic. Exceeding the threshold usually triggers an obligation to submit a declaration of changes in January and start charging VAT from February of the following year, unless the excess is more significant / specific rules apply. Also many cross-border B2B services do not charge Portuguese VAT even if VAT-registered.",
+        "suggestion": "Write: \"Если лимит превышен, нужно подать alteração de atividade в сроки CIVA art. 58; обычно — в январе следующего года с начислением IVA с февраля. Наличие IVA-регистрации не значит, что IVA всегда добавляется: для B2B клиентов за границей часто применяется reverse charge / regras de localização.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigos 53.º, 58.º and 6.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4].content[0].text",
+        "current": "В первый год — исключение от взносов. С 13-го месяца — 21.4% от 70% среднего ежемесячного оборота.",
+        "problem": "Overbroad. The initial Social Security exemption is not simply 'the first year' for everyone; it applies to first-time/enquadramento situations and timing is defined by Segurança Social rules. Some workers are exempt for other reasons, and some can opt to contribute earlier. Contribution base is based on quarterly relevant income declarations, generally 70% of services or 20% of sales/production, with adjustment options.",
+        "suggestion": "Write: \"При первом открытии atividade enquadramento в Segurança Social обычно начинает действовать только после начального периода, установленного SS; можно/нужно проверять дату enquadramento. Затем ставка TI — 21,4% на rendimento relevante: обычно 70% услуг или 20% продаж/производства, по квартальной декларации, с возможностью корректировки базы в пределах правил.\"",
+        "confidence": "high",
+        "source": "Código dos Regimes Contributivos do Sistema Previdencial de Segurança Social; Segurança Social — Trabalhadores Independentes"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "Emitir Fatura-Recibo (для услуг) или Fatura (если IVA-регистрирован).",
+        "problem": "Incorrect distinction. Fatura-recibo vs fatura is about whether payment is received at the same time, not whether the taxpayer is VAT-registered. Both exempt and VAT-registered workers may issue invoices/receipts depending on payment status.",
+        "suggestion": "Write: \"Emitir Fatura-Recibo — если услуга уже оплачена; Fatura — если сначала выставляете счёт, а Recibo — когда поступила оплата. Это не зависит напрямую от того, в режиме IVA вы или в isenção.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças — emissão de fatura, fatura-recibo e recibo"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Если клиент за пределами ЕС — по правилам reverse charge, IVA = 0.",
+        "problem": "Misleading. Cross-border VAT depends on B2B/B2C, client status, type of service and place-of-supply rules. Reverse charge is typically relevant for B2B clients, including EU VAT-taxable persons; non-EU B2C services may follow different rules. It is not correct to say all non-EU clients are reverse charge with IVA=0.",
+        "suggestion": "Write: \"Для иностранных клиентов IVA зависит от regras de localização: B2B услуги зарубежной компании часто идут без португальского IVA / reverse charge или operação fora do campo; B2C и специальные услуги, включая digital services, могут облагаться иначе. Проверяйте по типу услуги и статусу клиента.\"",
+        "confidence": "high",
+        "source": "Código do IVA, artigo 6.º; EU VAT place-of-supply rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].text",
+        "current": "Для португальских клиентов — 11.5%, 16.5% или 25% удерживается автоматически. Для иностранных — 0.",
+        "problem": "Wrong/overbroad. Withholding is not 'automatic' and not for all Portuguese clients. It generally applies when the payer is an entity with organized accounting or legally required to withhold; private individuals normally do not withhold. Many small category B taxpayers can use dispensa de retenção if conditions are met. The rate depends on activity/income type, and the taxpayer must select the correct option in Finanças.",
+        "suggestion": "Write: \"Retenção na fonte применяется не всегда: обычно когда португальский клиент — компания/entidade with organized accounting obliged to withhold. Частные лица обычно не удерживают. Малые TI могут иметь dispensa de retenção при условиях CIRS art. 101.º-B. Ставки зависят от типа дохода: часто 25% для professional services art. 151.º, 11,5% для некоторых иных доходов, 16,5% для отдельных IP/other cases.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigos 101.º and 101.º-B"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0]",
+        "current": "База налога = 75% от оборота (25% автоматического вычета)",
+        "problem": "Again presented as universal. In the simplified regime, the 75% coefficient applies only to certain service/professional income; other coefficients apply to sales, hotel/local lodging, subsidies, non-listed services, etc.",
+        "suggestion": "Replace with: \"Для многих профессиональных услуг база IRS = 75% оборота; для других типов дохода в Regime Simplificado действуют другие коэффициенты по CIRS art. 31.º.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 31.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[1]",
+        "current": "Применяется шкала IRS (13%-48%)",
+        "problem": "Potentially misleading because IRS rates are progressive and apply after deductions and aggregation rules; solidarity surcharge may also apply at high income levels. The bracket rates can change annually with the State Budget.",
+        "suggestion": "Write: \"К налогооблагаемой базе после deductions применяется прогрессивная шкала IRS; максимальная ставка 48% плюс возможная solidarity surcharge для высоких доходов. Проверяйте шкалу на год декларации.\"",
+        "confidence": "medium",
+        "source": "Código do IRS, artigo 68.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[2]",
+        "current": "Соц. взносы (21.4% от 70% оборота)",
+        "problem": "Incomplete and partly wrong as a general rule. For services the relevant income is generally 70%; for production/sales it is 20%. It is calculated quarterly based on declared income from the previous quarter, not simply annually on 70% of total turnover.",
+        "suggestion": "Write: \"Segurança Social: ставка TI 21,4% применяется к base de incidência contributiva, рассчитанной по квартальной декларации; обычно 70% дохода от услуг или 20% дохода от продаж/производства, с установленными лимитами и опциями корректировки.\"",
+        "confidence": "high",
+        "source": "Segurança Social — Trabalhadores Independentes; Código dos Regimes Contributivos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3]",
+        "current": "Квартальные авансы IRS с июля второго года деятельности",
+        "problem": "Misleading. Pagamentos por conta are not automatically 'from July of the second year'. They are calculated by AT based on prior-year tax/category B income and may be reduced or waived depending on withholding and assessed tax. Payment deadlines are normally July, September and December.",
+        "suggestion": "Write: \"Pagamentos por conta IRS могут быть назначены AT на основании предыдущей декларации IRS; сроки обычно июль, сентябрь и декабрь. Это не универсальное правило для всех со второго года.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 102.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[2].text",
+        "current": "Для IFICI-субъектов: 20% плоская ставка на квалифицированную деятельность.",
+        "problem": "Mostly directionally correct but too terse for a sensitive tax regime. IFICI applies only to eligible taxpayers and eligible activities/income, requires registration and meeting legal conditions; it is not a general 20% flat tax for all self-employment income.",
+        "suggestion": "Write: \"Если вы зарегистрированы и приняты в IFICI/NHR 2.0 и ваш доход относится к eligible activities, соответствующий Portuguese employment/self-employment income может облагаться по специальной ставке 20%; условия и перечень atividades нужно проверять отдельно.\" Add an official source for IFICI.",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais, artigo 58.º-A; Portaria 352/2024/1"
+      },
+      {
+        "severity": "minor",
+        "where": "tips.content[0].items[1]",
+        "current": "Храните все recibos 10 лет",
+        "problem": "Not necessarily wrong as a conservative practice, but misleading without context. Different tax record retention periods may apply depending on VAT/accounting/tax situation. For many IRS correction/inspection purposes the practical limitation period is often shorter, while accounting documents can have 10-year retention.",
+        "suggestion": "Write: \"Храните faturas/recibos и supporting documents минимум в течение налогового срока проверки; для бухгалтерских документов часто используют 10 лет как безопасный срок. Если вы в IVA/contabilidade organizada — уточните retention period у contabilista.\"",
+        "confidence": "medium",
+        "source": "Lei Geral Tributária; Código Comercial / accounting record retention rules"
+      },
+      {
+        "severity": "minor",
+        "where": "tips.content[0].items[4]",
+        "current": "Первый год без соц. взносов — отличная возможность начать",
+        "problem": "Overgeneralizes the initial Social Security exemption and may encourage planning based on a rule that may not apply if the person has previous TI enquadramento, opts to contribute earlier, or falls under another special situation.",
+        "suggestion": "Write: \"Если это ваш первый enquadramento как trabalhador independente, обычно есть начальный период без обязательных взносов; проверьте дату начала обязательств в Segurança Social Direta.\"",
+        "confidence": "high",
+        "source": "Segurança Social — Trabalhadores Independentes"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Portal das Finanças — Recibos Verdes / https://www.portaldasfinancas.gov.pt/",
+        "problem": "The source URL is only the generic homepage, not a direct official page for recibos verdes, VAT exemption, withholding or IRS category B rules. For a tax guide, this is too weak and hard to verify.",
+        "suggestion": "Use direct AT/Finanças pages or legal sources for: início/alteração de atividade, emissão de fatura-recibo, CIRS category B, CIVA article 53 exemption, retenção na fonte and pagamentos por conta.",
+        "confidence": "high",
+        "source": "Portal das Finanças; Código do IRS; Código do IVA"
+      }
+    ],
+    "missing_topics": [
+      "Quarterly Segurança Social declaration deadlines and payment deadlines",
+      "How to choose CIRS vs CAE activity codes and why the choice affects tax/withholding",
+      "VAT exemption conditions under CIVA article 53, annualization when starting mid-year, and what happens when the threshold is exceeded",
+      "EU B2B clients: VIES VAT number validation and reverse-charge wording on invoices",
+      "B2C cross-border VAT caveats, especially digital services/OSS rules",
+      "Retenção na fonte exemption/dispensa de retenção and when Portuguese clients are actually obliged to withhold",
+      "Difference between fatura, fatura-recibo and recibo",
+      "Annual IRS Modelo 3 Annex B and e-Fatura expense validation",
+      "Official legal sources for CIRS, CIVA and IFICI instead of only generic portal links"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4785,
+    "prompt_tokens": 2221,
+    "total_tokens": 7006
+  },
+  "model": "gpt-5.5"
+}

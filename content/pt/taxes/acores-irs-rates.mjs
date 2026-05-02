@@ -1,0 +1,139 @@
+export default {
+  editorialVoice: 'hackportugal',
+  id: 'acores-irs-rates',
+  categoryId: 'taxes',
+  title: 'IRS nos Açores: tabelas de retenção separadas para 2026 para residentes da RA',
+  tldr: 'Se você for residente fiscal da Região Autónoma dos Açores, o salário ou a pensão em 2026 não é retido segundo as tabelas do Continente nem da Madeira, mas sim segundo as tabelas de retenção na fonte dos Açores, aprovadas pelo Despacho 1179/2026. Trata-se de uma retenção antecipada de IRS, não do imposto final: o apuramento final continua a ser feito na declaração Modelo 3 relativa a 2026, em 2027. Confirme que o empregador/fundo de pensões aplica especificamente os Açores, sobretudo em caso de trabalho remoto para uma empresa do continente.',
+  tags: ['irs', 'açores', 'impostos', 'retenção'],
+  estimatedReadMinutes: 5,
+  steps: [
+    {
+      id: 'what-is-different',
+      title: 'O que é diferente nos Açores',
+      content: [
+        { kind: 'paragraph', text: 'A Região Autónoma dos Açores tem as suas próprias tabelas de retenção na fonte para IRS. Em 2026, estas foram aprovadas pelo Despacho 1179/2026 e aplicam-se separadamente das tabelas do Continente e da Madeira.' },
+        { kind: 'paragraph', text: 'A retenção na fonte é um adiantamento mensal de IRS que o empregador, o fundo de pensões ou outro pagador retém sobre o rendimento. Não é a taxa final de imposto: o montante definitivo é calculado depois da entrega da Modelo 3 em 2027, tendo em conta todos os rendimentos, deduções, composição do agregado familiar e residência.' },
+        { kind: 'checklist', items: [
+          'Se vive e é residente fiscal nos Açores — aplicam-se as tabelas dos Açores.',
+          'Se o empregador está em Lisboa/Porto, mas a sua residência fiscal e morada nas Finanças são nos Açores, a retenção deve ser feita pelas tabelas dos Açores.',
+          'Se vive no continente, mas o empregador está registado nos Açores — as tabelas dos Açores não se aplicam por si só.',
+          'A Madeira tem as suas próprias tabelas; não se deve misturar Madeira e Açores.',
+          'Para recibos verdes, a retenção normal depende do tipo de rendimento e das regras do CIRS, não da tabela salarial do trabalhador.'
+        ] }
+      ]
+    },
+    {
+      id: 'who-uses',
+      title: 'A quem isto interessa em 2026',
+      content: [
+        { kind: 'paragraph', text: 'Na prática, isto diz respeito a todas as pessoas que recebem salário ou pensão e têm morada fiscal nos Açores: São Miguel, Terceira, Faial, Pico, Santa Maria, São Jorge, Graciosa, Flores ou Corvo.' },
+        { kind: 'checklist', items: [
+          'Trabalhadores por conta de outrem com contrato de trabalho.',
+          'Pensionistas com pensão sujeita a IRS em Portugal.',
+          'Expatriados com D7/D8/D1-D3 que já se tornaram residentes fiscais nos Açores.',
+          'Trabalhadores de empresas portuguesas que trabalham remotamente a partir dos Açores.',
+          'Famílias em que um dos cônjuges trabalha para uma empresa do continente, mas o agregado familiar está registado nos Açores.',
+          'Pessoas que se mudaram do Continente para os Açores durante 2026 e actualizaram a morada fiscal.'
+        ] },
+        { kind: 'warning', text: 'O principal risco é o payroll aplicar o Continente por inércia. A diferença só é detectada no recibo de vencimento ou no IRS anual, quando pode surgir um pagamento adicional ou um reembolso inesperado.' }
+      ]
+    },
+    {
+      id: 'check-payroll',
+      title: 'Como confirmar que a retenção está correcta',
+      content: [
+        { kind: 'paragraph', text: 'A verificação demora 10 minutos. Precisa do recibo de vencimento de um mês de 2026, do seu estado familiar para IRS e da confirmação da morada fiscal nas Finanças.' },
+        { kind: 'substeps', items: [
+          { id: 'address', title: '1. Verifique a morada fiscal', content: [
+            { kind: 'paragraph', text: 'No Portal das Finanças, abra Dados Pessoais → Morada Fiscal. A morada deve estar nos Açores. Se a morada ainda for do continente, o payroll pode formalmente aplicar a tabela errada.' }
+          ] },
+          { id: 'payslip', title: '2. Abra o recibo de vencimento', content: [
+            { kind: 'checklist', items: [
+              'Encontre a linha IRS ou Retenção IRS.',
+              'Verifique a base mensal: salário base + suplementos regulares, se forem tributáveis.',
+              'Verifique se existem linhas separadas para subsídio de refeição, duodécimos, prémios.',
+              'Compare a retenção com a tabela dos Açores para o seu estatuto: não casado, casado 1 titular, casado 2 titulares, dependentes.',
+              'Se o valor coincidir com a tabela do Continente e você for residente nos Açores — contacte o payroll.'
+            ] }
+          ] },
+          { id: 'ask-hr', title: '3. Peça aos RH para corrigirem', content: [
+            { kind: 'paragraph', text: 'Escreva de forma breve: “A minha morada fiscal é na Região Autónoma dos Açores. Peço a aplicação das tabelas de retenção na fonte de IRS dos Açores para 2026, aprovadas pelo Despacho 1179/2026.” Anexe um comprovativo de morada fiscal, se o solicitarem.' }
+          ] }
+        ] }
+      ]
+    },
+    {
+      id: 'not-final-tax',
+      title: 'Não confunda retenção com IRS final',
+      content: [
+        { kind: 'paragraph', text: 'A tabela de retenção apenas determina quanto deve ser retido agora. O IRS final de 2026 é calculado em 2027 na declaração Modelo 3. Aí são tidas em conta as taxas progressivas, deduções, dependentes, despesas gerais familiares, saúde, educação, rendas, PPR e outras deduções.' },
+        { kind: 'checklist', items: [
+          'Uma retenção mensal menor não significa que o imposto tenha sido “perdoado”.',
+          'Se foi retido demasiado pouco — haverá uma nota de cobrança a pagar após a liquidação.',
+          'Se foi retido demasiado — haverá reembolso.',
+          'Em caso de mudança de região a meio do ano, são importantes as datas de residência efectiva e fiscal.',
+          'Rendimentos do estrangeiro são declarados separadamente; a tabela de retenção do empregador não os vê.',
+          'Ter IFICI, antigo NHR ou regime favorável não elimina a obrigação de verificar o payroll.'
+        ] },
+        { kind: 'warning', text: 'Se recebe salário estrangeiro sem payroll português, as tabelas de retenção na fonte podem nem sequer aplicar-se. Mas isso não isenta de IRS: o rendimento pode ainda assim ter de ser declarado em Portugal enquanto residente fiscal.' }
+      ]
+    },
+    {
+      id: 'minimum-wage-and-thresholds',
+      title: 'Contexto de 2026: SMN, IAS e rendimentos baixos',
+      content: [
+        { kind: 'paragraph', text: 'Em 2026, o salário mínimo nacional é de 920 € por mês, e o IAS é de 537,13 €. Estes valores são importantes para cálculos sociais e fiscais, mas não substituem as tabelas de retenção. Para salários, deve consultar especificamente a tabela dos Açores 2026 de acordo com o tipo de agregado familiar e o número de dependentes.' },
+        { kind: 'paragraph', text: 'Se o salário estiver próximo do SMN, a retenção de IRS pode ser nula ou baixa, consoante a situação familiar. Mas a Segurança Social é normalmente retida separadamente: em regra, 11% a cargo do trabalhador por contrato de trabalho, se não existir um regime especial.' },
+        { kind: 'warning', text: 'Não utilize calculadoras “Portugal 2026” sem escolher a região. Muitas calculadoras online assumem o Continente por defeito e dão uma retenção incorrecta para os Açores.' }
+      ]
+    },
+    {
+      id: 'moving-region',
+      title: 'Se se mudar entre Continente, Madeira e Açores',
+      content: [
+        { kind: 'paragraph', text: 'Ao mudar de região, a região para efeitos de retenção não se altera magicamente. É necessário actualizar a morada fiscal e informar o empregador. Para cidadãos com Cartão de Cidadão, isto é feito através do ePortugal/CMD ou presencialmente; para estrangeiros com autorização de residência — através do Portal das Finanças ou atendimento, consoante o acesso.' },
+        { kind: 'checklist', items: [
+          'Actualize a morada fiscal imediatamente após a mudança.',
+          'Guarde o comprovativo de alteração de morada.',
+          'Informe os RH/payroll sobre o mês a partir do qual devem aplicar os Açores.',
+          'Verifique o recibo de vencimento seguinte.',
+          'Se a retenção foi feita pela tabela antiga durante vários meses, peça uma correcção no payroll.',
+          'Em caso de dúvida, mostre ao contabilista todos os payslips do ano e as datas da mudança.'
+        ] },
+        { kind: 'paragraph', text: 'Os erros de retenção são normalmente corrigidos nos meses seguintes de payroll ou através da liquidação final de IRS. Mas é melhor corrigir durante o ano, para evitar um pagamento adicional elevado na Primavera-Verão de 2027.' }
+      ]
+    }
+  ],
+  sources: [
+    {
+      title: 'Portal das Finanças: tabelas de retenção na fonte de IRS',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/tabela_ret_doclib/Pages/default.aspx',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'Código do IRS no Portal das Finanças',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs99.aspx',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'PwC Inforfisco: IRS — tabelas de retenção na fonte 2026',
+      url: 'https://www.pwc.pt/pt/pwcinforfisco/flash/irs-e-seguranca-social/irs-tabela-taxas-retencao-fonte-continente-20260.html',
+      kind: 'company',
+      language: 'pt',
+      lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'TOC Online: actualização das tabelas de IRS para os Açores',
+      url: 'https://toconline.pt/novidades/atualizacao-das-tabelas-de-irs-para-os-acores/',
+      kind: 'news',
+      language: 'pt',
+      lastRetrieved: '2026-04-28'
+    }
+  ],
+  lastVerified: '2026-04-28',
+  verifyIntervalDays: 90
+}

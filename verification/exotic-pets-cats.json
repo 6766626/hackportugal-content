@@ -1,0 +1,242 @@
+{
+  "guideId": "exotic-pets-cats",
+  "categoryId": "animals",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has several material errors on cat licensing, third-country pet import rules, CITES/invasive-species status, and overstates microchip/DGAV registration requirements for exotics.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Licença от Junta — 5-15 €/год (в большинстве муниципалитетов).",
+        "problem": "Misleading: annual parish Junta licensing is a dog regime, not a general legal requirement for cats. Cats must be identified/registered in SIAC, but there is normally no annual Junta cat licence comparable to dogs.",
+        "suggestion": "Write: \"Кошки: обязательны microchip + регистрация в SIAC; ежегодная licença da Junta обычно относится к собакам, не к кошкам. Уточняйте только местные муниципальные правила/программы.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019; Decreto-Lei 314/2003 / Portaria 421/2004 for dog licensing"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Кошки получили обязательный chip-режим с **22 декабря 2022** (DL 82/2019, постепенный rollout).",
+        "problem": "Wrong date. DL 82/2019 entered into force in 2019 and required identification of cats/ferrets; the transitional deadline for cats/ferrets born before entry into force was 36 months after entry into force, i.e. October 2022, not 22 December 2022.",
+        "suggestion": "Write: \"DL 82/2019 ввёл обязательную идентификацию кошек и хорьков; для животных, уже родившихся до вступления закона в силу, переходный срок закончился в октябре 2022. Сейчас кошки должны быть чипированы и зарегистрированы в SIAC до 120 дней после рождения.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019, artigos 4.º and transitional provisions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "📋 **Licença от Junta**: ~5-15 €/год; не везде требуется (smaller municipios могут не enforce)",
+        "problem": "Frames cat Junta licence as a real but weakly enforced requirement. This is misleading: the ordinary annual Junta licence regime is for dogs. Non-enforcement by smaller municipalities is not the reason.",
+        "suggestion": "Replace with: \"📋 Junta: для кошек обычно нет ежегодной licença как для собак; главное — SIAC. Возможны местные программы/реестры, но это не общенациональная cat licence.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019; Portaria 421/2004"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[3]",
+        "current": "🔍 **Идентификация**: chip номер + Junta license medalha (опционально на ошейнике)",
+        "problem": "Junta licence medal is a dog-licensing concept and should not be presented as normal cat identification.",
+        "suggestion": "Write: \"Идентификация: microchip/SIAC. Ошейник с контактом владельца — полезно, но не заменяет SIAC и не является Junta medalha.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "\"label\": \"Junta license cat\", \"amountEURMin\": 5, \"amountEURMax\": 15",
+        "problem": "Cost item is based on a misleading premise: there is generally no annual Junta licence for cats.",
+        "suggestion": "Remove this cost line or rename to a clearly local/optional municipal fee only if a specific municipality is cited. Add SIAC registration/microchip vet fee instead.",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "🇷🇺 RU = high-risk страна — **rabies titration test** (анализ крови) обязателен",
+        "problem": "Wrong for Russia under EU pet-travel rules: Russia is a listed third country for non-commercial movement of dogs/cats/ferrets, so an EU rabies antibody titration test is not generally required if microchip and valid rabies vaccination requirements are met. Brazil is unlisted and does require titration; Ukraine should be checked against current EU list/derogations.",
+        "suggestion": "Write: \"Для не-ЕС стран проверяйте, входит ли страна в EU listed third countries. Для listed countries, e.g. Russia and USA, usually no rabies titre test; for unlisted countries, e.g. Brazil, rabies antibody test ≥0.5 IU/ml and 3-month wait are required.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 576/2013; Commission Implementing Regulation (EU) 577/2013, Annex II"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].title",
+        "current": "Из не-ЕС (RU, UA, US, BR)",
+        "problem": "The listed countries have different rabies-status treatment. Putting RU, UA, US and BR in one checklist makes the later rules inaccurate: US and Russia are listed countries; Brazil is unlisted; Ukraine may require current verification/derogation status.",
+        "suggestion": "Split into two subsections: \"listed third countries\" and \"unlisted third countries\"; give examples and link to the EU/DGAV list.",
+        "confidence": "high",
+        "source": "Regulation (EU) 576/2013; Commission Implementing Regulation (EU) 577/2013, Annex II"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[3]",
+        "current": "**AHC (Animal Health Certificate)** от государственного ветеринара country of origin",
+        "problem": "Terminology is confusing for EU entry. The document is the EU-model animal health certificate for non-commercial movement, completed by an authorised/official veterinarian depending on the country and endorsed as required by the competent authority. 'AHC' is often a UK term and can confuse readers.",
+        "suggestion": "Write: \"EU-model animal health certificate for non-commercial movement of dogs/cats/ferrets, issued/endorsed by the competent veterinary authority of the country of origin within the required validity period.\"",
+        "confidence": "medium",
+        "source": "Regulation (EU) 576/2013; Commission Implementing Regulation (EU) 577/2013"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[4]",
+        "current": "Apostille + перевод PT/EN",
+        "problem": "Misleading. EU pet-entry animal health certificates are official EU model certificates; an apostille is not a standard EU animal-health import requirement. Language requirements depend on the official model and Member State; telling readers to apostille is likely wrong and can cause unnecessary work.",
+        "suggestion": "Replace with: \"Используйте официальный EU-model certificate на языке, принимаемом пунктом въезда/Португалией; apostille обычно не требуется для ветеринарного сертификата.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 576/2013; Commission Implementing Regulation (EU) 577/2013"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[6]",
+        "current": "Можно через DGAV import permit заранее, particularly для редких пород",
+        "problem": "Misleading for cats: normal non-commercial movement of cats into Portugal does not require a DGAV import permit because the breed is rare. What matters is EU pet-travel compliance and entry via a designated travellers' point of entry; CITES only applies to protected species, not domestic cat breeds.",
+        "suggestion": "Write: \"Для обычной кошки import permit DGAV не нужен; въезд через designated travellers' point of entry с проверкой документов. CITES/import permits are relevant only for protected wild species/hybrids where applicable, not ordinary cat breeds.\"",
+        "confidence": "high",
+        "source": "DGAV non-commercial movement of pets; Regulation (EU) 576/2013"
+      },
+      {
+        "severity": "major",
+        "where": "costs[4]",
+        "current": "\"label\": \"Import permit DGAV\", \"amountEURMin\": 30, \"amountEURMax\": 80",
+        "problem": "Presented as a normal pet-import cost, but ordinary non-commercial import of cats/dogs/ferrets does not normally require a DGAV import permit.",
+        "suggestion": "Remove from generic costs or clarify: \"Only for specific regulated animal-health/CITES/commercial cases; not normal cat import.\"",
+        "confidence": "high",
+        "source": "DGAV non-commercial movement of pets; Regulation (EU) 576/2013"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Экзотические (рептилии, птицы, грызуны): требуется microchip + DGAV regis для CITES/protected species.",
+        "problem": "Overbroad and wrong authority. Not all exotic pets require microchips. CITES in Portugal is handled mainly by ICNF, not DGAV. Marking can be by closed ring, microchip/transponder, documentation, or other species-specific method.",
+        "suggestion": "Write: \"Для CITES/protected species нужны документы законного происхождения и, в зависимости от вида, маркировка closed ring/microchip; CITES authority — ICNF. DGAV is relevant for animal-health/import controls, not general CITES registration.\"",
+        "confidence": "high",
+        "source": "ICNF CITES; Council Regulation (EC) 338/97; Commission Regulation (EC) 865/2006"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[1]",
+        "current": "- African Grey, Cockatoos, Macaws, Amazons — Annex II",
+        "problem": "Incorrect CITES/EU status for at least African grey parrots. African grey parrots are CITES Appendix I and generally EU Annex A, not Annex II. Some macaws/cockatoos are also Appendix I/Annex A depending on species.",
+        "suggestion": "Write: \"Many parrots are CITES-listed; status varies by species. African grey is CITES Appendix I / EU Annex A; many Amazons, macaws and cockatoos may be Annex A or B. Check species Latin name in Species+ / ICNF before buying/importing.\"",
+        "confidence": "high",
+        "source": "CITES Appendices; EU Wildlife Trade Regulations; Species+"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[4]",
+        "current": "Birds < 180g (small parakeets) — exempt от ringing rules",
+        "problem": "Overbroad and likely wrong. There is no simple blanket exemption for all birds under 180g from CITES marking/identification rules. For CITES birds, legal-origin documentation and closed-ring/transponder requirements depend on species, annex, transaction type and whether captive-bred.",
+        "suggestion": "Remove the 180g rule. Write: \"Маркировка CITES birds зависит от вида и annex: closed ring or transponder may be required; always verify with ICNF before sale/import/export.\"",
+        "confidence": "medium",
+        "source": "Commission Regulation (EC) 865/2006; ICNF CITES guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].items[0]",
+        "current": "Без специальной регистрации",
+        "problem": "Too broad for pet birds. Common budgies/canaries may not need CITES registration, but movement/import of birds is subject to strict avian-influenza animal-health rules, and CITES may apply to some species sold as 'parakeets/lovebirds'.",
+        "suggestion": "Write: \"For ordinary non-CITES birds bought legally inside Portugal, no CITES registration; but import/movement rules for birds are stricter than for many pets, especially from outside the EU.\"",
+        "confidence": "medium",
+        "source": "Regulation (EU) 576/2013 excludes birds from dog/cat/ferret pet regime; EU animal-health rules for captive birds"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[0].items[0].content[0].items[0]",
+        "current": "Bearded dragons, leopard geckos, corn snakes, ball pythons (small), tortoises (Hermann's, Russian) — common in pet stores",
+        "problem": "Misleading under 'Allowed without licence'. Hermann's tortoise and Russian tortoise are CITES/EU-listed species and require legal-origin documents; Hermann's tortoise is generally EU Annex A. Ball pythons are also CITES Appendix II/EU Annex B. These are not simply 'without licence/documents'.",
+        "suggestion": "Write: \"Commonly sold reptiles may still be CITES-listed. Ball python = CITES Appendix II/EU Annex B; Hermann's tortoise = usually EU Annex A; Russian tortoise = CITES Appendix II/EU Annex B. Buy only with correct CITES/legal-origin documents and, where applicable, marking.\"",
+        "confidence": "high",
+        "source": "Council Regulation (EC) 338/97; CITES Appendices; Species+"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[2]",
+        "current": "Iguanas, common geckos: ok",
+        "problem": "Green/common iguana is problematic: Iguana iguana is on the EU list of invasive alien species of Union concern, with restrictions on keeping, sale, transport and breeding subject to transitional rules for existing pets. Saying 'ok' is unsafe.",
+        "suggestion": "Write: \"Green iguana/common iguana: check EU invasive-alien-species rules; new acquisition/trade may be prohibited or restricted, with transitional duties for animals already kept.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 1143/2014; Commission Implementing Regulation adding Iguana iguana to Union list"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[1].items[2]",
+        "current": "🐍 Burmese python, anaconda — wild risk",
+        "problem": "This is not a reliable statement of the legal position. Burmese python is on the EU invasive alien species Union list; anacondas are not all treated the same and may instead be governed by dangerous-animal/CITES rules. The guide should not imply both are simply 'banned species' on the same basis.",
+        "suggestion": "Write: \"Burmese python: EU invasive-alien-species restrictions. Large constrictors/anacondas: check Portuguese dangerous-animal rules and CITES status by exact species; do not assume all have the same ban.\"",
+        "confidence": "medium",
+        "source": "Regulation (EU) 1143/2014; EU Union list of invasive alien species; Portuguese dangerous-animal rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[1].items[1]",
+        "current": "🐦 Indian myna, ringneck parakeet — ban в дикой природе",
+        "problem": "Confusing and incomplete. Indian/ common myna is an EU invasive alien species of Union concern; restrictions are not merely 'in the wild'. Rose-ringed parakeet/ringneck status depends on Portuguese/national invasive rules rather than the EU Union list in the same way, so the two should not be lumped together without source.",
+        "suggestion": "Write separately: \"Common/Indian myna: EU IAS restrictions. Rose-ringed parakeet: check Portuguese national invasive-species list and local rules; never release birds into the wild.\"",
+        "confidence": "medium",
+        "source": "Regulation (EU) 1143/2014; Portuguese invasive species list"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[1].items[6]",
+        "current": "Список целиком: ec.europa.eu/environment/invasive-species",
+        "problem": "URL is outdated/incomplete and not the best source for the actual Union list.",
+        "suggestion": "Use the current Commission page and/or official Union list page: \"https://environment.ec.europa.eu/topics/nature-and-biodiversity/invasive-alien-species_en\" plus the official implementing regulations/Union list.",
+        "confidence": "high",
+        "source": "European Commission invasive alien species page"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[3]",
+        "current": "Banned: piranhas, certain cichlids invasive в Algarve waterways",
+        "problem": "Unsourced and too vague. Portugal/EU invasive-species restrictions are species-specific. 'Certain cichlids invasive in Algarve waterways' is not a usable legal rule for pet owners, and piranha status should be tied to the dangerous-wild-animal regime if applicable.",
+        "suggestion": "Replace with: \"For fish, check the EU/Portuguese invasive-species lists and never release aquarium animals. If a species is dangerous or invasive, sale/keeping/transport may be restricted by exact scientific name.\"",
+        "confidence": "medium",
+        "source": "Regulation (EU) 1143/2014; Portuguese invasive species legislation"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[4]",
+        "current": "Ввоз из не-ЕС: AHC + animal health certificate; rabies vaccine не нужна для grызунов",
+        "problem": "Duplicate/confusing wording and typo. For rodents/rabbits the import rules are not the dog/cat/ferret pet-passport regime; Portugal/EU may require species-specific veterinary certificates or conditions depending on origin and purpose.",
+        "suggestion": "Write: \"Ввоз кроликов/грызунов из не-ЕС: проверяйте DGAV requirements by species and origin; rabies vaccine is not the relevant requirement, but an official veterinary/health certificate may be required.\"",
+        "confidence": "medium",
+        "source": "DGAV animal-health import guidance"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "\"DGAV — animais de companhia\", \"url\": \"https://www.dgav.pt/\"",
+        "problem": "Too generic for sensitive import rules. The guide gives detailed claims on EU/non-EU pet import, rabies titres and certificates but cites only DGAV homepage.",
+        "suggestion": "Add specific DGAV pages for non-commercial movement of pets, travellers' points of entry, and import conditions for birds/other animals, plus the EU regulations.",
+        "confidence": "high",
+        "source": "DGAV; Regulation (EU) 576/2013; Commission Implementing Regulation (EU) 577/2013"
+      },
+      {
+        "severity": "major",
+        "where": "sources[1]",
+        "current": "\"ICNF — CITES Portugal\", \"url\": \"https://www.icnf.pt/\"",
+        "problem": "Too generic for CITES claims. The guide makes species-level statements on parrots, tortoises, reptiles and permits but does not cite ICNF CITES pages, Species+, or EU Wildlife Trade Regulations.",
+        "suggestion": "Add ICNF CITES-specific URL, Species+ species lookup, Council Regulation (EC) 338/97 and Commission Regulation (EC) 865/2006.",
+        "confidence": "high",
+        "source": "ICNF CITES; Species+; Council Regulation (EC) 338/97; Commission Regulation (EC) 865/2006"
+      }
+    ],
+    "missing_topics": [
+      "Clear distinction between SIAC identification for cats/dogs/ferrets and annual Junta licensing for dogs",
+      "EU pet import distinction between listed and unlisted third countries for rabies titre testing",
+      "Designated travellers' points of entry and advance contact/checking with DGAV for pets entering Portugal from outside the EU",
+      "Strict bird import rules from non-EU countries, including avian-influenza related certification/quarantine/testing conditions",
+      "CITES/EU Annex A vs Annex B consequences: legal-origin documents, sale certificates, marking and species Latin-name lookup",
+      "Portuguese/EU invasive alien species rules for existing pets: no breeding, no sale/transfer, secure keeping, no release, and possible transitional rules",
+      "Warning that releasing aquarium fish, turtles, birds or exotic pets into the wild is illegal and ecologically harmful",
+      "Species-specific source links: DGAV pet movement pages, ICNF CITES pages, Species+, and official EU Union list of invasive alien species"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6269,
+    "prompt_tokens": 3474,
+    "total_tokens": 9743
+  },
+  "model": "gpt-5.5"
+}

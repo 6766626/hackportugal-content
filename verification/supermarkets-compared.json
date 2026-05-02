@@ -1,0 +1,134 @@
+{
+  "guideId": "supermarkets-compared",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезен, но содержит несколько чрезмерно категоричных или фактически неточных утверждений про скидки, доставку, IRS-вычеты и источники.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tips.content[0].items[6]",
+        "current": "Faturas с NIF — идут в IRS вычет (35% от faturas до €250/год)",
+        "problem": "Формулировка слишком широкая и может ввести в заблуждение: это не «все faturas» и не отдельный вычет именно за супермаркеты. Обычно такие покупки попадают в categoria «despesas gerais familiares»: 35% расходов до лимита €250 на налогоплательщика, при условии что покупатель является налоговым резидентом/подаёт IRS и счёт корректно попал в e-Fatura. Для неполных семей лимит/процент могут отличаться.",
+        "suggestion": "Написать: «Если вы налоговый резидент PT и подаёте IRS, просите fatura com NIF: супермаркеты обычно идут в e-Fatura как despesas gerais familiares — 35% расходов, максимум €250 на налогоплательщика в год; проверяйте/подтверждайте счета в Portal e-Fatura».",
+        "confidence": "high",
+        "source": "Código do IRS, art. 78.º-B; Autoridade Tributária / Portal e-Fatura"
+      },
+      {
+        "severity": "major",
+        "where": "tips.content[0].items[5]",
+        "current": "Доставка: Continente Online, Pingo Doce Casa, Mercadão — 5-10€, бесплатно от 75€",
+        "problem": "Единый порог «бесплатно от 75€» некорректен как общее правило. Стоимость и пороги доставки зависят от сети, зоны, слота, веса/суммы заказа, подписок и акций; у Mercadão условия также зависят от партнёрского магазина и адреса.",
+        "suggestion": "Написать: «Доставка: Continente Online, Pingo Doce Casa, Mercadão. Обычно есть fee за доставку/сервис, но цена, минимум заказа и бесплатные слоты зависят от адреса, времени и текущих акций — проверяйте в app перед заказом».",
+        "confidence": "high",
+        "source": "Continente Online delivery terms; Pingo Doce Casa help/terms; Mercadão help/terms"
+      },
+      {
+        "severity": "major",
+        "where": "cards.content[0].items[1]",
+        "current": "Pingo Doce: app показывает персональные купоны. Пятничные -50% — активировать в app ДО покупки.",
+        "problem": "«Пятничные -50%» представлены как стабильное правило, но это не гарантированная еженедельная механика. У Pingo Doce бывают кампании с -50% на категории/товары, персональные купоны и условия активации, но они меняются по неделям и не всегда привязаны к пятнице или обязательной активации в app.",
+        "suggestion": "Заменить на: «Pingo Doce: app O Meu Pingo Doce показывает персональные купоны и кампании; крупные скидки вроде -50% бывают по акциям, но условия/дни меняются — проверяйте folheto и app до покупки».",
+        "confidence": "high",
+        "source": "Pingo Doce folhetos and O Meu Pingo Doce terms"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Программы лояльности ключевые — без них переплачиваете 10-20%.",
+        "problem": "Число 10–20% выглядит как неподтверждённая оценка. В Португалии часть скидок действительно доступна только с картой/app, но многие промо действуют для всех, а реальная экономия зависит от корзины и сети.",
+        "suggestion": "Написать мягче: «Карты/app часто нужны для лучших промо и персональных купонов; без них часть скидок недоступна, но экономия зависит от корзины».",
+        "confidence": "high",
+        "source": "Retailer loyalty programme terms: Continente Card, O Meu Pingo Doce, Lidl Plus, Auchan Card"
+      },
+      {
+        "severity": "minor",
+        "where": "cards.content[0].items[3]",
+        "current": "Каждая сеть выбрасывает 20-40% товаров в промо ежедневно",
+        "problem": "Непроверяемое и слишком категоричное утверждение. Доля товаров в промо меняется по сети, неделе, категории и формату магазина; «20–40% ежедневно» лучше не указывать без источника.",
+        "suggestion": "Заменить на: «У крупных сетей постоянно есть десятки/сотни товаров в промо, но набор меняется еженедельно; сверяйтесь с folheto и app».",
+        "confidence": "high",
+        "source": "Retailer weekly leaflets/folhetos"
+      },
+      {
+        "severity": "minor",
+        "where": "cards.content[0].items[4]",
+        "current": "Подписка на email-рассылки: folheto (флаер) выходит по вторникам",
+        "problem": "Не у всех сетей folheto выходит именно по вторникам. У разных сетей кампании стартуют в разные дни, а у Lidl/Aldi часто есть отдельные non-food циклы по нескольким дням недели.",
+        "suggestion": "Написать: «Подпишитесь на app/email: folheto обычно обновляется раз в неделю, но день старта зависит от сети».",
+        "confidence": "high",
+        "source": "Continente, Pingo Doce, Lidl, Aldi, Auchan weekly folhetos"
+      },
+      {
+        "severity": "minor",
+        "where": "tips.content[0].items[1]",
+        "current": "Мясо: Mercearia/Talho (мясная лавка) часто дешевле и свежее",
+        "problem": "Mercearia — это продуктовая/бакалейная лавка, а не мясная. Мясная лавка по-португальски — talho.",
+        "suggestion": "Написать: «Мясо: talho — мясная лавка; часто дешевле/свежее супермаркета. Mercearia — маленький продуктовый магазин».",
+        "confidence": "high",
+        "source": "Standard Portuguese usage"
+      },
+      {
+        "severity": "minor",
+        "where": "tips.content[0].items[2]",
+        "current": "Вино: Lidl для бюджетного хорошего (серия «Delicatessen»), El Corte Inglés для особого",
+        "problem": "В тексте выше правильно упоминается Lidl Deluxe; «Delicatessen» как название винной серии Lidl выглядит ошибочно/неточно. У Lidl Portugal обычно используются Deluxe, Cimarosa, regional/private labels и винные подборки, но не единая винная серия «Delicatessen».",
+        "suggestion": "Заменить на: «Вино: Lidl часто хорош для бюджетных вин и акционных подборок; El Corte Inglés — для премиального/редкого».",
+        "confidence": "medium",
+        "source": "Lidl Portugal product ranges"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[6].content[0].text",
+        "current": "Испанский премиум. Только Lisboa (Saldanha) и Gaia (V. N. de Gaia).",
+        "problem": "Формулировка может быть неточной: это верно для крупных универмагов El Corte Inglés, но продуктовый формат/онлайн-доставка и возможные Supercor/food locations в Greater Lisbon могут не сводиться только к Saldanha и Gaia. Для покупателя продуктов лучше уточнять именно store locator.",
+        "suggestion": "Написать: «Крупные универмаги El Corte Inglés — Lisboa/Saldanha и Vila Nova de Gaia; продуктовые форматы/доставка зависят от зоны — проверяйте store locator».",
+        "confidence": "medium",
+        "source": "El Corte Inglés Portugal store locator"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[7].content[0].text",
+        "current": "к 2026 распространилась на центр и Большой Лиссабон/юг — крупная сеть с десятками магазинов",
+        "problem": "«Юг» слишком расплывчато и может создать впечатление полноценного покрытия Algarve/Alentejo. Mercadona действительно быстро расширилась за пределы севера и имеет десятки магазинов, включая центр и Lisbon metropolitan area, но покрытие юга страны остаётся неравномерным и должно проверяться по store locator.",
+        "suggestion": "Написать: «к 2026 вышла за пределы севера — есть магазины в центре и в Lisbon metropolitan area; покрытие юга/Algarve проверяйте по store locator».",
+        "confidence": "medium",
+        "source": "Mercadona Portugal store locator"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].title",
+        "current": "ASAE — Autoridade de Segurança Alimentar",
+        "problem": "Неполное официальное название органа. ASAE — Autoridade de Segurança Alimentar e Económica.",
+        "suggestion": "Исправить на: «ASAE — Autoridade de Segurança Alimentar e Económica».",
+        "confidence": "high",
+        "source": "ASAE official website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "Banco de Portugal — платёжные системы MB Way",
+        "problem": "Источник нерелевантен содержанию: в гайде нет раздела про MB Way или платёжные системы. Banco de Portugal не подтверждает сведения о супермаркетах, картах лояльности, доставке или IRS-вычетах.",
+        "suggestion": "Удалить этот источник или добавить отдельный пункт про способы оплаты/MB Way. Для текущего текста лучше добавить ссылки на store locators/условия лояльности сетей и AT/e-Fatura для IRS-вычета.",
+        "confidence": "high",
+        "source": "Banco de Portugal; retailer official websites; Autoridade Tributária / e-Fatura"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "ASAE, Banco de Portugal, DGADR",
+        "problem": "Источники почти не подтверждают ключевые практические утверждения гайда: какие сети где есть, условия карт лояльности, доставка, скидки и IRS-вычет. Для daily-life гайда это не критично, но текущий набор источников создаёт ложное ощущение верификации.",
+        "suggestion": "Добавить официальные страницы Continente, Pingo Doce, Lidl Plus, Auchan, Aldi, Mercadona, El Corte Inglés store locator/loyalty terms; для IRS — Autoridade Tributária / e-Fatura.",
+        "confidence": "high",
+        "source": "Retailer official websites; Autoridade Tributária / Portal e-Fatura"
+      }
+    ],
+    "missing_topics": [
+      "Оговорка, что IRS/e-Fatura вычеты релевантны в первую очередь налоговым резидентам, подающим IRS в Португалии",
+      "Ссылки на официальные store locators сетей, потому что покрытие Mercadona/Minipreço/Auchan быстро меняется",
+      "Краткое упоминание Livro de Reclamações / ASAE для жалоб на магазины, цены, безопасность продуктов",
+      "Оговорка, что условия карт лояльности, доставки и бесплатных порогов часто меняются и зависят от адреса/магазина"
+    ]
+  },
+  "model": "gpt-5.5"
+}

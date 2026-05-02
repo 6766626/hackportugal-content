@@ -1,0 +1,258 @@
+{
+  "guideId": "cinemas-events",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по структуре, но содержит много слишком категоричных или устаревших утверждений о скидках, кинотеатрах, площадках и фестивалях на 2026 год.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«вторник -30% скидка во всех сетях (NOS, Cinemas UCI, Medeia)»",
+        "problem": "Слишком категорично: акции по вторникам зависят от сети, конкретного кинотеатра, типа сеанса, формата и текущей промо-кампании. Нельзя утверждать, что это действует «во всех сетях» и «все сеансы».",
+        "suggestion": "Заменить на: «У многих сетей бывают weekday/Tuesday promos, но условия нужно проверять на сайте конкретного кинотеатра; скидки не всегда действуют на IMAX/3D/премьеры/спецсеансы».",
+        "confidence": "high",
+        "source": "NOS Cinemas / UCI Cinemas Portugal / Medeia Filmes price and promotions pages"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Студенты и 65+ — скидка 30-50% почти везде.»",
+        "problem": "Обобщение вводит в заблуждение. Скидки для студентов, Cartão Jovem, пенсионеров/65+ сильно различаются по кинотеатрам, театрам, фестивалям и спортивным событиям; «почти везде» и «30–50%» не гарантированы.",
+        "suggestion": "Написать: «Студенческие, Cartão Jovem и senior discounts встречаются часто, но обычно зависят от организатора и требуют документ; размер скидки нужно проверять перед покупкой».",
+        "confidence": "high",
+        "source": "Cartão Jovem Portugal; individual venue ticket policies"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[1]",
+        "current": "«Cinemas UCI — Alta, CascaiShopping, GaiaShopping.»",
+        "problem": "Указаны неверные/сомнительные локации UCI. CascaiShopping — это NOS Cinemas, а не UCI. GaiaShopping также не является актуальной типичной локацией UCI; в районе Porto UCI известен по ArrábidaShopping.",
+        "suggestion": "Заменить на актуальные примеры: «Cinemas UCI — El Corte Inglés Lisboa, UBBO Amadora, ArrábidaShopping/Vila Nova de Gaia; проверяйте актуальный список на uci.pt».",
+        "confidence": "high",
+        "source": "UCI Cinemas Portugal official site"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[3]",
+        "current": "«Fnac cinemas — в некоторых магазинах Fnac, дешевле»",
+        "problem": "FNAC в Португалии — ритейлер и билетный канал, а не сеть коммерческих кинотеатров. В магазинах могут быть аудитории/ивенты, но это не «cinemas» в смысле регулярных кинопоказов с билетами как у NOS/UCI.",
+        "suggestion": "Удалить из списка кинотеатров или заменить на: «FNAC — продаёт билеты на мероприятия и иногда проводит бесплатные/промо-события в магазинах, но это не сеть кинотеатров».",
+        "confidence": "high",
+        "source": "FNAC Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[0]",
+        "current": "«Вторник DEAL — все сети, все сеансы: 5-7 €»",
+        "problem": "Неверно из-за слов «все сети, все сеансы». Акции могут исключать VIP, IMAX, 3D, special events, previews, праздничные дни и отдельные фильмы.",
+        "suggestion": "Заменить на: «Tuesday/weekday deals часто дают билеты около 5–7 €, но условия и исключения зависят от сети и сеанса».",
+        "confidence": "high",
+        "source": "NOS Cinemas / UCI Cinemas Portugal promotions terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[3]",
+        "current": "«Subscrição NOS (unlimited): 14.99-19.99 €/мес, окупается если >3 фильма/мес»",
+        "problem": "У NOS Cinemas нет общеизвестной постоянной nationwide unlimited cinema subscription по такой цене. У NOS более характерна выгода Cartão NOS/2-for-1 для клиентов NOS; без точной ссылки утверждение выглядит недостоверно.",
+        "suggestion": "Заменить на: «Cartão NOS обычно даёт промо типа 2 билета по цене 1 для клиентов NOS; подписки/пакеты и условия меняются — проверяйте NOS Cinemas». Если имеется в виду UCI Unlimited, указать именно UCI и актуальную цену.",
+        "confidence": "high",
+        "source": "NOS Cinemas; UCI Unlimited Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[4]",
+        "current": "«Большинство sessions after 18:00 — VO»",
+        "problem": "Слишком обобщённо. В Португалии действительно много фильмов идёт в VO с португальскими субтитрами, но время сеанса не является надёжным правилом; детские/семейные фильмы часто идут VP/dubbed, иногда есть и VO, и VP в разное время.",
+        "suggestion": "Написать: «Ориентируйтесь не на время, а на маркировку VO/VOST/VP в расписании».",
+        "confidence": "high",
+        "source": "NOS Cinemas / UCI programme listings"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[0]",
+        "current": "«Ticketline (ticketline.sapo.pt) — крупнейшая продавёнка»",
+        "problem": "URL выглядит устаревшим/редиректным. Бренд Ticketline сейчас обычно используется через ticketline.pt; старый домен SAPO может редиректить, но для гайда лучше давать основной актуальный адрес.",
+        "suggestion": "Заменить URL в тексте и sources на «https://ticketline.pt/» или проверить актуальный canonical URL перед публикацией.",
+        "confidence": "medium",
+        "source": "Ticketline official site"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[5]",
+        "current": "«MEO Blueticket — TV+билеты bundle»",
+        "problem": "Формулировка про «TV+билеты bundle» выглядит как выдуманное или как минимум неуниверсальное описание. Blueticket — билетная платформа/бренд MEO, но это не означает постоянный пакет TV+билеты для всех мероприятий.",
+        "suggestion": "Заменить на: «MEO Blueticket/Blueticket — билетная платформа для концертов, спорта и фестивалей; иногда бывают промо от MEO».",
+        "confidence": "medium",
+        "source": "Blueticket official site"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[0]",
+        "current": "«Altice Arena (Lisboa, Parque das Nações) — главная concert-площадка»",
+        "problem": "Название устарело: площадка снова называется MEO Arena. Для 2026 года «Altice Arena» как основное название вводит в заблуждение.",
+        "suggestion": "Заменить на: «MEO Arena, formerly Altice Arena (Lisboa, Parque das Nações)».",
+        "confidence": "high",
+        "source": "MEO Arena official site"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[3]",
+        "current": "«Teatro Nacional D. Maria II (Lisboa) — классический театр»",
+        "problem": "Не хватает критического caveat: основное здание Teatro Nacional D. Maria II на Rossio закрыто на реконструкцию, программа проходит в других локациях/форматах. Для приезжих это важно.",
+        "suggestion": "Добавить: «Основное здание D. Maria II закрыто на реконструкцию; спектакли идут в рамках programação em trânsito/на других площадках — проверяйте конкретный адрес в билете».",
+        "confidence": "high",
+        "source": "Teatro Nacional D. Maria II official renovation/programme information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[0]",
+        "current": "«Theatro Nacional: 10-30 €»",
+        "problem": "Опечатка/неправильное написание и неясно, какой именно театр имеется в виду. В Португалии официально «Teatro Nacional», не «Theatro Nacional».",
+        "suggestion": "Заменить на: «Teatro Nacional / municipal theatre: примерно 10–30 €, но цены зависят от спектакля и места».",
+        "confidence": "high",
+        "source": "Teatro Nacional D. Maria II; Teatro Nacional São João"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[4]",
+        "current": "«Tennis — турнир Estoril Open (май), ATP 250 tier»",
+        "problem": "Устарело. Millennium Estoril Open как ATP 250 выпал из календаря после 2024; в 2025/2026 португальский мужской турнир высокого уровня связан с Oeiras Open/Challenger, а не с ATP 250 Estoril Open в мае.",
+        "suggestion": "Заменить на: «Tennis — Oeiras Open / ATP Challenger events; статус и даты меняются, проверяйте ATP calendar и Federação Portuguesa de Ténis».",
+        "confidence": "high",
+        "source": "ATP Tour calendar; Federação Portuguesa de Ténis"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "«NOS Alive (Lisboa, июль) — rock / indie, 4 дня, ~180 €»",
+        "problem": "NOS Alive обычно проводится как 3-дневный фестиваль, а не «4 дня». Цена pass тоже меняется и для 2026 может быть выше/ниже указанного диапазона; нужно не фиксировать как факт без caveat.",
+        "suggestion": "Заменить на: «NOS Alive (Algés/Lisboa area, июль) — обычно 3 дня; day ticket/pass prices меняются ежегодно, проверяйте официальный сайт».",
+        "confidence": "high",
+        "source": "NOS Alive official site"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "«Rock in Rio Lisboa (июнь, раз в 2 года) — pop / rock, 100+ € день»",
+        "problem": "Цена «100+ € день» выглядит завышенной как универсальное правило: дневные билеты Rock in Rio Lisboa часто находятся ниже 100 € до сборов/в зависимости от категории. Лучше писать диапазон и ссылку.",
+        "suggestion": "Написать: «Rock in Rio Lisboa — обычно раз в 2 года; day tickets часто около 80–100+ € в зависимости от года/категории».",
+        "confidence": "medium",
+        "source": "Rock in Rio Lisboa official ticketing"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[5]",
+        "current": "«Festival do Caldo Verde (Porto, late June) — traditional culture, free»",
+        "problem": "Выглядит как неверная или очень локальная привязка. Нет общеизвестного крупного ежегодного free festival в Porto с таким названием в late June; это не сопоставимо с NOS Alive/Rock in Rio и может вводить в заблуждение.",
+        "suggestion": "Удалить из «Крупные фестивали» или заменить на проверяемые городские праздники: «Festas de São João do Porto — 23–24 июня, бесплатные городские мероприятия»; если оставлять Caldo Verde, указать конкретный муниципалитет и официальный источник.",
+        "confidence": "medium",
+        "source": "Agenda municipal do Porto / Visit Porto"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[6]",
+        "current": "«Lisboa Ou Nada (апрель) — уличное искусство, free»",
+        "problem": "Событие не выглядит как устойчивый крупный ежегодный городской фестиваль, который стоит ставить рядом с крупнейшими музыкальными фестивалями. Без официального источника это ненадёжно.",
+        "suggestion": "Удалить или заменить на проверяемые бесплатные городские программы: «Lisboa na Rua», «Festas de Lisboa», «Muro - Festival de Arte Urbana», с датами только после подтверждения программы года.",
+        "confidence": "medium",
+        "source": "EGEAC / Câmara Municipal de Lisboa"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0]",
+        "current": "«Cinema ao Ar Livre лето — Лиссабон (Parque das Nações, Passeio Marítimo), Porto (Jardim do Palácio, Serralves). Бесплатно»",
+        "problem": "Слишком категорично: open-air cinema в Португалии бывает как бесплатным муниципальным, так и платным коммерческим. Локации и наличие программ меняются каждый год; Serralves часто билетная площадка, не гарантированно бесплатная.",
+        "suggestion": "Заменить на: «Летом бывают бесплатные муниципальные open-air screenings и платные проекты; проверяйте Lisboa na Rua/EGEAC, Agenda Cultural de Lisboa, Porto municipal agenda и конкретный организатор».",
+        "confidence": "high",
+        "source": "Agenda Cultural de Lisboa; EGEAC; Serralves official programme"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "«Концерты на praças: лето в Лиссабоне — каждую пятницу / субботу в parks»",
+        "problem": "Не подтверждённое расписание. Бесплатные концерты действительно бывают, особенно в рамках Festas de Lisboa/Lisboa na Rua, но не «каждую пятницу/субботу» как правило.",
+        "suggestion": "Написать: «Летом часто проходят бесплатные концерты в рамках municipal programmes, но расписание меняется ежегодно».",
+        "confidence": "high",
+        "source": "EGEAC / Agenda Cultural de Lisboa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2]",
+        "current": "«Noite Branca (Braga, Faro, Évora — ежегодно одна ночь, все музеи открыты, уличное искусство, бесплатно)»",
+        "problem": "Слишком широкое утверждение. Noite Branca хорошо известна в Braga, но по Faro/Évora регулярность и формат не следует подавать как одинаковый ежегодный национальный стандарт; «все музеи открыты» тоже чрезмерно.",
+        "suggestion": "Заменить на: «Noite Branca — особенно известна в Braga; в других городах похожие ночные культурные программы бывают нерегулярно, проверяйте agenda municipal».",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Braga; municipal agendas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "«Festival Eléctrico (Gaia) — music fest, часто бесплатно»",
+        "problem": "Неверно/вводит в заблуждение. Festival Elétrico обычно ассоциируется с Porto, а не Gaia, и является билетным музыкальным фестивалем, а не «часто бесплатным».",
+        "suggestion": "Заменить на: «Festival Elétrico — paid electronic music festival in Porto area; цены и локация меняются, проверяйте официальный сайт».",
+        "confidence": "high",
+        "source": "Festival Elétrico official site"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "«Gratitude (Lisboa) — ежемесячные community events, free / donation-based»",
+        "problem": "Неясно, что это за устойчивый источник/организатор. Для экспатского гайда лучше не подавать малоизвестный community event как стабильную городскую инфраструктуру без ссылки.",
+        "suggestion": "Либо добавить официальный URL/Instagram организатора, либо заменить на более надёжные каналы поиска community events: Meetup, Eventbrite, local cultural agendas.",
+        "confidence": "medium",
+        "source": "No official source provided"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[8]",
+        "current": "«Senha gratuita с NIF в некоторых events — бесплатно но limit мест»",
+        "problem": "Фраза непонятна и фактически сомнительна. Для бесплатных событий обычно нужна reservation/levantamento de bilhete/inscrição, но NIF не является общим требованием. «Senha gratuita» по-португальски скорее номер очереди, а не билет.",
+        "suggestion": "Заменить на: «Для free events часто нужна предварительная inscrição/reservation или levantamento de bilhete; места ограничены».",
+        "confidence": "high",
+        "source": "General venue ticketing practice"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[5]",
+        "current": "«Festival (4 дня): 130–200 €»",
+        "problem": "Не соответствует собственным примерам: NOS Alive указан как 4 дня, но обычно 3 дня; festival pass prices сильно зависят от фестиваля, early bird и кемпинга. Универсальный диапазон «4 дня» вводит в заблуждение.",
+        "suggestion": "Заменить label на «Festival pass / multi-day» и указать «примерно 130–250+ €, сильно зависит от фестиваля и даты покупки».",
+        "confidence": "high",
+        "source": "Official festival ticket pages"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "«Ticketline — https://ticketline.sapo.pt/»",
+        "problem": "Вероятно устаревший/неосновной домен; даже если редиректит, для reference content лучше использовать canonical current URL.",
+        "suggestion": "Использовать «https://ticketline.pt/» после проверки редиректа и доступности.",
+        "confidence": "medium",
+        "source": "Ticketline official site"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: Ticketline, Blueticket, Agenda Cultural de Lisboa, Visit Porto",
+        "problem": "Недостаточно источников для конкретных цен и скидок по кинотеатрам, футболу, фестивалям и театрам. Сейчас многие числовые утверждения не подтверждены источниками.",
+        "suggestion": "Добавить официальные источники: NOS Cinemas, UCI Cinemas, Medeia/Nimas, MEO Arena, Teatro Nacional D. Maria II, Benfica/Sporting/FC Porto ticketing, NOS Alive, Rock in Rio Lisboa, Primavera Sound Porto.",
+        "confidence": "high",
+        "source": "Official venue and organizer sites"
+      }
+    ],
+    "missing_topics": [
+      "Указать, что большинство скидок требуют документ: Cartão Jovem, student ID, senior ID, Cartão NOS и т.п.",
+      "Предупредить о service fees/booking fees у Ticketline, Blueticket, BOL и возможной экономии при покупке в box office.",
+      "Добавить caveat про language accessibility: театр и стендап часто на португальском; опера обычно с surtitles; кино чаще VO с португальскими субтитрами.",
+      "Добавить совет проверять официальный сайт организатора перед покупкой билета у реселлеров и избегать Viagogo/неофициальных перепродаж.",
+      "Добавить официальные ticketing links для Benfica, Sporting CP и FC Porto, потому что цены и доступность для non-members сильно зависят от матча.",
+      "Обновить названия площадок и событий ежегодно: MEO Arena, status of D. Maria II renovation, tennis calendar, NOS Alive/Rock in Rio dates and ticket categories."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5931,
+    "prompt_tokens": 3455,
+    "total_tokens": 9386
+  },
+  "model": "gpt-5.5"
+}

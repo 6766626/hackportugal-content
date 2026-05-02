@@ -1,0 +1,206 @@
+{
+  "guideId": "golden-visa-2026",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом отражает отмену недвижимости и основные ARI-маршруты, но содержит несколько существенных неточностей по маршрутам, гражданству, IFICI, CMVM и источникам/формулировкам.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1]",
+        "current": "€500 000 — НИОКР в португальских госучреждениях или технологических компаниях",
+        "problem": "Формулировка слишком широкая: закон говорит не о любых «технологических компаниях», а о публичных или частных научно-исследовательских учреждениях, интегрированных в национальную научно-технологическую систему. Инвестиция в обычную tech-компанию сама по себе не является R&D-маршрутом ARI.",
+        "suggestion": "Написать: «€500 000 — исследовательская деятельность через публичные или частные научно-исследовательские учреждения, интегрированные в национальную научно-технологическую систему Португалии».",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 3.º, n.º 1, al. d), subalínea iii"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0]",
+        "current": "€500 000 — инвестфонд (Regulated Investment Fund), минимум 60% в португальских компаниях, не в недвижимости",
+        "problem": "Не хватает важного условия: фонд должен быть collective investment undertaking / venture capital fund с maturity не менее 5 лет; минимум 60% инвестиций должны быть реализованы в коммерческих компаниях с головным офисом в Португалии; фонд не должен прямо или косвенно инвестировать в недвижимость. «Regulated Investment Fund» слишком общо.",
+        "suggestion": "Написать: «€500 000 — паи в португальском collective investment undertaking / venture capital fund с maturity не менее 5 лет; минимум 60% активов инвестируется в коммерческие компании с sede в Португалии; фонд не может прямо или косвенно быть связан с недвижимостью».",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 3.º, n.º 1, al. d), subalínea vii; Lei 56/2023"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2]",
+        "current": "€500 000 — капитализация существующей компании + создание 5 рабочих мест",
+        "problem": "Неполное описание корпоративного маршрута. Для увеличения капитала существующей компании закон допускает либо создание 5 постоянных рабочих мест, либо сохранение 10 рабочих мест, из которых минимум 5 постоянных, на срок 3 года.",
+        "suggestion": "Написать: «€500 000 — увеличение капитала существующей португальской коммерческой компании с созданием 5 постоянных рабочих мест либо сохранением 10 рабочих мест, из которых минимум 5 постоянных, минимум на 3 года».",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 3.º, n.º 1, al. d), subalínea viii"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4]",
+        "current": "€500 000 — создание новой компании + 5 рабочих мест",
+        "problem": "Нужно уточнить, что речь о создании коммерческой компании с sede в Португалии и создании 5 постоянных рабочих мест. Иначе формулировка может быть понята как любая компания/любые рабочие места.",
+        "suggestion": "Написать: «€500 000 — создание коммерческой компании с sede в Португалии + создание 5 постоянных рабочих мест».",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 3.º, n.º 1, al. d), subalínea viii"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "Минимальная инвестиция: amountEUR 250000; note: от €250k (культура) до €500k (фонды/компания)",
+        "problem": "Не упомянуто снижение на 20% для некоторых инвестиций в low-density territory. Для культурного маршрута минимальный порог может быть €200 000, а не €250 000, если применима low-density reduction.",
+        "suggestion": "Написать: «Обычно от €250 000 для культуры, но при eligible low-density проектах порог может снижаться на 20% — до €200 000. Для R&D — потенциально до €400 000 при применимой low-density reduction».",
+        "confidence": "high",
+        "source": "Lei 23/2007, art. 3.º, n.º 7; Portaria 208/2017"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4]",
+        "current": "Доступ к IFICI налоговому режиму",
+        "problem": "Сильно вводит в заблуждение. Golden Visa сама по себе не дает IFICI. IFICI доступен только при становлении налоговым резидентом Португалии и при выполнении специальных условий по eligible activities / jobs / entities. Для типичного ARI с 7–14 днями пребывания налогового резидентства обычно нет.",
+        "suggestion": "Заменить на: «Потенциальный доступ к IFICI только если инвестор становится налоговым резидентом Португалии и отдельно соответствует требованиям IFICI; ARI не дает этот режим автоматически».",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais, art. 58.º-A; Portaria 352/2024/1"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1]",
+        "current": "Путь к гражданству через 5 лет (при условии A2 языка и связи с Португалией)",
+        "problem": "Формулировка устаревшая/неточная. Для обычной натурализации сейчас ключевые требования: 5 лет законного проживания, знание португальского языка, отсутствие серьезной судимости и угрозы безопасности; абстрактная «связь с Португалией» не является стандартным самостоятельным требованием для обычной натурализации. Кроме того, по состоянию на апрель 2026 новая редакция закона о гражданстве была одобрена 01.04.2026 и ожидала promulgation, поэтому срок/правила надо подавать с оговоркой.",
+        "suggestion": "Написать: «Потенциальный путь к гражданству после 5 лет законного проживания, при выполнении требований закона о гражданстве, включая португальский A2 и отсутствие disqualifying criminal/security grounds. Важно: на апрель 2026 новая редакция закона о гражданстве одобрена 01.04.2026 и ожидает promulgation; правила могут измениться».",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, Lei 37/81; Lei Orgânica 1/2024; proposta/nova lei aprovada em 01.04.2026 awaiting promulgation"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Путь к гражданству через 5 лет.",
+        "problem": "Слишком категорично для апреля 2026: необходимо caveat по pending nationality-law changes, а также уточнение, что 5 лет — это не автоматическое гражданство, а право подать заявление при выполнении условий.",
+        "suggestion": "Написать: «Потенциальная подача на гражданство после 5 лет законного проживания при выполнении условий; на апрель 2026 правила могут измениться из-за новой редакции закона о гражданстве, одобренной 01.04.2026 и ожидающей promulgation».",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade, Lei 37/81; Lei Orgânica 1/2024; nova lei aprovada em 01.04.2026 awaiting promulgation"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Требование проживания — всего 7 дней/год.",
+        "problem": "Неточно: для ARI минимальное пребывание обычно формулируется как 7 дней в первый год и 14 дней в каждый последующий двухлетний период, а не ровно 7 дней каждый календарный год.",
+        "suggestion": "Написать: «Минимальное пребывание: 7 дней в первый год и 14 дней в каждый последующий двухлетний период».",
+        "confidence": "high",
+        "source": "Lei 23/2007; regime ARI"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Только 7 дней проживания в Португалии в первый год, 14 дней за каждые 2 следующих (очень низкий порог)",
+        "problem": "Смысл правильный, но лучше уточнить, что это минимальное физическое пребывание для сохранения ARI, а не требование для налогового резидентства или гражданства. Особенно важно из-за соседней фразы про IFICI.",
+        "suggestion": "Добавить: «Это требование относится к сохранению ARI; оно не делает человека налоговым резидентом и само по себе не гарантирует гражданство».",
+        "confidence": "high",
+        "source": "Lei 23/2007; Código do IRS art. 16.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2]",
+        "current": "Шенгенская виза автоматически",
+        "problem": "Неправильная терминология: ARI дает португальскую residence card, которая позволяет краткосрочные поездки по Шенгену, но это не «автоматическая шенгенская виза».",
+        "suggestion": "Написать: «Португальская residence card дает право краткосрочных поездок по Шенгенской зоне до 90 дней в любые 180 дней».",
+        "confidence": "high",
+        "source": "Schengen Borders Code; EU short-stay rules for residence permit holders"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "Список одобренных фондов — на CMVM (Comissão do Mercado de Valores Mobiliários).",
+        "problem": "CMVM не публикует «список одобренных для Golden Visa фондов». CMVM ведет реестры/надзор за фондами и управляющими, но eligibility конкретного фонда под ARI надо проверять по документации фонда, investment policy, maturity, real-estate exposure и юридическому заключению.",
+        "suggestion": "Написать: «На CMVM можно проверить регистрацию фонда и управляющей компании; CMVM не является списком “approved Golden Visa funds”. Соответствие ARI проверяется отдельно по документам фонда».",
+        "confidence": "high",
+        "source": "CMVM registers; Lei 23/2007 ARI requirements"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3].content[0].text",
+        "current": "Обработка 9-18 мес (backlog 2024-2026).",
+        "problem": "Внутреннее противоречие с caveats и timeline: ниже указано 12–24 месяца. Для ARI в 2026 лучше не обещать 9 месяцев без caveat.",
+        "suggestion": "Привести к одному диапазону: «Обработка часто занимает 12–24+ месяца из-за backlog AIMA; сроки сильно зависят от biometrics slot и практики AIMA».",
+        "confidence": "medium",
+        "source": "AIMA operational backlog reports/practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].text",
+        "current": "Backlog AIMA огромный — реальное время получения ВНЖ 12-24 мес с момента подачи.",
+        "problem": "Эта фраза конфликтует с предыдущим диапазоном 9–18 месяцев. Нужно унифицировать сроки по всему гайду.",
+        "suggestion": "Оставить один диапазон во всех местах: «12–24+ месяца» или «9–24+ месяца, но 12–24 чаще реалистичнее».",
+        "confidence": "medium",
+        "source": "AIMA operational backlog reports/practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "Граждане РФ могут столкнуться с ограничениями — санкции делают перевод денег сложнее. Рекомендуется специализированный юрист.",
+        "problem": "Для русскоязычной аудитории caveat слишком мягкий. Для граждан РФ/РБ в ARI есть не только банковские сложности, но и повышенный sanctions/AML screening; банки, фонды и AIMA могут отказывать или существенно задерживать обработку. Если автор ориентируется на граждан РФ, это нужно раскрыть явно и с официальной/практической оговоркой.",
+        "suggestion": "Написать: «Для граждан РФ/РБ возможны не только сложности переводов, но и enhanced sanctions/AML checks, отказ банков/фондов в onboarding и задержки/отказы на уровне AIMA. До инвестиции нужно получить письменную позицию банка, фонда, управляющей компании и юриста по санкционному комплаенсу».",
+        "confidence": "medium",
+        "source": "EU sanctions framework; Portuguese banking AML/sanctions compliance practice"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "Пошлина AIMA за подачу: amountEUR 708; note: ~ +33% после tabela 01.03.2026; сверяйтесь с официальной таблицей",
+        "problem": "Сумма дана без точной ссылки на официальную таблицу AIMA/Portaria. Для ARI fees это чувствительная категория; ссылка только на homepage AIMA недостаточна.",
+        "suggestion": "Добавить отдельный источник на актуальную таблицу сборов AIMA, действующую с 01.03.2026, и указать точное официальное название акта/таблицы.",
+        "confidence": "high",
+        "source": "Portaria 480-A/2025/1; AIMA tabela de taxas em vigor desde 01.03.2026"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "ВНЖ AIMA (при одобрении, за осн. заявителя): amountEUR 7097; note: ~ +33% после tabela 01.03.2026",
+        "problem": "Сумма может быть верной как округление, но без официальной ссылки и точного обозначения fee item ее трудно проверить. Для guide это риск, потому что AIMA fee table изменилась 01.03.2026.",
+        "suggestion": "Указать точное наименование fee item из AIMA tabela и дать ссылку на Portaria/tabela; если сумма округлена, написать «около €7.1k» вместо точного amountEUR либо поставить точное значение из таблицы.",
+        "confidence": "medium",
+        "source": "Portaria 480-A/2025/1; AIMA tabela de taxas em vigor desde 01.03.2026"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "AIMA — Autorização de Residência para Investimento (ARI), url: https://aima.gov.pt/",
+        "problem": "Ссылка ведет на homepage, а не на конкретную страницу ARI или таблицу сборов. Для проверки маршрутов, процесса и fees источник слишком общий.",
+        "suggestion": "Заменить/добавить конкретные ссылки: AIMA ARI page/portal, актуальная tabela de taxas AIMA, и законодательная база ARI.",
+        "confidence": "high",
+        "source": "AIMA; Portaria 480-A/2025/1"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Есть Lei 56/2023 и homepage AIMA/CMVM, но нет ссылки на актуальную редакцию Lei 23/2007",
+        "problem": "Lei 56/2023 объясняет отмену недвижимости, но действующие ARI-маршруты находятся в Lei 23/2007 в актуальной редакции. Без нее источники неполные для sensitive immigration category.",
+        "suggestion": "Добавить источник: «Lei 23/2007, versão consolidada — art. 3.º ARI / atividade de investimento».",
+        "confidence": "high",
+        "source": "Lei 23/2007, versão consolidada"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "CMVM — список сертифицированных инвестфондов; url: https://www.cmvm.pt/",
+        "problem": "Название источника некорректно: CMVM — это не «список сертифицированных инвестфондов» для ARI. Это сайт регулятора с реестрами supervised entities/funds.",
+        "suggestion": "Переименовать: «CMVM — реестры фондов и управляющих компаний; регистрация у CMVM не означает автоматическую eligibility под ARI».",
+        "confidence": "high",
+        "source": "CMVM registers"
+      }
+    ],
+    "missing_topics": [
+      "20% reduction for eligible low-density investments, including possible €200k culture route",
+      "No official CMVM list of Golden Visa-approved funds; CMVM registration is not ARI eligibility",
+      "Specific source for AIMA fee table in force from 01.03.2026",
+      "Actual consolidated Lei 23/2007 article defining ARI routes",
+      "Nationality law uncertainty as of April 2026: new law approved 01.04.2026 awaiting promulgation",
+      "IFICI is not automatic and normally requires Portuguese tax residency plus qualifying activity",
+      "Enhanced sanctions/AML caveat for Russian/Belarusian applicants, banks and funds",
+      "Clarification that ARI residence days are for permit maintenance, not tax residency"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5816,
+    "prompt_tokens": 2282,
+    "total_tokens": 8098
+  },
+  "model": "gpt-5.5"
+}

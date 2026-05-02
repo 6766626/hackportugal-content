@@ -1,0 +1,103 @@
+{
+  "guideId": "lisbon-walking-tour-alfama",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гид в целом полезен для прогулки, но содержит несколько заметных фактических и практических ошибок: неверное утверждение про UNESCO-защиту Алфамы, спорную цену Castelo, неточный доступ от метро и внутренне противоречивое описание маршрута.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Сегодня — защищённый ЮНЕСКО исторический район с уникальной архитектурой",
+        "problem": "Алфама как исторический район не является объектом Всемирного наследия ЮНЕСКО. В списке нематериального наследия ЮНЕСКО находится фаду, но не сам район Алфама.",
+        "suggestion": "Заменить на: «Сегодня — исторический район Лиссабона с охраняемой городской тканью и сильной ассоциацией с фаду, которое включено в список нематериального наследия ЮНЕСКО».",
+        "confidence": "high",
+        "source": "UNESCO World Heritage List; UNESCO Intangible Cultural Heritage: Fado, urban popular song of Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[5]",
+        "current": "🎟️ Castelo de São Jorge: билет 20 € (2026), бронировать онлайн",
+        "problem": "Цена 20 € для обычного взрослого билета выглядит завышенной/неподтверждённой для Castelo de São Jorge; нужна проверка по официальному сайту. В гиде нет ссылки на официальный прайс, хотя цена указана как актуальная на 2026 год.",
+        "suggestion": "Проверить официальный сайт Castelo de São Jorge и указать точную категорию билета: например «взрослый билет — X €; скидки для молодёжи/65+/жителей Лиссабона; актуальную цену проверяйте на castelodesaojorge.pt».",
+        "confidence": "medium",
+        "source": "Castelo de São Jorge official website / ticket office"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Неспешный подъём по узким мощёным улочкам",
+        "problem": "Описание маршрута как постоянного «подъёма» противоречит последовательности точек: после Castelo/São Vicente маршрут уводит вниз к Museu do Fado, а затем снова резко вверх к Miradouro da Graça. Это важная практическая деталь для пожилых людей, детей и людей с ограниченной мобильностью.",
+        "suggestion": "Написать: «Маршрут с заметными подъёмами и спусками: после São Vicente de Fora спуск к Museu do Fado и затем подъём к Miradouro da Graça». Либо перестроить маршрут, чтобы Museu do Fado был раньше/в конце без повторного подъёма.",
+        "confidence": "high",
+        "source": "Topography of Alfama/Graça; route order in the guide itself"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].distanceKm",
+        "current": "distanceKm: 3",
+        "problem": "Для указанной последовательности точек расстояние, вероятно, ближе к 3.5–4+ км по реальным пешеходным улицам, особенно если учитывать заход к Castelo de São Jorge и переход Museu do Fado → Miradouro da Graça. 3 км выглядит занижением.",
+        "suggestion": "Указать «около 3.5–4 км без детального обхода внутри Castelo» или построить маршрут в карте и дать точную длину.",
+        "confidence": "medium",
+        "source": "Route geometry between listed coordinates"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[4]",
+        "current": "🚇 Начало маршрута — в 3 мин от метро Baixa-Chiado (выход «Rua Augusta»)",
+        "problem": "От выхода Baixa-Chiado/Rua Augusta до Sé de Lisboa обычно не 3 минуты: это примерно 600–700 м, ближе к 8–10 минутам пешком. Кроме того, ближайшая удобная станция к Sé часто Terreiro do Paço, а не Baixa-Chiado.",
+        "suggestion": "Заменить на: «От метро Baixa-Chiado/Rua Augusta — около 8–10 минут пешком; от Terreiro do Paço — около 6–8 минут».",
+        "confidence": "high",
+        "source": "Lisbon Metro station locations; walking distance to Sé de Lisboa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2]",
+        "current": "💧 Вода с собой — кафе есть, но редко и дорого",
+        "problem": "В Алфаме, у Sé, Portas do Sol, Castelo, São Vicente и Graça кафе и киосков много; утверждение «редко» вводит в заблуждение. Цены в туристических точках могут быть высокими, но доступ к воде/кафе не является редким.",
+        "suggestion": "Заменить на: «Воду лучше взять с собой: кафе и киоски есть почти на всём маршруте, но в туристических точках цены выше».",
+        "confidence": "high",
+        "source": "On-site commercial density in Alfama/Graça"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].points[8].description",
+        "current": "Рядом — церковь Graça и одна из лучших tascas района, «Damas».",
+        "problem": "Damas обычно воспринимается скорее как бар/ресторан/культурная площадка с концертами и DJ-событиями, а не классическая tasca. Формулировка «одна из лучших» субъективна и не подходит для справочного гида без источника.",
+        "suggestion": "Заменить на: «Рядом — Igreja da Graça; неподалёку работает Damas — бар/ресторан и концертная площадка».",
+        "confidence": "medium",
+        "source": "Damas Lisboa public profile / venue listings"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Visit Lisboa — O que visitar na Alfama / https://www.visitlisboa.com/",
+        "problem": "Ссылка ведёт на главную страницу Visit Lisboa, а не на конкретную страницу про Алфаму или достопримечательности. Для проверки фактов это слабый источник.",
+        "suggestion": "Заменить на конкретные URL Visit Lisboa для Alfama, Castelo de São Jorge, Sé de Lisboa, Museu do Fado или других точек маршрута.",
+        "confidence": "high",
+        "source": "Visit Lisboa official website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "Câmara Municipal de Lisboa — Património / https://www.lisboa.pt/",
+        "problem": "Ссылка ведёт на главную страницу муниципалитета, а не на конкретный раздел Património/urbanismo/monumentos. Для утверждений об охране района и наследии нужен точный источник.",
+        "suggestion": "Указать конкретную страницу Câmara Municipal de Lisboa или Lisboa Cultura с информацией о património, Alfama, Sé, miradouros или zoning/protection status.",
+        "confidence": "high",
+        "source": "Câmara Municipal de Lisboa official website"
+      }
+    ],
+    "missing_topics": [
+      "Официальная ссылка на часы работы и цены Castelo de São Jorge, включая скидки и дни/условия бесплатного входа для резидентов, если применимо",
+      "Предупреждение о сложной доступности маршрута: крутые подъёмы, лестницы, скользкая calçada portuguesa, маршрут плохо подходит для колясок и людей с ограниченной мобильностью",
+      "Рекомендация бронировать fado dinner заранее и уточнять cover/minimum spend, потому что «ужин + фаду» в Alfama часто работает по фиксированному меню или с минимальным заказом",
+      "Уточнение, что фаду — объект нематериального наследия ЮНЕСКО, а не Алфама как район"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2928,
+    "prompt_tokens": 2929,
+    "total_tokens": 5857
+  },
+  "model": "gpt-5.5"
+}

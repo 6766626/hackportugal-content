@@ -1,0 +1,103 @@
+{
+  "guideId": "nazare-obidos-fatima",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "В целом путеводитель полезный, но есть несколько существенных фактических ошибок: неверный рекорд волн Назаре, сильно заниженный километраж маршрута, неправильный автобусный оператор до Óbidos и ошибочная локация Sobreiro.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Все 3 доступны на одну большую поездку из Лиссабона на авто (150-200 км petla).",
+        "problem": "Кольцевой маршрут Lisboa → Óbidos → Nazaré → Fátima → Lisboa составляет примерно 300–330 км, а не 150–200 км. 150–200 км — это скорее отдельные плечи/частичный маршрут, но не вся петля.",
+        "suggestion": "Написать: «Все 3 можно объехать за одну очень насыщенную поездку на авто из Лиссабона, но полный круг — примерно 300–330 км; комфортнее планировать 2 дня».",
+        "confidence": "high",
+        "source": "Google Maps / ViaMichelin distances"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "рекорд Garrett McNamara 23.8 м (2017), неофициально до 30 м",
+        "problem": "Неверно указаны и имя, и год актуального рекорда. Garrett McNamara прославил Назаре рекордом около 23.8 м в 2011 году. В 2017 рекордную волну в Назаре проехал Rodrigo Koxa — 24.38 м. Позднее Guinness признал рекорд Sebastian Steudtner — 26.21 м на Praia do Norte, Nazaré.",
+        "suggestion": "Написать: «Назаре прославил Garrett McNamara с волной около 23,8 м в 2011; среди рекордов Guinness — Rodrigo Koxa 24,38 м в 2017 и Sebastian Steudtner 26,21 м в 2020. Неофициально говорят о волнах до ~30 м».",
+        "confidence": "high",
+        "source": "Guinness World Records; World Surf League"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0]",
+        "current": "🌊 Praia do Norte — гигантские волны октябрь-март. Фестиваль Nazaré Tow Surfing Challenge",
+        "problem": "Формулировка «фестиваль» вводит в заблуждение: это не регулярный туристический фестиваль с фиксированными датами, а big-wave соревнование/ивент, который проводится только при подходящем свелле и под разными коммерческими названиями WSL. Сезон октябрь–март в целом верный, но гигантские волны не гарантированы.",
+        "suggestion": "Написать: «Praia do Norte — сезон больших волн обычно октябрь–март, но гигантские волны бывают только при конкретном прогнозе. WSL Big Wave Challenge/Tow Surfing Challenge проводится при подходящих условиях — проверять календарь и surf forecast».",
+        "confidence": "high",
+        "source": "World Surf League; Nazare Waves / surf forecast services"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[2]",
+        "current": "🚡 Ascensor da Nazaré — фуникулёр 1889 г. из нижнего города (Praia) в верхний (Sítio), 1.50 €",
+        "problem": "Цена выглядит устаревшей/слишком точной без оговорки. Тарифы Ascensor da Nazaré меняются; в последние годы разовый билет обычно указывался выше €1.50. Для путеводителя с lastVerified 2026 лучше либо проверить актуальный тариф, либо убрать точную цену.",
+        "suggestion": "Написать: «Ascensor da Nazaré — фуникулёр 1889 г. из Praia в Sítio; билет обычно около €2 в одну сторону / около €3 туда‑обратно, актуальный тариф проверяйте на сайте Câmara Municipal da Nazaré».",
+        "confidence": "medium",
+        "source": "Câmara Municipal da Nazaré — Ascensor da Nazaré / тарифы"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[2].text",
+        "current": "Как добраться: автобус Rede Expressos из Campo Grande (Lisboa) 1ч 8 €, авто 1ч А8.",
+        "problem": "До Óbidos из Campo Grande обычно ходит не Rede Expressos, а региональная линия Rodoviária do Oeste / Rápida Verde. Rede Expressos — другой оператор и обычно не описывается как автобус из Campo Grande прямо в Óbidos. Это может привести туриста не на тот сайт/в неправильную кассу.",
+        "suggestion": "Написать: «Как добраться: автобус Rápida Verde / Rodoviária do Oeste из Campo Grande, около 1 ч — 1 ч 15 мин; цена зависит от тарифа. На авто — около 1 ч по A8».",
+        "confidence": "high",
+        "source": "Rodoviária do Oeste / Barraqueiro Oeste"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[5]",
+        "current": "🏞️ Sobreiro — музей под открытым небом, 10 км от Óbidos",
+        "problem": "Если имеется в виду Aldeia Típica José Franco в Sobreiro, это рядом с Mafra, примерно в 70–80 км от Óbidos, а не 10 км. В контексте маршрута Nazaré–Óbidos–Fátima это географически не «рядом».",
+        "suggestion": "Удалить этот пункт или заменить на действительно близкие места: «Lagoa de Óbidos — рядом с Óbidos», «Bacalhôa Buddha Eden в Bombarral — около 15 км», «Caldas da Rainha — около 10 км». Если оставлять Sobreiro, написать: «Aldeia Típica José Franco, Sobreiro/Mafra — это отдельный заезд по дороге к Mafra, не рядом с Óbidos».",
+        "confidence": "high",
+        "source": "Município de Mafra; Google Maps"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[5]",
+        "current": "💰 Средний бюджет на 2 дня: ночёвка 60-100 €, еда 30-50 €/чел/день, бензин 30 €",
+        "problem": "Бюджет авто-маршрута неполный: для полного круга 300+ км бензин около €30 возможен, но не учтены платные дороги A8/A1 и парковки. Tolls на таком маршруте могут добавить заметную сумму, особенно если ехать по автострадам.",
+        "suggestion": "Написать: «Средний бюджет на 2 дня: ночёвка €60–120, еда €30–50/чел/день, топливо около €30–45, плюс платные дороги и парковки примерно €20–35+ в зависимости от маршрута».",
+        "confidence": "high",
+        "source": "Via Verde / Brisa toll calculators"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "🏛️ Mosteiro de Alcobaça (UNESCO) — цистерианский XII в., гробницы Pedro и Inês, 30 км",
+        "problem": "Расстояние «30 км» неясно и может быть неверным в зависимости от точки отсчёта: от Nazaré до Alcobaça около 15–17 км, от Fátima около 45 км, от Óbidos около 40 км. Без указания точки отсчёта цифра сбивает с толку.",
+        "suggestion": "Уточнить: «Mosteiro de Alcobaça — около 15–20 км от Nazaré, около 45 км от Fátima; цистерианский монастырь XII в., UNESCO, гробницы Pedro и Inês».",
+        "confidence": "high",
+        "source": "Google Maps; UNESCO"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[4]",
+        "current": "🎣 Praia da Nazaré — традиционный городской пляж (не для сёрфинга)",
+        "problem": "Фраза слишком категорична. Praia da Nazaré действительно не является спотом гигантских волн — это Praia do Norte, но обычный сёрф/бодиборд на городском пляже возможен при подходящих условиях.",
+        "suggestion": "Написать: «Praia da Nazaré — городской пляж для прогулок/купания; не путать с Praia do Norte, где смотрят гигантские волны».",
+        "confidence": "medium",
+        "source": "Turismo Centro de Portugal / local surf guides"
+      }
+    ],
+    "missing_topics": [
+      "Для Nazaré стоит добавить caveat: гигантские волны не ежедневны даже зимой; проверять прогноз свелла и webcam/alerts перед поездкой.",
+      "Для авто-маршрута стоит явно указать платные дороги A8/A1, примерные tolls и парковку у Óbidos/Nazaré/Fátima.",
+      "Для Óbidos стоит добавить предупреждение: прогулка по крепостным стенам без перил местами небезопасна для детей/людей с боязнью высоты.",
+      "Для событий Óbidos/Nazaré/Fátima стоит указать, что даты фестивалей меняются каждый год и нужно проверять официальные муниципальные календари."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3481,
+    "prompt_tokens": 2938,
+    "total_tokens": 6419
+  },
+  "model": "gpt-5.5"
+}

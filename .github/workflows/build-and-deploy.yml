@@ -1,0 +1,72 @@
+name: Build and deploy content
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  validate-and-build:
+    name: Validate + build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate content (structural)
+        run: node scripts/validate.mjs
+
+      - name: Content regression tests
+        run: node scripts/test-content.mjs
+
+      - name: Build bundle
+        run: node scripts/build.mjs
+        env:
+          LANGS: ru
+
+      - name: Compose site
+        if: github.ref == 'refs/heads/main'
+        # Publishes:
+        #   /                   landing index + privacy/support/terms + .well-known/
+        #   /v1/                content bundle (manifest.json, guides.*.json, ...)
+        run: |
+          mkdir -p site/v1
+          cp -R landing/. site/
+          cp -R dist/. site/v1/
+          # .well-known must be served from the apex
+          test -f site/.well-known/apple-app-site-association
+          ls -la site/ site/v1/ site/.well-known/
+
+      - name: Upload artifact
+        if: github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    name: Deploy to GitHub Pages
+    if: github.ref == 'refs/heads/main'
+    needs: validate-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

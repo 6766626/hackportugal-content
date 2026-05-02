@@ -1,0 +1,177 @@
+{
+  "guideId": "accounting-contadores",
+  "categoryId": "work_business",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has several material tax/accounting errors, especially the false claim that IVA registration makes a certified accountant legally mandatory for recibos verdes.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Для recibos verdes с оборотом >15 000 €/год (IVA-плательщики) и всех юрлиц — обязателен сертифицированный бухгалтер (TOC / OCC) по закону.",
+        "problem": "IVA liability does not by itself make a certified accountant mandatory for a sole trader/freelancer in the simplified regime. A certified accountant is generally mandatory for companies and for taxpayers under contabilidade organizada, not simply because turnover exceeds the Article 53 VAT exemption threshold.",
+        "suggestion": "Write: «Для юрлиц и для ИП/freelancers на contabilidade organizada — обязателен contabilista certificado. Для recibos verdes в regime simplificado бухгалтер не обязателен даже если вы стали IVA-плательщиком, но часто полезен. При обороте выше лимита isenção de IVA нужно подавать IVA, но это можно делать самостоятельно».",
+        "confidence": "high",
+        "source": "CIRS art. 28; CIVA art. 53; Estatuto da Ordem dos Contabilistas Certificados"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[0].content[0].items[1]",
+        "current": "> 15 000 € оборот — IVA обязательно → **бухгалтер обязателен по закону**",
+        "problem": "The second implication is wrong. Exceeding the VAT exemption threshold can trigger VAT obligations, but not a legal obligation to appoint a certified accountant if the freelancer remains in the simplified IRS regime.",
+        "suggestion": "Replace with: «> 15 000 € оборот — обычно теряете isenção de IVA по art. 53 CIVA и должны подавать IVA; бухгалтер не обязателен, если вы остаётесь в regime simplificado, но может быть полезен».",
+        "confidence": "high",
+        "source": "CIVA art. 53; CIRS art. 28"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "> 200 000 € оборот — contabilidade organizada → бухгалтер всегда",
+        "problem": "Directionally correct but incomplete. Under Category B, simplified regime normally applies if previous-year income is up to €200,000; exceeding the limit has specific timing rules, and taxpayers can also opt into organized accounting voluntarily. The guide makes it sound like an immediate same-year switch.",
+        "suggestion": "Write: «Contabilidade organizada обязательна, когда вы выходите из regime simplificado по правилам CIRS art. 28 — обычно после превышения €200,000 в relevant tax periods; также можно добровольно выбрать contabilidade organizada. В этом режиме нужен contabilista certificado».",
+        "confidence": "high",
+        "source": "CIRS art. 28"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[0]",
+        "current": "**Все** Lda, SA, Unipessoal — **всегда** обязаны иметь TOC (Técnico Oficial de Contas) или OCC member",
+        "problem": "Substantively the need for a certified accountant is right for companies, but terminology is outdated/misleading. The professional title is now «Contabilista Certificado»; TOC/Técnico Oficial de Contas is an old name still used colloquially.",
+        "suggestion": "Write: «Все Lda, Unipessoal Lda и SA обычно должны иметь Contabilista Certificado, член OCC. “TOC” — старое разговорное название».",
+        "confidence": "high",
+        "source": "Ordem dos Contabilistas Certificados; Lei n.º 139/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "SAF-T (Standard Audit File for Tax) — ежемесячно в AT",
+        "problem": "This is oversimplified. What is normally monthly is invoice communication to AT, often via SAF-T/e-fatura, by the statutory deadline. It is not simply a universal «SAF-T monthly» accounting report for every company in the way described.",
+        "suggestion": "Write: «Comunicação de faturas à AT — обычно ежемесячно, до установленного срока, через e-fatura/SAF-T или certified invoicing software. Формат и обязанность зависят от способа выставления счетов».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 198/2012; Portal das Finanças — comunicação de faturas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[3]",
+        "current": "Годовой аудит — для компаний > 500k оборот / > 25 сотрудников",
+        "problem": "The stated statutory audit thresholds are wrong. For many Lda without a supervisory board, appointment of a ROC is tied to exceeding two of three legal thresholds, commonly €1.5m balance sheet total, €3m net turnover, and 50 average employees, for the relevant periods. SA rules can differ depending on governance structure.",
+        "suggestion": "Replace with: «Аудитор/ROC не нужен каждой маленькой компании. Для Lda без conselho fiscal обязанность обычно возникает при превышении 2 из 3 порогов: total do balanço €1.5m, vendas líquidas/outros proveitos €3m, среднее число работников 50. Для SA и отдельных регулируемых сфер правила могут быть строже».",
+        "confidence": "high",
+        "source": "Código das Sociedades Comerciais art. 262"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[1]",
+        "current": "Недвижимость как физлицо (rental < 7 000 €/год) — Anexo F в IRS",
+        "problem": "The €7,000 threshold is unexplained and misleading. Ordinary property rental income taxed as Category F is reported in Anexo F and does not require a certified accountant merely because it exceeds €7,000. Different rules may apply if the activity is operated as business/local accommodation/category B.",
+        "suggestion": "Write: «Обычная долгосрочная аренда как физлицо — Anexo F в IRS; contabilista certificado обычно не обязателен независимо от суммы. Для alojamento local или rental business могут применяться Category B/IVA/other obligations».",
+        "confidence": "high",
+        "source": "CIRS — Categoria F; Portal das Finanças IRS instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1]",
+        "current": "🎯 **Recibos verdes с IVA (15-75k)**: 50-100 €/мес, включает ежемесячный IVA + IRS year-end",
+        "problem": "The 15-75k band is not a standard VAT periodicity band, and «monthly IVA» is usually wrong for this turnover. VAT returns are generally quarterly for taxpayers below the monthly-regime threshold and monthly for higher turnover/selected cases.",
+        "suggestion": "Write: «Recibos verdes с IVA в regime simplificado: обычно IVA trimestral, если не применим monthly regime; бухгалтерская помощь часто 50–150 €/мес или поквартально. Monthly IVA обычно для оборота выше установленного CIVA threshold или при opting/other rules».",
+        "confidence": "high",
+        "source": "CIVA art. 41; Portal das Finanças — declaração periódica IVA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].items[0]",
+        "current": "**IVA declarations** (quarter / месяц) — до 20-го числа следующего месяца",
+        "problem": "The deadline is wrong. Portuguese periodic VAT returns are generally due by the 20th day of the second month following the month/quarter to which the transactions relate; payment is generally due later, commonly by the 25th.",
+        "suggestion": "Write: «IVA declarations — обычно до 20-го числа второго месяца после соответствующего месяца или квартала; pagamento do IVA — обычно до 25-го. Проверяйте актуальный calendário fiscal AT».",
+        "confidence": "high",
+        "source": "CIVA art. 41; Portal das Finanças — calendário fiscal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].items[3]",
+        "current": "**SAF-T** — для больших оборотов",
+        "problem": "This is misleading. Invoice communication/SAF-T obligations are not only for «large turnovers»; many businesses using invoicing software have monthly invoice communication obligations regardless of being large. Conversely, freelancers issuing recibos verdes directly through Portal das Finanças may not have a separate SAF-T workflow.",
+        "suggestion": "Write: «Comunicação de faturas/SAF-T — зависит от того, как выставляются счета. Компании и многие businesses с certified software сообщают invoices ежемесячно; если recibos verdes выставляются через Portal das Finanças, отдельный SAF-T обычно не нужен».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 198/2012; Portal das Finanças — e-fatura/SAF-T"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].items[3]",
+        "current": "Plot твист: правительство требует TOC сообщать обо всех клиентах — если бухгалтер без register, он нарушает закон, и его подписи не работают",
+        "problem": "Overbroad and imprecise. Certified accountants are registered with OCC and associated with entities/taxpayers for legal accounting purposes, but not every advisory client is necessarily a formally reported client. Also «TOC» is obsolete terminology.",
+        "suggestion": "Write: «Для обязанностей, где нужна подпись/ответственность contabilista certificado, он должен быть действующим членом OCC и быть правильно associado в Portal das Finanças. Проверяйте статус в OCC».",
+        "confidence": "medium",
+        "source": "OCC; Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[0]",
+        "current": "**Для IFICI / NHR**: крупные firms знают тонкости — PwC, KPMG, Deloitte (дорого: 1500-5000 €/год)",
+        "problem": "NHR is no longer the normal new-entrant regime after 2024 except transitional cases, while IFICI replaced it for eligible activities. The phrase «IFICI / NHR» without caveat may mislead new arrivals.",
+        "suggestion": "Write: «Для IFICI и редких transitional NHR cases: крупные tax firms знают тонкости. NHR закрыт для большинства новых заявителей; IFICI имеет отдельные eligibility rules».",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais art. 58-A; Lei do Orçamento do Estado 2024"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].items[4]",
+        "current": "Помощь с IFICI или NHR application",
+        "problem": "Same caveat missing: NHR is not broadly available to new applicants; only transitional cases remain.",
+        "suggestion": "Write: «Помощь с IFICI или с transitional NHR cases, если вы подпадаете под переходные правила».",
+        "confidence": "high",
+        "source": "Lei do Orçamento do Estado 2024; EBF art. 58-A"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[3]",
+        "current": "✅ **Access к Portal AT** — через вашу CMD / CC, не через его аккаунт",
+        "problem": "Good security warning, but phrasing can be misleading. A certified accountant should use their own credentials/delegated professional access where appropriate; the client should not share passwords or CMD PINs. Some actions may be delegated rather than repeatedly confirmed by the client.",
+        "suggestion": "Write: «Не передавайте senha das Finanças или CMD PIN. Давайте доступ через официальную delegation/association в Portal das Finanças; бухгалтер входит под своими credentials/professional access».",
+        "confidence": "high",
+        "source": "Portal das Finanças — gestão de utilizadores/subutilizadores; Chave Móvel Digital security guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2]",
+        "current": "Запросить **передачу документов** — все ваши декларации, контракты с AT за 4+ года",
+        "problem": "«Контракты с AT» is not the right term, and retention periods can exceed 4 years for accounting/tax records. Companies commonly must keep accounting records/supporting documents for 10 years, while tax limitation periods are often 4 years but can vary.",
+        "suggestion": "Write: «Запросить передачу документов: submitted declarations, бухгалтерские файлы, invoices/supporting documents, payroll, IES/Modelo 22/IVA/IRS records. Для компаний хранение accounting records обычно 10 лет; 4 года — это не универсальный срок».",
+        "confidence": "high",
+        "source": "Código Comercial art. 40; LGT limitation rules"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "{ \"label\": \"English/RU speaking premium\", \"amountEUR\": 0, \"note\": \"+30-50%\" }",
+        "problem": "Structured cost value is misleading: amountEUR 0 contradicts the note that this is a percentage premium.",
+        "suggestion": "Use a percentage field if schema allows, or encode as note-only without amountEUR: «English/RU speaking premium: +30–50% к базовой цене».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only OCC homepage and Portal das Finanças info homepage",
+        "problem": "For legal obligations, deadlines, audit thresholds and VAT/IRS rules, homepage-level sources are too generic. Sensitive claims should cite the relevant laws or AT pages.",
+        "suggestion": "Add specific sources: CIRS art. 28, CIVA arts. 41 and 53, Decreto-Lei n.º 198/2012 for invoice communication, CSC art. 262 for ROC thresholds, OCC statute/Lei n.º 139/2015, and AT calendário fiscal/IVA declaration pages.",
+        "confidence": "high",
+        "source": "CIRS; CIVA; CSC; Decreto-Lei n.º 198/2012; Lei n.º 139/2015"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that VAT exemption threshold and certified-accountant obligation are separate concepts.",
+      "Explain IVA periodicity: quarterly vs monthly regime and payment deadlines.",
+      "Mention invoice communication deadline/e-fatura vs SAF-T distinction.",
+      "Mention that NHR is closed for most new applicants and only transitional cases remain; IFICI has separate eligibility.",
+      "Add a security note: never share Portal das Finanças password or CMD PIN; use official delegation/professional access.",
+      "Add proper legal sources for CIRS, CIVA, CSC audit thresholds and OCC professional status."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4534,
+    "prompt_tokens": 3370,
+    "total_tokens": 7904
+  },
+  "model": "gpt-5.5"
+}

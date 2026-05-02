@@ -1,0 +1,216 @@
+export default {
+  "editorialVoice": "hackportugal",
+  "id": "car-insurance",
+  "categoryId": "auto_ownership",
+  "title": "Seguro automóvel em Portugal — RC é obrigatória, Casco é opcional",
+  "tldr": "Responsabilidade Civil — seguro obrigatório para todos os automóveis registados em Portugal (Decreto-Lei 291/2007). Cobre danos causados a terceiros. Casco / Danos Próprios — cobertura do seu automóvel, opcional. Preços 2026: RC básica a partir de 180 €/ano, pacote completo — 400–1200 €. Compra online nos sites da Tranquilidade / Fidelidade / Zurich / Ageas ou através de mediadores. Condutor novo (2 anos de carta) paga mais 20–50 %.",
+  "tags": [
+    "seguro",
+    "rc",
+    "casco",
+    "seguro automóvel"
+  ],
+  "estimatedReadMinutes": 6,
+  "steps": [
+    {
+      "id": "types",
+      "title": "Tipos de cobertura",
+      "content": [
+        {
+          "kind": "substeps",
+          "items": [
+            {
+              "id": "rc",
+              "title": "RC — Responsabilidade Civil Obrigatória",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "Obrigatória por lei (Decreto-Lei 291/2007)",
+                    "Cobre danos causados a terceiros (automóveis, pessoas)",
+                    "Limite mínimo: 1 300 000 € por pessoa e 8 000 000 € por ocorrência",
+                    "Carta Verde (cartão internacional de seguro) — carta verde internacional para o espaço Schengen",
+                    "Sem RC — coima de 250–1250 €, apreensão do automóvel"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "danos-p",
+              "title": "Danos Próprios / Casco",
+              "content": [
+                {
+                  "kind": "checklist",
+                  "items": [
+                    "Cobre danos no seu automóvel",
+                    "Tipos: cobertura completa, limitada (roubo/incêndio), contra todos os riscos",
+                    "Normalmente exigido em leasing ou crédito",
+                    "Franquia (franquia) — de 250 a 2500 €"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "assist",
+              "title": "Assistência em Viagem",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Reboque + assistência na estrada. Não é obrigatória, mas é muito útil. Muitas vezes incluída no pacote por 30–60 €/ano. Mais detalhes no guia «Pneu furado na autoestrada»."
+                }
+              ]
+            },
+            {
+              "id": "vida",
+              "title": "Ocupantes",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Seguro de vida dos passageiros em caso de acidente rodoviário. Custo adicional de 30–80 €/ano."
+                }
+              ]
+            },
+            {
+              "id": "legal",
+              "title": "Proteção Jurídica",
+              "content": [
+                {
+                  "kind": "paragraph",
+                  "text": "Apoio jurídico em disputas / processos. 20–50 €/ano."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "how-to-buy",
+      "title": "Como comprar",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "💻 Sites das seguradoras (Tranquilidade, Fidelidade, Zurich, Ageas, Allianz, Liberty, MGEN, Ocidental)",
+            "🔍 Mediadores (agregadores): presencialmente junto dos bancos, online — MB Easy, MudeyYa",
+            "🏦 Através do banco — frequentemente associado ao crédito à habitação",
+            "📄 Necessários: DUA, CC/autorização de residência, carta de condução, NIF",
+            "📅 Entra em vigor na data escolhida",
+            "💳 Pagamento mensal / trimestral / anual — anualmente é geralmente mais barato",
+            "📱 Apólice — em formato digital, por e-mail; Carta Verde — PDF",
+            "🚗 No carro deve ter: apólice ou Carta Verde (para fiscalização)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "factors",
+      "title": "O que influencia o preço",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "🚗 Modelo / cilindrada / potência",
+            "📅 Idade do condutor (< 25 → +30 %; > 70 → +15 %)",
+            "📜 Experiência de condução (< 2 anos → +40 %)",
+            "🏅 Bónus-malus (BM): 1–14, desconto até 60 %",
+            "📍 Região de residência (Lisboa > Coimbra > Algarve)",
+            "🚙 Quilometragem anual (< 10 000 / < 20 000 / ilimitada)",
+            "🏠 Estacionamento: garagem / rua",
+            "📈 Sinistralidade — acidentes anteriores",
+            "🔒 Imobilizador / GPS — desconto de 5–15 %"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claims",
+      "title": "Como participar um sinistro (sinistro)",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "📝 Declaração Amigável (declaração europeia de acidente) no local do acidente (ver guia)",
+            "📷 Fotografias do local, danos, matrículas",
+            "📧 Avisar a seguradora no prazo de 8 dias",
+            "🔧 Reparação — numa oficina da rede da seguradora ou numa oficina acordada (orçamento)",
+            "💶 Franquia — os primeiros 250–2500 € são pagos pelo cliente",
+            "📅 Prazo de análise — 30–60 dias",
+            "⚖️ Recusa → reclamação através da ASF (Autoridade de Supervisão de Seguros)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tips",
+      "title": "Dicas",
+      "content": [
+        {
+          "kind": "checklist",
+          "items": [
+            "🛍️ Comparar 3–5 propostas — os preços podem variar 2 vezes",
+            "📅 Mudança de seguradora — 30 dias antes do fim, pedido escrito de anulação",
+            "🚗 Na venda do automóvel — transferência do seguro para o novo proprietário no prazo de 8 dias",
+            "🆘 Número da ASF 213 847 900 — para reclamações",
+            "🌍 Carta Verde obrigatória para viajar para outros países da UE",
+            "📉 Após 5 anos sem acidentes — o bónus-malus desce até ao mínimo"
+          ]
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "label": "RC básica (condutor experiente 1,4 l)",
+      "amountEURMin": 180,
+      "amountEURMax": 280
+    },
+    {
+      "label": "RC + Casco parcial",
+      "amountEURMin": 400,
+      "amountEURMax": 700
+    },
+    {
+      "label": "Todos os tipos de cobertura (pacote completo)",
+      "amountEURMin": 700,
+      "amountEURMax": 1500
+    },
+    {
+      "label": "Coima por conduzir sem RC",
+      "amountEURMin": 250,
+      "amountEURMax": 1250
+    }
+  ],
+  "sources": [
+    {
+      "title": "Decreto-Lei 291/2007 — Seguro automóvel",
+      "url": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/2007-34522075",
+      "kind": "law",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "ASF — Autoridade de Supervisão de Seguros",
+      "url": "https://www.asf.com.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "FGA — Fundo de Garantia Automóvel",
+      "url": "https://www.fga.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    },
+    {
+      "title": "ePortugal — Seguro automóvel",
+      "url": "https://eportugal.gov.pt/",
+      "kind": "official",
+      "language": "pt",
+      "lastRetrieved": "2026-04-22"
+    }
+  ],
+  "lastVerified": "2026-04-22",
+  "verifyIntervalDays": 365
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hackportugal.github.io/content/v1/schema/guide.schema.json",
+  "title": "Guide",
+  "type": "object",
+  "required": ["id", "categoryId", "title", "tldr", "steps", "sources", "lastVerified", "verifyIntervalDays"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "categoryId": { "type": "string" },
+    "title": { "type": "string", "minLength": 3 },
+    "tldr": { "type": "string", "minLength": 10 },
+    "audience": { "$ref": "#/$defs/AudienceFilter" },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "audience"],
+        "properties": {
+          "id": { "type": "string" },
+          "audience": { "$ref": "#/$defs/AudienceFilter" },
+          "tldr": { "type": "string" },
+          "steps": { "type": "array", "items": { "$ref": "#/$defs/GuideStep" } },
+          "costs": { "type": "array", "items": { "$ref": "#/$defs/CostLine" } },
+          "timelineDaysMin": { "type": "integer" },
+          "timelineDaysMax": { "type": "integer" }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/GuideStep" }
+    },
+    "documents": { "type": "array", "items": { "$ref": "#/$defs/DocumentRef" } },
+    "costs": { "type": "array", "items": { "$ref": "#/$defs/CostLine" } },
+    "timelineDaysMin": { "type": "integer" },
+    "timelineDaysMax": { "type": "integer" },
+    "sources": {
+      "type": "array",
+      "minItems": 2,
+      "items": { "$ref": "#/$defs/SourceCitation" }
+    },
+    "lastVerified": { "type": "string", "format": "date" },
+    "verifyIntervalDays": { "type": "integer", "enum": [90, 180, 365] },
+    "recentlyChangedAt": { "type": "string", "format": "date" },
+    "changeSummary": { "type": "string" },
+    "pendingLaw": {
+      "type": "object",
+      "required": ["summary"],
+      "properties": {
+        "summary": { "type": "string" },
+        "expectedDate": { "type": "string", "format": "date" },
+        "sourceUrl": { "type": "string", "format": "uri" }
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "estimatedReadMinutes": { "type": "integer", "minimum": 1 }
+  },
+  "$defs": {
+    "AudienceFilter": {
+      "type": "object",
+      "properties": {
+        "citizenships": {
+          "type": "array",
+          "items": { "enum": ["cplp", "euEeaSwiss", "thirdCountry", "portuguese"] }
+        },
+        "statuses": {
+          "type": "array",
+          "items": { "enum": ["visiting", "newlyArrived", "resident", "applying", "citizen"] }
+        },
+        "countryCodes": { "type": "array", "items": { "type": "string", "pattern": "^[A-Z]{2}$" } }
+      }
+    },
+    "GuideStep": {
+      "type": "object",
+      "required": ["id", "title", "content"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "audience": { "$ref": "#/$defs/AudienceFilter" },
+        "content": { "type": "array", "items": { "$ref": "#/$defs/StepContent" } }
+      }
+    },
+    "StepContent": {
+      "type": "object",
+      "required": ["kind"],
+      "properties": {
+        "kind": { "enum": ["paragraph", "checklist", "documents", "cost", "timeline", "link", "warning", "substeps"] },
+        "text": { "type": "string" },
+        "items": { "type": "array" }
+      }
+    },
+    "DocumentRef": {
+      "type": "object",
+      "required": ["title"],
+      "properties": {
+        "title": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    },
+    "CostLine": {
+      "type": "object",
+      "required": ["label"],
+      "properties": {
+        "label": { "type": "string" },
+        "amountEUR": { "type": "number" },
+        "amountEURMin": { "type": "number" },
+        "amountEURMax": { "type": "number" },
+        "note": { "type": "string" }
+      }
+    },
+    "SourceCitation": {
+      "type": "object",
+      "required": ["title", "url", "kind"],
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "url": { "type": "string", "format": "uri" },
+        "kind": { "enum": ["official", "law", "news", "secondary", "community"] },
+        "language": { "enum": ["ru", "pt", "en"] },
+        "lastRetrieved": { "type": "string", "format": "date" }
+      }
+    }
+  }
+}

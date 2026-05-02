@@ -1,0 +1,211 @@
+export default {
+  editorialVoice: "hackportugal",
+  id: "emel-avenca-residente",
+  categoryId: "auto_trips",
+  title: "EMEL Avença Residente: резидентская парковка в Лиссабоне",
+  tldr: "Avença Residente EMEL — годовое разрешение для жителей Лиссабона парковаться в своей зоне EMEL, а не по почасовому тарифу. В 2026 ориентир по официальной странице EMEL: 40 € / год для zona verde, 60 € / год для zona amarela, 100 € / год для zona vermelha. Главное условие — morada fiscal вашего NIF должна быть в нужной зоне, а машина должна быть оформлена на вас или законно предоставлена вам. Подать можно онлайн или в Loja EMEL, но у экспатов чаще надёжнее идти в стойку с полным пакетом документов.",
+  tags: ["emel", "парковка", "лиссабон", "авто"],
+  estimatedReadMinutes: 5,
+  steps: [
+    {
+      id: "what-it-is",
+      title: "Что даёт Avença Residente",
+      content: [
+        {
+          kind: "paragraph",
+          text: "Это резидентское разрешение EMEL для парковки на улице в зоне вашего проживания в Lisboa. Оно не даёт бесплатную парковку по всему городу: действует только в зоне/районе, привязанном к вашему адресу, и только на местах EMEL, где разрешена парковка резидентов."
+        },
+        {
+          kind: "checklist",
+          items: [
+            "Подходит для жителей Лиссабона с адресом в зоне EMEL",
+            "Оплачивается как годовая подписка, а не как почасовая парковка",
+            "Привязывается к номерному знаку автомобиля",
+            "Проверяется инспекторами EMEL по номеру, бумажный талон обычно не нужен",
+            "Не гарантирует конкретное место у дома",
+            "Не действует на частных паркингах, в гаражах и на местах со специальным режимом",
+            "Не заменяет оплату штрафов, IUC, страховку или IPO"
+          ]
+        },
+        {
+          kind: "warning",
+          text: "Не путайте Avença Residente / Dístico de Residente с обычной оплатой через приложение ePark. Если вы просто поставили машину в зоне EMEL без активного резидентского разрешения, инспектор видит это как неоплаченную парковку."
+        }
+      ]
+    },
+    {
+      id: "eligibility",
+      title: "Кто имеет право",
+      content: [
+        {
+          kind: "paragraph",
+          text: "Ключевое условие — ваш налоговый адрес в Finanças, то есть morada fiscal do NIF, должен находиться в зоне EMEL, на которую вы просите резидентскую подписку. Договор аренды сам по себе помогает, но если NIF всё ещё зарегистрирован по старому адресу или у налогового представителя, EMEL может отказать."
+        },
+        {
+          kind: "checklist",
+          items: [
+            "Вы реально проживаете в Lisboa в зоне EMEL",
+            "Morada fiscal вашего NIF обновлена на этот адрес",
+            "Автомобиль зарегистрирован на вас, вашего супруга/партнёра или законно предоставлен вам",
+            "У вас есть documento de identificação: паспорт, ВНЖ, Cartão de Cidadão или другой ID",
+            "У автомобиля есть Certificado de Matrícula / DUA",
+            "Для leasing, renting, company car или comodato есть договор/декларация, где вы указаны как пользователь",
+            "Номерной знак корректно указан в заявке",
+            "Нет противоречия между адресом в документах и зоной, которую вы запрашиваете"
+          ]
+        },
+        {
+          kind: "warning",
+          text: "Atestado de residência от Junta de Freguesia полезен, но в типовом кейсе EMEL смотрит прежде всего на morada fiscal. Перед визитом проверьте адрес в Portal das Finanças: Todos os Serviços → Dados Cadastrais → Morada."
+        }
+      ]
+    },
+    {
+      id: "documents",
+      title: "Документы для стойки EMEL",
+      content: [
+        {
+          kind: "paragraph",
+          text: "Для экспата самый безопасный вариант — принести больше документов, чем минимум. У EMEL есть электронная проверка части данных, но если NIF, автомобиль или ВНЖ недавно обновлялись, стойка может попросить подтверждения."
+        },
+        {
+          kind: "checklist",
+          items: [
+            "Documento de identificação: паспорт + ВНЖ или Cartão de Cidadão",
+            "NIF",
+            "Comprovativo de morada fiscal из Portal das Finanças",
+            "Договор аренды, escritura или другой документ на жильё — как дополнительное подтверждение",
+            "Certificado de Matrícula / Documento Único Automóvel",
+            "Если машина не на вас: contrato de renting/leasing, declaração da entidade empregadora или contrato de comodato",
+            "Номер мобильного телефона и email",
+            "Банковская карта или другой способ оплаты",
+            "Если адрес недавно меняли: распечатка/ PDF с датой изменения morada fiscal"
+          ]
+        },
+        {
+          kind: "paragraph",
+          text: "Если машина на иностранной регистрации, заранее уточните в EMEL. Резидентские разрешения обычно рассчитаны на автомобили, которые можно однозначно связать с заявителем и адресом; длительное использование иностранного авто в Португалии также имеет налоговые и таможенные риски по ISV/IUC."
+        }
+      ]
+    },
+    {
+      id: "apply",
+      title: "Как подать заявку",
+      content: [
+        {
+          kind: "substeps",
+          items: [
+            {
+              id: "check-zone",
+              title: "1. Проверьте свою зону EMEL",
+              content: [
+                {
+                  kind: "paragraph",
+                  text: "На сайте EMEL найдите улицу проживания и посмотрите, к какой зоне она относится: verde, amarela или vermelha. Цена зависит от зоны, а действие разрешения ограничено этой территорией."
+                }
+              ]
+            },
+            {
+              id: "update-nif",
+              title: "2. Обновите morada fiscal",
+              content: [
+                {
+                  kind: "paragraph",
+                  text: "Если вы недавно переехали, сначала поменяйте адрес в Finanças. Для владельцев Cartão de Cidadão это делается через ePortugal/CMD, для иностранцев с ВНЖ — через Portal das Finanças или atendimento Finanças, в зависимости от доступа."
+                }
+              ]
+            },
+            {
+              id: "go-emel",
+              title: "3. Подайте в Loja EMEL",
+              content: [
+                {
+                  kind: "paragraph",
+                  text: "Запишитесь или приходите в Loja EMEL/пункт atendimento с документами. Сотрудник проверит адрес, автомобиль и зону, создаст avença и даст оплатить годовой тариф."
+                }
+              ]
+            },
+            {
+              id: "confirm-active",
+              title: "4. Проверьте, что разрешение активно",
+              content: [
+                {
+                  kind: "paragraph",
+                  text: "После оплаты проверьте номер машины в личном кабинете/подтверждении EMEL. Не оставляйте машину «на авось» до активации: штрафы за эти дни обычно не отменяются только потому, что заявка уже подана."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      id: "prices-and-use",
+      title: "Цены и как пользоваться в 2026",
+      content: [
+        {
+          kind: "paragraph",
+          text: "По официальной странице EMEL для residentes в 2026 годовой порядок цен такой: zona verde — 40 €, zona amarela — 60 €, zona vermelha — 100 €. Это цена за право парковаться как резидент в своей зоне, а не стоимость зарезервированного места."
+        },
+        {
+          kind: "checklist",
+          items: [
+            "Сохраните подтверждение оплаты PDF или email",
+            "Проверьте срок окончания и поставьте напоминание за 30 дней",
+            "При смене адреса подайте изменение в EMEL, старое разрешение может перестать соответствовать зоне",
+            "При смене автомобиля обновите номерной знак до парковки",
+            "Не паркуйтесь на местах cargas e descargas, lugares reservados, passadeiras, esquinas и trottoirs",
+            "Следите за временными знаками работ и eventos: резидентское разрешение не защищает от эвакуации",
+            "Если пришёл aviso/contraordenação, проверяйте дату, место, номерной знак и активность avença на тот день"
+          ]
+        },
+        {
+          kind: "warning",
+          text: "В исторических районах и перегруженных зонах Лиссабона наличие Avença Residente не означает, что место будет легко найти вечером. Это юридическое право парковаться в зоне по резидентскому режиму, а не гарантия наличия свободного места."
+        }
+      ]
+    }
+  ],
+  costs: [
+    {
+      label: "Avença Residente — zona verde",
+      amountEUR: 40,
+      note: "Годовой тариф EMEL для резидента; действует только в назначенной зоне."
+    },
+    {
+      label: "Avença Residente — zona amarela",
+      amountEUR: 60,
+      note: "Годовой тариф EMEL для резидента; не является гарантией места."
+    },
+    {
+      label: "Avença Residente — zona vermelha",
+      amountEUR: 100,
+      note: "Годовой тариф EMEL для более дорогой зоны парковки."
+    }
+  ],
+  sources: [
+    {
+      title: "EMEL — Avenças Residentes",
+      url: "https://www.emel.pt/pt/onde-estacionar/avencas/residentes/",
+      kind: "official",
+      language: "pt",
+      lastRetrieved: "2026-04-28"
+    },
+    {
+      title: "EMEL — onde estacionar и зоны парковки в Lisboa",
+      url: "https://www.emel.pt/pt/onde-estacionar/",
+      kind: "official",
+      language: "pt",
+      lastRetrieved: "2026-04-28"
+    },
+    {
+      title: "Câmara Municipal de Lisboa — estacionamento e mobilidade",
+      url: "https://www.lisboa.pt/cidade/mobilidade/estacionamento",
+      kind: "official",
+      language: "pt",
+      lastRetrieved: "2026-04-28"
+    }
+  ],
+  lastVerified: "2026-04-28",
+  verifyIntervalDays: 180
+}

@@ -1,0 +1,224 @@
+{
+  "guideId": "via-card-electronic-toll",
+  "categoryId": "auto_trips",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд заметно устарел: ключевые бывшие SCUT с 2025 года больше не взимают tolls, срок постоплаты для PT-номеров указан старый, штрафы описаны неверно, а часть продуктов Via Verde/ViaCard/Visitors выглядит устаревшей или неточной.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[1].content[1].items[0-6]",
+        "current": "\"A22 Algarve\", \"A23 Beira Interior\", \"A24 Interior Norte\", \"A25 Beira Litoral\", \"A28 Norte Litoral\"",
+        "problem": "Список подан как действующие платные SCUT, но с 01.01.2025 tolls были отменены на ряде бывших SCUT, включая A22, A23, A24, A25 и части A28, а также A4 и A13/A13-1. Это делает центральную часть гайда вводящей в заблуждение.",
+        "suggestion": "Переписать раздел: указать, что многие бывшие SCUT с 01.01.2025 бесплатны; перечислить актуальные платные электронные участки отдельно и рекомендовать проверять маршрут на portugaltolls.com / сайте концессионера перед поездкой.",
+        "confidence": "high",
+        "source": "Lei n.º 37/2024; PortugalTolls"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "\"Если проехали Scut ... у вас 5 рабочих дней заплатить на почте\"",
+        "problem": "Срок 5 рабочих дней устарел. Для автомобилей с португальским номером постоплата через CTT/Payshop обычно становится доступной через 48 часов после проезда и действует 15 рабочих дней.",
+        "suggestion": "Заменить на: \"Для PT-номеров: платеж обычно появляется через 48 часов после проезда; оплатить через CTT/Payshop/портал нужно в течение 15 рабочих дней\".",
+        "confidence": "high",
+        "source": "CTT — Portagens; Pagamento de Portagens"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "\"5 рабочих дней на оплату на почте CTT / Payshop\"",
+        "problem": "Повторяется устаревший срок 5 рабочих дней.",
+        "suggestion": "Написать: \"Проезды появляются к оплате обычно через 48 часов; затем есть 15 рабочих дней на оплату через CTT/Payshop/онлайн\".",
+        "confidence": "high",
+        "source": "CTT — Portagens"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "\"иначе штраф ×25\"",
+        "problem": "Формула штрафа некорректна и пугающе завышена как универсальное правило. После изменений последних лет штрафы за неоплату tolls не описываются как автоматические 25× стоимости проезда; есть minimum coima, maximum coima и административные расходы, зависящие от случая.",
+        "suggestion": "Заменить на более осторожное: \"После срока оплаты сумма уходит в административное/налоговое взыскание: начисляются coima и costs. Минимум обычно начинается от €25, но итог зависит от суммы tolls и стадии процесса\".",
+        "confidence": "high",
+        "source": "Lei n.º 27/2023; Autoridade Tributária — infrações tributárias"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "\"После 5 дней — уведомление от AT с fine ×25 стоимости проезда (обычно 25-125 €)\"",
+        "problem": "Неверны сразу несколько элементов: срок не 5 дней; AT обычно появляется на стадии налогового взыскания, а не сразу после пропуска CTT-срока; формула ×25 не является актуальным универсальным правилом; диапазон 25–125 € не гарантирован.",
+        "suggestion": "Написать: \"Если не оплатить в установленный срок, долг передается дальше: сначала возможны уведомления/административные сборы concessionária, затем coima и cobrança coerciva через AT. Минимальная coima часто от €25, итог зависит от суммы toll и стадии\".",
+        "confidence": "high",
+        "source": "CTT — Portagens; Autoridade Tributária; Lei n.º 27/2023"
+      },
+      {
+        "severity": "major",
+        "where": "costs[6]",
+        "current": "\"Штраф за неоплату проезда\", amountEURMin: 25, amountEURMax: 125, note: \"~25× стоимости проезда\"",
+        "problem": "Диапазон и примечание не соответствуют актуальному режиму как универсальная таблица стоимости. Штраф не считается просто как ~25×, а итог может включать coima, tolls, administrative costs и costs of tax enforcement.",
+        "suggestion": "Заменить на: \"Неоплата tolls: minimum coima обычно от €25 + toll + administrative/tax costs; maximum зависит от применимого режима и суммы проездов\". Не давать фиксированный верхний предел €125 без источника.",
+        "confidence": "high",
+        "source": "Lei n.º 27/2023; Autoridade Tributária"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1]",
+        "current": "\"Via Card ... Пластиковая pre-paid карта ... Используется ... на старых платных дорогах (A1, A2) — вкладываете в aparato Via Verde на контактной полосе. НЕ работает на Scut\"",
+        "problem": "Описание ViaCard выглядит устаревшим/некорректным для 2026 года. Актуальная потребительская схема оплаты на обычных toll plazas — наличные/банковская карта/карта в manual lane или Via Verde transponder, а не вставка ViaCard в 'aparato Via Verde'. Для туристов официально продвигаются TollCard/EasyToll/3-Day Virtual Card через PortugalTolls для electronic toll roads.",
+        "suggestion": "Удалить ViaCard как отдельную рекомендацию или пометить как исторический/неосновной продукт только при подтверждении актуальности. Для обычных автострад написать: \"на toll plazas можно платить наличными или банковской картой в manual/card lanes; Via Verde — отдельная green lane\".",
+        "confidence": "medium",
+        "source": "Via Verde; PortugalTolls"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[4]",
+        "current": "\"Caução (залог) 27,50 € возвратно + €2/мес\"",
+        "problem": "Тарифы Via Verde в гайде выглядят устаревшими. Современные планы Via Verde продаются как subscription/rental/service plans с разными mensalidades и условиями; универсальный refundable caução 27,50 € + €2/мес не стоит подавать как актуальную базовую цену без проверки конкретного плана.",
+        "suggestion": "Заменить на: \"Тариф зависит от выбранного плана Via Verde и промо: mensalidade/аренда identifier/service plan меняются. Проверяйте актуальную tabela de preços на viaverde.pt перед заказом\". В costs убрать фиксированные €27,50 и €2/мес либо пометить как historical/needs verification.",
+        "confidence": "medium",
+        "source": "Via Verde — tabela de preços"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[5]",
+        "current": "\"Free (без mensalidade): подписка Via Verde Gratuita для тех, у кого <8 €/мес трафика\"",
+        "problem": "Формулировка выглядит устаревшей и слишком категоричной. У Via Verde тарифы и пороги бесплатности/льгот менялись; в 2026 нельзя утверждать универсальное '<8 €/мес' без точной ссылки на текущий план и условия.",
+        "suggestion": "Заменить на: \"У Via Verde бывают планы без фиксированной mensalidade или с оплатой только при использовании, но условия и пороги зависят от текущей коммерческой оферты; проверьте viaverde.pt\".",
+        "confidence": "medium",
+        "source": "Via Verde — tariff plans"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0-2]",
+        "current": "\"Via Verde — caução 27.5\", \"mensalidade 2\", \"Via Verde Gratuita при <8€/мес\"",
+        "problem": "Таблица costs повторяет неподтвержденные/устаревшие условия Via Verde и может привести к неверному расчету затрат.",
+        "suggestion": "Заменить фиксированные значения на диапазон/ссылку: \"Via Verde: цена зависит от плана; см. актуальную tabela de preços\". Если нужны цифры — взять их с текущей страницы Via Verde на дату проверки.",
+        "confidence": "medium",
+        "source": "Via Verde — tabela de preços"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "\"При первом въезде на Scut привязываете банковскую карту к номерному знаку на портах EasyToll (есть у границы и в аэропортах).\"",
+        "problem": "EasyToll не привязывается 'при первом въезде на Scut' в общем смысле и не является системой с пунктами в аэропортах как стандартное правило. EasyToll предназначен для иностранных номеров и оформляется через Welcome Points на отдельных пограничных въездах/каналах или онлайн-каналы PortugalTolls; надо не обещать аэропорты.",
+        "suggestion": "Написать: \"EasyToll для иностранных номеров оформляется через PortugalTolls/Welcome Points на отдельных въездах в страну; проверьте актуальные точки и возможность онлайн-оформления до поездки. Действует 30 дней\".",
+        "confidence": "high",
+        "source": "PortugalTolls — EasyToll"
+      },
+      {
+        "severity": "major",
+        "where": "costs[5]",
+        "current": "\"EasyToll активация\", amountEUR: 0, note: \"+proezd\"",
+        "problem": "У EasyToll обычно есть не только toll amount, но и administrative/adhesion costs per use/adhesion. Указание €0 как полной стоимости активации вводит в заблуждение.",
+        "suggestion": "Заменить на: \"EasyToll: tolls + небольшие administrative/adhesion costs по тарифу PortugalTolls; проверить актуальную fee table на portugaltolls.com\".",
+        "confidence": "medium",
+        "source": "PortugalTolls — EasyToll costs"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[8]",
+        "current": "\"При проезде: зелёный свет = прошло; красный = неоплачено\"",
+        "problem": "Для electronic toll gantries/porticos бывших SCUT обычно нет индивидуального зеленого/красного сигнала водителю как на обычной toll lane. Камеры фиксируют номер/identifier без остановки. Это смешивает обычные portagem lanes и electronic toll porticos.",
+        "suggestion": "Удалить этот пункт или заменить на: \"На electronic gantries вы просто проезжаете без остановки; статус оплаты проверяется позже по identifier/матрикуле\".",
+        "confidence": "high",
+        "source": "PortugalTolls — electronic tolls"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "\"ЕС-номер: действует Directive 2011/82/EU — информация передаётся, fine достаётся\"",
+        "problem": "Directive 2011/82/EU была заменена Directive (EU) 2015/413, и она касается cross-border exchange по road-safety offences, а не является корректной основной ссылкой для toll non-payment. Для дорожных сборов более релевантна EETS/cross-border toll context, включая Directive (EU) 2019/520.",
+        "suggestion": "Заменить на: \"Для иностранных номеров взыскание возможно через механизмы обмена данными/агентов взыскания и правила EETS; для ЕС релевантна Directive (EU) 2019/520, а не старая Directive 2011/82/EU\".",
+        "confidence": "high",
+        "source": "Directive (EU) 2015/413; Directive (EU) 2019/520"
+      },
+      {
+        "severity": "major",
+        "where": "sources[3]",
+        "current": "\"Directive 2011/82/EU — cross-border enforcement\"",
+        "problem": "Ссылка устарела и не является правильной основной правовой опорой для tolls. Directive 2011/82/EU заменена Directive (EU) 2015/413; для tolls более уместна Directive (EU) 2019/520.",
+        "suggestion": "Удалить или заменить источник на Directive (EU) 2019/520 и, при необходимости, Directive (EU) 2015/413 только для road-safety offences.",
+        "confidence": "high",
+        "source": "Directive (EU) 2015/413; Directive (EU) 2019/520"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[2]",
+        "current": "\"Не-ЕС (РФ, UA, BY, CH, USA): письмо от Infraestruturas de Portugal приходит по адресу регистрации\"",
+        "problem": "Слишком категорично и неверно обобщает все non-EU номера. Взыскание зависит от страны регистрации, концессионера, наличия данных, rental/lease статуса и международных механизмов. Не всегда это Infraestruturas de Portugal; часто речь о конкретном concessionaire или collection агенте.",
+        "suggestion": "Написать: \"Для иностранных номеров взыскание зависит от страны и концессионера; письма могут приходить от concessionaire/collection agency/rental company. Не рассчитывайте, что non-EU номер автоматически 'невидим'\".",
+        "confidence": "high",
+        "source": "PortugalTolls; concessionaire payment notices"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[3]",
+        "current": "\"при следующем въезде в PT на границе могут остановить и потребовать оплатить\"",
+        "problem": "Формулировка выглядит как типичный, гарантированный сценарий, но на внутренних границах Шенгена регулярного пограничного контроля обычно нет; взыскание скорее идет через уведомления, rental company, collection agents или налогово-административные процедуры.",
+        "suggestion": "Заменить на: \"Игнорирование может привести к collection notices, дополнительным costs, проблемам с rental company и взысканию; остановка на границе не должна подаваться как основной механизм\".",
+        "confidence": "medium",
+        "source": "PortugalTolls; Schengen Borders Code"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "\"TollCard ... Активируется SMS → baixa. Купить на заправках Galp, Repsol, BP.\"",
+        "problem": "Фраза 'SMS → baixa' непонятна; также TollCard — продукт для иностранных номеров и прежде всего для electronic toll roads, а не универсальная prepaid-карта для любых платных дорог. Каналы продажи шире/меняются, включая online/CTT/points listed by PortugalTolls.",
+        "suggestion": "Написать: \"TollCard для автомобилей с иностранными номерами на electronic toll roads; покупается/активируется онлайн или в указанных PortugalTolls точках, включая некоторые CTT/АЗС. Баланс привязывается к matrícula\".",
+        "confidence": "high",
+        "source": "PortugalTolls — TollCard"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0-4]",
+        "current": "\"Via Verde Visitors ... сроком 1 неделя / 2 недели / 1 месяц\", \"Цена: 6 / 8 / 12 € + pre-paid баланс\", \"После возврата — залог возвращается\"",
+        "problem": "Описание Via Verde Visitors и цены выглядят устаревшими/неподтвержденными. В 2026 условия temporary/visitor devices и rental-car toll devices нужно брать из текущей таблицы Via Verde; фиксированные 6/8/12 € и prepaid balance без ссылки рискованны.",
+        "suggestion": "Заменить на: \"Для краткосрочных поездок проверьте актуальные temporary/visitor options на Via Verde и PortugalTolls. Для rental cars обычно предлагается отдельный toll device от rental company с daily fee + tolls\".",
+        "confidence": "medium",
+        "source": "Via Verde; PortugalTolls"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "\"Работает на ВСЕХ платных дорогах, парковках EMEL, АЗС Galp/Repsol (скидки), паромах Transtejo, Soflusa\"",
+        "problem": "Слишком широкая формулировка. Via Verde действительно широко используется, но парковки/АЗС/паромы зависят от партнеров, конкретного сервиса и выбранного плана; скидки Galp/Repsol не являются гарантированной общей характеристикой.",
+        "suggestion": "Смягчить: \"Работает на португальских toll roads и у многих партнеров Via Verde — парковки, заправки, ferries и др.; доступность и скидки зависят от текущих партнеров и плана\".",
+        "confidence": "medium",
+        "source": "Via Verde — services and partners"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "\"Через AT portaldasfinancas.gov.pt → e-balcão... Срок — 15 дней с получения уведомления.\"",
+        "problem": "Оспаривание зависит от стадии: если это счет/уведомление concessionaire, спорить нужно не всегда через AT; через AT/e-balcão — когда дело уже в налоговой/execução fiscal. Сроки также зависят от типа уведомления.",
+        "suggestion": "Уточнить: \"Если уведомление пришло от concessionaire/CTT — сначала обращаться к указанному оператору. Если пришло от AT/execução fiscal — использовать Portal das Finanças/e-balcão или указанный в уведомлении способ в срок, указанный в письме\".",
+        "confidence": "high",
+        "source": "Autoridade Tributária; CTT Portagens"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "\"Infraestruturas de Portugal — portagens\", url: \"https://www.infraestruturasdeportugal.pt/\"",
+        "problem": "Слишком общий источник для практического гайда по оплате tolls; IP не покрывает все концессии и не является лучшим источником для EasyToll/TollCard/CTT payment deadlines.",
+        "suggestion": "Добавить конкретные источники: PortugalTolls pages for EasyToll/TollCard, CTT Portagens/Pagamento de Portagens for post-payment, Via Verde tariff page for devices/prices.",
+        "confidence": "high",
+        "source": "PortugalTolls; CTT Portagens; Via Verde"
+      }
+    ],
+    "missing_topics": [
+      "Отмена tolls с 01.01.2025 на ряде бывших SCUT и перечень затронутых дорог",
+      "Правило CTT/Payshop для PT-номеров: платеж появляется не сразу, обычно через 48 часов, и срок оплаты 15 рабочих дней",
+      "Разделение обычных toll plazas и electronic-only toll roads: где можно платить наличными/картой на месте, а где нужен transponder/post-payment",
+      "Актуальные продукты PortugalTolls для иностранных номеров: EasyToll, TollCard, 3 Day Virtual Card / other virtual products, с ограничениями по типу дорог",
+      "Особые правила rental cars: device from rental company, daily service fee, tolls billed later, возможные admin fees",
+      "Проверка неоплаченных проездов онлайн через официальные сервисы CTT/Pagamento de Portagens/PortugalTolls",
+      "Актуальные тарифы Via Verde по планам вместо старых фиксированных caução/mensalidade",
+      "Четкое предупреждение, что CTT/Payshop post-payment по matrícula в основном относится к PT-registered vehicles, а для иностранных номеров используются PortugalTolls/концессионеры/арендодатель"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6443,
+    "prompt_tokens": 2817,
+    "total_tokens": 9260
+  },
+  "model": "gpt-5.5"
+}

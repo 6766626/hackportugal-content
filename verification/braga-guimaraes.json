@@ -1,0 +1,166 @@
+{
+  "guideId": "braga-guimaraes",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Главные проблемы — неверная логистика поездов Braga–Guimarães/Porto–Guimarães и несколько исторических и ценовых утверждений, из-за которых однодневный маршрут получается вводящим в заблуждение.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[2]",
+        "current": "🚆 Между Braga и Guimarães: 35 мин поезд, 3.15 €",
+        "problem": "Между Брагой и Гимарайншем нет простого прямого 35-минутного поезда. Железнодорожный маршрут обычно требует пересадки через узлы линии Porto Urbanos и занимает существенно дольше; практичный вариант между городами — автобус/машина/такси.",
+        "suggestion": "Заменить на: \"🚌 Braga ↔ Guimarães: удобнее автобусом, обычно около 45–60 мин; поездом — только с пересадкой и обычно заметно дольше. Проверяйте актуальное расписание CP и местных автобусных операторов.\"",
+        "confidence": "high",
+        "source": "Comboios de Portugal (CP) timetables; local interurban bus operators"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[3]",
+        "current": "14:00 — поезд Braga → Guimarães (35 мин)",
+        "problem": "Маршрут дня построен на неверном 35-минутном поезде Braga → Guimarães. Из-за этого тайминг всего маршрута нереалистичен.",
+        "suggestion": "Заменить на: \"14:00 — автобус/такси Braga → Guimarães, закладывайте около 50–60 мин плюс ожидание; поездом этот переезд обычно неудобен и дольше.\" Также сдвинуть блок Guimarães или сделать маршрут более расслабленным.",
+        "confidence": "high",
+        "source": "Comboios de Portugal (CP) timetables"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1]",
+        "current": "🚆 Porto-Campanhã → Guimarães: 50 мин поезд urbano, 4.70 €",
+        "problem": "Urbano Porto → Guimarães обычно занимает не 50 минут, а примерно 1ч10–1ч20 в зависимости от станции и рейса. Цена также выглядит завышенной/неточной для urban fare и должна проверяться по CP.",
+        "suggestion": "Заменить на: \"🚆 Porto-São Bento/Campanhã → Guimarães: urban train CP, обычно около 1ч15; цену проверяйте в тарифах CP.\" Если нужна цена, дать её только с датой проверки.",
+        "confidence": "high",
+        "source": "Comboios de Portugal (CP) Urbanos do Porto timetables and fares"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0]",
+        "current": "🚆 Porto-Campanhã → Braga: 1ч поезд IC/AP, 7-12 €",
+        "problem": "Смешаны разные типы поездов. Urbanos do Porto до Braga идут около 1ч05–1ч15 и стоят дешевле, а IC/AP идут быстрее, но обычно дороже и с другой логикой бронирования. Формулировка \"1ч IC/AP, 7–12 €\" вводит в заблуждение.",
+        "suggestion": "Разделить: \"🚆 Porto-São Bento/Campanhã → Braga: urban train CP около 1ч10, дешевле; IC/AP с Campanhã — быстрее, но дороже и не каждый рейс удобен. Проверяйте CP перед поездкой.\"",
+        "confidence": "high",
+        "source": "Comboios de Portugal (CP) timetables and fares"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Из Порту 1 час поезд. Оба города на день с базой в Порту.",
+        "problem": "Для Braga это примерно верно, но для Guimarães поезд чаще около 1ч15, а связка Braga+Guimarães за один день возможна только в очень плотном темпе и лучше с автобусом/машиной между городами. В текущем виде создаётся впечатление простой железнодорожной связки.",
+        "suggestion": "Написать: \"Из Порту: Braga — около 1ч–1ч15 поездом, Guimarães — около 1ч15. Оба города за день возможны, но маршрут плотный; между Braga и Guimarães удобнее автобус/машина, а не поезд.\"",
+        "confidence": "high",
+        "source": "Comboios de Portugal (CP) timetables"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Историческая столица Португалии до 1139.",
+        "problem": "Это исторически неточно. Guimarães традиционно называют \"колыбелью Португалии\" из-за связи с Афонсу Энрикешем и битвой São Mamede 1128, но формулировка про столицу \"до 1139\" неверна/слишком категорична; Coimbra стала главным центром Афонсу Энрикеша ещё до признания королевства.",
+        "suggestion": "Заменить на: \"Гимарайнш традиционно считается ‘колыбелью Португалии’: здесь связаны ранняя власть Афонсу Энрикеша и битва São Mamede 1128. Формального статуса столицы в современном смысле у города не было.\"",
+        "confidence": "high",
+        "source": "Câmara Municipal de Guimarães; standard Portuguese historiography on Afonso Henriques and Coimbra"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0]",
+        "current": "🏰 Castelo de Guimarães (X в.) — замок, где родился Afonso Henriques, первый король. 2 €",
+        "problem": "Рождение Афонсу Энрикеша в Guimarães/замке — традиционная версия, но не установленный факт. Кроме того, цена 2 € выглядит устаревшей для посещения памятников Guimarães.",
+        "suggestion": "Заменить на: \"🏰 Castelo de Guimarães — замок X в., традиционно связанный с Афонсу Энрикешем; место его рождения точно не доказано. Билеты проверяйте на сайте Museus e Monumentos de Portugal/Paço dos Duques.\"",
+        "confidence": "high",
+        "source": "Museus e Monumentos de Portugal; Paço dos Duques de Bragança official visitor information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1]",
+        "current": "🏛️ Paço dos Duques de Bragança (XV в.) — бургундский замок-дворец, резиденция герцогов. 5 €",
+        "problem": "Цена 5 € вероятно устарела: тарифы на Paço dos Duques/Castelo менялись, и для 2026 такое значение не стоит подавать как актуальное без официальной проверки.",
+        "suggestion": "Написать: \"🏛️ Paço dos Duques de Bragança (XV в.) — дворец герцогов Браганса; актуальные билеты и комбинированные тарифы смотрите на сайте Museus e Monumentos de Portugal/Paço dos Duques.\"",
+        "confidence": "medium",
+        "source": "Museus e Monumentos de Portugal; Paço dos Duques de Bragança official ticket information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[2]",
+        "current": "⛪ Igreja de São Miguel do Castelo — романская часовня XII в., место крещения Афонсу",
+        "problem": "Крещение Афонсу Энрикеша в этой часовне — традиция, а не абсолютно подтверждённый факт. Лучше не формулировать как доказанное историческое событие.",
+        "suggestion": "Заменить на: \"⛪ Igreja de São Miguel do Castelo — романская часовня XII в., по традиции связанная с крещением Афонсу Энрикеша.\"",
+        "confidence": "high",
+        "source": "Paço dos Duques de Bragança / Guimarães official heritage information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[6]",
+        "current": "🚡 Teleférico da Penha — канатная дорога на гору Penha, виды. 5 € round-trip",
+        "problem": "Цена 5 € за round-trip выглядит устаревшей; тарифы Teleférico de Guimarães в последние годы были выше. Нельзя подавать как актуальную цену 2026 без проверки.",
+        "suggestion": "Заменить на: \"🚡 Teleférico da Penha — канатная дорога на гору Penha, виды; актуальный тариф туда-обратно проверяйте на сайте Teleférico de Guimarães.\"",
+        "confidence": "medium",
+        "source": "Teleférico de Guimarães official tariffs"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Древнейший город страны (римская Bracara Augusta, II в. до н.э.).",
+        "problem": "Bracara Augusta была основана римлянами в конце I века до н.э., обычно указывают 16 г. до н.э., а не II век до н.э. Также \"древнейший город страны\" — спорное абсолютное утверждение.",
+        "suggestion": "Заменить на: \"Один из древнейших городов Португалии: римская Bracara Augusta, основанная в конце I века до н.э.\"",
+        "confidence": "high",
+        "source": "Visit Braga; Município de Braga historical information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[8]",
+        "current": "🎪 Semana Santa Braga — Страстная неделя с крупнейшими в Иберии процессиями",
+        "problem": "Суперлатив \"крупнейшими в Иберии\" требует сильного источника и, вероятно, является рекламным преувеличением. Braga действительно известна одной из самых значимых Semana Santa в Португалии.",
+        "suggestion": "Заменить на: \"🎪 Semana Santa Braga — одна из самых известных и торжественных Страстных недель в Португалии, с ночными процессиями.\"",
+        "confidence": "medium",
+        "source": "Visit Braga; Semana Santa de Braga official information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "🐟 Bacalhau à Braga — треска с картофельными крокетами",
+        "problem": "Bacalhau à Braga обычно подают с жареным картофелем ломтиками/кружками, луком и перцем, а не с картофельными крокетами.",
+        "suggestion": "Заменить на: \"🐟 Bacalhau à Braga — жареная треска с жареным картофелем, луком и перцем.\"",
+        "confidence": "high",
+        "source": "Portuguese culinary references; regional restaurant menus"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[3]",
+        "current": "🥖 Bola de Berlim — пончик, но особый в Браге",
+        "problem": "Bola de Berlim — общеизвестная португальская выпечка, но не характерная именно для Braga. Для Браги более уместны Pudim Abade de Priscos, fidalguinhos, frigideiras или tíbias.",
+        "suggestion": "Заменить на: \"🥨 Fidalguinhos de Braga / Frigideiras / Tíbias — более локальные сладости и закуски Браги.\"",
+        "confidence": "medium",
+        "source": "Visit Braga gastronomy information"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://www.cm-guimaraes.pt/",
+        "problem": "Это официальный сайт муниципалитета, но для туристической информации по Guimarães более точный источник — официальный туристический портал Visit Guimarães. Текущий URL не обязательно неверный, но источник менее релевантен для маршрутов, достопримечательностей и событий.",
+        "suggestion": "Добавить или заменить на официальный туристический портал: \"https://www.visitguimaraes.travel/\"; муниципальный сайт можно оставить как дополнительный источник.",
+        "confidence": "high",
+        "source": "Visit Guimarães official tourism portal"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Нет источников CP/Rede Expressos/Teleférico/Museus e Monumentos при наличии расписаний, цен на билеты и входных тарифов.",
+        "problem": "В тексте много конкретных цен и длительностей поездок, но источники только общие туристические. Для расписаний и тарифов нужны первичные источники; иначе guide будет быстро устаревать.",
+        "suggestion": "Добавить источники: CP.pt для поездов и тарифов, Rede Expressos для автобусов, Teleférico de Guimarães для канатной дороги, Museus e Monumentos de Portugal/Paço dos Duques для билетов Castelo/Paço.",
+        "confidence": "high",
+        "source": "Comboios de Portugal; Rede Expressos; Teleférico de Guimarães; Museus e Monumentos de Portugal"
+      }
+    ],
+    "missing_topics": [
+      "Официальные ссылки на CP и предупреждение, что расписания urban/intercidades/AP и цены меняются",
+      "Практичная альтернатива Braga ↔ Guimarães автобусом вместо ошибочного поезда",
+      "Актуальные официальные страницы билетов Castelo de Guimarães, Paço dos Duques и Teleférico da Penha",
+      "Уточнение, что Guimarães как «колыбель Португалии» — историко-символический статус, а не буквальная столица до 1139"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5221,
+    "prompt_tokens": 2440,
+    "total_tokens": 7661
+  },
+  "model": "gpt-5.5"
+}

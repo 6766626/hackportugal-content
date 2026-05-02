@@ -1,0 +1,103 @@
+{
+  "guideId": "madeira-island",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful for lifestyle/logistics, but it contains a misleading Madeira tax claim, an outdated IRC comparison, and a few overstatements/outdated transport details.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[5]",
+        "current": "💰 Автономный налоговый статус: 10% IRS в некоторых схемах",
+        "problem": "Misleading. Madeira does not have a general “10% IRS” regime for individuals/digital nomads. Individuals resident in Madeira are taxed under regional IRS tables, often somewhat lower than mainland tables, but not a blanket 10% rate. Special regimes for individuals such as old NHR or IFICI are national regimes, not Madeira-only, and their rates are not 10%. This also contradicts the more accurate tldr statement that ZFM is for corporations and Madeira IRS is only usually lower than mainland by a small margin.",
+        "suggestion": "Replace with: “💰 IRS для резидентов Мадейры считается по региональным таблицам Madeira: ставки обычно ниже континентальных, но это не отдельный ‘10% режим’ для digital nomads. ZFM/IBC 5% относится к квалифицируемым компаниям, не к IRS физлиц.”",
+        "confidence": "high",
+        "source": "Código do IRS; Portal das Finanças regional IRS withholding/tax tables; Região Autónoma da Madeira tax tables"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "ZFM (Zona Franca da Madeira) — особый режим для **корпораций** (IRC 5% вместо 21%, не IRS физлиц!)",
+        "problem": "The comparison “instead of 21%” is outdated/misleading. Portugal’s standard IRC rate was reduced from 21% to 20% from 2025, and 2026 should be checked against the current State Budget/AT table. Also, the 5% ZFM/IBC rate is not for all corporations in Madeira; it applies only to duly licensed International Business Centre/ZFM entities meeting substance, job-creation/investment, eligible-income and state-aid ceiling rules.",
+        "suggestion": "Write: “ZFM/IBC Madeira — льготный режим для лицензированных компаний с substance/рабочими местами и лимитами госпомощи: ставка IRC 5% на квалифицируемый доход. Это не IRS физлиц и не режим для любой компании на Мадейре; стандартную ставку IRC проверяйте по актуальной таблице AT.”",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais, art. 36.º-A; Lei 45-A/2024; Portal das Finanças IRC rates"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4]",
+        "current": "🇬🇧 Английский понимают везде",
+        "problem": "Overstated. English is common in Funchal, tourism, hotels, restaurants, rentals and the nomad scene, but not literally everywhere; in public administration, healthcare reception, older locals and rural/north-coast areas, Portuguese is often needed.",
+        "suggestion": "Replace with: “🇬🇧 Английский широко понимают в Funchal, туристических местах и nomad-сообществе; для госуслуг, медицины и деревень часто нужен португальский или переводчик.”",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Английский повсеместно.",
+        "problem": "Same overstatement as in the checklist. It can mislead newcomers about dealing with public services, landlords, doctors and non-tourist municipalities.",
+        "suggestion": "Replace with: “Английский широко распространён в туристических и nomad-зонах, но для госуслуг и быта вне Funchal нужен португальский.”",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "SNS работает.",
+        "problem": "Too compressed and slightly imprecise for Madeira. Healthcare on Madeira is provided through the regional health service/SESARAM, integrated with the Portuguese public system. Access depends on legal residence/entitlement and obtaining a Número de Utente; tourists or newly arrived non-residents should not assume full SNS access without eligibility or insurance.",
+        "suggestion": "Write: “Госмедицина работает через Serviço Regional de Saúde/SESARAM; резидентам нужен Número de Utente. До оформления статуса/utente лучше иметь частную страховку.”",
+        "confidence": "high",
+        "source": "SESARAM; SNS 24; Governo Regional da Madeira"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[6]",
+        "current": "🌊 Porto Santo — второй остров, 2ч паром, песчаные пляжи",
+        "problem": "The ferry crossing is usually closer to about 2h15–2h30, not simply 2h. Schedules are seasonal and weather/maintenance can affect service.",
+        "suggestion": "Replace with: “🌊 Porto Santo — второй остров, примерно 2ч15–2ч30 на пароме Lobo Marinho; расписание сезонное, проверяйте заранее.”",
+        "confidence": "high",
+        "source": "Porto Santo Line / Lobo Marinho timetable"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "🚐 Из аэропорта в город: автобус aerobus 5€ / такси 25-30€",
+        "problem": "Likely outdated. The Aerobus airport–Funchal adult fare has commonly been €6 one-way / €10 return in recent schedules, not €5. Taxi price also varies by zone, luggage, night/weekend surcharge and final address, so a fixed 25–30€ can understate some trips.",
+        "suggestion": "Write: “🚐 Аэропорт–Funchal: Aerobus около 6€ one-way / 10€ return; такси обычно ~30–40€ в зависимости от адреса, багажа и времени. Проверяйте актуальный тариф.”",
+        "confidence": "medium",
+        "source": "SAM Madeira Aerobus tariff"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[3]",
+        "current": "🚌 Horários do Funchal и SAM — автобусы внутри острова",
+        "problem": "Incomplete/outdated for island-wide transport. Madeira public transport is broader than Horários do Funchal and SAM; Rodoeste and EACL also matter, and services are increasingly presented under the SIGA Madeira integrated transport brand/system.",
+        "suggestion": "Replace with: “🚌 Автобусы: SIGA Madeira / Horários do Funchal, SAM, Rodoeste, EACL; расписания вне Funchal редкие, особенно вечером и по выходным.”",
+        "confidence": "high",
+        "source": "SIGA Madeira; Horários do Funchal; SAM; Rodoeste; EACL"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "✈️ Funchal airport: 1.5ч до Lisboa (50-200€), прямые в UK/DE/FR",
+        "problem": "Flight duration to Lisbon is usually around 1h40–1h50 gate-to-gate, not 1.5h. Price range is plausible but highly seasonal and can exceed €200 in peak dates or when booked late.",
+        "suggestion": "Write: “✈️ Funchal airport: примерно 1ч40–1ч50 до Lisboa; билеты часто 50–200€+, сильно зависят от сезона и даты покупки; есть прямые рейсы в UK/DE/FR.”",
+        "confidence": "high",
+        "source": "Airline schedules TAP/easyJet/Ryanair"
+      }
+    ],
+    "missing_topics": [
+      "Mention that Madeira airport is prone to wind-related delays/diversions/cancellations; newcomers should keep buffer time for connections and important appointments.",
+      "Add a practical healthcare caveat: public care is via SESARAM/Serviço Regional de Saúde; residents need Número de Utente, and newcomers should keep private insurance until access is regularised.",
+      "Add caveat that ZFM/IBC 5% is a licensed corporate regime with substance/job-creation and eligible-income limits, not a personal tax benefit and not for every Madeira company.",
+      "Mention island-wide public transport operators/SIGA and that a car is often necessary outside Funchal/Ponta do Sol because evening/weekend buses can be sparse."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3541,
+    "prompt_tokens": 2196,
+    "total_tokens": 5737
+  },
+  "model": "gpt-5.5"
+}

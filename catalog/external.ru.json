@@ -1,0 +1,254 @@
+[
+  {
+    "id": "ext-eportugal",
+    "title": "ePortugal — единый портал госуслуг",
+    "categoryId": "digital_gov",
+    "telegramUrl": "https://eportugal.gov.pt/cidadaos",
+    "tags": [
+      "официальный",
+      "госуслуги"
+    ]
+  },
+  {
+    "id": "ext-sns24",
+    "title": "SNS24 — онлайн медицина",
+    "categoryId": "healthcare",
+    "telegramUrl": "https://www.sns24.gov.pt/",
+    "tags": [
+      "официальный",
+      "sns"
+    ]
+  },
+  {
+    "id": "ext-imt",
+    "title": "IMT — институт мобильности и транспорта",
+    "categoryId": "driving_license",
+    "telegramUrl": "https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx",
+    "tags": [
+      "официальный",
+      "права"
+    ]
+  },
+  {
+    "id": "ext-vistosmne",
+    "title": "Vistos MNE — портал виз",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://vistos.mne.gov.pt/pt/",
+    "tags": [
+      "официальный",
+      "визы"
+    ]
+  },
+  {
+    "id": "ext-dgav",
+    "title": "DGAV — ветеринарное управление (для животных)",
+    "categoryId": "animals",
+    "telegramUrl": "https://www.dgav.pt/animais/",
+    "tags": [
+      "официальный",
+      "животные"
+    ]
+  },
+  {
+    "id": "ext-autenticacao",
+    "title": "Autenticacao.gov — Chave Móvel Digital",
+    "categoryId": "digital_gov",
+    "telegramUrl": "https://www.autenticacao.gov.pt/",
+    "tags": [
+      "официальный",
+      "chave"
+    ],
+    "fullGuideId": "chave-movel-digital"
+  },
+  {
+    "id": "ext-deco",
+    "title": "DECO Proteste — защита потребителей",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.deco.proteste.pt/",
+    "tags": [
+      "сайт",
+      "потребители"
+    ]
+  },
+  {
+    "id": "ext-oa",
+    "title": "Ordem dos Advogados — поиск юриста",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://portal.oa.pt/",
+    "tags": [
+      "сайт",
+      "юрист"
+    ]
+  },
+  {
+    "id": "ext-dge",
+    "title": "DGE — Direcção-Geral da Educação",
+    "categoryId": "education_children",
+    "telegramUrl": "https://www.dge.mec.pt/",
+    "tags": [
+      "официальный",
+      "образование"
+    ]
+  },
+  {
+    "id": "ext-portalmatriculas",
+    "title": "Portal das Matrículas — запись в школу",
+    "categoryId": "education_children",
+    "telegramUrl": "https://portaldasmatriculas.edu.gov.pt/",
+    "tags": [
+      "официальный",
+      "школа"
+    ],
+    "fullGuideId": "school-enrollment"
+  },
+  {
+    "id": "ext-dges",
+    "title": "DGES — Direcção-Geral do Ensino Superior",
+    "categoryId": "education_children",
+    "telegramUrl": "https://www.dges.gov.pt/pt",
+    "tags": [
+      "официальный",
+      "вуз"
+    ],
+    "fullGuideId": "d4-student"
+  },
+  {
+    "id": "ext-dre",
+    "title": "DRE — Diário da República (законы)",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://dre.pt/",
+    "tags": [
+      "официальный",
+      "законы"
+    ]
+  },
+  {
+    "id": "ext-apav",
+    "title": "APAV — помощь жертвам насилия",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://apav.pt/",
+    "tags": [
+      "официальный",
+      "безопасность"
+    ]
+  },
+  {
+    "id": "ext-cicdr",
+    "title": "CICDR — комиссия по дискриминации",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.cicdr.pt/",
+    "tags": [
+      "официальный",
+      "права"
+    ]
+  },
+  {
+    "id": "ext-siac",
+    "title": "SIAC — база регистрации животных",
+    "categoryId": "animals",
+    "telegramUrl": "https://siac.vet/",
+    "tags": [
+      "официальный",
+      "животные"
+    ],
+    "fullGuideId": "pet-import"
+  },
+  {
+    "id": "ext-inem",
+    "title": "INEM — национальная служба скорой помощи",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.inem.pt/",
+    "tags": [
+      "официальный",
+      "скорая"
+    ],
+    "fullGuideId": "emergency-112"
+  },
+  {
+    "id": "ext-psp",
+    "title": "PSP — полиция общественной безопасности",
+    "categoryId": "emergency_rights",
+    "telegramUrl": "https://www.psp.pt/",
+    "tags": [
+      "официальный",
+      "полиция"
+    ]
+  },
+  {
+    "id": "ext-mne-moscow",
+    "title": "Посольство Португалии в Москве",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://moscovo.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "официальный",
+      "консульство",
+      "рф"
+    ]
+  },
+  {
+    "id": "ext-mne-warsaw",
+    "title": "Посольство Португалии в Варшаве",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://varsovia.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "официальный",
+      "консульство",
+      "польша"
+    ]
+  },
+  {
+    "id": "ext-mne-madrid",
+    "title": "Посольство Португалии в Мадриде",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://madrid.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "официальный",
+      "консульство",
+      "испания"
+    ]
+  },
+  {
+    "id": "ext-mne-berlin",
+    "title": "Посольство Португалии в Берлине",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://berlim.embaixadaportugal.mne.gov.pt/pt/",
+    "tags": [
+      "официальный",
+      "консульство",
+      "германия"
+    ]
+  },
+  {
+    "id": "ext-mne-consulates-map",
+    "title": "Все посольства и консульства Португалии (карта)",
+    "categoryId": "before_arrival",
+    "telegramUrl": "https://www.portaldascomunidades.mne.gov.pt/pt/rede-consular",
+    "tags": [
+      "официальный",
+      "консульства",
+      "карта"
+    ]
+  },
+  {
+    "id": "ext-cmvm",
+    "title": "CMVM — комиссия по ценным бумагам (Golden Visa фонды)",
+    "categoryId": "housing_buy",
+    "telegramUrl": "https://www.cmvm.pt/",
+    "tags": [
+      "официальный",
+      "инвестиции"
+    ],
+    "fullGuideId": "golden-visa-2026"
+  },
+  {
+    "id": "ext-adene",
+    "title": "ADENE — сертификат энергоэффективности",
+    "categoryId": "housing_buy",
+    "telegramUrl": "https://www.adene.pt/",
+    "tags": [
+      "официальный",
+      "недвижимость"
+    ],
+    "fullGuideId": "buying-property"
+  }
+]

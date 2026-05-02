@@ -1,0 +1,212 @@
+{
+  "guideId": "shopping-outlets",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful in concept, but several Lisbon-area outlet entries, transport details, sale dates and Tax Free rules are inaccurate or misleading.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].title",
+        "current": "🏆 Freeport Lisboa (Alcochete) — крупнейший в Европе",
+        "problem": "The wording states as a fact that Freeport Lisboa is the largest in Europe. This is at least contestable and likely outdated/marketing language; several European outlet villages claim comparable or larger size. The body text already says \"one of the largest\", which is safer.",
+        "suggestion": "Write: \"Freeport Lisboa (Alcochete) — один из крупнейших outlet villages в Европе\".",
+        "confidence": "medium",
+        "source": "Freeport Lisboa Fashion Outlet official site"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[6]",
+        "current": "Детские: игровая зона + Kidzânia рядом",
+        "problem": "Kidzania Lisbon is not near Freeport Alcochete; it is in UBBO/Amadora, on the opposite side of the Lisbon metro area. Calling it \"рядом\" is misleading for trip planning.",
+        "suggestion": "Remove KidZania from the Freeport section. If mentioning it, write separately: \"Kidzania находится в UBBO, Amadora, не рядом с Freeport\".",
+        "confidence": "high",
+        "source": "KidZania Lisboa official location; UBBO official site"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "Как добраться: авто (30 мин A12), автобус Fertagus + shuttle от Pragal, Uber (20-30 € из центра)",
+        "problem": "Fertagus is a rail operator, not a bus. The \"shuttle от Pragal\" is not a stable/current public-transport option that should be presented as the standard route. Freeport access is normally by car/taxi/ride-hailing or by Carris Metropolitana/TST-style bus routes via Alcochete/Oriente depending on current timetable.",
+        "suggestion": "Write: \"Как добраться: авто через Ponte Vasco da Gama/A12; taxi/Uber/Bolt из Лиссабона; общественным транспортом — проверять актуальные маршруты Carris Metropolitana до Alcochete/Freeport перед поездкой\".",
+        "confidence": "medium",
+        "source": "Carris Metropolitana route planner; Freeport Lisboa official 'Como chegar'"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[7]",
+        "current": "🎟️ Touristcard — +10% доп. скидка в большинстве магазинов (show паспорт non-EU + visitor card)",
+        "problem": "This conflates tourist discount cards with Tax Free eligibility. Outlet visitor/tourist cards are usually subject to participating-store rules and may not require a non-EU passport; Tax Free requires non-EU residence. \"В большинстве магазинов\" is also too broad unless the current participating-store list confirms it.",
+        "suggestion": "Write: \"Tourist/Fashion Passport: дополнительная скидка в участвующих магазинах; условия и список магазинов проверяйте на Info Desk. Tax Free отдельно и только для резидентов вне ЕС\".",
+        "confidence": "medium",
+        "source": "Freeport Lisboa Fashion Outlet official tourist information; AT e-Taxfree"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[3]",
+        "current": "Close to: Quinta do Lago (10 мин), Vale do Lobo (15 мин), Faro aeropuerto (20 мин)",
+        "problem": "Mixed English/Spanish/Russian and the airport is misspelled as Spanish \"aeropuerto\". Also travel times vary materially in summer traffic; these should be approximate.",
+        "suggestion": "Write: \"Рядом: Quinta do Lago ~10-15 мин, Vale do Lobo ~15-20 мин, аэропорт Faro ~20-25 мин на машине\".",
+        "confidence": "high",
+        "source": "Designer Outlet Algarve official location; Google Maps typical driving times"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[2]",
+        "current": "Как добраться: auto (A28, 25 мин), Flixbus / Rede Expressos direct, Uber ~20 €",
+        "problem": "The most important public-transport option is missing: Porto Metro Line B has the station \"VC Fashion Outlet–Modivas\" near the outlet. FlixBus/Rede Expressos are intercity coach operators and should not be presented as the normal direct way to the outlet. Uber from central Porto to a 30 km destination is often more than €20.",
+        "suggestion": "Write: \"Как добраться: авто по A28 ~25-35 мин; Metro do Porto Linha B до станции VC Fashion Outlet–Modivas; Uber/Bolt обычно ориентировочно €25-40+ в зависимости от спроса\".",
+        "confidence": "high",
+        "source": "Metro do Porto network map; Vila do Conde The Style Outlets official 'Como chegar'"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[3]",
+        "current": "Pairs well with visit to Vila do Conde town (исторические корабли, Agueiro beach)",
+        "problem": "\"Agueiro beach\" appears to be the wrong place name for Vila do Conde. Common nearby beaches include Praia de Azurara, Praia de Árvore, Praia da Olinda/Praia Azul area, etc.",
+        "suggestion": "Replace with: \"можно совместить с Vila do Conde: Nau Quinhentista, акведук, Praia de Azurara/пляжи Vila do Conde\".",
+        "confidence": "medium",
+        "source": "Município de Vila do Conde tourism information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[5]",
+        "current": "Детская зона, шины с играми",
+        "problem": "The phrase \"шины с играми\" is likely a typo or mistranslation and is unclear to readers.",
+        "suggestion": "Write a clear phrase such as: \"детская зона/игровая площадка\" if this facility is confirmed on the outlet site.",
+        "confidence": "high",
+        "source": "Vila do Conde The Style Outlets official site"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[1]",
+        "current": "**Outlet Amoreiras** (Amoreiras Shopping) — Zara, Mango, Uterqüe — 30-50% ежедневно",
+        "problem": "This is very likely false/outdated. Amoreiras Shopping is a regular shopping centre, not generally an outlet. Uterqüe as a separate brand/store was discontinued by Inditex and absorbed into Massimo Dutti years ago. Presenting daily 30-50% discounts at Zara/Mango/Uterqüe is misleading.",
+        "suggestion": "Remove this item unless a current official Amoreiras outlet store page exists. Replace with regular shopping-centre wording: \"Amoreiras Shopping — обычный ТЦ, не outlet; скидки только в сезон saldos/акции отдельных магазинов\".",
+        "confidence": "high",
+        "source": "Amoreiras Shopping official store directory; Inditex/Uterqüe brand discontinuation information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "**Mercado de Levante** (Feira da Ladra) — subd second-hand + vintage, суббота-воскресенье",
+        "problem": "Feira da Ladra is not Saturday-Sunday. It is traditionally held on Tuesdays and Saturdays. \"Mercado de Levante\" is also not the usual name readers will search for; the relevant area is Campo de Santa Clara/Feira da Ladra.",
+        "suggestion": "Write: \"Feira da Ladra, Campo de Santa Clara — second-hand/vintage, обычно вторник и суббота утром/днём; не классический outlet\".",
+        "confidence": "high",
+        "source": "Câmara Municipal de Lisboa / Feira da Ladra information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "**Fashion Clinic Outlet** (Av. da Liberdade) — премиум бренды с 30-60% скидкой (Balenciaga, Celine, Prada последних коллекций)",
+        "problem": "Fashion Clinic is known for luxury retail on Avenida da Liberdade, but calling the Avenida da Liberdade location an \"outlet\" with permanent 30-60% discounts on recent Balenciaga/Celine/Prada collections needs current confirmation. It risks confusing a normal luxury boutique/sale section with an outlet.",
+        "suggestion": "Either cite the exact current outlet address/page or soften: \"Fashion Clinic/Fashion Clinic online sale — люксовые бренды; скидки зависят от сезонных sale, это не классический outlet village\".",
+        "confidence": "medium",
+        "source": "Fashion Clinic official site/store locator"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "📅 **Boxing Day sales** (26 декабря-2 января) — до 80% после Рождества",
+        "problem": "Portugal does not have a formal UK-style \"Boxing Day\" retail period. Post-Christmas sales exist, but dates and discounts are set by retailers and are not reliably 26 Dec-2 Jan.",
+        "suggestion": "Write: \"После Рождества/зимние saldos: часто стартуют в конце декабря или начале января; даты и extra discounts зависят от конкретного outlet/магазина\".",
+        "confidence": "high",
+        "source": "ASAE rules on saldos/promoções; outlet official event calendars"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "📅 **Summer sale** (начало июля, финал — конец августа)",
+        "problem": "The guide implies fixed national sale periods. In Portugal, sales/promotions are liberalised: retailers choose dates, subject to consumer-law/ASAE rules. The pattern is broadly right, but should be framed as typical rather than guaranteed.",
+        "suggestion": "Write: \"Летние saldos: обычно июнь/июль–август, но точные даты определяет магазин/outlet; проверяйте event calendar\".",
+        "confidence": "high",
+        "source": "ASAE guidance on saldos, promoções e liquidações"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2]",
+        "current": "📅 **Black Friday** (25 ноября) — +extra 20-30% многие outlets",
+        "problem": "Black Friday is not always on 25 November. It is the Friday after US Thanksgiving; in 2026 it falls on 27 November. A fixed date will become wrong in most years.",
+        "suggestion": "Write: \"Black Friday — последняя пятница ноября / пятница после Thanksgiving; многие outlets дают extra promotions, но размер скидки зависит от магазина\".",
+        "confidence": "high",
+        "source": "Retail calendar; outlet official event calendars"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].text",
+        "current": "Non-EU туристы могут получить возврат IVA 13-23% при покупках >50 € в одном магазине в один день.",
+        "problem": "Tax Free eligibility is based on residence outside the EU, not simply being a \"Non-EU tourist\" by nationality. The minimum is commonly expressed as more than €50 excluding VAT / eligible invoice amount rules, not just a simple \"покупки >50 €\". Also Portugal has VAT rates beyond 13-23%: mainland 6/13/23, Madeira and Azores have different rates.",
+        "suggestion": "Write: \"Tax Free доступен путешественникам с постоянным местом жительства вне ЕС, которые вывозят товары в личном багаже. В Португалии минимальная покупка — более €50 без IVA на invoice/в одном магазине; возвращается не весь IVA, а сумма после комиссии оператора. Ставки IVA зависят от товара и региона\".",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — e-Taxfree Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[1]",
+        "current": "На выходе из ЕС (аэропорт Лиссабона, Порту, Faro): штамп таможни на форму",
+        "problem": "This is outdated/simplified. Portugal uses e-Taxfree electronic validation at kiosks/customs; paper stamping is not the normal description for the Portuguese e-Taxfree flow. Also validation must be at the last point of departure from the EU, which may be another EU airport if the traveller has a connection.",
+        "suggestion": "Write: \"На последнем пункте выезда из ЕС подтвердить e-Taxfree у customs/e-Taxfree kiosk до регистрации багажа, если товары в сдаваемом багаже. Если летите Lisboa–Frankfurt–non-EU, финальная таможенная валидация может быть в Германии\".",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — e-Taxfree Portugal; EU Taxation and Customs Union VAT refunds for travellers"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[4]",
+        "current": "С 2023: электронный e-Taxfree через KIOSK в аэропорту — без очередей",
+        "problem": "Portugal's e-Taxfree system predates 2023; presenting it as a 2023 change is inaccurate. \"Без очередей\" is also misleading: kiosks can refer travellers to customs inspection and there can be queues, especially at Lisbon airport.",
+        "suggestion": "Write: \"В Португалии действует электронная система e-Taxfree: валидация через kiosk/customs, но возможна проверка товаров и очереди\".",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — e-Taxfree Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[0]",
+        "current": "В магазине: попросить factura com IVA и Tax Refund Form (Global Blue, Planet Tax Free, Premier Tax Free)",
+        "problem": "Provider list is not necessarily current/complete, and the key required item in Portugal is an e-Taxfree document/registration with passport/residence data, not just a generic paper form.",
+        "suggestion": "Write: \"В магазине попросить Tax Free/e-Taxfree invoice/document; понадобится паспорт и подтверждение residence outside EU. Оператор может быть Global Blue, Planet и др.\".",
+        "confidence": "medium",
+        "source": "Autoridade Tributária e Aduaneira — e-Taxfree Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "\"label\": \"Tax refund комиссия оператора\", \"amountEURMin\": 15, \"amountEURMax\": 25, \"note\": \"% от суммы возврата\"",
+        "problem": "The numeric fields are named amountEURMin/amountEURMax but the note says the values are percentages. This is internally inconsistent and can be rendered as €15-€25 rather than 15-25%.",
+        "suggestion": "Use percentage fields if the schema supports them, or change label/note to text only: \"Комиссия оператора: часто около 15-25% от суммы возврата, зависит от оператора и суммы покупки\".",
+        "confidence": "high",
+        "source": "Global Blue/Planet fee schedules vary by transaction"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only outlet company sources and ASAE are listed.",
+        "problem": "The guide gives specific Tax Free/e-Taxfree rules but does not cite the official Portuguese tax/customs source. ASAE is not the primary authority for VAT refund validation.",
+        "suggestion": "Add an official source: Autoridade Tributária e Aduaneira — e-Taxfree Portugal / Informação para viajantes residentes fora da UE.",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Плюс мелкие outlet-точки в Лиссабоне (Fashion Clinic, Outlet Amoreiras), Sintra (Sintra Retail Park), Cascais.",
+        "problem": "The TLDR mentions Sintra Retail Park and Cascais, but the guide body does not give any Cascais entry and does not actually cover Sintra Retail Park beyond the TLDR. Also Sintra Retail Park is a retail park, not necessarily an outlet destination.",
+        "suggestion": "Either add verified entries for Sintra/Cascais with current outlet stores, or remove them from the TLDR. For Sintra Retail Park, clarify: \"retail park с отдельными discount/outlet stores, не outlet village\" if accurate.",
+        "confidence": "medium",
+        "source": "Sintra Retail Park official directory; Cascais store directories"
+      }
+    ],
+    "missing_topics": [
+      "Official AT/e-Taxfree source and clearer explanation that Tax Free depends on residence outside the EU, not citizenship",
+      "Metro do Porto Line B access to Vila do Conde outlet via VC Fashion Outlet–Modivas station",
+      "Caveat that Portuguese saldos/promotions are retailer-set and dates are not fixed national periods",
+      "Current official store-directory verification for smaller Lisbon-area 'outlet' claims",
+      "Clarification that retail parks/second-hand markets are not the same as outlet villages"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5083,
+    "prompt_tokens": 2532,
+    "total_tokens": 7615
+  },
+  "model": "gpt-5.5"
+}

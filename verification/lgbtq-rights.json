@@ -1,0 +1,214 @@
+{
+  "guideId": "lgbtq-rights",
+  "categoryId": "country_specific",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly pro-LGBTQ and mostly directionally correct, but it contains several material legal inaccuracies around trans minors, conversion therapy, criminal discrimination, surrogacy/PMA, and medical transition coverage.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Дискриминация по ориентации/идентичности — criminal offence (до 5 лет ареста).",
+        "problem": "This overstates the law. In Portugal not every act of discrimination is a criminal offence. Article 240 of the Penal Code criminalises specific conduct such as incitement to hatred/violence, threats, defamation/injury or denial of rights in certain circumstances. Many discrimination cases are labour/administrative/civil matters, not crimes. Also the correct term is imprisonment, not arrest.",
+        "suggestion": "Write: \"Некоторые формы hate speech / hate crime и denial of rights по признаку sexual orientation, gender identity/expression или sex characteristics criminalised under Código Penal art. 240, with penalties that can reach imprisonment; workplace/service discrimination may also be handled through labour, civil or administrative complaints.\"",
+        "confidence": "high",
+        "source": "Código Penal, artigo 240"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[0]",
+        "current": "✅ **Same-sex marriage** legalized 2010 (Lei 9/2010 + 2/2010)",
+        "problem": "\"Lei 2/2010\" is not the same-sex marriage law. The relevant marriage statute is Lei 9/2010. The extra \"+ 2/2010\" is confusing and likely wrong.",
+        "suggestion": "Write: \"✅ Same-sex marriage legalized in 2010 by Lei n.º 9/2010.\"",
+        "confidence": "high",
+        "source": "Lei n.º 9/2010"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "✅ **Reproductive treatment**: lesbian couples с 2016, single women с 2017",
+        "problem": "The split between lesbian couples in 2016 and single women in 2017 is misleading. Lei 17/2016 opened medically assisted reproduction to all women, regardless of marital status and sexual orientation. Practical regulation/implementation followed, but the legal change was 2016.",
+        "suggestion": "Write: \"✅ PMA / medically assisted reproduction: since Lei n.º 17/2016, доступна всем женщинам, независимо от marital status и sexual orientation; доступ на практике регулируется CNPMA and clinical criteria.\"",
+        "confidence": "high",
+        "source": "Lei n.º 17/2016; CNPMA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[3]",
+        "current": "✅ Surrogacy: только для медицинских причин (не commercial), независимо от сексуальной ориентации",
+        "problem": "This is materially misleading. Portuguese gestação de substituição is extremely restricted, altruistic only, subject to prior CNPMA authorisation and limited to specific medical situations such as absence/injury/disease of the uterus preventing pregnancy. It is not a general route \"regardless of sexual orientation\" and is not realistically available to male same-sex couples simply because they are a couple.",
+        "suggestion": "Write: \"⚠️ Surrogacy / gestação de substituição is very restricted: altruistic only, prior CNPMA authorisation required, and generally limited to cases where a woman cannot carry a pregnancy due to absence/injury/disease of the uterus or comparable medical condition. It is not a general family-building route for same-sex male couples.\"",
+        "confidence": "high",
+        "source": "Lei n.º 32/2006 as amended; CNPMA rules on gestação de substituição"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[2].content[0].items[1]",
+        "current": "✅ ≥ 16 лет: подача в Conservatória do Registo Civil with declaration → выдают новые документы за дни",
+        "problem": "For ages 16–17, the procedure is not just a simple declaration. Minors aged 16 to 18 need application through legal representatives and a report/opinion from a doctor or psychologist attesting decision-making capacity and informed will. Adults can apply directly.",
+        "suggestion": "Write: \"✅ Adults can apply directly at the civil registry. Ages 16–17: application by/with legal representatives plus a doctor/psychologist report confirming capacity and informed will; the registry decision is normally made within the legal deadline.\"",
+        "confidence": "high",
+        "source": "Lei n.º 38/2018"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[2].content[0].items[2]",
+        "current": "✅ < 16 лет: с согласия родителей + psychologist evaluation",
+        "problem": "This is wrong. Lei 38/2018 allows legal gender/name change by self-determination from age 16, with special safeguards for 16–17. Children under 16 generally cannot use this legal gender-recognition procedure. There are separate rules around intersex minors and protection from non-necessary interventions, but not a general under-16 legal change with parental consent.",
+        "suggestion": "Write: \"⚠️ Under 16: no general self-determination procedure for legal gender/name change under Lei 38/2018; families should get specialised legal advice. Separate protections exist for intersex minors.\"",
+        "confidence": "high",
+        "source": "Lei n.º 38/2018"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[3]",
+        "current": "✅ **Hormonal therapy**: бесплатно через SNS (после психиатра/endокринолога)",
+        "problem": "Overstates both the cost and pathway. SNS consultations are public/low-cost and many medicines may be reimbursed, but HRT medicines are not universally \"free\". Also saying it is \"after psychiatrist\" is too rigid and may be outdated/misleading; pathways vary by hospital/team and clinical indication.",
+        "suggestion": "Write: \"✅ HRT can be accessed through SNS via referral to specialised care; consultations are public/low-cost and some medicines may be reimbursed, but medications are not necessarily fully free. Pathways vary by local SNS team.\"",
+        "confidence": "high",
+        "source": "SNS; Infarmed reimbursement rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[5]",
+        "current": "✅ ❌ Запрет conversion therapy с 2024 (Lei 23/2024) — до 5 лет ареста",
+        "problem": "The cited law number appears wrong. Portugal’s 2024 ban on so-called conversion practices was introduced by Lei n.º 15/2024, not Lei 23/2024. The penalty is also misstated/oversimplified: the new criminal provision is not generally \"up to 5 years arrest\"; penalties vary by conduct and aggravating factors, and the correct term is imprisonment/fine.",
+        "suggestion": "Write: \"✅ Conversion practices prohibited since 2024 by Lei n.º 15/2024, which amended the Penal Code; penalties depend on the conduct and aggravating circumstances.\"",
+        "confidence": "high",
+        "source": "Lei n.º 15/2024"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[6]",
+        "current": "✅ **Update of academic, employment, banking records**: автоматически с заявления",
+        "problem": "This is misleading. Civil registry changes do not automatically update all academic, employer, banking, insurance, telecom, landlord and foreign records. The person usually has to request updates entity by entity using the new civil registry certificate / citizen card / ID.",
+        "suggestion": "Write: \"After legal name/gender change, Portuguese civil ID records are updated, but banks, employers, universities, insurers and foreign institutions usually must be contacted individually with updated documents/certificates.\"",
+        "confidence": "high",
+        "source": "Lei n.º 38/2018; IRN civil registry practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[0]",
+        "current": "**Código Penal art. 240**: дискриминация по сексуальной ориентации, identity, expression — criminal",
+        "problem": "Again too broad. Article 240 does not make every discriminatory act criminal; it criminalises defined hate/discrimination behaviours. Ordinary workplace or housing discrimination may be handled via ACT, courts, civil liability, administrative complaints or equality bodies.",
+        "suggestion": "Write: \"Código Penal art. 240 criminalises defined hate/discrimination conduct based on sexual orientation, gender identity/expression and sex characteristics; other discrimination may be labour, civil or administrative rather than criminal.\"",
+        "confidence": "high",
+        "source": "Código Penal, artigo 240"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[1]",
+        "current": "Hate speech / hate crime: до 5 лет ареста + штраф",
+        "problem": "Penalty statement is imprecise and may be wrong depending on conduct. Article 240 penalties vary by act; some are imprisonment from 6 months to 5 years, others from 6 months to 3 years or fine. Do not present one universal maximum as if it applies to all hate speech/hate crime.",
+        "suggestion": "Write: \"Penalties vary by offence; under art. 240 some conduct can carry imprisonment up to 5 years, while other forms carry lower terms or fines.\"",
+        "confidence": "high",
+        "source": "Código Penal, artigo 240"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "🏆 PT consistently в top-10 LGBTQ-friendly countries (ILGA-Europe Rainbow Index)",
+        "problem": "This needs year-specific wording. Portugal is usually high-ranked, but \"consistently top-10\" can become false depending on the edition and methodology. A guide verified in 2026 should cite the latest ILGA-Europe Rainbow Map position or use softer wording.",
+        "suggestion": "Write: \"Portugal usually ranks high in ILGA-Europe’s Rainbow Map/Index; check the latest annual ranking for the exact position.\"",
+        "confidence": "medium",
+        "source": "ILGA-Europe Rainbow Map"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[6]",
+        "current": "👨‍👨‍👧 Same-sex families в школах — без проблем, no questions",
+        "problem": "Too absolute. Legal equality exists, and many schools are supportive, but experiences vary by school, region, teacher and private/religious context. \"No questions\" is an unrealistic guarantee.",
+        "suggestion": "Write: \"Same-sex families are legally recognised and generally accepted in public schools, but experiences can vary; private/religious schools may differ.\"",
+        "confidence": "high",
+        "source": "Lei n.º 2/2016; Lei n.º 60/2009 and school inclusion policies"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "PT — один из лидеров в granting asylum по основанию сексуальной ориентации / идентичности",
+        "problem": "This is a strong factual claim without evidence. Portugal recognises sexual orientation/gender identity as potential persecution grounds, but calling it \"one of the leaders\" in grants needs statistics or should be removed.",
+        "suggestion": "Write: \"Portugal recognises persecution based on sexual orientation and gender identity as capable of supporting refugee status/subsidiary protection, assessed case by case.\"",
+        "confidence": "high",
+        "source": "Lei n.º 27/2008; AIMA asylum information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Закон Lei 27/2008 признаёт LGBT preсуrvanie как valid grounds для refugee status",
+        "problem": "There is a typo/mixed-language error: \"preсуrvanie\" appears to mean persecution. Also the legal formulation should be more precise: claims are usually framed as persecution for membership of a particular social group, including sexual orientation/gender identity, not as an automatic LGBT category.",
+        "suggestion": "Write: \"Lei n.º 27/2008 allows refugee/protection claims based on persecution connected to sexual orientation or gender identity, usually as membership of a particular social group; each claim is assessed individually.\"",
+        "confidence": "high",
+        "source": "Lei n.º 27/2008"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "Подача: AIMA → Solicitar Proteção Internacional",
+        "problem": "Incomplete. Applications for international protection can be made to AIMA or to police/border authorities, especially at entry/border or if detained. AIMA is central after SEF’s abolition, but the route is not only \"AIMA\".",
+        "suggestion": "Write: \"Application: request international protection with AIMA or competent police/border authorities; after SEF’s abolition AIMA handles the administrative asylum procedure.\"",
+        "confidence": "medium",
+        "source": "AIMA; Lei n.º 27/2008"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[1]",
+        "current": "HRT (hormone therapy): доступна, бесплатно",
+        "problem": "Overstates public coverage. HRT access exists through SNS, but medication costs can involve co-payments and availability/formulations vary. It is not safe to promise it is free.",
+        "suggestion": "Write: \"HRT can be accessed through SNS; consultations are public/low-cost and medicines may be partly reimbursed, but not always fully free.\"",
+        "confidence": "high",
+        "source": "SNS; Infarmed reimbursement rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[3]",
+        "current": "Hair removal: covered частично",
+        "problem": "This is likely too broad. Laser/electrolysis hair removal is not generally guaranteed as an SNS-covered gender-affirming service nationwide. Availability depends on hospital protocol and indication.",
+        "suggestion": "Write: \"Hair removal is not uniformly covered by SNS; ask the specialised team because access depends on hospital protocol and clinical indication.\"",
+        "confidence": "medium",
+        "source": "SNS hospital practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[5]",
+        "current": "Self-administered HRT — также легально, рекомендуется под medical supervision",
+        "problem": "Potentially dangerous and legally imprecise. Many hormones are prescription medicines; acquiring/using them without prescription or importing them can create medical and legal risks. The guide should not normalise DIY HRT as simply \"legal\".",
+        "suggestion": "Write: \"DIY/self-medicated HRT carries medical risks and prescription/import rules may apply; use medical supervision and obtain medicines through lawful prescription channels.\"",
+        "confidence": "high",
+        "source": "Infarmed; SNS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[0]",
+        "current": "🏥 **Family doctor**: можете requester knowingly LGBT-affirming — есть directory на ILGA",
+        "problem": "This is awkward and probably overpromises. In SNS you normally cannot simply choose any specific \"LGBT-affirming\" family doctor; assignment depends on availability at the health centre. If ILGA has resources, phrase as support/referral rather than guaranteed choice.",
+        "suggestion": "Write: \"You can ask your centro de saúde about changing doctor if there are problems and seek LGBT-friendly health referrals/resources via ILGA Portugal or community organisations, but SNS doctor choice depends on local availability.\"",
+        "confidence": "medium",
+        "source": "SNS user registration practice; ILGA Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources list includes ILGA Portugal, Lei 9/2010, Lei 38/2018, CIG, CPR only.",
+        "problem": "For a legal/medical/asylum guide, key primary sources are missing: Lei 2/2016 for adoption, Lei 17/2016/PMA and CNPMA for reproductive treatment/surrogacy, Lei 15/2024 for conversion practices, Código Penal art. 240 for hate crimes, Lei 27/2008 and AIMA for asylum, and official SNS/Infarmed sources for medical coverage/medications.",
+        "suggestion": "Add official/legal sources for: Lei n.º 2/2016, Lei n.º 17/2016, Lei n.º 15/2024, Código Penal art. 240, Lei n.º 27/2008, AIMA international protection page, CNPMA, SNS/Infarmed.",
+        "confidence": "high",
+        "source": "Diário da República; AIMA; CNPMA; SNS; Infarmed"
+      }
+    ],
+    "missing_topics": [
+      "Clear distinction between legal gender recognition for adults, ages 16–17, and under-16 minors under Lei 38/2018",
+      "Official CNPMA caveats on PMA and gestação de substituição",
+      "Accurate reference to Lei n.º 15/2024 on conversion practices",
+      "Precise explanation that Article 240 criminalises specific hate/discrimination conduct, not all discrimination",
+      "AIMA/official asylum procedure source and caveat that LGBT asylum claims are assessed case by case",
+      "Medication reimbursement and prescription caveats for HRT via SNS/Infarmed",
+      "Practical note that post-transition record updates are not automatic across private institutions"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5413,
+    "prompt_tokens": 3365,
+    "total_tokens": 8778
+  },
+  "model": "gpt-5.5"
+}

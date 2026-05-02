@@ -1,0 +1,176 @@
+{
+  "guideId": "espaco-cidadao",
+  "categoryId": "digital_gov",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по идее, но сильно переобещает набор услуг Espaço Cidadão/Loja de Cidadão и неверно описывает запись, NIF/NISS и автомобильные услуги.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Espaço Cidadão — точки обслуживания во всех муниципалитетах, где решают 90+ госуслуг: CC, NIF, NISS, Chave Móvel Digital...",
+        "problem": "Слишком широкое и вводящее в заблуждение утверждение. Espaço Cidadão есть по всей стране, но не гарантированно «во всех муниципалитетах», а набор услуг зависит от конкретной точки. NIF и NISS не являются универсальными услугами Espaço Cidadão.",
+        "suggestion": "Написать: «Espaço Cidadão — сеть точек госуслуг по всей стране; конкретный набор услуг зависит от места. Обычно помогают с Chave Móvel Digital, Cartão de Cidadão/адресом/справками и доступом к цифровым сервисам; NIF/NISS и услуги Finanças/Segurança Social доступны не везде и чаще требуют обращения в соответствующее ведомство или Loja de Cidadão с нужным окошком».",
+        "confidence": "high",
+        "source": "ePortugal — Locais de atendimento de serviços públicos / Espaços Cidadão"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Записаться обязательно через eportugal.gov.pt, живая очередь часто бесполезна.",
+        "problem": "Запись не всегда обязательна. Многие точки работают по талонам/живой очереди или имеют смешанный режим; правила зависят от услуги и конкретной Loja/Espaço. Утверждение «обязательно» неверно.",
+        "suggestion": "Написать: «Запись через ePortugal/SIGA часто рекомендуется и иногда обязательна для конкретной услуги, но часть точек принимает по живой очереди. Перед визитом проверьте страницу услуги и конкретного места».",
+        "confidence": "high",
+        "source": "ePortugal — Agendamento de atendimento / SIGA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0]",
+        "current": "Loja de Cidadão — в крупных городах (Lisboa, Porto, Faro), полный набор услуг, отдельные окошки каждого ведомства (Finanças, Seg Social, AIMA, IMT)",
+        "problem": "«Полный набор услуг» и перечисление ведомств как будто они есть в каждой Loja de Cidadão — неверно. Состав ведомств и услуг различается по каждой Loja. AIMA и IMT не являются гарантированными окошками в каждой Loja de Cidadão.",
+        "suggestion": "Написать: «Loja de Cidadão — крупный центр с окошками нескольких ведомств, но состав зависит от конкретной Loja: где-то есть Finanças/Segurança Social/IRN/IMT/AIMA, где-то нет. Проверяйте список entidades/serviços на ePortugal перед записью».",
+        "confidence": "high",
+        "source": "ePortugal — Lojas de Cidadão / Locais de atendimento"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1]",
+        "current": "Espaço Cidadão — в любом муниципалитете даже маленьком",
+        "problem": "Слишком категорично. Сеть покрывает страну широко, но формулировка «в любом муниципалитете» требует подтверждения и может быть неверной для отдельных муниципалитетов/островов/закрытых точек.",
+        "suggestion": "Заменить на: «во многих муниципалитетах и freguesias, включая небольшие населённые пункты; ближайшую точку смотрите на ePortugal».",
+        "confidence": "medium",
+        "source": "ePortugal — Locais de atendimento de serviços públicos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "NIF — получение (для ЕС/CPLP — без представителя)",
+        "problem": "Сразу несколько проблем: NIF выдают Finanças/Autoridade Tributária, а не любой Espaço Cidadão; доступность зависит от наличия окошка Finanças. Критерий «ЕС/CPLP» некорректен: для налогового представителя важны налоговое резидентство/место проживания и наличие налоговых обязанностей в Португалии, а не просто гражданство CPLP. CPLP не приравнивается к EU/EEA для налогового представительства.",
+        "suggestion": "Написать: «NIF — через Finanças/Autoridade Tributária: в Serviço de Finanças, через e-Balcão или в Loja de Cidadão, где есть окошко Finanças. Правила налогового представителя зависят от резидентства и налоговых обязанностей; EU/EEA — отдельный режим, CPLP само по себе не означает освобождение».",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira; Decreto-Lei 44/2022; Ofício Circulado AT on representante fiscal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4]",
+        "current": "NISS — оформление",
+        "problem": "Выглядит как универсальная услуга Espaço Cidadão, но NISS оформляет Segurança Social. Обычно используется NISS na Hora/Segurança Social или atendimento da Segurança Social; в Loja de Cidadão это возможно только если там есть соответствующее окошко. Обычный Espaço Cidadão может лишь помочь с цифровым доступом/подачей, но не гарантированно «оформить NISS».",
+        "suggestion": "Написать: «NISS — через Segurança Social/NISS na Hora; в Loja de Cidadão только если там есть окошко Segurança Social. В Espaço Cidadão могут помочь с доступом к цифровым сервисам, но услуга доступна не везде».",
+        "confidence": "high",
+        "source": "Segurança Social — NISS na Hora"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[6]",
+        "current": "Регистрация автомобиля (IMT) — простые случаи",
+        "problem": "Регистрация автомобиля в Португалии относится в первую очередь к IRN/Registo Automóvel, а не к IMT. IMT занимается водительскими правами, транспортной сферой, homologação/inspeções и отдельными процедурами, но «регистрация автомобиля (IMT)» как формулировка неверна. В Espaço Cidadão это также не универсальная услуга.",
+        "suggestion": "Заменить на: «Автомобильные услуги — зависят от места: часть вопросов по водительским правам относится к IMT, регистрация/переоформление автомобиля — к IRN/Registo Automóvel или Automóvel Online. Проверяйте конкретную услугу и место».",
+        "confidence": "high",
+        "source": "IRN — Registo Automóvel; IMT"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[8]",
+        "current": "Регистрация брака, рождения ребёнка — базовые справки",
+        "problem": "Формулировка смешивает регистрацию актов гражданского состояния и получение справок. Регистрация рождения/брака — компетенция IRN/Conservatória do Registo Civil и доступна не в каждом Espaço Cidadão. Espaço Cidadão скорее может помочь с некоторыми сертификатами/запросами, но не является универсальным местом регистрации брака или рождения.",
+        "suggestion": "Написать: «Справки/сертификаты из Registo Civil — в некоторых точках; регистрация рождения или брака обычно через IRN/Conservatória do Registo Civil или Loja de Cidadão с окошком IRN».",
+        "confidence": "high",
+        "source": "IRN — Registo Civil; ePortugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[7]",
+        "current": "Abono de família — пособия",
+        "problem": "Может быть понято как оформление пособий в любом Espaço Cidadão. Abono de família относится к Segurança Social и обычно подаётся через Segurança Social Direta/службы Segurança Social; доступность в Loja/Espaço зависит от наличия сервиса.",
+        "suggestion": "Уточнить: «Abono de família — через Segurança Social Direta или atendimento da Segurança Social; в Loja de Cidadão только при наличии соответствующего окошка/услуги».",
+        "confidence": "high",
+        "source": "Segurança Social — Abono de família para crianças e jovens"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Cartão de Cidadão (удостоверение гражданина Португалии) — замена, обновление PIN",
+        "problem": "Нужна оговорка, что Cartão de Cidadão — документ граждан Португалии, а услуги отличаются: первичная выдача/сложные случаи идут через IRN, а в Espaço Cidadão обычно доступны отдельные операции вроде продления/активации/адреса/PIN в зависимости от места и статуса заявителя.",
+        "suggestion": "Написать: «Cartão de Cidadão — только для граждан Португалии; в Espaço Cidadão доступны отдельные операции вроде продления, активации, адреса или PIN, но первичная выдача и сложные случаи — через IRN/Loja с окошком IRN».",
+        "confidence": "medium",
+        "source": "IRN — Cartão de Cidadão; ePortugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1]",
+        "current": "Chave Móvel Digital — активация",
+        "problem": "В целом верно, но для иностранцев есть важная оговорка: условия активации зависят от документа и данных в системе; CMD — это средство аутентификации, а не просто «электронная подпись».",
+        "suggestion": "Добавить: «CMD — средство цифровой аутентификации, с возможностью цифровой подписи. Для иностранцев условия активации зависят от документа и наличия NIF/номера телефона; проверяйте требования услуги».",
+        "confidence": "medium",
+        "source": "Autenticação.gov — Chave Móvel Digital"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].text",
+        "current": "Через eportugal.gov.pt → выбрать услугу → выбрать место → выбрать время. Запись обязательна.",
+        "problem": "Повторяется неверное утверждение об обязательной записи. Кроме того, запись часто идёт через сервис SIGA/Agendamento, а не просто через любую страницу ePortugal; не все услуги и места доступны для онлайн-записи.",
+        "suggestion": "Написать: «Если для услуги доступна запись, она обычно делается через ePortugal/SIGA: выбрать услугу, место и время. Для некоторых услуг онлайн-записи нет или принимают по талонам — проверяйте страницу конкретного места».",
+        "confidence": "high",
+        "source": "ePortugal — Agendar atendimento"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Каждая услуга занимает 15-30 мин. Оператор часто помогает по соседним вопросам без отдельной записи.",
+        "problem": "Слишком уверенно. Длительность зависит от услуги, очереди и ведомства; «соседние вопросы» без записи могут не принять, особенно если это другая entidade или услуга с отдельным талоном.",
+        "suggestion": "Написать: «Планируйте 15–30 минут на простые услуги, но сложные случаи могут занять больше. Другой вопрос могут попросить оформить отдельной записью/талоном».",
+        "confidence": "high",
+        "source": "Practical service rules vary by ePortugal/SIGA location"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Берите оригинал + копию каждого документа",
+        "problem": "Практический совет не вредный, но может быть устаревшим/избыточным: многие госуслуги требуют оригиналы и цифровую проверку, а копии не всегда принимают или нужны. Лучше привязать к списку документов конкретной услуги.",
+        "suggestion": "Заменить на: «Берите оригиналы и заранее проверьте список документов конкретной услуги; копии/PDF полезны, но не заменяют оригинал, если он требуется».",
+        "confidence": "medium",
+        "source": "ePortugal — pages for individual services"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].url",
+        "current": "https://eportugal.gov.pt/espacos",
+        "problem": "Ссылка выглядит не как основной официальный каталог мест обслуживания ePortugal и может вести не туда/через редирект. Для поиска Espaço/Loja обычно используется раздел «Locais de atendimento de serviços públicos» или страница конкретной сети на ePortugal.",
+        "suggestion": "Проверить ссылку вручную. Если она не открывает актуальную карту/каталог, заменить на официальный поиск мест обслуживания ePortugal: «https://eportugal.gov.pt/locais-de-atendimento-de-servicos-publicos» и/или страницу «Agendar atendimento».",
+        "confidence": "medium",
+        "source": "ePortugal — Locais de atendimento de serviços públicos"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://www.ama.gov.pt/",
+        "problem": "Это слишком общая главная страница AMA, а не конкретный источник по Loja de Cidadão/списку услуг. Для пользователя и фактчекинга лучше дать прямую страницу ePortugal/AMA по Lojas de Cidadão или каталог мест обслуживания.",
+        "suggestion": "Заменить или дополнить прямой ссылкой на ePortugal «Locais de atendimento de serviços públicos» с фильтром Loja de Cidadão/Espaço Cidadão либо официальную страницу AMA о сети Lojas/Espaços.",
+        "confidence": "high",
+        "source": "AMA; ePortugal"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Only two generic sources: ePortugal — Espaços Cidadão; AMA homepage",
+        "problem": "Для чувствительных утверждений про NIF, NISS, CMD, Cartão de Cidadão, criminal record, автомобильные услуги и пособия нужны источники профильных ведомств. Сейчас источники не подтверждают большую часть конкретного списка услуг.",
+        "suggestion": "Добавить официальные источники: AT/Finanças для NIF и representante fiscal; Segurança Social для NISS и Abono de família; IRN для Cartão de Cidadão, registo civil, registo automóvel и certificado de registo criminal; Autenticação.gov для CMD; IMT только для услуг IMT.",
+        "confidence": "high",
+        "source": "AT, Segurança Social, IRN, Autenticação.gov, IMT"
+      }
+    ],
+    "missing_topics": [
+      "Нужно объяснить, что набор услуг зависит от конкретного Espaço Cidadão/Loja de Cidadão и проверяется на странице места/услуги перед визитом.",
+      "Нужно разделить Espaço Cidadão, Loja de Cidadão и профильные ведомства: AT/Finanças, Segurança Social, IRN, IMT, AIMA.",
+      "Нужно добавить оговорку, что услуги для иностранцев отличаются от услуг для граждан Португалии, особенно Cartão de Cidadão и Chave Móvel Digital.",
+      "Нужно добавить прямые официальные источники по NIF, NISS, CMD, Cartão de Cidadão, registo civil/registo automóvel и Segurança Social.",
+      "Нужно описать, что онлайн-запись через ePortugal/SIGA не всегда доступна и не всегда обязательна; режим зависит от места и услуги."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4828,
+    "prompt_tokens": 1625,
+    "total_tokens": 6453
+  },
+  "model": "gpt-5.5"
+}

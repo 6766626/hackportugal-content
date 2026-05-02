@@ -1,0 +1,168 @@
+{
+  "guideId": "change-tax-address",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has several material inaccuracies: wrong LGT article, false automatic-sync claim, misleading non-resident tax rates, and confusion between tax domicile, tax residence, Citizen Card address changes and AIMA/SNS/SS updates.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "«При переезде обязательство сменить его в течение 60 дней (ст. 43 LGT).»",
+        "problem": "Wrong legal reference. Article 43 of the LGT is about indemnity interest, not tax domicile. Tax domicile and the 60-day communication duty are in Article 19 of the LGT.",
+        "suggestion": "Replace with: «При смене domicílio fiscal нужно сообщить новый адрес в течение 60 дней — art. 19.º da Lei Geral Tributária (LGT).»",
+        "confidence": "high",
+        "source": "Lei Geral Tributária, artigo 19.º; artigo 43.º"
+      },
+      {
+        "severity": "critical",
+        "where": "sources[1]",
+        "current": "«Lei Geral Tributária (LGT) — artigo 43»",
+        "problem": "Source label cites the wrong article for the stated obligation. This makes the legal basis misleading even if the consolidated-law URL itself opens the LGT.",
+        "suggestion": "Change source title to: «Lei Geral Tributária (LGT) — artigo 19.º, domicílio fiscal». If possible, link directly to the consolidated LGT article 19 section.",
+        "confidence": "high",
+        "source": "Lei Geral Tributária, artigo 19.º"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].text",
+        "current": "«Адрес автоматически синхронизируется с AIMA, Segurança Social, IRN, SNS через AMA CAP...»",
+        "problem": "Misleading/likely false. Changing domicílio fiscal in the Portal das Finanças does not generally update AIMA, SNS, Segurança Social or all IRN records. Citizen Card address changes can be communicated to public entities, but this is a different procedure and does not mean AIMA residence-permit records are automatically updated.",
+        "suggestion": "Replace with: «Смена адреса в Finanças обновляет налоговый адрес в AT. Это не гарантирует обновление адреса в AIMA, SNS, Segurança Social, банке, водительских правах и т.п. Если у вас Cartão de Cidadão, адрес меняется через процедуру Cartão de Cidadão/ePortugal и затем передаётся в AT; если у вас ВНЖ, проверьте отдельно обязанность уведомить AIMA о новом адресе.»",
+        "confidence": "high",
+        "source": "ePortugal — Alterar a morada do Cartão de Cidadão; Lei 23/2007, deveres de comunicação de estrangeiros"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1]",
+        "current": "«Os Seus Serviços» → «Dados Pessoais Relevantes» → «Alterar Morada»",
+        "problem": "Over-generalised. For Portuguese citizens / holders of Cartão de Cidadão, the address is normally changed through the Cartão de Cidadão address-change procedure, not simply as a Finanças-only address edit. The Portal das Finanças procedure is mainly relevant for taxpayers without Cartão de Cidadão or for specific tax-address situations.",
+        "suggestion": "Add a split: «Если у вас Cartão de Cidadão: меняйте morada через ePortugal/Cartão de Cidadão, затем подтвердите кодом из письма; AT обновится после подтверждения. Если у вас только NIF/ВНЖ без Cartão de Cidadão: используйте Portal das Finanças → Alterar Domicílio Fiscal.»",
+        "confidence": "high",
+        "source": "ePortugal — Alterar a morada do Cartão de Cidadão; Portal das Finanças — Alteração de Domicílio Fiscal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3]",
+        "current": "«Подтвердить — изменение моментально»",
+        "problem": "Not always true. For Cartão de Cidadão address changes there is a confirmation step with a code sent by post, so the change is not immediate. Even in AT-only cases, the exact flow can require validation and the taxpayer should check the comprovativo/certidão after processing.",
+        "suggestion": "Write: «Для AT-only изменения обычно применяется сразу или после валидации на портале. Для Cartão de Cidadão изменение вступает в силу только после подтверждения кодом из письма.»",
+        "confidence": "high",
+        "source": "ePortugal — Alterar a morada do Cartão de Cidadão"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4]",
+        "current": "«Получить comprovativo PDF на email — сохранить»",
+        "problem": "Misleading. The normal safe instruction is to download/issue the comprovativo or certidão in the portal. It is not reliable to promise that a PDF will be emailed.",
+        "suggestion": "Replace with: «Скачать comprovativo/certidão в Portal das Finanças и сохранить PDF.»",
+        "confidence": "high",
+        "source": "Portal das Finanças — Certidões / Comprovativos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].text",
+        "current": "«Иностранный адрес = налоговый нерезидент.»",
+        "problem": "Too categorical. Tax residence is determined by Article 16 of the CIRS, mainly 183+ days in Portugal or having a dwelling suggesting habitual residence, plus other special rules. A foreign tax domicile is strong evidence/administrative registration as non-resident, but it is not the full legal test and can be wrong if facts indicate Portuguese tax residence.",
+        "suggestion": "Replace with: «Иностранный domicílio fiscal обычно означает, что вы зарегистрированы в AT как нерезидент, но налоговое резидентство определяется по правилам art. 16.º CIRS: 183+ дней в Португалии или жильё, указывающее на habitual residence, и другие специальные правила.»",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 16.º"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[1].text",
+        "current": "«Все доходы от PT-источников облагаются 25 % withholding (зарплата, дивиденды) вместо обычного IRS.»",
+        "problem": "Factually wrong. Non-resident taxation depends on income type and treaty relief. Portuguese-source employment/business/professional income often has 25% withholding/final taxation, but dividends are generally taxed at 28% withholding for individuals, with possible treaty reduction; some income can be taxed at other rates, and blacklist jurisdictions can trigger 35%.",
+        "suggestion": "Replace with: «Для нерезидентов доходы из португальских источников облагаются по специальным ставкам в зависимости от типа дохода: например, зарплата/самозанятость часто 25%, дивиденды обычно 28% удержания у источника, возможны ставки по налоговому соглашению и особые правила.»",
+        "confidence": "high",
+        "source": "Código do IRS, artigos 71.º e 72.º; double tax treaties"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«От адреса зависит: ... какой IMI-налог по недвижимости...»",
+        "problem": "Misleading. IMI rate is primarily determined by the municipality where the property is located, not by the taxpayer's tax domicile. Tax domicile can matter for concepts such as habitação própria e permanente and some exemptions/benefits, but it does not decide the municipal IMI rate for a property elsewhere.",
+        "suggestion": "Change to: «Для IMI адрес важен главным образом если это ваша habitação própria e permanente или для льгот/освобождений; сама ставка IMI зависит от município, где находится объект недвижимости.»",
+        "confidence": "high",
+        "source": "Código do IMI; annual municipal IMI rates"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "«Въезд в PT и получение ВНЖ (стать налоговым резидентом)»",
+        "problem": "Residence permit and tax residence are being conflated. Receiving a residence permit does not by itself automatically make a person Portuguese tax resident under CIRS; factual residence criteria still matter. Conversely, someone can become tax resident before receiving the physical residence card.",
+        "suggestion": "Replace with: «Переезд в Португалию и фактическое выполнение критериев налогового резидентства: 183+ дней или жильё, указывающее на habitual residence; получение ВНЖ само по себе не равно tax residence.»",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 16.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "«Выезд из PT (стать нерезидентом — или сохранить PT-резидентство через 183+ дней)»",
+        "problem": "Confusing. Leaving Portugal does not always immediately end tax residence for the whole year, and the 183-day rule is only one of the tests. The important practical point is to update the fiscal domicile/representative status and assess the tax-residence year under CIRS.",
+        "suggestion": "Write: «При выезде из Португалии: обновите domicílio fiscal в AT в течение 60 дней и отдельно проверьте, будете ли вы налоговым резидентом за этот год по art. 16.º CIRS.»",
+        "confidence": "high",
+        "source": "Lei Geral Tributária, artigo 19.º; Código do IRS, artigo 16.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2]",
+        "current": "Section mentions foreign address for non-residents but does not mention fiscal representative / electronic notifications.",
+        "problem": "Missing critical caveat. Taxpayers with a foreign tax address, especially outside the EU/EEA, may need to appoint a fiscal representative unless covered by the electronic-notifications regime/other exceptions. This is a common high-impact issue for Russian-speaking expats leaving Portugal.",
+        "suggestion": "Add: «Если ваш налоговый адрес вне ЕС/ЕЭЗ, проверьте обязанность назначить representante fiscal. В ряде случаев обязанность может быть снята/заменена присоединением к электронным уведомлениям, но для ситуаций с португальскими налоговыми обязанностями нужно проверять конкретно.»",
+        "confidence": "high",
+        "source": "Lei Geral Tributária, artigo 19.º; AT guidance on representante fiscal and electronic notifications"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2]",
+        "current": "«Или walk-in в крупных отделениях Lisboa/Porto»",
+        "problem": "Potentially misleading as a reliable instruction. Many Finanças services require appointment or may refuse walk-ins depending on office/capacity. Presenting Lisbon/Porto walk-in as a standard option may cause wasted visits.",
+        "suggestion": "Replace with: «В некоторых отделениях возможен atendimento sem marcação, но рассчитывать на него не стоит; безопаснее записаться заранее через Portal das Finanças/e-balcão/telefone.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças — Atendimento por marcação"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "«Брак / развод — обновить состояние в Finanças»",
+        "problem": "This is not a tax-address change and does not belong under 'Когда обязательно сменить' unless clearly separated. It may be relevant to IRS household/marital status, but not to domicílio fiscal.",
+        "suggestion": "Move to a separate note: «Брак/развод — это не смена domicílio fiscal, но нужно проверить dados pessoais/agregado familiar для IRS.»",
+        "confidence": "high",
+        "source": "Portal das Finanças — Dados Pessoais / Agregado Familiar"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "«Нужна для банков, аренды, визовых дел.»",
+        "problem": "Overstated. Banks or landlords may ask for proof of address, but a certidão de domicílio fiscal is not universally required for rentals or visa processes and often other proof is accepted.",
+        "suggestion": "Change to: «Может понадобиться банку, арендодателю, бухгалтеру или госоргану как подтверждение налогового адреса; требования зависят от конкретной процедуры.»",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[3]",
+        "current": "«Валидация через portaldasfinancas.gov.pt/certidoes»",
+        "problem": "The bare URL may not be the correct stable validation endpoint. Validation is usually done through the Portal das Finanças certificate/document validation service using the certificate code/QR, not necessarily at this short path.",
+        "suggestion": "Write more generally: «Проверка подлинности — через Portal das Finanças → Validar certidão/documento, по коду или QR-коду на PDF.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças — Validação de certidões/documentos"
+      }
+    ],
+    "missing_topics": [
+      "Separate procedure for holders of Cartão de Cidadão versus foreign residents without Cartão de Cidadão",
+      "Foreign-address/non-resident taxpayers: possible representante fiscal obligation and electronic-notification exception",
+      "Tax residence criteria under CIRS article 16 instead of equating residence permit or foreign address with tax residence",
+      "AIMA address-change/notification is separate from Finanças and should be checked by residence-permit holders",
+      "Changing tax domicile does not automatically update SNS, Segurança Social, banks, driving licence, employer or utilities",
+      "ViaCTT / electronic notifications: tax letters may not be sent to physical address if the taxpayer has electronic notification arrangements"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4182,
+    "prompt_tokens": 1847,
+    "total_tokens": 6029
+  },
+  "model": "gpt-5.5"
+}

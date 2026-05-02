@@ -1,0 +1,136 @@
+{
+  "guideId": "pharmacies",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но содержит несколько существенных ошибок: SNS-скидка не зависит от NIF, часть сведений о дежурных аптеках и 112 вводит в заблуждение, а некоторые лекарства ошибочно названы безрецептурными.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "С NIF — 37-90% SNS-скидка на рецепты.",
+        "problem": "NIF сам по себе не даёт SNS-компенсацию на лекарства. Компенсация применяется к рецептам, выписанным в системе с корректной идентификацией пользователя/бенефициара SNS или иного режима. NIF нужен в основном для счёта-фактуры и налогового вычета в e-Fatura, но не является основанием для 37–90% comparticipação.",
+        "suggestion": "Заменить на: «SNS-компенсация 15–90% применяется к comparticipados-препаратам по действующему рецепту, если пациент идентифицирован в системе SNS/соответствующего режима. NIF нужен для налогового вычета в e-Fatura, но не даёт скидку сам по себе.»",
+        "confidence": "high",
+        "source": "INFARMED — Regimes de comparticipação; SNS/SPMS — Receita Sem Papel"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].text",
+        "current": "Оплата со SNS-скидкой (10-90% в зависимости от препарата).",
+        "problem": "Внутреннее противоречие с блоком ниже, где указаны 15%, 37%, 69%, 90%. Общие escalões режима geral — 90%, 69%, 37%, 15%, а не 10–90%. 10% может встречаться в отдельных специальных контекстах, но как общее правило это неверно.",
+        "suggestion": "Написать: «Оплата с comparticipação SNS, если препарат входит в список компенсируемых и рецепт оформлен корректно; в общем режиме уровни — 90%, 69%, 37% или 15%.»",
+        "confidence": "high",
+        "source": "INFARMED — Escalões de comparticipação"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[5]",
+        "current": "Дети до 12 лет — дополнительные скидки",
+        "problem": "Как общее правило это неверно или, по крайней мере, сильно вводит в заблуждение. В Португалии есть специальные режимы comparticipação для отдельных заболеваний, групп и ситуаций, а также льготы для пенсионеров с низким доходом, но универсальной дополнительной скидки на лекарства для всех детей до 12 лет в обычной аптечной покупке нет.",
+        "suggestion": "Удалить этот пункт или заменить на: «Есть специальные режимы компенсации для отдельных заболеваний/ситуаций; право зависит от диагноза, рецепта и правового режима, а не просто от возраста ребёнка.»",
+        "confidence": "high",
+        "source": "INFARMED — Regimes especiais de comparticipação"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Бумажная — если выдал частный без связи SNS.",
+        "problem": "Формулировка устаревшая/упрощённая. Частные врачи в Португалии обычно тоже могут выписывать электронные рецепты через PEM/Receita Sem Papel. Бумажные рецепты сохраняются для исключительных случаев, а не просто потому что врач частный.",
+        "suggestion": "Написать: «Частные врачи также обычно выписывают электронные рецепты. Бумажный рецепт сейчас скорее исключение — например, техническая невозможность, домашний визит или другие предусмотренные законом случаи.»",
+        "confidence": "high",
+        "source": "SPMS/SNS — Receita Sem Papel; Portaria n.º 224/2015, as amended"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Farmácia de Serviço — каждую ночь в каждом районе одна аптека дежурит 24/7.",
+        "problem": "Слишком категорично и неверно. Дежурство организуется по escala de serviço и не означает, что в каждом «районе» или freguesia обязательно есть одна аптека 24/7. В малых населённых пунктах может быть режим disponibilidade/дежурство по вызову, а ближайшая дежурная аптека может находиться в другом районе/муниципалитете.",
+        "suggestion": "Заменить на: «Farmácia de serviço — аптека, назначенная по графику дежурства для данной зоны/муниципалитета. Ночью это может быть полноценная работа, atendimento por postigo или режим по вызову; ближайшую проверяйте по farmacias.pt/INFARMED или по Linha 1400.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 307/2007; Portaria n.º 277/2012; INFARMED — farmácias de serviço"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1]",
+        "current": "📞 112 в экстренной ситуации — подскажут ближайшую",
+        "problem": "112 — номер экстренной помощи, его не следует рекомендовать как способ узнать ближайшую аптеку. Для информации о дежурных аптеках используется Linha 1400 / farmacias.pt / INFARMED. 112 уместен при медицинской угрозе жизни, а не для поиска аптеки.",
+        "suggestion": "Заменить на: «📞 1400 — Linha Farmácias для информации о ближайшей аптеке/дежурной аптеке. 112 — только при реальной экстренной ситуации.»",
+        "confidence": "high",
+        "source": "Linha 1400 — Farmácias Portuguesas/ANF; INEM/SNS — uso do 112"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[2]",
+        "current": "💊 После 22:00 звоните по видеодомофону — аптекарь выдаёт через окошко",
+        "problem": "Это бывает часто, но не универсально. Режим обслуживания зависит от конкретной farmácia de serviço: atendimento permanente, atendimento por postigo или disponibilidade. Иногда нужно предварительно звонить, иногда аптека открыта, иногда обслуживание только по вызову.",
+        "suggestion": "Написать: «После 22:00 обслуживание часто идёт через postigo/окошко или по звонку, но режим зависит от конкретной дежурной аптеки — проверьте в списке или позвоните заранее.»",
+        "confidence": "high",
+        "source": "Portaria n.º 277/2012; INFARMED — farmácias de serviço"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[3]",
+        "current": "💰 Ночью наценка ~2.50€ сверху",
+        "problem": "Формулировка неполная. Ночная taxa de serviço не является произвольной «наценкой» на лекарства и применяется по правилам, обычно при обслуживании в ночной период/дежурстве; в отдельных случаях, например при рецепте, выписанном в тот же день или накануне, условия могут отличаться. Нужно не подавать это как всегда обязательные +€2.50.",
+        "suggestion": "Написать: «В ночное дежурство может взиматься установленная taxa de serviço около €2,50, но она применяется не ко всем ситуациям одинаково; уточняйте в аптеке.»",
+        "confidence": "medium",
+        "source": "Portaria n.º 277/2012"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].text",
+        "current": "Loratadina, Aerius, Cetirizina — без рецепта в farmácia.",
+        "problem": "Aerius — бренд desloratadina; в Португалии многие формы desloratadina/Aerius классифицируются как MSRM, то есть subject to medical prescription. Утверждение, что Aerius продаётся без рецепта, рискованно и, вероятно, неверно. Loratadina и некоторые формы cetirizina действительно могут быть MNSRM, но нужно проверять конкретную дозировку/упаковку.",
+        "suggestion": "Заменить на: «Loratadina и некоторые препараты cetirizina часто доступны без рецепта; desloratadina/Aerius может требовать рецепт — фармацевт проверит конкретный препарат и дозировку.»",
+        "confidence": "high",
+        "source": "INFARMED Infomed — classificação quanto à dispensa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[0].text",
+        "current": "Parafarmácia ... Только безрецептурные товары: витамины, уход, некоторые ОТС препараты (ибупрофен, сироп от кашля).",
+        "problem": "Нужно уточнить важное ограничение: не все non-prescription medicines продаются вне аптек. В Португалии есть MNSRM-EF — medicamentos não sujeitos a receita médica de dispensa exclusiva em farmácia, то есть безрецептурные, но только в farmácia.",
+        "suggestion": "Добавить: «Важно: часть безрецептурных лекарств имеет статус MNSRM-EF и продаётся только в обычной аптеке, не в parafarmácia/supermarket outlet.»",
+        "confidence": "high",
+        "source": "INFARMED — MNSRM-EF"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[1].content[0].text",
+        "current": "Цены на 10-20% ниже farmácia.",
+        "problem": "Это не гарантированное правило и без источника выглядит как вводящее в заблуждение обобщение. Цены на OTC/MNSRM и косметику свободнее варьируются; parafarmácia может быть дешевле, но не всегда и не на фиксированные 10–20%.",
+        "suggestion": "Заменить на: «Цены часто бывают ниже по акциям, но это не правило: сравнивайте конкретный препарат/бренд между farmácia, parafarmácia и онлайн-аптеками.»",
+        "confidence": "high",
+        "source": "INFARMED — preços de medicamentos; ERS/consumer guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4].content[0].text",
+        "current": "Противозачаточные таблетки — по рецепту (но SNS subsidiary дешёво).",
+        "problem": "Опечатка/англицизм: «SNS subsidiary» непонятно по-русски. Также стоит уточнить, что речь о comparticipação/доступе через SNS, а не о скидке по NIF.",
+        "suggestion": "Написать: «Противозачаточные таблетки обычно по рецепту; многие варианты comparticipados SNS или доступны бесплатно/дёшево через centro de saúde/planeamento familiar при соблюдении условий.»",
+        "confidence": "medium",
+        "source": "SNS — Planeamento familiar; INFARMED — comparticipação"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "\"Farmácias de Portugal — дежурные\", \"url\": \"https://www.farmacias.pt/\", \"kind\": \"official\"",
+        "problem": "farmacias.pt — полезный и широко используемый сайт сети Farmácias Portuguesas/ANF, но это не государственный официальный источник в смысле INFARMED/SNS. Маркировка kind: official может вводить в заблуждение.",
+        "suggestion": "Поменять kind на «industry»/«association»/«practical» или добавить официальный источник INFARMED для поиска аптек/дежурств.",
+        "confidence": "high",
+        "source": "Farmácias Portuguesas/ANF; INFARMED"
+      }
+    ],
+    "missing_topics": [
+      "Разница между NIF для налогового вычета e-Fatura и SNS/beneficiary number для comparticipação по рецепту",
+      "Linha 1400 как нормальный способ узнать ближайшую/дежурную аптеку вместо 112",
+      "MNSRM-EF: некоторые безрецептурные препараты продаются только в farmácia, не в parafarmácia",
+      "Право фармацевта предлагать generic medicine и возможность выбора более дешёвого genérico при том же princípio ativo",
+      "Сроки действия рецептов: обычные и продлеваемые/длительные рецепты имеют разные сроки, поэтому SMS-код не вечен",
+      "Экстренная контрацепция: pílula do dia seguinte доступна в аптеке без обычного рецепта, но фармацевт проводит консультацию"
+    ]
+  },
+  "model": "gpt-5.5"
+}

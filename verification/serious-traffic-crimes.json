@@ -1,0 +1,204 @@
+{
+  "guideId": "serious-traffic-crimes",
+  "categoryId": "auto_trips",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд правильно выделяет главные риски, но содержит серьёзные ошибки по системе баллов, срокам обжалования/оплаты, отказу от теста, criminal fine и способам проверки штрафов.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].text",
+        "current": "Каждое серьёзное нарушение — минус 1-5 баллов. Достигли 0 — лишение прав, пересдача теории + практики.",
+        "problem": "Диапазон снятия баллов неверный: по Código da Estrada за дорожные преступления снимается 6 баллов, а не максимум 5. Последствие 0 баллов — cassação do título de condução; новый документ нельзя получить в течение 2 лет, затем нужно проходить процедуру получения заново.",
+        "suggestion": "Написать: «За contraordenação grave обычно снимают 2 балла, за grave с алкоголем/наркотиками — 3; за muito grave обычно 4, за muito grave с алкоголем/наркотиками — 5; за crime rodoviário — 6. При 0 баллов происходит cassação da carta, с запретом получить новое водительское удостоверение в течение 2 лет».",
+        "confidence": "high",
+        "source": "Código da Estrada, art. 148"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[1].items",
+        "current": "p1: «Минус 1 балл — contra-ordenações graves»; p2: «Минус 2 балла»; p3: «Минус 3 балла»; p4: «Минус 4 балла»; p5: «Минус 5 баллов — criminal»",
+        "problem": "Вся классификация баллов построена неверно. В португальской системе нет общего правила «grave = −1». Дорожные crimes дают −6, а не −5. Многие примеры разложены по неправильным категориям: например, проезд на красный — muito grave, а не «−1»; алкоголь 0.8–1.2 даёт −5, но это не «−4»; отсутствие прав/фальшивые номера — не обычные пунктовые contraordenações.",
+        "suggestion": "Заменить весь блок на таблицу по закону: «grave: −2; grave under alcohol/drugs: −3; muito grave: −4; muito grave under alcohol/drugs: −5; road crime with accessory driving ban: −6». Примеры лучше давать отдельно и сверять по art. 145–146 CE.",
+        "confidence": "high",
+        "source": "Código da Estrada, arts. 145, 146, 148"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "В правах минус 4-5 баллов зараз.",
+        "problem": "Для criminal traffic offences это неверно: road crime снимает 6 баллов. 4–5 баллов относятся к muito grave contraordenações, включая алкоголь/наркотики.",
+        "suggestion": "Написать: «За road crime обычно −6 баллов; за muito grave contraordenação — −4 или −5, если алкоголь/наркотики».",
+        "confidence": "high",
+        "source": "Código da Estrada, art. 148"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "BAC ≥ 1.2 г/л — criminal (ст. 292 Código Penal): до 1 года ареста или штраф до 120 дневных ставок, ВСЕГДА лишение 2+ мес, criminal record на 5-10 лет",
+        "problem": "Минимальный срок accessory driving ban для crimes по art. 69 Código Penal — 3 месяца, а не «2+ мес». «Criminal record на 5–10 лет» слишком грубо и может вводить в заблуждение: сроки cancelamento dependem от вида/размера наказания и считаются по правилам Lei da Identificação Criminal, а certidão для разных целей показывает разные сведения.",
+        "suggestion": "Написать: «BAC ≥1.2 g/l — crime по art. 292 CP: prisão até 1 ano ou multa até 120 dias; дополнительно proibição de conduzir обычно от 3 месяцев до 3 лет по art. 69 CP. Запись в registo criminal появляется; срок её отображения/удаления зависит от конкретного приговора и цели certidão».",
+        "confidence": "high",
+        "source": "Código Penal, arts. 69, 292; Lei 37/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[3]",
+        "current": "Отказ от теста — приравнивается к BAC ≥ 1.2 г/л + обвинение в \"desobediência qualificada\" (до 2 лет ареста)",
+        "problem": "Отказ от теста не «приравнивается» к BAC ≥1.2 как доказанный алкоголь. Código da Estrada предусматривает наказание за crime de desobediência при отказе от тестов. Утверждение про desobediência qualificada и «до 2 лет» без оговорки спорно/слишком категорично; в общем Código Penal обычная desobediência — до 1 года или штраф до 120 дней, qualified — до 2 лет или 240 дней, но нужна конкретная правовая квалификация.",
+        "suggestion": "Написать осторожно: «Отказ пройти legally ordered alcohol/drug test сам по себе является crime de desobediência по CE art. 152(3), обычно с риском criminal case и proibição de conduzir; это не то же самое, что доказанный BAC ≥1.2».",
+        "confidence": "high",
+        "source": "Código da Estrada, art. 152(3); Código Penal, art. 348; Código Penal, art. 69"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "Штраф BAC ≥ 1.2 (криминал): amountEURMin 500, amountEURMax 15000",
+        "problem": "Юридически некорректный диапазон. По art. 292 CP штраф — до 120 day-fines, а day-fine по Código Penal составляет €5–€500. Поэтому законный максимум для 120 day-fines — €60,000, а не €15,000; минимум тоже не €500 как юридический минимум.",
+        "suggestion": "Заменить на: «multa penal até 120 dias; daily rate €5–€500, set by court according to income; theoretical range up to €60,000, plus costs and accessory driving ban». Если нужны практические оценки — явно назвать их «типичные, не законный максимум».",
+        "confidence": "high",
+        "source": "Código Penal, arts. 47, 292"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "штрафы до 15 000 €, арест до 5 лет",
+        "problem": "«Штрафы до 15 000 €» не соответствует criminal fine для BAC ≥1.2: штраф считается в дневных ставках, теоретический максимум по 120 day-fines — €60,000. Если речь о contraordenações, там приведённые алкогольные штрафы максимум €2,500. Формулировка смешивает административные coimas и criminal multas.",
+        "suggestion": "Разделить: «administrative coimas за BAC 0.5–1.2 — €250–€2,500; criminal multa за BAC ≥1.2 — до 120 day-fines по €5–€500; по отдельным crimes возможна prisão до 5 лет».",
+        "confidence": "high",
+        "source": "Código Penal, arts. 47, 292; Código da Estrada, art. 81"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[2].text",
+        "current": "Восстановление баллов: +1 балл каждые 3 года без нарушений, max 12. Возможен «курс перевоспитания» — 2-3 дня в IMT — +2 балла (платно, ~250 €).",
+        "problem": "Неверно. Общее правило — начисление 3 баллов за каждый 3-летний период без serious/very serious offences или road crimes, с максимумом 15. Для профессиональных водителей период может быть 2 года при определённых условиях. Курсы не дают просто «+2 балла»; training может быть обязательным при снижении до 5/4 баллов, exam при 3/2, а добровольное обучение при revalidation даёт ограниченный бонус по отдельным правилам.",
+        "suggestion": "Написать: «Без grave/muito grave/crime за 3 года добавляют 3 балла, максимум 15. При 5 или 4 баллах ANSR обязывает пройти formação de segurança rodoviária; при 3 или 2 — theoretical test; при 0 — cassação. Не обещайте +2 балла за курс».",
+        "confidence": "high",
+        "source": "Código da Estrada, art. 148"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[6]",
+        "current": "Срок оплаты: 15 дней — minimum da coima (×1), 30 дней — без штрафа, после — ×2-3",
+        "problem": "Сроки и последствия описаны неверно. Для road contraordenações обычно есть prazo de 15 dias úteis после уведомления для defesa или voluntary payment/deposit at minimum amount. Нет общего правила «30 дней — без штрафа» и автоматического умножения ×2–3; дальше идут административное решение, costs/enforcement, а сумма зависит от min/max coima и процедуры.",
+        "suggestion": "Написать: «После notification обычно есть 15 working days для voluntary payment/deposit of the minimum coima или подачи defesa. Если не платить/не защищаться, дело идёт дальше в ANSR, возможны costs, enforcement и accessory sanction».",
+        "confidence": "high",
+        "source": "Código da Estrada, arts. 172–175"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[7]",
+        "current": "Обжалование: через recurso в tribunal, в 20 дней после получения уведомления — advogado 150-300 €",
+        "problem": "Смешаны стадии. После первого auto/notificação обычно подаётся defesa/contestação в административном порядке в ANSR в течение 15 working days, а judicial impugnação/recurso в tribunal возможна после административного решения и имеет другой срок. «20 дней» как общее правило для первого обжалования неверно.",
+        "suggestion": "Написать: «Сначала — defesa to ANSR within 15 working days after notification. После решения ANSR возможна judicial impugnação в tribunal в установленный срок. Для serious/muito serious и риска driving ban лучше консультироваться с advogado».",
+        "confidence": "high",
+        "source": "Código da Estrada, arts. 175, 181"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "IMT Portal Digital (imt-ip.pt) — вход с CMD / CC → \"Consultar carta\" → показывает баллы + история",
+        "problem": "Проверка баллов и road offence processes относится к ANSR/Portal das Contraordenações Rodoviárias, а не к IMT как основному каналу. IMT показывает данные водительского удостоверения/процедуры, но не является правильной точкой для истории contraordenações и points.",
+        "suggestion": "Заменить на: «Portal das Contraordenações Rodoviárias / ANSR — consulta de pontos and processes, login via Chave Móvel Digital/Cartão de Cidadão». IMT оставить для licence data, renewals, exchange, certidões.",
+        "confidence": "high",
+        "source": "ANSR — Portal das Contraordenações Rodoviárias"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "Portal das Finanças → e-balcão — незаплаченные штрафы и судебные дела",
+        "problem": "Portal das Finanças/e-balcão не является нормальным источником для проверки traffic fines, баллов или судебных дел. Там могут появиться налоговые/execution debts, но не «история штрафов» и не court cases.",
+        "suggestion": "Удалить или заменить: «Traffic offence cases — ANSR Portal das Contraordenações Rodoviárias; court cases — Citius/tribunal через адвоката или уведомления суда; tax enforcement debts, если дошло до cobrança coerciva, могут отображаться в Finanças».",
+        "confidence": "high",
+        "source": "ANSR; Autoridade Tributária; Citius"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "Email уведомления от ANSR — подписаться на ansr.pt для предупреждений о новых fines",
+        "problem": "Слишком уверенное утверждение. Официальный и проверяемый способ — регистрация/consulta на Portal das Contraordenações Rodoviárias и уведомления по legal address/electronic notification where applicable; простая «подписка на ansr.pt» на новые fines не является стандартным универсальным механизмом.",
+        "suggestion": "Написать: «Создайте доступ к Portal das Contraordenações Rodoviárias и следите за официальными уведомлениями по адресу регистрации или через электронную систему уведомлений, если подключена».",
+        "confidence": "medium",
+        "source": "ANSR — Portal das Contraordenações Rodoviárias"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "Certidão da carta de condução — запрос через imt-ip.pt, показывает полную историю (для работы, visa, суда)",
+        "problem": "Certidão da carta de condução не равна полной истории штрафов/баллов/criminal record. Для criminal record нужен certificado do registo criminal; для contraordenações/points — ANSR. Утверждение может привести к подаче неправильного документа для работы/visa/суда.",
+        "suggestion": "Разделить документы: «IMT certidão da carta — данные о водительском удостоверении; ANSR portal/certidão — points/road offences where available; certificado do registo criminal — criminal convictions».",
+        "confidence": "high",
+        "source": "IMT; ANSR; Registo Criminal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[0]",
+        "current": "Штрафы по иностранным правам фиксируются в централизованной базе EUCARIS (для ЕС-прав) или в национальном реестре PT",
+        "problem": "EUCARIS — не «централизованная база штрафов/баллов», а система обмена данными между государствами, в том числе для identification of vehicles/drivers under cross-border enforcement. Португалия ведёт свои records/ANSR processes; иностранные баллы не становятся автоматически частью EU-wide licence record.",
+        "suggestion": "Написать: «Для EU/EEA vehicles authorities can exchange owner/vehicle data through cross-border enforcement mechanisms/EUCARIS, but the offence process and any driving ban/points effect in Portugal are handled by Portuguese authorities».",
+        "confidence": "high",
+        "source": "Directive (EU) 2015/413; EUCARIS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[1]",
+        "current": "При смене прав на португальские (после обмена) — баллы переносятся",
+        "problem": "Формулировка вводит в заблуждение. Иностранные «баллы» из другой страны не переносятся в Португалию. Португальские offences, привязанные к водителю, могут учитываться в португальской системе, но это не автоматический transfer home-country points.",
+        "suggestion": "Написать: «Баллы из страны выдачи прав обычно не переносятся. Но нарушения, совершённые в Португалии и зарегистрированные ANSR на конкретного водителя, могут продолжать учитываться в Portuguese record after exchange».",
+        "confidence": "high",
+        "source": "Código da Estrada, art. 148; IMT"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0]",
+        "current": "Официальная погрешность: 7% (встроенная в расчёт штрафа)",
+        "problem": "Формулировка слишком упрощённая. Для speed measuring instruments применяются metrological error margins, которые зависят от типа/стадии проверки и порога скорости; часто речь о km/h below 100 km/h и percentage above 100 km/h. Универсальное «7%» без caveat может быть неверно для всех случаев.",
+        "suggestion": "Написать осторожнее: «ANSR применяет metrological tolerance/error margin before calculating the punishable speed; для скоростей выше 100 km/h часто используется процентная margin, но точная величина зависит от approved instrument and verification rules». Дать источник на Portaria/ANSR.",
+        "confidence": "medium",
+        "source": "IPQ/ANSR metrological rules for speed measuring instruments"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "Стационарные камеры: на знаках предупреждают за 300 м",
+        "problem": "Слишком категорично. В Португалии многие fixed speed control zones are signposted, but exact distance and obligation should not be stated as a universal 300 m rule without source.",
+        "suggestion": "Заменить на: «Многие fixed radar zones are signposted in advance, but do not rely on a universal 300 m rule».",
+        "confidence": "medium",
+        "source": "ANSR — SINCRO"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[4]",
+        "current": "Для новых водителей (<3 лет прав): лимит 0.2 г/л",
+        "problem": "Нужно уточнить, что lower limit applies to drivers in regime probatório and certain categories; «<3 лет прав» как практическое правило обычно верно, но правовой термин лучше указать.",
+        "suggestion": "Написать: «Для drivers in regime probatório, обычно первые 3 года after obtaining licence, лимит 0.2 g/l».",
+        "confidence": "high",
+        "source": "Código da Estrada, art. 81"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[3]",
+        "current": "Для rent-car с ENG-правами: компания получает fine и выставляет счёт + €30-50 \"admin fee\"",
+        "problem": "«ENG-права» неясно: English-language licence, UK licence или права из Англии. Административный сбор зависит от rental company contract и может быть выше/ниже.",
+        "suggestion": "Написать: «Для rental car: police/ANSR usually contacts the rental company as registered keeper; company identifies the driver and may charge a contractual admin fee, often tens of euros, depending on the rental agreement».",
+        "confidence": "high",
+        "source": "Rental contracts; Código da Estrada owner/driver identification rules"
+      }
+    ],
+    "missing_topics": [
+      "Указать точные статьи Código da Estrada для alcohol limits and coimas: art. 81, art. 145–146, art. 148, art. 152, art. 172–175.",
+      "Добавить отдельное предупреждение: criminal conviction may affect residence/nationality/employment, but consequences depend on sentence and certificate type.",
+      "Объяснить пороги 5/4, 3/2 и 0 баллов: mandatory training, mandatory theory test, cassação.",
+      "Разделить administrative coima, criminal multa, court costs и indemnity/civil liability — сейчас они смешаны.",
+      "Добавить правильный официальный ресурс для проверки баллов и процессов: ANSR Portal das Contraordenações Rodoviárias.",
+      "Добавить caveat for foreign drivers: Portuguese driving ban can prohibit driving in Portugal even if the foreign licence remains valid elsewhere."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6310,
+    "prompt_tokens": 3125,
+    "total_tokens": 9435
+  },
+  "model": "gpt-5.5"
+}

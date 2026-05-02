@@ -1,0 +1,235 @@
+{
+  "guideId": "solar-panels",
+  "categoryId": "housing_buy",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has several major regulatory errors: wrong UPAC thresholds, misleading licensing/registration wording, obsolete legal source, false net-metering statement, unreliable subsidy claims, and incorrect tax treatment of surplus electricity.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "UPAC ... до 6.9 кВт — без licenсии (registo в DGEG бесплатно)",
+        "problem": "The 6.9 kW threshold is misleading. In the current UPAC regime, the key prior-control thresholds are not 6.9 kW: very small units are exempt, units above the exemption threshold and up to 30 kW generally require prior communication/registration, and larger units require registration/certificate or licence depending on capacity. 6.9 kW is commonly confused with VAT/old microgeneration-style thresholds, not the general 'no licence' UPAC threshold.",
+        "suggestion": "Replace with: \"UPAC residential обычно не требует лицензии, но пороги другие: до 700 W — generally exempt from prior control if no grid injection; >700 W and ≤30 kW — mera comunicação prévia / registration via DGEG/SERUP; >30 kW — heavier prior-control requirements. Check current DGEG/SERUP rules before installation.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 15/2022; DGEG/SERUP UPAC rules"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[0].title",
+        "current": "UPAC до 6.9 кВт (residential)",
+        "problem": "Presents 6.9 kW as the residential/no-licence category, which is not the correct legal category for UPAC prior control.",
+        "suggestion": "Rename to \"Residential UPAC ≤30 kW\" and explain that most home systems fall under prior communication rather than licensing, while very small systems may be exempt.",
+        "confidence": "high",
+        "source": "Decreto-Lei 15/2022; DGEG/SERUP"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1].title",
+        "current": "UPAC > 6.9 кВт",
+        "problem": "Creates a false regulatory split at 6.9 kW. A 7 kW or 10 kW residential UPAC is not automatically in a different licensing class merely because it exceeds 6.9 kW.",
+        "suggestion": "Use legal thresholds instead: \"UPAC >30 kW\" for systems requiring more formal registration/certification, and mention >1 MW licensing where relevant.",
+        "confidence": "high",
+        "source": "Decreto-Lei 15/2022"
+      },
+      {
+        "severity": "major",
+        "where": "sources[2]",
+        "current": "DL 162/2019 — autoconsumo",
+        "problem": "DL 162/2019 is not the current primary framework in the way the guide implies. The electricity-sector framework was replaced/consolidated by Decreto-Lei 15/2022, which is the key legal source for current UPAC/self-consumption rules.",
+        "suggestion": "Add/replace with: \"Decreto-Lei n.º 15/2022, de 14 de janeiro — Sistema Elétrico Nacional / autoconsumo\" and use it as the main legal source.",
+        "confidence": "high",
+        "source": "Decreto-Lei 15/2022"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[3].content[0].items[4].content[0].items[2]",
+        "current": "Для small UPAC — net metering (excess счётчик скидка) проще",
+        "problem": "Portugal does not have simple residential net metering where exported kWh are offset one-for-one against consumption. Surplus is either injected without remuneration or sold under a contract with a supplier/aggregator, usually at a much lower €/kWh than retail.",
+        "suggestion": "Replace with: \"Net metering в смысле 1:1 зачёта в Portugal нет. Чтобы получать деньги за excedente, нужен bidirectional smart meter and sale contract with a comercializador/agregador; otherwise surplus may be injected without payment.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 15/2022; ERSE/DGEG self-consumption guidance"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Программа Fundo Ambiental субсидирует до 70% (€2 500 max).",
+        "problem": "Misleading as a standing 2026 rule. Fundo Ambiental calls are program-specific, budget-limited and not permanently open; percentages, caps, eligible equipment and deadlines change by notice. A blanket '2026 = 70%, €2,500 max' needs a specific 2026 aviso, otherwise it is unsafe.",
+        "suggestion": "Write: \"Fundo Ambiental grants are not guaranteed annually; check the open Aviso on fundoambiental.pt. Past residential efficiency calls had specific caps and reimbursement rates, but 2026 amounts depend on the active programme.\"",
+        "confidence": "high",
+        "source": "Fundo Ambiental official notices"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].items[1]",
+        "current": "Stand 2026: до 2 500 € или 70% от cost (whichever lower)",
+        "problem": "States a fixed 2026 subsidy without citing the specific Fundo Ambiental notice. This is likely outdated or unverifiable; the guide's source is only the homepage, not a call document.",
+        "suggestion": "Replace with: \"Amounts depend on the active Fundo Ambiental Aviso; do not budget the project assuming a subsidy until your application is approved.\"",
+        "confidence": "high",
+        "source": "Fundo Ambiental official notices"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].items[2]",
+        "current": "Лимитированный budget — open в 1 квартал, кончается за недели",
+        "problem": "Overgeneralised. Fundo Ambiental programmes do not reliably open in Q1 every year, and deadlines/budgets differ by call.",
+        "suggestion": "Replace with: \"Calls open irregularly and have their own deadlines, budgets and eligibility rules; monitor Fundo Ambiental and the Diário da República.\"",
+        "confidence": "high",
+        "source": "Fundo Ambiental official notices"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "Excedente sale: облагается 28% налог",
+        "problem": "Misleading tax statement. For individuals, income from sale of surplus electricity from UPAC is not simply taxed at 28% in all cases. There is a specific IRS exclusion for small surplus sales up to a legal limit, and VAT obligations depend on turnover/exemption status. The usual residential case may have no IRS tax if within the exemption.",
+        "suggestion": "Replace with: \"Excedente sale: for individuals, small UPAC surplus income may be excluded from IRS up to the statutory annual limit; above that, or for business activity, tax/VAT rules apply. Confirm with an accountant/comercializador.\"",
+        "confidence": "high",
+        "source": "Código do IRS, art. 12; Lei do Orçamento do Estado 2023 changes for UPAC surplus income"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0]",
+        "current": "IVA 6% (reduced) на residential UPAC ≤ 6.9 кВт с 2023",
+        "problem": "The wording is likely wrong on both the threshold and timing. The reduced VAT rule for supply/installation of solar panels is in the VAT List I framework and is not generally described as 'residential UPAC ≤6.9 kW'. The guide also contradicts itself by saying elsewhere 'IVA 6% reduced (с 2024)'.",
+        "suggestion": "Replace with: \"IVA reduzido may apply to supply and installation of photovoltaic/solar panels under the current VAT List I wording; confirm invoice treatment with the installer. Do not present 6.9 kW as the VAT threshold unless citing the exact current legal text.\"",
+        "confidence": "medium",
+        "source": "Código do IVA, Lista I, verba 2.37"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[7]",
+        "current": "IVA 6% reduced (с 2024) для residential",
+        "problem": "Internal contradiction with tax section, which says 'с 2023'. The start date and eligibility are not consistently stated.",
+        "suggestion": "Use one verified statement tied to the current VAT provision, without giving a year unless necessary.",
+        "confidence": "high",
+        "source": "Código do IVA, Lista I"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3].content[0].items[2]",
+        "current": "Smart meter установка от EDP / провайдера",
+        "problem": "Wrong actor. In mainland Portugal the distribution network operator is E-REDES, not the electricity supplier such as EDP Comercial/Galp/Endesa/Iberdrola. Smart meter/bidirectional metering is handled through the network operator process, often triggered via the supplier/installer.",
+        "suggestion": "Replace with: \"Bidirectional smart meter / configuration is handled by the distribution network operator, usually E-REDES in mainland Portugal; the supplier/comercializador is separate.\"",
+        "confidence": "high",
+        "source": "E-REDES; ERSE"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[2]",
+        "current": "Atestado de residência (сметы from electric provider)",
+        "problem": "This is confused and likely wrong. Atestado de residência is a parish residence certificate and is not a standard technical document for UPAC registration. The relevant electricity identifier is usually the CPE from the electricity bill, plus owner/tenant authorization and installation data.",
+        "suggestion": "Replace with: \"Electricity bill with CPE, NIF/ID, property owner authorization if not owner, technical data of panels/inverter, installer declarations, and condominium approval where common parts are used.\"",
+        "confidence": "high",
+        "source": "DGEG/SERUP registration requirements"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[4]",
+        "current": "Если кондоминиум против: суд (Lei 79/2017 — право на autoconsumo)",
+        "problem": "This is unsafe legal advice. There is no simple individual right allowing a flat owner/tenant to override condominium refusal by citing Lei 79/2017. Use of common roof/common parts is governed by condominium law and assembly rules; collective self-consumption has its own procedures.",
+        "suggestion": "Replace with: \"If panels use common parts, get condominium assembly approval under condominium rules. If refused, consult a lawyer; do not assume an automatic statutory right to install on common roof.\"",
+        "confidence": "high",
+        "source": "Código Civil condominium rules; Decreto-Lei 15/2022 collective self-consumption regime"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "Lei 79/2017 — tenants have right to renewable energy installations с разумными conditions от арендодателя",
+        "problem": "Likely false/misleading. Tenants generally need landlord consent for alterations/installations affecting the property, and there is no broad tenant right stated this way in the cited law.",
+        "suggestion": "Replace with: \"Tenants need written landlord consent for any fixed installation; for removable balcony plug-in systems also check lease, condominium rules and electrical safety requirements.\"",
+        "confidence": "high",
+        "source": "Código Civil lease rules; Decreto-Lei 15/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[3]",
+        "current": "Тенanted property panels: могут забрать с собой при выезде, но обычно становятся owner property после 5 лет",
+        "problem": "No general Portuguese rule that tenant-installed solar panels become the landlord's property after 5 years. Fixtures/improvements depend on the lease, consent, removability and civil-law rules on improvements.",
+        "suggestion": "Replace with: \"Who owns the panels and whether they can be removed must be agreed in writing with the landlord before installation.\"",
+        "confidence": "high",
+        "source": "Código Civil lease/improvements rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "UPP — Unidade de Pequena Produção",
+        "problem": "UPP is presented as an ordinary current option, but the small-production regime has been superseded/absorbed by the current self-consumption and electricity-sector framework. For new projects, the guide should focus on UPAC and sale of surplus/production under the current DL 15/2022 regime rather than old UPP terminology.",
+        "suggestion": "Rewrite as: \"Pure production/sale to grid is a separate electricity-production project under current SEN rules and is not the normal residential UPAC route; check DGEG/ERSE requirements and grid capacity.\"",
+        "confidence": "medium",
+        "source": "Decreto-Lei 15/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[6]",
+        "current": "Property value: добавляет 5-10% к стоимости недвижимости",
+        "problem": "Unsupported and too categorical. The added value depends heavily on EPC rating, battery, age of equipment, warranties, roof status and buyer preferences. 5-10% is not a reliable Portugal-specific rule.",
+        "suggestion": "Replace with: \"May improve attractiveness/EPC-related perception, but resale-value uplift is case-specific and not guaranteed.\"",
+        "confidence": "high",
+        "source": "No source provided in guide"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[5]",
+        "current": "CO2 reduction: ~3 тонны/год от 5 кВт system",
+        "problem": "Likely overstated for Portugal's relatively low-carbon grid. A 5 kWp system producing roughly 7,000-8,000 kWh/year would avoid materially less than 3 tCO2/year using recent Portuguese grid emission factors.",
+        "suggestion": "Use a softer range: \"roughly 1-2 tCO2/year depending on generation and the emission factor used\" or cite a current emission factor.",
+        "confidence": "medium",
+        "source": "Portuguese grid emission factors; APREN/REN/DGEG energy statistics"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "3 кВт (квартира): 3 500-5 500 € (8-10 панелей...)",
+        "problem": "Panel count is inconsistent with modern module wattages. 8-10 panels at 430-550 W is about 3.4-5.5 kWp, not 3 kW. The guide elsewhere says panels are 260-450 W, which is outdated for 2026.",
+        "suggestion": "Write: \"3 kWp: usually about 6-8 modern panels, depending on module wattage\" and update panel wattage range to roughly 400-600 W for current residential modules.",
+        "confidence": "high",
+        "source": "Current residential PV module market specifications"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[0]",
+        "current": "Solar panels (260-450 W каждая)",
+        "problem": "Outdated range for 2026; 260 W panels are old stock, and common residential panels are often 400 W+.",
+        "suggestion": "Replace with: \"Solar panels, typically ~400-600 W each for current residential installations.\"",
+        "confidence": "high",
+        "source": "Current residential PV module market specifications"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0].content[0].items[3]",
+        "current": "panel brand (LG, JA Solar, Trina)",
+        "problem": "LG exited the solar panel manufacturing business, so listing LG as a normal 2026 quote brand is outdated.",
+        "suggestion": "Replace LG with current common brands or say \"panel brand and warranty\" without naming LG.",
+        "confidence": "high",
+        "source": "LG Electronics announcement ending solar panel production"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4].content[0].items[0]",
+        "current": "Excess solar production injected в grid → компенсация от вашего provider (EDP, Galp, Endesa, Iberdrola)",
+        "problem": "Not necessarily from 'your' existing provider. Surplus can be sold to a supplier/aggregator under a separate contract, and not all suppliers offer the same buyback terms.",
+        "suggestion": "Replace with: \"Surplus can be sold to a comercializador/agregador under a specific contract; it may be your current supplier or another market participant.\"",
+        "confidence": "high",
+        "source": "ERSE/DGEG self-consumption guidance"
+      }
+    ],
+    "missing_topics": [
+      "Current UPAC prior-control thresholds: exemption, mera comunicação prévia, registration/certificate, licensing",
+      "SERUP/DGEG registration portal and required technical documents, including CPE",
+      "Need for bidirectional meter and role of E-REDES versus supplier/comercializador",
+      "No 1:1 net metering in Portugal; surplus sale requires contract and may otherwise be unpaid",
+      "Current IRS/VAT treatment of small surplus electricity sales, including the IRS exclusion threshold",
+      "Condominium approval rules for use of common roof/common parts and collective self-consumption options",
+      "Landlord written consent and lease terms for tenant installations",
+      "Fundo Ambiental grants are call-specific; cite the exact Aviso rather than generic caps",
+      "Grid-connection/export limitations and possible zero-injection configuration",
+      "Warranty distinctions: product warranty, performance warranty, inverter warranty, workmanship warranty"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5441,
+    "prompt_tokens": 3666,
+    "total_tokens": 9107
+  },
+  "model": "gpt-5.5"
+}

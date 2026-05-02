@@ -1,0 +1,158 @@
+{
+  "guideId": "sintra-day-trip",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "The guide is useful structurally, but several key 2026 visitor prices and transport details for Sintra are outdated or misleading.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "Вход в парк + дворец: 14 €. Только парк: 7.50 €.",
+        "problem": "These Pena ticket prices are outdated; by 2026 adult prices are significantly higher than €14/€7.50.",
+        "suggestion": "Replace with: \"Билет Park + Palace стоит около 20 € для взрослого; только парк — около 10 €. Цены и онлайн-скидки меняются — проверяйте parquesdesintra.pt перед покупкой.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official ticketing / price table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Комбо с Pena: 20.50 €. Отдельно: 8 €.",
+        "problem": "Castelo dos Mouros standalone price is outdated, and the quoted fixed combo price with Pena is not reliable for 2026.",
+        "suggestion": "Replace with: \"Castelo dos Mouros стоит около 12 € для взрослого. Если покупаете несколько объектов Parques de Sintra онлайн, скидка считается в корзине — не ориентируйтесь на старые фиксированные 'combo' цены.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official ticketing / price table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].text",
+        "current": "Palácio Nacional de Sintra ... 10 €.",
+        "problem": "The adult ticket price for the National Palace of Sintra is outdated.",
+        "suggestion": "Replace with: \"Palácio Nacional de Sintra — около 13 € для взрослого; актуальную цену проверяйте на parquesdesintra.pt.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official ticketing / price table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].text",
+        "current": "Palácio de Monserrate ... 8 €.",
+        "problem": "The Monserrate ticket price is outdated.",
+        "suggestion": "Replace with: \"Palácio de Monserrate — около 12 € для взрослого; актуальную цену проверяйте на parquesdesintra.pt.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official ticketing / price table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[5].content[0].text",
+        "current": "Convento dos Capuchos ... 7 €.",
+        "problem": "The Capuchos ticket price is outdated.",
+        "suggestion": "Replace with: \"Convento dos Capuchos — около 11 € для взрослого; актуальную цену проверяйте на parquesdesintra.pt.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official ticketing / price table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "автобус 434 (5 €/день, hop-on-hop-off)",
+        "problem": "The 434 tourist bus price is badly outdated; it is not a €5/day hop-on-hop-off service in 2026.",
+        "suggestion": "Replace with: \"Автобус 434 до Pena/Mouros — туристический маршрут Scotturb; ориентируйтесь примерно на 13–14 € за hop-on-hop-off/дневной билет или проверяйте текущий тариф перед поездкой.\"",
+        "confidence": "high",
+        "source": "Scotturb Sintra tourist bus 434 fares"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[5]",
+        "current": "🚌 Автобус 434 (hop-on-hop-off) 5 €/день — покрывает все главные сайты",
+        "problem": "Same outdated bus price, plus 'covers all main sites' is misleading: 434 mainly serves the Pena/Mouros circuit, not all Sintra sights such as Regaleira, Monserrate and Capuchos.",
+        "suggestion": "Replace with: \"434 удобен для подъёма к Pena и Castelo dos Mouros, но не покрывает все объекты Синтры. Для Monserrate/Regaleira/Capuchos нужны пешком, такси или другие маршруты. Тариф 434 проверяйте на Scotturb; это не 5 €/день.\"",
+        "confidence": "high",
+        "source": "Scotturb route 434 information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[4]",
+        "current": "🎫 Комбо-билет Pena + Mouros + Monserrate — 32 €, экономия 8 €",
+        "problem": "The quoted combo price and saving do not match current 2026 pricing; with current adult prices the arithmetic is not plausible.",
+        "suggestion": "Replace with: \"При покупке нескольких объектов Parques de Sintra онлайн может применяться скидка; итоговая цена считается в корзине. Не планируйте бюджет по старым combo-ценам.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official ticketing / discounts"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[6].content[0].text",
+        "current": "Автобус 403 Scotturb, 40 мин.",
+        "problem": "The old Scotturb 403 reference is outdated/misleading for current public transport planning to Cabo da Roca; services in the area are now under Carris Metropolitana numbering, and travelers should not look for '403 Scotturb' as the primary reference.",
+        "suggestion": "Replace with: \"До Cabo da Roca из Синтры ходят автобусы Carris Metropolitana, например направление Sintra–Cabo da Roca–Cascais; проверяйте актуальный номер линии и расписание в приложении/на сайте Carris Metropolitana перед поездкой.\"",
+        "confidence": "medium",
+        "source": "Carris Metropolitana route planner"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "Открыто 9:30-19:00 летом, до 18:00 зимой.",
+        "problem": "Opening hours are oversimplified and may be inaccurate: Pena has separate hours for the park and palace, last entry is earlier than closing, and schedules can change seasonally or due to weather/fire risk.",
+        "suggestion": "Replace with: \"У Pena разные часы для парка и дворца, а последний вход раньше закрытия; перед поездкой проверяйте актуальный слот и часы на parquesdesintra.pt.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official opening hours"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Обязательно онлайн-билеты.",
+        "problem": "This is too absolute. Online tickets are strongly recommended and often necessary for convenient timed access to Pena Palace, but the text implies that all Sintra attractions require online tickets.",
+        "suggestion": "Replace with: \"Онлайн-билеты особенно желательны для Pena Palace: вход во дворец идёт по временному слоту; для остальных объектов онлайн обычно удобнее и иногда дешевле, но правила проверяйте заранее.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official ticketing"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0]",
+        "current": "🎫 ОБЯЗАТЕЛЬНО онлайн-билеты на Pena (parquesdesintra.pt).",
+        "problem": "The warning is useful but should clarify that the critical point is the timed slot for the palace interior, not just entering the park.",
+        "suggestion": "Replace with: \"Для Pena покупайте билет заранее онлайн и выбирайте временной слот именно на вход во дворец; закладывайте время на подъём от ворот парка до дворца.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra official ticketing"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "09:00 — прибытие ... автобус 434 ... или такси/Uber до Pena ...",
+        "problem": "The itinerary is too tight: arriving at Sintra station at 09:00 and entering Pena at 09:30 is often unrealistic because the transfer uphill, queues, park entrance and walk/shuttle to the palace take additional time.",
+        "suggestion": "Change the itinerary to: \"08:00–08:30 прибытие в Sintra; 09:30–10:00 слот Pena. Закладывайте 30–45 минут от станции до входа во дворец, больше в сезон.\"",
+        "confidence": "high",
+        "source": "Parques de Sintra visitor guidance; Scotturb route 434 travel times"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[9]",
+        "current": "💰 Lisboa Card НЕ покрывает Sintra dwarfs — отдельные билеты",
+        "problem": "There is a typo/translation error ('dwarfs'), and the statement is misleading: Lisboa Card generally includes Lisbon urban train travel to Sintra and may give discounts at some Sintra monuments, even though it does not make the main palace entries free.",
+        "suggestion": "Replace with: \"Lisboa Card обычно покрывает поезд CP до Sintra и может давать скидки на отдельные объекты, но вход в Pena/Regaleira и другие дворцы всё равно оплачивается отдельно — проверяйте список льгот Lisboa Card.\"",
+        "confidence": "high",
+        "source": "Lisboa Card official benefits list"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Синтра — UNESCO-город",
+        "problem": "Strictly speaking, UNESCO lists the 'Cultural Landscape of Sintra', not the town as a whole as a 'UNESCO city'.",
+        "suggestion": "Replace with: \"Синтра — часть объекта UNESCO 'Культурный ландшафт Синтры'...\"",
+        "confidence": "high",
+        "source": "UNESCO World Heritage Centre — Cultural Landscape of Sintra"
+      }
+    ],
+    "missing_topics": [
+      "Add direct official sources for transport: CP Urbanos de Lisboa fares/timetable and Scotturb/Carris Metropolitana route pages.",
+      "Mention that Pena Palace timed slot is for the palace interior and visitors must still allow time to enter the park and walk or shuttle uphill.",
+      "Mention that access/closures in Sintra hills can change due to weather, fog, wind or fire-risk restrictions.",
+      "Clarify which sights are operated by Parques de Sintra and which are not: Quinta da Regaleira has separate ticketing and rules.",
+      "Add a short budget table with 2026 ticket ranges instead of fixed old prices."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4465,
+    "prompt_tokens": 2995,
+    "total_tokens": 7460
+  },
+  "model": "gpt-5.5"
+}

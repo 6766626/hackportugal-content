@@ -1,0 +1,60 @@
+{
+  "guideId": "porto-neighborhoods",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "В целом гид полезный и без иммиграционно-налоговых ошибок, но есть несколько фактических неточностей по транспорту Порту и пара чрезмерных обобщений.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "Далеко от центра, нужна машина или Metro Line 1.",
+        "problem": "В Foz do Douro нет линии метро. Вероятно, автор имел в виду исторический трамвай 1 / elétrico 1, который идёт вдоль Дору, но это не Porto Metro и не полноценный быстрый транспорт для ежедневного коммьюта.",
+        "suggestion": "Заменить на: «Далеко от центра; чаще нужны автобус/такси/машина. Есть исторический трамвай 1 вдоль Дору, но это не метро и не основной commuter-вариант».",
+        "confidence": "high",
+        "source": "Metro do Porto network map; STCP/Porto Tram route 1"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].text",
+        "current": "Метро жёлтой/фиолетовой через Ponte Luís I.",
+        "problem": "Через Ponte Luís I в Gaia проходит жёлтая линия D метро. Фиолетовая линия E идёт к аэропорту и не проходит через Ponte Luís I в Gaia. Упоминание «фиолетовой через Ponte Luís I» фактически неверно.",
+        "suggestion": "Заменить на: «Метро жёлтой линии D через Ponte Luís I; также есть поезда/автобусы и будущие расширения метро, но не фиолетовая линия через мост Luís I».",
+        "confidence": "high",
+        "source": "Metro do Porto network map"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "Areosa / Ramalde ... Метро синей/жёлтой.",
+        "problem": "Ramalde обслуживается линиями через станцию Ramalde, включая синюю A и другие линии коридора Senhora da Hora—Trindade, но не жёлтой D. Areosa как район в основном не имеет прямой станции метро; ближайшие варианты зависят от конкретного адреса, часто это автобусы или станции Hospital São João/Polo Universitário/Combatentes на расстоянии.",
+        "suggestion": "Заменить на: «Ramalde — метро по коридору линии A и других линий через Ramalde/Senhora da Hora; Areosa — чаще автобусы или ближайшие станции метро в зависимости от адреса, жёлтая линия не покрывает весь район напрямую».",
+        "confidence": "high",
+        "source": "Metro do Porto network map"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "🌆 Порту компактнее, всё в шаговой",
+        "problem": "Слишком сильное обобщение. Исторический центр Порту действительно компактный, но районы из самого гида — Foz, Matosinhos, Maia, Gaia, Gondomar/Valongo — явно не «всё в шаговой» от центра и часто требуют метро/автобуса/машины.",
+        "suggestion": "Заменить на: «Порту компактнее Лиссабона; исторический центр хорошо ходится пешком, но Foz/Matosinhos/Maia/Gaia и восточные пригороды требуют транспорта».",
+        "confidence": "high",
+        "source": "general geography of Porto metropolitan area"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[8]",
+        "current": "🚆 Alfa Pendular в Lisboa за 2.5ч",
+        "problem": "2,5 часа — слишком оптимистично для регулярного Alfa Pendular Porto Campanhã—Lisboa. Типичное время до Lisboa Oriente/Santa Apolónia ближе к примерно 2 ч 50 мин — 3 ч, иногда больше в зависимости от станции и расписания.",
+        "suggestion": "Заменить на: «Alfa Pendular до Lisboa примерно за 2 ч 50 мин — 3 ч, в зависимости от станции и рейса».",
+        "confidence": "high",
+        "source": "CP — Comboios de Portugal timetables"
+      }
+    ],
+    "missing_topics": [
+      "Короткая оговорка, что цены аренды — ориентиры по T1 и сильно зависят от состояния квартиры, мебели, срока договора и близости к метро/океану",
+      "Для районов за пределами центра стоит явно указать зависимость от конкретной станции метро/автобусного маршрута, потому что внутри одного района транспортная доступность сильно различается"
+    ]
+  },
+  "model": "gpt-5.5"
+}

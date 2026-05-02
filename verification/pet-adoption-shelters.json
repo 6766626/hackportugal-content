@@ -1,0 +1,251 @@
+{
+  "guideId": "pet-adoption-shelters",
+  "categoryId": "animals",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по структуре, но содержит несколько существенных юридических ошибок по SIAC, найденным животным, опасным породам и санкциям, а также ряд сомнительных/неактуальных ссылок и организаций.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[0]",
+        "current": "🏛️ Каждый муниципалитет имеет CRO (Centro de Recolha Oficial)",
+        "problem": "Формулировка слишком категорична: не каждый município имеет собственный физический CRO; часть муниципалитетов пользуется межмуниципальными центрами, протоколами с соседними CRO или ассоциациями.",
+        "suggestion": "Написать: «У муниципалитета должен быть доступ к recolha oficial de animais — это может быть собственный CRO, межмуниципальный центр или протокол с другим учреждением. Проверяйте сайт Câmara Municipal / Junta.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 276/2001; DGAV — Centros de Recolha Oficial"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[5]",
+        "current": "🌐 Все CRO: cm-cidade.pt → Animais de Companhia",
+        "problem": "«cm-cidade.pt» — несуществующий шаблон, выглядит как реальная ссылка и вводит в заблуждение. Нет единого адреса вида cm-cidade.pt для всех муниципалитетов.",
+        "suggestion": "Заменить на: «Ищите на сайте вашей Câmara Municipal разделы “Animais de Companhia”, “Canil/Gatil Municipal”, “Centro de Recolha Oficial” или звоните в Câmara/Junta.» Если есть официальный каталог DGAV — дать именно его.",
+        "confidence": "high",
+        "source": "DGAV — Animais de companhia / CRO"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[1]",
+        "current": "🐱 **ANIMAL** (animal.pt) — национальная",
+        "problem": "ANIMAL — прежде всего организация защиты прав животных/адвокации, а не типичный приют с регулярным процессом адопции. В списке «где усыновить» это может создать ложное ожидание.",
+        "suggestion": "Уточнить: «ANIMAL — правозащитная/кампанийная организация; для адопции чаще смотреть CRO, União Zoófila, Associação Bianca, IRA/adoption partners, местные associações и группы FAT/adopção.»",
+        "confidence": "medium",
+        "source": "ANIMAL official website"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "🦴 **Bianca** (bianca.pt) — Algarve, специализация старшие собаки",
+        "problem": "Associação Bianca находится в Sesimbra/Setúbal, а не в Algarve. Утверждение про специализацию на старших собаках также выглядит неподтверждённым.",
+        "suggestion": "Написать: «Associação Bianca (bianca.pt) — Sesimbra/Setúbal, cães e gatos para adoção.» Убрать Algarve и «специализация старшие собаки», если нет источника.",
+        "confidence": "high",
+        "source": "Associação Bianca official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[0]",
+        "current": "🌐 **adopt.cao.pt** — национальная база (cães e gatos)",
+        "problem": "Нужно проверить актуальность и статус платформы: формулировка «национальная база» звучит как официальный государственный реестр, но это не очевидно. Для чувствительной рекомендации нужен источник/уточнение, кто оператор.",
+        "suggestion": "Уточнить статус: «платформа объявлений/агрегатор» или заменить на официально подтверждённые источники муниципальных CRO и сайты конкретных câmaras. Если платформа официальная — добавить источник с оператором.",
+        "confidence": "medium",
+        "source": "DGAV / Câmara Municipal sources should be added"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[3]",
+        "current": "📱 **Adopta Lisboa** — приложение приёмов",
+        "problem": "Фраза непонятна и, вероятно, неточна: для Lisboa основной официальный канал — Casa dos Animais de Lisboa / Câmara Municipal de Lisboa, а не общеизвестное «приложение приёмов».",
+        "suggestion": "Заменить на: «Lisboa: Casa dos Animais de Lisboa / Câmara Municipal de Lisboa — страницы adoção и atendimento.» Удалить упоминание приложения, если нет рабочей официальной ссылки.",
+        "confidence": "medium",
+        "source": "Câmara Municipal de Lisboa — Casa dos Animais de Lisboa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2].content[0].items[4]",
+        "current": "📱 **Pawsome** — недорогое приложение для просмотра",
+        "problem": "Неясно, что это за сервис, насколько он актуален в Португалии и почему он рекомендуется в гайде про адопцию. «Недорогое» также странно для поиска животных.",
+        "suggestion": "Удалить или заменить на проверенные каналы: сайты CRO, сайты associações, официальные страницы câmaras, Facebook/Instagram страниц конкретных приютов.",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[2]",
+        "current": "🔢 Сканировать чип в любой ветеринарной клинике (ID — pet-id.pt)",
+        "problem": "pet-id.pt не является корректным официальным источником SIAC. Проверка микрочипа делается через ветеринара/CRO/autoridade с доступом к SIAC; публичный доступ к данным владельца ограничен.",
+        "suggestion": "Написать: «Попросите ветеринарную клинику, CRO, PSP/GNR или Câmara просканировать микрочип и проверить запись в SIAC. Из-за защиты данных контакты владельца вам напрямую могут не раскрыть.»",
+        "confidence": "high",
+        "source": "SIAC; Decreto-Lei 82/2019"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[3]",
+        "current": "⏰ Если 30 дней не нашлось владельца — можно официально усыновить",
+        "problem": "Срок 30 дней выглядит неверным/слишком упрощённым. В официальной recolha животное обычно проходит процедуру через CRO с установленным законом сроком ожидания/reclamação и решением CRO; частное лицо не должно само «через 30 дней» считать животное своим.",
+        "suggestion": "Заменить на: «Передайте/сообщите животное в CRO или Câmara. Если владелец не объявится в установленный законом срок и CRO оформит животное как disponível para adoção, его можно усыновить официально через termo de adoção и SIAC.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei 276/2001; municipal CRO rules"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[2].content[0].items[2]",
+        "current": "⚖️ Опасные породы (Bull Terrier, Pit Bull, Rottweiler — список Lei 110/2015): нужны соц. навыки + страхование 50 000 €",
+        "problem": "Список пород неверный: обычный Bull Terrier не входит в португальский список потенциально опасных пород; входят, среди прочих, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu, Dogo Argentino, Cão de Fila Brasileiro и их помеси. Источник списка — не просто «Lei 110/2015», а режим cães perigosos/potencialmente perigosos и соответствующая portaria/lista.",
+        "suggestion": "Написать: «Потенциально опасные породы: Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu, Dogo Argentino, Cão de Fila Brasileiro и их cruzamentos. Нужны licença especial na junta, seguro de responsabilidade civil минимум €50 000, requisitos de identificação/vacinação и formação do detentor.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009; Portaria 422/2004; Lei 110/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].items[2]",
+        "current": "📋 Получить документы: passport животного, Caderneta Sanitária, карточка чипа",
+        "problem": "EU pet passport не всегда выдаётся при адопции внутри Португалии; обычно есть boletim/caderneta sanitária и данные микрочипа/SIAC. Паспорт нужен в основном для поездок и оформляется ветеринаром.",
+        "suggestion": "Написать: «Получить boletim/caderneta sanitária, данные микрочипа/SIAC, сведения о вакцинах/стерилизации. EU pet passport может отсутствовать; его оформляют у veterinário, если планируете поездки.»",
+        "confidence": "high",
+        "source": "DGAV — Pet movement / EU pet passport"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[4].content[0].items[0]",
+        "current": "🌐 SIAC — Sistema de Informação de Animais de Companhia (siac.dgav.pt)",
+        "problem": "Указан неверный/сомнительный URL. В sources указан другой адрес — https://siac.vet.pt/. Это внутренняя противоречивость. Актуальный публичный сайт SIAC обычно указывается как siac.vet / siac.vet.pt, а не siac.dgav.pt.",
+        "suggestion": "Исправить на единый актуальный адрес: «SIAC — Sistema de Informação de Animais de Companhia: https://www.siac.vet/» или официальный адрес, подтверждённый DGAV, и использовать его и в тексте, и в sources.",
+        "confidence": "high",
+        "source": "SIAC official website; DGAV"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[4].content[0].items[1]",
+        "current": "📝 Перерегистрировать чип на своё имя в течение 30 дней",
+        "problem": "Для передачи титулярности в SIAC срок обычно 15 дней, а не 30. 30 дней в таком виде вводит в заблуждение.",
+        "suggestion": "Написать: «Передача/изменение titular do animal в SIAC должна быть оформлена в установленный срок — обычно 15 дней после передачи. При адопции уточните, делает ли это CRO/associação сразу или нужно идти к veterinário.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019 — SIAC"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].items[3]",
+        "current": "💰 Бесплатно",
+        "problem": "Регистрация/изменение данных в SIAC не всегда фактически бесплатны для владельца: может взиматься официальный сбор SIAC и/или услуга ветеринара. При адопции часть приютов включает это в сбор, но это не универсальное правило.",
+        "suggestion": "Написать: «Часто включено в adoption fee или делается CRO, но у ветеринара может быть платно; уточняйте стоимость регистрации/alteração de titularidade SIAC заранее.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019; SIAC fee rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[4].content[0].items[4]",
+        "current": "🚨 Без перерегистрации = штраф до 500 €",
+        "problem": "Сумма «до 500 €» некорректна/слишком упрощена. За нарушения режима идентификации и регистрации животных предусмотрены административные штрафы, которые для физических лиц могут быть выше 500 € в зависимости от нарушения.",
+        "suggestion": "Заменить на: «Нарушение обязанностей по идентификации/регистрации в SIAC может привести к coima; для физических лиц суммы зависят от нарушения и могут быть существенно выше €500. Проверяйте актуальную редакцию Decreto-Lei 82/2019.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[5]",
+        "current": "📜 Страхование (для собак): 30-100 €/год",
+        "problem": "Фраза создаёт впечатление, что страхование обязательно для всех собак. По закону обязательное seguro de responsabilidade civil касается cães perigosos/potencialmente perigosos; для обычных собак это опционально, хотя может быть полезно.",
+        "suggestion": "Написать: «Страхование гражданской ответственности: опционально для обычных собак; обязательно для cães perigosos/potencialmente perigosos, минимум €50 000 покрытия.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009; Portaria 585/2004"
+      },
+      {
+        "severity": "major",
+        "where": "costs[5]",
+        "current": "Страхование опасных пород/год: amountEURMin 30, amountEURMax 100",
+        "problem": "Диапазон может быть реалистичным как рыночная цена, но не привязан к юридическому требованию: важно не цена, а минимальное покрытие €50 000 для responsabilidade civil. В тексте также местами сказано «для собак», что противоречит этой строке.",
+        "suggestion": "Оставить диапазон как ориентир, но переименовать: «Seguro responsabilidade civil para cão perigoso/potencialmente perigoso, cobertura mínima legal €50 000 — ориентировочно €30–100/год».",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009; Portaria 585/2004"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[6]",
+        "current": "⚖️ Закон Lei 92/95: жестокое обращение = до 2 лет тюрьмы + 5 000 € штраф",
+        "problem": "Неверная юридическая формулировка. Уголовная ответственность за maus-tratos/abandono сейчас находится в Código Penal, а не просто в Lei 92/95. «До 2 лет + 5 000 € штраф» как универсальная санкция неверно: санкции зависят от состава, а штрафы в уголовном праве выражаются в dias de multa; административные coimas — отдельный режим.",
+        "suggestion": "Написать: «Жестокое обращение и abandono de animais de companhia могут быть преступлениями по Código Penal; наказание зависит от последствий, включая pena de prisão или multa. Также возможны административные coimas по профильному законодательству.»",
+        "confidence": "high",
+        "source": "Código Penal, artigos 387.º e 388.º; Lei 92/95"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].title",
+        "current": "⚠️ Опасные породы (Lei 110/2015)",
+        "problem": "Раздел смешивает «опасных собак» и «потенциально опасные породы». Lei 110/2015 важна, но базовый режим — Decreto-Lei 315/2009 с изменениями; список пород установлен отдельной portaria. Заголовок создаёт неправильную юридическую привязку.",
+        "suggestion": "Переименовать: «Cães perigosos e potencialmente perigosos — regime legal». В тексте указать: «Decreto-Lei 315/2009, alterado pela Lei 110/2015; lista de raças potencialmente perigosas — Portaria 422/2004.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009; Lei 110/2015; Portaria 422/2004"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[4].content[1].items[0]",
+        "current": "🐕 Список: American Staffordshire, Bull Terrier, Pit Bull, Rottweiler, Doberman, Cane Corso, Tosa Inu, Fila Brasileiro и др.",
+        "problem": "Список неверный. Doberman, Cane Corso и обычный Bull Terrier не входят в официальный список потенциально опасных пород в Португалии. Зато отсутствуют Staffordshire Bull Terrier и Dogo Argentino. «и др.» опасно, потому что список закрытый плюс cruzamentos.",
+        "suggestion": "Заменить на: «Потенциально опасные породы: Cão de Fila Brasileiro, Dogo Argentino, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu, а также их cruzamentos.»",
+        "confidence": "high",
+        "source": "Portaria 422/2004; Decreto-Lei 315/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[2]",
+        "current": "💼 **Профессиональное страхование** 50 000 €",
+        "problem": "Это не «профессиональное» страхование, а seguro de responsabilidade civil для владельца/детентора. Термин может сбить с толку.",
+        "suggestion": "Написать: «Seguro de responsabilidade civil с минимальным покрытием €50 000.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 315/2009; Portaria 585/2004"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[3]",
+        "current": "🐾 **Курс поведения** (40 ч) + сертификат",
+        "problem": "Формулировка неточная: требование касается formação do detentor/proprietário, а не «курса поведения» собаки. Указание «40 ч» выглядит как неподтверждённое и, вероятно, неверное для владельцев.",
+        "suggestion": "Написать без сомнительных часов: «Formação/certificação do detentor, когда применимо по режиму cães perigosos/potencialmente perigosos; уточнять у DGAV/Junta какие курсы признаются.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei 315/2009; Portaria 317/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[4]",
+        "current": "🩺 **Комплексное обследование** хозяина (медицинское, психологическое)",
+        "problem": "Слишком бытовая и потенциально неточная формулировка. В режиме лицензирования могут требоваться документы о idoneidade, registo criminal, termo de responsabilidade и/или аттестаты aptidão física/psíquica, но это не обязательно «комплексное обследование» в смысле медосмотра.",
+        "suggestion": "Заменить на: «Для licença могут потребоваться документы владельца: idade mínima, registo criminal/idoneidade, termo de responsabilidade, seguro, formação и, когда применимо, comprovativo de aptidão física e psíquica. Список проверять в Junta/Câmara.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei 315/2009"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "DGAV — SIAC (Sistema Animais de Companhia), url: https://siac.vet.pt/",
+        "problem": "В тексте указан другой URL — siac.dgav.pt. Кроме того, title говорит «DGAV — SIAC», но ссылка ведёт на SIAC; нужно проверить и унифицировать официальный актуальный домен.",
+        "suggestion": "Использовать один актуальный URL SIAC во всём гайде, например «https://www.siac.vet/», и добавить отдельный источник DGAV по identificação de animais de companhia, если нужен именно государственный источник.",
+        "confidence": "high",
+        "source": "SIAC; DGAV"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Sources include Lei 92/95 and Lei 110/2015 only for legal topics",
+        "problem": "Для ключевых обязанностей — микрочип/SIAC, регистрация, dangerous dogs, список пород, seguro, лицензия в junta — не хватает основных нормативных источников. Lei 110/2015 сама по себе недостаточна для раздела опасных собак.",
+        "suggestion": "Добавить источники: Decreto-Lei 82/2019 для SIAC; Decreto-Lei 315/2009 для cães perigosos/potencialmente perigosos; Portaria 422/2004 для списка пород; Portaria 585/2004 для минимального seguro; DGAV pages on animais de companhia.",
+        "confidence": "high",
+        "source": "Decreto-Lei 82/2019; Decreto-Lei 315/2009; Portaria 422/2004; Portaria 585/2004"
+      }
+    ],
+    "missing_topics": [
+      "Обязательная ежегодная licença de detenção de cão в Junta de Freguesia для собак, с категориями и особыми правилами для dangerous/potentially dangerous dogs.",
+      "Обязательная vacina antirrábica для собак и связь с лицензией в junta; для кошек режим другой.",
+      "Сроки и правила SIAC: идентификация собак/кошек/хорьков, изменение titularidade, смерть/пропажа животного, кто может вносить изменения.",
+      "Что делать, если арендное жильё/condomínio запрещает животных: лимиты и правила содержания животных в frações autónomas/arrendamento.",
+      "Ограничения на количество животных в квартире/доме и возможные municipal/condominium rules.",
+      "Разница между adoção через CRO, adoção через associação и FAT/família de acolhimento temporário.",
+      "Проверка договора адопции: обязательство стерилизации, запрет передачи третьим лицам, follow-up visits, возврат животного.",
+      "Отдельный блок про найденное животное: не оставлять себе сразу, уведомить CRO/Câmara/GNR/PSP, проверка SIAC, процедура reclamação/adoption через официальный канал."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 6943,
+    "prompt_tokens": 3774,
+    "total_tokens": 10717
+  },
+  "model": "gpt-5.5"
+}

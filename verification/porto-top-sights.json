@@ -1,0 +1,185 @@
+{
+  "guideId": "porto-top-sights",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезный по структуре, но содержит несколько фактических ошибок и устаревших цен/формулировок по Porto Card, Livraria Lello, транспорту, музеям и отдельным достопримечательностям.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Livraria Lello (вдохновила Роулинг)",
+        "problem": "Это спорное и, скорее всего, неверное утверждение. J.K. Rowling публично писала, что никогда не была в Livraria Lello, когда жила в Порту, и что магазин не вдохновлял Harry Potter так, как часто утверждают туристические тексты.",
+        "suggestion": "Заменить на нейтральное: «Livraria Lello — неоготический книжный магазин 1906 года; его часто связывают с мифом о Harry Potter, но сама Rowling это отрицала».",
+        "confidence": "high",
+        "source": "J.K. Rowling official/X statement, 2020; Livraria Lello official history"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0]",
+        "current": "Ponte Dom Luís I — двухуровневый мост Эйфеля (его ученик).",
+        "problem": "Мост не является «мостом Эйфеля». Его проектировал Théophile Seyrig, бывший партнёр/сотрудник Gustave Eiffel. Формулировка создаёт впечатление, что автор — сам Eiffel.",
+        "suggestion": "Написать: «Ponte Dom Luís I — двухуровневый металлический мост 1886 года, спроектированный Théophile Seyrig, бывшим партнёром Gustave Eiffel».",
+        "confidence": "high",
+        "source": "Visit Porto; UNESCO Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[4]",
+        "current": "Livraria Lello — неоготический книжный 1906 г., вдохновила Гарри Поттера. 8 € (вычитается из покупки книги)",
+        "problem": "Две проблемы: миф про Harry Potter указан как факт; цена 8 € выглядит устаревшей для 2026 года. У Livraria Lello сейчас используются ваучеры/билеты разных категорий, и цены нужно брать с официального сайта.",
+        "suggestion": "Заменить на: «Livraria Lello — неоготический книжный магазин 1906 года; часто ошибочно связывается с Harry Potter. Вход по онлайн-ваучеру, цена и условия зачёта в покупку зависят от типа билета — проверяйте на официальном сайте».",
+        "confidence": "high",
+        "source": "Livraria Lello official tickets page; J.K. Rowling public statement"
+      },
+      {
+        "severity": "major",
+        "where": "steps[6].content[0].items[0]",
+        "current": "Porto Card (13/17/22/27 € на 1/2/3/4 дня) — транспорт + 17 музеев + скидки",
+        "problem": "Цены Porto Card выглядят устаревшими для 2026 года и смешивают версии карты. У Porto Card есть варианты с транспортом и без транспорта, с разными ценами; фиксированная линейка 13/17/22/27 € больше не надёжна. Также утверждение «17 музеев» требует проверки: набор бесплатных объектов и скидок меняется.",
+        "suggestion": "Написать: «Porto Card бывает с транспортом и без; цены, список бесплатных музеев и скидок меняются — проверяйте актуальную таблицу на visitporto.travel перед покупкой». Если оставлять цены, обновить их по официальной странице Porto Card на дату проверки.",
+        "confidence": "high",
+        "source": "Visit Porto — Porto Card official page"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[5]",
+        "current": "Jardim Zoológico — зоопарк для семей",
+        "problem": "В Порту нет достопримечательности, которую обычно называют просто «Jardim Zoológico»; это название ассоциируется прежде всего с Lisbon Zoo. Для района Порту корректнее указывать Zoo Santo Inácio в Vila Nova de Gaia/Avintes или Maia Zoo.",
+        "suggestion": "Заменить на: «Zoo Santo Inácio — зоопарк в Vila Nova de Gaia/Avintes, удобнее ехать на машине/такси; альтернатива — Maia Zoo».",
+        "confidence": "high",
+        "source": "Zoo Santo Inácio official site; Maia Zoo official site"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2]",
+        "current": "Tripas à moda do Porto — национальное блюдо (почему и называют porteños «tripeiros»)",
+        "problem": "Ошибки в терминологии. Tripas à moda do Porto — традиционное блюдо Порту, но не «национальное блюдо» Португалии. Жителей Порту по-португальски называют portuenses, а прозвище — tripeiros. «Porteños» — испаноязычный термин, обычно про жителей Буэнос-Айреса или портовых городов, и здесь звучит неверно.",
+        "suggestion": "Написать: «Tripas à moda do Porto — традиционное блюдо Порту; отсюда прозвище жителей города — tripeiros. Формальное название жителей — portuenses».",
+        "confidence": "high",
+        "source": "Porto municipal/Visit Porto gastronomy references"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Через мост Dom Luís I на южный берег Дору — сотни cellars (caves) известных марок.",
+        "problem": "«Сотни cellars» — явное преувеличение. В Vila Nova de Gaia действительно много портвейновых caves, но туристически посещаемых домов — скорее десятки, не сотни.",
+        "suggestion": "Заменить на: «десятки caves известных марок» или «много исторических caves портвейна».",
+        "confidence": "high",
+        "source": "Visit Porto; Associação das Empresas de Vinho do Porto / Port wine houses listings"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Историческая зона UNESCO.",
+        "problem": "Формулировка слишком широкая и может вводить в заблуждение: объект UNESCO называется «Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar». Не все caves Gaia являются частью UNESCO-зоны.",
+        "suggestion": "Уточнить: «Рядом с зоной объекта UNESCO “Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar”; сам статус UNESCO не распространяется на все винные caves».",
+        "confidence": "medium",
+        "source": "UNESCO World Heritage Centre — Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[2]",
+        "current": "Sé do Porto — романско-готический кафедральный собор, виды с террас. 3 €",
+        "problem": "Цена 3 € может быть устаревшей: вход в соборную часть может отличаться от билета в клуатр/музей, а тарифы меняются. Для 2026 года лучше не давать фиксированную цену без официальной ссылки.",
+        "suggestion": "Написать: «Sé do Porto — собор; вход в основную часть/клуатр и музей может тарифицироваться отдельно, актуальную цену проверяйте на официальном сайте собора».",
+        "confidence": "medium",
+        "source": "Sé Catedral do Porto official visitor information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[5]",
+        "current": "Palácio da Bolsa — бывшая биржа с роскошным Salão Árabe. 12 € с экскурсией",
+        "problem": "Цена 12 € вероятно устарела для 2026 года; Palácio da Bolsa посещается по guided tour, цена зависит от категории посетителя и языка/слота.",
+        "suggestion": "Заменить фиксированную цену на: «только/обычно с экскурсией; цену и доступные языки проверяйте на официальном сайте Palácio da Bolsa». Если оставлять цену — обновить по официальному прайсу.",
+        "confidence": "medium",
+        "source": "Palácio da Bolsa official tickets page"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[6]",
+        "current": "Igreja de São Francisco — готическая снаружи, барочная внутри, золотой интерьер. 8 €",
+        "problem": "Цена 8 € может быть устаревшей; у комплекса Igreja de São Francisco тариф включает музей/катакомбы, а актуальные цены меняются.",
+        "suggestion": "Написать: «билет в церковь/музейный комплекс платный; актуальную цену проверяйте на официальном сайте».",
+        "confidence": "medium",
+        "source": "Igreja Monumento de São Francisco official visitor information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[7]",
+        "current": "Torre dos Clérigos — барочная колокольня, панорама города. 6 €",
+        "problem": "Цена 6 € выглядит устаревшей для 2026 года; билеты на Torre dos Clérigos/музей и ночные посещения имеют разные тарифы.",
+        "suggestion": "Заменить на: «платный вход; цена зависит от типа билета/времени посещения — проверяйте официальный сайт Clérigos».",
+        "confidence": "medium",
+        "source": "Clérigos official tickets page"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3]",
+        "current": "Museu de Arte Contemporânea Serralves — модерн искусство + парк. 15 €",
+        "problem": "«Модерн искусство» по-русски неудачно и может быть неверно понято как art nouveau/modernismo. Serralves — музей современного искусства. Цена 15 € может не соответствовать 2026 году, потому что есть разные билеты: музей, парк, Casa de Serralves, комбинированные варианты.",
+        "suggestion": "Написать: «Museu de Arte Contemporânea de Serralves — современное искусство + парк; билеты бывают отдельные и комбинированные, актуальные цены на сайте Serralves».",
+        "confidence": "high",
+        "source": "Fundação de Serralves official tickets page"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4]",
+        "current": "Museu Soares dos Reis — национальный музей старого искусства. 5 €",
+        "problem": "Неверное/сбивающее описание. Museu Nacional Soares dos Reis — национальный музей с коллекциями живописи, скульптуры и декоративного искусства, а «музей старого искусства» — это скорее Museu Nacional de Arte Antiga в Лиссабоне. Цена также может быть устаревшей.",
+        "suggestion": "Заменить на: «Museu Nacional Soares dos Reis — живопись, скульптура и декоративное искусство XIX–XX вв.; актуальную цену проверяйте на сайте Museus e Monumentos de Portugal».",
+        "confidence": "high",
+        "source": "Museu Nacional Soares dos Reis / Museus e Monumentos de Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[0]",
+        "current": "Douro Valley — ... Поезд из Campanhã до Régua (2ч, 14€)",
+        "problem": "Цена 14 € может быть неточной для обычных региональных/межрегиональных поездов CP; тариф зависит от типа поезда и даты. Также туристы часто стартуют с São Bento с пересадкой/через Campanhã.",
+        "suggestion": "Написать: «поезд Porto São Bento/Campanhã → Peso da Régua около 2 часов; цена зависит от типа поезда — проверяйте cp.pt».",
+        "confidence": "medium",
+        "source": "CP — Comboios de Portugal official schedules/fares"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1]",
+        "current": "Guimarães — колыбель Португалии, замок XI в. (1ч поезд, 9€)",
+        "problem": "9 € без уточнения «туда-обратно» выглядит завышенно/непонятно для обычного urban train Porto–Guimarães; время также зависит от станции отправления и конкретного поезда.",
+        "suggestion": "Написать: «около 1ч10–1ч20 на urban train CP; цену в одну сторону/туда-обратно проверяйте на cp.pt».",
+        "confidence": "medium",
+        "source": "CP — Comboios de Portugal official schedules/fares"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[3]",
+        "current": "Aveiro — «португальская Венеция», каналы и молики (35 мин поезд)",
+        "problem": "35 минут — это только для некоторых быстрых поездов IC/AP от Campanhã и обычно дороже. Обычный urban/regional поезд идёт заметно дольше. Без уточнения это вводит туриста в заблуждение.",
+        "suggestion": "Написать: «35–75 минут в зависимости от типа поезда: IC/AP быстрее и дороже, urban/regional медленнее и дешевле; проверяйте cp.pt».",
+        "confidence": "high",
+        "source": "CP — Comboios de Portugal official schedules/fares"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[1]",
+        "current": "Andante — проездной на метро/автобусы/поезда в зоне Порту, 1.95-2.50 € за поездку",
+        "problem": "Andante — это не один «проездной», а система билетов/карт по зонам. Цена зависит от количества зон Z2, Z3, Z4 и т.д.; также есть стоимость носителя Andante и дневные билеты. Диапазон 1.95–2.50 € может быть устаревшим или неполным.",
+        "suggestion": "Написать: «Andante — зональная система билетов для metro/STCP/части CP urban; цена зависит от зон, отдельно покупается/пополняется карта. Актуальные тарифы — на andante.pt».",
+        "confidence": "high",
+        "source": "Andante official fares; Metro do Porto/STCP"
+      }
+    ],
+    "missing_topics": [
+      "Официальная ссылка на Porto Card с актуальными ценами и различием between pedestrian card / card with transport",
+      "Официальная ссылка на Andante/Metro do Porto/STCP с зональной схемой и тарифами",
+      "Предупреждение, что цены на музеи и достопримечательности быстро меняются и должны проверяться на официальных сайтах перед поездкой",
+      "Уточнение по Livraria Lello: посещение только по слотам/онлайн-билетам и миф про Harry Potter не подтверждён Rowling",
+      "Для однодневных поездок — ссылка на CP.pt и пояснение разницы между urban/regional/IC/AP поездами"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5474,
+    "prompt_tokens": 2570,
+    "total_tokens": 8044
+  },
+  "model": "gpt-5.5"
+}

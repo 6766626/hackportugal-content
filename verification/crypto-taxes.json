@@ -1,0 +1,193 @@
+{
+  "guideId": "crypto-taxes",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом отражает идею режима 2023+, но содержит несколько существенных ошибок по налогообложению crypto-to-crypto swaps, staking/mining, NFT/деривативам, Binance/BaFin и слишком уверенно даёт коды IRS без надёжной привязки к актуальной Modelo 3.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "Swap на другой токен считается продажей → счётчик сбрасывается",
+        "problem": "Фраза вводит в заблуждение: обмен crypto-to-crypto действительно является alienação onerosa, но в португальском режиме при встречном предоставлении в crypto taxation обычно откладывается — налог считается при последующей продаже за fiat/получении non-crypto consideration. Нельзя просто описывать это как обычную продажу с немедленным P&L.",
+        "suggestion": "Заменить на: «Crypto-to-crypto swap считается alienação, но если встречное предоставление тоже в criptoativos, налогообложение обычно откладывается до последующей продажи за fiat/товары/услуги; acquisition value переносится на полученный актив. Для 365-дневного срока по полученному активу нужна отдельная проверка/учёт даты swap.»",
+        "confidence": "high",
+        "source": "Código do IRS, art. 10 rules introduced by Lei 24-D/2022"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[1].items[0].content[0].items[1]",
+        "current": "P&L за каждую закрытую позицию: sell − buy − fees",
+        "problem": "В связке с предыдущим разделом это предполагает расчёт налога по каждому crypto-to-crypto swap как по закрытой позиции. Для Portugal это чрезмерно упрощено и может привести к завышенной/неправильной декларации: crypto-to-crypto consideration имеет специальное правило отсрочки.",
+        "suggestion": "Уточнить: «P&L считать для taxable disposals: продажа за fiat, оплата товаров/услуг, обмен на не-crypto активы; для crypto-to-crypto swaps вести учёт acquisition value и дат, но не считать их автоматически налогооблагаемой реализацией без проверки правила отсрочки.»",
+        "confidence": "high",
+        "source": "Código do IRS, art. 10; Lei 24-D/2022"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "стейкинг, mining, профессиональная торговля — облагается как operational income",
+        "problem": "Смешаны разные категории дохода. Mining/validation и профессиональная деятельность обычно относятся к Categoria B, а passive crypto remuneration может попадать в Categoria E; при выплате вознаграждения в crypto налогообложение может откладываться до disposal, а не всегда возникать сразу как «operational income».",
+        "suggestion": "Написать раздельно: «Mining/validation или профессиональная crypto-деятельность — обычно Categoria B. Passive staking/lending rewards могут быть Categoria E, но если вознаграждение получено в crypto, применяются специальные правила и часто taxation возникает при последующей продаже/конвертации; если выплата в fiat — возможен 28% withholding/autonomous taxation/englobamento.»",
+        "confidence": "high",
+        "source": "Código do IRS, arts. 4, 5, 10; Lei 24-D/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[0]",
+        "current": "Облагается как Categoria E (капитальные доходы) — 28% flat",
+        "problem": "Слишком категорично для staking/lending/mining. Mining не Categoria E, а при systematic/professional validation/mining — Categoria B. Для staking/lending важен тип вознаграждения и форма выплаты; «28% flat» не всегда итоговая ставка, так как может быть englobamento и специальные правила для выплат в crypto.",
+        "suggestion": "Разделить: «Staking/lending rewards: обычно Categoria E, если passive; ставка 28% как autonomous taxation, с возможностью englobamento в ряде случаев. Если reward выплачен в crypto, налоговый момент требует отдельной проверки. Mining/validation: обычно Categoria B, особенно если есть организованная деятельность.»",
+        "confidence": "high",
+        "source": "Código do IRS, arts. 4 and 5"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].items[3]",
+        "current": "DeFi yield farming: 28% по факту получения",
+        "problem": "Слишком уверенно и, вероятно, неверно для вознаграждения, полученного в crypto. В Португалии для crypto remuneration есть специальные правила; момент taxation может быть не «по факту получения», а при последующей реализации. DeFi также может иметь разные фактические конструкции: lending interest, liquidity mining, governance rewards, derivatives.",
+        "suggestion": "Заменить на: «DeFi yield farming нужно классифицировать по механике продукта. Passive remuneration может быть Categoria E; если выплата в crypto, налоговый момент и valuation нужно проверять по специальным правилам IRS. Для сложных DeFi-протоколов лучше получить письменное мнение contabilista/AT.»",
+        "confidence": "high",
+        "source": "Código do IRS, arts. 5 and 10"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[4]",
+        "current": "Касается: BTC, ETH, все альткоины, NFT, деривативы",
+        "problem": "NFT и деривативы нельзя просто включать в общий 365-day crypto regime. Португальское определение criptoativos для IRS исключает «unique and non-fungible» cryptoassets; derivatives/CFDs/options/futures могут быть финансовыми инструментами и облагаться по другим правилам, без 365-дневного освобождения.",
+        "suggestion": "Заменить на: «Касается обычных fungible cryptoassets, которые не являются valores mobiliários/financial instruments. NFT, security tokens, derivatives, CFDs, futures/options требуют отдельной классификации и могут не подпадать под 365-day exemption.»",
+        "confidence": "high",
+        "source": "Código do IRS, art. 10; definition of criptoativos introduced by Lei 24-D/2022"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "0% при ≥365 дней хранения (capital gains long-term)",
+        "problem": "Не хватает важной caveat: освобождение для ≥365 дней не является безусловным для любых контрагентов/площадок. В CIRS есть ограничения, связанные с контрагентами/юрисдикциями без достаточного обмена информацией или неблагоприятным налоговым режимом.",
+        "suggestion": "Добавить: «Освобождение ≥365 дней не применять механически: проверьте юрисдикцию контрагента/биржи и правила обмена налоговой информацией; операции с entity/person в blacklisted или non-cooperative jurisdiction могут не получить exemption.»",
+        "confidence": "medium",
+        "source": "Código do IRS, art. 10; Portaria 150/2004 blacklist"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].items[3]",
+        "current": "Убытки можно зачесть против прибыли за тот же год; перенос на 5 лет вперёд",
+        "problem": "Формулировка слишком широкая. В Португалии loss carry-forward по capital gains обычно зависит от выбора englobamento и работает в пределах соответствующей категории/типа дохода; это не автоматический перенос любых crypto-убытков против будущих 28%-taxed gains.",
+        "suggestion": "Заменить на: «Убытки по taxable crypto disposals можно учитывать только по правилам Categoria G; перенос на будущие годы обычно требует englobamento и соблюдения условий CIRS. Не предполагайте автоматический carry-forward — проверить при заполнении Modelo 3.»",
+        "confidence": "high",
+        "source": "Código do IRS, art. 55"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[1]",
+        "current": "Код «R01» — short-term",
+        "problem": "Коды IRS Modelo 3/Anexo G меняются по годам и должны цитироваться из актуальной инструкции к декларации. В гиде нет источника на конкретные коды 2026 filing season; «R01» выглядит как ненадёжное/потенциально неверное указание.",
+        "suggestion": "Не фиксировать код без official instruction. Написать: «Используйте актуальные códigos/instruções do Anexo G da Modelo 3 за соответствующий год; для crypto disposals смотрите Quadro 18 и официальную tabela de códigos на Portal das Finanças.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças — Modelo 3 IRS instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[2]",
+        "current": "Код «R02» — long-term (0%, но декларировать для учёта)",
+        "problem": "То же: конкретный код без ссылки на актуальную инструкцию опасен. Кроме того, освобождённые long-term gains могут отражаться не так же, как taxable short-term gains; по некоторым годам для exempt gains используются отдельные annex/quadros/instructions.",
+        "suggestion": "Заменить на: «Long-term ≥365 disposals также могут требовать reporting, но место/код зависят от актуальной Modelo 3. Проверяйте official instructions for the filing year; не используйте R02 без подтверждения.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças — Modelo 3 IRS instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2].content[0].text",
+        "current": "Код «E21» — rendimentos de criptoativos. Сумма received in € на дату получения.",
+        "problem": "Слишком конкретно и потенциально неверно: код Anexo E должен браться из актуальной инструкции Modelo 3. Также для rewards, received in crypto, налоговый момент не всегда «на дату получения»; это зависит от классификации и формы remuneration.",
+        "suggestion": "Заменить на: «Для passive crypto remuneration смотрите актуальный Anexo E/инструкции Modelo 3. Если reward получен в fiat — декларируется сумма в EUR; если reward получен в crypto — проверить специальные правила valuation/taxation и возможную отсрочку до disposal.»",
+        "confidence": "high",
+        "source": "Código do IRS, arts. 5 and 10; Portal das Finanças — Modelo 3 IRS instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "**Binance**: зарегистрирована в BaFin (Germany) — доступна в PT. Verify KYC с PT ВНЖ",
+        "problem": "Фактически неверно: Binance не является BaFin-licensed/registered exchange in Germany; Binance withdrew its German licence application in 2023. Доступность в Portugal должна описываться через актуальный EU/MiCA/VASP status, а не BaFin.",
+        "suggestion": "Заменить на: «Binance: доступность и onboarding для PT-резидентов зависят от текущего EU/MiCA regulatory setup и санкционных/KYC policy; не указывать BaFin Germany как регистрацию. Перед использованием проверить актуальную legal entity и terms for Portugal.»",
+        "confidence": "high",
+        "source": "BaFin public communications; Binance withdrawal of German licence application in 2023"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].items[3]",
+        "current": "Регистрация atividade в Finanças с CAE для financial services",
+        "problem": "Слишком расплывчато и может быть неверно. Для own-account trading не всегда есть «CAE financial services» как простая регистрация; если деятельность включает услуги третьим лицам, exchange/custody/intermediation, могут возникать требования Banco de Portugal/CMVM/MiCA/CASP, AML registration и лицензирование.",
+        "suggestion": "Написать: «Если это собственная торговля — обсудить с contabilista правильный enquadramento Categoria B/CAE. Если вы оказываете услуги третьим лицам, custody, exchange, brokerage или управление активами — проверить требования Banco de Portugal/CMVM/MiCA/CASP и AML; простая abertura de atividade может быть недостаточной.»",
+        "confidence": "high",
+        "source": "Banco de Portugal VASP regime; MiCA Regulation (EU) 2023/1114"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "IVA 0% на обмен.",
+        "problem": "Технически это не «0% VAT rate», а VAT exemption / out-of-scope treatment for certain exchange services following CJEU Hedqvist and Portuguese VAT practice. 0% rate и exemption — разные вещи для VAT.",
+        "suggestion": "Заменить на: «Обмен fiat↔crypto обычно освобождён от IVA / treated as VAT-exempt, а не облагается по ставке 0%.»",
+        "confidence": "high",
+        "source": "CJEU C-264/14 Hedqvist; Portuguese VAT practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0]",
+        "current": "✅ ActivoBank, Millennium BCP, Novobanco — принимают переводы с Bitstamp, Kraken, Bitfinex, Coinbase при правильном описании \"crypto sale\" + AML-документы",
+        "problem": "Слишком категоричное утверждение без источника. Банковская практика по crypto transfers меняется, зависит от профиля клиента, суммы, source of funds, exchange, compliance team и санкционного статуса. Нельзя гарантировать, что эти банки «принимают».",
+        "suggestion": "Переформулировать: «По опыту пользователей эти банки иногда проводят crypto-related SEPA transfers при полном пакете AML/source-of-funds документов, но решение индивидуально; заранее предупредите банк и сохраните право на отказ/дополнительную проверку.»",
+        "confidence": "high",
+        "source": "No official source; AML practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[3]",
+        "current": "При переводе 5000+ €: банк запросит Declaração de Origem dos Fundos",
+        "problem": "Порог 5000 € выглядит как практическое эмпирическое правило, а не юридический trigger. Банки могут запросить source of funds при меньших суммах или не запросить при больших; AML monitoring risk-based.",
+        "suggestion": "Заменить на: «Даже при суммах от нескольких тысяч евро банк может запросить source-of-funds/source-of-wealth документы; формального универсального порога 5000 € для всех банков нет.»",
+        "confidence": "high",
+        "source": "Lei 83/2017 AML framework; risk-based banking practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3]",
+        "current": "**Coinbase**: работает, но comisiones выше",
+        "problem": "Опечатка/смешение языков: «comisiones» вместо русского/португальского термина.",
+        "suggestion": "Заменить на: «комиссии выше» или «fees выше».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[6]",
+        "current": "US W-8BEN заполнить для non-resident status в США",
+        "problem": "W-8BEN релевантна прежде всего для US-source income such as dividends/interest and withholding tax documentation, а не сама по себе для обычной продажи crypto на US exchange. Формулировка может создать ложное впечатление, что W-8BEN решает crypto tax residency.",
+        "suggestion": "Написать: «W-8BEN может понадобиться US-платформе для подтверждения non-US tax status по US-source income/withholding, но crypto gains как PT tax resident всё равно декларируются в Portugal; US tax exposure зависит от citizenship/green card/substantial presence и типа дохода.»",
+        "confidence": "high",
+        "source": "IRS Form W-8BEN instructions"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Portal das Finanças — Criptoativos / https://info.portaldasfinancas.gov.pt/",
+        "problem": "URL слишком общий и не ведёт на конкретную страницу/офicio/instruções по criptoativos или Modelo 3. Для чувствительной налоговой темы нужен deeplink на актуальные instructions или binding information.",
+        "suggestion": "Добавить конкретные official links: Modelo 3 IRS instructions for the relevant filing year, CIRS consolidated text, and any AT FAQ/Ofício Circulado on criptoativos if available.",
+        "confidence": "high",
+        "source": "Portal das Finanças"
+      }
+    ],
+    "missing_topics": [
+      "Правило о counterparty/jurisdiction limitation для 365-day exemption: blacklisted/non-cooperative jurisdictions and exchange-of-information caveat.",
+      "Отдельное объяснение crypto-to-crypto swaps: no immediate taxation where consideration is crypto, acquisition value carry-over, record-keeping of dates and values.",
+      "Treatment of pre-2023 acquired crypto: whether holding period before 01.01.2023 counts and how to evidence acquisition date/cost.",
+      "Stamp duty implications: 10% on gratuitous transfers of crypto in relevant Portuguese nexus cases, and 4% stamp duty on certain commissions charged by crypto intermediaries where applicable.",
+      "Distinction between fungible cryptoassets, NFTs, security tokens, tokenized securities, CFDs/futures/options and other financial instruments.",
+      "Englobamento option and its consequences: 28% autonomous taxation versus aggregation, and effect on loss carry-forward.",
+      "Clear warning that IRS annexes/codes must be checked against the official Modelo 3 instructions for the specific filing year.",
+      "MiCA/CASP/Banco de Portugal/CMVM regulatory caveat for anyone providing crypto services to third parties, not merely trading personally.",
+      "Russian sanctions/KYC caveat should mention EU sanctions compliance broadly and platform-specific policy, not just Binance accounts."
+    ]
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,161 @@
+{
+  "guideId": "coimbra",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гид в целом полезный, но содержит несколько фактических ошибок и устаревших цен по ключевым достопримечательностям Коимбры.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«1 ч от Лиссабона или Порту поездом»",
+        "problem": "До Коимбры из Лиссабона поездом обычно не 1 час: Alfa Pendular Lisboa–Coimbra-B занимает примерно 1ч40–1ч50. Около 1 часа — это только из Порту.",
+        "suggestion": "Написать: «примерно 1ч45 от Лиссабона и около 1ч от Порту поездом до Coimbra-B».",
+        "confidence": "high",
+        "source": "CP — Comboios de Portugal timetable"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "«Universidade de Coimbra (UNESCO, 1290)»",
+        "problem": "Формулировка может создать впечатление, что статус UNESCO связан с 1290 годом. Университет основан в 1290 году, а объект UNESCO внесён в список Всемирного наследия в 2013 году.",
+        "suggestion": "Написать: «Universidade de Coimbra — университет основан в 1290 году; комплекс включён в список UNESCO в 2013 году».",
+        "confidence": "high",
+        "source": "UNESCO World Heritage Centre, University of Coimbra – Alta and Sofia"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].text",
+        "current": "«Вход комплексный 14 € с библиотекой.»",
+        "problem": "Цена устарела/слишком занижена для комплексного билета с Biblioteca Joanina. Официальные тарифы Universidade de Coimbra к 2026 году выше и зависят от программы посещения; Biblioteca Joanina посещается по тайм-слотам.",
+        "suggestion": "Обновить на актуальную формулировку без риска: «Билет с Biblioteca Joanina — по тайм-слоту; цена зависит от выбранной программы, ориентируйтесь на официальный ticket office UC перед визитом». Если указывать цену, проверить актуальный тариф на сайте visit.uc.pt.",
+        "confidence": "medium",
+        "source": "Universidade de Coimbra — visit.uc.pt / ticket office"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[3]",
+        "current": "«Torre da Universidade — колокольня, подъём 5 €»",
+        "problem": "Цена подъёма на башню выглядит завышенной/неактуальной как отдельный билет; у UC тарифы менялись и башня обычно продаётся отдельно или как дополнение к программе.",
+        "suggestion": "Написать: «Torre da Universidade — колокольня; билет/доплата отдельно, проверяйте актуальную цену на сайте UC».",
+        "confidence": "medium",
+        "source": "Universidade de Coimbra — visit.uc.pt / ticket office"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[6]",
+        "current": "«Museu Nacional Machado de Castro — ... 6 €»",
+        "problem": "Цена, вероятно, устарела: после обновлений тарифов Museus e Monumentos de Portugal стандартный билет в Museu Nacional Machado de Castro указывался выше, около 8 €.",
+        "suggestion": "Заменить на: «около 8 €, проверяйте актуальную цену на официальном сайте музея/Museus e Monumentos de Portugal».",
+        "confidence": "medium",
+        "source": "Museu Nacional Machado de Castro / Museus e Monumentos de Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "«Студенты Коимбры носят чёрные плащи (capas e batinas) — так делают с XIII века.»",
+        "problem": "Современный академический костюм Coimbra — не непрерывная практика с XIII века. Университет основан в 1290 году, но нынешняя форма traje académico/capa e batina сложилась значительно позже, в основном в Новое время и XIX–XX веках.",
+        "suggestion": "Написать: «Студенты Коимбры носят чёрные capas e batinas — современная академическая традиция с более поздней историей, ставшая символом университета».",
+        "confidence": "high",
+        "source": "Universidade de Coimbra / Associação Académica de Coimbra materials on academic traditions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[0]",
+        "current": "«Fado de Coimbra — мужской вариант fado, исполняется только мужчинами в плащах.»",
+        "problem": "Слишком абсолютная формулировка. Традиционно Coimbra fado исполняли мужчины-студенты/выпускники в академических плащах, но сегодня встречаются и нестрого традиционные форматы, включая женские исполнения и сценические концерты без полного академического контекста.",
+        "suggestion": "Написать: «традиционно исполняется мужскими голосами, часто студентами или выпускниками в академических плащах».",
+        "confidence": "high",
+        "source": "Fado ao Centro / cultural descriptions of Fado de Coimbra"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[0]",
+        "current": "«Концерты в Fado ao Centro или ao Capricho»",
+        "problem": "Название «ao Capricho» выглядит ошибочным для известной площадки Coimbra fado. Распространённые места — Fado ao Centro и À Capella.",
+        "suggestion": "Заменить на: «Концерты в Fado ao Centro или À Capella».",
+        "confidence": "high",
+        "source": "Fado ao Centro; À Capella Coimbra"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[2]",
+        "current": "«Queima das Fitas — 8 дней в мае, концерты на Парко Санта Круш»",
+        "problem": "Главные ночные концерты Queima das Fitas в Coimbra обычно проходят в Praça da Canção / Parque da Canção, а не в Parque Santa Cruz. «Парко Санта Круш» ещё и некорректная русская передача названия.",
+        "suggestion": "Написать: «Queima das Fitas — около недели в мае; основные ночные концерты обычно в Praça da Canção / Parque da Canção».",
+        "confidence": "high",
+        "source": "Queima das Fitas Coimbra official programme / Associação Académica de Coimbra"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0]",
+        "current": "«Conímbriga (15 км) — руины крупнейшего римского города Пт»",
+        "problem": "Conímbriga корректнее называть одними из крупнейших и наиболее хорошо сохранившихся римских руин Португалии, а не «крупнейшим римским городом».",
+        "suggestion": "Написать: «Conímbriga — одни из крупнейших и лучше всего сохранившихся римских руин Португалии».",
+        "confidence": "high",
+        "source": "Museu Monográfico de Conimbriga / Turismo Centro de Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[0]",
+        "current": "«Chanfana — козлёнок в красном вине»",
+        "problem": "Chanfana традиционно готовится не из козлёнка, а из старой козы/козлятины взрослого животного, тушёной в красном вине в глиняной посуде.",
+        "suggestion": "Написать: «Chanfana — тушёная коза в красном вине, традиционное блюдо региона».",
+        "confidence": "high",
+        "source": "Turismo Centro de Portugal / Confraria da Chanfana"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2]",
+        "current": "«Pastéis de Santa Clara — круглые пироги с фасолью-сладость»",
+        "problem": "Pastéis de Santa Clara — это conventual pastry с начинкой из яиц и миндаля, не фасолевая сладость. Фасолевая начинка относится к pastéis de feijão, другой сладости.",
+        "suggestion": "Написать: «Pastéis de Santa Clara — монастырская выпечка с яично-миндальной начинкой».",
+        "confidence": "high",
+        "source": "Turismo de Coimbra / Turismo Centro de Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[3]",
+        "current": "«Bairrada wines — искристое и красные вина»",
+        "problem": "Опечатка в русском: должно быть «игристое», не «искристое». По смыслу Bairrada действительно известна игристыми и красными винами.",
+        "suggestion": "Исправить на: «Bairrada wines — игристые и красные вина из соседнего региона».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[4]",
+        "current": "«Arraia — местный аперитив, часто с портвейном»",
+        "problem": "Это выглядит фактически неверно или как минимум неузнаваемо для Коимбры: «arraia» по-португальски обычно означает скат/рыба, а не известный местный аперитив. Для региона логичнее упомянуть Licor Beirão из Lousã или местные вина Bairrada/Dão.",
+        "suggestion": "Удалить пункт или заменить на: «Licor Beirão — известный ликёр из соседней Lousã» либо «вина Bairrada и Dão».",
+        "confidence": "medium",
+        "source": "Licor Beirão official history / Turismo Centro de Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "«Universidade de Coimbra — UNESCO heritage», url: «https://www.uc.pt/»",
+        "problem": "Ссылка ведёт на общий сайт университета, а не на страницу UNESCO или туристическую страницу с билетами/расписанием. Для статуса UNESCO лучше дать официальный UNESCO World Heritage Centre; для билетов — visit.uc.pt.",
+        "suggestion": "Добавить отдельные источники: UNESCO World Heritage Centre — University of Coimbra, Alta and Sofia; Universidade de Coimbra tourism/ticketing — visit.uc.pt.",
+        "confidence": "high",
+        "source": "UNESCO World Heritage Centre; Universidade de Coimbra"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "«Turismo de Coimbra — муниципальный туризм», url: «https://www.visitportugal.com/pt-pt/destinos/centro-de-portugal/coimbra»",
+        "problem": "Это не муниципальный Turismo de Coimbra, а национальный портал VisitPortugal. Название источника вводит в заблуждение.",
+        "suggestion": "Переименовать источник в «VisitPortugal — Coimbra» или заменить/добавить официальный муниципальный туристический сайт Coimbra.",
+        "confidence": "high",
+        "source": "VisitPortugal"
+      }
+    ],
+    "missing_topics": [
+      "Официальная ссылка на ticket office Universidade de Coimbra для актуальных цен и тайм-слотов Biblioteca Joanina",
+      "Официальная ссылка UNESCO World Heritage Centre на объект University of Coimbra – Alta and Sofia",
+      "Краткое предупреждение, что часы работы и цены музеев/монастырей в Coimbra часто меняются по сезону и праздникам",
+      "Уточнение, что при покупке ж/д билета CP до станции Coimbra, а не Coimbra-B, короткий участок Coimbra-B–Coimbra может быть включён в билет"
+    ]
+  },
+  "model": "gpt-5.5"
+}

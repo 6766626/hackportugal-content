@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hackportugal.github.io/content/v1/schema/catalog.schema.json",
+  "title": "CatalogEntry",
+  "type": "object",
+  "required": ["id", "title", "categoryId", "telegramUrl"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^pp-[0-9]+$" },
+    "title": { "type": "string", "minLength": 2 },
+    "categoryId": { "type": "string" },
+    "subcategoryId": { "type": "string" },
+    "telegramUrl": { "type": "string", "format": "uri" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "fullGuideId": { "type": "string" },
+    "audience": {
+      "type": "object",
+      "properties": {
+        "citizenships": {
+          "type": "array",
+          "items": { "enum": ["cplp", "euEeaSwiss", "thirdCountry", "portuguese"] }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "guideId": "ctt-mail-parcels-advanced",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has several materially misleading customs/VAT rules, CTT fee/compensation simplifications, and an incorrect claim about ePortugal/AIMA address change.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0]",
+        "current": "**Без пошлин и IVA** — ЕС единый рынок",
+        "problem": "Misleading: intra-EU commercial purchases normally already include VAT charged by the seller under domestic VAT/OSS rules. The correct point is no import customs clearance, no customs duty, and no import VAT at delivery — not 'no VAT'.",
+        "suggestion": "Write: '**Без растаможки, импортной пошлины и импортного IVA при получении**; IVA обычно уже включён в цену продавцом в ЕС.'",
+        "confidence": "high",
+        "source": "EU VAT e-commerce rules / European Commission Taxation and Customs Union"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[1]",
+        "current": "**Duty (пошлина)**: на товары > **150 €** (value + shipping). Размер зависит от TARIC-кода товара — 0-17% для большинства, до 50% для одежды отдельных категорий",
+        "problem": "The €150 duty relief/IOSS threshold is based on the intrinsic value of the goods, not simply 'value + shipping'. Shipping may be included in the customs value/tax base depending on the calculation, but the threshold wording is wrong. The 'до 50% для одежды' claim is also too broad and unsourced; clothing duty is commonly around 12%, while anti-dumping or special measures are product/origin-specific, not a general clothing category rate.",
+        "suggestion": "Write: '**Пошлина** обычно не взимается, если intrinsic value товаров ≤150 €. Если intrinsic value >150 €, ставка зависит от TARIC-кода и страны происхождения; для многих потребительских товаров это 0–17%, но проверяйте TARIC/AT.'",
+        "confidence": "high",
+        "source": "European Commission customs relief rules; TARIC; AT Alfândega"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[0]",
+        "current": "**IVA (НДС) 23%**: взимается со ВСЕХ посылок из не-ЕС с 1 июля 2021 (ранее <22 € был порог)",
+        "problem": "Too absolute. Since 1 July 2021 the low-value VAT exemption was abolished for commercial imports, but there are exceptions/reliefs such as private gift consignments within limits and specific relief regimes. Also VAT may be collected at checkout via IOSS rather than charged again at import.",
+        "suggestion": "Write: '**IVA 23%** обычно применяется к коммерческим импортам из-за пределов ЕС с 01.07.2021; если продавец корректно использует IOSS, IVA платится при покупке. Для подарков от частного лица и специальных режимов есть отдельные исключения/лимиты.'",
+        "confidence": "high",
+        "source": "European Commission VAT e-commerce package; AT Alfândega"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[2]",
+        "current": "**Доп. расходы CTT**: €5 handling fee + €1-3 per доп. операция",
+        "problem": "Likely outdated/over-simplified. CTT customs presentation/desalfandegamento fees are not a universal flat €5 for every parcel; they vary by shipment/value/service and whether VAT was paid via IOSS, and CTT tariffs change. The guide needs the exact current CTT tariff table rather than a flat fee.",
+        "suggestion": "Replace with: '**Комиссия CTT за desalfandegamento/apresentação à alfândega зависит от типа отправления, стоимости и сценария IOSS; проверяйте действующую tabela de preços CTT “Desalfandegamento”. Не закладывайте универсальные €5.'",
+        "confidence": "medium",
+        "source": "CTT tabela de preços / Desalfandegamento"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[1].items[0].content[0].items[3]",
+        "current": "Итого для посылки 100 €: 23 € IVA + 5 € CTT = **128 €** общий налог",
+        "problem": "Arithmetic/wording is wrong: €23 + €5 is €28 of charges, not €128 tax. €128 would be approximate total paid including the €100 goods value, and even that ignores possible VAT on CTT service and the exact VAT base.",
+        "suggestion": "Write: 'Для посылки с taxable base около 100 €: IVA ≈23 € + комиссия CTT по актуальному тарифу. Итого доплатить примерно 23 € + комиссия CTT; общая стоимость покупки будет около 123 € + комиссия CTT.'",
+        "confidence": "high",
+        "source": "AT import VAT rules; CTT tariff table"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items[4]",
+        "current": "Для посылки 200 € (value+shipping): 23% IVA + ~12% duty + 5 € CTT = ~**77 €** налог",
+        "problem": "The calculation is incomplete/misleading. Import VAT is calculated on a base that includes customs value plus customs duty and certain incidental costs, not just 23% of the original value. CTT fee may have VAT separately and is not necessarily €5.",
+        "suggestion": "Write: 'Для intrinsic value >150 €: сначала рассчитывается пошлина по TARIC, затем IVA 23% начисляется на customs value + пошлину + applicable costs; отдельно комиссия CTT по актуальному тарифу. Пример нужно считать через симулятор AT/CTT.'",
+        "confidence": "high",
+        "source": "AT Alfândega; Código do IVA import taxable amount rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1].content[0].items[0]",
+        "current": "**Автоматически** до 150 €: CTT оформляет IOSS (если отправитель — крупный ритейлер AliExpress/Amazon с IOSS-регистрацией) → вы оплачиваете только доставку, налог уже включён в цену",
+        "problem": "CTT does not 'оформляет IOSS'. IOSS is declared/used by the seller or marketplace and must be electronically transmitted in the postal/customs data. If the IOSS number is missing or not transmitted correctly, CTT/AT may still ask for VAT and documents even if the buyer paid VAT at checkout.",
+        "suggestion": "Write: 'До 150 € продавец/маркетплейс может использовать IOSS и взять IVA при покупке. Важно, чтобы IOSS был корректно передан в электронных данных отправления; иначе CTT/AT могут запросить оплату IVA/документы повторно, потом придётся спорить с продавцом.'",
+        "confidence": "high",
+        "source": "European Commission IOSS guidance; CTT Desalfandegamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[0]",
+        "current": "✅ **Amazon.com, AliExpress, eBay, Temu, Shein** — IOSS-registered, IVA включён в цену, посылка проходит автоматически",
+        "problem": "Overbroad. Marketplaces may use IOSS for eligible low-value imports to the EU, but it is not guaranteed for every seller, item, shipment route, basket value, or Amazon domain/order. Some orders ship from EU warehouses, some use import-fee deposits, and some third-party sellers may not transmit IOSS correctly.",
+        "suggestion": "Write: 'Крупные маркетплейсы часто используют IOSS для eligible заказов ≤150 €, но проверяйте checkout: указан ли VAT/IVA, откуда отправка, и не превышает ли заказ лимит IOSS.'",
+        "confidence": "high",
+        "source": "European Commission IOSS guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[1]",
+        "current": "✅ До 150 € — без дополнительных налогов",
+        "problem": "Misleading without the IOSS condition. A non-EU commercial parcel ≤150 € is exempt from customs duty, but import VAT is still due unless already paid through IOSS or another valid scheme. Carrier/CTT presentation fees may also apply depending on the case.",
+        "suggestion": "Write: 'До 150 €: обычно без customs duty, но IVA всё равно должен быть уплачен — при покупке через IOSS или при импорте через CTT. Возможна комиссия CTT по тарифу.'",
+        "confidence": "high",
+        "source": "European Commission VAT e-commerce rules; CTT Desalfandegamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[3]",
+        "current": "❌ Посылки >150 € — IOSS не применяется, всегда пошлина + CTT fee",
+        "problem": "Partly wrong: IOSS indeed does not apply above €150 intrinsic value, but 'always duty' is not correct because the TARIC duty rate can be 0% or a relief may apply. Import VAT and customs formalities are normally due; duty depends on classification/origin/value.",
+        "suggestion": "Write: 'Посылки с intrinsic value >150 €: IOSS не применяется; нужна обычная импортная декларация, IVA и комиссия перевозчика, а пошлина — если ставка TARIC не 0% и нет применимого освобождения.'",
+        "confidence": "high",
+        "source": "European Commission IOSS guidance; TARIC"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2].content[0].text",
+        "current": "Смена адреса в Finanças, IRN, AIMA — через ePortugal «Mudança de morada» бесплатно, но изменяет не почту, а offcial records.",
+        "problem": "Misleading for immigrants. The ePortugal/Citizen Card address-change service is mainly for holders of Cartão de Cidadão and communicates address to selected public entities. AIMA residence-permit address updates are not generally done simply through ePortugal 'Mudança de morada'. Foreign residents may need to update tax address at Finanças and notify/update AIMA separately depending on status/document.",
+        "suggestion": "Write: 'ePortugal “Alterar morada do Cartão de Cidadão” applies to Cartão de Cidadão holders and can notify selected entities such as AT. For residence permit holders, check AIMA rules separately; do not assume ePortugal updates AIMA.'",
+        "confidence": "high",
+        "source": "ePortugal Alterar morada do Cartão de Cidadão; AIMA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0].content[0].items[5]",
+        "current": "Перенаправляются все письма, не-registered посылки",
+        "problem": "Likely overbroad. CTT Reencaminhamento Postal is primarily a mail/correspondence forwarding service and has exclusions/conditions; parcels/CTT Expresso and some registered/special items may not be forwarded in the same way. 'All letters, non-registered parcels' should not be stated without the CTT service conditions.",
+        "suggestion": "Replace with: 'Перенаправление покрывает категории, указанные в условиях CTT Reencaminhamento Postal; посылки, CTT Expresso, registered/special items могут иметь исключения. Проверьте condições do serviço перед заказом.'",
+        "confidence": "medium",
+        "source": "CTT Reencaminhamento Postal condições"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0].content[0].items[6]",
+        "current": "Registered mail (registada) → уведомление идёт на новый адрес, сама посылка — в оригинальное отделение, надо забрать",
+        "problem": "Too categorical and mixes 'registered mail' with 'parcel'. Treatment of correio registado/registered items under forwarding depends on product and CTT conditions; it should not be presented as a universal rule.",
+        "suggestion": "Write: 'Для correio registado и специальных отправлений правила отличаются: возможны уведомление, исключение из переадресации или получение в отделении — смотрите condições CTT.'",
+        "confidence": "medium",
+        "source": "CTT Reencaminhamento Postal condições"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[3]",
+        "current": "Компенсация за потерянную: до 50 € (standard), до 500 € (Registado), до value (Seguro)",
+        "problem": "Over-simplified and likely wrong. CTT compensation depends on the exact product, domestic/international service, insured value, declared value, proof, and applicable UPU/CTT conditions. Ordinary standard mail often has limited or no indemnity. 'Registado до 500 €' is not a safe general rule.",
+        "suggestion": "Write: 'Компенсация зависит от услуги: ordinary/standard, correio registado, encomenda, expresso, internacional, seguro/valor declarado. Проверяйте condições de indemnização CTT для конкретного продукта; без seguro компенсация может быть ограниченной или отсутствовать.'",
+        "confidence": "high",
+        "source": "CTT condições gerais; CTT Livro de Reclamações/indemnizações"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].items[4]",
+        "current": "Международные через EMS — тебе доплатит страна-отправитель",
+        "problem": "Misleading. For international postal items, claims are usually handled through the postal operator and often initiated by the sender/operator of origin under UPU/EMS rules. The recipient in Portugal cannot rely on the origin country simply paying them directly.",
+        "suggestion": "Write: 'Для международных отправлений претензия часто подаётся отправителем через оператора страны отправления; получателю в PT стоит открыть reclamação в CTT, но компенсация и получатель выплаты зависят от правил оператора/EMS/UPU и договора отправителя.'",
+        "confidence": "high",
+        "source": "UPU/EMS claims rules; CTT international postal conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1].content[0].items[2]",
+        "current": "Иногда нужно вручную отправить invoice в CTT (на email desalfandegamento@ctt.pt)",
+        "problem": "Potentially outdated operational advice. CTT generally pushes customs clearance through the Desalfandegamento portal; relying on a direct email may fail or be ignored if the case must be handled in the portal.",
+        "suggestion": "Write: 'Документы обычно загружаются в CTT Desalfandegamento Online. Email/phone use only if CTT specifically asks or portal does not show the shipment.'",
+        "confidence": "medium",
+        "source": "CTT Desalfandegamento Online"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[2].content[0].items[2]",
+        "current": "Лекарства — запрещены без рецепта PT",
+        "problem": "Too simplified. Importing medicines by post is regulated by INFARMED/Portuguese customs and may require prescription, authorization, quantity limits and product legality; it is not just a binary 'PT prescription = allowed'.",
+        "suggestion": "Write: 'Лекарства по почте — зона риска: могут требоваться рецепт, подтверждение личного использования, разрешение/контроль INFARMED; часть препаратов запрещена к импорту.'",
+        "confidence": "high",
+        "source": "INFARMED; AT Alfândega"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "CTT — Desalfandegamento Online: https://www.ctt.pt/",
+        "problem": "Source is too generic for a guide that quotes exact prices, fees and procedures. It should link to the specific CTT Desalfandegamento page and current price/conditions documents.",
+        "suggestion": "Use specific CTT URLs for 'Desalfandegamento', 'Preços/tarifário', 'Reencaminhamento Postal', and 'Reserva Domiciliária', not only the homepage.",
+        "confidence": "high",
+        "source": "CTT"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "AT — Alfândega: https://info.portaldasfinancas.gov.pt/",
+        "problem": "Too generic. Customs/VAT thresholds, IOSS, import VAT base and exemptions need a specific AT/Portal das Finanças customs page or official calculator/reference.",
+        "suggestion": "Add specific AT sources for 'compras online fora da UE', 'IVA na importação', 'direitos aduaneiros', and/or the AT customs simulator/calculator.",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[4]",
+        "current": "{\"label\":\"CTT handling fee\",\"amountEUR\":5,\"note\":\"per posylka\"}",
+        "problem": "Same issue as the main text: a universal €5 fee is not reliable. Also the note has a transliteration typo ('posylka') inconsistent with the Russian guide.",
+        "suggestion": "Replace fixed amount with a variable cost entry: 'CTT desalfandegamento fee — see current CTT tariff; varies by shipment/value/IOSS scenario'.",
+        "confidence": "medium",
+        "source": "CTT tabela de preços / Desalfandegamento"
+      },
+      {
+        "severity": "major",
+        "where": "costs[6].note",
+        "current": "0-17% от value+shipping",
+        "problem": "Over-simplified customs-duty base and rate range. The rate is set by TARIC classification and origin; the €150 threshold is intrinsic value, while duty customs value may include transport/insurance to the EU border depending on the case. '0-17%' is not universal.",
+        "suggestion": "Write: 'Ставка по TARIC и стране происхождения; порог €150 — intrinsic value товаров; база для duty/customs value рассчитывается по таможенным правилам и может включать транспорт/страхование.'",
+        "confidence": "high",
+        "source": "TARIC; EU customs valuation rules"
+      }
+    ],
+    "missing_topics": [
+      "Explain private gift relief rules, especially the common €45 gift threshold and conditions, instead of saying all non-EU parcels always pay IVA.",
+      "Add a worked import-cost example using the correct sequence: intrinsic value threshold, customs value, duty, VAT base, CTT fee and VAT on service if applicable.",
+      "Add specific links to current CTT tariffs for Reencaminhamento Postal, Reserva Domiciliária and Desalfandegamento rather than generic ctt.pt.",
+      "Mention that IOSS only works if the seller/marketplace transmits the IOSS number correctly in electronic customs data.",
+      "Clarify collection/storage deadlines by product type: registered letters, parcels, CTT Expresso and customs-held items can have different deadlines.",
+      "Add official INFARMED/AT caveat for medicines and restricted goods."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5846,
+    "prompt_tokens": 3271,
+    "total_tokens": 9117
+  },
+  "model": "gpt-5.5"
+}

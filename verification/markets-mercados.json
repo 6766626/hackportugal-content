@@ -1,0 +1,66 @@
+{
+  "guideId": "markets-mercados",
+  "categoryId": "food_leisure",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но содержит одну явную фактическую ошибку по Feira da Vandoma и несколько вводящих в заблуждение обобщений/слабых источников.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].text",
+        "current": "Subway Bolhão, воскресенья утром. Блошиный рынок.",
+        "problem": "Feira da Vandoma проводится не по воскресеньям. Обычный день — суббота утром; указание на Bolhão как ориентир тоже вводит в заблуждение, потому что официальная локация не у метро Bolhão.",
+        "suggestion": "Заменить на: \"Feira da Vandoma — по субботам утром; локацию и часы лучше проверить на сайте Câmara Municipal do Porto, так как площадка может меняться.\" Если указываете адрес, используйте актуальный официальный адрес из страницы муниципалитета, а не \"Subway Bolhão\".",
+        "confidence": "high",
+        "source": "Câmara Municipal do Porto — Feira da Vandoma / Feiras e mercados"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Работают 7:00-14:00 (основное), некоторые до вечера как fodie-halls.",
+        "problem": "Есть опечатка \"fodie-halls\"; кроме того, часы работы слишком обобщены: у муниципальных рынков, фуд-холлов и ярмарок разные дни/часы, часть не работает по воскресеньям или понедельникам, а фуд-холлы часто открываются позже утра.",
+        "suggestion": "Написать: \"Традиционные торговые ряды чаще всего активны утром примерно до 14:00, но расписание сильно зависит от рынка; фуд-холлы обычно работают дольше и открываются позже. Проверяйте часы на странице конкретного mercado/feira.\"",
+        "confidence": "high",
+        "source": "Câmara Municipal de Lisboa — Mercados e Feiras; Câmara Municipal do Porto — Feiras e mercados"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "Просите NIF для IRS-вычета на faturas",
+        "problem": "Фраза полезная, но без caveat может ввести в заблуждение туристов и новых нерезидентов: NIF в fatura имеет смысл прежде всего для налоговых резидентов/тех, кто подаёт IRS в Португалии. Также разные покупки попадают в разные категории e-Fatura: продукты обычно идут в \"despesas gerais familiares\", кафе/рестораны — в отдельную категорию с другими лимитами.",
+        "suggestion": "Заменить на: \"Если вы налоговый резидент Португалии и подаёте IRS, просите fatura com NIF: покупки продуктов обычно идут в общие семейные расходы, а кафе/рестораны — в отдельную категорию e-Fatura.\"",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — e-Fatura / Código do IRS"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "\"title\": \"Visit Porto — Mercado do Bolhão\", \"url\": \"https://visitporto.travel/\"",
+        "problem": "Ссылка ведёт на общий сайт, а не на страницу Mercado do Bolhão; для проверки фактов о рынке это слабая/непрямая ссылка.",
+        "suggestion": "Заменить на конкретную официальную страницу Mercado do Bolhão, например официальный сайт рынка или конкретную страницу Visit Porto о Bolhão, а не главную страницу портала.",
+        "confidence": "high",
+        "source": "Mercado do Bolhão official website; Visit Porto official pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0]",
+        "current": "Mercado de Abrantes — средневековый город, субботы",
+        "problem": "Формулировка слишком неясная: не понятно, речь о муниципальном рынке Abrantes, еженедельной ярмарке или о городе как туристической остановке. \"Субботы\" может быть неверно для самого municipal market, у которого обычно есть регулярные часы в будние/субботние дни, а не только субботний формат.",
+        "suggestion": "Уточнить объект: \"Mercado Municipal de Abrantes — муниципальный рынок; часы и рыночные дни проверяйте на сайте Município de Abrantes\" либо, если речь о конкретной feira, указать её официальное название, место и периодичность.",
+        "confidence": "medium",
+        "source": "Município de Abrantes — Mercados/Feiras"
+      }
+    ],
+    "missing_topics": [
+      "Указать, что часы работы и выходные дни сильно различаются по рынкам и отдельным лавкам; лучше проверять официальный сайт муниципалитета/рынка перед поездкой.",
+      "Добавить конкретные официальные ссылки для Porto markets: Mercado do Bolhão и Feira da Vandoma, а не только общий Visit Porto.",
+      "Для flea markets стоит отдельно указывать день недели, часы и актуальную локацию, потому что ярмарки чаще меняют расписание/площадку, чем стационарные рынки."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3096,
+    "prompt_tokens": 2117,
+    "total_tokens": 5213
+  },
+  "model": "gpt-5.5"
+}

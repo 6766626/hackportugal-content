@@ -1,0 +1,122 @@
+{
+  "guideId": "gyms-fitness",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful for daily-life orientation, but it contains several factual overclaims about gym chains and a clear incorrect attribution of Ericeira World Surfing Reserve to UNESCO.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0]",
+        "current": "🏄 Ericeira — UNESCO World Surfing Reserve. Ribeira d'Ilhas, Coxos",
+        "problem": "Ericeira is a World Surfing Reserve, but not a UNESCO designation. World Surfing Reserves are a programme of Save The Waves Coalition / World Surfing Reserves, not UNESCO.",
+        "suggestion": "Write: \"🏄 Ericeira — World Surfing Reserve, признанная программой Save The Waves / World Surfing Reserves; Ribeira d'Ilhas, Coxos\".",
+        "confidence": "high",
+        "source": "World Surfing Reserves / Save The Waves Coalition"
+      },
+      {
+        "severity": "major",
+        "where": "sources[1]",
+        "current": "\"title\": \"Ericeira World Surfing Reserve — UNESCO\", \"url\": \"https://www.ericeirasurfreserve.pt/\"",
+        "problem": "The source title incorrectly labels the Ericeira reserve as UNESCO. The URL itself is not a UNESCO page.",
+        "suggestion": "Change the title to \"Ericeira World Surfing Reserve\" or \"World Surfing Reserves — Ericeira\" and remove \"UNESCO\".",
+        "confidence": "high",
+        "source": "World Surfing Reserves / Save The Waves Coalition"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "35-50€/мес. Hybrid — оборудование + групповые. 40+ клубов.",
+        "problem": "The claim that PHIVE has 40+ clubs appears wrong. PHIVE is a much smaller Portuguese chain; 40+ clubs is more consistent with larger chains such as Solinca, not PHIVE.",
+        "suggestion": "Replace with a safer formulation: \"35–50€/мес ориентировочно; сеть среднего сегмента, клубов существенно меньше, чем у Fitness Hut/Solinca — проверяйте актуальный список на сайте PHIVE.\"",
+        "confidence": "high",
+        "source": "PHIVE official club list"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0].content[0].text",
+        "current": "24,99–34,99€/мес в 2026 (Fit Lite / Fit Premium). ... 80+ клубов по PT.",
+        "problem": "The number of Fitness Hut clubs in Portugal is likely overstated. Public Fitness Hut/VivaGym group materials usually refer to dozens of clubs in Portugal, not 80+ Fitness Hut clubs in Portugal alone. Also the monthly price is misleading without noting that many advertised prices are shown per 2 weeks and may exclude joining/maintenance/insurance fees.",
+        "suggestion": "Write: \"цены часто рекламируются за 2 недели; в пересчёте на месяц и с учётом регистрационных/административных сборов итог отличается. Сеть крупная, десятки клубов по Португалии — актуальное число и цены проверяйте на сайте Fitness Hut.\"",
+        "confidence": "medium",
+        "source": "Fitness Hut official club finder and pricing pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4].content[0].text",
+        "current": "19-25€/мес. Испанская сеть, растёт в PT.",
+        "problem": "The price range is probably too low as a general 2026 monthly estimate. VivaGym/Fitness Hut-style gyms often advertise low fortnightly prices and then add registration, maintenance or insurance fees; monthly totals can be higher than 19–25€.",
+        "suggestion": "Use a caveated range: \"часто от ~20–40€/мес в зависимости от клуба/плана/акций; смотрите, указана ли цена за 2 недели и есть ли taxas de inscrição/manutenção/seguro.\"",
+        "confidence": "medium",
+        "source": "VivaGym Portugal official pricing pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "40-60€/мес. Ближе к премиум, сети часто при отелях.",
+        "problem": "The description \"часто при отелях\" is misleading for Solinca as a general chain description. Solinca clubs are commonly located in shopping centres, business/urban locations and standalone fitness spaces; it is not primarily a hotel-gym network.",
+        "suggestion": "Write: \"40–60€/мес ориентировочно; крупная сеть среднего/верхнего сегмента, много клубов в городах и ТЦ; бассейн/сауна зависят от конкретного клуба.\"",
+        "confidence": "medium",
+        "source": "Solinca official club list"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[6].content[0].text",
+        "current": "Câmara Municipal (муниципалитет) в каждом муниципалитете. 15-30€/мес. Для резидентов с atestado.",
+        "problem": "Too categorical. Not every municipality has a municipal gym with the same access model; many have municipal swimming pools or sports complexes instead. Atestado de residência is not universally required; requirements vary by município and facility.",
+        "suggestion": "Write: \"Во многих municípios есть муниципальные бассейны/спорткомплексы; цены и доступ зависят от Câmara Municipal. Могут попросить proof of address/NIF/residency, но atestado требуется не везде.\"",
+        "confidence": "high",
+        "source": "Municipal sports facility rules vary by Câmara Municipal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[3]",
+        "current": "Av. Marginal (Cascais-Lisboa) — ровная, у океана",
+        "problem": "Avenida Marginal is primarily a road; it is not a continuous dedicated running promenade all the way from Lisbon to Cascais. For runners, the more accurate reference is the seaside promenade sections, especially Cascais–Estoril–São João do Estoril/Carcavelos, plus specific riverside routes in Lisbon.",
+        "suggestion": "Write: \"Paredão Cascais–Estoril–São João/Carcavelos и отдельные участки вдоль Marginal; в Лиссабоне — набережная Belém–Cais do Sodré/Parque das Nações.\"",
+        "confidence": "high",
+        "source": "Cascais municipal route information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[3]",
+        "current": "Trail: Marão, Estrela, Sintra — много trail-rac",
+        "problem": "Typo/unfinished English word: \"trail-rac\".",
+        "suggestion": "Change to \"много trail-races / трейловых забегов\" or Russian-only \"много трейловых забегов\".",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "⚽ Футбол — community leagues, 3-5 на 3-5, любые возраст",
+        "problem": "The wording is confusing and grammatically wrong. In Portugal casual football is usually 5-a-side/7-a-side/futsal; \"3-5 на 3-5\" is not a standard description.",
+        "suggestion": "Write: \"⚽ Футбол/футзал — casual games, 5x5 или 7x7, community leagues и WhatsApp/Meetup-группы; возраст и уровень зависят от группы.\"",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only IPDJ, Ericeira reserve and Federação Portuguesa de Surf are listed.",
+        "problem": "The guide gives many specific 2026 prices and club-count claims for commercial gym chains but does not cite the official pricing/club pages of those chains. For fast-changing prices this makes the guide fragile.",
+        "suggestion": "Add official sources for Fitness Hut, Holmes Place Portugal, PHIVE, Solinca, VivaGym and municipal sport facilities where prices are quoted; or clearly mark prices as indicative and promo-dependent.",
+        "confidence": "high",
+        "source": "Official websites of the named gym chains"
+      }
+    ],
+    "missing_topics": [
+      "Gym contracts often include loyalty periods, joining fees, annual maintenance fees, insurance fees and cancellation notice periods; advertised prices may be per 2 weeks rather than per calendar month.",
+      "Many gyms require IBAN/direct debit and sometimes a Portuguese NIF; newcomers without Portuguese bank accounts should check accepted payment methods.",
+      "Outdoor swimming/surfing safety: beach flag system, lifeguard season, currents, and not entering Nazaré/other big-wave spots without expert guidance.",
+      "Municipal pools may require advance booking, swim caps, specific opening hours, local-resident pricing and sometimes health/fitness declarations depending on the municipality.",
+      "Apps/platforms commonly used for padel/football bookings in Portugal, e.g. Playtomic or local club booking systems."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3214,
+    "prompt_tokens": 2392,
+    "total_tokens": 5606
+  },
+  "model": "gpt-5.5"
+}

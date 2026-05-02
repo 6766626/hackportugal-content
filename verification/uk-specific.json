@@ -1,0 +1,138 @@
+{
+  "guideId": "uk-specific",
+  "categoryId": "country_specific",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful but has several material inaccuracies on WA scope, visa categories, UK pensions, and UK criminal-record documents.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Британские граждане, проживавшие в PT до 31 декабря 2020 — защищены WA и имеют те же права что граждане ЕС (свобода работы, SNS, обучение).",
+        "problem": "Misleading overstatement: WA beneficiaries have residence/work/equal-treatment rights in Portugal as host state, but they do not have full EU-citizen free movement rights across the EU. They remain UK nationals for travel to other Schengen states, normally subject to 90/180-day rules outside Portugal.",
+        "suggestion": "Write: «...защищены WA в Португалии: право жить и работать в PT, доступ к SNS/образованию и равное обращение в пределах WA. Это не возвращает полную свободу передвижения по ЕС: поездки в другие страны Шенгена — как для граждан третьих стран, обычно 90/180».",
+        "confidence": "high",
+        "source": "EU-UK Withdrawal Agreement, Part Two; European Commission WA citizens’ rights guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[4]",
+        "current": "Применяется ко всем членам семьи, которые тоже были в PT до 31.12.2020",
+        "problem": "Too narrow and potentially wrong: WA can also cover certain family members who join the UK national later, if the family relationship existed before the end of the transition period and continues, plus specific children born/adopted later. It is not limited only to family members physically in Portugal by 31.12.2020.",
+        "suggestion": "Write: «Члены семьи могут подпадать под WA не только если уже жили в PT до 31.12.2020: некоторые могут присоединиться позже, если отношения существовали до 31.12.2020 и продолжаются; дети, родившиеся/усыновлённые позже, также могут подпадать при условиях WA».",
+        "confidence": "high",
+        "source": "EU-UK Withdrawal Agreement Article 10"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2]",
+        "current": "D3 (квалифицированный) — работа в PT компании",
+        "problem": "Incorrect simplification of visa categories. D3 is for highly qualified activity, not ordinary employment in a Portuguese company. Ordinary subordinate employment is generally D1; independent/entrepreneurial activity is D2; study is D4; family reunification is D6; passive income is D7; remote work/digital nomad is D8.",
+        "suggestion": "Write: «D1 — обычная работа по контракту в PT; D3 — highly qualified activity/высококвалифицированная деятельность; D2 — предприниматель/самозанятый; D4 — учёба; D6 — воссоединение семьи; D7 — пассивный доход; D8 — удалённая работа».",
+        "confidence": "high",
+        "source": "Lei 23/2007, arts. 58–61-B; Portuguese consular visa categories"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[3]",
+        "current": "Golden Visa — крупным инвесторам",
+        "problem": "Placed under a checklist introduced as requiring a D visa, but Golden Visa/ARI is not a D-visa route. It is a residence permit for investment activity with its own legal regime. Also since the 2023 Mais Habitação changes, real-estate purchases and simple capital-transfer routes are no longer eligible, so “large investors” is too vague and may mislead readers.",
+        "suggestion": "Move it out of the D-visa list and write: «Golden Visa/ARI — отдельный инвестиционный ВНЖ, не D-виза. После Lei 56/2023 больше нельзя получить ARI через покупку недвижимости или простой capital transfer; остаются ограниченные категории вроде qualifying funds, research/culture/business/job-creation routes».",
+        "confidence": "high",
+        "source": "Lei 23/2007 art. 90-A; Lei 56/2023"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[4]",
+        "current": "Туристы: 90 дней в Шенгене без визы",
+        "problem": "Incomplete: for UK nationals this is 90 days in any rolling 180-day period across the Schengen area, not 90 days per trip or per country.",
+        "suggestion": "Write: «Туристы: без визы до 90 дней в любой скользящий 180-дневный период по всей Шенгенской зоне».",
+        "confidence": "high",
+        "source": "Schengen Borders Code; Your Europe travel rules for non-EU nationals"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3]",
+        "current": "UK pension (государственная, профессиональная): облагается в PT где резидент. UK может удержать в источнике — зачёт через Foreign Tax Credit",
+        "problem": "Overbroad and partly wrong. Under the UK-Portugal tax treaty, UK State Pension and many private/occupational pensions are generally taxable only in the state of residence, but UK government-service pensions are usually taxable only in the UK unless treaty exceptions apply. If UK tax is withheld contrary to treaty allocation, the usual fix is often HMRC treaty relief/NT code/refund, not simply Portuguese foreign tax credit.",
+        "suggestion": "Write: «UK State Pension и большинство частных/occupational pensions обычно облагаются в PT, если вы налоговый резидент PT. Но pensions за government service/civil service имеют отдельное правило и часто облагаются в UK. Если UK удерживает налог, проверьте treaty relief/NT code или refund у HMRC; foreign tax credit в PT не всегда правильное решение».",
+        "confidence": "high",
+        "source": "UK-Portugal Double Taxation Convention, Articles 17 and 18; HMRC Portugal tax treaty guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[7]",
+        "current": "IFICI режим: потенциально доступен UK digital nomads и квалифицированным специалистам",
+        "problem": "Potentially misleading without caveats. IFICI is not a general replacement for NHR and is not available to all digital nomads. Eligibility depends on qualifying activities/sectors, employer/entity conditions, and prior-residence/NHR exclusions.",
+        "suggestion": "Write: «IFICI может быть доступен только при выполнении условий: отсутствие налогового резидентства PT в предыдущие 5 лет, отсутствие прежнего NHR, и работа в eligible highly qualified/scientific/innovation/industrial/startup/recognised activities. Не каждый D8 digital nomad подходит».",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais art. 58-A; IFICI implementing rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[3]",
+        "current": "DBS (Disclosure and Barring Service) — справка о несудимости",
+        "problem": "For Portuguese visa/residence processes, UK applicants are normally expected to provide an ACRO Police Certificate, not a DBS check. DBS is mainly an employment/vetting check and may be rejected or considered the wrong document for immigration purposes.",
+        "suggestion": "Write: «Для визы/ВНЖ обычно нужен ACRO Police Certificate из UK, с апостилем FCDO и сертифицированным переводом при требовании. DBS — не стандартная справка для иммиграции и может не подойти».",
+        "confidence": "high",
+        "source": "ACRO Criminal Records Office; Portuguese visa application criminal-record requirements"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "Все доки должны быть переведены на португальский (присяжный)",
+        "problem": "Portugal does not use “sworn translator” in the same way as some jurisdictions. The key requirement is a certified/legalised translation accepted by the Portuguese authority/consulate; some documents in English may sometimes be accepted depending on procedure, but for AIMA/consular use Portuguese certified translation is the safe rule.",
+        "suggestion": "Write: «Документы не на португальском обычно требуют сертифицированный перевод на PT: через консульство, нотариуса/адвоката/solicitador или иной accepted certified translation route. Уточняйте у консульства/AIMA, потому что правила приёма различаются».",
+        "confidence": "medium",
+        "source": "Portuguese consular/AIMA document practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[1]",
+        "current": "Некоторые UK банки закрывают счета UK-резидентам переехавшим в ЕС (FCA rules)",
+        "problem": "Wording is internally confused: people who moved to Portugal are usually non-UK residents, not UK residents. The driver is not simply “FCA rules”; closures are usually due to banks’ cross-border servicing/licensing and compliance policies after Brexit.",
+        "suggestion": "Write: «Некоторые UK банки закрывают или ограничивают счета клиентам, которые стали нерезидентами UK и живут в ЕС, из-за cross-border licensing/compliance policies после Brexit».",
+        "confidence": "high",
+        "source": "UK bank post-Brexit account servicing policies"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "PT-банки: ActivoBank, Millennium — принимают без сложностей",
+        "problem": "Too optimistic. UK nationals are now third-country nationals for Portuguese bank onboarding; banks can ask for NIF, proof of address, tax residency, employment/income source, immigration status/visa, and may refuse or delay accounts under AML/KYC rules.",
+        "suggestion": "Write: «PT-банки вроде ActivoBank/Millennium часто открывают счета британцам, но как third-country nationals они проходят обычный KYC/AML: NIF, адрес, источник средств/дохода, налоговая резидентность и иногда visa/residence proof».",
+        "confidence": "medium",
+        "source": "Banco de Portugal AML/KYC framework"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://aima.gov.pt/",
+        "problem": "Generic homepage is a weak source for a sensitive WA immigration category. Readers need a dedicated AIMA/Brexit/Withdrawal Agreement page or an official EU/UK guidance page explaining WA residence documents.",
+        "suggestion": "Replace or supplement with the dedicated AIMA page for UK nationals/Withdrawal Agreement residence document, plus GOV.UK Living in Portugal guidance.",
+        "confidence": "high",
+        "source": "AIMA official WA guidance; GOV.UK Living in Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3].url",
+        "current": "https://ec.europa.eu/info/relations-united-kingdom/eu-uk-withdrawal-agreement_en",
+        "problem": "This old Commission URL may redirect after the Commission site migration and is not the most stable current reference. Use the current commission.europa.eu path or the specific citizens’ rights guidance page.",
+        "suggestion": "Update to the current European Commission page for the EU-UK Withdrawal Agreement/citizens’ rights, and keep lastRetrieved current.",
+        "confidence": "medium",
+        "source": "European Commission current website structure"
+      }
+    ],
+    "missing_topics": [
+      "UK nationals covered by WA should know how to renew/replace the WA biometric residence card and what to do if the card is expired but rights continue.",
+      "Healthcare for UK pensioners: S1 registration, SNS access, and limits of GHIC/EHIC for residents versus tourists.",
+      "UK driving licence exchange/recognition rules in Portugal, especially differences for residents, WA beneficiaries, and new arrivals.",
+      "UK government-service pensions versus private pensions should be separated clearly in the tax section.",
+      "D1/D2/D4/D6 visa options should be listed or at least referenced so readers do not think D7/D8/D3 are the only realistic post-Brexit routes.",
+      "Golden Visa post-2023 eligible investment categories and the explicit exclusion of real estate/capital-transfer routes.",
+      "UK criminal-record document should be ACRO Police Certificate, with apostille/translation requirements.",
+      "Schengen 90/180 rule for UK visitors outside Portugal and distinction between residence rights in Portugal and travel rights elsewhere in Schengen."
+    ]
+  },
+  "model": "gpt-5.5"
+}

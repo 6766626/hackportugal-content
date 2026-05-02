@@ -1,0 +1,140 @@
+{
+  "guideId": "birth-registration",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful on the 20-day birth declaration and current jus soli rule, but it overstates what Nascer Cidadão provides, confuses Portuguese citizenship/Cartão de Cidadão with all newborns, and contains misleading nationality and post-registration claims.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Ребёнку оформляют CC, NIF, NISS, utente SNS — всё разом.»",
+        "problem": "Misleading: Cartão de Cidadão is only for Portuguese citizens. A child born in Portugal who does not qualify for Portuguese nationality can have the birth registered, but does not get a Portuguese Cartão de Cidadão. SNS/NIF/NISS linkage may be available/communicated, but the guide presents the full package as universal.",
+        "suggestion": "Write: «Если ребёнок является португальским гражданином, можно запросить первый Cartão de Cidadão; для всех новорождённых регистрация рождения может быть связана с присвоением/коммуникацией NIF, NISS и número de utente SNS, но CC — только для граждан PT.»",
+        "confidence": "high",
+        "source": "IRN / justica.gov.pt — Cartão de Cidadão; Lei 7/2007"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1]",
+        "current": "«🪪 Заявка на Cartão de Cidadão»",
+        "problem": "Needs the same caveat: Nascer Cidadão can request the first citizen card only where the newborn is Portuguese. The current wording implies every child registered in a Portuguese maternity can request CC.",
+        "suggestion": "Change to: «🪪 Заявка на первый Cartão de Cidadão — только если ребёнок имеет португальское гражданство.»",
+        "confidence": "high",
+        "source": "IRN / justica.gov.pt — Cartão de Cidadão"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0].content[0].items[4]",
+        "current": "«🩺 Заявка на utente SNS (médico de família)»",
+        "problem": "Conflates SNS user number with assignment of a family doctor. A newborn can get an SNS user number / be registered with SNS, but médico de família is assigned by the local USF/UCSP depending on availability and is not guaranteed by Nascer Cidadão.",
+        "suggestion": "Write: «🩺 Número de utente SNS / регистрация в SNS; médico de família оформляется/назначается через centro de saúde и зависит от доступности.»",
+        "confidence": "high",
+        "source": "SNS / ePortugal — inscrição no SNS"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].items[4]",
+        "current": "«💸 Адрес/контакт родителей для постоплаты SNS»",
+        "problem": "Misleading and confusing. There is no normal “post-payment SNS” requirement for a newborn’s public SNS registration; user charges are largely abolished in the SNS and minors are generally exempt where charges exist. Address/contact may be needed for registration and correspondence, but not as a billing/post-payment detail.",
+        "suggestion": "Replace with: «🏠 Адрес и контакты родителей для регистрации/корреспонденции SNS, Segurança Social и AT.»",
+        "confidence": "high",
+        "source": "Lei de Bases da Saúde / SNS user charge rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2]",
+        "current": "«Без этого ребёнок имеет только PT гражданство»",
+        "problem": "Factually wrong as a general statement. Many countries transmit nationality by descent automatically or under their own conditions; consular registration normally documents or confirms a nationality/status, it does not necessarily create it. This varies by Russia, Belarus, Ukraine and by parents’ citizenship combinations.",
+        "suggestion": "Write: «Консульская регистрация/оформление документов страны родителей зависит от закона этой страны. У некоторых стран гражданство по родителям возникает автоматически, у других требуется заявление/оформление; проверьте правила конкретного консульства.»",
+        "confidence": "high",
+        "source": "Nationality laws of the relevant parent country; consular rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[4]",
+        "current": "«📄 Сразу выдают “Cédula” — временное свидетельство»",
+        "problem": "Outdated / misleading terminology. Portugal no longer normally issues a “cédula” as the standard proof of birth registration. The relevant document is the birth record/certificate: assento de nascimento / certidão de nascimento, often with an access code or certificate request.",
+        "suggestion": "Replace with: «📄 После регистрации создаётся assento de nascimento; при необходимости можно получить certidão de nascimento / código de acesso.»",
+        "confidence": "high",
+        "source": "IRN — Registo de nascimento / certidões online"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[5]",
+        "current": "«📩 Полный CC ребёнка приходит через 2-4 нед по почте»",
+        "problem": "Too absolute. Delivery/collection method and timing depend on service type, address and whether the card was requested for a Portuguese citizen. PIN/card handling rules can require delivery by registered mail or collection; it is not simply guaranteed that a “full CC” arrives by post in 2–4 weeks.",
+        "suggestion": "Write: «Если ребёнок имеет право на CC и вы его запросили, сроки и способ получения зависят от выбранного режима/адреса; ориентируйтесь на информацию IRN при подаче.»",
+        "confidence": "medium",
+        "source": "IRN — Cartão de Cidadão"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "«Cartão de Cidadão ребёнка — 18 €, note: первый бесплатно при Nascer Cidadão»",
+        "problem": "Likely inaccurate/underspecified. The fee depends on age, validity, urgency and place of request; the ordinary first CC for a newborn requested through Nascer Cidadão may be free, while ordinary CC fees for minors are not simply a flat €18 in all cases. The guide should cite the official IRN fee table and distinguish free newborn first request from later/urgent requests.",
+        "suggestion": "Write: «Первый CC для новорождённого через Nascer Cidadão: обычно бесплатно; прочие/срочные запросы — по актуальной tabela de emolumentos IRN.» Add an official source for CC fees.",
+        "confidence": "medium",
+        "source": "IRN — tabela de emolumentos do Cartão de Cidadão"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[4]",
+        "current": "«Если имя не в базе IRN — родители подают “pedido de admissibilidade” (1-2 нед, бесплатно)»",
+        "problem": "The 'free' and '1–2 weeks' claims need an official source and may be wrong depending on the type of name/admissibility procedure. Also the name rules differ for Portuguese citizens and foreign citizens / dual nationals.",
+        "suggestion": "Remove the fixed timing/price unless sourced: «Если имя не включено в список IRN, conservatória может запросить/передать вопрос на оценку admissibilidade; сроки и возможные сборы уточняйте в IRN.»",
+        "confidence": "medium",
+        "source": "IRN — Vocábulos admitidos como nomes próprios; Código do Registo Civil art. 103"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "«🩺 Médico de família — записать к педиатру (peditra)»",
+        "problem": "Typo and concept issue: Portuguese word is “pediatra”, but SNS primary care for children is often acompanhamento infantil at the centro de saúde by médico de família/enfermeiro; a paediatrician is not automatically assigned as a family doctor.",
+        "suggestion": "Write: «🩺 Centro de saúde / médico de família: зарегистрировать ребёнка и записать primeira consulta de saúde infantil; pediatra — при необходимости/направлении или в частной системе.»",
+        "confidence": "high",
+        "source": "SNS — Programa Nacional de Saúde Infantil e Juvenil"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[5]",
+        "current": "«💉 План вакцинации (PNV): первая вакцина в 2 мес, контрольный осмотр 7 дней»",
+        "problem": "Oversimplified. Under the Portuguese PNV, universal routine vaccination generally starts at 2 months, but hepatitis B vaccination at birth can apply in specific risk situations, and newborn follow-up timing is usually handled by the health centre according to child health programme guidance rather than a single universal “7 days” rule.",
+        "suggestion": "Write: «PNV: большинство плановых прививок начинается в 2 месяца; отдельные прививки при рождении возможны по медицинским показаниям/риску. Первую consulta de saúde infantil назначает centro de saúde.»",
+        "confidence": "medium",
+        "source": "DGS — Programa Nacional de Vacinação; Programa Nacional de Saúde Infantil e Juvenil"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[0].items[6]",
+        "current": "«Запись в крёшу/детсад: открыть IS заявку как только родится»",
+        "problem": "Unclear term. “IS” is not a standard Portuguese acronym a newcomer will recognise for creche/daycare applications. Public/social-sector creche rules vary by municipality, private provider and Segurança Social network.",
+        "suggestion": "Replace with: «Записывайтесь в creche как можно раньше: через выбранную creche, município или сеть creches comparticipadas/Segurança Social, в зависимости от места.»",
+        "confidence": "high",
+        "source": "ISS / Segurança Social — creche"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include only IRN birth registration, CRC, ePortugal Nascer Cidadão, Lei da Nacionalidade.",
+        "problem": "Sensitive claims about SNS, NISS/NIF, Abono de Família, CC fees, passport fees, PNV and name admissibility are not sourced. For an immigration/family guide these should have official references.",
+        "suggestion": "Add official sources: IRN Cartão de Cidadão fees, PEP passport fees, Segurança Social Abono de Família page, SNS/ACSS inscrição no SNS, DGS PNV, IRN list of admitted names.",
+        "confidence": "high",
+        "source": "IRN; ISS; SNS/ACSS; DGS"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that Cartão de Cidadão is only for Portuguese citizens; foreign newborns need their own country passport/ID and later AIMA residence regularisation if applicable.",
+      "Mention that proof of the parent’s 1-year residence for Lei da Nacionalidade art. 1(1)(f) must be documentary and accepted by the conservatória; mere tourist presence may be challenged.",
+      "Add an official source and caveat forono de Família: eligibility depends on household income/assets and residence/social security status; request is not the same as approval.",
+      "Mention that if parents are not married, maternity is normally established by birth declaration, while paternity recognition has specific civil registry rules and may differ if mother is married to another person.",
+      "Add sources for Portuguese passport and Cartão de Cidadão fees instead of unsourced fixed prices."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4418,
+    "prompt_tokens": 3398,
+    "total_tokens": 7816
+  },
+  "model": "gpt-5.5"
+}

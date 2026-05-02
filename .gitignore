@@ -1,0 +1,10 @@
+node_modules/
+.DS_Store
+dist/
+!dist/.gitkeep
+
+# Temp / local
+.tmp-remote-manifest.json
+.env
+.env.local
+*.bak

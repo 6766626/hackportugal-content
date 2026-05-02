@@ -1,0 +1,142 @@
+{
+  "guideId": "mortgage-foreigners",
+  "categoryId": "housing_buy",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful but has several misleading banking/tax statements: mortgage maturity rules are oversimplified, eligibility/LTV is presented as too automatic, IMT range is wrong, insurance requirements are misstated, and key borrower-protection caveats are missing.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Срок до 40 лет или до 75-80 лет возраста.»",
+        "problem": "This is misleading under Banco de Portugal macroprudential recommendations: 40 years is not a general maximum for everyone. Since 2022 the recommended maximum maturity depends on the borrower’s age: up to 40 years only for borrowers aged 30 or less, 37 years for >30 to 35, and 35 years for >35. Banks also apply their own maximum age at maturity, commonly around 75 but sometimes different.",
+        "suggestion": "Write: «Срок зависит от возраста: по рекомендации Banco de Portugal максимум 40 лет для заёмщиков ≤30 лет, 37 лет для 30–35, 35 лет для >35; дополнительно банк ограничивает возраст на дату окончания кредита, часто около 75 лет, иногда выше/ниже.»",
+        "confidence": "high",
+        "source": "Banco de Portugal macroprudential recommendation on new credit agreements for consumers, maturity limits updated from 01.04.2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[0]",
+        "current": "«Резиденты PT с доходом в €/PT — до 90% стоимости (primary residence) или 80% (вторая жильё)»",
+        "problem": "The LTV limit is not simply a percentage of the purchase price. Portuguese macroprudential LTV is calculated against the lower of purchase price and valuation, and 90% applies to owner-occupied/permanent own residence, while 80% applies to other purposes. Banks may set lower limits depending on risk, nationality/residency, income currency, and property valuation.",
+        "suggestion": "Write: «Для permanent own residence банки могут идти до 90% от меньшей из двух величин — цены покупки и банковской оценки; для второго жилья/инвестиций обычно до 80%. На практике банк может дать меньше.»",
+        "confidence": "high",
+        "source": "Banco de Portugal macroprudential recommendation on LTV limits"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2]",
+        "current": "«EU-граждане — на равных с PT»",
+        "problem": "Too broad. EU citizenship alone does not mean the same mortgage conditions as a Portuguese resident with Portuguese income. Banks mainly assess tax residency, income source/currency, employment stability, credit history, and property use. A non-resident EU citizen with foreign income is often treated closer to other non-residents for LTV/risk purposes.",
+        "suggestion": "Write: «EU-гражданство помогает с комплаенсом, но условия зависят прежде всего от резидентства, страны/валюты дохода, credit history и taxa de esforço. EU-нерезидент с иностранным доходом не обязательно получает условия как PT-резидент.»",
+        "confidence": "high",
+        "source": "Banco de Portugal consumer credit/mortgage underwriting rules; bank risk policies"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3]",
+        "current": "«Не-EU граждане с ВНЖ ≥ 2 лет — обычные условия»",
+        "problem": "This is not a legal rule and is too categorical. Some banks may look more favourably at a borrower with a stable residence permit and Portuguese income, but there is no general '2 years of residence permit = ordinary conditions' rule. Conditions remain bank-specific and depend on income, contract type, residency, credit history, and AML/sanctions checks.",
+        "suggestion": "Write: «Для non-EU наличие ВНЖ и история жизни/дохода в PT помогают, но нет универсального правила “ВНЖ 2 года = обычные условия”; банк оценивает кейс индивидуально.»",
+        "confidence": "high",
+        "source": "Bank underwriting practice; Banco de Portugal mortgage credit framework"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[4]",
+        "current": "«Golden Visa субъекты — особые условия»",
+        "problem": "Unclear and potentially misleading. Real estate investment no longer qualifies for new Golden Visa/ARI applications after the 2023 Mais Habitação changes. Existing ARI/Golden Visa holders can of course buy property and seek a mortgage, but there is no general official 'Golden Visa mortgage regime'.",
+        "suggestion": "Write: «Existing Golden Visa/ARI holders: банк рассматривает как обычный non-EU/resident/non-resident кейс. Важно: покупка недвижимости больше не является основанием для новой Golden Visa.»",
+        "confidence": "high",
+        "source": "Lei n.º 56/2023, Mais Habitação"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "«Последние 3 IRS (или эквивалент для нерезидентов)»",
+        "problem": "Wording is confusing. IRS is the Portuguese annual income tax return, not a monthly document. Banks often request the latest IRS declaration and nota de liquidação, sometimes 2-3 years for self-employed/business owners, plus payslips and bank statements. 'Последние 3 IRS' sounds like always three annual Portuguese tax returns, which many new residents will not have.",
+        "suggestion": "Write: «IRS declaration + nota de liquidação за последний год; для self-employed/owners банк может запросить 2–3 года. Для нерезидентов — налоговые декларации/справки из страны налогового резидентства.»",
+        "confidence": "high",
+        "source": "Common Portuguese bank mortgage documentation practice"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].text",
+        "current": "«Подписать CPCV (contrato de promessa) + sinal 10% стоимости.»",
+        "problem": "10% deposit is common but not mandatory, and the guide misses a critical caveat: if the buyer signs a CPCV and later the mortgage is refused, the buyer may lose the sinal unless the CPCV contains a financing condition or other protective clause. This is one of the highest-risk points for foreign buyers.",
+        "suggestion": "Write: «Sinal часто 10%, но сумма договорная. До подписания CPCV желательно получить юриста и включить cláusula de financiamento/condition precedent: если банк не одобрит кредит на согласованных условиях, sinal возвращается.»",
+        "confidence": "high",
+        "source": "Portuguese CPCV practice; Código Civil rules on sinal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0]",
+        "current": "«IMT (налог на переход собственности) — 1-10% от стоимости (континент), прогрессивная шкала»",
+        "problem": "The range is inaccurate and misleading. For residential property on the mainland, IMT can be 0% for lower-value own permanent residence/exempt cases, and the normal residential top marginal/flat rates are generally below 10%. The 10% IMT rate is a special punitive rate for buyers resident in blacklisted tax jurisdictions or entities controlled from such jurisdictions, not the normal top of the progressive scale.",
+        "suggestion": "Write: «IMT зависит от цены, назначения и региона. Для habitação própria e permanente на континенте может быть 0% в нижних brackets; обычная шкала для жилья доходит до 7.5% на дорогих объектах. 10% — специальная ставка для покупателей из blacklisted tax jurisdictions/контролируемых ими структур. Проверять по актуальной таблице IMT на Portal das Finanças.»",
+        "confidence": "high",
+        "source": "Código do IMT; Portal das Finanças IMT tables"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[4]",
+        "current": "«Страховка жизни (обязательна для ипотеки) — €200-800/год»",
+        "problem": "Life insurance is usually required by banks as a contractual condition, but it is not generally a legal requirement for taking a mortgage. Calling it 'mandatory' without qualification is misleading. Also premiums vary massively by age, health, cover amount, ITP/IAD coverage, smoker status, and term; €200-800/year may be too low for older borrowers or high loan amounts.",
+        "suggestion": "Write: «Life insurance: юридически не универсально обязательна, но почти всегда требуется банком как условие кредита. Цена сильно зависит от возраста/здоровья/суммы/покрытия и может быть выше €800/год.»",
+        "confidence": "high",
+        "source": "ASF consumer information on mortgage-related insurance; Portuguese bank mortgage practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[5]",
+        "current": "«Страховка жилья — €150-400/год»",
+        "problem": "Needs nuance. Fire insurance is legally mandatory for units in buildings under condominium ownership; broader multirisk home insurance is usually required by the bank but is not the same legal obligation. The guide also does not distinguish building insurance from contents insurance.",
+        "suggestion": "Write: «Fire insurance is legally mandatory for condomínio units; banks usually require multirisk building insurance for mortgaged property. Contents insurance is separate/optional unless contracted.»",
+        "confidence": "high",
+        "source": "ASF consumer information; Portuguese condominium/fire insurance rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[6]",
+        "current": "«Банковские комиссии — 0.5-1% от ипотеки»",
+        "problem": "This is too generic and can be confused with stamp duty or early repayment fees. Portuguese mortgage bank costs are often a mix of fixed commissions for dossier/study, valuation, formalisation, account/package costs, plus stamp duty already listed separately. Early repayment fees are capped separately under mortgage credit rules.",
+        "suggestion": "Write: «Bank costs: обычно фиксированные комиссии за dossier/estudo, avaliação, formalização и обслуживание счёта/пакета; смотреть FINE/TAEG/MTIC. Не путать с IS 0.6% и early repayment fee, который ограничен законом.»",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 74-A/2017; Banco de Portugal mortgage credit consumer information"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "«Banco de Portugal — Guia do Crédito à Habitação», url: «https://www.bportugal.pt/»",
+        "problem": "The source is only the homepage, not the actual mortgage guide or macroprudential recommendation. For a guide quoting LTV, maturity, and mortgage consumer rules, a direct Banco de Portugal source is needed.",
+        "suggestion": "Use a direct Banco de Portugal page for crédito à habitação and/or the macroprudential recommendation on new consumer credit agreements, not only the homepage.",
+        "confidence": "high",
+        "source": "Banco de Portugal website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No source for current Euribor/rate figures",
+        "problem": "The guide quotes Q1 2026 Euribor and typical spreads but does not cite a rate/statistics source. Interest-rate data becomes stale quickly and should be backed by Banco de Portugal statistical series, Euribor/EMMI data, or bank simulations with retrieval date.",
+        "suggestion": "Add a source such as Banco de Portugal statistical data for housing loan interest rates and/or EMMI/Euribor official data, with last retrieved date.",
+        "confidence": "high",
+        "source": "Banco de Portugal statistics; EMMI Euribor"
+      }
+    ],
+    "missing_topics": [
+      "Banco de Portugal taxa de esforço/DSTI rules: banks assess monthly debt service against income and apply stress tests; LTV alone is not enough for approval.",
+      "FINE, TAEG and MTIC: Portuguese lenders must provide standardised pre-contractual information so borrowers can compare total cost, not only spread/Euribor.",
+      "Minimum reflection period before signing the mortgage contract under Portuguese mortgage credit rules.",
+      "Early repayment rules and caps: important for borrowers choosing fixed vs variable rates.",
+      "Under-35 first-home IMT and stamp-duty exemptions/partial exemptions, where applicable, and their conditions.",
+      "Need for independent lawyer/solicitor due diligence before CPCV: title, charges, licences, urbanistic issues, condominium debts, and mortgage cancellation by seller.",
+      "Currency-risk caveat for borrowers paid outside EUR: banks may haircut income or lower LTV if income is in RUB/USD/GBP/etc."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4398,
+    "prompt_tokens": 2427,
+    "total_tokens": 6825
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,205 @@
+{
+  "guideId": "livro-reclamacoes",
+  "categoryId": "emergency_rights",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is useful but has several material inaccuracies about the legal scope, deadlines/flows, fines, public-sector complaints, payment rights and escalation routes.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«каждое заведение в PT обязано иметь её»",
+        "problem": "Overbroad. The Livro de Reclamações regime applies to suppliers of goods/services covered by DL 156/2005 and related sector rules, typically establishments open to the public and online/e-commerce providers; it is not literally every establishment in Portugal, and public administration uses a different complaints system.",
+        "suggestion": "Write: «Большинство поставщиков товаров/услуг, работающих с потребителями и открытых для публики, обязаны иметь Livro de Reclamações; для госорганов используется Livro Amarelo/other administrative complaint channels.»",
+        "confidence": "high",
+        "source": "DL 156/2005; AMA Livro Amarelo"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Жалоба автоматически направляется регулятору»",
+        "problem": "Only true for the electronic Livro de Reclamações. For the physical book, the trader/service provider must send the original complaint sheet to the competent authority within the legal deadline; it is not automatic.",
+        "suggestion": "Write: «В электронной версии жалоба автоматически уходит компании и компетентному регулятору; в бумажной версии компания обязана отправить оригинал регулятору в установленный срок.»",
+        "confidence": "high",
+        "source": "DL 156/2005"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "«Ответ обязателен в **15 дней**.»",
+        "problem": "The guide elsewhere says 15 working days. The correct formulation for the electronic complaints book is 15 working days; saying simply 15 days is misleading.",
+        "suggestion": "Change to: «Ответ обязателен в 15 рабочих дней.»",
+        "confidence": "high",
+        "source": "DL 156/2005; Livro de Reclamações Online official FAQ"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Штрафы заведения: до 25 000 € для юрлиц.»",
+        "problem": "Likely outdated/incorrect ceiling. The commonly cited legal range for legal persons under the Livro de Reclamações regime is up to €30,000 for key infringements, not €25,000. The guide also uses different ranges later.",
+        "suggestion": "Verify against the current consolidated Article 9 of DL 156/2005 and replace with the exact current ranges, e.g. «для юрлиц — до €30,000 по основным нарушениям» if confirmed.",
+        "confidence": "medium",
+        "source": "DL 156/2005, Art. 9"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "«обязан иметь Livro de Reclamações (физическую книгу ... или electronic version)»",
+        "problem": "Misleading as an either/or. For covered businesses with physical premises, the physical Livro is still required; the electronic complaints book is an additional channel for covered operators, not a substitute chosen at will. Online-only providers have different practical requirements.",
+        "suggestion": "Write: «Для covered businesses с premises обычно нужна бумажная книга на месте + регистрация/доступность электронной Livro; online-only providers use the electronic Livro where applicable.»",
+        "confidence": "high",
+        "source": "DL 156/2005; Livro de Reclamações Online official guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "«штрафы 250-3 750 € (физлица), 5 000-25 000 € (юр)»",
+        "problem": "The fine ranges appear wrong/outdated and inconsistent with the tldr. Current legal ranges should be checked in the consolidated DL 156/2005; for legal persons the ceiling is commonly €30,000 for these infringements, and the lower bound is not €5,000 in the standard range.",
+        "suggestion": "Replace with the exact current coima ranges from Art. 9 of DL 156/2005, and avoid mixing old figures. Example wording: «coimas can reach tens of thousands of euros for legal persons; check Art. 9 DL 156/2005 for the exact range.»",
+        "confidence": "medium",
+        "source": "DL 156/2005, Art. 9"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "«отказ accepting Multibanco / valid means»",
+        "problem": "Portugal does not have a general rule that every restaurant/business must accept Multibanco or MB WAY. A complaint is justified if the business advertises those means and then refuses them, breaches sector-specific rules, or refuses legal tender cash within the applicable limits.",
+        "suggestion": "Write: «отказ принять способ оплаты, который был объявлен/договорён, или незаконный отказ принять наличные в пределах legal limits; Multibanco/MB WAY не обязательны для всех по умолчанию.»",
+        "confidence": "high",
+        "source": "Banco de Portugal guidance on payment means; Decreto-Lei 28/2019 cash limits"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[6]",
+        "current": "«refusal to accept return within 14 days (online)»",
+        "problem": "Correct only for distance/off-premises contracts and subject to exceptions. It does not apply to ordinary in-store purchases unless the store offers its own return policy; defective goods are a separate legal guarantee issue.",
+        "suggestion": "Write: «для online/distance purchases — 14-day withdrawal right, with statutory exceptions; для физического магазина возврат “без причины” не обязателен, если это не политика магазина; defects = legal guarantee.»",
+        "confidence": "high",
+        "source": "DL 24/2014; DL 84/2021"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[9]",
+        "current": "«Для государственных госуслуг: Livro не работает; используйте Provedor de Justiça»",
+        "problem": "Incomplete and misleading. Public services do not use the red consumer Livro in the same way, but there is an official public administration complaints channel: Livro Amarelo, including online at livroamarelo.gov.pt. Provedor de Justiça is an escalation route, not the only or usual first channel.",
+        "suggestion": "Write: «Для AT, AIMA, IRN, SNS/public services используйте Livro Amarelo / complaint to the service / hierarchical complaint first; Provedor de Justiça is an escalation if the administration fails or acts unlawfully.»",
+        "confidence": "high",
+        "source": "AMA Livro Amarelo; Provedor de Justiça"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "«Заполнить на месте: ваше имя, NIF, contacto...»",
+        "problem": "NIF is not generally the core mandatory identifier for a complaint and telling foreigners they must provide it may discourage valid complaints. The complaint form requires identification/contact details; NIF may be optional or useful but not always necessary.",
+        "suggestion": "Write: «укажите имя, контакт/email/адрес и, если есть/уместно, NIF; приложите данные покупки/чека.»",
+        "confidence": "medium",
+        "source": "Livro de Reclamações forms/guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "«Зайти через CMD или просто email registration»",
+        "problem": "Access/registration methods on the Livro de Reclamações Online platform can change; the guide should not imply CMD is the only official strong-auth route. As of recent practice, authentication/registration may involve email/account and platform-specific validation, not necessarily CMD.",
+        "suggestion": "Write more neutrally: «зарегистрируйтесь/авторизуйтесь доступным на платформе способом и подтвердите email/данные, если потребуется.»",
+        "confidence": "medium",
+        "source": "Livro de Reclamações Online"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].items[6]",
+        "current": "«DGS (medical) — dgs.pt»",
+        "problem": "Misleading regulator mapping. For complaints about healthcare providers, the main regulatory complaints entity is ERS for establishments/providers, including many private-sector issues. DGS is a health authority/public-health body, not the generic complaints route for clinical billing/malpractice/provider service complaints.",
+        "suggestion": "Remove DGS from the generic complaint-regulator list or label it narrowly. Write: «ERS — healthcare providers/service quality/access/billing; Ordem dos Médicos/Ordem dos Enfermeiros for professional conduct; courts/insurers for malpractice compensation.»",
+        "confidence": "high",
+        "source": "ERS official complaints guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1]",
+        "current": "«Day 5-10: business получает уведомление от регулятора, должен подготовить ответ»",
+        "problem": "Wrong process. In the physical book, the business receives the complaint immediately because it provides the book and must send the original to the competent authority. In the electronic book, the platform notifies the business and regulator directly. It is not normally a regulator-notifies-business-on-day-5/10 sequence.",
+        "suggestion": "Replace timeline with: «Paper: business receives complaint on the spot and must send the original to the regulator within the legal deadline. Online: platform sends complaint to business/regulator; business must answer consumer within 15 working days.»",
+        "confidence": "high",
+        "source": "DL 156/2005; Livro de Reclamações Online"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2]",
+        "current": "«Day 15: business обязан написать вам ответ (или регулятор начинает investigation)»",
+        "problem": "Overstates automatic enforcement. Failure to answer can be an administrative offence and may trigger regulatory action, but an investigation does not automatically start on day 15 in every case.",
+        "suggestion": "Write: «Если ответа нет через 15 рабочих дней, это само по себе может быть нарушением; follow up/escalate to the competent regulator, which may open proceedings depending on the case.»",
+        "confidence": "high",
+        "source": "DL 156/2005"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[6]",
+        "current": "«Большинство case (~70%) ... within 7 дней»",
+        "problem": "Specific success rate and timing are unsourced and likely anecdotal. For a rights guide, this should not be presented as a factual statistic without a source.",
+        "suggestion": "Remove the percentage or mark as anecdotal: «На практике многие компании отвечают быстрее, чтобы не доводить до регулятора, но сроки сильно зависят от сектора.»",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[8]",
+        "current": "«Tribunal de Pequena Causa»",
+        "problem": "Portugal does not generally use a consumer forum called “Tribunal de Pequena Causa” as the standard route. Relevant routes include Centros de Arbitragem de Conflitos de Consumo, Julgados de Paz, and ordinary courts; for many low-value consumer disputes arbitration can be especially important.",
+        "suggestion": "Replace with: «para compensação/contract claims: Centro de Arbitragem de Conflitos de Consumo, Julgado de Paz where available, or tribunal judicial; for some consumer disputes arbitration may be mandatory for the trader if the consumer opts in.»",
+        "confidence": "high",
+        "source": "Lei 144/2015; Julgados de Paz official information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[1].content[0].items[0]",
+        "current": "«Livro НЕ работает для AT, AIMA, IRN, Conservatórias»",
+        "problem": "Too absolute and omits the official public-sector equivalent. The red consumer Livro may not be the right tool, but public administration services have Livro Amarelo/complaint mechanisms; users should not jump straight only to the Ombudsman.",
+        "suggestion": "Write: «Для AT/AIMA/IRN/Conservatórias используйте Livro Amarelo online, complaint at the service, hierarchical complaint/recurso where applicable; Provedor de Justiça is escalation.»",
+        "confidence": "high",
+        "source": "AMA Livro Amarelo; CPA Código do Procedimento Administrativo"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2].content[0].items[1]",
+        "current": "«DGC ... — consumer.gov.pt»",
+        "problem": "Wrong domain in text. The official Portuguese consumer portal is consumidor.gov.pt, matching the sources section; consumer.gov.pt is not the correct primary reference.",
+        "suggestion": "Change to: «DGC / Portal do Consumidor — consumidor.gov.pt».",
+        "confidence": "high",
+        "source": "Direção-Geral do Consumidor / Portal do Consumidor"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "«AirHelp commission», amountEUR: 0, note: «25-35% от compensação»",
+        "problem": "Structurally misleading: amountEUR 0 suggests free, but the service is paid by commission/success fee and the exact percentage varies by provider, product and litigation stage.",
+        "suggestion": "Use amountEUR: null or omit amountEUR; write: «success fee/commission, often a percentage of compensation; check current provider terms before signing.»",
+        "confidence": "high",
+        "source": "AirHelp current terms and conditions"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources list omits Livro Amarelo and sector regulator complaint pages.",
+        "problem": "Given the guide tells readers how to complain about public services, telecoms, banks, energy, health, aviation and insurance, it should include official sources for the public-sector complaint system and key sector complaint portals.",
+        "suggestion": "Add official sources: Livro Amarelo Online, ANACOM complaints page, Banco de Portugal client complaints page, ERSE complaints/dispute page, ERS complaints page, ASF complaints page, ANAC passenger rights/complaints page.",
+        "confidence": "high",
+        "source": "AMA; ANACOM; Banco de Portugal; ERSE; ERS; ASF; ANAC"
+      }
+    ],
+    "missing_topics": [
+      "Livro Amarelo Online for complaints about public administration services such as AT, AIMA, IRN and Conservatórias",
+      "Consumer arbitration centres and Julgados de Paz as practical routes for compensation/refunds, instead of the incorrect 'Tribunal de Pequena Causa'",
+      "Clear distinction between physical Livro process and electronic Livro process",
+      "Caveat that Multibanco/MB WAY are not universally mandatory payment methods",
+      "14-day withdrawal right exceptions for online/distance purchases and distinction from legal guarantee for defective goods",
+      "Exact current fine ranges from the consolidated Article 9 of DL 156/2005",
+      "Sector-specific official complaint routes for healthcare, telecoms, banking, energy, insurance and aviation"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5182,
+    "prompt_tokens": 3315,
+    "total_tokens": 8497
+  },
+  "model": "gpt-5.5"
+}

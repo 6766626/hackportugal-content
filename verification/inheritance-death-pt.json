@@ -1,0 +1,17 @@
+{
+  "guideId": "inheritance-death-pt",
+  "categoryId": "emergency_rights",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Unexpected token 'h', ...\"nfidence\":high\",\n   \"... is not valid JSON",
+    "raw": "{\n  \"verdict\": \"major_issues\",\n  \"summary\": \"Guide has useful structure but contains several material legal/tax errors on Portuguese succession tax deadlines, Brussels IV, rental succession, vehicle/property registration, and misleading practical claims about death registration and funeral support.\",\n  \"issues\": [\n    {\n      \"severity\": \"major\",\n      \"where\": \"tldr\",\n      \"current\": \"Imposto do Selo на наследство 10% (для не-родственников и не-CPLP); супруг/дети/родители — 0%\",\n      \"problem",
+    "issues": [],
+    "missing_topics": []
+  },
+  "usage": {
+    "completion_tokens": 6049,
+    "prompt_tokens": 3833,
+    "total_tokens": 9882
+  },
+  "model": "gpt-5.5"
+}

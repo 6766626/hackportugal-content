@@ -1,0 +1,296 @@
+{
+  "guideId": "labour-rights",
+  "categoryId": "work_business",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "В гайде много полезного, но есть существенные ошибки по срочным контрактам, отпуску, больничным, родительскому отпуску, overtime/праздникам и срокам судебной защиты.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[0]",
+        "current": "Конкретная дата окончания (6-36 мес)",
+        "problem": "Для contrato a termo certo общий максимум сейчас не 36 месяцев, а 2 года. Минимальный срок 6 месяцев тоже не универсален: договор может быть короче в случаях, разрешённых законом.",
+        "suggestion": "Написать: «Contrato a termo certo: фиксированная дата окончания; общий максимум — 2 года, но срок может быть короче в предусмотренных законом ситуациях».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 140.º, 148.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[2]",
+        "current": "Максимум 2 продления → конверсия в бессрочный",
+        "problem": "Неверное число продлений. Общее правило — максимум 3 продления, причём суммарная длительность продлений не может превышать первоначальный срок договора.",
+        "suggestion": "Написать: «Максимум 3 продления; суммарная длительность продлений не может превышать первоначальный срок. Нарушение лимитов может вести к конверсии в contrato sem termo».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 149.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[1].content[0].items[3]",
+        "current": "compensação 18-24 дней зарплаты per год",
+        "problem": "Формулировка устаревшая/смешанная. После изменений Agenda do Trabalho Digno компенсация при caducidade срочного договора в общем виде составляет 24 дня базовой зарплаты и diuturnidades за каждый год стажа, с переходными правилами для старых договоров.",
+        "suggestion": "Написать: «При caducidade работник обычно имеет право на compensação — 24 дня retribuição base + diuturnidades за каждый полный год, с пропорциональным расчётом и переходными правилами для старых договоров».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 344.º, 345.º; Lei 13/2023"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2].content[0].text",
+        "current": "Max 6 лет. Компенсация такая же как termo certo.",
+        "problem": "Максимальная длительность contrato a termo incerto сейчас не 6 лет, а 4 года.",
+        "suggestion": "Написать: «Contrato a termo incerto длится до завершения причины, но общий максимум — 4 года. Компенсация при caducidade — по правилам Código do Trabalho, обычно 24 дня base salary + diuturnidades за год».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 148.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "НЕТ трудовых прав (отпуск, больничный, decreto).",
+        "problem": "Слишком категорично и частично вводит в заблуждение. У recibos verdes нет трудовых прав как у работника по contrato de trabalho, но при взносах в Segurança Social самозанятый может иметь социальные пособия, включая doença и parentalidade, при выполнении условий.",
+        "suggestion": "Написать: «Нет трудовых прав работника по Código do Trabalho — оплачиваемого отпуска от работодателя, subsídios de férias/Natal, защиты от увольнения. Но при взносах в Segurança Social independent worker может иметь доступ к некоторым социальным пособиям, например doença/parentalidade, при соблюдении условий».",
+        "confidence": "high",
+        "source": "Segurança Social — Trabalhadores independentes; Código dos Regimes Contributivos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3].content[0].text",
+        "current": "«falso recibo verde», наказуемо штрафом до 6 000 €",
+        "problem": "Потолок штрафа указан слишком упрощённо и может быть неверным: falso recibo verde квалифицируется как трудовое нарушение, санкции зависят от типа нарушения, оборота работодателя, вины и количества работников; суммы могут отличаться от фиксированного «до 6 000 €».",
+        "suggestion": "Убрать конкретный потолок или написать: «может повлечь признание трудового договора, доначисления Segurança Social и coimas ACT, размер которых зависит от категории нарушения и размера работодателя».",
+        "confidence": "medium",
+        "source": "Código do Trabalho; Lei 107/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[6]",
+        "current": "**Работа в выходной/праздник**: +100% доплата ИЛИ компенсационный выходной",
+        "problem": "Неверная ставка. По общему правилу работа в еженедельный выходной или праздник оплачивается с повышением 50% за каждый час/долю часа, а не +100%. Компенсационный отдых зависит от ситуации, особенно при работе в обязательный еженедельный descanso.",
+        "suggestion": "Написать: «Работа в descanso semanal/feriado: обычно +50% за каждый час или долю часа; в ряде случаев также положен descanso compensatório. Коллективный договор может устанавливать лучше».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 268.º, 269.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3]",
+        "current": "До 6 €/день не облагается IRS",
+        "problem": "Неполно: лимит 6 € относится к выплате деньгами. Для meal card/voucher лимит выше — обычно 10,20 €/день, если не менялся специальным актом.",
+        "suggestion": "Написать: «До 6 €/день tax-free при выплате деньгами; при cartão/vale refeição лимит выше — 10,20 €/день. Сверх лимита облагается IRS/SS».",
+        "confidence": "high",
+        "source": "Código do IRS, art. 2.º; Autoridade Tributária guidance on subsídio de refeição"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2]",
+        "current": "Обеденный перерыв: 1-2 часа, минимум 1 час если день >6 часов",
+        "problem": "Формулировка неточная. Интервал отдыха обычно 1–2 часа, чтобы работник не работал более 5 часов подряд; если рабочий день превышает 10 часов — не более 6 часов подряд. Это не просто правило «если день >6 часов».",
+        "suggestion": "Написать: «Intervalo de descanso обычно 1–2 часа; рабочий период не должен превышать 5 часов подряд, либо 6 часов подряд при рабочем дне более 10 часов, если применимо».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 213.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[6]",
+        "current": "оплата электричества/связи работодателем",
+        "problem": "Слишком широко. Работодатель компенсирует дополнительные расходы, прямо возникшие из teletrabalho, по правилам договора/политики; это не обязательно полная оплата всего электричества и интернета.",
+        "suggestion": "Написать: «работодатель должен компенсировать дополнительные расходы, связанные с teletrabalho, по согласованным/доказуемым правилам; право на disconnect регулируется Código do Trabalho».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 168.º, 169.º-B; Lei 83/2021"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].items[1]",
+        "current": "+ 3 доп. дня если ≤ 3 дней невыходов по болезни в году",
+        "problem": "Это устаревшее правило, отменённое как общее правило много лет назад. В общем Código do Trabalho ежегодный отпуск — 22 рабочих дня; автоматических +3 дня за отсутствие больничных больше нет, если это не предусмотрено коллективным договором/внутренним правилом.",
+        "suggestion": "Удалить пункт или заменить на: «Некоторые коллективные договоры/политики работодателя могут давать дополнительные дни, но общего законного бонуса +3 дня за отсутствие больничных нет».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 238.º; Lei 23/2012"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0].content[0].items[2]",
+        "current": "Must be taken within calendar year (переносить нельзя без соглашения)",
+        "problem": "Слишком жёстко. Общее правило — отпуск берётся в календарном году, но закон допускает перенос/накопление в некоторых случаях, включая соглашение и использование до 30 апреля следующего года.",
+        "suggestion": "Написать: «Обычно отпуск берётся в календарном году; при соглашении/законных основаниях часть может быть перенесена, как правило с использованием до 30 апреля следующего года».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 240.º, 241.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[1].content[0].items[2]",
+        "current": "При длительной болезни (>365 дней) — 70%",
+        "problem": "Ставка перепутана. Для subsídio de doença стандартные проценты обычно: 55% до 30 дней, 60% с 31 по 90, 70% с 91 по 365, 75% свыше 365 дней.",
+        "suggestion": "Написать: «Subsídio de doença: 55% до 30 дней, 60% с 31–90, 70% с 91–365, 75% свыше 365 дней, при соблюдении условий Segurança Social».",
+        "confidence": "high",
+        "source": "Segurança Social — Subsídio de doença"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1].content[0].items[3]",
+        "current": "Медицинская справка (baixa) от medico de família или urgência",
+        "problem": "Неполно: сейчас есть autodeclaração de doença через SNS 24 для коротких болезней до 3 дней, но такие дни не оплачиваются Segurança Social и есть лимиты использования.",
+        "suggestion": "Добавить: «Для болезни до 3 дней возможна autodeclaração de doença через SNS 24, максимум в пределах установленных лимитов; она оправдывает отсутствие, но не даёт subsídio de doença».",
+        "confidence": "high",
+        "source": "SNS 24 — Autodeclaração de doença; Segurança Social"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[1]",
+        "current": "**150 дней**: 80% (если разделить с партнёром)",
+        "problem": "Неверно: 150 дней при отсутствии sharing оплачиваются 80%, но при разделении с партнёром по установленным правилам 150 дней могут оплачиваться 100%.",
+        "suggestion": "Написать: «150 дней: 80% без sharing; 150 дней при shared parental leave по правилам Segurança Social — 100%».",
+        "confidence": "high",
+        "source": "Segurança Social — Subsídio parental inicial"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[3]",
+        "current": "**Отец**: 28 дней обязательных + 8 опциональных (Lei 90/2019)",
+        "problem": "Устаревшая/неверная ссылка и число optional days. После Lei 13/2023 обязательный отпуск отца — 28 дней, а дополнительный — 7 дней, не 8.",
+        "suggestion": "Написать: «Отец: 28 обязательных дней, из них 7 подряд сразу после рождения; плюс 7 facultativos, если они берутся одновременно с первоначальным родительским отпуском матери».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 43.º; Lei 13/2023"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[4]",
+        "current": "Беременность: 30+ дней до родов обязательный отпуск",
+        "problem": "Неверно. До родов мать может взять до 30 дней initial parental leave, но это не обязательный отпуск. Обязательны 42 дня после родов.",
+        "suggestion": "Написать: «Мать может взять до 30 дней до родов; обязательная часть — 6 недель/42 дня после родов».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 41.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[5]",
+        "current": "Кормление: 2 × 30 мин в день оплачиваемых перерывов до года",
+        "problem": "Неверная длительность. Dispensa para amamentação/aleitação обычно — два отдельных периода, каждый до 1 часа, если иное не согласовано.",
+        "suggestion": "Написать: «Кормление/aleitação: обычно 2 периода в день до 1 часа каждый, оплачиваемо; для близнецов длительность увеличивается».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 47.º, 48.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0].content[0].text",
+        "current": "Если суд признает незаконным — compensação + восстановление.",
+        "problem": "Формулировка слишком упрощает: при незаконном увольнении возможны reintegração или indemnização вместо reintegração, плюс salários intercalares; при despedimento por justa causa за вину работника компенсация при законном увольнении не положена.",
+        "suggestion": "Написать: «Если увольнение признано незаконным — возможны reintegração или indemnização substitutiva, а также salários intercalares; при законном despedimento por justa causa компенсации нет».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 389.º–392.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].items[1]",
+        "current": "Уведомление за 30-75 дней (зависит от стажа)",
+        "problem": "Пропущен срок 15 дней для работников со стажем менее 1 года. Общая шкала: 15/30/60/75 дней.",
+        "suggestion": "Написать: «Aviso prévio: 15 дней при стаже <1 года, 30 дней при 1–5 годах, 60 дней при 5–10 годах, 75 дней при ≥10 годах».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 363.º, 371.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].items[2]",
+        "current": "Compensação: **14 дней зарплаты за каждый год стажа** (cap 12 × мес. зарплата или минимум 3 × мес. зарплаты)",
+        "problem": "Слишком упрощено и частично неверно. 14 дней — актуальное общее правило для некоторых прекращений после Lei 13/2023, но для старых контрактов действуют переходные периоды. «минимум 3 месячных зарплаты» не является корректным общим правилом для новых договоров; cap также сложнее и привязан к retribuição base + diuturnidades и лимитам RMMG.",
+        "suggestion": "Написать: «Compensação при collective/extinção/inadaptação обычно рассчитывается как 14 дней retribuição base + diuturnidades за год стажа, пропорционально за неполный год, но для старых договоров есть переходные правила; применяются законные caps, включая лимиты по 20×RMMG для месячной базы и общий cap».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 366.º; Lei 13/2023"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[2].content[0].text",
+        "current": "Если работник пропал > 10 рабочих дней без уважительной причины — работодатель может рассматривать как auto-dismissal.",
+        "problem": "Суть верная, но не хватает важной процедуры: работодатель должен направить работнику comunicação registada com aviso de receção на последний известный адрес; у работника есть возможность доказать уважительную причину.",
+        "suggestion": "Добавить: «Работодатель должен направить письменное уведомление заказным письмом с aviso de receção; работник может опровергнуть abandono, доказав причину отсутствия/невозможность сообщить».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 403.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[0].content[0].items[0]",
+        "current": "**CGTP-IN** — самый крупный, левый, 600 000 членов",
+        "problem": "Численность профсоюзов трудно верифицировать и может быть устаревшей/завышенной. Для практического гайда точные числа без источника лучше не давать.",
+        "suggestion": "Написать: «CGTP-IN — крупнейшая конфедерация профсоюзов, исторически левая» и убрать точное число членов либо дать датированный источник.",
+        "confidence": "medium",
+        "source": "CGTP-IN official materials"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[0].content[0].items[1]",
+        "current": "**UGT** — центристский, 400 000",
+        "problem": "Численность без источника может быть устаревшей/спорной.",
+        "suggestion": "Написать: «UGT — одна из двух главных confederações sindicais, более умеренная/социал-демократическая» и убрать точное число членов либо указать датированный источник.",
+        "confidence": "medium",
+        "source": "UGT official materials"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1].content[0].items[3]",
+        "current": "Штрафы работодателю: 500-61 000 €",
+        "problem": "Диапазон слишком общий и может вводить в заблуждение: coimas по трудовым нарушениям зависят от gravidade, negligência/dolo, оборота работодателя и повторности; для некоторых нарушений диапазоны иные.",
+        "suggestion": "Написать: «Штрафы зависят от типа нарушения, вины, оборота работодателя и повторности; могут составлять от сотен до десятков тысяч евро. ACT указывает конкретную квалификацию нарушения».",
+        "confidence": "medium",
+        "source": "Lei 107/2009; Código do Trabalho"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2].content[0].items[1]",
+        "current": "Срок: 1 год после события",
+        "problem": "Неверное обобщение. Оспаривание увольнения часто имеет намного более короткие сроки: например, ação de impugnação judicial da regularidade e licitude do despedimento обычно подаётся в течение 60 дней после получения решения об увольнении. Требования по трудовым кредитам обычно истекают через 1 год после прекращения договора, а не «после события».",
+        "suggestion": "Написать: «Сроки зависят от иска: оспаривание индивидуального увольнения — обычно 60 дней с получения решения; трудовые кредиты — обычно 1 год после прекращения договора. По срокам нужно срочно консультироваться с advogado/ACT».",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 337.º; Código de Processo do Trabalho, art. 98.º-C"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2].content[0].items[2]",
+        "current": "Advogado не обязателен (но рекомендуется)",
+        "problem": "Слишком общее утверждение. В трудовых судах в некоторых процедурах/инстанциях и при стоимости иска выше порога адвокат может быть обязателен; также Ministério Público может помогать работникам в определённых случаях.",
+        "suggestion": "Написать: «В некоторых трудовых процедурах работник может действовать без advogado или через Ministério Público, но при определённой стоимости иска/обжалованиях адвокат обязателен; практически лучше получить консультацию».",
+        "confidence": "medium",
+        "source": "Código de Processo do Trabalho; Estatuto da Ordem dos Advogados"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].items[2].content[0].items[3]",
+        "current": "Free legal aid (apoio judiciário) — если доход < IAS × 1.5",
+        "problem": "Неверно упрощено. Apoio judiciário определяется не простым порогом IAS×1.5, а расчётом insuficiência económica с учётом household, доходов, активов и расходов. IAS 2026 — €537.13, но такой прямой порог не является универсальным правилом.",
+        "suggestion": "Написать: «Apoio judiciário доступен при insuficiência económica; Segurança Social рассчитывает право по доходам/активам домохозяйства. IAS 2026 = €537,13 используется в формулах, но нет универсального правила “доход < 1,5×IAS”».",
+        "confidence": "high",
+        "source": "Lei 34/2004; Segurança Social — Proteção jurídica; IAS 2026 €537.13"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "отпуск 22 рабочих дня + 13 praznikov",
+        "problem": "Нужно уточнить, что кроме 13 обязательных национальных праздников обычно есть municipal holiday, а Carnaval может быть optional/tolerância de ponto или по коллективному договору/работодателю.",
+        "suggestion": "Написать: «22 рабочих дня отпуска + 13 обязательных national public holidays; также обычно есть municipal holiday, а Carnaval зависит от работодателя/sector/tolerância».",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 234.º–236.º"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "Segurança Social — prestações laborais — https://www.seg-social.pt/",
+        "problem": "Для больничных и parentalidade источник слишком общий; в гайде есть чувствительные проценты и сроки, лучше ссылаться на конкретные страницы Segurança Social.",
+        "suggestion": "Добавить отдельные источники: Segurança Social — Subsídio de doença; Segurança Social — Subsídio parental inicial; Segurança Social — Proteção jurídica.",
+        "confidence": "high",
+        "source": "Segurança Social"
+      }
+    ],
+    "missing_topics": [
+      "Срочные договоры: специальные trial periods для termo certo/termo incerto — 15 или 30 дней в зависимости от длительности договора.",
+      "Resignation by worker: для срочных договоров другие сроки aviso prévio — обычно 15/30 дней, а не 30/60.",
+      "Faltas justificadas: смерть родственника, свадьба, экзамены, уход за детьми, донорство крови и другие statutory absences.",
+      "Protection of pregnant/recent mother/breastfeeding worker and parental workers: особая защита от увольнения и роль CITE.",
+      "Harassment/discrimination: запрет assédio, igualdade salarial, protected characteristics и куда жаловаться.",
+      "Work accidents and occupational diseases: seguro de acidentes de trabalho обязателен, отдельный режим компенсаций.",
+      "Collective bargaining agreements: CCT/IRCT могут менять ставки, графики, meal allowance и отпуск в лучшую сторону.",
+      "Layoff, bank of hours/adaptability and shift work: часто встречающиеся режимы рабочего времени с отдельными правилами."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 7499,
+    "prompt_tokens": 3734,
+    "total_tokens": 11233
+  },
+  "model": "gpt-5.5"
+}

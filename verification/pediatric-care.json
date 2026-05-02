@@ -1,0 +1,168 @@
+{
+  "guideId": "pediatric-care",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful but contains several misleading SNS-process claims, an incorrect 18-year “transition” concept, an inflated/unsupported children-without-family-doctor figure, and weak official sourcing for DGS schedules and urgent-care rules.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "В SNS каждому ребёнку по umute назначается **médico de família**",
+        "problem": "Misleading: children are registered as utentes, but assignment of a médico de família is not guaranteed in practice because many units have no list capacity. The guide later admits wait-lists, creating an internal contradiction. Also 'umute' is a typo for 'utente'.",
+        "suggestion": "Write: \"После регистрации ребёнку присваивают Número de Utente; médico de família назначают, если в USF/UCSP есть свободные списки. Если места нет, ребёнок остаётся sem médico de família, но сохраняет доступ к вакцинации, Saúde Infantil через unidade/consulta aberta/enfermagem и urgent care.\"",
+        "confidence": "high",
+        "source": "SNS / Registo Nacional de Utentes; ACSS/SNS public reporting on utentes sem médico de família"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Педиатры — узкие специалисты для сложных случаев.",
+        "problem": "Overstates the model. In Portugal, pediatrics is a hospital/specialty-care medical specialty and private pediatricians commonly provide routine child care; it is not accurate to describe pediatricians only as 'narrow specialists for complex cases'.",
+        "suggestion": "Write: \"В SNS первичное наблюдение обычно ведёт médico de família/medicina geral e familiar и enfermeiro de família; pediatria в SNS обычно доступна через направление в hospital/specialty care. В частном секторе педиатры часто ведут и обычные профилактические консультации.\"",
+        "confidence": "high",
+        "source": "Ordem dos Médicos — Colégio da Especialidade de Pediatria; SNS primary care model"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0].content[0].items[5]",
+        "current": "⚠️ Если ваш центр здоровья без свободного doctor'ов — ставят в wait-list. В 2025 ~800 тыс детей в PT без family doctor",
+        "problem": "The '~800 thousand children' figure is very likely wrong/unsupported. Publicly discussed figures around 2024-2026 usually refer to total residents without a family doctor, not children only; child-specific figures are much lower and must be sourced if stated.",
+        "suggestion": "Either remove the number or write: \"В Португалии остаётся значительное число utentes sem médico de família; актуальные цифры проверяйте в SNS/ACSS transparency reports. Не все дети получают médico de família сразу.\"",
+        "confidence": "medium",
+        "source": "SNS Transparência / ACSS data on utentes sem médico de família"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1].content[0].items",
+        "current": "Бесплатно для utente, по graphику DGS: ... 1, 2, 4, 6, 9, 12 мес ... 13, 15, 18 лет",
+        "problem": "The DGS Programa Nacional de Saúde Infantil e Juvenil schedule is imprecisely reproduced: it includes a consultation in the first week of life and uses age bands such as 6-7 years, 12-13 years, and 15-18 years rather than separate fixed visits at 13, 15, and 18 in the way written.",
+        "suggestion": "Use the DGS wording: \"1.ª semana de vida; 1, 2, 4, 6, 9, 12, 15, 18 meses; 2, 3, 4, 5 anos; 6-7, 8, 10, 12-13 e 15-18 anos\" and note that local scheduling may vary.",
+        "confidence": "high",
+        "source": "DGS — Programa Nacional de Saúde Infantil e Juvenil"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0].content[0].items[1]",
+        "current": "Документы: паспорт / CC ребёнка, NIF, NISS, свидетельство о рождении, atestado de residência",
+        "problem": "NISS is not normally a mandatory document for getting a Número de Utente. For foreign children, the required proof depends on status and local interpretation; residence permit/visa/manifestação/CRUE or proof of residence may be more relevant than NISS.",
+        "suggestion": "Write: \"Обычно просят ID/passport or CC, birth certificate if needed, NIF if available, proof of address/residence status; NISS is useful but usually not a condition for Número de Utente. Requirements can vary by Centro de Saúde.\"",
+        "confidence": "high",
+        "source": "SNS / SPMS — Número de Utente and Registo Nacional de Utentes guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2].content[0].items[0]",
+        "current": "Направление от family doctor (через RRVE референсы) — бесплатно, но wait 2-6 мес",
+        "problem": "Wrong/confusing terminology. Referrals from primary care to hospital specialty consultations are generally handled through the SNS referral/access systems historically known as CTH and now integrated in SIGA SNS, not 'RRVE референсы'. Also '2-6 months' is too generic: waiting times vary by priority, specialty, hospital, and region.",
+        "suggestion": "Write: \"Направление от médico de família через систему referenciação/SIGA SNS para consulta hospitalar; для детей без taxas moderadoras. Ожидание зависит от приоритета и hospital and can range from weeks to many months.\"",
+        "confidence": "high",
+        "source": "ACSS/SNS — SIGA SNS and Consulta a Tempo e Horas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[1]",
+        "current": "Specialist pediatra (нейрогинек, кардио): 80-150 €",
+        "problem": "'нейрогинек' appears to be a typo or nonexistent specialty label in this context. It likely means pediatric neurology. The term is confusing for readers.",
+        "suggestion": "Replace with: \"subspecialty consultation, e.g. neurologia pediátrica, cardiologia pediátrica, endocrinologia pediátrica: ~80-150 €\".",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3].content[0].items[5]",
+        "current": "Обычно нет carência на педиатрию (immediately работает)",
+        "problem": "Potentially misleading. Many Portuguese health insurance plans apply waiting periods or exclusions for some pediatric-related acts, pre-existing conditions, hospitalization, exams, pregnancy/newborn inclusion, or higher tiers. Outpatient pediatric consultations may be immediate in some plans, but this is not universal.",
+        "suggestion": "Write: \"Для simples consultas de pediatria carência часто отсутствует или короткая, но это зависит от apólice; проверяйте carências for exams, hospitalization, pre-existing conditions and newborn inclusion.\"",
+        "confidence": "high",
+        "source": "Insurer policy conditions — Médis, Multicare, AdvanceCare"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[2]",
+        "current": "📞 **Сначала SNS 24 (808 24 24 24)** — оценят по Manchester triage",
+        "problem": "SNS 24 does not perform Manchester triage; Manchester Triage is used in emergency departments. SNS 24 uses telephone/clinical algorithms and may refer to self-care, primary care, emergency department, or INEM/112. Also for life-threatening symptoms the instruction should be 112, not SNS 24 first.",
+        "suggestion": "Write: \"При угрозе жизни — 112. В неэкстренных/сомнительных случаях сначала звоните SNS 24: 808 24 24 24; оператор/медсестра проведёт телефонную triagem and tells where to go. Manchester triage happens after arrival at hospital emergency.\"",
+        "confidence": "high",
+        "source": "SNS 24; INEM; Manchester Triage System in Portuguese emergency departments"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items",
+        "current": "🏥 **Lisboa**: Hospital Dona Estefânia — основной педиатрический, 24/7 ... 🏥 **Porto**: Hospital de São João, Centro Materno-Infantil do Norte ... Частные: CUF Tejo Pediatric, Luz Pediatric — меньше очередей",
+        "problem": "Urgency availability in Portugal changes frequently due to staffing constraints and reorganisation. Listing specific hospitals as simply '24/7' without telling readers to check the official open-services list can be unsafe. Private urgent care availability also varies by location and age.",
+        "suggestion": "Add: \"Перед поездкой проверяйте serviços de urgência disponíveis on SNS/ULS pages or call SNS 24; pediatric emergency units may have temporary constraints. For private hospitals, confirm pediatric urgent-care hours and accepted ages before going.\"",
+        "confidence": "high",
+        "source": "SNS — Serviços de Urgência / SNS 24"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[6]",
+        "current": "🎂 **18 лет — переход на взрослого family doctor**: автоматически переводят; иногда нужно подать request",
+        "problem": "Incorrect concept. A médico de família is already a general/family medicine doctor for all ages, not a pediatrician. At 18 the person leaves the Saúde Infantil e Juvenil programme and becomes followed as an adult patient, but there is usually no automatic transfer to a different 'adult family doctor' unless changing unit/list.",
+        "suggestion": "Write: \"После 18 лет заканчивается программа Saúde Infantil e Juvenil; тот же médico de família обычно продолжает наблюдение как взрослого utente. Отдельный transfer нужен только если меняете centro de saúde/lista или если ребёнок был followed mainly by pediatria.\"",
+        "confidence": "high",
+        "source": "SNS primary care / Medicina Geral e Familiar model; DGS PNSIJ age scope"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[7]",
+        "current": "🌍 **Для наблюдения специалиста за рубежом**: certificate «S2 form» от SS — покрытие лечения в другой стране ЕС при обоснованной необходимости (редко одобряют)",
+        "problem": "Misleading authority and scope. The S2 form is for prior-authorised planned healthcare in another EU/EEA/Switzerland country, not general 'specialist follow-up abroad'. In Portugal it is a healthcare/SNS authorisation route, not simply a Segurança Social certificate issued on request.",
+        "suggestion": "Write: \"Для planned treatment in another EU/EEA/Switzerland country may be possible through prior authorisation S2 from the competent Portuguese health authority/SNS route; it is not for ordinary private follow-up and must be approved before treatment. EHIC/CESD is different and covers necessary temporary-stay care.\"",
+        "confidence": "high",
+        "source": "European Commission — S2 planned medical treatment; SNS/ACSS cross-border healthcare guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "💊 **Рецепты**: электронные, действительны 6 мес для хронических; экономия ~50% в аптеке с SNS",
+        "problem": "Oversimplified. Prescription validity depends on prescription type/line and medicine. Reimbursement is not a flat ~50%; Portuguese comparticipação bands vary, commonly 90%, 69%, 37%, 15% or specific regimes, and many medicines are not reimbursed.",
+        "suggestion": "Write: \"Электронные рецепты имеют разные сроки действия depending on medicine/prescription type; chronic medicines can be issued as renewable/longer-validity prescriptions. SNS reimbursement depends on medicine and regime, not a fixed 50%.\"",
+        "confidence": "medium",
+        "source": "INFARMED — comparticipação de medicamentos; SPMS e-prescription rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "См. отдельный гайд «Prвички в Португалии»",
+        "problem": "Typo in the linked guide title ('Prвички') and no actual link. For vaccines this guide should point to the official PNV source, because schedules change.",
+        "suggestion": "Fix the title to \"Прививки в Португалии\" and add a link/source to the current DGS Programa Nacional de Vacinação page or Norma.",
+        "confidence": "high",
+        "source": "DGS — Programa Nacional de Vacinação"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "DGS — Saúde Infantil e Juvenil / https://www.dgs.pt/",
+        "problem": "Too generic. The guide gives specific consultation ages, so the source should be the actual DGS Programa Nacional de Saúde Infantil e Juvenil document/page, not the DGS homepage.",
+        "suggestion": "Replace or add a direct source: \"DGS — Programa Nacional de Saúde Infantil e Juvenil\" with the direct DGS PDF/page URL.",
+        "confidence": "high",
+        "source": "DGS — Programa Nacional de Saúde Infantil e Juvenil"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "SNS — Programa Saúde Infantil / https://www.sns.gov.pt/",
+        "problem": "Too generic and not enough for claims about scheduling, SNS 24, urgent care, and app functionality.",
+        "suggestion": "Add direct sources for SNS 24 telephone triage, pediatric urgent-care access/open services, and the SNS app/Área Pessoal do SNS.",
+        "confidence": "high",
+        "source": "SNS 24; SNS — Serviços de Urgência; SPMS — app SNS 24"
+      }
+    ],
+    "missing_topics": [
+      "Clear distinction between 112 emergencies and SNS 24 triage for non-life-threatening pediatric problems",
+      "Official way to check which pediatric emergency departments are open or constrained before travelling",
+      "What happens if a child has no médico de família: vaccination room, nurse consultations, consulta aberta/atendimento complementar, and how to book",
+      "Direct DGS sources for Programa Nacional de Saúde Infantil e Juvenil and Programa Nacional de Vacinação",
+      "Newborn-specific items: first-week consultation, teste do pezinho/rastreio neonatal, and how newborns born in Portugal get registered in SNS",
+      "Clarification that private insurance conditions vary: waiting periods, pre-existing conditions, newborn inclusion, exams and hospitalization limits"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5037,
+    "prompt_tokens": 3460,
+    "total_tokens": 8497
+  },
+  "model": "gpt-5.5"
+}

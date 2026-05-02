@@ -1,0 +1,186 @@
+{
+  "guideId": "utilities-transfer",
+  "categoryId": "daily_life",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд полезен по общей логике, но содержит несколько существенных ошибок: неверно описан регулируемый рынок, ошибочно требует Certificado Energético для подключения, переоценивает «перенос» контрактов при переезде и неверно называет Poupa Energia агрегатором ERSE.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Адрес-перенос контрактов при переезде — 5–15 дней, без штрафа, по закону Decreto-Lei 38/2017.»",
+        "problem": "Формулировка вводит в заблуждение. При переезде обычно речь не о юридическом «переносе» того же контракта на другой CPE/CUI, а о закрытии старого места потребления и заключении/активации контракта на новом адресе. Тарифные условия и номер контракта не всегда сохраняются. Смена поставщика как процесс бесплатна, но если у клиента есть fidelização/период лояльности с предоставленной выгодой, досрочное прекращение может иметь договорные последствия.",
+        "suggestion": "Заменить на: «При переезде обычно закрывают контракт на старом CPE/CUI и открывают новый на новом адресе; сроки зависят от наличия активного счётчика и необходимости визита техника. Смена поставщика бесплатна, но проверьте, нет ли в договоре fidelização/условий досрочного расторжения.»",
+        "confidence": "high",
+        "source": "ERSE — mudança de comercializador; Decreto-Lei 38/2017"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "«Электричество и газ в PT с 2015 года liberalizado — любой может быть поставщиком, цены свободные. Параллельно с 2021 вернулся регулируемый тариф для уязвимых клиентов (senior, низкий доход).»",
+        "problem": "Неточно. Либерализация рынков электроэнергии и природного газа в Португалии происходила поэтапно задолго до 2015 года. Регулируемые/транзиторные тарифы не «вернулись с 2021 только для senior/низкого дохода». Для электроэнергии регулируемый поставщик последней инстанции/транзиторные тарифы сохранялись и продлевались; доступ к регулируемому тарифу для бытовых клиентов шире, чем только уязвимые клиенты. Для природного газа возврат к регулируемому тарифу для малых потребителей был введён в 2022 на фоне энергетического кризиса. Социальный тариф — отдельная мера и не основан просто на возрасте senior.",
+        "suggestion": "Написать: «Электричество и природный газ продаются на либерализованном рынке: бытовой клиент может выбирать поставщика. Параллельно существуют регулируемые/транзиторные тарифы через comercializador de último recurso и социальный тариф для клиентов, соответствующих установленным критериям дохода/социальных пособий; это не просто категория “senior”. Для газа малые потребители получили возможность вернуться к регулируемому тарифу с 2022 года.»",
+        "confidence": "high",
+        "source": "ERSE — tarifas reguladas e tarifa social; Decreto-Lei 57-B/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[4]",
+        "current": "«💡 Сравнение тарифов: poupaenergia.pt (официальный агрегатор ERSE)»",
+        "problem": "Poupa Energia некорректно назван официальным агрегатором ERSE. Официальный симулятор ERSE находится на сайте ERSE. Poupa Energia связан с государственными энергетическими/эффективностными инициативами, но не является «официальным агрегатором ERSE» в строгом смысле.",
+        "suggestion": "Заменить на: «Сравнение тарифов: официальный simulador de preços de energia на сайте ERSE; также можно проверять Poupa Energia/ADENE, если сервис доступен, но сверяйте с ERSE и сайтами поставщиков.»",
+        "confidence": "high",
+        "source": "ERSE — Simulador de preços de energia"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3].content[0].text",
+        "current": "«Официальный сайт ERSE. Ввести постальный код, потребление, мощность → список всех тарифов с ценой в месяц.»",
+        "problem": "Это продолжает ту же ошибку: poupaenergia.pt не следует описывать как официальный сайт ERSE. Кроме того, ни один сравниватель не гарантирует абсолютно «все» коммерческие условия в реальном времени, особенно кампании, пакеты dual fuel, услуги assistência, descontos за débito direto/fatura eletrónica и fidelização.",
+        "suggestion": "Написать: «Для первичного сравнения используйте симулятор ERSE на erse.pt; затем проверьте условия на сайте поставщика: цену kWh, potência/termo fixo, скидки, e-fatura/débito direto, fidelização и дополнительные услуги.»",
+        "confidence": "high",
+        "source": "ERSE — Simulador de preços de energia"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[1].text",
+        "current": "«Новый подключение требует Certificado Energético здания (обновляется каждые 10 лет). В старых зданиях часто не обновлён — решите с landlord / владельцем.»",
+        "problem": "Фактически неверно и может заставить читателя требовать у арендодателя не тот документ. Certificado Energético нужен, как правило, при продаже/аренде недвижимости, но не является стандартным документом для заключения бытового договора на электричество или газ. Для новых/изменённых электрических установок могут потребоваться документы по электрической установке/termo de responsabilidade/inspeção, а для газа — inspeção/certificado da instalação de gás, но это не Certificado Energético здания.",
+        "suggestion": "Заменить на: «Для обычной смены держателя/нового контракта на уже подключённом CPE/CUI Certificado Energético не нужен. Если установка новая, давно отключена или менялась мощность/газовая установка, поставщик или оператор сети может запросить документы по электрической установке или certificado/inspeção da instalação de gás.»",
+        "confidence": "high",
+        "source": "ADENE/SCE — Certificado Energético; DGEG — instalações elétricas e gás"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[1]",
+        "current": "«Bi-horária — дневная / ночная (с 22:00 до 08:00)»",
+        "problem": "Слишком упрощено. В bi-horária часы vazio/fora de vazio зависят от выбранного ciclo diário или ciclo semanal и от сезона; «22:00–08:00» не универсально.",
+        "suggestion": "Написать: «Bi-horária — vazio/fora de vazio; часы зависят от ciclo diário/semanal и сезона, проверьте таблицу ERSE/поставщика. Часто ночные часы выгоднее, но не всегда ровно 22:00–08:00.»",
+        "confidence": "high",
+        "source": "ERSE — ciclos horários"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[0].items[2]",
+        "current": "«Tri-horária — пик/полу-пик/off-peak (для промышленности)»",
+        "problem": "Вводит в заблуждение: tri-horária не является исключительно промышленным тарифом; она может встречаться и у бытовых/малых клиентов в зависимости от типа поставки и условий. Корректнее сказать, что она имеет смысл при подходящем профиле потребления и более сложна для бытового клиента.",
+        "suggestion": "Заменить на: «Tri-horária — ponta/cheias/vazio; чаще полезна при управляемом профиле потребления, но не только для промышленности.»",
+        "confidence": "medium",
+        "source": "ERSE — opções tarifárias e ciclos horários"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[1]",
+        "current": "«CPE для электричества, CUI для газа) — на уже установленном счётчике»",
+        "problem": "CPE/CUI не всегда легко найти физически на счётчике; надёжнее искать в старом счёте, договоре, у арендодателя/предыдущего жильца или запрашивать у оператора сети по адресу/данным счётчика.",
+        "suggestion": "Написать: «CPE/CUI обычно есть в счёте старого поставщика; если счёта нет — запросите у landlord/предыдущего жильца или у оператора сети по адресу/номеру счётчика.»",
+        "confidence": "high",
+        "source": "E-Redes — CPE; ERSE — CUI gás natural"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[5]",
+        "current": "«📊 Meter reading — раз в 2 месяца, самостоятельно или по телефону»",
+        "problem": "Слишком категорично. Во многих местах установлены smart meters с дистанционными показаниями; если дистанционного чтения нет, клиент может передавать показания в рекомендованные окна. Периодичность фактического/оценочного считывания зависит от энергии, оператора сети и типа счётчика.",
+        "suggestion": "Написать: «Показания: при smart meter часто передаются дистанционно; иначе передавайте в приложении/онлайн/по телефону в указанные поставщиком окна, чтобы избежать estimativas.»",
+        "confidence": "high",
+        "source": "ERSE — leituras e estimativas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[0].content[0].text",
+        "current": "«Запрос через приложение: “Alteração de morada do contrato”. Сохраняется тариф, номер контракта. Срок 5–10 дней.»",
+        "problem": "Не универсально. У многих поставщиков переезд оформляется как прекращение старого supply point и новый договор на новом CPE/CUI. Номер договора и тариф могут не сохраниться, а срок зависит от того, активна ли точка поставки, есть ли счётчик, нужна ли inspeção/visita técnica и нет ли долгов/документальных проблем.",
+        "suggestion": "Написать: «Уточните у поставщика процедуру mudança de casa: часто старый CPE/CUI закрывается, а на новый адрес оформляется новый contrato. Тариф/номер договора могут измениться. Если счётчик активен — обычно быстрее; если нужен техник/инспекция — дольше.»",
+        "confidence": "high",
+        "source": "ERSE — contratação e mudança de comercializador"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].text",
+        "current": "«Предыдущий жилец оставил контракт — закрываете его заявлением, сразу оформляете свой. Без задержек.»",
+        "problem": "Нельзя просто «закрыть» чужой контракт обычным заявлением, если вы не являетесь titular. Обычно новый поставщик/оператор оформляет контракт на нового клиента на том же CPE/CUI, а прежний titular должен закрыть свой договор или процесс урегулируется через смену titular/novo contrato. Возможны задержки, если есть спор, отсутствие документов или объект всё ещё занят.",
+        "suggestion": "Написать: «Если на адресе ещё активен контракт предыдущего жильца, попросите landlord/предыдущего жильца закрыть его или оформляйте новый договор на своё имя с CPE/CUI и документом на право пользования жильём; возможны задержки.»",
+        "confidence": "high",
+        "source": "ERSE — contratação de energia"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2].content[0].text",
+        "current": "«Нужна reactivação: 50–100 € + техник на объект. Срок до 15 дней. Если счётчик старый — обязательная замена.»",
+        "problem": "Сумма и обязательная замена счётчика изложены как правило, но это не универсально. Стоимость зависит от того, это электричество или газ, была ли interrupção por facto imputável ao cliente, нужна ли inspeção, новое подключение/ramal, изменение мощности и т.д. Старый счётчик не означает автоматическую обязательную замену за счёт клиента.",
+        "suggestion": "Написать: «Если supply point отключён, поставщик проверит, нужна ли ativação/religação, visita técnica или inspeção. Стоимость зависит от услуги и таблиц оператора/поставщика; запросите orçamento. Замена счётчика требуется только в предусмотренных оператором случаях.»",
+        "confidence": "high",
+        "source": "ERSE — serviços regulados de eletricidade/gás; operadores de rede"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1]",
+        "current": "«⚖️ ERSE — регулятор, erse.pt/reclamações»",
+        "problem": "URL с кириллической/акцентированной формой в таком виде не является надёжной ссылкой. У ERSE страницы обычно без португальских акцентов в slug; жалобы часто подаются через Livro de Reclamações или через форму/раздел consumidores/reclamações.",
+        "suggestion": "Заменить на полный URL без акцента, например раздел ERSE для consumidores/reclamacoes, и отдельно оставить livroreclamacoes.pt как основной канал Livro de Reclamações Eletrónico.",
+        "confidence": "medium",
+        "source": "ERSE — Reclamações; Livro de Reclamações Eletrónico"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2]",
+        "current": "«DGEG (Direcção-Geral de Energia)»",
+        "problem": "Название неполное и с устаревшей орфографией. Официально: Direção-Geral de Energia e Geologia.",
+        "suggestion": "Заменить на: «DGEG — Direção-Geral de Energia e Geologia».",
+        "confidence": "high",
+        "source": "DGEG"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[3]",
+        "current": "«💰 CTC (Centro de Arbitragem de Conflitos de Consumo) — на региональном уровне»",
+        "problem": "Аббревиатура CTC не является стандартной для потребительского арбитража. В Португалии есть Centros de Arbitragem de Conflitos de Consumo, региональные центры, а также CNIACC для зон без компетентного центра. Лучше не вводить несуществующую/неочевидную аббревиатуру.",
+        "suggestion": "Написать: «Centros de Arbitragem de Conflitos de Consumo — региональный центр по месту жительства/поставщика; если нет компетентного регионального центра, проверьте CNIACC.»",
+        "confidence": "high",
+        "source": "Direção-Geral do Consumidor — Centros de Arbitragem; CNIACC"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[5]",
+        "current": "«📅 Задержки возмещения / кредита >30 дней — штраф поставщику»",
+        "problem": "Слишком общее утверждение. В энергетике есть стандарты качества обслуживания и компенсации при нарушении отдельных сроков, но не всякая задержка любого «возмещения/кредита» более 30 дней автоматически означает штраф поставщику в пользу клиента.",
+        "suggestion": "Заменить на: «Если поставщик нарушает сроки ответа, исправления счёта или возврата сумм, проверьте правила качества обслуживания ERSE: в некоторых случаях положена компенсация/juros, но срок и механизм зависят от ситуации.»",
+        "confidence": "medium",
+        "source": "ERSE — Regulamento da Qualidade de Serviço"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "«Poupa Energia — comparador oficial ERSE», url: «https://www.poupaenergia.pt/»",
+        "problem": "Название источника неточное: не следует атрибутировать Poupa Energia как официальный comparador ERSE. Для чувствительной рекомендации по выбору тарифа нужен официальный источник ERSE с симулятором цен.",
+        "suggestion": "Переименовать источник в «Poupa Energia — portal de comparação/energia» без ERSE или заменить/добавить «ERSE — Simulador de preços de energia» с URL на страницу симулятора ERSE.",
+        "confidence": "high",
+        "source": "ERSE — Simulador de preços de energia"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "«Decreto-Lei 38/2017 — comercialização de electricidade»",
+        "problem": "Источник указан слишком узко/неточно для тем, которые покрывает гайд: смена поставщика, договоры, качество обслуживания, жалобы и отключения регулируются также регламентами ERSE и иными актами. Один Decreto-Lei 38/2017 не подтверждает все утверждения про переезд, штрафы, сроки и компенсации.",
+        "suggestion": "Добавить источники ERSE: Regulamento de Relações Comerciais, Regulamento da Qualidade de Serviço, página sobre mudança de comercializador, página sobre leituras/estimativas и tarifa social.",
+        "confidence": "high",
+        "source": "ERSE — Regulamento de Relações Comerciais; Regulamento da Qualidade de Serviço"
+      }
+    ],
+    "missing_topics": [
+      "Tarifa social de energia: критерии, автоматическое применение через AT/Segurança Social и что это не просто «senior».",
+      "Разница между comercializador и operador de rede: поставщика выбирает клиент, но сетью управляют E-Redes/операторы gás; при авариях и счётчиках часто нужен оператор сети.",
+      "Fidelização и дополнительные услуги assistência: при сравнении тарифов проверять срок лояльности, штрафы, e-fatura/débito direto, пакеты dual fuel.",
+      "Smart meters и estimativas: как передавать показания, чтобы избежать перерасчётов.",
+      "Безопасность газа: inspeção da instalação de gás при новом подключении, изменениях, утечках или длительном отключении.",
+      "Правила отключения за неуплату: предварительное уведомление, сроки, ограничения для clientes economicamente vulneráveis/serviços essenciais."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5458,
+    "prompt_tokens": 2868,
+    "total_tokens": 8326
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,17 @@
+{
+  "guideId": "common-scams",
+  "categoryId": "emergency_rights",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Expected ':' after property name in JSON at position 43 (line 3 column 13)",
+    "raw": "{\n  \"verdict\": \"major_issues\",\n  \"summary \"Guide is useful as practical anti-scam advice, but it contains several factual/legal inaccuracies around real-estate licensing, tax representation, complaint channels, taxi pricing, and over-broad claims about official communications.\",\n  \"issues\": [\n    {\n      \"severity\": \"critical\",\n      \"where\": \"steps[0].content[1].items[1].content[1].text\",\n      \"current\": \"ПРАВИЛО: проверяйте лицензию агента в AMI (Associação dos Mediadores Imobiliários, ami.pt",
+    "issues": [],
+    "missing_topics": []
+  },
+  "usage": {
+    "completion_tokens": 4700,
+    "prompt_tokens": 3581,
+    "total_tokens": 8281
+  },
+  "model": "gpt-5.5"
+}

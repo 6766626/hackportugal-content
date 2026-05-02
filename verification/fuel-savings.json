@@ -1,0 +1,213 @@
+{
+  "guideId": "fuel-savings",
+  "categoryId": "auto_ownership",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has useful practical intent, but several fuel-market mechanics, app names, loyalty partnerships and EV charging price explanations are factually wrong or misleading for Portugal in 2026.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Цены в PT свободные, но регулируются рыночно. Государство публикует weekly рекомендованные макс цены — все АЗС держатся ниже.",
+        "problem": "Mainland Portugal does not have government-published “recommended maximum prices” that all stations stay below. ERSE publishes a weekly “preço eficiente” reference price, which is informative and non-binding; DGEG publishes station prices. Maximum/administered prices are a separate issue mainly in autonomous regions such as Madeira/Azores.",
+        "suggestion": "Write: “На материковой части Португалии цены на топливо свободные. ERSE еженедельно публикует ориентир ‘preço eficiente’ — это не максимум и не обязательная цена. Актуальные цены по конкретным АЗС лучше проверять в DGEG Preços dos Combustíveis Online.”",
+        "confidence": "high",
+        "source": "ERSE — Preço eficiente dos combustíveis; DGEG — Preços dos Combustíveis Online"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "дизель (gasoline) 1.55-1.75 €/л",
+        "problem": "Diesel is not gasoline. This is a confusing translation error in a guide for drivers.",
+        "suggestion": "Replace with “дизель/gasóleo 1.55–1.75 €/л”.",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1].content[0].items[3]",
+        "current": "Острова (Azores, Madeira): дороже (transport cost)",
+        "problem": "Misleading. Fuel prices in the autonomous regions are administratively set/controlled and can be lower or higher than mainland prices depending on the period and fuel type; they are not simply “more expensive because of transport cost”.",
+        "suggestion": "Write: “Острова: цены регулируются региональными властями и отличаются от материка; проверяйте актуальные максимальные цены Madeira/Açores отдельно.”",
+        "confidence": "high",
+        "source": "Governo Regional da Madeira fuel maximum prices; Governo dos Açores fuel prices"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items",
+        "current": "ComboMais / IdealGás / Buy the Way / WayZ (Intermarché) / GAS by Galp / ERSE portal",
+        "problem": "The app list is unreliable. The official source for station-level fuel prices is DGEG’s Preços dos Combustíveis Online, not ERSE. “WayZ (Intermarché)” appears to confuse Waze with a non-existent Intermarché app; “GAS by Galp” is not the standard Galp consumer app naming; “Buy the Way” is not a general cheapest-fuel comparison app for all Portuguese stations.",
+        "suggestion": "Replace the list with safer wording: “Официально: DGEG Preços dos Combustíveis Online. Популярные неофициальные варианты: Mais Gasolina, Waze/Google Maps с пользовательскими ценами, приложения сетей вроде Mundo Galp/Repsol Move/BPme/Prio для скидок конкретной сети.”",
+        "confidence": "medium",
+        "source": "DGEG — Preços dos Combustíveis Online"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].items[5]",
+        "current": "**ERSE portal** (www.erse.pt) — регулятор энергетики, еженедельные цены",
+        "problem": "ERSE is the energy regulator and publishes reference/efficient prices, but it is not the primary portal for current prices at every fuel station. For users trying to find the cheapest nearby station, DGEG’s fuel-price portal is the relevant official source.",
+        "suggestion": "Write: “DGEG Preços dos Combustíveis Online — официальный поиск цен по конкретным АЗС; ERSE — справочный еженедельный ‘preço eficiente’.”",
+        "confidence": "high",
+        "source": "DGEG — Preços dos Combustíveis Online; ERSE — Preço eficiente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[1].content[0].items[3]",
+        "current": "Если ехать 5 км доп = бензин потребляет ~3 €, wash",
+        "problem": "The arithmetic is wrong. Even a 10 km round trip at 7 l/100 km and €1.80/l costs about €1.26 in fuel, not €3. A 5 km total detour is about €0.63. The time cost may still make it not worth it, but the fuel calculation is overstated.",
+        "suggestion": "Write: “50 л × €0.05 = €2.50 экономии. 10 км лишнего пути при 7 л/100 км и €1.80/л ≈ €1.25 топлива, плюс время; 20–25 км уже обычно съедают выгоду.”",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[1]",
+        "current": "🏆 **Pingo Doce + Repsol**: Poupa Mais — 0.10 €/л",
+        "problem": "Wrong partnership. Poupa Mais is associated with Pingo Doce and BP in Portugal, not Repsol. Repsol has its own Repsol Move/app and separate partnerships/promotions.",
+        "suggestion": "Replace with “Pingo Doce + BP: Poupa Mais/BP — скидки зависят от купонов и кампаний, часто в cêntimos/litro; проверяйте условия в приложении/талоне.”",
+        "confidence": "high",
+        "source": "Pingo Doce Poupa Mais; BP Portugal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[1].content[0].items[0]",
+        "current": "🏆 **Continente + Galp**: Cartão Continente на Galp = 0.12 €/л скидка (лучшая commercial)",
+        "problem": "Too absolute. Continente/Galp discounts are campaign/coupon-based and conditions vary by period, minimum spend, fuel type, maximum litres, and whether the benefit is direct discount or balance on Cartão Continente. It is misleading to present €0.12/l as a guaranteed standing discount.",
+        "suggestion": "Write: “Continente + Galp: часто бывают купоны/кампании на несколько cêntimos por litro, иногда около €0.10–0.12/л, но условия, лимит литров и способ начисления зависят от акции.”",
+        "confidence": "high",
+        "source": "Cartão Continente; Galp/Continente campaign terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[0]",
+        "current": "**BP PLUS** — 0.06 €/л скидка + 0.02 € cashback",
+        "problem": "BP Plus is primarily a business/fleet fuel-card product, not a normal consumer loyalty card, and fixed discounts/cashback are contract/campaign-dependent. Presenting it as a free standard loyalty card with guaranteed discounts is misleading.",
+        "suggestion": "Write: “BPme/Poupa Mais — consumer discounts depend on coupons/campaigns. BP Plus/BP Fleet — business/fleet card with negotiated conditions.”",
+        "confidence": "high",
+        "source": "BP Portugal — BP Plus; BPme; Poupa Mais"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[0].content[0].items[1]",
+        "current": "**Galp Poupa** — 0.04-0.08 €/л + кэшбек в Continente (connected)",
+        "problem": "The naming and mechanics are imprecise. Galp consumer loyalty is generally via Mundo Galp/Galp app and partner campaigns; cashback/Cartão Continente benefits depend on current campaign terms and are not a guaranteed fixed range.",
+        "suggestion": "Write: “Galp/Mundo Galp + Cartão Continente: скидки и saldo зависят от купонов и кампаний; проверяйте лимит литров и можно ли суммировать с другими скидками.”",
+        "confidence": "medium",
+        "source": "Galp Portugal; Cartão Continente"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].items[2]",
+        "current": "ИП (recibos verdes) тоже могут оформить при обороте > 10000 €/год",
+        "problem": "No general Portuguese rule says a sole trader with recibos verdes needs turnover above €10,000/year to obtain a fuel card. Eligibility is set by each issuer, may require NIF/NIPC, credit approval, direct debit, business activity, fleet size or minimum consumption, but not a universal €10,000 threshold.",
+        "suggestion": "Write: “Trabalhador independente/ENI иногда может оформить business fuel card, но условия зависят от эмитента: кредитная проверка, способ оплаты, NIF/NIPC, минимальный расход или оборот по договору.”",
+        "confidence": "high",
+        "source": "Galp Frota; BP Plus; Repsol Solred/Frota terms"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0]",
+        "current": "📅 **Заправляться вторник-четверг**: цены обычно ниже, чем в пятницу-воскресенье",
+        "problem": "Unsupported and likely misleading for Portugal. Retail fuel prices often change weekly, commonly around Monday following international price movements, but there is no general rule that Tuesday–Thursday is cheaper than Friday–Sunday across stations. Some chains run promotions on specific days, but those are network-specific.",
+        "suggestion": "Write: “Следите за еженедельными изменениями цен: в Португалии крупные изменения часто вступают в начале недели. Дни скидок зависят от сети/купона, поэтому проверяйте приложение конкретной АЗС.”",
+        "confidence": "high",
+        "source": "ERSE weekly fuel reference prices; DGEG fuel prices"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1]",
+        "current": "🌅 **Утром**: АЗС обновляет цены утром — иногда лучше чем вечером (но разница мала)",
+        "problem": "Over-generalised. Stations may update displayed prices at different times; there is no reliable Portugal-wide morning-vs-evening arbitrage rule.",
+        "suggestion": "Write: “Время суток обычно не даёт стабильной выгоды; важнее цена конкретной АЗС и купоны.”",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "🏝️ **Перед Alentejo / Algarve**: заправиться в Лиссабоне, там дешевле чем в туристических зонах",
+        "problem": "Too broad. Lisbon is not reliably cheaper; supermarket and inland stations in Alentejo/Algarve can be cheaper than urban Lisbon. Motorway/tourist-area stations are the expensive ones, not the whole region.",
+        "suggestion": "Write: “Перед дальней поездкой избегайте АЗС на автострадах и в туристических точках; сравните DGEG/приложения — дешёвая станция может быть как в пригороде Лиссабона, так и в Alentejo/Algarve.”",
+        "confidence": "medium",
+        "source": "DGEG — Preços dos Combustíveis Online"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3]",
+        "current": "🇪🇸 **Испания**: на границе (Badajoz, Huelva) — бензин на 0.20-0.30 €/л дешевле.",
+        "problem": "The Portugal–Spain price gap fluctuates with taxes, crude prices and local competition. Spain is often cheaper, but €0.20–0.30/l is not guaranteed and can be much smaller.",
+        "suggestion": "Write: “Испания часто дешевле, но разница меняется; перед поездкой сравните цены по обе стороны границы.”",
+        "confidence": "high",
+        "source": "European Commission Weekly Oil Bulletin; DGEG; Spanish MITECO fuel price portal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items",
+        "current": "AC charging: 0.25-0.35 €/кВт·ч ... DC fast: 0.40-0.55 €/кВт·ч ...",
+        "problem": "Public EV charging in Portugal is not usually billed as a simple all-in €/kWh. The Mobi.E system combines CEME energy tariff, OPC station fee often by minute/session/kWh, EGME fee, IEC and VAT. Final effective €/kWh varies heavily by operator, power, time connected and charging card/app. The guide’s simple public AC/DC ranges can understate or misrepresent actual bills.",
+        "suggestion": "Write: “В публичной сети Mobi.E итоговая цена = тариф CEME + комиссия оператора станции OPC + сборы/налоги; цена может быть по кВт·ч, минутам и/или сессии. Перед зарядкой проверяйте симулятор/приложение CEME, а не только €/кВт·ч.”",
+        "confidence": "high",
+        "source": "Mobi.E; ERSE electric mobility tariffs"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[3]",
+        "current": "Tesla Supercharger: 0.35-0.45 €/кВт·ч (для не-Tesla),  -10% для Tesla ownerов",
+        "problem": "Tesla Supercharger prices are dynamic by site, time and membership status. Non-Tesla access and member/non-member prices vary; a fixed “-10% for Tesla owners” is not the standard rule.",
+        "suggestion": "Write: “Tesla Supercharger: цена зависит от станции, времени и членства Tesla; проверяйте в приложении Tesla перед зарядкой.”",
+        "confidence": "high",
+        "source": "Tesla Portugal Supercharger pricing in Tesla app"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0].content[0].items[0]",
+        "current": "Premium (Galp, BP, Repsol, ENI, Cepsa/Moeve)",
+        "problem": "ENI is not a prominent current retail fuel brand in Portugal in the way Galp/BP/Repsol/Cepsa-Moeve are. Including it as a normal major premium network may confuse readers.",
+        "suggestion": "Use current common networks: “Galp, BP, Repsol, Cepsa/Moeve” and optionally “Shell/Prio/others depending on area” only if verified.",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0].content[0].items[1]",
+        "current": "🟡 **Mid** (OMV, Prio, BPCarga)",
+        "problem": "“BPCarga” is not a standard Portuguese retail fuel-station network category. BP is a premium retail network; BP Carga may be confused with fleet/cards/logistics.",
+        "suggestion": "Remove “BPCarga”; if referring to BP stations, list BP under premium. If referring to fleet cards, mention under corporate cards only.",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.erse.pt/",
+        "problem": "Generic homepage is not the best source for fuel prices. The guide makes specific claims about station prices and weekly reference prices, so it should link to the relevant ERSE fuel-price page or explicitly cite DGEG for station prices.",
+        "suggestion": "Add specific official sources: ERSE page for “preço eficiente dos combustíveis” and DGEG “Preços dos Combustíveis Online” at https://precoscombustiveis.dgeg.gov.pt/.",
+        "confidence": "high",
+        "source": "ERSE; DGEG"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://www.dgeg.gov.pt/",
+        "problem": "Generic DGEG homepage is less useful than the actual fuel-price portal for users checking local stations.",
+        "suggestion": "Use/add: https://precoscombustiveis.dgeg.gov.pt/ as the primary official URL for station-level prices.",
+        "confidence": "high",
+        "source": "DGEG — Preços dos Combustíveis Online"
+      }
+    ],
+    "missing_topics": [
+      "Official DGEG Preços dos Combustíveis Online portal as the main station-level price source",
+      "Difference between ERSE ‘preço eficiente’ reference price and actual retail prices",
+      "Autonomous regions Madeira/Azores have regulated/administered fuel prices and should be checked separately",
+      "Loyalty discounts are usually campaign/coupon-based, with litre limits, minimum purchases and non-stackability rules",
+      "For business users, invoices should include NIF and fuel-card eligibility is issuer-specific, not based on a universal turnover threshold",
+      "Portugal EV public charging/Mobi.E billing structure: CEME + OPC + fees + taxes, often not a simple €/kWh comparison"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5323,
+    "prompt_tokens": 3129,
+    "total_tokens": 8452
+  },
+  "model": "gpt-5.5"
+}

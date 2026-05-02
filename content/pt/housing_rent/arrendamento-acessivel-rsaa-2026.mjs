@@ -1,0 +1,78 @@
+export default {
+  editorialVoice: 'hackportugal',
+  id: 'arrendamento-acessivel-rsaa-2026',
+  categoryId: 'housing_rent',
+  title: 'RSAA — Regime Simplificado de Arrendamento Acessível a partir de junho de 2026',
+  tldr: 'A 1 de junho de 2026 entra em vigor o RSAA — Regime Simplificado de Arrendamento Acessível, ao abrigo do Decreto-Lei 44/2025. Se o contrato de arrendamento habitacional cumprir o limite: renda mensal ≤ 80% da renda mediana de mercado do INE para a localização/tipologia e, em qualquer caso, ≤ 2 300 €, o senhorio beneficia de 0% de IRS/IRC sobre essa renda em vez dos habituais 10–28%, e o arrendatário residente para efeitos de IRS poderá aumentar a dedução da renda: até 900 € em 2026 e até 1 000 € a partir de 2027.',
+  tags: ['arrendamento', 'rsaa', 'irs', 'habitação'],
+  estimatedReadMinutes: 6,
+  steps: [
+    {
+      id: 'what-changes',
+      title: 'O que muda a partir de 1 de junho de 2026',
+      content: [
+        { kind: 'paragraph', text: 'O RSAA — Regime Simplificado de Arrendamento Acessível — é um novo regime fiscal para contratos de arrendamento habitacional de longa duração. Não elimina o arrendamento urbano normal, mas acrescenta uma forte motivação fiscal para arrendar abaixo do mercado.' },
+        { kind: 'paragraph', text: 'A lógica principal: se a renda mensal estiver dentro do preço “acessível”, o Estado isenta o rendimento do senhorio de imposto, e o arrendatário recebe uma dedução mais elevada no IRS.' },
+        { kind: 'checklist', items: ['Início da aplicação: 1 de junho de 2026.', 'Base legal: Decreto-Lei 44/2025.', 'Para o senhorio: isenção de IRS/IRC sobre o rendimento desse contrato — na prática, 0%.', 'A taxa normal para arrendamento de longa duração fora dos benefícios em 2026 depende da duração do contrato e pode rondar 10–28%.', 'Para o arrendatário: dedução à coleta da renda até 900 € em 2026.', 'A partir de 2027, o limite da dedução para o arrendatário aumenta para 1 000 €.', 'Limite-chave da renda: não superior a 80% da renda mediana do INE para o mercado correspondente e não superior a 2 300 € por mês.'] }
+      ]
+    },
+    {
+      id: 'rent-limit',
+      title: 'Como perceber se a sua renda cumpre o limite',
+      content: [
+        { kind: 'paragraph', text: 'Um contrato não passa a ser RSAA só porque as partes o escreveram assim. É necessário passar um teste de preço. Verifica-se a renda mensal: deve ser não superior a 80% do valor mediano das rendas publicado pelo INE para o território/tipologia correspondente e, ao mesmo tempo, não superior ao teto absoluto de 2 300 €.' },
+        { kind: 'checklist', items: ['Verifique o concelho e a freguesia do imóvel, se a calculadora do Portal da Habitação usar uma zona mais detalhada.', 'Verifique a tipologia: T0, T1, T2, T3, etc.', 'Compare a sua renda mensal sem despesas: serviços, internet, condomínio e estacionamento devem estar separados, se não fizerem parte da renda base.', 'Se 80% da mediana do INE der 1 450 €, e o contrato for de 1 500 €, o regime não se aplica, mesmo que o valor seja inferior a 2 300 €.', 'Se 80% da mediana der 2 600 €, continua a aplicar-se o teto de 2 300 €.', 'Para quartos e partes de habitação, verifique as regras da ferramenta concreta do Portal da Habitação: o cálculo pode diferir do de um apartamento inteiro.', 'Guarde uma captura de ecrã/cálculo do limite na data da assinatura: será útil em caso de litígio com a AT ou com o senhorio.'] },
+        { kind: 'warning', text: 'Não confunda o limite do RSAA com a indexação anual da renda. O coeficiente geral de atualização da renda para 2026 é 2,16%, mas isso não torna o contrato automaticamente “acessível” nem substitui o teste dos 80% do INE / 2 300 €.' }
+      ]
+    },
+    {
+      id: 'tenant-benefit',
+      title: 'O que ganha o arrendatário',
+      content: [
+        { kind: 'paragraph', text: 'Para o expatriado, a principal vantagem não é uma “subvenção na conta”, mas sim uma dedução maior na declaração anual de IRS. O dinheiro só é devolvido se você for residente fiscal em Portugal, entregar IRS e tiver imposto a reduzir.' },
+        { kind: 'checklist', items: ['O contrato deve ser registado pelo senhorio nas Finanças.', 'O contrato deve incluir o seu NIF, e não apenas o passaporte.', 'Os pagamentos devem corresponder aos recibos de renda / comunicação na AT.', 'A morada arrendada deve ser habitacional, e não alojamento local ou alojamento turístico.', 'Dedução para 2026: até 900 € em despesas de renda elegíveis.', 'Dedução a partir de 2027: até 1 000 €.', 'Se chegou a meio do ano e só se tornou residente para efeitos de IRS depois de janeiro, o efeito pode ficar proporcionalmente limitado pela sua situação fiscal efetiva.', 'Se o imposto a pagar for reduzido, a dedução não se transforma automaticamente num reembolso integral em dinheiro.'] },
+        { kind: 'paragraph', text: 'Na prática: ao escolher apartamento em 2026, vale a pena perguntar diretamente ao senhorio ou à agência: “O contrato vai enquadrar-se no RSAA a partir de 1 de junho de 2026?” Se sim — peça que isso fique por escrito antes da assinatura.' }
+      ]
+    },
+    {
+      id: 'landlord-incentive',
+      title: 'Porque isto é importante na negociação com o senhorio',
+      content: [
+        { kind: 'paragraph', text: 'O RSAA altera a matemática para o senhorio. Por vezes, um preço abaixo do mercado, mas com 0% de imposto, dá ao senhorio quase o mesmo rendimento líquido, ou até melhor, do que uma renda mais alta com IRS de 25–28%.' },
+        { kind: 'paragraph', text: 'Exemplo de lógica negocial: o apartamento é arrendado por 1 600 € fora do regime, e o senhorio paga imposto sobre o rendimento predial. Se o limite RSAA para esse apartamento for 1 450 €, uma redução de 150 € pode ser compensada pela poupança fiscal. Isto é um argumento para pedir um preço legal, e não apenas um “desconto”.' },
+        { kind: 'checklist', items: ['Peça ao senhorio o cálculo do valor líquido após impostos, em vez de discutir apenas a renda bruta.', 'Proponha um contrato de arrendamento habitacional longo, se isso ajudar o senhorio a sentir estabilidade.', 'Não aceite uma parte do pagamento “por fora”: isso destrói a sua dedução de IRS e cria risco de despejo/coimas.', 'Verifique que o depósito caução e a renda antecipada estão indicados separadamente da renda mensal.', 'Se o agente disser “os impostos são problema do proprietário”, verifique ainda assim o registo do contrato: sem ele, perde a dedução.', 'Para renovações após 1 de junho de 2026, pode discutir a adaptação do contrato ao RSAA, se o preço cumprir o limite.'] }
+      ]
+    },
+    {
+      id: 'documents-and-checks',
+      title: 'Checklist antes de assinar o contrato',
+      content: [
+        { kind: 'checklist', items: ['NIF de todos os arrendatários que querem refletir a renda no IRS.', 'Contrato de arrendamento habitacional com a renda mensal exata.', 'Identificação do imóvel: morada, artigo matricial, licença de utilização ou comprovativo de dispensa, se aplicável.', 'Prazo do contrato e condições de renovação.', 'Linhas separadas para caução, despesas, condomínio, garagem, mobiliário, se forem pagos separadamente.', 'Confirmação escrita de que o contrato será comunicado à AT através do Portal das Finanças.', 'Verificação do limite RSAA no Portal da Habitação / com base nos dados do INE antes da assinatura.', 'Recibos de renda após cada pagamento.', 'Pagamentos por transferência bancária ou outro meio rastreável, não em numerário.', 'Comprovativos de pagamento guardados durante todo o ano.'] },
+        { kind: 'warning', text: 'Se o contrato mostrar formalmente 1 200 €, mas você pagar mais 300 € em numerário por “mobiliário” ou “serviços”, a AT pode não reconhecer o benefício, e você perde parte da proteção enquanto arrendatário. Para o RSAA, é segura uma estrutura de pagamentos transparente.' }
+      ]
+    },
+    {
+      id: 'edge-cases',
+      title: 'Perguntas frequentes de expatriados',
+      content: [
+        { kind: 'paragraph', text: 'Se está apenas a mudar-se para Portugal e ainda não se tornou residente fiscal, o contrato em si pode ser celebrado com o seu NIF, mas o benefício em IRS só surgirá na declaração do ano em que se tornou residente e declara rendimentos em Portugal.' },
+        { kind: 'checklist', items: ['D7, D8, D1-D3 e outros vistos, por si só, não dão direito à dedução da renda — é necessário estatuto fiscal e declaração de IRS.', 'A autorização de residência AIMA não substitui o registo do contrato nas Finanças.', 'O NISS normalmente não é necessário para arrendamento; é necessário o NIF.', 'Recibos verdes e salário influenciam o seu IRS, mas não são condição do próprio contrato RSAA.', 'Se vive no apartamento com o seu parceiro, é sensato incluir ambos os arrendatários com NIF, se ambos quiserem rasto fiscal.', 'Para estudantes e quartos, verifique as regras separadas da dedução de rendas e da comprovação de morada.', 'Arrendamento de curta duração, Airbnb e alojamento local não são um contrato de arrendamento habitacional normal para efeitos de RSAA.'] },
+        { kind: 'paragraph', text: 'Em abril de 2026, o regime ainda não funciona na prática: deverá começar a aplicar-se a 1 de junho de 2026. Antes de assinar contrato em maio–junho, verifique as atualizações do Portal da Habitação e as instruções da AT, porque os formulários, a calculadora e o procedimento técnico podem ser publicados mais perto do arranque.' }
+      ]
+    }
+  ],
+  costs: [
+    { label: 'Imposto do senhorio no RSAA', amountEUR: 0, note: 'Isenção de IRS/IRC sobre o rendimento predial elegível quando estiverem cumpridas as condições do regime.' },
+    { label: 'Renda mensal máxima para o RSAA', amountEURMax: 2300, note: 'Teto absoluto; também se aplica o limite de 80% da renda mediana do INE, se este for inferior.' },
+    { label: 'Dedução do arrendatário no IRS em 2026', amountEURMax: 900, note: 'Dedução à coleta; depende da residência fiscal para efeitos de IRS, do contrato registado e do imposto efetivo.' },
+    { label: 'Dedução do arrendatário no IRS a partir de 2027', amountEURMax: 1000, note: 'Limite previsto pelo regime após 2026.' }
+  ],
+  sources: [
+    { title: 'Portal da Habitação — programas e regimes de arrendamento acessível', url: 'https://www.portaldahabitacao.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Decreto-Lei 44/2025 — Regime Simplificado de Arrendamento Acessível', url: 'https://dre.pt/dre/detalhe/decreto-lei/44-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Autoridade Tributária — Portal das Finanças: arrendamento e recibos de renda', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'INE — estatísticas de rendas da habitação', url: 'https://www.ine.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+  ],
+  lastVerified: '2026-04-28',
+  verifyIntervalDays: 90
+}

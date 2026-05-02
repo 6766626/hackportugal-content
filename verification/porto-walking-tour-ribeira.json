@@ -1,0 +1,84 @@
+{
+  "guideId": "porto-walking-tour-ribeira",
+  "categoryId": "travel_portugal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гид в целом пригоден как туристический маршрут, но есть несколько устаревших/мифологизированных деталей и мелких логистических неточностей.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].points[1].description",
+        "current": "Вход 8 € (зачитывается при покупке книги).",
+        "problem": "Цена входа в Livraria Lello выглядит устаревшей: после перехода на ticket-vouchers стандартный базовый билет обычно выше €8, а условия зависят от типа билета. Для путеводителя с lastVerified 2026-04-22 это нужно проверять по официальной странице, а не фиксировать старую цену.",
+        "suggestion": "Заменить на: «Вход по ticket-voucher, цены и условия зачёта меняются; ориентируйтесь на официальный сайт Livraria Lello при бронировании». Если нужна сумма: «обычно от около €10» с оговоркой о проверке перед визитом.",
+        "confidence": "medium",
+        "source": "Livraria Lello official tickets"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].points[1].description",
+        "current": "Деревянная винтовая лестница-легенда (вероятный прототип для Хогвартса, хотя Роулинг это отрицает).",
+        "problem": "Формулировка «вероятный прототип» вводит в заблуждение: связь Livraria Lello с Harry Potter — туристический миф; J.K. Rowling публично отрицала, что посещала магазин и что он вдохновил Хогвартс.",
+        "suggestion": "Написать: «Лестница стала частью туристического мифа о Harry Potter, но J.K. Rowling отрицала, что Livraria Lello вдохновила Хогвартс».",
+        "confidence": "high",
+        "source": "J.K. Rowling public statements / official social media"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Маршрут 2.5 км на 3 часа от башни Clérigos через книжную Lello, собор Sé и вокзал São Bento до набережной Ribeira...",
+        "problem": "Порядок в TL;DR не совпадает с фактическим маршрутом ниже: в списке точек São Bento идёт до Sé, а не после Sé.",
+        "suggestion": "Исправить на: «от башни Clérigos через Lello, Igreja do Carmo, вокзал São Bento, собор Sé и Rua das Flores до Ribeira...»",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].points[7].description",
+        "current": "Набережная с цветными домами — ЮНЕСКО.",
+        "problem": "Слишком упрощённо: объект ЮНЕСКО — не только сама Ribeira, а Historic Centre of Oporto с мостом Luiz I и Monastery of Serra do Pilar. Формулировка может создать впечатление, что только набережная является отдельным объектом ЮНЕСКО.",
+        "suggestion": "Написать: «Ribeira входит в объект ЮНЕСКО “Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar”».",
+        "confidence": "high",
+        "source": "UNESCO World Heritage Centre — Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Город дал имя стране («Portucale») и до сих пор делит с Лиссабоном неформальную «столичную» роль.",
+        "problem": "Фраза про «делит с Лиссабоном столичную роль» преувеличена и может быть воспринята как фактическое утверждение о статусе города. Порту — второй город страны и часто называется «столицей Севера», но столичная функция принадлежит Лиссабону.",
+        "suggestion": "Заменить на: «Порту — второй крупнейший центр страны и неформальная “столица Севера”; официальный столичный статус у Лиссабона».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].title",
+        "current": "Исторический центр Порту (ЮНЕСКО)",
+        "problem": "Название объекта ЮНЕСКО в актуальной форме шире: Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar. В тексте есть мост Luís I, поэтому полезно отразить полное название.",
+        "suggestion": "Переименовать в: «Исторический центр Порту, мост Луиша I и монастырь Serra do Pilar (ЮНЕСКО)».",
+        "confidence": "high",
+        "source": "UNESCO World Heritage Centre — Historic Centre of Oporto, Luiz I Bridge and Monastery of Serra do Pilar"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[3]",
+        "current": "🚇 Финиш у Ribeira → метро «São Bento» или «Jardim do Morro» (Gaia)",
+        "problem": "Логистически неточно: у самой Ribeira нет станции метро. São Bento находится выше по склону в историческом центре, Jardim do Morro — на стороне Gaia у верхнего яруса моста. Для туриста это важно из-за подъёма/лестниц.",
+        "suggestion": "Написать: «У Ribeira метро нет: пешком в гору до São Bento или перейти по верхнему ярусу моста к Jardim do Morro в Gaia».",
+        "confidence": "high",
+        "source": "Metro do Porto network map"
+      }
+    ],
+    "missing_topics": [
+      "Для цен и билетов Lello и Palácio da Bolsa лучше дать прямые официальные ссылки на страницы tickets/visits, потому что цены и слоты часто меняются.",
+      "Указать, что верхний ярус Ponte Luís I используется метро и пешеходами; ходить нужно только по пешеходным зонам, не по путям.",
+      "Добавить caveat по доступности: маршрут с крутыми спусками, лестницами и брусчаткой плохо подходит для колясок и людей с ограниченной мобильностью."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2544,
+    "prompt_tokens": 2831,
+    "total_tokens": 5375
+  },
+  "model": "gpt-5.5"
+}

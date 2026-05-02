@@ -1,0 +1,136 @@
+{
+  "guideId": "eu-flight-compensation",
+  "categoryId": "emergency_rights",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но содержит несколько существенных упрощений EU261: неверный «30-дневный» срок, нет исключений для отмены <14 дней, неправильно описаны thresholds for care, компетенция ANAC и connecting flights через третьи страны.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Подавать заявку в авиакомпанию в течение 30 дней.",
+        "problem": "В EU261 нет универсального срока «подать в течение 30 дней». Обычно сначала обращаются в авиакомпанию, а если ответа нет или он неудовлетворительный — к национальному регулятору; предельные сроки взыскания компенсации зависят от национального права и практики. Формулировка может заставить читателя думать, что после 30 дней право теряется.",
+        "suggestion": "Заменить на: «Сначала подайте claim в авиакомпанию как можно скорее. Если ответа нет в разумный срок / до 2 месяцев или отказ необоснован — жалоба в компетентный NEB, для Португалии обычно ANAC. Срок исковой давности зависит от страны суда/перевозчика; не тяните».",
+        "confidence": "high",
+        "source": "Regulation (EC) No 261/2004 Art. 16; EU passenger rights complaint procedure"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].items[2]",
+        "current": "❌ Отмена < 14 дней до вылета",
+        "problem": "Это слишком широкое правило. При отмене менее чем за 14 дней компенсация не всегда положена: есть исключения, если пассажира заранее проинформировали и предложили rerouting с прибытием в пределах лимитов EU261, а также если причина — extraordinary circumstances.",
+        "suggestion": "Написать: «Отмена менее чем за 14 дней до вылета — компенсация возможна, если нет extraordinary circumstances и предложенный rerouting не укладывается в исключения: 7–14 дней — вылет не более чем на 2 ч раньше и прибытие менее чем на 4 ч позже; <7 дней — вылет не более чем на 1 ч раньше и прибытие менее чем на 2 ч позже».",
+        "confidence": "high",
+        "source": "Regulation (EC) No 261/2004 Art. 5(1)(c)"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "При задержках ≥ 2 часа авиакомпания ОБЯЗАНА обеспечить:",
+        "problem": "Right to care начинается не при любой задержке ≥2 часа. Пороги зависят от расстояния: 2 часа для рейсов до 1500 км, 3 часа для intra-EU >1500 км и остальных 1500–3500 км, 4 часа для остальных >3500 км.",
+        "suggestion": "Заменить на: «Right to care включается при задержке: ≥2 ч для рейсов до 1500 км; ≥3 ч для intra-EU >1500 км и остальных 1500–3500 км; ≥4 ч для остальных рейсов >3500 км».",
+        "confidence": "high",
+        "source": "Regulation (EC) No 261/2004 Art. 6 and Art. 9"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[5]",
+        "current": "🔁 Плюс: возврат билета ИЛИ перебронировка + right to care",
+        "problem": "Смешаны разные права. Reimbursement/rerouting автоматически применимы при отмене и denied boarding, но при обычной задержке право на возврат возникает только при задержке не менее 5 часов; при задержке ≥3 часа может быть компенсация, но не обязательно возврат/перебронирование.",
+        "suggestion": "Написать: «При отмене или отказе в посадке: выбор между возвратом, rerouting при первой возможности или rerouting на другую дату. При задержке ≥5 ч можно отказаться от поездки и требовать возврат. Right to care действует по отдельным порогам ожидания».",
+        "confidence": "high",
+        "source": "Regulation (EC) No 261/2004 Art. 4, 5, 6, 8, 9"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[0]",
+        "current": "ANAC (PT) — anac.pt → Consumidor → Reclamação",
+        "problem": "Не всегда жаловаться именно в ANAC. Компетентный национальный орган зависит от аэропорта вылета/прилёта: ANAC обычно для рейсов из Португалии и некоторых рейсов в Португалию из третьих стран на EU/EEA carrier. Для рейса, например, Madrid → Porto компетентным будет испанский орган, а не ANAC.",
+        "suggestion": "Добавить caveat: «В ANAC жалуются по рейсам, вылетающим из аэропорта Португалии, а также по применимым рейсам из non-EU в Португалию на EU/EEA carrier, если вопрос не решён в стране вылета. Для вылета из другой страны ЕС — NEB той страны».",
+        "confidence": "high",
+        "source": "Regulation (EC) No 261/2004 Art. 16; European Commission list of National Enforcement Bodies"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].text",
+        "current": "Рейс Lisboa → Стамбул (3000 км) → компенсация 400 €. За Стамбул → Москва — не EU 261, не компенсируется.",
+        "problem": "Это верно только если билеты Lisboa→Стамбул и Стамбул→Москва куплены отдельно. Если это единая бронировка из ЕС до Москвы с пересадкой в третьей стране, EU261 может применяться к задержке в конечном пункте назначения, включая проблему на втором сегменте, и расстояние/сумма могут считаться до final destination.",
+        "suggestion": "Уточнить: «Если это отдельные билеты — EU261 покрывает только сегмент Lisboa→Стамбул. Если единая бронировка Lisboa→Москва с пересадкой, EU261 может покрывать задержку прибытия в Москву; сумму считают по final destination, при >3500 км обычно до 600 €, если нет extraordinary circumstances».",
+        "confidence": "high",
+        "source": "Regulation (EC) No 261/2004 Art. 3; CJEU C-537/17 Wegener; CJEU C-11/11 Folkerts"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "🌏 > 3500 км: 600 €",
+        "problem": "Формулировка неполная и может противоречить предыдущей строке «ЕС >1500 км: 400 €». Для intra-EU flights компенсация 400 € даже если расстояние больше 3500 км. €600 применяется к рейсам >3500 км, которые не являются intra-Community flights. Также при rerouting с прибытием на long-haul менее чем на 4 часа позже компенсация может быть уменьшена на 50%.",
+        "suggestion": "Написать: «>3500 км вне intra-EU: 600 €. Для всех intra-EU рейсов >1500 км — 400 €. При предложенном rerouting и ограниченной задержке прибытия компенсация может быть снижена на 50%».",
+        "confidence": "high",
+        "source": "Regulation (EC) No 261/2004 Art. 7(1) and Art. 7(2)"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[2].content[0].items[1]",
+        "current": "CIAC arbitragem — для требований < 5 000 €",
+        "problem": "Слишком категорично. Consumer arbitration в Португалии зависит от компетентного центра, места/поставщика и от того, присоединилась ли авиакомпания к arbitration centre или согласна ли на arbitration. Это не универсальный обязательный путь для всех airline compensation claims <5000 €.",
+        "suggestion": "Заменить на: «Consumer arbitration / CNIACC или местный centro de arbitragem может быть вариантом для требований до 5 000 €, но проверьте территориальную компетенцию и согласие/adesão авиакомпании; иначе остаётся суд».",
+        "confidence": "medium",
+        "source": "Lei da Arbitragem de Consumo; CNIACC rules"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Можно также через сервисы типа AirHelp / Flightright за 25 % комиссии.",
+        "problem": "Внутри гайда есть противоречие: ниже указано 25–35 %. Кроме того, у сервисов часто разные комиссии за обычный claim и legal action; у AirHelp/аналогов effective fee может быть выше 25%.",
+        "suggestion": "Заменить на: «Можно через AirHelp / Flightright / ClaimCompass, но комиссия обычно около 25–35%+, а при судебной стадии может быть выше; проверяйте актуальный прайс перед согласием».",
+        "confidence": "high",
+        "source": "AirHelp and Flightright fee schedules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0]",
+        "current": "✈️ Рейс из аэропорта в ЕС (любой перевозчик) ИЛИ в аэропорт ЕС на EU-перевозчике",
+        "problem": "Для бытового гайда допустимо, но юридически неполно: EU261 также применяется к EEA countries and Switzerland in practice/associated regimes, а после Brexit UK имеет отдельный UK261 regime. «EU-перевозчик» лучше формулировать как EU/EEA/Swiss carrier, если гайд ориентирован на реальные passenger rights в Европе.",
+        "suggestion": "Написать: «из аэропорта EU/EEA/Switzerland — любой перевозчик; в EU/EEA/Switzerland из третьей страны — если перевозчик EU/EEA/Swiss и пассажир не получил аналогичную компенсацию/помощь в стране вылета».",
+        "confidence": "medium",
+        "source": "EU Your Europe passenger rights; Regulation (EC) No 261/2004 Art. 3"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].items[4]",
+        "current": "ANAC может оштрафовать авиакомпанию",
+        "problem": "Фраза верная, но неполная: ANAC как enforcement body может рассматривать нарушение и применять санкции, однако обычно не является судом по взысканию индивидуальной компенсации и не гарантирует выплату денег пассажиру.",
+        "suggestion": "Добавить: «Но ANAC не всегда взыскивает деньги за вас; для принудительного получения компенсации может понадобиться arbitration/court».",
+        "confidence": "high",
+        "source": "Regulation (EC) No 261/2004 Art. 16; ANAC passenger complaints guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "ANAC — Direitos dos passageiros; url: https://www.anac.pt/",
+        "problem": "Ссылка слишком общая для чувствительной темы. Пользователю трудно найти форму complaint и актуальные passenger rights pages.",
+        "suggestion": "Указать более конкретную страницу ANAC по passageiros/direitos dos passageiros/reclamações или добавить второй source с прямой ссылкой на complaint channel ANAC.",
+        "confidence": "medium",
+        "source": "ANAC official website"
+      }
+    ],
+    "missing_topics": [
+      "Чёткое различие между compensation, refund/rerouting и reimbursement of care expenses",
+      "Исключения для cancellation notice 7–14 days и <7 days",
+      "Пороги right to care по расстоянию: 2/3/4 часа",
+      "Правило long delay: компенсация считается по задержке прибытия в final destination, а не по задержке вылета",
+      "Единая бронировка с пересадкой outside EU: EU261 может покрывать final destination даже при non-EU second leg",
+      "50% reduction of compensation in some rerouting/limited-delay scenarios",
+      "Компетентный NEB зависит от страны вылета/прилёта; ANAC не универсален",
+      "ANAC может санкционировать перевозчика, но для взыскания денег иногда нужен arbitration/court",
+      "Сроки исковой давности/limitation period зависят от применимого национального права; нет общего 30-дневного deadline",
+      "Отдельно указать, что extraordinary circumstances не отменяют right to care"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4726,
+    "prompt_tokens": 2637,
+    "total_tokens": 7363
+  },
+  "model": "gpt-5.5"
+}
