@@ -89,7 +89,7 @@ export default {
           'Наследование: без завещания партнёр не равен супругу в порядке наследников.',
           'Налог: для gratuitous transfers между unidos de facto может применяться освобождение от 10% Imposto do Selo, но право на сам актив всё равно должно возникнуть по завещанию, договору или закону.',
           'Гражданство: иностранный партнёр гражданина Португалии может подать на nacionalidade portuguesa после более 3 лет união de facto, но сначала нужно признание союза в гражданском суде.',
-          'Новый закон о гражданстве был одобрен парламентом 01.04.2026, но на 28.04.2026 ещё не был промульгирован; применяйте действующий режим Lei da Nacionalidade до вступления новой редакции в силу.'
+          'Новый закон о гражданстве был одобрен парламентом 01.04.2026, но на 03.05.2026 ещё не был промульгирован; применяйте действующий режим Lei da Nacionalidade до вступления новой редакции в силу.'
         ] },
         { kind: 'warning', text: 'Для гражданства через união de facto не достаточно того, что вы оба прописаны по одному адресу. IRN требует юридически признанную união de facto с гражданином Португалии и проверяет основания для oposição, включая связь с португальским сообществом, если применимо.' }
       ]
@@ -124,6 +124,6 @@ export default {
     { title: 'Lei da Nacionalidade — Lei 37/81, art. 3, DRE', url: 'https://dre.pt/dre/legislacao-consolidada/lei/1981-34536975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Justiça.gov.pt — pedir nacionalidade portuguesa por casamento ou união de facto', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-03',
   verifyIntervalDays: 90
 }

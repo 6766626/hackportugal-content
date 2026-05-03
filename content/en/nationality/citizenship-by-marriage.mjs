@@ -3,75 +3,75 @@ export default {
   id: 'citizenship-by-marriage',
   categoryId: 'nationality',
   title: 'Portuguese citizenship by marriage or união de facto',
-  tldr: 'Spouses of Portuguese citizens may apply for citizenship after 3 years of marriage. The alternative is união de facto for more than 3 years with a Portuguese citizen, recognised by a court judgment (sentença declarativa): simple registration at the Junta de Freguesia or Conservatória do Registo Civil is NOT sufficient for citizenship purposes. A CIPLE language certificate is formally NOT required. Up to 6 years of marriage, IRN/Ministério Público may request evidence of a “ligação efetiva à comunidade nacional”. Residence in Portugal is not mandatory. A new law (approved by parliament on 01.04.2026, NOT promulgated as of 28.04.2026) will increase the period to 5 years and strengthen the requirement for genuine cohabitation.',
+  tldr: 'Spouses of Portuguese citizens may apply for citizenship after 3 years of marriage. Alternative — união de facto of more than 3 years with a Portuguese citizen, recognised by a court judgment (sentença declarativa): simple registration at the Junta de Freguesia or the Conservatória do Registo Civil is NOT sufficient for nationality purposes. A CIPLE language certificate is formally NOT required. Up to 6 years of marriage, IRN/Ministério Público may request evidence of “ligação efetiva à comunidade nacional”. Living in Portugal is not mandatory. A new law (approved by Parliament on 01.04.2026, NOT promulgated as of 03.05.2026) will increase the period to 5 years and strengthen the requirement of real cohabitation.',
   tags: ['citizenship', 'marriage', 'união'],
   estimatedReadMinutes: 6,
   pendingLaw: {
-    summary: 'Decreto AR 17/XVII, re-approved by Parliament on 01.04.2026 (after the veto in December 2025 and unconstitutionality under TC Acórdão 1133/2025). It would increase the marriage period from 3 to 5 years, require genuine cohabitation and evidence of it, and raise the threshold for the presumption of “effective ties” from 6 to 7–8 years. As of 28.04.2026, the law has NOT been promulgated by the President — the rules of Lei 37/81 (3 years) remain in force.',
+    summary: 'Decreto AR 17/XVII, re-approved by Parliament on 01.04.2026 (after the veto in December 2025 and the unconstitutionality in TC Acórdão 1133/2025). It will increase the required marriage duration from 3 to 5 years, mandate actual cohabitation and proof of it, and raise the presumption threshold of “effective links” from 6 to 7–8 years. As of 03.05.2026 the law has NOT been promulgated by the President — the rules of Lei 37/81 (3 years) apply.',
   },
   steps: [
     {
       id: 'universal',
       title: 'The process is the same for all countries',
       content: [
-        { kind: 'paragraph', text: 'Unlike naturalisation (after 5/7/10 years of residence), the process through marriage or união de facto does NOT depend on the applicant’s country of origin. CPLP citizens, EU citizens, third-country nationals — the conditions are the same. There are no “fast-track” routes for Brazilians or Italians — everyone needs 3 years of marriage.' }
+        { kind: 'paragraph', text: 'Unlike naturalisation (after 5/7/10 years of residence), by marriage or união de facto the process does NOT depend on the applicant’s country of origin. Citizens of the CPLP, the EU, and third countries — the conditions are the same. There are no “fast-track” routes for Brazilians or Italians — 3 years of marriage are required for everyone.' }
       ]
     },
     {
       id: 'requirements',
-      title: 'Requirements (under the current law)',
+      title: 'Requirements (under current law)',
       content: [
         { kind: 'checklist', items: [
-          '💍 Marriage to a Portuguese citizen for ≥ 3 years at the time of application (Lei 37/81 art. 3 n.1)',
-          '🤝 OR união de facto for >3 years with a Portuguese citizen, **recognised by a court judgment** (Lei 37/81 art. 3 n.3) — sentença declarativa from a court; a simple certificate or registration at the Junta de Freguesia is NOT acceptable for citizenship',
-          '📜 Valid marriage at the time of application (no divorce, no legally recognised separation)',
-          '⚖️ No criminal convictions in any country carrying a sentence of ≥ 3 years’ imprisonment'
+          '💍 Marriage to a Portuguese citizen ≥ 3 years at the time of filing (Lei 37/81 art. 3 n.1)',
+          '🤝 OR união de facto >3 years with a Portuguese citizen, **recognised by a court judgment** (Lei 37/81 art. 3 n.3) — sentença declarativa from a court; a simple certificate or registration in the Junta de Freguesia is NOT sufficient for nationality purposes',
+          '📜 A valid marriage at the time of filing (no divorce, no legal separation)',
+          '⚖️ No convictions in any country carrying a sentence of ≥ 3 years’ imprisonment'
         ]},
-        { kind: 'paragraph', text: 'Formally, the following are NOT required for this route:' },
+        { kind: 'paragraph', text: 'Formally NOT required on this route:' },
         { kind: 'checklist', items: [
-          '❌ CIPLE A2 certificate — formally NOT required (language is only for naturalisation after 5+ years of residence). In practice, IRN may assess language ability as an indirect sign of an “effective tie” in marriages of <6 years',
-          '❌ Residence in Portuguese territory — not mandatory; the foreign spouse may live abroad with the Portuguese citizen',
-          '❌ “Connection to Portugal” as a formal checklist of requirements — it is not requested at the submission stage. But see below about the presumption'
+          '❌ CIPLE A2 certificate — formally NOT required (language is only for naturalisation after 5+ years of residence). In practice, IRN may assess language ability as an indirect indicator of an “effective link” for marriages under 6 years',
+          '❌ Residence in Portugal — not mandatory; the foreign spouse may live with the Portuguese citizen abroad',
+          '❌ A “connection with Portugal” as a formal checklist — not requested at the intake stage. But see below regarding the presumption'
         ]},
-        { kind: 'warning', text: 'Important nuance under Lei 37/81 art. 3: for marriages of 3–6 years, it is MANDATORY to prove “ligação efetiva à comunidade nacional” (effective ties to the Portuguese community) — this is requested by the Ministério Público in the event of opposition. With ≥6 years of marriage OR joint Portuguese children, the presumption applies and there is no need to prove the tie. In other words, “not required” is a simplification for 6+ year cases.' }
+        { kind: 'warning', text: 'An important nuance under Lei 37/81 art. 3: for 3–6 years of marriage it is MANDATORY to prove “ligação efetiva à comunidade nacional” (an effective link to the national community) — this is requested by the Ministério Público when opposing. From ≥6 years of marriage OR with joint Portuguese children, the presumption applies and there is no need to prove the link. So “not required” is a simplification for 6+ years.' }
       ]
     },
     {
       id: 'uniao',
-      title: 'União de Facto — for CITIZENSHIP purposes',
+      title: 'União de Facto — for NATIONALITY purposes',
       content: [
-        { kind: 'warning', text: 'IMPORTANT: to apply for citizenship through união de facto, Lei 37/81 art. 3 n.3 requires a **court judgment from a Portuguese court** (sentença declarativa) recognising that the applicant has been living in união de facto with a Portuguese citizen for **more than 3 years** on the application date. A simple certificate from the Junta de Freguesia or general registration of união de facto without judicial recognition is NOT accepted for citizenship purposes.' },
-        { kind: 'paragraph', text: 'Process for obtaining the court judgment:' },
+        { kind: 'warning', text: 'IMPORTANT: to apply for nationality via união de facto, Lei 37/81 art. 3 n.3 requires a **Portuguese court judgment** (sentença declarativa) recognising that the applicant has been living in união de facto with a Portuguese citizen for **more than 3 years** on the filing date. A simple certificate from the Junta de Freguesia or mere administrative registration of união de facto without judicial recognition is NOT accepted for nationality purposes.' },
+        { kind: 'paragraph', text: 'Process to obtain the court judgment:' },
         { kind: 'checklist', items: [
-          '🏛️ File an application with the Tribunal de Família e Menores (or Tribunal Cível) for recognition of união de facto with a Portuguese citizen',
-          '📋 Evidence of cohabitation: Atestado de Residência (Junta de Freguesia), joint utility bills/contracts, rental agreement/property title in both names, bank statements, photographs, correspondence',
+          '🏛️ File an application at the Tribunal de Família e Menores (or Tribunal Cível) for recognition of união de facto with a Portuguese citizen',
+          '📋 Evidence of cohabitation: Atestado de Residência (Junta de Freguesia), joint utility bills/contracts, tenancy/ownership contract in both names, bank statements, photographs, correspondence',
           '👥 Witnesses — friends/relatives',
-          '💶 Court costs: ~€100-300 (depends on the claim value)',
-          '🧑‍⚖️ A lawyer is recommended (almost essential for foreigners)',
-          '⏱️ Timescales: 6-18 months',
-          '📜 You receive the certidão da sentença declarativa — this is the document for IRN'
+          '💶 Court costs: approx. €100–€300 (depends on the value of the claim)',
+          '🧑‍⚖️ A lawyer is recommended (for foreigners almost essential)',
+          '⏱️ Timeframe: 6–18 months',
+          '📜 Obtain the certidão da sentença declarativa — this is the document for IRN'
         ]},
-        { kind: 'paragraph', text: 'The duration of the união is counted from the actual start of cohabitation (not from the date of the court judgment). The court establishes the start date based on the evidence. If you have lived together for 5 years — the court recognises 5 years.' },
-        { kind: 'paragraph', text: 'Additionally: general registration of união de facto at the Junta de Freguesia (under Lei 7/2001) is a simple administrative act, requires 2 years of cohabitation and is needed for social/tax benefits. This is a SEPARATE procedure from judicial recognition for citizenship.' }
+        { kind: 'paragraph', text: 'The length of the união is counted from the actual start of cohabitation (not from the date of the court judgment). The court determines the start date based on the evidence. If you have lived together for 5 years — the court recognises 5 years.' },
+        { kind: 'paragraph', text: 'Additionally: the general registration of união de facto at the Junta de Freguesia (under Lei 7/2001) is a simple administrative act, requires 2 years of cohabitation and is used for social/tax benefits. This is a SEPARATE procedure from judicial recognition for nationality.' }
       ]
     },
     {
       id: 'documents',
-      title: 'Documents for submission to IRN',
+      title: 'Documents to submit to IRN',
       content: [
         { kind: 'checklist', items: [
-          '📄 Marriage certificate (if the marriage was not concluded in Portugal — apostille + sworn translation into Portuguese). If the marriage was in Portugal — the assento number from the Conservatória do Registo Civil is sufficient',
+          '📄 Marriage certificate (if the marriage was concluded outside Portugal — apostille + sworn translation into Portuguese). If the marriage is in Portugal — the assento number from the Conservatória do Registo Civil is sufficient',
           '📄 For união — certidão da sentença declarativa from a Portuguese court (NOT just a certificate from the Junta de Freguesia)',
           '📄 Applicant’s birth certificate (apostille + sworn translation; for naturalised citizens of the country of origin — full certificate with parents)',
           '📄 Valid foreign passport',
-          '📄 Título de residência (residence permit) — attached if you have one, but NOT mandatory. For submission abroad (through a consulate) — not needed',
-          '📄 Criminal record certificate from Portugal (certidão do registo criminal) — free on eportugal.gov.pt',
-          '📄 Criminal record certificates from the country of birth, country/countries of citizenship and all countries where the applicant has lived after the age of 16 — with apostille and sworn translation, where applicable. Check the validity period of each certificate (usually 3-6 months)',
-          '📄 Portuguese spouse’s birth certificate (assento de nascimento — requested automatically through IRN or attached)',
+          '📄 Título de residência (residence permit) — attach if available, but NOT mandatory. For submissions abroad (via a consulate) — not needed',
+          '📄 Criminal record from Portugal (certidão do registo criminal) — free at eportugal.gov.pt',
+          '📄 Criminal record certificates from the country of birth, the country/countries of nationality, and all countries where the applicant has lived after age 16 — with apostille and sworn translation, where applicable. Check the validity of each certificate (usually 3–6 months)',
+          '📄 Portuguese spouse’s birth certificate (assento de nascimento — requested automatically by IRN or attached)',
           '📝 Completed form (modelo 1-B) — download from irn.pt, signed by the applicant',
           '💶 Proof of fee payment — €250'
         ]},
-        { kind: 'warning', text: 'The applicant does NOT have a Cartão de Cidadão (CC) — this is a Portuguese citizen’s document; it is issued only after citizenship is obtained. The documents include a título de residência (if any) or passport.' }
+        { kind: 'warning', text: 'The applicant does NOT have a Cartão de Cidadão (CC) — this is a Portuguese citizen’s document; it is issued only after citizenship is granted. Attach the título de residência (if any) or a passport.' }
       ]
     },
     {
@@ -79,12 +79,12 @@ export default {
       title: 'Where and how to apply',
       content: [
         { kind: 'checklist', items: [
-          '🏛️ Conservatória dos Registos Centrais (Lisboa) — the main channel',
-          '🏛️ Any Conservatória do Registo Civil in your area of residence (Porto, Coimbra, Faro, etc.)',
+          '🏛️ Conservatória dos Registos Centrais (Lisbon) — the main channel',
+          '🏛️ Any Conservatória do Registo Civil by place of residence (Porto, Coimbra, Faro, etc.)',
           '🏢 Espaço Registos in a Loja do Cidadão',
-          '🌍 Portuguese consulate abroad — if you live outside Portugal',
-          '💻 Online via the IRN portal (since 2025, operating in test mode for CPLP citizens and some marriage cases)',
-          '🧑‍💼 Through a lawyer by power of attorney — without personal attendance'
+          '🌍 A Portuguese consulate abroad — if you live outside Portugal',
+          '💻 Online via the IRN portal (since 2025 operating in pilot mode for CPLP citizens and some marriage cases)',
+          '🧑‍💼 Through a lawyer by power of attorney — no in-person attendance'
         ]}
       ]
     },
@@ -92,20 +92,20 @@ export default {
       id: 'timeline',
       title: 'Processing times',
       content: [
-        { kind: 'timeline', text: 'The official legal deadline is 1 year. In practice in 2025–2026: 8–24 months. It depends on the completeness of the documents and the workload of the Conservatórias. Online applications are processed faster.' },
+        { kind: 'timeline', text: 'The statutory time limit is 1 year. In practice in 2025–2026: 8–24 months. It depends on the completeness of the documents and the workload of the Conservatórias. Online applications are processed faster.' },
         { kind: 'paragraph', text: 'After a positive decision, IRN registers you as a citizen in the Assento de Nascimento. Only after this can you request a Cartão de Cidadão at any Loja do Cidadão and obtain a Portuguese passport at IRN.' }
       ]
     },
     {
       id: 'common-issues',
-      title: 'Common issues',
+      title: 'Common pitfalls',
       content: [
         { kind: 'checklist', items: [
-          '❗ Different transliteration of the name in the passport and marriage certificate — a notarised affidavit confirming identity will be required',
-          '❗ Marriage concluded in a third country is not registered at the Conservatória do Registo Civil — first register the marriage in Portugal, then apply for citizenship',
-          '❗ The Portuguese spouse obtained citizenship recently (naturalisation) — the “3 years of marriage” period is counted from the date the spouse acquired citizenship, not from the wedding date',
+          '❗ Different transliteration of the name in the passport and the marriage certificate — a notarial affidavit confirming identity will be required',
+          '❗ A marriage concluded in a third country is not registered in the Conservatória do Registo Civil — first register the marriage in Portugal, then apply for nationality',
+          '❗ The Portuguese spouse acquired citizenship recently (naturalisation) — the “3 years of marriage” is counted from the date the spouse acquired citizenship, not from the wedding date',
           '❗ Divorce in progress — you cannot apply; wait for the decision',
-          '❗ The partner has renounced Portuguese citizenship — the right to naturalisation through marriage is lost'
+          '❗ The partner renounced Portuguese citizenship — the right to naturalisation by marriage is lost'
         ]}
       ]
     }
@@ -120,10 +120,10 @@ export default {
   timelineDaysMax: 720,
   sources: [
     { title: 'IRN — Nationality by marriage or união de facto', url: 'https://justica.gov.pt/Servicos/Submeter-pedido-de-nacionalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 37/81 (Lei da Nacionalidade), art. 3 — by marriage', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Decreto-Lei 237-A/2006 — Regulamento da Nacionalidade Portuguesa', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-34456975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei 37/81 (Lei da Nacionalidade), art. 3 — marriage', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei 237-A/2006 — Regulation of Portuguese Nationality', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-34456975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — união de facto', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-03',
   verifyIntervalDays: 90
 }

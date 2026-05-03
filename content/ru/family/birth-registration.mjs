@@ -19,7 +19,7 @@ export default {
           '✅ Гражданин ЕС с действительной регистрацией CRUE на момент рождения — обычно считается легально проживающим',
           '⚠️ Только короткий туристический визит без длительного присутствия — обычно нет; но если есть 1+ год фактического проживания — есть основание',
           '🌐 Португалия допускает множественное гражданство — ребёнок может получить и второе по родителям',
-          '⚖️ Новый закон AR 17/XVII (одобрен парламентом 01.04.2026) изменит срок до 5 лет — на 28.04.2026 ещё НЕ промульгирован, действуют старые правила'
+          '⚖️ Новый закон AR 17/XVII (одобрен парламентом 01.04.2026) изменит срок до 5 лет — на 03.05.2026 ещё НЕ промульгирован, действуют старые правила'
         ]}
       ]
     },
@@ -129,6 +129,6 @@ export default {
     { title: 'ePortugal — Nascer Cidadão', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/nascer-cidadao-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 37/81 — Lei da Nacionalidade (art. 1 n.1 al. f)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34448275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-03',
   verifyIntervalDays: 180
 }
