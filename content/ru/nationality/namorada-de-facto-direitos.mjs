@@ -89,7 +89,7 @@ export default {
           'Наследование: без завещания партнёр не равен супругу в порядке наследников.',
           'Налог: для gratuitous transfers между unidos de facto может применяться освобождение от 10% Imposto do Selo, но право на сам актив всё равно должно возникнуть по завещанию, договору или закону.',
           'Гражданство: иностранный партнёр гражданина Португалии может подать на nacionalidade portuguesa после более 3 лет união de facto, но сначала нужно признание союза в гражданском суде.',
-          'Новый закон о гражданстве был одобрен парламентом 01.04.2026, но на 03.05.2026 ещё не был промульгирован; применяйте действующий режим Lei da Nacionalidade до вступления новой редакции в силу.'
+          '03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII (новая редакция Lei da Nacionalidade). После публикации в Diário da República минимальный срок união de facto для подачи на гражданство увеличится с 3 до 5 лет, появится обязательное требование реального совместного проживания. Сегуру публично попросил рассматривать уже поданные дела по старым правилам. До публикации в DRE действует старый режим (3 года).'
         ] },
         { kind: 'warning', text: 'Для гражданства через união de facto не достаточно того, что вы оба прописаны по одному адресу. IRN требует юридически признанную união de facto с гражданином Португалии и проверяет основания для oposição, включая связь с португальским сообществом, если применимо.' }
       ]
@@ -122,8 +122,9 @@ export default {
     { title: 'Lei 7/2001 — proteção das uniões de facto, DRE', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2001-34417875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Justiça.gov.pt — reconhecimento da união de facto', url: 'https://justica.gov.pt/Servicos/Reconhecimento-da-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei da Nacionalidade — Lei 37/81, art. 3, DRE', url: 'https://dre.pt/dre/legislacao-consolidada/lei/1981-34536975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Justiça.gov.pt — pedir nacionalidade portuguesa por casamento ou união de facto', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Justiça.gov.pt — pedir nacionalidade portuguesa por casamento ou união de facto', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-04',
   verifyIntervalDays: 90
 }

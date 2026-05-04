@@ -3,27 +3,27 @@ export default {
   id: 'ciple-a2-exam',
   categoryId: 'nationality',
   title: 'Português A2 — cursos gratuitos, programas escolares e exame CIPLE',
-  tldr: 'O certificado de nível A2 é necessário apenas para naturalização por residência (ao abrigo da Lei 37/81 em vigor — 5 anos; as alterações aprovadas pelo parlamento em 01.04.2026, para 7 anos para CPLP/UE e 10 anos para os restantes, a 03.05.2026 NÃO foram promulgadas e NÃO estão em vigor). Para casamento, união de facto, Reagrupamento Familiar — NÃO é necessário. IMPORTANTE: para a naturalização o IRN aceita apenas certificado oficial de nível A2+ (CIPLE / PLA / Centros Qualifica / DEPLE / DAPLE) — uma simples declaração de frequência de 150 horas SEM avaliação de nível NÃO é aceite. As vias mais baratas: PLA (0 €), IEFP (0 € + bolsa, mas com obrigações como desempregado), escolas públicas para adultos ~20 €/semestre. Exame CIPLE — 85 € (2026), sessões mensais.',
+  tldr: 'O certificado de nível A2 só é necessário para a naturalização por residência (pela Lei 37/81 em vigor — 5 anos; **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** — após a publicação no DRE o prazo passará para 7 anos para CPLP/UE e 10 anos para os restantes, além de surgir um teste obrigatório sobre cultura, direitos e organização do Estado portugueses). Para casamento, união de facto, Reagrupamento Familiar — NÃO é necessário. IMPORTANTE: para a naturalização o IRN aceita apenas um certificado oficial com indicação explícita do nível A2+ (CIPLE / PLA / Centros Qualifica / DEPLE / DAPLE) — uma simples declaração de frequência de 150 horas SEM avaliação de nível NÃO é aceite. Os caminhos mais baratos: PLA (0 €), IEFP (0 € + bolsa, mas com obrigações enquanto desempregado), escolas públicas para adultos ~20 €/semestre. Exame CIPLE — 85 € (2026), sessões mensais.',
   audience: { citizenships: ['thirdCountry', 'euEeaSwiss'] },
   tags: ['ciple', 'a2', 'língua', 'exame', 'pla'],
   estimatedReadMinutes: 7,
   steps: [
     {
       id: 'when-needed',
-      title: 'Quando o certificado é necessário, e quando não é',
+      title: 'Quando é necessário o certificado e quando não é',
       content: [
-        { kind: 'paragraph', text: 'O nível A2 de português só é necessário em alguns casos:' },
+        { kind: 'paragraph', text: 'O nível A2 de português só é exigido em alguns casos:' },
         { kind: 'checklist', items: [
-          '✅ **Naturalização por residência** (art. 6 da Lei 37/81 + art. 25 do Decreto-Lei 237-A/2006): atualmente — após 5 anos. As alterações para 7 anos para CPLP/UE e 10 anos para os restantes foram aprovadas pelo parlamento em 01.04.2026, mas a 03.05.2026 ainda NÃO foram promulgadas — aplicam-se as regras antigas',
-          '✅ Para admissão em vários programas do IEFP, escolas públicas e Centros Qualifica'
+          '✅ **Naturalização por residência** (art. 6 da Lei 37/81 + art. 25 do Decreto-Lei 237-A/2006): pela lei vigente — após 5 anos. **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** — após a publicação no DRE: 7 anos para CPLP/UE, 10 anos para os restantes, além de um teste obrigatório sobre cultura, direitos e organização do Estado portugueses. Até à publicação no DRE vigoram as regras antigas',
+          '✅ Para candidatura/ingresso em vários programas do IEFP, escolas superiores públicas e Centros Qualifica'
         ]},
         { kind: 'paragraph', text: 'Quando o certificado NÃO é exigido:' },
         { kind: 'checklist', items: [
-          '❌ Nacionalidade por casamento / união de facto — a Lei 37/81 não exige língua (apenas “vínculos efetivos”)',
-          '❌ Nacionalidade por origem (avô/avó português) — não exige',
+          '❌ Nacionalidade por casamento / união de facto — a Lei 37/81 não exige língua (apenas «vínculos efectivos»)',
+          '❌ Nacionalidade por origem (avô/avó portugueses) — não exige',
           '❌ Reagrupamento Familiar — a AIMA não exige língua',
           '❌ Renovação da autorização de residência — a AIMA não exige',
-          '❌ **Cidadãos de países com o português como língua oficial** (Brasil, Angola, Cabo Verde, Moçambique, Guiné-Bissau, São Tomé, Timor-Leste, Guiné Equatorial): pelas regras do Regulamento da Nacionalidade, o conhecimento da língua presume-se. Confirme o seu caso específico no IRN'
+          '❌ **Cidadãos de países com o português como língua oficial** (Brasil, Angola, Cabo Verde, Moçambique, Guiné-Bissau, São Tomé, Timor-Leste, Guiné Equatorial): segundo o Regulamento da Nacionalidade presume-se o conhecimento da língua. Confirme o seu caso concreto no IRN'
         ]},
         { kind: 'warning', text: 'Ao pedir a nacionalidade, o IRN aceita apenas um certificado OFICIAL onde conste explicitamente o nível A2 ou superior. Uma declaração de frequência do curso sem avaliação de nível — NÃO serve.' }
       ]
@@ -38,9 +38,9 @@ export default {
           '✅ **Certificado PLA** — Português Língua de Acolhimento, emitido por escola pública/Centro Qualifica com indicação do nível A2 ou superior',
           '✅ **Certificado de Centros Qualifica** — documento oficial com confirmação do nível segundo o QECR',
           '✅ **Certificado escolar de PLNM** (Português Língua Não Materna) — se indicar o nível alcançado A2+',
-          '✅ **Conclusão de escola portuguesa** (9.º/12.º ano) — conta automaticamente como C1',
-          '✅ **Curso/diploma universitário em português** — geralmente é aceite',
-          '⚠️ Uma simples “declaração de frequência” de 150 horas SEM avaliação de nível — NÃO é aceite'
+          '✅ **Diploma/Certidão de conclusão de escola portuguesa** (9.º/12.º ano) — conta automaticamente como C1',
+          '✅ **Curso/diploma do ensino superior em português** — normalmente é aceite',
+          '⚠️ Uma simples «declaração de frequência» de 150 horas SEM avaliação de nível — NÃO é aceite'
         ]}
       ]
     },
@@ -50,54 +50,54 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'iefp', title: '1. IEFP — centro de emprego: curso + bolsa (para desempregados inscritos)', content: [
-            { kind: 'paragraph', text: 'O IEFP (iefp.pt) organiza cursos de português para residentes. Se estiver inscrito como desempregado/procurador de emprego — o curso é gratuito + bolsa de formação.' },
-            { kind: 'warning', text: 'A inscrição no IEFP implica OBRIGAÇÕES: comparecer às convocatórias, participar em medidas de emprego, aceitar ofertas adequadas de trabalho/estágio. Não é adequado para quem não procura efetivamente emprego — a falta pode levar à remoção do registo e à perda do subsídio.' },
+            { kind: 'paragraph', text: 'O IEFP (iefp.pt) organiza cursos de português para residentes. Se estiver inscrito como desempregado/procurador de emprego — o curso é gratuito + há bolsa de formação.' },
+            { kind: 'warning', text: 'A inscrição no IEFP implica OBRIGAÇÕES: comparecer às convocatórias, participar em medidas de emprego, aceitar ofertas adequadas de trabalho/estágio. Não é indicado para quem não procura efetivamente emprego — a falta pode levar à anulação da inscrição e à perda de apoios.' },
             { kind: 'checklist', items: [
               'Inscrever-se no Centro de Emprego mais próximo (lista em iefp.pt)',
               'Necessário: NIF, NISS, autorização de residência, comprovativo de morada',
               'Formato: aulas em grupo durante 4–6 meses',
-              'Bolsa de formação: percentagem do IAS 2026 (537,13 €) — normalmente 50–80% conforme o programa',
+              'Bolsa de formação: percentagem do IAS 2026 (537,13 €) — normalmente 50–80% consoante o programa',
               'Alimentação: ~6 €/dia; transporte mediante comprovativos',
-              'No fim — certificado com indicação do nível (A2/B1) — aceite pelo IRN'
+              'No final — certificado com indicação do nível (A2/B1) — aceite pelo IRN'
             ]}
           ]},
           { id: 'pla', title: '2. PLA — Português Língua de Acolhimento (gratuito)', content: [
             { kind: 'paragraph', text: 'Programa público, organizado pela AIMA + escolas públicas / Centros Qualifica. Gratuito para todos os estrangeiros com qualquer estatuto (incl. refugiados).' },
             { kind: 'checklist', items: [
               '150 horas — bloco típico que cobre A1 + A2 (mas o que conta não é o número de horas, é a avaliação final do nível)',
-              '300 horas — para atingir o nível B2',
-              'Inscrição via Centro Qualifica da área de residência (qualifica.gov.pt) ou AIMA',
-              'Formato: aulas à noite ou ao fim de semana (2–3 vezes/semana, 3 horas)',
-              '🎓 No final — Certificado PLA com indicação do nível final (A2, B1, B2). Só o certificado COM NÍVEL A2+ serve para o IRN',
+              '300 horas — para o nível B2',
+              'Inscrição através do Centro Qualifica da área de residência (qualifica.gov.pt) ou da AIMA',
+              'Formato: aulas pós-laborais ou ao fim de semana (2–3 vezes/semana, 3 horas)',
+              '🎓 No final — Certificado PLA com indicação do nível final (A2, B1, B2). Apenas o certificado COM NÍVEL A2+ é válido para o IRN',
               '⚠️ Pergunte ANTES de se inscrever: «este curso emite certificado com nível A2 reconhecido pelo IRN para nacionalidade?»'
             ]}
           ]},
           { id: 'public-school', title: '3. Escolas públicas para adultos (Escola Secundária)', content: [
-            { kind: 'paragraph', text: 'Muitas Escolas Secundárias públicas têm cursos noturnos de PLNM (Português Língua Não Materna).' },
+            { kind: 'paragraph', text: 'Muitas Escolas Secundárias públicas têm cursos pós-laborais de PLNM (Português Língua Não Materna).' },
             { kind: 'checklist', items: [
-              'Inscrição na escola (matrícula) — geralmente ~10–25 € por semestre',
-              'O curso é gratuito (ensino público)',
-              'Formato: aulas regulares com docente',
+              'Inscrição através da escola (matrícula) — geralmente ~10–25 € por semestre',
+              'Curso gratuito (ensino público)',
+              'Formato: aulas presenciais com professor',
               'Calendário: setembro—junho, 2–3 vezes por semana',
               '🎓 IMPORTANTE: confirme se a escola emite certificado com nível A2 (e não apenas declaração de frequência)',
-              'Lista de escolas com PLNM: no site do município, na secção Educação'
+              'Lista de escolas com PLNM: no site da Câmara Municipal na secção Educação'
             ]}
           ]},
           { id: 'junta', title: '4. Junta de Freguesia — cursos informais', content: [
-            { kind: 'paragraph', text: 'Algumas Juntas de Freguesia organizam cursos de conversação gratuitos com voluntários. Normalmente NÃO emitem certificado (não serve para o IRN), mas são ótimos para prática oral. Informe-se na sua área.' }
+            { kind: 'paragraph', text: 'Algumas Juntas de Freguesia organizam cursos de conversação gratuitos com voluntários. Normalmente NÃO emitem certificado (não serve para o IRN), mas são ótimos para prática oral. Informe-se na sua zona.' }
           ]},
-          { id: 'online', title: '5. Recursos online para estudo autónomo', content: [
+          { id: 'online', title: '5. Recursos online para autoestudo', content: [
             { kind: 'checklist', items: [
               'Practice Portuguese (practiceportuguese.com) — subscrição ~10 €/mês, português europeu',
               'Portuguese With Carla (YouTube) — aulas gratuitas',
               'Mondly / Duolingo — nível básico',
-              'Tandem / HelloTalk — prática com nativos gratuitamente',
+              'Tandem / HelloTalk — prática com falantes nativos gratuita',
               'Áudio: Said No One Ever Podcast, Portuguese Lab',
-              '⚠️ Cursos online NÃO emitem certificado reconhecido pelo IRN — é necessário o exame CIPLE ou curso oficial'
+              '⚠️ Cursos online NÃO emitem certificado reconhecido pelo IRN — é preciso o exame CIPLE ou um curso oficial'
             ]}
           ]},
           { id: 'private', title: '6. Escolas de línguas privadas', content: [
-            { kind: 'paragraph', text: 'Apenas se precisar de máxima rapidez / abordagem individual. Desde 300 € por intensivo; curso completo A1→A2 ~700–1200 €. CIAL, CLIC, Fast Forward. O certificado de escola privada normalmente NÃO é aceite pelo IRN — é necessário o CIPLE ou certificado público.' }
+            { kind: 'paragraph', text: 'Apenas se precisar de máxima rapidez / abordagem individual. Desde 300 € por intensivo; curso completo A1→A2 ~700–1200 €. CIAL, CLIC, Fast Forward. O certificado de escola privada o IRN geralmente NÃO aceita — é necessário CIPLE ou certificado público.' }
           ]}
         ]}
       ]
@@ -106,10 +106,10 @@ export default {
       id: 'exam-structure',
       title: 'Exame CIPLE — se optar pelo CAPLE',
       content: [
-        { kind: 'paragraph', text: 'O CIPLE (Certificado Inicial de Português Língua Estrangeira) é o exame de nível A2 do CAPLE (Universidade de Lisboa). É aceite por todas as entidades em Portugal.' },
+        { kind: 'paragraph', text: 'CIPLE (Certificado Inicial de Português Língua Estrangeira) — exame de nível A2 do CAPLE (Universidade de Lisboa). É aceite por todas as entidades em Portugal.' },
         { kind: 'substeps', items: [
           { id: 'e1', title: 'Leitura + escrita (75 min)', content: [
-            { kind: 'paragraph', text: '4 textos com questões (escolha múltipla + respostas curtas). Texto curto (70–90 palavras): e-mail, nota, felicitação.' }
+            { kind: 'paragraph', text: '4 textos com perguntas (escolha múltipla + respostas curtas). Escrita curta (70–90 palavras): email, recado, felicitações.' }
           ]},
           { id: 'e2', title: 'Compreensão oral (30 min)', content: [
             { kind: 'paragraph', text: '4 áudios: diálogo, anúncio, instrução, conversa. Perguntas de escolha múltipla.' }
@@ -118,7 +118,7 @@ export default {
             { kind: 'paragraph', text: 'Individualmente ou em pares. 3 tarefas: apresentação pessoal, jogo de papéis, descrição de imagem/conversa.' }
           ]}
         ]},
-        { kind: 'paragraph', text: 'A classificação mínima de aprovação é 55% da nota total. O certificado é emitido 6–8 semanas após o exame e é válido por tempo indeterminado.' }
+        { kind: 'paragraph', text: 'A nota mínima de aprovação é 55% da pontuação total. O certificado é emitido 6–8 semanas após o exame e é válido por tempo indeterminado.' }
       ]
     },
     {
@@ -130,22 +130,22 @@ export default {
           '💻 Inscrição online no site do CAPLE',
           '🏢 Centros em Portugal: Lisboa, Porto, Coimbra, Braga, Faro; no estrangeiro — Instituto Camões nas capitais',
           '💶 Custo: 85 € em 2026 (até 95 € nos centros internacionais). Pagamento por cartão ou referência Multibanco',
-          '📧 A Convocatória chega com uma semana de antecedência',
-          '📄 Resultados — na área pessoal do CAPLE em 6–8 semanas; o certificado em PDF descarrega-se no mesmo local'
+          '📧 A convocatória chega cerca de uma semana antes',
+          '📄 Resultados — na área pessoal do CAPLE em 6–8 semanas; o certificado em PDF descarrega-se no mesmo portal'
         ]}
       ]
     },
     {
       id: 'preparation',
-      title: 'Como se preparar autonomamente',
+      title: 'Como preparar-se por conta própria',
       content: [
         { kind: 'checklist', items: [
           '📚 Manuais: «Português XXI — Nível A2» (Lidel), «Passaporte Para Português A2» (Lidel), «Aprender Português» (Texto Editora)',
-          '📝 Provas modelo: o CAPLE publica Exemplos de Provas — 5 conjuntos anteriores gratuitos',
+          '📝 Provas-modelo: o CAPLE publica Exemplos de Provas — 5 conjuntos anteriores gratuitos',
           '🎧 Podcasts: «Practice Portuguese», «Said No One Ever», «Portuguesepod101»',
           '🎬 Séries: RTP Play (gratuito), Netflix PT com legendas',
           '🗣️ Prática oral: parceiros de tandem, «café fala português» na Junta de Freguesia',
-          '📅 100–150 horas de estudo são suficientes a partir do zero; com A1 — 50–80 horas'
+          '📅 100–150 horas de estudo bastam a partir do zero; com A1 — 50–80 horas'
         ]}
       ]
     }
@@ -154,9 +154,9 @@ export default {
     { label: 'PLA (cursos públicos)', amountEUR: 0 },
     { label: 'IEFP — curso + bolsa para inscritos', amountEUR: 0, note: '+ bolsa parcial com base no IAS 537,13 €' },
     { label: 'Escola pública para adultos — inscrição', amountEURMin: 10, amountEURMax: 25, note: '/semestre' },
-    { label: 'Exame CIPLE', amountEUR: 85, note: 'tarifa CAPLE em 2026' },
+    { label: 'Exame CIPLE', amountEUR: 85, note: 'tarifa CAPLE para 2026' },
     { label: 'Subscrição online (prática)', amountEURMin: 0, amountEURMax: 15, note: '€/mês' },
-    { label: 'Escola privada (se precisar rápido)', amountEURMin: 300, amountEURMax: 1200 }
+    { label: 'Escola privada (se for preciso rapidez)', amountEURMin: 300, amountEURMax: 1200 }
   ],
   sources: [
     { title: 'IRN — Aquisição da nacionalidade portuguesa', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -165,8 +165,9 @@ export default {
     { title: 'CAPLE — Centro de Avaliação de Português Língua Estrangeira', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IEFP — cursos de formação', url: 'https://www.iefp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Centros Qualifica', url: 'https://www.qualifica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'AIMA — Português Língua de Acolhimento (PLA)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'AIMA — Português Língua de Acolhimento (PLA)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-04',
   verifyIntervalDays: 180
 }

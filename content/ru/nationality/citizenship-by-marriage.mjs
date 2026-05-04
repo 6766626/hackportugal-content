@@ -3,11 +3,11 @@ export default {
   id: 'citizenship-by-marriage',
   categoryId: 'nationality',
   title: 'Гражданство Португалии по браку или união de facto',
-  tldr: 'Супруги граждан Португалии могут подать заявление на гражданство после 3 лет брака. Альтернатива — união de facto более 3 лет с гражданином Португалии, признанная судебным решением (sentença declarativa): простой регистрации в Junta de Freguesia или Conservatória do Registo Civil для целей гражданства НЕ достаточно. Языковой сертификат CIPLE формально НЕ требуется. До 6 лет брака IRN/Ministério Público может запросить доказательства «ligação efetiva à comunidade nacional». Проживать в Португалии необязательно. Новый закон (принят парламентом 01.04.2026, на 03.05.2026 НЕ промульгирован) увеличит срок до 5 лет и усилит требование реального совместного проживания.',
+  tldr: 'Супруги граждан Португалии могут подать заявление на гражданство после 3 лет брака. Альтернатива — união de facto более 3 лет с гражданином Португалии, признанная судебным решением (sentença declarativa): простой регистрации в Junta de Freguesia или Conservatória do Registo Civil для целей гражданства НЕ достаточно. Языковой сертификат CIPLE формально НЕ требуется. До 6 лет брака IRN/Ministério Público может запросить доказательства «ligação efetiva à comunidade nacional». Проживать в Португалии необязательно. **03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII** — после публикации в DRE срок брака увеличится с 3 до 5 лет, появится обязательное требование реального совместного проживания, порог криминальной чистоты ужесточится с 5 до 3 лет лишения свободы. Сегуру публично попросил рассматривать уже поданные дела по старым правилам.',
   tags: ['гражданство', 'брак', 'união'],
   estimatedReadMinutes: 6,
   pendingLaw: {
-    summary: 'Decreto AR 17/XVII, повторно принят Парламентом 01.04.2026 (после вето в декабре 2025 и неконституционности TC Acórdão 1133/2025). Предложит увеличить срок брака с 3 до 5 лет, обязать реальное совместное проживание и доказательства этого, повысить порог презумпции «эффективных связей» с 6 до 7–8 лет. На 03.05.2026 закон НЕ промульгирован Президентом — действуют правила Lei 37/81 (3 года).',
+    summary: 'Decreto AR 48/XVII (после прохождения через TC переименован с 17/XVII), повторно принят Парламентом 01.04.2026 (после вето Марселу в декабре 2025 и неконституционности TC Acórdão 1133/2025). **Промульгирован Президентом Сегуру 03.05.2026.** Закон вступит в силу на следующий день после публикации в Diário da República. После вступления: срок брака увеличится с 3 до 5 лет, появится обязательное требование реального совместного проживания и его доказательств, порог презумпции «эффективных связей» вырастет с 6 до 7–8 лет, порог криминальной чистоты ужесточится с 5 до 3 лет лишения свободы. Сегуру в речи 03.05.2026 публично попросил рассматривать уже поданные дела по старым правилам ради юридической безопасности. До публикации в DRE действуют правила Lei 37/81 (3 года).',
   },
   steps: [
     {
@@ -122,8 +122,9 @@ export default {
     { title: 'IRN — Nacionalidade por casamento ou união de facto', url: 'https://justica.gov.pt/Servicos/Submeter-pedido-de-nacionalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 37/81 (Lei da Nacionalidade), ст. 3 — по браку', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 237-A/2006 — Regulamento da Nacionalidade Portuguesa', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-34456975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — união de facto', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — união de facto', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-04',
   verifyIntervalDays: 90
 }

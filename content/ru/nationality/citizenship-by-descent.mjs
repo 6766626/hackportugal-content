@@ -65,8 +65,8 @@ export default {
       title: 'Сефардские евреи — режим под угрозой отмены',
       content: [
         { kind: 'paragraph', text: 'Ускоренный способ для сефардских евреев был введён в Lei da Nacionalidade через **Lei Orgânica n.º 1/2013** (затем регулирование детализировано Decreto-Lei 30-A/2015) и действовал почти 10 лет. Существенное ужесточение режима действует с **01.09.2022** — через **Decreto-Lei n.º 26/2022**, которое изменило Regulamento da Nacionalidade и потребовало доказательств реальной связи с Португалией (проживание, экономические или культурные связи). После этого число заявок резко упало.' },
-        { kind: 'paragraph', text: 'Decreto AR 17/XVII (повторно принят Парламентом 01.04.2026) предусматривает отмену этого способа. На 03.05.2026 закон НЕ промульгирован Президентом Сегуру. До публикации окончательного текста в DRE невозможно с уверенностью утверждать содержание переходных положений. По действующему праву до промульгации этот способ технически работает в режиме после Decreto-Lei 26/2022.' },
-        { kind: 'warning', text: 'Если планируете подать заявление — делайте это ДО промульгации нового закона. После отмены восстановить этот способ будет практически невозможно.' }
+        { kind: 'paragraph', text: '**03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII** (после прохождения через TC переименован с 17/XVII) — закон полностью отменяет ускоренный сефардский путь. Закон вступит в силу на следующий день после публикации в Diário da República (ожидается в ближайшие дни). Сегуру в речи 03.05.2026 публично попросил рассматривать уже поданные дела по старым правилам ради юридической безопасности. По действующему праву до публикации в DRE этот способ ещё технически работает в режиме после Decreto-Lei 26/2022.' },
+        { kind: 'warning', text: 'Если планируете подать заявление — делайте это СРОЧНО, до публикации Decreto 48/XVII в DRE. Подача закрепляет дело в старом режиме (особенно с учётом просьбы Президента к IRN). После публикации новый закон полностью устранит этот путь.' }
       ]
     }
   ],
@@ -82,8 +82,9 @@ export default {
     { title: 'Lei 37/81 (Lei da Nacionalidade) — consolidado', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 2/2022 — ужесточение сефардского способа', url: 'https://diariodarepublica.pt/dr/detalhe/lei/2-2022-179324500', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 30-A/2015 — Regulamento da Nacionalidade (сефардский)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/30-a-2015-66714746', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Arquivo Nacional Torre do Tombo', url: 'https://antt.dglab.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Arquivo Nacional Torre do Tombo', url: 'https://antt.dglab.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-04',
   verifyIntervalDays: 90
 }
