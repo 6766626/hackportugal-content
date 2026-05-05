@@ -3,7 +3,7 @@ export default {
   id: 'bilhete-zoo-aquario',
   categoryId: 'education_children',
   title: 'Зоопарк Лиссабона, Oceanário и аквариумы: билеты, абонементы, скидки',
-  tldr: 'Главные семейные точки: Jardim Zoológico de Lisboa, Oceanário de Lisboa и Sea Life Algarve. В 2026 ориентируйтесь на 19–22 € за детский/льготный билет и до 25 € за взрослый билет в Oceanário; дети до 3 лет обычно бесплатно. Покупайте онлайн: дешевле и без очереди. Для резидентов выгодны годовые cartões/абонементы и семейные пакеты; школьные визиты оформляются отдельно и могут быть бесплатными или сильно льготными по записи.',
+  tldr: 'Главные семейные точки: Jardim Zoológico de Lisboa, Oceanário de Lisboa и Sea Life Porto. В 2026 ориентируйтесь на 19–22 € за детский/льготный билет и до 25 € за взрослый билет в Oceanário; дети до 3 лет обычно бесплатно. Покупайте онлайн: дешевле и без очереди. Для резидентов выгодны годовые cartões/абонементы и семейные пакеты; школьные визиты оформляются отдельно и могут быть бесплатными или сильно льготными по записи.',
   tags: ['дети', 'zoo', 'oceanario', 'билеты'],
   estimatedReadMinutes: 5,
   steps: [
@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'Jardim Zoológico de Lisboa — животные, канатная дорога, дельфинарий/представления, большая территория; планируйте 4–6 часов.',
           'Oceanário de Lisboa — большой центральный аквариум, временные выставки, удобно с коляской; планируйте 1,5–3 часа.',
-          'Sea Life Algarve — семейный аквариум в Guia/Albufeira, полезен для живущих на Algarve или отдыхающих с детьми.',
+          'Sea Life Porto — семейный аквариум на побережье Foz do Douro в Porto; полезен для семей на севере страны или туристов в Porto.',
           'Visionarium / Ciência Viva-форматы — научные и интерактивные центры, не классический аквариум, но хорошая альтернатива для школьников.',
           'Дети до 3 лет в таких местах обычно проходят бесплатно, но билет с нулевой стоимостью иногда всё равно нужно выбрать онлайн.',
           'В высокий сезон лучше бронировать утро: меньше групп и проще с парковкой.'
@@ -98,7 +98,7 @@ export default {
   sources: [
     { title: 'Jardim Zoológico de Lisboa — билеты, horários, visitas escolares', url: 'https://www.zoo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Oceanário de Lisboa — tickets, memberships, education programmes', url: 'https://www.oceanario.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Sea Life Algarve — билеты и семейные посещения', url: 'https://www.visitsealife.com/algarve/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
+    { title: 'Sea Life Porto — билеты и семейные посещения', url: 'https://www.visitsealife.com/porto/en/', kind: 'company', language: 'en', lastRetrieved: '2026-05-04' }
   ],
   lastVerified: '2026-04-28',
   verifyIntervalDays: 180

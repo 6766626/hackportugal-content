@@ -163,11 +163,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'AIMA: контакты и atendimento presencial',
-      url: 'https://aima.gov.pt/pt/contactos',
+      title: 'AIMA: Lojas e atendimento presencial',
+      url: 'https://aima.gov.pt/pt/lojas-aima',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     }
   ],
   lastVerified: '2026-04-28',

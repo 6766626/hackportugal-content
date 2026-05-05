@@ -171,8 +171,8 @@ export default {
   sources: [
     { title: 'Banco de Portugal — Conta de pagamentos', url: 'https://www.bportugal.pt/page/contas-de-pagamentos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Empresa na Hora', url: 'https://justica.gov.pt/Servicos/Empresas/Empresa-na-Hora', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Autoridade Tributária — Início de Atividade', url: 'https://www.portaldasfinancas.gov.pt/at/html/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Autoridade Tributária — Início de Atividade', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

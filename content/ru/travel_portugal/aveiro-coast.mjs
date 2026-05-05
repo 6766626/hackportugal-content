@@ -99,8 +99,8 @@ export default {
   sources: [
     { title: 'Câmara Municipal de Aveiro — туризм', url: 'https://www.cm-aveiro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Aveiro — Região Centro', url: 'https://www.visitcentro.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Turismo de Portugal — Aveiro', url: 'https://www.visitportugal.com/pt-pt/destinos/centro-de-portugal/aveiro', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Turismo de Portugal — Aveiro', url: 'https://www.visitportugal.com/en/destinos/centro-de-portugal/73753', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

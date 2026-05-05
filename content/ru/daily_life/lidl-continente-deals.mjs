@@ -120,11 +120,11 @@ export default {
     { label: 'Экономия от Cartão Continente (семья)', amountEURMin: 200, amountEURMax: 800, note: '€/год' }
   ],
   sources: [
-    { title: 'Lidl Outlet', url: 'https://www.lidl.pt/outlet', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lidl Outlet', url: 'https://www.lidl.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Continente — Cartão', url: 'https://www.continente.pt/cartao-continente/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'folhetos.pt — агрегатор акций', url: 'https://www.folhetos.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DECO PROteste — сравнение супермаркетов', url: 'https://www.deco.proteste.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

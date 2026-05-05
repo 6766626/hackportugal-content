@@ -130,7 +130,7 @@ export default {
     },
     {
       title: 'Comissão Europeia: EU energy labels and product database EPREL',
-      url: 'https://energy-efficient-products.ec.europa.eu/ecodesign-and-energy-label/energy-label-and-ecodesign/product-database_en',
+      url: 'https://eprel.ec.europa.eu/screen/home',
       kind: 'official',
       language: 'en',
       lastRetrieved: '2026-04-28'
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

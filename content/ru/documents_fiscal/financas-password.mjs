@@ -67,10 +67,10 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portal das Finanças — Registo', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portal das Finanças — Registo', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Autenticação.gov — Chave Móvel Digital', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Obter senha de acesso ao Portal das Finanças', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/registar-se-no-portal-das-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

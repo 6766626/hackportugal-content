@@ -139,11 +139,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'República Portuguesa — Programa de Apoio à Redução Tarifária nos Transportes Públicos',
-      url: 'https://www.portugal.gov.pt/pt/gc23/comunicacao/noticia?i=programa-de-apoio-a-reducao-tarifaria-nos-transportes-publicos',
+      title: 'AMAL — PART (Programa de Apoio à Redução Tarifária nos Transportes Públicos)',
+      url: 'https://amal.pt/atividades/mobilidade-e-transportes/autoridade-de-transportes/part',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-05'
     },
     {
       title: 'AMT — informação ao consumidor sobre transporte público de passageiros',

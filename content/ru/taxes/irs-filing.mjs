@@ -80,10 +80,10 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Медицинские расходы — 15% до € 1000',
-          'Образование (дети) — 30% до € 800',
+          'Образование — 30% до € 800 на семью (а не на ребёнка)',
           'Коммунальные услуги (электричество, газ, вода) — 15% до € 250',
           'Счета из ресторанов — 15% до € 250',
-          'Аренда — 15% до € 502',
+          'Аренда — 15% до € 700–800 (постепенный рост по OE 2024/25)',
           'Ипотека — 15% до € 296 (только для ипотек до 2011)',
           'Общие расходы (Faturas.pt) — 35% до € 250',
           'PPR (пенсионный счёт) — 20% до € 400'
@@ -101,10 +101,10 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portal das Finanças — IRS', url: 'https://www.portaldasfinancas.gov.pt/at/html/irsweb2024', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portal das Finanças — IRS', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlirsweb2024', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Entregar IRS', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do IRS (DRE)', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

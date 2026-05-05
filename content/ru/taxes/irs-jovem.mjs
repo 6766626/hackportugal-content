@@ -81,7 +81,7 @@ export default {
   ],
   sources: [
     { title: 'Gov.pt: новая модель IRS Jovem с 2025', url: 'https://www2.gov.pt/en/noticias/novo-modelo-de-irs-jovem-em-2025', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'Portal das Finanças: IRS Jovem', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/IRS/Pages/irs-jovem.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Portal das Finanças: IRS Jovem', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Folheto_IRS_jovem_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei n.º 45-A/2024 — Orçamento do Estado para 2025, изменения IRS Jovem', url: 'https://diariodarepublica.pt/dr/detalhe/lei/45-a-2024-902610097', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do IRS — art. 12.º-B, regime IRS Jovem', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

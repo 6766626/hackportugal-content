@@ -2,121 +2,121 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'imovel-devoluto-imi-tripla',
   categoryId: 'housing_buy',
-  title: 'Imóvel devoluto: triple IMI for empty housing under Mais Habitação',
-  tldr: 'Since 2023, Mais Habitação has strengthened the tax on empty urban housing: if the Câmara Municipal recognises a property as imóvel devoluto — usually housing empty for >12 months with no normal water/electricity consumption — the IMI rate is increased ×3. In zonas de pressão urbanística, the município may apply an even harsher increase. In 2026, this is a real risk for flats bought “just in case”. Defence: prove residence, rental, a lawful reason for vacancy, or renovação confirmed by the Câmara.',
+  title: 'Imóvel devoluto: triple IMI for vacant housing under Mais Habitação',
+  tldr: 'Since 2023, Mais Habitação has strengthened the tax on vacant urban housing: if the Câmara Municipal recognises a property as devoluto — usually the dwelling has been vacant for >12 months and there is no normal water/electricity consumption — the IMI rate increases ×3. In zonas de pressão urbanística the município may apply an even harsher increase. In 2026 this is a real risk for flats bought “just in case”. Protection: prove residence, letting, a lawful reason for downtime or a renovação confirmed by the Câmara.',
   tags: ['imi', 'devoluto', 'housing', 'mais-habitação'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'what-is-devoluto',
-      title: 'What counts as imóvel devoluto',
+      title: 'What is considered an imóvel devoluto',
       content: [
-        { kind: 'paragraph', text: 'Imóvel devoluto means an urban property or autonomous unit that the município considers to have been effectively empty for more than 1 year. The basis is Decreto-Lei 159/2006 and the Código do IMI, amended by Lei 56/2023 in the Mais Habitação package.' },
-        { kind: 'paragraph', text: 'The mere fact that you rarely visit does not always mean devoluto. The Câmara Municipal must make an administrative decision and notify the owner. But low or zero utility consumption is the main trigger for an inspection.' },
+        { kind: 'paragraph', text: 'An imóvel devoluto is an urban property or autonomous fraction that the município considers to be effectively vacant for more than 1 year. The basis is Decreto-Lei 159/2006 and the Código do IMI, amended by Lei 56/2023 in the Mais Habitação package.' },
+        { kind: 'paragraph', text: 'The mere fact that you rarely visit does not always mean devoluto. The Câmara Municipal must adopt an administrative decision and notify the owner. But low or zero consumption of utilities is the main trigger for verification.' },
         { kind: 'checklist', items: [
-          'The property has been empty for more than 12 months',
+          'The dwelling has been vacant for more than 12 months',
           'There are no active água, eletricidade, gás or telecomunicações contracts',
-          'There are contracts, but consumption is abnormally low',
-          'There is no registered resident or tenant',
+          'Contracts exist, but consumption is abnormally low',
+          'No registered resident or tenant',
           'Neighbours, the condomínio or fiscalização confirm lack of use',
-          'Post is not collected, and the property looks abandoned',
-          'The flat has been bought but not occupied or rented out',
-          'The house is in poor condition and is not used'
+          'Post is not collected; the property looks abandoned',
+          'The flat was purchased but neither occupied nor rented out',
+          'The building is in poor condition and not in use'
         ] }
       ]
     },
     {
       id: 'tax-effect',
-      title: 'How much the mistake costs: IMI ×3 and local surcharges',
+      title: 'How much a mistake costs: IMI ×3 and local surcharges',
       content: [
-        { kind: 'paragraph', text: 'The standard IMI rate for urban housing in 2026 is set by each município within the range of 0.3–0.45% of the VPT — valor patrimonial tributário. If the property is recognised as devoluto, the rate is tripled.' },
-        { kind: 'paragraph', text: 'Example: a flat with a VPT of €200,000 in a município with a 0.3% rate pays standard IMI of €600 per year. After devoluto status — €1,800. At a 0.45% rate, standard IMI is €900, and triple IMI is €2,700.' },
-        { kind: 'warning', text: 'In zonas de pressão urbanística and in some cases provided for in the Código do IMI after Mais Habitação, the município may apply a heavier agravamento than a simple ×3. Check your Câmara Municipal’s annual decision: rates and zones differ even between neighbouring municipalities.' },
-        { kind: 'paragraph', text: 'IMI is assessed based on the property’s status on 31 December of the tax year and is paid in the following year: usually in May, and for amounts above the established thresholds — in instalments in May, August and November. AIMI is a separate tax and does not replace IMI.' }
+        { kind: 'paragraph', text: 'The normal IMI rate for urban housing in 2026 is set by each município within the range 0.3–0.45% of the VPT — valor patrimonial tributário. If a property is classified as devoluto, the rate is tripled.' },
+        { kind: 'paragraph', text: 'Example: a flat with a VPT of €200,000 in a município with a 0.3% rate pays a normal IMI of €600 per year. After devoluto status — €1,800. At a 0.45% rate, normal IMI is €900, and triple — €2,700.' },
+        { kind: 'warning', text: 'In zonas de pressão urbanística and in some cases provided for in the Código do IMI after Mais Habitação, the município may apply a harsher agravamento than a simple ×3. Check the annual decision of your Câmara Municipal: rates and zones differ even between neighbouring municípios.' },
+        { kind: 'paragraph', text: 'IMI is assessed based on the status of the property on 31 December of the tax year and is paid the following year: typically in May, and for amounts above established thresholds — in instalments in May, August and November. AIMI is a separate tax and does not replace IMI.' }
       ]
     },
     {
       id: 'exceptions',
-      title: 'When an empty flat should not be considered devoluto',
+      title: 'When an empty flat should not be treated as devoluto',
       content: [
-        { kind: 'paragraph', text: 'The law provides for situations in which a property may be empty but should not be classified as devoluto. These must be proven with documents, not with “verbal” explanations.' },
+        { kind: 'paragraph', text: 'The law provides for situations where a property may be empty but should not be qualified as devoluto. These must be proven with documents, not merely verbal explanations.' },
         { kind: 'checklist', items: [
-          'The property is used as a casa de férias or second home for seasonal residence',
-          'The property is empty because of obras de construção, reconstrução, ampliação or renovação confirmed by the Câmara Municipal',
-          'There is a licença, comunicação prévia or another municipal document for the works',
-          'The property has been recently built or has only just become fit for use',
-          'There is an ongoing court dispute or administrative procedure objectively preventing use',
-          'The property is intended for short-term holidays in a situation permitted by law',
-          'The owner is temporarily abroad for professional or public duties, if applicable',
-          'There is a valid rental agreement, comodato or other lawful use',
-          'Low consumption is documented: renovation, breakdown, absence of a meter, disconnection because of works'
+          'The dwelling is used as a casa de férias or a second home for seasonal stays',
+          'The property is empty due to obras de construção, reconstrução, ampliação or renovação, confirmed by the Câmara Municipal',
+          'There is a licença, comunicação prévia or another municipal document regarding the works',
+          'The property was recently built or has only just become fit for use',
+          'There is a court dispute or administrative procedure that objectively prevents use',
+          'The dwelling is intended for short-stay tourism in a legally permitted situation',
+          'The owner is temporarily abroad for professional or public functions, where applicable',
+          'There is a valid tenancy agreement, comodato or other lawful use',
+          'Low consumption is documented: renovation, incident, absence of a meter, disconnection due to works'
         ] },
-        { kind: 'warning', text: 'For expat owners, the most common risk is “we bought a flat before moving, but did nothing for a year”. The intention to move later is usually a weak argument on its own. Evidence is needed: renovation, a rental listing, actual visits, bills, insurance, condomínio, correspondence with contractors.' }
+        { kind: 'warning', text: 'For expat owners the most common risk is “bought a flat before moving, but did nothing for a year”. The intention to move later by itself is usually a weak argument. Evidence is needed: renovation, a rental listing, actual visits, bills, insurance, condomínio, correspondence with contractors.' }
       ]
     },
     {
       id: 'renovation-defense',
       title: 'Renovação: how to protect a property under renovation',
       content: [
-        { kind: 'paragraph', text: 'If the property is empty because of renovation, do not wait for a letter from the Câmara. Prepare a file in advance and, if the works are substantial, formalise them through the municipal procedure: licença, comunicação prévia or at least written confirmation of the applicable regime.' },
+        { kind: 'paragraph', text: 'If the dwelling is empty due to renovation, do not wait for a letter from the Câmara. Compile a dossier in advance and, if the works are substantial, process them through the municipal procedure: licença, comunicação prévia or at least written confirmation of the applicable regime.' },
         { kind: 'checklist', items: [
-          'Document from the Câmara Municipal on licensing, comunicação prévia or dispensa de controlo prévio',
-          'Project, memória descritiva, termo de responsabilidade técnico, if applicable',
+          'A document from the Câmara Municipal on licenciamento, comunicação prévia or dispensa de controlo prévio',
+          'Project, memória descritiva, termo de responsabilidade técnico, where applicable',
           'Contracts with the empreiteiro, architect, engenheiro, fiscal de obra',
           'Faturas-recibo and bank payments for materials and works',
-          '“Before/during/after” photographs with dates',
-          'Livro de obra, autos de vistoria, emails with the Câmara or contractors',
-          'Evidence that water/electricity were disconnected specifically because of the works',
-          'Obra insurance or seguro multirriscos, if available',
-          'Statement to the Câmara requesting that the property not be classified as devoluto because of renovação'
+          'Dated “before/during/after” photographs',
+          'Livro de obra, autos de vistoria, e-mails with the Câmara or contractors',
+          'Evidence of water/electricity being disconnected specifically due to the works',
+          'Obra insurance or seguro multirriscos, if any',
+          'A request to the Câmara asking not to qualify the property as devoluto due to renovação'
         ] },
-        { kind: 'paragraph', text: 'If the renovation lasts more than 12 months, the file must show that the works are real and ongoing, rather than a fictitious pretext. This is especially important in Lisboa, Porto, Cascais, Oeiras and other markets under housing pressure.' }
+        { kind: 'paragraph', text: 'If the renovation lasts for more than 12 months, the dossier must show that the works are real and ongoing rather than a fictitious pretext. This is especially important in Lisboa, Porto, Cascais, Oeiras and other markets under housing pressure.' }
       ]
     },
     {
       id: 'how-to-contest',
-      title: 'How to challenge the Câmara decision and the tax',
+      title: 'How to contest the Câmara’s decision and the tax',
       content: [
-        { kind: 'paragraph', text: 'The process usually starts not with Finanças, but with the Câmara Municipal. The municipality identifies the property, notifies the owner and gives an opportunity for audiência prévia — to present a position and documents before the final decision.' },
+        { kind: 'paragraph', text: 'The process usually starts not with Finanças, but with the Câmara Municipal. The municipality identifies the property, notifies the owner and grants an audiência prévia — to present your position and documents before the final decision.' },
         { kind: 'checklist', items: [
-          'Do not ignore the Câmara letter: the response deadline is usually short, often 10 working days under administrative procedure rules',
-          'Check who received the notice: owner, cabeça de casal, manager, lawyer, tax representative',
-          'Request a copy of the basis: fiscalização report, utility company data, photographs, condomínio information',
-          'Submit a resposta à audiência prévia with evidence of residence, rental, renovation or a lawful reason for the vacancy',
-          'Request a vistoria or repeat inspection if the property is already in use',
-          'If the decision has become final, file an administrative appeal/recurso or ação administrativa depending on the stage',
-          'When the increased IMI arrives, separately file a reclamação graciosa with Finanças within the deadline, because the tax act is already independent',
-          'Keep proof of submission via balcão, email certificado, CTT registado or the município portal'
+          'Do not ignore a letter from the Câmara: the response period is usually short, often 10 working days under administrative procedure rules',
+          'Check who received the notice: the owner, cabeça de casal, manager, lawyer, tax representative',
+          'Request a copy of the grounds: fiscalização report, data from utility providers, photographs, information from the condomínio',
+          'Submit the resposta à audiência prévia with evidence of residence, tenancy, renovation or a lawful reason for vacancy',
+          'Request a vistoria or a reinspection if the property is already in use',
+          'If the decision has become final, file an administrative appeal/recurso or an ação administrativa depending on the stage',
+          'When the IMI with the increase arrives, separately file a reclamação graciosa with Finanças within the deadline, because the tax act already stands on its own',
+          'Keep proof of sending via balcão, email certificado, CTT registado or the município portal'
         ] },
-        { kind: 'warning', text: 'You cannot wait only for the nota de cobrança IMI. If the municipal act on devoluto has already entered into force, it is harder to dispute later: Finanças usually applies the information received from the Câmara.' }
+        { kind: 'warning', text: 'You cannot wait only for the IMI nota de cobrança. If the municipal act of devoluto has already taken effect, it is harder to dispute later: Finanças will usually apply the information received from the Câmara.' }
       ]
     },
     {
       id: 'practical-prevention',
       title: 'Prevention for an expat owner',
       content: [
-        { kind: 'paragraph', text: 'If you have bought a property in Portugal and do not live in it permanently, make the property “explainable” to the Câmara. The goal is for the documents to show: this is not abandoned housing, but real estate that is being used, renovated or lawfully awaiting occupation.' },
+        { kind: 'paragraph', text: 'If you bought housing in Portugal and do not live in it permanently, make the property “explainable” to the Câmara. The goal is that the documents show this is not an abandoned dwelling but a property that is used, being renovated or lawfully awaiting occupancy.' },
         { kind: 'checklist', items: [
-          'Connect água and eletricidade in your name or the tenant’s name',
-          'Keep bills showing real consumption, even if small',
-          'Draw up a rental agreement and register it in Portal das Finanças if you rent the property out',
+          'Connect água and eletricidade in your name or in the tenant’s name',
+          'Keep bills showing real, even if small, consumption',
+          'Draw up a tenancy agreement and register it on the Portal das Finanças if you let the property',
           'If you use it as a second home — keep tickets, expenses, bills, insurance, condomínio',
-          'Give the condomínio manager an up-to-date contact',
-          'Do not leave the property looking abandoned externally: post, shutters, leaks, façade',
-          'For renovation, arrange the municipal documents in advance',
+          'Provide the condomínio manager with a current contact',
+          'Do not leave the property looking abandoned: post, shutters, leaks, façade',
+          'For renovation, arrange municipal documents in advance',
           'Check post at the property address and in ViaCTT/Portal das Finanças',
-          'Before buying an empty property, ask the seller about devoluto status and IMI debts',
-          'Once a year, check the deliberação de taxas IMI of your Câmara Municipal'
+          'Before buying a vacant property, ask the seller about devoluto status and IMI debts',
+          'Once a year check the deliberação de taxas IMI of your Câmara Municipal'
         ] },
-        { kind: 'paragraph', text: 'For a buyer, it is important that triple IMI is linked to the property and its status in a specific tax year. In the escritura, ask for the certidão predial, caderneta predial, certificate of no debts and written assurances from the seller that the property has not been recognised as devoluto.' }
+        { kind: 'paragraph', text: 'For a buyer it is important: triple IMI is linked to the property and its status in the specific tax year. In the escritura ask for the certidão predial, caderneta predial, a statement of no debts and written assurances from the seller that the property has not been recognised as devoluto.' }
       ]
     }
   ],
   costs: [
-    { label: 'Standard IMI for VPT €200,000 and a 0.3% rate', amountEUR: 600, note: 'Example: €200,000 × 0.3%.' },
-    { label: 'IMI ×3 for the same property', amountEUR: 1800, note: 'Example after recognition as imóvel devoluto.' },
-    { label: 'Standard IMI for VPT €200,000 and a 0.45% rate', amountEUR: 900, note: 'Maximum standard municipal rate for urban housing.' },
-    { label: 'IMI ×3 at a 0.45% rate', amountEUR: 2700, note: 'Excluding possible additional agravamentos in special zones.' }
+    { label: 'Standard IMI for VPT €200,000 at a 0.3% rate', amountEUR: 600, note: 'Example: €200,000 × 0.3%.' },
+    { label: 'IMI ×3 for the same property', amountEUR: 1800, note: 'Example after recognition as an imóvel devoluto.' },
+    { label: 'Standard IMI for VPT €200,000 at a 0.45% rate', amountEUR: 900, note: 'Maximum standard municipal rate for urban housing.' },
+    { label: 'IMI ×3 at a 0.45% rate', amountEUR: 2700, note: 'Not including any possible additional agravamentos in special zones.' }
   ],
   sources: [
     {
@@ -134,15 +134,15 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Decreto-Lei 159/2006 — conceito de prédio devoluto',
+      title: 'Decreto-Lei 159/2006 — concept of prédio devoluto',
       url: 'https://dre.pt/dre/detalhe/decreto-lei/159-2006-540847',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Portal das Finanças — IMI: taxpayer information',
-      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html',
+      title: 'Portal das Finanças — IMI: information for the taxpayer',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cimi/Pages/cimi112.aspxindex.html',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

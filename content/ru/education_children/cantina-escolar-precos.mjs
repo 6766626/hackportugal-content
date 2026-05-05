@@ -105,18 +105,18 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Gov.pt — Portal das Matrículas',
-      url: 'https://www.gov.pt/pt/servicos/fazer-a-matricula-ou-renovacao-de-matricula-escolar',
+      title: 'Gov.pt — Pedidos de matrícula e renovação (pré-escolar, básico, secundário)',
+      url: 'https://www.gov.pt/servicos/fazer-pedidos-de-matricula-e-renovacao-de-matricula-nos-ensinos-pre-escolar-basico-e-secundario',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
-      title: 'Gov.pt — Ação Social Escolar',
-      url: 'https://www.gov.pt/pt/servicos/pedir-apoios-de-acao-social-escolar',
+      title: 'Portal das Matrículas — пользовательский портал для родителей',
+      url: 'https://www.portaldasmatriculas.edu.gov.pt/',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     }
   ],
   lastVerified: '2026-04-28',

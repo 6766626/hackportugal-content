@@ -123,7 +123,7 @@ export default {
     { title: 'ePortugal: регистрация и сообщение о смерти', url: 'https://eportugal.gov.pt/servicos/comunicar-um-obito', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 411/98: режим inumação, cremação и transporte de cadáveres', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/411-1998-234306', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social: subsídio por morte', url: 'https://www.seg-social.pt/subsidio-por-morte', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'DECO Proteste: custos e cuidados na contratação de serviços funerários', url: 'https://www.deco.proteste.pt/familia-consumo/orcamento-familiar/dicas/servicos-funerarios-cuidados-ter', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'DECO PROteste — direitos e proteção do consumidor', url: 'https://www.deco.proteste.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
   lastVerified: '2026-04-28',
   verifyIntervalDays: 180

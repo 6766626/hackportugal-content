@@ -152,9 +152,9 @@ export default {
     { title: 'DGRM — Pesca Lúdica, лицензии и правила', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portal de Licenciamento DGRM — оформление онлайн', url: 'https://portal.dgrm.mm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 246/2000 — режим Pesca Lúdica в морских водах', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Tamanhos mínimos por espécie — таблица DGRM', url: 'https://www.dgrm.pt/documents/20143/0/Tamanhos+m%C3%ADnimos.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Polícia Marítima — Autoridade Marítima Nacional', url: 'https://www.amn.pt/PM/Paginas/PoliciaMaritima.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'Tamanhos mínimos por espécie — таблица DGRM', url: 'https://www.dgrm.pt/pesca_cpt_especies', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Polícia Marítima — Autoridade Marítima Nacional', url: 'https://www.amn.pt/PM/Paginas/MissaoCompetencias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

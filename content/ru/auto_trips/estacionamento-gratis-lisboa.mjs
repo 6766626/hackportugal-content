@@ -126,9 +126,8 @@ export default {
     { label: 'Парковка в бесплатные часы EMEL', amountEUR: 0, note: 'Обычно воскресенье и feriados; суббота после 13:00 — во многих zona azul, но проверяйте знак.' }
   ],
   sources: [
-    { title: 'EMEL — зоны и тарифы уличной парковки Lisboa', url: 'https://www.emel.pt/pt/estacionamento/na-via-publica/zonas-e-tarifarios/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'EMEL — парковка на улице и правила оплаты', url: 'https://www.emel.pt/pt/estacionamento/na-via-publica/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'EMEL — dísticos и резидентские зоны', url: 'https://www.emel.pt/pt/estacionamento/na-via-publica/disticos/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'EMEL — Dístico Verde (estacionamento na via pública para 100% elétricos)', url: 'https://www.emel.pt/pt/disticos/estacionamento-na-via-publica/distico-verde/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
+    { title: 'EMEL — meu perfil (gestão de dísticos e zonas)', url: 'https://meuperfil.emel.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'EMEL — официальный сайт оператора парковки Lisboa', url: 'https://www.emel.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',

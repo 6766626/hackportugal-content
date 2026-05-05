@@ -120,7 +120,7 @@ export default {
     { label: 'Юридическая консультация по cross-border наследству', amountEURMin: 150, amountEURMax: 500, note: 'Не обязательна для простого завещания, но разумна при активах в нескольких странах или обязательных наследниках.' }
   ],
   sources: [
-    { title: 'IRN: Registo Central de Testamentos', url: 'https://irn.justica.gov.pt/Registos-centrais/Testamentos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'IRN: Registo Central de Testamentos', url: 'https://www.sit.irn.mj.pt/portal/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Justiça.gov.pt: serviço Testamento', url: 'https://justica.gov.pt/Servicos/Testamento', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código Civil português: regras gerais sobre sucessões e testamentos', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regulamento (UE) n.º 650/2012 sobre sucessões transfronteiriças', url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32012R0650', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }

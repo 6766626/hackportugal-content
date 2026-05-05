@@ -108,11 +108,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'MEO: услуга MEO WiFi вне дома',
-      url: 'https://www.meo.pt/servicos/casa/internet/fibra/wifi-fora-de-casa',
+      title: 'MEO WiFi — преимущества и точки доступа вне дома',
+      url: 'https://www.meo.pt/servicos/movel/wifi/vantagens',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'ANACOM: информация для потребителей о доступе к интернету и услугах связи',

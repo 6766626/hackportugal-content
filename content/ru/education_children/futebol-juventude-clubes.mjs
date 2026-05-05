@@ -121,8 +121,8 @@ export default {
   ],
   sources: [
     { title: 'Federação Portuguesa de Futebol — официальный сайт FPF', url: 'https://www.fpf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'FPF — Portal do Futebol, inscrições e competição', url: 'https://www.fpf.pt/pt/Institucional/Portal-do-Futebol', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'IPDJ — desporto, associativismo e enquadramento de praticantes', url: 'https://ipdj.gov.pt/desporto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'FPF — Resultados, competições e jogadores (registo de praticantes)', url: 'https://resultados.fpf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'IPDJ — Programa Nacional de Desporto para Todos', url: 'https://ipdj.gov.pt/programa-nacional-de-desporto-para-todos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Diário da República — Lei de Bases da Atividade Física e do Desporto, Lei 5/2007', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34498875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',

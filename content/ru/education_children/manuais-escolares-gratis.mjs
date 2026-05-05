@@ -113,7 +113,8 @@ export default {
     { label: 'Рабочие тетради и канцелярия', amountEURMin: 30, amountEURMax: 150, note: 'Ориентир на ребёнка за год; зависит от класса, школы и требований учителей.' }
   ],
   sources: [
-    { title: 'DGE — Manuais Escolares Gratuitos', url: 'https://www.dge.mec.pt/manuais-escolares-gratuitos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DGE — Manuais Escolares (avaliação, certificação e reutilização)', url: 'https://www.dge.mec.pt/manuais-escolares', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'IGeFE — MEGA, Manuais Escolares Gratuitos', url: 'https://www.igefe.mec.pt/Page/Index/199', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'ePortugal — Matrículas escolares', url: 'https://eportugal.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

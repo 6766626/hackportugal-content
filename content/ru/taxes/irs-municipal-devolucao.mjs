@@ -88,7 +88,7 @@ export default {
   sources: [
     {
       title: 'Portal das Finanças — Taxas do Município / Participação variável no IRS',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/taxas/Pages/Taxas-do-Municipio.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/pages/faqs-00073.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

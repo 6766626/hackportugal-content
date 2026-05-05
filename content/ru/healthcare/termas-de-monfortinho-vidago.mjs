@@ -3,7 +3,7 @@ export default {
   id: 'termas-de-monfortinho-vidago',
   categoryId: 'healthcare',
   title: 'Termas de Monfortinho, Vidago и S. Pedro do Sul: лечебные курорты Португалии',
-  tldr: 'Португальские termas — не просто spa, а медицинские курорты с минеральной водой, врачом и курсами 12–14 дней. В 2026 году SNS может частично компенсировать назначенные tratamentos termais: обычно 35% стоимости, с годовым лимитом около 95 € на пользователя, если есть receita/prescrição от médico de família и курорт включён в программу. Практичный бюджет: 400–1 500 € за проживание + процедуры; Vidago Palace дороже, S. Pedro do Sul — самый массовый вариант.',
+  tldr: 'Португальские termas — не просто spa, а медицинские курорты с минеральной водой, врачом и курсами 12–14 дней. В 2026 году SNS может частично компенсировать назначенные tratamentos termais: обычно 35% стоимости, с годовым лимитом около 110 € на пользователя (новый лимит с 1 октября 2025), если есть receita/prescrição от médico de família и курорт включён в программу. Практичный бюджет: 400–1 500 € за проживание + процедуры; Vidago Palace дороже, S. Pedro do Sul — самый массовый вариант.',
   tags: ['termas', 'sns', 'курорты', 'spa'],
   estimatedReadMinutes: 6,
   steps: [
@@ -35,7 +35,7 @@ export default {
           'Показание должно соответствовать терапевтическому профилю курорта',
           'Курорт должен быть aderente ao programa de termalismo SNS',
           'Компенсация обычно считается как 35% цены процедур',
-          'Практический годовой потолок — около 95 € на пользователя',
+          'Практический годовой потолок — 110 € на пользователя (с 1 октября 2025)',
           'Оплата часто идёт сначала за счёт пациента, затем оформляется comparticipação по правилам курорта/SNS',
           'Проживание, транспорт и питание не входят',
           'Перед бронированием нужно спросить у termas: “aceitam comparticipação SNS em 2026?”'
@@ -150,7 +150,7 @@ export default {
     { label: 'Consulta termal', amountEURMin: 40, amountEURMax: 80, note: 'Первичный врачебный приём на курорте; иногда включён в лечебный пакет.' },
     { label: 'Лечебный курс процедур 12–14 дней', amountEURMin: 150, amountEURMax: 500, note: 'Без проживания; зависит от числа и типа tratamentos termais.' },
     { label: 'Пакет проживание + процедуры', amountEURMin: 400, amountEURMax: 1500, note: 'Реалистичный диапазон 2026 для большинства курортов; Vidago Palace может быть дороже.' },
-    { label: 'SNS comparticipação', amountEURMax: 95, note: 'Ориентир годового лимита на пользователя для назначенных процедур; правила подтверждайте у SNS и конкретных termas.' }
+    { label: 'SNS comparticipação', amountEURMax: 110, note: 'Годовой лимит на пользователя для назначенных процедур (с 1 октября 2025: 35% стоимости, до 110 €); правила подтверждайте у SNS и конкретных termas.' }
   ],
   sources: [
     {
@@ -168,11 +168,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'ACSS — comparticipação de tratamentos termais no SNS',
-      url: 'https://www.acss.min-saude.pt/category/cuidados-de-saude/termalismo/',
+      title: 'SNS — Lista de entidades aderentes aos tratamentos termais',
+      url: 'https://www.sns.gov.pt/cidadao/lista-de-entidades-aderentes-aos-tratamentos-termais/',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'Vidago Palace — Thermal Spa',

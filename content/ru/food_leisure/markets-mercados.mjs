@@ -81,10 +81,10 @@ export default {
     }
   ],
   sources: [
-    { title: 'Câmara Municipal de Lisboa — Mercados', url: 'https://www.lisboa.pt/cidade/comercio/mercados-e-feiras', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Câmara Municipal de Lisboa — Mercados', url: 'https://comercio.lisboa.pt/feiras-e-mercados/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Porto — Mercado do Bolhão', url: 'https://visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Time Out Market Lisbon', url: 'https://www.timeoutmarket.com/lisboa/', kind: 'secondary', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

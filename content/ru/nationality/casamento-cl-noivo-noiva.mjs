@@ -143,7 +143,7 @@ export default {
     },
     {
       title: 'IRN — Tabela de emolumentos do registo civil',
-      url: 'https://irn.justica.gov.pt/Servicos/Tabela-de-Emolumentos',
+      url: 'https://irn.justica.gov.pt/Custos-dos-servicos',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

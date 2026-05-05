@@ -177,11 +177,11 @@ export default {
     { label: 'Курс по большим волнам (big wave) в Nazaré', amountEURMin: 500, amountEURMax: 2000 }
   ],
   sources: [
-    { title: 'IPDJ — регистрация спортсменов (FPS признана)', url: 'https://ipdj.gov.pt/registo-de-praticantes-desportivos-em-federacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPDJ — официальные спортивные федерации', url: 'https://ipdj.gov.pt/federacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'IPDJ — регистрация спортсменов (FPS признана)', url: 'https://ipdj.gov.pt/clube-de-praticantes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'IPDJ — официальные спортивные федерации', url: 'https://ipdj.gov.pt/federacoes-desportivas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'AMN — концессии в Domínio Público Marítimo', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IPMA — прогноз серфинга и приливы/отливы', url: 'https://www.ipma.pt/pt/maritima/marobs/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

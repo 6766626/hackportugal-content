@@ -142,7 +142,7 @@ export default {
   sources: [
     {
       title: 'ePortugal: смена адреса / Mudar de Morada',
-      url: 'https://eportugal.gov.pt/en/cidadaos/-/informacoes/mudar-de-morada',
+      url: 'https://www.gov.pt/servicos/alterar-a-morada-em-varias-entidades-publicas-e-privadas',
       kind: 'official',
       language: 'en',
       lastRetrieved: '2026-04-28'
@@ -163,7 +163,7 @@ export default {
     },
     {
       title: 'Portal das Finanças: изменение налогового адреса',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/alterar_morada.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Dados_pessoais_familia/Dados_pessoais/Morada/Paginas/default.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

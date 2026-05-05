@@ -71,11 +71,11 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portal das Finanças — Alteração de Morada', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Portal das Finanças — Alteração de Morada', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei Geral Tributária (LGT) — artigo 19 (domicílio fiscal)', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1998-34541975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do IRS — artigos 71 e 72 (taxas para não residentes)', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/default.aspx', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Alterar Domicílio Fiscal', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/alterar-o-domicilio-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

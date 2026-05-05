@@ -89,7 +89,7 @@ export default {
     },
     {
       title: 'Visit Portugal — Romaria de Nossa Senhora da Agonia, Viana do Castelo',
-      url: 'https://www.visitportugal.com/pt-pt/content/romaria-de-nossa-senhora-da-agonia',
+      url: 'https://www.visitportugal.com/en/NR/exeres/40D3EEB2-1E35-4C76-9B1C-596B5BDFF921',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -109,6 +109,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

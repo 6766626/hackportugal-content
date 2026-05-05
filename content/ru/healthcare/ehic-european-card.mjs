@@ -96,7 +96,7 @@ export default {
   ],
   sources: [
     { title: 'Segurança Social — CESD', url: 'https://www.seg-social.pt/cartao-europeu-de-seguro-de-doenca', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'SS Direta — личный кабинет', url: 'https://app.seg-social.pt/ssdirecta/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Segurança Social — pedido CESD online', url: 'https://www.seg-social.pt/pedido-cartao-europeu-seguro-doenca', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'EU — Your social security rights', url: 'https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-04-22',

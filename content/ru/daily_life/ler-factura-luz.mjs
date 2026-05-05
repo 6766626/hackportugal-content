@@ -129,10 +129,10 @@ export default {
   ],
   sources: [
     { title: 'ERSE: информация для потребителей электроэнергии и разбор счёта', url: 'https://www.erse.pt/consumidores-de-energia/eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ERSE: тарифы, цены и IVA на электроэнергию', url: 'https://www.erse.pt/atividade/regulacao/tarifas-e-precos/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'DECO Proteste: как читать счёт за электричество', url: 'https://www.deco.proteste.pt/casa-energia/eletricidade-gas/dicas/como-ler-fatura-eletricidade', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'E-REDES: передача показаний счётчика', url: 'https://www.e-redes.pt/pt-pt/clientes/leituras', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ERSE: тарифы, цены и IVA на электроэнергию', url: 'https://www.erse.pt/atividade/regulacao/tarifas-e-precos-eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DECO Proteste: как читать счёт за электричество', url: 'https://www.deco.proteste.pt/casa-energia/eletricidade-gas', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'E-REDES: передача показаний счётчика', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

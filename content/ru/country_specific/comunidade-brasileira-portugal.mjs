@@ -122,14 +122,14 @@ export default {
   sources: [
     {
       title: 'Casa do Brasil de Lisboa — официальный сайт и agenda',
-      url: 'https://www.casadobrasildelisboa.pt',
+      url: 'https://casadobrasil.info/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'AIMA — relatórios estatísticos sobre população estrangeira residente',
-      url: 'https://aima.gov.pt/pt/a-aima/relatorios-estatisticos',
+      url: 'https://aima.gov.pt/pt/a-aima/relatorios-de-migracoes-e-asilo',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

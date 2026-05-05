@@ -11,8 +11,8 @@ export default {
       id: 'legal-framework',
       title: 'Правовая база',
       content: [
-        { kind: 'paragraph', text: 'Основные документы: Código Civil (статьи об аренде), Lei 6/2006 (NRAU — Novo Regime do Arrendamento Urbano), многочисленные законы и декреты-законы с поправками. Важно для 2024: Lei 56/2023 «Mais Habitação» ЧАСТИЧНО ОТМЕНЕНА Decreto-Lei 81/2024 (ноябрь 2024, «Construir Portugal»): снят мораторий на новые AL-лицензии, отменён CAE (принудительная аренда пустующих квартир), убрано принудительное истечение AL в 2030 году, реформирован IRS с арендного дохода.' },
-        { kind: 'paragraph', text: 'Ключевые принципы: защита арендатора (выселение только через суд), капитальный ремонт — обязанность владельца, индексация ренты — не чаще 1 раза в год и не выше официального коэффициента INE (в 2026: **2,16%**, публикация INE — октябрь 2025).' },
+        { kind: 'paragraph', text: 'Основные документы: Código Civil (статьи об аренде), Lei 6/2006 (NRAU — Novo Regime do Arrendamento Urbano), многочисленные законы и декреты-законы с поправками. Важно для 2024–2026: Lei 56/2023 «Mais Habitação» ЧАСТИЧНО ОТМЕНЕНА в рамках программы «Construir Portugal»: Decreto-Lei 43/2024 (июль 2024) отменил принудительную аренду пустующих квартир (art. 108-C CAE), Decreto-Lei 76/2024 (23 октября 2024) снял мораторий на новые AL-лицензии в apartamentos и убрал автоматическое 5-летнее истечение AL.' },
+        { kind: 'paragraph', text: 'Ключевые принципы: защита арендатора (выселение только через суд), капитальный ремонт — обязанность владельца, индексация ренты — не чаще 1 раза в год и не выше официального коэффициента INE (в 2026: **2,24%**, коэффициент 1,0224, опубликовано Aviso n.º 23174/2025/2 от 19.09.2025).' },
         { kind: 'paragraph', text: 'Caução и предоплата (art. 1076 Código Civil после Lei 56/2023 «Mais Habitação»): максимум 2 месячные арендные платы как caução + максимум 2 месячные арендные платы как предоплата. Требования больше — должны быть оформлены отдельной правовой структурой (seguro de fiança, иная гарантия), иначе условие может быть оспорено как незаконное.' }
       ]
     },
@@ -176,7 +176,8 @@ export default {
     { title: 'Lei 6/2006 — NRAU (Novo Regime do Arrendamento Urbano)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34498475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código Civil — art. 1076 (caução e antecipação de rendas)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 56/2023 — Mais Habitação', url: 'https://diariodarepublica.pt/dr/detalhe/lei/56-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Decreto-Lei 81/2024 — Construir Portugal (часть Mais Habitação отменена)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/81-2024-892876283', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Decreto-Lei 76/2024 — Alojamento Local após Mais Habitação (Construir Portugal)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-892301177', kind: 'law', language: 'pt', lastRetrieved: '2026-05-05' },
+    { title: 'Decreto-Lei 43/2024 — revoga arrendamento coercivo (CAE) de imóveis devolutos', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/43-2024-862870533', kind: 'law', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

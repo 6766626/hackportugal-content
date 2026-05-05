@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'faturacao-holvi-toconline',
   categoryId: 'work_business',
-  title: 'Invoicing software for recibos verdes: Holvi, ToConline, Visee, Faturalia',
-  tldr: 'A self-employed person in Portugal can issue recibos verdes for free in Portal das Finanças. But if you need proper client records, recurring invoices, SAF-T export, QR and ATCUD, you use certified software: ToConline, Visee, Faturalia, MOLONI. Budget in 2026: from €0 to €30/month. Holvi is convenient as a bank account + invoices, but the fiscal invoice for AT must come from Portal das Finanças or software with AT certification.',
+  title: 'Invoicing programmes for recibos verdes: Holvi, ToConline, Visee, Faturalia',
+  tldr: 'A self-employed person in Portugal can issue recibos verdes for free in the Portal das Finanças. But if you need proper client management, recurring invoices, SAF-T export, QR and ATCUD, you use certified software: ToConline, Visee, Faturalia, MOLONI. Budget in 2026: from €0 to €30/month. Holvi is convenient as a bank account + invoices, but the fiscal invoice for AT must come from the Portal das Finanças or software certified by AT.',
   tags: ['recibosverdes', 'invoicing', 'atcud', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,34 +11,34 @@ export default {
       id: 'what-is-mandatory',
       title: 'What is mandatory in 2026: QR, ATCUD, AT certificate',
       content: [
-        { kind: 'paragraph', text: 'For recibos verdes there are two different scenarios. First: you issue a recibo verde eletrónico directly in Portal das Finanças — this is free and already meets AT requirements. Second: you use external faturação software — in that case the document must be fiscally correct: QR code, ATCUD, series, comunicação à AT and, in most practical cases, certified software.' },
+        { kind: 'paragraph', text: 'For recibos verdes there are two different scenarios. First: you issue a recibo verde eletrónico directly in the Portal das Finanças — it is free and already complies with AT requirements. Second: you use external faturação software — then the document must be fiscally correct: QR code, ATCUD, série, comunicação à AT and, in most practical cases, AT-certified software.' },
         { kind: 'checklist', items: [
-          'ATCUD has been mandatory on fiscal documents since 2023: it is the series validation code + document number.',
-          'QR code is mandatory on faturas and recibos issued by faturação software.',
-          'Document series must be reported to AT before use in order to obtain a código de validação.',
-          'Faturas must be submitted to AT via SAF-T/PT or webservice within the required deadlines.',
-          'Portal das Finanças generates the recibo verde eletrónico itself — no separate software is needed.',
-          'If the software is not AT-certified, do not treat it as a fiscal replacement for Portal das Finanças.',
-          'A PDF bill for the client and a fiscal invoice for AT are not the same thing.'
+          'ATCUD has been mandatory on fiscal documents since 2023: it is the series validation code + the document number.',
+          'A QR code is mandatory on faturas and recibos issued by faturação software.',
+          'Document séries must be reported to AT before use to obtain a código de validação.',
+          'Faturas must be transmitted to AT via SAF-T/PT or webservice within the prescribed deadlines.',
+          'The Portal das Finanças itself generates the recibo verde eletrónico — no separate software is needed.',
+          'If the programme is not AT-certified, do not treat it as a fiscal replacement for the Portal das Finanças.',
+          'A PDF invoice for the client and a fiscal invoice for AT are not the same thing.'
         ] },
-        { kind: 'warning', text: 'Do not send a client an “invoice” from a non-certified service as the only tax document. For IRS/IVA in Portugal, the document must be issued through Portal das Finanças or through software recognised by AT.' }
+        { kind: 'warning', text: 'Do not send the client an “invoice” from a non-certified service as the only tax document. For IRS/IVA in Portugal, the document must be issued via the Portal das Finanças or software recognised by AT.' }
       ]
     },
     {
       id: 'when-portal-is-enough',
       title: 'When the free Portal das Finanças is enough',
       content: [
-        { kind: 'paragraph', text: 'If you have 1–5 clients per month, services without complex stock, and you work as a trabalhador independente, Portal das Finanças is usually enough. You go to Finanças → Faturas e Recibos Verdes → Emitir, select the client, atividade, IVA, retenção na fonte and document type.' },
+        { kind: 'paragraph', text: 'If you have 1–5 clients per month, provide services without complex stock, and you work as a trabalhador independente, the Portal das Finanças is usually sufficient. You go to Finanças → Faturas e Recibos Verdes → Emitir, choose the client, atividade, IVA, retenção na fonte and document type.' },
         { kind: 'checklist', items: [
           'Suitable for a freelancer with simple services: IT, design, consulting, training, marketing.',
-          'It costs €0: no subscription fee, no SAF-T setup, no certificate purchase.',
+          'Costs €0: no subscription fee, no SAF-T setup, no certificate purchase.',
           'Supports fatura, recibo and fatura-recibo.',
-          'Data goes straight to AT — there is no need to send SAF-T separately.',
+          'Data goes straight to AT — no need to submit SAF-T separately.',
           'You can download a PDF and send it to the client.',
-          'Downside: weak CRM, no attractive templates, little automation, inconvenient for dozens of documents.',
-          'Downside: bank reconciliation, accounts receivable reports and recurring invoices are almost absent.'
+          'Minus: weak CRM, no beautiful templates, little automation, inconvenient for dozens of documents.',
+          'Minus: bank reconciliation, accounts receivable reports and recurring invoices are almost absent.'
         ] },
-        { kind: 'paragraph', text: 'If you are on isenção de IVA under art. 53 CIVA, you state the corresponding exemption basis in the document. For 2026, the reference point for the small regime is €15,000 annual turnover; if you are approaching the limit, discuss the transition to IVA with a contabilista in advance.' }
+        { kind: 'paragraph', text: 'If you are under isenção de IVA under art. 53 CIVA, indicate the relevant exemption basis in the document. For 2026 the small scheme benchmark is €15,000 annual turnover; if you approach the limit, discuss in advance with your accountant switching to IVA.' }
       ]
     },
     {
@@ -46,29 +46,29 @@ export default {
       title: 'What to choose: Holvi, ToConline, Visee, Faturalia, MOLONI',
       content: [
         { kind: 'substeps', items: [
-          { id: 'toconline', title: 'ToConline — the most “Portuguese” option', content: [
-            { kind: 'paragraph', text: 'ToConline is a popular Portuguese platform for faturação, gestão and communication with a contabilista. Its strength is local tax logic: séries, ATCUD, QR, SAF-T, IVA, retenção, export for the accountant.' },
+          { id: 'toconline', title: 'ToConline — the most "Portuguese" option', content: [
+            { kind: 'paragraph', text: 'ToConline is a popular Portuguese platform for invoicing, management and working with your accountant. Its strength is local tax logic: séries, ATCUD, QR, SAF-T, IVA, retenção, exports for the accountant.' },
             { kind: 'checklist', items: [
               'Good for recibos verdes with regular B2B clients.',
               'Suitable if your accountant already works in ToConline.',
-              'Includes management of clients, products/services and reports.',
-              'Check the tariff: some features may be in paid plans.',
-              'The best choice if you need minimum “foreign exoticism” and maximum PT compliance.'
+              'Includes client management, products/services and reports.',
+              'Check the plan: some features may be in paid tiers.',
+              'Best choice if you want minimal “foreign exotica” and maximum Portuguese compliance.'
             ] }
           ] },
           { id: 'holvi', title: 'Holvi — bank + invoices, but check fiscal compliance', content: [
-            { kind: 'paragraph', text: 'Holvi is convenient as a business account with a card, IBAN, expense categories and client invoicing. But for Portugal, the key issue is not the PDF design, but the AT certificate, ATCUD, QR and comunicação à AT.' },
-            { kind: 'warning', text: 'If the specific Holvi product for your account is not listed among programas de faturação certificados AT, use Holvi for bank records and reminders, and issue the fiscal invoice/recibo in Portal das Finanças or in certified software.' }
+            { kind: 'paragraph', text: 'Holvi is convenient as a business account with card, IBAN, expense categories and issuing client invoices. But for Portugal the key question is not the PDF design, it is AT certification, ATCUD, QR and comunicação à AT.' },
+            { kind: 'warning', text: 'If the specific Holvi product for your account is not listed among the AT programas de faturação certificados, use Holvi for banking and reminders, and issue the fiscal invoice/recibo in the Portal das Finanças or in certified software.' }
           ] },
           { id: 'visee-faturalia-moloni', title: 'Visee, Faturalia, MOLONI — inexpensive PT services', content: [
-            { kind: 'paragraph', text: 'Visee, Faturalia and MOLONI are usually chosen for simple faturação, a quick start and a price in the €0–30/month range. For self-employed people, what matters is not “nice-looking bills”, but AT certification, correct tax fields and SAF-T export.' },
+            { kind: 'paragraph', text: 'Visee, Faturalia and MOLONI are usually chosen for simple faturação, a quick start and a price range of €0–30/month. For the self-employed, what matters is not “pretty invoices” but AT certification, correct tax fields and SAF-T export.' },
             { kind: 'checklist', items: [
-              'Check the AT certificate number on the service website and in the Portal das Finanças list.',
-              'Make sure the service supports ATCUD and QR code.',
-              'Check whether it has recibos, faturas-recibo and credit notes, not just ordinary invoices.',
+              'Check the AT certificate number on the service’s website and in the Portal das Finanças list.',
+              'Ensure the service supports ATCUD and a QR code.',
+              'Check there are recibos, faturas-recibo and credit notes, not only ordinary invoices.',
               'Check support for retenção na fonte for recibos verdes.',
               'Check SAF-T/PT export and automatic comunicação à AT.',
-              'Check whether you can give access to a contabilista without handing over your Finanças password.'
+              'Check whether you can give your accountant access without sharing your Finanças password.'
             ] }
           ] }
         ] }
@@ -76,58 +76,58 @@ export default {
     },
     {
       id: 'setup',
-      title: 'How to set up the software without mistakes',
+      title: 'How to configure a programme without mistakes',
       content: [
-        { kind: 'paragraph', text: 'Before the first document, set up the tax parameters, not the logo. An error in IVA or retenção is later corrected with a nota de crédito or cancellation, and the client will have to change their own accounting.' },
+        { kind: 'paragraph', text: 'Before your first document, set up tax parameters rather than the logo. An error in IVA or retenção is later corrected with a nota de crédito or annulment, and the client will have to adjust their own accounting.' },
         { kind: 'checklist', items: [
-          'Check the start of atividade in Finanças: CAE/CIRS, regime de IVA, regime de contabilidade.',
-          'Enter the NIF, name and morada fiscal exactly as in Finanças.',
+          'Check the início de atividade in Finanças: CAE/CIRS, regime de IVA, regime de contabilidade.',
+          'Enter your NIF, name and morada fiscal exactly as in Finanças.',
           'Set up document séries for 2026 and obtain the código de validação for ATCUD.',
-          'Select document types: fatura, recibo, fatura-recibo, nota de crédito.',
-          'Set up IVA: normal, isenção art. 53 CIVA, autoliquidação or operações intracomunitárias — according to your situation.',
-          'Set up retenção na fonte: for many B2B services in Portugal it may be 25%, but there are exceptions and dispensa.',
-          'Check clients: NIF português, EU VAT ID via VIES, address, country.',
-          'Create a test document for a small client or as a draft before issuing invoices in bulk.',
+          'Choose document types: fatura, recibo, fatura-recibo, nota de crédito.',
+          'Configure IVA: normal, isenção art. 53 CIVA, autoliquidação or operações intracomunitárias — according to your situation.',
+          'Configure retenção na fonte: for many B2B services in Portugal it may be 25%, but there are exceptions and dispensas.',
+          'Validate clients: NIF português, EU VAT ID via VIES, address, country.',
+          'Create a test document for a small client or as a draft before issuing documents at scale.',
           'Give your accountant access to the software or export SAF-T/Excel every month.',
-          'Keep PDFs and data for at least the tax audit period; do not rely only on the client’s email.'
+          'Keep PDFs and data for at least the tax audit period; do not rely solely on the client’s email.'
         ] },
-        { kind: 'warning', text: 'Do not use the same document number in two systems. If you started a series in Portal das Finanças and then moved to ToConline/MOLONI, the new software must have its own series and ATCUD.' }
+        { kind: 'warning', text: 'Do not use the same document number in two systems. If you started a série in the Portal das Finanças and later moved to ToConline/MOLONI, the new programme must have its own séries and ATCUD.' }
       ]
     },
     {
       id: 'pricing-and-choice',
-      title: 'How much it costs and which option to take',
+      title: 'How much it costs and which option to choose',
       content: [
-        { kind: 'paragraph', text: 'For most expat freelancers, the choice is simple: up to a few invoices per month — Portal das Finanças for €0. If you have many clients, IVA, EU clients, recurring invoices or your accountant asks for SAF-T — take Portuguese certified software.' },
+        { kind: 'paragraph', text: 'For most expat freelancers the choice is simple: up to a few invoices per month — the Portal das Finanças at €0. If you have many clients, IVA, EU clients, recurring invoices or your accountant requests SAF-T — choose Portuguese AT-certified software.' },
         { kind: 'checklist', items: [
-          '€0/month: Portal das Finanças — enough for simple recibos verdes.',
-          '€5–15/month: basic tariffs from PT services for poucas faturas and simple record-keeping.',
-          '€15–30/month: more automation, reports, bank reconciliations, users and integrations.',
+          '€0/month: Portal das Finanças — sufficient for simple recibos verdes.',
+          '€5–15/month: basic PT service tiers for poucas faturas and simple bookkeeping.',
+          '€15–30/month: more automation, reports, bank reconciliation, users and integrations.',
           'Holvi makes sense if business banking, a card and expense control are important to you.',
           'ToConline makes sense if your accountant in Portugal already uses it.',
           'MOLONI/Faturalia/Visee make sense if you need simple certified invoicing without heavy accounting.',
-          'Do not buy an annual tariff until you have checked AT certification, ATCUD, QR and SAF-T on a real document.'
+          'Do not buy an annual plan until you have verified AT certification, ATCUD, QR and SAF-T on a real document.'
         ] },
-        { kind: 'paragraph', text: 'Faturação software does not replace IRS, IVA and Segurança Social declarations. It helps issue documents and transmit data, but responsibility for the IVA regime, withholding, Modelo 3 IRS and quarterly declaração trimestral remains with you.' }
+        { kind: 'paragraph', text: 'Faturação software does not replace IRS, IVA and Segurança Social returns. It helps you issue documents and transmit data, but responsibility for the IVA regime, withholdings, Modelo 3 IRS and the quarterly declaração trimestral remains with you.' }
       ]
     }
   ],
   costs: [
-    { label: 'Portal das Finanças: recibos verdes eletrónicos', amountEUR: 0, note: 'Free; the best start for a simple trabalhador independente.' },
-    { label: 'Basic faturação software', amountEURMin: 5, amountEURMax: 15, note: 'Usually enough for a small number of clients and simple SAF-T/ATCUD.' },
-    { label: 'Advanced faturação/gestão tariff', amountEURMin: 15, amountEURMax: 30, note: 'More users, reports, automation, integrations and accountant support.' },
-    { label: 'Contabilista to check the IVA/IRS regime', amountEURMin: 50, amountEURMax: 150, note: 'Not mandatory for everyone, but useful with IVA, EU clients, retenção and turnover growth.' }
+    { label: 'Portal das Finanças: recibos verdes eletrónicos', amountEUR: 0, note: 'Free; the best starting point for a simple trabalhador independente.' },
+    { label: 'Basic invoicing programme', amountEURMin: 5, amountEURMax: 15, note: 'Usually enough for a small number of clients and simple SAF-T/ATCUD.' },
+    { label: 'Advanced invoicing/management plan', amountEURMin: 15, amountEURMax: 30, note: 'More users, reports, automation, integrations and accountant support.' },
+    { label: 'Accountant to review your IVA/IRS regime', amountEURMin: 50, amountEURMax: 150, note: 'Not required for everyone but helpful if you have IVA, EU clients, retenção and growing turnover.' }
   ],
   sources: [
     {
-      title: 'Portal das Finanças: taxpayer support and certified faturação software',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/software_facturacao/Pages/default.aspx',
+      title: 'Portal das Finanças: taxpayer support and certified invoicing software',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Paginas/certificacao-de-software.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Decreto-Lei 28/2019: rules on invoice processing and document retention',
+      title: 'Decreto-Lei 28/2019: rules for processing invoices and retention of documents',
       url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/28-2019-119622094',
       kind: 'law',
       language: 'pt',
@@ -141,7 +141,7 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'ToConline: online faturação and gestão in Portugal',
+      title: 'ToConline: online invoicing and management in Portugal',
       url: 'https://www.toconline.pt',
       kind: 'company',
       language: 'pt',

@@ -119,7 +119,7 @@ export default {
   sources: [
     { title: 'Web Summit — официальный сайт конференции Lisboa', url: 'https://websummit.com', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Startup Portugal — официальная платформа португальской стартап-экосистемы', url: 'https://startupportugal.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'Startup Lisboa — инкубатор и стартап-хаб Lisboa', url: 'https://www.startuplisboa.com', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'Startup Lisboa — инкубатор и стартап-хаб Lisboa', url: 'https://unicornfactorylisboa.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'UPTEC — Parque de Ciência e Tecnologia da Universidade do Porto', url: 'https://uptec.up.pt', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',

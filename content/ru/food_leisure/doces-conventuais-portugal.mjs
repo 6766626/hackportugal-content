@@ -91,10 +91,10 @@ export default {
     { label: 'Дегустация на двоих в городе происхождения', amountEURMin: 12, amountEURMax: 35, note: 'Кофе, 4–8 сладостей и небольшая коробка домой.' }
   ],
   sources: [
-    { title: 'Visit Portugal: Portuguese conventual sweets', url: 'https://www.visitportugal.com/en/content/portuguese-conventual-sweets', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'Visit Portugal: Portuguese conventual sweets', url: 'https://www.visitportugal.com/en/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'DGADR: Produtos Tradicionais Portugueses', url: 'https://tradicional.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Europeia eAmbrosia: produtos IGP portugueses', url: 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

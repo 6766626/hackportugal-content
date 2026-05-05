@@ -129,7 +129,7 @@ export default {
     },
     {
       title: 'Autoridade Tributária — entrega da declaração Modelo 3 IRS',
-      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html',
+      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -142,6 +142,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 90
 }

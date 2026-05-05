@@ -112,7 +112,7 @@ export default {
     },
     {
       title: 'Autoridade Tributária — início de atividade и obrigações fiscais',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Inicio_actividade.pdf',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Inicio_atividade.pdf',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

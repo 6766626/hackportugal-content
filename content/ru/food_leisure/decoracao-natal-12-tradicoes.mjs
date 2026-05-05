@@ -118,11 +118,11 @@ export default {
     { label: 'Подарок amigo secreto на работе', amountEURMin: 5, amountEURMax: 15, note: 'Типичный лимит, если команда заранее не установила другой бюджет.' }
   ],
   sources: [
-    { title: 'VisitPortugal — Christmas traditions in Portugal', url: 'https://www.visitportugal.com/en/content/christmas-traditions', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'VisitPortugal — Portuguese gastronomy and regional sweets', url: 'https://www.visitportugal.com/en/content/portuguese-gastronomy', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — национальные праздники в Португалии', url: 'https://eportugal.gov.pt/en/cidadaos-europeus-viajar-viver-e-fazer-negocios-em-portugal/feriados-nacionais', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'VisitPortugal — Christmas traditions in Portugal', url: 'https://www.visitportugal.com/en/content/christmas-traditions-portugal', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'VisitPortugal — Portuguese gastronomy and regional sweets', url: 'https://www.visitportugal.com/en/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'ePortugal — национальные праздники в Португалии', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Patriarcado de Lisboa — информация приходов и рождественских служб', url: 'https://www.patriarcado-lisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

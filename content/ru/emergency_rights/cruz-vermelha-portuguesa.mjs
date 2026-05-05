@@ -118,7 +118,7 @@ export default {
   ],
   sources: [
     { title: 'Cruz Vermelha Portuguesa — официальный сайт и услуги', url: 'https://www.cruzvermelha.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Cruz Vermelha Portuguesa — делегации и контакты', url: 'https://www.cruzvermelha.pt/onde-estamos.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Cruz Vermelha Portuguesa — Contactos e delegações', url: 'https://www.cruzvermelha.pt/contacte-nos.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'INEM — номер 112 и экстренная медицинская помощь', url: 'https://www.inem.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — контакт 808 24 24 24 и медицинская ориентация', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

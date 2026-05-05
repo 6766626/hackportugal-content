@@ -113,7 +113,7 @@ export default {
     },
     {
       title: 'Câmara Municipal de Lisboa — Bairros e Zonas de Intervenção Prioritária',
-      url: 'https://www.cm-lisboa.pt/viver/habitacao/bip-zip',
+      url: 'https://bipzip.cm-lisboa.pt/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -126,6 +126,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

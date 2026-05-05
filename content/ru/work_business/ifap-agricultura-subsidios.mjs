@@ -138,7 +138,7 @@ export default {
   sources: [
     { title: 'IFAP — Portal oficial: Pedido Único и apoios PEPAC', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'PEPAC Portugal 2023-2027 — Plano Estratégico da PAC', url: 'https://www.pepacc.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'DGADR — Estatuto da Agricultura Familiar', url: 'https://www.dgadr.gov.pt/agricultura-familiar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DGADR — Estatuto da Agricultura Familiar', url: 'https://www.dgadr.gov.pt/estatuto-da-agricultura-familiar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 64/2018 — Estatuto da Agricultura Familiar', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/64-2018-116068879', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',

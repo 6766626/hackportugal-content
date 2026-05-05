@@ -135,33 +135,33 @@ export default {
   sources: [
     {
       title: 'Portal das Finanças: informação aduaneira и импортные правила',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/aduaneira/Pages/default.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Compras/Encomendas_postais/Encomendas_Postais_Comercio_Eletronico/Paginas/default.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Portal das Finanças: IVA и taxas em vigor',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/taxas/Pages/iva.aspx',
+      url: 'https://pauta.portaldasfinancas.gov.pt/pt/faqs/Pages/importacoes-via-internet-impostos.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'CTT: desalfandegar encomendas',
-      url: 'https://www.ctt.pt/particulares/receber/desalfandegar/desalfandegar-encomendas',
+      url: 'https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index/desalfandegar-encomendas',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'CTT: receber encomendas internacionais e custos de desalfandegamento',
-      url: 'https://www.ctt.pt/particulares/receber/desalfandegar',
+      url: 'https://www.ctt.pt/empresas/encomendas-e-correio/receber/desalfandegar-encomendas/index',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

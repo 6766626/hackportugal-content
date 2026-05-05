@@ -59,7 +59,7 @@ export default {
     { label: 'Временная isenção для habitação própria e permanente', amountEUR: 0, note: 'До 3 лет при выполнении условий: VPT ≤ 125 000 € и доход household ≤ 153 300 €.' }
   ],
   sources: [
-    { title: 'Finanças: информационный буклет по IMI', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/IMI.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Finanças — Código do IMI (CIMI), índice', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cimi/Pages/cimi1.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'Código do IMI — Decreto-Lei 287/2003, консолидированная версия', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2003-148011287', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Finanças: IMI и pagamento de impostos', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal: покупка жилья и налоги на недвижимость', url: 'https://eportugal.gov.pt/cidadaos/comprar-arrendar-ou-vender-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }

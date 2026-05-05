@@ -120,7 +120,7 @@ export default {
   sources: [
     { title: 'Petme.pt — услуги pet sitting и dog walking в Португалии', url: 'https://www.petme.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Pawshake Portugal — pet sitters, dog walkers, boarding', url: 'https://www.pawshake.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'DGAV — identificação de animais de companhia и SIAC', url: 'https://www.dgav.pt/animais/conteudo/animais-de-companhia/identificacao-animal/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DGAV — Identificação de animais de companhia (cães e gatos / SIAC)', url: 'https://www.dgav.pt/animais/conteudo/identificacao-e-registo-animal/animais-de-companhia/caes-e-gatos/identificacao/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Decreto-Lei 82/2019 — sistema de identificação de animais de companhia', url: 'https://dre.pt/dre/detalhe/decreto-lei/82-2019-122728684', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',

@@ -128,7 +128,7 @@ export default {
     },
     {
       title: 'Tabela Geral do Imposto do Selo — verbas 1.1 e 1.2',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/selo/Pages/imposto-do-selo-tabela-geral.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/selo/Pages/ccod-selo-tabgiselo.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

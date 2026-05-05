@@ -137,7 +137,7 @@ export default {
     },
     {
       title: 'Portal das Finanças: IVA — obrigações declarativas и declaração periódica',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Guias/Pages/IVA.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva22.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

@@ -125,7 +125,7 @@ export default {
     { label: 'Declaração de saúde / atestado sanitário', amountEURMin: 20, amountEURMax: 60, note: 'Может потребоваться перевозчиком или для отдельных маршрутов' }
   ],
   sources: [
-    { title: 'DGAV: viagens de animais de companhia', url: 'https://www.dgav.pt/animais/conteudo/animais-de-companhia/viagens/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DGAV — Vai viajar? FAQ (animais de companhia)', url: 'https://www.dgav.pt/faq/conteudo/vai-viajar/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Regulamento (UE) n.º 576/2013: non-commercial movement of pet animals', url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX%3A32013R0576', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Europeia: travelling with pets and other animals in the EU', url: 'https://europa.eu/youreurope/citizens/travel/carry/animal-plant/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'UK Government: bring your pet dog, cat or ferret to Great Britain', url: 'https://www.gov.uk/bring-pet-to-great-britain', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }

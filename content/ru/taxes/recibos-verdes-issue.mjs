@@ -107,7 +107,7 @@ export default {
             ]}
           ]},
           { id: 't2', title: 'Segurança Social — каждый месяц', content: [
-            { kind: 'paragraph', text: '21.4 % базы. Первый год — скидка 50 % + льготный период 12 мес. Минимум 20 €/мес.' }
+            { kind: 'paragraph', text: '21,4 % базы. Для впервые регистрируемых trabalhador independente — полное освобождение первые 12 месяцев (а не «скидка 50%»). Минимум 20 €/мес после льготы.' }
           ]},
           { id: 't3', title: 'IRS — раз в год (Anexo B / C)', content: [
             { kind: 'paragraph', text: 'Март–июнь. Упрощённый режим: 75 % от оборота считается доходом (25 % — презюмируемые расходы). Для IFICI — фиксированная ставка 20 %.' }
@@ -117,11 +117,11 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portal das Finanças — Recibos Verdes', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portal das Finanças — Recibos Verdes', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do IVA (CIVA)', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1984-55502475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do IRS', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1988-34471975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Emitir recibos verdes', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

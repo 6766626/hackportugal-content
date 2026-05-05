@@ -129,9 +129,9 @@ export default {
     { label: 'Пополнение через Multibanco/приложение', amountEURMin: 5, amountEURMax: 20, note: 'Минимальная сумма зависит от оператора и канала пополнения.' }
   ],
   sources: [
-    { title: 'ANACOM: информация для потребителей о роуминге и мобильной связи', url: 'https://www.anacom.pt/render.jsp?contentId=1670036', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'MEO: mobile prepaid и eSIM', url: 'https://www.meo.pt/servicos/movel/tarifarios-telemovel/pre-pagos', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'NOS: cartões móveis pré-pagos и eSIM', url: 'https://www.nos.pt/particulares/telemovel/tarifarios/pre-pagos', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ANACOM — Roaming internacional (FAQs для потребителей)', url: 'https://www.anacom.pt/render.jsp?categoryId=324515', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'MEO — eSIM Enjoy Portugal/Europa', url: 'https://www.meo.pt/servicos/movel/tarifarios-telemovel/e-sim-enjoy-portugal-europa', kind: 'company', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'NOS — Tarifários telemóvel pré-pagos', url: 'https://www.nos.pt/movel/tarifarios-movel/tarifarios-movel-pre-pagos', kind: 'company', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Vodafone Portugal: tarifários pré-pagos и eSIM', url: 'https://www.vodafone.pt/telemoveis/tarifarios.html', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',

@@ -83,7 +83,7 @@ export default {
   timelineDaysMin: 60,
   timelineDaysMax: 120,
   sources: [
-    { title: 'Vistos MNE — Tipos de Visto', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacoes-gerais/tipos-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Vistos MNE — Tipos de Visto', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Autorização de Residência (вид на жительство)', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-04-28',

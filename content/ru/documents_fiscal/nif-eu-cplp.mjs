@@ -48,10 +48,10 @@ export default {
   timelineDaysMin: 1,
   timelineDaysMax: 1,
   sources: [
-    { title: 'Portal das Finanças — NIF', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portal das Finanças — NIF', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Obter NIF', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/obter-numero-de-identificacao-fiscal-nif-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Acordo de Mobilidade CPLP', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

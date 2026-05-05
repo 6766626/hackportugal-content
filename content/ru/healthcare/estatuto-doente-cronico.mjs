@@ -138,11 +138,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Infarmed — comparticipação de medicamentos',
-      url: 'https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/avaliacao-tecnologias-saude/comparticipacao-de-medicamentos',
+      title: 'INFARMED — Regimes excecionais de comparticipação',
+      url: 'https://www.infarmed.pt/web/infarmed/regimes-excecionais-de-comparticipacao',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     }
   ],
   lastVerified: '2026-04-28',

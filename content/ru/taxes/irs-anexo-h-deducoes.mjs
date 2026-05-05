@@ -3,7 +3,7 @@ export default {
   id: 'irs-anexo-h-deducoes',
   categoryId: 'taxes',
   title: 'IRS Anexo H: все вычеты saúde, educação, lares и imóvel',
-  tldr: 'Anexo H в Modelo 3 IRS — место, где в декларации 2026 за доходы 2025 проверяют и при необходимости исправляют вычеты: saúde 15% до 1 000 € на семью, educação 30% до 800 €, lares 25% до 403,75 €, аренда жилья 15% до 502 €, проценты по старой ипотеке до 296 €. Большинство сумм подтягивается из e-Fatura автоматически, но если правите вручную — храните счета 4 года. Abono de família не декларируется как доход; “casamento jovem 750 €” не является стандартной строкой Anexo H.',
+  tldr: 'Anexo H в Modelo 3 IRS — место, где в декларации 2026 за доходы 2025 проверяют и при необходимости исправляют вычеты: saúde 15% до 1 000 € на семью, educação 30% до 800 €, lares 25% до 403,75 €, аренда жилья 15% до 700–800 € (OE 2024/25), проценты по старой ипотеке до 296 €. Большинство сумм подтягивается из e-Fatura автоматически, но если правите вручную — храните счета 4 года. Abono de família не декларируется как доход; “casamento jovem 750 €” не является стандартной строкой Anexo H.',
   tags: ['irs', 'anexo-h', 'вычеты', 'finanças'],
   estimatedReadMinutes: 6,
   steps: [
@@ -35,11 +35,11 @@ export default {
           'Educação e formação: 30% расходов, максимум 800 € на household. Школы, университеты, creche, учебники, propinas, признанные курсы.',
           'Estudante deslocado: аренда жилья студентом вдали от постоянного адреса может входить в educação при правильном contrato de arrendamento и регистрации в Portal das Finanças; общий лимит educação может увеличиваться по специальным правилам.',
           'Lares: 25% расходов с lares, apoio domiciliário и аналогичными учреждениями, максимум 403,75 €.',
-          'Imóvel — аренда постоянного жилья: 15% rentas по contrato de arrendamento, максимум 502 €.',
+          'Imóvel — аренда постоянного жилья: 15% rentas по contrato de arrendamento, максимум 700–800 € (после индексации OE 2024/25).',
           'Imóvel — ипотечные проценты: вычет по juros de crédito à habitação применим в основном к старым кредитам, заключённым до 31.12.2011, максимум 296 €.',
           'IMI, condomínio, ремонт и мебель не становятся вычетом Anexo H только потому, что связаны с жильём.'
         ] },
-        { kind: 'warning', text: 'Лимиты “1 000 € / 800 € / 403,75 € / 502 € / 296 €” — это максимальный вычет из налога, а не сумма расходов. Например, чтобы получить 1 000 € по saúde, нужно иметь около 6 666,67 € признанных медицинских расходов.' }
+        { kind: 'warning', text: 'Лимиты “1 000 € (saúde) / 800 € (educação) / 403,75 € (lares) / 700–800 € (аренда HPP) / 296 € (juros старой ипотеки)” — это максимальный вычет из налога, а не сумма расходов. Например, чтобы получить 1 000 € по saúde, нужно иметь около 6 666,67 € признанных медицинских расходов.' }
       ]
     },
     {
@@ -129,14 +129,14 @@ export default {
   sources: [
     {
       title: 'Portal das Finanças — IRS, deduções à coleta и entrega da declaração',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/IRS/Pages/IRS.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Rendimentos/Declaracao/Deducoes_a_coleta/Paginas/default.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Portal das Finanças — despesas para dedução à coleta / e-Fatura',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/Despesas-deducao-coleta.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Rendimentos/Declaracao/Deducoes_beneficios_taxas/Paginas/default.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -155,7 +155,9 @@ export default {
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
+,
+    { title: 'AT — Folheto IRS deduções 2025', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/IRS_deducoes_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 90
 }

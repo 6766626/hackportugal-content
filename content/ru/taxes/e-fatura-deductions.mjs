@@ -131,7 +131,7 @@ export default {
     },
     {
       title: 'Autoridade Tributária — Manual e-Fatura',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Manual_e-Fatura.pdf',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/efatura_portal.pdf',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

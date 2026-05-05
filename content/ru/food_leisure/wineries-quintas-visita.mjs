@@ -135,9 +135,9 @@ export default {
   sources: [
     { title: 'Instituto dos Vinhos do Douro e do Porto — официальная информация о Douro и Port', url: 'https://www.ivdp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Douro Valley — туристический портал региона Douro', url: 'https://www.dourovalley.eu', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'Herdade do Esporão — официальные визиты и дегустации', url: 'https://www.esporao.com/en/visit-us/herdade-do-esporao/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'José Maria da Fonseca — официальные wine tourism visits', url: 'https://www.jmf.pt/en/wine-tourism/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
+    { title: 'Herdade do Esporão — официальные визиты и дегустации', url: 'https://www.esporao.com/en/winetourism/herdade-do-esporao/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'José Maria da Fonseca — официальные wine tourism visits', url: 'https://www.jmf.pt/index.php?id=95', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

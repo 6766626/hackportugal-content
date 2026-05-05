@@ -178,11 +178,11 @@ export default {
   ],
   sources: [
     { title: 'DGAV — Direção-Geral de Alimentação e Veterinária', url: 'https://www.dgav.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'DGAV — Apicultura: регистрация e legislação', url: 'https://www.dgav.pt/animais/conteudo/animais-de-producao/apicultura/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'DGAV — Apicultura: регистрация e legislação', url: 'https://www.dgav.pt/animais/conteudo/animais-de-producao/abelhas/identificacao-registo-e-movimentacao-animal/registo/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 203/2005 — регистрация de apicultores', url: 'https://dre.pt/dre/detalhe/decreto-lei/203-2005-243676', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 9/2021 — distâncias colmeias', url: 'https://dre.pt/dre/detalhe/portaria/9-2021-153700104', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — apoio à apicultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

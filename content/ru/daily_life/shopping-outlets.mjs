@@ -104,10 +104,10 @@ export default {
   ],
   sources: [
     { title: 'Freeport Lisboa Fashion Outlet', url: 'https://www.freeport.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Designer Outlet Algarve', url: 'https://www.mcarthurglen.com/outlets/pt/pt/designer-outlet-algarve/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Designer Outlet Algarve', url: 'https://www.designeroutletalgarve.com/en/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Vila do Conde The Style Outlets', url: 'https://viladoconde.thestyleoutlets.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ASAE — права потребителя', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

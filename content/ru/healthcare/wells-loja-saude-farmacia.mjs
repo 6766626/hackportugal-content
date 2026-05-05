@@ -116,7 +116,7 @@ export default {
   sources: [
     { title: 'Wells — официальный сайт сети saúde, bem-estar e ótica', url: 'https://www.wells.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DECO Proteste — сравнение цен, здоровье и права потребителей', url: 'https://www.deco.proteste.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'INFARMED — medicamentos não sujeitos a receita médica', url: 'https://www.infarmed.pt/web/infarmed/entidades/medicamentos-uso-humano/autorizacao-de-introducao-no-mercado/medicamentos-nao-sujeitos-a-receita-medica', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'INFARMED — locais de venda de medicamentos não sujeitos a receita médica (MNSRM)', url: 'https://www.infarmed.pt/web/infarmed/entidades/licenciamentos/locais-de-venda-de-medicamentos-nao-sujeitos-a-receita-medica-lvmnsrm', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'SNS 24 — контакты и orientação médica', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',

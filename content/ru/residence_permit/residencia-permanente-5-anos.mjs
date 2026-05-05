@@ -89,7 +89,7 @@ export default {
             { kind: 'paragraph', text: 'Следите за каналами AIMA: личный кабинет/портал, email, телефонные линии и региональные окна могут отличаться. Если у вас уже идёт продление временного ВНЖ, уточните, можно ли конвертировать процесс в permanente или нужна отдельная запись.' }
           ] },
           { id: 'appointment', title: '3. Придите с оригиналами', content: [
-            { kind: 'paragraph', text: 'На приёме сверяют документы, биометрию, адрес, основания проживания и оплату. Пошлина за autorização de residência permanente — 252 € по тарифам AIMA, действующим для этого типа услуги.' }
+            { kind: 'paragraph', text: 'На приёме сверяют документы, биометрию, адрес, основания проживания и оплату. Пошлина AIMA за autorização de residência permanente (art. 76) — 351,10 € + €133 за admission/анализ дела. Тарифы вступили в силу 01.03.2026 (Portaria 480/2025/1, рост ~+33% к старой €252).' }
           ] },
           { id: 'card', title: '4. Получите карту', content: [
             { kind: 'paragraph', text: 'После одобрения карта приходит по почте или выдаётся по инструкции AIMA. Проверьте имя, дату рождения, гражданство, номер документа и адрес. Ошибки исправляйте сразу.' }
@@ -123,7 +123,7 @@ export default {
   ],
   sources: [
     { title: 'AIMA — autorização de residência и услуги для иностранных граждан', url: 'https://aima.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'AIMA — tabela de taxas и платежи за títulos de residência', url: 'https://aima.gov.pt/pt/a-aima/taxas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'AIMA — tabela de taxas и платежи за títulos de residência', url: 'https://aima.gov.pt/pt/noticias/atualizacao-da-tabela-de-taxas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento de estrangeiros, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — legislação consolidada sobre autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

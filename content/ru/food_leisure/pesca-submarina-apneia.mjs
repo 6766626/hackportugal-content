@@ -142,10 +142,10 @@ export default {
   ],
   sources: [
     { title: 'DGRM — Pesca Submarina', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPDJ — регистрация федераций спорта (FPAS признана)', url: 'https://ipdj.gov.pt/registo-de-praticantes-desportivos-em-federacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'IPDJ — регистрация федераций спорта (FPAS признана)', url: 'https://ipdj.gov.pt/clube-de-praticantes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica e Submarina', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICNF — Parques Marinhos e zonas restritas', url: 'https://www.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

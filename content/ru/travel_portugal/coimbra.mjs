@@ -93,9 +93,9 @@ export default {
   ],
   sources: [
     { title: 'Universidade de Coimbra — наследие ЮНЕСКО', url: 'https://www.uc.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Turismo de Coimbra — муниципальный туризм', url: 'https://www.visitportugal.com/pt-pt/destinos/centro-de-portugal/coimbra', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Turismo de Coimbra — муниципальный туризм', url: 'https://www.visitportugal.com/en/node/73754', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo do Centro — регион', url: 'https://www.turismodocentro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

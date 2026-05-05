@@ -133,11 +133,11 @@ export default {
   ],
   sources: [
     {
-      title: 'SNS — Rede de Referenciação Hospitalar de Oncologia Médica',
-      url: 'https://www.sns.gov.pt/wp-content/uploads/2017/08/RRH-Oncologia-Médica.pdf',
+      title: 'SNS — Programa Nacional para as Doenças Oncológicas',
+      url: 'https://www.sns.gov.pt/institucional/programas-de-saude-prioritarios/programa-nacional-para-as-doencas-oncologicas/',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'ePortugal — Tempos Máximos de Resposta Garantidos (TMRG)',

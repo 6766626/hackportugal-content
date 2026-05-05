@@ -94,9 +94,9 @@ export default {
   sources: [
     { title: 'Jogos Santa Casa — официальный портал игр, правил и результатов', url: 'https://www.jogossantacasa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Jogos Santa Casa — Euromilhões', url: 'https://www.jogossantacasa.pt/web/SCCartazResult/euroMilhoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Jogos Santa Casa — Totoloto', url: 'https://www.jogossantacasa.pt/web/SCCartazResult/totoloto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Jogos Santa Casa — Totoloto', url: 'https://www.jogossantacasa.pt/web/SCCartazResult/cartazTotoloto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Imposto do Selo — налогообложение призов', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1999-34502275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

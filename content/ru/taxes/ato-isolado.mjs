@@ -140,33 +140,33 @@ export default {
   sources: [
     {
       title: 'Autoridade Tributária: IRS — Atos Isolados, folheto informativo',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/IRS_Atos_Isolados.pdf',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Inicio_atividade.pdf',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Código do IRS — categoria B, atos isolados и retenção na fonte',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/cirs3.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/Cod_download/Documents/CIRS.pdf',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Código do IVA — sujeitos passivos, início de atividade и regras de IVA',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/civa31.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva31.aspx',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Portal das Finanças — recibos verdes e faturas-recibo',
-      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html',
+      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 90
 }

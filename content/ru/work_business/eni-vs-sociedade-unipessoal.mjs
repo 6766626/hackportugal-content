@@ -127,7 +127,7 @@ export default {
     },
     {
       title: 'Portal das Finanças: início de atividade',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/Pages/faqs-00286.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/pages/faqs-00312.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

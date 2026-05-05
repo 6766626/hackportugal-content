@@ -90,7 +90,7 @@ export default {
   timelineDaysMin: 90,
   timelineDaysMax: 180,
   sources: [
-    { title: 'Vistos MNE — D7 Rendimentos', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacoes-gerais/tipos-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Vistos MNE — D7 Rendimentos', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Autorização de Residência (вид на жительство)', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei nº 23/2007 (Regime de Entrada) — DRE', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],

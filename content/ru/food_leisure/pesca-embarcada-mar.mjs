@@ -104,10 +104,10 @@ export default {
   ],
   sources: [
     { title: 'DGRM — Pesca Lúdica Embarcada', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Autoridade Marítima Nacional — регистрация de embarcações', url: 'https://www.amn.pt/DGAM/Paginas/Registo.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Autoridade Marítima Nacional — регистрация de embarcações', url: 'https://www.amn.pt/DGAM/FR/Paginas/NauticaRecreio.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICCAT — quotas atum rabilho', url: 'https://www.iccat.int', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

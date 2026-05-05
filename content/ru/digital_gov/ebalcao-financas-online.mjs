@@ -141,11 +141,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Portal das Finanças — Suporte e contactos da Autoridade Tributária',
-      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html',
+      title: 'Portal das Finanças — Apoio ao contribuinte и e-Balcão',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Pages/default.aspx',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     }
   ],
   lastVerified: '2026-04-28',

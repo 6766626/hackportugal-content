@@ -116,7 +116,7 @@ export default {
     },
     {
       title: 'Câmara Municipal de Lisboa — рынки и feiras города',
-      url: 'https://www.lisboa.pt/cidade/comercio/mercados-e-feiras',
+      url: 'https://comercio.lisboa.pt/feiras-e-mercados/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -129,6 +129,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

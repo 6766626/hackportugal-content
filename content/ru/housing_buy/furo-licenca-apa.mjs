@@ -193,7 +193,7 @@ export default {
   ],
   sources: [
     { title: 'APA — Agência Portuguesa do Ambiente', url: 'https://apambiente.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'APA — Captações de água subterrânea', url: 'https://apambiente.pt/agua/captacoes-de-agua-subterranea', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'APA — Atividade de pesquisa e de captação de águas subterrâneas', url: 'https://apambiente.pt/agua/atividade-de-pesquisa-e-de-captacao-de-aguas-subterraneas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'Decreto-Lei 226-A/2007 (Lei da Água, consolidado)', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2007-34540975', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ARH Tejo e Oeste', url: 'https://apambiente.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ANEFA — Associação Nacional Empresas de Furos de Água', url: 'https://www.anefa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }

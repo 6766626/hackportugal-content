@@ -84,11 +84,11 @@ export default {
     { label: 'Оформление Cartão Porto / Viver Cascais', amountEUR: 0, note: 'Обычно бесплатно для резидентов, но платные дубликаты или физические карты возможны по муниципальным правилам.' }
   ],
   sources: [
-    { title: 'Câmara Municipal de Lisboa — культура и муниципальные программы', url: 'https://www.cm-lisboa.pt/viver/cultura', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Câmara Municipal de Lisboa — культура и муниципальные программы', url: 'https://www.lisboa.pt/temas/cultura', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal do Porto — культура и городские сервисы', url: 'https://www.cm-porto.pt/cultura', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal do Porto — Cartão Porto', url: 'https://www.cm-porto.pt/cartao-porto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Câmara Municipal de Cascais — Cartão Viver Cascais', url: 'https://www.cascais.pt/cartao-viver-cascais', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Câmara Municipal de Cascais — Cartão Viver Cascais', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

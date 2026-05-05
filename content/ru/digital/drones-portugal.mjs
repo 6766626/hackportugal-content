@@ -111,7 +111,8 @@ export default {
     { label: 'Страховка гражданской ответственности', amountEURMin: 50, amountEURMax: 150, note: '/год' }
   ],
   sources: [
-    { title: 'ANAC — дроны', url: 'https://www.anac.pt/drones', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ANAC — Categoria Aberta (regras de operação UAS/дронов)', url: 'https://www.anac.pt/vPT/Generico/drones/categoria_aberta/Paginas/CategoriaAberta.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'ANAC — Registo de Operador de Aeronaves Não Tripuladas', url: 'https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Портал дронов Португалии (регистрация + геозоны)', url: 'https://voanouceu.anac.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Регламент (EU) 2019/947', url: 'https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'ICNF — природные парки', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }

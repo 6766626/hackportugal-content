@@ -125,7 +125,7 @@ export default {
     },
     {
       title: 'ACT: рабочее время и организация рабочего времени',
-      url: 'https://portal.act.gov.pt/Pages/WorkingTime.aspx',
+      url: 'https://portal.act.gov.pt/AnexosPDF/Legisla%C3%A7%C3%A3o%20nacional/C%C3%B3digo%20do%20trabalho.pdf',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

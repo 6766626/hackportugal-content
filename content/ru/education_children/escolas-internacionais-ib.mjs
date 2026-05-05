@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Международная школа в Португалии — это не один формат. Есть British curriculum с IGCSE/A-levels, American curriculum с High School Diploma/AP, IB PYP/MYP/DP, французская система AEFE, немецкие и другие национальные школы. Дипломы обычно признаются для поступления в университеты ЕС, UK, США и Канады, но требования по предметам надо проверять заранее.' },
         { kind: 'checklist', items: [
           'Lisboa: United Lisbon International School, Lycée Français Charles Lepierre, Deutsche Schule Lissabon, Astoria International School, PaRK International School.',
-          'Cascais/Sintra/Oeiras: St Julian’s School, CAISL, St Dominic’s International School, Oeiras International School, International Preparatory School, King’s College School Cascais.',
+          'Cascais/Sintra/Oeiras: St Julian’s School, CAISL (Carlucci American International School of Lisbon, Linhó/Sintra), St Dominic’s International School, Oeiras International School, International Preparatory School, King’s College School Cascais.',
           'Porto/Gaia: CLIP Oporto International School, Oporto British School, Lycée Français International de Porto, Deutsche Schule zu Porto.',
           'IB: чаще всего ищут IB Diploma Programme для 16–18 лет; PYP/MYP есть не у всех школ.',
           'British: IGCSE в 14–16 лет и A-levels в 16–18 лет; удобен для UK и многих европейских вузов.',
@@ -128,11 +128,11 @@ export default {
   ],
   sources: [
     {
-      title: 'Gov.pt: образование в Португалии для граждан и резидентов ЕС',
-      url: 'https://www2.gov.pt/en/cidadaos-europeus-viajar-viver-e-fazer-negocios-em-portugal/educacao-em-portugal',
+      title: 'Gov.pt: образование, стажировки и волонтёрство для граждан ЕС',
+      url: 'https://www2.gov.pt/en/cidadaos-europeus-viajar-viver-e-fazer-negocios-em-portugal/educacao-estagios-e-voluntariado-em-portugal',
       kind: 'official',
       language: 'en',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'Eurydice: Portugal — доступ к образованию',
@@ -150,10 +150,10 @@ export default {
     },
     {
       title: 'Council of British International Schools: проверка британских международных школ',
-      url: 'https://www.cobis.org.uk/school-search',
+      url: 'https://www.cobis.org.uk/our-network/search-for-cobis-members/cobis-school-search',
       kind: 'company',
       language: 'en',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     }
   ],
   lastVerified: '2026-04-28',

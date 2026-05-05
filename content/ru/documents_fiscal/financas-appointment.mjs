@@ -83,10 +83,10 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portal das Finanças (налоговый портал) — Agendamentos', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portal das Finanças (налоговый портал) — Agendamentos', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Marcação no Serviço de Finanças', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/agendar-atendimento-no-servico-de-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Autoridade Tributária (налоговая служба) — очный приём', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

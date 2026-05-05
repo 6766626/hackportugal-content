@@ -105,10 +105,10 @@ export default {
     }
   ],
   sources: [
-    { title: 'Câmara Municipal de Lisboa — гид по районам и фрегезиям', url: 'https://www.lisboa.pt/cidade/uplisboa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Câmara Municipal de Lisboa — гид по районам и фрегезиям', url: 'https://www.lisboa.pt/municipio/juntas-de-freguesia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'INE — статистика по жилью в Лиссабоне', url: 'https://www.ine.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Lisboa — туристический портал', url: 'https://www.visitlisboa.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

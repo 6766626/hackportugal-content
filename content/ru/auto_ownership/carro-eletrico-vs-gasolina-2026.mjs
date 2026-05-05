@@ -127,7 +127,7 @@ export default {
     { title: 'Fundo Ambiental — incentivos a veículos de emissões nulas', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ACAP — рынок автомобилей и статистика registrations в Португалии', url: 'https://www.acap.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária — IUC и ISV на Portal das Finanças', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ERSE — informação sobre mobilidade elétrica e carregamento', url: 'https://www.erse.pt/atividade/mobilidade-eletrica/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ERSE — Tarifas e Preços Mobilidade Elétrica', url: 'https://www.erse.pt/mobilidade-eletrica/tarifas-e-precos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
   lastVerified: '2026-04-28',
   verifyIntervalDays: 180

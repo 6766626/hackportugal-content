@@ -121,11 +121,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'DGEstE — ensino artístico especializado',
-      url: 'https://www.dgeste.mec.pt/ensino-artistico-especializado/',
+      title: 'DGEstE — Ensino Artístico Especializado',
+      url: 'https://www.dgeste.mec.pt/?page_id=25318',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'República Portuguesa Educação — escolas artísticas e oferta educativa',

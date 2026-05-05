@@ -112,7 +112,8 @@ export default {
   ],
   sources: [
     { title: 'Carris — маршруты, расписания и информация по carreiras', url: 'https://www.carris.pt/viaje/carreiras/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Carris — тарифы и билеты', url: 'https://www.carris.pt/viaje/tarifario/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Carris — Tarifário (preços de bilhetes e passes)', url: 'https://www.carris.pt/compre/tarifario/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
+    { title: 'Carris — Novas Tarifas 2026', url: 'https://www.carris.pt/descubra/novo-tarifario-2026/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'Navegante — проездные и тарифная система Lisboa/AML', url: 'https://www.navegante.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Carris — официальный сайт оператора транспорта Lisboa', url: 'https://www.carris.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

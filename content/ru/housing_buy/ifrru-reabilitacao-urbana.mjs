@@ -141,7 +141,7 @@ export default {
     },
     {
       title: 'Portal da Habitação / IHRU — программа поддержки IFRRU 2030',
-      url: 'https://www.portaldahabitacao.pt/programas-de-apoio/ifrru-2030',
+      url: 'https://www.portaldahabitacao.pt/o-que-e-ifrru',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

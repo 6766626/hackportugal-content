@@ -108,8 +108,8 @@ export default {
     { title: 'Frutas de Portugal — справочник португальских фруктов и региональных наименований', url: 'https://www.frutas-portugal.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Pera Rocha do Oeste DOP — спецификация и сведения о продукте в реестре eAmbrosia', url: 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Maçã de Alcobaça IGP — спецификация и сведения о продукте в реестре eAmbrosia', url: 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'SIMA/GPP Portugal — рыночная информация по сельхозценам', url: 'https://www.gpp.pt/index.php/sima/sistema-de-informacao-de-mercados-agricolas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'SIMA/GPP Portugal — рыночная информация по сельхозценам', url: 'https://www.gpp.pt/index.php/sima/sima-2018', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

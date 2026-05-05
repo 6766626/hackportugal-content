@@ -201,19 +201,19 @@ export default {
     },
     {
       title: 'Pingo Doce: Poupa Mais и промо-кампании',
-      url: 'https://www.pingodoce.pt/poupa-mais/',
+      url: 'https://www.pingodoce.pt/sobre-nos/cartao-poupa-mais/',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Lidl Portugal: Lidl Plus',
-      url: 'https://www.lidl.pt/c/lidl-plus/s10020920',
+      url: 'https://www.lidl.pt/lidl-plus',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

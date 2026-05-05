@@ -69,7 +69,7 @@ export default {
   timelineDaysMin: 60,
   timelineDaysMax: 120,
   sources: [
-    { title: 'Vistos MNE — виза D3 для высококвалифицированных специалистов', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacoes-gerais/tipos-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Vistos MNE — виза D3 для высококвалифицированных специалистов', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — вид на жительство для высококвалифицированных специалистов', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portaria do IFICI — список квалифицированных профессий', url: 'https://diariodarepublica.pt/dr/pesquisa?q=IFICI', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],

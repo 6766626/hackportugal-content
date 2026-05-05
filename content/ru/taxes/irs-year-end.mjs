@@ -15,10 +15,10 @@ export default {
           '🧾 Проверить Faturas.pt — все ваши покупки с NIF накапливаются здесь. Чеки, не отнесённые к категории, теряют вычет',
           '✅ Подтвердить неподтверждённые чеки (к каким категориям относятся — здоровье/образование/и т.п.)',
           '💳 Сделать предновогодние медицинские чеки — вычет до 1000 € на 15% годовых медицинских расходов',
-          '📚 Оплатить обучение / курсы до 31.12 — вычет до 800 € / ребёнок',
+          '📚 Оплатить обучение / курсы до 31.12 — вычет до 800 € на семью (household), не на ребёнка',
           '🍽️ Обеды в ресторанах с NIF — вычет до 250 €',
           '💡 ЖКХ с NIF (электричество, газ, вода) — вычет до 250 €',
-          '🏠 Recibo аренды за декабрь — вычет до 502 €',
+          '🏠 Recibo аренды за декабрь — вычет до 700–800 € (OE 2024/25, проверять актуальный лимит)',
           '💰 Пополнить PPR (пенсионный план) — вычет до 400 € (молодые), 300 € (40-50), 200 € (>50)',
           '💳 Пожертвования НКО с NIF — вычет 25% взноса, до 15% налога',
           '📊 IFICI-субъекты: подтвердить статус, документы о квалифицированной деятельности'
@@ -87,7 +87,7 @@ export default {
               'Для включения обязателен NIF на чеке'
             ]}
           ]},
-          { id: 'd2', title: 'Образование (30% до 800 €/ребёнок)', content: [
+          { id: 'd2', title: 'Образование (30% до 800 € на семью)', content: [
             { kind: 'checklist', items: [
               'Школьные взносы',
               'Университетская propina',
@@ -100,7 +100,7 @@ export default {
           ]},
           { id: 'd3', title: 'Жильё', content: [
             { kind: 'checklist', items: [
-              'Аренда — 15% до 502 €',
+              'Аренда — 15% до 700–800 € (после OE 2024/25)',
               'Ипотечные проценты (только ипотеки до 2011) — 15% до 296 €',
               'Энергетика (ЖКХ) — 15% до 250 €',
               'Оплаченный IMI — иногда вычитается'
@@ -126,7 +126,7 @@ export default {
           ]},
           { id: 'd7', title: 'Иждивенцы', content: [
             { kind: 'checklist', items: [
-              'Фиксированные вычеты: 600 € на ребёнка, 900 € на 2-го и т.д.',
+              'Фиксированные вычеты по dependentes: 600 € (1-й ребёнок), 726 € (2-й при возрасте до 6), 900 € (3-й и далее) — точные суммы зависят от возраста и состава семьи',
               'Пожилые родители с низким доходом — вычет',
               'Инвалидность: усиленные вычеты',
               'Монородитель: +увеличение'
@@ -180,11 +180,11 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portal das Finanças — IRS 2026', url: 'https://www.portaldasfinancas.gov.pt/at/html/irsweb2024', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portal das Finanças — IRS 2026', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlirsweb2024', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do IRS (consolidado)', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1988-34471975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Faturas.pt — портал электронных чеков', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — подача IRS', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

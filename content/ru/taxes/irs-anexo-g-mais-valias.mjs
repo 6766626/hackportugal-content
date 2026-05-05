@@ -131,21 +131,21 @@ export default {
     },
     {
       title: 'Código do IRS — art. 10, Mais-valias',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs/Pages/irs10.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs10.aspx',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Código do IRS — art. 43, Mais-valias: regras de determinação',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs/Pages/irs43.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs43.aspx',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Código do IRS — art. 72, taxas especiais e autónomas',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs/Pages/irs72.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/ra/Pages/irs72ra_201901.aspx',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'

@@ -121,7 +121,7 @@ export default {
     { title: 'CMVM — реестры финансовых посредников и предупреждения инвесторам', url: 'https://www.cmvm.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Finanças — IRS и декларации Modelo 3 / Anexos', url: 'https://info.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do IRS — налогообложение доходов, категорий E и G', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Sistema de Indemnização aos Investidores — информация о защите инвесторов', url: 'https://www.cmvm.pt/pt/EstatisticasEstudosEPublicacoes/Pages/Sistema-de-Indemnizacao-aos-Investidores.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Sistema de Indemnização aos Investidores — информация о защите инвесторов', url: 'https://www.cmvm.pt/pt/AreadoInvestidor/SistemaDeIndemnizacaoAosInvestidores/LegisOutrasInfo/Pages/legislacao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',
   verifyIntervalDays: 90

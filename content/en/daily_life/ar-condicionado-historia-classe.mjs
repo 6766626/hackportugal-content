@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'ar-condicionado-historia-classe',
   categoryId: 'daily_life',
-  title: 'Appliance energy efficiency class: A++ vs A — what to buy',
-  tldr: 'In 2026, the old A+, A++, A+++ can no longer be read as “better than A”: for fridges, washing machines, dishwashers, TVs and lamps, the new EU A–G scale applies, where A is the maximum. An old A++ fridge may be a new E/F. The price difference for A/B versus D/E is often 50%, but with Portuguese electricity at around €0.20–0.25/kWh, savings on a fridge, tumble dryer or ar condicionado can be €100–300/year. Look at kWh/year, the EPREL QR code and the mandatory etiqueta energética.',
+  title: 'Energy efficiency class of appliances: A++ vs A — what to buy',
+  tldr: 'In 2026 the old A+, A++, A+++ can no longer be read as “better than A”: for fridges, washing machines, dishwashers, TVs and lamps the new EU A–G scale applies, where A is the maximum. An old A++ fridge can be a new E/F. The price gap for A/B versus D/E is often 50%, but with Portuguese electricity at about €0.20–€0.25/kWh the savings on a fridge, dryer or ar condicionado can be €100–€300/year. Check kWh/year, the EPREL QR code and the mandatory energy label.',
   tags: ['energy', 'a++', 'appliances', 'dgeg'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,54 +11,54 @@ export default {
       id: 'new-scale',
       title: '1. Forget the “A++ is better than A” logic',
       content: [
-        { kind: 'paragraph', text: 'In the EU, the old scale with pluses has gradually been replaced by a simple A–G scale. In the new system, A is the most efficient class and G is the worst. There are no more pluses for categories that have already been rescaled.' },
-        { kind: 'paragraph', text: 'The main trap in shops and on OLX/Facebook Marketplace: an old A++ is not the same as a new A. For fridges, freezers, washing machines, washer-dryers, dishwashers, televisions/monitors and light sources, the new etiqueta energética shows A–G and a QR code linking to the EPREL database.' },
+        { kind: 'paragraph', text: 'In the EU the old scale with pluses has been gradually replaced by a simple A–G scale. In the new system A is the most efficient class, G is the worst. There are no more pluses for categories that have already been rescaled.' },
+        { kind: 'paragraph', text: 'The main trap in shops and on OLX/Facebook Marketplace: an old A++ is not the same as the new A. For fridges, freezers, washing machines, washer-dryers, dishwashers, TVs/monitors and light sources the new energy label shows A–G and a QR code to the EPREL database.' },
         { kind: 'checklist', items: [
-          'New A is genuinely top class, often expensive and rare.',
+          'New A is truly top-tier, often expensive and rare.',
           'New B/C is usually the best balance of price and consumption.',
-          'New D/E is acceptable for a budget purchase, but calculate the kWh.',
+          'New D/E is fine for a budget purchase, but calculate the kWh.',
           'Old A+++ often corresponds roughly to new C/D, but not always.',
-          'Old A++ may turn out to be new D/E/F — check the model.',
+          'Old A++ can turn out to be new D/E/F — check the exact model.',
           'Old A+ for a fridge or washing machine in 2026 is usually a bad sign.',
-          'If the label has no EPREL QR code for a category where it should have one, ask for the ficha do produto or do not buy.'
+          'If the label lacks an EPREL QR code for a category that should have one, ask for the product information sheet or do not buy.'
         ] },
-        { kind: 'warning', text: 'For ar condicionado the transition is more complex: in the Portuguese market, old-style A+++–D labels are still found for some air conditioners. Therefore compare not the letter, but SEER/SCOP and the annual kWh consumption on the label. Do not compare A++ on an air conditioner directly with A on a fridge or washing machine.' }
+        { kind: 'warning', text: 'For ar condicionado the transition is trickier: in the Portuguese market you can still find old-style A+++–D labels on some air conditioners. So compare not the letter, but SEER/SCOP and the annual kWh on the label. Do not compare A++ on an air conditioner directly with A on a fridge or washing machine.' }
       ]
     },
     {
       id: 'read-label',
-      title: '2. How to read the etiqueta energética in Worten, MediaMarkt and Leroy Merlin',
+      title: '2. How to read the energy label at Worten, MediaMarkt and Leroy Merlin',
       content: [
-        { kind: 'paragraph', text: 'The class letter is a quick filter, but the decision should be based on consumption. The label always has a numerical indicator: kWh/year, kWh/100 cycles or kWh/1000 hours. This is what turns into your EDP, Galp, Iberdrola, Endesa or Goldenergy bills.' },
+        { kind: 'paragraph', text: 'The class letter is a quick filter, but you should decide based on consumption. The label always has a numeric indicator: kWh/year, kWh/100 cycles or kWh/1000 h. That is what turns into your bills from EDP, Galp, Iberdrola, Endesa or Goldenergy.' },
         { kind: 'checklist', items: [
-          'Fridge/freezer: look at kWh/year, volume in litres and noise in dB.',
-          'Washing machine: kWh/100 Eco 40–60 cycles, water consumption/cycle, capacity in kg.',
+          'Fridge/freezer: check kWh/year, volume in litres and noise in dB.',
+          'Washing machine: kWh/100 Eco 40–60 cycles, water per cycle, capacity in kg.',
           'Dishwasher: kWh/100 Eco cycles, litres of water, Eco programme duration.',
-          'Tumble dryer: kWh/100 cycles; a heat pump is almost always better value than a condenser dryer.',
-          'Television: kWh/1000 hours for SDR and separately HDR — HDR can consume noticeably more.',
+          'Tumble dryer: kWh/100 cycles; a heat-pump model is almost always more economical than a condenser one.',
+          'TV: kWh/1000 h for SDR and separately for HDR — HDR can draw noticeably more.',
           'Ar condicionado: look at SEER for cooling, SCOP for heating, kWh/year and the climate zone.',
-          'Noise: for a flat with poor sound insulation in Portugal, the difference between 39 dB and 45 dB at night matters more than it seems.',
-          'Size: an oversized fridge or air conditioner eats up the savings from a higher class.'
+          'Noise: in a flat with poor sound insulation in Portugal, the difference between 39 dB and 45 dB at night matters more than it seems.',
+          'Size: an oversized fridge or air conditioner can eat up the savings from a higher class.'
         ] },
-        { kind: 'paragraph', text: 'If you buy online, the seller must show the energy efficiency class and ficha de informação do produto next to the price. For new models, look for the QR code: it leads to the European EPREL database, where you can check the official parameters.' }
+        { kind: 'paragraph', text: 'If you buy online, the seller must display the energy efficiency class and the product information sheet next to the price. For new models look for the QR code: it leads to the European EPREL database where you can verify the official parameters.' }
       ]
     },
     {
       id: 'money',
-      title: '3. Calculating the money: when A/B pays for itself',
+      title: '3. Counting the money: when A/B pays off',
       content: [
-        { kind: 'paragraph', text: 'In Portugal, household electricity in 2026 usually comes to around €0.20–0.25/kWh including the tariff, network charges and IVA, but the exact price depends on potência contratada, the simples/bi-horário tariff and the supplier. For a quick estimate, multiply the annual kWh difference by €0.23.' },
+        { kind: 'paragraph', text: 'In Portugal, household electricity in 2026 typically works out at about €0.20–€0.25/kWh including tariff, network charges and VAT, but the exact price depends on contracted power (potência contratada), single-rate/bi-horário tariff and the supplier. For a quick estimate, multiply the annual kWh difference by €0.23.' },
         { kind: 'checklist', items: [
-          'Formula: annual saving = kWh difference × your price per kWh.',
-          'If the appliance costs €200 more and saves €80/year — the payback period is 2.5 years.',
-          'If the appliance costs €400 more and saves €40/year — the payback period is 10 years, usually not worth it.',
+          'Formula: yearly saving = kWh difference × your price per kWh.',
+          'If an appliance costs €200 more and saves €80/year — the payback is 2.5 years.',
+          'If an appliance costs €400 more and saves €40/year — the payback is 10 years, often not worth it.',
           'A fridge runs 24/7: the class almost always matters.',
-          'A tumble dryer and ar condicionado can deliver the biggest savings if used often.',
+          'A dryer and ar condicionado can deliver the biggest savings if used often.',
           'A washing machine and dishwasher pay back more slowly if you run them 2–3 times a week.',
-          'For a rented flat for 1 year, do not overpay for a top A if you are not taking the appliance with you.',
-          'For your own home for 5–10 years, take at least B/C where the budget allows.'
+          'For a 1-year rental flat do not overpay for a top A if you are not taking the appliance with you.',
+          'For your own home over 5–10 years, choose at least B/C where the budget allows.'
         ] },
-        { kind: 'paragraph', text: 'Example: a D fridge consumes 220 kWh/year, a similar B consumes 120 kWh/year. Difference 100 kWh × €0.23 = €23/year. A €250 premium will pay back in roughly 11 years — questionable. But an old ar condicionado or tumble dryer may differ by 500–1000 kWh/year: that is already €115–230/year.' }
+        { kind: 'paragraph', text: 'Example: a D-class fridge uses 220 kWh/year, a similar B-class one — 120 kWh/year. The difference is 100 kWh × €0.23 = €23/year. A €250 premium pays back in roughly 11 years — questionable. But an old ar condicionado or a dryer can differ by 500–1000 kWh/year: that is €115–€230/year.' }
       ]
     },
     {
@@ -67,51 +67,51 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'fridge', title: 'Fridge and freezer', content: [
-            { kind: 'paragraph', text: 'Choose a new B/C if the price is reasonable. A is good, but the premium often does not pay back. For a rental and a small flat, D is fine if consumption is within reasonable kWh/year and the appliance is new.' },
-            { kind: 'warning', text: 'Do not buy an old A+/A++ fridge “cheaply” without checking kWh/year. In Portugal, heat and kitchens without air conditioning make old fridges especially hungry.' }
+            { kind: 'paragraph', text: 'Go for a new B/C if the price is sensible. A is good, but the premium often does not pay back. For rentals and a small flat, D is acceptable if consumption is within reasonable kWh/year and the appliance is new.' },
+            { kind: 'warning', text: 'Do not buy an old A+/A++ fridge “cheap” without checking kWh/year. Portugal’s heat and un-air-conditioned kitchens make old fridges particularly power-hungry.' }
           ] },
           { id: 'washer-dishwasher', title: 'Washing machine and dishwasher', content: [
-            { kind: 'paragraph', text: 'For a family, B/C models with a good load capacity are worthwhile. For one person, the difference between B and D may be less than €20–40/year, so the warranty, noise and service matter more.' }
+            { kind: 'paragraph', text: 'For a family, B/C with good capacity is cost-effective. For a single person, the difference between B and D may be under €20–€40/year, so warranty, noise and service matter more.' }
           ] },
           { id: 'dryer', title: 'Tumble dryer', content: [
-            { kind: 'paragraph', text: 'If you need a tumble dryer regularly in winter in a damp flat in Lisbon, Porto or Braga, choose a heat pump model. It is more expensive, but the saving can be three figures per year.' }
+            { kind: 'paragraph', text: 'If you need a dryer regularly in winter in a damp flat in Lisbon, Porto or Braga, choose a heat-pump model. It costs more, but the yearly saving can be in the triple digits.' }
           ] },
           { id: 'ac', title: 'Ar condicionado / bomba de calor', content: [
-            { kind: 'paragraph', text: 'For an air conditioner, look at SEER/SCOP, not only the letter. In Portugal, a split unit with inverter and high SCOP is often worthwhile as heating too: it is cheaper to run than an oil-filled radiator or a cheap electric heater.' },
-            { kind: 'warning', text: 'A split-system installation must be done by a certified installer; for equipment with fluorinated gases, documents, warranty and instalação certificada are important. Before buying for a rented flat, get written permission from the senhorio and, if needed, the condomínio.' }
+            { kind: 'paragraph', text: 'For an air conditioner, look at SEER/SCOP rather than just the letter. In Portugal, a split with inverter and high SCOP is often worthwhile as heating too: it is cheaper to run than an oil-filled radiator or a cheap electric heater.' },
+            { kind: 'warning', text: 'A split system must be installed by a certified installer; for equipment with fluorinated gases, documentation, warranty and certified installation are important. Before buying for a rental flat, obtain written permission from the landlord (senhorio) and, if needed, the condomínio.' }
           ] },
-          { id: 'tv', title: 'Television', content: [
-            { kind: 'paragraph', text: 'For a TV, the class matters less than size and brightness. A large 65–75″ screen can consume much more, even if the class is fairly good. Look at kWh/1000 h SDR/HDR.' }
+          { id: 'tv', title: 'TV', content: [
+            { kind: 'paragraph', text: 'For TVs, class matters less than size and brightness. A large 65–75″ screen can consume far more, even if the class is decent. Check kWh/1000 h for SDR/HDR.' }
           ] }
         ] }
       ]
     },
     {
       id: 'documents-and-checks',
-      title: '5. Documents, warranty and checks before payment',
+      title: '5. Documents, warranty and checks before paying',
       content: [
-        { kind: 'paragraph', text: 'In Portugal, a new consumer product usually has a 3-year legal warranty. For second-hand goods bought from a professional seller, the period may be reduced by agreement, but not below the legal minimum. When buying from a private individual on OLX, there is almost no such protection.' },
+        { kind: 'paragraph', text: 'In Portugal, a new consumer product usually has a statutory 3-year warranty. For a used product bought from a professional seller, the term may be reduced by agreement, but not below the legal minimum. When buying from a private individual on OLX, you have almost no such protection.' },
         { kind: 'checklist', items: [
-          'Ask for a fatura com NIF — without an invoice, warranty and returns are more difficult.',
-          'Check the etiqueta energética and ficha do produto before payment.',
-          'Scan the EPREL QR code if there is one on the label.',
-          'Compare kWh, not only the class letter.',
-          'Check dimensions: Portuguese kitchens are often narrow and lifts small.',
-          'Clarify delivery to the flat, not only to the building entrance.',
-          'Clarify recolha do equipamento antigo — collection of the old appliance.',
-          'For ar condicionado, get an orçamento de instalação in writing.',
-          'Check whether installation is included in the warranty and who is responsible for gas leaks/drainage.',
-          'Do not trust an advert saying “classe A++ saves 70%” if there is no official label.'
+          'Ask for an invoice with NIF — without an invoice, warranty and returns are harder.',
+          'Check the energy label and the product information sheet before paying.',
+          'Scan the EPREL QR code if it is on the label.',
+          'Compare kWh, not just the class letter.',
+          'Check dimensions: Portuguese kitchens are often narrow, lifts small.',
+          'Confirm delivery to your flat, not just to the building entrance.',
+          'Confirm recolha do equipamento antigo — removal of the old appliance.',
+          'For ar condicionado, get a written installation quote.',
+          'Check whether installation is covered by the warranty and who is responsible for gas leakage/drainage.',
+          'Do not trust an advert saying “classe A++ saves 70%” without an official label.'
         ] },
-        { kind: 'warning', text: 'A certificado energético from ADENE/DGEG relates to buildings and property sale/rental adverts, not to a fridge or washing machine. For household appliances, what is mandatory is the EU etiqueta energética and the product information sheet; for an air conditioner, certified installation is additionally important.' }
+        { kind: 'warning', text: 'The Certificado energético from ADENE/DGEG applies to buildings and property sale/rental listings, not to a fridge or washing machine. For appliances the mandatory items are the EU energy label and the product information sheet; for an air conditioner, certified installation is additionally important.' }
       ]
     }
   ],
   costs: [
     { label: 'Electricity price benchmark for calculation', amountEURMin: 0.20, amountEURMax: 0.25, note: '€/kWh for a household customer including taxes; check your contrato de eletricidade' },
-    { label: 'Typical premium for class A/B instead of D/E', amountEURMin: 150, amountEURMax: 600, note: 'Depends on the category: lower for a fridge, higher for a tumble dryer and ar condicionado' },
-    { label: 'Potential saving on an energy-intensive appliance', amountEURMin: 100, amountEURMax: 300, note: 'Per year with frequent use of a tumble dryer, old fridge or ar condicionado; calculate by kWh' },
-    { label: 'Removal of old appliance on delivery', amountEURMin: 0, amountEURMax: 30, note: 'Free or for a small fee with many chains when buying new equipment' }
+    { label: 'Typical premium for class A/B instead of D/E', amountEURMin: 150, amountEURMax: 600, note: 'Depends on the category: smaller for a fridge, larger for a dryer and ar condicionado' },
+    { label: 'Potential saving on an energy-hungry appliance', amountEURMin: 100, amountEURMax: 300, note: 'Per year with frequent use of a dryer, an old fridge or ar condicionado; calculate using kWh' },
+    { label: 'Removal of old appliance upon delivery', amountEURMin: 0, amountEURMax: 30, note: 'Free or for a small fee at many chains when you buy new equipment' }
   ],
   sources: [
     {
@@ -122,7 +122,7 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'DECO PROteste: practical guide to the energy label and choosing household appliances',
+      title: 'DECO PROteste: practical guide to the energy label and choosing appliances',
       url: 'https://www.deco.proteste.pt',
       kind: 'company',
       language: 'pt',
@@ -130,19 +130,19 @@ export default {
     },
     {
       title: 'European Commission: EU energy labels and product database EPREL',
-      url: 'https://energy-efficient-products.ec.europa.eu/ecodesign-and-energy-label/energy-label-and-ecodesign/product-database_en',
+      url: 'https://eprel.ec.europa.eu/screen/home',
       kind: 'official',
       language: 'en',
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Regulation (EU) 2017/1369: energy labelling framework',
+      title: 'Regulation (EU) 2017/1369: framework for energy labelling',
       url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32017R1369',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

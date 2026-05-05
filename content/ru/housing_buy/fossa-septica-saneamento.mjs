@@ -186,7 +186,7 @@ export default {
     { label: 'Электричество для ETAR', amountEURMin: 30, amountEURMax: 100, note: 'В год' }
   ],
   sources: [
-    { title: 'APA — Saneamento de águas residuais', url: 'https://apambiente.pt/agua/saneamento-de-aguas-residuais', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'APA — Águas Residuais Urbanas', url: 'https://apambiente.pt/agua/aguas-residuais-urbanas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'Decreto Regulamentar 23/95 — Distribuição de Água e Drenagem', url: 'https://dre.pt/dre/detalhe/decreto-regulamentar/23-1995-431007', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 152/97 — tratamento de águas residuais urbanas', url: 'https://dre.pt/dre/detalhe/decreto-lei/152-1997-217470', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ERSAR — Entidade Reguladora dos Serviços de Águas e Resíduos', url: 'https://www.ersar.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }

@@ -67,7 +67,7 @@ export default {
     },
     {
       title: 'Interflora Portugal — раздел похоронных и траурных композиций',
-      url: 'https://www.interflora.pt/flores/funeral',
+      url: 'https://www.interflora.pt/c/funerais',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -80,6 +80,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

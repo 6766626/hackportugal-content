@@ -73,7 +73,7 @@ export default {
     { label: 'Рыночная стоимость CE для дома', amountEURMin: 180, amountEURMax: 350, note: 'Большие дома, отсутствие планов и сложные системы могут стоить дороже.' }
   ],
   sources: [
-    { title: 'ADENE: Certificação Energética', url: 'https://www.adene.pt/certificacao-energetica/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ADENE: Certificação Energética', url: 'https://www.adene.pt/edificios/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SCE: портал энергетической сертификации зданий', url: 'https://www.sce.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 101-D/2020: Sistema de Certificação Energética dos Edifícios', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/101-d-2020-150570704', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal: Certificado energético de edifícios', url: 'https://eportugal.gov.pt/servicos/pedir-o-certificado-energetico-de-edificios', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }

@@ -113,14 +113,14 @@ export default {
   sources: [
     {
       title: 'ERSE: Tarifa Social — тарифы и цены',
-      url: 'https://www.erse.pt/atividade/tarifas-e-precos/tarifa-social/',
+      url: 'https://www.erse.pt/consumidores-de-energia/eletricidade/tarifa-social/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'ERSE: раздел для граждан о счетах и энергии',
-      url: 'https://www.erse.pt/inicio/cidadao/',
+      url: 'https://www.erse.pt/atividade/consumidores/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

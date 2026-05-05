@@ -139,8 +139,8 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Portal das Finanças — recibos de renda eletrónicos e contrato de arrendamento',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/arrendamento.aspx',
+      title: 'Portal das Finanças — IRS art. 41.º, rendimentos prediais e arrendamento',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs41.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

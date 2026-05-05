@@ -115,8 +115,8 @@ export default {
   sources: [
     { title: 'Museu do Fado — официальный', url: 'https://www.museudofado.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UNESCO — Fado, Urban Popular Song of Portugal', url: 'https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
-    { title: 'Turismo de Portugal — Fado', url: 'https://www.visitportugal.com/pt-pt/experiencias/fado', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Turismo de Portugal — Fado', url: 'https://www.visitportugal.com/en/node/73868', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

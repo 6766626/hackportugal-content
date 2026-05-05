@@ -113,7 +113,8 @@ export default {
     { label: 'Частная маммография/HPV-тест/colonoscopia без SNS', amountEURMin: 40, amountEURMax: 400, note: 'Ориентир для частного сектора; цена зависит от клиники, страховки и седации при colonoscopia.' }
   ],
   sources: [
-    { title: 'SNS — Rastreios de base populacional', url: 'https://www.sns.gov.pt/cidadao/rastreios-de-base-populacional/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'SNS — Programa Nacional para as Doenças Oncológicas', url: 'https://www.sns.gov.pt/institucional/programas-de-saude-prioritarios/programa-nacional-para-as-doencas-oncologicas/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'SNS 24 — Rastreios oncológicos', url: 'https://www.sns24.gov.pt/tema/doencas-oncologicas/rastreios-oncologicos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Direção-Geral da Saúde — онкологические скрининги и нормы DGS', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — контакты и навигация по SNS', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

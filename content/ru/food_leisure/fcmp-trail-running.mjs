@@ -147,11 +147,11 @@ export default {
     { label: 'GPS часы продвинутые', amountEURMin: 500, amountEURMax: 1000 }
   ],
   sources: [
-    { title: 'IPDJ — federações desportivas oficiais (FCMP, FPA reconhecidas)', url: 'https://ipdj.gov.pt/federacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPDJ — registo praticantes desportivos', url: 'https://ipdj.gov.pt/registo-de-praticantes-desportivos-em-federacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'IPDJ — federações desportivas oficiais (FCMP, FPA reconhecidas)', url: 'https://ipdj.gov.pt/federacoes-desportivas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'IPDJ — registo praticantes desportivos', url: 'https://ipdj.gov.pt/clube-de-praticantes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 102/2018 — exames médicos desportivos', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-2018-117203174', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 248-A/2008 — regime jurídico dos contratos de seguro de federações desportivas', url: 'https://dre.pt/dre/detalhe/decreto-lei/248-a-2008-242876', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

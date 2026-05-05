@@ -107,7 +107,7 @@ export default {
   ],
   sources: [
     { title: 'Automóvel Online — IRN/Conservatória', url: 'https://automovelonline.mj.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'IRN — Registo Automóvel', url: 'https://justica.gov.pt/Registos/Registo-Automovel', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'IRN — Registo Automóvel', url: 'https://justica.gov.pt/Servicos/Registar-automovel', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Finanças — Certidões', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IMT — IPO (технический осмотр)', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

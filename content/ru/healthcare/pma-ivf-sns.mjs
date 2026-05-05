@@ -131,7 +131,7 @@ export default {
   ],
   sources: [
     { title: 'CNPMA — Conselho Nacional de Procriação Medicamente Assistida', url: 'https://www.cnpma.org.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'SNS — Saúde Reprodutiva', url: 'https://www.sns.gov.pt/sns/saude-publica/saude-reprodutiva/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'SNS — Banco Público de Gâmetas e rede de centros públicos PMA', url: 'https://www.sns.gov.pt/cidadao/banco-publico-de-gametas-2/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Lei 32/2006 — Procriação medicamente assistida', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34412975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 17/2016 — доступ к PMA для всех женщин независимо от семейного положения и ориентации', url: 'https://diariodarepublica.pt/dr/detalhe/lei/17-2016-74738646', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

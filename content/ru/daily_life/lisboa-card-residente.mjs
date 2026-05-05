@@ -141,8 +141,8 @@ export default {
     { title: 'Câmara Municipal de Lisboa — официальный портал муниципальных услуг и программ', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Lisboa — freguesias и контакты городских служб', url: 'https://www.cm-lisboa.pt/municipio/freguesias', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Lisboa — cultura, desporto и городские инициативы', url: 'https://www.cm-lisboa.pt/viver', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Turismo de Lisboa — туристическая Lisboa Card для сравнения', url: 'https://www.visitlisboa.com/lisboa-card', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
+    { title: 'Turismo de Lisboa — туристическая Lisboa Card для сравнения', url: 'https://www.visitlisboa.com/en/p/lisboa-card', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

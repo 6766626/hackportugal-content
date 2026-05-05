@@ -154,7 +154,7 @@ export default {
     },
     {
       title: 'Autoridade Tributária: regras de faturação, QR Code e ATCUD',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Paginas/default.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Paginas/certificacao-de-software.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

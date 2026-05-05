@@ -144,12 +144,12 @@ export default {
     },
     {
       title: 'Mercado da Mouraria — информация о рынке и районе Mouraria',
-      url: 'https://www.visitlisboa.com/pt-pt/locais/mercado-da-mouraria',
+      url: 'https://www.visitlisboa.com/en/places/mouraria',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

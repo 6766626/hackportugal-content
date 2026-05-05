@@ -174,11 +174,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Direção-Geral da Educação — ensino artístico especializado',
-      url: 'https://www.dge.mec.pt/ensino-artistico-especializado',
+      title: 'Direção-Geral da Educação — Cursos Artísticos Especializados',
+      url: 'https://www.dge.mec.pt/cursos-artisticos-especializados',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'Cinevox — escola de artes performativas',

@@ -68,7 +68,7 @@ export default {
     { label: 'Imposto do Selo на наследство', amountEURMin: 0, amountEURMax: 0, note: 'Супруг, unido de facto, потомки и восходящие обычно освобождены от 10%; для других наследников может применяться 10% от налогооблагаемых активов.' }
   ],
   sources: [
-    { title: 'IRN — Habilitação de herdeiros', url: 'https://irn.justica.gov.pt/Registos/Habilitacao-de-herdeiros', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'IRN — Balcão das Heranças (perguntas frequentes)', url: 'https://irn.justica.gov.pt/Balcao-das-Herancas-perguntas-frequentes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Justiça.gov.pt — Serviço Habilitação de herdeiros', url: 'https://justica.gov.pt/Servicos/Habilitacao-de-herdeiros', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Imposto do Selo — regras declarativas e transmissões gratuitas', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1999-34460875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EUR-Lex — Regulation (EU) No 650/2012 on succession', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0650', kind: 'law', language: 'en', lastRetrieved: '2026-04-28' }

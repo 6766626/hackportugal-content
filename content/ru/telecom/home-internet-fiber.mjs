@@ -126,7 +126,7 @@ export default {
     { label: 'Штраф досрочного расторжения', amountEURMin: 100, amountEURMax: 400, note: 'зависит от оставшегося срока' }
   ],
   sources: [
-    { title: 'ANACOM — регулятор телекома (сравнение тарифов)', url: 'https://www.anacom.pt/render.jsp?categoryId=308304', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ANACOM COM.escolha — официальный сравниватель тарифов', url: 'https://www.anacom.pt/tarifarios/PaginaInicial.do', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'DL 24/2014 — права потребителя при дистанционных услугах', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-04-22',

@@ -133,10 +133,10 @@ export default {
     },
     {
       title: 'DGE — Intervenção Precoce na Infância',
-      url: 'https://www.dge.mec.pt/intervencao-precoce-na-infancia',
+      url: 'https://www.dge.mec.pt/intervencao-precoce',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'DGE — Centros de Recursos para Inclusão (CRI)',

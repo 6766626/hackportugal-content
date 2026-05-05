@@ -85,9 +85,9 @@ export default {
     { label: 'Замена при потере', amountEUR: 20 }
   ],
   sources: [
-    { title: 'IRN — Cartão de Cidadão', url: 'https://irn.justica.gov.pt/cartao-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'IRN — Cartão de Cidadão', url: 'https://irn.justica.gov.pt/Documentos-de-Identificacao/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Renovar CC', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/renovar-o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Autenticação.gov — CC digital', url: 'https://www.autenticacao.gov.pt/cc-portuguese-citizen-card', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Autenticação.gov — CC digital', url: 'https://www.autenticacao.gov.pt/o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-04-22',
   verifyIntervalDays: 365

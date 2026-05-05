@@ -124,10 +124,10 @@ export default {
     }
   ],
   sources: [
-    { title: 'Turismo de Portugal — Gastronomia', url: 'https://www.visitportugal.com/pt-pt/experiencias/gastronomia-vinhos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Turismo de Portugal — Gastronomia', url: 'https://www.visitportugal.com/en/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UNESCO — Mediterranean diet (PT inclusion)', url: 'https://ich.unesco.org/en/RL/mediterranean-diet-00884', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Wines of Portugal — регионы', url: 'https://www.winesofportugal.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

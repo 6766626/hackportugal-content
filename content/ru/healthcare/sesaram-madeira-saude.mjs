@@ -125,11 +125,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Governo dos Açores — Serviço Regional de Saúde',
-      url: 'https://portal.azores.gov.pt/web/srs',
+      title: 'Governo dos Açores — Direção Regional da Saúde',
+      url: 'https://portal.azores.gov.pt/web/drs',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'ERS — права и доступ пользователей к медицинским услугам',

@@ -83,7 +83,7 @@ export default {
   ],
   sources: [
     { title: 'AforroNet IGCP — официальный портал операций с розничным госдолгом', url: 'https://www.aforronet.igcp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'IGCP — Dívida Pública de Retalho: Certificados de Aforro, Tesouro и OT', url: 'https://www.igcp.pt/pt/divida-publica-de-retalho/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'IGCP — Dívida Pública de Retalho: Certificados de Aforro, Tesouro и OT', url: 'https://www.igcp.pt/en/investidores/instrumentos-de-financiamento/instrumentos-de-medio-longo-prazo/divida-de-retalho', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do IRS — удержание налога у источника, art. 71', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Finanças — IRS и englobamento de rendimentos de capitais', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/IRS/Pages/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

@@ -133,7 +133,7 @@ export default {
   sources: [
     {
       title: 'Autoridade Tributária: Residentes e não residentes — folheto informativo',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Folheto_Residentes_Nao_Residentes.pdf',
+      url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

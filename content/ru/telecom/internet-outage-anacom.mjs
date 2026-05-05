@@ -134,11 +134,11 @@ export default {
   ],
   sources: [
     {
-      title: 'ANACOM: права потребителя при avaria и недоступности услуги',
-      url: 'https://www.anacom.pt/render.jsp?contentId=1444334',
+      title: 'ANACOM Portal do Consumidor — компенсация за индоступность услуги связи',
+      url: 'https://www.anacom-consumidor.pt/-/em-caso-de-avaria-os-consumidores-passam-a-ter-o-direito-de-serem-compensados-pela-indisponibilidade-dos-servicos-de-comunicacoes-eletronicas',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-04'
     },
     {
       title: 'Lei n.º 16/2022 — Lei das Comunicações Eletrónicas',

@@ -125,8 +125,7 @@ export default {
   ],
   sources: [
     { title: 'Fundo Ambiental — официальный портал', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Fundo Ambiental — Avisos Mobilidade Elétrica 2025', url: 'https://www.fundoambiental.pt/avisos-2025/avisos-mobilidade-eletrica', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'República Portuguesa — Fundo Ambiental', url: 'https://www.portugal.gov.pt/pt/gc23/area-de-governo/ambiente-e-energia/fundo-ambiental', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Fundo Ambiental — Aviso 06/2025: Veículos de Emissões Nulas (Mobilidade Verde Passageiros)', url: 'https://www.fundoambiental.pt/avisos-anteriores/apoios-20242/mitigacao-as-alteracoes-climaticas/incentivo-pela-aquisicao-de-veiculos-de-emissoes-nulas-ano-20252026-mobilidade-verde--passageiros.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
   lastVerified: '2026-04-28',
   verifyIntervalDays: 90

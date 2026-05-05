@@ -113,7 +113,7 @@ export default {
     { title: 'Ciência Viva — официальный портал сети и афиша научных событий', url: 'https://www.cienciaviva.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'FCT — Fundação para a Ciência e a Tecnologia, Ciência Aberta и научная коммуникация', url: 'https://www.fct.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Pavilhão do Conhecimento — agenda и семейные активности в Lisboa', url: 'https://www.pavconhecimento.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'European Commission — European Researchers’ Night', url: 'https://marie-sklodowska-curie-actions.ec.europa.eu/event/2026-european-researchers-night', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
+    { title: 'Marie Skłodowska-Curie Actions — European Researchers’ Night 2026/2027', url: 'https://marie-sklodowska-curie-actions.ec.europa.eu/actions/msca-and-citizens/join-a-celebration-of-science', kind: 'official', language: 'en', lastRetrieved: '2026-05-04' }
   ],
   lastVerified: '2026-04-28',
   verifyIntervalDays: 180

@@ -126,8 +126,8 @@ export default {
   sources: [
     { title: 'E-REDES: contadores inteligentes, leituras и Balcão Digital', url: 'https://www.e-redes.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE: права потребителей электроэнергии и коммерческие отношения', url: 'https://www.erse.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ERSE: Livro de Reclamações и resolução de conflitos no setor energético', url: 'https://www.erse.pt/consumidores/reclamacoes/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ERSE: Livro de Reclamações и resolução de conflitos no setor energético', url: 'https://www.erse.pt/consumidores-de-energia/pedidos-de-informacao-reclamacoes/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

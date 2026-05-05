@@ -138,7 +138,7 @@ export default {
     },
     {
       title: 'CTT: Pai Natal и рождественская кампания писем детей',
-      url: 'https://www.ctt.pt/particulares/campanhas/pai-natal',
+      url: 'https://www.ctt.pt/grupo-ctt/media/projetos-e-campanhas/as-cartas-pai-natal',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -151,6 +151,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

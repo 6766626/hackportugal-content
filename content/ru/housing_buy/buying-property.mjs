@@ -3,7 +3,7 @@ export default {
   id: 'buying-property',
   categoryId: 'housing_buy',
   title: 'Покупка недвижимости в Португалии — пошагово',
-  tldr: 'Иностранцы могут покупать недвижимость без ограничений. Путь: NIF → поиск → CPCV + sinal 10% → финансирование/юридическая проверка → escritura у нотариуса → регистрация. Налоги: IMT (1-10% прогрессивно), IS 0,8%. Общие расходы 8-12% сверх цены.',
+  tldr: 'Иностранцы могут покупать недвижимость без ограничений. Путь: NIF → поиск → CPCV + sinal 10% → финансирование/юридическая проверка → escritura у нотариуса → регистрация. Налоги: IMT (1-10% прогрессивно), IS 0,8%. Общие расходы 8-12% сверх цены. Важно: с 7 октября 2023 (Lei 56/2023) Golden Visa через покупку жилой недвижимости отменён — этот маршрут ВНЖ больше недоступен для новых заявок. Важно: с 7 октября 2023 (Lei 56/2023) Golden Visa через покупку жилой недвижимости отменён — этот маршрут ВНЖ больше недоступен для новых заявок.',
   tags: ['покупка', 'недвижимость', 'escritura', 'imt'],
   estimatedReadMinutes: 8,
   steps: [
@@ -104,13 +104,13 @@ export default {
     }
   ],
   costs: [
-    { label: 'IMT для основного жилья (до € 104 261)', amountEUR: 0, note: 'OE 2026 порог; для непостоянного жилья — от 1%' },
-    { label: 'IMT для основного жилья (€ 104 261 – € 142 618)', amountEURMin: 0, amountEURMax: 2800, note: '2%' },
-    { label: 'IMT (€ 142 618 – € 194 458)', amountEURMin: 2800, amountEURMax: 6900, note: '5%' },
-    { label: 'IMT (€ 194 458 – € 324 058)', amountEURMin: 6900, amountEURMax: 18000, note: '7%' },
-    { label: 'IMT (€ 324 058 – € 648 022)', amountEURMin: 18000, amountEURMax: 60000, note: '8%' },
-    { label: 'IMT (€ 648 022+)', amountEURMin: 40000, amountEURMax: 100000, note: 'фиксированная ставка 6% либо 7,5% > € 1 128 287' },
-    { label: 'Молодые покупатели до 35 лет (основное жильё ≤ € 324 058)', amountEUR: 0, note: 'IMT+IS 0% по Decreto-Lei 48-A/2024; условия (резидентство, основное жильё, без предыдущей собственности и т.п.) проверять в актуальном тексте' },
+    { label: 'IMT для основного жилья (до € 106 346)', amountEUR: 0, note: 'OE 2026 порог (escalões подняты на 2%); для непостоянного жилья — от 1%' },
+    { label: 'IMT для основного жилья (€ 106 346 – € 145 471)', amountEURMin: 0, amountEURMax: 2800, note: '2%' },
+    { label: 'IMT (€ 145 471 – € 198 347)', amountEURMin: 2800, amountEURMax: 6900, note: '5%' },
+    { label: 'IMT (€ 198 347 – € 330 539)', amountEURMin: 6900, amountEURMax: 18000, note: '7%' },
+    { label: 'IMT (€ 330 539 – € 661 078)', amountEURMin: 18000, amountEURMax: 60000, note: '8%' },
+    { label: 'IMT (€ 661 078+)', amountEURMin: 40000, amountEURMax: 100000, note: 'фиксированная ставка 6% либо 7,5% > € 1 150 853' },
+    { label: 'Молодые покупатели до 35 лет (основное жильё ≤ € 330 539)', amountEUR: 0, note: 'IMT+IS 0% по Decreto-Lei 44/2024; условия (резидентство, основное жильё, без предыдущей собственности и т.п.) проверять в актуальном тексте' },
     { label: 'IMT для покупателей из налоговых офшоров', amountEUR: 0, note: 'фиксированная ставка 10% — независимо от стоимости' },
     { label: 'IS (гербовый)', amountEUR: 0, note: '0,8% от стоимости (для молодых до 35 = 0%)' },
     { label: 'Escritura + нотариус', amountEURMin: 500, amountEURMax: 1500 },
@@ -123,10 +123,10 @@ export default {
   timelineDaysMax: 120,
   sources: [
     { title: 'Portal das Finanças — IMT', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'IRN — Registo Predial', url: 'https://irn.justica.gov.pt/registos/predial', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Justiça.gov.pt — Pedir registo predial', url: 'https://justica.gov.pt/Servicos/Pedir-registo-predial', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'ePortugal — Comprar casa', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/comprar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ADENE — Certificado Energético', url: 'https://www.adene.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

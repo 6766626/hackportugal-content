@@ -118,10 +118,10 @@ export default {
   ],
   sources: [
     { title: 'TAP Miles&Go — официальный раздел программы', url: 'https://www.flytap.com/en-pt/miles-and-go', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'TAP Miles&Go — статусы и преимущества', url: 'https://www.flytap.com/en-pt/miles-and-go/status', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'TAP Miles&Go — статусы и преимущества', url: 'https://www.flytap.com/en-pt/miles-and-go/statuses', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'TAP Miles&Go — использование миль', url: 'https://www.flytap.com/en-pt/miles-and-go/use-miles', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Star Alliance — авиакомпании-участники', url: 'https://www.staralliance.com/en/member-airlines', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

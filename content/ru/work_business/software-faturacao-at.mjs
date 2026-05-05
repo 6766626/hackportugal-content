@@ -126,21 +126,21 @@ export default {
   sources: [
     {
       title: 'Portal das Finanças: programas de faturação certificados',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Pages/programas-faturacao.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Paginas/certificacao-de-software.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Portal das Finanças: código QR e ATCUD',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Pages/codigo-qr-atcud.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Negocios/Faturacao/Regras_mecanismos_comunicacao/Comunicacao_de_series_ATCUD/Comunicacao_Series_a_AT_e_ATCUD/Paginas/default.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Portal das Finanças: apoio ao contribuinte — faturação',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Pages/default.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Negocios/Faturacao/Regras_de_faturacao/Paginas/default.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

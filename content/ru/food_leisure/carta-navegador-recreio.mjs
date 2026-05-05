@@ -149,11 +149,11 @@ export default {
     { label: 'Повторный медосмотр (после 70 лет, каждые 5 лет)', amountEUR: 30 }
   ],
   sources: [
-    { title: 'AMN — Carta de Navegador de Recreio', url: 'https://www.amn.pt/DGAM/Paginas/CartasdeNavegador.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'AMN — escolas reconhecidas', url: 'https://www.amn.pt/DGAM/Paginas/EscolasReconhecidas.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'AMN — Carta de Navegador de Recreio', url: 'https://www.amn.pt/DGAM/FR/Paginas/NauticaRecreio.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'AMN — escolas reconhecidas', url: 'https://www.amn.pt/DGAM/FR/Paginas/NauticaRecreio.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 124/2004 — embarcações de recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/124-2004-220127', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 568/89 — categorias e formação', url: 'https://dre.pt/dre/detalhe/portaria/568-1989-580367', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

@@ -85,9 +85,9 @@ export default {
   ],
   sources: [
     { title: 'ANAFRE — Associação Nacional de Freguesias', url: 'https://www.anafre.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CML — Juntas de Freguesia de Lisboa', url: 'https://www.lisboa.pt/cidade/juntas-de-freguesia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'CML — Juntas de Freguesia de Lisboa', url: 'https://www.lisboa.pt/municipio/juntas-de-freguesia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CM-Porto — Juntas de Freguesia', url: 'https://www.cm-porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

@@ -110,10 +110,10 @@ export default {
   ],
   sources: [
     { title: 'IVDP — Instituto dos Vinhos do Douro e do Porto: Vinho do Porto', url: 'https://www.ivdp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Visit Portugal — Port Wine и посещение Porto/Gaia', url: 'https://www.visitportugal.com/en/content/port-wine', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'Visit Portugal — Port Wine и посещение Porto/Gaia', url: 'https://www.visitportugal.com/en/content/wine-routes', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Taylor’s Port — visitor centre и стили Port Wine', url: 'https://www.taylor.pt/en/visit-taylors/port-cellars', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'Graham’s Port Lodge — дегустации в Vila Nova de Gaia', url: 'https://www.grahams-port.com/visit-grahams', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
+    { title: 'Graham’s Port Lodge — дегустации в Vila Nova de Gaia', url: 'https://www.grahams-port.com/visit-us', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 180
 }

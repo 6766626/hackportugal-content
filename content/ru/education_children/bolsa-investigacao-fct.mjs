@@ -118,9 +118,9 @@ export default {
     { label: 'PhD propinas сверх лимита FCT', amountEURMin: 0, amountEURMax: 3000, note: 'Если tuition fee выше лимита поддержки FCT, разницу должен покрыть студент или host по договорённости.' }
   ],
   sources: [
-    { title: 'FCT — Bolsas de Investigação', url: 'https://www.fct.pt/apoios/bolsas/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'FCT — Valores das bolsas', url: 'https://www.fct.pt/apoios/bolsas/valores/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'FCT — Emprego Científico / Estímulo ao Emprego Científico', url: 'https://www.fct.pt/apoios/contratacao/emprego-cientifico/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'FCT — Bolsas de Investigação', url: 'https://www.fct.pt/financiamento/programas-de-financiamento/bolsas/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'FCT — atualização de valores das bolsas para 2026', url: 'https://www.fct.pt/en/fct-atualizou-o-valor-das-bolsas-para-2026/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'FCT — Emprego Científico / Estímulo ao Emprego Científico', url: 'https://www.fct.pt/financiamento/programas-de-financiamento/emprego-cientifico/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Estatuto do Bolseiro de Investigação — Lei 40/2004', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2004-58216179', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-04-28',

@@ -142,7 +142,7 @@ export default {
     },
     {
       title: 'Portal das Finanças — IMI: informação ao contribuinte',
-      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cimi/Pages/cimi112.aspxindex.html',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

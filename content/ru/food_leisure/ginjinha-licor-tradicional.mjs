@@ -97,11 +97,11 @@ export default {
     { label: 'Amêndoa amarga 0,7 л', amountEURMin: 5, amountEURMax: 12, note: 'Часто дешевле других ликёров; популярна в Algarve' }
   ],
   sources: [
-    { title: 'Visit Lisboa: A Ginjinha в Lisboa', url: 'https://www.visitlisboa.com/en/places/a-ginjinha', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'Visit Portugal: гастрономия и традиционные напитки Portugal', url: 'https://www.visitportugal.com/en/content/portuguese-gastronomy', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'Visit Lisboa: A Ginjinha в Lisboa', url: 'https://www.visitlisboa.com/en/p/lisbon-flavours/wine/ginjinha', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'Visit Portugal: гастрономия и традиционные напитки Portugal', url: 'https://www.visitportugal.com/en/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República: Decreto-Lei 106/2015 — возрастные ограничения продажи алкоголя', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/106-2015-67541745', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Licor Beirão: официальный сайт бренда', url: 'https://www.licorbeirao.com/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-05',
   verifyIntervalDays: 365
 }

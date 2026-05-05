@@ -143,7 +143,7 @@ export default {
   sources: [
     {
       title: 'SIBS — soluções para comerciantes: POS, MB WAY и Multibanco',
-      url: 'https://www.sibs.com/solucoes/comerciantes/',
+      url: 'https://www.sibs.com/merchant-and-corporate/',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'

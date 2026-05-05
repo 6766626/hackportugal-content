@@ -112,7 +112,7 @@ export default {
   ],
   sources: [
     { title: 'CIG — официальный сайт Comissão para a Cidadania e a Igualdade de Género', url: 'https://www.cig.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'CIG — Queixas e Denúncias', url: 'https://www.cig.gov.pt/area-portal-da-violencia/queixas-e-denuncias/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'CIG — Queixa por discriminação em razão do sexo, orientação sexual, identidade e expressão de género e características sexuais', url: 'https://www.cig.gov.pt/area-servicos/servicos/queixa-por-discriminacao/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Lei 38/2018 — direito à autodeterminação da identidade de género e expressão de género', url: 'https://diariodarepublica.pt/dr/detalhe/lei/38-2018-115933863', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Trabalho — Lei 7/2009, igualdade e não discriminação no trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

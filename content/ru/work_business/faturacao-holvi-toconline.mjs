@@ -121,7 +121,7 @@ export default {
   sources: [
     {
       title: 'Portal das Finanças: apoio ao contribuinte и programas de faturação certificados',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/software_facturacao/Pages/default.aspx',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Paginas/certificacao-de-software.aspx',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
