@@ -3,7 +3,7 @@
 // Todos os outros recursos são de terceiros e não passam por verificação editorial.
 
 export default {
-  disclaimer: 'Abaixo estão canais e grupos comunitários externos. Apenas o «Справочная Португалии» (@portugalpages) é verificado pela equipa editorial do HackPortugal — os restantes recursos são de terceiros e não são verificados editorialmente. Confirme sempre a informação prática nas fontes oficiais citadas nos guias da aplicação.',
+  disclaimer: 'Abaixo estão canais e grupos comunitários externos. Apenas o «Spravochnaya Portugalii» (@portugalpages) é verificado pela equipa editorial do HackPortugal — os restantes recursos são de terceiros e não são verificados editorialmente. Confirme sempre a informação prática nas fontes oficiais citadas nos guias da aplicação.',
   telegramChannels: [
     {
       id: 'tg-brasileiros-portugal',
@@ -52,7 +52,7 @@ export default {
     {
       id: 'tg-portugalpages',
       rank: 5,
-      name: 'Справочная Португалии (canal russo)',
+      name: 'Spravochnaya Portugalii (canal russo)',
       handle: '@portugalpages',
       url: 'https://t.me/portugalpages',
       description: 'Canal editorial do HackPortugal — guias verificados sobre burocracia e vida quotidiana. Em russo; pode ser útil para referência cruzada.',

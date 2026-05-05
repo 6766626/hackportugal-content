@@ -3,7 +3,7 @@
 // All other entries are third-party resources shown WITHOUT editorial verification.
 
 export default {
-  disclaimer: 'Below are external community channels and groups. Only «Справочная Португалии» (@portugalpages) is verified by the HackPortugal editorial team — all other resources are third-party and not editorially verified. Always cross-check practical information with the official sources cited in the in-app guides.',
+  disclaimer: 'Below are external community channels and groups. Only «Spravochnaya Portugalii» (@portugalpages) is verified by the HackPortugal editorial team — all other resources are third-party and not editorially verified. Always cross-check practical information with the official sources cited in the in-app guides.',
   telegramChannels: [
     {
       id: 'tg-portugal-expats-network',
@@ -52,7 +52,7 @@ export default {
     {
       id: 'tg-portugalpages',
       rank: 5,
-      name: 'Справочная Португалии (Russian channel)',
+      name: 'Spravochnaya Portugalii (Russian channel)',
       handle: '@portugalpages',
       url: 'https://t.me/portugalpages',
       description: 'HackPortugal\'s editorial channel — verified guides on bureaucracy and daily life. In Russian, may be useful for cross-reference.',
