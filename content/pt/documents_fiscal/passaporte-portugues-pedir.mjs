@@ -20,7 +20,7 @@ export default {
           'Se o passaporte for para uma criança, a criança também tem de ser cidadã portuguesa',
           'Se só agora obteve a aprovação da nacionalidade, aguarde o assento de nascimento e trate primeiro do Cartão de Cidadão'
         ] },
-        { kind: 'warning', text: 'A nova legislação da nacionalidade (Decreto AR 48/XVII) foi promulgada pelo Presidente Seguru em 03.05.2026 e entra em vigor após publicação no Diário da República. Para o passaporte, o que importa não é o facto de ter apresentado o pedido de nacionalidade, mas sim o registo da nacionalidade já concluído.' }
+        { kind: 'warning', text: 'A nova legislação da nacionalidade (Decreto AR 48/XVII) foi promulgada pelo Presidente Seguro em 03.05.2026 e entra em vigor após publicação no Diário da República. Para o passaporte, o que importa não é o facto de ter apresentado o pedido de nacionalidade, mas sim o registo da nacionalidade já concluído.' }
       ]
     },
     {

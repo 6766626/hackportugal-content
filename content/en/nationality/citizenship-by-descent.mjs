@@ -65,8 +65,8 @@ export default {
       title: 'Sephardic Jews — regime at risk of repeal',
       content: [
         { kind: 'paragraph', text: 'An expedited route for Sephardic Jews was introduced into the Lei da Nacionalidade through **Lei Orgânica n.º 1/2013** (then detailed in regulation by Decreto-Lei 30-A/2015) and was in force for almost 10 years. Significant tightening of the regime has applied since **01.09.2022** — through **Decreto-Lei n.º 26/2022**, which amended the Regulamento da Nacionalidade and required evidence of a real connection to Portugal (residence, economic or cultural ties). Since then, the number of applications has dropped sharply.' },
-        { kind: 'paragraph', text: '**03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (after passing through the TC it was renumbered from 17/XVII) — the law fully repeals the expedited Sephardic route. The law will enter into force on the day after publication in the Diário da República (expected in the coming days). In his speech on 03.05.2026, Seguro publicly asked that applications already submitted be assessed under the old rules for legal certainty. Under the law currently in force, until publication in the DRE this route still technically operates under the regime after Decreto-Lei 26/2022.' },
-        { kind: 'warning', text: 'If you intend to apply — do it URGENTLY, before publication of Decreto 48/XVII in the DRE. Filing anchors your case under the old regime (especially given the President’s request to the IRN). After publication the new law will entirely eliminate this route.' }
+        { kind: 'paragraph', text: '**03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (after passing through the TC it was renumbered from 17/XVII) — the law fully repeals the expedited Sephardic route. As of 13.05.2026 the law has STILL NOT been published in the DRE (10 days have passed since promulgation). The law will enter into force on the day after publication in the Diário da República. IMPORTANT: the law text contains a transitional provision — administrative procedures pending on the date of entry into force are governed by the previous wording of Lei 37/81 (a PS proposal for broader transitional safeguards was rejected). In his speech on 03.05.2026, Seguro also publicly asked that applications already submitted be assessed under the old rules for legal certainty. Until publication in the DRE the Sephardic route still technically operates under the regime after Decreto-Lei 26/2022.' },
+        { kind: 'warning', text: 'If you intend to apply — do it URGENTLY, before publication of Decreto 48/XVII in the DRE. Filing anchors your case under the old regime (the law\'s transitional provision + the President\'s request to the IRN). After publication the new law will entirely eliminate this route for new applicants.' }
       ]
     }
   ],
@@ -85,6 +85,6 @@ export default {
     { title: 'National Archive Torre do Tombo', url: 'https://antt.dglab.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidency of the Republic — Promulgation of Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

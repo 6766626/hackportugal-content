@@ -63,7 +63,7 @@ export default {
       title: 'Common problems and how to avoid them',
       content: [
         { kind: 'checklist', items: ['The parent’s name on the foreign certificate differs from the Portuguese assento: prepare documents evidencing a name change or marriage', 'Only the mother or only the father is listed on the certificate: check whether this is sufficient for an atribuição da nacionalidade', 'The Portuguese parent married abroad, but the marriage is not transcribed in Portugal: a transcrição de casamento may be needed first', 'Short-form certificate without parents’ details: a full record is usually required', 'The document is old, damaged or without an apostille: obtain a new copy in the country of birth', 'The translation was done by a regular translator without certification: check the requirements for a certified/sworn translation', 'Submission to the wrong consular district: the package may be returned without consideration', 'Expecting “urgent in a week”: for planning a move, school and a passport allow for months, not days'] },
-        { kind: 'warning', text: 'The Lei da Nacionalidade 37/81 with subsequent amendments is in force. **03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (new wording of the Lei da Nacionalidade); the law will enter into force on the day after publication in the Diário da República. Before applying, check the regime in the DRE; do not base a transcrição/nacionalidade strategy on rules that have not yet been published.' }
+        { kind: 'warning', text: 'The Lei da Nacionalidade 37/81 with subsequent amendments is in force. **03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (new wording of the Lei da Nacionalidade); as of 13.05.2026 the law has STILL NOT been published in the DRE (10 days since promulgation). The law will enter into force on the day after publication in the Diário da República. The law text contains a transitional provision: pending procedures are governed by the previous wording of Lei 37/81. Before applying, check the regime in the DRE.' }
       ]
     }
   ],
@@ -79,6 +79,6 @@ export default {
     { title: 'DRE — Civil Registry Code, Decreto-Lei 131/95', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1995-34558375', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — Nationality Act, Lei 37/81', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34536975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

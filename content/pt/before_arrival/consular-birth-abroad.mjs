@@ -63,7 +63,7 @@ export default {
       title: 'Problemas frequentes e como evitá-los',
       content: [
         { kind: 'checklist', items: ['O nome do progenitor na certidão estrangeira difere do assento português: prepare documentos de mudança de nome ou de casamento', 'Na certidão consta apenas a mãe ou apenas o pai: verifique se isso é suficiente para a atribuição da nacionalidade', 'O progenitor português casou no estrangeiro, mas o casamento não está transcrito em Portugal: pode ser necessária primeiro a transcrição de casamento', 'Certidão de formato curto sem dados dos progenitores: normalmente é necessário o ato integral', 'Documento antigo, danificado ou sem apostila: obtenha uma nova via no país de nascimento', 'Tradução feita por tradutor comum sem certificação: confirme os requisitos para tradução certificada/jurada', 'Envio para o círculo consular errado: o pedido pode ser devolvido sem análise', 'Esperar “urgente numa semana”: para planear mudança, escola e passaporte, conte com meses, não dias'] },
-        { kind: 'warning', text: 'Aplica-se a Lei da Nacionalidade 37/81, com as alterações subsequentes. **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** (nova redação da Lei da Nacionalidade); a lei entra em vigor no dia seguinte à publicação no Diário da República. Antes de apresentar, confirme o regime no DRE; não baseie a estratégia de transcrição/nacionalidade em regras que ainda não foram publicadas.' }
+        { kind: 'warning', text: 'Aplica-se a Lei da Nacionalidade 37/81, com as alterações subsequentes. **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** (nova redação da Lei da Nacionalidade); em 13.05.2026 a lei AINDA NÃO foi publicada no DRE (10 dias desde a promulgação). A lei entra em vigor no dia seguinte à publicação no Diário da República. O texto da lei contém disposição transitória: aos processos pendentes aplica-se a redação anterior da Lei 37/81. Antes de apresentar, confirme o regime no DRE.' }
       ]
     }
   ],
@@ -79,6 +79,6 @@ export default {
     { title: 'DRE — Código do Registo Civil, Decreto-Lei 131/95', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1995-34558375', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — Lei da Nacionalidade, Lei 37/81', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34536975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

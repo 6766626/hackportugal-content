@@ -71,7 +71,7 @@ export default {
         { kind: 'paragraph', text: 'For CPLP citizens it is easiest to obtain Portuguese citizenship:' },
         { kind: 'checklist', items: [
           'Under the current law (Lei 37/81) — 5 years of legal residence',
-          'Under the new law (Decreto AR 48/XVII, after passing through the TC renamed from 17/XVII; promulgated by President Seguro on **03.05.2026**, will enter into force after publication in the DRE) — 7 years for CPLP+EU / 10 years for others. Seguro publicly asked for already-filed cases to be considered under the old rules',
+          'Under the new law (Decreto AR 48/XVII, after passing through the TC renamed from 17/XVII; promulgated by President Seguro on **03.05.2026**, as of 13.05.2026 STILL NOT published in the DRE — 10 days) — 7 years for CPLP+EU / 10 years for others. The law text contains a transitional provision: pending procedures are governed by the previous wording of Lei 37/81 (5 years)',
           'The waiting time for the MdI / the first residence permit no longer counts towards the qualifying period (under the new law)',
           'A2 language test — not required (Portuguese is native)',
           'With a Portuguese passport — EU citizenship'
@@ -115,6 +115,6 @@ export default {
     { title: 'Treaty of Friendship Brazil–Portugal (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-do-presidente-da-republica/79-2000', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPLP — official portal', url: 'https://www.cplp.org/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

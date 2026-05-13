@@ -89,7 +89,7 @@ export default {
           'Sucessões: sem testamento o parceiro não é equiparado ao cônjuge na ordem de herdeiros.',
           'Fiscalidade: para transmissões gratuitas entre unidos de facto pode aplicar-se a isenção dos 10% de Imposto do Selo, mas o direito ao próprio bem tem ainda de resultar de testamento, contrato ou lei.',
           'Nacionalidade: o parceiro estrangeiro de cidadão(ã) português(a) pode requerer a nacionalidade portuguesa após mais de 3 anos de união de facto, mas antes é necessário o reconhecimento da união em tribunal cível.',
-          '03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII (nova redação da Lei da Nacionalidade). Após publicação no Diário da República, o prazo mínimo de união de facto para requerer a nacionalidade aumentará de 3 para 5 anos e surgirá a exigência obrigatória de convivência efetiva. Seguro pediu publicamente que os processos já submetidos sejam apreciados pelas regras antigas. Até à publicação no DRE vigora o regime antigo (3 anos).'
+          '03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII (nova redação da Lei da Nacionalidade). Em 13.05.2026 a lei AINDA NÃO foi publicada no DRE (10 dias desde a promulgação). Após publicação no Diário da República, o prazo mínimo de união de facto para requerer a nacionalidade aumentará de 3 para 5 anos e surgirá a exigência obrigatória de convivência efetiva. IMPORTANTE: o texto da lei contém disposição transitória — aos processos pendentes aplica-se a redação anterior da Lei 37/81 (3 anos). Até à publicação no DRE o regime antigo (3 anos) aplica-se a todos os requerentes.'
         ] },
         { kind: 'warning', text: 'Para a nacionalidade por união de facto não basta estarem ambos com a mesma morada. O IRN exige união de facto juridicamente reconhecida com cidadão(ã) português(a) e verifica fundamentos de oposição, incluindo a ligação à comunidade portuguesa, se aplicável.' }
       ]
@@ -125,6 +125,6 @@ export default {
     { title: 'Justiça.gov.pt — pedir nacionalidade portuguesa por casamento ou união de facto', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

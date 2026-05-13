@@ -3,7 +3,7 @@ export default {
   id: 'd7-passive-income',
   categoryId: 'residence_permit',
   title: 'Visto D7 (rendimento passivo)',
-  tldr: 'D7 — visto para quem tem rendimento passivo estável (pensão, renda, dividendos). Referência prática dos consulados — 1 IAS (537,13 € por mês em 2026) para o requerente, +50% IAS para cônjuge, +30% IAS por filho. Depósito de 12× IAS (6 445,56 €) — normalmente alternativa ao rendimento regular ou garantia adicional para casos-limite, não é um segundo requisito obrigatório. Após 5 anos de residência legal é possível a autorização de residência permanente ou a nacionalidade (ao abrigo da Lei 37/81 em vigor; o novo Decreto AR 48/XVII foi promulgado pelo Presidente Seguru em 03.05.2026 e aumentará o prazo para 10 anos para países terceiros após publicação no DRE).',
+  tldr: 'D7 — visto para quem tem rendimento passivo estável (pensão, renda, dividendos). Referência prática dos consulados — 1 IAS (537,13 € por mês em 2026) para o requerente, +50% IAS para cônjuge, +30% IAS por filho. Depósito de 12× IAS (6 445,56 €) — normalmente alternativa ao rendimento regular ou garantia adicional para casos-limite, não é um segundo requisito obrigatório. Após 5 anos de residência legal é possível a autorização de residência permanente ou a nacionalidade (ao abrigo da Lei 37/81 em vigor; o novo Decreto AR 48/XVII foi promulgado pelo Presidente Seguro em 03.05.2026 e aumentará o prazo para 10 anos para países terceiros após publicação no DRE).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d7', 'autorização de residência', 'rendimento passivo'],
   estimatedReadMinutes: 8,
@@ -62,7 +62,7 @@ export default {
       id: 'after',
       title: 'Após obter a autorização de residência',
       content: [
-        { kind: 'paragraph', text: 'Autorização de residência inicial de 2 anos, renovação por 3 anos → total 5 anos. Depois é possível pedir autorização de residência permanente ou nacionalidade (ao abrigo da Lei 37/81 em vigor — após 5 anos; **Decreto AR 48/XVII promulgado pelo Presidente Seguru em 03.05.2026** e aumentará o prazo para 10 anos para países terceiros após publicação no DRE).' },
+        { kind: 'paragraph', text: 'Autorização de residência inicial de 2 anos, renovação por 3 anos → total 5 anos. Depois é possível pedir autorização de residência permanente ou nacionalidade (ao abrigo da Lei 37/81 em vigor — após 5 anos; **Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026** e aumentará o prazo para 10 anos para países terceiros após publicação no DRE).' },
         { kind: 'warning', text: 'O D7 exige «residência efetiva»: há limites de ausências. Nos termos do art. 85 da Lei 23/2007, para anular a autorização de residência basta uma ausência superior a 6 meses consecutivos ou superior a 8 meses acumulados em 2 anos durante a vigência da autorização. São limites de ausência, não um «mínimo de residência»; para a renovação a AIMA verifica o cumprimento destes limites.' }
       ]
     }

@@ -19,7 +19,7 @@ export default {
           '✅ An EU citizen with a valid CRUE registration at the time of birth — usually considered to be residing legally',
           '⚠️ A short tourist visit without sustained presence — usually no; but if there is 1+ year of factual residence — there is a basis',
           '🌐 Portugal allows multiple citizenship — the child may also obtain a second one through the parents',
-          '⚖️ **03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (after passing through the TC renamed from 17/XVII). After publication in the Diário da República, to apply for a child’s citizenship by jus soli the parents must have ≥5 years of valid residence permits. Until publication in the DRE, the old rules apply. Seguro publicly asked for already submitted cases to be considered under the old rules'
+          '⚖️ **03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (after passing through the TC renamed from 17/XVII). As of 13.05.2026 the law has STILL NOT been published in the DRE (10 days). After publication in the Diário da República, to apply for a child’s citizenship by jus soli the parents must have ≥5 years of valid residence permits. The law text contains a transitional provision: pending procedures are governed by the previous wording of Lei 37/81 (1 year). Until publication in the DRE the old rules apply to everyone'
         ]}
       ]
     },
@@ -129,6 +129,6 @@ export default {
     { title: 'ePortugal — Nascer Cidadão', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/nascer-cidadao-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 37/81 — Nationality Law (art. 1 n.1 al. f)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34448275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 180
 }

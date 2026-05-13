@@ -20,7 +20,7 @@ export default {
           'If the passport is for a child, the child must also be a Portuguese citizen',
           'If you have only just received citizenship approval, wait for the assento de nascimento and first obtain a Cartão de Cidadão'
         ] },
-        { kind: 'warning', text: 'The new citizenship legislation (Decreto AR 48/XVII) was promulgated by President Seguru on 03.05.2026 and will enter into force after publication in the Diário da República. For a passport, what matters is not the fact of applying for citizenship, but the citizenship registration having been completed.' }
+        { kind: 'warning', text: 'The new citizenship legislation (Decreto AR 48/XVII) was promulgated by President Seguro on 03.05.2026 and will enter into force after publication in the Diário da República. For a passport, what matters is not the fact of applying for citizenship, but the citizenship registration having been completed.' }
       ]
     },
     {

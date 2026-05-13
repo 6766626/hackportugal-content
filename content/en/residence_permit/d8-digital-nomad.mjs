@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'Up to 1 year, without a residence permit. Can be extended to 2 years. Suitable if you want to try living in Portugal.' }
           ]},
           { id: 'v2', title: 'Long-stay D8 (residence visa)', content: [
-            { kind: 'paragraph', text: 'Gives the right to obtain a full residence permit for 2 years, then renewals. Path to citizenship — under the current Lei 37/81 after 5 years of lawful residence. **Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026**; after publication in the Diário da República the naturalisation period will increase to 10 years for third countries. Seguro publicly asked for already-submitted cases to be considered under the old rules.' }
+            { kind: 'paragraph', text: 'Gives the right to obtain a full residence permit for 2 years, then renewals. Path to citizenship — under the current Lei 37/81 after 5 years of lawful residence. **Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026**; as of 13.05.2026 the law has STILL NOT been published in the DRE (10 days since promulgation). After publication in the Diário da República the naturalisation period will increase to 10 years for third countries. The law text contains a transitional provision: pending procedures are governed by the previous wording of Lei 37/81 (5 years).' }
           ]}
         ]}
       ]
@@ -86,6 +86,6 @@ export default {
     { title: 'MNE Visas — Types of Visa', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Autorização de Residência (residence permit)', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

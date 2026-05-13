@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'Até 1 ano, sem autorização de residência. Pode ser prorrogado até 2 anos. Adequado se pretende experimentar viver em Portugal.' }
           ]},
           { id: 'v2', title: 'D8 de longa duração (visto de residência)', content: [
-            { kind: 'paragraph', text: 'Confere o direito a obter uma autorização de residência plena por 2 anos, com renovações posteriores. O caminho para a cidadania — ao abrigo da vigente Lei 37/81 após 5 anos de residência legal. **Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026**; após a publicação no Diário da República, o prazo de naturalização aumentará para 10 anos para países terceiros. Seguro pediu publicamente que os processos já submetidos sejam apreciados pelas regras antigas.' }
+            { kind: 'paragraph', text: 'Confere o direito a obter uma autorização de residência plena por 2 anos, com renovações posteriores. O caminho para a cidadania — ao abrigo da vigente Lei 37/81 após 5 anos de residência legal. **Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026**; em 13.05.2026 a lei AINDA NÃO foi publicada no DRE (10 dias desde a promulgação). Após a publicação no Diário da República, o prazo de naturalização aumentará para 10 anos para países terceiros. O texto da lei contém disposição transitória: aos processos pendentes aplica-se a redação anterior da Lei 37/81 (5 anos).' }
           ]}
         ]}
       ]
@@ -86,6 +86,6 @@ export default {
     { title: 'Vistos MNE — Tipos de Visto', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacoes-gerais/tipos-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Autorização de Residência (autorização de residência)', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

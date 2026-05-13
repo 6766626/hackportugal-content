@@ -89,7 +89,7 @@ export default {
           'Inheritance: without a will the partner is not equal to a spouse in the order of heirs.',
           'Tax: for gratuitous transfers between unidos de facto an exemption from 10% Imposto do Selo may apply, but the right to the asset itself must still arise via will, contract or law.',
           'Citizenship: a foreign partner of a citizen of Portugal may apply for nacionalidade portuguesa after more than 3 years of união de facto, but first the union must be recognised in a civil court.',
-          '03.05.2026 President Seguru promulgated Decreto AR 48/XVII (new version of the Lei da Nacionalidade). After publication in the Diário da República the minimum união de facto period for applying for citizenship will increase from 3 to 5 years, with a mandatory requirement of actual cohabitation. Seguru publicly asked for applications already submitted to be assessed under the old rules. Until publication in the DRE the old regime (3 years) applies.'
+          '03.05.2026 President Seguro promulgated Decreto AR 48/XVII (new version of the Lei da Nacionalidade). As of 13.05.2026 the law has STILL NOT been published in the DRE (10 days since promulgation). After publication in the Diário da República the minimum união de facto period for applying for citizenship will increase from 3 to 5 years, with a mandatory requirement of actual cohabitation. IMPORTANT: the law text contains a transitional provision — pending procedures are governed by the previous wording of Lei 37/81 (3 years). Until publication in the DRE the old regime (3 years) applies to all applicants.'
         ] },
         { kind: 'warning', text: 'For citizenship via união de facto it is not enough that you are both registered at the same address. IRN requires a legally recognised união de facto with a Portuguese citizen and checks grounds for oposição, including connection with the Portuguese community, if applicable.' }
       ]
@@ -125,6 +125,6 @@ export default {
     { title: 'Justiça.gov.pt — applying for Portuguese nationality by marriage or união de facto', url: 'https://justica.gov.pt/Servicos/Pedir-a-nacionalidade-portuguesa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Presidência da República — Promulgation of Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

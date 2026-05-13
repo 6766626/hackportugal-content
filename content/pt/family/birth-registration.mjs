@@ -19,7 +19,7 @@ export default {
           '✅ Cidadão da UE com registo CRUE válido no momento do nascimento — em regra é considerado residente legal',
           '⚠️ Uma visita turística curta sem presença prolongada — normalmente não; mas se houver 1+ ano de residência de facto — há fundamento',
           '🌐 Portugal permite múltiplas nacionalidades — a criança pode obter também a dos progenitores',
-          '⚖️ **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** (após passagem pelo TC, renumerado de 17/XVII). Após publicação no Diário da República, para requerer a nacionalidade da criança por jus soli, os pais terão de ter ≥5 anos de autorização de residência válida. Até à publicação no DRE aplicam‑se as regras antigas. Seguro pediu publicamente que os processos já entregues fossem apreciados segundo as regras antigas'
+          '⚖️ **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** (após passagem pelo TC, renumerado de 17/XVII). Em 13.05.2026 a lei AINDA NÃO foi publicada no DRE (10 dias). Após publicação no Diário da República, para requerer a nacionalidade da criança por jus soli, os pais terão de ter ≥5 anos de autorização de residência válida. O texto da lei contém disposição transitória: aos processos pendentes aplica-se a redação anterior da Lei 37/81 (1 ano). Até à publicação no DRE aplicam-se as regras antigas para todos'
         ]}
       ]
     },
@@ -129,6 +129,6 @@ export default {
     { title: 'ePortugal — Nascer Cidadão', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/nascer-cidadao-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 37/81 — Lei da Nacionalidade (art. 1 n.º 1 al. f))', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34448275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 180
 }

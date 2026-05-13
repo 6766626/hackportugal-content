@@ -65,8 +65,8 @@ export default {
       title: 'Judeus sefarditas — regime sob ameaça de revogação',
       content: [
         { kind: 'paragraph', text: 'O caminho acelerado para judeus sefarditas foi introduzido na Lei da Nacionalidade através da **Lei Orgânica n.º 1/2013** (posteriormente regulamentado em detalhe pelo Decreto-Lei 30-A/2015) e vigorou quase 10 anos. Um endurecimento substancial do regime está em vigor desde **01.09.2022** — através do **Decreto-Lei n.º 26/2022**, que alterou o Regulamento da Nacionalidade e passou a exigir provas de uma ligação efetiva a Portugal (residência, ligações económicas ou culturais). Após isso, o número de pedidos caiu acentuadamente.' },
-        { kind: 'paragraph', text: '**03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** (após passar pelo TC foi renomeado de 17/XVII) — a lei revoga totalmente o caminho acelerado sefardita. A lei entra em vigor no dia seguinte ao da publicação no Diário da República (prevista para os próximos dias). Na sua intervenção de 03.05.2026, Seguro solicitou publicamente que os processos já submetidos fossem apreciados segundo as regras anteriores, por razões de segurança jurídica. Até à publicação no DRE este caminho ainda funciona tecnicamente no regime posterior ao Decreto-Lei 26/2022.' },
-        { kind: 'warning', text: 'Se tenciona apresentar o pedido — faça-o URGENTEMENTE, antes da publicação do Decreto 48/XVII no DRE. A submissão fixa o processo no regime anterior (sobretudo tendo em conta o pedido do Presidente ao IRN). Após a publicação, a nova lei elimina totalmente este caminho.' }
+        { kind: 'paragraph', text: '**03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** (após passar pelo TC foi renomeado de 17/XVII) — a lei revoga totalmente o caminho acelerado sefardita. Em 13.05.2026 a lei AINDA NÃO foi publicada no DRE (passaram 10 dias desde a promulgação). A lei entra em vigor no dia seguinte ao da publicação no Diário da República. IMPORTANTE: o texto da lei contém disposição transitória — aos procedimentos administrativos pendentes à data da entrada em vigor aplica-se a redação anterior da Lei 37/81 (a proposta do PS para garantias transitórias mais amplas foi rejeitada). Na sua intervenção de 03.05.2026, Seguro solicitou também publicamente que os processos já submetidos fossem apreciados segundo as regras anteriores, por razões de segurança jurídica. Até à publicação no DRE o caminho sefardita ainda funciona tecnicamente no regime posterior ao Decreto-Lei 26/2022.' },
+        { kind: 'warning', text: 'Se tenciona apresentar o pedido — faça-o URGENTEMENTE, antes da publicação do Decreto 48/XVII no DRE. A submissão fixa o processo no regime anterior (disposição transitória da lei + pedido do Presidente ao IRN). Após a publicação, a nova lei elimina totalmente este caminho para novos requerentes.' }
       ]
     }
   ],
@@ -85,6 +85,6 @@ export default {
     { title: 'Arquivo Nacional Torre do Tombo', url: 'https://antt.dglab.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

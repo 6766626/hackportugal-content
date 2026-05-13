@@ -3,7 +3,7 @@ export default {
   id: 'brazil-specific',
   categoryId: 'country_specific',
   title: 'Brasileiros em Portugal — CPLP e Estatuto de Igualdade',
-  tldr: 'Brasileiros em Portugal: isenção de visto 90 dias, pedido de autorização de residência a partir do país ao abrigo do acordo de mobilidade CPLP. Após 3 anos de residência — Estatuto de Igualdade: direitos políticos e económicos em pé de igualdade com os portugueses. Após 5 anos — cidadania (7 anos pelo novo diploma Decreto AR 48/XVII, promulgado pelo Presidente Seguru 03.05.2026; entrará em vigor após publicação no DRE). É a via mais fácil de imigração para Portugal de todas.',
+  tldr: 'Brasileiros em Portugal: isenção de visto 90 dias, pedido de autorização de residência a partir do país ao abrigo do acordo de mobilidade CPLP. Após 3 anos de residência — Estatuto de Igualdade: direitos políticos e económicos em pé de igualdade com os portugueses. Após 5 anos — cidadania (7 anos pelo novo diploma Decreto AR 48/XVII, promulgado pelo Presidente Seguro 03.05.2026; entrará em vigor após publicação no DRE). É a via mais fácil de imigração para Portugal de todas.',
   audience: { countryCodes: ['BR'] },
   tags: ['brasil', 'cplp', 'estatuto'],
   estimatedReadMinutes: 6,
@@ -71,7 +71,7 @@ export default {
         { kind: 'paragraph', text: 'Para cidadãos da CPLP é mais simples obter a nacionalidade portuguesa:' },
         { kind: 'checklist', items: [
           'Ao abrigo da lei em vigor (Lei 37/81) — 5 anos de residência legal',
-          'Pelo novo diploma (Decreto AR 48/XVII, após passar pelo TC renumerado para 17/XVII; promulgado pelo Presidente Seguru **03.05.2026**, entrará em vigor após publicação no DRE) — 7 anos para CPLP+UE / 10 anos para os restantes. Seguru solicitou publicamente que os processos já apresentados fossem apreciados pelas regras antigas',
+          'Pelo novo diploma (Decreto AR 48/XVII, após passar pelo TC renumerado para 17/XVII; promulgado pelo Presidente Seguro **03.05.2026**, em 13.05.2026 AINDA NÃO publicado no DRE — 10 dias) — 7 anos para CPLP+UE / 10 anos para os restantes. O texto da lei contém disposição transitória: aos processos pendentes aplica-se a redação anterior da Lei 37/81 (5 anos)',
           'O tempo de espera da MdI / da primeira autorização de residência deixa de contar para o tempo de residência (pelo novo diploma)',
           'Idioma A2 — não é exigido (o português é língua materna)',
           'Com passaporte português — cidadania da UE'
@@ -115,6 +115,6 @@ export default {
     { title: 'Tratado de Amizade Brasil-Portugal (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-do-presidente-da-republica/79-2000', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPLP — portal oficial', url: 'https://www.cplp.org/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

@@ -67,7 +67,7 @@ export default {
       title: '5. What this means for residence permits and nationality',
       content: [
         { kind: 'paragraph', text: 'Marriage to a Portuguese citizen may be a basis for subsequent naturalisation by marriage, but the casamento itself does not grant a passport and does not create a residence permit automatically. To live in Portugal, the foreign spouse still goes through the AIMA track unless they have another right of stay.' },
-        { kind: 'paragraph', text: 'For nationality by marriage, the classic rule in the Lei da Nacionalidade is marriage or união de facto of more than 3 years with a Portuguese citizen, plus a declaration of intent to acquire nationality. **03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (new wording of the Lei da Nacionalidade): after publication in the Diário da República the minimum marriage duration for applying for nationality will increase from 3 to 5 years. Seguro publicly asked for already submitted cases to be considered under the old rules. Before applying, check the regime in the DRE.' },
+        { kind: 'paragraph', text: 'For nationality by marriage, the classic rule in the Lei da Nacionalidade is marriage or união de facto of more than 3 years with a Portuguese citizen, plus a declaration of intent to acquire nationality. **03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (new wording of the Lei da Nacionalidade); as of 13.05.2026 the law has STILL NOT been published in the DRE (10 days since promulgation). After publication in the Diário da República the minimum marriage duration for applying for nationality will increase from 3 to 5 years. The law text contains a transitional provision: pending procedures are governed by the previous wording of Lei 37/81 (3 years). Before applying, check the regime in the DRE.' },
         { kind: 'checklist', items: ['Keep the Portuguese certidão de casamento', 'Keep evidence of joint life: tenancy agreement, bills, IRS, bank documents, children, insurances', 'For AIMA prepare a separate pack for reagrupamento familiar or another type of residence permit', 'For Finanças update marital status if it affects IRS', 'For SNS, the bank, the employer and the insurer, update data only after changing documents or if required', 'Do not confuse casamento with união de facto: they have different evidential requirements and consequences'] }
       ]
     }
@@ -84,6 +84,6 @@ export default {
     { title: 'Código do Registo Civil — marriage procedure and foreign documents', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1995-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal da Justiça: request a marriage certificate', url: 'https://justica.gov.pt/Servicos/Pedir-certidao-de-casamento', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

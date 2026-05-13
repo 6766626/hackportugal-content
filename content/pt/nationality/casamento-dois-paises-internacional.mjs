@@ -67,7 +67,7 @@ export default {
       title: '5. Implicações para autorização de residência e nacionalidade',
       content: [
         { kind: 'paragraph', text: 'O casamento com cidadão português pode ser fundamento para posterior naturalização por casamento, mas o próprio casamento não emite passaporte nem cria automaticamente uma autorização de residência. Para residir em Portugal, o cônjuge estrangeiro passa, ainda assim, pelo circuito migratório da AIMA, salvo se tiver outro direito de permanência.' },
-        { kind: 'paragraph', text: 'Para a nacionalidade por casamento, a regra clássica na Lei da Nacionalidade é: casamento ou união de facto superior a 3 anos com cidadão português e declaração de vontade de adquirir a nacionalidade. **03.05.2026 o Presidente Séguro promulgou o Decreto AR 48/XVII** (nova redação da Lei da Nacionalidade): após publicação em Diário da República o prazo mínimo de casamento para requerer nacionalidade passará de 3 para 5 anos. Séguro pediu publicamente que os processos já submetidos sejam apreciados pelas regras antigas. Antes de requerer, confirme o regime no DRE.' },
+        { kind: 'paragraph', text: 'Para a nacionalidade por casamento, a regra clássica na Lei da Nacionalidade é: casamento ou união de facto superior a 3 anos com cidadão português e declaração de vontade de adquirir a nacionalidade. **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** (nova redação da Lei da Nacionalidade); em 13.05.2026 a lei AINDA NÃO foi publicada no DRE (10 dias desde a promulgação). Após publicação em Diário da República, o prazo mínimo de casamento para requerer nacionalidade passará de 3 para 5 anos. O texto da lei contém disposição transitória: aos processos pendentes aplica-se a redação anterior da Lei 37/81 (3 anos). Antes de requerer, confirme o regime no DRE.' },
         { kind: 'checklist', items: ['Guardar a certidão de casamento portuguesa', 'Guardar provas de vida em comum: contrato de arrendamento, faturas, IRS, documentos bancários, filhos, seguros', 'Para a AIMA, preparar um dossiê próprio para reagrupamento familiar ou outro tipo de autorização de residência', 'Para as Finanças, atualizar o estado civil, se isso influenciar o IRS', 'Para SNS, banco, empregador e seguradora, atualizar dados apenas após a alteração dos documentos ou quando exigido', 'Não confundir casamento com união de facto: são regimes de prova e efeitos distintos'] }
       ]
     }
@@ -84,6 +84,6 @@ export default {
     { title: 'Código do Registo Civil — procedimento do casamento e documentos estrangeiros', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1995-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal da Justiça: pedido de certidão de casamento', url: 'https://justica.gov.pt/Servicos/Pedir-certidao-de-casamento', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }
