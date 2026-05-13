@@ -43,6 +43,8 @@ async function loadCategories(lang) {
   const mod = await import(pathToFileURL(join(CONTENT_ROOT, '_categories.mjs')).href)
   const list = mod.default
   // Per-language projection: titles[lang] / subtitles[lang] with fallback to root fields.
+  // `tier` defaults to 'free' if missing — newly added categories stay accessible until
+  // explicitly flipped to 'premium' in `_categories.mjs`.
   return list.map(c => ({
     id: c.id,
     order: c.order,
@@ -50,8 +52,21 @@ async function loadCategories(lang) {
     subtitle: (c.subtitles && c.subtitles[lang]) ?? c.subtitle,
     sfSymbol: c.sfSymbol,
     hasVariants: Boolean(c.hasVariants),
-    parentId: c.parentId
+    parentId: c.parentId,
+    tier: c.tier === 'premium' ? 'premium' : 'free'
   }))
+}
+
+/// Inject `premium: true` onto each guide whose category is premium-tier, unless the
+/// guide itself sets `premium: false` to opt out (e.g. a marketing-friendly orientation
+/// guide under an otherwise-premium category). Returns the same array, mutated in place.
+function annotateGuidesWithPremium(guides, categories) {
+  const premiumCats = new Set(categories.filter(c => c.tier === 'premium').map(c => c.id))
+  for (const g of guides) {
+    if (g.premium === false) continue
+    g.premium = g.premium === true || premiumCats.has(g.categoryId)
+  }
+  return guides
 }
 
 async function loadCatalog(lang) {
@@ -110,6 +125,7 @@ async function buildLanguage(lang) {
   for (const g of guides) {
     if (!catIds.has(g.categoryId)) throw new Error(`[${lang}] Guide ${g.id} uses unknown categoryId: ${g.categoryId}`)
   }
+  annotateGuidesWithPremium(guides, categories)
   for (const e of catalog) {
     if (!catIds.has(e.categoryId)) throw new Error(`[${lang}] CatalogEntry ${e.id} uses unknown categoryId: ${e.categoryId}`)
   }

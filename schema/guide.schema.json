@@ -53,7 +53,8 @@
       }
     },
     "tags": { "type": "array", "items": { "type": "string" } },
-    "estimatedReadMinutes": { "type": "integer", "minimum": 1 }
+    "estimatedReadMinutes": { "type": "integer", "minimum": 1 },
+    "premium": { "type": "boolean", "description": "Optional override. By default derived from the guide's category tier in _categories.mjs. Set true to gate a guide whose category is free; set false to keep a guide free under a premium category." }
   },
   "$defs": {
     "AudienceFilter": {
