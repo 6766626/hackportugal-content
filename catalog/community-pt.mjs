@@ -128,6 +128,93 @@ export default {
       isVerified: false,
       topics: ['cplp', 'aima'],
       languages: ['pt-PT']
+    },
+    {
+      id: 'fb-brasileiros-lisboa',
+      rank: 7,
+      name: 'Brasileiros em Portugal (Lisboa)',
+      handle: null,
+      url: 'https://www.facebook.com/groups/brasileiros.lisboa/',
+      description: 'O maior grupo do FB para brasileiros em Lisboa — adaptação, trabalho, ajuda com AIMA.',
+      isVerified: false,
+      topics: ['brasil', 'lisboa', 'aima'],
+      languages: ['pt-BR', 'pt-PT']
+    },
+    {
+      id: 'fb-americans-friends-pt',
+      rank: 8,
+      name: 'Americans & Friends PT',
+      handle: null,
+      url: 'https://www.facebook.com/groups/americansandfriendsPT/',
+      description: 'O principal grupo dos americanos em Portugal — D7/D8, FATCA, imobiliário, saúde. Em inglês.',
+      isVerified: false,
+      topics: ['eua', 'd7', 'd8', 'fatca'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-british-immigrants-pt',
+      rank: 9,
+      name: 'British Immigrants in Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/265570920476558/',
+      description: 'Britânicos em Portugal — estatuto pós-Brexit, novos vistos D, Algarve e Lisboa. Em inglês.',
+      isVerified: false,
+      topics: ['uk', 'brexit'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-algarve-expats',
+      rank: 10,
+      name: 'Algarve Expats, Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/algarveexpat/',
+      description: 'Grande grupo regional do Algarve — forte presença britânica e nórdica, perguntas do dia-a-dia.',
+      isVerified: false,
+      topics: ['algarve', 'expat'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-indians-portugal',
+      rank: 11,
+      name: 'Indians in Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/556920958521959/',
+      description: 'O maior grupo nacional da diáspora indiana em Portugal — eventos culturais, ajuda com vistos e AIMA.',
+      isVerified: false,
+      topics: ['india', 'expat'],
+      languages: ['en']
+    }
+  ],
+  forums: [
+    {
+      id: 'forum-british-expats-pt',
+      rank: 1,
+      name: 'British Expats — fórum Portugal',
+      url: 'https://britishexpats.com/forum/portugal-89/',
+      description: 'O fórum dedicado mais ativo para britânicos em Portugal — Brexit, Acordo de Saída, impostos, imobiliário. Em inglês.',
+      isVerified: false,
+      topics: ['uk', 'brexit'],
+      languages: ['en']
+    },
+    {
+      id: 'forum-expats-portugal',
+      rank: 2,
+      name: 'Expats Portugal Forum',
+      url: 'https://expatsportugal.com/community/',
+      description: 'Um dos fóruns em inglês mais antigos sobre Portugal — vistos, AIMA, imobiliário, saúde.',
+      isVerified: false,
+      topics: ['expat', 'aima'],
+      languages: ['en']
+    },
+    {
+      id: 'forum-reddit-portugalexpats',
+      rank: 3,
+      name: 'Reddit r/PortugalExpats',
+      url: 'https://www.reddit.com/r/PortugalExpats/',
+      description: 'Subreddit em inglês para quem se muda ou reside. Forte presença de americanos e britânicos, D7/D8, saúde.',
+      isVerified: false,
+      topics: ['expat', 'visa'],
+      languages: ['en']
     }
   ]
 }

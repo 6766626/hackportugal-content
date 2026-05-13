@@ -93,6 +93,17 @@ export default {
       isVerified: false,
       topics: ['жильё', 'аренда'],
       languages: ['ru']
+    },
+    {
+      id: 'tg-brasileiros-portugal',
+      rank: 9,
+      name: 'Brasileiros em Portugal',
+      handle: '@BBrasileirosEmPortugal',
+      url: 'https://t.me/BBrasileirosEmPortugal',
+      description: 'Активный канал бразильского сообщества — быт, недвижимость, AIMA (на португальском).',
+      isVerified: false,
+      topics: ['brasil', 'быт'],
+      languages: ['pt']
     }
   ],
   facebookGroups: [
@@ -138,6 +149,93 @@ export default {
       description: 'Англоязычное сообщество Порту.',
       isVerified: false,
       topics: ['expat', 'porto'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-americans-friends-pt',
+      rank: 5,
+      name: 'Americans & Friends PT',
+      handle: null,
+      url: 'https://www.facebook.com/groups/americansandfriendsPT/',
+      description: 'Главная группа американцев в Португалии — D7/D8 визы, FATCA, недвижимость, healthcare. Большая база файлов.',
+      isVerified: false,
+      topics: ['сша', 'налоги', 'd7', 'd8'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-british-immigrants-pt',
+      rank: 6,
+      name: 'British Immigrants in Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/265570920476558/',
+      description: 'Британцы в Португалии — пост-Brexit статус, новые D-визы, Algarve и Lisboa.',
+      isVerified: false,
+      topics: ['uk', 'brexit'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-algarve-expats',
+      rank: 7,
+      name: 'Algarve Expats, Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/algarveexpat/',
+      description: 'Большая региональная группа Algarve — много британцев и северных европейцев, бытовые вопросы, объявления.',
+      isVerified: false,
+      topics: ['algarve', 'uk', 'expat'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-brasileiros-lisboa',
+      rank: 8,
+      name: 'Brasileiros em Portugal (Lisboa)',
+      handle: null,
+      url: 'https://www.facebook.com/groups/brasileiros.lisboa/',
+      description: 'Крупнейшая FB-группа бразильцев в Лиссабоне — адаптация, работа, помощь по AIMA (на португальском).',
+      isVerified: false,
+      topics: ['brasil', 'лиссабон'],
+      languages: ['pt']
+    },
+    {
+      id: 'fb-indians-portugal',
+      rank: 9,
+      name: 'Indians in Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/556920958521959/',
+      description: 'Крупнейшая общенациональная группа индийской диаспоры — культурные события, помощь по визам.',
+      isVerified: false,
+      topics: ['india', 'expat'],
+      languages: ['en']
+    }
+  ],
+  forums: [
+    {
+      id: 'forum-british-expats-pt',
+      rank: 1,
+      name: 'British Expats — Portugal forum',
+      url: 'https://britishexpats.com/forum/portugal-89/',
+      description: 'Самый активный профильный форум для британцев — Brexit, WA, налоги, недвижимость.',
+      isVerified: false,
+      topics: ['uk', 'brexit', 'налоги'],
+      languages: ['en']
+    },
+    {
+      id: 'forum-expats-portugal',
+      rank: 2,
+      name: 'Expats Portugal Forum',
+      url: 'https://expatsportugal.com/community/',
+      description: 'Старейший англоязычный форум по Португалии — визы, AIMA, недвижимость, healthcare.',
+      isVerified: false,
+      topics: ['expat', 'aima'],
+      languages: ['en']
+    },
+    {
+      id: 'forum-reddit-portugalexpats',
+      rank: 3,
+      name: 'Reddit r/PortugalExpats',
+      url: 'https://www.reddit.com/r/PortugalExpats/',
+      description: 'Англоязычное сабреддит для переезжающих и живущих. Скошен в сторону US/UK переезжающих, D7/D8, healthcare.',
+      isVerified: false,
+      topics: ['expat', 'visa'],
       languages: ['en']
     }
   ]

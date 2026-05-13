@@ -60,6 +60,17 @@ export default {
       verifiedNote: 'Verified by HackPortugal editorial team',
       topics: ['all'],
       languages: ['ru']
+    },
+    {
+      id: 'tg-brasileiros-portugal',
+      rank: 6,
+      name: 'Brasileiros em Portugal',
+      handle: '@BBrasileirosEmPortugal',
+      url: 'https://t.me/BBrasileirosEmPortugal',
+      description: 'Active Brazilian community channel — life, real estate, AIMA, peer help (Portuguese language).',
+      isVerified: false,
+      topics: ['brazil', 'aima', 'real-estate'],
+      languages: ['pt']
     }
   ],
   facebookGroups: [
@@ -127,6 +138,104 @@ export default {
       description: 'D7 passive-income visa applicants and holders share their experience.',
       isVerified: false,
       topics: ['d7', 'visa'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-americans-friends-pt',
+      rank: 7,
+      name: 'Americans & Friends PT',
+      handle: null,
+      url: 'https://www.facebook.com/groups/americansandfriendsPT/',
+      description: 'The de-facto information standard for Americans moving to Portugal — D7/D8, FATCA, real estate, healthcare. Excellent files section.',
+      isVerified: false,
+      topics: ['us', 'd7', 'd8', 'fatca', 'taxes'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-british-immigrants-pt',
+      rank: 8,
+      name: 'British Immigrants in Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/265570920476558/',
+      description: 'Nationwide group for UK citizens — post-Brexit Withdrawal Agreement status, new D-visa applications, Algarve and Lisbon focus.',
+      isVerified: false,
+      topics: ['uk', 'brexit', 'withdrawal-agreement'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-algarve-expats',
+      rank: 9,
+      name: 'Algarve Expats, Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/algarveexpat/',
+      description: 'Large regional group for the Algarve region — strong British and northern European presence, life questions, classifieds.',
+      isVerified: false,
+      topics: ['algarve', 'uk', 'expat'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-brasileiros-lisboa',
+      rank: 10,
+      name: 'Brasileiros em Portugal (Lisboa)',
+      handle: null,
+      url: 'https://www.facebook.com/groups/brasileiros.lisboa/',
+      description: 'Largest Lisbon-focused Brazilian Facebook group — adaptation, work, AIMA peer help (Portuguese).',
+      isVerified: false,
+      topics: ['brazil', 'lisbon', 'aima'],
+      languages: ['pt']
+    },
+    {
+      id: 'fb-indians-portugal',
+      rank: 11,
+      name: 'Indians in Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/556920958521959/',
+      description: 'Largest national Indian community group in Portugal — cultural events, visa/AIMA peer help, settling tips.',
+      isVerified: false,
+      topics: ['india', 'expat'],
+      languages: ['en']
+    },
+    {
+      id: 'fb-indians-porto',
+      rank: 12,
+      name: 'Indians in Porto, Portugal',
+      handle: null,
+      url: 'https://www.facebook.com/groups/1420812384805828/',
+      description: 'Porto-area Indian community group.',
+      isVerified: false,
+      topics: ['india', 'porto'],
+      languages: ['en']
+    }
+  ],
+  forums: [
+    {
+      id: 'forum-british-expats-pt',
+      rank: 1,
+      name: 'British Expats — Portugal forum',
+      url: 'https://britishexpats.com/forum/portugal-89/',
+      description: 'The most active dedicated forum for British residents in Portugal — Brexit, Withdrawal Agreement, taxes, property.',
+      isVerified: false,
+      topics: ['uk', 'brexit', 'taxes'],
+      languages: ['en']
+    },
+    {
+      id: 'forum-expats-portugal',
+      rank: 2,
+      name: 'Expats Portugal Forum',
+      url: 'https://expatsportugal.com/community/',
+      description: 'One of the oldest English-speaking forums about Portugal — visas, AIMA, real estate, healthcare. Active threads.',
+      isVerified: false,
+      topics: ['expat', 'aima', 'real-estate'],
+      languages: ['en']
+    },
+    {
+      id: 'forum-reddit-portugalexpats',
+      rank: 3,
+      name: 'Reddit r/PortugalExpats',
+      url: 'https://www.reddit.com/r/PortugalExpats/',
+      description: 'English-speaking subreddit for movers and residents. Heavy on US/UK movers, D7/D8 visa flows, healthcare comparisons.',
+      isVerified: false,
+      topics: ['expat', 'visa'],
       languages: ['en']
     }
   ]
