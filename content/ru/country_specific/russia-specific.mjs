@@ -23,6 +23,21 @@ export default {
       ]
     },
     {
+      id: 'embassy-update-2026-04',
+      title: 'Упрощение подачи для D4 / E9 / E6 (17.04.2026)',
+      content: [
+        { kind: 'paragraph', text: '17 апреля 2026 Посольство Португалии в Москве опубликовало объявление «Заявления на визу — Студенты и запись на прием в AIMA» об упрощении процедуры подачи документов для трёх категорий заявителей.' },
+        { kind: 'checklist', items: [
+          '✅ D4 — национальная учебная виза (бакалавриат, магистратура, аспирантура, длительные языковые курсы)',
+          '✅ E9 — виза для участия в программе Erasmus Mundus',
+          '✅ E6 — виза для тех, кому нужно затем обращаться в AIMA по вопросам оформления (например, продление ВНЖ, воссоединение семьи). НЕ инвестиционные программы — Golden Visa и D2 идут по другим трекам'
+        ]},
+        { kind: 'warning', text: 'Точная формулировка процедуры: «в целях упрощения процедуры подачи документов». Посольство НЕ заявляет дословно «без записи»; в публикации речь идёт о приоритетной/упрощённой подаче. Перед визитом проверьте актуальные требования на сайте посольства и BLS.' },
+        { kind: 'paragraph', text: 'Визовый центр BLS в Москве (Космодамианская набережная, 52с7): приём заявлений 09:00–15:00 (пн–пт), выдача паспортов и консультации 15:00–16:00. Телефон: +7 (499) 110 63 76, email: info.portugal@blshelpline.com.' },
+        { kind: 'warning', text: 'Упрощение процедуры подачи НЕ означает упрощения пакета документов. Все стандартные требования (зачисление в вуз, доказательство средств, жильё, медстраховка, справка о несудимости с апостилем) остаются. См. подробности в гайде «Виза D4 (студент)».' }
+      ]
+    },
+    {
       id: 'banking',
       title: 'Банковские нюансы',
       content: [
@@ -98,11 +113,13 @@ export default {
     }
   ],
   sources: [
-    { title: 'Посольство Португалии в Москве', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Посольство Португалии в Москве', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
+    { title: 'Объявление от 17.04.2026 — заявления на визу D4/E9/E6', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
+    { title: 'BLS Portugal Russia — контакты и часы приёма', url: 'https://blsportugalrussia.ru/russian/contact.php', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
     { title: 'AIMA — официальный сайт', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Vistos MNE — D-визы', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — компенсации и AML', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

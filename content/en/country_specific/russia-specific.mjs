@@ -23,6 +23,21 @@ export default {
       ]
     },
     {
+      id: 'embassy-update-2026-04',
+      title: 'Simplified submission for D4 / E9 / E6 (17 April 2026)',
+      content: [
+        { kind: 'paragraph', text: 'On 17 April 2026 the Portuguese Embassy in Moscow published a notice titled "Visa applications — Students and AIMA appointment registration" announcing a simplified document submission procedure for three applicant categories.' },
+        { kind: 'checklist', items: [
+          '✅ D4 — national study visa (bachelor\'s, master\'s, doctoral, long-term language courses)',
+          '✅ E9 — visa for Erasmus Mundus programme participants',
+          '✅ E6 — visa for applicants who subsequently need to deal with AIMA on residency matters (e.g. permit renewal, family reunification). NOT investment programmes — Golden Visa and D2 go through separate tracks'
+        ]},
+        { kind: 'warning', text: 'Exact wording from the embassy: "in order to simplify the document submission procedure". The embassy does NOT explicitly say "walk-in" — the notice describes a priority/simplified submission. Check the current requirements on the embassy and BLS websites before visiting.' },
+        { kind: 'paragraph', text: 'BLS Visa Centre in Moscow (Kosmodamianskaya naberezhnaya 52/7): applications accepted 09:00–15:00 (Mon–Fri), passport pickup and consultations 15:00–16:00. Phone: +7 (499) 110 63 76, email: info.portugal@blshelpline.com.' },
+        { kind: 'warning', text: 'Simplified submission procedure does NOT mean a simplified document package. All standard requirements remain (university acceptance, proof of funds, accommodation, health insurance, apostilled criminal record certificate). See the "Visa D4 (student)" guide for full details.' }
+      ]
+    },
+    {
       id: 'banking',
       title: 'Banking nuances',
       content: [
@@ -98,11 +113,13 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portuguese Embassy in Moscow', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portuguese Embassy in Moscow', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
+    { title: 'Announcement of 17.04.2026 — visa applications D4/E9/E6', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
+    { title: 'BLS Portugal Russia — contact and hours', url: 'https://blsportugalrussia.ru/russian/contact.php', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
     { title: 'AIMA — official website', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Vistos MNE — D visas', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — compensation and AML', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-13',
   verifyIntervalDays: 90
 }

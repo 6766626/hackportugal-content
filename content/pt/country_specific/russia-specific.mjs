@@ -34,6 +34,21 @@ export default {
       ]
     },
     {
+      "id": "embassy-update-2026-04",
+      "title": "Submissão simplificada para D4 / E9 / E6 (17.04.2026)",
+      "content": [
+        { "kind": "paragraph", "text": "A 17 de abril de 2026 a Embaixada de Portugal em Moscovo publicou o anúncio «Pedidos de visto — Estudantes e marcação de atendimento na AIMA», anunciando uma simplificação do procedimento de submissão de documentos para três categorias de requerentes." },
+        { "kind": "checklist", "items": [
+          "✅ D4 — visto nacional de estudante (licenciatura, mestrado, doutoramento, cursos de língua de longa duração)",
+          "✅ E9 — visto para participantes do programa Erasmus Mundus",
+          "✅ E6 — visto para requerentes que precisam de dar continuidade junto da AIMA em questões de residência (p.ex. renovação de autorização, reagrupamento familiar). NÃO programas de investimento — Golden Visa e D2 seguem trâmites distintos"
+        ]},
+        { "kind": "warning", "text": "Texto exato da embaixada: «de forma a simplificar o procedimento de submissão de documentos». A embaixada NÃO afirma textualmente «sem marcação» — o anúncio descreve uma submissão prioritária/simplificada. Confirme os requisitos atuais no site da embaixada e do BLS antes de se deslocar." },
+        { "kind": "paragraph", "text": "Centro de Vistos BLS em Moscovo (Kosmodamianskaya naberezhnaya 52/7): submissão de pedidos 09:00–15:00 (seg–sex), levantamento de passaportes e consultas 15:00–16:00. Telefone: +7 (499) 110 63 76, email: info.portugal@blshelpline.com." },
+        { "kind": "warning", "text": "A simplificação do procedimento de submissão NÃO significa simplificação do dossier de documentos. Mantêm-se todos os requisitos padrão (admissão universitária, prova de meios de subsistência, alojamento, seguro de saúde, registo criminal apostilado). Ver detalhes no guia «Visto D4 (estudante)»." }
+      ]
+    },
+    {
       "id": "banking",
       "title": "Nuances bancárias",
       "content": [
@@ -153,10 +168,24 @@ export default {
   "sources": [
     {
       "title": "Embaixada de Portugal em Moscovo",
-      "url": "https://moscovo.embaixadaportugal.mne.gov.pt/",
+      "url": "https://moscovo.embaixadaportugal.mne.gov.pt/ru/",
       "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
+      "language": "ru",
+      "lastRetrieved": "2026-05-13"
+    },
+    {
+      "title": "Anúncio de 17.04.2026 — pedidos de visto D4/E9/E6",
+      "url": "https://moscovo.embaixadaportugal.mne.gov.pt/ru/",
+      "kind": "official",
+      "language": "ru",
+      "lastRetrieved": "2026-05-13"
+    },
+    {
+      "title": "BLS Portugal Russia — contactos e horário",
+      "url": "https://blsportugalrussia.ru/russian/contact.php",
+      "kind": "official",
+      "language": "ru",
+      "lastRetrieved": "2026-05-13"
     },
     {
       "title": "AIMA — site oficial",
@@ -180,6 +209,6 @@ export default {
       "lastRetrieved": "2026-04-22"
     }
   ],
-  "lastVerified": "2026-04-28",
+  "lastVerified": "2026-05-13",
   "verifyIntervalDays": 90
 }
