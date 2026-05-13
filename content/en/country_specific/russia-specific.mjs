@@ -121,5 +121,7 @@ export default {
     { title: 'Banco de Portugal — compensation and AML', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-13',
+  recentlyChangedAt: '2026-05-13',
+  changeSummary: '13.05.2026 — added a section on the 17.04.2026 notice from the Portuguese Embassy in Moscow: simplified document submission procedure for D4 (national study), E9 (Erasmus Mundus) and E6 (for those who subsequently need to deal with AIMA) student visas. Clarification: the embassy does NOT explicitly say "walk-in"; the language describes a priority/simplified submission. BLS Moscow hours: applications 09:00–15:00, pickup/consultations 15:00–16:00, Mon–Fri.',
   verifyIntervalDays: 90
 }

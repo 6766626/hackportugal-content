@@ -113,5 +113,7 @@ export default {
     { title: 'AIMA — site oficial', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-13' }
   ],
   lastVerified: '2026-05-13',
-  verifyIntervalDays: 60
+  verifyIntervalDays: 60,
+  recentlyChangedAt: '2026-05-13',
+  changeSummary: 'Novo guia: uma seleção de canais e grupos verificados para as comunidades brasileira, americana, britânica, indiana e expatriados em geral em Portugal. Telegram, grupos do Facebook, fóruns (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — com ligações na secção Comunidade da aplicação.'
 }

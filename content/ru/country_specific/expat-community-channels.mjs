@@ -113,5 +113,7 @@ export default {
     { title: 'AIMA — официальный сайт', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-13' }
   ],
   lastVerified: '2026-05-13',
-  verifyIntervalDays: 60
+  verifyIntervalDays: 60,
+  recentlyChangedAt: '2026-05-13',
+  changeSummary: 'Новый гайд: подборка верифицированных каналов и групп для бразильцев, американцев, британцев, индийцев и общих expat-сетей в Португалии. Telegram, Facebook-группы, форумы (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — со ссылками в Community-разделе приложения.'
 }

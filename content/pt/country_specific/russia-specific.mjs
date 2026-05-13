@@ -210,5 +210,7 @@ export default {
     }
   ],
   "lastVerified": "2026-05-13",
-  "verifyIntervalDays": 90
+  "verifyIntervalDays": 90,
+  "recentlyChangedAt": "2026-05-13",
+  "changeSummary": "13.05.2026 — adicionada uma secção sobre o anúncio de 17.04.2026 da Embaixada de Portugal em Moscovo: simplificação do procedimento de submissão de documentos para vistos de estudante D4 (nacional de estudante), E9 (Erasmus Mundus) e E6 (para quem precisa de dar continuidade junto da AIMA). Esclarecimento: a embaixada NÃO afirma textualmente «sem marcação»; o texto descreve uma submissão prioritária/simplificada. Horário BLS Moscovo: submissão 09:00–15:00, levantamento/consultas 15:00–16:00, seg–sex."
 }
