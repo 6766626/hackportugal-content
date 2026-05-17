@@ -10,18 +10,18 @@ their **category taxonomy** but no actual guide bodies.
 
 Out of ~30 ptguide topic groups, we already cover 25+ at higher depth. Real gaps:
 
-### High priority (high traffic, easy to verify)
+### High priority (high traffic, easy to verify) — ALL DONE
 - ✅ **aquaparks-portugal** — DONE 2026-05-17 (food_leisure, all 8 parks, verified prices)
 - ✅ **theme-parks-pt** — DONE 2026-05-17 (KidZania, Dino Parque, Magikland, Sea Life, Zoomarine + less-known)
 - ✅ **olx-custojusto-vinted** — DONE 2026-05-17 (daily_life, with DAC7 tax detail + scam playbook)
-- ⬜ **karting-portugal** — major karting centres list with prices, age limits (food_leisure)
-- ⬜ **immigrant-calendar** — month-by-month onboarding checklist (before_arrival)
+- ✅ **karting-portugal** — DONE 2026-05-17 (food_leisure, ~15 centres, verified prices, age brackets)
+- ✅ **immigrant-calendar** — DONE 2026-05-17 (before_arrival, month-by-month onboarding cross-linked to existing guides)
 
-### Medium priority (niche but distinctive)
-- ⬜ **russian-banya-pt** — what a banya is, how to find one in PT (food_leisure)
-- ⬜ **beauty-salons-etiquette** — manicure / pedicure / brows: language, prices, tipping (daily_life)
-- ⬜ **promo-codes-aggregator** — KIWOKO, Decathlon, Oceanário discount sources (daily_life)
-- ⬜ **souvenirs-from-pt** — what to bring home as gifts (travel_portugal)
+### Medium priority (niche but distinctive) — ALL DONE
+- ✅ **russian-banya-pt** — DONE 2026-05-17 (food_leisure, honest take + alternatives, since no public banyas exist)
+- ✅ **beauty-salons-etiquette** — DONE 2026-05-17 (daily_life, prices, tipping, RU-speaking technicians, ASAE safety)
+- ✅ **promo-codes-aggregator** — DONE 2026-05-17 (daily_life, Continente/Pingo Doce/Cartão Jovem/Cashback/e-Fatura)
+- ✅ **souvenirs-from-pt** — DONE 2026-05-17 (travel_portugal, top 10 authentic + how to spot fakes + customs)
 
 ### Already covered (no work needed)
 - Restaurants, supermarkets, food → many guides under food_leisure
