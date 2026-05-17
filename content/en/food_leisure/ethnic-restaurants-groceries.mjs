@@ -3,8 +3,8 @@ export default {
   id: 'ethnic-restaurants-groceries',
   categoryId: 'food_leisure',
   title: 'Ethnic food — where to buy Russian, Georgian and Brazilian products',
-  tldr: 'In Lisbon and Porto there are shops with CIS products (Slavyanka, Bazar Russo, Euromercado), Georgian restaurants (Karater Lisboa, Batumi, Adjara), and Brazilian supermarkets (Brasa, Brasileirinho). Delivery of “Russian” products from Spain — Tiendas de Rusia (Madrid), 2-3 days. Continente / Pingo Doce have an international section with a basic selection: buckwheat, herring, tinned fish. Georgian wines — Gartinha; Lidl runs a promotion once a year.',
-  tags: ['ethnic food', 'russian groceries', 'georgian', 'brazilian'],
+  tldr: 'In Lisbon and Porto there are shops with CIS products (Slavyanka, Bazar Russo, Euromercado), Georgian restaurants and Brazilian supermarkets (Brasa, Brasileirinho). Delivery from Spain — Tiendas de Rusia (Madrid): delivery times and cost depend on the address/weight/promotions, check at checkout. In some large Continente/Pingo Doce stores you can sometimes find individual Eastern European products, but the range is inconsistent. Georgian wine can sometimes be found in specialist wine shops and in temporary Lidl/other supermarket promotions; check the current folheto.',
+  tags: ['ethnic food', 'russian products', 'georgian', 'brazilian'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -16,8 +16,8 @@ export default {
             { kind: 'checklist', items: [
               '**Slavyanka** (Av. Almirante Reis, Arroios) — the largest shop. Herring, buckwheat, tvorog, sour cream, sausages, sweets, Stolichnaya vodka',
               '**Bazar Russo** (Rua Gonçalo Mendes da Maia, Picoas) — smaller, but closer to the centre',
-              '**Euromercado** (Amadora) — large shop with a broad range, lower prices',
-              '**Basic range**: in Continente (Arroios, Cascais), Pingo Doce (Saldanha) — international section',
+              '**Euromercado** (Amadora) — a large shop with a wide range, lower prices',
+              '**Minimum range**: in some large Continente/Pingo Doce stores you can sometimes find individual Eastern European products, but the range is inconsistent; for buckwheat/herring it is more reliable to go to specialist shops',
               'Typical prices: buckwheat €4-6/kg, herring €8-10/kg, black caviar (imitation) €5-15/jar, sweets €15-25/kg'
             ]}
           ]},
@@ -25,18 +25,18 @@ export default {
             { kind: 'checklist', items: [
               '**Loja Lusitana-Russa** (Bonfim area)',
               '**Shop Slavia** (Areosa) — smaller, but sufficient',
-              'In Braga, Coimbra — limited choice; products are brought in from Lisbon/Porto'
+              'In Braga, Coimbra — limited choice, brought in from Lisbon/Porto'
             ]}
           ]},
           { id: 'r3', title: 'Algarve', content: [
-            { kind: 'paragraph', text: 'Quartas de Avila (Lagoa), Lidl/Continente Albufeira have an international section. There is no full-scale Russian shop — many expats order online from Lisbon with CTT delivery.' }
+            { kind: 'paragraph', text: 'There is no full-scale large Russian shop in the Algarve — many expats order online from Lisbon with CTT delivery. Check current locations in local Facebook/Telegram groups before travelling.' }
           ]},
           { id: 'r4', title: 'Online and delivery', content: [
             { kind: 'checklist', items: [
-              '**Tiendas de Rusia** (Madrid, Spain) — tiendasdeRusia.es, delivery to PT in 2-3 days, free from €30',
+              '**Tiendas de Rusia** (Spain) — deliver to Portugal; delivery times and cost depend on the address/weight/promotions, check at checkout',
               '**RusKiosk** (Lisboa) — online orders with delivery across PT',
               '**Amazon PT/ES** — some brands (sprats, jam)',
-              '**Glovo** — Slavyanka offers delivery within a 5-10 km radius'
+              '**Glovo** — Slavyanka has delivery within a 5-10 km radius'
             ]}
           ]}
         ]}
@@ -46,7 +46,7 @@ export default {
       id: 'georgian',
       title: '🇬🇪 Georgian cuisine',
       content: [
-        { kind: 'paragraph', text: 'The Georgian diaspora in Portugal is relatively small but active — 5-7 restaurants are open in Lisbon and Porto.' },
+        { kind: 'paragraph', text: 'The Georgian diaspora in Portugal is relatively small but active — there are 5-7 restaurants open in Lisbon and Porto.' },
         { kind: 'substeps', items: [
           { id: 'g1', title: 'Restaurants in Lisbon', content: [
             { kind: 'checklist', items: [
@@ -54,22 +54,22 @@ export default {
               '**Suliko** (Intendente) — affordable format, large portions, €15-25',
               '**Sakartvelo** (Saldanha) — new, full menu, €18-30',
               '**Batumi** (Anjos) — Georgian-Caucasian fusion',
-              '**Tbilisi Cafe** (Cais do Sodré) — café-bistro, €10-15'
+              '**Tbilisi Cafe** (Cais do Sodré) — cafe-bistro, €10-15'
             ]}
           ]},
           { id: 'g2', title: 'Porto', content: [
             { kind: 'checklist', items: [
-              '**Adjara** (Ribeira) — varied khachapuri, €15-25',
-              '**Tamar Gurmani** (Boavista) — homely atmosphere'
+              '**Adjara** (Ribeira) — various khachapuri, €15-25',
+              '**Tamar Gurmani** (Boavista) — cosy, home-style feel'
             ]}
           ]},
           { id: 'g3', title: 'Georgian products', content: [
             { kind: 'checklist', items: [
-              'Spices (khmeli-suneli, utskho-suneli): in Slavyanka, eastern shops in Martim Moniz',
+              'Spices (khmeli-suneli, utskho-suneli): in Slavyanka, Eastern shops in Martim Moniz',
               'Tomato purée, adjika: same places',
-              '**Georgian wines**: Gartinha (distribution in shops), annual Lidl Plus promotion with Kindzmarauli, Saperavi',
-              'Tkemali (plum), Adjika — in online shops + Continente gourmet section',
-              'Grushal khachapuri dough: not sold ready-made; you need to make it from scratch'
+              '**Georgian wines**: sometimes found in specialist wine shops and in temporary Lidl/other supermarket promotions; check the current folheto',
+              'Tkemali (plum), adjika — in online shops + the gourmet section at Continente',
+              'Ready-made dough/semi-finished products for khachapuri are rare; more often people cook from scratch or use ordinary yeast/puff pastry dough from the supermarket'
             ]}
           ]}
         ]}
@@ -77,29 +77,29 @@ export default {
     },
     {
       id: 'brazilian',
-      title: '🇧🇷 Brazilian products — the widest selection',
+      title: '🇧🇷 Brazilian products — the widest offer',
       content: [
-        { kind: 'paragraph', text: 'The Brazilian diaspora is >500,000 — products and restaurants are everywhere.' },
+        { kind: 'paragraph', text: 'Brazilians are the largest foreign community in Portugal; for the exact current number it is better to check AIMA/INE. Products and restaurants are everywhere.' },
         { kind: 'checklist', items: [
           '**Brasa** — chain of Brazilian supermarkets, Lisbon/Porto/Algarve',
-          '**Brasileirinho** (Almada, Porto Barredo) — full range of Brazilian goods',
+          '**Brasileirinho** (Almada, Porto Barredo) — full line of Brazilian goods',
           '**Big Supermercado Brasileiro** (Albufeira, Algarve)',
-          '**In Continente / Pingo Doce** — a large **Brasileirinho corner**: farofa, tapioca, feijão preto, pão de queijo mix, guaraná Antarctica, caju caju, mandioca',
+          '**In large Continente/Pingo Doce stores** there are often individual Brazilian products: farofa, tapioca, feijão preto, guaraná, pão de queijo mix, mandioca, caju; the range depends on the shop',
           '**Meat**: picanha, fraldinha in all meat sections',
           '**Restaurants**: Copacabana (Saldanha), Rodízio do Brasil (many locations) — unlimited churrasco €20-30',
-          '**Açaí stalls**: Guavaberry, Berri — popularity is growing'
+          '**Açaí stalls**: Guavaberry, Berri — growing in popularity'
         ]}
       ]
     },
     {
       id: 'other',
-      title: '🌏 Other ethnic options',
+      title: '🌏 Other ethnic',
       content: [
         { kind: 'checklist', items: [
-          '🇺🇦 **Ukrainian**: in many Russian shops (borscht kit, Korolivskyi cheese). Separate “Ukraina” shop in Almada',
+          '🇺🇦 **Ukrainian**: in many Russian shops (borscht set, Korolivskyi cheese). Separate Ukraina shop in Almada',
           '🇮🇳 **Indian**: Martim Moniz / Intendente — ~10 shops (masala, dal, basmati, paneer). Restaurants everywhere',
           '🇨🇳 **Chinese**: Martim Moniz / Chelas — China-Plus supermarkets, spices, sauces, noodles',
-          '🇲🇽 **Mexican**: Continente gourmet section + Amazon; you can manage without tortillas',
+          '🇲🇽 **Mexican**: Continente gourmet section + Amazon; you can get by without tortillas',
           '🇮🇹 **Italian**: Continente gourmet sections + specialist shops (Flavio in Chiado)',
           '🇵🇰 **Pakistani / Bangladeshi**: Martim Moniz, halal meat',
           '🇪🇹 **African** (Cape Verdean, Angolan): Mercado da Galiza, Bairro Alto',
@@ -113,25 +113,25 @@ export default {
       title: '💡 Tips',
       content: [
         { kind: 'checklist', items: [
-          '📅 **Festivals**: Festa do Brasil (July), Festival Grátis Tbilisi (varies), Slava in March with Ukrainian products',
-          '👨‍👩‍👧 **Martim Moniz** — Lisbon’s multi-ethnic district — products from every continent, best prices',
+          '📅 **Festivals**: follow listings from Casa da América Latina, the Lisboa/Porto municipalities, and Ukrainian and Georgian community groups; gastro-festival dates change every year',
+          '👨‍👩‍👧 **Martim Moniz** — Lisbon’s multi-ethnic district — products from every continent, the best prices',
           '💰 **Prices**: ethnic products are ~30-70% more expensive than in the country of origin (import costs)',
           '🚚 **Large orders** from Spain (Madrid) — often brought by bus/through shared car trips, saving 20-30%',
           '📱 **Facebook groups**: “Russian products in Portugal”, “Georgian Community Portugal” — sale/exchange',
-          '🍷 **Georgian wine in Lidl** — Kindzmarauli and Saperavi are usually in mid-August, keep an eye on the folheto'
+          '🍷 **Georgian wine** sometimes appears in Lidl/other chains as part of temporary wine promotions; check the folheto and the Lidl Plus app'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'Typical supermarket shop', amountEURMin: 30, amountEURMax: 80 },
+    { label: 'Typical supermarket trip', amountEURMin: 30, amountEURMax: 80 },
     { label: 'Georgian restaurant (2 people)', amountEURMin: 35, amountEURMax: 70 },
-    { label: 'Tiendas de Rusia delivery from ES', amountEUR: 0, note: 'free from €30' }
+    { label: 'Tiendas de Rusia delivery from ES', amountEURMin: 5, amountEURMax: 25, note: 'depends on weight/address; there are sometimes free-delivery promotions above a certain amount — check when ordering' }
   ],
   sources: [
     { title: 'Visit Lisboa — Ethnic restaurants', url: 'https://www.visitlisboa.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Tiendas de Rusia (ES delivery to PT)', url: 'https://www.tiendasderusia.es/', kind: 'company', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
-  verifyIntervalDays: 365
+  lastVerified: '2026-05-17',
+  verifyIntervalDays: 180
 }

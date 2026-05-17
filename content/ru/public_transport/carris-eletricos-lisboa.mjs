@@ -117,6 +117,6 @@ export default {
     { title: 'Navegante — проездные и тарифная система Lisboa/AML', url: 'https://www.navegante.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Carris — официальный сайт оператора транспорта Lisboa', url: 'https://www.carris.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -3,20 +3,20 @@ export default {
   id: 'mental-health-resources',
   categoryId: 'emergency_rights',
   title: 'Mental health — hotlines and support',
-  tldr: 'In a crisis: **SNS 24 → option 4** (SNS psychological support, 24/7) or **SOS Voz Amiga 213 544 545** (suicide prevention hotline, 16:00-24:00). ⚠️ 808 numbers are charged at the subscriber’s tariff (mobile/foreign SIM cards may incur charges). Through SNS — your family doctor will refer you to a psychologist/psychiatrist (free, waiting list 1-3 months). Private psychologist €50-90/session, psychiatrist €80-150. English-speaking specialists — at CUF, Lusíadas, Luz. Online: BetterHelp, ePsicólogos. Linha Vida 1414 — for addictions, has opening hours (NOT 24/7).',
+  tldr: 'In a crisis: **SNS 24 → option 4** (SNS psychological support, 24/7) or **SOS Voz Amiga 213 544 545** (suicide prevention hotline, 16:00-24:00). ⚠️ 808 numbers are charged at the subscriber’s tariff (mobile/foreign SIM cards may incur charges). Through SNS — a family doctor will refer you to a psychologist/psychiatrist (free, 1-3 month waiting list). Private psychologist €50-90/session, psychiatrist €80-150. English-speaking specialists — at CUF, Lusíadas, Luz. Online: BetterHelp, ePsicólogos. Linha Vida 1414 — for addictions, has working hours (NOT 24/7).',
   tags: ['psychology', 'psychiatrist', 'crisis', 'mental health'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'crisis',
-      title: '🆘 Crisis — who to call now',
+      title: '🆘 Crisis — where to call now',
       content: [
         { kind: 'checklist', items: [
-          '☎️ **112** — emergency services, for suicidal intent / threat to life',
+          '☎️ **112** — emergency service, for suicidal intent / threat to life',
           '☎️ **SNS 24: 808 24 24 24** → option 4 — SNS psychological support, 24/7. The service itself is free, but the 808 number is charged at the subscriber’s tariff (mobile/foreign SIM cards may be charged per minute)',
           '☎️ **SOS Voz Amiga: 213 544 545** — anonymous suicide prevention line, 16:00-24:00 daily',
           '☎️ **Telefone Amizade: 222 080 707** — line in Porto, 16:00-23:00',
-          '☎️ **Linha Vida (ICAD/SICAD): 1414** — for addictions (drugs/alcohol). Has opening hours — NOT 24-hour. Free',
+          '☎️ **Linha Vida (ICAD/SICAD): 1414** — for addictions (drugs/alcohol). Has working hours — NOT around the clock. Free',
           '☎️ **APAV (for victims of violence): 116 006** — national support for victims of crime',
           '☎️ **Linha SOS Estudante: 239 484 020** — for students in crisis'
         ]}
@@ -30,7 +30,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: '1. Family doctor', content: [
             { kind: 'checklist', items: [
-              'Book through the SNS 24 app or Centro de Saúde',
+              'Book via the SNS 24 app or Centro de Saúde',
               'Describe symptoms: anxiety, depression, sleep problems, panic attacks',
               'The family doctor can: prescribe sleeping tablets / anti-anxiety medication, refer you to a specialist',
               'Free for a registered SNS patient'
@@ -38,7 +38,7 @@ export default {
           ]},
           { id: 's2', title: '2. Psychologist in SNS', content: [
             { kind: 'checklist', items: [
-              'Waiting list: usually 1-3 months, up to 6 months in the capitals',
+              'Waiting list: usually 1-3 months, up to 6 months in major cities',
               '6-12 sessions as standard',
               'Cognitive behavioural therapy is the most common',
               'Free',
@@ -49,7 +49,7 @@ export default {
             { kind: 'checklist', items: [
               'For medication treatment (antidepressants, anti-anxiety medication, mood stabilisers)',
               'The waiting list is shorter (1-2 months) than for a psychologist',
-              'Only by referral from a family doctor',
+              'Only with a referral from a family doctor',
               'Hospital de Júlio de Matos (Lisboa), Magalhães Lemos (Porto), CHUC (Coimbra) — the largest psychiatric hospitals'
             ]}
           ]}
@@ -87,7 +87,7 @@ export default {
               '**Multicare** (Fidelidade): similar',
               '**AdvanceCare** (Generali): mental health package €200-400/year + co-payment',
               '⚠️ Carência (waiting period after taking out insurance): usually 90 days for mental health',
-              '⚠️ Pre-existing conditions (diagnosis BEFORE taking out insurance): often excluded'
+              '⚠️ Pre-existing conditions (diagnosis BEFORE taking out cover): often excluded'
             ]}
           ]}
         ]}
@@ -99,7 +99,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '**ePsicólogos** (based in Portugal) — €30-50/session online',
-          '**BetterHelp** — a more international platform, €60-90/week (subscription)',
+          '**BetterHelp** — more international platform, €60-90/week (subscription)',
           '**Talkspace** — text + video, €65-120/week',
           '**Mindler.pt** — Portugal-based teletherapy',
           '**Headspace, Calm** — meditation apps, not therapy, €6-12/month',
@@ -113,11 +113,11 @@ export default {
       title: '🌍 Specifics for immigrants',
       content: [
         { kind: 'checklist', items: [
-          '**Adjustment stress**: moving country = top 5 stressful life events. It is normal to feel lonely and frustrated in the first 6-12 months',
-          '**Language barrier with the doctor**: significant for quality mental healthcare. An English-speaking psychologist is more expensive, but more effective',
+          '**Adjustment stress**: relocation = a top-5 stressful life event. It is normal to feel lonely and frustrated in the first 6-12 months',
+          '**Language barrier with a doctor**: significant for quality mental healthcare. An English-speaking psychologist is more expensive, but more effective',
           '**Russian-speaking psychologists in Portugal**: limited list, search in Telegram chats of expat communities',
-          '**Financial instability** (waiting for a visa, spending savings) = serious triggers for anxiety',
-          '**Isolation**: weak social network in the first months. The solution — meetups, language exchanges, expat groups',
+          '**Financial instability** (waiting for a visa, spending savings) = serious anxiety triggers',
+          '**Isolation**: weak social network in the first months. The solution — meet-ups, language exchanges, expat groups',
           '**Children’s adjustment**: change of school / language → children may regress. Regular check-ups with a paediatrician or school psychologist'
         ]}
       ]
@@ -128,7 +128,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '**Russian Mental Health PT** Telegram/Facebook — peer support',
-          '**Internations Lisbon Mental Health** — meetups, free',
+          '**Internations Lisbon Mental Health** — meet-ups, free',
           '**Mindful Lisbon** — meditation, yoga groups',
           '**LGBT+ Centre** (Lisbon) — peer support for the LGBTQ+ community',
           '**ELCM / Alma Lusitana** (for Portuguese speakers) — group therapy',
@@ -143,10 +143,10 @@ export default {
       title: '💰 Tax deduction',
       content: [
         { kind: 'checklist', items: [
-          'Psychologist/psychiatrist expenses are **medical expenses** for IRS deduction',
-          '**15% of expenses up to €1000/family** — standard deduction',
-          'Get an invoice with NIF — mandatory for the deduction',
-          'Prescription medicines from the pharmacy also count',
+          'Psychologist/psychiatrist expenses — **medical expenses** for IRS deduction',
+          '**15% of expenses up to €1,000/family** — standard deduction',
+          'Obtain an invoice with NIF — mandatory for the deduction',
+          'Prescription medicines from a pharmacy also count',
           'Keep receipts for 4 years (inspection period)',
           'If you work through recibos verdes (self-employed): therapy expenses for work-related stress may count as a business expense (consult an accountant)'
         ]}
@@ -162,10 +162,10 @@ export default {
   ],
   sources: [
     { title: 'SNS 24 — Mental Health', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Ordem dos Psicólogos Portugueses', url: 'https://www.ordemdospsicologos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Order of Portuguese Psychologists', url: 'https://www.ordemdospsicologos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'SOS Voz Amiga', url: 'https://www.sosvozamiga.org/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'APAV — victim support', url: 'https://apav.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

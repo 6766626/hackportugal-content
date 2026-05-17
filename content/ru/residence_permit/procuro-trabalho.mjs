@@ -51,8 +51,8 @@ export default {
           { id: 'p4', title: '4. Поиск работы', content: [
             { kind: 'paragraph', text: 'LinkedIn, Landing.Jobs, ITJobs.pt, NetJobs, обращение напрямую к компаниям. 180 дней — реальный срок.' }
           ]},
-          { id: 'p5', title: '5. Нашли работу — переход на D3/D1', content: [
-            { kind: 'paragraph', text: 'С контрактом на руках — подача на D3 (квалифицированный специалист) или D1 (обычный работник) изнутри страны без выезда. В AIMA.' }
+          { id: 'p5', title: '5. Нашли работу — изменение основания ВНЖ', content: [
+            { kind: 'paragraph', text: 'С контрактом на руках — изменение/запрос autorização de residência по соответствующему основанию изнутри страны через AIMA. Конкретный режим зависит от типа работы: обычный трудовой контракт — режим subordinate work; для highly qualified activity — отдельный режим. Внутри Португалии меняют/запрашивают разрешение, а не «переходят на визу D3».' }
           ]},
           { id: 'p6', title: '6. Не нашли — выезд', content: [
             { kind: 'paragraph', text: 'После 180 дней без контракта — обязательный выезд. Повторная подача возможна через 1 год.' }
@@ -81,6 +81,6 @@ export default {
     { title: 'AIMA — Procura de Trabalho', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 23/2007 (DRE)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -129,6 +129,6 @@ export default {
     { title: 'UNESCO — Alto Douro Wine Region', url: 'https://whc.unesco.org/en/list/1046/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Wines of Portugal — регион Douro', url: 'https://www.winesofportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

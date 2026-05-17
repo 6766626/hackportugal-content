@@ -65,6 +65,6 @@ export default {
     { title: 'Treatwell Portugal — онлайн-запись в салоны и barbearias', url: 'https://www.treatwell.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fresha Portugal — бронирование beauty-услуг и barbershop', url: 'https://www.fresha.com/pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

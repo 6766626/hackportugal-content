@@ -180,6 +180,6 @@ export default {
     { title: 'Discover Cars — агрегатор', url: 'https://www.discovercars.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'DECO PROteste — оценки прокатных компаний', url: 'https://www.deco.proteste.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

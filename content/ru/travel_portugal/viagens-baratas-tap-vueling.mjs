@@ -122,6 +122,6 @@ export default {
     { title: 'Ryanair — официальный сайт маршрутов и правил багажа', url: 'https://www.ryanair.com', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'easyJet — официальный сайт маршрутов и правил багажа', url: 'https://www.easyjet.com', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

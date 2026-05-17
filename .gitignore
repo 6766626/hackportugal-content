@@ -8,3 +8,9 @@ dist/
 .env
 .env.local
 *.bak
+
+# Editor
+editor/node_modules/
+editor/.env
+editor/client/dist/
+editor/logs/

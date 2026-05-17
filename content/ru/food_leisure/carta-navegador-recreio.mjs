@@ -154,6 +154,6 @@ export default {
     { title: 'Decreto-Lei 124/2004 — embarcações de recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/124-2004-220127', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 568/89 — categorias e formação', url: 'https://dre.pt/dre/detalhe/portaria/568-1989-580367', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

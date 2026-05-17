@@ -3,52 +3,52 @@ export default {
   id: 'apanha-bivalves-mar',
   categoryId: 'food_leisure',
   title: 'Shellfish gathering (apanha de bivalves) — licence and sanitary zones',
-  tldr: 'Gathering shellfish on the beach and in the coastal zone (ameijoa, berbigão, conquilha, longueirão) is a separate category of Pesca Lúdica (recreational fishing) from DGRM (General Directorate of Maritime Resources). Licence "Apanha Apeada": ~€10 for 3 days, ~€25 per year. Daily limit: 1 kg in shell per person. You may gather ONLY in sanitary classified zones (zonas classificadas): IPMA (Portuguese Institute for the Sea and Atmosphere) publishes the A/B/C list every month. Gathering in unclassified zones is illegal OR requires mandatory heat treatment (even if the species is permitted). Prohibited: crowbar, any mechanical tools, and collecting shells below the minimum size (ameijoa 25 mm, berbigão 25 mm, longueirão 100 mm). The Pesca Lúdica à linha rod-fishing licence does NOT cover shellfish gathering — a separate licence is required.',
-  tags: ['bivalves', 'shellfishing', 'gathering', 'clams', 'dgrm', 'ipma'],
+  tldr: 'Gathering shellfish on the beach and in coastal areas (ameijoa, berbigão, conquilha, longueirão) is a separate Pesca Lúdica (recreational fishing) category from DGRM (Directorate-General for Natural Resources, Safety and Maritime Services). The "Apanha Apeada" licence: ~€10 for 3 days, ~€25 for a year. Daily limit: 1 kg with shell per person. You may gather ONLY in sanitary-classified zones (zonas classificadas): IPMA (Portuguese Institute for Sea and Atmosphere) publishes the A/B/C list every month. Gathering in unclassified zones is illegal OR requires mandatory heat treatment (even if the species is allowed). Prohibited: crowbars, any mechanical tools, and collecting shells below the minimum size (ameijoa 25 mm, berbigão 25 mm, longueirão 100 mm). A Pesca Lúdica à linha licence for rod fishing does NOT cover shellfish gathering — you need a separate licence.',
+  tags: ['bivalves', 'shellfishing', 'gathering', 'ameijoa', 'dgrm', 'ipma'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'what-is-apanha',
-      title: 'What is apanha de bivalves and why a separate licence 🐚',
+      title: 'What apanha de bivalves is and why it needs a separate licence 🐚',
       content: [
-        { kind: 'paragraph', text: 'Apanha de bivalves is recreational gathering of bivalve molluscs and other edible marine organisms in the coastal zone: on sandy beaches at low tide, on rocks, in estuaries. In Portugal this is a type of Pesca Lúdica (recreational fishing), legally regulated by DGRM (General Directorate of Maritime Resources), with sanitary control by IPMA (Portuguese Institute for the Sea and Atmosphere).' },
+        { kind: 'paragraph', text: 'Apanha de bivalves is recreational gathering of bivalve shellfish and other edible marine organisms in coastal areas: on sandy beaches at low tide, on rocks, in estuaries. In Portugal, it is a type of Pesca Lúdica (recreational fishing), legally regulated by DGRM (Directorate-General for Natural Resources, Safety and Maritime Services), while sanitary control is carried out by IPMA (Portuguese Institute for Sea and Atmosphere).' },
         { kind: 'checklist', items: [
           'Bivalves: ameijoa-boa (Ruditapes decussatus), ameijoa-japonesa (R. philippinarum), berbigão (Cerastoderma edule), longueirão (Ensis spp.), navalha (Solen spp.)',
           'Other molluscs: pé-de-burrinho, lapa (limpet), mexilhão (mussels) on rocks',
-          'Crustaceans: caranguejo, camarão, percebes (goose barnacles) — partly fall under this',
-          'Echinoderms: ouriço-do-mar (sea urchin) — specifically regulated',
-          'NOT included: rod fishing (requires Pesca Lúdica à linha), pulling an octopus out of its den by hand (banned since 2017), lobsters (professional harvest only)'
+          'Crustaceans: caranguejo, camarão, percebes (goose barnacles) — partly covered here',
+          'Echinoderms: ouriço-do-mar (sea urchin) — specially regulated',
+          'NOT included: rod fishing (requires Pesca Lúdica à linha), pulling an octopus out of a hole by hand (prohibited since 2017), lobsters (professional harvesting only)'
         ] },
-        { kind: 'warning', text: 'The Pesca Lúdica à linha (rod) licence does NOT apply to bivalves. And vice versa. Many think “I have a licence”, go to dig ameijoa in the Algarve and get a €250–€500 fine.' }
+        { kind: 'warning', text: 'A Pesca Lúdica à linha licence (for rod fishing) does NOT apply to bivalves. And vice versa. Many people think: “I have a licence”, go digging for ameijoa in the Algarve and get a €250-500 fine.' }
       ]
     },
     {
       id: 'sanitary-zones',
-      title: 'Sanitary zones — the most important thing',
+      title: 'Sanitary zones — the most important part',
       content: [
-        { kind: 'paragraph', text: 'This is a health matter. Bivalve molluscs filter water and accumulate toxins (biotoxins from algae — “red tides”), bacteria (E. coli, Salmonella), heavy metals. IPMA publishes an updated map every month: which zones are allowed, for which species, and in what form they can be consumed.' },
+        { kind: 'paragraph', text: 'This is a health issue. Bivalve shellfish filter water and accumulate toxins (biotoxins from algae — “red tides”), bacteria (E. coli, Salmonella), and heavy metals. IPMA publishes an updated map every month: which zones are allowed, for which species, and in what form they may be consumed.' },
         { kind: 'checklist', items: [
-          'Class A (pick and eat): rare; for example, ameijoa from Ria Formosa in good months',
-          'Class B (you may gather, but heat treatment is mandatory): most zones of Portugal. Boil for at least 5 minutes or keep for 2–3 days in clean saltwater',
-          'Class C (industrial depuration required): unavailable for recreational fishers',
-          'PROIBIDO (prohibited): collection and consumption completely banned, usually due to biotoxin peaks',
-          'Unclassified zone (zona não classificada): collection and consumption prohibited — no sanitary control'
+          'Class A (take and eat): rare; for example, ameijoa from Ria Formosa in good months',
+          'Class B (you may gather, but heat treatment is mandatory): most zones in Portugal. Boil for at least 5 minutes or keep for 2–3 days in clean salt water',
+          'Class C (industrial depuration required): not available to recreational gatherers',
+          'PROIBIDO (prohibited): gathering and consumption are completely prohibited, usually because of biotoxin peaks',
+          'Unclassified zone (zona não classificada): gathering and consumption are prohibited — there is no sanitary control'
         ] },
-        { kind: 'paragraph', text: 'IPMA updates the map weekly at ipma.pt → Mar e Pesca → Bivalves. There is also an IPMA app for iOS and Android where you can quickly check a zone by coordinates.' },
-        { kind: 'warning', text: 'Gathering in a PROIBIDO zone even in small quantities = up to €1500 fine + risk of poisoning. Biotoxins are not destroyed by boiling! Peaks — March–May and September–October after spring/autumn algal “blooms”.' }
+        { kind: 'paragraph', text: 'IPMA updates the map every week at ipma.pt → Mar e Pesca → Bivalves. There is also the IPMA app for iOS and Android, where you can quickly check a zone by coordinates.' },
+        { kind: 'warning', text: 'Gathering in a PROIBIDO zone even in small quantities = up to a €1500 fine + poisoning risk. Biotoxins are not destroyed by boiling! Peaks are March–May and September–October after spring/autumn algal “blooms”.' }
       ]
     },
     {
       id: 'how-to-license',
       title: 'Getting the Apanha Apeada licence',
       content: [
-        { kind: 'paragraph', text: 'Apply at portal.dgrm.mm.gov.pt → Licenciamento → Pesca Lúdica → Apanha Apeada. Sign in with Chave Móvel Digital (CMD; mobile digital signature) or Cartão de Cidadão (citizen card).' },
+        { kind: 'paragraph', text: 'Apply at portal.dgrm.mm.gov.pt → Licenciamento → Pesca Lúdica → Apanha Apeada. Login with Chave Móvel Digital (CMD; mobile digital signature) or Cartão de Cidadão (citizen card).' },
         { kind: 'checklist', items: [
           '3 days: ~€10',
           '1 month: ~€15',
           '1 year: ~€25',
           '3 years: ~€60',
-          'The licence is personal and non-transferable'
+          'The licence is personal and cannot be transferred'
         ] },
         { kind: 'paragraph', text: 'The “à linha apeada + apanha” combo is sometimes better value if you both fish and gather shellfish.' }
       ]
@@ -57,35 +57,35 @@ export default {
       id: 'rules-tools',
       title: 'Rules: tools, sizes, limits',
       content: [
-        { kind: 'paragraph', text: 'Minimum sizes — critical to follow:' },
+        { kind: 'paragraph', text: 'Minimum sizes are critical to respect:' },
         { kind: 'checklist', items: [
           'Ameijoa-boa and ameijoa-japonesa: 25 mm shell diameter',
           'Berbigão: 25 mm',
           'Longueirão / navalha: 100 mm length',
           'Mexilhão (mussels): 50 mm',
           'Lapa (limpet): 30 mm',
-          'Flat oyster (ostra plana): 60 mm; Portuguese: 80 mm',
-          'Polvo (octopus): 750 g (but pulling one out of its den by hand has been banned since 2017)',
+          'Flat oyster (ostra plana): 60 mm; Portuguese oyster: 80 mm',
+          'Polvo (octopus): 750 g (but pulling it out of a hole by hand has been prohibited since 2017)',
           'Percebes: 25 mm at the attachment base'
         ] },
         { kind: 'paragraph', text: 'Daily limit:' },
         { kind: 'checklist', items: [
-          'All bivalves combined: 1 kg in shell per person per day',
+          'All bivalves combined: 1 kg with shell per person per day',
           'Percebes: 0.5 kg total (specially protected species!)',
           'Mexilhão: 1 kg',
-          'Polvo: up to 5 kg (hard to reach, but there is a rule)'
+          'Polvo: up to 5 kg (hard to reach, but the rule exists)'
         ] },
-        { kind: 'paragraph', text: 'Permitted and prohibited tools:' },
+        { kind: 'paragraph', text: 'Allowed and prohibited tools:' },
         { kind: 'checklist', items: [
-          '✅ Hand picking only (fingers, a thin stick)',
+          '✅ Hand gathering only (fingers, thin stick)',
           '✅ Sieve/riddle for measuring size and sifting sand',
-          '✅ Sacha (mini-rake) up to 30 cm wide and teeth max 5 cm',
+          '✅ Sacha (mini-rake) up to 30 cm wide and with teeth no longer than 5 cm',
           '✅ Wooden knife for percebes',
-          '❌ Any shovel with a handle',
+          '❌ Any spade with a handle',
           '❌ Mantas/ras (types of nets)',
-          '❌ Motor pumps for extracting water or sand',
-          '❌ Hydraulic injection (banned everywhere since 2014)',
-          '❌ Electroshock devices'
+          '❌ Motor pumps for removing water or sand',
+          '❌ Hydro-injection (prohibited everywhere since 2014)',
+          '❌ Electric shock devices'
         ] }
       ]
     },
@@ -93,36 +93,36 @@ export default {
       id: 'where-when',
       title: 'Where and when to gather — best spots',
       content: [
-        { kind: 'paragraph', text: 'The main rule: check the current IPMA map for the current month before you go. Zone statuses change.' },
+        { kind: 'paragraph', text: 'Main rule: before you set off, check the current IPMA map for the current month. Zone statuses change.' },
         { kind: 'checklist', items: [
-          'Ria Formosa (Algarve): the main “factory” of ameijoa in Portugal. Olhão, Tavira, Faro. Often class A or B.',
+          'Ria Formosa (Algarve): Portugal’s main ameijoa “factory”. Olhão, Tavira, Faro. Often class A or B.',
           'Ria de Aveiro: berbigão and ameijoa. Season — winter and spring.',
           'Ria de Alvor: mixed bivalves.',
-          'Estuário do Sado (Setúbal): ameijoa and berbigão. Some areas are in a nature reserve (Reserva Natural) with additional rules.',
+          'Estuário do Sado (Setúbal): ameijoa and berbigão. Some zones are in a natural reserve (Reserva Natural) with additional rules.',
           'Lagoa de Albufeira: ameijoa, sometimes class A.',
-          'Ribeira do Lavre, little channels of Ria Formosa: longueirão — classic.',
-          'Costa Vicentina: percebes on rocks (VERY dangerous for beginners, there are fatalities every year).',
-          'Berlengas: EVERYTHING FORBIDDEN — Reserva Natural.'
+          'Ribeira do Lavre, small channels in Ria Formosa: longueirão — a classic.',
+          'Costa Vicentina: percebes on rocks (VERY dangerous for beginners; fatal accidents happen every year).',
+          'Berlengas: EVERYTHING IS PROHIBITED — Reserva Natural.'
         ] },
-        { kind: 'paragraph', text: 'Best time is low tide. Tide tables (calendário de marés): ipma.pt or the Tides Near Me app. 2 hours before peak low tide and 1 hour after — optimal.' },
-        { kind: 'warning', text: 'Do not overstay the low tide. The tide advances quickly in Ria Formosa and estuaries — every year there are drownings of lost gatherers. Never go out alone. A charged phone is essential.' }
+        { kind: 'paragraph', text: 'The best time is low tide. Tide tables (calendário de marés): ipma.pt or the Tides Near Me app. From 2 hours before the low-tide peak to 1 hour after is optimal.' },
+        { kind: 'warning', text: 'Do not stay beyond low tide. The tide comes in quickly in Ria Formosa and estuaries — every year lost gatherers drown. Never go out alone. A charged phone is essential.' }
       ]
     },
     {
       id: 'preparation-cooking',
-      title: 'How to treat what you gathered',
+      title: 'How to process what you have gathered',
       content: [
-        { kind: 'paragraph', text: 'For class B (most zones) treatment before eating is mandatory.' },
+        { kind: 'paragraph', text: 'For class B (most zones), treatment before eating is mandatory.' },
         { kind: 'substeps', items: [
           {
             id: 's1',
             title: 'Removing sand',
             content: [
               { kind: 'checklist', items: [
-                'Soak in salted water (35 g salt per 1 L) at “sea” temperature 12–18 °C',
+                'Soak in salt water (35 g of salt per 1 l) at “sea” temperature, 12–18 °C',
                 'At least 3–4 hours, preferably overnight',
                 'Change the water every 2–3 hours: ameijoa actively “spits out” sand',
-                'Add cornmeal — they purge faster'
+                'Add maize flour — the shellfish clear themselves faster'
               ] }
             ]
           },
@@ -131,36 +131,36 @@ export default {
             title: 'Heat treatment',
             content: [
               { kind: 'checklist', items: [
-                'For class B it is mandatory: boil for at least 5 minutes at ~90 °C or fry for at least 10 minutes',
+                'For class B, mandatory: boil for at least 5 minutes at ~90 °C or fry for at least 10 minutes',
                 'Put them into already boiling water or onto a well-heated pan',
-                'Shells opened — done; did not open — discard, do not eat',
+                'Shells opened — done; did not open — throw away, do not eat',
                 'Classic: Ameijoas à Bulhão Pato — white wine, garlic, coriander',
-                'Carne de porco com ameijoas — Alentejo classic'
+                'Carne de porco com ameijoas — an Alentejo classic'
               ] }
             ]
           }
         ] },
-        { kind: 'warning', text: 'NEVER eat them raw unless the zone is class A. Biotoxins (PSP, ASP, DSP) are not destroyed by cooking; heat treatment kills bacteria but not toxins. If there is a toxin peak now, even cooked shellfish may be dangerous. Always check with IPMA.' }
+        { kind: 'warning', text: 'NEVER eat them raw unless the zone is class A. Biotoxins (PSP, ASP, DSP) are not destroyed by boiling; heat treatment kills bacteria, but not toxins. If there is currently a toxin peak, even cooked shellfish may be dangerous. Always check with IPMA.' }
       ]
     },
     {
       id: 'enforcement',
-      title: 'Who enforces and what fines',
+      title: 'Who checks and what the fines are',
       content: [
         { kind: 'checklist', items: [
-          'Polícia Marítima (Maritime Police) — on beaches and in estuaries',
-          'GNR-SEPNA (National Republican Guard, environmental protection service) — in natural parks',
-          'Capitania (Harbour Master’s Office) — in ports',
-          'ASAE (Inspectorate of Economic and Food Safety) checks restaurants and vendors for the source of bivalves'
+          'Polícia Marítima (maritime police) — on beaches and in estuaries',
+          'GNR-SEPNA (National Republican Guard, nature protection service) — in natural parks',
+          'Capitania (port captaincy) — in ports',
+          'ASAE (economic and food safety inspectorate) checks restaurants and sellers for the source of bivalves'
         ] },
         { kind: 'checklist', items: [
-          'Without a licence: €100–€500 + confiscation of catch and tools',
-          'Gathering in a PROIBIDO zone: €250–€1500',
-          'Below minimum size: €100–€300 per infringement',
-          'Exceeding the daily limit: €100–€500',
-          'Prohibited tools (pump, shovel): up to €1500',
-          'Attempting to sell what you gathered: €500–€3000 + criminal prosecution on repeat',
-          'Gathering percebes without a licence: up to €1500 (especially strict on the Costa Vicentina)'
+          'No licence: €100–500 + confiscation of catch and tools',
+          'Gathering in a PROIBIDO zone: €250–1500',
+          'Size below the minimum: €100–300 for each offence',
+          'Exceeding the daily limit: €100–500',
+          'Prohibited tools (pump, spade): up to €1500',
+          'Attempting to sell what you gathered: €500–3000 + criminal prosecution for repeat offences',
+          'Gathering percebes without a licence: up to €1500 (especially strict in Costa Vicentina)'
         ] }
       ]
     }
@@ -175,12 +175,12 @@ export default {
     { label: 'Fine in a PROIBIDO zone', amountEURMin: 250, amountEURMax: 1500 }
   ],
   sources: [
-    { title: 'DGRM — Recreational Fishing and Gathering (Pesca Lúdica e Apanha)', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'DGRM — Pesca Lúdica and Apanha', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IPMA — Bivalves: zones and sanitary classification', url: 'https://www.ipma.pt/pt/bivalves/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IPMA Bivalves App — real-time zone map (iOS/Android)', url: 'https://www.ipma.pt/pt/bivalves/avisos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 246/2000 — Recreational Fishing and Gathering (Pesca Lúdica e Apanha)', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 27/2001 — minimum size by species', url: 'https://dre.pt/dre/detalhe/portaria/27-2001-411720', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'Decreto-Lei 246/2000 — Pesca Lúdica and Apanha', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Portaria 27/2001 — minimum size por espécie', url: 'https://dre.pt/dre/detalhe/portaria/27-2001-411720', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

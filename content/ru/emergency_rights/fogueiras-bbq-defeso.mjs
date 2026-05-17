@@ -141,6 +141,6 @@ export default {
     { title: 'IPMA — alerta meteorológico e risco incêndio', url: 'https://www.ipma.pt/pt/riscoincendio/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR — Sistema Nacional de Defesa da Floresta', url: 'https://www.gnr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

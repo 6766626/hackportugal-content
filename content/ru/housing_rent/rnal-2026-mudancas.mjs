@@ -118,6 +118,6 @@ export default {
     { title: 'Decreto-Lei 128/2014 — regime jurídico da exploração dos estabelecimentos de alojamento local', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2014-70686104', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 76/2024 — изменения режима Alojamento Local после Mais Habitação', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-895143934', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

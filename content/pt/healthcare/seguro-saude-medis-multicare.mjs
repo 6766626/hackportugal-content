@@ -3,7 +3,7 @@ export default {
   id: 'seguro-saude-medis-multicare',
   categoryId: 'healthcare',
   title: 'Seguros de saúde em Portugal: Médis vs Multicare vs AdvanceCare',
-  tldr: 'Em 2026, o seguro de saúde privado em Portugal custa normalmente 30–60 €/mês para pessoas dos 25 aos 35 anos, 60–100 €/mês depois dos 45 e 100–150 €+/mês depois dos 60, se incluir hospitalização e limites de ambulatório. A Médis é a rede premium da Ageas com um serviço forte; a Multicare, da Fidelidade, é o maior operador de massas; a AdvanceCare é uma rede/administrador, muitas vezes através da Generali Tranquilidade e de planos empresariais. Não olhe para a marca, mas sim para o plafond, copagamentos, exclusions e período de carência.',
+  tldr: 'Em 2026, um seguro de saúde privado em Portugal custa normalmente 30–60 €/mês para pessoas dos 25 aos 35 anos, 60–100 €/mês depois dos 45 e 100–150 €+/mês depois dos 60, se incluir hospitalização e limites de ambulatório. A Médis é a rede premium da Ageas, com um serviço forte; a Multicare, da Fidelidade, é o maior operador de massas; a AdvanceCare é uma rede/administrador, muitas vezes através da Generali Tranquilidade e de planos empresariais. Não olhe para a marca, mas sim para o plafond, copagamentos, exclusions e período de carência.',
   tags: ['seguro', 'saúde', 'médis', 'multicare', 'advancecare'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,31 +11,31 @@ export default {
       id: 'market-map',
       title: 'Quem é quem no mercado',
       content: [
-        { kind: 'paragraph', text: 'Em Portugal, o seguro de saúde privado não substitui o SNS, complementa-o: permite chegar mais depressa a um especialista, fazer exames e aceder a hospitais privados como CUF, Lusíadas, Luz Saúde, Trofa Saúde e clínicas convencionadas locais.' },
+        { kind: 'paragraph', text: 'Em Portugal, o seguro de saúde privado não substitui o SNS, mas complementa-o: permite chegar mais depressa a um especialista, fazer exames e ter acesso a hospitais privados como CUF, Lusíadas, Luz Saúde, Trofa Saúde e clínicas convencionadas locais.' },
         { kind: 'checklist', items: [
-          'Médis — marca de saúde insurance do grupo Ageas Portugal. É normalmente vista como um produto mais premium: boa aplicação, rede forte, telemedicina prática e apoio eficiente.',
-          'Multicare — seguro de saúde do grupo Fidelidade. Um dos maiores operadores: muitos contratos empresariais, rede ampla e, frequentemente, boa cobertura em todo o país.',
-          'AdvanceCare — nem sempre é uma “seguradora” em sentido estrito, mas sim uma rede e administradora de serviços médicos. Surge muitas vezes em apólices da Generali Tranquilidade e em pacotes empresariais.',
-          'As três funcionam com o modelo de rede convencionada: você vai a um médico da rede e paga um copagamento em vez do preço total.',
-          'Se o médico estiver fora da rede, é necessário o regime de reembolso: você paga 100%, envia a factura-recibo e aguarda o reembolso parcial.',
-          'Para um expat, o critério principal não é o logótipo, mas sim a existência das clínicas necessárias perto de casa e os limites para hospitalização, parto, estomatologia, psiquiatria e exames.'
+          'Médis — marca de seguro de saúde do grupo Ageas Portugal. É normalmente vista como um produto mais premium: boa aplicação, rede forte, telemedicina conveniente e apoio.',
+          'Multicare — seguro de saúde do grupo Fidelidade. Um dos maiores operadores: muitos contratos empresariais, rede ampla e, muitas vezes, boa cobertura em todo o país.',
+          'AdvanceCare — nem sempre é uma “seguradora” em sentido estrito, mas sim uma rede e administradora de serviços médicos. Surge frequentemente em apólices da Generali Tranquilidade e em pacotes empresariais.',
+          'As três funcionam segundo o modelo de rede convencionada: você vai a um médico da rede e paga um copagamento em vez do preço total.',
+          'Se o médico estiver fora da rede, é necessário o regime de reembolso: paga 100%, envia a factura-recibo e aguarda uma devolução parcial.',
+          'Para um expatriado, o critério principal não é o logótipo, mas sim a existência das clínicas de que precisa perto de casa e os limites para hospitalização, parto, estomatologia, psiquiatria e exames.'
         ] },
-        { kind: 'warning', text: 'Não compre uma apólice apenas pelo preço. O plano mais barato cobre muitas vezes só consultas e descontos, mas não oferece hospitalização completa. Para visto, crédito à habitação ou família, esse plano pode ser inútil.' }
+        { kind: 'warning', text: 'Não compre uma apólice apenas pelo preço. O plano mais barato cobre muitas vezes apenas consultas e descontos, mas não oferece uma hospitalização completa. Para visto, crédito habitação ou família, esse plano pode ser inútil.' }
       ]
     },
     {
       id: 'prices-2026',
       title: 'Quanto custa em 2026 💶',
       content: [
-        { kind: 'paragraph', text: 'O preço exacto depende da idade, morada, histórico clínico, franquia, copagamentos e coberturas escolhidas. Nas seguradoras, os preços são frequentemente calculados de forma individual, especialmente depois dos 55–60 anos.' },
+        { kind: 'paragraph', text: 'O preço exacto depende da idade, morada, histórico clínico, franquia, copagamentos e coberturas escolhidas. As seguradoras calculam frequentemente os preços de forma individual, sobretudo depois dos 55–60 anos.' },
         { kind: 'checklist', items: [
           '25–35 anos: cerca de 30–60 €/mês por um plano individual normal com consultas, exames e hospitalização básica.',
           '35–45 anos: cerca de 45–80 €/mês, se houver hospitalização de 25 000–50 000 € por ano.',
           '45–60 anos: cerca de 60–100 €/mês; as exclusões e o questionário de saúde tornam-se mais importantes.',
-          '60+ anos: muitas vezes 100–150 €+/mês, e alguns planos estão fechados a novas adesões depois de determinada idade.',
+          '60+ anos: frequentemente 100–150 €+/mês, e alguns planos estão fechados a novas adesões depois de determinada idade.',
           'Família de 2 adultos + criança: frequentemente 100–220 €/mês, consoante o nível de cobertura.',
-          'Dental normalmente surge como módulo separado ou como rede de descontos, não como um seguro completo.',
-          'Maternidade/parto exige quase sempre waiting period e um plafond separado.',
+          'Dental normalmente vem como módulo separado ou como rede de descontos, e não como seguro completo.',
+          'Maternidade/parto exige quase sempre um waiting period e um plafond separado.',
           'Um plano empresarial através do empregador é quase sempre mais vantajoso do que um individual: preço mais baixo e, por vezes, questionnaire médico menos exigente.'
         ] },
         { kind: 'paragraph', text: 'Se o orçamento for limitado, é melhor escolher um plano com hospitalização e copagamentos moderados do que um plano “de montra” com uma aplicação bonita, mas sem limites sérios para cirurgias.' }
@@ -48,29 +48,29 @@ export default {
         { kind: 'substeps', items: [
           { id: 'medis', title: 'Médis: quando faz sentido', content: [
             { kind: 'checklist', items: [
-              'Faz sentido se a aplicação, o apoio, a telemedicina e uma UX premium forem importantes.',
+              'Adequada se a aplicação, o apoio, a telemedicina e uma UX premium forem importantes.',
               'Boa escolha para Lisboa, Porto, Cascais, Oeiras, Braga, Coimbra, Algarve, onde há muitas clínicas privadas.',
-              'É muitas vezes prática para uma expat family: pediatria, consultas online, exames em grandes redes.',
+              'Frequentemente conveniente para uma expat family: pediatria, consultas online, exames em grandes redes.',
               'Verifique o limite de hospitalização: as opções baratas podem ser demasiado restritas.',
               'Veja o copagamento por consulta de especialidade: tipicamente 15–30 €, mas depende do plano.'
             ] }
           ] },
           { id: 'multicare', title: 'Multicare: quando faz sentido', content: [
             { kind: 'checklist', items: [
-              'Faz sentido se precisar de uma rede muito disseminada e familiar, da Fidelidade.',
-              'Surge frequentemente junto de empregadores e em produtos bancários/de parceiros.',
-              'Boa opção se não vive apenas em Lisboa/Porto: a cobertura nacional costuma ser forte.',
-              'É prática para pacotes familiares e upgrades empresariais.',
+              'Adequada se precisar de uma rede da Fidelidade o mais massificada e familiar possível.',
+              'Surge frequentemente em empregadores e em produtos bancários/de parceria.',
+              'Boa opção se não vive apenas em Lisboa/Porto: a cobertura no país é geralmente forte.',
+              'Conveniente para pacotes familiares e upgrades empresariais.',
               'Verifique o reembolso: nos planos básicos pode ser fraco ou inexistente.'
             ] }
           ] },
           { id: 'advancecare', title: 'AdvanceCare / Generali: quando faz sentido', content: [
             { kind: 'checklist', items: [
-              'Faz sentido se a apólice der acesso a uma ampla rede AdvanceCare perto da sua morada.',
+              'Adequada se a apólice der acesso a uma rede AdvanceCare ampla perto da sua morada.',
               'Surge frequentemente em produtos da Generali Tranquilidade e em seguros de grupo.',
-              'Pode ser mais vantajosa em preço, especialmente no canal empresarial.',
+              'Pode ser mais vantajosa no preço, sobretudo no canal empresarial.',
               'É importante perceber quem é exactamente a seguradora: a AdvanceCare, enquanto rede, nem sempre é a sua seguradora no contrato.',
-              'Antes de comprar, verifique se os CUF/Lusíadas/Luz/clínicas locais de que precisa aceitam o seu cartão.'
+              'Antes de comprar, verifique se as CUF/Lusíadas/Luz/clínicas locais de que precisa aceitam o seu cartão.'
             ] }
           ] }
         ] }
@@ -80,71 +80,71 @@ export default {
       id: 'fine-print',
       title: 'O que ler no contrato antes de pagar',
       content: [
-        { kind: 'paragraph', text: 'Nas apólices portuguesas, o que decide não são frases publicitárias como “acesso a 30 000 médicos”, mas sim as condições particulares e as condições gerais. Peça o PDF antes do pagamento e verifique os pontos-chave.' },
+        { kind: 'paragraph', text: 'Nas apólices portuguesas, o que conta não são as promessas publicitárias de “acesso a 30 000 médicos”, mas sim as condições particulares e as condições gerais. Peça o PDF antes de pagar e verifique os pontos-chave.' },
         { kind: 'checklist', items: [
-          'Capital / plafond hospitalização: quanto o seguro paga por cirurgias e internamento por ano.',
+          'Capital / plafond hospitalização: quanto é que o seguro paga por cirurgias e internamento por ano.',
           'Ambulatório: limite para consultas, exames, tratamentos, fisioterapia.',
-          'Copagamentos: quanto você paga por consulta, urgência, exame, cirurgia.',
-          'Franquia: montante que você paga por conta própria antes de a cobertura começar a aplicar-se.',
-          'Reembolso fora da rede: se existe reembolso fora da rede e qual é a percentagem.',
+          'Copagamentos: quanto paga por consulta, urgência, exame, cirurgia.',
+          'Franquia: montante que paga por conta própria antes de a cobertura começar a actuar.',
+          'Reembolso fora da rede: se há devolução fora da rede e qual a percentagem.',
           'Período de carência: prazo de espera até ao início da cobertura.',
-          'Exclusões: doenças crónicas, preexistentes, psiquiatria, fertilidade, cosmética, desporto de alto risco.',
-          'Maternidade: cobertura da gravidez, parto normal/cesariana, limite e waiting period.',
+          'Exclusões: doenças crónicas, preexistentes, psiquiatria, fertilidade, cosmética, desportos de alto risco.',
+          'Maternidade: cobertura de gravidez, parto normal/cesariana, limite e waiting period.',
           'Idade limite de adesão: até que idade é possível entrar no plano.',
           'Renovação anual: se a seguradora pode alterar o preço ou as condições na renovação.'
         ] },
-        { kind: 'warning', text: 'Pre-existing conditions quase sempre são excluídas ou exigem avaliação por um médico da seguradora. Não oculte diagnósticos: num claim dispendioso, a seguradora pode pedir o histórico e recusar o pagamento.' }
+        { kind: 'warning', text: 'Pre-existing conditions são quase sempre excluídas ou exigem avaliação por um médico da seguradora. Não esconda diagnósticos: perante um claim dispendioso, a seguradora pode pedir o historial e recusar o pagamento.' }
       ]
     },
     {
       id: 'waiting-periods',
-      title: 'Período de carência: quando o seguro começa realmente a funcionar',
+      title: 'Período de carência: quando é que o seguro começa realmente a funcionar',
       content: [
-        { kind: 'paragraph', text: 'Período de carência é o prazo de espera depois do início do contrato. Durante este período, você paga os prémios, mas parte das coberturas ainda não está activa. Os prazos concretos variam por plano, mas a estrutura do mercado é semelhante.' },
+        { kind: 'paragraph', text: 'Período de carência é o prazo de espera após o início do contrato. Durante esse período, paga os prémios, mas parte das coberturas ainda não está activa. Os prazos concretos diferem consoante o plano, mas a estrutura do mercado é semelhante.' },
         { kind: 'checklist', items: [
-          'Urgência por acidente é normalmente coberta imediatamente ou quase imediatamente.',
+          'Urgência por acidente é normalmente coberta de imediato ou quase de imediato.',
           'Consultas e exames têm frequentemente uma espera de cerca de 30–60 dias.',
           'Hospitalização e cirurgias têm frequentemente uma espera de cerca de 90–180 dias.',
           'Parto, gravidez e tratamentos de infertilidade exigem frequentemente 365 dias ou mais.',
-          'Psychiatry, psicologia, physiotherapy e estomatologia podem ter limites e esperas próprios.',
-          'Se estiver a mudar de outra seguradora sem interrupção, por vezes é possível pedir redução/eliminação de carências, mas isso não é um direito automático.',
-          'Os planos empresariais dão por vezes melhores condições de carências, especialmente quando há inclusão em massa de colaboradores.'
+          'Psychiatry, psicologia, physiotherapy e estomatologia podem ter limites e esperas separados.',
+          'Se estiver a mudar de outra seguradora sem interrupção, por vezes pode pedir redução/eliminação de carências, mas isso não é um direito automático.',
+          'Os planos empresariais dão por vezes melhores condições de carências, sobretudo quando há inclusão em massa de colaboradores.'
         ] },
-        { kind: 'warning', text: 'Se já está grávida, planeia uma cirurgia ou trata uma doença crónica, não conte que o novo seguro pague isso de imediato. Primeiro obtenha confirmação por escrito da seguradora ou do mediador.' }
+        { kind: 'warning', text: 'Se já está grávida, planeia uma cirurgia ou está a tratar uma doença crónica, não conte com a nova apólice para pagar isso imediatamente. Obtenha primeiro uma confirmação por escrito da seguradora ou do mediador.' }
       ]
     },
     {
       id: 'how-to-choose',
-      title: 'Escolha prática para um expat',
+      title: 'Escolha prática para expatriados',
       content: [
-        { kind: 'paragraph', text: 'O algoritmo é simples: escolha não pela marca, mas pelo cenário de utilização. Para uma pessoa de 30 anos sem doenças crónicas e para uma família com criança em Cascais, a apólice ideal será diferente.' },
+        { kind: 'paragraph', text: 'O algoritmo é simples: escolha não a marca, mas o cenário de utilização. Para uma pessoa de 30 anos sem doenças crónicas e para uma família com uma criança em Cascais, a apólice ideal será diferente.' },
         { kind: 'checklist', items: [
           'Abra os mapas da Médis, Multicare e AdvanceCare e verifique 5–10 clínicas perto de casa e do trabalho.',
-          'Verifique se há hospitais concretos na rede: CUF, Hospital da Luz, Lusíadas, Trofa Saúde ou uma clínica local.',
-          'Compare a hospitalização mínima: para maior tranquilidade, é melhor olhar para planos a partir de 25 000–50 000 € por ano ou mais.',
+          'Verifique se determinados hospitais estão na rede: CUF, Hospital da Luz, Lusíadas, Trofa Saúde ou uma clínica local.',
+          'Compare a hospitalização mínima: para maior tranquilidade, é melhor olhar para planos a partir de 25 000–50 000 € por ano e acima.',
           'Calcule o preço real: monthly premium + copagamentos + franquia + dental add-on.',
-          'Se precisa de parto — veja maternidade, plafond e waiting period de 365 dias antes da gravidez, não depois.',
-          'Se precisa de psicólogo/psiquiatra — verifique a cobertura separada; nos planos básicos é frequentemente limitada.',
+          'Se precisa de parto — veja maternidade, plafond e o waiting period de 365 dias antes da gravidez, e não depois.',
+          'Se precisa de psicólogo/psiquiatra — verifique a cobertura separada; nos planos básicos, é frequentemente limitada.',
           'Peça a proposta e as condições gerais em inglês ou português; promessas verbais do agente não contam.',
-          'Se o empregador oferece Multicare/Médis/AdvanceCare empresarial, avalie primeiro o upgrade — muitas vezes é mais vantajoso do que uma apólice familiar separada.'
+          'Se o empregador oferece um plano empresarial Multicare/Médis/AdvanceCare, avalie primeiro o upgrade — é frequentemente mais vantajoso do que uma apólice familiar separada.'
         ] },
-        { kind: 'paragraph', text: 'Recomendação de base: Médis — se o serviço e uma UX premium forem importantes; Multicare — se precisar da rede mais familiar e ampla possível; AdvanceCare/Generali — se o preço for bom e as clínicas necessárias aceitarem realmente o cartão.' }
+        { kind: 'paragraph', text: 'Recomendação de base: Médis — se o serviço e uma UX premium forem importantes; Multicare — se precisar da rede mais familiar e ampla possível; AdvanceCare/Generali — se o preço for bom e as clínicas de que precisa aceitarem mesmo o cartão.' }
       ]
     }
   ],
   costs: [
-    { label: 'Plano individual 25–35 anos', amountEURMin: 30, amountEURMax: 60, note: 'Valor indicativo por mês em 2026; depende da cobertura e dos copagamentos.' },
+    { label: 'Plano individual 25–35 anos', amountEURMin: 30, amountEURMax: 60, note: 'Referência por mês em 2026; depende da cobertura e dos copagamentos.' },
     { label: 'Plano individual 45–60 anos', amountEURMin: 60, amountEURMax: 100, note: 'Com hospitalização e ambulatório; questionário de saúde obrigatório.' },
-    { label: 'Plano individual 60+', amountEURMin: 100, amountEURMax: 150, note: 'Pode ser mais alto; são possíveis limites de idade para adesão.' },
-    { label: 'Copagamento por consulta de especialidade', amountEURMin: 15, amountEURMax: 30, note: 'Intervalo típico dentro da rede; o montante exacto está indicado na tabela de copagamentos.' },
-    { label: 'Plano familiar 2 adultos + criança', amountEURMin: 100, amountEURMax: 220, note: 'Valor indicativo por mês; os planos empresariais podem ser mais baratos.' }
+    { label: 'Plano individual 60+', amountEURMin: 100, amountEURMax: 150, note: 'Pode ser superior; são possíveis limites de idade para adesão.' },
+    { label: 'Copagamento por consulta de especialidade', amountEURMin: 15, amountEURMax: 30, note: 'Intervalo típico na rede; o montante exacto está indicado na tabela de copagamentos.' },
+    { label: 'Plano familiar 2 adultos + criança', amountEURMin: 100, amountEURMax: 220, note: 'Referência por mês; os planos empresariais podem ser mais baratos.' }
   ],
   sources: [
-    { title: 'Médis — planos oficiais e rede saúde', url: 'https://www.medis.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Médis — planos oficiais e rede de saúde', url: 'https://www.medis.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Multicare — planos oficiais e rede médica', url: 'https://www.multicare.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Generali Tranquilidade — seguros de saúde e rede AdvanceCare', url: 'https://www.generali.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ASF — supervisão do mercado segurador em Portugal', url: 'https://www.asf.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ASF — supervisão do mercado segurador de Portugal', url: 'https://www.asf.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

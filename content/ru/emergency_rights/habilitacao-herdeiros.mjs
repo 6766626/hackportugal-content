@@ -73,6 +73,6 @@ export default {
     { title: 'Código do Imposto do Selo — regras declarativas e transmissões gratuitas', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1999-34460875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EUR-Lex — Regulation (EU) No 650/2012 on succession', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0650', kind: 'law', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

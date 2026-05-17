@@ -92,7 +92,7 @@ export default {
             { kind: 'paragraph', text: 'Вы приходите → медсестра оценивает состояние → присваивает цвет приоритета (красный = 0 мин, оранжевый = 10 мин, жёлтый = 60 мин, зелёный = 120 мин, синий = 240 мин, белый = не срочно, идите в Centro de Saúde).' }
           ]},
           { id: 'u3', title: 'Стоимость', content: [
-            { kind: 'paragraph', text: 'Пользовательский сбор с 2022 года отменён — бесплатно. Но если цвет «белый/синий» (не срочно), могут направить в Centro de Saúde.' }
+            { kind: 'paragraph', text: 'С 2022 года (DL 52/2022) большинство taxas moderadoras SNS отменены, но в Serviço de Urgência они могут взиматься, если пациент пришёл без предварительного referenciamento SNS24/семейного врача и нет госпитализации/исключения. Если цвет «белый/синий» (не срочно), могут направить в Centro de Saúde.' }
           ]},
           { id: 'u4', title: 'Частная неотложная помощь', content: [
             { kind: 'paragraph', text: 'В частной клинике (CUF, Luz) — без очереди, но € 80–150 за первый приём. Быстрее, если очередь в SNS 4+ часа.' }
@@ -106,6 +106,6 @@ export default {
     { title: 'SNS 24 — онлайн-услуги', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ACSS — статистика SNS', url: 'https://www.acss.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

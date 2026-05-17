@@ -2,97 +2,97 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'vinho-caseiro-particular',
   categoryId: 'food_leisure',
-  title: 'Your own homemade wine — what is permitted without a licence',
-  tldr: 'If you have grapes growing on your plot, you can make wine for your own consumption without any licences. Limit — 100 L per year per household without a declaration (IVDP law). Above 100 L — a mandatory declaration to IVV (Instituto da Vinha e do Vinho), even with no sales. Selling is a seriously regulated business: compulsory quality certificate, IGP/DOC certification, IVA, registration with IVV. For quintas with vines, check whether your plot is in a DOC region — it affects permitted varieties and style. Blending with table wines and selling as DOC without certification = a big fine.',
-  tags: ['wine', 'wine', 'ivdp', 'doc', 'homemade'],
+  title: 'Your own homemade wine — what is allowed without a licence',
+  tldr: 'If you have grapes growing on your plot, you can make wine for your own consumption without any licences. The limit is 100 l per year per family without a declaration (IVDP law). Above 100 l — a declaration to the IVV (Instituto da Vinha e do Vinho) is mandatory, even without selling. Selling is a seriously regulated business: a quality certificate, IGP/DOC certification, IVA, registo with the IVV are mandatory. For quintas with vines, it is worth checking whether the plot is in a DOC region — this affects the permitted grape varieties and style. Mixing with ordinary wines and selling as DOC without certification = a large fine.',
+  tags: ['wine', 'homemade', 'ivdp', 'doc', 'home-made'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'limits',
       title: 'Limits for personal consumption',
       content: [
-        { kind: 'paragraph', text: 'Portugal is the fifth-largest wine producer in the world. The law is relatively lenient towards home production, but there are clear rules:' },
+        { kind: 'paragraph', text: 'Portugal is the fifth-largest wine-producing country in the world. The law treats home production relatively leniently, but there are clear rules:' },
         { kind: 'checklist', items: [
-          'Up to 100 L/year per household: NO declarations. Make it and drink it, gift to neighbours',
-          '100–1,000 L/year: declaration to IVV (Instituto da Vinha e do Vinho) is mandatory, even with no sales. The declaration is free but compulsory',
-          '1,000+ L/year: deemed commercial production. Vineyard registration, atestado, regular tests',
-          'Limits are calculated per “household” (agregado familiar), not per adult'
+          'Up to 100 l/year for a family: NO declarations. Make it and drink it, give it to neighbours',
+          '100-1000 l/year: a declaration to the IVV (Instituto da Vinha e do Vinho) is mandatory, even without selling. The declaration is free, but mandatory',
+          '1000+ l/year: this is already commercial production. Vineyard registration, atestado, regular samples',
+          'Limits are calculated per "family" (agregado familiar), not per adult'
         ] },
-        { kind: 'paragraph', text: 'This concerns “vinho de mesa” — ordinary table wine. For other products:' },
+        { kind: 'paragraph', text: 'This applies to "vinho de mesa" — ordinary wine. For other products:' },
         { kind: 'checklist', items: [
-          'Aguardente (brandy, grape spirit): requires licenciamento alfandegário (customs licence), even for small volumes',
+          'Aguardente (brandy, grape spirit): requires licenciamento alfandegário (customs licence), even for a small volume',
           'Vinagre (vinegar): for personal use — not regulated',
-          'Licor (liqueur) — without added sugar/spirit: up to 30 L/year without declaration'
+          'Licor (liqueur) — without sugar/spirit additives: up to 30 l/year without a declaration'
         ] }
       ]
     },
     {
       id: 'doc-regions',
-      title: 'DOC regions and vines on your plot',
+      title: 'DOC regions and grapes on your plot',
       content: [
-        { kind: 'paragraph', text: 'If your plot is in one of the DOC (Denominação de Origem Controlada) regions, you can choose to use certification or not. Without certification your wine is “vinho regional” or “vinho” (general category).' },
+        { kind: 'paragraph', text: 'If your plot is in one of the DOC (Denominação de Origem Controlada) regions, you have a choice: use certification or not. Without certification, your wine is "vinho regional" or "vinho" (general category).' },
         { kind: 'checklist', items: [
-          'Douro DOC: classic Port and dry wines. Varieties: Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca',
-          'Vinho Verde DOC: young light wines. Varieties: Loureiro, Trajadura, Alvarinho',
-          'Alentejo DOC: full-bodied reds. Aragonez, Trincadeira, Castelão',
-          'Dão DOC: delicate reds and whites. Touriga Nacional, Encruzado, Jaen',
+          'Douro DOC: classic port and dry wines. Varieties: Touriga Nacional, Touriga Franca, Tinta Roriz, Tinta Barroca',
+          'Vinho Verde DOC: young, light wines. Varieties: Loureiro, Trajadura, Alvarinho',
+          'Alentejo DOC: heavy reds. Aragonez, Trincadeira, Castelão',
+          'Dão DOC: refined reds and whites. Touriga Nacional, Encruzado, Jaen',
           'Bairrada DOC: classic Baga, Maria Gomes',
           'Madeira DOC: dessert wines. Sercial, Verdelho, Bual, Malvasia',
-          'Lisboa: “vinho regional” — between DOC and generic. Greater flexibility',
-          'Algarve: 4 DOC regions + a general regional category',
+          'Lisboa: "vinho regional" — between DOC and the general category. A lot of flexibility',
+          'Algarve: 4 DOC regions + a general region',
           'Açores: volcanic soils, specific varieties (Verdelho, Arinto dos Açores)'
         ] },
-        { kind: 'paragraph', text: 'To produce a DOC wine you need certification from the Comissão Vitivinícola Regional (CVR) of the respective region. At minimum: registo of the vineyard with IVV + wine analyses + panel tasting.' }
+        { kind: 'paragraph', text: 'To make DOC wine, you need certification from the Comissão Vitivinícola Regional (CVR) of the relevant region. Minimum: registo of the vineyard with the IVV + wine analyses + tasting by the committee.' }
       ]
     },
     {
       id: 'making',
-      title: 'Process — what you need',
+      title: 'The process — what you need',
       content: [
-        { kind: 'paragraph', text: 'Basic kit for household production up to 100 L:' },
+        { kind: 'paragraph', text: 'Basic kit for family production up to 100 l:' },
         { kind: 'checklist', items: [
-          'Grapes: 100 kg = ~70–75 L of wine',
-          'Crusher (esmagador): manual ~€150 or hire from €30/day',
-          'Fermenter (cuba de fermentação): 100 L lidded plastic vessel — €50–€100',
-          'Sulphite (metabissulfito de potássio): essential, anti-bacterial. ~€10 per season',
-          'Yeast (leveduras enológicas): ~€5/pack for 100 L',
-          'Hydrometer (densímetro) + refractometer: to measure sugar. ~€30–€50',
-          'Dark glass 0.75 L bottles: €0.50–€1 each',
-          'Natural corks (cork from Algarve): €0.20–€0.50 each',
-          'Capsules and labels: optional for presentation',
-          'Barrel (if you want): 25–50 L oak = €200–€500. For reds, longer ageing'
+          'Grapes: 100 kg = ~70-75 l of wine',
+          'Crusher (esmagador): manual ~€150 or rental from €30/day',
+          'Fermenter (cuba de fermentação): 100 l plastic tank with lid — €50-100',
+          'Sulphite (metabissulfito de potássio): mandatory, against bacteria. ~€10 per season',
+          'Yeast (leveduras enológicas): ~€5/packet for 100 l',
+          'Hydrometer (densímetro) + refractometer (refractometro): to measure sugar. ~€30-50',
+          'Dark glass bottles 0.75 l: €0.50-1 each',
+          'Natural corks (cork oak from Algarve): €0.20-0.50 each',
+          'Capsules and labels: extra, for looks',
+          'Barrel (if you want): 25-50 l oak = €200-500. For reds with longer ageing'
         ] },
-        { kind: 'paragraph', text: 'Process, simplified:' },
+        { kind: 'paragraph', text: 'The process, simplified:' },
         { kind: 'checklist', items: [
-          'Harvest: mid-September to late October depending on region',
+          'Harvest: mid-September to late October, depending on the region',
           'Crushing + destemming (engaço)',
           'Sulphite immediately',
-          'Add yeast after 24 hours',
-          'Fermentation: 7–15 days at ~22–26°C',
-          'Racking to a clean vessel (trasfega): separate from the lees (borras)',
+          'Yeast after 24 hours',
+          'Fermentation: 7-15 days at ~22-26°C',
+          'Transfer to a clean tank (trasfega): separate from the sediment (borras)',
           'Top up (right to the brim), tight lid',
-          'Ageing: 3–12 months depending on style',
+          'Ageing: 3-12 months depending on style',
           'Bottling',
-          'Bottle maturation: at least 6–12 months for reds'
+          'Bottle maturation: 6-12 months minimum for reds'
         ] }
       ]
     },
     {
       id: 'selling',
-      title: 'If you want to sell — stringent requirements',
+      title: 'If you want to sell — serious requirements',
       content: [
-        { kind: 'paragraph', text: 'Commerce is a different league. In addition to the standard business setup you will need:' },
+        { kind: 'paragraph', text: 'Commerce is a different league. In addition to the standard business set-up, you need:' },
         { kind: 'checklist', items: [
-          'Vineyard registration with IVV (RVCC — Registo Vitivinícola)',
-          'Harvest and production declarations each season',
+          'Vineyard registration with the IVV (RVCC — Registo Vitivinícola)',
+          'Harvest and production declarations every season',
           'Wine analyses: alcoholic strength, sulphites, acidity, microorganisms',
-          'IPAC-accredited laboratory: ~€80–€200 for a full analysis',
-          'Labels per EU 2019/787: type, region, alcoholic %, volume, NIF, country, allergens (sulphites, eggs)',
-          'Lote code (batch): mandatory',
-          'Atividade aberta at Finanças: CIRS code 1102 — produção de vinhos',
+          'IPAC-accredited laboratory: ~€80-200 for a full analysis',
+          'Labels under EU 2019/787: type, region, alcoholic %, volume, NIF, country, allergens (sulphites, eggs)',
+          'Lote Code (batch): mandatory',
+          'Atividade aberta in Finanças: CIRS code 1102 — produção de vinhos',
           'IVA: 13% reduced for vinho de mesa, 23% for premium',
-          'Selling at markets: licence from Câmara, AT excise (alcohol tax) ~€0.10/L',
-          'Online sales: overseen by ASAE, mandatory seller registration',
+          'Selling at markets: licence from the Câmara, AT excise duty (alcohol tax) ~€0.10/l',
+          'Online sales: ASAE supervises, seller registration is mandatory',
           'Export outside the EU: licence from Direção Geral das Alfândegas (customs)'
         ] }
       ]
@@ -102,46 +102,46 @@ export default {
       title: 'Tips and festivals',
       content: [
         { kind: 'checklist', items: [
-          'If you have 5–10 grapevines at your country house — you will immediately get 50–70 L of oil per season (this is already a household stock)',
-          'The “vinhão” variety (Vinho Verde region) — the most “garden-plot friendly”: easy to make, accessible equipment',
-          'Local farmers (vinicultores) often take olives/grapes from neighbours for a percentage or cash',
-          'Adega cooperativa — the local winegrowers’ cooperative, can take your grapes and make a collective wine',
+          'If you have 5-10 vines at your holiday home — expect roughly 50-70 l of wine per season straight away (that is already a family stock)',
+          'The "vinhão" variety (Vinho Verde region) is the most "country-house friendly": easy to make, accessible equipment',
+          'Local farmers (vinicultores) often accept olives/grapes from neighbours for a percentage or for money',
+          'Adega cooperativa — a local winemakers’ cooperative, can accept your grapes and make communal wine',
           'Regional festas: Festa das Vindimas in Palmela (September), Vinho Verde Festival in the Northwest, Festa do Vinho in Madeira',
-          'Courses for enthusiasts: IVDP in Porto, Universidade de Évora, ESAS Castelo Branco',
-          'Books: “Manual do Vinho Caseiro” (in Portuguese), many YouTube channels'
+          'Courses for enthusiasts: IVDP in Porto, Universidade de Evora, ESAS Castelo Branco',
+          'Books: "Manual do Vinho Caseiro" (in Portuguese), lots of YouTube channels'
         ] }
       ]
     },
     {
       id: 'fines',
-      title: 'Fines for infringements',
+      title: 'Fines for violations',
       content: [
         { kind: 'checklist', items: [
-          'Producing over 100 L without an IVV declaration: €100–€1,000',
-          'Selling without registo: €500–€5,000',
-          'Using a DOC name without certification: €1,500–€25,000',
-          'Counterfeiting a regional name: criminal offence',
-          'Aguardente without a customs licence: €500–€25,000 + confiscation',
-          'Failure to pay alcohol excise on sale: €1,000–€50,000'
+          'Production above 100 l without an IVV declaration: €100-1000',
+          'Selling without registo: €500-5000',
+          'Use of a DOC name without certification: €1500-25000',
+          'Falsifying a regional name: criminal offence',
+          'Aguardente without a customs licence: €500-25000 + confiscation',
+          'Failure to pay alcohol excise duty when selling: €1000-50000'
         ] }
       ]
     }
   ],
   costs: [
-    { label: 'Grapes (if buying)', amountEURMin: 0.50, amountEURMax: 2, note: 'Per kg; for 100 L — 100–150 kg' },
-    { label: 'Starter kit (vessel, yeast, sulphite)', amountEURMin: 100, amountEURMax: 250 },
+    { label: 'Grapes (if you buy them)', amountEURMin: 0.50, amountEURMax: 2, note: 'Per kg; for 100 l — 100-150 kg' },
+    { label: 'Starter kit (tank, yeast, sulphite)', amountEURMin: 100, amountEURMax: 250 },
     { label: 'Manual crusher', amountEURMin: 100, amountEURMax: 250 },
-    { label: '0.75 L bottles for 100 L of wine', amountEURMin: 70, amountEURMax: 130, note: '~130 bottles' },
-    { label: '25–50 L oak barrel', amountEURMin: 200, amountEURMax: 500, note: 'Optional for red' },
-    { label: 'Analysis for commerce', amountEURMin: 80, amountEURMax: 200, note: 'Laboratory' },
-    { label: 'DOC certification', amountEURMin: 200, amountEURMax: 500, note: 'Via CVR' }
+    { label: '0.75 l bottles for 100 l of wine', amountEURMin: 70, amountEURMax: 130, note: '~130 bottles' },
+    { label: 'Oak barrel 25-50 l', amountEURMin: 200, amountEURMax: 500, note: 'Optional for red wine' },
+    { label: 'Analysis for commercial sale', amountEURMin: 80, amountEURMax: 200, note: 'Laboratory' },
+    { label: 'DOC certification', amountEURMin: 200, amountEURMax: 500, note: 'Through CVR' }
   ],
   sources: [
-    { title: 'IVV — Institute of Vine and Wine', url: 'https://www.ivv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IVDP — Institute of the Wines of Douro and Porto', url: 'https://www.ivdp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 219/2008 — legal regime of the wine sector', url: 'https://dre.pt/dre/detalhe/decreto-lei/219-2008-441478', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'IVV — Instituto da Vinha e do Vinho', url: 'https://www.ivv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'IVDP — Instituto dos Vinhos do Douro e Porto', url: 'https://www.ivdp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 219/2008 — legal regime for the wine sector', url: 'https://dre.pt/dre/detalhe/decreto-lei/219-2008-441478', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — support for viticulture', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

@@ -152,6 +152,6 @@ export default {
     { title: 'Decreto-Lei 102/2018 — exames médicos desportivos', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-2018-117203174', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 248-A/2008 — regime jurídico dos contratos de seguro de federações desportivas', url: 'https://dre.pt/dre/detalhe/decreto-lei/248-a-2008-242876', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

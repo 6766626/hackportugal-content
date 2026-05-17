@@ -161,6 +161,6 @@ export default {
     { title: 'Decreto-Lei 112/2017 — режим Pesca em Águas Interiores', url: 'https://dre.pt/dre/detalhe/decreto-lei/112-2017-108128620', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR SEPNA — экологическая полиция', url: 'https://www.gnr.pt/sepna.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

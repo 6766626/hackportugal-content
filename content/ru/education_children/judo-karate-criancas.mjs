@@ -104,6 +104,6 @@ export default {
     { title: 'Federação Nacional de Karate - Portugal — структура, clubes и eventos', url: 'https://www.fpkarate.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IPDJ — enquadramento do desporto federado e seguro desportivo', url: 'https://ipdj.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

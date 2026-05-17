@@ -22,7 +22,7 @@ export default {
             { kind: 'paragraph', text: 'Western Algarve. Active town, young people, surfing. Clubs. T1 €800–1,300.' }
           ]},
           { id: 'c4', title: 'Albufeira', content: [
-            { kind: 'paragraph', text: 'The tourism capital. Crowds of Britons in summer. Good for family holidays. T1 €700–1,200 off season.' }
+            { kind: 'paragraph', text: 'The tourist capital. Crowds of Britons in summer. For family holidays. T1 €700–1,200 out of season.' }
           ]},
           { id: 'c5', title: 'Portimão', content: [
             { kind: 'paragraph', text: 'A large, practical city. Hospitals, schools, Continente, everything nearby. Many expats. T1 €700–1,100.' }
@@ -35,7 +35,7 @@ export default {
     },
     {
       id: 'why-live',
-      title: 'Advantages of living there',
+      title: 'Advantages of living here',
       content: [
         { kind: 'checklist', items: [
           'Climate: 300 days of sunshine, mild winter +15–18°C',
@@ -55,11 +55,11 @@ export default {
       title: 'Disadvantages',
       content: [
         { kind: 'checklist', items: [
-          'Seasonality: in summer rent is 3 times more expensive, restaurants are packed',
-          'In winter many places are closed (especially in small towns)',
-          'There is little work — everything is geared towards tourism and pensioners',
+          'Seasonality: in summer rent is 3 times more expensive, restaurants are overcrowded',
+          'In winter many establishments are closed (especially in small towns)',
+          'There is little work — everything is geared towards tourism and retirees',
           'Far from Lisbon (3 h by train / 2.5 h by car)',
-          'If you use “English only” — integration is weaker, with less Portuguese culture',
+          'If it is “English only” — integration is weaker, less Portuguese culture',
           'Children’s education: fewer international schools than in Lisbon/Porto',
           'Healthcare: SNS hospital in Faro, but complex operations are in Lisbon'
         ]}
@@ -70,12 +70,12 @@ export default {
       title: 'Who it is for',
       content: [
         { kind: 'checklist', items: [
-          '👴 D7 pensioners — ideal',
-          '💻 D8 digital nomads — excellent for summer, but it can be quiet in winter',
+          '👴 D7 retirees — ideal',
+          '💻 D8 digital nomads — excellent for summer, but it may be quiet in winter',
           '👨‍👩‍👧 Families with children — good if there is an international school nearby',
           '🏄 Surfers — western Algarve (Lagos, Sagres)',
           '🏌️ Golfers — Vilamoura, Vale do Lobo',
-          '💼 NOT suitable for an IT/corporate career — Lisbon/Porto is better'
+          '💼 NOT suitable for an IT/corporate career — Lisbon/Porto are better'
         ]}
       ]
     },
@@ -100,6 +100,6 @@ export default {
     { title: 'CCDR Algarve — regional administration', url: 'https://www.ccdr-alg.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMAL — association of Algarve municipalities', url: 'https://www.amal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

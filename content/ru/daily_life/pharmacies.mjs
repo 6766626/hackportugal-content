@@ -3,7 +3,7 @@ export default {
   id: 'pharmacies',
   categoryId: 'healthcare',
   title: 'Аптеки в Португалии — Farmácia и Parafarmácia',
-  tldr: 'Farmácia (зелёный крест) — продаёт рецептурные и безрецептурные лекарства, есть консультация фармацевта. Parafarmácia — только безрецептурные препараты и уходовая косметика. С NIF — скидка SNS 37–90% на рецептурные лекарства. Farmácia de serviço — дежурная аптека ночью, работает 24/7 в районе.',
+  tldr: 'Farmácia (зелёный крест) — продаёт рецептурные и безрецептурные лекарства, есть консультация фармацевта. Parafarmácia — только безрецептурные препараты и уходовая косметика. Comparticipação SNS (37-90% по escalão A/B/C/D) применяется к рецептам, выписанным в системе с корректной идентификацией пользователя/бенефициара — NIF сам по себе не даёт SNS-скидку. Farmácia de serviço — дежурная аптека по escala de serviço.',
   tags: ['аптека', 'farmácia', 'рецепт', 'sns'],
   estimatedReadMinutes: 4,
   steps: [
@@ -28,7 +28,7 @@ export default {
         { kind: 'paragraph', text: 'Рецепт получаете у врача (SNS или частного). Электронный — приходит SMS с кодом и паролем. Бумажный — если его выдал частный врач без связи с SNS.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'В аптеке', content: [
-            { kind: 'paragraph', text: 'Показать код рецепта (SMS) + паспорт/Cartão de Cidadão. Фармацевт видит рецепт в системе. Оплата со скидкой SNS (10–90% в зависимости от препарата).' }
+            { kind: 'paragraph', text: 'Показать код рецепта (SMS) + паспорт/Cartão de Cidadão (или Número de Utente). Фармацевт видит рецепт в системе. Оплата со скидкой SNS (15-90% по escalões A/B/C/D режима geral; для некоторых заболеваний действуют специальные режимы comparticipação).' }
           ]},
           { id: 'p2', title: 'Скидки SNS', content: [
             { kind: 'checklist', items: [
@@ -50,10 +50,10 @@ export default {
       id: 'night',
       title: 'Ночная / дежурная аптека',
       content: [
-        { kind: 'paragraph', text: 'Farmácia de Serviço — каждую ночь в каждом районе одна аптека дежурит 24/7. Список есть на двери любой Farmácia или на сайте INFARMED.' },
+        { kind: 'paragraph', text: 'Farmácia de Serviço — дежурство организуется по escala de serviço (графику), как правило, посменно между аптеками в зоне. Это не гарантия что в каждой freguesia есть аптека 24/7 — проверяйте список дежурных. График вывешен на двери любой Farmácia или на сайте.' },
         { kind: 'checklist', items: [
           '📍 farmacias.pt — сайт со списком дежурных аптек по почтовому коду',
-          '📞 112 в экстренной ситуации — подскажут ближайшую',
+          '📞 Linha 1400 / farmaciasdeservico.net — информация о дежурных аптеках; 112 — только экстренная помощь',
           '💊 После 22:00 звоните по видеодомофону — аптекарь выдаёт через окошко',
           '💰 Ночью наценка около € 2,50 сверху'
         ]}
@@ -68,7 +68,7 @@ export default {
             { kind: 'paragraph', text: 'Parafarmácia или Farmácia: Ibuprofeno, Paracetamol (Ben-U-Ron), Bisolvon, Cegripe.' }
           ]},
           { id: 'm2', title: 'Аллергия', content: [
-            { kind: 'paragraph', text: 'Loratadina, Aerius, Cetirizina — без рецепта в Farmácia.' }
+            { kind: 'paragraph', text: 'Loratadina, Cetirizina часто доступны без рецепта; многие формы desloratadina (бренд Aerius) в Португалии классифицированы как MSRM — субъект к рецепту. Уточняйте у фармацевта.' }
           ]},
           { id: 'm3', title: 'Антибиотики', content: [
             { kind: 'paragraph', text: 'Только по рецепту. Amoxicilina, Azitromicina.' }
@@ -88,6 +88,6 @@ export default {
     { title: 'Farmácias de Portugal — дежурные аптеки', url: 'https://www.farmacias.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

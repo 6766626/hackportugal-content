@@ -19,7 +19,7 @@ export default {
           'Список: portaldasfinancas.gov.pt → IRS → Consignação',
           '💰 Конкретно: 0,5% от вашего итогового налога. Для 30 000 €/год — это ~50-150 €',
           '🔁 Можно менять выбор каждый год',
-          '🇵🇹 Также: дополнительно можно направить 1% от **IVA** на благотворительные организации (с 2018) — двойная возможность'
+          '🇵🇹 Также: можно consignar benefício fiscal do IVA — передать благотворительной организации сумму вашего вычета по IVA из eligible invoices. Это НЕ бесплатно: в отличие от 0,5% IRS, вы теряете этот IVA deduction'
         ]}
       ]
     },
@@ -36,7 +36,7 @@ export default {
               '✅ Получить **счёт/квитанцию с NIF** от благотворительной организации',
               '✅ Проверить сумму и NIF в e-Fatura',
               '⚠️ **Лимит**: до 15% от суммы налога к уплате (большинство семей не достигают лимита)',
-              '✅ **Вычет**: 25% от пожертвования × 1,30 (корректирующий коэффициент для IPSS)'
+              '✅ **Вычет**: обычно 25% от eligible amount; для некоторых social-mecenato donations сумма может быть uplifted (например, 130%), но только если beneficiary/donation qualifies по EBF arts. 61-66'
             ]}
           ]},
           { id: 'd2', title: 'Примеры', content: [
@@ -83,13 +83,13 @@ export default {
           { id: 'c3', title: 'Cruz Vermelha (Португальский Красный Крест)', content: [
             { kind: 'checklist', items: [
               'Реагирование на чрезвычайные ситуации, акции по сдаче крови, социальная помощь',
-              'cruzvermelha.pt → Donar',
+              'cruzvermelha.pt → Donativos / Doar',
               'Волонтёрские программы в 200+ delegações',
               'IBAN для прямых пожертвований'
             ]}
           ]},
-          { id: 'c4', title: 'Médicos do Mundo / SOS Crianças', content: [
-            { kind: 'paragraph', text: 'Медицинская помощь в развивающихся странах + защита детей. medicosdomundo.pt; soscriancas.pt' }
+          { id: 'c4', title: 'Médicos do Mundo / Instituto de Apoio à Criança (SOS-Criança)', content: [
+            { kind: 'paragraph', text: 'Médicos do Mundo — медицинская помощь в кризисных регионах (medicosdomundo.pt). Instituto de Apoio à Criança / SOS-Criança — защита детей (iacrianca.pt).' }
           ]},
           { id: 'c5', title: 'Защита животных', content: [
             { kind: 'checklist', items: [
@@ -123,9 +123,9 @@ export default {
       title: '🤝 Время как пожертвование — волонтёрские программы',
       content: [
         { kind: 'checklist', items: [
-          '🎯 **EVS (European Voluntary Service)**: 6-12 мес. в Португалии, жильё + еда + карманные деньги',
+          '🎯 **European Solidarity Corps** (вместо устаревшего EVS): волонтёрские проекты в Португалии/EU, с travel/support, жильём/едой или allowance в зависимости от проекта',
           '🎯 **Кампании Banco Alimentar**: 2 раза в год, 4-8 часов, очень простой вход',
-          '🎯 **CPCJ (защита детей)**: постоянное волонтёрство для заботы о детях',
+          '🎯 **Волонтёрство с детьми**: через аккредитованные IPSS/ассоциации, со screening/background checks. CPCJ — официальные комиссии защиты детей; обращайтесь к ним за консультацией, не как к casual volunteering',
           '🎯 **Помощь беженцам** (CPR, JRS): украинские и другие беженцы, языковое сопровождение, поддержка интеграции',
           '🎯 **Волонтёры в больницах** (Cruz Vermelha): в больницах — сопровождение / занятия для пожилых',
           '🎯 **AMI** (Assistência Médica Internacional): стажировки в Португалии или отправка за рубеж для медицинских миссий',
@@ -161,6 +161,6 @@ export default {
     { title: 'Segurança Social — IPSS registry', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Cáritas Portuguesa', url: 'https://www.caritas.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

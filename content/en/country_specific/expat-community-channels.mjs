@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'expat-community-channels',
   categoryId: 'country_specific',
-  title: 'Where immigrants talk: country-by-country channels, groups and forums',
-  tldr: 'Every major diaspora in Portugal has its own Telegram channels, Facebook groups and forums where day-to-day questions (NIF, rentals, AIMA, doctors, schools, banks) get fast answers. The most active communities: Brazilians (Telegram + large FB groups), Americans (Americans & Friends PT — the de-facto standard), British (British Expats forum + Algarve FB groups), Indians (several city-level FB groups), and general expat networks (Reddit r/PortugalExpats, InterNations, Expats Portugal Forum). These channels are NOT a substitute for official sources (AIMA, Finanças, the consulate) — but they are the fastest way to find lived experience from people in your situation.',
+  title: 'Where immigrants connect: channels, groups and forums by country',
+  tldr: 'In Portugal, every major diaspora has its own Telegram channels, Facebook groups and forums where everyday questions are answered quickly (NIF, renting, AIMA, doctors, schools, banks). The most active communities are: Brazilians (Telegram + large FB groups), Americans (Americans & Friends PT — the de facto standard), British people (British Expats forum + Algarve FB), Indians (several city FB groups), and general expat networks (Reddit r/PortugalExpats, InterNations, Expats Portugal Forum). These channels are NOT a substitute for official sources (AIMA, Finanças, embassy), but they are an excellent way to find real-life experience from people in your situation.',
   tags: ['community', 'telegram', 'facebook', 'reddit', 'diaspora'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,13 +11,13 @@ export default {
       id: 'how-to-use',
       title: 'How to use this list',
       content: [
-        { kind: 'paragraph', text: 'Social channels change activity quickly: some die out, some take off, admins rotate. This list is a starting point, not a permanent reference. Before relying on advice from a group, verify against the original source (AIMA, Finanças, your consulate, your insurance, your bank).' },
+        { kind: 'paragraph', text: 'Groups and channels on social networks change activity quickly: some fade, some take off, admins change. This list is a starting point, not a reference book for years ahead. Before relying on advice from a group, check it against an official source (AIMA, Finanças, embassy, insurer, bank).' },
         { kind: 'checklist', items: [
-          '✅ Use communities for: lived experience, local recommendations (neighbourhood, school, doctor), quick answers on day-to-day questions',
-          '✅ Useful: read how others went through AIMA / opened a bank account / found housing — real 2025–2026 cases',
-          '⚠️ Do NOT rely on group advice for: legal deadlines, taxes, residence-permit documents — that is for the primary source or a lawyer',
-          '⚠️ Ignore "I\'ll fix your AIMA through contacts", "I\'ll get you a NIF", "I have someone at the embassy" — these are scams',
-          '⚠️ Never share passport numbers, NIF, bank credentials in chats — even in vetted groups'
+          '✅ Use communities for: real-life experience from people, local recommendations (neighbourhood, school, doctor), quick answers to everyday questions',
+          '✅ Useful: see how others dealt with AIMA / opened an account / looked for housing — cases from 2025–2026',
+          '⚠️ Do NOT rely on group advice for: legal deadlines, taxes, residence permit documents — use the primary source or a lawyer',
+          '⚠️ No “I’ll sort AIMA through contacts”, “I’ll buy a NIF for you”, “I’ll arrange it with the embassy” — this is fraud',
+          '⚠️ Do not share passports, NIF, bank details in chats — even in trusted groups'
         ]}
       ]
     },
@@ -25,42 +25,42 @@ export default {
       id: 'brazilian',
       title: 'Brazilians — the largest diaspora (500,000+)',
       content: [
-        { kind: 'paragraph', text: 'Brazilians have the most developed community infrastructure in Portugal: associations, business networks, churches, city-specific groups. Casa do Brasil de Lisboa remains the main entry point.' },
+        { kind: 'paragraph', text: 'Brazilians in Portugal have the most developed infrastructure: associations, business networks, church communities, city groups. Casa do Brasil de Lisboa remains the main entry point.' },
         { kind: 'checklist', items: [
-          'Casa do Brasil de Lisboa — the official association (since 1992) for events, legal advice, culture. Link in sources',
-          'Telegram "🇧🇷 Brasileiros em Portugal 🇵🇹" — active channel, friendship, life and real-estate questions',
-          'Facebook "Brasileiros em Portugal" (Lisboa) — largest Lisbon FB group',
-          'Consulate of Brazil in Lisbon and Porto — for CPF, passport, eleitoral, notarial documents',
-          'Brazilian evangelical churches in major cities — parallel everyday-support network (especially for families)'
+          'Casa do Brasil de Lisboa — official association (since 1992): events, legal consultations, culture. See the link in the sources list',
+          'Telegram “🇧🇷 Brasileiros em Portugal 🇵🇹” — active channel, friendship, questions about life and property',
+          'Facebook “Brasileiros em Portugal” (Lisboa) — the largest FB group for Lisboa',
+          'Brazilian Consulate in Lisboa and Porto — for CPF, passport, electoral matters, notarial documents',
+          'Brazilian evangelical churches in large cities — a parallel everyday support network (especially for families)'
         ]},
-        { kind: 'warning', text: 'There are many Brazilian FB groups with similar names ("Brasileiros em Lisboa", "Brasileiros no Porto", "Brasileiras em Portugal", etc.). Most are real, some are spam or commercial. Check activity in the last 2 weeks, group size and real posts — not just the name.' }
+        { kind: 'warning', text: 'There are many Brazilian FB groups with similar names (“Brasileiros em Lisboa”, “Brasileiros no Porto”, “Brasileiras em Portugal”, etc.). Many of them are real, but there is also spam/commercial activity. Look at activity over the last 2 weeks, group size and real posts — not just the name.' }
       ]
     },
     {
       id: 'americans',
       title: 'Americans',
       content: [
-        { kind: 'paragraph', text: 'The main American network in Portugal is Americans & Friends PT on Facebook. It\'s the de-facto information standard: D7/D8 visas, FATCA, real estate, healthcare. The group\'s files are the best open resource for Americans relocating.' },
+        { kind: 'paragraph', text: 'The main American network in Portugal is Americans & Friends PT on Facebook. It is the de facto standard for information: D7/D8 visas, FATCA, property, healthcare. The group files are the best open database for Americans moving here.' },
         { kind: 'checklist', items: [
-          'Facebook "Americans & Friends PT" — the main resource (link in sources)',
-          'Americans Living in Portugal — club and official site',
+          'Facebook “Americans & Friends PT” — main resource (see the link in the sources)',
+          'Americans Living in Portugal — club and official website',
           'IRS Tax Attaché at the US Embassy (Paris) — for complex FATCA / FBAR questions',
           'AmCham Portugal — for business networking',
-          'Reddit r/AmericansAbroad — useful for general expat-from-the-US questions'
+          'Reddit r/AmericansAbroad — also useful for general expat questions'
         ]}
       ]
     },
     {
       id: 'british',
-      title: 'British',
+      title: 'British people',
       content: [
-        { kind: 'paragraph', text: 'After Brexit, Britons in Portugal split into those who registered under the Withdrawal Agreement (rights similar to EU citizens) and newcomers (third-country status, D-visa required). Most active communities are in the Algarve, which has historically had a large British presence.' },
+        { kind: 'paragraph', text: 'After Brexit, British people in Portugal are divided into those who registered under the Withdrawal Agreement (living like EU citizens) and new arrivals (third-country nationals, needing a D visa). Most active communities are in the Algarve, where there has historically been a large British community.' },
         { kind: 'checklist', items: [
-          'British Expats Forum, Portugal section — the most active dedicated forum',
-          'Facebook "Algarve Expats, Portugal" — large regional group',
-          'Facebook "British Immigrants in Portugal" — national',
+          'British Expats Forum, Portugal section — the most active specialist forum',
+          'Facebook “Algarve Expats, Portugal” — large regional group',
+          'Facebook “British Immigrants in Portugal” — nationwide',
           'British Embassy Lisbon — for consular services and alerts',
-          'Algarve Resident, Portugal News — English-language news sites with local focus'
+          'Algarve Resident, Portugal News — English-language news sites with a local focus'
         ]}
       ]
     },
@@ -68,13 +68,13 @@ export default {
       id: 'indian',
       title: 'Indians (~100,000+)',
       content: [
-        { kind: 'paragraph', text: 'The Indian diaspora in Portugal is around 104,000 people (Indian embassy data). The largest centres are Lisboa, Porto and the Algarve. Active communities: city-level FB groups and Comunidade Hindu de Portugal with the Radha Krishna Temple in Lisbon.' },
+        { kind: 'paragraph', text: 'The Indian diaspora in Portugal is around 104,000 people (Embassy of India data). The largest centres are Lisboa, Porto, the Algarve. Active communities: city FB groups and Comunidade Hindu de Portugal with Radha Krishna Temple in Lisboa.' },
         { kind: 'checklist', items: [
-          'Facebook "Indians in Portugal" — largest national group',
-          'Facebook "Indians in Porto, Portugal" — for the north',
-          'Facebook "Portugal Indian Community" — another large community',
+          'Facebook “Indians in Portugal” — the largest nationwide group',
+          'Facebook “Indians in Porto, Portugal” — for the northern region',
+          'Facebook “Portugal Indian Community” — another large community',
           'Embassy of India Lisbon — consular services, OCI, passport',
-          'Comunidade Hindu de Portugal — Radha Krishna Temple at Alameda Mahatma Gandhi in Lisbon'
+          'Comunidade Hindu de Portugal — Radha Krishna Temple on Alameda Mahatma Gandhi in Lisboa'
         ]}
       ]
     },
@@ -82,15 +82,15 @@ export default {
       id: 'general-expat',
       title: 'General expat networks (for everyone)',
       content: [
-        { kind: 'paragraph', text: 'These resources work regardless of country of origin — useful for everyone, especially general topics (visas, taxes, real estate, schools, digital nomads).' },
+        { kind: 'paragraph', text: 'These resources work regardless of country of origin — useful for everyone, especially for general topics (visas, taxes, property, schools, digital nomads).' },
         { kind: 'checklist', items: [
-          'Reddit r/PortugalExpats — English-speaking community for movers and residents',
-          'Expats Portugal Forum — oldest forum, active threads on AIMA, real estate, healthcare',
+          'Reddit r/PortugalExpats — English-language community for people moving here and living here',
+          'Expats Portugal Forum — long-established forum, active threads on AIMA, property, healthcare',
           'Expat.com Portugal — global network with an active Portuguese section',
-          'InterNations Portugal — in-person events by city (Lisboa, Porto, Algarve), networking for professionals',
-          'Reddit r/portugal — main Portugal subreddit (PT-EN mix); r/Lisbon, r/Porto — city-level'
+          'InterNations Portugal — offline events by city (Lisboa, Porto, Algarve), networking for professionals',
+          'Reddit r/portugal — Portugal’s main subreddit (PT-EN mix); r/Lisbon, r/Porto — city subreddits'
         ]},
-        { kind: 'warning', text: 'Most general expat forums skew toward American/British movers with financial means. For other situations (students, low-wage workers, refugees), your national/language-specific groups will be more useful.' }
+        { kind: 'warning', text: 'Most general expat forums are skewed towards American/British movers with financial means. For other situations (students, low-skilled workers, refugees), your relevant national/language groups will be more useful.' }
       ]
     },
     {
@@ -98,11 +98,11 @@ export default {
       title: 'Specific needs',
       content: [
         { kind: 'checklist', items: [
-          'Families with children (RU/EN/PT-mix schools): "Mães em Lisboa", "International parents in Portugal" — FB groups',
-          'LGBTQ+ — ILGA Portugal (association), FB "LGBT+ Portugal"',
-          'Digital nomads / IT — Lisbon Tech Hub, Nomad List Lisbon channel, Slack "Lisbon Tech"',
-          'Startups — Startup Lisboa community, Web Summit alumni groups',
-          'Religious communities — churches/mosques/synagogues/temples by city (see separate guide "Religions: mosque, church, synagogue, temple")'
+          'Families with children (RU/EN/PT school mix): “Mães em Lisboa”, “International parents in Portugal” — FB groups',
+          'LGBTQ+ — ILGA Portugal (association), FB “LGBT+ Portugal”',
+          'Digital nomads / IT — Lisbon Tech Hub, Nomad List Lisbon channel, Slack “Lisbon Tech”',
+          'Startup founders — Startup Lisboa community, Web Summit alumni groups',
+          'Religious communities — churches/mosques/synagogues/temples by city (see the separate guide “Religions: mosque, church, synagogue, temple”)'
         ]}
       ]
     }
@@ -110,10 +110,10 @@ export default {
   sources: [
     { title: 'Casa do Brasil de Lisboa — official association', url: 'https://www.casadobrasildelisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-13' },
     { title: 'Embassy of India in Lisbon', url: 'https://www.eoilisbon.gov.in/', kind: 'official', language: 'en', lastRetrieved: '2026-05-13' },
-    { title: 'AIMA — official site', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-13' }
+    { title: 'AIMA — official website', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-13' }
   ],
-  lastVerified: '2026-05-13',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 60,
   recentlyChangedAt: '2026-05-13',
-  changeSummary: 'New guide: a curated list of verified channels and groups for Brazilian, American, British, Indian and general expat communities in Portugal. Telegram, Facebook groups, forums (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — with direct links in the app\'s Community section.'
+  changeSummary: 'New guide: a selection of verified channels and groups for Brazilians, Americans, British people, Indians and general expat networks in Portugal. Telegram, Facebook groups, forums (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — with links in the Community section of the app.'
 }

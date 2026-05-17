@@ -109,6 +109,6 @@ export default {
     { title: 'Decreto-Lei 102-B/2020 — изменения Código da Estrada по mobilidade suave', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-b-2020-150077473', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Bolt Portugal: правила безопасности и условия использования самокатов', url: 'https://bolt.eu/pt-pt/scooters/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -3,43 +3,43 @@ export default {
   id: 'wine-regions',
   categoryId: 'food_leisure',
   title: 'Вина Португалии — регионы и что покупать',
-  tldr: 'Португалия — 4-й производитель вин в ЕС. 14 регионов DOC. Культовое: портвейн (креплёное вино из Дору), Vinho Verde (молодое вино с севера), Alentejo (насыщенное красное), Douro DOC, Madeira, Bairrada. В супермаркетах есть отличные недорогие вина за 3–8 € за бутылку.',
+  tldr: 'Португалия — один из крупнейших производителей вина в ЕС, обычно около 5-го места по объёму. Удобно ориентироваться по 14 винным регионам; DOC/DO/DOP — это защищённые наименования внутри регионов. Культовое: портвейн (креплёное вино из Дору), Vinho Verde (молодое вино с севера), Alentejo (насыщенное красное), Douro DOC, Madeira, Bairrada. В супермаркетах есть отличные недорогие вина за 3–8 € за бутылку.',
   tags: ['вино', 'портвейн', 'Дору', 'Алентежу'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'regions',
-      title: '14 регионов DOC',
+      title: '14 винных регионов Португалии',
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Север', content: [
             { kind: 'checklist', items: [
               'Vinho Verde — молодое, лёгкое, для лета (Casal Garcia — классика)',
-              'Douro DOC — родина портвейна, также красные вина (Duorum, Quinta do Crasto)',
-              'Портвейн — креплёное вино, стили Ruby/Tawny/Vintage, легендарные погреба в Vila Nova de Gaia',
+              'Porto e Douro — регион, откуда происходят Port/Porto и некреплёные Douro DOC; для красных Douro tinto: Duorum, Quinta do Crasto и др.',
               'Trás-os-Montes — приграничье с Испанией, мощные красные вина'
             ]}
           ]},
           { id: 'r2', title: 'Центр', content: [
             { kind: 'checklist', items: [
               'Bairrada — игристое + красные вина из сорта Baga',
-              'Dão — элегантные красные, «португальская Бургундия»',
+              'Dão e Lafões — элегантные красные, «португальская Бургундия»',
+              'Távora-Varosa — игристые вина, в холмах между Дору и Дау',
               'Beira Interior — горные вина, менее известные, но качественные',
-              'Lisboa — вокруг столицы, доступные цены, растущее качество'
+              'Lisboa — вокруг столицы, доступные цены, растущее качество',
+              'Tejo — река Тежу, доступные вина'
             ]}
           ]},
           { id: 'r3', title: 'Юг', content: [
             { kind: 'checklist', items: [
               'Alentejo — жаркий юг, полнотелые красные вина (Herdade do Esporão)',
-              'Setúbal — десертное Moscatel de Setúbal, сухие белые вина',
-              'Algarve — небольшой, но интересный регион',
-              'Tejo — река Тежу, доступные вина'
+              'Península de Setúbal — Moscatel de Setúbal/Moscatel Roxo как креплёные сладкие вина; Palmela и сухие красные/белые',
+              'Algarve — небольшой, но интересный регион'
             ]}
           ]},
           { id: 'r4', title: 'Острова', content: [
             { kind: 'checklist', items: [
               'Madeira — креплёное вино, уникальный процесс выдержки в жаре',
-              'Açores — вулканические вина на базальте (Pico), редкость'
+              'Açores — вулканические вина на базальте (Pico), включая Paisagem da Cultura da Vinha da Ilha do Pico UNESCO'
             ]}
           ]}
         ]}
@@ -54,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'Молодое (2–3 года), фруктовое, доступное. Хороший вариант для начала.' }
           ]},
           { id: 'p2', title: 'Tawny', content: [
-            { kind: 'paragraph', text: 'Выдержанное в дубе 10/20/30/40 лет. Ореховые ноты, более сложный вкус.' }
+            { kind: 'paragraph', text: 'Выдерживается в дереве; бывает базовый/Reserve и с указанием возраста 10/20/30/40/50 years old. Возраст на этикетке — категория стиля и среднего характера купажа.' }
           ]},
           { id: 'p3', title: 'Vintage', content: [
             { kind: 'paragraph', text: 'Из одного особо удачного года, выдержка в бутылке. Дорого, культово. Только в «декларированные» годы.' }
@@ -79,7 +79,7 @@ export default {
           'Напрямую у производителя — туры в quintas в Douro и Alentejo, покупка на месте',
           'Онлайн: Garrafeira Nacional, Wine With Spirit',
           'Аэропорт — не всегда выгоднее, цены сравнимы с Lidl',
-          'Серия Lidl «Provinho» / «Delicatessen» — отличное соотношение цены и качества'
+          'Lidl часто хорош для бюджетных вин и акционных подборок (серия Deluxe, Cimarosa и др.)'
         ]}
       ]
     },
@@ -89,7 +89,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Вино из продуктовых магазинов в Португалии очень хорошее — не ищите итальянское/французское за базовые 5 €',
-          'Vinho Verde — идеально для лета, лёгкая искристость',
+          'Массовые Vinho Verde часто лёгкие, свежие и слегка искристые; но регион также делает серьёзные тихие Alvarinho/Loureiro',
           'Игристое Bairrada — более дешёвая альтернатива Prosecco',
           'В ресторане — Vinho da Casa (домашнее вино) часто достойное, 3–5 € за 0,5 л',
           'Рестораны добавляют 100–200% наценки на бутылки — думайте до заказа',
@@ -103,6 +103,6 @@ export default {
     { title: 'IVDP — Instituto dos Vinhos do Douro e Porto', url: 'https://www.ivdp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Wine tourism', url: 'https://www.visitportugal.com/pt-pt/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

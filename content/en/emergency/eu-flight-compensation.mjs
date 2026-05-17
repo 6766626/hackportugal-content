@@ -13,10 +13,10 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '✈️ Flight from an airport in the EU (any carrier) OR to an EU airport on an EU carrier',
-          '🕐 Delay of ≥ 3 hours on arrival',
+          '🕐 Delay ≥ 3 hours on arrival',
           '❌ Cancellation < 14 days before departure',
           '🪑 Denied boarding due to overbooking',
-          '✋ Airline responsibility (not an extraordinary circumstance — lightning, strike by staff who are not its employees)'
+          '✋ Airline responsibility (not extraordinary circumstances — lightning, strike by staff who are not its employees)'
         ]},
         { kind: 'warning', text: 'Force majeure (thunderstorm, earthquake, political strikes) — compensation is not due, but the right to care still applies.' }
       ]
@@ -30,7 +30,7 @@ export default {
           '🌎 1500–3500 km or EU > 1500 km: €400',
           '🌏 > 3500 km: €600',
           '🎟️ These are fixed amounts and do NOT depend on the ticket price',
-          '👨‍👩‍👧 For each passenger separately',
+          '👨‍👩‍👧 Separately for each passenger',
           '🔁 Plus: ticket refund OR rebooking + right to care'
         ]}
       ]
@@ -39,10 +39,10 @@ export default {
       id: 'care-rights',
       title: 'Right to care — while you wait',
       content: [
-        { kind: 'paragraph', text: 'For delays of ≥ 2 hours, the airline MUST provide:' },
+        { kind: 'paragraph', text: 'For delays of ≥ 2 hours, the airline is OBLIGED to provide:' },
         { kind: 'checklist', items: [
-          '🍔 Meals and drinks in proportion to the waiting time',
-          '📞 2 phone calls / emails',
+          '🍔 Food and drinks proportionate to the waiting time',
+          '📞 2 telephone calls / emails',
           '🏨 Hotel — if the delay is overnight',
           '🚕 Transfer to the hotel',
           '🔄 If refused — keep receipts, then claim reimbursement'
@@ -83,10 +83,10 @@ export default {
             ]}
           ]},
           { id: 'h4', title: '4. Alternative: services', content: [
-            { kind: 'paragraph', text: 'AirHelp, Flightright, ClaimCompass — charge a 25–35% commission, but do everything for you. Payment only if you win. Good for complex cases or if your time is worth more.' }
+            { kind: 'paragraph', text: 'AirHelp, Flightright, ClaimCompass — take a 25–35% commission, but do everything for you. Payment only if you win. Good for complex cases or if your time is more valuable.' }
           ]},
           { id: 'h5', title: '5. Last resort: court', content: [
-            { kind: 'paragraph', text: 'Julgado de Paz (small claims court) for claims < €15,000. Fee €70. The airline often agrees before court.' }
+            { kind: 'paragraph', text: 'Julgado de Paz (small claims court) for claims < €15,000. Fee €70. The airline often settles before court.' }
           ]}
         ]}
       ]
@@ -97,13 +97,13 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'e1', title: 'Lisboa → London, 4-hour delay', content: [
-            { kind: 'paragraph', text: 'Distance ~1550 km → compensation €400 per passenger. If the cause is technical — yes. If a thunderstorm — no.' }
+            { kind: 'paragraph', text: 'Distance ~1550 km → compensation €400 per passenger. If the reason is technical — yes. If it is a thunderstorm — no.' }
           ]},
           { id: 'e2', title: 'Lisboa → Moscow (cancelled)', content: [
-            { kind: 'paragraph', text: 'No direct flights since 2022. Flight Lisboa → Istanbul (3000 km) → compensation €400. For Istanbul → Moscow — not EU 261, no compensation.' }
+            { kind: 'paragraph', text: 'No direct flights since 2022. Flight Lisboa → Istanbul (3000 km) → compensation €400. For Istanbul → Moscow — not EU 261, not compensated.' }
           ]},
           { id: 'e3', title: 'Ryanair cancelled Porto → Madrid', content: [
-            { kind: 'paragraph', text: '< 1500 km → €250. Plus a choice: ticket refund OR rebooking on the next flight.' }
+            { kind: 'paragraph', text: '< 1500 km → €250. Plus choice: ticket refund OR rebooking on the next flight.' }
           ]}
         ]}
       ]
@@ -121,6 +121,6 @@ export default {
     { title: 'Livro de Reclamações', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'EU — Passenger rights', url: 'https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

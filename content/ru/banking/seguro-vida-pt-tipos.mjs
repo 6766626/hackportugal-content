@@ -49,7 +49,7 @@ export default {
       id: 'bank-requirements',
       title: 'Что требуют банки при ипотеке 🏦',
       content: [
-        { kind: 'paragraph', text: 'CGD, Millennium bcp, Santander, Novo Banco, BPI и другие банки обычно требуют, чтобы жизнь всех основных заёмщиков была застрахована. Формально клиент может выбрать внешнюю страховую компанию, но банк может давать скидку к spread, если вы берёте пакет у партнёрского страховщика.' },
+        { kind: 'paragraph', text: 'CGD, Millennium bcp, Santander, Novobanco, BPI и другие банки обычно требуют, чтобы жизнь всех основных заёмщиков была застрахована. Формально клиент может выбрать внешнюю страховую компанию, но банк может давать скидку к spread, если вы берёте пакет у партнёрского страховщика.' },
         { kind: 'checklist', items: [
           'Capital seguro обычно равен сумме кредита или текущему outstanding debt',
           'Срок полиса — минимум до окончания кредита',
@@ -134,6 +134,6 @@ export default {
     { title: 'Banco de Portugal — crédito habitação, FINE, TAEG и связанные продукты', url: 'https://www.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regime Jurídico do Contrato de Seguro — Decreto-Lei 72/2008', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2008-34561275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

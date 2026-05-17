@@ -1,170 +1,107 @@
 export default {
-  "editorialVoice": "hackportugal",
-  "id": "uk-specific",
-  "categoryId": "country_specific",
-  "title": "Britânicos em Portugal após o Brexit",
-  "tldr": "Britânicos que residiam em PT até 31 de dezembro de 2020 — protegidos pelo Acordo de Saída, possuem cartões de autorização de residência especiais. Novos chegados após o Brexit — países terceiros, necessitam de visto D. O acordo fiscal PT-UK está em vigor. FATCA não se aplica ao Reino Unido, mas o CRS (troca automática) — sim.",
-  "audience": {
-    "countryCodes": [
-      "GB"
-    ]
-  },
-  "tags": [
-    "uk",
-    "britânicos",
-    "brexit",
-    "acordo de saída"
-  ],
-  "estimatedReadMinutes": 6,
-  "steps": [
+  editorialVoice: 'hackportugal',
+  id: 'uk-specific',
+  categoryId: 'country_specific',
+  title: 'Britânicos em Portugal após o Brexit',
+  tldr: 'Os britânicos que residiam em Portugal antes de 31.12.2020 estão protegidos pelo Withdrawal Agreement e têm cartões especiais de autorização de residência. Os novos chegados após o Brexit são cidadãos de países terceiros e precisam de visto D. O acordo fiscal Portugal—Reino Unido está em vigor. O FATCA não se aplica ao Reino Unido, mas o CRS (troca automática de informações) aplica-se.',
+  audience: { countryCodes: ['GB'] },
+  tags: ['reino unido', 'britânicos', 'brexit', 'acordo de saída'],
+  estimatedReadMinutes: 6,
+  steps: [
     {
-      "id": "wa-beneficiaries",
-      "title": "Acordo de Saída (WA) — quem se enquadra",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "Cidadãos britânicos que residiam em PT até 31 de dezembro de 2020 — estão protegidos pelo WA e têm os mesmos direitos que os cidadãos da UE (liberdade de trabalho, SNS, educação)."
-        },
-        {
-          "kind": "checklist",
-          "items": [
-            "Estado: Título de Residência de Beneficiário do Acordo de Saída",
-            "Carta de beneficiário do Acordo de Saída",
-            "Os mesmos direitos que os outros cidadãos da UE",
-            "Não é necessário mudar para visto D",
-            "Aplica-se a todos os membros da família que também estiveram em PT até 31.12.2020"
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "Se não formalizou o estado WA a tempo — entre em contacto com a AIMA imediatamente, pode ser possível a recuperação."
-        }
+      id: 'wa-beneficiaries',
+      title: 'Withdrawal Agreement (WA) — quem está abrangido',
+      content: [
+        { kind: 'paragraph', text: 'Os cidadãos britânicos que residiam em Portugal antes de 31 de dezembro de 2020 estão protegidos pelo WA e têm os mesmos direitos que os cidadãos da UE: liberdade de trabalho, SNS, ensino.' },
+        { kind: 'checklist', items: [
+          'Estatuto: Autorização de Residência de Beneficiário do WA',
+          'Carta de beneficiário do Acordo de Saída',
+          'Os mesmos direitos que os outros cidadãos da UE',
+          'Não é necessário trocar por um visto D',
+          'Aplica-se a todos os membros da família que também estavam em Portugal antes de 31.12.2020'
+        ]},
+        { kind: 'paragraph', text: 'Se não tratou do estatuto WA a tempo — contacte a AIMA imediatamente; a recuperação poderá ser possível.' }
       ]
     },
     {
-      "id": "after-brexit",
-      "title": "Novos chegados (após 01.01.2021)",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "Britânicos que chegam agora — são considerados cidadãos de países terceiros (não UE). É necessário visto D para autorização de residência."
-        },
-        {
-          "kind": "checklist",
-          "items": [
-            "D7 (rendimento passivo) — para pensionistas",
-            "D8 (nómada digital) — para trabalhadores remotos. Popular entre os profissionais de TI de Londres",
-            "D3 (qualificado) — trabalho em empresa em PT",
-            "Golden Visa — para grandes investidores",
-            "Turistas: 90 dias no espaço Schengen sem visto"
-          ]
-        },
-        {
-          "kind": "warning",
-          "text": "CRUE (Certificado de Registo de Cidadão da União) — NÃO disponível para britânicos após o Brexit. Algumas Juntas podem erroneamente emitir — isso está incorreto. Deve ser um visto D ou WA."
-        }
+      id: 'after-brexit',
+      title: 'Novos chegados (após 01.01.2021)',
+      content: [
+        { kind: 'paragraph', text: 'Os britânicos que chegam agora são considerados cidadãos de países terceiros (não UE). É necessário um visto D para obter autorização de residência.' },
+        { kind: 'checklist', items: [
+          'D7 (rendimento passivo) — para pensionistas',
+          'D8 (nómada digital) — para quem trabalha remotamente. Popular entre especialistas de IT de Londres',
+          'D3 (profissional qualificado) — trabalho numa empresa portuguesa',
+          'Golden Visa — para grandes investidores',
+          'Turistas: 90 dias no Espaço Schengen sem visto'
+        ]},
+        { kind: 'warning', text: 'CRUE (Certificado de Registo de Cidadão da União) — NÃO está disponível para britânicos após o Brexit. Algumas Junta de Freguesia podem emiti-lo por engano — isso está incorreto. Deve haver um visto D ou WA.' }
       ]
     },
     {
-      "id": "taxes",
-      "title": "Impostos UK ↔ PT",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Tratado Fiscal PT-UK — em vigor desde 1968, atualizado por protocolos (o último — 2016) — para evitar a dupla tributação",
-            "Non-dom no UK — não é relevante em PT (PT tributa a renda mundial dos residentes sem opção non-dom)",
-            "Residente em PT (>183 dias) — tributa a renda mundial em PT",
-            "Pensão do UK (estatal, profissional): tributa-se em PT onde o residente está. O UK pode reter na fonte — compensação através do Foreign Tax Credit",
-            "ISA — benefício fiscal do UK não funciona em PT: a renda dentro do ISA é tributada em PT (dividendos e juros a taxas normais)",
-            "SIPP — PT geralmente reconhece como plano de pensão; os pagamentos são tributados como renda de pensão, mas a tributação do 'crescimento' dentro do SIPP — é uma zona cinzenta, muitas vezes é necessário um especialista",
-            "CRS — bancos do UK reportam em PT automaticamente (Common Reporting Standard)",
-            "Regime IFICI: potencialmente disponível para nómadas digitais do UK e profissionais qualificados"
-          ]
-        }
+      id: 'taxes',
+      title: 'Impostos Reino Unido ↔ Portugal',
+      content: [
+        { kind: 'checklist', items: [
+          'O acordo fiscal Portugal—Reino Unido está em vigor desde 1968, atualizado por protocolos (o mais recente — 2016) — para evitar a dupla tributação',
+          'Non-dom no Reino Unido — não é relevante em Portugal (Portugal tributa o rendimento mundial dos residentes sem opção non-dom)',
+          'Residente em Portugal (>183 dias) — tributado em Portugal sobre o rendimento mundial',
+          'Pensão britânica (estatal, profissional): tributada em Portugal, onde é residente. O Reino Unido pode reter imposto na fonte — crédito através de crédito fiscal por imposto estrangeiro',
+          'ISA — o benefício fiscal britânico não funciona em Portugal: o rendimento dentro de uma ISA é tributado em Portugal (dividendos e juros às taxas normais)',
+          'SIPP — Portugal normalmente reconhece como plano de pensões; os pagamentos são tributados como rendimento de pensão, mas a tributação do crescimento dentro do SIPP é uma zona cinzenta e muitas vezes requer um especialista',
+          'CRS — os bancos britânicos reportam automaticamente a Portugal (Common Reporting Standard)',
+          'Regime IFICI: potencialmente disponível para nómadas digitais britânicos e profissionais qualificados'
+        ]}
       ]
     },
     {
-      "id": "documents",
-      "title": "Documentos do UK",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Apostila: Foreign, Commonwealth & Development Office (FCDO)",
-            "Certificado de nascimento: General Register Office (GRO) + apostila do FCDO",
-            "Certificado de casamento: da mesma forma",
-            "DBS (Disclosure and Barring Service) — certidão de não criminalidade",
-            "Grau: universidade → apostilha FCDO",
-            "Todos os documentos devem ser traduzidos para português (juramentado)"
-          ]
-        }
+      id: 'documents',
+      title: 'Documentos do Reino Unido',
+      content: [
+        { kind: 'checklist', items: [
+          'Apostila: Foreign, Commonwealth & Development Office (FCDO)',
+          'Certidão de nascimento: General Register Office (GRO) + apostila FCDO',
+          'Certidão de casamento: semelhante',
+          'DBS (Disclosure and Barring Service) — certificado de registo criminal',
+          'Diploma: universidade → apostila FCDO',
+          'Todos os documentos devem ser traduzidos para português (tradução juramentada)'
+        ]}
       ]
     },
     {
-      "id": "banking",
-      "title": "Nuances bancárias",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Bancos do Reino Unido (HSBC, Barclays, etc.) — cartões funcionam em PT",
-            "Alguns bancos do Reino Unido fecham contas de residentes do Reino Unido que se mudaram para a UE (regras da FCA)",
-            "HSBC Premier International, Citi Plus — funcionam internacionalmente",
-            "Revolut, Wise — excelente escolha para GBP↔EUR",
-            "Bancos em PT: ActivoBank, Millennium — aceitam sem dificuldades"
-          ]
-        }
+      id: 'banking',
+      title: 'Nuances bancárias',
+      content: [
+        { kind: 'checklist', items: [
+          'Bancos britânicos (HSBC, Barclays, etc.) — os cartões funcionam em Portugal',
+          'Alguns bancos britânicos encerram contas de residentes britânicos que se mudaram para a UE (regras da FCA)',
+          'HSBC Premier International, Citi Plus — contas internacionais funcionam',
+          'Revolut, Wise — excelente escolha para GBP↔EUR',
+          'Bancos portugueses: ActivoBank, Millennium — aceitam sem dificuldades'
+        ]}
       ]
     },
     {
-      "id": "community",
-      "title": "Comunidade britânica",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Embaixada Britânica em Lisboa: Rua de São Bernardo 33",
-            "British Council — eventos culturais, exames de inglês",
-            "Algarve — a maior comunidade de expatriados do Reino Unido",
-            "Cascais — tradicional «baía inglesa»",
-            "Hospital Britânico / Lusitânia — com padrões do Reino Unido",
-            "Escolas britânicas: St Julian's (Carcavelos), The British School of Lisbon"
-          ]
-        }
+      id: 'community',
+      title: 'Comunidade britânica',
+      content: [
+        { kind: 'checklist', items: [
+          'British Embassy Lisbon: Rua de São Bernardo 33',
+          'British Council — eventos culturais, exames de inglês',
+          'Algarve — a maior comunidade de expatriados britânicos',
+          'Cascais — a tradicional «baía inglesa»',
+          'British Hospital / Lusitânia — com padrões britânicos',
+          'Escolas britânicas: St Julian\'s (Carcavelos), The British School of Lisbon'
+        ]}
       ]
     }
   ],
-  "sources": [
-    {
-      "title": "Embaixada Britânica em Lisboa",
-      "url": "https://www.gov.uk/world/organisations/british-embassy-lisbon",
-      "kind": "official",
-      "language": "en",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "AIMA — Acordo de Saída (WA)",
-      "url": "https://aima.gov.pt/",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "HMRC — Tratado Fiscal com Portugal",
-      "url": "https://www.gov.uk/government/publications/portugal-tax-treaties",
-      "kind": "official",
-      "language": "en",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "Comissão Europeia — direitos do Acordo de Saída",
-      "url": "https://ec.europa.eu/info/relations-united-kingdom/eu-uk-withdrawal-agreement_en",
-      "kind": "official",
-      "language": "en",
-      "lastRetrieved": "2026-04-22"
-    }
+  sources: [
+    { title: 'Embaixada Britânica em Lisboa', url: 'https://www.gov.uk/world/organisations/british-embassy-lisbon', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
+    { title: 'AIMA — Acordo de Saída (WA)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'HMRC — Acordo Fiscal com Portugal', url: 'https://www.gov.uk/government/publications/portugal-tax-treaties', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
+    { title: 'Comissão Europeia — direitos do WA do Brexit', url: 'https://commission.europa.eu/strategy-and-policy/relations-united-kingdom/eu-uk-withdrawal-agreement_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  "lastVerified": "2026-04-22",
-  "verifyIntervalDays": 180
+  lastVerified: '2026-05-17',
+  verifyIntervalDays: 180
 }

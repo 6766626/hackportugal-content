@@ -3,7 +3,7 @@ export default {
   id: 'pharmacies',
   categoryId: 'healthcare',
   title: 'Pharmacies in Portugal — Farmácia and Parafarmácia',
-  tldr: 'Farmácia (green cross) sells prescription and over-the-counter medicines, with pharmacist advice available. Parafarmácia sells only over-the-counter products and skincare/cosmetics. With a NIF — an SNS discount of 37–90% on prescription medicines. Farmácia de serviço is the night-duty pharmacy, open 24/7 in the area.',
+  tldr: 'Farmácia (green cross) sells prescription and over-the-counter medicines, with pharmacist consultation available. Parafarmácia sells only over-the-counter medicines and skincare/cosmetics. Comparticipação SNS (37-90% by escalão A/B/C/D) applies to prescriptions issued in the system with correct user/beneficiary identification — NIF alone does not give an SNS discount. Farmácia de serviço is the duty pharmacy according to the escala de serviço.',
   tags: ['pharmacy', 'farmácia', 'prescription', 'sns'],
   estimatedReadMinutes: 4,
   steps: [
@@ -13,10 +13,10 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: 'Farmácia (full pharmacy)', content: [
-            { kind: 'paragraph', text: 'Green cross on the sign. INFARMED licence. Prescription medicines are sold only here. The pharmacist gives advice free of charge. Usually open 9:00–19:30 + Saturday until 13:00.' }
+            { kind: 'paragraph', text: 'Green cross on the sign. INFARMED licence. Prescription medicines are sold only here. The pharmacist gives advice free of charge. Usually open 09:00–19:30 + Saturday until 13:00.' }
           ]},
           { id: 't2', title: 'Parafarmácia (parapharmacy)', content: [
-            { kind: 'paragraph', text: 'In supermarkets or standalone. Only over-the-counter products: vitamins, skincare/cosmetics, some non-prescription medicines (ibuprofen, cough syrup). Prices are 10–20% lower than in a Farmácia. Auchan Bem-Estar, Celeiro and Wells are very popular.' }
+            { kind: 'paragraph', text: 'In supermarkets or standalone. Only over-the-counter goods: vitamins, skincare/cosmetics, some over-the-counter medicines (ibuprofen, cough syrup). Prices are 10–20% lower than in a Farmácia. Auchan Bem-Estar, Celeiro, and Wells are very popular.' }
           ]}
         ]}
       ]
@@ -25,23 +25,23 @@ export default {
       id: 'prescription',
       title: 'Prescription (receita médica)',
       content: [
-        { kind: 'paragraph', text: 'You get a prescription from a doctor (SNS or private). Electronic — an SMS arrives with a code and password. Paper — if issued by a private doctor without connection to the SNS.' },
+        { kind: 'paragraph', text: 'You get a prescription from a doctor (SNS or private). Electronic — an SMS arrives with a code and password. Paper — if issued by a private doctor without SNS connection.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'At the pharmacy', content: [
-            { kind: 'paragraph', text: 'Show the prescription code (SMS) + passport/Cartão de Cidadão. The pharmacist sees the prescription in the system. Payment with an SNS discount (10–90% depending on the medicine).' }
+            { kind: 'paragraph', text: 'Show the prescription code (SMS) + passport/Cartão de Cidadão (or Número de Utente). The pharmacist sees the prescription in the system. Payment with SNS discount (15-90% by escalões A/B/C/D of the regime geral; special comparticipação regimes apply for some illnesses).' }
           ]},
           { id: 'p2', title: 'SNS discounts', content: [
             { kind: 'checklist', items: [
               'Escalão A (life-saving) — 90% discount',
               'Escalão B (necessary) — 69% discount',
               'Escalão C (important) — 37% discount',
-              'Escalão D (supplementary) — 15% discount',
-              'Pensioners on low incomes receive an additional discount',
+              'Escalão D (additional) — 15% discount',
+              'Pensioners on low income receive an additional discount',
               'Children under 12 — additional discounts'
             ]}
           ]},
           { id: 'p3', title: 'Without a prescription', content: [
-            { kind: 'paragraph', text: 'Many medicines are sold freely without a prescription. But antibiotics, sleeping pills and strong painkillers are prescription-only, unlike in some countries.' }
+            { kind: 'paragraph', text: 'Many medicines are sold freely without a prescription. But antibiotics, sleeping pills, and strong painkillers are prescription-only, unlike in some countries.' }
           ]}
         ]}
       ]
@@ -50,11 +50,11 @@ export default {
       id: 'night',
       title: 'Night / duty pharmacy',
       content: [
-        { kind: 'paragraph', text: 'Farmácia de Serviço — every night in each area, one pharmacy is on duty 24/7. The list is on the door of any Farmácia or on the INFARMED website.' },
+        { kind: 'paragraph', text: 'Farmácia de Serviço — duty service is organised according to an escala de serviço (schedule), usually rotating between pharmacies in the area. This does not guarantee that every freguesia has a 24/7 pharmacy — check the list of duty pharmacies. The schedule is posted on the door of any Farmácia or on the website.' },
         { kind: 'checklist', items: [
           '📍 farmacias.pt — website with a list of duty pharmacies by postcode',
-          '📞 112 in an emergency — they will tell you the nearest one',
-          '💊 After 22:00, call via the video intercom — the pharmacist hands items out through the hatch',
+          '📞 Linha 1400 / farmaciasdeservico.net — information on duty pharmacies; 112 — emergency help only',
+          '💊 After 22:00, call on the video intercom — the pharmacist dispenses through the window',
           '💰 At night there is a surcharge of about €2.50 on top'
         ]}
       ]
@@ -68,16 +68,16 @@ export default {
             { kind: 'paragraph', text: 'Parafarmácia or Farmácia: Ibuprofeno, Paracetamol (Ben-U-Ron), Bisolvon, Cegripe.' }
           ]},
           { id: 'm2', title: 'Allergy', content: [
-            { kind: 'paragraph', text: 'Loratadina, Aerius, Cetirizina — without a prescription in a Farmácia.' }
+            { kind: 'paragraph', text: 'Loratadina and Cetirizina are often available without a prescription; many forms of desloratadina (brand Aerius) in Portugal are classified as MSRM — subject to prescription. Check with the pharmacist.' }
           ]},
           { id: 'm3', title: 'Antibiotics', content: [
             { kind: 'paragraph', text: 'Prescription-only. Amoxicilina, Azitromicina.' }
           ]},
           { id: 'm4', title: 'Cream/ointment', content: [
-            { kind: 'paragraph', text: 'Sun protection and skincare/cosmetics — any Parafarmácia. Avène, La Roche-Posay, Uriage and Nuxe are popular.' }
+            { kind: 'paragraph', text: 'Sun protection and skincare/cosmetics — any Parafarmácia. Avène, La Roche-Posay, Uriage, and Nuxe are popular.' }
           ]},
           { id: 'm5', title: 'Contraceptives', content: [
-            { kind: 'paragraph', text: 'Condoms — everywhere. Contraceptive pills — prescription-only, but inexpensive with an SNS discount.' }
+            { kind: 'paragraph', text: 'Condoms — everywhere. Contraceptive pills — by prescription, but inexpensive with an SNS discount.' }
           ]}
         ]}
       ]
@@ -88,6 +88,6 @@ export default {
     { title: 'Farmácias de Portugal — duty pharmacies', url: 'https://www.farmacias.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

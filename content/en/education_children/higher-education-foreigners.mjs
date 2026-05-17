@@ -3,7 +3,7 @@ export default {
   id: 'higher-education-foreigners',
   categoryId: 'education_children',
   title: 'Higher education in Portugal — for international students',
-  tldr: 'Bachelor’s degree (licenciatura) — 3 years, master’s degree (mestrado) — 2 years, PhD (doutoramento) — 3–4 years. Admission is via Concurso Nacional de Acesso (for residents of Portugal) or Concurso Especial para Estudantes Internacionais (only for non-EU citizens). Cost: EU residents pay the same as Portuguese students — €700–1,400/year at public universities, non-EU students — €2,000–7,000/year at public universities, €3,500–15,000/year at private ones. Top universities: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 in the world top 500). Erasmus+ — full access. D4 Student Visa for non-EU citizens.',
+  tldr: 'Licenciatura (bachelor’s) — 3 years, mestrado (master’s) — 2 years, PhD (doutoramento) — 3–4 years. Admission is via Concurso Nacional de Acesso (for residents of Portugal) or Concurso Especial para Estudantes Internacionais (only for non-EU citizens). Cost: EU residents pay the same as Portuguese students — €700–1,400/year at public universities, non-EU students — €2,000–7,000/year at public universities, €3,500–15,000/year at private ones. Top universities: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 in the world top 500). Erasmus+ — full access. D4 Student Visa for non-EU citizens.',
   tags: ['higher education', 'licenciatura', 'university', 'erasmus'],
   estimatedReadMinutes: 7,
   steps: [
@@ -12,9 +12,9 @@ export default {
       title: '🎓 Levels and duration',
       content: [
         { kind: 'checklist', items: [
-          '**Licenciatura** (bachelor’s degree): 3 years, 180 ECTS — the main first cycle',
-          '**Mestrado** (master’s degree): 1.5–2 years, 90–120 ECTS — second cycle',
-          '**Mestrado Integrado**: 5 years, 300 ECTS — for medicine, architecture, engineering; a single course instead of bachelor’s + master’s',
+          '**Licenciatura** (bachelor’s): 3 years, 180 ECTS — the main first cycle',
+          '**Mestrado** (master’s): 1.5–2 years, 90–120 ECTS — second cycle',
+          '**Mestrado Integrado**: for some regulated professions. **Medicina** — usually 6 years / 360 ECTS; **Arquitetura** — often 5 years / 300 ECTS; in Engenharia many antigos mestrados integrados have been reorganised into licenciatura + mestrado (check each course in DGES)',
           '**Doutoramento** (PhD): 3–4 years — third cycle',
           '**CTeSP** (Curso Técnico Superior Profissional): 2 years, 120 ECTS — professional education, without an academic degree',
           '**Pós-graduação**: short specialised courses (6–12 months)'
@@ -26,33 +26,33 @@ export default {
       title: '📝 Admission routes',
       content: [
         { kind: 'substeps', items: [
-          { id: 'a1', title: 'EU / EEA / Swiss citizens + residents of Portugal', content: [
+          { id: 'a1', title: 'PT/EU/EEA/Swiss citizens and some non-EU residents (CNA)', content: [
             { kind: 'checklist', items: [
-              '**Concurso Nacional de Acesso** (CNA): general admissions competition, runs from May to September',
+              '**Concurso Nacional de Acesso (CNA)**: the general competition — applies if you are NOT considered an Estudante Internacional',
+              'CNA also applies to non-EU residents with legal residence in Portugal for **>2 continuous years by 1 January of the admission year** (excluding time spent only on a student permit) or with estatuto de igualdade',
               'Entrance exams (Exames Nacionais) in year 12 — mandatory for the competition',
-              '5 application choices (preferences)',
-              'Allocation by score: school average + exams',
-              'Pay the same as residents of Portugal (~€700–1,400/year at public universities)',
-              'If you have a foreign school diploma — you need to obtain equivalência + take a local exam'
+              'Allocation by scores: nota do secundário + provas de ingresso (course weights are with DGES)',
+              'PT/EU in public licenciatura: propina **up to ~€697/year maximum**',
+              'If you have a foreign school diploma — you need equivalência + to sit a local exam'
             ]}
           ]},
           { id: 'a2', title: 'Non-EU citizens', content: [
             { kind: 'checklist', items: [
               '**Concurso Especial para Estudantes Internacionais** (CEIE)',
-              'A process separate from CNA — each university decides for itself',
-              'Requirements: secondary school diploma suitable for higher education in the country of origin + certificado de equivalência (1–3 months to obtain via DGES)',
+              'A process separate from CNA — each university decides independently',
+              'Requirements: secondary-school diploma suitable for higher education in the country of origin + certificado de equivalência (1–3 months to obtain through DGES)',
               'Often — the university’s own entrance exams / portfolio / interview',
               'Application deadlines: usually February–April (for a September start)',
-              'Non-EU fees: €2,000–7,000/year at public universities, €3,500–15,000 at private ones',
-              '⚠️ Some medicine and veterinary faculties have quotas only for Portuguese/EU citizens — non-EU citizens cannot be admitted'
+              'Fees as for non-EU students: €2,000–7,000/year at public universities, €3,500–15,000 at private ones',
+              '⚠️ Some medicine and veterinary faculties have a quota only for Portuguese/EU citizens — non-EU citizens cannot be admitted'
             ]}
           ]},
           { id: 'a3', title: 'Maiores de 23 (for adults)', content: [
-            { kind: 'paragraph', text: 'A separate admissions route for people over 23 without a standard diploma. The university sets its own tests. Works for foreigners with pre-university experience.' }
+            { kind: 'paragraph', text: 'A separate competition for people over 23 without a standard diploma. The university sets its own tests. It works for foreigners with pre-university experience.' }
           ]},
           { id: 'a4', title: 'Transfer from another university', content: [
             { kind: 'checklist', items: [
-              'If you have already studied at a foreign higher education institution — transfer is possible',
+              'If you have already studied at a foreign higher-education institution — a transfer is possible',
               'ECTS credits are transferred (if the institution is accredited)',
               'Process: regresso ao ensino superior',
               'It is better to transfer into the 2nd or 3rd year at a Portuguese university'
@@ -101,8 +101,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Public universities', content: [
             { kind: 'checklist', items: [
-              '**EU/residents**: €697–1,400/year (bachelor’s), €1,200–3,000 (master’s), €2,500–4,000 (PhD)',
-              '**Non-EU**: €2,000–7,000/year (bachelor’s), €3,000–8,000 (master’s) — each university sets its own fees',
+              '**EU/residents considered national/EU**: licenciatura — **up to ~€697/year maximum** (DGES propina cap); master’s and PhD — separate fees',
+              '**Non-EU (CEEI, Estudante Internacional)**: international propinas are set by each university/course — see the edital for the specific course',
               'Some medicine / engineering faculties — at the upper end of this range'
             ]}
           ]},
@@ -135,20 +135,20 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: 'DGES — national bolsas', content: [
             { kind: 'checklist', items: [
-              'For residents of Portugal: €500–5,000/year depending on income',
-              'Application: by 30 September after admission',
-              'Via the Serviços de Acção Social of each university',
-              'Limit: family income ≤ 5× IAS'
+              'For residents of Portugal: the amount depends on income and the DGES tariff — check current values on dges.gov.pt and with the Serviços de Ação Social of your university',
+              'Application: annually according to the DGES calendar after admission',
+              'Through the Serviços de Ação Social of each university',
+              'The means-test condition is calculated through the rendimento per capita of the household — check the formula on dges.gov.pt'
             ]}
           ]},
           { id: 'b2', title: 'International scholarships', content: [
             { kind: 'checklist', items: [
               '**Erasmus+**: for residents / short-term exchange, €800–1,000/month',
               '**Camões Institute bolsas**: for citizens of PALOP, Timor-Leste, Brasil',
-              '**FCT (Fundação para a Ciência e Tecnologia)**: PhD scholarship €1,100/month + tuition',
-              '**EU Marie Skłodowska-Curie**: for PhD/post-doc — €3000+/month',
-              '**University-specific**: all top universities have merit-based scholarship programmes (50–100% tuition discounts)',
-              'Competition: medicine — the hardest; sciences and engineering — better chances'
+              '**FCT (Fundação para a Ciência e Tecnologia)**: PhD scholarship — the amount is updated periodically; see the current tabela de bolsas FCT (subsídio + propinas according to the regulations)',
+              '**EU Marie Skłodowska-Curie**: for PhD/post-doc — €3,000+/month',
+              '**University-specific**: all top universities have merit-based scholarship programmes (50–100% discounts on tuition)',
+              'Competition: medicine is the hardest; sciences and engineering offer better chances'
             ]}
           ]}
         ]}
@@ -162,7 +162,7 @@ export default {
           '**Bachelor’s**: most programmes are in Portuguese; some bachelor’s programmes are in English (Nova, IST, ISEG)',
           '**Mestrado**: 30–50% in English at top universities',
           '**PhD**: often in English, dissertation language by choice',
-          'Portuguese requirement: A2–B1 for bachelor’s degrees (if taught in Portuguese), CIPLE or school certificate',
+          'Portuguese requirement: A2–B1 for bachelor’s (if taught in Portuguese), CIPLE or school certificate',
           'English requirement: IELTS 6.0+ / TOEFL 80+ for English-taught programmes',
           'Portuguese courses for foreigners are free at most universities'
         ]}
@@ -174,30 +174,33 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'For non-EU students studying full-time on a programme at a Portuguese university',
-          'Documents: acceptance letter, proof of funds (>€7000/year), health insurance, accommodation',
-          'Apply at the consulate in your country of residence',
+          'Documents: acceptance letter, proof of funds (minimum guideline **12×SMN per year for the main applicant — in 2026 this is €11,040**; the consulate/VFS may accept a scholarship, bank balance, sponsorship and/or prepaid accommodation), health insurance, housing',
+          'Application at the consulate in the country of residence',
           'Timeframe: 1–3 months',
-          'Visa → entry → to AIMA for residence permit D4',
-          'After graduation: Procuro-trabalho D job-search visa (120 days to look for work)',
+          'Visa → entry → to AIMA for residence permit D4 (plus a separate AIMA fee — table in force from 01.03.2026)',
+          '**After graduation**: you can request **autorização de residência para procura de trabalho ou criação de empresa** — usually up to 12 months (Lei 23/2007 art. 122). This is **not** the same procedure as the external visto para procura de trabalho for 120+60 days',
           'Or switch to D3 / D8 / D2 after obtaining a contract / opening a business',
-          'Study time DOES COUNT towards the qualifying period for citizenship (but with a coefficient of 0.5 — i.e. 2 years of study = 1 year of qualifying period)'
+          'For citizenship: under current law there is no 0.5 coefficient — years with a valid student título de residência are usually counted as ordinary legal residence (Lei 37/81 art. 6). ⚠️ **Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026** — the Lei da Nacionalidade reform is awaiting publication in the DRE; rules may change after it enters into force'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'Bachelor’s degree at a public university (EU)', amountEURMin: 697, amountEURMax: 1400, note: '€/year' },
-    { label: 'Bachelor’s degree at a public university (non-EU)', amountEURMin: 2000, amountEURMax: 7000, note: '€/year' },
-    { label: 'Bachelor’s degree at a private university', amountEURMin: 3500, amountEURMax: 15000, note: '€/year' },
+    { label: 'Licenciatura at a public university (national/EU)', amountEURMax: 697, note: '€/year — DGES propina cap' },
+    { label: 'Licenciatura at a public university (Estudante Internacional / CEEI)', note: 'set by each university/course — see the edital' },
+    { label: 'Licenciatura at a private university', amountEURMin: 3500, amountEURMax: 15000, note: '€/year' },
     { label: 'Residência universitária', amountEURMin: 150, amountEURMax: 300, note: '€/month' },
-    { label: 'Bolsa FCT PhD', amountEUR: 1100, note: '€/month + tuition' }
+    { label: 'Bolsa FCT PhD', note: 'see the current tabela de bolsas FCT' }
   ],
   sources: [
-    { title: 'DGES — Direcção-Geral do Ensino Superior', url: 'https://www.dges.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CNA — Concurso Nacional de Acesso', url: 'https://www.dges.gov.pt/guias/indest.asp', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'FCT — Fundação para a Ciência e Tecnologia', url: 'https://www.fct.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Study in Portugal (portal)', url: 'https://www.study-in-portugal.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
+    { title: 'DGES — Directorate-General for Higher Education', url: 'https://www.dges.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 36/2014 — International Student Status', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/36-2014', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 66/2018 — Recognition of foreign degrees and diplomas', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/66-2018', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei 23/2007 (art. 122 — residence after studies)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'CNA — National Access Competition', url: 'https://www.dges.gov.pt/guias/indest.asp', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'FCT — Foundation for Science and Technology', url: 'https://www.fct.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

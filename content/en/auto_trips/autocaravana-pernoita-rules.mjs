@@ -9,16 +9,16 @@ export default {
   steps: [
     {
       id: 'current-rule',
-      title: 'The main 2026 rule: where you can stay overnight',
+      title: 'Main 2026 rule: where you can stay overnight',
       content: [
         { kind: 'paragraph', text: 'Lei 92/2019 introduced a stricter regime for autocaravanas, but the current practical framework in the Código da Estrada was softened by later amendments. As of April 2026, the basic rule is this: pernoita in an autocaravana is allowed for up to 48 consecutive hours in one município, provided it is not a prohibited zone and there is no local ban.' },
         { kind: 'checklist', items: [
           'You can stay overnight in parques de autocaravanismo, áreas de serviço para autocaravanas and parques de campismo e caravanismo.',
           'In an ordinary permitted place outside protected zones — a maximum of 48 hours in the same município.',
-          'If the place is specifically designated for autocaravanas, the rules of that place apply: hour limit, payment, services, ban on tables/awnings.',
-          'A municipality may prohibit or restrict pernoita by signs, regulamento municipal or temporary rules.',
-          'Ordinary daytime parking is not the same as an overnight stay: pernoita means being inside with people between 21:00 and 07:00.',
-          'If you have put out an awning, tables, chairs, steps, levelling wedges or occupied more space — this already looks like aparcamento/campismo and the risk of a fine is higher.'
+          'If the place is specifically designated for autocaravanas, the rules of that place apply: time limit, payment, services, ban on tables/awnings.',
+          'The municipality may prohibit or restrict pernoita by signs, regulamento municipal or temporary rules.',
+          'Ordinary daytime parking is not the same as an overnight stay: pernoita means people being inside between 21:00 and 07:00.',
+          'If you have put out an awning, tables, chairs, extended steps, used levelling wedges or occupied more space — this already looks like aparcamento/campismo and the risk of a fine is higher.'
         ] }
       ]
     },
@@ -26,15 +26,15 @@ export default {
       id: 'where-forbidden',
       title: 'Where it is not allowed: coast, parks, Natura 2000',
       content: [
-        { kind: 'paragraph', text: 'The most common mistake is staying overnight by the beach, on a cliff or in a natural park because “everyone does it”. These are exactly the places where GNR, Polícia Marítima and fiscalização municipal are most often active.' },
+        { kind: 'paragraph', text: 'The most common mistake is staying overnight by a beach, on a cliff or in a natural park because “everyone does it”. These are exactly the places where GNR, Polícia Marítima and fiscalização municipal are most active.' },
         { kind: 'checklist', items: [
           'Pernoita and aparcamento outside authorised places are prohibited in áreas protegidas.',
           'Overnight stays outside authorised places are prohibited in Rede Natura 2000.',
-          'Overnight stays outside authorised places are prohibited in zones covered by coastal planning plans: POOC/POC, protected coastal strips.',
-          'It is prohibited to place a campervan on dunes, beach access roads, restricted forest roads, fire access routes.',
+          'Overnight stays outside authorised places are prohibited in zones covered by coastal planning plans: POOC/POC, coastal protected strips.',
+          'It is prohibited to place a campervan on dunes, beach access roads, restricted forest roads or fire access routes.',
           'It is prohibited to discharge águas residuais, a chemical toilet or grey water outside a service point.',
-          'It is prohibited to light fires and barbecues outside authorised zones; in summer the risk of fines and criminal consequences is higher.',
-          'If there is a sign “Proibida a pernoita de autocaravanas” or “Parqueamento proibido” — do not argue on the spot, leave.'
+          'It is prohibited to light fires and barbecues outside authorised areas; in summer the risk of fines and criminal consequences is higher.',
+          'If there is a sign saying “Proibida a pernoita de autocaravanas” or “Parqueamento proibido” — do not argue on the spot; leave.'
         ] },
         { kind: 'warning', text: 'The Algarve, Costa Vicentina, Peniche, Ericeira, Arrábida, Sintra-Cascais, Gerês and beach car parks are high-control areas. Even if an app says “overnight stay possible”, the sign and the law matter more than reviews.' }
       ]
@@ -43,15 +43,15 @@ export default {
       id: 'parking-vs-camping',
       title: 'Parking, pernoita and campismo are not the same thing',
       content: [
-        { kind: 'paragraph', text: 'Portuguese rules distinguish between simple parking, an overnight stay and setting up as a “camp”. The more you go beyond the vehicle’s dimensions, the higher the risk that an inspector will consider it aparcamento/campismo outside an authorised place.' },
+        { kind: 'paragraph', text: 'Portuguese rules distinguish between simple parking, an overnight stay and setting up “camp”. The more you extend beyond the vehicle’s dimensions, the higher the risk that an inspector will treat it as aparcamento/campismo outside an authorised place.' },
         { kind: 'checklist', items: [
-          'Estacionamento: the vehicle is within the marked bay and does not occupy more space than its dimensions.',
+          'Estacionamento: the vehicle is within the marked bay and does not occupy more space than its own dimensions.',
           'Pernoita: people are inside the autocaravana between 21:00 and 07:00.',
           'Aparcamento: parking with signs of setting up — extended awning, tables, chairs, levelling wedges, steps, external tanks.',
-          'Campismo selvagem: actual wild camping outside a camping/parque/ASA; this cannot be legalised with the phrase “we just stayed overnight”.',
+          'Campismo selvagem: actual wild camping outside a camping/parque/ASA; it cannot be made legal by saying “we just stayed overnight”.',
           'Windows and the roof are usually not a problem in themselves, but an awning, furniture and washing lines are a red flag.',
-          'Do not occupy two parking bays, do not block access to the beach, rubbish containers, homes or fire roads.',
-          'Sleeping in a passenger car does not formally make it an autocaravana, but local bans on camping/pernoita may be applied more broadly.'
+          'Do not occupy two parking bays, do not block access to the beach, bins, homes or fire roads.',
+          'Staying overnight in a passenger car does not formally make it an autocaravana, but local bans on camping/pernoita may be applied more broadly.'
         ] }
       ]
     },
@@ -63,9 +63,9 @@ export default {
         { kind: 'checklist', items: [
           'Look for “Área de Serviço para Autocaravanas”, “Parque de Autocaravanas”, “Parque de Campismo”.',
           'Check whether there is a sign with a limit: 24 h, 48 h, 72 h, “só serviço”, “sem pernoita”.',
-          'Check whether the place is within a Parque Natural, Rede Natura 2000 or a protected coastal zone.',
+          'Check whether the place is inside a Parque Natural, Rede Natura 2000 or coastal protected zone.',
           'If you are staying outside an ASA, do not remain for more than 48 hours in one município.',
-          'Pay the parking meter or app if the car park is paid; an autocaravana is not exempt from ordinary trânsito rules.',
+          'Pay the parking meter or app if the car park is paid; an autocaravana is not exempt from the ordinary trânsito rules.',
           'Discharge águas cinzentas and cassete WC only at a service point.',
           'Keep the receipt/payment screenshot and photos of signs in case of a dispute.',
           'In doubtful places, ask the Câmara Municipal, posto de turismo or GNR.'
@@ -77,31 +77,31 @@ export default {
       id: 'fines-and-practical-defense',
       title: 'Fines and what to do during an inspection',
       content: [
-        { kind: 'paragraph', text: 'The main fines under the current Código da Estrada: €60–300 for breaching the general pernoita/aparcamento rule and €120–600 for a breach in áreas protegidas, Rede Natura 2000 or coastal planning zones. The amount depends on how the offence is classified and the location.' },
+        { kind: 'paragraph', text: 'The main fines under the current Código da Estrada are: €60–300 for breaching the general pernoita/aparcamento rule and €120–600 for a breach in áreas protegidas, Rede Natura 2000 or coastal planning zones. The amount depends on how the offence is classified and on the location.' },
         { kind: 'checklist', items: [
           'Do not argue aggressively with GNR, Polícia Marítima or fiscalização municipal.',
           'Ask them to indicate the specific rule, sign or zone on which the fine is based.',
-          'Photograph the place, signs, markings, coordinates and the absence/presence of a ban.',
-          'If you were within the 48-hour limit, keep evidence of the arrival time: parking receipt, track, photo.',
+          'Photograph the place, signs, markings, coordinates and the absence/presence of a prohibition.',
+          'If you were within the 48-hour limit, keep proof of the arrival time: parking receipt, track, photo.',
           'If it was an official ASA/parque, keep the payment receipt or booking confirmation.',
-          'Do not admit to “campismo” if you were in fact only parked without an awning, furniture or extending beyond the vehicle dimensions.',
-          'When receiving an auto de contraordenação, you can pay or challenge it within the set deadline; the details will be in the notice.'
+          'Do not admit to “campismo” if in fact you were only parked without an awning, furniture or extending beyond the vehicle dimensions.',
+          'When you receive an auto de contraordenação, you can pay or contest it within the set deadline; the details will be in the notice.'
         ] },
-        { kind: 'warning', text: 'The most expensive scenario is beach/natural park + overnight stay + furniture taken outside + water discharge. This is an almost guaranteed conflict and a fine closer to the upper end of the range.' }
+        { kind: 'warning', text: 'The most expensive scenario is beach/natural park + overnight stay + furniture outside + water discharge. This is almost guaranteed to create a conflict and a fine closer to the top of the range.' }
       ]
     }
   ],
   costs: [
-    { label: 'Fine for breaching the general pernoita/aparcamento rule', amountEURMin: 60, amountEURMax: 300, note: 'For example, exceeding 48 hours in one município or staying overnight where a local ban applies.' },
-    { label: 'Fine in áreas protegidas, Rede Natura 2000 or coastal POC/POOC', amountEURMin: 120, amountEURMax: 600, note: 'Applies if the overnight stay or aparcamento was outside a specifically authorised place.' },
-    { label: 'Official ASA or parque de autocaravanas', amountEURMin: 0, amountEURMax: 15, note: 'Typical range per night/day excluding high-season camping; water/electricity service may be charged separately.' }
+    { label: 'Fine for breaching the general pernoita/aparcamento rule', amountEURMin: 60, amountEURMax: 300, note: 'For example, exceeding 48 hours in one município or staying overnight where there is a local ban.' },
+    { label: 'Fine in áreas protegidas, Rede Natura 2000 or coastal POC/POOC areas', amountEURMin: 120, amountEURMax: 600, note: 'Applies if the overnight stay or aparcamento was outside a specifically authorised place.' },
+    { label: 'Official ASA or parque de autocaravanas', amountEURMin: 0, amountEURMax: 15, note: 'Typical range per night/day, not including high-season camping; water/electricity services may be charged separately.' }
   ],
   sources: [
     { title: 'Lei 92/2019 — regime for circulação e permanência de autocaravanas', url: 'https://dre.pt/dre/detalhe/lei/92-2019-124441018', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Consolidated Código da Estrada — art. 50-A on autocaravanas', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1994-116041830', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Lei 66/2021 — amendment to the rules on pernoita for autocaravanas', url: 'https://dre.pt/dre/detalhe/lei/66-2021-169570084', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Lei 66/2021 — amendment to the rules on pernoita de autocaravanas', url: 'https://dre.pt/dre/detalhe/lei/66-2021-169570084', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Federação de Campismo e Montanhismo de Portugal — information on caravanismo', url: 'https://www.fcmp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -54,7 +54,7 @@ export default {
           'Не дробите 20 000 € на 20 переводов по 1 000 € “чтобы банк не заметил”: это выглядит хуже, чем один объяснимый перевод.',
           'Для покупки USDT/USDC учитывайте риск эмитента и то, что “stablecoin” не равен банковскому депозиту.'
         ] },
-        { kind: 'warning', text: 'Португальские банки не обязаны принимать crypto-происхождение средств автоматически. Revolut/ActivoBank/Millennium/Novo Banco могут запросить документы или ограничить операции; политика меняется быстрее, чем налоговый закон.' }
+        { kind: 'warning', text: 'Португальские банки не обязаны принимать crypto-происхождение средств автоматически. Revolut/ActivoBank/Millennium/Novobanco могут запросить документы или ограничить операции; политика меняется быстрее, чем налоговый закон.' }
       ]
     },
     {
@@ -106,6 +106,6 @@ export default {
     { title: 'Lei n.º 24-D/2022 — Orçamento do Estado 2023, налоговый режим criptoativos', url: 'https://dre.pt/dre/detalhe/lei/24-d-2022-205557192', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regulamento (UE) 2023/1114 — MiCA, режим crypto-asset service providers в ЕС', url: 'https://eur-lex.europa.eu/eli/reg/2023/1114/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

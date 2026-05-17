@@ -3,7 +3,7 @@ export default {
   id: 'portuguese-phrases',
   categoryId: 'daily_life',
   title: 'Португальский — базовые фразы для первых недель',
-  tldr: 'Европейский португальский отличается от бразильского: другое произношение (редукция гласных), «tu» реже, «você» — формальное. Английский в Лиссабоне/Порту понимают в туристических местах, в Finanças/AIMA/аптеках — менее надёжно. Минимум 20-30 фраз выучить ДО приезда — очень окупается.',
+  tldr: 'Европейский португальский отличается от бразильского: другое произношение (редукция гласных). В Португалии «tu» широко используется в неформальном общении; «você» НЕ универсальное безопасное формальное — может звучать дистанцированно. Для формального обращения используйте 3 лицо с «o senhor / a senhora» или должность. Английский в Лиссабоне/Порту понимают в туристических местах, в Finanças/AIMA/аптеках — менее надёжно.',
   tags: ['португальский', 'фразы', 'язык', 'начало'],
   estimatedReadMinutes: 6,
   steps: [
@@ -142,10 +142,10 @@ export default {
       title: 'Как учить дальше',
       content: [
         { kind: 'checklist', items: [
-          '📚 Programa PLA (Português Língua de Acolhimento) — бесплатные курсы от ACM в муниципальных центрах',
+          '📚 Programa PLA (Português Língua de Acolhimento) — бесплатные курсы; функции бывшего ACM с октября 2023 переданы AIMA. Программа реализуется через школьную сеть, IEFP и партнёрские центры',
           '🎓 Instituto Camões — официальные учебные центры',
           '🏫 CIAL / CLIC / Fast Forward — частные школы в крупных городах',
-          '📱 Duolingo — базовый уровень, но европейский португальский',
+          '📱 Duolingo — базовый уровень, но курс Portuguese в Duolingo обучает в основном бразильскому португальскому (важно для произношения/лексики). Для европейского — Practice Portuguese, Portuguese With Leo, RTP',
           '🎧 Подкасты «Practice Portuguese», «Portuguese With Leo»',
           '📺 RTP Play — государственное телевидение бесплатно',
           '📖 «Português XXI» — стандартный учебник',
@@ -157,9 +157,9 @@ export default {
   ],
   sources: [
     { title: 'Instituto Camões — изучение португальского', url: 'https://www.instituto-camoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ACM — Programa PLA', url: 'https://www.acm.gov.pt/-/programa-portugues-lingua-de-acolhimento-pla-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'AIMA — Programa PLA (бывший ACM)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'CAPLE — Centro de Avaliação de Português', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 730
 }

@@ -107,6 +107,6 @@ export default {
     { title: 'A Brasileira — историческое кафе Лиссабона и bica', url: 'https://www.abrasileira.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Delta Cafés — португальская кофейная культура', url: 'https://www.deltacafes.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

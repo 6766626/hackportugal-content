@@ -3,7 +3,7 @@ export default {
   id: 'flat-tyre-highway',
   categoryId: 'auto_trips',
   title: 'Flat tyre on the motorway — the correct sequence',
-  tldr: 'On Portuguese motorways, changing a wheel on the carriageway is strictly prohibited. The sequence: hazard lights → move onto the hard shoulder → warning triangle 30 m → vest → call assistance (707 500 501 Brisa or 707 509 510 IP). For ordinary drivers, assistência em viagem insurance usually covers recovery and transfer.',
+  tldr: 'On Portuguese motorways it is strictly forbidden to change a wheel on the carriageway. Sequence: hazard lights → move onto the hard shoulder → triangle 30 m → vest → call roadside assistance (707 500 501 Brisa or 707 509 510 IP). For ordinary drivers, assistência em viagem insurance usually covers recovery and transfer.',
   tags: ['accident', 'wheel', 'tyre', 'motorway', 'assistance'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,12 +13,12 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🚨 Switch on the hazard lights immediately',
-          '🛞 DO NOT brake sharply — hold the steering wheel, ease off the accelerator smoothly',
-          '➡️ Check the right mirror — is it possible to move onto the hard shoulder',
-          '🛑 Pull over AS FAR as possible from the traffic lane, parallel to the crash barrier',
+          '🛞 Do NOT brake sharply — hold the steering wheel, ease off the accelerator smoothly',
+          '➡️ Check the right mirror — is there a chance to move onto the hard shoulder',
+          '🛑 Pull over AS FAR as possible from the traffic lane, parallel to the barrier',
           '⚙️ Engage park / handbrake, switch off the ignition, remove the key'
         ]},
-        { kind: 'warning', text: 'If the tyre burst at >100 km/h and you lost control — do not try to stop immediately; reduce speed smoothly, steer along the centre of the lane, and straighten the car.' }
+        { kind: 'warning', text: 'If the tyre bursts at a speed of >100 km/h and you lose control — do not try to stop immediately, reduce speed smoothly, steer along the centre of the lane, straighten the car.' }
       ]
     },
     {
@@ -26,13 +26,13 @@ export default {
       title: 'How to leave the car',
       content: [
         { kind: 'checklist', items: [
-          '🦺 Put on the reflective vest BEFORE getting out',
+          '🦺 Put on a reflective vest BEFORE getting out',
           '🚪 Exit on the side OPPOSITE the traffic (through the passenger door)',
-          '🚸 Move all passengers behind the crash barrier, away from the lane',
-          '⚠️ Place the warning triangle at a distance of ≥30 m behind the car (art. 88 Código da Estrada)',
-          '📍 Note the kilometre marker (kp) — the assistance service will need it'
+          '🚸 Move all passengers behind the barrier, away from the lane',
+          '⚠️ Place the triangle at a distance of ≥30 m behind the car (Art. 88 Código da Estrada)',
+          '📍 Remember the kilometre marker (kp) — the assistance service will need it'
         ]},
-        { kind: 'warning', text: 'DO NOT change the wheel on the shoulder of a motorway, even if you have a spare. This is expressly prohibited by the Código da Estrada and is dangerous — every year drivers are killed by passing lorries.' }
+        { kind: 'warning', text: 'Do NOT change the wheel on the hard shoulder of a motorway, even if you have a spare wheel. This is expressly prohibited by the Código da Estrada and is dangerous — every year drivers are killed by passing lorries.' }
       ]
     },
     {
@@ -41,7 +41,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: 'A. assistência em viagem insurance', content: [
-            { kind: 'paragraph', text: 'If you have it (usually in the RC package or separately for ~€30/year), call the insurer’s number — they will organise a tow truck and transfer to the nearest garage. The first 50–100 km are usually free.' }
+            { kind: 'paragraph', text: 'If you have it (usually in the RC package or separately for ~€30/year), call the insurer’s number — they will organise a tow truck and transfer to the nearest garage. Usually the first 50–100 km are free.' }
           ]},
           { id: 'c2', title: 'B. Motorway concessionaire', content: [
             { kind: 'checklist', items: [
@@ -52,7 +52,7 @@ export default {
               'There are always emergency SOS posts every 2 km'
             ]}
           ]},
-          { id: 'c3', title: 'C. GNR — if there are injuries or a road accident', content: [
+          { id: 'c3', title: 'C. GNR — if there are injuries or an accident', content: [
             { kind: 'paragraph', text: '112 — the universal emergency services number. GNR Brigada de Trânsito attends road accidents.' }
           ]}
         ]}
@@ -63,8 +63,8 @@ export default {
       title: 'Afterwards — documents and compensation',
       content: [
         { kind: 'checklist', items: [
-          '📄 Tow truck receipt — needed for the insurance company',
-          '🏪 Receipt for the new tyre — if the damage was caused by a pothole / debris, you can file a claim with the concessionaire (707 500 501)',
+          '📄 Tow truck receipt — needed for the insurer',
+          '🏪 Receipt for the new tyre — if the breakdown was caused by a pothole / debris, you can submit a claim to the concessionaire (707 500 501)',
           '📝 Submit a complaint on the Brisa / Ascendi website with photos of the location + kp',
           '⏰ Claim deadline — 30 days',
           '💶 The concessionaire often reimburses the cost of the tyre if you prove the cause (photo of the pothole, GNR report)'
@@ -76,22 +76,22 @@ export default {
       title: 'Prevention',
       content: [
         { kind: 'checklist', items: [
-          '🛞 Check the pressure once a month at a petrol station (free at Galp/BP)',
-          '🌡️ In summer, +0.3 bar above the nominal value — Portuguese heat “deflates” tyres',
-          '👀 Inspect the tread for cracks and bulges every 2 months',
+          '🛞 Check tyre pressure once a month at a petrol station (free at Galp/BP)',
+          '🌡️ In summer +0.3 bar above the nominal value — Portuguese heat “deflates” tyres',
+          '👀 Inspect the tread for cracks and bulges once every 2 months',
           '📐 Tread depth at least 1.6 mm (IPO is strict)',
-          '🎯 Replace tyres in pairs on the same axle',
-          '📅 Tyres over 10 years old — replace even with good tread (ageing of the rubber compound)'
+          '🎯 Change tyres in pairs on the same axle',
+          '📅 Tyres older than 10 years — replace even with good tread (ageing of the rubber compound)'
         ]}
       ]
     }
   ],
   sources: [
     { title: 'Código da Estrada — consolidated text', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1994-55253174', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Infraestruturas de Portugal — Road safety', url: 'https://www.infraestruturasdeportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Infraestruturas de Portugal — road safety', url: 'https://www.infraestruturasdeportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Autoridade Nacional de Segurança Rodoviária (ANSR)', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'IMT — Tyre safety', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'IMT — tyre safety', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

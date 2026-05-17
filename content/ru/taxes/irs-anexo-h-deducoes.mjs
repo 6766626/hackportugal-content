@@ -158,6 +158,6 @@ export default {
 ,
     { title: 'AT — Folheto IRS deduções 2025', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/IRS_deducoes_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

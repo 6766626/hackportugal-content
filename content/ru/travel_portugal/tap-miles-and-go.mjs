@@ -122,6 +122,6 @@ export default {
     { title: 'TAP Miles&Go — использование миль', url: 'https://www.flytap.com/en-pt/miles-and-go/use-miles', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Star Alliance — авиакомпании-участники', url: 'https://www.staralliance.com/en/member-airlines', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

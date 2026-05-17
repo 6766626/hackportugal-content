@@ -3,7 +3,7 @@ export default {
   id: 'rent-a-car',
   categoryId: 'auto_trips',
   title: 'Car hire in Portugal — tips for residents and tourists',
-  tldr: 'Car hire in Portugal ranges from €20/day for a budget small car to €150+/day for premium. International firms such as Hertz / Europcar / Avis are more expensive than local companies, but more reliable. Budget options: Sixt, Goldcar, Centauro — cheap, but with many hidden fees. Requirements: driver age ≥ 21, licence held for ≥ 1 year, credit card (debit cards are not accepted everywhere). Full insurance (CDW + TP + zero excess) ~€15-25/day — essential if you do not have a premium credit card with insurance. Deposit €800-2500. Via Verde is usually included, toll roads — selectively.',
+  tldr: 'Car hire in Portugal ranges from €20/day for a budget small car to €150+/day for premium. International Hertz / Europcar / Avis are more expensive than local companies, but more reliable. Budget options: Sixt, Goldcar, Centauro — cheap, but with many hidden fees. Requirements: driver age ≥ 21, driving licence held for ≥ 1 year, credit card (debit cards are not accepted everywhere). Full insurance (CDW + TP + zero excess) ~€15-25/day — essential if you do not have a premium credit card with insurance. Deposit €800-2,500. Via Verde is usually included, toll roads — selectively.',
   tags: ['hire', 'car', 'vehicle', 'sixt', 'europcar'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,18 +14,18 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Premium international companies', content: [
             { kind: 'checklist', items: [
-              '**Hertz, Europcar, Avis, Enterprise, Sixt** — large, with 24/7 support, transparent',
+              '**Hertz, Europcar, Avis, Enterprise, Sixt** — large operators, with 24/7 support, transparent',
               'Prices: €40-150/day',
               'Full insurance is often included in the package',
-              'New cars (<1 year old), good maintenance',
-              'Branches at airports, in cities and at railway stations',
+              'New cars (<1 year), good maintenance',
+              'Branches at airports, in cities, at railway stations',
               'Include Via Verde in some packages'
             ]}
           ]},
           { id: 'c2', title: 'Budget companies', content: [
             { kind: 'checklist', items: [
               '**Goldcar, Centauro, OK Mobility, Firefly** — cheaper (€20-50/day)',
-              '⚠️ **Hidden fees**: additional cleaning, “dirty fuel policy” (penalty if you did not refuel), hidden insurance exclusions',
+              '⚠️ **Hidden fees**: extra cleaning, “dirty fuel policy” (penalty if you did not refill), hidden exclusions from insurance',
               'Queues at the airport can be 30-60 min',
               'Cars are often older (>3 years), sometimes with scratches',
               'TravelTrolls / Reclaim often write about them — read reviews'
@@ -42,9 +42,9 @@ export default {
           { id: 'c4', title: 'Aggregators for comparison', content: [
             { kind: 'checklist', items: [
               '**Kayak, Rentalcars, Skyscanner, Discover Cars**',
-              '⚠️ The price on an aggregator is not the final price. Insurance, deposit and fuel policy may differ',
+              '⚠️ The price on an aggregator is not the final price. Insurance, deposit, fuel policy may differ',
               '**Rentalcars.com** has its own insurance — often cheaper than the hire company’s',
-              'Book 2-4 weeks ahead to get the best price',
+              'Book 2-4 weeks in advance to get the best price',
               'At the last minute, especially in peak season (July-August, Easter), prices can be ×2'
             ]}
           ]}
@@ -56,13 +56,13 @@ export default {
       title: '📋 Requirements',
       content: [
         { kind: 'checklist', items: [
-          '🆔 **Licence**: valid in the EU (any EU licence) or an international driving permit + national licence for non-EU citizens',
-          '👥 **Age**: normally ≥ 21, 25+ for premium class / for people <25 — “young driver fee” €5-15/day',
-          '📅 **Licence held for**: ≥ 1 year (2 years for premium class)',
-          '💳 **Credit card**: required, not a debit card (some budget companies accept a debit card + ×2 deposit)',
-          '🧾 **Deposit**: €800-2500 is blocked on the credit card',
-          '🏠 **Address**: some require proof (for non-EU citizens, a passport is often sufficient)',
-          '📄 **Documents**: licence + passport + credit card + booking voucher'
+          '🆔 **Driving licence**: valid in the EU (any EU licence) or international driving permit + national licence for non-EU citizens',
+          '👥 **Age**: usually ≥ 21, 25+ for premium class / drivers <25 — “young driver fee” €5-15/day',
+          '📅 **Licence held**: ≥ 1 year (2 years for premium class)',
+          '💳 **Credit card**: required, not a debit card (some budget companies accept debit card + deposit ×2)',
+          '🧾 **Deposit**: €800-2,500 is blocked on the credit card',
+          '🏠 **Address**: some require proof (for non-EU citizens a passport is often enough)',
+          '📄 **Documents**: driving licence + passport + credit card + booking voucher'
         ]}
       ]
     },
@@ -70,15 +70,15 @@ export default {
       id: 'insurance',
       title: '🛡️ Insurance — the key point',
       content: [
-        { kind: 'paragraph', text: 'Basic insurance is always included, but has a high excess (up to €1500). Additional insurance reduces or removes the excess.' },
+        { kind: 'paragraph', text: 'Basic insurance is always included, but has a high excess (up to €1,500). Additional insurance reduces or removes the excess.' },
         { kind: 'substeps', items: [
           { id: 'i1', title: 'Types', content: [
             { kind: 'checklist', items: [
-              '**CDW (Collision Damage Waiver)**: covers damage to the car in an accident caused by you, but with an excess',
+              '**CDW (Collision Damage Waiver)**: covers damage to the car in an accident that is your fault, but with an excess',
               '**TP (Theft Protection)**: theft cover',
               '**SCDW / Zero Excess** (Super CDW): reduces the excess to 0 — often +€10-15/day',
-              '**TP Extra**: theft with no excess',
-              '**Third Party Liability (RC)**: usually included, legally required',
+              '**TP Extra**: theft without excess',
+              '**Third Party Liability (RC)**: usually included, mandatory by law',
               '**Glass & Tyres** (seguro janelas e pneus): often separate, €2-5/day',
               '**Personal Accident Insurance**: additional accident insurance; if you do not have your own — worth considering'
             ]}
@@ -88,8 +88,8 @@ export default {
               '**American Express Gold/Platinum**: includes CDW free of charge',
               '**Revolut Premium / Metal**: hire car insurance included',
               '**Some Visa Infinite / Mastercard World Elite**: similar conditions',
-              'Pay for the car hire with this card → the insurance is activated',
-              'BUT: some hire companies refuse this and still sell their own insurance — check in advance'
+              'You pay for the car hire with this card → the insurance is activated',
+              'BUT: some hire companies refuse it and still sell their own insurance — check in advance'
             ]}
           ]},
           { id: 'i3', title: 'Third-party insurance', content: [
@@ -104,16 +104,16 @@ export default {
     },
     {
       id: 'pickup',
-      title: '🚘 On pick-up — essential steps',
+      title: '🚘 On collection — essential steps',
       content: [
         { kind: 'checklist', items: [
           '🚗 **Inspect the car before signing the contract** — walk around it, take photos of scratches/stains on your phone',
-          '📸 **Video of the interior** — upholstery, dashboard, buttons',
+          '📸 **Video inside** — upholstery, dashboard, buttons',
           '⛽ **Fuel**: full level / as stated in the contract; if “full-to-full” — return it with the same level',
-          '🔑 **Documents**: registration documents, insurance, roadworthiness inspection (IPO) — in the glove compartment',
-          '💡 **Ask**: whether the air conditioning, brake light, Bluetooth and GPS work',
-          '📋 **Sign the contract ONLY after checking** — everything photographed must be recorded',
-          '💳 **Deposit**: card hold — ask them to show it before signing',
+          '🔑 **Documents**: registration documents, insurance, roadworthiness inspection (IPO) — in the glovebox',
+          '💡 **Ask**: whether the air conditioning, brake light, Bluetooth, GPS work',
+          '📋 **Sign the contract ONLY after inspection** — everything photographed must be recorded',
+          '💳 **Deposit**: card pre-authorisation — have it shown before signing',
           '🛣️ **Via Verde** — find out whether it is included. If not — choose alternative roads or pay yourself after the trip'
         ]}
       ]
@@ -125,10 +125,10 @@ export default {
         { kind: 'checklist', items: [
           '⛽ **Refuel** to the same level (full-to-full policy — cheaper than their refuelling price)',
           '🧹 **Clean inside** — remove rubbish; if dirty — cleaning fee €30-100',
-          '🚗 **Wash the outside** — usually not required, but if very dirty — a fee',
-          '📸 **Photograph again** when returning — protection against unexpected claims for scratches',
-          '📝 **Get a signed return report** — confirmation of no damage',
-          '⏰ **On time** — late return = payment for a day + penalty',
+          '🚗 **Wash outside** — usually not required, but if very dirty — a fee',
+          '📸 **Photograph again** when handing back — protection against unexpected claims for scratches',
+          '📝 **Get a signed return report** — confirmation with no damage',
+          '⏰ **On time** — late return = one day’s charge + penalty',
           '📅 **Grace period**: usually 30 min',
           '💳 **Deposit release**: 1-14 days to the card'
         ]}
@@ -140,15 +140,15 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🎫 **Book in advance**: 2-6 weeks ahead — -30-40% compared with the walk-up price',
-          '📍 **Algarve vs Lisboa**: Faro airport is often cheaper, with more local choice',
-          '📅 **Pick-up Monday-Thursday** — cheaper than at weekends',
+          '📍 **Algarve vs Lisbon**: Faro airport is often cheaper, with more local choice',
+          '📅 **Collection Monday-Thursday** — cheaper than at weekends',
           '⏰ **Morning slot** — shorter queue',
-          '🏝️ **Islands (Madeira, Azores)** — always book in advance, fleets are limited',
-          '🌍 **Crossing borders** (to Spain, France) — check, not all companies allow it. Surcharge €20-50',
-          '🪄 **Upgrade at the desk** — often a “free” upgrade = an attempt to sell insurance; do not agree immediately',
+          '🏝️ **Islands (Madeira, Azores)** — definitely book in advance, fleets are limited',
+          '🌍 **Crossing the border** (to Spain, France) — check, not all allow it. Surcharge €20-50',
+          '🪄 **Upgrade at the desk** — often a “free” upgrade = an attempt to sell insurance; do not agree straight away',
           '🎒 **Child seat**: €5-10/day (better to bring your own)',
           '📡 **GPS**: not needed (Google Maps + phone), €5-10/day overpayment',
-          '🏎️ **Car age** — the older the car, the higher the chance of technical problems. Europcar / Hertz are usually < 1 year old'
+          '🏎️ **Age of the car** — the older the car, the higher the chance of technical problems. Europcar / Hertz are usually < 1 year'
         ]}
       ]
     },
@@ -157,11 +157,11 @@ export default {
       title: '⚠️ Fines',
       content: [
         { kind: 'checklist', items: [
-          '📸 A speeding fine / red-light offence is recorded against the vehicle registration number — the hire company receives the notice',
+          '📸 A speeding / red-light fine is recorded against the car’s number plate — the hire company receives the notice',
           'They invoice you: **fine + administrative fee €30-80**',
-          'Non-payment of Via Verde = fine ×25 of the cost → the hire company forwards it to you with a fee',
+          'Non-payment of Via Verde = penalty ×25 of the cost → the hire company forwards it to you with a fee',
           'Payment: within 30 days; ignoring it — blocking of future hires + debt collection',
-          'Appeals only through the hire company (they forward them to the authorities)'
+          'Appeal only through the hire company (they pass it on to the authorities)'
         ]}
       ]
     }
@@ -180,6 +180,6 @@ export default {
     { title: 'Discover Cars — aggregator', url: 'https://www.discovercars.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'DECO PROteste — hire company ratings', url: 'https://www.deco.proteste.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

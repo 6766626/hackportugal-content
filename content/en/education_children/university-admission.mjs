@@ -3,7 +3,7 @@ export default {
   id: 'university-admission',
   categoryId: 'education_children',
   title: 'Admission to a Portuguese university — for foreigners',
-  tldr: 'For admission to a Portuguese university (bachelor’s degree, licenciatura): via the CNES/DGES Concurso Nacional portal (national competition) — for Portuguese/EU school leavers; or via Concurso Especial para Estudantes Internacionais (CEEI) — for non-EU students. You need: diploma equivalence (recognition at certificacao.dge.mec.pt), Portuguese B1-B2 (for a licenciatura taught in Portuguese) or IELTS 6.0+ (for English-taught programmes), and a motivation letter. Deadlines: applications from May to July for the autumn semester. Cost: ~€700-1,500/year for a licenciatura (public); ~€3,000-12,000/year (private).',
+  tldr: 'For admission to a Portuguese university (undergraduate, licenciatura): via DGES / Concurso Nacional de Acesso ao Ensino Superior (CNAES regulates access rules) — for Portuguese/EU school leavers; or via **Concurso Especial para Estudantes Internacionais (CEEI)** under DL 36/2014 — for candidates with Estudante Internacional status (usually non-EU, NOT PT residents for > 2 years by 1 January of the admission year, not family members of EU citizens and not persons with estatuto de igualdade). You need: equivalência/reconhecimento of the school certificate (through a state school/agrupamento under DGE rules), Portuguese B1-B2 (CAPLE: DEPLE=B1, DIPLE=B2) or IELTS 6.0+ for English-taught programmes, motivation letter. Cost: up to ~€697/year for PT/EU in a public licenciatura; for CEEI, international propinas are set by each university separately (usually higher).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['university', 'admission', 'diploma', 'recognition', 'dges', 'cnes'],
   estimatedReadMinutes: 9,
@@ -15,30 +15,29 @@ export default {
         { kind: 'substeps', items: [
           { id: 'o1', title: 'Concurso Nacional (national)', content: [
             { kind: 'checklist', items: [
-              '👥 For: Portuguese/EU secondary school leavers (12th year in Portugal)',
-              '📊 Points-based competition: 65% — school grades + 35% — provas de ingresso (entrance exams)',
+              '👥 For: Portuguese/EU secondary-school leavers (12th year in Portugal)',
+              '📊 Weightings (nota do secundário + provas de ingresso) are published by DGES for each instituição/curso pair — the formula depends on the university/course; do not treat 65/35 as a universal rule',
               '⏰ Application: July-August',
-              '🔢 Exams: mathematics, history, physics, chemistry — as required by the faculty',
+              '🔢 Exams: mathematics, history, physics, chemistry — according to the faculty requirement',
               '✅ Result: recommended university/course via DGES',
-              '⚠️ Not for foreigners with a school diploma from a non-EU country'
+              '⚠️ Not for foreigners with a school diploma from a country outside the EU'
             ]}
           ]},
-          { id: 'o2', title: 'CEEI — for foreigners (non-EU)', content: [
+          { id: 'o2', title: 'CEEI — Estudante Internacional (under DL 36/2014)', content: [
             { kind: 'checklist', items: [
-              '👥 For: citizens of non-EU countries with a school leaving certificate from their own country',
-              '📊 Each university admits according to its own criteria',
-              '📑 Apply directly to the university, usually through GIRA (Gabinete de Internacionalização)',
+              '👥 For: candidates with Estudante Internacional status — usually non-EU, **BUT NOT** EU/EEA citizens, not family members of EU citizens, **not PT residents for more than 2 years by 1 January of the admission year** and not persons with an applicable estatuto de igualdade. Check your status BEFORE choosing CEEI',
+              '📊 Each university admits according to its own criteria; vagas are set by each university/course every year — see the edital for the specific CEEI',
+              '📑 Apply directly to the university through its CEEI/International Student portal or Serviços Académicos/International Office; the platform name depends on the university',
               '⏰ Deadlines: January-June (depends on the university)',
-              '🔢 Quotas: up to 25% of places on a course for foreigners',
-              '💰 Price: HIGHER for foreigners — usually €4,000-8,000/year instead of €700-1,500',
-              '🌐 More details: Lisbon — ulisboa.pt/internacional, Porto — up.pt/international'
+              '💰 Price: international propinas are set by each university — usually higher than national fees',
+              '🌐 More: ulisboa.pt/internacional, up.pt/international, and the edital for each specific course'
             ]}
           ]},
-          { id: 'o3', title: 'CPLP / lusophones', content: [
+          { id: 'o3', title: 'CPLP / Portuguese-speaking countries', content: [
             { kind: 'checklist', items: [
-              '🌐 Citizens of CPLP countries (Brazil, Cabo Verde, Angola, etc.) can apply through CEEI',
+              '🌐 CPLP citizens (Brazil, Cape Verde, Angola, etc.) can apply through CEEI',
               '🆓 Some universities give Brazilians/CPLP the same price as Portuguese students — Universidade do Minho, Lusíada, IPS Setúbal',
-              '📋 Recognition of ENEM (Brazilian national exam) — accepted at ULisboa, UPorto and others'
+              '📋 Recognition of ENEM (Brazilian national exam) — valid at ULisboa, UPorto and others'
             ]}
           ]}
         ]}
@@ -48,11 +47,11 @@ export default {
       id: 'document-equivalence',
       title: '📄 Diploma equivalence',
       content: [
-        { kind: 'paragraph', text: 'For admission, you need equivalence of your school leaving certificate to Portuguese “Ensino Secundário” (12 years). This is done through DGE (Direção-Geral da Educação).' },
+        { kind: 'paragraph', text: 'For admission, you need equivalence of your school certificate to Portuguese “Ensino Secundário” (12 years). This is done through DGE (Direção-Geral da Educação).' },
         { kind: 'substeps', items: [
           { id: 'e1', title: 'Documents', content: [
             { kind: 'checklist', items: [
-              '🎓 School leaving certificate with apostille (or legalised by the Portuguese embassy)',
+              '🎓 School certificate with apostille (or legalised by the Portuguese embassy)',
               '📊 Transcript of grades for the last 2-3 years (with apostille)',
               '🌐 Certified translation into Portuguese',
               '🆔 Passport + residence permit (if any)',
@@ -61,10 +60,9 @@ export default {
           ]},
           { id: 'e2', title: 'Process', content: [
             { kind: 'checklist', items: [
-              '🌐 Apply via certificacao.dge.mec.pt (online)',
-              '🏛️ Alternatively: at any state school (escola pública) — the headteacher accepts the documents',
-              '⏱️ Processing: 1-3 months (faster in smaller towns)',
-              '💰 Price: state fee €50',
+              '🏛️ Equivalence of foreign secondary education is processed through an **escola pública / agrupamento de escolas** under DGE rules (DL 227/2005, Portaria 224/2006); the specific school accepts the application and documents',
+              '⏱️ Processing: 1-3 months (faster in small towns)',
+              '💰 Price: depends on the school/municipality; usually a small administrative fee or free — check with the school',
               '📜 You receive a “Certificado de Equivalência” — the school diploma is recognised in Portugal'
             ]}
           ]}
@@ -78,18 +76,18 @@ export default {
         { kind: 'substeps', items: [
           { id: 'l1', title: 'Portuguese (most courses)', content: [
             { kind: 'checklist', items: [
-              '📜 Level: B1-B2 minimum; for medicine and law — B2-C1',
-              '🎓 CIPLE (B1) or DEPLE (B2) certificate from Instituto Camões (caple.letras.ulisboa.pt)',
-              '💰 CIPLE exam €85',
-              '📅 Sessions: monthly in major cities',
-              '🌐 The university may also accept a DELE Camões certificate at B2 level',
-              '⚠️ For CPLP countries (Brazil, Angola, Cabo Verde, etc.) — the requirement does not apply'
+              '📜 Level: usually B1-B2 minimum; for medicine and law — B2-C1',
+              '🎓 **CAPLE**: CIPLE = A2, DEPLE = B1, **DIPLE = B2**, DAPLE = C1, DUPLE = C2 (caple.letras.ulisboa.pt). If the university requires B2 — you need **DIPLE** or equivalent',
+              '💰 Cost depends on the level and CAPLE centre; check the tabela de preços CAPLE',
+              '📅 Sessions — according to the CAPLE calendar at accredited centres; dates and levels depend on the centre, and you need to register in advance',
+              '🌐 The university may accept CAPLE DIPLE B2 or another recognised Portuguese certificate if this is stated in the edital (DELE is a **Spanish** certificate from Instituto Cervantes, not Portuguese)',
+              '⚠️ For candidates educated in Portuguese, many universities waive the certificate, but this depends on the edital; **CPLP citizenship by itself is not a universal exemption**'
             ]}
           ]},
           { id: 'l2', title: 'English (programmes for foreigners)', content: [
             { kind: 'checklist', items: [
               '📜 IELTS 6.0+ or TOEFL 80+',
-              '🎓 Programmes in English: ULisboa (medicine — IMED), NOVA SBE (business), UPorto (engineering)',
+              '🎓 There are **fewer** English-taught licenciatura programmes in PT than master’s programmes (English is more common at master\'s level). Check the language of instruction on the specific course website; medicine at public universities is usually in Portuguese',
               '💰 English-taught programmes are usually more expensive (€5,000-10,000/year)',
               '🌐 List of English-taught programmes: studyinportugal.pt'
             ]}
@@ -108,7 +106,7 @@ export default {
           '🏛️ **NOVA Lisboa** — modern, English-taught programmes, NOVA SBE MBA is prestigious',
           '🏛️ **Universidade de Aveiro** — technology, IT, engineering',
           '🏛️ **Universidade do Minho** (Braga) — IT, biomedicine',
-          '🎨 **IST (Instituto Superior Técnico)** — flagship technical sciences institution',
+          '🎨 **Instituto Superior Técnico (IST)** — school of Universidade de Lisboa, flagship for engineering/technology',
           '🏥 **Faculdade de Medicina de Lisboa** — top medical faculty',
           '💼 **Católica Lisbon SBE** — private, strong for business/MBA',
           '📚 Full ranking: U-Multirank.eu or QS World University Rankings'
@@ -122,21 +120,21 @@ export default {
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Cost', content: [
             { kind: 'checklist', items: [
-              '🟢 Portuguese/EU students: €700-1,250/year (public university)',
-              '🟡 Foreigners (CEEI): €3,000-7,000/year',
+              '🟢 PT/EU in public licenciatura: up to about **€697/year maximum** (DGES propina cap for national/EU students in public licenciatura/mestrado integrado abrangido)',
+              '🟡 Foreigners (CEEI): international propinas are set by each university — usually higher; see the edital for the specific course',
               '🔴 Private universities: €5,000-15,000/year',
-              '💵 Housing: €250-500/month for a room, €600-900/month for a studio',
+              '💵 Housing: room ~€350-650+ in Lisbon/Porto (private market), less in residences and small towns; studio in Lisbon often €750-1,100+',
               '🍔 Food: €200-300/month',
               '📚 Textbooks: €100-300/semester'
             ]}
           ]},
           { id: 'f2', title: 'Scholarships and support', content: [
             { kind: 'checklist', items: [
-              '💰 **Bolsa de Acção Social (DGES)** — for low-income Portuguese/EU students, €100-500/month',
+              '💰 **Bolsa de Acção Social (DGES)** — for Portuguese/EU students with low income, €100-500/month',
               '💰 **Erasmus+** — for an exchange semester',
               '🇵🇹 **Bolsa Camões** — for foreigners studying Portuguese culture/language',
-              '🌍 **Fulbright** (for the USA), **DAAD** (for Germany) — joint programmes with Portugal',
-              '💼 **Programmes within universities**: ULisboa → Bolsa de Excelência, NOVA → Merit Scholarships',
+              '🌍 **Fulbright** (for the USA), **DAAD** (for Germany) — joint with Portugal',
+              '💼 **In-university programmes**: ULisboa → Bolsa de Excelência, NOVA → Merit Scholarships',
               '📋 Scholarship applications are usually submitted 6 months before the semester starts'
             ]}
           ]}
@@ -148,12 +146,12 @@ export default {
       title: '🛂 D4 visa (study)',
       content: [
         { kind: 'checklist', items: [
-          '📜 After the acceptance letter from the university — apply for D4 at the Portuguese consulate in your country of residence',
-          '📋 Documents: passport, acceptance letter, proof of funds (≥ €7,200/year = 12× IAS), insurance, proof of accommodation',
+          '📜 After the admission letter from the university — apply for D4 at the Portuguese consulate in your country of residence',
+          '📋 Documents: passport, admission letter, proof of funds (guide 12×IAS = **€6,445.56** in 2026; IAS 2026 = €537.13 — the specific consular post may require additional proof/a larger buffer), insurance, proof of accommodation',
           '⏱️ Processing: 30-60 days',
-          '🎫 Validity: 4 months for entry, then a residence permit at AIMA',
-          '💼 D4 gives the right to part-time work up to 20 hours/week',
-          '🎓 After completion (bachelor’s degree): “procura de trabalho” visa for 1 year to look for work'
+          '🎫 Valid: 4 months for entry, then residence permit at AIMA (plus a separate AIMA fee — check the actual fee table in force from 01.03.2026)',
+          '💼 With an autorização de residência para estudo, a higher-education student may work under an employment contract or as an independent worker, notifying AIMA and complying with Segurança Social/tax rules (there is no universal 20 h/week limit)',
+          '🎓 After completing higher education, you can request an extension/AR to look for work or create a business for up to 1 year, subject to conditions (Lei 23/2007 art. 122) — this is **not** the consular job-seeker visa'
         ]}
       ]
     },
@@ -164,31 +162,34 @@ export default {
         { kind: 'checklist', items: [
           '⏰ Start the process 1 year ahead — diploma recognition + language + application',
           '🇵🇹 Learn Portuguese BEFORE admission — most courses are in Portuguese, even “international tracks” have a Portuguese component',
-          '🤝 GIRA (international office) at each university is the best contact; write to them with questions',
+          '🤝 International Office / Serviços Académicos of each university — the best contact; write to them with questions',
           '🏠 Housing in student residences (residências) is cheaper, but competitive — apply in advance',
           '📚 Erasmus+ during your studies opens many opportunities',
-          '🌍 After a licenciatura — master’s degree 1-2 years, doctorate 3-4 years',
-          '💼 Recognition of a licenciatura from your own country (for a master’s): through UPorto Reitoria or IST, 3-6 months, €200',
-          '⚠️ For medical specialists: recognition is VERY complex, usually requiring 1-2 years of additional exams + residency'
+          '🌍 After licenciatura — master’s 1-2 years, doctorate 3-4 years',
+          '💼 Reconhecimento of a foreign higher-education degree: through the **DGES reconhecimento platform** (DL 66/2018) — automatic/level/specific recognition. The competent Portuguese HEI and cost depend on the type and level of degree (usually several hundred euros, timelines vary)',
+          '⚠️ For medical professionals: recognition is VERY complex, usually requiring 1-2 additional years + residency'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'Diploma equivalence (DGE)', amountEUR: 50 },
-    { label: 'CIPLE B1 exam', amountEUR: 85 },
-    { label: 'Portuguese/EU licenciatura (public) — propina', amountEURMin: 700, amountEURMax: 1250, note: '€/year' },
-    { label: 'Foreigner (CEEI) — propina', amountEURMin: 3000, amountEURMax: 7000, note: '€/year' },
+    { label: 'Equivalência of school certificate (through a school/agrupamento)', note: 'usually a small administrative fee or free — check with the specific school' },
+    { label: 'CAPLE exam', note: 'depends on the level and centre — see the tabela de preços CAPLE' },
+    { label: 'PT/EU public licenciatura — propina (DGES maximum)', amountEURMax: 697, note: '€/year for national/EU students' },
+    { label: 'Foreigner (CEEI) — propina', note: 'set by each university/course — see the edital' },
     { label: 'Private university', amountEURMin: 5000, amountEURMax: 15000, note: '€/year' },
     { label: 'D4 visa (consular fee)', amountEUR: 90 },
-    { label: 'Student life in Lisbon', amountEURMin: 600, amountEURMax: 1100, note: '€/month' }
+    { label: 'AIMA residence permit/card after arrival', note: 'check the actual fee table in force from 01.03.2026' },
+    { label: 'Student life in Lisbon', amountEURMin: 700, amountEURMax: 1300, note: '€/month (room + food + transport + books)' }
   ],
   sources: [
-    { title: 'DGES — Direção-Geral do Ensino Superior', url: 'https://www.dges.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'DGE — Diploma equivalence', url: 'https://certificacao.dge.mec.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Study in Portugal — official website', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CAPLE — Portuguese as a foreign language', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'DGES — Direção-Geral do Ensino Superior', url: 'https://www.dges.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 36/2014 — Estatuto do Estudante Internacional', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/36-2014', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 66/2018 — Reconhecimento de graus e diplomas estrangeiros', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/66-2018', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'DGE — Equivalences of foreign qualifications', url: 'https://www.dge.mec.pt/equivalencias-de-habilitacoes-estrangeiras', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'CAPLE — Portuguese as a foreign language', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

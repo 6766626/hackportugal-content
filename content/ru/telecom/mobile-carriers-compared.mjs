@@ -225,6 +225,6 @@ export default {
     { title: 'Decreto-Lei 74-B/2021 — услуги связи', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-170593125', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CNIACC — национальный арбитраж по телекоммуникациям', url: 'https://www.cniacc.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 120
 }

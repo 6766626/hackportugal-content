@@ -131,6 +131,6 @@ export default {
     { title: 'Banco de Portugal — информация о потребительском кредите и сравнении стоимости', url: 'https://clientebancario.bportugal.pt/credito-aos-consumidores', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE/SCE — энергетическая сертификация зданий', url: 'https://www.sce.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

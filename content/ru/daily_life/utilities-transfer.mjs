@@ -63,7 +63,7 @@ export default {
           '📅 Подключение: 2–10 рабочих дней',
           '📊 Показания счётчика — раз в 2 месяца, самостоятельно или по телефону'
         ]},
-        { kind: 'warning', text: 'Новое подключение требует Certificado Energético здания (обновляется каждые 10 лет). В старых зданиях он часто не обновлён — решите это с арендодателем / владельцем.' }
+        { kind: 'warning', text: 'Certificado Energético требуется, как правило, при продаже/аренде недвижимости (Decreto-Lei 101-D/2020), а не как условие нового подключения электричества/газа. Для самого договора с поставщиком нужны CPE/CUI коды счётчика. Уточняйте у арендодателя при подписании договора.' }
       ]
     },
     {
@@ -126,6 +126,6 @@ export default {
     { title: 'DGEG — Direcção-Geral de Energia e Geologia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 38/2017 — comercialização de electricidade', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/38-2017', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

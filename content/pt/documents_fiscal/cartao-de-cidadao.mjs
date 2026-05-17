@@ -1,192 +1,96 @@
 export default {
-  "editorialVoice": "hackportugal",
-  "id": "cartao-de-cidadao",
-  "categoryId": "documents_fiscal",
-  "title": "Cartão de Cidadão — para residentes e cidadãos",
-  "tldr": "O Cartão de Cidadão (CC) é um documento de identificação multifuncional: identificação em Portugal + NIF + NISS + Número de Utente + documento biométrico + assinatura digital. É obrigatório para cidadãos portugueses; os residentes estrangeiros recebem um equivalente — Título de Residência (cartão de autorização de residência). Substituição/renovação — no IRN ou numa Loja de Cidadão.",
-  "tags": [
-    "cc",
-    "documentos",
-    "cartão de cidadão"
-  ],
-  "estimatedReadMinutes": 4,
-  "steps": [
+  editorialVoice: 'hackportugal',
+  id: 'cartao-de-cidadao',
+  categoryId: 'documents_fiscal',
+  title: 'Cartão de Cidadão — documento de identificação do cidadão português (para estrangeiros — Título de Residência)',
+  tldr: 'O Cartão de Cidadão (CC) é o documento nacional de identificação dos cidadãos portugueses; é aceite como documento de viagem na UE/EEE/Suíça e em alguns países. Associa os identificadores civis, fiscais (NIF), da Segurança Social (NISS) e do SNS (utente), quando atribuídos. Os residentes estrangeiros recebem normalmente o Título de Residência (cartão de autorização de residência) — é a prova do direito de residência, mas não é um equivalente completo do CC: não dá direito de voto, nem CC-eID/assinatura digital. Substituição/renovação — no IRN ou numa Loja de Cidadão.',
+  tags: ['cc', 'documentos', 'cartão de cidadão'],
+  estimatedReadMinutes: 4,
+  steps: [
     {
-      "id": "for-whom",
-      "title": "Quem recebe o CC",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Cidadãos portugueses (obrigatório)",
-            "Filhos de cidadãos portugueses (desde o nascimento — cartão temporário de recém-nascido → CC a partir dos 6-9 meses)",
-            "Os residentes estrangeiros NÃO recebem CC — têm Título de Residência (cartão de autorização de residência) com a mesma funcionalidade para a maioria dos fins"
-          ]
-        },
-        {
-          "kind": "warning",
-          "text": "Se se naturalizou → recebe o CC em vez da autorização de residência. O processo está descrito abaixo."
-        }
+      id: 'for-whom',
+      title: 'Quem recebe o CC',
+      content: [
+        { kind: 'checklist', items: [
+          'Cidadãos portugueses (obrigatório a partir do 20.º dia após o registo do nascimento)',
+          'Recém-nascidos cidadãos portugueses: o CC pode ser pedido logo através do serviço Nascer Cidadão no momento do registo do nascimento',
+          'Residentes estrangeiros normalmente não recebem CC — o seu documento principal é o Título de Residência (direito de residência), que não é um equivalente completo do CC',
+          'Algumas excepções: cidadãos do Brasil com estatuto de igualdade de direitos (Estatuto de Igualdade) podem obter o CC'
+        ]},
+        { kind: 'warning', text: 'Se se naturalizou → após o registo no Registo Civil, pode pedir o CC. O processo é descrito abaixo.' }
       ]
     },
     {
-      "id": "functions",
-      "title": "Funções do CC",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Documento de identificação para deslocações em Portugal e dentro da UE (substitui o passaporte no espaço Schengen)",
-            "Contém o NIF (número fiscal)",
-            "Contém o NISS (número da Segurança Social)",
-            "Contém o Número de Utente (número de paciente do SNS)",
-            "Documento biométrico: impressões digitais, fotografia",
-            "Chip para assinatura digital (requer leitor USB ou telemóvel com NFC)",
-            "PIN para activação",
-            "Votação em eleições (para cidadãos portugueses)",
-            "Identificação em cooperativas, bibliotecas, escolas"
-          ]
-        }
+      id: 'functions',
+      title: 'Funções do CC',
+      content: [
+        { kind: 'checklist', items: [
+          'Documento de identificação do cidadão português; é aceite como documento de viagem para deslocações na UE/EEE/Suíça e em alguns países. Fora destes regimes — é necessário passaporte',
+          'Contém/associa o NIF (número fiscal), se atribuído',
+          'Contém/associa o NISS (número de Segurança Social), se atribuído',
+          'Contém/associa o Número de Utente (número de utente do SNS), se atribuído',
+          'Biométrico: fotografia; impressões digitais — a partir da idade prevista na lei (a partir dos 12 anos, segundo o Regulamento UE 2019/1157)',
+          'Chip para assinatura digital (requer leitor USB ou telemóvel com NFC) quando os certificados estão activos',
+          'PIN para activação',
+          'Votação em eleições (para cidadãos portugueses)',
+          'Identificação em cooperativas, bibliotecas, escolas'
+        ]}
       ]
     },
     {
-      "id": "first-time",
-      "title": "Primeira emissão",
-      "content": [
-        {
-          "kind": "substeps",
-          "items": [
-            {
-              "id": "f1",
-              "title": "Para recém-nascidos",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Registo na Conservatória do Registo Civil → emissão automática do CC por 5 anos. Nos primeiros 6-9 meses — cartão temporário de recém-nascido."
-                }
-              ]
-            },
-            {
-              "id": "f2",
-              "title": "Para cidadãos naturalizados",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Após a obtenção da cidadania (aprovação pelo IRN) → marcação para o CC no IRN ou numa Loja de Cidadão → biometria + fotografia → o CC chega em 30 dias."
-                }
-              ]
-            }
-          ]
-        }
+      id: 'first-time',
+      title: 'Primeiro pedido',
+      content: [
+        { kind: 'substeps', items: [
+          { id: 'f1', title: 'Para recém-nascidos', content: [
+            { kind: 'paragraph', text: 'O CC pode ser pedido separadamente no momento do registo do nascimento, muitas vezes logo através do Nascer Cidadão / Conservatória. Para um cidadão português, o documento é obrigatório a partir do 20.º dia após o registo do nascimento. A validade do CC até aos 25 anos é de 5 anos.' }
+          ]},
+          { id: 'f2', title: 'Para cidadãos naturalizados', content: [
+            { kind: 'paragraph', text: 'Depois de concluído o processo de nacionalidade e o registo no Registo Civil, pode pedir o primeiro CC no IRN/Loja de Cidadão/consulado. O prazo de emissão depende do tipo de pedido: normal, urgente, extremamente urgente — e do local de levantamento.' }
+          ]}
+        ]}
       ]
     },
     {
-      "id": "renew",
-      "title": "Renovação / substituição",
-      "content": [
-        {
-          "kind": "substeps",
-          "items": [
-            {
-              "id": "r1",
-              "title": "Quando renovar",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "O CC é válido por 10 anos (5 para crianças). 6 meses antes do fim da validade — marque a renovação."
-                }
-              ]
-            },
-            {
-              "id": "r2",
-              "title": "Como",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Marcação em ePortugal.gov.pt → escolher Espaço Cidadão ou IRN → comparecer com o CC actual + comprovativo de morada → biometria + fotografia → 30 dias para receber."
-                }
-              ]
-            },
-            {
-              "id": "r3",
-              "title": "Perda / roubo",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "1) Bloquear através da Linha 211 950 500 (24/7). 2) Participação na PSP (auto policial). 3) Pedido de substituição no IRN com o auto policial."
-                }
-              ]
-            }
-          ]
-        }
+      id: 'renew',
+      title: 'Renovação / substituição',
+      content: [
+        { kind: 'substeps', items: [
+          { id: 'r1', title: 'Quando renovar', content: [
+            { kind: 'paragraph', text: 'Validade: 5 anos para cidadãos com menos de 25 anos; 10 anos para cidadãos a partir dos 25 anos. 6 meses antes de expirar — faça marcação para renovação.' }
+          ]},
+          { id: 'r2', title: 'Como fazer', content: [
+            { kind: 'paragraph', text: 'Faça marcação através do ePortugal/IRN, escolha um balcão IRN/Loja de Cidadão/Espaço Cidadão disponível (se esse serviço concreto estiver disponível nesse local). Numa renovação normal, normalmente é necessário o CC actual e a carta PIN; a confirmação de morada é necessária se alterar a morada ou se a entidade a solicitar. O prazo de emissão depende do tipo de pedido (normal/urgente/extremamente urgente) e do local de entrega.' }
+          ]},
+          { id: 'r3', title: 'Perda / roubo', content: [
+            { kind: 'paragraph', text: 'Cancele (cancelar) urgentemente o CC e os certificados digitais através do ePortugal/Autenticação.gov ou da Linha Cartão de Cidadão. Em caso de roubo — apresente queixa à polícia (PSP/GNR). Depois, peça um novo CC no IRN/Loja de Cidadão/consulado, de acordo com a tarifa aplicável (normal/urgente/extremamente urgente). O auto policial não é obrigatório em caso de simples perda, mas é importante em caso de roubo.' }
+          ]}
+        ]}
       ]
     },
     {
-      "id": "digital",
-      "title": "Vertente digital do CC",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "CC = chave de acesso aos portais (autenticação.gov, Finanças, AIMA, Segurança Social). É necessário um leitor (USB 20-30 €) ou um telemóvel compatível com NFC."
-        },
-        {
-          "kind": "paragraph",
-          "text": "Como alternativa para estrangeiros sem CC — Chave Móvel Digital (ver guia separado). A CMD dá acesso digital semelhante sem cartão físico."
-        }
+      id: 'digital',
+      title: 'A vertente digital do CC',
+      content: [
+        { kind: 'paragraph', text: 'O CC pode ser usado para autenticação.gov e para entrar em muitos serviços públicos quando os certificados estão activos e existe PIN, leitor ou telemóvel compatível com NFC. Para alguns serviços, podem estar disponíveis/ser exigidas alternativas (CMD, login próprio).' },
+        { kind: 'paragraph', text: 'Os estrangeiros utilizam normalmente a Chave Móvel Digital (CMD): para a activar são necessários NIF e um documento/cartão de residente válido; os métodos de activação disponíveis dependem da situação. A CMD cobre a maioria dos logins de e-government, mas não é um documento físico de identificação.' }
       ]
     }
   ],
-  "costs": [
-    {
-      "label": "Primeira emissão (crianças e jovens até aos 25)",
-      "amountEUR": 15
-    },
-    {
-      "label": "Renovação (normal)",
-      "amountEUR": 18,
-      "note": "IRN 2026"
-    },
-    {
-      "label": "Urgente (3 dias)",
-      "amountEUR": 33
-    },
-    {
-      "label": "Extremamente urgente (no próprio dia / dia seguinte)",
-      "amountEUR": 53
-    },
-    {
-      "label": "Desconto online",
-      "amountEUR": 0,
-      "note": "−10% na renovação online"
-    },
-    {
-      "label": "Substituição por perda",
-      "amountEUR": 20
-    }
+  costs: [
+    { label: 'Cidadãos com menos de 25 anos (normal, em Portugal)', amountEUR: 15 },
+    { label: 'Cidadãos a partir dos 25 anos (normal, em Portugal)', amountEUR: 18, note: 'IRN 2026' },
+    { label: 'Urgente (a partir de 3 dias úteis, em Portugal)', amountEUR: 33 },
+    { label: 'Extremamente urgente (depende do local e da hora do pedido)', amountEUR: 53 },
+    { label: 'Desconto online na renovação online', amountEUR: 0, note: 'normalmente −10%' },
+    { label: 'Substituição após perda/roubo', amountEUR: 0, note: 'tarifa = novo pedido normal/urgente conforme a idade, e não uma taxa fixa única' }
   ],
-  "sources": [
-    {
-      "title": "IRN — Cartão de Cidadão",
-      "url": "https://irn.justica.gov.pt/cartao-cidadao",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "ePortugal — Renovar CC",
-      "url": "https://eportugal.gov.pt/cidadaos/-/informacoes/renovar-o-cartao-de-cidadao",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "Autenticação.gov — CC digital",
-      "url": "https://www.autenticacao.gov.pt/cc-portuguese-citizen-card",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    }
+  sources: [
+    { title: 'ePortugal — Cartão de Cidadão (pedir/renovar/cancelar)', url: 'https://eportugal.gov.pt/servicos/pedir-o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'IRN — Cartão de Cidadão (serviço)', url: 'https://irn.justica.gov.pt/Servicos/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Autenticação.gov — Cartão de Cidadão', url: 'https://www.autenticacao.gov.pt/o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Regulamento (UE) 2019/1157 — biometria eID', url: 'https://eur-lex.europa.eu/eli/reg/2019/1157/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  "lastVerified": "2026-04-22",
-  "verifyIntervalDays": 365
+  lastVerified: '2026-05-17',
+  verifyIntervalDays: 365
 }

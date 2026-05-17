@@ -127,6 +127,6 @@ export default {
     { title: 'Federação Portuguesa de Ténis — официальный сайт, календарь, клубы и соревнования', url: 'https://www.tenis.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Federação Portuguesa de Padel — официальный сайт, лицензии, calendário и regulamentos', url: 'https://www.fpp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

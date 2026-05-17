@@ -3,8 +3,8 @@ export default {
   id: 'ferries-lisboa',
   categoryId: 'public_transport',
   title: 'Lisbon ferries — crossings over the Tejo and along the coast',
-  tldr: 'Transtejo/Soflusa operates ferries across the Tejo: Lisbon—Cacilhas (10 min, €1.40), Cais do Sodré—Trafaria—Porto Brandão, Belém—Trafaria, Terreiro do Paço—Barreiro/Montijo. The Navegante card is accepted. For tourists — Tejo Boat Tour. For beach lovers — Cacilhas + bus 124 to Costa da Caparica. In winter the timetable is reduced; check in advance at ttsl.pt.',
-  tags: ['ferry', 'transtejo', 'soflusa', 'cacilhas', 'lisbon', 'tejo'],
+  tldr: 'Transtejo/Soflusa — ferries across the Tejo: Lisbon—Cacilhas (10 min, €1.40), Cais do Sodré—Trafaria—Porto Brandão, Belém—Trafaria, Terreiro do Paço—Barreiro/Montijo. The Navegante card is accepted. For tourists — Tejo Boat Tour. For beach lovers — Cacilhas + bus 124 to Costa da Caparica. In winter the timetable is reduced; check in advance at ttsl.pt.',
+  tags: ['ferry', 'transtejo', 'soflusa', 'cacilhas', 'lisboa', 'tejo'],
   estimatedReadMinutes: 4,
   steps: [
     {
@@ -12,12 +12,12 @@ export default {
       title: '⛴️ Routes across the Tejo',
       content: [
         { kind: 'substeps', items: [
-          { id: 'cacilhas', title: 'Cais do Sodré ↔ Cacilhas (most popular)', content: [
+          { id: 'cacilhas', title: 'Cais do Sodré ↔ Cacilhas (the most popular)', content: [
             { kind: 'checklist', items: [
               '⏱️ 10 min on the water',
               '🕐 Every 15–30 min 06:00–01:00',
               '💰 €1.40 (Navegante €0.90), Tejo 24h €6',
-              '🍷 Cacilhas — an area of cafés and beer halls by the water, excellent fado',
+              '🍷 Cacilhas — an area of cafés and waterside beer houses, excellent fado',
               '🍤 Famous seafood: Restaurante Ponto Final',
               '🚌 From Cacilhas bus 124 → Costa da Caparica (beach)'
             ]}
@@ -35,7 +35,7 @@ export default {
               '⏱️ 25–30 min',
               '🕐 Less frequent, 1–2 times per hour',
               '💰 €1.80',
-              '🍷 Porto Brandão — a quiet fishing bay'
+              '🍷 Porto Brandão — a quiet fishing cove'
             ]}
           ]},
           { id: 'barreiro', title: 'Terreiro do Paço ↔ Barreiro / Montijo (Soflusa)', content: [
@@ -58,15 +58,15 @@ export default {
             { kind: 'checklist', items: [
               '🎫 Ticket machine at the station (Cais do Sodré, Belém, Terreiro)',
               '💳 Card or cash',
-              '⏰ Ticket is time-limited: 1 hour from validation',
+              '⏰ The ticket is time-limited: 1 hour from validation',
               '🔁 During that time you can transfer to the metro or bus (one fare)'
             ]}
           ]},
           { id: 'navegante', title: 'Monthly Navegante pass', content: [
             { kind: 'checklist', items: [
               '🌐 Navegante Metropolitano (Lisbon — Margem Sul) includes ferries',
-              '💰 €30/month — unlimited travel on bus, metro, CP train and ferries',
-              '🌟 Best-value option for residents on the north and south banks',
+              '💰 €30/month — unlimited bus, metro, CP train and ferries',
+              '🌟 The best-value option for residents of the north and south banks',
               '📲 Navegante card or Carris app'
             ]}
           ]},
@@ -88,8 +88,8 @@ export default {
         { kind: 'checklist', items: [
           '🚲 Bicycles on the ferry are free — a great plan: “Cacilhas + cycle to Costa da Caparica”',
           '🐶 Small animals in a carrier — free',
-          '⛅ In winter the timetable is reduced, with night ferries only Friday to Sunday',
-          '🌊 Storms >2 m: ferries may be cancelled (rare, usually only Belém—Trafaria)',
+          '⛅ In winter the timetable is reduced, with night ferries only from Friday to Sunday',
+          '🌊 Storm >2 m: ferries may be cancelled (rare, usually only Belém—Trafaria)',
           '🥪 There is no buffet on the ferry — bring food with you',
           '📸 Perfect sunset: Cacilhas → Cais do Sodré ferry at 19:00 in summer',
           '⚠️ Transport strike (greve) — ferries are cancelled; follow the media the day before'
@@ -98,16 +98,16 @@ export default {
     }
   ],
   costs: [
-    { label: 'Cacilhas/Trafaria single', amountEUR: 1.40 },
-    { label: 'Barreiro single', amountEUR: 2.50 },
-    { label: 'Montijo single', amountEUR: 3.30 },
-    { label: 'Tejo 24h tourist', amountEUR: 6 },
+    { label: 'Cacilhas/Trafaria single ticket', amountEUR: 1.40 },
+    { label: 'Barreiro single ticket', amountEUR: 2.50 },
+    { label: 'Montijo single ticket', amountEUR: 3.30 },
+    { label: 'Tejo 24h tourist ticket', amountEUR: 6 },
     { label: 'Navegante Metropolitano (unlimited)', amountEUR: 30, note: '€/month' }
   ],
   sources: [
     { title: 'Transtejo / Soflusa — official website', url: 'https://ttsl.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Carris Metropolitana — Navegante', url: 'https://www.carrismetropolitana.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

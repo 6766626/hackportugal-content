@@ -3,7 +3,7 @@ export default {
   id: 'customs-parcels',
   categoryId: 'daily_life',
   title: 'Растаможка посылок из стран вне ЕС — как платить меньше',
-  tldr: 'С 01.07.2021 отменён порог 22 € — сейчас любая посылка из стран вне ЕС облагается IVA 23 % + таможенной пошлиной, если стоимость выше 150 €. Оформление проходит через получателя: CTT или курьер (DHL, FedEx, UPS) присылают SMS со ссылкой на оплату. Оплата онлайн: карта, MB WAY, Multibanco. Сбор CTT за обработку — около 1,80 €, у курьеров — 10–40 €. Через Portal das Alfândegas дешевле, но сложнее.',
+  tldr: 'С 01.07.2021 отменён порог 22 € — сейчас любая посылка из стран вне ЕС облагается IVA + customs duty, если стоимость выше 150 €. Оформление проходит через получателя: CTT или курьер (DHL, FedEx, UPS) присылают SMS со ссылкой на оплату. Оплата онлайн: карта, MB WAY, Multibanco. Сбор CTT за desalfandegamento — зависит от продукта; у курьеров — 10–40 €. Актуальные тарифы — на ctt.pt.',
   tags: ['таможня', 'посылка', 'IVA', 'CTT', 'DHL'],
   estimatedReadMinutes: 6,
   steps: [
@@ -17,8 +17,8 @@ export default {
           '📦 Коммерческая посылка < 150 €: только IVA 23 %, без пошлины',
           '📦 Коммерческая > 150 €: IVA + таможенная пошлина (0–17 % по коду HS)',
           '📄 Любая товарная посылка из стран вне ЕС должна быть задекларирована через IOSS или импорт',
-          '🌍 Исключение: специальные зоны Мадейра и Азорские острова — пониженная IVA (16 % / 9 %)',
-          '🍷 Акцизы (табак, алкоголь, парфюмерия) — сверх IVA'
+          '🌍 Региональные ставки IVA: Madeira и Açores имеют свои стандартные ставки (Açores — 16% standard, Madeira — 22% standard на 2026; проверяйте актуальные)',
+          '🍷 Excise duties (IEC): алкоголь, табак, energy products — сверх IVA. Парфюм НЕ является harmonised excise good в EU; для парфюма обычные duty/VAT, без excise'
         ]}
       ]
     },
@@ -36,7 +36,7 @@ export default {
           { id: 'c3', title: '3. Оплата', content: [
             { kind: 'checklist', items: [
               'Способы: карта, MB WAY, Multibanco, SIBS MB',
-              'Сбор CTT за обработку: 1,80 €',
+              'Сбор CTT за desalfandegamento — зависит от типа отправления и процедуры; актуальные тарифы на ctt.pt',
               'Срок оплаты: 10 дней, затем возврат отправителю',
               'Подтверждение личности — скан вашего Cartão de Cidadão/ВНЖ'
             ]}
@@ -64,14 +64,14 @@ export default {
       id: 'diy',
       title: 'Самостоятельная растаможка — дешевле',
       content: [
-        { kind: 'paragraph', text: 'Через Portal Aduaneiro на portaldasfinancas.gov.pt → «Alfândegas» → «Declaração H7» (для посылок < 150 €).' },
+        { kind: 'paragraph', text: 'Через Portal Aduaneiro на portaldasfinancas.gov.pt → «Alfândegas». Declaração H7 — упрощённая декларация для low-value consignments до €150, не облагаемых customs duty, и не для excise goods/товаров с запретами.' },
         { kind: 'checklist', items: [
           '📝 Заполнить H7: описание товара, код CN (HS), стоимость, страна',
           '💰 Система рассчитает IVA + пошлину',
           '💳 Оплата через Multibanco',
           '📋 Распечатать подтверждение',
           '📬 Передать на месте получения (Loja CTT, таможенный склад)',
-          '💶 Экономия: 1,80 € CTT, но 30–40 € у DHL/UPS'
+          '💶 Экономия: можно избежать 30–40 € handling fee у DHL/UPS самостоятельной декларацией'
         ]},
         { kind: 'warning', text: 'Требует португальского и понимания кодов HS. Для сложных случаев лучше оставить оформление CTT или курьеру.' }
       ]
@@ -85,7 +85,7 @@ export default {
             { kind: 'paragraph', text: 'Формально до 45 € действует освобождение, но только если отправитель указал «GIFT» на CN22/CN23 и заявленная стоимость < 45 €. Выше — обычные правила.' }
           ]},
           { id: 'q2', title: 'AliExpress / Shein — они платят IVA?', content: [
-            { kind: 'paragraph', text: 'Крупные маркетплейсы после IOSS (с 2021) платят IVA на стадии покупки. Если видите поле «VAT included» в чеке — всё ок, в Португалии не платите. Если нет — CTT уведомит.' }
+            { kind: 'paragraph', text: 'IOSS (Import One-Stop Shop) применяется к товарам с intrinsic value до €150 и не действует на excise goods. Если маркетплейс зарегистрирован в IOSS — IVA взимается в момент покупки. Если видите «VAT included» в чеке — всё ок. Если нет — CTT уведомит при импорте.' }
           ]},
           { id: 'q3', title: 'Книги / техника / одежда — разная пошлина?', content: [
             { kind: 'checklist', items: [
@@ -106,7 +106,7 @@ export default {
   ],
   costs: [
     { label: 'IVA на товар > 0 €', amountEUR: 0, note: '23 % от стоимости + доставка' },
-    { label: 'Сбор CTT за обработку', amountEUR: 1.80 },
+    { label: 'Сбор CTT за desalfandegamento', amountEURMin: 5, amountEURMax: 15, note: 'тариф зависит от продукта/процедуры; см. ctt.pt' },
     { label: 'Обработка DHL/UPS/FedEx', amountEURMin: 10, amountEURMax: 40 },
     { label: 'Таможенная пошлина (товар > 150 €)', amountEUR: 0, note: '0–17 % по HS' }
   ],
@@ -116,6 +116,6 @@ export default {
     { title: 'CTT — Encomendas do estrangeiro', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Importar bens de países fora da UE', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

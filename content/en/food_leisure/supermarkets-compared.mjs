@@ -3,7 +3,7 @@ export default {
   id: 'supermarkets-compared',
   categoryId: 'daily_life',
   title: 'Supermarkets in Portugal — comparison',
-  tldr: 'Main chains: Continente (leader, Sonae), Pingo Doce (quality and offers, Jerónimo Martins), Lidl (cheap + specialist goods), Auchan (hypermarket; in 2024–2025 it acquired DIA Portugal — the Minipreço brand is being rebranded/integrated), Aldi (discounter), Mercadona (Spanish chain, expanded beyond the north, active in Lisbon and the centre of the country), El Corte Inglés (premium, Lisbon/Gaia). Loyalty programmes are key — without them you overpay by 10–20%.',
+  tldr: 'Main chains: Continente (leader, Sonae), Pingo Doce (quality and promotions, Jerónimo Martins), Lidl (cheap + specialised goods), Auchan (hypermarket; in 2024–2025 it acquired DIA Portugal — the Minipreço brand is being rebranded/integrated), Aldi (discounter), Mercadona (Spanish chain, expanded beyond the north, active in Lisbon and the centre of the country), El Corte Inglés (premium, Lisbon/Gaia). Cards/apps are often needed for the best promotions and personal coupons; without them some discounts are unavailable, but savings depend on your basket.',
   tags: ['supermarkets', 'continente', 'pingo doce', 'lidl'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,28 +13,28 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Continente (Sonae)', content: [
-            { kind: 'paragraph', text: 'The largest chain. Hyper (hypermarkets), Modelo (mid-sized), Bom Dia (small). The Continente card is essential! It focuses on weekly offers and cashback of up to 50%.' }
+            { kind: 'paragraph', text: 'The largest chain. Hyper (hypermarkets), Modelo (medium-sized), Bom Dia (small). The Continente card is essential! It is focused on weekly promotions and cashback of up to 50%.' }
           ]},
           { id: 'c2', title: 'Pingo Doce (Jerónimo Martins)', content: [
-            { kind: 'paragraph', text: 'Second by turnover. Known for Friday “-50%” offers on one category. Fresh fish and meat are excellent. Pingo Doce card with personalised coupons.' }
+            { kind: 'paragraph', text: 'Second by turnover. Known for Friday “-50%” promotions on one category. Fresh fish and meat are top level. Pingo Doce card with personalised coupons.' }
           ]},
           { id: 'c3', title: 'Lidl', content: [
-            { kind: 'paragraph', text: 'German discounter. Cheap basic groceries, good own brands (Deluxe = premium). Thursday — “Parkside”/“Esmara” offers on non-food goods. Fresh bakery.' }
+            { kind: 'paragraph', text: 'German discounter. Cheap basic products, good own brands (Deluxe = premium). Thursday — “Parkside”/“Esmara” promotions on non-food goods. Fresh bakery.' }
           ]},
-          { id: 'c4', title: 'Minipreço (Auchan, former DIA)', content: [
-            { kind: 'paragraph', text: 'Discounter with many small shops. In 2024–2025 Auchan Retail Portugal acquired DIA Portugal; some locations are being integrated/rebranded as Auchan. The Clube Minipreço programme may change during the transition period — check locally.' }
+          { id: 'c4', title: 'Minipreço (Auchan, formerly DIA)', content: [
+            { kind: 'paragraph', text: 'Discounter with a large number of small shops. In 2024–2025 Auchan Retail Portugal acquired DIA Portugal; some locations are being integrated/rebranded as Auchan. The Clube Minipreço programme may change during the transition period — check locally.' }
           ]},
           { id: 'c5', title: 'Auchan', content: [
-            { kind: 'paragraph', text: 'French hypermarket. Wide range, including foreign products. Auchan card.' }
+            { kind: 'paragraph', text: 'French hypermarket. Large selection, including foreign goods. Auchan card.' }
           ]},
           { id: 'c6', title: 'Aldi', content: [
             { kind: 'paragraph', text: 'German discounter. Growing chain. Similar to Lidl, but smaller.' }
           ]},
           { id: 'c7', title: 'El Corte Inglés', content: [
-            { kind: 'paragraph', text: 'Spanish premium chain. Only Lisbon (Saldanha) and Gaia (V. N. de Gaia). Delicatessen section, foreign brands. Expensive, but the range is unique.' }
+            { kind: 'paragraph', text: 'Large El Corte Inglés department stores — Lisboa/Saldanha and Vila Nova de Gaia; grocery formats/delivery depend on the area — check the store locator. Delicatessen department, foreign brands. Expensive, but the selection is unique.' }
           ]},
           { id: 'c8', title: 'Mercadona', content: [
-            { kind: 'paragraph', text: 'Spanish chain in Portugal since 2019. Own brands such as Hacendado. It opened in northern regions and by 2026 had spread to the centre and Greater Lisbon/south — a major chain with dozens of shops.' }
+            { kind: 'paragraph', text: 'Spanish chain in Portugal since 2019. Hacendado own brands. It opened in northern regions and by 2026 had moved beyond the north — there are shops in the centre and in the Lisbon metropolitan area; check coverage of the south/Algarve via the store locator.' }
           ]}
         ]}
       ]
@@ -44,11 +44,11 @@ export default {
       title: 'Loyalty cards — how to use them',
       content: [
         { kind: 'checklist', items: [
-          'Continente: get one in-store or through the app. Check offers before shopping.',
-          'Pingo Doce: the app shows personal coupons. Friday -50% offers — activate in the app BEFORE purchase.',
+          'Continente: get one in-store or via the app. Check promotions before shopping.',
+          'Pingo Doce: the O Meu Pingo Doce app shows personal coupons and campaigns; major discounts such as -50% happen in promotions, but conditions/days change — check the folheto and app before shopping',
           'Lidl Plus: digital card in the app + weekly coupons',
-          'The principle — do not buy at the regular price. Every chain puts 20–40% of products on offer each day',
-          'Subscribe to email newsletters: the promotional leaflet comes out on Tuesdays'
+          'Large chains constantly have dozens/hundreds of products on promotion, but the selection changes weekly; compare with the folheto and app',
+          'Subscribe to the app/email: the folheto is usually updated once a week, but the start day depends on the chain'
         ]}
       ]
     },
@@ -58,12 +58,12 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Fresh fish: Pingo Doce and Continente are the best. Seafood on Wednesday/Friday.',
-          'Meat: Mercearia/Talho (butcher’s shop) is often cheaper and fresher',
-          'Wine: Lidl for good budget wine (“Delicatessen” range), El Corte Inglés for something special',
+          'Meat: talho — butcher’s shop; often cheaper/fresher than the supermarket. Mercearia — small grocery shop',
+          'Wine: Lidl is often good for budget wines and promotional selections; El Corte Inglés for premium/rare bottles',
           'Organic/bio: Celeiro, Go Natural, bio sections in Pingo/Continente',
-          'Cheap: Lidl + Minipreço for basic groceries',
-          'Delivery: Continente Online, Pingo Doce Casa, Mercadão — €5–10, free from €75',
-          'Invoices with NIF — count towards IRS deductions (35% of invoices up to €250 per year)'
+          'Cheap: Lidl + Minipreço for basic products',
+          'Delivery: Continente Online, Pingo Doce Casa, Mercadão. There is usually a delivery/service fee, but the price, minimum order and free slots depend on the address, time and current promotions — check in the app before ordering',
+          'If you are a PT tax resident and file IRS, ask for fatura com NIF: supermarkets usually appear in e-Fatura as despesas gerais familiares — 35% of expenses, maximum €250 per taxpayer per year; check/confirm invoices in Portal e-Fatura'
         ]}
       ]
     },
@@ -72,7 +72,7 @@ export default {
       title: 'Specialist shops',
       content: [
         { kind: 'checklist', items: [
-          'Talho — butcher’s shop (often better than a supermarket)',
+          'Talho — butcher’s shop (often better than the supermarket)',
           'Peixaria — fishmonger',
           'Padaria — bakery (fresh bread and pastries)',
           'Pastelaria — café + pastry shop',
@@ -84,10 +84,10 @@ export default {
     }
   ],
   sources: [
-    { title: 'ASAE — Food Safety Authority', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Banco de Portugal — MB WAY payment systems', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ASAE — Autoridade de Segurança Alimentar e Económica', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Autoridade Tributária / Portal e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGADR — food policy', url: 'https://www.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

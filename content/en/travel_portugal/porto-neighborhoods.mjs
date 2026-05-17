@@ -13,16 +13,16 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Baixa / Aliados', content: [
-            { kind: 'paragraph', text: 'The centre, S. Bento and Trindade metro. Touristy during the day, calmer at night than in Lisbon. T1 — €900-1,400.' }
+            { kind: 'paragraph', text: 'The centre, S. Bento and Trindade metro. Touristy during the day, calmer at night than Lisbon. T1 — €900-1,400.' }
           ]},
           { id: 'c2', title: 'Ribeira', content: [
-            { kind: 'paragraph', text: 'UNESCO, views of the Douro. Very touristy, steep little streets. Plus: beautiful; minus: noisy and few supermarkets. T1 — €1,000-1,800, if you can find one.' }
+            { kind: 'paragraph', text: 'UNESCO, views over the Douro. Very touristy, steep little streets. Plus: beautiful; minus: noisy and few supermarkets. T1 — €1,000-1,800, if you can find one.' }
           ]},
           { id: 'c3', title: 'Cedofeita', content: [
             { kind: 'paragraph', text: 'Creative neighbourhood, boutiques, cafés, galleries. Popular with young expats. T1 — €900-1,400.' }
           ]},
           { id: 'c4', title: 'Bonfim', content: [
-            { kind: 'paragraph', text: 'Close to the centre, an area being regenerated. More authentic, local. T1 — €700-1,200.' }
+            { kind: 'paragraph', text: 'Close to the centre, an area undergoing regeneration. More authentic, local. T1 — €700-1,200.' }
           ]}
         ]}
       ]
@@ -39,7 +39,7 @@ export default {
             { kind: 'paragraph', text: 'Business district. Casa da Música, skyscrapers by Portuguese standards. Good schools. T1 — €1,000-1,700.' }
           ]},
           { id: 'p3', title: 'Massarelos / Campo Alegre', content: [
-            { kind: 'paragraph', text: 'Between the centre and Foz. Botanical garden. Green, quiet neighbourhood. T1 — €900-1,500.' }
+            { kind: 'paragraph', text: 'Between the centre and Foz. Botanical Garden. Green, calm area. T1 — €900-1,500.' }
           ]}
         ]}
       ]
@@ -50,10 +50,10 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Campanhã', content: [
-            { kind: 'paragraph', text: 'Next to the main railway station. Cheap, the area is developing, but still a bit rough. T1 — €600-900.' }
+            { kind: 'paragraph', text: 'Near the main railway station. Cheap, the area is developing, but still a bit rough. T1 — €600-900.' }
           ]},
           { id: 'b2', title: 'Paranhos', content: [
-            { kind: 'paragraph', text: 'University district, lots of young people. Yellow metro line. T1 — €700-1,100.' }
+            { kind: 'paragraph', text: 'University area, lots of young people. Yellow metro line. T1 — €700-1,100.' }
           ]},
           { id: 'b3', title: 'Areosa / Ramalde', content: [
             { kind: 'paragraph', text: 'Northern neighbourhoods, suitable for families. Blue and yellow metro lines. T1 — €700-1,100.' }
@@ -67,16 +67,16 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'o1', title: 'Vila Nova de Gaia', content: [
-            { kind: 'paragraph', text: 'South bank of the Douro, famous port wine cellars. Yellow and violet metro lines via Ponte Luís I. The same views, 20-30% cheaper. T1 — €700-1,200.' }
+            { kind: 'paragraph', text: 'South bank of the Douro, famous port wine cellars. Yellow and violet metro lines across Ponte Luís I. Same views, 20-30% cheaper. T1 — €700-1,200.' }
           ]},
           { id: 'o2', title: 'Matosinhos', content: [
             { kind: 'paragraph', text: 'To the west. Beaches, seafood, fishing port. Blue metro line. T1 — €700-1,200.' }
           ]},
           { id: 'o3', title: 'Maia', content: [
-            { kind: 'paragraph', text: 'North of Porto. Airport. Family area, schools. Having a car is advisable. T1 — €600-1,000.' }
+            { kind: 'paragraph', text: 'North of Porto. Airport. Family-oriented area, schools. Having a car is advisable. T1 — €600-1,000.' }
           ]},
           { id: 'o4', title: 'Gondomar / Valongo', content: [
-            { kind: 'paragraph', text: 'East. Cheap, but links to the centre are by car or bus. T1 — €500-800.' }
+            { kind: 'paragraph', text: 'East. Cheap, but connection to the centre is by car or bus. T1 — €500-800.' }
           ]}
         ]}
       ]
@@ -87,7 +87,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💰 Rent in Porto is 30-40% cheaper',
-          '🌆 Porto is more compact; everything is within walking distance',
+          '🌆 Porto is more compact, everything is within walking distance',
           '🌧️ Porto is rainier and cooler (ocean, north)',
           '🍷 Port wine, the Douro Valley — a unique feature',
           '✈️ Fewer international flights, but there are direct flights to Europe',
@@ -102,8 +102,8 @@ export default {
   sources: [
     { title: 'Câmara Municipal do Porto', url: 'https://www.cm-porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'INE — Norte housing indicators', url: 'https://www.ine.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Visit Porto — tourist portal', url: 'https://visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Visit Porto — tourism portal', url: 'https://visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

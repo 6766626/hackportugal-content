@@ -113,6 +113,6 @@ export default {
     { title: 'Entidade Reguladora da Saúde — права пользователей медицинских услуг', url: 'https://www.ers.pt/pt/utentes/direitos-e-deveres-dos-utentes/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fisiogaspar — пример частной сети физиотерапии в Португалии', url: 'https://www.fisiogaspar.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

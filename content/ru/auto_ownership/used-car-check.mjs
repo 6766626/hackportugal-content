@@ -93,7 +93,7 @@ export default {
           '🏢 Registo de propriedade в IRN (irn.justica.gov.pt) — 45 € + оформление',
           '📅 Срок регистрации смены — 60 дней с подписания',
           '🛡️ Страховка на ваше имя с дня передачи',
-          '🧾 IUC уже не перерасчитывается — текущий год остаётся на продавце, следующий — на вас'
+          '🧾 IUC: владелец на 1 января текущего года остаётся ответственным за этот год; перерасчёта при смене собственника внутри года нет. Следующий год — на новом владельце'
         ]}
       ]
     }
@@ -111,6 +111,6 @@ export default {
     { title: 'Portal das Finanças — Certidões', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IMT — IPO (технический осмотр)', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

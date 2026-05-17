@@ -3,7 +3,7 @@ export default {
   id: 'sns-utente',
   categoryId: 'healthcare',
   title: 'Регистрация в SNS и получение número de utente',
-  tldr: 'Número de utente — персональный номер в SNS. Даёт право на семейного врача, госпитализацию, льготные рецепты. Оформляется в Centro de Saúde по месту жительства. ВНЖ — основной путь, но НЕ единственный: иностранцы с законным пребыванием (виза, registo de cidadão UE) могут оформить utente; лица без ВНЖ, проживающие в Португалии >90 дней, тоже имеют право (DL 67/2014). NISS не является универсальным обязательным документом — некоторые Centro de Saúde могут запрашивать его дополнительно, но это не общая норма SNS.',
+  tldr: 'Número de utente — персональный номер в SNS. Даёт право встать в список на семейного врача, на госпитализацию, льготные рецепты. Оформляется в Centro de Saúde / USF по месту жительства. Обычно нужны паспорт/ID, NIF, документ о законном пребывании (ВНЖ, виза, certificado de registo UE) или, если ВНЖ нет, atestado da Junta de Freguesia, прямо подтверждающий проживание в Португалии более 90 дней (Despacho n.º 25360/2001). NISS обычно не требуется для número de utente. Этот номер ≠ NIF: для здравоохранения нужен именно número de utente.',
   tags: ['sns', 'utente', 'медицина'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,8 +11,8 @@ export default {
       id: 'what',
       title: 'Что это и зачем',
       content: [
-        { kind: 'paragraph', text: 'Número de utente — 9-значный идентификатор в SNS. Без него приёмы оплачиваются как для нерезидента.' },
-        { kind: 'paragraph', text: 'Даёт: бесплатного семейного врача, осмотры, анализы, скорую 112, госпитализацию, льготы в аптеке (до 90% скидки на рецепт), прививки.' }
+        { kind: 'paragraph', text: 'Número de utente — 9-значный идентификатор в SNS. Без него сложнее записываться в SNS и получать льготные рецепты; часть плановых услуг могут тарифицировать по тарифам SNS как для лиц без подтверждённого права на SNS. Экстренная помощь и защищённые случаи доступны независимо от номера.' },
+        { kind: 'paragraph', text: 'Даёт доступ к SNS и постановку в список на médico de família (сам врач не всегда назначается сразу; в ряде регионов можно долго быть sem médico de família), осмотры, анализы, госпитализацию, льготы в аптеке (до 90% скидки на рецепт), прививки PNV. Линию 112 могут вызывать все находящиеся в Португалии независимо от utente — номер помогает с дальнейшим учётом и оплатой/льготами.' }
       ]
     },
     {
@@ -24,13 +24,13 @@ export default {
             { kind: 'paragraph', text: 'На sns24.gov.pt или sns.pt по почтовому коду.' }
           ]},
           { id: 's2', title: '2. Прийти лично с документами', content: [
-            { kind: 'checklist', items: ['Документ, удостоверяющий личность: ВНЖ / CC / паспорт + виза / regis CRUE для EU', 'NIF', 'Подтверждение адреса (Atestado de Residência от Junta de Freguesia, счёт ЖКХ или договор аренды)', '⚠️ NISS — НЕ универсальное требование SNS; некоторые Centro de Saúde могут запросить его дополнительно, особенно если у вас статус наёмного работника или самозанятого'] }
+            { kind: 'checklist', items: ['ID/паспорт + документ о статусе: cartão de residência/ВНЖ, cartão de cidadão, certificado de registo cidadão UE, действующая виза/доказательство законного пребывания; если ВНЖ нет — atestado da Junta de Freguesia о проживании более 90 дней', 'NIF', 'Подтверждение адреса (atestado, счёт ЖКХ или договор аренды)', '⚠️ NISS обычно НЕ нужен для número de utente. Если он есть — можно взять с собой; отказ только из-за отсутствия NISS стоит оспаривать и просить письменное основание'] }
           ]},
           { id: 's3', title: '3. Заполнить форму регистрации', content: [
             { kind: 'paragraph', text: 'Centro de Saúde зарегистрирует вас и присвоит номер utente. Иногда выдают временный, постоянный приходит позже.' }
           ]},
           { id: 's4', title: '4. Получить семейного врача', content: [
-            { kind: 'timeline', text: 'От немедленно до 6 мес в зависимости от региона. В Лиссабоне/Порту очередь больше, в провинциях быстрее.' }
+            { kind: 'timeline', text: 'Сам número de utente обычно выдают в день обращения или в течение 1–14 дней. Назначение médico de família — отдельный этап: от сразу до многих месяцев в зависимости от региона. В Лиссабоне/Порту очередь больше, в провинциях быстрее.' }
           ]}
         ]}
       ]
@@ -39,8 +39,8 @@ export default {
       id: 'alternatives',
       title: 'Если ВНЖ ещё нет',
       content: [
-        { kind: 'paragraph', text: 'По DL 67/2014 (право на доступ к SNS) и Constituição art. 64, доступ к SNS не зависит исключительно от ВНЖ. Лица без ВНЖ, проживающие в Португалии **более 90 дней**, имеют право на utente — для оформления требуется Atestado de Residência от Junta de Freguesia, **подтверждающий проживание >90 дней** (стандартного подтверждения адреса для людей без легального статуса может не хватить — Junta de Freguesia учитывает свидетелей и фактическое присутствие).' },
-        { kind: 'warning', text: 'Экстренная медицинская помощь, беременные, дети до 18 лет, инфекционные заболевания (туберкулёз, ВИЧ) — приём в SNS гарантирован независимо от документов и статуса.' }
+        { kind: 'paragraph', text: 'Иностранцы без ВНЖ тоже могут получить доступ к SNS, но обычно требуется atestado da Junta de Freguesia, прямо указывающий, что вы проживаете в Португалии более 90 дней (Despacho n.º 25360/2001). Часто Junta просит двух свидетелей-резидентов freguesia или другие доказательства адреса. Без такого подтверждения гарантированы экстренная помощь и отдельные защищённые случаи; за плановую помощь могут выставлять счёт по тарифам SNS.' },
+        { kind: 'warning', text: 'Экстренная помощь оказывается независимо от документов. Кроме того, беременные, несовершеннолетние, вакцинация, инфекционные заболевания/угрозы общественному здоровью, планирование семьи и некоторые другие защищённые ситуации имеют особый режим доступа. На практике всё равно просите número de utente provisório и письменное основание при отказе.' }
       ]
     },
     {
@@ -52,20 +52,20 @@ export default {
     }
   ],
   documents: [
-    { title: 'Документ, удостоверяющий личность', note: 'ВНЖ / CC / паспорт + виза или CRUE для EU' },
+    { title: 'Документ, удостоверяющий личность + статус', note: 'ВНЖ / CC / паспорт + виза или certificado de registo UE; без ВНЖ — atestado da Junta de Freguesia о проживании >90 дней' },
     { title: 'NIF' },
     { title: 'Подтверждение адреса', note: 'Atestado de Residência, договор аренды или счёт ЖКХ' },
-    { title: 'NISS', note: 'не универсально обязательно; некоторые Centro de Saúde могут запросить' }
+    { title: 'NISS — не обязателен', note: 'не нужен для número de utente, но можно взять, если уже есть' }
   ],
   costs: [{ label: 'Регистрация в SNS', amountEUR: 0 }],
   timelineDaysMin: 1,
   timelineDaysMax: 14,
   sources: [
-    { title: 'SNS — Portal Oficial', url: 'https://www.sns.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'DL 67/2014 — Direito de Acesso ao SNS', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/67-2014-25344876', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'SNS24 — Portal Cidadão', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — Inscrição no SNS', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/inscrever-se-no-servico-nacional-de-saude-sns-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'SNS — Portal Oficial', url: 'https://www.sns.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Despacho n.º 25360/2001 — acesso de cidadãos estrangeiros ao SNS', url: 'https://diariodarepublica.pt/dr/detalhe/despacho/25360-2001-3043226', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'SNS24 — Portal Cidadão', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Pedir o número de utente do SNS', url: 'https://eportugal.gov.pt/servicos/pedir-o-numero-de-utente-do-sns', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

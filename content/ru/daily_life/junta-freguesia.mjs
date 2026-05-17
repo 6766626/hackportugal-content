@@ -23,11 +23,11 @@ export default {
           'Atestado de Residência (справка о месте жительства) — подтверждает, что вы живёте по этому адресу (для AIMA, SNS, школы, банка, посольства)',
           'Atestado de Agregado Familiar — справка о составе семьи',
           'Atestado de Condição Económica — справка об экономическом положении для социальной помощи',
-          'Registo de União de Facto — оформление гражданского партнёрства',
+          'Declaração de União de Facto — Junta выдаёт лишь подтверждающую декларацию (юридический статус união de facto возникает по закону при выполнении условий, не требует «регистрации»)',
           'Autenticação de cópias — заверение копий документов',
           'Atestado de Incapacidade Económica — для бесплатной юридической помощи',
-          'Recenseamento Eleitoral — включение в список избирателей для владельцев Cartão de Cidadão',
-          'Registo de Cidadão Europeu (CRUE) — в некоторых Junta de Freguesia',
+          'Recenseamento Eleitoral — для граждан Португалии регистрация в избирательных списках обычно автоматическая (с Cartão de Cidadão), для иностранцев с правом голоса — заявление в Junta',
+          'Registo de Cidadão Europeu (CRUE) — для граждан ЕС запрашивается в Câmara Municipal по месту проживания (некоторые Junta могут принимать делегированные заявки)',
           'Разрешения на шумные работы и вывоз строительного мусора',
           'Культурные мероприятия — концерты, курсы, мастер-классы'
         ]}
@@ -50,7 +50,7 @@ export default {
             { kind: 'paragraph', text: 'Без записи, обычно очередь 10-30 минут. Работают 9:00-17:00, обед 12:30-14:00.' }
           ]},
           { id: 'a3', title: '3. Получить справку сразу', content: [
-            { kind: 'paragraph', text: 'Выдают в тот же день, € 2–5. Действует 90 дней.' }
+            { kind: 'paragraph', text: 'Выдают в тот же день, € 2–5. Atestado подтверждает факт на дату выдачи; срок приемлемости (например, 90 дней) обычно устанавливает приёмная сторона (банк, AIMA, SNS), а не Junta.' }
           ]}
         ]}
       ]
@@ -88,6 +88,6 @@ export default {
     { title: 'CML — Juntas de Freguesia de Lisboa', url: 'https://www.lisboa.pt/municipio/juntas-de-freguesia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CM-Porto — Juntas de Freguesia', url: 'https://www.cm-porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

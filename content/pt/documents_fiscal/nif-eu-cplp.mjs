@@ -1,116 +1,58 @@
 export default {
-  "editorialVoice": "hackportugal",
-  "id": "nif-eu-cplp",
-  "categoryId": "documents_fiscal",
-  "title": "Como obter NIF — cidadãos da UE/EEE/Suíça e CPLP",
-  "tldr": "Cidadãos da UE/EEE/Suíça e países da CPLP (Brasil, Angola, Moçambique, Cabo Verde, Guiné-Bissau, São Tomé, Timor-Leste, Guiné Equatorial) não precisam de representante fiscal. O processo é feito pessoalmente na Finanças — gratuito, um dia.",
-  "audience": {
-    "citizenships": [
-      "euEeaSwiss",
-      "cplp"
-    ]
-  },
-  "tags": [
-    "nif",
-    "documentos",
-    "cplp",
-    "ue"
-  ],
-  "estimatedReadMinutes": 4,
-  "steps": [
+  editorialVoice: 'hackportugal',
+  id: 'nif-eu-cplp',
+  categoryId: 'documents_fiscal',
+  title: 'Como obter o NIF — cidadãos da UE/EEE/Suíça e CPLP',
+  tldr: 'A necessidade de representante fiscal não é determinada pela nacionalidade, mas sim pela residência fiscal / morada e pela existência de obrigações fiscais em Portugal. Para uma morada na UE/EEE, normalmente não é necessário representante fiscal (princípios das diretivas de assistência mútua). Para uma morada na CPLP fora da UE, aplicam-se as regras gerais: é necessário representante quando existe uma ligação fiscal a Portugal. Após o Ofício Circulado 90054/2022, muitas vezes é possível obter um NIF simples sem obrigações fiscais em Portugal sem representante. O pedido nas Finanças é gratuito e feito no próprio dia.',
+  audience: { citizenships: ['euEeaSwiss', 'cplp'] },
+  tags: ['nif', 'documentos', 'cplp', 'ue'],
+  estimatedReadMinutes: 4,
+  steps: [
     {
-      "id": "why-easier",
-      "title": "Por que é mais fácil",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "Para cidadãos da UE/EEE/Suíça e CPLP, o endereço do país de origem é aceito sem representante fiscal. O pedido é apresentado com passaporte + comprovativo de endereço."
-        }
+      id: 'why-easier',
+      title: 'Porque é mais simples',
+      content: [
+        { kind: 'paragraph', text: 'Se a sua morada fiscal estiver na UE/EEE, normalmente não é necessário representante. Se a morada estiver fora da UE/EEE, incluindo países da CPLP, as Finanças podem emitir o NIF, mas, em caso de obrigações fiscais posteriores, verifique a exigência de representante fiscal ou a adesão às notificações eletrónicas. A regra depende da morada fiscal, não do passaporte.' }
       ]
     },
     {
-      "id": "how",
-      "title": "Como obter",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Passaporte (original)",
-            "Confirmação de endereço (fatura, extrato bancário dos últimos 3 meses). Para cidadãos da UE, aceita-se o endereço do país de origem",
-            "Cidadãos da CPLP, ao abrigo do Acordo de Mobilidade, frequentemente já têm o processo na AIMA — o NIF é atribuído na mesma visita"
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "Marcar no Portal das Finanças (portal fiscal) → \"Agendamentos\" → \"Atribuição de NIF\" ou comparecer na fila (antes das 9:00 em Lisboa/Porto)."
-        },
-        {
-          "kind": "timeline",
-          "text": "O NIF é atribuído no dia da visita."
-        }
+      id: 'how',
+      title: 'Como obter',
+      content: [
+        { kind: 'checklist', items: [
+          'Passaporte (original)',
+          'Documento recente com morada — por exemplo, fatura de serviços públicos, extrato bancário ou outro documento aceite pelo serviço das Finanças específico; de preferência emitido nos últimos 3 meses',
+          'O NIF é emitido através das Finanças/AT. A existência de um processo na AIMA, por si só, não garante a emissão do NIF na mesma visita; confirme se existe uma marcação/balcão separado das Finanças'
+        ]},
+        { kind: 'paragraph', text: 'Se ainda não tiver NIF, a marcação online através do Portal das Finanças pode não estar disponível (muitas funcionalidades exigem NIF/palavra-passe). Verifique o Atendimento por Marcação/contactos da AT, a chamada para o Centro de Atendimento Telefónico ou a possibilidade de atendimento presencial num serviço das Finanças/Loja do Cidadão.' },
+        { kind: 'timeline', text: 'O NIF é normalmente emitido no dia do atendimento bem-sucedido; o prazo não inclui a espera por marcação — nas grandes cidades, a fila pode demorar mais tempo.' }
       ]
     },
     {
-      "id": "cplp-note",
-      "title": "Cidadãos da CPLP — importante",
-      "audience": {
-        "citizenships": [
-          "cplp"
-        ]
-      },
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "Se você se encontra em Portugal ao abrigo do Acordo de Mobilidade CPLP, o NIF pode ser obtido logo após a entrada. Para brasileiros — especialmente conveniente, pois o visto não é necessário por até 90 dias e é possível solicitar a autorização de residência de dentro do país."
-        },
-        {
-          "kind": "warning",
-          "text": "Lei 61/2025 (entrou em vigor a 23.10.2025) endureceu as regras de entrada para cidadãos da CPLP, exceto do Brasil: agora é necessário visto CPLP no consulado ANTES da entrada. Exceção — apenas para brasileiros (entrada sem visto por 90 dias). Verifique os requisitos atuais em vistos.mne.gov.pt."
-        }
+      id: 'cplp-note',
+      title: 'Cidadãos da CPLP — importante',
+      audience: { citizenships: ['cplp'] },
+      content: [
+        { kind: 'paragraph', text: 'Se estiver em Portugal ao abrigo do Acordo de Mobilidade da CPLP, pode obter o NIF imediatamente após a entrada. Para brasileiros — é especialmente conveniente, uma vez que não é necessário visto até 90 dias e é possível pedir uma autorização de residência a partir do território nacional.' },
+        { kind: 'warning', text: 'Lei 61/2025 (entrou em vigor em 23.10.2025) tornou mais rigorosas as regras de entrada para cidadãos da CPLP, exceto Brasil: agora é exigido um visto CPLP no consulado antes da entrada. A exceção aplica-se apenas a brasileiros (entrada sem visto por 90 dias). Confirme os requisitos atuais em vistos.mne.gov.pt.' }
       ]
     }
   ],
-  "documents": [
-    {
-      "title": "Passaporte",
-      "note": "original"
-    },
-    {
-      "title": "Atestado de residência",
-      "note": "do país da UE ou CPLP ou português"
-    }
+  documents: [
+    { title: 'Passaporte', note: 'original' },
+    { title: 'Comprovativo da morada efetiva', note: 'em Portugal, na UE/EEE ou fora da UE/EEE; se a morada estiver fora da UE/EEE — verifique as regras sobre representante fiscal quando surgirem obrigações fiscais' }
   ],
-  "costs": [
-    {
-      "label": "Emolumento Finanças",
-      "amountEUR": 0
-    }
+  costs: [
+    { label: 'Taxa das Finanças', amountEUR: 0 }
   ],
-  "timelineDaysMin": 1,
-  "timelineDaysMax": 1,
-  "sources": [
-    {
-      "title": "Portal das Finanças — NIF",
-      "url": "https://www.portaldasfinancas.gov.pt/at/html/index.html",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "ePortugal — Obter NIF",
-      "url": "https://eportugal.gov.pt/cidadaos/-/informacoes/obter-numero-de-identificacao-fiscal-nif-",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "AIMA — Acordo de Mobilidade CPLP",
-      "url": "https://aima.gov.pt/",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    }
+  timelineDaysMin: 1,
+  timelineDaysMax: 1,
+  sources: [
+    { title: 'ePortugal — Obter NIF', url: 'https://eportugal.gov.pt/servicos/pedir-o-numero-de-identificacao-fiscal-nif-para-pessoa-singular', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'AT — Ofício Circulado 90054/2022 (representante fiscal)', url: 'https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/Paginas/Oficio_Circulado_90054_2022.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei n.º 61/2025 — alterações CPLP (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Vistos MNE — CPLP', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  "lastVerified": "2026-04-22",
-  "verifyIntervalDays": 180
+  lastVerified: '2026-05-17',
+  verifyIntervalDays: 180
 }

@@ -130,6 +130,6 @@ export default {
     { title: 'EMEL — meu perfil (gestão de dísticos e zonas)', url: 'https://meuperfil.emel.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'EMEL — официальный сайт оператора парковки Lisboa', url: 'https://www.emel.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

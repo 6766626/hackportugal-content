@@ -127,6 +127,6 @@ export default {
     { title: 'EDP Comercial — электрическая мобильность и зарядка EV', url: 'https://www.edp.pt/particulares/servicos/mobilidade-eletrica/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 39/2010 — режим организации и доступа к электрической мобильности', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/39-2010-243233', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

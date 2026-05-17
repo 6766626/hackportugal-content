@@ -3,7 +3,7 @@ export default {
   id: 'must-try-dishes',
   categoryId: 'food_leisure',
   title: 'Что обязательно попробовать в Португалии — по регионам',
-  tldr: 'Португальская кухня очень региональная. Лиссабон: сардины, amêijoas à Bulhão Pato. Порту: Francesinha, Tripas à moda do Porto. Алентежу: cozido, açorda. Север: caldo verde. Мадейра: espetadas. Азоры: cozido das Furnas. Главное блюдо-икона — bacalhau (треска), у которой «365 рецептов». И pastéis de nata на десерт — везде.',
+  tldr: 'Португальская кухня очень региональная. Лиссабон: сардины, amêijoas à Bulhão Pato. Порту: Francesinha, Tripas à moda do Porto. Алентежу: açorda, migas, ensopado de borrego, carne de porco à alentejana. Север: caldo verde. Мадейра: espetadas. Азоры: cozido das Furnas. Главное блюдо-икона — bacalhau (треска), у которой «365 рецептов». И pastéis de nata на десерт — везде.',
   tags: ['еда', 'блюда', 'кухня', 'рестораны', 'регионы'],
   estimatedReadMinutes: 8,
   steps: [
@@ -13,12 +13,12 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🐟 Sardinhas assadas — сардины на гриле, сезон июнь–сентябрь. Праздник Santo António (13.06) — день сардин',
-          '🐚 Amêijoas à Bulhão Pato — моллюски в чесночно-лаймовом бульоне с кинзой',
+          '🐚 Amêijoas à Bulhão Pato — моллюски в соусе из чеснока, оливкового масла, кинзы и лимона',
           '🍲 Bacalhau à Brás — треска соломкой с картошкой и яйцом, главное домашнее блюдо',
           '🍛 Arroz de marisco — рис с морепродуктами в томатном соусе',
-          '🧀 Queijo da Serra da Estrela — мягкий овечий сыр DOP, с августа по март',
+          '🧀 Queijo Serra da Estrela DOP — мягкий овечий сыр из региона Serra da Estrela; лучший сезон обычно поздняя осень — весна',
           '🥐 Pastéis de nata — заварной крем в хрустящем тесте, сверху корица',
-          '🍷 Vinho de Carcavelos — историческое креплёное белое вино района Cascais'
+          '🍷 Vinho de Carcavelos — историческое креплёное DOC-вино зоны Oeiras/Cascais, чаще белое/янтарное, но не строго только белое'
         ]}
       ]
     },
@@ -30,7 +30,7 @@ export default {
           '🥪 Francesinha — сэндвич-монстр с мясом, колбасой, плавленым сыром и соусом из пива и томатов. Икона Порту',
           '🥬 Caldo verde — суп из капусты kale и картофеля с chouriço. Национальное зимнее блюдо',
           '🐄 Tripas à moda do Porto — рубец с фасолью. Портуанцев называют «tripeiros» за это блюдо',
-          '🍷 Vinho verde — молодое лёгкое вино с лёгкой искоркой, лучший региональный выбор',
+          '🍷 Vinho Verde — вино северо-запада Португалии; часто лёгкое, свежее и слегка газированное, но есть и более сложные стили, особенно Alvarinho и Loureiro',
           '🍷 Porto — сладкое креплёное вино, от tawny до vintage. Дегустация в погребах Gaia',
           '🐟 Cabidela — курица или кролик в собственной крови, традиционное блюдо Minho',
           '🥖 Bolinhos de bacalhau — фрикадельки из трески, закуска повсюду'
@@ -48,7 +48,7 @@ export default {
           '🐷 Presunto de Barrancos — хамон из иберийской свиньи на дубовой диете, DOP',
           '🍷 Vinhos do Alentejo — насыщенные красные вина с Touriga Nacional и Aragonez',
           '🥧 Sericaia со сливой — традиционный десерт из Elvas',
-          '🍮 Pão de Rala — миндально-тыквенный десерт монастырского происхождения'
+          '🍮 Pão de Rala — монастырский десерт из миндаля, яичных желтков и doce de gila/chila'
         ]}
       ]
     },
@@ -59,9 +59,9 @@ export default {
         { kind: 'checklist', items: [
           '🍲 Cataplana — медный котелок с рыбой или моллюсками в томатном бульоне. Готовится на двоих',
           '🐙 Polvo à lagareiro — осьминог, запечённый с оливковым маслом и раздавленным картофелем',
-          '🦐 Gambas à la Plancha — креветки на гриле с солью',
+          '🦐 Gambas grelhadas / camarão grelhado — креветки на гриле с солью и лимоном',
           '🐟 Xerém de conquilhas — кукурузная каша с моллюсками',
-          '🍯 Medronho — алкоголь из земляничного дерева, местный крепкий напиток 48%',
+          '🍯 Medronho — крепкая aguardente из плодов земляничного дерева, обычно около 40–50% ABV',
           '🥜 Doces de amêndoa — миндальные сладости'
         ]}
       ]
@@ -74,8 +74,8 @@ export default {
           { id: 'mad', title: 'Мадейра', content: [
             { kind: 'checklist', items: [
               'Espetada — говядина на шампуре из лаврового дерева',
-              'Bolo do caco — лепёшка из сладкого картофеля с чесночным маслом',
-              'Poncha — ром + мёд + лимон + местный фрукт',
+              'Bolo do caco — пшеничная лепёшка с добавлением батата, обычно подаётся с чесночным маслом',
+              'Poncha — aguardente de cana da Madeira + мёд + лимон/апельсин; бывают версии с маракуйей и другими фруктами',
               'Lapas — морские блюдечки на гриле',
               'Vinho da Madeira — креплёное вино, знаменитое с XV века'
             ]}
@@ -96,7 +96,7 @@ export default {
       id: 'bacalhau',
       title: 'Бакалхау — «365 рецептов»',
       content: [
-        { kind: 'paragraph', text: 'Треска — самая важная рыба для португальцев, хотя почти вся ловится в норвежских водах. Пословица: «365 способов приготовить bacalhau, по одному на каждый день года». Вот топ-6:' },
+        { kind: 'paragraph', text: 'Треска — самая важная рыба для португальцев, хотя сама Португалия почти не ловит эту рыбу: bacalhau в основном импортируется из Северной Атлантики, особенно из Норвегии и Исландии. Пословица: «365 способов приготовить bacalhau, по одному на каждый день года». Вот топ-6:' },
         { kind: 'checklist', items: [
           'à Brás — соломка с картошкой и яйцом',
           'à Gomes de Sá — кусками с картофелем и луком, запечённая',
@@ -114,12 +114,12 @@ export default {
         { kind: 'checklist', items: [
           '🏠 Tasca — маленький местный ресторан, низкие цены, высокое качество',
           '🍽️ Cervejaria — пивная со свежими морепродуктами',
-          '🧀 Casa de pasto — дневной обед с menu do dia (8–12 €)',
+          '🧀 Casa de pasto — дневной обед с menu do dia, часто около € 10–15 (в небольших городах иногда дешевле, в туристических районах дороже)',
           '❌ Избегайте ресторанов с «туристическим меню» и фото еды снаружи',
           '✅ Ищите заведения, где едят местные: обед после 13:00, ужин после 20:00',
           '💡 Вопрос «O que é típico aqui?» откроет тайны региона'
         ]},
-        { kind: 'warning', text: 'Couvert — закуски на столе (хлеб, оливки, сыр) в Португалии НЕ бесплатны, они всегда платные. Отказывайтесь: «нет, obrigado», если не хотите, иначе они будут в счёте.' }
+        { kind: 'warning', text: 'Couvert в Португалии обычно платный, если вы его потребляете. Если не хотите — сразу откажитесь и не ешьте; за непрошенные и нетронутые закуски платить не обязаны. Цена couvert должна быть указана в меню/прайс-листе.' }
       ]
     }
   ],
@@ -128,6 +128,6 @@ export default {
     { title: 'UNESCO — Mediterranean diet (PT inclusion)', url: 'https://ich.unesco.org/en/RL/mediterranean-diet-00884', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Wines of Portugal — регионы', url: 'https://www.winesofportugal.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

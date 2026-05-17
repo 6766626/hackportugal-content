@@ -3,21 +3,21 @@ export default {
   id: 'recycling-pt',
   categoryId: 'daily_life',
   title: 'Separate waste collection and disposal in Portugal',
-  tldr: 'Portugal follows the EU standard: separate waste collection. The main bin colours are: yellow (ecoponto amarelo) for plastic and metal, blue for paper and cardboard, green for glass, brown for organic waste (where available), and grey/black for mixed waste. Bulky waste and electrical appliances are handled separately through the municipality. Fines apply for breaches.',
-  tags: ['waste', 'recycling', 'ecoponto', 'environment'],
+  tldr: 'Portugal follows the EU standard — separate waste collection. The main bin colours are: yellow (ecoponto amarelo) — plastic and metal, blue — paper and cardboard, green — glass, brown — organic waste (where available), grey/black — mixed waste. Bulky waste and electrical appliances are handled separately, via the municipality. Fines apply for infringements.',
+  tags: ['waste', 'recycling', 'ecoponto', 'ecology'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'system',
       title: 'How the system works',
       content: [
-        { kind: 'paragraph', text: 'Waste collection in Portugal is the responsibility of municipalities (Câmara Municipal), through contractors. Payment is included as part of the water bill. The system is based on EU Directive 2008/98/EC and national Lei 102/2020.' },
-        { kind: 'paragraph', text: 'The main principle is separate containers (ecopontos) in residential areas. In flats, waste is sorted at home and then taken to the nearest ecoponto.' }
+        { kind: 'paragraph', text: 'Municipalities (Câmara Municipal) are responsible for waste collection in Portugal through contractors. Payment is included as part of the water bill. The system is based on EU Directive 2008/98/EC and Decreto-Lei n.º 102-D/2020 (Regime Geral da Gestão de Resíduos), as subsequently amended.' },
+        { kind: 'paragraph', text: 'The basic principle is separate containers (ecopontos) in residential areas. In flats, waste is sorted at home and then taken to the nearest ecoponto.' }
       ]
     },
     {
       id: 'colors',
-      title: 'Colours and what to put in each bin',
+      title: 'Colours and what to put in them',
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: '🟡 Yellow (Amarelo) — Embalagens', content: [
@@ -25,18 +25,18 @@ export default {
               'Plastic bottles (water, milk, juice)',
               'Yoghurt pots',
               'Plastic packaging, film',
-              'Tin cans (drinks, preserves)',
+              'Tin cans (drinks, tinned food)',
               'Metal lids',
-              'Tetra Pak cartons (milk, juices)',
+              'Tetra Paks (milk, juices)',
               'Aerosol cans (empty)'
             ]}
           ]},
           { id: 'c2', title: '🔵 Blue (Azul) — Papel e Cartão', content: [
             { kind: 'checklist', items: [
               'Newspapers, magazines',
-              'Cardboard boxes (flattened and folded flat)',
-              'Printer paper',
-              'Books (if not resold)',
+              'Cardboard boxes (taken apart and flattened)',
+              'Printed paper',
+              'Books (if they cannot be resold)',
               '❌ DO NOT put in: dirty pizza boxes, napkins, wax-coated paper'
             ]}
           ]},
@@ -49,7 +49,7 @@ export default {
           ]},
           { id: 'c4', title: '🟤 Brown (Castanho) — Orgânico', content: [
             { kind: 'checklist', items: [
-              'Food waste (peelings, bones, leftovers)',
+              'Food waste (peels, bones, food leftovers)',
               'Coffee grounds',
               'Garden waste (leaves, grass)',
               'Not available everywhere — it depends on the municipality. In Lisboa and Porto it is being introduced in some areas'
@@ -58,17 +58,18 @@ export default {
           { id: 'c5', title: '⚫ Grey/Black — Indiferenciado (mixed waste)', content: [
             { kind: 'checklist', items: [
               'Everything that is NOT suitable for separate collection',
-              'Hygiene products (nappies, sanitary pads)',
+              'Hygiene products (nappies, sanitary towels)',
               'Non-recyclable plastic (polystyrene)',
-              'Used napkins, paper'
+              'Used napkins, paper',
+              '❌ Light bulbs (LED, fluorescentes, economizadoras) must NOT be thrown in ordinary waste — they are a special waste stream, hand them in at electronics shops or at an ecocentro'
             ]}
           ]},
           { id: 'c6', title: '🔴 Red (Vermelho) — Pilhas (batteries)', content: [
             { kind: 'checklist', items: [
-              'Batteries go in a separate red container (Pilhão), available at some municipal ecopontos',
-              'They are also accepted in supermarkets and pharmacies (Continente, Pingo Doce, Worten)',
-              'Rechargeable batteries also go here',
-              'If there is no red bin, see the “Special disposal” section below'
+              'Pilhão — for portable batteries and small rechargeable batteries. Car/motorcycle/industrial batteries must be taken to specialised collection points (garages, ecocentro)',
+              'Portable batteries are also accepted in many supermarkets and electronics shops',
+              'Phone/laptop batteries — put them here as well, or take them to electronics shops',
+              'If there is no red bin — see the “Special disposal” section below'
             ]}
           ]}
         ]}
@@ -79,41 +80,41 @@ export default {
       title: 'Special disposal',
       content: [
         { kind: 'substeps', items: [
-          { id: 's1', title: 'Electrical and electronic items', content: [
-            { kind: 'paragraph', text: 'Waste electrical and electronic equipment goes in dedicated containers in shops (Worten, Radio Popular, Fnac) or at municipal Ecocentros. By law, a shop must accept old equipment when you buy a new item.' }
+          { id: 's1', title: 'Electrical and electronic equipment', content: [
+            { kind: 'paragraph', text: 'Waste electrical and electronic equipment — separate containers in shops (Worten, Radio Popular, Fnac) or at municipal Ecocentros. By law, a shop must accept old equipment when you buy a new item.' }
           ]},
           { id: 's2', title: 'Batteries', content: [
-            { kind: 'paragraph', text: 'Pilhão containers are available in many shops (supermarkets, pharmacies). By law, they are mandatory.' }
+            { kind: 'paragraph', text: 'Pilhão — containers in many shops (supermarkets, pharmacies, electronics shops). Obligations depend on whether the outlet sells batteries and on the take-back regime.' }
           ]},
-          { id: 's3', title: 'Oil (cooking oil)', content: [
-            { kind: 'paragraph', text: 'Oleão containers are found in supermarkets and municipalities. Used oil should be handed in inside a plastic bottle. It is recycled into biodiesel.' }
+          { id: 's3', title: 'Oil (cooking)', content: [
+            { kind: 'paragraph', text: 'Oleão — containers in supermarkets and municipalities. Used oil is handed in inside a plastic bottle. It is recycled into biodiesel.' }
           ]},
           { id: 's4', title: 'Clothing', content: [
-            { kind: 'paragraph', text: 'Clothing containers are found on streets (orange). H&M/Zara also accept old clothes in exchange for a discount.' }
+            { kind: 'paragraph', text: 'Clothing containers — on streets (orange). H&M/Zara also accept old items in exchange for a discount.' }
           ]},
           { id: 's5', title: 'Furniture and bulky waste (monstros)', content: [
-            { kind: 'paragraph', text: 'Collection must be arranged with the municipality by phone or via the Câmara Municipal online form. It is usually free 1-2 times a year. Do not leave items on the street without prior agreement — this can result in a fine.' }
+            { kind: 'paragraph', text: 'Collection must be arranged with the municipality by phone or through the Câmara Municipal online form. It is usually free 1-2 times a year. Do not leave items on the street without arranging it — there is a fine for this.' }
           ]},
-          { id: 's6', title: 'Construction waste', content: [
-            { kind: 'paragraph', text: 'This must be taken to specific Ecocentros. If you are doing renovation work yourself, request authorisation from the Câmara Municipal; disposal is often paid.' }
+          { id: 's6', title: 'Construction waste (RCD)', content: [
+            { kind: 'paragraph', text: 'Resíduos de construção e demolição (RCD) have a separate regime. Not all ecocentros accept construction waste; there are often volume limits and requirements. If you are doing renovation work yourself, check with the Câmara Municipal; disposal is often paid.' }
           ]},
           { id: 's7', title: 'Medicines', content: [
-            { kind: 'paragraph', text: 'Valormed containers are available in pharmacies. They accept expired and unwanted medicines.' }
+            { kind: 'paragraph', text: 'Valormed — containers in pharmacies. They accept expired and unwanted medicines.' }
           ]}
         ]}
       ]
     },
     {
       id: 'fines',
-      title: 'Fines and breaches',
+      title: 'Fines and infringements',
       content: [
-        { kind: 'paragraph', text: 'Under Lei 102/2020 and municipal regulations, fines can reach €200,000 for legal entities; for individuals, they are €50-2,000.' },
+        { kind: 'paragraph', text: 'Under Decreto-Lei n.º 102-D/2020 and municipal regulations, fines apply for contraordenações ambientais (Lei 50/2006). Categories are leve/grave/muito grave; amounts vary substantially for individuals and companies. Check the current version of the law.' },
         { kind: 'checklist', items: [
-          '⚠️ Incorrect sorting is formally subject to a fine; in practice, the bag may simply not be collected',
-          '⚠️ Bulky waste left on the street without a request — fine of €50-250',
-          '⚠️ Putting out rubbish outside the schedule (some areas have set times)',
-          '⚠️ Throwing rubbish from a car — up to €750',
-          '⚠️ Ecocentros accept waste free of charge from residents with atestado de residência; for commercial users, it is paid'
+          '⚠️ Incorrect sorting — formally subject to a fine; in practice, the bag may simply not be collected',
+          '⚠️ Bulky waste on the street without a request — fine of €50-250',
+          '⚠️ Putting waste out outside the schedule (some areas have set hours)',
+          '⚠️ Throwing waste from a car — up to €750',
+          '⚠️ Ecocentros accept waste free of charge from citizens with an atestado de residência; for commercial entities — paid'
         ]}
       ]
     },
@@ -122,13 +123,13 @@ export default {
       title: 'Practical tips',
       content: [
         { kind: 'checklist', items: [
-          '🚮 Rinse packaging to remove residues — clean packaging is recycled more effectively',
-          '📦 Break down cardboard boxes and fold them flat — this leaves more room in the bin',
-          '🔋 Do not put batteries in ordinary waste — it is dangerous',
-          '🛍️ Shopper bag (saco reutilizável) — since 2021, plastic bags in supermarkets have cost 3-10 cents',
-          '🏭 Ecocentro — every large municipality has one, and you can take unusual items there',
-          '♻️ Composting on a balcony or in a yard is becoming increasingly common among residents; municipalities give out composters free of charge',
-          '📱 The “Sociedade Ponto Verde” app explains what goes where'
+          '🚮 Rinse leftover contents from packaging — clean packaging is recycled more effectively',
+          '📦 Take cardboard boxes apart and flatten them — more will fit in the bin',
+          '🔋 Do not throw batteries in ordinary waste — it is dangerous',
+          '🛍️ Reusable shopping bag (saco reutilizável) — since 2021, plastic bags in supermarkets have cost 3-10 cents',
+          '🏭 Ecocentro — available in every large municipality; you can take anything unusual there',
+          '♻️ Composting on a balcony or in a yard — increasingly common among residents; municipalities provide composters free of charge',
+          '📱 The “Sociedade Ponto Verde” app — explains what goes where'
         ]}
       ]
     }
@@ -136,9 +137,9 @@ export default {
   sources: [
     { title: 'APA — Agência Portuguesa do Ambiente', url: 'https://www.apambiente.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Sociedade Ponto Verde — packaging waste operator', url: 'https://www.pontoverde.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 102/2020 (Regime de Gestão de Resíduos)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/102-2020', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei n.º 102-D/2020 — Regime Geral da Gestão de Resíduos', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-d-2020', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Directive 2008/98/EC — EU Waste Framework Directive', url: 'https://eur-lex.europa.eu/', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

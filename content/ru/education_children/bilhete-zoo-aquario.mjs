@@ -100,6 +100,6 @@ export default {
     { title: 'Oceanário de Lisboa — tickets, memberships, education programmes', url: 'https://www.oceanario.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Sea Life Porto — билеты и семейные посещения', url: 'https://www.visitsealife.com/porto/en/', kind: 'company', language: 'en', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

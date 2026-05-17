@@ -1,259 +1,151 @@
 export default {
-  "editorialVoice": "hackportugal",
-  "id": "azores-islands",
-  "categoryId": "travel_portugal",
-  "title": "Açores — 9 ilhas no Atlântico",
-  "tldr": "Os Açores são um arquipélago vulcânico a 1500 km de Portugal continental, com 9 ilhas. O principal aeroporto é Ponta Delgada, em São Miguel. Crateras verdes, baleias, fontes termais e natureza única. Planeie no mínimo 7-10 dias para 2-3 ilhas. Os residentes em Portugal recebem subsídio para voos.",
-  "tags": [
-    "açores",
-    "ilhas",
-    "natureza",
-    "baleias"
-  ],
-  "estimatedReadMinutes": 9,
-  "steps": [
+  editorialVoice: 'hackportugal',
+  id: 'azores-islands',
+  categoryId: 'travel_portugal',
+  title: 'Açores — 9 ilhas no Atlântico',
+  tldr: 'Os Açores são um arquipélago vulcânico a 1500 km de Portugal continental, com 9 ilhas. O principal aeroporto é Ponta Delgada, em São Miguel. Crateras verdes, baleias, fontes termais, natureza única. Planeie no mínimo 7-10 dias para 2-3 ilhas. Residentes em Portugal têm direito a subsídio nos voos.',
+  tags: ['açores', 'ilhas', 'natureza', 'baleias'],
+  estimatedReadMinutes: 9,
+  steps: [
     {
-      "id": "overview",
-      "title": "Sobre o arquipélago",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "Os Açores são uma região autónoma de Portugal. 9 ilhas de origem vulcânica, divididas em 3 grupos: oriental (São Miguel, Santa Maria), central (Terceira, Graciosa, São Jorge, Pico, Faial), ocidental (Flores, Corvo). Área total: 2333 km²."
-        },
-        {
-          "kind": "paragraph",
-          "text": "O clima é subtropical ameno (+14-24°C durante todo o ano), mas instável: “pode haver 4 estações num só dia”. Muita vegetação, lagoas e cascatas."
-        }
+      id: 'overview',
+      title: 'Sobre o arquipélago',
+      content: [
+        { kind: 'paragraph', text: 'Os Açores são uma região autónoma de Portugal. São 9 ilhas de origem vulcânica, divididas em 3 grupos: oriental (São Miguel, Santa Maria), central (Terceira, Graciosa, São Jorge, Pico, Faial), ocidental (Flores, Corvo). A área total é de 2333 km².' },
+        { kind: 'paragraph', text: 'O clima é subtropical ameno (+14-24°C durante todo o ano), mas variável: «pode haver 4 estações num só dia». Há muita vegetação, lagoas e cascatas.' }
       ]
     },
     {
-      "id": "sao-miguel",
-      "title": "São Miguel — “Ilha Verde”",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "A maior ilha (760 km²), com o principal aeroporto. Aqui vive metade da população do arquipélago. Recomenda-se no mínimo 4-5 dias."
-        },
-        {
-          "kind": "checklist",
-          "items": [
-            "🌋 Lagoa das Sete Cidades — cratera com lagoas azul e verde. Miradouro da Vista do Rei",
-            "♨️ Furnas — vale com fontes termais. Cozido das Furnas — a carne é cozinhada no vulcão durante 6 horas",
-            "💧 Caldeira Velha — piscinas termais numa floresta tropical",
-            "🌋 Lagoa do Fogo — lagoa de cratera a 575 m. Trilhos pedestres",
-            "🐳 Observação de baleias — abril-outubro (cachalotes, baleia-azul, golfinhos). Tour 50-80 €",
-            "🌊 Praia Santa Bárbara — areia preta, local para surf",
-            "🍍 Plantação de Ananases — plantações de ananases em estufas, tradição do século XIX",
-            "🎨 Ponta Delgada — capital, Portas da Cidade, marina",
-            "🌿 Parque Terra Nostra — jardim botânico com piscina termal"
-          ]
-        }
+      id: 'sao-miguel',
+      title: 'São Miguel — «Ilha Verde»',
+      content: [
+        { kind: 'paragraph', text: 'A maior ilha (760 km²), com o principal aeroporto. Aqui vive metade da população do arquipélago. Recomenda-se no mínimo 4-5 dias.' },
+        { kind: 'checklist', items: [
+          '🌋 Lagoa das Sete Cidades — cratera com lagoas azul e verde. Miradouro da Vista do Rei',
+          '♨️ Furnas — vale com fontes termais. Cozido das Furnas — a carne é cozinhada no vulcão durante 6 horas',
+          '💧 Caldeira Velha — piscinas termais numa floresta tropical',
+          '🌋 Lagoa do Fogo — lagoa de cratera a 575 m. Trilhos pedestres',
+          '🐳 Observação de baleias — abril-outubro (cachalotes, baleia-azul, golfinhos). Tour 50-80 €',
+          '🌊 Praia Santa Bárbara — areia preta, local de surf',
+          '🍍 Plantação de Ananases — plantações de ananás em estufas, tradição do séc. XIX',
+          '🎨 Ponta Delgada — capital, Portas da Cidade, marina',
+          '🌿 Parque Terra Nostra — jardim botânico com piscina termal'
+        ]}
       ]
     },
     {
-      "id": "pico",
-      "title": "Pico — a ilha da montanha e do vinho",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "⛰️ Montanha do Pico — a montanha mais alta de Portugal (2351 m). Subida de 5-8 h com guia certificado",
-            "🍷 Vinhas da Criação Velha (UNESCO) — vinhas em rocha lávica dentro de currais de pedra",
-            "🐳 Lajes do Pico — antigo porto baleeiro, hoje centro de observação de baleias",
-            "🌊 Piscinas naturais — piscinas naturais em lava",
-            "🏛️ Museu do Vinho, Museu dos Baleeiros — museus do vinho e da baleação"
-          ]
-        }
+      id: 'pico',
+      title: 'Pico — ilha da montanha e do vinho',
+      content: [
+        { kind: 'checklist', items: [
+          '⛰️ Montanha do Pico — a montanha mais alta de Portugal (2351 m). Subida 5-8 h com guia certificado',
+          '🍷 Vinhas da Criação Velha (UNESCO) — vinhas em rocha lávica, dentro de currais de pedra',
+          '🐳 Lajes do Pico — antigo porto baleeiro, agora centro de observação de baleias',
+          '🌊 Piscinas naturais — piscinas naturais em lava',
+          '🏛️ Museu do Vinho, Museu dos Baleeiros — museus do vinho e da baleação'
+        ]}
       ]
     },
     {
-      "id": "other-islands",
-      "title": "Outras ilhas",
-      "content": [
-        {
-          "kind": "substeps",
-          "items": [
-            {
-              "id": "o1",
-              "title": "Terceira (UNESCO)",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Ilha histórica: Angra do Heroísmo — cidade UNESCO do século XV. Fortaleza de São João Baptista, touradas à corda."
-                }
-              ]
-            },
-            {
-              "id": "o2",
-              "title": "Faial — Ilha Azul",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "“Ilha Azul” devido às hortênsias. Capelinhos — vulcão de 1957-58, paisagem lunar. Porto da Horta — paragem de velejadores."
-                }
-              ]
-            },
-            {
-              "id": "o3",
-              "title": "São Jorge",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Ilha alongada com falésias (fajãs — plataformas junto ao mar). Queijo São Jorge DOP, uva Verdelho, festivais gastronómicos."
-                }
-              ]
-            },
-            {
-              "id": "o4",
-              "title": "Flores",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "A ilha mais ocidental, 50+ cascatas, natureza intocada, hortênsias."
-                }
-              ]
-            },
-            {
-              "id": "o5",
-              "title": "Santa Maria",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "A ilha mais antiga (8,2 milhões de anos), areia vermelha — uma raridade nos Açores. Festival Santa Maria a cada 5 anos."
-                }
-              ]
-            },
-            {
-              "id": "o6",
-              "title": "Graciosa",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Reserva da Biosfera UNESCO. Principal característica — a ilha mais seca. Furna do Enxofre — gruta com lago sulfuroso."
-                }
-              ]
-            },
-            {
-              "id": "o7",
-              "title": "Corvo",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "A ilha mais pequena (17 km²), 400 habitantes. Caldeirão — cratera gigante."
-                }
-              ]
-            }
-          ]
-        }
+      id: 'other-islands',
+      title: 'Outras ilhas',
+      content: [
+        { kind: 'substeps', items: [
+          { id: 'o1', title: 'Terceira (UNESCO)', content: [
+            { kind: 'paragraph', text: 'Ilha histórica: Angra do Heroísmo — cidade UNESCO do séc. XV. Fortaleza de São João Baptista, touradas à corda.' }
+          ]},
+          { id: 'o2', title: 'Faial — Ilha Azul', content: [
+            { kind: 'paragraph', text: '«Ilha Azul» por causa das hortênsias. Capelinhos — vulcão de 1957-58, paisagem lunar. Porto da Horta — paragem de velejadores.' }
+          ]},
+          { id: 'o3', title: 'São Jorge', content: [
+            { kind: 'paragraph', text: 'Ilha alongada com falésias (fajãs — plataformas junto ao mar). Queijo São Jorge DOP, uva Verdelho, festivais gastronómicos.' }
+          ]},
+          { id: 'o4', title: 'Flores', content: [
+            { kind: 'paragraph', text: 'A mais ocidental, mais de 50 cascatas, natureza intacta, hortênsias.' }
+          ]},
+          { id: 'o5', title: 'Santa Maria', content: [
+            { kind: 'paragraph', text: 'A ilha mais antiga (8,2 milhões de anos), areia vermelha — raridade nos Açores. Festival Santa Maria de 5 em 5 anos.' }
+          ]},
+          { id: 'o6', title: 'Graciosa', content: [
+            { kind: 'paragraph', text: 'Reserva da Biosfera UNESCO. Principal particularidade — a ilha mais seca. Furna do Enxofre — gruta com lago sulfuroso.' }
+          ]},
+          { id: 'o7', title: 'Corvo', content: [
+            { kind: 'paragraph', text: 'A ilha mais pequena (17 km²), 400 habitantes. Caldeirão — cratera gigante.' }
+          ]}
+        ]}
       ]
     },
     {
-      "id": "getting-there",
-      "title": "Como chegar",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "✈️ TAP Lisboa → Ponta Delgada: 2 h 30 min, desde 60 € com reserva antecipada",
-            "✈️ SATA / Azores Airlines — transportadora local, muitos voos",
-            "✈️ Voos diretos da Europa: no verão, Londres, Munique, Amesterdão, Copenhaga",
-            "✈️ Dos EUA: Boston, Nova Iorque (sazonal)",
-            "🏷️ Residentes em Portugal: tarifas subsidiadas através da “tarifa residente”",
-            "⛴️ Ferries inter-ilhas: Atlânticoline na época (abr-out)",
-            "✈️ SATA: voos inter-ilhas 30-80 €, 15-40 min entre ilhas"
-          ]
-        }
+      id: 'getting-there',
+      title: 'Como chegar',
+      content: [
+        { kind: 'checklist', items: [
+          '✈️ TAP Lisboa → Ponta Delgada: 2 h 30 min, desde 60 € com reserva antecipada',
+          '✈️ SATA / Azores Airlines — transportadora local, muitos voos',
+          '✈️ Voos diretos da Europa: no verão Londres, Munique, Amesterdão, Copenhaga',
+          '✈️ Dos EUA: Boston, Nova Iorque (sazonal)',
+          '🏷️ Residentes em Portugal: tarifas subsidiadas através da «tarifa residente»',
+          '⛴️ Ferries interilhas: Atlânticoline na época (abr-out)',
+          '✈️ SATA: voos interilhas 30-80 €, 15-40 min entre ilhas'
+        ]}
       ]
     },
     {
-      "id": "activities",
-      "title": "O que fazer",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "🐳 Observação de baleias — abril-outubro, cachalotes e golfinhos garantidos, baleia-azul abril-junho",
-            "🥾 Trekking — 50+ percursos PR (pequenas rotas), gratuito",
-            "🏄 Surf — São Miguel, Santa Maria",
-            "🤿 Mergulho — Faial, Pico, Santa Maria",
-            "🎣 Pesca de alto-mar — atum, espadim",
-            "♨️ Fontes termais e piscinas",
-            "🚣 Caiaque em lagoas de cratera",
-            "🌿 Geoturismo — Geoparque UNESCO nos Açores",
-            "🍷 Tours de vinho — Pico, Graciosa"
-          ]
-        }
+      id: 'activities',
+      title: 'O que fazer',
+      content: [
+        { kind: 'checklist', items: [
+          '🐳 Observação de baleias — abril-outubro, cachalotes e golfinhos praticamente garantidos, baleia-azul abril-junho',
+          '🥾 Trekking — mais de 50 percursos PR (pequenas rotas), gratuito',
+          '🏄 Surf — São Miguel, Santa Maria',
+          '🤿 Mergulho — Faial, Pico, Santa Maria',
+          '🎣 Pesca de alto-mar — atum, espadim',
+          '♨️ Fontes termais e piscinas',
+          '🚣 Caiaque em lagoas de cratera',
+          '🌿 Geoturismo — UNESCO Geopark nos Açores',
+          '🍷 Tours de vinho — Pico, Graciosa'
+        ]}
       ]
     },
     {
-      "id": "food",
-      "title": "Cozinha local",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "🍲 Cozido das Furnas — carne de vaca + carne de porco + legumes, cozinhado em solo vulcânico durante 6 horas",
-            "🐟 Lapas grelhadas — lapas grelhadas com alho",
-            "🐙 Polvo guisado — polvo em vinho tinto",
-            "🐟 Atum — atum fresco (Pico, Faial)",
-            "🧀 Queijo São Jorge DOP — queijo local",
-            "🍍 Ananás — ananases de São Miguel",
-            "🌶️ Massa de pimentão — pasta de pimento, especialidade",
-            "🍮 Queijadas da Graciosa — pequeno doce de requeijão"
-          ]
-        }
+      id: 'food',
+      title: 'Gastronomia local',
+      content: [
+        { kind: 'checklist', items: [
+          '🍲 Cozido das Furnas — vaca + porco + legumes, cozinhado em solo vulcânico durante 6 horas',
+          '🐟 Lapas grelhadas — lapas grelhadas com alho',
+          '🐙 Polvo guisado — polvo em vinho tinto',
+          '🐟 Atum — atum fresco (Pico, Faial)',
+          '🧀 Queijo São Jorge DOP — queijo local',
+          '🍍 Ananás — ananás de São Miguel',
+          '🌶️ Massa de pimentão — pasta de pimentão, especialidade',
+          '🍮 Queijadas da Graciosa — pequeno bolo doce de queijo fresco'
+        ]}
       ]
     },
     {
-      "id": "planning",
-      "title": "Planeamento da viagem",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "📅 Melhor época: abril-outubro (tempo quente + observação de baleias)",
-            "🌧️ Outubro-março — chuvoso, mas mais barato, mais calmo, as hortênsias florescem",
-            "📆 7 dias — 2 ilhas, 10-14 dias — 3-4 ilhas",
-            "🚗 O aluguer de carro é indispensável em cada ilha",
-            "🏨 Booking / Airbnb funcionam, além de turismo rural local (casas ecológicas)",
-            "💰 Orçamento por dia por pessoa: 70-120 € (económico), 150-250 € (médio)",
-            "🎒 Leve: casaco quente, impermeável, calçado confortável, fato de banho ou calções de banho",
-            "📱 Rede móvel local MEO/Vodafone 4G funciona em todas as ilhas habitadas"
-          ]
-        }
+      id: 'planning',
+      title: 'Planeamento da viagem',
+      content: [
+        { kind: 'checklist', items: [
+          '📅 Melhor época: abril-outubro (tempo quente + observação de baleias)',
+          '🌧️ Outubro-março — chuvoso, mas mais barato, mais tranquilo, as hortênsias florescem',
+          '📆 7 dias — 2 ilhas, 10-14 dias — 3-4 ilhas',
+          '🚗 O aluguer de carro é indispensável em cada ilha',
+          '🏨 Booking / Airbnb funcionam, além dos turismo rural locais (casas ecológicas)',
+          '💰 Orçamento por dia por pessoa: 70-120 € (económico), 150-250 € (médio)',
+          '🎒 Leve: casaco quente, impermeável, calçado confortável, fato de banho ou calções de banho',
+          '📱 Rede móvel local MEO/Vodafone 4G funciona em todas as ilhas habitadas'
+        ]}
       ]
     }
   ],
-  "sources": [
-    {
-      "title": "Visit Azores — turismo oficial",
-      "url": "https://www.visitazores.com/",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "Governo Regional dos Açores",
-      "url": "https://www.azores.gov.pt/",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "Atlânticoline — ferries",
-      "url": "https://www.atlanticoline.pt/",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "Parques Naturais dos Açores",
-      "url": "https://parquesnaturais.azores.gov.pt/",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    }
+  sources: [
+    { title: 'Visit Azores — turismo oficial', url: 'https://www.visitazores.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Governo Regional dos Açores', url: 'https://www.azores.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Atlânticoline — ferries', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Parques Naturais dos Açores', url: 'https://parquesnaturais.azores.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  "lastVerified": "2026-04-22",
-  "verifyIntervalDays": 365
+  lastVerified: '2026-05-17',
+  verifyIntervalDays: 365
 }

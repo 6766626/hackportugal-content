@@ -3,7 +3,7 @@ export default {
   id: 'sos-voz-amiga-suicidio',
   categoryId: 'emergency_rights',
   title: 'SOS Voz Amiga and emergency psychological support lines',
-  tldr: 'If there is a risk of suicide or the person is already in danger, call 112 or go to a hospital Urgência. For talking and de-escalation in Portugal, SOS Voz Amiga 213 544 545, SNS 24 apoio psicológico 808 24 24 24, Linha de Emergência Social 144, SOS Criança 116 111, Linha SOS Estudante and Vodafone SOS Saúde Mental are available. Most lines are free or charged at your operator’s rate; you can call without a NIF, residence permit or SNS registration.',
+  tldr: 'If there is a risk of suicide or the person is already in danger, call 112 or go to a hospital Urgência. For talking and de-escalation in Portugal, SOS Voz Amiga 213 544 545, SNS 24 apoio psicológico 808 24 24 24, Linha de Emergência Social 144, SOS Criança 116 111, Linha SOS Estudante and Vodafone SOS Saúde Mental are available. Most lines are free or charged at your operator tariff; you can call without a NIF, residence permit or SNS registration.',
   tags: ['suicide', 'psychology', '112', 'sns'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         {
           kind: 'paragraph',
-          text: 'If someone says they are going to die, has already taken pills, is cutting themselves, is standing by a window/bridge, has disappeared with a farewell message, or you cannot ensure their safety, this is not “just a crisis”. Call 112. The operator will connect you with INEM/PSP/GNR and send an ambulance or the police.'
+          text: 'If a person says they are going to die, has already taken pills, is cutting themselves, is standing by a window/bridge, has disappeared with a farewell message, or you cannot ensure safety — this is not “just a crisis”. Call 112. The operator will connect you with INEM/PSP/GNR and send an ambulance or the police.'
         },
         {
           kind: 'checklist',
@@ -21,16 +21,16 @@ export default {
             'Call 112 — free, 24/7, works from any phone.',
             'Say: “risco de suicídio” or “tentativa de suicídio”.',
             'Give the exact address: rua, número, andar, código postal, concelho.',
-            'Say whether there are weapons, medicines, alcohol, drugs, height, water, or a car involved.',
+            'Say whether there are weapons, medicines, alcohol, drugs, height, water, a car.',
             'Do not leave the person alone until help arrives.',
             'Remove pills, knives, ropes, car keys, alcohol.',
-            'If the person is unconscious, not breathing, or there is bleeding, say this first.',
+            'If the person is unconscious, not breathing, or there is bleeding — say this first.',
             'If you are not nearby, ask a neighbour, porteiro, reception, PSP/GNR to check the address.'
           ]
         },
         {
           kind: 'warning',
-          text: 'Support hotlines do not replace 112. If there is immediate danger to life, call 112 first, then a psychological support line for follow-up.'
+          text: 'Support hotlines do not replace 112. If there is immediate danger to life, call 112 first, then a psychological support line for support.'
         }
       ]
     },
@@ -40,7 +40,7 @@ export default {
       content: [
         {
           kind: 'paragraph',
-          text: 'In a crisis, you do not need to prove your status in Portugal. NIF, NISS, residence permit, número de utente and knowledge of Portuguese are not conditions for emergency help. If you do not speak Portuguese, start with “English please” or ask someone nearby to help.'
+          text: 'In a crisis, you do not need to prove your status in Portugal. NIF, NISS, residence permit, número de utente and knowledge of Portuguese are not a condition for emergency help. If you do not speak Portuguese, start with “English please” or ask someone nearby to help.'
         },
         {
           kind: 'checklist',
@@ -48,9 +48,9 @@ export default {
             '112 — emergency danger to life, suicide attempt, self-harm, psychosis, aggression, disappearance with risk.',
             'SOS Voz Amiga — 213 544 545: emotional support and suicide prevention; the line is stated as free and available 24/7.',
             'SNS 24 — 808 24 24 24: choose apoio psicológico / aconselhamento psicológico; works 24/7, you can call without going to a Centro de Saúde.',
-            'Linha de Emergência Social — 144: free, 24/7; if the crisis is linked to homelessness, violence, lack of food, children, older people, or urgent social risk.',
+            'Linha de Emergência Social — 144: free, 24/7; if the crisis is linked to homelessness, violence, lack of food, children, elderly people, urgent social risk.',
             'SOS Criança — 116 111: free line for children and situations involving children; suitable for violence, neglect, threats, running away from home.',
-            'Linha SOS Estudante — for students and young people in crisis; schedules and numbers may change during the academic year, check before calling.',
+            'Linha SOS Estudante — for students and young people in crisis; schedule and numbers may change during the academic year, check before calling.',
             'Vodafone SOS Saúde Mental — an operator initiative for psychological support; check current access on the Vodafone website, as campaign formats change.',
             'If a number does not answer: do not wait for the “perfect” line — call 112 or SNS 24.'
           ]
@@ -67,7 +67,7 @@ export default {
       content: [
         {
           kind: 'paragraph',
-          text: 'In a crisis, it is normal to speak briefly and chaotically. The key is to communicate the risk, the location and what has already happened. The operator does not need a “polished” story.'
+          text: 'In a crisis, it is normal to speak briefly and chaotically. The key thing is to communicate the risk, the location, and what has already happened. The operator does not need a “polished” story.'
         },
         {
           kind: 'checklist',
@@ -76,43 +76,43 @@ export default {
             '“A pessoa está em risco de suicídio” — the person is at risk of suicide.',
             '“Houve uma tentativa de suicídio” — there has been a suicide attempt.',
             '“Tomou comprimidos / álcool / drogas” — they took pills / alcohol / drugs.',
-            '“Tem uma faca / arma / está numa janela / ponte” — they have a knife / weapon / are at a window / on a bridge.',
-            '“Não consigo garantir a segurança” — I cannot guarantee safety.',
+            '“Tem uma faca / arma / está numa janela / ponte” — they have a knife / weapon / are by a window / on a bridge.',
+            '“Não consigo garantir a segurança” — I cannot ensure safety.',
             '“Preciso de ajuda em inglês/russo” — help is needed in English/Russian.',
             '“Morada completa é…” — the full address is...',
-            '“Estou sozinho/a com a pessoa” — I am alone with the person.'
+            '“Estou sozinho/a com a pessoa” — I am alone with this person.'
           ]
         },
         {
           kind: 'paragraph',
-          text: 'If you are calling for someone else, do not promise complete confidentiality. When there is a risk to life, you can and should give the address and facts to the emergency services.'
+          text: 'If you are calling for another person, do not promise complete confidentiality. When life is at risk, you can and should give the address and facts to the emergency services.'
         }
       ]
     },
     {
       id: 'supporting-someone',
-      title: '4. How to behave when you are with someone in crisis',
+      title: '4. How to behave around a person in crisis',
       content: [
         {
           kind: 'paragraph',
-          text: 'The aim of the first 20–30 minutes is not to “cure” them, but to reduce risk until help arrives or until contact with a support line. Speak calmly, in simple phrases, without arguments about the meaning of life.'
+          text: 'The aim of the first 20–30 minutes is not to “cure” them, but to reduce the risk until help arrives or until contact with a support line. Speak calmly, in simple phrases, without arguments about the meaning of life.'
         },
         {
           kind: 'checklist',
           items: [
             'Ask directly: “Are you thinking about suicide?” — this does not “put the idea in their head”, it helps assess the risk.',
-            'Ask: “Do you have a plan? Means? When?” — specifics are more important than general words.',
+            'Ask: “Do you have a plan? The means? When?” — specifics matter more than general words.',
             'Remove access to means of self-harm, but do not get into a fight.',
-            'Stay nearby or organise for another adult to be nearby.',
-            'Say: “I’m with you”, “we are calling help now”, “you do not have to solve everything today”.',
-            'Do not say: “do not be dramatic”, “others have it worse”, “think of your family”, “it is a sin”.',
-            'Do not leave the person to “sleep it off” if there were pills, alcohol or injuries.',
+            'Stay nearby or arrange for another adult to be nearby.',
+            'Say: “I am with you”, “we are calling for help now”, “you do not need to solve everything today”.',
+            'Do not say: “do not overdramatise”, “others have it worse”, “think of your family”, “it is a sin”.',
+            'Do not leave the person to “sleep it off” if there have been pills, alcohol or injuries.',
             'After stabilisation, help them book an appointment with a médico de família, psicólogo or psiquiatra.'
           ]
         },
         {
           kind: 'warning',
-          text: 'If the person becomes aggressive, locks themselves in, runs away, or there is a weapon, move to safety and call 112. Do not try to physically restrain them on your own.'
+          text: 'If the person becomes aggressive, locks themselves in, runs away, or there is a weapon — move to safety and call 112. Do not try to physically restrain them on your own.'
         }
       ]
     },
@@ -122,24 +122,24 @@ export default {
       content: [
         {
           kind: 'paragraph',
-          text: 'After a call or hospitalisation, you need a plan for the next few days: medical contact, a safe environment, medicines under supervision, one contact person and another call to a line if things worsen.'
+          text: 'After a call or hospitalisation, a plan is needed for the next few days: medical contact, a safe environment, medicines under supervision, one person for contact, and a repeat call to a line if things worsen.'
         },
         {
           kind: 'checklist',
           items: [
             'Through SNS: call SNS 24 808 24 24 24 or book an appointment with a médico de família at a Centro de Saúde.',
-            'If there is an urgência psiquiátrica at your hospital público, you can go directly if the risk returns.',
-            'If you are a student, contact the serviços de ação social / gabinete de apoio psicológico at your university.',
-            'If the crisis is linked to housing, violence, food or children, call 144 and ask for avaliação social urgente.',
-            'If a child has been affected, call 116 111, the CPCJ for your place of residence, or 112 in immediate danger.',
-            'If you have private insurance, check cobertura de psiquiatria/psicologia and copagamento.',
-            'Prepare a “safety plan”: 3 contacts, the nearest urgência, what to remove from the home, what to do at night.',
+            'If there is an urgência psiquiátrica at your hospital público — you can go directly if the risk returns.',
+            'If you are a student — contact your university’s serviços de ação social / gabinete de apoio psicológico.',
+            'If the crisis is linked to housing, violence, food or children — call 144 and ask for avaliação social urgente.',
+            'If a child has been affected — 116 111, CPCJ in the place of residence, or 112 in immediate danger.',
+            'If you have private insurance — check cobertura de psiquiatria/psicologia and copagamento.',
+            'Make a “safety plan”: 3 contacts, nearest urgência, what to remove from the home, what to do at night.',
             'Save the numbers in your phone under simple names: 112, SNS 24, SOS Voz Amiga, 144.'
           ]
         },
         {
           kind: 'paragraph',
-          text: 'For expats, an important practical point: psychological help in the private sector is often faster, but when there is a suicide risk, do not wait for a free slot. Urgência and 112 are the right route even without Portuguese documents.'
+          text: 'For expats, an important practical point: psychological help in the private sector is often faster, but when there is a risk of suicide, do not wait for an available slot. Urgência and 112 are the right route even without Portuguese documents.'
         }
       ]
     }
@@ -164,7 +164,7 @@ export default {
       label: 'SNS 24 808 24 24 24',
       amountEURMin: 0,
       amountEURMax: 1,
-      note: 'The cost depends on your operator’s tariff; if life is at risk, use free 112.'
+      note: 'Cost depends on your operator tariff; if there is danger to life, use free 112.'
     }
   ],
   sources: [
@@ -197,6 +197,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

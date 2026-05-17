@@ -3,7 +3,7 @@ export default {
   id: "emel-avenca-residente",
   categoryId: "auto_trips",
   title: "EMEL Avença Residente: resident parking in Lisbon",
-  tldr: "Avença Residente EMEL is an annual permit for Lisbon residents to park in their EMEL zone, rather than paying the hourly tariff. For 2026, the official EMEL page gives indicative prices of €40/year for zona verde, €60/year for zona amarela, and €100/year for zona vermelha. The key condition is that the morada fiscal of your NIF must be in the relevant zone, and the car must be registered to you or lawfully made available to you. You can apply online or at a Loja EMEL, but for expats it is often safer to go to the counter with a full document pack.",
+  tldr: "EMEL Avença Residente is an annual permit for Lisbon residents to park in their EMEL zone, rather than paying the hourly tariff. For 2026, the guideline from the official EMEL page is: €40 / year for zona verde, €60 / year for zona amarela, €100 / year for zona vermelha. The main condition is that the morada fiscal for your NIF must be in the relevant zone, and the car must be registered to you or legally made available to you. You can apply online or at a Loja EMEL, but for expats it is often safer to go to the counter with a full document pack.",
   tags: ["emel", "parking", "lisbon", "car"],
   estimatedReadMinutes: 5,
   steps: [
@@ -21,15 +21,15 @@ export default {
             "Suitable for Lisbon residents with an address in an EMEL zone",
             "Paid as an annual subscription, not as hourly parking",
             "Linked to the vehicle registration plate",
-            "Checked by EMEL inspectors by registration number; a paper permit is usually not needed",
+            "Checked by EMEL inspectors by plate number; a paper permit is usually not needed",
             "Does not guarantee a specific space near your home",
-            "Does not apply in private car parks, garages, or spaces with a special regime",
-            "Does not replace payment of fines, IUC, insurance, or IPO"
+            "Not valid in private car parks, garages or spaces with a special regime",
+            "Does not replace payment of fines, IUC, insurance or IPO"
           ]
         },
         {
           kind: "warning",
-          text: "Do not confuse Avença Residente / Dístico de Residente with normal payment through the ePark app. If you simply leave the car in an EMEL zone without an active resident permit, the inspector sees this as unpaid parking."
+          text: "Do not confuse Avença Residente / Dístico de Residente with ordinary payment via the ePark app. If you simply park the car in an EMEL zone without an active resident permit, an inspector sees this as unpaid parking."
         }
       ]
     },
@@ -39,24 +39,24 @@ export default {
       content: [
         {
           kind: "paragraph",
-          text: "The key condition is that your tax address in Finanças, i.e. the morada fiscal do NIF, must be located in the EMEL zone for which you are requesting the resident subscription. A tenancy agreement helps on its own, but if the NIF is still registered at an old address or with a tax representative, EMEL may refuse."
+          text: "The key condition is that your tax address in Finanças, i.e. the morada fiscal do NIF, must be in the EMEL zone for which you are requesting the resident subscription. A rental contract helps on its own, but if the NIF is still registered at an old address or with a tax representative, EMEL may refuse the application."
         },
         {
           kind: "checklist",
           items: [
             "You actually live in Lisboa in an EMEL zone",
-            "The morada fiscal of your NIF has been updated to this address",
-            "The vehicle is registered to you, your spouse/partner, or is lawfully made available to you",
-            "You have a documento de identificação: passport, residence permit, Cartão de Cidadão, or another ID",
+            "The morada fiscal for your NIF has been updated to this address",
+            "The vehicle is registered to you, your spouse/partner, or is legally made available to you",
+            "You have a documento de identificação: passport, residence permit, Cartão de Cidadão or another ID",
             "The vehicle has a Certificado de Matrícula / DUA",
-            "For leasing, renting, a company car, or comodato, there is a contract/declaration where you are named as the user",
-            "The registration plate is correctly stated in the application",
+            "For leasing, renting, company car or comodato, there is a contract/declaration naming you as the user",
+            "The registration plate is entered correctly in the application",
             "There is no contradiction between the address in the documents and the zone you are requesting"
           ]
         },
         {
           kind: "warning",
-          text: "Atestado de residência from the Junta de Freguesia is useful, but in a typical case EMEL looks first and foremost at the morada fiscal. Before your visit, check the address in Portal das Finanças: Todos os Serviços → Dados Cadastrais → Morada."
+          text: "An atestado de residência from the Junta de Freguesia is useful, but in a typical case EMEL looks primarily at the morada fiscal. Before your visit, check the address in Portal das Finanças: Todos os Serviços → Dados Cadastrais → Morada."
         }
       ]
     },
@@ -66,7 +66,7 @@ export default {
       content: [
         {
           kind: "paragraph",
-          text: "For an expat, the safest option is to bring more documents than the minimum. EMEL can verify part of the data electronically, but if the NIF, vehicle, or residence permit was updated recently, the counter may ask for proof."
+          text: "For an expat, the safest option is to bring more documents than the minimum. EMEL has electronic checks for some data, but if your NIF, vehicle or residence permit has been updated recently, the counter may ask for proof."
         },
         {
           kind: "checklist",
@@ -74,17 +74,17 @@ export default {
             "Documento de identificação: passport + residence permit or Cartão de Cidadão",
             "NIF",
             "Comprovativo de morada fiscal from Portal das Finanças",
-            "Tenancy agreement, escritura, or another housing document — as additional proof",
+            "Rental contract, escritura or another housing document — as additional proof",
             "Certificado de Matrícula / Documento Único Automóvel",
-            "If the car is not in your name: contrato de renting/leasing, declaração da entidade empregadora, or contrato de comodato",
+            "If the car is not in your name: contrato de renting/leasing, declaração da entidade empregadora or contrato de comodato",
             "Mobile phone number and email",
             "Bank card or another payment method",
-            "If the address was changed recently: a printout/PDF showing the date of the morada fiscal change"
+            "If the address was changed recently: printout/PDF showing the date of the morada fiscal change"
           ]
         },
         {
           kind: "paragraph",
-          text: "If the car has foreign registration, check with EMEL in advance. Resident permits are usually designed for vehicles that can be clearly linked to the applicant and address; long-term use of a foreign car in Portugal also carries tax and customs risks under ISV/IUC."
+          text: "If the car has foreign registration, check with EMEL in advance. Resident permits are usually designed for vehicles that can be clearly linked to the applicant and address; long-term use of a foreign car in Portugal also carries tax and customs risks regarding ISV/IUC."
         }
       ]
     },
@@ -101,7 +101,7 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "On the EMEL website, find your residential street and check which zone it belongs to: verde, amarela, or vermelha. The price depends on the zone, and the permit is valid only within that area."
+                  text: "On the EMEL website, find your residential street and see which zone it belongs to: verde, amarela or vermelha. The price depends on the zone, and the permit is valid only within that area."
                 }
               ]
             },
@@ -111,17 +111,17 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "If you have moved recently, first change your address in Finanças. For holders of a Cartão de Cidadão, this is done via ePortugal/CMD; for foreigners with a residence permit, via Portal das Finanças or atendimento Finanças, depending on access."
+                  text: "If you have moved recently, first change your address in Finanças. For holders of Cartão de Cidadão this is done via ePortugal/CMD; for foreigners with a residence permit, it is done via Portal das Finanças or atendimento Finanças, depending on access."
                 }
               ]
             },
             {
               id: "go-emel",
-              title: "3. Apply at Loja EMEL",
+              title: "3. Apply at a Loja EMEL",
               content: [
                 {
                   kind: "paragraph",
-                  text: "Book an appointment or go to a Loja EMEL/atendimento point with your documents. The staff member will check the address, vehicle, and zone, create the avença, and let you pay the annual tariff."
+                  text: "Book an appointment or go to a Loja EMEL/atendimento point with your documents. The staff member will check the address, vehicle and zone, create the avença and let you pay the annual tariff."
                 }
               ]
             },
@@ -131,7 +131,7 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "After payment, check the vehicle registration number in your EMEL account/confirmation. Do not leave the car “on trust” before activation: fines for those days are usually not cancelled just because the application has already been submitted."
+                  text: "After payment, check the vehicle registration number in your EMEL account/confirmation. Do not leave the car parked “just in case” before activation: fines for those days are usually not cancelled just because the application has already been submitted."
                 }
               ]
             }
@@ -145,18 +145,18 @@ export default {
       content: [
         {
           kind: "paragraph",
-          text: "According to the official EMEL page for residentes, the annual price level in 2026 is as follows: zona verde — €40, zona amarela — €60, zona vermelha — €100. This is the price for the right to park as a resident in your zone, not the cost of a reserved space."
+          text: "According to the official EMEL page for residentes, in 2026 the annual price guide is: zona verde — €40, zona amarela — €60, zona vermelha — €100. This is the price for the right to park as a resident in your zone, not the cost of a reserved space."
         },
         {
           kind: "checklist",
           items: [
-            "Keep the payment confirmation PDF or email",
+            "Save the payment confirmation PDF or email",
             "Check the expiry date and set a reminder 30 days in advance",
-            "If you change address, submit a change to EMEL; the old permit may cease to match the zone",
+            "If you change address, submit the change to EMEL; the old permit may stop matching the zone",
             "If you change vehicle, update the registration plate before parking",
-            "Do not park in cargas e descargas spaces, lugares reservados, passadeiras, esquinas, or on trottoirs",
+            "Do not park in cargas e descargas spaces, lugares reservados, passadeiras, corners or trottoirs",
             "Watch for temporary signs for works and eventos: a resident permit does not protect you from towing",
-            "If an aviso/contraordenação arrives, check the date, place, registration plate, and whether the avença was active on that day"
+            "If an aviso/contraordenação arrives, check the date, location, registration plate and whether the avença was active on that day"
           ]
         },
         {
@@ -175,7 +175,7 @@ export default {
     {
       label: "Avença Residente — zona amarela",
       amountEUR: 60,
-      note: "Annual EMEL tariff for a resident; it is not a guarantee of a space."
+      note: "Annual EMEL tariff for a resident; not a guarantee of a space."
     },
     {
       label: "Avença Residente — zona vermelha",
@@ -206,6 +206,6 @@ export default {
       lastRetrieved: "2026-04-28"
     }
   ],
-  lastVerified: "2026-04-28",
+  lastVerified: "2026-05-17",
   verifyIntervalDays: 180
 }

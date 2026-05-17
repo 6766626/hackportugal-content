@@ -29,7 +29,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'sibs-pos', title: 'Банковский POS / SIBS', content: [
-            { kind: 'paragraph', text: 'SIBS — инфраструктура Multibanco, MB WAY и решений для comerciantes. POS обычно оформляется не напрямую «в SIBS», а через банк или adquirente: Millennium, Santander, CGD, BPI, Novo Banco, ActivoBank и другие PSP.' },
+            { kind: 'paragraph', text: 'SIBS — инфраструктура Multibanco, MB WAY и решений для comerciantes. POS обычно оформляется не напрямую «в SIBS», а через банк или adquirente: Millennium, Santander, CGD, BPI, Novobanco, ActivoBank и другие PSP.' },
             { kind: 'checklist', items: [
               'Плюсы: привычно для португальских клиентов, Multibanco/карты/часто MB WAY в одном терминале.',
               'Минусы: тарифы часто не публичные; возможны mensalidade, аренда терминала, минимальная комиссия.',
@@ -170,6 +170,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

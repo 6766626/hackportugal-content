@@ -104,6 +104,6 @@ export default {
     { title: 'Decreto-Lei 253/2009 — assistência espiritual e religiosa em hospitais', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/253-2009-489830', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — liberdade religiosa em Portugal', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -12,9 +12,9 @@ export default {
       title: 'Кто может получить',
       content: [
         { kind: 'checklist', items: [
-          'Любой житель муниципалитета Кашкаиш с Atestado de Residência (проживание ≥ 30 дней)',
+          'Жители муниципалитета Кашкаиш с Atestado de Residência (проживание ≥ 30 дней)',
           'Возраст неважен — дети с 6 лет могут иметь свою карту',
-          'Работающие в муниципалитете, но живущие в другом, НЕ подходят: важно именно место проживания',
+          'Связанные с Кашкаишом работники и студенты также могут иметь профильные категории MobiCascais/Viver Cascais — проверяйте текущие категории на mobicascais.pt и cascais.pt',
           'Иностранцы с ВНЖ — подходят'
         ]}
       ]
@@ -110,6 +110,6 @@ export default {
     { title: 'MobiCascais — приложение и сервисы', url: 'https://www.mobicascais.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal de Cascais', url: 'https://www.cascais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

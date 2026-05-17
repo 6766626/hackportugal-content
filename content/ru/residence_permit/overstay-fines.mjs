@@ -4,7 +4,7 @@ export default {
   categoryId: 'residence_permit',
   title: 'Штрафы за просрочку пребывания в Португалии',
   tldr: 'Просрочка пребывания — серьёзное нарушение. За превышение 90 дней в Шенгене / срока визы / срока ВНЖ положены штрафы €80–700, запись в Шенгенскую информационную систему (SIS II), риск отказа в продлении и будущих визах на 1-5 лет, в тяжёлых случаях — запрет въезда в Шенген. Хуже всего — накопительная просрочка: чем дольше вы вне статуса, тем ниже шанс легализоваться обратно.',
-  tags: ['overstay', 'штраф', 'aima', 'sef'],
+  tags: ['overstay', 'штраф', 'aima'],
   estimatedReadMinutes: 6,
   steps: [
     {
@@ -86,7 +86,7 @@ export default {
         { kind: 'checklist', items: [
           '🛂 Штампы в паспорте — даты въезда/выезда из Шенгена',
           '📅 Калькулятор 90/180: ec.europa.eu/assets/home/visa-calculator/calculator.htm',
-          '🏛️ AIMA — позвонить 808 257 257 и запросить проверку статуса по NIF/CC',
+          '🏛️ AIMA — звонить по номеру с актуальной страницы контактов aima.gov.pt; перед звонком проверьте тариф 808-номера у оператора',
           '📧 Записаться на приём в AIMA по вопросам статуса',
           '⚖️ В спорных случаях — адвокат (Ordem dos Advogados, portal.oa.pt), консультация €50-150'
         ]}
@@ -120,6 +120,6 @@ export default {
     { title: 'EU 90/180 калькулятор', url: 'https://ec.europa.eu/assets/home/visa-calculator/calculator.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 37-A/2024', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-a-2024-864229054', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

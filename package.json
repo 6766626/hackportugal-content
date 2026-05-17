@@ -11,6 +11,10 @@
     "snapshot": "node scripts/snapshot-to-ios.mjs",
     "test": "node scripts/build.mjs && node scripts/validate.mjs && node scripts/test-content.mjs && LANGS=ru,pt,en node scripts/build.mjs && node scripts/validate-no-cyrillic.mjs && node scripts/validate-parity.mjs",
     "translate": "node scripts/translate-whole-file.mjs",
-    "deploy": "git push origin main"
+    "deploy": "git push origin main",
+    "editor": "cd editor && npm run dev",
+    "editor:install": "cd editor && npm install",
+    "editor:build": "cd editor && npm run build",
+    "editor:start": "cd editor && npm start"
   }
 }

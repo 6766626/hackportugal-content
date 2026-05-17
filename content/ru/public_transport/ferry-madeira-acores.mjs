@@ -110,6 +110,6 @@ export default {
     { title: 'Portos dos Açores: морская инфраструктура и порты архипелага', url: 'https://www.portosdosacores.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'APRAM: Administração dos Portos da Região Autónoma da Madeira', url: 'https://www.apram.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

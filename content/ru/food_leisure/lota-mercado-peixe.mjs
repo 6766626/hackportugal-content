@@ -111,6 +111,6 @@ export default {
     { title: 'DGRM — avisos и правила по bivalves и зонам добычи', url: 'https://www.dgrm.pt/web/guest/pesca', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Docapesca — lotas e postos de venda', url: 'https://www.docapesca.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

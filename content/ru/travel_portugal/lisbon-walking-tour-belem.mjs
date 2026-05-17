@@ -117,6 +117,6 @@ export default {
     { title: 'UNESCO — Monastery of the Hieronymites and Tower of Belém', url: 'https://whc.unesco.org/en/list/263/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Patrimonio Cultural PT', url: 'https://www.patrimoniocultural.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

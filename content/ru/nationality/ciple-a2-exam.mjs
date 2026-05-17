@@ -56,16 +56,16 @@ export default {
               'Записаться в ближайшем Centro de Emprego (список на iefp.pt)',
               'Нужно: NIF, NISS, ВНЖ, подтверждение адреса',
               'Формат: групповые занятия 4–6 месяцев',
-              'Стипендия на обучение: процент от IAS 2026 (537,13 €) — обычно 50–80% по программе',
-              'Питание: ~6 €/день; транспорт по факту',
+              'Возможны apoios sociais: bolsa de formação, питание, транспорт. Размер и право на выплату зависят от программы, статуса безработного и других пособий — уточняйте в IEFP. Для справки: IAS 2026 = 537,13 €',
+              'Subsídio de alimentação может выплачиваться за фактические дни обучения, если программа и расписание дают на него право',
               'По окончании — сертификат с указанием уровня (A2/B1) — принимается IRN'
             ]}
           ]},
-          { id: 'pla', title: '2. PLA — Português Língua de Acolhimento (бесплатно)', content: [
-            { kind: 'paragraph', text: 'Государственная программа, организована AIMA + государственные школы / Centros Qualifica. Бесплатно для всех иностранцев с любым статусом (вкл. беженцев).' },
+          { id: 'pla', title: '2. PLA — Português Língua de Acolhimento (обычно бесплатно)', content: [
+            { kind: 'paragraph', text: 'Государственная программа, организованная AIMA совместно со школами / Centros Qualifica. PLA обычно бесплатна для взрослых мигрантов, включая заявителей и получателей международной защиты, но запись зависит от мест, уровня, возраста и требований конкретного Centro Qualifica / школы / IEFP. Уточняйте документы при записи.' },
             { kind: 'checklist', items: [
               '150 часов — типичный блок, покрывающий A1 + A2 (но решает не количество часов, а итоговая оценка уровня)',
-              '300 часов — для уровня B2',
+              'Более высокие уровни организуются отдельными модулями; длительность и итоговый уровень зависят от программы и провайдера',
               'Записаться через Centro Qualifica по месту жительства (qualifica.gov.pt) или AIMA',
               'Формат: вечерние занятия или занятия по выходным (2–3 раза в неделю по 3 часа)',
               '🎓 По окончании — Certificado PLA с указанием итогового уровня (A2, B1, B2). Только сертификат С УРОВНЕМ A2+ годится для IRN',
@@ -128,7 +128,7 @@ export default {
         { kind: 'checklist', items: [
           '📅 Сессии 2026: ежемесячные национальные CIPLE-P (фев—ноя за вычетом августа) + международные в мае/июле/ноябре. Календарь на caple.letras.ulisboa.pt',
           '💻 Регистрация онлайн на сайте CAPLE',
-          '🏢 Центры в Португалии: Lisboa, Porto, Coimbra, Braga, Faro; за рубежом — Instituto Camões в столицах',
+          '🏢 Центры в Португалии и за рубежом меняются по сессиям — проверяйте список centros de exame на сайте CAPLE перед регистрацией',
           '💶 Стоимость: 85 € на 2026 (до 95 € в международных центрах). Оплата картой или по ссылке Multibanco',
           '📧 Convocatória приходит за неделю',
           '📄 Результаты — в личном кабинете CAPLE через 6–8 недель; PDF-сертификат скачивается там же'
@@ -141,7 +141,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '📚 Учебники: «Português XXI — Nível A2» (Lidel), «Passaporte Para Português A2» (Lidel), «Aprender Português» (Texto Editora)',
-          '📝 Пробные тесты: CAPLE публикует Exemplos de Provas — 5 прошлых комплектов бесплатно',
+          '📝 Пробные тесты: CAPLE публикует exemplos/modelos de prova для CIPLE; количество доступных материалов меняется — проверяйте страницу CAPLE',
           '🎧 Подкасты: «Practice Portuguese», «Said No One Ever», «Portuguesepod101»',
           '🎬 Сериалы: RTP Play (бесплатно), Netflix PT с субтитрами',
           '🗣️ Разговорная практика: тандем-партнёры, «café fala português» в Junta de Freguesia',
@@ -168,6 +168,6 @@ export default {
     { title: 'AIMA — Português Língua de Acolhimento (PLA)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

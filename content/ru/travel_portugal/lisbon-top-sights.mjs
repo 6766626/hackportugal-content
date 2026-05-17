@@ -106,6 +106,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — культура', url: 'https://www.lisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal', url: 'https://www.visitportugal.com/pt-pt/destinos/lisboa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

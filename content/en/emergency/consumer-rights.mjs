@@ -3,7 +3,7 @@ export default {
   id: 'consumer-rights',
   categoryId: 'emergency_rights',
   title: 'Consumer rights — returns, exchanges, warranty',
-  tldr: 'Portugal has standard EU consumer protection: 14 days to withdraw from an online/distance purchase (DL 24/2014), a 3-year warranty on new goods (Lei 84/2021), and 1 year on second-hand goods. If there is a problem: submit a complaint via Livro de Reclamações Online (livroreclamacoes.pt), contact DECO Proteste for help, and ECC Net for cross-border disputes in the EU. Shops must accept defective goods and offer replacement/repair/refund. If they refuse — complain to ASAE (asae.gov.pt).',
+  tldr: 'Portugal has standard EU consumer protection: 14 days to withdraw from an online/distance purchase (DL 24/2014), 3-year warranty on new goods (Lei 84/2021), 1 year on second-hand goods. If there is a problem: file a complaint via Livro de Reclamações Online (livroreclamacoes.pt), contact DECO Proteste for help, and ECC Net for cross-border disputes in the EU. Shops must accept defective goods and offer replacement/repair/refund. If they refuse — complain to ASAE (asae.gov.pt).',
   tags: ['consumer', 'return', 'warranty', 'complaint', 'deco', 'asae'],
   estimatedReadMinutes: 7,
   steps: [
@@ -16,9 +16,9 @@ export default {
             { kind: 'checklist', items: [
               '✅ **New goods**: 3-year warranty (previously 2 — changed in 2022)',
               '✅ **Second-hand goods**: minimum 1 year; seller and buyer may agree a different period',
-              '✅ Warranty covers LACK OF CONFORMITY defects — not wear and tear, not damage caused by the buyer',
-              '🔁 In the event of a defect, the seller must offer: repair OR replacement OR discount OR refund',
-              '⏰ In the first 6 months there is a presumption that the defect existed at the time of sale (burden of proof on the seller)',
+              '✅ The warranty covers LACK OF CONFORMITY defects — not wear and tear, not damage caused by the buyer',
+              '🔁 In the event of a defect, the seller must offer: repair OR replacement OR a discount OR a refund',
+              '⏰ In the first 6 months, there is a presumption that the defect existed at the time of sale (burden of proof on the seller)',
               '📋 Keep the receipt (talão de compra) and packaging for the entire warranty period'
             ]}
           ]},
@@ -27,18 +27,18 @@ export default {
               '🌐 **14 days** to withdraw when buying online / by phone / at home (DL 24/2014)',
               '🚫 WITHOUT giving reasons',
               '✅ Full refund within 14 days',
-              '🚚 Return delivery is usually paid by the buyer (unless the shop stated otherwise)',
-              '🚫 Exceptions: personalised goods, perishable goods, underwear (unpacked), software (unpacked), subscriptions (after activation)',
+              '🚚 Return delivery is usually at the buyer’s expense (unless the shop states otherwise)',
+              '🚫 Exceptions: personalised goods, perishable goods, underwear (unsealed), software (unsealed), subscriptions (after activation)',
               '⚠️ In a physical shop, the 14-day rule does NOT apply (but many shops voluntarily allow returns within 30 days — ask)'
             ]}
           ]},
-          { id: 'r3', title: 'Information and price tags', content: [
+          { id: 'r3', title: 'Information and price labels', content: [
             { kind: 'checklist', items: [
-              '🏷️ The price INCLUDES IVA — no hidden surcharges',
-              '⚖️ If the checkout price is higher than the label price, the seller must sell at the lower price',
+              '🏷️ The price INCLUDES IVA (VAT) — no hidden extra charges',
+              '⚖️ If the price at the till is higher than on the label, the seller must sell at the lower price',
               '📜 The label must include: ingredients, country of origin, expiry date (for food)',
-              '🌐 On the website — all prices with IVA, delivery shown separately',
-              '⚠️ “Black Fridays”: the price must be LOWER than the average over the last 30 days (EU Omnibus Directive)'
+              '🌐 On the website — all prices with IVA, delivery separately',
+              '⚠️ “Black Fridays”: the price must be LOWER than the average for the last 30 days (EU Omnibus Directive)'
             ]}
           ]}
         ]}
@@ -46,7 +46,7 @@ export default {
     },
     {
       id: 'how-to-complain',
-      title: '📋 How to make a complaint',
+      title: '📋 How to file a complaint',
       content: [
         { kind: 'substeps', items: [
           { id: 'l1', title: 'Step 1 — Livro de Reclamações', content: [
@@ -56,14 +56,14 @@ export default {
               '✍️ You fill in 3 copies: for you, the establishment, and the regulator',
               '🌐 Alternative — Livro de Reclamações Online at livroreclamacoes.pt (same effect)',
               '⏰ Mandatory response deadline from the establishment: 15 days',
-              '👮 The regulator (ASAE/DGC) responds, and sometimes fines the shop'
+              '👮 The regulator (ASAE/DGC) responds, sometimes fines the shop'
             ]}
           ]},
           { id: 'l2', title: 'Step 2 — DECO Proteste (help)', content: [
             { kind: 'checklist', items: [
-              '🛡️ DECO — the largest consumer protection association',
+              '🛡️ DECO is the largest consumer protection association',
               '💰 Paid subscription: €25/month — personal adviser, letter templates, mediation',
-              '🆓 Basic help is free: 707 200 200 (helpline)',
+              '🆓 Basic help is free: 707 200 200 (hotline)',
               '📩 Contact via the website deco.proteste.pt',
               '📚 “Pro Teste” magazine with tests of goods and services'
             ]}
@@ -81,9 +81,9 @@ export default {
           ]},
           { id: 'l4', title: 'Step 4 — Court / Julgados de Paz', content: [
             { kind: 'checklist', items: [
-              '⚖️ **Julgados de Paz**: small claims up to €15,000 — faster than an ordinary court',
-              '💰 Court costs €70 (if the claim is ≤ €5000) or €105 (>€5000)',
-              '⏱️ Decision usually in 2-6 months',
+              '⚖️ **Julgados de Paz**: small claims up to €15,000 — faster than the ordinary court',
+              '💰 Court costs €70 (if the claim is ≤ €5,000) or €105 (>€5,000)',
+              '⏱️ Decision usually within 2-6 months',
               '🎓 A lawyer is not mandatory (for claims ≤ €3,740)',
               '🏛️ Addresses: julgadosdepaz.mj.pt'
             ]}
@@ -92,8 +92,8 @@ export default {
             { kind: 'checklist', items: [
               '🇪🇺 **Centro Europeu do Consumidor (ECC-Net)**: cec.consumidor.pt',
               '🆓 Free help, mediation between a buyer from Portugal and a foreign shop in the EU',
-              '📧 ec.europa.eu/consumers — for online submission',
-              '⏱️ Resolution through ECC usually takes 2-3 months'
+              '📧 ec.europa.eu/consumers — to file online',
+              '⏱️ Resolution via ECC usually takes 2-3 months'
             ]}
           ]}
         ]}
@@ -108,7 +108,7 @@ export default {
             { kind: 'checklist', items: [
               '✅ Within the 3-year warranty — contact the shop',
               '📋 The shop MUST offer: repair/replacement/refund',
-              '⏰ Repair deadline: maximum 30 days; if longer — right to replacement/refund',
+              '⏰ Repair period: maximum 30 days; if longer — right to replacement/refund',
               '⚠️ If they refuse — Livro de Reclamações + ASAE'
             ]}
           ]},
@@ -119,7 +119,7 @@ export default {
               '📩 Notify the seller by email: “exerço o meu direito de livre resolução”',
               '📮 Send it back (delivery cost paid by the buyer)',
               '💸 Money is refunded within 14 days',
-              '⚠️ Underwear, unpacked shoes — they may refuse under specific conditions'
+              '⚠️ Underwear, unsealed shoes — they may refuse under specific conditions'
             ]}
           ]},
           { id: 's3', title: 'Airline cancelled the flight', content: [
@@ -132,12 +132,12 @@ export default {
           { id: 's4', title: 'Hidden bank fees', content: [
             { kind: 'checklist', items: [
               '🏦 Banco de Portugal — Portal do Cliente Bancário',
-              '📋 Online reclamação at bportugal.pt',
+              '📋 Online complaint at bportugal.pt',
               '⏱️ The bank must respond within 30 days',
               '⚖️ The bank MUST disclose all fees in the “PFFI” (folheto fiscal)'
             ]}
           ]},
-          { id: 's5', title: 'Expired goods in the supermarket', content: [
+          { id: 's5', title: 'Expired product in a supermarket', content: [
             { kind: 'checklist', items: [
               '🏪 ASAE: photo + receipt + video — complaint at asae.gov.pt',
               '⚠️ If you ate it — see a doctor; the shop’s insurance may cover the damage',
@@ -153,7 +153,7 @@ export default {
       title: '💡 Tips',
       content: [
         { kind: 'checklist', items: [
-          '📷 Photograph the item on receipt — this is evidence if it is damaged',
+          '📷 Photograph the item when you receive it — this is evidence if it is damaged',
           '🧾 Keep receipts in Google Drive — the ChequeCloud app works',
           '📅 Record the purchase date — for calculating the warranty period',
           '🤝 Start amicably: in 90% of cases the shop manager will resolve it themselves, without complaints',
@@ -161,8 +161,8 @@ export default {
           '🌐 Check the shop on “Livro de Reclamações” — frequent complaints = do not buy',
           '📚 “Direitos do Consumidor” — official free DGC booklet',
           '🇪🇺 EU Online Dispute Resolution: ec.europa.eu/odr — for cross-border disputes',
-          '⚖️ Annual DECO Proteste membership pays for itself with one serious problem',
-          '🛡️ Credit card: chargeback through the bank — last resort (the bank will reverse the debit)'
+          '⚖️ Annual membership of DECO Proteste pays for itself with one serious problem',
+          '🛡️ Credit card: chargeback via the bank — last resort (the bank will reverse the charge)'
         ]}
       ]
     }
@@ -170,17 +170,17 @@ export default {
   costs: [
     { label: 'Livro de Reclamações', amountEUR: 0, note: 'mandatory free of charge' },
     { label: 'DECO Proteste subscription', amountEURMin: 25, amountEURMax: 25, note: '€/month' },
-    { label: 'Julgados de Paz (≤ €5000)', amountEUR: 70 },
-    { label: 'Julgados de Paz (€5000-15000)', amountEUR: 105 },
+    { label: 'Julgados de Paz (≤ €5,000)', amountEUR: 70 },
+    { label: 'Julgados de Paz (€5,000-15,000)', amountEUR: 105 },
     { label: 'Lawyer for a serious case', amountEURMin: 200, amountEURMax: 1500, note: '€ one-off' }
   ],
   sources: [
     { title: 'Livro de Reclamações Online', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 84/2021 — Warranty on goods', url: 'https://diariodarepublica.pt/dr/detalhe/lei/84-2021-176053057', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei 84/2021 — Goods warranty', url: 'https://diariodarepublica.pt/dr/detalhe/lei/84-2021-176053057', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DL 24/2014 — Distance contracts', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'European Consumer Centre (ECC-Net Portugal)', url: 'https://cec.consumidor.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Centro Europeu do Consumidor (ECC-Net Portugal)', url: 'https://cec.consumidor.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

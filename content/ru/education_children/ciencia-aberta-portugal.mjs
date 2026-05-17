@@ -115,6 +115,6 @@ export default {
     { title: 'Pavilhão do Conhecimento — agenda и семейные активности в Lisboa', url: 'https://www.pavconhecimento.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Marie Skłodowska-Curie Actions — European Researchers’ Night 2026/2027', url: 'https://marie-sklodowska-curie-actions.ec.europa.eu/actions/msca-and-citizens/join-a-celebration-of-science', kind: 'official', language: 'en', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

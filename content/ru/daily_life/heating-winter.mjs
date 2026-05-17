@@ -20,11 +20,11 @@ export default {
       title: 'Варианты отопления',
       content: [
         { kind: 'substeps', items: [
-          { id: 'h1', title: 'Газовая колонка + радиаторы', content: [
-            { kind: 'paragraph', text: 'Если есть газовый контракт. Редкость в старых зданиях. Наиболее эффективно.' }
+          { id: 'h1', title: 'Газовый котёл (caldeira) + радиаторы', content: [
+            { kind: 'paragraph', text: 'Для радиаторного отопления используется газовый котёл (caldeira), не esquentador (esquentador — это проточный газовый водонагреватель только для горячей воды). Редкость в старых зданиях; в новых домах встречается с напольным/радиаторным отоплением.' }
           ]},
-          { id: 'h2', title: 'Кондиционер с обогревом', content: [
-            { kind: 'paragraph', text: 'Популярно. Цена установки € 1000-2000 за сплит-систему. Эффективен для мягкого холода (+5°C). При -5°C работает слабо.' }
+          { id: 'h2', title: 'Кондиционер с обогревом / тепловой насос', content: [
+            { kind: 'paragraph', text: 'Очень популярно. По COP/энергоэффективности обычно эффективнее прямого электрического обогрева. Цена установки € 1000-2000 за сплит-систему. Эффективен при мягком холоде; при сильных морозах эффективность падает.' }
           ]},
           { id: 'h3', title: 'Электрообогреватели', content: [
             { kind: 'checklist', items: [
@@ -37,8 +37,8 @@ export default {
           { id: 'h4', title: 'Пеллетная печь', content: [
             { kind: 'paragraph', text: 'Печь на древесных пеллетах. Популярно в деревнях и загородных домах. Пеллеты € 4-7 за мешок 15 кг.' }
           ]},
-          { id: 'h5', title: 'Электрическое одеяло', content: [
-            { kind: 'paragraph', text: 'Для постели. € 20-40. Экономно.' }
+          { id: 'h5', title: 'Электрическое одеяло (cobertor elétrico / manta elétrica)', content: [
+            { kind: 'paragraph', text: 'Для постели. € 20-40. Экономно. По-португальски: cobertor elétrico, manta elétrica или aquece-camas (camareiro в Португалии означает официанта/служащего отеля).' }
           ]}
         ]}
       ]
@@ -49,7 +49,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Проветривать комнаты утром 10-15 мин даже в мороз',
-          'Осушитель воздуха — € 50-150, собирает 10-20 л воды в день',
+          'Осушитель воздуха — нормальный компрессорный 10-20 л/день стоит обычно € 200-400; дешёвые модели за € 50-100 часто маломощные',
           'Не сушить бельё в помещении → плесень',
           'Проверять окна — конденсат = плесень за месяц',
           'Средства против плесени: Clorox Pulverizador, Fungishield',
@@ -100,6 +100,6 @@ export default {
     { title: 'ADENE — Agência para a Energia', url: 'https://www.adene.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGEG — Direção-Geral de Energia e Geologia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

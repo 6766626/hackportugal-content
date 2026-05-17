@@ -43,7 +43,7 @@ export default {
       id: 'banco-best',
       title: 'Banco Best: цифровой банк с инвестиционным уклоном',
       content: [
-        { kind: 'paragraph', text: 'Banco Best — онлайн-банк группы Novo Banco/Best, ориентированный на клиентов, которым нужны не только платежи, но и инвестиции. Для повседневной жизни он может быть менее удобен, чем ActivoBank, зато сильнее в части фондов, брокерских операций, депозитов и инвестиционных продуктов.' },
+        { kind: 'paragraph', text: 'Banco Best — онлайн-банк группы Novobanco/Best, ориентированный на клиентов, которым нужны не только платежи, но и инвестиции. Для повседневной жизни он может быть менее удобен, чем ActivoBank, зато сильнее в части фондов, брокерских операций, депозитов и инвестиционных продуктов.' },
         { kind: 'checklist', items: [
           'Conta Digital может быть без комиссии за обслуживание при выполнении условий тарифа.',
           'Подходит как второй банк для депозитов, ETF, фондов и инвестиционных портфелей.',
@@ -121,6 +121,6 @@ export default {
     { title: 'Banco de Portugal — comparador de comissões bancárias', url: 'https://clientebancario.bportugal.pt/pt-pt/comparador-de-comissoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fundo de Garantia de Depósitos — гарантия вкладов в Португалии', url: 'https://www.fgd.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

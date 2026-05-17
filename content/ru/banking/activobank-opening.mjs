@@ -20,7 +20,7 @@ export default {
       title: 'Типы банков в Португалии',
       content: [
         { kind: 'checklist', items: [
-          'Крупные универсальные: Millennium BCP, Caixa Geral de Depósitos (госбанк), Novo Banco, Santander Totta, BPI',
+          'Крупные универсальные: Millennium BCP, Caixa Geral de Depósitos (госбанк), Novobanco, Santander Totta, BPI',
           'Онлайн-дочки крупных: ActivoBank (от Millennium BCP)',
           'Цифровые необанки с лицензией ЕС, работающие в Португалии: Revolut (LT), N26 (DE), Wise (BE) — IBAN не PT, но SEPA работает',
           'Кооперативные и региональные: Crédito Agrícola, Montepio — часто удобны в малых городах',
@@ -89,7 +89,7 @@ export default {
           'Дебетовая карта Visa/Mastercard (бесплатная эмиссия в большинстве онлайн-банков)',
           'MB WAY — ключевой португальский платёжный сервис (переводы по номеру телефона, QR, бесконтактная оплата)',
           'Мобильный и веб-банк',
-          'SEPA-переводы бесплатно внутри зоны ЕС',
+          'SEPA-переводы в евро внутри SEPA-зоны; во многих онлайн-пакетах бесплатны, но не везде — зависит от preçário',
           'Прямые списания (ЖКХ, налоги, автоштрафы)',
           'Доступ к Multibanco (сеть банкоматов в Португалии) с лимитами снятия 200-400 €/день'
         ]}
@@ -160,6 +160,6 @@ export default {
     { title: 'ePortugal — abrir conta bancária', url: 'https://eportugal.gov.pt/cidadaos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulamento BdP 2/2018 (AML-правила)', url: 'https://www.bportugal.pt/aviso-circular/aviso-ndeg-22018', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -2,9 +2,9 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'financas-appointment',
   categoryId: 'documents_fiscal',
-  title: 'Book an appointment at Finanças — online and without queues',
-  tldr: 'Finanças has moved to a hybrid model: most operations are online, appointments by booking via the Portal das Finanças (“Agendamentos”), walk-ins only at large branches in the morning. Booking 1–14 days ahead, free of charge. Popular services: NIF, change of address, password, IRS queries, Recibo Verde, IUC. In Lisboa/Porto queues are longer; it is worth booking in advance.',
-  tags: ['finanças', 'booking', 'appointment'],
+  title: 'Booking an appointment at Finanças — online and without queuing',
+  tldr: 'Finanças has moved to a hybrid model: most procedures are online, with appointments booked via Portal das Finanças (“Atendimento por Marcação / Agendar atendimento”). Without an appointment, you may sometimes be seen if senhas/walk-in service are available, but this is not guaranteed. Booking is free; available dates depend on the office and the service — in Lisboa/Porto, slots can be taken quickly. Popular services: NIF, change of address, password, IRS, Recibo Verde, IUC, IMT (property purchase tax).',
+  tags: ['finanças', 'appointment', 'service'],
   estimatedReadMinutes: 4,
   steps: [
     {
@@ -12,81 +12,82 @@ export default {
       title: 'How to book',
       content: [
         { kind: 'checklist', items: [
-          '💻 Portal das Finanças → “Agendamentos” (at the bottom of the home page)',
-          '🌐 Or direct link: Portal das Finanças → e-balcão',
-          '📱 You need to sign in with a password or CMD',
-          '🏛️ Choose a branch (Serviço de Finanças)',
-          '📋 Choose a service from the list',
-          '📅 Choose a date and time (20–30 min slots)',
-          '✅ Confirm, download the confirmation with a QR code',
-          '🔔 Email reminder 24 hours before'
+          '💻 Portal das Finanças → Contactos / Atendimento por Marcação / Agendar atendimento',
+          '🌐 e-balcão is an alternative for submitting a written request to AT, but it is not an appointment booking',
+          '📱 Login with a password or CMD is required',
+          '🏛️ Choose the office (Serviço de Finanças)',
+          '📋 Choose the service from the list',
+          '📅 Choose an available date and time; duration depends on the service',
+          '✅ Confirm and download the comprovativo with a QR code',
+          '🔔 Save the appointment comprovativo; if the system sends an email/SMS reminder, check your contact details'
         ]}
       ]
     },
     {
       id: 'services-list',
-      title: 'Popular services by appointment',
+      title: 'Popular services with appointments',
       content: [
         { kind: 'checklist', items: [
-          '🆔 NIF assignment (for foreign nationals) — 15 min',
-          '🏠 Change of address — 10 min (usually online)',
-          '🔑 Access password (activation) — 5 min',
-          '💼 Start/cessation of activity (self-employment) — 30 min',
-          '🧾 Certificates (address, debt, income) — 15 min',
-          '🚗 IUC / IMT — 20 min',
+          '🆔 Atribuição de NIF (for foreigners) — 15 min',
+          '🏠 Alteração de morada — 10 min (usually online)',
+          '🔑 Senha de acesso (password activation) — 5 min',
+          '💼 Início / Cessação de Atividade (self-employed activity) — 30 min',
+          '🧾 Certidões (domicílio, dívida, rendimentos) — 15 min',
+          '🚗 IUC — vehicle tax (20 min)',
+          '🏠 IMT — property purchase tax (20 min)',
           '🏢 IMI — 30 min',
-          '📄 Help with completing IRS — 30–45 min (March–June season)'
+          '📄 Support with completing IRS — 30–45 min; main Modelo 3 filing season: 1 April – 30 June'
         ]}
       ]
     },
     {
       id: 'walk-in',
-      title: 'Without booking',
+      title: 'Without an appointment',
       content: [
         { kind: 'checklist', items: [
-          'Large Lisboa branches (Saldanha, Algés, Restelo) — queues from 07:30',
+          'Large Lisboa offices (Saldanha, Algés, Restelo) — queue from 07:30',
           'Porto Baixa, Gaia, Matosinhos — similar',
-          'Small branches in outlying regions — walk-ins often work fine',
-          'You may be turned away if slots are full — better to book',
-          'For EMERGENCY cases only (expired deadlines)'
+          'Small offices in remote regions — walk-in service often works without problems',
+          'You may be refused if slots are full — it is better to book',
+          'Without an appointment, it is better to rely only on urgent or simple matters; when demand is high, you may be asked to book'
         ]}
       ]
     },
     {
       id: 'no-show',
-      title: 'Missed your appointment',
+      title: 'Missed the appointment',
       content: [
-        { kind: 'paragraph', text: 'No-show without cancelling = booking blocked for 30 days. Cancel 24 hours in advance via the Portal das Finanças. Rebook from the first available slot.' },
+        { kind: 'paragraph', text: 'If you cannot attend, cancel or reschedule the appointment as early as possible through the same channel you used to book. Check the cancellation conditions in the appointment confirmation comprovativo.' },
         { kind: 'checklist', items: [
-          '⚠️ Cancel 24 hours in advance',
-          '🔄 Rebook after a no-show — after 30 days',
-          '📞 If you are less than 15 min late — they often still see you',
-          '🚫 More than 15 min late — you need a new booking'
+          '⚠️ Cancel/reschedule in advance',
+          '🔄 After a no-show, make a new appointment; if the system does not let you choose a slot, contact via e-balcão or Centro de Atendimento Telefónico da AT',
+          '📞 If you are < 15 min late — you are often still seen',
+          '🚫 If you are > 15 min late — a new appointment is needed'
         ]}
       ]
     },
     {
       id: 'online-alternatives',
-      title: 'What you can do WITHOUT a visit',
+      title: 'What can be done WITHOUT a visit',
       content: [
-        { kind: 'paragraph', text: 'Since 2022 most operations are available online. A visit is only needed for biometrics or complex cases.' },
+        { kind: 'paragraph', text: 'Since 2022, most procedures have been available online. A visit to Finanças is usually needed for cases where in-person identification is required, where the matter cannot be resolved via Portal/e-balcão, or where the service is not available online. Biometrics are not handled at Finanças — that is AIMA/IRN.' },
         { kind: 'checklist', items: [
-          '✅ NIF for residents — online via CMD or a representative',
+          '✅ Obtaining a NIF as a foreigner depends on status and documents: a non-resident usually does this through a tax representative/mandatário via e-balcão or in person at a Serviço de Finanças',
           '✅ Change of address — online',
           '✅ Password activation — online (sent by post)',
-          '✅ IRS return — online (Modelo 3)',
-          '✅ Certificates — download PDF',
-          '✅ Recibo Verde — issue online',
-          '❌ NIF for a foreign national WITHOUT CMD/representative — in person only'
+          '✅ IRS declaration — online (Modelo 3)',
+          '✅ Certidões — download PDF',
+          '✅ Recibo Verde — done online',
+          '❌ If a foreigner has no access to Portal/CMD and no representative/mandatário — an in-person application at a Serviço de Finanças with documents is usually the remaining option'
         ]}
       ]
     }
   ],
   sources: [
-    { title: 'Portal das Finanças (tax portal) — Agendamentos', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Booking at the Serviço de Finanças', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/agendar-atendimento-no-servico-de-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Autoridade Tributária (tax authority) — in-person service', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Portal das Finanças — Atendimento por Marcação', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Book an appointment at the Serviço de Finanças', url: 'https://eportugal.gov.pt/servicos/agendar-atendimento-no-servico-de-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'AT — e-balcão (written requests)', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

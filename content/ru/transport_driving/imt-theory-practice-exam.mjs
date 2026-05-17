@@ -140,6 +140,6 @@ export default {
     { title: 'ANEC — Ассоциация автошкол Португалии', url: 'https://www.anec.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código da Estrada — DRE', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34488475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

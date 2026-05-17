@@ -3,7 +3,7 @@ export default {
   id: 'solar-panels',
   categoryId: 'housing_buy',
   title: 'Солнечные панели — установка, разрешения, экономия',
-  tldr: 'Португалия — топ-3 стран ЕС по солнечному потенциалу. Системы UPAC (Unidade de Produção para Autoconsumo) до 6.9 кВт — без лицензии (регистрация в DGEG бесплатно). Стоимость под ключ: 4 000-12 000 € для типичной квартиры/дома (4-8 панелей + инвертор + аккумулятор опционально). Окупаемость 5-9 лет. Излишки поставляются в сеть (компенсация от провайдера 0.04-0.10 €/кВт·ч). Программа Fundo Ambiental субсидирует до 70% (€2 500 max).',
+  tldr: 'Португалия — топ-3 стран ЕС по солнечному потенциалу. Системы UPAC (Unidade de Produção para Autoconsumo) — пороги по DL 15/2022 / SERUP: очень малые системы (до ~700 W без инжекции в сеть) могут быть exempt от prior control; >700 W и ≤30 кВт — обычно mera comunicação prévia через DGEG/SERUP; >30 кВт — более тяжёлый prior control. Стоимость под ключ: 4 000-12 000 € для типичной квартиры/дома. Окупаемость 5-9 лет. Для получения денег за excedente нужен **bidirectional smart meter** и договор продажи с comercializador/agregador (net metering 1:1 в PT НЕТ). Fundo Ambiental не гарантирует ежегодное финансирование — сверяйте actual Aviso на fundoambiental.pt.',
   tags: ['солнечные панели', 'солнечная энергия', 'автопотребление', 'Fundo Ambiental'],
   estimatedReadMinutes: 6,
   steps: [
@@ -27,30 +27,32 @@ export default {
       title: '🔌 Типы систем',
       content: [
         { kind: 'substeps', items: [
-          { id: 's1', title: 'UPAC до 6.9 кВт (для жилья)', content: [
+          { id: 's1', title: 'Residential UPAC ≤30 кВт (типичные дома/квартиры)', content: [
             { kind: 'checklist', items: [
-              'Без лицензии — только регистрация в DGEG (бесплатно)',
+              'Большинство домашних систем — по **mera comunicação prévia** через DGEG/SERUP (не лицензия)',
+              'Очень малые системы (~до 700 W без инжекции в сеть) могут быть exempt от prior control',
               'Самый популярный вариант для квартир / домов',
               'Инвертор + панели на крыше / балконе / пристройке',
-              'Собственное потребление + подача в сеть (если есть излишки)',
+              'Собственное потребление + подача в сеть (если есть излишки и оборудован bidirectional meter)',
               'Стоимость: 4 000-12 000 € под ключ',
               'Срок установки: 1-3 дня'
             ]}
           ]},
-          { id: 's2', title: 'UPAC > 6.9 кВт', content: [
+          { id: 's2', title: 'UPAC > 30 кВт', content: [
             { kind: 'checklist', items: [
-              'Требует предварительной регистрации + иногда лицензии',
+              'Требует более тяжёлой регистрации/сертификации',
               'Для крупных домов / коммерческих объектов',
               'Стоимость: 10 000-30 000+ €',
-              'Может быть выгоднее для бизнеса (вычеты по IRC)'
+              'Может быть выгоднее для бизнеса (вычеты по IRC)',
+              '>1 MW — лицензирование'
             ]}
           ]},
-          { id: 's3', title: 'UPP — Unidade de Pequena Produção', content: [
+          { id: 's3', title: 'Чистая продажа энергии в сеть', content: [
             { kind: 'checklist', items: [
-              'Производство без привязанного потребления (продажа всего объёма в сеть)',
-              'Чётко регулируется DGEG',
-              'Тариф от EDP / провайдера',
-              'Менее популярен — автопотребление обычно выгоднее'
+              'Pure production/sale to grid — отдельный электропроизводственный проект под текущими правилами SEN',
+              'Это не обычный residential UPAC',
+              'Требования DGEG/ERSE и наличие grid capacity',
+              'Менее популярно для жилья — автопотребление обычно выгоднее'
             ]}
           ]},
           { id: 's4', title: 'Гибридная система с аккумулятором', content: [
@@ -93,10 +95,10 @@ export default {
           ]},
           { id: 'c3', title: 'Субсидии — Fundo Ambiental', content: [
             { kind: 'checklist', items: [
-              '**Fundo Ambiental** ежегодно открывает финансирование для субсидий на солнечные системы',
-              '**Стандарт 2026**: до **2 500 €** или 70% от стоимости (что меньше)',
-              'Ограниченный бюджет — открывается в 1 квартале, заканчивается за недели',
-              'Подача: fundoambiental.pt → Energia Solar',
+              '**Fundo Ambiental** не гарантирует ежегодное финансирование — проверяйте actual open Aviso на fundoambiental.pt',
+              'Прошлые residential efficiency calls имели конкретные caps и reimbursement rates, но 2026 amounts зависят от активной программы',
+              'Calls open irregularly с собственными deadlines, budgets и eligibility rules — мониторьте Fundo Ambiental и Diário da República',
+              'Не закладывайте субсидию в бюджет проекта до утверждения вашей заявки',
               '**MAE** — программа от муниципалитетов (некоторые города дополняют)'
             ]}
           ]}
@@ -122,33 +124,34 @@ export default {
               'Итог: 90%+ домов в PT подходят',
               'Кондоминиум: согласие общего собрания, если крыша общая',
               'Квартира без индивидуальной крыши: панели на балконе / окне — системы на 100-500 W',
-              'Если кондоминиум против: суд (Lei 79/2017 — право на autoconsumo), но редко доходит'
+              'Если панели используют common parts — нужно одобрение assembleia condomínio по правилам кондоминиума. При отказе — юр. консультация; автоматического статутарного права на установку на общей крыше нет'
             ]}
           ]},
           { id: 'p3', title: '3. Документы', content: [
             { kind: 'checklist', items: [
-              'Caderneta predial (подтверждение собственности или согласие арендодателя)',
+              'Caderneta predial (подтверждение собственности или письменное согласие арендодателя)',
               'NIF, CC',
-              'Atestado de Residência (сметы от поставщика электроэнергии)',
+              'Electricity bill с CPE, NIF/ID',
+              'Технические данные панелей/инвертора, декларации установщика',
               'Счёт за электроэнергию за последние 12 мес — рассчитать оптимальный размер системы',
-              'Если в кондоминиуме: протокол одобрения общего собрания'
+              'Если в кондоминиуме и используются common parts: протокол одобрения assembleia'
             ]}
           ]},
           { id: 'p4', title: '4. Установка', content: [
             { kind: 'checklist', items: [
               '1-3 дня монтажа',
               'Подключение к вашему электрощиту',
-              'Установка умного счётчика от EDP / провайдера (если автоматическая подача в сеть)',
+              'Установка/настройка **bidirectional smart meter** — выполняет distribution network operator (обычно **E-REDES** в континентальной PT). Comercializador (поставщик) — отдельная сущность',
               'Тест + активация',
               'Регистрация на портале DGEG (часто делает установщик)'
             ]}
           ]},
           { id: 'p5', title: '5. Компенсация за излишки', content: [
             { kind: 'checklist', items: [
-              'Избыточная солнечная энергия подаётся в сеть → компенсация от вашего провайдера (EDP, Galp, Endesa, Iberdrola)',
-              'Тариф: 0.04-0.10 €/кВт·ч (обычно ниже розничной цены)',
-              'Для небольших UPAC — net metering (скидка по счётчику за излишки) проще',
-              'Для крупных UPAC — отдельный договор с провайдером'
+              'Избыточная солнечная энергия может подаваться в сеть → компенсация от вашего comercializador (EDP, Galp, Endesa, Iberdrola и др.) при наличии bidirectional smart meter и договора продажи',
+              '⚠️ Net metering в смысле 1:1 зачёта в Португалии **НЕТ** — без договора продажи surplus может уходить в сеть без оплаты',
+              'Тариф: обычно ниже розничной цены электроэнергии',
+              'Для крупных UPAC — отдельный договор с comercializador/agregador'
             ]}
           ]}
         ]}
@@ -159,10 +162,10 @@ export default {
       title: '💼 Налоговый аспект',
       content: [
         { kind: 'checklist', items: [
-          '**IVA 6%** (сниженная ставка) на жилые UPAC ≤ 6.9 кВт с 2023',
+          '**IVA reduzido** может применяться к поставке/установке фотоэлектрических панелей по актуальной редакции VAT List I — уточняйте treatment в invoice у установщика',
           '**Вычет по IRS** прямо для домашних солнечных систем не предусмотрен (это инвестиция, а не расход)',
           '**Налог на недвижимость (IMI)**: некоторые муниципалитеты предлагают снижение для домов с солнечными системами (скидка 5-15%)',
-          '**Продажа излишков**: облагается налогом 28%, но обычно это небольшие суммы (50-200 €/год для жилья)',
+          '**Excedente sale**: для физлиц доход от продажи surplus small UPAC может быть исключён из IRS до statutory annual limit; выше — или для business activity — действуют tax/VAT rules. Подтвердите с бухгалтером/comercializador',
           '**Солнечные системы для бизнеса (коммерческие UPAC)**: полный вычет по IRC в течение 8-10 лет, возврат IVA, может ускорить окупаемость'
         ]}
       ]
@@ -172,11 +175,10 @@ export default {
       title: '🏠 Если арендуете',
       content: [
         { kind: 'checklist', items: [
-          'Можете установить с согласия владельца (письменное)',
+          'Любая фиксированная установка требует **письменного согласия владельца**; для removable balcony plug-in систем также проверяйте lease, regulamento condomínio и электробезопасность',
           '**Лизинг солнечных систем** (Iberdrola, Galp solar leasing): провайдер устанавливает, вы платите ежемесячный платёж — экономия меньше, но без первоначальных вложений',
           '**Кооперативы** (Sociedade Cooperativa de Energia): общественная солнечная энергетика — вы участвуете в большей системе',
-          '**Панели в арендуемом жилье**: можно забрать с собой при выезде, но обычно после 5 лет они становятся собственностью владельца',
-          'Lei 79/2017 — арендаторы имеют право на установку возобновляемых источников энергии с разумными условиями от арендодателя'
+          '**Владение панелей** и возможность забрать при выезде должны быть **согласованы письменно** с владельцем ДО установки'
         ]}
       ]
     }
@@ -186,15 +188,16 @@ export default {
     { label: 'Система 5 кВт (небольшой дом)', amountEURMin: 5500, amountEURMax: 8500 },
     { label: 'Система 6.9 кВт', amountEURMin: 7500, amountEURMax: 11000 },
     { label: 'Дополнительный аккумулятор 10 кВт·ч', amountEURMin: 5000, amountEURMax: 8000 },
-    { label: 'Субсидия Fundo Ambiental', amountEUR: 2500, note: 'до, лимит 70%' },
+    { label: 'Субсидия Fundo Ambiental', note: 'размеры/условия зависят от активного Aviso — не закладывайте до утверждения заявки' },
     { label: 'Годовая экономия 5 кВт', amountEURMin: 800, amountEURMax: 1500, note: '€/год' }
   ],
   sources: [
-    { title: 'DGEG — Direção-Geral de Energia e Geologia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Fundo Ambiental — Energia Solar', url: 'https://www.fundoambiental.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'DL 162/2019 — autoconsumo', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/162-2019-126016166', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'APREN — Renewable Energies Portugal', url: 'https://www.apren.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'DGEG — Direção-Geral de Energia e Geologia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Fundo Ambiental', url: 'https://www.fundoambiental.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 15/2022 — Sistema Elétrico Nacional / autoconsumo', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/15-2022', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'SERUP — Sistema Eletrónico de Registo de Unidades de Produção', url: 'https://serup.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'APREN — Renewable Energies Portugal', url: 'https://www.apren.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

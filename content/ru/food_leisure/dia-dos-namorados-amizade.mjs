@@ -95,6 +95,6 @@ export default {
     { title: 'Visit Portugal — гастрономия, wine tourism и рестораны для leisure-планов', url: 'https://www.visitportugal.com/en/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'United Nations — International Day of Friendship, 30 July', url: 'https://www.un.org/en/observances/friendship-day', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

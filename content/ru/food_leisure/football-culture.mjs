@@ -3,7 +3,7 @@ export default {
   id: 'football-culture',
   categoryId: 'food_leisure',
   title: 'Футбольная культура: Benfica, Porto, Sporting',
-  tldr: 'Футбол в Португалии — национальная религия. «Os Três Grandes» («Большая тройка»): SL Benfica, FC Porto, Sporting CP. Derby de Lisboa (Benfica против Sporting) и O Clássico (Benfica против Porto) — события года. Билеты на обычные матчи — € 15–60, на класико — до € 200. Sócios (члены клубов) — около 200 000 у Benfica, мировой рекорд.',
+  tldr: 'Футбол в Португалии — национальная религия. «Os Três Grandes» («Большая тройка»): SL Benfica, FC Porto, Sporting CP. Derby de Lisboa (Benfica против Sporting) и O Clássico (Benfica против Porto) — события года. Билеты на обычные матчи — € 15–60, на класико — до € 200. Sócios (члены клуба) — у Benfica их сотни тысяч; клуб заявлял о рекорде Guinness по числу членов.',
   tags: ['футбол', 'benfica', 'porto', 'sporting'],
   estimatedReadMinutes: 7,
   steps: [
@@ -13,13 +13,13 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'b1', title: 'SL Benfica (Лиссабон)', content: [
-            { kind: 'paragraph', text: 'Основан в 1904 году. Самый титулованный клуб — 38 чемпионств Португалии. Стадион Estádio da Luz (64 642 места) в Лиссабоне. Цвета — красно-белые. Талисман — орёл Vítor. Гимн — «Ser Benfiquista». Более 250 тыс. sócios — мировой рекорд Guinness.' }
+            { kind: 'paragraph', text: 'Основан в 1904 году. Самый титулованный клуб — 38 чемпионств Португалии. Стадион Estádio da Luz (64 642 места) в Лиссабоне. Цвета — красно-белые. Талисман — орёл Vítor. Гимн — «Ser Benfiquista». Сотни тысяч sócios; Benfica заявляла о рекорде Guinness по числу членов футбольного клуба — актуальную цифру лучше проверять на slbenfica.pt.' }
           ]},
           { id: 'p1', title: 'FC Porto', content: [
-            { kind: 'paragraph', text: 'Основан в 1893 году. 30 чемпионств. Стадион Estádio do Dragão (50 033 места). Цвета — сине-белые. Талисман — дракон. Единственный португальский клуб в Clube dos 21 (UEFA). Победитель Лиги чемпионов UEFA 1987 и 2004 годов.' }
+            { kind: 'paragraph', text: 'Основан в 1893 году. 30 чемпионств. Стадион Estádio do Dragão (50 033 места). Цвета — сине-белые. Талисман — дракон. Самый успешный португальский клуб в еврокубках: выигрывал Кубок европейских чемпионов/Лигу чемпионов в 1987 и 2004, Кубок UEFA/Лигу Европы, Суперкубок UEFA и Межконтинентальный кубок.' }
           ]},
           { id: 's1', title: 'Sporting CP (Лиссабон)', content: [
-            { kind: 'paragraph', text: 'Основан в 1906 году. 21 чемпионство. Стадион Estádio José Alvalade (50 095 мест). Цвета — зелёно-белые, в полоску. Талисман — лев. Alma de Leão. Академия Alcochete — одна из лучших в мире: выпустила Cristiano Ronaldo, Luís Figo, João Félix, Nani.' }
+            { kind: 'paragraph', text: 'Основан в 1906 году. 21 чемпионство. Стадион Estádio José Alvalade (50 095 мест). Цвета — зелёно-белые, в полоску. Талисман — лев. Alma de Leão. Академия Alcochete — одна из лучших в мире: выпустила Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa.' }
           ]}
         ]}
       ]
@@ -31,10 +31,10 @@ export default {
         { kind: 'checklist', items: [
           '🔥 O Clássico — Benfica против FC Porto. Главный матч Португалии. 2–3 раза в сезон (Liga + Taça)',
           '🔥 Derby de Lisboa — Benfica против Sporting. Столичное противостояние. Город делится на красных и зелёных',
-          '🔥 Derby do Norte / Invicta — FC Porto против Sporting (менее накалённый, но тоже классика)',
-          '🔥 Clássico Eterno — Benfica против Sporting, историческое противостояние'
+          '🔥 FC Porto против Sporting — ещё один clássico между клубами из Três Grandes. А Derby da Invicta — это FC Porto против Boavista',
+          '🔥 Derby Eterno / Dérbi de Lisboa — Benfica против Sporting, историческое лиссабонское противостояние'
         ]},
-        { kind: 'paragraph', text: 'В дни дерби — толпы на улицах, автобусы с фанатами, телевизоры во всех кафе. Официальный комментатор RTP плачет от эмоций — традиция.' }
+        { kind: 'paragraph', text: 'В дни дерби — толпы на улицах, автобусы с фанатами, телевизоры во всех кафе. ТВ-комментаторы и болельщики переживают очень эмоционально.' }
       ]
     },
     {
@@ -43,10 +43,10 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: 'Онлайн через клуб', content: [
-            { kind: 'paragraph', text: 'Основной канал: SL Benfica на slbenfica.pt, FC Porto на fcporto.pt, Sporting CP на sporting.pt. Нужна регистрация. Обычные матчи Liga Betclic — за 1–2 недели до игры. Класико и Лига чемпионов — за месяц.' }
+            { kind: 'paragraph', text: 'Основной канал: SL Benfica на slbenfica.pt, FC Porto на fcporto.pt, Sporting CP на sporting.pt. Нужна регистрация. Clássico/derby и еврокубки — сроки зависят от клуба и категории матча; часто сначала открывают продажу для sócios, затем для широкой публики.' }
           ]},
           { id: 't2', title: 'Sócio — член клуба', content: [
-            { kind: 'paragraph', text: 'Статус sócio даёт приоритет на билеты и скидки 20–50%. Членство — от € 30/мес (Benfica). Для настоящих фанатов — обязательно.' }
+            { kind: 'paragraph', text: 'Статус sócio даёт приоритет на билеты и скидки 20–50%. Стоимость зависит от клуба и категории sócio; у Benfica/Sporting/Porto есть разные тарифы и возрастные категории — проверяйте актуальную mensalidade на сайте клуба.' }
           ]},
           { id: 't3', title: 'Вторичный рынок', content: [
             { kind: 'paragraph', text: 'Билеты перепродаются с согласия клубов через их платформы. Другие вторичные сайты — риск мошенничества.' }
@@ -54,10 +54,10 @@ export default {
           { id: 't4', title: 'Цены', content: [
             { kind: 'checklist', items: [
               'Обычный матч Liga: € 15–60 (в зависимости от сектора)',
-              'Матч Лиги чемпионов: € 25–80',
+              'Champions League / еврокубки: € 25–100+ в зависимости от стадии, соперника и сектора',
               'Derby / Clássico: € 40–150',
               'VIP-ложа: € 150–400',
-              'Финал Taça de Portugal (Coimbra): € 30–80'
+              'Финал Taça de Portugal (обычно Estádio Nacional do Jamor, Oeiras): € 30–80; цены и квоты объявляет FPF ближе к финалу'
             ]}
           ]}
         ]}
@@ -75,7 +75,7 @@ export default {
           '🎺 Трубы, барабаны — обязательно',
           '🚫 Фаеры запрещены, но иногда бывают у фанатиков',
           '🧣 Шарф — обязателен, у стадиона можно купить за € 10–15',
-          '🍺 Алкоголя внутри стадиона нет (по закону). Выпить можно в баре у стадиона и после матча',
+          '🍺 Алкогольные напитки на матчах обычно запрещены/строго ограничены; внутри часто продают только безалкогольное пиво и soft drinks. Проверяйте правила конкретного стадиона',
           '⚠️ Футбольная полиция PSP серьёзная, охрана стадионов — по стандарту UEFA',
           '🎉 После матча — пробки из болельщиков. Такси трудно поймать'
         ]}
@@ -90,7 +90,7 @@ export default {
           '🏆 Чемпион Европы 2016 (ЕВРО во Франции)',
           '🏆 Лига наций UEFA 2018–2019, 2024–2025',
           '🌟 Легенды: Eusébio, Figo, Rui Costa, Deco, Cristiano Ronaldo',
-          '👑 Роналду — 5× Balão de Ouro, рекордсмен по голам за сборную (130+)',
+          '👑 Cristiano Ronaldo / Криштиану Роналду — 5× Ballon d\'Or, лучший бомбардир в истории сборных; актуальное число голов проверяйте у FPF/FIFA',
           '📅 ЧМ-2026 (США-Канада-Мексика) — Португалия среди фаворитов',
           '🎫 Билеты на матчи сборной — через FPF (Федерация)'
         ]}
@@ -115,7 +115,7 @@ export default {
       title: 'Культурный контекст',
       content: [
         { kind: 'paragraph', text: 'Футбол в Португалии — не просто спорт. Принадлежность к клубу передаётся от отца к сыну, её не выбирают. Вопрос «És do Benfica, Porto ou Sporting?» — нормальная тема для светского разговора. 80% населения поддерживают один из «Três Grandes».' },
-        { kind: 'paragraph', text: 'Региональные клубы: FC Braga, Vitória SC (Guimarães), Rio Ave, Boavista — формируют Primeira Liga, но никогда не побеждали в чемпионате (кроме Boavista 2001 — единственный раз, когда чемпионом стал не Benfica/Porto/Sporting).' }
+        { kind: 'paragraph', text: 'Сильные/исторические клубы вне Três Grandes: SC Braga, Vitória SC (Guimarães), Boavista, Belenenses, Rio Ave и др. Чемпионат почти всегда выигрывали Benfica/Porto/Sporting, но исключения были: Belenenses в 1945/46 и Boavista в 2000/01.' }
       ]
     }
   ],
@@ -126,6 +126,6 @@ export default {
     { title: 'FC Porto', url: 'https://www.fcporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Sporting CP', url: 'https://www.sporting.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

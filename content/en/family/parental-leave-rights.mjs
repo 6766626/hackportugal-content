@@ -2,9 +2,9 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'parental-leave-rights',
   categoryId: 'work_business',
-  title: 'Parental leave and parental rights',
-  tldr: 'Parental leave (licença parental) in Portugal in 2026: «inicial» — 180 days when leave is shared (Lei 13/2023 — 90% of salary); 120 days for the mother only — 100%. Father: 28 mandatory days + up to 7 additional. Job is protected during leave. Grandparents — 14 days «licença para grupos especiais». Breastfeeding: 1 hour per day until the child is 1 year old. Part-time up to the child’s 4th birthday is guaranteed by Lei 7/2009. For children with special needs — extended rights.',
-  tags: ['parental leave', 'maternity leave', 'licença parental', 'mother', 'father', 'segurança social'],
+  title: 'Maternity leave and parental rights',
+  tldr: 'Maternity leave (licença parental) in Portugal in 2026: licença parental inicial — 120 days (100%), 150 days or 150/180 days partilhada when shared with the father (Lei 13/2023; 90% for 180-day partilhada). After the mother’s 6 mandatory weeks, the remaining time may be shared by the parents. Father: 28 mandatory days (7 — immediately after birth, 21 — within 42 days) + up to 7 additional days together with the mother. The job is protected during leave. Breastfeeding/aleitação: usually 2 hours per day (2 periods × 1 hour), after 1 year for breastfeeding — a medical certificate is required. Right to horário flexível / part-time work — until the child is 12 years old (Código do Trabalho art. 55/56). For children with special needs — extended rules apply.',
+  tags: ['maternity leave', 'parental leave', 'licença parental', 'mother', 'father', 'Segurança Social'],
   estimatedReadMinutes: 8,
   steps: [
     {
@@ -14,30 +14,30 @@ export default {
         { kind: 'substeps', items: [
           { id: 'mother', title: 'Mother — mandatory and additional parts', content: [
             { kind: 'checklist', items: [
-              '🏥 **Mandatory part**: 6 weeks immediately after birth (minimum leave)',
-              '👶 **Additional part**: 120 days for the mother only with pay at 100% of salary',
-              '🤝 **Shared part** «inicial partilhada»: 180 days when the leave is shared with the father (90% of salary, under Lei 13/2023)',
-              '⏰ You may start leave up to 30 days before the due date',
-              '👼 Twins: +30 days',
-              '👶 Triplets: +60 days'
+              '🏥 **Mandatory part**: 6 weeks (42 days) immediately after childbirth — taken only by the mother',
+              '👶 **Licença parental inicial**: 120 days paid at 100% (after the mother’s mandatory 42 days, the remainder may be used by the mother or the father)',
+              '🤝 **Inicial partilhada**: 150 days (at a different rate) or 180 days paid at 90% if the conditions for sharing leave between parents are met (Lei 13/2023)',
+              '⏰ Leave may be started before childbirth with a medical certificate (generally around ~10 days before)',
+              '👼 For twins: +30 days',
+              '👶 For triplets: +60 days'
             ]}
           ]},
           { id: 'father', title: 'Father — rights and obligations', content: [
             { kind: 'checklist', items: [
-              '🛌 **28 mandatory days** in the first 6 weeks after birth (10 within the first 14 days; paid at 100%)',
-              '➕ **+7 additional days** (consecutive or not) up to 4 months — paid at 100%',
-              '🤝 **Shared part** (if there is agreement with the mother): a portion of the 90% 180‑day quota',
-              '⚖️ Rights are protected — dismissal due to leave is unlawful (Lei 7/2009 art. 36)',
-              '🏥 If the mother cannot take the leave or has died — the father receives her share of leave'
+              '🛌 **28 mandatory days**: 7 consecutive days immediately after birth + 21 within 42 days after birth (consecutively or with breaks)',
+              '➕ **+7 additional days** after the 28 mandatory days, provided they coincide with the mother’s licença parental inicial',
+              '🤝 **Shared part** (by agreement with the mother): the father’s mandatory minimum exclusive period — required for 150/180-day partilhada',
+              '⚖️ Rights are protected — dismissal because of leave is unlawful (Lei 7/2009 art. 36)',
+              '🏥 If the mother cannot take leave or has died — the father receives her part of the leave'
             ]}
           ]},
           { id: 'who-pays', title: 'Who pays', content: [
             { kind: 'checklist', items: [
               '🛡️ **Segurança Social** (Subsídio Parental) — the main source of payments',
-              '💼 The employer does NOT pay during leave, but must keep the job',
-              '💸 Calculation: average salary over the last 6 months × 90% or 100%',
+              '💼 The employer does NOT pay during leave, but keeps the job open',
+              '💸 Calculation: remuneração de referência = sum of earnings for the first 6 of the last 8 months / 180; then the rate is 100%, 90%, 83%, 80%, etc. (depending on the regime)',
               '⏰ Money is paid into the bank account monthly',
-              '📑 The application is submitted by both the employer and the employee via Segurança Social Direta'
+              '📑 The employee submits the benefit application via Segurança Social Direta; the employer separately records the absence and reports salary data'
             ]}
           ]}
         ]}
@@ -48,20 +48,20 @@ export default {
       title: '📋 How to apply',
       content: [
         { kind: 'substeps', items: [
-          { id: 'a1', title: 'Before birth', content: [
+          { id: 'a1', title: 'Before childbirth', content: [
             { kind: 'checklist', items: [
-              '📩 Notify the employer of the planned start date of leave at least 30 days in advance',
-              '📋 Submit the «requerimento de subsídio parental» in Segurança Social Direta',
-              '📑 Attach a medical certificate with the expected due date',
-              '🤝 If the leave is shared (partilhada): submit a joint application with the father'
+              '📩 If the mother starts leave before childbirth — notify the employer with a medical certificate, generally 10 days in advance (in urgent cases — as soon as possible)',
+              '📋 Submit the “requerimento de subsídio parental” in Segurança Social Direta',
+              '📑 Attach a medical certificate with the expected date of childbirth',
+              '🤝 If the leave is shared (partilhada): submit a joint declaration with the father'
             ]}
           ]},
-          { id: 'a2', title: 'After birth', content: [
+          { id: 'a2', title: 'After childbirth', content: [
             { kind: 'checklist', items: [
-              '📜 The birth certificate must be submitted to Segurança Social within 30 days',
-              '⏰ Confirm the start and end dates of leave via Segurança Social Direta',
-              '📲 You may change the leave schedule: for example, extend or shorten the additional part',
-              '💰 The first payment arrives within 30 days after registration'
+              '📜 Within 7 days after birth, inform the employer of the leave dates; for partilhada — a joint declaration by the parents',
+              '⏰ The application for subsídio in Segurança Social must be submitted within 6 months from the first day of leave/the event; if submitted late, the benefit may be reduced',
+              '📲 You can change the leave schedule via Segurança Social Direta: for example, extend or shorten the additional part',
+              '💰 Payment arrives after SS approval to the specified IBAN; there is no guaranteed timeframe, it depends on processing of the application'
             ]}
           ]}
         ]}
@@ -71,30 +71,31 @@ export default {
       id: 'breastfeeding',
       title: '🤱 Breastfeeding — rights',
       content: [
-        { kind: 'paragraph', text: 'Under Lei 7/2009 art. 47 the mother has the right to a daily reduction in working time for breastfeeding.' },
+        { kind: 'paragraph', text: 'Under Lei 7/2009 art. 47, the mother is entitled to a daily reduction in working time for breastfeeding.' },
         { kind: 'checklist', items: [
-          '🕐 **2 hours off the working day** for breastfeeding (1 hour in the morning + 1 hour after lunch OR 2 hours in one block)',
-          '⏰ Until the child’s 1st birthday — without further requirements',
-          '🍼 After 1 year — a medical certificate from the paediatrician is required',
-          '🚫 The employer may NOT cut pay because of this',
-          '📑 Application to the employer + a copy to Segurança Social',
-          '👶 For formula feeding: the same 2 hours may be split between the mother and the father'
+          '🕐 **2 hours’ reduction of the working day** for breastfeeding (1 hour in the morning + 1 hour after lunch OR 2 hours in one block)',
+          '⏰ Until the child’s 1st birthday — without further questions',
+          '🍼 After 1 year — a medical certificate from a paediatrician is required',
+          '🚫 The employer may NOT reduce salary because of this',
+          '📑 Application to the employer; after 1 year, if breastfeeding, attach a medical certificate (a copy to Segurança Social is usually not required — this is an employment right, not an SS benefit)',
+          '👶 For formula feeding: the same 2 hours may be shared by the mother and father',
+          '👯 For multiple births: +30 minutes for each child after the first'
         ]}
       ]
     },
     {
       id: 'flexible-work',
-      title: '⏰ Right to flexible working until age 4',
+      title: '⏰ Flexible schedule and part-time work until the child is 12',
       content: [
-        { kind: 'paragraph', text: 'Lei 7/2009 art. 56 gives parents the right to a flexible schedule (horário flexível) or reduced working time until the child is 4 years old.' },
+        { kind: 'paragraph', text: 'Código do Trabalho art. 55 regulates trabalho a tempo parcial, and art. 56 regulates horário flexível for an employee with a child under 12; for a child with a disability/chronic illness, extended rules apply without a strict age limit.' },
         { kind: 'checklist', items: [
-          '🕐 **Half-time**: half a working day + half pay',
-          '🕐 **3/4 time**: 75% work and pay',
-          '⏰ **Flexible schedule**: still 8 hours, but with the option to shift by ±1–2 hours',
-          '✅ The employer MUST consider the request and may refuse only with justification (a refusal can be appealed to ACT — the labour inspectorate)',
-          '📑 Apply 30 days before the desired date',
-          '👨‍🦱 Both parents have this right',
-          '⚖️ In case of refusal — escalate to CITE (Comissão para a Igualdade no Trabalho)'
+          '🕐 **Half-time**: half the working day + half the salary',
+          '🕐 **3/4 time**: 75% of work and salary',
+          '⏰ **Flexible schedule**: the same hours, but with the possibility of shifting the start/end of the day',
+          '✅ If intending to refuse, the employer must follow a special procedure and send the case to **CITE** for a prior opinion (this is the key body specifically for these refusals)',
+          '📑 The application is submitted in advance (under the Labour Code rules)',
+          '👨‍🦱 Both parents have the right',
+          '⚖️ ACT (labour inspectorate) — for complaints about breaches of employment law, but it does not replace CITE'
         ]}
       ]
     },
@@ -103,13 +104,12 @@ export default {
       title: '🌟 Special cases',
       content: [
         { kind: 'checklist', items: [
-          '👨‍👩‍👧‍👦 **Adoption**: the same 180/120 days',
-          '🏥 **Premature birth**: +30 days to the standard period',
-          '♿ **Child with special needs**: up to 6 months of additional leave (with a medical report)',
-          '👵 **Grandparents** (if parents cannot): 14 days «licença para avós»',
-          '🤰 **Hospitalisation of the child after birth**: leave is suspended, then resumes',
-          '📑 **Recibo Verde (self‑employed)**: have the same rights to the benefit if they have paid contributions to Segurança Social for at least 6 months',
-          '🛂 **Foreigners with a residence permit**: the same rights, without restrictions'
+          '👨‍👩‍👧‍👦 **Adoption**: the same 120/150/180 days under the relevant regimes',
+          '🏥 **Hospitalisation of the child after childbirth / birth before 33 weeks**: special rules apply for increasing/suspending licença parental inicial; confirm dates with Segurança Social/the employer',
+          '♿ **Child with special needs**: extended rights/additional leave based on a medical opinion (see Código do Trabalho)',
+          '👵 **Grandparents**: special rights in specific cases — for example, up to 30 consecutive days after the birth of a grandchild if the child’s parent is under 16 and the grandchild lives with the grandmother/grandfather; there is no universal “14 days if parents cannot” rule (see Código do Trabalho art. 50)',
+          '📑 **Recibo Verde (self-employed)**: may be entitled to subsídio parental if the prazo de garantia is met (usually 6 months of registered remuneration) and the contribution situation is regularised; employer employment guarantees do not apply to them',
+          '🛂 **Foreign nationals working in Portugal**: the same employment rights; SS benefit depends on registration, contributions and meeting the prazo de garantia. If contributions are insufficient, social benefits subject to a means test may be possible'
         ]}
       ]
     },
@@ -118,13 +118,13 @@ export default {
       title: '💡 Tips',
       content: [
         { kind: 'checklist', items: [
-          '💰 90% or 100%: for most families, partilhada (180 days) is more advantageous — the father participates, and the mother receives more money for the same period',
-          '📅 Plan it: 100% (120 days) → child in Creche/Jardim de Infância using partilhada → the father takes his quota',
-          '🩺 Benefit calculation = average salary over 6 months. If you go on leave soon after a pay rise, it is better to wait 6 months',
-          '🛡️ Parental leave by itself does NOT make the period lawful residence for citizenship — for naturalisation what matters are **lawful residence** (a valid residence permit/title) and the total period (under the current Lei 37/81 — 5 years; **Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026** and will increase the period to 7/10 years after publication in the DRE)',
-          '⚖️ Protection from dismissal: during leave and for 12 months after return',
-          '👶 If giving birth in Portugal — healthcare in SNS is free (including maternity ward, vaccinations, paediatrician)',
-          '📑 Keep all certificates and applications — they may be needed for your next leave or a tax audit'
+          '💰 180 days partilhada are often advantageous because of the additional 60 days paid at 90%, but compare total family income and the father’s real ability to take his part',
+          '📅 Before/after birth, choose the licença parental inicial regime: 120, 150 or partilhada 150/180 days; for 180 days partilhada, agree the mother’s and father’s periods with the employers in advance',
+          '🩺 Benefit calculation: remuneração de referência = earnings for 6 of the previous 8 months / 180. If you go on maternity leave shortly after a pay rise, the new salary may not have time to be fully included in the base',
+          '🛡️ Maternity leave does not interrupt the period of legal residence, if the residence permit remains valid/extended. For citizenship, check the current wording of the Lei da Nacionalidade: **Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026** and will increase the period to 7/10 years after publication in the DRE — as of 17.05.2026, the current rule is 5 years (Lei 37/81)',
+          '⚖️ Protection against dismissal: dismissal of a pregnant employee, an employee who has recently given birth, a breastfeeding employee, or an employee on parental leave requires a special procedure and a prior opinion from **CITE**; there is no universal immunity for 12 months after returning',
+          '👶 In the SNS, pregnancy monitoring, childbirth, vaccination and paediatric care are usually free/exempt from taxas moderadoras; foreign nationals should arrange a número de utente in advance',
+          '📑 Keep all certificates and applications — they may be needed for the next maternity leave or a tax audit'
         ]}
       ]
     }
@@ -135,11 +135,11 @@ export default {
     { label: 'Document translation (if needed)', amountEURMin: 30, amountEURMax: 100 }
   ],
   sources: [
-    { title: 'Lei 13/2023 — Amendment to the Labour Code', url: 'https://diariodarepublica.pt/dr/detalhe/lei/13-2023-208854851', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Segurança Social — Parental Benefit (Subsídio Parental)', url: 'https://www.seg-social.pt/parentalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 7/2009 — Labour Code', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CITE — Commission for Equality at Work', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Lei 13/2023 — Amendment to the Código do Trabalho', url: 'https://diariodarepublica.pt/dr/detalhe/lei/13-2023-208854851', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Segurança Social — Subsídio Parental', url: 'https://www.seg-social.pt/parentalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei 7/2009 — Código do Trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'CITE — Commission for Equality in Labour', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

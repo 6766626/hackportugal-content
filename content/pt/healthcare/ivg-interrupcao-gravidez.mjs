@@ -3,44 +3,44 @@ export default {
   id: 'ivg-interrupcao-gravidez',
   categoryId: 'healthcare',
   title: 'IVG — interrupção legal da gravidez até às 10 semanas no SNS',
-  tldr: 'Em Portugal, a IVG — interrupção voluntária da gravidez — é legal por opção da mulher até às 10 semanas de gravidez ao abrigo da Lei 16/2007. No SNS, a marcação começa normalmente através do SNS 24: 808 24 24 24. São obrigatórios uma consulta prévia, a confirmação do prazo, o consentimento informado e um mínimo de 3 dias de “período de reflexão”. No SNS, o procedimento é gratuito para utentes do SNS; a mulheres estrangeiras sem autorização de residência não pode ser recusado atendimento por motivo de nacionalidade, mas administrativamente podem ser pedidos número de utente/passaporte/morada e verificado o direito à cobertura dos custos.',
+  tldr: 'Em Portugal, a IVG — interrupção voluntária da gravidez — é legal por opção da mulher até às 10 semanas de gravidez ao abrigo da Lei 16/2007. No SNS, a marcação começa normalmente através do SNS 24: 808 24 24 24. São obrigatórios uma consulta prévia, a confirmação do tempo de gestação, o consentimento informado e pelo menos 3 dias de “período de reflexão”. No SNS, o procedimento é gratuito para utentes do SNS; a mulheres estrangeiras sem autorização de residência não pode ser recusado o acesso por causa da nacionalidade, mas administrativamente podem pedir número de utente/passaporte/morada e verificar o direito à cobertura dos custos.',
   tags: ['ivg', 'sns', 'gravidez', 'direitos'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'legal-frame',
-      title: 'O que a lei permite',
+      title: 'O que é permitido por lei',
       content: [
-        { kind: 'paragraph', text: 'IVG — interrupção voluntária da gravidez — é a interrupção voluntária da gravidez. Em Portugal, é permitida por opção da grávida até às 10 semanas de gravidez, se for realizada por médico ou sob a sua direcção num estabelecimento de saúde oficial ou oficialmente reconhecido.' },
+        { kind: 'paragraph', text: 'IVG — interrupção voluntária da gravidez — é a interrupção voluntária da gravidez. Em Portugal, é permitida por opção da grávida até às 10 semanas de gravidez, se for realizada por médico ou sob a sua direção, em estabelecimento de saúde oficial ou oficialmente reconhecido.' },
         { kind: 'paragraph', text: 'A base legal é a Lei 16/2007, que alterou o regime do art. 142 do Código Penal. A lei aplica-se independentemente da nacionalidade: as condições essenciais são o prazo, o local de realização, o consentimento informado e o cumprimento do procedimento obrigatório.' },
         { kind: 'checklist', items: [
           'Prazo por opção da mulher: até às 10 semanas de gravidez.',
-          'Depois das 10 semanas, só são possíveis fundamentos especiais: risco para a vida/saúde, patologia grave do feto, gravidez após crime sexual e outros casos expressamente previstos na lei.',
-          'É necessária consulta prévia — consulta preliminar.',
+          'Após as 10 semanas, só são possíveis fundamentos especiais: risco para a vida/saúde, patologia grave do feto, gravidez resultante de crime sexual e outros casos expressamente previstos na lei.',
+          'É necessária consulta prévia — consulta prévia.',
           'Após a consulta prévia, é obrigatório um período de reflexão de pelo menos 3 dias.',
-          'É necessário consentimento por escrito — consentimento livre e esclarecido.',
+          'É necessário consentimento escrito — consentimento livre e esclarecido.',
           'O procedimento é realizado no SNS ou numa clínica/hospital privado reconhecido para IVG.',
           'Os profissionais de saúde podem invocar objeção de consciência, mas a instituição deve encaminhar a paciente de forma a que o prazo não seja ultrapassado.'
         ] },
-        { kind: 'warning', text: '10 semanas é um prazo prático rígido. Não espere “mais uns dias”: a marcação, a ecografia, a consulta e os 3 dias obrigatórios podem demorar. Se o prazo estiver próximo das 10 semanas, ligue para o SNS 24 no próprio dia.' }
+        { kind: 'warning', text: '10 semanas é um prazo prático rígido. Não espere “mais uns dias”: a marcação, a ecografia, a consulta e os 3 dias obrigatórios podem demorar. Se o prazo estiver perto das 10 semanas, ligue para o SNS 24 no próprio dia.' }
       ]
     },
     {
       id: 'booking',
       title: 'Como marcar no SNS',
       content: [
-        { kind: 'paragraph', text: 'O caminho mais directo é ligar para o SNS 24 através do número 808 24 24 24 e dizer: “Quero marcar uma consulta para interrupção voluntária da gravidez”. O operador encaminhará para a unidade de saúde / hospital da área adequado.' },
+        { kind: 'paragraph', text: 'O caminho mais direto é ligar para o SNS 24 através do número 808 24 24 24 e dizer: “Quero marcar uma consulta para interrupção voluntária da gravidez”. O operador encaminhará para a unidade de saúde / hospital da área competente.' },
         { kind: 'checklist', items: [
           'Ligue para o SNS 24: 808 24 24 24.',
-          'Indique o local onde reside em Portugal e o prazo de gravidez estimado.',
-          'Se tiver número de utente — indique-o.',
-          'Se não tiver utente — diga que se encontra em Portugal e que precisa de IVG dentro do prazo de 10 semanas.',
+          'Indique o local onde reside em Portugal e o tempo de gravidez estimado.',
+          'Se tiver número de utente — comunique-o.',
+          'Se não tiver utente — diga que se encontra em Portugal e precisa de IVG dentro do prazo das 10 semanas.',
           'Anote o nome do hospital/ULS, a data, a hora e o que deve levar consigo.',
-          'Se não fala português, peça: “Preciso de atendimento em inglês” ou vá com intérprete.',
+          'Se não fala português, peça: “Preciso de atendimento em inglês” ou vá com um intérprete.',
           'Se o prazo estiver próximo, diga claramente: “Estou perto das 10 semanas”.'
         ] },
-        { kind: 'paragraph', text: 'Em alternativa, pode dirigir-se ao Centro de Saúde, USF/UCSP ou directamente a um hospital do SNS, se for essa a prática na sua região. Mas o SNS 24 normalmente indica mais rapidamente o percurso correcto.' },
-        { kind: 'warning', text: 'Nem todos os ginecologistas privados realizam IVG e nem todos encaminham rapidamente. Para cumprir o prazo, é mais seguro ligar também ao SNS 24 em paralelo logo desde o início.' }
+        { kind: 'paragraph', text: 'Em alternativa, pode dirigir-se ao Centro de Saúde, USF/UCSP ou diretamente ao hospital do SNS, se esse for o procedimento habitual na sua região. Mas o SNS 24 normalmente indica mais rapidamente o percurso correto.' },
+        { kind: 'warning', text: 'Nem todos os ginecologistas privados fazem IVG e nem todos encaminham rapidamente. Para cumprir o prazo, é mais seguro ligar também de imediato para o SNS 24 em paralelo.' }
       ]
     },
     {
@@ -49,23 +49,23 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'consulta-previa', title: '1. Consulta prévia', content: [
-            { kind: 'paragraph', text: 'Na consulta prévia, o médico confirma a gravidez e o prazo, explica os métodos disponíveis, os riscos, os sinais de complicações e as opções de apoio. Normalmente é feita ou marcada uma ecografia para determinar com precisão o prazo e excluir contraindicações médicas.' },
+            { kind: 'paragraph', text: 'Na consulta prévia, o médico confirma a gravidez e o tempo de gestação, explica os métodos disponíveis, os riscos, os sinais de complicações e as opções de apoio. Normalmente é feita ou marcada uma ecografia, para determinar com precisão o tempo de gestação e excluir contraindicações médicas.' },
             { kind: 'checklist', items: [
-              'Passaporte, Cartão de Residência ou outro ID.',
+              'Passaporte, Cartão de Residência ou outro documento de identificação.',
               'Número de utente, se tiver.',
-              'NIF — útil, mas não é o documento médico principal.',
+              'NIF — útil, mas não é o documento médico essencial.',
               'Documentos sobre a gravidez/ecografia/análises, se já existirem.',
               'Lista de medicamentos e alergias.',
-              'Telefone de contacto em Portugal.',
+              'Número de telefone de contacto em Portugal.',
               'Morada de residência ou de estadia temporária.'
             ] }
           ] },
           { id: 'reflection', title: '2. 3 dias de espera obrigatória', content: [
-            { kind: 'paragraph', text: 'Após a consulta prévia, a lei exige um período de reflexão mínimo de 3 dias. Isto não é uma “fila de espera”, mas sim uma condição jurídica obrigatória. O procedimento não pode ser realizado antes, mesmo que a decisão já esteja tomada.' },
+            { kind: 'paragraph', text: 'Após a consulta prévia, a lei exige pelo menos 3 dias de período de reflexão. Isto não é uma “fila de espera”, mas uma condição jurídica obrigatória. O procedimento não pode ser realizado antes, mesmo que a decisão já esteja tomada.' },
             { kind: 'warning', text: 'Se a equipa médica marcar uma data que a faça ultrapassar as 10 semanas, peça encaminhamento urgente para outra unidade ou hospital. Formulação: “Preciso de referenciação urgente por limite legal de 10 semanas”.' }
           ] },
           { id: 'intervention', title: '3. Método medicamentoso ou cirúrgico', content: [
-            { kind: 'paragraph', text: 'O método é escolhido pelo médico tendo em conta o prazo, o historial clínico e o protocolo da instituição. Nas fases iniciais, é frequentemente utilizado o método medicamentoso; em alguns casos — o método cirúrgico/por aspiração. Depois do procedimento, normalmente são marcados controlo, contracepção e instruções sobre quando procurar ajuda com urgência.' }
+            { kind: 'paragraph', text: 'O método é escolhido pelo médico tendo em conta o tempo de gestação, o historial clínico e o protocolo da instituição. Nas fases iniciais, é frequentemente usado o método medicamentoso; em alguns casos, o método cirúrgico/por aspiração. Após o procedimento, normalmente são marcados controlo, contraceção e instruções sobre quando procurar ajuda com urgência.' }
           ] }
         ] }
       ]
@@ -74,40 +74,40 @@ export default {
       id: 'costs-and-non-residents',
       title: 'Custos e direitos das mulheres estrangeiras',
       content: [
-        { kind: 'paragraph', text: 'No SNS, a IVG faz parte dos cuidados de saúde legais. Para utentes do SNS, o procedimento é normalmente gratuito. Após a eliminação da maioria das taxas moderadoras no SNS, as pacientes não devem pagar uma taxa “de entrada” padrão por cuidados programados.' },
-        { kind: 'paragraph', text: 'A nacionalidade não é fundamento para recusar uma IVG dentro dos limites da lei. Na prática, a administração pode pedir número de utente, passaporte, morada e documentos relativos ao direito à cobertura dos custos: autorização de residência, visto, CRUE para cidadãos da UE, EHIC/GHIC, S1 ou seguro privado.' },
+        { kind: 'paragraph', text: 'No SNS, a IVG faz parte dos cuidados de saúde legais. Para utentes do SNS, o procedimento é normalmente gratuito. Após a eliminação da maioria das taxas moderadoras no SNS, as pacientes não devem pagar a taxa “de entrada” padrão por cuidados programados.' },
+        { kind: 'paragraph', text: 'A nacionalidade não é fundamento para recusar a IVG dentro dos limites da lei. Na prática, o administrativo pode pedir número de utente, passaporte, morada e documentos relativos ao direito à cobertura dos custos: autorização de residência, visto, CRUE para cidadãos da UE, EHIC/GHIC, S1 ou seguro privado.' },
         { kind: 'checklist', items: [
           'Se é residente e tem número de utente — use o percurso normal do SNS.',
           'Se ainda não tem autorização de residência, mas vive em Portugal, ligue na mesma para o SNS 24 e peça marcação; em paralelo, trate do utente no Centro de Saúde.',
           'Se é cidadã da UE/EEE/Suíça e está temporariamente em Portugal — leve o EHIC e passaporte/ID.',
-          'Se é turista de um país terceiro — o procedimento é legal, mas o SNS pode emitir uma factura se não houver direito à cobertura; esclareça antes da visita.',
-          'Se o prazo for crítico, a questão do pagamento não deve atrasar o encaminhamento médico: primeiro consiga a marcação e a confirmação do prazo.',
-          'Em caso de hemorragia, dor intensa, febre ou desmaio, ligue 112 ou dirija-se à urgência — os cuidados de emergência são prestados independentemente do estatuto.'
+          'Se é turista de um país terceiro — o procedimento é legal, mas o SNS pode emitir uma fatura se não houver direito à cobertura; confirme antes da visita.',
+          'Se o prazo for crítico, a questão do pagamento não deve atrasar o encaminhamento médico: primeiro consiga a marcação e a confirmação do tempo de gestação.',
+          'Em caso de hemorragia, dor intensa, febre ou desmaio, ligue 112 ou dirija-se à urgência — a assistência de emergência é prestada independentemente do estatuto.'
         ] },
-        { kind: 'warning', text: 'Não aceite “soluções caseiras”, comprimidos da internet ou ajuda de pessoas sem licença médica. Isto representa um risco para a saúde e pode criar problemas jurídicos. O caminho legal é o SNS ou um estabelecimento de saúde reconhecido.' }
+        { kind: 'warning', text: 'Não aceite “esquemas caseiros”, comprimidos da internet ou ajuda de pessoas sem licença médica. Isto é um risco para a saúde e pode criar problemas jurídicos. O caminho legal é o SNS ou um estabelecimento de saúde reconhecido.' }
       ]
     },
     {
       id: 'confidentiality-minors-language',
       title: 'Confidencialidade, menores e língua',
       content: [
-        { kind: 'paragraph', text: 'A informação médica sobre IVG está protegida pelo sigilo médico e pelas regras de protecção de dados pessoais. Empregador, senhorio, escola, parceiro ou familiares não têm acesso a esta informação sem fundamento legal.' },
+        { kind: 'paragraph', text: 'A informação médica sobre IVG está protegida pelo sigilo médico e pelas regras de proteção de dados pessoais. Empregador, senhorio, escola, parceiro ou familiares não têm acesso a esta informação sem fundamento legal.' },
         { kind: 'checklist', items: [
           'A paciente maior de idade toma a decisão por si própria.',
-          'A paciente tem o direito de fazer perguntas e de recusar o procedimento antes da sua realização.',
-          'Pode pedir instruções por escrito numa língua que compreenda ou vir com intérprete.',
-          'Pode pedir consulta de contracepção após a IVG.',
+          'A paciente tem o direito de fazer perguntas e de recusar o procedimento até à sua realização.',
+          'Pode pedir instruções escritas numa língua que compreenda ou ir com um intérprete.',
+          'Pode pedir uma consulta de contraceção após a IVG.',
           'Se sofreu violência sexual, informe o médico: isso influencia o apoio médico e jurídico.',
-          'Para menores aplicam-se regras próprias de consentimento e de participação do representante legal; se a situação não for segura, diga-o claramente ao médico.'
+          'Para menores, aplicam-se regras próprias de consentimento e de participação do representante legal; se a situação não for segura, diga-o claramente ao médico.'
         ] },
-        { kind: 'warning', text: 'Se o parceiro ou a família a pressionarem — diga-o ao médico a sós. A coacção para interromper ou para manter a gravidez não é normal; o SNS pode encaminhar para apoio social e psicológico.' }
+        { kind: 'warning', text: 'Se o parceiro ou a família a pressionam — diga-o ao médico a sós. A coação para interromper ou para manter a gravidez não é normal; o SNS pode encaminhar para apoio social e psicológico.' }
       ]
     }
   ],
   costs: [
-    { label: 'IVG no SNS para utente do SNS', amountEUR: 0, note: 'Normalmente gratuita quando existe direito a cuidados no SNS; as taxas moderadoras padrão para cuidados programados no SNS foram eliminadas.' },
+    { label: 'IVG no SNS para utente do SNS', amountEUR: 0, note: 'Normalmente gratuito quando existe direito a cuidados no SNS; as taxas moderadoras padrão para cuidados programados no SNS foram eliminadas.' },
     { label: 'Chamada para o SNS 24', amountEURMin: 0, amountEURMax: 1, note: '808 24 24 24 — o custo depende do tarifário do operador; não é um serviço médico pago.' },
-    { label: 'Clínica privada', amountEURMin: 300, amountEURMax: 800, note: 'Referência de mercado, não uma tarifa pública; o preço depende da clínica, do prazo, do método e das análises.' }
+    { label: 'Clínica privada', amountEURMin: 300, amountEURMax: 800, note: 'Referência de mercado, não uma tarifa estatal; o preço depende da clínica, do tempo de gestação, do método e das análises.' }
   ],
   sources: [
     {
@@ -132,6 +132,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

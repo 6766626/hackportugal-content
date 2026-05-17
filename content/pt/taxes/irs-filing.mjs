@@ -1,197 +1,110 @@
 export default {
-  "editorialVoice": "hackportugal",
-  "id": "irs-filing",
-  "categoryId": "taxes",
-  "title": "Entrega do IRS — declaração fiscal de pessoa singular",
-  "tldr": "IRS = Imposto sobre o Rendimento das Pessoas Singulares. É entregue anualmente de 1 de abril a 30 de junho no Portal das Finanças. Para residentes, é obrigatório independentemente da fonte de rendimento. Existe uma versão automática pré-preenchida (IRS Automático) para casos simples.",
-  "tags": [
-    "irs",
-    "impostos",
-    "declaração"
-  ],
-  "estimatedReadMinutes": 7,
-  "steps": [
+  editorialVoice: 'hackportugal',
+  id: 'irs-filing',
+  categoryId: 'taxes',
+  title: 'Entrega do IRS — declaração fiscal de pessoa singular',
+  tldr: 'IRS = Imposto sobre o Rendimento das Pessoas Singulares. É entregue anualmente entre 1 de abril e 30 de junho no Portal das Finanças. Os residentes fiscais declaram normalmente o rendimento mundial; existem dispensas de entrega ao abrigo do art. 58 CIRS (rendimentos baixos/já tributados definitivamente). Existe uma versão automática pré-preenchida (IRS Automático) para os casos simples previstos pela AT.',
+  tags: ['irs', 'impostos', 'declaração'],
+  estimatedReadMinutes: 7,
+  steps: [
     {
-      "id": "who",
-      "title": "Quem entrega",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Todos os residentes fiscais em Portugal (viveram ≥ 183 dias ou têm o centro de interesses em Portugal)",
-            "Não residentes com rendimento de Portugal — entregam apenas relativamente ao rendimento português",
-            "Sujeitos IFICI — entregam com formulários específicos"
-          ]
-        },
-        {
-          "kind": "warning",
-          "text": "Os residentes declaram TODO o rendimento mundial, incluindo o estrangeiro. NHR/IFICI concedem isenções."
-        }
+      id: 'who',
+      title: 'Quem entrega',
+      content: [
+        { kind: 'checklist', items: [
+          'Residentes fiscais em Portugal: permanência >183 dias em qualquer período de 12 meses que comece ou termine no ano, ou habitação em condições que façam supor intenção de a manter e ocupar como residência habitual (art. 16 CIRS). Normalmente entregam, mas há exceções ao abrigo do art. 58 CIRS',
+          'Não residentes com rendimento de fonte portuguesa — entregam apenas sobre o rendimento português',
+          'Sujeitos NHR/IFICI — entregam com formulários/assinalações específicos'
+        ]},
+        { kind: 'warning', text: 'Os residentes declaram normalmente o rendimento mundial. NHR/IFICI concedem benefícios segundo as regras do regime, não uma isenção total.' }
       ]
     },
     {
-      "id": "deadline",
-      "title": "Prazos",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "A declaração referente ao ano N é entregue entre 1 de abril e 30 de junho do ano N+1. Independentemente da categoria de rendimento (salário, Recibo Verde (recibos eletrónicos de trabalhador independente), arrendamento, etc.)."
-        },
-        {
-          "kind": "warning",
-          "text": "Falhar o prazo — coima de 150–3750 €. É melhor entregar com erro e corrigir (modelo de substituição)."
-        }
+      id: 'deadline',
+      title: 'Prazos',
+      content: [
+        { kind: 'paragraph', text: 'A declaração relativa ao ano N é entregue entre 1 de abril e 30 de junho do ano N+1. Independentemente da categoria de rendimento (salário, recibos verdes, rendas, etc.).' },
+        { kind: 'warning', text: 'Por atraso — coima normalmente de 150 €–3 750 € (RGIT art. 116), com possível redução em caso de entrega voluntária rápida. Se encontrar um erro — entregue uma declaração de substituição; não entregue dados deliberadamente incorretos.' }
       ]
     },
     {
-      "id": "categories",
-      "title": "Categorias de rendimentos",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Categoria A — salário, pensão",
-            "Categoria B — trabalho independente (Recibo Verde)",
-            "Categoria E — rendimento de investimentos (dividendos, juros)",
-            "Categoria F — arrendamento de imóveis",
-            "Categoria G — mais-valias (venda de ações, criptomoeda)",
-            "Categoria H — pensões",
-            "Rendimento estrangeiro — no anexo J"
-          ]
-        }
+      id: 'categories',
+      title: 'Categorias de rendimentos',
+      content: [
+        { kind: 'checklist', items: [
+          'Categoria A — rendimentos de trabalho dependente / salário',
+          'Categoria B — trabalho independente (recibos verdes)',
+          'Categoria E — rendimentos de capitais (dividendos, juros)',
+          'Categoria F — rendas de imóveis',
+          'Categoria G — mais-valias (venda de ações, criptomoeda)',
+          'Categoria H — pensões',
+          'Rendimento estrangeiro — no Anexo J'
+        ]}
       ]
     },
     {
-      "id": "process",
-      "title": "Processo de entrega",
-      "content": [
-        {
-          "kind": "substeps",
-          "items": [
-            {
-              "id": "s1",
-              "title": "1. IRS Automático (se for elegível)",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Para a categoria A (salário), sem outras fontes, as Finanças preparam a declaração. Só tem de verificar e aprovar. Pode verificar em Portal das Finanças → IRS → IRS Automático."
-                }
-              ]
-            },
-            {
-              "id": "s2",
-              "title": "2. Entrega manual (Modelo 3)",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Se tiver fontes adicionais — entrega através de Portal das Finanças → IRS → Entregar. É necessário preencher o Modelo 3 + os anexos necessários (Anexos)."
-                }
-              ]
-            },
-            {
-              "id": "s3",
-              "title": "3. Anexos",
-              "content": [
-                {
-                  "kind": "checklist",
-                  "items": [
-                    "Anexo A — salário/pensão",
-                    "Anexo B — Recibo Verde (regime simplificado)",
-                    "Anexo C — Recibo Verde (contabilidade organizada)",
-                    "Anexo E — investimentos",
-                    "Anexo F — arrendamento",
-                    "Anexo G — mais-valias",
-                    "Anexo H — deduções (saúde, educação, alimentação, habitação)",
-                    "Anexo J — rendimento estrangeiro"
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "s4",
-              "title": "4. Verificação e submissão",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Verificação automática. Após a submissão — comprovativo de entrega. Estado — no Portal das Finanças."
-                }
-              ]
-            },
-            {
-              "id": "s5",
-              "title": "5. Resultado",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Até julho-agosto — cálculo (liquidação). Se houver imposto pago em excesso — reembolso. Se houver imposto em falta — prazo de pagamento até 31 de agosto."
-                }
-              ]
-            }
-          ]
-        }
+      id: 'process',
+      title: 'Processo de entrega',
+      content: [
+        { kind: 'substeps', items: [
+          { id: 's1', title: '1. IRS Automático (se for elegível)', content: [
+            { kind: 'paragraph', text: 'O IRS Automático está disponível apenas para os casos simples previstos pela AT — normalmente para parte da Categoria A/H sem rendimento estrangeiro (Anexo J), sem anexos complexos e benefícios. Verificar elegibilidade — em Portal das Finanças → IRS → IRS Automático.' }
+          ]},
+          { id: 's2', title: '2. Entrega manual (Modelo 3)', content: [
+            { kind: 'paragraph', text: 'Se existirem fontes adicionais — entrega através de Portal das Finanças → IRS → Entregar. É necessário preencher o Modelo 3 + os anexos necessários (Anexos).' }
+          ]},
+          { id: 's3', title: '3. Anexos', content: [
+            { kind: 'checklist', items: [
+              'Anexo A — rendimentos de trabalho dependente (Categoria A) e pensões (Categoria H), pagos por entidades pagadoras portuguesas',
+              'Anexo B — recibos verdes (regime simplificado)',
+              'Anexo C — recibos verdes (contabilidade organizada)',
+              'Anexo E — investimentos',
+              'Anexo F — rendas',
+              'Anexo G — mais-valias',
+              'Anexo H — deduções (saúde, educação, alimentação, habitação)',
+              'Anexo J — rendimento estrangeiro'
+            ]}
+          ]},
+          { id: 's4', title: '4. Validação e envio', content: [
+            { kind: 'paragraph', text: 'Validação automática. Após o envio — comprovativo de entrega. Estado — no Portal das Finanças.' }
+          ]},
+          { id: 's5', title: '5. Resultado', content: [
+            { kind: 'paragraph', text: 'Até julho-agosto — cálculo (liquidação). Se houver pagamento em excesso — reembolso. Se houver imposto a pagar — prazo de pagamento até 31 de agosto.' }
+          ]}
+        ]}
       ]
     },
     {
-      "id": "deductions",
-      "title": "Principais deduções (Anexo H)",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Despesas médicas — 15% até 1000 €",
-            "Educação (filhos) — 30% até 800 €",
-            "Serviços públicos (eletricidade, gás, água) — 15% até 250 €",
-            "Faturas de restaurantes — 15% até 250 €",
-            "Arrendamento — 15% até 502 €",
-            "Crédito à habitação — 15% até 296 € (apenas para créditos anteriores a 2011)",
-            "Despesas gerais (Faturas.pt) — 35% até 250 €",
-            "PPR (conta de reforma) — 20% até 400 €"
-          ]
-        },
-        {
-          "kind": "paragraph",
-          "text": "Para que as deduções sejam contabilizadas — peça NIF em todas as faturas (o Faturas.pt recolhe automaticamente)."
-        }
+      id: 'deductions',
+      title: 'Principais deduções (Anexo H)',
+      content: [
+        { kind: 'checklist', items: [
+          'Despesas de saúde — 15% até 1 000 €',
+          'Educação — 30% até 800 € por agregado familiar (e não por criança)',
+          'Despesas gerais familiares (faturas com NIF) — 35% até 250 € por sujeito passivo',
+          'Exigência de fatura (restaurantes/hotéis, reparação de automóveis/motociclos, cabeleireiros, veterinários, ginásios, etc.) — 15% do IVA pago, limite global de 250 € por agregado familiar',
+          'Renda de habitação permanente — 15% até 700 € para o IRS 2025 (com aumento posterior segundo o calendário transitório), quando os contratos/e-recibos tiverem sido comunicados',
+          'Juros de crédito para habitação própria e permanente — 15% até 296 € apenas para contratos até 31.12.2011',
+          'PPR — 20% das contribuições: até 400 € (menos de 35 anos), 350 € (35–50), 300 € (mais de 50)'
+        ]},
+        { kind: 'paragraph', text: 'Para que as deduções sejam consideradas — peça NIF em todas as faturas. O e-Fatura no Portal das Finanças recolhe automaticamente as faturas; até ao prazo definido, verifique e classifique as despesas.' }
       ]
     },
     {
-      "id": "nhr-ifici",
-      "title": "NHR e IFICI — particularidades",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "NHR (até 2024): 20% sobre trabalho qualificado + 0% sobre rendimento estrangeiro. Para sujeitos já abrangidos — até ao fim do período de 10 anos."
-        },
-        {
-          "kind": "paragraph",
-          "text": "IFICI (desde 2024): 20% sobre atividade qualificada. Entrega através de Portal das Finanças → perfil IFICI + Modelo 3 com indicação."
-        }
+      id: 'nhr-ifici',
+      title: 'NHR e IFICI — particularidades',
+      content: [
+        { kind: 'paragraph', text: 'O NHR para quem já está registado vigora até ao fim do período de 10 anos: 20% sobre determinados rendimentos portugueses de atividades de elevado valor acrescentado; nos rendimentos estrangeiros, o regime depende da categoria e da CDT (não são 0% universais); as pensões estrangeiras para novos NHR — normalmente 10%.' },
+        { kind: 'paragraph', text: 'O IFICI desde 2024 — taxa de 20% sobre eligible net employment/business income segundo a lista aprovada (Estatuto dos Benefícios Fiscais art. 58-A, Portaria 352/2024/1). É necessário registo na AT/entidade competente (FCT, ANI, Startup Portugal, AICEP/IAPMEI) dentro do prazo estabelecido. Incompatível com NHR. Entrega — através do perfil IFICI + Modelo 3 com assinalação.' }
       ]
     }
   ],
-  "sources": [
-    {
-      "title": "Portal das Finanças — IRS",
-      "url": "https://www.portaldasfinancas.gov.pt/at/html/irsweb2024",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "ePortugal — Entregar IRS",
-      "url": "https://eportugal.gov.pt/cidadaos/-/informacoes/entregar-o-irs",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "Código do IRS (DRE)",
-      "url": "https://info.portaldasfinancas.gov.pt/",
-      "kind": "law",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    }
+  sources: [
+    { title: 'Portal das Finanças — IRS', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Entregar IRS', url: 'https://eportugal.gov.pt/servicos/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Código do IRS (Diário da República)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'AT — Dispensa de entrega da declaração de IRS', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Folheto_IRS_Dispensa_Entrega.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  "lastVerified": "2026-04-22",
-  "verifyIntervalDays": 180
+  lastVerified: '2026-05-17',
+  verifyIntervalDays: 180
 }

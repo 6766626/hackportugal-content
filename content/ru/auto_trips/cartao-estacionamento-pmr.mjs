@@ -80,6 +80,6 @@ export default {
     { title: 'INR: direitos e estacionamento de pessoas com deficiência', url: 'https://www.inr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 307/2003 — cartão de estacionamento de modelo comunitário', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/307-2003-617116', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -38,7 +38,7 @@ export default {
         { kind: 'checklist', items: [
           '13 июня — Santo António (Лиссабон). Уличные гулянья в Alfama, сардины на углях. Marchas Populares 12 июня на Avenida da Liberdade',
           '24 июня — São João (Порту). Битва пластиковыми молотками, алкатруз на голове, фейерверки над Дору — легендарное событие',
-          '29 июня — São Pedro (Сетубал). Рыбацкие фестивали'
+          '29 июня — São Pedro: муниципальные праздники в ряде городов (Sintra, Seixal, Póvoa de Varzim и др.; в Setúbal муниципальный праздник — 15 сентября). Рыбацкие фестивали'
         ]},
         { kind: 'paragraph', text: 'Для жителей это сардины, португальские песни, гирлянды и полные людей парки. Отличный способ почувствовать местную культуру.' }
       ]
@@ -79,9 +79,10 @@ export default {
         { kind: 'paragraph', text: 'По закону работник в Португалии имеет:' },
         { kind: 'checklist', items: [
           '22 рабочих дня отпуска в год',
-          'Subsídio de férias (отпускные) — 1 месячная зарплата дополнительно в июле',
-          'Subsídio de Natal — 1 месячная зарплата в декабре',
-          '3 дня отгула на свадьбу или смерть близкого',
+          'Subsídio de férias (отпускные) — соответствует базовой зарплате за период отпуска; по закону выплачивается до начала отпуска',
+          'Subsídio de Natal — соответствует месячной зарплате, обычно выплачивается до 15 декабря',
+          'Брак (свадьба) — 15 последовательных дней отсутствия по Código do Trabalho',
+          'Смерть близких родственников — срок ausência justificada зависит от степени родства (от 2 до 20 дней по CT art. 251)',
           'Выходной в день рождения, если работодатель согласен; это частая практика'
         ]}
       ]
@@ -92,6 +93,6 @@ export default {
     { title: 'Governo de Portugal — Código do Trabalho (трудовой кодекс)', url: 'https://www.dgert.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Diário da República — Lei 7/2009 (Código do Trabalho)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

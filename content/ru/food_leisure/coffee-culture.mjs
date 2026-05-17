@@ -3,7 +3,7 @@ export default {
   id: 'coffee-culture',
   categoryId: 'food_leisure',
   title: 'Кофейная культура Португалии',
-  tldr: 'Португальцы пьют 3–5 кофе в день. Bica (Лиссабон) / Cimbalino (Порту) = маленький эспрессо за € 0,70–1. Основные варианты — meia de leite, galão, abatanado, pingado. Лучшие кофейни: Nicola, A Brasileira, Fábrica. Сетевые кофейни вроде Starbucks дороже и менее уважаемы.',
+  tldr: 'Кофе в Португалии пьют часто: для многих нормально выпить несколько маленьких café/bica в течение дня. Bica (Лиссабон) / Cimbalino (Порту) = маленький эспрессо, обычно € 0,80–1,30 в районной pastelaria; в центре, исторических кафе и specialty-местах дороже. Основные варианты — meia de leite, galão, abatanado, pingado. Исторические кафе: A Brasileira, Nicola, Martinho da Arcada, Majestic. Specialty: Fábrica Coffee Roasters, Copenhagen Coffee Lab, Combi, 7g.',
   tags: ['кофе', 'bica', 'pastelaria'],
   estimatedReadMinutes: 4,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Словарь кофе',
       content: [
         { kind: 'checklist', items: [
-          'Bica (Лиссабон) / Cimbalino / Café (Порту) — эспрессо 25–30 мл, ~€ 0,80',
+          'Café — обычный маленький эспрессо 25–30 мл; bica — лиссабонское слово, cimbalino — север/Порту. В районной pastelaria часто ~€ 0,80–1,30',
           'Café cheio / curto — чуть длиннее / очень короткий',
           'Café duplo — двойной эспрессо',
           'Pingado — эспрессо с каплей молока',
@@ -20,7 +20,7 @@ export default {
           'Meia de Leite — эспрессо с молоком 50/50, в чашке',
           'Galão — меньше кофе и больше молока, в стакане',
           'Galão escuro / claro — тёмный / светлый',
-          'Abatanado / Americano — «длинный» кофе',
+          'Abatanado — длинный café в большой чашке; Americano — эспрессо с добавленной горячей водой (на практике в кафе могут использовать почти взаимозаменяемо)',
           'Carioca de Limão — чай из лимонной цедры (не кофе, но часто заказывают)',
           'Descafeinado — без кофеина'
         ]}
@@ -30,7 +30,7 @@ export default {
       id: 'when',
       title: 'Когда что пить',
       content: [
-        { kind: 'paragraph', text: 'Утром — galão или meia de leite с pastel de nata. После обеда — bica (местные считают galão «детским» напитком днём). Вечером — эспрессо не возбраняется, португальцы пьют кофе в любое время.' },
+        { kind: 'paragraph', text: 'Утром — galão или meia de leite с pastel de nata. После обеда чаще берут маленький café/bica; galão обычно воспринимается скорее как утренний напиток. Вечером эспрессо не возбраняется — португальцы пьют кофе в любое время.' },
         { kind: 'warning', text: 'В меню слово «café» обычно значит «эспрессо». Если хотите то, что обычно называют «кофе», просите abatanado.' }
       ]
     },
@@ -42,7 +42,7 @@ export default {
           { id: 'l1', title: 'Лиссабон', content: [
             { kind: 'checklist', items: [
               'A Brasileira (Chiado) — историческое кафе, статуя Песоа',
-              'Nicola (Rossio) — открыто в 1700-е годы',
+              'Nicola (Rossio) — историческое кафе, корни обычно датируют 1787 годом',
               'Café Martinho da Arcada — старейшее кафе в Лиссабоне (1782)',
               'Fábrica Coffee Roasters — специалити-кофе',
               'Copenhagen Coffee Lab — скандинавский специалити-кофе'
@@ -72,6 +72,6 @@ export default {
     { title: 'A Brasileira do Chiado', url: 'https://www.visitlisboa.com/en/places/chiado-41699ec3-eda7-414e-a9c1-e985f2f0efb7', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Cafés', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

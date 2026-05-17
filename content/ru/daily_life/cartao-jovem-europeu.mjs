@@ -112,6 +112,6 @@ export default {
     { title: 'IPDJ — программы для молодёжи и Cartão Jovem', url: 'https://ipdj.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'European Youth Card Association — международная сеть скидок', url: 'https://eyca.org', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

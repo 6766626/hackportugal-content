@@ -16,9 +16,9 @@ export default {
             { kind: 'checklist', items: [
               'Обязательна по закону (Decreto-Lei 291/2007)',
               'Покрывает ущерб третьим лицам (автомобили, люди)',
-              'Минимальный лимит: 1 300 000 € на человека и 8 000 000 € на событие',
-              'Carta Verde (международная страховая карта) — международная зелёная карта для Шенгена',
-              'Без RC — штраф 250–1250 €, арест автомобиля'
+              'Минимальные страховые суммы RC: установлены законом/ASF (см. ст. 12 DL 291/2007); важно различать лимит на пострадавшего и лимит на событие — проверяйте актуальные суммы в публикациях ASF',
+              'Certificado Internacional de Seguro Automóvel / antiga Carta Verde — для EU/EEA португальская RC действует автоматически, но сертификат полезно иметь; для некоторых стран вне EU/EEA он может быть обязателен',
+              'Без действующей RC: для легкового авто coima обычно **500–2500 €**, возможна apreensão/imobilização do veículo и ответственность перед Fundo de Garantia Automóvel/потерпевшими'
             ]}
           ]},
           { id: 'danos-p', title: 'Danos Próprios / Casco', content: [
@@ -96,7 +96,7 @@ export default {
         { kind: 'checklist', items: [
           '🛍️ Сравнить 3–5 предложений — цены могут различаться в 2 раза',
           '📅 Смена страховщика — за 30 дней до окончания, письменное заявление об отмене',
-          '🚗 При продаже авто — перенос страховки к новому владельцу в течение 8 дней',
+          '🚗 При продаже авто страховка продавца **не переходит** к покупателю — покупатель оформляет свою RC до начала движения. Продавец уведомляет страховщика о продаже и может запросить прекращение договора/возврат части премии или перенос полиса на другой автомобиль',
           '🆘 Номер ASF 213 847 900 — для жалоб',
           '🌍 Carta Verde обязательна для поездки в другие страны ЕС',
           '📉 После 5 лет без аварий — бонус-малус идёт до минимума'
@@ -108,7 +108,7 @@ export default {
     { label: 'Базовая RC (опытный водитель 1.4 л)', amountEURMin: 180, amountEURMax: 280 },
     { label: 'RC + частичное Casco', amountEURMin: 400, amountEURMax: 700 },
     { label: 'Все виды покрытия (полный пакет)', amountEURMin: 700, amountEURMax: 1500 },
-    { label: 'Штраф за вождение без RC', amountEURMin: 250, amountEURMax: 1250 }
+    { label: 'Coima за вождение без RC (легковой авто)', amountEURMin: 500, amountEURMax: 2500 }
   ],
   sources: [
     { title: 'Decreto-Lei 291/2007 — Seguro automóvel', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2007-34522075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
@@ -116,6 +116,6 @@ export default {
     { title: 'FGA — Fundo de Garantia Automóvel', url: 'https://www.fga.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Seguro automóvel', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

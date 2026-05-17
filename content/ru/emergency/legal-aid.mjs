@@ -33,8 +33,8 @@ export default {
           { id: 'a1', title: 'Кто имеет право', content: [
             { kind: 'checklist', items: [
               'Резиденты Португалии (независимо от гражданства, при наличии легального статуса)',
-              'Доход семьи ниже 3/4 IAS (~382 €/месяц на члена семьи — полное освобождение)',
-              'От 3/4 до 1,5× IAS — частичная оплата',
+              'Доход семьи ниже 3/4 IAS (= ~402,85 €/мес на члена семьи в 2026, IAS = 537,13 €) — полное освобождение',
+              'От 3/4 до 1,5× IAS (~402,85 €–805,70 €/мес на члена семьи в 2026) — частичная оплата',
               'Юридические лица — в специфических случаях',
               'Для беженцев и уязвимых групп — автоматически'
             ]}
@@ -158,6 +158,6 @@ export default {
     { title: 'Segurança Social — Apoio Judiciário', url: 'https://www.seg-social.pt/apoio-judiciario', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Provedor de Justiça — омбудсмен Португалии', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

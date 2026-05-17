@@ -166,6 +166,6 @@ export default {
     { title: 'Câmara Municipal de Coimbra — Mercado Municipal D. Pedro V', url: 'https://www.cm-coimbra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Município de Olhão — Mercado Municipal de Olhão', url: 'https://www.cm-olhao.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

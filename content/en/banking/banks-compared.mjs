@@ -3,7 +3,7 @@ export default {
   id: 'banks-compared',
   categoryId: 'banking',
   title: 'Portuguese banks and neobanks — 2026 comparison',
-  tldr: 'Three tiers: traditional banks (Millennium, CGD, Santander, BPI, Novo Banco) — full service, branches, loans, but fees of €4–8/month. Online banks ActivoBank / BiG — no account fees, IBAN PT, MB WAY. Neobanks Revolut / Wise / N26 — European IBAN (LT/DE/BE), cheap transfers, but limitations for pension and official payments.',
+  tldr: 'Three levels: traditional banks (Millennium, CGD, Santander, BPI, Novobanco) — full service, branches, loans, but fees of €4–8/month. Online banks ActivoBank / BiG — no account fees, PT IBAN, MB WAY. Neobanks: Revolut may issue a PT or LT IBAN depending on migration/account; Wise usually has a BE IBAN; N26 has a DE IBAN. Cheap transfers, but limitations for pension and official payments.',
   tags: ['bank', 'account', 'iban', 'mb way', 'revolut'],
   estimatedReadMinutes: 7,
   steps: [
@@ -15,8 +15,8 @@ export default {
           { id: 'c1', title: 'Millennium BCP', content: [
             { kind: 'checklist', items: [
               'Portugal’s largest private bank',
-              'Account: €4.50/month (with salary €0)',
-              'App in Russian/English',
+              'Account: €4.50/month (with salary: €0)',
+              'App usually PT/EN; do not count on a Russian version',
               'Network of ~400 branches',
               'Good for mortgages for non-residents',
               'SEPA transfer fee: €0, SWIFT: €15–40'
@@ -35,40 +35,40 @@ export default {
             { kind: 'checklist', items: [
               'Spanish group, universal bank',
               'Account: €7/month',
-              'App in Russian/English',
-              'They open accounts for non-residents easily',
-              'EUR ↔ other currency conversion at a favourable rate'
+              'App usually PT/EN/ES; do not count on a Russian version',
+              'They readily open accounts for non-residents',
+              'EUR ↔ other currencies conversion at a favourable rate'
             ]}
           ]},
           { id: 'c4', title: 'BPI', content: [
             { kind: 'paragraph', text: 'Part of CaixaBank (Spain). Good for investments and wealth management. Account €6/month. Fewer branches, but a strong app.' }
           ]},
-          { id: 'c5', title: 'Novo Banco', content: [
-            { kind: 'paragraph', text: 'Former BES. Stable after restructuring. €4/month. One of the few that is accommodating when opening accounts for foreigners with a residence permit.' }
+          { id: 'c5', title: 'Novobanco', content: [
+            { kind: 'paragraph', text: 'Former BES. Stable after restructuring. €4/month. One of the few that is flexible about opening accounts for foreigners with a residence permit.' }
           ]}
         ]}
       ]
     },
     {
       id: 'online',
-      title: 'Online banks with IBAN PT',
+      title: 'Online banks with a PT IBAN',
       content: [
         { kind: 'substeps', items: [
           { id: 'o1', title: 'ActivoBank (Millennium)', content: [
             { kind: 'checklist', items: [
-              'IBAN PT, no account fee',
+              'PT IBAN, no account fee',
               'Full-featured app, MB WAY',
               'Free Visa debit card',
               'Suitable for salary, recibos verdes, rent',
-              'No branches — everything online + call centre',
+              'Mostly online + call centre; there are physical service points, but not a traditional branch network',
               'Opening: fully online with NIF and residence permit/Cartão de Cidadão'
             ]}
           ]},
           { id: 'o2', title: 'BiG (Banco de Investimento Global)', content: [
-            { kind: 'paragraph', text: 'Specialised in investments. Good for brokerage operations, IBAN PT. For everyday banking — slightly weaker than ActivoBank.' }
+            { kind: 'paragraph', text: 'Specialises in investments. Good for brokerage operations, PT IBAN. For everyday banking, slightly weaker than ActivoBank.' }
           ]},
-          { id: 'o3', title: 'Moey! (Caixa Económica digital bank)', content: [
-            { kind: 'paragraph', text: 'Digital brand of CGD (Caixa Geral de Depósitos) with fully online registration. IBAN PT, free basic account, virtual cards. An alternative to ActivoBank. (Vivid Money — previously mentioned — exited the retail market in 2024 and no longer accepts new customers.)' }
+          { id: 'o3', title: 'Moey! (digital brand of Crédito Agrícola)', content: [
+            { kind: 'paragraph', text: 'Digital brand of Crédito Agrícola / Caixa Central de Crédito Agrícola Mútuo with fully online registration. PT IBAN, free basic account and card, 100% mobile onboarding when KYC is completed. An alternative to ActivoBank. (Vivid Money — previously mentioned — exited the retail market in 2024 and no longer accepts new clients.)' }
           ]}
         ]}
       ]
@@ -80,10 +80,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 'n1', title: 'Revolut', content: [
             { kind: 'checklist', items: [
-              'Since 2024 Revolut has opened a Revolut Bank branch in Portugal and gives **IBAN PT (PT50) free to all new customers** (Standard/Plus/Premium). Previously IBAN PT was for Premium+',
-              'Free SEPA + exchange in 20 currencies',
+              'Revolut is gradually moving clients in Portugal to a PT IBAN through the Portuguese branch of Revolut Bank UAB; availability depends on the account/onboarding status and Revolut’s terms on the opening date. Check in the app which IBAN has been issued: PT, LT or another',
+              'Free SEPA + exchange in 20 currencies (within plan limits; at weekends there is usually an additional markup)',
               'Cryptocurrency, shares, gold',
-              'Limit of €100,000 on a foreign EU bank account (sanctions for the Russian Federation, Reg 833/2014)',
+              'EU sanctions: EU banks cannot accept deposits above €100,000 from citizens of the Russian Federation/persons residing in the Russian Federation, and Russian legal entities, unless an exception applies. For citizens of the Russian Federation with a residence permit/permanent residence in the EU/EEA/Switzerland, an important exception applies, but the bank may still request enhanced KYC',
               'MB WAY — not supported in Revolut/Wise/N26'
             ]}
           ]},
@@ -91,16 +91,16 @@ export default {
             { kind: 'checklist', items: [
               'IBAN: BE (Belgium)',
               'Best rates for international transfers',
-              'Free Mastercard debit card',
-              'Fewer banking features, but a more accurate rate',
+              'Debit card: a physical card is usually available for a one-off fee; a virtual card may be free. Check the Wise tariff for Portugal',
+              'Fewer banking features, but a more accurate exchange rate',
               'Suitable as an additional account for currency operations'
             ]}
           ]},
           { id: 'n3', title: 'N26', content: [
-            { kind: 'paragraph', text: 'IBAN DE. German bank, popular with Germans and Scandinavians. Top-up limits from some countries.' }
+            { kind: 'paragraph', text: 'DE IBAN. German bank, popular with Germans and Scandinavians. Top-up limits from some countries.' }
           ]}
         ]},
-        { kind: 'warning', text: 'Neobanks with a non-PT IBAN are often NOT accepted by: government portals Finanças (for refunds), Segurança Social (social security), some landlords. The main account should be Portuguese.' }
+        { kind: 'warning', text: 'In practice, a PT IBAN is easier for Finanças, Segurança Social, salary, rent and direct debit. Under SEPA rules, IBAN discrimination is prohibited, but for a foreign IBAN manual validation/documents may be required, and some landlords or companies still try to demand a PT IBAN. It is better to keep your main account with a Portuguese bank.' }
       ]
     },
     {
@@ -108,7 +108,7 @@ export default {
       title: 'How to open an account',
       content: [
         { kind: 'substeps', items: [
-          { id: 'h1', title: 'Portugal resident (with residence permit)', content: [
+          { id: 'h1', title: 'Resident of Portugal (with a residence permit)', content: [
             { kind: 'checklist', items: [
               'Documents: Cartão de Cidadão/residence permit, NIF, proof of address, proof of income',
               'Online (ActivoBank, BiG) or in a branch',
@@ -116,13 +116,13 @@ export default {
               'Initial deposit: usually €250'
             ]}
           ]},
-          { id: 'h2', title: 'Non-resident (without residence permit)', content: [
+          { id: 'h2', title: 'Non-resident (without a residence permit)', content: [
             { kind: 'checklist', items: [
               'NIF is mandatory',
-              'Banks: Millennium, Santander, Novo Banco (the most accommodating)',
+              'Banks: Millennium, Santander, Novobanco (the most flexible)',
               'Proof of income from abroad (salary certificate)',
-              'Minimum deposit: €250–1000',
-              '€100,000 deposit limit for citizens of the Russian Federation (sanctions)',
+              'Minimum deposit: €250–1,000',
+              'EU sanctions (Reg 833/2014): EU banks cannot accept deposits above €100,000 from citizens of the Russian Federation/persons residing in the Russian Federation. For citizens of the Russian Federation with a residence permit/permanent residence in the EU/EEA/Switzerland, an exception applies, but the bank may request enhanced KYC and proof of residency',
               'Without a residence permit, accounts are blocked if money laundering is suspected (AML)'
             ]}
           ]}
@@ -133,13 +133,13 @@ export default {
       id: 'mb-way',
       title: 'MB WAY — payments and transfers by phone',
       content: [
-        { kind: 'paragraph', text: 'MB WAY — the Portuguese instant payments system from SIBS. Like Revolut, but only for IBAN PT.' },
+        { kind: 'paragraph', text: 'MB WAY is the Portuguese instant payments system from SIBS. Like Revolut, but only for PT IBANs.' },
         { kind: 'checklist', items: [
-          '📱 Link your number to a Portuguese bank via the bank app or the MB WAY app',
-          '💸 Phone transfers are instant, up to €2500/day, €5000/month',
-          '🛒 Payment in shops by NFC / QR',
-          '🎟️ Generate one-off virtual cards',
-          '🆓 Free for individuals',
+          '📱 Link a number to a Portuguese bank via the bank app or the MB WAY app',
+          '💸 Transfers by phone are instant; a typical MB WAY limit is up to €750 per transfer, and the specific bank may set lower daily/monthly limits',
+          '🛒 In-store payment by NFC / QR',
+          '🎟️ Generation of one-off virtual cards',
+          '🆓 Paying for purchases is usually free for the customer; P2P transfers may be free within the bank’s limits/terms',
           '🔄 Between all Portuguese banks',
           '❌ Does NOT work in Revolut / Wise / N26'
         ]}
@@ -148,17 +148,17 @@ export default {
   ],
   costs: [
     { label: 'Traditional bank (fee/month)', amountEURMin: 4, amountEURMax: 8 },
-    { label: 'Online bank with IBAN PT', amountEUR: 0 },
-    { label: 'Revolut Standard (free IBAN PT)', amountEUR: 0, note: 'since 2024 IBAN PT for everyone' },
-    { label: 'Revolut Premium', amountEUR: 9, note: '€/month, higher limits/insurance' },
+    { label: 'Online bank with a PT IBAN', amountEUR: 0 },
+    { label: 'Revolut Standard (PT IBAN free)', amountEUR: 0, note: 'since 2024 PT IBAN for everyone' },
+    { label: 'Revolut Premium', amountEUR: 10, note: '~€9.99/month, higher limits/insurance' },
     { label: 'Initial deposit', amountEURMin: 250, amountEURMax: 1000 }
   ],
   sources: [
     { title: 'Banco de Portugal — List of institutions', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'FGD — Fundo de Garantia de Depósitos (€100,000 guarantee)', url: 'https://www.fgd.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'FGD — Fundo de Garantia de Depósitos (guarantee €100,000)', url: 'https://www.fgd.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — Fee comparison tool', url: 'https://clientebancario.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'SIBS — official MB WAY', url: 'https://www.mbway.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

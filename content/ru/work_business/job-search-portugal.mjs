@@ -3,7 +3,7 @@ export default {
   id: 'job-search-portugal',
   categoryId: 'work_business',
   title: 'Поиск работы в Португалии — сайты и стратегия',
-  tldr: 'Четыре канала: общие (LinkedIn, Net-Empregos, Jobs.at), IT (Landing.jobs, ITJobs.pt, Get on Board, RemoteOK; Stack Overflow Jobs закрыт в 2022), руководящие вакансии (Michael Page, Hays), удалённая работа на португальские компании из-за границы. Минимальная зарплата 2026 — 920 €/мес до вычета налогов. Средняя IT-зарплата мидл-специалиста — 2 500–4 000 € до вычета налогов; сеньор — 4 500–7 500 €. Для иностранцев знание португальского/английского необходимо; только английский — в IT и стартапах.',
+  tldr: 'Четыре канала: общие (LinkedIn, Net-Empregos, Jobs.at), IT (Landing.jobs, ITJobs.pt, RemoteOK, We Work Remotely, Welcome to the Jungle), руководящие вакансии (Michael Page, Hays), удалённая работа на португальские компании из-за границы. Минимальная зарплата 2026 — 920 €/мес до вычета налогов. Средняя IT-зарплата мидл-специалиста — 2 500–4 000 € до вычета налогов; сеньор — 4 500–7 500 €. Для иностранцев знание португальского/английского необходимо; только английский — в IT и стартапах.',
   tags: ['работа', 'вакансии', 'linkedin', 'it', 'найм'],
   estimatedReadMinutes: 6,
   steps: [
@@ -52,8 +52,8 @@ export default {
           { id: 'i2', title: 'ITJobs.pt', content: [
             { kind: 'paragraph', text: 'Локальный португальский IT-портал. Больше корпоративных и крупных компаний (банки, телеком). Часто требуется португальский.' }
           ]},
-          { id: 'i3', title: 'Stack Overflow Jobs / RemoteOK', content: [
-            { kind: 'paragraph', text: 'Международные удалённые вакансии. Португальские компании присутствуют, платят по европейским стандартам. Часто полностью на английском.' }
+          { id: 'i3', title: 'RemoteOK / We Work Remotely / Welcome to the Jungle', content: [
+            { kind: 'paragraph', text: 'Международные удалённые вакансии (Stack Overflow Jobs закрыт ещё в 2022). Португальские компании присутствуют, платят по европейским стандартам. Часто полностью на английском.' }
           ]},
           { id: 'i4', title: 'Wellfound (AngelList)', content: [
             { kind: 'paragraph', text: 'Сообщество стартапов. В Лиссабоне сильное присутствие. Опционы и зарплата прозрачны.' }
@@ -103,10 +103,10 @@ export default {
           ]},
           { id: 'p4', title: '4. Трудовой договор', content: [
             { kind: 'checklist', items: [
-              'Тип: sem termo (бессрочный), a termo (срочный 6м–2 года), sem vínculo (фриланс через RV)',
+              'Типы трудового договора: sem termo (бессрочный), a termo certo (срочный с фиксированной датой), a termo incerto (срочный без фиксированной даты). Recibos verdes — не трудовой договор, а prestação de serviços/самозанятость; проверьте риск falso recibo verde',
               'Испытательный срок (período experimental): 90 дней / 180 для сеньоров',
               'Мин. зарплата 2026: 920 €/мес до вычета налогов',
-              '14-я зарплата + отпускные = по португальскому закону',
+              'Обычно 14 выплат в год: 12 зарплат + subsídio de férias + subsídio de Natal; иногда субсидии выплачиваются частями (duodécimos)',
               'ДМС — часто бонус'
             ]}
           ]}
@@ -122,7 +122,7 @@ export default {
           '🌍 Удалённая работа — компания из другой страны ЕС: найм в Португалии через EOR (Deel, Remote, Oyster)',
           '🎓 Признание дипломов: для регулируемых профессий (врач, архитектор, инженер) — через DGES + Ordens',
           '🔒 Виза D3 (высококвалифицированный специалист) — предложение работы обязательно',
-          '🌴 Налоговый режим IFICI — 20 % IRS на квалифицированные IT/инженерные должности',
+          '🌴 IFICI/NHR 2.0 может дать 20% IRS на eligible employment/self-employment income, но только для квалифицированных профессий и деятельности из утверждённых перечней (Estatuto dos Benefícios Fiscais art. 58-A; Portaria 352/2024/1) и при выполнении условий режима; обычная IT-должность сама по себе не гарантирует право',
           '📋 Граждане вне ЕС: виза D1/D3 оформляется в консульстве/VFS на основании трудового контракта (или предварительного предложения о работе) и требований к деятельности. Никакого отдельного «Contrato de Trabalho com Visto» от AIMA нет; AIMA выдаёт ВНЖ уже после въезда',
           '💼 Сайты компаний с явным фокусом на экспатов: Unbabel, Mollie, Farfetch, Outsystems, Revolut PT'
         ]}
@@ -141,6 +141,6 @@ export default {
     { title: 'ACT — Autoridade para as Condições do Trabalho', url: 'https://www.act.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do Trabalho (трудовой кодекс)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

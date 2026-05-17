@@ -3,7 +3,7 @@ export default {
   id: 'markets-mercados',
   categoryId: 'food_leisure',
   title: 'Рынки Португалии (Mercados)',
-  tldr: 'Муниципальные рынки — живая традиция: свежая рыба, мясо, овощи, специи. Главные в Лиссабоне: Mercado da Ribeira (Time Out), Mercado de Campo de Ourique, Arroios, 31 de Janeiro. В Порту — легендарный Mercado do Bolhão. Работают 7:00-14:00 (основное время), некоторые — до вечера как фуд-холлы.',
+  tldr: 'Муниципальные рынки — живая традиция: свежая рыба, мясо, овощи, специи. Главные в Лиссабоне: Mercado da Ribeira (Time Out), Mercado de Campo de Ourique, Arroios, 31 de Janeiro. В Порту — легендарный Mercado do Bolhão. Традиционные торговые ряды чаще всего активны утром примерно до 14:00, но расписание сильно зависит от рынка; фуд-холлы обычно работают дольше и открываются позже. Проверяйте часы на странице конкретного mercado/feira.',
   tags: ['рынки', 'рынок', 'mercado', 'time out'],
   estimatedReadMinutes: 5,
   steps: [
@@ -44,8 +44,8 @@ export default {
           { id: 'p3', title: 'Mercado do Bom Sucesso', content: [
             { kind: 'paragraph', text: 'Boavista. Современный фуд-холл с бутиками, похож на Time Out. Хорошее место для обеда.' }
           ]},
-          { id: 'p4', title: 'Feira de Vandoma', content: [
-            { kind: 'paragraph', text: 'У метро Bolhão, по воскресеньям утром. Блошиный рынок.' }
+          { id: 'p4', title: 'Feira da Vandoma', content: [
+            { kind: 'paragraph', text: 'Блошиный рынок Порту, обычно по субботам утром; локацию и часы лучше проверить на сайте Câmara Municipal do Porto, так как площадка может меняться.' }
           ]}
         ]}
       ]
@@ -55,7 +55,7 @@ export default {
       title: 'Другие регионы',
       content: [
         { kind: 'checklist', items: [
-          'Mercado de Abrantes — средневековый город, по субботам',
+          'Mercado Municipal de Abrantes — муниципальный рынок; часы и рыночные дни проверяйте на сайте Município de Abrantes',
           'Mercado de Loulé (Algarve) — сюрреалистичный мавританский стиль, суббота',
           'Mercado de Coimbra — современный рынок и уличная еда',
           'Feira de São Pedro (Sintra) — 2-е/4-е воскресенье месяца',
@@ -73,7 +73,7 @@ export default {
           'Платите наличными в традиционных ларьках: MB WAY или карту принимают не везде',
           '«Saco, por favor» — «пакет, пожалуйста»',
           'Спрашивайте «Prova?» — часто дают попробовать сыр, оливки',
-          'Просите NIF для IRS-вычета по счетам',
+          'Если вы налоговый резидент Португалии и подаёте IRS, просите fatura com NIF: покупки продуктов обычно идут в общие семейные расходы, а кафе/рестораны — в отдельную категорию e-Fatura',
           'Продавцы часто говорят только по-португальски — пригодится базовая лексика',
           'Завтрак (pequeno-almoço) на рынке — самый аутентичный вариант'
         ]}
@@ -85,6 +85,6 @@ export default {
     { title: 'Visit Porto — Mercado do Bolhão', url: 'https://visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Time Out Market Lisbon', url: 'https://www.timeoutmarket.com/lisboa/', kind: 'secondary', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

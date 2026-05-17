@@ -3,8 +3,8 @@ export default {
   id: 'evora-alentejo',
   categoryId: 'travel_portugal',
   title: 'Évora and Alentejo — whitewashed towns and wineries',
-  tldr: 'Évora (UNESCO) is the main city of Alentejo, 1.5 hours from Lisbon. Chapel of Bones (Capela dos Ossos), Roman Temple of Diana, cathedral. Around it are the Alentejo plains with whitewashed villages, olive groves, vineyards and rare authenticity. 1 day — Évora, 2–3 days — the region.',
-  tags: ['evora', 'alentejo', 'unesco', 'excursion'],
+  tldr: 'Évora (UNESCO) is the main city of Alentejo, 1.5 hours from Lisbon. Chapel of Bones (Capela dos Ossos), Roman Temple of Diana, cathedral. Around it are the Alentejo plains with whitewashed villages, olive groves, vineyards, and rare authenticity. 1 day — Évora, 2–3 days — the region.',
+  tags: ['evora', 'alentejo', 'unesco', 'tour'],
   estimatedReadMinutes: 7,
   steps: [
     {
@@ -56,19 +56,19 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'v1', title: 'Monsaraz (50 km from Évora)', content: [
-            { kind: 'paragraph', text: 'Medieval hilltop town, view over Lake Alqueva (man-made, the largest in Europe). Castle, narrow whitewashed streets. 1–2 hours.' }
+            { kind: 'paragraph', text: 'Medieval hilltop town, views over Lake Alqueva (artificial, the largest in Europe). Castle, whitewashed narrow streets. 1–2 hours.' }
           ]},
           { id: 'v2', title: 'Marvão (130 km)', content: [
-            { kind: 'paragraph', text: 'Mountain town by the Spanish border, castle, views of Serra de São Mamede. One of the most atmospheric places in Portugal.' }
+            { kind: 'paragraph', text: 'Mountain town near the Spanish border, castle, views of Serra de São Mamede. One of the most atmospheric places in Portugal.' }
           ]},
           { id: 'v3', title: 'Elvas (95 km from Évora)', content: [
-            { kind: 'paragraph', text: 'UNESCO — the largest surviving complex of bastioned fortifications in the world. Amoreira aqueduct, fortress.' }
+            { kind: 'paragraph', text: 'UNESCO — the world’s largest surviving complex of bastioned fortifications. Amoreira aqueduct, fortress.' }
           ]},
           { id: 'v4', title: 'Vila Viçosa', content: [
             { kind: 'paragraph', text: 'Marble everywhere, Palace of the Dukes of Braganza (former royal residence).' }
           ]},
           { id: 'v5', title: 'Estremoz', content: [
-            { kind: 'paragraph', text: 'Saturday antiques market, castle with a pousada hotel.' }
+            { kind: 'paragraph', text: 'Saturday market with antiques, castle with a pousada hotel.' }
           ]},
           { id: 'v6', title: 'Mértola (180 km — deep south)', content: [
             { kind: 'paragraph', text: 'Former Arab capital, former mosque-church, Moorish architecture.' }
@@ -96,12 +96,12 @@ export default {
       title: 'Tips',
       content: [
         { kind: 'checklist', items: [
-          '🗓️ Best seasons: April-May (blossom), September-October (harvest, mild climate)',
-          '🔥 In summer +35–40°C — hot. Plan sightseeing for the morning and evening',
+          '🗓️ Best seasons: April-May (flowering), September-October (harvest, mild climate)',
+          '🔥 In summer +35–40°C — hot. Plan sightseeing for morning and evening',
           '🏨 Pousadas — a hotel network in historic buildings (monasteries, fortresses). Pousada de Évora, Pousada de Estremoz, Pousada de Crato',
           '🚗 A car is essential for exploring the region',
           '🎫 Évora Card: €15 (3 days) — museums + discounted transport',
-          '💶 Prices are lower than in Lisbon/Porto — the beaches and region are underrated',
+          '💶 Prices are lower than in Lisbon/Porto — the beaches and the region are underrated',
           '🌻 Route: Évora → Monsaraz → Marvão (2–3 days)'
         ]}
       ]
@@ -112,6 +112,6 @@ export default {
     { title: 'Câmara Municipal de Évora — tourist information', url: 'https://www.cm-evora.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Alentejo', url: 'https://www.visitportugal.com/pt-pt/destinos/alentejo', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

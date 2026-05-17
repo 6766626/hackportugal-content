@@ -3,7 +3,7 @@ export default {
   id: 'buy-used-car-checks',
   categoryId: 'auto_trips',
   title: 'How to check a used car before buying in Portugal',
-  tldr: 'Check **4 layers**: (1) **ACP / Standvirtual** — history report by VIN, €15-30: fines, mileage, accidents; (2) **Carfax Portugal** — international database with history from the US/EU; (3) **Portal das Finanças** — check for any IUC, ISV debts; (4) **manual inspection** + independent mechanic for €50-150. The seller must provide the DUA (Documento Único Automóvel), valid IPO, handbook, keys (original + spare). Penalty for the seller for concealment: up to 3 × the car’s value.',
+  tldr: 'Check **4 layers**: (1) **ACP / Standvirtual** — vehicle history report by VIN, €15-30: fines, mileage, accidents; (2) **Carfax Portugal** — international database with history from the US/EU; (3) **Portal das Finanças** — check for any IUC, ISV debts; (4) **manual inspection** + independent mechanic for €50-150. The seller must provide the DUA (Documento Único Automóvel), valid IPO, manual, keys (original + spare). Seller’s fine for concealment: up to 3 × the car’s value.',
   tags: ['car', 'check', 'vin', 'purchase'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'o1', title: 'VIN decoding', content: [
             { kind: 'checklist', items: [
-              'VIN (17 characters) — in the DUA and on the windscreen',
+              'VIN (17 chars) — in the DUA and on the windscreen',
               'Free decoders: vincarfax.com, vindecoder.net — check model, year, engine, trim',
               'Compare with the advert — a frequent mismatch = red flag'
             ]}
@@ -35,12 +35,12 @@ export default {
             { kind: 'checklist', items: [
               '**SICV** — Sistema Informativo do Certificado de Veículo',
               'Free IMT portal: sicv.imt-ip.pt',
-              'Shows: matrícula, model, registration date, roadworthiness test, IUC debts',
+              'Shows: matrícula, model, registration date, roadworthiness inspection, IUC debts',
               'Does not show accident history'
             ]}
           ]},
           { id: 'o5', title: 'Portal das Finanças', content: [
-            { kind: 'paragraph', text: 'Through the seller (they log in with their CMD) — check for any IUC, ISV arrears. Debts pass to the new owner!' }
+            { kind: 'paragraph', text: 'Through the seller (they log in with their CMD) — check whether there are any IUC, ISV arrears. Debts transfer to the new owner!' }
           ]}
         ]}
       ]
@@ -52,9 +52,9 @@ export default {
         { kind: 'checklist', items: [
           '📑 **DUA (Documento Único Automóvel)** — ORIGINAL, not a copy. With blue logo, VIN, owner details',
           '📋 **IPO certificate** — valid on the purchase date (not expiring in the next 30 days)',
-          '📖 **Manual do condutor** (service book) + service history desirable',
+          '📖 **Manual do condutor** (service book) + service history preferably',
           '🔑 **2 keys**: original + spare. 1 key → negotiate a price reduction',
-          '🧾 **Factura proforma / contrato de compra-venda** — from a dealer (if the seller is a trader) or a simple contract (if a private individual)',
+          '🧾 **Factura proforma / contrato de compra-venda** — from the dealer (if the seller is a trader) or a simple contract (if a private individual)',
           '📄 **Registo de propriedade** — proof of ownership',
           '⚠️ If anything is missing → significant reason to negotiate or walk away'
         ]}
@@ -79,14 +79,14 @@ export default {
           { id: 'i2', title: 'Test drive', content: [
             { kind: 'checklist', items: [
               'Minimum 20 min, at different speeds',
-              'Pulling away: check there is no clutch slip',
+              'Pulling away: check for clutch slip',
               'Steering: vibration, play, heaviness',
-              'Brakes: pulsing, squeaking, unevenness',
+              'Brakes: pulsation, squeal, unevenness',
               'Gears: no crunching, everything smooth',
               'Suspension on an uneven road: knocking → worn shock absorbers',
               'Exhaust: blue smoke = oil, white = coolant',
               'Electronics: all buttons, signals, windows, air conditioning, music',
-              'Stop on the handbrake on an incline — check'
+              'Stop on the handbrake on a slope — check'
             ]}
           ]},
           { id: 'i3', title: 'Independent mechanic (recommended)', content: [
@@ -109,9 +109,9 @@ export default {
           'Buy an OBD-II Bluetooth adapter: €20-40 (OBDLink MX+, Veepeak)',
           'App: Car Scanner (Android), OBD Auto Doctor (iOS)',
           'Connect before the test drive',
-          'Shows: real mileage (not clocked), stored faults, real-time data',
-          'Seller cleared the code 10 min before the meeting — identify this via incomplete readiness monitors',
-          'Essential for cars > €50,000 / used major brands'
+          'Shows: real mileage (cannot be clocked), stored errors, real-time data',
+          'Seller clearing codes 10 min before the meeting — identify via incomplete readiness monitors',
+          'Mandatory for cars > €50,000 / used major brands'
         ]}
       ]
     },
@@ -124,8 +124,8 @@ export default {
             { kind: 'checklist', items: [
               'Bank transfer — the safest',
               'MB WAY up to €2,500',
-              'Car loan: Crédito Auto (ActivoBank, Caixa, Cofidis) — rates 5-10% per year',
-              'IVA 23% is included in the price, the dealer must issue a factura'
+              'Car finance: Crédito Auto (ActivoBank, Caixa, Cofidis) — rates 5-10% per year',
+              'IVA 23% included in the price, the dealer must issue a factura'
             ]}
           ]},
           { id: 'p2', title: 'From a private individual', content: [
@@ -133,15 +133,15 @@ export default {
               'Best at IMT / Conservatória Automóvel — public place, both witnesses',
               'Bank transfer — show confirmation immediately',
               'Simple contract (2 copies, full name/NIF of both parties + car registration + amount + date)',
-              'NO cash > €3,000 (Lei 92/2017 — generally not allowed between private individuals)',
-              'Handover of DUA + keys + documents in hand'
+              'NO cash > €3,000 (Lei 92/2017 — not allowed at all between private individuals)',
+              'Handover of DUA + keys + documents in person'
             ]}
           ]},
           { id: 'p3', title: 'Registration to the new owner', content: [
             { kind: 'checklist', items: [
               '**Within 60 days** (by law) — register the transfer at IMT / Conservatória do Registo Automóvel / Espaço Automóvel in Loja do Cidadão',
               'Fee: €45-65 (online / in person)',
-              'Documents: DUA, purchase and sale contract, Cartão de Cidadão/residence permit for both parties, IPO',
+              'Documents: DUA, purchase and sale contract, CC/residence permit of both parties, IPO',
               '⚠️ If the seller has not handed over the DUA — you are not the owner, registration is impossible'
             ]}
           ]}
@@ -153,14 +153,14 @@ export default {
       title: '🚩 Common scams',
       content: [
         { kind: 'checklist', items: [
-          '**Clocked mileage**: compare with the ACP report + interior wear',
-          '**Lien on the car**: check Registo Automóvel (possible free via ACP or IRN)',
-          '**Car under seizure**: SICV will show it',
-          '**Fake VIN (tampered)**: look in different places (engine, pillar, plate) — they must match',
+          '**Clocked mileage**: compare with ACP report + interior wear',
+          '**Finance/security interest on the car**: check Registo Automóvel (can be free via ACP or IRN)',
+          '**Impounded/seized car**: SICV will show this',
+          '**Fake VIN (tampered)**: check in different places (engine, pillar, plate) — they must match',
           '**Flood damage**: suspect it if the price is too good — check mats, electrical cables',
-          '**“I am not there, my nephew will hand it over”**: original DUA + notarised power of attorney',
-          '**Fake dealers in the style of AliExpress**: only through known dealerships / used-car dealers',
-          '**“Let’s go for a drive, the documents are in my bag, I’ll show them later”**: never'
+          '**“I’m not there, my nephew will hand it over”**: original DUA + notarised power of attorney',
+          '**AliExpress-style fake dealers**: only through known dealerships / used car dealers',
+          '**“Let’s go for a drive, the documents are in my bag, I’ll show you later”**: never'
         ]}
       ]
     }
@@ -177,6 +177,6 @@ export default {
     { title: 'ACP — Automóvel Club de Portugal', url: 'https://www.acp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Registo Automóvel', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

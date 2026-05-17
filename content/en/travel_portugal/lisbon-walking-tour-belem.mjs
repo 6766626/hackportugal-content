@@ -3,7 +3,7 @@ export default {
   id: 'lisbon-walking-tour-belem',
   categoryId: 'travel_portugal',
   title: 'Belém — a route through the Age of Discovery',
-  tldr: 'A 4 km, 4-hour route, with or without museum visits — from Mosteiro dos Jerónimos via Padrão dos Descobrimentos to Torre de Belém. The Belém district preserves monuments from the “golden age” of seafaring: Vasco da Gama, Henry the Navigator, Magellan. Along the way — the legendary Pastéis de Belém pastry shop (since 1837).',
+  tldr: 'A 4 km, 4-hour route with or without museum visits — from Mosteiro dos Jerónimos via Padrão dos Descobrimentos to Torre de Belém. Belém preserves monuments from the “golden age” of seafaring: Vasco da Gama, Henry the Navigator, Magellan. Along the way — the legendary Pastéis de Belém pastry shop (since 1837).',
   tags: ['lisbon', 'belém', 'walking tour', 'discoveries', 'unesco'],
   estimatedReadMinutes: 6,
   steps: [
@@ -24,7 +24,7 @@ export default {
           },
           {
             name: '2. Pastéis de Belém',
-            description: 'The pastries are the forerunners of pastéis de nata, made to the original recipe of the Jerónimos monks since 1837. The takeaway queue moves quickly, but it is better to have coffee in the tiled hall with azulejo panels.',
+            description: 'The pastries — forerunners of pastéis de nata — have been made to the original recipe of the Jerónimos monks since 1837. The takeaway queue moves quickly, but it is better to have a coffee inside in the room with azulejo panels.',
             wikipedia: {
               en: 'https://en.wikipedia.org/wiki/Past%C3%A9is_de_Bel%C3%A9m',
               pt: 'https://pt.wikipedia.org/wiki/Past%C3%A9is_de_Bel%C3%A9m'
@@ -33,7 +33,7 @@ export default {
           },
           {
             name: '3. MAAT (Museu de Arte, Arquitetura e Tecnologia)',
-            description: 'A contemporary museum beneath a wavy surfboard-like roof by Amanda Levete. Inside — design and video art exhibitions; above — a panorama of the River Tagus.',
+            description: 'A contemporary museum beneath a wavy surfboard-like roof by Amanda Levete. Inside — design and video-art exhibitions; above — a panorama of the River Tagus.',
             wikipedia: {
               en: 'https://en.wikipedia.org/wiki/MAAT_(museum)',
               pt: 'https://pt.wikipedia.org/wiki/Museu_de_Arte,_Arquitetura_e_Tecnologia'
@@ -52,7 +52,7 @@ export default {
           },
           {
             name: '5. Jardim da Praça do Império',
-            description: 'A garden with a fountain between the Jerónimos monastery and the Tagus. Around the fountain — 32 coats of arms of the old provinces. An excellent picnic spot before Torre de Belém.',
+            description: 'A garden with a fountain between the Jerónimos monastery and the Tagus. Around the fountain are 32 coats of arms of the old provinces. An excellent picnic spot before Torre de Belém.',
             wikipedia: {
               pt: 'https://pt.wikipedia.org/wiki/Pra%C3%A7a_do_Imp%C3%A9rio'
             },
@@ -60,7 +60,7 @@ export default {
           },
           {
             name: '6. Torre de Belém',
-            description: 'A 16th-century fortress-lighthouse and UNESCO site. Historically, it welcomed ships returning from India. A symbol of Lisbon. Inside — a stone rhinoceros (the first European sculpture of this animal).',
+            description: 'A 16th-century fortress-lighthouse, and a UNESCO site. Historically, it welcomed ships returning from India. A symbol of Lisbon. Inside — a stone rhinoceros (the first European sculpture of this animal).',
             wikipedia: {
               ru: 'https://ru.wikipedia.org/wiki/%D0%91%D0%B5%D0%BB%D0%B5%D0%BC%D1%81%D0%BA%D0%B0%D1%8F_%D0%B1%D0%B0%D1%88%D0%BD%D1%8F',
               en: 'https://en.wikipedia.org/wiki/Bel%C3%A9m_Tower',
@@ -85,12 +85,12 @@ export default {
       title: 'How to get there and logistics',
       content: [
         { kind: 'checklist', items: [
-          '🚋 Tram No. 15 from Praça da Figueira — direct, 20 min',
+          '🚋 Tram no. 15 from Praça da Figueira — direct, 20 min',
           '🚆 Cascais line train from Cais do Sodré, get off at “Belém”, 10 min',
-          '🚶 From the centre on foot along the Tagus — about 1 hour, scenic',
-          '💶 Jerónimos + Torre: combined ticket €16 (saving €4) on Visit Lisboa',
+          '🚶 On foot from the centre along the Tagus — about 1 hour, scenic',
+          '💶 Jerónimos + Torre: combined ticket €16 (save €4) on Visit Lisboa',
           '⏰ Book online — the ticket-office queue can be up to 1.5 hours',
-          '❌ Torre de Belém is closed on Mondays, and so is Jerónimos'
+          '❌ Torre de Belém is closed on Mondays; Jerónimos is too'
         ]}
       ]
     },
@@ -98,7 +98,7 @@ export default {
       id: 'context',
       title: 'Historical context',
       content: [
-        { kind: 'paragraph', text: 'In the 15th–16th centuries, Portugal was a superpower. Vasco da Gama opened the sea route to India (1498), Pedro Cabral reached Brazil (1500), and Magellan circumnavigated the globe (1519–1522). The wealth from spices financed this district.' },
+        { kind: 'paragraph', text: 'In the 15th–16th centuries, Portugal was a superpower. Vasco da Gama opened the sea route to India (1498), Pedro Cabral reached Brazil (1500), and Magellan circumnavigated the globe (1519–1522). Wealth from spices funded this district.' },
         { kind: 'wikiLink', title: 'Age of Discovery — overview', urls: {
           ru: 'https://ru.wikipedia.org/wiki/%D0%AD%D0%BF%D0%BE%D1%85%D0%B0_%D0%B3%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D1%85_%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B9',
           en: 'https://en.wikipedia.org/wiki/Age_of_Discovery',
@@ -117,6 +117,6 @@ export default {
     { title: 'UNESCO — Monastery of the Hieronymites and Tower of Belém', url: 'https://whc.unesco.org/en/list/263/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Patrimonio Cultural PT', url: 'https://www.patrimoniocultural.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

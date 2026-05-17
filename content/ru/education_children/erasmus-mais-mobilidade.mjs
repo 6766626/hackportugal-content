@@ -133,6 +133,6 @@ export default {
     { title: 'European Commission — Erasmus+ opportunities for individuals', url: 'https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'European Commission — Erasmus+ Programme Guide 2026', url: 'https://erasmus-plus.ec.europa.eu/erasmus-programme-guide', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

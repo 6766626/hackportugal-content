@@ -3,8 +3,8 @@ export default {
   id: 'cp-comboios-intercity',
   categoryId: 'public_transport',
   title: 'CP — trains: Alfa Pendular, Intercidades and suburban services',
-  tldr: 'CP (Comboios de Portugal) is the state railway company. Main train categories: Alfa Pendular (fast, Lisbon — Porto 2:50, ~€30), Intercidades (slower, ~€25), Regional/Urbano (suburban and regional). It is best to buy tickets in advance — 60 days ahead via cp.pt or the “CP — Comboios de Portugal” app. Discounts: young people up to 30 — 50%, children aged 4–12 — 50%, ≥65 — 50%. Luggage is free. Bicycles: on Regional, and at weekends on Urbano.',
-  tags: ['cp', 'train', 'alfa pendular', 'intercidades', 'lisbon porto', 'train'],
+  tldr: 'CP (Comboios de Portugal) is the state railway company. Main train categories: Alfa Pendular (fast, Lisbon — Porto 2:50, ~€30), Intercidades (slower, ~€25), Regional/Urbano (suburban and regional). It is best to buy tickets in advance — 60 days ahead via cp.pt or the “CP — Comboios de Portugal” app. Discounts: young people up to 30 — 50%, children aged 4–12 — 50%, ≥65 — 50%. Luggage is free. Bicycles: on Regional services, and also at weekends on Urbano.',
+  tags: ['cp', 'train', 'alfa pendular', 'intercidades', 'lisbon porto', 'comboio'],
   estimatedReadMinutes: 7,
   steps: [
     {
@@ -12,14 +12,14 @@ export default {
       title: '🚂 Train categories',
       content: [
         { kind: 'substeps', items: [
-          { id: 'ap', title: 'Alfa Pendular (AP) — flagship service', content: [
+          { id: 'ap', title: 'Alfa Pendular (AP) — flagship', content: [
             { kind: 'checklist', items: [
               '⚡ Lisboa Sta Apolónia/Oriente → Porto Campanhã: 2:50',
               '⚡ Lisbon → Faro: 3:00',
               '🪑 Comfort: 2 classes (Conforto + Turística), Wi-Fi, power sockets, restaurant car',
               '💰 Price: €25–35 standard, 1st class €35–50',
-              '🎟️ Booking is mandatory (numbered seats)',
-              '📅 Early tickets Tarifa Antecipada: -25% to -50%, available 60 days ahead'
+              '🎟️ Booking required (numbered seats)',
+              '📅 Early Tarifa Antecipada tickets: -25% to -50%, available 60 days ahead'
             ]}
           ]},
           { id: 'ic', title: 'Intercidades (IC) — regional expresses', content: [
@@ -28,8 +28,8 @@ export default {
               '🕐 Lisbon → Faro: 3:30',
               '🕐 Lisbon → Évora / Beja: 1:30 / 3:00',
               '💰 Price: €18–30',
-              '🎟️ Booking is mandatory',
-              '🪑 1st class is available (€5–10 extra)',
+              '🎟️ Booking required',
+              '🪑 1st class available (€5–10 extra)',
               '🚲 Bicycles in a dedicated carriage (on request)'
             ]}
           ]},
@@ -70,21 +70,21 @@ export default {
           ]},
           { id: 'station', title: 'At the station', content: [
             { kind: 'checklist', items: [
-              '🤖 Station ticket machine — card payment, printed ticket',
+              '🤖 Ticket machine at the station — card payment, printed ticket',
               '👤 Ticket office — cash/card, there may be a queue',
               '⚠️ For Regional/Urbano trains, the validation machine may be on the platform itself',
-              '🚫 Buying a ticket on the train is NOT always possible — fine up to €100'
+              '🚫 You cannot ALWAYS buy a ticket on the train — fine up to €100'
             ]}
           ]},
           { id: 'discounts', title: 'Discounts', content: [
             { kind: 'checklist', items: [
-              '🧒 Children aged 4–12: -50% (under 4 free if no separate seat)',
+              '🧒 Children aged 4–12: -50% (under 4 free if without a separate seat)',
               '👨‍🎓 Young people (Cartão Jovem ≤30): -25% on the fare + additional promotions',
               '👴 ≥ 65 years: -50%',
               '👨‍👩‍👧‍👦 Family (≥3): -25% for everyone',
               '🎫 Tarifa Antecipada: -25% to -50%, limited availability',
               '👨‍🎓 Students (Cartão de Estudante): -25%',
-              '🎖️ CP employees: free (for them and their family)'
+              '🎖️ CP employees: free of charge (for them and their family)'
             ]}
           ]}
         ]}
@@ -95,15 +95,15 @@ export default {
       title: '💡 Tips',
       content: [
         { kind: 'checklist', items: [
-          '⏰ AP and IC often run to timetable — delays are rare',
+          '⏰ AP and IC often run to schedule — delays are rare',
           '🚉 In Lisbon, AP/IC depart from Sta Apolónia (centre) or Oriente (east); check when buying',
-          '🚉 In Porto, the main station is Campanhã (east); from there you can take an Urbano train to São Bento (centre)',
+          '🚉 In Porto, the main station is Campanhã (east); from there you can reach São Bento (centre) by Urbano suburban train',
           '📦 Hand luggage is free (up to 30 kg or 2 items + backpack). Large luggage — separate carriage on IC',
           '🐕 Small animals in a carrier: free. Large dogs with a muzzle — 50% of the ticket price',
-          '🚲 Bicycle: free on Regional; on IC — bicycle carriage on request; not allowed on AP',
-          '☕ Wi-Fi on AP/IC works on the Lisbon — Porto route, and is weaker on other routes',
+          '🚲 Bicycle: free on Regional; on IC — bicycle carriage on request; on AP — not allowed',
+          '☕ Wi-Fi on AP/IC works on the Lisbon — Porto route; on other routes it is weaker',
           '📶 GSM signal is poor in mountain tunnels — download everything you need in advance',
-          '⌨️ If the train is rescheduled — the ticket is valid on the next train in the same category'
+          '⌨️ If the train is rescheduled — the ticket is valid on the next train of the same category'
         ]}
       ]
     },
@@ -112,10 +112,10 @@ export default {
       title: '🌟 Special routes',
       content: [
         { kind: 'checklist', items: [
-          '🍷 **Linha do Douro** (Porto-Régua-Pocinho) — scenic route along the Douro river, wine region. Regional train, 4 h to Pocinho. Tourist season',
+          '🍷 **Linha do Douro** (Porto-Régua-Pocinho) — scenic route along the Douro River, wine region. Regional train, 4 h to Pocinho. Tourist season',
           '🌊 **Linha do Algarve** (Lagos-Faro-VRSA) — Algarve beaches, IC + Regional',
           '⛰️ **Linha Beira Alta** (Lisboa-Pampilhosa-Guarda) — mountain route to the Spanish border',
-          '🇪🇸 **Sud Express / Lusitânia** (Lisboa-Hendaye/Madrid) — historic night trains, **suspended since 2020** and as of 2026 there is no regular service; may resume in the future (updates: cp.pt and Renfe)',
+          '🇪🇸 **Sud Express / Lusitânia** (Lisboa-Hendaye/Madrid) — historic night trains, **suspended since 2020** and as of 2026 there is no regular service; they may be restored in future (updates: cp.pt and Renfe)',
           '🚂 **Comboio Histórico do Vouga** — tourist steam train, summer/autumn'
         ]}
       ]
@@ -130,8 +130,8 @@ export default {
   ],
   sources: [
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'IMT — Institute for Mobility and Transport', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'IMT — Instituto da Mobilidade e dos Transportes', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

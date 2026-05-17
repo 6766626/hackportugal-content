@@ -82,7 +82,7 @@ export default {
             { kind: 'checklist', items: [
               '🏠 Многие приюты делают проверку жилья — приходит волонтёр',
               '✅ Проверяет: безопасный балкон/двор, нет открытых окон, есть место для лежака',
-              '⚖️ Опасные породы (Bull Terrier, Pit Bull, Rottweiler — список Lei 110/2015): нужны социальные навыки + страхование 50 000 €',
+              '⚖️ Потенциально опасные породы (см. ниже): нужны licença especial в Junta, seguro de responsabilidade civil минимум €50 000 и спец. требования к идентификации',
               '🚫 Если проверка жилья не пройдена — могут отказать',
               '⏱️ Решение в 1-3 дня'
             ]}
@@ -99,8 +99,8 @@ export default {
           ]},
           { id: 'p5', title: 'Шаг 5 — Регистрация в SIAC', content: [
             { kind: 'checklist', items: [
-              '🌐 SIAC — Sistema de Informação de Animais de Companhia (siac.dgav.pt)',
-              '📝 Перерегистрировать чип на своё имя в течение 30 дней',
+              '🌐 SIAC — Sistema de Informação de Animais de Companhia (siac.vet)',
+              '📝 Передача/изменение titular в SIAC — в установленный срок (обычно 15 дней после передачи). Уточните, делает ли это CRO/associação сразу или нужно идти к veterinário',
               '🆔 NIF, CC, информация о животном',
               '💰 Бесплатно',
               '🚨 Без перерегистрации = штраф до 500 €'
@@ -155,18 +155,18 @@ export default {
     },
     {
       id: 'opasnye-porody',
-      title: '⚠️ Опасные породы (Lei 110/2015)',
+      title: '⚠️ Cães perigosos e potencialmente perigosos — regime legal',
       content: [
-        { kind: 'paragraph', text: 'Для усыновления некоторых пород собак нужны дополнительные требования.' },
+        { kind: 'paragraph', text: 'Decreto-Lei 315/2009, изменённый Lei 110/2015; список raças potencialmente perigosas — Portaria 422/2004. Для усыновления требуются дополнительные условия.' },
         { kind: 'checklist', items: [
-          '🐕 Список: American Staffordshire, Bull Terrier, Pit Bull, Rottweiler, Doberman, Cane Corso, Tosa Inu, Fila Brasileiro и др.',
+          '🐕 **Потенциально опасные породы**: Cão de Fila Brasileiro, Dogo Argentino, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu — и их cruzamentos',
           '📋 **Licença de detenção** в Junta de Freguesia',
-          '💼 **Профессиональное страхование** 50 000 €',
-          '🐾 **Курс поведения** (40 ч) + сертификат',
+          '💼 **Seguro de responsabilidade civil** минимум €50 000',
+          '🐾 **Курс поведения** + сертификат',
           '🩺 **Комплексное обследование** хозяина (медицинское, психологическое)',
-          '🚶 **На прогулке**: намордник + короткий поводок 1.5 м + взрослый ≥ 18 лет',
+          '🚶 **На прогулке**: намордник + короткий поводок ≤1 м + взрослый ≥ 16 лет',
           '⚠️ Тяжелее усыновить — приюты придирчивы',
-          '📜 Поведенческие тесты для самой собаки (чтобы подтвердить, что она не агрессивная)'
+          '📜 Поведенческие тесты для самой собаки'
         ]}
       ]
     }
@@ -180,10 +180,11 @@ export default {
     { label: 'Страхование опасных пород/год', amountEURMin: 30, amountEURMax: 100 }
   ],
   sources: [
-    { title: 'DGAV — SIAC (Sistema Animais de Companhia)', url: 'https://siac.vet.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 92/95 — Proteção animal', url: 'https://diariodarepublica.pt/dr/detalhe/lei/92-1995-241458', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 110/2015 — Cães perigosos', url: 'https://diariodarepublica.pt/dr/detalhe/lei/110-2015-69859225', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'SIAC — Sistema de Informação de Animais de Companhia', url: 'https://www.siac.vet/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei 92/95 — Proteção animal', url: 'https://diariodarepublica.pt/dr/detalhe/lei/92-1995-241458', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 315/2009 + Lei 110/2015 — Cães perigosos', url: 'https://diariodarepublica.pt/dr/detalhe/lei/110-2015-69859225', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Portaria 422/2004 — Lista de raças potencialmente perigosas', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/422-2004', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

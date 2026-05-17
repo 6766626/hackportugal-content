@@ -3,25 +3,25 @@ export default {
   id: 'driving-license-exchange',
   categoryId: 'driving_license',
   title: 'Exchanging a driving licence for a Portuguese one',
-  tldr: 'EU/EEA citizens — automatic recognition until the licence expires (no exchange). CPLP (Brazil, Cape Verde, etc.) — exchange without a test via IMT. Third-country nationals with bilateral agreements (UA, KZ, MD, etc.) — exchange without a test. For the Russian Federation and Belarus there is currently NO reciprocity — you must take the full theory + practical tests. Ukrainian licences are recognised for the entire Temporary Protection period (until 04.03.2027). The deadline for exchange after obtaining resident status (non-EU) is 2 years (DL 138/2012).',
+  tldr: 'EU/EEA citizens — automatic recognition until the licence expires (no exchange). CPLP/OECD/countries with an agreement (Brazil, Cape Verde, Ukraine, etc.) — exchange without an exam via IMT if the conditions are met. For the Russian Federation/Belarus there is currently no reciprocity — exams are usually required. Ukrainian licences are recognised for the full duration of Proteção Temporária (until 04.03.2027). Under DL 138/2012, the rules depend on the issuing country: for countries with a recognised regime, exchange without an exam is usually possible up to 2 years from the date residence is recorded; after 2 years, a practical exam may be required.',
   audience: { citizenships: ['cplp', 'thirdCountry'] },
-  tags: ['driving licence', 'imt', 'exchange'],
+  tags: ['licence', 'imt', 'exchange'],
   estimatedReadMinutes: 6,
   variants: [
     {
       id: 'eu',
       audience: { citizenships: ['euEeaSwiss'] },
-      tldr: 'EU/EEA/Switzerland: licences are valid in Portugal automatically. If you wish, you can obtain a Portuguese licence through registration with IMT. You must register your licence with IMT within 60 days of obtaining resident status.'
+      tldr: 'EU/EEA/Switzerland: licences are valid in Portugal automatically. If desired, you can obtain a Portuguese licence by registering with IMT. It is mandatory to register the licence with IMT within 60 days after obtaining resident status.'
     },
     {
       id: 'cplp',
       audience: { citizenships: ['cplp'] },
-      tldr: 'CPLP (where an agreement exists): exchange without a test. No translation is required for Brazilian licences. Processing time at IMT is 60-120 days.'
+      tldr: 'CPLP (where there is an agreement): exchange without an exam. No translation is required for Brazilian licences. IMT processing time — 60-120 days.'
     },
     {
       id: 'third-country',
       audience: { citizenships: ['thirdCountry'] },
-      tldr: 'Third countries with a valid bilateral agreement (Ukraine since 2019, and several others) — exchange without a test. Russia and Belarus — NO reciprocity, you must retake the full theory + practical tests. Kazakhstan/Moldova/Azerbaijan — check the current IMT list (imt-ip.pt).'
+      tldr: 'Third countries with a valid bilateral agreement (Ukraine since 2019, and several others) — exchange without an exam. Russia and Belarus — NO reciprocity, full theory + practical tests are required from scratch. Kazakhstan/Moldova/Azerbaijan — check the current IMT list (imt-ip.pt).'
     }
   ],
   steps: [
@@ -29,7 +29,7 @@ export default {
       id: 'deadline',
       title: 'Deadline',
       content: [
-        { kind: 'warning', text: 'Under Decreto-Lei 138/2012, foreign licences (non-EU) are valid in Portugal for **2 years from the date resident status is obtained**. After that, exchange or re-issuing is mandatory; otherwise, a fine and an offence are possible. For Ukrainians with Temporary Protection — validity applies for the entire protection period (until 04.03.2027 under Regulation EU 2022/1280).' }
+        { kind: 'warning', text: 'Under Decreto-Lei 138/2012, the rules depend on the issuing country. If the licence is eligible for exchange, the request usually needs to be made after residence is recorded and within the established deadlines; **up to 2 years from the date of residence, exchange is possible without an exam for countries with a recognised regime**, after 2 years a practical exam may be required. For CPLP/OECD, conditions are often simplified. For Ukrainians with Proteção Temporária — validity lasts for the full protection period (until 04.03.2027 under EU Regulation 2022/1280).' }
       ]
     },
     {
@@ -38,11 +38,11 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Foreign driving licence (original + copy)',
-          'Notarised translation (for non-EU, except Brazil)',
+          'Notarised translation (for non-EU licences, except Brazil)',
           'Passport / residence permit / Cartão de Cidadão',
-          'Medical certificate from an IMT-accredited pharmacy (approx. €30)',
+          'Medical certificate from an IMT-accredited pharmacy (~€30)',
           'Certificate from the issuing country confirming whether the licence is valid',
-          'Copy of your record (if there have previously been fines/disqualifications)'
+          'Copy of the record (if there were previous fines/disqualifications)'
         ]}
       ]
     },
@@ -52,16 +52,16 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: '1. Medical examination', content: [
-            { kind: 'paragraph', text: 'At an IMT-accredited clinic. They check eyesight, hearing and general health. They issue an "Atestado de Aptidão Física e Psíquica". Validity — 6 months.' }
+            { kind: 'paragraph', text: 'At an IMT-accredited clinic. They check vision, hearing, and general health. They issue an "Atestado de Aptidão Física e Psíquica". Validity — 6 months.' }
           ]},
-          { id: 'p2', title: '2. Submit an application to IMT', content: [
-            { kind: 'paragraph', text: 'Online via portal.imt-ip.pt or in person at an IMT examination centre. Fee approx. €30.' }
+          { id: 'p2', title: '2. Apply to IMT', content: [
+            { kind: 'paragraph', text: 'Online via portal.imt-ip.pt or in person at an IMT examination centre. Fee ~€30.' }
           ]},
           { id: 'p3', title: '3. If there is an agreement — wait', content: [
-            { kind: 'timeline', text: '60-120 days. On completion — an invitation to collect the new card or receipt by post.' }
+            { kind: 'timeline', text: '60-120 days. Upon completion — an invitation to collect the new card or receipt by post.' }
           ]},
-          { id: 'p4', title: '3b. If there is no agreement — tests', content: [
-            { kind: 'paragraph', text: 'Theory on road traffic rules + practical driving in a car with an instructor. Driving school course €500-900. Tests are paid (approx. €30-50).' }
+          { id: 'p4', title: '3b. If there is no agreement — exams', content: [
+            { kind: 'paragraph', text: 'Theory on the Highway Code + practical driving with an instructor. Driving school course €500-900. Exams are paid (~€30-50).' }
           ]}
         ]}
       ]
@@ -70,21 +70,21 @@ export default {
       id: 'renewal',
       title: 'Renewal/replacement',
       content: [
-        { kind: 'paragraph', text: 'Portuguese licences are valid until the age of 70; after that — reassessment every 2 years. Replacement of category B — indefinite (with periodic medical examinations from the age of 50).' }
+        { kind: 'paragraph', text: 'Renewal deadlines depend on the date of issue and category. For category B/group I issued after 30.07.2016: every 15 years until age 60, then at 60, 65, 70 and after 70 — every 2 years; a medical certificate is usually required from age 60. For older licences and professional categories, the rules are different — check the IMT table.' }
       ]
     }
   ],
   costs: [
     { label: 'Medical examination', amountEURMin: 25, amountEURMax: 50 },
     { label: 'IMT fee (exchange)', amountEUR: 30 },
-    { label: 'Driving school + tests (if there is no agreement)', amountEURMin: 600, amountEURMax: 1200 }
+    { label: 'Driving school + exams (if there is no agreement)', amountEURMin: 600, amountEURMax: 1200 }
   ],
   timelineDaysMin: 60,
   timelineDaysMax: 180,
   sources: [
     { title: 'IMT — Troca de Carta de Condução (driving licence)', url: 'https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Exchanging a Driving Licence', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/trocar-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Exchange a driving licence', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/trocar-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

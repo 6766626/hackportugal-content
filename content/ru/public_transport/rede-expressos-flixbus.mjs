@@ -134,6 +134,6 @@ export default {
     { title: 'Vamus Algarve — региональные автобусные линии Algarve', url: 'https://vamusalgarve.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transdev Portugal — региональные автобусные маршруты', url: 'https://www.transdev.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

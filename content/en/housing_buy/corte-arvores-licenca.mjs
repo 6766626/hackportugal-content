@@ -2,64 +2,64 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'corte-arvores-licenca',
   categoryId: 'housing_buy',
-  title: 'Tree felling on your own plot — what is allowed, and where the fine is €5,000+',
-  tldr: 'Not every tree on your plot can simply be cut down. Sobreiro (cork oak) and azinheira (holm oak) are protected nationally (Decreto-Lei 169/2001) — €5,000–€50,000 fine per tree without ICNF (Instituto da Conservação da Natureza e das Florestas) authorisation. Oliveira (olive tree) older than 1951 is also protected (DL 120/86). Any works in REN/RAN (national ecological/agricultural reserves) or natural parks require separate permits. In urban areas you almost always need permission from the Câmara Municipal (municipality). Submission — online via ICNF e-Balcão for sobreiro/azinheira or via the Junta de Freguesia (parish council). Processing time is usually 30–90 days.',
-  tags: ['trees', 'felling', 'sobreiro', 'azinheira', 'icnf', 'municipality'],
+  title: 'Felling trees on your own plot — what is allowed, and where fines exceed €5,000',
+  tldr: 'Not every tree on your plot can simply be cut down. Sobreiro (cork oak) and azinheira (holm oak) are protected nationally (Decreto-Lei 169/2001) — a fine of €5,000-50,000 per tree without ICNF (Institute for Nature Conservation and Forests) authorisation. Oliveira (olive tree) older than 1951 is also protected (DL 120/86). Any works in REN/RAN zones (national ecological/agricultural reserves) or natural parks require separate authorisations. In urban areas, permission from the Câmara Municipal (municipality) is almost always needed. Submission is online via ICNF e-Balcão for sobreiro/azinheira or via the Junta de Freguesia (parish council). The review period is usually 30–90 days.',
+  tags: ['trees', 'felling', 'sobreiro', 'azinheira', 'icnf', 'camara'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'protected-species',
-      title: 'Protected species of trees — the most important',
+      title: 'Protected tree species — the essentials',
       content: [
-        { kind: 'paragraph', text: 'In Portugal there are species protected at national level. Illegal felling of even a single tree = serious administrative liability, and in severe cases criminal prosecution.' },
+        { kind: 'paragraph', text: 'Portugal has species protected at national level. Illegal felling of even one tree = serious administrative liability, and in severe cases also criminal prosecution.' },
         { kind: 'checklist', items: [
-          '🛑 SOBREIRO (cork oak, Quercus suber) — ALL trees are protected. Fine €5,000–€50,000 per tree',
+          '🛑 SOBREIRO (cork oak, Quercus suber) — ALL trees are protected. Fine of €5,000-50,000 per tree',
           '🛑 AZINHEIRA (holm oak, Quercus rotundifolia/ilex) — ALL trees are protected',
-          '🛑 OLIVEIRA (olive tree) older than ~70 years (rule of thumb: trunk diameter > 60 cm) — protected by DL 120/86',
-          '🛑 CARVALHO (oak, Quercus robur, faginea) — additionally protected in places within natural parks',
+          '🛑 OLIVEIRA (olive tree) older than ~70 years (rule of thumb: trunk diameter > 60 cm) — protected under DL 120/86',
+          '🛑 CARVALHO (oak, Quercus robur, faginea) — additionally protected in some places in natural parks',
           '🛑 CASTANHEIRO (chestnut) — protected in IGP zones (Trás-os-Montes)',
           '🛑 PINHEIRO MANSO (stone pine) — protected in RNAP',
-          '✅ Other fruit trees (apple, lemon, orange, peach) — usually can be felled on your plot without a permit',
+          '✅ Other fruit trees (apple, lemon, orange, peach) — usually may be felled on your own plot without permission',
           '✅ EUCALIPTO (eucalyptus), acacia — invasive; removal is often encouraged'
         ] },
-        { kind: 'warning', text: 'Sobreiro and azinheira are national symbols and sources of cork/acorns for pig farming. The law is strict and fines are real — there are cases every year, even for single trees. If you see characteristic “cork” bark with deep fissures and a broad crown — it is almost certainly a sobreiro. Do not fell without a permit.' }
+        { kind: 'warning', text: 'Sobreiro and azinheira are symbols of the country and a source of cork/acorns for pig farming. The law is strict, and fines are real — cases occur every year, even for isolated incidents. If you see distinctive “cork” bark with deep cracks and a broad crown, it is almost certainly sobreiro. Do not cut it down without authorisation.' }
       ]
     },
     {
       id: 'how-identify',
       title: 'How to identify sobreiro/azinheira/oliveira',
       content: [
-        { kind: 'paragraph', text: 'Before any works, be sure to identify exactly what is growing on the plot. The most reliable approach is to invite a forest engineer or an ICNF specialist for an inspection (usually €50–€150).' },
+        { kind: 'paragraph', text: 'Before any works, identify exactly what is growing on the plot. The safest option is to invite a forestry engineer or ICNF specialist to inspect it (usually €50-150).' },
         { kind: 'checklist', items: [
-          'SOBREIRO: thick corky bark with longitudinal fissures, wide-spreading crown, elliptic serrated leaves; acorns in cups',
-          'AZINHEIRA: visually reminiscent of holly — small dark‑green leaves, with small spines on young shoots; bark is grey',
-          'OLIVEIRA: narrow silvery leaves, easily recognisable; if the tree is clearly older than 70 years — it is protected, better confirm with an expert',
-          'CARVALHO: classic “oak” leaf blade, bark lightens, yellowing in autumn',
+          'SOBREIRO: thick cork bark with longitudinal cracks, broad spreading crown, elliptical toothed leaves; acorns in cups',
+          'AZINHEIRA: visually resembles holly — small dark green leaves, with little spines on young shoots; grey bark',
+          'OLIVEIRA: silvery narrow leaves, easily recognisable; if the tree is clearly over 70 years old, it falls under protection, and it is better to confirm this with an expert',
+          'CARVALHO: classic “oak” leaf blade, lightening bark, yellowing in autumn',
           'PINHEIRO MANSO: broad umbrella-shaped crown, long needles',
-          'EUCALIPTO: smooth trunk with peeling bark, aromatic leaves — not protected, can be felled'
+          'EUCALIPTO: smooth trunk with peeling bark, aromatic leaves — not protected, may be felled'
         ] },
-        { kind: 'paragraph', text: 'Apps like iNaturalist or Plant.id help via photos. This is not 100% accurate, but a convenient starting point.' }
+        { kind: 'paragraph', text: 'Apps such as iNaturalist or Plant.id help from photos. They are not 100% accurate, but they are a convenient starting point.' }
       ]
     },
     {
       id: 'when-license-needed',
-      title: 'When a permit is needed — key situations',
+      title: 'When permission is needed — main cases',
       content: [
         { kind: 'checklist', items: [
-          '🛑 Always for sobreiro/azinheira and for protected oliveira: ICNF authorisation is required, even for a single tree',
-          '🛑 In protected areas (PN, RN, ZPE, ZEC): authorisation is required for any species',
-          '🛑 In REN (Reserva Ecológica Nacional — National Ecological Reserve) and RAN (Reserva Agrícola Nacional — National Agricultural Reserve): you need authorisation from CCDR (Comissão de Coordenação e Desenvolvimento Regional)',
-          '🛑 In an urban area (zona urbana under the PDM — Plano Diretor Municipal, master plan): in most municipalities you need authorisation from the Câmara Municipal (municipality)',
-          '🛑 On state land/by roads: only with authorisation from the Câmara Municipal or Infraestruturas de Portugal (road agency)',
-          '✅ In a rural area, on your own plot, non-protected species: as a rule, no permit is required',
-          '✅ Emergency tree (risk of falling onto a house or road): you may remove it immediately, but you must notify the Câmara Municipal/ICNF afterwards with photos and a brief justification',
-          'Check the PDM of your municipality: it may establish additional protection for trees and avenues'
+          '🛑 Always for sobreiro/azinheira and for protected oliveira: ICNF authorisation is required, even for one tree',
+          '🛑 In protected natural areas (PN, RN, ZPE, ZEC): authorisation is required for any species',
+          '🛑 In REN (Reserva Ecológica Nacional — national ecological network) and RAN (Reserva Agrícola Nacional — national agricultural reserve): CCDR (Commission for Coordination and Regional Development) authorisation is needed',
+          '🛑 In an urban area (zona urbana under the PDM — Plano Diretor Municipal, master plan): in most municipalities, permission from the Câmara Municipal (municipality) is required',
+          '🛑 On state land/by roads: only with permission from the Câmara Municipal or Infraestruturas de Portugal (road agency)',
+          '✅ In a rural area, on your own plot, for non-protected species: as a rule, no permission is required',
+          '✅ Emergency tree (risk of falling onto a house or road): it may be removed immediately, but you must notify the Câmara Municipal/ICNF afterwards with photos and a brief justification',
+          'Check your municipality’s PDM: it may impose additional protection for trees and avenues'
         ] }
       ]
     },
     {
       id: 'sobreiro-azinheira-process',
-      title: 'Permit for sobreiro/azinheira — how to apply',
+      title: 'Authorisation for sobreiro/azinheira — how to apply',
       content: [
         { kind: 'substeps', items: [
           {
@@ -67,35 +67,35 @@ export default {
             title: 'Documents',
             content: [
               { kind: 'checklist', items: [
-                'Caderneta predial (from Finanças — the tax authority)',
-                'Certidão de teor (from the Conservatória do Registo Predial — land registry office)',
+                'Caderneta predial (from Finanças — tax authority)',
+                'Certidão de teor (from Conservatória do Registo Predial — property registry office)',
                 'Plan/map with the exact location of each tree (GPS coordinates)',
                 'Photos of each tree from different angles',
-                'Justification: reason (disease, risk, construction, site rehabilitation)',
+                'Justification: reason (disease, risk, construction, plot rehabilitation)',
                 'If for construction — an approved project from the Câmara Municipal'
               ] }
             ]
           },
           {
             id: 's2',
-            title: 'Submit to ICNF',
+            title: 'Submission to ICNF',
             content: [
-              { kind: 'paragraph', text: 'icnf.pt → e-Balcão → Pedido de Corte ou Arranque de Sobreiros e Azinheiras. Log in with Chave Móvel Digital (CMD — mobile digital signature).' },
-              { kind: 'paragraph', text: 'Fees: approximately €50–€200 for submission + if needed a specialist’s site visit €50–€150.' }
+              { kind: 'paragraph', text: 'icnf.pt → e-Balcão → Pedido de Corte ou Arranque de Sobreiros e Azinheiras. Login with Chave Móvel Digital (CMD — mobile digital signature).' },
+              { kind: 'paragraph', text: 'Fees: approximately €50-200 for submission +, if necessary, a specialist site visit for €50-150.' }
             ]
           },
           {
             id: 's3',
             title: 'Technical inspection',
             content: [
-              { kind: 'paragraph', text: 'ICNF may send a specialist to confirm the condition. For healthy trees there will almost always be a refusal. Grounds accepted: the tree is dead/dying, structural risk, or a replacement plan (mandatory planting of 5+ new trees for each felled).' }
+              { kind: 'paragraph', text: 'ICNF may send a specialist to confirm the condition. For healthy trees, refusal is almost always likely. Accepted grounds include: the tree is dead/dying, structural risk, or a replacement project (mandatory planting of 5+ new trees for each tree felled).' }
             ]
           },
           {
             id: 's4',
             title: 'Decision',
             content: [
-              { kind: 'paragraph', text: 'Processing time 30–90 days. Authorisation is often conditional: with an obligation of compensation (usually 5 new saplings for each one felled). Validity — 1 year: the works must be carried out within this period.' }
+              { kind: 'paragraph', text: 'The review period is 30–90 days. Authorisation is often conditional: with a compensation obligation (usually 5 new saplings for each tree felled). Validity period — 1 year: the works must be carried out within this period.' }
             ]
           }
         ] }
@@ -106,16 +106,16 @@ export default {
       title: 'Fines — this is serious',
       content: [
         { kind: 'checklist', items: [
-          'Sobreiro/azinheira without a permit: €5,000–€50,000 per tree (for individuals)',
-          'Sobreiro/azinheira without a permit (for legal persons): up to €250,000 per tree',
-          'Old oliveira without a permit: €1,000–€10,000',
-          'In a natural park without a permit: €5,000–€50,000 + obligation to restore plantings',
-          'In REN/RAN without a permit: €1,500–€50,000',
-          'In an urban area without Câmara Municipal authorisation: €1,000–€25,000 (as per the specific municipality’s rules)',
-          'Criminal prosecution is possible for systematic violations or significant environmental damage',
-          'Compensation: planting 5–10 new saplings for each tree felled'
+          'Sobreiro/azinheira without authorisation: €5,000-50,000 per tree (for individuals)',
+          'Sobreiro/azinheira without authorisation (for legal entities): up to €250,000 per tree',
+          'Old oliveira without authorisation: €1,000-10,000',
+          'In a natural park without authorisation: €5,000-50,000 + obligation to restore the planting',
+          'In REN/RAN without authorisation: €1,500-50,000',
+          'In an urban area without Câmara Municipal permission: €1,000-25,000 (according to the rules of the specific municipality)',
+          'Criminal prosecution is possible in cases of systematic breaches or substantial environmental damage',
+          'Compensation: planting 5-10 new saplings for each tree felled'
         ] },
-        { kind: 'warning', text: 'GNR (National Gendarmerie), the SEPNA unit (eco‑patrol), monitors rural areas with drones and satellite imagery. Checks after the fact are possible even years later. Neighbours often report illegal felling. Do not risk it.' }
+        { kind: 'warning', text: 'GNR (National Republican Guard), SEPNA unit (environmental patrol), monitors rural areas using drones and satellite imagery. Retrospective checks are possible even years later. Neighbours often report illegal felling. Do not risk it.' }
       ]
     },
     {
@@ -123,13 +123,13 @@ export default {
       title: 'Common situations',
       content: [
         { kind: 'checklist', items: [
-          'Bought a quinta, there is a sobreiro on the plot — I want to remove it to build a house → you will need ICNF authorisation + an architect’s project + compensatory planting. It is feasible, but prepare for a 6–12 month process',
-          'A sobreiro fell after a storm and blocked a passage → you can cut and remove it as an urgent measure, then notify ICNF with photos',
-          'Planning to fell an oliveira about ~80 years old → you will almost certainly need authorisation from the Câmara Municipal. Refusals are common; better consider pruning or transplanting',
-          'An eucalipto has grown too big, fire risk → you can fell it without a permit; in some places this is even a requirement for creating a firebreak',
-          'An old apple tree is in the way of the vegetable garden → no permit needed (species not protected)',
-          'Pinheiro manso in a protected area → authorisation from CCDR/ICNF will be required',
-          'A dead tree of any species → can be removed as a safety measure, but for sobreiro/azinheira contact ICNF first'
+          'You bought a quinta, and there is a sobreiro on the plot — you want to remove it for a house → you will need ICNF authorisation + architect’s project + compensatory planting. It is realistic, but expect a 6–12 month process',
+          'A sobreiro fell after a storm and blocked access → it may be cut up and removed as an urgent measure, then notify ICNF with photos',
+          'You plan to fell an oliveira around ~80 years old → you will almost certainly need permission from the Câmara Municipal. Refusals are common; it is better to consider pruning or transplanting',
+          'A eucalipto has grown too large and creates a fire risk → it may be felled without permission; in some places this is even required to create a firebreak',
+          'An old apple tree is in the way of the vegetable garden → no permission is needed (the species is not protected)',
+          'Pinheiro manso in a protected area → CCDR/ICNF authorisation will be required',
+          'A dry tree of any species → it may be removed as a safety measure, but for sobreiro/azinheira contact ICNF first'
         ] }
       ]
     },
@@ -137,16 +137,16 @@ export default {
       id: 'contractors',
       title: 'Contractors and cost of works',
       content: [
-        { kind: 'paragraph', text: 'Felling large trees is a job for professionals. Look for local arborists/podadores:' },
+        { kind: 'paragraph', text: 'Felling large trees is work for professionals. Look for local arborists/pruners (podadores):' },
         { kind: 'checklist', items: [
-          'Small tree (4–8 m): €100–€300',
-          'Medium (8–15 m): €300–€800',
-          'Large (15–25 m): €800–€2,000',
-          'Sobreiro or old oliveira (requires particularly careful techniques): €1,500–€5,000',
-          'Stump removal: +€100–€500',
-          'Removal and disposal: €50–€200',
-          'Contractor’s insurance: make sure to check, otherwise liability for incidents will fall on you',
-          'Where to look: jardineiros.pt, FNAP, local Facebook groups for gardens and plots'
+          'Small tree (4–8 m): €100-300',
+          'Medium tree (8–15 m): €300-800',
+          'Large tree (15–25 m): €800-2,000',
+          'Sobreiro or old oliveira (particularly careful technique required): €1,500-5,000',
+          'Stump removal: +€100-500',
+          'Removal and disposal: €50-200',
+          'Contractor insurance: make sure to check it, otherwise liability for incidents will fall on you',
+          'Where to search: jardineiros.pt, FNAP, local Facebook groups for gardens and plots'
         ] }
       ]
     }
@@ -154,21 +154,21 @@ export default {
   costs: [
     { label: 'ICNF authorisation (sobreiro/azinheira)', amountEURMin: 50, amountEURMax: 200 },
     { label: 'ICNF technical inspection', amountEURMin: 50, amountEURMax: 150 },
-    { label: 'Câmara Municipal authorisation (urban area)', amountEURMin: 30, amountEURMax: 200 },
+    { label: 'Câmara Municipal permission (urban area)', amountEURMin: 30, amountEURMax: 200 },
     { label: 'CCDR authorisation (REN/RAN)', amountEURMin: 100, amountEURMax: 500 },
-    { label: 'Species identification by a specialist', amountEURMin: 50, amountEURMax: 200, note: 'If you need to confirm species/age' },
+    { label: 'Species identification by a specialist', amountEURMin: 50, amountEURMax: 200, note: 'If the species/age needs to be confirmed' },
     { label: 'Felling a large tree', amountEURMin: 800, amountEURMax: 2000 },
-    { label: 'Felling an old sobreiro/oliveira', amountEURMin: 1500, amountEURMax: 5000 },
+    { label: 'Felling old sobreiro/oliveira', amountEURMin: 1500, amountEURMax: 5000 },
     { label: 'Compensation: saplings (5+ trees)', amountEURMin: 50, amountEURMax: 500, note: 'Purchase and planting' },
-    { label: 'Fine for sobreiro without a permit', amountEURMin: 5000, amountEURMax: 50000, note: 'Per tree' }
+    { label: 'Fine for sobreiro without authorisation', amountEURMin: 5000, amountEURMax: 50000, note: 'Per tree' }
   ],
   sources: [
     { title: 'ICNF — Sobreiros and Azinheiras', url: 'https://www.icnf.pt/florestas/gfr/sa', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 169/2001 — protection of the sobreiro and the azinheira', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2001-34488075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 120/86 — protection of the oliveira', url: 'https://dre.pt/dre/detalhe/decreto-lei/120-1986-220815', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'ICNF e-Balcão — request to fell sobreiros', url: 'https://eservicos.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 169/2001 — protection of sobreiro and azinheira', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2001-34488075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 120/86 — protection of oliveira', url: 'https://dre.pt/dre/detalhe/decreto-lei/120-1986-220815', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'ICNF e-Balcão — application to fell sobreeiros', url: 'https://eservicos.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'CCDR — REN authorisations', url: 'https://www.ccdr-lvt.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-03',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

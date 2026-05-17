@@ -3,7 +3,7 @@ export default {
   id: 'internships-traineeships',
   categoryId: 'work_business',
   title: 'Стажировки (Estágios) — программы и оплата',
-  tldr: 'Estágios (стажировки) — частая стартовая точка карьеры в Португалии. Типы: **Estágios profissionais** (государственные, IEFP, ~750 €/мес 9 мес) для безработных / выпускников; **Estágios curriculares** (университет-партнёр, без обязательной оплаты); **Estágios de inserção** (для долгосрочных безработных, до 2 лет, 80% IAS); **частные стажировки** от компаний, 600-1500 €/мес. После стажировки — 70% получают предложение работы на полную занятость. Для иностранцев нужна действующая виза D / паспорт EU / TPD.',
+  tldr: 'Estágios — частая стартовая точка карьеры в Португалии. Типы: **IEFP estágios** (например Estágios INICIAR / +Talento) — обычно 6–9 месяцев, bolsa зависит от уровня QNQ/образования и считается в IAS (от ~1.3 IAS); **Estágios curriculares** (университет-партнёр, часто без обязательной оплаты); **Estágios de Inserção** — отдельная мера IEFP для pessoas com deficiência e incapacidade (не путать с CEI+ для безработных); **extracurricular** регулируется Decreto-Lei 66/2011 (письменный контракт, seguro, bolsa не ниже IAS €537.13 в 2026); **частные стажировки** от компаний, 600-1500 €/мес.',
   tags: ['estágio', 'стажировка', 'iefp', 'выпускники'],
   estimatedReadMinutes: 6,
   steps: [
@@ -16,8 +16,8 @@ export default {
             { kind: 'checklist', items: [
               '**Государственная программа** через IEFP',
               'Цель: первая работа для выпускников / переквалификация',
-              '**Длительность**: стандартно 9 мес',
-              '**Выплата**: 80-100% IAS = ~430-540 €/мес (2026)',
+              '**Длительность**: обычно 6–9 мес в зависимости от меры',
+              '**Bolsa**: зависит от уровня квалификации QNQ и считается в кратных IAS. При IAS 2026 €537.13 ориентиры: 1.3 IAS ≈ €698.27, 1.4 IAS ≈ €751.98, 1.6 IAS ≈ €859.41; проверяйте таблицу конкретной medida IEFP',
               '+ субсидия на питание ~6 €/рабочий день',
               '+ субсидия на транспорт',
               '+ страхование от несчастных случаев',
@@ -25,13 +25,12 @@ export default {
               'Конкурс: ~30 000 мест в год, заполняются за месяцы'
             ]}
           ]},
-          { id: 't2', title: 'Estágios Inserção / Empregabilidade Plus', content: [
+          { id: 't2', title: 'Estágios de Inserção / CEI+ (для разных категорий)', content: [
             { kind: 'checklist', items: [
-              'Для долгосрочных безработных (>12 мес)',
-              'Длительность: до 2 лет',
-              'Выплата аналогично 80% IAS',
-              '+ компанию субсидирует государство (она частично платит)',
-              'Часто переходят в позиции на полную занятость'
+              'Estágios de Inserção — мера IEFP для pessoas com deficiência e incapacidade, с собственной длительностью, eligibility и bolsa',
+              'Для долгосрочно безработных IEFP предлагает другие меры — Contrato Emprego-Inserção / CEI+; это не обычная оплачиваемая стажировка, а occupational measure, условия оплаты другие',
+              'Проверяйте актуальные меры на iefp.pt — программы периодически обновляются',
+              'Часть мер связана с переходом в постоянную занятость'
             ]}
           ]},
           { id: 't3', title: 'Erasmus+ / EURES', content: [
@@ -49,7 +48,7 @@ export default {
               'Банки/консалтинг (PwC, Deloitte, KPMG, BCP, Santander): 700-1200 €',
               'Стартапы (лиссабонская сцена): 500-1000 €',
               'Маркетинг / дизайн: 600-900 €',
-              '**Волонтёрские / неоплачиваемые**: юридически допустимы только для учебных стажировок (университет-партнёр) или очень короткого срока',
+              '**Extracurricular internship** вне учебной программы регулируется Decreto-Lei 66/2011: нужен письменный contrato de estágio, seguro, bolsa de estágio не ниже IAS (€537.13 в 2026), плюс subsídio de refeição при условиях закона. Unpaid допустим в основном для curricular internships и отдельных исключений (например очень короткие стажировки до 3 месяцев без продления)',
               'Подача: linkedin.com/jobs с фильтром «internship», jobs.eu, glassdoor'
             ]}
           ]},
@@ -98,7 +97,7 @@ export default {
           { id: 'a4', title: '4. Во время estágio', content: [
             { kind: 'checklist', items: [
               '40 часов в неделю (или согласованная частичная занятость)',
-              'Выплата перечисляется ежемесячно напрямую на ваш IBAN',
+              'Bolsa выплачивается ежемесячно принимающей организацией; IEFP финансирует/возмещает часть расходов entidade promotora по правилам конкретной меры',
               'Периодические оценки специалистом IEFP',
               'Промежуточный + финальный отчёты (наставник)',
               'Возможно досрочное прекращение компанией (с обоснованием) или вами (без штрафа)'
@@ -161,7 +160,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Выплата по estágio IEFP (80% IAS)', amountEUR: 430, note: '€/мес 2026' },
+    { label: 'Bolsa IEFP estágio (1.3 IAS)', amountEUR: 698, note: '≈€698.27/мес при IAS 2026 €537.13' },
+    { label: 'Bolsa IEFP estágio (1.6 IAS)', amountEUR: 859, note: '≈€859.41/мес для более высокого уровня' },
+    { label: 'Минимум для extracurricular (Decreto-Lei 66/2011)', amountEUR: 537, note: 'IAS 2026 €537.13' },
     { label: 'Частная технологическая стажировка', amountEURMin: 800, amountEURMax: 1500, note: '€/мес' },
     { label: 'Грант Erasmus+ для стажёра', amountEURMin: 600, amountEURMax: 1100, note: '€/мес' },
     { label: 'Учебная стажировка', amountEURMin: 0, amountEURMax: 700, note: '€/мес' }
@@ -171,6 +172,6 @@ export default {
     { title: 'Erasmus+ Portugal', url: 'https://erasmusmais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'EURES Portugal', url: 'https://eures.europa.eu/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

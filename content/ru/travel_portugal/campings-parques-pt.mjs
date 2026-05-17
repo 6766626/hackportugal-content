@@ -72,6 +72,6 @@ export default {
     { title: 'ACSI CampingCard — кемпинги-партнёры и off-season тарифы', url: 'https://www.campingcard.co.uk', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Código da Estrada art. 50-A — правила pernoita e aparcamento de autocaravanas', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34455575', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

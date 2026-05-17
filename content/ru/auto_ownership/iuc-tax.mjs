@@ -69,7 +69,7 @@ export default {
           '⏰ +60 дней — +20 %',
           '⏰ +90 дней — +30 %',
           '💼 > 90 дней — дело в Finanças → возможна penhora salarial',
-          '🚫 Блокировка DUA — не пройдёте IPO, не продадите машину',
+          '🚫 Налоговое взыскание AT: coima, проценты, cobrança coerciva и penhora. Проверка IUC не является обычным условием IPO',
           '✅ План оплаты частями (parcelamento) — возможен для суммы > 102 €'
         ]},
         { kind: 'warning', text: 'При покупке б/у автомобиля обязательно спросите у продавца подтверждение оплаты IUC (comprovativo) за последние 3 года. Без него вы можете унаследовать долг.' }
@@ -101,6 +101,6 @@ export default {
     { title: 'Portal das Finanças — IUC', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Pagar o IUC', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/pagar-o-imposto-unico-de-circulacao-iuc-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

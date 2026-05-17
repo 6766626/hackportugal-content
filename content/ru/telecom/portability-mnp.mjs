@@ -99,6 +99,6 @@ export default {
     { title: 'DL 56/2010 — Переносимость номеров', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/56-2010-307067', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANACOM — Portabilidade', url: 'https://www.anacom-consumidor.com/portabilidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

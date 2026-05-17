@@ -122,6 +122,6 @@ export default {
     { title: 'ACM — архивная и справочная информация о CLAIM/CNAIM и интеграции мигрантов', url: 'https://www.acm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — государственный портал услуг и контактов публичной администрации', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

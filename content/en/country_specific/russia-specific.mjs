@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'russia-specific',
   categoryId: 'country_specific',
-  title: 'Moving from Russia — specific considerations',
-  tldr: 'Russians: EU sanctions have made the banking side more difficult, but moving is possible. Schengen tourist visas are generally not issued (except in humanitarian cases). D visas are issued. The Portuguese Consulate in Moscow is operating, but with a 2–4 month appointment queue. Important: Visa/Mastercard cards issued by Russian banks do NOT work outside the Russian Federation (since 2022 — Visa/MC left the Russian Federation). UnionPay is accepted partially at some terminals. Many major Russian banks (Sber, VTB, Alfa, Gazprombank, Tinkoff/T-Bank and others) are under EU/SDN sanctions; funds originating from them require enhanced proof of source of funds and may be blocked by a Portuguese bank. Open a Portuguese bank account before arrival or immediately afterwards.',
+  title: 'Moving from Russia — specific points',
+  tldr: 'Russian nationals: EU sanctions have made the banking side more complicated, but relocation is possible. Schengen tourist visas are generally not issued (except in humanitarian cases). D visas are issued. The Portuguese Consulate in Moscow is operating, but with a 2–4 month queue. Important: Visa/Mastercard cards from Russian banks do NOT work outside the Russian Federation (since 2022 — Visa/MC left the Russian Federation). UnionPay is partially accepted at some terminals. Many large Russian banks (Sber, VTB, Alfa, Gazprombank, Tinkoff/T-Bank, etc.) are under EU/SDN sanctions; funds from them require enhanced proof of origin and may be blocked by a Portuguese bank. Open a Portuguese account before arrival or immediately afterwards.',
   audience: { countryCodes: ['RU'] },
   tags: ['russia', 'sanctions', 'visas'],
   estimatedReadMinutes: 7,
@@ -13,28 +13,28 @@ export default {
       title: 'Visas 2026',
       content: [
         { kind: 'checklist', items: [
-          '❌ Schengen tourist visas (C) — the EU suspended the visa facilitation agreement with the Russian Federation in September 2022; visa fee €90; issuance is case-by-case',
-          '✅ D visas (D2/D3/D4/D7/D8) — issued, process as for other third countries',
-          '✅ Family reunification — works',
-          '✅ CPLP mobility does not apply (Russia is not part of the community of Portuguese-speaking countries). An option only if you have a second citizenship of a CPLP country',
+          '❌ Schengen tourist visas (C) — the EU suspended the simplified agreement with the Russian Federation from September 2022; visa fee €90; issuance is case-by-case',
+          '✅ D visas (D2/D3/D4/D7/D8) — issued, the process is the same as for other third countries',
+          '✅ Reagrupamento Familiar — working',
+          '✅ CPLP mobility does not apply (Russia is not part of the community of Portuguese-speaking countries). An option exists only if you have second citizenship of a CPLP country',
           '✅ Student D4 — issued, popular',
-          'Portuguese Consulate in Moscow: Rua Fadeyeva 11 — operating as usual, appointment queue 2–4 months'
+          'Portuguese Consulate in Moscow: Rua Fadeyeva 11 — operating as normal, appointment queue 2–4 months'
         ]}
       ]
     },
     {
       id: 'embassy-update-2026-04',
-      title: 'Simplified submission for D4 / E9 / E6 (17 April 2026)',
+      title: 'Simplified submission for D4 / E9 / E6 (17/04/2026)',
       content: [
-        { kind: 'paragraph', text: 'On 17 April 2026 the Portuguese Embassy in Moscow published a notice titled "Visa applications — Students and AIMA appointment registration" announcing a simplified document submission procedure for three applicant categories.' },
+        { kind: 'paragraph', text: 'On 17 April 2026, the Embassy of Portugal in Moscow published an announcement “Visa applications — Students and booking an appointment with AIMA” on simplifying the document submission procedure for three categories of applicants.' },
         { kind: 'checklist', items: [
-          '✅ D4 — national study visa (bachelor\'s, master\'s, doctoral, long-term language courses)',
-          '✅ E9 — visa for Erasmus Mundus programme participants',
-          '✅ E6 — visa for applicants who subsequently need to deal with AIMA on residency matters (e.g. permit renewal, family reunification). NOT investment programmes — Golden Visa and D2 go through separate tracks'
+          '✅ D4 — national study visa (undergraduate, master’s, doctoral studies, long language courses)',
+          '✅ E9 — visa for participation in the Erasmus Mundus programme',
+          '✅ E6 — visa for those who then need to contact AIMA on processing matters (for example, residence permit renewal, Reagrupamento Familiar). NOT investment programmes — Golden Visa and D2 follow other tracks'
         ]},
-        { kind: 'warning', text: 'Exact wording from the embassy: "in order to simplify the document submission procedure". The embassy does NOT explicitly say "walk-in" — the notice describes a priority/simplified submission. Check the current requirements on the embassy and BLS websites before visiting.' },
-        { kind: 'paragraph', text: 'BLS Visa Centre in Moscow (Kosmodamianskaya naberezhnaya 52/7): applications accepted 09:00–15:00 (Mon–Fri), passport pickup and consultations 15:00–16:00. Phone: +7 (499) 110 63 76, email: info.portugal@blshelpline.com.' },
-        { kind: 'warning', text: 'Simplified submission procedure does NOT mean a simplified document package. All standard requirements remain (university acceptance, proof of funds, accommodation, health insurance, apostilled criminal record certificate). See the "Visa D4 (student)" guide for full details.' }
+        { kind: 'warning', text: 'The exact wording of the procedure: “for the purpose of simplifying the document submission procedure”. The Embassy does NOT state literally “without appointment”; the publication refers to priority/simplified submission. Before visiting, check the current requirements on the Embassy and BLS websites.' },
+        { kind: 'paragraph', text: 'BLS visa centre in Moscow (Kosmodamianskaya Embankment, 52s7): application submission 09:00–15:00 (Mon–Fri), passport collection and consultations 15:00–16:00. Phone: +7 (499) 110 63 76, email: info.portugal@blshelpline.com.' },
+        { kind: 'warning', text: 'Simplification of the submission procedure does NOT mean simplification of the document package. All standard requirements (university enrolment, proof of funds, accommodation, health insurance, criminal record certificate with apostille) remain. See details in the “D4 Visa (student)” guide.' }
       ]
     },
     {
@@ -48,14 +48,14 @@ export default {
           { id: 'b2', title: 'Transferring money to Portugal', content: [
             { kind: 'checklist', items: [
               'Cash across the border — limit €10,000 (declaration), still applies',
-              'Wise, Revolut — open in a country where this is permitted (Kazakhstan, Serbia, Armenia and others)',
+              'Wise, Revolut — open in a country where it is permitted (Kazakhstan, Serbia, Armenia, etc.)',
               'Cryptocurrency — USDT/USDC → withdrawal to Revolut/N26/Portuguese bank',
-              'Buying gold in the Russian Federation → selling in Portugal (works, but inefficient)',
+              'Buying gold in the Russian Federation → selling in Portugal (works, but is inefficient)',
               'Transfer via relatives in non-sanctioned countries'
             ]}
           ]},
-          { id: 'b3', title: 'Open a Portuguese bank account', content: [
-            { kind: 'paragraph', text: 'ActivoBank, Millennium, Caixa — accept Russians with a valid visa/residence permit and a Portuguese address. Required: passport, NIF, proof of address in Portugal, proof of source of income.' },
+          { id: 'b3', title: 'Open a Portuguese account', content: [
+            { kind: 'paragraph', text: 'ActivoBank, Millennium, Caixa — accept Russian nationals with a valid visa/residence permit and a Portuguese address. Required: passport, NIF, proof of address in Portugal, proof of source of income.' },
             { kind: 'warning', text: 'Some banks (Santander, BPI) may refuse due to AML requirements. Try several.' }
           ]}
         ]}
@@ -63,10 +63,10 @@ export default {
     },
     {
       id: 'golden-visa',
-      title: 'Golden Visa for Russians',
+      title: 'Golden Visa for Russian nationals',
       content: [
-        { kind: 'paragraph', text: 'Golden Visa is formally available, but with stricter AML checks for citizens of the Russian Federation. Legal support is required. Timeline — 12–24 months.' },
-        { kind: 'warning', text: 'Many major Russian banks are on EU/OFAC sanctions lists: Sber, VTB, Alfa, Gazprombank, PSB, Rosselkhozbank, Tinkoff/T-Bank (since 2023), Sovcombank and others. A Portuguese bank may refuse to accept money from these banks or may block it. Before transferring — check the current list and source-of-funds requirements with the receiving bank. Raiffeisen Russia is still operating for now, but it is also under special scrutiny. Prepare detailed proof of source of funds (declarations, tax documents, contracts).' }
+        { kind: 'paragraph', text: 'Golden Visa is formally available, but with stricter AML checks for citizens of the Russian Federation. Legal support is needed. Timeline — 12–24 months.' },
+        { kind: 'warning', text: 'Many large Russian banks are on EU/OFAC sanctions lists: Sber, VTB, Alfa, Gazprombank, PSB, Rosselkhozbank, Tinkoff/T-Bank (since 2023), Sovcombank, etc. A Portuguese bank may refuse to accept money from these banks or may block it. Before transferring — check the current list and source-of-funds proof requirements with the receiving bank. Raiffeisen Russia is still operating for now, but it is also under special scrutiny. Prepare detailed proof of source of funds (tax returns, tax authority documents, contracts).' }
       ]
     },
     {
@@ -74,7 +74,7 @@ export default {
       title: 'Documents from the Russian Federation',
       content: [
         { kind: 'checklist', items: [
-          'Criminal record certificate — through the Ministry of Internal Affairs or Gosuslugi. Timeline 14–30 days',
+          'Criminal record certificate — via the Ministry of Internal Affairs or Gosuslugi. Timeframe 14–30 days',
           'Apostille — regional Ministry of Justice. 2–4 weeks. Validity of certificate + apostille = 3–6 months',
           'Civil registry certificates — duplicates + apostille. 1–3 months',
           'Diplomas — Rosobrnadzor + Ministry of Justice apostille',
@@ -88,11 +88,11 @@ export default {
       title: 'After arrival',
       content: [
         { kind: 'checklist', items: [
-          'NIF → opening an account → rental',
+          'NIF → account opening → rental',
           'Mobile: buy a Portuguese SIM card (MEO/NOS/Vodafone) immediately',
           'Deregistration in the Russian Federation: remotely via Gosuslugi + consulate',
-          'Sole trader in the Russian Federation — close in advance if you do not plan to operate it',
-          'Tax residence: after 183 days in Portugal — Portuguese resident. Declare in both (Portugal + Russian Federation) in the first year',
+          'Sole trader in the Russian Federation — close it in advance if you do not plan to operate it',
+          'Tax residency: after 183 days in Portugal — Portuguese resident. Declare both (Portugal + Russian Federation) in the first year',
           'Certificate of residence from the Russian Federation — needed to avoid double taxation'
         ]}
       ]
@@ -113,15 +113,15 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portuguese Embassy in Moscow', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
-    { title: 'Announcement of 17.04.2026 — visa applications D4/E9/E6', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
-    { title: 'BLS Portugal Russia — contact and hours', url: 'https://blsportugalrussia.ru/russian/contact.php', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
+    { title: 'Embassy of Portugal in Moscow', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
+    { title: 'Announcement of 17/04/2026 — D4/E9/E6 visa applications', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
+    { title: 'BLS Portugal Russia — contacts and reception hours', url: 'https://blsportugalrussia.ru/russian/contact.php', kind: 'official', language: 'ru', lastRetrieved: '2026-05-13' },
     { title: 'AIMA — official website', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Vistos MNE — D visas', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — compensation and AML', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-13',
+  lastVerified: '2026-05-17',
+  verifyIntervalDays: 90,
   recentlyChangedAt: '2026-05-13',
-  changeSummary: '13.05.2026 — added a section on the 17.04.2026 notice from the Portuguese Embassy in Moscow: simplified document submission procedure for D4 (national study), E9 (Erasmus Mundus) and E6 (for those who subsequently need to deal with AIMA) student visas. Clarification: the embassy does NOT explicitly say "walk-in"; the language describes a priority/simplified submission. BLS Moscow hours: applications 09:00–15:00, pickup/consultations 15:00–16:00, Mon–Fri.',
-  verifyIntervalDays: 90
+  changeSummary: '13/05/2026 Added a section on the Embassy of Portugal in Moscow announcement of 17/04/2026: simplified document submission procedure for study visas D4 (national study), E9 (Erasmus Mundus) and E6 (for subsequent contact with AIMA). Clarified: the Embassy does not state literally “without appointment”; it refers to priority/simplified submission. BLS Moscow working hours: submission 09:00–15:00, collection/consultations 15:00–16:00 (Mon–Fri).'
 }

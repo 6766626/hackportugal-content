@@ -12,7 +12,7 @@ export default {
       id: 'why-easier',
       title: 'Почему проще',
       content: [
-        { kind: 'paragraph', text: 'Для граждан ЕС/ЕЭЗ/Швейцарии и CPLP адрес страны происхождения принимается без налогового представителя. Заявление подаётся по паспорту и подтверждению адреса.' }
+        { kind: 'paragraph', text: 'Если ваш налоговый адрес находится в ЕС/ЕЭЗ, представитель обычно не требуется. Если адрес вне ЕС/ЕЭЗ, включая страны CPLP, Finanças может выдать NIF, но при последующих налоговых обязательствах проверьте требование о representante fiscal или подключении электронных уведомлений. Правило зависит от налогового адреса, а не от паспорта.' }
       ]
     },
     {
@@ -21,11 +21,11 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Паспорт (оригинал)',
-          'Подтверждение адреса (счёт, банковская выписка за 3 месяца). Для граждан ЕС принимается адрес домашней страны',
-          'Граждане CPLP по Соглашению о мобильности CPLP часто уже имеют процесс в AIMA — NIF оформляется во время того же визита'
+          'Свежий документ с адресом — например, счёт за коммунальные услуги, банковская выписка или иной документ, который принимает конкретное отделение Finanças; желательно выданный в последние 3 месяца',
+          'NIF оформляется через Finanças/AT. Наличие процесса в AIMA сам по себе не гарантирует выдачу NIF на том же визите; проверяйте, есть ли отдельная запись/окно Finanças'
         ]},
-        { kind: 'paragraph', text: 'Записаться на Portal das Finanças (налоговый портал) → "Agendamentos" → "Atribuição de NIF" либо прийти в порядке живой очереди (раньше 9:00 в Лиссабоне/Порту).' },
-        { kind: 'timeline', text: 'NIF выдаётся в день визита.' }
+        { kind: 'paragraph', text: 'Если у вас ещё нет NIF, онлайн-запись через Portal das Finanças может быть недоступна (многие функции требуют NIF/пароль). Проверьте Atendimento por Marcação/контакты AT, звонок в Centro de Atendimento Telefónico или возможность личного обращения в отделение Finanças/Loja do Cidadão.' },
+        { kind: 'timeline', text: 'NIF обычно выдаётся в день успешного приёма; срок не включает ожидание записи — в крупных городах очередь может занять больше времени.' }
       ]
     },
     {
@@ -40,7 +40,7 @@ export default {
   ],
   documents: [
     { title: 'Паспорт', note: 'оригинал' },
-    { title: 'Подтверждение адреса', note: 'из страны ЕС или CPLP либо из Португалии' }
+    { title: 'Подтверждение фактического адреса', note: 'в Португалии, в ЕС/ЕЭЗ или за пределами ЕС/ЕЭЗ; если адрес вне ЕС/ЕЭЗ — проверьте правила о representante fiscal при возникновении налоговых обязательств' }
   ],
   costs: [
     { label: 'Госпошлина Finanças', amountEUR: 0 }
@@ -48,10 +48,11 @@ export default {
   timelineDaysMin: 1,
   timelineDaysMax: 1,
   sources: [
-    { title: 'Portal das Finanças — NIF', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Obter NIF', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/obter-numero-de-identificacao-fiscal-nif-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — Acordo de Mobilidade CPLP', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Obter NIF', url: 'https://eportugal.gov.pt/servicos/pedir-o-numero-de-identificacao-fiscal-nif-para-pessoa-singular', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'AT — Ofício Circulado 90054/2022 (representante fiscal)', url: 'https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/Paginas/Oficio_Circulado_90054_2022.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei n.º 61/2025 — изменения CPLP (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Vistos MNE — CPLP', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

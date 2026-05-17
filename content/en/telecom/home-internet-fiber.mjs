@@ -3,21 +3,21 @@ export default {
   id: 'home-internet-fiber',
   categoryId: 'telecom',
   title: 'Home internet — fibre, installation, moving home',
-  tldr: 'Home fibre in PT 2026: DIGI 1 Gbps for €10/month (3 months fidelização), DIGI 10 Gbps for €15/month. NOS WOO “no fidelização” from €19/month. MEO/NOS/Vodafone — fibre + TV + mobile bundle from €35/month (24 months fidelização). Installation usually 1–3 weeks after applying. Address must be in the coverage area (check with NIF + postcode on the operator’s website). When moving — submit a mudança de morada 7 days before the date; sometimes a new installation is required.',
-  tags: ['fibre', 'internet', 'home', 'fttd', 'move', 'change of address'],
+  tldr: 'Home fibre in Portugal 2026: DIGI 1 Gbps for €10/month (3 months commitment), DIGI 10 Gbps for €15/month. NOS WOO “no commitment” from €19/month. MEO/NOS/Vodafone — fibre + TV + mobile package from €35/month (24 months commitment). Installation usually takes 1–3 weeks after applying. The address must be in a coverage area (check by NIF + postcode on the operator’s website). When moving home — submit a mudança de morada request 7 days before the date; sometimes a new installation is required.',
+  tags: ['fibre', 'internet', 'home', 'fttd', 'moving', 'mudança morada'],
   estimatedReadMinutes: 7,
   steps: [
     {
       id: 'check-coverage',
       title: '🗺️ Step 1. Check coverage at the address',
       content: [
-        { kind: 'paragraph', text: 'Not every street in Portugal is covered by fibre. In small towns and villages, often only ADSL or mobile (4G/5G CPE). The check takes 1 minute:' },
+        { kind: 'paragraph', text: 'Not every street in Portugal has fibre coverage. In small towns and villages, there is often only ADSL or mobile fibre (4G/5G CPE). The check takes 1 minute:' },
         { kind: 'checklist', items: [
           'DIGI: digi.pt → “Verifica a cobertura” → enter postcode + street',
-          'NOS: nos.pt → “Cobertura” → postcode + house number',
+          'NOS: nos.pt → “Cobertura” → code and house number',
           'MEO: meo.pt → “Cobertura de fibra” → DA (Designação Administrativa) + number',
           'Vodafone: vodafone.pt → “Verificar cobertura” → CP4-CP3 + street',
-          '⚠️ If all 4 say “não disponível” — you have an older building without fibre; you will have to take 5G CPE (NOS Casa 5G, Vodafone Wi-Box) or ADSL'
+          '⚠️ If all 4 say “não disponível” — you have an old building without fibre, so you will have to take 5G CPE (NOS Casa 5G, Vodafone Wi-Box) or ADSL'
         ]}
       ]
     },
@@ -28,29 +28,29 @@ export default {
         { kind: 'substeps', items: [
           { id: 'budget', title: 'Budget — DIGI', content: [
             { kind: 'checklist', items: [
-              'DIGI 1 Gbps — €10/month, 3 months fidelização',
-              'DIGI 10 Gbps PRO — €15/month, Wi‑Fi 7 router',
-              'Installation is free',
+              'DIGI 1 Gbps — €10/month, 3 months commitment',
+              'DIGI 10 Gbps PRO — €15/month, Wi-Fi 7 router',
+              'Free installation',
               'No TV package (add separately if needed)',
-              'Online application only / call 1606',
-              '€50 cashback promo sometimes available'
+              'Online application / call 1606 only',
+              '€50 cashback is sometimes available as a promotion'
             ]}
           ]},
-          { id: 'midrange', title: 'No tie‑in — WOO (NOS)', content: [
+          { id: 'midrange', title: 'No commitment — WOO (NOS)', content: [
             { kind: 'checklist', items: [
-              'WOO Internet 1 Gbps — €19/month, NO tie‑in',
+              'WOO Internet 1 Gbps — €19/month, NO lock-in',
               'WOO Internet + TV — €25/month',
-              'Can cancel at any time (advantage)',
+              'You can cancel at any time (advantage)',
               'Coverage = NOS infrastructure (good in cities)'
             ]}
           ]},
           { id: 'premium', title: 'Premium — MEO/NOS/Vodafone (24 months)', content: [
             { kind: 'checklist', items: [
-              'Bundle fibre 1 Gbps + IPTV (≈100 channels) + 4 mobile SIMs = €35–55/month',
-              'Fidelização 24 months — early termination penalty',
-              'Free Wi‑Fi 6 router + 2 TV boxes',
-              'Installation usually free',
-              'Convenient if you are a family (several SIMs in the bundle)'
+              'Fibre 1 Gbps + IPTV (approx. 100 channels) + 4 mobile SIM package = €35–55/month',
+              '24 months commitment — penalty for early termination',
+              'Free Wi-Fi 6 router + 2 TV boxes',
+              'Installation is usually free',
+              'Convenient for families (several SIMs in the package)'
             ]}
           ]}
         ]}
@@ -60,15 +60,15 @@ export default {
       id: 'install',
       title: '🛠️ Step 3. Apply and install',
       content: [
-        { kind: 'paragraph', text: 'Documents for the contract: NIF, CC/residence permit or passport, IBAN of a Portuguese bank (for débito direto), tenancy or ownership contract.' },
+        { kind: 'paragraph', text: 'Documents for the contract: NIF, Cartão de Cidadão/residence permit or passport, Portuguese bank IBAN (for débito direto), rental contract or proof of ownership.' },
         { kind: 'checklist', items: [
           'Apply online or in the operator’s shop',
-          'Receive an agendamento (appointment) — 4‑hour window (08–12, 12–16 or 16–20)',
-          'Technician pulls fibre from the building cabinet to the flat (often via corridor/balcony)',
-          'If the home already has an ONT (Optical Network Terminal) — installation takes 30 min',
-          'If new cabling is needed — 1–2 h + approval from the condominium association (disputes with the condominium do happen)',
-          'Activation of internet — 30 min after installation',
-          '💡 On sick leave/on holiday: ask for an agendamento on a specific date when ordering'
+          'Receive an agendamento — 4-hour window (08–12, 12–16 or 16–20)',
+          'The technician runs fibre from the building cabinet into the flat (often through the corridor/balcony)',
+          'If the building already has an ONT (Optical Network Terminal) — installation takes 30 min',
+          'If new cabling is needed — 1–2 h + consent from the building condominium (disputes with the condominium happen once in a while)',
+          'Internet activation — 30 min after installation',
+          '💡 On sick leave/holiday: ask for agendamento on a specific date when ordering'
         ]}
       ]
     },
@@ -76,27 +76,27 @@ export default {
       id: 'mudanca-morada',
       title: '📦 Moving home — Mudança de morada',
       content: [
-        { kind: 'paragraph', text: 'If you are moving to a new address — do NOT cancel the contract, otherwise you will incur a fidelização penalty. Request a mudança de morada (change of address) — the operator will move the service.' },
+        { kind: 'paragraph', text: 'If you are moving to a new address — do NOT cancel the contract, otherwise you may be charged a commitment-period penalty. Request mudança de morada (change of address) — the operator will transfer the service.' },
         { kind: 'checklist', items: [
-          'Submit the request 7–14 days before the move',
-          'If there is no coverage at the new address — the operator must terminate WITHOUT penalty (under DL 24/2014)',
+          'Submit the request 7-14 days before moving',
+          'If there is no coverage at the new address — the operator must terminate WITHOUT a penalty (under DL 24/2014)',
           'If there is coverage — installation at the new address is free',
           'You pay as usual during the move (no discount for “no internet for 3 days”)',
-          'Timelines: 1–3 weeks from request to activation at the new address',
-          '⚠️ Keep the receipt for submitting the mudança request — in case of dispute'
+          'Timelines: 1-3 weeks from request to activation at the new address',
+          '⚠️ Keep the receipt for submitting the mudança request — in case of a dispute'
         ]}
       ]
     },
     {
       id: 'cancellation',
-      title: '✂️ Cancellation — fidelização and penalties',
+      title: '✂️ Termination — commitment period and penalties',
       content: [
-        { kind: 'paragraph', text: 'Standard fidelização in PT — 24 months for bundles and 6–12 months for standalone internet. Early termination:' },
+        { kind: 'paragraph', text: 'The standard commitment period in Portugal is 24 months for packages and 6-12 months for standalone internet. Early termination:' },
         { kind: 'checklist', items: [
           'Penalty = 50% of the remaining months × monthly fee (but not more than the cost of equipment + installation)',
-          'No penalty: change of address to a no‑coverage area, leaving PT permanently (document from AIMA required)',
-          'No penalty: poor service quality (need 3 speed measurements, written complaints, and the operator’s acknowledgement)',
-          'After 24 months the contract automatically becomes “without fidelização” — cancellation is free with 30 days’ notice',
+          'No penalty: change of address to an area without coverage, leaving Portugal permanently (a document from AIMA is required)',
+          'No penalty: poor service quality (speed tests 3 times, written complaints, and the operator’s response acknowledging the issue are required)',
+          'After 24 months, the contract automatically becomes “no commitment” — termination is free with 30 days’ notice',
           '🛡️ Complaint to ANACOM (anacom.pt) — if the operator charges a penalty unlawfully. Free review, effective'
         ]}
       ]
@@ -106,13 +106,13 @@ export default {
       title: '💡 Tips',
       content: [
         { kind: 'checklist', items: [
-          '🤝 Negotiate — operators give €5–10/month “off the record” if you mention a competitor',
-          '🔍 Compare on anacom.pt → “Comparação” — the official comparator',
+          '🤝 Negotiate — operators give an “unofficial” €5-10/month discount if you mention a competitor',
+          '🔍 Compare via anacom.pt → “Comparação” — official comparison tool',
           '📞 Complaints — Livro de Reclamações (livroreclamacoes.pt), then ANACOM',
-          '🆔 The contract is in one person’s name (not “for the family”) — this matters for cancellation',
-          '🏠 In OldEra buildings (pre‑1990): sometimes the condominium’s approval is needed to pull fibre through common areas',
-          '📺 IPTV packages — sports channels (BTV, Sport TV) are often charged extra, check',
-          '⚡ Backup path — mobile 4G from another operator as fallback in case of outage'
+          '🆔 The contract is in one person’s name (not “for the family”) — this matters for termination',
+          '🏠 In older buildings (pre-1990): a condominium agreement is sometimes needed to run fibre through shared areas',
+          '📺 IPTV packages — sports channels (BTV, Sport TV) often cost extra, check this',
+          '⚡ Backup connection — mobile 4G from another operator as a backup in case of an outage'
         ]}
       ]
     }
@@ -120,15 +120,15 @@ export default {
   costs: [
     { label: 'DIGI 1 Gbps', amountEUR: 10, note: '€/month, 3 months fidelização' },
     { label: 'DIGI 10 Gbps PRO', amountEUR: 15, note: '€/month' },
-    { label: 'WOO 1 Gbps without fidelização', amountEUR: 19, note: '€/month' },
-    { label: 'MEO/NOS/Vodafone bundle (fibre + TV + 4 SIMs)', amountEURMin: 35, amountEURMax: 55, note: '€/month, 24 months fidelização' },
+    { label: 'WOO 1 Gbps with no fidelização', amountEUR: 19, note: '€/month' },
+    { label: 'MEO/NOS/Vodafone package (fibre + TV + 4 SIM)', amountEURMin: 35, amountEURMax: 55, note: '€/month, 24 months fidelização' },
     { label: 'Installation', amountEUR: 0, note: 'usually free' },
     { label: 'Early termination penalty', amountEURMin: 100, amountEURMax: 400, note: 'depends on the remaining term' }
   ],
   sources: [
-    { title: 'ANACOM COM.escolha — official tariff comparator', url: 'https://www.anacom.pt/tarifarios/PaginaInicial.do', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
+    { title: 'ANACOM COM.escolha — official tariff comparison tool', url: 'https://www.anacom.pt/tarifarios/PaginaInicial.do', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'DL 24/2014 — consumer rights for distance services', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -84,6 +84,6 @@ export default {
     { title: 'Código do Registo Civil — процедура брака и иностранные документы', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1995-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal da Justiça: pedido de certidão de casamento', url: 'https://justica.gov.pt/Servicos/Pedir-certidao-de-casamento', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-13',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

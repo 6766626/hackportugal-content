@@ -110,7 +110,7 @@ export default {
           'не уезжайте из Португалии на годы без проверки последствий для ВНЖ',
           'если планируете жить в другой стране ЕС, отдельно изучите estatuto de residente de longa duração — это другой режим',
           'для гражданства требования отдельные: постоянный ВНЖ полезен, но сам по себе не равен паспорту',
-          'по состоянию на 03.05.2026 новая редакция закона о гражданстве, одобренная 01.04.2026, ещё не должна считаться рабочим правилом до промульгации и публикации'
+          '03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII (новая редакция закона о гражданстве); закон вступит в силу после публикации в DRE. После публикации натурализация: 7 лет для CPLP/EU, 10 лет для остальных. Permanent residence НЕ обязателен для подачи на гражданство'
         ] }
       ]
     }
@@ -127,6 +127,6 @@ export default {
     { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento de estrangeiros, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — legislação consolidada sobre autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

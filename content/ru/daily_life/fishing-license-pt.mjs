@@ -107,6 +107,6 @@ export default {
     { title: 'ICNF — pesca lúdica em águas interiores: лицензии, зоны и правила', url: 'https://www.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ICNF — informação sobre espécies, épocas de pesca e zonas de pesca', url: 'https://www.icnf.pt/pesca/pescaludica', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

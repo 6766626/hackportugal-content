@@ -12,12 +12,12 @@ export default {
       title: 'Dimensão da comunidade em 2026',
       content: [
         { kind: 'paragraph', text: 'A comunidade brasileira é a maior comunidade estrangeira em Portugal. Nas estatísticas públicas da AIMA dos últimos anos, o Brasil ocupa de forma consistente o primeiro lugar entre as nacionalidades com autorização de residência; tendo em conta os novos processos CPLP, renovações e processos pendentes na AIMA, a estimativa prática para 2026 é de mais de 500 000 residentes brasileiros.' },
-        { kind: 'paragraph', text: 'Importante: o número de “brasileiros em Portugal” é mais amplo do que “cidadãos do Brasil com autorização de residência”. Na prática, inclui brasileiros com nacionalidade portuguesa, dupla nacionalidade, Cartão de Cidadão, passaporte europeu, autorização de residência por trabalho/estudo/família, CPLP, bem como pessoas que aguardam uma decisão da AIMA.' },
+        { kind: 'paragraph', text: 'Importante: o número de “brasileiros em Portugal” é mais amplo do que “cidadãos do Brasil com autorização de residência”. Na prática, inclui brasileiros com nacionalidade portuguesa, dupla nacionalidade, Cartão de Cidadão, passaporte europeu, autorização de residência por trabalho/estudo/família, CPLP, bem como pessoas que aguardam decisão da AIMA.' },
         { kind: 'checklist', items: [
           'Principais cidades: Lisboa, Porto, Braga, Aveiro, Coimbra, Faro',
           'Forte concentração na Área Metropolitana de Lisboa: Lisboa, Amadora, Odivelas, Sintra, Loures, Cascais',
           'No norte: Porto, Vila Nova de Gaia, Matosinhos, Maia, Braga',
-          'Há muitos brasileiros nos sectores dos serviços, restauração, entregas, beleza, IT, construção, turismo e empreendedorismo',
+          'Muitos brasileiros nos sectores dos serviços, restauração, entregas, beleza, IT, construção, turismo e empreendedorismo',
           'Escolas brasileiras, salões, cafés, mercados, igrejas evangélicas e eventos culturais funcionam frequentemente como uma rede informal de adaptação'
         ] }
       ]
@@ -26,29 +26,29 @@ export default {
       id: 'casa-do-brasil',
       title: 'Casa do Brasil de Lisboa — primeiro ponto de entrada',
       content: [
-        { kind: 'paragraph', text: 'A Casa do Brasil de Lisboa é a mais antiga associação brasileira de imigrantes em Portugal, fundada em 1992. Não é um consulado nem a AIMA, mas uma organização da sociedade civil: ajuda com adaptação, direitos dos migrantes, cultura, antidiscriminação e ligações dentro da comunidade.' },
+        { kind: 'paragraph', text: 'A Casa do Brasil de Lisboa é a mais antiga associação brasileira de imigrantes em Portugal, fundada em 1992. Não é um consulado nem a AIMA, mas uma organização da sociedade civil: apoio na adaptação, direitos dos migrantes, cultura, antidiscriminação e ligações dentro da comunidade.' },
         { kind: 'checklist', items: [
           'Consulte a agenda no site da Casa do Brasil de Lisboa: palestras, debates, noites culturais, consultas',
-          'Siga o Instagram/Facebook da organização — muitos eventos aparecem aí mais rapidamente do que no site',
+          'Siga o Instagram/Facebook da organização — muitos eventos aparecem lá mais depressa do que no site',
           'Use a Casa do Brasil como guia para os direitos dos migrantes, mas não como substituto de um advogado em processos complexos da AIMA',
-          'Se sofreu discriminação no trabalho, no arrendamento ou nos serviços — pergunte à Casa do Brasil para onde deve encaminhar a queixa',
+          'Se enfrentou discriminação no trabalho, no arrendamento ou em serviços — pergunte à Casa do Brasil para onde encaminhar a queixa',
           'Para documentos, confirme a fonte primária: AIMA, ACT, Finanças, Segurança Social, Consulado do Brasil',
-          'Se você não é brasileiro, mas vive perto da comunidade brasileira, os eventos da Casa do Brasil continuam a ser úteis: é uma boa forma de compreender o contexto migratório local'
+          'Se não é brasileiro, mas vive perto da comunidade brasileira, os eventos da Casa do Brasil continuam a ser úteis: é uma boa forma de compreender o contexto migratório local'
         ] },
-        { kind: 'warning', text: 'A Casa do Brasil de Lisboa não emite autorização de residência, NIF, NISS, número de utente e não acelera processos da AIMA. Se alguém em chats promete “resolver a AIMA por conhecimentos” mediante pagamento — é um sinal de alerta.' }
+        { kind: 'warning', text: 'A Casa do Brasil de Lisboa não emite autorização de residência, NIF, NISS, número de utente e não acelera processos da AIMA. Se alguém em chats promete “resolver a AIMA através de contactos” por dinheiro — é um sinal de alerta.' }
       ]
     },
     {
       id: 'associations',
       title: 'Associações, redes de negócios e infraestrutura consular',
       content: [
-        { kind: 'paragraph', text: 'Além da Casa do Brasil, existem em Portugal associações brasileiras, clubes empresariais e redes profissionais. Os nomes e a actividade mudam, por isso verifique não só o site, mas também as publicações mais recentes, eventos reais e o registo da organização.' },
+        { kind: 'paragraph', text: 'Além da Casa do Brasil, há associações brasileiras, clubes de empresários e redes profissionais a funcionar em Portugal. Os nomes e a actividade mudam, por isso verifique não só o site, mas também as publicações mais recentes, eventos reais e o registo da organização.' },
         { kind: 'checklist', items: [
           'Associação Brasileiros em Portugal / Associação de Brasileiros em Portugal — procure páginas actualizadas por cidade e confirme contactos recentes',
-          'ABEP e redes empresariais semelhantes — úteis para empreendedores, freelancers, proprietários de salão, café, loja, agência, consultoria',
+          'ABEP e redes de negócios semelhantes — úteis para empreendedores, freelancers, proprietários de salão, café, loja, agência, consultoria',
           'Consulado-Geral do Brasil em Lisboa e Consulado-Geral do Brasil no Porto — para passaporte, CPF, procuração, registo militar, eleitoral, actos notariais',
-          'Igrejas evangélicas brasileiras, centros culturais e grupos de mães dão frequentemente apoio prático mais rápido do que as associações formais',
-          'Grupos de Facebook e chats de WhatsApp são úteis para habitação e trabalho, mas verifique cada anúncio: há muitas fraudes',
+          'Igrejas evangélicas brasileiras, centros culturais e grupos de mães dão muitas vezes apoio prático mais rápido do que as associações formais',
+          'Grupos de Facebook e chats de WhatsApp são úteis para habitação e trabalho, mas verifique todos os anúncios: há muitas burlas',
           'Grupos de LinkedIn de profissionais brasileiros em Portugal são mais úteis para IT, marketing, design, consulting e relocation'
         ] },
         { kind: 'paragraph', text: 'Para negócios, procure não só “brasileiros em Portugal”, mas também palavras-chave sectoriais: “empreendedores brasileiros Lisboa”, “profissionais brasileiros Porto”, “networking Brasil Portugal”, “salões brasileiros Lisboa”, “contabilidade para brasileiros Portugal”.' }
@@ -56,21 +56,21 @@ export default {
     },
     {
       id: 'neighbourhoods',
-      title: 'Onde encontrar um ambiente brasileiro em Lisboa e no Porto',
+      title: 'Onde encontrar o ambiente brasileiro em Lisboa e no Porto',
       content: [
         { kind: 'substeps', items: [
           { id: 'lisboa', title: 'Lisboa e área metropolitana', content: [
             { kind: 'paragraph', text: 'Na própria Lisboa, a vida brasileira é visível em Arroios, Anjos, Intendente, Alameda, Penha de França, Benfica e à volta da Avenida Almirante Reis. Há muitos cafés, salões de beleza, igrejas, lojas brasileiras e serviços “para recém-chegados”.' },
             { kind: 'checklist', items: [
-              'Arroios / Anjos / Intendente — central, muitos serviços para imigrantes, renda mais cara',
+              'Arroios / Anjos / Intendente — central, muitos serviços para imigrantes, arrendamento mais caro',
               'Alameda / Areeiro / Penha de França — transportes convenientes, muitos estudantes e famílias trabalhadoras',
-              'Amadora e Odivelas — mais barato, ambiente brasileiro e lusófono forte, metro/comboios',
-              'Sintra / Cacém / Queluz — muitas famílias, renda mais baixa, deslocação mais longa até ao centro de Lisboa',
-              'Cascais / Oeiras — mais caro, mais IT, corporate, famílias com filhos e ambiente anglófono'
+              'Amadora e Odivelas — mais barato, forte ambiente brasileiro e lusófono, metro/comboios',
+              'Sintra / Cacém / Queluz — muitas famílias, arrendamento mais baixo, viagem mais longa até ao centro de Lisboa',
+              'Cascais / Oeiras — mais caro, mais IT, corporate, famílias com crianças e ambiente anglófono'
             ] }
           ] },
           { id: 'porto', title: 'Porto e norte', content: [
-            { kind: 'paragraph', text: 'No Porto, o ambiente brasileiro está distribuído de forma mais ampla: Bonfim, Campanhã, Paranhos, Cedofeita, Ramalde, bem como Vila Nova de Gaia, Matosinhos e Maia. Para estudantes, Paranhos e Asprela são importantes; para trabalho em serviços — centro do Porto, Gaia e Matosinhos.' },
+            { kind: 'paragraph', text: 'No Porto, o ambiente brasileiro está distribuído de forma mais ampla: Bonfim, Campanhã, Paranhos, Cedofeita, Ramalde, bem como Vila Nova de Gaia, Matosinhos e Maia. Para estudantes, Paranhos e Asprela são importantes; para trabalho em serviços — o centro do Porto, Gaia e Matosinhos.' },
             { kind: 'checklist', items: [
               'Bonfim / Campanhã — relativamente mais acessível, em rápido desenvolvimento, muitos imigrantes',
               'Paranhos / Asprela — universidades, hospitais, estudantes, quartos para arrendar',
@@ -84,32 +84,32 @@ export default {
     },
     {
       id: 'how-to-use-community',
-      title: 'Como usar a comunidade sem cometer erros',
+      title: 'Como usar a comunidade sem erros',
       content: [
-        { kind: 'paragraph', text: 'A rede brasileira em Portugal é forte, mas deve ser usada como fonte de contactos, não como a única fonte de verdade. Nos chats, misturam-se frequentemente experiências pessoais de 2018, regras da época do SEF e a realidade da AIMA em 2026.' },
+        { kind: 'paragraph', text: 'A rede brasileira em Portugal é forte, mas deve ser usada como fonte de contactos, não como a única fonte da verdade. Nos chats, misturam-se frequentemente experiências pessoais de 2018, regras da época do SEF e a realidade da AIMA em 2026.' },
         { kind: 'checklist', items: [
           'Para autorização de residência, consulte a AIMA e o ePortugal, não apenas o WhatsApp',
           'Para impostos — Finanças e contabilista; IRS, IVA, recibos verdes e NHR/IFICI são frequentemente confundidos',
-          'Para conflitos laborais — ACT, sindicato ou advogado; não aceite trabalho sem contrato se prometem “regularizar depois”',
-          'Para habitação — exija contrato de arrendamento e recibos de renda; sem isso é mais difícil comprovar a morada',
-          'Para SNS — obtenha o número de utente no Centro de Saúde da sua área de residência',
+          'Para conflitos laborais — ACT, sindicato ou advogado; não aceite trabalho sem contrato se prometerem “regularizar depois”',
+          'Para habitação — exija contrato de arrendamento e recibos de renda; sem isso é mais difícil provar a morada',
+          'Para SNS — peça o número de utente no Centro de Saúde da sua área de residência',
           'Para documentos do Brasil — consulado: passaporte, CPF, procuração, registo civil',
-          'Para conhecer pessoas — eventos da Casa do Brasil, pequenos-almoços de negócios, igreja, universidades, coworking e cafés de bairro'
+          'Para contactos — eventos da Casa do Brasil, pequenos-almoços de negócios, igreja, universidades, coworking e cafés de bairro'
         ] },
         { kind: 'warning', text: 'Tenha especial cuidado com anúncios “NIF/NISS/contrato/AIMA garantido”, “quarto sem contrato”, “emprego com recibos verdes mas horário fixo”. Em 2026, as fiscalizações da ACT, Finanças e AIMA tornaram-se mais rigorosas, e promessas verbais quase não protegem.' }
       ]
     },
     {
       id: 'non-brazilians',
-      title: 'Se você não é brasileiro, por que esta rede lhe interessa',
+      title: 'Se não é brasileiro, para que serve esta rede',
       content: [
-        { kind: 'paragraph', text: 'Mesmo que venha da Federação Russa, Ucrânia, Cazaquistão, Bielorrússia, UE ou outro país, a comunidade brasileira é útil na prática: já percorreu há muito o caminho da adaptação em Portugal e criou muitos serviços para migrantes — de contabilistas e advogados a médicos, escolas de dança, salões e grupos infantis.' },
+        { kind: 'paragraph', text: 'Mesmo que seja da Rússia, Ucrânia, Cazaquistão, Bielorrússia, UE ou de outro país, a comunidade brasileira é útil na prática: já percorreu há muito o caminho da adaptação em Portugal e criou muitos serviços para migrantes — de contabilistas e advogados a médicos, escolas de dança, salões e grupos infantis.' },
         { kind: 'checklist', items: [
           'Procure um ambiente lusófono onde seja mais fácil praticar PT-BR/PT-PT sem medo de errar',
           'Através das redes brasileiras é mais fácil encontrar serviços numa língua compreensível: contabilista, advogado, psicólogo, cabeleireiro',
           'Os eventos ajudam a compreender as regras portuguesas de trabalho, arrendamento e burocracia em linguagem simples',
           'Restaurantes e cafés brasileiros tornam-se frequentemente “centros de informação” locais do bairro',
-          'Para empreendedores, é um mercado de clientes: brasileiros, lusófonos e expats cruzam-se frequentemente'
+          'Para empreendedores, isto é um mercado de clientes: brasileiros, lusófonos e expats cruzam-se frequentemente'
         ] }
       ]
     }
@@ -122,14 +122,14 @@ export default {
   sources: [
     {
       title: 'Casa do Brasil de Lisboa — site oficial e agenda',
-      url: 'https://www.casadobrasildelisboa.pt',
+      url: 'https://casadobrasil.info/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'AIMA — relatórios estatísticos sobre população estrangeira residente',
-      url: 'https://aima.gov.pt/pt/a-aima/relatorios-estatisticos',
+      url: 'https://aima.gov.pt/pt/a-aima/relatorios-de-migracoes-e-asilo',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

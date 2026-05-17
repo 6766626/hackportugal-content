@@ -118,6 +118,6 @@ export default {
     { title: 'Câmara Municipal do Porto — культура', url: 'https://www.cm-porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Porto', url: 'https://www.visitportugal.com/pt-pt/destinos/porto-e-norte', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

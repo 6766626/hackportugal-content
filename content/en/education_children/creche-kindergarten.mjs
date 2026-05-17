@@ -2,9 +2,9 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'creche-kindergarten',
   categoryId: 'education_children',
-  title: 'Creche and Jardim de Infância in Portugal',
-  tldr: 'Creche (0–3 years) — paid, even public ones, with income-based fees: €0–400/month. Jardim de Infância (3–6 years, pre-school education) — free in public institutions. From age 5 it is compulsory. Enrol via Segurança Social Direta (social security online portal) for Creche or Portal das Matrículas for Jardim de Infância.',
-  tags: ['creche', 'jardim de infância', 'kindergarten', 'children'],
+  title: 'Creche and kindergarten in Portugal',
+  tldr: 'Creche (usually 0–3) can be IPSS/social, private and, more rarely, municipal. Under the **Creche Feliz** programme, a place may be free in covered institutions (mainly IPSS/social network). Jardim de Infância / educação pré-escolar (ages 3–6) — in the state network the educational component is free; meals, transporte and AAAF/prolongamento may be charged separately. Attendance at pré-escolar is **not compulsory** — compulsory schooling starts at age 6. Enrolment for Creche Feliz: Segurança Social Direta; for Jardim de Infância: Portal das Matrículas.',
+  tags: ['creche', 'kindergarten', 'jardim de infância', 'children'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -12,17 +12,17 @@ export default {
       title: 'Types of institutions',
       content: [
         { kind: 'substeps', items: [
-          { id: 't1', title: 'Free creche (Creche Gratuita, 0–3 years) — since Sept 2022', content: [
-            { kind: 'paragraph', text: 'Creche Feliz programme: free for children in abono de família levels 1–2. From the 2024–2025 school year it expands to all children up to 3 years old. Applies in public and solidarity institutions (IPSS).' }
+          { id: 't1', title: 'Creche Feliz (free nursery for eligible places) — since 2022', content: [
+            { kind: 'paragraph', text: 'A free place in **covered** institutions — mainly the IPSS social/solidarity network; private for-profit creches may participate only if they comply with the programme rules (usually when there is no suitable place in the social network). Initially (2022/23) there was a restriction based on the 1st–2nd abono tiers — by 2026 this is no longer the main rule. The standard mensalidade is €0; “extras” (additional services, extended hours) may be charged separately.' }
           ]},
-          { id: 't2', title: 'Creche IPSS (solidarity institutions)', content: [
-            { kind: 'paragraph', text: 'Private non-profit institutions. Operate under agreement with Segurança Social. Income-based fees: €0–400/month.' }
+          { id: 't2', title: 'IPSS Creche outside Creche Feliz', content: [
+            { kind: 'paragraph', text: 'If the place is not covered by Creche Feliz, a family comparticipação based on income may apply according to the institution’s/Segurança Social rules. Meals are usually included as standard.' }
           ]},
-          { id: 't3', title: 'Private creche (Creche Privada)', content: [
+          { id: 't3', title: 'Private nursery (Creche Privada)', content: [
             { kind: 'paragraph', text: 'Commercial institutions. €400–1,200/month in Lisbon and Porto. There are international options with English, French or German.' }
           ]},
-          { id: 't4', title: 'Kindergarten (Jardim de Infância, 3–6 years, free)', content: [
-            { kind: 'paragraph', text: 'Part of the state school system. Free. Compulsory from age 5 (since 2022).' }
+          { id: 't4', title: 'Jardim de Infância / educação pré-escolar (ages 3–6)', content: [
+            { kind: 'paragraph', text: 'In the state network, the educational component is free. **Attendance is not compulsory** — compulsory school starts at age 6. Meals, transporte escolar and AAAF/prolongamento may be paid or subsidised depending on the municipality and Ação Social Escolar (ASE) tier.' }
           ]}
         ]}
       ]
@@ -32,22 +32,23 @@ export default {
       title: 'Enrolment in Creche',
       content: [
         { kind: 'substeps', items: [
-          { id: 'c1', title: '1. Apply via Segurança Social Direta', content: [
-            { kind: 'paragraph', text: 'seg-social.pt → Segurança Social Direta → Família → Creche Feliz. Choose institutions (up to 5).' }
+          { id: 'c1', title: '1. Apply through Segurança Social Direta', content: [
+            { kind: 'paragraph', text: 'For places under Creche Feliz: SSD → Família → Creche Feliz / Pedido de Creche. Check the current limit on the number of institutions you can choose in the portal. For private creches or places outside the programme, apply directly to the institution.' }
           ]},
           { id: 'c2', title: '2. Documents', content: [
             { kind: 'checklist', items: [
-              'NISS of the child and parents',
-              'IRS declaration / income statement',
+              'Child’s and parents’ NISS',
+              'Declaração de IRS and nota de liquidação / income certificate',
               'Birth certificate',
-              'Proof of address'
+              'Proof of address',
+              'If necessary, comprovativo do escalão de abono / household composition'
             ]}
           ]},
           { id: 'c3', title: '3. Priority', content: [
-            { kind: 'paragraph', text: 'abono de família level + siblings in the same institution + proximity to work or home address.' }
+            { kind: 'paragraph', text: 'Abono de família tier + siblings in the same institution + proximity to work or residential address.' }
           ]},
           { id: 'c4', title: '4. Wait for a response', content: [
-            { kind: 'timeline', text: '1–6 months. In Lisbon and Porto the waiting list for Creche is huge — apply before birth or at 1–2 months old.' }
+            { kind: 'timeline', text: '1–6 months. In Lisbon and Porto the waiting list for Creche is huge — apply before birth or at 1–2 months.' }
           ]}
         ]}
       ]
@@ -58,10 +59,10 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'j1', title: '1. Portal das Matrículas', content: [
-            { kind: 'paragraph', text: 'portaldasmatriculas.edu.gov.pt → registration → choose the school cluster.' }
+            { kind: 'paragraph', text: 'portaldasmatriculas.edu.gov.pt → login/authentication (Chave Móvel Digital / CC / NIF+AT password) → choose institutions/agrupamentos in order of preference. If you cannot authenticate online, contact the school/agrupamento.' }
           ]},
           { id: 'j2', title: '2. Deadlines', content: [
-            { kind: 'paragraph', text: 'Main window — April–May for the next school year (September). Remaining places — until mid-June.' }
+            { kind: 'paragraph', text: 'The calendar is published annually (despacho); applications for pré-escolar/1.º ano are usually submitted in April–May. Exact dates and publication deadlines for placements are on Portal das Matrículas for the specific school year.' }
           ]},
           { id: 'j3', title: '3. Priority', content: [
             { kind: 'paragraph', text: 'Age (older children first), catchment area, siblings.' }
@@ -71,32 +72,32 @@ export default {
     },
     {
       id: 'private-international',
-      title: 'Private international kindergartens',
+      title: 'International private kindergartens',
       content: [
-        { kind: 'paragraph', text: 'For Russian-speaking families, popular options in Lisbon:' },
+        { kind: 'paragraph', text: 'Popular options in Lisbon for Russian-speaking families:' },
         { kind: 'checklist', items: [
           'Russian Club Carlos Freixo, Oeiras — Russian language and culture',
-          'St. Julian\'s School (Carcavelos) — British, 2–18 years',
-          'International Preparatory School — American, 3–15 years',
+          'St. Julian\'s School (Carcavelos) — British, ages 2–18',
+          'International Preparatory School — English-language international/British-style school; check age/fee ranges on the website',
           'Escola Alemã (Lisboa) — German',
           'Lycée Français Charles Lepierre — French'
         ]},
-        { kind: 'paragraph', text: 'Cost €8,000–18,000/year.' }
+        { kind: 'paragraph', text: 'Tuition is usually €8,000–18,000/year, but first-year registration/capital fees, meals, uniform, transport and after-school care are usually extra — check the fee table of the specific school.' }
       ]
     }
   ],
   costs: [
-    { label: 'Creche Feliz / public', amountEUR: 0, note: 'free for abono de família levels 1–2' },
-    { label: 'Creche IPSS', amountEURMin: 0, amountEURMax: 400, note: '/month, income-based' },
+    { label: 'Creche Feliz (covered place)', amountEUR: 0, note: 'standard mensalidade €0 mainly in the IPSS/social network; participating private institutions only under the programme rules; extras/extended services may be charged' },
+    { label: 'IPSS Creche outside Creche Feliz', note: 'family comparticipação based on income — varies by institution/family formula' },
     { label: 'Private Creche', amountEURMin: 400, amountEURMax: 1200, note: '/month in major cities' },
-    { label: 'Public Jardim de Infância', amountEUR: 0 },
+    { label: 'State Jardim de Infância (educational component)', amountEUR: 0, note: 'meals/AAAF/transporte may be paid by the municipality/ASE' },
     { label: 'Private / international Jardim', amountEURMin: 300, amountEURMax: 1500, note: '/month' }
   ],
   sources: [
     { title: 'Segurança Social — Creche Feliz', url: 'https://www.seg-social.pt/creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Matrículas', url: 'https://portaldasmatriculas.edu.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'DGE — Curriculum Guidelines for Pre-School Education', url: 'https://www.dge.mec.pt/orientacoes-curriculares-para-educacao-pre-escolar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
+    { title: 'DGE — Curriculum Guidelines for Educação Pré-Escolar', url: 'https://www.dge.mec.pt/orientacoes-curriculares-para-educacao-pre-escolar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

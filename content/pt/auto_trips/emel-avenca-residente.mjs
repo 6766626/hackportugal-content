@@ -3,7 +3,7 @@ export default {
   id: "emel-avenca-residente",
   categoryId: "auto_trips",
   title: "EMEL Avença Residente: estacionamento de residente em Lisboa",
-  tldr: "A Avença Residente EMEL é uma autorização anual para residentes de Lisboa estacionarem na sua zona EMEL, em vez de pagarem tarifa horária. Em 2026, a referência na página oficial da EMEL é: 40 € / ano para zona verde, 60 € / ano para zona amarela, 100 € / ano para zona vermelha. A condição principal é que a morada fiscal do seu NIF esteja na zona correcta e que o automóvel esteja registado em seu nome ou lhe tenha sido legalmente disponibilizado. Pode pedir online ou numa Loja EMEL, mas para expats costuma ser mais seguro ir ao balcão com o pacote completo de documentos.",
+  tldr: "A Avença Residente EMEL é uma autorização anual para residentes de Lisboa estacionarem na sua zona EMEL, em vez de pagarem à hora. Em 2026, segundo a página oficial da EMEL, os valores de referência são: 40 € / ano para zona verde, 60 € / ano para zona amarela, 100 € / ano para zona vermelha. A condição principal é que a morada fiscal do seu NIF esteja na zona correspondente e que o automóvel esteja em seu nome ou lhe tenha sido legalmente disponibilizado. Pode pedir online ou numa Loja EMEL, mas para expats costuma ser mais seguro ir ao balcão com o pacote completo de documentos.",
   tags: ["emel", "estacionamento", "lisboa", "automóvel"],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,23 +13,23 @@ export default {
       content: [
         {
           kind: "paragraph",
-          text: "É uma autorização de residente da EMEL para estacionar na via pública na zona da sua residência em Lisboa. Não dá estacionamento gratuito em toda a cidade: é válida apenas na zona/bairro associado ao seu endereço e apenas nos lugares EMEL onde o estacionamento de residentes é permitido."
+          text: "É uma autorização de residente da EMEL para estacionar na via pública na zona onde vive em Lisboa. Não dá estacionamento gratuito em toda a cidade: só é válida na zona/bairro associado à sua morada e apenas nos lugares EMEL onde o estacionamento de residentes é permitido."
         },
         {
           kind: "checklist",
           items: [
-            "Adequada para residentes de Lisboa com endereço numa zona EMEL",
-            "É paga como assinatura anual, não como estacionamento à hora",
+            "Adequada para residentes de Lisboa com morada numa zona EMEL",
+            "É paga como assinatura anual, e não como estacionamento à hora",
             "Fica associada à matrícula do automóvel",
             "É verificada pelos fiscais da EMEL através da matrícula; normalmente não é necessário dístico em papel",
             "Não garante um lugar específico junto de casa",
-            "Não é válida em parques privados, garagens nem lugares com regime especial",
+            "Não é válida em parques privados, garagens e lugares com regime especial",
             "Não substitui o pagamento de coimas, IUC, seguro ou IPO"
           ]
         },
         {
           kind: "warning",
-          text: "Não confunda a Avença Residente / Dístico de Residente com o pagamento normal através da aplicação ePark. Se simplesmente estacionar o automóvel numa zona EMEL sem autorização de residente activa, o fiscal vê isso como estacionamento não pago."
+          text: "Não confunda Avença Residente / Dístico de Residente com o pagamento normal através da aplicação ePark. Se simplesmente estacionar o automóvel numa zona EMEL sem uma autorização de residente activa, o fiscal vê isso como estacionamento não pago."
         }
       ]
     },
@@ -39,19 +39,19 @@ export default {
       content: [
         {
           kind: "paragraph",
-          text: "A condição essencial é que o seu endereço fiscal nas Finanças, ou seja, a morada fiscal do NIF, esteja na zona EMEL para a qual pede a assinatura de residente. O contrato de arrendamento ajuda, mas se o NIF ainda estiver registado na morada antiga ou no representante fiscal, a EMEL pode recusar."
+          text: "A condição essencial é que a sua morada fiscal nas Finanças, ou seja, a morada fiscal do NIF, esteja situada na zona EMEL para a qual pede a avença de residente. O contrato de arrendamento, por si só, ajuda, mas se o NIF ainda estiver registado na morada antiga ou na morada de um representante fiscal, a EMEL pode recusar."
         },
         {
           kind: "checklist",
           items: [
-            "Reside efectivamente em Lisboa numa zona EMEL",
-            "A morada fiscal do seu NIF está actualizada para esse endereço",
-            "O automóvel está registado em seu nome, no nome do seu cônjuge/parceiro ou foi-lhe legalmente disponibilizado",
+            "Vive efectivamente em Lisboa numa zona EMEL",
+            "A morada fiscal do seu NIF foi actualizada para essa morada",
+            "O automóvel está registado em seu nome, em nome do seu cônjuge/parceiro ou foi-lhe legalmente disponibilizado",
             "Tem documento de identificação: passaporte, autorização de residência, Cartão de Cidadão ou outro ID",
             "O automóvel tem Certificado de Matrícula / DUA",
-            "Para leasing, renting, viatura de empresa ou comodato existe contrato/declaração onde você consta como utilizador",
+            "Para leasing, renting, viatura da empresa ou comodato, existe contrato/declaração onde consta como utilizador",
             "A matrícula está correctamente indicada no pedido",
-            "Não há contradição entre a morada nos documentos e a zona que está a solicitar"
+            "Não há contradição entre a morada nos documentos e a zona que está a pedir"
           ]
         },
         {
@@ -79,12 +79,12 @@ export default {
             "Se o automóvel não estiver em seu nome: contrato de renting/leasing, declaração da entidade empregadora ou contrato de comodato",
             "Número de telemóvel e email",
             "Cartão bancário ou outro meio de pagamento",
-            "Se a morada foi alterada recentemente: impressão/PDF com a data da alteração da morada fiscal"
+            "Se a morada foi alterada recentemente: impressão/PDF com a data de alteração da morada fiscal"
           ]
         },
         {
           kind: "paragraph",
-          text: "Se o automóvel tiver matrícula estrangeira, confirme previamente com a EMEL. As autorizações de residente são normalmente pensadas para automóveis que possam ser associados de forma inequívoca ao requerente e à morada; a utilização prolongada de um automóvel estrangeiro em Portugal também tem riscos fiscais e aduaneiros relacionados com ISV/IUC."
+          text: "Se o automóvel tiver matrícula estrangeira, confirme previamente com a EMEL. As autorizações de residente estão normalmente pensadas para automóveis que possam ser associados de forma inequívoca ao requerente e à morada; a utilização prolongada de um automóvel estrangeiro em Portugal também tem riscos fiscais e aduaneiros relacionados com ISV/IUC."
         }
       ]
     },
@@ -101,7 +101,7 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "No site da EMEL, procure a rua de residência e veja a que zona pertence: verde, amarela ou vermelha. O preço depende da zona e a validade da autorização fica limitada a esse território."
+                  text: "No site da EMEL, procure a rua onde vive e veja a que zona pertence: verde, amarela ou vermelha. O preço depende da zona, e a validade da autorização está limitada a esse território."
                 }
               ]
             },
@@ -111,7 +111,7 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "Se se mudou recentemente, altere primeiro a morada nas Finanças. Para titulares de Cartão de Cidadão, isto é feito através do ePortugal/CMD; para estrangeiros com autorização de residência, através do Portal das Finanças ou do atendimento Finanças, consoante o acesso."
+                  text: "Se se mudou recentemente, altere primeiro a morada nas Finanças. Para titulares de Cartão de Cidadão, isto é feito através do ePortugal/CMD; para estrangeiros com autorização de residência, através do Portal das Finanças ou do atendimento das Finanças, consoante o acesso."
                 }
               ]
             },
@@ -121,7 +121,7 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "Marque atendimento ou dirija-se a uma Loja EMEL/ponto de atendimento com os documentos. O funcionário verificará a morada, o automóvel e a zona, criará a avença e permitirá pagar a tarifa anual."
+                  text: "Faça marcação ou dirija-se a uma Loja EMEL/ponto de atendimento com os documentos. O funcionário verificará a morada, o automóvel e a zona, criará a avença e permitirá pagar a tarifa anual."
                 }
               ]
             },
@@ -131,7 +131,7 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "Depois do pagamento, verifique a matrícula no espaço pessoal/confirmação da EMEL. Não deixe o automóvel «à sorte» antes da activação: as coimas desses dias normalmente não são anuladas apenas porque o pedido já foi apresentado."
+                  text: "Depois do pagamento, verifique a matrícula no gabinete pessoal/confirmação da EMEL. Não deixe o automóvel «à sorte» antes da activação: as coimas desses dias normalmente não são anuladas só porque o pedido já foi apresentado."
                 }
               ]
             }
@@ -141,27 +141,27 @@ export default {
     },
     {
       id: "prices-and-use",
-      title: "Preços e como usar em 2026",
+      title: "Preços e como utilizar em 2026",
       content: [
         {
           kind: "paragraph",
-          text: "Segundo a página oficial da EMEL para residentes, em 2026 a ordem de preços anual é a seguinte: zona verde — 40 €, zona amarela — 60 €, zona vermelha — 100 €. É o preço pelo direito de estacionar como residente na sua zona, não o custo de um lugar reservado."
+          text: "Segundo a página oficial da EMEL para residentes, em 2026 a ordem de preços anual é a seguinte: zona verde — 40 €, zona amarela — 60 €, zona vermelha — 100 €. Este é o preço pelo direito de estacionar como residente na sua zona, e não o custo de um lugar reservado."
         },
         {
           kind: "checklist",
           items: [
             "Guarde o comprovativo de pagamento em PDF ou email",
-            "Verifique a data de fim e coloque um lembrete com 30 dias de antecedência",
-            "Se mudar de morada, apresente a alteração à EMEL; a autorização antiga pode deixar de corresponder à zona",
-            "Se mudar de automóvel, actualize a matrícula antes de estacionar",
+            "Verifique a data de fim e coloque um lembrete para 30 dias antes",
+            "Em caso de mudança de morada, apresente a alteração à EMEL; a autorização antiga pode deixar de corresponder à zona",
+            "Em caso de troca de automóvel, actualize a matrícula antes de estacionar",
             "Não estacione em lugares de cargas e descargas, lugares reservados, passadeiras, esquinas e passeios",
-            "Esteja atento a sinais temporários de obras e eventos: a autorização de residente não protege contra reboque",
-            "Se receber um aviso/contra-ordenação, verifique a data, o local, a matrícula e se a avença estava activa nesse dia"
+            "Esteja atento a sinalização temporária de obras e eventos: a autorização de residente não protege contra reboque",
+            "Se receber um aviso/contraordenação, verifique a data, o local, a matrícula e se a avença estava activa nesse dia"
           ]
         },
         {
           kind: "warning",
-          text: "Nos bairros históricos e nas zonas congestionadas de Lisboa, ter Avença Residente não significa que será fácil encontrar lugar à noite. É um direito legal de estacionar na zona em regime de residente, não uma garantia de lugar livre."
+          text: "Nos bairros históricos e nas zonas congestionadas de Lisboa, ter Avença Residente não significa que será fácil encontrar lugar à noite. É um direito jurídico de estacionar na zona em regime de residente, não uma garantia de existência de lugar livre."
         }
       ]
     }
@@ -175,7 +175,7 @@ export default {
     {
       label: "Avença Residente — zona amarela",
       amountEUR: 60,
-      note: "Tarifa anual da EMEL para residente; não constitui garantia de lugar."
+      note: "Tarifa anual da EMEL para residente; não garante um lugar."
     },
     {
       label: "Avença Residente — zona vermelha",
@@ -206,6 +206,6 @@ export default {
       lastRetrieved: "2026-04-28"
     }
   ],
-  lastVerified: "2026-04-28",
+  lastVerified: "2026-05-17",
   verifyIntervalDays: 180
 }

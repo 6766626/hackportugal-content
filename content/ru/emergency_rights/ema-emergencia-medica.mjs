@@ -124,6 +124,6 @@ export default {
     { title: 'Decreto-Lei 234/81 — создание и правовая база INEM, DRE', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1981-34546275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — контакт 808 24 24 24 и медицинская навигация', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

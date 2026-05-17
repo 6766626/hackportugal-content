@@ -13,13 +13,13 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Fitness Hut (бюджет)', content: [
-            { kind: 'paragraph', text: '€ 24,99–34,99/мес в 2026 (Fit Lite / Fit Premium). Оборудование современное. В некоторых клубах работает 24/7. 80+ клубов по Португалии. Часто первый выбор.' }
+            { kind: 'paragraph', text: '€ 24,99–34,99/мес в 2026 (Fit Lite / Fit Premium). Оборудование современное. В некоторых клубах работает 24/7. Десятки клубов по Португалии (Solinca/VivaGym group, входит в один холдинг). Часто первый выбор.' }
           ]},
           { id: 'c2', title: 'Holmes Place (премиум)', content: [
             { kind: 'paragraph', text: '€ 89–149/мес в 2026 в зависимости от плана/клуба. Бассейны, сауны, персональные тренировки, групповые занятия. В крупных городах. Подходит для корпоративных клиентов.' }
           ]},
           { id: 'c3', title: 'Phive (средний сегмент)', content: [
-            { kind: 'paragraph', text: '€ 35–50/мес. Гибридный формат — оборудование + групповые занятия. 40+ клубов.' }
+            { kind: 'paragraph', text: '€ 35–50/мес. Гибридный формат — оборудование + групповые занятия. Несколько клубов, в основном в Лиссабоне.' }
           ]},
           { id: 'c4', title: 'Solinca', content: [
             { kind: 'paragraph', text: '€ 40–60/мес. Ближе к премиум-сегменту, клубы сети часто находятся при отелях.' }
@@ -41,7 +41,7 @@ export default {
       title: 'Серфинг — где и как',
       content: [
         { kind: 'checklist', items: [
-          '🏄 Ericeira — мировой серфинг-резерват UNESCO. Ribeira d\'Ilhas, Coxos',
+          '🏄 Ericeira — World Surfing Reserve (программа Save The Waves Coalition; не UNESCO designation). Ribeira d\'Ilhas, Coxos',
           '🌊 Peniche / Baleal — для начинающих, стабильные волны',
           '🏖️ Cascais / Carcavelos — ближе к Лиссабону, доступно на поезде',
           '🌅 Costa da Caparica — южный берег, много школ',
@@ -101,9 +101,9 @@ export default {
   ],
   sources: [
     { title: 'IPDJ — Instituto Português do Desporto e Juventude', url: 'https://www.ipdj.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Ericeira World Surfing Reserve — UNESCO', url: 'https://www.ericeirasurfreserve.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Ericeira World Surfing Reserve', url: 'https://www.ericeirasurfreserve.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Federação Portuguesa de Surf — FPS', url: 'https://www.surfingportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

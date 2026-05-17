@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'espaco-cidadao',
   categoryId: 'digital_gov',
-  title: 'Espaço Cidadão — serviços públicos num só balcão',
-  tldr: 'Espaço Cidadão — pontos de atendimento (existem por todo o país, mas não é garantido em cada município), onde se tratam muitos assuntos de serviços públicos: Chave Móvel Digital, alteração de morada, várias certidões e outros. O conjunto concreto de serviços depende do posto — NIF/NISS não existem em todos os Espaços Cidadão. Nas cidades grandes existe a Loja de Cidadão (balcões separados de diferentes organismos — a composição difere consoante a cidade). O agendamento via ePortugal.gov.pt é **recomendado**, mas nem sempre obrigatório — alguns serviços funcionam por ordem de chegada ou por senha.',
+  title: 'Espaço Cidadão — serviços públicos num único balcão',
+  tldr: 'Espaço Cidadão — pontos de atendimento (existem por todo o país, mas não garantidamente em todos os municípios), onde se resolvem muitas questões de serviços públicos: Chave Móvel Digital, alteração de morada, várias certidões e outros. O conjunto concreto de serviços depende do ponto de atendimento — NIF/NISS não existem em todos os Espaço Cidadão. Nas grandes cidades existe a Loja de Cidadão (balcões separados de diferentes entidades — a composição varia consoante a cidade). A marcação através de ePortugal.gov.pt é **recomendada**, mas não é obrigatória em todos os locais — alguns serviços funcionam por ordem de chegada ou com senhas.',
   tags: ['espaço cidadão', 'loja de cidadão', 'serviços públicos'],
   estimatedReadMinutes: 4,
   steps: [
@@ -12,25 +12,25 @@ export default {
       title: 'Espaço Cidadão e Loja de Cidadão',
       content: [
         { kind: 'checklist', items: [
-          'Loja de Cidadão — nas grandes cidades (Lisboa, Porto, Faro), balcões separados de vários organismos (normalmente Finanças, Segurança Social, IRN, IMT, entre outros). A composição dos organismos difere em cada Loja de Cidadão — AIMA/IMT não existem em todo o lado',
-          'Espaço Cidadão — em qualquer município, mesmo pequeno; um operador universal resolve tarefas básicas, mas em casos complexos encaminha para a Loja de Cidadão'
+          'Loja de Cidadão — em grandes cidades (Lisboa, Porto, Faro), balcões separados de diferentes entidades (normalmente Finanças, Segurança Social, IRN, IMT, entre outras). A composição das entidades varia em cada Loja de Cidadão concreta — AIMA/IMT não existem em todos os locais',
+          'Espaço Cidadão — em qualquer município, mesmo pequeno, um operador universal resolve tarefas básicas, mas encaminha os casos complexos para a Loja de Cidadão'
         ]}
       ]
     },
     {
       id: 'services',
-      title: 'O que pode tratar',
+      title: 'O que pode fazer',
       content: [
         { kind: 'checklist', items: [
-          'Cartão de Cidadão (documento de identificação de cidadão português) — substituição, atualização do PIN',
+          'Cartão de Cidadão (documento de identificação do cidadão português) — substituição, atualização do código PIN',
           'Chave Móvel Digital — ativação',
           'NIF — obtenção (para UE/CPLP — sem representante)',
           'Alteração da morada fiscal',
-          'NISS — atribuição',
-          'Certidões de registo criminal',
-          'Registo de veículo (IMT) — casos simples',
+          'NISS — emissão',
+          'Certificados de registo criminal',
+          'Registo automóvel (IMT) — casos simples',
           'Abono de família — pedido',
-          'Registos e certidões básicas de casamento e de nascimento'
+          'Registo de casamento, nascimento de uma criança — certidões básicas'
         ]}
       ]
     },
@@ -42,11 +42,11 @@ export default {
           { id: 'e1', title: '1. Encontrar o Espaço Cidadão mais próximo', content: [
             { kind: 'link', text: 'Mapa dos Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao' }
           ]},
-          { id: 'e2', title: '2. Marcar online', content: [
-            { kind: 'paragraph', text: 'Em ePortugal.gov.pt → escolher o serviço → escolher o local → escolher a hora. O agendamento é obrigatório.' }
+          { id: 'e2', title: '2. Fazer marcação online', content: [
+            { kind: 'paragraph', text: 'Através de ePortugal.gov.pt → escolher o serviço → escolher o local → escolher a hora. A marcação é obrigatória.' }
           ]},
           { id: 'e3', title: '3. Levar os documentos e comparecer', content: [
-            { kind: 'paragraph', text: 'Chegue 10 min mais cedo. Cada serviço leva 15–30 min. O operador muitas vezes ajuda com assuntos relacionados sem marcação separada.' }
+            { kind: 'paragraph', text: 'Chegue 10 min antes. Cada serviço demora 15-30 min. O operador ajuda frequentemente com questões relacionadas sem uma marcação separada.' }
           ]}
         ]}
       ]
@@ -56,11 +56,11 @@ export default {
       title: 'Conselhos',
       content: [
         { kind: 'checklist', items: [
-          'Agende sempre com antecedência — muitas vezes não atendem por ordem de chegada',
+          'Reserve sempre uma vaga com antecedência — muitas vezes não atendem por ordem de chegada',
           'Leve o original e uma cópia de cada documento',
-          'Se o operador recusar, peça educadamente para chamar um superior',
-          'Em Lisboa/Porto pode ser melhor ir a um Espaço Cidadão menos concorrido nos arredores — há mais vagas',
-          'Nem sempre compreendem inglês — prepare previamente o pedido em português'
+          'Se o operador recusar — peça educadamente para chamar um funcionário sénior',
+          'Em Lisboa/Porto compensa ir a um Espaço Cidadão menos sobrecarregado nos arredores — há mais vagas disponíveis',
+          'Nem sempre compreendem inglês — prepare antecipadamente o pedido em português'
         ]}
       ]
     }
@@ -69,6 +69,6 @@ export default {
     { title: 'ePortugal — Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Loja de Cidadão — site oficial', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

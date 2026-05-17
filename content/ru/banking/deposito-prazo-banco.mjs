@@ -62,7 +62,7 @@ export default {
           'Banco Best — часто силён в онлайн-промо и инвестиционных продуктах',
           'ActivoBank — удобен для expat-бытовых операций и мобильного банка',
           'Banco BiG — часто конкурирует по депозитам и brokerage',
-          'Caixa Geral de Depósitos, Millennium bcp, Santander, Novo Banco, BPI — удобны как основной банк, но ставки DP не всегда лучшие',
+          'Caixa Geral de Depósitos, Millennium bcp, Santander, Novobanco, BPI — удобны как основной банк, но ставки DP не всегда лучшие',
           'Проверяйте не только DP, но и стоимость conta à ordem: обслуживание карты может съесть часть доходности'
         ] }
       ]
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'surfing-beaches',
   categoryId: 'food_leisure',
   title: 'Surfing in Portugal — schools, beaches, seasons',
-  tldr: 'Portugal is a world surfing capital. Nazaré holds records for the biggest waves (30+ m). Ericeira is Europe’s only World Surf Reserve. Peniche, Sagres, Aljezur are legendary spots. Schools from €30-60/lesson + €15-25 rental, a full weekend camp ~€150-350. Peak season: September-April for big waves, May-August for beginners. Every level — from beginner to world class.',
+  tldr: 'Portugal is a world capital of surfing. Nazaré holds records for the biggest waves (30+ m). Ericeira is Europe’s only World Surf Reserve. Peniche, Sagres, Aljezur are legendary spots. Schools from €30-60/lesson + €15-25 rental, a full weekend camp ~€150-350. Peak season: September-April for big waves, May-August for beginners. Any level — from beginner to world class.',
   tags: ['surfing', 'surfing', 'nazaré', 'ericeira'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,32 +12,32 @@ export default {
       title: '🏄 Legendary spots by region',
       content: [
         { kind: 'substeps', items: [
-          { id: 's1', title: 'Nazaré — big-wave capital', content: [
+          { id: 's1', title: 'Nazaré — the big-wave capital', content: [
             { kind: 'checklist', items: [
               '**Praia do Norte** — giant waves in winter, up to 30 m',
               'World records: Garrett McNamara, Sebastian Steudtner',
-              '**For experts only** — with a rescue team',
+              '**Experts only** — with a rescue team',
               'Tourists watch from **Forte de São Miguel Arcanjo** — lighthouse + view',
               'Season: November-February',
-              'WSL Big Wave Championship — every January'
+              'WSL/Nazaré big-wave events take place during the winter waiting period and only with suitable swell; dates must be checked on the WSL website and with Município da Nazaré'
             ]}
           ]},
           { id: 's2', title: 'Ericeira — World Surf Reserve', content: [
             { kind: 'checklist', items: [
-              '4 km of coastline, **7+ world-class spots** in one place',
-              '**Ribeira d\'Ilhas** — WSL QS event, Pipeline-style wave',
+              'around 8 km of coastline and 7 officially recognised world-class waves',
+              '**Ribeira d\'Ilhas** — long right-hand reef/point break, often used for competitions; suitable for intermediate+ in normal conditions',
               '**Coxos** — for advanced surfers, reef break',
               '**Foz do Lizandro** — beach break for intermediate level',
-              '**São Lourenço** — beach break for beginners',
+              '**São Lourenço** — powerful right-hand reef/point, more intermediate/advanced; beginners are better off at Foz do Lizandro / São Julião / Praia do Sul with a school',
               'The only World Surf Reserve in Europe',
-              'Where to stay: guest houses €40-80/night, weekly rental €200-400',
-              '45 min by car from Lisbon'
+              'Where to stay: guesthouses €40-80/night, weekly rental €200-400',
+              'around 45-60 minutes by car from Lisbon, longer at rush hour'
             ]}
           ]},
           { id: 's3', title: 'Peniche — consistent swell', content: [
             { kind: 'checklist', items: [
               '**Supertubos** — another WSL spot, Pipeline-quality waves',
-              '**Baleal** — a peninsula with beach breaks for all levels',
+              '**Baleal** — peninsula with beach breaks for all levels',
               '**Cantinho da Baía** — sheltered bay for beginners',
               'More cafés / hostels / surf schools than in Ericeira',
               '1.5 hours from Lisbon'
@@ -49,7 +49,7 @@ export default {
               '**Arrifana** — powerful reef + beach break',
               '**Carrapateira** — open beach, for bigger waves',
               '**Castelejo, Cordoama, Barriga** — wild beaches, few people',
-              'Offshore wind: southerly (Algarve)',
+              'Offshore depends on the beach orientation: west coast is usually better with E/NE winds, south coast — with N/NW; check Windguru/Surfline for the specific spot',
               '3 hours from Lisbon, closer to Faro airport'
             ]}
           ]},
@@ -57,7 +57,7 @@ export default {
             { kind: 'checklist', items: [
               '**Matosinhos** — urban beach break, for beginners',
               '**Vila Chã, Miramar** — consistent conditions',
-              '**Espinho** — a little further south, longer waves',
+              '**Espinho** — slightly further south, longer waves',
               '**Viana do Castelo** — advanced point breaks',
               'Colder water, 4/3 wetsuit even in summer'
             ]}
@@ -76,7 +76,7 @@ export default {
               '**Group lesson**: €35-50/2 hours',
               '**Full day** (group): €60-90 + snacks',
               '**Weekend camp (2 days)**: €150-250',
-              '**Week-long surf camp**: €350-800 (lessons + accommodation + food)',
+              '**One-week surf camp**: €350-800 (lessons + accommodation + food)',
               '**Board + wetsuit rental**: €20-30/day, €60-100/week'
             ]}
           ]},
@@ -89,7 +89,7 @@ export default {
               '**Nazaré Surf School** — for beginners and intermediate level, not for big waves',
               '**WaterRats Sagres**, **Future Surf School** (Algarve)',
               '**Surfivor Portugal** — camps in different locations',
-              '⚠️ Check qualifications: instructor with FPS (Federação Portuguesa de Surf) certification'
+              '⚠️ Check FPS/qualified instructor, insurance availability, rescue plan, group ratio, legal school/operator and lesson conditions on the beach'
             ]}
           ]},
           { id: 'sc3', title: 'What is included', content: [
@@ -113,10 +113,10 @@ export default {
         { kind: 'checklist', items: [
           '🌨️ **November-March**: big swell, 2-6 m waves. Professionals only. Cold water 14-16°C, 4/3 wetsuit',
           '🌼 **April-May**: ideal for intermediate level, 1-2.5 m. Water 15-17°C',
-          '☀️ **June-August**: best for beginners, small waves 0.5-1.5 m. Water 17-20°C, short 3/2 wetsuit',
+          '☀️ **June-August**: best for beginners, small waves 0.5-1.5 m. Water 17-20°C, 3/2 full suit; on warm days in the south a shorty may be possible, but on the west coast the water is often cold because of upwelling',
           '🍂 **September-October**: excellent conditions — consistent swell + warm water. Best season overall',
           '💨 **Wind**: in the morning usually offshore (good), after 14:00 onshore (waves become choppy)',
-          '📱 **Conditions check**: windguru.cz, surfforecast.com, magicseaweed.com — 24 hours ahead'
+          '📱 **Checking conditions**: Windguru, Surf-Forecast, Surfline, IPMA marine forecast; check in the morning and 24-48 hours ahead'
         ]}
       ]
     },
@@ -125,13 +125,13 @@ export default {
       title: '🛒 Equipment — buy or rent',
       content: [
         { kind: 'substeps', items: [
-          { id: 'b1', title: 'Buying a board', content: [
+          { id: 'b1', title: 'Buy a board', content: [
             { kind: 'checklist', items: [
               '**New soft-top for beginners** (7-9 ft): €200-350',
               '**Hard board for beginners** (9 ft longboard): €400-700',
               '**Shortboard for intermediate level** (6-7 ft): €500-900',
               'Shops: **Natural, Surf World Hossegor, Wavesailing**',
-              'Second-hand market: **olx.pt, Facebook Marketplace** — half price'
+              'Second-hand market: **olx.pt, Facebook Marketplace** — half the price'
             ]}
           ]},
           { id: 'b2', title: 'Wetsuit', content: [
@@ -148,7 +148,7 @@ export default {
               'Board: €15-25/day, €70-100/week',
               'Wetsuit: €10-15/day',
               'Set (board + wetsuit): €25-35/day',
-              'All beach surf spots have rental points'
+              'Popular beaches often have rental, but wild/remote spots may not; book in advance and check seasonality'
             ]}
           ]}
         ]}
@@ -159,13 +159,13 @@ export default {
       title: '👥 Community and competitions',
       content: [
         { kind: 'checklist', items: [
-          '**FPS** (Federação Portuguesa de Surf) — federation, competition licence',
-          '**WSL 2026 competitions**: MEO Rip Curl Pro Portugal (Peniche, October), Nazaré Tow Surfing Challenge (December-January)',
+          '**FPS** (Federação Portuguesa de Surf) — federation, licence for competitions',
+          '**WSL events**: MEO Rip Curl Pro Portugal in Peniche — dates according to the WSL calendar; Nazaré big-wave/tow events — winter waiting period, running depends on swell',
           '**Local clubs**: Ericeira Surf Clube, Peniche Surf Clube, Nazaré Surf Clube',
-          '**Amateur competitions**: Liga MEO (national league) — open to amateurs',
-          'Social media: **@visit ericeira, @peniche_surf, @surfpt** — daily content',
-          '**Annual surf exhibitions**: Portugal Surf Expo in Cascais (April)',
-          '**Festivals**: Bom Vibes Fest Peniche, Ericeira Surf\'n\'Soul — surfing + music'
+          '**Liga MEO Surf** — national competition league; amateurs should look for local club contests, school competitions and municipal beach events',
+          'Social media: @visitericeira and others — check current handles',
+          '**Surf/outdoor events** change from year to year; check the municipal agenda for Cascais/Ericeira/Peniche and the FPS calendar',
+          '**Local surf/music events** change every season; check the agendas of Peniche, Mafra/Ericeira and Nazaré municipalities'
         ]}
       ]
     }
@@ -183,6 +183,6 @@ export default {
     { title: 'WSR Ericeira — World Surf Reserve', url: 'https://www.ericeirawsr.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Portugal — Surf', url: 'https://www.visitportugal.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

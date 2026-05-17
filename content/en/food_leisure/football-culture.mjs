@@ -3,7 +3,7 @@ export default {
   id: 'football-culture',
   categoryId: 'food_leisure',
   title: 'Football culture: Benfica, Porto, Sporting',
-  tldr: 'Football in Portugal is a national religion. “Os Três Grandes” (“The Big Three”): SL Benfica, FC Porto, Sporting CP. Derby de Lisboa (Benfica against Sporting) and O Clássico (Benfica against Porto) are the events of the year. Tickets for ordinary matches are €15–60, for the clássico up to €200. Sócios (club members) — around 200,000 at Benfica, a world record.',
+  tldr: 'Football in Portugal is a national religion. “Os Três Grandes” (“The Big Three”): SL Benfica, FC Porto, Sporting CP. Derby de Lisboa (Benfica versus Sporting) and O Clássico (Benfica versus Porto) are events of the year. Tickets for regular matches are €15–60, for a clássico up to €200. Sócios (club members) — Benfica has hundreds of thousands; the club has claimed a Guinness record for the number of members.',
   tags: ['football', 'benfica', 'porto', 'sporting'],
   estimatedReadMinutes: 7,
   steps: [
@@ -13,13 +13,13 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'b1', title: 'SL Benfica (Lisbon)', content: [
-            { kind: 'paragraph', text: 'Founded in 1904. The most decorated club — 38 Portuguese championships. Estádio da Luz (64,642 seats) in Lisbon. Colours — red and white. Mascot — the eagle Vítor. Anthem — “Ser Benfiquista”. More than 250,000 sócios — a Guinness world record.' }
+            { kind: 'paragraph', text: 'Founded in 1904. The most decorated club — 38 Portuguese league titles. Stadium: Estádio da Luz (64,642 seats) in Lisbon. Colours — red and white. Mascot — the eagle Vítor. Anthem — “Ser Benfiquista”. Hundreds of thousands of sócios; Benfica has claimed a Guinness record for the number of football club members — it is best to check the current figure on slbenfica.pt.' }
           ]},
           { id: 'p1', title: 'FC Porto', content: [
-            { kind: 'paragraph', text: 'Founded in 1893. 30 championships. Estádio do Dragão (50,033 seats). Colours — blue and white. Mascot — the dragon. The only Portuguese club in the Clube dos 21 (UEFA). Winner of the UEFA Champions League in 1987 and 2004.' }
+            { kind: 'paragraph', text: 'Founded in 1893. 30 league titles. Stadium: Estádio do Dragão (50,033 seats). Colours — blue and white. Mascot — the dragon. The most successful Portuguese club in European competitions: won the European Cup/Champions League in 1987 and 2004, the UEFA Cup/Europa League, the UEFA Super Cup and the Intercontinental Cup.' }
           ]},
           { id: 's1', title: 'Sporting CP (Lisbon)', content: [
-            { kind: 'paragraph', text: 'Founded in 1906. 21 championships. Estádio José Alvalade (50,095 seats). Colours — green and white, in stripes. Mascot — the lion. Alma de Leão. The Alcochete academy is one of the best in the world: it produced Cristiano Ronaldo, Luís Figo, João Félix, Nani.' }
+            { kind: 'paragraph', text: 'Founded in 1906. 21 league titles. Stadium: Estádio José Alvalade (50,095 seats). Colours — green and white, striped. Mascot — the lion. Alma de Leão. The Alcochete academy is one of the best in the world: it produced Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa.' }
           ]}
         ]}
       ]
@@ -29,12 +29,12 @@ export default {
       title: 'Legendary derbies',
       content: [
         { kind: 'checklist', items: [
-          '🔥 O Clássico — Benfica against FC Porto. Portugal’s biggest match. 2–3 times per season (Liga + Taça)',
-          '🔥 Derby de Lisboa — Benfica against Sporting. A capital-city rivalry. The city splits into red and green',
-          '🔥 Derby do Norte / Invicta — FC Porto against Sporting (less heated, but still a classic)',
-          '🔥 Clássico Eterno — Benfica against Sporting, a historic rivalry'
+          '🔥 O Clássico — Benfica versus FC Porto. Portugal’s main match. 2–3 times per season (Liga + Taça)',
+          '🔥 Derby de Lisboa — Benfica versus Sporting. A capital-city rivalry. The city splits into reds and greens',
+          '🔥 FC Porto versus Sporting — another clássico between clubs from Três Grandes. And Derby da Invicta is FC Porto versus Boavista',
+          '🔥 Derby Eterno / Dérbi de Lisboa — Benfica versus Sporting, the historic Lisbon rivalry'
         ]},
-        { kind: 'paragraph', text: 'On derby days — crowds in the streets, buses full of fans, televisions in every café. The official RTP commentator crying with emotion is a tradition.' }
+        { kind: 'paragraph', text: 'On derby days — crowds in the streets, buses full of fans, televisions in every café. TV commentators and supporters experience it very emotionally.' }
       ]
     },
     {
@@ -43,21 +43,21 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: 'Online through the club', content: [
-            { kind: 'paragraph', text: 'Main channel: SL Benfica at slbenfica.pt, FC Porto at fcporto.pt, Sporting CP at sporting.pt. Registration is required. Ordinary Liga Betclic matches — 1–2 weeks before the game. Clássico and Champions League — one month ahead.' }
+            { kind: 'paragraph', text: 'Main channel: SL Benfica at slbenfica.pt, FC Porto at fcporto.pt, Sporting CP at sporting.pt. Registration is required. Clássico/derby and European competitions — timing depends on the club and match category; sales often open first to sócios, then to the general public.' }
           ]},
           { id: 't2', title: 'Sócio — club member', content: [
-            { kind: 'paragraph', text: 'Sócio status gives priority for tickets and discounts of 20–50%. Membership — from €30/month (Benfica). For true fans, it is essential.' }
+            { kind: 'paragraph', text: 'Sócio status gives priority for tickets and discounts of 20–50%. The cost depends on the club and sócio category; Benfica/Sporting/Porto have different tariffs and age categories — check the current mensalidade on the club website.' }
           ]},
           { id: 't3', title: 'Secondary market', content: [
-            { kind: 'paragraph', text: 'Tickets are resold with the clubs’ consent through their platforms. Other secondary websites carry a risk of fraud.' }
+            { kind: 'paragraph', text: 'Tickets are resold with the clubs’ consent through their platforms. Other secondary sites carry a risk of fraud.' }
           ]},
           { id: 't4', title: 'Prices', content: [
             { kind: 'checklist', items: [
-              'Ordinary Liga match: €15–60 (depending on the section)',
-              'Champions League match: €25–80',
+              'Regular Liga match: €15–60 (depending on the section)',
+              'Champions League / European competitions: €25–100+ depending on the stage, opponent and section',
               'Derby / Clássico: €40–150',
               'VIP box: €150–400',
-              'Taça de Portugal final (Coimbra): €30–80'
+              'Taça de Portugal final (usually Estádio Nacional do Jamor, Oeiras): €30–80; prices and allocations are announced by the FPF closer to the final'
             ]}
           ]}
         ]}
@@ -75,9 +75,9 @@ export default {
           '🎺 Trumpets, drums — essential',
           '🚫 Flares are banned, but sometimes appear among hardcore fans',
           '🧣 A scarf is essential; you can buy one by the stadium for €10–15',
-          '🍺 There is no alcohol inside the stadium (by law). You can have a drink in a bar by the stadium and after the match',
-          '⚠️ The PSP football police are serious; stadium security follows the UEFA standard',
-          '🎉 After the match — traffic jams of supporters. Taxis are hard to catch'
+          '🍺 Alcoholic drinks at matches are usually banned/strictly limited; inside, they often sell only alcohol-free beer and soft drinks. Check the rules of the specific stadium',
+          '⚠️ The PSP football police are serious, and stadium security follows the UEFA standard',
+          '🎉 After the match — traffic jams of supporters. It is hard to get a taxi'
         ]}
       ]
     },
@@ -85,12 +85,12 @@ export default {
       id: 'national-team',
       title: 'Portugal national team',
       content: [
-        { kind: 'paragraph', text: 'Seleção das Quinas (the red and green quinas in the coat of arms). Kit — red and green. Stadiums: Estádio Nacional do Jamor (classic Taça final), Estádio da Luz, Estádio do Dragão.' },
+        { kind: 'paragraph', text: 'Seleção das Quinas (the red-and-green quinas on the coat of arms). Kit — red and green. Stadiums: Estádio Nacional do Jamor (classic Taça final), Estádio da Luz, Estádio do Dragão.' },
         { kind: 'checklist', items: [
-          '🏆 European champion 2016 (EURO in France)',
+          '🏆 European champions 2016 (EURO in France)',
           '🏆 UEFA Nations League 2018–2019, 2024–2025',
           '🌟 Legends: Eusébio, Figo, Rui Costa, Deco, Cristiano Ronaldo',
-          '👑 Ronaldo — 5× Balão de Ouro, record holder for national-team goals (130+)',
+          '👑 Cristiano Ronaldo / Cristiano Ronaldo — 5× Ballon d\'Or, the top scorer in the history of national teams; check the current number of goals with the FPF/FIFA',
           '📅 World Cup 2026 (USA-Canada-Mexico) — Portugal among the favourites',
           '🎫 Tickets for national-team matches — through the FPF (Federation)'
         ]}
@@ -102,11 +102,11 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🏟️ Estádio da Luz (Benfica) — tour for €20 with dressing room and museum',
-          '🏟️ Estádio do Dragão (Porto) — tour for €15 with the club museum',
+          '🏟️ Estádio do Dragão (Porto) — tour for €15 with club museum',
           '🏟️ Estádio José Alvalade (Sporting) — tour for €12–15',
           '🏟️ Museu Cosme Damião (Benfica) — one of Europe’s best football museums',
           '⏰ Tours last 1.5–2 hours, in EN/PT/ES, with an audio guide',
-          '🎫 Buy on the clubs’ websites or at the stadium'
+          '🎫 Purchase on club websites or at the stadium'
         ]}
       ]
     },
@@ -115,7 +115,7 @@ export default {
       title: 'Cultural context',
       content: [
         { kind: 'paragraph', text: 'Football in Portugal is not just a sport. Club allegiance is passed from father to son; it is not chosen. The question “És do Benfica, Porto ou Sporting?” is a normal topic for small talk. 80% of the population support one of the “Três Grandes”.' },
-        { kind: 'paragraph', text: 'Regional clubs: FC Braga, Vitória SC (Guimarães), Rio Ave, Boavista — they make up the Primeira Liga, but have never won the championship (except Boavista in 2001 — the only time the champion was not Benfica/Porto/Sporting).' }
+        { kind: 'paragraph', text: 'Strong/historic clubs outside Três Grandes: SC Braga, Vitória SC (Guimarães), Boavista, Belenenses, Rio Ave and others. The championship has almost always been won by Benfica/Porto/Sporting, but there have been exceptions: Belenenses in 1945/46 and Boavista in 2000/01.' }
       ]
     }
   ],
@@ -126,6 +126,6 @@ export default {
     { title: 'FC Porto', url: 'https://www.fcporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Sporting CP', url: 'https://www.sporting.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

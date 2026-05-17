@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'ev-incentives',
   categoryId: 'auto_ownership',
-  title: 'Subsidies and tax relief for electric cars in Portugal',
-  tldr: 'The state subsidises BEV purchases through the Fundo Ambiental — amounts, limits, price caps and quotas are set each year by the **Aviso Fundo Ambiental**. Previous Avisos: for individuals, BEV M1 — around €4,000; for businesses (N1) — higher. The budget is limited and runs out quickly. In addition: ISV is reduced or 0% for BEVs, IUC is reduced but NOT fully 0% after OE 2024, Mobi.E charging — around €0.28–0.55/kWh depending on the operator. Before buying, check the current Aviso on fundoambiental.pt.',
+  title: 'Subsidies and tax benefits for electric cars in Portugal',
+  tldr: 'The state subsidises BEV purchases through Fundo Ambiental — amounts, limits, price caps and quotas are set by the annual **Aviso Fundo Ambiental**. Previous Avisos: for individuals, BEV M1 — around €4,000 (usually no more than 1 car per applicant), for businesses, N1 — around €6,000; conditions for M1 company vehicles differ. The budget is limited and runs out quickly. **ISV**: 0% for pure BEV. **IUC**: BEV are usually exempt (pure EVs have no CC component); PHEV/HEV — according to the applicable IUC category. Mobi.E charging — €0.28–0.55/kWh. Before buying, check the current Aviso on fundoambiental.pt.',
   tags: ['ev', 'electric car', 'subsidy', 'fundo ambiental'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,42 +13,42 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Portugal funds the Incentivo pela Introdução no Mercado de Veículos de Baixas Emissões programme every year. The budget restarts on 1 January and usually runs out within 2–4 months.' },
         { kind: 'substeps', items: [
-          { id: 's1', title: '2026 amounts', content: [
+          { id: 's1', title: 'Reference points (check the current year’s Aviso)', content: [
+            { kind: 'paragraph', text: '⚠️ Current amounts are in the **Aviso Fundo Ambiental** for Mobilidade Elétrica for the relevant year. Before the Aviso opens, amounts, quotas, deadlines and conditions cannot be guaranteed. Reference points based on recent Avisos:' },
             { kind: 'checklist', items: [
-              'Individual, new passenger BEV (category M1): up to €4,000 (maximum 2 cars per year)',
-              'Legal entity/sole trader, new BEV M1: up to €6,000 (maximum 4 cars per year)',
-              'Electric bicycle: €500',
-              'Goods BEV (N1) up to 3.5 t: €6,000',
-              'Electric scooter: €500',
-              'The car price must not exceed €62,500 (excluding IVA) to be eligible'
+              'Individual, new BEV M1: in recent Avisos — around €4,000, usually no more than 1 vehicle per applicant',
+              'Companies/sole traders: in previous Avisos, €6,000 support applied to new BEV **N1** (goods vehicles up to 3.5 t); conditions are different for M1 company vehicles',
+              'Electric bicycle: ~€500',
+              'Electric scooter: ~€500',
+              '**Price cap** for the M1 subsidy in recent Avisos was around €38,500 **with IVA** and expenses. €62,500 excluding IVA is a separate tax threshold for companies, not a subsidy criterion'
             ]}
           ]},
           { id: 's2', title: 'How to apply', content: [
-            { kind: 'paragraph', text: 'fundoambiental.pt → Candidaturas → Mobilidade Elétrica. Applications are submitted online only, using Chave Móvel Digital or Cartão de Cidadão. Application windows usually open on 15 January. You need: the car invoice (a pro forma invoice may be accepted), a copy of your residence permit/Cartão de Cidadão, NIF, and an IBAN for payment.' }
+            { kind: 'paragraph', text: 'fundoambiental.pt → Candidaturas → Mobilidade Elétrica. The application is submitted online only with Chave Móvel Digital or Cartão de Cidadão. Application windows usually open on 15 January. You need: invoice for the vehicle (a pro forma invoice may be accepted), copy of residence permit/Cartão de Cidadão, NIF, IBAN for payment.' }
           ]},
           { id: 's3', title: 'Payment timeframe', content: [
             { kind: 'timeline', text: '30–90 days after approval. The money arrives in your IBAN as a reimbursement.' }
           ]}
         ]},
-        { kind: 'warning', text: 'The programme budget for 2024–2025 ran out within 2–3 months. If you are buying an electric car in spring — apply in January-February.' }
+        { kind: 'warning', text: 'The programme budget for 2024–2025 ran out within 2–3 months. If you are buying an electric car in spring, apply in January-February.' }
       ]
     },
     {
       id: 'taxes',
-      title: 'Tax relief',
+      title: 'Tax benefits',
       content: [
         { kind: 'substeps', items: [
-          { id: 't1', title: 'ISV (customs/import)', content: [
+          { id: 't1', title: 'ISV (customs clearance/import)', content: [
             { kind: 'checklist', items: [
-              'Pure BEVs: **0%** ISV (full exemption)',
-              'PHEV (plug-in hybrid) with electric range ≥50 km: reduced ISV (25–40% discount)',
+              'Pure BEV: **0%** ISV (full exemption)',
+              'PHEV (plug-in hybrid) with an electric range of ≥50 km: reduced ISV (25–40% discount)',
               'HEV (standard hybrid): standard ISV, as for petrol/diesel',
-              'The validity of the relief is confirmed annually in the OE'
+              'The benefit validity period is confirmed annually in the OE'
             ]}
           ]},
           { id: 't2', title: 'IUC (annual tax)', content: [
             { kind: 'checklist', items: [
-              'BEV: since 2024 NOT fully exempt (it was 100% until 2023). Now around €30–50/year depending on engine capacity / power',
+              'BEV: generally **exempt from IUC** — pure EVs have no CC component. Check the specific veículo in Portal das Finanças/AT',
               'PHEV: standard IUC, but with a lower environmental component',
               'Hybrids: standard IUC'
             ]}
@@ -57,7 +57,7 @@ export default {
             { kind: 'checklist', items: [
               'Company electric car: full depreciation up to €62,500 (for a petrol car — €25,000)',
               'Charging (kWh) — 100% IVA deduction for companies (for petrol — 50%)',
-              'Key point for freelancers: an electric car is the most effective way to obtain tax relief if you have recibos verdes with high turnover'
+              'Key point for freelancers: an electric car is the most efficient way to obtain tax benefits if you have Recibo Verde with high turnover'
             ]}
           ]}
         ]}
@@ -72,9 +72,9 @@ export default {
           '⚡ Standard (AC 11–22 kW): €0.28–0.35/kWh',
           '🔋 Fast (DC 50–150 kW): €0.40–0.55/kWh',
           '🏎️ Ultra-fast (DC 150–350 kW): €0.55–0.75/kWh',
-          '🏠 Home wallbox charger: EDP/Galp tariff — €0.16–0.20/kWh at night (dual-rate tariff)',
-          '💳 Payment: Mobi.E card (€5 registration) OR payment via the EDP, Galp, Iberdrola apps',
-          '🅿️ Free parking: while charging at Mobi.E stations — first 2 hours'
+          '🏠 Home wallbox: EDP/Galp tariff — €0.16–0.20/kWh at night (dual-rate tariff)',
+          '💳 Payment: Mobi.E card (€5 registration) OR payment via EDP, Galp, Iberdrola apps',
+          '🅿️ Parking while charging depends on the municipality/parking operator and the rules of the specific station — there is NO nationwide “first 2 hours free” rule'
         ]}
       ]
     },
@@ -83,19 +83,20 @@ export default {
       title: 'Number plate and identification',
       content: [
         { kind: 'checklist', items: [
-          'Electric car since 2023 — green frame on the number plate (mandatory on first registration)',
-          'Older electric cars — you can switch to a green plate for €30 at IMT',
-          'Green plate = free entry to Lisbon’s ZER (low-emissions zone, expanded from 2025)',
-          'PHEV — plate without a frame; reliefs are partial'
+          'For a number of benefits, the **dístico identificativo de veículo elétrico** issued by IMT is used (this is NOT the mandatory green number plate frame)',
+          'For an already registered BEV, you can request the EV dístico from IMT — cost according to the current IMT fee table',
+          'Access benefits for ZER/parking depend on the municipality and may require the relevant dístico/registration',
+          'PHEV — separate rules; benefits are partial'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'Subsidy for an individual (BEV M1)', amountEUR: 4000, note: 'up to, Fundo Ambiental 2026' },
-    { label: 'Subsidy for a legal entity (BEV M1)', amountEUR: 6000, note: 'up to' },
-    { label: 'Electric bicycle / scooter', amountEUR: 500 },
+    { label: 'Subsidy for an individual (BEV M1)', note: 'check the current year’s Aviso Fundo Ambiental; in recent ones — ~€4,000' },
+    { label: 'Subsidy for BEV N1 (goods vehicles up to 3.5 t)', note: 'in previous Avisos — ~€6,000; check the Aviso' },
+    { label: 'Electric bicycle / scooter', amountEUR: 500, note: 'check the Aviso' },
     { label: 'ISV for BEV', amountEUR: 0 },
+    { label: 'IUC for BEV', amountEUR: 0, note: 'usually exempt; check in Portal das Finanças for the specific veículo' },
     { label: 'Mobi.E card (registration)', amountEUR: 5 }
   ],
   sources: [
@@ -104,6 +105,6 @@ export default {
     { title: 'Portal das Finanças (tax portal) — ISV/IUC calculators', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UVE — União dos Veículos Elétricos (community)', url: 'https://www.uve.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

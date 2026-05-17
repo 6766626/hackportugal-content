@@ -125,6 +125,6 @@ export default {
     { title: 'Câmara Municipal de Óbidos', url: 'https://www.cm-obidos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal de Nazaré', url: 'https://www.cm-nazare.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

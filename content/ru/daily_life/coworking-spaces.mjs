@@ -107,12 +107,12 @@ export default {
       id: 'tax-deduction',
       title: 'Налоговый аспект',
       content: [
-        { kind: 'paragraph', text: 'Для Recibo Verde (ИП) и юрлиц оплата коворкинга — 100% вычет как рабочий расход. Возврат IVA: 23% от суммы. Запросите у коворкинга счёт с NIF в конце месяца. Хранить чеки 4 года.' },
+        { kind: 'paragraph', text: 'Для recibos verdes в regime simplificado расходы напрямую не вычитаются как 100%: налогооблагаемый доход считается по коэффициентам (часто 75% для услуг), но часть расходов с факт-чеками может уменьшить базу. Для contabilidade organizada и юрлиц коворкинг учитывается как рабочий расход. Дедукция IVA возможна только для VAT-liable деятельности при правильном документообороте. Всегда просите счёт с NIF; хранить чеки минимум 4 года.' },
         { kind: 'checklist', items: [
-          'Гибкое место: классифицировать как "serviços de escritório"',
-          'Фиксированное место: аналогично, но можно заявить как "rendimento imóvel afeto a actividade"',
-          'Коворкинг как юр. адрес — некоторые позволяют (Avila Spaces, Impact Hub); полезно для возврата IVA',
-          'IFICI (бывший NHR) — расходы на коворкинг снижают налогооблагаемую базу даже при фиксированной ставке 20%'
+          'Гибкое место: услуга "serviços de escritório / coworking"',
+          'Фиксированное место: услуга/аренда (office services); классификация зависит от договора',
+          'Коворкинг как юр. адрес — некоторые позволяют (Avila Spaces, Impact Hub); это полезно для регистрации, но не обязательное условие для recibos verdes',
+          'IFICI (отдельный режим Incentivo Fiscal à Investigação Científica e Inovação, пришедший на смену NHR для новых заявителей с более узкими критериями) — налогообложение зависит от квалификации деятельности'
         ]}
       ]
     }
@@ -130,6 +130,6 @@ export default {
     { title: 'Porto i/o', url: 'https://porto.io/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Impact Hub Lisboa', url: 'https://lisbon.impacthub.net/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

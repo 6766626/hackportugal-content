@@ -73,6 +73,6 @@ export default {
     { title: 'UNESCO — Fado, urban popular song of Portugal, Intangible Cultural Heritage', url: 'https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Turismo Centro de Portugal — Coimbra и культурные маршруты региона', url: 'https://www.centerofportugal.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

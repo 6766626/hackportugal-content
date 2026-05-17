@@ -3,7 +3,7 @@ export default {
   id: 'car-import',
   categoryId: 'auto_ownership',
   title: 'Ввоз автомобиля в Португалию',
-  tldr: 'Для резидентов есть льгота «transferência de residência» — ввоз без ISV при условиях: владели авто ≥ 6 мес до переезда, проживали в старой стране ≥ 12 мес, подали документы в течение 12 мес после становления резидентом. Иначе — полный ISV (растаможка) + IUC ежегодно.',
+  tldr: 'Для резидентов есть льгота **transferência de residência** — ввоз без ISV при условиях: владели авто ≥ 6 мес до переезда, проживали в старой стране ≥ 12 мес, подали документы в течение 12 мес после становления резидентом. Иначе — ISV + ежегодный IUC. Если авто ввозится из страны **вне ЕС**, отдельно возможны таможенное оформление, пошлина и IVA, если нет освобождения при transferência de residência. Для **100% BEV** ISV обычно €0; гибриды/PHEV — специальные ставки.',
   tags: ['авто', 'растаможка', 'ISV', 'matrícula'],
   estimatedReadMinutes: 7,
   steps: [
@@ -23,7 +23,7 @@ export default {
             ]}
           ]},
           { id: 'o2', title: 'B. Обычный ввоз — с ISV', content: [
-            { kind: 'paragraph', text: 'Если условия льготы не выполнены — полный ISV (Imposto sobre Veículos). Считается по объёму двигателя + CO2 + возрасту. Для нового авто может быть € 5000-30000. Для электрокара — бесплатно.' }
+            { kind: 'paragraph', text: 'Если условия льготы не выполнены — ISV (Imposto sobre Veículos). Считается по объёму двигателя + CO2 + возрасту. Для нового авто может быть € 5000-30000. Для **100% электрических** ISV обычно €0, но остаются регистрационные расходы. Для гибридов/plug-in гибридов действуют специальные ставки и условия. При импорте из-за пределов ЕС отдельно проверяются пошлина и IVA.' }
           ]}
         ]}
       ]
@@ -55,11 +55,11 @@ export default {
           { id: 's2', title: '2. Техосмотр (IPO)', content: [
             { kind: 'paragraph', text: 'В одном из центров IPO. ~40€. Получить сертификат B (для нерегистрированного авто).' }
           ]},
-          { id: 's3', title: '3. Регистрация в IMT', content: [
-            { kind: 'paragraph', text: 'Подать документы для присвоения португальского номера (matrícula). Через портал IMT или Loja de Cidadão.' }
+          { id: 's3', title: '3. Регистрация: DAV в AT и matrícula', content: [
+            { kind: 'paragraph', text: 'Корректный процесс: 1) техническое одобрение/инспекция/CoC при необходимости через IMT; 2) подача **DAV (Declaração Aduaneira de Veículo)** в AT и оплата ISV или получение освобождения; 3) после присвоения matrícula заказать номера; 4) зарегистрировать автомобиль в IRN/Conservatória/Automóvel Online.' }
           ]},
           { id: 's4', title: '4. ISV — оплата или освобождение', content: [
-            { kind: 'paragraph', text: 'Если льгота — задекларировать ввоз и получить освобождение. Если нет — рассчитать на портале Finanças и оплатить.' }
+            { kind: 'paragraph', text: 'В DAV заявить режим: оплатить ISV либо запросить **isenção de ISV por transferência de residência** с документами. Для авто из-за пределов ЕС отдельно оформить таможенный режим и проверить освобождение от пошлины/IVA.' }
           ]},
           { id: 's5', title: '5. Получить Documento Único Automóvel (техпаспорт)', content: [
             { kind: 'paragraph', text: 'Единый документ = техпаспорт + регистрация. Приходит почтой на 10-30 день.' }
@@ -96,10 +96,10 @@ export default {
   timelineDaysMin: 10,
   timelineDaysMax: 60,
   sources: [
-    { title: 'Portal das Finanças (налоговый портал) — ISV и transferência de residência', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'IMT — Registo de veículo', url: 'https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portal das Finanças (налоговый портал) — ISV и transferência de residência', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'IMT — Registo de veículo', url: 'https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Importar veículo', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/importar-um-veiculo-para-portugal', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

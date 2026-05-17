@@ -126,6 +126,6 @@ export default {
     { title: 'AGS Frasers Portugal: международные переезды и relocation', url: 'https://www.agsmovers.com/branches/europe/portugal/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal: информация о муниципальных услугах Câmara Municipal', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

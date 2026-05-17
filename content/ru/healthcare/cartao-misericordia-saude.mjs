@@ -82,6 +82,6 @@ export default {
     { title: 'União das Misericórdias Portuguesas — rede nacional de Misericórdias', url: 'https://www.umpmisericordias.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — contacto e orientação para cuidados de saúde', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

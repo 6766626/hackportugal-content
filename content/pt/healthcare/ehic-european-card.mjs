@@ -1,180 +1,106 @@
 export default {
-  "editorialVoice": "hackportugal",
-  "id": "ehic-european-card",
-  "categoryId": "healthcare",
-  "title": "CESD — Cartão Europeu de Seguro de Doença (EHIC)",
-  "tldr": "Cartão Europeu de Seguro de Doença (CESD), também conhecido como EHIC — dá acesso aos cuidados de saúde públicos em todos os países da UE, EEE, Suíça e Reino Unido nas mesmas condições que os residentes locais. Gratuito, 5 anos. Emitido a residentes em PT com Segurança Social (NISS) através da SS Direta em 10 minutos. O cartão físico chega por correio em 10-14 dias, mas o certificado provisório pode ser descarregado em PDF de imediato.",
-  "tags": [
-    "ehic",
-    "cesd",
-    "saúde",
-    "viagens"
-  ],
-  "estimatedReadMinutes": 4,
-  "steps": [
+  editorialVoice: 'hackportugal',
+  id: 'ehic-european-card',
+  categoryId: 'healthcare',
+  title: 'CESD — Cartão Europeu de Seguro de Doença (EHIC)',
+  tldr: 'Cartão Europeu de Seguro de Doença (CESD), também conhecido como EHIC — dá acesso a cuidados de saúde públicos clinicamente necessários em todos os países da UE, EEE, Suíça e Reino Unido nas mesmas condições que os segurados locais. Gratuito. Em Portugal, normalmente é válido por **3 anos**; depois é necessário pedir a renovação/um novo cartão. O CESD é emitido pelo país competente de seguro: para pessoas com cobertura portuguesa da Segurança Social — através da SS Direta. Pode pedir um certificado provisório se o cartão não chegar a tempo. O CESD/EHIC só é válido durante estadias temporárias no estrangeiro, não em caso de mudança de residência ou viagem feita especificamente para tratamento médico.',
+  tags: ['ehic', 'cesd', 'saúde', 'viagens'],
+  estimatedReadMinutes: 4,
+  steps: [
     {
-      "id": "who-can",
-      "title": "Quem pode obter",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Residentes em Portugal com NISS ativo (trabalhador por conta de outrem, trabalhador independente, pensionista, desempregado com subsídio)",
-            "Dependentes (filhos, cônjuge) — são incluídos através do titular segurado principal",
-            "Estudantes Erasmus — através da Segurança Social da sua instituição de ensino",
-            "Cidadãos da UE que recebem pensão em PT — através da Segurança Social",
-            "❌ Turistas / não residentes — não, precisam de seguro de viagem privado"
-          ]
-        }
+      id: 'who-can',
+      title: 'Quem pode obter',
+      content: [
+        { kind: 'checklist', items: [
+          'Pessoas para quem Portugal é o **país competente** de cobertura médica/social: trabalhadores por conta de outrem e trabalhadores independentes com Segurança Social, pensionistas com cobertura portuguesa, beneficiários de prestações, dependentes reconhecidos e utilizadores de outros sistemas portugueses. O NISS, por si só, não garante o direito ao CESD',
+          'Dependentes (filhos, cônjuge) — o pedido é feito através do segurado principal. O cartão é sempre individual',
+          'Estudantes Erasmus: o cartão é emitido pelo país onde o estudante está segurado. O CESD português é necessário para o estudante se Portugal for o seu país competente de seguro; um estudante estrangeiro em Portugal normalmente usa o EHIC do seu país',
+          'Pensionistas: o cartão é emitido pelo país competente. Se a pensão e a cobertura médica vierem de Portugal — através da Segurança Social. Se o pensionista viver em PT com S1 de outro país, o EHIC é normalmente emitido pelo país que emitiu o S1/paga a pensão',
+          '❌ Turistas / não residentes — não, precisam de seguro de viagem privado'
+        ]}
       ]
     },
     {
-      "id": "what-covers",
-      "title": "O que cobre",
-      "content": [
-        {
-          "kind": "paragraph",
-          "text": "O CESD funciona em 31 países: 27 da UE + Noruega, Islândia, Liechtenstein, Suíça, Reino Unido (ao abrigo do acordo do Brexit, desde 2021 o UK-EHIC / GHIC funciona de forma recíproca)."
-        },
-        {
-          "kind": "checklist",
-          "items": [
-            "✅ Cuidados urgentes em hospital público (urgência) — nas condições locais",
-            "✅ Hospitalização em situações agudas",
-            "✅ Consultas para doenças crónicas (diálise, quimioterapia) — combinar previamente",
-            "✅ Ambulância (112) — gratuita em casos de emergência",
-            "✅ Medicamentos sujeitos a receita médica — com a comparticipação local, como os residentes",
-            "❌ Clínicas privadas — NÃO são cobertas (é necessário seguro de viagem)",
-            "❌ Regresso a casa por evacuação médica aérea — NÃO é coberto",
-            "❌ Parto no estrangeiro (programado) — não",
-            "❌ Medicina dentária (exceto casos de emergência)",
-            "❌ Vacinação"
-          ]
-        },
-        {
-          "kind": "warning",
-          "text": "O CESD complementa, não substitui o seguro de viagem. Para uma viagem tranquila (repatriamento, clínicas privadas, bagagem), continua a ser recomendável comprar uma apólice de 10-30 € junto de uma seguradora."
-        }
+      id: 'what-covers',
+      title: 'O que cobre',
+      content: [
+        { kind: 'paragraph', text: 'O CESD é aceite em **32 países/territórios do sistema EHIC**: 27 países da UE, Islândia, Liechtenstein, Noruega, Suíça e Reino Unido. O Reino Unido aceita EHIC/CESD para cuidados de saúde públicos necessários durante uma estadia temporária; os GHIC/UK EHIC britânicos são cartões separados para pessoas seguradas no UK.' },
+        { kind: 'checklist', items: [
+          '✅ Cuidados de saúde clinicamente necessários no sistema público durante uma estadia temporária — não apenas urgência, mas também tratamento que não possa ser razoavelmente adiado até ao regresso a casa',
+          '✅ Hospitalização em situações agudas',
+          '✅ Consultas/tratamentos de doenças crónicas (diálise, quimioterapia) — combinar previamente',
+          '✅ **112** — número de emergência gratuito. Os cuidados/transporte em si são pagos ou não pagos segundo as regras do país de estadia, como para os segurados locais',
+          '✅ Medicamentos sujeitos a receita médica — com a comparticipação local como os residentes',
+          '❌ Clínicas privadas — NÃO estão cobertas (é necessário seguro de viagem)',
+          '❌ Regresso a casa por evacuação médica aérea — NÃO está coberto',
+          '❌ Partos no estrangeiro (planeados) — não',
+          '❌ Medicina dentária (excepto urgências)',
+          '❌ Vacinação'
+        ]},
+        { kind: 'warning', text: 'O CESD complementa, não substitui o seguro de viagem. Para uma viagem mais tranquila (repatriamento, clínicas privadas, bagagem), compre na mesma uma apólice de 10-30 € junto de uma seguradora.' }
       ]
     },
     {
-      "id": "how-get",
-      "title": "Como obter",
-      "content": [
-        {
-          "kind": "substeps",
-          "items": [
-            {
-              "id": "g1",
-              "title": "1. Entrar na SS Direta",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "seg-social.pt → Segurança Social Direta → Iniciar sessão. Acesso: NISS + palavra-passe, ou CMD, ou Cartão de Cidadão."
-                }
-              ]
-            },
-            {
-              "id": "g2",
-              "title": "2. Menu \"Família\" → \"Cartão Europeu de Seguro de Doença\"",
-              "content": [
-                {
-                  "kind": "paragraph",
-                  "text": "Ou pesquisar por \"CESD\" na barra de pesquisa. Abre o estado do cartão — existe / vai expirar / não existe."
-                }
-              ]
-            },
-            {
-              "id": "g3",
-              "title": "3. Pedir o cartão",
-              "content": [
-                {
-                  "kind": "checklist",
-                  "items": [
-                    "Indicar a morada de entrega (normalmente é preenchida a partir do perfil)",
-                    "Adicionar dependentes (o sistema perguntará sobre eles)",
-                    "Confirmar — é emitido gratuitamente",
-                    "Cartão físico — 10-14 dias úteis por correio",
-                    "Certificado provisório (Certificado Provisório de Substituição) — descarregar PDF de imediato, válido por 3 meses"
-                  ]
-                }
-              ]
-            }
-          ]
-        }
+      id: 'how-get',
+      title: 'Como obter',
+      content: [
+        { kind: 'substeps', items: [
+          { id: 'g1', title: '1. Entrar na SS Direta', content: [
+            { kind: 'paragraph', text: 'seg-social.pt → Segurança Social Direta → Iniciar sessão. Acesso: NISS + palavra-passe, ou CMD, ou Cartão de Cidadão.' }
+          ]},
+          { id: 'g2', title: '2. Menu "Família" → "Cartão Europeu de Seguro de Doença"', content: [
+            { kind: 'paragraph', text: 'Ou pesquise por "CESD" na barra de pesquisa. Será apresentado o estado do cartão — existe / expira / não existe.' }
+          ]},
+          { id: 'g3', title: '3. Pedir o cartão', content: [
+            { kind: 'checklist', items: [
+              'Indicar a morada de entrega (normalmente é preenchida a partir do perfil)',
+              'Adicionar dependentes (o sistema perguntará sobre eles)',
+              'Confirmar — a emissão é gratuita',
+              'Cartão físico — 10-14 dias úteis por correio',
+              'O Certificado Provisório de Substituição pode ser pedido como substituição temporária se o cartão ainda não tiver sido recebido ou tiver sido perdido; a validade está indicada no próprio certificado'
+            ]}
+          ]}
+        ]}
       ]
     },
     {
-      "id": "use-abroad",
-      "title": "Como utilizar no estrangeiro",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "No hospital público: apresentar o CESD + passaporte",
-            "O médico trata da faturação — paga apenas a taxa moderadora / copagamento como um residente local (em Espanha 0 €, em França 30% da tarifa, na Alemanha 10 €/dia de hospitalização)",
-            "Se pagou do próprio bolso (o médico não reconheceu o cartão / não o tinha consigo) — guarde todos os recibos, reembolso através da Segurança Social no regresso",
-            "Se for numa clínica privada — o CESD não funciona, mas guarde os recibos para o seguro privado"
-          ]
-        }
+      id: 'use-abroad',
+      title: 'Como usar no estrangeiro',
+      content: [
+        { kind: 'checklist', items: [
+          'Num hospital público: apresentar o CESD + passaporte',
+          'O valor da comparticipação do utente depende do país e do tipo de serviço: em alguns países os cuidados ambulatórios são gratuitos, noutros paga-se primeiro uma parte da tarifa ou uma taxa fixa. Antes de viajar, verifique as regras do país concreto no Your Europe / no site nacional de saúde',
+          'Se pagou do seu bolso (o médico não reconheceu o cartão / não o tinha à mão) — guarde todos os recibos, o reembolso é feito através da Segurança Social após o regresso',
+          'Se for numa clínica privada — o CESD não funciona, mas guarde os recibos para o seguro privado',
+          'O CESD não garante gratuitidade: o doente paga as mesmas taxas e copagamentos não reembolsáveis que os segurados locais'
+        ]}
       ]
     },
     {
-      "id": "lost",
-      "title": "Perda, renovação, alteração de dados",
-      "content": [
-        {
-          "kind": "checklist",
-          "items": [
-            "Validade: 5 anos a partir da data de emissão — renovável automaticamente através da SS Direta",
-            "Perdeu no estrangeiro — pedir o Certificado Provisório online e enviá-lo por email para o hospital público",
-            "Alteração de NISS (raro) — o cartão mantém-se, os dados serão atualizados",
-            "Mudança para outro país da UE — perde o NISS, o CESD deixa de ser válido",
-            "Filhos que fizeram 18 anos — passam a pedir o seu próprio cartão (se estudarem / trabalharem)"
-          ]
-        }
+      id: 'lost',
+      title: 'Perda, renovação, alteração de dados',
+      content: [
+        { kind: 'checklist', items: [
+          'Validade: normalmente **3 anos**. A renovação/novo cartão deve ser pedido antes do fim do prazo de validade através da Segurança Social Direta ou de outro canal disponível',
+          'Perdeu-o no estrangeiro — peça o Certificado Provisório online e envie-o por email para o hospital público',
+          'Alteração do NISS (raro) — o cartão mantém-se, os dados serão actualizados',
+          'Ao mudar-se para outro país da UE, o NISS não desaparece, mas se Portugal deixar de ser o seu país competente de cobertura médica, o CESD português não pode ser usado; deve pedir o EHIC no novo país competente',
+          'O cartão é sempre individual, incluindo para crianças. Depois dos 18 anos, o direito depende de a pessoa continuar coberta como dependente ou ter cobertura própria através de trabalho/estudos/outro regime'
+        ]}
       ]
     }
   ],
-  "costs": [
-    {
-      "label": "CESD (cartão e renovação)",
-      "amountEUR": 0
-    },
-    {
-      "label": "Certificado provisório (Provisório)",
-      "amountEUR": 0
-    },
-    {
-      "label": "Seguro de viagem (recomendado como complemento)",
-      "amountEURMin": 10,
-      "amountEURMax": 30,
-      "note": "por viagem"
-    }
+  costs: [
+    { label: 'CESD (cartão e renovação)', amountEUR: 0 },
+    { label: 'Certificado provisório (Provisório)', amountEUR: 0 },
+    { label: 'Seguro de viagem (recomendado como complemento)', amountEURMin: 10, amountEURMax: 30, note: 'por viagem' }
   ],
-  "sources": [
-    {
-      "title": "Segurança Social — CESD",
-      "url": "https://www.seg-social.pt/cartao-europeu-de-seguro-de-doenca",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "SS Direta — área pessoal",
-      "url": "https://app.seg-social.pt/ssdirecta/",
-      "kind": "official",
-      "language": "pt",
-      "lastRetrieved": "2026-04-22"
-    },
-    {
-      "title": "UE — os seus direitos em matéria de segurança social",
-      "url": "https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm",
-      "kind": "official",
-      "language": "en",
-      "lastRetrieved": "2026-04-22"
-    }
+  sources: [
+    { title: 'Segurança Social — CESD', url: 'https://www.seg-social.pt/cartao-europeu-de-seguro-de-doenca', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Segurança Social — pedido de CESD online', url: 'https://www.seg-social.pt/pedido-cartao-europeu-seguro-doenca', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'UE — Your Europe — Cuidados de saúde não planeados: estadias temporárias', url: 'https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },
+    { title: 'NHS do Reino Unido — Cuidados de saúde para visitantes da UE ao Reino Unido', url: 'https://www.nhs.uk/nhs-services/visiting-or-moving-to-england/visiting-england-from-the-eea/', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  "lastVerified": "2026-04-22",
-  "verifyIntervalDays": 365
+  lastVerified: '2026-05-17',
+  verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'rental-sites-compared',
   categoryId: 'housing_rent',
   title: 'Where to look for rental housing — websites and strategy',
-  tldr: 'Four main channels: aggregators (Idealista, Imovirtual, Supercasa), medium-term rentals (Flatio, Uniplaces), directly from owners (OLX Imóveis, Facebook groups), agents (Century 21, ERA, RE/MAX). For long-term rentals, start with Idealista + OLX. For moving before obtaining a NIF — Flatio / Uniplaces (they accept just a passport). Average search time in Lisbon/Porto — 3–8 weeks.',
+  tldr: 'Four main channels: aggregators (Idealista, Imovirtual, Supercasa), medium-term rentals (Flatio, Uniplaces), directly from owners (OLX Imóveis, Facebook groups), agents (Century 21, ERA, RE/MAX). For long-term rentals, start with Idealista + OLX. For moving before obtaining a NIF — Flatio / Uniplaces (they accept just a passport). The average search time in Lisbon/Porto is 3–8 weeks.',
   tags: ['rent', 'idealista', 'imovirtual', 'olx', 'flatio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -25,10 +25,10 @@ export default {
             { kind: 'paragraph', text: 'The second largest. More regional listings (small towns). Agent fees are the same.' }
           ]},
           { id: 'a3', title: 'Supercasa (supercasa.pt)', content: [
-            { kind: 'paragraph', text: 'Fewer premium homes, but lots of mid-budget options. Convenient maps and filters.' }
+            { kind: 'paragraph', text: 'Less premium housing, but plenty of mid-budget options. Convenient maps and filters.' }
           ]},
           { id: 'a4', title: 'Casa Sapo (casa.sapo.pt)', content: [
-            { kind: 'paragraph', text: 'The oldest aggregator. Often duplicates Idealista/Imovirtual, but there are exclusives from smaller agencies.' }
+            { kind: 'paragraph', text: 'The oldest aggregator. Often duplicates Idealista/Imovirtual, but has exclusives from smaller agencies.' }
           ]}
         ]}
       ]
@@ -41,15 +41,15 @@ export default {
           { id: 'm1', title: 'Flatio (flatio.com)', content: [
             { kind: 'checklist', items: [
               'Czech platform, strong in Portugal',
-              'Everything is furnished and utilities are included',
+              'Everything is furnished and includes utilities',
               'Contract from 1 month to 12+ months',
               'They accept a passport + booking without a NIF',
-              'The platform takes 10–15% from the landlord, with no extra charge to the client',
+              'The platform charges the landlord 10–15%; the client pays no extra',
               '20–40% more expensive than Idealista, but easier for new arrivals'
             ]}
           ]},
           { id: 'm2', title: 'Uniplaces (uniplaces.com)', content: [
-            { kind: 'paragraph', text: 'For students. Flats and rooms, often near universities. Deposit online through the platform. They accept tenants without a NIF.' }
+            { kind: 'paragraph', text: 'For students. Flats and rooms, often near universities. Deposit online through the platform. They accept people without a NIF.' }
           ]},
           { id: 'm3', title: 'Spotahome, Nestpick, HousingAnywhere', content: [
             { kind: 'paragraph', text: 'International platforms. Fewer listings in Portugal, but an option for those searching before moving.' }
@@ -68,17 +68,17 @@ export default {
           { id: 'd1', title: 'OLX Imóveis (olx.pt)', content: [
             { kind: 'checklist', items: [
               'The largest classifieds platform in Portugal',
-              '60% from private owners (no agent = no commission)',
-              'Replies come faster than on Idealista',
+              '60% from private individuals (no agent = no commission)',
+              'Replies arrive faster than on Idealista',
               'Higher risk of scams (always view in person)',
               'Never make an advance payment before viewing'
             ]}
           ]},
           { id: 'd2', title: 'Facebook groups', content: [
-            { kind: 'paragraph', text: 'Groups by city: “Arrendamento Lisboa”, “Casas para Alugar Porto”, “Expats in PT — Housing”. Moderation is weak, but quick deals are possible. Check the landlord profile.' }
+            { kind: 'paragraph', text: 'Groups by city: “Arrendamento Lisboa”, “Casas para Alugar Porto”, “Expats in PT — Housing”. Moderation is weak, but quick deals are possible. Check the landlord’s profile.' }
           ]},
-          { id: 'd3', title: 'Word of mouth / noticeboard adverts', content: [
-            { kind: 'paragraph', text: 'Still works in small towns. Ask at the Junta de Freguesia (local parish council), cafés, and pastry shops. Often no commission.' }
+          { id: 'd3', title: 'Word of mouth / noticeboard ads', content: [
+            { kind: 'paragraph', text: 'In small towns, this still works. Ask at the Junta de Freguesia (local parish council), cafés, and pastry shops. Often no commission.' }
           ]}
         ]}
       ]
@@ -88,7 +88,7 @@ export default {
       title: 'Agents (through offices)',
       content: [
         { kind: 'substeps', items: [
-          { id: 'ag1', title: 'When to use them', content: [
+          { id: 'ag1', title: 'When to contact them', content: [
             { kind: 'paragraph', text: 'If you do not have time to search yourself or need advice. Commission: usually 1 month’s rent + IVA (paid by the landlord, but reflected in the price).' }
           ]},
           { id: 'ag2', title: 'Large networks', content: [
@@ -104,7 +104,7 @@ export default {
             { kind: 'checklist', items: [
               'Cartão de Cidadão / residence permit / passport',
               'NIF',
-              'Proof of income (3-month contract / bank statement)',
+              'Proof of income (3-month contract / statement)',
               'Guarantor or rental insurance',
               'First month + deposit (usually 2–3 months)',
               'Company guarantee — if you are employed'
@@ -120,23 +120,23 @@ export default {
         { kind: 'checklist', items: [
           '📅 Start searching 4–6 weeks BEFORE moving in',
           '🔔 Set up alerts on Idealista + OLX — new listings go quickly',
-          '📲 Reply within an hour, view at weekends',
+          '📲 Reply within an hour; view at weekends',
           '💬 Message to the landlord: name, arrival date, working/studying, stable income',
           '🏠 Always view in person or by video call',
           '💶 Do not make an advance payment to Revolut without a signed contract',
           '🤝 Negotiate — the price is often inflated by 5–15%',
           '📄 Every contract must be registered with the tax authority through Portal das Finanças — this is the law'
         ]},
-        { kind: 'warning', text: 'Typical scams: request for advance payment via Western Union, “booking” without a viewing, “the landlord lives in another country”. Always meet in person or use a verified platform.' }
+        { kind: 'warning', text: 'Typical scams: requests for advance payment via Western Union, “booking” without a viewing, “the landlord lives in another country”. Always meet in person or use a verified platform.' }
       ]
     }
   ],
   sources: [
     { title: 'Institute for Housing and Urban Rehabilitation (IHRU)', url: 'https://www.ihru.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Portal das Finanças — Rental Contracts', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portal das Finanças — Tenancy Agreements', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMI — Association of Estate Agents', url: 'https://www.ami.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Renting a home', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

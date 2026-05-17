@@ -62,7 +62,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '**Fashion Clinic Outlet** (Av. da Liberdade) — премиум-бренды со скидкой30-60% (Balenciaga, Celine, Prada последних коллекций)',
-          '**Outlet Amoreiras** (Amoreiras Shopping) — Zara, Mango, Uterqüe — 30-50% ежедневно',
+          '**Amoreiras Shopping** — обычный торговый центр (НЕ outlet); отдельные магазины могут проводить promo. Uterqüe как бренд закрыт Inditex в 2022 году — товары интегрированы в Massimo Dutti',
           '**Mercado de Levante** (Feira da Ladra) — секонд-хенд + винтаж, суббота-воскресенье',
           '**Lisboa Outlet Village (LOV)** (Campera, 40 km N) — 70 магазинов: Nike, Tous, Springfield, Levi\'s'
         ]}
@@ -108,6 +108,6 @@ export default {
     { title: 'Vila do Conde The Style Outlets', url: 'https://viladoconde.thestyleoutlets.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ASAE — права потребителя', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

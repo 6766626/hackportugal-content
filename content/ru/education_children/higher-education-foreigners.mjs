@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           '**Licenciatura** (бакалавриат): 3 года, 180 ECTS — основной первый цикл',
           '**Mestrado** (магистратура): 1,5–2 года, 90–120 ECTS — второй цикл',
-          '**Mestrado Integrado**: 5 лет, 300 ECTS — для медицины, архитектуры, инженерии; единый курс вместо бакалавриата + магистратуры',
+          '**Mestrado Integrado**: для некоторых регулируемых профессий. **Medicina** — обычно 6 лет / 360 ECTS; **Arquitetura** — часто 5 лет / 300 ECTS; в Engenharia многие antigos mestrados integrados были reorganized в licenciatura + mestrado (сверяйте каждый курс в DGES)',
           '**Doutoramento** (PhD): 3–4 года — третий цикл',
           '**CTeSP** (Curso Técnico Superior Profissional): 2 года, 120 ECTS — профессиональное образование, без академической степени',
           '**Pós-graduação**: короткие специализированные курсы (6–12 мес.)'
@@ -26,14 +26,14 @@ export default {
       title: '📝 Способы поступления',
       content: [
         { kind: 'substeps', items: [
-          { id: 'a1', title: 'Граждане ЕС / ЕЭЗ / Швейцарии + резиденты Португалии', content: [
+          { id: 'a1', title: 'Граждане PT/ЕС/ЕЭЗ/Швейцарии и некоторые non-EU резиденты (CNA)', content: [
             { kind: 'checklist', items: [
-              '**Concurso Nacional de Acesso** (CNA): общий конкурс, проходит в мае–сентябре',
+              '**Concurso Nacional de Acesso (CNA)**: общий конкурс — применяется, если вы НЕ считаетесь Estudante Internacional',
+              'CNA also applies to non-EU residents с легальным проживанием в Португалии **>2 непрерывных лет к 1 января года поступления** (не считая времени только по student permit) или с estatuto de igualdade',
               'Вступительные экзамены (Exames Nacionais) в 12-м классе — обязательны для конкурса',
-              '5 вариантов для подачи (приоритеты)',
-              'Распределение по баллам: средний балл школы + экзамены',
-              'Платят как резиденты Португалии (~700–1400 €/год в государственных вузах)',
-              'Если у вас иностранный школьный диплом — нужно получить equivalência + сдать местный экзамен'
+              'Распределение по баллам: nota do secundário + provas de ingresso (веса по курсам у DGES)',
+              'PT/EU в гос. licenciatura: propina **до ~€697/год максимум**',
+              'Если у вас иностранный школьный диплом — нужно equivalência + сдать local exam'
             ]}
           ]},
           { id: 'a2', title: 'Граждане не-ЕС', content: [
@@ -101,8 +101,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Государственные университеты', content: [
             { kind: 'checklist', items: [
-              '**ЕС/резиденты**: 697–1400 €/год (бакалавриат), 1200–3000 € (магистратура), 2500–4000 € (PhD)',
-              '**Не-ЕС**: 2000–7000 €/год (бакалавриат), 3000–8000 € (магистратура) — каждый университет устанавливает свою стоимость',
+              '**ЕС/резиденты, считающиеся national/EU**: licenciatura — **до ~€697/год максимум** (DGES propina cap); магистратура и PhD — отдельные тарифы',
+              '**Не-ЕС (CEEI, Estudante Internacional)**: international propinas устанавливает каждый университет/курс — смотрите edital конкретного курса',
               'Некоторые факультеты медицины / инженерии — в верхней части этого диапазона'
             ]}
           ]},
@@ -135,17 +135,17 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: 'DGES — национальные bolsas', content: [
             { kind: 'checklist', items: [
-              'Для резидентов Португалии: 500–5000 €/год в зависимости от дохода',
-              'Подача: до 30 сентября после поступления',
-              'Через Serviços de Acção Social каждого университета',
-              'Ограничение: доход семьи ≤ 5× IAS'
+              'Для резидентов Португалии: размер зависит от дохода и тарифа DGES — проверяйте актуальные значения на dges.gov.pt и в Serviços de Ação Social вашего вуза',
+              'Подача: ежегодно по календарю DGES после поступления',
+              'Через Serviços de Ação Social каждого университета',
+              'Условие нуждаемости рассчитывается через rendimento per capita агрегата — проверяйте формулу на dges.gov.pt'
             ]}
           ]},
           { id: 'b2', title: 'Международные стипендии', content: [
             { kind: 'checklist', items: [
               '**Erasmus+**: для резидентов / краткосрочный обмен, 800–1000 €/мес.',
               '**Camões Institute bolsas**: для граждан PALOP, Timor-Leste, Brasil',
-              '**FCT (Fundação para a Ciência e Tecnologia)**: PhD-стипендия 1100 €/мес. + tuition',
+              '**FCT (Fundação para a Ciência e Tecnologia)**: PhD-стипендия — сумма периодически обновляется; смотрите актуальный tabela de bolsas FCT (subsídio + propinas согласно регламенту)',
               '**EU Marie Skłodowska-Curie**: для PhD/post-doc — €3000+/мес.',
               '**University-specific**: все топовые вузы имеют стипендиальные программы по заслугам (50–100% скидки на tuition)',
               'Конкуренция: медицина — самая сложная; науки и инженерия — шансы лучше'
@@ -174,30 +174,33 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Для студентов не-ЕС, обучающихся очно по программе в португальском вузе',
-          'Документы: acceptance letter, proof of funds (>€7000/год), медстраховка, жильё',
+          'Документы: acceptance letter, proof of funds (ориентир минимум **12×SMN в год для основного заявителя — в 2026 это €11 040**; консульство/VFS может принимать стипендию, банковский баланс, спонсорство и/или prepaid accommodation), медстраховка, жильё',
           'Подача в консульстве страны проживания',
           'Срок: 1–3 мес.',
-          'Виза → въезд → в AIMA для residence permit D4',
-          'После окончания: виза для поиска работы Procuro-trabalho D (120 дней на поиск работы)',
+          'Виза → въезд → в AIMA для residence permit D4 (плюс отдельный AIMA fee — таблица в силе с 01.03.2026)',
+          '**После окончания**: можно запросить **autorização de residência para procura de trabalho ou criação de empresa** — обычно до 12 месяцев (Lei 23/2007 art. 122). Это **не** та же процедура, что внешнее visto para procura de trabalho на 120+60 дней',
           'Или переход на D3 / D8 / D2 после получения контракта / открытия бизнеса',
-          'Время учёбы ЗАСЧИТЫВАЕТСЯ в стаж для гражданства (но с коэффициентом 0,5 — т.е. 2 года учёбы = 1 год стажа)'
+          'Для гражданства: по действующему праву нет коэффициента 0.5 — годы с действующим título de residência студента обычно считаются как обычное легальное проживание (Lei 37/81 art. 6). ⚠️ **Decreto AR 48/XVII промульгирован Президентом Сегуру 03.05.2026** — реформа Lei da Nacionalidade ждёт публикации в DRE; правила могут измениться после вступления в силу'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'Бакалавриат в государственном вузе (ЕС)', amountEURMin: 697, amountEURMax: 1400, note: '€/год' },
-    { label: 'Бакалавриат в государственном вузе (не-ЕС)', amountEURMin: 2000, amountEURMax: 7000, note: '€/год' },
-    { label: 'Бакалавриат в частном вузе', amountEURMin: 3500, amountEURMax: 15000, note: '€/год' },
+    { label: 'Licenciatura в гос. вузе (national/EU)', amountEURMax: 697, note: '€/год — DGES propina cap' },
+    { label: 'Licenciatura в гос. вузе (Estudante Internacional / CEEI)', note: 'устанавливает каждый вуз/курс — смотрите edital' },
+    { label: 'Licenciatura в частном вузе', amountEURMin: 3500, amountEURMax: 15000, note: '€/год' },
     { label: 'Residência universitária', amountEURMin: 150, amountEURMax: 300, note: '€/мес' },
-    { label: 'Bolsa FCT PhD', amountEUR: 1100, note: '€/мес + tuition' }
+    { label: 'Bolsa FCT PhD', note: 'смотрите актуальный tabela de bolsas FCT' }
   ],
   sources: [
-    { title: 'DGES — Direcção-Geral do Ensino Superior', url: 'https://www.dges.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CNA — Concurso Nacional de Acesso', url: 'https://www.dges.gov.pt/guias/indest.asp', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'FCT — Fundação para a Ciência e Tecnologia', url: 'https://www.fct.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Study in Portugal (портал)', url: 'https://www.study-in-portugal.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
+    { title: 'DGES — Direção-Geral do Ensino Superior', url: 'https://www.dges.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 36/2014 — Estatuto do Estudante Internacional', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/36-2014', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 66/2018 — Reconhecimento de graus e diplomas estrangeiros', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/66-2018', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei 23/2007 (art. 122 — residência após estudos)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'CNA — Concurso Nacional de Acesso', url: 'https://www.dges.gov.pt/guias/indest.asp', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'FCT — Fundação para a Ciência e Tecnologia', url: 'https://www.fct.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

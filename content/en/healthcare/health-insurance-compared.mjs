@@ -2,23 +2,23 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'health-insurance-compared',
   categoryId: 'healthcare',
-  title: 'Private health insurance in Portugal — Médis, Multicare, CUF, etc.',
-  tldr: 'SNS (state system) is free for residents, but specialist waits are 2–8 weeks. Private insurance speeds things up — same-day consultations, MRI within a week. Top providers: Médis (Ageas), Multicare (Fidelidade), AdvanceCare, Generali Tranquilidade. Prices 2026: €30–€80/month basic plan, €100–€250/month comprehensive. For immigration procedures (D7, D8), insurance is often mandatory.',
+  title: 'Private health insurance in Portugal — Médis, Multicare, CUF and others',
+  tldr: 'SNS is available to registered residents/utente; most core services are free of taxas moderadoras (Lei n.º 22/2022), but medicines, dentistry, glasses and some services are paid separately or partially. Waiting times for specialists vary from weeks to months depending on region, priority and specialty. Private insurance speeds things up — GP/urgent care often on the same day, specialists/exames within days to weeks. Top insurers: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare is a network/administrator (not a standalone insurer). 2026 prices: €30–80/month for a basic plan, €100–250/month for full cover. For D7/D8 visas, consulates usually require travel medical insurance — exact requirements differ by consulate.',
   tags: ['insurance', 'health', 'médis', 'multicare', 'private healthcare'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'why',
-      title: 'Why get private insurance if SNS exists',
+      title: 'Why have private insurance if SNS exists',
       content: [
         { kind: 'checklist', items: [
-          '⏰ SNS is free, but the wait for a specialist is 2–8 weeks',
-          '🏥 Private — a consultation the same day or the next day',
-          '💊 In SNS, co-payments (taxas moderadoras) were ABOLISHED as of 1 June 2022 (Decreto-Lei 37/2022) for core services. They remain only for urgência hospitalar without a referral from SNS 24/INEM/médico de família — €14–€18',
-          '🧪 Tests/MRI via SNS — 1–3 months; with insurance — 1–2 weeks',
-          '💰 IRS deduction: 15% on medical expenses up to €1,000 per family',
-          '🌍 For D7 / D8 visas — insurance is almost a mandatory requirement',
-          '👨‍⚕️ Choice of doctor — with insurance, always; via SNS, only from the list'
+          '⏰ SNS: waiting times for specialists vary from weeks to months depending on region, priority and specialty',
+          '🏥 The private system is usually faster: GP/urgent care often on the same day, specialists/exames — from a few days to weeks depending on the network and doctor',
+          '💊 Most taxas moderadoras in SNS have been abolished since 2022 (Lei n.º 22/2022); remaining cases include, for example, urgência without referral from SNS24/INEM/health centre and some services outside SNS',
+          '🧪 Tests/MRI via SNS — from weeks to months; with insurance often 1–2 weeks',
+          '💰 IRS deduction: 15% on despesas de saúde within the household cap (Código do IRS art. 78.º-C)',
+          '🌍 For D7 / D8 visas, consulates usually require travel medical insurance — specific requirements differ by consulate',
+          '👨‍⚕️ Choice of doctor — with insurance it is usually broader (within the network); via SNS it depends on whether there is a médico de família and on the referenciação system'
         ]}
       ]
     },
@@ -29,32 +29,35 @@ export default {
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Médis (Ageas)', content: [
             { kind: 'checklist', items: [
-              'Popular with foreigners — an app in English',
-              'Network of ~300 direct billing agreements with clinics',
-              'No upfront payment at partner clinics',
+              'Popular with foreigners — app in English',
+              'Network of ~300 direct agreements with clinics',
+              'No upfront payment in partner clinics',
               'Packages: Basic, Complete, Health Total',
               'From €35/month for a healthy adult',
-              'High annual coverage limit (up to €500,000)'
+              'High annual expenditure limit (up to €500,000)'
             ]}
           ]},
           { id: 'p2', title: 'Multicare (Fidelidade)', content: [
             { kind: 'checklist', items: [
-              'Largest, with state shareholding',
-              'Network includes Hospital da Luz + CUF + Lusíadas',
-              'The widest medical provider network',
+              'The largest insurance group in Portugal; Multicare is Fidelidade’s health insurance brand. Not state insurance (controlling stake — Fosun via Longrun Portugal)',
+              'Hospital da Luz + CUF + Lusíadas network',
+              'One of the broadest networks of healthcare providers',
               'Packages: Proteção, Vida, Vida+',
               'From €40/month',
-              'Excellent dentistry included in the package'
+              'Strong dental cover in the package'
             ]}
           ]},
           { id: 'p3', title: 'AdvanceCare', content: [
-            { kind: 'paragraph', text: 'Healthcare network/administrator (not an insurer in the narrow sense); often features in Generali Tranquilidade policies and corporate bundles. Good pricing on corporate plans, includes international clinics. From €30/month.' }
+            { kind: 'paragraph', text: 'A healthcare services network/platform (managed-care/network administrator), not a standalone insurer. It is often used by insurance products from Generali Tranquilidade and partners; check exactly who the legal insurer is in the policy. From €30/month.' }
           ]},
           { id: 'p4', title: 'Generali Tranquilidade', content: [
-            { kind: 'paragraph', text: 'Since 2024, Tranquilidade belongs to the Generali group (NOT Allianz) and operates under the Generali Tranquilidade brand; in 2024 Liberty Seguros Portugal was integrated into it. Premium plans, international cover, more expensive, but strong support for foreigners. From €50/month.' }
+            { kind: 'paragraph', text: 'Since 2024, Tranquilidade has belonged to the Generali group and operates under the Generali Tranquilidade brand; in 2024 Liberty Seguros Portugal was integrated into it. Premium plans, international cover, more expensive, but strong support for foreigners. From €50/month.' }
           ]},
-          { id: 'p5', title: 'ADSE (for civil servants)', content: [
-            { kind: 'paragraph', text: 'A mutual insurance scheme for public sector workers. Only for them and their families.' }
+          { id: 'p4b', title: 'Allianz Portugal', content: [
+            { kind: 'paragraph', text: 'A separate insurance group (NOT part of Tranquilidade/Generali). Health plans and international cover for expats. Compare separately.' }
+          ]},
+          { id: 'p5', title: 'ADSE (for public sector workers)', content: [
+            { kind: 'paragraph', text: 'ADSE is a public healthcare subsystem for state-sector workers, public-service pensioners and their eligible dependants (Decreto-Lei n.º 7/2017). It is not a private insurer and not a standard policy for expats.' }
           ]}
         ]}
       ]
@@ -65,16 +68,16 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Luz Saúde', content: [
-            { kind: 'paragraph', text: 'The largest network in Lisbon and Porto. Hospital da Luz is the flagship. They accept all insurances.' }
+            { kind: 'paragraph', text: 'The largest network in Lisbon and Porto. Hospital da Luz is the flagship. Accepted insurance depends on the specific Hospital/Clínica da Luz, plan, doctor and service; check the acordo/convenção and pre-authorisation before the visit.' }
           ]},
           { id: 'c2', title: 'CUF', content: [
-            { kind: 'paragraph', text: '50+ facilities across Portugal. Strong surgery and maternity. Robust app with a medical card.' }
+            { kind: 'paragraph', text: 'One of the largest private networks in Portugal, with dozens of unidades across the country. Good surgery and maternity services. Strong app with medical record access. The current list is on the CUF website.' }
           ]},
-          { id: 'c3', title: 'Lusíadas', content: [
-            { kind: 'paragraph', text: 'Portuguese arm of American HCA. Clinics in Lisbon, Porto, Algarve.' }
+          { id: 'c3', title: 'Lusíadas Saúde', content: [
+            { kind: 'paragraph', text: 'A large private network of hospitals and clinics; since 2023 it has belonged to the French group Vivalto Santé. Clinics in Lisbon, Porto, Algarve.' }
           ]},
           { id: 'c4', title: 'HPA Saúde (Algarve)', content: [
-            { kind: 'paragraph', text: 'Dominant in the south. Strong cardiology and orthopaedics.' }
+            { kind: 'paragraph', text: 'Dominates in the south. Strong cardiology and orthopaedics.' }
           ]}
         ]}
       ]
@@ -84,16 +87,16 @@ export default {
       title: 'What is usually covered',
       content: [
         { kind: 'checklist', items: [
-          '✅ Outpatient consultations (doctors of all specialities)',
-          '✅ Diagnostics (tests, MRI, CT, ultrasound)',
-          '✅ Hospitalisation (private hospitals)',
-          '✅ Surgeries (elective and emergency)',
-          '✅ Maternity (after a 10-month waiting period)',
+          '✅ Outpatient consultations (doctors of all specialties)',
+          '✅ Examinations (blood tests, MRI, CT, ultrasound)',
+          '✅ Hospitalisation (private hospitals) — if included in the plan, within the capital seguro, network and after pre-authorisation',
+          '✅ Cirurgias/hospitalização — if included in the plan; emergency care should be checked separately',
+          '✅ Maternity (after a 10–12 month waiting period, usually with a separate limit)',
           '⚠️ Dentistry — often separate',
           '⚠️ Ophthalmology — often separate',
-          '❌ Chronic conditions with a pre-existing diagnosis — often not covered for the first 6–12 months',
-          '❌ Cosmetic procedures — never',
-          '⚠️ High-tech treatments (transplantation, some cancer treatments) — limited'
+          '❌ **Pre-existing conditions** are usually excluded unless the insurer has accepted their cover in writing in advance; limits, a premium loading or carência may sometimes be possible. Always read the Condições Particulares/Especiais',
+          '⚠️ Purely aesthetic/cosmetic surgery is usually excluded; reconstructive/medically necessary procedures may be covered under the policy conditions',
+          '⚠️ High-tech treatment (transplantation, certain types of cancer treatment) — limited'
         ]}
       ]
     },
@@ -102,46 +105,48 @@ export default {
       title: 'How to choose a plan',
       content: [
         { kind: 'checklist', items: [
-          '🏥 Check the network — which nearby hospitals/doctors',
-          '💊 Inpatient cover — at least 30 days per year',
-          '💰 Annual sum insured (maximum payout) — > €250,000',
-          '🤰 Planning maternity — requires a 10–12 month waiting period',
-          '🧒 Children on a family bundle — often cheaper than separate',
+          '🏥 Check the network — which nearby hospitals / doctors are included',
+          '💊 Hospitalização: look at capital anual, franquia/copagamento, limites por acto, rooms, cirurgia, urgência and pre-authorisation rules',
+          '💰 Compare capital por garantia: ambulatório, hospitalização, parto, estomatologia, próteses, oncology; a high overall capital does not replace checking sub-limits',
+          '🤰 Maternity planning — usually a separate limit and a 10–12 month carência',
+          '🧒 Children in the package — often cheaper than separate cover',
           '🇵🇹 International cover — for travellers',
           '📅 Compare within 30 days (right to withdraw)',
-          '✍️ Health declaration (Declaração de saúde) — complete truthfully, otherwise a claim may be refused'
+          '✍️ Questionário de saúde — fill it in honestly, otherwise a claim may be refused'
         ]}
       ]
     },
     {
       id: 'for-visa',
-      title: 'Insurance for D7 / D8 visa',
+      title: 'Insurance for a D7 / D8 visa',
       content: [
-        { kind: 'paragraph', text: 'Consulates require travel health insurance from the moment the visa is issued and for the first year in Portugal.' },
+        { kind: 'paragraph', text: 'For D7/D8, consulates usually require travel medical insurance covering medical assistance and repatriation for entry/the visa validity period. After arrival, for AIMA/life in Portugal, access to SNS (via número de utente) or private insurance is needed. Check the requirements of the specific VFS/MNE consulate.' },
         { kind: 'checklist', items: [
           '💶 Minimum cover: €30,000',
-          '🌍 Must cover the entire Schengen Area',
-          '📅 Term: at least 12 months or until the first renewal',
+          '🌍 Must cover the ENTIRE Schengen area',
+          '📅 Term: as required by the specific consulate; often the policy must cover the visa validity period/first entry, and for further residence — an SNS number or private insurance',
           '✈️ Repatriation — mandatory in the policy',
           '💊 Emergency medicine — mandatory',
-          '🏥 Travel to Portugal and buy a local one — possible. The consulate often accepts a commitment to purchase insurance upon arrival'
+          '⚠️ Do not rely on a “commitment to buy on arrival” — unless the specific consulate explicitly allows it. It is safer to attach valid travel medical insurance that matches the consulate checklist'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'Basic plan (healthy 30–40 years)', amountEURMin: 30, amountEURMax: 55, note: '€/month' },
-    { label: 'Mid-tier (hospitalisation + specialists)', amountEURMin: 60, amountEURMax: 120, note: '€/month' },
+    { label: 'Basic plan (healthy 30–40-year-old)', amountEURMin: 30, amountEURMax: 55, note: '€/month' },
+    { label: 'Mid-range (hospitalisation + specialists)', amountEURMin: 60, amountEURMax: 120, note: '€/month' },
     { label: 'Premium (everything + dentistry + international cover)', amountEURMin: 150, amountEURMax: 300, note: '€/month' },
     { label: 'Visa insurance (1 year)', amountEURMin: 250, amountEURMax: 600 },
     { label: 'Private consultation without insurance', amountEURMin: 50, amountEURMax: 150 }
   ],
   sources: [
-    { title: 'ASF — Insurance Supervision Authority', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Ministry of Health — SNS', url: 'https://www.sns.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ERS — Health Regulatory Authority', url: 'https://www.ers.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Consulate — visa requirements (health insurance)', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ASF — Autoridade de Supervisão de Seguros', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei n.º 22/2022 — taxas moderadoras (abolition)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/22-2022-184170621', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Ministério da Saúde — SNS', url: 'https://www.sns.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ERS — Entidade Reguladora da Saúde', url: 'https://www.ers.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ADSE, I.P.', url: 'https://www.adse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Portal dos Vistos MNE — D7/D8 requirements', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

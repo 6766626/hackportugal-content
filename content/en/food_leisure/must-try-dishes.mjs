@@ -3,7 +3,7 @@ export default {
   id: 'must-try-dishes',
   categoryId: 'food_leisure',
   title: 'Must-try dishes in Portugal — by region',
-  tldr: 'Portuguese cuisine is highly regional. Lisbon: sardines, amêijoas à Bulhão Pato. Porto: Francesinha, Tripas à moda do Porto. Alentejo: cozido, açorda. North: caldo verde. Madeira: espetadas. Azores: cozido das Furnas. The iconic flagship dish is bacalhau (cod), with “365 recipes”. And pastéis de nata for dessert — everywhere.',
+  tldr: 'Portuguese cuisine is highly regional. Lisbon: sardines, amêijoas à Bulhão Pato. Porto: Francesinha, Tripas à moda do Porto. Alentejo: açorda, migas, ensopado de borrego, carne de porco à alentejana. North: caldo verde. Madeira: espetadas. Azores: cozido das Furnas. The iconic main dish is bacalhau (cod), said to have “365 recipes”. And pastéis de nata for dessert — everywhere.',
   tags: ['food', 'dishes', 'cuisine', 'restaurants', 'regions'],
   estimatedReadMinutes: 8,
   steps: [
@@ -12,13 +12,13 @@ export default {
       title: 'Lisbon and the central coast',
       content: [
         { kind: 'checklist', items: [
-          '🐟 Sardinhas assadas — grilled sardines, season June–September. Santo António festival (13.06) — sardine day',
-          '🐚 Amêijoas à Bulhão Pato — clams in a garlicky lime broth with coriander',
-          '🍲 Bacalhau à Brás — shredded cod with shoestring potatoes and egg, the home classic',
-          '🍛 Arroz de marisco — seafood rice in a tomato base',
-          '🧀 Queijo da Serra da Estrela — a soft sheep’s cheese (DOP), August to March',
-          '🥐 Pastéis de nata — custard tarts in crisp pastry, dusted with cinnamon',
-          '🍷 Vinho de Carcavelos — historic fortified white wine from the Cascais area'
+          '🐟 Sardinhas assadas — grilled sardines, in season June–September. The Santo António festival (13.06) is sardine day',
+          '🐚 Amêijoas à Bulhão Pato — clams in a sauce of garlic, olive oil, coriander and lemon',
+          '🍲 Bacalhau à Brás — shredded cod with potatoes and egg, the essential home-style dish',
+          '🍛 Arroz de marisco — seafood rice in tomato sauce',
+          '🧀 Queijo Serra da Estrela DOP — soft sheep’s cheese from the Serra da Estrela region; the best season is usually late autumn to spring',
+          '🥐 Pastéis de nata — custard cream in crisp pastry, cinnamon on top',
+          '🍷 Vinho de Carcavelos — a historic fortified DOC wine from the Oeiras/Cascais area, more often white/amber, but not strictly only white'
         ]}
       ]
     },
@@ -27,13 +27,13 @@ export default {
       title: 'Porto and the north',
       content: [
         { kind: 'checklist', items: [
-          '🥪 Francesinha — a monster sandwich with meats, sausage, melted cheese and a beer–tomato sauce. An icon of Porto',
-          '🥬 Caldo verde — soup of kale and potato with chouriço. A national winter staple',
-          '🐄 Tripas à moda do Porto — tripe with beans. People from Porto are nicknamed “tripeiros” because of it',
-          '🍷 Vinho verde — young, light wine with a slight spritz, the best regional choice',
-          '🍷 Porto — sweet fortified wine, from tawny to vintage. Tastings in the Gaia lodges',
-          '🐟 Cabidela — chicken or rabbit in its own blood, a traditional dish of Minho',
-          '🥖 Bolinhos de bacalhau — cod fritters, a snack everywhere'
+          '🥪 Francesinha — a monster sandwich with meat, sausage, melted cheese and a beer-and-tomato sauce. A Porto icon',
+          '🥬 Caldo verde — soup made with kale and potato, with chouriço. A national winter dish',
+          '🐄 Tripas à moda do Porto — tripe with beans. People from Porto are called “tripeiros” because of this dish',
+          '🍷 Vinho Verde — wine from north-west Portugal; often light, fresh and slightly sparkling, but there are also more complex styles, especially Alvarinho and Loureiro',
+          '🍷 Porto — sweet fortified wine, from tawny to vintage. Taste it in the Gaia cellars',
+          '🐟 Cabidela — chicken or rabbit cooked in its own blood, a traditional Minho dish',
+          '🥖 Bolinhos de bacalhau — cod fritters, a snack found everywhere'
         ]}
       ]
     },
@@ -43,12 +43,12 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🍲 Açorda alentejana — bread soup with egg, coriander, garlic and olive oil',
-          '🐷 Carne de porco à alentejana — pork with amêijoas clams. The famous “surf and turf” pairing',
-          '🐑 Ensopado de borrego — stewed lamb over bread slices',
-          '🐷 Presunto de Barrancos — ham from acorn-fed Iberian pigs, DOP',
+          '🐷 Carne de porco à alentejana — pork with amêijoas. A famous “sea and land” combination',
+          '🐑 Ensopado de borrego — lamb stew served over pieces of bread',
+          '🐷 Presunto de Barrancos — ham from Iberian pigs fed on acorns, DOP',
           '🍷 Vinhos do Alentejo — full-bodied red wines with Touriga Nacional and Aragonez',
           '🥧 Sericaia with plum — a traditional dessert from Elvas',
-          '🍮 Pão de Rala — almond-and-pumpkin convent dessert'
+          '🍮 Pão de Rala — a convent dessert made with almonds, egg yolks and doce de gila/chila'
         ]}
       ]
     },
@@ -57,11 +57,11 @@ export default {
       title: 'Algarve',
       content: [
         { kind: 'checklist', items: [
-          '🍲 Cataplana — a copper pot dish with fish or shellfish in a tomato broth. Made for two',
-          '🐙 Polvo à lagareiro — octopus baked with olive oil and smashed potatoes',
-          '🦐 Gambas à la Plancha — grilled prawns with salt',
-          '🐟 Xerém de conquilhas — cornmeal porridge with clams',
-          '🍯 Medronho — spirit from the strawberry tree, a local strong drink at 48%',
+          '🍲 Cataplana — a copper pot with fish or shellfish in tomato broth. Cooked for two',
+          '🐙 Polvo à lagareiro — octopus baked with olive oil and crushed potatoes',
+          '🦐 Gambas grelhadas / camarão grelhado — grilled prawns with salt and lemon',
+          '🐟 Xerém de conquilhas — corn porridge with shellfish',
+          '🍯 Medronho — strong aguardente made from the fruit of the strawberry tree, usually around 40–50% ABV',
           '🥜 Doces de amêndoa — almond sweets'
         ]}
       ]
@@ -73,9 +73,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'mad', title: 'Madeira', content: [
             { kind: 'checklist', items: [
-              'Espetada — beef on a bay-laurel skewer',
-              'Bolo do caco — sweet-potato flatbread with garlic butter',
-              'Poncha — rum + honey + lemon + local fruit',
+              'Espetada — beef on a laurel-wood skewer',
+              'Bolo do caco — a wheat flatbread with added sweet potato, usually served with garlic butter',
+              'Poncha — aguardente de cana da Madeira + honey + lemon/orange; there are versions with passion fruit and other fruits',
               'Lapas — grilled limpets',
               'Vinho da Madeira — fortified wine, famous since the 15th century'
             ]}
@@ -86,7 +86,7 @@ export default {
               'Queijo de São Jorge — sharp DOP cheese',
               'Bife à Regional — steak with garlic butter and pimenta da terra',
               'Chicharros — small fried fish',
-              'Vinho dos Biscoitos — white wine from vineyards on lava'
+              'Vinho dos Biscoitos — white wine from vineyards grown on lava'
             ]}
           ]}
         ]}
@@ -96,14 +96,14 @@ export default {
       id: 'bacalhau',
       title: 'Bacalhau — “365 recipes”',
       content: [
-        { kind: 'paragraph', text: 'Cod is the most important fish for the Portuguese, though almost all of it is caught in Norwegian waters. Saying: “365 ways to cook bacalhau, one for each day of the year”. Here are the top 6:' },
+        { kind: 'paragraph', text: 'Cod is the most important fish for the Portuguese, although Portugal itself catches very little of it: bacalhau is mainly imported from the North Atlantic, especially from Norway and Iceland. The saying goes: “365 ways to cook bacalhau, one for every day of the year”. Here are the top 6:' },
         { kind: 'checklist', items: [
-          'à Brás — shredded with shoestring potatoes and egg',
-          'à Gomes de Sá — in chunks with potato and onion, baked',
+          'à Brás — shredded with potatoes and egg',
+          'à Gomes de Sá — in pieces with potato and onion, baked',
           'com Natas — in a cream sauce',
-          'à Lagareiro — baked with smashed potatoes and olive oil',
-          'à Zé do Pipo — with mashed potatoes and mayonnaise, baked',
-          'Pastéis de bacalhau — fritters, a snack everywhere'
+          'à Lagareiro — baked with crushed potatoes and olive oil',
+          'à Zé do Pipo — with mashed potato and mayonnaise, baked',
+          'Pastéis de bacalhau — fritters, a snack found everywhere'
         ]}
       ]
     },
@@ -112,14 +112,14 @@ export default {
       title: 'Where to find authentic food',
       content: [
         { kind: 'checklist', items: [
-          '🏠 Tasca — small local eatery, low prices, high quality',
-          '🍽️ Cervejaria — beer hall with fresh seafood',
-          '🧀 Casa de pasto — daytime lunch with menu do dia (€8–12)',
-          '❌ Avoid restaurants with a “tourist menu” and food photos outside',
+          '🏠 Tasca — a small local restaurant, low prices, high quality',
+          '🍽️ Cervejaria — a beer hall with fresh seafood',
+          '🧀 Casa de pasto — daytime lunch with menu do dia, often around €10–15 (sometimes cheaper in smaller towns, more expensive in tourist areas)',
+          '❌ Avoid restaurants with a “tourist menu” and photos of food outside',
           '✅ Look for places where locals eat: lunch after 13:00, dinner after 20:00',
           '💡 The question “O que é típico aqui?” will unlock the region’s secrets'
         ]},
-        { kind: 'warning', text: 'Couvert — the nibbles set on the table (bread, olives, cheese) in Portugal are NOT free; they are always charged. Decline: “não, obrigado” if you do not want them, otherwise they will be on the bill.' }
+        { kind: 'warning', text: 'Couvert in Portugal is usually charged if you consume it. If you do not want it, refuse it straight away and do not eat it; you do not have to pay for unsolicited, untouched appetisers. The couvert price must be shown on the menu/price list.' }
       ]
     }
   ],
@@ -128,6 +128,6 @@ export default {
     { title: 'UNESCO — Mediterranean diet (PT inclusion)', url: 'https://ich.unesco.org/en/RL/mediterranean-diet-00884', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Wines of Portugal — regions', url: 'https://www.winesofportugal.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

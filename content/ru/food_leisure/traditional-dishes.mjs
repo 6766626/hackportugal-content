@@ -16,12 +16,12 @@ export default {
           '🐟 Bacalhau com Natas — треска, запечённая со сливочным соусом',
           '🐟 Bacalhau à Lagareiro — треска, запечённая с оливковым маслом и «мини-картошкой»',
           '🐟 Sardinhas Assadas — жареные на углях сардины (июнь-сентябрь, дешевле в тавернах)',
-          '🐟 Arroz de Marisco — рис с морепродуктами, самый популярный в Алгарве',
+          '🐟 Arroz de Marisco — рис с морепродуктами, классика прибрежной Португалии',
           '🍖 Cozido à Portuguesa — отварное мясо, колбасы, овощи, нут',
           '🍖 Leitão da Bairrada — молочный поросёнок на вертеле (регион Байррада)',
-          '🥪 Francesinha — сэндвич с мясом, сыром, соусом и яйцом (Порту, обязательно попробовать)',
+          '🥪 Francesinha — сэндвич с мясом, сыром и соусом; яйцо часто добавляют сверху (Порту, обязательно попробовать)',
           '🍲 Caldo Verde — суп из капусты и колбасы chouriço (повсеместно)',
-          '🥟 Pastéis de Bacalhau — треска в кляре (закуска)'
+          '🥟 Pastéis de Bacalhau — жареные крокеты из трески и картофеля (закуска)'
         ]}
       ]
     },
@@ -31,7 +31,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🥧 Pastel de Nata — заварной крем в хрустящем тесте (лучшие — Pastéis de Belém, оригинал)',
-          '🥚 Ovos Moles de Aveiro — яичный желток + сахар, в вафле (DOP Авейру)',
+          '🥚 Ovos Moles de Aveiro — яичный желток + сахар, в вафельной оболочке (IGP/PGI Aveiro)',
           '🧁 Queijadas de Sintra — творожные кексы',
           '🌰 Castanhas assadas — жареные каштаны (ноябрь-январь)',
           '🍮 Leite-Creme — португальский крем-брюле',
@@ -47,7 +47,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'd1', title: 'Кофе', content: [
             { kind: 'checklist', items: [
-              'Bica (Лиссабон) / Cimbalino (Порту) — эспрессо, 0,70–1 €',
+              'Bica (Лиссабон) / Cimbalino (Порту) — эспрессо, обычно около € 0,90–1,30 в обычных кафе, дороже в туристических местах',
               'Meia de Leite — эспрессо с молоком пополам, в чашке',
               'Galão — большой кофе с молоком (в стакане)',
               'Abatanado — «длинный» кофе, американо',
@@ -60,14 +60,14 @@ export default {
               'Douro DOC — насыщенное красное',
               'Alentejo — богатое красное',
               'Портвейн (Порту) — десертное вино, Ruby / Tawny / Vintage',
-              'Madeira — десертное вино с острова Мадейра',
-              'Игристое Bairrada — белое игристое вино'
+              'Madeira — креплёное вино с Мадейры: от сухого до сладкого, часто как аперитив или десертное',
+              'Bairrada espumante — игристое вино, чаще белое или rosé'
             ]}
           ]},
           { id: 'd3', title: 'Другие', content: [
             { kind: 'checklist', items: [
               'Ginjinha — вишнёвый ликёр (Лиссабон, барчики A Ginjinha возле Rossio)',
-              'Licor Beirão — травяной бренди',
+              'Licor Beirão — португальский травяной ликёр',
               'Sumol / Compal — фруктовые нектары',
               'Água com gás / sem gás — с газом / без газа'
             ]}
@@ -81,7 +81,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Северо-Запад (Порту, Минью) — francesinha, caldo verde, bacalhau com broa',
-          'Центр (Коимбра, Авейру) — ovos moles, leitão, chanfana (козлёнок)',
+          'Центр (Коимбра, Авейру) — ovos moles, leitão, chanfana (козлятина/коза, тушённая в красном вине)',
           'Лиссабон и Сетубал — bifana (сэндвич со свининой), caracóis (улитки летом)',
           'Алентежу — porco preto (чёрная свинина), migas, açorda',
           'Алгарве — морепродукты, cataplana, doce fino',
@@ -95,12 +95,12 @@ export default {
       title: 'Этикет',
       content: [
         { kind: 'checklist', items: [
-          'Хлеб и оливки приносят «бесплатно» — но обычно они платные (couvert 1–3 €). Скажите «não, obrigado», если не хотите',
+          'Хлеб, оливки, масло, паштеты могут поставить на стол как couvert, но они платные, если вы их едите; цены должны быть в меню. Не хотите — сразу скажите «não, obrigado» и попросите убрать',
           'Основной обед 13:00-15:00, ужин 20:00-22:00',
           'Кофе — после десерта, никогда с едой',
-          'Чаевые: 5–10% принято оставлять в ресторане, в кафе — округлять счёт',
-          'Menu do dia (обед дня) — самый дешёвый вариант в ресторане, часто 8–12 €',
-          'В «taxa» включены не чаевые, а IVA',
+          'Чаевые не обязательны: в кафе обычно округляют, в ресторане за хороший сервис можно оставить небольшую сумму или около 5–10%',
+          'Menu do dia/prato do dia — обычно самый бюджетный обед: примерно € 9–15 в зависимости от города и района',
+          'На счёте «IVA incluído» означает, что НДС уже включён в цену. Отдельная «taxa de serviço» возможна только если заранее указана',
           'Просить счёт: «A conta, por favor»'
         ]}
       ]
@@ -109,8 +109,8 @@ export default {
   sources: [
     { title: 'Turismo de Portugal — Gastronomia', url: 'https://www.visitportugal.com/pt-pt/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGAV — безопасность продуктов питания', url: 'https://www.dgav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'DGADR — программа DOP/IGP (защищённые рецепты)', url: 'https://www.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'DGADR — DOP/IGP: защищённые наименования и традиционные продукты', url: 'https://www.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 365
 }

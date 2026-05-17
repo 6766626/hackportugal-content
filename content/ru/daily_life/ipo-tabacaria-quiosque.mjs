@@ -128,6 +128,6 @@ export default {
     { title: 'CP — покупка билетов и точки продажи', url: 'https://www.cp.pt/passageiros/pt/comprar-bilhetes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Payshop — сеть агентов и услуги оплаты', url: 'https://www.payshop.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

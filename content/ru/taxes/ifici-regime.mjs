@@ -90,6 +90,6 @@ export default {
     { title: 'DRE — Lei do OE/2024 (отмена NHR)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/82-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANI — Agência Nacional de Inovação', url: 'https://www.ani.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-04-22',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }

@@ -3,69 +3,69 @@ export default {
   id: 'irs-year-end',
   categoryId: 'taxes',
   title: 'IRS year-end checklist — what to prepare',
-  tldr: 'Preparation for the IRS return starts in December: check the coverage of deduction categories (health, education, housing, restaurants) in Faturas.pt, activate deductions by 31 December, collect documents for foreign income. The return is filed from 1 April to 30 June of the following year. Late filing — fine from €150.',
+  tldr: 'Preparing for IRS starts in December: by 31 December, make the expenses/contributions you want to claim. Invoices in e-Fatura are usually checked and confirmed by 25 February of the following year; then check the calculated deductions in March. The return is filed from 1 April to 30 June. For late filing, the RGIT fine is usually €150–€3,750, with a reduced penalty if you correct it quickly and voluntarily.',
   tags: ['irs', 'taxes', 'checklist', 'deductions'],
   estimatedReadMinutes: 7,
   steps: [
     {
       id: 'december-checklist',
-      title: 'December — final steps of the year',
+      title: 'December — the final steps of the year',
       content: [
         { kind: 'checklist', items: [
-          '🧾 Check Faturas.pt — all your purchases with NIF accumulate here. Receipts not assigned to a category lose the deduction',
-          '✅ Confirm unconfirmed receipts (which categories they belong to — health/education/etc.)',
-          '💳 Make year‑end medical payments — deduction up to €1000 at 15% of annual medical expenses',
-          '📚 Pay tuition/courses by 31.12 — deduction up to €800 per household (household), not per child',
-          '🍽️ Meals in restaurants with NIF — deduction up to €250',
-          '💡 Utilities with NIF (electricity, gas, water) — deduction up to €250',
-          '🏠 Recibo for December rent — deduction up to €700–€800 (OE 2024/25, check the current limit)',
-          '💰 Top up PPR (pension plan) — deduction up to €400 (young), €300 (40–50), €200 (>50)',
-          '💳 Donations to NGOs with NIF — deduction 25% of the contribution, up to 15% of tax',
-          '📊 IFICI entities: confirm status, documents on qualified activity'
+          '🧾 Check e-Fatura: invoices with NIF are pulled in there, but some require manual classification or prescription confirmation; not all expenses generate a tax deduction',
+          '✅ Classify unconfirmed receipts (health/education, etc.); unclassified ones may fall into general family expenses',
+          '💳 Medical expenses — 15% up to €1,000 (per household)',
+          '📚 Education — 30% of eligible expenses, usually up to €800 per household (not per child); higher limits may apply for a deslocado/student living away from home',
+          '🍽️ Restaurants/hotels/hairdressers/car and motorcycle repairs — deduction of 15% of the IVA on the invoice, overall limit €250 per household (exigência de fatura)',
+          '💡 Utilities with NIF (electricity, gas, water) usually go into despesas gerais familiares: 35% up to €250 per taxpayer (€500 for a couple filing jointly)',
+          '🏠 Rent for permanent home: 15% up to €700 (for 2025 expenses/IRS 2026); higher limits may apply for low incomes; e-recibos/reported contracts are required',
+          '💰 PPR: 20% of contributions, maximum €400 up to age 35, €350 from 35 to 50, €300 over 50',
+          '💳 Donations to NGOs with NIF — deduction of 25% of the contribution, up to 15% of the tax',
+          '📊 IFICI subjects: confirm status and documents for qualified activity'
         ]},
-        { kind: 'warning', text: 'Receipts without NIF — NOT deductible. ALWAYS say “com NIF, por favor” or “factura com contribuinte” at purchase.' }
+        { kind: 'warning', text: 'Receipts without NIF are NOT deductible. ALWAYS say “com NIF, por favor” or “factura com contribuinte” when purchasing. Overall limits on deductions à coleta under art. 78 CIRS restrict the final benefit according to income level — the sum of the individual maximums is not always achievable.' }
       ]
     },
     {
       id: 'january-february',
-      title: 'January–February — prepare documents',
+      title: 'January-February — preparing documents',
       content: [
         { kind: 'checklist', items: [
-          '📄 Obtain Comprovativo de Rendimentos from the employer (must be issued by 15 February)',
+          '📄 Obtain the Comprovativo de Rendimentos from your employer (they must issue it by 15.02)',
           '📄 Bank statements for the whole year to calculate interest/dividends',
-          '📄 Recibo Verde confirmations (for self‑employed) — automatically in Portal das Finanças (tax portal)',
-          '📄 Declarations of foreign income — pension certificates, foreign bank statements',
-          '📄 IMI confirmation (if you bought a property during the year)',
-          '📄 IRS Jovem confirmations (if applicable — youth up to 35)',
+          '📄 Comprovativos/recibos verdes: check in Portal das Finanças, reconcile Anexo B/C, retenções na fonte, despesas and activity code',
+          '📄 Foreign income statements — pension certificates, foreign bank statements; foreign accounts and IBANs may need to be declared in Anexo J',
+          '📄 If you bought a home: keep the escritura, IMT, imposto do selo, notarial/registration expenses. IMI is usually only needed for special cases (rental income/capital gains)',
+          '📄 IRS Jovem confirmations (if applicable — young people up to age 35)',
           '📋 Certidões de não dívida (in case of IRS debts, worth checking)'
         ]}
       ]
     },
     {
       id: 'filing-window',
-      title: 'March–June — filing',
+      title: 'March-June — filing',
       content: [
         { kind: 'substeps', items: [
           { id: 'f1', title: 'IRS Automático (simplified)', content: [
-            { kind: 'paragraph', text: 'For categories A (salary) and H (pension) with one employer and no other sources. Portal das Finanças → IRS → IRS Automático. The return is already filled in — you only need to review and confirm.' }
+            { kind: 'paragraph', text: 'For categories A (salary) and H (pension) with one employer and no other sources. Portal das Finanças → IRS → IRS Automático. The return is already filled in — you only need to check and confirm it.' }
           ]},
           { id: 'f2', title: 'Modelo 3 (full)', content: [
-            { kind: 'paragraph', text: 'For everyone else. Portal das Finanças → IRS → Entregar. Choose the required Anexos.' }
+            { kind: 'paragraph', text: 'For everyone else. Portal das Finanças → IRS → Entregar. Select the required Anexos.' }
           ]},
           { id: 'f3', title: 'Annexes — which to choose', content: [
             { kind: 'checklist', items: [
-              'Anexo A — salary (Category A), pension (Category H)',
-              'Anexo B — Recibo Verde/self‑employment (simplified regime)',
-              'Anexo C — Recibo Verde/business (organised accounting)',
-              'Anexo D — imputação de rendimentos (transparência fiscal, herança indivisa, special cases). NOT for ordinary dividends from SA/Lda',
-              'Anexo E — rendimentos de capitais (Category E): interest, dividends from SA/Lda',
-              'Anexo F — income from property rental (Category F)',
-              'Anexo G — capital gains/mais-valias (Category G): sale of shares, real estate, typically — capital gains on cryptocurrencies',
+              'Anexo A — salary (category A), pension (category H)',
+              'Anexo B — Recibo Verde / self-employment (simplified regime)',
+              'Anexo C — Recibo Verde / business (organised accounting)',
+              'Anexo D — imputação de rendimentos (transparência fiscal, herança indivisa, special cases). NOT for ordinary SA/Lda dividends',
+              'Anexo E — rendimentos de capitais (category E): interest, dividends from SA/Lda',
+              'Anexo F — income from property rental (category F)',
+              'Anexo G — capital gains / mais-valias (category G): sale of shares, property, usually — capital gains on cryptocurrencies',
               'Anexo G1 — simplified annex for certain mais-valias',
               'Anexo H — benefícios fiscais and deductions (despesas dedutíveis)',
               'Anexo I — herança indivisa (specific situations)',
-              'Anexo J — income from foreign sources (for all categories)',
-              'Anexo L — regime residentes não habituais (NHR) and similar preferential regimes'
+              'Anexo J — foreign-source income (for all categories)',
+              'Anexo L — residentes não habituais (NHR) regime and similar preferential regimes'
             ]}
           ]}
         ]}
@@ -76,60 +76,62 @@ export default {
       title: 'Maximising deductions',
       content: [
         { kind: 'substeps', items: [
-          { id: 'd1', title: 'Medical expenses (15% up to €1000)', content: [
+          { id: 'd1', title: 'Medical expenses (15% up to €1,000)', content: [
             { kind: 'checklist', items: [
               'Doctors (private and SNS taxa)',
-              'Pharmacies (prescription and over‑the‑counter medicines with NIF)',
+              'Pharmacies: expenses with reduced VAT usually enter automatically; items with IVA 23% require a prescription/confirmation in e-Fatura',
               'Dentistry',
               'Surgeries, hospitalisation (IVA 6%)',
               'Glasses, contact lenses — prescribed',
               'Health insurance',
-              'NIF on the receipt is mandatory for inclusion'
+              'To be included, NIF on the receipt is mandatory'
             ]}
           ]},
-          { id: 'd2', title: 'Education (30% up to €800 per household)', content: [
+          { id: 'd2', title: 'Education: 30% of eligible expenses, usually up to €800 per household', content: [
             { kind: 'checklist', items: [
               'School fees',
               'University propina',
-              'Language courses',
+              'Language courses — only if the provider and invoice fit the education expenses rules in e-Fatura/AT',
               'Textbooks (IVA 6%)',
-              'School uniform',
-              'Transport to school',
-              'After‑school care (ATL)'
+              'Clothing/uniforms usually do NOT count as an education expense',
+              'School transport — only with a suitable provider/correct classification; ordinary public transport follows IVA rules, not education',
+              'After-school club (ATL)',
+              'Higher limits may apply for a student living away from home (deslocado)'
             ]}
           ]},
           { id: 'd3', title: 'Housing', content: [
             { kind: 'checklist', items: [
-              'Rent — 15% up to €700–€800 (after OE 2024/25)',
-              'Mortgage interest (only mortgages before 2011) — 15% up to €296',
-              'Utilities — 15% up to €250',
-              'Paid IMI — sometimes deductible'
+              'Rent for permanent home — 15% up to €700 for 2025 expenses; higher limits may apply for low incomes',
+              'Interest on a mortgage for a permanent owner-occupied home — 15% up to €296, only for contracts before 31.12.2011',
+              'Electricity/gas/water — this is despesas gerais familiares (35% up to €250 per taxpayer), not a separate housing deduction',
+              'IMI on an owner-occupied home usually does NOT give an IRS deduction; it may be taken into account for rental income or capital gains calculations'
             ]}
           ]},
-          { id: 'd4', title: 'General receipts (restaurants, workshops, hairdressers) — 15% up to €250', content: [
-            { kind: 'paragraph', text: 'Category “despesas gerais familiares”. Collected automatically via Faturas.pt when scanning receipts with NIF.' }
+          { id: 'd4', title: 'General family expenses (despesas gerais familiares) — 35% up to €250 per taxpayer', content: [
+            { kind: 'paragraph', text: 'Most invoices with NIF that do not belong to special categories. Collected automatically through e-Fatura when invoices include NIF. For a couple filing jointly, the limit is €500.' }
           ]},
-          { id: 'd5', title: 'Special receipts', content: [
+          { id: 'd5', title: 'Exigência de fatura (art. 78-F)', content: [
             { kind: 'checklist', items: [
-              'Restaurants and hairdressers — 15% up to €250 (separate category since 2019)',
-              'Car repair services and public transport — 15% up to €250',
-              'Veterinarian — 22.5% (if registered)'
+              'Restaurants, alojamento, hairdressers/beauty, car/motorcycle repairs: usually 15% of the IVA paid',
+              'Veterinary services: 35% of the IVA on invoices from registered suppliers',
+              'Monthly passes and public transport: 100% of the IVA',
+              'Overall art. 78-F limit — €250 per household'
             ]}
           ]},
-          { id: 'd6', title: 'PPR (pension plan)', content: [
+          { id: 'd6', title: 'PPR (pension plan) — 20% of contributions', content: [
             { kind: 'checklist', items: [
-              'Up to 35 years: 20% up to €400',
-              '35–50: 20% up to €350',
-              'Over 50: 20% up to €300',
-              'Advantageous for long‑term retirement, but with withdrawal restrictions'
+              'Up to age 35: up to €400',
+              '35–50 years: up to €350',
+              'Over 50: up to €300',
+              'Useful for long-term retirement saving, but with restrictions on withdrawals'
             ]}
           ]},
           { id: 'd7', title: 'Dependants', content: [
             { kind: 'checklist', items: [
-              'Fixed deductions for dependentes: €600 (1st child), €726 (2nd if aged up to 6), €900 (3rd and onwards) — exact amounts depend on age and family composition',
+              'Fixed deductions for dependentes: €600 (1st child), €726 (2nd if under age 6), €900 (3rd and subsequent) — exact amounts depend on age and household composition',
               'Elderly parents with low income — deduction',
               'Disability: enhanced deductions',
-              'Single parent: additional increase'
+              'Single parent: +increase'
             ]}
           ]}
         ]}
@@ -137,14 +139,14 @@ export default {
     },
     {
       id: 'ifici-nhr',
-      title: 'IFICI / NHR taxpayers — special actions',
+      title: 'IFICI / NHR subjects — special actions',
       content: [
         { kind: 'checklist', items: [
           '🎓 Confirmation of qualified activity — contract, academic certificates',
-          '📊 Separate form for old NHR (before 2024) or IFICI (from 2024)',
-          '💰 Foreign income — in Anexo J, considering tax treaties',
-          '🧾 Certificates of tax residence — obtain in source countries to claim tax credit',
-          '🎯 IFICI: 20% rate on qualified income, ordinary IRS on the rest'
+          '📊 NHR (for already approved/transitional cases) — declaration through Anexo L. IFICI: registration in the regime must have been approved; in the return it applies only to qualified income',
+          '💰 Foreign income — in Anexo J, taking tax treaties into account',
+          '🧾 For foreign tax credit — certificates of income and foreign tax actually withheld/paid. Portuguese tax residence certificate is needed by the foreign payer to apply a DTA',
+          '🎯 IFICI: 20% rate on eligible net employment/business income; ordinary IRS on the rest'
         ]}
       ]
     },
@@ -152,39 +154,39 @@ export default {
       id: 'common-mistakes',
       title: 'Common mistakes',
       content: [
-        { kind: 'warning', text: 'Triple‑check the return — after submission, correction is via Modelo 3 Substituição, but may be limited.' },
+        { kind: 'warning', text: 'Check the return three times — after filing, correction is via Modelo 3 Substituição, but may be subject to limitations.' },
         { kind: 'checklist', items: [
-          '❌ Forgetting to include foreign income — EU automatic data exchange (DAC7, CRS) catches this. Better to declare and use the credit',
-          '❌ Entering incorrect dependant data → overpayment',
+          '❌ Forgetting to include foreign income — EU automatic data exchange (DAC7, CRS) catches this. It is better to declare it and use the credit',
+          '❌ Entering incorrect dependant details → overpayment',
           '❌ Not confirming receipts on Faturas.pt → loss of deductions',
-          '❌ Submitting without checking the calculation — overpayment may not be refunded automatically',
-          '❌ Not including Anexo J when there are foreign income sources',
-          '❌ For NHR/IFICI — forgetting to indicate status in the relevant form field',
-          '❌ Missing the deadline — fine €150–€3750 (progressive scale)'
+          '❌ Filing without checking the calculation — overpayment may not be refunded automatically',
+          '❌ Not including Anexo J when there are foreign sources of income',
+          '❌ For NHR/IFICI — forgetting to indicate the status in the relevant form field',
+          '❌ Missing the deadline — fine €150-€3,750 (progressive scale)'
         ]}
       ]
     },
     {
       id: 'after-submission',
-      title: 'After submission',
+      title: 'After filing',
       content: [
         { kind: 'checklist', items: [
-          '⏰ Liquidação (assessment) — arrives within 1–2 months',
-          '💰 Refund (reembolso) — by August–October to the indicated IBAN',
+          '⏰ Liquidação (assessment) — usually by 31 July if filed on time',
+          '💰 Reembolso: if the return was filed on time and without review — usually by 31 August, often earlier; in case of divergências/fiscalização, deadlines may be extended',
           '📋 Additional payment — deadline 31 August',
-          '⚖️ Error in your favour — Finanças detected it, but the statute of limitations is 4 years',
-          '⚖️ Error in favour of Finanças — correction via Modelo 3 Substituição up to 4 years',
-          '🚨 AT inspection (fiscalização) — you may be selected at random, typically a request for documents by email'
+          '⚖️ AT can usually correct/assess additional tax within the caducidade period (often 4 years, art. 45 LGT), but there are exceptions and extensions for foreign situations; if an error is found — declaração de substituição',
+          '⚖️ Error in your favour — correction via Modelo 3 Substituição usually up to 4 years (with specific rules)',
+          '🚨 Check AT requests in Portal das Finanças, ViaCTT/electronic notifications or official post; do not trust ordinary emails without verification (phishing risk)'
         ]}
       ]
     }
   ],
   sources: [
-    { title: 'Portal das Finanças — IRS 2026', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlirsweb2024', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'IRS Code (consolidated)', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1988-34471975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Faturas.pt — electronic invoices portal', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — IRS submission', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Portal das Finanças — IRS', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'IRS Code (Diário da República)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'e-Fatura — electronic invoices portal', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — filing IRS', url: 'https://eportugal.gov.pt/servicos/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

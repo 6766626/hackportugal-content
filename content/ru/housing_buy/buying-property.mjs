@@ -3,7 +3,7 @@ export default {
   id: 'buying-property',
   categoryId: 'housing_buy',
   title: 'Покупка недвижимости в Португалии — пошагово',
-  tldr: 'Иностранцы могут покупать недвижимость без ограничений. Путь: NIF → поиск → CPCV + sinal 10% → финансирование/юридическая проверка → escritura у нотариуса → регистрация. Налоги: IMT (1-10% прогрессивно), IS 0,8%. Общие расходы 8-12% сверх цены. Важно: с 7 октября 2023 (Lei 56/2023) Golden Visa через покупку жилой недвижимости отменён — этот маршрут ВНЖ больше недоступен для новых заявок. Важно: с 7 октября 2023 (Lei 56/2023) Golden Visa через покупку жилой недвижимости отменён — этот маршрут ВНЖ больше недоступен для новых заявок.',
+  tldr: 'Иностранцы могут покупать недвижимость без ограничений. Путь: NIF → поиск → CPCV + sinal 10% → финансирование/юридическая проверка → escritura у нотариуса → регистрация. Налоги: **IMT** — marginal progressive scale с abatements (для own permanent residence — 0% до определённого порога, далее ставки растут поэтапно до фиксированной верхней ставки); **IS 0.8%**. Общие расходы 8-12% сверх цены. Важно: с 7 октября 2023 (Lei 56/2023) Golden Visa через покупку жилой недвижимости **отменён** — этот маршрут ВНЖ больше недоступен для новых заявок. **Молодёжная льгота до 35 лет** введена **Decreto-Lei 48-A/2024** (не DL 44/2024).',
   tags: ['покупка', 'недвижимость', 'escritura', 'imt'],
   estimatedReadMinutes: 8,
   steps: [
@@ -41,8 +41,8 @@ export default {
         { kind: 'checklist', items: [
           'Certidão Permanente Imóvel — статус собственности, обременения',
           'Caderneta Predial Urbana — налоговая карточка',
-          'Licença de utilização — лицензия на жилое использование',
-          'Ficha Técnica da Habitação — технический паспорт (для построек после 2004 года)',
+          'Licença de utilização — практика после Simplex Urbanístico изменилась (presentation для escritura уже не требуется в прежнем виде), но проверять статус использования всё равно нужно для покупателя',
+          'Ficha Técnica da Habitação — для построек после 2004 года; presentation для escritura также упрощён, но содержимое полезно для покупателя',
           'Certificado Energético (CE) — энергосертификат (обязателен)',
           'Отсутствие задолженностей перед condomínio (товариществом собственников)',
           'Отсутствие задолженностей по IMI'
@@ -84,7 +84,7 @@ export default {
             { kind: 'paragraph', text: 'У нотариуса. Обе стороны + переводчик, если нужно. Оплата продавцу банковским чеком / переводом. Банк выдаёт ипотечные средства.' }
           ]},
           { id: 'e4', title: '4. Регистрация в Conservatória do Registo Predial', content: [
-            { kind: 'paragraph', text: 'Обычно делает нотариус в электронном виде. Право собственности переходит с регистрацией.' }
+            { kind: 'paragraph', text: 'Обычно делает нотариус в электронном виде. **Право собственности переходит** действительным титулом купли-продажи (escritura pública/documento particular autenticado); registo predial критически важен для opposability против третьих лиц — без него вы не защищены от последующих сделок продавца. Регистрируйте незамедлительно.' }
           ]}
         ]}
       ]
@@ -97,27 +97,23 @@ export default {
           'Уведомить Finanças о смене адреса (если это основное жильё)',
           'Переоформить ЖКХ на себя (EDP, Águas, газ)',
           'Страховка жилья обязательна, если есть ипотека',
-          'IMI (муниципальный налог) — платится ежегодно в мае/августе, 0,3-0,8% от фискальной стоимости',
+          'IMI (муниципальный налог) — для urban residential **0.3–0.45% от VPT** (0.8% — для прежней rural ставки); ставку назначает Câmara Municipal. Уплата частями (1/2/3 раза в год) зависит от размера суммы',
           'Если планируете сдавать в аренду — регистрация в Finanças + возможно лицензия AL для краткосрочной аренды'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'IMT для основного жилья (до € 106 346)', amountEUR: 0, note: 'OE 2026 порог (escalões подняты на 2%); для непостоянного жилья — от 1%' },
-    { label: 'IMT для основного жилья (€ 106 346 – € 145 471)', amountEURMin: 0, amountEURMax: 2800, note: '2%' },
-    { label: 'IMT (€ 145 471 – € 198 347)', amountEURMin: 2800, amountEURMax: 6900, note: '5%' },
-    { label: 'IMT (€ 198 347 – € 330 539)', amountEURMin: 6900, amountEURMax: 18000, note: '7%' },
-    { label: 'IMT (€ 330 539 – € 661 078)', amountEURMin: 18000, amountEURMax: 60000, note: '8%' },
-    { label: 'IMT (€ 661 078+)', amountEURMin: 40000, amountEURMax: 100000, note: 'фиксированная ставка 6% либо 7,5% > € 1 150 853' },
-    { label: 'Молодые покупатели до 35 лет (основное жильё ≤ € 330 539)', amountEUR: 0, note: 'IMT+IS 0% по Decreto-Lei 44/2024; условия (резидентство, основное жильё, без предыдущей собственности и т.п.) проверять в актуальном тексте' },
-    { label: 'IMT для покупателей из налоговых офшоров', amountEUR: 0, note: 'фиксированная ставка 10% — независимо от стоимости' },
-    { label: 'IS (гербовый)', amountEUR: 0, note: '0,8% от стоимости (для молодых до 35 = 0%)' },
+    { label: 'IMT — для own permanent residence (continente)', note: 'marginal progressive scale с abatements до определённого порога (0% базовый порог), затем растущие ставки; выше высшего порога — фиксированная ставка. Точные цифры на 2026 — см. AT/CIMT' },
+    { label: 'IMT — для secondary/прочей residential', note: 'те же escalões, но без 0%-первого порога; начинается с 1%' },
+    { label: 'Молодёжная льгота до 35 лет — основное жильё', amountEUR: 0, note: 'IMT+IS 0% по **Decreto-Lei 48-A/2024** до определённого ценового порога; условия (резидентство, отсутствие предыдущей собственности, основное жильё) — проверять в актуальном тексте' },
+    { label: 'IMT для покупателей из налоговых офшоров', amountEUR: 0, note: 'фиксированная ставка 10% независимо от стоимости' },
+    { label: 'IS (гербовый)', amountEUR: 0, note: '0.8% от стоимости (для молодых до 35 в пределах льготы = 0%)' },
     { label: 'Escritura + нотариус', amountEURMin: 500, amountEURMax: 1500 },
     { label: 'Регистрация', amountEURMin: 250, amountEURMax: 400 },
     { label: 'Адвокат', amountEURMin: 500, amountEURMax: 2000 },
     { label: 'Страховка жилья ежегодно', amountEURMin: 150, amountEURMax: 500 },
-    { label: 'IMI ежегодно', amountEURMin: 100, amountEURMax: 3000, note: '0,3-0,45% фискальной стоимости, ставку назначает Câmara Municipal' }
+    { label: 'IMI ежегодно (urban residential)', amountEURMin: 100, amountEURMax: 3000, note: '0.3–0.45% VPT; ставка от Câmara Municipal. Уплата 1/2/3 раза в год по размеру' }
   ],
   timelineDaysMin: 45,
   timelineDaysMax: 120,
@@ -127,6 +123,6 @@ export default {
     { title: 'ePortugal — Comprar casa', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/comprar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ADENE — Certificado Energético', url: 'https://www.adene.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

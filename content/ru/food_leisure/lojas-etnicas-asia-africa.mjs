@@ -98,6 +98,6 @@ export default {
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica: безопасность пищевых продуктов и жалобы', url: 'https://www.asae.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Loja Brasil — ассортимент бразильских продуктов в Португалии', url: 'https://www.lojabrasil.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

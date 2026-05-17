@@ -126,6 +126,6 @@ export default {
     { title: 'Lei 71/1998 — bases do enquadramento jurídico do voluntariado', url: 'https://dre.pt/dre/detalhe/lei/71-1998-223016', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 389/1999 — regulamentação do voluntariado', url: 'https://dre.pt/dre/detalhe/decreto-lei/389-1999-581960', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-04-28',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 180
 }

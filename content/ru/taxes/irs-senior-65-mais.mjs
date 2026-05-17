@@ -79,7 +79,7 @@ export default {
         { kind: 'paragraph', text: 'В Португалии нет универсального правила “исполнилось 65 — IRS не платишь”. Большинство льгот завязано не на возраст сам по себе, а на вид дохода, сумму дохода, состав household, инвалидность, расходы и подтверждённые счета.' },
         { kind: 'checklist', items: [
           'IRS Jovem не применяется к пенсионерам 65+: это режим для молодых налогоплательщиков по возрасту и началу трудовой жизни.',
-          'IFIСI, новый режим вместо NHR, не является автоматической пенсионной льготой и не заменяет правила Categoria H.',
+          'IFICI, новый режим вместо NHR, не является автоматической пенсионной льготой и не заменяет правила Categoria H.',
           'Если вы инвалид с grau de incapacidade permanente 60%+, применяются отдельные правила IRS; нужен Atestado Médico de Incapacidade Multiuso.',
           'Для семьи, которая содержит пожилого родителя, может быть dedução por ascendente, но это вычет у детей/родственников, а не у самого пенсионера.',
           'Муниципальные льготы по IMI для пожилых и низкодоходных домохозяйств не являются IRS и проверяются отдельно в Câmara Municipal/Finanças.',
@@ -129,7 +129,7 @@ export default {
     },
     {
       title: 'Autoridade Tributária — entrega da declaração Modelo 3 IRS',
-      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html',
+      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -142,6 +142,7 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-17',
   verifyIntervalDays: 90
 }
+
