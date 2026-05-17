@@ -28,7 +28,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O principal canal são os grupos russos no Telegram e no Facebook (ver guia «Comunidade russa eslava PT»). Anúncios de bânia privada aparecem periodicamente nos chats de Lisboa, sobretudo no outono-inverno.' },
         { kind: 'checklist', items: [
-          '🔍 Telegram: «Russos em Portugal», «Lisboa Russian Community» — procure por «баня», «парилка», «веник»',
+          '🔍 Telegram: «Russos em Portugal», «Lisboa Russian Community» — procure por «banya», «parilka» (sala de vapor), «venik» (vassoura de bétula)',
           '🔍 Grupos do Facebook: «Russo-falantes em Lisboa», «Estoril Russian Community»',
           '🏘️ Airbnb: ocasionalmente vivendas com sauna finlandesa própria (procure «sauna») — não é exatamente russa, mas alcança os 80-90°C',
           '🍃 Encomende o venik em lojas online russas ou peça a alguém para o trazer da Rússia/Bielorrússia/Letónia',

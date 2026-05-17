@@ -70,7 +70,7 @@ export default {
         { kind: 'paragraph', text: 'Portugal has a large Russian-speaking diaspora in the beauty industry, especially from Ukraine, Belarus, Russia. Finding one isn\'t hard.' },
         { kind: 'checklist', items: [
           '🔍 Facebook groups "Russian-speakers in Lisbon", "Estoril Russian Community" — dozens of technician listings',
-          '🔍 Telegram channels "Beauty Lisboa", "Красота Португалия" — often first-booking promo codes',
+          '🔍 Telegram channels "Beauty Lisboa", "Krasota Portugaliya" — often first-booking promo codes',
           '🔍 Instagram by tags #manicurelisboa #brovistalisboa #lashexpertlisboa — many Russian-speaking pros with bilingual captions',
           '🗺️ Cascais, Estoril — highest concentration of Russian-speaking technicians (most live there too)',
           '🗺️ Algarve (Loulé, Albufeira) — large community working out of villas and small salons',

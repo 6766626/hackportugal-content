@@ -28,7 +28,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The main channel is Russian-speaking Telegram and Facebook groups (see the "Comunidade russa eslava PT" guide). Private banya listings appear periodically in the Lisboa chats, especially in autumn-winter.' },
         { kind: 'checklist', items: [
-          '🔍 Telegram: "Russians in Portugal", "Lisboa Russian Community" — search for «баня», «парилка», «веник»',
+          '🔍 Telegram: "Russians in Portugal", "Lisboa Russian Community" — search for "banya", "parilka" (steam room), "venik" (birch broom)',
           '🔍 Facebook groups: "Russian-speakers in Lisbon", "Estoril Russian Community"',
           '🏘️ Airbnb: occasionally villas with their own Finnish sauna (search "sauna") — not technically Russian, but 80-90°C is achievable',
           '🍃 Order the venik from Russian online shops, or have a friend bring one from Russia/Belarus/Latvia',

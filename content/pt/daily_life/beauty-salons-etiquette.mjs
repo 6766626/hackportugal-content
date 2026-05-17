@@ -70,7 +70,7 @@ export default {
         { kind: 'paragraph', text: 'Portugal tem uma grande diáspora russófona na indústria da beleza, sobretudo da Ucrânia, Bielorrússia e Rússia. Encontrá-los não é difícil.' },
         { kind: 'checklist', items: [
           '🔍 Grupos do Facebook «Russos/russófonos em Lisboa», «Estoril Russian Community» — dezenas de anúncios de profissionais',
-          '🔍 Canais do Telegram «Beauty Lisboa», «Красота Португалия» — frequentemente promoções para a primeira marcação',
+          '🔍 Canais do Telegram «Beauty Lisboa», «Krasota Portugaliya» — frequentemente promoções para a primeira marcação',
           '🔍 Pesquisa no Instagram pelas tags #manicurelisboa #brovistalisboa #lashexpertlisboa — muitas profissionais russófonas com legendas bilíngues',
           '🗺️ Cascais, Estoril — área com a maior concentração de profissionais russófonas (vivem aí)',
           '🗺️ Algarve (Loulé, Albufeira) — grande comunidade a trabalhar em vivendas e pequenos salões',
