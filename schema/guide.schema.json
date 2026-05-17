@@ -85,9 +85,15 @@
       "type": "object",
       "required": ["kind"],
       "properties": {
-        "kind": { "enum": ["paragraph", "checklist", "documents", "cost", "timeline", "link", "warning", "substeps"] },
+        "kind": { "enum": ["paragraph", "checklist", "documents", "cost", "timeline", "link", "warning", "substeps", "image", "pdf"] },
         "text": { "type": "string" },
-        "items": { "type": "array" }
+        "items": { "type": "array" },
+        "src": { "type": "string", "description": "Asset path relative to assets/<guideId>/. Resolved to absolute GitHub Pages URL at build time." },
+        "alt": { "type": "string", "description": "Accessibility label for image blocks." },
+        "caption": { "type": "string", "description": "Optional caption shown beneath an image." },
+        "title": { "type": "string", "description": "Display title for a pdf block." },
+        "sizeKB": { "type": "integer", "description": "Approximate PDF file size in KB (for UI hint)." },
+        "pages": { "type": "integer", "description": "Number of pages in the PDF (for UI hint)." }
       }
     },
     "DocumentRef": {

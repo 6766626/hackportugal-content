@@ -81,6 +81,9 @@ function scanBodyUrls(g) {
       else if (b.kind === 'warning' && b.text) push(`${path}.warning`, b.text)
       else if (b.kind === 'checklist') (b.items ?? []).forEach((it, i) => push(`${path}.checklist[${i}]`, it))
       else if (b.kind === 'substeps') (b.items ?? []).forEach(sub => visit(sub.content, `${path}.sub(${sub.id})`))
+      // image/pdf src is rewritten to a CDN URL at build time — that's checked separately
+      // in validateBlocks, so we skip them here (otherwise the URL-in-body rule would
+      // false-fire on every legitimate asset).
     }
   }
   for (const step of g.steps ?? []) visit(step.content, `step(${step.id})`)
@@ -157,6 +160,22 @@ function validateBlocks(guideId, stepId, blocks) {
       const urls = Object.values(b.urls ?? {})
       if (urls.length === 0) err(guideId, `step ${stepId}: wikiLink has no urls`)
       for (const u of urls) if (!isWiki(u)) err(guideId, `step ${stepId}: wikiLink non-wiki URL ${u}`)
+    }
+    if (b.kind === 'image') {
+      if (!b.src || typeof b.src !== 'string') err(guideId, `step ${stepId}: image missing src`)
+      if (!b.alt || typeof b.alt !== 'string') err(guideId, `step ${stepId}: image missing alt text (accessibility)`)
+      // After build rewrites src to absolute URL, verify it points at our CDN — defense in
+      // depth against accidentally smuggling third-party hotlinks (privacy + reliability).
+      if (b.src && /^https?:/i.test(b.src) && !/6766626\.github\.io\/hackportugal-content/.test(b.src)) {
+        err(guideId, `step ${stepId}: image src must live under our CDN: ${b.src}`)
+      }
+    }
+    if (b.kind === 'pdf') {
+      if (!b.src || typeof b.src !== 'string') err(guideId, `step ${stepId}: pdf missing src`)
+      if (!b.title || typeof b.title !== 'string') err(guideId, `step ${stepId}: pdf missing title`)
+      if (b.src && /^https?:/i.test(b.src) && !/6766626\.github\.io\/hackportugal-content/.test(b.src)) {
+        err(guideId, `step ${stepId}: pdf src must live under our CDN: ${b.src}`)
+      }
     }
     if (b.kind === 'substeps') {
       for (const sub of b.items ?? []) validateBlocks(guideId, `${stepId}/${sub.id}`, sub.content)

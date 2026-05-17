@@ -2,18 +2,28 @@
 // Builds dist/{guides,categories,catalog,community,manifest}.{lang}.json from content/{lang}/*.mjs.
 // Multi-language by default (LANGS=ru,pt,en). Skips languages with no content directory.
 
-import { readdir, readFile, writeFile, mkdir, stat } from 'node:fs/promises'
+import { readdir, readFile, writeFile, mkdir, stat, copyFile } from 'node:fs/promises'
 import { existsSync } from 'node:fs'
 import { createHash } from 'node:crypto'
-import { join, dirname } from 'node:path'
+import { join, dirname, extname, basename } from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const ROOT = dirname(dirname(fileURLToPath(import.meta.url)))
 const CONTENT_ROOT = join(ROOT, 'content')
 const CATALOG_DIR = join(ROOT, 'catalog')
+const ASSETS_DIR = join(ROOT, 'assets')
 const DIST = join(ROOT, 'dist')
+const DIST_ASSETS = join(DIST, 'assets')
 const CONTENT_VERSION = Number(process.env.CONTENT_VERSION ?? Date.now())
 const LANGS = (process.env.LANGS ?? 'ru').split(',').map(s => s.trim()).filter(Boolean)
+
+// Base URL where `dist/` is served from. Used to rewrite asset `src` paths in image/pdf
+// blocks to absolute URLs so iOS can hydrate them directly with no extra config. Override
+// via PUBLIC_BASE_URL if the deployment host ever changes.
+const PUBLIC_BASE_URL = (process.env.PUBLIC_BASE_URL ?? 'https://6766626.github.io/hackportugal-content/v1').replace(/\/$/, '')
+
+const IMAGE_EXTS = new Set(['.jpg', '.jpeg', '.png', '.webp', '.gif', '.svg'])
+const PDF_EXTS = new Set(['.pdf'])
 
 async function walk(dir) {
   const out = []
@@ -103,6 +113,78 @@ function sha256(s) {
   return createHash('sha256').update(s).digest('hex')
 }
 
+/// Resolve an image/pdf `src` to its absolute deployed URL.
+/// - Already-absolute (http://, https://): pass through unchanged.
+/// - Bare filename ("aquashow-pool.jpg"): looked up under assets/<guideId>/.
+/// - Pre-prefixed with subfolder ("modelo-1a/page-2.png"): treated as relative to assets/<guideId>/.
+function resolveAssetSrc(src, guideId) {
+  if (!src) return src
+  if (/^https?:\/\//i.test(src)) return src
+  const clean = src.replace(/^\/+/, '')
+  return `${PUBLIC_BASE_URL}/assets/${guideId}/${clean}`
+}
+
+/// Walk a guide's blocks and rewrite image/pdf `src` to absolute URLs. Mutates in place.
+/// Also records which assets are referenced so the builder can fail loudly if a guide
+/// names a file that doesn't exist on disk.
+function rewriteAssetPaths(guide, referencedAssets) {
+  function visit(blocks) {
+    if (!Array.isArray(blocks)) return
+    for (const b of blocks) {
+      if (!b || typeof b !== 'object') continue
+      if ((b.kind === 'image' || b.kind === 'pdf') && typeof b.src === 'string') {
+        if (!/^https?:\/\//i.test(b.src)) {
+          referencedAssets.push({ guideId: guide.id, relPath: b.src.replace(/^\/+/, '') })
+        }
+        b.src = resolveAssetSrc(b.src, guide.id)
+      }
+      if (b.kind === 'substeps' && Array.isArray(b.items)) {
+        for (const sub of b.items) visit(sub.content)
+      }
+    }
+  }
+  for (const step of guide.steps ?? []) visit(step.content)
+  for (const variant of guide.variants ?? []) {
+    for (const step of variant.steps ?? []) visit(step.content)
+  }
+}
+
+/// Recursively copy assets/ → dist/assets/ if it exists. Returns the set of relative paths
+/// that were copied so we can verify every referenced asset has a real file behind it.
+async function copyAssetsTree() {
+  const copied = new Set()
+  if (!existsSync(ASSETS_DIR)) return copied
+  async function walkAndCopy(srcDir, destDir) {
+    await mkdir(destDir, { recursive: true })
+    for (const entry of await readdir(srcDir, { withFileTypes: true })) {
+      const s = join(srcDir, entry.name)
+      const d = join(destDir, entry.name)
+      if (entry.isDirectory()) {
+        await walkAndCopy(s, d)
+      } else if (entry.isFile()) {
+        await copyFile(s, d)
+        const rel = s.substring(ASSETS_DIR.length + 1)
+        copied.add(rel)
+      }
+    }
+  }
+  await walkAndCopy(ASSETS_DIR, DIST_ASSETS)
+  return copied
+}
+
+function validateAssetReferences(referencedAssets, copiedAssets) {
+  const missing = []
+  for (const ref of referencedAssets) {
+    const rel = `${ref.guideId}/${ref.relPath}`
+    if (!copiedAssets.has(rel)) missing.push(rel)
+  }
+  if (missing.length > 0) {
+    throw new Error(`Asset references not found on disk under assets/:\n  - ${missing.join('\n  - ')}`)
+  }
+  // Soft warning for orphan assets (files on disk that nothing references). Harmless but noisy.
+  // We don't enforce — guides may add references after the file lands.
+}
+
 async function buildLanguage(lang) {
   const guides = await loadGuides(lang)
   if (guides === null) return null // content/{lang}/ missing → skip
@@ -130,6 +212,11 @@ async function buildLanguage(lang) {
     if (!catIds.has(e.categoryId)) throw new Error(`[${lang}] CatalogEntry ${e.id} uses unknown categoryId: ${e.categoryId}`)
   }
 
+  // Rewrite image/pdf src paths in-place to absolute deployed URLs and collect referenced
+  // assets so the caller can verify every reference resolves to a real file on disk.
+  const referencedAssets = []
+  for (const g of guides) rewriteAssetPaths(g, referencedAssets)
+
   const outFiles = {
     [`categories.${lang}.json`]: JSON.stringify(categories, null, 2),
     [`guides.${lang}.json`]: JSON.stringify(guides, null, 2),
@@ -153,12 +240,17 @@ async function buildLanguage(lang) {
       communityChannels: community?.telegramChannels?.length ?? 0,
       communityFbGroups: community?.facebookGroups?.length ?? 0
     },
-    files
+    files,
+    referencedAssets
   }
 }
 
 async function main() {
   await mkdir(DIST, { recursive: true })
+
+  // Stage assets first so we can validate references against actual files.
+  const copiedAssets = await copyAssetsTree()
+  if (copiedAssets.size > 0) console.log(`  [assets] copied ${copiedAssets.size} files → dist/assets/`)
 
   const results = []
   for (const lang of LANGS) {
@@ -172,6 +264,11 @@ async function main() {
   }
 
   if (results.length === 0) throw new Error('No languages built — check LANGS env and content/ directory')
+
+  // Verify every image/pdf src across all languages actually resolves to a file on disk.
+  // Done after all langs build so the error message lists everything at once.
+  const allRefs = results.flatMap(r => r.referencedAssets ?? [])
+  validateAssetReferences(allRefs, copiedAssets)
 
   // Manifest: keep backward-compat shape pointing at primary language (first in LANGS),
   // plus `languages` array for multi-language consumers.
