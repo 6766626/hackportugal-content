@@ -12,9 +12,9 @@ Out of ~30 ptguide topic groups, we already cover 25+ at higher depth. Real gaps
 
 ### High priority (high traffic, easy to verify)
 - ✅ **aquaparks-portugal** — DONE 2026-05-17 (food_leisure, all 8 parks, verified prices)
-- ⬜ **theme-parks-pt** — KidZania, Parque dos Pequeninos, Dino Parque, Magikland (food_leisure)
+- ✅ **theme-parks-pt** — DONE 2026-05-17 (KidZania, Dino Parque, Magikland, Sea Life, Zoomarine + less-known)
+- ✅ **olx-custojusto-vinted** — DONE 2026-05-17 (daily_life, with DAC7 tax detail + scam playbook)
 - ⬜ **karting-portugal** — major karting centres list with prices, age limits (food_leisure)
-- ⬜ **olx-custojusto-vinted** — buy/sell used goods, scam patterns, etiquette (daily_life)
 - ⬜ **immigrant-calendar** — month-by-month onboarding checklist (before_arrival)
 
 ### Medium priority (niche but distinctive)
