@@ -1,7 +1,7 @@
 export default {
   editorialVoice: 'hackportugal',
-  id: 'residencia-permanente-5-',
-  categoryId 'residence_permit',
+  id: 'residencia-permanente-5-anos',
+  categoryId: 'residence_permit',
   title: 'Portugal permanent residence permit after 5 years — the path to Permanente',
   tldr: 'Autorização de residência permanente can be requested after 5 years of lawful temporary residence permit in Portugal. The basis is Lei 23/2007, art. 80: a valid residence permit, no serious criminal record, housing, means of subsistence and minimum Portuguese at A2 level. In practice, AIMA looks at continuity of residence: do not turn the residence permit into a "visiting card", keep ≥6 months of actual residence per year. **The autorização itself is indefinite (sem limite de tempo, art. 76 Lei 23/2007); only the card (título de residência) is renewed every 5 years.** AIMA fees from 01.03.2026 (Portaria 480/2025/1): admission/assessment €133 + autorização de residência (art. 76) €351.10 (instead of the outdated €252).',
   tags: ['aima', 'residence permit', 'permanente', 'a2'],
