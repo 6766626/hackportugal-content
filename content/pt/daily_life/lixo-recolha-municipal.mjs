@@ -52,7 +52,7 @@ export default {
           'Monstros — móveis, colchões, objectos grandes e, por vezes, electrodomésticos. Não podem simplesmente ser deixados junto ao ecoponto.',
           'O pedido de recolha de monstros é feito online através do serviço da CML / “Na Minha Rua” ou pelos canais municipais, indicando morada, telefone, tipo e quantidade de objectos.',
           'Coloque os objectos apenas no dia e local confirmados, normalmente junto à entrada do edifício, sem bloquear o passeio, a estrada, o acesso de bombeiros e os contentores.',
-          'Restos de poda e ramos — verdes; em Lisboa também existe para estes uma схема/pedido municipal separado, e não o contentor comum.',
+          'Restos de poda e ramos — verdes; em Lisboa também existe para estes um pedido municipal separado, e não o contentor comum.',
           'Entulho de obras — entulho / resíduos de construção. Isto não são monstros: é necessário ecocentro, saco próprio ou operador licenciado.'
         ] },
         { kind: 'warning', text: 'Em Lisboa, um colchão, sofá ou armário deixado sem pedido é considerado deposição indevida. Mesmo que “toda a gente faça assim”, pode haver coima e queixa através da fiscalização.' }

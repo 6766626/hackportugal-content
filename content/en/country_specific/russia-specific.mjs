@@ -33,7 +33,7 @@ export default {
           '✅ E6 — visa for those who then need to contact AIMA for processing matters (for example, residence permit renewal, family reunification). NOT investment programmes — Golden Visa and D2 follow other tracks'
         ]},
         { kind: 'warning', text: 'The exact wording of the procedure is: “for the purpose of simplifying the document submission procedure”. The Embassy does NOT literally state “without appointment”; the publication refers to priority/simplified submission. Before visiting, check the current requirements on the Embassy and BLS websites.' },
-        { kind: 'paragraph', text: 'BLS visa centre in Moscow (Kosmodamianskaya Embankment, 52с7): application submission 09:00–15:00 (Mon–Fri), passport collection and consultations 15:00–16:00. Phone: +7 (499) 110 63 76, email: info.portugal@blshelpline.com.' },
+        { kind: 'paragraph', text: 'BLS visa centre in Moscow (Kosmodamianskaya Embankment, 52 bldg. 7): application submission 09:00–15:00 (Mon–Fri), passport collection and consultations 15:00–16:00. Phone: +7 (499) 110 63 76, email: info.portugal@blshelpline.com.' },
         { kind: 'warning', text: 'Simplifying the submission procedure does NOT mean simplifying the document package. All standard requirements (university enrolment, proof of funds, accommodation, health insurance, criminal record certificate with apostille) remain. See details in the “D4 visa (student)” guide.' }
       ]
     },
