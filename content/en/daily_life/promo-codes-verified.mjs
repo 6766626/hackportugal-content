@@ -3,8 +3,8 @@ export default {
   id: 'promo-codes-verified',
   categoryId: 'daily_life',
   premium: true,
- title: 'Promo codes and referral links — verified on 17/05/2026',
-  tldr: 'This selection is updated monthly. Each code has a last-checked date. The main rule: referral codes (N26, Revolut, Wise, Glovo) do not "expire" in the usual sense — they give a bonus both to you and to the person inviting you. Promo codes (AutoDoc, Decathlon) do expire; below are only those where the source has been verified. Highest potential to "earn back your HackPortugal subscription": N26 +€35, Revolut +€30, Wise +€75 invite, Glovo +€8 — all together ~€150 for an evening of registrations. If you are already a customer of these services, use only non-referral options (AutoDoc, Decathlon, cashback sites)\.\n\nIf you did not receive a bonus from a code — write to HackPortugal feedback, and we will update it.',
+ title: 'Promo codes and referral links — verified on 18/05/2026',
+  tldr: '🔥 Hot offers until 02/06/2026: **Vivid Money** gives you €20 for each invited friend (up to €100 for 5 friends), the friend gets 3% annual interest for 60 days. **Revolut** gives €40 per friend (up to 10 rewards per period), but the friend must complete 4 actions (registration + top-up + 3 purchases of €5+ + ordering a physical card).\n\nThe selection is updated monthly. Each code has a last-checked date. Referral codes (Vivid, Revolut, N26, Wise, Glovo) do not "expire" in the usual sense — they give a bonus both to you and to the inviter. Promo codes (AutoDoc, iHerb, Glovo public) do expire; below are only those where the source has been verified.\n\nIf you are already a customer of these services, use the HackPortugal AutoDoc code and cashback plug-ins (Honey, Letyshops). If a code did not work — write via Settings → Feedback, and we will update it within 48 hours.',
   tags: ['promo codes', 'coupons', 'referral', 'cashback', 'savings', 'premium'],
   estimatedReadMinutes: 8,
   steps: [
@@ -24,17 +24,41 @@ export default {
     },
     {
       id: 'fintech',
-      title: 'Fintech — the biggest quick bonuses (€150+ in an evening)',
+      title: 'Fintech — HackPortugal referral links and general options',
       content: [
-        { kind: 'paragraph', text: 'These 4 banks/services work in Portugal, have active referral programmes and are often used by migrants. The bonus arrives after the first card payment or first transfer. Registration takes 5-10 minutes, fully online with a passport.' },
+        { kind: 'paragraph', text: 'HackPortugal has personal referral links for two services — Vivid Money and Revolut. Through these, you (and the HackPortugal team) get a bonus when your friend meets the conditions. Other fintechs (N26, Wise, Bunq) also have referral programmes, but we do not have personal codes — get a link from friends who already use them, or from inside the app.' },
+        { kind: 'paragraph', text: '**🏦 Vivid Money — €20 for each invited friend (up to €100 for 5 friends)** 💚' },
         { kind: 'checklist', items: [
-          '🏦 N26 — up to €35 bonus. Referral link through the N26-app of an existing customer (tap the gift icon). Condition: new customer + first card payment within 60 days. Checked: 17/05/2026',
-          '🏦 Revolut — up to €30 bonus. Link from an existing Revolut-app (Profile → Invite friends). The bonus arrives for both after the first €100+ transaction. Checked: 17/05/2026',
-          '💸 Wise (formerly TransferWise) — €75 invitation bonus, plus a free first transfer up to €600. Link from your Wise-app. Checked: 17/05/2026',
-          '💳 Bunq — €10-25 for a new customer, depending on the plan. Referral link from the Bunq-app. Checked: 17/05/2026',
-          '🇵🇹 Activobank — usually no referral, but they have regular €25-50 welcome bonuses on first use, look on their website activobank.pt'
+          'HackPortugal referral link: https://vivid.money/r/aKKQ/3',
+          'What the friend gets: 3% annual interest for 60 days in the Interest Rate Pocket (a fixed-interest deposit on the account balance).',
+          'What you get: €20 for each invited friend, up to €100 for 5 friends.',
+          'Activation condition: the friend registers via the link + verifies identity + activates the Interest Rate Pocket.',
+          'Vivid is a Lithuanian neobank (SEPA-IBAN, multi-currency account, investment features, available in Russian).',
+          'Promotion validity: until 02/06/2026.',
+          'Checked: 18/05/2026.'
         ]},
-        { kind: 'paragraph', text: 'Savings strategy: open Wise (€75) + Revolut (€30) + N26 (€35) = €140 in one evening. Fully pays back a yearly HackPortugal subscription €29.99 × 4.' }
+        { kind: 'paragraph', text: '**🏦 Revolut — €40 for each invited friend (up to 10 rewards per period)** 💚' },
+        { kind: 'checklist', items: [
+          'HackPortugal referral link: https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect',
+          'For you to receive €40, the friend must complete **all 4 actions** by 02/06/2026:',
+          '1️⃣ Register via your link and verify identity (KYC).',
+          '2️⃣ Top up the account with a debit card or bank transfer.',
+          '3️⃣ Make **3 purchases** with the Revolut card, each **from €5**. The following do not count: gambling, gift cards, transfers (P2P, bank→bank).',
+          '4️⃣ Order a **physical card** (a virtual one is not enough) and add it to Apple Pay or Google Pay.',
+          'Maximum 10 rewards per period (up to €400 total bonus).',
+          'Promotion validity: until 02/06/2026.',
+          'Checked: 18/05/2026.'
+        ]},
+        { kind: 'warning', text: 'Revolut has strict activation conditions — especially "3 purchases of €5 each" and "physical card". If the friend does not complete all 4 steps, the bonus is not credited. Warn them in advance to avoid disappointment.' },
+        { kind: 'paragraph', text: '**Fintechs without a personal HackPortugal referral** — general options:' },
+        { kind: 'checklist', items: [
+          '🏦 **N26** — €15-35 invitation bonus (depends on Standard/Smart/You account type). HackPortugal has no personal code. Where to get a link: ask N26 friends (Profile → Refer a friend in their app). Condition: new customer + first card payment within 60 days.',
+          '💸 **Wise** (formerly TransferWise) — €75 invitation bonus + free first transfer up to €600. HackPortugal has no personal code. Where to get it: from friends in their Wise-app (Account → Invite a friend).',
+          '💳 **Bunq** — €10-25 for a new customer (depends on Easy/Pro plan). HackPortugal has no personal code. Where to get it: from Bunq friends in their app.',
+          '🇵🇹 **Activobank** — no referral programme. €25-50 welcome bonuses on first use (see activobank.pt → promos in the top-right corner of the site).',
+          '🇵🇹 **Banco BPI / Caixa Geral** — no official referrals, but there are loyalty programmes for salary clients (free account maintenance + bonuses for domiciling your salary).'
+        ]},
+        { kind: 'paragraph', text: 'Savings strategy: invite 5 friends to Vivid (€100) + 1 friend to Revolut (€40) = €140 in one evening. Fully pays back the yearly HackPortugal subscription €17.99 × 7.' }
       ]
     },
     {
@@ -129,8 +153,8 @@ export default {
     { title: 'N26 — official Refer-a-friend rules', url: 'https://support.n26.com/en-eu/app-and-features/friend-referral/how-to-earn-money-by-inviting-friends-to-n26', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Booking.com — Genius loyalty programme', url: 'https://www.booking.com/genius.html', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90,
-  recentlyChangedAt: '2026-05-17',
-  changeSummary: '🆕 New Premium guide: verified promo codes and referral links. Main offer: earn back your subscription in one evening through bonuses N26 €35 + Revolut €30 + Wise €75 + Glovo €8 = €148. Also AutoDoc 10% off (code BC98213949), iHerb INTRO20, Glovo public codes, cashback plug-ins (Letyshops, Honey). Check date for each code and a promise to update if it breaks via Feedback. This guide is automatically premium-only (categoryId daily_life, but premium override).'
+  recentlyChangedAt: '2026-05-18',
+  changeSummary: '🔥 Added 2 personal HackPortugal referral links to fintech services with active bonuses until 02/06/2026: **Vivid Money** (€20 per friend × 5 = €100, friend gets 3% annual interest for 60 days) and **Revolut** (€40 per friend, up to 10 rewards; friend must register + KYC + top up + 3 purchases of €5+ + order physical card). Savings strategy recalculated with the new subscription price €17.99/year: 5 Vivid friends + 1 Revolut friend = €140 pays back the subscription for 7+ years. Fintech section rewritten: for N26/Wise/Bunq we now state honestly that HackPortugal has no personal code, with bonuses and conditions described as general options.'
 }
