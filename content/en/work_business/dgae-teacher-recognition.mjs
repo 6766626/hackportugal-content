@@ -3,94 +3,94 @@ export default {
   id: 'dgae-teacher-recognition',
   categoryId: 'work_business',
   title: 'DGAE: recognition of teacher qualification and Habilitação Própria',
-  tldr: 'There are two different routes to work as a teacher in a Portuguese state school. Reconhecimento de Qualificação Profissional at DGAE is recognition of an existing teaching qualification under DL 227/2005: you have proved that you have the right to teach in the country where you studied. Habilitação Própria is not recognition of the profession, but academic suitability for a subject where there is no full formação profissional under DL 79/2014. In 2026 this is especially important because of the teacher shortage, but priority in concursos remains with profissionalizados.',
+  tldr: 'There are two different routes for working as a teacher in a Portuguese state school. Reconhecimento de Qualificação Profissional at DGAE is recognition of an existing teaching qualification under DL 227/2005: you prove that you have the right to teach in the country where you studied. Habilitação Própria is not recognition of the profession, but academic suitability for a subject when there is no full formação profissional under DL 79/2014. In 2026 this is especially important because of the teacher shortage, but priority in concursos remains with profissionalizados.',
   tags: ['dgae', 'teacher', 'diploma', 'work'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'choose-route',
-      title: '1. First choose the right route',
+      title: '1. First choose the correct route',
       content: [
-        { kind: 'paragraph', text: 'In Portugal, “I taught in my country” and “I have a degree in the subject” are legally different things. DGAE looks not only at the diploma, but at whether it gives a professional right to teach a specific level and subject.' },
+        { kind: 'paragraph', text: 'In Portugal, “I taught in my country” and “I have a degree in the subject” are legally different things. DGAE looks not only at the diploma, but at whether it gives the professional right to teach a specific level and subject.' },
         { kind: 'checklist', items: [
-          'Reconhecimento de Qualificação Profissional — if you have a teaching qualification and the right to teach in the country where the qualification was obtained.',
-          'Habilitação Própria — if you have an academic degree in the subject, but do not have full Portuguese formação profissional para a docência.',
-          'Equivalência estrangeira at DGE — for recognition of foreign school education, for example 9.º/12.º ano; this does not give teacher status.',
-          'Reconhecimento de grau académico at DGES/a university — for foreign higher education; often needed before assessment of a teacher qualification.',
-          'DL 227/2005 — the key regime for recognition of foreign professional teacher qualifications.',
+          'Reconhecimento de Qualificação Profissional — if you have a teaching qualification as a teacher and the right to teach in the country where the qualification was obtained.',
+          'Habilitação Própria — if you have an academic degree in the subject, but do not have the full Portuguese formação profissional para a docência.',
+          'Write: “Equivalência estrangeira de ensino básico/secundário — the procedure for recognising foreign school education under DGE rules, usually submitted through a Portuguese school rather than directly to DGE; this does not grant teacher status.”',
+          'Reconhecimento de grau académico at DGES/a university — for foreign higher education; often needed before the assessment of the teacher qualification.',
+          'DL 227/2005 — the key regime for recognising a foreign professional teacher qualification.',
           'DL 79/2014 — the Portuguese formação profissional regime for educadores de infância and professores dos ensinos básico e secundário.'
         ] },
-        { kind: 'warning', text: 'Habilitação Própria is not the same as “full teacher recognition”. It is a fallback route for recruitment, more often for temporary vacancies and when there is a staff shortage. In concursos, candidates with habilitação profissional usually rank higher.' }
+        { kind: 'warning', text: 'Habilitação Própria is not the same as “full recognition as a teacher”. It is a fallback route for recruitment, more often for temporary vacancies and where there are staff shortages. In concursos, candidates with habilitação profissional usually rank higher.' }
       ]
     },
     {
       id: 'professional-recognition',
       title: '2. Reconhecimento de Qualificação Profissional through DGAE',
       content: [
-        { kind: 'paragraph', text: 'This route is needed if you want Portugal to recognise your foreign professional teacher qualification. It is usually relevant for graduates of teacher-training programmes that already gave the right to teach in another country.' },
+        { kind: 'paragraph', text: 'This route is needed if you want Portugal to recognise your foreign professional teaching qualification. It is usually relevant for graduates of teacher-training programmes that already gave the right to teach in another country.' },
         { kind: 'checklist', items: [
           'Identify the Portuguese grupo de recrutamento: for example 110 — 1.º ciclo, 220 — Português e Inglês, 500 — Matemática, 550 — Informática.',
-          'Prepare diplomas and supplements showing subjects, hours or ECTS.',
-          'Obtain a document confirming the right to teach in the country of origin: licence, certificado profissional, certification, statement from the competent authority.',
-          'Prepare proof of professional experience if it is important for comparing the qualification.',
-          'Have a translation into Portuguese done by a sworn/certified translator if the documents are not in PT/EN/FR/ES and DGAE requires a translation.',
-          'For documents from non-EU countries, an Apostille Hague or consular legalisation is usually needed, if applicable.',
+          'Prepare diplomas and supplements with subjects, hours or ECTS.',
+          'Obtain a document confirming the right to teach in the country of origin: licence, certificado profissional, attestation, certificate from the competent authority.',
+          'Prepare evidence of professional experience if it is important for comparing the qualification.',
+          'Have a sworn/certified translator translate into Portuguese if the documents are not in PT/EN/FR/ES and DGAE requires a translation.',
+          'For documents from non-EU countries, an Apostille Hague or consular legalisation is usually needed, where applicable.',
           'Submit the application according to the instructions and forms on the DGAE “Reconhecimento de Qualificação Profissional” page.'
         ] },
-        { kind: 'paragraph', text: 'DGAE compares your training with Portuguese requirements. Possible outcomes: recognition of the qualification for a specific level/group, a request for additional documents, refusal, or a requirement for compensatory measures if substantial differences are identified.' }
+        { kind: 'paragraph', text: 'DGAE compares your training with Portuguese requirements. Possible outcomes: recognition of the qualification for a specific level/group, a request for additional documents, refusal, or a requirement for compensation measures if substantial differences are identified.' }
       ]
     },
     {
       id: 'habilitacao-propria',
-      title: '3. When to use Habilitação Própria',
+      title: 'Add a clear caveat near the start: “Habilitação Própria is usually not a separate procedure for recognising the profession and does not grant profissionalizado status; it is a check that academic training meets the requirements of a specific grupo de recrutamento during candidacy/recruitment. Check the current Guia/Lista de Habilitações da DGAE for the specific group.”',
       content: [
-        { kind: 'paragraph', text: 'Habilitação Própria is a route for people with suitable academic education in a subject, but without recognised formação profissional para a docência.\n\nExample: a degree in mathematics, physics, engineering, philology or biology may be suitable for certain grupos de recrutamento if the curriculum covers the required scientific area.' },
+        { kind: 'paragraph', text: 'Habilitação Própria is a route for people with suitable academic education in the subject, but without recognised formação profissional para a docência.\n\nExample: a degree as a mathematician, physicist, engineer, philologist or biologist may be suitable for certain grupos de recrutamento if the curriculum covers the required scientific area.' },
         { kind: 'checklist', items: [
-          'First recognise your foreign higher-education diploma in Portugal through DGES/a Portuguese university if the school or concurso requires a grau reconhecido.',
+          'First recognise the foreign higher-education degree in Portugal through DGES/a Portuguese university if the school or concurso requires a grau reconhecido.',
           'Match your degree to a grupo de recrutamento where there is a shortage and where habilitação própria is accepted.',
-          'Check ECTS/hours in the core subject areas: the name of the degree alone is not always enough.',
+          'Check ECTS/hours in specialist subjects: the title of the degree alone is not always enough.',
           'Collect the histórico escolar / transcript with subjects and workload.',
-          'Monitor DGAE announcements, contratação de escola and the SIGRHE platform if the vacancy goes through the state system.',
-          'Be prepared for the school to request additional evidence of course content.',
+          'Monitor DGAE notices, contratação de escola and the SIGRHE platform if the vacancy goes through the state system.',
+          'Be prepared for the school to request additional proof of course content.',
           'If you want a long-term career in ensino público, plan to obtain Portuguese profissionalização / mestrado em ensino under DL 79/2014.'
         ] },
-        { kind: 'warning', text: 'Do not submit Habilitação Própria as “recognition of a foreign teaching licence”. If what you have is specifically a teaching qualification, the right first address is DGAE Reconhecimento de Qualificação Profissional.' }
+        { kind: 'warning', text: 'Do not present Habilitação Própria as “recognition of a foreign teaching licence”. If you specifically have a teaching qualification, the correct first address is DGAE Reconhecimento de Qualificação Profissional.' }
       ]
     },
     {
       id: 'documents',
       title: '4. Documents: what to prepare in advance',
       content: [
-        { kind: 'paragraph', text: 'The main delay is not DGAE itself, but collecting evidence from the country of study. In 2026, schools and authorities increasingly require detailed supplements: subjects, hours, ECTS, practical training, placements, pedagogical component.' },
+        { kind: 'paragraph', text: 'The main delay is not DGAE itself, but collecting evidence from the country of study. In 2026, schools and authorities increasingly require detailed supplements: subjects, hours, ECTS, practice, internship, teaching component.' },
         { kind: 'checklist', items: [
-          'Passport or Cartão de Cidadão / residence permit, if you already live in Portugal.',
-          'NIF for contracts, payments and registration in Portuguese systems.',
+          'Passport or Cartão de Cidadão / título de residência if you already live in Portugal.',
+          'NIF for contracts, payment and registration in Portuguese systems.',
           'Bachelor’s, master’s, specialist or other qualification diploma.',
-          'Diploma supplement: grades, hours, ECTS, course-unit content.',
-          'Teaching diploma, teacher certificate or document confirming the right to teach.',
-          'Statement from the competent authority that you have not been deprived of the right to teach, if applicable.',
-          'Proof of experience: employment contracts, school statements, workload extracts.',
+          'Diploma supplement: grades, hours, ECTS, course unit content.',
+          'Teaching diploma, teacher certificate or document proving the right to teach.',
+          'Certificate from the competent authority confirming that you have not been deprived of the right to teach, where applicable.',
+          'Proof of experience: employment contracts, school certificates, workload statements.',
           'Recognition of the degree in Portugal, if already obtained: reconhecimento específico/de nível/automático.',
           'Translations into Portuguese and legalisation/Apostille for documents from non-EU countries, if required.'
         ] },
-        { kind: 'warning', text: 'Do not limit yourself to a notarised translation of the diploma. Without a transcript and description of teaching practice, DGAE or the school often will not be able to understand whether the qualification matches the Portuguese grupo de recrutamento.' }
+        { kind: 'warning', text: 'Do not limit yourself to a notarised translation of the diploma. Without a transcript and description of teaching practice, DGAE or the school will often be unable to understand whether the qualification matches the Portuguese grupo de recrutamento.' }
       ]
     },
     {
       id: 'after-decision',
       title: '5. After the decision: how to get into a school',
       content: [
-        { kind: 'paragraph', text: 'Recognition of the qualification is not in itself an employment contract. It opens the door to concurso procedures and recruitment, but after that you follow the rules of the ensino público system or apply directly to private/international schools.' },
+        { kind: 'paragraph', text: 'Recognition of the qualification is not in itself an employment contract. It opens the door to concurso procedures and recruitment, but you then follow the rules of the ensino público system or apply directly to private/international schools.' },
         { kind: 'checklist', items: [
           'Create or update access to SIGRHE/DGAE if you are taking part in state concursos.',
           'Check which grupo de recrutamento is stated in the decision or is suitable under habilitação própria.',
           'Monitor concursos, reserva de recrutamento and contratação de escola.',
-          'For private schools, send your CV directly; they may value experience and languages, but will still ask about legal status and diplomas.',
-          'For state schools, Portuguese is usually needed at working level; for some subjects and international programmes, English helps, but does not replace the system requirements.',
-          'Arrange NISS and tax status before signing a contrato de trabalho.',
-          'If you work on recibos verdes in a private school or as a tutor, check IRS/Segurança Social in advance so that you do not receive unexpected contributions.'
+          'For private schools, send your CV directly; they may value experience and languages, but they still ask for legal status and diplomas.',
+          'For state schools, Portuguese is usually needed at working level; for some subjects and international programmes, English helps but does not replace the system requirements.',
+          'Arrange your NISS and tax status before signing a contrato de trabalho.',
+          'If you work on recibos verdes in a private school or as a tutor, check IRS/Segurança Social in advance so you do not face unexpected contributions.'
         ] },
-        { kind: 'paragraph', text: 'If DGAE recognised the qualification only partially or stated limitations, do not ignore the wording. For a concurso, the specific níveis de ensino and grupos de recrutamento matter, not the general status of “teacher”.' }
+        { kind: 'paragraph', text: 'If DGAE recognised the qualification partially or indicated restrictions, do not ignore the wording. For a concurso, what matters is the specific níveis de ensino and grupos de recrutamento, not the general status of “teacher”.' }
       ]
     },
     {
@@ -98,29 +98,29 @@ export default {
       title: '6. Common mistakes made by foreigners',
       content: [
         { kind: 'checklist', items: [
-          'Confusing DGE and DGAE: DGE handles equivalências estrangeiras for school education, while DGAE deals with staffing and qualification matters for teachers.',
-          'Thinking that recognition of a diploma at DGES automatically gives the right to teach. It does not: an academic degree and profissionalização are different levels.',
-          'Submitting only the diploma without a supplement showing hours/ECTS.',
+          'Confusing DGE and DGAE: DGE deals with equivalências estrangeiras for school education, while DGAE deals with staffing and qualification matters for teachers.',
+          'Thinking that recognition of a diploma by DGES automatically gives the right to teach. It does not: an academic degree and profissionalização are different levels.',
+          'Submitting only the diploma without the supplement showing hours/ECTS.',
           'Failing to prove the right to teach in the country of origin, even though this is exactly what matters for professional recognition.',
           'Choosing the wrong grupo de recrutamento and receiving a refusal or a useless decision.',
-          'Counting on a permanent contract through Habilitação Própria. In practice this is more often a temporary and less protected route.',
-          'Not taking Portuguese into account: even a strong subject specialist may fail a school interview without PT at a level suitable for working with pupils and parents.',
-          'Using old SEF-era instructions for immigration documents. Since October 2023, immigration residence permits have been handled by AIMA, not SEF.'
+          'Counting on a permanent contract through Habilitação Própria. In practice, this is more often a temporary and less protected route.',
+          'Ignoring Portuguese language requirements: even a good subject specialist may fail a school interview without PT at the level needed to work with pupils and parents.',
+          'Using old SEF-era instructions for immigration documents. Since October 2023, migration residence permits have been handled by AIMA, not SEF.'
         ] },
-        { kind: 'warning', text: 'If your diploma is from Russia, Ukraine, Belarus, Kazakhstan or another non-EU country, allow time for archive statements, apostille and translations. This may take months and often longer than the assessment in Portugal.' }
+        { kind: 'warning', text: 'If you have a diploma from Russia, Ukraine, Belarus, Kazakhstan or another non-EU country, allow time for archive certificates, an apostille and translations. This can take months and often longer than the assessment in Portugal.' }
       ]
     }
   ],
   costs: [
     { label: 'Application to DGAE', amountEUR: 0, note: 'The official DGAE page does not state a government fee for the reconhecimento de qualificação profissional procedure itself; check the current form before applying.' },
-    { label: 'Document translation', amountEURMin: 20, amountEURMax: 60, note: 'Usually per page from a certified translator; the price depends on the language and urgency.' },
-    { label: 'Apostille / legalisation abroad', amountEURMin: 10, amountEURMax: 80, note: 'Not a Portuguese fee; depends on the country where the document was issued.' },
+    { label: 'Document translation', amountEURMin: 20, amountEURMax: 60, note: 'Usually per page with a certified translator; the price depends on the language and urgency.' },
+    { label: 'Apostille / legalisation abroad', amountEURMin: 10, amountEURMax: 80, note: 'Not a Portuguese fee; depends on the country issuing the document.' },
     { label: 'Recognition of a foreign degree at a university/DGES', amountEURMin: 30, amountEURMax: 600, note: 'The fee is set by the receiving institution; reconhecimento específico is usually more expensive than automático/de nível.' }
   ],
   sources: [
     { title: 'DGAE: Reconhecimento de Qualificação Profissional for docentes', url: 'https://www.dgae.medu.pt/gestao-de-recursos-humanos/pessoal-docente/qualificacoes/reconhecimento-de-qualificacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DGE: Equivalências estrangeiras for school education', url: 'https://www.dge.mec.pt/equivalencias-estrangeiras', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Decreto-Lei 227/2005: recognition of foreign professional qualifications for docentes', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/227-2005-469091', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Decreto-Lei 227/2005: recognition of foreign professional qualification for docentes', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/227-2005-469091', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 79/2014: regime jurídico da habilitação profissional para a docência', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/79-2014-25344769', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',

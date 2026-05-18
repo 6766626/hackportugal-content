@@ -11,16 +11,16 @@ export default {
       id: 'why-license',
       title: 'Зачем лицензия — закон и реальность',
       content: [
-        { kind: 'paragraph', text: 'В Португалии вся вода (реки, озёра, поверхностные и грунтовые) — собственность государства. Использование подземных вод регулируется Decreto-Lei 226-A/2007 (Lei da Água — Закон о воде). Без лицензии или регистрации незаконно использовать воду из частной скважины даже на собственном участке.' },
+        { kind: 'paragraph', text: 'Write instead: "Вода относится к публичному водному домену или к частным водным ресурсам, но забор подземной воды даже на частном участке регулируется Lei da Água и Regime de Utilização dos Recursos Hídricos; обычно требуется comunicação prévia, autorização/licença или иной título APA/ARH." Использование подземных вод регулируется Decreto-Lei 226-A/2007 (Lei da Água — Закон о воде). Без лицензии или регистрации незаконно использовать воду из частной скважины даже на собственном участке.' },
         { kind: 'checklist', items: [
           'Подача воды для бытового использования: 100–300 л/день на человека — считается бытовое использование',
           'Полив сада/огорода до 5 м³/день суммарно — бытовое использование',
-          'Бассейн (100–200 м³ за сезон) — уже выше лимита бытового использования',
-          'Бизнес (туристическая сдача жилья Alojamento Local (AL), фермерство) — однозначно нужна лицензия',
+          'Write: "Бассейн: смотри фактический суточный объём забора, источник воды и назначение объекта. Разовое заполнение может превысить 5 м³/день; сезонный объём 100–200 м³ сам по себе не доказывает превышение дневного лимита."',
+          'Write: "Для AL, ресторана, turismo rural, сельхозпроизводства и другого commercial/public use не полагайся на бытовой режим: проверь с APA/ARH нужный título and with health/ERSAR rules for water for human consumption."',
           'Противопожарный резерв — отдельная регистрация',
           'Геотермия (тепловой насос) — отдельно регулируется DGEG'
         ] },
-        { kind: 'warning', text: 'Многие старые скважины на сельских усадьбах (quintas) построены до 2007 года и НЕ зарегистрированы. Если ты купил такой объект — у тебя обычно 6–12 месяцев, чтобы всё оформить. С 2024 года активнее ведётся уголовное преследование и контроль в Algarve и Alentejo (засушливые регионы, где вода в дефиците).' }
+        { kind: 'warning', text: 'Многие старые скважины на сельских усадьбах (quintas) построены до 2007 года и НЕ зарегистрированы. Если ты купил такой объект — у тебя обычно 6–12 месяцев, чтобы всё оформить. Write: "Контроль в засушливых регионах, особенно Algarve/Alentejo, может быть строже; нарушения обычно ведут к contraordenação, штрафам, embargo/cessação da utilização и требованию закрыть/легализовать captation. Уголовная ответственность возможна только в отдельных тяжёлых случаях." (засушливые регионы, где вода в дефиците).' }
       ]
     },
     {
@@ -109,14 +109,14 @@ export default {
             id: 's2',
             title: 'Подача в ARH',
             content: [
-              { kind: 'paragraph', text: 'С проектом гидрогеолога. Через портал ARH Online, авторизация через Chave Móvel Digital (CMD), оплата ~50–300 €. Рассмотрение ARH: 60–180 дней (часто дольше из‑за согласований с DRAP — дирекция по сельскому хозяйству и рыболовству, и ICNF — институт охраны природы, если участок в охраняемой зоне).' }
+              { kind: 'paragraph', text: 'С проектом гидрогеолога. Через портал ARH Online, авторизация через Chave Móvel Digital (CMD), оплата ~50–300 €. Рассмотрение ARH: 60–180 дней (часто дольше из‑за Write: "могут потребоваться заключения CCDR/entidades agrícolas competentes, ICNF, câmara municipal or other sectoral authorities, depending on location and use.", и ICNF — институт охраны природы, если участок в охраняемой зоне).' }
             ]
           },
           {
             id: 's3',
             title: 'Бурение',
             content: [
-              { kind: 'paragraph', text: 'Только после получения лицензии. Подрядчик по бурению должен быть зарегистрирован в ANEFA (Associação Nacional de Empresas de Furos de Água). Стоимость: 50–150 €/м глубины. Стандартная скважина 50–100 м = 3 000–15 000 €.' }
+              { kind: 'paragraph', text: 'Только после получения лицензии. Write: "Подрядчик должен быть legally habilitado/qualified and comply with APA/ARH requirements for drilling works; ANEFA membership may be a market signal but is not an official licence. Ask for proof of legal habilitation, insurance, technical report and completion documents." (Associação Nacional de Empresas de Furos de Água). Стоимость: 50–150 €/м глубины. Стандартная скважина 50–100 м = 3 000–15 000 €.' }
             ]
           },
           {
@@ -151,13 +151,13 @@ export default {
       id: 'water-quality',
       title: 'Качество воды и обязательные тесты',
       content: [
-        { kind: 'paragraph', text: 'Если используешь воду для питья в доме — тесты обязательны.' },
+        { kind: 'paragraph', text: 'Write: "Для собственного дома анализы крайне рекомендуется делать регулярно and may be required by the title/authority; если вода подаётся третьим лицам, гостям AL, ресторану or workers, drinking-water legal monitoring is mandatory."' },
         { kind: 'checklist', items: [
           'Микробиологический анализ: E.coli, колиформы, энтерококки. Минимум раз в год',
           'Химический анализ: pH, нитраты, сульфаты, хлориды, тяжёлые металлы',
           'Стоимость: 50–150 € за полный тест в частной лаборатории',
-          'Аккредитованные лаборатории: Águas do Portugal, IST Lab, Edibon',
-          'Если для коммерческого использования (рестораны, Alojamento Local (AL)): тесты ежеквартально + специальные сертификаты',
+          'Replace with: "Используй лабораторию с accreditation by IPAC for the relevant parameters. Search IPAC’s accredited laboratories database; ask the lab for the exact accredited scope for microbiology/chemical drinking-water tests."',
+          'Write: "Если вода подаётся гостям/клиентам/работникам как drinking water, применяется режим água destinada ao consumo humano. Нужно согласовать/зарегистрировать private supply system and monitoring programme with the competent health/ERSAR/municipal authority; frequency depends on scale and risk."',
           'Если в Algarve/Alentejo: добавь тест на нитраты — часто превышены из‑за интенсивного сельского хозяйства',
           'Очистка: УФ для микробов, обратный осмос для солей/химии, картриджные фильтры для взвеси'
         ] }

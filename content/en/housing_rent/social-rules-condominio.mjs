@@ -3,7 +3,7 @@ export default {
   id: 'social-rules-condominio',
   categoryId: 'housing_rent',
   title: 'Life in an apartment building — neighbours, noise, complaints',
-  tldr: 'Portugal is a country of quiet everyday protocol, but neighbours vary. Noise rules: Regulamento Geral do Ruído (DL 9/2007) — período nocturno **23:00-07:00**, diurno 07:00-20:00, entardecer 20:00-23:00 (standard definitions; municipalities may add local rules)\.\n\nWhere to complain: GNR/PSP (one-off breach) → Câmara Municipal (persistent breach) → court. Noise fines: €200-2,500 for an individual. In a condomínio, the general meeting adopts internal rules, and the assembleia is held at least once a year. Fundo Comum de Reserva is mandatory.',
+  tldr: 'Portugal is a country of quiet everyday protocol, but neighbours vary. Noise rules: Regulamento Geral do Ruído (DL 9/2007) — período nocturno **23:00-07:00**, diurno 07:00-20:00, entardecer 20:00-23:00 (standard definitions; municipalities may add local rules).\n\nWhere to complain: GNR/PSP (one-off breach) → Câmara Municipal (persistent breach) → court. Replace with: “Fines depend on the nature of the offence: for individuals under the RGR/Lei-Quadro das Contraordenações Ambientais they usually start from €200 for minor offences, but for serious offences the amounts are substantially higher. Check art. 28 DL 9/2007 and Lei 50/2006 in the current version”. In a condomínio, the general meeting adopts internal rules, assembleia is held at least once a year. Fundo Comum de Reserva is mandatory.',
   tags: ['neighbours', 'noise', 'condomínio', 'complaints'],
   estimatedReadMinutes: 6,
   steps: [
@@ -16,20 +16,20 @@ export default {
             { kind: 'checklist', items: [
               '**Período nocturno**: 23:00-07:00 (under DL 9/2007 / Regulamento Geral do Ruído)',
               '**Período diurno**: 07:00-20:00',
-              '**Período entardecer**: 20:00-23:00 (lower limits)',
-              '⚠️ Municipalities (Câmara Municipal) may set additional local rules and quiet hours — check your city’s municipal regulations',
-              '📏 **Limit**: L_den ≤ 55 dB in residential areas, L_night ≤ 45 dB',
-              '🎵 Music in a flat from 8:00-20:00 — within reason. In the evening — quieter. At night — it must not be heard through the wall'
+              '**Período entardecer**: 20:00-23:00 (reduced limits)',
+              '⚠️ Municipalities (Câmara Municipal) may set additional local rules and quiet hours — check your city’s municipal regulation',
+              'Add: “Lden/Lnight are used for noise maps and zoning; for domestic noise from neighbours, the ruído de vizinhança regime and, where measurements are taken, the incomodidade criterion matter more. Do not expect the police to check specifically for Lden 55/Lnight 45 inside an apartment”.',
+              '🎵 Music in an apartment from 8:00-20:00 — within reason. In the evening — quieter. At night — it must not be audible through the wall'
             ]}
           ]},
           { id: 'n2', title: 'What counts as a breach', content: [
             { kind: 'checklist', items: [
-              'Loud music / TV audible in neighbouring flats during período nocturno (23:00-07:00)',
+              'Loud music / TV audible in neighbouring apartments during período nocturno (23:00-07:00)',
               'Noisy parties during período nocturno',
-              'Construction / renovation work during prohibited hours (usually 9:00-19:00 Mon-Fri, 10:00-18:00 Sat, prohibited on Sundays and public holidays)',
+              'Replace with: “Renovation/construction noisy works near housing: the general rule is not to carry them out between 20:00-08:00, on Saturdays, Sundays and public holidays without a licença especial de ruído. Renovation inside a building is usually permitted on working days 08:00-20:00, with residents notified of the duration of the works. Municipal rules may add details”.',
               'Shouting, arguments, a baby crying (children are a reasonable exception in court)',
               'A dog barking on the balcony (the owner is responsible)',
-              'Shower water noise after 23:00 (rarer, but complaints do happen in old buildings)',
+              'Shower water noise after 23:00 (less common, but complaints happen in old buildings)',
               'A car alarm with no response from the owner'
             ]}
           ]}
@@ -41,45 +41,45 @@ export default {
       title: '📋 Where to complain',
       content: [
         { kind: 'substeps', items: [
-          { id: 'c1', title: 'Step 1: Speak to the neighbour (recommended)', content: [
+          { id: 'c1', title: 'Step 1: Dialogue with the neighbour (recommended)', content: [
             { kind: 'checklist', items: [
-              'Be friendly — in PT this is valued',
-              'Leave a note in the letterbox or speak in person',
-              'Explain that the problem is not personal, but about everyone’s wellbeing',
+              'Be friendly — this is valued in PT',
+              'Put a note in the letterbox or speak in person',
+              'Explain that the problem is not personal, but about shared wellbeing',
               'Allow 1-2 weeks for a response',
               '📝 80% of cases are resolved without further steps'
             ]}
           ]},
-          { id: 'c2', title: 'Step 2: Condomínio administrator', content: [
+          { id: 'c2', title: 'Step 2: Condominium administrator', content: [
             { kind: 'checklist', items: [
-              'If there is an administrador — send a formal letter (email is sufficient)',
-              'The administrator will summon the offender to the assembleia condomínio',
-              'Outcome: written warning → fine from the shared budget',
-              'If the administrator ignores it — move to the next step'
+              'If there is an administrador — send a formal letter (email is enough)',
+              'Add: “The administrator can send a warning to the owner of the fração and/or put the matter on the agenda of the assembleia de condóminos. If the person causing the breach is a tenant, action is usually taken through the owner-landlord”.',
+              'Replace with: “Outcome: written warning to the owner → if there is a basis in the regulamento/assembleia decision, a pecuniary sanction may be possible, recoverable from the offender; the amount of sanctions per year is limited by law”.',
+              'If the administrator ignores it — the next step'
             ]}
           ]},
-          { id: 'c3', title: 'Step 3: GNR / PSP — call the police', content: [
+          { id: 'c3', title: 'Step 3: GNR / PSP — calling the police', content: [
             { kind: 'checklist', items: [
-              'For a **one-off** problem (a loud party happening now) — GNR (regions) or PSP (cities)',
+              'For a **one-off** problem (a loud party right now) — GNR (regions) or PSP (cities)',
               '**112** — only if there is no other number / aggression',
-              'Local PSP / GNR number — find it on Google with "posto territorial + district name"',
-              'The police will come and ask them to reduce the noise — this usually resolves it on the spot',
+              'Local PSP / GNR number — find it on Google with "posto territorial + area name"',
+              'The police will come and ask for the noise to be reduced — this usually resolves it on the spot',
               '📋 Get the incident/reference number — for subsequent steps'
             ]}
           ]},
           { id: 'c4', title: 'Step 4: Câmara Municipal', content: [
             { kind: 'checklist', items: [
               'For a **persistent** breach',
-              'Submission: online on the municipality website or in person at reception',
+              'Submission: online on the municipality website or in person at the office',
               '**Medição de ruído**: a municipal technician will come and measure the sound level',
-              'If the limit is exceeded — a fine is issued to the offender (€200-2,500 for an individual, up to €25,000 for a legal entity)',
+              'Replace with: “If the breach is confirmed, a processo de contraordenação may be iniciado. The amount of the fine depends on the classification of the breach under the RGR and Lei 50/2006; it is not universally limited to €2,500/€25,000”.',
               'Process: 1-3 months'
             ]}
           ]},
           { id: 'c5', title: 'Step 5: Tribunal (court)', content: [
             { kind: 'checklist', items: [
-              'If everything else has failed and there is damage (you cannot sleep, health impact)',
-              'Claim for damages through the civil court',
+              'If everything else has failed and there is harm (you cannot sleep, health impact)',
+              'Claim for compensation through the civil court',
               'Witnesses, recordings, medical certificates',
               'Lawyer — mandatory',
               'Process: 6-18 months, cost €500-2,000',
@@ -91,43 +91,43 @@ export default {
     },
     {
       id: 'condominio',
-      title: '🏢 How a condomínio works',
+      title: '🏢 How condomínio works',
       content: [
-        { kind: 'paragraph', text: 'In Portugal, Lei 8/2022 regulates propriedade horizontal — every apartment building is a condomínio.' },
+        { kind: 'paragraph', text: 'Replace with: “The condomínio/propriedade horizontal regime is based primarily on Código Civil arts. 1414-1438-A and DL 268/94; Lei 8/2022 introduced important changes. Condomínio exists when a building is registered as propriedade horizontal with autonomous frações”.' },
         { kind: 'substeps', items: [
           { id: 'cd1', title: 'Structure', content: [
             { kind: 'checklist', items: [
               '**Assembleia de condóminos** — meeting of all owners, voting by quotas (share)',
               '**Administrador** — manager (an elected owner or a hired company), mandatory',
-              '**Regulamento interno** — building rules (pets, balconies, noise, renovation work)',
-              '**Fundo Comum de Reserva** — 10% of the monthly fee goes into a reserve for major repairs (roof, lift)'
+              '**Regulamento interno** — building rules (pets, balconies, noise, renovation)',
+              '**Fundo Comum de Reserva** — 10% of the monthly contribution goes into a reserve for major repairs (roof, lift)'
             ]}
           ]},
           { id: 'cd2', title: 'Assembleia', content: [
             { kind: 'checklist', items: [
-              '**Ordinária**: annually between 1 January and 30 June — budget approval, elections',
+              'Replace with: “Ordinária: annually, as a general rule in the first half of January, to approve the previous year’s accounts and the budget; the regulamento/assembleia may provide for it to be held in the first quarter”.',
               '**Extraordinária**: at the request of 1/4 of owners or the administrator',
-              'Voting: by flat size (permilagens). 1 flat ≠ 1 vote',
-              'Decisions are made by a majority of permilagens; some (major repairs) — 2/3',
+              'Voting: by apartment size (permilagens). 1 apartment ≠ 1 vote',
+              'Decisions are taken by a majority of permilagens; some (major repairs) — 2/3',
               'Owner-landlords vote; tenants do not'
             ]}
           ]},
-          { id: 'cd3', title: 'Monthly fees', content: [
+          { id: 'cd3', title: 'Monthly contributions', content: [
             { kind: 'checklist', items: [
-              'Typical condomínio: **€15-80/month** for a 70-100 m² flat',
-              'Factors: building size, whether there is a lift, swimming pool, security, garden',
-              'Covers: cleaning, lighting in common areas, lift maintenance, building insurance, administration, Fundo Reserva',
-              'The owner is obliged to pay; the tenant only if this is stated in the contract (more often the owner pays)',
-              'Debt: **administrative** debt → court for recovery; there is no legal charge over the flat'
+              'Typical condomínio: **€15-80/month** for a 70-100 m² apartment',
+              'Factors: building size, whether there is a lift, pool, security, garden',
+              'Covers: cleaning, common-area electricity, lift maintenance, building insurance, administration, Fundo Reserva',
+              'The owner is obliged to pay, the tenant only if the contract says so (the owner usually pays)',
+              'Debt: **administrative** debt → court for recovery; there is no legal charge over the apartment'
             ]}
           ]},
           { id: 'cd4', title: 'Breaches of the regulamento', content: [
             { kind: 'checklist', items: [
               '60 days to challenge an assembleia decision',
-              'Fine terms in the regulamento: from €50-500 per breach',
-              'Major changes to the flat (knocking down walls): approval from the assembleia',
-              'Balcony: you cannot hang laundry outside (in some condomínios), or install air conditioning (without approval)',
-              'Pets: if the regulamento prohibits them — not allowed; if it permits them — there are rules (lead in common areas)',
+              'Replace with: “Fines/pecuniary sanctions are possible if provided for in the regulamento or by assembleia decision; the overall annual limit for sanctions is restricted by Código Civil art. 1434, so there is no fixed €50-500 range”.',
+              'Major changes to the apartment (removing walls): approval by the assembleia',
+              'Balcony: you may not hang laundry outside (in some condominiums), install air conditioning (without approval)',
+              'Replace with: “The Regulamento may set rules for common areas, hygiene, leads, the lift and noise. A complete ban on keeping a pet inside a private fraction is legally debatable; limits on the number of animals and rules from municipal/veterinary authorities apply separately”.',
               'Speakers, parties — most often prohibited after 22:00'
             ]}
           ]}
@@ -139,12 +139,12 @@ export default {
       title: '🏠 If you are a tenant — your rights',
       content: [
         { kind: 'checklist', items: [
-          '**Peaceful possession**: Lei 6/2006 (NRAU) — the owner guarantees peaceful use',
-          'If neighbours disturb you and the owner does not help → you may demand a rent reduction or termination of the contract without penalty',
-          '**Neighbours’ renovation works**: the owner must give 8 days’ notice of planned works',
-          '**Common areas**: you have the right to use them on equal terms with owners (garden, swimming pool, etc.)',
-          '**Assembleia**: you do not vote, but you may attend and speak',
-          '⚠️ **EV charging**: you have the right to install it in your own parking space (Lei 39/2021) — the owner cannot refuse, only set conditions'
+          '**Quiet enjoyment**: Lei 6/2006 (NRAU) — the owner guarantees peaceful use',
+          'Add: “If noise substantially interferes with using the dwelling, notify the landlord in writing and collect evidence. The possibility of a rent reduction or termination without penalty is not automatic; it depends on the contract, the landlord’s role and the seriousness of the breach, and often requires legal advice”.',
+          'Replace with: “For noisy renovation inside the building, the responsible party must put up a notice in a place accessible to residents stating the duration of the works. If your landlord is carrying out works inside the rented dwelling, separate rules under the tenancy agreement and Código Civil apply”.',
+          '**Common areas**: you have the right to use them on the same basis as owners (garden, pool, etc.)',
+          'Replace with: “A tenant usually does not vote and does not have an automatic right to participate in the assembleia; you can ask the landlord to raise the matter, issue a procuração or agree your attendance with the administrador/assembleia”.',
+          'Replace with: “EV charging: the regime is set out in Decreto-Lei 39/2010 in the current version. Installation in a parking space requires prior written notification to the administração do condomínio and compliance with technical/safety requirements; opposition is possible only on lawful grounds. For a tenant, rights under the tenancy agreement and the owner’s consent/participation are additionally important if the space is not at their disposal”.'
         ]}
       ]
     },
@@ -154,18 +154,18 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '**Neighbour’s dog barks all day** → Câmara Municipal + municipal vet (possible removal on welfare grounds)',
-          '**Neighbours smoke on the balcony, smoke enters your flat** → not a direct breach (smoking on a private balcony is permitted); but if the condomínio has prohibited it — fine',
-          '**Renovation work below you has been going on for more than 3 months** → check permits at the municipality, often illegal',
+          '**Neighbours smoke on the balcony, smoke enters your apartment** → not a direct breach (smoking on a private balcony is allowed); but if the condomínio has banned it — fine',
+          '**Renovation below you has been going on for more than 3 months** → check permits with the municipality, often illegal',
           '**Neighbouring hostel / short-term rental — constant noise** → AL (Alojamento Local) has special rules; complaint to Câmara + ASAE; in some areas (Bairro Alto, Baixa Lisbon) AL are restricted',
           '**Leak from the ceiling**: written notice to the neighbour, then condomínio, then insurer',
-          '**Aggressive neighbour**: PSP 112 in case of physical threat; Provedor de Justiça for a recurring conflict'
+          'Replace with: “Aggressive neighbour: if there is an immediate threat — 112/PSP/GNR; file a queixa-crime with PSP/GNR/Ministério Público. For repeated non-criminal conflicts — Julgados de Paz or mediação, if available”.'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'Typical condomínio fee', amountEURMin: 15, amountEURMax: 80, note: '€/month for 70-100 m²' },
-    { label: 'Fundo Comum de Reserva', amountEUR: 0, note: '10% of the monthly fee' },
+    { label: 'Typical condomínio contribution', amountEURMin: 15, amountEURMax: 80, note: '€/month for 70-100 m²' },
+    { label: 'Fundo Comum de Reserva', amountEUR: 0, note: '10% of the monthly contribution' },
     { label: 'Noise fine (individual)', amountEURMin: 200, amountEURMax: 2500 },
     { label: 'Lawyer for civil court', amountEURMin: 500, amountEURMax: 2000 }
   ],

@@ -3,7 +3,7 @@ export default {
   id: 'rnal-2026-mudancas',
   categoryId: 'housing_rent',
   title: 'RNAL — Registo Nacional de Alojamento Local: изменения 2026',
-  tldr: 'В 2026 AL снова регулируется в основном через DL 128/2014 с изменениями DL 76/2024: национальная «заморозка» новых apartamentos и автоматическое истечение регистраций из Mais Habitação отменены, но Câmara Municipal может вводить zonas de contenção и лимиты. Любой AL обязан иметь RNAL-номер, показывать его в объявлениях и работать через SIBA/MARGEM/RNAL. За нелегальный AL штраф: физлица до 4 000 €, компании 25 000–40 000 €. Доход обычно идёт в IRS categoria B.',
+  tldr: 'В 2026 AL снова регулируется в основном через DL 128/2014 с изменениями DL 76/2024: национальная «заморозка» новых apartamentos и автоматическое истечение регистраций из Mais Habitação отменены, но Câmara Municipal может вводить zonas de contenção и лимиты. Write: "Любой AL обязан иметь действительный RNAL-номер и указывать его в объявлениях. Отдельно, при размещении иностранных гостей, действуют обязанности по boletins de alojamento через соответствующую систему безопасности/AIMA; налоговые обязанности выполняются через Finanças." Remove "MARGEM" unless you explain exactly what system you mean and cite an official source. За нелегальный AL штраф: физлица до 4 000 €, компании 25 000–40 000 €. Доход обычно идёт в IRS categoria B.',
   tags: ['rnal', 'al', 'аренда', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -25,7 +25,7 @@ export default {
           'Тип AL: apartamento, moradia, quartos, estabelecimento de hospedagem или hostel — от этого зависят требования.',
           'Право использовать объект: собственность, договор аренды или договор эксплуатации должны прямо позволять Alojamento Local.',
           'Если вы арендатор, нужен письменный договор с locador/senhorio, разрешающий AL; обычный contrato de arrendamento для жилья сам по себе не даёт права сдавать туристам.',
-          'Condomínio: проверьте regulamento do condomínio и протоколы assembleia de condóminos; для hostel в здании с horizontal property требуется согласие condomínio.',
+          'Add: "Для apartamento в prédio em propriedade horizontal проверьте título constitutivo и regulamento do condomínio: если они запрещают AL/uses incompatible with AL, регистрация может быть оспорена. Даже после регистрации assembleia de condóminos может, в предусмотренных законом случаях, pedir ao presidente da Câmara o cancelamento do registo, especially for repeated nuisance or disturbance."',
           'Segurança: огнетушитель, аптечка, аварийная информация, правила эвакуации и контакты 112.',
           'Livro de reclamações físico и eletrónico: для AL обязателен доступ к книге жалоб.',
           'Seguro de responsabilidade civil: обязателен для эксплуатации AL; отсутствие страховки может привести к отмене регистрации.',
@@ -37,7 +37,7 @@ export default {
       id: 'register-rnal',
       title: 'Как получить RNAL-номер',
       content: [
-        { kind: 'paragraph', text: 'Регистрация AL — это comunicação prévia com prazo в Câmara Municipal через Balcão do Empreendedor/SIBA. После подачи объект получает номер формата вроде 12345/AL, который появляется в RNAL. Câmara может проверить документы и провести vistoria.' },
+        { kind: 'paragraph', text: 'Регистрация AL — это comunicação prévia com prazo в Câmara Municipal через Balcão do Empreendedor/SIBA. Write: "Регистрация подаётся как comunicação prévia com prazo через Balcão do Empreendedor. Номер/запись RNAL не означает, что можно сразу принимать гостей: нужно дождаться истечения применимого срока без oposição da Câmara, если муниципальные правила не требуют иного; Câmara может проверять документы и проводить vistoria."' },
         { kind: 'checklist', items: [
           'Зайдите через ePortugal/Balcão do Empreendedor или канал, указанный Câmara Municipal.',
           'Укажите titular da exploração: физлицо или компания, NIF/NIPC, адрес, контакты.',
@@ -74,7 +74,7 @@ export default {
       id: 'fines-and-tax',
       title: 'Штрафы и IRS в 2026',
       content: [
-        { kind: 'paragraph', text: 'Главный риск — размещать туристов без действующей регистрации RNAL или рекламировать объект без номера AL. По DL 128/2014 это contraordenação muito grave: для физлиц штраф обычно 2 500–4 000 €, для компаний 25 000–40 000 €. Дополнительно возможны закрытие объекта, отмена регистрации и санкции от Câmara.' },
+        { kind: 'paragraph', text: 'Separate them: "Exploração de AL sem registo válido é contraordenação muito grave: pessoas singulares 2 500–4 000 €, pessoas coletivas 25 000–40 000 €. Falhas de publicidade/identificação, como omitir o número de registo no anúncio, também são sancionáveis, mas devem ser tratadas separadamente conforme o artigo de contraordenações aplicável." Дополнительно возможны закрытие объекта, отмена регистрации и санкции от Câmara.' },
         { kind: 'paragraph', text: 'Налогово AL обычно считается предпринимательским доходом IRS categoria B, а не обычной долгосрочной арендой categoria F. В regime simplificado налогооблагаемая база зависит от вида AL: для apartamentos/moradias часто применяется коэффициент 0,35 к валовой выручке; для некоторых hospedagem — иной коэффициент. При больших расходах может быть выгодна contabilidade organizada.' },
         { kind: 'checklist', items: [
           'Откройте atividade в Finanças до начала приёма гостей.',

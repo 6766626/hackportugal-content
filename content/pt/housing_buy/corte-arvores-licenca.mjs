@@ -2,58 +2,58 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'corte-arvores-licenca',
   categoryId: 'housing_buy',
-  title: 'Corte de árvores no seu terreno — o que é permitido e onde a coima passa dos 5 000 €',
-  tldr: 'Nem todas as árvores no seu terreno podem ser simplesmente abatidas. Sobreiro e azinheira estão protegidos a nível nacional (Decreto-Lei 169/2001) — coima de 5 000-50 000 € por cada árvore sem autorização do ICNF (Instituto da Conservação da Natureza e das Florestas).\n\nOliveira com mais de 1951 também está protegida (DL 120/86).\n\nQuaisquer trabalhos em zonas REN/RAN (reservas ecológica/agrícola nacionais) ou em parques naturais exigem autorizações separadas. Em zona urbana, é quase sempre necessária autorização da Câmara Municipal.\n\nO pedido é feito online através do e-Balcão ICNF para sobreiro/azinheira ou através da Junta de Freguesia.\n\nO prazo de decisão é normalmente de 30–90 dias.',
-  tags: ['árvores', 'corte', 'sobreiro', 'azinheira', 'icnf', 'câmara'],
+  title: 'Abate de árvores no seu terreno — o que é permitido e onde há coimas de 5 000 €+',
+  tldr: 'Nem todas as árvores no seu terreno podem simplesmente ser abatidas. Sobreiro e azinheira estão protegidos a nível nacional (Decreto-Lei 169/2001) — Escrever com mais cautela: "O abate/arranque ilegal de sobreiro/azinheira constitui contraordenação ambiental; as coimas podem atingir dezenas de milhares de euros para pessoas singulares e ser substancialmente mais elevadas para empresas, além de medidas de reposição. O montante depende do tipo de infração e da culpa." (Instituto da Conservação da Natureza e das Florestas).\n\nOliveira com mais de 1951 — também está protegida (DL 120/86).\n\nQuaisquer trabalhos em zonas REN/RAN (reservas ecológica/agrícola nacionais) ou parques naturais exigem autorizações próprias. Em zona urbana, quase sempre é necessária autorização da Câmara Municipal.\n\nEscrever: "Pedidos relativos a sobreiro/azinheira — através do ICNF/e-Balcão. Relativos a oliveira — junto dos serviços agrícolas competentes/CCDR. Relativos a árvores municipais/zona urbana — Câmara Municipal. A Junta de Freguesia pode apenas ajudar com informação local, mas normalmente não emite estas autorizações."\n\nO prazo de apreciação é normalmente de 30–90 dias.',
+  tags: ['árvores', 'abate', 'sobreiro', 'azinheira', 'icnf', 'câmara'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'protected-species',
       title: 'Espécies de árvores protegidas — o mais importante',
       content: [
-        { kind: 'paragraph', text: 'Em Portugal há espécies protegidas a nível nacional. O abate ilegal mesmo de uma só árvore = responsabilidade contraordenacional grave e, em casos severos, também procedimento criminal.' },
+        { kind: 'paragraph', text: 'Em Portugal existem espécies protegidas a nível nacional. O abate ilegal mesmo de uma só árvore = responsabilidade contraordenacional grave e, em casos graves, também procedimento criminal.' },
         { kind: 'checklist', items: [
           '🛑 SOBREIRO (Quercus suber) — TODAS as árvores estão protegidas. Coima de 5 000-50 000 € por árvore',
           '🛑 AZINHEIRA (Quercus rotundifolia/ilex) — TODAS as árvores estão protegidas',
           '🛑 OLIVEIRA com mais de ~70 anos (referência: diâmetro do tronco > 60 cm) — protegida pelo DL 120/86',
-          '🛑 CARVALHO (Quercus robur, faginea) — em certos locais tem protecção adicional em parques naturais',
-          '🛑 CASTANHEIRO — protegido em zonas IGP (Trás-os-Montes)',
-          '🛑 PINHEIRO MANSO — protegido na RNAP',
+          '🛑 CARVALHO (Quercus robur, faginea) — em alguns locais tem proteção adicional em parques naturais',
+          'Substituir por: "CASTANHEIRO — não é uma espécie nacionalmente protegida como o sobreiro/azinheira; verifique regras fitossanitárias, áreas protegidas, REN/RAN, PDM e regulamentos municipais."',
+          'Escrever: "PINHEIRO MANSO — não tem a mesma proteção nacional que o sobreiro/azinheira; em áreas protegidas/RNAP, REN/RAN ou por PDM pode ser necessária autorização/parecer."',
           '✅ Outras fruteiras (macieira, limoeiro, laranjeira, pessegueiro) — normalmente podem ser abatidas no seu terreno sem autorização',
-          '✅ EUCALIPTO, acácia — invasoras; a remoção é frequentemente incentivada'
+          '✅ EUCALIPTO, acácia — invasoras, a remoção é frequentemente incentivada'
         ] },
-        { kind: 'warning', text: 'Sobreiro e azinheira são símbolos do país e fonte de cortiça/bolotas para a suinicultura. A lei é rigorosa, as coimas são reais — todos os anos há processos mesmo por casos isolados. Se vir a casca característica de “cortiça”, com fendas profundas, e uma copa ampla, é quase certamente um sobreiro. Não corte sem autorização.' }
+        { kind: 'warning', text: 'Sobreiro e azinheira são símbolos do país e fonte de cortiça/bolotas para suinicultura. A lei é rigorosa, as coimas são reais — todos os anos há processos mesmo por casos isolados. Se vir uma casca característica de “cortiça” com fendas profundas e uma copa larga — é quase certamente sobreiro. Não abata sem autorização.' }
       ]
     },
     {
       id: 'how-identify',
       title: 'Como reconhecer sobreiro/azinheira/oliveira',
       content: [
-        { kind: 'paragraph', text: 'Antes de qualquer trabalho, identifique com precisão o que cresce no terreno. O mais seguro é chamar um engenheiro florestal ou um especialista do ICNF para vistoria (normalmente 50-150 €).' },
+        { kind: 'paragraph', text: 'Antes de quaisquer trabalhos, identifique com precisão o que cresce no terreno. O mais seguro é chamar um engenheiro florestal ou um especialista do ICNF para inspeção (normalmente 50-150 €).' },
         { kind: 'checklist', items: [
-          'SOBREIRO: casca grossa de cortiça com fendas longitudinais, copa ampla e aberta, folhas elípticas dentadas; bolotas em cúpulas',
-          'AZINHEIRA: visualmente lembra o azevinho — folhas pequenas verde‑escuras; nos rebentos jovens há pequenos espinhos; casca cinzenta',
-          'OLIVEIRA: folhas estreitas prateadas, facilmente reconhecível; se a árvore for claramente mais antiga do que 70 anos, entra no regime de protecção, sendo melhor confirmar com um perito',
-          'CARVALHO: folha “de carvalho” clássica, casca mais clara, amarelecimento no outono',
+          'SOBREIRO: casca de cortiça espessa com fendas longitudinais, copa ampla, folhas elípticas dentadas; bolotas em cúpulas',
+          'AZINHEIRA: visualmente lembra o azevinho — folhas pequenas verde‑escuras, com pequenos espinhos nos rebentos jovens; casca cinzenta',
+          'OLIVEIRA: folhas estreitas prateadas, facilmente reconhecível; se a árvore for claramente mais velha do que 70 anos — entra na categoria protegida, é melhor confirmar com um perito',
+          'CARVALHO: folha clássica de “carvalho”, casca que clareia, amarelecimento no outono',
           'PINHEIRO MANSO: copa larga em forma de guarda-sol, agulhas compridas',
-          'EUCALIPTO: tronco liso com casca a desprender-se, folhas aromáticas — não está protegido, pode ser abatido'
+          'EUCALIPTO: tronco liso com casca que se desprende, folhas aromáticas — não protegido, pode ser abatido'
         ] },
-        { kind: 'paragraph', text: 'Aplicações como iNaturalist ou Plant.id ajudam através de fotografia. Não têm 100% de precisão, mas são um ponto de partida conveniente.' }
+        { kind: 'paragraph', text: 'As aplicações iNaturalist ou Plant.id ajudam por fotografia. Não é 100% preciso, mas é um ponto de partida cómodo.' }
       ]
     },
     {
       id: 'when-license-needed',
-      title: 'Quando é necessária autorização — casos principais',
+      title: 'Quando é necessária autorização — principais casos',
       content: [
         { kind: 'checklist', items: [
-          '🛑 Sempre para sobreiro/azinheira e para oliveira protegida: é necessária autorização do ICNF, mesmo para uma só árvore',
-          '🛑 Em áreas de conservação da natureza (PN, RN, ZPE, ZEC): é necessária autorização para quaisquer espécies',
+          'Dividir em dois pontos: "Sobreiro/azinheira: autorização do ICNF" e "Oliveira: autorização dos serviços agrícolas competentes/CCDR ao abrigo do DL 120/86; além de regras municipais, se aplicável."',
+          'Substituir por: "Em zonas RNAP/Natura 2000, verifique o plano de ordenamento/regulamento da área protegida e solicite parecer/licença do ICNF se o abate puder afetar habitats, paisagem ou valores protegidos."',
           '🛑 Em REN (Reserva Ecológica Nacional) e RAN (Reserva Agrícola Nacional): é necessária autorização da CCDR (Comissão de Coordenação e Desenvolvimento Regional)',
-          '🛑 Em zona urbana (zona urbana segundo o PDM — Plano Diretor Municipal): na maioria dos municípios é necessária autorização da Câmara Municipal',
-          '🛑 Em terrenos do Estado/junto a estradas: apenas com autorização da Câmara Municipal ou da Infraestruturas de Portugal',
+          '🛑 Em zona urbana (zona urbana pelo PDM — Plano Diretor Municipal): na maioria dos municípios é necessária autorização da Câmara Municipal',
+          '🛑 Em terreno do Estado/junto a estradas: apenas com autorização da Câmara Municipal ou da Infraestruturas de Portugal',
           '✅ Em zona rural, no seu terreno, espécies não protegidas: regra geral, não é necessária autorização',
-          '✅ Árvore em situação de emergência (risco de queda sobre casa ou estrada): pode ser removida de imediato, mas é obrigatório notificar a Câmara Municipal/ICNF posteriormente, com fotografias e uma justificação breve',
-          'Verifique o PDM do seu município: pode estabelecer protecção adicional para árvores e alamedas'
+          'Escrever: "Em caso de perigo imediato, primeiro, se possível, telefone à Proteção Civil/Câmara/GNR/ICNF e documente o risco com fotografia/vídeo/relatório. Remova apenas o mínimo necessário para a segurança; para sobreiro/azinheira/oliveira, depois formaliza comunicação/pedido com urgência. A comunicação posterior não garante ausência de sanção."',
+          'Verifique o PDM do seu município: pode estabelecer proteção adicional de árvores e alamedas'
         ] }
       ]
     },
@@ -69,10 +69,10 @@ export default {
               { kind: 'checklist', items: [
                 'Caderneta predial (das Finanças)',
                 'Certidão de teor (da Conservatória do Registo Predial)',
-                'Esquema/mapa com a localização exacta de cada árvore (coordenadas GPS)',
-                'Fotografias de cada árvore a partir de vários ângulos',
+                'Esquema/mapa com a localização exata de cada árvore (coordenadas GPS)',
+                'Fotografias de cada árvore de vários ângulos',
                 'Justificação: motivo (doença, risco, construção, reabilitação do terreno)',
-                'Se for para construção — projecto aprovado pela Câmara Municipal'
+                'Se for para construção — projeto aprovado pela Câmara Municipal'
               ] }
             ]
           },
@@ -80,22 +80,22 @@ export default {
             id: 's2',
             title: 'Submissão ao ICNF',
             content: [
-              { kind: 'paragraph', text: 'icnf.pt → e-Balcão → Pedido de Corte ou Arranque de Sobreiros e Azinheiras. Acesso com Chave Móvel Digital (CMD).' },
-              { kind: 'paragraph', text: 'Taxas: aproximadamente 50-200 € pelo pedido +, se necessário, deslocação de técnico ao local por 50-150 €.' }
+              { kind: 'paragraph', text: 'icnf.pt → e-Balcão → Pedido de Corte ou Arranque de Sobreiros e Azinheiras. Entrada com Chave Móvel Digital (CMD).' },
+              { kind: 'paragraph', text: 'Taxas: aproximadamente 50-200 € pela submissão +, se necessário, deslocação de especialista ao local 50-150 €.' }
             ]
           },
           {
             id: 's3',
-            title: 'Vistoria técnica',
+            title: 'Inspeção técnica',
             content: [
-              { kind: 'paragraph', text: 'O ICNF pode enviar um técnico para confirmar o estado. Para árvores saudáveis, quase sempre haverá indeferimento. São aceites fundamentos como: árvore morta/a secar, risco estrutural, ou projecto de compensação (plantação obrigatória de 5+ novas árvores por cada árvore abatida).' }
+              { kind: 'paragraph', text: 'O ICNF pode enviar um especialista para confirmar o estado. Para árvores saudáveis, quase sempre haverá indeferimento. Substituir por: "O ICNF pode estabelecer medidas compensatórias/de reposição, incluindo plantação, proteção da regeneração ou outras condições; o coeficiente não é universal e é indicado na decisão."' }
             ]
           },
           {
             id: 's4',
             title: 'Decisão',
             content: [
-              { kind: 'paragraph', text: 'O prazo de decisão é de 30–90 dias. A autorização é frequentemente condicionada: com obrigação de compensação (normalmente 5 novas plantas por cada árvore abatida). Validade — 1 ano: os trabalhos devem ser executados dentro desse prazo.' }
+              { kind: 'paragraph', text: 'Prazo de apreciação 30–90 dias. Usar: "A autorização pode conter condições e medidas de compensação/reposição; deve cumprir exatamente as condições do ICNF/município/CCDR constantes da decisão." Validade — 1 ano: os trabalhos devem ser realizados dentro desse prazo.' }
             ]
           }
         ] }
@@ -103,19 +103,19 @@ export default {
     },
     {
       id: 'penalties',
-      title: 'Coimas — é assunto sério',
+      title: 'Coimas — isto é sério',
       content: [
         { kind: 'checklist', items: [
-          'Sobreiro/azinheira sem autorização: 5 000-50 000 € por cada árvore (para pessoas singulares)',
-          'Sobreiro/azinheira sem autorização (para pessoas colectivas): até 250 000 € por árvore',
+          'Substituir por formulação não falsa: "Sobreiro/azinheira sem autorização: sanção contraordenacional ambiental elevada; para pessoas singulares são possíveis coimas de dezenas de milhares de euros, para empresas — muito mais elevadas; adicionalmente podem existir medidas de reposição/compensação."',
+          'Evitar um limite máximo rígido salvo citação da categoria exata de infração aplicável. Texto sugerido: "Para pessoas coletivas, as coimas podem ser substancialmente mais elevadas, até centenas de milhares ou milhões de euros nas infrações ambientais mais graves; o intervalo concreto depende da qualificação da infração."',
           'Oliveira antiga sem autorização: 1 000-10 000 €',
-          'Em parque natural sem autorização: 5 000-50 000 € + obrigação de repor a vegetação',
+          'Em parque natural sem autorização: 5 000-50 000 € + obrigação de repor as plantações',
           'Em REN/RAN sem autorização: 1 500-50 000 €',
           'Em zona urbana sem autorização da Câmara Municipal: 1 000-25 000 € (conforme as regras do município concreto)',
-          'Pode haver procedimento criminal em caso de infracções sistemáticas ou dano ecológico significativo',
-          'Compensação: plantação de 5-10 novas plantas por cada árvore abatida'
+          'Pode haver procedimento criminal em caso de infrações sistemáticas ou dano ambiental significativo',
+          'Substituir por: "Compensação/reposição: apenas segundo as condições da autorização concreta ou da decisão da autoridade; pode incluir plantação, manutenção, proteção da regeneração natural ou outras medidas."'
         ] },
-        { kind: 'warning', text: 'A GNR (Guarda Nacional Republicana), através do SEPNA (patrulha ambiental), fiscaliza zonas rurais com drones e imagens de satélite. A verificação posterior pode acontecer até anos depois. Os vizinhos comunicam frequentemente cortes ilegais. Não arrisque.' }
+        { kind: 'warning', text: 'A GNR, unidade SEPNA (patrulha ambiental), fiscaliza zonas rurais com drones e imagens de satélite. A fiscalização posterior é possível mesmo anos depois. Os vizinhos comunicam frequentemente abates ilegais. Não arrisque.' }
       ]
     },
     {
@@ -123,19 +123,19 @@ export default {
       title: 'Situações frequentes',
       content: [
         { kind: 'checklist', items: [
-          'Comprou uma quinta e há sobreiro no terreno — quer remover para construir casa → será necessária autorização do ICNF + projecto de arquitectura + plantação compensatória. É possível, mas prepare-se para um processo de 6–12 meses',
+          'Comprou uma quinta, há um sobreiro no terreno — quer removê-lo para construir casa → será necessária autorização do ICNF + projeto de arquiteto + plantação compensatória. É possível, mas prepare-se para 6–12 meses de processo',
           'Um sobreiro caiu depois de uma tempestade e bloqueou a passagem → pode cortar e remover como medida urgente, depois notificar o ICNF com fotografias',
-          'Planeia cortar uma oliveira com ~80 anos → quase certamente será necessária autorização da Câmara Municipal. Muitas vezes é recusada; é melhor ponderar poda ou transplante',
-          'Um eucalipto cresceu demasiado e há risco de incêndio → pode ser abatido sem autorização; em certos locais isso é mesmo exigido para criar faixa de gestão de combustível',
-          'Uma macieira velha atrapalha a horta → não é necessária autorização (espécie não protegida)',
-          'Pinheiro manso em zona protegida → será necessária autorização da CCDR/ICNF',
+          'Substituir por: "...verifique a autorização ao abrigo do DL 120/86 junto dos serviços agrícolas regionais/CCDR e, separadamente, as regras municipais da Câmara, se o terreno estiver em zona urbana ou existir proteção municipal de árvores." Muitas vezes é indeferido; é melhor considerar poda ou transplante',
+          'Um eucalipto cresceu demasiado, risco de incêndio → pode ser abatido sem autorização; em alguns locais isto é até uma exigência para formar uma faixa de gestão de combustível',
+          'Uma macieira velha atrapalha a horta → não é necessária autorização (a espécie não é protegida)',
+          'Pinheiro manso em área protegida → será necessária autorização CCDR/ICNF',
           'Árvore seca de qualquer espécie → pode ser removida como medida de segurança, mas no caso de sobreiro/azinheira contacte primeiro o ICNF'
         ] }
       ]
     },
     {
       id: 'contractors',
-      title: 'Prestadores e custo dos trabalhos',
+      title: 'Empreiteiros e custo dos trabalhos',
       content: [
         { kind: 'paragraph', text: 'O abate de árvores grandes é trabalho para profissionais. Procure arboristas/podadores locais:' },
         { kind: 'checklist', items: [
@@ -143,9 +143,9 @@ export default {
           'Média (8–15 m): 300-800 €',
           'Grande (15–25 m): 800-2 000 €',
           'Sobreiro ou oliveira antiga (exige técnica especialmente cuidadosa): 1 500-5 000 €',
-          'Destoca/remoção do cepo (stump removal): +100-500 €',
+          'Destroçamento/remoção de cepo (stump removal): +100-500 €',
           'Transporte e eliminação: 50-200 €',
-          'Seguro do prestador: verifique obrigatoriamente; caso contrário, a responsabilidade por incidentes recairá sobre si',
+          'Seguro do empreiteiro: verifique obrigatoriamente; caso contrário, a responsabilidade por incidentes recairá sobre si',
           'Onde procurar: jardineiros.pt, FNAP, grupos locais de Facebook sobre jardins e terrenos'
         ] }
       ]
@@ -153,19 +153,19 @@ export default {
   ],
   costs: [
     { label: 'Autorização ICNF (sobreiro/azinheira)', amountEURMin: 50, amountEURMax: 200 },
-    { label: 'Vistoria técnica ICNF', amountEURMin: 50, amountEURMax: 150 },
+    { label: 'Inspeção técnica ICNF', amountEURMin: 50, amountEURMax: 150 },
     { label: 'Autorização Câmara Municipal (zona urbana)', amountEURMin: 30, amountEURMax: 200 },
     { label: 'Autorização CCDR (REN/RAN)', amountEURMin: 100, amountEURMax: 500 },
     { label: 'Identificação da espécie por especialista', amountEURMin: 50, amountEURMax: 200, note: 'Se for necessário confirmar a espécie/idade' },
     { label: 'Abate de árvore grande', amountEURMin: 800, amountEURMax: 2000 },
     { label: 'Abate de sobreiro/oliveira antiga', amountEURMin: 1500, amountEURMax: 5000 },
-    { label: 'Compensação: plantas (5+ árvores)', amountEURMin: 50, amountEURMax: 500, note: 'Compra e plantação' },
+    { label: 'Compensação: plantas jovens (5+ árvores)', amountEURMin: 50, amountEURMax: 500, note: 'Compra e plantação' },
     { label: 'Coima por sobreiro sem autorização', amountEURMin: 5000, amountEURMax: 50000, note: 'Por cada árvore' }
   ],
   sources: [
     { title: 'ICNF — Sobreiros e Azinheiras', url: 'https://www.icnf.pt/florestas/gfr/sa', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 169/2001 — protecção do sobreiro e da azinheira', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2001-34488075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 120/86 — protecção da oliveira', url: 'https://dre.pt/dre/detalhe/decreto-lei/120-1986-220815', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 169/2001 — proteção do sobreiro e da azinheira', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2001-34488075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 120/86 — proteção da oliveira', url: 'https://dre.pt/dre/detalhe/decreto-lei/120-1986-220815', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICNF e-Balcão — pedido de corte de sobreiros', url: 'https://eservicos.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'CCDR — autorizações REN', url: 'https://www.ccdr-lvt.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],

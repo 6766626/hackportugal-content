@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'Reconhecimento de Qualificação Profissional — если у вас есть педагогическая квалификация учителя и право преподавать в стране получения квалификации.',
           'Habilitação Própria — если у вас есть академический диплом по предмету, но нет полной португальской formação profissional para a docência.',
-          'Equivalência estrangeira в DGE — для признания иностранного школьного образования, например 9.º/12.º ano; это не даёт статус учителя.',
+          'Write: “Equivalência estrangeira de ensino básico/secundário — процедура признания иностранного школьного образования по правилам DGE, обычно подаётся через португальскую школу, а не напрямую в DGE; это не даёт статус учителя.”',
           'Reconhecimento de grau académico в DGES/университете — для иностранного высшего образования; часто нужно до оценки квалификации учителя.',
           'DL 227/2005 — ключевой режим признания иностранной профессиональной квалификации учителя.',
           'DL 79/2014 — португальский режим formação profissional для educadores de infância и professores dos ensinos básico e secundário.'
@@ -42,7 +42,7 @@ export default {
     },
     {
       id: 'habilitacao-propria',
-      title: '3. Когда использовать Habilitação Própria',
+      title: 'Add a clear caveat near the start: “Habilitação Própria обычно не является отдельной процедурой признания профессии и не выдаёт статус profissionalizado; это проверка соответствия академической подготовки требованиям конкретного grupo de recrutamento при кандидатуре/найме. Проверяйте актуальный Guia/Lista de Habilitações da DGAE для конкретной группы.”',
       content: [
         { kind: 'paragraph', text: 'Habilitação Própria — это путь для людей с подходящим академическим образованием по предмету, но без признанной formação profissional para a docência.\n\nПример: диплом математика, физика, инженера, филолога или биолога может подходить для отдельных grupos de recrutamento, если учебный план покрывает нужную научную область.' },
         { kind: 'checklist', items: [

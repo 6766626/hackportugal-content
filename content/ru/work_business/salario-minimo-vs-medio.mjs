@@ -11,7 +11,7 @@ export default {
       id: 'what-is-smn',
       title: 'Что такое SMN в 2026',
       content: [
-        { kind: 'paragraph', text: 'Salário Mínimo Nacional, официально retribuição mínima mensal garantida, — минимальная месячная брутто-зарплата за full-time работу. В 2026 году сумма — 920 €.' },
+        { kind: 'paragraph', text: 'Salário Mínimo Nacional, официально retribuição mínima mensal garantida, — минимальная месячная брутто-зарплата за full-time работу. Write: "В 2026 году национальная RMMG/SMN — 920 € брутто в месяц. В Região Autónoma da Madeira и Região Autónoma dos Açores региональная минимальная зарплата может быть выше — проверяйте региональный diploma/applicable collective agreement."' },
         { kind: 'paragraph', text: 'В Португалии зарплату обычно считают не как 12, а как 14 выплат в год: 12 обычных месяцев, subsídio de férias и subsídio de Natal. Поэтому годовой минимум при полной ставке — 920 € × 14 = 12 880 € брутто.' },
         { kind: 'checklist', items: [
           'SMN 2026: 920 € брутто в месяц',
@@ -106,7 +106,7 @@ export default {
     { label: 'Lisbon software dev, ориентир брутто', amountEURMin: 2500, amountEURMax: 4500, note: 'Для middle/senior employee-контрактов; market range, не legal minimum' }
   ],
   sources: [
-    { title: 'DRE — Decreto-Lei об актуализации retribuição mínima mensal garantida', url: 'https://dre.pt/dre/detalhe/decreto-lei', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DRE — Decreto-Lei об актуализации retribuição mínima mensal garantida', url: 'Replace with the exact DRE permalink for the Decreto-Lei that updates the retribuição mínima mensal garantida to €920 for 2026, and include the decree number/date in the title.', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ACT — informação sobre retribuição mínima mensal garantida e direitos laborais', url: 'https://www.act.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — contribuições para trabalhadores por conta de outrem', url: 'https://www.seg-social.pt/trabalhadores-por-conta-de-outrem', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'INE — estatísticas de remunerações em Portugal', url: 'https://www.ine.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }

@@ -57,7 +57,7 @@ export default {
             ] }
           ] },
           { id: 'holvi', title: 'Holvi — банк + инвойсы, но проверяйте fiscal compliance', content: [
-            { kind: 'paragraph', text: 'Holvi удобен как business account с карточкой, IBAN, категориями расходов и выставлением клиентских инвойсов. Но для Португалии ключевой вопрос не дизайн PDF, а сертификат AT, ATCUD, QR и comunicação à AT.' },
+            { kind: 'paragraph', text: 'Написать жёстче: "Holvi можно рассматривать только как банковский/expense-инструмент, если ваш тип бизнеса и страна регистрации вообще поддерживаются Holvi. Для налогового документа в Португалии используйте Portal das Finanças или программу, которая именно для данного продукта указана в списке programas de faturação certificados da AT; инвойс Holvi сам по себе не заменяет fatura/fatura-recibo для AT." Но для Португалии ключевой вопрос не дизайн PDF, а сертификат AT, ATCUD, QR и comunicação à AT.' },
             { kind: 'warning', text: 'Если конкретный продукт Holvi для вашего аккаунта не указан в списке programas de faturação certificados AT, используйте Holvi для банковского учёта и напоминаний, а fiscal invoice/recibo выдавайте в Portal das Finanças или в сертифицированной программе.' }
           ] },
           { id: 'visee-faturalia-moloni', title: 'Visee, Faturalia, MOLONI — недорогие PT-сервисы', content: [
@@ -65,7 +65,7 @@ export default {
             { kind: 'checklist', items: [
               'Проверьте номер сертификата AT на сайте сервиса и в списке Portal das Finanças.',
               'Убедитесь, что сервис поддерживает ATCUD и QR code.',
-              'Проверьте, есть ли recibos, faturas-recibo и credit notes, а не только обычные invoices.',
+              'Уточнить: "Проверьте, какие именно документы поддерживаются: fatura, recibo, fatura-recibo, nota de crédito. Не путайте их с официальным recibo verde eletrónico в Portal das Finanças; если вы хотите именно emissão de recibos verdes eletrónicos через AT, используйте Portal das Finanças."',
               'Проверьте поддержку retenção na fonte для recibos verdes.',
               'Проверьте экспорт SAF-T/PT и автоматическую comunicação à AT.',
               'Проверьте, можно ли дать доступ contabilista без передачи вашего пароля Finanças.'

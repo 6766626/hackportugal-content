@@ -59,7 +59,7 @@ export default {
               'NIF работника, если есть.',
               'Дата начала договора.',
               'График и предполагаемая remuneração.',
-              'Тип базы взносов: remuneração convencional или remuneração real.'
+              'Write: "База взносов обычно remuneração convencional; режим remuneração real/efetiva применяется при соблюдении условий Segurança Social и важен, например, для защиты по безработице. Перед выбором проверьте условия в Segurança Social Direta/guia oficial и зафиксируйте это с работником."'
             ] }
           ] },
           { id: 'submit-admission', title: '2. Подайте admissão', content: [
@@ -77,7 +77,7 @@ export default {
       title: 'Сколько платить: зарплата, взносы, отпускные',
       content: [
         { kind: 'paragraph', text: 'Минимальная оплата full-time в 2026 ориентируется на SMN 920 € в месяц, обычно 14 выплат в год: 12 зарплат + subsídio de férias + subsídio de Natal. Для part-time считайте пропорционально часам, но не ниже минимальной ставки.' },
-        { kind: 'paragraph', text: 'Для Segurança Social у домашнего труда есть два режима базы. Remuneração real — взносы с фактической зарплаты. Remuneração convencional — база по IAS; в 2026 IAS = 537,13 €, часовая условная база около 3,10 €. Это база для взносов, а не разрешение платить работнику 3,10 €/ч.' },
+        { kind: 'paragraph', text: 'Add after this paragraph: "Важно: conventional и real отличаются не только суммой взносов, но и уровнем социальной защиты; для права на subsídio de desemprego домашнему работнику обычно нужен режим на фактическую зарплату/условия, признанные Segurança Social." Это база для взносов, а не разрешение платить работнику 3,10 €/ч.' },
         { kind: 'checklist', items: [
           'Full-time 40 ч/нед: не ниже 920 € gross/мес × 14 в 2026.',
           'Part-time: зарплата пропорциональна часам, плюс пропорциональные отпускные и рождественские.',

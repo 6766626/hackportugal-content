@@ -3,58 +3,58 @@ export default {
   id: 'close-activity',
   categoryId: 'work_business',
   title: 'Encerramento de atividade (trabalhador independente) e de pessoa coletiva em Portugal',
-  tldr: 'Encerramento de recibos verdes (cessação de atividade): gratuito através do Portal das Finanças.\n\nPrazo — normalmente 30 dias a contar da data de cessação da atividade; em caso de entrega tardia pode haver coima. É necessário: entregar a declaração final de IVA (se estava no regime normal) + Modelo 3 IRS (se houve volume de negócios no ano) + notificar a Segurança Social. Encerrar uma Unipessoal / Lda é mais complexo: dissolução + liquidação através da Conservatória Comercial + reporte final.\n\nProcesso de 6-12 meses. Se houver dívidas — insolvência através do tribunal.',
-  tags: ['cessação', 'encerramento de atividade independente', 'liquidação', 'pessoa coletiva'],
+  tldr: 'Encerramento de recibos verdes (cessação de atividade): através do Portal das Finanças, gratuitamente.\n\nPrazo — normalmente 30 dias a contar da data de cessação da atividade; em caso de entrega tardia, pode haver coima. É necessário: entregar a declaração final de IVA (se estava no regime normal) + Modelo 3 IRS (se houve volume de negócios no ano) + notificar a Segurança Social. Encerrar uma Unipessoal / Lda é mais complexo: dissolução + liquidação através da Conservatória Comercial + declarações finais.\n\nProcesso de 6-12 meses. Se houver dívidas — insolvência através do tribunal.',
+  tags: ['cessação', 'encerramento trabalhador independente', 'liquidação', 'pessoa coletiva'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'cessacao-atividade',
-      title: '👤 Encerramento de atividade independente (recibos verdes)',
+      title: '👤 Encerramento de trabalhador independente (recibos verdes)',
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: '1. Concluir o trabalho ativo', content: [
             { kind: 'checklist', items: [
               'Emitir o último recibo',
-              'Receber pagamentos dos clientes (idealmente 30 dias antes do encerramento)',
-              'Reunir todos os comprovativos de fornecedores para IVA deduzida',
-              'Informar os clientes sobre a cessação do trabalho (e-mail, carta) — é uma boa prática',
-              'Contratos ativos — rescindir ou encaminhar'
+              'Receber os pagamentos dos clientes (idealmente 30 dias antes do encerramento)',
+              'Reunir todos os recibos/faturas de fornecedores para IVA deduzida',
+              'Notificar os clientes da cessação do trabalho (email, carta) — é uma boa prática',
+              'Contratos ativos — rescindir ou reencaminhar'
             ]}
           ]},
           { id: 'c2', title: '2. Submeter a cessação na AT', content: [
             { kind: 'checklist', items: [
               'Portal das Finanças → Serviços → Atividades → Cessação',
               'Indicar a data do último dia de atividade',
-              'Motivo: voluntary (mais comum escolher), trabalho subordinado (se passou a trabalhar por conta de outrem), mudança de país, aposentação',
+              'Motivo: voluntary (normalmente a escolher), trabalho subordinado (se passou para trabalho por conta de outrem), mudança de país, aposentação',
               'Submeter — o processo é imediato, o certificado chega no prazo de uma hora',
-              'Pode indicar a data efetiva de cessação, incluindo uma data passada, mas se o prazo de 30 dias tiver sido ultrapassado — pode haver coima e pedido de provas pela AT'
+              'Pode indicar a data efetiva de cessação, incluindo uma data passada, mas se o prazo de 30 dias tiver sido ultrapassado — pode haver coima e pedido de comprovativos pela AT'
             ]}
           ]},
           { id: 'c3', title: '3. IVA final', content: [
             { kind: 'checklist', items: [
-              'Se estava no normal IVA regime e entregava periodic IVA declarations — entregue a última declaração relativa ao período da cessação. Se estava na isenção art. 53 CIVA, normalmente não é entregue periodic IVA',
+              'Se estava no normal IVA regime e entregava periodic IVA declarations — entregue a última declaração relativa ao período da cessação. Se estava em isenção art. 53 CIVA, normalmente não é entregue periodic IVA',
               'Período: trimestre / mês em que ocorreu a cessação',
-              'Prazo: de acordo com as regras habituais do período de IVA — a declaração é normalmente até ao dia 20 do segundo mês após o mês/trimestre, pagamento até ao dia 25 (CIVA arts. 27, 41)',
+              'Prazo: de acordo com as regras normais do período de IVA — a declaração é normalmente entregue até ao dia 20 do segundo mês após o mês/trimestre, pagamento até ao dia 25 (CIVA arts. 27, 41)',
               'Se houver IVA a pagar (deve à AT) — pagar',
-              'Se houver crédito (a AT deve a si) — receber o reembolso em 30-60 dias'
+              'Substituir por: «Se existir crédito de IVA, pode pedir reembolso na declaração final/periódica, cumprindo as condições do CIVA; o prazo depende da verificação da AT e não é garantido como 30–60 dias».'
             ]}
           ]},
           { id: 'c4', title: '4. IRS final', content: [
             { kind: 'checklist', items: [
-              'Na declaração de IRS (entrega em abril-junho do ano seguinte) — o Anexo B continua a ser preenchido',
+              'Na declaração de IRS (entrega entre abril e junho do ano seguinte) — o Anexo B continua a ser preenchido',
               'Calcular o imposto sobre todo o volume de negócios do ano da cessação',
-              'No regime simplificado, a base é calculada pelo coeficiente do CIRS art. 31: frequentemente 75% para serviços profissionais, mas para outros rendimentos os coeficientes são diferentes',
-              'Retenção na fonte (retenções dos clientes) — é abatida ao imposto',
+              'No regime simplificado, a base é calculada segundo o coeficiente do CIRS art. 31: frequentemente 75% para serviços profissionais, mas para outros rendimentos os coeficientes são diferentes',
+              'Retenção na fonte (retenções dos clientes) — são abatidas ao imposto',
               'Se o montante for negativo — reembolso'
             ]}
           ]},
           { id: 'c5', title: '5. Segurança Social', content: [
             { kind: 'checklist', items: [
               'Recebem automaticamente a notificação da AT no prazo de 10 dias',
-              'MAS: se tinha carência (isenção de 12 meses) e não pagava contribuições — a longo prazo é melhor confirmar na Segurança Social Direta',
-              'As contribuições de TI são calculadas pela quarterly declaration: relevant income é normalmente 70% dos serviços ou 20% de sales/production/hotel/restaurant do trimestre anterior, taxa TI 21,4%. Após a cessação, verifique a última declaração trimestral na Segurança Social Direta',
-              'O prazo de pagamento das contribuições à SS é normalmente do dia 10 ao dia 20 do mês seguinte',
-              '**Após a cessação**: as contribuições deixam de ser cobradas; o tempo contributivo acumulado mantém-se (para futura pensão)'
+              'MAS: se tinha carência (isenção de 12 meses) e não pagava contribuições — a longo prazo, é melhor confirmar na Segurança Social Direta',
+              'As contribuições TI são calculadas pela quarterly declaration: relevant income normalmente 70% dos serviços ou 20% de sales/production/hotel/restaurant do trimestre anterior, taxa TI 21,4%. Após a cessação, verifique a última declaração trimestral na Segurança Social Direta',
+              'O prazo de pagamento das contribuições SS é normalmente do dia 10 ao dia 20 do mês seguinte',
+              '**Após a cessação**: deixam de ser cobradas contribuições; o período contributivo acumulado mantém-se (para a futura pensão)'
             ]}
           ]}
         ]}
@@ -65,10 +65,10 @@ export default {
       title: '🔄 Reabrir',
       content: [
         { kind: 'checklist', items: [
-          'Reabertura atividade — é possível a qualquer momento através do Portal das Finanças',
-          'Aberturas/encerramentos frequentes sem motivo real podem suscitar questões da AT/SS, por isso guarde provas da atividade efetiva e dos motivos da cessação/reabertura',
-          'Na prática, é melhor manter um intervalo visível entre o encerramento e a reabertura, se não for uma medida obrigatória',
-          'Nova abertura — como uma inscrição totalmente nova: novamente 12 meses de carência de isenção da Segurança Social (se não trabalhou com recibos verdes nos 3 anos anteriores)'
+          'Reabertura atividade — possível a qualquer momento através do Portal das Finanças',
+          'Aberturas/encerramentos frequentes sem motivo real podem suscitar questões da AT/SS, por isso guarde comprovativos da atividade efetiva e dos motivos da cessação/reabertura',
+          'Na prática, é melhor manter um intervalo visível entre o encerramento e a reabertura, se não for uma medida forçada',
+          'Substituir por: «Na reabertura, as regras da Segurança Social dependem do enquadramento anterior e da interrupção. Não conte automaticamente com novos 12 meses sem contribuições; verifique a Segurança Social Direta ou peça confirmação à SS/contabilista».'
         ]}
       ]
     },
@@ -76,23 +76,23 @@ export default {
       id: 'company-closure',
       title: '🏢 Encerramento de pessoa coletiva (Lda, Unipessoal, SA)',
       content: [
-        { kind: 'paragraph', text: 'Muito mais complexo e caro do que a atividade independente. Processo de dissolução + liquidação.' },
+        { kind: 'paragraph', text: 'Muito mais complexo e caro do que o trabalhador independente. Processo de dissolução + liquidação.' },
         { kind: 'substeps', items: [
           { id: 'l1', title: 'Etapa 1: Dissolução', content: [
             { kind: 'checklist', items: [
               'Sócios (fundadores) tomam a decisão em Assembleia Geral',
-              'Submissão na Conservatória Comercial — registo da dissolução',
-              'Publicação no Boletim Oficial',
+              'Entrega na Conservatória Comercial — registo da dissolução',
+              'Substituir por: «A publicação do ato registado é efetuada eletronicamente através do portal das publicações oficiais de atos comerciais / IRN após o registo na Conservatória Comercial».',
               'Custo: 100-200 €'
             ]}
           ]},
           { id: 'l2', title: 'Etapa 2: Liquidação', content: [
             { kind: 'checklist', items: [
-              'Nomeação de liquidatário (frequentemente — o último gerente/administrador)',
-              'Inventariação de ativos e passivos',
+              'Nomeação de liquidatário (muitas vezes — o último gerente/administrador)',
+              'Inventário de ativos e passivos',
               'Venda de bens, pagamento de dívidas',
               'Balanço final',
-              'Distribuição entre sócios de acordo com as quotas/participações',
+              'Distribuição entre os sócios de acordo com as quotas/participações',
               'Processo: 6-18 meses',
               'Custo: depende muito da complexidade. Unipessoal simples — 500-1000 €. Lda média — 1500-5000 €. SA com ativos — 5000-20000+'
             ]}
@@ -100,17 +100,17 @@ export default {
           { id: 'l3', title: 'Etapa 3: Registo encerramento', content: [
             { kind: 'checklist', items: [
               'Registo final na Conservatória Comercial',
-              'Entrega do reporte final na IES (Informação Empresarial Simplificada)',
+              'Adicionar ponto separado: «Após a cessação/encerramento, o contabilista entrega as declarações finais: declaração de cessação, Modelo 22 IRC em prazo especial após a cessação, IES/DA em prazo especial, IVA final e retenções na fonte, se aplicável».',
               'Notificação da Segurança Social sobre a cessação',
               'Conservação dos documentos contabilísticos durante 5 anos (por lei)',
-              'Certidão de encerramento — a empresa fica oficialmente encerrada'
+              'Certidão de encerramento — a empresa está oficialmente encerrada'
             ]}
           ]},
-          { id: 'l4', title: 'Simplified dissolução (se não houver ativos / dívidas)', content: [
+          { id: 'l4', title: 'Renomear o bloco para: «Dissolução e liquidação imediata / extinção imediata de entidade comercial» e indicar que o procedimento é possível mediante decisão unânime dos participantes e inexistência de ativos e passivos a liquidar.', content: [
             { kind: 'checklist', items: [
               '«Empresa na Hora» dissolução — num dia na Conservatória',
-              'Apenas para casos simples: sem dívidas por liquidar, dívidas à AT, ativos',
-              'Custo: ~360 €',
+              'Apenas para casos simples: sem dívidas por liquidar, sem dívidas à AT, sem ativos',
+              'Substituir por: «Emolumento segundo a tabela IRN/RERN; para dissolução/liquidação imediata, normalmente considera-se cerca de 300 €, mas antes da entrega é necessário verificar os emolumentos IRN atualizados».',
               'Adequado a ~40% das empresas'
             ]}
           ]}
@@ -119,17 +119,17 @@ export default {
     },
     {
       id: 'bankruptcy',
-      title: '💸 Insolvência — se dívidas > ativos',
+      title: '💸 Insolvência — se as dívidas > ativos',
       content: [
         { kind: 'checklist', items: [
           'Insolvência → através do tribunal',
-          'Procedimento acelerado através de PER (Processo Especial de Revitalização), se ainda houver possibilidade de recuperação',
-          'PEVE (Processo Especial de Viabilização) — para microempresas',
+          'Substituir por: «PER — procedimento de recuperação/negociação com credores para empresas em situação económica difícil ou imminent insolvency; não é uma insolvência liquidatária».',
+          'Remover PEVE da lista atual ou escrever: «O PEVE foi um procedimento temporário COVID e, em 2026, não é uma opção padrão; para reestruturação, normalmente analisa-se PER/RERE, para liquidação — insolvência».',
           'Insolvência completa com liquidação — 1-3 anos, o tribunal nomeia administrador',
           'Para sócios: responsabilidade pessoal apenas se existir subsidiary liability, fraud ou garantias pessoais',
-          'Unipessoal Lda — o sócio está protegido (responsabilidade limitada)',
-          'ENI (Empresário em Nome Individual, = empresário individual no sentido comercial) — responsabilidade pessoal plena',
-          'Custo: taxas de justiça 1000-5000 €, advogado 2000-10000 €'
+          'Unipessoal Lda — sócio protegido (responsabilidade limitada)',
+          'ENI (Empresário em Nome Individual, = trabalhador independente em sentido comercial) — responsabilidade pessoal ilimitada',
+          'Custo: taxas judiciais 1000-5000 €, advogado 2000-10000 €'
         ]}
       ]
     },
@@ -140,33 +140,33 @@ export default {
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Financeiros', content: [
             { kind: 'checklist', items: [
-              'Todos os clientes pagaram ou os receipts foram assinalados como incobráveis',
+              'Todos os clientes pagaram ou os receipts foram marcados como incobráveis/anulados',
               'Todos os fornecedores foram pagos',
               'IVA final entregue',
               'IRS/IRC final entregue',
               'IES final (para Lda) entregue',
               'Contribuições para a Segurança Social pagas',
-              'Fechar a conta bancária da empresa (ou transferir para conta pessoal)',
+              'Substituir por: «Após o pagamento de dívidas, impostos e aprovação do balanço de liquidação, distribuir o remanescente entre os sócios segundo as regras da liquidação e encerrar a conta bancária da empresa».',
               'Cancelar subscrições (software, domínios, alojamento)'
             ]}
           ]},
           { id: 'f2', title: 'Jurídicos', content: [
             { kind: 'checklist', items: [
-              'Notificar o regulador, se a atividade era regulada (por exemplo, imobiliário — APEMIP; seguros — ASF)',
+              'Substituir o exemplo por: «imobiliário/mediação imobiliária — IMPIC; seguros — ASF; turismo/animação turística — Turismo de Portugal, etc.»',
               'Cancelar marcas registadas (ou transferir)',
-              'Revogar o acesso delegado ao Portal das Finanças do antigo contabilista',
-              'Transferir documentos de arquivo (conservar durante 5 anos)',
-              'Notificar Chave Móvel Digital / certificados digitais — podem ficar ativos'
+              'Revogar o acesso delegado no Portal das Finanças para o antigo contabilista',
+              'Transferir documentos de arquivo (guardar 5 anos)',
+              'Notificar Chave Móvel Digital / certificados digitais — podem permanecer ativos'
             ]}
           ]},
           { id: 'f3', title: 'Administrativos', content: [
             { kind: 'checklist', items: [
-              'Fechar contas em lojas / fornecedores',
-              'Fechar a caixa de correio eletrónico da empresa (Gmail / Outlook)',
+              'Encerrar contas em lojas / junto de fornecedores',
+              'Encerrar a caixa de correio eletrónico da empresa (Gmail / Outlook)',
               'Remover do Google My Business, redes sociais',
               'Configurar reencaminhamento de domínio / email',
-              'Notificar o banco (não para conta pessoal, mas se existia conta comercial)',
-              'Cancelar seguros empresariais'
+              'Notificar o banco (não para a conta pessoal, mas se existia uma conta comercial)',
+              'Cancelar seguro empresarial'
             ]}
           ]}
         ]}
@@ -174,9 +174,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Cessação atividade (atividade independente)', amountEUR: 0, note: 'gratuito através do Portal das Finanças' },
+    { label: 'Cessação atividade (trabalhador independente)', amountEUR: 0, note: 'gratuito através do Portal das Finanças' },
     { label: 'Declarações finais (se através de contabilista)', amountEURMin: 100, amountEURMax: 300 },
-    { label: 'Simplified dissolução (Empresa na Hora)', amountEUR: 360 },
+    { label: 'Dissolução simplificada (Empresa na Hora)', amountEUR: 360 },
     { label: 'Encerramento de Unipessoal (com liquidação)', amountEURMin: 500, amountEURMax: 1000 },
     { label: 'Lda média (processo completo)', amountEURMin: 1500, amountEURMax: 5000 },
     { label: 'Insolvência através do tribunal', amountEURMin: 1000, amountEURMax: 5000 }

@@ -54,7 +54,7 @@ export default {
       id: 'cpcv',
       title: 'CPCV (Contrato Promessa de Compra e Venda)',
       content: [
-        { kind: 'paragraph', text: 'Предварительный договор. Сильнее, чем простое предложение. Обязывает обе стороны.' },
+        { kind: 'paragraph', text: 'Добавить: «Для недвижимости CPCV должен быть письменным; на практике подписи делают с reconhecimento presencial, а адвокат проверяет необходимые документы объекта до подписания. Не подписывайте CPCV только по email/скану без проверки формы и полномочий продавца».' },
         { kind: 'checklist', items: [
           'Стороны + NIF',
           'Описание недвижимости + матрикальный номер',
@@ -98,17 +98,17 @@ export default {
           'Переоформить ЖКХ на себя (EDP, Águas, газ)',
           'Страховка жилья обязательна, если есть ипотека',
           'IMI (муниципальный налог) — для urban residential **0.3–0.45% от VPT** (0.8% — для прежней rural ставки); ставку назначает Câmara Municipal. Уплата частями (1/2/3 раза в год) зависит от размера суммы',
-          'Если планируете сдавать в аренду — регистрация в Finanças + возможно лицензия AL для краткосрочной аренды'
+          'Заменить на: «Для долгосрочной аренды — договор и регистрация в Finanças. Для краткосрочной туристической аренды обычно нужна регистрация Alojamento Local до начала деятельности; проверьте муниципальные ограничения, зоны contenção/suspensão и правила condomínio».'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'IMT — для own permanent residence (continente)', note: 'marginal progressive scale с abatements до определённого порога (0% базовый порог), затем растущие ставки; выше высшего порога — фиксированная ставка. Точные цифры на 2026 — см. AT/CIMT' },
+    { label: 'IMT — для own permanent residence (continente)', note: 'Добавить: «База IMT — maior valor entre o preço declarado e o VPT (valor patrimonial tributário). Проверяйте VPT в Caderneta Predial до CPCV».' },
     { label: 'IMT — для secondary/прочей residential', note: 'те же escalões, но без 0%-первого порога; начинается с 1%' },
     { label: 'Молодёжная льгота до 35 лет — основное жильё', amountEUR: 0, note: 'IMT+IS 0% по **Decreto-Lei 48-A/2024** до определённого ценового порога; условия (резидентство, отсутствие предыдущей собственности, основное жильё) — проверять в актуальном тексте' },
     { label: 'IMT для покупателей из налоговых офшоров', amountEUR: 0, note: 'фиксированная ставка 10% независимо от стоимости' },
-    { label: 'IS (гербовый)', amountEUR: 0, note: '0.8% от стоимости (для молодых до 35 в пределах льготы = 0%)' },
+    { label: 'IS (гербовый)', amountEUR: 0, note: 'Написать: «IS 0,8% на acquisition — обычно от той же базы, что IMT: greater of declared price and VPT».' },
     { label: 'Escritura + нотариус', amountEURMin: 500, amountEURMax: 1500 },
     { label: 'Регистрация', amountEURMin: 250, amountEURMax: 400 },
     { label: 'Адвокат', amountEURMin: 500, amountEURMax: 2000 },

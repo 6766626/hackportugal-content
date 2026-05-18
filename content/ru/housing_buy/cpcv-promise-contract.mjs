@@ -44,11 +44,11 @@ export default {
           'Цена, сумма sinal, график последующих платежей и способ оплаты.',
           'Крайний срок escritura: например до 60 или 90 дней, с механизмом продления по вине банка/Conservatória.',
           'Условие кредита: CPCV действует только при aprovação final do crédito habitacional; при отказе банка sinal возвращается.',
-          'Список документов продавца: caderneta predial, certidão permanente, licença de utilização или legal exemption, ficha técnica da habitação, certificado energético, condomínio statement.',
+          'Rewrite as: "Для due diligence запросите caderneta predial, certidão permanente, certificado energético, declaração de condomínio и, если есть/применимо, licença de utilização/construção, urbanistic records and old ficha técnica. После DL 10/2024 licença/ficha no longer have the same mandatory role at escritura, but отсутствие/несоответствие лицензий остаётся существенным юридическим и банковским риском."',
           'Гарантия отсутствия долгов: IMI, condomínio, utilities, ипотека, аресты, penhoras, usufruto, arrendamento.',
           'Кто платит IMT, Imposto do Selo, escritura, registo, погашение ипотеки продавца.',
           'Состояние объекта и включённые вещи: мебель, техника, кондиционеры, solar panels, парковка.',
-          'Последствия breach: потеря sinal, возврат в двойном размере, execução específica по art. 830 Código Civil, если стороны её не исключают.'
+          'Replace with: "Последствия breach: perda do sinal/devolução em dobro under art. 442 CC и возможная execução específica under art. 830 CC. Для CPCV недвижимости правила об исключении execução específica специальные; не полагайтесь на шаблонную фразу, пусть юрист отдельно согласует remedy clause."'
         ] },
         { kind: 'warning', text: 'Если покупаете с ипотекой, clause “subject to mortgage approval” критична. Предварительное одобрение банка не равно финальному одобрению после avaliação. Без такой оговорки отказ банка может не спасти sinal.' }
       ]
@@ -63,7 +63,7 @@ export default {
           'Caderneta predial urbana в Portal das Finanças: artigo, VPT, площадь, назначение.',
           'Licença de utilização или подтверждение, что объект освобождён от неё по возрасту/режиму.',
           'Certificado energético: обязателен при продаже, класс влияет на кредит и ремонты.',
-          'Ficha técnica da habitação для объектов, где она требуется.',
+          'Change to: "Ficha técnica da habitação — для старых объектов может существовать и быть полезной для проверки, но после DL 10/2024 её представление при продаже больше не является общей обязательной формальностью."',
           'Declaração de condomínio: нет долгов, понятны mensalidade и planned works.',
           'Проверка Câmara Municipal: лицензии, works, urbanismo, особенно для moradia, anexos, attic, basement.',
           'Если продавец компания: certidão comercial, полномочия подписанта, IVA/налоговые нюансы.',
@@ -92,7 +92,7 @@ export default {
       id: 'signing-and-after',
       title: 'Подписание, налоги и путь к escritura',
       content: [
-        { kind: 'paragraph', text: 'CPCV можно подписать лично или по доверенности. Для повышенной доказательной силы подписи часто делают с reconhecimento presencial в notário, advogado или solicitador. Если объект продаётся с передачей владения до escritura, требования к форме и налоговым последствиям нужно проверять отдельно.' },
+        { kind: 'paragraph', text: 'CPCV можно подписать лично или по доверенности. Replace with: "Для CPCV на покупку здания/фракции art. 410(3) Código Civil требует документ с reconhecimento presencial das assinaturas и, когда применимо, certification da licença de construção/utilização. Это не просто ‘для доказательной силы’: отсутствие формальностей может создать серьёзные риски для enforceability, поэтому форму должен проверить advogado/solicitador/notário." Если объект продаётся с передачей владения до escritura, требования к форме и налоговым последствиям нужно проверять отдельно.' },
         { kind: 'checklist', items: [
           'До подписи получите финальную версию CPCV на португальском; перевод на русский — только вспомогательный.',
           'Сверьте имена, NIF, IBAN, artigo matricial и descrição predial с документами.',
