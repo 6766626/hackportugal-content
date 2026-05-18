@@ -3,7 +3,7 @@ export default {
   id: 'pagar-contestar-contraordenacoes',
   categoryId: 'auto_ownership',
   title: 'Portal das Contraordenações: оплата и обжалование штрафов онлайн',
-  tldr: 'Portal das Contraordenações ANSR — официальный кабинет по дорожным штрафам: вход через Cartão de Cidadão или Chave Móvel Digital, просмотр процессов по NIF, оплата по Multibanco reference, подача defesa/requerimento онлайн и проверка pontos da carta. В 2026 году защита обычно подаётся в течение 15 рабочих дней после уведомления. Рассрочку можно просить для штрафов от 210 €, минимум 50 € за платёж, обычно до 12 частей.',
+  tldr: 'Portal das Contraordenações ANSR — официальный кабинет по дорожным штрафам: вход через Cartão de Cidadão или Chave Móvel Digital, просмотр процессов по NIF, оплата по Multibanco reference, подача defesa/requerimento онлайн и проверка pontos da carta.\n\nВ 2026 году защита обычно подаётся в течение 15 рабочих дней после уведомления. Рассрочку можно просить для штрафов от 210 €, минимум 50 € за платёж, обычно до 12 частей.',
   tags: ['штрафы', 'ansr', 'contraordenações', 'mb', 'carta'],
   estimatedReadMinutes: 6,
   steps: [

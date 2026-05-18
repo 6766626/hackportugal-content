@@ -3,7 +3,7 @@ export default {
   id: 'change-tax-address',
   categoryId: 'documents_fiscal',
   title: 'Смена налогового адреса (domicílio fiscal) в Finanças',
-  tldr: 'Налоговый адрес (domicílio fiscal) — обязательное поле в Finanças. По art. 19.º LGT (Lei Geral Tributária) новый адрес нужно сообщить в течение 60 дней. Смена бесплатна. Если у вас Cartão de Cidadão — адрес меняется через процедуру CC/ePortugal с подтверждением кодом из письма; если только NIF — через Portal das Finanças → Alterar Domicílio Fiscal. ВАЖНО: смена адреса в Finanças НЕ обновляет автоматически AIMA, SNS, Segurança Social, банк, водительские права — каждое ведомство уведомляйте отдельно. Для IMI важен главным образом статус habitação própria e permanente; сама ставка IMI зависит от município, где находится объект.',
+  tldr: 'Налоговый адрес (domicílio fiscal) — обязательное поле в Finanças. По art. 19.º LGT (Lei Geral Tributária) новый адрес нужно сообщить в течение 60 дней. Смена бесплатна. Если у вас Cartão de Cidadão — адрес меняется через процедуру CC/ePortugal с подтверждением кодом из письма; если только NIF — через Portal das Finanças → Alterar Domicílio Fiscal.\n\nВАЖНО: смена адреса в Finanças НЕ обновляет автоматически AIMA, SNS, Segurança Social, банк, водительские права — каждое ведомство уведомляйте отдельно. Для IMI важен главным образом статус habitação própria e permanente; сама ставка IMI зависит от município, где находится объект.',
   tags: ['domicílio fiscal', 'адрес', 'Finanças', 'переезд'],
   estimatedReadMinutes: 4,
   steps: [

@@ -29,15 +29,15 @@ export default {
           { id: 'c1', title: 'До года', content: [
             { kind: 'checklist', items: [
               '0 мес: Hep B доза 1. BCG — только для детей из групп риска (с 2017 года не универсально, по критериям DGS)',
-              '2 мес: DTPa-Hib-IPV-HB (гексавалентная, 6-в-1), пневмококковая конъюгированная (PCV), MenB',
-              '4 мес: повтор гексавалентной + PCV + MenB',
-              '6 мес: DTPa-Hib-IPV-HB (гексавалентная доза)',
-              '12 мес: PCV, MenC/MenACWY (по текущему PNV), MenB (бустер), MMR/VASPR доза 1'
+              '2 мес: **гексавалентная DTPaHibVIPVHB** (6-в-1: дифтерия, столбняк, коклюш, Hib, полио, Hep B) + PCV + MenB',
+              '4 мес: **пентавалентная DTPaHibVIP** (5-в-1, БЕЗ Hep B-компонента) + PCV + MenB',
+              '6 мес: **гексавалентная DTPaHibVIPVHB** (повторно с Hep B)',
+              '12 мес: PCV, **MenACWY** (с апреля 2025 заменил MenC по решению DGS), MenB (бустер), MMR/VASPR доза 1'
             ]}
           ]},
           { id: 'c2', title: '1–5 лет', content: [
             { kind: 'checklist', items: [
-              '18 мес: DTPa-Hib-IPV-HB бустер (гексавалентный бустер)',
+              '18 мес: **пентавалентный бустер DTPaHibVIP** (БЕЗ Hep B — Hep B-компонент уже завершён схемой 0/2/6 мес)',
               '5 лет: DTPa-IPV бустер + MMR/VASPR доза 2'
             ]}
           ]},
@@ -45,7 +45,7 @@ export default {
             { kind: 'checklist', items: [
               '10 лет: HPV для девочек и мальчиков по PNV — защита от HPV-ассоциированных раков и заболеваний. Актуальное число доз проверяйте в e-Boletim/DGS',
               '10 лет: Td (столбняк-дифтерия) — бустер по PNV',
-              'MenACWY — в подростковом возрасте по PNV (не «18 лет для всех»); для поездок/общежитий может потребоваться отдельно',
+              '10 лет: MenACWY (бустер; кроме случаев, когда ребёнок уже получил MenACWY в 12 мес по обновлённому PNV — тогда подтверждение через врача)',
               'Точные возрасты подростковых бустеров уточняйте в текущей таблице DGS PNV'
             ]}
           ]}
@@ -137,6 +137,6 @@ export default {
     { title: 'SNS24 — Vacinação', url: 'https://www.sns24.gov.pt/tema/vacinacao/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS24 — Consulta do Viajante e Centros de Vacinação Internacional', url: 'https://www.sns24.gov.pt/tema/vacinacao/consulta-do-viajante/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

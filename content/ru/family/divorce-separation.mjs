@@ -3,7 +3,7 @@ export default {
   id: 'divorce-separation',
   categoryId: 'nationality',
   title: 'Развод в Португалии — процедуры и стоимость',
-  tldr: 'Два пути: **Divórcio por mútuo consentimento** (по взаимному согласию) — в Conservatória, обычно быстро (без детей возможно на одной сессии; с детьми — после parecer Ministério Público, что часто добавляет недели), базовая ставка ~280 €, без адвоката, если нет конфликтов. **Divórcio sem consentimento** (через суд) — 3-12 мес, адвокат обязателен, ~1500-5000 €. Период обязательного раздельного проживания отменён с 2008 года (Lei 61/2008). Для международных пар нужно отдельно проверить **jurisdiction** и **applicable law**: применяются Rome III (Reg. 1259/2010) для applicable law и Brussels II ter (Reg. 2019/1111) для jurisdiction/recognition в ЕС. Алименты, распределение имущества и опека — основные точки разногласий.',
+  tldr: 'Два пути: **Divórcio por mútuo consentimento** (по взаимному согласию) — в Conservatória, обычно быстро (без детей возможно на одной сессии; с детьми — после parecer Ministério Público, что часто добавляет недели), базовая ставка ~280 €, без адвоката, если нет конфликтов.\n\n**Divórcio sem consentimento** (через суд) — 3-12 мес, адвокат обязателен, ~1500-5000 €. Период обязательного раздельного проживания отменён с 2008 года (Lei 61/2008). Для международных пар нужно отдельно проверить **jurisdiction** и **applicable law**: применяются Rome III (Reg. 1259/2010) для applicable law и Brussels II ter (Reg. 2019/1111) для jurisdiction/recognition в ЕС. Алименты, распределение имущества и опека — основные точки разногласий.',
   tags: ['развод', 'divórcio', 'separação'],
   estimatedReadMinutes: 6,
   steps: [

@@ -3,7 +3,7 @@ export default {
   id: 'espaco-internet-junta',
   categoryId: 'digital_gov',
   title: 'Espaços Internet: бесплатные компьютеры, Wi‑Fi и помощь с госуслугами при Junta de Freguesia',
-  tldr: 'Espaços Internet — публичная сеть бесплатного доступа к компьютерам, интернету и базовой цифровой помощи в Португалии. В 2026 году это 200+ точек в Junta de Freguesia, Câmara Municipal, библиотеках и IPSS: можно зайти без абонемента, распечатать или отсканировать документы, подать IRS, открыть Portal das Finanças, записаться в AIMA, скачать certidão или отправить e-mail. Интернет и помощь обычно бесплатны; печать иногда стоит 0–0,10 € за страницу.',
+  tldr: 'Espaços Internet — публичная сеть бесплатного доступа к компьютерам, интернету и базовой цифровой помощи в Португалии.\n\nВ 2026 году это 200+ точек в Junta de Freguesia, Câmara Municipal, библиотеках и IPSS: можно зайти без абонемента, распечатать или отсканировать документы, подать IRS, открыть Portal das Finanças, записаться в AIMA, скачать certidão или отправить e-mail. Интернет и помощь обычно бесплатны; печать иногда стоит 0–0,10 € за страницу.',
   tags: ['internet', 'junta', 'цифра', 'finanças', 'aima'],
   estimatedReadMinutes: 5,
   steps: [

@@ -3,7 +3,7 @@ export default {
   id: 'sos-voz-amiga-suicidio',
   categoryId: 'emergency_rights',
   title: 'SOS Voz Amiga e linhas de apoio psicológico de emergência',
-  tldr: 'Se houver risco de suicídio ou a pessoa já estiver em perigo — ligue 112 ou dirija-se à Urgência hospitalar. Para conversar e desescalar a situação em Portugal, estão disponíveis a SOS Voz Amiga 213 544 545, SNS 24 apoio psicológico 808 24 24 24, Linha de Emergência Social 144, SOS Criança 116 111, Linha SOS Estudante e Vodafone SOS Saúde Mental. A maioria das linhas é gratuita ou cobrada de acordo com o tarifário do operador; pode ligar sem NIF, autorização de residência ou inscrição no SNS.',
+  tldr: 'Se houver risco de suicídio ou a pessoa já estiver em perigo — ligue 112 ou dirija-se à Urgência hospitalar. Para conversar e desescalar a situação em Portugal, estão disponíveis a SOS Voz Amiga 213 544 545, o apoio psicológico do SNS 24 808 24 24 24, a Linha de Emergência Social 144, a SOS Criança 116 111, a Linha SOS Estudante e a Vodafone SOS Saúde Mental. A maioria das linhas é gratuita ou cobrada de acordo com o tarifário do operador; pode ligar sem NIF, autorização de residência ou inscrição no SNS.',
   tags: ['suicídio', 'psicologia', '112', 'sns'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,8 +12,7 @@ export default {
       title: '1. Se o risco for imediato: 112 e Urgência',
       content: [
         {
-          kind: 'paragraph',
-          text: 'Se a pessoa disser que se vai matar, já tomou comprimidos, se está a cortar, está junto a uma janela/ponte, desapareceu com uma mensagem de despedida ou você não consegue garantir a segurança — isto não é “apenas uma crise”. Ligue 112. O operador fará a ligação ao INEM/PSP/GNR e enviará uma ambulância ou a polícia.'
+          kind: 'paragraph', text: 'Se a pessoa disser que se vai matar, já tiver tomado comprimidos, estiver a cortar-se, estiver junto a uma janela/ponte, tiver desaparecido com uma mensagem de despedida ou se você não conseguir garantir a segurança — isto não é “apenas uma crise”. Ligue 112. O operador encaminhará para o INEM/PSP/GNR e enviará uma ambulância ou a polícia.'
         },
         {
           kind: 'checklist',
@@ -29,8 +28,7 @@ export default {
           ]
         },
         {
-          kind: 'warning',
-          text: 'As linhas de apoio não substituem o 112. Se houver perigo imediato para a vida, primeiro 112, depois uma linha psicológica para acompanhamento.'
+          kind: 'warning', text: 'As linhas de apoio não substituem o 112. Se houver perigo imediato para a vida, primeiro 112, depois uma linha de apoio psicológico para acompanhamento.'
         }
       ]
     },
@@ -39,25 +37,23 @@ export default {
       title: '2. Números que vale a pena guardar 📞',
       content: [
         {
-          kind: 'paragraph',
-          text: 'Numa crise, não é necessário provar o estatuto em Portugal. NIF, NISS, autorização de residência, número de utente e conhecimento de português não são condição para receber ajuda de emergência. Se não falar português, comece por “English please” ou peça a alguém perto de si para ajudar.'
+          kind: 'paragraph', text: 'Numa crise, não é preciso provar o seu estatuto em Portugal. NIF, NISS, autorização de residência, número de utente e conhecimento de português não são condição para receber ajuda de emergência. Se não falar português, comece por “English please” ou peça ajuda a alguém que esteja por perto.'
         },
         {
           kind: 'checklist',
           items: [
-            '112 — perigo de vida, tentativa de suicídio, autoagressão, psicose, agressão, desaparecimento com risco.',
+            '112 — perigo de vida, tentativa de suicídio, automutilação, psicose, agressividade, desaparecimento com risco.',
             'SOS Voz Amiga — 213 544 545: apoio emocional e prevenção do suicídio; a linha é apresentada como gratuita e disponível 24/7.',
             'SNS 24 — 808 24 24 24: escolha apoio psicológico / aconselhamento psicológico; funciona 24/7, pode ligar sem ir ao Centro de Saúde.',
-            'Linha de Emergência Social — 144: gratuita, 24/7; se a crise estiver relacionada com sem-abrigo, violência, falta de comida, crianças, idosos, risco social urgente.',
-            'SOS Criança — 116 111: linha gratuita para crianças e para situações com crianças; adequada em casos de violência, negligência, ameaças, fuga de casa.',
-            'Linha SOS Estudante — para estudantes e jovens em crise; os horários e números podem mudar ao longo do ano lectivo, confirme antes de ligar.',
-            'Vodafone SOS Saúde Mental — iniciativa do operador para apoio psicológico; confirme o acesso actual no site da Vodafone, porque o formato das campanhas muda.',
-            'Se um número não atender: não espere pela linha “ideal” — ligue 112 ou SNS 24.'
+            'Linha de Emergência Social — 144: gratuita, 24/7; se a crise estiver relacionada com situação de sem-abrigo, violência, falta de comida, crianças, idosos, risco social urgente.',
+            'SOS Criança — 116 111: linha gratuita para crianças e situações com crianças; adequada em casos de violência, negligência, ameaças, fuga de casa.',
+            'Linha SOS Estudante — para estudantes e jovens em crise; os horários e números podem mudar consoante o ano lectivo, confirme antes de ligar.',
+            'Vodafone SOS Saúde Mental — iniciativa do operador para apoio psicológico; confirme o acesso actual no site da Vodafone, pois o formato das campanhas muda.',
+            'Se o número não atender: não espere pela linha “ideal” — ligue 112 ou SNS 24.'
           ]
         },
         {
-          kind: 'warning',
-          text: 'Os números 808 em Portugal são normalmente cobrados como chamadas de valor acrescentado/tarifário do operador ou chamada local; 112, 144 e 116 111 devem ser gratuitos. Se não tiver saldo, use o 112.'
+          kind: 'warning', text: 'Os números 808 em Portugal são normalmente cobrados como chamadas de valor acrescentado/tarifário do operador ou chamada local; 112, 144 e 116 111 devem ser gratuitos. Se não tiver saldo, use o 112.'
         }
       ]
     },
@@ -66,8 +62,7 @@ export default {
       title: '3. O que dizer ao operador',
       content: [
         {
-          kind: 'paragraph',
-          text: 'Numa crise, é normal falar de forma curta e desorganizada. O essencial é transmitir o risco, o local e o que já aconteceu. O operador não precisa de uma história “bonita”.'
+          kind: 'paragraph', text: 'Numa crise, é normal falar de forma breve e confusa. O essencial é transmitir o risco, o local e o que já aconteceu. O operador não precisa de uma história “bem contada”.'
         },
         {
           kind: 'checklist',
@@ -76,7 +71,7 @@ export default {
             '“A pessoa está em risco de suicídio” — a pessoa está em risco de suicídio.',
             '“Houve uma tentativa de suicídio” — houve uma tentativa de suicídio.',
             '“Tomou comprimidos / álcool / drogas” — tomou comprimidos / álcool / drogas.',
-            '“Tem uma faca / arma / está numa janela / ponte” — tem uma faca / arma / está junto a uma janela / numa ponte.',
+            '“Tem uma faca / arma / está numa janela / ponte” — tem uma faca / arma / está numa janela / ponte.',
             '“Não consigo garantir a segurança” — não consigo garantir a segurança.',
             '“Preciso de ajuda em inglês/russo” — preciso de ajuda em inglês/russo.',
             '“Morada completa é…” — a morada completa é...',
@@ -84,8 +79,7 @@ export default {
           ]
         },
         {
-          kind: 'paragraph',
-          text: 'Se estiver a ligar por outra pessoa, não prometa confidencialidade total. Quando há risco de vida, pode e deve transmitir a morada e os factos aos serviços de ajuda.'
+          kind: 'paragraph', text: 'Se estiver a ligar por outra pessoa, não prometa confidencialidade total. Quando há risco de vida, pode e deve comunicar a morada e os factos aos serviços de ajuda.'
         }
       ]
     },
@@ -94,25 +88,23 @@ export default {
       title: '4. Como agir junto de uma pessoa em crise',
       content: [
         {
-          kind: 'paragraph',
-          text: 'O objectivo dos primeiros 20–30 minutos não é “curar”, mas reduzir o risco até à chegada da ajuda ou até ao contacto com uma linha de apoio. Fale com calma, em frases simples, sem discussões sobre o sentido da vida.'
+          kind: 'paragraph', text: 'O objectivo dos primeiros 20–30 minutos não é “curar”, mas reduzir o risco até a ajuda chegar ou até haver contacto com uma linha de apoio. Fale com calma, em frases simples, sem discussões sobre o sentido da vida.'
         },
         {
           kind: 'checklist',
           items: [
             'Pergunte directamente: “Estás a pensar em suicidar-te?” — isto não “dá a ideia”, ajuda a avaliar o risco.',
-            'Pergunte: “Tens um plano? Meios? Quando?” — os detalhes concretos são mais importantes do que palavras genéricas.',
-            'Retire o acesso a meios de autoagressão, mas não entre em confronto físico.',
-            'Fique por perto ou organize para que outro adulto fique junto da pessoa.',
-            'Diga: “Estou contigo”, “vamos pedir ajuda agora”, “não é preciso resolver tudo hoje”.',
+            'Pergunte: “Tens um plano? Meios? Quando?” — os detalhes concretos são mais importantes do que frases gerais.',
+            'Retire o acesso a meios de automutilação, mas não entre em confronto físico.',
+            'Fique por perto ou organize para que outro adulto esteja presente.',
+            'Diga: “Estou contigo”, “vamos chamar ajuda agora”, “não é preciso resolver tudo hoje”.',
             'Não diga: “não dramatizes”, “há quem esteja pior”, “pensa na família”, “isso é pecado”.',
-            'Não deixe a pessoa “dormir para passar”, se tiver havido comprimidos, álcool ou ferimentos.',
+            'Não deixe a pessoa “dormir para passar”, se tiver tomado comprimidos, álcool ou houver ferimentos.',
             'Depois da estabilização, ajude a marcar consulta com médico de família, psicólogo ou psiquiatra.'
           ]
         },
         {
-          kind: 'warning',
-          text: 'Se a pessoa se tornar agressiva, se trancar, fugir ou houver uma arma — afaste-se para um local seguro e ligue 112. Não tente contê-la fisicamente sozinho/a.'
+          kind: 'warning', text: 'Se a pessoa se tornar agressiva, se fechar, fugir ou houver armas — afaste-se para um local seguro e ligue 112. Não tente contê-la fisicamente sozinho/a.'
         }
       ]
     },
@@ -121,25 +113,23 @@ export default {
       title: '5. Depois do episódio agudo: para onde ir a seguir',
       content: [
         {
-          kind: 'paragraph',
-          text: 'Depois da chamada ou do internamento, é necessário um plano para os dias seguintes: contacto médico, ambiente seguro, medicamentos sob controlo, uma pessoa de referência e nova chamada para uma linha se houver agravamento.'
+          kind: 'paragraph', text: 'Depois de uma chamada ou hospitalização, é necessário um plano para os dias seguintes: contacto médico, ambiente seguro, medicação controlada, uma pessoa de contacto e nova chamada para a linha se houver agravamento.'
         },
         {
           kind: 'checklist',
           items: [
-            'Através do SNS: chamada para o SNS 24 808 24 24 24 ou marcação com o médico de família no Centro de Saúde.',
-            'Se houver urgência psiquiátrica no seu hospital público — pode recorrer directamente em caso de novo risco.',
+            'Através do SNS: chamada para o SNS 24 808 24 24 24 ou marcação com médico de família no Centro de Saúde.',
+            'Se houver urgência psiquiátrica no seu hospital público — pode dirigir-se directamente em caso de novo risco.',
             'Se for estudante — contacte os serviços de ação social / gabinete de apoio psicológico da sua universidade.',
             'Se a crise estiver relacionada com habitação, violência, comida ou crianças — ligue 144 e peça avaliação social urgente.',
-            'Se uma criança estiver em perigo — 116 111, CPCJ da área de residência ou 112 em caso de perigo imediato.',
+            'Se a vítima for uma criança — 116 111, CPCJ da área de residência ou 112 em caso de perigo imediato.',
             'Se tiver seguro privado — verifique a cobertura de psiquiatria/psicologia e o copagamento.',
-            'Faça um “safety plan”: 3 contactos, a urgência mais próxima, o que retirar de casa, o que fazer à noite.',
-            'Guarde os números no telefone com nomes simples: 112, SNS 24, SOS Voz Amiga, 144.'
+            'Elabore um “safety plan”: 3 contactos, a urgência mais próxima, o que retirar de casa, o que fazer durante a noite.',
+            'Guarde os números no telemóvel com nomes simples: 112, SNS 24, SOS Voz Amiga, 144.'
           ]
         },
         {
-          kind: 'paragraph',
-          text: 'Para expatriados, um ponto prático importante: o apoio psicológico no sector privado é muitas vezes mais rápido, mas em caso de risco de suicídio não espere por uma vaga. A Urgência e o 112 são o caminho correcto mesmo sem documentos portugueses.'
+          kind: 'paragraph', text: 'Para expats, um ponto prático importante: o apoio psicológico no sector privado é muitas vezes mais rápido, mas em caso de risco de suicídio não espere por uma vaga. A Urgência e o 112 são o caminho correcto mesmo sem documentos portugueses.'
         }
       ]
     }

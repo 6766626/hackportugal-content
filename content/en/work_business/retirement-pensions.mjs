@@ -3,8 +3,8 @@ export default {
   id: 'retirement-pensions',
   categoryId: 'work_business',
   title: 'Pension system — Segurança Social, PPR, for pensioners',
-  tldr: 'State pension: normal age in 2026 is 66 years 9 months (rises according to the life expectancy formula). Minimum entitlement — usually 15 years of contributions; the amount is calculated by Segurança Social. **PPR** (Plano Poupança-Reforma) — private pension with tax benefits (deduction of up to 20% of contributions in IRS). Foreign pensions (Russian Federation, USA, United Kingdom) under IRS — taxed on the progressive scale (10% NHR limit for those who had the old NHR; NHR closed in 2024, replaced by IFICI, which does not cover pensions). For foreigners: international social security agreements count contribution periods.',
-  tags: ['pension', 'pension age', 'ppr', 'old age'],
+  tldr: 'State pension: normal age in 2026 is 66 years 9 months (increases according to the life expectancy formula). Minimum entitlement is usually 15 years of contributions; the amount is calculated by Segurança Social.\n\n**PPR** (Plano Poupança-Reforma) is a private pension with tax benefits (deduction of up to 20% of contributions in IRS). Foreign pensions (Russian Federation, USA, United Kingdom) under IRS are taxed at progressive rates (10% NHR limit for those who had the old NHR; NHR closed in 2024, replaced by IFICI, which does not cover pensions). For foreigners: international social security agreements count contribution periods.',
+  tags: ['pension', 'retirement age', 'ppr', 'old age'],
   estimatedReadMinutes: 7,
   steps: [
     {
@@ -16,10 +16,10 @@ export default {
             { kind: 'checklist', items: [
               '🎂 **Age**: 66 years 9 months in 2026; reviewed annually according to the life expectancy formula (in 2025 it was 66 years 7 months)',
               '📅 **Minimum contribution record**: 15 years for pension entitlement',
-              '🏆 **Amount**: calculated according to the Segurança Social formula (remuneração de referência × taxa global de formação). 40+ years are important for special regimes, but do not automatically mean a “full” pension',
-              '💼 **Early claiming**: generally from age 60 with 40 years of contributions, with a permanent redução of 0.5% for each month of antecipação and a possible fator de sustentabilidade. No penalties — only for special long career regimes',
-              '🐌 **Carreiras muito longas**: for example, age 60+ and a 48-year contributive career, or age 60+ and 46 years of contributions if contributions started before the established early age. Check the simulation in Segurança Social Direta',
-              '⏳ **Delayed retirement** (after full pension age): bonus for each additional year'
+              '🏆 **Amount**: calculated using the Segurança Social formula (remuneração de referência × taxa global de formação). 40+ years matter for special schemes, but do not automatically mean a “full” pension',
+              '💼 **Early claim**: generally from age 60 with 40 years of contributions, with a permanent redução of 0.5% per month of antecipação and a possible fator de sustentabilidade. No penalties — only for special long career schemes',
+              '🐌 **Carreiras muito longas**: for example, 60+ years old and a 48-year contributive career or 60+ and 46 years of contributions if contributions started before the set early age. Check the simulation in Segurança Social Direta',
+              '⏳ **Late retirement** (after full retirement age): bonus for each additional year'
             ]}
           ]},
           { id: 's2', title: 'Amount', content: [
@@ -27,17 +27,17 @@ export default {
               'The formula is complex: Segurança Social calculates the remuneração de referência and taxa global de formação da pensão. It is better to use the simulação in Segurança Social Direta. The simplification 2.5% × 40 years is not the official formula',
               '**Minimum** depends on contribution record (bands <15 / 15-20 / 21-30 / 31+ years). With IAS 2026 €537.13, check the exact values in the current portaria de atualização das pensões',
               '**Average**: ~€530/month',
-              '**Maximum**: 12× IAS = €6,445.56/month (but requires maximum contributions throughout life)',
+              '**Maximum**: 12× IAS = €6,445.56/month (but requires maximum contributions throughout working life)',
               'Pensão is paid 14 times a year (12 + holiday and Christmas payments)'
             ]}
           ]},
           { id: 's3', title: 'Application and start', content: [
             { kind: 'checklist', items: [
-              '**3-6 months before pension age**: apply through Segurança Social Direta',
+              '**3-6 months before retirement age**: apply via Segurança Social Direta',
               'Documents: NISS history, employment history, identity document',
               'Request a calculation on the portal — find out the estimated amount',
               'Process: 3-6 months',
-              'Pension starts from the reforma date; first payment — in the following month',
+              'The pension starts from the reforma date; the first payment is in the following month',
               'You do not need to “leave work” — you can work part-time + receive a pension'
             ]}
           ]}
@@ -48,34 +48,34 @@ export default {
       id: 'ppr',
       title: '💼 PPR — private pension with tax benefits',
       content: [
-        { kind: 'paragraph', text: 'Plano Poupança-Reforma — the main tool for personal retirement savings in Portugal.' },
+        { kind: 'paragraph', text: 'Plano Poupança-Reforma is the main tool for personal retirement savings in Portugal.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Tax benefits', content: [
             { kind: 'checklist', items: [
               '✅ **IRS deduction of 20% of contributions**:',
-              '  - <35 years: up to **€400/year** deduction (for €2,000 of contributions = €400)',
-              '  - 35-50 years: up to **€350/year**',
-              '  - >50 years: up to **€300/year**',
-              '✅ **0% tax on capital gains** when withdrawn at retirement (if the term is respected)',
+              '  - <35 years old: up to **€400/year** deduction (for €2,000 of contributions = €400)',
+              '  - 35-50 years old: up to **€350/year**',
+              '  - >50 years old: up to **€300/year**',
+              '✅ **0% tax on capital gains** when withdrawn at retirement (if the holding period is met)',
               '✅ **8% tax** on early withdrawal (versus the usual 28%)',
-              '⚠️ Limit: minimum holding period of 5 years before pension age 60, otherwise penalty',
-              '💡 For optimisation: contribute the maximum according to the age limit each year — the best tax benefits in Portugal'
+              '⚠️ Limit: minimum holding period of 5 years before retirement age 60, otherwise a penalty',
+              '💡 For optimisation: contribute the maximum age-band limit every year — the best tax benefits in Portugal'
             ]}
           ]},
           { id: 'p2', title: 'What to invest in', content: [
             { kind: 'checklist', items: [
-              '**PPR fundo (unit fund)**: variable return, 1-3% annual fee',
+              '**PPR fundo (investment fund)**: variable return, 1-3% annual fee',
               '**PPR seguro (insurance product)**: guaranteed return ~2-4%, lower fees, but lower potential',
-              '**Self-managed PPR (rare in Portugal)**: ETF or individual shares — through specialist providers',
+              '**Self-managed PPR (rare in Portugal)**: ETFs or individual shares — through specialised providers',
               '**Top providers**: Caixa, Millennium BCP, Santander, Patris, Optimize',
               '**Best by return**: comparison on ASF.pt'
             ]}
           ]},
-          { id: 'p3', title: 'Withdrawal of funds', content: [
+          { id: 'p3', title: 'Withdrawing funds', content: [
             { kind: 'checklist', items: [
-              '**Standard**: when reaching pension age, as a lump sum or monthly annuity',
-              '**Early with tax penalty**: before age 60, if the investment is active — 28% rate on capital gains',
-              '**Special withdrawal in hardship circumstances**: unemployment > 12 months, serious illness, disability — 8% rate',
+              '**Standard**: when reaching retirement age, as a lump sum or monthly annuity',
+              '**Early with a tax penalty**: before age 60, if the investment is active — 28% rate on capital gains',
+              '**Special withdrawal in difficult circumstances**: unemployment > 12 months, serious illness, disability — 8% rate',
               '**Inheritance**: PPR passes to heirs without inheritance tax (Imposto do Selo 0% for PPR)'
             ]}
           ]}
@@ -91,40 +91,40 @@ export default {
             { kind: 'checklist', items: [
               'Portuguese tax residents are taxed on their worldwide income',
               'Foreign pensions are declared in Anexo H of the IRS return',
-              '**Standard tax**: progressive scale 11.97-48%',
-              '**Old NHR (before 2024)**: fixed 10% for foreign pensions × 10 years (for those who got in on time)',
+              '**Standard tax**: progressive rates of 11.97-48%',
+              '**Old NHR (before 2024)**: fixed 10% for foreign pensions × 10 years (for those who qualified in time)',
               '**IFICI (new, 2024+)**: does NOT cover foreign pensions',
-              '**Double Taxation Treaties (DTT)**: Portugal has them with the Russian Federation, Brazil, USA, United Kingdom, France, Germany, Spain — double taxation is usually avoided through credit',
-              'DTT with the Russian Federation (1968 protocol) — pensions from the Russian Federation are taxed only in the country of residence (that is, in Portugal) — a simple situation',
+              '**Double taxation agreements (DTT)**: Portugal has them with the Russian Federation, Brazil, the USA, the United Kingdom, France, Germany, Spain — usually double taxation is avoided through a credit',
+              'DTT with Russia (1968 protocol) — pensions from the Russian Federation are taxed only in the country of residence (that is, in Portugal) — a straightforward situation',
               'USA: pensions are taxed in both countries, but FTC + treaty article are coordinated — consult a specialist'
             ]}
           ]},
           { id: 'f2', title: 'Receiving a foreign pension in Portugal', content: [
             { kind: 'checklist', items: [
               'Open a bank account in Portugal',
-              'Provide IBAN + proof of residence to your country’s pension authority',
-              'Some prefer SEPA, some — international SWIFT',
+              'Provide IBAN + proof of residence to the pension authority in your country',
+              'Some prefer SEPA, others international SWIFT',
               'Currency conversion fees: 1-3% if the currency is not euro',
               '**Wise / Revolut**: better rates for monthly transfers',
-              'Russian Federation: SWIFT transfers after sanctions — restricted, you need to use a non-sanctioned bank'
+              'Russian Federation: SWIFT transfers after sanctions are limited; you need to use a non-sanctioned bank'
             ]}
           ]},
           { id: 'f3', title: 'Pension portability in the EU', content: [
             { kind: 'checklist', items: [
               'Contribution record in any EU country counts towards the pension calculation in Portugal',
-              'EU citizens receive a pension according to the country of last employment',
+              'EU citizens receive a pension according to the country of their last employment',
               '**Regulation (EC) 883/2004**: coordination of social security systems',
-              'If you worked in 3 countries — each pays its part proportionally',
+              'If you worked in 3 countries — each pays its share proportionally',
               'Apply through Segurança Social in Portugal — they contact the other countries'
             ]}
           ]},
-          { id: 'f4', title: 'Russian Federation / Brazil / Ukraine: bilateral agreements', content: [
+          { id: 'f4', title: 'Russia / Brazil / Ukraine: bilateral agreements', content: [
             { kind: 'checklist', items: [
-              '**Russian Federation-Portugal**: 1995 bilateral social security agreement — contribution record is counted, but there is a lot of bureaucracy',
-              '**Brazil-Portugal**: full mutual recognition, work ≥ 1 year in either country counts',
+              '**Russia-Portugal**: 1995 bilateral social security agreement — contribution periods are counted, but there is a lot of bureaucracy',
+              '**Brazil-Portugal**: full mutual recognition, work ≥ 1 year in either country is counted',
               '**Ukraine-Portugal**: 2017 agreement, works',
-              '**Belarus-Portugal**: no direct agreement; contribution record is not counted',
-              'Process: Segurança Social requests employment history from the foreign authority, it can take 6-18 months'
+              '**Belarus-Portugal**: no direct agreement; contribution periods are not counted',
+              'Process: Segurança Social requests employment history from the foreign authority; it may take 6-18 months'
             ]}
           ]}
         ]}
@@ -135,18 +135,18 @@ export default {
       title: '👵 Benefits for pensioners',
       content: [
         { kind: 'checklist', items: [
-          '🚇 **Transport**: 50% discount on metro/buses in Lisbon for 65+',
-          '🎫 **CP (trains)**: 50% discount under the Sénior fare for 65+',
+          '🚇 **Transport**: 50% discount on the metro/buses in Lisbon for 65+',
+          '🎫 **CP (trains)**: 50% discount with the Sénior fare for 65+',
           '🎭 **Museums**: free or 50% almost everywhere',
           '🎬 **Cinema**: €4-5 (versus €7-10)',
           '💊 **Medicines**: enhanced SNS subsidies (escalão A — 90% subsidy)',
           '🏊 **Municipal swimming pools**: 50% discount',
           '⚡ **Tarifa Social Energia**: 33% discount on electricity for low income',
-          '🏠 **IMI exemption**: for main residence, owner ≥ 65, low income',
-          '💰 **Complemento Solidário para Idosos (CSI)**: top-up to minimum income (€565/month 2026) for low-income pensioners',
-          '🍴 **Cantinas Sociais**: meals €1.50-3 for older people in need',
+          '🏠 **IMI exemption**: for the main home, owner ≥ 65, low income',
+          '💰 **Complemento Solidário para Idosos (CSI)**: top-up to the minimum income (€565/month 2026) for low-income pensioners',
+          '🍴 **Cantinas Sociais**: meals €1.5-3 for older people in need',
           '📞 **Linha do Idoso (760 24 24 24)**: help and information for older people',
-          '🏥 **Apoio Domiciliário**: home care services through the municipality / Misericórdias'
+          '🏥 **Apoio Domiciliário**: home-care services through the municipality / Misericórdias'
         ]}
       ]
     },
@@ -155,15 +155,15 @@ export default {
       title: '📊 Retirement planning when moving to Portugal',
       content: [
         { kind: 'checklist', items: [
-          '📅 **5-10 years before retirement**: open a PPR, contribute the maximum within the limit',
+          '📅 **5-10 years before retirement**: open a PPR, contribute the maximum up to the limit',
           '📊 **Diversify**: ~50% PPR, 25% global ETFs (through a Portuguese broker), 25% property',
           '🇪🇺 **If you have an EU pension**: confirm portability to Portugal',
           '💰 **Minimum income for a comfortable retirement in Portugal**: €1,500-2,000/month for the Lisboa area, €1,200-1,500 for the regions',
-          '🏥 **Health**: SNS coverage is sufficient; a private supplement ~€80-150/month adds comfort',
+          '🏥 **Health**: SNS coverage is sufficient; a private supplement at ~€80-150/month adds comfort',
           '🏠 **Consider buying** in the Algarve / regions — cheaper and a comfortable climate',
-          '👨‍👩‍👧 **Reagrupamento for an older parent**: children can bring parents if they live in Portugal (see the relevant guide)',
-          '⚠️ **Inflation protection**: Portuguese state pensions are indexed to inflation; PPR — depends on the instrument',
-          '📞 **Advice**: financial adviser + accountant (especially for multi-country pension situations)'
+          '👨‍👩‍👧 **Reagrupamento for an elderly parent**: children can bring parents if they live in Portugal (see the relevant guide)',
+          '⚠️ **Inflation protection**: Portuguese state pensions are indexed to inflation; PPR depends on the instrument',
+          '📞 **Consultation**: financial adviser + accountant (especially for pension situations involving several countries)'
         ]}
       ]
     }
@@ -171,7 +171,7 @@ export default {
   costs: [
     { label: 'Minimum state pension (depends on contribution record)', amountEUR: 0, note: 'See the official mínimos 2026 table by contribution record (<15 / 15-20 / 21-30 / 31+ years)' },
     { label: 'Average state pension', amountEUR: 530, note: '€/month' },
-    { label: 'Maximum PPR contribution (for 20% deduction)', amountEUR: 2000, note: '€/year up to 35' },
+    { label: 'Maximum PPR contribution (for 20% deduction)', amountEUR: 2000, note: '€/year up to age 35' },
     { label: 'IRS deduction on PPR <35', amountEUR: 400, note: '€/year' },
     { label: 'Complemento Solidário para Idosos', amountEUR: 565, note: '€/month top-up' }
   ],

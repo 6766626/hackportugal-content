@@ -3,7 +3,7 @@ export default {
   id: 'termas-spa-medical',
   categoryId: 'healthcare',
   title: 'Termas: лечебные термы Португалии и comparticipação SNS',
-  tldr: 'В Португалии termalismo — не просто spa, а медицинские процедуры на термальной воде. Если семейный врач SNS назначит tratamentos termais и вы выберете лицензированные termas-aderentes, SNS компенсирует 35% стоимости процедур, но максимум **110 € на человека в календарный год** (новый лимит с 1 октября 2025; ранее был 95 €). Типичный 14-дневный курс стоит 220–500 € без проживания. Популярные направления: Caldas da Rainha, Monfortinho, São Pedro do Sul, Vidago.',
+  tldr: 'В Португалии termalismo — не просто spa, а медицинские процедуры на термальной воде. Если семейный врач SNS назначит tratamentos termais и вы выберете лицензированные termas-aderentes, SNS компенсирует **35% стоимости процедур** через **выплату comparticipação напрямую термальному учреждению-aderente** (а не возврат пациенту). Базовый годовой лимит на utente установлен Portaria n.º 337-C/2018 — €95; периодически Министерство здравоохранения может публиковать обновлённую portaria/despacho — **проверяйте актуальный лимит и условия на sns.gov.pt и в выбранном термальном учреждении перед записью**. Типичный 14-дневный курс стоит 220–500 € без проживания. Популярные направления: Caldas da Rainha, Monfortinho, São Pedro do Sul, Vidago.',
   tags: ['termas', 'sns', 'здоровье', 'comparticipação'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,7 +27,7 @@ export default {
       id: 'sns-reimbursement',
       title: 'Как работает comparticipação SNS в 2026',
       content: [
-        { kind: 'paragraph', text: 'На май 2026 базовое правило таково: SNS компенсирует 35% стоимости назначенных tratamentos termais, но не больше **110 € на utente за календарный год** (лимит повышен с 1 октября 2025; ранее был 95 €). Если курс стоит 200 €, возврат будет 70 €. Если курс стоит 350 €, 35% = 122,50 €, но получите максимум 110 €.' },
+        { kind: 'paragraph', text: 'Базовое правило (Portaria n.º 337-C/2018): SNS компенсирует **35% стоимости назначенных tratamentos termais**, но не выше годового лимита на utente. Базовый лимит portaria — **€95/год**. Лимит может пересматриваться отдельной portaria/despacho — перед записью проверяйте текущее значение на sns.gov.pt и/или непосредственно в termas-aderente. Comparticipação выплачивается **напрямую термальному учреждению**, а не пациенту: вы платите свою часть (65%) термам, а 35% (до лимита) SNS перечисляет учреждению. Пример: если курс стоит €200, ваша часть — €130, SNS перечислит termas €70.' },
         { kind: 'paragraph', text: 'Обычно схема не выглядит как “скидка на кассе”. Вы оплачиваете термам курс, сохраняете документы и подаёте их по правилам, которые термы объясняют на месте: fatura-recibo с NIF, подтверждение выполнения процедур и медицинская prescription / termo de responsabilidade, если требуется.' },
         { kind: 'checklist', items: [
           'Проверьте, что ваш médico de família оформляет именно prescrição de tratamentos termais, а не просто рекомендацию “поехать на воды”',
@@ -91,13 +91,13 @@ export default {
       id: 'budget',
       title: 'Сколько стоит 14-дневный курс',
       content: [
-        { kind: 'paragraph', text: 'Реалистичный бюджет на одного взрослого в 2026: медицинская часть 220–500 € за 12–14 дней, если брать не luxury wellness, а лечебный курс. После максимальной comparticipação SNS 110 € фактическая медицинская часть часто выходит 110–390 €.' },
+        { kind: 'paragraph', text: 'Реалистичный бюджет на одного взрослого в 2026: медицинская часть 220–500 € за 12–14 дней, если брать не luxury wellness, а лечебный курс. После применения 35% comparticipação SNS (до базового годового лимита €95 или актуального) ваша часть обычно 130–400 €. Лимит проверяйте перед записью.' },
         { kind: 'checklist', items: [
           'Consulta termal: обычно 35–60 €',
           'Inscrição / taxa administrativa: 10–25 €',
           'Пакет процедур 12–14 дней: примерно 180–420 €',
           'Итого лечение до возврата: примерно 220–500 €',
-          'Максимальная компенсация SNS: **110 € в год** (с 1 октября 2025)',
+          'Базовый годовой лимит SNS: **€95/год** (Portaria 337-C/2018) — выплачивается напрямую termas; актуальный лимит проверяйте на sns.gov.pt',
           'Жильё: от 40–70 €/ночь в простом alojamento до 120–250 €/ночь в hotel termal',
           'Дорога: автобус/поезд дешевле, но до некоторых терм удобнее только на машине',
           'Spa extras, массажи “relax”, косметология и бассейны обычно не входят в медицинскую компенсацию'
@@ -107,10 +107,10 @@ export default {
     }
   ],
   costs: [
-    { label: 'Компенсация SNS за tratamentos termais', amountEURMax: 110, note: '35% стоимости процедур, но максимум 110 € на utente в календарный год (новый лимит с 1 октября 2025)' },
+    { label: 'Compensação SNS за tratamentos termais', amountEURMax: 95, note: '35% стоимости процедур, базовый годовой лимит Portaria 337-C/2018 = €95. Возможны более новые portaria/despacho — проверяйте на sns.gov.pt. Выплата идёт напрямую termas-aderente.' },
     { label: 'Consulta termal', amountEURMin: 35, amountEURMax: 60, note: 'Первичный осмотр врача в термах; цена зависит от курорта' },
     { label: 'Лечебный курс 12–14 дней', amountEURMin: 220, amountEURMax: 500, note: 'Без проживания и дороги; luxury spa-пакеты могут быть дороже' },
-    { label: 'Фактическая стоимость после максимального возврата SNS', amountEURMin: 110, amountEURMax: 390, note: 'Если курс подходит под comparticipação и достигнут лимит 110 €' }
+    { label: 'Фактическая стоимость после применения comparticipação', amountEURMin: 130, amountEURMax: 405, note: 'Если курс подходит под comparticipação и применён базовый лимит €95 SNS' }
   ],
   sources: [
     { title: 'DGS: termalismo и лицензирование estabelecimentos termais', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
@@ -118,6 +118,6 @@ export default {
     { title: 'Portaria n.º 337-C/2018 (com alterações): regime de comparticipação pelo SNS dos tratamentos termais', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/337-c-2018-117669735', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS: cuidados de saúde e acesso através do número de utente', url: 'https://www.sns.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

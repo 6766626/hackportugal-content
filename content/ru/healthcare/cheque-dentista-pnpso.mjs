@@ -3,7 +3,7 @@ export default {
   id: 'cheque-dentista-pnpso',
   categoryId: 'healthcare',
   title: 'Cheque-Dentista — государственный стоматологический ваучер PNPSO',
-  tldr: 'Cheque-Dentista — ваучер SNS по программе PNPSO на приём у стоматолога-участника. В 2026 году номинал обычного ваучера — 45 €. Право есть не у всех: дети и подростки по возрастным группам/школе или направлению médico de família, беременные под наблюдением SNS, пожилые с Complemento Solidário para Idosos, люди с VIH/SIDA. Ваучер выдаёт SNS, использовать его можно только у dentista aderente из списка PNPSO, обычно в пределах срока действия, указанного на самом чеке.',
+  tldr: 'Cheque-Dentista — ваучер SNS по программе PNPSO на приём у стоматолога-участника.\n\nВ 2026 году номинал обычного ваучера — 45 €. Право есть не у всех: дети и подростки по возрастным группам/школе или направлению médico de família, беременные под наблюдением SNS, пожилые с Complemento Solidário para Idosos, люди с VIH/SIDA. Ваучер выдаёт SNS, использовать его можно только у dentista aderente из списка PNPSO, обычно в пределах срока действия, указанного на самом чеке.',
   tags: ['sns', 'dentista', 'pnpso', 'ваучер'],
   estimatedReadMinutes: 5,
   steps: [

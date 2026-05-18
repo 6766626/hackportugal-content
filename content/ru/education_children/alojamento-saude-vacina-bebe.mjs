@@ -3,7 +3,7 @@ export default {
   id: 'alojamento-saude-vacina-bebe',
   categoryId: 'education_children',
   title: 'Контроль здоровья ребёнка в SNS: saúde infantil и прививки',
-  tldr: 'В Португалии у ребёнка есть бесплатное наблюдение по Programa Nacional de Saúde Infantil e Juvenil: минимум 13 плановых осмотров от 1 месяца до 14–18 лет плюс прививки по Programa Nacional de Vacinação. В Centro de Saúde это бесплатно в SNS, включая детей без ВНЖ и без оформленного número de utente: помощь и вакцинация ребёнку не должны откладывать из‑за статуса родителей. На практике лучше сразу оформить utente, семейного врача и eBoletim.',
+  tldr: 'В Португалии у ребёнка есть бесплатное наблюдение по Programa Nacional de Saúde Infantil e Juvenil: минимум 13 плановых осмотров от 1 месяца до 14–18 лет плюс прививки по Programa Nacional de Vacinação. В Centro de Saúde это бесплатно в SNS, включая детей без ВНЖ и без оформленного número de utente: помощь и вакцинация ребёнку не должны откладывать из‑за статуса родителей.\n\nНа практике лучше сразу оформить utente, семейного врача и eBoletim.',
   tags: ['sns', 'дети', 'вакцины', 'utente'],
   estimatedReadMinutes: 6,
   steps: [

@@ -93,15 +93,18 @@ export default {
       title: '⚡ Tarifa Social de Energia',
       content: [
         { kind: 'checklist', items: [
-          '**Electricity social tariff**: скидка около **33,8%** на eligible regulated tariff components (итоговое снижение счёта ниже, потому что налоги и audiovisual contribution не дисконтируются одинаково). Требуется domestic low-voltage contract с potência contratada ≤ 6,9 kVA',
-          '**Natural gas social tariff**: отдельная скидка около **31,2%** для eligible low-pressure household contracts с лимитом годового потребления',
-          'Автоматически применяется, если вы в одной из категорий:',
-          '  - получатель RSI / Subsídio de desemprego',
-          '  - Abono de Família 1-2 эшелон',
-          '  - Complemento Solidário para Idosos',
-          '  - households с annual income below the legal Tarifa Social threshold (порог увеличивается за каждого дополнительного члена семьи; актуальный порог DGEG)',
+          '**Tarifa Social Electricidade**: скидка около **33,8%** на eligible regulated tariff components (итоговое снижение счёта ниже, потому что налоги и audiovisual contribution не дисконтируются одинаково). Требуется domestic low-voltage contract с potência contratada ≤ 6,9 kVA',
+          '**Tarifa Social Gás Natural**: отдельная скидка около **31,2%**. Критерии **строже**, чем для электричества — например, для категории abono de família пороги уже; полный список — на dgeg.gov.pt',
+          'Автоматически применяется, если вы в одной из категорий (по полному списку DGEG для электричества):',
+          '  - **CSI** (Complemento Solidário para Idosos)',
+          '  - **RSI** (Rendimento Social de Inserção)',
+          '  - **Любой subsídio de desemprego**: contributivo, social inicial, social subsequente, prolongamento, parcial, cessação atividade, cessação negócio, apoio desempregados de longa duração',
+          '  - **Abono de Família 1-2 эшелон**',
+          '  - **Pensão Social de Velhice / Invalidez** (для электричества)',
+          '  - **Complemento da Prestação Social para a Inclusão** (для электричества)',
+          '  - Households с annual income ≤ €6 272 (+€3 136 за каждого члена без дохода, до 10 человек). Актуальный порог — на dgeg.gov.pt',
           'EDP / Galp / Endesa и др. — автоматическое применение по данным Segurança Social / AT / NIF',
-          'Если автоматическое сопоставление не сработало — поставщик может попросить подтверждение; запрос через поставщика + сверка через dgeg.gov.pt',
+          'Если автоматическое сопоставление не сработало — попросите подтверждение в Segurança Social/AT, передайте поставщику; сверка через dgeg.gov.pt',
           'Действует постоянно, пока статус сохраняется'
         ]}
       ]
@@ -156,6 +159,6 @@ export default {
     { title: 'DGEG — Tarifa Social de Energia Elétrica', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/energia-eletrica/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

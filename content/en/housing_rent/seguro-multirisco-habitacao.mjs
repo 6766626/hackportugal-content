@@ -3,7 +3,7 @@ export default {
   id: 'seguro-multirisco-habitacao',
   categoryId: 'housing_rent',
   title: 'Seguro Multirriscos Habitação — home insurance',
-  tldr: 'Seguro Multirriscos Habitação is home insurance in Portugal. For the owner of an apartment in a condomínio, at least fire insurance is mandatory under Código Civil art. 1429; with a mortgage, the bank almost always requires multirriscos with building cover for the reconstruction amount. For a tenant, a policy is not mandatory, but it is useful for belongings, leaks and responsabilidade civil. Typical price in 2026: €100–300/year for an apartment, more expensive with a high insured amount and extended cover.',
+  tldr: 'Seguro Multirriscos Habitação is home insurance in Portugal. For the owner of a flat in a condomínio, at least fire insurance is mandatory under Código Civil art. 1429; with a mortgage, the bank almost always requires multirriscos with building cover for the reconstruction value. For a tenant, a policy is not mandatory, but it is useful for belongings, leaks and responsabilidade civil. Typical price in 2026: €100–300/year for a flat, more expensive with a high sum insured and extended cover.',
   tags: ['insurance', 'housing', 'rent', 'mortgage'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,11 +13,11 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Seguro Multirriscos Habitação is not one standard product, but a package of cover. The basic risk is incêndio, raio e explosão. The rest is added depending on the policy: danos por água, roubo, fenómenos sísmicos, responsabilidade civil, recheio, assistência ao lar.' },
         { kind: 'checklist', items: [
-          'Incêndio, raio e explosão — fire, lightning, explosion; key cover for owners.',
+          'Incêndio, raio e explosão — fire, lightning, explosion; the key cover for owners.',
           'Danos por água — leaks from pipes, a boiler, a washing machine; important in old buildings in Lisbon/Porto.',
           'Inundações/tempestades — rain, flooding, strong wind; check the conditions and exclusions separately.',
-          'Roubo/furto — theft of belongings; usually requires signs of forced entry and involvement of the PSP/GNR.',
-          'Responsabilidade civil familiar or proprietário/inquilino — damage to neighbours, for example if your pipe floods the apartment below.',
+          'Roubo/furto — theft of belongings; usually requires signs of forced entry and involvement of PSP/GNR.',
+          'Responsabilidade civil familiar or proprietário/inquilino — damage to neighbours, for example if your pipe floods the flat below.',
           'Recheio — furniture, appliances, clothes, personal belongings; insured separately from walls and structures.',
           'Assistência ao lar — call-out for a plumber, electrician, locksmith; limits are often low.',
           'Fenómenos sísmicos — earthquake; in Portugal it is often sold as additional cover, especially relevant for Lisboa/Algarve/Açores.'
@@ -27,18 +27,18 @@ export default {
     },
     {
       id: 'mandatory-or-not',
-      title: 'Is it mandatory to take it out',
+      title: 'Is it mandatory',
       content: [
-        { kind: 'paragraph', text: 'For a tenant in Portugal, seguro multirriscos is usually not mandatory by law. But the rental agreement may require a responsabilidade civil policy or seguro de recheio; this is a contractual condition, not a universal rule.' },
-        { kind: 'paragraph', text: 'For the owner of an apartment under propriedade horizontal, the law requires fire insurance for each fração autónoma and the common parts. In practice, this is covered either by the owner’s individual policy or by the condomínio’s collective policy. Responsibility for having cover lies with the owners.' },
-        { kind: 'paragraph', text: 'With a mortgage, the bank requires home insurance as a condition of the loan. Usually, multirriscos is needed with building cover at least for the valor de reconstrução, not for the apartment’s market price. The bank may offer its own policy, but you have the right to compare the market and take out insurance with another insurer if it meets the loan requirements.' },
+        { kind: 'paragraph', text: 'For a tenant in Portugal, seguro multirriscos is usually not legally mandatory. But the tenancy agreement may require a responsabilidade civil policy or seguro de recheio; this is a contractual condition, not a universal rule.' },
+        { kind: 'paragraph', text: 'For the owner of a flat under propriedade horizontal, the law requires fire insurance for each fração autónoma and the common areas.\n\nIn practice, this is covered either by the owner’s individual policy or by the condomínio collective policy. Responsibility for having cover lies with the owners.' },
+        { kind: 'paragraph', text: 'With a mortgage, the bank requires home insurance as a loan condition. Usually multirriscos is needed with building cover at least for the valor de reconstrução, not the market price of the flat. The bank may offer its own policy, but you are entitled to compare the market and take out insurance with another insurer if it meets the loan requirements.' },
         { kind: 'checklist', items: [
           'Tenant with no requirement in the contrato de arrendamento — the policy is voluntary.',
-          'Recheio and responsabilidade civil are useful for a tenant, because the owner’s insurance does not cover your belongings.',
-          'Owner of an apartment in a condomínio — at least incêndio is mandatory.',
+          'For a tenant, recheio and responsabilidade civil are useful because the owner’s insurance does not cover your belongings.',
+          'Owner of a flat in a condomínio — at least incêndio is mandatory.',
           'Owner of a moradia without a condomínio — the law may not require multirriscos, but the bank will require it with a mortgage.',
-          'Mortgage — the bank monitors that a policy is in place and may be the beneficiário/credor hipotecário.',
-          'Condomínio may have a joint policy, but it does not always cover recheio and individual improvements to the apartment.'
+          'Mortgage — the bank monitors that the policy exists and may be the beneficiário/credor hipotecário.',
+          'Condomínio may have a shared policy, but it does not always cover recheio and individual improvements to the flat.'
         ] }
       ]
     },
@@ -46,23 +46,23 @@ export default {
       id: 'how-much',
       title: 'How much it costs in 2026',
       content: [
-        { kind: 'paragraph', text: 'The usual range for an apartment is around €100–300/year. A small apartment with basic risks may cost closer to €100–150/year; a policy with recheio, assistência, responsabilidade civil and fenómenos sísmicos often comes to €200–400/year and above.' },
-        { kind: 'paragraph', text: 'The price depends not on the apartment purchase price, but on the insured amount and risks. For the building, insurers use valor de reconstrução: how much it costs to rebuild an equivalent area, excluding land value and the location premium.' },
+        { kind: 'paragraph', text: 'The usual range for a flat is about €100–300/year. A small flat with basic risks may cost closer to €100–150/year; a policy with recheio, assistência, responsabilidade civil and fenómenos sísmicos often comes to €200–400/year or more.' },
+        { kind: 'paragraph', text: 'The price depends not on the purchase price of the flat, but on the sum insured and the risks. For the building, insurers use valor de reconstrução: how much it would cost to rebuild an equivalent area, excluding the value of the land and the location premium.' },
         { kind: 'checklist', items: [
-          'Capital seguro para edifício — insured amount for walls, slabs, roof, built-in systems.',
-          'Capital seguro para recheio — separate amount for furniture, appliances, clothes, jewellery.',
+          'Capital seguro para edifício — the sum insured for walls, floors/ceilings, roof, built-in systems.',
+          'Capital seguro para recheio — a separate amount for furniture, appliances, clothes, jewellery.',
           'Franquia — your share in a claim; for example €0, €50, €100 or a percentage of the damage.',
-          'Location — Lisboa, Algarve, flood/earthquake risk zones may be more expensive.',
+          'Location — Lisboa, Algarve, flood/earthquake risk areas may be more expensive.',
           'Age and condition of the building — old pipes, wooden floors, lack of manutenção increase the risk.',
-          'Fenómenos sísmicos cover usually increases the premium noticeably.',
+          'Cover for fenómenos sísmicos usually increases the premium noticeably.',
           'A bank package may give a discount on the spread, but the policy itself is often more expensive than the market.'
         ] },
-        { kind: 'warning', text: 'Do not understate capital seguro to save €20–40 a year. If the capital is insufficient, the insurer may apply regra proporcional: pay only part of the damage.' }
+        { kind: 'warning', text: 'Do not understate the capital seguro to save €20–40 a year. If the capital is insufficient, the insurer may apply the regra proporcional: pay only part of the loss.' }
       ]
     },
     {
       id: 'how-to-buy',
-      title: 'How to take it out without unnecessary overpayment',
+      title: 'How to take it out without overpaying',
       content: [
         { kind: 'substeps', items: [
           { id: 'collect-data', title: '1. Gather the property details', content: [
@@ -76,19 +76,19 @@ export default {
               'Whether you want to insure recheio and for what amount.'
             ] }
           ] },
-          { id: 'compare-quotes', title: '2. Compare 3–5 offers', content: [
-            { kind: 'paragraph', text: 'Request simulations from Fidelidade, Tranquilidade, Allianz, Liberty/Liberty Seguros or through a broker mediador de seguros. Compare not only the premium, but also franquias, exclusions and limits.' },
+          { id: 'compare-quotes', title: '2. Compare 3–5 quotes', content: [
+            { kind: 'paragraph', text: 'Request simulations from Fidelidade, Tranquilidade, Allianz, Liberty/Liberty Seguros or through a mediador de seguros. Compare not only the premium, but also franquias, exclusions and limits.' },
             { kind: 'checklist', items: [
-              'Ask for condições particulares and condições gerais before paying.',
+              'Ask for the condições particulares and condições gerais before paying.',
               'Check whether danos por água is included without overly narrow exclusions.',
-              'Check the responsabilidade civil limit towards neighbours.',
-              'For a tenant, make sure that recheio is actually included.',
+              'Check the responsabilidade civil limit for neighbours.',
+              'For a tenant, make sure recheio is actually included.',
               'For a mortgage, check whether the bank accepts a policy from an external insurer.',
-              'Compare annual payment and mensalidade: monthly payment may be more expensive.'
+              'Compare annual payment and mensalidade: paying monthly may be more expensive.'
             ] }
           ] },
           { id: 'sign-and-pay', title: '3. Sign and pay', content: [
-            { kind: 'paragraph', text: 'Usually you need NIF, address, identity document, IBAN or card, and apartment details. The policy is activated after emissão da apólice and payment of the prémio. Keep the apólice, recibo and assistência contacts.' }
+            { kind: 'paragraph', text: 'Usually you need NIF, address, identity document, IBAN or card, and flat details. The policy becomes active after emissão da apólice and payment of the prémio. Keep the apólice, recibo and assistência contacts.' }
           ] }
         ] }
       ]
@@ -97,23 +97,23 @@ export default {
       id: 'claim',
       title: 'What to do in case of a leak, fire or theft',
       content: [
-        { kind: 'paragraph', text: 'Notification deadlines are stated in the policy; safe practice is to notify the insurer immediately, within 24–48 hours, and not to throw away damaged items before the perito inspection.' },
+        { kind: 'paragraph', text: 'Notification deadlines are stated in the policy; safe practice is to tell the insurer immediately, within 24–48 hours, and not to throw away damaged items before the perito inspection.' },
         { kind: 'checklist', items: [
-          'First stop the damage: turn off the water, switch off electricity, call emergência in case of fire.',
+          'First stop the damage: turn off the water, switch off the electricity, call emergência in case of fire.',
           'Take photos and videos before cleaning: source, damage, wide shots, details.',
-          'Notify the condomínio or senhorio if common parts or neighbouring apartments are affected.',
+          'Inform the condomínio or senhorio if common areas or neighbouring flats are affected.',
           'Call the assistência da seguradora and get a sinistro number.',
-          'In case of theft, file a queixa with the PSP/GNR and keep the document.',
+          'In case of theft, file a queixa with PSP/GNR and keep the document.',
           'Collect repair invoices, appliance purchase receipts, photos of serial numbers, old recibos.',
           'Do not admit fault in writing to neighbours without agreeing it with the insurer.',
-          'Check whether the franquia has been deducted and whether capital seguro has been applied correctly.'
+          'Check whether the franquia has been deducted and whether the capital seguro has been applied correctly.'
         ] },
-        { kind: 'warning', text: 'Typical dispute: the owner’s insurance covers the walls but not the tenant’s belongings; the condomínio insurance covers common parts but not your kitchen renovation; danos por água may not cover a gradual leak due to falta de manutenção.' }
+        { kind: 'warning', text: 'A typical dispute: the owner’s insurance covers the walls, but not the tenant’s belongings; the condomínio insurance covers common areas, but not your kitchen renovation; danos por água may not cover a gradual leak due to falta de manutenção.' }
       ]
     }
   ],
   costs: [
-    { label: 'Basic multirriscos for an apartment', amountEURMin: 100, amountEURMax: 200, note: 'Annual guide: incêndio, danos por água, responsabilidade civil with limitations.' },
+    { label: 'Basic multirriscos for a flat', amountEURMin: 100, amountEURMax: 200, note: 'Annual guide: incêndio, danos por água, responsabilidade civil with limits.' },
     { label: 'Extended policy with recheio and assistência', amountEURMin: 200, amountEURMax: 400, note: 'Annual guide; depends on capital seguro, franquia and earthquake cover.' },
     { label: 'Tenant policy for belongings and civil liability', amountEURMin: 60, amountEURMax: 180, note: 'Usually cheaper because it does not insure the building structure.' }
   ],

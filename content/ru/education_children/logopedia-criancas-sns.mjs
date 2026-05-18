@@ -41,7 +41,7 @@ export default {
           'Список слов/фраз, которые ребёнок реально использует на домашнем языке',
           'Предыдущие заключения: pediatra, psicologia, ORL, audiologia, neurologia, autism/ADHD assessment'
         ] },
-        { kind: 'paragraph', text: 'Срок ожидания в SNS не единый. В 2026 году реальная вилка для неэкстренной terapia da fala у детей — примерно 3–12 месяцев; в Лиссабоне, Порту и густонаселённых concelhos бывает дольше. Срочность повышают: регресс речи, подозрение на аутизм, проблемы глотания, выраженное заикание, нарушения слуха, направление от pediatra do desenvolvimento.' },
+        { kind: 'paragraph', text: 'Срок ожидания в SNS не единый.\n\nВ 2026 году реальная вилка для неэкстренной terapia da fala у детей — примерно 3–12 месяцев; в Лиссабоне, Порту и густонаселённых concelhos бывает дольше. Срочность повышают: регресс речи, подозрение на аутизм, проблемы глотания, выраженное заикание, нарушения слуха, направление от pediatra do desenvolvimento.' },
         { kind: 'warning', text: 'Не ждите молча “письма из больницы”. Через 3–4 недели после направления проверьте в Centro de Saúde, куда отправлен pedido, есть ли номер episódio/consulta и актуален ли телефон в системе SNS.' }
       ]
     },
@@ -49,7 +49,7 @@ export default {
       id: 'early-intervention',
       title: 'До школы и в раннем возрасте: SNIPI / Intervenção Precoce',
       content: [
-        { kind: 'paragraph', text: 'Для детей 0–6 лет с atraso no desenvolvimento или риском нарушения развития работает Sistema Nacional de Intervenção Precoce na Infância — SNIPI. На практике это Equipa Local de Intervenção (ELI): специалисты из saúde, educação и segurança social, которые оценивают ребёнка и составляют Plano Individual de Intervenção Precoce.' },
+        { kind: 'paragraph', text: 'Для детей 0–6 лет с atraso no desenvolvimento или риском нарушения развития работает Sistema Nacional de Intervenção Precoce na Infância — SNIPI.\n\nНа практике это Equipa Local de Intervenção (ELI): специалисты из saúde, educação и segurança social, которые оценивают ребёнка и составляют Plano Individual de Intervenção Precoce.' },
         { kind: 'paragraph', text: 'Запрос может идти через médico de família, pediatra, creche, jardim de infância, serviço social или напрямую в местную ELI, если семья знает контакт. Для иностранной семьи ключевое — показать, что трудности не объясняются только переездом и новым португальским языком.' },
         { kind: 'checklist', items: [
           'Попросите в creche/jardim письменное наблюдение: коммуникация, игра, понимание инструкций, поведение в группе',

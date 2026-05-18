@@ -3,7 +3,7 @@ export default {
   id: 'cartao-cliente-comparados',
   categoryId: 'daily_life',
   title: 'Cartão Cliente: comparação entre Continente, Pingo Doce, Lidl Plus e Auchan',
-  tldr: 'Em Portugal, os cartões de supermercado permitem poupar de forma real, mas apenas se comprar em promoção e não perseguir “descontos” em produtos desnecessários. Em abril de 2026: o Continente dá um retorno base de cerca de 1% em saldo/vales e cupões frequentes, além de vantagem em fruta/legumes de cerca de 0,10 €/kg; o Pingo Doce Poupa Mais é forte em produtos com etiquetas amarelas de 10–50%; o Lidl Plus tem os melhores cupões digitais sem plástico; o Auchan Card oferece cerca de 1% e multi-buy. O ROI depende do cabaz, não do cartão em si.',
+  tldr: 'Em Portugal, os cartões de supermercado permitem poupar de facto, mas só se comprar em promoção e não correr atrás de um “desconto” em produtos de que não precisa. Em abril de 2026: o Continente dá uma devolução base de cerca de 1% em saldo/vales e cupões frequentes, além de uma vantagem em fruta/legumes de cerca de 0,10 €/kg; o Pingo Doce Poupa Mais é forte em produtos com etiquetas amarelas de 10–50%; o Lidl Plus tem os melhores cupões digitais sem cartão físico; o Auchan Card dá cerca de 1% e promoções multi-buy. O ROI depende do cabaz, não do cartão em si.',
   tags: ['cartao', 'supermercados', 'descontos', 'lidl', 'continente'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,19 +12,18 @@ export default {
       title: 'Conclusão rápida: que cartão compensa mais para cada pessoa',
       content: [
         {
-          kind: 'paragraph',
-          text: 'Os quatro programas são gratuitos ou praticamente gratuitos para o cliente comum, por isso a estratégia ideal é ter pelo menos 2–3 aplicações e comparar os folhetos semanais. O principal erro dos expats: considerar um “desconto de 50%” como poupança, quando o preço base pode ter sido inflacionado.'
+          kind: 'paragraph', text: 'Os quatro programas são gratuitos ou praticamente gratuitos para o cliente comum, por isso a estratégia ideal é ter pelo menos 2–3 aplicações e comparar os folhetos semanais. O erro principal dos expats: considerar um “desconto de 50%” como poupança, quando o preço base pode ter sido aumentado.'
         },
         {
           kind: 'checklist',
           items: [
             'Continente — a melhor opção universal, se tiver um Continente/Modelo por perto e usar regularmente o saldo Cartão Continente.',
-            'Pingo Doce Poupa Mais — vantajoso para comida pronta, carne, peixe, vinho, produtos de limpeza e artigos com marcação amarela evidente.',
-            'Lidl Plus — a melhor opção “leve”: aplicação, cupões, sem cartão de plástico, bons descontos em marcas próprias.',
+            'Pingo Doce Poupa Mais — compensa em comida pronta, carne, peixe, vinho, produtos de limpeza e artigos com marcação amarela clara.',
+            'Lidl Plus — a melhor opção “leve”: aplicação, cupões, sem cartão de plástico, bons descontos nas marcas próprias.',
             'Auchan Card — bom para compras grandes, cabazes familiares, multi-buy “leve X pague Y” e grandes hipermercados.',
             'Se vive no centro de Lisboa/Porto sem carro, normalmente ganha a loja mais próxima, não o programa de fidelização.',
-            'Se faz compras de 300–500 € por mês, a diferença entre usar os cartões de forma inteligente ou aleatória pode facilmente gerar 10–40 € de poupança.',
-            'Se compra apenas produtos básicos sem marcas, o Lidl e o Pingo Doce são muitas vezes mais baratos no preço de prateleira, mesmo sem “cashback”.'
+            'Se faz compras de 300–500 € por mês, a diferença entre usar os cartões de forma inteligente e aleatória pode facilmente gerar 10–40 € de poupança.',
+            'Se compra apenas produtos básicos sem marcas, o Lidl e o Pingo Doce são muitas vezes mais baratos pelo preço de prateleira, mesmo sem “cashback”.'
           ]
         }
       ]
@@ -34,24 +33,22 @@ export default {
       title: 'Continente: saldo, cupões e 1% estável',
       content: [
         {
-          kind: 'paragraph',
-          text: 'O Cartão Continente é o programa mais desenvolvido em Portugal: uma conta funciona no Continente, Continente Modelo, Continente Bom Dia e em parceiros do grupo Sonae. A lógica principal não é o desconto imediato, mas a acumulação de saldo no cartão e cupões personalizados na aplicação.'
+          kind: 'paragraph', text: 'O Cartão Continente é o programa mais desenvolvido em Portugal: uma conta funciona no Continente, Continente Modelo, Continente Bom Dia e em parceiros do grupo Sonae. A lógica principal não é um desconto imediato, mas sim a acumulação de saldo no cartão e cupões personalizados na aplicação.'
         },
         {
           kind: 'checklist',
           items: [
-            'Vantagem base: cerca de 1% de retorno em saldo/vales nas compras normais, se a campanha estiver activa e as condições forem cumpridas.',
-            'Fruta e legumes: é frequente encontrar uma mecânica de cerca de 0,10 €/kg em saldo ou desconto — útil para o cabaz familiar.',
-            'Ponto forte: cupões personalizados de 5 €, 10%, 15% em categorias, fraldas, ração, produtos de limpeza, vinho.',
+            'Vantagem base: cerca de 1% de devolução em saldo/vales nas compras normais, se a campanha estiver ativa e as condições forem cumpridas.',
+            'Fruta e legumes: é frequente haver uma mecânica de cerca de 0,10 €/kg em saldo ou desconto — útil para o cabaz familiar.',
+            'Ponto forte: cupões personalizados de 5 €, 10%, 15% em categorias, fraldas, alimentação animal, produtos de limpeza, vinho.',
             'Normalmente, o saldo não pode ser levantado em dinheiro: tem de ser gasto na rede ou em parceiros, dentro das condições.',
-            'É preciso verificar cuidadosamente a validade: muitas vezes os vales duram alguns dias ou semanas, não um ano.',
-            'O cartão é prático na aplicação Continente, mas também pode usar o cartão de plástico na caixa.',
-            'O melhor ROI surge em compras grandes uma vez por semana e ao planear o cabaz em função dos cupões.'
+            'É preciso verificar atentamente o prazo de validade: os vales muitas vezes duram alguns dias ou semanas, não um ano.',
+            'O cartão é cómodo na aplicação Continente, mas também pode usar o cartão físico na caixa.',
+            'O melhor ROI obtém-se em compras grandes uma vez por semana e ao planear o cabaz em função dos cupões.'
           ]
         },
         {
-          kind: 'warning',
-          text: 'Não compre um produto só porque dá saldo. Se o produto estiver 20% mais caro e o retorno for 10%, continua a pagar em excesso. Compare o preço por kg/litro na etiqueta.'
+          kind: 'warning', text: 'Não compre um produto só porque dá saldo. Se o produto for 20% mais caro e a devolução for 10%, continua a pagar a mais. Compare o preço por kg/litro na etiqueta.'
         }
       ]
     },
@@ -60,24 +57,22 @@ export default {
       title: 'Pingo Doce Poupa Mais: etiquetas amarelas e descontos de 10–50%',
       content: [
         {
-          kind: 'paragraph',
-          text: 'O Pingo Doce funciona de forma mais simples: o cartão Poupa Mais desbloqueia descontos em produtos assinalados e campanhas. Não é um “cashback universal”, mas sim acesso a preços promocionais. Em 2026, o intervalo típico de promoção é de 10–50% em artigos seleccionados, sobretudo nas campanhas semanais.'
+          kind: 'paragraph', text: 'O Pingo Doce funciona de forma mais simples: o cartão Poupa Mais dá acesso a descontos em produtos assinalados e campanhas. Não é um “cashback universal”, mas sim acesso a preços promocionais. Em 2026, o intervalo típico de promoção é de 10–50% em artigos selecionados, sobretudo nas campanhas semanais.'
         },
         {
           kind: 'checklist',
           items: [
-            'Ponto forte: etiquetas amarelas em produtos de consumo diário — carne, peixe, lacticínios, vinho, café, detergentes.',
-            'Funciona bem para quem está disposto a mudar de marca e comprar o que está em promoção no momento.',
-            'O Poupa Mais pode dar vantagens em parceiros, incluindo combustível em parceiros, mas as condições mudam frequentemente.',
-            'Na caixa, é necessário apresentar o cartão ou o número; caso contrário, a promoção pode não ser aplicada.',
-            'Na aplicação é prático ver o folheto e as ofertas personalizadas, mas o sortido depende da loja concreta.',
+            'Ponto forte: etiquetas amarelas em produtos de consumo corrente — carne, peixe, lacticínios, vinho, café, detergentes.',
+            'Funciona bem para quem está disposto a trocar de marca e comprar o que está em promoção no momento.',
+            'O Poupa Mais pode dar vantagens em parceiros, incluindo combustível, mas as condições mudam frequentemente.',
+            'Na caixa é necessário apresentar o cartão ou número; caso contrário, a promoção pode não ser aplicada.',
+            'Na aplicação é cómodo ver o folheto e as ofertas personalizadas, mas o sortido depende da loja específica.',
             'O Pingo Doce é muitas vezes competitivo em comida pronta e take-away — o cartão é útil se compra almoços.',
             'Ponto fraco: se o cabaz não tiver produtos assinalados, a vantagem pode ser nula.'
           ]
         },
         {
-          kind: 'paragraph',
-          text: 'Para um expat, o Pingo Doce torna-se muitas vezes a “loja de bairro”: há pequenos supermercados em zonas residenciais. Por isso, mesmo sem cashback máximo, o programa compensa graças a promoções frequentes no cabaz básico.'
+          kind: 'paragraph', text: 'Para um expat, o Pingo Doce torna-se muitas vezes a “loja do bairro”: há supermercados pequenos em zonas residenciais. Por isso, mesmo sem o cashback máximo, o programa compensa graças às promoções frequentes no cabaz básico.'
         }
       ]
     },
@@ -86,24 +81,22 @@ export default {
       title: 'Lidl Plus: cupões digitais sem plástico',
       content: [
         {
-          kind: 'paragraph',
-          text: 'O Lidl Plus não é um cartão clássico, mas uma aplicação móvel. Na caixa, digitaliza-se um código QR. A poupança vem através de cupões activáveis, scratch card, objectivos mensais e preços especiais para utilizadores da aplicação.'
+          kind: 'paragraph', text: 'O Lidl Plus não é um cartão clássico, mas sim uma aplicação móvel. Na caixa, digitaliza-se um código QR. A poupança vem através de cupões ativáveis, scratch card, objetivos mensais e preços especiais para utilizadores da aplicação.'
         },
         {
           kind: 'checklist',
           items: [
             'Principal vantagem: sem plástico, tudo na aplicação Lidl Plus.',
-            'Antes da caixa, é necessário activar manualmente os cupões — instalar simplesmente a aplicação não chega.',
-            'Os descontos incidem frequentemente sobre marcas próprias Lidl, padaria, produtos de limpeza, queijos, iogurtes, congelados.',
+            'Antes de chegar à caixa, é preciso ativar manualmente os cupões — instalar a aplicação não basta.',
+            'Os descontos incidem frequentemente sobre marcas próprias Lidl, pastelaria/padaria, produtos de limpeza, queijos, iogurtes, congelados.',
             'Por vezes surgem cupões “em compras a partir de X €”, mas dependem da conta e do período.',
-            'A aplicação guarda talões digitais — prático para devoluções e controlo de despesas.',
+            'A aplicação guarda talões digitais — útil para devoluções e controlo de despesas.',
             'O Lidl é forte no preço baixo de prateleira: mesmo sem cupão, um produto pode ser mais barato do que nos concorrentes “com desconto”.',
-            'Desvantagem: menos produtos de marca e menor escolha do que no Continente/Auchan.'
+            'Desvantagem: menos produtos de marca e escolha mais limitada do que no Continente/Auchan.'
           ]
         },
         {
-          kind: 'warning',
-          text: 'O Lidl Plus é especialmente sensível ao “esqueci-me de activar o cupão”. Verifique as ofertas activadas antes de digitalizar o código QR na caixa, e não depois de pagar.'
+          kind: 'warning', text: 'O Lidl Plus é especialmente sensível ao “esqueci-me de ativar o cupão”. Verifique as ofertas ativadas antes de digitalizar o código QR na caixa, não depois do pagamento.'
         }
       ]
     },
@@ -112,52 +105,48 @@ export default {
       title: 'Auchan Card: 1%, multi-buy e compras grandes',
       content: [
         {
-          kind: 'paragraph',
-          text: 'O Auchan Card compensa mais em hipermercados e em compras volumosas. A lógica parece uma mistura de cashback e promoção: cerca de 1% de retorno/acumulação em várias compras, preços especiais para titulares do cartão e campanhas multi-buy.'
+          kind: 'paragraph', text: 'O Auchan Card compensa sobretudo em hipermercados e em compras grandes. A lógica parece uma mistura de cashback e promoções: cerca de 1% de devolução/acumulação em várias compras, preços especiais para titulares do cartão e campanhas multi-buy.'
         },
         {
           kind: 'checklist',
           items: [
-            'Bom para famílias e para quem vai às compras de carro uma vez por semana ou de duas em duas semanas.',
-            'Multi-buy “leve 2 pague 1”, “2.ª unidade -50%” e campanhas semelhantes dão uma poupança forte, se o produto for realmente necessário.',
-            'Categorias fortes: embalagens grandes, produtos de limpeza, artigos para criança, equipamentos para casa, produtos sazonais.',
-            'Nos hipermercados há maior escolha de produtos internacionais, o que é conveniente para novos expats.',
-            'Um retorno de cerca de 1% não torna a loja automaticamente barata — compare o preço base.',
-            'Para pequenas compras diárias, o Auchan é muitas vezes menos prático devido às localizações e à dimensão das lojas.',
+            'É bom para famílias e para quem vai às compras de carro uma vez por semana ou de duas em duas semanas.',
+            'Multi-buy “leve 2 pague 1”, “2.ª unidade -50%” e promoções semelhantes dão uma poupança forte se o produto for realmente necessário.',
+            'Categorias fortes: embalagens grandes, produtos de limpeza, artigos para bebé/criança, equipamentos para a casa, produtos sazonais.',
+            'Nos hipermercados há maior escolha de produtos internacionais, o que é cómodo para novos expats.',
+            'A devolução de cerca de 1% não torna automaticamente a loja barata — compare o preço base.',
+            'Para pequenas compras diárias, o Auchan é muitas vezes menos conveniente devido às localizações e ao tamanho das lojas.',
             'Verifique se o saldo é creditado de imediato ou após o fim da campanha: as condições variam.'
           ]
         },
         {
-          kind: 'paragraph',
-          text: 'Se tiver um Auchan grande perto de si, o cartão é quase obrigatório: não pelo 1%, mas pelo acesso aos preços “com cartão” e às grandes campanhas. Se o Auchan ficar longe, normalmente não compensa deslocar-se de propósito por causa do cartão sem um cabaz grande.'
+          kind: 'paragraph', text: 'Se tiver um grande Auchan perto de si, o cartão é quase obrigatório: não pelo 1%, mas pelo acesso aos preços “com cartão” e às grandes campanhas. Se o Auchan ficar longe, deslocar-se de propósito por causa do cartão normalmente não compensa sem um cabaz grande.'
         }
       ]
     },
     {
       id: 'roi-method',
-      title: 'Como calcular a poupança real, não o marketing',
+      title: 'Como calcular a vantagem real, e não o marketing',
       content: [
         {
-          kind: 'paragraph',
-          text: 'O cálculo correcto é simples: compare o preço final por kg/litro/unidade após o desconto, não o tamanho da percentagem na etiqueta. Em Portugal, o mesmo café, queijo ou detergente pode circular regularmente pelo ciclo “preço cheio → -30% → -50%”.'
+          kind: 'paragraph', text: 'O cálculo correto é simples: compare o preço final por kg/litro/unidade depois do desconto, e não o tamanho da percentagem na etiqueta. Em Portugal, o mesmo café, queijo ou detergente para roupa pode circular regularmente no ciclo “preço cheio → -30% → -50%”.'
         },
         {
           kind: 'checklist',
           items: [
-            'Crie um cabaz base de 20–30 produtos que compra realmente todos os meses.',
+            'Crie um cabaz base com 20–30 produtos que compra realmente todos os meses.',
             'Compare o preço por kg/litro, não apenas o preço da embalagem.',
-            'Conte o saldo como dinheiro apenas se tiver a certeza de que o vai gastar antes do prazo.',
-            'Não contabilize o desconto no segundo produto se não precisar do segundo produto.',
-            'Nos produtos frescos, a qualidade e a validade são mais importantes do que o desconto nominal.',
-            'Verifique o talão logo junto à caixa: em Portugal, há erros nas promoções.',
-            'Guarde talões digitais nas aplicações — isso ajuda a acompanhar a inflação do seu cabaz.',
+            'Conte o saldo como dinheiro apenas se tiver a certeza de que o vai conseguir gastar antes do prazo.',
+            'Não conte o desconto no segundo produto se não precisar do segundo produto.',
+            'Nos produtos frescos, a qualidade e a quebra são mais importantes do que o desconto nominal.',
+            'Verifique o talão logo junto à caixa: em Portugal, acontecem erros nas promoções.',
+            'Guarde os talões digitais nas aplicações — isso ajuda a acompanhar a inflação do seu próprio cabaz.',
             'Se a loja ficar mais 5–10 km longe, considere combustível, estacionamento e tempo.',
             'A DECO Proteste lembra regularmente: a maior poupança vem do planeamento das compras e da comparação de preços, não do cartão em si.'
           ]
         },
         {
-          kind: 'paragraph',
-          text: 'Combinação prática para 2026: Continente para o cabaz grande e saldo, Lidl Plus para produtos básicos baratos, Pingo Doce para promoções perto de casa, Auchan para compras volumosas e multi-buy. Não existe um único “melhor” cartão.'
+          kind: 'paragraph', text: 'Combinação prática para 2026: Continente para o cabaz grande e saldo, Lidl Plus para produtos básicos baratos, Pingo Doce para promoções perto de casa, Auchan para compras grandes e multi-buy. Não existe um único “melhor” cartão.'
         }
       ]
     }
@@ -166,7 +155,7 @@ export default {
     {
       label: 'Cartão Continente',
       amountEUR: 0,
-      note: 'A emissão do cartão/conta é normalmente gratuita; a vantagem depende dos cupões activos e do saldo.'
+      note: 'A adesão ao cartão/conta é normalmente gratuita; a vantagem depende dos cupões ativos e do saldo.'
     },
     {
       label: 'Poupa Mais Pingo Doce',
@@ -176,12 +165,12 @@ export default {
     {
       label: 'Lidl Plus',
       amountEUR: 0,
-      note: 'Aplicação gratuita; os cupões têm de ser activados antes do pagamento.'
+      note: 'Aplicação gratuita; os cupões têm de ser ativados antes do pagamento.'
     },
     {
       label: 'Auchan Card',
       amountEUR: 0,
-      note: 'O cartão de fidelização de consumidor é normalmente gratuito; produtos financeiros/de crédito Auchan são um tema separado e não são necessários para poupar nas compras normais.'
+      note: 'O cartão de fidelização para consumidores é normalmente gratuito; os produtos financeiros/de crédito Auchan são um tema separado e não são necessários para poupar nas compras normais.'
     }
   ],
   sources: [

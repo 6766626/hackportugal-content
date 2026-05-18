@@ -2,58 +2,58 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'olx-custojusto-vinted',
   categoryId: 'daily_life',
-  title: 'OLX, CustoJusto, Vinted — buying and selling used goods',
-  tldr: 'The main second-hand platforms in Portugal: OLX (everything from furniture to cars, ~5 m listings), CustoJusto (classifieds style, big audience in the north), Vinted (clothing, shoes, bags only — with buyer protection). Vinted is the only one with proper escrow (the platform holds the funds until the buyer confirms receipt). OLX and CustoJusto have no protection — you carry the risk. IMPORTANT: since 2024, platforms report large sellers to Finanças (EU DAC7 directive): if you sell >€2,000 or >30 items per year, the tax authority gets notified. Top scams 2025–2026: fake "payment confirmed" SMS, fake payment pages, MB Way push schemes.',
-  tags: ['olx', 'custojusto', 'vinted', 'second-hand', 'scams', 'safety'],
+  title: 'OLX, CustoJusto, Vinted — buying and selling second-hand items',
+  tldr: 'The main second-hand platforms in Portugal: OLX (everything from furniture to cars, ~5 million listings), CustoJusto (classifieds format, large audience in the north), Vinted (clothes/shoes/bags only, buyer protection). Vinted is the only one with real escrow protection (the platform holds the money until receipt is confirmed). OLX and CustoJusto — no protection, everything is your responsibility.\n\nIMPORTANT: since 2024, platforms have been reporting data on large sales to Finanças (EU DAC7 directive): if you sell >€2,000 or >30 items per year — the tax authority receives a notification. Main scams in 2025–2026: fake “payment confirmed” SMS messages, fake payment pages, MB Way schemes.',
+  tags: ['olx', 'custojusto', 'vinted', 'second-hand', 'scams', 'security'],
   estimatedReadMinutes: 8,
   steps: [
     {
       id: 'platforms-overview',
-      title: 'Three platforms — pick the right one',
+      title: 'Three platforms — which is for what',
       content: [
-        { kind: 'paragraph', text: 'Portugal has three main second-hand platforms. Each has its own sweet spot.' },
+        { kind: 'paragraph', text: 'There are three main second-hand platforms in Portugal. Each one fits its own category.' },
         { kind: 'substeps', items: [
           {
             id: 'olx-pt',
-            title: 'OLX — the most general-purpose',
+            title: 'OLX — the most versatile',
             content: [
               { kind: 'checklist', items: [
-                '🌐 olx.pt — the largest second-hand marketplace in Portugal (~5 m active listings)',
-                '🚗 Categories: everything from furniture and clothing to cars, property and jobs',
+                '🌐 olx.pt — the largest second-hand marketplace in Portugal (~5 million active listings)',
+                '🚗 Categories: everything from furniture and clothes to cars, property, jobs',
                 '💬 Communication via built-in chat + phone',
-                '💳 Payment DIRECTLY between parties — the platform is NOT an intermediary',
+                '💳 Payment DIRECTLY between the parties — the platform does NOT act as an intermediary',
                 '⚠️ NO buyer protection: all disputes are between you and the seller',
-                '💸 Listings are free (for private users); promotion costs extra',
+                '💸 Listing is free (for private individuals); promotion is paid',
                 '📱 iOS/Android app, profiles with ratings'
               ]}
             ]
           },
           {
             id: 'custojusto',
-            title: 'CustoJusto — the traditional "local" one',
+            title: 'CustoJusto — the traditional “local” one',
             content: [
               { kind: 'checklist', items: [
-                '🌐 custojusto.pt — the Portuguese counterpart of OLX, historically with a larger audience in the north',
+                '🌐 custojusto.pt — the Portuguese equivalent of OLX, historically with a larger audience in the north',
                 '🏠 Strong categories: furniture, tools, garden equipment, property',
-                '💬 Contact by phone or email — built-in chat is less developed',
+                '💬 Contact by phone or email — the built-in chat is less developed',
                 '⚠️ NO buyer protection',
-                '💸 Free listings',
-                '📱 App less popular than OLX'
+                '💸 Listing is free',
+                '📱 The app is less popular than OLX’s'
               ]}
             ]
           },
           {
             id: 'vinted-pt',
-            title: 'Vinted — clothing with escrow protection',
+            title: 'Vinted — clothes with escrow protection',
             content: [
               { kind: 'checklist', items: [
-                '🌐 vinted.pt — clothing, shoes, bags, accessories only; other categories are not allowed',
-                '🛡️ Buyer protection IS provided: Vinted holds the money until receipt is confirmed',
-                '💳 Card payment via the platform (Vinted Wallet)',
-                '💸 Sellers — FREE (no commission)',
-                '💸 Buyers — "Buyer Protection" fee ~€0.70 + 5% of the item price',
-                '📦 Shipping via CTT with label printing from the app',
-                '⚖️ Returns: within 2 days of receipt — you can open an "item not as described" dispute'
+                '🌐 vinted.pt — clothes, shoes, bags, accessories only; other categories are prohibited',
+                '🛡️ Buyer protection EXISTS: Vinted holds the money until receipt is confirmed',
+                '💳 Payment by card through the platform (Vinted Wallet)',
+                '💸 For the seller — FREE (no commission)',
+                '💸 For the buyer — “Buyer Protection” fee ~€0.70 + 5% of the item price',
+                '📦 Delivery via CTT with the option to print the label directly from the app',
+                '⚖️ Return: within 2 days of receipt — you can open an “item not as described” dispute'
               ]}
             ]
           }
@@ -64,32 +64,32 @@ export default {
       id: 'dac7-tax',
       title: 'Taxes: DAC7 — platforms report to Finanças',
       content: [
-        { kind: 'paragraph', text: 'Since 2024, all online platforms in the EU are required to report users who exceed certain sales thresholds to the tax authority. This is Directive DAC7 (Council Directive (EU) 2021/514), implemented in Portugal as Decreto-Lei 53/2023.' },
+        { kind: 'paragraph', text: 'Since 2024, all online platforms in the EU have been required to report data to the tax authority on users who exceed sales thresholds. This is the DAC7 directive (Council Directive 2021/514/EU), in Portugal — Decreto-Lei 53/2023.' },
         { kind: 'checklist', items: [
           '🚨 Threshold: €2,000 in total revenue OR 30+ transactions per calendar year',
-          '📨 The platform (OLX, Vinted, CustoJusto) automatically reports to Finanças those who exceed the threshold',
-          '⚖️ If you\'re just selling PERSONAL belongings (clothes, furniture from your home), that\'s NOT a business — no tax — but Finanças may still ask you for an explanation',
-          '💼 If you regularly buy and resell, that\'s now atividade comercial — you need recibos verdes (matching CAE code) or a legal entity',
-          '🔍 Finanças can request explanations in the IRS Anexo — be ready to prove they were PERSONAL items (proof of original purchase, age, personal use)'
+          '📨 The platform (OLX, Vinted, CustoJusto) automatically sends the data of those who exceeded the threshold to Finanças',
+          '⚖️ If you are simply selling PERSONAL ITEMS (clothes, furniture from your own flat) — this is NOT a business activity, there is no tax, but you may be asked for a declaration',
+          '💼 If you regularly buy and resell — this is already atividade comercial, you need recibos verdes (suitable CAE) or cooperation with a legal entity',
+          '🔍 Finanças may ask you for explanations regarding the “offset” in the IRS annex — be prepared to prove that these were PERSONAL items (photos showing origin, age, personal use)'
         ]},
-        { kind: 'warning', text: 'Real 2025 case: a Vinted seller sold >€2,000 of clothing in a year (her own, not resale), got a request from Finanças, spent 3 months providing evidence. It ended without a fine, but lots of headaches. Save original purchase receipts for clothing if you plan to sell.' }
+        { kind: 'warning', text: 'Real 2025 case: a Vinted seller sold >€2,000 worth of clothes in a year (her own, not reselling), received a request from Finanças, and spent 3 months gathering evidence. It ended without a fine, but with a lot of stress. Keep receipts from the original purchases of clothes if you plan to sell them.' }
       ]
     },
     {
       id: 'common-scams',
-      title: 'Top scams 2025–2026',
+      title: 'Main scams in 2025–2026',
       content: [
-        { kind: 'paragraph', text: 'Banco de Portugal published an official warning in November 2025 about new schemes targeting OLX and Vinted users. The most common ones:' },
+        { kind: 'paragraph', text: 'In November 2025, Banco de Portugal issued an official warning to OLX and Vinted users about new schemes. These are the most common:' },
         { kind: 'substeps', items: [
           {
             id: 'scam-fake-payment',
-            title: 'Fake "payment confirmed" SMS',
+            title: 'Fake “payment confirmed” SMS',
             content: [
-              { kind: 'paragraph', text: 'You sold an item. The buyer sends an SMS supposedly "from MB Way" saying the payment went through. The screenshot looks legitimate. You ship the item. No money ever arrives.' },
+              { kind: 'paragraph', text: 'You have sold an item. The buyer sends an SMS “supposedly from MB Way” saying that the payment has gone through. The screenshot looks genuine. You send the item. There was no money.' },
               { kind: 'checklist', items: [
-                '✅ Defence: ALWAYS verify the payment landed in YOUR bank account, NOT through SMS, but via your bank\'s app',
-                '❌ SMS "MB Way paid" is almost always fake',
-                '❌ Don\'t ship the item until you see the money in your account'
+                '✅ Protection: ALWAYS check that the money has arrived in your banking app NOT VIA SMS, but through the bank app',
+                '❌ An “MB Way paid” SMS is almost always fake',
+                '❌ Do not send the item until you see the money in your account'
               ]}
             ]
           },
@@ -97,25 +97,25 @@ export default {
             id: 'scam-phishing-link',
             title: 'Fake payment page',
             content: [
-              { kind: 'paragraph', text: 'A buyer writes: "I\'ll pay via Vinted, but you need to confirm via this link: vinted-pt-secure.com/confirm". The link is phishing, the form steals card details.' },
+              { kind: 'paragraph', text: 'The buyer writes: “I will pay via Vinted, but you need to confirm through this link: vinted-pt-secure.com/confirm”. The link is phishing, and the form steals card details.' },
               { kind: 'checklist', items: [
                 '✅ Vinted NEVER sends payment links outside its own app',
-                '✅ All legitimate Vinted transactions happen only inside the vinted.pt site/app',
-                '❌ vinted-pt-secure, vinted-payment, vinted-confirm — all fakes',
-                '🚨 If you opened a page and entered card details: IMMEDIATELY block the card via the bank, notify the bank, file a queixa with PJ at canalcyber.pj.pt'
+                '✅ All legitimate Vinted transactions take place only inside the vinted.pt website/app',
+                '❌ vinted-pt-secure, vinted-payment, vinted-confirm — all fake',
+                '🚨 If you opened the page and entered card details: IMMEDIATELY block the card through your bank, report it the bank, file a queixa with PJ via canalcyber.pj.pt'
               ]}
             ]
           },
           {
             id: 'scam-mbway-push',
-            title: 'MB Way "security" push',
+            title: 'MB Way “security” push notification',
             content: [
-              { kind: 'paragraph', text: 'An SMS "supposedly from the bank": "Confirm the push notification in MB Way to verify your identity." Victim opens the app, taps "confirm" — that\'s the money going to the scammer.' },
+              { kind: 'paragraph', text: 'SMS “supposedly from the bank”: “Confirm the push notification in MB Way to verify your identity”. The victim opens the app, taps “confirm” — and the money goes to the scammer.' },
               { kind: 'checklist', items: [
-                '✅ ALWAYS read the MB Way push text in full before tapping',
-                '✅ A push labelled "Pagar" — you are sending money; "Receber" — you are receiving',
-                '❌ Don\'t tap "confirm" at someone else\'s request — even if they say "for security"',
-                '🔒 If in doubt — cancel, then call the bank using the number on the back of your card'
+                '✅ ALWAYS read the MB Way push notification text IN FULL before tapping',
+                '✅ A push marked “Pagar” means you are sending money; “Receber” means you are receiving it',
+                '❌ Do not tap “confirm” at someone else’s request — even if they ask “for security”',
+                '🔒 If in doubt — cancel it, call the bank using the number on the back of your card'
               ]}
             ]
           }
@@ -126,20 +126,20 @@ export default {
       id: 'buyer-safety',
       title: 'How to buy safely (DECO PROteste advice)',
       content: [
-        { kind: 'paragraph', text: 'DECO PROteste is Portugal\'s main consumer-rights association. Their official guidance for buying second-hand:' },
+        { kind: 'paragraph', text: 'DECO PROteste is Portugal’s main consumer rights association. Their official recommendations for buying second-hand:' },
         { kind: 'checklist', items: [
-          '📜 Read the platform\'s Termos e Condições — especially the returns section',
-          '🔒 DO NOT step outside the platform to pay (you lose any protection)',
-          '⭐ Check the seller\'s reputation: rating, number of transactions, reviews',
+          '📜 Read the platform’s Termos e Condições — especially the returns section',
+          '🔒 Do NOT leave the platform for payment (you lose protection, if it exists)',
+          '⭐ Check reputation: rating, number of deals, reviews',
           '👴 Older profiles (3+ years) are usually more reliable than new ones',
-          '💰 Too-low prices = red flag (a new iPhone for €200 is almost certainly a scam)',
-          '🤝 For expensive purchases — meet in person, inspect the item (for electronics, check the IMEI on blacklist.gsma.com)',
-          '📸 Ask for detailed photos from different angles, of the serial number, and of the item working',
-          '🧾 For expensive items — ask for the original purchase receipt (protects you against stolen goods)',
-          '💳 Ideal: card payment via a platform with escrow (Vinted, eBay) or PayPal Goods & Services',
-          '🚫 Never pay via Western Union, Bitcoin, or gift cards — these are always scams'
+          '💰 Too low a price = red flag (a new iPhone for €200 is almost certainly a scam)',
+          '🤝 For expensive purchases — meet in person, check the item (for electronics — check IMEI serial numbers on blacklist.gsma.com)',
+          '📸 Ask for detailed photos from different angles, a photo of the serial number, and photos of the item working',
+          '🧾 For expensive items — ask for the receipt from the original purchase (protects against buying stolen goods)',
+          '💳 Ideal: card payment through a platform with escrow (Vinted, eBay) or PayPal Goods & Services',
+          '🚫 Never pay by Western Union, Bitcoin, gift cards — this is always a scam'
         ]},
-        { kind: 'warning', text: 'If you become a victim of fraud: 1) block the card via the bank, 2) file a queixa with PSP/GNR within 6 months (the statute of limitations), 3) report it on the platform (to get the scammer blocked), 4) for financial attacks — file a complaint with PJ at canalcyber.pj.pt' }
+        { kind: 'warning', text: 'If you become a victim of fraud: 1) Block the card with your bank, 2) File a queixa with PSP/GNR within 6 months (this is the limitation period), 3) Report it on the platform (to block the scammer), 4) For financial attacks — report to PJ via canalcyber.pj.pt' }
       ]
     },
     {
@@ -147,14 +147,14 @@ export default {
       title: 'How to sell safely',
       content: [
         { kind: 'checklist', items: [
-          '✅ ALWAYS confirm the money is in YOUR account via your bank\'s app before shipping the item',
-          '✅ For CTT with pago na entrega (cash on delivery) — you take the money on delivery, safe for the seller',
-          '📦 Vinted: use only the built-in shipping — you get a tracking number and insurance',
-          '🏠 In-person meeting: in a public place (café, mall), not at home; for expensive items — bring a friend',
-          '📸 Photograph the item BEFORE shipping (protects against false "not received / damaged" claims)',
-          '🧾 Keep all chat conversations on the platform — they are evidence in disputes',
-          '⚠️ Don\'t share your bank account number, NIB or passport with the buyer — MB Way / IBAN is enough for transfers',
-          '🚨 If the buyer "insists" on going outside the platform — that\'s a red flag'
+          '✅ ALWAYS check that the money has arrived IN YOUR account via the bank app before sending the item',
+          '✅ For CTT with pago na entrega (cash on delivery) — you receive the money at the moment of collection, safe for the seller',
+          '📦 Vinted: use only built-in delivery — you will have a tracking number and insurance',
+          '🏠 In-person meeting: in a public place (café, shopping centre), not at your home; for expensive items — take a friend with you',
+          '📸 Take photos of the item BEFORE sending it (protection against false “not received/damaged” claims)',
+          '🧾 Keep all correspondence in the platform chat — it is evidence in a dispute',
+          '⚠️ Do not give the buyer your bank account number, NIB or passport — MB Way / IBAN is enough for a transfer',
+          '🚨 If the buyer “insistently” asks to leave the platform — this is a red flag'
         ]}
       ]
     },
@@ -163,26 +163,26 @@ export default {
       title: 'Alternative platforms',
       content: [
         { kind: 'checklist', items: [
-          '📚 Wallapop — Spanish platform, active in larger Portuguese cities (Lisbon, Porto), good for furniture and appliances',
-          '🚗 Standvirtual — № 1 in Portugal for used cars, cars-only',
-          '🏠 Imovirtual / Idealista — for real estate (see separate guides on renting/buying)',
-          '🛒 Facebook Marketplace — lots of listings, but also lots of scams; NO protection',
-          '👶 Bebés & Bebés (FB groups) — great for kids\' items, organised by city',
-          '📦 Lokoo, Trocafone — specialised for electronics, with second-hand phone verification before sale'
+          '📚 Wallapop — Spanish platform, active in large Portuguese cities (Lisbon, Porto), convenient for furniture and appliances',
+          '🚗 Standvirtual — No. 1 in Portugal for second-hand cars, specialises only in cars',
+          '🏠 Imovirtual / Idealista — for property (see separate guides on renting/buying)',
+          '🛒 Facebook Marketplace — many listings, but also many scams; NO protection',
+          '👶 Bebes & Bebés (FB groups) — excellent for children’s items by city',
+          '📦 Lokoo, Trocafone — specialised in electronics, with checks of second-hand phones before sale'
         ]}
       ]
     }
   ],
   sources: [
-    { title: 'Banco de Portugal — alert on MB Way scams on OLX/Vinted (2025)', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'DECO PROteste — second-hand online shopping: precautions', url: 'https://www.deco.proteste.pt/familia-consumo/direitos-consumidor/dicas/compras-online-segunda-mao-cuidados-ter', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Decreto-Lei 53/2023 — transposition of DAC7 (platform obligations)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/53-2023-214867521', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Banco de Portugal — alert on MB Way scams on OLX/Vinted platforms (2025)', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'DECO PROteste — second-hand online purchases: precautions', url: 'https://www.deco.proteste.pt/familia-consumo/direitos-consumidor/dicas/compras-online-segunda-mao-cuidados-ter', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei 53/2023 — DAC7 transposition (platform obligations)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/53-2023-214867521', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'EUR-Lex — Council Directive (EU) 2021/514 (DAC7)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021L0514', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' },
-    { title: 'OLX Portugal — tips for safe use (platform help)', url: 'https://help.olx.pt/olxpthelp/s/article/dicas-importantes-para-usares-o-olx-em-segurana-V33', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'PJ — Cybercrime reporting channel', url: 'https://canalcyber.pj.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'OLX Portugal — tips for using OLX safely (platform help)', url: 'https://help.olx.pt/olxpthelp/s/article/dicas-importantes-para-usares-o-olx-em-segurana-V33', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'PJ — Cybercrime Reporting Channel', url: 'https://canalcyber.pj.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
-  changeSummary: 'New guide: OLX, CustoJusto, Vinted in Portugal. Platform comparison, tax implications of DAC7 (>€2,000 or >30 sales = reported to Finanças), top 2025-2026 scams (fake payment SMS, phishing links, MB Way push), DECO PROteste safety tips for buying and selling.'
+  changeSummary: 'New guide: OLX, CustoJusto, Vinted in Portugal. Platform comparison, DAC7 tax consequences (>€2,000 or >30 sales = reported to Finanças), main scams in 2025-2026 (fake payment SMS messages, phishing links, MB Way push notifications), DECO PROteste advice on safe buying/selling.'
 }

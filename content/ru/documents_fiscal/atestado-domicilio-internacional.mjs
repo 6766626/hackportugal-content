@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'Что это за документ',
       content: [
-        { kind: 'paragraph', text: 'Atestado de Transposição de Domicílio Fiscal Internacional — это подтверждение Autoridade Tributária e Aduaneira, что ваш налоговый адрес, domicílio fiscal, перенесён в Португалию. На практике справка используется как доказательство для иностранной стороны: налоговой службы, банка, брокера, работодателя, пенсионного фонда или консульства.' },
+        { kind: 'paragraph', text: 'Atestado de Transposição de Domicílio Fiscal Internacional — это подтверждение Autoridade Tributária e Aduaneira, что ваш налоговый адрес, domicílio fiscal, перенесён в Португалию.\n\nНа практике справка используется как доказательство для иностранной стороны: налоговой службы, банка, брокера, работодателя, пенсионного фонда или консульства.' },
         { kind: 'paragraph', text: 'Документ запрашивается через Portal das Finanças, обычно в e-Balcão. Госпошлины нет: Finanças выдаёт справку бесплатно в электронном виде, если в системе уже отражён ваш португальский налоговый адрес.' },
         { kind: 'warning', text: 'Это не то же самое, что Certificado de Residência Fiscal para efeitos de Convenção para Evitar a Dupla Tributação. Если иностранная налоговая просит именно сертификат налогового резидентства по соглашению об избежании двойного налогообложения, нужен отдельный документ Finanças.' }
       ]

@@ -3,7 +3,7 @@ export default {
   id: 'p-r-parking-lisboa-porto',
   categoryId: 'auto_trips',
   title: 'Park & Ride (P+R): парковки у метро и поездов в Лиссабоне и Порту',
-  tldr: 'P+R в Португалии — это не единая госпрограмма, а набор бесплатных, дешёвых и обычных платных парковок у Metro, CP, Fertagus и крупных терминалов. В 2026 году реально экономить так: оставлять машину на окраине или у пересадки, дальше ехать по Navegante/Andante. В Лиссабоне Sete Rios и Cais do Sodré удобны, но обычно платные и центральные; Senhor Roubado, Pragal, Estádio Nacional — типичные варианты “оставил и поехал”. В Порту смотрите Rio Tinto, Senhora da Hora, Estádio do Dragão, Campanhã; Trindade — центр, не дешёвый P+R.',
+  tldr: 'P+R в Португалии — это не единая госпрограмма, а набор бесплатных, дешёвых и обычных платных парковок у Metro, CP, Fertagus и крупных терминалов.\n\nВ 2026 году реально экономить так: оставлять машину на окраине или у пересадки, дальше ехать по Navegante/Andante. В Лиссабоне Sete Rios и Cais do Sodré удобны, но обычно платные и центральные; Senhor Roubado, Pragal, Estádio Nacional — типичные варианты “оставил и поехал”. В Порту смотрите Rio Tinto, Senhora da Hora, Estádio do Dragão, Campanhã; Trindade — центр, не дешёвый P+R.',
   tags: ['парковка', 'lisboa', 'porto', 'metro'],
   estimatedReadMinutes: 5,
   steps: [

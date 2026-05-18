@@ -3,7 +3,7 @@ export default {
   id: 's1-form-uk-pensioner',
   categoryId: 'healthcare',
   title: 'Форма S1 для британских пенсионеров: доступ к SNS в Португалии',
-  tldr: 'S1 — документ, по которому UK оплачивает ваше государственное медобслуживание в Португалии, если вы получаете UK State Pension или некоторые exportable benefits. В 2026 году его запрашивают в NHS Business Services Authority, затем регистрируют в Segurança Social в Португалии и идут в Centro de Saúde за número de utente SNS. Форма бесплатная; частные клиники и страховку S1 не покрывает.',
+  tldr: 'S1 — документ, по которому UK оплачивает ваше государственное медобслуживание в Португалии, если вы получаете UK State Pension или некоторые exportable benefits.\n\nВ 2026 году его запрашивают в NHS Business Services Authority, затем регистрируют в Segurança Social в Португалии и идут в Centro de Saúde за número de utente SNS. Форма бесплатная; частные клиники и страховку S1 не покрывает.',
   tags: ['s1', 'sns', 'uk', 'пенсия'],
   estimatedReadMinutes: 5,
   steps: [

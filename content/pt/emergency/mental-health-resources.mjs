@@ -3,7 +3,7 @@ export default {
   id: 'mental-health-resources',
   categoryId: 'emergency_rights',
   title: 'Saúde mental — linhas de apoio e ajuda',
-  tldr: 'Em crise: **SNS 24 → opção 4** (apoio psicológico do SNS, 24/7) ou **SOS Voz Amiga 213 544 545** (linha de prevenção do suicídio, 16:00-24:00). ⚠️ Os números 808 são tarifados de acordo com o tarifário do assinante (cartões SIM móveis/estrangeiros podem ter custos). Através do SNS — o médico de família encaminha para psicólogo/psiquiatra (gratuito, espera de 1-3 meses). Psicólogo privado 50-90 €/sessão, psiquiatra 80-150 €. Especialistas que falam inglês — na CUF, Lusíadas, Luz. Online: BetterHelp, ePsicólogos. Linha Vida 1414 — para dependências, tem horário de funcionamento (NÃO 24/7).',
+  tldr: 'Em crise: **SNS 24 → opção 4** (apoio psicológico do SNS, 24/7) ou **SOS Voz Amiga 213 544 545** (linha de prevenção do suicídio, 16:00-24:00).\n\n⚠️ Os números 808 são tarifados de acordo com o tarifário do assinante (cartões SIM móveis/estrangeiros podem ter custos). Pelo SNS — o médico de família encaminha para psicólogo/psiquiatra (gratuito, lista de espera de 1-3 meses). Psicólogo privado 50-90 €/sessão, psiquiatra 80-150 €. Profissionais de língua inglesa — na CUF, Lusíadas, Luz. Online: BetterHelp, ePsicólogos. Linha Vida 1414 — para dependências, tem horário de funcionamento (NÃO 24/7).',
   tags: ['psicologia', 'psiquiatra', 'crise', 'saúde mental'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,11 +12,11 @@ export default {
       title: '🆘 Crise — para onde ligar agora',
       content: [
         { kind: 'checklist', items: [
-          '☎️ **112** — serviço de emergência, em caso de ideação suicida / ameaça à vida',
+          '☎️ **112** — serviço de emergência, em caso de intenções suicidas / ameaça à vida',
           '☎️ **SNS 24: 808 24 24 24** → opção 4 — apoio psicológico do SNS, 24/7. O serviço em si é gratuito, mas o número 808 é tarifado de acordo com o tarifário do assinante (cartões SIM móveis/estrangeiros podem ser cobrados ao minuto)',
-          '☎️ **SOS Voz Amiga: 213 544 545** — linha anónima de prevenção do suicídio, 16:00-24:00 diariamente',
+          '☎️ **SOS Voz Amiga: 213 544 545** — linha anónima de prevenção do suicídio, 16:00-24:00 todos os dias',
           '☎️ **Telefone Amizade: 222 080 707** — linha no Porto, 16:00-23:00',
-          '☎️ **Linha Vida (ICAD/SICAD): 1414** — para dependências (drogas/álcool). Tem horário de funcionamento — NÃO é 24 horas. Gratuita',
+          '☎️ **Linha Vida (ICAD/SICAD): 1414** — para dependências (drogas/álcool). Tem horário de funcionamento — NÃO é 24 horas. Gratuito',
           '☎️ **APAV (para vítimas de violência): 116 006** — apoio nacional a vítimas de crime',
           '☎️ **Linha SOS Estudante: 239 484 020** — para estudantes em crise'
         ]}
@@ -24,7 +24,7 @@ export default {
     },
     {
       id: 'sns-route',
-      title: '🏥 Através do SNS — via oficial',
+      title: '🏥 Pelo SNS — o percurso oficial',
       content: [
         { kind: 'paragraph', text: 'A medicina pública em Portugal cobre apoio psicológico e psiquiátrico, mas o acesso é lento.' },
         { kind: 'substeps', items: [
@@ -42,15 +42,15 @@ export default {
               '6-12 sessões por norma',
               'A terapia cognitivo-comportamental é a mais comum',
               'Gratuito',
-              'Muitas vezes apenas em português; psicólogos que falam inglês nas grandes cidades são raros'
+              'Muitas vezes apenas em português; psicólogos de língua inglesa nas grandes cidades são raros'
             ]}
           ]},
           { id: 's3', title: '3. Psiquiatra no SNS', content: [
             { kind: 'checklist', items: [
-              'Para tratamento medicamentoso (antidepressivos, ansiolíticos, estabilizadores de humor)',
+              'Para tratamento medicamentoso (antidepressivos, ansiolíticos, estabilizadores do humor)',
               'Lista de espera mais curta (1-2 meses) do que para psicólogo',
-              'Apenas por referenciação do médico de família',
-              'Hospital de Júlio de Matos (Lisboa), Magalhães Lemos (Porto), CHUC (Coimbra) — maiores hospitais psiquiátricos'
+              'Apenas com encaminhamento do médico de família',
+              'Hospital de Júlio de Matos (Lisboa), Magalhães Lemos (Porto), CHUC (Coimbra) — os maiores hospitais psiquiátricos'
             ]}
           ]}
         ]}
@@ -58,7 +58,7 @@ export default {
     },
     {
       id: 'private',
-      title: '💼 Apoio privado — mais rápido',
+      title: '💼 Ajuda privada — mais rápida',
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Preços 2026', content: [
@@ -76,8 +76,8 @@ export default {
               '**CUF Saúde Mental** — todas as grandes cidades, inglês disponível',
               '**Lusíadas Saúde Mental** — Lisboa, Porto',
               '**Hospital da Luz Mental Health** — Lisboa',
-              '**INSPIRA Saúde** — rede independente, em inglês',
-              '**Therapie em Lisboa** — conveniente para expatriados',
+              '**INSPIRA Saúde** — rede independente, de língua inglesa',
+              '**Therapie em Lisboa** — conveniente para expats',
               'Pesquisa: ordemdospsicologos.pt → Encontrar Psicólogo'
             ]}
           ]},
@@ -87,7 +87,7 @@ export default {
               '**Multicare** (Fidelidade): semelhante',
               '**AdvanceCare** (Generali): pacote de saúde mental 200-400 €/ano + copagamento',
               '⚠️ Carência (período de espera após contratar o seguro): normalmente 90 dias para saúde mental',
-              '⚠️ Doenças pré-existentes (diagnóstico ANTES da contratação): frequentemente excluídas'
+              '⚠️ Doenças preexistentes (diagnóstico ANTES de contratar): frequentemente excluídas'
             ]}
           ]}
         ]}
@@ -101,10 +101,10 @@ export default {
           '**ePsicólogos** (sediada em Portugal) — 30-50 €/sessão online',
           '**BetterHelp** — plataforma mais internacional, 60-90 €/semana (subscrição)',
           '**Talkspace** — texto + vídeo, 65-120 €/semana',
-          '**Mindler.pt** — teleterapia com base em Portugal',
-          '**Headspace, Calm** — aplicações de meditação, não terapia, 6-12 €/mês',
-          '**Hoory, Wysa** — chatbot de IA para ansiedade / depressão — gratuito, não substitui terapia',
-          'É mais fácil encontrar terapeutas online que falem inglês do que presenciais'
+          '**Mindler.pt** — teleterapia baseada em Portugal',
+          '**Headspace, Calm** — aplicações de meditação, não são terapia, 6-12 €/mês',
+          '**Hoory, Wysa** — chatbot de IA para ansiedade / depressão — gratuito, não substitui a terapia',
+          'É mais fácil encontrar terapeutas online de língua inglesa do que presenciais'
         ]}
       ]
     },
@@ -114,10 +114,10 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '**Stress de adaptação**: mudar de país = top 5 dos acontecimentos de vida mais stressantes. É normal sentir solidão e frustração nos primeiros 6-12 meses',
-          '**Barreira linguística no médico**: significativa para apoio de qualidade na área da saúde mental. Um psicólogo que fale inglês é mais caro, mas mais eficaz',
-          '**Psicólogos de língua russa em Portugal**: lista limitada, procurar em chats de Telegram de comunidades de expatriados',
-          '**Instabilidade financeira** (espera por visto, utilização de poupanças) = gatilhos sérios para ansiedade',
-          '**Isolamento**: nos primeiros meses, a rede social é fraca. Solução — encontros, intercâmbios linguísticos, grupos de expatriados',
+          '**Barreira linguística no médico**: significativa para apoio de qualidade em saúde mental. Um psicólogo de língua inglesa é mais caro, mas mais eficaz',
+          '**Psicólogos de língua russa em Portugal**: lista limitada, procurar em chats de Telegram de comunidades expat',
+          '**Instabilidade financeira** (espera pelo visto, gastar poupanças) = gatilhos sérios para ansiedade',
+          '**Isolamento**: nos primeiros meses, a rede social é fraca. Solução — encontros, intercâmbios linguísticos, grupos de expats',
           '**Adaptação das crianças**: mudança de escola / língua → as crianças podem regredir. Acompanhamentos regulares com o pediatra ou psicólogo escolar'
         ]}
       ]
@@ -148,7 +148,7 @@ export default {
           'Obter factura com NIF — obrigatório para a dedução',
           'Medicamentos da farmácia com receita também contam',
           'Guarde os recibos durante 4 anos (período de verificação)',
-          'Se trabalha através de recibos verdes (trabalhador independente): despesas de terapia por stress laboral podem contar como despesa profissional (consulte um contabilista)'
+          'Se trabalha com recibos verdes: despesas de terapia por stress laboral podem contar como despesa profissional (consulte um contabilista)'
         ]}
       ]
     }

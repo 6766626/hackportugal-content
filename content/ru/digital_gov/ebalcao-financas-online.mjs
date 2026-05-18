@@ -3,7 +3,7 @@ export default {
   id: 'ebalcao-financas-online',
   categoryId: 'digital_gov',
   title: 'e-Balcão Finanças — обращения в AT онлайн без визита',
-  tldr: 'e-Balcão — онлайн-тикетинг Autoridade Tributária на Portal das Finanças: Suporte → e-Balcão. В 2026 году через него реально закрыть большинство вопросов без визита в Finanças: NIF-адрес, IRS, recibos verdes, IVA, IMI, IUC, справки, ошибки деклараций, уведомления. Ответ обычно приходит за 5–10 рабочих дней, срочные темы лучше дублировать звонком в CAT. Каждому обращению присваивается referência: по ней отслеживают статус и прикладывают документы.',
+  tldr: 'e-Balcão — онлайн-тикетинг Autoridade Tributária на Portal das Finanças: Suporte → e-Balcão.\n\nВ 2026 году через него реально закрыть большинство вопросов без визита в Finanças: NIF-адрес, IRS, recibos verdes, IVA, IMI, IUC, справки, ошибки деклараций, уведомления. Ответ обычно приходит за 5–10 рабочих дней, срочные темы лучше дублировать звонком в CAT. Каждому обращению присваивается referência: по ней отслеживают статус и прикладывают документы.',
   tags: ['finanças', 'ebalcão', 'налоги', 'nif'],
   estimatedReadMinutes: 5,
   steps: [

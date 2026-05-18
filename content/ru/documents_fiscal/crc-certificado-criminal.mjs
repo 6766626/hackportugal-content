@@ -3,7 +3,7 @@ export default {
   id: 'crc-certificado-criminal',
   categoryId: 'documents_fiscal',
   title: 'CRC — справка о несудимости в Португалии (Certidão de Registo Criminal)',
-  tldr: 'Certidão de Registo Criminal — португальская справка о несудимости. Нужна для AIMA, некоторых работ, лицензий, волонтёрства, ВНЖ и гражданства; для зарубежных органов обычно требуется apostila. В 2026 году онлайн-заказ через Registo Criminal стоит 5 €, доступен с Cartão de Cidadão или Chave Móvel Digital, сертификат проверяется по коду и обычно действителен 3 месяца. Если вы живёте за пределами Португалии, используется отдельная форма для residente no estrangeiro.',
+  tldr: 'Certidão de Registo Criminal — португальская справка о несудимости. Нужна для AIMA, некоторых работ, лицензий, волонтёрства, ВНЖ и гражданства; для зарубежных органов обычно требуется apostila.\n\nВ 2026 году онлайн-заказ через Registo Criminal стоит 5 €, доступен с Cartão de Cidadão или Chave Móvel Digital, сертификат проверяется по коду и обычно действителен 3 месяца. Если вы живёте за пределами Португалии, используется отдельная форма для residente no estrangeiro.',
   tags: ['crc', 'несудимость', 'aima', 'apostila'],
   estimatedReadMinutes: 5,
   steps: [

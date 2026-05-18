@@ -3,7 +3,7 @@ export default {
   id: 'carris-metropolitana',
   categoryId: 'public_transport',
   title: 'Carris Metropolitana — автобусный оператор Большого Лиссабона',
-  tldr: 'Carris Metropolitana — единая сеть пригородных автобусов Área Metropolitana de Lisboa, запущенная поэтапно с 2022 года. Это не городская Carris Lisboa: оператор покрывает 15 муниципалитетов вокруг Лиссабона, включая Sintra, Loures, Mafra, Oeiras, Almada, Setúbal, Montijo. В 2026 году основной способ оплаты — Navegante: 30 € за муниципальный pass или 40 € за metropolitano. Маршруты четырёхзначные, расписания часто проверяйте в приложении или на сайте.',
+  tldr: 'Carris Metropolitana — единая сеть пригородных автобусов Área Metropolitana de Lisboa, запущенная поэтапно с 2022 года. Это не городская Carris Lisboa: оператор покрывает 15 муниципалитетов вокруг Лиссабона, включая Sintra, Loures, Mafra, Oeiras, Almada, Setúbal, Montijo.\n\nВ 2026 году основной способ оплаты — Navegante: 30 € за муниципальный pass или 40 € за metropolitano. Маршруты четырёхзначные, расписания часто проверяйте в приложении или на сайте.',
   tags: ['автобусы', 'navegante', 'lisboa', 'транспорт'],
   estimatedReadMinutes: 5,
   steps: [

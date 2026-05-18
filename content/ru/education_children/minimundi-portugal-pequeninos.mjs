@@ -3,7 +3,7 @@ export default {
   id: 'minimundi-portugal-pequeninos',
   categoryId: 'education_children',
   title: 'Portugal dos Pequenitos и Minimundi: миниатюрная Португалия для детей',
-  tldr: 'Portugal dos Pequenitos в Coimbra работает с 1940 года: детские копии португальских домов, памятников и бывших заморских территорий, хороший формат на 1,5–3 часа для детей 3–10 лет. В Costa do Estoril ищите Minimundi как маленькую локальную детскую остановку, а не большой тематический парк. Для полного дня рядом с Лиссабоном практичнее KidZania Lisboa в UBBO; на севере — Magikland Penafiel. В 2026 году закладывайте примерно 10–22 € за детский билет, плюс транспорт и еду.',
+  tldr: 'Portugal dos Pequenitos в Coimbra работает с 1940 года: детские копии португальских домов, памятников и бывших заморских территорий, хороший формат на 1,5–3 часа для детей 3–10 лет. В Costa do Estoril ищите Minimundi как маленькую локальную детскую остановку, а не большой тематический парк. Для полного дня рядом с Лиссабоном практичнее KidZania Lisboa в UBBO; на севере — Magikland Penafiel.\n\nВ 2026 году закладывайте примерно 10–22 € за детский билет, плюс транспорт и еду.',
   tags: ['дети', 'coimbra', 'parques', 'kidzania'],
   estimatedReadMinutes: 5,
   steps: [
