@@ -33,7 +33,7 @@ export default {
         { kind: 'paragraph', text: 'У HackPortugal есть персональные реферальные ссылки на два сервиса — Vivid Money и Revolut. По ним вы (и команда HackPortugal) получаете бонус, когда друг выполнит условия. Остальные финтехи (N26, Wise, Bunq) тоже имеют реферальные программы, но у нас нет персональных кодов — берите ссылку у знакомых-пользователей или из самого приложения.' },
         { kind: 'paragraph', text: '**🏦 Vivid Money — €20 за каждого приглашённого друга (до €100 за 5 друзей)** 💚' },
         { kind: 'checklist', items: [
-          'Реферальная ссылка HackPortugal: https://vivid.money/r/aKKQ/3',
+          'Реферальная ссылка HackPortugal: vivid.money/r/aKKQ/3 (полная ссылка в источниках ниже).',
           'Что получает друг: 3% годовых на 60 дней в Interest Rate Pocket (депозит с фиксированным процентом на остаток на счёте).',
           'Что получаете вы: €20 за каждого приглашённого, максимум €100 за 5 друзей.',
           'Условие активации: друг регистрируется по ссылке + подтверждает личность + активирует Interest Rate Pocket.',
@@ -43,7 +43,7 @@ export default {
         ]},
         { kind: 'paragraph', text: '**🏦 Revolut — €40 за каждого приглашённого друга (до 10 наград за период)** 💚' },
         { kind: 'checklist', items: [
-          'Реферальная ссылка HackPortugal: https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect',
+          'Реферальная ссылка HackPortugal: revolut.com/referral (полная ссылка с кодом в источниках ниже).',
           'Чтобы вы получили €40, друг должен выполнить **все 4 действия** до 02.06.2026:',
           '1️⃣ Зарегистрироваться по вашей ссылке и подтвердить личность (KYC).',
           '2️⃣ Пополнить счёт дебетовой картой или банковским переводом.',
@@ -62,7 +62,7 @@ export default {
           '🇵🇹 **Activobank** — реферальной программы нет. Welcome-бонусы €25-50 на первое использование (см. activobank.pt → промо в правом верхнем углу сайта).',
           '🇵🇹 **Banco BPI / Caixa Geral** — официальных рефералов нет, но есть программы лояльности для зарплатных клиентов (бесплатное обслуживание счёта + бонусы за домициль зарплаты).'
         ]},
-        { kind: 'paragraph', text: 'Стратегия для экономии: пригласите 5 друзей в Vivid (€100) + 1 друга в Revolut (€40) = €140 за один вечер общения. Полностью окупает годовую подписку HackPortugal €17.99 × 7.' }
+        { kind: 'paragraph', text: 'Стратегия для экономии: пригласите 5 друзей в Vivid (€100) + 1 друга в Revolut (€40) = €140 за один вечер общения. Этого хватает на ≈ 7,8 годовых подписок HackPortugal (€17.99/год) или ≈ 47 месяцев месячной (€2.99/мес).' }
       ]
     },
     {
@@ -155,7 +155,9 @@ export default {
     { title: 'DECO PROteste — права потребителя при онлайн-покупках', url: 'https://www.deco.proteste.pt/familia-consumo/direitos-consumidor/dicas/compras-online-segunda-mao-cuidados-ter', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AutoDoc — официальный сайт для проверки промокодов', url: 'https://www.autodoc.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'N26 — Refer-a-friend официальные правила', url: 'https://support.n26.com/en-eu/app-and-features/friend-referral/how-to-earn-money-by-inviting-friends-to-n26', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
-    { title: 'Booking.com — Genius программа лояльности', url: 'https://www.booking.com/genius.html', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' }
+    { title: 'Booking.com — Genius программа лояльности', url: 'https://www.booking.com/genius.html', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
+    { title: '🎁 Vivid Money — реферальная ссылка HackPortugal (€20 за друга, до 02.06.2026)', url: 'https://vivid.money/r/aKKQ/3', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' },
+    { title: '🎁 Revolut — реферальная ссылка HackPortugal (€40 за друга, до 02.06.2026)', url: 'https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 90,

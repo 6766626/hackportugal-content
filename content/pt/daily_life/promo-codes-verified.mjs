@@ -33,7 +33,7 @@ export default {
         { kind: 'paragraph', text: 'A HackPortugal tem links de recomendação pessoais para dois serviços — Vivid Money e Revolut. Através destes, você (e a equipa HackPortugal) recebe um bónus quando o seu amigo cumpre as condições. As outras fintech (N26, Wise, Bunq) também têm programas de recomendação, mas não temos códigos pessoais — peça o link a amigos que já as usem, ou obtenha-o dentro da app.' },
         { kind: 'paragraph', text: '**🏦 Vivid Money — 20 € por cada amigo convidado (até 100 € por 5 amigos)** 💚' },
         { kind: 'checklist', items: [
-          'Link de recomendação HackPortugal: https://vivid.money/r/aKKQ/3',
+          'Link de recomendação HackPortugal: vivid.money/r/aKKQ/3 (URL completo nas fontes abaixo).',
           'O que o amigo recebe: 3% de juro anual durante 60 dias no Interest Rate Pocket (depósito com juro fixo sobre o saldo da conta).',
           'O que você recebe: 20 € por cada amigo convidado, máximo 100 € por 5 amigos.',
           'Condição de ativação: o amigo regista-se através do link + confirma a identidade + ativa o Interest Rate Pocket.',
@@ -43,7 +43,7 @@ export default {
         ]},
         { kind: 'paragraph', text: '**🏦 Revolut — 40 € por cada amigo convidado (até 10 recompensas por período)** 💚' },
         { kind: 'checklist', items: [
-          'Link de recomendação HackPortugal: https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect',
+          'Link de recomendação HackPortugal: revolut.com/referral (URL completo com código nas fontes abaixo).',
           'Para você receber 40 €, o amigo tem de cumprir **as 4 ações** até 02/06/2026:',
           '1️⃣ Registar-se através do seu link e confirmar a identidade (KYC).',
           '2️⃣ Carregar a conta com cartão de débito ou transferência bancária.',
@@ -62,7 +62,7 @@ export default {
           '🇵🇹 **Activobank** — não tem programa de recomendação. Welcome-bónus de 25-50 € na primeira utilização (ver activobank.pt → promoções no canto superior direito do site).',
           '🇵🇹 **Banco BPI / Caixa Geral** — não têm recomendações oficiais, mas têm programas de fidelização para clientes com ordenado domiciliado (manutenção de conta gratuita + bónus por domiciliação do salário).'
         ]},
-        { kind: 'paragraph', text: 'Estratégia para poupar: convide 5 amigos para a Vivid (100 €) + 1 amigo para a Revolut (40 €) = 140 € numa só noite. Paga totalmente a subscrição anual HackPortugal 17,99 € × 7.' }
+        { kind: 'paragraph', text: 'Estratégia para poupar: convide 5 amigos para a Vivid (100 €) + 1 amigo para a Revolut (40 €) = 140 € numa só noite. Isto chega para ≈ 7,8 subscrições anuais HackPortugal (17,99 €/ano) ou ≈ 47 meses do plano mensal (2,99 €/mês).' }
       ]
     },
     {
@@ -155,7 +155,9 @@ export default {
     { title: 'DECO PROteste — direitos do consumidor em compras online', url: 'https://www.deco.proteste.pt/familia-consumo/direitos-consumidor/dicas/compras-online-segunda-mao-cuidados-ter', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AutoDoc — site oficial para verificar códigos promocionais', url: 'https://www.autodoc.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'N26 — regras oficiais Refer-a-friend', url: 'https://support.n26.com/en-eu/app-and-features/friend-referral/how-to-earn-money-by-inviting-friends-to-n26', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
-    { title: 'Booking.com — programa de fidelização Genius', url: 'https://www.booking.com/genius.html', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' }
+    { title: 'Booking.com — programa de fidelização Genius', url: 'https://www.booking.com/genius.html', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
+    { title: '🎁 Vivid Money — link de recomendação HackPortugal (20 € por amigo, até 02/06/2026)', url: 'https://vivid.money/r/aKKQ/3', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' },
+    { title: '🎁 Revolut — link de recomendação HackPortugal (40 € por amigo, até 02/06/2026)', url: 'https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 90,

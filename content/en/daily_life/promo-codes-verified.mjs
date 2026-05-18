@@ -29,7 +29,7 @@ export default {
         { kind: 'paragraph', text: 'HackPortugal has personal referral links for two services — Vivid Money and Revolut. Through these, you (and the HackPortugal team) get a bonus when your friend meets the conditions. Other fintechs (N26, Wise, Bunq) also have referral programmes, but we do not have personal codes — get a link from friends who already use them, or from inside the app.' },
         { kind: 'paragraph', text: '**🏦 Vivid Money — €20 for each invited friend (up to €100 for 5 friends)** 💚' },
         { kind: 'checklist', items: [
-          'HackPortugal referral link: https://vivid.money/r/aKKQ/3',
+          'HackPortugal referral link: vivid.money/r/aKKQ/3 (full URL in sources below).',
           'What the friend gets: 3% annual interest for 60 days in the Interest Rate Pocket (a fixed-interest deposit on the account balance).',
           'What you get: €20 for each invited friend, up to €100 for 5 friends.',
           'Activation condition: the friend registers via the link + verifies identity + activates the Interest Rate Pocket.',
@@ -39,7 +39,7 @@ export default {
         ]},
         { kind: 'paragraph', text: '**🏦 Revolut — €40 for each invited friend (up to 10 rewards per period)** 💚' },
         { kind: 'checklist', items: [
-          'HackPortugal referral link: https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect',
+          'HackPortugal referral link: revolut.com/referral (full URL with code in sources below).',
           'For you to receive €40, the friend must complete **all 4 actions** by 02/06/2026:',
           '1️⃣ Register via your link and verify identity (KYC).',
           '2️⃣ Top up the account with a debit card or bank transfer.',
@@ -58,7 +58,7 @@ export default {
           '🇵🇹 **Activobank** — no referral programme. €25-50 welcome bonuses on first use (see activobank.pt → promos in the top-right corner of the site).',
           '🇵🇹 **Banco BPI / Caixa Geral** — no official referrals, but there are loyalty programmes for salary clients (free account maintenance + bonuses for domiciling your salary).'
         ]},
-        { kind: 'paragraph', text: 'Savings strategy: invite 5 friends to Vivid (€100) + 1 friend to Revolut (€40) = €140 in one evening. Fully pays back the yearly HackPortugal subscription €17.99 × 7.' }
+        { kind: 'paragraph', text: 'Savings strategy: invite 5 friends to Vivid (€100) + 1 friend to Revolut (€40) = €140 in one evening. That covers ≈ 7.8 yearly HackPortugal subscriptions (€17.99/yr) or ≈ 47 months of the monthly plan (€2.99/mo).' }
       ]
     },
     {
@@ -151,7 +151,9 @@ export default {
     { title: 'DECO PROteste — consumer rights for online purchases', url: 'https://www.deco.proteste.pt/familia-consumo/direitos-consumidor/dicas/compras-online-segunda-mao-cuidados-ter', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AutoDoc — official website for checking promo codes', url: 'https://www.autodoc.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'N26 — official Refer-a-friend rules', url: 'https://support.n26.com/en-eu/app-and-features/friend-referral/how-to-earn-money-by-inviting-friends-to-n26', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
-    { title: 'Booking.com — Genius loyalty programme', url: 'https://www.booking.com/genius.html', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' }
+    { title: 'Booking.com — Genius loyalty programme', url: 'https://www.booking.com/genius.html', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
+    { title: '🎁 Vivid Money — HackPortugal referral link (€20 per friend, until 02/06/2026)', url: 'https://vivid.money/r/aKKQ/3', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' },
+    { title: '🎁 Revolut — HackPortugal referral link (€40 per friend, until 02/06/2026)', url: 'https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 90,
