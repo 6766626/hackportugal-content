@@ -1,7 +1,7 @@
 export default {
   editorialVoice: 'hackportugal',
-  id: 'highereducation-foreigners',
-  category: 'education_children',
+  id: 'higher-education-foreigners',
+  categoryId: 'education_children',
   title: 'Higher education in Portugal — for international students',
   tldr: 'Bachelor’s degree (licenciatura) — 3 years, master’s degree (mestrado) — 2 years, PhD (doutoramento) — 3–4 years. Admission is via Concurso Nacional de Acesso (for Portugal residents) or Concurso Especial para Estudantes Internacionais (only for non-EU citizens).\n\nCost: EU residents pay the same as Portuguese students — €700–1,400/year at public universities, non-EU students — €2,000–7,000/year at public universities, €3,500–15,000/year at private ones. Top universities: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 in the world top 500).\n\nErasmus+ — full access. D4 Student Visa for non-EU citizens.',
   tags: ['higher education', 'licenciatura', 'university', 'erasmus'],
