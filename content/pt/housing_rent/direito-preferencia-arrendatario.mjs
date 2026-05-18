@@ -3,23 +3,23 @@ export default {
   id: 'direito-preferencia-arrendatario',
   categoryId: 'housing_rent',
   title: 'Direito de Preferência: direito de preferência do arrendatário na venda da habitação',
-  tldr: 'Se arrenda uma habitação em Portugal há mais de 2 anos, quando esse apartamento/casa é vendido, normalmente tem Direito de Preferência: o direito de comprar o imóvel nas mesmas condições antes de um terceiro comprador. O proprietário deve comunicar por escrito o preço e as condições do negócio; o arrendatário tem 30 dias para responder. Se a venda tiver sido feita sem notificação ou em condições melhores para o comprador, o negócio pode ser impugnado em tribunal no prazo de 6 meses após ter tido conhecimento dos elementos essenciais da venda.',
-  tags: ['arrendamento', 'preferencia', 'habitação', 'tribunal'],
+  tldr: 'Se você arrenda uma habitação em Portugal há mais de 2 anos, quando esse apartamento/casa é vendido normalmente tem Direito de Preferência: o direito de comprar o imóvel nas mesmas condições antes de um terceiro comprador. O proprietário deve comunicar por escrito o preço e as condições do negócio; o arrendatário tem 30 dias para responder. Se a venda foi feita sem notificação ou em condições melhores para o comprador, o negócio pode ser impugnado em tribunal no prazo de 6 meses após ter tomado conhecimento das condições essenciais da venda.',
+  tags: ['arrendamento', 'preferência', 'habitação', 'tribunal'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'what-it-is',
-      title: 'O que confere o Direito de Preferência',
+      title: 'O que dá o Direito de Preferência',
       content: [
-        { kind: 'paragraph', text: 'O Direito de Preferência é o direito legal do arrendatário a comprar em primeiro lugar a habitação arrendada, se o proprietário decidir vendê-la ou transmiti-la em dação em cumprimento. A base é o Código Civil art. 1091 e as regras gerais da preferência nos art. 416–418 e art. 1410.' },
-        { kind: 'paragraph', text: 'A lógica é simples: o senhorio não é obrigado a vender-lhe mais barato, mas é obrigado a propor-lhe o mesmo negócio que está disposto a celebrar com um terceiro comprador: o mesmo imóvel, preço, forma de pagamento, prazos, lugares de estacionamento/arrecadações incluídos e outras condições essenciais.' },
+        { kind: 'paragraph', text: 'O Direito de Preferência é o direito legal do arrendatário de comprar em primeiro lugar a habitação arrendada, se o proprietário decidir vendê-la ou transmiti-la em dação em cumprimento. A base é o Código Civil art. 1091 e as regras gerais da preferência nos art. 416–418 e art. 1410.' },
+        { kind: 'paragraph', text: 'A ideia é simples: o senhorio não é obrigado a vender-lhe mais barato, mas é obrigado a propor-lhe o mesmo negócio que está disposto a celebrar com um terceiro comprador: o mesmo imóvel, preço, forma de pagamento, prazos, estacionamentos/arrecadações incluídos e demais condições essenciais.' },
         { kind: 'checklist', items: [
-          'O direito surge normalmente se o contrato de arrendamento estiver em vigor há mais de 2 anos.',
-          'Conta o período de arrendamento efetivo ao abrigo desse contrato; guarde o contrato, recibos de renda e correspondência.',
-          'O direito incide sobre o imóvel que arrenda: apartamento, casa ou fração autónoma.',
-          'Se for vendido um prédio inteiro sem propriedade horizontal, o direito é mais complexo: é necessária uma análise por advogado, com base nos factos e na prática atual.',
-          'Se for vendida uma quota, um pacote de ativos, a sociedade proprietária ou se ocorrer uma doação, a preferência automática pode não se aplicar.',
-          'O contrato de arrendamento pode conter condições adicionais, mas a renúncia antecipada ao direito legal é frequentemente discutível e exige avaliação jurídica.'
+          'O direito surge normalmente se o contrato de arrendamento vigorar há mais de 2 anos.',
+          'Conta-se o período de arrendamento efetivo ao abrigo desse contrato; guarde o contrato, recibos de renda e correspondência.',
+          'O direito refere-se ao imóvel que você arrenda: apartamento, casa ou fração autónoma.',
+          'Se for vendido um edifício inteiro sem propriedade horizontal, o direito é mais complexo: é necessária verificação por um jurista com base nos factos e na prática atual.',
+          'Se for vendida uma quota, um pacote de ativos, a sociedade proprietária ou se ocorrer uma doação, a preferência automática pode não funcionar.',
+          'O contrato de arrendamento pode conter condições adicionais, mas a renúncia antecipada a um direito legal é muitas vezes discutível e exige avaliação jurídica.'
         ] }
       ]
     },
@@ -27,25 +27,25 @@ export default {
       id: 'notice',
       title: 'Como o senhorio deve notificar o arrendatário',
       content: [
-        { kind: 'paragraph', text: 'A notificação deve permitir que o arrendatário tome uma decisão real. Na prática, o formato seguro para o senhorio é carta registada com aviso de receção ou notificação notarial/por advogado. WhatsApp sem confirmação e sem as condições do negócio é uma prova fraca.' },
+        { kind: 'paragraph', text: 'A notificação deve permitir que o arrendatário possa realmente tomar uma decisão. Na prática, o formato seguro para o senhorio é carta registada com aviso de receção ou notificação notarial/por advogado. WhatsApp sem confirmação e sem as condições do negócio é prova fraca.' },
         { kind: 'checklist', items: [
           'Identificação do vendedor e do imóvel: morada, fração, descrição predial, artigo matricial.',
-          'Preço de venda em € e o que está exatamente incluído no preço.',
+          'Preço de venda em € e o que exatamente está incluído no preço.',
           'Condições de pagamento: depósito, sinal, crédito habitação, data da escritura.',
           'Dados do potencial comprador, se já existir contrato-promessa de compra e venda.',
           'Condições essenciais do negócio: mobília, estacionamento, arrecadação, prazos de desocupação, condições suspensivas.',
           'Pedido claro: se pretende exercer o direito de preferência.',
           'Prazo de resposta: 30 dias a contar da receção da notificação pelo arrendatário.',
-          'Endereço/meio para a resposta, de preferência com entrega comprovável.'
+          'Endereço/meio para responder, de preferência com entrega comprovável.'
         ] },
-        { kind: 'warning', text: 'Não ignore a carta. O silêncio após uma notificação correta é normalmente considerado renúncia à preferência nas condições propostas. Se as condições estiverem incompletas, responda por escrito: peça os elementos em falta e registe que o prazo não pode correr sem os elementos essenciais do negócio.' }
+        { kind: 'warning', text: 'Não ignore a carta. O silêncio após uma notificação correta é normalmente considerado renúncia à preferência nas condições propostas. Se as condições estiverem incompletas, responda por escrito: peça os dados em falta e deixe registado que o prazo não pode correr sem os elementos essenciais do negócio.' }
       ]
     },
     {
       id: 'thirty-days',
       title: '30 dias: como responder corretamente',
       content: [
-        { kind: 'paragraph', text: 'O arrendatário tem, nos termos do art. 1091 Código Civil, 30 dias para o exercício do direito de preferência. O prazo conta-se a partir da receção da notificação correta, e não da data da carta. Se a carta tiver sido recebida por um vizinho/porteiro ou tiver ficado nos correios, as datas podem tornar-se uma questão de prova.' },
+        { kind: 'paragraph', text: 'O arrendatário tem, nos termos do art. 1091 Código Civil, 30 dias para o exercício do direito de preferência.\n\nO prazo conta-se a partir da receção de uma notificação correta, não da data da carta. Se a carta foi recebida por um vizinho/porteiro ou ficou nos correios, as datas podem tornar-se uma disputa de prova.' },
         { kind: 'substeps', items: [
           { id: 'accept', title: 'Se quiser comprar', content: [
             { kind: 'checklist', items: [
@@ -53,7 +53,7 @@ export default {
               'Indique o imóvel e o preço constantes da notificação.',
               'Confirme a disponibilidade para comprar nas mesmas condições.',
               'Envie carta registada com aviso de receção ou através de advogado/solicitador.',
-              'Verifique de imediato o crédito habitação: banco, avaliação, prazo de aprovação.',
+              'Verifique imediatamente o crédito habitação: banco, avaliação, prazo de aprovação.',
               'Peça a minuta do CPCV e os documentos do imóvel: caderneta predial, certidão permanente, licença de utilização ou documento substitutivo.'
             ] }
           ] },
@@ -61,56 +61,56 @@ export default {
             { kind: 'paragraph', text: 'Pode recusar por escrito ou simplesmente não responder no prazo de 30 dias, se a notificação estiver completa. A recusa por escrito acelera a venda e reduz o risco de conflitos, mas não assine documentos com formulações mais amplas do que o negócio concreto se não tiver a certeza.' }
           ] },
           { id: 'unclear', title: 'Se a carta estiver incompleta', content: [
-            { kind: 'paragraph', text: 'Escreva que não consegue avaliar a preferência sem o preço, o imóvel, as condições de pagamento ou uma cópia do CPCV. Peça os elementos em falta. Isto é importante se, mais tarde, for necessário provar que o prazo de 30 dias não começou corretamente.' }
+            { kind: 'paragraph', text: 'Escreva que não consegue avaliar a preferência sem o preço, o imóvel, as condições de pagamento ou a cópia do CPCV. Peça os elementos em falta. Isto é importante se mais tarde for necessário provar que o prazo de 30 dias não começou corretamente.' }
           ] }
         ] }
       ]
     },
     {
       id: 'sale-without-notice',
-      title: 'Se o apartamento tiver sido vendido sem si',
+      title: 'Se o apartamento foi vendido sem si',
       content: [
-        { kind: 'paragraph', text: 'Se o senhorio tiver vendido o imóvel sem notificação adequada ou se o negócio efetivo se revelar melhor para o comprador do que o que lhe foi proposto, o arrendatário pode intentar uma ação de preferência. Trata-se de uma ação através da qual o tribunal substitui o comprador pelo arrendatário, desde que estejam cumpridas as condições legais.' },
+        { kind: 'paragraph', text: 'Se o senhorio vendeu o imóvel sem notificação adequada ou se o negócio efetivo acabou por ser melhor para o comprador do que o que lhe foi proposto, o arrendatário pode intentar uma ação de preferência. É uma ação através da qual o tribunal substitui o comprador pelo arrendatário, desde que estejam cumpridas as condições legais.' },
         { kind: 'checklist', items: [
-          'Prazo: 6 meses a contar do momento em que teve conhecimento dos elementos essenciais da venda.',
+          'Prazo: 6 meses a contar do momento em que tomou conhecimento dos elementos essenciais da venda.',
           'Normalmente são necessários: contrato de arrendamento, provas de residência, recibos de renda, notificações, certidão predial, cópia da escritura ou dados da compra.',
-          'É necessário estar preparado para comprar nas condições reais do negócio, e não apenas para anular a venda.',
+          'É necessário estar preparado para comprar nas condições reais do negócio, e não apenas anular a venda.',
           'Nos termos do art. 1410 Código Civil, o preço deve ser depositado no prazo de 15 dias após a propositura da ação, salvo se o tribunal aplicar particularidades processuais do caso concreto.',
           'Os réus são normalmente o vendedor e o comprador.',
-          'A ação é proposta no Tribunal Judicial; na prática, é quase impossível dispensar advogado.',
-          'Se o imóvel já tiver sido revendido, hipotecado ou dividido, o litígio torna-se mais caro e complexo, pelo que deve agir rapidamente.'
+          'A ação é apresentada no Tribunal Judicial; na prática, é quase impossível avançar sem advogado.',
+          'Se o imóvel já foi revendido, hipotecado ou dividido, o litígio torna-se mais caro e mais complexo, por isso atue rapidamente.'
         ] },
-        { kind: 'warning', text: '“Soube por um vizinho” é um mau ponto de partida se não houver provas. Peça uma certidão permanente predial, guarde a data em que recebeu a informação e consulte imediatamente um advogado. Deixar passar os 6 meses normalmente elimina a possibilidade de substituir o comprador.' }
+        { kind: 'warning', text: '“Soube por um vizinho” é um mau ponto de partida se não houver provas. Peça a certidão permanente predial, guarde a data em que recebeu a informação e vá imediatamente a um advogado. Deixar passar os 6 meses normalmente elimina a possibilidade de substituir o comprador.' }
       ]
     },
     {
       id: 'expat-practical',
-      title: 'Prática para expats: o que deve ter à mão',
+      title: 'Prática para expats: o que ter à mão',
       content: [
-        { kind: 'paragraph', text: 'Para estrangeiros, é importante não perder provas. Em Portugal, muita coisa resolve-se por cartas e registos, e não por promessas verbais de um agente. Se pondera comprar a habitação que arrenda, prepare antecipadamente a parte financeira: NIF, morada fiscal nas Finanças, pré-aprovação bancária, capitais próprios para IMT, Imposto do Selo,ário e registo.' },
+        { kind: 'paragraph', text: 'Para estrangeiros, é importante não perder provas.\n\nEm Portugal, muita coisa decide-se por cartas e registos, não por promessas verbais do agente. Se tem potencial interesse em comprar a habitação arrendada, prepare a parte financeira com antecedência: NIF, morada fiscal nas Finanças, pré-aprovação bancária, capitais próprios para IMT, Imposto do Selo, notário e registo.' },
         { kind: 'checklist', items: [
-          'Contrato de arrendamento com a data de início e identificação da fração.',
+          'Contrato de arrendamento com data de início e identificação da fração.',
           'Recibos de renda do Portal das Finanças ou transferências bancárias.',
-          'Todas as cartas do senhorio, da agência e da administração do condomínio.',
+          'Todas as cartas do senhorio, da agência e da empresa de gestão do condomínio.',
           'Comprovativo de morada: atestado de residência, faturas, contrato de arrendamento.',
           'Certidão permanente predial: mostra o proprietário e os negócios.',
           'Caderneta predial urbana: artigo matricial e informação fiscal.',
           'Contacto de advogado ou solicitador antes de terminar o prazo de 30 dias.',
           'Tradutor, se não lê português jurídico: erros no prazo ficam caros.'
         ] },
-        { kind: 'warning', text: 'A preferência do arrendatário não congela a venda para sempre. Se quiser comprar, mas não conseguir comprovar o financiamento, o senhorio pode avançar depois de decorrido corretamente o prazo de 30 dias. O crédito habitação em Portugal demora frequentemente 4–8 semanas, pelo que 30 dias é um prazo curto.' }
+        { kind: 'warning', text: 'A preferência do arrendatário não congela a venda para sempre. Se quiser comprar, mas não conseguir confirmar o financiamento, o senhorio pode avançar depois do decurso correto dos 30 dias. O crédito habitação em Portugal demora frequentemente 4–8 semanas, por isso 30 dias é um prazo curto.' }
       ]
     }
   ],
   costs: [
-    { label: 'Certidão permanente predial online', amountEUR: 15, note: 'Normalmente dá acesso durante 6 meses ao registo no Registo Predial; o preço pode variar consoante o tipo de pedido.' },
-    { label: 'Consulta com advogado sobre preferência', amountEURMin: 100, amountEURMax: 250, note: 'Valor típico no mercado privado para uma primeira análise de documentos; litígios complexos são mais caros.' },
+    { label: 'Certidão permanente predial online', amountEUR: 15, note: 'Normalmente, acesso de 6 meses ao registo no Registo Predial; o preço pode variar consoante o tipo de pedido.' },
+    { label: 'Consulta de advogado sobre preferência', amountEURMin: 100, amountEURMax: 250, note: 'Mercado privado típico para uma primeira análise de documentos; litígios complexos são mais caros.' },
     { label: 'Litígio judicial de ação de preferência', amountEURMin: 1500, amountEURMax: 6000, note: 'Estimativa para orçamento: advogado, taxas de justiça, registos, traduções. Não inclui o preço de compra, que deve estar preparado para depositar.' }
   ],
   sources: [
     {
       title: 'Código Civil — art. 416–418, 1091 e 1410 sobre preferência e arrendamento',
-      url: 'https://diariodarepublica.pt/dr/acao-consolidada/decreto-lei/1966-34509075',
+      url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -137,6 +137,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

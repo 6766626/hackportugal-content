@@ -3,7 +3,7 @@ export default {
   id: 'intercity-transport',
   categoryId: 'travel_portugal',
   title: 'Intercity transport in Portugal — train, coach, plane',
-  tldr: 'Three channels: CP trains (comfort + Lisbon–Porto–Braga network + Alentejo), Rede Expressos coaches (cheap national network) and FlixBus (international). Islands — TAP, SATA, Ryanair flights and Atlanticoline ferries. Algarve — EVA coaches. The Omio aggregator combines everything. When booking 2–4 weeks in advance, prices drop by 30–50%.',
+  tldr: 'Three channels: CP trains (comfort + Lisbon–Porto–Braga network + Alentejo), Rede Expressos coaches (cheap national network) and FlixBus (international)\.\n\nIslands — TAP, SATA, Ryanair flights and Atlanticoline ferries. Algarve — EVA coaches. The Omio aggregator brings everything together. When booking 2–4 weeks in advance, prices fall by 30–50%.',
   tags: ['transport', 'train', 'coach', 'plane', 'cp', 'rede expressos'],
   estimatedReadMinutes: 7,
   steps: [
@@ -28,11 +28,11 @@ export default {
               'Lisbon–Faro: €20–30',
               'Lisbon–Coimbra: €15–25',
               'Porto–Braga: €5–8',
-              'Discounts: 50% for children aged 4-13, 25-50% for students, 50% for pensioners 65+',
+              'Discounts: 50% for children aged 4-13, 25-50% for students, 50% for pensioners aged 65+',
               'Interrail Pass: available to residents of Portugal'
             ]}
           ]},
-          { id: 'cp3', title: 'Buying', content: [
+          { id: 'cp3', title: 'Purchase', content: [
             { kind: 'checklist', items: [
               'cp.pt website — mobile version in English',
               '“CP - Comboios de Portugal” app',
@@ -63,7 +63,7 @@ export default {
             ]}
           ]},
           { id: 'b2', title: 'FlixBus', content: [
-            { kind: 'paragraph', text: 'International network. Within Portugal: Lisbon–Porto (€10–25), Lisbon–Faro (€15–35). Abroad: Portugal–Spain (Madrid €35), Portugal–France (Paris €100). Advantage: cheap prices; drawback: fewer services than Rede Expressos.' }
+            { kind: 'paragraph', text: 'International network. Within Portugal: Lisbon–Porto (€10–25), Lisbon–Faro (€15–35). Abroad: Portugal–Spain (Madrid €35), Portugal–France (Paris €100). Plus: cheap prices; downside: fewer services than Rede Expressos.' }
           ]},
           { id: 'b3', title: 'Alsa', content: [
             { kind: 'paragraph', text: 'Spanish operator, Portugal–Spain routes. Lisbon–Madrid, Porto–Santiago. From €25.' }
@@ -72,7 +72,7 @@ export default {
             { kind: 'paragraph', text: 'Algarve. Faro–Lagos, Albufeira and rural routes. €5–15.' }
           ]},
           { id: 'b5', title: 'Regional / local', content: [
-            { kind: 'paragraph', text: 'Rodonorte (north), Rodoviária do Alentejo, Rodoviária do Tejo and others. For remote small towns and villages — often the only transport.' }
+            { kind: 'paragraph', text: 'Rodonorte (north), Rodoviária do Alentejo, Rodoviária do Tejo and others. For remote villages and hamlets, often the only transport.' }
           ]}
         ]}
       ]
@@ -82,8 +82,8 @@ export default {
       title: 'Domestic flights — only to the islands',
       content: [
         { kind: 'checklist', items: [
-          '✈️ Flights between Lisbon/Porto and mainland cities operate only rarely (Faro once a day)',
-          '✈️ Main connections are to Madeira (Funchal) and the Azores (Ponta Delgada)',
+          '✈️ Flights between Lisbon/Porto and mainland cities are only rare (Faro once a day)',
+          '✈️ The main connections are to Madeira (Funchal) and the Azores (Ponta Delgada)',
           '🇵🇹 TAP Portugal — main carrier, hub in Lisbon',
           '🇵🇹 SATA Azores Airlines — Azores specialist, inter-island flights',
           '💶 Ryanair — Porto/Lisbon to Madeira ~€40–80 in advance',
@@ -135,6 +135,6 @@ export default {
     { title: 'Atlanticoline — ferries in the Azores', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

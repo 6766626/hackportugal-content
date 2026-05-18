@@ -2,26 +2,26 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'souvenirs-from-pt',
   categoryId: 'travel_portugal',
-  title: 'Souvenirs from Portugal — what to bring back and where to buy',
-  tldr: 'The main authentic souvenirs: Galo de Barcelos (the rooster symbol), azulejos (tiles), cork products, sardine cans in vintage packaging, ovos moles from Aveiro, Port wine, Vinho Verde, ginjinha (cherry liqueur), olive oil (Portugal is a world leader), Castelbel soap, the embroidered lenço dos namorados. Where to buy: "A Vida Portuguesa" (flagship in Chiado/Porto, premium prices), Mercado da Ribeira / Bolhão (fresher / cheaper), Conserveira de Lisboa and Mundo Fantástico da Sardinha (sardine specialists), Continente/Pingo Doce supermarkets (cheapest place for olive oil and Port). Avoid "I love Lisbon" magnets — they\'re mass-market Chinese imports, not authentic.',
+  title: 'Souvenirs from Portugal — what to bring back and where to buy them',
+  tldr: 'The main authentic souvenirs: Galo de Barcelos (the symbolic rooster), azulejos (tiles), cork products (Cork), tinned sardines in vintage tins, ovos moles from Aveiro, Port wine, Vinho Verde, ginjinha (cherry liqueur), Azeite olive oil (Portugal is a world leader), Castelbel soap, the embroidered “lenço dos namorados” ribbon. Where to buy: “A Vida Portuguesa” (flagship in Chiado/Porto, premium prices), Mercado da Ribeira / Bolhão (fresh/inexpensive), Conserveira de Lisboa and Mundo Fantástico da Sardinha (specialists in tinned fish), Continente/Pingo Doce supermarkets (Azeite and Port wine — the cheapest place).\n\nAvoid “I love Lisboa” magnets — they are Chinese mass-market goods, not authentic.',
   tags: ['souvenirs', 'gifts', 'azulejos', 'port wine', 'authentic'],
   estimatedReadMinutes: 7,
   steps: [
     {
       id: 'top-10',
-      title: 'Top-10 authentic souvenirs',
+      title: 'Top 10 authentic souvenirs',
       content: [
         { kind: 'checklist', items: [
-          '🐓 Galo de Barcelos — Portugal\'s national symbol, a ceramic rooster with bright hand-painted decoration. From €8 (15 cm) up to €200+ (large, hand-painted)',
-          '🟦 Azulejos — blue-and-white tiles. Fridge magnets from €3, 15×15 cm tiles €5–15, antique tiles €30–200',
-          '🍷 Vinho do Porto — Port wine (Tawny, Ruby, LBV, Vintage). From €8 in a supermarket, from €30 in specialist shops, from €100 for aged vintages',
-          '🍾 Vinho Verde — the "green wine" with light sparkle, unique to Portugal. €3-10 in supermarkets',
-          '🍒 Ginjinha — cherry liqueur, especially Ginjinha de Óbidos (served in chocolate cups). From €5 in tourist shops, €7-15 at wineries',
-          '🐟 Sardine cans — vintage-style tins in beautiful packaging (Comur, Tricana, Briosa). €4-12 per can, look great as a gift',
-          '🟤 Cork products — bags, wallets, covers, shoes. Light, water-resistant, unique. From €15 (wallet) to €100 (bag)',
-          '🫒 Olive oil (Azeite) — Portugal is one of the world leaders, especially varieties from Alentejo and Trás-os-Montes. From €5 (500ml) to €25 (premium)',
-          '🥚 Ovos moles de Aveiro — traditional sweets made of egg yolk and sugar in fish/shell shapes. PDO-protected. ~€8 per box',
-          '🧡 Lenço dos namorados — the traditional "lovers\' handkerchief" with embroidered messages. Authentic ones from Vila Verde, ~€15-40'
+          '🐓 Galo de Barcelos — Portugal’s national symbol, a brightly painted ceramic rooster. From €8 (15 cm) to €200+ (large, hand-painted)',
+          '🟦 Azulejos — blue-and-white tiles. Magnets from €3, 15×15 cm tiles from €5-15, antique tiles €30-200',
+          '🍷 Vinho do Porto — Port wine (Tawny, Ruby, LBV, Vintage). From €8 in a supermarket, from €30 in specialist boutiques, from €100 — aged bottles',
+          '🍾 Vinho Verde — “green” wine with a light sparkle, unique to Portugal. €3-10 in a supermarket',
+          '🍒 Ginjinha — cherry liqueur, especially Ginjinha de Óbidos (drunk from chocolate cups). From €5 in a tourist shop, €7-15 at a winery',
+          '🐟 Tinned sardines — vintage tins in beautiful packaging (Comur, Tricana, Briosa). €4-12 per tin, excellent as a gift',
+          '🟤 Cork products (Cork) — bags, wallets, covers, shoes. Light, water-resistant, unique. From €15 (wallet) to €100 (bag)',
+          '🫒 Olive oil (Azeite) — Portugal is one of the world leaders. Especially varieties from Alentejo and Trás-os-Montes. From €5 (500 ml) to €25 (premium)',
+          '🥚 Ovos moles de Aveiro — traditional sweets made from egg yolks and sugar in the shape of little fish/shells. PDO-protected product. ~€8 per box',
+          '🧡 Lenço dos namorados — the traditional “lovers’ handkerchief” with embroidered inscriptions. Authentic ones are from the Vila Verde area, ~€15-40'
         ]}
       ]
     },
@@ -32,14 +32,14 @@ export default {
         { kind: 'substeps', items: [
           {
             id: 'a-vida',
-            title: 'A Vida Portuguesa (the flagship)',
+            title: 'A Vida Portuguesa (flagship)',
             content: [
               { kind: 'checklist', items: [
-                '📍 Rua Anchieta, 11 (Chiado) — the flagship, with a historic interior',
-                '📍 Mercado da Ribeira, Time Out Market — a smaller stand',
+                '📍 Rua Anchieta, 11 (Chiado) — flagship, historic interior',
+                '📍 Mercado da Ribeira, Time Out Market — small outlet',
                 '📍 Praça Luís de Camões — another location',
-                '⭐ Curated "all things Portuguese" collection: Castelbel and Confiança soaps, ceramics, sardines, Regina sweets, Picaria linen ribbons',
-                '💰 Prices 30-50% above supermarket, but beautifully packaged and premium quality'
+                '⭐ Curated “all things Portuguese” collection: Castelbel and Confiança soap, ceramics, tinned fish, Regina sweets, linho da Picaria ribbons',
+                '💰 Prices are 30-50% higher than in a supermarket, but it is beautifully packaged and premium quality'
               ]}
             ]
           },
@@ -49,19 +49,19 @@ export default {
             content: [
               { kind: 'checklist', items: [
                 '📍 Mercado da Ribeira (Cais do Sodré) — fruit, vegetables, seafood + Time Out Market for food',
-                '📍 Mercado de Campo de Ourique — a local market, fewer tourists, better prices',
-                '📍 LX Factory (Alcântara) — an arts district with designer Portuguese-brand shops'
+                '📍 Mercado de Campo de Ourique — local market, fewer tourists, better prices',
+                '📍 LX Factory (Alcântara) — arts district with designer shops from Portuguese brands'
               ]}
             ]
           },
           {
             id: 'sardine',
-            title: 'Sardine shops',
+            title: 'Tinned fish shops',
             content: [
               { kind: 'checklist', items: [
-                '🐟 Conserveira de Lisboa (Baixa, Rua dos Bacalhoeiros 34) — open since 1930, original interior',
-                '🐟 Mundo Fantástico da Sardinha Portuguesa (Praça Dom Pedro IV) — a carousel of cans for every birth year (1916-2026) — a quirky gift idea',
-                '🐟 Comur — has "year-themed" cans matched to your birth year'
+                '🐟 Conserveira de Lisboa (Baixa, Rua dos Bacalhoeiros 34) — open since 1930, historic interior',
+                '🐟 Mundo Fantástico da Sardinha Portuguesa (Praça Dom Pedro IV) — a carousel of tins for each year of birth (1916-2026) — an original gift idea',
+                '🐟 Comur — they have “year-themed” tins by your year of birth'
               ]}
             ]
           },
@@ -70,9 +70,9 @@ export default {
             title: 'Wine shops',
             content: [
               { kind: 'checklist', items: [
-                '🍷 Garrafeira Nacional (Largo Trindade Coelho, Bairro Alto) — Lisbon\'s oldest wine shop',
-                '🍷 Coisas do Arco do Vinho (Bairro Alto) — a wide Portugal-only selection',
-                '🍷 Wine Bar do Castelo (by the castle) — tastings and sales'
+                '🍷 Garrafeira Nacional (Largo Trindade Coelho, Bairro Alto) — Lisbon’s oldest wine shop',
+                '🍷 Coisas do Arco do Vinho (Bairro Alto) — wide portugal-only selection',
+                '🍷 Wine Bar do Castelo (near the castle) — tasting + purchase'
               ]}
             ]
           }
@@ -84,47 +84,47 @@ export default {
       title: 'Where to buy in Porto',
       content: [
         { kind: 'checklist', items: [
-          '📍 A Vida Portuguesa, Rua Galeria de Paris 20 (Baixa) — the Porto flagship',
-          '📍 Mercado do Bolhão — refurbished in 2022, ideal for gourmet souvenirs. Sardines, olive oil, Port wine in one place',
-          '📍 Rua de Santa Catarina + Avenida dos Aliados — touristy souvenir shops (mixed quality, choose carefully)',
-          '📍 Vila Nova de Gaia (the other Douro bank) — every Port cellar: Sandeman, Cálem, Taylor\'s, Graham\'s — all sell with tasting',
-          '📍 Cais da Ribeira — touristy area, but a couple of good ceramics shops',
-          '📍 Casa Oriental (Praça da Liberdade) — historic sardine shop with stained-glass windows'
+          '📍 A Vida Portuguesa, Rua Galeria de Paris 20 (Baixa) — Porto flagship',
+          '📍 Mercado do Bolhão — after the 2022 renovation, ideal for gastronomic souvenirs. Sardines, Azeite, Port wine in one place',
+          '📍 Rua de Santa Catarina + Avenida dos Aliados — tourist souvenir shops (quality varies, you need a good eye)',
+          '📍 Vila Nova de Gaia (the other side of the Douro) — all the Port wine cellars: Sandeman, Calem, Taylor\'s, Graham\'s — all sell with tastings',
+          '📍 Cais da Ribeira — tourist area, but there are a couple of good ceramics shops',
+          '📍 Casa Oriental (Praça da Liberdade) — historic tinned fish shop with bright stained-glass windows'
         ]}
       ]
     },
     {
       id: 'authentic-vs-fake',
-      title: 'How to tell authentic from mass-market',
+      title: 'How to tell authentic items from the Chinese mass market',
       content: [
         { kind: 'checklist', items: [
-          '✅ Authentic Galo de Barcelos: hand-painted, maker\'s stamp or "Olaria Portuguesa" underneath, €15+ for a medium one',
-          '❌ Fake: glossy uniform finish, identical to others (mass), price €3-5, "Made in China" sticker',
-          '✅ Real azulejo: terracotta clay on the back, colours "flow" slightly (hand-made), €5+ for 10×10 cm',
-          '❌ Fridge "azulejo": gypsum or plastic, price €2-3, not ceramic',
-          '✅ Authentic cork: porous bark-like texture, light, springy (squeeze and it recovers); wallets €15+',
+          '✅ Authentic Galo de Barcelos: hand-painted, maker’s stamp on the base or “Olaria Portuguesa”, price €15+ for a medium size',
+          '❌ Fake: smooth glaze, identical to others (mass-produced), price €3-5, “Made in China” sticker',
+          '✅ Real azulejo: terracotta clay on the reverse, colours slightly “run” (handmade), price €5+ for 10×10 cm',
+          '❌ “Azulejo” magnet: plaster or plastic, price €2-3, not ceramic',
+          '✅ Authentic cork: porous “bark” texture, light, springy (you can squeeze it and it recovers); wallet price €15+',
           '❌ Imitation: smooth surface, heavier, price €5-10',
-          '✅ Authentic ovos moles: PDO label "Ovos Moles de Aveiro" on the box, must come from Aveiro',
-          '❌ Imitation: not from Aveiro, no PDO label, cheaper sweets with different ingredients',
-          '✅ Real Port: bottle with DOC "Porto", named producer (Niepoort, Quinta do Vesúvio, Sandeman, etc.)',
-          '❌ "Port-style" wine: cheap bottle without DOC, €<5 for 750 ml — just a dessert wine, not Port'
+          '✅ Authentic ovos moles: PDO mark “Ovos Moles de Aveiro” on the packaging, must be from Aveiro',
+          '❌ Imitation: not from Aveiro, no PDO mark, cheaper sweets with a different composition',
+          '✅ Real Port wine: bottle with DOC “Porto”, producer name (Niepoort, Quinta do Vesúvio, Sandeman etc.)',
+          '❌ “Port-style” wine: cheap bottle without DOC, price <€5 for 750 ml — it is just dessert wine, not Port wine'
         ]},
-        { kind: 'warning', text: 'In the Rossio area (central Lisbon) and around Sé (Porto cathedral) there are plenty of tourist traps. "I 💗 Lisbon" magnets, "Pasteis de nata" T-shirts, keyrings — almost all mass-produced. If someone wants those souvenirs, fine — but "real Portugal" is not what\'s being sold there.' }
+        { kind: 'warning', text: 'Around Rossio (central Lisbon) and near Sé (Porto cathedral) — there are many tourist traps. “I 💗 Lisbon” magnets, “Pasteis de nata” T-shirts, keyrings — almost everything is Chinese mass-market. If you want such souvenirs for someone, that is your choice, but the “real Portugal” is not sold there.' }
       ]
     },
     {
       id: 'food-gifts',
-      title: 'Food gifts',
+      title: 'Gastronomic gifts',
       content: [
-        { kind: 'paragraph', text: 'The "safest" from a customs standpoint and not tied to a specific point of purchase — food. Well-packaged food looks like a premium gift for a low price.' },
+        { kind: 'paragraph', text: 'Food is the “safest” option for customs purposes and the least dependent on a specific place of purchase. Well-packaged food looks like a premium gift at a low price.' },
         { kind: 'checklist', items: [
           '🍫 Regina chocolate (Lisbon) — local chocolate factory, bars €5-8, very atmospheric boxes',
-          '🍪 Pastéis de nata — NOT for long trips, they go off in 1-2 days. Buy at Pastéis de Belém only if you\'ll eat them that day',
-          '🥃 Aguardente velha (brandy) — Portuguese "cognac", €12-30',
-          '🍯 Honey from Alentejo / Madeira — lavender, eucalyptus, floral. From €5 (500 g)',
-          '🌶️ Piri-piri sauce — the Portuguese "spicy thing", €5-10 a bottle',
-          '🐟 Bacalhau (salted cod) — DON\'T bring it on a trip (heavy, smelly). Buy ready-made canned bacalhau à brás instead',
-          '🍵 Gorreana tea (Azores) — the only tea in Europe grown in Portugal, ~€5-10 a box'
+          '🍪 Pastéis de nata (custard tarts) — NOT for long journeys, they spoil within 1-2 days. Buy at Pastéis de Belém only if you will eat them the same day',
+          '🥃 Aguardente velha (brandy) — Portuguese “cognac”, €12-30',
+          '🍯 Honey (mel) from Alentejo / Madeira — lavender, eucalyptus, floral. From €5 (500 g)',
+          '🌶️ Piri-piri (sauce) — Portugal’s “spicy speciality”, €5-10 per bottle',
+          '🐟 Bacalhau (salt cod) — do NOT take it with you on the road (heavy, smell). Buy ready-made tinned bacalhau bras instead — better',
+          '🍵 Gorreana tea (Azores) — Europe’s only tea grown in Portugal, ~€5-10 per box'
         ]}
       ]
     },
@@ -133,27 +133,27 @@ export default {
       title: 'Customs and luggage',
       content: [
         { kind: 'checklist', items: [
-          '✈️ Liquids in hand luggage: <100 ml, otherwise put in hold luggage. A bottle of Port — hold luggage only, or duty-free post-security',
-          '🍷 Alcohol: no limit within the EU (for personal use). Outside the EU: 1 L spirits or 2 L fortified wine or 4 L wine duty-free',
-          '🍯 Honey: USA/Canada/Australia may restrict it; within the EU — no problem',
-          '🐟 Fish cans: USA/UK fine; for Russia — there may be sanctions restrictions',
-          '🌱 Seeds/plants: DO NOT bring — phytosanitary certificates required',
-          '🪙 Cork items: no restrictions',
-          '🇪🇺 Within the EU: no value limit (but suspected "commercial quantities" can be checked). Gift limit from outside the EU into the EU: €430 hold / €300 cabin',
-          '✅ Lisbon, Porto and Faro airports have large duty-free souvenir shops post-security — usually cheaper than the city for bottles and chocolate'
+          '✈️ Liquids in hand luggage: <100 ml, or put them in checked luggage. A bottle of Port wine — checked luggage only, or duty-free after security',
+          '🍷 Alcohol: within the EU there is no limit (for personal use). Outside the EU: 1 l of spirits or 2 l of lower-strength/fortified alcohol or 4 l of wine duty-free',
+          '🍯 Honey: for the USA/Canada/Australia there may be restrictions; within the EU — no problems',
+          '🐟 Tinned fish: for the USA/UK — no problems; for Russia — there may be restrictions due to sanctions',
+          '🌱 Seeds/plants: do NOT take them, phytosanitary certificates are required',
+          '🪙 Cork products: no restrictions',
+          '🇪🇺 Within the EU: there is no value limit (but if “commercial” use is suspected, there may be a check). Limit for gifts from outside the EU into the EU: €430 in checked luggage / €300 in hand luggage',
+          '✅ Lisboa, Porto and Faro airports have large duty-free souvenir shops after security — usually cheaper than the city for bottles and chocolate'
         ]}
       ]
     }
   ],
   sources: [
     { title: 'Visit Portugal — Souvenirs and shopping (official tourism portal)', url: 'https://www.visitportugal.com/en/experiencias/compras', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },
-    { title: 'A Vida Portuguesa — official site', url: 'https://avidaportuguesa.com/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Conserveira de Lisboa — official site', url: 'https://www.conserveiradelisboa.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'A Vida Portuguesa — official website', url: 'https://avidaportuguesa.com/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Comur / Conserveira de Lisboa — official website', url: 'https://www.conserveiradelisboa.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IVDP — Instituto dos Vinhos do Douro e Porto', url: 'https://www.ivdp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Visit Aveiro — Ovos moles PDO', url: 'https://www.visitaveiro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
-  changeSummary: 'New guide: souvenirs from Portugal. Top-10 authentic souvenirs (Galo, azulejos, cork, Port, Vinho Verde, ginjinha, sardine tins, ovos moles, olive oil, lenço dos namorados), where to buy in Lisbon (A Vida Portuguesa, Mercado da Ribeira, Conserveira) and Porto (Mercado do Bolhão, Vila Nova de Gaia), how to tell authentic from mass-market Chinese imports, customs rules.'
+  changeSummary: 'New guide: souvenirs from Portugal. Top 10 authentic items (Galo, azulejos, cork, Port wine, Vinho Verde, ginjinha, tinned fish, ovos moles, olive oil, lenço dos namorados), where to buy in Lisbon (A Vida Portuguesa, Mercado da Ribeira, Conserveira) and Porto (Mercado do Bolhão, Vila Nova de Gaia), how to tell authentic items from Chinese mass-market goods, customs rules.'
 }

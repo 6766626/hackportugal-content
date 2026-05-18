@@ -3,23 +3,23 @@ export default {
   id: 'apanha-bivalves-mar',
   categoryId: 'food_leisure',
   title: 'Apanha de bivalves — licença e zonas sanitárias',
-  tldr: 'A apanha de bivalves na praia e na zona costeira (ameijoa, berbigão, conquilha, longueirão) é uma categoria separada de Pesca Lúdica da DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos). A licença "Apanha Apeada": ~10 € por 3 dias, ~25 € por ano. Limite diário: 1 kg com concha por pessoa. Só se pode apanhar em zonas sanitariamente classificadas (zonas classificadas): o IPMA (Instituto Português do Mar e da Atmosfera) publica todos os meses a lista A/B/C. A apanha em zonas não classificadas é ilegal OU exige tratamento térmico obrigatório (mesmo que a espécie seja permitida). São proibidos: pé-de-cabra, quaisquer instrumentos mecânicos, bem como a apanha de conchas abaixo do tamanho mínimo (ameijoa 25 mm, berbigão 25 mm, longueirão 100 mm). A licença Pesca Lúdica à linha para cana NÃO cobre a apanha de bivalves — é necessária uma licença separada.',
-  tags: ['bivalves', 'mariscagem', 'apanha', 'ameijoa', 'dgrm', 'ipma'],
+  tldr: 'A apanha de bivalves na praia e na zona costeira (amêijoa, berbigão, conquilha, longueirão) é uma categoria separada de Pesca Lúdica da DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos).\n\nA licença "Apanha Apeada": ~10 € por 3 dias, ~25 € por ano. Limite diário: 1 kg com concha por pessoa. Só se pode apanhar em zonas sanitariamente classificadas (zonas classificadas): o IPMA (Instituto Português do Mar e da Atmosfera) publica todos os meses a lista A/B/C. A apanha em zonas não classificadas é ilegal OU exige tratamento térmico obrigatório (mesmo que a espécie seja permitida).\n\nSão proibidos: pé-de-cabra, quaisquer instrumentos mecânicos, bem como a apanha de conchas abaixo do tamanho mínimo (amêijoa 25 mm, berbigão 25 mm, longueirão 100 mm).\n\nA licença de Pesca Lúdica à linha para cana NÃO cobre a apanha de bivalves — é necessária uma licença separada.',
+  tags: ['bivalves', 'mariscagem', 'apanha', 'amêijoa', 'dgrm', 'ipma'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'what-is-apanha',
-      title: 'O que é a apanha de bivalves e por que exige uma licença separada 🐚',
+      title: 'O que é a apanha de bivalves e porque exige uma licença separada 🐚',
       content: [
-        { kind: 'paragraph', text: 'A apanha de bivalves é a recolha recreativa de moluscos bivalves e de outros organismos marinhos comestíveis na zona costeira: em praias arenosas durante a baixa-mar, nas rochas, em estuários. Em Portugal é uma modalidade de Pesca Lúdica, regulada juridicamente pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos), enquanto o controlo sanitário é feito pelo IPMA (Instituto Português do Mar e da Atmosfera).' },
+        { kind: 'paragraph', text: 'Apanha de bivalves é a recolha recreativa de moluscos bivalves e de outros organismos marinhos comestíveis na zona costeira: em praias arenosas durante a maré baixa, em rochas, em estuários.\n\nEm Portugal é uma forma de Pesca Lúdica, regulada juridicamente pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos), enquanto o controlo sanitário é assegurado pelo IPMA (Instituto Português do Mar e da Atmosfera).' },
         { kind: 'checklist', items: [
           'Bivalves: ameijoa-boa (Ruditapes decussatus), ameijoa-japonesa (R. philippinarum), berbigão (Cerastoderma edule), longueirão (Ensis spp.), navalha (Solen spp.)',
           'Outros moluscos: pé-de-burrinho, lapa, mexilhão nas rochas',
-          'Crustáceos: caranguejo, camarão, percebes — em parte entram aqui',
+          'Crustáceos: caranguejo, camarão, percebes — em parte enquadram-se aqui',
           'Equinodermes: ouriço-do-mar — especialmente regulado',
-          'NÃO inclui: pesca com cana (é necessária Pesca Lúdica à linha), tirar polvo da toca com as mãos (proibido desde 2017), lagostas (apenas captura profissional)'
+          'NÃO inclui: pesca à cana (é necessária Pesca Lúdica à linha), retirar polvo à mão da toca (proibido desde 2017), lagostas (apenas captura profissional)'
         ] },
-        { kind: 'warning', text: 'A licença Pesca Lúdica à linha (para cana) NÃO é válida para bivalves. E vice-versa. Muitas pessoas pensam: «tenho licença», vão escavar ameijoa no Algarve e recebem uma coima de 250-500 €.' }
+        { kind: 'warning', text: 'A licença de Pesca Lúdica à linha (para cana) NÃO é válida para bivalves. E vice-versa. Muitas pessoas pensam: “tenho licença”, vão apanhar ameijoa no Algarve e recebem uma coima de 250-500 €.' }
       ]
     },
     {
@@ -28,21 +28,21 @@ export default {
       content: [
         { kind: 'paragraph', text: 'É uma questão de saúde. Os moluscos bivalves filtram a água e acumulam toxinas (biotoxinas de algas — “marés vermelhas”), bactérias (E. coli, Salmonella), metais pesados. O IPMA publica todos os meses um mapa atualizado: que zonas estão autorizadas, para que espécies e de que forma podem ser consumidas.' },
         { kind: 'checklist', items: [
-          'Classe A (apanhar e comer): raro; por exemplo, ameijoa da Ria Formosa em bons meses',
-          'Classe B (pode apanhar, mas o tratamento térmico é obrigatório): a maioria das zonas de Portugal. Cozer no mínimo 5 minutos ou manter 2–3 dias em água salgada limpa',
-          'Classe C (exige depuração industrial): indisponível para amadores',
-          'PROIBIDO: apanha e consumo totalmente proibidos, geralmente devido a picos de biotoxinas',
-          'Zona não classificada: apanha e consumo proibidos — não há controlo sanitário'
+          'Classe A (apanhou e comeu): raro; por exemplo, ameijoa da Ria Formosa em meses favoráveis',
+          'Classe B (pode apanhar, mas o tratamento térmico é obrigatório): a maioria das zonas em Portugal. Cozer no mínimo 5 minutos ou manter 2–3 dias em água salgada limpa',
+          'Classe C (exige depuração industrial): inacessível para amadores',
+          'PROIBIDO (proibido): a apanha e o consumo são totalmente proibidos, normalmente devido a picos de biotoxinas',
+          'Zona não classificada (zona não classificada): a apanha e o consumo são proibidos — não há controlo sanitário'
         ] },
         { kind: 'paragraph', text: 'O IPMA atualiza o mapa todas as semanas em ipma.pt → Mar e Pesca → Bivalves. Existe também a aplicação IPMA para iOS e Android, onde pode verificar rapidamente a zona por coordenadas.' },
-        { kind: 'warning', text: 'Apanhar numa zona PROIBIDO, mesmo em pequenas quantidades = até 1500 € de coima + risco de intoxicação. As biotoxinas não são destruídas pela cozedura! Os picos ocorrem em março–maio e setembro–outubro após as “florações” de algas da primavera/outono.' }
+        { kind: 'warning', text: 'Apanhar numa zona PROIBIDO, mesmo em pequenas quantidades = até 1500 € de coima + risco de intoxicação. As biotoxinas não são destruídas pela cozedura! Os picos ocorrem em março–maio e setembro–outubro, após as “florações” de algas da primavera/outono.' }
       ]
     },
     {
       id: 'how-to-license',
       title: 'Obter a licença Apanha Apeada',
       content: [
-        { kind: 'paragraph', text: 'Faça o pedido em portal.dgrm.mm.gov.pt → Licenciamento → Pesca Lúdica → Apanha Apeada. Entrada com Chave Móvel Digital (CMD; assinatura digital móvel) ou Cartão de Cidadão.' },
+        { kind: 'paragraph', text: 'Faça o pedido em portal.dgrm.mm.gov.pt → Licenciamento → Pesca Lúdica → Apanha Apeada. A autenticação faz-se com Chave Móvel Digital (CMD; assinatura digital móvel) ou Cartão de Cidadão.' },
         { kind: 'checklist', items: [
           '3 dias: ~10 €',
           '1 mês: ~15 €',
@@ -50,14 +50,14 @@ export default {
           '3 anos: ~60 €',
           'A licença é nominal, não pode ser transmitida'
         ] },
-        { kind: 'paragraph', text: 'O combo «à linha apeada + apanha» por vezes compensa mais, se você também pesca e apanha moluscos.' }
+        { kind: 'paragraph', text: 'O combo «à linha apeada + apanha» por vezes compensa se você também pesca e apanha moluscos.' }
       ]
     },
     {
       id: 'rules-tools',
       title: 'Regras: instrumentos, tamanhos, limites',
       content: [
-        { kind: 'paragraph', text: 'É fundamental cumprir os tamanhos mínimos:' },
+        { kind: 'paragraph', text: 'É essencial cumprir os tamanhos mínimos:' },
         { kind: 'checklist', items: [
           'Ameijoa-boa e ameijoa-japonesa: 25 mm de diâmetro da concha',
           'Berbigão: 25 mm',
@@ -65,7 +65,7 @@ export default {
           'Mexilhão: 50 mm',
           'Lapa: 30 mm',
           'Ostra plana: 60 mm; portuguesa: 80 mm',
-          'Polvo: 750 g (mas tirá-lo da toca com as mãos é proibido desde 2017)',
+          'Polvo: 750 g (mas retirá-lo à mão da toca é proibido desde 2017)',
           'Percebes: 25 mm na base de fixação'
         ] },
         { kind: 'paragraph', text: 'Limite diário:' },
@@ -78,14 +78,14 @@ export default {
         { kind: 'paragraph', text: 'Instrumentos permitidos e proibidos:' },
         { kind: 'checklist', items: [
           '✅ Apenas apanha manual (dedos, pau fino)',
-          '✅ Crivo/peneira para medir o tamanho e peneirar a areia',
+          '✅ Crivo/peneiro para medir o tamanho e peneirar a areia',
           '✅ Sacha (mini-ancinho) com largura até 30 cm e dentes no máximo de 5 cm',
           '✅ Faca de madeira para percebes',
           '❌ Qualquer pá com cabo',
           '❌ Mantas/ras (tipos de redes)',
-          '❌ Motobombas para bombear água ou areia',
+          '❌ Motobombas para retirar água ou areia',
           '❌ Hidroinjeção (proibida em todo o território desde 2014)',
-          '❌ Dispositivos de choque elétrico'
+          '❌ Eletrochoques'
         ] }
       ]
     },
@@ -93,26 +93,26 @@ export default {
       id: 'where-when',
       title: 'Onde e quando apanhar — melhores locais',
       content: [
-        { kind: 'paragraph', text: 'Regra principal: antes de sair, verifique o mapa atual do IPMA para o mês em curso. O estado das zonas muda.' },
+        { kind: 'paragraph', text: 'Regra principal: antes de sair, verifique o mapa IPMA atualizado do mês em curso. Os estatutos das zonas mudam.' },
         { kind: 'checklist', items: [
-          'Ria Formosa (Algarve): a principal «fábrica» de ameijoa em Portugal. Olhão, Tavira, Faro. Frequentemente classe A ou B.',
+          'Ria Formosa (Algarve): a principal “fábrica” de ameijoa em Portugal. Olhão, Tavira, Faro. Frequentemente classe A ou B.',
           'Ria de Aveiro: berbigão e ameijoa. Época — inverno e primavera.',
           'Ria de Alvor: bivalves mistos.',
-          'Estuário do Sado (Setúbal): ameijoa e berbigão. Parte das zonas fica numa Reserva Natural, com regras adicionais.',
+          'Estuário do Sado (Setúbal): ameijoa e berbigão. Parte das zonas fica em reserva natural (Reserva Natural) com regras adicionais.',
           'Lagoa de Albufeira: ameijoa, por vezes classe A.',
           'Ribeira do Lavre, canais da Ria Formosa: longueirão — um clássico.',
-          'Costa Vicentina: percebes nas rochas (MUITO perigoso para principiantes, há mortes todos os anos).',
+          'Costa Vicentina: percebes nas rochas (MUITO perigoso para principiantes; há mortes todos os anos).',
           'Berlengas: TUDO PROIBIDO — Reserva Natural.'
         ] },
-        { kind: 'paragraph', text: 'A melhor altura é a baixa-mar. Tabelas de marés (calendário de marés): ipma.pt ou a aplicação Tides Near Me. 2 horas antes do pico da baixa-mar e 1 hora depois — é o ideal.' },
-        { kind: 'warning', text: 'Não fique para lá da baixa-mar. A maré sobe rapidamente na Ria Formosa e nos estuários — todos os anos há afogamentos de apanhadores desorientados. Nunca vá sozinho. Telemóvel com bateria é obrigatório.' }
+        { kind: 'paragraph', text: 'A melhor altura é a maré baixa. Tabelas de marés (calendário de marés): ipma.pt ou a aplicação Tides Near Me. 2 horas antes do pico da maré baixa e 1 hora depois — é o ideal.' },
+        { kind: 'warning', text: 'Não fique para além da maré baixa. A maré sobe rapidamente na Ria Formosa e nos estuários — todos os anos há afogamentos de apanhadores desorientados. Nunca vá sozinho. Um telemóvel com bateria é obrigatório.' }
       ]
     },
     {
       id: 'preparation-cooking',
       title: 'Como tratar o que apanhou',
       content: [
-        { kind: 'paragraph', text: 'Para a classe B (a maioria das zonas), o tratamento antes de comer é obrigatório.' },
+        { kind: 'paragraph', text: 'Para a classe B (a maioria das zonas), o tratamento antes do consumo é obrigatório.' },
         { kind: 'substeps', items: [
           {
             id: 's1',
@@ -120,8 +120,8 @@ export default {
             content: [
               { kind: 'checklist', items: [
                 'Demolhe em água salgada (35 g de sal por 1 l) a uma temperatura “marinha” de 12–18 °C',
-                'No mínimo 3–4 horas, melhor durante a noite',
-                'Mude a água a cada 2–3 horas: a ameijoa “cospe” a areia ativamente',
+                'No mínimo 3–4 horas, idealmente durante a noite',
+                'Troque a água a cada 2–3 horas: a ameijoa “cospe” ativamente a areia',
                 'Adicione farinha de milho — os moluscos limpam-se mais depressa'
               ] }
             ]
@@ -131,25 +131,25 @@ export default {
             title: 'Tratamento térmico',
             content: [
               { kind: 'checklist', items: [
-                'Para a classe B é obrigatório: cozer no mínimo 5 minutos a ~90 °C ou fritar durante pelo menos 10 minutos',
+                'Para a classe B é obrigatório: cozer no mínimo 5 minutos a ~90 °C ou fritar pelo menos 10 minutos',
                 'Coloque em água já a ferver ou numa frigideira bem aquecida',
-                'As conchas abriram — está pronto; se não abriram — deite fora, não coma',
+                'As conchas abriram — está pronto; as que não abriram — deite fora, não coma',
                 'Clássico: Ameijoas à Bulhão Pato — vinho branco, alho, coentros',
                 'Carne de porco com ameijoas — clássico do Alentejo'
               ] }
             ]
           }
         ] },
-        { kind: 'warning', text: 'NUNCA coma crus se a zona não for de classe A. As biotoxinas (PSP, ASP, DSP) não são destruídas pela cozedura; o tratamento térmico mata bactérias, mas não toxinas. Se houver agora um pico de toxinas — mesmo moluscos cozidos podem ser perigosos. Confirme sempre com o IPMA.' }
+        { kind: 'warning', text: 'NUNCA coma crus se a zona não for classe A. As biotoxinas (PSP, ASP, DSP) não são destruídas pela cozedura; o tratamento térmico mata bactérias, mas não toxinas. Se houver neste momento um pico de toxinas, mesmo os moluscos cozinhados podem ser perigosos. Consulte sempre o IPMA.' }
       ]
     },
     {
       id: 'enforcement',
-      title: 'Quem fiscaliza e que coimas existem',
+      title: 'Quem fiscaliza e quais são as coimas',
       content: [
         { kind: 'checklist', items: [
           'Polícia Marítima — nas praias e nos estuários',
-          'GNR-SEPNA (Guarda Nacional Republicana, serviço de proteção da natureza) — nos parques naturais',
+          'GNR-SEPNA (Guarda Nacional Republicana, serviço de proteção da natureza) — em parques naturais',
           'Capitania — nos portos',
           'ASAE (Autoridade de Segurança Alimentar e Económica) verifica restaurantes e vendedores quanto à origem dos bivalves'
         ] },
@@ -157,9 +157,9 @@ export default {
           'Sem licença: 100–500 € + apreensão da captura e do instrumento',
           'Apanha em zona PROIBIDO: 250–1500 €',
           'Tamanho abaixo do mínimo: 100–300 € por cada infração',
-          'Exceder o limite diário: 100–500 €',
+          'Excesso do limite diário: 100–500 €',
           'Instrumentos proibidos (bomba, pá): até 1500 €',
-          'Tentativa de vender o que foi apanhado: 500–3000 € + procedimento criminal em caso de reincidência',
+          'Tentativa de venda do que foi apanhado: 500–3000 € + procedimento criminal em caso de reincidência',
           'Apanha de percebes sem licença: até 1500 € (especialmente rigoroso na Costa Vicentina)'
         ] }
       ]
@@ -181,6 +181,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica e Apanha', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 27/2001 — tamanho mínimo por espécie', url: 'https://dre.pt/dre/detalhe/portaria/27-2001-411720', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

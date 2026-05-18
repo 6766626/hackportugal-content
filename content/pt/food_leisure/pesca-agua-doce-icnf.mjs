@@ -3,7 +3,7 @@ export default {
   id: 'pesca-agua-doce-icnf',
   categoryId: 'food_leisure',
   title: 'Pesca em água doce — licença ICNF (Instituto da Conservação da Natureza e das Florestas)',
-  tldr: 'A pesca em rios, albufeiras e lagos de Portugal continental é regulada pelo ICNF (Instituto da Conservação da Natureza e das Florestas), não pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos). A licença é obtida online em icnf.pt → e-Balcão ou através da aplicação SI ICNF por ~5-15 €. Categorias principais: pesca lúdica (desportiva); pesca de salmonídeos (truta, salmão — licença própria e épocas específicas); pesca em zonas concessionadas (zonas especiais com pagamento adicional). Existem períodos de defeso por espécie: truta — aproximadamente novembro–março, salmão — proibido quase todo o ano, salvo eventos raros. Limite diário: 8 peixes para truta e até 30 para a maioria das restantes espécies.',
+  tldr: 'A pesca em rios, albufeiras e lagos de Portugal continental é regulada pelo ICNF (Instituto da Conservação da Natureza e das Florestas), e não pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos).\n\nA licença é obtida online em icnf.pt → e-Balcão ou através da aplicação SI ICNF por cerca de 5-15 €. As principais categorias são: pesca lúdica (desportiva); pesca de salmonídeos (truta, salmão — licença separada e épocas próprias); pesca em zonas concessionadas (zonas especiais com pagamento adicional).\n\nAplicam-se períodos de defeso por espécie: truta — aproximadamente novembro–março, salmão — proibido durante quase todo o ano, salvo eventos raros. Limite diário: 8 peixes para truta e até 30 para a maioria das restantes espécies.',
   tags: ['pesca', 'pesca', 'icnf', 'rio', 'água-doce'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,15 +11,15 @@ export default {
       id: 'who-regulates',
       title: 'ICNF, não DGRM — porque é importante',
       content: [
-        { kind: 'paragraph', text: 'Em Portugal há dois reguladores para a pesca lúdica. Muitas vezes, os principiantes confundem:' },
+        { kind: 'paragraph', text: 'Em Portugal existem dois reguladores para a pesca lúdica. Muitas vezes, os principiantes confundem-nos:' },
         { kind: 'checklist', items: [
-          'ICNF: rios, albufeiras, lagos, ribeiras no continente. Toda a água doce',
+          'ICNF: rios, albufeiras, lagos e ribeiros no continente. Toda a água doce',
           'DGRM: mar, estuários até ao limite das águas marítimas, lagoas ligadas ao mar (Ria Formosa, Lagoa de Óbidos)',
           'A licença de uma entidade não é válida na outra',
-          'Em zonas de fronteira (por exemplo, Tejo em Lisboa acima de Vila Franca de Xira) — é água doce, é necessária licença ICNF',
+          'Em zonas de fronteira (por exemplo, o Tejo em Lisboa a montante de Vila Franca de Xira) — é água doce, é necessária licença ICNF',
           'Açores e Madeira têm regras próprias — é um tema à parte'
         ] },
-        { kind: 'warning', text: 'Se você pesca com spinning a partir de uma ponte sobre o Mondego em Coimbra com uma licença marítima da DGRM — isso é ilegal. E o inverso também: a licença ICNF não cobre a pesca no porto de Cascais.' }
+        { kind: 'warning', text: 'Se pescar à amostra a partir de uma ponte sobre o Mondego em Coimbra com uma licença marítima da DGRM — isso é ilegal. E vice-versa: a licença ICNF não cobre a pesca no porto de Cascais.' }
       ]
     },
     {
@@ -27,12 +27,12 @@ export default {
       title: 'Categorias de licenças — o que escolher',
       content: [
         { kind: 'checklist', items: [
-          'Pesca lúdica (desportiva): a maioria das espécies de água doce (achigã, lúcio, barbos, bordalo, ruivaca, pimpão). Em 95% dos casos — é a opção certa',
+          'Pesca lúdica (desportiva): a maioria das espécies de água doce (achigã, lúcio, barbos, bordalo, ruivaca, pimpão). Em 95% dos casos — é a sua opção',
           'Pesca de salmonídeos: truta e salmão. Licença separada e prazos próprios',
-          'Pesca em zonas concessionadas: zonas especialmente delimitadas, pagamento adicional além da licença normal. Muitas vezes são os melhores locais',
+          'Pesca em zonas concessionadas: zonas especialmente delimitadas, com pagamento adicional além da licença normal. Muitas vezes são os melhores locais',
           'Lagoa de Albufeira e albufeiras: normalmente aplicam-se as mesmas regras — pesca lúdica. Mas algumas albufeiras podem ter condições especiais'
         ] },
-        { kind: 'paragraph', text: 'Validade das licenças (normalmente):' },
+        { kind: 'paragraph', text: 'Validade das licenças (tipicamente):' },
         { kind: 'checklist', items: [
           '1 dia: ~3 €',
           '8 dias: ~5 €',
@@ -49,16 +49,16 @@ export default {
         { kind: 'substeps', items: [
           {
             id: 's1',
-            title: 'Aceda a icnf.pt → e-Balcão',
+            title: 'Entre em icnf.pt → e-Balcão',
             content: [
-              { kind: 'paragraph', text: 'icnf.pt → secção Cidadão → Caça e Pesca → Pesca em águas interiores. Aí também encontrará a ligação para o portal online e-Balcão.' }
+              { kind: 'paragraph', text: 'icnf.pt → secção Cidadão → Caça e Pesca → Pesca em águas interiores. Aí encontrará também a ligação para o portal online e-Balcão.' }
             ]
           },
           {
             id: 's2',
-            title: 'Autenticação por CMD ou CC',
+            title: 'Autenticação através de CMD ou CC',
             content: [
-              { kind: 'paragraph', text: 'Chave Móvel Digital (CMD, chave digital) — é o método mais rápido. A alternativa é o Cartão de Cidadão (cartão de cidadão) com leitor. Sem CMD/CC, o registo com NIF (número fiscal) + e-mail também funciona, mas demora mais.' }
+              { kind: 'paragraph', text: 'Chave Móvel Digital (CMD) — é a forma mais rápida. A alternativa é o Cartão de Cidadão (CC) com leitor. Sem CMD/CC, o registo com NIF + e-mail também funciona, mas demora mais.' }
             ]
           },
           {
@@ -68,14 +68,14 @@ export default {
               { kind: 'checklist', items: [
                 'Tipo: pesca lúdica ou salmonídeos',
                 'Região: por defeito, Portugal continental',
-                'Prazo de validade: 1 dia / 8 dias / mês / 6 meses / ano',
-                'Opções especiais: lagoas/zonas concessionadas (se tencionar pescar aí)'
+                'Validade: 1 dia / 8 dias / mês / 6 meses / ano',
+                'Opções especiais: lagoas/zonas concessionadas (se tenciona pescar aí)'
               ] }
             ]
           },
           {
             id: 's4',
-            title: 'Pagamento e receção do PDF',
+            title: 'Pagamento e obtenção do PDF',
             content: [
               { kind: 'paragraph', text: 'Multibanco, MB WAY, cartão bancário. Após o pagamento, receberá um PDF por e-mail e na área pessoal. Guarde-o e leve-o consigo.' }
             ]
@@ -85,18 +85,18 @@ export default {
     },
     {
       id: 'rules-limits',
-      title: 'Regras e épocas (período de defeso)',
+      title: 'Regras e épocas (defeso)',
       content: [
-        { kind: 'paragraph', text: 'As épocas e os períodos de defeso em água doce são geralmente mais rigorosos do que no mar:' },
+        { kind: 'paragraph', text: 'As épocas e o defeso em água doce são normalmente mais rigorosos do que no mar:' },
         { kind: 'checklist', items: [
-          'Truta: a época é normalmente março–outubro; em novembro–fevereiro há proibição (proteção da desova)',
-          'Salmão: proibido quase todo o ano, salvo eventos tradicionais raros; no Minho — regime especial',
-          'Achigã e lúcio: muitas vezes permitidos durante todo o ano, mas pode haver restrições na época de reprodução',
-          'Barbo e bordalo: em regra, permitidos durante grande parte do ano',
+          'Truta: a época é geralmente de março a outubro; em novembro–fevereiro há proibição (proteção da desova)',
+          'Salmão: proibido durante quase todo o ano, salvo raros eventos tradicionais; no Minho — regime especial',
+          'Achigã e lúcio: muitas vezes permitidos durante todo o ano, mas podem existir restrições na época de reprodução',
+          'Barbo e bordalo: regra geral, permitidos durante a maior parte do ano',
           'Carpa e pimpão: permitidos, considerados espécies de menor valor',
-          'Lampreia: época de inverno, com restrições especiais e quotas',
+          'Lampreia: época de inverno, com restrições e quotas especiais',
           'Sável: na primavera, fortemente regulado',
-          'Lagostim-vermelho-da-luisiana: espécie invasora, pode ser capturado durante todo o ano'
+          'Lagostim-vermelho-do-luisiana: espécie invasora, pode ser capturado durante todo o ano'
         ] },
         { kind: 'paragraph', text: 'Limite diário:' },
         { kind: 'checklist', items: [
@@ -105,7 +105,7 @@ export default {
           'Lúcio: até 3 por dia, tamanho mínimo 35 cm',
           'Barbo: até 30 peixes',
           'Carpa: até 30 peixes',
-          'Limite total acumulado: não mais de 30 peixes de espécies autorizadas por dia'
+          'Limite total acumulado: não mais de 30 peixes de espécies permitidas por dia'
         ] },
         { kind: 'warning', text: 'As épocas e os limites mudam por portarias. Dados atualizados — em icnf.pt e na aplicação SI ICNF (para iPhone e Android).' }
       ]
@@ -115,14 +115,14 @@ export default {
       title: 'Onde pescar bem em água doce',
       content: [
         { kind: 'checklist', items: [
-          'Rio Mondego (Coimbra e para montante): truta, achigã, barbo',
+          'Rio Mondego (Coimbra e a montante): truta, achigã, barbo',
           'Rio Zêzere e albufeiras de Castelo do Bode, Cabril: achigã e lúcio de nível mundial',
           'Rio Minho na fronteira com Espanha: salmão (com autorizações especiais), sável',
           'Rio Lima: truta, lampreia',
-          'Rio Tejo acima de Lisboa: barbos e achigã',
+          'Rio Tejo a montante de Lisboa: barbos e achigã',
           'Rio Guadiana e Alqueva (a maior albufeira da Europa): excelente pesca de achigã',
           'Albufeiras: Aguieira, Castelo de Bode, Idanha — a pesca é permitida em quase todo o lado',
-          'Lagoas nos Açores: Furnas, Sete Cidades — truta-de-rio selvagem'
+          'Lagoas nos Açores: Furnas, Sete Cidades — truta-fário selvagem'
         ] },
         { kind: 'paragraph', text: 'Zonas concessionadas (pagas) — muitas vezes são os melhores locais: Penacova, Foz do Sousa, vários troços no Mondego. Pagamento adicional de ~10 € além da licença normal por dia.' }
       ]
@@ -137,9 +137,9 @@ export default {
           'Polícia Florestal — em parques nacionais'
         ] },
         { kind: 'checklist', items: [
-          'Sem licença: 100-500 € + apreensão do material',
-          'Exceder o limite diário: até 500 €',
-          'Peixe abaixo do tamanho mínimo: 100-250 € por cada um',
+          'Sem licença: 100-500 € + apreensão das artes de pesca',
+          'Excesso do limite diário: até 500 €',
+          'Peixe abaixo do tamanho mínimo: 100-250 € por cada',
           'Pesca em período de defeso: até 1 000 €',
           'Métodos proibidos (redes, veneno, etc.): procedimento criminal'
         ] }
@@ -153,7 +153,7 @@ export default {
     { label: 'Licença 6 meses', amountEUR: 15 },
     { label: 'Licença 1 ano', amountEUR: 25 },
     { label: 'Zona concessionada — dia', amountEURMin: 5, amountEURMax: 15, note: 'Além da licença normal' },
-    { label: 'Conjunto básico de pesca à bóia', amountEURMin: 50, amountEURMax: 120 }
+    { label: 'Conjunto básico de pesca à boia', amountEURMin: 50, amountEURMax: 120 }
   ],
   sources: [
     { title: 'ICNF — Pesca em águas interiores', url: 'https://www.icnf.pt/cacaepesca', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
@@ -161,6 +161,6 @@ export default {
     { title: 'Decreto-Lei 112/2017 — regime Pesca em Águas Interiores', url: 'https://dre.pt/dre/detalhe/decreto-lei/112-2017-108128620', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR SEPNA — polícia ambiental', url: 'https://www.gnr.pt/sepna.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

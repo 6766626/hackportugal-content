@@ -3,7 +3,7 @@ export default {
   id: 'surfing-beaches',
   categoryId: 'food_leisure',
   title: 'Surf em Portugal — escolas, praias, épocas',
-  tldr: 'Portugal é uma capital mundial do surf. Nazaré — recordes das maiores ondas (30+ m). Ericeira — a única World Surf Reserve da Europa. Peniche, Sagres, Aljezur — spots lendários. Escolas a partir de 30-60 €/aula + 15-25 € aluguer, camp completo de fim de semana ~150-350 €. Pico da época: Setembro-Abril para ondas grandes, Maio-Agosto para principiantes. Qualquer nível — de principiante a classe mundial.',
+  tldr: 'Portugal é uma capital mundial do surf. Nazaré — recordes das maiores ondas (30+ m)\\.\n\nEriceira — a única World Surf Reserve na Europa. Peniche, Sagres, Aljezur — spots lendários. Escolas desde 30-60 €/aula + 15-25 € de aluguer, um camp completo de fim de semana ~150-350 €. Pico da época: setembro-abril para ondas grandes, maio-agosto para principiantes. Qualquer nível — de principiante a classe mundial.',
   tags: ['surf', 'surf', 'nazaré', 'ericeira'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,29 +14,29 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: 'Nazaré — capital das ondas grandes', content: [
             { kind: 'checklist', items: [
-              '**Praia do Norte** — ondas gigantes no Inverno, até 30 m',
+              '**Praia do Norte** — ondas gigantes no inverno, até 30 m',
               'Recordes mundiais: Garrett McNamara, Sebastian Steudtner',
               '**Apenas para especialistas** — com equipa de salvamento',
               'Os turistas observam a partir do **Forte de São Miguel Arcanjo** — farol + vista',
-              'Época: Novembro-Fevereiro',
-              'Os eventos WSL/Nazaré big-wave decorrem no waiting period de Inverno e apenas com swell adequado; as datas devem ser verificadas no site da WSL e junto do Município da Nazaré'
+              'Época: novembro-fevereiro',
+              'Os eventos WSL/Nazaré de ondas grandes decorrem no waiting period de inverno e apenas com swell adequado; as datas devem ser verificadas no site da WSL e junto do Município da Nazaré'
             ]}
           ]},
           { id: 's2', title: 'Ericeira — World Surf Reserve', content: [
             { kind: 'checklist', items: [
-              'cerca de 8 km de costa e 7 ondas de classe mundial oficialmente reconhecidas',
-              '**Ribeira d\'Ilhas** — reef/point break direito e comprido, frequentemente usado para competições; adequado a intermediate+ em condições normais',
+              'cerca de 8 km de costa e 7 world-class waves oficialmente reconhecidas',
+              '**Ribeira d\'Ilhas** — reef/point break direito longo, frequentemente usado para competições; adequado a intermediate+ em condições normais',
               '**Coxos** — para avançados, reef break',
               '**Foz do Lizandro** — beach break para nível intermédio',
-              '**São Lourenço** — powerful right-hand reef/point, mais para intermediate/advanced; para principiantes é melhor Foz do Lizandro / São Julião / Praia do Sul com escola',
-              'A única World Surf Reserve da Europa',
-              'Onde ficar: casas de hóspedes 40-80 €/noite, aluguer por semana 200-400 €',
-              'cerca de 45–60 minutos de carro a partir de Lisboa, mais tempo na hora de ponta'
+              '**São Lourenço** — powerful right-hand reef/point, mais intermediate/advanced; para principiantes é melhor Foz do Lizandro / São Julião / Praia do Sul com escola',
+              'A única World Surf Reserve na Europa',
+              'Onde ficar: guesthouses 40-80 €/noite, arrendamento por semana 200-400 €',
+              'aproximadamente 45–60 minutos de carro a partir de Lisboa, mais tempo em hora de ponta'
             ]}
           ]},
           { id: 's3', title: 'Peniche — swell consistente', content: [
             { kind: 'checklist', items: [
-              '**Supertubos** — outro spot WSL, ondas com qualidade de Pipeline',
+              '**Supertubos** — outro spot WSL, ondas de qualidade Pipeline',
               '**Baleal** — península com beach breaks para todos os níveis',
               '**Cantinho da Baía** — baía abrigada para principiantes',
               'Mais cafés / hostels / escolas de surf do que na Ericeira',
@@ -46,10 +46,10 @@ export default {
           { id: 's4', title: 'Sagres / Aljezur — sudoeste', content: [
             { kind: 'checklist', items: [
               '**Praia do Amado** — beach break lendário',
-              '**Arrifana** — poderoso reef + beach break',
-              '**Carrapateira** — praia exposta, para ondas grandes',
+              '**Arrifana** — reef + beach break potente',
+              '**Carrapateira** — praia aberta, para ondas grandes',
               '**Castelejo, Cordoama, Barriga** — praias selvagens, pouca gente',
-              'O offshore depende da orientação da praia: west coast costuma ser melhor com E/NE winds, south coast — com N/NW; verifique Windguru/Surfline para o spot específico',
+              'O offshore depende da orientação da praia: a west coast é normalmente melhor com E/NE winds, a south coast — com N/NW; consulte Windguru/Surfline para o spot específico',
               '3 horas de Lisboa, mais perto do aeroporto de Faro'
             ]}
           ]},
@@ -57,9 +57,9 @@ export default {
             { kind: 'checklist', items: [
               '**Matosinhos** — beach break urbano, para principiantes',
               '**Vila Chã, Miramar** — condições consistentes',
-              '**Espinho** — um pouco mais a sul, ondas mais compridas',
+              '**Espinho** — um pouco mais a sul, ondas mais longas',
               '**Viana do Castelo** — point breaks avançados',
-              'Água mais fria, fato 4/3 mesmo no Verão'
+              'Água mais fria, fato 4/3 mesmo no verão'
             ]}
           ]}
         ]}
@@ -88,8 +88,8 @@ export default {
               '**Chill in Ericeira** — opção económica',
               '**Nazaré Surf School** — para principiantes e nível intermédio, não para ondas grandes',
               '**WaterRats Sagres**, **Future Surf School** (Algarve)',
-              '**Surfivor Portugal** — camps em diferentes localizações',
-              '⚠️ Verificar FPS/qualified instructor, existência de seguro, rescue plan, ratio do grupo, escola/operador legal e condições da aula na praia'
+              '**Surfivor Portugal** — camps em várias localizações',
+              '⚠️ Verificar FPS/instrutor qualificado, existência de seguro, rescue plan, rácio do grupo, escola/operador legal e condições da aula na praia'
             ]}
           ]},
           { id: 'sc3', title: 'O que está incluído', content: [
@@ -97,8 +97,8 @@ export default {
               'Prancha (soft-top para principiantes, rígida para avançados)',
               'Fato (4/3 para água fria, 3/2 para água quente)',
               'Instrutor',
-              'Sessão fotográfica (por vezes suplemento de 10-20 €)',
-              'Transfer do hostel (em algumas escolas)',
+              'Fotografia (por vezes suplemento de 10-20 €)',
+              'Transfer a partir do hostel (em algumas escolas)',
               'Seguro — verificar (normalmente incluído no preço)',
               'Almoço — nos camps de fim de semana'
             ]}
@@ -114,8 +114,8 @@ export default {
           '🌨️ **Novembro-Março**: swell grande, ondas de 2-6 m. Apenas para profissionais. Água fria 14-16°C, fato 4/3',
           '🌼 **Abril-Maio**: ideal para nível intermédio, 1-2,5 m. Água 15-17°C',
           '☀️ **Junho-Agosto**: melhor para principiantes, ondas pequenas 0,5-1,5 m. Água 17-20°C, 3/2 full suit; em dias quentes no sul pode ser possível usar shorty, mas na west coast a água é frequentemente fria devido ao upwelling',
-          '🍂 **Setembro-Outubro**: excelentes condições — swell consistente + água quente. Melhor época no geral',
-          '💨 **Vento**: de manhã normalmente offshore (bom), depois das 14:00 onshore (as ondas ficam irregulares)',
+          '🍂 **Setembro-Outubro**: condições excelentes — swell consistente + água quente. A melhor época no geral',
+          '💨 **Vento**: de manhã é normalmente offshore (bom), depois das 14:00 onshore (as ondas ficam desordenadas)',
           '📱 **Verificação das condições**: Windguru, Surf-Forecast, Surfline, previsão marítima do IPMA; verificar de manhã e com 24–48 horas de antecedência'
         ]}
       ]
@@ -136,9 +136,9 @@ export default {
           ]},
           { id: 'b2', title: 'Fato', content: [
             { kind: 'checklist', items: [
-              '**3/2 mm** (Verão): 150-250 €',
+              '**3/2 mm** (verão): 150-250 €',
               '**4/3 mm** (todo o ano): 200-350 €',
-              '**5/4 mm** (Inverno): 250-450 €',
+              '**5/4 mm** (inverno): 250-450 €',
               'Marcas: Patagonia, O\'Neill, Billabong, Quiksilver',
               'Marcas menos conhecidas também têm qualidade — por 2/3 do preço'
             ]}
@@ -160,12 +160,12 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '**FPS** (Federação Portuguesa de Surf) — federação, licença para competições',
-          '**WSL events**: MEO Rip Curl Pro Portugal em Peniche — datas segundo o calendário WSL; Nazaré big-wave/tow events — waiting period de Inverno, a realização depende do swell',
+          '**WSL events**: MEO Rip Curl Pro Portugal em Peniche — datas segundo o calendário WSL; Nazaré big-wave/tow events — waiting period de inverno, a realização depende do swell',
           '**Clubes locais**: Ericeira Surf Clube, Peniche Surf Clube, Nazaré Surf Clube',
-          '**Liga MEO Surf** — liga competitiva nacional; para amadores, procurar local club contests, school competitions e beach events municipais',
-          'Redes sociais: @visitericeira e outras — verifique os handles actuais',
+          '**Liga MEO Surf** — liga competitiva nacional; para amadores, procurar local club contests, school competitions e eventos de praia municipais',
+          'Redes sociais: @visitericeira e outras — verifique handles atualizados',
           '**Surf/outdoor events** mudam de ano para ano; verifique a agenda municipal de Cascais/Ericeira/Peniche e o calendário da FPS',
-          '**Eventos locais de surf/music** mudam todas as épocas; verifique as agendas dos municípios de Peniche, Mafra/Ericeira e Nazaré'
+          '**Eventos locais de surf/music** mudam a cada época; verifique as agendas dos municípios de Peniche, Mafra/Ericeira e Nazaré'
         ]}
       ]
     }
@@ -183,6 +183,6 @@ export default {
     { title: 'WSR Ericeira — World Surf Reserve', url: 'https://www.ericeirawsr.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Portugal — Surf', url: 'https://www.visitportugal.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

@@ -3,32 +3,32 @@ export default {
   id: 'algarve-living',
   categoryId: 'travel_portugal',
   title: 'The Algarve for expats — life by the sea',
-  tldr: 'The southern coast. Sunny 300 days a year, +18–28°C all year round. Faro is the main city and airport. Popular places to live: Tavira (authentic), Lagos (active), Albufeira (touristy), Portimão (practical). Seasonality: in summer prices are 3 times higher, in winter it is empty. International community, English is enough.',
+  tldr: 'Southern coast. Sunny 300 days a year, +18–28°C all year round. Faro is the main city and airport. Popular places to live: Tavira (authentic), Lagos (active), Albufeira (touristy), Portimão (practical).\n\nSeasonality: in summer prices are 3 times higher, in winter it is empty. International community, English is enough.',
   tags: ['algarve', 'faro', 'sea', 'retirement'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'cities',
-      title: 'Main towns and cities',
+      title: 'Main cities',
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Faro', content: [
-            { kind: 'paragraph', text: 'The regional capital. Airport, university, public offices. Picturesque old town. Less touristy than the others. T1 €700–1,100.' }
+            { kind: 'paragraph', text: 'Regional capital. Airport, university, government offices. Picturesque old town. Less touristy than the others. T1 €700–1,100.' }
           ]},
           { id: 'c2', title: 'Tavira', content: [
             { kind: 'paragraph', text: 'The most authentic — traditional fishing streets, bridges, salt lagoons. Quieter. T1 €600–1,000.' }
           ]},
           { id: 'c3', title: 'Lagos', content: [
-            { kind: 'paragraph', text: 'Western Algarve. Active town, young people, surfing. Clubs. T1 €800–1,300.' }
+            { kind: 'paragraph', text: 'Western Algarve. Active city, young people, surfing. Clubs. T1 €800–1,300.' }
           ]},
           { id: 'c4', title: 'Albufeira', content: [
-            { kind: 'paragraph', text: 'The tourist capital. Crowds of Britons in summer. For family holidays. T1 €700–1,200 out of season.' }
+            { kind: 'paragraph', text: 'Tourist capital. Crowds of British people in summer. For family holidays. T1 €700–1,200 out of season.' }
           ]},
           { id: 'c5', title: 'Portimão', content: [
-            { kind: 'paragraph', text: 'A large, practical city. Hospitals, schools, Continente, everything nearby. Many expats. T1 €700–1,100.' }
+            { kind: 'paragraph', text: 'Large, practical city. Hospitals, schools, Continente, everything nearby. Many expats. T1 €700–1,100.' }
           ]},
           { id: 'c6', title: 'Sagres / Vila do Bispo', content: [
-            { kind: 'paragraph', text: 'The far west. Wild nature, surfing. Remote. T1 €500–800 in villages.' }
+            { kind: 'paragraph', text: 'Far west. Wild nature, surfing. Remote. T1 €500–800 in villages.' }
           ]}
         ]}
       ]
@@ -40,11 +40,11 @@ export default {
         { kind: 'checklist', items: [
           'Climate: 300 days of sunshine, mild winter +15–18°C',
           'Beaches: among the best in Europe',
-          'International community — Britons, Germans, Scandinavians, Russian speakers',
+          'International community — British, Germans, Scandinavians, Russian speakers',
           'English is available everywhere — easy in the first year',
           'Less bureaucracy in smaller towns',
           'World-class golf courses',
-          'Healthcare: good-quality private clinics (HPA Health Group)',
+          'Healthcare: good private clinics (HPA Health Group)',
           'Rent is cheaper than in Lisbon',
           'Cheap domestic flights Lisbon — Faro'
         ]}
@@ -56,22 +56,22 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Seasonality: in summer rent is 3 times more expensive, restaurants are overcrowded',
-          'In winter many establishments are closed (especially in small towns)',
-          'There is little work — everything is geared towards tourism and retirees',
+          'In winter many places are closed (especially in small towns)',
+          'Little work — everything is geared towards tourism and retirees',
           'Far from Lisbon (3 h by train / 2.5 h by car)',
           'If it is “English only” — integration is weaker, less Portuguese culture',
           'Children’s education: fewer international schools than in Lisbon/Porto',
-          'Healthcare: SNS hospital in Faro, but complex operations are in Lisbon'
+          'Healthcare: SNS hospital in Faro, but complex surgery is in Lisbon'
         ]}
       ]
     },
     {
       id: 'who-for',
-      title: 'Who it is for',
+      title: 'Who it suits',
       content: [
         { kind: 'checklist', items: [
           '👴 D7 retirees — ideal',
-          '💻 D8 digital nomads — excellent for summer, but it may be quiet in winter',
+          '💻 D8 digital nomads — excellent for summer, but it can be quiet in winter',
           '👨‍👩‍👧 Families with children — good if there is an international school nearby',
           '🏄 Surfers — western Algarve (Lagos, Sagres)',
           '🏌️ Golfers — Vilamoura, Vale do Lobo',
@@ -84,10 +84,10 @@ export default {
       title: 'Logistics',
       content: [
         { kind: 'checklist', items: [
-          '✈️ Faro Airport: Ryanair / EasyJet / TAP — direct flights to the UK/Germany/Netherlands/France',
+          '✈️ Faro Airport: Ryanair / EasyJet / TAP — direct flights to the United Kingdom/Germany/Netherlands/France',
           '🚆 CP: Faro ↔ Lisbon AP 3 h €30–40, IC 3 h 40 min €23',
           '🚌 Rede Expressos / FlixBus: the same 3–3.5 h, €20–30',
-          '🚗 A car is almost essential for living outside towns and cities — distances',
+          '🚗 A car is almost essential for life outside the cities — distances',
           '🏥 HPA Faro / Lusíadas Algarve / Luz Saúde — private clinics',
           '🏫 Nobel International, Prime School, International School of the Algarve — for children',
           '🛒 Continente, Pingo Doce, Lidl, Aldi, Jumbo — everywhere'
@@ -100,6 +100,6 @@ export default {
     { title: 'CCDR Algarve — regional administration', url: 'https://www.ccdr-alg.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMAL — association of Algarve municipalities', url: 'https://www.amal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

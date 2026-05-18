@@ -3,7 +3,7 @@ export default {
   id: 'lisboa-wifi-gratis-municipal',
   categoryId: 'telecom',
   title: 'Wi‑Fi gratuito em Lisboa e no Porto: Lisboa WiFi Plus',
-  tldr: 'Em Lisboa funciona a rede municipal Lisboa WiFi Plus: mais de 300 pontos em espaços públicos da CML — praças, jardins, bibliotecas, mercados, Estação Oriente e zonas turísticas. No Porto existe o Porto WiFi: cerca de 35 hotspots no centro e em espaços municipais. A ligação normalmente não exige registo: escolher a rede, abrir o captive portal e aceitar as condições. As sessões são frequentemente limitadas a 60 minutos; depois, é possível voltar a ligar. Para bancos, Finanças, AIMA e acessos de trabalho, use uma VPN ou internet móvel.',
+  tldr: 'Em Lisboa funciona a rede municipal Lisboa WiFi Plus: mais de 300 pontos em espaços públicos da CML — praças, jardins, bibliotecas, mercados, Estação Oriente e zonas turísticas.\n\nNo Porto existe o Porto WiFi: cerca de 35 hotspots no centro e em locais municipais. A ligação normalmente não exige registo: escolher a rede, abrir o captive portal, aceitar os termos. As sessões são frequentemente limitadas a 60 minutos; depois pode voltar a ligar-se. Para bancos, Finanças, AIMA e logins de trabalho, use VPN ou internet móvel.',
   tags: ['wifi', 'lisboa', 'porto', 'telecomunicações'],
   estimatedReadMinutes: 4,
   steps: [
@@ -15,11 +15,11 @@ export default {
         { kind: 'paragraph', text: 'No Porto, a rede urbana equivalente chama-se Porto WiFi. Segundo a Câmara Municipal do Porto, estão disponíveis cerca de 35 hotspots em locais públicos essenciais da cidade.' },
         { kind: 'checklist', items: [
           'Preço: 0 €',
-          'Não é necessário cartão SIM',
-          'Normalmente não é necessário número de telefone português',
+          'Não precisa de cartão SIM',
+          'Normalmente não precisa de número de telefone português',
           'Normalmente não é necessário registar uma conta',
-          'Funciona através de captive portal — uma página de entrada no navegador',
-          'A sessão dura frequentemente até 60 minutos; depois da quebra, é possível ligar novamente',
+          'Funciona através de captive portal — uma página de início de sessão no navegador',
+          'A sessão dura frequentemente até 60 minutos; depois da quebra pode voltar a ligar-se',
           'A velocidade depende do local, da hora do dia e do número de pessoas',
           'É Wi‑Fi público: não o use como internet principal em casa'
         ] }
@@ -27,26 +27,26 @@ export default {
     },
     {
       id: 'connect-lisbon',
-      title: 'Como ligar em Lisboa 📶',
+      title: 'Como ligar-se em Lisboa 📶',
       content: [
         { kind: 'paragraph', text: 'Na zona de cobertura, abra a lista de redes Wi‑Fi no telemóvel ou portátil e escolha a rede Lisboa WiFi Plus. O nome pode aparecer com pequenas variações, mas deve indicar claramente Lisboa WiFi.' },
         { kind: 'checklist', items: [
-          'Ative o Wi‑Fi e escolha Lisboa WiFi Plus',
-          'Aguarde a abertura automática do captive portal',
+          'Active o Wi‑Fi e escolha Lisboa WiFi Plus',
+          'Aguarde que o captive portal abra automaticamente',
           'Se a página não abrir — aceda a qualquer site HTTP, por exemplo neverssl.com',
           'Aceite os termos e condições / condições de utilização',
-          'Não introduza NIF, NISS, dados bancários ou a palavra-passe do e-mail — para o acesso normal isto não é necessário',
+          'Não introduza NIF, NISS, dados bancários ou a palavra-passe do e-mail — para o acesso normal isso não é necessário',
           'Após 60 minutos, se a ligação cair, repita o acesso através do portal',
-          'Se a rede estiver «ligada sem internet», desligue a VPN no momento de entrada no captive portal e depois volte a ligá-la'
+          'Se a rede aparecer como “ligada sem internet”, desligue a VPN no momento de entrada no captive portal e depois volte a ligá-la'
         ] },
-        { kind: 'warning', text: 'Não confunda o Wi‑Fi municipal com redes parecidas em cafés, hotéis e centros comerciais. Se o portal pedir pagamento, número de cartão ou instalação de uma aplicação — não é o Lisboa WiFi Plus normal.' }
+        { kind: 'warning', text: 'Não confunda o Wi‑Fi municipal com redes semelhantes em cafés, hotéis e centros comerciais. Se o portal pedir pagamento, número de cartão ou instalação de uma aplicação — não é o Lisboa WiFi Plus padrão.' }
       ]
     },
     {
       id: 'where-lisbon',
       title: 'Onde procurar Lisboa WiFi Plus',
       content: [
-        { kind: 'paragraph', text: 'A rede tem melhor receção em pontos municipais e turísticos. Dentro de edifícios antigos com paredes grossas, o sinal pode cair bruscamente mesmo a 20–30 metros do ponto de acesso.' },
+        { kind: 'paragraph', text: 'A rede capta-se melhor em pontos municipais e turísticos. Dentro de edifícios antigos com paredes grossas, o sinal pode cair acentuadamente mesmo a 20–30 metros do ponto de acesso.' },
         { kind: 'checklist', items: [
           'Praças e largos no centro de Lisboa',
           'Jardins e miradouros com infraestrutura municipal',
@@ -56,21 +56,21 @@ export default {
           'Percursos turísticos da Baixa, Chiado, Belém, Parque das Nações',
           'Paragens e praças junto a equipamentos da Câmara Municipal de Lisboa'
         ] },
-        { kind: 'paragraph', text: 'Para encontrar o ponto mais próximo, use o site da Câmara Municipal de Lisboa ou simplesmente verifique a lista de redes no local: a rede municipal costuma aparecer dentro do raio de cobertura sem aplicações adicionais.' }
+        { kind: 'paragraph', text: 'Para encontrar o ponto mais próximo, use o site da Câmara Municipal de Lisboa ou simplesmente verifique a lista de redes no local: a rede municipal normalmente aparece no raio de cobertura sem aplicações adicionais.' }
       ]
     },
     {
       id: 'porto-wifi',
       title: 'Porto WiFi: como funciona no Porto',
       content: [
-        { kind: 'paragraph', text: 'Porto WiFi é a rede gratuita da Câmara Municipal do Porto. É mais pequena do que a de Lisboa: como referência, cerca de 35 hotspots, sobretudo em locais públicos centrais e municipais.' },
+        { kind: 'paragraph', text: 'Porto WiFi é a rede gratuita da Câmara Municipal do Porto. É menor do que a de Lisboa: a referência é cerca de 35 hotspots, sobretudo em locais públicos centrais e municipais.' },
         { kind: 'checklist', items: [
           'Escolha a rede Porto WiFi',
           'Abra o captive portal no navegador',
           'Aceite as condições de utilização',
           'Não é necessário comprar um tarifário nem introduzir dados do cartão bancário',
           'Se o portal não abrir, desligue o Private Relay / VPN / bloqueador de DNS durante o acesso',
-          'Depois de a sessão terminar, ligue-se novamente',
+          'Depois de a sessão terminar, volte a ligar-se',
           'Para uma videochamada estável, é melhor ter uma alternativa: eSIM, tarifário móvel ou Wi‑Fi num coworking'
         ] },
         { kind: 'paragraph', text: 'No Porto, a rede é útil para mapas, mensagens, pesquisa de percursos STCP/Metro do Porto e tarefas rápidas. Para trabalho remoto durante várias horas, é melhor usar uma biblioteca, coworking ou internet de casa.' }
@@ -83,36 +83,36 @@ export default {
         { kind: 'paragraph', text: 'O Wi‑Fi municipal é útil, mas continua a ser uma rede pública. Outros utilizadores estão no mesmo ambiente, e o captive portal não torna a ligação privada.' },
         { kind: 'checklist', items: [
           'Para bancos, MB WAY, Finanças, Segurança Social Direta, AIMA e ePortugal, é melhor usar internet móvel',
-          'Se precisar de entrar no e-mail de trabalho ou no CRM — ligue a VPN depois de passar o captive portal',
+          'Se precisar de entrar no e-mail de trabalho ou no CRM — active a VPN depois de passar pelo captive portal',
           'Verifique se os sites abrem por HTTPS',
           'Não aceite AirDrop / Nearby Share de dispositivos desconhecidos',
-          'Desative a ligação automática a redes abertas',
+          'Desactive a ligação automática a redes abertas',
           'Não introduza palavras-passe em sites com aviso do navegador sobre o certificado',
-          'Não descarregue «atualizações de Wi‑Fi» nem APK/perfis de configuração',
-          'Depois de usar, pode escolher «Forget this network», se o dispositivo se ligar sozinho num momento inadequado'
+          'Não descarregue “actualizações de Wi‑Fi” nem APK/perfis de configuração',
+          'Depois de usar, pode escolher “Forget this network”, se o dispositivo se ligar sozinho num momento inadequado'
         ] },
-        { kind: 'warning', text: 'Se estiver a submeter documentos, a pagar impostos ou a trabalhar com dados pessoais de clientes, o Wi‑Fi gratuito deve ser apenas uma alternativa. Um erro de ligação no momento do pagamento ou do envio de um formulário pode custar tempo e comprometer prazos.' }
+        { kind: 'warning', text: 'Se está a submeter documentos, a pagar impostos ou a trabalhar com dados pessoais de clientes, o Wi‑Fi gratuito deve ser apenas uma alternativa. Um erro de ligação no momento do pagamento ou do envio de um formulário pode custar tempo e um prazo.' }
       ]
     },
     {
       id: 'backup-options',
       title: 'Opções de reserva para expats',
       content: [
-        { kind: 'paragraph', text: 'O Wi‑Fi gratuito resolve «ver rapidamente o mapa e escrever no WhatsApp», mas não substitui uma ligação normal. Em 2026, o mínimo razoável para uma mudança é um eSIM ou um SIM pré-pago, mais uma lista de locais com acesso gratuito.' },
+        { kind: 'paragraph', text: 'O Wi‑Fi gratuito resolve o “ver rapidamente o mapa e escrever no WhatsApp”, mas não substitui uma ligação normal. Em 2026, o mínimo razoável para uma mudança é uma eSIM ou um SIM pré-pago, mais uma lista de locais com acesso gratuito.' },
         { kind: 'checklist', items: [
-          'eSIM para os primeiros 7–30 dias antes de contratar um tarifário local',
+          'eSIM para os primeiros 7–30 dias até contratar um tarifário local',
           'SIM pré-pago da MEO, NOS, Vodafone ou NOWO, se precisar de um número português',
-          'Biblioteca municipal: muitas vezes mais silenciosa e estável do que uma praça ou café',
+          'Biblioteca municipal: frequentemente mais silenciosa e estável do que uma praça ou café',
           'Coworking por um dia, se precisar de videochamadas',
-          'Wi‑Fi em centros comerciais como alternativa',
-          'Internet de casa por fibra, se arrendar alojamento por um período de vários meses'
+          'Wi‑Fi em centros comerciais como opção de reserva',
+          'Internet de casa por fibra, se arrendar habitação por um período a partir de vários meses'
         ] }
       ]
     }
   ],
   costs: [
-    { label: 'Lisboa WiFi Plus', amountEUR: 0, note: 'Gratuito; as sessões são normalmente limitadas no tempo, muitas vezes até 60 minutos, com possibilidade de novo acesso' },
-    { label: 'Porto WiFi', amountEUR: 0, note: 'Gratuito; cobertura mais reduzida, cerca de 35 hotspots' },
+    { label: 'Lisboa WiFi Plus', amountEUR: 0, note: 'Gratuito; as sessões são normalmente limitadas no tempo, frequentemente até 60 minutos, com possibilidade de novo acesso' },
+    { label: 'Porto WiFi', amountEUR: 0, note: 'Gratuito; cobertura menor, cerca de 35 hotspots' },
     { label: 'eSIM de reserva de curta duração', amountEURMin: 5, amountEURMax: 25, note: 'Referência para pacotes turísticos de dados; o preço depende do volume de GB e do fornecedor' }
   ],
   sources: [
@@ -131,6 +131,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'cp-comboios-intercity',
   categoryId: 'public_transport',
   title: 'CP — comboios: Alfa Pendular, Intercidades e suburbanos',
-  tldr: 'A CP (Comboios de Portugal) é a empresa ferroviária pública. Principais categorias de comboios: Alfa Pendular (rápido, Lisboa — Porto 2:50, ~30 €), Intercidades (mais lento, ~25 €), Regional/Urbano (suburbanos e regionais). É melhor comprar bilhetes com antecedência — 60 dias antes em cp.pt ou na aplicação «CP — Comboios de Portugal». Descontos: jovens até 30 anos — 50%, crianças 4–12 anos — 50%, ≥65 anos — 50%. Bagagem — gratuita. Bicicletas: em Regional, e também ao fim de semana em Urbano.',
+  tldr: 'A CP (Comboios de Portugal) é a empresa ferroviária pública. Principais categorias de comboios: Alfa Pendular (rápido, Lisboa — Porto 2:50, ~30 €), Intercidades (mais lento, ~25 €), Regional/Urbano (suburbanos e regionais).\n\nÉ melhor comprar bilhetes com antecedência — até 60 dias antes em cp.pt ou na app «CP — Comboios de Portugal». Descontos: jovens até 30 anos — 50%, crianças 4–12 anos — 50%, ≥65 anos — 50%. Bagagem — gratuita. Bicicletas: nos Regional, e também aos fins de semana nos Urbano.',
   tags: ['cp', 'comboio', 'alfa pendular', 'intercidades', 'lisboa porto', 'comboio'],
   estimatedReadMinutes: 7,
   steps: [
@@ -16,8 +16,8 @@ export default {
             { kind: 'checklist', items: [
               '⚡ Lisboa Sta Apolónia/Oriente → Porto Campanhã: 2:50',
               '⚡ Lisboa → Faro: 3:00',
-              '🪑 Conforto: 2 classes (Conforto + Turística), Wi-Fi, tomadas, vagão-restaurante',
-              '💰 Preço: 25–35 € padrão, 1.ª classe 35–50 €',
+              '🪑 Conforto: 2 classes (Conforto + Turística), Wi-Fi, tomadas, carruagem-bar',
+              '💰 Preço: 25–35 € tarifa normal, 1.ª classe 35–50 €',
               '🎟️ Reserva obrigatória (lugares numerados)',
               '📅 Bilhetes antecipados Tarifa Antecipada: -25% até -50%, disponíveis 60 dias antes'
             ]}
@@ -29,8 +29,8 @@ export default {
               '🕐 Lisboa → Évora / Beja: 1:30 / 3:00',
               '💰 Preço: 18–30 €',
               '🎟️ Reserva obrigatória',
-              '🪑 Existe 1.ª classe (5–10 € extra)',
-              '🚲 Bicicletas em vagão especial (mediante pedido)'
+              '🪑 Existe 1.ª classe (mais 5–10 €)',
+              '🚲 Bicicletas em carruagem especial (a pedido)'
             ]}
           ]},
           { id: 'regional', title: 'Regional + InterRegional — comboios lentos', content: [
@@ -46,9 +46,9 @@ export default {
             { kind: 'checklist', items: [
               '🚉 Lisboa: 4 linhas (Sintra, Cascais, Azambuja, Sado)',
               '🚉 Porto: linhas para Aveiro, Braga, Marco de Canaveses',
-              '💳 Carris Metro Lisboa: o cartão Navegante por 30 €/mês cobre as linhas Sintra/Cascais',
-              '💳 Porto: o cartão Andante cobre o Urbano',
-              '⏰ Frequentes: a cada 15–30 min'
+              '💳 Carris Metro Lisboa: cartão Navegante por 30 €/mês cobre as linhas Sintra/Cascais',
+              '💳 Porto: cartão Andante cobre o Urbano',
+              '⏰ Frequente: a cada 15–30 min'
             ]}
           ]}
         ]}
@@ -61,10 +61,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 'online', title: 'Online (recomendado)', content: [
             { kind: 'checklist', items: [
-              '🌐 cp.pt — site oficial, SEM língua russa (apenas PT/EN)',
-              '📱 Aplicação «CP — Comboios de Portugal» (iOS/Android)',
-              '🔒 O bilhete fica guardado na aplicação como código QR — não é necessário imprimir',
-              '📅 Reserva 60 dias antes — os preços mais baixos',
+              '🌐 cp.pt — site oficial, NÃO há russo (apenas PT/EN)',
+              '📱 App «CP — Comboios de Portugal» (iOS/Android)',
+              '🔒 O bilhete fica guardado na app como código QR — não é necessário imprimir',
+              '📅 Reserva com 60 dias de antecedência — preços mais baixos',
               '💳 Aceitam: Multibanco, MB WAY, cartões Visa/Mastercard, PayPal'
             ]}
           ]},
@@ -72,14 +72,14 @@ export default {
             { kind: 'checklist', items: [
               '🤖 Máquina na estação — pagamento por cartão, bilhete impresso',
               '👤 Bilheteira — dinheiro/cartão, pode haver fila',
-              '⚠️ Para comboios Regional/Urbano, a máquina de validação pode estar na própria plataforma',
+              '⚠️ Nos comboios Regional/Urbano, a máquina de validação pode estar na própria plataforma',
               '🚫 Comprar bilhete no comboio NEM sempre é possível — multa até 100 €'
             ]}
           ]},
           { id: 'discounts', title: 'Descontos', content: [
             { kind: 'checklist', items: [
-              '🧒 Crianças 4–12 anos: -50% (até 4 anos gratuito, se não ocuparem lugar separado)',
-              '👨‍🎓 Jovens (Cartão Jovem ≤30): -25% na tarifa + promoções adicionais',
+              '🧒 Crianças 4–12 anos: -50% (até 4 anos grátis, se não ocuparem lugar próprio)',
+              '👨‍🎓 Jovens (Cartão Jovem ≤30): -25% sobre a tarifa + promoções adicionais',
               '👴 ≥ 65 anos: -50%',
               '👨‍👩‍👧‍👦 Família (≥3): -25% para todos',
               '🎫 Tarifa Antecipada: -25% até -50%, quantidade limitada',
@@ -95,15 +95,15 @@ export default {
       title: '💡 Conselhos',
       content: [
         { kind: 'checklist', items: [
-          '⏰ AP e IC circulam frequentemente dentro do horário — atrasos são raros',
-          '🚉 Em Lisboa, AP/IC partem das estações Sta Apolónia (centro) ou Oriente (leste); confirme ao comprar',
-          '🚉 No Porto, a estação principal é Campanhã (leste); depois pode chegar a São Bento (centro) num comboio Urbano',
-          '📦 Bagagem de mão gratuita (até 30 kg ou 2 volumes + mochila). Bagagem grande — vagão separado em IC',
-          '🐕 Animais pequenos em transportadora: gratuito. Cães grandes com açaime — 50% do bilhete',
-          '🚲 Bicicleta: em Regional é gratuita; em IC — vagão para bicicletas mediante pedido; em AP — não é permitido',
-          '☕ O Wi-Fi em AP/IC funciona na rota Lisboa — Porto; noutras rotas é mais fraco',
-          '📶 O sinal GSM é mau em túneis de montanha — descarregue tudo o que precisar com antecedência',
-          '⌨️ Se o comboio for remarcado — o bilhete é válido no comboio seguinte da mesma categoria'
+          '⏰ AP e IC costumam cumprir o horário — atrasos são raros',
+          '🚉 Em Lisboa, AP/IC partem das estações Sta Apolónia (centro) ou Oriente (este); confirme ao comprar',
+          '🚉 No Porto, a estação principal é Campanhã (este); depois pode seguir até São Bento (centro) de comboio Urbano',
+          '📦 Bagagem de mão gratuita (até 30 kg ou 2 volumes + mochila). Bagagem grande — carruagem separada no IC',
+          '🐕 Animais pequenos em transportadora: grátis. Cães grandes com açaime — 50% do bilhete',
+          '🚲 Bicicleta: gratuita no Regional; no IC — carruagem para bicicletas a pedido; no AP — não permitido',
+          '☕ O Wi-Fi no AP/IC funciona na rota Lisboa — Porto; noutras rotas é mais fraco',
+          '📶 O sinal GSM é mau nos túneis de montanha — descarregue tudo o que precisa com antecedência',
+          '⌨️ Se o comboio for alterado — o bilhete é válido no comboio seguinte da mesma categoria'
         ]}
       ]
     },
@@ -114,7 +114,7 @@ export default {
         { kind: 'checklist', items: [
           '🍷 **Linha do Douro** (Porto-Régua-Pocinho) — percurso panorâmico ao longo do rio Douro, zona vinícola. Comboio Regional, 4 h até Pocinho. Época turística',
           '🌊 **Linha do Algarve** (Lagos-Faro-VRSA) — praias do Algarve, IC + Regional',
-          '⛰️ **Linha Beira Alta** (Lisboa-Pampilhosa-Guarda) — percurso de montanha até à fronteira espanhola',
+          '⛰️ **Linha Beira Alta** (Lisboa-Pampilhosa-Guarda) — rota de montanha até à fronteira espanhola',
           '🇪🇸 **Sud Express / Lusitânia** (Lisboa-Hendaye/Madrid) — comboios nocturnos históricos, **suspensos desde 2020** e, em 2026, sem serviço regular; podem ser retomados no futuro (actualizações: cp.pt e Renfe)',
           '🚂 **Comboio Histórico do Vouga** — comboio turístico a vapor, verão/outono'
         ]}
@@ -132,6 +132,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — Instituto da Mobilidade e dos Transportes', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -3,31 +3,31 @@ export default {
   id: 'navegante-lisboa',
   categoryId: 'public_transport',
   title: 'Navegante — Greater Lisbon travel pass',
-  tldr: 'Navegante is a single travel pass for the Lisboa region: metro, Carris buses, CP trains, Transtejo river ferries, Fertagus, MTS. Two main types: monthly Metropolitano (€40) or Municipal (€30). Children up to 12 — free (since 2024), children aged 13–18 and students — €20. It can be bought from a metro ticket machine, Carris offices or via the app.',
+  tldr: 'Navegante is the unified travel pass for the Lisboa region: metro, Carris buses, CP trains, Transtejo river ferries, Fertagus, MTS. The two main types are: monthly Metropolitano (€40) or Municipal (€30).\n\nChildren under 12 travel free (since 2024), children aged 13–18 and students pay €20. It can be bought from a metro ticket machine, Carris offices, or via the app.',
   tags: ['navegante', 'travel pass', 'lisbon', 'metro', 'bus'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'types',
-      title: 'Types of cards',
+      title: 'Card types',
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: 'Navegante Metropolitano (€40/month)', content: [
-            { kind: 'paragraph', text: 'Works across the ENTIRE Lisboa metropolitan area (Lisboa + Sintra + Cascais + Almada + Loures + Odivelas + Vila Franca + Mafra + 10 others). Covers the metro, Carris, CP suburban trains, Transtejo, Fertagus, MTS Seixal. The best choice if you travel between municipalities.' }
+            { kind: 'paragraph', text: 'Works across the ENTIRE Lisboa metropolitan area (Lisboa + Sintra + Cascais + Almada + Loures + Odivelas + Vila Franca + Mafra + 10 others).\n\nCovers the metro, Carris, CP suburban trains, Transtejo, Fertagus, MTS Seixal. The best choice if you travel between municipalities.' }
           ]},
           { id: 't2', title: 'Navegante Municipal (€30/month)', content: [
-            { kind: 'paragraph', text: 'Only in YOUR municipality. For a Lisboa resident — only Lisboa (including the metro + Carris). For a Cascais resident — only Cascais + CP within the municipality. Does NOT work outside the municipality boundary.' }
+            { kind: 'paragraph', text: 'Only in YOUR municipality. For a Lisboa resident — Lisboa only (including metro + Carris). For a Cascais resident — Cascais only + CP within the municipality. Does NOT work beyond the municipality boundary.' }
           ]},
           { id: 't3', title: 'Navegante Social / discounts', content: [
             { kind: 'checklist', items: [
-              'Children up to 12 — FREE (since 2024)',
+              'Children under 12 — FREE (since 2024)',
               'Ages 13–18 + students up to 23 — €20/month',
               'Seniors 65+ — €20/month',
               'Refugees / social support recipients — up to 50%'
             ]}
           ]},
           { id: 't4', title: 'Zapping — pay per journey', content: [
-            { kind: 'paragraph', text: 'Prepaid balance on a Navegante card. A journey is around €1.80 on the metro, €2 on a bus. 15% discount compared with the standard fare. For occasional journeys.' }
+            { kind: 'paragraph', text: 'Prepaid balance on the Navegante card. A journey is around €1.80 on the metro, €2 on the bus. 15% discount off the standard fare. For occasional journeys.' }
           ]}
         ]}
       ]
@@ -47,13 +47,13 @@ export default {
             ]}
           ]},
           { id: 'g2', title: '2. Navegante via Viva Viagem / yellow card', content: [
-            { kind: 'paragraph', text: 'The old system. Paper card for 50 cents, topped up with Zapping or a 24-hour pass (€6.80). Well suited to tourists.' }
+            { kind: 'paragraph', text: 'Old system. Paper card for 50 cents, topped up with Zapping or a 24-hour travel pass (€6.80). Well suited to tourists.' }
           ]},
           { id: 'g3', title: '3. Navegante via the app (digital)', content: [
-            { kind: 'paragraph', text: 'Download the “Navegante” app (Android / iOS). Link an existing card via NFC or create a digital wallet. Top up via MB WAY, card.' }
+            { kind: 'paragraph', text: 'Download the “Navegante” app (Android / iOS). Link an existing card via NFC or create a digital wallet. Top up via MB WAY or card.' }
           ]},
           { id: 'g4', title: '4. Apple Wallet / Google Pay', content: [
-            { kind: 'paragraph', text: 'Since 2025, Navegante has been integrated. Navegante Wallet Pass on iPhone/Android — tap at the gate and travel. Convenient, replaces plastic.' }
+            { kind: 'paragraph', text: 'Since 2025, Navegante has been integrated. Navegante Wallet Pass on iPhone/Android — tap it at the gate and travel. Convenient, replaces the plastic card.' }
           ]}
         ]}
       ]
@@ -70,7 +70,7 @@ export default {
           '🚂 Fertagus — Setúbal line (via the 25 Abril bridge)',
           '🚌 Carris Metropolitana — suburban buses',
           '🛤️ MTS — Metro Sul do Tejo (Almada/Seixal)',
-          '🚲 GIRA — bike sharing (separate, not included in the travel pass)'
+          '🚲 GIRA — bike-sharing (separate, not included in the travel pass)'
         ]}
       ]
     },
@@ -79,13 +79,13 @@ export default {
       title: 'Practical tips',
       content: [
         { kind: 'checklist', items: [
-          '💰 The month is counted from the activation date (not the calendar month)',
-          '🔄 Renew 5 days before expiry — with no interruption',
+          '💰 The month is counted from the activation date (not calendar month)',
+          '🔄 Renew 5 days before expiry — with no break',
           '📅 Automatic payment via MB WAY / direct debit — convenient',
-          '🏃 In the metro, go through with one card, tap it on the reader area — instantly',
+          '🏃 In the metro, pass through with one card, tap it on the reader area — instant',
           '📱 On Carris buses — tap when BOARDING',
-          '🚆 CP — tap when ENTERING the station, sometimes when exiting',
-          '🎒 Fine for travelling without a ticket: €120 on the spot (reduced €60 if paid within 20 days)',
+          '🚆 CP — tap when ENTERING the station, sometimes on exit',
+          '🎒 Fine for travelling without a valid ticket: €120 on the spot (reduced to €60 if paid within 20 days)',
           '🎓 Student travel pass — only with proof of enrolment'
         ]}
       ]
@@ -97,7 +97,7 @@ export default {
     { label: 'Children 13–18 / students', amountEUR: 20, note: '€/month' },
     { label: 'Seniors 65+', amountEUR: 20 },
     { label: 'First card (plastic)', amountEUR: 6 },
-    { label: 'Fine for travelling without a ticket', amountEURMin: 60, amountEURMax: 120 }
+    { label: 'Fine for travelling without a valid ticket', amountEURMin: 60, amountEURMax: 120 }
   ],
   sources: [
     { title: 'Navegante — operator website', url: 'https://www.navegante.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
@@ -106,6 +106,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

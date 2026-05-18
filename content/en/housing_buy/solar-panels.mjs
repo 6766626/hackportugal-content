@@ -3,7 +3,7 @@ export default {
   id: 'solar-panels',
   categoryId: 'housing_buy',
   title: 'Solar panels — installation, permits, savings',
-  tldr: 'Portugal is among the top 3 EU countries for solar potential. UPAC (Unidade de Produção para Autoconsumo) systems — thresholds under DL 15/2022 / SERUP: very small systems (up to ~700 W with no grid injection) may be exempt from prior control; >700 W and ≤30 kW — usually mera comunicação prévia via DGEG/SERUP; >30 kW — heavier prior control. Turnkey cost: €4,000-€12,000 for a typical flat/house. Payback 5-9 years. To receive money for excedente you need a **bidirectional smart meter** and a sale contract with a comercializador/agregador (there is NO 1:1 net metering in PT). Fundo Ambiental does not guarantee annual funding — check the actual Aviso on fundoambiental.pt.',
+  tldr: 'Portugal is one of the top 3 EU countries for solar potential. UPAC (Unidade de Produção para Autoconsumo) systems — thresholds under DL 15/2022 / SERUP: very small systems (up to ~700 W with no injection into the grid) may be exempt from prior control; >700 W and ≤30 kW — usually mere prior notification via DGEG/SERUP; >30 kW — heavier prior control.\n\nTurnkey cost: €4,000-€12,000 for a typical flat/house. Payback 5-9 years. To receive money for excedente, you need a **bidirectional smart meter** and a sale contract with a comercializador/agregador (there is NO 1:1 net metering in PT)\.\n\nFundo Ambiental does not guarantee annual funding — check the current Aviso on fundoambiental.pt.',
   tags: ['solar panels', 'solar energy', 'self-consumption', 'fundo ambiental'],
   estimatedReadMinutes: 6,
   steps: [
@@ -29,11 +29,11 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: 'Residential UPAC ≤30 kW (typical houses/flats)', content: [
             { kind: 'checklist', items: [
-              'Most home systems are under **mera comunicação prévia** via DGEG/SERUP (not a licence)',
-              'Very small systems (~up to 700 W with no grid injection) may be exempt from prior control',
+              'Most home systems are under **mere prior notification** via DGEG/SERUP (not a licence)',
+              'Very small systems (~up to 700 W with no injection into the grid) may be exempt from prior control',
               'The most popular option for flats / houses',
               'Inverter + panels on the roof / balcony / extension',
-              'Self-consumption + feed-in to the grid (if there is surplus and a bidirectional meter is installed)',
+              'Self-consumption + injection into the grid (if there is surplus and a bidirectional meter is installed)',
               'Cost: €4,000-€12,000 turnkey',
               'Installation time: 1-3 days'
             ]}
@@ -49,14 +49,13 @@ export default {
           ]},
           { id: 's3', title: 'Pure sale of energy to the grid', content: [
             { kind: 'checklist', items: [
-              'Pure production/sale to grid — a separate electricity production project under current SEN rules',
-              'This is not ordinary residential UPAC',
+              'Pure production/sale to grid — a separate electricity generation project under current SEN rules',
+              'This is not a normal residential UPAC',
               'DGEG/ERSE requirements and availability of grid capacity',
               'Less popular for housing — self-consumption is usually more profitable'
             ]}
           ]},
-          { id: 's4', title: 'Hybrid system with battery',
-            content: [
+          { id: 's4', title: 'Hybrid system with battery storage', content: [
             { kind: 'checklist', items: [
               'Solar system + lithium battery (Tesla Powerwall, BYD, LG Chem)',
               'Cost: +€5,000-€12,000 on top of the base system',
@@ -85,13 +84,13 @@ export default {
           { id: 'c2', title: 'What is included', content: [
             { kind: 'checklist', items: [
               'Solar panels (260-450 W each)',
-              'Inverter (string or microinverters)',
+              'Inverter (string inverter or microinverters)',
               'Mounting equipment',
               'Cables, switches, fuses',
               'Smart meter / monitoring system',
-              'Installation works',
+              'Installation work',
               'Registration with DGEG (often done by the installer)',
-              'Reduced IVA rate of 6% (from 2024) for housing'
+              'Reduced IVA rate of 6% (since 2024) for housing'
             ]}
           ]},
           { id: 'c3', title: 'Subsidies — Fundo Ambiental', content: [
@@ -99,8 +98,8 @@ export default {
               '**Fundo Ambiental** does not guarantee annual funding — check the actual open Aviso on fundoambiental.pt',
               'Past residential efficiency calls had specific caps and reimbursement rates, but 2026 amounts depend on the active programme',
               'Calls open irregularly with their own deadlines, budgets and eligibility rules — monitor Fundo Ambiental and Diário da República',
-              'Do not include the subsidy in your project budget until your application has been approved',
-              '**MAE** — programme from municipalities (some cities top it up)'
+              'Do not include the subsidy in the project budget until your application has been approved',
+              '**MAE** — a programme run by municipalities (some cities top it up)'
             ]}
           ]}
         ]}
@@ -115,33 +114,33 @@ export default {
             { kind: 'checklist', items: [
               'Get 3+ quotes from installers',
               'Top installers: Galp Solar, EDP Solar, Dynegy, Solposto, EnergyON, SunEnergy',
-              'Independent installers are often cheaper; check reviews',
-              'Request: panel brand (LG, JA Solar, Trina), inverter brand (Huawei, Fronius, SolarEdge), warranty, installation timelines'
+              'Unaffiliated providers are often cheaper; check reviews',
+              'Ask for: panel brand (LG, JA Solar, Trina), inverter brand (Huawei, Fronius, SolarEdge), warranty, installation timeline'
             ]}
           ]},
           { id: 'p2', title: '2. Structural assessment', content: [
             { kind: 'checklist', items: [
               'Roof inspection — orientation (south is best), pitch, structural strength',
-              'Result: 90%+ of houses in PT are suitable',
-              'Condominium: approval of the general meeting if the roof is shared',
-              'Flat without an individual roof: panels on a balcony / window — 100-500 W systems',
-              'If panels use common parts — approval from the assembleia condomínio is needed under the condominium rules. If refused — legal advice; there is no automatic statutory right to install on a shared roof'
+              'Outcome: 90%+ of houses in PT are suitable',
+              'Condominium: approval from the general meeting if the roof is shared',
+              'Flat without an individual roof: panels on the balcony / window — 100-500 W systems',
+              'If panels use common parts — approval from the assembleia condomínio is needed under the condominium rules. If refused — seek legal advice; there is no automatic statutory right to install on a shared roof'
             ]}
           ]},
           { id: 'p3', title: '3. Documents', content: [
             { kind: 'checklist', items: [
-              'Caderneta predial (proof of ownership or written consent from the landlord)',
+              'Caderneta predial (proof of ownership or the landlord’s written consent)',
               'NIF, CC',
               'Electricity bill with CPE, NIF/ID',
               'Technical data for panels/inverter, installer declarations',
-              'Electricity bill for the last 12 months — to calculate the optimal system size',
+              'Electricity bills for the last 12 months — to calculate the optimal system size',
               'If in a condominium and common parts are used: minutes approving it from the assembleia'
             ]}
           ]},
           { id: 'p4', title: '4. Installation', content: [
             { kind: 'checklist', items: [
               '1-3 days of installation',
-              'Connection to your consumer unit',
+              'Connection to your electrical panel',
               'Installation/configuration of the **bidirectional smart meter** — carried out by the distribution network operator (usually **E-REDES** in mainland PT). The comercializador (supplier) is a separate entity',
               'Test + activation',
               'Registration on the DGEG portal (often done by the installer)'
@@ -149,9 +148,9 @@ export default {
           ]},
           { id: 'p5', title: '5. Compensation for surplus', content: [
             { kind: 'checklist', items: [
-              'Surplus solar energy can be fed into the grid → compensation from your comercializador (EDP, Galp, Endesa, Iberdrola, etc.) if you have a bidirectional smart meter and a sale contract',
-              '⚠️ Net metering in the sense of 1:1 offsetting in Portugal does **NOT** exist — without a sale contract, surplus may go into the grid unpaid',
-              'Tariff: usually below the retail electricity price',
+              'Excess solar energy can be fed into the grid → compensation from your comercializador (EDP, Galp, Endesa, Iberdrola, etc.) if you have a bidirectional smart meter and a sale contract',
+              '⚠️ Net metering in the sense of a 1:1 credit in Portugal **DOES NOT EXIST** — without a sale contract, surplus may go into the grid without payment',
+              'Tariff: usually lower than the retail electricity price',
               'For large UPAC — a separate contract with a comercializador/agregador'
             ]}
           ]}
@@ -163,8 +162,8 @@ export default {
       title: '💼 Tax aspect',
       content: [
         { kind: 'checklist', items: [
-          '**IVA reduzido** may apply to the supply/installation of photovoltaic panels under the current wording of VAT List I — confirm the treatment on the invoice with the installer',
-          '**IRS deduction** is not provided directly for home solar systems (it is an investment, not an expense)',
+          '**IVA reduzido** may apply to the supply/installation of photovoltaic panels under the current version of VAT List I — confirm the treatment on the invoice with the installer',
+          '**IRS deduction** specifically for home solar systems is not provided for (this is an investment, not an expense)',
           '**Property tax (IMI)**: some municipalities offer a reduction for houses with solar systems (5-15% discount)',
           '**Excedente sale**: for individuals, income from selling surplus from a small UPAC may be excluded from IRS up to the statutory annual limit; above that — or for business activity — tax/VAT rules apply. Confirm with an accountant/comercializador',
           '**Solar systems for business (commercial UPAC)**: full IRC deduction over 8-10 years, IVA refund, may speed up payback'
@@ -176,10 +175,10 @@ export default {
       title: '🏠 If you rent',
       content: [
         { kind: 'checklist', items: [
-          'Any fixed installation requires **written consent from the owner**; for removable balcony plug-in systems, also check the lease, regulamento condomínio and electrical safety',
-          '**Solar system leasing** (Iberdrola, Galp solar leasing): the provider installs it, you pay a monthly fee — savings are lower, but there is no upfront investment',
+          'Any fixed installation requires the **owner’s written consent**; for removable balcony plug-in systems, also check the lease, regulamento condomínio and electrical safety',
+          '**Solar system leasing** (Iberdrola, Galp solar leasing): the provider installs it, you pay a monthly fee — lower savings, but no upfront investment',
           '**Cooperatives** (Sociedade Cooperativa de Energia): community solar energy — you participate in a larger system',
-          '**Ownership of the panels** and the ability to take them with you when moving out must be **agreed in writing** with the owner BEFORE installation'
+          '**Ownership of the panels** and the possibility of taking them with you when you move out must be **agreed in writing** with the owner BEFORE installation'
         ]}
       ]
     }
@@ -190,7 +189,7 @@ export default {
     { label: '6.9 kW system', amountEURMin: 7500, amountEURMax: 11000 },
     { label: 'Additional 10 kWh battery', amountEURMin: 5000, amountEURMax: 8000 },
     { label: 'Fundo Ambiental subsidy', note: 'amounts/conditions depend on the active Aviso — do not include it until your application is approved' },
-    { label: 'Annual savings for 5 kW', amountEURMin: 800, amountEURMax: 1500, note: '€/year' }
+    { label: 'Annual savings 5 kW', amountEURMin: 800, amountEURMax: 1500, note: '€/year' }
   ],
   sources: [
     { title: 'DGEG — Directorate-General for Energy and Geology', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
@@ -199,6 +198,6 @@ export default {
     { title: 'SERUP — Electronic Registration System for Production Units', url: 'https://serup.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'APREN — Renewable Energies Portugal', url: 'https://www.apren.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

@@ -1,10 +1,10 @@
 export default {
   editorialVoice: 'hackportugal',
   id: 'labour-rights',
-  categoryId: 'work_business',
-  title: 'Employment rights in Portugal — what an employee needs to know',
-  tldr: 'Employment relationships in Portugal are governed by the Código do Trabalho (Lei 7/2009). The essentials: a 40-hour week (max. 48 hours with overtime), 22 working days of holiday + 13 public holidays, parental leave of 120-180 days paid at 90-100%, dismissal requires justification + compensation (cap of 12-20 months of salary), minimum wage €920/month in 2026. Probationary period: 90 days (general), 180 (positions of responsibility), 240 (management roles). Trade unions are active: CGTP-IN and UGT. Complaints about breaches of employment rights are submitted to ACT (Autoridade para as Condições do Trabalho).',
-  tags: ['employment', 'employee rights', 'code'],
+ Id: 'work_business',
+  title: 'Labour rights in Portugal what an employee needs know',
+  t: 'Employment relationships in are governed by the Código do Trabalho (Lei 7/2009)\.\n\nThe essentials: a 40-hour week (max. 48 hours with overtime), 22 working days of annual leave + 13 public holidays, parental leave 120-180 days paid at 90-100%, dismissal requires justification + compensation (cap of 12-20 months’ salary), minimum wage €920/month in 2026. Probation period: 90 days (general), 180 (positions of responsibility), 240 (management positions)\.\n\nTrade unions are active: CGTP-IN and UGT. Complaints about labour rights breaches are submitted to ACT (Autoridade para as Condições do Trabalho).',
+  tags: ['labour', 'employee rights', 'code'],
   estimatedReadMinutes: 8,
   steps: [
     {
@@ -15,24 +15,24 @@ export default {
           { id: 'c1', title: 'Contrato sem termo (open-ended)', content: [
             { kind: 'checklist', items: [
               'Standard contract, with no end date',
-              'Probationary period: 90 days (ordinary), 180 (responsibility), 240 (management roles, high qualification)',
+              'Probation period: 90 days (ordinary), 180 (responsibility), 240 (management positions, high qualification)',
               'Dismissal by the employer: requires justification (despedimento por justa causa, extinção, inadequação) + compensation',
-              'Resignation by the employee: 30 days’ notice (up to 2 years in the company) or 60 days (more)'
+              'Resignation by the employee: 30 days’ notice (up to 2 years with the company) or 60 days (more)'
             ]}
           ]},
           { id: 'c2', title: 'Contrato a termo certo (fixed-term with a fixed date)', content: [
             { kind: 'checklist', items: [
-              'Specific end date. After Agenda do Trabalho Digno (Lei 13/2023): general maximum — **2 years** (including renewals). The minimum depends on the justification; for typical cases — 6 months',
-              'Only for objective reasons listed in the Código do Trabalho (market conditions, temporary project, replacing an employee, etc.)',
-              'Maximum **3 renewals**, and the total duration of renewals cannot exceed the initial term',
-              'At the end of the term without conversion to open-ended — compensation under Lei 13/2023 (general rate of 24 days of basic salary + diuturnidades for each year); the specific calculation depends on the situation'
+              'Specific end date. After the Agenda do Trabalho Digno (Lei 13/2023): the overall maximum is **2 years** (including renewals). The minimum depends on the justification; for typical cases — 6 months',
+              'Only for objective reasons listed in the Código do Trabalho (market conditions, temporary project, replacement of an employee, etc.)',
+              'Maximum **3 renewals**, and the total duration of the renewals cannot exceed the initial term',
+              'At the end of the term without conversion to open-ended — compensation under Lei 13/2023 (general rate of 24 days’ basic salary + diuturnidades for each year); the specific calculation depends on the situation'
             ]}
           ]},
           { id: 'c3', title: 'Contrato a termo incerto (fixed-term without a fixed date)', content: [
-            { kind: 'paragraph', text: 'Fixed-term without a fixed date (until completion of a project / replacing someone on parental leave). Maximum **4 years** (after Lei 13/2023). Compensation follows the same general rules as termo certo.' }
+            { kind: 'paragraph', text: 'Fixed-term without a fixed date (until completion of a project / replacement of someone on parental leave). Maximum **4 years** (after Lei 13/2023). Compensation follows the same general rules as termo certo.' }
           ]},
           { id: 'c4', title: 'Contrato de prestação de serviços / Recibo Verde', content: [
-            { kind: 'paragraph', text: 'A format similar to self-employment. You pay taxes yourself through Anexo B. There are no employee employment rights under the Código do Trabalho — paid holiday from the employer, subsídios de férias/Natal, protection against dismissal. However, when paying contributions to Segurança Social, an independent worker may have access to some social benefits (doença, parentalidade) under certain conditions. For protection, the contract must reflect a genuinely independent status; otherwise it is a "falso recibo verde" — this may lead to recognition of an employment contract, additional Segurança Social assessments and ACT coimas (the amount depends on the category of the breach).' }
+            { kind: 'paragraph', text: 'A format similar to sole trading.\n\nYou pay taxes yourself through Anexo B. There are no employee labour rights under the Código do Trabalho — paid leave from the employer, subsídios de férias/Natal, protection against dismissal. However, when paying contributions to Segurança Social, a self-employed worker may have access to some social benefits (doença, parentalidade) subject to conditions. For protection, the contract must reflect a genuinely independent status; otherwise it is a “falso recibo verde” — it may lead to recognition of an employment contract, additional Segurança Social assessments and ACT coimas (the amount depends on the category of the breach).' }
           ]}
         ]}
       ]
@@ -42,14 +42,14 @@ export default {
       title: '💰 Salary and taxes',
       content: [
         { kind: 'checklist', items: [
-          '**Minimum wage 2026**: €920/month × 14 (including 13th month + holiday pay)',
+          '**Minimum wage 2026**: €920/month × 14 (including the 13th month + holiday pay)',
           '**Subsídio de férias** (holiday allowance): 1 monthly salary in June',
           '**Subsídio de Natal** (13th month): 1 monthly salary in December',
-          '**Subsídio de alimentação** (meal allowance): not mandatory, but common. €6-9/working day. Up to €6/day is not subject to IRS when paid in cash; with cartão/vale refeição the limit is higher — €10.20/day',
-          '**Overtime (horas extras)**: +25% in the first hour, +37.5% afterwards',
-          '**Night work** (22:00-07:00): +25% extra',
-          '**Work on descanso semanal/feriado**: usually +50% for each hour; in a number of cases descanso compensatório is also due. A collective agreement may set better conditions (Código do Trabalho arts. 268, 269)',
-          '**Deductions**: IRS (progressive scale 11.97-48%), Segurança Social 11%. The difference between gross and net — approximately 22-35% depending on salary',
+          '**Subsídio de alimentação** (meal allowance): not mandatory, but common. €6-9/working day. Up to €6/day is exempt from IRS when paid in cash; with cartão/vale refeição the limit is higher — €10.20/day',
+          '**Overtime (horas extras)**: +25% for the first hour, +37.5% afterwards',
+          '**Night work** (22:00-07:00): an additional +25%',
+          '**Work during descanso semanal/feriado**: usually +50% for each hour; in some cases descanso compensatório is also due. A collective agreement may set better conditions (Código do Trabalho arts. 268, 269)',
+          '**Deductions**: IRS (progressive scale 11.97-48%), Segurança Social 11%. The difference between gross and net is roughly 22-35% depending on salary',
           '**Payslip (recibo de vencimento)**: must be issued monthly, with a breakdown of all deductions'
         ]}
       ]
@@ -71,13 +71,13 @@ export default {
     },
     {
       id: 'leave',
-      title: '🏖️ Holiday and sick leave',
+      title: '🏖️ Annual leave and sick leave',
       content: [
         { kind: 'substeps', items: [
           { id: 'l1', title: 'Férias (annual leave)', content: [
             { kind: 'checklist', items: [
               '**22 working days** (standard) = approximately 31 calendar days',
-              '+ 3 additional days if ≤ 3 days of sickness absence in the year',
+              '+ 3 additional days if there are ≤ 3 days of sickness absence in the year',
               'Must be used within the calendar year (cannot be carried over without agreement)',
               'Paid at 100% + subsídio de férias',
               'If dismissed: compensation for unused days'
@@ -99,7 +99,7 @@ export default {
               '**180 days**: **90%** (since 2023, Lei 13/2023 — if both parents take ≥ 30 days)',
               '**Father**: 28 mandatory days + 8 optional (Lei 90/2019)',
               'Pregnancy: 30+ days before birth — mandatory leave',
-              'Breastfeeding: 2 × 30 min per day of paid breaks until the child is one year old'
+              'Breastfeeding: 2 × 30 min per day of paid breaks until one year'
             ]}
           ]}
         ]}
@@ -110,14 +110,14 @@ export default {
       title: '🚪 Dismissal — your rights',
       content: [
         { kind: 'substeps', items: [
-          { id: 'd1', title: 'Despedimento por justa causa (employee fault)', content: [
-            { kind: 'paragraph', text: 'The employer must prove serious misconduct: absenteeism, theft, serious conflict, systematic breach of duties. Written notice + right to a defence (direito de audiência prévia). If the court finds the dismissal unlawful — compensation + reinstatement.' }
+          { id: 'd1', title: 'Despedimento por justa causa (for employee fault)', content: [
+            { kind: 'paragraph', text: 'The employer must prove serious misconduct: absenteeism, theft, serious conflict, systematic breach of duties. Written notice + right to a defence (direito de audiência prévia)\.\n\nIf the court finds the dismissal unlawful — compensation + reinstatement.' }
           ]},
           { id: 'd2', title: 'Despedimento colectivo / extinção (redundancy)', content: [
             { kind: 'checklist', items: [
-              'Objective reasons: economic, market-related, technological',
+              'Objective reasons: economic, market, technological',
               '30-75 days’ notice (depends on length of service)',
-              'Compensation: **14 days of salary for each year of service** (cap of 12 × monthly salary or minimum 3 × monthly salaries)',
+              'Compensation: **14 days’ salary for each year of service** (cap of 12 × monthly salary or minimum 3 × monthly salaries)',
               'Subsídio de desemprego: after dismissal for a reason not attributable to the employee'
             ]}
           ]},
@@ -129,7 +129,7 @@ export default {
     },
     {
       id: 'rights-conflicts',
-      title: '⚖️ Disputes and protection',
+      title: '⚖️ Conflicts and protection',
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Trade unions', content: [
@@ -138,13 +138,13 @@ export default {
               '**UGT** — centrist, 400,000',
               '**FESAP**, **STE** — for civil servants',
               'Membership fee: 0.5-1% of salary',
-              'Protection: collective agreement negotiations, legal assistance, strikes'
+              'Protection: collective bargaining negotiations, legal assistance, strikes'
             ]}
           ]},
           { id: 'r2', title: 'ACT — labour inspectorate', content: [
             { kind: 'checklist', items: [
               'Autoridade para as Condições do Trabalho',
-              'Anonymous complaint: act.gov.pt → "Queixa / Denúncia"',
+              'Anonymous complaint: act.gov.pt → “Queixa / Denúncia”',
               'ACT checks: working conditions, salaries, overtime, occupational safety, falso recibos verdes',
               'Fines for the employer: €500-61,000'
             ]}
@@ -155,7 +155,7 @@ export default {
               'Time limit: 1 year after the event',
               'A lawyer is not mandatory (but recommended)',
               'Free legal aid (apoio judiciário) — if income < IAS × 1.5',
-              'Average timeframe: 6-18 months',
+              'Average duration: 6-18 months',
               'Outcome: reinstatement / compensation + court costs'
             ]}
           ]}
@@ -170,12 +170,12 @@ export default {
     { label: 'Employment lawyer', amountEURMin: 50, amountEURMax: 150, note: '€/hour' }
   ],
   sources: [
-    { title: 'Código do Trabalho (Lei 7/2009 consolidated)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Código do Trabalho (consolidated Lei 7/2009)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ACT — Autoridade para as Condições do Trabalho', url: 'https://www.act.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Segurança Social — employment benefits', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CGTP-IN', url: 'https://www.cgtp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UGT', url: 'https://www.ugt.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }
