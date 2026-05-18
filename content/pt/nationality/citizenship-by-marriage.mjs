@@ -2,57 +2,56 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'citizenship-by-marriage',
   categoryId: 'nationality',
-  title: 'Nacionalidade portuguesa por casamento ou união de facto',
-  tldr: 'Os cônjuges de cidadãos portugueses podem requerer a nacionalidade após 3 anos de casamento. A alternativa é uma união de facto há mais de 3 anos com um cidadão português, reconhecida por decisão judicial (sentença declarativa): uma simples inscrição na Junta de Freguesia ou na Conservatória do Registo Civil para efeitos de nacionalidade NÃO é suficiente. O certificado linguístico CIPLE formalmente NÃO é exigido. Antes de 6 anos de casamento, o IRN/Ministério Público pode solicitar prova de «ligação efetiva à comunidade nacional». Não é obrigatório residir em Portugal. Ao abrigo da Lei 37/81 art. 9(b) em vigor, o limiar criminal = condenação por crime punível com pena máxima ≥ 3 anos de prisão.\n\n**03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** — a lei entra em vigor no dia seguinte ao da publicação no Diário da República; **verifique o estado atual da publicação em diariodarepublica.pt**.\n\nApós a entrada em vigor: o prazo de casamento aumentará de 3 para 5 anos, surgirá uma exigência obrigatória de coabitação real. O texto da lei contém uma disposição transitória — aos processos em tramitação aplica-se a redação anterior da Lei 37/81 (3 anos).',
+  title: 'Nacionalidade portuguesa por casamento ou união de facto (Lei Orgânica 1/2026)',
+  tldr: '🆕 Ao abrigo da nova **Lei Orgânica n.º 1/2026** (publicada em 18.05.2026, em vigor desde **19.05.2026**), os cônjuges de cidadãos portugueses podem apresentar o pedido de nacionalidade **após 5 anos de casamento** (antes — 3 anos). União de facto — também 5 anos (antes 3), mais coabitação real obrigatória com provas. O certificado linguístico CIPLE formalmente NÃO é exigido. A presunção de «ligação efetiva à comunidade nacional» passa agora a começar aos 7–8 anos (antes 6). O limiar criminal do art. 9(b) Lei 37/81 já era de 3 anos de pena de prisão — a nova redação endurece a avaliação dos «vínculos», não reduz o próprio limiar.\n\n⚖️ **Disposição transitória:** para pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026, aplicam-se as regras anteriores — **3 anos de casamento / união de facto + reconhecimento da união por sentença declarativa**.\n\nO simples registo da união de facto na Junta de Freguesia ou na Conservatória para efeitos de nacionalidade NÃO é suficiente — é necessária uma decisão judicial. Não é obrigatório residir em Portugal.',
   tags: ['nacionalidade', 'casamento', 'união'],
   estimatedReadMinutes: 6,
-  pendingLaw: {
-    summary: 'Decreto AR 48/XVII (após a passagem pelo TC foi renumerado de 17/XVII), reaprovado pelo Parlamento em 01.04.2026 (após o veto de Marcelo em dezembro de 2025 e a inconstitucionalidade declarada pelo TC no Acórdão 1133/2025).\n\n**Promulgado pelo Presidente Seguro em 03.05.2026.** A lei entra em vigor no dia seguinte ao da publicação no Diário da República — **publicada como **Lei Orgânica n.º 1/2026**, DR 18.05.2026, em vigor desde 19.05.2026**.\n\nApós a entrada em vigor: o prazo de casamento aumentará de 3 para 5 anos, surgirá uma exigência obrigatória de coabitação real e respetiva prova, e o limiar da presunção de «ligações efetivas» subirá de 6 para 7–8 anos. Ao abrigo da Lei 37/81 art. 9(b) em vigor, o limiar criminal já = 3 anos de prisão — a nova redação torna mais rigorosa a avaliação das «ligações», não reduz o próprio limiar.\n\nIMPORTANTE: o texto da lei contém uma disposição transitória — aos processos administrativos em tramitação à data da entrada em vigor aplica-se a redação anterior da Lei 37/81 (a proposta do PS de garantias transitórias mais amplas foi rejeitada). Seguro, no discurso de 03.05.2026, também pediu publicamente que os processos já apresentados fossem apreciados segundo as regras antigas, por razões de segurança jurídica.\n\nPara processos apresentados ANTES de 19.05.2026, aplicam-se as regras da Lei 37/81 (3 anos) a todos os requerentes.',
-  },
+  recentlyChangedAt: '2026-05-18',
+  changeSummary: '🆕 **Lei Orgânica n.º 1/2026 (em vigor desde 19.05.2026):** prazo de casamento para pedir a nacionalidade **3 → 5 anos**. Para união de facto — também 5 anos + coabitação real obrigatória com provas. Presunção de «vínculos efetivos» — a partir de 7–8 anos (antes 6). **Pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026 seguem as regras anteriores (3 anos).** 🔴 O Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — em 08.05.2026 o TC declarou-o inconstitucional por UNANIMIDADE; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento; o PSD não irá reconfirmar.',
   steps: [
     {
       id: 'universal',
       title: 'O processo é igual para todos os países',
       content: [
-        { kind: 'paragraph', text: 'Ao contrário da naturalização (por 5/7/10 anos de residência), por casamento ou união de facto o processo NÃO depende do país de origem do requerente. Cidadãos CPLP, da UE, de países terceiros — as condições são as mesmas. Não há vias «aceleradas» para brasileiros ou italianos — são necessários 3 anos de casamento para todos.' }
+        { kind: 'paragraph', text: 'Ao contrário da naturalização (por 5/7/10 anos de residência), por casamento ou união de facto o processo NÃO depende do país de origem do requerente. Cidadãos CPLP, UE, países terceiros — as condições são as mesmas. Não existem vias «aceleradas» para brasileiros ou italianos — todos precisam de 3 anos de casamento.' }
       ]
     },
     {
       id: 'requirements',
-      title: 'Requisitos (ao abrigo da lei em vigor)',
+      title: 'Requisitos (segundo a lei em vigor)',
       content: [
         { kind: 'checklist', items: [
           '💍 Casamento com cidadão português ≥ 3 anos no momento da apresentação do pedido (Lei 37/81 art. 3 n.1)',
-          '🤝 OU união de facto >3 anos com cidadão português, **reconhecida por decisão judicial** (Lei 37/81 art. 3 n.3) — sentença declarativa de tribunal; uma simples certidão ou inscrição na Junta de Freguesia para nacionalidade NÃO serve',
+          '🤝 OU união de facto >3 anos com cidadão português, **reconhecida por decisão judicial** (Lei 37/81 art. 3 n.3) — sentença declarativa de tribunal; uma simples certidão ou registo na Junta de Freguesia para nacionalidade NÃO serve',
           '📜 Casamento válido no momento da apresentação do pedido (sem divórcio, sem separação de pessoas e bens com estatuto jurídico)',
-          '⚖️ Ausência de condenações em qualquer país por crime com pena ≥ 3 anos de prisão'
+          '⚖️ Ausência de condenações criminais em qualquer país com pena ≥ 3 anos de prisão'
         ]},
         { kind: 'paragraph', text: 'Formalmente NÃO é exigido por esta via:' },
         { kind: 'checklist', items: [
-          '❌ Certificado CIPLE A2 — formalmente NÃO é exigido (a língua só é exigida para naturalização após 5+ anos de residência). Na prática, o IRN pode avaliar o domínio da língua como indício indireto de «ligação efetiva» em casamentos <6 anos',
-          '❌ Residência em território português — não é obrigatória, o cônjuge estrangeiro pode viver com o cidadão português no estrangeiro',
-          '❌ «Ligação a Portugal» como lista formal de requisitos — não é solicitada na fase de receção do pedido. Mas veja abaixo a questão da presunção'
+          '❌ Certificado CIPLE A2 — formalmente NÃO é exigido (língua apenas para naturalização após 5+ anos de residência). Na prática, o IRN pode avaliar o domínio da língua como indício indireto de «vínculo efetivo» em casamentos <6 anos',
+          '❌ Residência em território português — não é obrigatória, o cônjuge estrangeiro pode viver com o português no estrangeiro',
+          '❌ «Vínculo a Portugal» como lista formal de requisitos — não é pedido na fase de receção. Mas veja abaixo sobre a presunção'
         ]},
-        { kind: 'warning', text: 'Nuance importante sobre a Lei 37/81 art. 3: para casamentos de 3–6 anos é OBRIGATÓRIO provar a «ligação efetiva à comunidade nacional» — esta é solicitada pelo Ministério Público em caso de oposição. Com ≥6 anos de casamento OU havendo filhos portugueses comuns, aplica-se a presunção, e não é necessário provar a ligação. Ou seja, «não é exigido» é uma simplificação para casos de 6+ anos.' }
+        { kind: 'warning', text: 'Nuance importante sobre a Lei 37/81 art. 3: para casamentos de 3–6 anos é OBRIGATÓRIO provar a «ligação efetiva à comunidade nacional» (vínculo efetivo à comunidade portuguesa) — esta é pedida pelo Ministério Público em caso de oposição. Com ≥6 anos de casamento OU havendo filhos portugueses em comum, aplica-se a presunção e não é necessário provar o vínculo. Ou seja, «não é exigido» é uma simplificação para casos de 6+ anos.' }
       ]
     },
     {
       id: 'uniao',
       title: 'União de Facto — para efeitos de NACIONALIDADE',
       content: [
-        { kind: 'warning', text: 'IMPORTANTE: para apresentar pedido de nacionalidade por união de facto, a Lei 37/81 art. 3 n.3 exige **decisão judicial de tribunal português** (sentença declarativa) que reconheça que o requerente vive em união de facto com cidadão português **há mais de 3 anos** à data do pedido. Uma simples certidão da Junta de Freguesia ou uma inscrição geral de união de facto sem reconhecimento judicial para efeitos de nacionalidade NÃO são aceites.' },
+        { kind: 'warning', text: 'IMPORTANTE: para pedir a nacionalidade por união de facto, a Lei 37/81 art. 3 n.3 exige **decisão judicial de tribunal português** (sentença declarativa), que reconheça que o requerente vive em união de facto com cidadão português **há mais de 3 anos** à data do pedido. Uma simples certidão da Junta de Freguesia ou o registo geral da união de facto sem reconhecimento judicial para efeitos de nacionalidade NÃO são aceites.' },
         { kind: 'paragraph', text: 'Processo para obter a decisão judicial:' },
         { kind: 'checklist', items: [
           '🏛️ Apresentar requerimento no Tribunal de Família e Menores (ou Tribunal Cível) para reconhecimento da união de facto com cidadão português',
-          '📋 Provas de vida em comum: atestado de residência (Junta de Freguesia), contas/contratos de serviços domésticos em conjunto, contrato de arrendamento/propriedade em nome de ambos, extratos bancários, fotografias, correspondência',
+          '📋 Provas de vida em comum: atestado de residência (Junta de Freguesia), contas/contratos de serviços domésticos em conjunto, contrato de arrendamento/propriedade em nome dos dois, extratos bancários, fotografias, correspondência',
           '👥 Testemunhas — amigos/familiares',
           '💶 Custas judiciais: ~100-300 € (depende do valor da ação)',
-          '🧑‍⚖️ Advogado recomendado (para estrangeiros, quase indispensável)',
+          '🧑‍⚖️ Advogado recomendado (para estrangeiros é quase indispensável)',
           '⏱️ Prazos: 6-18 meses',
           '📜 Recebe a certidão da sentença declarativa — é este o documento para o IRN'
         ]},
-        { kind: 'paragraph', text: 'O prazo da união conta-se a partir do início factual da vida em comum (não da data da decisão judicial). O tribunal fixa a data de início com base nas provas. Se vivem juntos há 5 anos — o tribunal reconhece 5 anos.' },
-        { kind: 'paragraph', text: 'Adicionalmente: a inscrição geral da união de facto na Junta de Freguesia (ao abrigo da Lei 7/2001) é um ato administrativo simples, exige 2 anos de vida em comum e serve para benefícios sociais/fiscais. É um procedimento SEPARADO do reconhecimento judicial para nacionalidade.' }
+        { kind: 'paragraph', text: 'O prazo da união conta-se a partir do início efetivo da vida em comum (não da data da decisão judicial). O tribunal fixa a data de início com base nas provas. Se vivem juntos há 5 anos — o tribunal reconhece 5 anos.' },
+        { kind: 'paragraph', text: 'Adicionalmente: o registo geral da união de facto na Junta de Freguesia (ao abrigo da Lei 7/2001) — ato administrativo simples, exige 2 anos de vida em comum e serve para benefícios sociais/fiscais. É um procedimento SEPARADO do reconhecimento judicial para nacionalidade.' }
       ]
     },
     {
@@ -61,29 +60,29 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '📄 Certidão de casamento (se o casamento foi celebrado fora de Portugal — apostila + tradução juramentada para português). Se o casamento foi em Portugal — basta o número do assento da Conservatória do Registo Civil',
-          '📄 Para união — certidão da sentença declarativa do tribunal português (NÃO apenas uma certidão da Junta de Freguesia)',
-          '📄 Certidão de nascimento do requerente (apostila + tradução juramentada; para cidadãos naturalizados no país de origem — certidão completa com filiação)',
-          '📄 Passaporte estrangeiro válido',
-          '📄 Título de residência (autorização de residência) — junta-se se existir, mas NÃO é obrigatório. Para apresentação no estrangeiro (através do consulado) — não é necessário',
-          '📄 Certificado do registo criminal português — normalmente é solicitado pelo IRN/serviços autonomamente no âmbito do procedimento; se o pedir diretamente através do ePortugal, verifique a taxa atual (regra geral, é pago)',
+          '📄 Para união — certidão da sentença declarativa de tribunal português (NÃO apenas uma certidão da Junta de Freguesia)',
+          '📄 Certidão de nascimento do requerente (apostila + tradução juramentada; para cidadãos naturalizados no país de origem — certidão integral com filiação)',
+          '📄 Passaporte internacional válido',
+          '📄 Título de residência (autorização de residência) — junta-se se existir, mas NÃO é obrigatório. Para apresentação a partir do estrangeiro (através do consulado) — não é necessário',
+          '📄 Certidão do registo criminal portuguesa — normalmente é solicitada pelo IRN/serviços diretamente no procedimento; se a pedir autonomamente através do ePortugal, confirme a taxa atual (em regra, é paga)',
           '📄 Certificados de registo criminal do país de nascimento, do(s) país(es) de nacionalidade e de todos os países onde o requerente residiu depois dos 16 anos — com apostila/legalização e tradução, se aplicável. Confirmar a validade de cada certificado (normalmente 3-6 meses)',
-          '📄 Certidão de nascimento do cônjuge português (assento de nascimento — solicitado automaticamente através do IRN ou junto ao processo)',
+          '📄 Certidão de nascimento do cônjuge português (assento de nascimento — pedido automaticamente pelo IRN ou junto ao processo)',
           '📝 Impresso IRN atualizado para aquisição da nacionalidade por casamento ou união de facto (normalmente Modelo 3 — descarregar no site do IRN/Justiça). A assinatura é reconhecida na forma legalmente prevista (presencialmente ou por autenticidade)',
-          '💶 Comprovativo de pagamento da taxa — 250 €'
+          '💶 Comprovativo do pagamento da taxa — 250 €'
         ]},
-        { kind: 'warning', text: 'O requerente NÃO tem Cartão de Cidadão (CC) — este é um documento português de cidadão; só é emitido após a obtenção da nacionalidade. Aos documentos junta-se o título de residência (se existir) ou o passaporte.' }
+        { kind: 'warning', text: 'O requerente NÃO tem Cartão de Cidadão (CC) — este é um documento português de cidadão; só é emitido após a obtenção da nacionalidade. Junta-se ao processo o título de residência (se existir) ou o passaporte.' }
       ]
     },
     {
       id: 'where',
-      title: 'Onde e como apresentar',
+      title: 'Onde e como apresentar o pedido',
       content: [
         { kind: 'checklist', items: [
           '🏛️ Conservatória dos Registos Centrais (Lisboa) — canal principal',
           '🏛️ Qualquer Conservatória do Registo Civil da área de residência (Porto, Coimbra, Faro, etc.)',
           '🏢 Espaço Registos numa Loja do Cidadão',
           '🌍 Consulado de Portugal no estrangeiro — se vive fora de Portugal',
-          '💻 Online através do portal IRN — apenas se o tipo de pedido correspondente estiver disponível no portal; na prática, o canal é mais frequentemente usado através de advogado/solicitador com autenticação profissional, e não como self-service universal para todos os requerentes',
+          '💻 Online através do portal do IRN — apenas se o tipo de pedido correspondente estiver disponível no portal; na prática, o canal é mais frequentemente usado através de advogado/solicitador com autenticação profissional, e não como self-service universal para todos os requerentes',
           '🧑‍💼 Através de advogado com procuração — sem presença pessoal'
         ]}
       ]
@@ -92,7 +91,7 @@ export default {
       id: 'timeline',
       title: 'Prazos de apreciação',
       content: [
-        { kind: 'timeline', text: 'O prazo oficial previsto na lei é 1 ano. Na prática, em 2025–2026: 8–24 meses. Depende da completude dos documentos e da carga das Conservatórias. Pedidos online são tratados mais rapidamente.' },
+        { kind: 'timeline', text: 'O prazo oficial previsto na lei é de 1 ano. Na prática, em 2025–2026: 8–24 meses. Depende da completude dos documentos e da carga das Conservatórias. Pedidos online são tratados mais rapidamente.' },
         { kind: 'paragraph', text: 'Após decisão favorável, o IRN regista-o como cidadão no Assento de Nascimento. Só depois disso pode pedir o Cartão de Cidadão em qualquer Loja do Cidadão e obter o passaporte português no IRN.' }
       ]
     },
@@ -102,19 +101,19 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '❗ Transliteração diferente do nome no passaporte e na certidão de casamento — será necessária uma declaração notarial que confirme a identidade',
-          '❗ Casamento celebrado num país terceiro que não foi registado na Conservatória do Registo Civil — primeiro é necessário registar o casamento em Portugal, depois pedir a nacionalidade',
-          '❗ O cônjuge tornou-se português apenas depois do casamento — a lei fala em casamento há mais de 3 anos com cidadão português no momento do pedido e na validade/transcrição do casamento; a contagem exata «a partir da data de aquisição da nacionalidade pelo cônjuge» é controversa, confirme com o IRN/um jurista',
-          '❗ Divórcio em curso — não é possível apresentar o pedido; é necessário aguardar a decisão',
-          '❗ O parceiro perdeu a nacionalidade portuguesa — perde-se o direito à naturalização por casamento'
+          '❗ Casamento celebrado num país terceiro não registado na Conservatória do Registo Civil — primeiro é necessário registar o casamento em Portugal, depois pedir a nacionalidade',
+          '❗ O cônjuge tornou-se português já depois do casamento — a lei fala em casamento há mais de 3 anos com cidadão português no momento do pedido e na validade/transcrição do casamento; a contagem exata «a partir da data de aquisição da nacionalidade pelo cônjuge» é discutível, confirme com o IRN/advogado',
+          '❗ Divórcio em curso — não pode apresentar o pedido; aguarde a decisão',
+          '❗ O parceiro renunciou à nacionalidade portuguesa — perde-se o direito à naturalização por casamento'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'Taxa IRN', amountEUR: 250 },
+    { label: 'Taxa do IRN', amountEUR: 250 },
     { label: 'Traduções juramentadas + apostilas', amountEURMin: 100, amountEURMax: 300 },
     { label: 'Reconhecimento judicial da união de facto para nacionalidade', amountEURMin: 100, amountEURMax: 1500, note: 'Custas judiciais + eventual advogado; para nacionalidade, um simples Atestado da Junta (~10 €) NÃO é suficiente' },
-    { label: 'Jurista (opcional)', amountEURMin: 500, amountEURMax: 2000 }
+    { label: 'Advogado (opcional)', amountEURMin: 500, amountEURMax: 2000 }
   ],
   timelineDaysMin: 240,
   timelineDaysMax: 720,
@@ -123,7 +122,7 @@ export default {
     { title: 'Lei 37/81 (Lei da Nacionalidade), art. 3 — por casamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 237-A/2006 — Regulamento da Nacionalidade Portuguesa', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-34456975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — união de facto', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Presidência da República — Promulgação do Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
+    { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 90
