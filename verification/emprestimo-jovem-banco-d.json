@@ -1,0 +1,122 @@
+{
+  "guideId": "emprestimo-jovem-banco-d",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly accurate on the youth housing state guarantee, but it has a few material caveats missing and some outdated/misleading references, especially around the programme deadline, 'first home' wording, and IFD.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[2]",
+        "current": "Покупка первой habitação própria e permanente — жилья для собственного постоянного проживания",
+        "problem": "This is potentially too strict/misleading. The legal condition is not simply 'first home ever'; the regime requires acquisition of habitação própria e permanente and that the buyer is not already owner of an urban residential property/fraction and has not previously benefited from the State guarantee. Someone who owned a home in the past but no longer owns one may need a more nuanced analysis rather than being automatically excluded by the wording 'first'.",
+        "suggestion": "Write: \"Покупка жилья для habitação própria e permanente; на дату кредита у покупателя не должно быть другого жилого объекта в собственности, и он не должен был ранее пользоваться этой госгарантией.\"",
+        "confidence": "medium",
+        "source": "Decreto-Lei 44/2024; Portaria 236-A/2024/1"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[2].items[4]",
+        "current": "Если вам больше 35 или это не первое жильё — линия не применяется",
+        "problem": "The phrase 'not first housing' is too broad and may wrongly exclude cases where the buyer does not currently own residential property. The legal exclusion is tied to age, tax domicile, income, current ownership of residential property, previous use of the guarantee, and HPP purpose.",
+        "suggestion": "Replace with: \"Если вам уже больше 35, объект не будет вашей habitação própria e permanente, у вас уже есть жилой объект в собственности или вы уже пользовались этой госгарантией — линия не применяется.\"",
+        "confidence": "medium",
+        "source": "Decreto-Lei 44/2024; Portaria 236-A/2024/1"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].title",
+        "current": "Кто подходит в 2026 году",
+        "problem": "The guide does not mention the programme's time limit. The State guarantee regime is not an open-ended permanent product; it was created as a temporary measure and credit contracts/guarantees are subject to the legal validity period and budgetary/operational limits.",
+        "suggestion": "Add a caveat in this section: \"Проверьте актуальный срок действия линии: режим госгарантии был установлен как временная мера, с применением в рамках установленных законом сроков/лимитов; в 2026 году важно уточнять у банка, доступна ли ещё квота и принимает ли он новые операции по Linha Jovem Habitação.\" If giving a hard date, cite the current Portaria/DGTF/BPF operational notice.",
+        "confidence": "medium",
+        "source": "Decreto-Lei 44/2024; Portaria 236-A/2024/1"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[1]",
+        "current": "Налоговая резиденция в Португалии: NIF с morada fiscal в PT и, как правило, IRS/подтверждённые доходы",
+        "problem": "The law refers to tax domicile in Portugal, not merely having a NIF with an address. 'Tax residence' and 'morada fiscal' are closely related in practice but not identical concepts for every situation. For expats this wording can mislead people into thinking that changing the NIF address alone is sufficient.",
+        "suggestion": "Write: \"Domicílio fiscal в Португалии / morada fiscal в PT; одного NIF недостаточно. Банк также будет проверять законность пребывания, KYC и подтверждённые доходы.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 44/2024; Autoridade Tributária e Aduaneira"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].text",
+        "current": "Для экспата важнее законное пребывание, налоговая резиденция, подтверждаемый доход и готовность банка кредитовать нерезидента/нового резидента.",
+        "problem": "This is internally confusing: the programme requires Portuguese tax domicile, so saying the bank may credit a 'нерезидент' in the same context is misleading. A non-resident buyer generally should not expect to qualify for the State guarantee, even if some banks offer ordinary mortgage lending to non-residents outside the programme.",
+        "suggestion": "Replace with: \"Для экспата важнее законное пребывание, Portuguese tax domicile/morada fiscal em Portugal, подтверждаемый доход и готовность банка кредитовать нового резидента без длинной кредитной истории в PT. Обычная ипотека для нерезидента — отдельный продукт и не то же самое, что Linha Jovem Habitação.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 44/2024"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].text",
+        "current": "В 2026 году рыночные ипотечные предложения для молодых клиентов обычно находятся примерно в диапазоне 3,3–4,0% TAN/TAEG",
+        "problem": "TAN and TAEG should not be grouped as if they are interchangeable. TAEG includes costs/insurance/fees and is normally higher than TAN. A range like 3.3–4.0% may be plausible for some TAN offers but can understate TAEG depending on cross-selling, insurance, commissions and rate type.",
+        "suggestion": "Write: \"В 2026 году рекламные TAN по ипотеке могут быть около 3,3–4,0% в зависимости от Euribor/fixed rate/spread, но TAEG обычно выше, потому что включает комиссии, страховки и прочие расходы. Сравнивайте только FINE банка.\"",
+        "confidence": "medium",
+        "source": "Banco de Portugal — crédito à habitação e FINE"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].text",
+        "current": "Через IFD/Banco Português de Fomento, IAPMEI, гарантийные общества и банки существуют linhas de crédito...",
+        "problem": "IFD is outdated as a practical agency reference. Instituição Financeira de Desenvolvimento was integrated into/continued through Banco Português de Fomento structures; users should be directed to Banco Português de Fomento, IAPMEI, mutual guarantee societies and participating banks, not to IFD as if it were a current standalone access point.",
+        "suggestion": "Replace \"IFD/Banco Português de Fomento\" with \"Banco Português de Fomento (BPF), sociedades de garantia mútua, IAPMEI e bancos aderentes\".",
+        "confidence": "high",
+        "source": "Banco Português de Fomento; IAPMEI"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[6]",
+        "current": "IFD/BPF публикуют открытые линии и финансовых посредников",
+        "problem": "Same outdated IFD reference. IFD should not be presented as the current publisher for open credit lines in 2026.",
+        "suggestion": "Write: \"BPF публикует linhas de financiamento, avisos e intermediários financeiros; IAPMEI публикует информацию по PME, incentivos e programas.\"",
+        "confidence": "high",
+        "source": "Banco Português de Fomento; IAPMEI"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "\"IFD — instrumentos financeiros e linhas de financiamento\", \"url\": \"https://www.ifd.pt\"",
+        "problem": "Outdated source for 2026. IFD is not the right current official reference for financing lines; the guide should use Banco Português de Fomento and relevant programme pages instead.",
+        "suggestion": "Replace with an official BPF source, e.g. \"Banco Português de Fomento — linhas de financiamento\", URL: \"https://www.bpfomento.pt\".",
+        "confidence": "high",
+        "source": "Banco Português de Fomento"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Sources include DL 44/2024 and Banco de Portugal but not the implementing Portaria/protocol source for the guarantee.",
+        "problem": "For a sensitive banking/State guarantee guide, citing only the Decreto-Lei is incomplete. The operational conditions of the personal State guarantee were developed by implementing regulation/protocols; the guide should cite them or a current official government/DGTF/BPF page.",
+        "suggestion": "Add \"Portaria n.º 236-A/2024/1 — regulamenta a garantia pessoal do Estado para aquisição da primeira habitação própria e permanente\" and/or the current DGTF/BPF/government page listing operational rules and participating institutions.",
+        "confidence": "high",
+        "source": "Portaria 236-A/2024/1"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[1].content[0].items[6]",
+        "current": "Mapa de responsabilidades de crédito из Banco de Portugal",
+        "problem": "Correct, but incomplete for expats/new residents: Banco de Portugal's Central Credit Register only shows credit reported in Portugal. Foreign credit obligations may still need to be declared to the bank and can affect the affordability assessment.",
+        "suggestion": "Add: \"Если у вас есть кредиты за границей, банк может попросить иностранный credit report/выписки и включить платежи в taxa de esforço; Mapa do Banco de Portugal показывает только португальские кредиты.\"",
+        "confidence": "high",
+        "source": "Banco de Portugal — Central de Responsabilidades de Crédito"
+      }
+    ],
+    "missing_topics": [
+      "Programme validity/deadline and availability of bank quota/participating bank protocols in 2026",
+      "Official implementing regulation/source for the State guarantee, not just Decreto-Lei 44/2024",
+      "Clarification that ordinary non-resident mortgages are separate from Linha Jovem Habitação",
+      "Banco de Portugal macroprudential limits: DSTI/taxa de esforço, maturity limits and stress-test rules",
+      "Foreign credit obligations and foreign credit reports for expats"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3919,
+    "prompt_tokens": 3449,
+    "total_tokens": 7368
+  },
+  "model": "gpt-5.5"
+}

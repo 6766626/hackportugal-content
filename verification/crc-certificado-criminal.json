@@ -1,0 +1,85 @@
+{
+  "guideId": "crc-certificado-criminal",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом полезный и в основном актуальный, но местами переоценивает необходимость португальского CRC для AIMA/гражданства, использует неофициальное название документа и не оговаривает важные исключения по цене и апостилю.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Нужна для AIMA, некоторых работ, лицензий, волонтёрства, ВНЖ и гражданства»",
+        "problem": "Формулировка вводит в заблуждение: для процедур AIMA обычно требуется не сам португальский CRC от заявителя, а autorização para consulta do registo criminal português; для гражданства IRN, как правило, проверяет португальский criminal record самостоятельно, а заявитель подаёт справки из других стран проживания/гражданства. Из текста может сложиться впечатление, что португальский CRC является стандартным обязательным документом для ВНЖ и натурализации.",
+        "suggestion": "Заменить на: «Может понадобиться для некоторых работ, лицензий, волонтёрства и отдельных процедур; в AIMA чаще подписывают разрешение на проверку португальского реестра, а для гражданства IRN обычно проверяет португальский CRC сам — заявителю чаще нужны справки из других стран проживания.»",
+        "confidence": "high",
+        "source": "AIMA document checklists for residence permits; IRN nationality procedure guidance"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[0]",
+        "current": "«AIMA: часто требуется при первичном ВНЖ, смене статуса или отдельных процедурах; иногда достаточно дать AIMA разрешение запросить данные напрямую»",
+        "problem": "Слишком сильное утверждение. В стандартных процедурах ВНЖ AIMA обычно просит autorização para consulta do registo criminal português, а не готовую справку CRC. Справка о несудимости, которую заявитель должен принести, обычно относится к стране происхождения/стране проживания, а не к Португалии.",
+        "suggestion": "Написать: «AIMA: в стандартных процедурах чаще требуется подписать autorização para consulta do registo criminal português; отдельный португальский CRC заказывайте только если AIMA прямо попросила его. Иностранные справки о несудимости — отдельный документ и не заменяются португальским CRC.»",
+        "confidence": "high",
+        "source": "AIMA residence permit requirements"
+      },
+      {
+        "severity": "minor",
+        "where": "title",
+        "current": "«CRC — справка о несудимости в Португалии (Certidão de Registo Criminal)»",
+        "problem": "Официальное название услуги и документа обычно — «Certificado de Registo Criminal» или «certificado do registo criminal», а не «Certidão de Registo Criminal». В бытовой речи «certidão» встречается, но для гайда по документам лучше использовать официальное название.",
+        "suggestion": "Заменить на: «CRC — справка о несудимости в Португалии (Certificado de Registo Criminal)». По тексту также заменить «Certidão» на «Certificado», кроме случаев, где объясняется разговорное употребление.",
+        "confidence": "high",
+        "source": "gov.pt — pedir o certificado de registo criminal de pessoas singulares; registocriminal.justica.gov.pt"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[5]",
+        "current": "«Стоимость в 2026 году: 5 € за сертификат физического лица»",
+        "problem": "Цена 5 € верна как стандартная, но без caveat выглядит универсальной. Для некоторых целей, в частности волонтёрства, сертификат может быть бесплатным при соблюдении условий.",
+        "suggestion": "Написать: «Стандартная стоимость в 2026 году: 5 € за сертификат физического лица; для некоторых целей, например волонтёрства, может быть бесплатно — проверяйте условия на gov.pt/Registo Criminal перед заказом.»",
+        "confidence": "medium",
+        "source": "gov.pt — pedir o certificado de registo criminal de pessoas singulares"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[0]",
+        "current": "«Онлайн или очно; стандартная цена в 2026 году»",
+        "problem": "Та же проблема с универсальностью цены: «стандартная» цена корректна, но карточка расходов не показывает возможные освобождения от оплаты.",
+        "suggestion": "В note добавить: «Может быть бесплатно для отдельных целей, например voluntariado, если это предусмотрено правилами услуги.»",
+        "confidence": "medium",
+        "source": "gov.pt — pedir o certificado de registo criminal de pessoas singulares"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[3]",
+        "current": "«Выберите цель выдачи: emprego, AIMA, nacionalidade, licenciamento или другую подходящую»",
+        "problem": "Список целей выглядит как будто на портале есть прямые варианты «AIMA» и «nacionalidade». Для AIMA обычно нужен не отдельный CRC, а разрешение на проверку; для гражданства португальский CRC обычно проверяет IRN. Если такие цели недоступны или не требуются, пользователь может выбрать неправильную finalidade.",
+        "suggestion": "Заменить на: «Выберите официальную finalidade, которая точно соответствует требованию принимающего органа: emprego, licenciamento, работа с детьми/несовершеннолетними или другая доступная цель. Для AIMA и гражданства сначала проверьте, действительно ли нужен отдельный португальский CRC, а не autorização/проверка ex officio.»",
+        "confidence": "medium",
+        "source": "registocriminal.justica.gov.pt; AIMA and IRN official guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "«Для использования португальского CRC в другой стране обычно нужна Apostila da Convenção da Haia.»",
+        "problem": "В общем виде верно, но не хватает caveat: внутри ЕС для некоторых публичных документов действует Регламент (EU) 2016/1191, который в отдельных случаях отменяет апостиль. Для не-ЕС стран, включая Россию, апостиль обычно действительно нужен, если страна участвует в Гаагской конвенции.",
+        "suggestion": "Добавить: «Исключение: в некоторых процедурах внутри ЕС апостиль может не требоваться по Regulation (EU) 2016/1191; вне ЕС, в странах-участницах Гаагской конвенции, апостиль обычно нужен.»",
+        "confidence": "medium",
+        "source": "Regulation (EU) 2016/1191"
+      }
+    ],
+    "missing_topics": [
+      "Уточнить, что для AIMA обычно подписывают autorização para consulta do registo criminal português, а не заказывают отдельный CRC",
+      "Указать возможную бесплатность CRC для отдельных целей, например voluntariado",
+      "Добавить caveat про отмену апостиля для некоторых публичных документов внутри ЕС по Regulation (EU) 2016/1191",
+      "Использовать официальное название документа: Certificado de Registo Criminal"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3253,
+    "prompt_tokens": 2908,
+    "total_tokens": 6161
+  },
+  "model": "gpt-5.5"
+}

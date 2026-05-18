@@ -1,0 +1,57 @@
+{
+  "guideId": "s1-form-uk-pensioner",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate for UK S1 pensioners in Portugal, but it slightly understates billing/insurance caveats before S1 registration and uses one overly generic official source.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[1]",
+        "current": "S1 ещё не пришёл: временно используйте частную страховку или платный доступ; экстренная помощь через 112/SNS остаётся доступной.",
+        "problem": "This is directionally true, but misleadingly reassuring: emergency treatment is accessible, but if the person is not yet registered/entitled in SNS they may still be billed, and private insurance may exclude pre-existing conditions or hospitalisation. For temporary stays before residence/S1 registration, UK-issued GHIC/EHIC or travel insurance may be relevant.",
+        "suggestion": "Write: \"S1 ещё не пришёл: держите travel/private insurance and/or UK GHIC/EHIC for temporary-stay situations. Urgent/emergency care через 112/SNS доступна, но без зарегистрированного права на SNS/S1 вас могут попросить оплатить часть или весь счёт; private insurance often excludes pre-existing conditions.\"",
+        "confidence": "high",
+        "source": "GOV.UK: Healthcare in Portugal, including Madeira"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "Частная страховка на период ожидания — amountEURMin: 30, amountEURMax: 150;Ориентир в месяц для пожилого человека сильно зависит от возраста, франшизы и исключений.\"",
+        "problem": "For a UK State Pension-age person, €30/month is often unrealistically low for meaningful private health cover, and €150/month can also be exceeded depending on age, exclusions, waiting periods and hospital cover. The current range risks making pensioners underestimate the cost or availability problem.",
+        "suggestion": "Either remove the numeric range or write: \"Quote-based; for пенсионного возраста often roughly €80–300+/month, and some insurers impose age limits, exclusions, waiting periods or exclude pre-existing conditions. Cheap plans may be only discount/ambulatory plans, not a substitute for S1/SNS.\"",
+        "confidence": "medium",
+        "source": "Market pricing; no single official tariff"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "SNS 24: inscrição e acesso ao Serviço Nacional de Saúde — https://www.sns24.gov.pt/",
+        "problem": "The URL is the SNS24 homepage, not a specific source for foreign residents' registration/access to SNS or número de utente. For healthcare entitlement content, a generic homepage is weak as a citation.",
+        "suggestion": "Replace or supplement with a specific official page such as SNS24/ePortugal content on \"número de utente do SNS\" and/or \"acesso de cidadãos estrangeiros ao SNS\", plus an official Segurança Social source for registering S1 where available.",
+        "confidence": "high",
+        "source": "SNS24 / ePortugal official pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[5]",
+        "current": "S1 может покрывать некоторых dependants, но это проверяется NHS BSA индивидуально.",
+        "problem": "Mostly correct, but incomplete: dependants' entitlement can require separate confirmation/documentation and may also depend on Portuguese registration/acceptance rules and whether the dependant works or has their own healthcare entitlement. Readers may think NHS BSA alone fully decides the final Portuguese registration outcome.",
+        "suggestion": "Write: \"S1 может покрывать некоторых dependants, но не автоматически: NHS BSA и затем Segurança Social/Portuguese registration process must confirm this; работа, собственная пенсия or another entitlement can change the result.\"",
+        "confidence": "medium",
+        "source": "GOV.UK: Healthcare in Portugal, including Madeira"
+      }
+    ],
+    "missing_topics": [
+      "Add a short caveat that before S1 is registered, access to care may be chargeable even if emergency care cannot be refused.",
+      "Add a practical note that private insurance for pension-age applicants may have age limits, waiting periods and exclusions for pre-existing conditions.",
+      "Use a specific official Portuguese source for número de utente/SNS access instead of only the SNS24 homepage."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2689,
+    "prompt_tokens": 3231,
+    "total_tokens": 5920
+  },
+  "model": "gpt-5.5"
+}

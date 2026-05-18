@@ -1,0 +1,108 @@
+{
+  "guideId": "estatuto-doente-cronico",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом полезный и в основном корректный, но местами смешивает медицинскую фиксацию хронического диагноза, режимы comparticipação лекарств и юридические основания isenção de taxas moderadoras, из-за чего может создать завышенные ожидания.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Он нужен для isenção de taxas moderadoras в оставшихся платных случаях SNS и для специальной comparticipação лекарств: по протоколам диабета, онкологии, астмы, гипертонии и др. часть препаратов может быть 100% оплачена государством.",
+        "problem": "Фраза создаёт впечатление, что существует единый «статус хронического больного», который сам по себе даёт освобождение от taxas moderadoras и специальные скидки на лекарства. В Португалии это разные механизмы: isenção de taxas moderadoras зависит от закрытых юридических категорий/ситуаций, а comparticipação лекарств зависит от конкретного препарата, диагноза, режима рецепта и применимого despacho/portaria. Хронический диагноз сам по себе не всегда даёт isenção.",
+        "suggestion": "Заменить на: «Хронический диагноз фиксируется в processo clínico SNS и может быть важен для правильного режима comparticipação лекарств. Isenção de taxas moderadoras — отдельная административно-правовая льгота: она действует только для категорий и ситуаций, предусмотренных правилами SNS, а не для любого хронического заболевания автоматически.»",
+        "confidence": "high",
+        "source": "SNS 24 — Isenção de taxas moderadoras; Decreto-Lei n.º 113/2011; Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "по протоколам диабета, онкологии, астмы, гипертонии и др. часть препаратов может быть 100% оплачена государством",
+        "problem": "Диабет и онкология приведены уместно, но астма и гипертония в такой формулировке могут ввести в заблуждение: для них чаще применяются обычные уровни comparticipação или специальные режимы для конкретных ситуаций/препаратов, но не общее ожидание 100% оплаты. 100% покрытие не следует подавать как типичный результат для астмы/гипертонии.",
+        "suggestion": "Написать осторожнее: «Для некоторых групп, например инсулина и ряда диабетических расходников, а также многих hospitalar medicines при онкологическом лечении, участие пациента может быть нулевым. Для астмы, гипертонии и сердечно-сосудистых заболеваний покрытие обычно зависит от конкретного препарата и режима рецепта и часто не составляет 100%.»",
+        "confidence": "high",
+        "source": "INFARMED — Regimes excecionais de comparticipação; SNS 24 — medicamentos e comparticipação"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Отметку хронического заболевания в processo clínico SNS — её видят врач, enfermeiro и фармацевт через электронный рецепт.",
+        "problem": "Фармацевт не получает общий доступ к processo clínico SNS и не «видит хроническое заболевание» как клиническую запись. В аптеке видны данные электронного рецепта, prescribed medicines и применённый режим comparticipação/коды, но не вся клиническая история и не обязательно диагноз.",
+        "suggestion": "Заменить на: «Отметку хронического заболевания в processo clínico SNS — её видят медицинские специалисты SNS с соответствующим доступом. В аптеке по электронному рецепту видны данные рецепта и применённый режим comparticipação, но не вся клиническая запись.»",
+        "confidence": "high",
+        "source": "SPMS/SNS — Receita Sem Papel; INFARMED rules on prescription/dispensing"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[3].content[0].text",
+        "current": "После консультации подойдите в secretaria Centro de Saúde и спросите, активна ли isenção de taxas moderadoras в Registo Nacional de Utentes. Иногда медицинская отметка и административная льгота — разные действия.",
+        "problem": "Идея разделения медицинской отметки и административной льготы правильная, но текст всё ещё подразумевает, что после декларации о хроническом заболевании secretaria может «активировать» isenção. На практике основание должно входить в законный перечень: например incapacidade ≥60%, insuficiência económica, беременность, несовершеннолетние, донорство, определённые клинические ситуации/услуги и т.п. Для многих хронических заболеваний никакой isenção в RNU не появится.",
+        "suggestion": "Уточнить: «Спросите в secretaria, есть ли у вас отдельное законное основание для isenção de taxas moderadoras и отражено ли оно в RNU. Сам факт хронического диагноза обычно недостаточен; для лекарственных льгот важнее правильный regime de comparticipação в рецепте.»",
+        "confidence": "high",
+        "source": "SNS 24 — Isenção de taxas moderadoras; Decreto-Lei n.º 113/2011; Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[7]",
+        "current": "Более простой доступ к follow-up: consultas de vigilância, анализы, renouvellement de receita, вакцинация по показаниям.",
+        "problem": "Слово «renouvellement» французское, не португальское и не русское; в русскоязычном гайде с португальскими терминами выглядит как ошибка/опечатка.",
+        "suggestion": "Заменить на «renovação de receita» или по-русски «продление рецептов».",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[0].content[0].items[2]",
+        "current": "NIF — часто нужен для административной записи и рецептов.",
+        "problem": "NIF не является обязательным элементом для медицинского рецепта как такового; он важен для fatura/e-Fatura/IRS и иногда для административной идентификации, но не стоит создавать впечатление, что без NIF нельзя получить receita SNS.",
+        "suggestion": "Заменить на: «NIF — полезен для административной записи и обязателен, если хотите, чтобы faturas попали в e-Fatura/IRS; для самого рецепта ключевым обычно является número de utente.»",
+        "confidence": "medium",
+        "source": "SNS/SPMS — Receita Sem Papel; Autoridade Tributária — e-Fatura"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[5]",
+        "current": "Сохраняйте faturas с NIF: часть медицинских расходов попадает в e-Fatura и учитывается в IRS.",
+        "problem": "Нужна оговорка, что это актуально для налоговых резидентов/плательщиков IRS в Португалии и при корректной классификации расходов в e-Fatura. Для нерезидента или человека без IRS-обязательств практической налоговой выгоды может не быть.",
+        "suggestion": "Добавить: «Это имеет смысл, если вы являетесь налоговым резидентом/подаёте IRS в Португалии; проверяйте классификацию расходов в e-Fatura.»",
+        "confidence": "high",
+        "source": "Autoridade Tributária — e-Fatura; Código do IRS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2]",
+        "current": "Попросите médico de família выдать declaração médica de doença crónica с диагнозом и постоянным лечением.",
+        "problem": "Такая declaração может быть полезна, но сама по себе не гарантирует ни специальный regime de comparticipação, ни isenção de taxas moderadoras. Для лекарств критично, чтобы врач выбрал правильный режим/диплом в электронной рецептуре; для taxas — чтобы было отдельное законное основание.",
+        "suggestion": "Дополнить пункт: «Но помните: declaração не заменяет правильный regime de comparticipação в Receita sem papel и не создаёт isenção de taxas moderadoras без законного основания.»",
+        "confidence": "high",
+        "source": "INFARMED — Regimes excecionais de comparticipação; SNS 24 — Isenção de taxas moderadoras"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "DGS — programas de saúde e doenças crónicas / https://www.dgs.pt/",
+        "problem": "Ссылка слишком общая для конкретных утверждений о хронических заболеваниях, диабете, астме, онкологии и follow-up. Это не ошибка URL, но источник плохо подтверждает чувствительные медицинские claims.",
+        "suggestion": "Добавить более конкретные источники: страницы DGS по Programas Nacionais de Saúde relevantes или конкретные Normas/Orientações DGS для diabetes, doenças respiratórias, oncologia и doenças cardiovasculares, если они используются для практических утверждений.",
+        "confidence": "high",
+        "source": "DGS — Normas e Orientações; Programas Nacionais de Saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Нет отдельного источника для сумм taxas moderadoras 14/16/18 € и правила «urgência без направления и без госпитализации».",
+        "problem": "Суммы и исключения указаны корректно, но для такой конкретной финансовой информации лучше дать прямой нормативный источник, а не только страницу SNS24.",
+        "suggestion": "Добавить источник к costs/tldr: Decreto-Lei n.º 37/2022 для отмены большинства taxas moderadoras и актуальную таблицу/Portaria с valores das taxas moderadoras для Serviço de Urgência Básica, Médico-Cirúrgica и Polivalente.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022; Portaria n.º 306-A/2011, as amended"
+      }
+    ],
+    "missing_topics": [
+      "Чёткое разграничение трёх разных вещей: diagnóstico/doença crónica в processo clínico, regime especial/excecional de comparticipação лекарств, и isenção de taxas moderadoras.",
+      "Оговорка, что chronic disease не означает автоматическую isenção de taxas moderadoras; нужны законные категории или конкретные клинические ситуации/услуги.",
+      "Для мигрантов: базовая оговорка, что доступ к Centro de Saúde/SNS и médico de família зависит от наличия número de utente и административного статуса регистрации; без médico de família путь может идти через consulta aberta/UCSP/SNS24.",
+      "Для электронного рецепта: полезно упомянуть códigos de acesso/dispensa/opção или приложение SNS 24, потому что в аптеке часто нужны именно данные рецепта, а не только номер utente.",
+      "Для налогового вычета медицинских расходов: caveat про налоговое резидентство, IRS и проверку e-Fatura."
+    ]
+  },
+  "model": "gpt-5.5"
+}

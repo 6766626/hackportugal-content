@@ -1,0 +1,122 @@
+{
+  "guideId": "ato-isolado",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом правильно объясняет Ato Isolado, но содержит несколько существенных недочётов: вероятно неверную ставку IRS 2026, слишком упрощённые правила IVA для иностранных клиентов, вводящее в заблуждение оформление cost-блоков и как минимум один неправильный/неудачный официальный источник.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].text",
+        "current": "«...в 2026 первая ставка IRS — 11,97% для первого bracket.»",
+        "problem": "Число 11,97% не выглядит как стандартная первая ставка общей таблицы IRS для материковой Португалии и не подтверждено источником в гайде. Для Ato Isolado важнее не фиксировать одну ставку без контекста: итоговый IRS зависит от годовой таблицы art. 68.º CIRS, региона налогового резидентства, семейного положения и совокупного дохода.",
+        "suggestion": "Заменить на: «Для налоговых резидентов доход Ato Isolado суммируется с прочими доходами categoria B и облагается по прогрессивным ставкам IRS по таблице art. 68.º CIRS за соответствующий год; конкретная ставка зависит от совокупного годового дохода, региона и deductions.» Если хотите оставить цифру — дать актуальную официальную таблицу IRS 2026 и указать, что это ставка соответствующего года/региона.",
+        "confidence": "medium",
+        "source": "Código do IRS, art. 68.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "«По IVA Ato Isolado обычно считается облагаемой операцией. На материковой Portugal стандартная ставка — 23%, Madeira — 22%, Açores — 18%.»",
+        "problem": "Фраза слишком упрощает IVA. Для клиентов за пределами Португалии ставка 23/22/18% может не применяться из-за правил места оказания услуг, reverse charge/autoliquidação, операций вне поля португальского IVA или специальных правил для B2C-услуг. Для экспатов с иностранными заказчиками это критичный сценарий.",
+        "suggestion": "Добавить caveat: «Если клиент находится за пределами Португалии, особенно B2B в ЕС/третьей стране, не выбирайте автоматически 23%: нужно проверить regras de localização do art. 6.º CIVA и возможную autoliquidação/reverse charge или não sujeição. Для иностранных клиентов лучше сверить режим IVA с contabilista/AT до emissão.»",
+        "confidence": "high",
+        "source": "Código do IVA, art. 6.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[2].items[0]",
+        "current": "«IVA: обычно добавить 23% к цене на материке, если услуга не освобождена по CIVA»",
+        "problem": "Повторяет ту же проблему: создаётся впечатление, что для любой услуги с португальским резидентом достаточно добавить 23%, но ставка/режим зависят от вида операции, места налогообложения, статуса клиента и возможных exemptions. Особенно рискованно для remote services иностранным компаниям.",
+        "suggestion": "Написать: «IVA: для операций, место налогообложения которых находится в материковой Португалии и которые не освобождены, обычно применяется 23%; для Madeira/Açores и иностранных клиентов проверьте специальные правила.»",
+        "confidence": "high",
+        "source": "Código do IVA, arts. 6.º, 9.º, 18.º"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "«Практический лимит для освобождения от declaração de início de atividade — до 25 000 € за операцию»",
+        "problem": "«За операцию» может звучать так, будто можно делать несколько операций до 25 000 € каждая без abertura de atividade. Закон говорит об освобождении при одной изолированной taxable operation до порога; повторяемость сама по себе ломает логику Ato Isolado.",
+        "suggestion": "Заменить на: «Освобождение от declaração de início de atividade применяется к одной действительно изолированной taxable operation до 25 000 €; это не лимит “на каждый счёт” и не разрешение на серию разовых счетов.»",
+        "confidence": "high",
+        "source": "Código do IVA, art. 31.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[1]",
+        "current": "«Не требует abertura de atividade, если операция не превышает 25 000 €»",
+        "problem": "Формулировка неполная: отсутствие obrigação de início de atividade зависит не только от суммы, но и от того, что это одна изолированная операция, а не регулярная деятельность. В других местах гайд это объясняет, но этот пункт сам по себе может быть прочитан неверно.",
+        "suggestion": "Заменить на: «Не требует declaração de início de atividade, если это одна действительно изолированная операция и её valor tributável не превышает 25 000 €.»",
+        "confidence": "high",
+        "source": "Código do IVA, art. 31.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[2].items[6]",
+        "current": "«Можно применить dispensa de retenção по art. 101.º-B CIRS, если выполнены условия и доходы не превышают порог режима IVA art. 53.º CIVA»",
+        "problem": "Слишком кратко для чувствительной темы. Dispensa de retenção не является автоматической просто потому, что это Ato Isolado; нужно смотреть условия art. 101.º-B CIRS, тип дохода, предыдущий год/ожидаемый объём и правильную правовую ссылку в документе. Для некоторых доходов удержание обязательно.",
+        "suggestion": "Расширить: «Dispensa de retenção возможна только при выполнении условий art. 101.º-B CIRS — в частности, если применим соответствующий порог, привязанный к art. 53.º CIVA, и тип дохода не исключён. В документе нужно выбрать основание “Sem retenção — art. 101.º-B CIRS”. Если клиент обязан удерживать и условия dispensa не выполнены, retenção применяется.»",
+        "confidence": "medium",
+        "source": "Código do IRS, arts. 101.º and 101.º-B"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "{ \"label\": \"IVA на материковой Portugal\", \"amountEURMin\": 0, \"amountEURMax\": 0, \"note\": \"Обычно 23% от базы; это налог к перечислению, а не фиксированная пошлина\" }",
+        "problem": "amountEURMin/Max = 0/0 технически выглядит как «стоимость ноль», хотя IVA может быть существенной суммой. Note это частично исправляет, но структурно блок costs вводит в заблуждение.",
+        "suggestion": "Не указывать amountEURMin/Max для процентных налогов или заменить на поле percentage/rate. Например: «rate: 23% материк / 22% Madeira / 18% Açores, если операция облагается португальским IVA».",
+        "confidence": "high",
+        "source": "Código do IVA, art. 18.º"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "{ \"label\": \"Retenção na fonte IRS для многих профессиональных услуг\", \"amountEURMin\": 0, \"amountEURMax\": 0, \"note\": \"Часто 25% от базы, удерживает клиент при наличии обязанности\" }",
+        "problem": "Как и с IVA, диапазон 0/0 может быть прочитан как отсутствие удержания. Retenção — не расход-пошлина, а предоплата IRS, удерживаемая из суммы к выплате при наличии обязанности.",
+        "suggestion": "Убрать amountEURMin/Max или заменить на rate. Note уточнить: «Это не отдельная госпошлина, а withholding/prepayment of IRS, уменьшающий сумму к выплате и учитываемый в annual IRS settlement.»",
+        "confidence": "high",
+        "source": "Código do IRS, art. 101.º"
+      },
+      {
+        "severity": "major",
+        "where": "sources[0]",
+        "current": "title: «Autoridade Tributária: IRS — Atos Isolados, folheto informativo», url: «https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Inicio_atividade.pdf»",
+        "problem": "URL указывает на PDF про início de atividade, а не явно на folheto «Atos Isolados». Название источника не соответствует ссылке, поэтому источник плохо подтверждает ключевые утверждения про Ato Isolado.",
+        "suggestion": "Заменить на актуальный официальный folheto AT именно по «Atos Isolados», если он доступен, либо переименовать источник честно: «AT — Início de atividade» и добавить отдельный источник по Atos Isolados/FAQ AT. Для правовой базы оставить CIRS art. 3.º, 30.º/31.º CIVA, 101.º/101.º-B CIRS.",
+        "confidence": "high",
+        "source": "Portal das Finanças / Autoridade Tributária"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "title: «Código do IVA — sujeitos passivos, início de atividade и regras de IVA», url: «https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva31.aspx»",
+        "problem": "Ссылка ведёт на конкретную страницу art. 31.º CIVA, а title обещает весь Código do IVA и общие правила IVA. Для ставок, exemptions и place-of-supply нужны также art. 6.º, 9.º, 18.º и, возможно, полный PDF/кодекс.",
+        "suggestion": "Либо переименовать источник в «Código do IVA, art. 31.º — início de atividade/ato isolado», либо добавить отдельные ссылки на CIVA art. 6.º, 9.º, 18.º и полный Código do IVA.",
+        "confidence": "high",
+        "source": "Código do IVA"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[5]",
+        "current": "«В следующем году подайте IRS с Anexo B в обычный срок 1 апреля — 30 июня»",
+        "problem": "Срок 1 апреля — 30 июня является обычным сроком подачи Modelo 3 IRS, но его лучше формулировать как «обычно»/«если срок не изменён», потому что ежегодные deadlines могут продлеваться или корректироваться. Для нерезидентов и отдельных ситуаций также могут быть нюансы.",
+        "suggestion": "Заменить на: «В следующем году подайте Modelo 3 IRS с Anexo B в обычный срок 1 апреля — 30 июня, если AT не установит/не продлит иной срок для этого года.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças — IRS annual filing deadlines"
+      }
+    ],
+    "missing_topics": [
+      "Отдельный caveat про иностранных клиентов: B2B/B2C, ЕС/не ЕС, place-of-supply rules, reverse charge/autoliquidação и когда не применяется португальский IVA.",
+      "Явное указание, что 25 000 € — это не «годовой лимит Ato Isolado» и не лимит на серию счетов, а порог для освобождения от declaração de início de atividade при одной изолированной операции.",
+      "Более точное объяснение dispensa de retenção under art. 101.º-B CIRS и что она не автоматическая.",
+      "Официальный источник AT именно по Ato Isolado или корректно названные ссылки на конкретные статьи CIVA/CIRS.",
+      "Короткий пример расчёта net/gross: база, IVA, retenção и сумма к получению, чтобы не путать IVA с доходом и retenção с дополнительным налогом."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4914,
+    "prompt_tokens": 3741,
+    "total_tokens": 8655
+  },
+  "model": "gpt-5.5"
+}

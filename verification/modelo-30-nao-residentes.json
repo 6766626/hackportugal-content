@@ -1,0 +1,123 @@
+{
+  "guideId": "modelo-30-nao-residentes",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но слишком широко описывает Modelo 30 как отчёт по почти любым иностранным подрядчикам, хотя ключевой фильтр — доход нерезидента должен считаться полученным из источника в Португалии; также есть невозможная дата и неполный диапазон штрафов для компаний.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Modelo 30 подаётся в Finanças, когда empresa, ENI или atividade paga доход нерезиденту: иностранному подрядчику, арендодателю, консультанту, правообладателю, кредитору.",
+        "problem": "Формулировка создаёт впечатление, что почти любая оплата иностранному подрядчику автоматически требует Modelo 30. На практике Modelo 30 относится к rendimentos pagos ou colocados à disposição de não residentes, которые считаются полученными на территории Португалии / подлежат португальскому IRS/IRC-режиму. Платёж иностранному фрилансеру за услугу, полностью оказанную и использованную за пределами Португалии, может не быть Portuguese-source income и тогда Modelo 30 может не требоваться.",
+        "suggestion": "Написать: \"Modelo 30 подаётся, когда португальский плательщик выплачивает нерезиденту доход, который по CIRS/CIRC считается полученным из источника в Португалии, включая многие случаи услуг, аренды португальской недвижимости, процентов, royalties, dividends и т.п. Не каждая иностранная invoice автоматически попадает в Modelo 30 — сначала нужно проверить regras de fonte в CIRS/CIRC и договор об избежании двойного налогообложения.\"",
+        "confidence": "high",
+        "source": "CIRS art. 18 and art. 119; CIRC art. 4 and art. 128; Instruções da Declaração Modelo 30"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[0]",
+        "current": "Португальская Lda платит фрилансеру из Испании, США, Бразилии или Украины за услуги.",
+        "problem": "Как standalone-пример это слишком широко и может быть неверно. Оплата иностранному фрилансеру не всегда является доходом из источника в Португалии. Нужно различать место выполнения услуги, место использования/получения выгоды, характер услуги, наличие постоянного представительства, domestic source rules и treaty business profits article.",
+        "suggestion": "Заменить на: \"Португальская Lda платит нерезиденту за услуги, которые по CIRS/CIRC считаются полученными из источника в Португалии, например услуги, выполненные или использованные в Португалии, либо иные случаи, прямо попадающие под regras de fonte; для обычных business profits нерезидента без PE договор может убрать удержание, но отчётность проверяется отдельно.\"",
+        "confidence": "high",
+        "source": "CIRS art. 18; CIRC art. 4; OECD-style DTA art. 7; Instruções da Declaração Modelo 30"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[1]",
+        "current": "Atividade / recibos verdes оплачивает иностранного подрядчика как бизнес-расход.",
+        "problem": "То, что платёж является business expense у португальского ENI/atividade, само по себе не делает его доходом португальского источника у нерезидента и не всегда создаёт Modelo 30. Нужен source/treaty-анализ.",
+        "suggestion": "Добавить оговорку: \"если такой платёж квалифицируется как Portuguese-source income по CIRS/CIRC; сам факт включения invoice в расходы atividade ещё не равен обязанности Modelo 30\".",
+        "confidence": "high",
+        "source": "CIRS art. 18 and art. 119; Instruções da Declaração Modelo 30"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1]",
+        "current": "Выплата 29.02.2026 → подать до 30.04.2026.",
+        "problem": "29 февраля 2026 года не существует: 2026 не високосный год.",
+        "suggestion": "Исправить на: \"Выплата 28.02.2026 → подать до 30.04.2026.\" Либо использовать високосный год: \"Выплата 29.02.2024 → подать до 30.04.2024.\"",
+        "confidence": "high",
+        "source": "calendar"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].text",
+        "current": "За неподачу или позднюю подачу налоговой декларации RGIT обычно предусматривает coima от 150 € до 3 750 €.",
+        "problem": "Диапазон по RGIT art. 116 указан неполно для юридических лиц. Базовый диапазон 150–3 750 € часто цитируется, но по RGIT art. 26 для pessoas coletivas, sociedades и similar entities лимиты coima обычно удваиваются, что особенно важно, потому что guide в основном обращён к Lda/empresa. Также при добровольной подаче до проверки могут применяться reduced coimas, поэтому фактическая сумма может быть ниже номинального диапазона.",
+        "suggestion": "Написать: \"По RGIT art. 116 базовая coima за falta/atraso de declaração — 150–3 750 €, но для юридических лиц лимиты обычно удваиваются по RGIT art. 26; при добровольной regularização до проверки могут применяться reduções de coima. Если параллельно не удержан налог, добавляются сам налог, juros и отдельные штрафные риски.\"",
+        "confidence": "high",
+        "source": "RGIT art. 26, art. 29 and art. 116"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "\"amountEURMin\": 150, \"amountEURMax\": 3750, \"note\": \"Типовой диапазон coima по RGIT art. 116; итог зависит от фактов и поведения налогоплательщика.\"",
+        "problem": "Для компаний/Lda, которые являются типичными плательщиками в этом гайде, лимиты coima обычно удваиваются по RGIT art. 26. Таблица costs без этой оговорки занижает потенциальный максимум.",
+        "suggestion": "Изменить note на: \"Базовый диапазон RGIT art. 116; для pessoas coletivas/empresas лимиты coima обычно удваиваются по RGIT art. 26. Добровольное исправление до проверки может дать redução de coima.\" Можно добавить отдельный диапазон для юридических лиц: 300–7 500 €.",
+        "confidence": "high",
+        "source": "RGIT art. 26 and art. 116"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[2].items[2]",
+        "current": "Проверьте, считается ли доход полученным из источника в Португалии.",
+        "problem": "Это правильный пункт, но он расположен слишком поздно и выглядит как один из многих checks, хотя это главный gateway для Modelo 30. Ранее в гайде перечислены иностранные подрядчики так, будто обязанность уже возникла.",
+        "suggestion": "Перенести этот caveat в TLDR и первый раздел: \"Сначала определить, является ли выплата Portuguese-source income; если нет, Modelo 30 обычно не подаётся.\"",
+        "confidence": "high",
+        "source": "CIRS art. 18; CIRC art. 4; Instruções da Declaração Modelo 30"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[5]",
+        "current": "Есть royalties, лицензии, software/IP payments нерезиденту.",
+        "problem": "Software/IP payments не всегда являются royalties. Например, покупка стандартного software/SaaS без передачи IP rights может квалифицироваться иначе, а treaty treatment зависит от конкретного договора и характера прав. Формулировка может привести к автоматическому удержанию/Modelo 30 там, где нужна квалификация.",
+        "suggestion": "Написать: \"royalties, лицензии и некоторые software/IP payments нерезиденту — после проверки, является ли платёж royalty/license fee или обычной оплатой услуги/товара по CIRS/CIRC и применимому treaty.\"",
+        "confidence": "medium",
+        "source": "CIRS art. 18; CIRC art. 4; applicable DTA royalty articles"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[2].text",
+        "current": "Попросите contabilista подать falta/declaração de substituição",
+        "problem": "Терминологически неточно: если декларация вообще не была подана, подают декларацию em falta/late original declaration; declaração de substituição подают, когда уже была подана декларация и её нужно исправить.",
+        "suggestion": "Заменить на: \"Попросите contabilista подать декларацию em falta; если декларация уже была подана с ошибками — declaração de substituição.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças procedural terminology"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "\"url\": \"https://info.portaldasfinancas.gov.pt\"",
+        "problem": "Ссылка слишком общая и не ведёт непосредственно к Modelo 30, инструкциям или форме. Для чувствительной налоговой обязанности нужен deep link на официальную страницу/поиск AT с Modelo 30 и инструкциями.",
+        "suggestion": "Заменить или дополнить ссылкой на официальную страницу AT для Modelo 30 / declarações eletrónicas / modelos e formulários, включая \"Instruções de preenchimento da Declaração Modelo 30\".",
+        "confidence": "high",
+        "source": "Portal das Finanças / AT — Modelo 30 and Instruções de preenchimento"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Нет отдельного источника на Código do IRC, хотя текст несколько раз говорит о IRC, corporate income и удержании у нерезидентных компаний.",
+        "problem": "Для guide, который затрагивает Lda, corporate recipients, dividends, royalties, interest and IRC withholding, source list должен включать Código do IRC, особенно art. 4, art. 94, art. 98 and art. 128.",
+        "suggestion": "Добавить источник: \"Código do IRC — regras de fonte, retenção na fonte e obrigações declarativas\", DRE consolidated legislation link.",
+        "confidence": "high",
+        "source": "Código do IRC, Decreto-Lei 442-B/88"
+      }
+    ],
+    "missing_topics": [
+      "Главный gateway: Modelo 30 обычно касается доходов нерезидентов, которые считаются полученными в Португалии по CIRS/CIRC; не всякая иностранная invoice автоматически попадает в декларацию.",
+      "Отдельная оговорка по services/business profits: при нерезиденте без permanent establishment договор об избежании двойного налогообложения часто убирает taxation/withholding в Португалии, но domestic source rules и обязанность отчётности нужно проверять.",
+      "Различие между late original declaration, declaração de substituição и regularização de retenção na fonte.",
+      "Удвоение лимитов coima для юридических лиц по RGIT art. 26 и возможность reduced coima при добровольной regularização.",
+      "Официальные Instruções de preenchimento da Declaração Modelo 30 как источник для кодов доходов, стран, оснований освобождения и технической подачи.",
+      "Ссылка на Código do IRC для выплат нерезидентным компаниям."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3992,
+    "prompt_tokens": 3772,
+    "total_tokens": 7764
+  },
+  "model": "gpt-5.5"
+}

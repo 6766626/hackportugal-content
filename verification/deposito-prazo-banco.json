@@ -1,0 +1,75 @@
+{
+  "guideId": "deposito-prazo-banco",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом точный и полезный, но есть несколько важных уточнений по ссылке на comparador, ActivoBank/Millennium для лимита FGD и налоговым caveats.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "sources[0].url",
+        "current": "https://clientebancario.bportugal.pt/pt-pt/aplicacoes-de-depositos-a-prazo",
+        "problem": "Ссылка выглядит как неправильный/непрямой URL для официального Comparador de Depósitos a Prazo. У Banco de Portugal comparador обычно находится в разделе 'aplicacao/comparador-de-depositos-a-prazo'. Текущая ссылка может вести не на сам инструмент сравнения или быть битой/устаревшей.",
+        "suggestion": "Заменить на прямую ссылку на инструмент: https://clientebancario.bportugal.pt/pt-pt/aplicacao/comparador-de-depositos-a-prazo и оставить корневую ссылку Portal do Cliente Bancário как дополнительный источник.",
+        "confidence": "medium",
+        "source": "Banco de Portugal — Portal do Cliente Bancário"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[2].items[1]",
+        "current": "ActivoBank — удобен для expat-бытовых операций и мобильного банка",
+        "problem": "В тексте ActivoBank перечислен рядом с другими банками, а ниже отдельно упоминается Millennium bcp. Это может создать у читателя ложное ощущение, что ActivoBank и Millennium bcp — независимые банки для целей лимита FGD. ActivoBank является брендом/каналом Banco Comercial Português / Millennium bcp, поэтому деньги в ActivoBank и Millennium bcp нужно суммировать для лимита 100 000 € на вкладчика на кредитную институцию.",
+        "suggestion": "Написать: \"ActivoBank — удобен для expat-бытовых операций и мобильного банка, но для лимита FGD учитывайте, что это бренд Banco Comercial Português / Millennium bcp; остатки в ActivoBank и Millennium bcp суммируются.\"",
+        "confidence": "high",
+        "source": "Banco de Portugal — lista de instituições de crédito; Banco Comercial Português / ActivoBank"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "Для физлиц проценты по банковским депозитам в Португалии обычно облагаются retenção na fonte 28%.",
+        "problem": "Фраза в целом верная для стандартного случая, но слишком обобщает. Для некоторых ситуаций возможны другие режимы: например, повышенная ставка 35% для получателей/счетов, связанных с юрисдикциями из португальского blacklist, а для нерезидентов применение DTT требует правильных документов и обычно не происходит автоматически без подтверждения.",
+        "suggestion": "Добавить caveat: \"Стандартная ставка для обычного физлица — 28%, но возможны исключения: например, 35% для некоторых ситуаций с юрисдикциями из португальского blacklist; нерезидентам для применения соглашения об избежании двойного налогообложения обычно нужны корректные документы в банке.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 71.º; Autoridade Tributária"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[1]",
+        "current": "Можно выбрать englobamento в декларации IRS, но это выгодно не всегда: при высокой marginal rate может стать хуже",
+        "problem": "Не хватает важной технической оговорки: при выборе englobamento удержанный налог обычно становится payment on account/credit, а выбор может требовать агрегировать доходы той же категории, а не только один удобный депозит. Без этого читатель может подумать, что можно выборочно включить только выгодные проценты.",
+        "suggestion": "Уточнить: \"Можно выбрать englobamento в IRS, но это нужно моделировать: удержанные 28% засчитываются, а при выборе englobamento обычно агрегируются доходы соответствующей категории, поэтому при высокой marginal rate итог может быть хуже.\"",
+        "confidence": "medium",
+        "source": "Código do IRS, artigos 22.º и 71.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[6]",
+        "current": "Выплата по гарантии в ЕС ориентирована на короткий срок; FGD указывает процедуру на fgd.pt",
+        "problem": "Слишком расплывчато для важного защитного механизма. В Португалии FGD обычно должен обеспечить выплату покрытых депозитов в срок до 7 рабочих дней после определения недоступности депозитов, с предусмотренными законом исключениями/особенностями.",
+        "suggestion": "Написать конкретнее: \"Стандартный ориентир выплаты в Португалии — до 7 рабочих дней после того, как Banco de Portugal признаёт депозиты недоступными; детали и исключения смотрите на fgd.pt.\"",
+        "confidence": "high",
+        "source": "Fundo de Garantia de Depósitos; Regime Geral das Instituições de Crédito e Sociedades Financeiras"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[0]",
+        "current": "\"amountEURMin\": 0, \"amountEURMax\": 0, \"note\": \"Не фиксированная комиссия: обычно удерживается 28% от начисленных процентов при выплате.\"",
+        "problem": "В cost-блоке налог показан как 0–0 €, что может визуально восприниматься как отсутствие расходов, хотя это переменная процентная удерживаемая сумма. Примечание объясняет, но структура всё равно потенциально вводит в заблуждение.",
+        "suggestion": "Если формат позволяет, заменить на percentage/rate: \"28% от начисленных процентов\". Если формат не позволяет, в label написать \"Налог на проценты IRS — 28% от процентов, не 0 €\" или убрать min/max 0 из отображения.",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 71.º"
+      }
+    ],
+    "missing_topics": [
+      "Временная повышенная защита FGD выше 100 000 € для отдельных temporary high balances, если релевантно: например, поступления от продажи жилья или социально значимых выплат при соблюдении условий и сроков.",
+      "Явное предупреждение, что начисленные, но ещё не выплаченные проценты тоже могут учитываться при лимите гарантии, поэтому для максимальной защиты лучше оставлять запас ниже 100 000 €.",
+      "Официальный источник по налогу 28%: Autoridade Tributária / Código do IRS, artigo 71.º."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3345,
+    "prompt_tokens": 3736,
+    "total_tokens": 7081
+  },
+  "model": "gpt-5.5"
+}

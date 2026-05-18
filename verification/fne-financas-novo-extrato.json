@@ -1,0 +1,85 @@
+{
+  "guideId": "fne-financas-novo-extrato",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом полезный и в основном корректный, но есть несколько неточностей по стоимости certidões, терминологии IUC и недостаточно явно отделена certidão de residência fiscal от обычного fiscal address proof.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "«отдельные certidões могут стоить до 10 €»",
+        "problem": "Формулировка «до 10 €» выглядит как жёсткий верхний предел, но для некоторых certidões/cópias/emissão presencial или многостраничных заверенных документов сбор может быть выше; кроме того, типичные emolumentos могут быть не ровно 10 €. Без указания конкретного типа справки это слишком категорично.",
+        "suggestion": "Заменить на: «Многие comprovativos онлайн бесплатны; если конкретная certidão облагается emolumentos/taxa, Portal das Finanças покажет сумму до подтверждения. Не считайте 10 € универсальным максимумом.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças — emissão de certidões / tabela de emolumentos AT"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[1]",
+        "current": "«Отдельные certidões или заверенные варианты могут стоить до 10 €.»",
+        "problem": "Та же проблема: указание верхней границы 10 € может быть неверным для заверенных копий, presencial service или certidões с emolumentos, зависящими от документа/страниц.",
+        "suggestion": "Написать: «Отдельные certidões или заверенные варианты могут быть платными; сумма зависит от типа документа и будет показана порталом или Serviço de Finanças до/при выдаче.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças — certidões; AT emolumentos"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "«amountEURMin: 0, amountEURMax: 10»",
+        "problem": "Диапазон 0–10 € создаёт впечатление официального лимита. Для справочника лучше не задавать max, если он не подтверждён конкретной таблицей сборов для конкретной certidão.",
+        "suggestion": "Убрать amountEURMax или заменить запись на текстовую: «0 € для большинства онлайн-comprovativos; платные certidões — по сумме, показанной Portal das Finanças/Serviço de Finanças».",
+        "confidence": "medium",
+        "source": "Portal das Finanças — certidões; AT emolumentos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[6]",
+        "current": "«Certidão IUC — данные по транспортному налогу IUC и автомобилям, связанным с вашим NIF.»",
+        "problem": "«Certidão IUC» не является самым точным/устойчивым названием услуги. На практике чаще используются consulta IUC, notas de cobrança/DUC, comprovativos de pagamento IUC и данные veículos. Для доказательства права собственности на автомобиль нужен не документ AT, а регистрационный документ/сертификат из IRN, например certidão permanente automóvel.",
+        "suggestion": "Заменить на: «IUC / veículos — consulta de veículos, notas de cobrança/DUC и comprovativos de pagamento IUC по автомобилям, связанным с NIF; для доказательства собственности используйте документы IRN, например certidão permanente automóvel.»",
+        "confidence": "high",
+        "source": "Portal das Finanças — IUC; IRN — Certidão permanente automóvel"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[5]",
+        "current": "«Для автомобиля: comprovativo IUC, данные транспортного средства и отсутствие долгов по IUC.»",
+        "problem": "Для многих целей по автомобилю одного IUC/comprovativo из AT недостаточно: он подтверждает налог/платёж, но не является полноценным proof of ownership или регистрационной certidão. Это может ввести экспатов в заблуждение при продаже, страховании, импорте/экспорте или споре о регистрации.",
+        "suggestion": "Добавить: «IUC подтверждает налоговую часть; право собственности/регистрацию подтверждают DUA/certificado de matrícula или certidão permanente automóvel через IRN.»",
+        "confidence": "high",
+        "source": "IRN — Certidão permanente automóvel; Portal das Finanças — IUC"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1]",
+        "current": "Список доступных справок не включает отдельным пунктом certidão de residência fiscal, хотя далее она упоминается.",
+        "problem": "Для иностранной налоговой, CRS/FATCA, применения DTT и подтверждения налогового резидентства это один из ключевых документов AT. Сейчас читатель может спутать её с comprovativo de morada fiscal / domicílio fiscal, хотя это разные вещи.",
+        "suggestion": "Добавить отдельный пункт: «Certidão de residência fiscal — подтверждение налогового резидентства в Portugal за конкретный год; при необходимости может запрашиваться для применения convenção para evitar dupla tributação. Не равна comprovativo de morada fiscal.»",
+        "confidence": "high",
+        "source": "Portal das Finanças — Obter certidão de residência fiscal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Указаны только общие страницы Portal das Finanças/ePortugal.",
+        "problem": "Для темы налоговых справок источники слишком общие: нет прямой ссылки/названия официальных сервисов для emissão/validação de certidões, certidão de residência fiscal и situação tributária regularizada. Это затрудняет проверку сроков действия, стоимости и подлинности PDF.",
+        "suggestion": "Добавить официальные источники по конкретным сервисам: Portal das Finanças → Serviços → Certidões → Obter Certidão; Validar Certidão; serviço de Situação Tributária Regularizada; Certidão de residência fiscal.",
+        "confidence": "high",
+        "source": "Portal das Finanças — Serviços / Certidões"
+      }
+    ],
+    "missing_topics": [
+      "Отдельный мини-раздел о certidão de residência fiscal: когда нужна, чем отличается от morada fiscal, как указывать год и convenção para evitar dupla tributação.",
+      "Явное различие между документами AT по IUC и регистрационными документами IRN/DUA/certidão permanente automóvel.",
+      "Более осторожная формулировка по платным certidões: не указывать 10 € как универсальный максимум без конкретной таблицы emolumentos.",
+      "Прямая инструкция, где проверить PDF по código de validação в Portal das Finanças."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3323,
+    "prompt_tokens": 3614,
+    "total_tokens": 6937
+  },
+  "model": "gpt-5.5"
+}

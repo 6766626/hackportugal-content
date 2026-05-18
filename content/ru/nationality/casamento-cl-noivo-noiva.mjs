@@ -3,7 +3,7 @@ export default {
   id: 'casamento-cl-noivo-noiva',
   categoryId: 'nationality',
   title: 'Casamento Civil: этапы и документы для иностранцев',
-  tldr: 'Casamento Civil в Португалии оформляется через Conservatória do Registo Civil или Notário. Иностранцы-резиденты и нерезиденты проходят тот же процесс: минимум за 30 дней подают declaração de não-impedimento / processo preliminar, паспорта и справки о семейном положении. Иностранные документы нужны с апостилем/легализацией и переводом на PT. Базовая церемония — около 140 €, выездная локация — плюс около 450 €. Обычно берут 2 свидетелей с документами.',
+  tldr: 'Casamento Civil в Португалии оформляется через **Conservatória do Registo Civil / IRN**. Церемонию проводит **conservador или oficial de registos**, НЕ нотариус; notário нужен для convenção antenupcial (брачного договора), но не для самой регистрации брака. Иностранцы-резиденты и нерезиденты проходят тот же процесс: минимум за 30 дней подают processo preliminar, паспорта и справки о семейном положении. Иностранные документы нужны с апостилем/легализацией и переводом на PT. Стандартный сбор за processo + registo de casamento по Regulamento Emolumentar — ориентировочно от €120; выездная церемония вне Conservatória — отдельная surcharge по таблице IRN, зависит от дня недели и удалённости. Обычно берут 2 свидетелей с документами.',
   tags: ['casamento', 'загс', 'irn', 'документы'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'Что такое Casamento Civil в Португалии',
       content: [
-        { kind: 'paragraph', text: 'Casamento Civil — официальный гражданский брак, регистрируемый в Conservatória do Registo Civil, через IRN или у Notário, имеющего полномочия проводить гражданские браки. Религиозная церемония сама по себе не заменяет гражданскую регистрацию, если она не оформлена в установленной законом форме.' },
+        { kind: 'paragraph', text: 'Casamento Civil — официальный гражданский брак, регистрируемый в **Conservatória do Registo Civil (IRN)**. Церемонию проводит **conservador или oficial de registos**. Notário не является обычным органом регистрации гражданского брака — он нужен для convenção antenupcial (брачного договора), если выбирается нестандартный режим имущества. Религиозная церемония сама по себе не заменяет гражданскую регистрацию, если она не оформлена в установленной законом форме (catolico с эффектами по Concordata — отдельная процедура).' },
         { kind: 'paragraph', text: 'Иностранцы проходят тот же процесс, что и граждане Португалии: предварительная проверка брачных препятствий, подача документов, назначение даты, церемония и внесение записи в registo civil.' },
         { kind: 'checklist', items: [
           'ВНЖ в Португалии не обязателен для самого факта заключения брака',
@@ -28,11 +28,11 @@ export default {
       id: 'where-to-apply',
       title: 'Куда подавать заявление',
       content: [
-        { kind: 'paragraph', text: 'Заявление подают в любую Conservatória do Registo Civil, не обязательно по адресу проживания. Также можно использовать serviços online IRN, если у заявителей есть доступ к португальской цифровой идентификации, либо обратиться к Notário, если он оказывает услугу casamento civil.' },
+        { kind: 'paragraph', text: 'Заявление подают в любую Conservatória do Registo Civil, не обязательно по адресу проживания. Также можно использовать serviços online IRN, если у заявителей есть доступ к португальской цифровой идентификации. Для convenção antenupcial (брачного договора) можно обратиться к Notário или в Conservatória — но саму регистрацию брака notário не проводит.' },
         { kind: 'checklist', items: [
-          'Conservatória do Registo Civil — стандартный путь через IRN',
+          'Conservatória do Registo Civil — стандартный путь через IRN; церемонию ведёт conservador/oficial de registos',
           'Balcão do IRN в Loja de Cidadão — если там есть услуга registo civil',
-          'Notário — удобнее для частной церемонии, но уточняйте полномочия и стоимость',
+          'Convenção antenupcial (брачный договор) — оформляется у Notário ИЛИ в Conservatória до брака, если выбирается нестандартный режим имущества',
           'Онлайн-заявка возможна не для всех иностранцев: часто нужна личная подача из-за проверки документов',
           'Для пары, где один человек не говорит по-португальски, заранее уточните необходимость переводчика на церемонии',
           'Если один из будущих супругов не может прийти лично, спросите Conservatória о procuração с нужными полномочиями'
@@ -76,7 +76,7 @@ export default {
             { kind: 'paragraph', text: 'Подайте pedido de casamento / processo preliminar и declaração de não-impedimento. Сотрудник проверяет документы, личность, семейное положение и отсутствие impedimentos matrimoniais.' }
           ] },
           { id: 's4-date', title: '4. После одобрения: дата и формат церемонии', content: [
-            { kind: 'paragraph', text: 'Вы выбираете церемонию в Conservatória/Notário или вне помещения — например, в quinta, отеле, саду или частной локации. Для выезда нужны свободный сотрудник, адрес, время и доплата.' }
+            { kind: 'paragraph', text: 'Вы выбираете церемонию в Conservatória или вне помещения — например, в quinta, отеле, саду или частной локации. Для выезда нужны свободный conservador/oficial, адрес, время и доплата по таблице IRN. Notário саму церемонию не проводит.' }
           ] },
           { id: 's5-ceremony', title: '5. В день свадьбы: документы и свидетели', content: [
             { kind: 'paragraph', text: 'Оба будущих супруга приходят с оригиналами документов. Свидетели берут паспорт, Cartão de Cidadão или cartão de residência. Если один из супругов не понимает португальский, заранее согласуйте переводчика.' }
@@ -120,8 +120,8 @@ export default {
     }
   ],
   costs: [
-    { label: 'Casamento Civil в Conservatória или у Notário', amountEUR: 140, note: 'Ориентир для стандартной церемонии и регистрации; финальную сумму подтверждайте при записи в IRN/Notário.' },
-    { label: 'Выездная церемония вне Conservatória', amountEUR: 450, note: 'Доплата за выбранную локацию; может добавляться к базовой стоимости и зависеть от времени, места и доступности сотрудника.' },
+    { label: 'Processo + registo de casamento в Conservatória (IRN)', amountEURMin: 120, amountEURMax: 160, note: 'Ориентир для стандартной церемонии по Regulamento Emolumentar dos Registos e do Notariado; финальную сумму подтверждайте при записи в IRN.' },
+    { label: 'Выездная церемония вне Conservatória', amountEURMin: 300, amountEURMax: 600, note: 'Surcharge по таблице IRN; зависит от дня недели, времени и удалённости; точную сумму уточняйте в конкретной Conservatória.' },
     { label: 'Convenção antenupcial', amountEURMin: 100, amountEURMax: 250, note: 'Если нужен брачный договор или нестандартный режим имущества; цена зависит от Conservatória/Notário и содержания.' },
     { label: 'Перевод и нотариальное удостоверение', amountEURMin: 30, amountEURMax: 120, note: 'За документ; зависит от языка, срочности и переводчика.' },
     { label: 'Apostila de Haia за границей', amountEURMin: 10, amountEURMax: 80, note: 'Не португальский сбор; зависит от страны выдачи документа.' }
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

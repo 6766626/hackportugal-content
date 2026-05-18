@@ -1,0 +1,66 @@
+{
+  "guideId": "carta-social-rede-social",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом корректно описывает Carta Social, но местами переобещает актуальность данных о vagas, упрощает Creche Feliz и содержит пару неточных/неудачных формулировок и источников.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "“часто показывает контакты, вместимость и вакансии”",
+        "problem": "Публичная Carta Social прежде всего показывает entidade/resposta social, контакты, capacidade и обычно número de utentes/данные на дату обновления; реальная vaga не является надёжным оперативным полем и часто выводится/понимается как разница между capacidade и utentes. Формулировка создаёт ожидание, что сайт показывает актуальные свободные места.",
+        "suggestion": "Заменить на: “часто показывает контакты, capacidade и число utentes/данные на дату обновления; реальные vagas нужно подтверждать напрямую в учреждении”.",
+        "confidence": "medium",
+        "source": "Carta Social official site"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[7]",
+        "current": "“Для creche проверьте отдельно программу Creche Feliz, если нужен бесплатный или субсидируемый вариант”",
+        "problem": "Creche Feliz — не просто “бесплатный или субсидируемый вариант” для любой creche. Применяются отдельные правила eligibility/покрытия, участие учреждения в сети, отсутствие места в social/solidary sector для частных aderentes, а некоторые расходы могут не покрываться. Без этого caveat читатель может решить, что любая creche из Carta Social может быть бесплатной.",
+        "suggestion": "Написать: “Для creche отдельно проверьте Creche Feliz: право на бесплатность, год/возраст ребёнка, наличие учреждения в rede aderente и что именно покрывается программой; Carta Social сама по себе не гарантирует бесплатное место”.",
+        "confidence": "high",
+        "source": "Segurança Social — Creche Feliz; Portaria n.º 198/2022 and amendments"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "“В Португалии муниципалитет называется concelho; район внутри муниципалитета — freguesia.”",
+        "problem": "Freguesia — это административная гражданская приходская единица, а не обязательно “район” в бытовом смысле. В городах freguesia может совпадать с районом, но не всегда; в сельских concelhos это скорее parish/local administrative unit.",
+        "suggestion": "Заменить на: “concelho/município — муниципалитет; freguesia — административная приходская единица внутри муниципалитета, иногда примерно соответствует району/кварталу”.",
+        "confidence": "high",
+        "source": "Portuguese administrative division terminology"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[7]",
+        "current": "“Если вам отказывают без объяснений, попросите de admissão и наличие livro de reclamações”",
+        "problem": "Фраза “попросите de admissão” грамматически неполная и неясная. Вероятно, имеется в виду regulamento/critério de admissão или ficha/decisão de admissão.",
+        "suggestion": "Заменить на: “Если вам отказывают без объяснений, попросите regulamento interno/critério de admissão и информацию о livro de reclamações; при необходимости подайте жалобу через Livro de Reclamações”.",
+        "confidence": "high",
+        "source": "Livro de Reclamações official system"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "“GEPIS — государственная платформа информации по социальной сети”, url: “https://www.gepis.gov.pt”",
+        "problem": "Источник выглядит сомнительно для читателя: Carta Social — публичный официальный источник; GEP/GEPIS обычно не является понятной публичной справочной страницей для поиска учреждений. Если URL не проверен вручную, его лучше убрать или заменить на страницу GEP/MTSSS о Carta Social.",
+        "suggestion": "Проверить URL вручную. Если это не публичная страница с описанием Carta Social, заменить на официальный источник GEP/MTSSS или оставить только https://www.cartasocial.pt и релевантную страницу Segurança Social.",
+        "confidence": "medium",
+        "source": "Carta Social official site; GEP/MTSSS"
+      }
+    ],
+    "missing_topics": [
+      "Короткое предупреждение, что Carta Social не является доказательством качества учреждения, отсутствия санкций или актуальной лицензии; перед договором стоит запросить licença/alvará, regulamento interno, contrato и tabela de preços.",
+      "Для Creche Feliz полезно добавить отдельный caveat: проверять rede aderente/приложение или страницу Segurança Social, возраст/год рождения ребёнка, покрываемые и непокрываемые расходы.",
+      "Для жалоб и проблем стоит явно упомянуть Livro de Reclamações eletrónico и, для социальных учреждений, обращение в Segurança Social/ISS по месту нахождения учреждения."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2750,
+    "prompt_tokens": 2879,
+    "total_tokens": 5629
+  },
+  "model": "gpt-5.5"
+}

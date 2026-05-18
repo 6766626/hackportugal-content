@@ -1,0 +1,66 @@
+{
+  "guideId": "passport-change-mid-residency",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate and practical, but it should tighten the AIMA-card replacement caveat, fix/update the ePortugal URL, and cite the 2026 AIMA fee table for the exact €307.20 figure.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www2.gov.pt/en/servicos/renovar-a-autorizacao-de-residencia",
+        "problem": "The old www2.gov.pt/ePortugal URL format is outdated and may redirect inconsistently; the current government services portal uses gov.pt URLs. For a guide verified in 2026, relying on the legacy URL is misleading.",
+        "suggestion": "Replace with the current gov.pt service page URL, e.g. https://www.gov.pt/en/services/renew-residence-permit or the Portuguese equivalent on gov.pt, and re-check the exact live URL before publication.",
+        "confidence": "medium",
+        "source": "gov.pt / ePortugal migration to gov.pt"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1].note",
+        "current": "С 01.03.2026 по обновлённой таблице AIMA отдельные процедуры, например art. 75, стоят 307,20 €.",
+        "problem": "The exact AIMA fee is stated, but the sources list does not cite the legal fee table or Portaria that introduced the 01.03.2026 AIMA fee changes. A generic AIMA homepage source is not enough for a precise statutory fee.",
+        "suggestion": "Add a source entry for the official AIMA fee table / applicable Portaria and cite it next to the amount. For example: 'AIMA tabela de taxas em vigor desde 01.03.2026 / Portaria 480-A/2025/1' if that is the instrument used for the fee table.",
+        "confidence": "high",
+        "source": "Portaria 480-A/2025/1; AIMA tabela de taxas em vigor desde 01.03.2026"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "\"label\": \"Замена или дубликат cartão de residência\", \"amountEURMin\": 0, \"amountEURMax\": 307.2",
+        "problem": "Putting the minimum as €0 can be misleading: communicating passport details may be free, but if AIMA actually issues a replacement/duplicate residence card, a fee is normally due unless a specific exemption applies. The label is about replacement/duplicate, not just notification.",
+        "suggestion": "Split into two lines: 1) 'Сообщение/обновление данных без выпуска новой карты — обычно €0'; 2) 'Выпуск замены/дубликата cartão de residência — по действующей таблице AIMA; проверьте конкретный artigo/основание, например до €307,20 для отдельных процедур'.",
+        "confidence": "medium",
+        "source": "AIMA tabela de taxas em vigor desde 01.03.2026"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[3]",
+        "current": "Cartão de residência обычно продолжает действовать до даты validade, если не изменились имя, гражданство, дата рождения или тип ВНЖ.",
+        "problem": "The statement is broadly right, but it omits the practical caveat that if any identity element printed on the residence card no longer matches the valid passport, the holder may need a replacement/substitution of the card rather than merely updating the file. This is especially relevant for name/transliteration changes.",
+        "suggestion": "Write: 'Cartão de residência обычно продолжает действовать до даты validade, если меняется только номер паспорта. Если изменились данные, напечатанные на карте — имя/транслитерация, гражданство, дата рождения, пол или тип разрешения — нужно уточнять в AIMA замену/substituição карты.'",
+        "confidence": "high",
+        "source": "AIMA practice; Lei 23/2007 duties to keep residence records current"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[3]",
+        "current": "Если до продления далеко, проверьте личный кабинет/канал AIMA или отправьте запрос через официальные контакты AIMA с темой об обновлении данных документа.",
+        "problem": "This is safe advice, but it may overstate the existence of a reliable 'личный кабинет/канал AIMA' for simple passport-number updates. AIMA online services have been fragmented and procedure-specific; not every resident has an online route for this change.",
+        "suggestion": "Rephrase more cautiously: 'Если до продления далеко, проверьте, есть ли для вашей категории ВНЖ доступный онлайн-сервис AIMA; если нет — отправьте запрос через официальные контакты AIMA/форму контакта и сохраните подтверждение отправки.'",
+        "confidence": "medium",
+        "source": "AIMA official services portal"
+      }
+    ],
+    "missing_topics": [
+      "Mention explicitly that a simple passport-number change is different from a legal identity change; if the residence card’s printed data no longer match the passport, AIMA may require card substitution.",
+      "Add the official AIMA fee-table source for the 01.03.2026 fees rather than citing only the AIMA homepage.",
+      "Clarify that AIMA may not provide a fast or guaranteed separate procedure for updating only the passport number, so residents should keep proof of attempted notification if renewal is far away."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2280,
+    "prompt_tokens": 3415,
+    "total_tokens": 5695
+  },
+  "model": "gpt-5.5"
+}

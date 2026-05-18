@@ -1,0 +1,86 @@
+{
+  "guideId": "namorada-de-facto-direitos",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is mostly solid on união de facto rights, but it contains a serious anachronistic/unsupported nationality-law update and a few legal-source/cost caveats that should be fixed.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[4].content[1].items[6]",
+        "current": "«03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII (новая редакция Lei da Nacionalidade). На 13.05.2026 закон ВСЁ ЕЩЁ НЕ опубликован в DRE (10 дней с промульгации). После публикации в Diário da República минимальный срок união de facto для подачи на гражданство увеличится с 3 до 5 лет...»",
+        "problem": "This is outside the April 2026 legal state and contradicts the required reference point: as of April 2026 the new nationality law had been approved by Parliament on 01.04.2026 and was awaiting presidential promulgation/publication, so it was not in force. The text states later May 2026 events as fact and gives a definitive future legal effect before DRE publication. Also the “10 days from promulgation” phrasing is misleading: the relevant constitutional deadlines are about presidential promulgation/veto after receipt, not a simple rule that a law is published in DRE within 10 days of promulgation.",
+        "suggestion": "Replace with: «На апрель 2026 действует прежняя редакция Lei da Nacionalidade: для aquisição da nacionalidade через união de facto с гражданином Португалии требуется união de facto более 3 лет и предварительное судебное признание союза. 01.04.2026 Assembleia da República одобрила изменения к Lei da Nacionalidade, но до промульгации Президентом и публикации в Diário da República они не вступают в силу. Перед подачей проверяйте актуальную редакцию Lei 37/81 в DRE и страницу IRN/Justiça.»",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 3; Constituição da República Portuguesa, arts. 136 and 119; DRE"
+      },
+      {
+        "severity": "major",
+        "where": "sources[4]",
+        "current": "«Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)», lastRetrieved: «2026-05-04»",
+        "problem": "The source date and claimed event are after the April 2026 review point. For an April-2026 guide this source should not be used to state the law has been promulgated or will definitely enter into force in a specific form.",
+        "suggestion": "Use a source for the 01.04.2026 parliamentary approval/status only, and clearly mark the reform as «aprovada pela Assembleia da República, aguardando promulgação/publicação; ainda não em vigor». Keep the DRE consolidated Lei 37/81 as the controlling source until publication of an amending law.",
+        "confidence": "high",
+        "source": "DRE; Assembleia da República legislative process; Lei 37/81"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "«Судебное признание união de facto для гражданства», amountEURMin: 300, amountEURMax: 1200, note: «Оценка с учётом advogado и custas...»",
+        "problem": "The minimum of €300 including lawyer and court fees is likely unrealistically low for a civil court action to recognise união de facto for nationality. These actions normally require a lawyer in practice, and court fees plus professional fees often exceed this floor. The range may mislead readers into budgeting too little.",
+        "suggestion": "Change to a more cautious wording, e.g. «примерно €800–€2,500+ с advogado и custas; может быть дешевле только при apoio judiciário или очень простой ситуации. Запросите orçamento у advogado/solicitador». If you keep €300, label it as «custas/fees only, without lawyer» rather than total cost.",
+        "confidence": "medium",
+        "source": "Regulamento das Custas Processuais; Ordem dos Advogados practice varies"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[0]",
+        "current": "«Семейный дом: surviving partner имеет право проживания в casa de morada de família на срок, установленный Lei 7/2001; при союзе более 5 лет срок может быть связан с длительностью союза.»",
+        "problem": "Legally correct in spirit but too vague for an important right. Lei 7/2001 gives a right of use of the family home and household contents for 5 years; if the união de facto lasted more than 5 years, for a period equal to the duration of the union, with possible court extension and further conditions/exceptions.",
+        "suggestion": "Write more precisely: «Переживший партнёр имеет direito real de habitação da casa de morada de família и direito de uso do recheio на 5 лет; если союз длился более 5 лет — на срок, равный длительности союза. Суд может продлить срок с учётом обстоятельств; есть исключения, например при наличии собственного жилья в соответствующей зоне.»",
+        "confidence": "high",
+        "source": "Lei 7/2001, art. 5"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[6]",
+        "current": "«Иммиграция: AIMA может рассматривать parceiro em união de facto как члена семьи для reunificação familiar, если союз надёжно доказан.»",
+        "problem": "Correct but incomplete for non-EU expats: recognition as a family member does not remove the usual reunification requirements such as valid residence status of the sponsor, accommodation, means of subsistence and documentary proof/legalisation. Readers may think proof of união de facto alone is enough.",
+        "suggestion": "Add: «Но одного доказательства союза недостаточно: AIMA также проверяет право заявителя на reunificação familiar, meios de subsistência, alojamento, легализацию/перевод документов и отсутствие оснований для отказа.»",
+        "confidence": "high",
+        "source": "Lei 23/2007, arts. 98–108; AIMA family reunification guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[4]",
+        "current": "«Налог: для gratuitous transfers между unidos de facto может применяться освобождение от 10% Imposto do Selo...»",
+        "problem": "The statement is broadly correct, but the phrase «может применяться» should be tied to the Stamp Duty Code exemption for spouse/united de facto, descendants and ascendants. It should also warn that other taxes/costs and formal title-transfer requirements may still apply depending on the asset.",
+        "suggestion": "Write: «По Código do Imposto do Selo gratuitous transfers в пользу unido de facto освобождаются от 10% imposto do selo, но право на актив должно возникнуть по завещанию/договору/закону, а регистрационные расходы и специальные правила для недвижимости всё равно возможны.»",
+        "confidence": "high",
+        "source": "Código do Imposto do Selo, art. 6(e)"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include Lei 7/2001, Justiça.gov, Lei 37/81, Justiça.gov nationality page, Presidência page only.",
+        "problem": "The guide makes claims about IRS, Segurança Social death benefits, labour absences, hospital/health decisions, tenancy/housing, Stamp Duty and AIMA reunification, but does not cite primary or official sources for those categories. For a legal guide, this is under-sourced.",
+        "suggestion": "Add official/legal sources for: Código do IRS art. 14; Segurança Social death benefits/pensão de sobrevivência pages; Código do Trabalho absence provisions; Lei 23/2007 and/or AIMA reunification guidance; Código do Imposto do Selo art. 6(e); Civil Code/New Urban Lease Regime provisions on family home/lease transmission where relevant.",
+        "confidence": "high",
+        "source": "CIRS; Segurança Social; Código do Trabalho; Lei 23/2007; Código do Imposto do Selo"
+      }
+    ],
+    "missing_topics": [
+      "For nationality, explain that the civil-court recognition required by Lei 37/81 art. 3 is different from a Junta declaration or administrative recognition at a Conservatória.",
+      "For AIMA family reunification, list the usual non-union requirements: valid sponsor residence, accommodation, means of subsistence, legalised/translatable documents and appointment/backlog issues.",
+      "For death of a partner, mention the precise 5-year/factual-duration rule for direito real de habitação and direito de uso do recheio under Lei 7/2001.",
+      "For tax, cite Código do IRS joint taxation rules and Código do Imposto do Selo exemption rather than relying only on general wording.",
+      "For medical decisions, distinguish hospital visiting/information access from formal healthcare decision-making via Diretiva Antecipada de Vontade/procuração."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4136,
+    "prompt_tokens": 4177,
+    "total_tokens": 8313
+  },
+  "model": "gpt-5.5"
+}

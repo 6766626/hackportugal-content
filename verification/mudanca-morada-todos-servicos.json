@@ -1,0 +1,95 @@
+{
+  "guideId": "mudanca-morada-todos-servicos",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный, но есть несколько существенных неточностей: не указан 60-дневный срок для Finanças, упрощён процесс подтверждения morada fiscal, смешаны роли IMT и IRN по авто, а по AIMA не хватает официального процедурного источника.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0].content[0].items",
+        "current": "«Введите новый адрес полностью… Подтвердите изменение… Скачайте comprovativo de morada fiscal»",
+        "problem": "Процесс изменения morada fiscal через Portal das Finanças описан слишком упрощённо. Для многих налогоплательщиков изменение адреса не становится окончательным сразу: AT может отправить письмо с código de confirmação на новый адрес, после чего нужно подтвердить изменение в Portal das Finanças. До подтверждения адрес может оставаться pending/неэффективным.",
+        "suggestion": "Добавить шаги: «После подачи запроса дождитесь письма AT с código de confirmação на новый адрес; зайдите в Portal das Finanças и подтвердите alteração de morada; только после подтверждения скачайте comprovativo de morada fiscal и проверьте, что новый адрес активен».",
+        "confidence": "high",
+        "source": "Portal das Finanças — Alteração/Confirmação de morada fiscal"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "«Morada fiscal — главный юридический адрес для налогов…»",
+        "problem": "Не указан важный законный срок: изменение налогового domicilio fiscal должно быть сообщено Autoridade Tributária в течение 60 дней. В гайде 60 дней подчёркнуты только для AIMA, из-за чего читатель может подумать, что у Finanças срока нет.",
+        "suggestion": "Добавить: «Изменение domicilio fiscal нужно сообщить AT в течение 60 дней после переезда; пока изменение не сообщено/не подтверждено, уведомления, отправленные на старый налоговый адрес, могут считаться действительными».",
+        "confidence": "high",
+        "source": "Lei Geral Tributária, artigo 19.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].title",
+        "current": "«3. AIMA: держателям ВНЖ — обязательно за 60 дней»",
+        "problem": "По-русски «за 60 дней» может читаться как «за 60 дней до переезда», хотя юридически речь о сроке «в течение 60 дней после изменения адреса». В тексте ниже это написано правильно, но заголовок двусмысленный.",
+        "suggestion": "Заменить заголовок на: «AIMA: держателям ВНЖ — уведомить в течение 60 дней после переезда».",
+        "confidence": "high",
+        "source": "Lei 23/2007, artigo 86.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[7]",
+        "current": "«IMT и авто: адрес в документах водителя/владельца, особенно если есть автомобиль, IUC, страховка, Via Verde»",
+        "problem": "Смешаны разные ведомства. IMT относится к водительскому удостоверению и данным водителя, но изменение адреса владельца автомобиля/Documento Único Automóvel относится к registo automóvel, то есть IRN/Conservatória do Registo Automóvel/Automóvel Online, а не просто IMT. IUC администрируется AT/Finanças.",
+        "suggestion": "Разделить пункт: «IMT: данные водителя/carta de condução и уведомления по водительским вопросам»; «IRN / Registo Automóvel / Automóvel Online: адрес владельца в registo automóvel/DUA»; «AT/Finanças: IUC и налоговые уведомления».",
+        "confidence": "high",
+        "source": "IMT; IRN — Registo Automóvel / Automóvel Online; Autoridade Tributária — IUC"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[4]",
+        "current": "«IMT: если есть carta de condução portuguesa, автомобиль, регистрация владельца или нужны уведомления по транспорту»",
+        "problem": "Фраза misleading: «регистрация владельца» автомобиля — это не IMT, а registo automóvel у IRN/Conservatória. IMT не является универсальным органом для смены адреса владельца авто.",
+        "suggestion": "Заменить на: «IMT: проверьте данные, связанные с carta de condução/водительским досье. Если есть автомобиль, отдельно проверьте адрес владельца в Registo Automóvel через IRN/Conservatória/Automóvel Online».",
+        "confidence": "high",
+        "source": "IRN — Registo Automóvel; IMT"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Есть источник на Lei 23/2007, но нет официального источника AIMA по практическому каналу уведомления адреса.",
+        "problem": "Для чувствительной миграционной обязанности недостаточно сослаться только на закон. В гайде предлагается «portal / contact form / atendimento», но не дан официальный источник AIMA с актуальным каналом подачи/контакта. Это рискованно, потому что каналы AIMA часто меняются.",
+        "suggestion": "Добавить официальный источник AIMA: страницу услуги/контактов AIMA для comunicação de alteração de morada или общий официальный канал AIMA, через который принимаются такие уведомления; в тексте указать, что канал нужно проверять на дату подачи.",
+        "confidence": "medium",
+        "source": "AIMA — serviços/contactos oficiais"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "«language»: «en» для URL «https://www.gov.pt/servicos/alterar-a-morada-em-varias-entidades-publicas-e-privadas»",
+        "problem": "Метаданные источника выглядят неверно: указан Portuguese gov.pt URL с португальским slug, но language стоит «en». Это не ломает гайд, но ухудшает качество ссылок.",
+        "suggestion": "Поставить «language»: «pt» либо заменить URL на англоязычную версию страницы, если она действительно используется.",
+        "confidence": "medium",
+        "source": "gov.pt"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "«главный онлайн-маршрут — gov.pt / ePortugal “Mudança de Morada”: он меняет morada fiscal и передаёт адрес в часть госорганов»",
+        "problem": "Формулировка может создать впечатление, что сервис напрямую и универсально меняет morada fiscal для всех пользователей. На практике полноценный batch-сценарий завязан прежде всего на Cartão de Cidadão/CMD; иностранцам с título de residência часто нужно менять morada fiscal отдельно в Portal das Finanças.",
+        "suggestion": "Переформулировать: «Для владельцев Cartão de Cidadão сервис может передать новый адрес в AT и другие entidades; владельцам título de residência обычно нужно отдельно проверить/изменить morada fiscal в Portal das Finanças».",
+        "confidence": "high",
+        "source": "gov.pt/ePortugal — Alterar morada; Portal das Finanças"
+      }
+    ],
+    "missing_topics": [
+      "60-дневный срок для уведомления Autoridade Tributária о смене domicilio fiscal",
+      "Подтверждение изменения morada fiscal через код из письма AT, если применимо",
+      "Разделение IMT и IRN/Registo Automóvel для водителя и владельца автомобиля",
+      "Официальный актуальный канал AIMA для comunicação de alteração de morada",
+      "Проверка адреса в recenseamento eleitoral применимо только к гражданам с избирательной регистрацией, не к большинству держателей ВНЖ"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3372,
+    "prompt_tokens": 3792,
+    "total_tokens": 7164
+  },
+  "model": "gpt-5.5"
+}

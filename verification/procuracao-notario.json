@@ -1,0 +1,95 @@
+{
+  "guideId": "procuracao-notario",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный и в основном актуальный, но недоговаривает несколько важных юридических caveat по форме procuração, недвижимости, безотзывным доверенностям и переводам.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "«Для некоторых действий достаточно assinatura reconhecida presencialmente — личного удостоверения подписи. Для более серьёзных сделок делают instrumento público или documento particular autenticado.»",
+        "problem": "Формулировка слишком мягкая: по Código Civil procuração должна иметь форму, требуемую для сделки, которую представитель будет совершать, если закон не говорит иначе. Для сделок с недвижимостью и ряда актов простого reconhecimento presencial de assinatura может быть недостаточно; часто нужна escritura pública или documento particular autenticado/эквивалентная форма.",
+        "suggestion": "Добавить прямо: «По art. 262.º/2 Código Civil доверенность должна соблюдать форму, требуемую для действия, которое представитель будет совершать. Поэтому для недвижимости, ипотеки, дарения, раздела наследства и других формальных актов заранее подтвердите у notário/conservatória/advogado, достаточно ли reconhecimento de assinatura или нужен instrumento público / documento particular autenticado.»",
+        "confidence": "high",
+        "source": "Código Civil, art. 262.º/2"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[1].items",
+        "current": "«Точный объект: адрес, artigo matricial, descrição predial, fração, если речь о недвижимости.» / «Конкретные полномочия: подписывать, платить, получать, регистрировать...»",
+        "problem": "Для доверенностей на недвижимость отсутствует важное предупреждение про procuração irrevogável / procuração também no interesse do procurador ou de terceiro. Такие доверенности с полномочиями отчуждать недвижимость могут иметь налоговые последствия, включая IMT, и несут высокий риск фактической передачи контроля над объектом.",
+        "suggestion": "Добавить warning: «Не делайте procuração irrevogável или procuração no interesse do procurador/terceiro для недвижимости без advogado и налоговой проверки. Безотзывная доверенность с полномочиями продажи недвижимости может рассматриваться как облагаемая операция для IMT и фактически лишает доверителя обычного контроля над сделкой.»",
+        "confidence": "high",
+        "source": "Código Civil, art. 265.º; Código do IMT, art. 2.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].text",
+        "current": "«Procuração можно отменить, если она не является безотзывной по специальному основанию.»",
+        "problem": "Смысл верный, но caveat слишком расплывчатый. В португальском праве procuração is generally revocable, но если она выдана также в интересе представителя или третьего лица, revogação может требовать согласия заинтересованного лица, кроме случаев justa causa. Это особенно важно для недвижимости и коммерческих сделок.",
+        "suggestion": "Уточнить: «Обычная procuração обычно отзывная. Но если она выдана também no interesse do procurador ou de terceiro / irrevogável, отзыв без согласия заинтересованного лица возможен только при justa causa; такую формулировку нельзя включать “для удобства” без юриста.»",
+        "confidence": "high",
+        "source": "Código Civil, art. 265.º/3"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[1].content[1].items[5]",
+        "current": "«Право передоверия — только если действительно нужно.»",
+        "problem": "Правильно, но неполно: кроме substabelecimento, для ряда сделок может понадобиться отдельное express consent на negócio consigo mesmo / self-dealing, если представитель будет действовать от имени обеих сторон или покупать/продавать себе. Без такого разрешения сделка может быть оспоримой/недействительной из-за конфликта интересов.",
+        "suggestion": "Добавить пункт: «Если представитель может заключать сделку с самим собой или одновременно представлять вторую сторону, это нужно отдельно и явно разрешить; иначе действует ограничение на negócio consigo mesmo.»",
+        "confidence": "high",
+        "source": "Código Civil, art. 261.º"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3].note",
+        "current": "«Обычно за страницу; при sworn/certified translation цена выше и зависит от языка.»",
+        "problem": "Термин sworn translation может вводить в заблуждение применительно к Португалии: в Португалии нет единого института sworn translators как в некоторых странах. Для португальского использования обычно делают перевод с certification/authentication у notário, advogado, solicitador, consulate или другой принимаемой организации; для использования за границей требования задаёт страна назначения.",
+        "suggestion": "Заменить на: «В Португалии нет универсального статуса sworn translator; обычно нужен перевод, заверенный/удостоверенный notário, advogado, solicitador, consulado или по правилам страны назначения.»",
+        "confidence": "high",
+        "source": "Código do Notariado; práticas IRN/consulares"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[3]",
+        "current": "«Уточните у принимающей стороны, нужен ли перевод до апостиля или после апостиля.»",
+        "problem": "Не хватает важной практической детали: если перевод заверяется как отдельный документ, апостиль может понадобиться не только на исходную procuração, но и на подпись/качество лица, удостоверившего перевод. И наоборот, некоторые страны хотят перевод уже после апостиля.",
+        "suggestion": "Уточнить: «Если перевод заверяется отдельно, спросите, нужен ли апостиль также на заверение перевода. Часто порядок такой: апостиль на оригинал → перевод оригинала вместе с апостилем → заверение перевода по правилам страны назначения.»",
+        "confidence": "medium",
+        "source": "HCCH Apostille Convention practical operation; Justiça.gov.pt apostila"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://dre.pt/dre/legislacao-consolidada/-/lc/106480475/202604280000/diplomasModificantes",
+        "problem": "URL выглядит как страница «diplomasModificantes» консолидированного акта, а не прямая ссылка на текст статей Código Civil о representação voluntária/procuração. Для читателя это может открывать список изменений, а не нужные нормы.",
+        "suggestion": "Использовать прямую ссылку на консолидированный Código Civil с artigos 258.º–269.º или указать в title конкретно: «Código Civil, artigos 258.º–269.º; especialmente 261.º, 262.º e 265.º».",
+        "confidence": "medium",
+        "source": "DRE — Código Civil consolidado"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: Justiça.gov.pt Procuração, DRE Código Civil, Justiça.gov.pt Apostila, HCCH Apostille Convention",
+        "problem": "Для утверждений о полномочиях advogados/solicitadores удостоверять подписи и документы не хватает отдельного источника. Это чувствительная юридическая часть, потому что принимающая сторона может отказаться от документа, если форма удостоверения выбрана неправильно.",
+        "suggestion": "Добавить источник по competência de advogados/solicitadores для reconhecimentos/autenticações, например Decreto-Lei 76-A/2006 и/или применимые правила Ordem dos Advogados / Ordem dos Solicitadores e dos Agentes de Execução, а также Código do Notariado для нотариальной формы.",
+        "confidence": "high",
+        "source": "Decreto-Lei 76-A/2006; Código do Notariado"
+      }
+    ],
+    "missing_topics": [
+      "Правило формы по art. 262.º/2 Código Civil: procuração должна соблюдать форму сделки, которую будет совершать представитель.",
+      "Налоговый и юридический риск procuração irrevogável для недвижимости, включая возможный IMT.",
+      "Negócio consigo mesmo / конфликт интересов: когда представитель действует от имени обеих сторон или заключает сделку с самим собой.",
+      "Для documento particular autenticado по недвижимости — необходимость правильной authentication/deposit/registration procedure у notário/advogado/solicitador/conservatória.",
+      "Португалия не имеет универсального института sworn translators; требования к certified translation зависят от страны и принимающего органа."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4073,
+    "prompt_tokens": 3841,
+    "total_tokens": 7914
+  },
+  "model": "gpt-5.5"
+}

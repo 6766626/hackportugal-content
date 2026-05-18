@@ -1,0 +1,96 @@
+{
+  "guideId": "donativos-deduzir-irs",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it overstates the practical availability of the 25%/15%-of-collecta deduction because it omits the general IRS deduction caps and a few important compliance caveats.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].text",
+        "current": "Стандартное правило для физических лиц по Estatuto dos Benefícios Fiscais: 25% суммы donativos вычитается из collecta IRS. Для большинства пожертвований частным IPSS, религиозным, культурным, научным и социальным entidades действует потолок: вычет не может превышать 15% вашей collecta.",
+        "problem": "This is incomplete and can be misleading. The 15% of collecta cap is not the only practical limit. IRS deductions, including benefícios fiscais, can also be constrained by the general deduction caps in Código do IRS artigo 78.º, depending on taxable income and other deductions already used. A taxpayer may have a valid donativo but see little or no extra refund if the global cap is already exhausted.",
+        "suggestion": "Add: «Кроме специального лимита 15% collecta, donativos как benefício fiscal могут также попадать под общие лимиты deduções à coleta в IRS. Поэтому итоговый эффект всегда проверяйте через simulação IRS: если общий лимит уже исчерпан другими вычетами, donativo может не увеличить refund.»",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 78.º; Estatuto dos Benefícios Fiscais, artigo 63.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].text",
+        "current": "Пример: collecta IRS = 3 000 €. Вы пожертвовали 1 000 € в IPSS с правом на benefício fiscal. Расчёт: 1 000 € × 25% = 250 €. Лимит 15% collecta = 450 €. Значит, можно использовать весь вычет 250 €.",
+        "problem": "The example says the full €250 can be used, but that is only true if the taxpayer is not blocked by the general IRS deduction cap and has enough collecta after other deductions. As written, the example presents a simplified ceiling as a guaranteed result.",
+        "suggestion": "Change the final sentence to: «По специальному лимиту 15% весь вычет 250 € помещается; фактически он будет использован только если не исчерпаны общие лимиты deduções à coleta и есть достаточная collecta после остальных вычетов.»",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 78.º; Estatuto dos Benefícios Fiscais, artigo 63.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[2].text",
+        "current": "Если при той же collecta 3 000 € вы пожертвовали 3 000 €, расчётный вычет = 750 €, но лимит 15% collecta = 450 €. В IRS зачтут максимум 450 €.",
+        "problem": "«Зачтут максимум 450 €» is too categorical. €450 is the specific 15%-of-collecta ceiling, not necessarily the amount actually usable after the general IRS deduction limits and other deductions.",
+        "suggestion": "Write: «По специальному лимиту donativos максимум составит 450 €. Реально использованная сумма может быть ниже из-за общих лимитов deduções à coleta и других уже заявленных вычетов.»",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 78.º; Estatuto dos Benefícios Fiscais, artigo 63.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[2]",
+        "current": "Платёж можно подтвердить: transferência bancária, MB WAY, Multibanco, cartão, cheque",
+        "problem": "The guide should explicitly warn about cash and weakly identifiable payments. For cash donations above the legal threshold, the payment must be made through a means that identifies the donor, such as bank transfer, nominative cheque or direct debit. MB WAY transfers to an individual phone number may be hard to substantiate unless the recipient/entity and donor are clearly identifiable.",
+        "suggestion": "Replace with: «Для денежных donativos храните доказуемый платёж. Donativos em dinheiro свыше 200 € должны проходить через средство, позволяющее идентифицировать doador/mecenas, например transferência bancária, cheque nominativo или débito direto; избегайте наличных и MB WAY на личный номер без recibo с NIF/NIPC.»",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais, artigo 66.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "Donativos проверяются в Modelo 3 → Anexo H → Quadro 6. Если сумма уже предзаполнена, проверьте NIF получателя, код льготы и сумму.",
+        "problem": "This is broadly correct but imprecise. Donativos/benefícios fiscais are normally handled in Anexo H, Quadro 6B, not just generic Quadro 6. The guide also does not explain that pre-filled values normally depend on the beneficiary's annual communication to AT.",
+        "suggestion": "Write: «Donativos обычно проверяются в Modelo 3 → Anexo H → Quadro 6B — Benefícios Fiscais e Despesas relativas a Pessoas com Deficiência. Предзаполнение обычно зависит от того, сообщил ли получатель donativo в AT, в частности через Modelo 25.»",
+        "confidence": "high",
+        "source": "Instruções de preenchimento do Anexo H; Estatuto dos Benefícios Fiscais, artigo 66.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "Consignação de IRS — это отдельный механизм: вы выбираете entidade, которой государство перечислит 0,5% вашего liquidated IRS. Это не увеличивает ваш налог и не уменьшает ваш возврат.",
+        "problem": "Correct for consignação de IRS 0,5%, but incomplete because the IRS declaration interface may also offer consignação de IVA. VAT consignation is different and can reduce the taxpayer's refund/increase tax payable. Readers may confuse the two in the same filing workflow.",
+        "suggestion": "Add: «Внимание: это относится к consignação de IRS 0,5%. В декларации также может быть опция consignação de IVA; она работает иначе и может уменьшить ваш refund/увеличить сумму к уплате.»",
+        "confidence": "high",
+        "source": "Portal das Finanças, IRS consignação information"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2].url",
+        "current": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/2002-148011287",
+        "problem": "The cited DRE consolidated-law URL is likely not the best or stable reference for the Estatuto dos Benefícios Fiscais. EBF is Decree-Law 215/89; the current official consolidated text is normally on diariodarepublica.pt, and the guide should cite the specific articles on donativos/mecenato.",
+        "suggestion": "Use an official Diário da República consolidated EBF link for Decreto-Lei n.º 215/89 and cite the relevant articles explicitly: EBF artigos 61.º a 66.º, especially 63.º and 66.º.",
+        "confidence": "medium",
+        "source": "Decreto-Lei n.º 215/89, Estatuto dos Benefícios Fiscais"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[5]",
+        "current": "Вы являетесь налоговым резидентом Португалии за соответствующий год",
+        "problem": "As a practical rule for the target audience this is fine, but it is slightly too absolute. Some EU/EEA non-residents with Portuguese-source income may opt for resident-equivalent taxation in specific circumstances and access certain deductions. Conversely, many non-residents cannot use the deduction in the same way.",
+        "suggestion": "Write: «Обычно вы должны быть налоговым резидентом Португалии за соответствующий год; для нерезидентов deduções à coleta работают ограниченно, кроме отдельных режимов для EU/EEA-resident taxpayers.»",
+        "confidence": "medium",
+        "source": "Código do IRS, rules on non-resident taxation and resident-equivalent options"
+      }
+    ],
+    "missing_topics": [
+      "General IRS deduction caps under Código do IRS artigo 78.º and the fact that the donation may have no marginal effect if the cap is exhausted",
+      "Specific Anexo H location: Quadro 6B for benefícios fiscais, rather than only generic Quadro 6",
+      "Beneficiary reporting obligations to AT, especially Modelo 25, and the practical risk when the entity does not report the donation",
+      "Cash-payment rule/threshold for donativos em dinheiro and the need for an identifiable payment method",
+      "Difference between consignação de IRS 0,5% and consignação de IVA in the IRS filing workflow",
+      "No carry-forward of unused IRS donativo deduction should be stated if the guide discusses large donations"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5023,
+    "prompt_tokens": 3514,
+    "total_tokens": 8537
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,113 @@
+{
+  "guideId": "irs-anexo-g-mais-valias",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful on Portuguese capital-gains mechanics, but it materially misleads residents by treating Anexo G as the default place for foreign securities/foreign real-estate gains, where Anexo J is often required, and it misses key HPP reinvestment conditions introduced in recent law.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Anexo G подаётся вместе с Modelo 3 IRS, если в году были taxable mais-valias: продажа недвижимости, акций, ETF, долей, crypto <365 дней.",
+        "problem": "This is too broad. For Portuguese tax residents, foreign-source capital gains are commonly declared in Anexo J, not Anexo G: e.g. sale of foreign real estate, foreign shares/ETFs/funds via foreign brokers, foreign-source category G income. Saying simply “Anexo G” for all real estate, shares and ETFs is misleading for expats with foreign brokers/assets.",
+        "suggestion": "Write: “Anexo G используется в основном для mais-valias de fonte portuguesa; если актив/доход имеет иностранный источник — например, зарубежная недвижимость или ценные бумаги/ETF у иностранного брокера — обычно нужен Anexo J, secção/quadros для categoria G. В одной декларации Modelo 3 могут быть и Anexo G, и Anexo J.”",
+        "confidence": "high",
+        "source": "Instruções de preenchimento da declaração Modelo 3 IRS — Anexo J; Código do IRS art. 15 and art. 18"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].text",
+        "current": "Anexo G — приложение к декларации Modelo 3 IRS для прироста капитала, который не освобождён автоматически.",
+        "problem": "Overstates the role of Anexo G. It is not the universal annex for all taxable capital gains; foreign-source capital gains for residents are reported in Anexo J. This is especially important for the target audience: Russian-speaking expats often have foreign brokerage accounts and non-Portuguese assets.",
+        "suggestion": "Replace with: “Anexo G — приложение для части прироста капитала, прежде всего Portuguese-source операций. Для доходов/прироста из-за рубежа налоговый резидент Португалии обычно использует Anexo J, even if the tax rate is still 28% or englobamento is chosen.”",
+        "confidence": "high",
+        "source": "Portal das Finanças — Modelo 3 IRS instructions, Anexo G and Anexo J"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0]",
+        "current": "Продали квартиру, дом, землю или долю в недвижимости в Португалии или за границей.",
+        "problem": "Foreign real-estate gains are not simply an Anexo G case for Portuguese residents. Sale of real estate located abroad is foreign-source income and normally belongs in Anexo J. The current bullet will lead residents to put foreign property sales in the wrong annex.",
+        "suggestion": "Split the bullet: “Португальская недвижимость — обычно Anexo G. Недвижимость за границей у налогового резидента Португалии — обычно Anexo J, categoria G, с учётом treaty/foreign tax credit rules where applicable.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 15, art. 18; Modelo 3 IRS Anexo J instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1]",
+        "current": "Продали акции, ETF, облигации, паи фондов, доли в компаниях, options/futures или другие valores mobiliários.",
+        "problem": "For expats using Interactive Brokers, Degiro, Revolut, foreign banks, or foreign issuers, many securities gains will be foreign-source and are usually reported in Anexo J, not Anexo G. The bullet makes Anexo G sound like the correct annex for all securities.",
+        "suggestion": "Write: “Португальские-source securities/capital gains — Anexo G; foreign-source securities/ETF/funds/options/futures — обычно Anexo J. Check the Modelo 3 instructions and broker/issuer/source country.”",
+        "confidence": "high",
+        "source": "Modelo 3 IRS Anexo J instructions; Código do IRS art. 18"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[1].content[0].text",
+        "current": "Для зарубежных доходов иногда дополнительно нужен Anexo J: например, если брокер удержал иностранный налог или доход классифицируется как иностранный финансовый доход.",
+        "problem": "“Иногда” and the examples are misleading. Anexo J is not only needed when foreign tax was withheld. It is generally the annex for foreign-source income of Portuguese tax residents, including foreign capital gains, even if no tax was withheld abroad.",
+        "suggestion": "Replace with: “Для foreign-source доходов/mais-valias налогового резидента обычно нужен Anexo J независимо от того, удерживал ли брокер иностранный налог. Anexo J также используется для claiming foreign tax credit where applicable.”",
+        "confidence": "high",
+        "source": "Modelo 3 IRS Anexo J instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items",
+        "current": "Срок реинвестирования: 24 месяца до продажи или 36 месяцев после продажи.",
+        "problem": "The HPP reinvestment section omits important current conditions: the sold property must normally have been the taxpayer’s/family’s HPP, evidenced by tax domicile, during the 24 months before sale; and the exclusion is restricted if the taxpayer benefited from the same exclusion in the sale year or previous three years, unless exceptional circumstances apply. These conditions are now central to eligibility.",
+        "suggestion": "Add bullets: “Проданная HPP должна, как правило, быть вашей/домохозяйства habitação própria e permanente, подтверждённой tax domicile, в течение 24 месяцев до продажи.” and “Льгота обычно не применяется, если вы уже пользовались этим исключением в году продажи или в предыдущие 3 года, unless exceptional circumstances under art. 10 apply.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 10(5) and related paragraphs, as amended by Lei 56/2023 and subsequent updates"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].title",
+        "current": "Освобождение: primeira habitação и реинвестирование",
+        "problem": "“Primeira habitação” is not the correct technical concept for this IRS exclusion and can confuse readers into thinking it must be their first-ever home. The relevant concept is habitação própria e permanente. The warning later partly fixes this, but the title and TLDR still use the misleading shorthand.",
+        "suggestion": "Use “Освобождение: HPP / habitação própria e permanente и реинвестирование” instead of “primeira habitação”. In the TLDR, replace “primeira habitação” with “HPP — основного постоянного жилья”.",
+        "confidence": "high",
+        "source": "Código do IRS art. 10(5)"
+      },
+      {
+        "severity": "major",
+        "where": "sources[3].url",
+        "current": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/ra/Pages/irs72ra_201901.aspx",
+        "problem": "This URL points to an older/redação anterior style page for art. 72 and is very likely not the current consolidated wording. For 2025/2026 IRS, art. 72 is sensitive because it covers special/autonomous rates and mandatory englobamento rules; using an old 2019 page risks outdated rates/rules.",
+        "suggestion": "Link to the current consolidated Código do IRS art. 72 page on Portal das Finanças / AT, or to Diário da República consolidated legislation, not a 2019 redação anterior URL.",
+        "confidence": "high",
+        "source": "Portal das Finanças — Código do IRS consolidated pages; Diário da República Electrónico"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[6]",
+        "current": "Обмен crypto-to-crypto в португальских правилах не всегда трактуется как финальная taxable disposal так же, как обмен crypto на fiat; проверяйте тип операции и отчётность биржи.",
+        "problem": "This is too vague. Portuguese IRS rules specifically defer taxation on crypto-to-crypto exchanges in many cases: taxation is generally triggered when crypto is converted into fiat/legal tender or otherwise ceases to qualify, with the acquisition date/value carried over. The current wording may make readers think the rule is uncertain rather than statutory.",
+        "suggestion": "Write more concretely: “В обычном режиме обмен crypto-to-crypto не является taxable disposal at that moment; taxation is deferred until conversion to fiat/legal tender or another taxable event, with acquisition date/value carried over. Exceptions can apply, especially for tokens treated as securities, business income, or blacklisted-jurisdiction structures.”",
+        "confidence": "medium",
+        "source": "Código do IRS art. 10 rules on crypto-assets introduced by Lei do Orçamento do Estado 2023"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[5]",
+        "current": "Crypto-assets: прирост от продажи crypto, не являющихся valores mobiliários, обычно облагается 28%, если срок владения менее 365 дней; при владении 365+ дней для обычных crypto действует освобождение, кроме исключений закона.",
+        "problem": "The statement is broadly right but misses a practical annex caveat: exempt crypto gains held 365+ days may still need reporting, commonly in Anexo G1, depending on the Modelo 3 instructions for the relevant year. Readers may think “exempt” means “do not report”.",
+        "suggestion": "Add: “Даже если прирост освобождён из-за holding period 365+ дней, проверьте обязанность отражения в Anexo G1/appropriate Modelo 3 fields for the tax year.”",
+        "confidence": "medium",
+        "source": "Modelo 3 IRS instructions — Anexo G1 crypto-assets fields"
+      }
+    ],
+    "missing_topics": [
+      "Clear decision tree: Anexo G vs Anexo J vs Anexo G1 for Portuguese-source, foreign-source, and exempt capital gains.",
+      "HPP reinvestment post-2023/2024 eligibility conditions: 24-month prior HPP/tax-domicile requirement and restriction on repeated use within the previous 3 years.",
+      "Foreign tax credit mechanics in Anexo J where foreign capital gains tax was actually paid.",
+      "Crypto reporting distinction between taxable short-term gains, exempt 365+ gains, crypto-to-crypto deferral, and crypto treated as securities or business income.",
+      "Reference to the official Modelo 3 Anexo G/J/G1 filling instructions for the exact tax year, not only the Código do IRS."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4045,
+    "prompt_tokens": 3930,
+    "total_tokens": 7975
+  },
+  "model": "gpt-5.5"
+}

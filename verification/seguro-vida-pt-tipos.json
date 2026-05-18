@@ -1,0 +1,78 @@
+{
+  "guideId": "seguro-vida-pt-tipos",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "В целом гид полезный и в основном корректный по ипотечному seguro de vida, но налоговый блок про Imposto do Selo может ввести в заблуждение, а также не хватает нескольких важных правовых caveats для ипотечных клиентов и людей с медицинской историей.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].text",
+        "current": "Imposto do Selo в Португалии применяется к наследствам и безвозмездным передачам по ставке 10%, но супруги, união de facto в признанных случаях, дети, внуки, родители и дедушки/бабушки освобождены от этой 10% ставки для наследства/дарения.",
+        "problem": "Фраза стоит в разделе про выплаты по seguro de vida и может создать впечатление, что выплата по рисковому страхованию жизни named beneficiary облагается Imposto do Selo как наследство/безвозмездная передача, особенно если beneficiary не близкий родственник. В обычной конструкции seguro de vida capital seguro выплачивается назначенному beneficiary по договору страхования и, как правило, не входит в наследственную массу как обычное наследство. Налоговый режим наследств важен, но его нужно отделить от режима страховой выплаты.",
+        "suggestion": "Переписать так: «Выплата по чистому рисковому seguro de vida при смерти обычно выплачивается beneficiary по договору страхования и, как правило, не считается обычным наследством. Поэтому не смешивайте её автоматически с Imposto do Selo 10% на наследства/дарения. Но если речь не о чистом risk life, а о накопительном ramo vida, unit-linked, выкупе при жизни или сложной международной структуре, налоговый режим может отличаться — проверьте условия договора и получите подтверждение от страховщика/contabilista.» Отдельно можно добавить: «Для обычных наследств/дарений в Португалии действует Imposto do Selo 10%, при этом супруг/партнёр em união de facto, descendants и ascendants освобождены от этой ставки.»",
+        "confidence": "high",
+        "source": "Código do Imposto do Selo; Decreto-Lei 72/2008 Regime Jurídico do Contrato de Seguro"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Формально клиент может выбрать внешнюю страховую компанию, но банк может давать скидку к spread, если вы берёте пакет у партнёрского страховщика.",
+        "problem": "Смысл верный, но формулировка слишком мягкая для ипотечного контекста: банк может требовать наличие страхования с эквивалентными гарантиями, но не должен навязывать покупку именно у связанного страховщика как обязательное условие кредита. Клиенту важно знать это как право, а не просто как «формальную» возможность.",
+        "suggestion": "Уточнить: «Для crédito habitação банк может требовать seguro de vida с определёнными минимальными гарантиями, но клиент имеет право представить полис внешнего страховщика с эквивалентным покрытием. Банк может убрать bonificação/spread discount, если вы не берёте пакет у партнёра, но это должно быть заранее раскрыто в FINE/ESIS и симуляциях.»",
+        "confidence": "high",
+        "source": "Banco de Portugal; Decreto-Lei 74-A/2017"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[6]",
+        "current": "Проверьте, растёт ли prémio ежегодно с возрастом или фиксируется",
+        "problem": "Фраза полезная, но не хватает важного уточнения для ипотечных полисов: даже при decrescente capital prémio часто может расти с возрастом, и клиент может ошибочно ожидать, что уменьшающийся capital seguro автоматически означает уменьшающийся платёж.",
+        "suggestion": "Добавить: «В decrescente policy capital seguro уменьшается вместе с долгом, но prémio не обязательно падает: из-за возраста он может расти каждый год. Просите таблицу evolution of premium на весь срок кредита.»",
+        "confidence": "high",
+        "source": "ASF consumer guidance on life insurance / pre-contractual information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[5]",
+        "current": "Сравните exclusions: suicide period, pre-existing conditions, risky sports, war, alcohol/drugs",
+        "problem": "Корректно, но для Португалии стоит добавить caveat про legal 'right to be forgotten' для некоторых бывших тяжёлых заболеваний. Иначе совет «не скрывайте болезни» без оговорки может восприниматься как обязанность раскрывать даже информацию, которую страховщик уже не вправе использовать/запрашивать при соблюдении условий закона.",
+        "suggestion": "Добавить отдельный пункт: «Если у вас была онкология, HIV, hepatite C или иное состояние, подпадающее под direito ao esquecimento, проверьте сроки и условия: после установленного законом периода страховщик/банк не должен дискриминировать или использовать эту медицинскую информацию для agravamento/отказа.»",
+        "confidence": "high",
+        "source": "Lei 75/2021; ASF guidance on direito ao esquecimento"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.asf.com.pt",
+        "problem": "Домен ASF правильный, но ссылка слишком общая. Для sensitive consumer guidance лучше вести на конкретную страницу ASF о seguro de vida / consumidor или хотя бы на consumer portal, иначе читателю трудно проверить конкретные утверждения.",
+        "suggestion": "Заменить или дополнить конкретной ссылкой на раздел ASF для потребителей о seguros de vida и direitos do tomador/segurado, например consumer pages на официальном сайте ASF, а не только homepage.",
+        "confidence": "medium",
+        "source": "ASF — Autoridade de Supervisão de Seguros e Fundos de Pensões"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Нет источника для права клиента использовать внешний seguro de vida при crédito habitação и для раскрытия FINE/TAEG/MTIC.",
+        "problem": "В тексте есть важные банковские утверждения про FINE, TAEG, spread discounts и связанные продукты, но источником указан только общий сайт Banco de Portugal. Для такой темы желательно добавить нормативный источник или конкретный consumer page BdP.",
+        "suggestion": "Добавить источник: «Banco de Portugal — Crédito habitação: vendas associadas facultativas, FINE/ESIS, TAEG, MTIC» и/или «Decreto-Lei 74-A/2017».",
+        "confidence": "high",
+        "source": "Banco de Portugal; Decreto-Lei 74-A/2017"
+      }
+    ],
+    "missing_topics": [
+      "Право клиента при crédito habitação представить внешний seguro de vida с эквивалентными гарантиями; банк не должен навязывать только своего страховщика, хотя может менять spread/bonificação, если это раскрыто заранее.",
+      "Direito ao esquecimento по Lei 75/2021 для людей с некоторыми бывшими заболеваниями: важно для underwriting, medical questionnaire и agravamento.",
+      "Период свободного отказа/денонсации для individual life insurance contracts, когда применимо, и порядок cancellation при замене полиса.",
+      "Куда жаловаться при споре: сначала livro de reclamações/seguradora, затем ASF; для банковской части — Banco de Portugal.",
+      "Различие между beneficiary, credor hipotecário и cláusula beneficiária irrevogável в ипотечном полисе: при некоторых формулировках изменить beneficiary без согласия банка нельзя.",
+      "Просить у страховщика не только цену первого года, но и projected premium table на весь срок кредита, особенно для prémio variável with age."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2842,
+    "prompt_tokens": 3658,
+    "total_tokens": 6500
+  },
+  "model": "gpt-5.5"
+}

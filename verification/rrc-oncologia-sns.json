@@ -1,0 +1,76 @@
+{
+  "guideId": "rrc-oncologia-sns",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it contains a likely wrong TMRG normal-priority deadline, uses outdated Lisbon hospital names, and overstates the scope/source of the oncology referral network.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr; steps[2].content[1].items[2]",
+        "current": "«Юридические TMRG для первой больничной консультации: 30 дней для muito prioritária, 60 для prioritária, 120 для normal.» / «Primeira consulta de especialidade hospitalar normal: до 120 календарных дней»",
+        "problem": "For a first hospital specialty consultation referred through SNS/CTH/SIGA, the normal-priority TMRG is commonly stated in the legal TMRG table as 150 consecutive days, not 120. The 30/60 values are correct, but the normal value appears wrong.",
+        "suggestion": "Replace with: «Primeira consulta de especialidade hospitalar: muito prioritária — 30 dias; prioritária — 60 dias; normal — 150 dias, counted from registration of the valid request in SIGA/CTH, unless a more specific oncology pathway/TMRG applies.»",
+        "confidence": "high",
+        "source": "Portaria n.º 153/2017, Anexo — Tempos Máximos de Resposta Garantidos; ePortugal TMRG"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].text; steps[1].content[1].text",
+        "current": "«Rede de Referenciação Hospitalar de Oncologia Médica — это официальная карта потоков пациентов между SNS-больницами… Сеть учитывает тип опухоли, стадию, необходимость cirurgia complexa, radioterapia, medicina nuclear, hematologia, трансплантации…»",
+        "problem": "The text treats «Rede de Referenciação Hospitalar de Oncologia Médica» as if it were the complete national oncology routing map for all cancer care. Its formal scope is medical oncology; surgery, radiotherapy, haematology/haemato-oncology, transplantation and some highly specialised procedures may be governed by other referral rules, centres of reference, local ULS pathways or disease-specific arrangements.",
+        "suggestion": "Narrow the wording: «A RRH de Oncologia Médica is an official reference framework for medical oncology referrals, but the actual cancer pathway may also depend on tumour-specific rules, surgical/radiotherapy/haematology capacity, ULS protocols and centres of reference. Do not assume one single “oncology network” determines every step.»",
+        "confidence": "high",
+        "source": "Rede de Referenciação Hospitalar de Oncologia Médica; ACSS/DGS/SNS referral network documentation"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].text; steps[1].content[2].items[1]",
+        "current": "«CHULN / Hospital de Santa Maria, CHLO, ULS São José» / «CHULN / Hospital de Santa Maria лечит…»",
+        "problem": "CHULN and CHLO are outdated official institutional names after the 2024 ULS reorganisation. They may still be used colloquially, but official references should use the current ULS names.",
+        "suggestion": "Write: «ULS Santa Maria / Hospital de Santa Maria (ex-CHULN), ULS Lisboa Ocidental (ex-CHLO), ULS São José…». In lists, keep old acronyms only as aliases for searchability.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 102/2023; SNS/ULS institutional pages"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[2]; steps[2].content[1].items[4]",
+        "current": "«muito prioritário / P1 или через Alerta-Oncológico» / «P1 / Alerta-Oncológico — практический ускоренный канал для suspeita oncológica»",
+        "problem": "The wording risks implying that P1/Alerta-Oncológico is a universal national legal category equivalent to the TMRG priority. In practice, oncology alert channels and labels can be local/regional or system-specific; the legally relevant point for TMRG is the priority registered in SIGA/CTH and the validated request date.",
+        "suggestion": "Clarify: «Some ULS/hospitals use oncology-alert workflows or P1-style labels, but availability and naming are not uniform. For enforceable deadlines, check the actual SIGA/CTH priority: muito prioritária, prioritária or normal, and the registration/acceptance date.»",
+        "confidence": "medium",
+        "source": "Portaria n.º 153/2017; SIGA/CTH operational practice"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include SNS PNDO, ePortugal TMRG, ERS complaints and Portaria n.º 153/2017, but no source for the Rede de Referenciação Hospitalar de Oncologia Médica itself.",
+        "problem": "The guide makes detailed claims about official oncology referral networks but does not cite the official referral network document/page. For a healthcare-routing guide, that is a material missing citation.",
+        "suggestion": "Add an official source specifically for «Rede de Referenciação Hospitalar de Oncologia Médica» or the current SNS/DE-SNS/ACSS referral-network page, and distinguish it from the broader Programa Nacional para as Doenças Oncológicas.",
+        "confidence": "high",
+        "source": "ACSS/DGS/SNS — Rede de Referenciação Hospitalar de Oncologia Médica"
+      },
+      {
+        "severity": "minor",
+        "where": "tags[3]",
+        "current": "«aima»",
+        "problem": "AIMA is unrelated to the article topic. This looks like a taxonomy/copy-paste error and can confuse search or recommendations.",
+        "suggestion": "Remove «aima» and replace with a relevant tag such as «ULS», «MGF», «CTH», «SIGA» or «ERS».",
+        "confidence": "high",
+        "source": ""
+      }
+    ],
+    "missing_topics": [
+      "Explain that oncology-specific TMRG may also matter after first consultation, especially for diagnostic exams, surgery and start of treatment; the guide currently focuses almost only on first hospital consultation.",
+      "Mention that TMRG complaints should include the exact SIGA/CTH request date, triage/acceptance date if known, priority level and proof of referral; without these, ERS/Livro de Reclamações complaints are weaker.",
+      "Add a caveat for migrants without an assigned médico de família: entry may be through the Centro de Saúde/USF doctor on duty, atendimento complementar, SNS 24 or urgência depending on severity, not only the named MGF.",
+      "Add the official Livro de Reclamações Eletrónico URL as a source or practical link, alongside ERS."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4163,
+    "prompt_tokens": 4045,
+    "total_tokens": 8208
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,62 @@
+{
+  "guideId": "eu-student-certificado-registo",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is largely accurate for EU/EEA/Swiss students, but it has a couple of likely stale/incorrect official URLs and misses some useful caveats around fines, EHIC/SNS coverage, and non-EU Erasmus students/family members.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://www2.gov.pt/servicos/pedir-o-certificado-de-residencia-permanente-para-cidadao-da-ue/eee/suica",
+        "problem": "This looks like an obsolete or malformed gov.pt/ePortugal URL: it uses the old www2.gov.pt host and includes raw slashes in 'ue/eee/suica', which are likely interpreted as path separators rather than part of the service slug.",
+        "suggestion": "Replace with the current ePortugal service URL for the permanent residence certificate, preferably on eportugal.gov.pt, or remove the direct URL and cite the service name if the slug is unstable.",
+        "confidence": "medium",
+        "source": "ePortugal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://aima.gov.pt/pt/nacionais-ue-e-familiares/nacionais-ue/certificado-de-registo-para-nacionais-ue",
+        "problem": "AIMA pages for residence topics commonly sit under the '/pt/viver/...' path; this URL may be stale or missing a path segment. Because this is the key official source for the article, it should be rechecked.",
+        "suggestion": "Verify the live AIMA URL and, if needed, update to the current AIMA page for 'Certificado de Registo para nacionais da UE' under the 'Viver em Portugal' section.",
+        "confidence": "low",
+        "source": "AIMA"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[2].text",
+        "current": "За неподачу запроса на Certificado de Registo в установленный срок Lei 37/2006 предусматривает coima.",
+        "problem": "Correct, but incomplete: the guide warns about a fine without giving the statutory range, which is useful and easy to verify.",
+        "suggestion": "Add the amount: 'За неподачу запроса в срок предусмотрена coima от 400 € до 1500 €.'",
+        "confidence": "high",
+        "source": "Lei 37/2006, artigo 14.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[4]",
+        "current": "EHIC — Cartão Europeu de Seguro de Doença — или частная медицинская страховка",
+        "problem": "This is broadly correct for many EU students, but it can be misleading if read as 'EHIC is always enough for all healthcare/residence situations'. EHIC is mainly for medically necessary care during a temporary stay/study period and does not replace registration in the Portuguese system if the person starts working or becomes covered by Portuguese social security.",
+        "suggestion": "Write: 'EHIC/CESD, если вы остаётесь застрахованы в стране ЕС и приехали временно на учёбу, либо частная страховка; если начнёте работать в Португалии, медицинское покрытие обычно переходит через Segurança Social/SNS.'",
+        "confidence": "medium",
+        "source": "European Commission EHIC guidance; Lei 37/2006"
+      },
+      {
+        "severity": "minor",
+        "where": "title",
+        "current": "EU/Erasmus-студент: Certificado de Registo вместо визы D4",
+        "problem": "The body correctly says this applies to EU/EEA/Swiss citizens, but the title may be read as applying to any Erasmus student. Erasmus status alone does not exempt a third-country national from visa/residence rules; non-EU Erasmus students may still need D4 or another appropriate route depending on nationality, duration and host programme.",
+        "suggestion": "Change title to something like: 'Гражданин ЕС/EEE/Швейцарии на Erasmus или учёбе: CRUE вместо D4'.",
+        "confidence": "high",
+        "source": "Lei 37/2006; Lei 23/2007"
+      }
+    ],
+    "missing_topics": [
+      "Clarify explicitly that non-EU/EEA/Swiss Erasmus students are outside this guide and may need D4/residence procedures via AIMA.",
+      "Mention that non-EU family members of an EU student do not get CRUE at Câmara Municipal; they normally need a residence card for family members of an EU citizen via AIMA.",
+      "Add the statutory coima range for late/non-registration under Lei 37/2006.",
+      "Add a short caveat on EHIC/CESD versus SNS/Segurança Social coverage if the student starts working in Portugal."
+    ]
+  },
+  "model": "gpt-5.5"
+}

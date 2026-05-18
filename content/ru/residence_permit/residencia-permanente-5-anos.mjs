@@ -3,7 +3,7 @@ export default {
   id: 'residencia-permanente-5-anos',
   categoryId: 'residence_permit',
   title: 'Постоянный ВНЖ Португалии после 5 лет — путь к Permanente',
-  tldr: 'Autorização de residência permanente можно просить после 5 лет законного временного ВНЖ в Португалии. База — Lei 23/2007, art. 80: действующий ВНЖ, отсутствие серьёзной судимости, жильё, средства к существованию и португальский минимум A2. На практике AIMA смотрит непрерывность проживания: не превращайте ВНЖ в “карточку для визитов”, держите ≥6 месяцев фактического проживания в год. Пошлина AIMA — 252 €; карта permanente обновляется каждые 5 лет.',
+  tldr: 'Autorização de residência permanente можно просить после 5 лет законного временного ВНЖ в Португалии. База — Lei 23/2007, art. 80: действующий ВНЖ, отсутствие серьёзной судимости, жильё, средства к существованию и португальский минимум A2. На практике AIMA смотрит непрерывность проживания: не превращайте ВНЖ в "карточку для визитов", держите ≥6 месяцев фактического проживания в год. **Сама autorização — бессрочная (sem limite de tempo, art. 76 Lei 23/2007); только карта (título de residência) обновляется каждые 5 лет.** Тарифы AIMA с 01.03.2026 (Portaria 480/2025/1): admission/анализ €133 + autorização de residência (art. 76) €351,10 (вместо устаревшего €252).',
   tags: ['aima', 'внж', 'permanente', 'a2'],
   estimatedReadMinutes: 6,
   steps: [
@@ -127,6 +127,6 @@ export default {
     { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento de estrangeiros, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — legislação consolidada sobre autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

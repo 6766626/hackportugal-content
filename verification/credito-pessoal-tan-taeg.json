@@ -1,0 +1,84 @@
+{
+  "guideId": "credito-pessoal-tan-taeg",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом корректный и актуальный для потребительского кредита в Португалии, но есть несколько юридически важных уточнений по cartões/descobertos, комиссиям и intermediários de crédito.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].text",
+        "current": "Это не cartão de crédito и не descoberto autorizado.",
+        "problem": "Фраза верна как бытовое отличие продукта “crédito pessoal”, но юридически может ввести в заблуждение: режим crédito aos consumidores по DL 133/2009 охватывает не только классический личный кредит, но также некоторые кредитные карты и descobertos, с особыми правилами/исключениями.",
+        "suggestion": "Написать: “Как банковский продукт crédito pessoal отличается от cartão de crédito и descoberto autorizado. Но юридический режим crédito aos consumidores по DL 133/2009 может также охватывать кредитные карты и overdrafts/descobertos, с отдельными правилами.”",
+        "confidence": "high",
+        "source": "Decreto-Lei 133/2009, regime do crédito aos consumidores"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[6]",
+        "current": "Комиссия за abertura/processamento, если есть.",
+        "problem": "Слово “processamento” двусмысленно. В Португалии comissão de processamento de prestações de crédito запрещена для кредитных договоров; допустимыми могут быть другие комиссии, например abertura/formalização, если они реально предусмотрены и включены в TAEG. Сейчас текст может выглядеть так, будто ежемесячная комиссия за обработку платежей допустима.",
+        "suggestion": "Заменить на: “Комиссия за abertura/formalização, если есть; ежемесячная comissão de processamento de prestações de crédito обычно не должна взиматься — проверяйте FIN/FINE и тариф банка.”",
+        "confidence": "medium",
+        "source": "Decreto-Lei 58/2013, as amended by Lei 57/2020; Banco de Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[0].content[0].items[5]",
+        "current": "Комиссии: abertura, processamento, manutenção, если банк их применяет.",
+        "problem": "Та же проблема с “processamento/manutenção”: для потребительского кредита не стоит перечислять их как обычные применимые комиссии без caveat. Особенно “processamento de prestações” является чувствительной темой, потому что такие комиссии были запрещены.",
+        "suggestion": "Написать: “Комиссии: abertura/formalização и другие законные комиссии, если указаны в FIN/FINE; отдельно проверьте, нет ли незаконной comissão de processamento de prestações.”",
+        "confidence": "medium",
+        "source": "Decreto-Lei 58/2013, as amended by Lei 57/2020; Banco de Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[2].items[3]",
+        "current": "При фиксированной ставке компенсация банку ограничена законом: обычно до 0,5% досрочно погашенной суммы, если до конца договора больше 1 года, и до 0,25%, если 1 год или меньше.",
+        "problem": "Правило в целом верное, но неполное: компенсация не может превышать сумму процентов, которую потребитель заплатил бы за период между досрочным погашением и окончанием договора; также есть исключения, когда компенсация не взимается.",
+        "suggestion": "Добавить: “Компенсация также не может превышать проценты, которые были бы начислены до конца договора; есть исключения, поэтому проверьте art. 19 DL 133/2009 и условия договора.”",
+        "confidence": "high",
+        "source": "Decreto-Lei 133/2009, artigo 19.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[3].text",
+        "current": "Не платите “taxa de aprovação” незнакомым посредникам до выдачи кредита. Легальные банки и зарегистрированные intermediários de crédito проверяются на сайте Banco de Portugal; предложения через WhatsApp с предоплатой — частая схема мошенничества.",
+        "problem": "Недостаточно строго. В Португалии intermediários de crédito в общем случае не могут взимать с потребителя оплату за услуги кредитного посредничества и не могут получать/передавать суммы, связанные с кредитным договором. Риск не только в “незнакомых” посредниках и не только до выдачи кредита.",
+        "suggestion": "Написать: “Не платите посреднику taxa de aprovação, taxa de desbloqueio, seguro antecipado или qualquer valor para obter crédito. Зарегистрированные intermediários de crédito обычно не могут взимать с потребителя оплату за посредничество; их нужно проверять в реестре Banco de Portugal. Предоплата через WhatsApp/MB Way/transferência — красный флаг мошенничества.”",
+        "confidence": "high",
+        "source": "Decreto-Lei 81-C/2017; Banco de Portugal — regime dos intermediários de crédito"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "Banco de Portugal — taxas máximas и supervisão do crédito aos consumidores / https://www.bportugal.pt",
+        "problem": "Ссылка слишком общая для чувствительной темы “taxas máximas”. Пользователю будет трудно найти актуальную таблицу максимальных TAEG за квартал.",
+        "suggestion": "Заменить или дополнить точной официальной страницей Banco de Portugal/Portal do Cliente Bancário с “taxas máximas no crédito aos consumidores” и/или страницей “Regime de taxas máximas”.",
+        "confidence": "high",
+        "source": "Banco de Portugal — Portal do Cliente Bancário"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Нет отдельного источника для проверки intermediários de crédito.",
+        "problem": "В тексте есть важная рекомендация проверять посредника, но в источниках нет прямой ссылки на официальный реестр Banco de Portugal.",
+        "suggestion": "Добавить источник: “Banco de Portugal — Consulta de intermediários de crédito autorizados/registados” с прямым URL на реестр.",
+        "confidence": "high",
+        "source": "Banco de Portugal — Registo de intermediários de crédito"
+      }
+    ],
+    "missing_topics": [
+      "Кратко объяснить, что FIN/Ficha de Informação Normalizada должна выдаваться до заключения договора и именно в ней надо проверять TAEG, MTIC, comissões, seguros и direito de livre revogação.",
+      "Добавить caveat, что максимальная TAEG зависит от категории кредита и квартала заключения договора; нельзя сравнивать одну ставку со старой таблицей или с другой категорией кредита.",
+      "Добавить ссылку/упоминание официального Livro de Reclamações Eletrónico как канала жалобы наряду с Banco de Portugal."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3447,
+    "prompt_tokens": 3188,
+    "total_tokens": 6635
+  },
+  "model": "gpt-5.5"
+}

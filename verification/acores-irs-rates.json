@@ -1,0 +1,17 @@
+{
+  "guideId": "acores-irs-rates",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Expected ':' after property name in JSON at position 36 (line 3 column 13)",
+    "raw": "{\n \"verdict\": \"minor_\",\n  \"summary \"Guide is broadly correct for Azores 2026 IRS withholding, but it oversimplifies payroll matching and should better distinguish Portuguese withholding agents from foreign payers and add primary legal sourcing.\",\n  \"issues\": [\n    {\n      \"severity\": \"major\",\n      \"where\": \"steps[2].content[1].items[1].content[0].items\",\n      \"current\": \"«Проверьте месячную базу: salário base + регулярные надбавки, если они облагаются.» / «Проверьте, есть ли отдельные строки s",
+    "issues": [],
+    "missing_topics": []
+  },
+  "usage": {
+    "completion_tokens": 4030,
+    "prompt_tokens": 3231,
+    "total_tokens": 7261
+  },
+  "model": "gpt-5.5"
+}

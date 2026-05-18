@@ -3,148 +3,120 @@
   "categoryId": "residence_permit",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Guide is broadly aimed at the right audience and uses AIMA/Lei 61/2025 terminology, but it contains several materially misleading points about the Brazilian route, AIMA booking channels, CPLP permit validity, nationality-law status, and mandatory document requirements.",
+    "summary": "Guide is broadly on the right topic, but it contains a serious incorrect future/nationality-law statement, likely outdated AIMA fee figures, and several CPLP-specific caveats that are too vague or missing.",
     "issues": [
       {
-        "severity": "major",
+        "severity": "critical",
         "where": "changeSummary",
-        "current": "Новый закон о гражданстве (01.04.2026, ждёт подписания Президента Сегуру) увеличит стаж до гражданства с 5 до 7 лет для всех CPLP.",
-        "problem": "The President is not “Сегуру”; Portugal’s President is Marcelo Rebelo de Sousa. Also the wording presents the nationality-law change too definitively: as of April 2026 it was approved by Parliament and awaiting promulgation, so it should be framed as pending and not yet in force.",
-        "suggestion": "Write: “Новый закон о гражданстве, одобренный парламентом 01.04.2026, на дату проверки ещё ждёт промульгации Президентом Marcelo Rebelo de Sousa; до вступления в силу действует правило 5 лет, возможное новое правило — 7 лет для граждан CPLP.”",
+        "current": "Новый закон о гражданстве (Decreto AR 48/XVII, промульгирован Президентом António José Seguro 03.05.2026; вступит в силу после публикации в DRE) увеличит стаж до гражданства с 5 до 7 лет для всех граждан CPLP.",
+        "problem": "As of April 2026 this is wrong/misleading: the nationality law was approved on 01.04.2026 but was awaiting promulgation/publication. The guide states a later promulgation date and presents the change as more certain than it was. It also mixes an April-2026 source date with a May-2026 event.",
+        "suggestion": "Write: «Новый закон о гражданстве был одобрен парламентом 01.04.2026, но на дату проверки ожидал промульгации Президентом и публикации в DRE. До вступления в силу продолжает применяться действующее правило о 5 годах законного проживания; после вступления нового закона срок для граждан CPLP может измениться до 7 лет — проверяйте финальный текст в DRE.»",
         "confidence": "high",
-        "source": "Assembleia da República; Presidência da República"
+        "source": "Decreto da Assembleia da República 48/XVII; developer-provided April 2026 status"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].items[2]",
+        "current": "По действующему праву натурализация после 5 лет законного проживания. **03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII** — после публикации в DRE срок для CPLP увеличится до 7 лет",
+        "problem": "Same incorrect/unverifiable future statement. As of April 2026 the law was not yet promulgated. The guide should not tell users that promulgation already happened or that the exact new rule is already operative.",
+        "suggestion": "Keep the current-law sentence, then add a caveat: «В апреле 2026 парламент одобрил изменение закона о гражданстве, которое ещё ожидало промульгации и публикации. До вступления в силу действует срок 5 лет; после реформы для CPLP ожидается 7 лет, но нужно проверять финальную редакцию закона.»",
+        "confidence": "high",
+        "source": "Decreto da Assembleia da República 48/XVII; Lei da Nacionalidade current regime"
       },
       {
         "severity": "major",
-        "where": "steps[0].content[0].items[0].content[0].text",
-        "current": "Бразильский паспорт даёт 90 дней в Шенгене. Задекларировать на границе цель — проживание по CPLP-мобильности.",
-        "problem": "This is risky and misleading. Visa-free entry is short-stay entry and border police may still assess purpose, means, return/onward travel, and admissibility. Advising people to declare “residence” at the border without explaining the risk can lead to refusal of entry if the officer treats it as an intention to immigrate without the appropriate prior visa.",
-        "suggestion": "Write: “Бразильцы могут въехать без визы на срок до 90 дней при соблюдении условий краткосрочного въезда. Если планируется последующая подача по CPLP внутри Португалии, нужно иметь документы, подтверждающие законный въезд и основание для подачи; окончательное решение о допуске на границе остаётся за пограничными органами.”",
-        "confidence": "high",
-        "source": "Schengen Borders Code; Acordo de Mobilidade CPLP / AIMA guidance"
-      },
-      {
-        "severity": "major",
-        "where": "variants[0].tldr",
-        "current": "Наличие португальского гражданства в семье ускоряет процесс.",
-        "problem": "This is misleading for a CPLP residence-permit guide. Having a Portuguese family member does not generally “speed up” the CPLP mobility process; it may instead create a different legal route, such as residence as a family member of a Portuguese citizen or EU citizen, depending on the relationship.",
-        "suggestion": "Replace with: “Если близкий член семьи — гражданин Португалии/ЕС, может быть доступен отдельный семейный маршрут, который нужно оценивать отдельно; это не является автоматическим ускорением CPLP-процедуры.”",
-        "confidence": "high",
-        "source": "Lei 23/2007; AIMA family-reunification / family-member guidance"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[2].content[0].text",
-        "current": "Через portal-renovacoes.aima.gov.pt или по телефону 217 115 000. Выбрать тип \"Acordo de Mobilidade CPLP\".",
-        "problem": "portal-renovacoes.aima.gov.pt is a renewals portal and should not be presented as the normal channel for first-time CPLP residence applications. First-time CPLP procedures have used specific AIMA/CPLP channels and appointment mechanisms, which change frequently. This instruction may send users to the wrong portal.",
-        "suggestion": "Write: “Проверить актуальный канал записи на официальном сайте AIMA для ‘Acordo de Mobilidade CPLP’; не путать первичную подачу с порталом продлений. Если онлайн-канал недоступен, использовать официальный контакт-центр AIMA и инструкции на aima.gov.pt.”",
-        "confidence": "high",
-        "source": "AIMA official website"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[0].items[0]",
-        "current": "Первичный ВНЖ на 1 год",
-        "problem": "Likely outdated/over-simplified. Standard temporary residence permits under article 75 are generally valid for 2 years on first issue and renewable for 3-year periods. Earlier CPLP online certificates were often 1-year documents, but the guide also labels the fee as “art. 75”, which contradicts the 1+2+2 validity model.",
-        "suggestion": "Clarify the distinction: “Ранние/электронные CPLP-документы могли выдаваться на 1 год; карточные временные ВНЖ по общему режиму обычно следуют срокам art. 75: первичный — 2 года, продление — 3 года, если в конкретном решении AIMA не указан иной срок.”",
+        "where": "costs[1]",
+        "current": "AIMA — приём + анализ: amountEUR 133, note: с 01.03.2026",
+        "problem": "The guide gives a precise 2026 AIMA fee but does not cite the new fee table, and the amount appears to be an old/rounded value rather than the value under the 01.03.2026 tariff table. Sensitive immigration-fee numbers should be tied to the actual Portaria and checked against the 2026 IAS-based table.",
+        "suggestion": "Recheck and replace with the exact amount from the AIMA fee table effective 01.03.2026. Add the legal source in sources, e.g. «Portaria 480-A/2025/1 — tabela de taxas AIMA, em vigor desde 01.03.2026». If the site calculates dynamically, write «confirmar na tabela de taxas AIMA antes do pagamento» instead of a hard-coded amount.",
         "confidence": "medium",
-        "source": "Lei 23/2007, art. 75; AIMA guidance"
+        "source": "Portaria 480-A/2025/1; IAS 2026 = €537.13"
       },
       {
         "severity": "major",
-        "where": "steps[2].content[0].items[1]",
-        "current": "Продление на 2 года × 2 раза — итого 5 лет",
-        "problem": "This conflicts with the current general validity pattern of Portuguese temporary residence permits and with the guide’s own cost item referring to art. 75. The arithmetic is also misleading as a rule of law: “1 + 2 + 2” is not the standard current sequence for most temporary residence cards.",
-        "suggestion": "Replace with: “Срок действия и продления зависят от типа выданного документа. Для стандартного временного ВНЖ по art. 75 обычно: 2 года первичный титул и 3 года продление; проверяйте срок, напечатанный на карте/решении AIMA.”",
+        "where": "costs[2]",
+        "current": "AIMA — ВНЖ (art. 75): amountEUR 307.2, note: с 01.03.2026",
+        "problem": "The amount is likely outdated after the AIMA fee table change effective 01.03.2026 and is not supported by a cited tariff source. The guide should not present a precise 2026 residence-permit fee without the relevant Portaria/table reference.",
+        "suggestion": "Recalculate from the AIMA tariff table in force from 01.03.2026 and cite the legal act. If the amount is scenario-dependent, split «analysis/receção», «emissão do título», and any urgency/printing/postage components, or state that fees depend on the AIMA table applicable on the appointment/payment date.",
         "confidence": "medium",
-        "source": "Lei 23/2007, art. 75"
+        "source": "Portaria 480-A/2025/1; IAS 2026 = €537.13"
       },
       {
         "severity": "major",
-        "where": "steps[2].content[0].items[3]",
-        "current": "Возможность запросить гражданство после 5 лет (7 по pending-закону)",
-        "problem": "The guide should make explicit that the 7-year rule is not in force until promulgation/publication and commencement. Otherwise readers may think the 7-year rule already applies.",
-        "suggestion": "Write: “На дату проверки действует правило 5 лет законного проживания. Парламент одобрил реформу, которая может увеличить срок для граждан CPLP до 7 лет, но она не действует до промульгации, публикации и вступления в силу.”",
+        "where": "steps[3].content[1]",
+        "current": "В AIMA большая очередь — записи могут быть на 2–4 месяца вперёд. Бронируйте время приёма заранее.",
+        "problem": "This is too optimistic and can mislead users. For AIMA/CPLP appointments and card issuance, delays can exceed 4 months; availability also varies heavily by channel, office, and whether the person already has a visa/appointment.",
+        "suggestion": "Write more cautiously: «В AIMA возможны существенные задержки: запись и выпуск карты могут занимать от нескольких месяцев и дольше, в зависимости от офиса, типа процедуры и доступности слотов. Проверяйте официальный канал AIMA и не планируйте поездки/смену работы исходя из гарантированных 2–4 месяцев.»",
         "confidence": "high",
-        "source": "Portuguese nationality law; Assembleia da República 01.04.2026 approval status"
+        "source": "AIMA operational practice"
       },
       {
         "severity": "major",
-        "where": "steps[3].content[0].text",
-        "current": "Manifestação de Interesse (подача интереса без визы) отменена Lei 61/2025 — закон в силе с 23.10.2025. Приём новых заявок прекращён ещё с 03.06.2024 (Decreto-Lei 37-A/2024)",
-        "problem": "The guide attributes abolition of Manifestação de Interesse to Lei 61/2025, then immediately says new filings stopped under Decreto-Lei 37-A/2024. The practical abolition of new Manifestação de Interesse applications came with Decreto-Lei 37-A/2024, not Lei 61/2025. This is internally confusing.",
-        "suggestion": "Write: “Новые Manifestação de Interesse были прекращены Decreto-Lei 37-A/2024 с июня 2024. Lei 61/2025, в силе с 23.10.2025, изменила/ужесточила последующий режим и переходные правила, включая CPLP-процедуры.”",
+        "where": "timelineDaysMin / timelineDaysMax and steps[0].content[0].items[4].content[0]",
+        "current": "timelineDaysMin: 30, timelineDaysMax: 120; «Обычно 30–90 дней. Карточка приходит по почте.»",
+        "problem": "The timeline is presented as a normal expectation but is too narrow for AIMA/CPLP in 2026. Appointment scarcity, biometric capture, production/backlog and postal delivery can make the total process much longer than 120 days.",
+        "suggestion": "Change to a non-guaranteed range: «После успешной подачи карта может прийти за 1–4 месяца, но из-за очередей AIMA и производства карт процесс нередко занимает дольше. Сроки не гарантированы.» Also distinguish appointment wait time from post-appointment card issuance.",
         "confidence": "high",
-        "source": "Decreto-Lei 37-A/2024; Lei 61/2025"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[2].content[0].items[4]",
-        "current": "Для бразильцев — «Estatuto de Igualdade» даёт некоторые политические и экономические права после 3 лет",
-        "problem": "Over-simplified. The general Estatuto de Igualdade de Direitos e Deveres for Brazilian citizens resident in Portugal is not the same as political-rights equality; the 3-year residence condition is specifically relevant to political rights, not necessarily to all equality status.",
-        "suggestion": "Write: “Бразильцы-резиденты могут отдельно запросить Estatuto de Igualdade de Direitos e Deveres; политические права требуют отдельного статуса и обычно 3 лет проживания.”",
-        "confidence": "high",
-        "source": "Tratado de Amizade Portugal-Brasil; IRN/Consulado guidance on Estatuto de Igualdade"
+        "source": "AIMA operational practice"
       },
       {
         "severity": "major",
-        "where": "steps[0].content[0].items[3].content[0].items",
-        "current": "[\"Паспорт + копия\", \"NIF\", \"Proof of address в Португалии\", \"Подтверждение средств (контракт / выписки банка / письмо спонсора)\", \"Справка о несудимости бразильская с апостилем\", \"Фото 3х4\"]",
-        "problem": "The checklist is presented as mandatory, but CPLP residence procedures have special documentary simplifications and AIMA’s actual checklist can vary by channel and by whether the applicant is applying after a consular visa, after legal short-stay entry, or converting an older CPLP certificate. Proof of means/accommodation and passport photos should not be stated as universally required without caveat.",
-        "suggestion": "Add caveat: “Список документов зависит от актуального канала AIMA и основания подачи. Для CPLP действуют специальные упрощения; перед записью сверяйте официальный чек-лист AIMA. Фото часто снимают биометрически на месте; доказательство средств/адреса может требоваться консульством или AIMA в конкретном сценарии, но не должно подаваться как универсальное правило.”",
-        "confidence": "medium",
-        "source": "AIMA CPLP guidance; Lei 23/2007 art. 87-A"
-      },
-      {
-        "severity": "minor",
-        "where": "documents[2].title",
-        "current": "NIF + NISS",
-        "problem": "NISS is useful and may be needed for employment/social-security situations, but it is not always a universal prerequisite for every CPLP residence-permit filing. Presenting it as an unconditional required document may be too broad.",
-        "suggestion": "Write: “NIF; NISS — если применимо/если уже есть, особенно при работе по найму или самозанятости.”",
-        "confidence": "medium",
-        "source": "AIMA document checklists; Segurança Social guidance"
-      },
-      {
-        "severity": "minor",
-        "where": "documents[5].note",
-        "current": "с апостилем и переводом",
-        "problem": "Translation is not always needed for documents issued in Portuguese by CPLP countries, and apostille/legalisation requirements depend on the issuing country and document. This is too blanket.",
-        "suggestion": "Write: “апостиль/легализация по правилам страны выдачи; перевод нужен, если документ не на португальском или не принимается AIMA/консульством без перевода.”",
+        "where": "steps[1].content[0].items[0].content[0]",
+        "current": "Категория — мобильность CPLP или тип D по ситуации. Типы документов — см. vistos.mne.gov.pt.",
+        "problem": "This is confusing: D1/D2/D3/D4/D6/D7/D8 are different residence-visa routes with their own requirements and usually lead to the corresponding residence-permit basis, not automatically to a CPLP mobility residence permit. Users may think any type-D visa can be treated as «CPLP».",
+        "suggestion": "Clarify: «Если цель — именно мобильность CPLP, запрашивайте визу/процедуру CPLP, когда она доступна в консульстве. Если подаётесь на D1/D2/D3/D4/D6/D7/D8, это отдельный маршрут с отдельными требованиями и последующим ВНЖ по соответствующему основанию, а не автоматический CPLP.»",
         "confidence": "high",
-        "source": "Hague Apostille Convention; AIMA/MNE document rules"
-      },
-      {
-        "severity": "minor",
-        "where": "costs",
-        "current": "AIMA — приём + анализ: 133; AIMA — ВНЖ (art. 75): 307.2; note: с 01.03.2026",
-        "problem": "The fee figures may be plausible for the 01.03.2026 table, but the guide gives no specific legal source for a sensitive and change-prone fee table. The generic AIMA homepage source is not enough for users to verify the amounts.",
-        "suggestion": "Add the specific AIMA fee table / portaria source for the 01.03.2026 amounts, and specify whether the amounts apply to first issue, renewal, CPLP special permit, art. 75 temporary residence card, or appointment/analysis only.",
-        "confidence": "high",
-        "source": "AIMA fee table in force from 01.03.2026; applicable Portaria"
+        "source": "Vistos MNE; Lei 23/2007 categories"
       },
       {
         "severity": "minor",
         "where": "sources[0]",
-        "current": "AIMA — Acordo de Mobilidade CPLP / https://aima.gov.pt/",
-        "problem": "This is only the AIMA homepage, not a specific CPLP procedure page or fee/document checklist. For an immigration guide with legal consequences, a homepage is an insufficient citation.",
-        "suggestion": "Use the direct AIMA CPLP procedure page and the direct AIMA fee-table page/PDF, with retrieval date.",
+        "current": "AIMA — Acordo de Mobilidade CPLP, url: https://aima.gov.pt/",
+        "problem": "The source is only the AIMA homepage, not the specific CPLP page or fee/procedure page. For an immigration guide with fees and procedural claims, this is too weak and may become unhelpful if the homepage changes.",
+        "suggestion": "Use the specific AIMA CPLP/mobility page if available, and add a separate source for the AIMA fee table effective 01.03.2026.",
         "confidence": "high",
         "source": "AIMA official website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No source for AIMA fee table effective 01.03.2026",
+        "problem": "The guide includes exact AIMA amounts and says they apply from 01.03.2026, but the legal basis for the new fee table is missing.",
+        "suggestion": "Add a source entry for «Portaria 480-A/2025/1 — tabela de taxas AIMA» or the official AIMA tariff page that reflects that Portaria.",
+        "confidence": "high",
+        "source": "Portaria 480-A/2025/1"
+      },
+      {
+        "severity": "minor",
+        "where": "recentlyChangedAt / changeSummary / lastVerified",
+        "current": "recentlyChangedAt: 2025-10-23; changeSummary contains 03.05.2026; lastVerified: 2026-05-17",
+        "problem": "Internal chronology is confusing: the change date is October 2025, sources were retrieved in April 2026, but the summary asserts a May 2026 promulgation. If the guide is meant to be current as of April 2026, the May 2026 claims should not be there.",
+        "suggestion": "Align metadata with the actual verification date and remove future-dated legal claims. If verified after May 2026, update sources with May retrieval dates and cite the DRE publication; otherwise keep the April 2026 status.",
+        "confidence": "high",
+        "source": "Internal consistency"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[3].content[0].items[5]",
+        "current": "Фото 3х4",
+        "problem": "This may be misleading as a universal requirement. For residence-card procedures AIMA normally captures biometrics/photo at the appointment; some offices/checklists may not require a separate printed 3x4 photo.",
+        "suggestion": "Write: «Фото — только если указано в актуальном чек-листе/запросе AIMA; обычно биометрия и фото снимаются на приёме.»",
+        "confidence": "medium",
+        "source": "AIMA appointment practice"
       }
     ],
     "missing_topics": [
-      "Clear distinction between CPLP residence permit, CPLP consular visa, and ordinary D-type visas; the guide currently says “CPLP mobility or D-type by situation” without explaining consequences.",
-      "Explicit warning that a CPLP residence permit/card may not give the same Schengen mobility treatment as a standard residence permit in all practical situations; users should verify travel rules before leaving Portugal.",
-      "What happens to holders of older online CPLP certificates and whether/when they need to exchange them for biometric residence cards.",
-      "Requirement to keep legal entry/visa validity evidence and to avoid overstays while waiting for AIMA appointment, with reference to current extension/regularisation rules if any are in force.",
-      "Specific official source for the 01.03.2026 AIMA fee table and whether listed fees are cumulative or alternative.",
-      "Practical caveat that AIMA appointment availability and channels change frequently; users must verify on AIMA immediately before acting."
+      "Clear caveat that old electronic CPLP certificates/authorizations and the newer physical residence cards are not the same document, and Schengen travel/recognition may differ.",
+      "Specific source for the AIMA fee table effective 01.03.2026, not just the AIMA homepage.",
+      "Explanation that D1/D2/D3/D4/D6/D7/D8 are separate visa routes and should not be conflated with the CPLP mobility route.",
+      "Practical warning that appointment wait time and card-production time are separate and both can be delayed.",
+      "Caveat that nationality-law changes approved in April 2026 were not operative until promulgation and DRE publication."
     ]
   },
   "usage": {
-    "completion_tokens": 5085,
-    "prompt_tokens": 2999,
-    "total_tokens": 8084
+    "completion_tokens": 4573,
+    "prompt_tokens": 3356,
+    "total_tokens": 7929
   },
   "model": "gpt-5.5"
 }

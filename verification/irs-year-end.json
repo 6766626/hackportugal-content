@@ -3,321 +3,121 @@
   "categoryId": "taxes",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Гайд полезен по структуре, но содержит много фактических ошибок по IRS-вычетам, приложениям Modelo 3, срокам e-Fatura и устаревшим лимитам аренды/PPR.",
+    "summary": "Guide is broadly useful, but it has several materially misleading tax details around employer income statements, dependent deductions, Annex selection, and some missing IRS-calendar caveats.",
     "issues": [
       {
         "severity": "major",
-        "where": "tldr",
-        "current": "«заактивировать вычеты до 31 декабря»",
-        "problem": "Вычеты не «активируются» до 31 декабря. До 31 декабря важно совершить расходы/взносы, но подтверждение и классификация счетов в e-Fatura обычно делаются до 25 февраля следующего года; затем есть этап проверки сумм и подачи жалобы.",
-        "suggestion": "Написать: «До 31 декабря — совершить расходы/взносы, которые хотите учесть за налоговый год. Счета в e-Fatura обычно нужно проверить и подтвердить до 25 февраля следующего года; затем проверить рассчитанные вычеты в марте».",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Получить Comprovativo de Rendimentos от работодателя (обязан выдать до 15.02)",
+        "problem": "The deadline is wrong/misleading. Employers/payers must provide the annual income/withholding statement to the taxpayer by 20 January, not 15 February.",
+        "suggestion": "Write: \"Получить Declaração/Comprovativo de Rendimentos e Retenções от работодателя/плательщика — обычно должен быть выдан до 20 января следующего года.\"",
         "confidence": "high",
-        "source": "Autoridade Tributária — calendário IRS / e-Fatura"
+        "source": "Código do IRS, art. 119.º"
       },
       {
         "severity": "major",
-        "where": "tldr",
-        "current": "«Просрочка — штраф от 150 €.»",
-        "problem": "Минимальный штраф по RGIT для неподачи декларации действительно часто указывают как €150, но при добровольной быстрой подаче может применяться сильно сниженный штраф, вплоть до €25. Фраза «от 150 €» вводит в заблуждение.",
-        "suggestion": "Написать: «За просрочку возможен штраф по RGIT, обычно €150–€3 750, но при добровольном исправлении/быстрой подаче может применяться сниженный штраф».",
+        "where": "steps[3].content[0].items[6].content[0].items[0]",
+        "current": "Фиксированные вычеты по dependentes: 600 € (1-й ребёнок), 726 € (2-й при возрасте до 6), 900 € (3-й и далее) — точные суммы зависят от возраста и состава семьи",
+        "problem": "The amounts are presented as an ordered sequence by child number, which is not how art. 78-A works. The base deduction is per dependent, with supplements depending on age and whether there is more than one dependent; €726 and €900 are not simply \"2nd\" and \"3rd+\" child amounts.",
+        "suggestion": "Replace with: \"Dependentes: базовый вычет €600 на каждого dependente; есть надбавки по возрасту и составу семьи, например для маленьких детей и для второго/последующих dependentes до установленного возраста. Проверяйте точные суммы по art. 78-A CIRS для конкретного года и состава семьи.\"",
         "confidence": "high",
-        "source": "RGIT, art. 116 and regime of reduced fines"
+        "source": "Código do IRS, art. 78.º-A"
       },
       {
         "severity": "major",
-        "where": "steps[0].content[0].items[0]",
-        "current": "«Проверить Faturas.pt — все ваши покупки с NIF накапливаются здесь. Неотнесённые к категории теряют вычет»",
-        "problem": "Сервис обычно называется e-Fatura, а не Faturas.pt. Не все покупки с NIF дают вычет, и не всякая неклассифицированная фактура автоматически «теряет» вычет: часть попадает в общие семейные расходы, часть требует ручного подтверждения/рецепта/категории.",
-        "suggestion": "Написать: «Проверить e-Fatura: счета с NIF подтягиваются туда, но некоторые требуют ручной классификации или подтверждения рецепта; не все расходы дают налоговый вычет».",
+        "where": "steps[2].content[0].items[0].content[0].text",
+        "current": "Для категорий A (зарплата) и H (пенсия) с одним работодателем без других источников.",
+        "problem": "This is too restrictive and may make readers think IRS Automático is unavailable when it may be available. The eligibility rules are set annually by AT and can cover more than one payer and certain common situations, while excluding specific cases. It is not simply \"one employer only\".",
+        "suggestion": "Write: \"IRS Automático доступен только если Portal das Finanças предлагает его для вашего NIF; чаще всего это простые случаи категорий A/H и некоторые стандартные ситуации. Не ориентируйтесь только на число работодателей — проверьте наличие IRS Automático в портале и сравните расчёт с Modelo 3.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças — IRS Automático / Código do IRS, art. 58.º-A"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].items[6]",
+        "current": "Anexo G — прирост капитала / mais-valias (категория G): продажа акций, недвижимости, обычно — прирост капитала по криптовалютам",
+        "problem": "This omits an important foreign-source caveat. Capital gains from foreign securities/foreign brokers generally belong in Anexo J, not Anexo G. Crypto treatment is also not always \"usually capital gains\": gains may be exempt after the statutory holding period in many cases, or taxed differently if activity is professional/business-like.",
+        "suggestion": "Write: \"Anexo G — mais-valias de fonte portuguesa, например продажа недвижимости в Португалии и некоторые domestic gains. Иностранные акции/ETF/брокеры и иностранные доходы — обычно Anexo J. Crypto: режим зависит от срока владения, типа операции и профессионального характера; часть операций декларируется в G/G1 или J/B в зависимости от случая.\"",
+        "confidence": "high",
+        "source": "Código do IRS, arts. 10.º, 72.º; Modelo 3 IRS instructions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[7]",
+        "current": "Anexo G1 — упрощённое приложение для определённых mais-valias",
+        "problem": "Calling Anexo G1 a \"simplified\" annex is misleading. It is not a simplified substitute for Anexo G; it is for specific non-taxed/exempt capital gains and similar reportable situations.",
+        "suggestion": "Write: \"Anexo G1 — отдельные не облагаемые/освобождённые mais-valias и специальные случаи, когда их всё равно нужно сообщить; не является заменой Anexo G.\"",
+        "confidence": "high",
+        "source": "Modelo 3 IRS instructions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].items[2].content[0].items[4]",
+        "current": "Anexo E — rendimentos de capitais (категория E): проценты, дивиденды от SA/Lda",
+        "problem": "Too broad without the withholding/finality caveat. Portuguese interest/dividends subject to retenção liberatória at source are often not mandatory to declare unless the taxpayer opts for aggregation; foreign interest/dividends generally go to Anexo J.",
+        "suggestion": "Write: \"Anexo E — capitais de fonte portuguesa, когда их нужно/вы хотите декларировать, например при opção pelo englobamento. Иностранные проценты/дивиденды — Anexo J.\"",
+        "confidence": "high",
+        "source": "Código do IRS, arts. 5.º, 22.º, 71.º; Modelo 3 IRS instructions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4].content[0].items",
+        "current": "Рестораны, alojamento, парикмахерские/beauty, ремонт авто/мото: обычно 15% от уплаченного IVA; Ветеринария: 35% ...; Monthly passes ...",
+        "problem": "The list of art. 78-F sectors is incomplete for a practical checklist: gyms/sports activities are missing, although they are part of the invoice-demand deduction regime.",
+        "suggestion": "Add an item: \"Ginásios/atividades desportivas elegíveis — часть IVA может учитываться по art. 78-F, если поставщик имеет подходящий CAE и счёт с NIF.\"",
+        "confidence": "high",
+        "source": "Código do IRS, art. 78.º-F"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[2]",
+        "current": "❌ Не подтвердить чеки на Faturas.pt → потеря вычетов",
+        "problem": "Wrong portal name/reference. The official service is e-Fatura at faturas.portaldasfinancas.gov.pt; \"Faturas.pt\" is not the official AT portal and may confuse users.",
+        "suggestion": "Write: \"❌ Не подтвердить/классифицировать счета в e-Fatura → потеря или перенос вычетов в неправильную категорию.\"",
         "confidence": "high",
         "source": "Portal das Finanças — e-Fatura"
       },
       {
-        "severity": "major",
-        "where": "steps[0].content[0].items[3]",
-        "current": "«Оплатить обучение / курсы до 31.12 — вычет до 800 € / ребёнок»",
-        "problem": "Лимит €800 — не «на ребёнка», а общий лимит семейного вычета на образование, с особыми увеличениями, например для deslocado/student rent. Кроме того, не любые курсы автоматически считаются educação.",
-        "suggestion": "Написать: «Образование: 30% допустимых расходов, общий лимит обычно €800 на домохозяйство; может увеличиваться в специальных случаях, например для студента, проживающего вне дома. Курсы должны подпадать под допустимые категории/CAE».",
+        "severity": "minor",
+        "where": "steps[5].content[1].items[6]",
+        "current": "❌ Пропустить срок — штраф 150-3750 € (прогрессивная шкала)",
+        "problem": "\"Progressive scale\" is not a precise description of coimas under RGIT. The statutory range is generally €150–€3,750 for late/missing declaration, with possible reductions depending on voluntary regularisation and circumstances.",
+        "suggestion": "Write: \"❌ Пропустить срок — coima по RGIT обычно в диапазоне €150–€3 750; при быстрой добровольной подаче/исправлении возможны сниженные суммы.\"",
         "confidence": "high",
-        "source": "Código do IRS, art. 78-D"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[1].title",
-        "current": "«Образование (30% до 800 €/дитя)»",
-        "problem": "Та же ошибка: лимит не является €800 на каждого ребёнка.",
-        "suggestion": "Заменить на: «Образование: 30% допустимых расходов, обычно до €800 на домохозяйство, с возможными повышениями в специальных случаях».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-D"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[4]",
-        "current": "«Обеды в ресторанах с NIF — вычет до 250 €»",
-        "problem": "Для ресторанов действует не вычет 15% от суммы счёта, а вычет части IVA, указанного в счёте. Лимит €250 относится к совокупному вычету по нескольким секторам, а не только к ресторанам.",
-        "suggestion": "Написать: «Рестораны/отели/парикмахерские/ремонт авто и мото и др.: вычет рассчитывается как процент от IVA по счету, с общим лимитом €250 на домохозяйство».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-F"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[4].content[0].items[0]",
-        "current": "«Рестораны и hair — 15% до 250 € (отдельная категория с 2019)»",
-        "problem": "Неверно описана база расчёта: это процент от IVA, а не 15% от расхода. Также категория не ограничивается restaurants and hair; туда входят accommodation, vehicle/motorcycle repair and maintenance, hairdressers/beauty, ветеринария с другим процентом, public transport с особым режимом и др.",
-        "suggestion": "Написать: «Рестораны, alojamento, парикмахерские/beauty, ремонт авто/мото: обычно 15% IVA; ветеринария — 35% IVA; passes/общественный транспорт — 100% IVA; общий лимит по art. 78-F — €250».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-F"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[4].content[0].items[1]",
-        "current": "«Авто-сервис и общественный транспорт — 15% до 250 €»",
-        "problem": "Автосервис обычно 15% IVA, но passes/общественный транспорт имеют особый режим: вычет 100% IVA, а не 15%. Формулировка смешивает разные правила.",
-        "suggestion": "Разделить: «Ремонт/обслуживание авто и мото — 15% IVA. Monthly passes и определённый общественный транспорт — 100% IVA, в рамках общего лимита art. 78-F».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-F"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[4].content[0].items[2]",
-        "current": "«Ветеринар — 22.5% (если registered)»",
-        "problem": "Ставка устарела/неверна. По действующему режиму вычет по ветеринарным расходам рассчитывается как 35% IVA, а не 22,5%.",
-        "suggestion": "Заменить на: «Ветеринарные расходы — 35% IVA по счетам от зарегистрированных поставщиков, в рамках общего лимита art. 78-F».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-F"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[5]",
-        "current": "«ЖКХ с NIF (электричество, газ, вода) — вычет до 250 €»",
-        "problem": "Коммунальные услуги обычно попадают в despesas gerais familiares, где вычет — 35% расходов до €250 на налогоплательщика, а не специальный «жилищный» вычет. Для пары лимит может быть €500.",
-        "suggestion": "Написать: «Коммунальные услуги с NIF обычно идут в despesas gerais familiares: 35% расходов, лимит €250 на налогоплательщика (€500 для пары при совместной декларации)».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-B"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[2].content[0].items[2]",
-        "current": "«Энергетика (ЖКХ) — 15% до 250 €»",
-        "problem": "Такого общего жилищного вычета «15% до €250» для electricity/gas/water нет. Это путает despesas gerais familiares с жилищными вычетами.",
-        "suggestion": "Удалить из раздела «Жильё» или заменить на: «Электричество/газ/вода обычно учитываются как despesas gerais familiares: 35% до €250 на налогоплательщика».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-B"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[6]",
-        "current": "«Recibo аренды за декабрь — вычет до 502 €»",
-        "problem": "Лимит €502 устарел. Для IRS, подаваемого в 2026 за доходы/расходы 2025 года, лимит по permanent housing rent выше — €700, с особыми повышениями для низких доходов.",
-        "suggestion": "Написать: «Аренда permanent home: 15% допустимой арендной платы; для IRS 2026 за 2025 год базовый лимит — €700, возможны повышенные лимиты для низких доходов».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-E; Orçamento do Estado changes to rent deduction limits"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[2].content[0].items[0]",
-        "current": "«Аренда — 15% до 502 €»",
-        "problem": "Дублируется устаревший лимит €502. Для декларации 2026 за 2025 год должен использоваться базовый лимит €700.",
-        "suggestion": "Заменить на: «Аренда permanent home — 15% до €700 для расходов 2025 года; возможны повышенные лимиты в зависимости от дохода».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-E"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[7]",
-        "current": "«Пополнить PPR (пенсионный план) — вычет до 400 € (молодые), 300 € (40-50), 200 € (>50)»",
-        "problem": "Неверные лимиты и противоречие с более поздним разделом guide. Актуальные классические лимиты PPR: до 35 лет — €400; от 35 до 50 — €350; старше 50 — €300.",
-        "suggestion": "Заменить на: «PPR: 20% взносов, максимум €400 до 35 лет, €350 от 35 до 50 лет, €300 старше 50 лет».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 21 Estatuto dos Benefícios Fiscais"
+        "source": "RGIT, arts. 29.º and 116.º"
       },
       {
         "severity": "minor",
-        "where": "steps[3].content[0].items[5].content[0].items[1]",
-        "current": "«35-50: 20% до 350 €»",
-        "problem": "Формулировка может быть неточной по возрастным порогам: в официальной формуле обычно «idade compreendida entre 35 e 50 anos»; лучше явно указать, что это зависит от возраста на 1 января соответствующего года и от конкретной трактовки AT.",
-        "suggestion": "Написать: «35–50 лет: 20% взносов, максимум €350; проверьте возрастной порог по состоянию на налоговый год».",
+        "where": "steps[5].content[1].items[0]",
+        "current": "❌ Забыть включить иностранный доход — автообмен данных EU (DAC7, CRS) ловит это.",
+        "problem": "This overstates DAC7 and mixes regimes. CRS reports financial accounts internationally; DAC7 mainly concerns digital platform operators. Foreign income can also be detected through other DAC/automatic exchange channels, but DAC7 is not the general mechanism for all foreign income.",
+        "suggestion": "Write: \"❌ Забыть включить иностранный доход — AT получает данные через CRS, DAC/автообмен ЕС и отчётность платформ/финучреждений; лучше декларировать и применять foreign tax credit/DTA, если применимо.\"",
+        "confidence": "high",
+        "source": "OECD CRS; EU Directive 2011/16/EU as amended"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "🎯 IFICI: ставка 20% на eligible net employment/business income; обычный IRS на остальное",
+        "problem": "Correct but incomplete for IFICI users: IFICI also has special treatment/exemptions for certain foreign-source income, with important exclusions such as pensions and blacklist-jurisdiction caveats. A checklist for IFICI/NHR should warn that not all foreign income is taxed the same way.",
+        "suggestion": "Add: \"IFICI также может давать освобождение для некоторых foreign-source income, но не для всех категорий; pensions и доходы из blacklisted jurisdictions требуют отдельной проверки. Всегда сверяйте с регистрацией IFICI и Anexo J/L instructions.\"",
         "confidence": "medium",
-        "source": "Estatuto dos Benefícios Fiscais, art. 21"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[1].content[0].items[2]",
-        "current": "«Языковые курсы»",
-        "problem": "Не любые языковые курсы дают education deduction. Поставщик должен иметь подходящий CAE/sector classification, а счёт должен быть классифицирован как educação.",
-        "suggestion": "Уточнить: «Языковые курсы — только если поставщик и счёт подходят под правила education expenses в e-Fatura/AT».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-D; AT e-Fatura rules"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[1].content[0].items[4]",
-        "current": "«Школьная форма»",
-        "problem": "Школьная форма обычно не является deductible education expense как таковая, если это обычная покупка одежды с нормальным IVA/у неподходящего поставщика. Фраза слишком широкая.",
-        "suggestion": "Удалить или написать: «Одежда/форма обычно не учитывается как education expense, если не подпадает под специальные правила и корректную классификацию счёта».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-D"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[1].content[0].items[5]",
-        "current": "«Транспорт до школы»",
-        "problem": "Не любой транспорт до школы является education expense. Некоторые школьные транспортные услуги могут учитываться при выполнении условий, но обычные поездки/транспортные расходы не всегда попадают в образование.",
-        "suggestion": "Написать: «Школьный транспорт — только если счёт выставлен подходящим поставщиком и классифицируется AT как допустимый education expense; обычный public transport может идти по правилам IVA deduction, а не education».",
-        "confidence": "medium",
-        "source": "Código do IRS, art. 78-D and 78-F"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[0].content[0].items[1]",
-        "current": "«Аптеки (прописанные и OTC с NIF)»",
-        "problem": "OTC/лекарства и медтовары с IVA 23% обычно требуют рецепта или подтверждения в e-Fatura, иначе могут не войти в health deduction. Не все аптечные покупки автоматически deductible.",
-        "suggestion": "Написать: «Аптеки: расходы с reduced VAT обычно попадают автоматически; товары с IVA 23% требуют рецепта/подтверждения в e-Fatura».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 78-C; AT e-Fatura"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[2].content[0].items[3]",
-        "current": "«IMI оплаченный — иногда вычитается»",
-        "problem": "IMI по собственному жилью сам по себе обычно не является IRS deduction. Формулировка «иногда» слишком расплывчата и может создать ложное ожидание. IMI может быть релевантен как расход при определении rental income или capital gains, но не как обычный семейный вычет за своё жильё.",
-        "suggestion": "Написать: «IMI за собственное жильё обычно не даёт IRS deduction. IMI может учитываться как расход только в специальных случаях, например при доходе от аренды или расчёте прироста капитала».",
-        "confidence": "high",
-        "source": "Código do IRS, arts. 41, 51, 78-E"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[0].items[2].content[0].items[0]",
-        "current": "«Anexo A — зарплата, пенсия»",
-        "problem": "Нормально как упрощение, но нужно уточнить: Anexo A — category A employment income and category H pensions. Не проблема сама по себе, но в списке приложений есть более серьёзные ошибки ниже.",
-        "suggestion": "Можно оставить, но лучше: «Anexo A — trabalho dependente и pensões: категории A и H».",
-        "confidence": "high",
-        "source": "Modelo 3 IRS instructions"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[2].content[0].items[2].content[0].items[3]",
-        "current": "«Anexo D — партнёрские доходы (SA, Lda)»",
-        "problem": "Неверное описание. Anexo D не является обычным приложением для доходов от SA/Lda. Он касается imputação de rendimentos, transparência fiscal, herança indivisa и некоторых специальных случаев. Дивиденды от SA/Lda обычно относятся к category E/Anexo E или withholding regime, а не к Anexo D.",
-        "suggestion": "Заменить на: «Anexo D — imputação de rendimentos: fiscal transparency, herança indivisa и другие специальные случаи; не для обычных дивидендов от SA/Lda».",
-        "confidence": "high",
-        "source": "Modelo 3 IRS instructions"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[2].content[0].items[2].content[0].items[4]",
-        "current": "«Anexo E — инвестиционный доход (дивиденды, %, крипта)»",
-        "problem": "Криптоактивы не следует обобщённо относить к Anexo E. Проценты/дивиденды — category E, но crypto capital gains декларируются в Anexo G/G1 в зависимости от случая; профессиональная деятельность с crypto может быть category B.",
-        "suggestion": "Написать: «Anexo E — rendimentos de capitais, например проценты и дивиденды. Crypto: capital gains обычно Anexo G/G1; профессиональная деятельность — Anexo B».",
-        "confidence": "high",
-        "source": "Código do IRS; Modelo 3 IRS instructions for cryptoassets"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[2].content[0].items[2].content[0].items[8]",
-        "current": "«Anexo I — особые режимы»",
-        "problem": "Неверно/слишком расплывчато. Anexo I не является универсальным приложением для «особых режимов»; он связан с income from herança indivisa / specific imputations depending on current Modelo 3 structure. Для NHR используется Anexo L.",
-        "suggestion": "Проверить актуальную инструкцию Modelo 3 и заменить на точное назначение Anexo I; не писать «особые режимы» без расшифровки.",
-        "confidence": "medium",
-        "source": "Modelo 3 IRS instructions"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[2].content[0].items[2].content[0].items[10]",
-        "current": "«Anexo L — деятельность за рубежом»",
-        "problem": "Неверно. Anexo L используется для резидентов с режимом NHR и сходных/переходных режимов, а не для «деятельности за рубежом». Иностранные доходы указываются в Anexo J.",
-        "suggestion": "Заменить на: «Anexo L — regime dos residentes não habituais / соответствующие льготные режимы, если применимо. Иностранные доходы — Anexo J».",
-        "confidence": "high",
-        "source": "Modelo 3 IRS instructions"
-      },
-      {
-        "severity": "major",
-        "where": "steps[4].content[0].items[1]",
-        "current": "«Отдельная форма по NHR старым (до 2024) либо IFICI (с 2024)»",
-        "problem": "Слишком неточно. NHR был закрыт для новых заявителей с 2024 с переходными правилами; IFICI/NHR 2.0 имеет отдельный режим eligibility и регистрации, но в IRS-декларации используются конкретные поля/приложения, а не просто «отдельная форма». Нужно различать регистрацию статуса и ежегодное декларирование.",
-        "suggestion": "Написать: «NHR: для уже одобренных/переходных случаев — декларирование через соответствующие поля Modelo 3/Anexo L. IFICI: сначала должна быть одобрена регистрация в режиме; в декларации применяется только к квалифицированному доходу при выполнении условий».",
-        "confidence": "high",
-        "source": "Código Fiscal do Investimento / IFICI regulations; Modelo 3 IRS instructions"
-      },
-      {
-        "severity": "major",
-        "where": "steps[4].content[0].items[3]",
-        "current": "«Tax residency certificates — получить в странах источника для претензии на tax credit»",
-        "problem": "Для foreign tax credit обычно нужны документы о сумме дохода и уплаченном/удержанном иностранном налоге. Tax residency certificate чаще нужен наоборот: португальский сертификат резидентства предъявляют иностранному источнику для применения treaty rate. Сертификат резидентства «в странах источника» не является стандартным документом для tax credit.",
-        "suggestion": "Написать: «Для foreign tax credit соберите справки о доходе и фактически удержанном/уплаченном иностранном налоге. Portuguese tax residence certificate может понадобиться для иностранного плательщика, чтобы применить соглашение об избежании двойного налогообложения».",
-        "confidence": "high",
-        "source": "Código do IRS, art. 81; double tax treaty practice"
-      },
-      {
-        "severity": "major",
-        "where": "steps[6].content[0].items[1]",
-        "current": "«Возврат (reembolso) — к августу-октябрю на указанный IBAN»",
-        "problem": "Для деклараций, поданных в срок, обычные законные сроки завязаны на liquidação до 31 июля и payment/refund by 31 August. Октябрь как нормальный срок вводит в заблуждение, хотя задержки и проверки бывают.",
-        "suggestion": "Написать: «Если декларация подана вовремя и без проверки, reembolso обычно приходит до 31 августа, часто раньше; при divergências/fiscalização сроки могут затянуться».",
-        "confidence": "high",
-        "source": "Código do IRS, arts. 77, 97"
-      },
-      {
-        "severity": "major",
-        "where": "steps[6].content[0].items[3]",
-        "current": "«Ошибка в вашу пользу — Finanças обнаружила, но timeout prescribed 4 года»",
-        "problem": "Фраза опасно упрощает срок давности. Общий срок caducidade — 4 года, но есть исключения, приостановления/прерывания и более длинные сроки для некоторых иностранных/офшорных ситуаций. Нельзя советовать рассчитывать на «timeout».",
-        "suggestion": "Написать: «AT обычно может исправлять/доначислять налог в пределах срока caducidade, часто 4 года, но есть исключения и продления; при обнаружении ошибки лучше консультироваться и подавать substituição/regularização».",
-        "confidence": "high",
-        "source": "Lei Geral Tributária, art. 45"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[6].content[0].items[5]",
-        "current": "«Проверка AT (fiscalização) — можете быть выбраны random, обычно email запрос на документы»",
-        "problem": "AT не должна описываться как запрашивающая документы «обычно email». Официальные уведомления приходят через Portal das Finanças / ViaCTT / registered mail / electronic notifications. Обычный email легко спутать с phishing.",
-        "suggestion": "Написать: «Запросы AT проверяйте в Portal das Finanças, ViaCTT/electronic notifications или официальной почте; не доверяйте обычным email без проверки».",
-        "confidence": "high",
-        "source": "Autoridade Tributária electronic notifications rules"
-      },
-      {
-        "severity": "major",
-        "where": "sources[0]",
-        "current": "«Portal das Finanças — IRS 2026», url: «https://www.portaldasfinancas.gov.pt/at/html/irsweb2024»",
-        "problem": "URL выглядит как устаревшая страница IRS 2024, а не официальный IRS 2026/2025 filing resource. Это плохой источник для материала, проверенного в 2026.",
-        "suggestion": "Заменить на актуальную страницу AT по IRS или раздел Apoio ao Contribuinte / IRS на Portal das Finanças, а также добавить ссылку на актуальные instruções Modelo 3 для соответствующего года.",
-        "confidence": "high",
-        "source": "Portal das Finanças — IRS"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[0].items[2]",
-        "current": "«Комробантес recibos verdes»",
-        "problem": "Опечатка/смешение языков: «Комробантес». Также recibos verdes не просто «автоматически» в декларации во всех случаях; нужно проверить Anexo B/C, withholding, Social Security и activity code.",
-        "suggestion": "Исправить на: «Comprovativos/recibos verdes: проверить в Portal das Finanças, сверить Anexo B/C, retenções na fonte, despesas и activity code».",
-        "confidence": "high",
-        "source": "Portal das Finanças — recibos verdes / Modelo 3"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[0].items[4]",
-        "current": "«Комробант IMI (если купили жильё в году)»",
-        "problem": "Опечатка и неясность. При покупке жилья для IRS важнее документы по IMT, imposto do selo, escritura, acquisition costs, loan interest eligibility, а IMI сам по себе обычно не нужен для обычного IRS-вычета.",
-        "suggestion": "Написать: «Если покупали жильё: сохранить escritura, IMT, imposto do selo, нотариальные/регистрационные расходы; IMI обычно нужен только для специальных случаев, например rental income/capital gains».",
-        "confidence": "high",
-        "source": "Código do IRS, arts. 41, 51, 78-E"
+        "source": "Estatuto dos Benefícios Fiscais, art. 58.º-A; Portaria 352/2024/1"
       }
     ],
     "missing_topics": [
-      "Нужно добавить календарь e-Fatura: подтверждение фактур обычно до 25 февраля, проверка сумм вычетов в марте, срок жалобы на household/general deductions, consignação IRS/IVA до конца марта.",
-      "Нужно явно сказать, что декларация IRS 2026 подаётся за доходы 2025 года; лимиты вычетов зависят от года расходов.",
-      "Нужно упомянуть общие лимиты на deductions à coleta по art. 78 CIRS: итоговая выгода ограничивается уровнем дохода, поэтому сумма отдельных максимумов не всегда достижима.",
-      "Нужно объяснить отдельную/совместную подачу для супругов/união de facto и влияние на лимиты €250/€500 по despesas gerais familiares.",
-      "Нужно добавить caveat по IRS Jovem: с 2025 режим сильно изменён, но eligibility, years of income and caps must be checked; одной фразы «до 35» недостаточно.",
-      "Нужно добавить, что иностранные банковские счета и IBAN могут требовать декларирования в Anexo J, даже если дохода мало или налог удержан за рубежом.",
-      "Нужно добавить, что для аренды deductible только contrato/recibos electrónicos de renda или корректно задекларированные recibos, а не просто банковский перевод арендодателю.",
-      "Нужно добавить ссылку на актуальные instruções oficiais Modelo 3 IRS за год подачи, потому что список anexos в гайде сейчас содержит критические ошибки."
+      "Comunicação do agregado familiar by 15 February: household composition, dependents, joint custody/residência alternada, and relevant family status must be checked before filing.",
+      "March claim window: after e-Fatura validation, taxpayers can usually consult/claim invoice-based deductions in March; the guide mentions checking deductions but should explicitly say claims are time-limited.",
+      "Consignment of 0.5% IRS/15% IVA to eligible entities: optional and does not reduce refund/tax due for the 0.5% IRS consignment.",
+      "Need to compare separate vs joint taxation for married/de facto couples before submitting; the optimal choice can change refund/tax due.",
+      "For self-employed simplified regime, expenses and coefficient rules can require confirming business expenses in e-Fatura; not all recibo verde taxpayers only need Anexo B values.",
+      "Official source specifically for IFICI/NHR transitional rules and Annex L instructions should be added, not only the generic Portal das Finanças and CIRS links."
     ]
   },
   "usage": {
-    "completion_tokens": 8117,
-    "prompt_tokens": 3554,
-    "total_tokens": 11671
+    "completion_tokens": 4532,
+    "prompt_tokens": 4282,
+    "total_tokens": 8814
   },
   "model": "gpt-5.5"
 }

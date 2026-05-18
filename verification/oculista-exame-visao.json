@@ -1,0 +1,86 @@
+{
+  "guideId": "oculista-exame-visao",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом практичный и фактически корректный, но местами переоценивает юридический статус optometrista/«receita», упрощает IRS-вычеты и нуждается в более точных официальных источниках.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "“Optometrista — специалист по рефракции: измеряет миопию, гиперметропию, астигматизм, подбирает очки и контактные линзы.”",
+        "problem": "Формулировка звучит как описание полностью регулируемой медицинской профессии. В Португалии optometria существует на практике и преподаётся, но optometrista не равен médico oftalmologista и не является врачом; медицинская диагностика, лечение и назначение лекарств относятся к врачу. Для русскоязычного читателя важно прямо сказать, что это не медицинская консультация и не медицинский рецепт.",
+        "suggestion": "Написать: “Optometrista — не врач; в оптиках обычно занимается измерением рефракции и подбором очков/контактных линз. Он не заменяет médico oftalmologista, не ставит медицинские диагнозы и не назначает лечение/лекарства. Для медицинских симптомов нужна consulta de oftalmologia.”",
+        "confidence": "high",
+        "source": "Ordem dos Médicos / Colégio da Especialidade de Oftalmologia; ACSS lists of regulated health professions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3]",
+        "current": "“Попросите receita / graduação: OD/OS, esfera, cilindro, eixo, adição, distância pupilar.”",
+        "problem": "Смешаны два разных понятия. Receita médica/prescrição médica — медицинский рецепт от врача; graduação или ficha de graduação из оптики — параметры линз, выданные после optometry/refraction test. Называть документ из оптики “receita” может ввести в заблуждение, особенно для страховки, ADSE или IRS, где иногда требуется именно prescrição médica.",
+        "suggestion": "Заменить на: “Попросите распечатку da graduação/ficha de refração: OD/OS, esfera, cilindro, eixo, adição и distância pupilar. Если документ нужен для страховки, ADSE или IRS, заранее уточните, достаточно ли graduação da óptica или требуется prescrição médica от médico oftalmologista.”",
+        "confidence": "high",
+        "source": "Portal das Finanças — regras de despesas de saúde; ADSE reimbursement rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[7]",
+        "current": "“Сохраните fatura com NIF: она нужна для частной страховки, ADSE, работодателя или IRS-расходов на saúde.”",
+        "problem": "Для IRS fatura com NIF не всегда достаточно. В e-Fatura расходы на saúde с нормальной ставкой IVA, в частности часть оптических товаров/оправ/аксессуаров, могут потребовать receita médica/prescrição médica и ручной валидации, иначе они не засчитаются как despesas de saúde.",
+        "suggestion": "Уточнить: “Для IRS одной fatura com NIF может быть недостаточно: если покупка проходит с IVA 23% или e-Fatura просит justificativo, нужна prescrição médica/receita и подтверждение в e-Fatura. Линзы/очки и оправы могут обрабатываться по-разному в зависимости от товара и ставки IVA.”",
+        "confidence": "high",
+        "source": "Código do IRS, art. 78.º-C; Portal das Finanças / e-Fatura — despesas de saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[6]",
+        "current": "“Для возмещения почти всегда нужны prescrição/graduação, fatura com NIF и иногда relatório médico.”",
+        "problem": "Снова смешаны prescrição médica и graduação. Для коммерческих страховок часто достаточно счёта и рецепта/градации, но ADSE и некоторые полисы могут требовать prescrição médica, лимиты по типу линз, периодичность и доказательство оплаты. Формулировка слишком обобщает разные режимы.",
+        "suggestion": "Написать: “Для возмещения обычно нужны fatura com NIF, prova de pagamento и документ с graduação; некоторые страховки/ADSE требуют именно prescrição médica от oftalmologista и имеют лимиты по типу линз и периодичности. Проверяйте condições particulares do seguro / tabela ADSE до покупки.”",
+        "confidence": "high",
+        "source": "ADSE — Tabelas do Regime Livre; policy conditions of Médis/Multicare/other insurers"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[4]",
+        "current": "“Страховки Médis, Multicare, AdvanceCare, Allianz, MGEN и корпоративные планы часто дают отдельный plafond на óculos/lentes.”",
+        "problem": "AdvanceCare чаще выступает как сеть/администратор медицинских планов, а не как страховщик в том же смысле, что Médis, Multicare или Allianz. Кроме того, optical plafond есть далеко не во всех планах и часто является опцией или корпоративным условием.",
+        "suggestion": "Уточнить: “Планы Médis, Multicare, Allianz, MGEN и корпоративные планы, а также планы, работающие через сеть AdvanceCare, иногда включают plafond на óculos/lentes; это не гарантировано и зависит от конкретного полиса.”",
+        "confidence": "medium",
+        "source": "Condições particulares dos seguros; AdvanceCare provider/network information"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].title",
+        "current": "“Где проверять зрение: Multiopticas, Wells, Lapierre, Vista Alegre”",
+        "problem": "Multiopticas и Wells — действительно крупные узнаваемые сети, но “Óptica Vista Alegre” выглядит как локальное/неуниверсальное название, а не национальная сеть. В заголовке это может создать впечатление, что это сопоставимый национальный игрок.",
+        "suggestion": "Изменить заголовок на: “Где проверять зрение: сети оптик и локальные ópticas” и в тексте оставить Vista Alegre только как пример локальной оптики: “названия вроде Óptica Vista Alegre могут быть локальными магазинами; проверяйте адрес, отзывы и наличие optometrista.”",
+        "confidence": "medium",
+        "source": "Company/store presence checks; no official national-chain source cited"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include company sites, SNS 24 root page and ERS root page.",
+        "problem": "Для темы, где читателю нужно отличать врача, optometrista, ortoptista, страховое/IRS-возмещение и права пациента, источники слишком общие. Нет прямых источников по регулируемым медицинским профессиям, офтальмологии, IRS health expenses и ADSE/страховым возмещениям.",
+        "suggestion": "Добавить официальные/профильные источники: Ordem dos Médicos или Sociedade Portuguesa de Oftalmologia для роли oftalmologista; ACSS/DGS для регулируемых профессий и SNS pathways; Portal das Finanças/CIRS art. 78.º-C для IRS; ADSE table if ADSE is mentioned.",
+        "confidence": "high",
+        "source": "Ordem dos Médicos; Sociedade Portuguesa de Oftalmologia; ACSS; Portal das Finanças; ADSE"
+      }
+    ],
+    "missing_topics": [
+      "Пояснение, что optometrista в оптике не выдаёт медицинский рецепт и не заменяет consulta de oftalmologia.",
+      "IRS caveat: fatura com NIF may not be enough; expenses with normal VAT may require medical prescription/validation in e-Fatura.",
+      "For children, especially preschool age or suspected strabismus/amblyopia, prefer pediatric ophthalmology/orthoptics rather than only an optical-store test.",
+      "Urgent red flags should go through SNS 24/112/urgência rather than waiting for médico de família.",
+      "Check insurance/ADSE reimbursement rules before purchase, because some plans require medical prescription and have limits by lens type and frequency."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3381,
+    "prompt_tokens": 3592,
+    "total_tokens": 6973
+  },
+  "model": "gpt-5.5"
+}

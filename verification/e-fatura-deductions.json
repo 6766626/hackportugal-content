@@ -1,0 +1,75 @@
+{
+  "guideId": "e-fatura-deductions",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом корректен для IRS 2025/e-Fatura, но есть несколько мест, где формулировки слишком упрощают правила по аренде, исправлениям после 25 февраля и ставкам exigência de fatura.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].text",
+        "current": "После 25 февраля исправления сложнее: часть данных можно оспорить позже в период reclamação, но лучше не рассчитывать на это.",
+        "problem": "Формулировка вводит в заблуждение: после 25 февраля не только возможна reclamação по despesas gerais familiares/exigência de fatura, но расходы saúde, educação, habitação и lares обычно можно исправлять при подаче Modelo 3, выбрав ручное заполнение/замену предварительно рассчитанных значений в Anexo H. Это важный практический способ исправления ошибок.",
+        "suggestion": "Написать: «После 25 февраля pendentes лучше уже не оставлять. С 15/16 по 31 марта можно reclamar principalmente despesas gerais familiares и exigência de fatura. Для saúde, educação, habitação и lares ошибки часто исправляют уже в Modelo 3 через Anexo H, заменяя предзаполненные суммы, но нужно хранить документы».",
+        "confidence": "high",
+        "source": "Código do IRS, art. 78-B и art. 78-C; Portal das Finanças — IRS/Anexo H instructions"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[4]",
+        "current": "Habitação — rendas: 15% арендных платежей за постоянное жильё, если договор зарегистрирован в Finanças и выдаются recibos de renda eletrónicos.",
+        "problem": "Слишком узко: электронные recibos de renda не являются единственным способом, по которому арендная плата может попасть в IRS. У некоторых арендодателей есть исключения из электронных recibos, и они декларируют аренду через Modelo 44; в таких случаях расходы арендатора тоже могут учитываться. Также не указан общий лимит для IRS 2025.",
+        "suggestion": "Написать: «Habitação — rendas: 15% арендных платежей за постоянное жильё, общий лимит для IRS 2025 — €700, с возможным повышением для более низких доходов. Обычно нужны зарегистрированный contrato de arrendamento и recibos de renda eletrónicos; если арендодатель освобождён от электронных recibos, данные могут идти через Modelo 44».",
+        "confidence": "high",
+        "source": "Código do IRS, art. 78-E; Portal das Finanças — recibos de renda eletrónicos / Modelo 44"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "аренда жилья — 15% до установленного лимита",
+        "problem": "В TL;DR перечислены «основные лимиты», но для аренды лимит не указан. Для декларации IRS 2025 это практически важная цифра.",
+        "suggestion": "Заменить на: «аренда постоянного жилья — 15% до €700 в общем случае, с возможным повышением для низких доходов».",
+        "confidence": "medium",
+        "source": "Código do IRS, art. 78-E"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[6]",
+        "current": "Exigência de fatura: часть IVA по ресторанам, alojamento, парикмахерским, ремонту авто/мото, ветеринарии, ginásios и mensal passes; общий лимит обычно 250 € на домохозяйство.",
+        "problem": "Список категорий в целом правильный, но формулировка «часть IVA» скрывает, что проценты разные: не все категории дают одинаковую долю VAT. Для monthly passes обычно учитывается 100% IVA, для ginásios — 30%, для ветеринарии — 35%, для большинства остальных перечисленных секторов — 15%.",
+        "suggestion": "Уточнить: «Exigência de fatura: в общий лимит €250 на домохозяйство входят разные доли IVA: обычно 15% для restauração/alojamento, cabeleireiros/beleza и ремонта авто/мото; 35% для veterinários; 30% для ginásios; 100% IVA для passes mensais de transporte público».",
+        "confidence": "high",
+        "source": "Código do IRS, art. 78-F"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[5]",
+        "current": "Lares: 25% расходов на дома престарелых и поддержку пожилых родственников, с отдельным лимитом.",
+        "problem": "Формулировка говорит об отдельном лимите, но не называет его. Для справочного гайда по вычетам это неполно.",
+        "suggestion": "Написать: «Lares: 25% расходов на lares и apoio domiciliário, лимит €403,75; применимо к налогоплательщику, супругу/партнёру, ascendentes и colaterais até 3.º grau при соблюдении условий дохода/зависимости».",
+        "confidence": "high",
+        "source": "Código do IRS, art. 84"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[1]",
+        "current": "С 15 по 31 марта обычно можно reclamar despesas gerais familiares и exigência de fatura, если суммы неверны.",
+        "problem": "Смысл верный, но для IRS 2025 в 2026 году 15 марта выпадает на воскресенье; фактическое начало/доступность периода может быть в следующий рабочий день по календарю AT. Слово «обычно» снижает риск, но для дат лучше дать формулировку через официальный календарь.",
+        "suggestion": "Написать: «Во второй половине марта, в сроки, опубликованные AT для IRS 2025, можно reclamar despesas gerais familiares и exigência de fatura; ориентировочно 15/16–31 марта».",
+        "confidence": "medium",
+        "source": "Portal das Finanças — calendário IRS 2025/2026"
+      }
+    ],
+    "missing_topics": [
+      "Стоит явно упомянуть Anexo H: если пользователь меняет предзаполненные суммы saúde/educação/habitação/lares в Modelo 3, нужно хранить подтверждающие документы и понимать, что AT может запросить их.",
+      "Для аренды стоит добавить исключение Modelo 44 и общий лимит €700 для IRS 2025.",
+      "Для exigência de fatura стоит разнести проценты IVA по категориям, чтобы читатель не думал, что все сектора дают одинаковый вычет."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3826,
+    "prompt_tokens": 3649,
+    "total_tokens": 7475
+  },
+  "model": "gpt-5.5"
+}

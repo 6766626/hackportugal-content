@@ -1,0 +1,84 @@
+{
+  "guideId": "tax-residency-rules",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is mostly accurate on the core CIRS art. 16 residency tests, but it has a materially misleading rolling-12-month example, an over-broad exit-tax discussion, and at least one mismatched official source.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].text",
+        "current": "Например, если вы приехали 1 сентября 2025 и жили без выезда до марта 2026, 12-месячный период пересекает 2026 год, и дни могут создать резидентство для части 2026.",
+        "problem": "This understates the consequence of the rolling 12-month rule. If the person exceeds 183 days in a 12-month period starting on 1 September 2025 and ending in 2026, CIRS art. 16 can make them resident from the first day of the period of presence, i.e. potentially from 1 September 2025, not merely for part of 2026. That creates possible 2025 IRS filing obligations as a partial-year resident.",
+        "suggestion": "Write instead: \"Например, если вы приехали 1 сентября 2025 и жили без выезда до марта 2026, вы набираете 184-й день примерно в начале марта 2026. Поскольку релевантный 12-месячный период начинается в 2025 и заканчивается в 2026, резидентство может начаться с первого дня пребывания в этом периоде — потенциально с 1 сентября 2025, с режимом partial-year residence и обязанностями по IRS за 2025.\"",
+        "confidence": "high",
+        "source": "Código do IRS, art. 16(1) and art. 16(3)"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].text",
+        "current": "если у вас есть акции, доли, паи фондов или другие активы с приростом, Finanças может считать, что при выезде возник налогооблагаемый прирост как разница между рыночной стоимостью на дату выезда и ценой приобретения",
+        "problem": "This is too broad and can mislead readers into thinking Portugal has a general mark-to-market exit tax on all financial assets. For individuals, the relevant IRS exit-tax rules are specific and asset/category-dependent; they are not a blanket tax on all investments, broker cash, deposits, crypto holdings, etc. The text should be narrowed to the assets actually covered by the CIRS capital-gains rules and should tell readers to verify the exact category.",
+        "suggestion": "Write more narrowly: \"При смене налогового резидентства Португалия может применять специальные правила к нереализованному приросту по некоторым активам, прежде всего participações sociais/valores mobiliários и другим случаям, прямо предусмотренным CIRS. Это не общий exit tax на все банковские счета, cash balance у брокера или любой crypto-актив; нужно проверять конкретный актив и статью CIRS.\"",
+        "confidence": "medium",
+        "source": "Código do IRS, art. 10"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[2].items[0]",
+        "current": "Составьте список брокеров, банков, крипто-платформ и долей в компаниях до смены резидентства.",
+        "problem": "As part of a practical inventory this is fine, but in the exit-tax section it may imply that crypto-platform balances or all bank/broker assets are themselves subject to Portuguese exit tax. That is not generally true without a specific CIRS rule applying to the asset/type of gain.",
+        "suggestion": "Clarify: \"Составьте список брокеров, банков, crypto-платформ и долей в компаниях; затем отдельно отметьте, какие активы действительно подпадают под exit-tax/mark-to-market правила CIRS, а какие просто нужны для обычной декларации доходов.\"",
+        "confidence": "medium",
+        "source": "Código do IRS, art. 10"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[2].items[6]",
+        "current": "особенно при портфеле от 50 000 €",
+        "problem": "The €50,000 threshold is presented as if it has legal significance, but no such threshold is stated or sourced here. It may be a practical editorial threshold for seeking advice, but readers could mistake it for a statutory limit.",
+        "suggestion": "Write: \"особенно при существенном портфеле — например, от 50 000 € как практический порог для консультации, а не как лимит из закона.\"",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "{\"title\":\"Autoridade Tributária: Residentes e não residentes — folheto informativo\",\"url\":\"https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675\"}",
+        "problem": "The title says this is an Autoridade Tributária informational leaflet, but the URL points to the consolidated Código do IRS on Diário da República. This is a mismatched reference.",
+        "suggestion": "Either change the title to \"Código do IRS — legislação consolidada\" or replace the URL with the actual AT leaflet/page on residentes e não residentes.",
+        "confidence": "high",
+        "source": "Diário da República; Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No specific source for partial-year residence or exit-tax mechanics beyond the generic CIRS URL.",
+        "problem": "For sensitive topics like partial-year residence and exit tax, the guide should cite the specific CIRS articles/subarticles or an AT circular/FAQ. A generic consolidated-code URL is technically official but not specific enough for readers to verify the claim.",
+        "suggestion": "Add source entries or source notes for \"Código do IRS, art. 16 — residência fiscal parcial\" and \"Código do IRS, art. 10 — mais-valias/transferência de residência\".",
+        "confidence": "high",
+        "source": "Código do IRS, art. 16; Código do IRS, art. 10"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[2]",
+        "current": "Первый IRS bracket в 2026 — 11,97%, но итог зависит от шкалы, deductions и типа дохода.",
+        "problem": "The exact 2026 IRS bracket rate is a volatile budget-law value and is not sourced in the guide. If this value comes from the 2026 IRS tables, it should cite the applicable law/table; otherwise it risks becoming quickly outdated.",
+        "suggestion": "Add a source for the 2026 IRS rate table or write less rigidly: \"Ставки IRS ежегодно меняются; проверяйте актуальную tabela de taxas gerais do IRS для 2026 года.\" If keeping 11.97%, cite the 2026 State Budget/official AT table.",
+        "confidence": "medium",
+        "source": "Orçamento do Estado 2026 / Código do IRS art. 68"
+      }
+    ],
+    "missing_topics": [
+      "For Russian citizens/residents specifically, mention that Russia has suspended application of many provisions of double-tax treaties with 'unfriendly' states, including practical consequences for relying on the Portugal-Russia tax treaty; readers should verify the current treaty status on both Portuguese and Russian sides.",
+      "Clarify that partial-year residence can create obligations for the earlier calendar year when the 12-month period starts in that year, even if the 184th day occurs only in the following year.",
+      "Add a short note that changing morada fiscal to a non-EU/EEA address may trigger fiscal-representative rules depending on whether the taxpayer has Portuguese tax obligations and whether electronic notifications are activated."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3193,
+    "prompt_tokens": 4183,
+    "total_tokens": 7376
+  },
+  "model": "gpt-5.5"
+}

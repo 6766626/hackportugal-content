@@ -3,117 +3,165 @@
   "categoryId": "residence_permit",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Гайд в целом полезный, но содержит несколько существенных юридических неточностей по отсутствиям/«эффективному проживанию», смешивает требования к доходу и депозиту, некорректно описывает альтернативные визы для фриланса и не даёт важных caveats по гражданству и CPLP.",
+    "summary": "Guide has a critical wrong financial threshold for D7 by using IAS instead of the national minimum wage, and it contains a false/outdated statement about the 2026 nationality-law reform being promulgated.",
     "issues": [
       {
         "severity": "critical",
-        "where": "steps[2].content[1].text",
-        "current": "D7 требует «эффективного проживания» — минимум 6 месяцев в году или 8 месяцев за 2 года. Иначе при продлении откажут.",
-        "problem": "Неверно сформулировано правило отсутствий. Закон говорит не о минимуме проживания «6 месяцев в году или 8 месяцев за 2 года», а о максимальных отсутствиях: временный ВНЖ может быть аннулирован при отсутствии более 6 последовательных месяцев или 8 непоследовательных месяцев в течение общего срока действия разрешения. Есть исключения для обоснованных причин. Текущий текст вводит в заблуждение: «8 месяцев за 2 года» звучит как минимальное присутствие, хотя это лимит отсутствия.",
-        "suggestion": "Заменить на: «Для временного ВНЖ важно соблюдать лимиты отсутствия: не отсутствовать из Португалии более 6 месяцев подряд или более 8 месяцев суммарно за весь срок действия карточки, если нет уважительной причины, предусмотренной законом. При превышении лимитов могут возникнуть проблемы с продлением/аннулированием ВНЖ.»",
+        "where": "tldr",
+        "current": "Базовая планка по практике консульств — 1 IAS (€ 537,13 в месяц в 2026) для заявителя, +50% IAS за супруга, +30% IAS за ребёнка.",
+        "problem": "For D7/residence visa means of subsistence, the reference is normally the Portuguese national minimum wage/RMMG/SMN, not IAS. In 2026 SMN is €920. Using IAS materially understates the required income/deposit and could lead to refusals.",
+        "suggestion": "Write: «Базовая планка для D7 обычно считается от SMN/RMMG: в 2026 году €920/мес для заявителя, +50% (€460) за супруга/партнёра, +30% (€276) за ребёнка/иждивенца. Консульства часто ожидают запас выше минимума.»",
         "confidence": "high",
-        "source": "Lei n.º 23/2007, art. 85.º"
+        "source": "Portaria 1563/2007; Decreto-Lei 112/2025 setting RMMG/SMN 2026 at €920"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[0].text",
+        "current": "Минимальный доход привязан к IAS (Indexante dos Apoios Sociais) — € 537,13 в месяц на 2026 год ... Требование по закону (Lei 23/2007 + Portaria 328/2022)",
+        "problem": "Wrong legal basis and wrong benchmark for D7. IAS value is correct for 2026, but it is not the D7 passive-income threshold. Portaria 328/2022 is not the right standalone basis for stating a 1×IAS D7 requirement.",
+        "suggestion": "Replace with: «Минимальные средства к существованию для D7 считаются от RMMG/SMN по Portaria 1563/2007: 100% для первого взрослого, 50% для второго взрослого, 30% для несовершеннолетних/иждивенцев. В 2026 SMN = €920.»",
+        "confidence": "high",
+        "source": "Portaria 1563/2007; Lei 23/2007; Decreto-Lei 112/2025"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[1].items",
+        "current": "Заявитель: ≥ 1 IAS = € 537,13 ... Супруг / партнёр: +50% IAS = € 268,57 ... Ребёнок ... +30% IAS = € 161,14 ... семья из 3-х ... € 966,84",
+        "problem": "All numbers are based on IAS and are too low for D7. The family total is materially understated.",
+        "suggestion": "Use 2026 SMN figures: «Заявитель: ≥ €920/мес; супруг/партнёр: +€460/мес; ребёнок/иждивенец: +€276/мес; семья из 3-х: €920 + €460 + €276 = €1,656/мес.»",
+        "confidence": "high",
+        "source": "Portaria 1563/2007; Decreto-Lei 112/2025"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[2].text",
+        "current": "депозита на португальском счёте в размере 12× IAS (€ 6 445,56) для заявителя",
+        "problem": "Deposit/reserve amount is calculated from the wrong base. If a consulate asks for 12 months of means, it is normally 12×SMN for the main applicant, not 12×IAS. Also the text says this is required by consulate/AIMA, while the Portuguese-bank deposit is more a consular practice/expectation than a clear statutory universal requirement.",
+        "suggestion": "Write: «Многие консульства просят показать резерв на португальском счёте примерно на 12 месяцев минимальных средств: для заявителя в 2026 это ориентировочно 12×€920 = €11,040; для семьи добавляют 50%/30%. Это консульская практика и фактор убедительности, а не всегда отдельное формальное требование закона.»",
+        "confidence": "high",
+        "source": "Portaria 1563/2007; Decreto-Lei 112/2025"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].items[1].content[0].text",
+        "current": "Перевести резервный депозит 12× IAS = € 6 445,56 (2026 г.). Для супруга +50 %, ребёнка +30 %.",
+        "problem": "Wrong reserve amount for D7 because it uses IAS. For 2026, the expected reserve should be calculated from SMN if the consulate applies the common 12-month-reserve practice.",
+        "suggestion": "Replace with: «Перевести резервный депозит, если его требует/ожидает конкретное консульство: ориентир 12×SMN = €11,040 для заявителя в 2026; супруг +€5,520; ребёнок +€3,312.»",
+        "confidence": "high",
+        "source": "Portaria 1563/2007; Decreto-Lei 112/2025"
+      },
+      {
+        "severity": "critical",
+        "where": "costs[6]",
+        "current": "Депозит на португальский счёт (резерв) — amountEUR: 6445.56; note: 12× IAS, возвращаемый",
+        "problem": "Wrong deposit figure for D7. €6,445.56 is 12×IAS, not the usual D7 12-month SMN-based reserve. This underestimates the reserve by €4,594.44 for a single applicant in 2026.",
+        "suggestion": "Set to €11,040 for a single applicant in 2026, with note: «12×SMN/RMMG; consular practice, amount may vary by consulate and family size; refundable/not a fee.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 112/2025; Portaria 1563/2007"
+      },
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "новый закон Decreto AR 48/XVII промульгирован Президентом Сегуру 03.05.2026 и увеличит срок до 10 лет для третьих стран после публикации в DRE",
+        "problem": "As of April 2026, the nationality-law reform was approved on 01.04.2026 but was awaiting promulgation/publication. The statement that it was promulgated on 03.05.2026 is not valid for an April 2026 review and should not be stated as law in force. It also creates uncertainty because the current date/source context does not support this future event.",
+        "suggestion": "Write: «По действующему Lei 37/81 срок для гражданства — 5 лет законного проживания. Реформа гражданства была одобрена парламентом 01.04.2026, но на апрель 2026 ожидала промульгации и публикации; до публикации в DRE новые сроки не применяются. Проверьте переходные положения после публикации.»",
+        "confidence": "high",
+        "source": "Lei 37/81; parliamentary approval of nationality-law reform on 01.04.2026"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[2].content[0].text",
+        "current": "Decreto AR 48/XVII промульгирован Президентом Сегуру 03.05.2026 и увеличит срок до 10 лет для третьих стран после публикации в DRE",
+        "problem": "Same false/future promulgation problem as in the TLDR. As of April 2026 this should be described only as an approved-but-not-yet-promulgated reform, not as promulgated legislation.",
+        "suggestion": "Replace with: «Реформа, одобренная 01.04.2026, на апрель 2026 ещё не была промульгирована/опубликована; пока применяется Lei 37/81 с 5-летним сроком. После DRE нужно проверить новые сроки и переходные нормы.»",
+        "confidence": "high",
+        "source": "Lei 37/81; parliamentary approval of nationality-law reform on 01.04.2026"
       },
       {
         "severity": "major",
         "where": "steps[0].content[2].text",
-        "current": "Дополнительно консулат / AIMA требует подтверждения депозита на португальском счёте в размере 12× IAS (6 445,56 €) для заявителя — как резерв на случай, если доход временно прекратится.",
-        "problem": "Формулировка слишком категоричная и смешивает практику консульств с формальным законом. Для визы D7 ключевое требование — доказать регулярные и достаточные средства к существованию; депозит на португальском счёте часто ожидается на практике, но не является универсально одинаковым «требованием AIMA» именно в размере 12× IAS для всех консульств. Кроме того, если семья едет вместе, резерв обычно считают с надбавками на членов семьи, что в этом месте не указано.",
-        "suggestion": "Написать осторожнее: «На практике многие консульства просят показать средства на португальском счёте минимум на 12 месяцев: ориентир — 12× IAS для заявителя, плюс 50% IAS на взрослого члена семьи и 30% IAS на ребёнка за каждый месяц. Требования конкретного консульства нужно проверять по его чек-листу: иногда принимают и другие доказательства достаточных средств.»",
-        "confidence": "high",
-        "source": "Portaria n.º 328/2022; Lei n.º 23/2007; чек-листы консульств на vistos.mne.gov.pt"
+        "current": "Дополнительно консульство / AIMA требует подтверждения депозита...",
+        "problem": "Misleading agency attribution. The Portuguese-bank balance/deposit is mainly checked at the visa stage by the consulate/external visa provider. AIMA at the residence-permit stage checks means and documents, but it is misleading to present a Portuguese deposit as a uniform AIMA requirement for D7.",
+        "suggestion": "Write: «На визовом этапе конкретное консульство может требовать/ожидать португальский банковский баланс. На этапе AIMA также могут проверять средства к существованию, но требования к форме доказательства зависят от случая.»",
+        "confidence": "medium",
+        "source": "Lei 23/2007; consular D7 practice"
       },
       {
         "severity": "major",
-        "where": "steps[1].content[0].items[1].content[0].text",
-        "current": "Перевести резервный депозит 12× IAS = 6 445,56 € (2026 г.). Для супруга +50 %, ребёнка +30 %. Как альтернатива — доказательство стабильного ежемесячного поступления за 6–12 месяцев.",
-        "problem": "Есть противоречие с tldr и предыдущим разделом: сначала депозит подан как дополнительное требование к пассивному доходу, здесь — как альтернатива регулярному доходу. Для D7 стабильный пассивный доход и наличие средств/резерва — разные элементы доказательства финансовой состоятельности; один не всегда заменяет другой. Особенно рискованно писать, что выписка о поступлениях является альтернативой португальскому депозиту.",
-        "suggestion": "Заменить на: «Перевести резерв на португальский счёт: ориентир 12× IAS = 6 445,56 € для заявителя в 2026 г.; для семьи — плюс 50% на взрослого и 30% на ребёнка. Это не заменяет доказательство регулярного пассивного дохода: обычно нужны документы о доходе за 6–12 месяцев и банковские выписки.»",
-        "confidence": "high",
-        "source": "Portaria n.º 328/2022; практика чек-листов MNE/консульств"
+        "where": "documents[7].note",
+        "current": "Контракт аренды на ≥ 12 мес (зарегистрированный в Finanças)",
+        "problem": "Overstated as a universal rule. Proof of accommodation is required, and many consulates prefer or request a registered lease, but a Finanças-registered 12-month lease is not always the only acceptable form; some posts may accept property deed, invitation/termo de responsabilidade, hotel/temporary accommodation depending on local checklist.",
+        "suggestion": "Write: «Подтверждение жилья в Португалии: часто долгосрочный договор аренды, желательно/иногда обязательно зарегистрированный в Finanças; также могут приниматься deed/собственное жильё или termo de responsabilidade — проверяйте чек-лист конкретного консульства.»",
+        "confidence": "medium",
+        "source": "Vistos MNE; consular checklists"
       },
       {
         "severity": "major",
-        "where": "steps[0].content[3].items[1]",
-        "current": "НЕ подходят: зарплата, гонорары за фриланс (для них — D1/D3/D8 или ст. 90.2)",
-        "problem": "Список альтернативных виз для зарплаты/фриланса неточный и может привести к выбору неправильной категории. D1 — работа по трудовому договору, обычно с португальским работодателем. D3 — высококвалифицированная деятельность, не универсальная виза для фрилансеров. D8 — удалённая работа/digital nomad для работодателя или клиентов за пределами Португалии. Для independent professional / prestação de serviços в Португалии часто релевантна D2, а она здесь не указана. «ст. 90.2» без контекста также сбивает с толку: это не консульская виза и не общий путь для обычного фриланса.",
-        "suggestion": "Написать: «НЕ подходят для D7: зарплата и активные фриланс-гонорары как основной источник. Для работы по найму с португальским работодателем обычно смотрят D1; для independent professional/предпринимательской деятельности — D2; для высококвалифицированной деятельности — D3; для удалённой работы на иностранных работодателей/клиентов — D8. Выбор зависит от источника дохода и места клиентов/работодателя.»",
+        "where": "steps[1].content[0].items[3].content[0].text",
+        "current": "Vistos.mne.gov.pt → выбрать страну → записаться онлайн.",
+        "problem": "Too generic and can be wrong by country. In many jurisdictions appointment booking and submission are through VFS/BLS/consular outsourcing or local embassy systems, not directly through vistos.mne.gov.pt.",
+        "suggestion": "Write: «Начните с vistos.mne.gov.pt и страницы консульства вашей страны; запись/подача может идти через консульство напрямую, VFS/BLS или другой локальный провайдер.»",
         "confidence": "high",
-        "source": "Lei n.º 23/2007; vistos.mne.gov.pt — tipos de visto nacionais"
-      },
-      {
-        "severity": "major",
-        "where": "tldr",
-        "current": "Первичный ВНЖ на 2 года, далее продления до 5 лет → гражданство.",
-        "problem": "Слишком уверенное утверждение про «5 лет → гражданство» без caveat. По состоянию на апрель 2026 новая редакция закона о гражданстве была одобрена 01.04.2026 и ожидала промульгации; правила сроков/оснований могли измениться. Даже по действующему режиму 5 лет — это только один из критериев, нужны также язык A2, отсутствие препятствующих судимостей и другие условия. Кроме того, срок для гражданства после изменений 2024 года считается с момента подачи заявления на ВНЖ, но это чувствительная тема и её надо формулировать аккуратно.",
-        "suggestion": "Заменить на: «После достаточного срока легального проживания можно претендовать на постоянный ВНЖ или гражданство, если выполнены все условия. На апрель 2026 правила гражданства находятся в переходной зоне: новая редакция закона одобрена 01.04.2026 и ожидает промульгации, поэтому перед подачей нужно проверять актуальную версию Lei da Nacionalidade.»",
-        "confidence": "high",
-        "source": "Lei da Nacionalidade; новая редакция закона о гражданстве, одобренная 01.04.2026, awaiting promulgation"
-      },
-      {
-        "severity": "major",
-        "where": "sources",
-        "current": "Источники: Vistos MNE, AIMA homepage, Lei nº 23/2007",
-        "problem": "Для чувствительных чисел в гайде не хватает прямых источников. Указаны IAS 2026, формула 100%/50%/30%, AIMA fees с 01.03.2026, но в sources нет Portaria 480-A/2025/1, Portaria 328/2022 и новой таблицы сборов AIMA. Ссылка на главную страницу AIMA не подтверждает конкретные суммы 133 € и 307,20 €.",
-        "suggestion": "Добавить отдельные источники: Portaria n.º 480-A/2025/1 для IAS 2026; Portaria n.º 328/2022 для средств к существованию; актуальную Portaria/таблицу AIMA fees, действующую с 01.03.2026, с прямой ссылкой на документ или страницу AIMA с PDF tabela de taxas.",
-        "confidence": "high",
-        "source": "Portaria n.º 480-A/2025/1; Portaria n.º 328/2022; AIMA tabela de taxas 01.03.2026"
+        "source": "Vistos MNE; local Portuguese consulate visa pages"
       },
       {
         "severity": "minor",
-        "where": "steps[0].content[4].text",
-        "current": "Если IAS 2026 будет пересмотрен новой Portaria (обычно в январе) — пересчитать. Актуальное значение — на seg-social.pt.",
-        "problem": "Текст выглядит устаревшим на дату проверки 2026-04-22: IAS 2026 уже установлен Portaria 480-A/2025/1 и указан выше. Формулировка «если будет пересмотрен» после апреля 2026 создаёт ненужную неопределённость.",
-        "suggestion": "Заменить на: «IAS 2026 установлен на уровне 537,13 €. Перед подачей всё равно проверьте актуальное значение на Segurança Social/DRE, особенно если подача переносится на следующий год.»",
+        "where": "steps[2].content[1].text",
+        "current": "По ст. 85 Lei 23/2007 для аннулирования ВНЖ достаточно отсутствия более 6 месяцев подряд или более 8 месяцев суммарно за 2 года...",
+        "problem": "Mostly correct for temporary residence, but missing the statutory exceptions/justifications. Absences for serious and duly justified reasons may be accepted, so the rule should not be presented as automatic in every case.",
+        "suggestion": "Add: «Есть исключения для надлежаще подтверждённых уважительных причин; заранее сохраняйте доказательства и при необходимости уведомляйте/обосновывайте отсутствие.»",
         "confidence": "high",
-        "source": "Portaria n.º 480-A/2025/1"
+        "source": "Lei 23/2007, artigo 85"
       },
       {
         "severity": "minor",
-        "where": "steps[1].content[0].items[2].content[0].text",
-        "current": "Долгосрочный контракт (≥ 12 мес) с регистрацией в Finanças (иначе консулат может не принять).",
-        "problem": "Слишком категорично. Подтверждение жилья действительно требуется, и зарегистрированный долгосрочный договор аренды — самый сильный вариант. Но конкретные консульства могут принимать другие доказательства: property deed, invitation/termo de responsabilidade, подтверждение проживания у родственников/партнёра, иногда бронирование на начальный период в зависимости от чек-листа. Утверждение «иначе не примут» не универсально.",
-        "suggestion": "Написать: «Лучший вариант — долгосрочный договор аренды на 12+ месяцев, зарегистрированный в Finanças. Некоторые консульства принимают альтернативы, например собственность, termo de responsabilidade или иное подтверждение проживания, но это нужно проверять по чек-листу конкретного консульства.»",
-        "confidence": "high",
-        "source": "vistos.mne.gov.pt; чек-листы консульств"
+        "where": "costs[1]",
+        "current": "AIMA — приём + анализ — €133; note: новый тариф с 01.03.2026",
+        "problem": "Sensitive fee figure is given without a source in the sources list. Since AIMA tariff table changed on 01.03.2026, the guide should cite the fee table/portaria directly, not only state the amount.",
+        "suggestion": "Add an official source for the AIMA 01.03.2026 fee table and, if the official amount includes cents/rounding, show the exact amount from the table.",
+        "confidence": "medium",
+        "source": "AIMA official fee table effective 01.03.2026"
       },
       {
         "severity": "minor",
-        "where": "steps[0].content[3].items[0]",
-        "current": "Источники пассивного дохода: пенсия, рента, дивиденды, роялти, % по вкладам, licenças",
-        "problem": "«licenças» как источник дохода звучит некорректно по-русски и по-португальски: лицензии сами по себе не доход. Вероятно, имелись в виду лицензионные платежи/royalties, но роялти уже перечислены.",
-        "suggestion": "Заменить на: «пенсия, доход от аренды, дивиденды, проценты по вкладам/облигациям, роялти и лицензионные платежи».",
+        "where": "costs[2]",
+        "current": "AIMA — выдача ВНЖ (ст. 75) — €307.2; note: новый тариф с 01.03.2026",
+        "problem": "Fee may be correct, but the guide lacks a direct official tariff-table source. For immigration fees, a direct source is needed.",
+        "suggestion": "Add the official AIMA tariff table source effective 01.03.2026 and format the amount as €307.20 if confirmed.",
+        "confidence": "medium",
+        "source": "AIMA official fee table effective 01.03.2026"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto",
+        "problem": "This is a generic MNE visa-types page, not a direct D7/passive-income checklist. It may be insufficient for the specific claims about documents, accommodation and income.",
+        "suggestion": "Keep the MNE source but add the relevant consulate checklist or MNE page for «visto de residência para reformados, religiosos e pessoas que vivam de rendimentos» / D7-type residence visa, plus local-country checklist where applicable.",
+        "confidence": "medium",
+        "source": "Vistos MNE"
+      },
+      {
+        "severity": "minor",
+        "where": "lastVerified",
+        "current": "2026-05-17",
+        "problem": "The review context is April 2026, but the guide claims it was last verified in the future. This also conflicts with the nationality-law statement relying on a future May 2026 event.",
+        "suggestion": "Set lastVerified to an actual verification date no later than the review date, or do not include future verification metadata.",
         "confidence": "high",
         "source": ""
-      },
-      {
-        "severity": "minor",
-        "where": "audience.citizenships",
-        "current": "[\"thirdCountry\", \"cplp\"]",
-        "problem": "Указана аудитория CPLP, но гайд не объясняет, что для граждан CPLP могут существовать отдельные маршруты/упрощения по соглашению CPLP, а требования и сборы могут отличаться. Если статья именно про D7, это допустимо, но нужен caveat, что CPLP-route — отдельная процедура и не тождественна D7.",
-        "suggestion": "Добавить примечание: «Граждане CPLP также могут проверять отдельный маршрут residence permit under CPLP Mobility Agreement; он не является визой D7 и имеет другие документы/сборы/ограничения. Если цель — классический D7, применяются обычные требования D7.»",
-        "confidence": "high",
-        "source": "Acordo sobre a Mobilidade entre os Estados-Membros da CPLP; AIMA CPLP guidance"
-      },
-      {
-        "severity": "minor",
-        "where": "documents",
-        "current": "Список документов не включает разрешение AIMA на проверку португальской судимости и caveat про подачу не из страны гражданства",
-        "problem": "Для национальных виз обычно требуется форма/разрешение на consulta do registo criminal português компетентным органом, а при подаче в третьей стране — доказательство легального пребывания в этой стране. Эти пункты часто есть в чек-листах консульств и их отсутствие может привести к неполному пакету.",
-        "suggestion": "Добавить документы: «Autorização para consulta do registo criminal português pela AIMA» и «если подаётесь не в стране гражданства — подтверждение легального проживания/пребывания в стране подачи».",
-        "confidence": "high",
-        "source": "vistos.mne.gov.pt — formulário/documentos para visto de residência"
       }
     ],
     "missing_topics": [
-      "Caveat по новой редакции закона о гражданстве, одобренной 01.04.2026 и ожидающей промульгации",
-      "Прямой источник на AIMA fee table, действующую с 01.03.2026",
-      "Прямые источники на Portaria n.º 480-A/2025/1 и Portaria n.º 328/2022",
-      "Отдельное пояснение для граждан CPLP: D7 и CPLP residence route — разные процедуры",
-      "Правильное правило отсутствий по ст. 85 Lei n.º 23/2007 и исключения для уважительных причин",
-      "Документ autorização para consulta do registo criminal português pela AIMA",
-      "Подтверждение легального пребывания в стране подачи, если заявитель подаётся не в стране гражданства"
+      "Clarify that D7 financial thresholds are SMN/RMMG-based, while IAS is relevant in other Portuguese contexts but not the usual D7 minimum.",
+      "Add a country-specific caveat: consular D7 checklists differ significantly by jurisdiction and by outsourcing provider.",
+      "Add a CPLP caveat: CPLP nationals may have specific visa/residence facilitation routes and should not assume the same D7 path/checklist always applies.",
+      "Mention that the 5-year citizenship clock under current law can include certain waiting time from the residence-application process, subject to the current wording of Lei 37/81 and proof, but nationality reform may change this after publication.",
+      "Add direct official sources for 2026 SMN, D7 means-of-subsistence calculation, AIMA 01.03.2026 fees, and the current status of the nationality-law reform."
     ]
+  },
+  "usage": {
+    "completion_tokens": 5058,
+    "prompt_tokens": 3118,
+    "total_tokens": 8176
   },
   "model": "gpt-5.5"
 }

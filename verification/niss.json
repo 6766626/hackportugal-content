@@ -3,157 +3,65 @@
   "categoryId": "documents_fiscal",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Guide is useful but materially misleading about the application channel, document requirements, and the claimed blanket AIMA requirement for NISS.",
+    "summary": "Гайд в целом правильно объясняет, что NISS бесплатен и SSD не является каналом первичной заявки, но есть несколько важных неточностей по условиям онлайн-заявки, документам и слишком общая ссылка на AIMA для чувствительного утверждения о ВНЖ.",
     "issues": [
       {
         "severity": "major",
-        "where": "tldr",
-        "current": "«С апреля 2025 обязателен для ВСЕХ заявлений на ВНЖ в AIMA (не только для работы).»",
-        "problem": "Overbroad and insufficiently sourced. AIMA requirements vary by procedure/category and applicant profile; NISS is not a universal statutory prerequisite for every residence-permit situation, especially categories such as minors, students, passive-income applicants, family members not working, and cases where social-security registration is not applicable. AIMA may request NISS in specific workflows or appointment/document checklists, but saying “for ALL applications” is misleading without a precise AIMA notice/checklist and caveats.",
-        "suggestion": "Replace with: «С 2025 года AIMA всё чаще требует NISS в ряде процедур/онлайн-записей на ВНЖ, даже не только для работы. Но требование зависит от типа ВНЖ и профиля заявителя; для студентов, несовершеннолетних, D7/пассивного дохода и членов семьи без работы NISS может быть неприменим или запрашиваться как дополнительный документ. Проверяйте актуальный checklist AIMA для вашей процедуры.»",
-        "confidence": "medium",
-        "source": "AIMA procedure-specific checklists / portal requirements; Lei 23/2007 and Decreto Regulamentar 84/2007 do not impose a universal NISS requirement for every residence title"
-      },
-      {
-        "severity": "major",
-        "where": "changeSummary",
-        "current": "«С апреля 2025 NISS стал обязательным для ЛЮБОЙ подачи на ВНЖ в AIMA, не только для работы/воссоединения семьи.»",
-        "problem": "Same overstatement repeated. It presents an operational/document-request trend as a universal legal rule. This can cause readers without employment or social-security affiliation to think their AIMA application is impossible without NISS.",
-        "suggestion": "Use a narrower statement: «С 2025 года NISS часто запрашивается AIMA в большем числе процедур, чем раньше. Но универсального правила “для любой подачи” лучше не писать: требования зависят от типа ВНЖ и текущего checklist/слота AIMA.»",
-        "confidence": "medium",
-        "source": "AIMA procedure-specific checklists / portal requirements"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[2].title",
-        "current": "«Вариант B. Онлайн через Segurança Social Direta»",
-        "problem": "Misleading channel name. A first-time NISS request by a foreign citizen is not normally done “through Segurança Social Direta” because SSD access usually requires already having a NISS or another authentication route. The official route is the Segurança Social online request form/page for attribution of NISS to foreign citizens, not the logged-in SSD area.",
-        "suggestion": "Replace title with: «Вариант B. Онлайн через форму Segurança Social: “Pedido de NISS para cidadão estrangeiro”». Explain that Segurança Social Direta is used after receiving NISS, for managing your social-security account.",
+        "where": "tldr; steps[2].content[0].text",
+        "current": "Получают через работодателя, через онлайн-форму «Pedido de NISS para cidadão estrangeiro» на seg-social.pt либо лично в Loja da Segurança Social.",
+        "problem": "Не указано ключевое ограничение: процедура Pedido de NISS para cidadão estrangeiro предназначена для иностранных граждан, находящихся в Португалии. Для аудитории «moving to Portugal» это может создать ложное впечатление, что NISS можно штатно получить удалённо до въезда.",
+        "suggestion": "Добавить caveat: «Онлайн-заявка для иностранцев рассчитана на тех, кто уже находится в Португалии; до въезда NISS обычно не оформляют. Если вы ещё не в Португалии, сначала оформляйте NIF/визу/въезд, а NISS — после прибытия или через работодателя при трудоустройстве».",
         "confidence": "high",
-        "source": "Segurança Social — Pedido de NISS para cidadão estrangeiro; ePortugal — Obter Número de Identificação da Segurança Social"
+        "source": "Segurança Social — Pedido de NISS para cidadão estrangeiro; ePortugal — Obter NISS"
       },
       {
         "severity": "major",
-        "where": "steps[2].content[0].text",
-        "current": "«Самостоятельно без работодателя — через портал Segurança Social Direta (SSD). Требуется NIF и действующий документ (ВНЖ/виза/паспорт).»",
-        "problem": "Incorrect/misleading in two ways: first, the request is via the Segurança Social NISS request form, not SSD login; second, the official document list is civil identification and tax identification, but not necessarily “ВНЖ/виза/паспорт” as alternatives in the way phrased. A passport or residence permit may serve as civil ID; a visa is not generally the core ID document for NISS attribution.",
-        "suggestion": "Write: «Самостоятельно без работодателя — через онлайн-форму Segurança Social для atribuição de NISS a cidadão estrangeiro. Обычно нужны: документ гражданской идентификации — например паспорт или cartão/título de residência — и налоговый идентификатор/документ fiscal; Portuguese NIF часто нужен на практике, но проверяйте актуальную форму.»",
+        "where": "steps[2].content[1].items[2].content[0].items[2]; documents[2]",
+        "current": "«ВНЖ / виза / документ EU»; documents: «ВНЖ или виза — для граждан стран вне ЕС»",
+        "problem": "Формулировка выглядит как универсальное обязательное требование ВНЖ или визы для всех non-EU заявителей. На практике список документов зависит от гражданства и основания пребывания; для третьих стран обычно нужен паспорт/документ гражданской идентификации и NIF, а подтверждение законного пребывания/виза/ВНЖ может требоваться в зависимости от ситуации. Для EU/EEA/Swiss это не «документ EU», а citizen card/passport и, при проживании, регистрационные документы могут быть отдельной темой.",
+        "suggestion": "Заменить на: «Документ гражданской идентификации: для EU/EEA/Swiss — паспорт/ID card; для граждан третьих стран — паспорт. Виза/ВНЖ/подтверждение законного пребывания — если применимо или если Segurança Social запросит. NIF обычно обязателен для онлайн-заявки».",
+        "confidence": "medium",
+        "source": "Segurança Social — Pedido de NISS para cidadão estrangeiro; ePortugal — Obter NISS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Если у вас есть работодатель — он подаёт заявление при оформлении трудового договора. NISS присваивается автоматически, номер придёт по почте или его можно узнать в Segurança Social.",
+        "problem": "«Автоматически» и «придёт по почте» звучат слишком категорично. Работодатель обязан сообщить о начале работы и может инициировать/помочь с присвоением NISS, но сам факт трудового договора не всегда означает автоматическое присвоение без корректной коммуникации данных. Почтовое получение номера тоже не стоит обещать как стандартный канал.",
+        "suggestion": "Написать осторожнее: «Работодатель сообщает Segurança Social о приёме работника и может запросить/указать NISS. Если NISS ещё нет, работодатель обычно помогает с его присвоением; номер могут сообщить работодателю или заявителю через контакты, указанные в заявке, либо его можно уточнить в Segurança Social».",
+        "confidence": "medium",
+        "source": "Segurança Social — Comunicação de admissão de trabalhadores; Segurança Social — Pedido de NISS para cidadão estrangeiro"
+      },
+      {
+        "severity": "major",
+        "where": "changeSummary; tldr; sources[2]",
+        "current": "«AIMA расширила требование NISS на больше категорий ВНЖ; точный список зависит от типа визы.» Source: «AIMA — checklist по типам ВНЖ», url: «https://aima.gov.pt/pt»",
+        "problem": "Утверждение про требования AIMA к NISS чувствительное и зависит от конкретного основания ВНЖ, но в источниках дана только главная страница AIMA, а не конкретные checklists/страницы услуг. Это затрудняет проверку и может быстро устаревать. Также дата/формулировка «AIMA расширила» без точного нормативного или процедурного источника выглядит неподтверждённой.",
+        "suggestion": "Либо убрать историческую фразу «AIMA расширила…», либо добавить конкретные ссылки на страницы AIMA/checklist для соответствующих категорий ВНЖ и написать: «Требование NISS проверяйте по checklist AIMA для вашей категории: работа по найму, независимая деятельность, D7, D8, D6 и т.д.; универсального требования для всех процедур нет».",
         "confidence": "high",
-        "source": "ePortugal — Obter Número de Identificação da Segurança Social; Segurança Social — Pedido de NISS para cidadão estrangeiro"
+        "source": "AIMA — official checklists by residence permit type"
       },
       {
-        "severity": "major",
+        "severity": "minor",
         "where": "steps[2].content[1].items[0].content[0].url",
-        "current": "https://www.seg-social.pt/inicio",
-        "problem": "This is the generic Segurança Social homepage, not the direct NISS request page. It makes the step hard to follow and is not a reliable citation for the procedure.",
-        "suggestion": "Use the direct official page/form for foreign-citizen NISS attribution, or at minimum link to the ePortugal service page plus the Segurança Social page named «Pedido de NISS para cidadão estrangeiro» instead of the homepage.",
-        "confidence": "high",
-        "source": "Segurança Social — Pedido de NISS para cidadão estrangeiro; ePortugal — Obter Número de Identificação da Segurança Social"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[1].items[1].title",
-        "current": "«2. \"Cidadão\" → \"Atribuição de NISS\"»",
-        "problem": "Likely wrong navigation for the current process. The user should be directed to the specific «Pedido de NISS para cidadão estrangeiro» / «Atribuição de NISS» request page/form, not a vague SSD menu path. If they try to log into SSD first, they may be blocked because they do not yet have NISS.",
-        "suggestion": "Replace with: «2. Открыть страницу/formulário “Pedido de NISS para cidadão estrangeiro / Atribuição de NISS” и заполнить данные заявителя.»",
+        "current": "https://www.seg-social.pt/",
+        "problem": "В шаге «Найти форму» ссылка ведёт на главную страницу Segurança Social, хотя в sources указан прямой URL формы. Это не фактическая ошибка, но ухудшает применимость инструкции: форму на сайте Segurança Social трудно найти через навигацию.",
+        "suggestion": "Поставить прямую ссылку: «https://www.seg-social.pt/pedido-de-niss-para-cidadao-estrangeiro».",
         "confidence": "high",
         "source": "Segurança Social — Pedido de NISS para cidadão estrangeiro"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[2].content[1].items[2].content[0].items[0]",
-        "current": "«Паспорт (все страницы)»",
-        "problem": "Official guidance generally requires a copy of the civil identification document, not necessarily all passport pages. Asking for all pages may be overkill and can confuse users or increase unnecessary sharing of personal data.",
-        "suggestion": "Replace with: «Паспорт/документ гражданской идентификации: страницы с персональными данными и, если требуется формой, страницы с актуальной визой/штампом.»",
-        "confidence": "medium",
-        "source": "ePortugal — Obter Número de Identificação da Segurança Social"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[2].content[1].items[2].content[0].items[3]",
-        "current": "«Подтверждение адреса»",
-        "problem": "Proof of address is not consistently listed as a mandatory official document for online NISS attribution to foreign citizens. The form asks for an address, and some offices may ask for proof, but presenting it as universally required is too strong.",
-        "suggestion": "Write: «Адрес в Португалии; comprovativo de morada могут попросить дополнительно, но он не всегда указан как обязательный документ в онлайн-процедуре.»",
-        "confidence": "medium",
-        "source": "ePortugal — Obter Número de Identificação da Segurança Social"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[1].items[3].content[0].text",
-        "current": "«5–30 дней; статус можно отслеживать в SSD.»",
-        "problem": "Status tracking in Segurança Social Direta is misleading for first-time applicants, because they typically cannot access SSD until after a NISS is issued and authentication is set up. Applicants usually receive the result by email/SMS or through the contact channel used in the request.",
-        "suggestion": "Replace with: «Обычно ответ приходит на email/контакт, указанный в заявке. SSD полноценно доступна уже после присвоения NISS и настройки доступа.»",
-        "confidence": "high",
-        "source": "Segurança Social — Pedido de NISS para cidadão estrangeiro"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[3].content[0].text",
-        "current": "«Если онлайн отказал — записаться через 300 502 502 или прийти живой очередью.»",
-        "problem": "Walk-in service is not guaranteed and varies by service desk/date; many Segurança Social services prioritize or require appointment. The phone number is correct for Linha Segurança Social, but the guide should not suggest live queue as a reliable fallback everywhere.",
-        "suggestion": "Write: «Если онлайн не получилось — попробуйте записаться через Linha Segurança Social 300 502 502 или через доступные каналы Segurança Social. Живая очередь возможна не везде и не всегда.»",
-        "confidence": "high",
-        "source": "Segurança Social — Atendimento / Linha Segurança Social"
-      },
-      {
-        "severity": "minor",
-        "where": "documents[1].note",
-        "current": "«обязательно перед NISS»",
-        "problem": "This is too absolute. Portuguese NIF is commonly needed in practice and may be requested, but official wording is often about tax identification/documento de identificação fiscal; for some applicants this can be a foreign tax ID/document. If the guide means Portuguese NIF, it should say “обычно/на практике”, not “always legally mandatory”.",
-        "suggestion": "Replace with: «Португальский NIF обычно нужен на практике и часто запрашивается формой; также может требоваться документ налоговой идентификации.»",
-        "confidence": "medium",
-        "source": "ePortugal — Obter Número de Identificação da Segurança Social"
-      },
-      {
-        "severity": "minor",
-        "where": "documents[3].note",
-        "current": "«не старше 3 месяцев»",
-        "problem": "A 3-month freshness rule for proof of address is common in other Portuguese procedures, but it is not a universally stated NISS requirement. Since proof of address itself may not be mandatory for online NISS, this should be softened.",
-        "suggestion": "Write: «если попросят: recente, обычно до 3 месяцев» rather than making it a mandatory document rule.",
-        "confidence": "medium",
-        "source": "ePortugal — Obter Número de Identificação da Segurança Social"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[0].content[0].text",
-        "current": "«Нужен для: ... регистрации в SNS через работодателя ...»",
-        "problem": "This phrasing is confusing. SNS user registration is a separate process with the health centre/health authorities and is not normally “through the employer”. NISS is linked to social security and contributions; número de utente SNS is separate.",
-        "suggestion": "Replace with: «Нужен для трудового договора, contribuições Segurança Social, самозанятости, пособий и некоторых процедур ВНЖ. Для SNS нужен отдельный número de utente; это не тот же номер.»",
-        "confidence": "high",
-        "source": "SNS / ePortugal guidance on Número de Utente; Segurança Social guidance on NISS"
-      },
-      {
-        "severity": "minor",
-        "where": "sources[0]",
-        "current": "«Segurança Social — Atribuição de NISS», url: «https://www.seg-social.pt/inicio»",
-        "problem": "The title suggests a specific official NISS page, but the URL is only the homepage. This weakens source quality and may be considered a bad reference.",
-        "suggestion": "Replace with the direct Segurança Social page for «Pedido de NISS para cidadão estrangeiro» / «Atribuição de NISS» and keep ePortugal as a second official source.",
-        "confidence": "high",
-        "source": "Segurança Social — Pedido de NISS para cidadão estrangeiro"
-      },
-      {
-        "severity": "major",
-        "where": "sources[2]",
-        "current": "«AIMA — требование NISS с апр. 2025», url: «https://aima.gov.pt/pt»",
-        "problem": "Generic AIMA homepage does not substantiate the strong claim that NISS became mandatory for all AIMA residence-permit applications from April 2025. For such a sensitive claim, the guide needs a direct AIMA announcement, procedure checklist, legal basis, or should soften the wording.",
-        "suggestion": "Either add a direct official AIMA page/checklist proving the exact requirement and scope, or remove/soften the universal claim as suggested above.",
-        "confidence": "high",
-        "source": "AIMA official procedure pages/checklists"
       }
     ],
     "missing_topics": [
-      "Clarify that first-time NISS request for foreign citizens is via a specific Segurança Social online form/page, not normal Segurança Social Direta login.",
-      "Explain that Segurança Social Direta access is useful after NISS is issued, for password/access and managing contributions.",
-      "Add caveat that AIMA document requirements depend on residence category and applicant profile; NISS may be irrelevant or non-mandatory for some applicants.",
-      "Mention representatives/procuration rules if someone else submits the NISS request.",
-      "Mention that employer request is normally done by the employer through its Segurança Social channel when registering the employment relationship, and the worker should ask the employer for the assigned NISS.",
-      "Add direct official source links to the NISS request page and a direct AIMA checklist/notice if keeping the AIMA requirement claim."
+      "Явно указать, что онлайн-заявка на NISS для иностранцев обычно предназначена для заявителей, уже находящихся в Португалии.",
+      "Разделить документы по группам: EU/EEA/Swiss, граждане третьих стран, лица с временной защитой/специальными режимами.",
+      "Добавить caveat, что NISS сам по себе не даёт права работать или права на ВНЖ; он только идентификатор Segurança Social.",
+      "Для утверждений про AIMA добавить ссылки на конкретные checklists по категориям ВНЖ, а не только главную страницу AIMA."
     ]
   },
   "usage": {
-    "completion_tokens": 4546,
-    "prompt_tokens": 1918,
-    "total_tokens": 6464
+    "completion_tokens": 3080,
+    "prompt_tokens": 2135,
+    "total_tokens": 5215
   },
   "model": "gpt-5.5"
 }

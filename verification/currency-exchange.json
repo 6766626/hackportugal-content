@@ -3,175 +3,121 @@
   "categoryId": "banking",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Guide contains several material inaccuracies around IBANs, Revolut/N26 capabilities, Portuguese tax reporting, crypto taxation, and Russia-sanctions transfer routes.",
+    "summary": "Гайд в целом полезный для бытового обмена валют, но содержит несколько существенных ошибок по португальской налоговой отчётности и вводящие в заблуждение утверждения про N26/CMVM/налогообложение FX.",
     "issues": [
       {
-        "severity": "major",
-        "where": "steps[0].content[0].items[0].content[0].items[1]",
-        "current": "💳 **Wise карта** (PT IBAN): можно тратить в EUR из мульти-валютного аккаунта",
-        "problem": "Wise generally does not provide a Portuguese PT IBAN. EUR account details for EU customers are typically non-Portuguese IBANs, and Wise is not a Portuguese bank account substitute. Calling it a “PT IBAN” is misleading for salary, direct debit, and Portuguese entity acceptance issues.",
-        "suggestion": "Write: “Wise карта: можно тратить EUR из мультивалютного аккаунта; EUR-реквизиты обычно не PT IBAN, а Wise не является португальским банком.”",
+        "severity": "critical",
+        "where": "steps[3].content[0].items[4]",
+        "current": "⚖️ **Декларация AT**: иностранные счета >50 000 € — обязательная декларация Modelo 38",
+        "problem": "Это неверно для физических лиц-резидентов Португалии. Иностранные банковские счета декларируются в IRS Modelo 3, Anexo J, Quadro 11, а не через Modelo 38. Порог 50 000 € здесь не является португальским правилом для декларирования иностранных счетов в IRS; обязанность указывать счета в Anexo J не формулируется как «только свыше 50 000 €». Modelo 38 — не декларация экспата о зарубежных счетах.",
+        "suggestion": "Заменить на: \"⚖️ **Декларация AT**: налоговые резиденты Португалии должны указывать иностранные банковские/платёжные счета в IRS Modelo 3, Anexo J, Quadro 11, если они являются владельцем, бенефициаром или уполномоченным по счёту. Не путать с Modelo 38.\"",
         "confidence": "high",
-        "source": "Wise account details / Wise Europe terms"
+        "source": "Autoridade Tributária — Instruções Modelo 3 IRS / Anexo J; Código do IRS art. 57"
       },
       {
         "severity": "major",
-        "where": "steps[0].content[0].items[1].content[0].items[1]",
-        "current": "💳 PT IBAN бесплатно для всех (с 2024)",
-        "problem": "Too broad. Revolut’s Portuguese IBAN availability depends on customer residence/eligibility and migration to the Portuguese branch; it is not “for all” Revolut users globally. The date and universality should not be stated this way without a Revolut Portugal source.",
-        "suggestion": "Write: “Для клиентов Revolut, зарегистрированных/мигрированных в Португалии, может быть доступен PT IBAN; проверьте в приложении. У нерезидентов или старых аккаунтов может быть LT/другой IBAN.”",
+        "where": "steps[3].content[0].items[5]",
+        "current": "📊 **Португальский IRS**: курсовая разница на валютных операциях — налогооблагается как «mais-valias» (28%)",
+        "problem": "Слишком широкое и местами неверное утверждение. Простая бытовая конвертация валюты или обмен денег для личных расходов не автоматически создаёт налогооблагаемую mais-valia. Налогообложение зависит от инструмента: forex/CFD/деривативы, ценные бумаги, криптоактивы, проценты по валютным депозитам и т.п. могут иметь разные категории IRS. Ставка 28% также не универсальна: возможна агрегация, другие категории дохода и специальные правила.",
+        "suggestion": "Заменить на: \"📊 **Португальский IRS**: налог возникает не от любой бытовой конвертации валюты, а от конкретного дохода/актива — например, gains по финансовым инструментам, securities, crypto или процентам. Для forex/CFD/инвестиций проверяйте категорию IRS и возможность/обязанность декларирования; ставка 28% не всегда универсальна.\"",
         "confidence": "high",
-        "source": "Revolut Portugal IBAN migration communications"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[1].content[0].items[0]",
-        "current": "🟢 **Курс**: mid-market + 0.5% в выходные/Premium бесплатно",
-        "problem": "Misleading and internally confused. Revolut usually applies its own exchange rate; Standard has fair-use limits and weekend markups/fees may apply. Premium may remove weekday fair-use exchange fees but does not necessarily make weekend exchange “free”.",
-        "suggestion": "Write: “В будни — близко к межбанковскому/Revоlut rate в пределах лимитов тарифа; на Standard после лимита есть fair-use fee; в выходные обычно применяется дополнительная наценка, в т.ч. на платных тарифах.”",
-        "confidence": "high",
-        "source": "Revolut Fees page / Personal Fees Portugal"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[1].content[0].items[6]",
-        "current": "💰 Бесплатный план: 1 000 €/мес обмена; Premium неограниченно",
-        "problem": "This is an oversimplification and may be outdated depending on Revolut’s current Portuguese tariff. “Premium unlimited” ignores weekend markup and possible exclusions for exotic/illiquid currencies.",
-        "suggestion": "Write: “Лимиты зависят от тарифа и страны регистрации; у Standard обычно есть месячный fair-use лимит, у Premium/Metal выше или без weekday fair-use fee, но weekend markup и отдельные комиссии могут сохраняться.”",
-        "confidence": "medium",
-        "source": "Revolut Personal Fees Portugal"
+        "source": "Código do IRS art. 10, art. 22, art. 72; Autoridade Tributária — IRS guidance"
       },
       {
         "severity": "major",
         "where": "steps[0].content[0].items[2].content[0].items[1]",
-        "current": "💱 Конвертация в EUR: бесплатно для держателей",
-        "problem": "N26 is primarily an EUR bank account and card product; it does not provide a Wise/Revolut-style USD/GBP balance and exchange service for ordinary users. Card spending abroad may be at Mastercard rate with no N26 FX fee, but that is not the same as converting USD/GBP to EUR.",
-        "suggestion": "Write: “N26: EUR-счёт с DE IBAN; хорош для платежей картой за границей по Mastercard rate, но не замена Wise/Revolut для хранения и конвертации USD/GBP.”",
+        "current": "💱 N26 —-счёт с DE IBAN; хорош для платежей картой за границей по Mastercard rate, но не замена Wise/Revolut для хранения и конвертации USD/GBP",
+        "problem": "Этот пункт сам по себе корректен, но затем гайд сравнивает N26 в сценарии «1000 USD → EUR» как будто N26 является сервисом конвертации USD/GBP в EUR. У N26 базово EUR-счёт; он не является мультивалютным FX-сервисом для хранения USD/GBP и конвертации банковским переводом. Это создаёт внутреннее противоречие.",
+        "suggestion": "Оставить N26 как вариант для карточных трат за пределами еврозоны по курсу Mastercard, но убрать его из сравнения «1000 USD → EUR» или переименовать сценарий: \"оплата картой N26 в USD-мерчанте\". Для реальной конвертации USD balance → EUR сравнивать Wise/Revolut/FX broker.",
         "confidence": "high",
-        "source": "N26 pricing / account terms"
+        "source": "N26 price list / Mastercard exchange rate terms"
       },
       {
         "severity": "major",
-        "where": "steps[0].content[0].items[2].content[0].items[2]",
-        "current": "⚖️ Хорош для USD/GBP, не для RUB",
-        "problem": "Misleading because N26 does not normally let retail users hold USD/GBP balances or convert USD/GBP into EUR like a multi-currency account.",
-        "suggestion": "Write: “Хорош как EUR-банк и карта; для USD/GBP-конвертации лучше Wise/Revolut/FX broker.”",
+        "where": "steps[4].content[1].items[2]",
+        "current": "🟡 **N26**: ≈ 925 €, потеря ≈ 5 €",
+        "problem": "В контексте раздела «Сравнение комиссий 1000 USD → EUR» это вводит в заблуждение: N26 обычно не принимает USD-баланс и не делает конвертацию USD→EUR как Wise/Revolut. Возможен только другой кейс — карточная операция в USD с расчётом через Mastercard rate и возможными условиями тарифа.",
+        "suggestion": "Удалить строку или заменить на: \"🟡 **N26 card payment in USD**: применим курс Mastercard; это не способ перевести/конвертировать USD-счёт в EUR-счёт.\"",
         "confidence": "high",
-        "source": "N26 account features"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[0].content[0].items[3].content[0].items[2]",
-        "current": "💼 **HiFX (Lloyds)**: для UK резидентов",
-        "problem": "HiFX is not Lloyds. HiFX became part of Xe/Euronet’s money transfer business. The branding/reference is outdated/confusing.",
-        "suggestion": "Replace with “Xe Money Transfer / бывший HiFX” or remove the Lloyds reference.",
-        "confidence": "high",
-        "source": "Xe / Euronet corporate history"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[0].content[0].items[3].content[0].items[3]",
-        "current": "⏱️ 1-3 дня перевод, лучше курс чем wisein для крупных",
-        "problem": "Typo/unclear wording: “wisein” is not a product name.",
-        "suggestion": "Write: “лучше курс, чем Wise, для крупных сумм” if that is the intended meaning, with caveat that it depends on quote.",
-        "confidence": "high",
-        "source": ""
-      },
-      {
-        "severity": "minor",
-        "where": "tldr",
-        "current": "ATM в Португалии БЕРУТ ваш курс банка-эмитента (если используете нерезидентскую карту).",
-        "problem": "Incomplete. Portuguese ATMs may offer Dynamic Currency Conversion; if the user accepts DCC, the ATM/operator rate is used and is usually bad. The advice should explicitly say to decline conversion and choose EUR/local currency.",
-        "suggestion": "Write: “В ATM всегда отказывайтесь от DCC/‘conversion’ и выбирайте списание в EUR; тогда курс задаёт банк-эмитент/карточная сеть.”",
-        "confidence": "high",
-        "source": "Banco de Portugal consumer guidance on ATM/card operations"
+        "source": "N26 terms and price list"
       },
       {
         "severity": "major",
-        "where": "steps[2].content[1].items[0].content[0].items[5]",
-        "current": "⚠️ Лимиты на вывоз RUB из РФ: 1 млн USD/год для физлиц",
-        "problem": "This mixes up Russian capital-control concepts. The well-known restrictions concern cash export in foreign currency equivalents and monthly transfer limits to foreign accounts, not a simple “RUB export limit of 1 million USD/year”. The amount/period is likely wrong and could lead to illegal transfers.",
-        "suggestion": "Replace with a cautious statement: “Правила РФ по валютным переводам и вывозу наличных часто меняются; отдельно проверяйте лимиты ЦБ РФ/таможни на дату операции. Не путать банковские переводы, переводы на собственные иностранные счета и вывоз наличных.”",
+        "where": "steps[3].content[0].items[7]",
+        "current": "🌐 **Регулятор CMVM**: брокер должен быть лицензирован в EU; проверить cmvm.pt",
+        "problem": "Смешаны разные типы провайдеров. Wise, Revolut, CurrencyFair, OFX, Xe Money Transfer обычно регулируются как payment institution/e-money institution/money remittance provider, а не как инвестиционные брокеры CMVM. CMVM релевантна для инвестиционных услуг и ценных бумаг, но для платёжных/FX remittance сервисов нужно проверять Banco de Portugal, реестры центрального банка страны лицензии, EBA register или FCA/CBI и паспортирование в ЕС.",
+        "suggestion": "Заменить на: \"🌐 **Проверка провайдера**: для investment broker — CMVM/регулятор страны ЕС; для money transfer/e-money/payment institution — Banco de Portugal, EBA register или регулятор страны лицензии, например Central Bank of Ireland/FCA. Проверяйте точное юридическое лицо, с которым заключаете договор.\"",
+        "confidence": "high",
+        "source": "Banco de Portugal registers; EBA Payment Institutions register; CMVM registers"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[2]",
+        "current": "🚀 Перевод EUR-EUR: ≤ 1 час, бесплатно",
+        "problem": "Слишком категорично. EUR SEPA-переводы через Wise могут быть быстрыми, но срок зависит от способа оплаты, банка-отправителя/получателя,PA Instant availability, compliance checks и cut-off times. Комиссии Wise также зависят от маршрута и типа операции; «бесплатно» не всегда верно для отправки EUR со счёта Wise или пополнения определёнными методами.",
+        "suggestion": "Заменить на: \"🚀 EUR-EUR SEPA: часто в тот же день или мгновенно при SEPA Instant, но сроки и комиссии зависят от метода оплаты, банка и проверки Wise; перед операцией смотрите quote в приложении.\"",
+        "confidence": "high",
+        "source": "Wise fees and delivery estimates"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].items[0].content[0].items[5]",
+        "current": "💰 Лимиты: до 1 000 000 €/год для верифицированных пользователей",
+        "problem": "Лимиты Wise не являются универсальным годовым лимитом 1 000 000 € для всех пользователей. Они зависят от валюты, страны регистрации, типа клиента, метода платежа, продукта и compliance/source-of-funds checks. Такая формулировка может создать ложное ожидание, что любой верифицированный пользователь сможет прогнать 1 млн €/год.",
+        "suggestion": "Заменить на: \"💰 Лимиты зависят от страны, валюты, метода оплаты и проверки source of funds; для крупных сумм Wise может запросить документы или отказать. Проверяйте лимит и quote в аккаунте перед переводом.\"",
         "confidence": "medium",
-        "source": "Central Bank of Russia capital control notices / Russian customs cash export rules"
+        "source": "Wise transfer limits / acceptable use / verification rules"
       },
       {
-        "severity": "critical",
-        "where": "steps[2].content[1].items[1].content[0].items[2]",
-        "current": "⚠️ ВАЖНО: PT требует декларацию в IRS если оборот >5 000 €/год",
-        "problem": "False. Portugal does not have a general rule that crypto must be declared only when annual turnover exceeds €5,000. Since the 2023 regime, crypto gains/income may be reportable/taxable depending on the nature of the transaction, holding period, professional activity, staking/mining, etc. A €5,000 turnover threshold is not the general IRS trigger.",
-        "suggestion": "Write: “В Португалии криптооперации могут попадать в IRS: gains from crypto held <365 days generally taxable at 28% unless aggregated; crypto held ≥365 days may be exempt for qualifying assets; mining/staking/business activity can be Category B/E. Декларирование зависит от типа дохода, а не от общего оборота >5 000 €.”",
-        "confidence": "high",
-        "source": "Código do IRS, crypto-asset tax regime introduced by OE 2023; AT guidance"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[1].items[1].content[0].items[1]",
-        "current": "💱 P2P на Binance/Bybit: купить USDT за RUB → продать за EUR (~1% потери)",
-        "problem": "Misleading for Russian users. Binance exited the Russian market and RUB P2P availability has been restricted/removed. Also presenting crypto as a workaround for sanctions without warning about sanctions compliance and AML/source-of-funds risk is dangerous.",
-        "suggestion": "Write: “P2P-крипто для RUB сильно ограничено и зависит от биржи/юрисдикции; Binance не является надёжным RUB-P2P маршрутом после ухода из РФ. Любой crypto-to-bank cash-out в ЕС требует документального source of funds и не должен использоваться для обхода санкций.”",
-        "confidence": "high",
-        "source": "Binance Russia exit announcement; EU AML/sanctions compliance rules"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[2].content[1].items[2].content[0].items[0]",
-        "current": "🏦 РФ банки НЕ под санкциями: Газпромбанк (для энергии), РСХБ (для агро) — частично работают",
-        "problem": "Factually unsafe. Sanctions status differs by EU/US/UK and changes frequently. Russian Agricultural Bank has been subject to EU sanctions/SWIFT restrictions, and Gazprombank has faced major sanctions/restrictions in some jurisdictions. Stating they are “not under sanctions” is misleading and potentially harmful.",
-        "suggestion": "Write: “Санкционный статус банков РФ постоянно меняется и зависит от юрисдикции EU/US/UK. Перед любым переводом проверяйте EU Sanctions Map / OFAC / UK HMT and receiving-bank policy; even technically possible transfers may be rejected or frozen.”",
-        "confidence": "high",
-        "source": "EU Sanctions Map; Council Regulation (EU) No 833/2014 and amendments; OFAC SDN list"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[1].items[2].content[0].items[2]",
-        "current": "🌐 Юникредит / Райффайзен Россия — работают, но дорогие комиссии (3-5%)",
-        "problem": "Overconfident. Availability of EUR/USD outbound transfers from Russian subsidiaries has changed repeatedly, with many destination-bank rejections and compliance holds. “Работают” should be qualified heavily.",
-        "suggestion": "Write: “Иногда возможны переводы через отдельные несанкционные банки/дочки иностранных банков, но доступность, валюты, лимиты, комиссии и acceptance receiving bank меняются; обязательно получать письменный quote/confirmation и проверять банк-получатель.”",
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "\"label\": \"Revolut Premium\", \"amountEUR\": 8, \"note\": \"€/мес\"",
+        "problem": "Цена выглядит неточной/округлённой для Португалии: тарифы Revolut зависят от страны и меняются; Premium в ЕС часто указывается как €8.99 или €9.99/мес, а не ровно €8. Без ссылки на актуальную страницу это быстро устаревает.",
+        "suggestion": "Заменить на: \"Revolut Premium — см. актуальную цену в приложении/на revolut.com для Portugal; обычно около €9–10/мес\" или указать точную цену со ссылкой и датой проверки.",
         "confidence": "medium",
-        "source": "Bank tariff notices; EU/US sanctions compliance practice"
+        "source": "Revolut Portugal pricing page"
       },
       {
-        "severity": "critical",
-        "where": "steps[3].content[0].items[4]",
-        "current": "⚖️ **AT декларация**: иностранные счета >50 000 € — обязательная декларация Modelo 38",
-        "problem": "Wrong form and wrong threshold. Portuguese individual taxpayers generally report foreign bank accounts in IRS Modelo 3, Annex J, quadro 11, regardless of a €50,000 balance threshold. Modelo 38 is not the normal individual annual declaration for foreign accounts.",
-        "suggestion": "Write: “Иностранные банковские счета налогового резидента PT указываются в IRS Modelo 3, Anexo J, Quadro 11, обычно с IBAN/BIC; это не Modelo 38 и не только при балансе >50 000 €.”",
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "\"title\": \"Autoridade Tributária — Modelo 38 (счета за рубежом)\", \"url\": \"https://www.portaldasfinancas.gov.pt/\"",
+        "problem": "Источник не подтверждает заявленное правило: общий URL Portal das Finanças не ведёт на конкретную инструкцию, а сама привязка Modelo 38 к зарубежным счетам физлиц неверна. Для чувствительной налоговой темы нужен точный официальный источник на Anexo J/IRS instructions.",
+        "suggestion": "Заменить источник на конкретную страницу/документ AT: \"IRS Modelo 3 — Instruções de preenchimento do Anexo J, Quadro 11\" и/или Código do IRS art. 57.",
         "confidence": "high",
-        "source": "Autoridade Tributária — IRS Modelo 3, Anexo J instructions"
+        "source": "Autoridade Tributária — Instruções Modelo 3 IRS / Anexo J"
       },
       {
-        "severity": "critical",
-        "where": "steps[3].content[0].items[5]",
-        "current": "📊 **PT IRS**: курсовая разница на forex — налогооблагается как «mais-valias» (28%)",
-        "problem": "Overbroad and misleading. Taxable treatment depends on whether this is actual FX/CFD/trading of financial instruments, business activity, securities disposal, or merely converting personal cash/bank balances for spending. Not every currency conversion gain is automatically a taxable mais-valia at 28%.",
-        "suggestion": "Write: “FX trading/CFDs/financial instruments can generate taxable income/capital gains, often at 28% or aggregation depending on the case. Ordinary conversion of personal currency balances is a grey/specific area and should be checked with a contabilista; do not assume every exchange-rate movement is automatically declared as mais-valias.”",
-        "confidence": "high",
-        "source": "Código do IRS; AT guidance on category G/financial instruments"
+        "severity": "minor",
+        "where": "steps[2].content[1].items[0].content[0].items[0]",
+        "current": "🇹🇷 **Турция**: открыть счёт в Türkiye İş Bankası, перевести RUB → TRY → USD → EUR",
+        "problem": "Формулировка выглядит как практическая рекомендация конкретного банковского маршрута, но для россиян открытие счёта и входящие/исходящие переводы в Турции сильно зависят от резидентства, KYC, санкционного профиля, внутренней политики банка и назначения платежа. Конкретный банк может в любой момент отказать; это не надёжный «способ».",
+        "suggestion": "Смягчить: \"Турция: иногда используют турецкий счёт и конвертацию через TRY/USD/EUR, но открытие счёта и переводы для граждан РФ зависят от резидентства, KYC и политики конкретного банка; заранее подтверждайте возможность операции письменно.\"",
+        "confidence": "medium",
+        "source": "Bank compliance policies; EU/Russia sanctions guidance"
       },
       {
-        "severity": "major",
-        "where": "sources",
-        "current": "Only generic sources: Banco de Portugal comparador, CMVM, Portal das Finanças homepage",
-        "problem": "For sensitive tax, crypto, sanctions, and provider-fee claims, the sources are too generic and do not substantiate the specific statements. Portal das Finanças homepage is not a source for Modelo 38/Annex J or crypto taxation.",
-        "suggestion": "Add specific sources: AT IRS Anexo J instructions; AT/Orçamento do Estado crypto tax guidance; Revolut Portugal Fees; Wise pricing/account details; N26 pricing; EU Sanctions Map and OFAC/UK sanctions list for Russian-bank caveats.",
-        "confidence": "high",
-        "source": "Autoridade Tributária; Wise; Revolut; N26; EU Sanctions Map; OFAC"
+        "severity": "minor",
+        "where": "steps[2].content[1].items[0].content[0].items[2]",
+        "current": "🇬🇪 **Грузия**: TBC Bank — рабочая опция",
+        "problem": "Слишком уверенное утверждение для санкционно-чувствительного маршрута. Грузинские банки часто применяют жёсткий KYC к гражданам РФ, могут требовать ВНЖ/местный адрес/документы о происхождении средств и отказывать в переводах, особенно связанных с РФ.",
+        "suggestion": "Заменить на: \"Грузия: у некоторых экспатов работают счета в грузинских банках, но открытие/переводы для граждан РФ зависят от KYC, резидентства и политики банка; заранее проверяйте условия и санкционные ограничения.\"",
+        "confidence": "medium",
+        "source": "Bank compliance policies; EU/Russia sanctions guidance"
       }
     ],
     "missing_topics": [
-      "Dynamic Currency Conversion warning at ATMs/card terminals: always choose EUR/local currency, not home-currency conversion",
-      "Portuguese IRS reporting of foreign bank accounts via Modelo 3 Anexo J Quadro 11, not Modelo 38",
-      "Crypto taxation caveat: 365-day rule, professional activity/mining/staking, and need to document source of funds",
-      "Sanctions compliance caveat: crypto/third-country routes must not be used to evade EU/US/UK sanctions; receiving Portuguese banks may freeze funds pending AML review",
-      "Provider-specific fee pages should be checked immediately before exchange because Wise/Revolut/N26 tariffs change frequently",
-      "IBAN discrimination caveat: EU IBANs should be accepted under SEPA rules, but Portuguese entities may still wrongly insist on PT IBAN"
+      "Декларирование наличных при въезде/выезде из ЕС: €10 000 или эквивалент нужно декларировать таможне по правилам EU cash controls.",
+      "Разделить бытовую конвертацию валюты, инвестиционный forex/CFD, крипто и банковские проценты — у них разные налоговые режимы IRS.",
+      "Добавить официальные источники по crypto tax в Portugal: Código do IRS rules for crypto-assets и AT guidance, а не только общий совет.",
+      "Добавить проверку платёжных учреждений через Banco de Portugal/EBA/регулятор страны лицензии, отдельно от CMVM.",
+      "Добавить caveat про AML/source of funds: крупные поступления из третьих стран, крипто или РФ могут быть заморожены/отклонены банком до предоставления документов.",
+      "Уточнить, что DCC встречается не только в банкоматах, но и на POS-терминалах/онлайн-оплатах; выбирать оплату в местной валюте/ EUR в Португалии и не принимать курс терминала."
     ]
   },
   "usage": {
-    "completion_tokens": 4802,
-    "prompt_tokens": 3589,
-    "total_tokens": 8391
+    "completion_tokens": 4637,
+    "prompt_tokens": 4016,
+    "total_tokens": 8653
   },
   "model": "gpt-5.5"
 }

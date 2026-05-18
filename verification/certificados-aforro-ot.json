@@ -1,0 +1,107 @@
+{
+  "guideId": "certificados-aforro-ot",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный по Certificados de Aforro Série F, но есть несколько существенных неточностей: требование португальского налогового адреса, формулировки про OT через AforroNet и слишком расплывчатое описание Certificados do Tesouro.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Нужны NIF, Conta Aforro, подтверждённый IBAN и португальский налоговый адрес.",
+        "problem": "Формулировка вводит в заблуждение: португальский налоговый адрес не является универсальным обязательным условием для всех держателей Conta Aforro/Certificados. В самом гайде ниже признаётся сценарий налогового нерезидента и адреса за пределами Португалии, что противоречит TLDR.",
+        "suggestion": "Заменить на: «Нужны NIF, Conta Aforro, подтверждённый IBAN и актуальные данные в Finanças/IGCP; налоговый адрес и статус резидентства должны быть корректными. Нерезидентам нужно отдельно проверить, принимает ли пункт обслуживания их адрес, IBAN и налоговый статус для конкретной операции».",
+        "confidence": "high",
+        "source": "IGCP — Condições gerais/FAQ de Certificados de Aforro; requisitos de identificação e Conta Aforro"
+      },
+      {
+        "severity": "major",
+        "where": "title",
+        "current": "Государственные облигации Португалии: Certificados de Aforro, Certificados do Tesouro и OT через AforroNet",
+        "problem": "Заголовок создаёт впечатление, что обычные OT/Obrigações do Tesouro можно покупать через AforroNet как Certificados de Aforro. Это как минимум сильно упрощено: AforroNet — прежде всего канал для Certificados de Aforro и Certificados do Tesouro; обычные OT на первичном/вторичном рынке обычно идут через финансовых посредников, а не как стандартная операция AforroNet.",
+        "suggestion": "Переписать заголовок: «Certificados de Aforro через AforroNet и другие инструменты госдолга Португалии: Certificados do Tesouro и OT». В тексте отдельно указать: «Обычные OT покупаются/продаются через банк или брокера; AforroNet не является полноценным брокерским счётом для OT».",
+        "confidence": "medium",
+        "source": "IGCP — AforroNet; IGCP — Obrigações do Tesouro / dívida de retalho"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[8]",
+        "current": "OT / Obrigações do Tesouro — обычные казначейские облигации; розничная доступность через AforroNet зависит от конкретного выпуска, а на вторичном рынке их обычно покупают через банк или брокера",
+        "problem": "Фраза «доступность через AforroNet зависит от конкретного выпуска» может быть неверно понята как практическая возможность покупать обычные OT через AforroNet. Для обычных OT ключевой канал для розничного инвестора — банк/брокер/финансовый посредник; AforroNet не заменяет счёт ценных бумаг.",
+        "suggestion": "Заменить на: «OT / Obrigações do Tesouro — рыночные казначейские облигации. Розничный инвестор обычно покупает и продаёт их через банк или брокера; цена меняется на рынке, есть комиссии и спреды. Не считайте AforroNet стандартным каналом для покупки обычных OT».",
+        "confidence": "medium",
+        "source": "IGCP — Obrigações do Tesouro; CMVM/financial intermediaries rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[7]",
+        "current": "Certificados do Tesouro — старые серии можно держать и погашать; новые подписки зависят от того, открыта ли конкретная серия IGCP",
+        "problem": "Формулировка слишком расплывчатая для 2026 года. По состоянию на проверку новых массовых подписок Certificados do Tesouro, как у CA Série F, нет; старые серии существуют для держателей, но новый читатель может решить, что продукт регулярно доступен рядом с Série F.",
+        "suggestion": "Уточнить: «Certificados do Tesouro — действующие старые серии можно держать и погашать по их условиям; для новых подписок в 2026 проверьте сайт IGCP, потому что на момент проверки массово доступным продуктом для новой подписки остаются Certificados de Aforro Série F».",
+        "confidence": "high",
+        "source": "IGCP — Certificados do Tesouro / dívida de retalho"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[4]",
+        "current": "Португальский номер телефона и email для уведомлений и AforroNet",
+        "problem": "Слово «португальский» может быть слишком жёстким требованием. Для уведомлений и доступа нужен действующий телефон/email, но не всегда корректно утверждать, что номер обязан быть именно португальским; это зависит от процедуры IGCP/CTT и технической поддержки SMS.",
+        "suggestion": "Заменить на: «Действующий номер телефона, желательно португальский, и email для уведомлений и AforroNet; заранее проверьте, принимает ли система иностранный номер».",
+        "confidence": "medium",
+        "source": "IGCP — AforroNet adesão / dados de contacto"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "\"label\": \"IRS на проценты для резидента\", \"amountEURMin\": 0, \"amountEURMax\": 28, \"note\": \"Это ставка 28%, а не фиксированная сумма в евро; удерживается с начисленного дохода.\"",
+        "problem": "Поле называется amountEURMax, но туда записан процент. Даже с пояснением это структурно сбивает с толку и может быть неправильно отрендерено как «€28».",
+        "suggestion": "Не использовать amountEURMin/amountEURMax для процента. Лучше: «ratePercent: 28» или label «IRS на проценты для резидента: 28%». Если схема не поддерживает проценты, поставить amountEURMin/Max в null и оставить процент только в note.",
+        "confidence": "high",
+        "source": "Código do IRS, art. 71"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.aforronet.igcp.pt",
+        "problem": "Официальный адрес AforroNet обычно используется как https://aforronet.igcp.pt без www. Вариант с www может редиректить или работать нестабильно в зависимости от TLS/DNS.",
+        "suggestion": "Заменить на: «https://aforronet.igcp.pt».",
+        "confidence": "medium",
+        "source": "IGCP — AforroNet"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "\"title\": \"IGCP — Dívida Pública de Retalho: Certificados de Aforro, Tesouro и OT\", \"url\": \"https://www.igcp.pt/en/investidores/instrumentos-de-financiamento/instrumentos-de-medio-longo-prazo/divida-de-retalho\", \"language\": \"pt\"",
+        "problem": "URL ведёт на английскую ветку /en, но language указан как pt. Кроме того, для конкретных условий Série F лучше ссылаться не только на общую страницу retail debt, а на страницу/фича técnica Série F.",
+        "suggestion": "Исправить language на «en» либо дать португальскую ссылку IGCP. Добавить отдельный официальный источник: «IGCP — Certificados de Aforro Série F / ficha técnica / condições de subscrição».",
+        "confidence": "high",
+        "source": "IGCP — Certificados de Aforro Série F"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Нет отдельного источника на условия Certificados de Aforro Série F",
+        "problem": "В гайде много конкретных чисел по Série F: минимум €100, максимум €50 000, срок 15 лет, блокировка 3 месяца, Euribor 3M + 1%, cap 2,5%, prémios de permanência. Для таких параметров нужен прямой официальный источник, а не только общая страница IGCP.",
+        "suggestion": "Добавить официальный источник IGCP по «Certificados de Aforro Série F — descrição/ficha técnica/condições»: условия подписки, remuneração, prémios de permanência, limites и resgate.",
+        "confidence": "high",
+        "source": "IGCP — Certificados de Aforro Série F"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[3]",
+        "current": "Если вы налоговый нерезидент, проверьте применимую ставку и соглашение об избежании двойного налогообложения",
+        "problem": "Верно, но недостаточно конкретно: для нерезидентов важны не только DTA, но и специальный режим налогообложения доходов по португальскому публичному долгу, подтверждение бенефициарного владельца, страна резидентства и исключения для юрисдикций из blacklist. Без этой оговорки читатель может думать, что ставка всегда просто берётся из DTA.",
+        "suggestion": "Добавить: «Для нерезидентов по доходам от португальского публичного долга могут применяться специальные правила/освобождения при выполнении условий; не полагайтесь только на общую ставку 28% или DTA — проверьте правила IGCP/банка и документы о налоговом резидентстве».",
+        "confidence": "medium",
+        "source": "Código do IRS art. 71; Decreto-Lei 193/2005; Portal das Finanças"
+      }
+    ],
+    "missing_topics": [
+      "Прямой официальный источник IGCP именно по условиям Certificados de Aforro Série F",
+      "Явное разграничение AforroNet для Certificados и брокерского/банковского счёта для обычных OT",
+      "Более конкретная оговорка по налогообложению нерезидентов и возможным специальным правилам для португальского публичного долга",
+      "Уточнение, что наличие корректного налогового адреса/статуса важно, но «португальский налоговый адрес» не должен подаваться как универсальное обязательное условие"
+    ]
+  },
+  "model": "gpt-5.5"
+}

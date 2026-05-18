@@ -1,0 +1,76 @@
+{
+  "guideId": "centro-dia-idosos-bairro",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate and useful, but it over-simplifies the co-payment rules, omits licensing/official-rule caveats, and should tighten a couple of healthcare/referral statements.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Цена в 2026 чаще 200–500 €/мес и зависит от доходов семьи",
+        "problem": "The price range may be a reasonable practical estimate, but 'depends on family income' is imprecise for IPSS responses with cooperation agreements: the user contribution is normally calculated from the per-capita income of the user's household/agregado familiar under the institution's rules, not simply the broader family's income. Relatives outside the household may or may not be relevant depending on the contract/internal regulation.",
+        "suggestion": "Write: \"В IPSS с acordo de cooperação mensalidade обычно считается как comparticipação familiar по rendimento per capita do agregado familiar пользователя и regulamento interno; родственники вне household не всегда входят в расчёт, но центр может просить данные/гаранта по своим правилам.\"",
+        "confidence": "medium",
+        "source": "Instituto da Segurança Social guidance on respostas sociais / comparticipação familiar; Portaria 196-A/2015 framework for cooperation agreements"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "У IPSS с acordo de cooperação цена обычно не “фиксированная как абонемент”, а mensalidade/comparticipação familiar, рассчитанная по доходам семьи и правилам учреждения.",
+        "problem": "Same imprecision: for co-financed social responses the usual basis is rendimento per capita do agregado familiar, with deductions/criteria in the institution's rules. 'Доходы семьи' is too broad and can mislead readers into thinking every adult child/relative's income is automatically included.",
+        "suggestion": "Replace with: \"... рассчитанная по rendimento per capita do agregado familiar пользователя, с учётом regulamento interno/tabela de comparticipações; попросите формулу расчёта и список учитываемых доходов/вычетов письменно.\"",
+        "confidence": "medium",
+        "source": "Instituto da Segurança Social guidance on respostas sociais / comparticipação familiar; Portaria 196-A/2015"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[3]",
+        "current": "Cuidados Continuados — медицинско-реабилитационная сеть после болезни/госпитализации, через SNS",
+        "problem": "Oversimplified. RNCCI referral is usually made by hospital discharge teams or primary/community healthcare teams, and the network has health and social-support components; depending on unit type and duration, user co-payment can apply for the social component. Saying only 'через SNS' hides the Segurança Social/means-tested part.",
+        "suggestion": "Write: \"Cuidados Continuados/RNCCI — реабилитация и продолжительный уход после болезни/госпитализации; encaminhamento обычно делает больничная equipa de gestão de altas или equipa do Centro de Saúde. Часть расходов может зависеть от доходов, особенно в units with social-support component.\"",
+        "confidence": "high",
+        "source": "SNS / ACSS / Segurança Social information on Rede Nacional de Cuidados Continuados Integrados"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[0].content[0].text",
+        "current": "На cartasocial.pt выберите distrito, concelho, freguesia и resposta social “Centro de Dia”. В карточках обычно видно entidade, morada, telefone, capacidade и иногда situação da resposta.",
+        "problem": "Correct as a search route, but it should warn that Carta Social capacity/contact data is administrative and may lag reality; vacancy/queue status must be confirmed directly with the institution.",
+        "suggestion": "Add: \"Carta Social не гарантирует наличие vaga и иногда отстаёт от реальной ситуации; после поиска звоните в instituição/IPSS и уточняйте vagas, lista de espera, acordo de cooperação и transporte.\"",
+        "confidence": "high",
+        "source": "Carta Social"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items",
+        "current": "Документ пожилого: Cartão de Cidadão, ВНЖ или паспорт; NIF пожилого ... Número de utente SNS ...",
+        "problem": "For foreigners this list is useful but misses a practical document often requested by IPSS/Social Security-linked entities: NISS or proof of Social Security situation/benefits, especially when assessing income, pensions, social benefits, or applying for social support. It is not always mandatory for admission, but omission is a practical gap.",
+        "suggestion": "Add an item: \"NISS/документы Segurança Social — если есть пенсия, complemento, apoios sociais или если центр просит проверить situação contributiva/prestações.\"",
+        "confidence": "medium",
+        "source": "Instituto da Segurança Social practical procedures for social responses"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only Carta Social, Segurança Social idosos, and Segurança Social IPSS are cited.",
+        "problem": "For a guide giving practical rules on services, contracts and co-payments, the sources are acceptable but thin. It should include an official source specifically describing Centro de Dia / social responses for older people and, ideally, the legal/cooperation framework for comparticipação familiar.",
+        "suggestion": "Add an official Segurança Social practical guide/page for 'Apoios Sociais para Pessoas Idosas' or 'Centro de Dia', and cite the cooperation/co-payment framework such as Portaria 196-A/2015 where discussing IPSS acordo de cooperação and comparticipação familiar.",
+        "confidence": "medium",
+        "source": "Instituto da Segurança Social; Portaria 196-A/2015"
+      }
+    ],
+    "missing_topics": [
+      "How to check whether a centre is licensed/officially registered and whether it has acordo de cooperação versus being fully private",
+      "Vacancy/lista de espera is not guaranteed by Carta Social; always confirm directly with the institution",
+      "Co-payment formula should be requested in writing: rendimento per capita do agregado familiar, deductions, extras, absences, transport, diapers/medicines",
+      "RNCCI/Cuidados Continuados referral path and possible means-tested social co-payment"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2471,
+    "prompt_tokens": 3351,
+    "total_tokens": 5822
+  },
+  "model": "gpt-5.5"
+}

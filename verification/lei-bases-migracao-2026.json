@@ -1,0 +1,123 @@
+{
+  "guideId": "lei-bases-migracao-2026",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide has the right practical direction on AIMA/MI/fees, but it misidentifies the core 2025 migration law and overstates several legal effects, especially around EU citizens and family reunification.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "title, tldr, steps[0].title, steps[0].content[0].text, steps[4].content[0].text, sources[2]",
+        "current": "«Lei 38/2025 — рамочный миграционный пакет» / «Diário da República — Lei 38/2025, Lei de Bases da Migração»",
+        "problem": "Wrong law number. The 2025 Lei de Bases da Migração is Lei 61/2025, not Lei 38/2025. This makes the title, TLDR, tax section attribution and source materially unreliable.",
+        "suggestion": "Replace all references to «Lei 38/2025» with «Lei 61/2025» where referring to the Lei de Bases da Migração, and update the DRE source accordingly. Example: «Lei 61/2025 — Lei de Bases da Migração, em vigor desde 23.10.2025».",
+        "confidence": "high",
+        "source": "Lei 61/2025"
+      },
+      {
+        "severity": "major",
+        "where": "sources[2].url",
+        "current": "https://dre.pt/dre/detalhe/lei/38-2025",
+        "problem": "The cited URL points to Lei 38/2025, not the migration framework law discussed in the guide. Even if the page exists, it is the wrong legal reference for the article’s subject.",
+        "suggestion": "Replace with the Diário da República page for Lei 61/2025, preferably using the current diariodarepublica.pt URL format and the consolidated version if available.",
+        "confidence": "high",
+        "source": "Lei 61/2025"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text and tldr",
+        "current": "«сводит режимы иностранцев и граждан ЕС ближе к единой системе» / «меняет, как читаются и применяются Lei 23/2007 ... и Lei 37/2006»",
+        "problem": "Misleading. Third-country nationals under Lei 23/2007 and EU/EEA/Swiss citizens under Lei 37/2006 remain legally distinct regimes. EU free movement rights cannot be treated as being merged into a general migration system; CRUE is still a municipal registration, not an AIMA residence permit.",
+        "suggestion": "Rewrite more narrowly: «Lei 23/2007 остаётся отдельным режимом для граждан третьих стран; Lei 37/2006 для граждан ЕС/ЕЭЗ/Швейцарии не исчезла. На практике органы могут чаще сверять адрес, налоговую и семейную информацию, но правовые основания остаются разными».",
+        "confidence": "high",
+        "source": "Lei 23/2007; Lei 37/2006"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].text and steps[2].content[2].items[4]",
+        "current": "«Если семья присоединяется позже, у основного заявителя должны быть действующий ВНЖ, жильё и доход.» / «ВНЖ или виза основного заявителя, подтверждение записи/процесса AIMA, если применимо.»",
+        "problem": "Too loose for family reunification. A mere visa, appointment or pending AIMA process is not generally enough for a reagrupamento familiar application inside Portugal; in many cases the sponsor must already hold a valid residence permit, and the 2025 reform added stricter timing/eligibility conditions and exceptions depending on the family member category.",
+        "suggestion": "Separate two situations: «accompanying family member visa at the consulate» versus «reagrupamento familiar after the sponsor is resident in Portugal». Add that for later reunification the sponsor normally needs a valid residence permit and must satisfy the current Lei 23/2007 requirements, including any post-2025 waiting-period or exception rules applicable to the specific family category.",
+        "confidence": "medium",
+        "source": "Lei 23/2007 as amended by Lei 61/2025"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text and steps[2].content[3].text",
+        "current": "«Реформа усиливает принцип...» / «Закон может давать право на reagrupamento familiar, но отсутствие слота...»",
+        "problem": "The family reunification section is too generic for a 2026 guide. It does not spell out the important post-reform caveat that rules differ by family category and that some applicants may be subject to additional timing/eligibility restrictions, while others may fall under exceptions.",
+        "suggestion": "Add a clear caveat: «После изменений 2025 года reagrupamento familiar нельзя описывать одной формулой: супруг/партнёр, несовершеннолетние дети, совершеннолетние зависимые дети и родители могут иметь разные условия и исключения. Перед подачей проверяйте актуальную редакцию arts. 98–108 Lei 23/2007 и инструкцию AIMA для вашей категории».",
+        "confidence": "medium",
+        "source": "Lei 23/2007; Lei 61/2025; AIMA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].text",
+        "current": "«Lei 38/2025 добавляет налоговый блок IRS-Migrante...»",
+        "problem": "Wrong attribution because the guide names the wrong law. Also the statement is too unsourced for a sensitive tax topic: a reader needs the exact legal basis and current AT guidance, not only a migration-law reference.",
+        "suggestion": "Replace with the correct law reference and add the Autoridade Tributária / Código do IRS / implementing rules source. If the regime is not fully operational or depends on implementing regulation, say so explicitly: «проверяется по AT и подзаконным правилам; не является иммиграционным статусом».",
+        "confidence": "high",
+        "source": "Lei 61/2025; Autoridade Tributária"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[2].items[4] and steps[5].content[0].items[1].content[0].items",
+        "current": "«Для учёбы — студенческая виза...» / route list omits D4/D5/D6/D3 mapping",
+        "problem": "The guide repeatedly says D1-D8 but does not map the codes. This is confusing for readers because D3, D4, D5, D6, D7 and D8 have distinct uses; family is usually D6/temporary-stay/accompanying-family route depending on facts, not just a generic «family» route.",
+        "suggestion": "Add a compact visa-code box: D1 employed work; D2 independent/professional/entrepreneurial activity; D3 highly qualified activity; D4 study/research/volunteering depending on subcategory; D5 student mobility; D6 family reunification/accompanying family; D7 passive income/pension; D8 remote work/digital nomad.",
+        "confidence": "high",
+        "source": "Lei 23/2007; Portuguese consular visa categories"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "«CRUE ... в быту он нужен для банка, SNS, школы, обмена водительских прав и налоговой резидентности.»",
+        "problem": "Overstated. CRUE is legally required after 3 months of residence for EU citizens, but it is not always strictly required for every listed service, and tax residency follows Código do IRS criteria rather than CRUE itself.",
+        "suggestion": "Write: «CRUE часто просят или он сильно упрощает банк, SNS, школу и обмен прав, но налоговая резидентность определяется правилами IRS, а не самим CRUE».",
+        "confidence": "high",
+        "source": "Lei 37/2006; Código do IRS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[2].text",
+        "current": "«В 2026 ожидайте больше сверок между Câmara, Finanças, Segurança Social и AIMA...»",
+        "problem": "Speculative and unsourced. It may be a fair practical warning, but as written it sounds like an established legal mechanism.",
+        "suggestion": "Soften wording: «На практике возможны сверки и запросы дополнительных доказательств, поэтому держите адрес, работу, IRS и семейные документы согласованными».",
+        "confidence": "medium",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[2].content[0].text and costs[0-1]",
+        "current": "«133 € за приём/анализ заявления и 307,20 € за выдачу ВНЖ по art. 75 Lei 23/2007»",
+        "problem": "The amounts appear consistent with the 01.03.2026 AIMA fee update, but the guide cites only the generic AIMA homepage. For fees, a generic homepage is not enough; readers need the fee table/legal act because AIMA fees vary by procedure and urgency/duplicates/renewals.",
+        "suggestion": "Keep the amounts, but add the exact source for the fee table and phrase as procedure-specific: «для указанной процедуры по tabela de taxas AIMA vigente desde 01.03.2026; другие процедуры/renovação/2.ª via могут стоить иначе».",
+        "confidence": "high",
+        "source": "AIMA tabela de taxas vigente desde 01.03.2026; Portaria 480-A/2025/1"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include Lei 23/2007, Lei 37/2006, wrong Lei 38/2025 and AIMA homepage only.",
+        "problem": "Missing primary sources for several factual claims: abolition of manifestação de interesse, 2026 SMN/IAS, IRS rate, IFICI/IRS-Migrante and AIMA fees.",
+        "suggestion": "Add separate sources for: Decreto-Lei 37-A/2024 or the consolidated Lei 23/2007 provisions ending the old manifestação de interesse route; 2026 SMN legal act; 2026 IAS legal act; Código do IRS/AT tables for the 11.97% bracket; IFICI legal basis and AT guidance; AIMA fee table effective 01.03.2026.",
+        "confidence": "high",
+        "source": "Decreto-Lei 37-A/2024; Código do IRS; Autoridade Tributária; AIMA"
+      }
+    ],
+    "missing_topics": [
+      "Correct identification of Lei 61/2025 as the Lei de Bases da Migração and its entry into force on 23.10.2025",
+      "Explicit transitional rules for people who had manifestação de interesse or pending processes before the 2024 abolition",
+      "Clear D1/D2/D3/D4/D5/D6/D7/D8 visa-code mapping",
+      "Post-2025 family reunification restrictions, exceptions and category-specific rules",
+      "Exact official source for AIMA fees effective 01.03.2026",
+      "Official tax sources for IRS-Migrante/IFICI, SMN 2026, IAS 2026 and the 2026 IRS brackets"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4179,
+    "prompt_tokens": 4095,
+    "total_tokens": 8274
+  },
+  "model": "gpt-5.5"
+}

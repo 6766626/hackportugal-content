@@ -3,140 +3,149 @@
   "categoryId": "auto_ownership",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Guide contains several material inaccuracies about who owes IUC, late-payment consequences, exemptions, categories and the alleged DUA/IPO/sale blocking.",
+    "summary": "Guide has several material errors on IUC categories, exemptions, late-payment penalties, payment methods and buyer liability; it should not be published without correction.",
     "issues": [
       {
-        "severity": "critical",
-        "where": "steps[0].content[0].items[0]",
-        "current": "Владелец, зарегистрированный в DUA на 1 января данного года",
-        "problem": "For ordinary vehicles in IUC categories A–E, the taxable person is generally the registered owner/holder on the date the tax becomes due, i.e. in the vehicle registration anniversary month, not automatically whoever is registered on 1 January. The 1 January logic is not the general rule for cars.",
-        "suggestion": "Replace with: «Платит лицо, на чьё имя автомобиль зарегистрирован в Conservatória/DUA на дату наступления обязанности по IUC — обычно в месяц годовщины португальской регистрации автомобиля. Правило “на 1 января” не является общим правилом для легковых авто.»",
+        "severity": "major",
+        "where": "tldr",
+        "current": "Расчёт зависит от класса (A–E), объёма двигателя, выбросов CO2 и года.",
+        "problem": "Misleading: CO2 is not used for all categories A–E. For passenger cars, category A is generally pre-01.07.2007 and taxed mainly by displacement/fuel/year bands; category B is post-01.07.2007 and uses displacement + CO2 + registration-year/environmental coefficients. Categories C/D/E have different bases.",
+        "suggestion": "Write: «Для легковых: категория A — автомобили, зарегистрированные с 1981 до 30.06.2007, ставка в основном по объёму/топливу; категория B — с 01.07.2007, ставка по объёму двигателя, CO2 и коэффициентам года регистрации. Для грузовых, мотоциклов, лодок и самолётов правила другие.»",
         "confidence": "high",
-        "source": "Código do IUC, arts. 3 and 4"
+        "source": "Código do IUC, arts. 2, 7–15"
       },
       {
         "severity": "major",
-        "where": "steps[0].content[0].items[1]",
-        "current": "Срок оплаты — до конца месяца годовщины первой регистрации машины",
-        "problem": "Potentially misleading for imported used cars: the payment month is tied to the Portuguese registration/matrícula for IUC purposes, while the tax rate may use the first registration date in Portugal/EU/EEA depending on the case. Saying simply “first registration” can make expats with imported cars use the wrong month.",
-        "suggestion": "Write: «Срок оплаты — до конца месяца годовщины португальской matrícula/регистрации. У импортированных б/у машин дата первой регистрации может влиять на расчёт ставки, но месяц оплаты обычно определяется португальской matrícula.»",
-        "confidence": "medium",
-        "source": "Código do IUC, art. 4; Portal das Finanças — IUC"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[0].content[1].text",
-        "current": "Если IUC не оплачен — блок DUA. Техосмотр (IPO) не пройдёте, продать машину без оплаты тоже нельзя.",
-        "problem": "This is materially misleading. Non-payment of IUC is a tax debt handled by Autoridade Tributária and may lead to penalties, interest and tax enforcement/penhora, but IUC proof is not normally a condition for IPO inspection and the debt is personal to the taxpayer, not a simple automatic DUA block that prevents every sale.",
-        "suggestion": "Replace with: «Неоплаченный IUC превращается в налоговый долг: AT начислит coima/проценты и может начать cobrança coerciva/penhora. IPO обычно не проверяет оплату IUC как условие прохождения. При продаже долг остаётся у лица, которое было обязано платить IUC на соответствующую дату.»",
+        "where": "tldr",
+        "current": "Просрочка — штраф 10–50 %.",
+        "problem": "Portuguese IUC late-payment penalties are not a simple automatic 10–50% surcharge. Late payment can trigger compensatory/default interest, coima under RGIT and later cobrança coerciva; reduced coima rules depend on voluntary regularisation and timing. The 10/20/30% ladder used later in the guide is also not the legal rule.",
+        "suggestion": "Replace with: «Просрочка ведёт к juros de mora/compensatórios и возможной coima по RGIT; при длительной неуплате долг может перейти в execução fiscal/cobrança coerciva. Размер зависит от ситуации, а не от простой шкалы 10–50%.»",
         "confidence": "high",
-        "source": "Código do IUC; Regime Geral das Infrações Tributárias; Portal das Finanças"
+        "source": "RGIT; Lei Geral Tributária; Código do IUC"
       },
       {
         "severity": "major",
         "where": "steps[1].content[0].items[0].title",
         "current": "Категория A — лёгкие < 1100 cc (до 1981)",
-        "problem": "Category A is not simply “light vehicles under 1100 cc”. Category A covers older light passenger/mixed vehicles registered in Portugal/EU/EEA before the relevant cut-off, with rate bands by fuel, cylinder capacity and voltage where applicable. The title incorrectly narrows the category to <1100 cc.",
-        "suggestion": "Write: «Категория A — старые легковые/смешанные автомобили, обычно с регистрацией до 1981; ставка зависит от топлива, объёма двигателя/электрического напряжения и года.»",
+        "problem": "Wrong category definition. Category A is not «<1100 cc» and not «до 1981». It covers light passenger/mixed vehicles generally registered from 1981 until 30.06.2007. Vehicles before 1981 are generally outside the normal category A annual IUC table/exempt or treated differently depending on facts.",
+        "suggestion": "Change title to: «Категория A — легковые/смешанные автомобили, зарегистрированные с 1981 до 30.06.2007» and explain that rates vary by fuel and cylinder capacity, not only <1100 cc.",
         "confidence": "high",
-        "source": "Código do IUC, arts. 2 and 9"
+        "source": "Código do IUC, art. 2 and art. 8"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[0].content[0].text",
+        "current": "Винтажные машины. 15–25 € в год.",
+        "problem": "Misleading. Category A is not just vintage cars. It includes many ordinary passenger cars registered between 1981 and 30.06.2007, and IUC can be well above €25 depending on engine size and fuel.",
+        "suggestion": "Write: «Это в основном автомобили 1981–30.06.2007. Ставка зависит от топлива и объёма двигателя; для малолитражек может быть несколько десятков евро, для больших двигателей — существенно больше.»",
+        "confidence": "high",
+        "source": "Código do IUC, art. 8; annual IUC rate tables"
       },
       {
         "severity": "major",
         "where": "steps[1].content[0].items[1].title",
-        "current": "Категория B — лёгкие с бензином (1982+)",
-        "problem": "Category B is not only petrol cars. It covers light passenger/mixed/goods vehicles, generally up to 3.5 t, after the statutory cut-off, including petrol, diesel and other fuels. Diesel vehicles may also have additional taxation.",
-        "suggestion": "Replace with: «Категория B — большинство современных легковых/смешанных/лёгких коммерческих авто до 3,5 т, включая бензин, дизель и другие виды топлива; ставка зависит от объёма, CO₂, топлива и года.»",
+        "current": "Категория B — лёгкие с бензиновым двигателем (1982+)",
+        "problem": "Wrong category definition. Category B is not limited to petrol cars and not «1982+». It is broadly for light passenger/mixed vehicles registered from 01.07.2007 onward, including diesel and other fuels; diesel vehicles may have additional IUC components.",
+        "suggestion": "Change to: «Категория B — легковые/смешанные автомобили, зарегистрированные с 01.07.2007» and add: «включает бензин, дизель и другие виды топлива; для дизеля возможна дополнительная надбавка».",
         "confidence": "high",
-        "source": "Código do IUC, arts. 2 and 10"
+        "source": "Código do IUC, art. 2 and art. 9"
       },
       {
-        "severity": "major",
-        "where": "steps[1].content[0].items[1].content[0].text",
-        "current": "Ставка по объёму + CO2. 1.0–1.4 л = 40–70 €; 1.6–2.0 л = 90–170 €; 2.5+ л = 300+ €.",
-        "problem": "Too simplified and can be wrong. For category B, the formula differs by registration period and includes cylinder capacity, CO₂, fuel type, year coefficient and possible additional diesel components. A 1.4 petrol car can exceed these ranges depending on CO₂/year; a 1.6–2.0 diesel can also be much higher.",
-        "suggestion": "Write: «Для категории B расчёт зависит не только от объёма: важны дата регистрации, CO₂, топливо, коэффициент года и возможная дизельная надбавка. Диапазоны ниже — только грубая оценка; точную сумму смотрите в Portal das Finanças перед оплатой.»",
-        "confidence": "high",
-        "source": "Código do IUC, art. 10 and annual IUC tables"
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].title",
+        "current": "Категория E — мотоциклы (> 250 cc)",
+        "problem": "Incomplete: category E covers motorcycles, mopeds, tricycles and quadricycles above the relevant taxable thresholds/registered since the applicable dates, not only generic motorcycles. Also rates depend on cylinder-capacity bands and age/registration period.",
+        "suggestion": "Write: «Категория E — мотоциклы, мопеды, трициклы и квадрициклы, когда они подпадают под IUC; ставка зависит от объёма и года регистрации.»",
+        "confidence": "medium",
+        "source": "Código do IUC, art. 2 and art. 11"
       },
       {
         "severity": "major",
         "where": "steps[1].content[0].items[3].title",
         "current": "Категория C — грузовые до 12 т",
-        "problem": "Category C is not “goods up to 12 t”. Category C concerns goods vehicles and certain mixed-use vehicles with gross weight over 2.5 t used for private goods transport; rates are by weight/axles/suspension. Public/authorised goods transport is a separate category D. The 12 t threshold is misleading.",
-        "suggestion": "Replace with: «Категория C — грузовые/смешанные автомобили для частного грузового транспорта свыше 2,5 т; ставка зависит от массы, осей и подвески. Категория D — грузовой транспорт по найму/общественный транспорт грузов.»",
-        "confidence": "high",
-        "source": "Código do IUC, arts. 2, 11 and 12"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[0]",
-        "current": "Substeps list categories A, B, E, C and electric vehicles; category D is omitted.",
-        "problem": "The guide says rates depend on classes A–E but omits category D entirely, which is a statutory IUC category for certain goods transport vehicles. That makes the category overview incomplete.",
-        "suggestion": "Add: «Категория D — автомобили для грузового транспорта по найму/за вознаграждение или общественный грузовой транспорт; ставки зависят от массы, осей и подвески.»",
-        "confidence": "high",
-        "source": "Código do IUC, arts. 2 and 12"
+        "problem": "Oversimplified and likely wrong. IUC separates goods vehicles into categories C and D depending on weight and use, with rates based on gross weight, axles/suspension and other factors. «до 12 т» is not a safe definition.",
+        "suggestion": "Replace with: «Категории C/D — грузовые и связанные транспортные средства; ставка зависит от массы, числа осей, типа подвески и использования. Для коммерческих машин лучше проверять напрямую в Portal das Finanças/таблицах Código do IUC.»",
+        "confidence": "medium",
+        "source": "Código do IUC, arts. 2, 10 and 10-A"
       },
       {
         "severity": "major",
         "where": "steps[1].content[0].items[4].content[0].text",
-        "current": "Освобождены от IUC (только Imposto sobre os Veículos IVA при покупке + номинальная плата).",
-        "problem": "The phrase is legally confused: ISV and IVA are different taxes; “Imposto sobre os Veículos IVA” is not a tax name. Fully electric vehicles may be exempt from IUC/ISV under specific rules, but VAT is separate and not just a nominal fee. Registration/DUA fees are administrative, not IUC.",
-        "suggestion": "Write: «Полностью электрические автомобили, как правило, освобождены от IUC. При покупке отдельно могут применяться IVA и административные сборы; ISV и IVA — разные налоги.»",
+        "current": "Освобождены от IUC (только Imposto sobre os Veículos, IVA при покупке + номинальная плата).",
+        "problem": "Confusing and partly wrong. Pure battery-electric vehicles are generally exempt from IUC and also from ISV; saying «только ISV» implies ISV is payable. Hybrids/plug-in hybrids are not automatically IUC-exempt merely because they are electrified.",
+        "suggestion": "Write: «Полностью электрические автомобили обычно освобождены от IUC и ISV; IVA при покупке сохраняется. Гибриды и plug-in hybrids не считаются автоматически освобождёнными — проверяйте конкретный тип и регистрацию.»",
         "confidence": "high",
-        "source": "Código do IUC; Código do ISV; Código do IVA"
+        "source": "Código do IUC, art. 5; Código do ISV"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[4]",
+        "current": "🏦 Внутрибанковский перевод",
+        "problem": "Misleading payment method. Taxes generated with entidade/referência are normally paid by Multibanco/homebanking using the reference, MB WAY where available, CTT/Payshop or other AT-supported channels. A normal bank transfer to AT is not the standard way to pay IUC and may not allocate correctly.",
+        "suggestion": "Replace with: «🏦 Homebanking/Multibanco: pagamento ao Estado по entidade + referência + montante» and avoid saying ordinary bank transfer.",
+        "confidence": "high",
+        "source": "Autoridade Tributária — Portal das Finanças payment instructions"
       },
       {
         "severity": "major",
         "where": "steps[3].content[0].items[0]",
         "current": "⏰ +30 дней — штраф 10 % от IUC",
-        "problem": "The late-payment penalty schedule is not a simple automatic 10% after 30 days. Late/non-payment of IUC is handled under tax offence and tax collection rules: coima, interest and possible enforcement apply, with reductions depending on voluntary payment and procedural stage. The stated percentages are not a reliable legal rule.",
-        "suggestion": "Replace the 10/20/30% ladder with: «При просрочке AT начисляет coima и проценты; размер зависит от суммы, срока, добровольной оплаты и стадии процесса. После уведомлений долг может перейти в cobrança coerciva.»",
+        "problem": "Incorrect penalty formula. IUC late penalties are not a statutory automatic 10% after 30 days.",
+        "suggestion": "Replace the whole staged list with: «После срока начисляются проценты и может быть открыто дело о налоговом правонарушении с coima; если долг не погашен, AT может передать его в cobrança coerciva/execução fiscal.»",
         "confidence": "high",
-        "source": "Regime Geral das Infrações Tributárias; Lei Geral Tributária; Código de Procedimento e de Processo Tributário"
+        "source": "RGIT; Lei Geral Tributária"
       },
       {
         "severity": "major",
         "where": "steps[3].content[0].items[1]",
         "current": "⏰ +60 дней — +20 %",
-        "problem": "Same issue: this percentage ladder is not the statutory way IUC late-payment penalties are calculated.",
-        "suggestion": "Remove and use the general coima/interest/enforcement wording instead of fixed percentages.",
+        "problem": "Incorrect penalty formula. There is no simple automatic +20% IUC surcharge at 60 days.",
+        "suggestion": "Remove this item and use the RGIT/interest/cobrança coerciva explanation instead.",
         "confidence": "high",
-        "source": "Regime Geral das Infrações Tributárias"
+        "source": "RGIT; Lei Geral Tributária"
       },
       {
         "severity": "major",
         "where": "steps[3].content[0].items[2]",
         "current": "⏰ +90 дней — +30 %",
-        "problem": "Same issue: this percentage ladder is not the statutory way IUC late-payment penalties are calculated.",
-        "suggestion": "Remove and use the general coima/interest/enforcement wording instead of fixed percentages.",
+        "problem": "Incorrect penalty formula. There is no simple automatic +30% IUC surcharge at 90 days.",
+        "suggestion": "Remove this item and explain that the amount depends on interest, coima and procedural stage.",
         "confidence": "high",
-        "source": "Regime Geral das Infrações Tributárias"
+        "source": "RGIT; Lei Geral Tributária"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[5]",
+        "current": "✅ План оплаты частями (parcelamento) — возможен для суммы > 102 €",
+        "problem": "The €102 threshold is not safely stated for IUC and may be outdated/misapplied. Instalment plans depend on whether the debt is already in cobrança coerciva/execução fiscal, the amount, guarantees and AT rules. A precise threshold needs an official source.",
+        "suggestion": "Write more cautiously: «Рассрочка может быть доступна через Portal das Finanças, особенно если долг уже в execução fiscal; условия зависят от суммы и статуса долга.»",
+        "confidence": "medium",
+        "source": "Autoridade Tributária — pagamento em prestações / execução fiscal rules"
       },
       {
         "severity": "critical",
-        "where": "steps[3].content[0].items[4]",
-        "current": "🚫 Блок DUA — не пройдёте IPO, не продадите машину",
-        "problem": "This repeats the misleading claim that unpaid IUC automatically blocks DUA, IPO and sale. IUC debt is normally enforced against the taxpayer through AT; IPO and transfer are not generally blocked merely because the seller has not paid IUC.",
-        "suggestion": "Replace with: «Риск — налоговое взыскание AT: coima, проценты, cobrança coerciva и penhora. Проверка IUC не является обычным условием IPO.»",
-        "confidence": "high",
-        "source": "Portal das Finanças; Regime Geral das Infrações Tributárias"
-      },
-      {
-        "severity": "major",
         "where": "steps[3].content[1].text",
-        "current": "При покупке б/у авто обязательно спросите у продавца IUC-comprovativo (подтверждение) за последние 3 года. Без него вы можете унаследовать долг.",
-        "problem": "Misleading. The buyer does not normally inherit the seller’s personal IUC tax debt for prior periods. It is sensible to ask for proof and ensure ownership transfer is correctly registered, but the key risk is becoming liable from the relevant registration/tax date after acquisition, not inheriting three years of seller debt.",
-        "suggestion": "Write: «При покупке б/у авто полезно попросить último comprovativo de IUC и проверить, что переоформление собственности зарегистрировано немедленно. Старые долги IUC обычно остаются за лицом, которое было обязано платить в соответствующий год; покупатель отвечает за IUC после регистрации на своё имя.»",
+        "current": "Без него вы можете унаследовать долг.",
+        "problem": "Wrong and contradicts the earlier warning that IUC is a personal tax debt of the taxpayer. A buyer does not normally inherit the seller’s existing IUC debt merely by buying the car. The real risk is if ownership was not properly registered or if the taxable event occurs while the buyer is already the registered holder.",
+        "suggestion": "Replace with: «Попросите comprovativo и проверьте регистрацию, но старый долг по IUC обычно остаётся долгом того, кто был зарегистрированным владельцем/держателем на дату возникновения налога. Покупатель рискует, если сделка/регистрация оформлены неправильно или новый IUC уже наступил после перехода регистрации.»",
         "confidence": "high",
-        "source": "Código do IUC, art. 3"
+        "source": "Código do IUC, art. 3; AT practice on taxable person"
       },
       {
         "severity": "major",
         "where": "steps[4].content[0].items[0]",
-        "current": "♿ Инвалиды ≥ 60 % — полное освобождение",
-        "problem": "Overstates the exemption. The disability exemption generally requires a certified disability degree of at least 60% and is subject to conditions and a monetary cap; where the IUC exceeds the cap, only part may be exempt. It is not always a full exemption for every vehicle.",
-        "suggestion": "Write: «♿ Pessoas com deficiência ≥ 60% — освобождение при соблюдении условий и обычно с годовым лимитом освобождения; если IUC выше лимита, разницу нужно платить. Требуется подтверждение/заявление в AT.»",
+        "current": "♿ Люди с инвалидностью ≥ 60 % — полное освобождение",
+        "problem": "Overbroad. Disability exemption has conditions: generally medical incapacity certificate, one vehicle, ownership/use rules, CO2 limits for category B vehicles and a monetary cap/excess may apply. It is not simply unlimited «full exemption» for any car.",
+        "suggestion": "Write: «Люди с инвалидностью ≥60% могут получить освобождение по одному автомобилю при соблюдении условий Código do IUC; для категории B действуют лимиты CO2, и освобождение ограничено установленным максимумом — превышение может оплачиваться.»",
+        "confidence": "high",
+        "source": "Código do IUC, art. 5"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[3]",
+        "current": "⚡ Электромобили категорий B/E — освобождение",
+        "problem": "Needs caveat. The exemption is for vehicles moved exclusively by electric energy; not all electrified vehicles in category B/E qualify. Hybrids and plug-in hybrids should not be grouped with pure EVs.",
+        "suggestion": "Write: «⚡ Полностью электрические транспортные средства — освобождение от IUC; гибриды/PHEV проверяются отдельно и обычно не получают такое же освобождение автоматически.»",
         "confidence": "high",
         "source": "Código do IUC, art. 5"
       },
@@ -144,62 +153,44 @@
         "severity": "major",
         "where": "steps[4].content[0].items[4]",
         "current": "🚗 Первый год для ветеранов и многодетных — скидка",
-        "problem": "This is likely wrong or at least unsupported. The Código do IUC has specific exemptions for certain entities/uses and persons with disabilities, but a generic “first-year discount for veterans and large families” is not a standard IUC rule. Large-family benefits are more associated with ISV/vehicle acquisition contexts, not a generic first-year IUC discount.",
-        "suggestion": "Remove unless a precise legal basis is provided. If intending to mention other benefits, specify the exact regime and whether it is ISV, IVA or IUC.",
-        "confidence": "high",
-        "source": "Código do IUC, art. 5"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[4].content[0].items[5]",
-        "current": "🏝️ Madeira и Açores — пониженные ставки на местные",
-        "problem": "Too vague. Autonomous Regions can have regional adaptations/reductions, but the guide should not imply a blanket lower IUC for all “locals” without specifying applicable vehicle categories, residence/registration requirements and regional legislation.",
-        "suggestion": "Write: «В Madeira/Açores могут действовать региональные ставки/адаптации. Проверяйте сумму в Portal das Finanças по конкретной matrícula и региональной регистрации.»",
+        "problem": "Misleading. Large-family IUC benefit is not merely a first-year discount; it is a specific reduction under conditions such as household composition, vehicle characteristics and CO2 limits. Former combatant/veteran benefits, where applicable, are also not accurately described as a generic first-year discount.",
+        "suggestion": "Split into separate bullets: «👨‍👩‍👧‍👦 Семьи с 3+ dependentes могут иметь 50% redução do IUC по одному автомобилю при соблюдении лимитов CO2/условий.» and «🎖️ Former combatants may have specific IUC exemption/benefit under their own rules; check AT before relying on it.»",
         "confidence": "medium",
-        "source": "Código do IUC; regional tax legislation of Madeira and Açores"
+        "source": "Código do IUC, art. 5 and annual State Budget rules; Estatuto do Antigo Combatente"
       },
       {
         "severity": "minor",
-        "where": "steps[2].content[0].items[4]",
-        "current": "🏦 Внутрибанковский перевод",
-        "problem": "This wording can confuse users. Portuguese tax payment is normally made using the payment reference through Multibanco/homebanking, MB Way where available, CTT or AT treasury services; a normal SEPA bank transfer to AT is not the usual method for IUC.",
-        "suggestion": "Replace with: «🏦 Homebanking/Multibanco по entidade + referência + montante»",
+        "where": "costs[2]",
+        "current": "Лёгкое > 2.0 л: 200–500",
+        "problem": "The upper bound is too low for many category B cars, especially high-CO2 large-engine diesels and post-2007 vehicles with environmental coefficients/diesel additions. The guide itself says «большой дизель — 300–700 €» in the TLDR, so the cost table contradicts it.",
+        "suggestion": "Change range to something like «200–700+» and add «точно смотрите в Portal das Finanças; CO2 and diesel supplements can move the amount sharply».",
         "confidence": "high",
-        "source": "Portal das Finanças — payment methods"
-      },
-      {
-        "severity": "minor",
-        "where": "tldr",
-        "current": "Просрочка — штраф 10–50 %.",
-        "problem": "Oversimplified and not aligned with the actual penalty system. It also contradicts the later 10/20/30% ladder.",
-        "suggestion": "Replace with: «Просрочка — coima, проценты и возможное cobrança coerciva/penhora; размер зависит от стадии и добровольной оплаты.»",
-        "confidence": "high",
-        "source": "Regime Geral das Infrações Tributárias"
+        "source": "Código do IUC rate tables; Portal das Finanças IUC simulator/payment"
       },
       {
         "severity": "minor",
         "where": "sources[0].url",
         "current": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/2007-34442375",
-        "problem": "The Código do IUC was approved by Lei n.º 22-A/2007, not by a Decreto-Lei. The DRE consolidated-law URL shown as “decreto-lei/2007” is suspicious and may point to the wrong consolidated act or be unstable.",
-        "suggestion": "Use the official consolidated version for «Lei n.º 22-A/2007 — Código do Imposto Único de Circulação» on dre.pt and label it as Lei, not Decreto-Lei.",
+        "problem": "Likely wrong/fragile DRE path: Código do IUC was approved by Lei n.º 22-A/2007, not a Decreto-Lei. The consolidated DRE/Diário da República URL should point to the consolidated Lei entry or to the current diariodarepublica.pt page.",
+        "suggestion": "Use the current consolidated law page for «Lei n.º 22-A/2007 — Código do IUC» on Diário da República, e.g. the diariodarepublica.pt consolidated legislation entry for Lei/2007/34442375, and verify the exact URL.",
         "confidence": "medium",
-        "source": "Lei n.º 22-A/2007"
+        "source": "Diário da República — Lei n.º 22-A/2007"
       }
     ],
     "missing_topics": [
-      "Explain that IUC liability is personal to the registered taxable person at the relevant due date; old seller debts are not normally inherited by the buyer.",
-      "Clarify imported used cars: Portuguese matrícula/payment month versus first registration date used for rate calculation.",
-      "Mention that category B calculation may include fuel type, CO₂, year coefficient and diesel additional components, not just engine size.",
-      "Add category D to the category overview.",
-      "Add a caveat that exact IUC should be checked in Portal das Finanças because annual tables and vehicle-specific data determine the amount.",
-      "Clarify disability exemption conditions and monetary cap instead of calling it always full.",
-      "Distinguish IUC from ISV and IVA for electric vehicles."
+      "Explicit distinction between category A and category B passenger cars: registration before/after 01.07.2007 and how CO2 applies",
+      "Diesel additional IUC component/surcharge for many diesel vehicles",
+      "Imported used cars: tax calculation may consider first EU/EEA registration because of EU-law compliance, while payment month normally follows Portuguese matrícula",
+      "One-vehicle and CO2/cap conditions for disability exemption",
+      "Large-family reduction conditions instead of calling it a first-year discount",
+      "Proper AT official source or direct Portal das Finanças path for IUC payment and payment channels",
+      "Clear warning that seller’s old IUC debt normally does not transfer to the buyer, but registration errors can create risk"
     ]
   },
   "usage": {
-    "completion_tokens": 4976,
-    "prompt_tokens": 2373,
-    "total_tokens": 7349
+    "completion_tokens": 5130,
+    "prompt_tokens": 2542,
+    "total_tokens": 7672
   },
   "model": "gpt-5.5"
 }

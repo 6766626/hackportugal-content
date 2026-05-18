@@ -1,0 +1,117 @@
+{
+  "guideId": "lar-residencias-idosos",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом практичный, но несколько раз вводит в заблуждение про «место через Segurança Social», проверку лицензии через Carta Social и использует неточный термин для судебного представительства взрослых.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«места делятся на социальные через Segurança Social/IPSS и полностью частные»",
+        "problem": "Формулировка создаёт впечатление, что Segurança Social распределяет места в ERPI как централизованную очередь. На практике места с acordo de cooperação обычно управляются самими IPSS/Misericórdias, а Segurança Social может участвовать в avaliação/acompanhamento social, encaminhamento в срочных случаях и надзоре, но это не универсальный механизм «получить место через Segurança Social».",
+        "suggestion": "Написать: «Места бывают с acordo de cooperação в IPSS/Misericórdias, где mensalidade рассчитывается по правилам comparticipação familiar, и частные/licensed места. В очередь обычно записываются напрямую в учреждение; Segurança Social/assistente social может помочь с avaliação и encaminhamento, особенно в случаях социального риска».",
+        "confidence": "high",
+        "source": "Instituto da Segurança Social; Portaria n.º 196-A/2015; Decreto-Lei n.º 64/2007"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1].content[0].items[1]",
+        "current": "«Выберите resposta social: Estrutura Residencial para Pessoas Idosas»",
+        "problem": "В Carta Social официальная категория обычно отображается во множественном числе как «Estrutura Residencial para Pessoas Idosas»/ERPI в рамках respostas sociais, но интерфейс и фильтры Carta Social могут меняться. Это не ошибка само по себе, но рядом с утверждением «проверяйте лицензию через Carta Social» становится проблемой: Carta Social — каталог, а не юридическое доказательство действующей licença de funcionamento.",
+        "suggestion": "Добавить: «Carta Social — хороший первый фильтр, но не заменяет проверку licença de funcionamento/authorização и entidade gestora. Попросите у учреждения номер licença/declaração emitida pelo Instituto da Segurança Social и проверьте совпадение NIPC, адреса и названия в договоре».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 64/2007; Portaria n.º 67/2012; Carta Social"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Проверяйте лицензию через Carta Social.»",
+        "problem": "Слишком сильное и потенциально опасное утверждение. Carta Social помогает найти зарегистрированные respostas sociais, но не является полноценной проверкой лицензии, условий работы, актуального статуса, санкций или соответствия договора юридическому лицу.",
+        "suggestion": "Заменить на: «Проверяйте учреждение в Carta Social, но дополнительно просите licença de funcionamento/номер autorização, contrato, NIPC юридического лица, Livro de Reclamações и recibos; при сомнениях уточняйте статус в Segurança Social/ISS по району».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 64/2007; Instituto da Segurança Social"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1].title",
+        "current": "«2. Записаться в Segurança Social»",
+        "problem": "Как общий шаг для получения социального места это может быть misleading. Для многих ERPI с acordo de cooperação запись в лист ожидания идёт напрямую в IPSS/Misericórdia; Segurança Social не всегда ведёт запись на конкретное место. Обращение в Segurança Social важно для social assessment, urgent social risk или orientação, но не заменяет заявлений в учреждения.",
+        "suggestion": "Переименовать в: «2. Подать заявки напрямую в IPSS/Misericórdias и при необходимости обратиться в Segurança Social». В тексте уточнить: «Segurança Social может провести avaliação/encaminhamento, но конкретные listas de espera часто ведут сами учреждения».",
+        "confidence": "high",
+        "source": "Instituto da Segurança Social; Portaria n.º 196-A/2015"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[11]",
+        "current": "«Procuração или court guardianship, если пожилой человек не может подписывать договор»",
+        "problem": "Термин «court guardianship» неточен для современной Португалии. После реформы 2018 года используется regime do maior acompanhado; прежние interdição/inabilitação были заменены. Также доверенность помогает только если она была выдана, пока человек был способен понимать её последствия.",
+        "suggestion": "Заменить на: «Procuração, выданная пока человек был дееспособен и понимал последствия, или решение суда о regime do maior acompanhado с указанием полномочий acompanhante подписывать договоры/управлять платежами».",
+        "confidence": "high",
+        "source": "Lei n.º 49/2018; Código Civil — regime do maior acompanhado"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[2].text",
+        "current": "«Нужна доверенность, оформленная заранее, или legal representation через суд.»",
+        "problem": "Смысл верный, но лучше использовать португальский юридический термин. «Legal representation через суд» для читателя недостаточно конкретно и может быть спутано с адвокатским представительством.",
+        "suggestion": "Написать: «...или судебное решение о regime do maior acompanhado, где назначенный acompanhante имеет полномочия подписывать договор ERPI и управлять соответствующими платежами».",
+        "confidence": "high",
+        "source": "Lei n.º 49/2018"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "«Приём в ERPI почти всегда means-tested: учреждение смотрит доходы и имущество пожилого человека, поддержку семьи, медицинские потребности и социальный риск.»",
+        "problem": "Для мест с acordo de cooperação действительно важна socio-economic assessment и comparticipação familiar, но для полностью частной ERPI admission обычно не является means-tested: учреждение скорее проверяет платёжеспособность, medical dependency и наличие ответственного лица. Формулировка «почти всегда» чрезмерно обобщает.",
+        "suggestion": "Разделить: «Для мест с acordo de cooperação mensalidade рассчитывается по доходам/составу agregado familiar и социальному риску. В частных ERPI usually нет means-test по правилам Segurança Social, но учреждение проверяет способность платить, medical dependency и документы ответственного лица».",
+        "confidence": "high",
+        "source": "Portaria n.º 196-A/2015; Portaria n.º 67/2012"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[0]",
+        "current": "«Социальное место через Segurança Social/IPSS: примерно 600–1 500 €/мес, сумма считается по доходам пожилого человека и семьи»",
+        "problem": "Фраза «доходам пожилого человека и семьи» слишком упрощает правила comparticipação. Обычно учитывается rendimento per capita do agregado familiar, а в ERPI также могут учитываться comparticipações de descendentes/outros familiares в установленных пределах и по regulamento da instituição. Это не просто произвольная оценка «доходов семьи».",
+        "suggestion": "Написать: «...mensalidade/comparticipação рассчитывается по regulamento da instituição и правилам Segurança Social: доходы utente/agregado familiar, расходы, степень зависимости и возможная comparticipação de familiares/descendentes».",
+        "confidence": "medium",
+        "source": "Portaria n.º 196-A/2015; regulamentos de comparticipações familiares das IPSS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[6]",
+        "current": "«Для частного места торгуйтесь по extras и caução, но не по базовой безопасности»",
+        "problem": "Практический совет допустим, но важно добавить юридическую caveat: caução, joia/inscrição и extras должны быть предусмотрены договором и recibo/fatura; некоторые учреждения берут non-refundable admission fee, что нужно явно отличать от refundable caução.",
+        "suggestion": "Добавить: «Отличайте caução возвращаемую от taxa de inscrição/joia невозвращаемой; всё должно быть в contrato и сопровождаться recibo/fatura на юридическое лицо».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 64/2007; Código do IVA/obrigações de faturação"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "«Segurança Social — respostas sociais para pessoas idosas», url: «https://www.seg-social.pt»",
+        "problem": "Ссылка слишком общая для чувствительной темы. Пользователь не попадёт напрямую на правила ERPI, licenciamento или comparticipações.",
+        "suggestion": "Заменить или дополнить конкретными страницами Segurança Social/ISS про «Pessoas Idosas», «Estrutura Residencial para Pessoas Idosas», «Licenciamento de respostas sociais» и/или PDF/guias ISS.",
+        "confidence": "high",
+        "source": "Instituto da Segurança Social"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: Segurança Social, Carta Social, ePortugal",
+        "problem": "Не хватает нормативных источников для утверждений о лицензировании, стандартах ERPI, договорах и comparticipação familiar. Для такой темы одних общих сайтов недостаточно.",
+        "suggestion": "Добавить нормативные источники: «Portaria n.º 67/2012, de 21 de março — condições de organização, funcionamento e instalação das ERPI»; «Decreto-Lei n.º 64/2007 — regime de licenciamento e fiscalização das respostas sociais»; «Portaria n.º 196-A/2015 — cooperação e comparticipações no setor social e solidário».",
+        "confidence": "high",
+        "source": "Portaria n.º 67/2012; Decreto-Lei n.º 64/2007; Portaria n.º 196-A/2015"
+      }
+    ],
+    "missing_topics": [
+      "Как подать жалобу: Livro de Reclamações físico/eletrónico, Instituto da Segurança Social/centro distrital, ERS только если речь о healthcare providers, и экстренно 112/PSP/GNR при насилии или neglect.",
+      "Разница между licença de funcionamento, inscrição в Carta Social и рекламным названием residência sénior.",
+      "Regime do maior acompanhado: когда нужен, кто может подать заявление, почему поздняя dementia делает обычную procuração проблемной.",
+      "Права резидента и семьи в ERPI: contrato escrito, regulamento interno, plano individual de cuidados, privacy, visits, medication records, recibos/faturas.",
+      "Краткая caveat для иностранцев: наличие ВНЖ/NIF/utente облегчает admission, но частные ERPI могут принимать иначе; доступ к социальным местам и apoio зависит от residência legal, avaliação social и правил конкретной IPSS."
+    ]
+  },
+  "model": "gpt-5.5"
+}

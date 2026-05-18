@@ -1,0 +1,90 @@
+{
+  "guideId": "audiologia-aparelhos-auditivos",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный по медицинской логике, но существенно упрощает и местами неверно описывает государственное финансирование слуховых аппаратов через SNS/SAPA и даёт неподтверждённые диапазоны доплаты.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Через SNS путь медленнее: médico de família → ORL → relatório/prescrição → pedido de produto de apoio; при одобрении comparticipação итоговая доплата часто падает до 500–1 500 €",
+        "problem": "Это звучит как стандартная 'comparticipação SNS' с типичной доплатой. Для слуховых аппаратов ключевой механизм — SAPA/produtos de apoio, где важны entidade prescritora, entidade financiadora, бюджет, предварительное одобрение и правила конкретного маршрута. Публичного гарантированного или официально 'типичного' диапазона доплаты 500–1 500 € нет.",
+        "suggestion": "Заменить на: «Государственный маршрут обычно идёт через prescrição de produto de apoio/SAPA: нужна оценка ORL/audiologia, prescrição/relatório, orçamento и предварительное решение entidade financiadora. При одобрении финансирование может существенно снизить личную оплату, но сумма не является тарифом SNS и зависит от одобренной модели, бюджета и правил финансирующей организации».",
+        "confidence": "high",
+        "source": "INR — Produtos de apoio / SAPA; Decreto-Lei n.º 93/2009"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].text",
+        "current": "На практике это дольше, но может снизить личную доплату с частных 1 500–3 500 € за ухо до примерно 500–1 500 € или даже меньше, если субсидия одобрена и есть бюджет.",
+        "problem": "Диапазон 500–1 500 € представлен как практическая норма, но он не выводится из официальных правил SAPA. В реальности одобренная сумма может покрыть большую часть/всю утверждённую стоимость или, наоборот, человек может получить отказ, ждать бюджета или доплачивать больше за более дорогую модель.",
+        "suggestion": "Писать без конкретного 'типичного' диапазона либо явно маркировать как anecdotal: «После одобрения SAPA/социального финансирования личная оплата может быть намного ниже частной цены, но заранее её нельзя рассчитать без prescrição, orçamento и решения entidade financiadora».",
+        "confidence": "high",
+        "source": "INR — Produtos de apoio / SAPA"
+      },
+      {
+        "severity": "major",
+        "where": "costs[3]",
+        "current": "Доплата после comparticipação — amountEURMin: 500, amountEURMax: 1500; note: Типичный практический диапазон при одобренной поддержке",
+        "problem": "Для SAPA нет универсальной рыночной 'доплаты после comparticipação'. Таблица создаёт ожидание конкретной цены после господдержки, что может привести к неверному финансовому планированию.",
+        "suggestion": "Заменить строку на диапазон без чисел или с amountEURMin/Max = null, если формат позволяет: «После одобрения SAPA/entidade financiadora: зависит от утверждённого orçamento, лимитов, бюджета и выбранной модели; покупать до письменного решения рискованно».",
+        "confidence": "high",
+        "source": "INR — Produtos de apoio / SAPA"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[3].content[0].text",
+        "current": "Заявки могут идти через entidades prescritoras/financiadoras, включая SNS и Segurança Social, в зависимости от ситуации. На практике спросите у ORL и в административной службе больницы, какой именно маршрут действует в вашем ACES/ULS.",
+        "problem": "Фраза слишком расплывчата для критически важного процесса. Нужно явно сказать, что prescrição должна идти через признанную entidade prescritora/систему SAPA, а заявка и покупка должны соответствовать правилам финансирующей организации; обычный частный orçamento после покупки не равен праву на возмещение.",
+        "suggestion": "Добавить: «Проверьте, что врач/служба является entidade prescritora de produtos de apoio и что pedido подан до покупки. Для Segurança Social обычно понадобятся prescrição, orçamentos и документы заявителя; решение принимает entidade financiadora, а не магазин слуховых аппаратов».",
+        "confidence": "high",
+        "source": "INR — Produtos de apoio / SAPA; Segurança Social — Produtos de apoio"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[2].items",
+        "current": "Número de utente SNS; NIF; Документ: ВНЖ, Cartão de Cidadão, паспорт с визой или другой документ законного пребывания ... IBAN ... Подтверждение доходов может понадобиться",
+        "problem": "Список документов неполный для социального маршрута: для заявок через Segurança Social обычно могут понадобиться NISS, подтверждение fiscal/contributiva regularizada, declaração de não financiamento por outra entidade, orçamentos и другие формы. Сейчас создаётся впечатление, что достаточно utente/NIF/ВНЖ.",
+        "suggestion": "Добавить отдельный пункт: «Для маршрута через Segurança Social/SAPA заранее уточните NISS, situação contributiva/fiscal regularizada, formulário/prescrição SAPA, 1–3 orçamentos, declaração de que o produto não foi financiado por outra entidade и другие документы, которые запросит Centro Distrital».",
+        "confidence": "medium",
+        "source": "Segurança Social — Produtos de apoio"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1].note",
+        "current": "через SNS оплачивается по правилам SNS и обычно дешевле, но ждать дольше.",
+        "problem": "С 2022 года плановые consultas и большинство актов в SNS в целом освобождены от taxas moderadoras; формулировка 'обычно дешевле' слишком слабая и не объясняет исключение для urgência без направления/без госпитализации.",
+        "suggestion": "Заменить на: «В SNS плановые consultas обычно без taxa moderadora; ждать может быть дольше. Taxas moderadoras в основном сохраняются для urgência без направления SNS/INEM и без последующей госпитализации, с исключениями для льготных групп».",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[6]",
+        "current": "Для IRS сохраняйте fatura com NIF: медицинские расходы могут учитываться в deduções à coleta по общим правилам",
+        "problem": "Верно в общем, но не хватает важной практической оговорки: в e-Fatura расходы на saúde с обычной ставкой IVA требуют receita médica для вычета; медицинские расходы обычно дают 15% deduction с годовым лимитом. Для слуховых аппаратов ставка/классификация зависит от фактуры и поставщика.",
+        "suggestion": "Написать: «Сохраняйте fatura com NIF и проверяйте e-Fatura. Saúde обычно учитывается в IRS по ставке 15% расходов до установленного лимита; если расход с IVA 23%, может потребоваться receita médica для подтверждения как saúde».",
+        "confidence": "high",
+        "source": "Autoridade Tributária — IRS despesas de saúde / e-Fatura"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "DGS — informação de saúde auditiva и orientação clínica pública; https://www.dgs.pt",
+        "problem": "Ссылка слишком общая и не подтверждает конкретные утверждения о внезапной потере слуха, ORL-маршруте или слуховых аппаратах. Для медицинских предупреждений лучше добавить более точный источник.",
+        "suggestion": "Оставить DGS как общий источник, но добавить конкретный источник по sudden sensorineural hearing loss / urgência ORL, например guideline или страницу hospital/SNS с рекомендацией срочной оценки при внезапной потере слуха.",
+        "confidence": "medium",
+        "source": "DGS / SNS 24"
+      }
+    ],
+    "missing_topics": [
+      "Чёткое различие между SAPA/produtos de apoio, ADSE/seguradoras и обычной частной скидкой магазина",
+      "Уточнение, что pedido de produto de apoio должен быть предварительным: покупка до письменного решения может лишить права на финансирование",
+      "Документы и условия для Segurança Social/SAPA: NISS, situação fiscal/contributiva, formulário/prescrição, orçamentos, возможные дополнительные декларации",
+      "Практическая оговорка по IRS/e-Fatura: лимиты dedução de saúde и необходимость receita médica для расходов с IVA 23%",
+      "Более конкретный официальный медицинский источник по внезапной потере слуха и необходимости срочной ORL/urgência"
+    ]
+  },
+  "model": "gpt-5.5"
+}

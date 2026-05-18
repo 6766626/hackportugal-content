@@ -1,0 +1,84 @@
+{
+  "guideId": "apple-pay-google-pay-pt",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate for daily use, but it overstates acceptance, uses confusing Multibanco/POS wording, and lacks precise official sources/caveats for bank support and MB WAY.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Apple Pay и Google Pay работают везде, где терминал принимает contactless»",
+        "problem": "Too absolute. Apple Pay/Google Wallet payments are tokenised card payments over the relevant card scheme, typically Visa/Mastercard. A contactless symbol alone does not guarantee that a terminal/acquirer/merchant accepts the card scheme, foreign-issued cards, mobile-wallet tokens, or online wallet checkout. In Portugal some merchants still describe acceptance as “Multibanco” and may not accept all Visa/Mastercard or international cards.",
+        "suggestion": "Write: «Apple Pay и Google Wallet обычно работают на POS/TPA-терминалах, которые принимают бесконтактные Visa/Mastercard вашей карты; в редких случаях терминал, эквайер или продавец может не принять конкретную карту/кошелёк.»",
+        "confidence": "high",
+        "source": "Banco de Portugal — pagamentos contactless; Apple Pay participating banks/cards; Google Wallet supported payment methods"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[5]",
+        "current": "«Multibanco-терминалы нового типа — если включён contactless у конкретного эквайера»",
+        "problem": "Confusing terminology. In Portugal “Multibanco” often means the SIBS ATM/service-payment network, while card-acceptance terminals in shops are POS/TPA. Apple Pay/Google Wallet are for card-present POS payments, not for most Multibanco ATM/service-payment operations. Contactless ATMs or Multibanco-branded infrastructure should not be presented as a normal Apple Pay/Google Pay acceptance case.",
+        "suggestion": "Replace with: «POS/TPA-терминалы в магазинах — если они принимают бесконтактные Visa/Mastercard. Для операций Multibanco вроде entidade + referência, pagamentos ao Estado и некоторых ATM-сценариев обычно нужны MB WAY, карта или приложение банка.»",
+        "confidence": "high",
+        "source": "SIBS / MB WAY; Banco de Portugal payment terminology"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].text",
+        "current": "«многие бытовые платежи — luz, água, telecomunicações, impostos — идут через entidade + referência в Multibanco/MB WAY»",
+        "problem": "Mostly right for utility/service bills, but misleading for taxes. Portuguese tax payments are often made via “Pagamentos ao Estado” / Documento Único de Cobrança / AT payment reference, not always via the ordinary entidade + referência flow used for service payments.",
+        "suggestion": "Write: «luz, água, telecomunicações часто оплачиваются через entidade + referência; налоги и сборы — через Pagamentos ao Estado/AT или специальную referência de pagamento. Apple Pay/Google Wallet это не заменяют.»",
+        "confidence": "high",
+        "source": "Autoridade Tributária — pagamentos; Banco de Portugal/SIBS Multibanco payment categories"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items",
+        "current": "List of banks: «CGD, Millennium bcp, Santander Portugal, ActivoBank, Banco Best, Revolut, Wise, N26, Openbank…»",
+        "problem": "The wording is appropriately cautious, but support for Apple Pay and Google Wallet changes by issuer, card network, card type and country of issuance. Because this is a sensitive practical claim, the guide should cite the official Apple and Google supported-bank/card lists or the banks’ own pages, not only generic Apple/Google home/support URLs.",
+        "suggestion": "Add a sentence and sources: «Перед открытием счёта проверяйте актуальные списки Apple Pay / Google Wallet и страницу конкретного банка: поддержка зависит от продукта карты.» Use official participating-bank/card pages for Apple Pay and Google Wallet plus bank pages for CGD, Millennium bcp, Santander, ActivoBank and Banco Best.",
+        "confidence": "high",
+        "source": "Apple — Bancos participantes no Apple Pay; Google Wallet Help — supported payment methods/banks"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "«Apple Support Portugal — Apple Pay, настройка и использование», url: «https://support.apple.com/pt-pt»",
+        "problem": "The URL is too generic for the claims being made. It does not directly substantiate Portuguese Apple Pay bank/card support or setup instructions.",
+        "suggestion": "Use direct Apple Support pages for Apple Pay setup/use and the participating banks/cards list for Portugal, rather than the generic support landing page.",
+        "confidence": "high",
+        "source": "Apple Support — Apple Pay setup/use; Apple Support — participating banks in Europe/Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "«Google Pay / Google Wallet — справка и поддерживаемые способы оплаты», url: «https://pay.google.com»",
+        "problem": "The URL is too generic and does not directly verify Portuguese Google Wallet contactless support or issuer/card eligibility.",
+        "suggestion": "Use direct Google Wallet Help pages for supported countries/payment methods and contactless setup/troubleshooting, plus issuer pages where needed.",
+        "confidence": "high",
+        "source": "Google Wallet Help — supported payment methods; Google Wallet Help — pay contactless"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].text",
+        "current": "«MB WAY — местная система SIBS, привязанная к португальскому номеру телефона и банковской карте.»",
+        "problem": "Potentially too rigid without caveat. In practice MB WAY requires association with a mobile number and a participating Portuguese bank/card, and a Portuguese mobile number is the normal/expected setup path, but exact acceptance of non-Portuguese numbers can depend on the bank/app flow.",
+        "suggestion": "Write: «MB WAY — система SIBS, привязанная к мобильному номеру и карте/счёту участвующего банка; на практике для экспатов обычно проще использовать португальский номер +351, но детали зависят от банка.»",
+        "confidence": "medium",
+        "source": "MB WAY official FAQ; participating bank onboarding rules"
+      }
+    ],
+    "missing_topics": [
+      "MB WAY fees and limits are bank-dependent; transfers/payments may have limits and, in some cases, bank commissions.",
+      "For Apple Pay/Google Wallet acceptance, distinguish POS/TPA card payments from Multibanco service payments, ATM operations and MB WAY flows.",
+      "Add direct official Apple/Google supported-bank/card sources and direct bank pages for the listed Portuguese banks."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3616,
+    "prompt_tokens": 3332,
+    "total_tokens": 6948
+  },
+  "model": "gpt-5.5"
+}

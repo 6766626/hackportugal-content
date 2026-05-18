@@ -1,0 +1,103 @@
+{
+  "guideId": "anexo-j-contas-estrangeiras",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом правильно описывает Quadro 11, но есть несколько существенных неточностей: штрафы указаны слишком узко, обязанность для уполномоченных/beneficiários раскрыта недостаточно, а ссылка на LGT выглядит неверной.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].text",
+        "current": "После срока возможны штрафы по RGIT за неточную или неполную декларацию; типовой диапазон за нарушения декларационных обязанностей — от 150 € до 3 750 €",
+        "problem": "Диапазон 150–3 750 € относится в основном к неподаче/просрочке деклараций по art. 116.º RGIT. Для неточностей и пропусков в декларации чаще релевантен art. 119.º RGIT, где базовый диапазон существенно выше — 375–22 500 €. Указанный текст может создать ложное ощущение, что максимальный риск всегда 3 750 €.",
+        "suggestion": "Написать: «После срока возможны coimas по RGIT. За неподачу/просрочку декларации ориентир по art. 116.º RGIT — 150–3 750 €, а за omissões/inexatidões в декларации может применяться art. 119.º RGIT — 375–22 500 €, с возможными сокращениями при добровольной regularização и в зависимости от обстоятельств».",
+        "confidence": "high",
+        "source": "RGIT arts. 116.º and 119.º"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "\"label\": \"Возможный штраф за неполную/неточную декларацию\", \"amountEURMin\": 150, \"amountEURMax\": 3750",
+        "problem": "Для именно «неполной/неточной декларации» диапазон 150–3 750 € некорректно привязан к wrong offence type. Это может быть не art. 116.º RGIT, а art. 119.º RGIT с диапазоном 375–22 500 €.",
+        "suggestion": "Либо переименовать label в «Возможный штраф за неподачу/просрочку декларации» и оставить 150–3 750 €, либо для неполной/неточной декларации указать 375–22 500 € с примечанием о возможных сокращениях и discretionary assessment by AT.",
+        "confidence": "high",
+        "source": "RGIT arts. 116.º and 119.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[6]",
+        "current": "Если вы только авторизованный пользователь или представитель, а не владелец, проверьте формулировку банка и свою роль: art. 63.º-A охватывает существование и идентификацию счетов, связанных с налогоплательщиком",
+        "problem": "Слишком мягкая формулировка. Art. 63.º-A LGT прямо охватывает не только titulares, но также beneficiários и лиц, которые estão autorizados a movimentar contas. То есть authorised signatory / authorised to move account can be reportable even without ownership.",
+        "suggestion": "Написать конкретнее: «Art. 63.º-A LGT охватывает счета, по которым налогоплательщик является titular, beneficiário или имеет полномочие movimentar a conta. Поэтому authorised signatory/mandatário по иностранному счёту нужно отдельно проверять и часто декларировать, даже если деньги не ваши».",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 63.º-A"
+      },
+      {
+        "severity": "major",
+        "where": "sources[1].url",
+        "current": "https://dre.pt/dre/legislacao-consolidada/decreto-lei/1988-34464575",
+        "problem": "Ссылка выглядит неверной: Lei Geral Tributária утверждена Decreto-Lei n.º 398/98, de 17 de dezembro, а не актом 1988 года. Такой URL с '/1988/' вероятно ведёт не туда или является ненадёжной ссылкой для LGT.",
+        "suggestion": "Заменить на актуальную consolidated DRE-ссылку для «Decreto-Lei n.º 398/98, de 17 de dezembro — Lei Geral Tributária» или на официальный текст через dre.pt с проверенным ELI/legislação consolidada URL.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 398/98, de 17 de dezembro"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Практически нужны три вещи: страна финансового учреждения, IBAN счёта и BIC/SWIFT.",
+        "problem": "Для обычных банковских счетов это верно, но для некоторых securities/brokerage accounts может не быть индивидуального IBAN. Quadro 11 всё равно касается contas de títulos, но пользователю может потребоваться BIC/идентификация счёта согласно инструкциям Anexo J, а не «придумывать» IBAN или использовать omnibus deposit details. Следующее warning частично это исправляет, но основной текст звучит слишком категорично.",
+        "suggestion": "Смягчить: «Обычно нужны страна финансового учреждения, IBAN, если он существует/применим, и BIC/SWIFT. Для брокерских contas de títulos сверяйтесь с tax statement и инструкциями Anexo J; не используйте реквизиты omnibus-счёта для пополнения, если это не ваш счёт».",
+        "confidence": "medium",
+        "source": "Instruções de preenchimento do Anexo J, Quadro 11"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[2]",
+        "current": "Страна учреждения: Германия для DE IBAN, Литва для LT IBAN, Бельгия для BE IBAN и т.д.",
+        "problem": "В большинстве случаев страна IBAN совпадает со страной счёта/учреждения, но формально в Quadro 11 указывается país da localização da instituição/conta. У некоторых финтехов и брокеров структура может быть неочевидной, и автоматическое правило «страна = первые две буквы IBAN» может ошибочно применяться в edge cases.",
+        "suggestion": "Написать: «Обычно страна совпадает с префиксом IBAN — DE, LT, BE и т.д., но ориентируйтесь на account details/statement и страну финансового учреждения/филиала, указанную провайдером».",
+        "confidence": "medium",
+        "source": "Instruções de preenchimento do Anexo J, Quadro 11"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[0]",
+        "current": "Проценты по Wise Interest, Revolut Savings или банковскому депозиту — обычно rendimento de capitais",
+        "problem": "Wise Interest/Revolut Savings не всегда являются обычным банковским депозитом с процентами; в зависимости от продукта и страны они могут быть money market fund / investment product. Налоговая квалификация может отличаться от простых банковских процентов.",
+        "suggestion": "Добавить caveat: «Проверьте tax report продукта: некоторые Wise/Revolut “interest/savings” продукты юридически являются инвестициями в фонд/MMF, а не банковским депозитом; классификация дохода и место в декларации могут отличаться».",
+        "confidence": "medium",
+        "source": "Provider tax statements; Código do IRS category E/G rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[6]",
+        "current": "Скриншот реквизитов счёта на 31 декабря и PDF statement — храните минимум 4 года",
+        "problem": "4 года — хороший общий минимум для IRS, но для иностранных активов/доходов есть важные caveats: сроки caducidade/prescrição и проверок могут быть дольше в отдельных случаях, особенно при доходах/счетах в юрисдикциях с privileged tax regime или при нерегулярном декларировании.",
+        "suggestion": "Написать: «Храните минимум 4 года, а по иностранным брокерским счетам, tax reports, сделкам и счетам в low-tax/privileged jurisdictions — лучше 10–12 лет, потому что сроки проверки могут быть длиннее в специальных случаях».",
+        "confidence": "medium",
+        "source": "LGT art. 45.º"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "Portal das Finanças — entrega da declaração IRS Modelo 3 — https://www.portaldasfinancas.gov.pt/at/html/index.html",
+        "problem": "Это generic homepage, а не источник для срока подачи IRS или инструкций по Modelo 3/Anexo J. Для tax guide лучше давать точную официальную страницу/инструкцию, иначе источник почти непроверяем.",
+        "suggestion": "Заменить или дополнить точной ссылкой на официальную страницу AT с IRS 2025/Modelo 3, prazo de entrega, или PDF «Instruções de preenchimento da declaração Modelo 3 — Anexo J».",
+        "confidence": "high",
+        "source": "Portal das Finanças / AT — IRS Modelo 3 instructions"
+      }
+    ],
+    "missing_topics": [
+      "Явное указание, что art. 63.º-A LGT включает titulares, beneficiários и pessoas autorizadas a movimentar contas, а не только владельцев.",
+      "Короткое объяснение, что declaração de substituição после 30 июня может иметь разные последствия в зависимости от того, меняется ли налог к уплате/возврату и была ли уже liquidação.",
+      "Caveat по Wise/Revolut savings/interest: это может быть не банковский депозит, а инвестиционный продукт, поэтому tax classification надо брать из tax statement.",
+      "Более точная ссылка на официальные инструкции Anexo J/Modelo 3 для конкретного налогового года."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3970,
+    "prompt_tokens": 3845,
+    "total_tokens": 7815
+  },
+  "model": "gpt-5.5"
+}

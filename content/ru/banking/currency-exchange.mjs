@@ -131,7 +131,7 @@ export default {
           '💸 **Усреднение**: разбить большую сумму на 3-5 порций, обменивать в течение 2-4 нед',
           '🏦 **Сохраняйте чеки** обмена — для AT, если потребуется',
           '🛡️ **Защита от санкций**: не держать большие суммы в одном банке/одной валюте',
-          '⚖️ **Декларация AT**: иностранные счета >50 000 € — обязательная декларация Modelo 38',
+          '⚖️ **Декларация AT**: иностранные банковские счета резидента Португалии декларируются в годовой **Modelo 3 IRS, Anexo J, Quadro 11** (IBAN + страна), а НЕ в Modelo 38. Modelo 38 — отдельная отчётность для финансовых учреждений Португалии о переводах резидентов в страны вне ЕС, а не для физлиц. Никакого «порога 50 000 €» для физлиц-резидентов не существует — Anexo J Quadro 11 обязателен независимо от баланса',
           '📊 **Португальский IRS**: курсовая разница на валютных операциях — налогооблагается как «mais-valias» (28%)',
           '⚠️ **Налоговый резидент**: если вы стали резидентом Португалии и продали активы за рубежом — IRS на разницу',
           '🌐 **Регулятор CMVM**: брокер должен быть лицензирован в EU; проверить cmvm.pt',
@@ -166,8 +166,8 @@ export default {
   sources: [
     { title: 'Banco de Portugal — Comparador de comissões', url: 'https://comparador.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CMVM — регулируемые брокеры', url: 'https://www.cmvm.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Autoridade Tributária — Modelo 38 (счета за рубежом)', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Autoridade Tributária — IRS Anexo J (иностранные доходы и счета)', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-18' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

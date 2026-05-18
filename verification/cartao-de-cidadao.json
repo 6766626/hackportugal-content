@@ -2,223 +2,84 @@
   "guideId": "cartao-de-cidadao",
   "categoryId": "documents_fiscal",
   "verdict": {
-    "verdict": "major_issues",
-    "summary": "Гайд полезен по теме, но содержит несколько существенных фактических ошибок: кто может получить CC, сроки/обязательность для новорождённых, функциональность Título de Residência, сроки изготовления, потеря/кража и ссылки на официальные страницы.",
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate, but it overgeneralizes Brazilian Estatuto de Igualdade cases and gives generic urgent-fee figures that are only correct for 10-year cards.",
     "issues": [
       {
         "severity": "major",
-        "where": "title",
-        "current": "Cartão de Cidadão (удостоверение гражданина Португалии) — для резидентов и граждан",
-        "problem": "Заголовок вводит в заблуждение: Cartão de Cidadão — документ гражданина Португалии, а не общий документ для резидентов. Иностранные резиденты в обычном случае получают Título de Residência, не CC. Есть отдельные исключения для бразильцев с Estatuto de Igualdade, но это не общий режим для резидентов.",
-        "suggestion": "Написать: «Cartão de Cidadão — удостоверение гражданина Португалии; иностранным резидентам обычно нужен Título de Residência»",
+        "where": "steps[0].content[0].items[3]",
+        "current": "Отдельные исключения: граждане Бразилии со статусом равенства прав (Estatuto de Igualdade) могут получить CC",
+        "problem": "This is true but incomplete in a way that can mislead: a Brazilian citizen with Estatuto de Igualdade may obtain a Cartão de Cidadão under the Porto Seguro regime, but this does not make them a Portuguese citizen, does not make the CC a Portuguese-national travel document, and voting rights require the separate political-rights equality status where applicable.",
+        "suggestion": "Write: \"Исключение: граждане Бразилии с Estatuto de Igualdade de Direitos e Deveres по Tratado de Porto Seguro могут запросить Cartão de Cidadão, но это не означает гражданство Португалии; такая карта не является доказательством португальского гражданства/проездным документом гражданина PT, а политические права требуют отдельного Estatuto de Igualdade de Direitos Políticos.\"",
         "confidence": "high",
-        "source": "ePortugal / IRN — Cartão de Cidadão"
+        "source": "IRN — Estatuto de Igualdade de Direitos e Deveres; Tratado de Porto Seguro / Decreto-Lei n.º 154/2003"
       },
       {
-        "severity": "major",
-        "where": "tldr",
-        "current": "Cartão de Cidadão (CC) — многофункциональное удостоверение: паспорт внутри PT + NIF + NISS + utente + биометрический документ + цифровая подпись.",
-        "problem": "«Паспорт внутри PT» — некорректная формулировка. CC — национальное удостоверение личности и проездной документ для поездок в ЕС/ЕЭЗ/Швейцарию и некоторые другие страны, но не паспорт и не универсальная замена паспорту. Также NIF/NISS/utente не всегда «создаются» картой: карта может отображать/связывать уже существующие номера.",
-        "suggestion": "Написать: «CC — национальное удостоверение личности гражданина Португалии; может использоваться как travel document в ЕС/ЕЭЗ/Швейцарии и в ряде стран, где он признаётся; содержит/связывает гражданские, налоговые, соцстраховые и SNS-идентификаторы, если они присвоены.»",
-        "confidence": "high",
-        "source": "ePortugal — Cartão de Cidadão; Regulamento (UE) 2019/1157"
-      },
-      {
-        "severity": "major",
-        "where": "tldr",
-        "current": "иностранные резиденты получают equivalent — Título de Residência (ВНЖ).",
-        "problem": "Título de Residência не является полноценным «equivalent» CC: обычно не содержит NIF/NISS/utente, не даёт гражданскую цифровую подпись CC, не является документом гражданина ЕС для свободных поездок как CC, и имеет другую правовую функцию — подтверждение права проживания.",
-        "suggestion": "Написать: «Иностранные резиденты получают Título de Residência — это документ о праве проживания, но он не является полным аналогом CC и не заменяет CC-функции цифровой подписи/гражданского удостоверения.»",
-        "confidence": "high",
-        "source": "AIMA — Título de Residência; ePortugal — Cartão de Cidadão"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[1]",
-        "current": "Дети граждан (с рождения — maternity card → CC с 6-9 мес)",
-        "problem": "Неверно. CC обязателен для граждан Португалии с 20-го дня после регистрации рождения; его можно оформить сразу при регистрации рождения, в том числе через serviço Nascer Cidadão. Нет правила «CC с 6–9 месяцев». «maternity card» не является временной заменой Cartão de Cidadão.",
-        "suggestion": "Написать: «Дети-граждане Португалии: CC обязателен с 20-го дня после регистрации рождения; его можно запросить при регистрации рождения / через Nascer Cidadão.»",
-        "confidence": "high",
-        "source": "ePortugal — Pedir o Cartão de Cidadão para recém-nascido / Nascer Cidadão"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].items[2]",
-        "current": "Иностранные резиденты НЕ получают CC — у них Título de Residência (ВНЖ-карточка) с той же функциональностью для большинства целей",
-        "problem": "Вторая часть неверна: Título de Residência не имеет той же функциональности для большинства целей. Для идентификации перед органами и подтверждения резидентства — да; для eID/цифровой подписи CC, голосования как гражданин, travel document как гражданин ЕС, связки NIF/NISS/utente — нет. Также абсолютное «не получают» требует оговорки про специальные режимы для граждан Бразилии с Estatuto de Igualdade.",
-        "suggestion": "Написать: «Иностранные резиденты обычно не получают CC; их основной документ в Португалии — Título de Residência. Он подтверждает право проживания, но не является полным аналогом CC. Отдельные исключения возможны для граждан Бразилии со статусом равенства прав.»",
-        "confidence": "high",
-        "source": "ePortugal — Cartão de Cidadão; Tratado de Porto Seguro / Estatuto de Igualdade"
-      },
-      {
-        "severity": "major",
+        "severity": "minor",
         "where": "steps[1].content[0].items[0]",
-        "current": "Паспорт для внутренних PT поездок и внутри ЕС (заменяет паспорт в Шенгене)",
-        "problem": "CC не является «паспортом». Для поездок внутри Португалии паспорт не требуется как travel document; CC — удостоверение личности. Для Шенгена/ЕС он может использоваться португальскими гражданами как удостоверение личности для пересечения границ, но не «заменяет паспорт» во всех странах и ситуациях.",
-        "suggestion": "Написать: «Удостоверение личности гражданина PT; принимается как travel document для поездок в ЕС/ЕЭЗ/Швейцарию и некоторые другие страны, но для поездок за пределы этих режимов нужен паспорт.»",
+        "current": "Удостоверение личности гражданина PT; принимается как travel document для поездок в ЕС/ЕЭЗ/Швейцарию и ряд стран.",
+        "problem": "Correct for Portuguese citizens, but in this guide the same document also mentions Brazilian equality-status holders who can have a CC. For them this travel-document statement should not be read as applying.",
+        "suggestion": "Add a caveat: \"Это относится к CC гражданина Португалии; CC, выданный гражданину Бразилии по Estatuto de Igualdade, не заменяет паспорт/проездной документ гражданина Бразилии.\"",
         "confidence": "high",
-        "source": "ePortugal — Viajar com Cartão de Cidadão; EU rules on national identity cards"
+        "source": "IRN — Cartão de Cidadão; MNE travel documents guidance"
       },
       {
         "severity": "minor",
-        "where": "steps[1].content[0].items[4]",
-        "current": "Биометрический: отпечатки, фото",
-        "problem": "Фраза слишком общая: отпечатки пальцев собираются не для всех возрастов. Для детей младшего возраста применяются исключения.",
-        "suggestion": "Уточнить: «Биометрический: фото; отпечатки пальцев — в предусмотренных законом случаях/обычно с установленного минимального возраста.»",
-        "confidence": "medium",
-        "source": "Regulamento (UE) 2019/1157; IRN — Cartão de Cidadão"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[0].items[0].content[0].text",
-        "current": "Регистрация в Conservatória do Registo Civil → автоматическое оформление CC на 5 лет. В первые 6-9 мес — temporary maternity card.",
-        "problem": "CC не оформляется «автоматически» просто от регистрации рождения: его нужно запросить, хотя это можно сделать при регистрации рождения. «temporary maternity card» как временный CC — некорректно. Возраст 6–9 месяцев неверен: CC обязателен с 20-го дня после регистрации рождения.",
-        "suggestion": "Написать: «После регистрации рождения CC нужно запросить отдельно; часто это делают сразу через Nascer Cidadão/Conservatória. Для гражданина PT документ обязателен с 20-го дня после регистрации рождения. Для детей до 25 лет срок действия — 5 лет.»",
+        "where": "steps[1].content[0].items[7]",
+        "current": "Голосование на выборах (для граждан Португалии)",
+        "problem": "For Portuguese citizens this is fine, but because the guide explicitly lists Brazilian Estatuto de Igualdade holders as possible CC holders, it should clarify that a CC alone does not confer voting rights on non-citizens; Brazilian citizens need the relevant political-rights equality status and electoral registration where applicable.",
+        "suggestion": "Write: \"Голосование — для граждан Португалии; для граждан Бразилии с Estatuto de Igualdade права зависят от наличия Estatuto de Igualdade de Direitos Políticos и регистрации в recenseamento eleitoral.\"",
         "confidence": "high",
-        "source": "ePortugal — Nascer Cidadão; ePortugal — Pedir o Cartão de Cidadão"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[2].content[0].items[1].content[0].text",
-        "current": "После получения гражданства (IRN одобряет) → запись на CC в IRN или Loja de Cidadão → биометрия + фото → через 30 дней CC приходит.",
-        "problem": "Натурализация не заканчивается просто «IRN одобряет»: гражданство становится практически оформленным после регистрации рождения/национальности в Registo Civil. Кроме того, «через 30 дней» обычно завышено для обычного заказа в Португалии; стандартный срок чаще указывается в рабочих днях, а не 30 календарных дней.",
-        "suggestion": "Написать: «После завершения процесса гражданства и регистрации в Registo Civil можно запросить первый CC в IRN/Loja de Cidadão/консульстве. Срок зависит от типа заказа: normal, urgente, extremamente urgente и места получения.»",
-        "confidence": "medium",
-        "source": "IRN — Nacionalidade; IRN/ePortugal — Pedir Cartão de Cidadão"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[0].content[0].text",
-        "current": "CC действует 10 лет (5 для детей).",
-        "problem": "Формулировка неточная: стандартное правило — 5 лет для лиц младше 25 лет и 10 лет для лиц от 25 лет, а не просто «для детей». Человек 18–24 лет уже не ребёнок, но CC всё равно обычно действует 5 лет.",
-        "suggestion": "Написать: «Срок действия: 5 лет для граждан младше 25 лет; 10 лет для граждан от 25 лет.»",
-        "confidence": "high",
-        "source": "IRN/ePortugal — Validade do Cartão de Cidadão"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[3].content[0].items[1].content[0].text",
-        "current": "Запись на eportugal.gov.pt → выбрать Espaço Cidadão или IRN → прийти с текущим CC + подтверждением адреса → биометрия + фото → 30 дней на получение.",
-        "problem": "Не все Espaço Cidadão выполняют полный набор операций по CC; многие услуги зависят от типа заказа и наличия биометрии. «Подтверждение адреса» не всегда требуется при обычном продлении без изменения адреса. «30 дней» как общий срок misleading.",
-        "suggestion": "Написать: «Записаться через ePortugal/IRN и выбрать доступный balcão IRN/Loja de Cidadão/Espaço Cidadão, если конкретная услуга там доступна. При обычном продлении обычно нужен текущий CC/PIN letter; подтверждение адреса нужно, если меняете адрес или орган его запросит. Срок зависит от normal/urgente/extremamente urgente и места выдачи.»",
-        "confidence": "medium",
-        "source": "ePortugal — Renovar o Cartão de Cidadão; IRN — Agendamento"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[2].content[0].text",
-        "current": "1) Заблокировать через Linha 211 950 500 (24/7). 2) Заявление в PSP (police report). 3) Запрос на замену в IRN с police report.",
-        "problem": "Смешаны потеря и кража. При краже заявление в полицию важно; при простой потере police report обычно не является обязательным универсальным шагом. Главное — как можно быстрее отменить/cancelar CC и сертификаты, затем запросить новый. Номер телефона нужно проверить по актуальной странице IRN/ePortugal: для отмены CC официально указывается специальная Linha Cartão de Cidadão/serviço de cancelamento, и в гайде не приведён онлайн-канал отмены.",
-        "suggestion": "Написать: «При потере/краже: срочно cancelar o Cartão de Cidadão и цифровые сертификаты через официальный канал ePortugal/Autenticação.gov или Linha Cartão de Cidadão; при краже — подать заявление в полицию; затем запросить новый CC в IRN/Loja de Cidadão/консульстве. Не утверждать, что police report обязателен при любой потере.»",
-        "confidence": "medium",
-        "source": "ePortugal — Cancelar o Cartão de Cidadão; Autenticação.gov"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[4].content[0].text",
-        "current": "CC = ключ к порталам (autenticação.gov, Finanças, AIMA, SS).",
-        "problem": "Слишком широко. CC-аутентификация работает как eID для многих публичных сервисов, но для части порталов используются собственные логины/пароли или CMD; AIMA в основном релевантна иностранцам, у которых CC обычно нет. Также цифровая подпись и аутентификация требуют активных сертификатов и PIN.",
-        "suggestion": "Написать: «CC можно использовать для autenticação.gov и входа во многие государственные сервисы, если сертификаты активны и есть PIN/ридер/NFC. Для некоторых сервисов могут быть доступны или требоваться альтернативные способы входа, например CMD или собственный логин.»",
-        "confidence": "medium",
-        "source": "Autenticação.gov — Cartão de Cidadão"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[4].content[1].text",
-        "current": "В качестве альтернативы для иностранцев без CC — Chave Móvel Digital (см. отдельный гайд). CMD даёт аналогичный цифровой доступ без физической карточки.",
-        "problem": "Нужна оговорка: иностранцам CMD доступна при наличии NIF и действительного документа/резидентской карты и активации по допустимому каналу. «Аналогичный» доступ не всегда равен CC: цифровая подпись CMD требует активации и имеет свои условия.",
-        "suggestion": "Написать: «Иностранцы обычно используют CMD: для активации нужны NIF и действительный документ/карта резидента, а доступные способы активации зависят от ситуации. CMD покрывает большинство e-government логинов, но не является физическим удостоверением личности.»",
-        "confidence": "high",
-        "source": "Autenticação.gov — Chave Móvel Digital"
-      },
-      {
-        "severity": "minor",
-        "where": "costs[0]",
-        "current": "Первое получение (дети до 25) — 15",
-        "problem": "Формулировка «дети до 25» некорректна. Тариф относится к гражданам младше 25 лет, а не только детям. Также нужно указать, что это цена normal в Portugal; за рубежом и при срочности тарифы отличаются.",
-        "suggestion": "Написать: «Первое получение/обычный заказ для граждан младше 25 лет в Португалии — €15; другие тарифы применяются для срочных заказов и за рубежом.»",
-        "confidence": "high",
-        "source": "IRN — Tabela de emolumentos do Cartão de Cidadão"
-      },
-      {
-        "severity": "minor",
-        "where": "costs[1]",
-        "current": "Продление (стандартно) — 18, note: IRN 2026",
-        "problem": "Цена выглядит правдоподобно для standard/normal in-person для лиц от 25 лет, но без caveat про возраст, онлайн-скидку, срочность и заказы за рубежом может вводить в заблуждение.",
-        "suggestion": "Уточнить: «Продление/обычный заказ для граждан от 25 лет в Португалии — €18; для младше 25 лет — €15; онлайн-продление может иметь скидку; за рубежом и срочные заказы стоят дороже.»",
-        "confidence": "high",
-        "source": "IRN — Tabela de emolumentos do Cartão de Cidadão"
+        "source": "Comissão Nacional de Eleições; IRN — Estatuto de Igualdade"
       },
       {
         "severity": "minor",
         "where": "costs[2]",
-        "current": "Urgente (3 дня) — 33",
-        "problem": "Нужна оговорка по месту и срокам: urgent-сроки зависят от места запроса/получения и рабочих дней; за рубежом тарифы и сроки отличаются.",
-        "suggestion": "Написать: «Urgente — от €33 в Португалии; срок обычно считается в рабочих днях и зависит от места подачи/получения.»",
-        "confidence": "medium",
-        "source": "IRN — Tabela de emolumentos do Cartão de Cidadão"
+        "current": "Urgente (от 3 рабочих дней, в Португалии) — amountEUR: 33",
+        "problem": "€33 is the urgent fee for a 10-year card / citizens aged 25 or over. For citizens under 25, the urgent fee is lower. As written, the table implies a single urgent price for everyone.",
+        "suggestion": "Split into two rows or change the label: \"Urgente, в Португалии: €30 для карты 5 лет / младше 25; €33 для карты 10 лет / от 25 лет.\"",
+        "confidence": "high",
+        "source": "IRN — Cartão de Cidadão fees / tabela de emolumentos"
       },
       {
         "severity": "minor",
         "where": "costs[3]",
-        "current": "Muito urgente (в тот же / следующий день) — 53",
-        "problem": "Для extremely/muito urgent обычно есть ограничения по месту подачи/получения и времени заказа; это не универсальная опция «везде в тот же/следующий день».",
-        "suggestion": "Написать: «Extremamente urgente/muito urgente — €53, но доступность и получение в тот же/следующий рабочий день зависят от места и времени подачи; проверить условия IRN.»",
-        "confidence": "medium",
-        "source": "IRN — Tabela de emolumentos do Cartão de Cidadão"
-      },
-      {
-        "severity": "major",
-        "where": "costs[5]",
-        "current": "Замена при потере — 20",
-        "problem": "Подозрительно неверный тариф. Замена после потери/кражи обычно оплачивается как новый pedido/renovação по применимому тарифу normal/urgente/extremamente urgente и возрасту, а не отдельная плоская ставка €20. В таблице IRN базовые значения для normal — €15/€18, urgent — €33, extremely urgent — €53.",
-        "suggestion": "Заменить на: «После потери/кражи: стоимость нового CC зависит от типа заказа и возраста — normal €15/€18 в Португалии; срочные тарифы дороже. Отдельную ставку €20 не указывать без ссылки на актуальную tabela de emolumentos.»",
-        "confidence": "medium",
-        "source": "IRN — Tabela de emolumentos do Cartão de Cidadão"
-      },
-      {
-        "severity": "major",
-        "where": "sources[0].url",
-        "current": "https://irn.justica.gov.pt/cartao-cidadao",
-        "problem": "Вероятно неверный/устаревший URL. Официальная страница IRN по услуге обычно находится в разделе Serviços, например /Servicos/Cartao-de-Cidadao. Текущая ссылка может не открываться или вести не туда.",
-        "suggestion": "Проверить и заменить на актуальный официальный URL IRN: «https://irn.justica.gov.pt/Servicos/Cartao-de-Cidadao» или соответствующую актуальную страницу IRN.",
+        "current": "Extremamente urgente (зависит от места и времени подачи) — amountEUR: 53",
+        "problem": "€53 is the extremely urgent fee for a 10-year card / citizens aged 25 or over. For citizens under 25, the extremely urgent fee is lower. The current row overstates the fee for under-25 applicants.",
+        "suggestion": "Split into two rows or change the label: \"Extremamente urgente, в Португалии: €50 для карты 5 лет / младше 25; €53 для карты 10 лет / от 25 лет.\"",
         "confidence": "high",
-        "source": "IRN — Serviços / Cartão de Cidadão"
+        "source": "IRN — Cartão de Cidadão fees / tabela de emolumentos"
       },
       {
-        "severity": "major",
-        "where": "sources[1].url",
-        "current": "https://eportugal.gov.pt/cidadaos/-/informacoes/renovar-o-cartao-de-cidadao",
-        "problem": "Похоже на устаревший путь ePortugal. Для услуг ePortugal обычно используется /servicos/renovar-o-cartao-de-cidadao. Старые /cidadaos/-/informacoes/ ссылки часто перенаправляются или исчезают.",
-        "suggestion": "Заменить на актуальную service-страницу: «https://eportugal.gov.pt/servicos/renovar-o-cartao-de-cidadao» после проверки.",
-        "confidence": "high",
-        "source": "ePortugal — Renovar o Cartão de Cidadão"
+        "severity": "minor",
+        "where": "steps[4].content[1].text",
+        "current": "Иностранцы обычно используют Chave Móvel Digital (CMD): для активации нужны NIF и действительный документ/карта резидента; доступные способы активации зависят от ситуации.",
+        "problem": "This is mostly right but too compressed: activation methods differ significantly depending on whether the foreigner has a Portuguese residence card, passport, or other accepted ID, and online activation is not available in all cases. It also does not mention that CMD can provide a qualified electronic signature, unlike the earlier TLDR wording that may imply foreigners have no digital-signature option at all.",
+        "suggestion": "Write: \"Иностранцы обычно используют CMD. Активация возможна онлайн только в некоторых случаях; часто требуется balcão with passport/residence card and NIF. CMD can also be used for assinatura digital qualificada in many public/private services, but it is not a physical ID card.\"",
+        "confidence": "medium",
+        "source": "Autenticação.gov — Chave Móvel Digital"
       },
       {
         "severity": "minor",
         "where": "sources",
-        "current": "Нет отдельного источника для тарифов, сроков urgent/muito urgente и отмены CC при потере/краже.",
-        "problem": "Для чувствительных практических данных — fees, deadlines, cancellation — нужны прямые официальные источники, а не только общая страница CC.",
-        "suggestion": "Добавить источники: IRN tabela de emolumentos do Cartão de Cidadão; ePortugal/Autenticação.gov page for cancelar o Cartão de Cidadão; ePortugal page for pedir/renovar CC with delivery deadlines.",
+        "current": "No dedicated source for the list of countries accepting the Portuguese CC as a travel document.",
+        "problem": "The guide makes a sensitive travel-document claim. ePortugal/IRN are not the best source for country-by-country entry acceptance, and acceptance outside EU/EEA/Switzerland changes.",
+        "suggestion": "Add an official travel source, e.g. Portal das Comunidades Portuguesas / MNE travel advice, and phrase the guide as \"check MNE/airline before travel outside EU/EEA/Switzerland\".",
         "confidence": "high",
-        "source": "IRN; ePortugal; Autenticação.gov"
+        "source": "Portal das Comunidades Portuguesas / Ministério dos Negócios Estrangeiros"
       }
     ],
     "missing_topics": [
-      "Оговорка о бразильцах с Estatuto de Igualdade: это редкое исключение из правила «только граждане PT получают CC».",
-      "Разница между Cartão de Cidadão, Passaporte Português и Título de Residência.",
-      "CC обязателен для граждан PT с 20-го дня после регистрации рождения.",
-      "Nascer Cidadão / оформление CC для новорождённого при регистрации рождения.",
-      "Актуальные официальные сроки normal/urgente/extremamente urgente и ограничения по месту получения.",
-      "Процедура cancelamento do Cartão de Cidadão и цифровых сертификатов при потере/краже, включая онлайн-канал.",
-      "Условия использования CMD иностранцами: NIF, действительный документ/резидентская карта, способы активации.",
-      "Тарифы за рубежом/в консульствах и отличие от тарифов в Португалии."
+      "Explicit caveat that Brazilian Estatuto de Igualdade CC is not proof of Portuguese nationality and does not carry the same travel/voting consequences as a Portuguese citizen's CC",
+      "Eligibility limits for online/automatic renewal versus in-person renewal, especially when biometrics, address, name, or certificates need updating",
+      "Exact fee split for urgent/extremely urgent requests by 5-year versus 10-year card, and separate consular/abroad fees if the guide is used by people outside Portugal",
+      "Official MNE/Portal das Comunidades source for countries accepting the Portuguese CC for travel"
     ]
   },
   "usage": {
-    "completion_tokens": 6530,
-    "prompt_tokens": 2157,
-    "total_tokens": 8687
+    "completion_tokens": 3183,
+    "prompt_tokens": 2710,
+    "total_tokens": 5893
   },
   "model": "gpt-5.5"
 }

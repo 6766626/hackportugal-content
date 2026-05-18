@@ -1,0 +1,113 @@
+{
+  "guideId": "tradutor-juramentado",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it repeatedly conflates CCIP with CCIAP and lacks several important legalization/acceptance caveats and primary legal sources for certified translations.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Câmara de Comércio e Indústria Portuguesa",
+        "problem": "The guide later writes this as “Câmara de Comércio e Indústria Portuguesa / CCIAP”, but the Portuguese Chamber of Commerce and Industry is normally CCIP, not CCIAP. CCIAP is a different entity/acronym and the guide’s source URL points to the wrong chamber.",
+        "suggestion": "Write: “Câmara de Comércio e Indústria Portuguesa / CCIP или другая câmara de comércio e indústria reconhecida para efeitos de certificação de traduções”.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 237/2001; CCIP"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[2]",
+        "current": "Câmara de Comércio e Indústria Portuguesa / CCIAP — делает или заверяет коммерческие и частные переводы",
+        "problem": "Wrong acronym and potentially misleading wording. CCIP is the Câmara de Comércio e Indústria Portuguesa. CCIAP is not the standard acronym for that body. Also, legally the relevant category is not one named chamber only, but chambers of commerce and industry recognized under Portuguese law.",
+        "suggestion": "Replace with: “Câmara de Comércio e Indústria Portuguesa / CCIP или иная câmara de comércio e indústria reconhecida — может делать/сертифицировать переводы в предусмотренных законом случаях”.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 237/2001"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "Notário, advogado, solicitador, Câmara de Comércio e Indústria Portuguesa или Consulado",
+        "problem": "This repeats the chamber naming problem and omits the legal caveat that the chamber must be one with authority/recognition for these acts; not every private translation agency or random chamber stamp is equivalent.",
+        "suggestion": "Write: “Notário, advogado, solicitador, consulado competente или câmara de comércio e indústria reconhecida para certificação de traduções”.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 237/2001"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[2].text",
+        "current": "Câmara de Comércio e Indústria Portuguesa / CCIAP — один из понятных путей для заверенных переводов в Лиссабоне.",
+        "problem": "Incorrect acronym. The Lisbon Portuguese Chamber is CCIP, not CCIAP. This can send readers to the wrong organization.",
+        "suggestion": "Replace “CCIAP” with “CCIP” and preferably add the exact service page if available: “Câmara de Comércio e Indústria Portuguesa / CCIP”.",
+        "confidence": "high",
+        "source": "CCIP"
+      },
+      {
+        "severity": "major",
+        "where": "sources[1]",
+        "current": "Câmara de Comércio e Indústria Portuguesa / CCIAP — serviços de traduções e certificação; https://www.cciap.pt",
+        "problem": "Wrong reference. cciap.pt is not the Portuguese Chamber of Commerce and Industry normally meant here. The correct acronym/site for Câmara de Comércio e Indústria Portuguesa is CCIP / ccip.pt.",
+        "suggestion": "Replace with a CCIP source, e.g. title “Câmara de Comércio e Indústria Portuguesa / CCIP — traduções e certificação” and URL “https://www.ccip.pt”. If citing CCIAP, rename it to the actual chamber and do not describe it as Câmara de Comércio e Indústria Portuguesa.",
+        "confidence": "high",
+        "source": "CCIP"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[1]",
+        "current": "Поставьте apostille в стране выдачи, если документ предназначен для Португалии",
+        "problem": "Overbroad. Apostille applies only to documents from Hague Apostille Convention countries. For non-Hague countries, consular/legalization chain may be required. For some EU public documents, apostille is abolished and multilingual standard forms may remove or reduce translation needs.",
+        "suggestion": "Write: “Если страна выдачи участвует в Гаагской конвенции — поставьте apostille. Если нет — уточните консульскую легализацию. Для ряда публичных документов ЕС действует Regulation (EU) 2016/1191: апостиль не нужен, а при multilingual standard form перевод может не потребоваться.”",
+        "confidence": "high",
+        "source": "Hague Apostille Convention; Regulation (EU) 2016/1191"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Для документов из стран Гаагской конвенции обычно сначала ставят Apostila de Haia в стране выдачи, а затем переводят весь документ вместе с апостилем.",
+        "problem": "Generally correct, but missing the common exception for EU public documents under Regulation (EU) 2016/1191, where apostille is not required and a multilingual standard form can sometimes avoid translation.",
+        "suggestion": "Add a caveat after this paragraph: “Исключение: публичные документы ЕС по Regulation (EU) 2016/1191 — обычно без апостиля; при multilingual standard form перевод часто не нужен.”",
+        "confidence": "high",
+        "source": "Regulation (EU) 2016/1191"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].text",
+        "current": "Для AIMA, виз D1–D8, Conservatória, Finanças, SNS и университетов чаще всего нужен перевод на português",
+        "problem": "This slightly overstates a single rule across very different bodies. AIMA/Conservatória commonly require certified Portuguese translations, but Finanças, SNS and universities may accept English or set their own document rules. Also, visas are handled by Portuguese consulates/VFS, not AIMA.",
+        "suggestion": "Write: “Для AIMA/Conservatória и многих визовых пакетов безопаснее готовить заверенный перевод на português. Finanças, SNS и университеты могут иметь свои правила и иногда принимают английский или незаверенные документы — проверяйте конкретный орган.”",
+        "confidence": "medium",
+        "source": "AIMA; Portuguese consular visa rules; individual university admission rules"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "Justiça.gov.pt — информация о нотариате и заверении документов; https://justica.gov.pt",
+        "problem": "Too generic for a legally sensitive claim about who may certify translations. The guide should cite the primary legal basis for certified translations, not only a general justice portal.",
+        "suggestion": "Add a primary source: “Decreto-Lei n.º 237/2001, de 30 de agosto — certificação de traduções”, preferably via Diário da República.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 237/2001"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[7]",
+        "current": "Документы для IMT, troca de carta de condução, если страна выдачи требует перевод",
+        "problem": "Wording is confusing: it is not that the issuing country requires translation, but that IMT/Portuguese procedure may require translation or a certificate/attestation depending on the country, language, and document format.",
+        "suggestion": "Write: “Документы для IMT/troca de carta de condução — если IMT требует перевод, заверение или подтверждение подлинности/категорий для страны выдачи.”",
+        "confidence": "medium",
+        "source": "IMT rules on exchange of foreign driving licences"
+      }
+    ],
+    "missing_topics": [
+      "Primary legal basis for certified translations in Portugal: Decreto-Lei n.º 237/2001 and who can certify translations.",
+      "EU public documents exception under Regulation (EU) 2016/1191: no apostille for many EU public documents and possible multilingual standard forms.",
+      "Non-Hague-country documents: consular/legalization chain instead of apostille.",
+      "Clear distinction that Portuguese D visas are processed by consulates/VFS, while AIMA handles residence permit steps after entry.",
+      "Clarify CCIP versus CCIAP and use the correct chamber name/URL."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3522,
+    "prompt_tokens": 3683,
+    "total_tokens": 7205
+  },
+  "model": "gpt-5.5"
+}

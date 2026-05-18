@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.hackportugal.editor</string>
+
+    <key>ProgramArguments</key>
+    <array>
+        <string>/usr/local/bin/node</string>
+        <string>--import</string>
+        <string>tsx</string>
+        <string>/Users/alex/DEVELOPER/hackportugal-content/editor/server.ts</string>
+    </array>
+
+    <key>WorkingDirectory</key>
+    <string>/Users/alex/DEVELOPER/hackportugal-content/editor</string>
+
+    <key>EnvironmentVariables</key>
+    <dict>
+        <key>NODE_ENV</key>
+        <string>production</string>
+        <key>PATH</key>
+        <string>/usr/local/bin:/usr/bin:/bin:/opt/homebrew/bin</string>
+    </dict>
+
+    <key>RunAtLoad</key>
+    <true/>
+
+    <key>KeepAlive</key>
+    <true/>
+
+    <key>ThrottleInterval</key>
+    <integer>10</integer>
+
+    <key>StandardOutPath</key>
+    <string>/Users/alex/DEVELOPER/hackportugal-content/editor/logs/editor.out.log</string>
+
+    <key>StandardErrorPath</key>
+    <string>/Users/alex/DEVELOPER/hackportugal-content/editor/logs/editor.err.log</string>
+</dict>
+</plist>

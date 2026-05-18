@@ -1,0 +1,66 @@
+{
+  "guideId": "passaporte-portugues-pedir",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is mostly accurate for passport procedure and fees, but contains a serious false statement about the 2026 nationality-law reform and should tighten minor-child caveats.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[0].content[2].text",
+        "current": "Новое законодательство о гражданстве (Decreto AR 48/XVII) промульгировано Президентом Сегуру 03.05.2026 и вступит в силу после публикации в Diário da República.",
+        "problem": "This is factually wrong as of the April 2026 reference point: the new nationality law was approved on 01.04.2026 and was awaiting promulgation, not already promulgated on 03.05.2026. The wording also introduces a future date relative to the stated April 2026 context and presents an unconfirmed legal status as fact.",
+        "suggestion": "Replace with: \"Новая редакция закона о гражданстве была одобрена Assembleia da República 01.04.2026, но на дату проверки ожидала промульгации Президентом и публикации в Diário da República. Для паспорта это не меняет главное правило: нужен уже завершённый процесс гражданства и регистрация рождения/гражданства в registo civil.\"",
+        "confidence": "high",
+        "source": "Assembleia da República; Presidência da República"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[4-6]",
+        "current": "Для несовершеннолетнего: присутствие ребёнка; Для несовершеннолетнего: Cartão de Cidadão ребёнка; Для несовершеннолетнего: присутствие родителя или законного представителя с документом",
+        "problem": "This is incomplete and may be misleading for minors. Passport requests for minors are a sensitive category: the legal representative/parental-responsibility rules matter, and in some situations additional proof/authorisation or documentation on parental responsibilities may be required. Saying simply that one parent/legal representative must be present understates the caveat.",
+        "suggestion": "Add a caveat: \"Для несовершеннолетних проверьте заранее правила autorização/responsabilidades parentais: обычно ребёнок должен присутствовать с Cartão de Cidadão, а сопровождающий родитель/представитель должен подтвердить личность и полномочия; при разводе, ограничениях parental responsibilities, отсутствии родителя, опеке или споре могут потребоваться дополнительные документы/разрешения.\"",
+        "confidence": "medium",
+        "source": "Justiça.gov.pt: Pedir o passaporte eletrónico português; Passaporte Eletrónico Português official portal"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Запись делается через justiça.gov.pt, IRN, Loja de Cidadão или по телефону.",
+        "problem": "Loja de Cidadão is a service location, not normally a booking channel. The phrase mixes booking channels and places where the passport can be requested.",
+        "suggestion": "Write: \"Запись обычно делают через justiça.gov.pt/serviços de agendamento или по Linha Registos; подача проходит в balcões IRN, некоторых Lojas de Cidadão, balcões PEP в регионах или консульствах за границей.\"",
+        "confidence": "high",
+        "source": "Justiça.gov.pt: Agendar atendimento nos serviços do IRN"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Для резидента Португалии самый обычный путь — записаться онлайн на justiça.gov.pt или выбрать ближайшую Loja de Cidadão.",
+        "problem": "This wording can imply that any Loja de Cidadão handles passports or that selecting a Loja de Cidadão is itself a booking method. Only specific locations/balcões provide PEP service and availability varies.",
+        "suggestion": "Change to: \"Для резидента Португалии обычный путь — записаться через justiça.gov.pt на конкретный balcão, который действительно оказывает услугу Passaporte Eletrónico Português: IRN, некоторые Lojas de Cidadão или другие уполномоченные balcões.\"",
+        "confidence": "high",
+        "source": "Justiça.gov.pt: Pedir o passaporte eletrónico português"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[4]",
+        "current": "Доставка на адрес, если доступна и выбрана, оплачивается дополнительно",
+        "problem": "The guide does not state the usual additional amount, although it gives exact passport fees elsewhere. This is not wrong, but incomplete for a cost section.",
+        "suggestion": "Add the official delivery surcharge if confirmed at publication, e.g. \"envio por correio/morada — доплата по действующей таблице PEP, обычно +10 € в Португалии; проверяйте при подаче\".",
+        "confidence": "medium",
+        "source": "Passaporte Eletrónico Português official fee table"
+      }
+    ],
+    "missing_topics": [
+      "Clear warning that the 2026 nationality-law reform is not a passport rule: passport eligibility only starts after nationality is legally registered in registo civil and Cartão de Cidadão is issued/updated.",
+      "More precise minor-child rules: parental responsibilities, legal representative authority, divorce/guardianship cases, and possible additional authorisations.",
+      "Mention that consular passport requests abroad have different fees, deadlines and booking systems, so the €65/€85/€95/€100 Portugal fees should not be applied to consulates."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2285,
+    "prompt_tokens": 2926,
+    "total_tokens": 5211
+  },
+  "model": "gpt-5.5"
+}

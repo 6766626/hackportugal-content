@@ -16,7 +16,7 @@ export default {
         { kind: 'checklist', items: [
           'Notário — заверяет подпись переводчика и/или declaração de tradução',
           'Advogado или solicitador — может заверять документы и подписи в рамках полномочий',
-          'Câmara de Comércio e Indústria Portuguesa / CCIAP — делает или заверяет коммерческие и частные переводы',
+          'Câmara de Comércio e Indústria Portuguesa / CCIP — делает или заверяет коммерческие и частные переводы',
           'Consulado de Portugal за рубежом — может заверять перевод или подпись, если услуга доступна',
           'Консульство страны выдачи документа в Португалии — иногда заверяет перевод, но AIMA не всегда любит нестандартные форматы',
           'Переводческое бюро — допустимо, если оно организует правильное заверение, а не просто ставит свой штамп'
@@ -67,7 +67,7 @@ export default {
         { kind: 'paragraph', text: 'Ищите не просто «русский переводчик Португалия», а исполнителя, который прямо пишет, каким способом заверяет перевод: Notário, advogado, solicitador, Câmara de Comércio e Indústria Portuguesa или Consulado. Для AIMA важнее правильное заверение, чем красивый фирменный бланк.' },
         { kind: 'checklist', items: [
           'Спросите: «O documento final é tradução certificada para AIMA?»',
-          'Уточните, кто заверяет: Notário, advogado, solicitador, CCIAP или Consulado',
+          'Уточните, кто заверяет: Notário, advogado, solicitador, CCIP или Consulado',
           'Попросите цену за страницу и цену заверения отдельно',
           'Проверьте, входит ли IVA 23% в цену',
           'Уточните срок: обычный, срочный 24–48 часов, доставка CTT/курьером',
@@ -76,7 +76,7 @@ export default {
           'Попросите PDF до физической выдачи, чтобы проверить имена, даты и номера',
           'Не платите 100% незнакомому частному лицу без recibo/fatura или понятного договора'
         ] },
-        { kind: 'paragraph', text: 'Câmara de Comércio e Indústria Portuguesa / CCIAP — один из понятных путей для заверенных переводов в Лиссабоне. Услуга платная, сроки и формат лучше уточнять по конкретному языку и документу.' }
+        { kind: 'paragraph', text: 'Câmara de Comércio e Indústria Portuguesa / CCIP — один из понятных путей для заверенных переводов в Лиссабоне. Услуга платная, сроки и формат лучше уточнять по конкретному языку и документу.' }
       ]
     },
     {
@@ -133,8 +133,8 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Câmara de Comércio e Indústria Portuguesa / CCIAP — serviços de traduções e certificação',
-      url: 'https://www.cciap.pt',
+      title: 'Câmara de Comércio e Indústria Portuguesa / CCIP — serviços de traduções e certificação',
+      url: 'https://www.ccip.pt',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -154,6 +154,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

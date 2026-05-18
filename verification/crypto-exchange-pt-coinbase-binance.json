@@ -1,0 +1,115 @@
+{
+  "guideId": "crypto-exchange-pt-coinbase-binance",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful and mostly current, but it misses several important Portuguese crypto-tax caveats and over-simplifies MiCA/CASP status checking and percentage-based costs.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "В 2026 после MiCA криптосервисы в ЕС должны работать через авторизованного CASP или переходный режим; статус проверяйте на CMVM и на странице legal/terms самой биржи.",
+        "problem": "Checking only CMVM is too narrow/misleading. Under MiCA, a CASP can be authorised in another EU member state and passport services into Portugal. The central EU source to check is the ESMA CASP register, plus the relevant home-state regulator. For Portugal specifically, Banco de Portugal's legacy VASP registration/transitional list may still matter during the MiCA transition.",
+        "suggestion": "Write: \"В 2026 проверяйте статус не только на CMVM: для MiCA-CASP смотрите ESMA CASP register и регулятора страны, где авторизована entity; для португальских/переходных VASP также проверяйте Banco de Portugal/CMVM и Terms конкретной биржи.\"",
+        "confidence": "high",
+        "source": "Regulamento (UE) 2023/1114; ESMA Register of Crypto-Asset Service Providers; Banco de Portugal VASP registration information"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[0]",
+        "current": "Coinbase — удобна для новичков, хороший KYC, отчёты; проверяйте актуальный статус в списках CMVM/CASP и какая entity указана в Terms.",
+        "problem": "The phrase \"в списках CMVM/CASP\" suggests that a non-Portuguese EU CASP should necessarily appear in a CMVM list. If Coinbase serves Portuguese clients via an EU entity authorised elsewhere, the authoritative check may be ESMA and the home-country NCA, not a Portuguese-only CMVM page.",
+        "suggestion": "Replace with: \"Coinbase — проверяйте, какая EU entity указана в Terms, есть ли она в ESMA CASP register / у home regulator, и есть ли уведомление или информация у CMVM для Portugal.\"",
+        "confidence": "high",
+        "source": "Regulamento (UE) 2023/1114; ESMA CASP register"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "Если актив удерживался 365 дней и больше, прирост по обычным crypto-активам часто освобождается, но исключения возможны для токенов, квалифицируемых как ценные бумаги, и для операций в профессиональном режиме.",
+        "problem": "This is broadly right but incomplete. A key Portuguese caveat is omitted: the 365-day exclusion is not a universal exemption and can fail in cross-border/non-cooperative jurisdiction situations. The guide should warn about operations involving entities/persons outside the EU/EEA or jurisdictions without exchange-of-information agreements, and about higher rates for blacklisted jurisdictions where applicable.",
+        "suggestion": "Add: \"Также проверьте юрисдикцию посредника/контрагента: льгота 365 дней и ставки могут не работать так же для операций, связанных с non-cooperative/blacklisted jurisdictions или странами без обмена налоговой информацией. Не используйте биржи/OTC из офшорных списков без проверки contabilista.\"",
+        "confidence": "medium",
+        "source": "Código do IRS, artigos 10.º and 72.º, as amended by Lei n.º 24-D/2022"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[4]",
+        "current": "Храните дату и цену покупки, дату и цену продажи, комиссии, txid, CSV биржи, выписки банка.",
+        "problem": "The guide does not mention the FIFO/oldest-acquisition rule, which is critical for deciding whether the 365-day threshold is met and for calculating the gain. Without this, readers may think they can choose which lot they sold.",
+        "suggestion": "Add a separate bullet: \"Для IRS обычно нельзя произвольно выбрать lot: при расчёте применяется правило старейшего приобретения/FIFO для crypto-assets, поэтому храните историю всех покупок, переводов между кошельками и продаж.\"",
+        "confidence": "high",
+        "source": "Código do IRS, crypto-asset rules introduced by Lei n.º 24-D/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[2]",
+        "current": "Доходы от mining, staking, liquidity provision, airdrops, referrals могут попадать не в тот же режим, что простая продажа BTC.",
+        "problem": "Accurate but too vague for a tax-sensitive category. In Portugal these items can fall into different IRS categories depending on facts: category B for professional/business activity, category E/capital income in some yield-like situations, or category G on later disposal. Readers need a stronger warning not to apply the 365-day capital-gains rule automatically to staking/mining/DeFi yield.",
+        "suggestion": "Write: \"Mining, staking, lending/liquidity rewards, airdrops и referral rewards не приравнивайте автоматически к продаже BTC по правилу 365 дней: они могут быть Category B/E/G в зависимости от структуры и регулярности. Для DeFi лучше сверять с contabilista.\"",
+        "confidence": "high",
+        "source": "Código do IRS; Lei n.º 24-D/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[3]",
+        "current": "Если биржа или кошелёк за пределами Португалии, отчётность часто идёт через Anexo J; для PT-посредника может использоваться Anexo G.",
+        "problem": "The wording is plausible but oversimplified. The correct annex depends on source/issuer/intermediary and the annual Modelo 3 instructions, not merely whether a wallet is outside Portugal. Self-custody wallets are not the same as a foreign financial intermediary.",
+        "suggestion": "Write: \"Anexo G/J выбирайте по инструкциям Modelo 3 за конкретный год: иностранная биржа/посредник часто ведёт к Anexo J, португальский посредник — к Anexo G, но self-custody и DeFi требуют отдельной проверки.\"",
+        "confidence": "medium",
+        "source": "Portal das Finanças — Modelo 3 IRS instructions; Código do IRS"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "\"label\": \"Покупка дебетовой картой\", \"amountEURMin\": 1, \"amountEURMax\": 4, \"note\": \"Обычно 1–4% от суммы плюс spread; точная комиссия видна перед подтверждением.\"",
+        "problem": "The numeric fields are EUR amounts, but the text describes percentages. As written, it can be read as a €1–€4 fee, which is false for larger transactions.",
+        "suggestion": "Either change the schema/display to percentage, or write an example: \"Комиссия часто 1–4%: например, на покупке €1,000 это примерно €10–€40 плюс spread.\" Do not store 1 and 4 as EUR min/max unless the UI labels them as percent.",
+        "confidence": "high",
+        "source": "Exchange fee schedules vary; issue is internal numeric consistency"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "\"label\": \"Налог IRS на прирост <365 дней\", \"amountEURMin\": 0, \"amountEURMax\": 28, \"note\": \"Обычно 28% от прироста, а не от всей суммы продажи; возможен englobamento по прогрессивной шкале IRS.\"",
+        "problem": "Again, the numeric fields are EUR amounts but the values are percentages. Also the tax may be more or less than 28% if englobamento is chosen or required in specific situations, and special higher rates can apply in blacklisted-jurisdiction cases.",
+        "suggestion": "Use a rate field instead of amountEURMin/Max, or give an example: \"Ставка обычно 28% от net gain; например, €1,000 gain → около €280 tax, если не применяется englobamento/исключения.\"",
+        "confidence": "high",
+        "source": "Código do IRS, artigo 72.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[1]",
+        "current": "Binance — много пар, P2P и карт; для Португалии важно смотреть, какая EU/EEA entity обслуживает аккаунт и доступен ли SEPA.",
+        "problem": "Mentioning P2P without a warning is risky. P2P crypto trades are much harder to explain to Portuguese banks and may create AML/origem dos fundos issues, especially if counterparties are individuals or outside the EU.",
+        "suggestion": "Add: \"P2P используйте осторожно: банки и Finanças хуже принимают P2P-историю, чем SEPA to/from a regulated exchange on your own name; сохраняйте данные контрагента и источник средств.\"",
+        "confidence": "high",
+        "source": "Portuguese AML/KYC banking practice; Lei n.º 83/2017 AML framework"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "\"title\": \"CMVM — проверка авторизованных entidades и информации по criptoativos\", \"url\": \"https://www.cmvm.pt\"",
+        "problem": "The homepage is too generic for a guide telling readers to verify legal status. It should link to the actual CMVM crypto/MiCA pages and add ESMA/Banco de Portugal sources.",
+        "suggestion": "Keep CMVM but add specific sources: ESMA CASP register; Banco de Portugal list of entities registered for virtual asset services/transitional information; CMVM MiCA/crypto-assets page.",
+        "confidence": "high",
+        "source": "ESMA CASP register; Banco de Portugal; CMVM"
+      }
+    ],
+    "missing_topics": [
+      "FIFO/oldest-acquisition rule for deciding holding period and gain calculation",
+      "Treatment of losses and whether/how crypto losses can be offset or carried forward, especially when opting for englobamento",
+      "Jurisdiction caveats for 365-day exemption, including blacklisted/non-cooperative jurisdictions and lack of tax-information exchange",
+      "ESMA CASP register and home-state regulator checks under MiCA, not only CMVM",
+      "Banco de Portugal legacy VASP registration/transitional regime during the MiCA transition",
+      "Stronger warning that P2P cash-in/cash-out is AML-sensitive and harder to justify to Portuguese banks",
+      "Clear distinction between percentage costs/tax rates and euro amount examples"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4325,
+    "prompt_tokens": 3671,
+    "total_tokens": 7996
+  },
+  "model": "gpt-5.5"
+}

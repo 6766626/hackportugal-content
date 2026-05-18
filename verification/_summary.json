@@ -1,8 +1,152 @@
 [
   {
-    "id": "espaco-cidadao",
+    "id": "acores-irs-rates",
+    "verdict": "parse_error",
+    "issues": 0,
+    "summary": "Expected ':' after property name in JSON at position 36 (line 3 column 13)"
+  },
+  {
+    "id": "anexo-j-contas-estrangeiras",
     "verdict": "major_issues",
-    "issues": 17,
-    "summary": "Гайд полезен по идее, но сильно переобещает набор услуг Espaço Cidadão/Loja de Cidadão и неверно описывает запись, NIF/NISS и автомобильные услуги."
+    "issues": 9,
+    "summary": "Гайд в целом правильно описывает Quadro 11, но есть несколько существенных неточностей: штрафы указаны слишком узко, обязанность для уполномоченных/beneficiários раскрыта недостаточно, а ссылка на LGT выглядит неверной."
+  },
+  {
+    "id": "ato-isolado",
+    "verdict": "major_issues",
+    "issues": 11,
+    "summary": "Гайд в целом правильно объясняет Ato Isolado, но содержит несколько существенных недочётов: вероятно неверную ставку IRS 2026, слишком упрощённые правила IVA для иностранных клиентов, вводящее в заблуждение оформление cost-блоков и как минимум один неправильный/неудачный официальный источник."
+  },
+  {
+    "id": "cope-bportugal-residentes",
+    "verdict": "minor_issues",
+    "issues": 6,
+    "summary": "Guide is broadly accurate on COPE scope, threshold and monthly filing, but it blurs the threshold timing/test and should cite the actual Banco de Portugal instruction/manual rather than only generic pages."
+  },
+  {
+    "id": "crypto-taxes",
+    "verdict": "major_issues",
+    "issues": 16,
+    "summary": "Гайд в целом отражает базовый режим IRS для криптоактивов, но содержит несколько слишком категоричных или неподтверждённых утверждений по банкам, санкциям РФ, профессиональной деятельности и отдельным типам доходов."
+  },
+  {
+    "id": "donativos-deduzir-irs",
+    "verdict": "major_issues",
+    "issues": 8,
+    "summary": "Guide is broadly useful, but it overstates the practical availability of the 25%/15%-of-collecta deduction because it omits the general IRS deduction caps and a few important compliance caveats."
+  },
+  {
+    "id": "e-fatura-deductions",
+    "verdict": "minor_issues",
+    "issues": 6,
+    "summary": "Гайд в целом корректен для IRS 2025/e-Fatura, но есть несколько мест, где формулировки слишком упрощают правила по аренде, исправлениям после 25 февраля и ставкам exigência de fatura."
+  },
+  {
+    "id": "gift-tax-imposto-selo",
+    "verdict": "minor_issues",
+    "issues": 5,
+    "summary": "Гайд в целом корректно описывает Imposto do Selo на дарение, ставки 10%/0,8%, семейные освобождения и Modelo 1 IS, но ему не хватает нескольких важных уточнений по территориальности, мелким социальным подаркам и доказательству união de facto."
+  },
+  {
+    "id": "ifici-regime",
+    "verdict": "major_issues",
+    "issues": 12,
+    "summary": "Материал в целом правильно объясняет, что IFICI — узкий режим вместо NHR, но есть несколько существенных неточностей по условиям доступа, дате применения режима, переходным правилам NHR и слишком упрощённое описание профессий/подачи."
+  },
+  {
+    "id": "irs-anexo-g-mais-valias",
+    "verdict": "major_issues",
+    "issues": 10,
+    "summary": "Guide is broadly useful on Portuguese capital-gains mechanics, but it materially misleads residents by treating Anexo G as the default place for foreign securities/foreign real-estate gains, where Anexo J is often required, and it misses key HPP reinvestment conditions introduced in recent law."
+  },
+  {
+    "id": "irs-anexo-h-deducoes",
+    "verdict": "minor_issues",
+    "issues": 9,
+    "summary": "Guide is broadly accurate for Anexo H, but it overstates/blurred the 2025 rent cap, misattributes rent and mortgage-interest data to e-Fatura, and misses a few important eligibility caveats."
+  },
+  {
+    "id": "irs-auto-prefill",
+    "verdict": "minor_issues",
+    "issues": 6,
+    "summary": "Guide is broadly accurate and conservative for expats, but it overstates that recibos verdes always exclude IRS Automático and misses a few practical caveats around couples, e-Fatura deadlines, and mortgage deductions."
+  },
+  {
+    "id": "irs-filing",
+    "verdict": "major_issues",
+    "issues": 9,
+    "summary": "Гайд в целом пригоден, но есть несколько существенных налоговых неточностей: слишком широкое утверждение о нерезидентах, не указан Anexo L для NHR/IFICI, неполно описан IFICI и есть ошибка в процентах по e-Fatura для спортзалов."
+  },
+  {
+    "id": "irs-jovem",
+    "verdict": "major_issues",
+    "issues": 12,
+    "summary": "Guide is broadly useful, but it materially mixes the 2026 tax year with the 2026 filing season for 2025 income, causing the IRS Jovem cap and some rate references to be wrong or misleading."
+  },
+  {
+    "id": "irs-municipal-devolucao",
+    "verdict": "minor_issues",
+    "issues": 4,
+    "summary": "Guide is broadly accurate for IRS Municipal/devolução, but the examples and sources need tighter official referencing and one wording caveat should be made less ambiguous."
+  },
+  {
+    "id": "irs-senior-65-mais",
+    "verdict": "major_issues",
+    "issues": 14,
+    "summary": "Core pension-specific deduction values are outdated/wrong for 2025 income filed in 2026, and several tax limits/caveats need tightening."
+  },
+  {
+    "id": "irs-year-end",
+    "verdict": "major_issues",
+    "issues": 11,
+    "summary": "Guide is broadly useful, but it has several materially misleading tax details around employer income statements, dependent deductions, Annex selection, and some missing IRS-calendar caveats."
+  },
+  {
+    "id": "iva-autoliquidacao-ue-b2b",
+    "verdict": "minor_issues",
+    "issues": 6,
+    "summary": "Guide is broadly correct for ordinary cross-border EU B2B services, but it should narrow its scope more clearly and add caveats for goods, B2B special place-of-supply rules, intra-community registration, and OSS micro-thresholds."
+  },
+  {
+    "id": "iva-reembolso-pedido",
+    "verdict": "major_issues",
+    "issues": 10,
+    "summary": "Главная проблема: гайд создаёт впечатление, что любой crédito de IVA от 250 € можно сразу запросить в campo 95, хотя по art. 22 CIVA обычный возврат зависит от условий — в частности 12 месяцев накопленного кредита или более высокий порог/специальные случаи."
+  },
+  {
+    "id": "madeira-irs-rates",
+    "verdict": "major_issues",
+    "issues": 11,
+    "summary": "Guide is directionally useful, but it overstates 2026 Madeira rates using commercial sources, oversimplifies the legal test for being taxed as a Madeira resident, and misses official Madeira/IRS legal sources for the key claims."
+  },
+  {
+    "id": "modelo-30-nao-residentes",
+    "verdict": "major_issues",
+    "issues": 11,
+    "summary": "Гайд в целом полезный, но слишком широко описывает Modelo 30 как отчёт по почти любым иностранным подрядчикам, хотя ключевой фильтр — доход нерезидента должен считаться полученным из источника в Португалии; также есть невозможная дата и неполный диапазон штрафов для компаний."
+  },
+  {
+    "id": "recibos-verdes-issue",
+    "verdict": "major_issues",
+    "issues": 8,
+    "summary": "Guide is broadly accurate, but it blurs the legally important distinction between fatura, recibo and fatura-recibo, and misses several caveats around VAT exemption, payment timing and source specificity."
+  },
+  {
+    "id": "recurso-hierarquico-at",
+    "verdict": "major_issues",
+    "issues": 8,
+    "summary": "Гайд в целом правильно объясняет recurso hierárquico по CPPT, но опасно смешивает его с обжалованием coimas/contraordenações и недостаточно чётко отделяет его от стандартных процедур оспаривания liquidações."
+  },
+  {
+    "id": "tax-residency-rules",
+    "verdict": "major_issues",
+    "issues": 7,
+    "summary": "Guide is mostly accurate on the core CIRS art. 16 residency tests, but it has a materially misleading rolling-12-month example, an over-broad exit-tax discussion, and at least one mismatched official source."
+  },
+  {
+    "id": "w8ben-eua-clientes",
+    "verdict": "major_issues",
+    "issues": 9,
+    "summary": "Guide is mostly useful, but it repeatedly cites the wrong treaty article for independent personal services and overstates “0% treaty rate” for services without explaining the U.S.-source income rule."
   }
 ]

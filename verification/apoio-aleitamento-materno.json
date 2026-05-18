@@ -1,0 +1,93 @@
+{
+  "guideId": "apoio-aleitamento-materno",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it has a material labour-law omission for aleitação and likely misstates the SOS Amamentação hotline as a free SNS-style 800 number.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«...помощь с грудным вскармливанием можно получить бесплатно через SNS: ... и по телефону Linha SOS Amamentação 800 200 200.»",
+        "problem": "Linha SOS Amamentação is not an SNS service; it is run by Associação SOS Amamentação. Presenting it as part of free SNS support is misleading. The phone number 800 200 200 also needs verification against the association's current official contacts; the commonly cited Associação SOS Amamentação contact has been 213 880 915, not an 800 freephone.",
+        "suggestion": "Separate SNS services from NGO support. For example: «Через SNS обращайтесь в Centro de Saúde, maternidade/hospital и SNS 24. Дополнительно есть Associação SOS Amamentação; проверьте актуальный телефон на сайте ассоциации перед звонком.» If keeping a number, verify and cite the current official Associação SOS Amamentação contact page.",
+        "confidence": "medium",
+        "source": "Associação SOS Amamentação official contacts; SNS 24"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].items[2].content[0].text",
+        "current": "«Linha SOS Amamentação: 800 200 200. Это бесплатная линия Associação SOS Amamentação...»",
+        "problem": "The guide asserts both a specific 800 number and that the line is free. This is risky/outdated unless confirmed from the association's current official contact page. If the correct line is a geographic number, it is not necessarily free for callers.",
+        "suggestion": "Replace with: «Associação SOS Amamentação также даёт поддержку по телефону; актуальный номер и часы работы проверяйте на sosamamentacao.org.pt. Не путайте это с SNS 24.» If verified, state the exact current number and whether it is free or charged as a normal call.",
+        "confidence": "medium",
+        "source": "Associação SOS Amamentação official contacts"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "«Linha SOS Amamentação 800 200 200», amountEUR: 0, note: «Бесплатная телефонная линия...»",
+        "problem": "Cost is asserted as €0 based on an 800 number that appears questionable. If the current contact is not an 800 freephone, the call may be charged according to the user's tariff.",
+        "suggestion": "Do not list a fixed €0 cost unless the current official number is confirmed as free. Safer wording: «Стоимость зависит от актуального номера/тарифа; проверьте на сайте Associação SOS Amamentação.»",
+        "confidence": "medium",
+        "source": "Associação SOS Amamentação official contacts"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "«Если грудного вскармливания нет, мать или отец могут использовать dispensa para aleitação до достижения ребёнком 1 года.»",
+        "problem": "This omits a key legal condition: dispensa para aleitação only applies when both parents exercise a professional activity, and it is used by either or both according to a joint decision. Without that caveat, the statement is overbroad.",
+        "suggestion": "Write: «Если грудного вскармливания нет, dispensa para aleitação возможна до 1 года ребёнка, но по Código do Trabalho art. 47 она предполагает, что оба родителя работают; использовать её может один из родителей или оба, по совместному решению.»",
+        "confidence": "high",
+        "source": "Código do Trabalho, art. 47.º, n.º 2"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[6]",
+        "current": "«уведомьте работодателя заранее, обычно минимум за 10 дней, со ссылкой на amamentação/aleitação»",
+        "problem": "The 10-day notice and supporting documents are governed mainly by Código do Trabalho art. 48, not art. 47. For aleitação, the worker must provide additional information/documents, including the joint decision and the period taken by the other parent or confirmation the other parent does not use the dispensa.",
+        "suggestion": "Expand to: «Уведомление — минимум за 10 дней до начала dispensa. Для amamentação после 1 года нужен медицинский сертификат. Для aleitação обычно нужны заявление о совместном решении родителей, указание периода, используемого другим родителем, или что другой родитель dispensa не использует, и подтверждение уведомления работодателя другого родителя.» Cite arts. 47 and 48.",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 47.º and 48.º"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "«Código do Trabalho — art. 47, dispensa para amamentação ou aleitação»",
+        "problem": "The guide discusses notice periods and documentation, which are in art. 48 as well as art. 47. Citing only art. 47 makes the legal source incomplete.",
+        "suggestion": "Change source title to: «Código do Trabalho — arts. 47.º e 48.º, dispensa para amamentação ou aleitação e procedimento». Keep the Diário da República consolidated-law URL.",
+        "confidence": "high",
+        "source": "Código do Trabalho, arts. 47.º and 48.º"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "kind: «company»",
+        "problem": "Associação SOS Amamentação is an association/NGO-type source, not a company. This is metadata, but it affects source classification.",
+        "suggestion": "Use kind: «ngo» or «association» if supported by the schema; otherwise use a neutral kind such as «other».",
+        "confidence": "high",
+        "source": "Associação SOS Amamentação"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "url: «https://www.dgs.pt»",
+        "problem": "The DGS homepage is too generic for a health guide making practical breastfeeding claims. It should cite a specific DGS/SNS document or page on aleitamento materno, child health, postpartum care, or the Programa Nacional de Saúde Infantil e Juvenil.",
+        "suggestion": "Replace or add a specific official DGS/SNS source for aleitamento materno and/or PNSIJ rather than only the DGS homepage.",
+        "confidence": "high",
+        "source": "DGS; Programa Nacional de Saúde Infantil e Juvenil"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that SNS 24 is the official SNS phone triage route and is separate from Associação SOS Amamentação.",
+      "For dispensa para aleitação, include the legal requirement that both parents work and the documentation/procedure under Código do Trabalho art. 48.",
+      "Add a specific official DGS/SNS breastfeeding or child-health source instead of only the DGS homepage."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3123,
+    "prompt_tokens": 3171,
+    "total_tokens": 6294
+  },
+  "model": "gpt-5.5"
+}

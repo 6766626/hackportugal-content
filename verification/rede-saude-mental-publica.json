@@ -1,0 +1,94 @@
+{
+  "guideId": "rede-saude-mental-publica",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом корректный и актуальный, но есть несколько уточнений по taxas moderadoras, маршрутизации urgência psiquiátrica и источникам для SOS-линий.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "costs[3].note",
+        "current": "При направлении через SNS 24/112 или при госпитализации обычно не взимается.",
+        "problem": "Формулировка про 112 неточная: освобождение от taxa moderadora привязано не к самому факту звонка на 112, а к направлению/транспортировке через INEM/CODU, SNS 24, centro de saúde или к последующей госпитализации. Один только звонок 112 без направления INEM может не быть достаточным основанием.",
+        "suggestion": "Заменить на: «При направлении через SNS 24, INEM/CODU, centro de saúde или при последующей госпитализации taxa moderadora обычно не взимается; сам по себе звонок 112 не всегда равен направлению INEM».",
+        "confidence": "high",
+        "source": "ERS — Taxas moderadoras no SNS; Decreto-Lei n.º 113/2011, as amended by Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[2].text",
+        "current": "Taxas moderadoras в SNS в основном отменены, но за urgência без направления SNS 24/INEM/Centro de Saúde и без последующей госпитализации может применяться плата.",
+        "problem": "Правильно по сути, но не хватает важной оговорки: даже в urgência часть пользователей освобождена от taxas moderadoras по личному статусу — например, menores, grávidas/parturientes, pessoas com incapacidade ≥60%, insuficiência económica и другие категории. Для читателя это может быть существенно.",
+        "suggestion": "Добавить: «Кроме того, отдельные категории пользователей освобождены от taxas moderadoras независимо от маршрута — например, дети, беременные, люди с incapacidade ≥60%, пользователи с признанной insuficiência económica и др.; статус нужно подтвердить в SNS/AT/Segurança Social».",
+        "confidence": "high",
+        "source": "ERS — Taxas moderadoras no SNS; Decreto-Lei n.º 113/2011"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "В Лиссабоне часто направляют в Hospital Júlio de Matos, в Порту — Hospital Magalhães Lemos.",
+        "problem": "Это может создать впечатление, что expat должен сам ехать именно туда. В реальности маршрутизация urgência psiquiátrica зависит от ULS, адреса, catchment area и дежурной организации; после реформы ULS лучше не называть эти больницы как универсальные точки входа без оговорки прямо в TLDR.",
+        "suggestion": "Переписать: «В Лиссабоне и Порту известные психиатрические больницы — Júlio de Matos и Magalhães Lemos, но в urgência маршрут зависит от ULS/адреса/дежурства; безопаснее уточнять через 112 или SNS 24».",
+        "confidence": "medium",
+        "source": "SNS 24; ULS / Serviço Nacional de Saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[2].text",
+        "current": "В Лиссабоне известная точка психиатрической urgência — Hospital Júlio de Matos. В Порту — Hospital Magalhães Lemos.",
+        "problem": "Та же проблема маршрутизации: формулировка «точка urgência» может быть слишком категоричной без ссылки на текущую ULS/дежурство. Психиатрическая urgência может быть организована через конкретные больницы/ULS, и пациенту в кризисе лучше не выбирать самостоятельно по названию больницы.",
+        "suggestion": "Уточнить: «Это известные психиатрические больницы/референс-точки, но фактическая urgência для вашего адреса определяется ULS и дежурством; при сомнении звоните 112 или SNS 24».",
+        "confidence": "medium",
+        "source": "SNS 24; ULS / Serviço Nacional de Saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[3]",
+        "current": "Номера и часы работы проверяйте на сайте Linha SOS Voz Amiga: расписание может меняться.",
+        "problem": "Совет правильный, но в sources нет самого сайта Linha SOS Voz Amiga. Для кризисной линии это должен быть прямой источник, а не только общие SNS/DGS/SPMS/ERS.",
+        "suggestion": "Добавить в sources официальный сайт Linha SOS Voz Amiga: https://www.sosvozamiga.org/ и, если формат гайда позволяет, указать актуальные номера/часы с пометкой «проверяйте перед использованием».",
+        "confidence": "high",
+        "source": "Linha SOS Voz Amiga — site oficial"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.sns24.gov.pt",
+        "problem": "URL рабочий, но слишком общий для утверждений про triagem и aconselhamento psicológico. Для медицинского/кризисного гайда лучше давать прямую страницу SNS 24 о contactos/triagem или atendimento psicológico, чтобы читатель не искал сам.",
+        "suggestion": "Заменить или дополнить прямыми страницами SNS 24 про Contactos, Centro de Contacto SNS 24 и Linha de Aconselhamento Psicológico.",
+        "confidence": "medium",
+        "source": "SNS 24 — Contactos / Aconselhamento psicológico"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3].url",
+        "current": "https://www.ers.pt",
+        "problem": "Для сумм €14/€16/€18 и условий взимания taxas moderadoras общий URL ERS недостаточно точен. Это чувствительная финансовая информация; нужен прямой источник или нормативная база.",
+        "suggestion": "Добавить прямую страницу ERS sobre taxas moderadoras и/или нормативные ссылки: Decreto-Lei n.º 113/2011, с изменениями Decreto-Lei n.º 37/2022, плюс официальный перечень актуальных valores das taxas moderadoras.",
+        "confidence": "high",
+        "source": "ERS — Taxas moderadoras no SNS; Decreto-Lei n.º 113/2011; Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[0]",
+        "current": "Звоните в SNS 24 при панических атаках, сильной тревоге, бессоннице, ухудшении депрессии, побочных эффектах лекарств.",
+        "problem": "Полезно, но не указано, что психологическая поддержка SNS 24 обычно доступна через соответствующую опцию/маршрутизацию линии SNS 24, а не как отдельная долгосрочная терапия. В тексте это частично есть выше, но практической инструкции не хватает.",
+        "suggestion": "Добавить: «При звонке в SNS 24 попросите triagem/aconselhamento psicológico; это краткая поддержка и маршрутизация, не замена регулярной психотерапии».",
+        "confidence": "medium",
+        "source": "SNS 24 — Aconselhamento Psicológico"
+      }
+    ],
+    "missing_topics": [
+      "Освобождения от taxas moderadoras по статусу пользователя: дети, беременные, incapacidade ≥60%, insuficiência económica и другие категории",
+      "Прямой официальный источник и актуальные номера/часы Linha SOS Voz Amiga",
+      "Короткое объяснение, что при серьёзном риске 112/INEM может привлечь PSP/GNR для безопасной транспортировки и оценки, включая недобровольную оценку по правилам Lei de Saúde Mental",
+      "Уточнение, что urgência psiquiátrica в Лиссабоне/Порту зависит от ULS, catchment area и дежурства, поэтому больницы не стоит воспринимать как универсальную точку входа"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4485,
+    "prompt_tokens": 3398,
+    "total_tokens": 7883
+  },
+  "model": "gpt-5.5"
+}

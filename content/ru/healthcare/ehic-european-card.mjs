@@ -24,7 +24,7 @@ export default {
       id: 'what-covers',
       title: 'Что покрывает',
       content: [
-        { kind: 'paragraph', text: 'CESD принимается в **32 странах/территориях системы EHIC**: 27 стран ЕС, Исландия, Лихтенштейн, Норвегия, Швейцария и Великобритания. Великобритания принимает EHIC/CESD для необходимой государственной медпомощи во время временного пребывания; британские GHIC/UK EHIC — отдельные карты для лиц, застрахованных в UK.' },
+        { kind: 'paragraph', text: 'CESD принимается в **32 странах/территориях системы EHIC**: 27 стран ЕС, Исландия, Лихтенштейн, Норвегия, Швейцария и Великобритания. ⚠️ **Важная оговорка для граждан третьих стран (RU/BY/UA/USA/UK и т.д.), легально проживающих в Португалии**: португальский CESD выдаётся, но НЕ всегда принимается в Дании, Исландии, Лихтенштейне, Норвегии и Швейцарии — эти страны исторически не распространяли координацию EHIC/CESD на третьих стран в полном объёме (Regulation (EU) 1231/2010 + двусторонние договоры). Гражданам ЕС покрытие везде; гражданам третьих стран — в полном объёме гарантировано в 27 странах ЕС + UK (по условиям UK-EU договора). Великобритания принимает EHIC/CESD для необходимой государственной медпомощи во время временного пребывания; британские GHIC/UK EHIC — отдельные карты для лиц, застрахованных в UK.' },
         { kind: 'checklist', items: [
           '✅ Медицински необходимая помощь в государственной системе во время временного пребывания — не только urgência, но и лечение, которое нельзя разумно отложить до возвращения домой',
           '✅ Госпитализация при острых состояниях',
@@ -101,6 +101,6 @@ export default {
     { title: 'EU — Your Europe — Unplanned healthcare: temporary stays', url: 'https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'UK NHS — Healthcare for visitors to the UK from the EU', url: 'https://www.nhs.uk/nhs-services/visiting-or-moving-to-england/visiting-england-from-the-eea/', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

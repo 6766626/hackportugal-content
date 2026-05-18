@@ -1,0 +1,122 @@
+{
+  "guideId": "madeira-irs-rates",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is directionally useful, but it overstates 2026 Madeira rates using commercial sources, oversimplifies the legal test for being taxed as a Madeira resident, and misses official Madeira/IRS legal sources for the key claims.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«В 2026 у Мадейры пониженные ставки: для нижнего диапазона MCS указывает 8,75% против материковой справочной 12,50%; при этом актуальная общенациональная первая ставка IRS на 2026 — 11,97%, поэтому финальный расчёт проверяйте в симуляторе AT.»",
+        "problem": "This is internally confusing and potentially misleading: it presents 8.75% as a 2026 Madeira rate while also saying the relevant national first bracket is 11.97%, not 12.50%. If the Madeira rate is derived from a 30% reduction of 12.50%, it is not aligned with the stated 2026 mainland rate. A commercial MCS article is not enough support for a definitive 2026 tax-rate statement.",
+        "suggestion": "Either cite the official 2026 Madeira IRS table and state the exact official brackets/rates, or soften the claim: «По коммерческим обзорам MCS нижняя ставка Madeira указана как 8,75%, но для декларации за 2026 год нужно сверять официальную региональную таблицу IRS/AT и симулятор AT; не рассчитывайте налог только по этой цифре.»",
+        "confidence": "high",
+        "source": "Código do IRS art. 68; Orçamento da Região Autónoma da Madeira para 2026; AT IRS simulator"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].text",
+        "current": "«По материалам MCS на 2026 год первая региональная ставка Madeira — 8,75%, а стандартная специальная ставка на capital income — 19,6% вместо 28% на mainland Portugal.»",
+        "problem": "The key rate claims rely on MCS, a private company source, rather than the official regional budget/IRS law. For tax tables and special rates, the guide should not present private-source numbers as authoritative.",
+        "suggestion": "Add an official source and phrase as: «Ставки нужно брать из официальной региональной таблицы IRS Madeira на соответствующий налоговый год и из CIRS art. 72 для специальных ставок; коммерческие обзоры вроде MCS полезны только как вторичная проверка.»",
+        "confidence": "high",
+        "source": "Código do IRS art. 68 and art. 72; Orçamento da Região Autónoma da Madeira para 2026"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«Ключевое условие — fiscal domicile на Madeira.»",
+        "problem": "Fiscal domicile is important, but this oversimplifies the legal test. For autonomous-region IRS, the relevant concept is residence in the autonomous region under the IRS Code, not merely having the NIF address changed. Actual habitual residence / days and factual connection can matter, especially in a move year.",
+        "suggestion": "Replace with: «Ключевое условие — быть налоговым резидентом Португалии и считаться резидентом Região Autónoma da Madeira для целей IRS; fiscal domicile на Madeira — важное доказательство, но не единственный критерий.»",
+        "confidence": "high",
+        "source": "Código do IRS art. 17"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].text",
+        "current": "«Ставки Madeira применяются к физическим лицам, которые являются налоговыми резидентами Португалии и имеют fiscal domicile в Região Autónoma da Madeira.»",
+        "problem": "This suggests that Portuguese tax residence plus a Madeira fiscal address is sufficient. The guide should mention the specific autonomous-region residence rule and the need for factual habitual residence in Madeira, not just an address update.",
+        "suggestion": "Write: «Ставки Madeira применяются к налоговым резидентам Португалии, которые для целей CIRS считаются резидентами Região Autónoma da Madeira — обычно потому что фактически проживают там и имеют там habitual residence/fiscal domicile. Простая смена адреса без реального проживания может быть оспорена AT.»",
+        "confidence": "high",
+        "source": "Código do IRS art. 17"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0]",
+        "current": "«Вы налоговый резидент Португалии: обычно 183+ дней в стране за год или жильё, указывающее на намерение постоянного проживания.»",
+        "problem": "This is correct for Portuguese tax residence, but incomplete for Madeira rates. The regional issue is not only 183+ days in Portugal; the taxpayer must be treated as resident in the autonomous region. A person can be Portuguese tax resident but not Madeira resident for regional IRS purposes.",
+        "suggestion": "Add a separate checklist item: «Для региональных ставок важно не только 183+ дней в Португалии, но и фактическое проживание/центр жизненных интересов в Região Autónoma da Madeira в соответствующем налоговом году.»",
+        "confidence": "high",
+        "source": "Código do IRS art. 16 and art. 17"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[2].text",
+        "current": "«стандартная специальная ставка 28% на материке уменьшается на 30%, то есть до 19,6%. Это особенно важно для процентов, некоторых дивидендов, rental income при автономной ставке и отдельных capital gains.»",
+        "problem": "This wrongly lumps rental income together with the 28%/19.6% capital-income logic. Category F rental income has its own autonomous-rate rules, and for many residential leases the mainland autonomous rate is no longer simply 28%. Applying 19.6% generically to rental income can be wrong.",
+        "suggestion": "Split the statement: «Для процентов и некоторых дивидендов стандартная ставка 28% может соответствовать 19,6% на Madeira при применении регионального снижения. Для Categoria F аренды и Categoria G capital gains ставки зависят от конкретного правила CIRS, типа договора/актива, срока владения и выбора englobamento; не используйте автоматически 19,6%.»",
+        "confidence": "high",
+        "source": "Código do IRS art. 72"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[5]",
+        "current": "«Categoria G — capital gains: зависит от типа актива, резидентства и правил englobamento.»",
+        "problem": "The sentence is broadly true but too thin given the guide later implies a 19.6% special rate for some capital gains. Resident taxation of capital gains is highly asset-specific: real-estate gains are often 50% aggregated, certain securities may be taxed autonomously, short-term securities gains can face mandatory aggregation for high-income taxpayers, and crypto has separate rules.",
+        "suggestion": "Expand to: «Categoria G — capital gains: недвижимость, ценные бумаги и crypto облагаются по разным правилам; часть gains включается в englobamento, часть может облагаться автономно, а для некоторых краткосрочных gains возможна обязательная агрегация. Проверяйте CIRS art. 10, 43 и 72.»",
+        "confidence": "high",
+        "source": "Código do IRS art. 10, art. 43 and art. 72"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].content[0].text",
+        "current": "«В декларации проверьте адрес, регион, состав семьи, anexos и режим налогообложения доходов E/F/G...»",
+        "problem": "In Modelo 3 the address/region is generally driven by AT taxpayer registration data, not just by typing a region in the declaration. The practical instruction should stress checking/updating cadastral data before filing.",
+        "suggestion": "Write: «Перед подачей проверьте, что в cadastro/Portal das Finanças ваш fiscal domicile уже Madeira; затем в Modelo 3 проверьте household, anexos и варианты englobamento/autonomous taxation.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças taxpayer registration rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[6]",
+        "current": "«NHR закрыт для новых заявителей, его заменил IFICI...»",
+        "problem": "As shorthand this is acceptable, but it can mislead because NHR still exists for people already registered and for some transitional cases. IFICI is not a one-for-one replacement for all NHR users; it is narrower and activity-based.",
+        "suggestion": "Change to: «NHR закрыт для обычных новых заявителей, кроме переходных случаев; для новых заявок действует более узкий режим IFICI при выполнении специальных условий. Regional Madeira rates are separate from both.»",
+        "confidence": "high",
+        "source": "Estatuto dos Benefícios Fiscais art. 58-A; transitional NHR rules in State Budget legislation"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "«Autoridade Tributária: Código do IRS, taxas gerais e taxas especiais» with URL «https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/irs/Pages/irs68.aspx»",
+        "problem": "The URL points to CIRS art. 68, which is the general rates article. It does not by itself support the guide's claims about special rates on capital income, rental income or capital gains.",
+        "suggestion": "Keep art. 68 for general rates, but add separate official sources for CIRS art. 72 and, for capital gains, art. 10 and art. 43.",
+        "confidence": "high",
+        "source": "Código do IRS art. 68, art. 72, art. 10, art. 43"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Sources include two MCS articles, CIRS art. 68 and Lei Orgânica 2/2013.",
+        "problem": "The guide lacks an official source for the actual Madeira 2026 IRS table/rates. For a tax-rate article, this is a significant sourcing gap.",
+        "suggestion": "Add the official Madeira regional budget / decree for 2026 or an AT official page/table showing the 2026 Madeira IRS rates. If no official 2026 table is cited, avoid giving definitive bracket rates.",
+        "confidence": "high",
+        "source": "Orçamento da Região Autónoma da Madeira para 2026; Autoridade Tributária official IRS tables"
+      }
+    ],
+    "missing_topics": [
+      "Explicit explanation of CIRS art. 17 residence in an autonomous region, separate from general Portuguese tax residence",
+      "Official 2026 Madeira IRS table/source, not only MCS commercial summaries",
+      "Separate treatment of Categoria F rental autonomous rates instead of grouping them under the 28% capital-income rate",
+      "Separate treatment of different Categoria G capital gains: real estate, securities, crypto and mandatory aggregation cases",
+      "Clear note that NHR can still apply to existing/transitional taxpayers and IFICI is not a universal replacement"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4022,
+    "prompt_tokens": 3171,
+    "total_tokens": 7193
+  },
+  "model": "gpt-5.5"
+}

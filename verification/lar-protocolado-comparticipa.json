@@ -1,0 +1,84 @@
+{
+  "guideId": "lar-protocolado-comparticipa",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but the payment section materially understates typical ERPI comparticipação and should be corrected because it can create false expectations about subsidised-place costs.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«на практике часто 25–75% пенсии/дохода»",
+        "problem": "For ERPI places under cooperation agreements, the user/family contribution is commonly calculated by the institution's regulamento using rendimento per capita and is often around 75% or more of the elderly person's income, with possible increases and/or additional family contribution. Presenting 25% as a common practical lower bound is misleading for ERPI/lar protocolado and risks making readers expect monthly fees far below what IPSS commonly charge.",
+        "suggestion": "Replace with: «на практике mensalidade часто считается по rendimento per capita и в ERPI нередко составляет около 75–85/90% дохода пользователя, плюс возможная comparticipação dos descendentes/família и отдельные расходы; точный расчёт делает IPSS по своему regulamento interno в рамках правил cooperação.»",
+        "confidence": "medium",
+        "source": "Portaria 196-A/2015; ISS guidance on social responses/comparticipações familiares; regulamentos internos of IPSS ERPI"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].text",
+        "current": "«Ориентир, который часто встречается на практике: 25–75% пенсии/дохода пожилого человека.»",
+        "problem": "The stated range is too low and too broad for a practical ERPI protocolado rule of thumb. A 25% contribution may occur only in specific low-income/aggregate situations or other social responses, but is not a reliable ERPI expectation. ERPI regulamentos commonly use high percentages of rendimento per capita and may also assess descendants' contribution.",
+        "suggestion": "Write instead: «Не существует единой “цены”; IPSS применяет формулу comparticipação familiar из своего regulamento interno. Для ERPI ориентир чаще ближе к высокой доле дохода пользователя — примерно 75–85/90% rendimento per capita — с возможной дополнительной comparticipação семьи и отдельными расходами. Поэтому до въезда нужно запросить расчёт в письменном виде.»",
+        "confidence": "medium",
+        "source": "Portaria 196-A/2015; ISS model cooperation framework; IPSS regulamentos internos for ERPI"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[0]",
+        "current": "«Если пенсия 500 €, ориентировочная mensalidade может быть около 125–375 €»",
+        "problem": "This example follows the misleading 25–75% range. For an ERPI protocolado place, €125 on a €500 pension is likely to be an unrealistic expectation unless there are exceptional social/aggregate factors. Many readers will understand this as a normal subsidised ERPI price.",
+        "suggestion": "Replace with a caveated example: «Если пенсия 500 €, mensalidade часто может быть ближе к 375–450 € до учёта отдельных расходов, но точная сумма зависит от rendimento per capita, regulamento interno, grau de dependência и возможной comparticipação семьи.»",
+        "confidence": "medium",
+        "source": "ISS guidance on comparticipações familiares; IPSS ERPI regulamentos internos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[1]",
+        "current": "«Если пенсия 900 €, ориентировочно 225–675 €»",
+        "problem": "The low end is misleading for ERPI. A €225 monthly contribution on a €900 pension is not a sound rule-of-thumb for a protocolado ERPI place; calculated contributions are often materially higher and may be supplemented by family contribution and extras.",
+        "suggestion": "Replace with: «Если пенсия 900 €, mensalidade может быть существенно выше — часто около 675–765/810 € до отдельных расходов, но IPSS обязана показать расчёт по своему regulamento.»",
+        "confidence": "medium",
+        "source": "ISS guidance on comparticipações familiares; IPSS ERPI regulamentos internos"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "amountEURMin: 125, amountEURMax: 675; note: «Пример для пенсии 500–900 € при практическом диапазоне 25–75%»",
+        "problem": "The cost range is derived from the problematic 25–75% assumption and materially understates likely ERPI protocolado payments, especially the lower bound. It should not be presented as a general 2026 cost expectation.",
+        "suggestion": "Either remove a fixed min/max and write «рассчитывается индивидуально; часто высокая доля rendimento per capita, возможны extras», or change the example range to something like «375–810 € for pensions of €500–900, before extras», with strong caveats that the IPSS calculation controls.",
+        "confidence": "medium",
+        "source": "ISS guidance on comparticipações familiares; IPSS ERPI regulamentos internos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[4]",
+        "current": "«Есть NIF; желательно NISS и número de utente SNS»",
+        "problem": "For an actual subsidised ERPI process, NISS is usually more than merely 'desirable': it is commonly needed for interaction with Segurança Social and social assessment. Número de utente is important for health documentation but not a substitute for NISS.",
+        "suggestion": "Write: «Есть NIF; NISS обычно понадобится для взаимодействия с Segurança Social/оценки; número de utente SNS нужен для медицинской части и доступа к SNS.»",
+        "confidence": "medium",
+        "source": "Segurança Social; SNS"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include Portaria 196-A/2015 but no direct source for user/family contribution calculation.",
+        "problem": "The guide makes sensitive claims about mensalidade and family contribution but does not cite a specific ISS guide, cooperation protocol, or official/legal basis for comparticipação familiar. Portaria 196-A/2015 is relevant for cooperation, but it is not enough by itself to support the practical percentages stated in the article.",
+        "suggestion": "Add an official ISS source specifically on apoios sociais/respostas sociais para pessoas idosas and comparticipação familiar, and/or cite the applicable cooperation protocol/model rules plus advise readers to request the ERPI regulamento interno.",
+        "confidence": "high",
+        "source": "Segurança Social / Instituto da Segurança Social guidance on idosos and respostas sociais"
+      }
+    ],
+    "missing_topics": [
+      "Explain that ERPI user contribution is not a simple percentage of pension only: it may use rendimento per capita, aggregate/family situation, assets/income, and the institution's regulamento interno.",
+      "Mention that readers should ask the IPSS for a written pre-admission simulation of comparticipação familiar, list of extras, and whether descendants/family will be asked to sign or pay.",
+      "Add a caveat that licensing/quality complaints about ERPI are separate from getting a protocolado place and may involve Segurança Social inspection channels."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2684,
+    "prompt_tokens": 3363,
+    "total_tokens": 6047
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,104 @@
+{
+  "guideId": "w8ben-eua-clientes",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is mostly useful, but it repeatedly cites the wrong treaty article for independent personal services and overstates “0% treaty rate” for services without explaining the U.S.-source income rule.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[2]",
+        "current": "independent personal services: Article 15, обычно 0% без fixed base в США и при отсутствии длительного физического присутствия в США",
+        "problem": "In the U.S.–Portugal income tax treaty, independent personal services are covered by Article 14, not Article 15. Article 15 is for dependent personal services/employment income. This is a substantive treaty-reference error and can lead users to enter the wrong article in Line 10 / platform tax interviews.",
+        "suggestion": "Replace with: \"independent personal services: Article 14, обычно 0% без fixed base в США и при отсутствии длительного физического присутствия в США\".",
+        "confidence": "high",
+        "source": "Convention Between the United States of America and the Portuguese Republic for the Avoidance of Double Taxation, Articles 14 and 15"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[0].text",
+        "current": "Для услуг, выполненных физически из Португалии, обычно используют Article 7 Business Profits или Article 15 Independent Personal Services.",
+        "problem": "Article 15 is incorrectly described as Independent Personal Services. Under the Portugal–U.S. treaty, Article 14 is Independent Personal Services; Article 15 is Dependent Personal Services.",
+        "suggestion": "Replace with: \"Для услуг, выполненных физически из Португалии, обычно используют Article 7 Business Profits или Article 14 Independent Personal Services — зависит от того, как платформа квалифицирует доход и статус получателя.\"",
+        "confidence": "high",
+        "source": "Convention Between the United States of America and the Portuguese Republic for the Avoidance of Double Taxation, Articles 7, 14, 15"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[0].content[1].items[0]",
+        "current": "Article: 7 или 15 — зависит от формулировки платформы",
+        "problem": "Wrong treaty article for independent personal services. Users following this example may claim Article 15 when they should claim Article 14, or Article 7 depending on the income characterization.",
+        "suggestion": "Replace with: \"Article: 7 или 14 — зависит от формулировки платформы и квалификации дохода\".",
+        "confidence": "high",
+        "source": "U.S.–Portugal income tax treaty, Articles 7 and 14"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "обычно 0% для услуг/бизнес-дохода без постоянного представительства в США",
+        "problem": "This is broadly directionally correct but misleading as phrased. For services physically performed outside the United States, the main reason there is usually no U.S. withholding is often U.S. source-of-income rules: compensation for services is generally sourced where the services are performed. Treaty Article 7/14 is a fallback or platform-specific way to document the position, not always the primary reason. The current phrasing can make users think all service payments from U.S. clients require a treaty claim at 0%.",
+        "suggestion": "Clarify: \"Для услуг, физически выполненных из Португалии, доход обычно не является U.S.-source services income; W-8BEN подтверждает foreign status. Если платформа всё же просит treaty claim, обычно смотрят Article 7 или Article 14 и отсутствие PE/fixed base в США.\"",
+        "confidence": "high",
+        "source": "IRS Publication 515; Internal Revenue Code sourcing rules for compensation for services; U.S.–Portugal treaty Articles 7 and 14"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[0]",
+        "current": "услуги фрилансера, оказанные из Португалии: обычно 0% в США, если нет permanent establishment / fixed base в США",
+        "problem": "The statement omits the key non-treaty sourcing point: services performed outside the United States are generally foreign-source income for U.S. tax purposes. The absence of PE/fixed base matters for treaty protection if the income is otherwise within the U.S. taxing net, but for many remote services the income is not U.S.-source in the first place.",
+        "suggestion": "Write: \"услуги фрилансера, физически оказанные из Португалии: обычно не U.S.-source income и не подлежат U.S. withholding; если платформа просит treaty article, обычно используют Article 7 или Article 14 при отсутствии PE/fixed base в США\".",
+        "confidence": "high",
+        "source": "IRS Publication 515; U.S.–Portugal treaty Articles 7 and 14"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[0]",
+        "current": "дивиденды США: обычно Categoria E; возможен foreign tax credit за 15% withholding в США",
+        "problem": "For Portuguese tax filing, foreign-source dividends are normally reported in Modelo 3 via Anexo J, not simply in the domestic Categoria E annex context. Categoria E is the income category, but the practical filing location for foreign income should be stated to avoid confusion.",
+        "suggestion": "Change to: \"дивиденды США: Categoria E, обычно декларируются в Modelo 3 / Anexo J как foreign-source income; возможен foreign tax credit за U.S. withholding в пределах португальских правил\".",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — Modelo 3 IRS / Anexo J instructions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[1]",
+        "current": "capital gains по акциям/ETF: обычно Categoria G; США чаще не удерживают налог, но Португалия облагает по своим правилам",
+        "problem": "Same practical filing caveat: foreign-source capital gains for Portuguese residents are typically reported through Anexo J, with Categoria G characterization. The current wording is not false, but may mislead users looking for the correct annex.",
+        "suggestion": "Change to: \"capital gains по акциям/ETF: Categoria G, для иностранных брокеров обычно Anexo J; США чаще не удерживают налог, но Португалия облагает по своим правилам\".",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — Modelo 3 IRS / Anexo J instructions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[5]",
+        "current": "capital gains по обычным акциям США: обычно 0% withholding в США, но декларируются в Португалии",
+        "problem": "Correct for ordinary U.S. listed shares in typical brokerage accounts, but it should warn that this does not cover FIRPTA/USRPI, U.S. real-estate-heavy entities, certain PTPs, or effectively connected income. Without the caveat, users may overgeneralize the 0% statement.",
+        "suggestion": "Add caveat: \"Это не относится к U.S. real property interests/FIRPTA, некоторым PTP/MLP и effectively connected income.\"",
+        "confidence": "high",
+        "source": "IRS Publication 515; FIRPTA rules under IRC section 897"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[7]",
+        "current": "Line 9 / Treaty country: Portugal, если вы налоговый резидент Португалии",
+        "problem": "A Portuguese NIF and Portuguese address are not by themselves enough. To claim treaty benefits the person must be a resident of Portugal within the meaning of the treaty, and dual-resident cases may require tie-breaker analysis. The guide hints at this later, but Line 9 is a sensitive field and should state it directly.",
+        "suggestion": "Change to: \"Line 9 / Treaty country: Portugal — только если вы являетесь налоговым резидентом Португалии для целей Portugal–US treaty; при dual residency нужен tie-breaker analysis.\"",
+        "confidence": "medium",
+        "source": "U.S.–Portugal income tax treaty, Article 4; IRS Instructions for Form W-8BEN"
+      }
+    ],
+    "missing_topics": [
+      "Add a short explanation that remote services physically performed outside the U.S. are generally foreign-source under U.S. sourcing rules, so W-8BEN often documents foreign status rather than creating a treaty exemption.",
+      "Mention that independent personal services under the Portugal–U.S. treaty are Article 14, while Article 15 is employment/dependent personal services.",
+      "For Portugal reporting, mention Anexo J for foreign dividends, foreign interest, foreign royalties and foreign capital gains.",
+      "Add caveat for U.S. capital gains exceptions: FIRPTA/USRPI, PTP/MLP withholding, effectively connected income.",
+      "Add a caveat that treaty benefits require Portuguese treaty residence, not merely having a Portuguese NIF or address."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3142,
+    "prompt_tokens": 3914,
+    "total_tokens": 7056
+  },
+  "model": "gpt-5.5"
+}

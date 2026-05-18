@@ -19,25 +19,26 @@ export default {
       title: 'Частота техосмотра',
       content: [
         { kind: 'substeps', items: [
-          { id: 'f1', title: 'Легковые автомобили (категория B, до 3.5 т)', content: [
+          { id: 'f1', title: 'Лёгкие пассажирские (категория ТС M1, до 3.5 т)', content: [
             { kind: 'checklist', items: [
+              'NB: «категория M1» — это категория транспортного средства по DL 16/2010; не путать с «категорией B» водительского удостоверения',
               'Новый: первый IPO через 4 года с даты регистрации',
               'От 4 до 8 лет: раз в 2 года',
               'После 8 лет: ежегодно',
               'Такси / аренда / автошкола / коммерческий автопарк: ежегодно независимо от возраста'
             ]}
           ]},
-          { id: 'f2', title: 'Мотоциклы', content: [
-            { kind: 'paragraph', text: 'Первый IPO через 4 года, далее каждые 2 года (независимо от возраста).' }
+          { id: 'f2', title: 'Мотоциклы (категория L > 125 см³)', content: [
+            { kind: 'paragraph', text: 'IPO обязательно для мотоциклов категории L с рабочим объёмом > 125 см³. Периодичность по специальной таблице DL 144/2017 (для большинства L-категорий — первый IPO через 4 года, затем каждые 2 года). Для L1e/мопедов до 50 см³ IPO как правило не требуется.' }
           ]},
-          { id: 'f3', title: 'Грузовые > 3.5 т и автобусы', content: [
-            { kind: 'paragraph', text: 'Ежегодно с первого года использования.' }
+          { id: 'f3', title: 'Грузовые > 3.5 т (N2/N3) и автобусы (M2/M3)', content: [
+            { kind: 'paragraph', text: 'Первый IPO через 1 год после регистрации, далее по таблице: до 8 лет — раз в год, после 8 лет — обычно каждые 6 мес для тяжёлых пассажирских (M2/M3). Точная периодичность — DL 144/2017 + Portaria 178/2023.' }
           ]},
           { id: 'f4', title: 'Электромобили и гибриды', content: [
-            { kind: 'paragraph', text: 'Те же сроки. Дополнительно — проверка изоляции высоковольтной проводки.' }
+            { kind: 'paragraph', text: 'Те же сроки для категории M1. Дополнительно — проверка изоляции высоковольтной проводки.' }
           ]}
         ]},
-        { kind: 'warning', text: 'Срок IPO записан на стикере под лобовым стеклом и в Portal das Contra-Ordenações (IMT). Просрочка — штраф 250–1250 €.' }
+        { kind: 'warning', text: 'Обязательная наклейка/стикер IPO на лобовом стекле в Португалии отменён — срок подтверждается ficha/certificado de inspeção (электронный/бумажный) и записью в системе IMT. На границе/при контроле PSP проверяют по базе. Просрочка — штраф 250–1250 €.' }
       ]
     },
     {
@@ -94,7 +95,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Aprovado (зелёный)', content: [
-            { kind: 'paragraph', text: 'Получаете новую наклейку и обновлённый DUA. Всё в IMT автоматически.' }
+            { kind: 'paragraph', text: 'Получаете **ficha/certificado de inspeção** (бумажный или электронный) с датой следующего IPO. DUA при обычном IPO **не обновляется** — он перевыпускается только при изменении технических данных (например, после ремонта рамы/двигателя). Всё в IMT автоматически.' }
           ]},
           { id: 'r2', title: 'Aprovado com Deficiências Ligeiras (оранжевый)', content: [
             { kind: 'paragraph', text: 'Прошли, но нужны мелкие исправления — они зафиксированы в протоколе. Пересдавать не нужно, исправить до следующего IPO.' }
@@ -112,7 +113,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'IPO для легкового автомобиля (категория B)', amountEURMin: 30, amountEURMax: 40 },
+    { label: 'IPO для лёгкого пассажирского ТС (категория M1)', amountEURMin: 30, amountEURMax: 40 },
     { label: 'Мотоцикл', amountEURMin: 20, amountEURMax: 28 },
     { label: 'Повторный IPO (пересдача)', amountEURMin: 12, amountEURMax: 18 },
     { label: 'Штраф за просрочку IPO', amountEURMin: 250, amountEURMax: 1250 }
@@ -123,6 +124,6 @@ export default {
     { title: 'Portaria n.º 178/2023 — tarifas e periodicidade', url: 'https://dre.pt/dre/detalhe/portaria/178-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Fazer a inspeção periódica do veículo', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/realizar-a-inspecao-periodica-ao-veiculo-ipo-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
-  verifyIntervalDays: 365
+  lastVerified: '2026-05-18',
+  verifyIntervalDays: 180
 }

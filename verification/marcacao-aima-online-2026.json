@@ -1,0 +1,94 @@
+{
+  "guideId": "marcacao-aima-online-2026",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is practically useful and mostly aligned with 2026 reality, but it over-generalizes portal-rf as a main AIMA entry point, has an imprecise/possibly wrong legal attribution for Manifestação de Interesse, lacks the official fee-table source, and cites a misleading Diário da República URL.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Основной вход — aima.gov.pt и portal-rf.aima.gov.pt",
+        "problem": "portal-rf.aima.gov.pt is not a universal/main AIMA booking portal for all residence-permit workflows. It is a specific portal, notably associated with reagrupamento familiar/family-reunification workflows, and should not be presented next to aima.gov.pt as a general entry point for D1-D8, renewals, replacements, etc. This can send readers into the wrong workflow.",
+        "suggestion": "Write instead: \"Основной вход — aima.gov.pt; отдельные процессы AIMA может перенаправлять на специальные порталы, например portal-rf.aima.gov.pt для reagrupamento familiar, если ваш случай туда относится.\"",
+        "confidence": "high",
+        "source": "AIMA official service pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].title",
+        "current": "2. Пробовать онлайн: aima.gov.pt и portal-rf.aima.gov.pt",
+        "problem": "The title again suggests that portal-rf is a general online booking route. The body text is more cautious, but the heading is misleading for readers scanning the guide.",
+        "suggestion": "Rename to: \"2. Пробовать онлайн: aima.gov.pt и специальные порталы, если AIMA туда направляет\". In the checklist, add: \"portal-rf.aima.gov.pt используйте только если ваш процесс действительно относится к этому порталу, например reagrupamento familiar.\"",
+        "confidence": "high",
+        "source": "AIMA official service pages"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[2]",
+        "current": "Manifestação de Interesse: старый режим закрыт Lei 61/2025 с 23.10.2025; не планируйте workflow как в 2022–2024",
+        "problem": "This is too compressed and potentially misleading. The Manifestação de Interesse route under the old arts. 88/89 workflow was already ended in 2024 by the immigration-law changes introduced by Decreto-Lei 37-A/2024. Lei 61/2025 may be relevant to the later consolidated regime and is in force from 23.10.2025, but readers may wrongly infer that MI remained normally available until 23.10.2025.",
+        "suggestion": "Write instead: \"Manifestação de Interesse: старый workflow arts. 88/89 больше не является доступным путём для новых заявок; он был закрыт реформой 2024 года, а последующие изменения Lei 61/2025 действуют с 23.10.2025. Не планируйте процесс как в 2022–2024; для старых pending cases проверяйте переходные правила отдельно.\"",
+        "confidence": "medium",
+        "source": "Decreto-Lei 37-A/2024; Lei 61/2025"
+      },
+      {
+        "severity": "major",
+        "where": "sources[2]",
+        "current": "\"title\": \"Lei 61/2025 — изменения миграционного режима, в силе с 23.10.2025\", \"url\": \"https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275\"",
+        "problem": "The URL points to consolidated legislation for the foreigners law, not directly to the Diário da República page for Lei 61/2025. The title promises the specific amending law, so the reference is misleading and hard to verify.",
+        "suggestion": "Use two separate sources: one exact Diário da República URL for Lei 61/2025, and one consolidated Lei 23/2007 link if you want the current consolidated regime. Title the consolidated link as \"Lei 23/2007 — versão consolidada\" rather than \"Lei 61/2025\".",
+        "confidence": "high",
+        "source": "Diário da República"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[9]",
+        "current": "Деньги на сборы: после 01.03.2026 admission стоит 133 €, стандартный art. 75 — 307,20 €",
+        "problem": "The fee values appear plausible for the post-01.03.2026 AIMA table, but the guide gives no direct official source for these sensitive numbers. Also \"admission\" is not a clear Portuguese administrative-fee label for readers; it should be tied to the exact item in the AIMA fee table.",
+        "suggestion": "Keep the amounts only with a direct source and clearer wording, e.g. \"по таблице AIMA, действующей с 01.03.2026: taxa de receção/análise do pedido — 133 €; emissão/concessão de AR art. 75 — 307,20 €; проверяйте строку таблицы для вашего основания.\" Add the official AIMA fee-table source to sources.",
+        "confidence": "high",
+        "source": "AIMA fee table in force from 01.03.2026; Portaria 480-A/2025/1"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[1]",
+        "current": "\"label\": \"AIMA admission fee после 01.03.2026\", \"amountEUR\": 133",
+        "problem": "Same issue as above: \"admission fee\" is ambiguous and not enough to identify the exact legal/tariff item. Readers may think this is always charged for every appointment.",
+        "suggestion": "Rename to the exact fee-table concept and add a caveat: \"Taxa de receção/análise do pedido, если применимо\". Keep the note that it depends on the type of pedido.",
+        "confidence": "high",
+        "source": "AIMA fee table in force from 01.03.2026; Portaria 480-A/2025/1"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "No source for AIMA fees is listed.",
+        "problem": "The guide quotes exact 2026 AIMA amounts but sources only include AIMA homepage, ePortugal homepage, and a consolidated-law link. For exact fees, a homepage is not enough.",
+        "suggestion": "Add an official source specifically for the AIMA 2026 fee table, preferably the AIMA page/PDF for \"Tabela de Taxas\" in force from 01.03.2026 and/or the relevant Portaria.",
+        "confidence": "high",
+        "source": "AIMA fee table in force from 01.03.2026; Portaria 480-A/2025/1"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "Там могут помочь открыть ePortugal/AIMA, проверить доступ, распечатать доказательства, иногда направить к правильному balcão или объяснить, какой сервис сейчас активен.",
+        "problem": "This is mostly fair, but it may still overstate what Espaço Cidadão can do for AIMA. Espaço Cidadão support depends on the specific counter and on which AIMA/ePortugal mediated services are active. They generally cannot submit or alter most residence-permit processes unless that exact service is available through the assisted-digital-service channel.",
+        "suggestion": "Add a caveat: \"Возможности зависят от конкретного Espaço Cidadão и от того, есть ли активный serviço mediado для вашего типа процесса; большинство решений по ВНЖ они не принимают и не заменяют atendimento AIMA.\"",
+        "confidence": "medium",
+        "source": "ePortugal Espaço Cidadão service information"
+      }
+    ],
+    "missing_topics": [
+      "A direct official source for the AIMA fee table effective from 01.03.2026 should be included because exact fee amounts are quoted.",
+      "Clarify that portal-rf.aima.gov.pt is process-specific, not a generic appointment system for all AIMA residence-permit cases.",
+      "Clarify transitional treatment for old pending Manifestação de Interesse cases versus new applications after the 2024 closure and later Lei 61/2025 changes.",
+      "Mention that AIMA appointment/notification links and channels change frequently; readers should verify the exact service page for their visa category or residence-permit basis before using any portal."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2984,
+    "prompt_tokens": 3681,
+    "total_tokens": 6665
+  },
+  "model": "gpt-5.5"
+}

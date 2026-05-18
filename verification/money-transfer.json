@@ -3,221 +3,148 @@
   "categoryId": "banking",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Guide is useful but has several material legal/tax inaccuracies around EU sanctions exceptions, AML thresholds, crypto channels, and Portuguese tax reporting.",
+    "summary": "Guide is broadly useful, but it contains several tax-reporting inaccuracies and some sanctions/AML statements are over-simplified or sourced to the wrong legal instruments.",
     "issues": [
       {
         "severity": "major",
-        "where": "steps[0].content[1].items[1]",
-        "current": "Лимит 100 000 € на депозиты граждан РФ в ЕС-банках (Regulation 833/2014, Ст. 5b)",
-        "problem": "Misleading scope: the EU deposit restriction is not a blanket limit for all Russian citizens. It applies to Russian nationals or natural persons residing in Russia, but there is an important exemption for people with temporary or permanent residence permits in an EU Member State, EEA country or Switzerland. A Russian citizen legally resident in Portugal is generally outside this specific deposit ban.",
-        "suggestion": "Write: «Запрет принимать депозиты свыше 100 000 € применяется к гражданам РФ и лицам, проживающим в РФ, но не применяется к гражданам/резидентам ЕС, ЕЭЗ или Швейцарии, включая обладателей ВНЖ в Португалии. Банковский AML/KYC всё равно действует.»",
-        "confidence": "high",
-        "source": "Council Regulation (EU) No 833/2014, Article 5b"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[1].items[2]",
-        "current": "Запрет на принятие депозитов > 100 000 € от граждан РФ в банке ЕС (применяется с 2022)",
-        "problem": "Duplicates the previous item and repeats the same overbroad wording. It should not say simply «от граждан РФ» without the residence-permit exception.",
-        "suggestion": "Merge with the previous bullet and include the EU/EEA/Swiss residence-permit exemption.",
-        "confidence": "high",
-        "source": "Council Regulation (EU) No 833/2014, Article 5b"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[0].content[1].items[0]",
-        "current": "Отключение от SWIFT — Sberbank, VTB, Otkritie, Rossiya, Promsvyazbank, Novikombank, Sovcombank, VEB и ряд других (список в Regulation (EU) 2022/328 и последующих)",
-        "problem": "The citation is imprecise. Regulation 2022/328 is one sanctions amendment, but the SWIFT prohibition and bank list are in Article 5h and Annex XIV of Regulation 833/2014 as amended by later acts. Sberbank was added later, not by the initial 2022/328 text.",
-        "suggestion": "Write: «…см. Article 5h и Annex XIV к Regulation 833/2014 в актуальной консолидированной редакции; список менялся последующими регламентами.»",
-        "confidence": "high",
-        "source": "Council Regulation (EU) No 833/2014, Article 5h and Annex XIV"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[0].items[0].content[0].text",
-        "current": "Несколько банков НЕ входят в SWIFT-санкции и позволяют переводы в EUR/USD в ЕС:",
-        "problem": "Overstates practical availability. Even if a Russian bank is not on the EU sanctions list, correspondent banks and EU receiving banks often reject or return transfers from Russia on internal-risk grounds. USD wires are especially difficult because US correspondent-bank sanctions/compliance may apply even when the EU does not list the bank.",
-        "suggestion": "Write: «Некоторые банки РФ не находятся под блокирующими санкциями ЕС/SWIFT-запретом, но фактическая возможность EUR/USD-перевода зависит от корреспондентских банков и compliance принимающего банка; перевод может быть отклонён без объяснения.»",
-        "confidence": "high",
-        "source": "Council Regulation (EU) No 833/2014; bank AML/compliance practice"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[0].items[0].content[1].items[3]",
-        "current": "Ежемесячный лимит вывода из РФ — 1 млн долл для физлиц (для резидентов PT)",
-        "problem": "Ambiguous and potentially misleading. Russian capital-control limits are set by the Bank of Russia and depend on Russian currency-residency status, nationality/residence of the sender and recipient, transaction type, and current temporary extensions. «для резидентов PT» is not the relevant legal category in Russian currency-control rules.",
-        "suggestion": "Write: «По правилам Банка России действуют временные лимиты на переводы за рубеж; лимит и право перевода зависят от валютного статуса отправителя/получателя и регулярно продлеваются/меняются. Проверяйте актуальное сообщение ЦБ РФ перед переводом.»",
-        "confidence": "medium",
-        "source": "Bank of Russia temporary capital-control measures"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[0].items[1].content[2].text",
-        "current": "При получении от 10 000 € — подготовить documents source of funds.",
-        "problem": "This implies a hard banking threshold at €10,000. For bank transfers, AML checks are risk-based and can happen below €10,000; conversely a transfer above €10,000 does not automatically mean one fixed document package. The €10,000 figure is a customs cash-declaration threshold, not a universal bank-transfer AML threshold.",
-        "suggestion": "Write: «Готовьте source-of-funds/source-of-wealth документы для любых нетипичных или крупных поступлений; банк может запросить их и ниже 10 000 €, особенно при переводах из/через high-risk jurisdictions.»",
-        "confidence": "high",
-        "source": "Lei 83/2017; Banco de Portugal AML supervision guidance"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[0].items[2].content[1].items[2]",
-        "current": "Wise — похожая политика",
-        "problem": "Too vague for a sensitive operational claim. Wise/Revolut onboarding for Russian and Belarusian nationals/residents is sanctions-driven and changes by citizenship, residence permit, address, and document set. Users need to know that a Portuguese address alone may be insufficient; providers may require proof of EU/EEA residence and may refuse Russian/Belarusian passports or Russia/Belarus residents under their current policies.",
-        "suggestion": "Replace with: «Wise/Revolut: проверяйте текущую политику провайдера. Обычно критичны не только адрес в PT, но и ВНЖ/карта резидента ЕС/ЕЭЗ; клиенты с адресом/налоговым резидентством в РФ/РБ или без подтверждённого EU/EEA residence могут быть отклонены или ограничены.»",
-        "confidence": "medium",
-        "source": "Wise and Revolut sanctions/restricted countries customer policies"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[1].content[0].items[3].content[0].text",
-        "current": "Легальная схема: купить USDT/USDC/BTC на российской бирже → перевести на Kraken/Bitstamp/Binance → продать за EUR → вывести на PT-IBAN.",
-        "problem": "Potentially sanctions-misleading. EU sanctions restrict provision of crypto-asset wallet/account/custody services to Russian nationals or persons residing in Russia, with an exemption for EU/EEA/Swiss residents. An EU exchange may not legally service a Russia-resident Russian user. Also Binance exited Russia and is not an appropriate example of a stable regulated EU off-ramp.",
-        "suggestion": "Write: «Крипто-канал возможен только если обе стороны и биржи соблюдают sanctions/KYC. EU/EEA exchanges generally require proof that a Russian national is resident in the EU/EEA/Switzerland; Russia-resident clients may be refused. Используйте только лицензированные/зарегистрированные VASP/CASP, проверяйте доступность Kraken/Bitstamp/Coinbase и не указывайте Binance как надёжный EU-off-ramp.»",
-        "confidence": "high",
-        "source": "Council Regulation (EU) No 833/2014, crypto-asset wallet/account/custody restrictions; Binance Russia exit 2023"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[0].items[3].content[1].items[1]",
-        "current": "Налоги: в PT прирост капитала от крипты облагается с 2023 (28% на held < 1 года, 0% > 1 года)",
-        "problem": "Oversimplified. Portugal taxes certain crypto gains held for less than 365 days at 28% unless aggregated, but the >365-day exclusion has exceptions and does not apply to all crypto-assets/transactions; income from mining, staking, professional trading, or remuneration can be taxed under other categories. Transactions through blacklisted jurisdictions can also change treatment.",
-        "suggestion": "Write: «Капитальный прирост по crypto-assets, удержанным менее 365 дней, обычно облагается 28% или по aggregation; при удержании более 365 дней многие gains исключаются, но есть исключения. Mining/staking/remuneration/professional activity и операции через blacklisted jurisdictions могут облагаться иначе.»",
-        "confidence": "high",
-        "source": "Código do IRS, Article 10 and Article 72 crypto-asset rules introduced by Orçamento do Estado 2023"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[0].items[3].content[1].items[2]",
-        "current": "Banco de Portugal мониторит крипто-переводы",
-        "problem": "Imprecise. Banco de Portugal registers and supervises certain VASPs for AML/CFT purposes, but it does not literally monitor every crypto transfer. Banks and obliged entities perform transaction monitoring and may report suspicious activity.",
-        "suggestion": "Write: «Banco de Portugal ведёт AML/CFT-регистрацию и надзор VASP; банки и биржи мониторят операции и могут запрашивать документы/сообщать о подозрительных транзакциях.»",
-        "confidence": "high",
-        "source": "Banco de Portugal — virtual asset service providers AML/CFT registration"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[0].items[4].content[0].text",
-        "current": "Лимит декларирования в ЕС: 10 000 € или эквивалент. Свыше — обязательная декларация на таможне.",
-        "problem": "The EU declaration threshold is €10,000 or more, not only above €10,000. It also covers certain bearer negotiable instruments, commodities used as highly liquid stores of value, and unaccompanied cash disclosure rules.",
-        "suggestion": "Write: «При въезде/выезде из ЕС наличные и приравненные инструменты на сумму 10 000 € или более подлежат декларированию; для несопровождаемых средств возможна обязанность раскрытия по требованию таможни.»",
-        "confidence": "high",
-        "source": "Regulation (EU) 2018/1672 on controls on cash entering or leaving the Union"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[0].text",
-        "current": "Для сумм от 10 000-15 000 € PT-банк обязан запросить source of funds.",
-        "problem": "Incorrect legal framing. Portuguese banks are not automatically «obliged» to request source-of-funds only from €10,000–15,000. AML is risk-based; enhanced due diligence can be triggered by geography, customer profile, sanctions exposure, unusual patterns, cash, crypto, or documentation gaps at any amount.",
-        "suggestion": "Write: «PT-банк может запросить source of funds/source of wealth при любой нетипичной операции; на практике особенно часто — при крупных, трансграничных, санкционно-чувствительных, cash/crypto или плохо документированных поступлениях.»",
-        "confidence": "high",
-        "source": "Lei 83/2017; Banco de Portugal Aviso 1/2022"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[2].text",
-        "current": "Все документы — апостилированы + присяжный перевод на португальский. Документы старше 6 мес часто не принимают.",
-        "problem": "Overbroad and partly wrong. Portuguese banks do not require every bank statement, tax return, salary slip, or brokerage report to be apostilled. Portugal also does not have a single official «sworn translator» system like some countries; certified translations are typically certified by notary, lawyer/solicitador, consulate, chamber of commerce, etc. The 6-month rule is document-specific, not universal.",
-        "suggestion": "Write: «Для официальных актов из-за рубежа может потребоваться apostille/legalisation и certified translation. Банковские выписки, налоговые декларации и брокерские отчёты часто принимают без apostille, но банк может запросить перевод или заверение. Требования и “freshness” документов зависят от банка и типа документа.»",
-        "confidence": "high",
-        "source": "Portuguese notarial/certified translation practice; Hague Apostille Convention"
-      },
-      {
-        "severity": "major",
         "where": "steps[3].content[0].items[3]",
-        "current": "💼 Доход (дивиденды, процент) — облагается по Anexo E в IRS",
-        "problem": "For foreign-source dividends and interest, a Portuguese tax resident generally reports them in Anexo J, not Anexo E. Anexo E is for Portuguese-source category E income. This is a concrete filing error for the guide’s target audience receiving foreign income.",
-        "suggestion": "Write: «Дивиденды/проценты из Португалии — Anexo E; иностранные дивиденды/проценты — обычно Anexo J, с возможным foreign tax credit и выбором aggregation/автономной ставки.»",
+        "current": "💼 Доход (дивиденды, проценты) — облагается по Anexo E в IRS",
+        "problem": "For foreign-source dividends/interest, Portuguese tax residents normally report them in Modelo 3 Anexo J, not Anexo E. Anexo E is generally for Portuguese-source capital income. This is a practical filing error for the target audience transferring money from CIS/foreign banks.",
+        "suggestion": "Write: \"💼 Дивиденды/проценты: если источник за пределами Португалии — обычно декларируются в Modelo 3 Anexo J; португальские источники — Anexo E. Налог зависит от резидентства, DTA и выбора агрегации/ставки 28%.\"",
         "confidence": "high",
-        "source": "Modelo 3 IRS instructions — Anexo E and Anexo J"
+        "source": "AT Modelo 3 IRS instructions — Anexos E and J; Código do IRS arts. 5, 22, 71, 72, 81"
       },
       {
         "severity": "major",
-        "where": "steps[3].content[0].items[4]",
-        "current": "🏠 Продажа недвижимости в home-country — возможен налог в PT (минус уплаченный в home)",
-        "problem": "Needs a critical residency-date caveat. Portugal taxes worldwide gains only for Portuguese tax residents. If the foreign property was sold before becoming Portuguese tax resident, it is generally outside Portuguese IRS. If sold while Portuguese tax resident, reporting and taxation depend on capital-gains rules, acquisition date, expenses, treaty relief, and foreign tax credit.",
-        "suggestion": "Write: «Если недвижимость продана до начала налогового резидентства в PT — обычно не декларируется в PT. Если продана уже будучи PT tax resident — foreign capital gain декларируется в Anexo J; возможен foreign tax credit по договору об избежании двойного налогообложения.»",
+        "where": "steps[3].content[0].items[2]",
+        "current": "🎁 Подарок от других лиц — 10% гербового сбора при >500 €",
+        "problem": "This is too broad. Portuguese stamp duty on gratuitous transfers has territorial rules; not every foreign gift is automatically taxable merely because the recipient lives in Portugal. The treatment depends on where the asset/right is located and how the gift is made, and reportability via Modelo 1 may apply. The €500 exclusion is also for donations under the Stamp Duty Code, but the guide should not imply a universal worldwide gift tax.",
+        "suggestion": "Write: \"🎁 Подарки от неосвобождённых лиц: в Португалии может применяться Imposto do Selo 10% к безвозмездным передачам, подпадающим под территориальные правила Португалии; мелкие подарки до 500 € обычно исключены. Для перевода подарка на португальский счёт заранее проверьте обязанность Modelo 1/гербового сбора.\"",
         "confidence": "high",
-        "source": "Código do IRS; Modelo 3 IRS Anexo J instructions"
+        "source": "Código do Imposto do Selo arts. 1, 4, 6, 26; Tabela Geral do Imposto do Selo item 1.2"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].items[5]",
+        "current": "💎 Наследство — 10% гербового сбора, если не 1-я линия",
+        "problem": "Over-simplified and partly misleading. Portuguese stamp duty on inheritances/gifts is not a general worldwide inheritance tax; territoriality matters. The exemption is not phrased as \"1-я линия\" only: spouse or de facto partner, descendants and ascendants are exempt; siblings and other relatives are not. Filing/reporting obligations may still exist.",
+        "suggestion": "Write: \"💎 Наследство/дарение: Imposto do Selo 10% может применяться к безвозмездным передачам, подпадающим под территориальные правила Португалии. Освобождены супруг/união de facto, descendentes и ascendentes; братья/сёстры и другие лица обычно не освобождены. Проверьте Modelo 1 и сроки.\"",
+        "confidence": "high",
+        "source": "Código do Imposto do Selo arts. 1, 4, 6(e), 26; Tabela Geral do Imposto do Selo item 1.2"
       },
       {
         "severity": "minor",
         "where": "steps[3].content[0].items[1]",
-        "current": "🎁 Подарок от родственника 1-й линии (родители/дети/супруг) — НЕ налогооблагается (освобождение Imposto do Selo 10%)",
-        "problem": "Terminology is inaccurate: spouse is not a «1st-line relative». The Portuguese exemption is for spouse or de facto partner, descendants and ascendants. Also stamp duty has territoriality and reporting rules; not every foreign gift is automatically taxable or exempt in the same way.",
-        "suggestion": "Write: «Подарок супругу/união de facto, потомкам или восходящим родственникам освобождён от 10% Imposto do Selo, но может сохраняться обязанность declaration/reporting в зависимости от актива и территориальной связи с Portugal.»",
+        "current": "🎁 Подарок от родственника 1-й линии (родители/дети/супруг) — НЕ налогооблагается (освобождение от гербового сбора 10%)",
+        "problem": "Terminology is inaccurate: a spouse is not a \"родственник 1-й линии\"; the Portuguese exemption covers spouse or de facto partner, descendants and ascendants. Also, the exemption is from stamp duty, not necessarily from bank AML scrutiny or filing requirements.",
+        "suggestion": "Write: \"🎁 Подарок/наследство от супруга или união de facto, родителей/дедушек-бабушек, детей/внуков — освобождение от 10% Imposto do Selo, если операция подпадает под португальские правила; AML-документы и возможная Modelo 1 всё равно могут потребоваться.\"",
         "confidence": "high",
-        "source": "Código do Imposto do Selo, Article 6 and Tabela Geral verba 1.2"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[3].content[0].items[2]",
-        "current": "🎁 Подарок от других — 10% Imposto do Selo при >500 €",
-        "problem": "Too compressed. Portuguese stamp duty on gratuitous transfers depends on the type/location of the asset and territorial connection with Portugal. For taxable gifts, there is also a reporting obligation, typically via Modelo 1 do Imposto do Selo, not just payment of 10%.",
-        "suggestion": "Write: «Подарки от лиц вне exempt circle могут облагаться 10% Imposto do Selo, если есть Portuguese territorial nexus; gifts of small value до 500 € обычно освобождены. Проверяйте обязанность подачи Modelo 1 do Imposto do Selo.»",
-        "confidence": "medium",
-        "source": "Código do Imposto do Selo; AT Modelo 1 do Imposto do Selo guidance"
+        "source": "Código do Imposto do Selo art. 6(e)"
       },
       {
         "severity": "major",
-        "where": "steps[3].content[0].items[6]",
-        "current": "🔖 NHR/IFICI при статусе — может снизить налог",
-        "problem": "Misleading without caveats. NHR is closed to new entrants except transitional cases. IFICI is not a general replacement for NHR and applies only to eligible activities/profiles; it does not automatically reduce tax on transfers, gifts, source-of-funds issues, or all passive foreign income.",
-        "suggestion": "Write: «NHR закрыт для новых заявителей, кроме переходных случаев. IFICI/TISRI — узкий режим для определённых профессий/видов деятельности и не является универсальной льготой для переводов капитала; налоговый эффект по dividends/gains/crypto нужно проверять отдельно.»",
+        "where": "steps[0].content[1].items[2]",
+        "current": "Обязательное документирование источника средств (AML 6-я директива, EU 2018/1673)",
+        "problem": "Directive 2018/1673 is the criminal-law money-laundering directive often called 6AMLD; it is not the main legal basis for customer due diligence/KYC/source-of-funds obligations by Portuguese banks. In Portugal, the core source is Law 83/2017 implementing AMLD4/AMLD5, plus EU transfer-of-funds rules.",
+        "suggestion": "Write: \"Обязательная AML/KYC-проверка и запрос source of funds/source of wealth основаны прежде всего на Lei 83/2017, AMLD4/AMLD5 и правилах ЕС о переводах средств; Directive 2018/1673 касается уголовно-правовых аспектов отмывания денег.\"",
         "confidence": "high",
-        "source": "Portuguese State Budget 2024; Estatuto dos Benefícios Fiscais Article 58-A / IFICI regime"
+        "source": "Lei n.º 83/2017; Directive (EU) 2015/849; Directive (EU) 2018/843; Regulation (EU) 2023/1113"
       },
       {
         "severity": "minor",
-        "where": "tldr",
-        "current": "необанки ЕС (через посредника)",
-        "problem": "Contradicts the later practical warning not to use Telegram/WhatsApp intermediaries and is potentially unsafe. If «посредник» means a third-party person moving money, that is high AML/sanctions risk. If it means routing through your own EU/PT bank, the wording should say so.",
-        "suggestion": "Replace «через посредника» with «после легального onboarding и через собственный SEPA/PT-банк» or remove it.",
-        "confidence": "high",
-        "source": ""
+        "where": "steps[0].content[2].text",
+        "current": "Обход санкций (через подставных лиц, в обход лимитов, с поддельными документами) — уголовно наказуем в ЕС. Возможны до 5 лет тюрьмы + конфискация.",
+        "problem": "The warning is directionally correct, but \"до 5 лет\" is too generic for all EU/Portugal cases. EU Directive 2024/1226 sets minimum maximum penalties for serious sanctions offences, but actual Portuguese penalties depend on transposition/national law and the conduct. The guide should avoid presenting a single universal sentence.",
+        "suggestion": "Write: \"Обход санкций может быть уголовным преступлением в ЕС; по Directive (EU) 2024/1226 государства обязаны предусмотреть серьёзные санкции, включая лишение свободы для тяжких нарушений и конфискацию. Конкретная ответственность зависит от закона страны и фактов.\"",
+        "confidence": "medium",
+        "source": "Directive (EU) 2024/1226"
       },
       {
         "severity": "minor",
-        "where": "sources[0]",
-        "current": "Banco de Portugal — AML и международные переводы https://www.bportugal.pt/",
-        "problem": "The source is only the Banco de Portugal homepage, not a specific AML/CTF page or legal instrument. For claims about AML duties and crypto/VASP supervision, a precise source is needed.",
-        "suggestion": "Use a specific Banco de Portugal AML/CFT supervision page and cite Lei 83/2017 and Banco de Portugal Aviso 1/2022.",
+        "where": "steps[1].content[0].items[0].content[1].items[0]",
+        "current": "Райффайзенбанк (RU) — доступен, но комиссии выросли",
+        "problem": "Calling the channel simply \"доступен\" can mislead: availability of EUR transfers from Russian banks changes frequently and depends on currency, minimum amount, correspondent banks, purpose code, recipient bank and client category. Some banks periodically suspend or severely restrict outgoing transfers.",
+        "suggestion": "Write: \"Райффайзенбанк (RU) — не под блокирующими санкциями ЕС, но исходящие валютные переводы доступны не всегда и зависят от текущих тарифов/лимитов, валюты, корреспондентов и комплаенса банка-получателя; проверять непосредственно перед переводом.\"",
         "confidence": "high",
-        "source": "Lei 83/2017; Banco de Portugal Aviso 1/2022"
+        "source": "EU Sanctions Map; Bank of Russia notices; bank tariff pages"
       },
       {
         "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[1].items[1]",
+        "current": "OTP Bank RU — доступен, лимиты",
+        "problem": "Same issue: \"доступен\" is too categorical for Russian outbound SWIFT in 2026. Non-sanctioned status does not mean a reliable Portugal-bound EUR/USD route.",
+        "suggestion": "Write: \"OTP Bank RU — если не находится под применимыми блокирующими санкциями, возможность SWIFT всё равно зависит от текущих тарифов, корреспондентов, валюты, лимитов ЦБ РФ и комплаенса банка-получателя.\"",
+        "confidence": "medium",
+        "source": "EU Sanctions Map; Bank of Russia notices"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0].content[1].items[2]",
+        "current": "Уникредит RU — доступен, ограничения",
+        "problem": "Same issue: non-sanctioned status is not equivalent to a stable transfer route. The wording may cause readers to rely on a channel that can be unavailable at transaction time.",
+        "suggestion": "Write: \"Уникредит RU — проверяйте санкционный статус и актуальную возможность исходящего SWIFT непосредственно перед переводом; даже несанкционный банк может не иметь рабочего корреспондентского маршрута или получить отказ принимающего банка.\"",
+        "confidence": "medium",
+        "source": "EU Sanctions Map; Bank of Russia notices"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[2].content[1].items[3]",
+        "current": "Тактика: открыть счёт уже после переезда в Португалию (с португальским адресом и ВНЖ), пополнять через португальский банк или SEPA",
+        "problem": "For Wise/Revolut, the relevant requirement is not always specifically a Portuguese residence card; providers may accept or reject based on supported country, proof of legal residence, nationality, sanctions policy and internal risk rules. Conversely, some users may open accounts with other EU/EEA residence evidence before a final Portuguese card. The current wording is safe but too rigid.",
+        "suggestion": "Write: \"Открывать счёт лучше после появления подтверждаемого адреса и законного резидентства в поддерживаемой стране ЕС/ЕЭЗ; конкретно Wise/Revolut могут требовать residence permit/card и вправе отказать гражданам РФ/РБ по внутренней санкционной политике.\"",
+        "confidence": "medium",
+        "source": "Wise and Revolut current acceptable-use/onboarding policies"
+      },
+      {
+        "severity": "major",
         "where": "sources",
-        "current": "No source for EU cash declaration rules",
-        "problem": "The guide states the €10,000 cash declaration rule but does not cite the governing EU regulation.",
-        "suggestion": "Add source: Regulation (EU) 2018/1672 on controls on cash entering or leaving the Union.",
+        "current": "Sources include Banco de Portugal homepage, EU Sanctions Map, Regulation 833/2014, Directive 2018/1673, Portal das Finanças homepage",
+        "problem": "For a guide giving concrete tax and AML claims, the sources are too generic and miss the controlling Portuguese tax statutes and AML law. Portal das Finanças homepage is not enough to support statements about gifts, inheritance, foreign dividends, real-estate gains or crypto taxation.",
+        "suggestion": "Add specific sources: Código do IRS arts. 5, 10, 22, 71, 72, 81; Código do Imposto do Selo arts. 1, 4, 6, 26 and TGIS item 1.2; AT Modelo 3 instructions for Anexos E/J/G/G1; Lei n.º 83/2017; Banco de Portugal AML pages/VASP register; Regulation (EU) 2023/1113 for transfer-of-funds/crypto travel rule.",
         "confidence": "high",
-        "source": "Regulation (EU) 2018/1672"
+        "source": "AT; Diário da República; Banco de Portugal; EUR-Lex"
       },
       {
         "severity": "minor",
-        "where": "sources",
-        "current": "No Portuguese stamp-duty source",
-        "problem": "The tax section makes specific claims about gifts and inheritances but lacks a source for Imposto do Selo.",
-        "suggestion": "Add Código do Imposto do Selo, especially Article 6 and Tabela Geral verba 1.2, plus AT guidance for Modelo 1 do Imposto do Selo.",
+        "where": "steps[1].content[0].items[3].content[1].items[1]",
+        "current": "В Португалии gains по crypto-assets, удержанным <365 дней, обычно облагаются 28% или по агрегации; при удержании ≥365 дней многие gains исключаются, но есть исключения.",
+        "problem": "The statement is mostly correct, but it lacks the practical reporting caveat: even exempt/non-taxed crypto disposals may need to be reported in the IRS return, and the tax treatment depends on whether the activity is private capital gain, business/professional income, remuneration, staking/mining, or blacklisted-jurisdiction transaction.",
+        "suggestion": "Write: \"...при удержании ≥365 дней многие частные gains могут быть исключены, но операции всё равно могут требовать отражения в IRS; mining/staking/remuneration/professional activity, securities-like tokens and blacklisted jurisdictions have different treatment.\"",
+        "confidence": "medium",
+        "source": "Código do IRS arts. 10, 43, 72; AT IRS instructions"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[0]",
+        "current": "Декларация IRS / налоговая декларация за последние 3 года",
+        "problem": "For newcomers from CIS, \"IRS\" may be misunderstood as the US Internal Revenue Service or as only Portuguese IRS. The bank normally wants tax returns from the relevant country/countries of tax residence for the period when the funds were earned.",
+        "suggestion": "Write: \"Налоговые декларации за последние 3 года из страны/стран налогового резидентства; после переезда в Португалию — declaração de IRS portuguesa, если уже подавалась.\"",
         "confidence": "high",
-        "source": "Código do Imposto do Selo"
+        "source": "Portuguese bank AML/KYC practice; Lei n.º 83/2017"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[3]",
+        "current": "Regulation 269/2014 — персональные санкции против лиц в списке (проверить через EU Sanctions Map)",
+        "problem": "EU Sanctions Map is useful, but the legally authoritative check for asset-freeze listings is the consolidated EU financial sanctions list / EUR-Lex legal acts. For high-stakes transfers, relying only on Sanctions Map is not enough.",
+        "suggestion": "Write: \"Проверять через EU Sanctions Map и, для важных операций, по Consolidated list of persons, groups and entities subject to EU financial sanctions / актуальным актам EUR-Lex.\"",
+        "confidence": "high",
+        "source": "European Commission consolidated financial sanctions list; Regulation (EU) 269/2014"
       }
     ],
     "missing_topics": [
-      "EU sanctions exception for Russian nationals with EU/EEA/Swiss residence permits should be stated wherever deposits or crypto services are discussed.",
-      "Portuguese banks may ask for source-of-wealth, not only source-of-funds for the specific transfer.",
-      "Foreign-source interest/dividends/capital gains reporting through Anexo J for Portuguese tax residents.",
-      "Double-tax treaty and foreign tax credit caveats for income/gains from CIS countries.",
-      "EU cash declaration covers €10,000 or more and bearer instruments; local export-cash restrictions in the departure country may also apply.",
-      "Portuguese Modelo 1 do Imposto do Selo reporting for taxable gifts/inheritances.",
-      "Do not rely on sanctions status alone: correspondent-bank, OFAC/UK sanctions, and receiving-bank internal policies can block a transfer even if EU law does not."
+      "Explicit caveat that most Portugal tax consequences discussed apply primarily to Portuguese tax residents; non-residents are taxed differently.",
+      "Portuguese stamp-duty reporting deadline and Modelo 1 for gifts/inheritances where applicable.",
+      "Specific Banco de Portugal/Portuguese AML legal source: Lei n.º 83/2017, not only generic AML references.",
+      "EU crypto sanctions should be tied to the Russia sanctions exception for EU/EEA/Swiss nationals/residence-permit holders and to provider-specific CASP policies.",
+      "Mention that EU banks may apply stricter internal de-risking than sanctions law and may refuse Russia/CIS-origin funds even when the transfer is technically legal.",
+      "For large real-estate sale proceeds, mention reporting of foreign capital gains in Portugal for tax residents and use of double-tax treaty/foreign tax credit where applicable."
     ]
   },
   "usage": {
-    "completion_tokens": 6427,
-    "prompt_tokens": 3388,
-    "total_tokens": 9815
+    "completion_tokens": 5462,
+    "prompt_tokens": 3924,
+    "total_tokens": 9386
   },
   "model": "gpt-5.5"
 }

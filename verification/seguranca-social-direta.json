@@ -1,0 +1,104 @@
+{
+  "guideId": "seguranca-social-direta",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом актуален и полезен, но местами смешивает Segurança Social Direta с обычным сайтом Segurança Social и упрощает режим recibos verdes/пособий без важных оговорок.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].text",
+        "current": "Через портал можно запросить NISS, проверить, платит ли работодатель взносы, подать заявления на пособия...",
+        "problem": "Формулировка вводит в заблуждение: NISS для иностранца запрашивается через публичный онлайн-формуляр Segurança Social/gov.pt, а не внутри личного кабинета Segurança Social Direta. В SSD обычно нельзя войти до получения NISS.",
+        "suggestion": "Заменить на: «На сайте Segurança Social/gov.pt можно запросить NISS через публичный формуляр; после присвоения NISS через Segurança Social Direta можно проверять взносы, подавать заявления на пособия, видеть долги и декларации».",
+        "confidence": "high",
+        "source": "Segurança Social — Pedido de NISS — Cidadão Estrangeiro; gov.pt — Pedir o NISS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[0]",
+        "current": "Запросить NISS для иностранного гражданина",
+        "problem": "В списке возможностей SSD это выглядит как функция личного кабинета. Для иностранца без NISS запрос делается вне аутентифицированного SSD.",
+        "suggestion": "Заменить на: «После запроса NISS через публичный формуляр — использовать NISS для доступа к SSD» или вынести NISS в отдельный блок «на сайте Segurança Social, не внутри SSD».",
+        "confidence": "high",
+        "source": "Segurança Social — Pedido de NISS — Cidadão Estrangeiro"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Segurança Social Direta — личный кабинет Segurança Social: NISS, взносы, recibos verdes, пособия...",
+        "problem": "Слово «NISS» в перечислении сервисов SSD может быть понято как получение NISS прямо в личном кабинете. Это особенно путано для новичков, потому что без NISS вход по NISS+пароль невозможен.",
+        "suggestion": "Уточнить: «NISS запрашивается через публичный формуляр Segurança Social/gov.pt; после присвоения NISS SSD используется для взносов, recibos verdes, пособий...»",
+        "confidence": "high",
+        "source": "Segurança Social — Pedido de NISS — Cidadão Estrangeiro"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[2]",
+        "current": "Independent worker на recibos verdes в стандартном режиме платит 21,4%",
+        "problem": "Ставка 21,4% верна для стандартного режима trabalhador independente, но текст не предупреждает о частых исключениях: начальная isenção после início de atividade, освобождение/ограничения при одновременной работе по трудовому договору, пенсионеры, отсутствие обязанности подавать декларацию в некоторых ситуациях, минимальная база и корректировки relevant income.",
+        "suggestion": "Добавить оговорку: «21,4% — стандартная ставка, но у recibos verdes бывают isenções и специальные режимы: например, начальная isenção, совмещение с contrato de trabalho, pensionistas и др.; проверяйте situação contributiva в SSD или у contabilista».",
+        "confidence": "high",
+        "source": "Segurança Social — Trabalhadores Independentes; Código dos Regimes Contributivos"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[3]",
+        "current": "Declaração trimestral для recibos verdes подаётся в январе, апреле, июле и октябре",
+        "problem": "Месяцы указаны верно, но нет важной практической детали: декларация обычно подаётся до последнего дня этих месяцев и не всеми trabalhadores independentes, если действует isenção/исключение.",
+        "suggestion": "Написать: «Declaração trimestral обычно подаётся в январе, апреле, июле и октябре до последнего дня месяца, если вы не освобождены от этой обязанности».",
+        "confidence": "high",
+        "source": "Segurança Social — Declaração Trimestral de Trabalhadores Independentes"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[1]",
+        "current": "Subsídio de desemprego — пособие по безработице после регистрации в IEFP и при соблюдении стажа",
+        "problem": "Слишком коротко для чувствительной темы: не указано, что регистрация в IEFP и подача/оформление должны происходить в установленный срок после безработицы; при пропуске срока пособие может быть уменьшено или потеряно.",
+        "suggestion": "Добавить: «Обычно нужно зарегистрироваться в IEFP как desempregado в течение установленного срока после прекращения работы; не ждите появления данных в SSD».",
+        "confidence": "medium",
+        "source": "Segurança Social — Subsídio de Desemprego; IEFP"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[0]",
+        "current": "Subsídio de doença — больничный, если есть необходимый prazo de garantia и электронный CIT",
+        "problem": "Формулировка неполная: кроме prazo de garantia и CIT, важны период ожидания/исключения, корректные данные работодателя/atividade, а также то, что краткие само-декларации болезни через SNS24 не оплачиваются как обычный subsídio de doença.",
+        "suggestion": "Добавить оговорку: «Само-декларация болезни SNS24 до 3 дней оправдывает отсутствие, но не даёт оплачиваемый subsídio de doença; для выплаты нужен CIT и соблюдение условий Segurança Social».",
+        "confidence": "high",
+        "source": "SNS24 — Autodeclaração de doença; Segurança Social — Subsídio de Doença"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[0].content[1].items[0]",
+        "current": "Активируйте CMD заранее: онлайн с Cartão de Cidadão или лично в Espaço Cidadão / IRN / других точках обслуживания",
+        "problem": "Для иностранцев это неполно: многие не имеют Cartão de Cidadão, а онлайн-активация зависит от доступного документа/механизма аутентификации. Владельцы португальского residence card обычно активируют CMD лично в уполномоченных точках.",
+        "suggestion": "Уточнить: «Граждане с Cartão de Cidadão могут активировать CMD онлайн; иностранцы без Cartão de Cidadão чаще активируют её лично в Espaço Cidadão/IRN/AMA и других authorised counters с документом проживания/идентификации».",
+        "confidence": "medium",
+        "source": "gov.pt — Pedir a Chave Móvel Digital"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники включают SSD, NISS и CMD, но нет отдельного источника для ставок взносов, recibos verdes и пособий.",
+        "problem": "В гайде указаны конкретные ставки 11%, 23,75%, 21,4%, IAS 537,13 € и условия пособий. Для таких чисел и прав на выплаты нужен официальный источник, иначе при изменениях сложно проверять актуальность.",
+        "suggestion": "Добавить официальные источники: Segurança Social — trabalhadores por conta de outrem / taxas contributivas; Segurança Social — trabalhadores independentes; Segurança Social — subsídio de doença/desemprego/parentalidade; Portaria/официальный акт об IAS 2026.",
+        "confidence": "high",
+        "source": "Segurança Social; Portaria do IAS 2026"
+      }
+    ],
+    "missing_topics": [
+      "Оговорка, что получение NISS не означает автоматическое право работать и не легализует пребывание.",
+      "Исключения и isenções для trabalhadores independentes на recibos verdes, включая начальный период после início de atividade и совмещение с contrato de trabalho.",
+      "Сроки для subsídio de desemprego и важность быстрой регистрации в IEFP после прекращения работы.",
+      "Разница между обычным CIT для subsídio de doença и autodeclaração de doença SNS24, которая оправдывает отсутствие, но обычно не оплачивается.",
+      "Официальный источник для IAS 2026 и ставок contributivas."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3044,
+    "prompt_tokens": 3776,
+    "total_tokens": 6820
+  },
+  "model": "gpt-5.5"
+}

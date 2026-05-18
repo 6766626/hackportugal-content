@@ -1,0 +1,94 @@
+{
+  "guideId": "cc-lost-stolen-urgent",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом точный по процедуре и тарифам CC на 2026 год, но не хватает нескольких важных caveats про PIN de cancelamento, срок запроса segunda via и канонические источники/ссылки.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[0]",
+        "current": "Позвоните в Linha Cartão de Cidadão: +351 210 990 111, если нет доступа к онлайн-сервисам.",
+        "problem": "Фраза создаёт впечатление, что по телефону карту можно отменить в любом случае. На практике для дистанционной отмены обычно нужен código/PIN de cancelamento из PIN-письма; если его нет, человека могут направить в presencial balcão. Это критично именно при краже вместе с PIN-письмом или полной потере документов.",
+        "suggestion": "Написать: «Позвоните в Linha Cartão de Cidadão: +351 210 990 111. Для дистанционной отмены может потребоваться código/PIN de cancelamento из PIN-письма; если кода нет или оператор не может подтвердить личность, идите лично в balcão IRN/Loja de Cidadão как можно быстрее.»",
+        "confidence": "medium",
+        "source": "gov.pt / Justiça: Cancelar o Cartão de Cidadão"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].text",
+        "current": "После утери, кражи, ограбления или уничтожения карты нужно отменить старый CC и запросить новую карту или segunda via.",
+        "problem": "Не указан законный срок для запроса замены после потери/кражи/уничтожения. Для практического гайда это важная деталь: holder должен запросить замену/segunda via без затягивания, обычно указывается срок 10 дней после события или после того, как стало известно о событии.",
+        "suggestion": "Добавить: «Не откладывайте: после утери, кражи, уничтожения или порчи CC замену/segunda via нужно запросить в установленный законом короткий срок — ориентируйтесь на 10 дней с момента события/обнаружения.»",
+        "confidence": "medium",
+        "source": "Lei n.º 7/2007, regime do Cartão de Cidadão"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[2]",
+        "current": "Можно отменить лично в balcão IRN, Espaço Cidadão или Loja de Cidadão с услугой Cartão de Cidadão.",
+        "problem": "Формулировка может быть слишком широкой: не каждый Espaço Cidadão/Loja de Cidadão выполняет все операции с Cartão de Cidadão, а набор услуг зависит от конкретного balcão. Для срочной ситуации это может привести к потере времени.",
+        "suggestion": "Написать: «Можно отменить лично в balcão IRN или в Loja/Espaço Cidadão, где конкретно доступна услуга Cartão de Cidadão; перед поездкой проверьте услугу на gov.pt или по телефону.»",
+        "confidence": "high",
+        "source": "gov.pt: agendamento/serviços Cartão de Cidadão"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Для простой утери полиция обычно не обязательна. Для кражи, ограбления, карманной кражи, взлома машины или квартиры нужен auto de notícia / participação в PSP или GNR.",
+        "problem": "Слово «нужен» звучит как абсолютное требование IRN для перевыпуска CC. Для преступления заявление в полицию действительно правильно и практически необходимо, но IRN не всегда требует participação как формальное условие для emissão/segunda via, если личность подтверждена и заявитель просит замену по утрате. Лучше разделить уголовное заявление и требования IRN.",
+        "suggestion": "Написать: «При краже/roubo/furto подайте participação в PSP или GNR: это нужно для фиксации преступления и часто помогает в IRN, банке и страховой. IRN может попросить копию, особенно если других документов нет.»",
+        "confidence": "medium",
+        "source": "PSP/GNR crime reporting practice; IRN Cartão de Cidadão service guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[2].content[0].text",
+        "current": "Это режим для выдачи в ограниченных пунктах, обычно Lisbon/Porto, часто в тот же день или примерно за 24 часа, если запрос подан вовремя и нет технических блокировок.",
+        "problem": "Правильно по сути, но для extremo urgente не хватает важного практического caveat: выдача «в тот же день» зависит от конкретного пункта, времени подачи/cut-off и доступности услуги; не все balcões даже в Lisbon/Porto делают этот режим. Сейчас это частично сказано, но лучше привязать к официальному списку balcões и cut-off.",
+        "suggestion": "Уточнить: «Перед поездкой проверьте на Justiça/IRN официальный список balcões для pedido extremo urgente и cut-off time; same-day delivery возможна только при подаче до установленного времени и без технических/идентификационных блокировок.»",
+        "confidence": "high",
+        "source": "Justiça/IRN: Cartão de Cidadão, prazos e levantamento"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[9]",
+        "current": "Свидетели с действительным ID, если у вас вообще нет удостоверения личности и balcão просит подтверждение.",
+        "problem": "Слишком расплывчато: не любые «свидетели с ID» гарантированно подходят. IRN может требовать конкретный способ идентификации и/или свидетелей с португальским документом, а решение зависит от случая. Текущая формулировка может создать ложное ожидание, что двух любых знакомых достаточно.",
+        "suggestion": "Написать: «Если у вас вообще нет ID, заранее спросите IRN, какой способ идентификации они примут; иногда могут попросить testemunhas с действительным документом, но это не универсальная замена удостоверению личности.»",
+        "confidence": "medium",
+        "source": "IRN identification practice for Cartão de Cidadão requests"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[5]",
+        "current": "Если старый CC найдётся после выпуска нового, не используйте его и не отдавайте третьим лицам.",
+        "problem": "Совет верный, но неполный: найденная отменённая/заменённая карта не должна использоваться и обычно должна быть уничтожена или передана компетентному serviço, чтобы исключить дальнейшее misuse.",
+        "suggestion": "Написать: «Если старый CC найдётся после отмены или выпуска нового, не используйте его; уничтожьте безопасно или сдайте в IRN/компетентный serviço, если вам так указали.»",
+        "confidence": "medium",
+        "source": "Lei n.º 7/2007; IRN Cartão de Cidadão guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www2.gov.pt/en/servicos/agendar-um-servico-relacionado-com-o-cartao-de-cidadao",
+        "problem": "Ссылка выглядит как старый/редиректный домен gov.pt. Она может работать через redirect, но для справочника лучше использовать канонический URL на актуальном gov.pt.",
+        "suggestion": "Заменить на каноническую страницу gov.pt для agendamento de serviço relacionado com o Cartão de Cidadão, например домен https://www.gov.pt/servicos/... если он доступен для этой услуги.",
+        "confidence": "medium",
+        "source": "gov.pt"
+      }
+    ],
+    "missing_topics": [
+      "Указать, что для дистанционной отмены может понадобиться PIN/código de cancelamento из PIN-письма; если его нет — presencial balcão.",
+      "Указать короткий срок для запроса segunda via после утери/кражи/уничтожения CC.",
+      "Для срочного путешествия за границей упомянуть консульские варианты: emergência/temporary travel document или Portuguese passport services, потому что CC через IRN в Португалии может не решить проблему вылета.",
+      "Добавить ссылку на официальную страницу «Cancelar o Cartão de Cidadão» как отдельный источник, а не только общую страницу Cartão de Cidadão."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3566,
+    "prompt_tokens": 3495,
+    "total_tokens": 7061
+  },
+  "model": "gpt-5.5"
+}

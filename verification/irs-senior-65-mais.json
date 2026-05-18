@@ -1,0 +1,149 @@
+{
+  "guideId": "irs-senior-65-mais",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Core pension-specific deduction values are outdated/wrong for 2025 income filed in 2026, and several tax limits/caveats need tightening.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "применяется dedução específica 4 350 € на каждого получателя пенсии, а не обычные 4 104 € для зарплаты",
+        "problem": "For IRS on 2025 income filed in 2026, the specific deduction for both Categoria H pensions and Categoria A employment is no longer €4,350 / €4,104. The CIRS now ties the base specific deduction to 8.54 × IAS. With IAS 2025 of €522.50, this is €4,462.15. Presenting pensions as €4,350 and wages as €4,104 is outdated and creates the false impression that the pension deduction is specially higher than the current employment deduction.",
+        "suggestion": "Write: \"Доходы Categoria H уменьшаются на dedução específica 8,54 × IAS: для доходов 2025 года это €4 462,15 на каждого titular, как и базовая dedução específica Categoria A; для зарплаты обязательные взносы в Segurança Social могут дать более высокий вычет, если превышают эту сумму.\"",
+        "confidence": "high",
+        "source": "CIRS arts. 25 and 53; IAS 2025 fixed by Portaria 6-B/2025/1"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].title",
+        "current": "Главная льгота: dedução específica 4 350 €",
+        "problem": "The headline amount is wrong for the 2025 tax year filed in 2026. It should be €4,462.15, not €4,350.",
+        "suggestion": "Change title to: \"Главная льгота: dedução específica €4 462,15 для доходов 2025\".",
+        "confidence": "high",
+        "source": "CIRS art. 53; IAS 2025 fixed by Portaria 6-B/2025/1"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[0].text",
+        "current": "Для деклараций IRS, подаваемых в 2026, используйте ориентир 4 350 € на каждого titular с пенсионным доходом. Это больше, чем стандартная dedução específica 4 104 € для доходов от работы Categoria A.",
+        "problem": "Wrong amounts and misleading comparison. For 2025 income, the base deduction is €4,462.15 for Categoria H and the same base amount for Categoria A, not €4,350 vs €4,104. The phrase \"declarations filed in 2026\" is also imprecise because the relevant value is normally the tax year of the income, not merely the filing calendar year.",
+        "suggestion": "Replace with: \"Для доходов 2025 года, декларируемых в 2026, базовая dedução específica Categoria H составляет 8,54 × IAS 2025 = €4 462,15 на каждого titular с пенсионным доходом. У Categoria A базовая dedução específica такая же, но может быть выше, если обязательные взносы работника превышают этот минимум.\"",
+        "confidence": "high",
+        "source": "CIRS arts. 25 and 53; IAS 2025 fixed by Portaria 6-B/2025/1"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[1].content[1].items[1]",
+        "current": "Если годовая пенсия ниже 4 350 €, вычет не создаёт отрицательный доход: база по этой категории фактически становится 0 €.",
+        "problem": "Uses the outdated/wrong €4,350 threshold. For 2025 income the relevant base amount is €4,462.15.",
+        "suggestion": "Write: \"Если годовая пенсия ниже €4 462,15, вычет не создаёт отрицательный доход: база по этой категории фактически становится €0.\"",
+        "confidence": "high",
+        "source": "CIRS art. 53; IAS 2025 fixed by Portaria 6-B/2025/1"
+      },
+      {
+        "severity": "critical",
+        "where": "costs[0]",
+        "current": "\"Dedução específica для пенсий Categoria H\", \"amountEUR\": 4350",
+        "problem": "Wrong amount for 2025 income filed in 2026.",
+        "suggestion": "Set amountEUR to 4462.15 and note that it is 8.54 × IAS 2025.",
+        "confidence": "high",
+        "source": "CIRS art. 53; IAS 2025 fixed by Portaria 6-B/2025/1"
+      },
+      {
+        "severity": "critical",
+        "where": "costs[1]",
+        "current": "\"Обычная dedução específica Categoria A\", \"amountEUR\": 4104",
+        "problem": "Outdated amount. The base Categoria A specific deduction for 2025 income is also €4,462.15, without prejudice to higher mandatory social-security contributions.",
+        "suggestion": "Set amountEUR to 4462.15 and change note to: \"Базовая сумма 8,54 × IAS 2025; для работников обязательные взносы могут заменить её, если они выше.\"",
+        "confidence": "high",
+        "source": "CIRS art. 25; IAS 2025 fixed by Portaria 6-B/2025/1"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[3]",
+        "current": "Для ascendente обычно важно, чтобы его доход не превышал установленные лимиты, связанные с минимальной пенсией/SMN.",
+        "problem": "This mixes two different rules. For the lares/home-support deduction under CIRS art. 84, expenses may cover ascendants and collateral relatives up to the 3rd degree if they do not have income above the retribuição mínima mensal garantida, i.e. SMN/RMMG. The \"minimum pension\" limit belongs to other ascendant deductions and should not be blended here.",
+        "suggestion": "Write: \"Для dedução de lares по art. 84 CIRS у ascendente/родственника до 3-й степени доход не должен превышать RMMG/SMN применимого года; не путайте это с отдельной dedução por ascendente, где действуют другие условия.\"",
+        "confidence": "high",
+        "source": "CIRS art. 84"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].title",
+        "current": "Lares и уход: вычет до 403 €",
+        "problem": "The legal annual limit is €403.75, not €403. The body says \"около 403 €\", which is acceptable in prose, but the title and cost table should use the exact cap for a tax guide.",
+        "suggestion": "Use \"до €403,75\".",
+        "confidence": "high",
+        "source": "CIRS art. 84"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "25% суммы с лимитом около 403 € в год",
+        "problem": "Approximate value is less precise than appropriate for a tax deduction. The statutory cap is €403.75.",
+        "suggestion": "Write: \"25% суммы с годовым лимитом €403,75\".",
+        "confidence": "high",
+        "source": "CIRS art. 84"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "\"amountEURMax\": 403",
+        "problem": "The exact cap is €403.75.",
+        "suggestion": "Set amountEURMax to 403.75.",
+        "confidence": "high",
+        "source": "CIRS art. 84"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "Получатель декларирует её как доход Categoria H, а плательщик может вычесть 20% выплаченных сумм",
+        "problem": "This omits a key caveat: pensions de alimentos received are Categoria H but are normally subject to autonomous taxation at 20%, with possible option for aggregation depending on the case/form. Readers may wrongly assume they are treated like ordinary retirement pensions and benefit from the same general pension mechanics.",
+        "suggestion": "Add: \"У получателя pensões de alimentos относятся к Categoria H, но обычно облагаются autonomamente по ставке 20% с возможностью opção pelo englobamento в декларации; это не то же самое, что обычная пенсия по старости.\"",
+        "confidence": "high",
+        "source": "CIRS arts. 11 and 72"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "\"amountEURMin\": 0, \"amountEURMax\": 0, \"note\": \"Не фиксированная сумма: вычет 20% от юридически подтверждённых выплат.\"",
+        "problem": "The numeric fields contradict the note by implying the maximum deduction is €0. This is misleading in structured data even if the note explains the percentage.",
+        "suggestion": "Remove amountEURMin/amountEURMax or replace with a percentage field if supported, e.g. \"percent\": 20, \"note\": \"20% от юридически подтверждённых выплат; фиксированного максимума в этой строке нет.\"",
+        "confidence": "high",
+        "source": "CIRS art. 83-A"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "\"Autoridade Tributária — entrega da declaração Modelo 3 IRS\", \"url\": \"https://www.portaldasfinancas.gov.pt/at/html/index.html\"",
+        "problem": "This is a generic Portal das Finanças landing page, not a reliable source for the Modelo 3 filing period or rules. It is not wrong as a homepage, but it is weak for a guide making specific filing-date claims.",
+        "suggestion": "Use a specific AT page or official annual instructions/Despacho for Modelo 3 IRS 2025, or cite the official AT IRS campaign page for the relevant year.",
+        "confidence": "medium",
+        "source": "Autoridade Tributária e Aduaneira / Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "https://eportugal.gov.pt/cidadaos/entregar-a-declaracao-de-irs",
+        "problem": "This looks like an unstable or likely incorrect ePortugal path. ePortugal service pages commonly use /servicos/..., and the IRS service page should be checked. A dead or redirected URL is a source-quality issue.",
+        "suggestion": "Verify and replace with the current ePortugal service URL, likely the service page for \"Entregar a declaração de IRS\", or remove if the AT source is more authoritative.",
+        "confidence": "medium",
+        "source": "ePortugal"
+      }
+    ],
+    "missing_topics": [
+      "Mention the exact exemption-from-filing thresholds for pensioners, especially the common low-income pension threshold and the fact that foreign income usually prevents relying on simplified non-filing assumptions.",
+      "Explain that the €4,462.15 specific deduction is for 2025 income; for future tax years it may change with IAS, so guides filed in later years must update the IAS-based calculation.",
+      "Add a caveat that foreign pensions depend heavily on the applicable double-tax treaty and pension type: private pension, public-service pension, social-security pension, and lump-sum payments may be treated differently.",
+      "Add the recipient-side treatment of pensão de alimentos: Categoria H, normally autonomous 20% taxation with possible option for aggregation, distinct from ordinary retirement pension treatment.",
+      "Add exact CIRS article references next to sensitive values: arts. 25, 53, 72, 78/83-A, and 84."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4794,
+    "prompt_tokens": 3620,
+    "total_tokens": 8414
+  },
+  "model": "gpt-5.5"
+}

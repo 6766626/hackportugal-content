@@ -1,0 +1,12 @@
+{
+  "guideId": "ppr-poupanca-reforma",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Expected property name or '}' in JSON at position 3 (line 2 column 2)",
+    "raw": "{\n verdict\": \"major_issues\",\n  \"summary\": \"Гайд в целом правильно описывает PPR, но есть несколько существенных неточностей по механике IRS-вычета и условиям льготного налогообложения при выводе.\",\n  \"issues\": [\n    {\n      \"severity\": \"major\",\n      \"where\": \"steps[1].content[2].text\",\n      \"current\": \"Если ваш итоговый IRS к уплате до вычета был 250 €, вернуть 400 € только из-за PPR не получится: вычет не может создать отрицательный налог сверх применимых правил.\",\n      \"problem\": \"Фраза сме",
+    "issues": [],
+    "missing_topics": []
+  },
+  "model": "gpt-5.5"
+}

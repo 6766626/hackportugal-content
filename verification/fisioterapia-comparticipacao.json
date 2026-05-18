@@ -1,0 +1,76 @@
+{
+  "guideId": "fisioterapia-comparticipacao",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом корректен, но местами упрощает маршрут SNS/convencionada и не даёт важных проверок по лицензированию физиотерапевтов и поиску провайдеров с convenção.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[0]",
+        "current": "SNS: сначала consulta у médico de família в Centro de Saúde; врач выдаёт prescrição/credencial на физиотерапию.",
+        "problem": "Слишком узко описан маршрут: направление/прескрипцию SNS может оформить не только именно médico de família, а médico assistente в SNS/врач в unidade de saúde. У многих мигрантов нет назначенного семейного врача, поэтому формулировка может создать впечатление, что без médico de família путь закрыт.",
+        "suggestion": "Заменить на: «SNS: обратитесь в свою unidade de saúde/USF/UCSP к médico assistente; если médico de família не назначен — просите consulta aberta/consulta do dia. Для оплаты через SNS нужна prescrição/requisição, выданная в рамках SNS, а не просто частное направление».",
+        "confidence": "high",
+        "source": "SNS 24; Decreto-Lei 37/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Если семейного врача ещё нет, просите consulta aberta / consulta do dia в своём Centro de Saúde или звоните SNS 24: 808 24 24 24.",
+        "problem": "Фраза полезная, но не хватает caveat: SNS 24 не является заменой записи к семейному врачу и обычно не выдаёт credencial на физиотерапию; он может триажировать, дать orientação или направить в подходящую службу.",
+        "suggestion": "Добавить: «SNS 24 помогает с triagem/orientação и может направить в службу, но сам по себе не заменяет prescrição SNS для физиотерапии».",
+        "confidence": "high",
+        "source": "SNS 24"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[1].content[0].text",
+        "current": "С направлением SNS вас могут направить в unidade SNS или в частную клинику с convenção.",
+        "problem": "Недостаточно конкретно: для частной clínica convencionada важно, чтобы у неё была действующая convenção именно по Medicina Física e Reabilitação/fisioterapia, чтобы она принимала вашу requisição/credencial и имела доступные vagas/quotas. Не каждая клиника с «физиотерапией» работает по SNS.",
+        "suggestion": "Добавить: «Проверяйте, есть ли у провайдера convenção SNS именно для Medicina Física e Reabilitação, принимает ли он вашу requisição/credencial и есть ли vagas; используйте официальный поиск prestadores convencionados/ERS и подтверждайте по телефону».",
+        "confidence": "high",
+        "source": "SNS/ACSS pesquisa de prestadores convencionados; ERS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[2].content[0].items[2]",
+        "current": "Проверьте, нужно ли платить alguma taxa; в большинстве SNS-направлений после 2022 года пациентская taxa moderadora = 0 €.",
+        "problem": "Формально верно по taxas moderadoras, но нужно явно отделить taxa moderadora от непокрытых extras: дополнительные сеансы, процедуры вне credencial, материалы или частные услуги могут оплачиваться пациентом.",
+        "suggestion": "Уточнить: «Taxa moderadora по SNS-направлению обычно 0 €, но всё, что не включено в SNS prescrição/requisição или предлагается как extra/частная услуга, может быть платным — цену подтвердите письменно до начала».",
+        "confidence": "high",
+        "source": "Decreto-Lei 37/2022; ERS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items",
+        "current": "Список вопросов клинике не включает проверку профессиональной регистрации физиотерапевта.",
+        "problem": "Для медицинской услуги важно проверять, что лечение ведёт fisioterapeuta с действующей cédula profissional/регистрацией в Ordem dos Fisioterapeutas. Это особенно важно для мигрантов, которые могут попасть к массажистам/тренерам, продающим «физиотерапию».",
+        "suggestion": "Добавить вопрос: «O fisioterapeuta tem cédula profissional válida da Ordem dos Fisioterapeutas?»",
+        "confidence": "high",
+        "source": "Ordem dos Fisioterapeutas"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: SNS 24, Decreto-Lei 37/2022, ERS, Fisiogaspar.",
+        "problem": "Для темы convenção SNS не хватает официального источника, где проверять prestadores convencionados. Сейчас есть только общий SNS 24 и частная клиника как пример.",
+        "suggestion": "Добавить официальный источник для поиска/проверки entidades convencionadas по SNS/ACSS или ERS, например «Pesquisa de prestadores convencionados SNS/ACSS» и/или «ERS — pesquisa de prestadores».",
+        "confidence": "high",
+        "source": "SNS/ACSS; ERS"
+      }
+    ],
+    "missing_topics": [
+      "Как проверить, что физиотерапевт зарегистрирован в Ordem dos Fisioterapeutas и имеет действующую cédula profissional",
+      "Официальный поиск prestadores convencionados SNS/ACSS или ERS перед записью",
+      "Явное различие между prescrição SNS для оплаты через SNS и частной prescrição médica для страховки/reembolso",
+      "Предупреждение, что extras, сеансы сверх credencial и услуги вне convenção оплачиваются отдельно даже при taxa moderadora 0 €"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2883,
+    "prompt_tokens": 3071,
+    "total_tokens": 5954
+  },
+  "model": "gpt-5.5"
+}

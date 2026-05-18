@@ -3,106 +3,54 @@
   "categoryId": "residence_permit",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Гайд в целом про правильную процедуру, но содержит серьёзную ошибку в TLDR о сроке регистрации, неверный канал записи через Portal do Eleitor и несколько вводящих в заблуждение упрощений по документам, SNS/NIF и натурализации.",
+    "summary": "Guide is mostly accurate for CRUE mechanics, but contains a critical false/outdated nationality-law statement and a few misleading simplifications.",
     "issues": [
       {
-        "severity": "major",
-        "where": "tldr",
-        "current": "обязаны зарегистрироваться в течение 30 дней пребывания",
-        "problem": "Срок указан неверно и противоречит разделу steps[1]: граждане ЕС/ЕЭЗ/Швейцарии должны зарегистрироваться не в первые 30 дней пребывания, а в течение 30 дней после истечения первых 3 месяцев пребывания, если намерены оставаться в Португалии более 3 месяцев.",
-        "suggestion": "Заменить на: «Если вы планируете жить в Португалии более 3 месяцев, нужно зарегистрироваться в течение 30 дней после истечения первых 3 месяцев пребывания — получить Certificado de Registo de Cidadão da União Europeia (CRUE)».",
-        "confidence": "high",
-        "source": "Lei n.º 37/2006, art. 14; ePortugal — Registar como cidadão da União Europeia"
-      },
-      {
-        "severity": "major",
-        "where": "steps[2].content[1].text",
-        "current": "Запись на www.portaldoeleitor.pt или напрямую в ратушу.",
-        "problem": "Portal do Eleitor относится к избирательным вопросам и не является общим порталом записи на CRUE. Это вводит читателя на неправильный сайт. Запись/подача зависят от конкретной Câmara Municipal: сайт муниципалитета, balcão municipal, телефон/e-mail или личная очередь.",
-        "suggestion": "Заменить на: «Запись зависит от муниципалитета: проверяйте сайт вашей Câmara Municipal или связывайтесь с balcão/serviços municipais напрямую. Portal do Eleitor для CRUE не используется».",
-        "confidence": "high",
-        "source": "ePortugal — Registar como cidadão da União Europeia; municipal CRUE pages"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[2].content[0].text",
-        "current": "В некоторых муниципалитетах — в Junta de Freguesia (пригороды).",
-        "problem": "Junta de Freguesia — это не «пригород», а орган гражданского прихода/района. Кроме того, базовое правило — CRUE выдаёт Câmara Municipal по месту жительства; если Junta участвует, это локальная делегация/особенность, а не общее правило.",
-        "suggestion": "Написать: «Обычно — в Câmara Municipal по месту жительства. В отдельных муниципалитетах часть обслуживания может быть делегирована Junta de Freguesia, но это нужно проверять локально».",
-        "confidence": "high",
-        "source": "Lei n.º 37/2006, art. 14; ePortugal"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items",
-        "current": "Подтверждение ситуации (контракт работы / регистрация студента / atestado автономности): ... Учитесь → зачисление ... Пенсионер / имеете достаточные средства → подтверждение (пенсия, выписка из банка)",
-        "problem": "Список документов чрезмерно упрощён. Для студентов и экономически неактивных граждан ЕС закон/практика обычно требуют не только зачисление или деньги, но и декларацию о достаточных средствах; для студентов также может требоваться подтверждение медицинского покрытия/страховки, если применимо. Формулировка «atestado автономности» некорректна.",
-        "suggestion": "Уточнить по категориям: «Работник/самозанятый — декларация под присягой о работе или independent activity / contrato / declaração de início de atividade, если просят. Студент — подтверждение зачисления, декларация о достаточных средствах и, когда применимо, медицинское покрытие. Экономически неактивный/пенсионер — декларация о достаточных средствах и, когда применимо, медицинское покрытие».",
-        "confidence": "high",
-        "source": "Lei n.º 37/2006, art. 7; ePortugal — Registar como cidadão da União Europeia"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[3].content[1].text",
-        "current": "Требование \"достаточных средств\" — обычно декларация под присягой. Реальная проверка редка.",
-        "problem": "Фраза может создать впечатление, что финансовые требования можно игнорировать. Муниципалитеты действительно часто принимают declaração sob compromisso de honra, но вправе попросить подтверждающие документы в зависимости от категории и местной практики.",
-        "suggestion": "Написать: «Часто достаточно declaração sob compromisso de honra, но конкретная Câmara может запросить выписки, пенсию, контракт, enrolment letter или иные подтверждения — проверьте список вашего муниципалитета заранее».",
-        "confidence": "high",
-        "source": "Lei n.º 37/2006, art. 7; ePortugal"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[4].content[0].items[0]",
-        "current": "Получить NIF (Finanças) — см. гайд NIF EU/CPLP",
-        "problem": "Порядок вводит в заблуждение: NIF не является шагом «после CRUE» и часто нужен до CRUE — для аренды, работы, банка, telecom и т.д. Гражданин ЕС может получить NIF до регистрации CRUE.",
-        "suggestion": "Заменить на: «NIF можно и обычно стоит получить до CRUE или параллельно — он часто нужен для аренды, работы и коммунальных услуг».",
-        "confidence": "high",
-        "source": "Autoridade Tributária e Aduaneira — NIF/inscrição fiscal"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[4].content[0].items[2]",
-        "current": "Регистрация в SNS (medicale)",
-        "problem": "Есть опечатка/мусорное слово «medicale». Также регистрация в SNS для граждан ЕС может зависеть от статуса, CRUE, NIF, NISS/S1 и местной практики centro de saúde; это не автоматический универсальный шаг без условий.",
-        "suggestion": "Написать: «Регистрация в SNS/centro de saúde — обычно с NIF, CRUE и подтверждением адреса; в зависимости от ситуации могут запросить NISS, S1 или другое подтверждение права на медобслуживание».",
-        "confidence": "medium",
-        "source": "SNS 24; ACSS guidance on access to SNS"
-      },
-      {
-        "severity": "major",
+        "severity": "critical",
         "where": "steps[4].content[1].text",
-        "current": "Натурализация доступна после 5 лет (7 по pending закону). Язык A2 для CIPLE.",
-        "problem": "Формулировка про «7 по pending закону» слишком расплывчата и может быть воспринята как уже действующее право. По состоянию на апрель 2026 новая редакция закона о гражданстве была одобрена 01.04.2026, но ожидала промульгации; действующее правило всё ещё нужно описывать отдельно. Также A2 — это уровень знания португальского, CIPLE лишь один из способов подтверждения.",
-        "suggestion": "Написать: «По действующему на апрель 2026 правилу натурализация обычно возможна после 5 лет легального проживания при выполнении остальных условий, включая знание португальского на уровне A2. Изменения к закону о гражданстве, одобренные парламентом 01.04.2026, на дату проверки ещё ожидали промульгации/вступления в силу; не применяйте их как действующее правило до публикации».",
+        "current": "По действующему праву натурализация после 5 лет легального проживания при выполнении остальных условий, включая знание португальского A2. **03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII** — после публикации в DRE срок для граждан ЕС/ЕЭЗ/Швейцарии вырастет до 7 лет (приравнены к CPLP).",
+        "problem": "As of April 2026 the new nationality law had been approved by Parliament on 01.04.2026 but was still awaiting promulgation/publication. The statement that it was promulgated on 03.05.2026 is not valid for an April-2026-verified guide and should not be presented as law in force. It also creates legal certainty where there is none until promulgation and DRE publication.",
+        "suggestion": "Write instead: \"По действующему праву натурализация возможна после 5 лет легального проживания при выполнении остальных условий, включая знание португальского A2. 01.04.2026 Assembleia da República одобрила изменения к Lei da Nacionalidade, которые могут увеличить сроки, но на дату проверки они ещё ожидали промульгации и публикации в Diário da República; до вступления в силу применяется правило 5 лет.\"",
         "confidence": "high",
-        "source": "Lei da Nacionalidade; Assembleia da República — alteração aprovada em 01.04.2026"
+        "source": "Decreto da Assembleia da República 48/XVII; Lei da Nacionalidade; Diário da República publication required for entry into force"
       },
       {
         "severity": "minor",
-        "where": "costs[0]",
-        "current": "\"Пошлина CRUE\", \"amountEUR\": 15",
-        "problem": "€15 — правильная базовая величина, но как фиксированная единственная сумма без оговорки может быть неполной: для несовершеннолетних младше 6 лет обычно применяется сниженная пошлина.",
-        "suggestion": "Оставить €15, но добавить примечание: «обычно €15; для детей младше 6 лет может быть €7,50».",
-        "confidence": "medium",
-        "source": "ePortugal — Registar como cidadão da União Europeia"
+        "where": "steps[0].content[0].text",
+        "current": "Действует 5 лет, после — постоянная резиденция.",
+        "problem": "Oversimplified: the CRUE certificate is normally valid for 5 years, but under Lei 37/2006 it can be valid for the intended period of residence if that is shorter. Permanent residence is acquired after 5 years of continuous legal residence, but the permanent certificate is a separate request and is not automatic. The later checklist says this correctly, but this sentence alone is misleading.",
+        "suggestion": "Write: \"Обычно действует 5 лет, либо на заявленный срок проживания, если он меньше. После 5 лет непрерывного законного проживания можно отдельно запросить certificado de residência permanente.\"",
+        "confidence": "high",
+        "source": "Lei n.º 37/2006, arts. 14 and 16"
       },
       {
         "severity": "minor",
-        "where": "timelineDaysMin/timelineDaysMax",
+        "where": "timelineDaysMin / timelineDaysMax",
         "current": "\"timelineDaysMin\": 1, \"timelineDaysMax\": 1",
-        "problem": "Выдача часто действительно происходит в день визита, но общий срок «1 день» вводит в заблуждение, потому что ожидание слота в крупных муниципалитетах может занимать дни или недели. В тексте уже сказано, что в больших городах нужна запись.",
-        "suggestion": "Разделить: «выдача: обычно в день визита; ожидание записи зависит от муниципалитета и может занять от нескольких дней до недель». В данных поставить timeline для выдачи отдельно или расширить общий диапазон.",
+        "problem": "This conflicts with the text saying appointment waiting time depends on the municipality. Same-day issuance at the appointment is common, but total time to obtain CRUE can be much longer in Lisbon/Porto or busy municipalities.",
+        "suggestion": "Either rename/clarify this as processing time after appointment, or set a wider/nullable timeline, e.g. \"выдача обычно в день визита; ожидание записи — от нескольких дней до нескольких недель/месяцев в зависимости от Câmara\".",
         "confidence": "high",
-        "source": "municipal CRUE appointment practice"
+        "source": "Municipal practice; ePortugal service description"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[3]",
+        "current": "Обмен водительских прав — не нужен, права ЕС принимаются напрямую",
+        "problem": "Generally true for valid EU/EEA driving licences, but too absolute. Residents may need to deal with IMT on expiry/revalidation, loss/theft, category changes, non-standard/lifetime licences, or licences with validity periods not aligned with Portuguese rules.",
+        "suggestion": "Write: \"Действующие права ЕС/ЕЭЗ обычно можно использовать без обмена до окончания срока действия. Обмен/IMT-процедуры нужны при истечении срока, утере/краже, изменении категорий, некоторых бессрочных или нестандартных правах и в отдельных случаях по требованию IMT.\"",
+        "confidence": "medium",
+        "source": "IMT guidance on EU/EEA driving licences"
       }
     ],
     "missing_topics": [
-      "Чётко указать, что CRUE нужен только при намерении оставаться в Португалии более 3 месяцев; для пребывания до 3 месяцев гражданину ЕС обычно достаточно действительного ID/passport.",
-      "Добавить caveat, что конкретный список документов и способ записи зависят от Câmara Municipal, поэтому перед визитом нужно проверять страницу своего муниципалитета.",
-      "Уточнить, где оформляется certificado de residência permanente после 5 лет и что это отдельная процедура, а не автоматическая замена CRUE.",
-      "Добавить отдельную оговорку про медицинское покрытие/страховку для студентов и экономически неактивных граждан ЕС, когда применимо.",
-      "Добавить правовую ссылку на Lei n.º 37/2006, art. 7 и 14 непосредственно рядом с требованиями по срокам и документам."
+      "Add an explicit official source for the nationality-law note if keeping it, and distinguish clearly between law in force and draft/approved-but-not-promulgated changes.",
+      "Clarify that timeline estimates refer to issuance at the appointment, not appointment availability."
     ]
+  },
+  "usage": {
+    "completion_tokens": 2605,
+    "prompt_tokens": 2168,
+    "total_tokens": 4773
   },
   "model": "gpt-5.5"
 }

@@ -1,0 +1,81 @@
+{
+  "guideId": "fx-cambio-online-revolut",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate and practical, but it over-generalises fintech/bank status, uses weak generic official sources, and misses a few important consumer-protection and cash/AML caveats.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[2].text",
+        "current": "«Revolut и Wise не являются “португальским банковским отделением” в бытовом смысле. Для IRS, аренды, зарплаты и débito direto в Португалии иногда удобнее иметь PT IBAN в местном банке...»",
+        "problem": "This lumps Revolut and Wise together and may be misleading in 2026. Wise is an e-money institution, not a bank, and typically does not provide a Portuguese bank account. Revolut Bank UAB is a bank passported/registered in Portugal and Portuguese customers may have or be migrated to Portuguese IBANs depending on eligibility/product rollout. The real caveat is not simply “fintech vs local bank”, but whether the account has PT IBAN, supports Portuguese direct debits/salary workflows, and what protection scheme applies.",
+        "suggestion": "Rewrite as: «Wise — не банк, а instituição de moeda eletrónica; деньги защищаются через safeguarding, а не через гарантию вкладов. Revolut Bank UAB — банк, зарегистрированный/паспортизированный в Португалии; у части клиентов может быть PT IBAN, но всё равно проверяйте, принимают ли его senhorio, entidade patronal, AT/Segurança Social и débito direto. Для бытовых задач в Португалии иногда проще иметь счёт в банке с полной поддержкой Multibanco/MB Way/PT IBAN.»",
+        "confidence": "medium",
+        "source": "Banco de Portugal register; Revolut Portugal legal/IBAN information; Wise customer funds/safeguarding disclosures"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "«...ищите лицензированный balcão de câmbio в центре Lisboa... “Exchange Comércio Lisboa” и похожие обменники в туристическом центре могут быть нормальным вариантом...»",
+        "problem": "The guide recommends/mentions a specific exchange-office name without showing that it is licensed or explaining how to verify licensing. For currency exchange in Portugal, the practical safety step is to check whether the entity is authorised/registered with Banco de Portugal. A named recommendation without verification is risky and can become outdated quickly.",
+        "suggestion": "Avoid naming a specific shop unless you have verified its authorisation. Write: «Проверяйте, что обменник/entidade está registada/autorizada no Banco de Portugal для atividade cambial или является агентом уполномоченной entidade. Название на вывеске может отличаться от юридического лица — сверяйте NIPC/denominação social в recibo или на сайте BdP.»",
+        "confidence": "high",
+        "source": "Banco de Portugal — lista/registo de entidades autorizadas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[5]",
+        "current": "«Не держите большие суммы в финтехе без необходимости: для долгого хранения используйте банк с полноценной стратегией безопасности.»",
+        "problem": "This is directionally sensible but too vague and slightly misleading because Revolut Bank and Wise have different legal statuses and different protection mechanisms. Readers may not understand the difference between deposit guarantee and e-money safeguarding.",
+        "suggestion": "Replace with: «Для крупных остатков проверьте правовой статус провайдера: банковские вклады обычно покрываются схемой гарантирования вкладов до установленного лимита, а электронные деньги у EMI защищаются через safeguarding и не являются банковским вкладом. Не храните крупные суммы там, где вам непонятны лимиты, схема защиты и процедура блокировки/разблокировки счёта.»",
+        "confidence": "high",
+        "source": "Banco de Portugal consumer information; European deposit guarantee framework; Wise safeguarding disclosures; Revolut Bank deposit insurance disclosures"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[0]",
+        "current": "«Revolut / Wise онлайн-обмен», amountEURMin: 0, amountEURMax: 15",
+        "problem": "The table does not state the reference amount for this €0–15 range, while the other rows imply losses per €1,000. If this is meant per €1,000, it can be too low in some scenarios: Revolut Standard after allowance, weekend markup, card funding, exotic pairs or combined markups can exceed €15 per €1,000.",
+        "suggestion": "Clarify the basis and widen/qualify the range: «Ориентир на €1,000 для major pairs: часто €0–15, но может быть выше при превышении лимита плана Revolut, обмене в выходные, оплате картой в Wise или для менее ликвидных валют. Всегда смотреть финальную сумму в приложении.»",
+        "confidence": "high",
+        "source": "Revolut Portugal fees; Wise pricing"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "url: «https://www.bportugal.pt»",
+        "problem": "This is only the Banco de Portugal homepage, not a specific source for bank fees, payment services, currency conversion or authorised entities. For a consumer-finance guide, generic homepage citations are weak and hard to verify.",
+        "suggestion": "Replace or add specific Banco de Portugal pages: Cliente Bancário pages on payment cards/DCC, preçários/comissões, and the BdP register/list of authorised entities.",
+        "confidence": "high",
+        "source": "Banco de Portugal / Portal do Cliente Bancário"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "url: «https://clientebancario.bportugal.pt»",
+        "problem": "This is again a portal homepage, not a specific DCC warning/page. The text claims Banco de Portugal warnings about DCC, so the source should point directly to a relevant DCC/payment-card page where possible.",
+        "suggestion": "Use a direct Cliente Bancário/Banco de Portugal URL for Dynamic Currency Conversion / currency conversion on card payments and ATM withdrawals, plus a page on card fees or payment services.",
+        "confidence": "medium",
+        "source": "Banco de Portugal / Portal do Cliente Bancário"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[4]",
+        "current": "«Не отдавайте паспорт/ВНЖ из рук надолго; для крупных операций идентификация нормальна, но документ должен быть возвращён сразу.»",
+        "problem": "The consumer-safety advice is fine, but it misses the AML caveat that authorised exchange offices may be legally required to identify the customer, record data and sometimes take/keep a copy of ID depending on amount/risk. Without that caveat, readers may think any ID copying is suspicious.",
+        "suggestion": "Add: «Легальный обменник может попросить документ и сохранить данные/копию для KYC/AML, особенно при крупных или необычных операциях. Это нормально, если это уполномоченная entidade и вы получаете recibo/comprovativo.»",
+        "confidence": "high",
+        "source": "Lei n.º 83/2017, anti-money laundering framework"
+      }
+    ],
+    "missing_topics": [
+      "How to verify that a câmbio/exchange office is authorised or registered with Banco de Portugal, including checking the legal entity/NIPC rather than only the shop sign.",
+      "Cash declaration rule when entering or leaving the EU with €10,000 or more in cash or equivalent negotiable instruments.",
+      "Difference between bank deposit guarantee and e-money safeguarding for Revolut/Wise and why it matters for storing large balances.",
+      "Practical note that some Portuguese services may still discriminate against non-PT SEPA IBANs despite SEPA rules; users should escalate or use an account with PT IBAN if speed matters.",
+      "For Russian-speaking expats specifically: sanctions/compliance can affect transfers connected to Russia/Belarus, source-of-funds checks, and account blocks; large FX/transfer operations should be documented in advance."
+    ]
+  },
+  "model": "gpt-5.5"
+}

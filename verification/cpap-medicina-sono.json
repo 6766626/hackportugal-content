@@ -1,0 +1,77 @@
+{
+  "guideId": "cpap-medicina-sono",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом корректен для взрослого пациента в SNS, но ему не хватает нескольких оговорок и официального источника по taxa moderadora.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "В 2026 consultas и назначенные обследования в SNS в большинстве случаев без taxa moderadora.",
+        "problem": "Утверждение в целом верное для consultas и MCDT, назначенных в SNS, но без оговорки про urgência может быть прочитано слишком широко: taxa moderadora в urgência всё ещё возможна, если пациент пришёл без направления SNS 24/INEM/centro de saúde и не был госпитализирован.",
+        "suggestion": "Написать: «В 2026 consultas в SNS и обследования, назначенные в рамках SNS, обычно без taxa moderadora; исключение — некоторые обращения в urgência без предварительного направления и без последующей госпитализации.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022; SNS 24/ACSS informação sobre taxas moderadoras"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[0].note",
+        "current": "В 2026 большинство consultas и назначенных обследований в SNS освобождены от taxa moderadora.",
+        "problem": "Та же проблема формулировки: не указано, что правило относится к consultas и prescribed exams/MCDT в маршруте SNS, а не ко всем контактам с SNS вообще.",
+        "suggestion": "Уточнить: «Consultas no SNS и MCDT, prescribed within SNS, generally have no taxa moderadora; urgência may still be charged in limited cases without referral/admission.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022; SNS 24/ACSS informação sobre taxas moderadoras"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Есть источники DGS и SNS 24, но нет источника для отмены/сохранения taxa moderadora.",
+        "problem": "Для денежного утверждения о нулевой стоимости в SNS нужен отдельный официальный источник. Сейчас читатель не может проверить, почему consulta/exame стоят €0 и какие есть исключения.",
+        "suggestion": "Добавить официальный источник про taxas moderadoras: SNS 24 или ACSS page on taxas moderadoras, а также при желании Decreto-Lei n.º 37/2022.",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 37/2022"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[2-4]",
+        "current": "AHI/IAH 5–14,9: лёгкое апноэ; AHI/IAH 15–29,9: умеренное апноэ; AHI/IAH ≥30: тяжёлое апноэ",
+        "problem": "Пороговые значения корректны для взрослых, но это не сказано. У детей критерии и клиническая интерпретация отличаются; без оговорки это может быть misleading для семей с детьми.",
+        "suggestion": "Добавить: «Эти пороги обычно применяются для взрослых; у детей диагностика и пороги другие, нужна avaliação pediátrica/ORL/pneumologia pediátrica.»",
+        "confidence": "high",
+        "source": "AASM clinical scoring/OSA severity conventions; DGS Norma 031/2011 for adult CRD context"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Запишитесь в Centro de Saúde через Balcão SNS 24, приложение SNS 24, по телефону 808 24 24 24 или напрямую в вашей unidade de saúde.",
+        "problem": "Формулировка может создать ожидание, что все эти каналы всегда позволяют записаться к médico de família. На практике доступ зависит от того, зарегистрирован ли человек в SNS/USF/UCSP, есть ли assigned médico/enfermeiro и поддерживает ли unidade соответствующий канал записи.",
+        "suggestion": "Уточнить: «Если у вас уже есть número de utente и вы зарегистрированы в unidade de saúde, запись может быть доступна через app/portal/Balcão SNS 24 или 808 24 24 24; если не получается — звоните или идите напрямую в вашу USF/UCSP.»",
+        "confidence": "medium",
+        "source": "SNS 24 access channels; Serviços Partilhados do Ministério da Saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[5]",
+        "current": "Для водителей, пилотов и опасных профессий запросите письменное заключение о пригодности и контроле сонливости",
+        "problem": "Полезно, но неполно: для водителей, особенно professional/heavy vehicle drivers, obstructive sleep apnoea and excessive sleepiness can affect fitness-to-drive assessment and medical certificate. Нужна более явная оговорка, что это не только «попросить справку», а вопрос медицинской пригодности и безопасности.",
+        "suggestion": "Добавить: «Если вы professional driver или управляете heavy vehicles, обсудите с врачом fitness to drive/atestado médico и не водите при uncontrolled sleepiness; OSA может иметь значение для avaliação médica da carta de condução.»",
+        "confidence": "medium",
+        "source": "IMT medical fitness to drive rules; EU Directive 2014/85/EU"
+      }
+    ],
+    "missing_topics": [
+      "Оговорка, что гайд описывает в основном взрослых; для детей с храпом/апноэ нужен педиатрический маршрут и другие критерии.",
+      "Что делать, если у человека ещё нет número de utente или он не зарегистрирован в Centro de Saúde/USF/UCSP.",
+      "Более явное предупреждение для водителей: не садиться за руль при неконтролируемой сонливости; OSA может влиять на medical fitness to drive.",
+      "Официальный источник по taxas moderadoras и исключениям для urgência.",
+      "Практическая оговорка, что сроки замены маски/фильтров/трубки и наличие humidifier зависят от CRD prescription, provider contract and clinical justification."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2997,
+    "prompt_tokens": 3469,
+    "total_tokens": 6466
+  },
+  "model": "gpt-5.5"
+}

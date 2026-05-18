@@ -1,0 +1,85 @@
+{
+  "guideId": "cartao-credito-debito-mb",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом точный и полезный, но в блоке про мошенничество/chargeback не хватает важных юридических оговорок, а некоторые формулировки про Card Stop, международные переводы и комиссии слишком широкие.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].items[4]",
+        "current": "Оспорьте операции через reclamação/chargeback в банке как можно быстрее.",
+        "problem": "Формулировка смешивает банковскую reclamação и chargeback. Chargeback — это не универсальное право для любых операций, а процедура платёжных схем, в основном для карточных операций Visa/Mastercard. Для MB WAY, pagamentos de serviços, переводов и некоторых операций Multibanco может быть обычная жалоба/расследование банка, но не chargeback в строгом смысле.",
+        "suggestion": "Заменить на: «Оспорьте неавторизованные операции в банке как можно быстрее. Для операций по Visa/Mastercard банк может запускать chargeback; для MB WAY, pagamentos de serviços и переводов процедура может быть другой и возврат не гарантирован автоматически.»",
+        "confidence": "high",
+        "source": "Banco de Portugal — Cliente Bancário; Decreto-Lei n.º 91/2018, regime jurídico dos serviços de pagamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content",
+        "current": "Блокировка, мошенничество и chargeback",
+        "problem": "Не указаны ключевые правила ответственности клиента по неавторизованным платёжным операциям: нужно уведомить банк без неоправданной задержки; общий предельный срок для сообщения — 13 месяцев после списания; до уведомления ответственность плательщика обычно ограничена 50 €, кроме случаев мошенничества, умысла или грубой небрежности; после уведомления банк несёт риск дальнейших операций. Это критично для практического гайда о мошенничестве.",
+        "suggestion": "Добавить warning или checklist item: «Сообщайте банку о неавторизованной операции immediately/sem atraso injustificado. По правилам платежных услуг претензии обычно нужно заявить не позднее 13 месяцев после списания. До уведомления возможная ответственность клиента обычно ограничена 50 €, но лимит не защищает при fraude, dolo или negligência grosseira; после уведомления банк должен предотвратить дальнейшее использование инструмента.»",
+        "confidence": "high",
+        "source": "Decreto-Lei n.º 91/2018, artigos sobre operações de pagamento não autorizadas; Banco de Portugal — Operações de pagamento não autorizadas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[2]",
+        "current": "Если банк недоступен, используйте SIBS Card Stop: 808 201 251; из-за границы обычно указывают +351 217 918 780.",
+        "problem": "Полезно, но слишком универсально: SIBS Card Stop не является заменой официальному каналу любого эмитента в мире и применим прежде всего к картам/эмитентам, обслуживаемым через SIBS/португальскую инфраструктуру. Для карт Revolut, Wise, иностранных банков и некоторых fintech может требоваться блокировка только через их app/support.",
+        "suggestion": "Уточнить: «Для карт португальских банков, поддерживаемых SIBS, можно использовать SIBS Card Stop… Для иностранных/fintech-карт блокируйте через app или emergency support эмитента.»",
+        "confidence": "medium",
+        "source": "SIBS — Card Stop"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[4]",
+        "current": "Переводы между португальскими счетами и иногда международные переводы, зависит от банка.",
+        "problem": "Может ввести в заблуждение: классические операции Multibanco в ATM ориентированы на национальные переводы/IBAN и сервисные платежи; международные SEPA/SWIFT-переводы обычно делаются через homebanking/app банка, а не как стандартная функция сети Multibanco. Текущая фраза смешивает возможности банка и Multibanco.",
+        "suggestion": "Заменить на: «Переводы между португальскими счетами/IBAN; международные SEPA/SWIFT-переводы обычно делаются через homebanking/app банка и зависят от банка и тарифов.»",
+        "confidence": "high",
+        "source": "SIBS — Multibanco; Banco de Portugal — serviços de pagamento"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "\"amountEUR\": 0, \"note\": \"Сервис блокировки карты; сам звонок на 808 оплачивается по тарифу оператора.\"",
+        "problem": "Как строка затрат это может выглядеть так, будто вся операция блокировки всегда бесплатна. Сам Card Stop может не взимать отдельную плату, но звонок на 808 платный/тарифицируется по правилам оператора, а банк может взимать комиссию за выпуск replacement card после блокировки.",
+        "suggestion": "Изменить note на: «Отдельная плата SIBS за Card Stop обычно не указывается; звонок на 808 тарифицируется оператором, а банк может взимать комиссию за перевыпуск карты после блокировки.»",
+        "confidence": "medium",
+        "source": "SIBS — Card Stop; preçários dos bancos no Banco de Portugal"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[1].items[0]",
+        "current": "Проверьте comissão de disponibilização de cartão: у некоторых банков дебетовая карта бесплатна, у других стоит 10–25 € в год.",
+        "problem": "Диапазон 10–25 € годовых подходит для многих обычных дебетовых карт, но не покрывает все пакеты/типы карт: в premium-пакетах, business-сегменте или при дополнительных картах стоимость может быть выше. В costs это названо «типичным диапазоном», а в тексте звучит как общий максимум.",
+        "suggestion": "Написать: «…часто стоит примерно 10–25 € в год для обычной карты, но premium/business/additional cards могут быть дороже; проверяйте preçário банка.»",
+        "confidence": "medium",
+        "source": "Banco de Portugal — Comparador de Comissões; preçários dos bancos"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "\"title\": \"SIBS — Card Stop и безопасность платёжных карт\", \"url\": \"https://www.sibs.com\"",
+        "problem": "Источник указан слишком общо. Для аварийного номера блокировки карт лучше давать прямую страницу Card Stop/SIBS или страницу банка с экстренными контактами, иначе читатель может не найти номер быстро.",
+        "suggestion": "Заменить generic URL на прямую страницу SIBS Card Stop, если она доступна на дату проверки, и/или добавить: «также проверяйте emergency contacts вашего банка в app/на сайте».",
+        "confidence": "medium",
+        "source": "SIBS — Card Stop"
+      }
+    ],
+    "missing_topics": [
+      "Правила ответственности клиента за неавторизованные операции: 50 € лимит до уведомления, исключения при грубой небрежности/мошенничестве, срок 13 месяцев",
+      "Что chargeback применим в основном к карточным операциям Visa/Mastercard, а не ко всем MB WAY/pagamentos de serviços/переводам",
+      "Куда эскалировать спор с банком: Livro de Reclamações, reclamação в Banco de Portugal, Centro de Arbitragem de Conflitos de Consumo",
+      "Комиссии за использование карты за границей: cash withdrawal fee, currency conversion fee, markup банка и отличие от DCC"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3126,
+    "prompt_tokens": 3534,
+    "total_tokens": 6660
+  },
+  "model": "gpt-5.5"
+}

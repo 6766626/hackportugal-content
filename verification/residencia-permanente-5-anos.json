@@ -1,0 +1,76 @@
+{
+  "guideId": "residencia-permanente-5-anos",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "dict": "major_",
+    "summary": "Guide is broadly correct on the permanent residence eligibility framework, but it contains a stale headline AIMA fee, a wrong legal citation for the 2026 fee table, and a materially wrong/future-dated nationality-law statement.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Пошлина AIMA — 252 €; карта permanente обновляется каждые 5 лет.",
+        "problem": "The €252 AIMA fee is outdated and contradicts the guide’s own later 2026 fee section. As of the AIMA fee table effective 01.03.2026, the permanent residence process is not €252.",
+        "suggestion": "Replace with: \"Пошлина AIMA с 01.03.2026: €133 за receção e análise do pedido + €351,10 за autorização de residência permanente, итого €484,10; физическая карта permanente обновляется каждые 5 лет.\"",
+        "confidence": "high",
+        "source": "Portaria 480-A/2025/1; AIMA tabela de taxas effective 01.03.2026"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[0].items[2].content[0].text",
+        "current": "Тарифы вступили в силу 01.03.2026 (Portaria 480/2025/1, рост ~+33% к старой €252).",
+        "problem": "The Portaria citation appears wrong: the relevant 2026 AIMA fee update is Portaria 480-A/2025/1, not Portaria 480/2025/1. The percentage is also misleading: €351,10 versus €252 is about +39.3%, while the total €484,10 versus €252 is about +92.1%.",
+        "suggestion": "Write: \"Тарифы вступили в силу 01.03.2026 по Portaria 480-A/2025/1. Сама taxa art. 76 выросла с €252 до €351,10; вместе с €133 за receção e análise общий платёж составляет €484,10.\"",
+        "confidence": "high",
+        "source": "Portaria 480-A/2025/1; AIMA tabela de taxas effective 01.03.2026"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[5].content[1].items[6]",
+        "current": "03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII (новая редакция закона о гражданстве); закон вступит в силу после публикации в DRE. После публикации натурализация: 7 лет для CPLP/EU, 10 лет для остальных. Permanent residence НЕ обязателен для подачи на гражданство",
+        "problem": "As of April 2026 this is wrong/future-dated. The new nationality law had been approved on 01.04.2026 and was awaiting promulgation; it had not yet been promulgated or published in DRE. The statement also introduces an apparently incorrect President/date and presents not-yet-in-force naturalisation periods as if imminent settled law.",
+        "suggestion": "Replace with: \"На апрель 2026 новая редакция закона о гражданстве была одобрена 01.04.2026, но ещё ожидала промульгации и публикации в DRE, поэтому старые правила продолжают применяться до вступления изменений в силу. Permanent residence сам по себе не обязателен для подачи на гражданство, но требования к сроку проживания и переходные правила нужно проверять по финальному опубликованному тексту.\"",
+        "confidence": "high",
+        "source": "Decreto da Assembleia da República 48/XVII; Lei da Nacionalidade status as of April 2026"
+      },
+      {
+        "severity": "major",
+        "where": "lastVerified",
+        "current": "2026-05-17",
+        "problem": "The guide is being reviewed as April 2026 content, but the metadata claims verification on 17.05.2026 and the body includes an alleged event on 03.05.2026. This is internally inconsistent for an April 2026 reference and makes the nationality-law section unreliable.",
+        "suggestion": "If the reference date is April 2026, set lastVerified to an April 2026 date and remove all May 2026 claims. If it is genuinely verified in May 2026, re-check and cite the actual DRE/promulgation status.",
+        "confidence": "high",
+        "source": "Internal chronology; DRE publication status should be checked"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[6]",
+        "current": "вы не нарушали режим отсутствий: ориентир для безопасной практики — реально проживать в Португалии не менее 6 месяцев в год",
+        "problem": "This is a conservative practical rule, not the statutory wording. It may mislead readers into thinking the law literally requires 6 months of physical presence every calendar year for permanent residence. The relevant absence/cancellation rules are more specific and include exceptions for justified absences.",
+        "suggestion": "Clarify: \"Это не буквальная формула закона, а безопасный практический ориентир. Для временных карт и последующего permanente проверяйте правила отсутствий и основания отмены по Lei 23/2007, включая допустимые/обоснованные отсутствия; длинные отсутствия лучше заранее документировать.\"",
+        "confidence": "medium",
+        "source": "Lei 23/2007, art. 85"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "DRE — legislação consolidada sobre autorização de residência permanente — https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275",
+        "problem": "This appears duplicative or potentially the wrong consolidated-law URL for Lei 23/2007, because the previous source already links to the consolidated Lei 23/2007 page. A wrong DRE consolidation ID can send readers to an obsolete or unrelated version.",
+        "suggestion": "Use one verified DRE consolidated Lei 23/2007 link and cite the exact articles: art. 80 for permanent residence requirements and art. 85 for cancellation/absence rules.",
+        "confidence": "medium",
+        "source": "Diário da República Eletrónico — Lei 23/2007 consolidated version"
+      }
+    ],
+    "missing_topics": [
+      "Exact statutory absence/cancellation rules for temporary and permanent residence, with article reference and caveat for justified absences",
+      "Clear total AIMA payable amount after 01.03.2026: €133 + €351,10 = €484,10",
+      "Caveat that nationality-law changes approved on 01.04.2026 are not in force until promulgation and DRE publication",
+      "Official AIMA checklist link or citation for permanent residence documents, if available, because document requirements are a sensitive category"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2935,
+    "prompt_tokens": 3836,
+    "total_tokens": 6771
+  },
+  "model": "gpt-5.5"
+}

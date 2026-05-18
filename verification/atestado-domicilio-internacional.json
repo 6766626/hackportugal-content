@@ -1,0 +1,93 @@
+{
+  "guideId": "atestado-domicilio-internacional",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "major_",
+    "summary": "Guide is mostly practical, but it repeatedly conflates Portuguese tax domicile/address with tax residence, which is a material legal distinction for this document.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "title",
+        "current": "Atestado de Transposição de Domicílio Fiscal Internacional: справка о переносе налогового резидентства в Португалию",
+        "problem": "The title translates 'domicílio fiscal' as transfer of tax residence. In Portuguese tax law, domicílio fiscal is the taxpayer's tax address, while residência fiscal is determined under CIRS art. 16. The atestado is not the same as a tax residence certificate.",
+        "suggestion": "Change to: \"Atestado de Transposição de Domicílio Fiscal Internacional: справка о переносе налогового адреса / налогового домицилия в Португалию\". Avoid saying it is a certificate of transfer of tax residence.",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 19; Código do IRS art. 16"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Её часто просят налоговые органы, банки и работодатели за рубежом, когда нужно доказать, что вы стали налоговым резидентом PT и больше не декларируете себя как резидент в США/UK/РФ/другой стране.",
+        "problem": "Misleading: this atestado proves transfer of Portuguese tax domicile/address, not by itself that the person became Portuguese tax resident or ceased tax residence elsewhere. The later warning partly fixes this, but the TLDR is what readers will rely on.",
+        "suggestion": "Rewrite as: \"Её могут просить иностранные банки/органы как подтверждение, что ваш налоговый адрес в системе AT перенесён в Португалию. Она не заменяет Certificado de Residência Fiscal и сама по себе не доказывает прекращение налогового резидентства в США/UK/РФ или другой стране.\"",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 19; Código do IRS art. 16"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Atestado de Transposição de Domicílio Fiscal Internacional — это подтверждение Autoridade Tributária e Aduaneira, что ваш налоговый адрес, domicílio fiscal, перенесён в Португалию.",
+        "problem": "This sentence is broadly correct, but given the title/TLDR framing, it should explicitly state that it is not a determination of tax residence under CIRS art. 16.",
+        "suggestion": "Add immediately after this sentence: \"Это подтверждение налогового адреса в cadastro AT, а не самостоятельное решение AT о вашем статусе налогового резидента по CIRS art. 16.\"",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 19; Código do IRS art. 16"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[0]",
+        "current": "Иностранная налоговая просит доказать, что вы перестали быть её налоговым резидентом и перенесли центр налоговых интересов в Португалию.",
+        "problem": "Overstates what this document can prove. It may be accepted as supporting evidence, but it does not prove loss of foreign tax residence or 'centre of interests' under another country's domestic law or treaty tie-breaker.",
+        "suggestion": "Change to: \"Иностранная налоговая просит документ из Португалии о переносе вашего налогового адреса; иногда это используют как часть пакета доказательств прекращения резидентства за рубежом.\"",
+        "confidence": "high",
+        "source": "Código do IRS art. 16; OECD Model Tax Convention tie-breaker principles"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].items[4]",
+        "current": "Нужно показать дату/год, с которого Finanças считает ваш domicílio fiscal португальским.",
+        "problem": "Potentially confusing: AT may confirm the date/year of fiscal domicile change in cadastro, but that is not necessarily the date from which AT considers the person resident for IRS purposes.",
+        "suggestion": "Change to: \"Нужно показать дату/год, с которого в cadastro AT ваш domicílio fiscal указан в Португалии.\"",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 19; Código do IRS art. 16"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Справку имеет смысл запрашивать после того, как в Portal das Finanças ваш domicílio fiscal уже стоит в Португалии.",
+        "problem": "Correct, but should clarify that changing domicílio fiscal to Portugal is not alone enough to become an IRS resident. The guide says this later, but the operational section would benefit from the caveat.",
+        "suggestion": "Add: \"Если вам нужен именно статус налогового резидента для целей соглашения об избежании двойного налогообложения, запрашивайте Certificado de Residência Fiscal и будьте готовы подтвердить критерии CIRS art. 16.\"",
+        "confidence": "high",
+        "source": "Código do IRS art. 16"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "Portal das Finanças — Domicílio fiscal и dados cadastrais / https://www.portaldasfinancas.gov.pt/at/html/index.html",
+        "problem": "The URL is a generic Portal das Finanças page, not a specific official reference for domicílio fiscal or dados cadastrais. It is weak as a source for the legal distinction and requirements.",
+        "suggestion": "Replace or supplement with official/legal sources for domicílio fiscal: Lei Geral Tributária art. 19 and an AT page/FAQ on alteração de domicílio fiscal if available on Portal das Finanças.",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 19"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Sources include CIRS art. 16 but not Lei Geral Tributária art. 19.",
+        "problem": "The guide is primarily about domicílio fiscal, but the legal source for domicílio fiscal is missing. CIRS art. 16 covers residence, not fiscal domicile/address.",
+        "suggestion": "Add source: \"Lei Geral Tributária — art. 19: domicílio fiscal\" with the consolidated law URL from Diário da República.",
+        "confidence": "high",
+        "source": "Lei Geral Tributária art. 19"
+      }
+    ],
+    "missing_topics": [
+      "Explicit distinction between domicílio fiscal/address, residência fiscal under CIRS art. 16, and Certificado de Residência Fiscal for treaty purposes",
+      "Legal source for domicílio fiscal: Lei Geral Tributária art. 19",
+      "Practical note that many foreign tax authorities may require Certificado de Residência Fiscal rather than Atestado de Transposição de Domicílio Fiscal Internacional"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2674,
+    "prompt_tokens": 3577,
+    "total_tokens": 6251
+  },
+  "model": "gpt-5.5"
+}

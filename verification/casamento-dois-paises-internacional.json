@@ -1,0 +1,95 @@
+{
+  "guideId": "casamento-dois-paises-internacional",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is mostly sound for marriage logistics, but the nationality section contains a serious anachronistic/unsupported claim about the 2026 nationality-law reform and lacks key legal caveats/sources.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "steps[4].content[1].text",
+        "current": "**03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII** ... на 13.05.2026 закон ВСЁ ЕЩЕ НЕ опубликован в DRE ... После публикации ... срок ... увеличится с 3 до 5 лет.",
+        "problem": "As of April 2026 this is factually impossible/outdated relative to the requested review date: the new nationality law had been approved on 01.04.2026 and was awaiting promulgation. The text invents later May 2026 events and names a promulgation/publication status that cannot be verified from the cited sources. It also conflicts with the guide's own source retrieval dates of 2026-04-28.",
+        "suggestion": "Replace with: \"На апрель 2026 действует правило Lei da Nacionalidade: брак или união de facto более 3 лет с гражданином Португалии и декларация о желании приобрести гражданство. 01.04.2026 парламент одобрил новую редакцию закона о гражданстве, которая на момент проверки ожидала промульгации/публикации; перед подачей нужно проверить опубликованный текст в Diário da República и переходные положения.\"",
+        "confidence": "high",
+        "source": "Lei da Nacionalidade Lei 37/81; parliamentary approval of new nationality law on 01.04.2026 awaiting promulgation as of April 2026"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].text",
+        "current": "Брак с португальским гражданином может быть основанием для последующей натурализации по браку ... Для гражданства по браку классическое правило ...",
+        "problem": "This is legally imprecise: acquisition of Portuguese nationality by marriage is not ordinary 'naturalização'; it is acquisition by declaration/effect of will under Article 3 of the Lei da Nacionalidade. The practical requirements and opposition grounds differ from naturalisation.",
+        "suggestion": "Write: \"Брак с гражданином Португалии может дать право на aquisição da nacionalidade por efeito da vontade — подачу декларации о желании приобрести гражданство по ст. 3 Lei da Nacionalidade, а не обычную натурализацию.\"",
+        "confidence": "high",
+        "source": "Lei 37/81, Lei da Nacionalidade, artigo 3.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[4].content[1].text",
+        "current": "брак или união de facto более 3 лет с гражданином Португалии и декларация о желании приобрести гражданство",
+        "problem": "Missing critical caveat: meeting the 3-year marriage/union threshold does not automatically guarantee nationality. The Public Prosecutor may oppose acquisition in statutory cases, including lack of effective connection to the Portuguese community in some scenarios, serious criminal conviction, public functions/military service for a foreign state, or security/terrorism concerns. There are important exceptions/presumptions, e.g. children with Portuguese nationality or longer marriage duration.",
+        "suggestion": "Add after the sentence: \"Это не автоматическое гражданство: после декларации возможна oposição pelo Ministério Público по основаниям закона, включая отсутствие ligação efetiva à comunidade portuguesa, судимость установленного уровня, службу/публичные функции для иностранного государства или риски безопасности. Наличие общих детей-португальцев и длительность брака могут менять оценку ligação efetiva.\"",
+        "confidence": "high",
+        "source": "Lei 37/81, artigos 3.º e 9.º; Regulamento da Nacionalidade Portuguesa"
+      },
+      {
+        "severity": "major",
+        "where": "sources",
+        "current": "Sources include Portal da Justiça/IRN/Código do Registo Civil/certidão, but no source for nationality rules.",
+        "problem": "The guide makes sensitive claims about Portuguese nationality law and a pending 2026 reform, but cites no DRE/official source for Lei da Nacionalidade, the Nationality Regulation, or the parliamentary reform text/status.",
+        "suggestion": "Add official sources: consolidated Lei 37/81 in Diário da República, Regulamento da Nacionalidade Portuguesa, and the Assembleia da República/DRE page for the 2026 approved nationality-law reform once available.",
+        "confidence": "high",
+        "source": "Diário da República — Lei 37/81; Decreto-Lei 237-A/2006; Assembleia da República legislative process"
+      },
+      {
+        "severity": "major",
+        "where": "lastVerified",
+        "current": "2026-05-17",
+        "problem": "The requested factual review is as of April 2026, but the guide claims a later verification date and includes May 2026 events. This makes the chronology internally misleading.",
+        "suggestion": "If the guide is meant to be current as of April 2026, set lastVerified to an April 2026 date and remove May 2026 claims. If it is meant to be current as of May 2026, provide DRE/Presidency/Parliament sources proving the May claims.",
+        "confidence": "high",
+        "source": ""
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Иностранные документы почти всегда нужны с Hague apostille, переводом на PT...",
+        "problem": "Overbroad. For public documents circulating between EU Member States, Regulation (EU) 2016/1191 abolishes apostille/legalisation for many civil-status documents and can reduce translation needs via multilingual standard forms. This matters if one spouse is an EU citizen or documents are from an EU country.",
+        "suggestion": "Add caveat: \"Исключение: документы из других стран ЕС по ряду актов гражданского состояния могут идти без апостиля по Regulation (EU) 2016/1191; иногда помогает multilingual standard form.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 2016/1191"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[6]",
+        "current": "Перевод на португальский, если документ не на PT и Conservatória не принимает его напрямую",
+        "problem": "Correct in practice, but it should mention the EU multilingual standard form exception together with the apostille caveat; otherwise EU-issued birth/marital-status documents may be over-prepared unnecessarily.",
+        "suggestion": "Change to: \"Перевод на португальский, если документ не на PT и нет применимого исключения — например, multilingual standard form для некоторых документов ЕС — и Conservatória не принимает документ напрямую.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 2016/1191"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "Для России и Украины подход часто иной: португальский брак признаётся как иностранный акт при наличии апостиля и перевода...",
+        "problem": "This is broadly right but a little too compressed. For Russia, apostille/legalised Portuguese marriage certificate with certified translation is generally used to prove the marriage; there is no ordinary 'transcription' of a foreign marriage into a Russian ZAGS act record. For Ukraine, practical registration/update routes can differ depending on the authority and purpose. The guide should avoid implying identical handling for both countries.",
+        "suggestion": "Split into country-specific caveat: \"Для России обычно речь не о повторной регистрации в ЗАГС, а об использовании португальского certidão с апостилем и нотариально заверенным переводом. Для Украины порядок обновления актовых/паспортных данных нужно проверять по ДРАЦС/консульству под конкретную цель.\"",
+        "confidence": "medium",
+        "source": "Consular/ZAGS/ДРАЦС practice; country-specific civil registry rules"
+      }
+    ],
+    "missing_topics": [
+      "Official DRE source for Lei da Nacionalidade and Regulamento da Nacionalidade Portuguesa",
+      "Official source/status link for the 2026 nationality-law reform",
+      "Opposition grounds and non-automatic nature of Portuguese nationality by marriage",
+      "EU Regulation 2016/1191 exemption from apostille/legalisation for certain EU public documents",
+      "Clear distinction between nationality acquisition by marriage and ordinary naturalisation"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2958,
+    "prompt_tokens": 4113,
+    "total_tokens": 7071
+  },
+  "model": "gpt-5.5"
+}

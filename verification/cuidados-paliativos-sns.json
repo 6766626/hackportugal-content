@@ -1,0 +1,12 @@
+{
+  "guideId": "cuidados-paliativos-sns",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "parse_error",
+    "summary": "Expected ',' or ']' after array element in JSON at position 2235 (line 22 column 6)",
+    "raw": "{\n  \"verdict\": \"minor_issues\",\n  \"summary\": \"Guide is broadly accurate and useful, but it blurs RNCP/RNCCI/ECCI roles, over-simplifies emergency routing and costs, and uses a few weak/generic sources.\",\n  \"issues\": [\n    {\n      \"severity\": \"major\",\n      \"where\": \"steps[2].content[3].text\",\n      \"current\": \"Если состояние резко ухудшилось — выраженная одышка, сильная боль, потеря сознания, кровотечение, судороги — звоните 112 или SNS 24: 808 24 24 24.\",\n      \"problem\": \"For loss of consciousn",
+    "issues": [],
+    "missing_topics": []
+  },
+  "model": "gpt-5.5"
+}

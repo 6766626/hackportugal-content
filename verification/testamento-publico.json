@@ -1,0 +1,86 @@
+{
+  "guideId": "testamento-publico",
+  "categoryId": "documents_fiscal",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it misses mandatory formalities for Portuguese public wills and understates tax/stamp-duty caveats for real estate inheritances.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[0]",
+        "current": "«Запишитесь к notário и уточните стоимость, язык, необходимость переводчика и свидетелей.»",
+        "problem": "This makes witnesses sound optional. For a Portuguese testamento público, intervention of two instrumental witnesses is normally a formal requirement under the Código do Notariado; in some situations additional formalities may apply, e.g. interpreter, doctor, inability to sign/read.",
+        "suggestion": "Write: «Для testamento público обычно нужны две testemunhas instrumentárias; заранее уточните у notário, должны ли вы привести их сами или cartório их организует. Если вы не владеете португальским, не можете читать/подписывать или есть сомнения в дееспособности, могут потребоваться intérprete и/или дополнительные подтверждения.»",
+        "confidence": "high",
+        "source": "Código do Notariado, Decreto-Lei n.º 207/95, rules on witnesses/intervenientes in notarial acts"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "«...затем документ подписывается.»",
+        "problem": "The description of the signing process is incomplete for a public will: it should mention reading aloud, signatures by the testator, notary and required witnesses/intervening persons, and special handling if the testator cannot sign or does not understand Portuguese.",
+        "suggestion": "Write: «После чтения и подтверждения воли акт подписывают завещатель, notário и необходимые свидетели/участники; если завещатель не понимает португальский, не может читать или подписывать, notário применяет специальные формальности, включая intérprete или указание причины отсутствия подписи.»",
+        "confidence": "high",
+        "source": "Código do Notariado, Decreto-Lei n.º 207/95"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[3].text",
+        "current": "«Португалия не взимает “классический налог на наследство” между супругами, детьми, внуками, родителями и бабушками/дедушками, но по некоторым передачам действует Imposto do Selo 10%. Для недвижимости также возникают регистрационные расходы.»",
+        "problem": "This understates the tax point for real estate. Gratuitous transfers to non-exempt heirs are generally subject to 10% stamp duty, and Portuguese immovable property can also trigger the 0.8% stamp-duty item on acquisition of immovable property. Calling it merely “registration expenses” is misleading.",
+        "suggestion": "Write: «Супруг/партнёр de facto, descendentes и ascendentes обычно освобождены от 10% Imposto do Selo на наследование; другие наследники могут платить 10%. Для imóveis в Португалии отдельно проверяется verba 1.1 TGIS — 0,8% sobre o valor — плюс регистрационные расходы.»",
+        "confidence": "high",
+        "source": "Código do Imposto do Selo, artigo 6.º; Tabela Geral do Imposto do Selo, verbas 1.1 and 1.2"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[1].items[2]",
+        "current": "«Вы хотите назначить конкретных наследников, legatários или исполнителя завещания — cabeça de casal / testamenteiro.»",
+        "problem": "This conflates cabeça de casal and testamenteiro. A testamenteiro is the testamentary executor appointed by will. Cabeça de casal is the administrator of the estate determined primarily by statutory rules, although a testamenteiro may be cabeça de casal in certain circumstances if entrusted with administration.",
+        "suggestion": "Write: «Вы хотите назначить herdeiros, legatários или testamenteiro. Вопрос, кто будет cabeça de casal, регулируется отдельно законом; иногда им может быть testamenteiro, если ему поручено управление наследством.»",
+        "confidence": "high",
+        "source": "Código Civil português, articles on testamenteiro and cabeça-de-casal, including article 2080.º"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "«Ориентир госпошлины за завещание — 159 €, у частных нотариусов возможны дополнительные расходы.»",
+        "problem": "“Госпошлина” is not the best term here. The 159 € figure is presented by justiça.gov.pt as the service cost/price for the notarial act, not necessarily a state duty in the Russian-law sense; private notaries may quote fees and extras differently.",
+        "suggestion": "Write: «Ориентир официальной стоимости услуги “Testamento” на justiça.gov.pt — 159 €; у частных notários заранее уточняйте honorários/emolumentos и дополнительные расходы.»",
+        "confidence": "medium",
+        "source": "Justiça.gov.pt: serviço Testamento"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].text",
+        "current": "«Например, гражданин РФ, Украины, Великобритании или США, живущий в Португалии, может указать, что к наследованию применяется право его гражданства.»",
+        "problem": "Correct under EU Succession Regulation as a rule of the Regulation, but potentially misleading without the caveat that non-EU jurisdictions or assets outside participating EU states may apply their own conflict rules and may not give the same effect to the professio juris.",
+        "suggestion": "Add: «Но для активов в странах вне сферы применения EU 650/2012 нужно отдельно проверить местные коллизионные нормы: страна нахождения имущества может не признать такой выбор или применить свои правила к недвижимости.»",
+        "confidence": "high",
+        "source": "Regulamento (UE) n.º 650/2012, articles 21 and 22"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.sit.irn.mj.pt/portal/",
+        "problem": "This is a legacy/portal-style IRN URL and not a precise source for the service. It may work, but it is not the best citation for readers trying to verify the Registo Central de Testamentos procedure.",
+        "suggestion": "Use a current IRN/Justiça service page for Registo Central de Testamentos/certidão de testamento, e.g. an irn.justica.gov.pt or justica.gov.pt service URL, and keep the general SIT portal only if it is still necessary for the actual request flow.",
+        "confidence": "medium",
+        "source": "IRN/Justiça official service pages"
+      }
+    ],
+    "missing_topics": [
+      "Explicit explanation that Portuguese public wills normally require two witnesses and that the notary should be asked whether the cartório provides them.",
+      "Mention of the alternative forms of will in Portugal, especially testamento cerrado, and why the guide focuses only on testamento público.",
+      "Clear tax caveat for Portuguese real estate: possible 0.8% stamp duty item in addition to the 10% gratuitous-transfer rule for non-exempt heirs.",
+      "Caveat that unmarried partners/união de facto do not automatically have the same succession position as a spouse, even though they may be relevant for some tax exemptions or residence/home rights.",
+      "A government/legal source for notarial formalities, ideally Código do Notariado, not only Código Civil and justiça.gov.pt."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3212,
+    "prompt_tokens": 3749,
+    "total_tokens": 6961
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,77 @@
+{
+  "guideId": "iva-autoliquidacao-ue-b2b",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly correct for ordinary cross-border EU B2B services, but it should narrow its scope more clearly and add caveats for goods, B2B special place-of-supply rules, intra-community registration, and OSS micro-thresholds.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "title",
+        "current": "Reverse charge / autoliquidação IVA: счета клиентам в ЕС B2B",
+        "problem": "Title is broader than the actual rule explained. The guide mostly covers services under the general B2B place-of-supply rule. If the reader sells goods to an EU business, the VAT treatment, legal basis and invoice wording are different: intra-Community supplies of goods are generally handled under RITI, not CIVA art. 6.º, n.º 6, al. a), and should not be described simply as the same service reverse-charge flow.",
+        "suggestion": "Change title/scope to: \"Reverse charge / autoliquidação IVA для услуг ЕС B2B\" and add a caveat in the TLDR: \"Это про услуги по общему правилу B2B; поставки товаров в ЕС и специальные услуги проверяются отдельно, часто по RITI/другим правилам.\"",
+        "confidence": "high",
+        "source": "Código do IVA art. 6.º; RITI art. 14.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[4]",
+        "current": "Услуга подпадает под общее правило B2B: место налогообложения — страна клиента по CIVA art. 6.º, n.º 6, al. a).",
+        "problem": "This is correct but too easy to miss as the central limitation. Several special place-of-supply rules can override the general B2B rule, including services connected with immovable property, passenger transport, admission to events, restaurant/catering, short-term hire of means of transport and some other categories. The guide later mentions some edge cases mostly in a B2C context, but the caveat also applies to B2B.",
+        "suggestion": "Expand this item to: \"Услуга подпадает под общее правило B2B по CIVA art. 6.º, n.º 6, al. a); если это недвижимость, мероприятия/admission, транспорт, catering, краткосрочная аренда транспорта или другая специальная категория — место налогообложения проверяется отдельно, даже для B2B.\"",
+        "confidence": "high",
+        "source": "Código do IVA art. 6.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[0]",
+        "current": "Проверьте, что в Finanças у вас открыт activity code и корректный IVA regime.",
+        "problem": "This is directionally right but under-specific. For intra-Community operations, Portuguese taxpayers often need their activity/enquadramento updated in Portal das Finanças so that intra-Community transactions are declared and the taxpayer appears correctly for VIES/recapitulativa purposes. This is especially important for recibos verdes and people in the art. 53.º exemption regime.",
+        "suggestion": "Write: \"Проверьте activity code, IVA regime и отметку/регистрацию для operações intracomunitárias; при необходимости подайте Declaração de Alterações до начала EU B2B операций. Art. 53.º не отменяет автоматически обязанности по VIES/recapitulativa.\"",
+        "confidence": "medium",
+        "source": "Portal das Finanças; Código do IVA arts. 29.º and 30.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[2]",
+        "current": "B2C digital services, SaaS, downloadable products, online content: часто место налогообложения — страна клиента; может понадобиться OSS.",
+        "problem": "Correct as a high-level warning, but missing the EU micro-business threshold caveat. For certain B2C TBE/digital services and intra-EU distance sales, if the supplier is established only in one Member State and total relevant cross-border B2C turnover does not exceed EUR 10,000, Portuguese VAT may continue to apply unless the supplier opts into destination taxation/OSS.",
+        "suggestion": "Add: \"Есть EU micro-threshold €10,000 для некоторых B2C digital/TBE services и distance sales: ниже порога при единственном establishment в Португалии может применяться PT IVA, если вы не выбрали OSS/destination taxation.\"",
+        "confidence": "high",
+        "source": "EU VAT Directive arts. 58 and 59c; OSS rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[2]",
+        "current": "Если VIES возвращает valid — сохраните PDF/скриншот с датой и временем.",
+        "problem": "A screenshot is useful, but VIES can also return a consultation/request identifier when the requester VAT ID is provided. That identifier is stronger audit evidence than a plain screenshot. The guide misses this practical point.",
+        "suggestion": "Write: \"Сохраните PDF/скриншот с датой, временем и, если VIES выдал, consultation/request number; лучше вводить и свой PT VAT/NIF как requester.\"",
+        "confidence": "high",
+        "source": "European Commission VIES VAT number validation service"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "Portal das Finanças: Declaração Recapitulativa IVA — https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/default.aspx",
+        "problem": "The URL is a generic taxpayer-support landing page, not a direct source for the Declaração Recapitulativa obligation, deadline or filing instructions. For a sensitive compliance topic, the guide should cite the legal provisions and/or a direct AT help page.",
+        "suggestion": "Add direct legal references for the obligation and deadline, e.g. CIVA art. 29.º, n.º 1, al. i) and art. 30.º, n.º 1, al. c), plus the relevant Portal das Finanças page/path for IVA → Declaração Recapitulativa.",
+        "confidence": "high",
+        "source": "Código do IVA arts. 29.º and 30.º"
+      }
+    ],
+    "missing_topics": [
+      "Explicit distinction between EU B2B services under the general rule and intra-Community supplies of goods under RITI",
+      "Need to update Finanças registration/enquadramento for operações intracomunitárias where applicable",
+      "B2B special place-of-supply exceptions, not only B2C exceptions",
+      "Use of VIES consultation/request number as audit evidence",
+      "OSS EUR 10,000 EU micro-threshold caveat for relevant B2C digital/TBE services and distance sales"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4130,
+    "prompt_tokens": 3730,
+    "total_tokens": 7860
+  },
+  "model": "gpt-5.5"
+}

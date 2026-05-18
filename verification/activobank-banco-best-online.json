@@ -1,0 +1,86 @@
+{
+  "guideId": "activobank-banco-best-online",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный и актуальный, но есть несколько вводящих в заблуждение мест про инвестиционную защиту, KYC и Revolut/португальские IBAN, плюс не хватает важных официальных источников.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[2].content[2].text",
+        "current": "«Не покупайте структурные продукты, облигации или фонды только потому, что они доступны в приложении. В отличие от банковского депозита, инвестиции не покрываются Fundo de Garantia de Depósitos до 100 000 €; риск рынка несёт клиент.»",
+        "problem": "Фраза смешивает разные типы «структурных продуктов». Структурные/индексированные депозиты являются депозитами и в части депозита могут подпадать под Fundo de Garantia de Depósitos до 100 000 €. А структурные облигации/notes, фонды и ETF — нет. В текущем виде читатель может решить, что любые structured products не покрываются FGD, что не всегда верно.",
+        "suggestion": "Разделить: «Банковские депозиты, включая некоторые depósitos indexados/estruturados, покрываются FGD до 100 000 € на вкладчика и банк, но доходность не гарантируется сверх условий продукта. Облигации, structured notes, фонды, ETF и другие инвестиционные инструменты не покрываются FGD; рыночный риск несёт клиент.»",
+        "confidence": "high",
+        "source": "Fundo de Garantia de Depósitos; Banco de Portugal — depósitos indexados e duais"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].text",
+        "current": "«Это покрывает банковские депозиты и остаток на счёте, но не рыночную стоимость инвестиций.»",
+        "problem": "Правильно сказано, что FGD не покрывает рыночную стоимость инвестиций, но отсутствует важная оговорка: для финансовых инструментов может существовать отдельная защита Sistema de Indemnização aos Investidores, обычно до 25 000 €, но она покрывает не рыночные убытки, а невозможность финансового посредника вернуть деньги/инструменты клиента.",
+        "suggestion": "Добавить после этой фразы: «Для ценных бумаг может применяться Sistema de Indemnização aos Investidores до 25 000 €, но только при неспособности посредника вернуть клиентские активы/деньги; падение цены ETF, фонда, облигации или акции не компенсируется.»",
+        "confidence": "high",
+        "source": "CMVM — Sistema de Indemnização aos Investidores; Decreto-Lei n.º 222/99"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[2].text",
+        "current": "«Банки видят повторяющиеся KYC-запросы и могут задавать больше вопросов.»",
+        "problem": "Это звучит как утверждение, что банки в Португалии видят попытки открытия счетов/KYC-заявки в других банках. Для обычного открытия счёта такой общей межбанковской базы KYC-запросов нет. Банки могут видеть кредитную историю/задолженность через Central de Responsabilidades de Crédito при кредитных продуктах, а также использовать AML/fraud-проверки, но не «пять KYC-запросов» как универсальный сигнал.",
+        "suggestion": "Заменить на: «Если онлайн-заявка зависла, лучше не подавать хаотично заявки с разными данными. Это не потому, что банки автоматически видят все ваши KYC-заявки, а потому что несостыковки в документах, адресах, налоговом резидентстве или источнике средств могут вызвать дополнительные вопросы у каждого банка отдельно.»",
+        "confidence": "high",
+        "source": "Banco de Portugal — Central de Responsabilidades de Crédito; AML/KYC rules under Lei n.º 83/2017"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[5]",
+        "current": "«Revolut/Wise: хороши для валюты и международных переводов, но португальский IBAN и direct debit у местного банка часто удобнее.»",
+        "problem": "К 2026 году это может вводить в заблуждение для Revolut: Revolut начал предоставлять португальские IBAN для клиентов в Португалии. Wise обычно не является полноценной заменой местного португальского банка, но объединять Revolut и Wise в этой формулировке неточно. Главное отличие местных банков — не просто PT IBAN, а Multibanco, pagamentos por entidade/referência, MB WAY и более предсказуемая совместимость с местными списаниями.",
+        "suggestion": "Написать: «Revolut/Wise хороши для валюты и международных переводов. У Revolut для клиентов в Португалии может быть PT IBAN, но местный банк всё ещё часто удобнее из‑за Multibanco, pagamentos por entidade/referência, MB WAY и совместимости с португальскими direct debits.»",
+        "confidence": "medium",
+        "source": "Revolut Portugal announcements; Banco de Portugal register"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].text",
+        "current": "«ActivoBank и Banco Best — лицензированные банки в Португалии.»",
+        "problem": "Утверждение чувствительное и правильное по сути, но в источниках нет ссылки на реестр Banco de Portugal, где проверяется статус кредитной организации. Официальные сайты самих банков недостаточны для подтверждения лицензии.",
+        "suggestion": "Добавить источник Banco de Portugal — Lista de instituições autorizadas / Registo de entidades, либо прямо написать: «Статус банка проверяйте в реестре Banco de Portugal.»",
+        "confidence": "high",
+        "source": "Banco de Portugal — Registo de entidades autorizadas"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3].note",
+        "current": "«Типичный порядок ежемесячной комиссии за pacote/conta serviços без зарплатных или иных условий освобождения.»",
+        "problem": "Для банковских комиссий в Португалии обычно дополнительно взимается Imposto do Selo 4% на комиссии. Если указаны 5–8 €/мес как «порядок», это не ошибка, но для точности стоит упомянуть, что итог может быть комиссия + imposto do selo, а также отдельные комиссии за карты/переводы.",
+        "suggestion": "Добавить: «К банковским комиссиям обычно добавляется Imposto do Selo 4%; карта и отдельные операции могут тарифицироваться отдельно.»",
+        "confidence": "high",
+        "source": "Código do Imposto do Selo; preçários bancários"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2].url",
+        "current": "https://clientebancario.bportugal.pt/pt-pt/comparador-de-comissoes",
+        "problem": "URL может быть не самым точным/стабильным адресом приложения Comparador de Comissões. У Banco de Portugal часто используется путь приложения «/aplicacao/comparador-de-comissoes». Если текущий URL редиректит — не критично, но лучше ставить прямую ссылку на актуальное приложение.",
+        "suggestion": "Проверить и при необходимости заменить на прямой адрес Banco de Portugal для Comparador de Comissões, например страницу приложения «clientebancario.bportugal.pt/.../aplicacao/comparador-de-comissoes».",
+        "confidence": "medium",
+        "source": "Banco de Portugal — Portal do Cliente Bancário"
+      }
+    ],
+    "missing_topics": [
+      "Sistema de Indemnização aos Investidores: отдельная защита инвесторских активов до 25 000 €, не покрывающая рыночные убытки",
+      "Официальный источник Banco de Portugal для проверки лицензии ActivoBank и Banco Best в реестре entidades autorizadas",
+      "Отличие FGD для депозитов от защиты/рисков по ETF, фондам, облигациям, structured notes и depósitos indexados",
+      "Imposto do Selo 4% на банковские комиссии",
+      "Уточнение про Revolut PT IBAN в 2026 и отличие PT IBAN от полноценной поддержки Multibanco/MB WAY/pagamentos por referência"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3489,
+    "prompt_tokens": 3514,
+    "total_tokens": 7003
+  },
+  "model": "gpt-5.5"
+}

@@ -1,0 +1,95 @@
+{
+  "guideId": "recurso-hierarquico-at",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом правильно объясняет recurso hierárquico по CPPT, но опасно смешивает его с обжалованием coimas/contraordenações и недостаточно чётко отделяет его от стандартных процедур оспаривания liquidações.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].text",
+        "current": "«...штрафное/процедурное решение или иной акт AT, который затрагивает ваши права.»",
+        "problem": "Фраза создаёт впечатление, что решения о налоговых штрафах/coimas обычно можно безопасно обжаловать через recurso hierárquico. Для contraordenações fiscais действует специальный режим RGIT: решение о применении coima обычно обжалуется в tribunal tributário в короткий срок, а не через обычный recurso hierárquico по CPPT. Неправильный выбор процедуры может привести к пропуску срока судебного recurso.",
+        "suggestion": "Заменить на: «...решение по reclamação graciosa или иной налоговый административный акт AT. Осторожно: coimas/contraordenações fiscais живут по специальному режиму RGIT; решение о штрафе обычно обжалуется отдельным recurso judicial, часто в 20-дневный срок, поэтому не подавайте обычный recurso hierárquico без проверки процедуры.»",
+        "confidence": "high",
+        "source": "RGIT, art. 80; CPPT, art. 66"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[2].content[0].items[0]",
+        "current": "«Выберите налог/область: IRS, IVA, IMI, IMT, IUC, coimas или другое.»",
+        "problem": "Включение «coimas» в обычный маршрут recurso hierárquico вводит в заблуждение. Coimas/contraordenações имеют отдельные процессуальные правила и сроки по RGIT; для них нельзя давать тот же алгоритм, что для IRS/IVA/IMI/IMT.",
+        "suggestion": "Убрать «coimas» из списка или добавить явное предупреждение: «coimas/contraordenações — только если Portal прямо показывает соответствующую процедуру и вы проверили срок/режим по RGIT; чаще это отдельный recurso judicial da decisão de aplicação da coima».",
+        "confidence": "high",
+        "source": "RGIT, art. 80"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«В 2026 используйте его для спорных liquidações, отказов по reclamação graciosa, IMI/IRS/IVA-решений...»",
+        "problem": "Формулировка слишком широкая: для спорной liquidação стандартными путями часто являются reclamação graciosa, impugnação judicial или revisão oficiosa, а recurso hierárquico особенно типичен против решения по reclamação graciosa или иных административных решений. Если читатель воспримет recurso hierárquico как универсальную первую процедуру против liquidação, он может выбрать худший срок/механизм.",
+        "suggestion": "Написать точнее: «В 2026 recurso hierárquico чаще используют против решений AT, включая indeferimento/частичный отказ по reclamação graciosa. Для самой liquidação сначала сравните reclamação graciosa, impugnação judicial и revisão oficiosa: сроки и эффект разные.»",
+        "confidence": "medium",
+        "source": "CPPT, art. 66, art. 70, art. 102; LGT, art. 78"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[1].items[0]",
+        "current": "«Уместно: есть письменное решение Finanças и вы укладываетесь в 30 дней.»",
+        "problem": "Слишком обобщено. Наличие письменного решения и 30-дневного срока не означает, что recurso hierárquico — правильная процедура: для liquidações, coimas, execução fiscal, actos de penhora, oposição à execução и других категорий могут применяться специальные средства защиты и специальные сроки.",
+        "suggestion": "Добавить: «Но сначала проверьте тип акта: liquidação, indeferimento de reclamação graciosa, coima, citação em execução fiscal, penhora и т.п. Для некоторых актов recurso hierárquico не является правильным или безопасным средством защиты.»",
+        "confidence": "high",
+        "source": "CPPT, art. 66, art. 70, art. 102, art. 203; RGIT, art. 80"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "«По CPPT решение по recurso hierárquico должно быть принято в административные сроки, но на практике ожидание может растянуться.»",
+        "problem": "Фраза слишком расплывчатая для гайда о сроках. CPPT устанавливает конкретный максимальный срок решения recurso hierárquico — 60 дней. Это важно, потому что молчание администрации влияет на дальнейшую стратегию.",
+        "suggestion": "Написать: «По CPPT recurso hierárquico должен быть решён в срок до 60 дней, но на практике важно отслеживать молчание AT и отдельно считать сроки для судебного шага.»",
+        "confidence": "high",
+        "source": "CPPT, art. 66"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "«Garantia для приостановки execução fiscal», amountEURMin: 0, amountEURMax: 0, note: «Сумма зависит от долга, juros и custos; банк может брать комиссии за банковскую гарантию.»",
+        "problem": "Диапазон 0–0 выглядит как будто garantia ничего не стоит или равна нулю. На практике гарантия покрывает сумму долга, juros de mora и custas, обычно с установленной законом надбавкой, а банковская гарантия/страховая caução имеет комиссии. Это не «стоимость 0».",
+        "suggestion": "Заменить amountEURMin/Max на null или убрать числовой диапазон; в note написать: «Размер гарантии рассчитывается по CPPT исходя из dívida exequenda, juros de mora, custas и законной надбавки; банк/страховщик отдельно берёт комиссии. Запросите cálculo da garantia в Serviço de Finanças.»",
+        "confidence": "high",
+        "source": "CPPT, art. 169, art. 199"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[1].content[0].text",
+        "current": "«Идите в Serviços / Cidadãos → Contencioso → Recurso Hierárquico.»",
+        "problem": "Меню Portal das Finanças часто переименовывается; в актуальном интерфейсе сервисы налоговых споров могут находиться под Justiça Tributária/Reclamações e Recursos, а не буквально под «Contencioso». Автор уже советует поиск, но жёсткий путь может быстро устареть.",
+        "suggestion": "Сформулировать нейтральнее: «В Portal das Finanças используйте поиск по сервисам: “recurso hierárquico” или раздел Justiça Tributária / Reclamações e Recursos. Название меню может отличаться.»",
+        "confidence": "medium",
+        "source": "Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "В источниках есть CPPT/LGT и две коммерческие статьи, но нет официальной страницы AT/Portal das Finanças по подаче recurso hierárquico.",
+        "problem": "Для процедурного гайда с инструкцией по онлайн-подаче нужен официальный источник AT/Portal das Finanças, иначе сложнее проверять актуальный путь, форму и требования к подаче.",
+        "suggestion": "Добавить официальный источник Portal das Finanças/AT для serviço «Recurso Hierárquico» или раздела Justiça Tributária/Reclamações e Recursos, плюс при возможности ссылку на Autoridade Tributária e Aduaneira с инструкцией по garantias/suspensão da execução fiscal.",
+        "confidence": "high",
+        "source": "Portal das Finanças; Autoridade Tributária e Aduaneira"
+      }
+    ],
+    "missing_topics": [
+      "Отдельный блок-предупреждение про coimas/contraordenações fiscais и специальный recurso judicial по RGIT",
+      "Краткое сравнение recurso hierárquico, reclamação graciosa, revisão oficiosa и impugnação judicial для liquidações",
+      "Указание конкретного 60-дневного срока решения recurso hierárquico по CPPT",
+      "Более точное описание расчёта garantia idónea для suspensão da execução fiscal",
+      "Официальная ссылка AT/Portal das Finanças на электронную подачу recurso hierárquico"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3591,
+    "prompt_tokens": 4094,
+    "total_tokens": 7685
+  },
+  "model": "gpt-5.5"
+}

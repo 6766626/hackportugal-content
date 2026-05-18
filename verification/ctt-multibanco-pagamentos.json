@@ -1,0 +1,57 @@
+{
+  "guideId": "ctt-multibanco-pagamentos",
+  "categoryId": "banking",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate for everyday Multibanco use, but it blurs some important distinctions between tax, Segurança Social, state-payment and bank-transfer channels.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1]",
+        "current": "Оплата налогов: IMI, IUC, IRS, IVA, Segurança Social — по данным из Portal das Finanças или уведомления",
+        "problem": "Segurança Social is not a tax handled through Portal das Finanças in the usual case. Social Security contributions/debts are normally checked in Segurança Social Direta and paid through the specific Segurança Social payment route or the payment data issued by Social Security. Grouping it with IMI/IUC/IRS/IVA and saying Portal das Finanças is misleading.",
+        "suggestion": "Split it: \"Налоги: IMI, IUC, IRS, IVA, coimas fiscais — по documento de cobrança из Portal das Finanças. Segurança Social: взносы и долги проверяйте в Segurança Social Direta; платите по данным/референции Segurança Social или через соответствующий пункт меню Multibanco, если доступен.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças; Segurança Social Direta"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Это работает для коммуналки, интернет-провайдеров, школ, страховок, condomínio, интернет-магазинов и многих государственных платежей.",
+        "problem": "For private services, entidade + referência + valor is the standard model, but many state/tax payments do not use the same 'Pagamento de Serviços/Compras' format. Tax documents often use the dedicated 'Pagamentos ao Estado' flow and may show a payment reference without a separate entidade field. The current wording can make users try to force a tax reference into the wrong menu.",
+        "suggestion": "Write: \"Для частных счетов это обычно Pagamento de Serviços/Compras. Для налогов, Segurança Social и других платежей государству используйте ровно тот канал, который указан в documento de cobrança: часто это Pagamentos ao Estado/Setor Público или отдельный пункт Segurança Social, а не обычные Serviços/Compras.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças; SIBS/Multibanco payment menus"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "Ин банкомат предлагает перевод только между счетами того же банка или по IBAN; иногда перевод удобнее сделать в приложении банка.",
+        "problem": "Multibanco ATM transfers in Portugal are commonly domestic transfers using NIB/Portuguese account details, not necessarily arbitrary full IBAN transfers. Foreign SEPA IBAN transfers are usually done through homebanking/app, not through every ATM. Saying simply 'по IBAN' is too broad.",
+        "suggestion": "Replace with: \"Иногда банкомат предлагает перевод только между счетами того же банка или на португальский NIB/IBAN; переводы на иностранные SEPA IBAN чаще делают в приложении/online banking. Доступные поля и лимиты зависят от банка.\"",
+        "confidence": "medium",
+        "source": "Banco de Portugal; bank precários and Multibanco transfer menus"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[1]",
+        "current": "Transferência imediata: в Португалии широко доступна, но наличие и комиссия зависят от банка и канала",
+        "problem": "Instant transfers are widely available in Portugal through bank apps/homebanking and MB WAY, but not necessarily as a standard operation at every Multibanco ATM. In a section about operations 'чер Multibanco', this can overpromise ATM functionality.",
+        "suggestion": "Clarify: \"Transferência imediata: широко доступна через приложения банков/online banking и MB WAY; в банкомате наличие зависит от банка и конкретного меню. Комиссия не может быть выше комиссии за сопоставимый обычный перевод в евро, но конкретный тариф смотрите в precário.\"",
+        "confidence": "medium",
+        "source": "Banco de Portugal; Regulation (EU) 2024/886 on instant credit transfers"
+      }
+    ],
+    "missing_topics": [
+      "Короткое различие между Pagamento de Serviços/Compras, Pagamentos ao Estado/Setor Público и Pagamentos à Segurança Social.",
+      "Оговорка, что переводы через банкомат часто ограничены португальским NIB/IBAN и не заменяют SEPA-перевод через приложение банка.",
+      "Совет сохранять/сканировать talão, потому что термобумага банкоматных чеков со временем выцветает."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3133,
+    "prompt_tokens": 4152,
+    "total_tokens": 7285
+  },
+  "model": "gpt-5.5"
+}

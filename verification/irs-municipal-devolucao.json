@@ -1,0 +1,56 @@
+{
+  "guideId": "irs-municipal-devolucao",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate for IRS Municipal/devolução, but the examples and sources need tighter official referencing and one wording caveat should be made less ambiguous.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items",
+        "current": "\"Lisboa — devolução 2,5%\", \"Porto — devolução 3%\", \"Cascais — devolução 5%\"",
+        "problem": "The figures may be correct as devolução examples, but the guide does not show the corresponding official AT table/year or explain next to the examples that many official tables show the opposite figure: 'participação no IRS' retained by the municipality. This is a common source of mistakes because devolução = 5% - participação municipal.",
+        "suggestion": "Write the examples as: \"Para rendimentos de 2025, confirme na tabela oficial da AT. Se a tabela mostrar 'participação no IRS', a devolução ao contribuinte é 5% menos essa participação. Ex.: participação 2,5% = devolução 2,5%; participação 0% = devolução 5%.\" Keep the city examples only if checked against the AT table for 'Ano dos rendimentos: 2025'.",
+        "confidence": "high",
+        "source": "Portal das Finanças — Taxas do Município / Participação variável no IRS"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0]",
+        "current": "https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/pages/faqs-00073.aspx",
+        "problem": "This looks like a FAQ/reference page, not necessarily the direct official table used to verify the annual municipal rates. For a guide giving concrete 2026 examples, a direct source to the AT 'Taxas do Município' table for the relevant income year is more appropriate.",
+        "suggestion": "Add or replace with the exact official AT page/path for the annual table: Portal das Finanças → Cidadãos → Serviços → Consultar → Taxas → Taxas do Município, selecting 'Ano dos rendimentos: 2025'. If a stable direct URL exists, use that instead of a generic FAQ.",
+        "confidence": "medium",
+        "source": "Portal das Finanças — Taxas do Município"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1]",
+        "current": "\"ANMP — informação municipal sobre participação no IRS\", url: \"https://anmp.pt/\"",
+        "problem": "The ANMP homepage is too generic to support specific IRS Municipal rates. It is not a precise citation and may not let the reader reproduce the verification.",
+        "suggestion": "Either link to the exact ANMP page/document listing participação variável no IRS by municipality and year, or remove ANMP as a rate source and rely on the official AT table.",
+        "confidence": "high",
+        "source": "ANMP; Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[0].text",
+        "current": "Обычно важен адрес на 31 декабря года дохода.",
+        "problem": "The word 'обычно' makes the rule sound softer than it is for the normal resident IRS calculation. For IRS Municipal, the practical check is the fiscal domicile relevant to the income year, normally fixed by the situation at 31 December.",
+        "suggestion": "Write more directly: \"Для обычной IRS-декларации резидента ориентир — domicílio fiscal на 31 декабря года дохода; для IRS 2025 это 31.12.2025.\"",
+        "confidence": "medium",
+        "source": "CIRS rules on household/taxpayer situation at year-end; Lei 73/2013 art. 26"
+      }
+    ],
+    "missing_topics": [
+      "Add a small formula box: devolução municipal = 5% - taxa de participação comunicada pelo município; the benefit is applied over collecta líquida, not salary or withholding.",
+      "Mention that if the municipality fails to communicate a decision within the legal deadline, the default treatment can differ from an explicit 0% devolução decision; readers should rely on the official AT table for the income year."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3533,
+    "prompt_tokens": 2687,
+    "total_tokens": 6220
+  },
+  "model": "gpt-5.5"
+}

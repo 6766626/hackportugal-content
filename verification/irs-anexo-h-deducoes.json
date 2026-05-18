@@ -1,0 +1,102 @@
+{
+  "guideId": "irs-anexo-h-deducoes",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate for Anexo H, but it overstates/blurred the 2025 rent cap, misattributes rent and mortgage-interest data to e-Fatura, and misses a few important eligibility caveats.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "аренда жилья 15% до 700–800 € (OE 2024/25)",
+        "problem": "For IRS 2026 covering 2025 income, the standard maximum deduction for permanent-home rents should not be presented as a vague 700–800 € range. The 800 € figure is generally associated with the later scheduled increase / later tax year, while 2025 income should be stated separately. There are also income-dependent increases under the CIRS formula, so a simple 700–800 range is misleading.",
+        "suggestion": "Write: \"аренда постоянного жилья: 15% rendas; для доходов 2025 стандартный лимит — 700 €, с возможным повышением для более низких rendimentos coletáveis по правилам art. 78.º-E CIRS.\"",
+        "confidence": "medium",
+        "source": "Código do IRS, art. 78.º-E; Orçamento do Estado 2024/2025 amendments"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[5]",
+        "current": "Imóvel — аренда постоянного жилья: 15% rentas по contrato de arrendamento, максимум 700–800 € (после индексации OE 2024/25).",
+        "problem": "Same issue as TLDR: the cap is presented as a range instead of the applicable cap for the tax year. For a practical 2026 filing guide, readers need the 2025-income value, not a blended OE 2024/25 range.",
+        "suggestion": "Replace with: \"Imóvel — аренда постоянного жилья: 15% rendas по contrato de arrendamento/recibos comunicados à AT; для доходов 2025 стандартный максимум — 700 €, с возможным повышением для низких доходов по art. 78.º-E CIRS.\"",
+        "confidence": "medium",
+        "source": "Código do IRS, art. 78.º-E"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "расходов, которые Finanças подтягивает из e-Fatura: медицина, образование, дома престарелых, аренда жилья и старые ипотечные проценты",
+        "problem": "Misleading source of data. Health/education/lares often come via e-Fatura, but rents are normally based on registered lease/electronic rent receipts or Modelo 44, and old mortgage interest comes from bank-reported annual information, not e-Fatura.",
+        "suggestion": "Write: \"...из e-Fatura и других данных AT: медицина, образование и lares через e-Fatura; аренда — через contrato/recibos de renda или Modelo 44; старые ипотечные проценты — через данные банка.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças — e-Fatura; Código do IRS, art. 78.º-E"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[0]",
+        "current": "Проверьте e-Fatura: NIF должен быть указан в счёте в момент покупки или оплаты.",
+        "problem": "Correct for many invoices, but the guide is about categories including rent and mortgage interest, where e-Fatura is not the relevant mechanism. As written, it can confuse readers into searching for rent/mortgage items in e-Fatura.",
+        "suggestion": "Write: \"Проверьте e-Fatura для faturas de saúde/educação/lares; отдельно проверьте recibos/contrato de arrendamento и справку банка по juros.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças — e-Fatura; Código do IRS, art. 78.º-E"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[4]",
+        "current": "Lares: 25% расходов с lares, apoio domiciliário и аналогичными учреждениями, максимум 403,75 €.",
+        "problem": "The amount is fine, but the eligibility caveat is missing. Deduction for lares can cover the taxpayer/spouse and also ascendants/collaterals up to the third degree, but relatives are subject to conditions, notably income not exceeding the minimum monthly wage. Without this, readers may assume any care-home expense for any relative qualifies.",
+        "suggestion": "Add: \"Для родственников применяются условия: обычно ascendente/colateral até 3.º grau, если их доход не превышает RMMG/SMN; проверьте NIF и eligibility учреждения.\"",
+        "confidence": "high",
+        "source": "Código do IRS, art. 84.º"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[3]",
+        "current": "Estudante deslocado: аренда жилья студентом вдали от постоянного адреса может входить в educação при правильном contrato de arrendamento и регистрации в Portal das Finanças; общий лимит educação может увеличиваться по специальным правилам.",
+        "problem": "The statement is directionally correct but too vague on key conditions: displaced-student rent has age/distance/formal registration requirements and a specific sub-limit. This is a common audit/error area.",
+        "suggestion": "Add the caveat: \"Обычно нужны estudante até 25 anos, учебное заведение более чем 50 км от permanent household residence, contrato/recibos correctly identified as estudante deslocado in Portal das Finanças, and the student-rent sub-limit applies.\"",
+        "confidence": "high",
+        "source": "Código do IRS, art. 78.º-D"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[0]",
+        "current": "Проверьте composição do agregado familiar в Portal das Finanças до подачи декларации.",
+        "problem": "Helpful but incomplete: the annual communication of household composition normally has its own February deadline; if missed, the taxpayer may still be able to correct dependants in the IRS declaration, but automatic pre-filled data may be affected.",
+        "suggestion": "Write: \"Проверьте/сообщите agregado familiar в Portal das Finanças в ежегодный срок AT, обычно до середины февраля; если пропустили, проверьте и исправьте dependentes в самой декларации IRS.\"",
+        "confidence": "high",
+        "source": "Portal das Finanças — Comunicação do agregado familiar"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Rendimentos/Declaracao/Deducoes_a_coleta/Paginas/default.aspx",
+        "problem": "This Portal das Finanças path looks plausible but should be rechecked: AT has reorganised several help pages, and similar pages often sit under apoio_contribuinte rather than apoio_ao_contribuinte. If the URL 404s, readers lose the primary source.",
+        "suggestion": "Verify the URL live and, if broken, replace with the current Portal das Finanças page for IRS > Deduções à coleta or link to the current AT folheto and CIRS articles instead.",
+        "confidence": "low",
+        "source": "Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Rendimentos/Declaracao/Deducoes_beneficios_taxas/Paginas/default.aspx",
+        "problem": "Same risk as above: the URL may be an old/reorganised AT help-page path. The content should not rely on a possibly stale deep link without confirming it still resolves.",
+        "suggestion": "Verify the URL and replace with the current AT page if needed.",
+        "confidence": "low",
+        "source": "Portal das Finanças"
+      }
+    ],
+    "missing_topics": [
+      "Mention that Anexo H also covers other common deductions/benefits beyond saúde/educação/lares/imóvel, such as despesas gerais familiares, IVA pela exigência de fatura, pensões de alimentos, PPR and donations, even if only to say they are outside this guide.",
+      "Add the exact low-income rent-deduction uplift rule or at least say that the standard rent cap is not the absolute maximum for all households because art. 78.º-E has income-dependent increases.",
+      "Add a short note that manually overriding pre-filled Anexo H values can disable/replace AT-calculated values for that category and increases audit risk."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3985,
+    "prompt_tokens": 3955,
+    "total_tokens": 7940
+  },
+  "model": "gpt-5.5"
+}

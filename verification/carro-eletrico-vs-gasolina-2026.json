@@ -1,0 +1,62 @@
+{
+  "guideId": "carro-eletrico-vs-gasolina-2026",
+  "categoryId": "auto_ownership",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate for private BEV-vs-petrol ownership in Portugal, but a few incentive, source and arithmetic details are misleading or under-specified.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[0]",
+        "current": "BEV дома 70% + публично 30%: средняя энергия около 4,5–6 €/100 км = 3 375–4 500 € за 75 000 км.",
+        "problem": "The weighted-average range does not follow from the guide's own ranges. Using home 3–5 €/100 km and public 5–9 €/100 km with a 70/30 split gives about 3.6–6.2 €/100 km, not 4.5–6.0. The resulting 75,000 km cost would be about €2,700–€4,650. The current number is not impossible, but it is internally inconsistent and understates the low-end benefit of mostly home charging.",
+        "suggestion": "Write: \"BEV дома 70% + публично 30%: по тем же допущениям около 3,6–6,2 €/100 км = примерно 2 700–4 650 € за 75 000 км; консервативно можно считать 4,5–6 €/100 км.\"",
+        "confidence": "high",
+        "source": "Internal arithmetic from the guide's own assumptions"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Ваучер Fundo Ambiental до 4 000 € может переломить расчёт, но зависит от бюджета и условий aviso.",
+        "problem": "Calling it a \"voucher\" can mislead readers into thinking it is an upfront dealer discount or guaranteed entitlement. Fundo Ambiental incentives are normally application-based, budget-limited reimbursements/supports under a specific aviso, with eligibility checks and possible exhaustion of funds. The body text partly corrects this, but the TLDR is the most-read part and should be precise.",
+        "suggestion": "Replace with: \"Поддержка Fundo Ambiental до 4 000 € — если в 2026 открыт соответствующий aviso и покупка проходит по его условиям — может переломить расчёт; это не гарантированная скидка у дилера и не стоит считать её полученной до одобрения заявки.\"",
+        "confidence": "high",
+        "source": "Fundo Ambiental — avisos Incentivo pela Introdução no Consumo de Veículos de Emissões Nulas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[4]",
+        "current": "Fundo Ambiental: в 2026 ориентир для физлица — поддержка до 4 000 € на покупку BEV при соблюдении условий программы.",
+        "problem": "This is acceptable as an estimate, but it needs a stronger caveat that the exact 2026 amount and conditions must be taken from the 2026 aviso, not from previous years. Important conditions often include maximum eligible acquisition price, invoice/registration dates, applicant limits, and sometimes scrappage requirements. Without naming the specific aviso, the statement is too easy to read as a fixed 2026 rule.",
+        "suggestion": "Write: \"Fundo Ambiental: ориентир по последним программам — до 4 000 € для физлица, но для 2026 используйте только опубликованный aviso 2026: там будут точная сумма, лимит цены автомобиля, даты счёта/регистрации, возможное требование утилизации старого автомобиля, документы и порядок ранжирования заявок.\"",
+        "confidence": "medium",
+        "source": "Fundo Ambiental — avisos anuais VEN"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3].url",
+        "current": "https://www.erse.pt/mobilidade-eletrica/tarifas-e-precos/",
+        "problem": "ERSE URLs for mobility-electricity content commonly sit under the /atividade/mobilidade-eletrica/ path. The supplied URL may redirect, but it is less robust as a reference for readers. Also, ERSE tariff pages explain regulated tariffs/components, not necessarily the final user price charged by each CEME/OPC combination.",
+        "suggestion": "Verify the live ERSE page and preferably use the canonical URL, e.g. an ERSE page under \"Atividade > Mobilidade elétrica > Tarifas e preços\". Add a Mobi.E or CEME price-simulator/source if the guide wants to support final public-charging cost examples.",
+        "confidence": "medium",
+        "source": "ERSE — Mobilidade elétrica; Mobi.E"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2].url",
+        "current": "https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/default.aspx",
+        "problem": "The source is official but too generic for tax claims such as \"BEV passenger car: ISV 0 €\" and \"IUC 0 €\". For a tax-sensitive statement, the guide should cite the relevant AT/Portal das Finanças pages or the Código do ISV/Código do IUC provisions, not just the general taxpayer-help landing page.",
+        "suggestion": "Replace or supplement with direct official references for IUC and ISV, such as Portal das Finanças pages on IUC/ISV and the relevant Código do IUC exemption for exclusively electric vehicles.",
+        "confidence": "high",
+        "source": "Código do IUC; Código do ISV; Autoridade Tributária / Portal das Finanças"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that Fundo Ambiental support is normally reimbursement/application-based and budget-limited, not an automatic dealer discount.",
+      "Add a canonical official legal/tax source for the BEV IUC exemption and ISV treatment.",
+      "For companies/ENI, mention that VAT deduction and tributação autónoma depend on vehicle type, acquisition-cost thresholds and use case; private-buyer conclusions should not be reused for companies without a contabilista.",
+      "For public charging, mention that final Mobi.E prices can include time-based OPC fees, activation/session fees and CEME energy price, so €/kWh alone is not enough."
+    ]
+  },
+  "model": "gpt-5.5"
+}

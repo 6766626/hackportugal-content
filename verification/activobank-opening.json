@@ -3,189 +3,165 @@
   "categoryId": "banking",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Гайд полезен по структуре, но содержит несколько существенных фактических ошибок о комиссиях, страховании вкладов, онлайн-открытии нерезидентам и статусе Wise/необанков.",
+    "summary": "Гайд в целом полезен, но содержит несколько существенных неточностей по статусу Revolut/Wise/N26, документам для EU-граждан, удалённому открытию для нерезидентов и Imposto do Selo.",
     "issues": [
-      {
-        "severity": "critical",
-        "where": "steps[6].content[0].items[1]",
-        "current": "Imposto de Selo 4 € ежеквартально — гербовый сбор на банковские счета (берётся даже на «бесплатных» счетах)",
-        "problem": "В Португалии нет универсального фиксированного гербового сбора €4 в квартал за банковский счёт. Imposto do Selo обычно применяется как процент к банковским комиссиям/услугам, например 4% к комиссиям, а не как фиксированные €4 за счёт. Это также ломает таблицу расходов.",
-        "suggestion": "Заменить на: «Imposto do Selo: обычно 4% на банковские комиссии/услуги, если они взимаются банком; это не фиксированный сбор €4 в квартал за сам счёт».",
-        "confidence": "high",
-        "source": "Código do Imposto do Selo, Tabela Geral do Imposto do Selo, verba 17"
-      },
-      {
-        "severity": "critical",
-        "where": "costs[2]",
-        "current": "\"label\": \"Imposto de Selo (ежеквартально)\", \"amountEUR\": 4",
-        "problem": "Фиксированная сумма €4 ежеквартально неверна: Imposto do Selo не является обязательной квартальной платой за счёт.",
-        "suggestion": "Убрать эту строку как фиксированный cost или заменить на переменную строку: «Imposto do Selo — 4% от банковских комиссий, если они есть».",
-        "confidence": "high",
-        "source": "Código do Imposto do Selo, Tabela Geral do Imposto do Selo, verba 17"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[1].content[1].text",
-        "current": "Все перечисленные лицензированы Banco de Portugal либо ЕС-регулятором; депозиты до 100 000 € застрахованы (Fundo de Garantia de Depósitos для PT-лицензированных).",
-        "problem": "Это вводит в заблуждение: Wise не является банком и средства в Wise обычно не покрываются схемой гарантирования вкладов до €100 000; они защищаются режимом safeguarding для платёжных/электронных денег. Revolut Bank UAB и N26 покрываются не португальским FGD, а литовской/немецкой схемой гарантирования вкладов. Нельзя общей фразой обещать всем перечисленным «депозиты до €100 000 застрахованы».",
-        "suggestion": "Разделить: «Португальские банки-участники FGD покрываются Fundo de Garantia de Depósitos до €100 000 на вкладчика на банк. N26/Revolut Bank покрываются схемами страны лицензии. Wise — не банковский депозит и не покрывается deposit guarantee scheme; действует safeguarding электронных денег».",
-        "confidence": "high",
-        "source": "Fundo de Garantia de Depósitos; Banco de Portugal; Wise Europe safeguarding disclosures"
-      },
       {
         "severity": "major",
         "where": "steps[1].content[0].items[2]",
-        "current": "Цифровые необанки с лицензией ЕС, работающие в PT: Revolut (LT), N26 (DE), Wise (BE) — IBAN не PT, но SEPA работает",
-        "problem": "Wise указан в одном ряду с банками/необанками, но Wise Europe — платёжное учреждение/EMI, а не банк. Также у Revolut/N26 могут быть разные IBAN в зависимости от продукта и страны клиента; формулировка «IBAN не PT» в целом верна для Portugal users, но требует оговорки, что это не португальский банковский счёт.",
-        "suggestion": "Заменить на: «Revolut Bank UAB и N26 — банки с лицензией в других странах ЕС; обычно дают не-PT IBAN. Wise — платёжное/электронно-денежное учреждение, не банк; средства не являются банковским вкладом».",
+        "current": "Цифровые необанки с лицензией ЕС, работающие в Португалии: Revolut (LT), N26 (DE), Wise (BE) — IBAN не PT, но SEPA работает",
+        "problem": "Смешаны банки и небанковские платёжные/e-money учреждения. N26 — банк в Германии. Revolut Bank UAB — банк в Литве для большинства EEA-клиентов, с литовской схемой гарантирования вкладов. Wise Europe — не банк, а платёжное/электронно-денежное учреждение; его средства не покрываются deposit guarantee scheme. Формулировка «необанки с лицензией ЕС» вводит в заблуждение.",
+        "suggestion": "Разделить: «Банки с лицензией в другой стране ЕС: N26 Bank (DE), Revolut Bank UAB (LT) — IBAN не PT, вклады покрываются соответствующей национальной схемой гарантирования до €100 000 при применимости. Платёжные/e-money учреждения: Wise Europe (BE) — не банк, DGS не применяется; действует safeguarding».",
         "confidence": "high",
-        "source": "Banco de Portugal registers; Wise Europe regulatory disclosures; Revolut Bank UAB; N26 Bank AG"
+        "source": "Bank of Lithuania — Revolut Bank UAB; BaFin/Bundesbank — N26 Bank SE; Wise Europe regulatory disclosures"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].text",
+        "current": "Wise, Revolut и подобные платёжные/EMI-компании НЕ имеют статуса банка и обычно не покрываются DGS; средства защищаются режимом safeguarding",
+        "problem": "Неверно для Revolut Bank UAB и N26: это банки, а не просто EMI, и для банковских вкладов применяется национальная схема гарантирования вкладов. Верно для Wise, но нельзя объединять Wise и Revolut/N26 в одну категорию.",
+        "suggestion": "Написать: «Wise и другие EMI/платёжные учреждения не являются банками и не покрываются DGS; применяется safeguarding. N26 и Revolut Bank UAB являются банками в ЕС: покрытие вкладов зависит от страны лицензии и статуса продукта/клиента».",
+        "confidence": "high",
+        "source": "Directive 2014/49/EU; Bank of Lithuania — deposit insurance for Revolut Bank UAB; Wise Europe regulatory disclosures"
       },
       {
         "severity": "major",
         "where": "tldr",
         "current": "Несколько предоставляют полностью онлайн-открытие счёта для нерезидентов с португальским NIF.",
-        "problem": "Слишком обобщено и может быть неверно для нерезидентов без Portuguese residence card/CMD. Многие португальские банки требуют очную идентификацию, Portuguese mobile/residence address, Cartão de Cidadão/Chave Móvel Digital или ВНЖ; полностью удалённое открытие для non-resident non-EU passport holders часто недоступно или меняется по риск-политике банка.",
-        "suggestion": "Написать осторожнее: «Некоторые банки и финтехи позволяют начать процесс онлайн, но нерезидентам без португальского ВНЖ часто требуется визит в отделение или дополнительная проверка; правила зависят от банка и страны гражданства/налогового резидентства».",
+        "problem": "Слишком широкое и потенциально вводящее в заблуждение утверждение. Удалённое открытие в португальских банках часто ограничено типом документа, налоговым резидентством, наличием Chave Móvel Digital/Cartão de Cidadão/карты резидента, страной проживания и внутренним AML-риск-скорингом. Для нерезидентов из третьих стран, особенно с российским/санкционным профилем, полностью дистанционное открытие не является «типичным» и часто требует отделения или дополнительной проверки.",
+        "suggestion": "Заменить на: «Некоторые банки допускают онлайн-онбординг, но для нерезидентов это строго case-by-case: нужны NIF, допустимый документ, подтверждение адреса/доходов и прохождение AML/KYC; многие банки требуют визит в отделение или отказывают дистанционно».",
         "confidence": "high",
-        "source": "Banco de Portugal AML/KYC framework; bank onboarding terms"
+        "source": "Banco de Portugal — AML/KYC framework; Aviso do Banco de Portugal n.º 2/2018"
       },
       {
         "severity": "major",
         "where": "steps[2].content[0].items[0].content[0].text",
-        "current": "Процесс: видео-идентификация с оператором на португальском или английском, электронная подпись через Chave Móvel Digital ... Подходит даже если вы ещё не в Португалии, но NIF уже есть.",
-        "problem": "Chave Móvel Digital доступна не просто по NIF: обычно нужна Portuguese citizen card или Portuguese residence card/другой разрешённый идентификатор и активация. Для человека за пределами Португалии с одним NIF это часто невозможно. Фраза «подходит даже если вы ещё не в Португалии» слишком широкая.",
-        "suggestion": "Добавить caveat: «CMD обычно доступна тем, у кого есть Cartão de Cidadão или португальский residence card/доступный способ активации; один NIF не даёт CMD. Если CMD нет, банк может потребовать видео-ID, квалифицированную подпись или визит в отделение».",
+        "current": "Несколько банков разрешают полностью онлайн-открытие счёта для клиентов с NIF. Процесс: видеоидентификация с оператором на португальском или английском, электронная подпись через Chave Móvel Digital либо через видеоподтверждение. Подходит даже если вы ещё не в Португалии, но NIF уже есть.",
+        "problem": "Фраза создаёт впечатление, что NIF обычно достаточен для дистанционного открытия из-за границы. На практике NIF сам по себе недостаточен: банк проверяет документ, страну проживания, налоговое резидентство, источник средств, санкционные/PEP-риски; Chave Móvel Digital обычно доступна не всем нерезидентам без португальского идентификационного документа/резидентского статуса.",
+        "suggestion": "Уточнить: «NIF необходим, но не достаточен. Онлайн-открытие из-за границы возможно только у отдельных банков и при подходящих документах; нерезидентам часто назначают очную идентификацию или запрашивают дополнительные документы».",
         "confidence": "high",
-        "source": "AMA/ePortugal — Chave Móvel Digital"
-      },
-      {
-        "severity": "major",
-        "where": "tldr",
-        "current": "Базовое обслуживание у большинства бесплатно при минимальной активности.",
-        "problem": "Для традиционных португальских банков это вводит в заблуждение: многие взимают monthly maintenance/account package fees и/или card fees. Бесплатные условия характернее для отдельных digital/online пакетов, а не «у большинства» банков. Есть отдельный режим serviços mínimos bancários с очень низкой законодательно ограниченной комиссией, но это не то же самое, что обычный бесплатный счёт.",
-        "suggestion": "Заменить на: «У отдельных онлайн-банков/пакетов обслуживание может быть €0 при условиях активности; традиционные банки часто берут ежемесячную комиссию. Проверьте preçário и возможность serviços mínimos bancários».",
-        "confidence": "high",
-        "source": "Banco de Portugal — comparador de comissões; Decreto-Lei 27-C/2000 on serviços mínimos bancários"
-      },
-      {
-        "severity": "major",
-        "where": "costs[1]",
-        "current": "\"label\": \"Годовое обслуживание (часто)\", \"amountEUR\": 0",
-        "problem": "Как усреднённая стоимость для португальского банковского рынка это некорректно: многие обычные счета/пакеты стоят несколько евро в месяц, плюс комиссии за карту. €0 применимо к отдельным онлайн-продуктам или при выполнении условий.",
-        "suggestion": "Заменить на диапазон или caveat: «€0 у отдельных онлайн-пакетов; в традиционных банках часто €3–€8+/мес в зависимости от pacote/условий».",
-        "confidence": "high",
-        "source": "Banco de Portugal — comparador de comissões; bank preçários"
-      },
-      {
-        "severity": "major",
-        "where": "steps[5].content[0].items[4]",
-        "current": "SEPA-переводы бесплатно внутри зоны ЕС",
-        "problem": "SEPA-переводы не обязаны быть бесплатными. В Португалии комиссии зависят от банка, канала и типа перевода; онлайн SEPA может быть бесплатным в некоторых пакетах, но в отделении и в ряде тарифов платный. Правило ЕС в основном требует недискриминации по стоимости для cross-border euro payments относительно аналогичных внутренних переводов, а не нулевой цены.",
-        "suggestion": "Заменить на: «SEPA-переводы в евро внутри SEPA-зоны; стоимость зависит от preçário банка. Во многих онлайн-пакетах они бесплатны, но не всегда».",
-        "confidence": "high",
-        "source": "Regulation (EC) No 924/2009 / Regulation (EU) 2021/1230; Banco de Portugal fee comparator"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[0].text",
-        "current": "Счёт в PT-банке с IBAN, начинающимся на PT50, необходим для большинства бытовых процедур: регистрации долгосрочной аренды...",
-        "problem": "Слишком категорично. Для регистрации договора аренды в Finanças PT-IBAN арендатора сам по себе не является обязательным: регистрацию обычно делает landlord/representative, а оплата может идти с любого SEPA IBAN. PT-IBAN практически удобен, но юридически не «необходим» для большинства процедур.",
-        "suggestion": "Заменить на: «PT-IBAN часто сильно упрощает бытовые процедуры — аренду, utilities, direct debits, зарплату, налоги и пособия, — хотя юридически в SEPA многие платежи могут приниматься и с IBAN другой страны ЕС».",
-        "confidence": "high",
-        "source": "SEPA Regulation 260/2012, Article 9; Autoridade Tributária lease registration practice"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[1].text",
-        "current": "IBAN другой страны ЕС ... технически приравнивается к португальскому по регламенту SEPA, но на практике ряд португальских контрагентов отказывает в direct debit по иностранному IBAN.",
-        "problem": "Полезное предупреждение, но отсутствует важная правовая оговорка: отказ плательщику/получателю из-за IBAN другой SEPA-страны часто является IBAN discrimination и запрещён Article 9 SEPA Regulation. Сейчас текст нормализует незаконную практику и не говорит, куда жаловаться.",
-        "suggestion": "Добавить: «Такой отказ часто незаконен как IBAN discrimination по Article 9 Regulation 260/2012; можно жаловаться контрагенту, Banco de Portugal/CMVM/ASAE в зависимости от ситуации и в Livro de Reclamações. На практике PT-IBAN всё равно снижает трение».",
-        "confidence": "high",
-        "source": "Regulation (EU) No 260/2012, Article 9"
+        "source": "Banco de Portugal — customer due diligence rules; Aviso do Banco de Portugal n.º 2/2018"
       },
       {
         "severity": "major",
         "where": "steps[3].content[0].items[1]",
-        "current": "Cartão de Cidadão (для граждан PT/ЕС)",
-        "problem": "Cartão de Cidadão — португальский документ гражданина, а не общий документ для всех граждан ЕС. Граждане других стран ЕС используют национальный ID/passport и, при проживании в Португалии, Certificado de Registo de Cidadão da União Europeia; не Cartão de Cidadão.",
-        "suggestion": "Заменить на: «Cartão de Cidadão — для граждан Португалии; граждане ЕС — паспорт/национальная ID-карта, при наличии также CRUE; non-EU — паспорт и residence permit/visa, если есть».",
+        "current": "Cartão de Cidadão (для граждан Португалии/ЕС)",
+        "problem": "Cartão de Cidadão — это португальская гражданская карта, а не общий документ для всех граждан ЕС. Граждане других стран ЕС используют паспорт/национальную ID-карту своей страны, а при проживании в Португалии — Certificado de Registo de Cidadão da União Europeia/CRUE как подтверждение регистрации, но не Cartão de Cidadão.",
+        "suggestion": "Написать: «Cartão de Cidadão — для граждан Португалии. Граждане других стран ЕС: паспорт или национальная ID-карта; при резидентстве — CRUE/документ о регистрации, если банк запрашивает».",
         "confidence": "high",
-        "source": "IRN — Cartão de Cidadão; ePortugal — CRUE"
+        "source": "IRN — Cartão de Cidadão; Lei n.º 7/2007"
       },
       {
         "severity": "major",
-        "where": "steps[8].content[0].items[4]",
-        "current": "Указать PT-IBAN в Segurança Social для зарплаты/пособий",
-        "problem": "Segurança Social не выплачивает обычную зарплату — зарплату платит работодатель. В Segurança Social указывают IBAN для социальных выплат/пособий. Для зарплаты IBAN сообщают работодателю.",
-        "suggestion": "Разделить: «Сообщить IBAN работодателю для зарплаты» и «Указать IBAN в Segurança Social Direta для пособий/социальных выплат».",
+        "where": "steps[6].content[0].items[1]",
+        "current": "Imposto do Selo — ... обычно начисляется как **4%** к банковским комиссиям, **0,5%** к процентам по кредитам/потребительским кредитам и т.п.",
+        "problem": "Ставка 0,5% описана неверно: stamp duty по кредитам зависит от вида и срока кредита и начисляется не просто «0,5% к процентам». По банковским процентам и комиссиям часто применяется 4%, но по использованию кредита ставки в Tabela Geral do Imposto do Selo различаются.",
+        "suggestion": "Заменить на: «По банковским комиссиям и процентам обычно применяется Imposto do Selo 4%. По кредитам stamp duty зависит от вида/срока кредита и считается по правилам verba 17 TGIS; это не универсальные 0,5% к процентам».",
         "confidence": "high",
-        "source": "Segurança Social Direta"
+        "source": "Código do Imposto do Selo; Tabela Geral do Imposto do Selo, verba 17"
       },
       {
         "severity": "major",
+        "where": "costs[2].note",
+        "current": "4% к комиссиям банка, 0,5% к % по кредитам — НЕ фиксированная квартальная плата",
+        "problem": "Та же ошибка: 0,5% не является универсальной ставкой «к процентам по кредитам». Для кредитов применяются разные ставки и базы налогообложения по TGIS.",
+        "suggestion": "Написать: «4% к большинству банковских комиссий/процентов; по кредитам — ставки зависят от вида и срока кредита по verba 17 TGIS».",
+        "confidence": "high",
+        "source": "Código do Imposto do Selo; Tabela Geral do Imposto do Selo, verba 17"
+      },
+      {
+        "severity": "minor",
         "where": "steps[1].content[0].items[4]",
         "current": "Счета в CTT (почта): CTT Bank — госпочтовый оператор с базовыми банковскими услугами",
-        "problem": "CTT/Banco CTT не следует описывать как «госпочтовый оператор»: CTT был приватизирован, Banco CTT — коммерческий банк группы CTT. Формулировка может создать ложное ощущение государственного банка/гарантии.",
-        "suggestion": "Заменить на: «Banco CTT — коммерческий банк группы CTT, связанной с почтовым оператором CTT; не государственный банк».",
+        "problem": "Banco CTT — банк группы CTT, но CTT не является «госпочтовым оператором» в смысле государственного банка/госоргана: CTT был приватизирован. Формулировка может создать ложное ощущение государственной гарантии или статуса госбанка.",
+        "suggestion": "Написать: «Banco CTT — банк группы CTT/почтового оператора; не путать с госбанком и не считать его государственным счётом».",
         "confidence": "high",
-        "source": "CTT/Banco CTT corporate information; CMVM issuer information"
+        "source": "CTT/Banco CTT corporate information"
       },
       {
         "severity": "minor",
-        "where": "steps[6].content[0].items[2]",
-        "current": "Комиссия за снятие в Multibanco другого банка — обычно 0 € в PT, но есть лимиты",
-        "problem": "Нужно уточнить, что бесплатность относится к снятию наличных в евро дебетовой картой в сети Multibanco/банковских ATM при обычных потребительских условиях. Independent ATM, кредитные карты, currency conversion/DCC и иностранные карты могут иметь комиссии.",
-        "suggestion": "Заменить на: «Снятие евро дебетовой картой в сети Multibanco обычно без комиссии для португальских потребительских карт; independent ATM, кредитные карты, DCC и иностранные карты могут стоить денег».",
+        "where": "steps[0].content[0].text",
+        "current": "Счёт в португальском банке с IBAN, начинающимся на PT50, необходим для большинства бытовых процедур: регистрации долгосрочной аренды, прямых списаний ..., получения зарплаты...",
+        "problem": "Слишком категорично. PT-IBAN часто практически удобен, но по SEPA Regulation отказ принимать IBAN из другой страны SEPA для платежей/зарплаты/прямых списаний может быть незаконной IBAN-дискриминацией. Для регистрации договора аренды сам по себе PT-счёт обычно не является юридическим условием.",
+        "suggestion": "Смягчить: «PT-IBAN практически сильно упрощает быт, но юридически многие платежи в SEPA должны приниматься с IBAN любой страны SEPA; отказы можно оспаривать как IBAN discrimination. Для аренды PT-счёт обычно нужен не для регистрации договора, а для оплат/дебетов и удобства».",
         "confidence": "high",
-        "source": "Banco de Portugal — payment cards/ATM fees guidance"
+        "source": "Regulation (EU) No 260/2012, Article 9"
       },
       {
         "severity": "minor",
-        "where": "steps[7].content[1].items[5]",
-        "current": "Мошеннические прошлые транзакции в international registry",
-        "problem": "Фраза выглядит как ссылка на некий единый «international registry», но универсального международного реестра мошеннических транзакций для банковского onboarding в таком виде нет. Банки используют внутренние базы, sanctions/PEP screening, fraud databases, credit registers и AML intelligence.",
-        "suggestion": "Заменить на: «Совпадения в санкционных/PEP/fraud-базах, внутренние отметки банка, негативная комплаенс-информация или проблемы в кредитных/банковских реестрах».",
+        "where": "steps[0].content[1].text",
+        "current": "IBAN другой страны ЕС ... технически приравнивается к португальскому по регламенту SEPA, но на практике ряд португальских контрагентов отказывает...",
+        "problem": "Полезная практическая ремарка, но не хватает ключевого caveat: отказ в SEPA-IBAN может быть незаконной IBAN-дискриминацией, и это не просто «техническое равенство».",
+        "suggestion": "Добавить: «Такие отказы не всегда законны: SEPA Regulation запрещает требовать счёт в конкретной стране SEPA; жалобы можно подавать поставщику услуги/банку, Banco de Portugal или профильному регулятору».",
+        "confidence": "high",
+        "source": "Regulation (EU) No 260/2012, Article 9; Banco de Portugal — IBAN discrimination"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[0].items[6]",
+        "current": "Доступ к Multibanco (сеть банкоматов в Португалии) с лимитами снятия 200-400 €/день",
+        "problem": "Формулировка неточная: в сети Multibanco типичный лимит — до €400 в день и до €200 за одну операцию, но конкретный банк/карта может устанавливать свои лимиты. «200-400 €/день» смешивает лимит операции и дневной лимит.",
+        "suggestion": "Написать: «В Multibanco обычно до €200 за операцию и до €400 в день, если банк/карта не установили иной лимит».",
+        "confidence": "high",
+        "source": "SIBS/Multibanco operating information; bank card terms"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[9].content[0].items[4]",
+        "current": "Указать PT-IBAN в Segurança Social для зарплаты/пособий",
+        "problem": "Segurança Social не используется для выплаты обычной зарплаты работодателем. В Segurança Social Direta IBAN указывают для пособий, возвратов и социальных выплат; зарплатный IBAN сообщают работодателю.",
+        "suggestion": "Разделить: «Сообщить IBAN работодателю для зарплаты. В Segurança Social Direta указать IBAN для пособий/возвратов/социальных выплат».",
+        "confidence": "high",
+        "source": "Segurança Social Direta — alteração/registo de IBAN"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[9].content[0].items[5]",
+        "current": "Подключить Multibanco-Homebanking для доступа через банкомат",
+        "problem": "Термин «Multibanco-Homebanking» некорректен/неясен. Homebanking активируется в банке/приложении, а в банкомате Multibanco обычно можно активировать отдельные сервисы вроде MB WAY или получить/изменить коды, в зависимости от банка.",
+        "suggestion": "Написать: «Активировать homebanking/mobile app; при необходимости активировать MB WAY или операции Multibanco через банкомат».",
         "confidence": "medium",
-        "source": "Banco de Portugal AML/KYC framework"
+        "source": "SIBS MB WAY/Multibanco user information"
       },
       {
         "severity": "minor",
-        "where": "steps[8].content[0].items[5]",
-        "current": "Подключить Multibanco-Homebanking для доступа через ATM",
-        "problem": "Термин «Multibanco-Homebanking» не является стандартным названием услуги. Homebanking подключается в банке/app, а Multibanco — ATM/payment network; через ATM можно делать операции и иногда активировать сервисы, но это не отдельный универсальный «Multibanco-Homebanking».",
-        "suggestion": "Заменить на: «Активировать homebanking/mobile banking и проверить лимиты MB Way/Multibanco; при необходимости получить PIN/коды в банке или ATM».",
+        "where": "costs[1]",
+        "current": "Годовое обслуживание (часто): 0",
+        "problem": "Для онлайн-пакетов это возможно, но для традиционных банков в Португалии ежемесячная manutenção и комиссии карты часто ненулевые. В таблице затрат значение €0 без диапазона может вводить в заблуждение, особенно для CGD/Santander/Novobanco/Millennium/BPI.",
+        "suggestion": "Указать диапазон: «€0 в отдельных онлайн/молодёжных/промо-пакетах; в обычных пакетах часто несколько евро в месяц + Imposto do Selo. Проверять preçário банка».",
         "confidence": "high",
-        "source": "SIBS Multibanco/MB Way; bank homebanking terms"
+        "source": "Banco de Portugal — comparador de comissões; bank preçários"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3]",
+        "current": "Эмиссия дебетовой карты: 0",
+        "problem": "Не универсально: выпуск/годовая плата за дебетовую карту могут быть бесплатными в онлайн-банках или пакетах, но многие банки берут annual fee/card fee. Нужен caveat.",
+        "suggestion": "Написать: «€0 у части онлайн-пакетов; иначе возможна комиссия за выпуск/аннуитет карты — смотреть preçário».",
+        "confidence": "high",
+        "source": "Banco de Portugal — comparador de comissões; bank preçários"
       },
       {
         "severity": "minor",
         "where": "sources[2]",
-        "current": "\"title\": \"ePortugal — abrir conta bancária\", \"url\": \"https://eportugal.gov.pt/cidadaos\"",
-        "problem": "URL слишком общий и не ведёт непосредственно на страницу про открытие банковского счёта. Для справочного гайда лучше ссылаться на конкретную страницу ePortugal/Banco de Portugal или на comparador/preçários.",
-        "suggestion": "Заменить на конкретную страницу ePortugal о банковских счетах, если она существует, либо добавить Banco de Portugal pages: «Contas bancárias», «Serviços mínimos bancários», «Comparador de comissões».",
+        "current": "ePortugal — abrir conta bancária / https://eportugal.gov.pt/cidadaos",
+        "problem": "Ссылка слишком общая и не ведёт напрямую на страницу про открытие банковского счёта. Для чувствительной темы лучше давать точную страницу Banco de Portugal/ePortugal или официальный раздел о contas bancárias.",
+        "suggestion": "Заменить на точную официальную страницу Banco de Portugal о банковских счетах/serviços mínimos bancários или конкретную страницу ePortugal, если она существует, а не общий каталог «cidadaos».",
         "confidence": "medium",
-        "source": "ePortugal; Banco de Portugal"
-      },
-      {
-        "severity": "minor",
-        "where": "sources[3]",
-        "current": "\"title\": \"Regulamento BdP 2/2018 (AML-правила)\", \"url\": \"https://www.bportugal.pt/aviso-circular/aviso-ndeg-22018\"",
-        "problem": "Название неточное: это Aviso do Banco de Portugal n.º 2/2018, а не «Regulamento BdP 2/2018». Для AML также важен Lei n.º 83/2017, который не указан.",
-        "suggestion": "Переименовать в «Aviso do Banco de Portugal n.º 2/2018» и добавить источник «Lei n.º 83/2017 — prevenção do branqueamento de capitais e financiamento do terrorismo».",
-        "confidence": "high",
-        "source": "Aviso do Banco de Portugal n.º 2/2018; Lei n.º 83/2017"
+        "source": "Banco de Portugal — contas bancárias; ePortugal"
       }
     ],
     "missing_topics": [
-      "Serviços mínimos bancários: право на basic bank account и законодательно ограниченная годовая комиссия",
-      "Санкционные и enhanced due diligence caveats для граждан/резидентов России и Беларуси, включая источники средств и переводы из РФ",
-      "IBAN discrimination: запрет отказа по SEPA IBAN и практические способы жалобы",
-      "Banco de Portugal fee comparator/preçários: как проверять реальные комиссии банка перед открытием",
-      "Livro de Reclamações и жалобы в Banco de Portugal при проблемах с банком",
-      "Разница между банком, payment institution и e-money institution; что именно покрывается deposit guarantee scheme",
-      "Налогообложение процентов по депозитам в Португалии и удержание налога у источника для резидентов/нерезидентов"
+      "Serviços Mínimos Bancários: в Португалии есть базовый банковский счёт с ограниченной комиссией; максимальная годовая стоимость привязана к IAS, на 2026 IAS = €537.13, то есть лимит 1% IAS = €5.37 плюс применимые налоги.",
+      "Различие между банковским счётом в португальском банке, счётом в EU-банке с иностранным IBAN и e-money/payment account: разные гарантии, доступ к MB WAY/Multibanco и прямым списаниям.",
+      "Для MB WAY нужен участвующий португальский банк/карта и привязанный номер телефона; иностранный SEPA-IBAN сам по себе MB WAY не даёт.",
+      "Для российских граждан/клиентов с российским налоговым резидентством или источником средств нужны отдельные caveats по санкционному screening, enhanced due diligence и высокой вероятности отказа/дополнительных документов.",
+      "Нужно явно советовать проверять preçário банка и Banco de Portugal comparador de comissões перед открытием счёта."
     ]
+  },
+  "usage": {
+    "completion_tokens": 5803,
+    "prompt_tokens": 3801,
+    "total_tokens": 9604
   },
   "model": "gpt-5.5"
 }

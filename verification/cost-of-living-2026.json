@@ -2,126 +2,16 @@
   "guideId": "cost-of-living-2026",
   "categoryId": "daily_life",
   "verdict": {
-    "verdict": "major_issues",
-    "summary": "Guide is broadly useful for daily-life prices, but has several material factual/misleading points, especially D7 income threshold, SNS access/cost wording, Porto transport pass, tax/self-employment simplifications, and some education/childcare caveats.",
-    "issues": [
-      {
-        "severity": "critical",
-        "where": "steps[0].content[0].items[5]",
-        "current": "💰 Минимум для D7 визы: 1 IAS = 537,13 €/мес (пассивный доход заявителя), +50% IAS на супруга (268,57 €), +30% IAS на ребёнка (161,14 €)",
-        "problem": "D7 subsistence benchmark is not 1 IAS. It is normally calculated from the Portuguese minimum wage / minimum monthly guaranteed remuneration, with 100% for the main applicant, 50% for the second adult and 30% per dependent child. Using IAS understates the 2026 D7 figure by about 42%.",
-        "suggestion": "Write: “Минимум для D7: обычно 1× SMN = 920 €/мес для заявителя, +50% SMN = 460 € на супруга/второго взрослого, +30% SMN = 276 € на ребёнка; на практике консульства часто хотят подтверждение регулярного пассивного дохода и/или средств на 12 месяцев.”",
-        "confidence": "high",
-        "source": "Portaria n.º 1563/2007; AIMA/consular D7 requirements; SMN 2026 = €920"
-      },
-      {
-        "severity": "major",
-        "where": "steps[4].content[0].items[0]",
-        "current": "🏥 SNS (после регистрации с ВНЖ): бесплатно для всех плановых и экстренных",
-        "problem": "Overstates and oversimplifies SNS access and cost. SNS access is tied to having a Número de Utente / legal residence or other qualifying status, not merely “after residence permit”. Most SNS user fees were abolished, but there are still exceptions, notably some emergency visits without prior SNS referral and services outside SNS agreements. Foreigners without regular status can face different rules, with exceptions for urgent care, public health, pregnancy, minors, etc.",
-        "suggestion": "Write: “SNS: после получения Número de Utente при легальном проживании большинство консультаций и плановой помощи в SNS бесплатны; рецепты частично субсидируются. Срочная помощь доступна, но urgência без направления SNS24/семейного врача может иметь taxa moderadora, если нет госпитализации/исключения. Частные клиники оплачиваются отдельно или через страховку.”",
-        "confidence": "high",
-        "source": "Decreto-Lei n.º 52/2022; SNS / ACSS rules on taxas moderadoras; Lei de Bases da Saúde"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[1]",
-        "current": "🚇 Porto Andante (все виды): 30 €/мес",
-        "problem": "Misleading: €30 is the municipal pass price, not the whole Porto metropolitan network. The metropolitan Andante pass is typically €40/month. “Все виды” suggests full network coverage.",
-        "suggestion": "Write: “Porto Andante: 30 €/мес municipal; 40 €/мес metropolitan.”",
-        "confidence": "high",
-        "source": "Andante / Área Metropolitana do Porto fare tables"
-      },
-      {
-        "severity": "major",
-        "where": "steps[11].content[1].items[4]",
-        "current": "ИП (recibos verdes): налог с 75% оборота + 21.4% соцвзносы (12 мес полного освобождения для newly-registered). IVA порог освобождения — 15 000 €/год (с 2025)",
-        "problem": "Several simplifications are likely to mislead. In the simplified IRS regime, 75% is a common coefficient for many services, not “tax”; other coefficients exist. Social Security at 21.4% applies to relevant income, normally calculated from 70% of services income / 20% of goods/hospitality income, with quarterly declarations and possible adjustments. The 12-month exemption is only for first-time opening of activity / qualifying situations, not every newly registered freelancer.",
-        "suggestion": "Write: “Recibos verdes: в regime simplificado IRS обычно облагается не весь оборот, а часть по коэффициентам — часто 75% для услуг, но коэффициент зависит от CAE/CIRS. Segurança Social: 21,4% от rendimento relevante, обычно 70% дохода от услуг, с квартальными декларациями; первое открытие actividade обычно даёт освобождение до 12 месяцев. IVA Article 53: освобождение при обороте до 15 000 €/год, если выполнены условия.”",
-        "confidence": "high",
-        "source": "Código do IRS art. 31; Código dos Regimes Contributivos; Código do IVA art. 53"
-      },
-      {
-        "severity": "major",
-        "where": "steps[11].content[1].items[5]",
-        "current": "IVA (НДС): 23% стандартный, 13% ресторанные, 6% продукты",
-        "problem": "Incomplete/misleading because Portuguese VAT rates differ on mainland, Madeira and Azores. Also restaurant VAT is not simply “13%”: food service is generally intermediate rate, but many drinks/alcoholic beverages are standard rate.",
-        "suggestion": "Write: “IVA mainland: 23% standard, 13% intermediate, 6% reduced. Madeira/Açores have lower regional rates. В ресторанах часть еды может быть 13%, но алкоголь и некоторые напитки обычно 23%.”",
-        "confidence": "high",
-        "source": "Código do IVA; Autoridade Tributária IVA rates"
-      },
-      {
-        "severity": "major",
-        "where": "steps[10].content[0].items[0]",
-        "current": "🎓 Гос. университет для резидентов EU: 700-1300 €/год",
-        "problem": "Terminology is wrong/confusing. Fee category is not simply “EU residents”. Portuguese/EU nationals and certain legally resident non-EU foreigners may be treated as national/equivalent students. Non-EU students can stop being “international students” after meeting legal residence conditions, commonly including residence in Portugal for more than two years by 1 January of the entry year, with important exceptions.",
-        "suggestion": "Write: “Гос. университет: для portugueses/EU и приравненных студентов обычно ~700-1300 €/год. Non-EU по estatuto de estudante internacional часто платят 2000-7000 €/год; легальные резиденты могут быть приравнены к national/EU только при выполнении условий закона и правил вуза.”",
-        "confidence": "high",
-        "source": "Decreto-Lei n.º 36/2014, Estatuto do Estudante Internacional"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[0].items[1].content[0].items[4]",
-        "current": "Condomínio (квартирный): 20-80 €/мес",
-        "problem": "This is listed among monthly utilities without caveat. Condomínio is normally the owner’s responsibility. A tenant may pay it only if the lease contract expressly passes some condominium/common-cost charges to the tenant.",
-        "suggestion": "Write: “Condomínio: обычно платит собственник; арендатор платит только если это прямо прописано в contrato de arrendamento. Типично 20-80 €/мес, но здания с лифтом/гаражом/бассейном дороже.”",
-        "confidence": "high",
-        "source": "Portuguese lease practice / Civil Code rules on lease obligations"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[0].items[1].content[0].items[5]",
-        "current": "IMI (только для собственников): 100-1000 €/год. Ставка 0,3-0,45 % от кадастровой стоимости и зависит от муниципалитета (Lisboa/Porto чаще на верхней границе, провинция и Madeira/Açores — на нижней; точная ставка — в решении Câmara Municipal и на сайте вашего города)",
-        "problem": "The rate range is broadly right for urban property on mainland, but the parenthetical is misleading: Lisbon is usually at the minimum 0.3%, and Porto is not “upper boundary” 0.45%. Also Madeira/Azores are not simply “lower”; rates are municipal and must be checked municipality by municipality.",
-        "suggestion": "Write: “IMI для urban property обычно 0,3-0,45% от VPT на mainland; ставка задаётся município и может меняться ежегодно. Lisboa часто 0,3%; Porto historically around low/mid range, not necessarily upper boundary. Проверять ставку на Portal das Finanças / município.”",
-        "confidence": "high",
-        "source": "Código do IMI; Portal das Finanças municipal IMI rates"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[10].content[0].items[0]",
-        "current": "🧒 Creche (ясли 0-3 гос): 0-400 €/мес по доходу",
-        "problem": "Missing important 2026 caveat: under Creche Feliz, many places in public/social-sector crèches and some participating private crèches are free for eligible children, subject to availability and rules. Presenting state crèche as 0-400 by income is outdated/incomplete.",
-        "suggestion": "Write: “Creche 0-3: по Creche Feliz многие места в rede pública/social и участвующих privadas gratuitas для eligible детей, но мест не хватает; вне программы/частные — часто 400-1200 €/мес.”",
-        "confidence": "high",
-        "source": "Segurança Social — Programa Creche Feliz"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[0].content[0].items[1]",
-        "current": "💰 Средняя зарплата netto: ~1300 €/мес (данные INE 2026)",
-        "problem": "As of April 2026, full-year 2026 INE wage data are not available. INE also usually publishes gross remuneration / earnings indicators; “netto” needs a defined methodology because net salary depends on household status, withholding, meal allowance and number of payments.",
-        "suggestion": "Write: “Средняя зарплата: ориентируйтесь на последние доступные INE/GEP/MTSSS данные за 2025/последний квартал; net зависит от налогового статуса и удержаний. Для грубой оценки: gross около 1800 €/мес, net для single без dependents может быть около 1300-1400 €, но считать индивидуально.”",
-        "confidence": "medium",
-        "source": "INE; GEP/MTSSS remuneration statistics"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[11].content[1].items[0]",
-        "current": "IRS (подоходный): ~11% в среднем (шкала 11,97-48% в 9 бракетах — OE 2026)",
-        "problem": "Needs a precise official citation. IRS bracket rates and thresholds are sensitive and change by State Budget; “11,97-48%” should not be stated without naming the 2026 table/legislation. Also effective IRS for €2000 gross/month depends on marital status, dependents, autonomous region, deductions and whether salary is paid 14 times.",
-        "suggestion": "Either cite the exact OE 2026 IRS table and thresholds, or soften: “IRS зависит от годового taxable income, семейного статуса, региона и deductions; для 2000 €/мес gross примерный effective IRS около 10-13% before/after deductions depending on case. Проверять по simulador AT.”",
-        "confidence": "medium",
-        "source": "Orçamento do Estado 2026; Autoridade Tributária IRS tables/simulator"
-      },
-      {
-        "severity": "minor",
-        "where": "sources",
-        "current": "Only generic homepages: INE, Banco de Portugal, Portal das Finanças, Segurança Social",
-        "problem": "For a 2026 cost/tax guide, sources are too generic for sensitive figures. The guide gives exact legal values for SMN, IAS, D7/D8 thresholds, IRS brackets, IVA, SNS and social-security rules but does not cite the specific legal acts or official pages.",
-        "suggestion": "Add specific sources: Portaria 480-A/2025/1 for IAS 2026; 2026 SMN legal act/official government page; AIMA/consular pages for D7/D8; OE 2026 IRS tables / AT simulator; Código do IVA art. 53 and VAT rates; SNS/ACSS taxas moderadoras; Andante/Navegante official fare pages.",
-        "confidence": "high",
-        "source": "Portaria 480-A/2025/1; Autoridade Tributária; AIMA; SNS/ACSS; Andante; Navegante"
-      }
-    ],
-    "missing_topics": [
-      "Clarify D7 uses SMN, not IAS, and distinguish income requirement from practical consular proof of funds/deposit expectations.",
-      "Mention regional VAT differences for Madeira and Azores.",
-      "Add caveat that public childcare availability is limited even where Creche Feliz is free.",
-      "Add caveat that private health insurance often has waiting periods, exclusions and age limits, especially for older D7 retirees.",
-      "Add official fare distinction between municipal and metropolitan transport passes in Lisbon/Porto.",
-      "Add specific official/legal sources for SMN, IAS, IRS, IVA, SNS and self-employment contributions instead of only generic portals."
-    ]
+    "verdict": "parse_error",
+    "summary": "Expected property name or '}' in JSON at position 3 (line 2 column 2)",
+    "raw": "{\n verdict\": \"minor_issues\",\n  \"summary\": \"Guide is broadly usable for 2026 cost-of-living planning, but several figures are either mis-sourced, too generic, or misleading without caveats.\",\n  \"issues\": [\n    {\n      \"severity\": \"minor\",\n      \"where\": \"steps[0].content[0].items[1]\",\n      \"current\": \"💰 Средняя зарплата нетто: ~1300 €/мес (данные INE 2026)\",\n      \"problem\": \"INE commonly publishes gross remuneration indicators; calling this a 2026 INE net-salary figure is misleading unless tie",
+    "issues": [],
+    "missing_topics": []
+  },
+  "usage": {
+    "completion_tokens": 4685,
+    "prompt_tokens": 4211,
+    "total_tokens": 8896
   },
   "model": "gpt-5.5"
 }

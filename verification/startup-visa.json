@@ -2,122 +2,85 @@
   "guideId": "startup-visa",
   "categoryId": "residence_permit",
   "verdict": {
-    "verdict": "major_issues",
-    "summary": "Guide is broadly on the right topic, but it misstates key Startup Visa eligibility criteria, over-promises IFICI access, omits the co-founder cap, and uses outdated/incorrect AIMA 2026 fee amounts.",
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом актуален и аккуратен по Startup Visa, но есть несколько вводящих в заблуждение мест про порядок подачи, семейные суммы и источники/сборы.",
     "issues": [
       {
         "severity": "major",
-        "where": "steps[1].content[0].items[2]",
-        "current": "Прогноз оборота ≥ €325 000/год через 5 лет ИЛИ 10 рабочих мест ИЛИ высокотехнологичный R&D",
-        "problem": "The Startup Visa criterion is not phrased as an alternative of “€325k turnover OR 10 jobs OR high-tech R&D”. The official Startup Visa criteria refer to potential to create qualified employment and to reach, within 5 years, turnover above €325,000/year and/or assets above €325,000/year. “10 jobs” is not the standard Startup Visa threshold and may mislead applicants.",
-        "suggestion": "Replace with: \"Потенциал создать квалифицированные рабочие места и через 5 лет достичь оборота > €325 000/год и/или стоимости активов > €325 000; оценка также учитывает инновационность, масштабируемость, рыночный потенциал и качество команды.\"",
+        "where": "steps[1].content[0].items[5]",
+        "current": "Собственные средства: заявитель — 12× IAS = €6 445,56 (IAS 2026 = €537,13); супруг/партнёр — +12× 50% IAS = €3 222,78; ребёнок — +12× 30% IAS = €1 933,67 на каждого",
+        "problem": "Для самой Startup Visa официальное требование IAPMEI формулируется как наличие у каждого предпринимателя средств не ниже 12×IAS. Семейная формула 50%/30% здесь смешивает Startup Visa с правилами сопровождения/воссоединения семьи и может быть неверно понята как официальное требование портала Startup Visa. Если речь о визах/ВНЖ для семьи, это отдельный D6/family reunification или accompanying family процесс с отдельными консульскими/AIMA требованиями и документами.",
+        "suggestion": "Написать: «Для каждого предпринимателя в заявке Startup Visa: минимум 12×IAS = €6 445,56 на банковском счёте при IAS 2026 €537,13. Члены семьи не становятся участниками Startup Visa автоматически: для них нужен отдельный маршрут сопровождения/воссоединения семьи, где применяются отдельные требования к средствам и документам».",
         "confidence": "high",
-        "source": "IAPMEI Startup Visa eligibility criteria"
+        "source": "IAPMEI Startup Visa; Portaria 344/2017; Lei 23/2007; Portaria 1563/2007"
       },
       {
         "severity": "major",
-        "where": "tldr",
-        "current": "Дает ВНЖ на 2 года, доступ к IFICI.",
-        "problem": "This over-promises IFICI. Startup Visa does not automatically grant IFICI/NHR 2.0 status. IFICI depends on Portuguese tax-residence status, not having been tax resident in Portugal in the previous years, timely registration, and performing an eligible activity/entity role under the IFICI rules. The 20% rate is not a blanket tax rate on all income.",
-        "suggestion": "Write: \"ВНЖ обычно первично на 2 года. IFICI может быть доступен только при выполнении отдельных налоговых условий и для eligible activity; это не автоматическое право по Startup Visa.\"",
+        "where": "steps[2].content[0].items[2].title",
+        "current": "3. Подписать договор с инкубатором",
+        "problem": "Порядок описан слишком прямолинейно: в официальной процедуре ключевым является не обязательно уже подписанный коммерческий договор до подачи, а декларация/выражение интереса или acceptance от сертифицированного инкубатора через процесс Startup Visa. У разных инкубаторов договор может подписываться на другом этапе.",
+        "suggestion": "Заменить на: «Получить декларацию интереса/acceptance от сертифицированного инкубатора; договор с инкубатором подписывается по правилам конкретного инкубатора и не всегда является первым документом до финальной подачи».",
         "confidence": "high",
-        "source": "Estatuto dos Benefícios Fiscais, art. 58.º-A; IFICI regime replacing NHR from 2024"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[1]",
-        "current": "Доступ к IFICI (20% налог)",
-        "problem": "Misleading simplification. IFICI is a 20% IRS rate on eligible employment/self-employment income from qualifying activities, not a general 20% tax regime for all Startup Visa founders. It also requires separate application and compliance with eligibility deadlines.",
-        "suggestion": "Replace with: \"Возможный доступ к IFICI: 20% IRS только на eligible professional income при выполнении условий режима и отдельной регистрации; не распространяется автоматически на все доходы.\"",
-        "confidence": "high",
-        "source": "Estatuto dos Benefícios Fiscais, art. 58.º-A"
-      },
-      {
-        "severity": "major",
-        "where": "costs[3]",
-        "current": "AIMA — приём + анализ: €133, note: с 01.03.2026",
-        "problem": "The amount appears outdated/incorrect for the AIMA fee table in force from 01.03.2026. The new table is indexed to IAS; with IAS 2026 = €537.13, 25% IAS equals €134.28, not €133.",
-        "suggestion": "Update to: \"AIMA — receção e análise do pedido: €134.28 с 01.03.2026\", if using the standard 25% IAS line; verify against the exact AIMA act type before publication.",
-        "confidence": "medium",
-        "source": "Portaria 480-A/2025/1; IAS 2026 = €537.13"
-      },
-      {
-        "severity": "major",
-        "where": "costs[4]",
-        "current": "AIMA — ВНЖ (art. 75): €307.2, note: с 01.03.2026",
-        "problem": "The amount is inconsistent with the 2026 IAS-indexed AIMA table. If this is the standard temporary residence card issuance fee at 60% IAS, the 2026 amount is €322.28, not €307.20. The label “art. 75” is also misleading because Startup Visa/entrepreneur residence is not simply an “art. 75” category; art. 75 sets general conditions.",
-        "suggestion": "Use a more neutral label and updated amount: \"AIMA — emissão do título de residência temporário: €322.28 с 01.03.2026\" and add \"точная строка тарифа зависит от типа разрешения/процедуры AIMA\".",
-        "confidence": "medium",
-        "source": "Portaria 480-A/2025/1; IAS 2026 = €537.13"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[3]",
-        "current": "Возможность привезти команду (co-founders могут подать вместе)",
-        "problem": "Missing critical cap. Startup Visa applications are limited to a maximum number of entrepreneurs per project; the standard cap is up to 5 entrepreneurs per project. Without this, “team can apply together” is too broad.",
-        "suggestion": "Write: \"Co-founders могут подать вместе, но обычно максимум 5 предпринимателей на один проект; остальные сотрудники идут по другим визовым основаниям.\"",
-        "confidence": "high",
-        "source": "IAPMEI Startup Visa rules"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[0].items[4]",
-        "current": "Собственные средства ≥ 6 445,56 € (12× IAS при 537,13 € на 2026) на жизнь заявителя + 50 % IAS за супруга, 30 % IAS за ребёнка",
-        "problem": "The main applicant amount is correct, but the family-member wording is ambiguous: it could be read as a one-month IAS supplement rather than annual means. For visa/subsistence calculations, the spouse/child additions are normally applied over the same reference period.",
-        "suggestion": "Clarify: \"на заявителя: 12×IAS = €6 445,56; супруг/партнёр: +12×50% IAS = €3 222,78; ребёнок: +12×30% IAS = €1 933,67 на каждого\".",
-        "confidence": "high",
-        "source": "Portaria setting subsistence means for visa purposes; IAS 2026 = €537.13"
-      },
-      {
-        "severity": "major",
-        "where": "steps[0].content[1].text",
-        "current": "Главное отличие от D2: требуется подтверждение ОТ ОДНОГО ИЗ СЕРТИФИЦИРОВАННЫХ инкубаторов...",
-        "problem": "Potentially confusing visa-code framing. Startup Visa is not a completely separate consular visa code in the same way as D7/D8; it is processed as a residence visa for entrepreneurs/innovative projects, commonly within the D2/migrant entrepreneur route, with prior IAPMEI/incubator approval. Saying the “main difference from D2” may imply it is separate from D2 rather than a special Startup Visa pathway under the entrepreneur visa framework.",
-        "suggestion": "Write: \"На консульском этапе это фактически предпринимательская residence visa/D2-подтип для Startup Visa: нужен не просто бизнес-план, а предварительное одобрение проекта IAPMEI и договор/декларация сертифицированного инкубатора.\"",
-        "confidence": "medium",
-        "source": "MNE Vistos — residence visa for migrant entrepreneurs / Startup Visa"
+        "source": "IAPMEI Startup Visa"
       },
       {
         "severity": "minor",
         "where": "steps[2].content[0].items[3].content[0].text",
-        "current": "IAPMEI рассматривает 30-60 дней.",
-        "problem": "The timing is presented as a reliable processing window, but IAPMEI/portal timelines can depend on completeness, incubator interaction and administrative backlog. If citing an official deadline, it should be framed as working days or legal/expected term rather than a guaranteed 30-60 calendar days.",
-        "suggestion": "Write: \"Ориентир: около 30 рабочих дней после полной подачи, но на практике сроки могут растягиваться из-за доработок, инкубатора или backlog.\"",
+        "current": "С подтверждением инкубатора + бизнес-планом + финансовыми документами.",
+        "problem": "Не хватает важной оговорки: заявка на Startup Visa подаётся в специальной онлайн-платформе IAPMEI, но консульская residence visa после одобрения — это отдельная процедура MNE/VFS с обычным пакетом документов: паспорт, справки о несудимости, страховка/медицинское покрытие, проживание, средства и т.п. Одобрение IAPMEI не заменяет консульскую проверку.",
+        "suggestion": "Добавить: «Одобрение IAPMEI — не сама виза и не гарантия выдачи консульской визы; после него заявитель всё равно проходит стандартную процедуру residence visa в консульстве/MNE/VFS с отдельным пакетом документов».",
+        "confidence": "high",
+        "source": "Vistos MNE; Lei 23/2007"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "Консульская виза — €90",
+        "problem": "€90 — базовый консульский сбор за residence visa, но на практике при подаче через VFS/визового провайдера часто добавляются service fee, курьерские/смс/переводческие расходы. Сейчас строка выглядит как полный обязательный бюджет консульского этапа.",
+        "suggestion": "Написать: «Консульская residence visa: базовый сбор €90; при подаче через VFS/провайдера возможны дополнительные сервисные сборы и расходы».",
+        "confidence": "high",
+        "source": "Vistos MNE; VFS tariff pages by country"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[3].note",
+        "current": "тариф с 01.03.2026 (25% IAS при IAS 2026 = €537,13)",
+        "problem": "Сумма посчитана корректно, но для чувствительной категории AIMA-сборов нужен конкретный нормативный источник. В sources нет Portaria с новой таблицей сборов AIMA.",
+        "suggestion": "Добавить в sources официальный источник по тарифам AIMA с 01.03.2026, например Portaria 480-A/2025/1, и/или ссылку на актуальную таблицу сборов AIMA.",
+        "confidence": "high",
+        "source": "Portaria 480-A/2025/1"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[4].note",
+        "current": "тариф с 01.03.2026 (60% IAS); точная строка тарифа зависит от типа разрешения",
+        "problem": "Оговорка правильная, но формулировка может создать впечатление, что €322,28 всегда является итоговой суммой за выдачу титула. В AIMA сумма зависит от конкретной строки таблицы, возможных срочностей/дубликатов/особых случаев, а тарифную базу нужно проверять на дату записи.",
+        "suggestion": "Написать: «Ориентир по стандартной строке emissão do título de residência temporário: 60% IAS = €322,28 при IAS 2026 €537,13; итоговая строка и сумма подтверждаются по актуальной таблице AIMA на дату записи».",
         "confidence": "medium",
-        "source": "IAPMEI Startup Visa procedural information"
+        "source": "Portaria 480-A/2025/1; AIMA fee table"
       },
       {
         "severity": "minor",
         "where": "sources[1]",
-        "current": "IAPMEI — Startup Portugal, url: https://www.iapmei.pt/",
-        "problem": "The source is too generic for a sensitive immigration guide and does not directly support the specific Startup Visa requirements, criteria, incubator list or fees.",
-        "suggestion": "Replace or supplement with the direct Startup Visa regulation/FAQ pages from IAPMEI and the current certified incubator list page, plus the AIMA fee table/Portaria for costs.",
+        "current": "IAPMEI — Startup Portugal — https://www.iapmei.pt/",
+        "problem": "Ссылка слишком общая и не подтверждает конкретные требования Startup Visa. Для guide по визе лучше ссылаться на конкретную страницу/портал программы и правовую базу, а не на домашнюю страницу IAPMEI.",
+        "suggestion": "Заменить или дополнить конкретным источником с правовой базой Startup Visa: Portaria 344/2017 и последующие изменения, а также конкретная страница IAPMEI/Startup Visa с FAQ/requirements.",
         "confidence": "high",
-        "source": "IAPMEI Startup Visa official portal; Portaria 480-A/2025/1"
-      },
-      {
-        "severity": "minor",
-        "where": "sources[2]",
-        "current": "Vistos MNE — Startup Visa, url: https://vistos.mne.gov.pt/pt/",
-        "problem": "The URL is only the generic MNE visa portal root, not a direct page for the relevant residence visa category. Users may not find the Startup Visa/D2 entrepreneur requirements from this link.",
-        "suggestion": "Use the direct MNE page for residence visa for independent professional activity, entrepreneurial immigrants and Startup Visa, or include navigation instructions if the portal URL is dynamic.",
-        "confidence": "high",
-        "source": "MNE Vistos official portal"
+        "source": "Portaria 344/2017; IAPMEI Startup Visa"
       }
     ],
     "missing_topics": [
-      "Maximum of 5 entrepreneurs/co-founders per Startup Visa project",
-      "Startup Visa is not automatic IFICI; explain separate IFICI eligibility, application deadline and income scope",
-      "Exact official IAPMEI evaluation criteria: innovation, scalability, market potential, management capacity and qualified employment",
-      "Clarify consular visa category/code: Startup Visa is handled through the entrepreneur residence visa framework, not a separate generic visa like D7/D8",
-      "AIMA 2026 fee source and exact fee lines under Portaria 480-A/2025/1",
-      "Need for direct official sources: IAPMEI Startup Visa rules/FAQ, certified incubator list, MNE specific visa page, AIMA fee table"
+      "Отдельный маршрут для семьи: D6/accompanying family или family reunification, отдельные документы и средства; семья не входит автоматически в Startup Visa предпринимателя.",
+      "Одобрение IAPMEI не гарантирует выдачу консульской residence visa и не заменяет проверку MNE/VFS.",
+      "Возможные дополнительные расходы VFS/визового центра сверх базового консульского сбора €90.",
+      "Конкретная правовая база Startup Visa: Portaria 344/2017 и последующие изменения.",
+      "Официальный источник для AIMA fee table с 01.03.2026, например Portaria 480-A/2025/1."
     ]
   },
   "usage": {
-    "completion_tokens": 4197,
-    "prompt_tokens": 2139,
-    "total_tokens": 6336
+    "completion_tokens": 3273,
+    "prompt_tokens": 2381,
+    "total_tokens": 5654
   },
   "model": "gpt-5.5"
 }

@@ -1,0 +1,68 @@
+{
+  "guideId": "apoio-domiciliario-sad",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом точный и полезный, но слишком упрощает правила comparticipação familiar и не даёт достаточной официальной опоры для блока цен.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "«оформляется через IPSS/Misericórdia/município с acordo de cooperação и оплатой по доходу семьи»",
+        "problem": "Фраза смешивает разные режимы. Доходозависимая comparticipação обычно относится к resposta social с acordo de cooperação/вакансией social, но не к любой IPSS, Misericórdia, муниципальной или частной услуге. Кроме того, «доход семьи» неточно: обычно речь о rendimento do agregado familiar/capitação, а не обо всех родственниках.",
+        "suggestion": "Написать: «Если место SAD покрыто acordo de cooperação с Segurança Social, пользователь платит comparticipação familiar, рассчитанную по rendimento do agregado familiar/capitação и regulamento interno учреждения. Вне таких vagas — даже в IPSS/Misericórdia — цена может быть свободной/договорной».",
+        "confidence": "high",
+        "source": "Portaria 196-A/2015; Instituto da Segurança Social — regras de comparticipação familiar em respostas sociais"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].text",
+        "current": "«В 2026 типичный коридор для базового пакета — примерно 100–400 €/мес»",
+        "problem": "Это может быть нормальным практическим ориентиром, но выглядит как полуофициальный диапазон на 2026 год. Для SAD нет единой национальной таблицы цен для пользователя: сумма зависит от regulamento interno, capitação, набора услуг, наличия acordo de cooperação и местной практики. Без оговорки читатель может принять 100–400 € за гарантированный тариф.",
+        "suggestion": "Сохранить диапазон, но явно обозначить его как рыночный/практический ориентир: «Não há tabela nacional única para o utente. 100–400 €/mês — ориентир для базового пакета в social sector; просите письменный cálculo da comparticipação familiar и regulamento interno. Частная или некооперированная vaga может стоить существенно дороже».",
+        "confidence": "high",
+        "source": "Portaria 196-A/2015; Portaria 38/2013"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[2].items[6]",
+        "current": "«сравните IPSS и частный вариант: иногда частный стартует за 48–72 часа, но выходит 15–25 €/час»",
+        "problem": "15–25 €/час — правдоподобный городской ориентир для частной помощи, но он не покрывает ночные смены, 24h care, weekend/feriado surcharges, минимальные блоки часов, taxa de deslocação и contratação через empresas vs cuidador individual. Формулировка может занизить ожидания по стоимости при высокой зависимости.",
+        "suggestion": "Уточнить: «15–25 €/час — ориентир для дневных часов в городах; noites, fins de semana/feriados, cuidados de grande dependência, mínimos de horas и deslocações часто дороже; 24h care может стоить на порядки больше месячного SAD social».",
+        "confidence": "medium",
+        "source": "Market practice; no single official tariff"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники включают Segurança Social idosos, Carta Social, Portaria 38/2013 и Decreto-Lei 64/2007, но нет источника по comparticipação familiar/acordos de cooperação.",
+        "problem": "Блок о ценах и расчёте по доходу — самый чувствительный для пользователя, но не подкреплён профильным нормативным источником о cooperation agreements/comparticipações/regulamento interno.",
+        "suggestion": "Добавить официальный источник по regime de cooperação и comparticipações, например Portaria 196-A/2015, а также при возможности ссылку ISS на comparticipação familiar/regulamentos internos das respostas sociais.",
+        "confidence": "high",
+        "source": "Portaria 196-A/2015"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[5].content[2].text",
+        "current": "«Если это лицензированная resposta social и проблема серьёзная, можно обращаться в Segurança Social/ISS и использовать Livro de Reclamações.»",
+        "problem": "Верно, но неполно: для практического использования стоит указать, что Livro de Reclamações бывает физический и электронный, а жалобы по лицензированным social responses идут в Centro Distrital do ISS/инспекционные службы; для частной consumer service также применим общий режим Livro de Reclamações.",
+        "suggestion": "Написать: «Используйте Livro de Reclamações físico или eletrónico; по licensed resposta social жалобу можно направить в Centro Distrital do ISS, который supervises/licences these services». Добавить ссылку на Livro de Reclamações Eletrónico.",
+        "confidence": "high",
+        "source": "Livro de Reclamações Eletrónico; Decreto-Lei 64/2007"
+      }
+    ],
+    "missing_topics": [
+      "Как отличить vaga com acordo de cooperação от места по preço livre внутри той же IPSS/Misericórdia.",
+      "Краткая формула/логика cálculo da comparticipação familiar: rendimento do agregado familiar/capitação, допустимые расходы и regulamento interno.",
+      "Проверка лицензии частного SAD: Carta Social, pedido de alvará/autorização de funcionamento и regulamento interno.",
+      "Конкретные каналы жалоб: Livro de Reclamações Eletrónico и Centro Distrital do ISS.",
+      "Оговорка, что SAD social не гарантирован автоматически иностранцам: учреждение может требовать документы о residência/morada/rendimentos, а при социальной emergency нужен отдельный маршрут через Segurança Social/linha de emergência social."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4187,
+    "prompt_tokens": 3455,
+    "total_tokens": 7642
+  },
+  "model": "gpt-5.5"
+}

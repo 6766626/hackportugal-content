@@ -1,0 +1,52 @@
+{
+  "guideId": "cartao-misericordia-saude",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate and useful, but it slightly over-simplifies SNS access for people without residence status, has a likely wrong UMP URL, and should add a few regulatory/consumer caveats.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[2].content[2].text",
+        "current": "Если у вас нет ВНЖ и número de utente, не говорите “я не имею права на SNS”. Это неверно: доступ к SNS имеет отдельные правила. Misericórdia может принять вас как частного/социального пациента, но параллельно оформляйте número de utente в Centro de Saúde.",
+        "problem": "The general idea is right, but the wording is too broad. A foreigner without a residence permit and without an SNS number does not automatically have the same SNS access or the same ability to obtain a número de utente as a resident. Access depends on legal residence/legal stay, EU status, visa type, proof of residence in Portugal, urgent/essential care, public-health situations, pregnancy, minors, etc.; some care can be billed at full tariff. The text may make readers think anyone without a residence permit can simply register at a Centro de Saúde.",
+        "suggestion": "Write more precisely: “Даже без ВНЖ доступ к SNS не равен ‘нет права на помощь’: экстренная помощь, беременность, дети, инфекционные/общественно-значимые ситуации и некоторые другие случаи имеют отдельные правила. Но полноценная регистрация и получение número de utente зависят от статуса и документов: residence permit/CRUE/виза/доказательство проживания, а при отсутствии легального статуса могут попросить atestado da Junta de Freguesia о проживании более 90 дней; часть услуг могут выставить к оплате. Уточняйте в Centro de Saúde и SNS 24.”",
+        "confidence": "high",
+        "source": "SNS 24 — Inscrição no Centro de Saúde / acesso de cidadãos estrangeiros; Decreto-Lei n.º 52/2022; Despacho n.º 25360/2001"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[1].url",
+        "current": "https://www.umpmisericordias.pt",
+        "problem": "This is likely not the canonical website of União das Misericórdias Portuguesas. The commonly used official/canonical domain is ump.pt. If the listed domain does not redirect reliably, readers may hit a dead or non-authoritative reference.",
+        "suggestion": "Use the canonical URL: “https://www.ump.pt” and, if possible, link directly to the directory/search page for Misericórdias.",
+        "confidence": "medium",
+        "source": "União das Misericórdias Portuguesas official website"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[0].text",
+        "current": "Это сеть независимых благотворительных организаций IPSS. Самая известная — Santa Casa da Misericórdia de Lisboa (SCML).",
+        "problem": "Saying all Misericórdias are simply IPSS is a useful simplification, but not fully precise. Many Misericórdias are IPSS or equivalent social-sector entities, while SCML has a special legal/statutory regime and is not just a normal local IPSS clinic.",
+        "suggestion": "Write: “Это сеть независимых благотворительных/social-sector организаций, многие из которых имеют статус IPSS или аналогичный статус. SCML в Лиссабоне — особый случай со своим правовым режимом.”",
+        "confidence": "medium",
+        "source": "Estatutos da Santa Casa da Misericórdia de Lisboa; Segurança Social/IPSS framework"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[6]",
+        "current": "Попросите recibo/fatura с NIF — может пригодиться для IRS как despesa de saúde",
+        "problem": "Correct in spirit, but incomplete. In Portugal, health expenses are normally deductible only if correctly classified on e-Fatura; invoices with standard VAT rate may require validation/medical prescription to be accepted as health expenses.",
+        "suggestion": "Add: “Потом проверьте e-Fatura: медицинские расходы обычно проходят как saúde; если услуга с IVA 23%, для IRS может потребоваться receita médica/валидация.”",
+        "confidence": "high",
+        "source": "Autoridade Tributária — e-Fatura / deduções de saúde IRS"
+      }
+    ],
+    "missing_topics": [
+      "Add a caveat to check whether the specific clinic/clinical service is registered with ERS and has Livro de Reclamações; Misericórdia as a charity does not automatically mean every health service is regulated or available to external patients.",
+      "Add an official source specifically for SNS registration/access by foreigners, because the guide gives practical legal-health advice about people without residence permit or número de utente.",
+      "Mention that prices in the guide are only illustrative and should be confirmed with the local price list/tabela de preços, because there is no national Misericórdia health tariff."
+    ]
+  },
+  "model": "gpt-5.5"
+}

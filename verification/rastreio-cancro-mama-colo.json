@@ -1,0 +1,93 @@
+{
+  "guideId": "rastreio-cancro-mama-colo",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it repeatedly gives the cervical-cancer screening age window as 25–69, which does not match the usual/current SNS/DGS public guidance and could mislead readers.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "рак шейки матки — 25–69 лет по программе вашей ULS/бывшей ARS",
+        "problem": "The upper age limit for organised SNS cervical-cancer screening is overstated. Current public SNS/DGS guidance generally describes cervical screening as aimed at women in the 25–60 age range, with local programme details varying. Writing 25–69 suggests automatic eligibility up to 69, which is likely wrong.",
+        "suggestion": "Replace with: \"рак шейки матки — обычно женщины/люди с шейкой матки 25–60 лет; тест и интервал зависят от программы вашей ULS, поэтому верхнюю границу уточняйте локально\".",
+        "confidence": "high",
+        "source": "SNS 24 — Rastreios oncológicos; DGS/Programa Nacional para as Doenças Oncológicas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[1].items[1]",
+        "current": "Рак шейки матки: женщины 25–69 лет; используется цитология и/или HPV-тест по правилам вашей ULS/региональной программы.",
+        "problem": "Same incorrect age window for cervical screening. The text should not present 69 as the standard SNS population-screening upper limit.",
+        "suggestion": "Change to: \"Рак шейки матки: обычно 25–60 лет; используется HPV-тест и/или цитология по правилам вашей ULS/региональной программы.\"",
+        "confidence": "high",
+        "source": "SNS 24 — Rastreios oncológicos; DGS/Programa Nacional para as Doenças Oncológicas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].text",
+        "current": "При симптомах возрастные окна 50–69 / 25–69 / 50–74 не являются ограничением для обращения к врачу.",
+        "problem": "The cervical-cancer screening window is repeated as 25–69. The general clinical point is correct, but the embedded age range is misleading.",
+        "suggestion": "Change to: \"При симптомах возрастные окна 50–69 / 25–60 / 50–74 не являются ограничением для обращения к врачу.\" Add \"если ваша ULS не применяет иной локальный протокол\" if you want to preserve regional nuance.",
+        "confidence": "high",
+        "source": "SNS 24 — Rastreios oncológicos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].title",
+        "current": "Рак шейки матки: 25–69",
+        "problem": "Section title gives the wrong standard age range for organised cervical screening.",
+        "suggestion": "Use: \"Рак шейки матки: обычно 25–60\".",
+        "confidence": "high",
+        "source": "SNS 24 — Rastreios oncológicos; DGS/Programa Nacional para as Doenças Oncológicas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "В 2026 программы используют возрастное окно 25–69 лет, но формат теста и интервал могут отличаться по региону: citologia, HPV-тест или комбинация.",
+        "problem": "This asserts that 25–69 is the 2026 age window. That is not aligned with the usual SNS/DGS published target range for cervical screening, which is generally 25–60. Local variation can affect method/interval and operational details, but the guide should not state 25–69 as the national 2026 rule.",
+        "suggestion": "Replace with: \"В 2026 в публичных материалах SNS/DGS обычно указывается возрастное окно 25–60 лет. Метод и интервал могут отличаться по ULS/региональной программе: HPV-тест, citologia или их комбинация.\"",
+        "confidence": "high",
+        "source": "SNS 24 — Rastreios oncológicos; DGS/Programa Nacional para as Doenças Oncológicas"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[0].text",
+        "current": "Вас включают автоматически, если вы зарегистрированы в SNS, привязаны к Centro de Saúde/USF и ваши данные корректны.",
+        "problem": "This is mostly true as practical guidance, but a little too absolute. Actual invitation depends on the local ULS programme, updated patient registration, data quality, programme coverage/capacity and sometimes the entity running the screening, such as Liga Portuguesa Contra o Cancro for breast screening in many areas.",
+        "suggestion": "Soften to: \"Обычно вас включают/вызывают автоматически, если вы зарегистрированы в SNS, привязаны к Centro de Saúde/USF и ваши данные корректны; на практике охват и маршрутизация зависят от вашей ULS и местного оператора rastreio.\"",
+        "confidence": "medium",
+        "source": "SNS 24 — Rastreios oncológicos; Liga Portuguesa Contra o Cancro regional breast-screening programmes"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[2]",
+        "current": "Частная маммография/HPV-тест/colonoscopia без SNS — amountEURMin: 40, amountEURMax: 400",
+        "problem": "The upper bound is likely too low for private colonoscopy without SNS, especially with sedation, anaesthetist, biopsy, histology or polypectomy charged separately. Readers may underestimate private-sector costs.",
+        "suggestion": "Either split the line by exam or write: \"Маммография/HPV-тест могут стоить десятки–сотни евро; colonoscopia privada с седацией и возможной anatomia patológica/polypectomy can exceed €400. Ask for a written quote including sedation, biopsies and pathology.\"",
+        "confidence": "medium",
+        "source": "Private clinic price lists vary; no single official tariff for private sector"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2]",
+        "current": "Direção-Geral da Saúde — онкологические скрининги и нормы DGS — https://www.dgs.pt",
+        "problem": "The source is too generic for a guide that states clinical age ranges and screening intervals. A generic homepage is not a useful citation and may not let readers verify the exact rules.",
+        "suggestion": "Replace or supplement with direct links to the relevant DGS/PNDO page or norms/guidance for breast, cervical and colorectal screening, and keep SNS 24 as the plain-language official source.",
+        "confidence": "high",
+        "source": "DGS; SNS 24 — Rastreios oncológicos"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that cervical screening is for people who have a cervix; after hysterectomy eligibility depends on whether the cervix was removed and on prior CIN/cancer history.",
+      "Mention that breast-screening invitations in many mainland areas may come from Liga Portuguesa Contra o Cancro/mobile units, not only directly from ULS/Centro de Saúde.",
+      "Add a caveat that organised screening coverage and operational routes vary by ULS, so local confirmation is important even when the national age range is met."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3255,
+    "prompt_tokens": 3477,
+    "total_tokens": 6732
+  },
+  "model": "gpt-5.5"
+}

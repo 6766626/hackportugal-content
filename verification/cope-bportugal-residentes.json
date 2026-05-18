@@ -1,0 +1,70 @@
+{
+  "guideId": "cope-bportugal-residentes",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate on COPE scope, threshold and monthly filing, but it blurs the threshold timing/test and should cite the actual Banco de Portugal instruction/manual rather than only generic pages.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "«В 2026 году резиденты Португалии, у которых годовые операции с нерезидентами или внешние позиции достигают 250 000 €, должны подавать отчёт...»",
+        "problem": "This is directionally correct but misleading on timing. Banco de Portugal's exemption is normally assessed by reference to the total external transactions in the previous year and/or external positions at the end of the previous year; it is not simply “the moment you reach €250,000 in 2026, you must already have been filing monthly for 2026”. If the threshold is crossed during the current year, the start date should be checked against BdP guidance/instructions.",
+        "suggestion": "Replace with: «В 2026 году обязанность обычно проверяют по сумме внешних операций за предыдущий год и/или внешним позициям на конец предыдущего года: если они превышают 250 000 €, резидентная единица не подпадает под освобождение и подаёт COPE. Если порог впервые превышен в текущем году, уточните у Banco de Portugal, с какого периода начинать отчётность.»",
+        "confidence": "high",
+        "source": "Banco de Portugal COPE reporting guidance; Instrução do Banco de Portugal n.º 27/2012 and COPE Manual de Procedimentos"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "«если годовой объём внешних операций или внешних позиций достигает 250 000 €, нужно проверить обязанность подачи COPE»",
+        "problem": "The wording again suggests a current-year rolling threshold. The exemption test should be framed more precisely as annual external transactions and/or external positions, with reference to the previous year/end-of-year positions under BdP rules.",
+        "suggestion": "Write: «Порог освобождения — 250 000 €. На практике его проверяют по сумме внешних операций за предыдущий год и/или по внешним позициям на конец предыдущего года; при первом превышении в текущем году лучше письменно уточнить у Banco de Portugal начало отчётности.»",
+        "confidence": "high",
+        "source": "Banco de Portugal COPE reporting guidance; Instrução do Banco de Portugal n.º 27/2012"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[6]",
+        "current": "«Подавайте отчётность с месячной периодичностью, если вы не подпадаете под освобождение.»",
+        "problem": "Monthly periodicity is broadly right, but the guide should clarify the reporting period/start date: non-exempt entities report monthly for the periods covered by the obligation, normally by the 15th working day after month-end; first-time threshold cases should not assume retroactive/current-month filing without checking BdP instructions.",
+        "suggestion": "Change to: «Если вы не подпадаете под освобождение, COPE обычно подаётся ежемесячно — до 15-го рабочего дня после окончания отчётного месяца. При первом превышении порога уточните у Banco de Portugal, с какого месяца/года начинается обязанность.»",
+        "confidence": "high",
+        "source": "Banco de Portugal COPE reporting guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[0].content[0].text",
+        "current": "«...выставили invoices клиентам из США и UK на 255 000 € за год... Порог 250 000 € достигнут.»",
+        "problem": "Using invoices as a proxy can be acceptable for businesses, but COPE is about external economic/financial transactions and positions, not merely tax invoices. Unpaid invoices may instead appear as external positions/trade credits; cash receipts and accounting recognition need correct classification.",
+        "suggestion": "Write: «...выставили и/или получили оплату от клиентов-нерезидентов на сумму около 255 000 € за год; неоплаченные invoices могут также создавать внешнюю позицию/дебиторскую задолженность перед нерезидентом. Порог нужно считать по правилам COPE, а не только по налоговым invoices.»",
+        "confidence": "medium",
+        "source": "Banco de Portugal COPE Manual de Procedimentos"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www.bportugal.pt/page/reporting-external-transactions-and-positions",
+        "problem": "The English Banco de Portugal pages commonly use the /en/ path. The current URL may redirect, but as a cited source it is safer to use the canonical English URL if available.",
+        "suggestion": "Use the canonical English page: «https://www.bportugal.pt/en/page/reporting-external-transactions-and-positions» and keep the Portuguese BdP page/manual as an additional source.",
+        "confidence": "medium",
+        "source": "Banco de Portugal website"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only generic Banco de Portugal website/page is cited.",
+        "problem": "For a compliance guide with a specific threshold, filing periodicity and sanctions warning, the sources should include the actual legal/technical basis, not only the general webpage.",
+        "suggestion": "Add official sources such as «Instrução do Banco de Portugal n.º 27/2012», the current «Manual de Procedimentos COPE / Comunicação de Operações e Posições com o Exterior», and the BdP page on reporting external transactions and positions.",
+        "confidence": "high",
+        "source": "Banco de Portugal; Instrução do Banco de Portugal n.º 27/2012"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that the €250,000 exemption is normally tested using previous-year external transactions and/or previous year-end external positions, and explain what to do if the threshold is first exceeded during the current year.",
+      "Add the official COPE instruction/manual as a source, not only the general Banco de Portugal webpage.",
+      "Mention that Banco de Portugal may request reporting/information even where an entity believes it is exempt, so keeping the threshold calculation is still important."
+    ]
+  },
+  "model": "gpt-5.5"
+}

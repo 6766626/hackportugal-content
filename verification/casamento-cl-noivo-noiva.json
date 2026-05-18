@@ -1,0 +1,177 @@
+{
+  "guideId": "casamento-cl-noivo-noiva",
+  "categoryId": "nationality",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it contains several misleading points on who can celebrate the marriage, witnesses, official fees, and legalization/translation caveats.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Casamento Civil в Португалии оформляется через Conservatória do Registo Civil или Notário.",
+        "problem": "Misleading: a Portuguese notary is not the normal authority that celebrates a civil marriage. Civil marriage is handled through the civil registry services and celebrated by a conservador/oficial de registos; notaries are relevant mainly for prenuptial agreements and some related acts, not as a substitute for the Conservatória for the civil ceremony.",
+        "suggestion": "Write: \"Casamento Civil в Португалии оформляется через Conservatória do Registo Civil / IRN; церемонию проводит conservador или oficial de registos. Notário может понадобиться для convenção antenupcial, но не является обычным органом регистрации гражданского брака.\"",
+        "confidence": "high",
+        "source": "Código do Registo Civil; Justiça.gov.pt — Iniciar processo de casamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Casamento Civil — официальный гражданский брак, регистрируемый в Conservatória do Registo Civil, через IRN или у Notário, имеющего полномочия проводить гражданские браки.",
+        "problem": "Same notary issue: the text suggests that some notaries generally have powers to conduct civil marriages. That is likely to mislead readers into booking a notary instead of the registry service.",
+        "suggestion": "Replace with: \"Casamento Civil — официальный гражданский брак, регистрируемый в Conservatória do Registo Civil / IRN. Церемонию проводит conservador или oficial de registos; notário обычно нужен для брачного договора, а не для регистрации брака.\"",
+        "confidence": "high",
+        "source": "Código do Registo Civil; Justiça.gov.pt — Iniciar processo de casamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].text",
+        "current": "Также можно использовать serviços online IRN, если у заявителей есть доступ к португальской цифровой идентификации, либо обратиться к Notário, если он оказывает услугу casamento civil.",
+        "problem": "The notary option is presented as an alternative route for civil marriage. This is not the standard legal/administrative route and can send readers to the wrong professional.",
+        "suggestion": "Delete the notary-as-marriage-provider wording. Suggested text: \"Также можно использовать serviços online IRN, если у заявителей есть доступ к португальской цифровой идентификации. Для convenção antenupcial можно обратиться к Notário или Conservatória.\"",
+        "confidence": "high",
+        "source": "Justiça.gov.pt — Iniciar processo de casamento; IRN — Casamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[2]",
+        "current": "Notário — удобнее для частной церемонии, но уточняйте полномочия и стоимость",
+        "problem": "Misleading: notary should not be listed as a normal venue/provider for a private civil wedding ceremony.",
+        "suggestion": "Replace with: \"Conservatória / serviço de registo civil — уточняйте возможность церемонии вне помещения, дату, место и сбор. Notário — только для брачного договора или иных нотариальных актов, если нужны.\"",
+        "confidence": "high",
+        "source": "Justiça.gov.pt — Iniciar processo de casamento; IRN — Tabela de emolumentos do registo civil"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Базовая церемония — около 140 €, выездная локация — плюс около 450 €.",
+        "problem": "The quoted official-style fees look wrong/outdated. The usual official IRN base fee for the marriage process/registration is commonly €120, not €140. For ceremonies outside the registry, the official surcharge is not simply a flat '+€450'; fees vary by whether it is within working hours/outside hours/weekend/holiday and may include travel-related costs.",
+        "suggestion": "Use official-fee wording instead of fixed approximations: \"Обычный processo e registo de casamento в IRN — проверьте актуальную Tabela de Emolumentos do Registo Civil; стандартный ориентир — €120. Церемония вне Conservatória оплачивается отдельно и зависит от места/времени; проверяйте действующий тариф IRN перед записью.\"",
+        "confidence": "medium",
+        "source": "IRN — Tabela de emolumentos do registo civil / Custos dos serviços"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "Casamento Civil в Conservatória или у Notário — amountEUR: 140",
+        "problem": "Two issues: notary is incorrectly bundled with the civil registry route, and €140 is not the usual official base fee shown for the IRN marriage process/registration.",
+        "suggestion": "Change label to \"Processo e registo de casamento no registo civil / IRN\" and verify the amount against the current IRN fee table; if using the usual official value, write €120 rather than €140.",
+        "confidence": "medium",
+        "source": "IRN — Tabela de emolumentos do registo civil / Custos dos serviços"
+      },
+      {
+        "severity": "major",
+        "where": "costs[1]",
+        "current": "Выездная церемония вне Conservatória — amountEUR: 450",
+        "problem": "Potentially inaccurate as a flat amount. IRN fees for celebration outside the registry are structured by circumstances such as place, time, working day vs weekend/holiday, and may not equal €450.",
+        "suggestion": "Avoid a single amount. Write: \"Церемония вне Conservatória: отдельный emolumento по действующей Tabela de Emolumentos do Registo Civil; сумма зависит от времени и места, плюс возможные расходы на deslocação.\"",
+        "confidence": "medium",
+        "source": "IRN — Tabela de emolumentos do registo civil / Custos dos serviços"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "Обычно берут 2 свидетелей с документами.",
+        "problem": "Misleading: witnesses are not normally a universal mandatory requirement for every civil marriage in Portugal. The ceremony may occur without witnesses; witnesses are optional or required only in specific situations if the registrar requires them.",
+        "suggestion": "Write: \"Свидетели обычно не обязательны, но Conservatória может их потребовать в отдельных случаях; если свидетели будут участвовать, им нужны документы личности.\"",
+        "confidence": "high",
+        "source": "Código do Registo Civil; Justiça.gov.pt — Casamento"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[9]",
+        "current": "Данные 2 свидетелей: имена, документы, контакты; на церемонию они приходят с паспортом/ID",
+        "problem": "This makes two witnesses sound like a standard document requirement. That is not generally correct for Portuguese civil marriage.",
+        "suggestion": "Replace with: \"Если Conservatória попросит свидетелей или вы хотите их указать: заранее уточните допустимое число и подготовьте их имена и документы личности.\"",
+        "confidence": "high",
+        "source": "Código do Registo Civil; Justiça.gov.pt — Casamento"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[4].content[0].text",
+        "current": "Свидетели берут паспорт, Cartão de Cidadão или cartão de residência.",
+        "problem": "Again implies witnesses are expected in every ceremony. The text should clarify that this applies only if witnesses are participating or required.",
+        "suggestion": "Write: \"Если участвуют свидетели, они берут паспорт, Cartão de Cidadão или cartão de residência.\"",
+        "confidence": "high",
+        "source": "Código do Registo Civil; Justiça.gov.pt — Casamento"
+      },
+      {
+        "severity": "minor",
+        "where": "tldr",
+        "current": "Иностранные документы нужны с апостилем/легализацией и переводом на PT.",
+        "problem": "Overbroad. Many foreign documents do need apostille/legalization and translation, but there are important exceptions: EU public documents covered by Regulation (EU) 2016/1191 may be exempt from apostille/legalization, and multilingual standard forms or international civil-status extracts can reduce or remove translation needs.",
+        "suggestion": "Write: \"Иностранные документы обычно требуют Apostila de Haia/легализацию и перевод на PT, но для некоторых EU-документов и международных многоязычных выписок действуют исключения — уточняйте в Conservatória до заказа.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 2016/1191; Justiça.gov.pt — Iniciar processo de casamento"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[4]",
+        "current": "Иностранные документы обычно должны быть с Apostila de Haia или консульской легализацией",
+        "problem": "Mostly correct, but missing the EU/public-document and multilingual-form exceptions, which are common for expats with EU-issued certificates.",
+        "suggestion": "Add: \"Исключение: некоторые документы из стран ЕС и международные многоязычные выписки могут приниматься без апостиля и/или без перевода.\"",
+        "confidence": "high",
+        "source": "Regulation (EU) 2016/1191"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].title",
+        "current": "Сроки: что делать за 30+ дней",
+        "problem": "The guide frames 30 days as a hard minimum. In practice, one month is a sensible planning buffer, but the legally important window to mention is that the marriage process can be initiated up to 6 months before the intended marriage and the favorable decision has a validity period.",
+        "suggestion": "Write: \"Сроки: лучше начинать за 1–3 месяца; процесс обычно открывают не раньше чем за 6 месяцев до даты, а одобрение действительно ограниченный срок.\"",
+        "confidence": "medium",
+        "source": "Justiça.gov.pt — Iniciar processo de casamento; Código do Registo Civil"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2].title",
+        "current": "3. Минимум за 30 дней: Conservatória",
+        "problem": "May be read as a legal minimum in all cases. Better to present it as practical planning advice and mention the 6-month validity/window rule.",
+        "suggestion": "Change to: \"3. Примерно за 1–3 месяца: Conservatória\" and add: \"Не открывайте процесс слишком рано: у процесса/решения есть срок действия, обычно до 6 месяцев.\"",
+        "confidence": "medium",
+        "source": "Justiça.gov.pt — Iniciar processo de casamento"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[2]",
+        "current": "Comunhão geral — общий режим, доступен не во всех семейных ситуациях",
+        "problem": "True but too vague for a sensitive property-law point. The key caveat is that comunhão geral is restricted, notably where there are children from previous relationships; some marriages are also subject to mandatory separação de bens, for example when one spouse is 60 or older.",
+        "suggestion": "Expand to: \"Comunhão geral — ограничен, в частности если есть дети не от обоих супругов. Separação de bens может быть обязательной в отдельных случаях, например если одному из супругов 60+; перед выбором режима лучше проверить с Conservatória/Notário.\"",
+        "confidence": "high",
+        "source": "Código Civil português, arts. 1699 and 1720"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[1]",
+        "current": "Separação de bens — раздельный режим, обычно требует convenção antenupcial",
+        "problem": "Incomplete: separação de bens can be chosen by prenuptial agreement, but in some cases it is mandatory by law and does not depend on the couple choosing it.",
+        "suggestion": "Write: \"Separação de bens — можно выбрать через convenção antenupcial, а в некоторых случаях она обязательна по закону, например при браке с участником 60+ лет.\"",
+        "confidence": "high",
+        "source": "Código Civil português, art. 1720"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[6].content[1].items[1]",
+        "current": "Сообщить в Finanças, если меняется семейное положение для IRS",
+        "problem": "Correct but incomplete for daily-life accuracy: changing marital status for IRS may affect household composition and withholding/tax treatment; the exact effect depends on tax residency, whether both spouses are Portuguese tax residents, and whether they file jointly or separately.",
+        "suggestion": "Add: \"Если вы налоговые резиденты, проверьте agregado familiar на Portal das Finanças и способ подачи IRS; совместная подача не всегда выгодна и зависит от резидентства и доходов супругов.\"",
+        "confidence": "medium",
+        "source": "Autoridade Tributária e Aduaneira — IRS / agregado familiar"
+      }
+    ],
+    "missing_topics": [
+      "Clarify that civil marriage is handled by Conservatória/IRN and celebrated by conservador/oficial de registos; notaries are mainly relevant for convenção antenupcial.",
+      "State clearly that witnesses are generally optional/not always required, and that the registry may require them only in specific cases.",
+      "Add the official 6-month timing/validity rule for the marriage process/favorable decision.",
+      "Add exceptions to apostille/legalization/translation for EU public documents under Regulation (EU) 2016/1191 and multilingual civil-status extracts.",
+      "Add mandatory separação de bens caveats, especially when one spouse is 60+ and restrictions on comunhão geral where there are non-common children.",
+      "Add a note that official IRN fees should be checked in the current Tabela de Emolumentos do Registo Civil because outside-registry ceremonies are not a single universal flat amount."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4998,
+    "prompt_tokens": 3791,
+    "total_tokens": 8789
+  },
+  "model": "gpt-5.5"
+}

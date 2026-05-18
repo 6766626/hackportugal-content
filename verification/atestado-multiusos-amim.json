@@ -1,0 +1,105 @@
+{
+  "guideId": "atestado-multiusos-amim",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is mostly accurate on the standard AMIM route and fees, but it is materially incomplete on the oncology fast-track exception, appeal/deadline rules, and the strict category-specific conditions for car tax benefits.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Его выдают не семейный врач и не частная клиника, а junta médica после оценки документов и, при необходимости, осмотра.",
+        "problem": "This is correct for the ordinary route but misleading as an absolute statement. There is a simplified AMIM regime for oncological disease where the certificate can be issued without the ordinary junta médica route, by the relevant hospital/specialist route, with specific validity/degree rules.",
+        "suggestion": "Write: «Обычно AMIM выдаёт junta médica. Исключение: для некоторых онкологических заболеваний действует упрощённый режим — AMIM может оформляться через hospital/médico especialista по специальным правилам, без обычного ожидания junta médica.» Add a separate oncology note in the application section.",
+        "confidence": "high",
+        "source": "SNS 24: Atestado Médico de Incapacidade Multiuso; Decreto-Lei 202/96, as amended, special regime for oncological disease"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[1]",
+        "current": "ISV: возможное освобождение при покупке автомобиля для pessoa com deficiência, если выполнены отдельные условия",
+        "problem": "Too vague for a high-value benefit. ISV exemption is not a general benefit for anyone with AMIM ≥60%; it depends on the legal category of disability, degree, vehicle limits, prior recognition by AT/Alfândega, and restrictions on transfer/use.",
+        "suggestion": "Add the main caveat: «ISV não é automático: обычно требуются категории вроде deficiência motora ≥60%, multideficiência profunda ≥90%, deficiência visual ≥95% или pessoa com deficiência das Forças Armadas ≥60%, плюс лимиты автомобиля и предварительное признание льготы в AT/Alfândega до покупки/регистрации.»",
+        "confidence": "high",
+        "source": "Código do Imposto sobre Veículos, arts. 54.º-57.º; Autoridade Tributária guidance on ISV exemptions for persons with disabilities"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[2]",
+        "current": "IVA: возможная льгота/освобождение при покупке автомобиля для некоторых категорий инвалидности",
+        "problem": "The wording is directionally correct but incomplete for a sensitive tax benefit. VAT exemption/reduced treatment for vehicles is category-specific and normally tied to the same strict disability categories and prior procedures; AMIM ≥60% alone is not enough.",
+        "suggestion": "Write: «IVA на автомобиль: возможна только для определённых категорий pessoas com deficiência и при соблюдении процедур AT; одного AMIM ≥60% обычно недостаточно. Проверяйте eligibility до покупки.»",
+        "confidence": "high",
+        "source": "Código do IVA, art. 15.º; Autoridade Tributária guidance on vehicle VAT exemptions for persons with disabilities"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[3]",
+        "current": "IUC: возможное освобождение или ограничение налога на автомобиль при incapacidade ≥60% и соблюдении условий",
+        "problem": "This is broadly correct but should mention the important practical limits: typically one vehicle, registration with AT, and the exemption is capped/limited rather than unlimited.",
+        "suggestion": "Write: «IUC: при incapacidade ≥60% возможна льгота для одного автомобиля, с регистрацией/признанием в AT и с лимитом освобождения; если IUC выше лимита, может уплачиваться разница.»",
+        "confidence": "high",
+        "source": "Código do IUC, art. 5.º; Autoridade Tributária guidance on IUC exemption for persons with disabilities"
+      },
+      {
+        "severity": "major",
+        "where": "steps[5].content[0].text",
+        "current": "Если junta médica установила процент ниже ожидаемого, можно подать recurso.",
+        "problem": "The guide omits the statutory appeal deadline. Saying only that the person should ask the deadline is weaker than necessary and may cause missed appeals.",
+        "suggestion": "Add: «Срок для recurso обычно 30 дней с уведомления о решении; не ждите, сразу уточняйте форму подачи и адрес направления recurso.»",
+        "confidence": "high",
+        "source": "Decreto-Lei 202/96, regime de avaliação de incapacidade, recurso hierárquico"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[3].content[0].text",
+        "current": "Вас вызовут на junta médica.",
+        "problem": "The legal framework/SNS guidance refers to a deadline for holding the junta médica after the request, but the guide gives no timeframe. In practice there are delays, but readers should know the official benchmark.",
+        "suggestion": "Add: «По закону junta médica должна быть realizada в установленный срок — обычно указывается 60 дней после подачи request — но на практике в некоторых ULS бывают задержки; сохраняйте comprovativo подачи.»",
+        "confidence": "medium",
+        "source": "SNS 24: Atestado Médico de Incapacidade Multiuso; Decreto-Lei 202/96"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[9]",
+        "current": "Документы должны быть понятны португальским врачам; иностранные отчёты лучше перевести на PT/EN, особенно если они ключевые",
+        "problem": "English may be understandable medically, but Portuguese public authorities/medical boards are not obliged to rely on foreign-language documentation. For key foreign reports, Portuguese translation is safer; certified translation may be needed where authenticity/formal use matters.",
+        "suggestion": "Write: «Ключевые иностранные документы лучше перевести на португальский; для официальных/спорных документов используйте certified translation или relatório португальского специалиста, который суммирует иностранные findings.»",
+        "confidence": "high",
+        "source": "General administrative practice; SNS/ULS practice for AMIM documentation"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[1]",
+        "current": "Número de utente SNS",
+        "problem": "Presented as a required document. In practice número de utente is the normal and strongly recommended route, but the core legal entitlement to request assessment should not be framed as impossible without it; some foreigners may be in the process of SNS registration.",
+        "suggestion": "Write: «Número de utente SNS — обычно нужен/очень желателен; если его ещё нет, сначала оформите в centro de saúde или уточните в Unidade de Saúde Pública, примут ли request с ID и proof of residence.»",
+        "confidence": "medium",
+        "source": "SNS 24: Atestado Médico de Incapacidade Multiuso"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Only SNS 24, ERS, Decreto-Lei 202/96 and Decreto-Lei 352/2007 are cited.",
+        "problem": "The guide discusses IRS, ISV, IVA, IUC and Prestação Social para a Inclusão, but does not cite official AT/Segurança Social sources for those sensitive benefits. This is risky because eligibility is detailed and benefit-specific.",
+        "suggestion": "Add official sources: Autoridade Tributária pages or legal provisions for IRS disability deductions, Código do ISV arts. 54.º-57.º, Código do IVA art. 15.º, Código do IUC art. 5.º, and Segurança Social guide/page for Prestação Social para a Inclusão.",
+        "confidence": "high",
+        "source": "Autoridade Tributária; Código do IRS; Código do ISV; Código do IVA; Código do IUC; Segurança Social"
+      }
+    ],
+    "missing_topics": [
+      "Simplified AMIM route for oncological disease and how it differs from ordinary junta médica",
+      "Statutory appeal deadline, normally 30 days, and where/how recurso is filed",
+      "Official expected timeframe for junta médica and practical delays by ULS",
+      "Detailed car-tax eligibility categories and requirement to obtain recognition before purchase/registration",
+      "Validity/renewal caveats for permanent AMIM and what happens while renewal/reassessment is pending",
+      "Official AT and Segurança Social sources for IRS, vehicle-tax benefits and Prestação Social para a Inclusão"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4028,
+    "prompt_tokens": 3621,
+    "total_tokens": 7649
+  },
+  "model": "gpt-5.5"
+}

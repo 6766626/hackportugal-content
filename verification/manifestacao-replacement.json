@@ -3,112 +3,65 @@
   "categoryId": "residence_permit",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Гайд в целом правильно отражает дату закрытия MdI и вступление Lei 61/2025, но слишком упрощает переходный режим, ошибочно/рискованно описывает CPLP-путь и делает чрезмерно абсолютное заявление о визе до въезда для всех не-CPLP.",
+    "summary": "Guide is broadly aligned with the post-MdI regime and correctly dates Lei 61/2025, but it is misleading on the replacement visa options for ordinary work and overstates the 'visa before entry' rule in the TLDR.",
     "issues": [
       {
         "severity": "major",
-        "where": "steps[1].content[2].text",
-        "current": "Бразильцы: по-прежнему безвиз + подача в AIMA на CPLP residence.",
-        "problem": "Слишком широкое и потенциально опасное утверждение. Безвизовый въезд бразильцев сам по себе не означает автоматическое право въехать как турист и затем получить residence CPLP в AIMA. CPLP-процедуры зависят от конкретного правового основания, наличия CPLP-визы/предыдущего процесса/легального въезда и действующих процедур AIMA. Формулировка может подтолкнуть к въезду без правильного основания.",
-        "suggestion": "Заменить на: «Бразильцы имеют безвизовый въезд для краткосрочного пребывания, но возможность подачи на residência CPLP изнутри страны зависит от действующих правил AIMA/Lei 23/2007 и конкретного основания. Перед въездом проверяйте, доступна ли процедура CPLP именно для вашего случая; в ряде случаев нужна консульская виза.»",
-        "confidence": "medium",
-        "source": "Lei 23/2007; Acordo sobre a Mobilidade entre os Estados-Membros da CPLP; AIMA"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[3].text",
-        "current": "Другие CPLP: теперь только через консульскую визу.",
-        "problem": "Формулировка слишком категорична. Для граждан CPLP режим отличается от общего режима третьих стран, но конкретный путь зависит от гражданства, типа въезда, наличия краткосрочной визы/безвиза, CPLP-визы и процедур AIMA. Нельзя обобщать всех «других CPLP» одной фразой без ссылки на норму.",
-        "suggestion": "Заменить на: «Для граждан других стран CPLP правила отличаются по гражданству и типу въезда: часто потребуется консульская виза, но проверяйте актуальную процедуру CPLP на сайте AIMA/консульства. Не приравнивайте автоматически CPLP-путь к старой Manifestação de Interesse.»",
-        "confidence": "medium",
-        "source": "Acordo sobre a Mobilidade entre os Estados-Membros da CPLP; Lei 23/2007; AIMA"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[0].text",
-        "current": "Все не-CPLP третьи страны: идите через консульскую визу ДО въезда.",
-        "problem": "Как практическое правило для замены MdI — верно, но юридически слишком абсолютно. Есть исключения из общего правила консульской визы: члены семьи граждан ЕС/Португалии, некоторые случаи уже имеющегося права на проживание, международная защита, несовершеннолетние/особые гуманитарные основания и другие специальные режимы. Для D6 также обычно процесс начинается с воссоединения/права у резидента, а не просто с самостоятельного выбора «визы до въезда».",
-        "suggestion": "Написать: «Для обычных оснований, которые раньше пытались закрывать через MdI — работа, self-employment, предпринимательство, digital nomad и т.п. — не-CPLP гражданам теперь обычно нужна соответствующая национальная/резидентская виза в консульстве до въезда. Исключения: семейные права ЕС/Португалии, международная защита и специальные режимы.»",
+        "where": "steps[1].content[1].items",
+        "current": "\"D7 — пассивный доход\", \"D8 — удалённая работа\", \"D2 — предприниматель / ИП\", \"D3 — высококвалифицированный специалист\", \"D4 — студент\", \"D6 — воссоединение семьи\"",
+        "problem": "The list of replacement routes omits the main route for ordinary salaried employment: D1 / residence visa for subordinate professional activity. Since MdI was mostly used under art. 88 for employment, not mentioning D1 makes the practical guidance materially incomplete. The guide also omits the job-seeker visa, which is relevant for people who do not yet have a work contract.",
+        "suggestion": "Add at the top of the list: \"D1 — работа по найму / subordinate professional activity, usually with a work contract or promise of contract\" and also mention \"Visto para procura de trabalho — виза для поиска работы, если контракта ещё нет; это не ВНЖ и имеет отдельные сроки/условия\".",
         "confidence": "high",
-        "source": "Lei 23/2007; Decreto-Lei 37-A/2024; Lei 61/2025"
+        "source": "Lei 23/2007, arts. 59, 59-A, 88"
       },
       {
         "severity": "major",
-        "where": "steps[2].content[0].items[2]",
-        "current": "Срок обработки — продолжается даже после 31.12.2025, пока AIMA не закроет backlog",
-        "problem": "Слишком безусловно. Переходные процессы не просто «висят, пока AIMA не закроет backlog»: они зависят от соблюдения переходных требований, сроков, явки, оплаты сборов, предоставления документов и возможного архивирования/отказа. Это также конфликтует с предыдущими фразами о «дедлайне переходного периода» 31.12.2025.",
-        "suggestion": "Заменить на: «Процессы, корректно попадающие в переходный режим и не архивированные/не отклонённые, должны рассматриваться AIMA и могут продолжаться после 31.12.2025. Но заявитель должен выполнить требования переходного режима и запросы AIMA в срок; иначе процесс может быть закрыт/отклонён.»",
-        "confidence": "medium",
-        "source": "Lei 61/2025; Decreto-Lei 37-A/2024"
+        "where": "tldr",
+        "current": "Теперь всем гражданам третьих стран, не входящих в CPLP, нужна виза в консульстве ДО въезда.",
+        "problem": "This is too absolute. The body later mentions exceptions, but the TLDR says 'all non-CPLP third-country nationals' need a consular visa before entry. That is misleading because there are exceptions and special residence grounds, including EU/Portuguese family-member rights, international protection, some art. 122 situations, and other special legal regimes.",
+        "suggestion": "Replace with: \"В обычных случаях работы, self-employment, D7/D8/D4 и т.п. гражданам третьих стран, не входящих в CPLP, теперь обычно нужна соответствующая виза в консульстве до въезда; исключения есть для семейных прав ЕС/Португалии, международной защиты и специальных режимов.\"",
+        "confidence": "high",
+        "source": "Lei 23/2007; Lei 37/2006"
       },
       {
-        "severity": "major",
-        "where": "steps[0].content[2].items[2]",
-        "current": "📅 31.12.2025 — дедлайн подачи в переходный режим для тех, у кого был action comprovativo до 03.06.2024 (цепочка переходных заявлений обработки)",
-        "problem": "Фраза непонятна и юридически неаккуратна: «action comprovativo» выглядит как ошибка/машинный мусор; «дедлайн подачи в переходный режим» не объясняет, что именно нужно было подать, кто именно подпадает под переходный режим и какие последствия пропуска срока.",
-        "suggestion": "Переписать конкретно по тексту Lei 61/2025: «31.12.2025 — предельный срок для действий в рамках переходного режима по уже существовавшим до 03.06.2024 процессам MdI/соответствующим подтверждениям. Если AIMA запросила документы/оплату/запись, невыполнение требований в срок может привести к архивированию или отказу.» Убрать «action comprovativo».",
+        "severity": "minor",
+        "where": "tldr",
+        "current": "31.12.2025 — крайний срок подачи в переходном периоде для тех, у кого было подтверждение подачи до 03.06.2024.",
+        "problem": "The phrase 'крайний срок подачи' is confusing because new MdI submissions were already closed from 03.06.2024. 31.12.2025 should not be described as a filing deadline for MdI; it is a deadline connected to the transitional handling/regularisation of already pending processes and compliance with AIMA requests.",
+        "suggestion": "Replace with: \"31.12.2025 — крайний срок для выполнения действий/требований в рамках переходного режима по MdI, уже поданным до 03.06.2024; это не срок для новой подачи MdI.\"",
         "confidence": "medium",
         "source": "Lei 61/2025"
       },
       {
         "severity": "minor",
-        "where": "steps[0].content[0].text",
-        "current": "Manifestação de Interesse (MdI) — инструмент, позволявший иностранцам, въехавшим в Португалию по туристической визе или безвизу (при наличии Schengen), подать заявление на ВНЖ изнутри страны без возврата домой за визой.",
-        "problem": "Историческое описание слишком широкое: MdI не была универсальной легализацией «для всех», а была связана прежде всего с основаниями по статьям 88/89 — работа по найму или самостоятельная профессиональная деятельность, обычно с требованиями к соцстраху/налогам/доказательствам деятельности. Для пассивного дохода, студентов и т.п. MdI не была правильным основанием.",
-        "suggestion": "Добавить: «Практически MdI применялась главным образом к работе по найму и self-employment по art. 88/89 Lei 23/2007; это не был универсальный путь для D7/D8/D4 и других оснований.»",
-        "confidence": "high",
-        "source": "Lei 23/2007, artigos 88.º e 89.º; Decreto-Lei 37-A/2024"
+        "where": "steps[0].content[3].text",
+        "current": "После 31.12.2025 переходный путь закрыт; режим юридически мёртв.",
+        "problem": "This sounds like all pending pre-03.06.2024 cases necessarily stop after 31.12.2025, which conflicts with the later statement that correctly pending/non-archived cases may continue after that date. The intended meaning is probably that no new or incomplete transitional action can be started after the deadline, not that all pending files disappear.",
+        "suggestion": "Replace with: \"После 31.12.2025 нельзя рассчитывать на новые действия в переходном режиме для неподтверждённых/неисправленных MdI; однако корректно поданные до 03.06.2024 и не архивированные процессы могут продолжать рассматриваться AIMA.\"",
+        "confidence": "medium",
+        "source": "Lei 61/2025"
       },
       {
         "severity": "minor",
         "where": "sources[0]",
-        "current": "AIMA — Artigo 88º отменён — https://aima.gov.pt/",
-        "problem": "Название источника вводит в заблуждение: Artigo 88.º как таковой не «отменён»; отменён/закрыт механизм Manifestação de Interesse/исключительные подачи изнутри по старому режиму. Кроме того, ссылка ведёт на главную страницу AIMA, а не на конкретную страницу/новость/нормативную информацию.",
-        "suggestion": "Переименовать в «AIMA — информация о переходном режиме/записях по processos pendentes» и дать конкретный URL страницы AIMA, если она существует. Не писать «Artigo 88º отменён».",
+        "current": "\"AIMA — информация о переходном режиме / processos pendentes\", \"url\": \"https://aima.gov.pt/\"",
+        "problem": "The source is only the AIMA homepage. For a sensitive immigration topic, a generic homepage is weak and may not preserve the specific transitional-regime notice being cited.",
+        "suggestion": "Use the exact AIMA page for processos pendentes / transition regime if available, and keep the homepage only as a general reference. If AIMA does not provide a stable deep link, say so and rely primarily on DRE legal sources.",
         "confidence": "high",
-        "source": "Lei 23/2007; Decreto-Lei 37-A/2024"
-      },
-      {
-        "severity": "minor",
-        "where": "sources[3]",
-        "current": "The Portugal News — Manifestação de Interesse abolished — https://www.theportugalnews.com/",
-        "problem": "Ссылка на главную страницу СМИ не является проверяемым источником для утверждения. Для чувствительной иммиграционной темы нужен конкретный материал или, лучше, официальный источник.",
-        "suggestion": "Удалить источник СМИ или заменить на конкретную статью с полным URL. Ключевые утверждения оставить на DRE/AIMA/консульских источниках.",
-        "confidence": "high",
-        "source": "DRE; AIMA"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[1].items[6]",
-        "current": "Startup Visa — для certified стартапов",
-        "problem": "Нечётко: Startup Visa относится не к «сертифицированным стартапам», а к предпринимателям с проектом, принятым/поддержанным сертифицированным инкубатором и проходящим через IAPMEI.",
-        "suggestion": "Написать: «Startup Visa — для предпринимателей с инновационным проектом, принятым сертифицированным инкубатором/IAPMEI.»",
-        "confidence": "high",
-        "source": "IAPMEI Startup Visa"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[2].content[1].text",
-        "current": "Если 90 дней Шенгена истекли и вы продолжаете находиться в PT без comprovativo de agendamento (подтверждение записи) — это нарушение. Старые кейсы защищают только тех, кто подал MdI до 03.06.2024 и имеет на руках comprovativo de submissão.",
-        "problem": "В одном предупреждении смешаны два разных документа — comprovativo de agendamento и comprovativo de submissão. Это может запутать: для старых MdI ключевым обычно является доказательство подачи/существования процесса, а запись в AIMA может появиться позже. Нужна аккуратная формулировка о том, что именно подтверждает процесс и что это не равно полноценному ВНЖ.",
-        "suggestion": "Разделить: «Comprovativo de submissão подтверждает, что MdI была подана до 03.06.2024 и процесс существует. Comprovativo de agendamento подтверждает запись. Ни один из этих документов не является картой ВНЖ; при поездках по Шенгену/выезде из Португалии возможны риски.»",
-        "confidence": "medium",
-        "source": "AIMA; Lei 23/2007; Decreto-Lei 37-A/2024"
+        "source": "AIMA; DRE"
       }
     ],
     "missing_topics": [
-      "Чёткое объяснение, что MdI касалась прежде всего art. 88/89 Lei 23/2007: работа по найму и самостоятельная деятельность, а не все типы ВНЖ.",
-      "Подробные условия переходного режима Lei 61/2025: кто именно подпадает, какие действия/документы/оплаты требовались до 31.12.2025 и что происходит при пропуске срока.",
-      "Критические исключения из правила «виза до въезда»: семья граждан ЕС/Португалии, международная защита, специальные гуманитарные/детские случаи и иные специальные режимы.",
-      "Предупреждение о поездках: comprovativo de submissão/agendamento не является residence card и может не защищать при выезде из Португалии или проверках в других странах Шенгена.",
-      "Официальная конкретная ссылка AIMA на переходный режим/обработку старых processos pendentes вместо главной страницы.",
-      "Более точное описание CPLP-режима с разделением: Бразилия, другие CPLP, краткосрочная виза/безвиз, CPLP-виза, возможность или невозможность подачи изнутри по актуальным правилам AIMA."
+      "D1 residence visa for ordinary salaried employment as the main replacement route for former art. 88 MdI employment cases",
+      "Job-seeker visa as a separate route from residence visas, with its own limits and conditions",
+      "Clearer explanation that 31.12.2025 is not a deadline for new MdI submissions",
+      "Exact AIMA deep link or archived official notice for the transitional regime/processos pendentes"
     ]
   },
   "usage": {
-    "completion_tokens": 4724,
-    "prompt_tokens": 2326,
-    "total_tokens": 7050
+    "completion_tokens": 2302,
+    "prompt_tokens": 2714,
+    "total_tokens": 5016
   },
   "model": "gpt-5.5"
 }

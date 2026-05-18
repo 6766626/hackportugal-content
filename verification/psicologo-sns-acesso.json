@@ -1,0 +1,76 @@
+{
+  "guideId": "psicologo-sns-acesso",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом корректно описывает реальный маршрут доступа к психологу в SNS, но ему не хватает нескольких официальных источников и пары важных оговорок о записи, праве на SNS и частной диагностике.",
+    "issues": [
+      {
+        "severity": "minor",
+        "where": "steps[0].content[2].items[2]",
+        "current": "Запись идёт через médico de família, secretaria Centro de Saúde, приложение/портал SNS 24 или телефон SNS 24: 808 24 24 24.",
+        "problem": "Формулировка создаёт впечатление, что через приложение/портал SNS 24 всегда можно записаться к семейному врачу или на consulta aberta. На практике онлайн-запись зависит от ULS/USF/UCSP, наличия médico de família и доступных слотов; для quem não tem médico de família часто нужно обращаться в secretaria/consulta aberta конкретного Centro de Saúde.",
+        "suggestion": "Написать: «Запись обычно идёт через secretaria Centro de Saúde/USF, médico de família или consulta aberta/consulta do dia; приложение/портал SNS 24 и 808 24 24 24 могут помочь, но онлайн-запись доступна не во всех ULS и не для всех типов консультаций.»",
+        "confidence": "high",
+        "source": "SNS 24; Ministério da Saúde / Serviços Partilhados do Ministério da Saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "costs[0].note",
+        "current": "Для пользователя SNS обычно без taxa moderadora; нужен número de utente и referenciação.",
+        "problem": "Нужна оговорка, что это относится к пользователям, зарегистрированным в SNS/имеющим acesso ao SNS. У иностранцев без regularização доступа или без número de utente маршрут может быть сложнее; при urgência доступ не должен откладываться, но административные правила отличаются.",
+        "suggestion": "Написать: «Для зарегистрированного utente SNS консультация по направлению обычно бесплатна, без taxa moderadora. Иностранцам сначала нужен número de utente/регистрация в Centro de Saúde; в экстренной ситуации обращаться в 112/urgência независимо от статуса.»",
+        "confidence": "medium",
+        "source": "SNS 24; Lei de Bases da Saúde; Despacho n.º 25360/2001 on access of foreign citizens to SNS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[0]",
+        "current": "Проверьте, зарегистрирован ли специалист в Ordem dos Psicólogos Portugueses, если он называет себя psicólogo.",
+        "problem": "Совет правильный, но для защиты пациента не хватает прямого указания на публичный реестр OPP и оговорки, что «психотерапевт», «coach», «terapeuta» не всегда означает психолога или медицинского специалиста.",
+        "suggestion": "Добавить: «Проверяйте имя в публичном diretório/реестре Ordem dos Psicólogos Portugueses; титул psicólogo в Португалии защищён. “Terapeuta/coach/psicoterapeuta” сам по себе не гарантирует регистрацию в OPP.»",
+        "confidence": "high",
+        "source": "Ordem dos Psicólogos Portugueses"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].text",
+        "current": "Это особенно разумно, если нужна терапия на русском/английском, регулярные еженедельные сессии, работа с адаптацией, тревогой, отношениями, эмиграционной травмой, ADHD/ASD-скринингом или burnout.",
+        "problem": "ADHD/ASD у взрослых может требовать не просто «скрининга», а полноценной оценки, иногда с участием психиатра, нейропсихолога и/или специализированной клиники, особенно если нужны медикаменты, официальные заключения для школы/работы или differential diagnosis.",
+        "suggestion": "Заменить на: «…ADHD/ASD-скринингом; если нужен официальный диагноз, medication или отчёты для школы/работы, уточняйте, делает ли специалист полноценную avaliação и нужен ли psiquiatra/neuropsicólogo.»",
+        "confidence": "medium",
+        "source": "Ordem dos Psicólogos Portugueses; Direção-Geral da Saúde clinical practice context"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[1].items[3]",
+        "current": "Если нужны лекарства, ищите psiquiatra, а не psicólogo: психолог не назначает медикаменты.",
+        "problem": "Вторая часть верна, но формулировка может недооценивать роль médico de família: в Португалии семейный врач тоже может назначать и сопровождать часть терапии при тревоге/депрессии и при необходимости направлять к психиатру.",
+        "suggestion": "Написать: «Психолог не назначает медикаменты. За лекарствами и медицинской оценкой обращайтесь к médico de família или psiquiatra; при сложных, тяжёлых или резистентных состояниях обычно нужен psiquiatra.»",
+        "confidence": "high",
+        "source": "SNS 24; Direção-Geral da Saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Источники: SNS 24 mental health page и Expatica.",
+        "problem": "Для медицинской темы с риском суицида, домашнего насилия и проверки квалификации специалистов источников мало: нет официального источника для Linha de Aconselhamento Psicológico/SNS 24, 112/INEM, APAV/CIG domestic violence line и реестра Ordem dos Psicólogos.",
+        "suggestion": "Добавить официальные источники: SNS 24 / Linha de Aconselhamento Psicológico, INEM/112 for emergency, CIG or ePortugal page for 800 202 148, Ordem dos Psicólogos Portugueses public directory.",
+        "confidence": "high",
+        "source": "SNS 24; INEM; Comissão para a Cidadania e a Igualdade de Género; Ordem dos Psicólogos Portugueses"
+      }
+    ],
+    "missing_topics": [
+      "Прямое указание, что Linha de Aconselhamento Psicológico доступна через SNS 24 808 24 24 24, обычно через опцию психологической поддержки/saúde mental, и не заменяет urgência/112.",
+      "Оговорка для иностранцев: наличие número de utente и регистрация в Centro de Saúde — административное условие для планового маршрута, но при экстренной опасности надо обращаться в 112/urgência независимо от статуса.",
+      "Ссылка на публичный реестр Ordem dos Psicólogos Portugueses для проверки частного психолога.",
+      "Официальные контакты и источники по домашнему насилию и emergency mental health."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2086,
+    "prompt_tokens": 3154,
+    "total_tokens": 5240
+  },
+  "model": "gpt-5.5"
+}

@@ -2,158 +2,79 @@
   "guideId": "financas-appointment",
   "categoryId": "documents_fiscal",
   "verdict": {
-    "verdict": "major_issues",
-    "summary": "Гайд полезен по идее, но содержит несколько существенных неточностей: путает e-balcão с записью на приём, утверждает неподтверждённую блокировку на 30 дней за no-show, ошибочно говорит о биометрии в Finanças и упрощает правила получения NIF онлайн.",
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом полезный и актуальный, но есть несколько неточностей: слишком уверенные формулировки про NIF/представителя, адрес, walk-in и no-show, а также недиректные источники.",
     "issues": [
       {
         "severity": "major",
-        "where": "steps[0].content[0].items[1]",
-        "current": "🌐 Или прямая ссылка: portal das finanças → e-balcão",
-        "problem": "e-balcão — это письменный канал поддержки/запросов в AT, а не система записи на очный приём. Для записи используется Atendimento por Marcação / Agendar atendimento, а не e-balcão. Формулировка направляет пользователя не туда.",
-        "suggestion": "Заменить на: «🌐 Запись: Portal das Finanças → Contactos / Atendimento por Marcação / Agendar atendimento. e-balcão — это альтернатива для письменного запроса, но не запись на приём.»",
-        "confidence": "high",
-        "source": "Portal das Finanças — Atendimento por Marcação; Portal das Finanças — e-balcão"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].text",
-        "current": "Пропуск без отмены = блок записи на 30 дней.",
-        "problem": "Жёсткое правило о блокировке записи на 30 дней для Finanças не подтверждается официальными источниками AT/ePortugal. Это выглядит как неподтверждённое или перенесённое из другой системы правило и может отпугнуть пользователей.",
-        "suggestion": "Заменить на более безопасное: «Если не можете прийти, отмените запись заранее через Portal das Finanças/ePortugal. После пропуска обычно нужно сделать новую запись; возможные ограничения зависят от системы и услуги.» Не указывать «30 дней», если нет официального источника.",
-        "confidence": "high",
-        "source": "Portal das Finanças — Atendimento por Marcação; ePortugal — agendamento de atendimento nas Finanças"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].text",
-        "current": "Отмена за 24 часа — через Portal.",
-        "problem": "Правило «за 24 часа» подано как универсальное, но для AT/ePortugal это нужно подтверждать конкретным регламентом услуги. В официальных интерфейсах обычно есть возможность cancelar/remarcar, но точный дедлайн может зависеть от канала и слота.",
-        "suggestion": "Написать: «Если не можете прийти, отмените или перенесите запись как можно раньше через тот же канал, где бронировали. Проверьте условия отмены в comprovativo/подтверждении записи.»",
-        "confidence": "medium",
-        "source": "Portal das Finanças — Atendimento por Marcação"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[1]",
-        "current": "🔄 Повторная запись после no-show — через 30 дней",
-        "problem": "Повторяет неподтверждённое утверждение о 30-дневной блокировке. Для Finanças это не стоит публиковать без официальной ссылки.",
-        "suggestion": "Удалить пункт или заменить на: «🔄 После no-show сделайте новую запись; если система не даёт выбрать слот, обратитесь через e-balcão или Centro de Atendimento Telefónico da AT.»",
-        "confidence": "high",
-        "source": "Autoridade Tributária e Aduaneira — canais de atendimento"
-      },
-      {
-        "severity": "major",
-        "where": "steps[4].content[0].text",
-        "current": "Визит нужен только для биометрии или сложных случаев.",
-        "problem": "Finanças не занимается биометрией. Биометрия относится к AIMA/IRN/документам личности, а не к налоговой службе. Фраза явно смешивает разные ведомства.",
-        "suggestion": "Заменить на: «Визит в Finanças обычно нужен для случаев, где требуется очная идентификация, невозможно решить вопрос через Portal/e-balcão или услуга недоступна онлайн.»",
-        "confidence": "high",
-        "source": "Autoridade Tributária e Aduaneira — Portal das Finanças"
-      },
-      {
-        "severity": "major",
         "where": "steps[4].content[1].items[0]",
-        "current": "✅ NIF для резидентов — онлайн через CMD или представителя",
-        "problem": "Слишком упрощено и потенциально вводит в заблуждение. NIF не является обычной самостоятельной онлайн-услугой «через CMD». Для нерезидентов запрос часто делается через налогового представителя/mandatário через e-balcão; для резидентов-иностранцев возможны разные сценарии в зависимости от документов, статуса и доступа к Portal. Кроме того, для CMD обычно уже нужен NIF/идентификация, поэтому это не универсальный путь для первичного получения NIF.",
-        "suggestion": "Написать: «Получение NIF иностранцем зависит от статуса и документов. Нерезидент обычно может оформить через налогового представителя/mandatário через e-balcão или лично в Serviço de Finanças. Если у вас уже есть доступ к Portal/CMD, часть последующих операций можно делать онлайн, но первичное получение NIF не всегда доступно как self-service.»",
+        "current": "✅ Получение NIF иностранцем зависит от статуса и документов: нерезидент обычно через налогового представителя/mandatário через e-balcão или лично в Serviço de Finanças",
+        "problem": "Формулировка может создать впечатление, что налоговый представитель почти всегда нужен нерезиденту. После разъяснений AT представитель обязателен не просто из-за получения NIF, а в основном когда нерезидент вне EU/EEA имеет налоговые обязательства/отношения в Португалии; для резидентов EU/EEA правило иное. Также mandatário и representante fiscal — не одно и то же.",
+        "suggestion": "Написать: «Получение NIF иностранцем зависит от резидентства и документов. Нерезидент из EU/EEA обычно не обязан назначать representante fiscal. Нерезидент вне EU/EEA может получить NIF без representante fiscal, если у него ещё нет налоговых обязательств в Португалии; представитель/электронные уведомления становятся важны при наличии налоговых отношений. Запрос возможен лично в Serviço de Finanças или через уполномоченное лицо/представителя по правилам AT».",
         "confidence": "high",
-        "source": "Autoridade Tributária e Aduaneira — e-balcão; Portal das Finanças — NIF/representante fiscal"
+        "source": "AT Ofício-Circulado n.º 90057/2022"
       },
       {
         "severity": "minor",
-        "where": "steps[4].content[1].items[6]",
-        "current": "❌ NIF для иностранца БЕЗ CMD/представителя — только лично",
-        "problem": "Смысл в целом близок, но формулировка слишком категорична. Возможны запросы через mandatário/адвоката/solicitador или налогового представителя через e-balcão; «без CMD/представителя» действительно часто означает очный путь, но зависит от статуса и документов.",
-        "suggestion": "Уточнить: «Если у иностранца нет доступа к Portal/CMD и нет представителя/mandatário, обычно остаётся очное обращение в Serviço de Finanças с документами.»",
-        "confidence": "medium",
-        "source": "Autoridade Tributária e Aduaneira — e-balcão"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[1].content[0].items[7]",
-        "current": "📄 Apoio ao preenchimento de IRS — 30–45 мин (сезон март–июнь)",
-        "problem": "Период подачи IRS Modelo 3 обычно с 1 апреля по 30 июня. Указание «март–июнь» для поддержки по заполнению может вводить в заблуждение, если речь именно о подаче декларации.",
-        "suggestion": "Заменить на: «📄 Apoio ao preenchimento de IRS — 30–45 мин; основной сезон подачи Modelo 3: 1 апреля – 30 июня.»",
+        "where": "steps[4].content[1].items[1]",
+        "current": "✅ Смена адреса — онлайн",
+        "problem": "Слишком обобщено. Для владельцев Cartão de Cidadão адрес меняется через сервис изменения адреса на Cartão de Cidadão/ePortugal, а не просто как обычная операция в Finanças; налоговый адрес затем обновляется. Для иностранцев без доступа к Portal/CMD онлайн-смена может быть недоступна.",
+        "suggestion": "Написать: «Смена morada fiscal часто делается онлайн. Если у вас Cartão de Cidadão — меняйте адрес через ePortugal/Cartão de Cidadão с подтверждением; налоговый адрес обновляется после подтверждения. Если нет доступа к Portal/CMD, может понадобиться представитель, e-balcão или визит».",
         "confidence": "high",
-        "source": "Autoridade Tributária e Aduaneira — calendário IRS"
+        "source": "ePortugal — Alterar a morada do Cartão de Cidadão; Portal das Finanças"
       },
       {
         "severity": "minor",
-        "where": "steps[1].content[0].items[5]",
-        "current": "🚗 IUC / IMT — 20 мин",
-        "problem": "Пункт с автомобильной иконкой смешивает IUC и IMT. IUC — налог на транспортные средства, а IMT в контексте Finanças обычно Imposto Municipal sobre as Transmissões Onerosas de Imóveis, то есть налог при покупке недвижимости, не автомобильная служба Instituto da Mobilidade e dos Transportes.",
-        "suggestion": "Разделить: «🚗 IUC — налог на транспортное средство» и «🏠 IMT — налог при покупке недвижимости». Если имелся в виду Instituto da Mobilidade e dos Transportes, убрать из гайда про Finanças.",
-        "confidence": "high",
-        "source": "Autoridade Tributária e Aduaneira — IUC; Autoridade Tributária e Aduaneira — IMT"
-      },
-      {
-        "severity": "minor",
-        "where": "tldr",
-        "current": "walk-in только в крупных отделениях с утра",
-        "problem": "Слишком категорично и не универсально. Очное обслуживание AT зависит от конкретного Serviço de Finanças, наличия senhas и типа вопроса; официально пользователям обычно рекомендуют предварительную запись, но «только в крупных отделениях с утра» не является общим правилом.",
-        "suggestion": "Заменить на: «Без записи иногда можно попасть при наличии senhas/свободного обслуживания в конкретном отделении, но это не гарантировано; для надёжности лучше бронировать Atendimento por Marcação.»",
-        "confidence": "medium",
-        "source": "Autoridade Tributária e Aduaneira — atendimento presencial"
-      },
-      {
-        "severity": "minor",
-        "where": "steps[2].content[0].items[4]",
-        "current": "Только для ЭКСТРЕННЫХ случаев (просроченные сроки)",
-        "problem": "Фраза выглядит как официальное ограничение, но для Finanças это скорее практический совет. Не все walk-in обращения являются «экстренными», а доступность зависит от отделения и очереди.",
-        "suggestion": "Написать: «Без записи лучше рассчитывать только на срочные или простые вопросы; при высокой загрузке могут отказать и попросить записаться.»",
-        "confidence": "medium",
-        "source": "Autoridade Tributária e Aduaneira — atendimento presencial"
-      },
-      {
-        "severity": "minor",
-        "where": "tldr",
-        "current": "Запись — 1–14 дней вперёд, бесплатно.",
-        "problem": "Бесплатность верна, но диапазон «1–14 дней» выглядит как гарантия. Реальная доступность слотов зависит от отделения, услуги и города; в крупных городах может не быть слотов в ближайшие дни, а горизонт записи может отличаться.",
-        "suggestion": "Заменить на: «Запись бесплатная; доступные даты зависят от отделения и услуги. В Lisboa/Porto слоты могут разбираться быстро.»",
+        "where": "steps[2].content[0].items[0]",
+        "current": "Большие отделения Lisboa (Saldanha, Algés, Restelo) — очередь с 07:30",
+        "problem": "Это выглядит как универсальный совет, но режим walk-in сильно зависит от конкретного Serviço de Finanças, дня, наличия senhas и внутренних ограничений. Algés также не Lisboa, а Oeiras. Указание конкретного времени 07:30 без официального источника может быстро устареть.",
+        "suggestion": "Смягчить: «В крупных отделениях Lisboa/района Lisboa и Porto без записи иногда выдают ограниченное число senhas с утра, но это не гарантировано; проверяйте конкретное отделение и лучше бронируйте слот заранее».",
         "confidence": "medium",
         "source": "Portal das Finanças — Atendimento por Marcação"
       },
       {
         "severity": "minor",
-        "where": "steps[0].content[0].items[5]",
-        "current": "📅 Выбрать дату и время (слоты 20–30 мин)",
-        "problem": "Длительность слота не универсальна и зависит от услуги/отделения. Лучше не указывать как общее правило.",
-        "suggestion": "Заменить на: «📅 Выбрать доступную дату и время; длительность зависит от услуги.»",
+        "where": "steps[3].content[1].items[2]",
+        "current": "📞 Если опоздали < 15 мин — часто принимают",
+        "problem": "Операционный совет без официального правила. В разных отделениях tolerância может отличаться, а при электронной очереди слот могут закрыть раньше/позже. Формулировка может создать ложное ожидание права на приём.",
+        "suggestion": "Написать: «Если опоздали, приём зависит от отделения и загрузки; tolerância не гарантирована. Сразу обратитесь к сотруднику/стойке с comprovativo».",
         "confidence": "medium",
         "source": "Portal das Finanças — Atendimento por Marcação"
       },
       {
         "severity": "minor",
-        "where": "steps[0].content[0].items[7]",
-        "current": "🔔 Напоминание на email за сутки",
-        "problem": "Напоминание по email/SMS не стоит обещать как гарантированное для всех записей. Пользователь точно получает comprovativo/подтверждение; уведомления зависят от контактов и системы.",
-        "suggestion": "Заменить на: «Сохраните comprovativo/подтверждение записи; если система отправит напоминание по email/SMS, проверьте данные контакта.»",
+        "where": "steps[3].content[1].items[3]",
+        "current": "🚫 Опоздали > 15 мин — нужна новая запись",
+        "problem": "Слишком категорично и не подтверждено как единое правило AT. На практике могут принять, перенести или попросить новую запись в зависимости от отделения и услуги.",
+        "suggestion": "Заменить на: «При существенном опоздании вас могут не принять и попросить сделать новую запись».",
         "confidence": "medium",
         "source": "Portal das Finanças — Atendimento por Marcação"
       },
       {
         "severity": "minor",
-        "where": "sources[1].url",
-        "current": "https://eportugal.gov.pt/cidadaos/-/informacoes/agendar-atendimento-no-servico-de-financas",
-        "problem": "URL выглядит нестандартным/потенциально устаревшим для ePortugal. У ePortugal обычно страницы услуг находятся в разделе /servicos/. Нужно перепроверить, не ведёт ли ссылка на 404 или старую информационную страницу.",
-        "suggestion": "Проверить и при необходимости заменить на актуальную страницу ePortugal для «Agendar atendimento presencial nas Finanças» в разделе serviços, либо оставить только официальный Portal das Finanças, если ePortugal-страница недоступна.",
+        "where": "sources[0].url",
+        "current": "https://www.portaldasfinancas.gov.pt/at/html/index.html",
+        "problem": "Это общий вход/главная зона AT, а не стабильная глубокая ссылка именно на Atendimento por Marcação. Как источник он менее проверяем: читатель может не попасть напрямую на нужную страницу.",
+        "suggestion": "Оставить как общий официальный источник, но добавить более точный путь/название сервиса: Portal das Finanças → Contactos → Atendimento por Marcação / Agendar Atendimento, либо актуальную прямую ссылку, если AT её публикует стабильно.",
         "confidence": "medium",
-        "source": "ePortugal — serviços"
+        "source": "Portal das Finanças"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[2].url",
+        "current": "https://www.portaldasfinancas.gov.pt/at/html/index.html",
+        "problem": "Источник назван «AT — e-balcão», но URL ведёт на общий index, а не на e-balcão. Это снижает проверяемость инструкции.",
+        "suggestion": "Заменить на актуальную страницу e-balcão на Portal das Finanças или указать путь: Portal das Finanças → Contactos → e-balcão.",
+        "confidence": "high",
+        "source": "Portal das Finanças — e-balcão"
       }
     ],
     "missing_topics": [
-      "Указать официальный канал e-balcão как альтернативу визиту для письменных запросов, но отдельно от записи на приём.",
-      "Добавить Centro de Atendimento Telefónico da AT как канал помощи/уточнения по записи и налоговым вопросам.",
-      "Добавить список документов, которые обычно нужны на очном приёме: documento de identificação/passport/residence card, NIF если уже есть, comprovativo da marcação, procuração/representação если действует представитель.",
-      "Отдельно объяснить налогового представителя/representante fiscal для нерезидентов и caveat, что правила отличаются для резидентов ЕС/ЕЭЗ и третьих стран.",
-      "Предупредить, что многие certidões, comprovativos, recibos verdes, IRS, IUC и IMI действительно делаются в Portal das Finanças, но для доступа нужен NIF и senha/CMD.",
-      "Уточнить, что IMT в Finanças — это налог на передачу недвижимости, не Instituto da Mobilidade e dos Transportes."
+      "Указать, что запись также может быть возможна через Centro de Atendimento Telefónico da AT, особенно если у человека ещё нет пароля Portal das Finanças/CMD",
+      "Добавить caveat по NIF: различие между EU/EEA нерезидентом, нерезидентом вне EU/EEA, representante fiscal, mandatário и mere authorised third party",
+      "Добавить caveat по morada fiscal: для Cartão de Cidadão адрес меняется через ePortugal/Cartão de Cidadão с подтверждением, а не всегда напрямую через Finanças",
+      "Добавить официальный источник AT/ePortugal именно для e-balcão и для изменения адреса, а не только общую главную страницу Portal das Finanças"
     ]
-  },
-  "usage": {
-    "completion_tokens": 3938,
-    "prompt_tokens": 1918,
-    "total_tokens": 5856
   },
   "model": "gpt-5.5"
 }

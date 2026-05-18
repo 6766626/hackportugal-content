@@ -1,0 +1,131 @@
+{
+  "guideId": "irs-jovem",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Guide is broadly useful, but it materially mixes the 2026 tax year with the 2026 filing season for 2025 income, causing the IRS Jovem cap and some rate references to be wrong or misleading.",
+    "issues": [
+      {
+        "severity": "critical",
+        "where": "tldr",
+        "current": "Лимит освобождённого дохода — 55 × IAS, то есть 29 542,15 € в 2026. ... В декларации IRS 2026 подаётся доход 2025 за период 1 апреля–30 июня 2026.",
+        "problem": "The text mixes two different years. The IRS return filed from 1 April to 30 June 2026 is for 2025 income, so the 55 × IAS cap should use the IAS applicable to 2025, not IAS 2026. €29,542.15 is 55 × IAS 2026 and is relevant for 2026 income, normally declared in 2027. For 2025 income the cap is 55 × €522.50 = €28,737.50.",
+        "suggestion": "Write: “Для доходов 2025, декларируемых в IRS 2026, лимит освобождения — 55 × IAS 2025 = 28 737,50 €. Для доходов 2026 лимит — 55 × IAS 2026 = 29 542,15 €, и они будут декларироваться весной 2027.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 12.º-B; IAS 2025 = €522.50; IAS 2026 = €537.13"
+      },
+      {
+        "severity": "critical",
+        "where": "steps[0].content[2].items[5-6]",
+        "current": "IAS 2026: 537,13 €; Потолок 2026: 29 542,15 € освобождённого дохода",
+        "problem": "This is correct only for the 2026 tax year, not for the IRS declaration submitted in 2026 for 2025 income. Since the article repeatedly discusses the 2026 filing period, readers may apply the wrong cap to the 2025 return.",
+        "suggestion": "Split the values explicitly: “Доходы 2025 / декларация IRS 2026: IAS 2025 €522,50; лимит €28 737,50. Доходы 2026 / декларация IRS 2027: IAS 2026 €537,13; лимит €29 542,15.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 12.º-B; IAS 2025 = €522.50; IAS 2026 = €537.13"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[3].text",
+        "current": "Потолок 29 542,15 € — это лимит суммы дохода, которую можно освободить от IRS, а не максимальная зарплата для участия.",
+        "problem": "Again, €29,542.15 is the cap for 2026 income, not for 2025 income filed in 2026. The warning is otherwise conceptually correct.",
+        "suggestion": "Write: “Для доходов 2025 потолок — 28 737,50 €; для доходов 2026 — 29 542,15 €. Это лимит суммы дохода, которую можно освободить от IRS, а не максимальная зарплата для участия.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 12.º-B"
+      },
+      {
+        "severity": "major",
+        "where": "costs[2]",
+        "current": "Максимальный доход, освобождаемый по IRS Jovem в 2026 — amountEUR: 29542.15 — 55 × IAS 2026",
+        "problem": "The cost/value table does not clarify whether this is for 2026 income or for the IRS declaration filed in 2026. In the context of the guide, readers may think this applies to the 2025 IRS return submitted in 2026.",
+        "suggestion": "Change the label to “Максимальный доход, освобождаемый по IRS Jovem для доходов 2026” and add a separate row: “Для доходов 2025, декларируемых в 2026: €28 737,50.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 12.º-B; IAS 2025 = €522.50; IAS 2026 = €537.13"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[2].items[8]",
+        "current": "Первая ставка IRS в 2026: 11,97% для нижнего диапазона налогооблагаемого дохода",
+        "problem": "This figure is not supported by the cited sources and is likely misleading in this context. For the 2025 tax year declared in 2026, the first general IRS bracket rate is not 11.97%. If the guide means 2026 income, it needs the 2026 IRS table and source. If it means the 2026 filing season for 2025 income, it should use the 2025 table.",
+        "suggestion": "Remove this bullet or replace it with a sourced, year-specific statement such as: “Ставки IRS зависят от налогового года; для декларации доходов 2025 используйте таблицу IRS 2025, а для доходов 2026 — таблицу IRS 2026.”",
+        "confidence": "medium",
+        "source": "Código do IRS art. 68.º; Lei do Orçamento do Estado applicable to the relevant tax year"
+      },
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "если вы не dependente и не используете NHR/IFICI/Programa Regressar",
+        "problem": "The incompatibility is broader than merely not using those regimes at the same time. Under the IRS Jovem rules, taxpayers who benefit or have benefited from NHR, IFICI or Programa Regressar may be excluded. Saying only “не используете” can mislead former NHR/Regressar beneficiaries into thinking they qualify once the regime ends.",
+        "suggestion": "Write: “если вы не являетесь dependente и не применяете сейчас и не применяли ранее NHR, IFICI или Programa Regressar, в той мере, в какой это предусмотрено art. 12.º-B CIRS.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 12.º-B"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[5-7]",
+        "current": "Вы не применяете NHR ... Вы не применяете IFICI ... Вы не применяете Programa Regressar",
+        "problem": "Same issue: the checklist frames the exclusion as current-year use only. It should warn about prior use/benefit, not just simultaneous use.",
+        "suggestion": "Replace with: “Вы не применяете и ранее не применяли режим NHR, IFICI или Programa Regressar, если это делает вас несовместимым с IRS Jovem по art. 12.º-B CIRS.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 12.º-B"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[8]",
+        "current": "У вас нет налоговой задолженности, которая блокирует нормальное оформление декларации IRS",
+        "problem": "Tax debt generally does not “block normal filing” of the IRS return. The relevant point is that the taxpayer must have their tax situation regularized to benefit from IRS Jovem. The current wording understates/misstates the consequence.",
+        "suggestion": "Write: “Ваша налоговая ситуация должна быть regularizada: наличие неурегулированной налоговой задолженности может лишить права на льготу, даже если декларацию технически можно подать.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 12.º-B"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Важен не только год переезда в Португалию, но и история доходов, если она уже была заявлена португальской налоговой системе.",
+        "problem": "This is too vague for a sensitive point. IRS Jovem counts years of obtaining category A/B income for purposes of the regime, and the counting rules are not simply “what was declared to the Portuguese tax system.” Readers with pre-Portugal employment history or years as dependents need clearer guidance.",
+        "suggestion": "Clarify with a caveat: “Счёт лет зависит от правил art. 12.º-B CIRS: учитываются годы получения доходов категории A/B для целей режима, годы без таких доходов обычно не считаются, а годы, когда налогоплательщик был dependente, требуют отдельной проверки. Иностранную историю до португальской налоговой резидентности лучше проверять по конкретному caso.”",
+        "confidence": "medium",
+        "source": "Código do IRS art. 12.º-B; AT Folheto IRS Jovem"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[2].text",
+        "current": "D1, D2, D3, D4, D7, D8, ВНЖ по работе или residência para atividade independente сами по себе не дают льготу, но позволяют жить и работать в Португалии",
+        "problem": "This overgeneralizes visa codes. D4 is primarily for study and should not be described as a work/residence route in the same way as D1/D2/D3; student work rights have specific conditions/notification rules. The main tax point is correct, but the immigration wording is imprecise.",
+        "suggestion": "Write: “Тип визы сам по себе не даёт IRS Jovem. Рабочие, предпринимательские, учебные и digital nomad статусы имеют разные правила права на работу; для IRS Jovem решающим является налоговая резидентность и правильная декларация доходов категории A/B.”",
+        "confidence": "high",
+        "source": "Lei n.º 23/2007, regime jurídico de entrada, permanência, saída e afastamento de estrangeiros"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[4]",
+        "current": "Если работаете у нескольких работодателей, предупредите каждого, чтобы не превысить лимит",
+        "problem": "Good practical warning, but it should be clearer that excessive reduction of withholding is not the final benefit and can create tax payable at assessment. The annual IRS assessment applies the cap globally.",
+        "suggestion": "Add: “Лимит применяется в годовой декларации суммарно ко всем допустимым доходам; если несколько работодателей уменьшат retenção na fonte сверх лимита, недоплата появится в liquidação.”",
+        "confidence": "high",
+        "source": "Código do IRS art. 12.º-B; AT withholding guidance"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://www2.gov.pt/en/noticias/novo-modelo-de-irs-jovem-em-2025",
+        "problem": "This URL may be fragile or not the canonical official page for government news. The guide already cites the law and AT leaflet, which are stronger sources. If this link is dead, readers lose the accessible English explanation.",
+        "suggestion": "Verify the URL and, if necessary, replace with the canonical Gov.pt/Portugal.gov.pt page for the 2025 IRS Jovem model or remove it in favor of the AT leaflet and Diário da República sources.",
+        "confidence": "low",
+        "source": "Gov.pt / Portugal.gov.pt"
+      }
+    ],
+    "missing_topics": [
+      "Explicit distinction between “tax year 2025 filed in 2026” and “tax year 2026 filed in 2027”, including separate IAS caps.",
+      "Clear statement that IRS Jovem reduces IRS taxable income only; it does not reduce Segurança Social contributions.",
+      "More precise incompatibility wording for taxpayers who have previously benefited from NHR, IFICI or Programa Regressar.",
+      "Official source or citation for withholding-at-source procedure under IRS Jovem, not only for the annual declaration.",
+      "Caveat that autonomous taxation, capital gains, dividends, rents, crypto gains and other non-category A/B income are outside the IRS Jovem exemption."
+    ]
+  },
+  "usage": {
+    "completion_tokens": 5238,
+    "prompt_tokens": 3790,
+    "total_tokens": 9028
+  },
+  "model": "gpt-5.5"
+}

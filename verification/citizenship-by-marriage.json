@@ -3,174 +3,174 @@
   "categoryId": "nationality",
   "verdict": {
     "verdict": "major_issues",
-    "summary": "Гайд в целом правильно описывает базовую идею гражданства по браку, но содержит серьёзно неверный блок про união de facto, неправильный список документов и несколько misleading-утверждений, которые могут привести к отказу/запросам IRN.",
+    "summary": "Guide is mostly solid on the current marriage/união de facto route, but it contains serious problems around the 2026 pending nationality-law reform, an internal contradiction on the criminal-threshold rule, and an overstatement that the process is identical for CPLP/Portuguese-speaking applicants.",
     "issues": [
       {
         "severity": "critical",
-        "where": "steps[2].content[1].items[1]",
-        "current": "📋 Совместное проживание ≥ 2 лет ...",
-        "problem": "Для целей гражданства união de facto должна длиться более 3 лет с гражданином Португалии. Двухлетний срок относится к общему признанию união de facto для некоторых внутренних прав, но не к приобретению гражданства по ст. 3 Lei da Nacionalidade.",
-        "suggestion": "Написать: «Для гражданства: união de facto с гражданином Португалии должна длиться более 3 лет на дату подачи заявления».",
-        "confidence": "high",
-        "source": "Lei 37/81, art. 3.º, n.º 3"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[2].content[1].items[1-5]",
-        "current": "Регистрация: ... atestado de residência от Junta ... Заявление под присягой в Conservatória ... 2 свидетеля ... Пошлина 10 € ... certificado de união de facto выдаётся в тот же день",
-        "problem": "Это неверно для гражданства. Для aquisição da nacionalidade через união de facto требуется судебное признание união de facto — certidão da sentença judicial, а не простая «регистрация» в Conservatória/Junta. В Португалии нет универсальной моментальной регистрации união de facto в Conservatória, которая сама по себе даёт право подать на гражданство.",
-        "suggestion": "Заменить весь блок на: «Для гражданства по união de facto нужно получить судебное решение португальского суда, признающее, что заявитель живёт в união de facto с гражданином Португалии более 3 лет. Atestado da Junta, совместные счета, договор аренды, свидетели и т.п. могут быть доказательствами в суде, но не заменяют судебное решение».",
-        "confidence": "high",
-        "source": "Lei 37/81, art. 3.º, n.º 3; Decreto-Lei 237-A/2006, Regulamento da Nacionalidade Portuguesa"
-      },
-      {
-        "severity": "critical",
-        "where": "steps[2].content[2].text",
-        "current": "После регистрации união 3 года отсчитываются с даты начала совместной жизни (по показаниям свидетелей), а не с даты регистрации. Поэтому если вы живёте уже 5 лет вместе, но только сейчас регистрируете — срок «3 года» уже выполнен.",
-        "problem": "Логика частично верная — важна фактическая длительность união, а не дата какого-то административного заявления, — но текст вводит в заблуждение, потому что описывает несуществующую достаточную «регистрацию» и не говорит о судебном признании. Для гражданства срок должен быть установлен/признан в судебном решении.",
-        "suggestion": "Написать: «Срок считается по фактическому началу совместной жизни, но для гражданства это должно быть подтверждено судебным решением о признании união de facto; простого atestado da Junta или заявления в Conservatória недостаточно».",
-        "confidence": "high",
-        "source": "Lei 37/81, art. 3.º, n.º 3"
-      },
-      {
-        "severity": "critical",
         "where": "tldr",
-        "current": "3 лет зарегистрированной união de facto",
-        "problem": "Формулировка «зарегистрированной união de facto» misleading: для гражданства нужна не регистрация союза, а судебное признание união de facto длительностью более 3 лет.",
-        "suggestion": "Заменить на: «или после более чем 3 лет união de facto с гражданином Португалии, признанной судом для целей гражданства».",
+        "current": "**03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII** — на 13.05.2026 закон ВСЁ ЕЩЁ НЕ опубликован в DRE",
+        "problem": "As of the April 2026 reference point, the new nationality law had been approved by Parliament on 01.04.2026 and was awaiting promulgation/publication. The guide states later May 2026 political/legal events as settled facts. This is outside the April 2026 verification frame and should not be presented as current law unless re-verified against official Presidency/DRE records.",
+        "suggestion": "Replace with: \"01.04.2026 Парламент одобрил новую редакцию закона о гражданстве; на дату проверки в апреле 2026 закон ожидал промульгации Президентом и публикации в Diário da República. До публикации и вступления в силу продолжают действовать правила Lei 37/81.\"",
         "confidence": "high",
-        "source": "Lei 37/81, art. 3.º, n.º 3"
+        "source": "Assembleia da República / Diário da República; developer reference: new nationality law approved 01.04.2026 awaiting promulgation"
       },
       {
         "severity": "critical",
-        "where": "steps[1].content[0].items[0]",
-        "current": "união de facto ≥ 3 лет, зарегистрированная в Conservatória",
-        "problem": "Неверно: Conservatória не является органом, который простой регистрацией создаёт достаточный документ для гражданства по união de facto. Нужна certidão da sentença judicial de reconhecimento da união de facto.",
-        "suggestion": "Написать: «união de facto > 3 лет с гражданином Португалии, признанная судебным решением».",
+        "where": "pendingLaw.summary",
+        "current": "Промульгирован Президентом Сегуру 03.05.2026. На 13.05.2026 публикация в DRE ВСЁ ЕЩЁ НЕ состоялась",
+        "problem": "Same issue as TLDR: the guide presents post-April 2026 events as verified facts, while the required accuracy baseline says the law was approved on 01.04.2026 and awaiting promulgation. Also the statement depends on a specific Presidency notice and DRE non-publication status that must be checked daily; it is too time-sensitive for a guide last-verified against April sources.",
+        "suggestion": "Downgrade to a pending-law note tied to the April 2026 status: \"Законопроект/декрет был одобрен 01.04.2026, но на дату проверки ещё не вступил в силу; проверяйте DRE перед подачей.\" Remove the claim about 03.05.2026 promulgation unless the guide is explicitly updated after DRE/Presidency verification.",
         "confidence": "high",
-        "source": "Lei 37/81, art. 3.º, n.º 3; Regulamento da Nacionalidade Portuguesa"
+        "source": "Diário da República; Assembleia da República"
       },
       {
         "severity": "major",
-        "where": "steps[3].content[0].items[1]",
-        "current": "📄 Для união — certificado de união de facto",
-        "problem": "Для гражданства по união de facto нужен не generic certificado/atestado, а судебное решение/сертификат судебного решения, признающего união de facto.",
-        "suggestion": "Заменить на: «Для união de facto — certidão da sentença judicial que reconheça a união de facto há mais de 3 anos com cidadão português».",
+        "where": "tldr",
+        "current": "После публикации в DRE ... порог криминальной чистоты ужесточится с 5 до 3 лет лишения свободы.",
+        "problem": "Internal contradiction and likely outdated framing. In the current-law requirements section the guide already says the criminal threshold is ≥3 years. Therefore it cannot also say that the pending law will change it from 5 to 3. The current Lei da Nacionalidade opposition ground is already based on conviction for crime punishable with imprisonment of 3 years or more under Portuguese law.",
+        "suggestion": "Remove \"с 5 до 3\". Write either: \"требование по судимостям сохраняется/формулируется как condenação por crime punível com pena de prisão igual ou superior a 3 anos segundo a lei portuguesa\" or, if the new law truly changes wording, describe the exact new wording without contradicting the current-law section.",
         "confidence": "high",
-        "source": "Lei 37/81, art. 3.º, n.º 3; Decreto-Lei 237-A/2006"
+        "source": "Lei 37/81, art. 9"
       },
       {
         "severity": "major",
-        "where": "steps[3].content[0].items[5]",
-        "current": "📄 Справка о несудимости из Португалии (certidão do registo criminal) — бесплатно на eportugal.gov.pt",
-        "problem": "В процедурах гражданства португальскую справку о несудимости обычно получают/проверяют службы ex officio; заявителю обычно не нужно её прикладывать. Утверждение про «бесплатно» также рискованно: обычная certidão do registo criminal онлайн платная, если нет специального освобождения.",
-        "suggestion": "Написать: «Португальская справка о несудимости обычно запрашивается IRN/службами самостоятельно; уточняйте по актуальному checklist IRN. Иностранные справки заявитель прикладывает сам».",
+        "where": "pendingLaw.summary",
+        "current": "порог криминальной чистоты ужесточится с 5 до 3 лет лишения свободы",
+        "problem": "Same contradiction as in TLDR. The guide’s own current-law checklist already uses the 3-year threshold. This makes the pending-law summary misleading.",
+        "suggestion": "Align the pending-law summary with the current-law checklist and the actual wording of Lei 37/81 art. 9. Do not describe a change from 5 to 3 unless citing the exact pre-reform provision where 5 years applied.",
         "confidence": "high",
+        "source": "Lei 37/81, art. 9"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "Граждане CPLP, ЕС, третьих стран — условия те же. Нет «ускоренных» маршрутов для бразильцев или итальянцев — 3 года брака нужны всем.",
+        "problem": "The 3-year marriage/união de facto threshold is the same, but saying the conditions/process are fully the same is misleading. Portuguese-speaking/CPLP applicants may have an easier route to proving or presuming effective connection to the Portuguese community, especially because knowledge of Portuguese and links to Portuguese-speaking countries can matter under the Regulation. This is particularly relevant for Brazilians.",
+        "suggestion": "Write: \"Минимальный срок брака/união de facto — 3 года для всех. Но доказательство ligação efetiva может быть проще для заявителей из португалоязычных стран/с владением португальским языком; проверяйте презумпции в Regulamento da Nacionalidade.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 237-A/2006, Regulamento da Nacionalidade Portuguesa, provisions on ligação efetiva"
+      },
+      {
+        "severity": "major",
+        "where": "steps[0].content[0].text",
+        "current": "В отличие от натурализации (по 5/7/10 годам проживания)",
+        "problem": "This is confusing/outdated. Under current ordinary naturalisation rules the standard residence period is 5 years. The 7/10-year figures relate to proposed or historical/pending reform discussions, not the current ordinary naturalisation baseline as of April 2026.",
+        "suggestion": "Replace with: \"В отличие от обычной натурализации по сроку легального проживания, по браку/união de facto ключевым является срок брака/союза с гражданином Португалии.\" Avoid listing 7/10 as current rules unless discussing the pending reform separately.",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 6"
+      },
+      {
+        "severity": "major",
+        "where": "steps[1].content[0].items[3]",
+        "current": "⚖️ Отсутствие судимостей в любой стране с наказанием ≥ 3 лет лишения свободы",
+        "problem": "The wording is too broad/imprecise. The nationality-law opposition ground is not simply any foreign conviction with a foreign-law sentence of ≥3 years. The key test is conviction, with final judgment, for a crime punishable with imprisonment of 3 years or more according to Portuguese law. Foreign criminal records must be disclosed, but the legal assessment is under Portuguese-law equivalence.",
+        "suggestion": "Write: \"Отсутствие вступившей в силу судимости за преступление, которое по португальскому праву наказывается лишением свободы на срок 3 года или более; справки о несудимости нужны из соответствующих стран.\"",
+        "confidence": "high",
+        "source": "Lei 37/81, art. 9"
+      },
+      {
+        "severity": "major",
+        "where": "pendingLaw.summary",
+        "current": "порог презумпции «эффективных связей» вырастет с 6 до 7–8 лет",
+        "problem": "The phrase \"7–8 years\" is vague and not legally usable. A guide should state the exact rule from the approved text or avoid giving a numeric threshold until promulgation/publication. Also, because the law was not yet in force as of April 2026, this must be clearly labelled as pending and subject to change.",
+        "suggestion": "Replace with: \"Проект меняет правила презумпции ligação efetiva; точные сроки и условия нужно проверять по опубликованному тексту в DRE после вступления закона в силу.\" If citing the approved decree, quote the exact article and exact threshold.",
+        "confidence": "medium",
+        "source": "Assembleia da República approved text of 01.04.2026; DRE after publication"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[2].items[0]",
+        "current": "CIPLE A2 — формально НЕ требуется ... На практике IRN может оценивать владение языком как косвенный признак «эффективной связи» при браках <6 лет",
+        "problem": "The conclusion is broadly right, but the wording understates that Portuguese language knowledge can be one of the legally relevant ways to evidence/presume ligação efetiva under the Regulation. It is not merely an informal IRN practice.",
+        "suggestion": "Write: \"CIPLE не является самостоятельным обязательным документом для этой категории, но знание португальского языка может помогать доказать/подтвердить ligação efetiva по Regulamento da Nacionalidade, особенно если нет 6 лет брака или португальских детей.\"",
+        "confidence": "high",
+        "source": "Decreto-Lei 237-A/2006, Regulamento da Nacionalidade Portuguesa"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[0]",
+        "current": "апостиль + присяжный перевод на португальский",
+        "problem": "Portugal does not have a single universal \"sworn translator\" system equivalent to some other countries. For Portuguese authorities, what usually matters is a certified/legalised translation in an accepted form, often certified by a Portuguese notary, lawyer, solicitor, chamber of commerce, consulate, or otherwise accepted authority.",
+        "suggestion": "Replace \"присяжный перевод\" with \"заверенный перевод на португальский в форме, принимаемой IRN/консульством\".",
+        "confidence": "high",
+        "source": "IRN / Portuguese notarial certification practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[2]",
+        "current": "апостиль + присяжный перевод",
+        "problem": "Same translation terminology problem as above. \"Sworn translation\" may mislead applicants from jurisdictions where only court-sworn translators exist.",
+        "suggestion": "Use \"заверенный перевод на португальский; апостиль/легализация — если применимо\".",
+        "confidence": "high",
+        "source": "IRN / Portuguese notarial certification practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[0].items[8]",
+        "current": "обычно Modelo 3",
+        "problem": "This is probably correct for acquisition by marriage/união de facto, but the word \"обычно\" may create uncertainty. For a sensitive application category, the guide should tell users to download the current official form rather than rely on a model number that can change.",
+        "suggestion": "Write: \"используйте актуальную форму IRN для aquisição da nacionalidade por casamento ou união de facto, доступную на justica.gov.pt/IRN; на дату проверки это Modelo 3.\"",
+        "confidence": "medium",
         "source": "IRN — Nacionalidade por casamento ou união de facto"
       },
       {
-        "severity": "critical",
-        "where": "steps[3].content[0].items[6]",
-        "current": "📄 Справка о несудимости страны гражданства и всех стран проживания ≥ 1 года за последние 5 лет",
-        "problem": "Это слишком узко и может привести к неполному пакету документов. Для гражданства IRN обычно требует criminal record certificates from country of birth/naturalidade, country/countries of nationality and countries where the applicant has resided after age 16, not merely countries of residence for the last 5 years.",
-        "suggestion": "Заменить на: «Справки о несудимости из страны рождения, страны/стран гражданства и стран, где заявитель проживал после 16 лет, с апостилем/легализацией и переводом, если применимо; проверять актуальный checklist IRN по конкретной стране».",
-        "confidence": "high",
-        "source": "IRN — Submeter pedido de nacionalidade; Regulamento da Nacionalidade Portuguesa"
-      },
-      {
-        "severity": "major",
-        "where": "steps[3].content[0].items[8]",
-        "current": "📝 Заполненная форма (modelo 1-B) — скачать с irn.pt, подписывается заявителем",
-        "problem": "Для приобретения гражданства по браку/união de facto используется не modelo 1-B. Modelo 1-B относится к другому виду национальности; для casamento/união de facto IRN использует соответствующий impresso/modelo для aquisição por casamento ou união de facto, commonly Modelo 3.",
-        "suggestion": "Заменить на: «Форма IRN для aquisição da nacionalidade por casamento ou união de facto — использовать актуальный impresso на сайте IRN/Justiça, обычно Modelo 3, с подписью, признанной в установленной форме».",
-        "confidence": "high",
-        "source": "IRN — formulários de nacionalidade"
-      },
-      {
-        "severity": "major",
-        "where": "steps[5].content[0].items[4]",
-        "current": "💻 Онлайн через портал IRN (с 2025 года работает в тестовом режиме для граждан CPLP и части случаев по браку)",
-        "problem": "Формулировка misleading. Онлайн-подача заявлений о гражданстве в Португалии в основном доступна через профессиональных представителей, таких как advogado/solicitador, с аутентификацией, а не как свободный «тестовый режим для граждан CPLP». CPLP здесь не является общим критерием для подачи гражданства по браку.",
-        "suggestion": "Написать: «Онлайн-подача возможна только если соответствующий тип заявления доступен на портале IRN и, как правило, через advogado/solicitador или иного уполномоченного профессионального представителя; обычному заявителю следует проверять актуальные правила IRN».",
+        "severity": "minor",
+        "where": "steps[4].content[0].items[4]",
+        "current": "Онлайн через портал IRN — только если соответствующий тип заявления доступен на портале; на практике канал чаще используется через advogado/solicitador",
+        "problem": "This is cautious, but it lacks the important caveat that access to online nationality applications has historically been limited by applicant type and/or professional authentication. Readers may still assume direct self-service is normally available.",
+        "suggestion": "Write: \"Онлайн-подача зависит от текущей доступности сервиса и способа аутентификации; часто полноценная онлайн-подача доступна через advogado/solicitador/notário, а не как открытый self-service для всех заявителей.\"",
         "confidence": "medium",
-        "source": "IRN — Pedido de nacionalidade online"
+        "source": "IRN online nationality services"
       },
       {
-        "severity": "major",
-        "where": "steps[7].content[0].items[2]",
-        "current": "Супруг-португалец получил гражданство недавно (натурализация) — срок «3 года брака» отсчитывается от даты приобретения гражданства супругом, а не от даты свадьбы",
-        "problem": "Это спорно и, вероятно, неверно как общее правило. Закон говорит о лице, состоящем в браке более 3 лет с гражданином Португалии на момент заявления; он не формулирует отдельный срок «3 года с даты приобретения супругом гражданства». На практике важны дата брака, действительность/транскрипция брака и статус супруга как Portuguese national на дату заявления.",
-        "suggestion": "Заменить на осторожную формулировку: «Если супруг стал португальцем уже после свадьбы, проверьте с IRN/юристом конкретный случай; обычно ключевые условия — брак длится более 3 лет и супруг является гражданином Португалии на дату декларации, но могут возникать вопросы по доказательству ligação efetiva».",
+        "severity": "minor",
+        "where": "steps[5].content[0].text",
+        "current": "Официальный срок по закону — 1 год. Фактически в 2025–2026: 8–24 месяца.",
+        "problem": "The practical range is plausible, but \"official legal deadline — 1 year\" needs a precise legal source. Nationality proceedings have several procedural stages and real processing times often exceed nominal targets; presenting 1 year as a hard official deadline can mislead applicants.",
+        "suggestion": "Either cite the exact legal/procedural basis for the 1-year figure or soften: \"IRN may indicate target/average timings, but there is no reliably enforceable 1-year completion in practice; many cases take 8–24+ months.\"",
         "confidence": "medium",
-        "source": "Lei 37/81, art. 3.º"
-      },
-      {
-        "severity": "major",
-        "where": "steps[1].content[0].items[2]",
-        "current": "⚖️ Отсутствие судимостей в любой стране с наказанием ≥ 3 лет лишения свободы",
-        "problem": "Формулировка неточная. Речь не о любой судимости «с наказанием ≥3 лет» в абстрактном смысле, а об осуждении вступившим в силу приговором к лишению свободы на срок 3 года или более за преступление, наказуемое также по португальскому праву; также существуют иные основания oposição, включая угрозу национальной безопасности/связь с терроризмом в актуальной редакции.",
-        "suggestion": "Написать: «Нет вступившего в силу осуждения к лишению свободы на 3 года или более за преступление, наказуемое по португальскому праву; также не должно быть оснований для oposição, связанных с угрозой безопасности/терроризмом и др.»",
-        "confidence": "high",
-        "source": "Lei 37/81, art. 9.º"
+        "source": "IRN / Regulamento da Nacionalidade Portuguesa"
       },
       {
         "severity": "minor",
-        "where": "steps[1].content[2].items[2]",
-        "current": "❌ «Связь с Португалией» как формальная checklist — не запрашивают на этапе приёма. Но см. ниже про презумпцию",
-        "problem": "Слишком категорично. Даже если IRN принимает заявление без отдельного «чеклиста ligação efetiva», отсутствие презумпции при браке/união менее 6 лет может привести к oposição Ministério Público, и заявителю практически стоит заранее готовить доказательства связи.",
-        "suggestion": "Написать: «При приёме заявления обычно нет отдельного обязательного документа “ligação efetiva”, но если нет законной презумпции, доказательства связи лучше готовить заранее: язык, проживание/поездки, семья, дети, налоговые/социальные связи, участие в жизни португальского сообщества и т.п.»",
+        "where": "steps[6].content[0].items[4]",
+        "current": "право на натурализацию по браку теряется",
+        "problem": "Terminology error. Citizenship through marriage/união de facto is acquisition of nationality by declaration/effect of will, not ordinary naturalisation.",
+        "suggestion": "Replace with: \"право на приобретение гражданства по браку/união de facto теряется\".",
         "confidence": "high",
-        "source": "Lei 37/81, art. 9.º; Regulamento da Nacionalidade Portuguesa"
+        "source": "Lei 37/81, art. 3"
       },
       {
         "severity": "minor",
-        "where": "steps[1].content[3].text",
-        "current": "для брака 3–6 лет ОБЯЗАТЕЛЬНО доказывать «ligação efetiva...» — её запрашивает Ministério Público при оппозиции",
-        "problem": "Суть риска верная, но слово «обязательно» может быть юридически неточным: это не отдельное универсальное требование при подаче, а основание для oposição при отсутствии презумпции. Бремя и процедура зависят от того, будет ли Ministério Público оспаривать приобретение гражданства.",
-        "suggestion": "Заменить на: «При браке/união от 3 до 6 лет обычно нет автоматической презумпции ligação efetiva, поэтому Ministério Público может подать oposição из-за отсутствия эффективной связи; заявителю стоит заранее иметь доказательства связи».",
+        "where": "sources[4]",
+        "current": "Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade), lastRetrieved 2026-05-04",
+        "problem": "This source is post-April 2026 and is used to support claims that conflict with the April 2026 status requirement. If the guide is meant to be verified as of April 2026, this source should not be part of the verified factual baseline.",
+        "suggestion": "For an April 2026 version, replace with the official Assembleia da República page for the 01.04.2026 approval and state that promulgation/publication was pending. For a May 2026 version, also add the DRE publication source once available.",
         "confidence": "high",
-        "source": "Lei 37/81, art. 9.º"
+        "source": "Assembleia da República; Diário da República"
       },
       {
         "severity": "minor",
-        "where": "steps[0].content[0].text",
-        "current": "В отличие от натурализации (по 5/7/10 годам проживания)",
-        "problem": "Фраза confusing/outdated in a citizenship guide: обычная натурализация по проживанию в действующем режиме — 5 лет законного проживания; «7/10» без контекста может ввести в заблуждение, особенно рядом с pending changes.",
-        "suggestion": "Написать нейтрально: «В отличие от натурализации по проживанию, где срок зависит от конкретного основания и актуальной редакции закона...» или просто «по 5 годам проживания» для действующего общего правила.",
-        "confidence": "medium",
-        "source": "Lei 37/81, art. 6.º"
-      },
-      {
-        "severity": "minor",
-        "where": "costs[2]",
-        "current": "Registo união de facto (если нужно) — 10 €",
-        "problem": "Стоимость неверна/misleading для гражданства: ключевая процедура для união de facto — судебное признание, а не регистрация за 10 €. Судебные расходы и юрист могут стоить существенно больше.",
-        "suggestion": "Заменить на: «Judicial recognition of união de facto — судебные расходы + возможный advogado; бюджет зависит от дела, часто существенно выше 10 €».",
+        "where": "lastVerified",
+        "current": "2026-05-17",
+        "problem": "The guide claims verification after the alleged May promulgation/non-publication events, but the source list still lacks a DRE publication/non-publication reference and the content remains internally inconsistent on the criminal threshold. This makes the verification date misleading.",
+        "suggestion": "Either change the verification date to the actual April verification date or update all pending-law statements against Presidency + DRE + Assembleia sources and resolve the contradictions.",
         "confidence": "high",
-        "source": "Lei 37/81, art. 3.º, n.º 3"
-      },
-      {
-        "severity": "minor",
-        "where": "sources[3]",
-        "current": "ePortugal — união de facto",
-        "problem": "Источник про общее признание união de facto не достаточен для блока о гражданстве. Нужен официальный источник IRN/закон, где прямо указано требование судебного признания для nationality acquisition.",
-        "suggestion": "Добавить источник IRN/Justiça для «Nacionalidade por união de facto» и ссылку на art. 3.º Lei 37/81 / Regulamento da Nacionalidade Portuguesa о судебном признании.",
-        "confidence": "high",
-        "source": "Lei 37/81; Decreto-Lei 237-A/2006"
+        "source": "Diário da República; Presidência da República; Assembleia da República"
       }
     ],
     "missing_topics": [
-      "Для união de facto: обязательное судебное признание союза для целей гражданства и практические сроки/расходы этой отдельной процедуры.",
-      "Для брака, заключённого за пределами Португалии: необходимость предварительной транскрипции/регистрации брака в португальском registo civil до заявления о гражданстве.",
-      "Точный перечень criminal record certificates: страна рождения, страна/страны гражданства и страны проживания после 16 лет, а не только последние 5 лет.",
-      "Подпись на заявлении: признание подписи presencialmente/por autenticidade или подписание перед сотрудником/консулом/уполномоченным лицом по актуальным правилам IRN.",
-      "Осторожное объяснение pending nationality law: до промульгации и вступления в силу применяются действующие 3 года; после вступления могут быть переходные положения."
+      "Exact current legal basis for oposição by Ministério Público and the distinction between IRN document intake and later MP opposition for falta de ligação efetiva",
+      "Exact presumptions/evidence categories for ligação efetiva under the Regulamento da Nacionalidade, including relevance of Portuguese language and Portuguese-speaking country links",
+      "Clear warning that the criminal-record test is assessed by reference to Portuguese law, not simply the foreign sentence label",
+      "DRE publication check for the 2026 nationality-law reform before relying on any new deadlines or transitional rules",
+      "Clarification that acquisition by marriage/união de facto is not ordinary naturalisation and uses different terminology/procedure"
     ]
   },
   "usage": {
-    "completion_tokens": 6091,
-    "prompt_tokens": 3371,
-    "total_tokens": 9462
+    "completion_tokens": 5160,
+    "prompt_tokens": 4283,
+    "total_tokens": 9443
   },
   "model": "gpt-5.5"
 }

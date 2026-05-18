@@ -1,0 +1,77 @@
+{
+  "guideId": "irs-auto-prefill",
+  "categoryId": "taxes",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Guide is broadly accurate and conservative for expats, but it overstates that recibos verdes always exclude IRS Automático and misses a few practical caveats around couples, e-Fatura deadlines, and mortgage deductions.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "steps[1].content[1].items[4]",
+        "current": "Нет recibos verdes, ato isolado или другой atividade aberta",
+        "problem": "Too categorical. IRS Automático has in recent campaigns covered some Category B income under the simplified regime, especially certain service providers issuing invoices through the official system, subject to conditions and exclusions. Ato isolado and many self-employed/expat cases still usually require Modelo 3, but 'any recibos verdes / any atividade aberta' as an absolute exclusion is misleading.",
+        "suggestion": "Replace with: \"Если были recibos verdes/atividade aberta, не подтверждайте автоматически без проверки: некоторые простые случаи Categoria B в regime simplificado могут быть покрыты IRS Automático, но многие ситуации требуют обычную Modelo 3 с Anexo B.\"",
+        "confidence": "high",
+        "source": "Código do IRS art. 58-A; Portal das Finanças — IRS Automático eligibility rules"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[1].items[0]",
+        "current": "Вы открывали atividade и выставляли recibos verdes — нужен Anexo B",
+        "problem": "This repeats the same overstatement. Category B normally uses Anexo B in a manual Modelo 3, but some simplified Category B cases may be included in IRS Automático. The safer instruction is to verify eligibility rather than say Anexo B is always required.",
+        "suggestion": "Write: \"Вы открывали atividade и выставляли recibos verdes — проверьте, покрывает ли Portal ваш случай в IRS Automático. Если нет, нужна обычная Modelo 3 с Anexo B.\"",
+        "confidence": "high",
+        "source": "Código do IRS art. 58-A; Portal das Finanças — IRS Automático eligibility rules"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[2].text",
+        "current": "Если вы married/united de facto, Portal das Finanças обычно показывает варианты: отдельная подача и совместная подача. Не выбирайте автоматически самый первый вариант — сравните симуляции.",
+        "problem": "Correct but missing an important caveat: if a married/united de facto couple does nothing and IRS Automático becomes final by inaction, the default is not necessarily the most favourable joint option; taxpayers should actively confirm the preferred option before the deadline.",
+        "suggestion": "Add: \"Важно: если ничего не подтвердить до 30 июня, автоматическое превращение в окончательную декларацию может идти по варианту tributação separada; совместную подачу нужно подтвердить обоим налогоплательщикам в срок.\"",
+        "confidence": "medium",
+        "source": "Código do IRS art. 58-A"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[8]",
+        "current": "Расходы в e-Fatura проверены до дедлайнов кампании",
+        "problem": "Too vague for a time-sensitive tax guide. Many relevant steps happen before the IRS filing window opens, especially household/dependant communication and invoice validation. Readers may think they can fix e-Fatura during the 1 April–30 June filing period.",
+        "suggestion": "Specify the deadlines by type, or write more safely: \"Расходы и состав семьи проверены в e-Fatura/Portal das Finanças в установленные сроки до подачи IRS; после открытия кампании часть данных уже нельзя исправить обычным способом.\"",
+        "confidence": "high",
+        "source": "Autoridade Tributária — calendário IRS 2026"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[7]",
+        "current": "Данные e-Fatura неполные: крупные медицинские, образовательные, арендные или mortgage-расходы не подтянулись",
+        "problem": "The reference to mortgage expenses is potentially misleading. Portuguese IRS deductions for housing loan interest are limited and do not apply to ordinary mortgage principal payments; eligibility depends on the type/date/purpose of the loan and legal rules in force. This should not be presented alongside ordinary medical/education/rent expenses without caveat.",
+        "suggestion": "Replace with: \"... медицинские, образовательные, арендные или, если применимо, допустимые проценты по жилищному кредиту не подтянулись\".",
+        "confidence": "high",
+        "source": "Código do IRS art. 78-E"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[0].url",
+        "current": "https://info.portaldasfinancas.gov.pt",
+        "problem": "This is an official domain but only a generic landing page. For eligibility and deadlines, a sensitive tax guide should cite a specific AT page/FAQ/news item for IRS Automático or the IRS campaign calendar, otherwise readers cannot verify the exact conditions.",
+        "suggestion": "Use a specific Portal das Finanças/AT URL for 'IRS Automático' and a specific IRS 2026 calendar/FAQ page, not only the generic info portal homepage.",
+        "confidence": "high",
+        "source": "Autoridade Tributária — Portal das Finanças"
+      }
+    ],
+    "missing_topics": [
+      "Exact IRS 2026 pre-filing deadlines: household composition, e-Fatura invoice validation, deduction claims/complaints",
+      "Default outcome for married/united de facto taxpayers if no automatic declaration option is actively confirmed",
+      "Clarification that some simplified Category B/recibos verdes cases may be eligible for IRS Automático, but should be checked case by case",
+      "What to do after an automatic declaration becomes final by inaction: declaração de substituição / correction routes and timing",
+      "Caveat that mortgage deductions are limited and generally relate to eligible housing loan interest, not ordinary mortgage payments"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 3117,
+    "prompt_tokens": 3199,
+    "total_tokens": 6316
+  },
+  "model": "gpt-5.5"
+}

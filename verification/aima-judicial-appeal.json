@@ -1,0 +1,122 @@
+{
+  "guideId": "aima-judicial-appeal",
+  "categoryId": "residence_permit",
+  "verdict": {
+    "verdict": "major_issues",
+    "summary": "Гайд в целом полезный по логике действий, но содержит существенные юридические упрощения: слишком уверенно направляет всех в TAC Lisboa, занижает судебную пошлину и неточно описывает recurso hierárquico для решений AIMA.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "tldr",
+        "current": "обычно есть 3 месяца с уведомления на recurso hierárquico или ação administrativa в Tribunal Administrativo de Círculo de Lisboa",
+        "problem": "Формулировка создаёт впечатление, что компетентный суд почти всегда именно Tribunal Administrativo de Círculo de Lisboa. Территориальная подсудность в административных судах зависит от правил CPTA, места жительства/местонахождения истца, органа-ответчика, предмета спора и конкретного акта. Для решений AIMA это не автоматически Lisboa.",
+        "suggestion": "Написать: «обычно есть 3 месяца с уведомления на административное обжалование и/или ação administrativa; компетентный Tribunal Administrativo e Fiscal/TAC нужно проверить по правилам подсудности CPTA — это не всегда Lisboa».",
+        "confidence": "high",
+        "source": "CPTA, artigos 16.º-22.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].title",
+        "current": "4. Иск в Tribunal Administrativo de Círculo de Lisboa",
+        "problem": "Заголовок слишком категоричен: не каждый иск против AIMA или по визовому отказу подаётся именно в TAC Lisboa. Это может привести к подаче в ненадлежащий суд и потере времени.",
+        "suggestion": "Заменить на: «Иск в административный суд: какой TAF/TAC компетентен»; внутри пояснить, что Lisboa возможен в ряде дел с центральными органами, но подсудность должен проверить advogado по CPTA.",
+        "confidence": "high",
+        "source": "CPTA, artigos 16.º-22.º"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[0].text",
+        "current": "Для решений AIMA и консульских визовых отказов на практике часто используют Tribunal Administrativo de Círculo de Lisboa, особенно когда ответчик — центральный орган.",
+        "problem": "Смешаны разные категории: решения AIMA по ВНЖ и консульские визовые отказы имеют разных ответчиков/административные цепочки. Подсудность и надлежащий ответчик могут отличаться. «Часто используют Lisboa» без caveat misleading.",
+        "suggestion": "Написать: «Для решений AIMA и для отказов по национальным визам нужно отдельно определить надлежащего ответчика и территориально компетентный административный суд. В некоторых делах это может быть Lisboa, но это не универсальное правило».",
+        "confidence": "high",
+        "source": "CPTA; MNE appeal mechanisms for national visas"
+      },
+      {
+        "severity": "major",
+        "where": "steps[3].content[1].items[5]",
+        "current": "Базовая taxa de justiça может быть около 76,50 € (0,75 UC при UC 102 €), но итоговые court costs зависят от цены и типа процесса.",
+        "problem": "Сумма 76,50 € выглядит заниженной для обычной ação administrativa de impugnação de ato administrativo. В административных исках taxa de justiça обычно рассчитывается по Regulamento das Custas Processuais и зависит от valor da causa/таблицы; для дел с неопределимой стоимостью часто применяется стоимость 30 000,01 €, что даёт существенно более высокую пошлину, чем 0,75 UC. 0,75 UC может быть релевантно не для стандартного иска или только в специальных ситуациях.",
+        "suggestion": "Заменить на: «Taxa de justiça рассчитывается по Regulamento das Custas Processuais; в обычной ação administrativa она часто выше 76,50 € и может составлять несколько UC. 76,50 € не стоит указывать как базовый ориентир без проверки типа процесса, valor da causa и возможной urgência/apoio judiciário».",
+        "confidence": "high",
+        "source": "Regulamento das Custas Processuais, DL 34/2008, Tabela I"
+      },
+      {
+        "severity": "major",
+        "where": "costs[0]",
+        "current": "\"amountEUR\": 76.5, \"note\": \"Ориентир 0,75 UC при UC 102 €; итог зависит от типа и стоимости дела.\"",
+        "problem": "Та же проблема с судебной пошлиной: для читателя это выглядит как ожидаемая пошлина за подачу в TAC, но для обычного административного иска сумма часто будет другой и выше. Это может сильно исказить бюджет спора.",
+        "suggestion": "Убрать фиксированную сумму или заменить на диапазон с caveat: «от нескольких десятков евро в отдельных специальных/срочных процедурах до нескольких сотен евро и выше; адвокат должен рассчитать по RCP». Если оставлять 76,50 €, явно написать, для какой конкретной процессуальной категории она применима.",
+        "confidence": "high",
+        "source": "Regulamento das Custas Processuais, DL 34/2008"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Recurso hierárquico — это административное обжалование внутри системы: вы просите вышестоящий орган пересмотреть решение AIMA.",
+        "problem": "Для AIMA это слишком упрощено. Recurso hierárquico возможен только при наличии иерархии между органом, принявшим акт, и органом обжалования. У AIMA как instituto público могут быть решения по делегированным полномочиям, решения Conselho Diretivo, reclamação, recurso hierárquico или recurso tutelar — конкретная форма зависит от того, кто подписал акт и на каком основании. Нельзя универсально описывать это как «вышестоящий орган внутри AIMA».",
+        "suggestion": "Написать: «Сначала определить, кто именно принял/подписал акт и есть ли delegação/subdelegação. В зависимости от этого возможны reclamação, recurso hierárquico или другой административный recurso; адресата и срок должен проверить advogado по CPA и акту AIMA».",
+        "confidence": "high",
+        "source": "Código do Procedimento Administrativo; Decreto-Lei 41/2023"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].title",
+        "current": "3. Recurso hierárquico: когда имеет смысл",
+        "problem": "Раздел сужает административное обжалование до recurso hierárquico, хотя на практике для решений AIMA может быть более корректна reclamação или иной administrative appeal в зависимости от автора акта. Это не всегда именно recurso hierárquico.",
+        "suggestion": "Переименовать в: «Административное обжалование: reclamação, recurso hierárquico или другой recurso» и затем объяснить различия.",
+        "confidence": "high",
+        "source": "Código do Procedimento Administrativo"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].items[3]",
+        "current": "Документы на русском языке переводите на PT/EN у присяжного/сертифицированного переводчика, если они существенные.",
+        "problem": "В Португалии нет единой системы «присяжных переводчиков» в том же смысле, как в некоторых странах. Для официального использования обычно важна заверенная/certified translation, заверение может делать нотариус, адвокат, solicitador, торгово-промышленная палата, консульство или иной допустимый субъект. Формулировка может запутать русскоязычных читателей.",
+        "suggestion": "Написать: «Документы на русском переводите на португальский, а при необходимости делайте заверенный перевод/сертификацию в допустимой для Португалии форме: нотариус, advogado, solicitador, consulado или другой признаваемый способ».",
+        "confidence": "high",
+        "source": "Portuguese practice on certified translations; Ordem dos Advogados/Notariado practice"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[1].content[1].items[4]",
+        "current": "Если последний день выпадает на выходной/праздник, применяются правила процессуального исчисления сроков — пусть считает advogado/solicitador.",
+        "problem": "В гайде смешиваются административные сроки CPA и судебные процессуальные сроки CPTA/CPC. Для audiência prévia и административных жалоб применяются правила административного срока, для судебного иска — процессуальные правила. Это лучше явно разделить, потому что правила приостановления/исчисления могут отличаться.",
+        "suggestion": "Добавить: «Для ответа AIMA и административного recurso проверяются правила CPA; для иска в суд — CPTA/CPC. Не переносите автоматически одно правило на другой срок».",
+        "confidence": "medium",
+        "source": "CPA, artigo 87.º; CPTA/CPC rules on procedural time limits"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Нет источника по судебным пошлинам",
+        "problem": "Гайд указывает конкретную court fee 76,50 €, но не даёт источник по Regulamento das Custas Processuais. Для чувствительной финансовой информации нужен официальный источник.",
+        "suggestion": "Добавить официальный источник: Regulamento das Custas Processuais, DL 34/2008, consolidated version on Diário da República, especially Tabela I and rules on valor da causa.",
+        "confidence": "high",
+        "source": "Regulamento das Custas Processuais, DL 34/2008"
+      },
+      {
+        "severity": "minor",
+        "where": "sources[3]",
+        "current": "Move to Cascais: обзор судебного обжалования решений AIMA",
+        "problem": "Коммерческий источник допустим как дополнительный, но для гайда об обжаловании отказов AIMA он не должен подменять официальные источники по подсудности, пошлинам и процедуре. Сейчас из официальных источников нет RCP и акта о создании/компетенции AIMA.",
+        "suggestion": "Оставить company source только как вторичный или убрать; добавить Decreto-Lei 41/2023 по AIMA и Regulamento das Custas Processuais по court fees.",
+        "confidence": "high",
+        "source": "Decreto-Lei 41/2023; Regulamento das Custas Processuais"
+      }
+    ],
+    "missing_topics": [
+      "Различие между reclamação, recurso hierárquico, recurso tutelar и ação administrativa применительно к AIMA",
+      "Проверка надлежащего ответчика и территориально компетентного TAF/TAC по CPTA, а не автоматический TAC Lisboa",
+      "Apoio judiciário/proteção jurídica через Segurança Social для тех, кто не может оплатить advogado и custas",
+      "Расчёт taxa de justiça по Regulamento das Custas Processuais и valor da causa",
+      "Отдельная процедура для отказов по национальным визам через MNE/консульство, чтобы не смешивать её с отказами AIMA по residência"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 4050,
+    "prompt_tokens": 3965,
+    "total_tokens": 8015
+  },
+  "model": "gpt-5.5"
+}

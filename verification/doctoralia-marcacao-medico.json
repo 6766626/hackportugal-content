@@ -1,0 +1,77 @@
+{
+  "guideId": "doctoralia-marcacao-medico",
+  "categoryId": "healthcare",
+  "verdict": {
+    "verdict": "minor_issues",
+    "summary": "Гайд в целом практичный и без явных иммиграционно-налоговых ошибок, но есть несколько мест, где формулировки могут вводить в заблуждение: особенно про Linkare/MyClinic как будто это универсальные медицинские агрегаторы, а также про IRS-вычет и электронные рецепты.",
+    "issues": [
+      {
+        "severity": "major",
+        "where": "title",
+        "current": "Doctoralia и Linkare — поиск и запись к частному врачу",
+        "problem": "Doctoralia действительно является массовым агрегатором врачей, но Linkare.pt не выглядит общеизвестным универсальным португальским сервисом для поиска частных врачей/анализов уровня Doctoralia. Название и роль Linkare требуют проверки: есть риск, что читателя отправляют на не тот сервис или на узкоспециализированную/не медицинскую компанию.",
+        "suggestion": "Если имеется в виду конкретный медицинский сервис записи, дайте точное название бренда и прямую ссылку на медицинскую страницу сервиса. Если подтверждения нет — уберите Linkare из заголовка и оставьте нейтрально: “Doctoralia и сайты клиник — поиск и запись к частному врачу”.",
+        "confidence": "medium",
+        "source": "Doctoralia Portugal; публичная проверка бренда/URL Linkare.pt требуется"
+      },
+      {
+        "severity": "major",
+        "where": "steps[2].content[0].text",
+        "current": "Linkare.pt полезен, когда задача не только “найти врача”, но и быстро записаться на анализы, exames или консультацию специалиста. В зависимости от города доступны лабораторные исследования, диагностические процедуры и médicos especialistas с онлайн-маркировкой.",
+        "problem": "Утверждение слишком категоричное и не подкреплено источником, кроме ссылки на главную страницу. Для Португалии запись на análises/exames чаще идёт через сайты конкретных сетей — CUF, Luz Saúde, Lusíadas, Joaquim Chaves, Germano de Sousa, Unilabs, Synlab и т.п. Если Linkare не является подтверждённым медицинским маркетплейсом, это фактическая ошибка.",
+        "suggestion": "Переписать: “Для exames и análises чаще всего проверяйте сайты конкретных сетей и лабораторий: CUF, Hospital da Luz, Lusíadas, Joaquim Chaves Saúde, Germano de Sousa, Unilabs/Synlab. Если используете сторонний агрегатор, проверяйте, что он действительно работает с нужной клиникой и городом.” Linkare упоминать только после проверки точного медицинского URL.",
+        "confidence": "medium",
+        "source": "Сайты CUF, Hospital da Luz, Lusíadas Saúde, Joaquim Chaves Saúde, Germano de Sousa, Unilabs/Synlab"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[2].content[1].text",
+        "current": "MyClinic и сайты сетей частных клиник тоже стоит проверять напрямую: CUF, Lusíadas, Hospital da Luz, Trofa Saúde, Joaquim Chaves Saúde, Germano de Sousa, Unilabs.",
+        "problem": "“MyClinic” написано без URL и без пояснения, что это за сервис. В Португалии читатель, скорее всего, будет искать myCUF, app Luz Saúde, Lusíadas Saúde, Trofa Saúde и сайты лабораторий. “MyClinic” как самостоятельный ориентир выглядит неясно.",
+        "suggestion": "Либо добавить точный URL и пояснение, либо заменить на: “проверяйте сайты и приложения самих сетей: myCUF/CUF, Luz Saúde, Lusíadas Saúde, Trofa Saúde, Joaquim Chaves Saúde, Germano de Sousa, Unilabs/Synlab”.",
+        "confidence": "medium",
+        "source": "Сайты частных сетей CUF, Luz Saúde, Lusíadas Saúde, Trofa Saúde"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[3].content[1].items[7]",
+        "current": "Если платите полностью, попросите fatura com NIF — её можно учитывать в despesas de saúde в IRS",
+        "problem": "Фраза в целом верная, но неполная. В e-Fatura медицинские расходы обычно учитываются как saúde, но расходы с IVA 23% могут требовать associação de receita médica, иначе не будут приняты как медицинский вычет. Также есть лимиты и процент вычета.",
+        "suggestion": "Написать: “Попросите fatura com NIF и проверьте её в e-Fatura. Медицинские расходы обычно дают вычет 15% до установленного лимита; если услуга облагается IVA 23%, может понадобиться associar receita médica в e-Fatura.”",
+        "confidence": "high",
+        "source": "Autoridade Tributária e Aduaneira — e-Fatura / deduções à coleta em IRS"
+      },
+      {
+        "severity": "minor",
+        "where": "steps[4].content[0].items[6]",
+        "current": "Запросите receita eletrónica, если нужны лекарства",
+        "problem": "Не каждый частный врач/кабинет фактически выдаёт электронный рецепт через PEM; иногда могут выдать бумажный рецепт или попросить обратиться к médico de família/другому врачу. Формулировка может создать ожидание, что электронный рецепт всегда доступен.",
+        "suggestion": "Уточнить: “Спросите, может ли врач выдать receita eletrónica/PEM; большинство частных врачей могут, но лучше подтвердить заранее, особенно если нужны хронические лекарства или comparticipação.”",
+        "confidence": "medium",
+        "source": "SPMS / Serviços Partilhados do Ministério da Saúde — Prescrição Eletrónica Médica"
+      },
+      {
+        "severity": "minor",
+        "where": "sources",
+        "current": "Только Doctoralia Portugal и Linkare Portugal как company sources",
+        "problem": "Для медицинского гайда источники только от коммерческих платформ недостаточны. Не хватает государственного/регуляторного источника о проверке лицензированных prestadores de cuidados de saúde и правах пациента.",
+        "suggestion": "Добавить ERS как источник: Entidade Reguladora da Saúde — pesquisa de estabelecimentos/prestadores registados и informação sobre reclamações/livro de reclamações. Это особенно важно для частных клиник и кабинетов.",
+        "confidence": "high",
+        "source": "Entidade Reguladora da Saúde (ERS)"
+      }
+    ],
+    "missing_topics": [
+      "Как проверить, что клиника или кабинет зарегистрированы в ERS / Entidade Reguladora da Saúde",
+      "Когда не идти через агрегатор, а звонить 112 или SNS 24: боль в груди, инсульт, тяжёлая травма, высокая температура у младенца и т.п.",
+      "Для страховых: pre-authorização может требоваться для cirurgias, internamento, alguns exames caros, physioterapia и pregnancy-related care",
+      "Для exames/análises: многие страховки требуют prescrição/pedido médico, иначе цена может быть полной",
+      "Проверка fatura в e-Fatura и caveat про IVA 23% + receita médica для IRS"
+    ]
+  },
+  "usage": {
+    "completion_tokens": 2660,
+    "prompt_tokens": 2908,
+    "total_tokens": 5568
+  },
+  "model": "gpt-5.5"
+}

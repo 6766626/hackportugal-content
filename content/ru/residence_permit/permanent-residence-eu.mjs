@@ -3,7 +3,7 @@ export default {
   id: 'permanent-residence-eu',
   categoryId: 'residence_permit',
   title: 'Постоянное резидентство Португалии (arts. 76, 80) и EU Long-Term Resident (arts. 125+)',
-  tldr: 'После 5 лет владения временной autorização de residência в Португалии можно подать на **Autorização de Residência Permanente** (arts. 76 и 80 Lei 23/2007) — продление каждые 10 лет. Альтернатива: **Estatuto de Residente de Longa Duração UE / EU Long-Term Resident** (arts. 125+ Lei 23/2007, транспонирует Directive 2003/109/EC) — облегчает переезд во многие страны ЕС (НЕ автоматическая свобода передвижения как у граждан ЕС; Дания/Ирландия не участвуют). Требования: 5 лет TEMPORARY residence (а не «процесса»), португальский A2, отсутствие judicial conviction за преступление с pena privativa de liberdade > 1 года, стабильные средства. Подача в AIMA.',
+  tldr: 'После 5 лет владения временной autorização de residência в Португалии можно подать на **Autorização de Residência Permanente** (arts. 76 и 80 Lei 23/2007). **Сама autorização — БЕССРОЧНАЯ** (sem limite de tempo); только **título/card обновляется каждые 5 лет** (art. 76 nº 4 Lei 23/2007). Альтернатива: **Estatuto de Residente de Longa Duração UE / EU Long-Term Resident** (arts. 125+ Lei 23/2007, транспонирует Directive 2003/109/EC) — также 5-летняя карта, облегчает переезд во многие страны ЕС (НЕ автоматическая свобода передвижения как у граждан ЕС; Дания/Ирландия не участвуют). Требования: 5 лет TEMPORARY residence, португальский A2, отсутствие judicial conviction за преступление с pena privativa de liberdade > 1 года, стабильные средства. Подача в AIMA.',
   tags: ['пмж', 'permanent', 'внж', 'eu-long-term'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'n1', title: '🇵🇹 Autorização de Residência Permanente (национальный)', content: [
             { kind: 'checklist', items: [
-              'Действует 10 лет → продление каждые 10 лет',
+              '**Сама autorização — бессрочная** (sem limite de tempo, art. 76 Lei 23/2007). **Карта (título de residência) обновляется каждые 5 лет** (art. 76 nº 4)',
               'Право работать, жить, учиться в Португалии без ограничений',
               'Риск cancellation при отсутствии 24 месяца подряд ИЛИ 30 месяцев суммарно за 3 года без уважительной причины (art. 85 Lei 23/2007)',
               'По действующему праву натурализация после 5 лет легального проживания — **03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII**, который после публикации в DRE поднимет срок до 7 лет для CPLP/EU и 10 лет для остальных. Permanent residence НЕ обязателен для подачи на гражданство',
@@ -24,7 +24,7 @@ export default {
           ]},
           { id: 'n2', title: '🇪🇺 EU Long-Term Resident (EULTR)', content: [
             { kind: 'checklist', items: [
-              'Действует 5 лет → продление',
+              'Карта действует 5 лет → продление (статус долгосрочного резидента также бессрочный, обновляется только карта)',
               'Облегчает переезд во многие страны ЕС: после въезда во второе государство обычно нужно подать на местный residence permit и выполнить его условия (это НЕ свобода передвижения как у граждан ЕС)',
               'НЕ распространяется на Данию и Ирландию (они не участвуют в Directive 2003/109/EC)',
               'Требования: стабильные и регулярные средства к существованию, медстраховка, базовое знание португальского',
@@ -90,7 +90,7 @@ export default {
             { kind: 'timeline', text: '6-12 месяцев (по Lei 61/2025 — до 9 мес законных). Реально в 2026 — до 18 мес из-за очередей.' }
           ]},
           { id: 'p5', title: '5. Получить карту', content: [
-            { kind: 'paragraph', text: 'Карта ПМЖ приходит по почте. Действует 10 лет (национальная) или 5 лет (EULTR).' }
+            { kind: 'paragraph', text: 'Карта ПМЖ приходит по почте. **Срок действия карты — 5 лет** (как для национального ПМЖ по art. 76 nº 4, так и для EULTR). Сама autorização бессрочная — обновляется только пластик.' }
           ]}
         ]}
       ]
@@ -100,7 +100,7 @@ export default {
       title: 'После получения ПМЖ',
       content: [
         { kind: 'checklist', items: [
-          '🎂 Нет обязательного «пересчёта» времени — продление каждые 10 лет',
+          '🎂 Нет обязательного «пересчёта» времени — обновление КАРТЫ каждые 5 лет (сама autorização бессрочная)',
           '🌍 Национальный PMJ: риск cancellation при отсутствии 24 месяца подряд ИЛИ 30 месяцев суммарно за 3 года без уважительной причины. EULTR: риск потери при отсутствии из ЕС 12 месяцев подряд и в иных случаях',
           '💼 Работа без ограничений, без разрешений',
           '👨‍👩‍👧 Reagrupamento семьи — проверяйте актуальные условия по Lei 23/2007 (после Lei 61/2025)',
@@ -142,6 +142,6 @@ export default {
     { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Autorização Permanente', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }
