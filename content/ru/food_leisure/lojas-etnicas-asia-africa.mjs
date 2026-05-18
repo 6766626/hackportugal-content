@@ -3,7 +3,7 @@ export default {
   id: 'lojas-etnicas-asia-africa',
   categoryId: 'food_leisure',
   title: 'Этнические магазины: индийские, азиатские, африканские, бразильские и восточно-европейские продукты',
-  tldr: 'В Португалии специфические продукты проще искать не в Continente/Pingo Doce, а в этнических кварталах и специализированных lojas. В Лиссабоне главные точки: Centro Comercial Mouraria и Martim Moniz для азиатских, индийских, бангладешских и африканских товаров; Loja Brasil для бразильских; Atarazanas Lisboa для восточно-европейских. В Порту — Hindustan и Lugar dos Sabores. Цены в 2026 обычно: специи 1,50–5 €, рис 5 кг 8–18 €, заморозка/соленья 3–9 €.',
+  tldr: 'В Португалии специфические продукты проще искать не в Continente/Pingo Doce, а в этнических кварталах и специализированных lojas.\n\nВ Лиссабоне главные точки: Centro Comercial Mouraria и Martim Moniz для азиатских, индийских, бангладешских и африканских товаров; Loja Brasil для бразильских; Atarazanas Lisboa для восточно-европейских.\n\nВ Порту — Hindustan и Lugar dos Sabores.\n\nЦены в 2026 обычно: специи 1,50–5 €, рис 5 кг 8–18 €, заморозка/соленья 3–9 €.',
   tags: ['еда', 'азиатское', 'brasil', 'lisboa', 'porto'],
   estimatedReadMinutes: 5,
   steps: [
@@ -98,6 +98,6 @@ export default {
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica: безопасность пищевых продуктов и жалобы', url: 'https://www.asae.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Loja Brasil — ассортимент бразильских продуктов в Португалии', url: 'https://www.lojabrasil.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

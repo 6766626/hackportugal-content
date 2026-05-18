@@ -109,7 +109,7 @@ export default {
           'Нужно письмо от адвоката на português jurídico.',
           'Вы не говорите по-португальски, а дело требует точных формулировок.'
         ] },
-        { kind: 'paragraph', text: 'Попросите у адвоката письменную fee quote: consulta, análise documental, carta, processo judicial, IVA. В Португалии юридические услуги обычно облагаются IVA 23%, если не применимо освобождение. Для первой платной консультации нормальный диапазон на рынке — примерно 60–150 €, но цены свободные.' }
+        { kind: 'paragraph', text: 'Попросите у адвоката письменную fee quote: consulta, análise documental, carta, processo judicial, IVA.\n\nВ Португалии юридические услуги обычно облагаются IVA 23%, если не применимо освобождение. Для первой платной консультации нормальный диапазон на рынке — примерно 60–150 €, но цены свободные.' }
       ]
     }
   ],
@@ -125,6 +125,6 @@ export default {
     { title: 'Segurança Social: proteção jurídica / apoio judiciário', url: 'https://www.seg-social.pt/protecao-juridica', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 34/2004: regime de acesso ao direito e aos tribunais', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2004-34509975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

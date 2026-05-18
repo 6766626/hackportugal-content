@@ -3,7 +3,7 @@ export default {
   id: 'faturacao-holvi-toconline',
   categoryId: 'work_business',
   title: 'Программы выставления счетов для recibos verdes: Holvi, ToConline, Visee, Faturalia',
-  tldr: 'Самозанятый в Португалии может бесплатно выставлять recibos verdes в Portal das Finanças. Но если нужен нормальный учёт клиентов, повторяющиеся счета, экспорт SAF-T, QR и ATCUD, берут сертифицированную программу: ToConline, Visee, Faturalia, MOLONI. Бюджет в 2026: от 0 € до 30 €/мес. Holvi удобен как банковский счёт + инвойсы, но fiscal invoice для AT должен быть из Portal das Finanças или программы с сертификатом AT.',
+  tldr: 'Самозанятый в Португалии может бесплатно выставлять recibos verdes в Portal das Finanças. Но если нужен нормальный учёт клиентов, повторяющиеся счета, экспорт SAF-T, QR и ATCUD, берут сертифицированную программу: ToConline, Visee, Faturalia, MOLONI.\n\nБюджет в 2026: от 0 € до 30 €/мес. Holvi удобен как банковский счёт + инвойсы, но fiscal invoice для AT должен быть из Portal das Finanças или программы с сертификатом AT.',
   tags: ['recibosverdes', 'faturação', 'atcud', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -148,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

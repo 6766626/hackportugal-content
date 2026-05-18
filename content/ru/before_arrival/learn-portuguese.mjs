@@ -3,7 +3,7 @@ export default {
   id: 'learn-portuguese',
   categoryId: 'before_arrival',
   title: 'Как выучить португальский — школы, приложения, советы',
-  tldr: 'PT-PT (европейский) отличается от BR-PT произношением и частично словарём. Три пути: (1) бесплатные государственные курсы PLA для резидентов (150ч, А2 за 6 мес); (2) IEFP-курсы с субсидией для безработных; (3) частные: Fast Forward, CIAL, CLIC — 350-900 € за курс. Приложения: Practice Portuguese (специализация на PT-PT, лучший выбор), Portuguese With Carla (YouTube), Pimsleur (аудио). Duolingo — только бразильский вариант, для PT-PT не лучший старт.',
+  tldr: 'PT-PT (европейский) отличается от BR-PT произношением и частично словарём. Три пути: (1) бесплатные государственные курсы PLA для резидентов (150ч, А2 за 6 мес); (2) IEFP-курсы с субсидией для безработных; (3) частные: Fast Forward, CIAL, CLIC — 350-900 € за курс. Приложения: Practice Portuguese (специализация на PT-PT, лучший выбор), Portuguese With Carla (YouTube), Pimsleur (аудио)\.\n\nDuolingo — только бразильский вариант, для PT-PT не лучший старт.',
   tags: ['португальский', 'язык', 'курсы', 'ciple'],
   estimatedReadMinutes: 6,
   steps: [
@@ -141,6 +141,6 @@ export default {
     { title: 'Instituto Camões — сертификация', url: 'https://www.instituto-camoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CAPLE — экзамены CIPLE', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

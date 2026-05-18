@@ -3,7 +3,7 @@ export default {
   id: 'car-insurance',
   categoryId: 'auto_ownership',
   title: 'Автостраховка в Португалии — RC обязательна, Casco — по желанию',
-  tldr: 'Responsabilidade Civil (страхование гражданской ответственности) — обязательное ОСАГО для каждого зарегистрированного в Португалии автомобиля (Decreto-Lei 291/2007). Покрывает ущерб третьим лицам. Casco / Danos Próprios — покрытие вашего автомобиля, по желанию. Цены 2026: базовая RC от 180 €/год, полный пакет — 400–1200 €. Онлайн-покупка на сайтах Tranquilidade / Fidelidade / Zurich / Ageas или через брокеров. Новый водитель (2 года стажа) доплачивает 20–50 %.',
+  tldr: 'Responsabilidade Civil (страхование гражданской ответственности) — обязательное ОСАГО для каждого зарегистрированного в Португалии автомобиля (Decreto-Lei 291/2007)\.\n\nПокрывает ущерб третьим лицам. Casco / Danos Próprios — покрытие вашего автомобиля, по желанию.\n\nЦены 2026: базовая RC от 180 €/год, полный пакет — 400–1200 €. Онлайн-покупка на сайтах Tranquilidade / Fidelidade / Zurich / Ageas или через брокеров. Новый водитель (2 года стажа) доплачивает 20–50 %.',
   tags: ['страховка', 'rc', 'casco', 'автострахование'],
   estimatedReadMinutes: 6,
   steps: [
@@ -116,6 +116,6 @@ export default {
     { title: 'FGA — Fundo de Garantia Automóvel', url: 'https://www.fga.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Seguro automóvel', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

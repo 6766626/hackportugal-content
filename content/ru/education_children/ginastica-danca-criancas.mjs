@@ -3,7 +3,7 @@ export default {
   id: 'ginastica-danca-criancas',
   categoryId: 'education_children',
   title: 'Гимнастика и танцы для детей: Conservatório de Dança, academias и частные студии',
-  tldr: 'В Португалии детские танцы и гимнастика делятся на 3 трека: государственное профессиональное обучение в Escola Artística de Dança do Conservatório Nacional в Лиссабоне, академии при крупных институциях вроде Academia de Dança PNB Lisboa / Companhia Nacional de Bailado и частные студии у дома. Бюджет: Conservatório обычно без месячной платы, но с конкурсом; частные занятия — примерно 30–80 €/мес, регистрация 20–60 €, форма и обувь 30–120 €.',
+  tldr: 'В Португалии детские танцы и гимнастика делятся на 3 трека: государственное профессиональное обучение в Escola Artística de Dança do Conservatório Nacional в Лиссабоне, академии при крупных институциях вроде Academia de Dança PNB Lisboa / Companhia Nacional de Bailado и частные студии у дома.\n\nБюджет: Conservatório обычно без месячной платы, но с конкурсом; частные занятия — примерно 30–80 €/мес, регистрация 20–60 €, форма и обувь 30–120 €.',
   tags: ['танцы', 'гимнастика', 'дети', 'lisboa'],
   estimatedReadMinutes: 5,
   steps: [
@@ -179,6 +179,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

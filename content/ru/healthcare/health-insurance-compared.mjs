@@ -3,7 +3,7 @@ export default {
   id: 'health-insurance-compared',
   categoryId: 'healthcare',
   title: 'Частная медстраховка в Португалии — Médis, Multicare, CUF и др.',
-  tldr: 'SNS доступен зарегистрированным резидентам/utente; большинство основных услуг — без taxas moderadoras (Lei n.º 22/2022), но лекарства, стоматология, очки и часть услуг оплачиваются отдельно или частично. Очереди на специалистов варьируются от недель до месяцев в зависимости от региона, приоритета и специальности. Частная страховка ускоряет — GP/urgent care часто в тот же день, specialists/exames за дни-недели. Топ-страховщики: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare — сеть/администратор (не отдельный страховщик). Цены 2026: 30–80 €/мес базовый план, 100–250 €/мес полный. Для виз D7/D8 консульства обычно требуют travel medical insurance — точные требования у каждого консульства свои.',
+  tldr: 'SNS доступен зарегистрированным резидентам/utente; большинство основных услуг — без taxas moderadoras (Lei n.º 22/2022), но лекарства, стоматология, очки и часть услуг оплачиваются отдельно или частично. Очереди на специалистов варьируются от недель до месяцев в зависимости от региона, приоритета и специальности. Частная страховка ускоряет — GP/urgent care часто в тот же день, specialists/exames за дни-недели. Топ-страховщики: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare — сеть/администратор (не отдельный страховщик).\n\nЦены 2026: 30–80 €/мес базовый план, 100–250 €/мес полный. Для виз D7/D8 консульства обычно требуют travel medical insurance — точные требования у каждого консульства свои.',
   tags: ['страховка', 'здоровье', 'médis', 'multicare', 'частная медицина'],
   estimatedReadMinutes: 6,
   steps: [
@@ -147,6 +147,6 @@ export default {
     { title: 'ADSE, I.P.', url: 'https://www.adse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal dos Vistos MNE — requisitos D7/D8', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

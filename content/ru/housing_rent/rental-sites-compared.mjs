@@ -3,7 +3,7 @@ export default {
   id: 'rental-sites-compared',
   categoryId: 'housing_rent',
   title: 'Где искать аренду жилья — сайты и стратегия',
-  tldr: 'Четыре основных канала: агрегаторы (Idealista, Imovirtual, Supercasa), среднесрочная аренда (Flatio, Uniplaces), напрямую от собственников (OLX Imóveis, группы Facebook), агенты (Century 21, ERA, RE/MAX). Для долгосрочной аренды начните с Idealista + OLX. Для переезда до получения NIF — Flatio / Uniplaces (принимают просто паспорт). Средний срок поиска в Лиссабоне/Порту — 3–8 недель.',
+  tldr: 'Четыре основных канала: агрегаторы (Idealista, Imovirtual, Supercasa), среднесрочная аренда (Flatio, Uniplaces), напрямую от собственников (OLX Imóveis, группы Facebook), агенты (Century 21, ERA, RE/MAX). Для долгосрочной аренды начните с Idealista + OLX. Для переезда до получения NIF — Flatio / Uniplaces (принимают просто паспорт)\.\n\nСредний срок поиска в Лиссабоне/Порту — 3–8 недель.',
   tags: ['аренда', 'idealista', 'imovirtual', 'olx', 'flatio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -137,6 +137,6 @@ export default {
     { title: 'AMI — Associação dos Mediadores Imobiliários', url: 'https://www.ami.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Arrendar casa', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'd3-highly-qualified',
   categoryId: 'residence_permit',
   title: 'Виза D3 (высококвалифицированный специалист)',
-  tldr: 'D3 — для высококвалифицированной работы в Португалии: нужен contrato de trabalho или promessa de contrato, как правило с португальским работодателем/португальской структурой иностранной компании. Для чисто удалённой работы на иностранную компанию без португальского контракта смотрите D8. Порог: годовая gross remuneration ≥ 1,5× national average gross annual salary или ≥ 3× IAS (в 2026 = €1 611,39/мес). Доступ к IFICI 20% — ТОЛЬКО если деятельность попадает в утверждённый список (наука, НИОКР, вузы, стартапы) и соблюдены условия IFICI; не для обычных удалённых разработчиков.',
+  tldr: 'D3 — для высококвалифицированной работы в Португалии: нужен contrato de trabalho или promessa de contrato, как правило с португальским работодателем/португальской структурой иностранной компании. Для чисто удалённой работы на иностранную компанию без португальского контракта смотрите D8. Порог: годовая gross remuneration ≥ 1,5× national average gross annual salary или ≥ 3× IAS (в 2026 = €1 611,39/мес)\.\n\nДоступ к IFICI 20% — ТОЛЬКО если деятельность попадает в утверждённый список (наука, НИОКР, вузы, стартапы) и соблюдены условия IFICI; не для обычных удалённых разработчиков.',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d3', 'внж', 'высококвалифицированный', 'ict'],
   estimatedReadMinutes: 6,
@@ -33,7 +33,7 @@ export default {
           'Справка о несудимости',
           'Медстраховка на время до регистрации в SNS'
         ]},
-        { kind: 'warning', text: 'Cartão Azul UE (EU Blue Card) — ОТДЕЛЬНЫЙ режим со своими правилами (Lei 23/2007 art. 121-A и далее; Directive (EU) 2021/1883). Порог также считается от national average gross annual salary, с особыми/пониженными коэффициентами для некоторых профессий — НЕ используйте фиксированные €4 400/мес без проверки актуального порога AIMA/MNE.' }
+        { kind: 'warning', text: 'Cartão Azul UE (EU Blue Card) — ОТДЕЛЬНЫЙ режим со своими правилами (Lei 23/2007 art. 121-A и далее; Directive (EU) 2021/1883)\.\n\nПорог также считается от national average gross annual salary, с особыми/пониженными коэффициентами для некоторых профессий — НЕ используйте фиксированные €4 400/мес без проверки актуального порога AIMA/MNE.' }
       ]
     },
     {
@@ -74,6 +74,6 @@ export default {
     { title: 'Portaria 352/2024/1 — список квалифицированных профессий IFICI', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/352-2024-913098024', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Estatuto dos Benefícios Fiscais art. 58-A — режим IFICI', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1989-34423775', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

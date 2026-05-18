@@ -109,6 +109,6 @@ export default {
     { title: 'Aldeias Históricas de Portugal', url: 'https://aldeiashistoricasdeportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Aldeias Históricas', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

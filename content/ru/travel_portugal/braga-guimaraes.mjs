@@ -3,7 +3,7 @@ export default {
   id: 'braga-guimaraes',
   categoryId: 'travel_portugal',
   title: 'Брага и Гимарайнш — «колыбель Португалии»',
-  tldr: 'Брага — «португальский Рим», религиозная столица, собор XI в., знаменитый Bom Jesus do Monte (UNESCO). Гимарайнш (UNESCO) — место, где родилась Португалия в 1128 г., замок первого короля Афонсу Энрикеша. Из Порту — 1 час на поезде. Оба города можно посмотреть за день с базой в Порту.',
+  tldr: 'Брага — «португальский Рим», религиозная столица, собор XI в., знаменитый Bom Jesus do Monte (UNESCO)\.\n\nГимарайнш (UNESCO) — место, где родилась Португалия в 1128 г., замок первого короля Афонсу Энрикеша. Из Порту — 1 час на поезде. Оба города можно посмотреть за день с базой в Порту.',
   tags: ['braga', 'guimaraes', 'север', 'unesco'],
   estimatedReadMinutes: 7,
   steps: [
@@ -104,6 +104,6 @@ export default {
     { title: 'Visit Guimarães', url: 'https://www.cm-guimaraes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo do Porto e Norte', url: 'https://www.portoenorte.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

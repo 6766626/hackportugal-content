@@ -96,6 +96,6 @@ export default {
     { title: 'Turismo de Portugal — культурный гид', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ACT — трудовое законодательство Португалии', url: 'https://www.act.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

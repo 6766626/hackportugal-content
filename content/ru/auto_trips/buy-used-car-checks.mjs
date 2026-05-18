@@ -3,7 +3,7 @@ export default {
   id: 'buy-used-car-checks',
   categoryId: 'auto_trips',
   title: 'Как проверить б/у авто перед покупкой в Португалии',
-  tldr: 'Проверка **4 слоёв**: (1) **ACP / Standvirtual** — исторический отчёт по VIN, € 15-30: штрафы, пробег, аварии; (2) **Carfax Portugal** — международная база с историей из США/ЕС; (3) **Portal das Finanças** — проверить, нет ли долгов по IUC, ISV; (4) **ручной осмотр** + независимый механик за € 50-150. Продавец обязан предоставить DUA (Documento Único Automóvel), действующий IPO, руководство, ключи (оригинал + запасной). Штраф продавцу за сокрытие: до 3 × стоимости авто.',
+  tldr: 'Проверка **4 слоёв**: (1) **ACP / Standvirtual** — исторический отчёт по VIN, € 15-30: штрафы, пробег, аварии; (2) **Carfax Portugal** — международная база с историей из США/ЕС; (3) **Portal das Finanças** — проверить, нет ли долгов по IUC, ISV; (4) **ручной осмотр** + независимый механик за € 50-150. Продавец обязан предоставить DUA (Documento Único Automóvel), действующий IPO, руководство, ключи (оригинал + запасной)\.\n\nШтраф продавцу за сокрытие: до 3 × стоимости авто.',
   tags: ['авто', 'проверка', 'vin', 'покупка'],
   estimatedReadMinutes: 5,
   steps: [
@@ -177,6 +177,6 @@ export default {
     { title: 'ACP — Automóvel Club de Portugal', url: 'https://www.acp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Registo Automóvel', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

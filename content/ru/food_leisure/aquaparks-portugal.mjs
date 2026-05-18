@@ -3,7 +3,7 @@ export default {
   id: 'aquaparks-portugal',
   categoryId: 'food_leisure',
   title: 'Аквапарки Португалии — куда поехать летом (2026)',
-  tldr: 'В Португалии 8 крупных аквапарков. Самые большие — три в Алгарве: Aquashow (Quarteira), Slide & Splash (Lagoa), Aqualand (Alcantarilha). На севере — Naturwaterpark (Vila Real) и Parque Aquático de Amarante. В центре — Norpark (Nazaré), Panorâmico Aquaparque (Pombal), Sportágua (Peniche). На Мадейре — Aqua Park Santa Cruz. Сезон у большинства — с апреля/мая по сентябрь/октябрь. Билеты дешевле онлайн (скидки 10–30%). Цены 2026: взрослый 27–38 €, ребёнок 18–28 € (от 1 метра роста, дети ниже — бесплатно). Аквапарки Алгарве в высокий сезон (июль-август) дороже на 3–4 €.',
+  tldr: 'В Португалии 8 крупных аквапарков. Самые большие — три в Алгарве: Aquashow (Quarteira), Slide & Splash (Lagoa), Aqualand (Alcantarilha).\n\nНа севере — Naturwaterpark (Vila Real) и Parque Aquático de Amarante.\n\nВ центре — Norpark (Nazaré), Panorâmico Aquaparque (Pombal), Sportágua (Peniche).\n\nНа Мадейре — Aqua Park Santa Cruz.\n\nСезон у большинства — с апреля/мая по сентябрь/октябрь.\n\nБилеты дешевле онлайн (скидки 10–30%).\n\nЦены 2026: взрослый 27–38 €, ребёнок 18–28 € (от 1 метра роста, дети ниже — бесплатно)\.\n\nАквапарки Алгарве в высокий сезон (июль-август) дороже на 3–4 €.',
   tags: ['аквапарк', 'лето', 'дети', 'алгарве'],
   estimatedReadMinutes: 7,
   steps: [
@@ -193,7 +193,7 @@ export default {
     { title: 'Aqualand Algarve — Tickets (официальный сайт)', url: 'https://www.aqualand.pt/tickets/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Aquashow Family Park — Visit Portugal', url: 'https://www.visitportugal.com/en/content/aquashow-family-park', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: все 8 крупных аквапарков Португалии (Алгарве, север, центр, Мадейра) с верифицированными ценами 2026 года, сезонами работы, адресами и практическими советами. Источники — официальные сайты Aquashow, Slide & Splash, Aqualand и портал Visit Portugal.'

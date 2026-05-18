@@ -127,6 +127,6 @@ export default {
     { title: 'DECO PROteste: direitos e cuidados na contratação de serviços domésticos', url: 'https://www.deco.proteste.pt', kind: 'news', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Helpling Portugal: serviço de limpeza doméstica', url: 'https://www.helpling.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

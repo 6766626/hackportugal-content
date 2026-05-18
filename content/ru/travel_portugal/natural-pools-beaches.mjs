@@ -3,7 +3,7 @@ export default {
   id: 'natural-pools-beaches',
   categoryId: 'travel_portugal',
   title: 'Природные бассейны и лучшие пляжи Португалии',
-  tldr: 'В Португалии более 850 пляжей и множество piscinas naturais — природных бассейнов в скалах у океана. Топ: Azenhas do Mar (Sintra), Cabo Mondego (Figueira), Nossa Senhora da Guia (Cascais), пещерные пляжи Alentejo (Zambujeira). Голубые флаги 2025: более 370 пляжей. Бесплатные муниципальные бассейны есть в большинстве Junta. Самые тёплые: Algarve (22-24°C летом), Madeira (21-23°C круглый год). Холоднее: северное атлантическое побережье (17-20°C).',
+  tldr: 'В Португалии более 850 пляжей и множество piscinas naturais — природных бассейнов в скалах у океана. Топ: Azenhas do Mar (Sintra), Cabo Mondego (Figueira), Nossa Senhora da Guia (Cascais), пещерные пляжи Alentejo (Zambujeira)\.\n\nГолубые флаги 2025: более 370 пляжей. Бесплатные муниципальные бассейны есть в большинстве Junta. Самые тёплые: Algarve (22-24°C летом), Madeira (21-23°C круглый год)\.\n\nХолоднее: северное атлантическое побережье (17-20°C).',
   tags: ['пляжи', 'бассейны', 'природные бассейны', 'лето'],
   estimatedReadMinutes: 7,
   steps: [
@@ -134,6 +134,6 @@ export default {
     { title: 'Visit Portugal — Praias', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ABAE — Bandeira Azul Portugal', url: 'https://bandeiraazul.abae.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

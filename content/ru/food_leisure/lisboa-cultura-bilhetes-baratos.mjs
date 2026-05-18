@@ -81,6 +81,6 @@ export default {
     { title: 'EGEAC / Lisboa Cultura — муниципальные пространства, памятники и билеты', url: 'https://egeac.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Museu Nacional de Arte Antiga — билеты и режим посещения', url: 'https://www.museudearteantiga.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

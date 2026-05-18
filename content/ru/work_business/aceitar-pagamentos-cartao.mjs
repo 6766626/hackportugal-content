@@ -100,7 +100,7 @@ export default {
       id: 'invoicing',
       title: '5. Связка с faturação: POS-чек ≠ fatura',
       content: [
-        { kind: 'paragraph', text: 'Платёжный провайдер подтверждает получение денег, но не выполняет налоговую обязанность по выставлению fatura. В Португалии продажа/услуга должна быть отражена через Portal das Finanças или сертифицированное software de faturação, если вы им пользуетесь.' },
+        { kind: 'paragraph', text: 'Платёжный провайдер подтверждает получение денег, но не выполняет налоговую обязанность по выставлению fatura.\n\nВ Португалии продажа/услуга должна быть отражена через Portal das Finanças или сертифицированное software de faturação, если вы им пользуетесь.' },
         { kind: 'checklist', items: [
           'Для recibos verdes: можно выписать fatura-recibo в Portal das Finanças после оплаты.',
           'Если сначала выставляете счёт, используйте fatura и затем recibo после получения денег.',
@@ -170,6 +170,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -64,7 +64,7 @@ export default {
       id: 'non-urgent-transport',
       title: 'Transporte de doentes não-urgente: как заказать',
       content: [
-        { kind: 'paragraph', text: 'Неэкстренная перевозка — это когда пациенту нужен транспорт сидя, лежа или с сопровождением, но нет непосредственной угрозы жизни. Например: поездка на гемодиализ, физиотерапию, обследование, выписка из больницы домой, перевозка пожилого человека между домом и клиникой.' },
+        { kind: 'paragraph', text: 'Неэкстренная перевозка — это когда пациенту нужен транспорт сидя, лежа или с сопровождением, но нет непосредственной угрозы жизни.\n\nНапример: поездка на гемодиализ, физиотерапию, обследование, выписка из больницы домой, перевозка пожилого человека между домом и клиникой.' },
         { kind: 'substeps', items: [
           { id: 'check-sns', title: '1. Проверьте, может ли оплатить SNS', content: [
             { kind: 'paragraph', text: 'Если перевозка медицински необходима, спросите врача SNS или больницу о requisição de transporte. Без назначения поездка обычно оплачивается пациентом.' }
@@ -135,6 +135,6 @@ export default {
     { title: 'ANEPC — Autoridade Nacional de Emergência e Proteção Civil', url: 'https://www.anepc.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — emergência médica и использование 112', url: 'https://www.sns24.gov.pt/guia/emergencia-medica/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

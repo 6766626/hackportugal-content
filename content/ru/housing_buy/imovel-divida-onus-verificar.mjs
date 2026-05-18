@@ -27,7 +27,7 @@ export default {
       id: 'certidao-predial',
       title: 'Закажите certidão permanente do registo predial за 15 €',
       content: [
-        { kind: 'paragraph', text: 'Это главный документ для проверки обременений. Заказывается на predialonline.justica.gov.pt. Стоимость электронной certidão permanente — 15 €, доступ действует 6 месяцев. Обычно достаточно кода доступа: PDF не нужен, нотариус и банк вводят код и видят актуальную запись.' },
+        { kind: 'paragraph', text: 'Это главный документ для проверки обременений. Заказывается на predialonline.justica.gov.pt.\n\nСтоимость электронной certidão permanente — 15 €, доступ действует 6 месяцев. Обычно достаточно кода доступа: PDF не нужен, нотариус и банк вводят код и видят актуальную запись.' },
         { kind: 'checklist', items: [
           'Попросите у продавца código da certidão permanente или закажите сами, если знаете freguesia, concelho, número de descrição predial.',
           'Проверьте “Descrição” — тип объекта, адрес, площадь, доли, fração autónoma, garagem, arrecadação.',
@@ -127,6 +127,6 @@ export default {
     { title: 'Código do Registo Predial — Decreto-Lei 224/84', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1984-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — compra e venda de casa e documentação associada', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'child-adoption-process',
   categoryId: 'education_children',
   title: 'Усыновление ребёнка в Португалии — 9 этапов',
-  tldr: 'Усыновление в Португалии идёт через Segurança Social или Santa Casa da Misericórdia de Lisboa: candidatura, обязательная formação, психосоциальная оценка до 6 месяцев, включение в национальный список, matching с ребёнком, переходный период, pré-adoção до 6 месяцев и решение Tribunal de Família e Menores. Процесс бесплатный в госчасти, но для иностранцев критичны легальное проживание, переводы, apostila и стабильные условия.',
+  tldr: 'Усыновление в Португалии идёт через Segurança Social или Santa Casa da Misericórdia de Lisboa: candidatura, обязательная formação, психосоциальная оценка до 6 месяцев, включение в национальный список, matching с ребёнком, переходный период, pré-adoção до 6 месяцев и решение Tribunal de Família e Menores.\n\nПроцесс бесплатный в госчасти, но для иностранцев критичны легальное проживание, переводы, apostila и стабильные условия.',
   tags: ['усыновление', 'crianças', 'segurança-social', 'суд'],
   estimatedReadMinutes: 6,
   steps: [
@@ -134,6 +134,6 @@ export default {
     { title: 'Regime Jurídico do Processo de Adoção — Lei 143/2015', url: 'https://diariodarepublica.pt/dr/detalhe/lei/143-2015-70215246', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código Civil português: adoção, art. 1973.º e seguintes', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

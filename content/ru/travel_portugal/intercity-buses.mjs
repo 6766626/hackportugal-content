@@ -3,7 +3,7 @@ export default {
   id: 'intercity-buses',
   categoryId: 'travel_portugal',
   title: 'Автобусы между городами Португалии — Rede Expressos, FlixBus, Alsa',
-  tldr: 'Основные операторы: Rede Expressos (главная сеть Португалии, отправления от Sete Rios), FlixBus (международные маршруты и часть маршрутов по Португалии), Alsa (ориентир на Испанию), EVA Transportes (юг, Алгарве). Лиссабон — Порту ≈ 3,5 часа, 15–25 €; Лиссабон — Фару ≈ 3 часа, 20–30 €. Бронировать лучше онлайн: заранее дешевле.',
+  tldr: 'Основные операторы: Rede Expressos (главная сеть Португалии, отправления от Sete Rios), FlixBus (международные маршруты и часть маршрутов по Португалии), Alsa (ориентир на Испанию), EVA Transportes (юг, Алгарве)\.\n\nЛиссабон — Порту ≈ 3,5 часа, 15–25 €; Лиссабон — Фару ≈ 3 часа, 20–30 €. Бронировать лучше онлайн: заранее дешевле.',
   tags: ['автобус', 'flixbus', 'rede expressos', 'alsa'],
   estimatedReadMinutes: 5,
   steps: [
@@ -86,6 +86,6 @@ export default {
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Rede Expressos — информация оператора', url: 'https://rede-expressos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

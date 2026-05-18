@@ -3,7 +3,7 @@ export default {
   id: 'eu-flight-compensation',
   categoryId: 'emergency_rights',
   title: 'Compensações por voo cancelado ou atrasado (UE 261/2004)',
-  tldr: 'O Regulamento UE 261/2004 prevê compensações fixas de 250 € / 400 € / 600 € por voos cancelados ou atrasos ≥ 3 horas, bem como o direito a assistência (refeições, hotel) para voos a partir de PT ou para PT em companhias aéreas da UE. Apresente o pedido à companhia aérea no prazo de 30 dias. Recusa / silêncio — reclamação à ANAC (Autoridade Nacional da Aviação Civil). Também pode recorrer a serviços como AirHelp / Flightright mediante uma comissão de 25 %.',
+  tldr: 'O Regulamento UE 261/2004 dá compensações fixas de 250 € / 400 € / 600 € por voos cancelados ou atrasos ≥ 3 horas, bem como o direito a assistência (comida, hotel) para voos a partir de PT ou para PT em companhias aéreas da UE. Apresente o pedido à companhia aérea no prazo de 30 dias. Recusa / silêncio — reclamação à ANAC (Autoridade Nacional da Aviação Civil).\n\nTambém pode recorrer a serviços como AirHelp / Flightright por uma comissão de 25 %.',
   tags: ['voo', 'compensação', 'ue 261', 'anac', 'companhia aérea'],
   estimatedReadMinutes: 5,
   steps: [
@@ -15,8 +15,8 @@ export default {
           '✈️ Voo a partir de um aeroporto na UE (qualquer transportadora) OU para um aeroporto da UE numa transportadora da UE',
           '🕐 Atraso ≥ 3 horas à chegada',
           '❌ Cancelamento < 14 dias antes da partida',
-          '🪑 Recusa de embarque devido a overbooking',
-          '✋ Responsabilidade da companhia aérea (não uma circunstância extraordinária — relâmpago, greve que não seja dos seus funcionários)'
+          '🪑 Recusa de embarque por overbooking',
+          '✋ Responsabilidade da companhia aérea (não uma circunstância extraordinária — relâmpago, greve de trabalhadores que não sejam seus)'
         ]},
         { kind: 'warning', text: 'Força maior (trovoada, terramoto, greves políticas) — não há direito a compensação, mas o direito a assistência mantém-se.' }
       ]
@@ -31,7 +31,7 @@ export default {
           '🌏 > 3500 km: 600 €',
           '🎟️ São montantes fixos, NÃO dependem do preço do bilhete',
           '👨‍👩‍👧 Por cada passageiro separadamente',
-          '🔁 Além disso: reembolso do bilhete OU reencaminhamento + direito a assistência'
+          '🔁 Mais: reembolso do bilhete OU reencaminhamento + direito a assistência'
         ]}
       ]
     },
@@ -42,10 +42,10 @@ export default {
         { kind: 'paragraph', text: 'Em atrasos ≥ 2 horas, a companhia aérea É OBRIGADA a assegurar:' },
         { kind: 'checklist', items: [
           '🍔 Refeições e bebidas proporcionais ao tempo de espera',
-          '📞 2 chamadas telefónicas / email',
+          '📞 2 chamadas telefónicas / emails',
           '🏨 Hotel — se o atraso implicar pernoita',
-          '🚕 Transporte até ao hotel',
-          '🔄 Em caso de recusa — guarde os recibos; depois peça o reembolso'
+          '🚕 Transfer para o hotel',
+          '🔄 Se houver recusa — guarde os recibos, para reembolso posterior'
         ]}
       ]
     },
@@ -58,8 +58,8 @@ export default {
             { kind: 'checklist', items: [
               'Cartão de embarque',
               'Confirmação da reserva',
-              'Fotografia do painel com o atraso / captura de ecrã do email',
-              'Recibos de comida / transporte / hotel (para compensação das despesas de assistência)',
+              'Foto do painel com o atraso / captura de ecrã do email',
+              'Recibos de comida / transfer / hotel (para compensação das despesas de assistência)',
               'Testemunhas (nome, contactos dos passageiros próximos)'
             ]}
           ]},
@@ -83,10 +83,10 @@ export default {
             ]}
           ]},
           { id: 'h4', title: '4. Alternativa: serviços', content: [
-            { kind: 'paragraph', text: 'AirHelp, Flightright, ClaimCompass — cobram 25–35 % de comissão, mas tratam de tudo por si. Pagamento apenas em caso de vitória. Boa opção para casos complexos ou se o seu tempo valer mais.' }
+            { kind: 'paragraph', text: 'AirHelp, Flightright, ClaimCompass — cobram 25–35 % de comissão, mas tratam de tudo por si. Pagamento apenas em caso de sucesso. Bom para casos complexos ou se o seu tempo vale mais.' }
           ]},
           { id: 'h5', title: '5. Último recurso: tribunal', content: [
-            { kind: 'paragraph', text: 'Julgado de Paz (tribunal de pequenas causas) para pedidos < 15 000 €. Taxa de justiça de 70 €. A companhia aérea muitas vezes aceita antes do tribunal.' }
+            { kind: 'paragraph', text: 'Julgado de Paz (tribunal de pequenas causas) para pedidos < 15 000 €. Taxa de justiça 70 €. A companhia aérea aceita muitas vezes antes do tribunal.' }
           ]}
         ]}
       ]
@@ -100,9 +100,9 @@ export default {
             { kind: 'paragraph', text: 'Distância ~1550 km → compensação de 400 € por passageiro. Se a causa for técnica — sim. Se for trovoada — não.' }
           ]},
           { id: 'e2', title: 'Lisboa → Moscovo (cancelado)', content: [
-            { kind: 'paragraph', text: 'Não há voos directos desde 2022. Voo Lisboa → Istambul (3000 km) → compensação de 400 €. Para Istambul → Moscovo — não se aplica o UE 261, não é compensado.' }
+            { kind: 'paragraph', text: 'Não há voos directos desde 2022. Voo Lisboa → Istambul (3000 km) → compensação de 400 €. Para Istambul → Moscovo — não é UE 261, não é compensável.' }
           ]},
-          { id: 'e3', title: 'A Ryanair cancelou Porto → Madrid', content: [
+          { id: 'e3', title: 'Ryanair cancelou Porto → Madrid', content: [
             { kind: 'paragraph', text: '< 1500 km → 250 €. Mais escolha: reembolso do bilhete OU reencaminhamento no voo seguinte.' }
           ]}
         ]}
@@ -121,6 +121,6 @@ export default {
     { title: 'Livro de Reclamações', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UE — Direitos dos passageiros', url: 'https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

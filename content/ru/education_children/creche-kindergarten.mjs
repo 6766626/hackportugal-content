@@ -3,7 +3,7 @@ export default {
   id: 'creche-kindergarten',
   categoryId: 'education_children',
   title: 'Ясли и детский сад в Португалии',
-  tldr: 'Creche (обычно 0–3) бывает IPSS/социальная, частная и реже муниципальная. По программе **Creche Feliz** место может быть бесплатным в покрытых учреждениях (в основном IPSS/социальная сеть). Jardim de Infância / educação pré-escolar (3–6 лет) — в гос. сети бесплатная образовательная часть; питание, transporte и AAAF/prolongamento могут оплачиваться отдельно. Посещение pré-escolar **необязательно** — обязательное школьное образование начинается с 6 лет. Запись на Creche Feliz: Segurança Social Direta; на Jardim de Infância: Portal das Matrículas.',
+  tldr: 'Creche (обычно 0–3) бывает IPSS/социальная, частная и реже муниципальная. По программе **Creche Feliz** место может быть бесплатным в покрытых учреждениях (в основном IPSS/социальная сеть)\.\n\nJardim de Infância / educação pré-escolar (3–6 лет) — в гос. сети бесплатная образовательная часть; питание, transporte и AAAF/prolongamento могут оплачиваться отдельно. Посещение pré-escolar **необязательно** — обязательное школьное образование начинается с 6 лет. Запись на Creche Feliz: Segurança Social Direta; на Jardim de Infância: Portal das Matrículas.',
   tags: ['creche', 'детсад', 'jardim de infância', 'дети'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: 'Creche Feliz (бесплатные ясли для eligible мест) — с 2022', content: [
-            { kind: 'paragraph', text: 'Бесплатное место в **покрытых** учреждениях — преимущественно социальная/солидарная сеть IPSS; частные creches с прибылью могут участвовать только при соблюдении правил программы (обычно когда нет подходящего места в социальной сети). Изначально (2022/23) ограничение по 1–2 эшелонам abono — на 2026 уже не основное правило. Стандартная mensalidade — €0; «extras» (доп. услуги, расширенные часы) могут оплачиваться отдельно.' }
+            { kind: 'paragraph', text: 'Бесплатное место в **покрытых** учреждениях — преимущественно социальная/солидарная сеть IPSS; частные creches с прибылью могут участвовать только при соблюдении правил программы (обычно когда нет подходящего места в социальной сети)\.\n\nИзначально (2022/23) ограничение по 1–2 эшелонам abono — на 2026 уже не основное правило. Стандартная mensalidade — €0; «extras» (доп. услуги, расширенные часы) могут оплачиваться отдельно.' }
           ]},
           { id: 't2', title: 'Creche IPSS вне Creche Feliz', content: [
             { kind: 'paragraph', text: 'Если место не покрыто Creche Feliz, может применяться comparticipação familiar по доходу согласно правилам учреждения/Segurança Social. Питание обычно включено в стандарт.' }
@@ -98,6 +98,6 @@ export default {
     { title: 'Portal das Matrículas', url: 'https://portaldasmatriculas.edu.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGE — Orientações Curriculares para a Educação Pré-Escolar', url: 'https://www.dge.mec.pt/orientacoes-curriculares-para-educacao-pre-escolar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

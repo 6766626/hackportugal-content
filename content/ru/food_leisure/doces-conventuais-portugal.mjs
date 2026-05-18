@@ -95,6 +95,6 @@ export default {
     { title: 'DGADR: Produtos Tradicionais Portugueses', url: 'https://tradicional.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Europeia eAmbrosia: produtos IGP portugueses', url: 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

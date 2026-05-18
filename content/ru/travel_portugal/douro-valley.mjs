@@ -3,7 +3,7 @@ export default {
   id: 'douro-valley',
   categoryId: 'travel_portugal',
   title: 'Долина Дору — винодельческий регион ЮНЕСКО',
-  tldr: 'Долина Дору (Alto Douro Vinhateiro, ЮНЕСКО с 2001) — старейший в мире винодельческий регион с официально установленными границами (1756). Террасные виноградники вдоль реки, портвейн, живописные деревни. Из Порту: поезд до Régua/Pinhão (2-2.5ч), авто, речные круизы, вертолёт. Идеально 2-3 дня.',
+  tldr: 'Долина Дору (Alto Douro Vinhateiro, ЮНЕСКО с 2001) — старейший в мире винодельческий регион с официально установленными границами (1756)\.\n\nТеррасные виноградники вдоль реки, портвейн, живописные деревни. Из Порту: поезд до Régua/Pinhão (2-2.5ч), авто, речные круизы, вертолёт. Идеально 2-3 дня.',
   tags: ['douro', 'port', 'вино', 'unesco'],
   estimatedReadMinutes: 9,
   steps: [
@@ -129,6 +129,6 @@ export default {
     { title: 'UNESCO — Alto Douro Wine Region', url: 'https://whc.unesco.org/en/list/1046/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Wines of Portugal — регион Douro', url: 'https://www.winesofportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

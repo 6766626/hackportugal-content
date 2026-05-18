@@ -3,7 +3,7 @@ export default {
   id: 'noites-fado-tradicional',
   categoryId: 'food_leisure',
   title: 'Касы фаду: где слушать аутентичный fado в Лиссабоне и Коимбре',
-  tldr: 'Fado в 2026 году лучше слушать не “где громче зовут туристов”, а в casas de fado с тишиной во время песни. В Лиссабоне идите в Alfama, Mouraria и Bairro Alto: Tasca do Chico — бюджетно и шумно, Mesa de Frades и Clube de Fado — классический ужин+концерт за 45–70 € на человека. В Коимбре fado другое: мужские голоса, университетская традиция, часто поздние сессии у Sé Velha; билеты обычно 10–20 €, ужин не обязателен.',
+  tldr: 'Fado в 2026 году лучше слушать не “где громче зовут туристов”, а в casas de fado с тишиной во время песни.\n\nВ Лиссабоне идите в Alfama, Mouraria и Bairro Alto: Tasca do Chico — бюджетно и шумно, Mesa de Frades и Clube de Fado — классический ужин+концерт за 45–70 € на человека. В Коимбре fado другое: мужские голоса, университетская традиция, часто поздние сессии у Sé Velha; билеты обычно 10–20 €, ужин не обязателен.',
   tags: ['fado', 'лиссабон', 'коимбра', 'вечер'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-is-real-fado',
       title: 'Как понять, что это не туристическая декорация',
       content: [
-        { kind: 'paragraph', text: 'Аутентичное fado — это не фон к ужину. Когда fadista поёт, зал замолкает, официанты обычно прекращают движение, а разговоры считаются дурным тоном. В Лиссабоне это городская традиция районов Alfama, Mouraria и Bairro Alto; в Коимбре — университетская мужская традиция, связанная со студентами и serenata.' },
+        { kind: 'paragraph', text: 'Аутентичное fado — это не фон к ужину. Когда fadista поёт, зал замолкает, официанты обычно прекращают движение, а разговоры считаются дурным тоном.\n\nВ Лиссабоне это городская традиция районов Alfama, Mouraria и Bairro Alto; в Коимбре — университетская мужская традиция, связанная со студентами и serenata.' },
         { kind: 'checklist', items: ['В афише указаны имена fadista и guitarrista, а не только “traditional fado show”', 'Есть паузы между сетами: обычно 3–5 блоков по 15–25 минут за вечер', 'Во время песни просят тишины — это хороший знак', 'Меню простое: bacalhau, caldo verde, petiscos, vinho; не обязательно “люкс”', 'В маленьких tasca может быть без сцены: певец стоит в проходе или у стены', 'В Лиссабоне звучит guitarra portuguesa + viola; в Коимбре строй, манера и репертуар другие', 'Если у входа агрессивно зазывают на “authentic fado tonight”, проверьте отзывы и цену до входа'] },
         { kind: 'warning', text: 'Не путайте fado с обычным рестораном с живой музыкой. В настоящем формате вы платите не только за еду, но и за тишину, внимание и уважение к исполнителям.' }
       ]
@@ -73,6 +73,6 @@ export default {
     { title: 'UNESCO — Fado, urban popular song of Portugal, Intangible Cultural Heritage', url: 'https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Turismo Centro de Portugal — Coimbra и культурные маршруты региона', url: 'https://www.centerofportugal.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'eu-flight-compensation',
   categoryId: 'emergency_rights',
   title: 'Компенсации за отменённый или задержанный рейс (EU 261/2004)',
-  tldr: 'Регламент EU 261/2004 даёт фиксированные компенсации € 250 / € 400 / € 600 за отменённые рейсы или задержку ≥ 3 часа, а также право на обслуживание (еда, отель) для рейсов из PT или в PT на EU-авиакомпаниях. Подавать заявку в авиакомпанию в течение 30 дней. Отказ / молчание — жалоба в ANAC (Autoridade Nacional da Aviação Civil). Можно также через сервисы типа AirHelp / Flightright за 25 % комиссии.',
+  tldr: 'Регламент EU 261/2004 даёт фиксированные компенсации € 250 / € 400 / € 600 за отменённые рейсы или задержку ≥ 3 часа, а также право на обслуживание (еда, отель) для рейсов из PT или в PT на EU-авиакомпаниях. Подавать заявку в авиакомпанию в течение 30 дней. Отказ / молчание — жалоба в ANAC (Autoridade Nacional da Aviação Civil)\.\n\nМожно также через сервисы типа AirHelp / Flightright за 25 % комиссии.',
   tags: ['рейс', 'компенсация', 'EU 261', 'ANAC', 'авиакомпания'],
   estimatedReadMinutes: 5,
   steps: [
@@ -121,6 +121,6 @@ export default {
     { title: 'Livro de Reclamações', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'EU — Passenger rights', url: 'https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

@@ -108,6 +108,6 @@ export default {
     { title: 'SNS 24 — доступ к медицинской помощи и консультациям в SNS', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Entidade Reguladora da Saúde — права пользователей медицинских услуг', url: 'https://www.ers.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

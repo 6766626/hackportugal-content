@@ -105,6 +105,6 @@ export default {
     { title: 'Portal das Finanças (налоговый портал) — калькуляторы ISV/IUC', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UVE — União dos Veículos Elétricos (сообщество)', url: 'https://www.uve.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

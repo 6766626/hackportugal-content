@@ -3,7 +3,7 @@ export default {
   id: 'habilitacao-herdeiros',
   categoryId: 'emergency_rights',
   title: 'Habilitação de Herdeiros — определение наследников после смерти',
-  tldr: 'Habilitação de Herdeiros — португальский документ, который официально перечисляет наследников умершего. Нужен, чтобы банк разблокировал счета, можно было зарегистрировать недвижимость, автомобиль, доли в компании, оформить pensão de sobrevivência и начать раздел наследства. В IRN услуга стоит 150 €; нотариусы берут по своим тарифам. Налоговую декларацию по Imposto do Selo обычно подают в Finanças до конца 3-го месяца после смерти.',
+  tldr: 'Habilitação de Herdeiros — португальский документ, который официально перечисляет наследников умершего. Нужен, чтобы банк разблокировал счета, можно было зарегистрировать недвижимость, автомобиль, доли в компании, оформить pensão de sobrevivência и начать раздел наследства. В IRN услуга стоит 150 €; нотариусы берут по своим тарифам.\n\nНалоговую декларацию по Imposto do Selo обычно подают в Finanças до конца 3-го месяца после смерти.',
   tags: ['наследство', 'irn', 'finanças', 'банк'],
   estimatedReadMinutes: 6,
   steps: [
@@ -73,6 +73,6 @@ export default {
     { title: 'Código do Imposto do Selo — regras declarativas e transmissões gratuitas', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1999-34460875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EUR-Lex — Regulation (EU) No 650/2012 on succession', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0650', kind: 'law', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

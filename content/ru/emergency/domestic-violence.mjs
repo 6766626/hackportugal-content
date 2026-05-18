@@ -158,6 +158,6 @@ export default {
     { title: 'Lei 112/2009 — Violência Doméstica', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34466375', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UMAR', url: 'https://umarfeminismos.org/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

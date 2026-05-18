@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'car-insurance',
   categoryId: 'auto_ownership',
-  title: 'Seguro automóvel em Portugal — RC é obrigatório, Casco é opcional',
-  tldr: 'Responsabilidade Civil — seguro obrigatório de responsabilidade civil automóvel para todos os veículos registados em Portugal (Decreto-Lei 291/2007). Cobre danos causados a terceiros. Casco / Danos Próprios — cobertura do seu veículo, opcional. Preços 2026: RC básico a partir de 180 €/ano, pacote completo — 400–1200 €. Compra online nos sites da Tranquilidade / Fidelidade / Zurich / Ageas ou através de mediadores. Condutor novo (2 anos de experiência) paga mais 20–50 %.',
+  title: 'Seguro automóvel em Portugal — RC obrigatória, Casco opcional',
+  tldr: 'Responsabilidade Civil — seguro obrigatório de responsabilidade civil para cada automóvel registado em Portugal (Decreto-Lei 291/2007).\n\nCobre danos causados a terceiros. Casco / Danos Próprios — cobertura do seu automóvel, opcional.\n\nPreços 2026: RC básica a partir de 180 €/ano, pacote completo — 400–1200 €. Compra online nos sites da Tranquilidade / Fidelidade / Zurich / Ageas ou através de mediadores. Condutor novo (2 anos de carta) paga mais 20–50 %.',
   tags: ['seguro', 'rc', 'casco', 'seguro automóvel'],
   estimatedReadMinutes: 6,
   steps: [
@@ -16,8 +16,8 @@ export default {
             { kind: 'checklist', items: [
               'Obrigatória por lei (Decreto-Lei 291/2007)',
               'Cobre danos causados a terceiros (automóveis, pessoas)',
-              'Capitais mínimos de seguro RC: definidos por lei/ASF (ver art. 12 DL 291/2007); é importante distinguir o limite por lesado e o limite por sinistro — verifique os valores actualizados nas publicações da ASF',
-              'Certificado Internacional de Seguro Automóvel / antiga Carta Verde — para EU/EEA a RC portuguesa é válida automaticamente, mas é útil ter o certificado; para alguns países fora da EU/EEA pode ser obrigatório',
+              'Capitais mínimos da RC: definidos por lei/ASF (ver art. 12 DL 291/2007); é importante distinguir o limite por lesado e o limite por sinistro — confirme os valores actualizados nas publicações da ASF',
+              'Certificado Internacional de Seguro Automóvel / antiga Carta Verde — na UE/EEE a RC portuguesa é válida automaticamente, mas é útil ter o certificado; para alguns países fora da UE/EEE pode ser obrigatório',
               'Sem RC válida: para automóvel ligeiro, a coima é normalmente **500–2500 €**, podendo haver apreensão/imobilização do veículo e responsabilidade perante o Fundo de Garantia Automóvel/lesados'
             ]}
           ]},
@@ -30,10 +30,10 @@ export default {
             ]}
           ]},
           { id: 'assist', title: 'Assistência em Viagem', content: [
-            { kind: 'paragraph', text: 'Reboque + assistência em estrada. Não é obrigatória, mas é muito útil. Muitas vezes incluída no pacote por 30–60 €/ano. Mais detalhes no guia «Pneu furado na auto-estrada».' }
+            { kind: 'paragraph', text: 'Reboque + assistência em estrada. Não é obrigatória, mas é muito útil. Frequentemente incluída no pacote por 30–60 €/ano. Mais detalhes no guia «Pneu furado na auto-estrada».' }
           ]},
           { id: 'vida', title: 'Ocupantes', content: [
-            { kind: 'paragraph', text: 'Seguro de vida dos passageiros em caso de acidente rodoviário. Adicional de 30–80 €/ano.' }
+            { kind: 'paragraph', text: 'Seguro de vida dos passageiros em caso de acidente rodoviário. Extra de 30–80 €/ano.' }
           ]},
           { id: 'legal', title: 'Proteção Jurídica', content: [
             { kind: 'paragraph', text: 'Apoio jurídico em litígios / acções judiciais. 20–50 €/ano.' }
@@ -47,13 +47,13 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💻 Sites das seguradoras (Tranquilidade, Fidelidade, Zurich, Ageas, Allianz, Liberty, MGEN, Ocidental)',
-          '🔍 Mediadores (agregadores): presencialmente junto de bancos, online — MB Easy, MudeyYa',
+          '🔍 Mediadores (agregadores): offline junto de bancos, online — MB Easy, MudeyYa',
           '🏦 Através do banco — muitas vezes associado ao crédito habitação',
-          '📄 Necessário: DUA, CC/autorização de residência, carta de condução, NIF',
-          '📅 Vigora a partir da data escolhida',
-          '💳 Pagamento mensal / trimestral / anual — anualmente é geralmente mais barato',
+          '📄 Necessário: DUA, Cartão de Cidadão/autorização de residência, carta de condução, NIF',
+          '📅 Válido a partir da data escolhida',
+          '💳 Pagamento mensal / trimestral / anual — anual costuma ser mais barato',
           '📱 Apólice — em formato digital, por e-mail; Carta Verde — PDF',
-          '🚗 No automóvel, deve manter: apólice ou Carta Verde (para fiscalização)'
+          '🚗 No automóvel, mantenha: apólice ou Carta Verde (para fiscalização)'
         ]}
       ]
     },
@@ -76,11 +76,11 @@ export default {
     },
     {
       id: 'claims',
-      title: 'Como comunicar um sinistro',
+      title: 'Como participar um sinistro',
       content: [
         { kind: 'checklist', items: [
-          '📝 Declaração Amigável (participação amigável) no local do acidente (ver guia)',
-          '📷 Fotografias do local, danos, matrículas',
+          '📝 Declaração Amigável no local do acidente (ver guia)',
+          '📷 Fotografias do local, dos danos, das matrículas',
           '📧 Notificar a seguradora no prazo de 8 dias',
           '🔧 Reparação — numa oficina da rede da seguradora ou numa oficina acordada (orçamento)',
           '💶 Franquia — os primeiros 250–2500 € são pagos pelo cliente',
@@ -94,9 +94,9 @@ export default {
       title: 'Conselhos',
       content: [
         { kind: 'checklist', items: [
-          '🛍️ Comparar 3–5 propostas — os preços podem variar até ao dobro',
+          '🛍️ Comparar 3–5 propostas — os preços podem variar até 2 vezes',
           '📅 Mudança de seguradora — 30 dias antes do fim, com pedido escrito de cancelamento',
-          '🚗 Na venda do automóvel, o seguro do vendedor **não passa** para o comprador — o comprador contrata a sua própria RC antes de começar a circular. O vendedor informa a seguradora da venda e pode pedir a cessação do contrato/reembolso de parte do prémio ou a transferência da apólice para outro automóvel',
+          '🚗 Ao vender o automóvel, o seguro do vendedor **não passa** para o comprador — o comprador contrata a sua própria RC antes de começar a circular. O vendedor notifica a seguradora da venda e pode pedir a cessação do contrato/reembolso de parte do prémio ou a transferência da apólice para outro automóvel',
           '🆘 Número da ASF 213 847 900 — para reclamações',
           '🌍 Carta Verde obrigatória para viajar para outros países da UE',
           '📉 Após 5 anos sem acidentes — o bónus-malus desce até ao mínimo'
@@ -105,10 +105,10 @@ export default {
     }
   ],
   costs: [
-    { label: 'RC básica (condutor experiente, 1,4 l)', amountEURMin: 180, amountEURMax: 280 },
+    { label: 'RC básica (condutor experiente 1,4 l)', amountEURMin: 180, amountEURMax: 280 },
     { label: 'RC + Casco parcial', amountEURMin: 400, amountEURMax: 700 },
-    { label: 'Todos os tipos de cobertura (pacote completo)', amountEURMin: 700, amountEURMax: 1500 },
-    { label: 'Coima por condução sem RC (automóvel ligeiro)', amountEURMin: 500, amountEURMax: 2500 }
+    { label: 'Todas as coberturas (pacote completo)', amountEURMin: 700, amountEURMax: 1500 },
+    { label: 'Coima por conduzir sem RC (automóvel ligeiro)', amountEURMin: 500, amountEURMax: 2500 }
   ],
   sources: [
     { title: 'Decreto-Lei 291/2007 — Seguro automóvel', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2007-34522075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },

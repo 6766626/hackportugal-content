@@ -28,7 +28,7 @@ export default {
       id: 'verificar-zona',
       title: '2. Проверить ARU, património и ограничения по адресу',
       content: [
-        { kind: 'paragraph', text: 'Перед сметой нужно понять режим здания. В Лиссабоне, например, Rua Garrett / Chiado, Baixa Pombalina, Alfama, Mouraria и Avenida da Liberdade часто попадают в зоны с особыми правилами фасада, caixilharia, вывесок, кондиционеров, telhados и материалов. В таких местах архитектор должен читать не только RJUE, но и PDM, regulamento municipal, cartas de património и правила ARU.' },
+        { kind: 'paragraph', text: 'Перед сметой нужно понять режим здания.\n\nВ Лиссабоне, например, Rua Garrett / Chiado, Baixa Pombalina, Alfama, Mouraria и Avenida da Liberdade часто попадают в зоны с особыми правилами фасада, caixilharia, вывесок, кондиционеров, telhados и материалов. В таких местах архитектор должен читать не только RJUE, но и PDM, regulamento municipal, cartas de património и правила ARU.' },
         { kind: 'checklist', items: [
           'Проверьте адрес на сайте Câmara Municipal: PDM, condicionantes, ARU, loteamento, licença de utilização',
           'Проверьте DGPC: imóvel classificado, monumento nacional, interesse público, zona especial de proteção',
@@ -159,6 +159,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

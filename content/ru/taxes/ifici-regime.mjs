@@ -80,7 +80,7 @@ export default {
           '€ 45 339 – € 83 696: 45%',
           'От € 83 696: 48%'
         ]},
-        { kind: 'paragraph', text: 'Для ИП (Recibo Verde) возможен упрощённый режим: 75% от оборота — налогооблагаемая база. Плюс социальные взносы 21,4% от 70% соответствующего дохода (лимит: 12 × IAS = € 6 445,56). Первые 12 месяцев для вновь зарегистрированных — полное освобождение от взносов.' }
+        { kind: 'paragraph', text: 'Для ИП (Recibo Verde) возможен упрощённый режим: 75% от оборота — налогооблагаемая база. Плюс социальные взносы 21,4% от 70% соответствующего дохода (лимит: 12 × IAS = € 6 445,56)\.\n\nПервые 12 месяцев для вновь зарегистрированных — полное освобождение от взносов.' }
       ]
     }
   ],
@@ -90,6 +90,6 @@ export default {
     { title: 'DRE — Lei do OE/2024 (отмена NHR)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/82-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANI — Agência Nacional de Inovação', url: 'https://www.ani.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

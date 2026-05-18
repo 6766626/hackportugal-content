@@ -3,7 +3,7 @@ export default {
   id: 'accounting-contadores',
   categoryId: 'work_business',
   title: 'Как найти бухгалтера (contabilista) в Португалии',
-  tldr: 'Для юрлиц (Lda, SA) и для ИП/freelancers на contabilidade organizada — обязателен Contabilista Certificado (член OCC). Для recibos verdes в regime simplificado бухгалтер не обязателен даже если вы стали IVA-плательщиком, но часто полезен. Стоимость: 50-150 €/мес для ИП, 200-600 €/мес для маленького юрлица. Искать: OCC.pt (каталог), LinkedIn, русско- и англоговорящие специалисты в группах экспатов.',
+  tldr: 'Для юрлиц (Lda, SA) и для ИП/freelancers на contabilidade organizada — обязателен Contabilista Certificado (член OCC). Для recibos verdes в regime simplificado бухгалтер не обязателен даже если вы стали IVA-плательщиком, но часто полезен.\n\nСтоимость: 50-150 €/мес для ИП, 200-600 €/мес для маленького юрлица. Искать: OCC.pt (каталог), LinkedIn, русско- и англоговорящие специалисты в группах экспатов.',
   tags: ['contabilista', 'бухгалтер', 'toc', 'ип'],
   estimatedReadMinutes: 6,
   steps: [
@@ -168,6 +168,6 @@ export default {
     { title: 'Ordem dos Contabilistas Certificados (OCC)', url: 'https://www.occ.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças — obrigações declarativas', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

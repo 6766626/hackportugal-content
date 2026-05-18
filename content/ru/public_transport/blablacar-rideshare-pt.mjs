@@ -11,7 +11,7 @@ export default {
       id: 'when-use',
       title: 'Когда BlaBlaCar реально выгоден',
       content: [
-        { kind: 'paragraph', text: 'BlaBlaCar — это carpooling: водитель едет по своему маршруту и продаёт свободные места, обычно дешевле поезда и иногда быстрее автобуса с пересадками. В Португалии лучше всего работает на популярных коридорах: Lisboa—Porto, Lisboa—Coimbra, Porto—Braga, Porto—Viseu, Lisboa—Algarve, Porto—Aveiro.' },
+        { kind: 'paragraph', text: 'BlaBlaCar — это carpooling: водитель едет по своему маршруту и продаёт свободные места, обычно дешевле поезда и иногда быстрее автобуса с пересадками.\n\nВ Португалии лучше всего работает на популярных коридорах: Lisboa—Porto, Lisboa—Coimbra, Porto—Braga, Porto—Viseu, Lisboa—Algarve, Porto—Aveiro.' },
         { kind: 'checklist', items: [
           'Lisboa—Porto: часто 15–25 € за место; поезд Alfa/Intercidades без промо обычно около 30–40 €',
           'Lisboa—Coimbra: часто 8–15 €',
@@ -132,6 +132,6 @@ export default {
     { title: 'CP — Comboios de Portugal, покупка билетов и тарифы', url: 'https://www.cp.pt/passageiros/pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Rede Expressos — междугородние автобусы в Португалии', url: 'https://rede-expressos.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -123,6 +123,6 @@ export default {
     { title: 'Regulamento (UE) 2016/679 — RGPD/GDPR, текст в EUR-Lex', url: 'https://eur-lex.europa.eu/eli/reg/2016/679/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 58/2019 — исполнение RGPD в Португалии', url: 'https://dre.pt/dre/detalhe/lei/58-2019-123815982', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

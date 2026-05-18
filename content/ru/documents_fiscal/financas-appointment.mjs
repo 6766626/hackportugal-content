@@ -88,6 +88,6 @@ export default {
     { title: 'ePortugal — Agendar atendimento no Serviço de Finanças', url: 'https://eportugal.gov.pt/servicos/agendar-atendimento-no-servico-de-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — e-balcão (письменные запросы)', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

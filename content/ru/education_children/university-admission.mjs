@@ -3,7 +3,7 @@ export default {
   id: 'university-admission',
   categoryId: 'education_children',
   title: 'Поступление в португальский университет — для иностранцев',
-  tldr: 'Для поступления в португальский университет (бакалавриат, лиценциатура): через DGES / Concurso Nacional de Acesso ao Ensino Superior (CNAES регулирует правила доступа) — для португальских/EU выпускников; либо через **Concurso Especial para Estudantes Internacionais (CEEI)** по DL 36/2014 — для кандидатов со статусом Estudante Internacional (обычно non-EU, НЕ резиденты PT > 2 лет к 1 января года поступления, не члены семей EU и не лица с estatuto de igualdade). Нужно: equivalência/reconhecimento аттестата (через государственную школу/agrupamento по правилам DGE), португальский B1-B2 (CAPLE: DEPLE=B1, DIPLE=B2) или IELTS 6.0+ для англоязычных программ, мотивационное письмо. Стоимость: до ~€697/год для PT/EU в гос. licenciatura; для CEEI международные propinas устанавливает каждый вуз отдельно (обычно выше).',
+  tldr: 'Для поступления в португальский университет (бакалавриат, лиценциатура): через DGES / Concurso Nacional de Acesso ao Ensino Superior (CNAES регулирует правила доступа) — для португальских/EU выпускников; либо через **Concurso Especial para Estudantes Internacionais (CEEI)** по DL 36/2014 — для кандидатов со статусом Estudante Internacional (обычно non-EU, НЕ резиденты PT > 2 лет к 1 января года поступления, не члены семей EU и не лица с estatuto de igualdade)\.\n\nНужно: equivalência/reconhecimento аттестата (через государственную школу/agrupamento по правилам DGE), португальский B1-B2 (CAPLE: DEPLE=B1, DIPLE=B2) или IELTS 6.0+ для англоязычных программ, мотивационное письмо.\n\nСтоимость: до ~€697/год для PT/EU в гос. licenciatura; для CEEI международные propinas устанавливает каждый вуз отдельно (обычно выше).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['университет', 'поступление', 'диплом', 'нострификация', 'dges', 'cnes'],
   estimatedReadMinutes: 9,
@@ -190,6 +190,6 @@ export default {
     { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'CAPLE — португальский язык как иностранный', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

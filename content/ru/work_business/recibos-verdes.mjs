@@ -31,7 +31,7 @@ export default {
             ]}
           ]},
           { id: 'o5', title: '5. Segurança Social (социальное страхование)', content: [
-            { kind: 'paragraph', text: 'При первом открытии atividade enquadramento в Segurança Social обычно начинает действовать только после начального периода (обычно первые 12 месяцев — освобождение). Затем ставка 21,4% на rendimento relevante: 70% услуг или 20% продаж/производства/hotel/restaurant, по квартальной декларации с возможностью корректировки базы в пределах правил.' }
+            { kind: 'paragraph', text: 'При первом открытии atividade enquadramento в Segurança Social обычно начинает действовать только после начального периода (обычно первые 12 месяцев — освобождение)\.\n\nЗатем ставка 21,4% на rendimento relevante: 70% услуг или 20% продаж/производства/hotel/restaurant, по квартальной декларации с возможностью корректировки базы в пределах правил.' }
           ]}
         ]}
       ]
@@ -92,6 +92,6 @@ export default {
     { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Abrir Atividade', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/abrir-atividade-de-trabalhador-independente', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

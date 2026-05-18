@@ -3,7 +3,7 @@ export default {
   id: 'hiking-trails',
   categoryId: 'travel_portugal',
   title: 'Хайкинг и экотропы Португалии — от уикенда к многодневному походу',
-  tldr: 'В Португалии есть 300+ маркированных троп (PR, GR, levadas). Самые популярные: levadas на Мадейре (350 км), Rota Vicentina в юго-западном Alentejo (450 км), PR-тропы в Serra da Estrela, Gerês, Açores. Короткие однодневные маршруты (3-15 км, PR) доступны в каждом природном парке; многодневные GR-тропы размечены красно-белой маркировкой, ночлег — в albergues и сельских домах. Вход бесплатный, но некоторые парки требуют онлайн-регистрации. Сезон: апрель-октябрь на материке; Мадейра — круглый год.',
+  tldr: 'В Португалии есть 300+ маркированных троп (PR, GR, levadas)\.\n\nСамые популярные: levadas на Мадейре (350 км), Rota Vicentina в юго-западном Alentejo (450 км), PR-тропы в Serra da Estrela, Gerês, Açores. Короткие однодневные маршруты (3-15 км, PR) доступны в каждом природном парке; многодневные GR-тропы размечены красно-белой маркировкой, ночлег — в albergues и сельских домах. Вход бесплатный, но некоторые парки требуют онлайн-регистрации.\n\nСезон: апрель-октябрь на материке; Мадейра — круглый год.',
   tags: ['хайкинг', 'экотропы', 'тропы', 'levadas'],
   estimatedReadMinutes: 7,
   steps: [
@@ -186,6 +186,6 @@ export default {
     { title: 'Rota Vicentina', url: 'https://rotavicentina.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Madeira Levadas', url: 'https://www.visitmadeira.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

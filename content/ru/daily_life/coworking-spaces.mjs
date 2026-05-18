@@ -3,7 +3,7 @@ export default {
   id: 'coworking-spaces',
   categoryId: 'daily_life',
   title: 'Коворкинги в Португалии — где работать удалёнщикам',
-  tldr: 'Лиссабон, Порту и Мадейра — крупные хабы цифровых кочевников. Цены: 150-400 €/мес за гибкое место, 250-800 €/мес за фиксированное. Крупные сети: Second Home (премиум), LACS, Avila Spaces, Impact Hub, WorkIO. Digital Nomads Village Ponta do Sol (Мадейра) — бесплатный коворкинг для зарегистрированных удалёнщиков. В Порту: Porto i/o, Village Underground, Selina Cowork. Wi-Fi 100-1000 Мбит, комнаты для звонков от 10 €/час.',
+  tldr: 'Лиссабон, Порту и Мадейра — крупные хабы цифровых кочевников.\n\nЦены: 150-400 €/мес за гибкое место, 250-800 €/мес за фиксированное. Крупные сети: Second Home (премиум), LACS, Avila Spaces, Impact Hub, WorkIO. Digital Nomads Village Ponta do Sol (Мадейра) — бесплатный коворкинг для зарегистрированных удалёнщиков.\n\nВ Порту: Porto i/o, Village Underground, Selina Cowork. Wi-Fi 100-1000 Мбит, комнаты для звонков от 10 €/час.',
   tags: ['коворкинг', 'удалённая работа', 'цифровой кочевник', 'офис'],
   estimatedReadMinutes: 5,
   steps: [
@@ -130,6 +130,6 @@ export default {
     { title: 'Porto i/o', url: 'https://porto.io/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Impact Hub Lisboa', url: 'https://lisbon.impacthub.net/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

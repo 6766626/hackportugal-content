@@ -3,7 +3,7 @@ export default {
   id: 'queijadas-travesseiros-sintra',
   categoryId: 'food_leisure',
   title: 'Синтра: queijadas, travesseiros и Casa Piriquita',
-  tldr: 'В Синтре есть две сладости, которые стоит пробовать именно в историческом центре: queijadas de Sintra — маленькие сырные тарталетки с корицей, известные как минимум с XIX века, и travesseiros — слоёные «подушки» с кремом из яйца и миндаля. Классическая точка — Casa Piriquita у Palácio Nacional de Sintra: туристично, с очередью, но это тот случай, когда место действительно часть маршрута. Бюджет: 2–4 € за штуку, коробка домой — примерно 8–18 €.',
+  tldr: 'В Синтре есть две сладости, которые стоит пробовать именно в историческом центре: queijadas de Sintra — маленькие сырные тарталетки с корицей, известные как минимум с XIX века, и travesseiros — слоёные «подушки» с кремом из яйца и миндаля.\n\nКлассическая точка — Casa Piriquita у Palácio Nacional de Sintra: туристично, с очередью, но это тот случай, когда место действительно часть маршрута.\n\nБюджет: 2–4 € за штуку, коробка домой — примерно 8–18 €.',
   tags: ['sintra', 'queijadas', 'travesseiros', 'еда'],
   estimatedReadMinutes: 4,
   steps: [
@@ -109,6 +109,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

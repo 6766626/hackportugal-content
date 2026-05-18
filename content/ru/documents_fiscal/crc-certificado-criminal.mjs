@@ -27,7 +27,7 @@ export default {
       id: 'online-request',
       title: 'Как заказать онлайн за 5 € 💻',
       content: [
-        { kind: 'paragraph', text: 'Самый быстрый способ — портал Registo Criminal. Онлайн-заказ доступен тем, у кого есть Cartão de Cidadão или Chave Móvel Digital (CMD). После оплаты вы получаете не PDF «с печатью», а цифровой сертификат с кодом доступа; принимающая сторона проверяет его на официальном сайте.' },
+        { kind: 'paragraph', text: 'Самый быстрый способ — портал Registo Criminal. Онлайн-заказ доступен тем, у кого есть Cartão de Cidadão или Chave Móvel Digital (CMD)\.\n\nПосле оплаты вы получаете не PDF «с печатью», а цифровой сертификат с кодом доступа; принимающая сторона проверяет его на официальном сайте.' },
         { kind: 'checklist', items: [
           'Зайдите на registocriminal.justica.gov.pt',
           'Выберите pedido de certificado de registo criminal de pessoas singulares',
@@ -120,6 +120,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

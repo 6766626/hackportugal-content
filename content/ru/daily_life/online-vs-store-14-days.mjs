@@ -101,6 +101,6 @@ export default {
     { title: 'Livro de Reclamações — официальный портал', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — онлайн-покупки и возвраты', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/direitos-do-consumidor', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'sia-password-issues',
   categoryId: 'digital_gov',
   title: 'Сброс пароля Portal das Finanças и SIA — что делать',
-  tldr: 'Если забыли пароль AT (Portal das Finanças / SIA): через portaldasfinancas.gov.pt → «Recuperar Senha» → СМС или письмо по почте (5-7 дней). Альтернатива: лично в Espaço Cidadão или отделении Finanças. С CMD (Chave Móvel Digital) можно войти БЕЗ пароля. Для сброса CMD — ePortugal.gov.pt → перевыпуск ОДНОРАЗОВЫХ кодов. Если потеряли всё — Conservatória/Espaço Cidadão с CC.',
+  tldr: 'Если забыли пароль AT (Portal das Finanças / SIA): через portaldasfinancas.gov.pt → «Recuperar Senha» → СМС или письмо по почте (5-7 дней)\.\n\nАльтернатива: лично в Espaço Cidadão или отделении Finanças. С CMD (Chave Móvel Digital) можно войти БЕЗ пароля. Для сброса CMD — ePortugal.gov.pt → перевыпуск ОДНОРАЗОВЫХ кодов. Если потеряли всё — Conservatória/Espaço Cidadão с CC.',
   tags: ['пароль', 'finanças', 'sia', 'cmd', 'портал', 'забыл пароль'],
   estimatedReadMinutes: 4,
   steps: [
@@ -133,6 +133,6 @@ export default {
     { title: 'Autenticação.gov.pt — Chave Móvel Digital', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Cartão de Cidadão', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/o-que-e-o-cartao-de-cidadao-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

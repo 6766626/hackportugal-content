@@ -104,6 +104,6 @@ export default {
     { title: 'Wise: комиссии и курс обмена валют', url: 'https://wise.com/pt/pricing/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal: предупреждения о Dynamic Currency Conversion и платежных услугах', url: 'https://clientebancario.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

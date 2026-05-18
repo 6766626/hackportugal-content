@@ -3,7 +3,7 @@ export default {
   id: 'campo-ferias-juventude',
   categoryId: 'education_children',
   title: 'Campos de Férias: летние лагеря для детей в Португалии',
-  tldr: 'Campos de Férias — дневные или выездные лагеря на школьные каникулы, обычно для 6–17 лет. В 2026 ищите регистрацию/лицензирование через IPDJ и организаторов: ATL при школах, IPSS, Câmaras Municipais, спортивные клубы и частные сети. Бюджет: муниципальные/IPSS от 25–70 € в неделю, частные спорт/STEAM/языковые — 90–150 €+ в неделю, с проживанием дороже. Запись на июнь–сентябрь часто открывается в марте–мае.',
+  tldr: 'Campos de Férias — дневные или выездные лагеря на школьные каникулы, обычно для 6–17 лет. В 2026 ищите регистрацию/лицензирование через IPDJ и организаторов: ATL при школах, IPSS, Câmaras Municipais, спортивные клубы и частные сети.\n\nБюджет: муниципальные/IPSS от 25–70 € в неделю, частные спорт/STEAM/языковые — 90–150 €+ в неделю, с проживанием дороже. Запись на июнь–сентябрь часто открывается в марте–мае.',
   tags: ['лагеря', 'crianças', 'ipdj', 'atl'],
   estimatedReadMinutes: 5,
   steps: [
@@ -140,6 +140,6 @@ export default {
     { title: 'Decreto-Lei 32/2011 — regime jurídico dos campos de férias', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/32-2011-278563', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal do Porto — Juventude em Verão / programas municipais', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

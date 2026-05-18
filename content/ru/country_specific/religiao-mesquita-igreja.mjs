@@ -3,7 +3,7 @@ export default {
   id: 'religiao-mesquita-igreja',
   categoryId: 'country_specific',
   title: 'Религиозные общины Португалии: мечети, синагоги, церкви и храмы',
-  tldr: 'В Португалии нет государственной религии: свобода совести и культов защищена Constituição и Lei 16/2001. Для экспата практический путь простой: искать общину по городу, уточнять язык службы и календарь, не ждать “регистрации” у государства. В Лиссабоне есть Mesquita Central, Sinagoga Shaaré Tikva, англиканские церкви, Hindu Templo Radha Krishna; русскоязычные православные службы чаще ищут в Cascais/Лиссабоне. В больницах SNS можно запросить assistência espiritual e religiosa.',
+  tldr: 'В Португалии нет государственной религии: свобода совести и культов защищена Constituição и Lei 16/2001. Для экспата практический путь простой: искать общину по городу, уточнять язык службы и календарь, не ждать “регистрации” у государства.\n\nВ Лиссабоне есть Mesquita Central, Sinagoga Shaaré Tikva, англиканские церкви, Hindu Templo Radha Krishna; русскоязычные православные службы чаще ищут в Cascais/Лиссабоне. В больницах SNS можно запросить assistência espiritual e religiosa.',
   tags: ['религия', 'igreja', 'mesquita', 'lisboa'],
   estimatedReadMinutes: 5,
   steps: [
@@ -104,6 +104,6 @@ export default {
     { title: 'Decreto-Lei 253/2009 — assistência espiritual e religiosa em hospitais', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/253-2009-489830', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — liberdade religiosa em Portugal', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

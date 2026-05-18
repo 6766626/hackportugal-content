@@ -11,7 +11,7 @@ export default {
       id: 'what-is',
       title: 'Что это и как работает',
       content: [
-        { kind: 'paragraph', text: 'União de facto — юридическое признание пары, живущей вместе. Регулируется Lei 7/2001 (применяется к двум людям независимо от пола; Lei 23/2010 — это закон о same-sex marriage, не о união). Не требует церемонии, не является браком, но даёт ряд сопоставимых прав.' },
+        { kind: 'paragraph', text: 'União de facto — юридическое признание пары, живущей вместе.\n\nБазовый режим — **Lei 7/2001**. **Lei 23/2010** в 2010 году расширила и уточнила права de facto партнёров (социальные пособия, отдельные наследственные защиты). **Lei 9/2010** — отдельный закон, который ввёл same-sex marriage (изменения в Código Civil); это касается только брака, не união. Lei 7/2001 уже применяется к парам независимо от пола. Не требует церемонии, не является браком, но даёт ряд сопоставимых прав.' },
         { kind: 'checklist', items: [
           '💑 Пара любого пола и гражданства (разнополая или однополая)',
           '📅 Минимум 2 года совместного проживания',
@@ -131,6 +131,6 @@ export default {
     { title: 'ePortugal — União de facto', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Registo de União de Facto', url: 'https://irn.justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

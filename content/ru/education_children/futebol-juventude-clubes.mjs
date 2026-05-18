@@ -98,7 +98,7 @@ export default {
       id: 'municipal-route',
       title: 'Муниципальный путь: где искать',
       content: [
-        { kind: 'paragraph', text: 'Самый дешёвый вход — искать “escolinhas de futebol”, “desporto jovem”, “atividades desportivas municipais” на сайте Câmara Municipal вашего concelho. В Лиссабоне, Порту, Cascais, Oeiras, Sintra, Almada, Braga, Coimbra и Faro программы часто открывают набор перед началом учебного года.' },
+        { kind: 'paragraph', text: 'Самый дешёвый вход — искать “escolinhas de futebol”, “desporto jovem”, “atividades desportivas municipais” на сайте Câmara Municipal вашего concelho.\n\nВ Лиссабоне, Порту, Cascais, Oeiras, Sintra, Almada, Braga, Coimbra и Faro программы часто открывают набор перед началом учебного года.' },
         { kind: 'checklist', items: [
           'Откройте сайт Câmara Municipal и раздел Desporto или Juventude.',
           'Ищите “escolas municipais”, “clubes parceiros”, “férias desportivas”.',
@@ -125,6 +125,6 @@ export default {
     { title: 'IPDJ — Programa Nacional de Desporto para Todos', url: 'https://ipdj.gov.pt/programa-nacional-de-desporto-para-todos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Diário da República — Lei de Bases da Atividade Física e do Desporto, Lei 5/2007', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34498875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

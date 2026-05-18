@@ -3,7 +3,7 @@ export default {
   id: 'cp-comboios-intercity',
   categoryId: 'public_transport',
   title: 'CP — поезда: Alfa Pendular, Intercidades и пригородные',
-  tldr: 'CP (Comboios de Portugal) — государственная железнодорожная компания. Главные категории поездов: Alfa Pendular (быстрый, Лиссабон — Порту 2:50, ~30 €), Intercidades (медленнее, ~25 €), Regional/Urbano (пригородные и региональные). Покупать билеты лучше заранее — за 60 дней через cp.pt или приложение «CP — Comboios de Portugal». Скидки: молодёжь до 30 лет — 50%, дети 4–12 лет — 50%, ≥65 лет — 50%. Багаж — бесплатно. Велосипеды: в Regional, а также по выходным в Urbano.',
+  tldr: 'CP (Comboios de Portugal) — государственная железнодорожная компания. Главные категории поездов: Alfa Pendular (быстрый, Лиссабон — Порту 2:50, ~30 €), Intercidades (медленнее, ~25 €), Regional/Urbano (пригородные и региональные)\.\n\nПокупать билеты лучше заранее — за 60 дней через cp.pt или приложение «CP — Comboios de Portugal». Скидки: молодёжь до 30 лет — 50%, дети 4–12 лет — 50%, ≥65 лет — 50%. Багаж — бесплатно. Велосипеды: в Regional, а также по выходным в Urbano.',
   tags: ['cp', 'поезд', 'alfa pendular', 'intercidades', 'lisboa porto', 'comboio'],
   estimatedReadMinutes: 7,
   steps: [
@@ -132,6 +132,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — Instituto da Mobilidade e dos Transportes', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

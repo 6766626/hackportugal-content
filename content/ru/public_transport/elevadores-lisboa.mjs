@@ -61,6 +61,6 @@ export default {
     { title: 'Carris — расписания и информация по Ascensores и Elevador de Santa Justa', url: 'https://www.carris.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Lisboa — информация о городских лифтах, фуникулёрах и мобильности', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

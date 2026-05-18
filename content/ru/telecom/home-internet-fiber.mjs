@@ -3,7 +3,7 @@ export default {
   id: 'home-internet-fiber',
   categoryId: 'telecom',
   title: 'Домашний интернет — фибра, установка, переезд',
-  tldr: 'Домашняя фибра в PT 2026: DIGI 1 Gbps за 10 €/мес (3 мес фиделизации), DIGI 10 Gbps за 15 €/мес. NOS WOO «без фиделизации» от 19 €/мес. MEO/NOS/Vodafone — пакет фибра + ТВ + моб. от 35 €/мес (24 мес фиделизации). Установка обычно 1–3 недели после подачи. Адрес обязан быть в зоне покрытия (проверка по NIF + почтовый индекс на сайте оператора). При переезде — заявка mudança de morada за 7 дней до даты, иногда требуется новая установка.',
+  tldr: 'Домашняя фибра в PT 2026: DIGI 1 Gbps за 10 €/мес (3 мес фиделизации), DIGI 10 Gbps за 15 €/мес. NOS WOO «без фиделизации» от 19 €/мес. MEO/NOS/Vodafone — пакет фибра + ТВ + моб. от 35 €/мес (24 мес фиделизации)\.\n\nУстановка обычно 1–3 недели после подачи. Адрес обязан быть в зоне покрытия (проверка по NIF + почтовый индекс на сайте оператора). При переезде — заявка mudança de morada за 7 дней до даты, иногда требуется новая установка.',
   tags: ['фибра', 'интернет', 'дом', 'fttd', 'переезд', 'mudança morada'],
   estimatedReadMinutes: 7,
   steps: [
@@ -129,6 +129,6 @@ export default {
     { title: 'ANACOM COM.escolha — официальный сравниватель тарифов', url: 'https://www.anacom.pt/tarifarios/PaginaInicial.do', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'DL 24/2014 — права потребителя при дистанционных услугах', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'modelo-30-nao-residentes',
   categoryId: 'taxes',
   title: 'Modelo 30 — ежемесячная декларация выплат нерезидентам',
-  tldr: 'Modelo 30 подаётся в Finanças, когда empresa, ENI или atividade paga доход нерезиденту: иностранному подрядчику, арендодателю, консультанту, правообладателю, кредитору. Срок — до конца 2-го месяца после выплаты: платёж 10.04.2026 → декларация до 30.06.2026. Подаётся даже при применении Convenção para Evitar Dupla Tributação через Modelo 21-RFI. За просрочку обычно грозит coima от 150 € до 3 750 € по RGIT.',
+  tldr: 'Modelo 30 подаётся в Finanças, когда empresa, ENI или atividade paga доход нерезиденту: иностранному подрядчику, арендодателю, консультанту, правообладателю, кредитору.\n\nСрок — до конца 2-го месяца после выплаты: платёж 10.04.2026 → декларация до 30.06.2026. Подаётся даже при применении Convenção para Evitar Dupla Tributação через Modelo 21-RFI. За просрочку обычно грозит coima от 150 € до 3 750 € по RGIT.',
   tags: ['modelo30', 'нерезиденты', 'irs', 'irc', 'retenção'],
   estimatedReadMinutes: 6,
   steps: [
@@ -160,6 +160,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

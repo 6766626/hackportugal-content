@@ -72,7 +72,7 @@ export default {
       id: 'insurance',
       title: 'Страховка и SNS',
       content: [
-        { kind: 'paragraph', text: 'Экстренная помощь в SNS оказывается всем без исключения (включая людей без легального статуса и туристов). Для плановой помощи и подтверждения расходов нужен Número de Utente (номер пациента SNS). Частная страховка сокращает очереди для неэкстренных случаев.' }
+        { kind: 'paragraph', text: 'Экстренная помощь в SNS оказывается всем без исключения (включая людей без легального статуса и туристов). Для плановой помощи и подтверждения расходов нужен Número de Utente (номер пациента SNS)\.\n\nЧастная страховка сокращает очереди для неэкстренных случаев.' }
       ]
     }
   ],
@@ -83,6 +83,6 @@ export default {
     { title: 'APAV — помощь жертвам', url: 'https://apav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Посольство РФ в Лиссабоне', url: 'https://lisbon.mid.ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

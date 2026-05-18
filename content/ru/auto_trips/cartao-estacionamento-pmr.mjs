@@ -3,7 +3,7 @@ export default {
   id: 'cartao-estacionamento-pmr',
   categoryId: 'auto_trips',
   title: 'Cartão de Estacionamento PMR — парковка для людей с инвалидностью',
-  tldr: 'Cartão de Estacionamento PMR — европейская парковочная карта для людей с инвалидностью и ограниченной мобильностью. В Португалии её выдаёт IMT бесплатно, обычно на основании AMIM с incapacidade permanente ≥60% и медицинским указанием на ограничение мобильности. Карта персональная, не привязана к машине: действует, когда владелец сам ведёт авто или его перевозят. Даёт право на места PMR и бесплатную парковку на муниципальных местах; признаётся в ЕС.',
+  tldr: 'Cartão de Estacionamento PMR — европейская парковочная карта для людей с инвалидностью и ограниченной мобильностью.\n\nВ Португалии её выдаёт IMT бесплатно, обычно на основании AMIM с incapacidade permanente ≥60% и медицинским указанием на ограничение мобильности. Карта персональная, не привязана к машине: действует, когда владелец сам ведёт авто или его перевозят. Даёт право на места PMR и бесплатную парковку на муниципальных местах; признаётся в ЕС.',
   tags: ['pmr', 'imt', 'парковка', 'amim'],
   estimatedReadMinutes: 5,
   steps: [
@@ -80,6 +80,6 @@ export default {
     { title: 'INR: direitos e estacionamento de pessoas com deficiência', url: 'https://www.inr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 307/2003 — cartão de estacionamento de modelo comunitário', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/307-2003-617116', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

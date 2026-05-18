@@ -77,7 +77,7 @@ export default {
             { kind: 'paragraph', text: 'Не Шенген. PT ВНЖ сам по себе НЕ даёт права на въезд; нужна ли Irish visa, зависит от паспорта. Для граждан РФ/Беларуси обычно нужна виза. Сайт — irishimmigration.ie.' }
           ]},
           { id: 's3', title: 'Болгария, Румыния, Кипр', content: [
-            { kind: 'paragraph', text: 'С 2025 Болгария и Румыния в Шенгене — ВНЖ Португалии работает. Кипр не в Шенгене, но действующий ВНЖ Португалии/другой страны Шенгена обычно позволяет въезд на Кипр без отдельной кипрской визы на краткий срок (EU Decision No 565/2014/EU). Перед поездкой проверьте условия по гражданству и сроку действия документа на сайте Cyprus MFA.' }
+            { kind: 'paragraph', text: 'С 2025 Болгария и Румыния в Шенгене — ВНЖ Португалии работает. Кипр не в Шенгене, но действующий ВНЖ Португалии/другой страны Шенгена обычно позволяет въезд на Кипр без отдельной кипрской визы на краткий срок (EU Decision No 565/2014/EU)\.\n\nПеред поездкой проверьте условия по гражданству и сроку действия документа на сайте Cyprus MFA.' }
           ]},
           { id: 's4', title: 'Хорватия', content: [
             { kind: 'paragraph', text: 'В Шенгене с 2023 г. — ВНЖ работает.' }
@@ -113,6 +113,6 @@ export default {
     { title: 'EU Entry/Exit System (EES) — ec.europa.eu', url: 'https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/smart-borders_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Vistos MNE — правила для граждан третьих стран', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

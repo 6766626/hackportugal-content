@@ -83,7 +83,7 @@ export default {
       id: 'inspection-and-safety',
       title: 'IPO, IMT и безопасность: где граница между ремонтом и обязательствами',
       content: [
-        { kind: 'paragraph', text: 'Обычная oficina ремонтирует авто, но не заменяет inspeção periódica obrigatória (IPO). Срок IPO зависит от типа и возраста машины; проверяйте по Documento Único Automóvel и правилам IMT. Если машина провалила IPO, oficina может устранить дефекты, но повторная проверка делается в centro de inspeção.' },
+        { kind: 'paragraph', text: 'Обычная oficina ремонтирует авто, но не заменяет inspeção periódica obrigatória (IPO).\n\nСрок IPO зависит от типа и возраста машины; проверяйте по Documento Único Automóvel и правилам IMT. Если машина провалила IPO, oficina может устранить дефекты, но повторная проверка делается в centro de inspeção.' },
         { kind: 'checklist', items: [
           'Перед покупкой б/у авто закажите pré-inspeção или диагностику в независимой oficina',
           'После ремонта тормозов, рулевого, подвески и шин требуйте тест-драйв и подтверждение работ в fatura',
@@ -128,6 +128,6 @@ export default {
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica: fiscalização económica и жалобы', url: 'https://www.asae.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Eletrónico — официальный портал жалоб потребителей', url: 'https://www.livroreclamacoes.pt/Inicio/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

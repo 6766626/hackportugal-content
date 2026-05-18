@@ -73,6 +73,6 @@ export default {
     { title: 'Segurança Social: IPSS и cooperação с социальным сектором', url: 'https://www.seg-social.pt/instituicoes-particulares-de-solidariedade-social-ipss-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portaria 196-A/2015: модель cooperação между Segurança Social и social sector', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/196-a-2015-67666026', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

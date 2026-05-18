@@ -90,7 +90,7 @@ export default {
       id: 'foreign-license',
       title: '5. Если у вас уже есть иностранные права',
       content: [
-        { kind: 'paragraph', text: 'Для экспата ключевой вопрос — признание и обмен прав. Правила зависят от страны выдачи, срока резидентства, возраста, действительности прав и наличия международных соглашений. Категории мотоциклов переносятся не “по словам”, а по документу и таблицам соответствия IMT.' },
+        { kind: 'paragraph', text: 'Для экспата ключевой вопрос — признание и обмен прав. Правила зависят от страны выдачи, срока резидентства, возраста, действительности прав и наличия международных соглашений.\n\nКатегории мотоциклов переносятся не “по словам”, а по документу и таблицам соответствия IMT.' },
         { kind: 'checklist', items: [
           'Права ЕС/ЕЭЗ обычно признаются в Португалии до окончания срока действия, но при проживании в стране появляются обязанности по регистрации/обмену в отдельных случаях.',
           'Права из многих стран OECD/CPLP могут использоваться без немедленного обмена при соблюдении условий португальского закона, но это не отменяет требования иметь нужную мото-категорию.',
@@ -131,6 +131,6 @@ export default {
     { title: 'IMT: carta de condução — informações para condutores', url: 'https://www.imt-ip.pt/sites/IMTT/Portugues/Condutores/CartaConducao/Paginas/CartaConducao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal: pedir carta de condução', url: 'https://eportugal.gov.pt/servicos/pedir-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

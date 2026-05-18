@@ -3,7 +3,7 @@ export default {
   id: 'praca-mercado-municipal',
   categoryId: 'food_leisure',
   title: 'Mercado Municipal: главные рынки Лиссабона, Порту и Коимбры',
-  tldr: 'Mercado Municipal — не туристическая декорация, а нормальный способ покупать рыбу, овощи, фрукты, сыр, хлеб и цветы. В 2026 главные точки: Mercado da Ribeira / Time Out Lisboa, Mercado 31 de Janeiro и Forno do Tijolo в Лиссабоне, Mercado do Bolhão в Порту, Mercado Municipal D. Pedro V в Коимбре. Свежие прилавки обычно работают утром: 07:00–14:00, Bolhão дольше. Цены часто ниже supermercado на сезонные овощи и рыбу, но выше на «гурмэ» и готовую еду.',
+  tldr: 'Mercado Municipal — не туристическая декорация, а нормальный способ покупать рыбу, овощи, фрукты, сыр, хлеб и цветы. В 2026 главные точки: Mercado da Ribeira / Time Out Lisboa, Mercado 31 de Janeiro и Forno do Tijolo в Лиссабоне, Mercado do Bolhão в Порту, Mercado Municipal D. Pedro V в Коимбре. Свежие прилавки обычно работают утром: 07:00–14:00, Bolhão дольше.\n\nЦены часто ниже supermercado на сезонные овощи и рыбу, но выше на «гурмэ» и готовую еду.',
   tags: ['mercado', 'рынки', 'lisboa', 'porto', 'coimbra'],
   estimatedReadMinutes: 5,
   steps: [
@@ -166,6 +166,6 @@ export default {
     { title: 'Câmara Municipal de Coimbra — Mercado Municipal D. Pedro V', url: 'https://www.cm-coimbra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Município de Olhão — Mercado Municipal de Olhão', url: 'https://www.cm-olhao.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

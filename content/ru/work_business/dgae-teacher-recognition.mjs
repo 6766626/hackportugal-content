@@ -44,7 +44,7 @@ export default {
       id: 'habilitacao-propria',
       title: '3. Когда использовать Habilitação Própria',
       content: [
-        { kind: 'paragraph', text: 'Habilitação Própria — это путь для людей с подходящим академическим образованием по предмету, но без признанной formação profissional para a docência. Пример: диплом математика, физика, инженера, филолога или биолога может подходить для отдельных grupos de recrutamento, если учебный план покрывает нужную научную область.' },
+        { kind: 'paragraph', text: 'Habilitação Própria — это путь для людей с подходящим академическим образованием по предмету, но без признанной formação profissional para a docência.\n\nПример: диплом математика, физика, инженера, филолога или биолога может подходить для отдельных grupos de recrutamento, если учебный план покрывает нужную научную область.' },
         { kind: 'checklist', items: [
           'Сначала признайте иностранный диплом о высшем образовании в Португалии через DGES/португальский вуз, если школа или конкурс требует grau reconhecido.',
           'Сопоставьте ваш диплом с grupo de recrutamento, где есть дефицит и где принимают habilitação própria.',
@@ -123,6 +123,6 @@ export default {
     { title: 'Decreto-Lei 227/2005: признание иностранной профессиональной квалификации docentes', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/227-2005-469091', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 79/2014: regime jurídico da habilitação profissional para a docência', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/79-2014-25344769', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

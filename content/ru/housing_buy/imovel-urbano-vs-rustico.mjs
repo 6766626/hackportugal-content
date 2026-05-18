@@ -49,7 +49,7 @@ export default {
       id: 'construction',
       title: '3. Можно ли строить на rústico',
       content: [
-        { kind: 'paragraph', text: 'Решает не Finanças, а территориальное планирование: PDM или PDI, planta de ordenamento, planta de condicionantes, RAN, REN, ICNF, Rede Natura 2000, пожарные ограничения и правила Câmara Municipal. Налоговая классификация rústico — только один сигнал, но не полный ответ.' },
+        { kind: 'paragraph', text: 'Решает не Finanças, а территориальное планирование: PDM или PDI, planta de ordenamento, planta de condicionantes, RAN, REN, ICNF, Rede Natura 2000, пожарные ограничения и правила Câmara Municipal.\n\nНалоговая классификация rústico — только один сигнал, но не полный ответ.' },
         { kind: 'checklist', items: [
           'Запросите у продавца caderneta predial, certidão permanente, planta cadastral и любые старые лицензии.',
           'Проверьте PDM/PDI на сайте Câmara Municipal: категория земли, urban perimeter, espaços agrícolas, florestais, naturais, industriais.',
@@ -156,6 +156,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

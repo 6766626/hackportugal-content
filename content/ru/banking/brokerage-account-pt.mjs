@@ -3,7 +3,7 @@ export default {
   id: 'brokerage-account-pt',
   categoryId: 'banking',
   title: 'Брокерский счёт в Португалии: DEGIRO, IBKR, Trading 212, XTB с NIF',
-  tldr: 'С португальским NIF можно открыть счёт у EU-брокеров: DEGIRO, IBKR, Trading 212, XTB. Проверяйте, зарегистрирован ли посредник в CMVM или работает по EU passport, кто хранит активы и какая схема компенсации действует: португальский SII — до 25 000 €, но у иностранных брокеров обычно схема страны лицензии. Для акций США заполните W-8BEN: удержание дивидендов обычно 15% вместо 30%. Налоговый резидент Португалии декларирует зарубежные дивиденды, проценты и сделки в IRS, чаще через Anexo J.',
+  tldr: 'С португальским NIF можно открыть счёт у EU-брокеров: DEGIRO, IBKR, Trading 212, XTB. Проверяйте, зарегистрирован ли посредник в CMVM или работает по EU passport, кто хранит активы и какая схема компенсации действует: португальский SII — до 25 000 €, но у иностранных брокеров обычно схема страны лицензии. Для акций США заполните W-8BEN: удержание дивидендов обычно 15% вместо 30%.\n\nНалоговый резидент Португалии декларирует зарубежные дивиденды, проценты и сделки в IRS, чаще через Anexo J.',
   tags: ['брокер', 'nif', 'irs', 'cmvm', 'w8ben'],
   estimatedReadMinutes: 6,
   steps: [
@@ -38,7 +38,7 @@ export default {
           'Подтверждение источника средств при крупных суммах: payslips, contrato de trabalho, recibos verdes, продажа имущества, накопления.',
           'Для US securities — W-8BEN, если брокер даёт доступ к акциям/ETF США.'
         ] },
-        { kind: 'warning', text: 'Если вы ещё не стали налоговым резидентом Португалии, но уже получили NIF, не указывайте Португалию автоматически. Налоговое резидентство — это не просто NIF: обычно 183+ дней в году или habitual residence на 31 декабря. Ошибка в tax residence влияет на CRS-обмен и отчётность.' }
+        { kind: 'warning', text: 'Если вы ещё не стали налоговым резидентом Португалии, но уже получили NIF, не указывайте Португалию автоматически.\n\nНалоговое резидентство — это не просто NIF: обычно 183+ дней в году или habitual residence на 31 декабря. Ошибка в tax residence влияет на CRS-обмен и отчётность.' }
       ]
     },
     {
@@ -123,6 +123,6 @@ export default {
     { title: 'Código do IRS — налогообложение доходов, категорий E и G', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Sistema de Indemnização aos Investidores — информация о защите инвесторов', url: 'https://www.cmvm.pt/pt/AreadoInvestidor/SistemaDeIndemnizacaoAosInvestidores/LegisOutrasInfo/Pages/legislacao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

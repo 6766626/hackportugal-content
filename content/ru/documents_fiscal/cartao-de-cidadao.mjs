@@ -60,10 +60,10 @@ export default {
             { kind: 'paragraph', text: 'Срок действия: 5 лет для граждан младше 25 лет; 10 лет для граждан от 25 лет. За 6 мес до истечения — запись на продление.' }
           ]},
           { id: 'r2', title: 'Как', content: [
-            { kind: 'paragraph', text: 'Записаться через ePortugal/IRN, выбрать доступный balcão IRN/Loja de Cidadão/Espaço Cidadão (если конкретная услуга там доступна). При обычном продлении обычно нужен текущий CC и PIN-letter; подтверждение адреса нужно, если меняете адрес или орган его запросит. Срок изготовления зависит от типа заказа (normal/urgente/extremamente urgente) и места выдачи.' }
+            { kind: 'paragraph', text: 'Записаться через ePortugal/IRN, выбрать доступный balcão IRN/Loja de Cidadão/Espaço Cidadão (если конкретная услуга там доступна). При обычном продлении обычно нужен текущий CC и PIN-letter; подтверждение адреса нужно, если меняете адрес или орган его запросит.\n\nСрок изготовления зависит от типа заказа (normal/urgente/extremamente urgente) и места выдачи.' }
           ]},
           { id: 'r3', title: 'Потеря / кража', content: [
-            { kind: 'paragraph', text: 'Срочно отменить (cancelar) CC и цифровые сертификаты через ePortugal/Autenticação.gov или Linha Cartão de Cidadão. При краже — подать заявление в полицию (PSP/GNR). Затем запросить новый CC в IRN/Loja de Cidadão/консульстве по применимому тарифу (normal/urgente/extremamente urgente). Полицейский протокол не обязателен при простой потере, но важен при краже.' }
+            { kind: 'paragraph', text: 'Срочно отменить (cancelar) CC и цифровые сертификаты через ePortugal/Autenticação.gov или Linha Cartão de Cidadão. При краже — подать заявление в полицию (PSP/GNR)\.\n\nЗатем запросить новый CC в IRN/Loja de Cidadão/консульстве по применимому тарифу (normal/urgente/extremamente urgente)\.\n\nПолицейский протокол не обязателен при простой потере, но важен при краже.' }
           ]}
         ]}
       ]
@@ -91,6 +91,6 @@ export default {
     { title: 'Autenticação.gov — Cartão de Cidadão', url: 'https://www.autenticacao.gov.pt/o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Regulamento (UE) 2019/1157 — биометрия eID', url: 'https://eur-lex.europa.eu/eli/reg/2019/1157/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

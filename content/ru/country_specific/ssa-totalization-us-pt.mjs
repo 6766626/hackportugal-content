@@ -96,7 +96,7 @@ export default {
       id: 'tax-and-planning',
       title: 'Налоги и планирование',
       content: [
-        { kind: 'paragraph', text: 'Social Security benefits и португальская пенсия — это не только вопрос SSA. У американцев остаётся US tax filing; у налоговых резидентов Португалии есть обязанности по IRS. Налоговый режим зависит от резидентства, типа выплаты, договора об избежании двойного налогообложения и вашей структуры доходов.' },
+        { kind: 'paragraph', text: 'Social Security benefits и португальская пенсия — это не только вопрос SSA. У американцев остаётся US tax filing; у налоговых резидентов Португалии есть обязанности по IRS.\n\nНалоговый режим зависит от резидентства, типа выплаты, договора об избежании двойного налогообложения и вашей структуры доходов.' },
         { kind: 'checklist', items: [
           'Скачайте Social Security Statement до подачи: проверьте earnings record и предполагаемый benefit.',
           'Сравните сценарии claim age: 62, full retirement age и 70 лет; ранний claim уменьшает выплату пожизненно.',
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

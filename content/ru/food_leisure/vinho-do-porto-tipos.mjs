@@ -114,6 +114,6 @@ export default {
     { title: 'Taylor’s Port — visitor centre и стили Port Wine', url: 'https://www.taylor.pt/en/visit-taylors/port-cellars', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Graham’s Port Lodge — дегустации в Vila Nova de Gaia', url: 'https://www.grahams-port.com/visit-us', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

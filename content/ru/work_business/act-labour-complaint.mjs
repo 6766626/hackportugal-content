@@ -63,7 +63,7 @@ export default {
             ] }
           ] },
           { id: 'write-facts', title: '3. Опишите факты по схеме “кто-что-когда-где”', content: [
-            { kind: 'paragraph', text: 'Пример: “Работаю в Restaurante X, Rua Y, Lisboa, с 03.02.2026. Договор не выдали. Зарплата 920 € net была обещана устно, за март 2026 не выплачено 920 €. Работал 6 дней в неделю по 10 часов, recibos de vencimento нет. Документы и переписка приложены”.' }
+            { kind: 'paragraph', text: 'Пример: “Работаю в Restaurante X, Rua Y, Lisboa, с 03.02.2026. Договор не выдали. Зарплата 920 € net была обещана устно, за март 2026 не выплачено 920 €. Работал 6 дней в неделю по 10 часов, recibos de vencimento нет.\n\nДокументы и переписка приложены”.' }
           ] },
           { id: 'attach-files', title: '4. Приложите файлы и отправьте', content: [
             { kind: 'paragraph', text: 'Загрузите PDF/JPG/PNG: договор, recibos, банковские выписки, переписку, фото условий труда. Сохраните comprovativo/номер обращения.' }
@@ -160,6 +160,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

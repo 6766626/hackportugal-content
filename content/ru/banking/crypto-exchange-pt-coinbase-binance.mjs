@@ -3,7 +3,7 @@ export default {
   id: 'crypto-exchange-pt-coinbase-binance',
   categoryId: 'banking',
   title: 'Криптобиржи в Португалии: Coinbase, Binance, Kraken под NIF',
-  tldr: 'В 2026 криптобиржа в Португалии — это не “анонимный кошелёк”, а KYC под NIF: паспорт/ВНЖ или Cartão de Cidadão, selfie, адрес, иногда comprovativo de morada. Coinbase проверяйте в списках CMVM/CASP; Binance и Kraken работают через международные/EU-структуры, Criptoloja — PT-native. Пополнение картой обычно 1–4%, SEPA дешевле. Налоги: продажа crypto <365 дней обычно IRS 28% через Anexo G/J; ≥365 дней часто освобождена, но надо хранить историю операций.',
+  tldr: 'В 2026 криптобиржа в Португалии — это не “анонимный кошелёк”, а KYC под NIF: паспорт/ВНЖ или Cartão de Cidadão, selfie, адрес, иногда comprovativo de morada. Coinbase проверяйте в списках CMVM/CASP; Binance и Kraken работают через международные/EU-структуры, Criptoloja — PT-native. Пополнение картой обычно 1–4%, SEPA дешевле.\n\nНалоги: продажа crypto <365 дней обычно IRS 28% через Anexo G/J; ≥365 дней часто освобождена, но надо хранить историю операций.',
   tags: ['crypto', 'nif', 'irs', 'биржи'],
   estimatedReadMinutes: 6,
   steps: [
@@ -106,6 +106,6 @@ export default {
     { title: 'Lei n.º 24-D/2022 — Orçamento do Estado 2023, налоговый режим criptoativos', url: 'https://dre.pt/dre/detalhe/lei/24-d-2022-205557192', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regulamento (UE) 2023/1114 — MiCA, режим crypto-asset service providers в ЕС', url: 'https://eur-lex.europa.eu/eli/reg/2023/1114/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

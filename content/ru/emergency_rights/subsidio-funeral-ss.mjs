@@ -75,7 +75,7 @@ export default {
       id: 'after-submission',
       title: 'После подачи: выплата и отказы',
       content: [
-        { kind: 'paragraph', text: 'После одобрения деньги перечисляют на IBAN заявителя. Срок обработки зависит от района и полноты документов: если всё загружено корректно, обычно быстрее; если не хватает recibo, proof of relationship или IBAN, Segurança Social пришлёт запрос на исправление.' },
+        { kind: 'paragraph', text: 'После одобрения деньги перечисляют на IBAN заявителя.\n\nСрок обработки зависит от района и полноты документов: если всё загружено корректно, обычно быстрее; если не хватает recibo, proof of relationship или IBAN, Segurança Social пришлёт запрос на исправление.' },
         { kind: 'checklist', items: [
           'Следите за уведомлениями в Segurança Social Direta и письмами на адрес регистрации.',
           'Если пришёл pedido de elementos, отвечайте в указанный срок.',
@@ -108,6 +108,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

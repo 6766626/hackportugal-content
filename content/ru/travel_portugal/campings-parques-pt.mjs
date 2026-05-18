@@ -39,7 +39,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'acsi', title: 'ACSI CampingCard — экономия вне сезона', content: [
-            { kind: 'paragraph', text: 'ACSI CampingCard — международная дисконтная карта для кемпингов-партнёров. В Португалии она особенно полезна весной, осенью и зимой: многие парки дают фиксированный сниженный тариф вне высокого сезона, иногда экономия доходит примерно до 50% против обычной цены.' },
+            { kind: 'paragraph', text: 'ACSI CampingCard — международная дисконтная карта для кемпингов-партнёров.\n\nВ Португалии она особенно полезна весной, осенью и зимой: многие парки дают фиксированный сниженный тариф вне высокого сезона, иногда экономия доходит примерно до 50% против обычной цены.' },
             { kind: 'checklist', items: ['Проверяйте даты действия ACSI по конкретному кемпингу — не весь год', 'Ищите пометку, входят ли 2 человека, pitch, машина, душ и электричество', 'Сравнивайте с прямым сайтом кемпинга: иногда акция самого парка дешевле', 'В июле-августе ACSI обычно не работает или почти бесполезна', 'Для road trip по Португалии и Испании карта часто окупается за несколько ночей'] }
           ]},
           { id: 'orbitur', title: 'Orbitur — дороже, но предсказуемо', content: [
@@ -72,6 +72,6 @@ export default {
     { title: 'ACSI CampingCard — кемпинги-партнёры и off-season тарифы', url: 'https://www.campingcard.co.uk', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Código da Estrada art. 50-A — правила pernoita e aparcamento de autocaravanas', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34455575', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

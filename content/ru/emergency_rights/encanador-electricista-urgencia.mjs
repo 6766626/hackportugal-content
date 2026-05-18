@@ -46,7 +46,7 @@ export default {
       id: 'price-check',
       title: 'Цена до выезда: что спросить по телефону',
       content: [
-        { kind: 'paragraph', text: 'Типичный экстренный выезд частного сантехника или электрика в 2026 году: 60–120 €/час за работу. Отдельно могут добавить deslocação, taxa de urgência, ночной/выходной коэффициент, материалы и IVA 23%. В Лиссабоне, Порту и Алгарве срочные вызовы обычно ближе к верхней границе.' },
+        { kind: 'paragraph', text: 'Типичный экстренный выезд частного сантехника или электрика в 2026 году: 60–120 €/час за работу. Отдельно могут добавить deslocação, taxa de urgência, ночной/выходной коэффициент, материалы и IVA 23%.\n\nВ Лиссабоне, Порту и Алгарве срочные вызовы обычно ближе к верхней границе.' },
         { kind: 'checklist', items: [
           'Сколько стоит deslocação до моего адреса?',
           'Сколько стоит 1 час работы и какой минимум оплаты: 1 час, 2 часа или фиксированный пакет?',
@@ -111,6 +111,6 @@ export default {
     { title: 'ERSE — информация для потребителей электроэнергии и аварийных ситуаций', url: 'https://www.erse.pt/consumidores-de-energia/eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária e Aduaneira — faturas, NIF и налоговые документы', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

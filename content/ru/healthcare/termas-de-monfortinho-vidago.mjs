@@ -132,7 +132,7 @@ export default {
       id: 'budget',
       title: 'Бюджет 2026: сколько готовить',
       content: [
-        { kind: 'paragraph', text: 'Реальная стоимость зависит от сезона, уровня отеля и числа процедур. Бюджетный курс с простым alojamento local может стоить около 400–700 € за 12–14 дней без ресторанов. Комфортный hotel package обычно 800–1 500 €. Vidago Palace и premium spa легко выходят выше этого диапазона.' },
+        { kind: 'paragraph', text: 'Реальная стоимость зависит от сезона, уровня отеля и числа процедур.\n\nБюджетный курс с простым alojamento local может стоить около 400–700 € за 12–14 дней без ресторанов. Комфортный hotel package обычно 800–1 500 €. Vidago Palace и premium spa легко выходят выше этого диапазона.' },
         { kind: 'checklist', items: [
           'Consulta termal: обычно 40–80 €',
           'Одна процедура: примерно 10–45 € в зависимости от типа',
@@ -182,6 +182,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

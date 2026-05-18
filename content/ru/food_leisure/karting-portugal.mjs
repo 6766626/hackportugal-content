@@ -3,7 +3,7 @@ export default {
   id: 'karting-portugal',
   categoryId: 'food_leisure',
   title: 'Картинг в Португалии — где погонять (2026)',
-  tldr: 'Около 15 действующих картинг-центров по Португалии. Главные: OKL — Outdoor Karting Lisboa (Pontinha, единственная открытая трасса в Лиссабоне), Karting Almancil (Algarve, открыт 1992 года, ~250 тыс. посетителей в год), Kartódromo Internacional do Algarve (профессиональная FIA-трасса), Kartódromo do Baltar (Paredes, 1023-метровая трасса). Цены 2026: индивидуальная сессия 15 мин — от 13–25 €, 30 мин — от 30–40 €. Возраст детей: с 3 лет (Mini F1 в Karting Almancil), классические взрослые карты — с 12–13 лет (рост ≥1,40 м обычно). Запись заранее настоятельно рекомендуется в выходные и летом.',
+  tldr: 'Около 15 действующих картинг-центров по Португалии. Главные: OKL — Outdoor Karting Lisboa (Pontinha, единственная открытая трасса в Лиссабоне), Karting Almancil (Algarve, открыт 1992 года, ~250 тыс. посетителей в год), Kartódromo Internacional do Algarve (профессиональная FIA-трасса), Kartódromo do Baltar (Paredes, 1023-метровая трасса).\n\nЦены 2026: индивидуальная сессия 15 мин — от 13–25 €, 30 мин — от 30–40 €. Возраст детей: с 3 лет (Mini F1 в Karting Almancil), классические взрослые карты — с 12–13 лет (рост ≥1,40 м обычно)\.\n\nЗапись заранее настоятельно рекомендуется в выходные и летом.',
   tags: ['картинг', 'дети', 'аттракционы', 'спорт'],
   estimatedReadMinutes: 6,
   steps: [
@@ -178,7 +178,7 @@ export default {
     { title: 'Autódromo do Algarve — Aluguer de Karts (официальный сайт)', url: 'https://autodromodoalgarve.com/pt/driving-experiences/aluguer-de-karts/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Kart Montijo (официальный сайт)', url: 'https://kartmontijo.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: картинг в Португалии — ~15 центров. Главные локации: OKL (единственная outdoor-трасса в Лиссабоне, 25 €/15 мин), Karting Almancil (Algarve, открыт Сенной в 1992, mini-F1 для детей с 3 лет), AIA Kartódromo (FIA-сертифицированная), Baltar (1023 м). Цены 2026, возрастные категории, советы по бронированию.'

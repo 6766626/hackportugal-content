@@ -3,7 +3,7 @@ export default {
   id: 'perfumarias-sephora-douglas',
   categoryId: 'daily_life',
   title: 'Парфюмерия и косметика: Sephora, Douglas, El Corte Inglés Beleza',
-  tldr: 'В Португалии премиальную парфюмерию и уход проще всего покупать в Sephora, Douglas и El Corte Inglés Beleza; бюджетнее — Wells, Mass Perfumarias и Pingo Doce Beleza. Цены обычно уже включают IVA 23%. Лучшие скидки: Black Friday в конце ноября, рождественские наборы в декабре, saldos зимой после Рождества и летом в июне–августе. Для возврата онлайн действует 14 дней, но вскрытую косметику и парфюм часто не принимают по гигиеническим правилам.',
+  tldr: 'В Португалии премиальную парфюмерию и уход проще всего покупать в Sephora, Douglas и El Corte Inglés Beleza; бюджетнее — Wells, Mass Perfumarias и Pingo Doce Beleza.\n\nЦены обычно уже включают IVA 23%. Лучшие скидки: Black Friday в конце ноября, рождественские наборы в декабре, saldos зимой после Рождества и летом в июне–августе. Для возврата онлайн действует 14 дней, но вскрытую косметику и парфюм часто не принимают по гигиеническим правилам.',
   tags: ['парфюм', 'sephora', 'douglas', 'beleza'],
   estimatedReadMinutes: 5,
   steps: [
@@ -101,6 +101,6 @@ export default {
     { title: 'ePortugal — права потребителя при онлайн-покупках и возвратах', url: 'https://eportugal.gov.pt/cidadaos/comprar-vender-ou-arrendar/compras-online', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária — ставки IVA в Португалии', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/codigo-do-iva-indice.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -181,7 +181,7 @@ export default {
     { title: 'OLX Portugal — dicas para usar em segurança (помощь платформы)', url: 'https://help.olx.pt/olxpthelp/s/article/dicas-importantes-para-usares-o-olx-em-segurana-V33', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'PJ — Canal de Denúncia de Cibercrime', url: 'https://canalcyber.pj.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: OLX, CustoJusto, Vinted в Португалии. Сравнение платформ, налоговые последствия DAC7 (>2000 € или >30 продаж = в Finanças), главные мошенничества 2025-2026 (фейковые SMS оплаты, фишинговые ссылки, MB Way push), советы DECO PROteste по безопасной покупке/продаже.'

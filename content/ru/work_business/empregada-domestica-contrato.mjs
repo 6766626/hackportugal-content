@@ -49,7 +49,7 @@ export default {
       id: 'social-security-registration',
       title: 'Зарегистрируйте работника в Segurança Social до начала',
       content: [
-        { kind: 'paragraph', text: 'Работодатель-физлицо регистрирует trabalhador do serviço doméstico через gov.pt или Segurança Social Direta. Срок — в 15-дневный период до начала работы, то есть не после первого дня. Практически: подписали договор → сразу подали admissão → работник выходит.' },
+        { kind: 'paragraph', text: 'Работодатель-физлицо регистрирует trabalhador do serviço doméstico через gov.pt или Segurança Social Direta.\n\nСрок — в 15-дневный период до начала работы, то есть не после первого дня. Практически: подписали договор → сразу подали admissão → работник выходит.' },
         { kind: 'substeps', items: [
           { id: 'prepare-access', title: '1. Подготовьте доступы и номера', content: [
             { kind: 'checklist', items: [
@@ -164,6 +164,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

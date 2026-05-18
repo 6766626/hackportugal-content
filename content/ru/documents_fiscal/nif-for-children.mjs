@@ -51,7 +51,7 @@ export default {
             ]}
           ]},
           { id: 'f2', title: 'Вариант B — дистанционно через представителя', content: [
-            { kind: 'paragraph', text: 'Если родители — граждане третьих стран и ещё не находятся в Португалии, действует тот же механизм, что и для взрослого NIF через фискального представителя. После переезда нужно изменить morada fiscal на адрес в Portugal/EU/EEA — тогда representante fiscal обычно можно снять; сам ВНЖ без смены morada fiscal в Finanças этого не делает. Стоимость — 70–150 € через юриста или компанию.' }
+            { kind: 'paragraph', text: 'Если родители — граждане третьих стран и ещё не находятся в Португалии, действует тот же механизм, что и для взрослого NIF через фискального представителя. После переезда нужно изменить morada fiscal на адрес в Portugal/EU/EEA — тогда representante fiscal обычно можно снять; сам ВНЖ без смены morada fiscal в Finanças этого не делает.\n\nСтоимость — 70–150 € через юриста или компанию.' }
           ]},
           { id: 'f3', title: 'Вариант C — если налоговый адрес в Portugal/EU/EEA', content: [
             { kind: 'paragraph', text: 'Если налоговый адрес ребёнка/родителя находится в Portugal/EU/EEA, fiscal representative обычно не нужен. Если адрес в третьей стране (включая CPLP), правила о representante fiscal/электронных уведомлениях нужно проверять отдельно; CPLP-гражданство само по себе не даёт EU-режим.' }
@@ -102,6 +102,6 @@ export default {
     { title: 'HCCH — Apostille Convention status', url: 'https://www.hcch.net/en/instruments/conventions/status-table/?cid=41', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Lei n.º 37/81 — Lei da Nacionalidade', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34514475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

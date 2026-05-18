@@ -3,7 +3,7 @@ export default {
   id: 'utilities-transfer',
   categoryId: 'daily_life',
   title: 'Коммунальные услуги — договоры, смена поставщика, экономия',
-  tldr: 'В Португалии 3 обязательные услуги: электричество, вода, газ (если подключён). Электричество и газ — либерализованный рынок: поставщика можно выбрать самому, например EDP, Galp, Iberdrola, Endesa и др. Вода — всегда муниципальная услуга (EPAL в Lisboa). Смена поставщика бесплатна и проходит без перерывов. Перенос договоров на новый адрес при переезде занимает 5–15 дней, без штрафа, по Decreto-Lei 38/2017.',
+  tldr: 'В Португалии 3 обязательные услуги: электричество, вода, газ (если подключён)\.\n\nЭлектричество и газ — либерализованный рынок: поставщика можно выбрать самому, например EDP, Galp, Iberdrola, Endesa и др. Вода — всегда муниципальная услуга (EPAL в Lisboa)\.\n\nСмена поставщика бесплатна и проходит без перерывов. Перенос договоров на новый адрес при переезде занимает 5–15 дней, без штрафа, по Decreto-Lei 38/2017.',
   tags: ['электричество', 'газ', 'вода', 'edp', 'galp', 'iberdrola'],
   estimatedReadMinutes: 6,
   steps: [
@@ -126,6 +126,6 @@ export default {
     { title: 'DGEG — Direcção-Geral de Energia e Geologia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 38/2017 — comercialização de electricidade', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/38-2017', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

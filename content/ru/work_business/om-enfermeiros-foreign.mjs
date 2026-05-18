@@ -11,7 +11,7 @@ export default {
       id: 'why-oe',
       title: 'Зачем нужна Ordem dos Enfermeiros',
       content: [
-        { kind: 'paragraph', text: 'Ordem dos Enfermeiros (OE) — профессиональная палата медсестёр. В Португалии enfermeiro/enfermeira — регулируемая профессия: работодатель в SNS, частной клинике, доме престарелых или agência de cuidados может взять вас именно медсестрой только при действующей inscrição в OE.' },
+        { kind: 'paragraph', text: 'Ordem dos Enfermeiros (OE) — профессиональная палата медсестёр.\n\nВ Португалии enfermeiro/enfermeira — регулируемая профессия: работодатель в SNS, частной клинике, доме престарелых или agência de cuidados может взять вас именно медсестрой только при действующей inscrição в OE.' },
         { kind: 'paragraph', text: 'ВНЖ, NIF, NISS и трудовой договор решают иммиграционную и налоговую часть, но не дают права использовать профессиональный титул “enfermeiro”. Для этого нужен номер cédula profissional / inscrição na Ordem.' },
         { kind: 'warning', text: 'Не путайте работу “cuidador”, “auxiliar de ação médica” или “assistente operacional” с работой медсестрой. Это другие функции и обычно ниже оплата. Выполнение актов enfermeiro без регистрации в OE может создать проблемы и для вас, и для работодателя.' }
       ]
@@ -37,7 +37,7 @@ export default {
       title: '1️⃣ Reconhecimento Específico диплома в публичном вузе',
       content: [
         { kind: 'paragraph', text: 'Reconhecimento Específico — это португальское признание, что ваш иностранный диплом соответствует конкретному циклу/области обучения в Португалии. Для enfermagem его делают через публичные instituições de ensino superior, у которых есть курс Enfermagem. Правовая база — Decreto-Lei 66/2018.' },
-        { kind: 'paragraph', text: 'Подача идёт не в OE, а в выбранный вуз. Сроки и комиссии различаются: часть вузов открывает окна подачи, часть принимает круглый год. В реальности закладывайте 3–9 месяцев, особенно если назначат анализ currículo, интервью, exames или дополнительные unidades curriculares.' },
+        { kind: 'paragraph', text: 'Подача идёт не в OE, а в выбранный вуз.\n\nСроки и комиссии различаются: часть вузов открывает окна подачи, часть принимает круглый год. В реальности закладывайте 3–9 месяцев, особенно если назначат анализ currículo, интервью, exames или дополнительные unidades curriculares.' },
         { kind: 'checklist', items: [
           'Диплом о высшем/среднем профессиональном сестринском образовании — как требует выбранный вуз.',
           'Приложение к диплому с часами, кредитами, дисциплинами и оценками.',
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

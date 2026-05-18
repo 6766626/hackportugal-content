@@ -8,7 +8,7 @@ export default {
   // of the subscription). The marketing pitch in the paywall references this guide.
   premium: true,
   title: 'Промокоды и реферальные ссылки — проверенные на 17.05.2026',
-  tldr: 'Эта подборка обновляется ежемесячно. Каждый код имеет дату последней проверки. Главное правило: реферальные коды (N26, Revolut, Wise, Glovo) не «истекают» в обычном смысле — они дают бонус и вам, и приглашающему. Промокоды (AutoDoc, Decathlon) истекают; ниже только те, где источник верифицирован. Самый высокий потенциал «вернуть подписку HackPortugal»: N26 +€35, Revolut +€30, Wise +€75 invite, Glovo +€8 — все вместе ~€150 за вечер регистраций. Если вы уже клиент этих сервисов, используйте только нерефералы (AutoDoc, Decathlon, кэшбэк-сайты). Если у кода не пришёл бонус — напишите на feedback HackPortugal, мы обновим.',
+  tldr: 'Эта подборка обновляется ежемесячно. Каждый код имеет дату последней проверки. Главное правило: реферальные коды (N26, Revolut, Wise, Glovo) не «истекают» в обычном смысле — они дают бонус и вам, и приглашающему. Промокоды (AutoDoc, Decathlon) истекают; ниже только те, где источник верифицирован. Самый высокий потенциал «вернуть подписку HackPortugal»: N26 +€35, Revolut +€30, Wise +€75 invite, Glovo +€8 — все вместе ~€150 за вечер регистраций. Если вы уже клиент этих сервисов, используйте только нерефералы (AutoDoc, Decathlon, кэшбэк-сайты)\.\n\nЕсли у кода не пришёл бонус — напишите на feedback HackPortugal, мы обновим.',
   tags: ['промокоды', 'купоны', 'реферал', 'кэшбэк', 'экономия', 'премиум'],
   estimatedReadMinutes: 8,
   steps: [
@@ -133,7 +133,7 @@ export default {
     { title: 'N26 — Refer-a-friend официальные правила', url: 'https://support.n26.com/en-eu/app-and-features/friend-referral/how-to-earn-money-by-inviting-friends-to-n26', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Booking.com — Genius программа лояльности', url: 'https://www.booking.com/genius.html', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90,
   recentlyChangedAt: '2026-05-17',
   changeSummary: '🆕 Новый Premium-гайд: верифицированные промокоды и реферальные ссылки. Главное предложение: окупите подписку за один вечер через бонусы N26 €35 + Revolut €30 + Wise €75 + Glovo €8 = €148. Также AutoDoc 10% off (код BC98213949), iHerb INTRO20, Glovo public codes, кэшбэк-плагины (Letyshops, Honey). Дата проверки каждого кода и обещание обновлять при поломке через Feedback. Этот гайд автоматически premium-only (categoryId daily_life, но premium override).'

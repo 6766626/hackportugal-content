@@ -125,6 +125,6 @@ export default {
     { title: 'Segurança Social: subsídio por morte', url: 'https://www.seg-social.pt/subsidio-por-morte', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DECO PROteste — direitos e proteção do consumidor', url: 'https://www.deco.proteste.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

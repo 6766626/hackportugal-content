@@ -3,7 +3,7 @@ export default {
   id: 'imt-stamp-duty-buy',
   categoryId: 'housing_buy',
   title: 'IMT и Imposto do Selo при покупке недвижимости',
-  tldr: 'При покупке недвижимости в Португалии покупатель платит IMT и Imposto do Selo до escritura. База — большее из цены сделки и VPT из caderneta predial. Для жилья под própria e permanente в Continente в 2026 действует прогрессивная IMT-таблица: 0% до 106 346 €, затем 2–8%, отдельные ставки 6% и 7,5% для дорогих объектов (escalões обновлены OE 2026 +2%). Imposto do Selo на покупку — 0,8%. Для jovens até 35 лет при первой покупке постоянного жилья есть освобождение до 330 539 € и частичная льгота до 661 078 €.',
+  tldr: 'При покупке недвижимости в Португалии покупатель платит IMT и Imposto do Selo до escritura. База — большее из цены сделки и VPT из caderneta predial. Для жилья под própria e permanente в Continente в 2026 действует прогрессивная IMT-таблица: 0% до 106 346 €, затем 2–8%, отдельные ставки 6% и 7,5% для дорогих объектов (escalões обновлены OE 2026 +2%)\.\n\nImposto do Selo на покупку — 0,8%. Для jovens até 35 лет при первой покупке постоянного жилья есть освобождение до 330 539 € и частичная льгота до 661 078 €.',
   tags: ['imt', 'selo', 'escritura', 'недвижимость'],
   estimatedReadMinutes: 6,
   steps: [
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'solar-panels',
   categoryId: 'housing_buy',
   title: 'Солнечные панели — установка, разрешения, экономия',
-  tldr: 'Португалия — топ-3 стран ЕС по солнечному потенциалу. Системы UPAC (Unidade de Produção para Autoconsumo) — пороги по DL 15/2022 / SERUP: очень малые системы (до ~700 W без инжекции в сеть) могут быть exempt от prior control; >700 W и ≤30 кВт — обычно mera comunicação prévia через DGEG/SERUP; >30 кВт — более тяжёлый prior control. Стоимость под ключ: 4 000-12 000 € для типичной квартиры/дома. Окупаемость 5-9 лет. Для получения денег за excedente нужен **bidirectional smart meter** и договор продажи с comercializador/agregador (net metering 1:1 в PT НЕТ). Fundo Ambiental не гарантирует ежегодное финансирование — сверяйте actual Aviso на fundoambiental.pt.',
+  tldr: 'Португалия — топ-3 стран ЕС по солнечному потенциалу. Системы UPAC (Unidade de Produção para Autoconsumo) — пороги по DL 15/2022 / SERUP: очень малые системы (до ~700 W без инжекции в сеть) могут быть exempt от prior control; >700 W и ≤30 кВт — обычно mera comunicação prévia через DGEG/SERUP; >30 кВт — более тяжёлый prior control.\n\nСтоимость под ключ: 4 000-12 000 € для типичной квартиры/дома. Окупаемость 5-9 лет. Для получения денег за excedente нужен **bidirectional smart meter** и договор продажи с comercializador/agregador (net metering 1:1 в PT НЕТ)\.\n\nFundo Ambiental не гарантирует ежегодное финансирование — сверяйте actual Aviso на fundoambiental.pt.',
   tags: ['солнечные панели', 'солнечная энергия', 'автопотребление', 'Fundo Ambiental'],
   estimatedReadMinutes: 6,
   steps: [
@@ -198,6 +198,6 @@ export default {
     { title: 'SERUP — Sistema Eletrónico de Registo de Unidades de Produção', url: 'https://serup.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'APREN — Renewable Energies Portugal', url: 'https://www.apren.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

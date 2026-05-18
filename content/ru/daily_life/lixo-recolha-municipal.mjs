@@ -3,7 +3,7 @@ export default {
   id: 'lixo-recolha-municipal',
   categoryId: 'daily_life',
   title: 'Сбор мусора и переработка: графики и правила муниципалитетов',
-  tldr: 'В Португалии мусор — муниципальная услуга: график, ночные часы выноса, bulky waste / monstros, зелёные отходы и ecocentro зависят от Câmara Municipal. В Лиссабоне CML даёт расписание по зонам и онлайн-заявку на recolha de monstros; в Porto правила публикует Câmara/Porto Ambiente. Базовая сортировка в 2026: azul бумага, amarelo пластик/металл/embalagens, verde стекло, castanho bioresíduos, cinzento indiferenciado; масло — только в oleão.',
+  tldr: 'В Португалии мусор — муниципальная услуга: график, ночные часы выноса, bulky waste / monstros, зелёные отходы и ecocentro зависят от Câmara Municipal.\n\nВ Лиссабоне CML даёт расписание по зонам и онлайн-заявку на recolha de monstros; в Porto правила публикует Câmara/Porto Ambiente. Базовая сортировка в 2026: azul бумага, amarelo пластик/металл/embalagens, verde стекло, castanho bioresíduos, cinzento indiferenciado; масло — только в oleão.',
   tags: ['lixo', 'reciclagem', 'муниципалитет', 'ecoponto'],
   estimatedReadMinutes: 5,
   steps: [
@@ -119,6 +119,6 @@ export default {
     { title: 'Agência Portuguesa do Ambiente — resíduos urbanos и separação de resíduos', url: 'https://apambiente.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — serviços municipais e gestão de resíduos', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

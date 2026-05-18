@@ -28,7 +28,7 @@ export default {
       id: 'when-you-can-use',
       title: 'Когда можно, а когда нельзя',
       content: [
-        { kind: 'paragraph', text: 'Ключевой тест Finanças — не сумма сама по себе, а характер операции. Ato Isolado должен быть действительно изолированным. Лимит 25 000 € важен для освобождения от подачи declaração de início de atividade, но он не превращает регулярный фриланс “до 25 000 € в год” в законный Ato Isolado.' },
+        { kind: 'paragraph', text: 'Ключевой тест Finanças — не сумма сама по себе, а характер операции. Ato Isolado должен быть действительно изолированным.\n\nЛимит 25 000 € важен для освобождения от подачи declaração de início de atividade, но он не превращает регулярный фриланс “до 25 000 € в год” в законный Ato Isolado.' },
         { kind: 'checklist', items: [
           'Можно: один раз провести workshop за 800 € для компании',
           'Можно: один раз сделать сайт знакомой компании за 2 500 €',
@@ -167,6 +167,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

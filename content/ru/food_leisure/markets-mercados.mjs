@@ -3,7 +3,7 @@ export default {
   id: 'markets-mercados',
   categoryId: 'food_leisure',
   title: 'Рынки Португалии (Mercados)',
-  tldr: 'Муниципальные рынки — живая традиция: свежая рыба, мясо, овощи, специи. Главные в Лиссабоне: Mercado da Ribeira (Time Out), Mercado de Campo de Ourique, Arroios, 31 de Janeiro. В Порту — легендарный Mercado do Bolhão. Традиционные торговые ряды чаще всего активны утром примерно до 14:00, но расписание сильно зависит от рынка; фуд-холлы обычно работают дольше и открываются позже. Проверяйте часы на странице конкретного mercado/feira.',
+  tldr: 'Муниципальные рынки — живая традиция: свежая рыба, мясо, овощи, специи. Главные в Лиссабоне: Mercado da Ribeira (Time Out), Mercado de Campo de Ourique, Arroios, 31 de Janeiro.\n\nВ Порту — легендарный Mercado do Bolhão. Традиционные торговые ряды чаще всего активны утром примерно до 14:00, но расписание сильно зависит от рынка; фуд-холлы обычно работают дольше и открываются позже. Проверяйте часы на странице конкретного mercado/feira.',
   tags: ['рынки', 'рынок', 'mercado', 'time out'],
   estimatedReadMinutes: 5,
   steps: [
@@ -85,6 +85,6 @@ export default {
     { title: 'Visit Porto — Mercado do Bolhão', url: 'https://visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Time Out Market Lisbon', url: 'https://www.timeoutmarket.com/lisboa/', kind: 'secondary', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

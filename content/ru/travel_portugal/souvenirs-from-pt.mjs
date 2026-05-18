@@ -3,7 +3,7 @@ export default {
   id: 'souvenirs-from-pt',
   categoryId: 'travel_portugal',
   title: 'Сувениры из Португалии — что привезти и где купить',
-  tldr: 'Главные аутентичные сувениры: Galo de Barcelos (петух-символ), азулежу (изразцы), пробковые изделия (Cork), консервы сардин в винтажных банках, ovos moles из Авейру, виноPort, виноVerde, ginjinha (вишнёвая настойка), азейте оливковое (Португалия — мировой лидер), мыло Castelbel, лента «lenço dos namorados» с вышивкой. Где купить: «A Vida Portuguesa» (флагман в Шиадо/Порту, премиум-цены), Mercado da Ribeira / Bolhão (фрешные/недорогие), Conserveira de Lisboa и Mundo Fantástico da Sardinha (специализированные на консервах), супермаркеты Continente/Pingo Doce (азейте и портвейн — самое дешёвое место). Избегайте магниты «I love Lisboa» — это китайская массовка, не аутентика.',
+  tldr: 'Главные аутентичные сувениры: Galo de Barcelos (петух-символ), азулежу (изразцы), пробковые изделия (Cork), консервы сардин в винтажных банках, ovos moles из Авейру, виноPort, виноVerde, ginjinha (вишнёвая настойка), азейте оливковое (Португалия — мировой лидер), мыло Castelbel, лента «lenço dos namorados» с вышивкой. Где купить: «A Vida Portuguesa» (флагман в Шиадо/Порту, премиум-цены), Mercado da Ribeira / Bolhão (фрешные/недорогие), Conserveira de Lisboa и Mundo Fantástico da Sardinha (специализированные на консервах), супермаркеты Continente/Pingo Doce (азейте и портвейн — самое дешёвое место)\.\n\nИзбегайте магниты «I love Lisboa» — это китайская массовка, не аутентика.',
   tags: ['сувениры', 'подарки', 'азулежу', 'портвейн', 'аутентика'],
   estimatedReadMinutes: 7,
   steps: [
@@ -152,7 +152,7 @@ export default {
     { title: 'IVDP — Instituto dos Vinhos do Douro e Porto', url: 'https://www.ivdp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Visit Aveiro — Ovos moles PDO', url: 'https://www.visitaveiro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: сувениры из Португалии. Топ-10 аутентичных (Galo, азулежу, пробка, портвейн, vinho verde, ginjinha, консервы, ovos moles, oливковое масло, lenço dos namorados), где покупать в Лиссабоне (A Vida Portuguesa, Mercado da Ribeira, Conserveira) и Порту (Mercado do Bolhão, Vila Nova de Gaia), как отличить аутентику от китайского масс-маркета, таможенные правила.'

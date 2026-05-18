@@ -3,7 +3,7 @@ export default {
   id: 'fne-financas-novo-extrato',
   categoryId: 'documents_fiscal',
   title: 'Получение справок Finanças: IRS, IUC, IMI, дивиденды и отсутствие долгов',
-  tldr: 'В Portal das Finanças можно бесплатно или за небольшой сбор получить налоговые справки AT: declaração de não-dívida, certidão de IRS, IUC, IMI, comprovativo de morada fiscal и справки по доходам, включая дивиденды. Путь: Portal das Finanças → Cidadãos → Serviços → Certidões. Большинство PDF выдаются сразу и стоят 0 €, отдельные certidões могут стоить до 10 €. Срок действия зависит от типа: não-dívida обычно 3 месяца, многие получатели принимают остальные справки не старше 6 месяцев.',
+  tldr: 'В Portal das Finanças можно бесплатно или за небольшой сбор получить налоговые справки AT: declaração de não-dívida, certidão de IRS, IUC, IMI, comprovativo de morada fiscal и справки по доходам, включая дивиденды. Путь: Portal das Finanças → Cidadãos → Serviços → Certidões. Большинство PDF выдаются сразу и стоят 0 €, отдельные certidões могут стоить до 10 €.\n\nСрок действия зависит от типа: não-dívida обычно 3 месяца, многие получатели принимают остальные справки не старше 6 месяцев.',
   tags: ['finanças', 'certidões', 'irs', 'imi', 'iuc'],
   estimatedReadMinutes: 5,
   steps: [
@@ -135,6 +135,6 @@ export default {
     { title: 'Portal das Finanças — раздел Cidadãos / Serviços / Certidões', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — услуги и контакты Autoridade Tributária e Aduaneira', url: 'https://eportugal.gov.pt/entidades/autoridade-tributaria-e-aduaneira', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

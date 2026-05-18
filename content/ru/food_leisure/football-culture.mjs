@@ -3,7 +3,7 @@ export default {
   id: 'football-culture',
   categoryId: 'food_leisure',
   title: 'Футбольная культура: Benfica, Porto, Sporting',
-  tldr: 'Футбол в Португалии — национальная религия. «Os Três Grandes» («Большая тройка»): SL Benfica, FC Porto, Sporting CP. Derby de Lisboa (Benfica против Sporting) и O Clássico (Benfica против Porto) — события года. Билеты на обычные матчи — € 15–60, на класико — до € 200. Sócios (члены клуба) — у Benfica их сотни тысяч; клуб заявлял о рекорде Guinness по числу членов.',
+  tldr: 'Футбол в Португалии — национальная религия. «Os Três Grandes» («Большая тройка»): SL Benfica, FC Porto, Sporting CP. Derby de Lisboa (Benfica против Sporting) и O Clássico (Benfica против Porto) — события года.\n\nБилеты на обычные матчи — € 15–60, на класико — до € 200. Sócios (члены клуба) — у Benfica их сотни тысяч; клуб заявлял о рекорде Guinness по числу членов.',
   tags: ['футбол', 'benfica', 'porto', 'sporting'],
   estimatedReadMinutes: 7,
   steps: [
@@ -16,10 +16,10 @@ export default {
             { kind: 'paragraph', text: 'Основан в 1904 году. Самый титулованный клуб — 38 чемпионств Португалии. Стадион Estádio da Luz (64 642 места) в Лиссабоне. Цвета — красно-белые. Талисман — орёл Vítor. Гимн — «Ser Benfiquista». Сотни тысяч sócios; Benfica заявляла о рекорде Guinness по числу членов футбольного клуба — актуальную цифру лучше проверять на slbenfica.pt.' }
           ]},
           { id: 'p1', title: 'FC Porto', content: [
-            { kind: 'paragraph', text: 'Основан в 1893 году. 30 чемпионств. Стадион Estádio do Dragão (50 033 места). Цвета — сине-белые. Талисман — дракон. Самый успешный португальский клуб в еврокубках: выигрывал Кубок европейских чемпионов/Лигу чемпионов в 1987 и 2004, Кубок UEFA/Лигу Европы, Суперкубок UEFA и Межконтинентальный кубок.' }
+            { kind: 'paragraph', text: 'Основан в 1893 году. 30 чемпионств. Стадион Estádio do Dragão (50 033 места)\.\n\nЦвета — сине-белые. Талисман — дракон. Самый успешный португальский клуб в еврокубках: выигрывал Кубок европейских чемпионов/Лигу чемпионов в 1987 и 2004, Кубок UEFA/Лигу Европы, Суперкубок UEFA и Межконтинентальный кубок.' }
           ]},
           { id: 's1', title: 'Sporting CP (Лиссабон)', content: [
-            { kind: 'paragraph', text: 'Основан в 1906 году. 21 чемпионство. Стадион Estádio José Alvalade (50 095 мест). Цвета — зелёно-белые, в полоску. Талисман — лев. Alma de Leão. Академия Alcochete — одна из лучших в мире: выпустила Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa.' }
+            { kind: 'paragraph', text: 'Основан в 1906 году. 21 чемпионство. Стадион Estádio José Alvalade (50 095 мест)\.\n\nЦвета — зелёно-белые, в полоску. Талисман — лев. Alma de Leão. Академия Alcochete — одна из лучших в мире: выпустила Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa.' }
           ]}
         ]}
       ]
@@ -126,6 +126,6 @@ export default {
     { title: 'FC Porto', url: 'https://www.fcporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Sporting CP', url: 'https://www.sporting.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

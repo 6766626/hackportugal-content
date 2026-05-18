@@ -39,7 +39,7 @@ export default {
           'Imóvel — ипотечные проценты: вычет по juros de crédito à habitação применим в основном к старым кредитам, заключённым до 31.12.2011, максимум 296 €.',
           'IMI, condomínio, ремонт и мебель не становятся вычетом Anexo H только потому, что связаны с жильём.'
         ] },
-        { kind: 'warning', text: 'Лимиты “1 000 € (saúde) / 800 € (educação) / 403,75 € (lares) / 700–800 € (аренда HPP) / 296 € (juros старой ипотеки)” — это максимальный вычет из налога, а не сумма расходов. Например, чтобы получить 1 000 € по saúde, нужно иметь около 6 666,67 € признанных медицинских расходов.' }
+        { kind: 'warning', text: 'Лимиты “1 000 € (saúde) / 800 € (educação) / 403,75 € (lares) / 700–800 € (аренда HPP) / 296 € (juros старой ипотеки)” — это максимальный вычет из налога, а не сумма расходов.\n\nНапример, чтобы получить 1 000 € по saúde, нужно иметь около 6 666,67 € признанных медицинских расходов.' }
       ]
     },
     {
@@ -91,7 +91,7 @@ export default {
       id: 'family-abono-casamento',
       title: 'Дети, abono de família и “casamento jovem 750 €”',
       content: [
-        { kind: 'paragraph', text: 'Abono de família — социальная выплата Segurança Social. Она не является обычным налогооблагаемым доходом IRS и не декларируется как расход в Anexo H. Налоговые вычеты за dependentes обычно рассчитываются автоматически, если дети правильно указаны в household.' },
+        { kind: 'paragraph', text: 'Abono de família — социальная выплата Segurança Social. Она не является обычным налогооблагаемым доходом IRS и не декларируется как расход в Anexo H.\n\nНалоговые вычеты за dependentes обычно рассчитываются автоматически, если дети правильно указаны в household.' },
         { kind: 'checklist', items: [
           'Проверьте composição do agregado familiar в Portal das Finanças до подачи декларации.',
           'Укажите dependentes с NIF; без NIF ребёнка часть автоматических вычетов и e-Fatura может потеряться.',
@@ -158,6 +158,6 @@ export default {
 ,
     { title: 'AT — Folheto IRS deduções 2025', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/IRS_deducoes_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

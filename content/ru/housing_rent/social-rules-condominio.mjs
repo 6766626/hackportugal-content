@@ -3,7 +3,7 @@ export default {
   id: 'social-rules-condominio',
   categoryId: 'housing_rent',
   title: 'Жизнь в многоквартирном доме — соседи, шум, жалобы',
-  tldr: 'Portugal — страна тихого ежедневного протокола, но соседи бывают разные. Правила шума: Regulamento Geral do Ruído (DL 9/2007) — período nocturno **23:00-07:00**, diurno 07:00-20:00, entardecer 20:00-23:00 (стандартные определения; муниципалитеты могут добавлять локальные правила). Куда жаловаться: GNR/PSP (разовое нарушение) → Câmara Municipal (постоянное нарушение) → суд. Штрафы за шум: 200-2500 € для физлица. В condomínio общее собрание принимает внутренние правила, assembleia проводится не реже 1 раза в год. Обязателен Fundo Comum de Reserva.',
+  tldr: 'Portugal — страна тихого ежедневного протокола, но соседи бывают разные. Правила шума: Regulamento Geral do Ruído (DL 9/2007) — período nocturno **23:00-07:00**, diurno 07:00-20:00, entardecer 20:00-23:00 (стандартные определения; муниципалитеты могут добавлять локальные правила)\.\n\nКуда жаловаться: GNR/PSP (разовое нарушение) → Câmara Municipal (постоянное нарушение) → суд. Штрафы за шум: 200-2500 € для физлица. В condomínio общее собрание принимает внутренние правила, assembleia проводится не реже 1 раза в год. Обязателен Fundo Comum de Reserva.',
   tags: ['соседи', 'шум', 'condomínio', 'жалобы'],
   estimatedReadMinutes: 6,
   steps: [
@@ -174,6 +174,6 @@ export default {
     { title: 'Lei 8/2022 — propriedade horizontal (condomínio)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/8-2022-180824432', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 6/2006 — NRAU (arrendamento urbano)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34454575', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

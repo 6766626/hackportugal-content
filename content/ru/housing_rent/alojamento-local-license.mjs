@@ -56,7 +56,7 @@ export default {
       id: 'taxes-and-duties',
       title: 'Налоги, сборы и операционные обязанности',
       content: [
-        { kind: 'paragraph', text: 'AL — это не “просто аренда”. Для физлица доход обычно декларируется в IRS как категория B, если деятельность зарегистрирована, или по другой схеме в зависимости от структуры. Для компании — IRC. Налоговая модель влияет на IVA, despesas, contabilidade organizada и social security.' },
+        { kind: 'paragraph', text: 'AL — это не “просто аренда”. Для физлица доход обычно декларируется в IRS как категория B, если деятельность зарегистрирована, или по другой схеме в зависимости от структуры. Для компании — IRC.\n\nНалоговая модель влияет на IVA, despesas, contabilidade organizada и social security.' },
         { kind: 'checklist', items: ['Откройте или измените atividade в Finanças до первых гостей', 'Проверьте режим IVA: освобождение по art. 53 CIVA возможно только при выполнении лимитов и условий; иначе ставка обычно 6%/13%/23% по конкретной услуге и региону требует проверки у contabilista', 'Выдавайте счета за каждое бронирование, включая комиссии платформ', 'Проверьте tourist tax: Lisboa, Porto и многие municípios взимают taxa turística за ночь', 'Учитывайте IMI как собственник; AL сам по себе не отменяет IMI', 'Платите condominium charges и соблюдайте regulamento do condomínio', 'Сообщайте изменения: вместимость, владелец exploração, контакты, прекращение деятельности', 'Следите за local rules по шуму, мусору, check-in и occupancy limits'] },
         { kind: 'warning', text: 'Налоговая оптимизация AL зависит от статуса резидентства, расходов, ипотеки, IVA и количества объектов. Перед стартом дешевле оплатить contabilista, чем потом исправлять IRS/IVA и штрафы.' }
       ]
@@ -85,6 +85,6 @@ export default {
     { title: 'Lei 56/2023 — Programa Mais Habitação и изменения режима AL', url: 'https://dre.pt/dre/detalhe/lei/56-2023-222477692', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Alojamento Local: registo e comunicação prévia', url: 'https://eportugal.gov.pt/servicos/registar-um-estabelecimento-de-alojamento-local', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

@@ -62,7 +62,7 @@ export default {
       id: 'declaration-modelo-1',
       title: 'Modelo 1 IS: когда и как декларировать',
       content: [
-        { kind: 'paragraph', text: 'Декларация называется Modelo 1 do Imposto do Selo — Participação de Transmissões Gratuitas. Общий срок подачи — до конца 3-го месяца после месяца, в котором произошло дарение или возникла налоговая обязанность. Например, подарок получен 10 апреля 2026: ориентир срока — до 31 июля 2026.' },
+        { kind: 'paragraph', text: 'Декларация называется Modelo 1 do Imposto do Selo — Participação de Transmissões Gratuitas. Общий срок подачи — до конца 3-го месяца после месяца, в котором произошло дарение или возникла налоговая обязанность.\n\nНапример, подарок получен 10 апреля 2026: ориентир срока — до 31 июля 2026.' },
         { kind: 'paragraph', text: 'Для близкой семьи есть важная практическая граница: денежные подарки от cônjuge/unido de facto, ascendants или descendants свыше 5 000 € освобождены от 10%, но их нужно декларировать. Ниже 5 000 € декларационная обязанность для таких денежных подарков обычно не применяется.' },
         { kind: 'checklist', items: [
           'Зайдите на Portal das Finanças с NIF и паролем или Chave Móvel Digital (CMD).',
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

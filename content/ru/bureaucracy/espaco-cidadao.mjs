@@ -3,7 +3,7 @@ export default {
   id: 'espaco-cidadao',
   categoryId: 'digital_gov',
   title: 'Espaço Cidadão — государственные услуги в одном окне',
-  tldr: 'Espaço Cidadão — точки обслуживания (есть по всей стране, но не гарантированно в каждом муниципалитете), где решают многие вопросы с госуслугами: Chave Móvel Digital, изменение адреса, ряд справок и другие. Конкретный набор услуг зависит от точки — NIF/NISS есть не в каждом Espaço Cidadão. В больших городах есть Loja de Cidadão (отдельные окна разных ведомств — состав отличается по городу). Запись через ePortugal.gov.pt **рекомендуется**, но не везде обязательна — некоторые услуги работают по живой очереди или талонам.',
+  tldr: 'Espaço Cidadão — точки обслуживания (есть по всей стране, но не гарантированно в каждом муниципалитете), где решают многие вопросы с госуслугами: Chave Móvel Digital, изменение адреса, ряд справок и другие. Конкретный набор услуг зависит от точки — NIF/NISS есть не в каждом Espaço Cidadão. В больших городах есть Loja de Cidadão (отдельные окна разных ведомств — состав отличается по городу)\.\n\nЗапись через ePortugal.gov.pt **рекомендуется**, но не везде обязательна — некоторые услуги работают по живой очереди или талонам.',
   tags: ['espaço cidadão', 'loja de cidadão', 'госуслуги'],
   estimatedReadMinutes: 4,
   steps: [
@@ -69,6 +69,6 @@ export default {
     { title: 'ePortugal — Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Loja de Cidadão — официальный сайт', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

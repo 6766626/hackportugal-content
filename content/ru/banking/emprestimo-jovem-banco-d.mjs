@@ -3,7 +3,7 @@ export default {
   id: 'emprestimo-jovem-banco-d',
   categoryId: 'banking',
   title: 'Empréstimo Jovem: кредиты с госгарантией для молодых до 35 лет',
-  tldr: 'В 2026 году “Empréstimo Jovem” чаще всего означает Linha Jovem Habitação: ипотека на первую постоянную квартиру/дом для людей 18–35 лет с госгарантией до 15% цены, чтобы банк мог финансировать до 100% покупки. Лимит недвижимости — 450 000 €, нужна налоговая резиденция в Португалии и отсутствие другого жилья. Ставка не субсидируется: банк считает обычную ипотеку, в 2026 ориентир около 3,3–4,0% TAN/TAEG. Для бизнеса есть отдельные линии IFD/BPF/IAPMEI, но это не “деньги всем до 35”.',
+  tldr: 'В 2026 году “Empréstimo Jovem” чаще всего означает Linha Jovem Habitação: ипотека на первую постоянную квартиру/дом для людей 18–35 лет с госгарантией до 15% цены, чтобы банк мог финансировать до 100% покупки.\n\nЛимит недвижимости — 450 000 €, нужна налоговая резиденция в Португалии и отсутствие другого жилья. Ставка не субсидируется: банк считает обычную ипотеку, в 2026 ориентир около 3,3–4,0% TAN/TAEG. Для бизнеса есть отдельные линии IFD/BPF/IAPMEI, но это не “деньги всем до 35”.',
   tags: ['ипотека', 'jovem', 'garantia', 'banco'],
   estimatedReadMinutes: 6,
   steps: [
@@ -127,6 +127,6 @@ export default {
     { title: 'Decreto-Lei 44/2024 — garantia pessoal do Estado para aquisição da primeira habitação própria e permanente', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/44-2024-870793703', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal — crédito à habitação e FINE', url: 'https://clientebancario.bportugal.pt/pt-pt/credito-habitacao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

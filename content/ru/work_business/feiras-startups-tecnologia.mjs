@@ -3,7 +3,7 @@ export default {
   id: 'feiras-startups-tecnologia',
   categoryId: 'work_business',
   title: 'Web Summit Lisboa и стартап-комьюнити Португалии',
-  tldr: 'Web Summit остаётся главным tech-событием Португалии: Lisboa, ноябрь 2026, обычно 70 000+ участников, площадка MEO Arena / FIL в Parque das Nações. Для экспата это не только конференция, а быстрый вход в рынок: инвесторы, вакансии, акселераторы, Startup Portugal, Beta-i, Building Global Innovators, Startup Lisboa, UPTEC Porto, Carcavelos Surf+Tech и coworking вроде ServerLisboa. Билеты дешевле покупать заранее; жильё на неделю Web Summit дорожает в 2–4 раза.',
+  tldr: 'Web Summit остаётся главным tech-событием Португалии: Lisboa, ноябрь 2026, обычно 70 000+ участников, площадка MEO Arena / FIL в Parque das Nações. Для экспата это не только конференция, а быстрый вход в рынок: инвесторы, вакансии, акселераторы, Startup Portugal, Beta-i, Building Global Innovators, Startup Lisboa, UPTEC Porto, Carcavelos Surf+Tech и coworking вроде ServerLisboa.\n\nБилеты дешевле покупать заранее; жильё на неделю Web Summit дорожает в 2–4 раза.',
   tags: ['websummit', 'стартапы', 'lisboa', 'porto', 'нетворкинг'],
   estimatedReadMinutes: 6,
   steps: [
@@ -122,6 +122,6 @@ export default {
     { title: 'Startup Lisboa — инкубатор и стартап-хаб Lisboa', url: 'https://unicornfactorylisboa.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'UPTEC — Parque de Ciência e Tecnologia da Universidade do Porto', url: 'https://uptec.up.pt', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

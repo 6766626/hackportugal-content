@@ -121,6 +121,6 @@ export default {
     { title: 'Metro Lisboa — билеты, Navegante occasional, zapping и 24h passes', url: 'https://www.metrolisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transportes Metropolitanos de Lisboa — Navegante Metropolitano, Municipal и Família', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -118,6 +118,6 @@ export default {
     { title: 'Repsol — Repsol Gás и distribuição de GPL', url: 'https://www.repsol.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE — informação ao consumidor sobre gás e energia', url: 'https://www.erse.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

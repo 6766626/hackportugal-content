@@ -3,7 +3,7 @@ export default {
   id: 'surfing-beaches',
   categoryId: 'food_leisure',
   title: 'Серфинг в Португалии — школы, пляжи, сезоны',
-  tldr: 'Португалия — мировая столица серфинга. Nazaré — рекорды самых больших волн (30+ м). Ericeira — единственный в Европе World Surf Reserve. Peniche, Sagres, Aljezur — легендарные споты. Школы от 30-60 €/урок + 15-25 € прокат, полноценный лагерь выходного дня ~150-350 €. Пик сезона: сентябрь-апрель для больших волн, май-август для новичков. Любой уровень — от новичка до мирового класса.',
+  tldr: 'Португалия — мировая столица серфинга. Nazaré — рекорды самых больших волн (30+ м)\.\n\nEriceira — единственный в Европе World Surf Reserve. Peniche, Sagres, Aljezur — легендарные споты. Школы от 30-60 €/урок + 15-25 € прокат, полноценный лагерь выходного дня ~150-350 €. Пик сезона: сентябрь-апрель для больших волн, май-август для новичков. Любой уровень — от новичка до мирового класса.',
   tags: ['серфинг', 'сёрфинг', 'nazaré', 'ericeira'],
   estimatedReadMinutes: 6,
   steps: [
@@ -183,6 +183,6 @@ export default {
     { title: 'WSR Ericeira — World Surf Reserve', url: 'https://www.ericeirawsr.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Portugal — Surf', url: 'https://www.visitportugal.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

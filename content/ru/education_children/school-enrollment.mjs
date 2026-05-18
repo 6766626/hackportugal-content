@@ -3,7 +3,7 @@ export default {
   id: 'school-enrollment',
   categoryId: 'education_children',
   title: 'Зачисление ребёнка в португальскую школу',
-  tldr: 'Обучение в Португалии обязательно с 6 до 18 лет (или до завершения secundário). Государственные школы бесплатные, зачисление — по району проживания через Portal das Matrículas. Возможны частные школы (€ 3 000–15 000/год) и международные (€ 10 000–25 000/год). Основные окна matrícula зависят от уровня обучения и ежегодного despacho; для pré-escolar/1.º ano 2026/2027 — 22 апреля – 1 июня 2026 (Despacho 4472-A/2026). Для переезда/перевода школа может принять заявление в течение года при наличии места.',
+  tldr: 'Обучение в Португалии обязательно с 6 до 18 лет (или до завершения secundário)\.\n\nГосударственные школы бесплатные, зачисление — по району проживания через Portal das Matrículas. Возможны частные школы (€ 3 000–15 000/год) и международные (€ 10 000–25 000/год)\.\n\nОсновные окна matrícula зависят от уровня обучения и ежегодного despacho; для pré-escolar/1.º ano 2026/2027 — 22 апреля – 1 июня 2026 (Despacho 4472-A/2026). Для переезда/перевода школа может принять заявление в течение года при наличии места.',
   tags: ['школа', 'образование', 'зачисление', 'дети'],
   estimatedReadMinutes: 6,
   steps: [
@@ -97,6 +97,6 @@ export default {
     { title: 'DGE — Direcção-Geral da Educação', url: 'https://www.dge.mec.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Inscrever criança em escola', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/matricular-ou-renovar-a-matricula-no-ensino-obrigatorio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

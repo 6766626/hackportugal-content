@@ -123,6 +123,6 @@ export default {
     { title: 'DGAV — Identificação de animais de companhia (cães e gatos / SIAC)', url: 'https://www.dgav.pt/animais/conteudo/identificacao-e-registo-animal/animais-de-companhia/caes-e-gatos/identificacao/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Decreto-Lei 82/2019 — sistema de identificação de animais de companhia', url: 'https://dre.pt/dre/detalhe/decreto-lei/82-2019-122728684', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

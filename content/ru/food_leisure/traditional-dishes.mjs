@@ -3,7 +3,7 @@ export default {
   id: 'traditional-dishes',
   categoryId: 'food_leisure',
   title: 'Что попробовать из португальской кухни',
-  tldr: 'Основа — bacalhau (треска, «1001 рецепт»), sardinhas assadas (сардины в Лиссабоне летом), cozido à portuguesa (мясное ассорти), francesinha (главное блюдо Порту), arroz de marisco (рис с морепродуктами), leitão da Bairrada (молочный поросёнок). Десерт — pastel de nata везде, ovos moles в Авейру.',
+  tldr: 'Основа — bacalhau (треска, «1001 рецепт»), sardinhas assadas (сардины в Лиссабоне летом), cozido à portuguesa (мясное ассорти), francesinha (главное блюдо Порту), arroz de marisco (рис с морепродуктами), leitão da Bairrada (молочный поросёнок)\.\n\nДесерт — pastel de nata везде, ovos moles в Авейру.',
   tags: ['еда', 'кухня', 'bacalhau', 'pastel de nata'],
   estimatedReadMinutes: 6,
   steps: [
@@ -111,6 +111,6 @@ export default {
     { title: 'DGAV — безопасность продуктов питания', url: 'https://www.dgav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGADR — DOP/IGP: защищённые наименования и традиционные продукты', url: 'https://www.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

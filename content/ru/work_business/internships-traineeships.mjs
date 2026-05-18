@@ -3,7 +3,7 @@ export default {
   id: 'internships-traineeships',
   categoryId: 'work_business',
   title: 'Стажировки (Estágios) — программы и оплата',
-  tldr: 'Estágios — частая стартовая точка карьеры в Португалии. Типы: **IEFP estágios** (например Estágios INICIAR / +Talento) — обычно 6–9 месяцев, bolsa зависит от уровня QNQ/образования и считается в IAS (от ~1.3 IAS); **Estágios curriculares** (университет-партнёр, часто без обязательной оплаты); **Estágios de Inserção** — отдельная мера IEFP для pessoas com deficiência e incapacidade (не путать с CEI+ для безработных); **extracurricular** регулируется Decreto-Lei 66/2011 (письменный контракт, seguro, bolsa не ниже IAS €537.13 в 2026); **частные стажировки** от компаний, 600-1500 €/мес.',
+  tldr: 'Estágios — частая стартовая точка карьеры в Португалии.\n\nТипы: **IEFP estágios** (например Estágios INICIAR / +Talento) — обычно 6–9 месяцев, bolsa зависит от уровня QNQ/образования и считается в IAS (от ~1.3 IAS); **Estágios curriculares** (университет-партнёр, часто без обязательной оплаты); **Estágios de Inserção** — отдельная мера IEFP для pessoas com deficiência e incapacidade (не путать с CEI+ для безработных); **extracurricular** регулируется Decreto-Lei 66/2011 (письменный контракт, seguro, bolsa не ниже IAS €537.13 в 2026); **частные стажировки** от компаний, 600-1500 €/мес.',
   tags: ['estágio', 'стажировка', 'iefp', 'выпускники'],
   estimatedReadMinutes: 6,
   steps: [
@@ -172,6 +172,6 @@ export default {
     { title: 'Erasmus+ Portugal', url: 'https://erasmusmais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'EURES Portugal', url: 'https://eures.europa.eu/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

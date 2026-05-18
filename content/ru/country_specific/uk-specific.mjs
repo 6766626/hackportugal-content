@@ -3,7 +3,7 @@ export default {
   id: 'uk-specific',
   categoryId: 'country_specific',
   title: 'Британцы в Португалии после Brexit',
-  tldr: 'Британцы, проживавшие в Португалии до 31.12.2020, защищены Withdrawal Agreement и имеют специальные карты ВНЖ. Новые прибывающие после Brexit — граждане третьих стран, нужна D-виза. Налоговое соглашение Португалия—Великобритания действует. FATCA на Великобританию не действует, но CRS (автоматический обмен) — да.',
+  tldr: 'Британцы, проживавшие в Португалии до 31.12.2020, защищены Withdrawal Agreement и имеют специальные карты ВНЖ. Новые прибывающие после Brexit — граждане третьих стран, нужна D-виза.\n\nНалоговое соглашение Португалия—Великобритания действует. FATCA на Великобританию не действует, но CRS (автоматический обмен) — да.',
   audience: { countryCodes: ['GB'] },
   tags: ['uk', 'britanci', 'brexit', 'withdrawal agreement'],
   estimatedReadMinutes: 6,
@@ -102,6 +102,6 @@ export default {
     { title: 'HMRC — Portugal Tax Treaty', url: 'https://www.gov.uk/government/publications/portugal-tax-treaties', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'EU Commission — Brexit WA rights', url: 'https://commission.europa.eu/strategy-and-policy/relations-united-kingdom/eu-uk-withdrawal-agreement_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

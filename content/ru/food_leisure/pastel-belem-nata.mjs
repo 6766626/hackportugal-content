@@ -92,6 +92,6 @@ export default {
     { title: 'Turismo de Portugal о Pastéis de Belém', url: 'https://www.visitportugal.com/en/NR/exeres/46D7AB44-1F59-4FAA-8340-EEEE969438B2', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'INPI — проверка marcas и nomes de estabelecimento', url: 'https://inpi.justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

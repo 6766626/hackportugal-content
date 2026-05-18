@@ -3,7 +3,7 @@ export default {
   id: 'veterinario-24h-emergencia',
   categoryId: 'animals',
   title: 'Ветклиники 24 часа в Лиссабоне и Порту',
-  tldr: 'В Португалии экстренный ветеринарный приём называется urgência veterinária. В Лиссабоне чаще используют Hospital Veterinário do Restelo, Hospital Veterinário São Bento и VetGarcia; в Порту — Centro Hospitalar Veterinário Porto. Типичный сбор за urgência в 2026: 50–120 € только за вход/осмотр, ночью и в праздники дороже. Анализы, рентген, УЗИ, стационар и операция оплачиваются отдельно. Перед поездкой звоните: 24h-режим и дежурные специалисты меняются.',
+  tldr: 'В Португалии экстренный ветеринарный приём называется urgência veterinária.\n\nВ Лиссабоне чаще используют Hospital Veterinário do Restelo, Hospital Veterinário São Bento и VetGarcia; в Порту — Centro Hospitalar Veterinário Porto. Типичный сбор за urgência в 2026: 50–120 € только за вход/осмотр, ночью и в праздники дороже. Анализы, рентген, УЗИ, стационар и операция оплачиваются отдельно. Перед поездкой звоните: 24h-режим и дежурные специалисты меняются.',
   tags: ['ветеринар', 'urgência', 'лиссабон', 'порту'],
   estimatedReadMinutes: 5,
   steps: [
@@ -125,6 +125,6 @@ export default {
     { title: 'Hospital Veterinário do Restelo — urgência и госпитальные услуги', url: 'https://www.hospitalveterinariodorestelo.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Centro Hospitalar Veterinário — Porto', url: 'https://www.chv.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

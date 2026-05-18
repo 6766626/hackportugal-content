@@ -11,7 +11,7 @@ export default {
       id: 'what-passport-covers',
       title: 'Что такое EU pet passport',
       content: [
-        { kind: 'paragraph', text: 'EU pet passport — книжка установленного образца ЕС для собак, кошек и хорьков. В Португалии её оформляет veterinário autorizado. Паспорт нужен для перемещений между странами ЕС и для возвращения в ЕС из некоторых третьих стран, если все отметки сделаны корректно до выезда.' },
+        { kind: 'paragraph', text: 'EU pet passport — книжка установленного образца ЕС для собак, кошек и хорьков.\n\nВ Португалии её оформляет veterinário autorizado. Паспорт нужен для перемещений между странами ЕС и для возвращения в ЕС из некоторых третьих стран, если все отметки сделаны корректно до выезда.' },
         { kind: 'paragraph', text: 'Паспорт не является «визой» для животного и не заменяет правила авиакомпании, парома, отеля или аренды жилья. Он подтверждает идентификацию животного, прививки от бешенства, иногда обработки от паразитов и клинические осмотры.' },
         { kind: 'checklist', items: [
           'Кому нужен: собака, кошка, хорёк',
@@ -130,6 +130,6 @@ export default {
     { title: 'Comissão Europeia: travelling with pets and other animals in the EU', url: 'https://europa.eu/youreurope/citizens/travel/carry/animal-plant/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'UK Government: bring your pet dog, cat or ferret to Great Britain', url: 'https://www.gov.uk/bring-pet-to-great-britain', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

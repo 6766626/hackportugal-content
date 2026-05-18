@@ -3,7 +3,7 @@ export default {
   id: 'private-insurance',
   categoryId: 'healthcare',
   title: 'Частное медицинское страхование — как устроен рынок',
-  tldr: 'Частное страхование в Португалии — дополнение к SNS, а не замена. Основной смысл: быстрый доступ к специалистам в частных сетях клиник. Рынок регулирует ASF (Autoridade de Supervisão de Seguros). Типичная стоимость на одного взрослого: € 25–40/мес базовый план, € 40–80 средний, € 80–150 полный. Для семьи из 4-х — от € 120/мес. Цены сильно зависят от возраста, deductible, network и dental/maternity modules. Ключевые параметры для сравнения — годовой лимит, соплатежи (co-pagamento) и периоды ожидания (carência).',
+  tldr: 'Частное страхование в Португалии — дополнение к SNS, а не замена. Основной смысл: быстрый доступ к специалистам в частных сетях клиник. Рынок регулирует ASF (Autoridade de Supervisão de Seguros)\.\n\nТипичная стоимость на одного взрослого: € 25–40/мес базовый план, € 40–80 средний, € 80–150 полный. Для семьи из 4-х — от € 120/мес.\n\nЦены сильно зависят от возраста, deductible, network и dental/maternity modules. Ключевые параметры для сравнения — годовой лимит, соплатежи (co-pagamento) и периоды ожидания (carência).',
   tags: ['страховка', 'здоровье', 'sns'],
   estimatedReadMinutes: 6,
   steps: [
@@ -108,6 +108,6 @@ export default {
     { title: 'ERS — Entidade Reguladora da Saúde', url: 'https://www.ers.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS — Portal oficial', url: 'https://www.sns.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

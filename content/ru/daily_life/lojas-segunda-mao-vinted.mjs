@@ -60,7 +60,7 @@ export default {
       id: 'offline-lisboa',
       title: 'Офлайн: Refeitório, Bairro Alto и винтажные маршруты Lisboa',
       content: [
-        { kind: 'paragraph', text: 'Офлайн-second-hand в Lisboa хорош тем, что можно примерить вещь и сразу понять качество. Цены часто выше, чем на Vinted, зато меньше риска с размером и состоянием. Винтажные магазины в Bairro Alto и Chiado могут быть туристическими, а точки в Anjos/Intendente часто дешевле.' },
+        { kind: 'paragraph', text: 'Офлайн-second-hand в Lisboa хорош тем, что можно примерить вещь и сразу понять качество.\n\nЦены часто выше, чем на Vinted, зато меньше риска с размером и состоянием. Винтажные магазины в Bairro Alto и Chiado могут быть туристическими, а точки в Anjos/Intendente часто дешевле.' },
         { kind: 'checklist', items: [
           'Перед поездкой проверьте часы в Google Maps или Instagram: маленькие магазины часто меняют расписание.',
           'Берите с собой наличные 10–30 €: карты принимают не везде, а Multibanco может быть недоступен.',
@@ -118,6 +118,6 @@ export default {
     { title: 'Wallapop Portugal — официальный сайт', url: 'https://pt.wallapop.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal da Queixa — потребительские жалобы и проверка репутации компаний', url: 'https://portaldaqueixa.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

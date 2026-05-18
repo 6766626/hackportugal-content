@@ -3,7 +3,7 @@ export default {
   id: 'noise-neighbors',
   categoryId: 'daily_life',
   title: 'Шум и соседи — что законно, куда жаловаться',
-  tldr: 'В Португалии ночные часы покоя — 23:00–07:00 (Decreto-Lei 9/2007, Regulamento Geral do Ruído). Музыка, сверление, лай собак — всё регламентировано. Жалобы: сначала мирно, затем PSP/GNR, Câmara Municipal. Штрафы зависят от категории нарушения (Lei 50/2006 о contraordenações ambientais) и могут существенно различаться для физических и юридических лиц.',
+  tldr: 'В Португалии ночные часы покоя — 23:00–07:00 (Decreto-Lei 9/2007, Regulamento Geral do Ruído)\.\n\nМузыка, сверление, лай собак — всё регламентировано. Жалобы: сначала мирно, затем PSP/GNR, Câmara Municipal. Штрафы зависят от категории нарушения (Lei 50/2006 о contraordenações ambientais) и могут существенно различаться для физических и юридических лиц.',
   tags: ['шум', 'соседи', 'тишина', 'права', 'жалоба'],
   estimatedReadMinutes: 5,
   steps: [
@@ -117,6 +117,6 @@ export default {
     { title: 'ePortugal — Queixa de ruído', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/apresentar-uma-queixa-por-ruido', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Livro de Reclamações — portal oficial', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

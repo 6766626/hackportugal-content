@@ -99,7 +99,7 @@ export default {
           'прикрепите один PDF-пакет и отдельные ключевые документы',
           'сохраните номер процесса Provedor и все последующие письма'
         ] },
-        { kind: 'paragraph', text: 'После подачи Provedor может запросить дополнительные сведения, переслать вопрос в AIMA и ждать ответа ведомства. Сроков «решат за X дней» нет: иногда помогает за несколько недель, иногда занимает месяцы. Ценность жалобы — официальный след и давление независимого органа.' },
+        { kind: 'paragraph', text: 'После подачи Provedor может запросить дополнительные сведения, переслать вопрос в AIMA и ждать ответа ведомства.\n\nСроков «решат за X дней» нет: иногда помогает за несколько недель, иногда занимает месяцы. Ценность жалобы — официальный след и давление независимого органа.' },
         { kind: 'warning', text: 'Provedor обычно не вмешивается, если тот же вопрос уже рассматривается судом, или если жалоба очевидно без оснований. Если вы подали иск, сообщите об этом честно.' }
       ]
     },
@@ -133,6 +133,6 @@ export default {
     { title: 'AIMA — Perguntas Frequentes e contactos', url: 'https://aima.gov.pt/pt/perguntas-frequentes-faq-s', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Código de Processo nos Tribunais Administrativos — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

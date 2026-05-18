@@ -3,7 +3,7 @@ export default {
   id: 'immigrant-calendar',
   categoryId: 'before_arrival',
   title: 'Календарь иммигранта — что делать по месяцам после приезда',
-  tldr: 'Чек-лист по месяцам для первых 24 месяцев в Португалии. Месяц 1 (NIF, банковский счёт, контракт аренды); Месяц 2 (NISS, регистрация в junta de freguesia, утентe SNS); Месяцы 2–4 (подача в AIMA на ВНЖ, оплата 96 €, проверка статуса через ВНЖ-онлайн); Месяцы 4–9 (выдача título de residência); Год 1 (декларация IRS до 30 июня, проверка адреса, страховки); Год 2 (продление ВНЖ за 60 дней до истечения, переподача adresa в Finanças). После 5 лет — постоянный ВНЖ или гражданство (см. отдельный гайд). Каждый шаг ссылается на детальный гайд в приложении.',
+  tldr: 'Чек-лист по месяцам для первых 24 месяцев в Португалии. Месяц 1 (NIF, банковский счёт, контракт аренды); Месяц 2 (NISS, регистрация в junta de freguesia, утентe SNS); Месяцы 2–4 (подача в AIMA на ВНЖ, оплата 96 €, проверка статуса через ВНЖ-онлайн); Месяцы 4–9 (выдача título de residência); Год 1 (декларация IRS до 30 июня, проверка адреса, страховки); Год 2 (продление ВНЖ за 60 дней до истечения, переподача adresa в Finanças)\.\n\nПосле 5 лет — постоянный ВНЖ или гражданство (см. отдельный гайд)\.\n\nКаждый шаг ссылается на детальный гайд в приложении.',
   tags: ['календарь', 'чек-лист', 'переезд', 'onboarding'],
   estimatedReadMinutes: 9,
   steps: [
@@ -144,7 +144,7 @@ export default {
     { title: 'ePortugal / AMA — Chave Móvel Digital', url: 'https://eportugal.gov.pt/cidadaos/-/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Pedidos de nacionalidade', url: 'https://justica.gov.pt/Servicos/Submeter-pedido-de-nacionalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: календарь иммигранта — что делать по месяцам после приезда в Португалию. Месяц 1 (NIF, банк, аренда), месяц 2 (NISS, SNS, Chave Móvel), месяцы 2-4 (AIMA), месяцы 4-9 (получение ВНЖ), год 1 (IRS, страховки), год 2 (продление ВНЖ), год 5 (гражданство/постоянный ВНЖ). Связан со всеми ключевыми гайдами в приложении.'

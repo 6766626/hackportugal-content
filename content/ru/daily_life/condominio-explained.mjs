@@ -11,7 +11,7 @@ export default {
       id: 'legal-basis',
       title: 'Правовая основа',
       content: [
-        { kind: 'paragraph', text: 'Режим горизонтальной собственности (propriedade horizontal) регулируется Código Civil (ст. 1414–1438-A) и Lei 8/2022 (вступила в силу 10.04.2022). Закон обновил правила собраний, remote participation/communications, полномочия administrador и cobrança de dívidas. Penalties за просрочку зависят от regulamento/решений assembleia и закона.' }
+        { kind: 'paragraph', text: 'Режим горизонтальной собственности (propriedade horizontal) регулируется Código Civil (ст. 1414–1438-A) и Lei 8/2022 (вступила в силу 10.04.2022)\.\n\nЗакон обновил правила собраний, remote participation/communications, полномочия administrador и cobrança de dívidas. Penalties за просрочку зависят от regulamento/решений assembleia и закона.' }
       ]
     },
     {
@@ -125,6 +125,6 @@ export default {
     { title: 'ePortugal — Condomínio', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/gestao-de-condominio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IHRU — Instituto da Habitação e Reabilitação Urbana', url: 'https://www.ihru.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

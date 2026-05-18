@@ -64,6 +64,6 @@ export default {
     { title: 'KidZania Lisboa — официальный сайт, билеты и слоты', url: 'https://www.kidzania.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Magikland — официальный сайт парка Penafiel', url: 'https://www.magikland.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

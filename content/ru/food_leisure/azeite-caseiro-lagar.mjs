@@ -3,7 +3,7 @@ export default {
   id: 'azeite-caseiro-lagar',
   categoryId: 'food_leisure',
   title: 'Своё оливковое масло — сбор оливок и отжим в lagar',
-  tldr: 'Если у тебя на участке есть оливковые деревья — можешь сделать собственное оливковое масло. Сезон сбора оливок (apanha) — конец октября — декабрь. Сборщики (apanhadores) берут 60-100 €/день; самосбор сетями (panos) — бесплатно но трудозатратно. Прессовка (lagar) делается за процент или за деньги: ~30-60 €/100 кг оливок, либо 10-15% от готового масла. Норма: 100 кг хороших оливок дают 12-20 л масла. Для личного потребления никаких лицензий не нужно. Продажа — DGAV registo + IGP сертификация (Azeite do Alentejo, Trás-os-Montes и т.д.). Хранение: тёмная стеклянная бутылка, 16-18°C, до 18 месяцев.',
+  tldr: 'Если у тебя на участке есть оливковые деревья — можешь сделать собственное оливковое масло.\n\nСезон сбора оливок (apanha) — конец октября — декабрь. Сборщики (apanhadores) берут 60-100 €/день; самосбор сетями (panos) — бесплатно но трудозатратно. Прессовка (lagar) делается за процент или за деньги: ~30-60 €/100 кг оливок, либо 10-15% от готового масла. Норма: 100 кг хороших оливок дают 12-20 л масла. Для личного потребления никаких лицензий не нужно. Продажа — DGAV registo + IGP сертификация (Azeite do Alentejo, Trás-os-Montes и т.д.)\.\n\nХранение: тёмная стеклянная бутылка, 16-18°C, до 18 месяцев.',
   tags: ['azeite', 'oliveira', 'lagar', 'apanha', 'azeitona'],
   estimatedReadMinutes: 6,
   steps: [
@@ -140,6 +140,6 @@ export default {
     { title: 'Azeite IGP — DOP Alentejo, Trás-os-Montes', url: 'https://tradicional.dgadr.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — apoio à olivicultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

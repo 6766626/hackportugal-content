@@ -72,6 +72,6 @@ export default {
     { title: 'Lei 83/2021 — изменения режима teletrabalho и dever de abstenção de contacto', url: 'https://diariodarepublica.pt/dr/detalhe/lei/83-2021-175397114', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portaria 292-A/2023 — valores de referência para compensação de despesas em teletrabalho', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/292-a-2023-221850548', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

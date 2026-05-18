@@ -3,7 +3,7 @@ export default {
   id: 'traffic-fines',
   categoryId: 'auto_trips',
   title: 'Штрафы ПДД в Португалии — виды, баллы, обжалование',
-  tldr: 'Штрафы ANSR (Autoridade Nacional de Segurança Rodoviária) делятся на лёгкие (leves), серьёзные (graves), очень серьёзные (muito graves). У водителя 12 баллов в системе «carta por pontos» — они списываются за нарушения. При 0 баллов — cassação do título. В течение 15 рабочих дней после уведомления обычно можно добровольно оплатить **минимальную сумму coima** (не «скидка 50%»). Defesa/contestação — в течение 15 рабочих дней по адресу/порядку из уведомления.',
+  tldr: 'Штрафы ANSR (Autoridade Nacional de Segurança Rodoviária) делятся на лёгкие (leves), серьёзные (graves), очень серьёзные (muito graves). У водителя 12 баллов в системе «carta por pontos» — они списываются за нарушения. При 0 баллов — cassação do título. В течение 15 рабочих дней после уведомления обычно можно добровольно оплатить **минимальную сумму coima** (не «скидка 50%»)\.\n\nDefesa/contestação — в течение 15 рабочих дней по адресу/порядку из уведомления.',
   tags: ['штраф', 'пдд', 'ansr', 'баллы'],
   estimatedReadMinutes: 6,
   steps: [
@@ -127,6 +127,6 @@ export default {
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Pagar coima de trânsito', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/pagar-coimas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'charity-donations-tax',
   categoryId: 'daily_life',
   title: 'Благотворительность — где помочь и налоговые вычеты',
-  tldr: 'IRS «consignação» — возможность направить **0,5% налога IRS** в одну из ~5 000 зарегистрированных благотворительных организаций (без расходов для вас, просто галочка в декларации). Дополнительно: 25% всех пожертвований IPSS (Instituições Particulares de Solidariedade Social) вычитаются из IRS. Топ благотворительных организаций: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (помощь людям с инвалидностью), AMI (гуманитарная помощь). Кампания Banco Alimentar — 2 раза в год, мобилизует сотни тысяч добровольцев.',
+  tldr: 'IRS «consignação» — возможность направить **0,5% налога IRS** в одну из ~5 000 зарегистрированных благотворительных организаций (без расходов для вас, просто галочка в декларации)\.\n\nДополнительно: 25% всех пожертвований IPSS (Instituições Particulares de Solidariedade Social) вычитаются из IRS. Топ благотворительных организаций: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (помощь людям с инвалидностью), AMI (гуманитарная помощь)\.\n\nКампания Banco Alimentar — 2 раза в год, мобилизует сотни тысяч добровольцев.',
   tags: ['благотворительность', 'пожертвования', 'consignação', 'IRS'],
   estimatedReadMinutes: 5,
   steps: [
@@ -161,6 +161,6 @@ export default {
     { title: 'Segurança Social — IPSS registry', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Cáritas Portuguesa', url: 'https://www.caritas.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

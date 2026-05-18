@@ -3,7 +3,7 @@ export default {
   id: 'close-activity',
   categoryId: 'work_business',
   title: 'Закрытие atividade (ИП) и юрлица в Португалии',
-  tldr: 'Закрытие recibos verdes (cessação de atividade): через Portal das Finanças бесплатно. Срок — обычно 30 дней с даты прекращения деятельности; при поздней подаче возможна coima. Нужно: подать финальную IVA-декларацию (если были в нормальном режиме) + Modelo 3 IRS (если был оборот в году) + уведомить Segurança Social. Закрытие Unipessoal / Lda — сложнее: dissolução + liquidação через Conservatória Comercial + финальная отчётность. Процесс 6-12 мес. Если долги — банкротство (insolvência) через суд.',
+  tldr: 'Закрытие recibos verdes (cessação de atividade): через Portal das Finanças бесплатно.\n\nСрок — обычно 30 дней с даты прекращения деятельности; при поздней подаче возможна coima. Нужно: подать финальную IVA-декларацию (если были в нормальном режиме) + Modelo 3 IRS (если был оборот в году) + уведомить Segurança Social. Закрытие Unipessoal / Lda — сложнее: dissolução + liquidação через Conservatória Comercial + финальная отчётность.\n\nПроцесс 6-12 мес. Если долги — банкротство (insolvência) через суд.',
   tags: ['cessação', 'закрытие ип', 'ликвидация', 'юрлицо'],
   estimatedReadMinutes: 6,
   steps: [
@@ -186,6 +186,6 @@ export default {
     { title: 'IRN — Conservatória Comercial', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código da Insolvência (CIRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2004-34453275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

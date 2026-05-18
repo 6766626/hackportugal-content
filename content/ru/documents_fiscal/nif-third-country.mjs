@@ -3,7 +3,7 @@ export default {
   id: 'nif-third-country',
   categoryId: 'documents_fiscal',
   title: 'Как получить NIF — граждане третьих стран',
-  tldr: 'NIF (Número de Identificação Fiscal) — португальский налоговый номер, нужен для всего: аренды, банка, SIM, SNS. С 2022 (Ofício Circulado 90054/2022) сам факт получения NIF нерезидентом с адресом вне ЕС/ЕЭЗ не всегда требует фискального представителя — обязанность возникает при налоговой связи с Португалией (доход, недвижимость, авто, деятельность). Бесплатно в Finanças лично или 70–150 € через представителя онлайн (рыночный диапазон 2026).',
+  tldr: 'NIF (Número de Identificação Fiscal) — португальский налоговый номер, нужен для всего: аренды, банка, SIM, SNS. С 2022 (Ofício Circulado 90054/2022) сам факт получения NIF нерезидентом с адресом вне ЕС/ЕЭЗ не всегда требует фискального представителя — обязанность возникает при налоговой связи с Португалией (доход, недвижимость, авто, деятельность)\.\n\nБесплатно в Finanças лично или 70–150 € через представителя онлайн (рыночный диапазон 2026).',
   audience: { citizenships: ['thirdCountry'] },
   tags: ['nif', 'документы', 'налоги', 'первые шаги'],
   estimatedReadMinutes: 5,
@@ -37,7 +37,7 @@ export default {
       id: 'variant-remote',
       title: 'Вариант B. Дистанционно через представителя',
       content: [
-        { kind: 'paragraph', text: 'Если вы ещё не в Португалии или не хотите ехать и стоять в очереди — нанимаете фискального представителя (юрист/компания). Снять представителя можно после смены налогового адреса на португальский (обычно после переезда и оформления ВНЖ) — но именно через смену адреса в Portal das Finanças, а не автоматически при получении ВНЖ.' },
+        { kind: 'paragraph', text: 'Если вы ещё не в Португалии или не хотите ехать и стоять в очереди — нанимаете фискального представителя (юрист/компания)\.\n\nСнять представителя можно после смены налогового адреса на португальский (обычно после переезда и оформления ВНЖ) — но именно через смену адреса в Portal das Finanças, а не автоматически при получении ВНЖ.' },
         { kind: 'substeps', items: [
           { id: 's1', title: '1. Выбрать представителя', content: [
             { kind: 'paragraph', text: 'Представитель — физическое или юридическое лицо с налоговым домицилем в Португалии. Варианты: португальский адвокат (Ordem dos Advogados — portal.oa.pt), solicitador, contabilista certificado либо компания/провайдер. Проверяйте договор, полномочия, цену продления и кто именно будет fiscal representative; специальной универсальной гос-сертификации «NIF-фирм» нет. Для деятельности с IVA могут применяться дополнительные требования.' }
@@ -82,6 +82,6 @@ export default {
     { title: 'ePortugal — Pedir NIF para pessoa singular', url: 'https://eportugal.gov.pt/servicos/pedir-o-numero-de-identificacao-fiscal-nif-para-pessoa-singular', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do IRS — domicílio fiscal e tributação de não residentes', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/default.aspx', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

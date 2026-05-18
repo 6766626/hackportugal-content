@@ -3,7 +3,7 @@ export default {
   id: 'reagrupamento-familiar',
   categoryId: 'residence_permit',
   title: 'Воссоединение семьи (Reagrupamento Familiar)',
-  tldr: 'Процесс, позволяющий привезти супруга, детей или родителей после получения собственного ВНЖ. Подаётся через AIMA (portal-rf.aima.gov.pt). Важно: с 2024 года (Lei 9/2024 + Lei 61/2025 от 23.10.2025) требуется минимум 2 года легального проживания в Португалии ДО подачи. Срок решения AIMA — до 9 мес. (ранее было 90 дней). Исключения: держатели Golden Visa, D3 (EU Blue Card), ряд других квалифицированных статусов.',
+  tldr: 'Процесс, позволяющий привезти супруга, детей или родителей после получения собственного ВНЖ. Подаётся через AIMA (portal-rf.aima.gov.pt)\.\n\nВажно: с 2024 года (Lei 9/2024 + Lei 61/2025 от 23.10.2025) требуется минимум 2 года легального проживания в Португалии ДО подачи.\n\nСрок решения AIMA — до 9 мес. (ранее было 90 дней)\.\n\nИсключения: держатели Golden Visa, D3 (EU Blue Card), ряд других квалифицированных статусов.',
   tags: ['семья', 'воссоединение', 'reagrupamento', 'aima'],
   estimatedReadMinutes: 8,
   steps: [
@@ -95,6 +95,6 @@ export default {
     { title: 'Lei 9/2024 — 2-летнее условие проживания для Reagrupamento Familiar', url: 'https://diariodarepublica.pt/dr/detalhe/lei/9-2024', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 61/2025 — 9-месячный срок решения AIMA', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

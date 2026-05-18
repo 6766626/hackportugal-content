@@ -3,7 +3,7 @@ export default {
   id: 'navegante-lisboa',
   categoryId: 'public_transport',
   title: 'Navegante — проездной Большого Лиссабона',
-  tldr: 'Navegante — единый проездной для региона Lisboa: метро, автобусы Carris, электрички CP, речные паромы Transtejo, Fertagus, MTS. Два главных типа: месячный Metropolitano (за 40 €) или Municipal (30 €). Дети до 12 лет — бесплатно (с 2024), дети 13–18 лет и студенты — 20 €. Покупается в автомате метро, офисах Carris или через приложение.',
+  tldr: 'Navegante — единый проездной для региона Lisboa: метро, автобусы Carris, электрички CP, речные паромы Transtejo, Fertagus, MTS. Два главных типа: месячный Metropolitano (за 40 €) или Municipal (30 €)\.\n\nДети до 12 лет — бесплатно (с 2024), дети 13–18 лет и студенты — 20 €. Покупается в автомате метро, офисах Carris или через приложение.',
   tags: ['navegante', 'проездной', 'лиссабон', 'метро', 'автобус'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: 'Navegante Metropolitano (40 €/мес)', content: [
-            { kind: 'paragraph', text: 'Работает во ВСЕЙ агломерации Lisboa (Lisboa + Sintra + Cascais + Almada + Loures + Odivelas + Vila Franca + Mafra + 10 других). Покрывает метро, Carris, пригородные поезда CP, Transtejo, Fertagus, MTS Seixal. Лучший выбор, если ездите между муниципалитетами.' }
+            { kind: 'paragraph', text: 'Работает во ВСЕЙ агломерации Lisboa (Lisboa + Sintra + Cascais + Almada + Loures + Odivelas + Vila Franca + Mafra + 10 других)\.\n\nПокрывает метро, Carris, пригородные поезда CP, Transtejo, Fertagus, MTS Seixal. Лучший выбор, если ездите между муниципалитетами.' }
           ]},
           { id: 't2', title: 'Navegante Municipal (30 €/мес)', content: [
             { kind: 'paragraph', text: 'Только в ВАШЕМ муниципалитете. Для жителя Lisboa — только Lisboa (включая метро + Carris). Для жителя Cascais — только Cascais + CP в пределах муниципалитета. НЕ работает за границей муниципалитета.' }
@@ -106,6 +106,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

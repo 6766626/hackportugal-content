@@ -3,7 +3,7 @@ export default {
   id: 'pesca-ludica-cana-mar',
   categoryId: 'food_leisure',
   title: 'Морская рыбалка с берега — лицензия Pesca Lúdica à linha (DGRM)',
-  tldr: 'Любительская морская рыбалка с берега, пирса или скал в Португалии требует лицензии Pesca Lúdica (любительская рыбалка) от DGRM. Оформляешь онлайн на portal.dgrm.mm.gov.pt за 5 минут. Сроки: 3 дня (~3 €), месяц (~10 €), год (~20 €), 3 года (~50 €). Распечатай или сохрани QR‑код с лицензией: при проверке Polícia Marítima (морская полиция) / GNR‑SEPNA (экологическое подразделение национальной гвардии) без неё штраф от 100 €. Соблюдай дневной лимит (10 кг + 1 рыба, либо одна рыба >10 кг), минимальные размеры и defeso (запретный сезон) по виду.',
+  tldr: 'Любительская морская рыбалка с берега, пирса или скал в Португалии требует лицензии Pesca Lúdica (любительская рыбалка) от DGRM. Оформляешь онлайн на portal.dgrm.mm.gov.pt за 5 минут.\n\nСроки: 3 дня (~3 €), месяц (~10 €), год (~20 €), 3 года (~50 €)\.\n\nРаспечатай или сохрани QR‑код с лицензией: при проверке Polícia Marítima (морская полиция) / GNR‑SEPNA (экологическое подразделение национальной гвардии) без неё штраф от 100 €. Соблюдай дневной лимит (10 кг + 1 рыба, либо одна рыба >10 кг), минимальные размеры и defeso (запретный сезон) по виду.',
   tags: ['pesca', 'fishing', 'licenca', 'mar', 'dgrm'],
   estimatedReadMinutes: 6,
   steps: [
@@ -155,6 +155,6 @@ export default {
     { title: 'Tamanhos mínimos por espécie — таблица DGRM', url: 'https://www.dgrm.pt/pesca_cpt_especies', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Polícia Marítima — Autoridade Marítima Nacional', url: 'https://www.amn.pt/PM/Paginas/MissaoCompetencias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -27,7 +27,7 @@ export default {
       id: 'what-you-can-buy',
       title: 'Что там можно купить без рецепта',
       content: [
-        { kind: 'paragraph', text: 'Главная польза drugstore-сетей — быстрые покупки товаров, которые не требуют рецепта. В Португалии часть лекарств относится к MNSRM — medicamentos não sujeitos a receita médica, то есть безрецептурные. Они могут продаваться вне классических аптек, если точка имеет соответствующее разрешение.' },
+        { kind: 'paragraph', text: 'Главная польза drugstore-сетей — быстрые покупки товаров, которые не требуют рецепта.\n\nВ Португалии часть лекарств относится к MNSRM — medicamentos não sujeitos a receita médica, то есть безрецептурные. Они могут продаваться вне классических аптек, если точка имеет соответствующее разрешение.' },
         { kind: 'checklist', items: [
           'Парацетамол, ибупрофен и другие базовые обезболивающие/жаропонижающие в разрешённых дозировках и форматах.',
           'Средства от простуды, боли в горле, насморка, кашля, аллергии — если конкретный препарат OTC.',
@@ -119,6 +119,6 @@ export default {
     { title: 'INFARMED — locais de venda de medicamentos não sujeitos a receita médica (MNSRM)', url: 'https://www.infarmed.pt/web/infarmed/entidades/licenciamentos/locais-de-venda-de-medicamentos-nao-sujeitos-a-receita-medica-lvmnsrm', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'SNS 24 — контакты и orientação médica', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

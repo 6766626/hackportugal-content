@@ -119,6 +119,6 @@ export default {
     { title: 'Câmara Municipal do Porto — feiras e mercados Porto', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Junta de Freguesia de Santa Clara / Lisboa — информация о Feira da Ladra и районе Campo de Santa Clara', url: 'https://www.jf-santaclara.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

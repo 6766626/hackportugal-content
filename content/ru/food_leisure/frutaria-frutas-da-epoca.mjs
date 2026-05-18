@@ -110,6 +110,6 @@ export default {
     { title: 'Maçã de Alcobaça IGP — спецификация и сведения о продукте в реестре eAmbrosia', url: 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'SIMA/GPP Portugal — рыночная информация по сельхозценам', url: 'https://www.gpp.pt/index.php/sima/sima-2018', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

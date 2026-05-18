@@ -75,6 +75,6 @@ export default {
     { title: 'Portal da Habitação / IHRU — Porta 65 Jovem', url: 'https://www.portaldahabitacao.pt/porta-65-jovem', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — coeficiente de atualização de rendas 2026', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

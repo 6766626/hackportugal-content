@@ -27,7 +27,7 @@ export default {
       id: 'where-to-play',
       title: 'Где играть без лицензии',
       content: [
-        { kind: 'paragraph', text: 'Если цель — просто играть 1–3 раза в неделю, начинайте не с федерации, а с ближайших кортов. В Лиссабоне, Porto, Cascais, Oeiras, Almada,, Algarve и Madeira много клубов с онлайн-бронированием. Для падела часто используют приложения бронирования, клубный сайт или WhatsApp; часть площадок стоит прямо в shopping centers и retail parks.' },
+        { kind: 'paragraph', text: 'Если цель — просто играть 1–3 раза в неделю, начинайте не с федерации, а с ближайших кортов.\n\nВ Лиссабоне, Porto, Cascais, Oeiras, Almada,, Algarve и Madeira много клубов с онлайн-бронированием. Для падела часто используют приложения бронирования, клубный сайт или WhatsApp; часть площадок стоит прямо в shopping centers и retail parks.' },
         { kind: 'checklist', items: [
           'Ищите по Google Maps: “padel”, “clube de ténis”, “court tenis”, “aulas padel”.',
           'Уточняйте цену за court/hour, а не за человека: padel обычно делится на 4 игроков.',
@@ -127,6 +127,6 @@ export default {
     { title: 'Federação Portuguesa de Ténis — официальный сайт, календарь, клубы и соревнования', url: 'https://www.tenis.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Federação Portuguesa de Padel — официальный сайт, лицензии, calendário и regulamentos', url: 'https://www.fpp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -2,28 +2,28 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'promo-codes-aggregator',
   categoryId: 'daily_life',
-  title: 'Cartões de desconto, códigos promocionais e cashback em Portugal',
-  tldr: 'Principais programas de fidelização: Cartão Continente (Continente — o mais forte, descontos + saldo combustível Galp), Pingo Doce Poupa Mais (com BP), Cartão Jovem Europeu (12-29 anos, descontos em 60+ lojas e museus), Cartão Decathlon (10% de retorno em marcas próprias), Cartão KIWOKO (lojas de animais, grátis), Oceanário/Zoo de Lisboa (passe anual rentabiliza em 2 visitas). Sites de cashback: Letyshops PT, eBuyClub PT. Agregadores de promoções: radarcupao.pt, ocacapromocoes.pt, Cuponation.pt. Em festivais, concertos e eventos culturais — o Cartão Jovem dá até 50% off (poupança enorme para estudantes). Também: cartão dos bombeiros, cartão de família numerosa, reembolso de IVA via e-fatura.',
-  tags: ['descontos', 'promoções', 'cartao continente', 'cashback', 'poupar'],
+  title: 'Cartões de desconto, códigos promocionais e cashback em Portugal — onde poupar',
+  tldr: 'Principais programas de fidelização: Cartão Continente (Continente — o mais forte, descontos + acumulação em combustível Galp), Pingo Doce Poupa Mais (com BP), Cartão Jovem Europeu (para 12-29 anos, descontos em 60+ lojas e museus), Decathlon Card (10% de retorno em marcas Decathlon), KIWOKO Card (lojas de animais, gratuito com registo), Oceanário/Zoo de Lisboa (o passe anual compensa em 2 visitas).\n\nSites de cashback: Letyshops PT, eBuyClub PT. Agregadores de promoções: radarcupao.pt, ocacapromocoes.pt, Cuponation.pt. Em festivais, concertos e eventos culturais — o Cartão Jovem dá até 50% de desconto (enorme poupança para estudantes).\n\nTambém: programas com desconto Cartão dos Bombeiros, Cartão de Família Numerosa, reembolso no IRS através do e-fatura.',
+  tags: ['descontos', 'códigos promocionais', 'cartão continente', 'cashback', 'poupança'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'supermarkets',
-      title: 'Supermercados — a poupança principal',
+      title: 'Supermercados — a maior poupança',
       content: [
-        { kind: 'paragraph', text: 'O Cartão Continente é o programa de fidelização mais forte em Portugal. Segundo a própria cadeia, os utilizadores ativos poupam ~10% no carrinho anual. O Pingo Doce vem em segundo.' },
+        { kind: 'paragraph', text: 'O Cartão Continente é o programa de fidelização mais forte em Portugal. Segundo dados próprios da cadeia, os utilizadores activos poupam ~10% do valor das compras ao longo do ano. O Pingo Doce fica em segundo lugar.' },
         { kind: 'substeps', items: [
           {
             id: 'continente',
             title: 'Cartão Continente',
             content: [
               { kind: 'checklist', items: [
-                '🛒 Grátis: levantado em qualquer Continente em 1 minuto (passaporte + email)',
+                '🛒 Gratuito: obtenha em qualquer Continente em 1 minuto (passaporte + email)',
                 '⛽ Acumulação: 10 cêntimos por litro de combustível na Galp vão para o seu saldo Continente (Galp Frota)',
-                '💸 Pelo menos 2% de desconto acumulado sobre as compras anuais',
-                '🎟️ Cupões exclusivos: «cupões» pessoais chegam pela app + SMS, por vezes 30-50% off em categorias inteiras',
-                '🆕 Continente Carrega: subscrição para «5%/10% off» em lojas Continente (paga, rentabiliza se gasta >150 €/mês)',
-                '📱 App «Continente» — obrigatória; sem ela os cupões não se ativam'
+                '💸 Mínimo de 2% em descontos acumulados sobre o valor das compras anuais',
+                '🎟️ Cupões exclusivos: «cupões» personalizados chegam na app + SMS, por vezes 30-50% off em categorias',
+                '🆕 Continente Carrega: subscrição de «5%/10% off» em lojas Continente (paga, compensa se gastar >150 €/mês)',
+                '📱 App «Continente» — essencial; sem ela, os cupões não são activados'
               ]}
             ]
           },
@@ -32,11 +32,11 @@ export default {
             title: 'Pingo Doce Poupa Mais',
             content: [
               { kind: 'checklist', items: [
-                '🛒 Grátis: levantado em loja, registo em pingodoce.pt',
-                '⛽ Programa de combustível BP: 2 € no saldo BP por cada 40 € no Pingo Doce',
-                '⛽ 1 000 pontos BP Premier Plus = 5 € para gastar no Pingo Doce',
-                '💸 «Ganhe 20%»: alguns produtos dão 20% de retorno no saldo Poupa Mais',
-                '📱 App «Pingo Doce» — para ativar cupões'
+                '🛒 Gratuito: obtenha na loja, registo em pingodoce.pt',
+                '⛽ BP fuel program: 2 € no saldo de combustível BP por cada 40 € no Pingo Doce',
+                '⛽ 1 000 BP Premier Plus points = 5 € no Pingo Doce',
+                '💸 «Ganhe 20%»: alguns produtos devolvem 20% para o saldo Poupa Mais',
+                '📱 App «Pingo Doce» — para activar cupões'
               ]}
             ]
           },
@@ -45,9 +45,9 @@ export default {
             title: 'Lidl Plus / Auchan Plus',
             content: [
               { kind: 'checklist', items: [
-                '🛒 Lidl Plus: grátis pela app — cupões semanais, scratch-cards «caixa bónus»',
-                '🛒 Auchan Plus: grátis, acumulação de pontos convertida em desconto',
-                '🛒 Minipreço, Aldi: sem programa de fidelização, apenas promoções semanais'
+                '🛒 Lidl Plus: gratuito através da app — cupões semanais, scratch-cards «fila bónus»',
+                '🛒 Auchan Plus: gratuito, a acumulação de pontos converte-se em desconto',
+                '🛒 Mini Preço, Aldi: sem programas de fidelização, descontos apenas nas promoções semanais'
               ]}
             ]
           }
@@ -56,32 +56,32 @@ export default {
     },
     {
       id: 'youth-card',
-      title: 'Cartão Jovem Europeu — essencial para 12-29 anos',
+      title: 'Cartão Jovem Europeu — must-have para 12-29 anos',
       content: [
-        { kind: 'paragraph', text: 'Programa público do IPDJ (Instituto Português do Desporto e Juventude). Válido nos 38 países da European Youth Card Association. Validade 1 ano, custo 11 € (8 € online).' },
+        { kind: 'paragraph', text: 'Programa público do IPDJ (Instituto Português do Desporto e Juventude). Válido em todos os 38 países da European Youth Card Association. Validade de 1 ano, preço 11 € (por equivalente).' },
         { kind: 'checklist', items: [
-          '🎯 Idade: 12-29 (inclusive)',
-          '💶 Preço: 8 € (online) ou 11 € (em balcões IPDJ). Validade: 1 ano',
-          '🎫 Descontos em Portugal: ~60 categorias de negócios desde cinema (FNAC -10%) a festivais (NOS Alive -15%)',
-          '🚊 Transporte: CP (comboios) -25%, FlixBus -10%, Carris -50% no passe turístico',
-          '🏛️ Museus: entrada gratuita em muitos museus do Estado em Lisboa e Porto',
-          '🌍 No estrangeiro: hostels, bares, cafés, ginásios — milhões de ofertas pela Europa fora',
-          '🎓 Estudantes: pedido através da escola/universidade, por vezes grátis',
-          '🌐 cartaojovem.pt — encomenda, verificação das promoções ativas'
+          '🎯 Idade: 12-29 anos (inclusive)',
+          '💶 Preço: 8 € (online) ou 11 € (nos balcões do IPDJ). Validade: 1 ano',
+          '🎫 Descontos em Portugal: ~60 categorias de negócios, do cinema (FNAC -10%) a festivais (NOS Alive -15%)',
+          '🚊 Transportes: CP (comboios) -25%, FlixBus -10%, Carris -50% no passe turístico',
+          '🏛️ Museus: entrada gratuita em muitos museus públicos de Lisboa/Porto',
+          '🌍 No estrangeiro: hostels, bares, cafés, ginásios — um milhão de ofertas por toda a Europa',
+          '🎓 Alunos/estudantes: pedido através da escola/universidade, por vezes gratuito',
+          '🌐 cartaojovem.pt — pedido, verificação de promoções activas'
         ]}
       ]
     },
     {
       id: 'family-card',
-      title: 'Cartão de Família Numerosa — para famílias grandes',
+      title: 'Cartão de Família Numerosa — para famílias numerosas',
       content: [
         { kind: 'checklist', items: [
-          '👨‍👩‍👧‍👦 Para famílias com 3+ filhos (biológicos ou adotados)',
-          '💶 Grátis',
-          '📉 Descontos: ~20% em transportes do Estado, museus, piscinas, eventos culturais',
-          '🏠 Descontos em eletricidade (EDP), internet (MEO, NOS, Vodafone) — normalmente 20-30%',
-          '🎓 Descontos em escolas, jardins de infância, colónias',
-          '📋 Obter: pelo ACSS (Conselho Nacional Famílias Numerosas), precisa de certidões de nascimento dos filhos',
+          '👨‍👩‍👧‍👦 Para famílias com 3+ filhos (biológicos ou adoptados)',
+          '💶 Gratuito',
+          '📉 Descontos: ~20% em transportes públicos, museus, piscinas, eventos culturais',
+          '🏠 Descontos em electricidade (EDP), internet (MEO, NOS, Vodafone) — normalmente 20-30%',
+          '🎓 Descontos em escolas, Jardins de Infância, campos de férias',
+          '📋 Obtenção: através da ACSS (Conselho Nacional Famílias Numerosas), são necessárias certidões de nascimento dos filhos',
           '🌐 famnumerosas.pt'
         ]}
       ]
@@ -96,9 +96,9 @@ export default {
             title: 'Lojas de animais',
             content: [
               { kind: 'checklist', items: [
-                '🐶 Cartão KIWOKO: grátis, 5% de retorno em marcas KIWOKO, consultas veterinárias com desconto',
-                '🐶 Cartão Petland: grátis, pontos de bónus',
-                '🐶 PetXP / Animais & Cª: programas locais, pergunte em loja'
+                '🐶 KIWOKO Card: gratuito, 5% de retorno em marcas KIWOKO, consultas veterinárias com desconto',
+                '🐶 Petland Card: gratuito, pontos bónus',
+                '🐶 PetXP / Animais & Cª: programas locais, pergunte na loja'
               ]}
             ]
           },
@@ -107,8 +107,8 @@ export default {
             title: 'Desporto',
             content: [
               { kind: 'checklist', items: [
-                '⚽ Cartão Decathlon: grátis pela app, 10% de retorno em marcas Decathlon (Quechua, Domyos, Kalenji), devoluções grátis em 365 dias',
-                '🏃 Cartão Sport Zone: grátis, descontos durante promoções',
+                '⚽ Decathlon Card: gratuito através da app, 10% de retorno em marcas Decathlon (Quechua, Domyos, Kalenji), devolução gratuita de artigos durante 365 dias',
+                '🏃 Sport Zone Card: gratuito, descontos durante campanhas',
                 '🏃 SportLife / Worten Sport: programas locais'
               ]}
             ]
@@ -118,11 +118,11 @@ export default {
             title: 'Cultura e entretenimento',
             content: [
               { kind: 'checklist', items: [
-                '🎪 Oceanário de Lisboa: passe anual 39 € (adulto) — rentabiliza em 2 visitas (entrada 22 €). Crianças grátis com passe do progenitor',
-                '🦁 Jardim Zoológico de Lisboa: passe anual 50 € — rentabiliza em 3 visitas',
-                '🎬 NOS Cinemas Club: grátis, acumulação por bilhetes, 10º bilhete grátis',
-                '🎬 Cartão UCI Cinemas: programa semelhante',
-                '🎟️ Cartão FNAC: 5 € pago, descontos em bilhetes para concertos e livros'
+                '🎪 Oceanário de Lisboa: passe anual 39 € (adulto) — compensa em 2 visitas (entrada 22 €). Crianças grátis com o passe de um dos pais',
+                '🦁 Jardim Zoológico de Lisboa: passe anual 50 € — compensa em 3 visitas',
+                '🎬 NOS Cinemas Club: gratuito, acumulação por bilhetes, 10.º bilhete gratuito',
+                '🎬 UCI Cinemas Card: programa semelhante',
+                '🎟️ FNAC Card: 5 € pago, descontos em bilhetes para concertos, livros'
               ]}
             ]
           },
@@ -131,10 +131,10 @@ export default {
             title: 'Roupa',
             content: [
               { kind: 'checklist', items: [
-                '👕 Cartão Worten: grátis, descontos e pontos bónus',
-                '👗 Cartão Springfield / OYSHO / Mango: grátis pela app da marca',
-                '👠 Cartão MO: grátis, descontos em coleções exclusivas',
-                '👞 Cartão Cinco / Salsa: grátis, cashback local'
+                '👕 Cartão Worten: gratuito, descontos e pontos bónus',
+                '👗 Cartão Springfield / OYSHO / Mango: gratuito através da aplicação da marca',
+                '👠 Cartão MO: gratuito, descontos em colecções exclusivas',
+                '👞 Cartão Cinco / Salsa: gratuito, cashback local'
               ]}
             ]
           }
@@ -146,32 +146,32 @@ export default {
       title: 'Sites de cashback e cupões',
       content: [
         { kind: 'checklist', items: [
-          '💸 Letyshops Portugal: 2-15% de retorno em grandes e-shops (Amazon PT, MediaMarkt, Booking.com); levantamento a partir de 5 € acumulados',
-          '💸 eBuyClub PT: mesmo modelo, mais ativo em moda',
-          '💸 ShopBuddies PT: foco em FashionUnited',
-          '🎟️ Radarcupao.pt: catálogo de códigos promocionais ativos para e-shops portugueses',
-          '🎟️ Ocacapromocoes.pt: «caça promoções» — comunidade de achados e cupões',
+          '💸 Letyshops Portugal: 2-15% de retorno em compras em grandes lojas (Amazon PT, MediaMarkt, Booking.com); levantamento após 5 € acumulados',
+          '💸 eBuyClub PT: o mesmo princípio, mais activo em roupa',
+          '💸 ShopBuddies PT: foco na FashionUnited',
+          '🎟️ Radarcupao.pt: catálogo de códigos promocionais activos para e-shops portugueses',
+          '🎟️ Ocacapromocoes.pt: «caça às promoções» — comunidade de achados e cupões',
           '🎟️ Cuponation.pt: equivalente internacional',
-          '📰 Mensagem-Mexer / blogs de lifestyle: publicam frequentemente códigos de primeira encomenda (Uber Eats, Glovo, Bolt Food)'
+          '📰 Mensagem-Mexer / blogs de lifestyle: publicam periodicamente códigos de primeira encomenda (Uber Eats, Glovo, Bolt Food)'
         ]}
       ]
     },
     {
       id: 'efatura',
-      title: 'e-Fatura — devolução de IVA pelas Finanças',
+      title: 'e-Fatura — reembolso de IVA através da autoridade tributária',
       content: [
-        { kind: 'paragraph', text: 'Cada vez que dá o NIF na caixa, o recibo entra no e-Fatura.gov.pt. No final do ano pode recuperar parte do IVA como dedução do IRS. Não é «desconto», mas dinheiro real de volta.' },
+        { kind: 'paragraph', text: 'Sempre que dá o seu NIF na caixa, adiciona a factura ao e-Fatura.gov.pt. No fim do ano, pode recuperar parte do IVA como dedução no IRS. Não é um «desconto», mas é dinheiro real de volta.' },
         { kind: 'checklist', items: [
-          '🍽️ Restaurantes: 15% do IVA (máx. 250 € por ano)',
-          '🚗 Reparações de carros e motos: 15% do IVA (máx. 250 €)',
-          '💇 Cabeleireiros/salões de beleza: 15% do IVA (máx. 250 €)',
-          '🐾 Veterinária: 15% (máx. 250 €)',
-          '🏠 Gás, eletricidade, água: 15% do IVA',
-          '🎓 Educação (incluindo cursos, explicações): 30% (máx. 800 €)',
-          '🏥 Saúde (incluindo farmácias): 15% (máx. 1 000 €)',
-          '⚠️ IMPORTANTE: dê sempre o NIF, caso contrário o recibo não conta. Após compra verifique em e-fatura.portaldasfinancas.gov.pt — pode «validar» recibos contestados ali'
+          '🍽️ Restaurantes: 15% do IVA (máx 250 € por ano)',
+          '🚗 Reparações de automóveis e motas: 15% do IVA (máx 250 €)',
+          '💇 Cabeleireiros/salões de beleza: 15% do IVA (máx 250 €)',
+          '🐾 Veterinária: 15% (máx 250 €)',
+          '🏠 Gás, electricidade, água: 15% do IVA',
+          '🎓 Educação (incluindo cursos, explicadores): 30% (máx 800 €)',
+          '🏥 Saúde (incluindo farmácias): 15% (máx 1000 €)',
+          '⚠️ IMPORTANTE: dê o NIF, caso contrário a factura não conta. Depois da compra, verifique em e-fatura.portaldasfinancas.gov.pt — aí pode «validar» facturas em dúvida'
         ]},
-        { kind: 'paragraph', text: 'Para mais — ver guia «e-Fatura deductions».' }
+        { kind: 'paragraph', text: 'Mais detalhes — veja o guia separado «e-Fatura deductions».' }
       ]
     }
   ],
@@ -185,5 +185,5 @@ export default {
   lastVerified: '2026-05-17',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
-  changeSummary: 'Novo guia: cartões de desconto e promoções em Portugal. Cartão Continente (o principal), Pingo Doce Poupa Mais, Cartão Jovem Europeu (12-29, ~60 categorias), Cartão Família Numerosa (para 3+ filhos), programas de lojas (KIWOKO, Decathlon, FNAC), sites de cashback (Letyshops, eBuyClub), agregadores de cupões (Radarcupao, Ocacapromocoes), reembolso de IVA via e-Fatura no IRS.'
+  changeSummary: 'Novo guia: cartões de desconto e promoções em Portugal. Cartão Continente (principal), Pingo Doce Poupa Mais, Cartão Jovem Europeu (12-29 anos, ~60 categorias de descontos), Cartão Família Numerosa (para 3+ filhos), programas de lojas (KIWOKO, Decathlon, FNAC), sites de cashback (Letyshops, eBuyClub), agregadores de cupões (Radarcupao, Ocacapromocoes), reembolso de IVA via e-Fatura através do IRS.'
 }

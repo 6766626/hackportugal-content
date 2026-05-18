@@ -3,7 +3,7 @@ export default {
   id: 'cost-of-living-2026',
   categoryId: 'daily_life',
   title: 'Стоимость жизни в Португалии в 2026 году — полный разбор',
-  tldr: 'Одиночке на комфортную жизнь в Лиссабоне или Порту в 2026 году: 1800-2800 €/мес. В провинции (Coimbra, Braga, Alentejo): 1100-1700 €. Семье из 4 человек в Лиссабоне: 3500-5500 €. Главный расход — аренда (40-60% бюджета). Минимальная зарплата в Португалии с 01.01.2026: 920 €/мес (×14 = 12 880 €/год).',
+  tldr: 'Одиночке на комфортную жизнь в Лиссабоне или Порту в 2026 году: 1800-2800 €/мес. В провинции (Coimbra, Braga, Alentejo): 1100-1700 €. Семье из 4 человек в Лиссабоне: 3500-5500 €. Главный расход — аренда (40-60% бюджета)\.\n\nМинимальная зарплата в Португалии с 01.01.2026: 920 €/мес (×14 = 12 880 €/год).',
   tags: ['стоимость', 'бюджет', 'зарплата'],
   estimatedReadMinutes: 8,
   steps: [
@@ -212,6 +212,6 @@ export default {
     { title: 'Portal das Finanças (налоговый портал) — ставки IRS 2026', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Segurança Social — ставки 2026', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

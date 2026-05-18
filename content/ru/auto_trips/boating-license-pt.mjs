@@ -62,7 +62,7 @@ export default {
             { kind: 'paragraph', text: 'Курс покрывает правила расхождения судов, знаки, огни, VHF-радио, карты, приливы, метео, безопасность, man overboard, вход/выход из марины, швартовку и базовую механику. Для Patrão de Costa добавляются навигационные задачи, прокладка курса и работа с картой.' }
           ] },
           { id: 'exam-card', title: '4. Сдать экзамен и дождаться карты', content: [
-            { kind: 'paragraph', text: 'Экзамен проходит через систему, связанную с DGRM: теория и, для категорий где требуется, практическая часть. После успешной сдачи оформляется Carta de navegador de recreio. Срок выдачи зависит от школы и нагрузки DGRM; на практике закладывайте несколько недель.' }
+            { kind: 'paragraph', text: 'Экзамен проходит через систему, связанную с DGRM: теория и, для категорий где требуется, практическая часть. После успешной сдачи оформляется Carta de navegador de recreio.\n\nСрок выдачи зависит от школы и нагрузки DGRM; на практике закладывайте несколько недель.' }
           ] }
         ] }
       ]
@@ -129,6 +129,6 @@ export default {
     { title: 'Autoridade Marítima Nacional: безопасность и контроль на море', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei n.º 93/2018: Regulamento da Náutica de Recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/93-2018-116956361', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

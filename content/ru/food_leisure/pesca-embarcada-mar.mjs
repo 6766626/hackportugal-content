@@ -3,7 +3,7 @@ export default {
   id: 'pesca-embarcada-mar',
   categoryId: 'food_leisure',
   title: 'Морская рыбалка с лодки — лицензия Pesca Lúdica Embarcada',
-  tldr: 'Рыбалка с любой лодки в море (своей, арендованной или чартерной) требует варианта embarcada в лицензии Pesca Lúdica (pesca lúdica — любительская морская рыбалка). Дороже, чем с берега: ~10 € за 3 дня, ~20 € в месяц, ~40 € в год. Лодка должна быть зарегистрирована в Capitania (портовая капитания), а у каждого рыбака на борту должна быть своя лицензия. Дневной лимит для всей лодки выше: 15 кг + 1 особо крупная рыба. Для чартера проверь, чтобы у капитана была профессиональная лицензия "Marítimo‑Turística"; пассажирам достаточно обычной embarcada.',
+  tldr: 'Рыбалка с любой лодки в море (своей, арендованной или чартерной) требует варианта embarcada в лицензии Pesca Lúdica (pesca lúdica — любительская морская рыбалка)\.\n\nДороже, чем с берега: ~10 € за 3 дня, ~20 € в месяц, ~40 € в год. Лодка должна быть зарегистрирована в Capitania (портовая капитания), а у каждого рыбака на борту должна быть своя лицензия. Дневной лимит для всей лодки выше: 15 кг + 1 особо крупная рыба. Для чартера проверь, чтобы у капитана была профессиональная лицензия "Marítimo‑Turística"; пассажирам достаточно обычной embarcada.',
   tags: ['pesca', 'fishing', 'lancha', 'embarcacao', 'dgrm'],
   estimatedReadMinutes: 5,
   steps: [
@@ -108,6 +108,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICCAT — quotas atum rabilho', url: 'https://www.iccat.int', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'oa-advogados-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Advogados: иностранный юрист в Португалии без BR-реципрокности',
-  tldr: 'В Португалии нельзя просто “перевести” статус адвоката: слово advogado защищено, доступ к профессии даёт только Ordem dos Advogados (OA). После прекращения практической BR-реципрокности прямой путь для non-EU юристов — признание диплома в португальском вузе/DGES, затем допуск в OA, prova de acesso и estágio около 18 месяцев с patrono и финальной оценкой. Юристы EU/EEA идут отдельно по Diretiva 98/5/CE: могут зарегистрироваться под домашним профессиональным титулом.',
+  tldr: 'В Португалии нельзя просто “перевести” статус адвоката: слово advogado защищено, доступ к профессии даёт только Ordem dos Advogados (OA)\.\n\nПосле прекращения практической BR-реципрокности прямой путь для non-EU юристов — признание диплома в португальском вузе/DGES, затем допуск в OA, prova de acesso и estágio около 18 месяцев с patrono и финальной оценкой. Юристы EU/EEA идут отдельно по Diretiva 98/5/CE: могут зарегистрироваться под домашним профессиональным титулом.',
   tags: ['oa', 'advogado', 'юрист', 'diploma', 'estágio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -185,6 +185,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

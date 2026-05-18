@@ -61,7 +61,7 @@ export default {
       id: 'private-route',
       title: 'Частные сети: Acustimedi, Acoustimedi и другие',
       content: [
-        { kind: 'paragraph', text: 'Частный путь удобен, если нужно быстро понять, нужен ли аппарат, и протестировать модели. В Португалии работают сети и кабинеты audiologia: Acustimedi, Minisom, GAES/Amplifon, MultiOpticas Audiologia, а также локальные audiologistas. Название Acoustimedi встречается в поиске и у отдельных страниц, но перед визитом проверяйте юридическое название, адрес и отзывы: наиболее узнаваемый бренд — Acustimedi.' },
+        { kind: 'paragraph', text: 'Частный путь удобен, если нужно быстро понять, нужен ли аппарат, и протестировать модели.\n\nВ Португалии работают сети и кабинеты audiologia: Acustimedi, Minisom, GAES/Amplifon, MultiOpticas Audiologia, а также локальные audiologistas. Название Acoustimedi встречается в поиске и у отдельных страниц, но перед визитом проверяйте юридическое название, адрес и отзывы: наиболее узнаваемый бренд — Acustimedi.' },
         { kind: 'paragraph', text: 'Бесплатный тест в магазине — это не замена ORL, но хороший старт. Нормальная практика: тест, пробный период, настройка, контроль через 2–4 недели, затем регулярная перенастройка.' },
         { kind: 'checklist', items: [
           'Попросите распечатку audiograma, а не только устное «вам нужен аппарат»',
@@ -143,6 +143,6 @@ export default {
     { title: 'Instituto Nacional para a Reabilitação — produtos de apoio / SAPA', url: 'https://www.inr.pt/produtos-de-apoio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Acustimedi — rede privada de audiologia e aparelhos auditivos', url: 'https://www.acustimedi.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

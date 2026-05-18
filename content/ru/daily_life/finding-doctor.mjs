@@ -3,7 +3,7 @@ export default {
   id: 'finding-doctor',
   categoryId: 'healthcare',
   title: 'Найти врача в Португалии',
-  tldr: 'Семейный врач (médico de família) — бесплатно через SNS в Centro de Saúde (государственная поликлиника) по месту жительства, но очередь на запись 2–14 дней. Специалисты SNS — очередь 1–12 мес. Для срочного — больница SNS (Urgência). Частные клиники (CUF, Lusíadas, HPA) — без очереди за деньги (~€ 50–80 первый приём).',
+  tldr: 'Семейный врач (médico de família) — бесплатно через SNS в Centro de Saúde (государственная поликлиника) по месту жительства, но очередь на запись 2–14 дней. Специалисты SNS — очередь 1–12 мес. Для срочного — больница SNS (Urgência)\.\n\nЧастные клиники (CUF, Lusíadas, HPA) — без очереди за деньги (~€ 50–80 первый приём).',
   tags: ['врач', 'SNS', 'Centro de Saúde', 'специалист'],
   estimatedReadMinutes: 5,
   steps: [
@@ -106,6 +106,6 @@ export default {
     { title: 'SNS 24 — онлайн-услуги', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ACSS — статистика SNS', url: 'https://www.acss.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

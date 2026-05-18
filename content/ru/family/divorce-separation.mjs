@@ -181,6 +181,6 @@ export default {
     { title: 'Reg. (EU) 1259/2010 — Rome III (applicable law for divorce)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R1259', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Reg. (EU) 2019/1111 — Brussels II ter (jurisdiction/recognition)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R1111', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

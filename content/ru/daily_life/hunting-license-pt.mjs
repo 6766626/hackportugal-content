@@ -83,7 +83,7 @@ export default {
       id: 'firearms-psp',
       title: 'Оружие: отдельная лицензия PSP',
       content: [
-        { kind: 'paragraph', text: 'Огнестрельное оружие контролирует Polícia de Segurança Pública (PSP). Для охоты обычно речь о классах C/D по Lei 5/2006, но конкретная категория зависит от типа оружия. Процесс включает проверку пригодности, обучение, регистрацию оружия и требования к хранению.' },
+        { kind: 'paragraph', text: 'Огнестрельное оружие контролирует Polícia de Segurança Pública (PSP). Для охоты обычно речь о классах C/D по Lei 5/2006, но конкретная категория зависит от типа оружия.\n\nПроцесс включает проверку пригодности, обучение, регистрацию оружия и требования к хранению.' },
         { kind: 'checklist', items: [
           'Подайте заявление на Licença de Uso e Porte de Arma (LUPA) в PSP/SIGAE или через доступный канал PSP',
           'Подготовьте ID/ВНЖ, NIF, comprovativo de morada и доказательство законного пребывания',
@@ -129,6 +129,6 @@ export default {
     { title: 'PSP: armas e explosivos, licenças de uso e porte de arma', url: 'https://www.psp.pt/Pages/atividades/ArmasExplosivos.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 5/2006: regime jurídico das armas e munições', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34574575', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

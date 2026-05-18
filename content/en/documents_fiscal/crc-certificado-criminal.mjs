@@ -3,21 +3,21 @@ export default {
   id: 'crc-certificado-criminal',
   categoryId: 'documents_fiscal',
   title: 'CRC — criminal record certificate in Portugal (Certidão de Registo Criminal)',
-  tldr: 'Certidão de Registo Criminal is the Portuguese criminal record certificate. It is needed for AIMA, some jobs, licences, volunteering, residence permit and citizenship; for foreign authorities, an apostila is usually required.\n\nIn 2026, ordering online via Registo Criminal costs €5, is available with Cartão de Cidadão or Chave Móvel Digital, the certificate is verified by code and is usually valid for 3 months. If you live outside Portugal, a separate form for residente no estrangeiro is used.',
-  tags: ['crc', 'criminal record', 'aima', 'apostila'],
+  tldr: 'Certidão de Registo Criminal is the Portuguese criminal record certificate. It is needed for AIMA, some jobs, licences, volunteering, residence permits and citizenship; for foreign authorities, an apostille is usually required.\n\nIn 2026, ordering online through Registo Criminal costs €5, is available with Cartão de Cidadão or Chave Móvel Digital, the certificate is verified by code and is usually valid for 3 months. If you live outside Portugal, a separate form for residente no estrangeiro is used.',
+  tags: ['crc', 'criminal record', 'aima', 'apostille'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'what-it-is',
-      title: 'What a CRC is and when it is requested',
+      title: 'What the CRC is and when it is requested',
       content: [
-        { kind: 'paragraph', text: 'Certidão de Registo Criminal, or CRC, is the official certificate from the Portuguese criminal records register. It shows the presence or absence of records that may be disclosed for a specific purpose: employment, licence, adoption, AIMA, citizenship, working with children, and so on.' },
-        { kind: 'paragraph', text: 'In Portugal, the certificate is not a universal “for all purposes” document. When ordering, a purpose is selected, and the contents of the certificate may depend on that purpose. For an employer, AIMA or a foreign authority, it is better to clarify the wording of the purpose in advance.' },
+        { kind: 'paragraph', text: 'Certidão de Registo Criminal, or CRC, is an official certificate from the Portuguese criminal records register. It shows the presence or absence of entries that may be disclosed for a specific purpose: work, a licence, adoption, AIMA, citizenship, working with children, and so on.' },
+        { kind: 'paragraph', text: 'In Portugal, the certificate is not a universal “for all purposes” document. When ordering it, you choose the purpose, and the certificate content may depend on that purpose. For an employer, AIMA or a foreign authority, it is better to confirm the wording of the purpose in advance.' },
         { kind: 'checklist', items: [
-          'AIMA: often required for a first residence permit, change of status or specific procedures; sometimes it is enough to authorise AIMA to request the data directly',
-          'Employment: mandatory for professions involving children, security, financial risks, public procurement, licences',
+          'AIMA: often required for an initial residence permit, change of status or specific procedures; sometimes it is enough to give AIMA permission to request the data directly',
+          'Work: mandatory for professions involving children, security, financial risks, public procurement and licences',
           'Naturalisation: IRN usually checks the Portuguese CRC itself, but a certificate from other countries of residence may be needed',
-          'Visas and foreign procedures: a Portuguese CRC is often requested with apostila',
+          'Visas and foreign procedures: the Portuguese CRC is often requested with an apostille',
           'Validity: access to the online certificate usually lasts 3 months from the date of issue',
           'Cost in 2026: €5 per certificate for an individual'
         ] }
@@ -27,52 +27,52 @@ export default {
       id: 'online-request',
       title: 'How to order online for €5 💻',
       content: [
-        { kind: 'paragraph', text: 'The fastest method is the Registo Criminal portal. Online ordering is available to those who have Cartão de Cidadão or Chave Móvel Digital (CMD). After payment you receive not a PDF “with a stamp”, but a digital certificate with an access code; the receiving party verifies it on the official website.' },
+        { kind: 'paragraph', text: 'The fastest way is the Registo Criminal portal. Online ordering is available to those who have Cartão de Cidadão or Chave Móvel Digital (CMD).\n\nAfter payment, you do not receive a PDF “with a stamp”, but a digital certificate with an access code; the receiving party checks it on the official website.' },
         { kind: 'checklist', items: [
           'Go to registocriminal.justica.gov.pt',
           'Select pedido de certificado de registo criminal de pessoas singulares',
-          'Authenticate via Cartão de Cidadão or Chave Móvel Digital',
+          'Log in using Cartão de Cidadão or Chave Móvel Digital',
           'Choose the purpose of issue: emprego, AIMA, nacionalidade, licenciamento or another suitable option',
           'Check your personal details: name, date of birth, nationality, document number',
-          'Pay €5 by bank card, Multibanco or another method available on the portal',
+          'Pay €5 by bank card, Multibanco or another payment method available on the portal',
           'Save the access code and date of issue',
           'Give the employer or authority the certificate verification code, not a screenshot'
         ] },
-        { kind: 'warning', text: 'If the authority asks for an “original”, clarify whether it accepts a digital CRC with a code. In Portugal this is a normal official format, but foreign authorities often require a paper document with apostila.' }
+        { kind: 'warning', text: 'If an authority asks for an “original”, confirm whether it accepts a digital CRC with a code. In Portugal this is a normal official format, but foreign authorities often require a paper document with an apostille.' }
       ]
     },
     {
       id: 'in-person-and-foreign-resident',
       title: 'If you do not have CMD or you are outside Portugal',
       content: [
-        { kind: 'paragraph', text: 'Without CMD or Cartão de Cidadão, a CRC can be requested in person at a balcão dos Serviços de Identificação Criminal, Lojas de Cidadão and some Espaços Registos. You need an identity document and the details for the selected purpose. The cost is the same — €5.' },
-        { kind: 'paragraph', text: 'If you live outside Portugal, a separate requerimento for residente no estrangeiro is used. Usually, a completed form, a copy of an identity document and proof of payment are required. The current form and sending address should be taken from the official Registo Criminal portal, because submission channels may change.' },
+        { kind: 'paragraph', text: 'Without CMD or Cartão de Cidadão, the CRC can be requested in person at a balcão dos Serviços de Identificação Criminal, Lojas de Cidadão and some Espaços Registos. You need an identity document and the details for the chosen purpose. The cost is the same — €5.' },
+        { kind: 'paragraph', text: 'If you live outside Portugal, a separate requerimento for residente no estrangeiro is used. Usually, a completed form, a copy of an identity document and proof of payment are required. The current form and submission address should be taken from the official Registo Criminal portal, because submission channels may change.' },
         { kind: 'checklist', items: [
           'Passport or Cartão de Cidadão / Título de Residência',
           'NIF is not the main mandatory document, but it may be useful for payment or identification',
           'The exact purpose for issuing the certificate',
-          'Email address for receiving the access code',
-          'For a representative: procuração or autorização if another person collects the certificate',
+          'Email address to receive the access code',
+          'For a representative: procuração or autorização if another person is collecting the certificate',
           'For a request from abroad: residente no estrangeiro form with signature',
-          'If the document is needed by a foreign authority: clarify in advance whether a paper copy and apostila are required'
+          'If the document is needed by a foreign authority: confirm in advance whether a copy and an apostille are required'
         ] }
       ]
     },
     {
       id: 'apostille',
-      title: 'Apostila: when a CRC is needed abroad',
+      title: 'Apostille: when the CRC is needed abroad',
       content: [
-        { kind: 'paragraph', text: 'To use a Portuguese CRC in another country, an Apostila da Convenção da Haia is usually needed. This confirms the authenticity of the signature and the authority of the Portuguese body; it does not translate the contents of the certificate.' },
-        { kind: 'paragraph', text: 'Apostila in Portugal is arranged through the Procuradoria-Geral da República and authorised units. The typical fee is €10.20 per document, but before submitting, check the current tariff and format, because digital documents may have separate requirements.' },
+        { kind: 'paragraph', text: 'To use a Portuguese CRC in another country, an Apostila da Convenção da Haia is usually needed. This confirms the authenticity of the signature and the powers of the Portuguese authority; it does not translate the content of the certificate.' },
+        { kind: 'paragraph', text: 'An apostille in Portugal is issued through the Procuradoria-Geral da República and authorised units. The typical fee is €10.20 per document, but before submitting, check the current fee and format, because there may be separate requirements for digital documents.' },
         { kind: 'checklist', items: [
           'Obtain the CRC with the correct purpose',
-          'Clarify with the foreign authority: whether a paper original is needed or digital verification is accepted',
-          'Order apostila from the PGR or an authorised serviço',
-          'If the destination country does not accept Portuguese, arrange a sworn or certified translation after the apostila, or according to the requirements of the destination country',
-          'Check the time limit: many authorities accept certificates no older than 90 days',
-          'For AIMA inside Portugal, apostila is not needed'
+          'Check with the foreign authority: whether a paper original is needed or whether digital verification is accepted',
+          'Order the apostille from PGR or an authorised serviço',
+          'If the destination country does not accept Portuguese, arrange a sworn or certified translation after the apostille, or according to the requirements of the destination country',
+          'Check the age limit: many authorities accept certificates no older than 90 days',
+          'For AIMA inside Portugal, an apostille is not needed'
         ] },
-        { kind: 'warning', text: 'Apostila does not fix an incorrectly selected CRC purpose. If the certificate was ordered “for work” and the authority requires “for an immigration procedure”, they may ask for a new certificate for €5.' }
+        { kind: 'warning', text: 'An apostille does not fix an incorrectly chosen CRC purpose. If the certificate was ordered “for work”, but the authority requires it “for an immigration procedure”, they may ask for a new certificate for €5.' }
       ]
     },
     {
@@ -80,16 +80,16 @@ export default {
       title: 'Common mistakes and how to avoid them',
       content: [
         { kind: 'checklist', items: [
-          'Ordering the CRC too early: after 3 months the code may no longer be accepted',
+          'Ordering the CRC too early: after 3 months, the code may no longer be accepted',
           'Sending an employer a PDF screenshot instead of the official verification code',
-          'Choosing the wrong finalidade and getting refused',
-          'Thinking that a Portuguese CRC replaces certificates from Russia, Ukraine, Brazil or other countries of residence — it does not',
+          'Choosing the wrong finalidade and receiving a refusal',
+          'Thinking that the Portuguese CRC replaces certificates from Russia, Ukraine, Brazil or other countries of residence — it does not',
           'For citizenship, forgetting that certificates may be required from countries where the applicant lived after the age of 16',
-          'Not obtaining apostila for a foreign authority',
-          'Doing the translation before apostila, even though the receiving country asked for the apostilled document to be translated',
-          'Trying to order online without CMD or Cartão de Cidadão — in that case, an in-person channel or the form for residente no estrangeiro is needed'
+          'Not obtaining an apostille for a foreign authority',
+          'Having the document translated before the apostille, even though the receiving country asked for the already apostilled document to be translated',
+          'Trying to order online without CMD or Cartão de Cidadão — in this case, an in-person channel or the form for residente no estrangeiro is needed'
         ] },
-        { kind: 'paragraph', text: 'Practical order: first ask the receiving authority for the exact purpose, accepted age of the document and whether apostila is needed; then order the CRC; then arrange apostila and translation if the document is leaving Portugal.' }
+        { kind: 'paragraph', text: 'Practical sequence: first ask the receiving authority for the exact purpose, accepted age of the document and whether an apostille is needed; then order the CRC; then arrange the apostille and translation if the document is going outside Portugal.' }
       ]
     }
   ],
@@ -99,14 +99,14 @@ export default {
   ],
   sources: [
     {
-      title: 'Registo Criminal — official portal for ordering and verifying a CRC',
+      title: 'Registo Criminal — official portal for ordering and checking the CRC',
       url: 'https://registocriminal.justica.gov.pt/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'gov.pt — pedir o certificado de registo criminal de pessoas singulares',
+      title: 'gov.pt — request the certificado de registo criminal de pessoas singulares',
       url: 'https://www.gov.pt/servicos/pedir-o-certificado-de-registo-criminal-de-pessoas-singulares',
       kind: 'official',
       language: 'pt',

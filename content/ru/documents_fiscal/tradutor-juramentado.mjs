@@ -3,7 +3,7 @@ export default {
   id: 'tradutor-juramentado',
   categoryId: 'documents_fiscal',
   title: 'Присяжный переводчик / tradutor juramentado для визы и AIMA',
-  tldr: 'В Португалии нет единого государственного статуса «присяжный переводчик» как в Испании или Германии. Для визы, AIMA, Conservatória и Finanças обычно нужен перевод на португальский с заверением: у Notário, advogado/solicitador, Câmara de Comércio e Indústria Portuguesa или в Consulado. Типичный пакет «апостилированная справка/свидетельство 1–3 страницы + заверение» стоит 55–120 €, срочно — 80–180 €. Срок: 2–5 рабочих дней, срочно 24–48 часов.',
+  tldr: 'В Португалии нет единого государственного статуса «присяжный переводчик» как в Испании или Германии. Для визы, AIMA, Conservatória и Finanças обычно нужен перевод на португальский с заверением: у Notário, advogado/solicitador, Câmara de Comércio e Indústria Portuguesa или в Consulado. Типичный пакет «апостилированная справка/свидетельство 1–3 страницы + заверение» стоит 55–120 €, срочно — 80–180 €.\n\nСрок: 2–5 рабочих дней, срочно 24–48 часов.',
   tags: ['перевод', 'aima', 'notário', 'апостиль'],
   estimatedReadMinutes: 5,
   steps: [

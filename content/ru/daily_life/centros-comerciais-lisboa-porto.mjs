@@ -3,7 +3,7 @@ export default {
   id: 'centros-comerciais-lisboa-porto',
   categoryId: 'daily_life',
   title: 'Торговые центры Лиссабона и Порту: Colombo, Vasco da Gama, NorteShopping',
-  tldr: 'Крупные centros comerciais в Португалии работают почти каждый день, включая воскресенья и большинство праздников: обычно магазины 10:00–23:00/24:00, рестораны дольше. В Лиссабоне главные точки — Colombo, Vasco da Gama, Amoreiras, El Corte Inglés; в Порту — NorteShopping, Mar Shopping, Via Catarina, Vivaci Maia. Парковка часто бесплатна первые 2–4 часа, но правила зависят от ТЦ и дня недели. Для еды рассчитывайте 7–12 € за фуд-корт, 12–20 € за ресторан.',
+  tldr: 'Крупные centros comerciais в Португалии работают почти каждый день, включая воскресенья и большинство праздников: обычно магазины 10:00–23:00/24:00, рестораны дольше.\n\nВ Лиссабоне главные точки — Colombo, Vasco da Gama, Amoreiras, El Corte Inglés; в Порту — NorteShopping, Mar Shopping, Via Catarina, Vivaci Maia. Парковка часто бесплатна первые 2–4 часа, но правила зависят от ТЦ и дня недели. Для еды рассчитывайте 7–12 € за фуд-корт, 12–20 € за ресторан.',
   tags: ['shopping', 'лиссабон', 'порту', 'парковка'],
   estimatedReadMinutes: 5,
   steps: [
@@ -105,6 +105,6 @@ export default {
     { title: 'Centro Vasco da Gama — официальный сайт торгового центра', url: 'https://www.centrovascodagama.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'MAR Shopping Matosinhos — официальный сайт торгового центра', url: 'https://www.marshopping.com/pt/matosinhos', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

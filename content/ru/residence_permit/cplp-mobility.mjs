@@ -35,7 +35,7 @@ export default {
             { kind: 'paragraph', text: 'Через Finanças лично (см. гайд "NIF EU/CPLP").' }
           ]},
           { id: 'b3', title: '3. Записаться в AIMA', content: [
-            { kind: 'paragraph', text: 'Проверьте актуальный канал записи на официальном сайте AIMA для «Acordo de Mobilidade CPLP» — не путать первичную подачу с порталом продлений (portal-renovacoes — это renewals). Если онлайн-канал недоступен, используйте официальный контакт-центр AIMA и инструкции на aima.gov.pt.' }
+            { kind: 'paragraph', text: 'Проверьте актуальный канал записи на официальном сайте AIMA для «Acordo de Mobilidade CPLP» — не путать первичную подачу с порталом продлений (portal-renovacoes — это renewals)\.\n\nЕсли онлайн-канал недоступен, используйте официальный контакт-центр AIMA и инструкции на aima.gov.pt.' }
           ]},
           { id: 'b4', title: '4. Подать документы', content: [
             { kind: 'checklist', items: [
@@ -118,6 +118,6 @@ export default {
     { title: 'Lei nº 61/2025 (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPLP — официальный портал', url: 'https://www.cplp.org/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 60
 }

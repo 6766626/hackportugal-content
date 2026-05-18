@@ -3,7 +3,7 @@ export default {
   id: 'irs-filing',
   categoryId: 'taxes',
   title: 'Подача IRS — налоговая декларация физического лица',
-  tldr: 'IRS = Imposto sobre o Rendimento das Pessoas Singulares. Подаётся ежегодно с 1 апреля по 30 июня в Portal das Finanças (налоговый портал). Налоговые резиденты обычно декларируют мировой доход; есть освобождения от подачи по art. 58 CIRS (низкие/окончательно обложенные доходы). Есть автоматическая предзаполненная версия (IRS Automático) для предусмотренных AT простых случаев.',
+  tldr: 'IRS = Imposto sobre o Rendimento das Pessoas Singulares. Подаётся ежегодно с 1 апреля по 30 июня в Portal das Finanças (налоговый портал).\n\nНалоговые резиденты обычно декларируют мировой доход; есть освобождения от подачи по art. 58 CIRS (низкие/окончательно обложенные доходы)\.\n\nЕсть автоматическая предзаполненная версия (IRS Automático) для предусмотренных AT простых случаев.',
   tags: ['irs', 'налоги', 'декларация'],
   estimatedReadMinutes: 7,
   steps: [
@@ -95,7 +95,7 @@ export default {
       title: 'NHR и IFICI — особенности',
       content: [
         { kind: 'paragraph', text: 'NHR для уже зарегистрированных действует до конца 10-летнего периода: 20% на ряд португальских доходов от high value-added activities; по иностранным доходам режим зависит от категории и DTA (не универсальные 0%); иностранные пенсии для новых NHR — обычно 10%.' },
-        { kind: 'paragraph', text: 'IFICI с 2024 — 20% ставка на eligible net employment/business income по утверждённому перечню (Estatuto dos Benefícios Fiscais art. 58-A, Portaria 352/2024/1). Нужна регистрация в AT/компетентной entity (FCT, ANI, Startup Portugal, AICEP/IAPMEI) в установленный срок. Несовместим с NHR. Подача — через профиль IFICI + Modelo 3 с отметкой.' }
+        { kind: 'paragraph', text: 'IFICI с 2024 — 20% ставка на eligible net employment/business income по утверждённому перечню (Estatuto dos Benefícios Fiscais art. 58-A, Portaria 352/2024/1)\.\n\nНужна регистрация в AT/компетентной entity (FCT, ANI, Startup Portugal, AICEP/IAPMEI) в установленный срок. Несовместим с NHR. Подача — через профиль IFICI + Modelo 3 с отметкой.' }
       ]
     }
   ],
@@ -105,6 +105,6 @@ export default {
     { title: 'Código do IRS (Diário da República)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — Dispensa de entrega da declaração de IRS', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/Folheto_IRS_Dispensa_Entrega.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

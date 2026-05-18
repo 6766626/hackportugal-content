@@ -12,7 +12,7 @@ export default {
       title: 'Что это за события',
       content: [
         { kind: 'paragraph', text: 'Ciência Aberta — не один фестиваль, а формат: университеты, исследовательские центры, музеи науки и лаборатории открывают двери для публики. Обычно это экскурсии по лабораториям, демонстрации, опыты для детей, встречи с учёными, наблюдения неба, робототехника, биология, океан, климат, здоровье и AI.' },
-        { kind: 'paragraph', text: 'Noite Europeia dos Investigadores — общеевропейская «ночь исследователей». В Португалии она проходит ежегодно в последнюю пятницу сентября. В 2026 году это 25.09.2026. Формат семейный: стенды, мини-лекции, эксперименты, игры, научные шоу и разговоры с исследователями без академического пафоса.' },
+        { kind: 'paragraph', text: 'Noite Europeia dos Investigadores — общеевропейская «ночь исследователей».\n\nВ Португалии она проходит ежегодно в последнюю пятницу сентября. В 2026 году это 25.09.2026. Формат семейный: стенды, мини-лекции, эксперименты, игры, научные шоу и разговоры с исследователями без академического пафоса.' },
         { kind: 'paragraph', text: 'Ciência Viva — главный ориентир для экспата: у сети есть портал с афишей, Pavilhão do Conhecimento в Lisboa и центры Ciência Viva по стране, включая материковую Португалию и острова. Это удобный способ найти события не только в Lisboa и Porto, но и в Aveiro, Coimbra, Algarve, Alentejo, Açores и Madeira.' }
       ]
     },
@@ -115,6 +115,6 @@ export default {
     { title: 'Pavilhão do Conhecimento — agenda и семейные активности в Lisboa', url: 'https://www.pavconhecimento.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Marie Skłodowska-Curie Actions — European Researchers’ Night 2026/2027', url: 'https://marie-sklodowska-curie-actions.ec.europa.eu/actions/msca-and-citizens/join-a-celebration-of-science', kind: 'official', language: 'en', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

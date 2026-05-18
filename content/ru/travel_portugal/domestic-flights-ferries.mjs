@@ -3,7 +3,7 @@ export default {
   id: 'domestic-flights-ferries',
   categoryId: 'travel_portugal',
   title: 'Внутренние перелёты и паромы — Мадейра, Азоры, континент',
-  tldr: 'Для поездок между материком и островами самолёт обязателен. TAP и Ryanair летают Лиссабон/Порту → Мадейра (Фуншал) / Азоры (Понта-Делгада). На Азорах для резидентов действуют субсидированные цены. Паромы Soflusa/Transtejo ходят через Тежу в Лиссабоне, круизы по Дору — в Порту, а на Азорах — между островами.',
+  tldr: 'Для поездок между материком и островами самолёт обязателен. TAP и Ryanair летают Лиссабон/Порту → Мадейра (Фуншал) / Азоры (Понта-Делгада).\n\nНа Азорах для резидентов действуют субсидированные цены. Паромы Soflusa/Transtejo ходят через Тежу в Лиссабоне, круизы по Дору — в Порту, а на Азорах — между островами.',
   tags: ['самолёт', 'паром', 'мадейра', 'азоры'],
   estimatedReadMinutes: 5,
   steps: [
@@ -77,6 +77,6 @@ export default {
     { title: 'Atlânticoline', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Transtejo Soflusa — паромы через Тежу', url: 'https://ttsl.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'accident-euro-protocol',
   categoryId: 'auto_trips',
   title: 'ДТП в Португалии — Declaração Amigável (европротокол) и когда вызывать GNR',
-  tldr: 'При ДТП без пострадавших и без споров — заполняйте **Declaração Amigável de Acidente Automóvel (DAAA)**, двусторонний европротокол. Если есть спор, пьяный водитель, пострадавшие или третьи лица — 112 → GNR/PSP. Страхователь обязан уведомить страховщика о ДТП в **8 дней** (DL 72/2008 — Regime Jurídico do Contrato de Seguro). Нарушение срока **не означает автоматической** потери права на возмещение для всех (для потерпевшего третьего лица — отдельный режим), но создаёт реальный риск отказа или уменьшения выплаты, особенно если просрочка нанесла ущерб страховщику. Лучше уложиться в срок.',
+  tldr: 'При ДТП без пострадавших и без споров — заполняйте **Declaração Amigável de Acidente Automóvel (DAAA)**, двусторонний европротокол. Если есть спор, пьяный водитель, пострадавшие или третьи лица — 112 → GNR/PSP. Страхователь обязан уведомить страховщика о ДТП в **8 дней** (DL 72/2008 — Regime Jurídico do Contrato de Seguro)\.\n\nНарушение срока **не означает автоматической** потери права на возмещение для всех (для потерпевшего третьего лица — отдельный режим), но создаёт реальный риск отказа или уменьшения выплаты, особенно если просрочка нанесла ущерб страховщику. Лучше уложиться в срок.',
   tags: ['дтп', 'авария', 'страховка', 'gnr', 'declaração amigável'],
   estimatedReadMinutes: 6,
   steps: [
@@ -112,6 +112,6 @@ export default {
     { title: 'FGA — Fundo de Garantia Automóvel', url: 'https://www.fga.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

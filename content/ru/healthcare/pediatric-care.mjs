@@ -3,7 +3,7 @@ export default {
   id: 'pediatric-care',
   categoryId: 'healthcare',
   title: 'Педиатр в Португалии — SNS, частные врачи, чего ожидать',
-  tldr: 'После регистрации ребёнку присваивают Número de Utente; médico de família назначают, если в USF/UCSP есть свободные списки — иначе ребёнок остаётся sem médico de família, но сохраняет доступ к вакцинации, программе Saúde Infantil через unidade/consulta aberta/enfermagem и urgent care. Плановые консультации Saúde Infantil e Juvenil по графику DGS (1.ª semana; 1, 2, 4, 6, 9, 12, 15, 18 мес; 2, 3, 4, 5 лет; 6–7, 8, 10, 12–13 и 15–18 лет) — бесплатно. Pediatria в SNS — через направление в hospital/specialty care; в частном секторе педиатры часто ведут и обычные профилактические консультации (60–120 €/визит без страховки). Детская urgência: Hospital Dona Estefânia (Lisboa), Hospital Pediátrico (Coimbra), Hospital de São João (Porto). При угрозе жизни — 112; иначе сначала SNS 24 (808 24 24 24).',
+  tldr: 'После регистрации ребёнку присваивают Número de Utente; médico de família назначают, если в USF/UCSP есть свободные списки — иначе ребёнок остаётся sem médico de família, но сохраняет доступ к вакцинации, программе Saúde Infantil через unidade/consulta aberta/enfermagem и urgent care. Плановые консультации Saúde Infantil e Juvenil по графику DGS (1.ª semana; 1, 2, 4, 6, 9, 12, 15, 18 мес; 2, 3, 4, 5 лет; 6–7, 8, 10, 12–13 и 15–18 лет) — бесплатно. Pediatria в SNS — через направление в hospital/specialty care; в частном секторе педиатры часто ведут и обычные профилактические консультации (60–120 €/визит без страховки)\.\n\nДетская urgência: Hospital Dona Estefânia (Lisboa), Hospital Pediátrico (Coimbra), Hospital de São João (Porto). При угрозе жизни — 112; иначе сначала SNS 24 (808 24 24 24).',
   tags: ['педиатр', 'дети', 'sns', 'médico de família'],
   estimatedReadMinutes: 5,
   steps: [
@@ -133,6 +133,6 @@ export default {
     { title: 'SNS — Serviços de Urgência', url: 'https://www.sns.gov.pt/sns/servicos-de-urgencia/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Hospital Dona Estefânia (педиатрический)', url: 'https://www.ulslc.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

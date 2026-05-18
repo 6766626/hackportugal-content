@@ -11,7 +11,7 @@ export default {
       id: 'when-to-suspect',
       title: 'Когда идти к врачу 😴',
       content: [
-        { kind: 'paragraph', text: 'Апноэ сна — это повторные остановки или резкое уменьшение дыхания во сне. В Португалии диагностикой и назначением CPAP в SNS обычно занимаются pneumologia, neurologia или специализированная consulta do sono, но входная точка для большинства жителей — médico de família в Centro de Saúde.' },
+        { kind: 'paragraph', text: 'Апноэ сна — это повторные остановки или резкое уменьшение дыхания во сне.\n\nВ Португалии диагностикой и назначением CPAP в SNS обычно занимаются pneumologia, neurologia или специализированная consulta do sono, но входная точка для большинства жителей — médico de família в Centro de Saúde.' },
         { kind: 'checklist', items: [
           'Громкий храп почти каждую ночь',
           'Паузы дыхания во сне, которые видит партнёр',
@@ -137,6 +137,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

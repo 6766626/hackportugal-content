@@ -120,6 +120,6 @@ export default {
     { title: 'Autoridade Marítima Nacional — безопасность на пляжах и sinais de praia', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IPMA — прогноз для praias, температура воды и метеопредупреждения', url: 'https://www.ipma.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

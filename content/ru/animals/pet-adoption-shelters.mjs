@@ -3,7 +3,7 @@ export default {
   id: 'pet-adoption-shelters',
   categoryId: 'animals',
   title: 'Усыновить животное в Португалии — приюты и процесс',
-  tldr: 'В Португалии усыновление в приюте бесплатно или с символическим взносом (10-50 €) для покрытия стерилизации и чипа. Главные источники: муниципальные CRO (Centro de Recolha Oficial), частные ассоциации (União Zoófila, ANIMAL, Bianca, СВ), Animais de Rua (Lisboa), Casa dos Animais Lisboa. На сайте adopt.cao.pt — национальная база. Закон требует чипа + регистрации в SIAC + страхования (для собак опасных пород). Стерилизация обычно включена.',
+  tldr: 'В Португалии усыновление в приюте бесплатно или с символическим взносом (10-50 €) для покрытия стерилизации и чипа. Главные источники: муниципальные CRO (Centro de Recolha Oficial), частные ассоциации (União Zoófila, ANIMAL, Bianca, СВ), Animais de Rua (Lisboa), Casa dos Animais Lisboa. На сайте adopt.cao.pt — национальная база. Закон требует чипа + регистрации в SIAC + страхования (для собак опасных пород)\.\n\nСтерилизация обычно включена.',
   tags: ['усыновление', 'приют', 'собака', 'кошка', 'cro', 'animal'],
   estimatedReadMinutes: 6,
   steps: [
@@ -185,6 +185,6 @@ export default {
     { title: 'Decreto-Lei 315/2009 + Lei 110/2015 — Cães perigosos', url: 'https://diariodarepublica.pt/dr/detalhe/lei/110-2015-69859225', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portaria 422/2004 — Lista de raças potencialmente perigosas', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/422-2004', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

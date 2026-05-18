@@ -3,7 +3,7 @@ export default {
   id: 'fuel-savings',
   categoryId: 'auto_ownership',
   title: 'Бензин и дизель — как сэкономить на топливе',
-  tldr: 'Цена на АЗС в континентальной Португалии в 2026 году: бензин 95 (gasolina) 1,70–1,90 €/л, дизель (gasóleo) 1,55–1,75 €/л. Цены свободные на материке; ERSE публикует еженедельный «preço eficiente» — справочный, необязательный ориентир, а не максимальный потолок. На Мадейре и Азорах цены могут быть административно регулируемыми. Разница между дорогими сетями (Galp / BP / Repsol) и дешёвыми (Prio, Intermarché, Continente, Cepsa/Moeve) — до 0,15 €/л. Приложения ComboMais / IdealGás / Tankpreise помогают найти самую дешёвую заправку. Карты лояльности дают скидку 0,05–0,12 €/л.',
+  tldr: 'Цена на АЗС в континентальной Португалии в 2026 году: бензин 95 (gasolina) 1,70–1,90 €/л, дизель (gasóleo) 1,55–1,75 €/л.\n\nЦены свободные на материке; ERSE публикует еженедельный «preço eficiente» — справочный, необязательный ориентир, а не максимальный потолок.\n\nНа Мадейре и Азорах цены могут быть административно регулируемыми. Разница между дорогими сетями (Galp / BP / Repsol) и дешёвыми (Prio, Intermarché, Continente, Cepsa/Moeve) — до 0,15 €/л. Приложения ComboMais / IdealGás / Tankpreise помогают найти самую дешёвую заправку. Карты лояльности дают скидку 0,05–0,12 €/л.',
   tags: ['бензин', 'azs', 'экономия', 'топливо'],
   estimatedReadMinutes: 5,
   steps: [
@@ -133,6 +133,6 @@ export default {
     { title: 'ERSE — цены на топливо', url: 'https://www.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGEG — Direção-Geral de Energia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

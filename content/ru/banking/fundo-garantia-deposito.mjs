@@ -105,6 +105,6 @@ export default {
     { title: 'Banco de Portugal — информация о гарантии депозитов и банках', url: 'https://www.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal — реестр авторизованных учреждений', url: 'https://www.bportugal.pt/entidades-autorizadas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

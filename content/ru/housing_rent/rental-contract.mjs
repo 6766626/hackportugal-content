@@ -3,7 +3,7 @@ export default {
   id: 'rental-contract',
   categoryId: 'housing_rent',
   title: 'Долгосрочная аренда в Португалии — правовая база и процесс',
-  tldr: 'Долгосрочная аренда (arrendamento habitacional) регулируется NRAU (Lei 6/2006 с поправками). Для **contratos com prazo certo** минимум 1 год и максимум 30 лет; если срок не указан, договор считается заключённым на **5 лет** (Código Civil arts. 1094-1095). Исключения для contratos para fins especiais transitórios могут быть короче. По art. 1076 Código Civil лимит: caução до **2 месячных арендных плат** + renda antecipada до **2 месяцев**. Требования предоплаты 3-12 мес юридически уязвимы — обсудите с юристом легальную структуру (seguro de fiança, garantia bancária, fiador). Договор регистрируется в Finanças владельцем, он же выдаёт recibos de renda.',
+  tldr: 'Долгосрочная аренда (arrendamento habitacional) регулируется NRAU (Lei 6/2006 с поправками). Для **contratos com prazo certo** минимум 1 год и максимум 30 лет; если срок не указан, договор считается заключённым на **5 лет** (Código Civil arts. 1094-1095)\.\n\nИсключения для contratos para fins especiais transitórios могут быть короче. По art. 1076 Código Civil лимит: caução до **2 месячных арендных плат** + renda antecipada до **2 месяцев**. Требования предоплаты 3-12 мес юридически уязвимы — обсудите с юристом легальную структуру (seguro de fiança, garantia bancária, fiador)\.\n\nДоговор регистрируется в Finanças владельцем, он же выдаёт recibos de renda.',
   tags: ['аренда', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
   steps: [
@@ -181,6 +181,6 @@ export default {
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

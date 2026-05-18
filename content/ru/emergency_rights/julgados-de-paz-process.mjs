@@ -3,7 +3,7 @@ export default {
   id: 'julgados-de-paz-process',
   categoryId: 'emergency_rights',
   title: 'Julgados de Paz: мировой суд для споров до 15 000 €',
-  tldr: 'Julgados de Paz — быстрый гражданский суд для небольших споров до 15 000 €: потребительские претензии, договоры, долги, condomínio, соседские и имущественные конфликты. Стартовая пошлина обычно 35 € с заявителя; полная taxa única — 70 €. Процесс mediation-first: сначала предлагают медиацию, затем слушание у juiz de paz. Не подходят семейные, наследственные, трудовые, уголовные, банкротные дела и выселение. Работает только в территориях, где есть Julgado de Paz.',
+  tldr: 'Julgados de Paz — быстрый гражданский суд для небольших споров до 15 000 €: потребительские претензии, договоры, долги, condomínio, соседские и имущественные конфликты. Стартовая пошлина обычно 35 € с заявителя; полная taxa única — 70 €.\n\nПроцесс mediation-first: сначала предлагают медиацию, затем слушание у juiz de paz. Не подходят семейные, наследственные, трудовые, уголовные, банкротные дела и выселение. Работает только в территориях, где есть Julgado de Paz.',
   tags: ['julgados', 'суд', 'споры', 'медиация'],
   estimatedReadMinutes: 6,
   steps: [
@@ -134,6 +134,6 @@ export default {
     { title: 'Conselho dos Julgados de Paz: суды, компетенция и информация', url: 'https://www.conselhodosjulgadosdepaz.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 78/2001: organização, competência e funcionamento dos Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34412675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

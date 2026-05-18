@@ -3,7 +3,7 @@ export default {
   id: 'carta-navegador-recreio',
   categoryId: 'food_leisure',
   title: 'Удостоверение капитана прогулочного судна — категории и обучение (Carta de Navegador de Recreio)',
-  tldr: 'Carta de Navegador de Recreio — официальное удостоверение капитана для управления частной прогулочной лодкой. Категории: MARINHEIRO (до 5 миль, мотор до 30 кВт), PATRÃO LOCAL (до 12 миль, до 50 кВт), PATRÃO COSTEIRO (до 25 миль), PATRÃO ALTO MAR (без ограничений). Минимальный возраст: 16 лет для Marinheiro, 18 — для Patrão. Обучение в аккредитованных школах: 30–100 часов, экзамен в Capitania do Porto, теория и практика. Стоимость: примерно 250–1 500 € в зависимости от категории. Иностранные права (RYA Day Skipper, ICC, ASA) можно конвертировать через AMN (морская администрация Португалии) с упрощённым экзаменом.',
+  tldr: 'Carta de Navegador de Recreio — официальное удостоверение капитана для управления частной прогулочной лодкой.\n\nКатегории: MARINHEIRO (до 5 миль, мотор до 30 кВт), PATRÃO LOCAL (до 12 миль, до 50 кВт), PATRÃO COSTEIRO (до 25 миль), PATRÃO ALTO MAR (без ограничений)\.\n\nМинимальный возраст: 16 лет для Marinheiro, 18 — для Patrão. Обучение в аккредитованных школах: 30–100 часов, экзамен в Capitania do Porto, теория и практика.\n\nСтоимость: примерно 250–1 500 € в зависимости от категории. Иностранные права (RYA Day Skipper, ICC, ASA) можно конвертировать через AMN (морская администрация Португалии) с упрощённым экзаменом.',
   tags: ['carta', 'navegador', 'capitao', 'amn', 'curso'],
   estimatedReadMinutes: 6,
   steps: [
@@ -154,6 +154,6 @@ export default {
     { title: 'Decreto-Lei 124/2004 — embarcações de recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/124-2004-220127', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 568/89 — categorias e formação', url: 'https://dre.pt/dre/detalhe/portaria/568-1989-580367', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'corte-arvores-licenca',
   categoryId: 'housing_buy',
   title: 'Спил деревьев на своём участке — что можно, а где штраф 5 000 €+',
-  tldr: 'Не каждое дерево на твоём участке можно просто срубить. Sobreiro (пробковый дуб) и azinheira (каменный дуб) защищены национально (Decreto-Lei 169/2001) — штраф 5 000-50 000 € за каждое дерево без разрешения ICNF (Институт охраны природы и лесов). Oliveira (оливковое дерево) старше 1951 года — тоже под защитой (DL 120/86). Любые работы в зонах REN/RAN (нац. экол./с.-х. резервы) или природных парках требуют отдельных разрешений. В городской зоне почти всегда нужно разрешение Câmara Municipal (муниципалитет). Подача — онлайн через e-Balcão ICNF для sobreiro/azinheira или через Junta de Freguesia (приходская управа). Срок рассмотрения обычно 30–90 дней.',
+  tldr: 'Не каждое дерево на твоём участке можно просто срубить. Sobreiro (пробковый дуб) и azinheira (каменный дуб) защищены национально (Decreto-Lei 169/2001) — штраф 5 000-50 000 € за каждое дерево без разрешения ICNF (Институт охраны природы и лесов)\.\n\nOliveira (оливковое дерево) старше 1951 года — тоже под защитой (DL 120/86)\.\n\nЛюбые работы в зонах REN/RAN (нац. экол./с.-х. резервы) или природных парках требуют отдельных разрешений. В городской зоне почти всегда нужно разрешение Câmara Municipal (муниципалитет)\.\n\nПодача — онлайн через e-Balcão ICNF для sobreiro/azinheira или через Junta de Freguesia (приходская управа).\n\nСрок рассмотрения обычно 30–90 дней.',
   tags: ['деревья', 'спил', 'sobreiro', 'azinheira', 'icnf', 'camara'],
   estimatedReadMinutes: 6,
   steps: [
@@ -169,6 +169,6 @@ export default {
     { title: 'ICNF e-Balcão — pedido corte sobreiros', url: 'https://eservicos.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'CCDR — autorizações REN', url: 'https://www.ccdr-lvt.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

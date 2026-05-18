@@ -131,6 +131,6 @@ export default {
     { title: 'Banco de Portugal — pagamentos contactless и правила безопасности', url: 'https://www.bportugal.pt/page/pagamentos-contactless', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'MB WAY — официальный сайт сервиса SIBS', url: 'https://www.mbway.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

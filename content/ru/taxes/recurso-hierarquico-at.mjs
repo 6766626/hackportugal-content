@@ -108,7 +108,7 @@ export default {
       id: 'when-to-use',
       title: 'Когда recurso hierárquico уместен, а когда нет',
       content: [
-        { kind: 'paragraph', text: 'Recurso hierárquico полезен, когда ошибка Finanças видна по документам и вы хотите административно исправить решение без суда. Например: AT не учла налоговое резидентство, отказала в вычете, неверно посчитала IMI/IMT, не приняла доказательства по IRS, неправильно обработала declaração de substituição.' },
+        { kind: 'paragraph', text: 'Recurso hierárquico полезен, когда ошибка Finanças видна по документам и вы хотите административно исправить решение без суда.\n\nНапример: AT не учла налоговое резидентство, отказала в вычете, неверно посчитала IMI/IMT, не приняла доказательства по IRS, неправильно обработала declaração de substituição.' },
         { kind: 'checklist', items: [
           'Уместно: есть письменное решение Finanças и вы укладываетесь в 30 дней.',
           'Уместно: сумма спора не оправдывает суд, но документы сильные.',
@@ -134,6 +134,6 @@ export default {
     { title: 'Re-activar: что такое recurso hierárquico в налоговом контексте', url: 'https://www.re-activar.pt/faqs/o-que-e-um-recurso-hierarquico-no-contexto-fiscal/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Caixa Geral de Depósitos: revisão oficiosa и отличие от других способов исправления налогов', url: 'https://www.cgd.pt/Site/Saldo-Positivo/leis-e-impostos/Pages/revisao-oficiosa.aspx', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

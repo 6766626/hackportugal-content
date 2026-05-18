@@ -3,7 +3,7 @@ export default {
   id: 'apanha-bivalves-mar',
   categoryId: 'food_leisure',
   title: 'Сбор моллюсков (apanha de bivalves) — лицензия и санитарные зоны',
-  tldr: 'Сбор моллюсков на пляже и в прибрежной зоне (ameijoa, berbigão, conquilha, longueirão) — отдельная категория Pesca Lúdica (любительское рыболовство) от DGRM (Генеральное управление морских ресурсов). Лицензия "Apanha Apeada": ~10 € на 3 дня, ~25 € на год. Дневной лимит: 1 кг с раковиной на человека. Собирать можно ТОЛЬКО в санитарно классифицированных зонах (zonas classificadas): IPMA (Институт моря и атмосферы) публикует список A/B/C каждый месяц. Сбор в неклассифицированных зонах — незаконен ИЛИ требует обязательной термической обработки (даже если вид разрешён). Запрещены: лом, любые механические инструменты, а также сбор раковин меньше минимального размера (ameijoa 25 мм, berbigão 25 мм, longueirão 100 мм). Лицензия Pesca Lúdica à linha для удочки НЕ покрывает сбор моллюсков — нужна отдельная лицензия.',
+  tldr: 'Сбор моллюсков на пляже и в прибрежной зоне (ameijoa, berbigão, conquilha, longueirão) — отдельная категория Pesca Lúdica (любительское рыболовство) от DGRM (Генеральное управление морских ресурсов)\.\n\nЛицензия "Apanha Apeada": ~10 € на 3 дня, ~25 € на год. Дневной лимит: 1 кг с раковиной на человека. Собирать можно ТОЛЬКО в санитарно классифицированных зонах (zonas classificadas): IPMA (Институт моря и атмосферы) публикует список A/B/C каждый месяц. Сбор в неклассифицированных зонах — незаконен ИЛИ требует обязательной термической обработки (даже если вид разрешён)\.\n\nЗапрещены: лом, любые механические инструменты, а также сбор раковин меньше минимального размера (ameijoa 25 мм, berbigão 25 мм, longueirão 100 мм)\.\n\nЛицензия Pesca Lúdica à linha для удочки НЕ покрывает сбор моллюсков — нужна отдельная лицензия.',
   tags: ['bivalves', 'mariscagem', 'apanha', 'ameijoa', 'dgrm', 'ipma'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-is-apanha',
       title: 'Что такое apanha de bivalves и почему отдельная лицензия 🐚',
       content: [
-        { kind: 'paragraph', text: 'Apanha de bivalves — это любительский сбор двустворчатых моллюсков и других съедобных морских организмов в прибрежной зоне: на песчаных пляжах во время отлива, на скалах, в эстуариях. В Португалии это вид Pesca Lúdica (любительское рыболовство), юридически регулируется DGRM (Генеральное управление морских ресурсов), а санитарный контроль осуществляет IPMA (Институт моря и атмосферы).' },
+        { kind: 'paragraph', text: 'Apanha de bivalves — это любительский сбор двустворчатых моллюсков и других съедобных морских организмов в прибрежной зоне: на песчаных пляжах во время отлива, на скалах, в эстуариях.\n\nВ Португалии это вид Pesca Lúdica (любительское рыболовство), юридически регулируется DGRM (Генеральное управление морских ресурсов), а санитарный контроль осуществляет IPMA (Институт моря и атмосферы).' },
         { kind: 'checklist', items: [
           'Bivalves: ameijoa-boa (Ruditapes decussatus), ameijoa-japonesa (R. philippinarum), berbigão (Cerastoderma edule), longueirão (Ensis spp.), navalha (Solen spp.)',
           'Другие моллюски: pé-de-burrinho, lapa (пателла), mexilhão (мидии) на скалах',
@@ -181,6 +181,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica e Apanha', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 27/2001 — минимальный размер por espécie', url: 'https://dre.pt/dre/detalhe/portaria/27-2001-411720', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

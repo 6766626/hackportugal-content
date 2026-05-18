@@ -42,7 +42,7 @@ export default {
             { kind: 'paragraph', text: 'Хорош для гипермаркетного ассортимента: продукты, вино, техника для дома, товары для животных, био и internacional. Доставка и самовывоз зависят от конкретного código postal и ближайшего Auchan.' }
           ] },
           { id: 'el-corte-ingles', title: 'El Corte Inglés Supermercado / Express', content: [
-            { kind: 'paragraph', text: 'Премиальный вариант, особенно в Lisboa. В центре Lisboa сервис Express может быть удобен для быстрой доставки примерно за 1 час, если адрес входит в зону покрытия. Цены часто выше, зато хороший выбор delicatessen, импортных товаров, мяса, рыбы, вина и готовой еды.' }
+            { kind: 'paragraph', text: 'Премиальный вариант, особенно в Lisboa.\n\nВ центре Lisboa сервис Express может быть удобен для быстрой доставки примерно за 1 час, если адрес входит в зону покрытия.\n\nЦены часто выше, зато хороший выбор delicatessen, импортных товаров, мяса, рыбы, вина и готовой еды.' }
           ] },
           { id: 'pingo-doce', title: 'Pingo Doce', content: [
             { kind: 'paragraph', text: 'Pingo Doce удобен для привычной повседневной корзины и часто конкурентен по ценам. Онлайн-доставка доступна не везде: проверяйте loja online / приложение по адресу. В некоторых зонах часть ассортимента может быть доступна через партнёрские платформы вроде Glovo.' }
@@ -125,6 +125,6 @@ export default {
     { title: 'Auchan Portugal — loja online и доставка', url: 'https://www.auchan.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Pingo Doce — loja online и serviços', url: 'https://www.pingodoce.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

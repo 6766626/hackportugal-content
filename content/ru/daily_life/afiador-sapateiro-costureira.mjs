@@ -123,6 +123,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa: mercados, comércio local и городские сервисы', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal ePortugal: livro de reclamações и права потребителя при услугах', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

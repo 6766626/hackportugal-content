@@ -3,7 +3,7 @@ export default {
   id: 'intercity-transport',
   categoryId: 'travel_portugal',
   title: 'Междугородний транспорт по Португалии — поезд, автобус, самолёт',
-  tldr: 'Три канала: поезда CP (комфорт + сеть Лиссабон–Порту–Брага + Алентежу), автобусы Rede Expressos (дешёвая национальная сеть) и FlixBus (международные). Острова — самолёты TAP, SATA, Ryanair и паромы Atlanticoline. Алгарве — автобусы EVA. Агрегатор Omio объединяет всё. При бронировании за 2–4 недели цены падают на 30–50 %.',
+  tldr: 'Три канала: поезда CP (комфорт + сеть Лиссабон–Порту–Брага + Алентежу), автобусы Rede Expressos (дешёвая национальная сеть) и FlixBus (международные)\.\n\nОстрова — самолёты TAP, SATA, Ryanair и паромы Atlanticoline. Алгарве — автобусы EVA. Агрегатор Omio объединяет всё. При бронировании за 2–4 недели цены падают на 30–50 %.',
   tags: ['транспорт', 'поезд', 'автобус', 'самолёт', 'cp', 'rede expressos'],
   estimatedReadMinutes: 7,
   steps: [
@@ -135,6 +135,6 @@ export default {
     { title: 'Atlanticoline — паромы на Азорах', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

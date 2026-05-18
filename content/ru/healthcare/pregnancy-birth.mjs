@@ -3,7 +3,7 @@ export default {
   id: 'pregnancy-birth',
   categoryId: 'healthcare',
   title: 'Беременность и роды в Португалии',
-  tldr: 'Португалия предоставляет качественное ведение беременности через SNS бесплатно для резидентов с Número de Utente. В низкорисковой беременности DGS рекомендует минимум 6 консультаций наблюдения + обычно 3 скрининговых УЗИ (11–13+6, 20–22 и 30–32 недели). Роды в государственных роддомах бесплатные, в частных — ориентировочно €2,500–8,000+ без страховки (вагинальные дешевле, кесарево и осложнения дороже). Licença parental inicial 120–180 дней с разным процентом оплаты. Рождение нужно зарегистрировать в течение 20 дней — часто прямо в роддоме через Balcão do Nado Vivo.',
+  tldr: 'Португалия предоставляет качественное ведение беременности через SNS бесплатно для резидентов с Número de Utente. В низкорисковой беременности DGS рекомендует минимум 6 консультаций наблюдения + обычно 3 скрининговых УЗИ (11–13+6, 20–22 и 30–32 недели)\.\n\nРоды в государственных роддомах бесплатные, в частных — ориентировочно €2,500–8,000+ без страховки (вагинальные дешевле, кесарево и осложнения дороже)\.\n\nLicença parental inicial 120–180 дней с разным процентом оплаты. Рождение нужно зарегистрировать в течение 20 дней — часто прямо в роддоме через Balcão do Nado Vivo.',
   tags: ['беременность', 'роды', 'SNS', 'материнство'],
   estimatedReadMinutes: 9,
   steps: [
@@ -163,6 +163,6 @@ export default {
     { title: 'Código do Trabalho (Lei 7/2009, alterado por Lei 13/2023)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Registar nascimento / Balcão do Nado Vivo', url: 'https://irn.justica.gov.pt/Registos/Registo-Civil/Nascimento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

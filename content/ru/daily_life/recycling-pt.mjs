@@ -108,7 +108,7 @@ export default {
       id: 'fines',
       title: 'Штрафы и нарушения',
       content: [
-        { kind: 'paragraph', text: 'По Decreto-Lei n.º 102-D/2020 и муниципальным регламентам действуют штрафы за contraordenações ambientais (Lei 50/2006). Категории leve/grave/muito grave; размеры существенно различаются для физических и юридических лиц. Проверяйте актуальную редакцию закона.' },
+        { kind: 'paragraph', text: 'По Decreto-Lei n.º 102-D/2020 и муниципальным регламентам действуют штрафы за contraordenações ambientais (Lei 50/2006).\n\nКатегории leve/grave/muito grave; размеры существенно различаются для физических и юридических лиц. Проверяйте актуальную редакцию закона.' },
         { kind: 'checklist', items: [
           '⚠️ Неправильная сортировка — формально штраф, на практике пакет могут не забрать',
           '⚠️ Крупногабаритный мусор на улице без запроса — штраф 50-250 €',
@@ -140,6 +140,6 @@ export default {
     { title: 'Decreto-Lei n.º 102-D/2020 — Regime Geral da Gestão de Resíduos', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-d-2020', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Directiva 2008/98/CE — рамочная директива ЕС по отходам', url: 'https://eur-lex.europa.eu/', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

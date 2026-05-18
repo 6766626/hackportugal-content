@@ -35,7 +35,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'o1', title: 'Онлайн (дистанционно)', content: [
-            { kind: 'paragraph', text: 'Несколько банков разрешают полностью онлайн-открытие счёта для клиентов с NIF. Процесс: видеоидентификация с оператором на португальском или английском, электронная подпись через Chave Móvel Digital либо через видеоподтверждение. Подходит даже если вы ещё не в Португалии, но NIF уже есть.' }
+            { kind: 'paragraph', text: 'Несколько банков разрешают полностью онлайн-открытие счёта для клиентов с NIF.\n\nПроцесс: видеоидентификация с оператором на португальском или английском, электронная подпись через Chave Móvel Digital либо через видеоподтверждение. Подходит даже если вы ещё не в Португалии, но NIF уже есть.' }
           ]},
           { id: 'o2', title: 'В отделении', content: [
             { kind: 'paragraph', text: 'Классический путь — явка в отделение с паспортом, NIF, подтверждением адреса, иногда подтверждением дохода. Крупные банки часто требуют именно очной идентификации для нерезидентов.' }
@@ -160,6 +160,6 @@ export default {
     { title: 'ePortugal — abrir conta bancária', url: 'https://eportugal.gov.pt/cidadaos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulamento BdP 2/2018 (AML-правила)', url: 'https://www.bportugal.pt/aviso-circular/aviso-ndeg-22018', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

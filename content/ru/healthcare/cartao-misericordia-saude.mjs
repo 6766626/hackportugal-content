@@ -3,7 +3,7 @@ export default {
   id: 'cartao-misericordia-saude',
   categoryId: 'healthcare',
   title: 'Cartão da Misericórdia: благотворительные клиники Santa Casa',
-  tldr: 'Misericórdias — сеть местных благотворительных учреждений IPSS, не замена SNS, а параллельный низкобюджетный доступ к врачам, стоматологии и социальной поддержке. В Лиссабоне это Santa Casa da Misericórdia de Lisboa; в других городах — отдельные Santas Casas. Приём обычно стоит около 10–15 €, стоматология и анализы — по прайсу учреждения. ВНЖ и número de utente часто не обязательны, но почти всегда попросят паспорт/ВНЖ, NIF, адрес и доказательство дохода.',
+  tldr: 'Misericórdias — сеть местных благотворительных учреждений IPSS, не замена SNS, а параллельный низкобюджетный доступ к врачам, стоматологии и социальной поддержке.\n\nВ Лиссабоне это Santa Casa da Misericórdia de Lisboa; в других городах — отдельные Santas Casas. Приём обычно стоит около 10–15 €, стоматология и анализы — по прайсу учреждения. ВНЖ и número de utente часто не обязательны, но почти всегда попросят паспорт/ВНЖ, NIF, адрес и доказательство дохода.',
   tags: ['misericordia', 'sns', 'клиника', 'соцпомощь'],
   estimatedReadMinutes: 5,
   steps: [
@@ -82,6 +82,6 @@ export default {
     { title: 'União das Misericórdias Portuguesas — rede nacional de Misericórdias', url: 'https://www.umpmisericordias.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — contacto e orientação para cuidados de saúde', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

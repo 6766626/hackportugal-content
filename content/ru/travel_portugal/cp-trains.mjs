@@ -3,7 +3,7 @@ export default {
   id: 'cp-trains',
   categoryId: 'travel_portugal',
   title: 'Поезда CP (Comboios de Portugal) — как пользоваться',
-  tldr: 'CP — государственный железнодорожный оператор. Типы поездов: Alfa Pendular (быстрые Лиссабон — Порту за 2,5 ч), Intercidades (средние), Regional (медленные), Urbanos (пригородные). Карты скидок: Cartão Jovem, Cartão Amigo. Лиссабон — Порту на Alfa Pendular: около € 25–40, Intercidades: около € 20–30. Бронировать на cp.pt.',
+  tldr: 'CP — государственный железнодорожный оператор.\n\nТипы поездов: Alfa Pendular (быстрые Лиссабон — Порту за 2,5 ч), Intercidades (средние), Regional (медленные), Urbanos (пригородные)\.\n\nКарты скидок: Cartão Jovem, Cartão Amigo. Лиссабон — Порту на Alfa Pendular: около € 25–40, Intercidades: около € 20–30. Бронировать на cp.pt.',
   tags: ['поезд', 'cp', 'alfa pendular', 'intercidades'],
   estimatedReadMinutes: 5,
   steps: [
@@ -104,6 +104,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Infraestruturas de Portugal', url: 'https://www.infraestruturasdeportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

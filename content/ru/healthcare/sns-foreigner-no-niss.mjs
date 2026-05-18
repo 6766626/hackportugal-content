@@ -143,6 +143,6 @@ export default {
     { title: 'SNS24 — Acesso de cidadãos estrangeiros ao SNS', url: 'https://www.sns24.gov.pt/tema/cidadaos-estrangeiros/acesso-de-cidadaos-estrangeiros-ao-sns/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Médicos do Mundo Portugal', url: 'https://medicosdomundo.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

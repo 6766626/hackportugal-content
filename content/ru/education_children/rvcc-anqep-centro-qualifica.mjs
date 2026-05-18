@@ -3,7 +3,7 @@ export default {
   id: 'rvcc-anqep-centro-qualifica',
   categoryId: 'education_children',
   title: 'RVCC: признание уровня образования взрослых через Centro Qualifica',
-  tldr: 'RVCC — бесплатная процедура для взрослых в Portugal, если школьный диплом из CPLP/Украины потерян, не признаётся работодателем или уровень образования нужно подтвердить по португальской шкале. Через Centro Qualifica можно получить certificação escolar: B1 = 4.º ano, B2 = 6.º ano, B3 = 9.º ano, secundário = 12.º ano, а также profissional по Catálogo Nacional de Qualificações. Процесс идёт на португальском: inscrição, diagnóstico, portfólio reflexivo, validação и júri.',
+  tldr: 'RVCC — бесплатная процедура для взрослых в Portugal, если школьный диплом из CPLP/Украины потерян, не признаётся работодателем или уровень образования нужно подтвердить по португальской шкале. Через Centro Qualifica можно получить certificação escolar: B1 = 4.º ano, B2 = 6.º ano, B3 = 9.º ano, secundário = 12.º ano, а также profissional по Catálogo Nacional de Qualificações.\n\nПроцесс идёт на португальском: inscrição, diagnóstico, portfólio reflexivo, validação и júri.',
   tags: ['rvcc', 'qualifica', 'образование', 'cplp', 'украина'],
   estimatedReadMinutes: 6,
   steps: [
@@ -153,6 +153,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

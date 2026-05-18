@@ -101,6 +101,6 @@ export default {
     { title: 'Coursera — Coursera Plus и certificates', url: 'https://www.coursera.org/courseraplus', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Domestika — онлайн-курсы и подписка', url: 'https://www.domestika.org', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

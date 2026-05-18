@@ -115,7 +115,7 @@ export default {
       id: 'tax-and-practical',
       title: 'Налоги, доказательства и практические правила',
       content: [
-        { kind: 'paragraph', text: 'Алименты могут иметь последствия по IRS. В Португалии налоговый режим зависит от того, кто платит, кто получает, кому предназначена сумма и есть ли судебное решение или homologated agreement. Для ex-cônjuge и детей правила могут отличаться, поэтому перед декларацией IRS проверьте Portal das Finanças или contabilista.' },
+        { kind: 'paragraph', text: 'Алименты могут иметь последствия по IRS.\n\nВ Португалии налоговый режим зависит от того, кто платит, кто получает, кому предназначена сумма и есть ли судебное решение или homologated agreement. Для ex-cônjuge и детей правила могут отличаться, поэтому перед декларацией IRS проверьте Portal das Finanças или contabilista.' },
         { kind: 'checklist', items: [
           'Платите только банковским переводом с назначением “pensão de alimentos mês/ano”',
           'Храните решение суда, acordo homologado, comprovativos de pagamento и переписку',
@@ -166,6 +166,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

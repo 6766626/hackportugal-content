@@ -44,7 +44,7 @@ export default {
       id: 'dino-parque',
       title: 'Dino Parque Lourinhã — динозавры в натуральную величину',
       content: [
-        { kind: 'paragraph', text: 'Открытый парк на 10 гектарах с 180+ моделями динозавров в натуральную величину. Расположен в Lourinhã — мировой центр палеонтологии (здесь найдены крупнейшие в Европе останки динозавров). Помимо моделей — палеонтологический музей с настоящими окаменелостями, лаборатория, где видно работу учёных.' },
+        { kind: 'paragraph', text: 'Открытый парк на 10 гектарах с 180+ моделями динозавров в натуральную величину. Расположен в Lourinhã — мировой центр палеонтологии (здесь найдены крупнейшие в Европе останки динозавров)\.\n\nПомимо моделей — палеонтологический музей с настоящими окаменелостями, лаборатория, где видно работу учёных.' },
         { kind: 'checklist', items: [
           '📍 Rua Vale dos Dinossauros, 25 Abelheira, 2530-059 Lourinhã (~70 км к северу от Лиссабона)',
           '💶 Взрослые (13+): 16 €',
@@ -136,7 +136,7 @@ export default {
     { title: 'CM Penafiel — Magikland (страница муниципалитета)', url: 'https://www.cm-penafiel.pt/visitar/como-chegar/o-que-fazer/magikland-parque-de-diversoes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Visit Portugal — атракционы и парки', url: 'https://www.visitportugal.com/en/experiencias/diversao-em-familia', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: тематические парки Португалии — KidZania (Лиссабон), Dino Parque (Lourinhã), Magikland (Penafiel), Sea Life (Порту), Zoomarine (Algarve) + менее известные. Верифицированные цены 2026, возрастные категории, лайфхаки.'

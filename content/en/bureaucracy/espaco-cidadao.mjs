@@ -2,9 +2,9 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'espaco-cidadao',
   categoryId: 'digital_gov',
-  title: 'Espaço Cidadão — public services in one place',
-  tldr: 'Espaço Cidadão are service points (available across the country, but not guaranteed in every municipality) where many public-service issues can be handled: Chave Móvel Digital, address changes, various certificates and more. The exact set of services depends on the service point — NIF/NISS are not available at every Espaço Cidadão. Larger cities have Loja de Cidadão (separate counters for different authorities — the mix varies by city). Booking via ePortugal.gov.pt is **recommended**, but not mandatory everywhere — some services operate on a walk-in queue or ticket system.',
-  tags: ['espaço cidadão', 'loja de cidadão', 'public services'],
+  title: 'Espaço Cidadão — government services in one place',
+  tldr: 'Espaço Cidadão are service points (available across the country, but not guaranteed in every municipality) where many government-service matters can be handled: Chave Móvel Digital, change of address, various certificates and more. The exact set of services depends on the service point — NIF/NISS are not available in every Espaço Cidadão.\n\nBooking via ePortugal.gov.pt is **recommended**, but not mandatory everywhere — some services operate with walk-in queues or tickets.',
+  tags: ['espaço cidadão', 'loja de cidadão', 'government services'],
   estimatedReadMinutes: 4,
   steps: [
     {
@@ -12,8 +12,8 @@ export default {
       title: 'Espaço Cidadão and Loja de Cidadão',
       content: [
         { kind: 'checklist', items: [
-          'Loja de Cidadão — in major cities (Lisbon, Porto, Faro), with separate counters for different authorities (usually Finanças, Segurança Social, IRN, IMT and others). The set of authorities differs in each specific Loja de Cidadão — AIMA/IMT are not available everywhere',
-          'Espaço Cidadão — in any municipality, even a small one, where a universal operator handles basic tasks, but refers complex cases to Loja de Cidadão'
+          'Loja de Cidadão — in large cities (Lisbon, Porto, Faro), separate counters for different authorities (usually Finanças, Segurança Social, IRN, IMT, etc.). The mix of authorities differs in each specific Loja de Cidadão — AIMA/IMT are not available everywhere',
+          'Espaço Cidadão — in any municipality, even a small one, a universal operator handles basic tasks, but refers complex cases to a Loja de Cidadão'
         ]}
       ]
     },
@@ -22,15 +22,15 @@ export default {
       title: 'What you can do',
       content: [
         { kind: 'checklist', items: [
-          'Cartão de Cidadão (Portuguese citizen ID card) — replacement, PIN code renewal',
+          'Cartão de Cidadão (identity card for Portuguese citizens) — replacement, PIN update',
           'Chave Móvel Digital — activation',
-          'NIF — obtaining one (for EU/CPLP — without a representative)',
-          'Changing your tax address',
+          'NIF — obtaining it (for EU/CPLP — without a representative)',
+          'Change of tax address',
           'NISS — application',
           'Criminal record certificates',
           'Vehicle registration (IMT) — simple cases',
-          'Family benefit — application',
-          'Marriage registration, registration of a child’s birth — basic certificates'
+          'Family allowance — application',
+          'Marriage registration, birth registration — basic certificates'
         ]}
       ]
     },
@@ -45,8 +45,8 @@ export default {
           { id: 'e2', title: '2. Book online', content: [
             { kind: 'paragraph', text: 'Via ePortugal.gov.pt → choose the service → choose the location → choose the time. Booking is mandatory.' }
           ]},
-          { id: 'e3', title: '3. Bring your documents and attend', content: [
-            { kind: 'paragraph', text: 'Arrive 10 minutes early. Each service takes 15-30 minutes. The operator often helps with related issues without a separate booking.' }
+          { id: 'e3', title: '3. Take your documents and attend', content: [
+            { kind: 'paragraph', text: 'Arrive 10 minutes early. Each service takes 15-30 minutes. The operator often helps with related matters without a separate booking.' }
           ]}
         ]}
       ]
@@ -57,9 +57,9 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Always book a slot in advance — walk-ins are often not accepted',
-          'Bring the original and a copy of every document',
+          'Bring the original and a copy of each document',
           'If the operator refuses — politely ask them to call a senior staff member',
-          'In Lisbon/Porto, it is often better to go to a less busy Espaço Cidadão in the suburbs — there are more free slots',
+          'In Lisbon/Porto it is better to go to a less busy Espaço Cidadão in the suburbs — there are more available slots',
           'English is not always understood — prepare your request in Portuguese in advance'
         ]}
       ]

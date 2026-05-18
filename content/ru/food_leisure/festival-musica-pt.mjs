@@ -3,7 +3,7 @@ export default {
   id: 'festival-musica-pt',
   categoryId: 'food_leisure',
   title: 'Музыкальные фестивали Португалии: NOS Alive, Rock in Rio, Super Bock',
-  tldr: 'Главные летние фестивали Португалии концентрируются вокруг Lisboa/Porto: NOS Alive в Algés обычно в июле, Rock in Rio Lisboa — раз в 2 года, в 2026 проходит в конце июня в Parque Tejo, Super Bock Super Rock — июль, в районе Lisboa/Sintra, MEO Marés Vivas — Gaia, Vodafone Paredes de Coura — Minho, Vagos Open Air — металл. Билеты на крупные дни стоят примерно 75–100 €, абонементы 160–230 €. Жильё на даты фестивалей дорожает в 2–4 раза: бронируйте за 3–6 месяцев.',
+  tldr: 'Главные летние фестивали Португалии концентрируются вокруг Lisboa/Porto: NOS Alive в Algés обычно в июле, Rock in Rio Lisboa — раз в 2 года, в 2026 проходит в конце июня в Parque Tejo, Super Bock Super Rock — июль, в районе Lisboa/Sintra, MEO Marés Vivas — Gaia, Vodafone Paredes de Coura — Minho, Vagos Open Air — металл.\n\nБилеты на крупные дни стоят примерно 75–100 €, абонементы 160–230 €. Жильё на даты фестивалей дорожает в 2–4 раза: бронируйте за 3–6 месяцев.',
   tags: ['фестивали', 'lisboa', 'билеты', 'музыка'],
   estimatedReadMinutes: 6,
   steps: [
@@ -126,6 +126,6 @@ export default {
     { title: 'Официальный сайт Super Bock Super Rock', url: 'https://superbocksuperrock.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Официальный туристический портал Visit Portugal — события и фестивали', url: 'https://www.visitportugal.com/en/encontre/grandes-eventos/list', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

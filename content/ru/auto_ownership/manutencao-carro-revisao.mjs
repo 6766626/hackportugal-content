@@ -123,6 +123,6 @@ export default {
     { title: 'Decreto-Lei 84/2021 — direitos do consumidor na compra e garantia de bens', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/84-2021-172938301', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Bosch Car Service Portugal — rede de oficinas multimarcas', url: 'https://www.boschcarservice.com/pt/pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

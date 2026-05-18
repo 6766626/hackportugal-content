@@ -3,7 +3,7 @@ export default {
   id: 'comunidade-brasileira-portugal',
   categoryId: 'country_specific',
   title: 'Бразильская диаспора в Португалии: Casa do Brasil, ассоциации и районы',
-  tldr: 'Бразильцы — крупнейшая иностранная община Португалии: к 2026 году речь идёт о более чем 500 000 резидентов и ещё большем круге людей с португальским гражданством, CPLP-статусом или в ожидании AIMA. Главная точка входа — Casa do Brasil de Lisboa, старейшая бразильская ассоциация иммигрантов. В Лиссабоне ищите сеть в Arroios, Anjos, Intendente, Amadora, Odivelas и Sintra; в Porto — Bonfim, Campanhã, Paranhos, Gaia и Matosinhos.',
+  tldr: 'Бразильцы — крупнейшая иностранная община Португалии: к 2026 году речь идёт о более чем 500 000 резидентов и ещё большем круге людей с португальским гражданством, CPLP-статусом или в ожидании AIMA. Главная точка входа — Casa do Brasil de Lisboa, старейшая бразильская ассоциация иммигрантов.\n\nВ Лиссабоне ищите сеть в Arroios, Anjos, Intendente, Amadora, Odivelas и Sintra; в Porto — Bonfim, Campanhã, Paranhos, Gaia и Matosinhos.',
   tags: ['brasil', 'диаспора', 'lisboa', 'porto'],
   estimatedReadMinutes: 5,
   steps: [
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

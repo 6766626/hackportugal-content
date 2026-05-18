@@ -3,7 +3,7 @@ export default {
   id: 'rcd-residuos-construcao-demolicao',
   categoryId: 'housing_buy',
   title: 'RCD: отходы строительства и сноса — как легально вывезти',
-  tldr: 'RCD (resíduos de construção e demolição) — плитка, бетон, кирпич, гипсокартон, сантехника после ремонта. В Португалии их нельзя бросать в обычные contentores или оставлять у мусорки: нужен Ecocentro для малых DIY-объёмов или лицензированная transportadora + aterro/operador RCD и e-GAR/Guia de Acompanhamento de Resíduos. Малые объёмы в муниципальный Ecocentro часто бесплатны, но лимиты разные; коммерческий вывоз в 2026 обычно 80–200 €/м³ плюс возможные сборы полигона.',
+  tldr: 'RCD (resíduos de construção e demolição) — плитка, бетон, кирпич, гипсокартон, сантехника после ремонта.\n\nВ Португалии их нельзя бросать в обычные contentores или оставлять у мусорки: нужен Ecocentro для малых DIY-объёмов или лицензированная transportadora + aterro/operador RCD и e-GAR/Guia de Acompanhamento de Resíduos. Малые объёмы в муниципальный Ecocentro часто бесплатны, но лимиты разные; коммерческий вывоз в 2026 обычно 80–200 €/м³ плюс возможные сборы полигона.',
   tags: ['rcd', 'ремонт', 'ecocentro', 'gar'],
   estimatedReadMinutes: 5,
   steps: [
@@ -120,6 +120,6 @@ export default {
     { title: 'Regime Geral de Gestão de Resíduos — Decreto-Lei 102-D/2020', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-d-2020-150908012', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portaria 145/2017 — Guia Eletrónica de Acompanhamento de Resíduos e-GAR', url: 'https://dre.pt/dre/detalhe/portaria/145-2017-106939482', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

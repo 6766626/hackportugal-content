@@ -3,7 +3,7 @@ export default {
   id: 'rede-saude-mental-publica',
   categoryId: 'healthcare',
   title: 'Психическое здоровье в SNS: médico de família, SPMS, Linha SOS и urgência psiquiátrica',
-  tldr: 'В Португалии психическое здоровье в SNS обычно начинается с médico de família в Centro de Saúde: он оценивает состояние, даёт лечение и направляет к psicologia/psiquiatria в больницу или ULS. Срочно: 112 при риске самоубийства, психозе, агрессии, передозировке; SNS 24 — 808 24 24 24 для триажа и психологической поддержки. В Лиссабоне часто направляют в Hospital Júlio de Matos, в Порту — Hospital Magalhães Lemos. Linha SOS Voz Amiga — волонтёрская линия поддержки, не замена urgência.',
+  tldr: 'В Португалии психическое здоровье в SNS обычно начинается с médico de família в Centro de Saúde: он оценивает состояние, даёт лечение и направляет к psicologia/psiquiatria в больницу или ULS. Срочно: 112 при риске самоубийства, психозе, агрессии, передозировке; SNS 24 — 808 24 24 24 для триажа и психологической поддержки.\n\nВ Лиссабоне часто направляют в Hospital Júlio de Matos, в Порту — Hospital Magalhães Lemos. Linha SOS Voz Amiga — волонтёрская линия поддержки, не замена urgência.',
   tags: ['sns', 'психика', 'urgência', 'sos'],
   estimatedReadMinutes: 5,
   steps: [
@@ -104,6 +104,6 @@ export default {
     { title: 'SPMS — serviços digitais do SNS e SNS 24', url: 'https://www.spms.min-saude.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERS — taxas moderadoras no SNS', url: 'https://www.ers.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }

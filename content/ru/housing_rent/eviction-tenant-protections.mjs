@@ -3,7 +3,7 @@ export default {
   id: 'eviction-tenant-protections',
   categoryId: 'housing_rent',
   title: 'Защита арендатора при выселении: BNA, denúncia и отказ от продления',
-  tldr: 'В Португалии landlord не может просто сменить замки: выселение идёт через суд или Balcão Nacional do Arrendamento (BNA). Если пришла denúncia, oposição à renovação или уведомление BNA, главный срок — обычно 15 дней на oposição в BNA и 30 дней на ответы по “rendas antigas”. В 2026 действуют Lei 6/2006 (NRAU) и правила Código Civil: проверяйте срок уведомления, основание, форму письма и льготы для 65+, инвалидности ≥60% и старых договоров.',
+  tldr: 'В Португалии landlord не может просто сменить замки: выселение идёт через суд или Balcão Nacional do Arrendamento (BNA)\.\n\nЕсли пришла denúncia, oposição à renovação или уведомление BNA, главный срок — обычно 15 дней на oposição в BNA и 30 дней на ответы по “rendas antigas”. В 2026 действуют Lei 6/2006 (NRAU) и правила Código Civil: проверяйте срок уведомления, основание, форму письма и льготы для 65+, инвалидности ≥60% и старых договоров.',
   tags: ['аренда', 'bna', 'despejo', 'denúncia'],
   estimatedReadMinutes: 6,
   steps: [
@@ -145,6 +145,6 @@ export default {
     { title: 'Código Civil — regras de arrendamento urbano, legislação consolidada', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — proteção jurídica / apoio judiciário', url: 'https://www.seg-social.pt/protecao-juridica', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 90
 }

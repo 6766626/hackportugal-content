@@ -3,7 +3,7 @@ export default {
   id: 'higher-education-foreigners',
   categoryId: 'education_children',
   title: 'Высшее образование в Португалии — для иностранных студентов',
-  tldr: 'Бакалавриат (licenciatura) — 3 года, магистратура (mestrado) — 2 года, PhD (doutoramento) — 3–4 года. Поступление — через Concurso Nacional de Acesso (для резидентов Португалии) или Concurso Especial para Estudantes Internacionais (только для граждан вне ЕС). Стоимость: резиденты ЕС платят как португальцы — 700–1400 €/год в государственных вузах, не-ЕС — 2000–7000 €/год в государственных вузах, 3500–15000 €/год в частных. Топовые вузы: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 в мире в top 500). Erasmus+ — полный доступ. D4 Student Visa для граждан не-ЕС.',
+  tldr: 'Бакалавриат (licenciatura) — 3 года, магистратура (mestrado) — 2 года, PhD (doutoramento) — 3–4 года. Поступление — через Concurso Nacional de Acesso (для резидентов Португалии) или Concurso Especial para Estudantes Internacionais (только для граждан вне ЕС).\n\nСтоимость: резиденты ЕС платят как португальцы — 700–1400 €/год в государственных вузах, не-ЕС — 2000–7000 €/год в государственных вузах, 3500–15000 €/год в частных. Топовые вузы: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 в мире в top 500)\.\n\nErasmus+ — полный доступ. D4 Student Visa для граждан не-ЕС.',
   tags: ['высшее', 'licenciatura', 'университет', 'erasmus'],
   estimatedReadMinutes: 7,
   steps: [
@@ -180,7 +180,7 @@ export default {
           'Виза → въезд → в AIMA для residence permit D4 (плюс отдельный AIMA fee — таблица в силе с 01.03.2026)',
           '**После окончания**: можно запросить **autorização de residência para procura de trabalho ou criação de empresa** — обычно до 12 месяцев (Lei 23/2007 art. 122). Это **не** та же процедура, что внешнее visto para procura de trabalho на 120+60 дней',
           'Или переход на D3 / D8 / D2 после получения контракта / открытия бизнеса',
-          'Для гражданства: по действующему праву нет коэффициента 0.5 — годы с действующим título de residência студента обычно считаются как обычное легальное проживание (Lei 37/81 art. 6). ⚠️ **Decreto AR 48/XVII промульгирован Президентом Сегуру 03.05.2026** — реформа Lei da Nacionalidade ждёт публикации в DRE; правила могут измениться после вступления в силу'
+          'Для гражданства: по действующему праву нет коэффициента 0.5 — годы с действующим título de residência студента обычно считаются как обычное легальное проживание (Lei 37/81 art. 6). ⚠️ **Decreto AR 48/XVII промульгирован Президентом Сегуру 03.05.2026** — опубликован 18.05.2026 как **Lei Orgânica n.º 1/2026**, в силе с **19.05.2026**; правила натурализации после этой даты — 7 лет CPLP+EU / 10 лет для остальных, переходное положение защищает дела, поданные ДО 19.05.2026'
         ]}
       ]
     }
@@ -201,6 +201,6 @@ export default {
     { title: 'FCT — Fundação para a Ciência e Tecnologia', url: 'https://www.fct.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 365
 }

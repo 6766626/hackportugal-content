@@ -3,7 +3,7 @@ export default {
   id: 'sepultura-cremacao-cemiterio',
   categoryId: 'emergency_rights',
   title: 'Кладбища и кремация в Португалии — права, цены, выбор',
-  tldr: 'В Португалии кладбища в основном муниципальные и светские: можно выбрать sepultura, jazigo/mausoléu, кремацию и религиозный обряд. Бюджет 2026: кремация с базовыми услугами 600–1 200 €, муниципальная sepultura/концессия обычно 600–1 500 € на 15–50 лет там, где доступна; sepultura perpétua от 3 500 €, mausoléu/jazigo часто от 5 000 €. В Лиссабоне и крупных городах места ограничены: всё решается через agência funerária и Câmara Municipal.',
+  tldr: 'В Португалии кладбища в основном муниципальные и светские: можно выбрать sepultura, jazigo/mausoléu, кремацию и религиозный обряд.\n\nБюджет 2026: кремация с базовыми услугами 600–1 200 €, муниципальная sepultura/концессия обычно 600–1 500 € на 15–50 лет там, где доступна; sepultura perpétua от 3 500 €, mausoléu/jazigo часто от 5 000 €.\n\nВ Лиссабоне и крупных городах места ограничены: всё решается через agência funerária и Câmara Municipal.',
   tags: ['cemitério', 'кремация', 'похороны', 'sepultura'],
   estimatedReadMinutes: 6,
   steps: [
@@ -38,7 +38,7 @@ export default {
           'Columbário/cendrário — место для урны с прахом после кремации',
           'Trasladação — перенос тела, останков или урны между кладбищами; требует разрешений и оплаты'
         ] },
-        { kind: 'warning', text: 'Не ориентируйтесь только на «цены из интернета». У каждого município своя Tabela de Taxas. В Лиссабоне кладбищами управляет Câmara Municipal de Lisboa, и наличие мест зависит от конкретного Cemitério: Alto de São João, Prazeres, Benfica, Ajuda, Olivais, Lumiar и др.' }
+        { kind: 'warning', text: 'Не ориентируйтесь только на «цены из интернета». У каждого município своя Tabela de Taxas.\n\nВ Лиссабоне кладбищами управляет Câmara Municipal de Lisboa, и наличие мест зависит от конкретного Cemitério: Alto de São João, Prazeres, Benfica, Ajuda, Olivais, Lumiar и др.' }
       ]
     },
     {
@@ -145,6 +145,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }
