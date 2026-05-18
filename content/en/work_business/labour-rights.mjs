@@ -1,7 +1,7 @@
 export default {
   editorialVoice: 'hackportugal',
   id: 'labour-rights',
- Id: 'work_business',
+  categoryId: 'work_business',
   title: 'Labour rights in Portugal what an employee needs know',
   t: 'Employment relationships in are governed by the Código do Trabalho (Lei 7/2009)\.\n\nThe essentials: a 40-hour week (max. 48 hours with overtime), 22 working days of annual leave + 13 public holidays, parental leave 120-180 days paid at 90-100%, dismissal requires justification + compensation (cap of 12-20 months’ salary), minimum wage €920/month in 2026. Probation period: 90 days (general), 180 (positions of responsibility), 240 (management positions)\.\n\nTrade unions are active: CGTP-IN and UGT. Complaints about labour rights breaches are submitted to ACT (Autoridade para as Condições do Trabalho).',
   tags: ['labour', 'employee rights', 'code'],
