@@ -3,7 +3,7 @@ export default {
   id: 'solar-panels',
   categoryId: 'housing_buy',
   title: 'Solar panels — installation, permits, savings',
-  tldr: 'Portugal is in the EU top 3 for solar potential. UPAC (Unidade de Produção para Autoconsumo) systems — thresholds under DL 15/2022 / SERUP: very small systems (up to ~700 W with no injection into the grid) may be exempt from prior control; >700 W and ≤30 kW — usually mera comunicação prévia via DGEG/SERUP; >30 kW — heavier prior control.\n\nTurnkey cost: €4,000-€12,000 for a typical flat/house. Payback 5-9 years. To receive money for excedente you need a **bidirectional smart meter** and a sale contract with a comercializador/agregador (there is NO 1:1 net metering in PT).\n\nFundo Ambiental does not guarantee annual funding — check the current Aviso on fundoambiental.pt.',
+  tldr: 'Portugal is in the EU top 3 for solar potential. UPAC (Unidade de Produção para Autoconsumo) systems — thresholds under DL 15/2022 / SERUP: very small systems (up to ~700 W with no injection into the grid) may be exempt from prior control; >700 W and ≤30 kW — usually mera comunicação prévia via DGEG/SERUP; >30 kW — heavier prior control.\n\nTurnkey cost: €4,000-€12,000 for a typical flat/house. Payback 5-9 years. To receive money for excedente you need a bidirectional smart meter and a sale contract with a comercializador/agregador (there is NO 1:1 net metering in PT).\n\nFundo Ambiental does not guarantee annual funding — check the current Aviso on fundoambiental.pt.',
   tags: ['solar panels', 'solar energy', 'self-consumption', 'fundo ambiental'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,13 +12,13 @@ export default {
       title: '☀️ Why PT is an excellent place',
       content: [
         { kind: 'checklist', items: [
-          '🌞 **Solar radiation**: 1500-1700 kWh/m²/year — top 3 in the EU (after Cyprus, Malta)',
+          '🌞 Solar radiation: 1500-1700 kWh/m²/year — top 3 in the EU (after Cyprus, Malta)',
           '☀️ Average day: 5-7 peak sun hours',
-          '⚡ **Electricity prices**: €0.16-€0.25/kWh (among the highest in the EU) → fast payback',
-          '📏 **5 kW home system** generates 7,000-9,000 kWh/year — covers the needs of most family households',
-          '💰 **Savings**: €800-€1,500/year for an average family with a 5 kW system',
-          '🌍 **CO2 emissions reduction**: ~3 tonnes/year from a 5 kW system',
-          '📈 **Property value**: adds 5-10% to the property value'
+          '⚡ Electricity prices: €0.16-€0.25/kWh (among the highest in the EU) → fast payback',
+          '📏 5 kW home system generates 7,000-9,000 kWh/year — covers the needs of most family households',
+          '💰 Savings: €800-€1,500/year for an average family with a 5 kW system',
+          '🌍 CO2 emissions reduction: ~3 tonnes/year from a 5 kW system',
+          '📈 Property value: adds 5-10% to the property value'
         ]}
       ]
     },
@@ -29,7 +29,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: 'Residential UPAC ≤30 kW (typical houses/flats)', content: [
             { kind: 'checklist', items: [
-              'Most home systems are under **mera comunicação prévia** via DGEG/SERUP (not a licence)',
+              'Most home systems are under mera comunicação prévia via DGEG/SERUP (not a licence)',
               'Very small systems (~up to 700 W with no injection into the grid) may be exempt from prior control',
               'The most popular option for flats / houses',
               'Inverter + panels on the roof / balcony / extension',
@@ -74,11 +74,11 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: '2026 turnkey standard', content: [
             { kind: 'checklist', items: [
-              '**3 kW (flat)**: €3,500-€5,500 (8-10 panels, inverter, installation)',
-              '**5 kW (small house)**: €5,500-€8,500 (12-15 panels)',
-              '**6.9 kW** (typical capacity for a detached house; mera comunicação prévia, licence starts from >30 kW under DL 15/2022): €7,500-€11,000',
-              '**+ 10 kWh battery**: +€5,000-€8,000',
-              '**+ smart home integration**: +€500-€1,500'
+              '3 kW (flat): €3,500-€5,500 (8-10 panels, inverter, installation)',
+              '5 kW (small house): €5,500-€8,500 (12-15 panels)',
+              '6.9 kW (typical capacity for a detached house; mera comunicação prévia, licence starts from >30 kW under DL 15/2022): €7,500-€11,000',
+              '+ 10 kWh battery: +€5,000-€8,000',
+              '+ smart home integration: +€500-€1,500'
             ]}
           ]},
           { id: 'c2', title: 'What is included', content: [
@@ -95,11 +95,11 @@ export default {
           ]},
           { id: 'c3', title: 'Subsidies — Fundo Ambiental', content: [
             { kind: 'checklist', items: [
-              '**Fundo Ambiental** does not guarantee annual funding — check the actual open Aviso on fundoambiental.pt',
+              'Fundo Ambiental does not guarantee annual funding — check the actual open Aviso on fundoambiental.pt',
               'Past residential efficiency calls had specific caps and reimbursement rates, but 2026 amounts depend on the active programme',
               'Calls open irregularly with their own deadlines, budgets and eligibility rules — monitor Fundo Ambiental and Diário da República',
               'Do not include the subsidy in the project budget until your application is approved',
-              '**MAE** — a municipal programme (some cities top up)'
+              'MAE — a municipal programme (some cities top up)'
             ]}
           ]}
         ]}
@@ -141,7 +141,7 @@ export default {
             { kind: 'checklist', items: [
               '1-3 days of installation',
               'Connection to your electrical panel',
-              'Installation/configuration of the **bidirectional smart meter** — done by the distribution network operator (usually **E-REDES** in mainland PT). The comercializador (supplier) is a separate entity',
+              'Installation/configuration of the bidirectional smart meter — done by the distribution network operator (usually E-REDES in mainland PT). The comercializador (supplier) is a separate entity',
               'Test + activation',
               'Registration on the DGEG portal (often done by the installer)'
             ]}
@@ -149,7 +149,7 @@ export default {
           { id: 'p5', title: '5. Compensation for surplus', content: [
             { kind: 'checklist', items: [
               'Excess solar energy can be injected into the grid → compensation from your comercializador (EDP, Galp, Endesa, Iberdrola, etc.) if you have a bidirectional smart meter and a sale contract',
-              '⚠️ Net metering in the sense of 1:1 offsetting in Portugal **does NOT exist** — without a sale contract, surplus may go into the grid unpaid',
+              '⚠️ Net metering in the sense of 1:1 offsetting in Portugal does NOT exist — without a sale contract, surplus may go into the grid unpaid',
               'Tariff: usually below the retail electricity price',
               'For larger UPAC — separate contract with a comercializador/agregador'
             ]}
@@ -162,11 +162,11 @@ export default {
       title: '💼 Tax aspect',
       content: [
         { kind: 'checklist', items: [
-          '**IVA reduzido** may apply to the supply/installation of photovoltaic panels under the current version of VAT List I — clarify the treatment on the invoice with the installer',
-          '**IRS deduction** specifically for home solar systems is not provided for (this is an investment, not an expense)',
-          '**Property tax (IMI)**: some municipalities offer reductions for homes with solar systems (5-15% discount)',
-          '**Excedente sale**: for individuals, income from selling surplus from a small UPAC may be excluded from IRS up to the statutory annual limit; above that — or for business activity — tax/VAT rules apply. Confirm with an accountant/comercializador',
-          '**Solar systems for business (commercial UPAC)**: depreciation under Decreto Regulamentar 25/2009 (usually 5-10% per year for energy equipment) — NOT an automatic “full deduction over 8-10 years”. IVA recovery is available ONLY if the business is VAT-taxable with the right to deduct and invoices are issued correctly; for partial/exempt activities, deduction is limited. Check with a TOC/CC'
+          'IVA reduzido may apply to the supply/installation of photovoltaic panels under the current version of VAT List I — clarify the treatment on the invoice with the installer',
+          'IRS deduction specifically for home solar systems is not provided for (this is an investment, not an expense)',
+          'Property tax (IMI): some municipalities offer reductions for homes with solar systems (5-15% discount)',
+          'Excedente sale: for individuals, income from selling surplus from a small UPAC may be excluded from IRS up to the statutory annual limit; above that — or for business activity — tax/VAT rules apply. Confirm with an accountant/comercializador',
+          'Solar systems for business (commercial UPAC): depreciation under Decreto Regulamentar 25/2009 (usually 5-10% per year for energy equipment) — NOT an automatic “full deduction over 8-10 years”. IVA recovery is available ONLY if the business is VAT-taxable with the right to deduct and invoices are issued correctly; for partial/exempt activities, deduction is limited. Check with a TOC/CC'
         ]}
       ]
     },
@@ -175,10 +175,10 @@ export default {
       title: '🏠 If you rent',
       content: [
         { kind: 'checklist', items: [
-          'Any fixed installation requires the **owner’s written consent**; for removable balcony plug-in systems, also check the lease, regulamento condomínio and electrical safety',
-          '**Solar system leasing** (Iberdrola, Galp solar leasing): the provider installs it, you pay a monthly fee — savings are lower, but there is no upfront investment',
-          '**Cooperatives** (Sociedade Cooperativa de Energia): community solar energy — you take part in a larger system',
-          '**Ownership of the panels** and the ability to take them with you when you leave must be **agreed in writing** with the owner BEFORE installation'
+          'Any fixed installation requires the owner’s written consent; for removable balcony plug-in systems, also check the lease, regulamento condomínio and electrical safety',
+          'Solar system leasing (Iberdrola, Galp solar leasing): the provider installs it, you pay a monthly fee — savings are lower, but there is no upfront investment',
+          'Cooperatives (Sociedade Cooperativa de Energia): community solar energy — you take part in a larger system',
+          'Ownership of the panels and the ability to take them with you when you leave must be agreed in writing with the owner BEFORE installation'
         ]}
       ]
     }

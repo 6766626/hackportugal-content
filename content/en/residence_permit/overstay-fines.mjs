@@ -3,7 +3,7 @@ export default {
   id: 'overstay-fines',
   categoryId: 'residence_permit',
   title: 'Fines for overstaying in Portugal',
-  tldr: 'Overstaying is a serious breach. Under Lei 23/2007 art. 192, fines are split into **four** bands: up to 30 days, 30–90, 90–180 and > 180 days; check the exact amounts and maximums against the current version of Lei 23/2007 (art. 192) and applicable case law.\n\n**A fine by itself does NOT equal an SIS alert**: an entry in the Schengen Information System (SIS) is made by a separate decision (usually in the case of an entry ban / expulsão, not for every fine). However, overstaying sharply increases the risk of refusal for renewals and future visas. The worst case is cumulative overstay: the longer you are without status, the lower the chance of becoming legal again.',
+  tldr: 'Overstaying is a serious breach. Under Lei 23/2007 art. 192, fines are split into four bands: up to 30 days, 30–90, 90–180 and > 180 days; check the exact amounts and maximums against the current version of Lei 23/2007 (art. 192) and applicable case law.\n\nA fine by itself does NOT equal an SIS alert: an entry in the Schengen Information System (SIS) is made by a separate decision (usually in the case of an entry ban / expulsão, not for every fine). However, overstaying sharply increases the risk of refusal for renewals and future visas. The worst case is cumulative overstay: the longer you are without status, the lower the chance of becoming legal again.',
   tags: ['overstay', 'fine', 'aima'],
   estimatedReadMinutes: 6,
   steps: [
@@ -41,14 +41,14 @@ export default {
       id: 'fines',
       title: 'Fines and consequences',
       content: [
-        { kind: 'paragraph', text: 'Under Lei 23/2007 art. 192, the law divides overstay into **four** periods. The guide figures below are to understand the order of magnitude; check the exact minimums/maximums against the current version of Lei 23/2007 art. 192 and Lei 61/2025 (if applicable), as well as AIMA practice:' },
+        { kind: 'paragraph', text: 'Under Lei 23/2007 art. 192, the law divides overstay into four periods. The guide figures below are to understand the order of magnitude; check the exact minimums/maximums against the current version of Lei 23/2007 art. 192 and Lei 61/2025 (if applicable), as well as AIMA practice:' },
         { kind: 'checklist', items: [
-          'Overstay **up to 30 days**: fine roughly from €80; the upper limit is several hundred euros',
-          'Overstay **30–90 days**: higher fine; the upper limit may reach hundreds of euros',
-          'Overstay **90–180 days**: higher again — several hundred/around a thousand euros',
-          'Overstay **more than 180 days**: maximum amounts; high risk of expulsão (removal)',
+          'Overstay up to 30 days: fine roughly from €80; the upper limit is several hundred euros',
+          'Overstay 30–90 days: higher fine; the upper limit may reach hundreds of euros',
+          'Overstay 90–180 days: higher again — several hundred/around a thousand euros',
+          'Overstay more than 180 days: maximum amounts; high risk of expulsão (removal)',
           'Border control with an overstay — the fine is recorded; payment on the spot, at PSP or via Portal AT using a Multibanco reference',
-          'Inclusion in SIS (alert for a Schengen entry ban) — **a separate procedure**, usually in the event of a formal expulsão or entry ban, not automatically because of the fine',
+          'Inclusion in SIS (alert for a Schengen entry ban) — a separate procedure, usually in the event of a formal expulsão or entry ban, not automatically because of the fine',
           'Children under 16 are not fined, but the overstay is recorded',
           'Willingness to leave voluntarily and pay the fine is a mitigating factor'
         ]},

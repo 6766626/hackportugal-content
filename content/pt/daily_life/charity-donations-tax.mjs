@@ -3,7 +3,7 @@ export default {
   id: 'charity-donations-tax',
   categoryId: 'daily_life',
   title: 'Caridade — onde ajudar e benefícios fiscais',
-  tldr: 'A «consignação» do IRS permite direcionar **0,5% do imposto IRS** para uma das cerca de 5 000 organizações de beneficência registadas (sem custos para si, basta assinalar a opção na declaração).\n\nAdicionalmente: 25% de todos os donativos a IPSS (Instituições Particulares de Solidariedade Social) são dedutíveis no IRS. Principais organizações de beneficência: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (apoio a pessoas com deficiência), AMI (ajuda humanitária).\n\nA campanha do Banco Alimentar decorre 2 vezes por ano e mobiliza centenas de milhares de voluntários.',
+  tldr: 'A «consignação» do IRS permite direcionar 0,5% do imposto IRS para uma das cerca de 5 000 organizações de beneficência registadas (sem custos para si, basta assinalar a opção na declaração).\n\nAdicionalmente: 25% de todos os donativos a IPSS (Instituições Particulares de Solidariedade Social) são dedutíveis no IRS. Principais organizações de beneficência: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (apoio a pessoas com deficiência), AMI (ajuda humanitária).\n\nA campanha do Banco Alimentar decorre 2 vezes por ano e mobiliza centenas de milhares de voluntários.',
   tags: ['caridade', 'donativos', 'consignação', 'irs'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,9 +11,9 @@ export default {
       id: 'consignacao',
       title: '✅ Consignação 0,5% IRS — sem custos',
       content: [
-        { kind: 'paragraph', text: 'Cada residente em Portugal pode direcionar **0,5% do imposto IRS final** para uma das organizações de beneficência registadas. Isto NÃO tem custos adicionais para si — o Estado simplesmente redireciona uma parte do seu imposto.' },
+        { kind: 'paragraph', text: 'Cada residente em Portugal pode direcionar 0,5% do imposto IRS final para uma das organizações de beneficência registadas. Isto NÃO tem custos adicionais para si — o Estado simplesmente redireciona uma parte do seu imposto.' },
         { kind: 'checklist', items: [
-          '📅 **Quando**: ao entregar o IRS (abril-junho)',
+          '📅 Quando: ao entregar o IRS (abril-junho)',
           '✅ No formulário de IRS — «consignação de quota da liquidação do imposto»',
           '🏢 Escolher uma organização (por NIF) da lista oficial da AT',
           'Lista: portaldasfinancas.gov.pt → IRS → Consignação',
@@ -31,12 +31,12 @@ export default {
         { kind: 'substeps', items: [
           { id: 'd1', title: 'Condições', content: [
             { kind: 'checklist', items: [
-              '✅ O beneficiário é uma **IPSS** registada ou uma entidade de **utilidade pública**',
-              '✅ **Pagamento sem numerário** (não em dinheiro): transferência bancária / MB WAY / portal de pagamentos da instituição',
-              '✅ Obter **fatura/recibo com NIF** da instituição de beneficência',
+              '✅ O beneficiário é uma IPSS registada ou uma entidade de utilidade pública',
+              '✅ Pagamento sem numerário (não em dinheiro): transferência bancária / MB WAY / portal de pagamentos da instituição',
+              '✅ Obter fatura/recibo com NIF da instituição de beneficência',
               '✅ Verificar o montante e o NIF no e-Fatura',
-              '⚠️ **Limite**: até 15% do imposto a pagar (a maioria das famílias não atinge o limite)',
-              '✅ **Dedução**: normalmente 25% do montante elegível; para alguns donativos de mecenato social, o valor pode ser majorado (por exemplo, 130%), mas apenas se o beneficiário/donativo cumprir os requisitos dos arts. 61-66 do EBF'
+              '⚠️ Limite: até 15% do imposto a pagar (a maioria das famílias não atinge o limite)',
+              '✅ Dedução: normalmente 25% do montante elegível; para alguns donativos de mecenato social, o valor pode ser majorado (por exemplo, 130%), mas apenas se o beneficiário/donativo cumprir os requisitos dos arts. 61-66 do EBF'
             ]}
           ]},
           { id: 'd2', title: 'Exemplos', content: [
@@ -67,7 +67,7 @@ export default {
             { kind: 'checklist', items: [
               'Banco Alimentar Contra a Fome — a maior rede de redistribuição de alimentos',
               'Rede de 21 bancos regionais',
-              '**2 campanhas por ano**: fim de maio + fim de novembro — recolha de enlatados em supermercados',
+              '2 campanhas por ano: fim de maio + fim de novembro — recolha de enlatados em supermercados',
               'Voluntariado: 4-8 horas, envolvem cerca de 70 000 voluntários por campanha',
               'Donativos / tempo → 11 milhões de refeições por ano',
               'Banco Alimentar Lisboa, Porto e outros têm moradas postais + IBAN para transferências'
@@ -93,26 +93,26 @@ export default {
           ]},
           { id: 'c5', title: 'Proteção animal', content: [
             { kind: 'checklist', items: [
-              '**Lisboa**: Bianca\'s Garden (gatos), União Zoófila',
-              '**Porto**: Casa dos Animais',
-              '**SPA — Sociedade Protetora dos Animais** — abrigo e assistência médica para animais abandonados',
-              '**SOS Animal — organização nacional**'
+              'Lisboa: Bianca\'s Garden (gatos), União Zoófila',
+              'Porto: Casa dos Animais',
+              'SPA — Sociedade Protetora dos Animais — abrigo e assistência médica para animais abandonados',
+              'SOS Animal — organização nacional'
             ]}
           ]},
           { id: 'c6', title: 'Tecnologia para o bem / educação', content: [
             { kind: 'checklist', items: [
-              '**Junior Achievement Portugal**: educação, empreendedorismo para jovens',
-              '**Programadores do Futuro**: competências digitais para pessoas em situação vulnerável',
-              '**Code Club Portugal**: programação gratuita para crianças',
-              '**Aprender é Fixe**: explicações para crianças em situação de risco'
+              'Junior Achievement Portugal: educação, empreendedorismo para jovens',
+              'Programadores do Futuro: competências digitais para pessoas em situação vulnerável',
+              'Code Club Portugal: programação gratuita para crianças',
+              'Aprender é Fixe: explicações para crianças em situação de risco'
             ]}
           ]},
           { id: 'c7', title: 'Natureza / ambiente', content: [
             { kind: 'checklist', items: [
-              '**Quercus**: ONG ambiental, advocacia + recuperação de florestas',
-              '**LPN — Liga para a Protecção da Natureza**: a ONG ambiental mais antiga de Portugal',
-              '**SPEA — Sociedade Portuguesa para Estudo das Aves**: proteção das aves',
-              '**Geota**: estudos ambientais'
+              'Quercus: ONG ambiental, advocacia + recuperação de florestas',
+              'LPN — Liga para a Protecção da Natureza: a ONG ambiental mais antiga de Portugal',
+              'SPEA — Sociedade Portuguesa para Estudo das Aves: proteção das aves',
+              'Geota: estudos ambientais'
             ]}
           ]}
         ]}
@@ -123,15 +123,15 @@ export default {
       title: '🤝 Tempo como donativo — programas de voluntariado',
       content: [
         { kind: 'checklist', items: [
-          '🎯 **European Solidarity Corps** (em vez do EVS, já desatualizado): projetos de voluntariado em Portugal/UE, com apoio a viagens/suporte, alojamento/alimentação ou allowance consoante o projeto',
-          '🎯 **Campanhas do Banco Alimentar**: 2 vezes por ano, 4-8 horas, entrada muito simples',
-          '🎯 **Voluntariado com crianças**: através de IPSS/associações acreditadas, com triagem/verificações de antecedentes. CPCJ — comissões oficiais de proteção de crianças; contacte-as para aconselhamento, não como voluntariado casual',
-          '🎯 **Apoio a refugiados** (CPR, JRS): refugiados ucranianos e outros, acompanhamento linguístico, apoio à integração',
-          '🎯 **Voluntários em hospitais** (Cruz Vermelha): em hospitais — acompanhamento / atividades para idosos',
-          '🎯 **AMI** (Assistência Médica Internacional): estágios em Portugal ou envio para o estrangeiro em missões médicas',
-          '🎯 **Habitat for Humanity**: construção / reparação de habitação social',
-          '🎯 **Acompanhamento de idosos**: idosos isolados, visitas semanais',
-          '🎯 **TimeSwap (banco do tempo)** — troca de competências e tempo, em municípios'
+          '🎯 European Solidarity Corps (em vez do EVS, já desatualizado): projetos de voluntariado em Portugal/UE, com apoio a viagens/suporte, alojamento/alimentação ou allowance consoante o projeto',
+          '🎯 Campanhas do Banco Alimentar: 2 vezes por ano, 4-8 horas, entrada muito simples',
+          '🎯 Voluntariado com crianças: através de IPSS/associações acreditadas, com triagem/verificações de antecedentes. CPCJ — comissões oficiais de proteção de crianças; contacte-as para aconselhamento, não como voluntariado casual',
+          '🎯 Apoio a refugiados (CPR, JRS): refugiados ucranianos e outros, acompanhamento linguístico, apoio à integração',
+          '🎯 Voluntários em hospitais (Cruz Vermelha): em hospitais — acompanhamento / atividades para idosos',
+          '🎯 AMI (Assistência Médica Internacional): estágios em Portugal ou envio para o estrangeiro em missões médicas',
+          '🎯 Habitat for Humanity: construção / reparação de habitação social',
+          '🎯 Acompanhamento de idosos: idosos isolados, visitas semanais',
+          '🎯 TimeSwap (banco do tempo) — troca de competências e tempo, em municípios'
         ]}
       ]
     },
@@ -140,12 +140,12 @@ export default {
       title: '⚠️ Tenha cuidado',
       content: [
         { kind: 'checklist', items: [
-          '🚫 **Angariações de rua**: falsas organizações de beneficência junto a lojas / nas ruas. Verifique o estatuto de IPSS',
-          '🚫 **E-mails fraudulentos**: phishing com «Médicos do Mundo Lisboa» — verifique o domínio',
-          '🚫 **Chamadas não solicitadas**: organizações de beneficência legítimas raramente ligam primeiro',
-          '✅ **Transferência direta para um IBAN conhecido**: mais seguro do que através de plataformas de terceiros',
-          '✅ **Recibo fiscal**: peça com NIF após o donativo para a dedução',
-          '✅ **Verificação do estatuto de IPSS**: a organização deve constar do registo em segsocial.pt'
+          '🚫 Angariações de rua: falsas organizações de beneficência junto a lojas / nas ruas. Verifique o estatuto de IPSS',
+          '🚫 E-mails fraudulentos: phishing com «Médicos do Mundo Lisboa» — verifique o domínio',
+          '🚫 Chamadas não solicitadas: organizações de beneficência legítimas raramente ligam primeiro',
+          '✅ Transferência direta para um IBAN conhecido: mais seguro do que através de plataformas de terceiros',
+          '✅ Recibo fiscal: peça com NIF após o donativo para a dedução',
+          '✅ Verificação do estatuto de IPSS: a organização deve constar do registo em segsocial.pt'
         ]}
       ]
     }

@@ -3,7 +3,7 @@ export default {
   id: 'via-verde-full',
   categoryId: 'auto_trips',
   title: 'Via Verde (electronic toll payment system) — complete guide to paying road tolls in Portugal',
-  tldr: 'Via Verde is electronic toll payment via a transponder (identificador). Subscription from €5 for activation + €1.75/month. The alternative is post-payment via portagens.ctt.pt or CTT/Payshop terminals: for Portuguese plates, payment usually becomes available **after ~48 hours** following the journey and remains valid for **15 working days**. Late payment → the debt moves to administrative collection: a fixed fine for an administrative offence (range according to the table, not “25× the toll cost”), plus a % for non-payment.\n\nIMPORTANT: from 01/01/2025, tolls have been abolished on the A22, A23, A24, A25, parts of the A28, A4, A13. “Automatic blocking of the DUA” is NOT a standard consequence.',
+  tldr: 'Via Verde is electronic toll payment via a transponder (identificador). Subscription from €5 for activation + €1.75/month. The alternative is post-payment via portagens.ctt.pt or CTT/Payshop terminals: for Portuguese plates, payment usually becomes available after ~48 hours following the journey and remains valid for 15 working days. Late payment → the debt moves to administrative collection: a fixed fine for an administrative offence (range according to the table, not “25× the toll cost”), plus a % for non-payment.\n\nIMPORTANT: from 01/01/2025, tolls have been abolished on the A22, A23, A24, A25, parts of the A28, A4, A13. “Automatic blocking of the DUA” is NOT a standard consequence.',
   tags: ['via verde', 'portagens', 'roads', 'car', 'motorways'],
   estimatedReadMinutes: 7,
   steps: [
@@ -66,10 +66,10 @@ export default {
           { id: 'n1', title: 'A. Electronic motorways (former SCUT). From 01/01/2025, tolls have been abolished on a number of motorways — A22 Algarve, A23, A24, A25, parts of A28, A4, A13', content: [
             { kind: 'paragraph', text: 'There is no toll booth — only gantries with cameras. They read the number plate and issue a bill.' },
             { kind: 'checklist', items: [
-              'Payment is possible when the charge appears in the system — for Portuguese plates usually **around 48 hours after the journey**',
-              'The payment window is usually **15 working days** via terminais CTT/Payshop or at `portagens.ctt.pt`',
+              'Payment is possible when the charge appears in the system — for Portuguese plates usually around 48 hours after the journey',
+              'The payment window is usually 15 working days via terminais CTT/Payshop or at `portagens.ctt.pt`',
               'Pre-payment at petrol stations — link a card in advance',
-              'If payment is not made within the set deadline, the debt moves to administrative collection: a fine for an administrative offence applies (range according to the table, **not “25× the toll cost”**), plus a % for non-payment'
+              'If payment is not made within the set deadline, the debt moves to administrative collection: a fine for an administrative offence applies (range according to the table, not “25× the toll cost”), plus a % for non-payment'
             ]}
           ]},
           { id: 'n2', title: 'B. Traditional motorways (A1, A2, A5 — with toll booths)', content: [

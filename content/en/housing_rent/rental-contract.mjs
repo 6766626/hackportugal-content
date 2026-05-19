@@ -3,7 +3,7 @@ export default {
   id: 'rental-contract',
   categoryId: 'housing_rent',
   title: 'Long-term renting in Portugal — legal framework and process',
-  tldr: 'Long-term renting (arrendamento habitacional) is governed by the NRAU (Lei 6/2006 as amended). For **contratos com prazo certo** the minimum is 1 year and the maximum is 30 years; if no term is specified, the contract is deemed to have been concluded for **5 years** (Código Civil arts. 1094-1095).\n\nExceptions for contratos para fins especiais transitórios may be shorter. Under art. 1076 Código Civil the limit is: caução of up to **2 months’ rent** + renda antecipada of up to **2 months**. Requests for 3-12 months’ prepayment are legally vulnerable — discuss a lawful structure with a lawyer (seguro de fiança, garantia bancária, fiador).\n\nThe contract is registered with Finanças by the owner, who also issues recibos de renda.',
+  tldr: 'Long-term renting (arrendamento habitacional) is governed by the NRAU (Lei 6/2006 as amended). For contratos com prazo certo the minimum is 1 year and the maximum is 30 years; if no term is specified, the contract is deemed to have been concluded for 5 years (Código Civil arts. 1094-1095).\n\nExceptions for contratos para fins especiais transitórios may be shorter. Under art. 1076 Código Civil the limit is: caução of up to 2 months’ rent + renda antecipada of up to 2 months. Requests for 3-12 months’ prepayment are legally vulnerable — discuss a lawful structure with a lawyer (seguro de fiança, garantia bancária, fiador).\n\nThe contract is registered with Finanças by the owner, who also issues recibos de renda.',
   tags: ['rent', 'nrau', 'contract', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Legal framework',
       content: [
         { kind: 'paragraph', text: 'Main documents: Código Civil (articles on renting), Lei 6/2006 (NRAU — Novo Regime do Arrendamento Urbano), Decreto-Lei 160/2006 (formal elements of the contract), and numerous amending laws and decree-laws. Important for 2024–2026: Lei 56/2023 “Mais Habitação” has been PARTIALLY REPEALED under the “Construir Portugal” programme: Decreto-Lei 43/2024 (July 2024) repealed/amended measures on arrendamento coercivo de imóveis devolutos (forced renting of vacant properties), and Decreto-Lei 76/2024 (23 October 2024) lifted the moratorium on new AL licences in apartamentos and removed the automatic 5-year expiry of AL.' },
-        { kind: 'paragraph', text: 'Key principles: tenant protection (eviction only through the courts), major repairs are the owner’s responsibility, rent indexation no more than once a year and no higher than the official INE coefficient (in 2026: **2.24%**, coefficient 1.0224, published in Aviso n.º 23174/2025/2 of 19.09.2025).' },
+        { kind: 'paragraph', text: 'Key principles: tenant protection (eviction only through the courts), major repairs are the owner’s responsibility, rent indexation no more than once a year and no higher than the official INE coefficient (in 2026: 2.24%, coefficient 1.0224, published in Aviso n.º 23174/2025/2 of 19.09.2025).' },
         { kind: 'paragraph', text: 'Caução and prepayment (art. 1076 Código Civil after Lei 56/2023 “Mais Habitação”): maximum 2 months’ rent as caução + maximum 2 months’ rent as prepayment. Requests for more must be set up as a separate legal structure (seguro de fiança, another guarantee); otherwise the clause may be challenged as unlawful.' }
       ]
     },
@@ -79,7 +79,7 @@ export default {
               'Open a bank account in Portugal (preferable)',
               'Prepare proof of income: employment contract, payslips for 3 months, bank statement or IRS return',
               'Find a fiador (if available) — their Cartão de Cidadão (CC) + income',
-              'If there is no fiador: discuss **lawful** guarantees — maximum 2 months’ prepayment + maximum 2 months’ caução, or seguro de fiança/garantia bancária/fiador. A request for 3–12 months in cash as renda antecipada or additional caução is legally vulnerable'
+              'If there is no fiador: discuss lawful guarantees — maximum 2 months’ prepayment + maximum 2 months’ caução, or seguro de fiança/garantia bancária/fiador. A request for 3–12 months in cash as renda antecipada or additional caução is legally vulnerable'
             ]}
           ]},
           { id: 'p2', title: '2. Search and viewing', content: [
@@ -89,13 +89,13 @@ export default {
             { kind: 'paragraph', text: 'Points to discuss: term (12/24/36 months), amount of caução, who pays IMI and condomínio (owners’ association), furniture (mobilado (furnished) / mobilado parcialmente (partly furnished) / sem mobília (unfurnished)), restrictions on pets, rent indexation, and the owner’s prior obligation to fix any defects noticed before move-in.' }
           ]},
           { id: 'p4', title: '4. Signing the contract', content: [
-            { kind: 'paragraph', text: 'At least 2 copies. Mandatory elements under Lei 6/2006 + DL 160/2006: parties’ details and NIF, full address and identificação matricial/predial, finalidade do arrendamento, term, rent amount and indexation method, caução amount, start date. Also check the **licença de utilização** (or applicable exemption), **certificado energético** (if required), and all anexos/inventário.' }
+            { kind: 'paragraph', text: 'At least 2 copies. Mandatory elements under Lei 6/2006 + DL 160/2006: parties’ details and NIF, full address and identificação matricial/predial, finalidade do arrendamento, term, rent amount and indexation method, caução amount, start date. Also check the licença de utilização (or applicable exemption), certificado energético (if required), and all anexos/inventário.' }
           ]},
           { id: 'p5', title: '5. Handover of keys', content: [
             { kind: 'paragraph', text: 'Prepare a condition inventory (inventário) — list the furniture present, and the condition of walls, floors and plumbing/sanitary fittings. Photograph everything. This will protect you when the caução is returned.' }
           ]},
           { id: 'p6', title: '6. Registration with Finanças', content: [
-            { kind: 'paragraph', text: 'The owner must **comunicar contrato de arrendamento à AT** through Portal das Finanças (Modelo 2) **by the end of the month following the month in which the contract starts** (Código do Imposto do Selo art. 60) — NOT simply “within 30 days”. After that, they must emitir recibos de renda eletrónicos. Without registration and recibos you generally will not be able to correctly claim the rent deduction in IRS. For Junta/AIMA, a registered contract greatly increases the reliability of proof of address, but the specific set of documents depends on the Junta and the type of AIMA procedure.' },
+            { kind: 'paragraph', text: 'The owner must comunicar contrato de arrendamento à AT through Portal das Finanças (Modelo 2) by the end of the month following the month in which the contract starts (Código do Imposto do Selo art. 60) — NOT simply “within 30 days”. After that, they must emitir recibos de renda eletrónicos. Without registration and recibos you generally will not be able to correctly claim the rent deduction in IRS. For Junta/AIMA, a registered contract greatly increases the reliability of proof of address, but the specific set of documents depends on the Junta and the type of AIMA procedure.' },
             { kind: 'warning', text: 'If the owner refuses to register it, this is a serious red flag (possibly tax evasion). Insist or choose another flat.' }
           ]}
         ]}
@@ -149,7 +149,7 @@ export default {
       title: 'Disputes',
       content: [
         { kind: 'checklist', items: [
-          'Non-return of caução — written claim, then Julgado de Paz/tribunal or (if the conditions are met) injunção em matéria de arrendamento through **Balcão do Arrendatário e do Senhorio (BAS)**',
+          'Non-return of caução — written claim, then Julgado de Paz/tribunal or (if the conditions are met) injunção em matéria de arrendamento through Balcão do Arrendatário e do Senhorio (BAS)',
           'Problems with technical condition — written demand by post with acknowledgement, photos, deadlines for remedy',
           'Noise and neighbours — complaint to Junta de Freguesia, police (112 for loud night-time noise)',
           'Annual atualização renda in an ongoing contract must not exceed the official INE coefficient unless there is a special legal basis. Dispute — written objection, then BAS/Julgado de Paz/tribunal/advogado',

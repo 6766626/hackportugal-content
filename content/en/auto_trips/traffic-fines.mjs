@@ -3,7 +3,7 @@ export default {
   id: 'traffic-fines',
   categoryId: 'auto_trips',
   title: 'Traffic fines in Portugal — types, points, appeals',
-  tldr: 'ANSR (Autoridade Nacional de Segurança Rodoviária) fines are divided into minor (leves), serious (graves), and very serious (muito graves). A driver has 12 points in the “carta por pontos” system — they are deducted for offences. At 0 points — cassação do título. Within 15 working days after notification, you can usually pay the **minimum coima amount** voluntarily (not a “50% discount”).\n\nDefesa/contestação — within 15 working days to the address/under the procedure stated in the notice.',
+  tldr: 'ANSR (Autoridade Nacional de Segurança Rodoviária) fines are divided into minor (leves), serious (graves), and very serious (muito graves). A driver has 12 points in the “carta por pontos” system — they are deducted for offences. At 0 points — cassação do título. Within 15 working days after notification, you can usually pay the minimum coima amount voluntarily (not a “50% discount”).\n\nDefesa/contestação — within 15 working days to the address/under the procedure stated in the notice.',
   tags: ['fine', 'highway code', 'ansr', 'points'],
   estimatedReadMinutes: 6,
   steps: [
@@ -22,14 +22,14 @@ export default {
           { id: 't2', title: 'Grave (serious)', content: [
             { kind: 'checklist', items: [
               '€120–600 (typical range; depends on the offence)',
-              'Usually **−2 points**; for grave involving alcohol — −3 points',
+              'Usually −2 points; for grave involving alcohol — −3 points',
               'Example: speeding by 30–60 km/h on a motorway, crossing a solid line, overtaking at a crossing'
             ]}
           ]},
           { id: 't3', title: 'Muito Grave (very serious)', content: [
             { kind: 'checklist', items: [
               '€500–2500 (typical range)',
-              'Usually **−4 points**; for muito grave involving alcohol/drugs — −5; for a road traffic crime — −6',
+              'Usually −4 points; for muito grave involving alcohol/drugs — −5; for a road traffic crime — −6',
               'Example: speeding by more than 60 km/h, drink-driving, driving into the oncoming lane, running a red light',
               'Licence suspension for up to 2 years is possible'
             ]}
@@ -44,9 +44,9 @@ export default {
         { kind: 'paragraph', text: 'Carta por pontos has been in force since 01/06/2016. Each driver has 12 points, which are deducted for offences. Points are restored automatically: +1 for every 3 years without offences.' },
         { kind: 'checklist', items: [
           '⬇️ Points deduction: for road traffic crimes (crime rodoviário) — −6; for administrative muito grave offences — −4 (−5 for alcohol/drugs); for grave — −2 (−3 for alcohol). There is no formal “warning” at 9 points',
-          '⬇️ At 5 or 4 points — mandatory **ação de formação de segurança rodoviária**',
-          '⬇️ At 3, 2 or 1 point — mandatory **theory test**',
-          '⬇️ At 0 points — **cassação da carta**; a new título de condução can be obtained only after the legally specified period and after meeting the requirements',
+          '⬇️ At 5 or 4 points — mandatory ação de formação de segurança rodoviária',
+          '⬇️ At 3, 2 or 1 point — mandatory theory test',
+          '⬇️ At 0 points — cassação da carta; a new título de condução can be obtained only after the legally specified period and after meeting the requirements',
           '📅 Points are restored: +1 for 3 years without offences',
           '✅ Refresher course (Curso de aperfeiçoamento) — you can recover 4 points once every 5 years'
         ]}
@@ -92,7 +92,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '📬 An Auto de Contra-Ordenação letter has arrived with a reference',
-          '✂️ Pagamento voluntário: if you pay voluntarily within the set deadline (usually 15 working days from notification), you pay the **minimum amount** of the coima, not a “50% discount”. The specific minimum amount is stated in the notice',
+          '✂️ Pagamento voluntário: if you pay voluntarily within the set deadline (usually 15 working days from notification), you pay the minimum amount of the coima, not a “50% discount”. The specific minimum amount is stated in the notice',
           '💳 Methods: ANSR online, Portal das Finanças, Multibanco, CTT/Payshop',
           '📅 Deadline for full payment — 30 days after notification',
           '⏰ Late payment — +30%, then court proceedings',
@@ -105,7 +105,7 @@ export default {
       title: 'Appeal',
       content: [
         { kind: 'checklist', items: [
-          '📝 **Defesa/contestação administrativa** within 15 working days from the date of notification, in the manner and to the address stated in the auto/notificação',
+          '📝 Defesa/contestação administrativa within 15 working days from the date of notification, in the manner and to the address stated in the auto/notificação',
           '📬 Address and procedure: ANSR / GNR / PSP — stated in the auto itself',
           '📸 Evidence: witnesses, dashcam video, photos of signs',
           '🏛️ First, ANSR/the competent authority reviews the defesa and issues a decision. If the decision is unfavourable — appeal to court within the set deadline; the competent court depends on the comarca',

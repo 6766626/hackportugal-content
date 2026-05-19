@@ -36,7 +36,7 @@ export default {
               '  - Divorce or death certificates (if there was a previous marriage)',
               '  - For foreigners — certificado de capacidade matrimonial + birth certificate (apostille + translation)',
               'Witnesses (testemunhas) are usually NOT mandatory when filing the processo preliminar; they may be required in specific cases/types of ceremonies. Check with the chosen Conservatória',
-              '**Cost: €120** (not urgent)'
+              'Cost: €120 (not urgent)'
             ]}
           ]},
           { id: 'r2', title: 'Step 2: Check for marriage impediments (impedimentos matrimoniais)', content: [
@@ -77,7 +77,7 @@ export default {
               'Extract ≤ 6 months',
               'Apostille (Hague) or consular legalisation',
               'Translation into Portuguese, certified by one of the methods under CN art. 38 (lawyer/solicitador/notary/chamber of commerce/PT consulate)',
-              'From Brazil: current cartório de registro civil → apostilles are issued by **authorised cartórios** within the CNJ system (under Resolução CNJ 228/2016). NOT the Brazilian Ministry of Foreign Affairs; not “MINRE”'
+              'From Brazil: current cartório de registro civil → apostilles are issued by authorised cartórios within the CNJ system (under Resolução CNJ 228/2016). NOT the Brazilian Ministry of Foreign Affairs; not “MINRE”'
             ]}
           ]},
           { id: 'f3', title: 'Divorce / death certificate', content: [
@@ -99,10 +99,10 @@ export default {
       id: 'urgent',
       title: '⚡ Casamento urgente — exceptional procedure',
       content: [
-        { kind: 'warning', text: 'Casamento urgente is NOT a tourist fast-track procedure and NOT a choice of an “urgent” route. It is an **exceptional** marriage procedure without the ordinary processo preliminar in situations established by law.' },
+        { kind: 'warning', text: 'Casamento urgente is NOT a tourist fast-track procedure and NOT a choice of an “urgent” route. It is an exceptional marriage procedure without the ordinary processo preliminar in situations established by law.' },
         { kind: 'checklist', items: [
-          '🩺 **Perigo iminente de morte** of one of the marrying parties',
-          '👶 **Parto iminente** (imminent birth)',
+          '🩺 Perigo iminente de morte of one of the marrying parties',
+          '👶 Parto iminente (imminent birth)',
           '⚖️ Governed by art. 1622 Código Civil',
           'It may be performed by any person in the presence of 4 witnesses and is then registered at the Conservatória',
           '⚠️ Not for “weekend” weddings, beach weddings or speeding up the procedure. To speed up the ordinary procedure, discuss the completeness of the documents with the specific Conservatória',
@@ -147,10 +147,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Convenção Antenupcial — prenuptial agreement. It defines the property regime.' },
         { kind: 'checklist', items: [
-          '**By default (without a prenuptial agreement)**: comunhão de adquiridos — property acquired after marriage is joint; property acquired before marriage is separate',
-          '**Comunhão geral**: everything is joint, even property acquired before marriage',
-          '**Separação total**: nothing is joint; each person owns their own property',
-          'The prenuptial agreement must be **signed BEFORE the marriage** before a notary / at the Conservatória',
+          'By default (without a prenuptial agreement): comunhão de adquiridos — property acquired after marriage is joint; property acquired before marriage is separate',
+          'Comunhão geral: everything is joint, even property acquired before marriage',
+          'Separação total: nothing is joint; each person owns their own property',
+          'The prenuptial agreement must be signed BEFORE the marriage before a notary / at the Conservatória',
           'Cost: €100-300',
           'Recommended: separação total if there is a significant difference in assets or if the spouses have a business',
           '⚠️ After marriage, the property regime usually does NOT change (princípio da imutabilidade convenção antenupcial). Change is possible only in strictly limited cases provided by law. Choose the regime BEFORE the wedding'

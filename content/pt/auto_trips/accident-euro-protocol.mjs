@@ -3,7 +3,7 @@ export default {
   id: 'accident-euro-protocol',
   categoryId: 'auto_trips',
   title: 'Acidente de viação em Portugal — Declaração Amigável (protocolo europeu) e quando chamar a GNR',
-  tldr: 'Em caso de acidente sem feridos e sem desacordo — preencha a **Declaração Amigável de Acidente Automóvel (DAAA)**, o protocolo europeu bilateral. Se houver desacordo, condutor alcoolizado, feridos ou terceiros — 112 → GNR/PSP. O tomador do seguro deve comunicar o acidente à seguradora no prazo de **8 dias** (DL 72/2008 — Regime Jurídico do Contrato de Seguro).\n\nO incumprimento do prazo **não significa automaticamente** a perda do direito a indemnização para todos (para o terceiro lesado aplica-se um regime separado), mas cria um risco real de recusa ou redução do pagamento, sobretudo se o atraso tiver causado prejuízo à seguradora. É melhor cumprir o prazo.',
+  tldr: 'Em caso de acidente sem feridos e sem desacordo — preencha a Declaração Amigável de Acidente Automóvel (DAAA), o protocolo europeu bilateral. Se houver desacordo, condutor alcoolizado, feridos ou terceiros — 112 → GNR/PSP. O tomador do seguro deve comunicar o acidente à seguradora no prazo de 8 dias (DL 72/2008 — Regime Jurídico do Contrato de Seguro).\n\nO incumprimento do prazo não significa automaticamente a perda do direito a indemnização para todos (para o terceiro lesado aplica-se um regime separado), mas cria um risco real de recusa ou redução do pagamento, sobretudo se o atraso tiver causado prejuízo à seguradora. É melhor cumprir o prazo.',
   tags: ['acidente', 'sinistro', 'seguro', 'gnr', 'declaração amigável'],
   estimatedReadMinutes: 6,
   steps: [
@@ -78,7 +78,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 's1', title: 'O outro interveniente fugiu', content: [
-            { kind: 'paragraph', text: 'Chamada para 112 → GNR/PSP auto de notícia. O FGA (Fundo de Garantia Automóvel), quando o responsável não está segurado, cobre danos corporais em pessoas e (com limitações) danos materiais. No caso de responsável **desconhecido** que tenha fugido do local do acidente, a cobertura de danos materiais é limitada a situações especiais; os danos corporais em pessoas são, em regra, cobertos. Contacte diretamente o FGA (fga.pt) ou a sua seguradora para obter instruções.' }
+            { kind: 'paragraph', text: 'Chamada para 112 → GNR/PSP auto de notícia. O FGA (Fundo de Garantia Automóvel), quando o responsável não está segurado, cobre danos corporais em pessoas e (com limitações) danos materiais. No caso de responsável desconhecido que tenha fugido do local do acidente, a cobertura de danos materiais é limitada a situações especiais; os danos corporais em pessoas são, em regra, cobertos. Contacte diretamente o FGA (fga.pt) ou a sua seguradora para obter instruções.' }
           ]},
           { id: 's2', title: 'Acidente com objeto desconhecido (poste, sinal)', content: [
             { kind: 'paragraph', text: 'A GNR é obrigatória. Sem auto, a seguradora tratará isto como «danos próprios» — a indemnização integral só existe se tiver um pacote Casco (danos próprios), e não apenas RC básico.' }

@@ -24,10 +24,10 @@ export default {
             { kind: 'paragraph', text: 'Positive test → book an appointment with your family doctor at the Centro de Saúde (public health centre) or with a private gynaecologist (€25-100 for the first appointment).' }
           ]},
           { id: 'r2', title: '2. Opening follow-up in the SNS', content: [
-            { kind: 'paragraph', text: 'The family doctor/USF opens pregnancy follow-up in the SNS, issues referrals and gives you the **Boletim de Saúde da Grávida** — the pregnancy booklet where consultations, tests and ultrasounds are recorded.' }
+            { kind: 'paragraph', text: 'The family doctor/USF opens pregnancy follow-up in the SNS, issues referrals and gives you the Boletim de Saúde da Grávida — the pregnancy booklet where consultations, tests and ultrasounds are recorded.' }
           ]},
           { id: 'r3', title: '3. Benefits — what and when', content: [
-            { kind: 'paragraph', text: 'From the 13th week, you can request **Abono de Família Pré-Natal** if the family meets the income criteria. **Subsídio Parental** is requested after the child is born / leave begins via Segurança Social Direta — usually within 6 months from the first day for which the benefit is requested.' }
+            { kind: 'paragraph', text: 'From the 13th week, you can request Abono de Família Pré-Natal if the family meets the income criteria. Subsídio Parental is requested after the child is born / leave begins via Segurança Social Direta — usually within 6 months from the first day for which the benefit is requested.' }
           ]}
         ]}
       ]
@@ -36,10 +36,10 @@ export default {
       id: 'consultations',
       title: 'Pregnancy care — schedule',
       content: [
-        { kind: 'paragraph', text: 'For low-risk pregnancy, the DGS recommends **a minimum of 6 consultations**; in practice, the schedule is often more frequent towards the end of pregnancy and depends on the USF/hospital and clinical risk.' },
+        { kind: 'paragraph', text: 'For low-risk pregnancy, the DGS recommends a minimum of 6 consultations; in practice, the schedule is often more frequent towards the end of pregnancy and depends on the USF/hospital and clinical risk.' },
         { kind: 'checklist', items: [
           '1st: before 12 weeks — initial appointment, tests, referrals for screenings',
-          'Routine ultrasounds are usually: **11–13+6 weeks**, **20–22 weeks**, **30–32 weeks**',
+          'Routine ultrasounds are usually: 11–13+6 weeks, 20–22 weeks, 30–32 weeks',
           '24-28 weeks — gestational diabetes screening',
           '32-36 weeks — birth plan, discussion of anaesthesia',
           '36-40 weeks — weekly/fortnightly monitoring',
@@ -59,7 +59,7 @@ export default {
           '📋 Plano de Parto (birth plan) — your preferences: epidural anaesthesia, position, music, the father being present at the birth',
           '🎒 Hospital bag: medical documents, clothes for mother and baby, hygiene products',
           '🚗 Route to the maternity unit — know it in advance, especially for night-time births',
-          '📞 **SNS 24 (808 24 24 24)** — medical triage line for doubts/non-emergency situations. In case of life-threatening danger, heavy bleeding, seizures, loss of consciousness — call **112**'
+          '📞 SNS 24 (808 24 24 24) — medical triage line for doubts/non-emergency situations. In case of life-threatening danger, heavy bleeding, seizures, loss of consciousness — call 112'
         ]}
       ]
     },
@@ -75,16 +75,16 @@ export default {
             { kind: 'paragraph', text: 'Immediately after birth — basic procedures: Apgar score, measurements, first latch, vitamin K. In Portugal, the public standard is skin-to-skin contact for at least 1 hour.' }
           ]},
           { id: 'b3', title: 'Birth registration', content: [
-            { kind: 'paragraph', text: 'Many maternity units have a **Balcão do Nado Vivo**, where you can register the birth and obtain the Assento de Nascimento directly on the day of birth. If there is none/it is closed — registration is done at the Conservatória do Registo Civil or through available online services. Registration must be within **20 days**. Free of charge.' }
+            { kind: 'paragraph', text: 'Many maternity units have a Balcão do Nado Vivo, where you can register the birth and obtain the Assento de Nascimento directly on the day of birth. If there is none/it is closed — registration is done at the Conservatória do Registo Civil or through available online services. Registration must be within 20 days. Free of charge.' }
           ]},
           { id: 'b4', title: 'Documents on discharge', content: [
             { kind: 'checklist', items: [
               'Assento de Nascimento',
               'Boletim de Saúde Infantil (child health booklet)',
-              '**Cartão de Cidadão** is issued only if the child is a Portuguese citizen. Children of foreigners born in Portugal acquire citizenship only if the conditions of the Lei da Nacionalidade are met. 2026 nationality law reform: TC ruled 49/XVII unconstitutional, 48/XVII still pending DRE — check the current status',
+              'Cartão de Cidadão is issued only if the child is a Portuguese citizen. Children of foreigners born in Portugal acquire citizenship only if the conditions of the Lei da Nacionalidade are met. 2026 nationality law reform: TC ruled 49/XVII unconstitutional, 48/XVII still pending DRE — check the current status',
               'If the child is not a Portuguese citizen — foreign documents/passport are arranged through the parents\' consulate and, if necessary, the residence process through AIMA',
-              '**NIF** for a foreign child is usually requested separately from the Autoridade Tributária through a representative; for a Portuguese child, the number may be linked to the issue of the Cartão de Cidadão',
-              '**Número de Utente** is often created through the Nascer Utente mechanism, but check it after discharge; if the number has not appeared — request it at the Centro de Saúde/ULS with the assento de nascimento and the parents\' documents'
+              'NIF for a foreign child is usually requested separately from the Autoridade Tributária through a representative; for a Portuguese child, the number may be linked to the issue of the Cartão de Cidadão',
+              'Número de Utente is often created through the Nascer Utente mechanism, but check it after discharge; if the number has not appeared — request it at the Centro de Saúde/ULS with the assento de nascimento and the parents\' documents'
             ]}
           ]}
         ]}
@@ -98,9 +98,9 @@ export default {
           { id: 'l1', title: 'Licença Parental Inicial', content: [
             { kind: 'checklist', items: [
               '120 days — 100% of salary (basic option)',
-              '150 days — 80%, if the sharing conditions are not met; **150 days when shared** between parents under Segurança Social rules — **100%**',
-              '180 days when shared — **90%**, if after the mother\'s mandatory period each parent takes the legally provided exclusive period (for example, 30 consecutive days or two periods of 15 days) according to Segurança Social rules',
-              'Father: **28 mandatory days** licença parental exclusiva do pai; 7 of them consecutive immediately after birth, the rest within the first 42 days. There are also 7 optional days, which can be taken at the same time as the mother\'s leave (Código do Trabalho art. 43, Lei 13/2023)',
+              '150 days — 80%, if the sharing conditions are not met; 150 days when shared between parents under Segurança Social rules — 100%',
+              '180 days when shared — 90%, if after the mother\'s mandatory period each parent takes the legally provided exclusive period (for example, 30 consecutive days or two periods of 15 days) according to Segurança Social rules',
+              'Father: 28 mandatory days licença parental exclusiva do pai; 7 of them consecutive immediately after birth, the rest within the first 42 days. There are also 7 optional days, which can be taken at the same time as the mother\'s leave (Código do Trabalho art. 43, Lei 13/2023)',
               'Entitlement to leave applies to both parents as employees, self-employed people, and unemployed people (provided the relevant conditions are met)'
             ]}
           ]},
@@ -109,17 +109,17 @@ export default {
           ]},
           { id: 'l3', title: 'Additional leave', content: [
             { kind: 'checklist', items: [
-              'Licença parental complementar / **subsídio parental alargado**: up to 3 months for each parent immediately after licença parental inicial, usually **30%** of the remuneração de referência; there are also other forms of complementar leave with separate conditions',
+              'Licença parental complementar / subsídio parental alargado: up to 3 months for each parent immediately after licença parental inicial, usually 30% of the remuneração de referência; there are also other forms of complementar leave with separate conditions',
               'Licença para assistência a filho — up to 2 years unpaid (guaranteed return to work)',
-              'Breaks for **amamentação/aleitação**: usually 2 periods of up to 1 hour per day. Aleitação — up to 1 year; amamentação can continue after 1 year with medical confirmation (Código do Trabalho art. 47–48)',
-              'The right to **part-time / flexible working time** may be available to the mother or father for a child under 12, subject to the notification procedure and conditions of the Código do Trabalho (art. 55–57)'
+              'Breaks for amamentação/aleitação: usually 2 periods of up to 1 hour per day. Aleitação — up to 1 year; amamentação can continue after 1 year with medical confirmation (Código do Trabalho art. 47–48)',
+              'The right to part-time / flexible working time may be available to the mother or father for a child under 12, subject to the notification procedure and conditions of the Código do Trabalho (art. 55–57)'
             ]}
           ]},
           { id: 'l4', title: 'One-off payments', content: [
             { kind: 'checklist', items: [
-              '**There is no single national "baby bonus"**. Check municipal apoios à natalidade in your place of residence',
+              'There is no single national "baby bonus". Check municipal apoios à natalidade in your place of residence',
               'At national level, the following are available: Abono de Família Pré-Natal (from the 13th week, income-tested), Abono de Família for the child, Garantia para a Infância, Subsídio Social Parental',
-              '**Subsídio Social Parental** — for those who are not entitled to the standard Subsídio Parental and meet low-income/resources conditions',
+              'Subsídio Social Parental — for those who are not entitled to the standard Subsídio Parental and meet low-income/resources conditions',
               'Abono de Família (child benefit) — monthly from birth (see separate guide)'
             ]}
           ]}

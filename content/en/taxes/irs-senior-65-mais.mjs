@@ -3,7 +3,7 @@ export default {
   id: 'irs-senior-65-mais',
   categoryId: 'taxes',
   title: 'IRS for pensioners 65+: special rules and deductions',
-  tldr: 'In IRS, being aged 65+ does not by itself exempt you from filing a return. With OE 2025 (Lei 45-A/2024), the dedução específica base for **both categories A and H** is linked to the formula **max(€4,104; 8.54 × IAS for that year)**.\n\n**For 2025 income (2026 return): €4,462.15** (8.54 × IAS 2025 €522.50) — for each pension recipient (Categoria H) or employee (Categoria A). You can claim lares: 25% of expenses with a limit of around €403. Pensão de alimentos: the recipient declares the income, the payer deducts 20% under a court or notarial decision. The Modelo 3 return for 2025 must be filed from 1 April to 30 June 2026.',
+  tldr: 'In IRS, being aged 65+ does not by itself exempt you from filing a return. With OE 2025 (Lei 45-A/2024), the dedução específica base for both categories A and H is linked to the formula max(€4,104; 8.54 × IAS for that year).\n\nFor 2025 income (2026 return): €4,462.15 (8.54 × IAS 2025 €522.50) — for each pension recipient (Categoria H) or employee (Categoria A). You can claim lares: 25% of expenses with a limit of around €403. Pensão de alimentos: the recipient declares the income, the payer deducts 20% under a court or notarial decision. The Modelo 3 return for 2025 must be filed from 1 April to 30 June 2026.',
   tags: ['irs', 'pension', '65plus', 'lares', 'deductions'],
   estimatedReadMinutes: 6,
   steps: [
@@ -27,7 +27,7 @@ export default {
       id: 'specific-deduction',
       title: 'Main relief: dedução específica €4,462.15 for 2025 income',
       content: [
-        { kind: 'paragraph', text: 'After OE 2025 (Lei n.º 45-A/2024), the dedução específica base under Código do IRS art. 25 (Categoria A — employment) and art. 53 (Categoria H — pensions) is linked to the formula **max(€4,104; 8.54 × IAS for that year)**. For 2025 income: 8.54 × €522.50 = **€4,462.15** — the same for categories A and H (the same basic amount). For 2026 income, the reference is: 8.54 × €537.13 ≈ **€4,587.09** (2027 return).\n\nCategoria H NO longer has a separate increased deduction — there is a single base.' },
+        { kind: 'paragraph', text: 'After OE 2025 (Lei n.º 45-A/2024), the dedução específica base under Código do IRS art. 25 (Categoria A — employment) and art. 53 (Categoria H — pensions) is linked to the formula max(€4,104; 8.54 × IAS for that year). For 2025 income: 8.54 × €522.50 = €4,462.15 — the same for categories A and H (the same basic amount). For 2026 income, the reference is: 8.54 × €537.13 ≈ €4,587.09 (2027 return).\n\nCategoria H NO longer has a separate increased deduction — there is a single base.' },
         { kind: 'checklist', items: [
           'For the IRS 2026 return (for 2025 income) — the base is €4,462.15 for each titular with Categoria H OR Categoria A income.',
           'The deduction applies not to the tax itself, but to the taxable base: first bruto pension/salary income is reduced, then the IRS scale is applied.',

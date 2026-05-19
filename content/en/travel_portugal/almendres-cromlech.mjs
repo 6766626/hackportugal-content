@@ -48,11 +48,11 @@ export default {
       title: 'What to include in the trip',
       content: [
         { kind: 'checklist', items: [
-          '🏛️ **Évora** (15 km) — Roman Temple of Diana, Capela dos Ossos (Chapel of Bones), mediaeval cathedral — at least 1 day',
-          '⚱️ **Anta Grande do Zambujeiro** — one of the largest dolmens in Europe, 10 km south of the cromlech',
-          '🏔️ **Arraiolos** — embroidered carpets, 25 km to the north',
-          '🥘 **Lunch in Évora** — traditional Alentejo cuisine: migas, açorda, black pork',
-          '🍷 **Alentejo wineries** — Cartuxa, Herdade do Esporão — tastings €15-25'
+          '🏛️ Évora (15 km) — Roman Temple of Diana, Capela dos Ossos (Chapel of Bones), mediaeval cathedral — at least 1 day',
+          '⚱️ Anta Grande do Zambujeiro — one of the largest dolmens in Europe, 10 km south of the cromlech',
+          '🏔️ Arraiolos — embroidered carpets, 25 km to the north',
+          '🥘 Lunch in Évora — traditional Alentejo cuisine: migas, açorda, black pork',
+          '🍷 Alentejo wineries — Cartuxa, Herdade do Esporão — tastings €15-25'
         ]}
       ]
     },

@@ -3,7 +3,7 @@ export default {
   id: 'ehic-european-card',
   categoryId: 'healthcare',
   title: 'CESD — Cartão Europeu de Seguro de Doença (EHIC)',
-  tldr: 'Cartão Europeu de Seguro de Doença (CESD), também conhecido como EHIC — dá acesso a cuidados de saúde públicos clinicamente necessários em todos os países da UE, EEE, Suíça e Reino Unido nas mesmas condições que os segurados locais. Gratuito.\n\nEm Portugal, normalmente é válido por **3 anos**; depois é necessário pedir a renovação/um novo cartão. O CESD é emitido pelo país competente de seguro: para pessoas com cobertura portuguesa da Segurança Social — através da SS Direta. Pode pedir um certificado provisório se o cartão não chegar a tempo. O CESD/EHIC só é válido durante estadias temporárias no estrangeiro, não em caso de mudança de residência nem para viagens feitas especificamente para tratamento médico.',
+  tldr: 'Cartão Europeu de Seguro de Doença (CESD), também conhecido como EHIC — dá acesso a cuidados de saúde públicos clinicamente necessários em todos os países da UE, EEE, Suíça e Reino Unido nas mesmas condições que os segurados locais. Gratuito.\n\nEm Portugal, normalmente é válido por 3 anos; depois é necessário pedir a renovação/um novo cartão. O CESD é emitido pelo país competente de seguro: para pessoas com cobertura portuguesa da Segurança Social — através da SS Direta. Pode pedir um certificado provisório se o cartão não chegar a tempo. O CESD/EHIC só é válido durante estadias temporárias no estrangeiro, não em caso de mudança de residência nem para viagens feitas especificamente para tratamento médico.',
   tags: ['ehic', 'cesd', 'saúde', 'viagens'],
   estimatedReadMinutes: 4,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Quem pode obter',
       content: [
         { kind: 'checklist', items: [
-          'Pessoas para quem Portugal é o **país competente** para cobertura médica/social: trabalhadores por conta de outrem e independentes com Segurança Social, pensionistas com cobertura portuguesa, beneficiários de prestações, dependentes reconhecidos e utilizadores de outros sistemas portugueses. Ter NISS, por si só, não garante o direito ao CESD',
+          'Pessoas para quem Portugal é o país competente para cobertura médica/social: trabalhadores por conta de outrem e independentes com Segurança Social, pensionistas com cobertura portuguesa, beneficiários de prestações, dependentes reconhecidos e utilizadores de outros sistemas portugueses. Ter NISS, por si só, não garante o direito ao CESD',
           'Dependentes (filhos, cônjuge) — são tratados através do segurado principal. O cartão é sempre individual',
           'Estudantes Erasmus: o cartão é emitido pelo país onde o estudante está segurado. O CESD português é necessário para o estudante se Portugal for o seu país competente de seguro; um estudante estrangeiro em Portugal usa normalmente o EHIC do seu país',
           'Pensionistas: o cartão é emitido pelo país competente. Se a pensão e a cobertura médica vierem de Portugal — através da Segurança Social. Se o pensionista viver em PT com um S1 de outro país, o EHIC é normalmente emitido pelo país que emitiu o S1/paga a pensão',
@@ -24,12 +24,12 @@ export default {
       id: 'what-covers',
       title: 'O que cobre',
       content: [
-        { kind: 'paragraph', text: 'O CESD é aceite em **32 países/territórios do sistema EHIC**: 27 países da UE, Islândia, Listenstaine, Noruega, Suíça e Reino Unido.\n\n⚠️ **Nota importante para cidadãos de países terceiros (RU/BY/UA/USA/UK, etc.) que residem legalmente em Portugal**: o CESD português é emitido, mas NEM sempre é aceite na Dinamarca, Islândia, Listenstaine, Noruega e Suíça — estes países, historicamente, não aplicaram a coordenação EHIC/CESD a cidadãos de países terceiros na totalidade (Regulation (EU) 1231/2010 + acordos bilaterais). Para cidadãos da UE, a cobertura existe em todos os locais; para cidadãos de países terceiros, a cobertura integral é garantida nos 27 países da UE + UK (nos termos do acordo UK-EU). O Reino Unido aceita o EHIC/CESD para cuidados de saúde públicos necessários durante uma estadia temporária; os GHIC/UK EHIC britânicos são cartões separados para pessoas seguradas no UK.' },
+        { kind: 'paragraph', text: 'O CESD é aceite em 32 países/territórios do sistema EHIC: 27 países da UE, Islândia, Listenstaine, Noruega, Suíça e Reino Unido.\n\n⚠️ Nota importante para cidadãos de países terceiros (RU/BY/UA/USA/UK, etc.) que residem legalmente em Portugal: o CESD português é emitido, mas NEM sempre é aceite na Dinamarca, Islândia, Listenstaine, Noruega e Suíça — estes países, historicamente, não aplicaram a coordenação EHIC/CESD a cidadãos de países terceiros na totalidade (Regulation (EU) 1231/2010 + acordos bilaterais). Para cidadãos da UE, a cobertura existe em todos os locais; para cidadãos de países terceiros, a cobertura integral é garantida nos 27 países da UE + UK (nos termos do acordo UK-EU). O Reino Unido aceita o EHIC/CESD para cuidados de saúde públicos necessários durante uma estadia temporária; os GHIC/UK EHIC britânicos são cartões separados para pessoas seguradas no UK.' },
         { kind: 'checklist', items: [
           '✅ Cuidados de saúde clinicamente necessários no sistema público durante uma estadia temporária — não apenas urgência, mas também tratamento que não possa razoavelmente ser adiado até ao regresso a casa',
           '✅ Hospitalização em situações agudas',
           '✅ Consultas/tratamentos de doenças crónicas (diálise, quimioterapia) — combinar previamente',
-          '✅ **112** — número de emergência gratuito. Os cuidados/transporte em si são pagos ou não pagos de acordo com as regras do país de estadia, tal como para os segurados locais',
+          '✅ 112 — número de emergência gratuito. Os cuidados/transporte em si são pagos ou não pagos de acordo com as regras do país de estadia, tal como para os segurados locais',
           '✅ Medicamentos sujeitos a receita médica — com a comparticipação local tal como os residentes',
           '❌ Clínicas privadas — NÃO são cobertas (é necessário seguro de viagem)',
           '❌ Regresso a casa por evacuação médica aérea — NÃO é coberto',
@@ -81,7 +81,7 @@ export default {
       title: 'Perda, renovação, alteração de dados',
       content: [
         { kind: 'checklist', items: [
-          'Validade: normalmente **3 anos**. A renovação/novo cartão deve ser pedido antes do fim do prazo de validade através da Segurança Social Direta ou de outro canal disponível',
+          'Validade: normalmente 3 anos. A renovação/novo cartão deve ser pedido antes do fim do prazo de validade através da Segurança Social Direta ou de outro canal disponível',
           'Perdeu no estrangeiro — pedir o Certificado Provisório online e enviá-lo por email para o hospital público',
           'Alteração do NISS (raro) — o cartão mantém-se, os dados serão actualizados',
           'Ao mudar-se para outro país da UE, o NISS não desaparece, mas se Portugal deixar de ser o seu país competente de cobertura médica, o CESD português não pode ser utilizado; deve tratar do EHIC no novo país competente',

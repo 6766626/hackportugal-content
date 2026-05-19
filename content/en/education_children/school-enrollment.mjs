@@ -76,7 +76,7 @@ export default {
       id: 'plnm',
       title: 'PLNM — Portuguese as a non-native language',
       content: [
-        { kind: 'paragraph', text: 'PLNM is assigned after an assessment of Portuguese proficiency, usually for pupils with an insufficient language level. It is **not automatic** right/obligation for every foreign national — the school determines the level and support measures under DGE rules (Portaria 223-A/2018 and 226-A/2018). A foreign child with good Portuguese may not be placed in PLNM, while a child with Portuguese citizenship whose first language is not Portuguese may be placed in it.' }
+        { kind: 'paragraph', text: 'PLNM is assigned after an assessment of Portuguese proficiency, usually for pupils with an insufficient language level. It is not automatic right/obligation for every foreign national — the school determines the level and support measures under DGE rules (Portaria 223-A/2018 and 226-A/2018). A foreign child with good Portuguese may not be placed in PLNM, while a child with Portuguese citizenship whose first language is not Portuguese may be placed in it.' }
       ]
     },
     {
@@ -84,10 +84,10 @@ export default {
       title: 'Financial support',
       content: [
         { kind: 'checklist', items: [
-          'Free **manuais escolares** via MEGA/vouchers for pupils in state schools and some schools with contrato de associação; workbooks and materials are often paid for separately',
-          'ASE (**Ação Social Escolar**) — support according to the escalão do abono de família: meals, transport, materials and visitas de estudo may be free or subsidised',
+          'Free manuais escolares via MEGA/vouchers for pupils in state schools and some schools with contrato de associação; workbooks and materials are often paid for separately',
+          'ASE (Ação Social Escolar) — support according to the escalão do abono de família: meals, transport, materials and visitas de estudo may be free or subsidised',
           'Abono de Família (child benefit) — see the separate guide',
-          'IRS education deduction — 30% eligible expenses, usually up to €800 per **agregado familiar** (not per child); the limit may increase in specific cases (for example, rent for displaced student)'
+          'IRS education deduction — 30% eligible expenses, usually up to €800 per agregado familiar (not per child); the limit may increase in specific cases (for example, rent for displaced student)'
         ]}
       ]
     }

@@ -3,7 +3,7 @@ export default {
   id: 'lei-bases-migracao-2026',
   categoryId: 'residence_permit',
   title: 'Lei 61/2025 (nova reforma migratória): o que muda na Lei 23/2007',
-  tldr: '**Lei n.º 61/2025 de 22 de outubro de 2025** — a principal reforma do regime migratório, que elimina a Manifestação de Interesse como via massificada de legalização após a entrada (prazo transitório para processos já iniciados — 31.12.2025), cria um visto qualificado para procura de trabalho e torna mais rigoroso o controlo prévio à entrada. Para o expat, a principal conclusão é: entrar com o visto correto D1-D8/trabalho/família, marcar AIMA com antecedência e reunir provas de rendimento e alojamento. Taxas AIMA desde 01.03.2026 — 133 € pela receção e 307,20 € pela autorização de residência ao abrigo do art. 75.',
+  tldr: 'Lei n.º 61/2025 de 22 de outubro de 2025 — a principal reforma do regime migratório, que elimina a Manifestação de Interesse como via massificada de legalização após a entrada (prazo transitório para processos já iniciados — 31.12.2025), cria um visto qualificado para procura de trabalho e torna mais rigoroso o controlo prévio à entrada. Para o expat, a principal conclusão é: entrar com o visto correto D1-D8/trabalho/família, marcar AIMA com antecedência e reunir provas de rendimento e alojamento. Taxas AIMA desde 01.03.2026 — 133 € pela receção e 307,20 € pela autorização de residência ao abrigo do art. 75.',
   tags: ['aima', 'autorização de residência', 'lei23', 'migração', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-changed',
       title: 'O que é a Lei 61/2025 e por que é importante',
       content: [
-        { kind: 'paragraph', text: '**Lei n.º 61/2025 de 22 de outubro de 2025** — o principal pacote migratório de 2025–2026. Não é “mais um visto”, mas uma reestruturação de enquadramento: muda a forma como a Lei 23/2007 é lida e aplicada a estrangeiros de países terceiros e a Lei 37/2006 a cidadãos da UE/EEE/Suíça. Em 2026, AIMA, consulados e Finanças analisam cada vez mais a finalidade da entrada, a fonte de rendimento, o alojamento e a ligação fiscal como um único pacote.' },
+        { kind: 'paragraph', text: 'Lei n.º 61/2025 de 22 de outubro de 2025 — o principal pacote migratório de 2025–2026. Não é “mais um visto”, mas uma reestruturação de enquadramento: muda a forma como a Lei 23/2007 é lida e aplicada a estrangeiros de países terceiros e a Lei 37/2006 a cidadãos da UE/EEE/Suíça. Em 2026, AIMA, consulados e Finanças analisam cada vez mais a finalidade da entrada, a fonte de rendimento, o alojamento e a ligação fiscal como um único pacote.' },
         { kind: 'paragraph', text: 'A principal linha política após 2024–2026: menos legalização “retroativa” através de trabalho já em Portugal, mais verificação prévia antes da entrada. Por isso, a estratégia “entrar como turista, encontrar trabalho e apresentar pedido” deixou de ser um percurso normal.' },
         { kind: 'checklist', items: [
           'A Lei 23/2007 continua a ser a lei de base para vistos e autorização de residência de cidadãos de países terceiros.',

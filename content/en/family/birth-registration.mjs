@@ -3,7 +3,7 @@ export default {
   id: 'birth-registration',
   categoryId: 'nationality',
   title: 'Registering a child’s birth in Portugal',
-  tldr: 'Child born in Portugal: the birth must be registered with the Registo Civil **within 20 days** (Código do Registo Civil art. 96). Under Lei 37/81 art. 1 n.1 al. f), a child acquires Portuguese nationality by birth if at least one parent is legally resident in Portugal (any title) OR has lived in Portugal for at least 1 year regardless of title — and is not in the service of a foreign state. Registration: free via ePortugal or at the maternity hospital (“Nascer Cidadão”). The child is issued with a Cartão de Cidadão, NIF, NISS, SNS user number — all at once.',
+  tldr: 'Child born in Portugal: the birth must be registered with the Registo Civil within 20 days (Código do Registo Civil art. 96). Under Lei 37/81 art. 1 n.1 al. f), a child acquires Portuguese nationality by birth if at least one parent is legally resident in Portugal (any title) OR has lived in Portugal for at least 1 year regardless of title — and is not in the service of a foreign state. Registration: free via ePortugal or at the maternity hospital (“Nascer Cidadão”). The child is issued with a Cartão de Cidadão, NIF, NISS, SNS user number — all at once.',
   tags: ['birth', 'child', 'registration', 'nationality', 'jus soli', 'nascer cidadão'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,12 +14,12 @@ export default {
         { kind: 'paragraph', text: 'Under Lei 37/81 art. 1 n.1 al. f), a child born in Portugal becomes a Portuguese national by birth if at least ONE parent meets one of the conditions and is not in the service of a foreign state:' },
         { kind: 'checklist', items: [
           '✅ Is a Portuguese national (then automatically)',
-          '✅ **Is legally resident in Portugal** at the time of birth (with a residence permit or another title — duration is not material)',
-          '✅ **Has lived in Portugal for ≥ 1 year regardless of having a title** (actual presence)',
+          '✅ Is legally resident in Portugal at the time of birth (with a residence permit or another title — duration is not material)',
+          '✅ Has lived in Portugal for ≥ 1 year regardless of having a title (actual presence)',
           '✅ EU citizen with valid CRUE registration at the time of birth — usually considered legally resident',
           '⚠️ Only a short tourist visit without long-term presence — usually no; but if there is 1+ year of actual residence — there is a basis',
           '🌐 Portugal allows multiple nationality — the child may also acquire a second one through the parents',
-          '⚖️ **On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII** (renamed from 17/XVII after passing through the TC). As of 13.05.2026, the law was published on 18.05.2026 as **Lei Orgânica n.º 1/2026** (10 days). After publication in Diário da República, for a child’s jus soli nationality application the parents must have ≥5 years of valid residence permit. The text of the law contains a transitional provision: cases in progress are subject to the previous version of Lei 37/81 (1 year). Until 19.05.2026 the old rules apply to everyone'
+          '⚖️ On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII (renamed from 17/XVII after passing through the TC). As of 13.05.2026, the law was published on 18.05.2026 as Lei Orgânica n.º 1/2026 (10 days). After publication in Diário da República, for a child’s jus soli nationality application the parents must have ≥5 years of valid residence permit. The text of the law contains a transitional provision: cases in progress are subject to the previous version of Lei 37/81 (1 year). Until 19.05.2026 the old rules apply to everyone'
         ]}
       ]
     },
@@ -57,7 +57,7 @@ export default {
       id: 'alternative',
       title: '📍 Alternative — Conservatória / online',
       content: [
-        { kind: 'paragraph', text: 'If the birth was not registered at the maternity hospital (home birth, private clinic without the service), you must declare the birth at the Conservatória do Registo Civil **within 20 days** (art. 96 Código do Registo Civil).\n\nAfter this deadline, registration is still possible, but with an additional procedure and a possible fine.' },
+        { kind: 'paragraph', text: 'If the birth was not registered at the maternity hospital (home birth, private clinic without the service), you must declare the birth at the Conservatória do Registo Civil within 20 days (art. 96 Código do Registo Civil).\n\nAfter this deadline, registration is still possible, but with an additional procedure and a possible fine.' },
         { kind: 'checklist', items: [
           '🏛️ Any Conservatória — choose by address or convenience',
           '🌐 Alternative: ePortugal online via Chave Móvel Digital, upload the documents',
@@ -74,12 +74,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Portugal has an official list of approved names. Not all names are allowed.' },
         { kind: 'checklist', items: [
-          '✅ **IRN approved names database**: irn.justica.gov.pt → “Vocábulos admitidos como nomes próprios”',
+          '✅ IRN approved names database: irn.justica.gov.pt → “Vocábulos admitidos como nomes próprios”',
           '🚫 Prohibited: fictional/derogatory/geographical names (for example, “Lisboa”, “Brasil”)',
           '🚫 Under art. 103 Código do Registo Civil, a name is usually limited to a maximum of 2 given names (nomes próprios) and 4 surnames (apelidos)',
-          '🇷🇺 **Foreign nationals (including Russian citizens)**: for a child with dual nationality, IRN usually accepts a name permitted in the country of the second nationality, in Latin transliteration',
+          '🇷🇺 Foreign nationals (including Russian citizens): for a child with dual nationality, IRN usually accepts a name permitted in the country of the second nationality, in Latin transliteration',
           '⚠️ If the name is not in the IRN database — the parents submit a “pedido de admissibilidade” (1–2 weeks, free of charge)',
-          '👨‍👩‍👧 **Surnames**: the child may take surnames from either parent and from ancestors; the order is flexible, not necessarily “mother+father”',
+          '👨‍👩‍👧 Surnames: the child may take surnames from either parent and from ancestors; the order is flexible, not necessarily “mother+father”',
           '🌍 For foreign children with the nationality of another country, IRN may allow a different order of names that complies with the foreign rule'
         ]}
       ]
@@ -89,14 +89,14 @@ export default {
       title: '📋 After registration — what to obtain',
       content: [
         { kind: 'checklist', items: [
-          '🪪 **Cartão de Cidadão** for the child — arrives in 2–4 weeks',
-          '🛡️ **NISS** — for benefits and health insurance',
-          '🔢 **NIF** — needed if you open a deposit account for the child or rent housing for a family with a child',
-          '🌍 **Portuguese passport** (if there is nationality): IRN, standard — about €65 in Portugal, urgent/express — more expensive; timeframe depends on the type of service',
-          '🩺 **Médico de família** — register with a paediatrician',
-          '💉 **Vaccination schedule (PNV)**: first vaccine at 2 months, check-up — 7 days',
-          '👶 **Abono de família**: calculated by escalão (family income / number of eligible children + 1) and the child’s age. Calculate the exact amount in Segurança Social Direta or via ISS; exact tables are on seg-social.pt',
-          '🌐 **Registration at the embassy of the parents’ country**: for dual nationality — apply via the consulate'
+          '🪪 Cartão de Cidadão for the child — arrives in 2–4 weeks',
+          '🛡️ NISS — for benefits and health insurance',
+          '🔢 NIF — needed if you open a deposit account for the child or rent housing for a family with a child',
+          '🌍 Portuguese passport (if there is nationality): IRN, standard — about €65 in Portugal, urgent/express — more expensive; timeframe depends on the type of service',
+          '🩺 Médico de família — register with a paediatrician',
+          '💉 Vaccination schedule (PNV): first vaccine at 2 months, check-up — 7 days',
+          '👶 Abono de família: calculated by escalão (family income / number of eligible children + 1) and the child’s age. Calculate the exact amount in Segurança Social Direta or via ISS; exact tables are on seg-social.pt',
+          '🌐 Registration at the embassy of the parents’ country: for dual nationality — apply via the consulate'
         ]}
       ]
     },

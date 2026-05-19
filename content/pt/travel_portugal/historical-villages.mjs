@@ -47,18 +47,18 @@ export default {
       title: 'Todas as 12 aldeias',
       content: [
         { kind: 'checklist', items: [
-          '1. **Almeida** — fortaleza em estrela do século XVII (ao estilo de Vauban), excelente exemplo de arquitectura militar',
-          '2. **Belmonte** — Cabral + judeus (ver acima)',
-          '3. **Castelo Mendo** — minúscula, com duas portas da vila, 300 habitantes',
-          '4. **Castelo Novo** — águas termais, pelourinho medieval',
-          '5. **Castelo Rodrigo** — na fronteira com Espanha, muito bem preservada, cerco de 16 anos na história',
-          '6. **Idanha-a-Velha** — cidade romana, uma das aldeias mais antigas de Portugal',
-          '7. **Linhares da Beira** — castelo-museu, parapente',
-          '8. **Marialva** — «cidade-fantasma»: a vila velha no monte está abandonada, a povoação nova fica em baixo',
-          '9. **Monsanto** — ⭐ (ver acima)',
-          '10. **Piódão** — ⭐ (ver acima)',
-          '11. **Sortelha** — fortaleza do século XIII sobre a rocha, a vista mais «de conto de fadas»',
-          '12. **Trancoso** — terra natal do profeta Bandarra, festival de cultura medieval todos os meses de julho'
+          '1. Almeida — fortaleza em estrela do século XVII (ao estilo de Vauban), excelente exemplo de arquitectura militar',
+          '2. Belmonte — Cabral + judeus (ver acima)',
+          '3. Castelo Mendo — minúscula, com duas portas da vila, 300 habitantes',
+          '4. Castelo Novo — águas termais, pelourinho medieval',
+          '5. Castelo Rodrigo — na fronteira com Espanha, muito bem preservada, cerco de 16 anos na história',
+          '6. Idanha-a-Velha — cidade romana, uma das aldeias mais antigas de Portugal',
+          '7. Linhares da Beira — castelo-museu, parapente',
+          '8. Marialva — «cidade-fantasma»: a vila velha no monte está abandonada, a povoação nova fica em baixo',
+          '9. Monsanto — ⭐ (ver acima)',
+          '10. Piódão — ⭐ (ver acima)',
+          '11. Sortelha — fortaleza do século XIII sobre a rocha, a vista mais «de conto de fadas»',
+          '12. Trancoso — terra natal do profeta Bandarra, festival de cultura medieval todos os meses de julho'
         ]}
       ]
     },

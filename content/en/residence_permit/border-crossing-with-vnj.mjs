@@ -41,7 +41,7 @@ export default {
               'The officer checks: the integrity of the card, that the name matches the passport, the validity period',
               'An entry stamp is usually NOT placed for residence permit holders; if a stamp was placed by mistake — keep your boarding pass/tickets and, if necessary, clarify with the border service',
               'If the residence permit is being renewed — confirmation + old card',
-              'EES (Entry-Exit System) — phased launch from 12.10.2025. EES applies to third-country nationals on ENTRY for a short stay. **Holders of a valid residence permit/long-stay visa of a Schengen country entering as residents are usually NOT registered in EES** — show the residence permit + passport; the border guard will determine the correct procedure'
+              'EES (Entry-Exit System) — phased launch from 12.10.2025. EES applies to third-country nationals on ENTRY for a short stay. Holders of a valid residence permit/long-stay visa of a Schengen country entering as residents are usually NOT registered in EES — show the residence permit + passport; the border guard will determine the correct procedure'
             ]}
           ]},
           { id: 'n3', title: 'Transit through Schengen', content: [

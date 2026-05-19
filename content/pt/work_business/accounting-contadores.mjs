@@ -46,27 +46,27 @@ export default {
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Diretório oficial (OCC)', content: [
             { kind: 'checklist', items: [
-              '**Ordem dos Contabilistas Certificados** — occ.pt',
+              'Ordem dos Contabilistas Certificados — occ.pt',
               'Secção «Encontrar Contabilista» — pesquisa por cidade, especialização',
-              'Verifique a inscrição de todas as pessoas com quem falar — **não trabalhe com pessoas não registadas**',
+              'Verifique a inscrição de todas as pessoas com quem falar — não trabalhe com pessoas não registadas',
               'Nuance: o governo exige que os TOC comuniquem todos os clientes — se o contabilista não estiver registado, está a infringir a lei e as suas assinaturas não têm validade'
             ]}
           ]},
           { id: 'f2', title: 'Comunidades de expatriados', content: [
             { kind: 'checklist', items: [
-              '**Grupos de Facebook**: "Portugal Americans", "Expats in Lisbon", "Russian speakers in Portugal" — pedir recomendações',
-              '**Telegram**: @portugalpages — diretório; @lisbon_chat — contabilistas são discutidos periodicamente',
-              '**LinkedIn**: pesquisar "TOC English-speaking Portugal" — há uma subcategoria para especialistas que trabalham com expatriados',
-              '**Reddit**: r/Portugal, r/portugalexpats — a thread com recomendações é atualizada regularmente',
-              '**Coworkings**: muitas vezes têm contabilistas parceiros com desconto para membros (Avila Spaces, Cowork Central)'
+              'Grupos de Facebook: "Portugal Americans", "Expats in Lisbon", "Russian speakers in Portugal" — pedir recomendações',
+              'Telegram: @portugalpages — diretório; @lisbon_chat — contabilistas são discutidos periodicamente',
+              'LinkedIn: pesquisar "TOC English-speaking Portugal" — há uma subcategoria para especialistas que trabalham com expatriados',
+              'Reddit: r/Portugal, r/portugalexpats — a thread com recomendações é atualizada regularmente',
+              'Coworkings: muitas vezes têm contabilistas parceiros com desconto para membros (Avila Spaces, Cowork Central)'
             ]}
           ]},
           { id: 'f3', title: 'Empresas especializadas', content: [
             { kind: 'checklist', items: [
-              '**Para IFICI / NHR**: as grandes empresas conhecem as nuances — PwC, KPMG, Deloitte (caro: 1500-5000 €/ano)',
-              '**Com abordagem digital**: JustAccounts, Cegoc, Gurunima — contabilidade online com apoio em inglês, 50-150 €/mês',
-              '**Marcas internacionais**: Berkshire Accounting, PortugalClue, NHRPortugal',
-              '**Locais**: existem em todas as cidades — pergunte no seu condomínio'
+              'Para IFICI / NHR: as grandes empresas conhecem as nuances — PwC, KPMG, Deloitte (caro: 1500-5000 €/ano)',
+              'Com abordagem digital: JustAccounts, Cegoc, Gurunima — contabilidade online com apoio em inglês, 50-150 €/mês',
+              'Marcas internacionais: Berkshire Accounting, PortugalClue, NHRPortugal',
+              'Locais: existem em todas as cidades — pergunte no seu condomínio'
             ]}
           ]}
         ]}
@@ -77,14 +77,14 @@ export default {
       title: '💰 Quanto custa',
       content: [
         { kind: 'checklist', items: [
-          '🎯 **Recibos verdes simples (< 15k de volume de negócios)**: não é obrigatório, mas para ajuda com o IRS — 100-200 € uma única vez',
-          '🎯 **Recibos verdes com IVA (15-75k)**: 50-150 €/mês ou trimestralmente; no regime simplificado, o IVA é normalmente trimestral (monthly — para volumes de negócios acima do CIVA threshold)',
-          '🎯 **Recibos verdes com volume de negócios elevado (75k+)**: 100-200 €/mês + SAF-T',
-          '🏢 **Unipessoal Lda (pequena pessoa coletiva)**: 150-300 €/mês',
-          '🏢 **SA / Lda grande**: 300-800 €/mês + auditor',
-          '➕ **À parte**: relatório anual IES — 100-300 €; consultas 50-100 €/hora',
-          '🌐 **Sobretaxa por inglês**: +30-50% sobre os preços locais',
-          '💳 **Pagamento**: geralmente débito direto mensal ou transferência, alguns cobram trimestralmente'
+          '🎯 Recibos verdes simples (< 15k de volume de negócios): não é obrigatório, mas para ajuda com o IRS — 100-200 € uma única vez',
+          '🎯 Recibos verdes com IVA (15-75k): 50-150 €/mês ou trimestralmente; no regime simplificado, o IVA é normalmente trimestral (monthly — para volumes de negócios acima do CIVA threshold)',
+          '🎯 Recibos verdes com volume de negócios elevado (75k+): 100-200 €/mês + SAF-T',
+          '🏢 Unipessoal Lda (pequena pessoa coletiva): 150-300 €/mês',
+          '🏢 SA / Lda grande: 300-800 €/mês + auditor',
+          '➕ À parte: relatório anual IES — 100-300 €; consultas 50-100 €/hora',
+          '🌐 Sobretaxa por inglês: +30-50% sobre os preços locais',
+          '💳 Pagamento: geralmente débito direto mensal ou transferência, alguns cobram trimestralmente'
         ]}
       ]
     },
@@ -95,19 +95,19 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Mensalmente / periodicamente', content: [
             { kind: 'checklist', items: [
-              '**Declarações de IVA** (trimestre / mês) — normalmente até ao dia 20 do segundo mês após o período, pagamento até ao dia 25 (CIVA art. 41)',
-              '**Segurança Social** relatórios — se tiver trabalhadores',
-              '**Retenção na fonte** — retenções a trabalhadores independentes contratados e fornecedores',
-              '**SAF-T** — para volumes de negócios elevados'
+              'Declarações de IVA (trimestre / mês) — normalmente até ao dia 20 do segundo mês após o período, pagamento até ao dia 25 (CIVA art. 41)',
+              'Segurança Social relatórios — se tiver trabalhadores',
+              'Retenção na fonte — retenções a trabalhadores independentes contratados e fornecedores',
+              'SAF-T — para volumes de negócios elevados'
             ]}
           ]},
           { id: 'c2', title: 'Anualmente', content: [
             { kind: 'checklist', items: [
-              '**IRS** (pessoas singulares / trabalhadores independentes) — entrega de abril a junho',
-              '**Modelo 22** (IRC para empresas) — entrega até 31 de maio',
-              '**IES** (declaração informativa) — até 15 de julho',
-              '**Declaração de dividendos / distribuição de lucros**',
-              '**Estado ativo** (atividades) — atualizar se o CAE / endereço tiver mudado'
+              'IRS (pessoas singulares / trabalhadores independentes) — entrega de abril a junho',
+              'Modelo 22 (IRC para empresas) — entrega até 31 de maio',
+              'IES (declaração informativa) — até 15 de julho',
+              'Declaração de dividendos / distribuição de lucros',
+              'Estado ativo (atividades) — atualizar se o CAE / endereço tiver mudado'
             ]}
           ]},
           { id: 'c3', title: 'A pedido', content: [
@@ -128,16 +128,16 @@ export default {
       title: '🚩 A que deve prestar atenção',
       content: [
         { kind: 'checklist', items: [
-          '✅ **Registo na OCC** — obrigatório. O contabilista deve ser membro da Ordem',
-          '✅ **Contrato escrito** — com descrição do âmbito dos trabalhos, prazos e custo',
-          '✅ **Relatórios mensais** — bons contabilistas enviam um resumo todos os meses',
-          '✅ **Acesso ao Portal AT** — através da sua CMD / CC, não através da conta dele',
-          '✅ **Inglês** ou russo — se não fala português, procure um especialista bilingue',
-          '❌ **«Nós otimizamos, não se vai arrepender»** sem detalhes — sinal de alerta, potencial esquema ilegal',
-          '❌ **Sem registo na OCC** ou com registo cancelado — não pode assinar, as suas declarações serão rejeitadas',
-          '❌ **Não responde durante semanas** — mude',
-          '❌ **Exige uma cópia do PIN da CMD** — não, nunca. É sempre você que confirma',
-          '❌ **«Não vou comunicar à AT o seu estatuto»** — você é responsável perante a AT, o contabilista é um apoio, mas a responsabilidade é sua'
+          '✅ Registo na OCC — obrigatório. O contabilista deve ser membro da Ordem',
+          '✅ Contrato escrito — com descrição do âmbito dos trabalhos, prazos e custo',
+          '✅ Relatórios mensais — bons contabilistas enviam um resumo todos os meses',
+          '✅ Acesso ao Portal AT — através da sua CMD / CC, não através da conta dele',
+          '✅ Inglês ou russo — se não fala português, procure um especialista bilingue',
+          '❌ «Nós otimizamos, não se vai arrepender» sem detalhes — sinal de alerta, potencial esquema ilegal',
+          '❌ Sem registo na OCC ou com registo cancelado — não pode assinar, as suas declarações serão rejeitadas',
+          '❌ Não responde durante semanas — mude',
+          '❌ Exige uma cópia do PIN da CMD — não, nunca. É sempre você que confirma',
+          '❌ «Não vou comunicar à AT o seu estatuto» — você é responsável perante a AT, o contabilista é um apoio, mas a responsabilidade é sua'
         ]}
       ]
     },
@@ -148,7 +148,7 @@ export default {
         { kind: 'checklist', items: [
           '1. Encontrar um novo — por recomendações ou através do diretório da OCC',
           '2. Notificar o anterior por escrito da cessação dos serviços (normalmente basta email)',
-          '3. Pedir a **transferência de documentos** — todas as suas declarações, contratos com a AT dos últimos 4+ anos',
+          '3. Pedir a transferência de documentos — todas as suas declarações, contratos com a AT dos últimos 4+ anos',
           '4. O novo contabilista regista-se como o seu TOC no Portal AT (através de si, com CMD)',
           '5. Alterar o acesso ao Portal — remover o anterior',
           '6. Verificar o primeiro mês de trabalho do novo — para garantir uma transição limpa',

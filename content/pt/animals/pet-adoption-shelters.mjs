@@ -26,22 +26,22 @@ export default {
           ]},
           { id: 'w2', title: 'Associações privadas', content: [
             { kind: 'checklist', items: [
-              '🐕 **União Zoófila** (zoofila.pt) — a maior, Lisboa',
-              '🐱 **ANIMAL** (animal.pt) — nacional',
-              '🦴 **Bianca** (bianca.pt) — Algarve, especializada em cães idosos',
-              '🐶 **SOS Animal** (sosanimal.pt) — resgate',
-              '🐈 **Gatos de Rua** (gatosderua.pt) — esterilização de gatos urbanos',
+              '🐕 União Zoófila (zoofila.pt) — a maior, Lisboa',
+              '🐱 ANIMAL (animal.pt) — nacional',
+              '🦴 Bianca (bianca.pt) — Algarve, especializada em cães idosos',
+              '🐶 SOS Animal (sosanimal.pt) — resgate',
+              '🐈 Gatos de Rua (gatosderua.pt) — esterilização de gatos urbanos',
               '💰 Taxas 30-100 € (para cobrir esterilização, vacinas, chip)',
               '✅ Muitas vezes fazem avaliação e identificam antecipadamente problemas de comportamento'
             ]}
           ]},
           { id: 'w3', title: 'Plataformas de pesquisa', content: [
             { kind: 'checklist', items: [
-              '🌐 **adopt.cao.pt** — base nacional (cães e gatos)',
-              '🌐 **adoptar.pt** — base privada, muitos anúncios',
-              '📱 **Tirar de Caixa** (Lisboa) — grupo no Facebook',
-              '📱 **Adopta Lisboa** — aplicação para adopção',
-              '📱 **Pawsome** — aplicação económica para consultar animais'
+              '🌐 adopt.cao.pt — base nacional (cães e gatos)',
+              '🌐 adoptar.pt — base privada, muitos anúncios',
+              '📱 Tirar de Caixa (Lisboa) — grupo no Facebook',
+              '📱 Adopta Lisboa — aplicação para adopção',
+              '📱 Pawsome — aplicação económica para consultar animais'
             ]}
           ]},
           { id: 'w4', title: 'Achados ocasionais', content: [
@@ -143,9 +143,9 @@ export default {
       title: '🏠 Após a adopção',
       content: [
         { kind: 'checklist', items: [
-          '🎓 **Primeiros 30 dias de adaptação**: ambiente calmo, não receber muitos convidados, dê tempo',
+          '🎓 Primeiros 30 dias de adaptação: ambiente calmo, não receber muitos convidados, dê tempo',
           '🩺 Primeira consulta de rotina no veterinário (o seu, não o do abrigo) — 2 semanas após a adopção',
-          '💪 **Especialista em comportamento** (para cães com trauma): treinador com abordagem positiva',
+          '💪 Especialista em comportamento (para cães com trauma): treinador com abordagem positiva',
           '🐾 Passeios 2-3 vezes por dia (cães), brincadeiras (gatos)',
           '📸 Redes sociais: ajude o abrigo — publique fotografias, recomende',
           '🎁 Devolução ao abrigo (se não resultar): normalmente há 30 dias para devolver; não abandone na rua!',
@@ -159,12 +159,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Decreto-Lei 315/2009, alterado pela Lei 110/2015; lista de raças potencialmente perigosas — Portaria 422/2004. Para adopção são exigidas condições adicionais.' },
         { kind: 'checklist', items: [
-          '🐕 **Raças potencialmente perigosas**: Cão de Fila Brasileiro, Dogo Argentino, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu — e os seus cruzamentos',
-          '📋 **Licença de detenção** na Junta de Freguesia',
-          '💼 **Seguro de responsabilidade civil** mínimo de 50 000 €',
-          '🐾 **Curso de comportamento** + certificado',
-          '🩺 **Avaliação completa** do detentor (médica, psicológica)',
-          '🚶 **No passeio**: açaime + trela curta ≤1 m + adulto ≥ 16 anos',
+          '🐕 Raças potencialmente perigosas: Cão de Fila Brasileiro, Dogo Argentino, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu — e os seus cruzamentos',
+          '📋 Licença de detenção na Junta de Freguesia',
+          '💼 Seguro de responsabilidade civil mínimo de 50 000 €',
+          '🐾 Curso de comportamento + certificado',
+          '🩺 Avaliação completa do detentor (médica, psicológica)',
+          '🚶 No passeio: açaime + trela curta ≤1 m + adulto ≥ 16 anos',
           '⚠️ Mais difícil de adoptar — os abrigos são exigentes',
           '📜 Testes comportamentais ao próprio cão'
         ]}

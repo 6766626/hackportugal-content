@@ -11,13 +11,13 @@ export default {
       id: 'emergency-rights',
       title: '🚨 Emergency care — they must provide it, but it is not always free',
       content: [
-        { kind: 'paragraph', text: 'The right to health protection is enshrined in **Constituição art. 64** and **Lei de Bases da Saúde (Lei n.º 95/2019)**. Special access rules apply to foreigners in an irregular situation (Despacho n.º 25360/2001); for minors — Decreto-Lei n.º 67/2004. The taxas moderadoras regime is regulated by Decreto-Lei n.º 37/2022.' },
+        { kind: 'paragraph', text: 'The right to health protection is enshrined in Constituição art. 64 and Lei de Bases da Saúde (Lei n.º 95/2019). Special access rules apply to foreigners in an irregular situation (Despacho n.º 25360/2001); for minors — Decreto-Lei n.º 67/2004. The taxas moderadoras regime is regulated by Decreto-Lei n.º 37/2022.' },
         { kind: 'checklist', items: [
-          '✅ **112** — the single European emergency number in Portugal. **SNS 24: 808 24 24 24** — triage/advice, may refer you to urgência. If life is at risk, call 112',
-          '✅ **Urgência in a public hospital**: they must provide care in the event of an immediate threat, regardless of documents',
-          '✅ **Childbirth and perinatal care**: for pregnant women without documents — a special access regime',
-          '✅ **Injury, accident**: care provided regardless of status',
-          '✅ **Mental health emergency**: in immediate danger — 112/urgência. For psychological support — SNS 24: 808 24 24 24',
+          '✅ 112 — the single European emergency number in Portugal. SNS 24: 808 24 24 24 — triage/advice, may refer you to urgência. If life is at risk, call 112',
+          '✅ Urgência in a public hospital: they must provide care in the event of an immediate threat, regardless of documents',
+          '✅ Childbirth and perinatal care: for pregnant women without documents — a special access regime',
+          '✅ Injury, accident: care provided regardless of status',
+          '✅ Mental health emergency: in immediate danger — 112/urgência. For psychological support — SNS 24: 808 24 24 24',
           '⚠️ Non-emergency care without entitlement to SNS/insurance may be chargeable at SNS/institution tariffs (Portaria n.º 207/2017 and amendments). The final cost depends on the service, tests and hospitalisation; the price can be significantly higher than a simple consultation',
           '⚠️ “Must accept you” does not mean “free for everyone”: taxas moderadoras in urgência still apply in a number of cases if the visit was not referred through SNS 24/INEM/an institution and did not end in hospitalisation'
         ]}
@@ -27,7 +27,7 @@ export default {
       id: 'utente-provisorio',
       title: '📋 Número de Utente for foreign residents',
       content: [
-        { kind: 'paragraph', text: 'For healthcare, the key identifier is the **Número de Utente** (registration in the RNU through Centro de Saúde/ULS). NISS is the Segurança Social number: it is needed for social insurance and some benefits, but **it is not the main document for registering with the SNS**.' },
+        { kind: 'paragraph', text: 'For healthcare, the key identifier is the Número de Utente (registration in the RNU through Centro de Saúde/ULS). NISS is the Segurança Social number: it is needed for social insurance and some benefits, but it is not the main document for registering with the SNS.' },
         { kind: 'substeps', items: [
           { id: 'u1', title: 'Documents', content: [
             { kind: 'checklist', items: [
@@ -59,7 +59,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 't1', title: 'EU/EEA/Switzerland', content: [
             { kind: 'checklist', items: [
-              '✅ **EHIC / CESD** — covers medically necessary care in the public system during a temporary stay on the same terms as for local users',
+              '✅ EHIC / CESD — covers medically necessary care in the public system during a temporary stay on the same terms as for local users',
               '✅ Show the card + passport at the hospital. The same fees/conditions as for local residents may apply',
               '⚠️ Not covered: private clinics, repatriation, planned treatment without separate authorisation',
               '⚠️ If you do not have EHIC — pay at SNS/institution tariffs as a private patient, then claim reimbursement through insurance in your country'
@@ -67,11 +67,11 @@ export default {
           ]},
           { id: 't2', title: 'Non-EU tourists', content: [
             { kind: 'checklist', items: [
-              '⚠️ You should have **travel health insurance** ≥ €30,000 (for a Schengen visa)',
+              '⚠️ You should have travel health insurance ≥ €30,000 (for a Schengen visa)',
               '✅ Emergency: care will be provided immediately; afterwards the hospital may bill you or your insurer if you have no entitlement to SNS/EHIC or other cover',
               '💰 Without insurance: bills at institution tariffs are possible — €100–300 per visit, €1,000+ for surgery',
               '🏥 Private clinics: much more dependent on insurance / cash payment',
-              '🛂 **Ukrainian refugees (Proteção Temporária)**: have access to SNS through temporary protection registration — obtain a número de utente through Centro de Saúde with AIMA documents'
+              '🛂 Ukrainian refugees (Proteção Temporária): have access to SNS through temporary protection registration — obtain a número de utente through Centro de Saúde with AIMA documents'
             ]}
           ]},
           { id: 't3', title: 'Travel insurance providers', content: [
@@ -91,14 +91,14 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Sometimes people are in a transitional period: a visa is expiring, a residence permit is under review, or there is no legal status. Full access does not work, but there are options.' },
         { kind: 'checklist', items: [
-          '🏥 **Emergency care**: provided to everyone — you will NOT be sent home even without legal status. But a bill may be issued (if there is no exemption under a special programme)',
-          '👶 **Childbirth + perinatal care**: for pregnant women without documents — a special access regime under protected categories',
-          '👶 **Foreign minors in an irregular situation** have special protection and access to healthcare/education regardless of their parents’ status; this is arranged through the competent services (DL n.º 67/2004)',
-          '🤰 **Pregnant women**: are protected categories and should receive acompanhamento da gravidez/parto; even with irregular status, contact Centro de Saúde/urgência. Take any documents proving identity and address; the payment/exemption regime depends on registration and status',
-          '🏥 **Asylum seekers**: after submitting an application, they have the right to access SNS/necessary medical care under the reception regime (Lei n.º 27/2008, as amended). For registration, a comprovativo/declaração of application submission through AIMA is usually needed. Vulnerable groups have additional guarantees',
-          '🏥 **Victims of human trafficking**: emergency + further medical care, special programme',
-          '🎯 **Charities**: Médicos do Mundo PT (medicosdomundo.pt) offers free clinics for people without documents, Lisboa and Porto',
-          '🎯 **Cuidados de Saúde Primários — Programa para imigrantes**: in some municipalities there are mobile clinics'
+          '🏥 Emergency care: provided to everyone — you will NOT be sent home even without legal status. But a bill may be issued (if there is no exemption under a special programme)',
+          '👶 Childbirth + perinatal care: for pregnant women without documents — a special access regime under protected categories',
+          '👶 Foreign minors in an irregular situation have special protection and access to healthcare/education regardless of their parents’ status; this is arranged through the competent services (DL n.º 67/2004)',
+          '🤰 Pregnant women: are protected categories and should receive acompanhamento da gravidez/parto; even with irregular status, contact Centro de Saúde/urgência. Take any documents proving identity and address; the payment/exemption regime depends on registration and status',
+          '🏥 Asylum seekers: after submitting an application, they have the right to access SNS/necessary medical care under the reception regime (Lei n.º 27/2008, as amended). For registration, a comprovativo/declaração of application submission through AIMA is usually needed. Vulnerable groups have additional guarantees',
+          '🏥 Victims of human trafficking: emergency + further medical care, special programme',
+          '🎯 Charities: Médicos do Mundo PT (medicosdomundo.pt) offers free clinics for people without documents, Lisboa and Porto',
+          '🎯 Cuidados de Saúde Primários — Programa para imigrantes: in some municipalities there are mobile clinics'
         ]}
       ]
     },
@@ -120,12 +120,12 @@ export default {
       title: '💼 Affordable private healthcare — if SNS is slow',
       content: [
         { kind: 'checklist', items: [
-          'Budget: **AdvanceCare basic plan** around €40/month — gives access to private healthcare with co-payment',
-          '**Generali Saúde** — basic family plan €60–90/month',
-          '**Médis Essencial** — entry-level tariff €30–50/month',
-          '**One-off visits** to a clinic without insurance: €40–80 GP, €70–150 specialist',
-          '**Clinics with reasonable tariffs**: Cruz Vermelha clinics, Misericórdia clinics — non-profit',
-          '**Online consultation**: Knok, Doctorino — €30–50 per video visit, receipt. Prices and availability of English-speaking doctors change — check before booking',
+          'Budget: AdvanceCare basic plan around €40/month — gives access to private healthcare with co-payment',
+          'Generali Saúde — basic family plan €60–90/month',
+          'Médis Essencial — entry-level tariff €30–50/month',
+          'One-off visits to a clinic without insurance: €40–80 GP, €70–150 specialist',
+          'Clinics with reasonable tariffs: Cruz Vermelha clinics, Misericórdia clinics — non-profit',
+          'Online consultation: Knok, Doctorino — €30–50 per video visit, receipt. Prices and availability of English-speaking doctors change — check before booking',
           'Saúde 24 chat: free, does not replace a doctor, but gives an initial opinion'
         ]}
       ]

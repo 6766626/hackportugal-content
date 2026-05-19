@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'Até 1 ano, sem autorização de residência. Pode ser prorrogado até 2 anos. Adequado se quiser experimentar viver em Portugal.' }
           ]},
           { id: 'v2', title: 'D8 de longa duração (visto de residência)', content: [
-            { kind: 'paragraph', text: 'Dá direito a requerer uma autorização de residência completa por 2 anos, com renovações posteriores. O caminho para a nacionalidade segue a Lei 37/81 em vigor após 5 anos de residência legal.\n\n**Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026**; publicado em 18.05.2026 como **Lei Orgânica n.º 1/2026**. Após a publicação no Diário da República, o prazo de naturalização aumentará para 10 anos para nacionais de países terceiros. O texto da lei contém uma disposição transitória: aos processos em tramitação aplica-se a redação anterior da Lei 37/81 (5 anos).' }
+            { kind: 'paragraph', text: 'Dá direito a requerer uma autorização de residência completa por 2 anos, com renovações posteriores. O caminho para a nacionalidade segue a Lei 37/81 em vigor após 5 anos de residência legal.\n\nDecreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026; publicado em 18.05.2026 como Lei Orgânica n.º 1/2026. Após a publicação no Diário da República, o prazo de naturalização aumentará para 10 anos para nacionais de países terceiros. O texto da lei contém uma disposição transitória: aos processos em tramitação aplica-se a redação anterior da Lei 37/81 (5 anos).' }
           ]}
         ]}
       ]

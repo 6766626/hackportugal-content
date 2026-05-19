@@ -3,28 +3,28 @@ export default {
   id: 'naturalization-2026',
   categoryId: 'nationality',
   title: 'Naturalização — cidadania portuguesa ao abrigo da nova lei Lei Orgânica 1/2026',
-  tldr: '🆕 **Lei Orgânica n.º 1/2026** publicada no DR em **18.05.2026**, em vigor desde **19.05.2026**. Percurso-base ao abrigo da nova lei:\n\n📅 **Prazo de residência:** 7 anos para cidadãos CPLP e UE/EEE/Suíça; **10 anos** para países terceiros. Conta APENAS o tempo desde a data de emissão do primeiro título de residência — o tempo de espera pela primeira autorização de residência já NÃO conta.\n\n🗣️ **Conhecimento de português A2** (CIPLE ou certificado equivalente). Para CPLP — não é exigido.\n\n📝 **Teste obrigatório** sobre cultura portuguesa, direitos e deveres dos cidadãos, organização política.\n\n⚖️ **Sem condenações** com pena ≥ 3 anos de prisão (limiar agravado).\n\n🏠 **Presença física real** — não basta simplesmente ter autorização de residência.\n\n🚫 **Via sefardita totalmente revogada**.\n\n⚖️ **Regime transitório (para quem submeteu ANTES de 19.05.2026):** aplica-se a anterior Lei 37/81 — 5 anos de residência para todas as nacionalidades, sem teste cultural obrigatório, limiar de condenação de 5 anos. O IRN confirmou em 07–08.05.2026: o corte decisivo é a **data de submissão na plataforma online Portal da Nacionalidade**; tudo o que foi submetido antes de 19.05.2026 é analisado pelas regras antigas.\n\n🔴 **Decreto 49/XVII conexo** (perda da nacionalidade como pena criminal): em 08.05.2026 o TC declarou-o INCONSTITUCIONAL por unanimidade; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento. O PSD não irá reconfirmar; para ultrapassar o TC são necessários 2/3 dos votos — improvável.',
+  tldr: '🆕 Lei Orgânica n.º 1/2026 publicada no DR em 18.05.2026, em vigor desde 19.05.2026. Percurso-base ao abrigo da nova lei:\n\n📅 Prazo de residência: 7 anos para cidadãos CPLP e UE/EEE/Suíça; 10 anos para países terceiros. Conta APENAS o tempo desde a data de emissão do primeiro título de residência — o tempo de espera pela primeira autorização de residência já NÃO conta.\n\n🗣️ Conhecimento de português A2 (CIPLE ou certificado equivalente). Para CPLP — não é exigido.\n\n📝 Teste obrigatório sobre cultura portuguesa, direitos e deveres dos cidadãos, organização política.\n\n⚖️ Sem condenações com pena ≥ 3 anos de prisão (limiar agravado).\n\n🏠 Presença física real — não basta simplesmente ter autorização de residência.\n\n🚫 Via sefardita totalmente revogada.\n\n⚖️ Regime transitório (para quem submeteu ANTES de 19.05.2026): aplica-se a anterior Lei 37/81 — 5 anos de residência para todas as nacionalidades, sem teste cultural obrigatório, limiar de condenação de 5 anos. O IRN confirmou em 07–08.05.2026: o corte decisivo é a data de submissão na plataforma online Portal da Nacionalidade; tudo o que foi submetido antes de 19.05.2026 é analisado pelas regras antigas.\n\n🔴 Decreto 49/XVII conexo (perda da nacionalidade como pena criminal): em 08.05.2026 o TC declarou-o INCONSTITUCIONAL por unanimidade; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento. O PSD não irá reconfirmar; para ultrapassar o TC são necessários 2/3 dos votos — improvável.',
   tags: ['cidadania', 'naturalização', 'cplp'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 **Lei Orgânica n.º 1/2026 publicada em 18.05.2026 no DR**, **em vigor desde 19.05.2026**. Novos prazos de naturalização: **7 anos para CPLP+UE, 10 anos para países terceiros** (a partir da data de emissão da primeira autorização de residência — o tempo de espera já NÃO conta). Foi acrescentado teste cultural obrigatório, o limiar de condenação foi reduzido de 5 para 3 anos, a via sefardita foi revogada, e para crianças nascidas em PT os pais precisam de 5 anos de autorização de residência. **Regime transitório:** todos os pedidos submetidos no Portal da Nacionalidade ANTES de 19.05.2026 são analisados ao abrigo da anterior Lei 37/81 (5 anos). 🔴 Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — o TC declarou-o INCONSTITUCIONAL por unanimidade em 08.05.2026; o Presidente Seguro devolveu-o ao Parlamento em 12.05.2026.',
+  changeSummary: '🆕 Lei Orgânica n.º 1/2026 publicada em 18.05.2026 no DR, em vigor desde 19.05.2026. Novos prazos de naturalização: 7 anos para CPLP+UE, 10 anos para países terceiros (a partir da data de emissão da primeira autorização de residência — o tempo de espera já NÃO conta). Foi acrescentado teste cultural obrigatório, o limiar de condenação foi reduzido de 5 para 3 anos, a via sefardita foi revogada, e para crianças nascidas em PT os pais precisam de 5 anos de autorização de residência. Regime transitório: todos os pedidos submetidos no Portal da Nacionalidade ANTES de 19.05.2026 são analisados ao abrigo da anterior Lei 37/81 (5 anos). 🔴 Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — o TC declarou-o INCONSTITUCIONAL por unanimidade em 08.05.2026; o Presidente Seguro devolveu-o ao Parlamento em 12.05.2026.',
   variants: [
     {
       id: 'cplp',
       audience: { citizenships: ['cplp'] },
-      tldr: 'Cidadãos CPLP ao abrigo da nova Lei Orgânica 1/2026 (desde 19.05.2026): **7 anos** de residência legal + teste cultural. Língua A2 — automática (português como língua materna/oficial). Submeteu ANTES de 19.05.2026 — 5 anos ao abrigo da anterior Lei 37/81.',
+      tldr: 'Cidadãos CPLP ao abrigo da nova Lei Orgânica 1/2026 (desde 19.05.2026): 7 anos de residência legal + teste cultural. Língua A2 — automática (português como língua materna/oficial). Submeteu ANTES de 19.05.2026 — 5 anos ao abrigo da anterior Lei 37/81.',
       timelineDaysMin: 180,
       timelineDaysMax: 540
     },
     {
       id: 'eu-eea',
       audience: { citizenships: ['euEeaSwiss'] },
-      tldr: 'Cidadãos UE/EEE/Suíça ao abrigo da nova Lei Orgânica 1/2026 (desde 19.05.2026): **7 anos** (equiparados à CPLP) + CIPLE A2 + teste cultural. A dupla nacionalidade é permitida. Submeteu ANTES de 19.05.2026 — 5 anos ao abrigo da anterior Lei 37/81.'
+      tldr: 'Cidadãos UE/EEE/Suíça ao abrigo da nova Lei Orgânica 1/2026 (desde 19.05.2026): 7 anos (equiparados à CPLP) + CIPLE A2 + teste cultural. A dupla nacionalidade é permitida. Submeteu ANTES de 19.05.2026 — 5 anos ao abrigo da anterior Lei 37/81.'
     },
     {
       id: 'third-country',
       audience: { citizenships: ['thirdCountry'] },
-      tldr: 'Cidadãos de países terceiros ao abrigo da nova Lei Orgânica 1/2026 (desde 19.05.2026): **10 anos** de residência legal + CIPLE A2 + teste cultural. A maioria dos países admite dupla nacionalidade — confirme a lei do seu país. Submeteu ANTES de 19.05.2026 — 5 anos ao abrigo da anterior Lei 37/81.'
+      tldr: 'Cidadãos de países terceiros ao abrigo da nova Lei Orgânica 1/2026 (desde 19.05.2026): 10 anos de residência legal + CIPLE A2 + teste cultural. A maioria dos países admite dupla nacionalidade — confirme a lei do seu país. Submeteu ANTES de 19.05.2026 — 5 anos ao abrigo da anterior Lei 37/81.'
     }
   ],
   steps: [
@@ -32,20 +32,20 @@ export default {
       id: 'new-law',
       title: 'Condições principais ao abrigo da Lei Orgânica 1/2026 (desde 19.05.2026)',
       content: [
-        { kind: 'paragraph', text: 'A nova redacção da Lei 37/81, aprovada pela **Lei Orgânica n.º 1/2026** (publicada no DR em 18.05.2026, em vigor desde 19.05.2026), aplica-se a todos os pedidos submetidos **em 19.05.2026 ou depois**. Requisitos-base:' },
+        { kind: 'paragraph', text: 'A nova redacção da Lei 37/81, aprovada pela Lei Orgânica n.º 1/2026 (publicada no DR em 18.05.2026, em vigor desde 19.05.2026), aplica-se a todos os pedidos submetidos em 19.05.2026 ou depois. Requisitos-base:' },
         { kind: 'checklist', items: [
-          '📅 **Residência legal em Portugal**: **7 anos** para cidadãos CPLP e UE/EEE/Suíça; **10 anos** para cidadãos de países terceiros. Conta APENAS o tempo desde a data de emissão do primeiro título de residência (manifestação de interesse e tempo de espera pela primeira autorização de residência já NÃO contam)',
-          '🗣️ **Conhecimento de português A2**: CIPLE/DEPLE/diploma escolar ≥ 150 horas com nível A2/diploma de instituição de ensino superior portuguesa/conclusão do 6.º ano de escolaridade em Portugal. Não é exigido para cidadãos CPLP',
-          '📝 **Teste obrigatório sobre cultura portuguesa, direitos e deveres dos cidadãos, organização política do Estado** (novo requisito)',
-          '🏠 **Presença física real** — não basta simplesmente ter autorização de residência; AIMA/IRN verificam a residência efectiva',
-          '⚖️ **Sem condenações** com pena ≥ 3 anos de prisão em qualquer país de residência (limiar agravado de 5 para 3 anos)',
+          '📅 Residência legal em Portugal: 7 anos para cidadãos CPLP e UE/EEE/Suíça; 10 anos para cidadãos de países terceiros. Conta APENAS o tempo desde a data de emissão do primeiro título de residência (manifestação de interesse e tempo de espera pela primeira autorização de residência já NÃO contam)',
+          '🗣️ Conhecimento de português A2: CIPLE/DEPLE/diploma escolar ≥ 150 horas com nível A2/diploma de instituição de ensino superior portuguesa/conclusão do 6.º ano de escolaridade em Portugal. Não é exigido para cidadãos CPLP',
+          '📝 Teste obrigatório sobre cultura portuguesa, direitos e deveres dos cidadãos, organização política do Estado (novo requisito)',
+          '🏠 Presença física real — não basta simplesmente ter autorização de residência; AIMA/IRN verificam a residência efectiva',
+          '⚖️ Sem condenações com pena ≥ 3 anos de prisão em qualquer país de residência (limiar agravado de 5 para 3 anos)',
           '🛡️ Não representar uma ameaça à segurança nacional'
         ]},
         { kind: 'paragraph', text: 'O que foi revogado na nova redacção:' },
         { kind: 'checklist', items: [
-          '🚫 **Via sefardita totalmente revogada** (Lei 43/2013 + DL 30-A/2015 e LO 1/2024 — já não se aplicam a novos pedidos)',
-          '🚫 **O tempo de espera pela primeira autorização de residência já NÃO conta** para o período de naturalização',
-          '⚠️ Para **crianças nascidas em Portugal**: para pedir a nacionalidade da criança por este fundamento, os pais passam a ter de ter **≥ 5 anos de autorização de residência válida**'
+          '🚫 Via sefardita totalmente revogada (Lei 43/2013 + DL 30-A/2015 e LO 1/2024 — já não se aplicam a novos pedidos)',
+          '🚫 O tempo de espera pela primeira autorização de residência já NÃO conta para o período de naturalização',
+          '⚠️ Para crianças nascidas em Portugal: para pedir a nacionalidade da criança por este fundamento, os pais passam a ter de ter ≥ 5 anos de autorização de residência válida'
         ]},
         { kind: 'paragraph', text: 'O que NÃO mudou:' },
         { kind: 'checklist', items: [
@@ -58,10 +58,10 @@ export default {
       id: 'old-law-transition',
       title: '⚖️ Regime transitório: para pedidos submetidos ANTES de 19.05.2026',
       content: [
-        { kind: 'paragraph', text: 'Se o seu pedido foi submetido no Portal da Nacionalidade ou por outro meio junto do IRN **ANTES de 19.05.2026**, aplica-se-lhe a **redacção anterior da Lei 37/81** (independentemente de quando o IRN analisar fisicamente o processo). Isto é confirmado pelo próprio texto da Lei Orgânica 1/2026 (norma transitória) + esclarecimento público do IRN de 07–08.05.2026.' },
+        { kind: 'paragraph', text: 'Se o seu pedido foi submetido no Portal da Nacionalidade ou por outro meio junto do IRN ANTES de 19.05.2026, aplica-se-lhe a redacção anterior da Lei 37/81 (independentemente de quando o IRN analisar fisicamente o processo). Isto é confirmado pelo próprio texto da Lei Orgânica 1/2026 (norma transitória) + esclarecimento público do IRN de 07–08.05.2026.' },
         { kind: 'paragraph', text: 'Redacção anterior da Lei 37/81 — diferenças principais face à nova:' },
         { kind: 'checklist', items: [
-          '📅 **5 anos** de residência legal para TODAS as nacionalidades (CPLP, UE, países terceiros)',
+          '📅 5 anos de residência legal para TODAS as nacionalidades (CPLP, UE, países terceiros)',
           '🗣️ Conhecimento de português A2 — o mesmo requisito (para não-CPLP)',
           '❌ NÃO há teste cultural',
           '⚖️ Limiar de condenação — 5 anos de prisão (não 3 anos)',
@@ -69,14 +69,14 @@ export default {
           '⏱️ O tempo de espera pela primeira autorização de residência (incluindo MdI, se submetida antes de 03.06.2024 e com comprovativo obtido) podia contar — posição controversa e dependente da Conservatória/jurisprudência',
           '⚠️ A via sefardita funcionava no regime pós-LO 1/2024 (residência de 3+ anos + comissão) — mas apenas para pedidos submetidos antes de 19.05.2026'
         ]},
-        { kind: 'warning', text: 'O corte decisivo é a **data de submissão no Portal da Nacionalidade**, e não a data de registo físico no IRN. Se conseguiu clicar em «Submeter» na plataforma online antes das 23:59 de 18.05.2026, o seu processo segue pelas regras anteriores.' }
+        { kind: 'warning', text: 'O corte decisivo é a data de submissão no Portal da Nacionalidade, e não a data de registo físico no IRN. Se conseguiu clicar em «Submeter» na plataforma online antes das 23:59 de 18.05.2026, o seu processo segue pelas regras anteriores.' }
       ]
     },
     {
       id: 'counting-years',
       title: 'Como contar o prazo (ao abrigo da nova Lei Orgânica 1/2026)',
       content: [
-        { kind: 'paragraph', text: 'Pela nova redacção (para pedidos de 19.05.2026 e depois), o prazo conta-se **estritamente a partir da data de emissão do primeiro título de residência**. É um agravamento: o tempo de espera pela primeira autorização de residência e a Manifestação de Interesse já não são considerados.' },
+        { kind: 'paragraph', text: 'Pela nova redacção (para pedidos de 19.05.2026 e depois), o prazo conta-se estritamente a partir da data de emissão do primeiro título de residência. É um agravamento: o tempo de espera pela primeira autorização de residência e a Manifestação de Interesse já não são considerados.' },
         { kind: 'checklist', items: [
           '✅ Ponto de partida — data de EMISSÃO do primeiro título de residência',
           '🚫 O tempo entre o pedido de autorização de residência e a sua emissão — NÃO conta',
@@ -85,7 +85,7 @@ export default {
           '⚠️ Uma saída prolongada > 6 meses seguidos ou > 8 meses no total em 2 anos pode interromper o prazo',
           '⚠️ Se a autorização de residência caducar e não for renovada a tempo — surge uma interrupção da legalidade'
         ]},
-        { kind: 'paragraph', text: 'Para uma contagem exacta, peça à AIMA a certidão **Certidão de residência legal** — confirma as datas de todas as autorizações de residência e períodos. É pedida online em portal.aima.gov.pt (~15 €).' },
+        { kind: 'paragraph', text: 'Para uma contagem exacta, peça à AIMA a certidão Certidão de residência legal — confirma as datas de todas as autorizações de residência e períodos. É pedida online em portal.aima.gov.pt (~15 €).' },
         { kind: 'warning', text: 'Se submeteu o pedido ANTES de 19.05.2026 — aplica-se a anterior Lei 37/81 (5 anos, o tempo de espera pode contar segundo a posição do IRN de 2024). Consulte a secção «Regime transitório» acima.' }
       ]
     },

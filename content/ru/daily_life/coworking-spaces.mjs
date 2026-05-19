@@ -49,12 +49,12 @@ export default {
       title: 'Порту',
       content: [
         { kind: 'checklist', items: [
-          '**Porto i/o** (3 локации: Ribeira, Seaside, Downtown) — самая популярная сеть, 180-350 €/мес',
-          '**Selina Porto** — хостел и коворкинг, дневной абонемент 15 € / 200 €/мес',
-          '**Typographia** (район Bolhão) — атмосфера книжного лофта, 150 €/мес',
-          '**Cowork Porto** (Rua do Almada) — бюджетный, 130 €/мес',
-          '**Cospaces** (Cedofeita) — сообщество фрилансеров, 180-280 €/мес',
-          '**Up.Start** (Boavista) — для стартапов, часто бесплатно для резидентов акселератора'
+          'Porto i/o (3 локации: Ribeira, Seaside, Downtown) — самая популярная сеть, 180-350 €/мес',
+          'Selina Porto — хостел и коворкинг, дневной абонемент 15 € / 200 €/мес',
+          'Typographia (район Bolhão) — атмосфера книжного лофта, 150 €/мес',
+          'Cowork Porto (Rua do Almada) — бюджетный, 130 €/мес',
+          'Cospaces (Cedofeita) — сообщество фрилансеров, 180-280 €/мес',
+          'Up.Start (Boavista) — для стартапов, часто бесплатно для резидентов акселератора'
         ]}
       ]
     },
@@ -76,11 +76,11 @@ export default {
       title: 'Регионы',
       content: [
         { kind: 'checklist', items: [
-          '**Coimbra** — Cowork Coimbra (200 €/мес), студенческая атмосфера',
-          '**Braga** — Startup Braga (0 € для сертифицированных стартапов), Start Point',
-          '**Aveiro** — Creative Science Park 100 €/мес',
-          '**Faro/Algarve** — Cowork Algarve (Loulé), Selina Algarve (Lagos) — особенно популярно зимой у удалёнщиков',
-          '**Évora** — EcoHub Alentejo, редкий коворкинг в регионе, 80 €/мес'
+          'Coimbra — Cowork Coimbra (200 €/мес), студенческая атмосфера',
+          'Braga — Startup Braga (0 € для сертифицированных стартапов), Start Point',
+          'Aveiro — Creative Science Park 100 €/мес',
+          'Faro/Algarve — Cowork Algarve (Loulé), Selina Algarve (Lagos) — особенно популярно зимой у удалёнщиков',
+          'Évora — EcoHub Alentejo, редкий коворкинг в регионе, 80 €/мес'
         ]}
       ]
     },

@@ -56,7 +56,7 @@ export default {
           ]},
           { id: 's5', title: '5. IRS withholding', content: [
             { kind: 'checklist', items: [
-              'Client in Portugal — company/entidade com contabilidade organizada: retenção depends on the type of activity — often **25%** for professions in tabela art. 151 CIRS; **11.5%** only for some other Cat. B income',
+              'Client in Portugal — company/entidade com contabilidade organizada: retenção depends on the type of activity — often 25% for professions in tabela art. 151 CIRS; 11.5% only for some other Cat. B income',
               'Individual client in Portugal — usually no withholding',
               'Foreign client — no Portuguese withholding',
               'If turnover is below the limit and the conditions are met, dispensa de retenção under art. 101-B CIRS may apply',

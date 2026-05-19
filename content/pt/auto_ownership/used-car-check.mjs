@@ -3,7 +3,7 @@ export default {
   id: 'used-car-check',
   categoryId: 'auto_ownership',
   title: 'Verificação de carro usado antes da compra em Portugal',
-  tldr: 'Cinco verificações antes de comprar um carro usado: (1) **Registo Automóvel** através do IRN/Conservatória/Automóvel Online (NÃO é o IMT — o registo de propriedade e ónus é mantido pelo IRN; através de automovelonline.mj.pt obtém a certidão com registos sobre o proprietário, reserva de propriedade, penhoras, hipotecas), (2) Finanças — IUC sem dívidas, (3) IPO recente, (4) Carvertical como equivalente ao Carfax para o histórico, (5) inspeção numa oficina independente. Por ~50 € evita comprar um carro com dívidas ou defeitos ocultos.',
+  tldr: 'Cinco verificações antes de comprar um carro usado: (1) Registo Automóvel através do IRN/Conservatória/Automóvel Online (NÃO é o IMT — o registo de propriedade e ónus é mantido pelo IRN; através de automovelonline.mj.pt obtém a certidão com registos sobre o proprietário, reserva de propriedade, penhoras, hipotecas), (2) Finanças — IUC sem dívidas, (3) IPO recente, (4) Carvertical como equivalente ao Carfax para o histórico, (5) inspeção numa oficina independente. Por ~50 € evita comprar um carro com dívidas ou defeitos ocultos.',
   tags: ['carro usado', 'verificação', 'compra', 'dua'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,9 +11,9 @@ export default {
       id: 'check-registo',
       title: '1. Registo Automóvel — registo oficial de propriedade (IRN)',
       content: [
-        { kind: 'paragraph', text: 'O registo de propriedade automóvel e de ónus é mantido pelo **IRN (Instituto dos Registos e do Notariado)** através da Conservatória do Registo Automóvel e do serviço online **Automóvel Online** (automovelonline.mj.pt). NÃO é o IMT — o IMT trata da parte técnica (matrícula, IPO, cartas de condução), mas não do registo de propriedade.' },
+        { kind: 'paragraph', text: 'O registo de propriedade automóvel e de ónus é mantido pelo IRN (Instituto dos Registos e do Notariado) através da Conservatória do Registo Automóvel e do serviço online Automóvel Online (automovelonline.mj.pt). NÃO é o IMT — o IMT trata da parte técnica (matrícula, IPO, cartas de condução), mas não do registo de propriedade.' },
         { kind: 'checklist', items: [
-          '💻 automovelonline.mj.pt → pedir **certidão permanente do registo automóvel** (é necessário Chave Móvel Digital (CMD) ou Cartão de Cidadão (CC) + leitor)',
+          '💻 automovelonline.mj.pt → pedir certidão permanente do registo automóvel (é necessário Chave Móvel Digital (CMD) ou Cartão de Cidadão (CC) + leitor)',
           '🔍 Introduzir a matrícula (número de registo)',
           '📋 a certidão mostra: proprietário atual, data de registo, ónus registados (reserva de propriedade, penhoras, hipotecas, locação financeira)',
           '🔒 «Penhora» — sinal de alerta, não compre',

@@ -39,7 +39,7 @@ export default {
           'A will cannot freely deprive forced heirs of their legítima if Portuguese law applies.',
           'For taxes, the choice of succession law is not the same as choosing the tax country: Imposto do Selo and foreign taxes are checked separately.'
         ] },
-        { kind: 'warning', text: 'Portugal does not charge a “classic inheritance tax” between spouses, children, grandchildren, parents and grandparents — for them, an exemption from **10% Imposto do Selo** on gratuitous transfers applies. For other heirs/legatees, 10% Imposto do Selo usually applies. Separately for real estate: when the inheritance is formalised, **Imposto do Selo 0.8%** applies on acquisition of immovable property (verba 1.1 da Tabela Geral do Imposto do Selo) + IRN registration costs. These are not “just registration costs”. A will resolves the issue of recipients, but does not remove the tax check.' }
+        { kind: 'warning', text: 'Portugal does not charge a “classic inheritance tax” between spouses, children, grandchildren, parents and grandparents — for them, an exemption from 10% Imposto do Selo on gratuitous transfers applies. For other heirs/legatees, 10% Imposto do Selo usually applies. Separately for real estate: when the inheritance is formalised, Imposto do Selo 0.8% applies on acquisition of immovable property (verba 1.1 da Tabela Geral do Imposto do Selo) + IRN registration costs. These are not “just registration costs”. A will resolves the issue of recipients, but does not remove the tax check.' }
       ]
     },
     {
@@ -65,9 +65,9 @@ export default {
       id: 'notary-process',
       title: 'How a testamento público is formalised',
       content: [
-        { kind: 'paragraph', text: 'Under the Código do Notariado, **2 witnesses are mandatory for a testamento público** (testemunhas instrumentárias), who are present during the formalisation and sign the act together with the testator and the notary. Witnesses cannot be heirs or persons with a conflict of interest.\n\nIn practice, the process looks like this: you explain your wishes, the notário prepares the text, **reads it aloud in the presence of the witnesses**, clarifies the wording, and then the document is signed by the testator, the witnesses and the notary. The public will remains in the notarial archive; the testator is usually issued confirmation or a certidão on request.' },
+        { kind: 'paragraph', text: 'Under the Código do Notariado, 2 witnesses are mandatory for a testamento público (testemunhas instrumentárias), who are present during the formalisation and sign the act together with the testator and the notary. Witnesses cannot be heirs or persons with a conflict of interest.\n\nIn practice, the process looks like this: you explain your wishes, the notário prepares the text, reads it aloud in the presence of the witnesses, clarifies the wording, and then the document is signed by the testator, the witnesses and the notary. The public will remains in the notarial archive; the testator is usually issued confirmation or a certidão on request.' },
         { kind: 'checklist', items: [
-          'Book with a notário and clarify the cost, language, **arrangement of 2 witnesses** (if you do not have any — the notary often helps).',
+          'Book with a notário and clarify the cost, language, arrangement of 2 witnesses (if you do not have any — the notary often helps).',
           'Provide the documents and a draft distribution of assets.',
           'Ask for a clause of choice of law to be included separately if this is needed for a cross-border inheritance.',
           'Check that names, dates of birth, NIF, addresses and property descriptions are written without errors.',

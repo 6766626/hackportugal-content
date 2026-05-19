@@ -3,7 +3,7 @@ export default {
   id: 'exotic-pets-cats',
   categoryId: 'animals',
   title: 'Gatos e animais de estimação exóticos — regras',
-  tldr: 'Gatos: o microchip SIAC é obrigatório desde 2022 (DL 82/2019). O período transitório para gatos e furões já existentes terminou em **25 de outubro de 2022**; para gatos recém-nascidos, o chip é colocado no prazo de 120 dias.\n\n**A licença anual da Junta de Freguesia — requisito nacional APENAS para cães**, para gatos NÃO existe; alguns municípios podem introduzir registos locais, mas isto é uma exceção. Animais exóticos (répteis, aves, roedores): para espécies CITES e espécies protegidas, é exigido microchip e registo na DGAV. Proibição: animais selvagens perigosos — grandes primatas, grandes felinos, certas serpentes venenosas. Importação de fora da UE: AHC, vacinas, microchip, por vezes autorização CITES. Custo do veterinário: gato — 25–40 € por consulta; animal raro — 50–80 €.',
+  tldr: 'Gatos: o microchip SIAC é obrigatório desde 2022 (DL 82/2019). O período transitório para gatos e furões já existentes terminou em 25 de outubro de 2022; para gatos recém-nascidos, o chip é colocado no prazo de 120 dias.\n\nA licença anual da Junta de Freguesia — requisito nacional APENAS para cães, para gatos NÃO existe; alguns municípios podem introduzir registos locais, mas isto é uma exceção. Animais exóticos (répteis, aves, roedores): para espécies CITES e espécies protegidas, é exigido microchip e registo na DGAV. Proibição: animais selvagens perigosos — grandes primatas, grandes felinos, certas serpentes venenosas. Importação de fora da UE: AHC, vacinas, microchip, por vezes autorização CITES. Custo do veterinário: gato — 25–40 € por consulta; animal raro — 50–80 €.',
   tags: ['gatos', 'exóticos', 'siac', 'cites'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,13 +11,13 @@ export default {
       id: 'cats',
       title: '🐈 Gatos — registo obrigatório',
       content: [
-        { kind: 'paragraph', text: 'O DL 82/2019 introduziu a identificação obrigatória por microchip para gatos e furões. O prazo transitório para animais já existentes terminou em **25 de outubro de 2022**. Para os nascidos após essa data, o chip é colocado no prazo de **120 dias** de vida.' },
+        { kind: 'paragraph', text: 'O DL 82/2019 introduziu a identificação obrigatória por microchip para gatos e furões. O prazo transitório para animais já existentes terminou em 25 de outubro de 2022. Para os nascidos após essa data, o chip é colocado no prazo de 120 dias de vida.' },
         { kind: 'checklist', items: [
-          '🆔 **Microchip SIAC** — obrigatório (para gatos recém-nascidos — nos primeiros 120 dias)',
-          '💉 **Raiva**: recomendada, mas não obrigatória pela lei nacional, se o gato não for importado nem exportado',
-          '⚠️ **Licença da Junta de Freguesia para gatos — NÃO existe como requisito nacional**. A licença anual foi introduzida apenas para cães (DL 313/2003 + legislação subsequente). Alguns municípios podem introduzir registo local de gatos ou cadastro pago, mas isto é uma exceção, não a regra. Confirme junto da sua Junta',
-          '🔍 **Identificação**: o número do chip SIAC é o identificador principal; coleira com medalha — por opção do proprietário',
-          '🚪 **Gatos de rua/de colónias** — os programas CED (captura–esterilização–devolução) são geridos pelos municípios em conjunto com associações; o chip é colocado em nome da associação/município'
+          '🆔 Microchip SIAC — obrigatório (para gatos recém-nascidos — nos primeiros 120 dias)',
+          '💉 Raiva: recomendada, mas não obrigatória pela lei nacional, se o gato não for importado nem exportado',
+          '⚠️ Licença da Junta de Freguesia para gatos — NÃO existe como requisito nacional. A licença anual foi introduzida apenas para cães (DL 313/2003 + legislação subsequente). Alguns municípios podem introduzir registo local de gatos ou cadastro pago, mas isto é uma exceção, não a regra. Confirme junto da sua Junta',
+          '🔍 Identificação: o número do chip SIAC é o identificador principal; coleira com medalha — por opção do proprietário',
+          '🚪 Gatos de rua/de colónias — os programas CED (captura–esterilização–devolução) são geridos pelos municípios em conjunto com associações; o chip é colocado em nome da associação/município'
         ]}
       ]
     },
@@ -37,10 +37,10 @@ export default {
           ]},
           { id: 'i2', title: 'De países fora da UE (Federação Russa, Ucrânia, EUA, Brasil)', content: [
             { kind: 'checklist', items: [
-              '🇷🇺 Federação Russa = país de alto risco — **teste de título de anticorpos contra a raiva** (análise ao sangue) obrigatório',
+              '🇷🇺 Federação Russa = país de alto risco — teste de título de anticorpos contra a raiva (análise ao sangue) obrigatório',
               'Resultado da análise: ≥ 0.5 IU/ml',
               'Espera de 3 meses após o teste',
-              '**AHC (Animal Health Certificate)** emitido pelo veterinário oficial do país de origem',
+              'AHC (Animal Health Certificate) emitido pelo veterinário oficial do país de origem',
               'Apostille + tradução para PT/EN',
               'Na fronteira: controlo no ponto de entrada — frequentemente o aeroporto de Lisboa ou do Porto',
               'Pode obter antecipadamente uma autorização da DGAV para importação, sobretudo para raças raras'
@@ -77,7 +77,7 @@ export default {
           ]},
           { id: 'b2', title: 'Papagaios', content: [
             { kind: 'checklist', items: [
-              '**Autorização CITES** obrigatória para a maioria das espécies:',
+              'Autorização CITES obrigatória para a maioria das espécies:',
               '  - Papagaio-cinzento, catatuas, araras, amazonas — Annex II',
               '  - Documento do criador comprova a origem legal ao abrigo da CITES',
               'A entrada a partir de países fora da UE é complexa — são necessárias autorizações CITES de exportação e importação',
@@ -105,11 +105,11 @@ export default {
           ]},
           { id: 'r2', title: 'Restritos ou proibidos', content: [
             { kind: 'checklist', items: [
-              '🚫 **Serpentes venenosas** — cobras, mambas, etc.: a posse é proibida',
-              '🚫 **Grandes boas e pitões** (>3 m): é necessária licença do ICNF devido a requisitos de segurança pública no manuseamento',
-              '🚫 **Crocodilos e aligátores**: apenas centros de vida selvagem registados',
-              '🚫 **Alguns varanos** — de Komodo e grandes varanos-da-savana: CITES + licença especial',
-              '⚠️ **Tartarugas**: muitas espécies são protegidas na UE — não podem ser capturadas na natureza, apenas criadas em cativeiro com documentos CITES'
+              '🚫 Serpentes venenosas — cobras, mambas, etc.: a posse é proibida',
+              '🚫 Grandes boas e pitões (>3 m): é necessária licença do ICNF devido a requisitos de segurança pública no manuseamento',
+              '🚫 Crocodilos e aligátores: apenas centros de vida selvagem registados',
+              '🚫 Alguns varanos — de Komodo e grandes varanos-da-savana: CITES + licença especial',
+              '⚠️ Tartarugas: muitas espécies são protegidas na UE — não podem ser capturadas na natureza, apenas criadas em cativeiro com documentos CITES'
             ]}
           ]},
           { id: 'r3', title: 'Viveiros', content: [
@@ -158,10 +158,10 @@ export default {
       title: '👨‍⚕️ Veterinários para animais exóticos',
       content: [
         { kind: 'checklist', items: [
-          '**Centro Veterinário Berna** (Lisboa) — especialista em animais exóticos',
-          '**Hospital Veterinário do Porto** — grande clínica para animais exóticos',
-          '**Clínica Veterinária do Lis** (Leiria) — répteis, aves',
-          '**Hospital Vet ULP** — Porto, clínica universitária',
+          'Centro Veterinário Berna (Lisboa) — especialista em animais exóticos',
+          'Hospital Veterinário do Porto — grande clínica para animais exóticos',
+          'Clínica Veterinária do Lis (Leiria) — répteis, aves',
+          'Hospital Vet ULP — Porto, clínica universitária',
           'Preços: consulta 50–80 €, cirurgia 200–1000 €, análises ao sangue 30–60 €',
           'Alimentos especializados: apenas em lojas de animais especializadas ou online, por exemplo Zooplus',
           'Seguro para animais de estimação exóticos: limitado, normalmente não cobre répteis e aves'

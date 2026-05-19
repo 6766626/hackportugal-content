@@ -3,7 +3,7 @@ export default {
   id: 'termas-spa-medical',
   categoryId: 'healthcare',
   title: 'Termas: Portugal’s medical thermal baths and SNS comparticipação',
-  tldr: 'In Portugal, termalismo is not just a spa, but medical treatments using thermal water. If an SNS family doctor prescribes tratamentos termais and you choose licensed termas-aderentes, the SNS compensates **35% of the cost of treatments** through **payment of comparticipação directly to the participating thermal establishment** (not as a refund to the patient).\n\nThe basic annual limit per utente is set by Portaria n.º 337-C/2018 — €95; the Ministry of Health may periodically publish an updated portaria/despacho — **check the current limit and conditions on sns.gov.pt and with the chosen thermal establishment before booking**. A typical 14-day course costs €220–500 without accommodation. Popular destinations: Caldas da Rainha, Monfortinho, São Pedro do Sul, Vidago.',
+  tldr: 'In Portugal, termalismo is not just a spa, but medical treatments using thermal water. If an SNS family doctor prescribes tratamentos termais and you choose licensed termas-aderentes, the SNS compensates 35% of the cost of treatments through payment of comparticipação directly to the participating thermal establishment (not as a refund to the patient).\n\nThe basic annual limit per utente is set by Portaria n.º 337-C/2018 — €95; the Ministry of Health may periodically publish an updated portaria/despacho — check the current limit and conditions on sns.gov.pt and with the chosen thermal establishment before booking. A typical 14-day course costs €220–500 without accommodation. Popular destinations: Caldas da Rainha, Monfortinho, São Pedro do Sul, Vidago.',
   tags: ['termas', 'sns', 'health', 'comparticipação'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,7 +27,7 @@ export default {
       id: 'sns-reimbursement',
       title: 'How SNS comparticipação works in 2026',
       content: [
-        { kind: 'paragraph', text: 'Basic rule (Portaria n.º 337-C/2018): the SNS compensates **35% of the cost of prescribed tratamentos termais**, but not above the annual limit per utente. The basic portaria limit is **€95/year**.\n\nThe limit may be revised by a separate portaria/despacho — before booking, check the current amount on sns.gov.pt and/or directly with the termas-aderente. Comparticipação is paid **directly to the thermal establishment**, not to the patient: you pay your share (65%) to the termas, and the SNS transfers the 35% (up to the limit) to the establishment.\n\nExample: if a course costs €200, your share is €130, and the SNS will transfer €70 to the termas.' },
+        { kind: 'paragraph', text: 'Basic rule (Portaria n.º 337-C/2018): the SNS compensates 35% of the cost of prescribed tratamentos termais, but not above the annual limit per utente. The basic portaria limit is €95/year.\n\nThe limit may be revised by a separate portaria/despacho — before booking, check the current amount on sns.gov.pt and/or directly with the termas-aderente. Comparticipação is paid directly to the thermal establishment, not to the patient: you pay your share (65%) to the termas, and the SNS transfers the 35% (up to the limit) to the establishment.\n\nExample: if a course costs €200, your share is €130, and the SNS will transfer €70 to the termas.' },
         { kind: 'paragraph', text: 'Usually the scheme does not look like a “discount at the till”. You pay the termas for the course, keep the documents and submit them according to the rules that the termas explain on site: fatura-recibo with NIF, confirmation that the procedures were carried out, and the medical prescription / termo de responsabilidade, if required.' },
         { kind: 'checklist', items: [
           'Check that your médico de família issues an actual prescrição de tratamentos termais, not just a recommendation to “go to the waters”',
@@ -97,7 +97,7 @@ export default {
           'Inscrição / taxa administrativa: €10–25',
           'Package of procedures for 12–14 days: approximately €180–420',
           'Total treatment before reimbursement: approximately €220–500',
-          'Basic annual SNS limit: **€95/year** (Portaria 337-C/2018) — paid directly to the termas; check the current limit on sns.gov.pt',
+          'Basic annual SNS limit: €95/year (Portaria 337-C/2018) — paid directly to the termas; check the current limit on sns.gov.pt',
           'Accommodation: from €40–70/night in simple alojamento to €120–250/night in a hotel termal',
           'Travel: bus/train is cheaper, but some termas are only really convenient by car',
           'Spa extras, “relax” massages, cosmetology and swimming pools are usually not included in medical compensation'

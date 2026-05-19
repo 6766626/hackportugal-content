@@ -95,7 +95,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Aprovado (verde)', content: [
-            { kind: 'paragraph', text: 'Recebe a **ficha/certificado de inspeção** (em papel ou eletrónico) com a data do próximo IPO. O DUA num IPO normal **não é atualizado** — só é reemitido quando há alteração dos dados técnicos (por exemplo, após reparação do chassis/motor). Tudo fica automaticamente no IMT.' }
+            { kind: 'paragraph', text: 'Recebe a ficha/certificado de inspeção (em papel ou eletrónico) com a data do próximo IPO. O DUA num IPO normal não é atualizado — só é reemitido quando há alteração dos dados técnicos (por exemplo, após reparação do chassis/motor). Tudo fica automaticamente no IMT.' }
           ]},
           { id: 'r2', title: 'Aprovado com Deficiências Ligeiras (laranja)', content: [
             { kind: 'paragraph', text: 'Passou, mas são necessárias pequenas correções — ficam registadas no relatório. Não é necessário repetir a inspeção; deve corrigir até ao próximo IPO.' }

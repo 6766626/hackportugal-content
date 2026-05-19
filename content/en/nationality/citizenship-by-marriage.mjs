@@ -3,11 +3,11 @@ export default {
   id: 'citizenship-by-marriage',
   categoryId: 'nationality',
   title: 'Portuguese citizenship by marriage or união de facto (Lei Orgânica 1/2026)',
-  tldr: '🆕 Under the new **Lei Orgânica n.º 1/2026** (published on 18/05/2026, in force from **19/05/2026**), spouses of Portuguese citizens may apply for citizenship **after 5 years of marriage** (previously 3 years). União de facto is also 5 years (previously 3), plus mandatory genuine cohabitation with evidence. A CIPLE language certificate is formally NOT required. The presumption of “ligação efetiva à comunidade nacional” now starts at 7–8 years (previously 6). The criminal threshold under art. 9(b) Lei 37/81 was already 3 years of imprisonment — the new wording tightens the assessment of “ties”, rather than lowering the threshold itself.\n\n⚖️ **Transitional provision:** for applications submitted on the Portal da Nacionalidade BEFORE 19/05/2026, the previous rules apply — **3 years of marriage / união de facto + recognition of the union through sentença declarativa**.\n\nA simple registration of união de facto at the Junta de Freguesia or Conservatória is NOT sufficient for citizenship purposes — a court decision is required. Living in Portugal is not mandatory.',
+  tldr: '🆕 Under the new Lei Orgânica n.º 1/2026 (published on 18/05/2026, in force from 19/05/2026), spouses of Portuguese citizens may apply for citizenship after 5 years of marriage (previously 3 years). União de facto is also 5 years (previously 3), plus mandatory genuine cohabitation with evidence. A CIPLE language certificate is formally NOT required. The presumption of “ligação efetiva à comunidade nacional” now starts at 7–8 years (previously 6). The criminal threshold under art. 9(b) Lei 37/81 was already 3 years of imprisonment — the new wording tightens the assessment of “ties”, rather than lowering the threshold itself.\n\n⚖️ Transitional provision: for applications submitted on the Portal da Nacionalidade BEFORE 19/05/2026, the previous rules apply — 3 years of marriage / união de facto + recognition of the union through sentença declarativa.\n\nA simple registration of união de facto at the Junta de Freguesia or Conservatória is NOT sufficient for citizenship purposes — a court decision is required. Living in Portugal is not mandatory.',
   tags: ['citizenship', 'marriage', 'união'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 **Lei Orgânica n.º 1/2026 (in force from 19/05/2026):** the marriage period for applying for citizenship is **3 → 5 years**. For união de facto — also 5 years + mandatory genuine cohabitation with evidence. Presumption of “effective ties” — from 7–8 years (previously 6). **Applications submitted on the Portal da Nacionalidade BEFORE 19/05/2026 proceed under the previous rules (3 years).** 🔴 The accompanying Decreto 49/XVII (loss of citizenship as a criminal penalty) — on 08/05/2026 the Constitutional Court UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament; PSD will not reconfirm it.',
+  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (in force from 19/05/2026): the marriage period for applying for citizenship is 3 → 5 years. For união de facto — also 5 years + mandatory genuine cohabitation with evidence. Presumption of “effective ties” — from 7–8 years (previously 6). Applications submitted on the Portal da Nacionalidade BEFORE 19/05/2026 proceed under the previous rules (3 years). 🔴 The accompanying Decreto 49/XVII (loss of citizenship as a criminal penalty) — on 08/05/2026 the Constitutional Court UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament; PSD will not reconfirm it.',
   steps: [
     {
       id: 'universal',
@@ -22,7 +22,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💍 Marriage to a Portuguese citizen for ≥ 3 years at the time of application (Lei 37/81 art. 3 n.1)',
-          '🤝 OR união de facto for >3 years with a Portuguese citizen, **recognised by a court decision** (Lei 37/81 art. 3 n.3) — sentença declarativa from a court; a simple certificate or registration at the Junta de Freguesia is NOT accepted for citizenship',
+          '🤝 OR união de facto for >3 years with a Portuguese citizen, recognised by a court decision (Lei 37/81 art. 3 n.3) — sentença declarativa from a court; a simple certificate or registration at the Junta de Freguesia is NOT accepted for citizenship',
           '📜 Valid marriage at the time of application (no divorce, no legally recognised separation)',
           '⚖️ No criminal convictions in any country with a sentence of ≥ 3 years’ imprisonment'
         ]},
@@ -39,7 +39,7 @@ export default {
       id: 'uniao',
       title: 'União de Facto — for CITIZENSHIP purposes',
       content: [
-        { kind: 'warning', text: 'IMPORTANT: to apply for citizenship by união de facto, Lei 37/81 art. 3 n.3 requires a **court decision from a Portuguese court** (sentença declarativa) recognising that the applicant has been living in união de facto with a Portuguese citizen for **more than 3 years** on the application date. A simple certificate from the Junta de Freguesia or general registration of união de facto without judicial recognition is NOT accepted for citizenship purposes.' },
+        { kind: 'warning', text: 'IMPORTANT: to apply for citizenship by união de facto, Lei 37/81 art. 3 n.3 requires a court decision from a Portuguese court (sentença declarativa) recognising that the applicant has been living in união de facto with a Portuguese citizen for more than 3 years on the application date. A simple certificate from the Junta de Freguesia or general registration of união de facto without judicial recognition is NOT accepted for citizenship purposes.' },
         { kind: 'paragraph', text: 'Process for obtaining the court decision:' },
         { kind: 'checklist', items: [
           '🏛️ File an application with the Tribunal de Família e Menores (or Tribunal Cível) for recognition of união de facto with a Portuguese citizen',

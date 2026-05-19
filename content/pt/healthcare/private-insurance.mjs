@@ -21,11 +21,11 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Verifique a empresa concreta no registo público da ASF (asf.com.pt): a seguradora deve ter autorização para o ramo Doença / health insurance, ou o direito de operar em Portugal através de uma sucursal, ou através do regime de livre prestação de serviços. Não se guie pelo número de operadores no mercado — muitas marcas não são seguradoras autónomas, mas canais de distribuição. Veja quem é a seguradora jurídica na apólice.' },
         { kind: 'checklist', items: [
-          'Grandes marcas de massa: **Médis** (Ocidental–Ageas Portugal), **Multicare** (Fidelidade), **Allianz**, **Generali Tranquilidade**, **Ageas**, **Zurich**, **Mapfre** e outras.',
-          'Compare separadamente as apólices internacionais para expatriados (**Allianz Care**, **Cigna Global** e outras): verifique quem é a seguradora jurídica, a lei aplicável, a existência de faturação direta em Portugal, a cobertura de doenças preexistentes e a adequação para IRS/visto. Nem sempre é o mesmo que um seguro de saúde local regulado pela ASF',
-          'Nos regimes empresariais podem participar a seguradora, um mediador/consultor e um gestor da rede/administrador de sinistros. Por exemplo, a **AdvanceCare** atua frequentemente como rede/administrador, e a **Mercer** como mediador/consultor de benefícios; veja quem é a seguradora jurídica na apólice'
+          'Grandes marcas de massa: Médis (Ocidental–Ageas Portugal), Multicare (Fidelidade), Allianz, Generali Tranquilidade, Ageas, Zurich, Mapfre e outras.',
+          'Compare separadamente as apólices internacionais para expatriados (Allianz Care, Cigna Global e outras): verifique quem é a seguradora jurídica, a lei aplicável, a existência de faturação direta em Portugal, a cobertura de doenças preexistentes e a adequação para IRS/visto. Nem sempre é o mesmo que um seguro de saúde local regulado pela ASF',
+          'Nos regimes empresariais podem participar a seguradora, um mediador/consultor e um gestor da rede/administrador de sinistros. Por exemplo, a AdvanceCare atua frequentemente como rede/administrador, e a Mercer como mediador/consultor de benefícios; veja quem é a seguradora jurídica na apólice'
         ]},
-        { kind: 'paragraph', text: 'Na pesquisa, use o termo «**seguro de saúde**» e distinga-o de «**plano de saúde**» ou «**cartão de saúde**»: estes últimos são frequentemente planos de descontos, não seguros. Todas as seguradoras licenciadas constam do registo público da ASF.' }
+        { kind: 'paragraph', text: 'Na pesquisa, use o termo «seguro de saúde» e distinga-o de «plano de saúde» ou «cartão de saúde»: estes últimos são frequentemente planos de descontos, não seguros. Todas as seguradoras licenciadas constam do registo público da ASF.' }
       ]
     },
     {

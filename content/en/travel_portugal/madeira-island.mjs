@@ -3,7 +3,7 @@ export default {
   id: 'madeira-island',
   categoryId: 'travel_portugal',
   title: 'Madeira — for digital nomads',
-  tldr: 'Autonomous region, eternal spring +18-24°C all year round. Funchal is the capital. Digital Nomads Village in Ponta do Sol. English is widespread. SNS works. ZFM (Zona Franca da Madeira) is a special regime for **corporations** (IRC 5% instead of 21%, not IRS for individuals!). For individual residents of Madeira, IRS at the regional rate is usually 1–2 percentage points lower than on the mainland. Rent is cheaper than in Lisboa, but in 2024-2025 it rose because of digital nomads.',
+  tldr: 'Autonomous region, eternal spring +18-24°C all year round. Funchal is the capital. Digital Nomads Village in Ponta do Sol. English is widespread. SNS works. ZFM (Zona Franca da Madeira) is a special regime for corporations (IRC 5% instead of 21%, not IRS for individuals!). For individual residents of Madeira, IRS at the regional rate is usually 1–2 percentage points lower than on the mainland. Rent is cheaper than in Lisboa, but in 2024-2025 it rose because of digital nomads.',
   tags: ['madeira', 'funchal', 'digital nomad', 'island'],
   estimatedReadMinutes: 6,
   steps: [

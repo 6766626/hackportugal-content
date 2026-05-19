@@ -3,7 +3,7 @@ export default {
   id: 'ciple-a2-exam',
   categoryId: 'nationality',
   title: 'Portuguese A2 — free courses, school programmes and the CIPLE exam',
-  tldr: 'An A2-level certificate is only needed for naturalisation by residence (under the current Lei 37/81 — 5 years; **on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII** — after publication in the DRE, the period will increase to 7 years for CPLP/EU and 10 years for others, plus a mandatory test on knowledge of Portuguese culture, rights and the structure of the state will be introduced). For marriage, união de facto, Reagrupamento Familiar — it is NOT needed.\n\nIMPORTANT: for naturalisation, IRN accepts only an official A2+ level certificate (CIPLE / PLA / Centros Qualifica / DEPLE / DAPLE) — a simple attendance statement for 150 course hours WITHOUT a level assessment is NOT accepted. The cheapest routes: PLA (€0), IEFP (€0 + training allowance, but with obligations as an unemployed person), state adult schools ~€20/semester. CIPLE exam — €85 (2026), monthly sessions.',
+  tldr: 'An A2-level certificate is only needed for naturalisation by residence (under the current Lei 37/81 — 5 years; on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE, the period will increase to 7 years for CPLP/EU and 10 years for others, plus a mandatory test on knowledge of Portuguese culture, rights and the structure of the state will be introduced). For marriage, união de facto, Reagrupamento Familiar — it is NOT needed.\n\nIMPORTANT: for naturalisation, IRN accepts only an official A2+ level certificate (CIPLE / PLA / Centros Qualifica / DEPLE / DAPLE) — a simple attendance statement for 150 course hours WITHOUT a level assessment is NOT accepted. The cheapest routes: PLA (€0), IEFP (€0 + training allowance, but with obligations as an unemployed person), state adult schools ~€20/semester. CIPLE exam — €85 (2026), monthly sessions.',
   audience: { citizenships: ['thirdCountry', 'euEeaSwiss'] },
   tags: ['ciple', 'a2', 'language', 'exam', 'pla'],
   estimatedReadMinutes: 7,
@@ -14,16 +14,16 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Portuguese A2 level is needed only in a few cases:' },
         { kind: 'checklist', items: [
-          '✅ **Naturalisation by residence** (art. 6 Lei 37/81 + art. 25 Decreto-Lei 237-A/2006): under current law — after 5 years. **On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII** — after publication in the DRE: 7 years for CPLP/EU, 10 years for others, plus a mandatory test on knowledge of Portuguese culture, rights and the structure of the state. Until publication in the DRE, the old rules apply',
+          '✅ Naturalisation by residence (art. 6 Lei 37/81 + art. 25 Decreto-Lei 237-A/2006): under current law — after 5 years. On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE: 7 years for CPLP/EU, 10 years for others, plus a mandatory test on knowledge of Portuguese culture, rights and the structure of the state. Until publication in the DRE, the old rules apply',
           '✅ For admission to a number of IEFP programmes, state colleges and Centros Qualifica'
         ]},
         { kind: 'paragraph', text: 'When a CIPLE certificate is NOT required:' },
         { kind: 'checklist', items: [
           '❌ Citizenship by marriage / união de facto — Lei 37/81 does not require language (only “effective ties”)',
-          '⚠️ Citizenship by descent — **grandchildren/great-grandchildren of Portuguese nationals** (Lei 37/81 art. 1(1)(d) and art. 1(1)(e)): the law requires **“sufficient knowledge of the Portuguese language”**, not specifically A2. A CIPLE A2 certificate or equivalent is the most reliable way to prove it; in disputed cases, IRN may also accept an interview, school documents from a Portuguese-speaking country, CPLP documents, etc. Children of Portuguese nationals (art. 1(1)(c)) — usually without a language requirement',
+          '⚠️ Citizenship by descent — grandchildren/great-grandchildren of Portuguese nationals (Lei 37/81 art. 1(1)(d) and art. 1(1)(e)): the law requires “sufficient knowledge of the Portuguese language”, not specifically A2. A CIPLE A2 certificate or equivalent is the most reliable way to prove it; in disputed cases, IRN may also accept an interview, school documents from a Portuguese-speaking country, CPLP documents, etc. Children of Portuguese nationals (art. 1(1)(c)) — usually without a language requirement',
           '❌ Family reunification (Reagrupamento Familiar) — AIMA does not ask for language',
           '❌ Residence permit renewal — AIMA does not require it',
-          '❌ **Citizens of countries with Portuguese as an official language** (Brazil, Angola, Cape Verde, Mozambique, Guinea-Bissau, São Tomé, East Timor, Equatorial Guinea): under the Regulamento da Nacionalidade rules, knowledge of the language is presumed. Check your specific case with IRN'
+          '❌ Citizens of countries with Portuguese as an official language (Brazil, Angola, Cape Verde, Mozambique, Guinea-Bissau, São Tomé, East Timor, Equatorial Guinea): under the Regulamento da Nacionalidade rules, knowledge of the language is presumed. Check your specific case with IRN'
         ]},
         { kind: 'warning', text: 'When applying for naturalisation by residence (art. 6), IRN accepts only an OFFICIAL certificate stating the specific A2 level or higher. A course attendance statement (frequência) without a level assessment is NOT suitable. For grandchildren/great-grandchildren (art. 1(1)(d/e)), the range of acceptable evidence is broader — check with IRN if CIPLE is unavailable.' }
       ]
@@ -34,12 +34,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Under art. 25 Decreto-Lei 237-A/2006 and IRN instructions, the following are accepted to prove knowledge of Portuguese:' },
         { kind: 'checklist', items: [
-          '✅ **CIPLE** (A2), **DEPLE** (B1), **DIPLE** (B2), **DAPLE** (C1), **DUPLE** (C2) — CAPLE/Universidade de Lisboa exams',
-          '✅ **PLA certificate** — Português Língua de Acolhimento, issued by a state school/Centro Qualifica stating level A2 or higher',
-          '✅ **Centros Qualifica certificate** — an official document confirming the level under the CEFR',
-          '✅ **PLNM school certificate** (Português Língua Não Materna) — if it states the A2+ level achieved',
-          '✅ **Certificate of completion of Portuguese school** (9th/12th year) — automatically considered C1',
-          '✅ **Course/degree from a university in Portuguese** — usually counted',
+          '✅ CIPLE (A2), DEPLE (B1), DIPLE (B2), DAPLE (C1), DUPLE (C2) — CAPLE/Universidade de Lisboa exams',
+          '✅ PLA certificate — Português Língua de Acolhimento, issued by a state school/Centro Qualifica stating level A2 or higher',
+          '✅ Centros Qualifica certificate — an official document confirming the level under the CEFR',
+          '✅ PLNM school certificate (Português Língua Não Materna) — if it states the A2+ level achieved',
+          '✅ Certificate of completion of Portuguese school (9th/12th year) — automatically considered C1',
+          '✅ Course/degree from a university in Portuguese — usually counted',
           '⚠️ A simple “attendance declaration” (declaração de frequência) for 150 hours WITHOUT a level assessment — is NOT accepted'
         ]}
       ]

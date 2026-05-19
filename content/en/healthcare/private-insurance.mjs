@@ -21,11 +21,11 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Check the specific company in the public ASF register (asf.com.pt): the insurer must have authorisation for ramo Doença / health insurance, or the right to operate in Portugal through a branch, or under the regime de livre prestação de serviços. Do not rely on the number of players in the market — many brands are not separate insurers, but distribution channels. Check the legal insurer in the apólice.' },
         { kind: 'checklist', items: [
-          'Large mass-market brands: **Médis** (Ocidental–Ageas Portugal), **Multicare** (Fidelidade), **Allianz**, **Generali Tranquilidade**, **Ageas**, **Zurich**, **Mapfre** and others.',
-          'Compare international expat policies (**Allianz Care**, **Cigna Global** and others) separately: check who the legal insurer is, the applicable law, whether direct billing is available in Portugal, coverage of pre-existing conditions and suitability for IRS/visa purposes. This is not always the same as a local seguro de saúde regulated by the ASF',
-          'Corporate schemes may involve an insurer, a broker/consultant and a network manager/claims administrator. For example, **AdvanceCare** often acts as a network/administrator, while **Mercer** acts as a broker/benefits consultant; check the legal insurer in the apólice'
+          'Large mass-market brands: Médis (Ocidental–Ageas Portugal), Multicare (Fidelidade), Allianz, Generali Tranquilidade, Ageas, Zurich, Mapfre and others.',
+          'Compare international expat policies (Allianz Care, Cigna Global and others) separately: check who the legal insurer is, the applicable law, whether direct billing is available in Portugal, coverage of pre-existing conditions and suitability for IRS/visa purposes. This is not always the same as a local seguro de saúde regulated by the ASF',
+          'Corporate schemes may involve an insurer, a broker/consultant and a network manager/claims administrator. For example, AdvanceCare often acts as a network/administrator, while Mercer acts as a broker/benefits consultant; check the legal insurer in the apólice'
         ]},
-        { kind: 'paragraph', text: 'When searching, use the term “**seguro de saúde**” and distinguish it from “**plano de saúde**” or “**cartão de saúde**”: the latter are often discount plans, not insurance. All licensed insurers are in the public ASF register.' }
+        { kind: 'paragraph', text: 'When searching, use the term “seguro de saúde” and distinguish it from “plano de saúde” or “cartão de saúde”: the latter are often discount plans, not insurance. All licensed insurers are in the public ASF register.' }
       ]
     },
     {

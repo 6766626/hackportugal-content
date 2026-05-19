@@ -3,7 +3,7 @@ export default {
   id: 'ctt-mail-parcels-advanced',
   categoryId: 'daily_life',
   title: 'CTT — reencaminhamento de correio, encomendas, desalfandegamento online',
-  tldr: 'Reencaminhamento em caso de mudança: **Reencaminhamento Postal** — 3 meses (17,55 €), 6 meses (28,90 €), 12 meses (51,30 €).\n\n**Reserva domiciliária** — retenção do correio numa estação até 2 meses (9,60 €). Encomendas de países fora da UE: IVA 23% + direitos aduaneiros a partir de 150 €. Fazer o desalfandegamento — em ctt.pt através de «Desalfandegamento Online» em 5 min, taxa de 5 € por encomenda + IVA sobre valor+portes. Encomenda perdida — assistente online dos CTT, indemnização até 50 €.',
+  tldr: 'Reencaminhamento em caso de mudança: Reencaminhamento Postal — 3 meses (17,55 €), 6 meses (28,90 €), 12 meses (51,30 €).\n\nReserva domiciliária — retenção do correio numa estação até 2 meses (9,60 €). Encomendas de países fora da UE: IVA 23% + direitos aduaneiros a partir de 150 €. Fazer o desalfandegamento — em ctt.pt através de «Desalfandegamento Online» em 5 min, taxa de 5 € por encomenda + IVA sobre valor+portes. Encomenda perdida — assistente online dos CTT, indemnização até 50 €.',
   tags: ['ctt', 'correio', 'encomendas', 'desalfandegamento'],
   estimatedReadMinutes: 5,
   steps: [
@@ -15,9 +15,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Reencaminhamento Postal (reencaminhamento)', content: [
             { kind: 'checklist', items: [
-              '**3 meses**: 17,55 €',
-              '**6 meses**: 28,90 €',
-              '**12 meses**: 51,30 €',
+              '3 meses: 17,55 €',
+              '6 meses: 28,90 €',
+              '12 meses: 51,30 €',
               'Pedido: ctt.pt → «Mudança de morada» ou em qualquer estação CTT',
               'Começa a funcionar 3 dias úteis após o pedido',
               'São reencaminhadas todas as cartas e encomendas não registadas',
@@ -26,7 +26,7 @@ export default {
           ]},
           { id: 'f2', title: 'Reserva Domiciliária (retenção)', content: [
             { kind: 'checklist', items: [
-              '**9,60 €** por um período até 2 meses',
+              '9,60 € por um período até 2 meses',
               'O correio não é entregue, ficando retido na sua estação CTT',
               'Útil em férias prolongadas ou viagens de trabalho',
               'Levantar tudo na estação na data indicada'
@@ -43,7 +43,7 @@ export default {
       title: '📦 Encomendas da UE',
       content: [
         { kind: 'checklist', items: [
-          '**Sem direitos aduaneiros nem IVA** — a UE é um mercado único',
+          'Sem direitos aduaneiros nem IVA — a UE é um mercado único',
           'Chegam em 2-7 dias por entrega normal',
           'Rastreio: em ctt.pt pelo número ou através da aplicação CTT',
           'Se não estiver em casa: aviso («aviso») na caixa de correio, 14 dias para levantamento na estação',
@@ -59,18 +59,18 @@ export default {
         { kind: 'substeps', items: [
           { id: 'p1', title: '💰 Impostos', content: [
             { kind: 'checklist', items: [
-              '**IVA 23%**: cobrado sobre TODAS as encomendas de países fora da UE desde 1 de julho de 2021 (antes havia um limiar de <22 €)',
-              '**Direitos aduaneiros**: sobre bens > **150 €** (valor + portes). A taxa depende do código TARIC do produto — 0-17% para a maioria, até 50% para roupa de algumas categorias',
-              '**Despesas adicionais CTT**: taxa de processamento 5 € + 1-3 € por operação adicional',
+              'IVA 23%: cobrado sobre TODAS as encomendas de países fora da UE desde 1 de julho de 2021 (antes havia um limiar de <22 €)',
+              'Direitos aduaneiros: sobre bens > 150 € (valor + portes). A taxa depende do código TARIC do produto — 0-17% para a maioria, até 50% para roupa de algumas categorias',
+              'Despesas adicionais CTT: taxa de processamento 5 € + 1-3 € por operação adicional',
               'Exemplo para uma encomenda de 100 € (sem direitos aduaneiros, até 150 €): 23 € de IVA + ~5 € de taxa CTT = ~28 € de despesas adicionais além do valor do produto',
               'Exemplo para uma encomenda de 200 € (>150 €): ~46 € de IVA + ~24 € de direitos aduaneiros (depende do TARIC) + ~7 € de taxa CTT = ~77 € de despesas adicionais'
             ]}
           ]},
           { id: 'p2', title: '🛂 Como fazer o desalfandegamento', content: [
             { kind: 'checklist', items: [
-              '**Automaticamente** até 150 €: os CTT tratam do IOSS (se o remetente for um grande retalhista AliExpress/Amazon com registo IOSS) → você paga apenas a entrega, o imposto já está incluído no preço',
-              '**Através do CTT Desalfandegamento Online**: se o remetente não tiver IOSS — recebe um SMS/e-mail com uma ligação para o procedimento',
-              '**Abrir ctt.pt → Desalfandegamento → introduzir o código da encomenda → carregar a fatura**',
+              'Automaticamente até 150 €: os CTT tratam do IOSS (se o remetente for um grande retalhista AliExpress/Amazon com registo IOSS) → você paga apenas a entrega, o imposto já está incluído no preço',
+              'Através do CTT Desalfandegamento Online: se o remetente não tiver IOSS — recebe um SMS/e-mail com uma ligação para o procedimento',
+              'Abrir ctt.pt → Desalfandegamento → introduzir o código da encomenda → carregar a fatura',
               'Indicar: valor, conteúdo, finalidade (uso pessoal)',
               'Pagar IVA + direitos aduaneiros + taxa CTT com cartão',
               'A encomenda é entregue 2-3 dias após o pagamento'
@@ -94,9 +94,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'IOSS (Import One-Stop Shop) — sistema desde 2021 que permite a retalhistas de países fora da UE cobrar o IVA no momento da compra. Para o consumidor = receção sem problemas.' },
         { kind: 'checklist', items: [
-          '✅ **Amazon.com, AliExpress, eBay, Temu, Shein** — IOSS-registered, IVA incluído no preço, a encomenda passa automaticamente',
+          '✅ Amazon.com, AliExpress, eBay, Temu, Shein — IOSS-registered, IVA incluído no preço, a encomenda passa automaticamente',
           '✅ Até 150 € — sem impostos adicionais',
-          '❌ **Lojas russas, Wildberries antes das sanções, vendedores particulares** — sem IOSS, ainda é necessário desalfandegamento',
+          '❌ Lojas russas, Wildberries antes das sanções, vendedores particulares — sem IOSS, ainda é necessário desalfandegamento',
           '❌ Encomendas >150 € — o IOSS não se aplica, há sempre direitos aduaneiros + taxa CTT'
         ]}
       ]

@@ -3,7 +3,7 @@ export default {
   id: 'via-card-electronic-toll',
   categoryId: 'auto_trips',
   title: 'Via Verde and alternatives — all ways to pay for roads',
-  tldr: 'Via Verde is an electronic device for driving through without stopping. It is not the only option. Alternatives: Via Card (single-use), prepaid TollCard, post-payment via CTT/Payshop, EasyToll for foreign plates. For Portuguese plates, after driving through, payment becomes available **after ~48 h**, and the payment window is **usually 15 working days**. After the window — an administrative offence fine (a fixed range, **NOT a universal “×25”**). From **01.01.2025**, tolls were abolished on the A22 Algarve, A23, A24, A25 and parts of the A28, A4, A13.',
+  tldr: 'Via Verde is an electronic device for driving through without stopping. It is not the only option. Alternatives: Via Card (single-use), prepaid TollCard, post-payment via CTT/Payshop, EasyToll for foreign plates. For Portuguese plates, after driving through, payment becomes available after ~48 h, and the payment window is usually 15 working days. After the window — an administrative offence fine (a fixed range, NOT a universal “×25”). From 01.01.2025, tolls were abolished on the A22 Algarve, A23, A24, A25 and parts of the A28, A4, A13.',
   tags: ['via verde', 'toll', 'toll roads', 'scut'],
   estimatedReadMinutes: 6,
   steps: [
@@ -32,7 +32,7 @@ export default {
             { kind: 'paragraph', text: 'A card with a €5/€10/€20/€40 balance. Activated by SMS → the balance is then deducted. You can buy it at Galp, Repsol and BP petrol stations. For short trips.' }
           ]},
           { id: 'o5', title: 'CTT / Payshop (after the fact)', content: [
-            { kind: 'paragraph', text: 'If you drove through an electronic gantry without Via Verde and did not link EasyToll — for Portuguese plates, payment becomes available **after ~48 h**, and the payment window is usually **15 working days**. You can pay at CTT post offices, at Payshop, or online at portagens.ctt.pt. After the window — an administrative offence fine.' }
+            { kind: 'paragraph', text: 'If you drove through an electronic gantry without Via Verde and did not link EasyToll — for Portuguese plates, payment becomes available after ~48 h, and the payment window is usually 15 working days. You can pay at CTT post offices, at Payshop, or online at portagens.ctt.pt. After the window — an administrative offence fine.' }
           ]}
         ]}
       ]
@@ -41,7 +41,7 @@ export default {
       id: 'scut-explained',
       title: 'What ex-SCUT means and which are now free',
       content: [
-        { kind: 'paragraph', text: 'SCUT (Sem Cobrança ao Utilizador) — former roads without toll booths. Over time, some of them became tolled via electronic gantries (without booths), and from **01.01.2025** the government **abolished tolls** on a number of ex-SCUT roads — A22, A23, A24, A25 and parts of A28, plus A4 and A13/A13-1. Before travelling, check the current status of each road (Infraestruturas de Portugal, Via Verde) — the rules may still change.' },
+        { kind: 'paragraph', text: 'SCUT (Sem Cobrança ao Utilizador) — former roads without toll booths. Over time, some of them became tolled via electronic gantries (without booths), and from 01.01.2025 the government abolished tolls on a number of ex-SCUT roads — A22, A23, A24, A25 and parts of A28, plus A4 and A13/A13-1. Before travelling, check the current status of each road (Infraestruturas de Portugal, Via Verde) — the rules may still change.' },
         { kind: 'checklist', items: [
           '✅ From 01.01.2025 FREE: A22 Algarve, A23 Beira Interior, A24 Interior Norte, A25 Beira Litoral, parts of A28 Norte Litoral, A4 Marão, A13/A13-1',
           '💳 Tolled via pórtico eletrónico (electronic gantries, no booths): A29 Espinho-Ovar, A41/A42 Porto ring road and remaining sections',
@@ -57,7 +57,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'p1', title: 'If the car has Portuguese plates', content: [
             { kind: 'checklist', items: [
-              'Payment becomes available **after ~48 h after driving through**, and the payment window is usually **15 working days** via CTT/Payshop or portagens.ctt.pt',
+              'Payment becomes available after ~48 h after driving through, and the payment window is usually 15 working days via CTT/Payshop or portagens.ctt.pt',
               'Have the number plate + date/approximate time of passage ready',
               'After the window — a notification from AT with an administrative offence fine (a fixed range according to the table — NOT a universal “×25”)',
               'Additional court costs of €30-100',

@@ -58,8 +58,8 @@ export default {
           ]},
           { id: 'f2', title: 'Cremação ou sepultamento', content: [
             { kind: 'checklist', items: [
-              '⚱️ **Cremação**: 350–700 €, mais urna 100–500 €',
-              '⚰️ **Sepultamento**: 800–2 000 € (lugar de sepultura em cemitério municipal)',
+              '⚱️ Cremação: 350–700 €, mais urna 100–500 €',
+              '⚰️ Sepultamento: 800–2 000 € (lugar de sepultura em cemitério municipal)',
               '🏛️ Jazigos de família (jazigo): compra 5 000–30 000 €, taxas anuais',
               '⏰ Normalmente o funeral realiza-se 24–72 horas após a morte',
               '🇷🇺 Para enviar o corpo para o país de origem: processo através do consulado, 5 000–15 000 €'
@@ -104,8 +104,8 @@ export default {
           ]},
           { id: 'i3', title: '3. Imposto do Selo (imposto sobre heranças)', content: [
             { kind: 'checklist', items: [
-              '🟢 **Isentos 0%**: cônjuge, filhos, netos e pais do falecido',
-              '🟡 **10% Imposto do Selo**: irmãos/irmãs, tios/tias, sobrinhos, não familiares',
+              '🟢 Isentos 0%: cônjuge, filhos, netos e pais do falecido',
+              '🟡 10% Imposto do Selo: irmãos/irmãs, tios/tias, sobrinhos, não familiares',
               '🟣 PT difere de outros países — a herança para familiares próximos NÃO é tributada',
               '⏰ Declaração no prazo de 30 dias através da AT (Modelo 1 do Imposto do Selo)',
               '💸 Pagamento: até 60 dias após a entrega da declaração'
@@ -113,10 +113,10 @@ export default {
           ]},
           { id: 'i4', title: '4. Registo da transmissão dos bens', content: [
             { kind: 'checklist', items: [
-              '🏠 **Imóveis**: Conservatória Predial (partilha da herança 350 € + Imposto do Selo)',
-              '🚗 **Automóvel**: IMT — alteração de proprietário, 50 €',
-              '🏦 **Contas bancárias**: com a Habilitação de Herdeiros e o Imposto do Selo pago → passar para o nome dos herdeiros',
-              '📊 **Acções**: através da corretora'
+              '🏠 Imóveis: Conservatória Predial (partilha da herança 350 € + Imposto do Selo)',
+              '🚗 Automóvel: IMT — alteração de proprietário, 50 €',
+              '🏦 Contas bancárias: com a Habilitação de Herdeiros e o Imposto do Selo pago → passar para o nome dos herdeiros',
+              '📊 Acções: através da corretora'
             ]}
           ]}
         ]}
@@ -128,7 +128,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O Regulamento UE 650/2012 (Brussels IV) dá o direito de escolher qual a lei aplicável — a do país da sua nacionalidade OU a de PT (onde se encontra). Isto é importante para cidadãos russos/ucranianos/britânicos, cujas regras são diferentes.' },
         { kind: 'checklist', items: [
-          '📜 **Testamento (Testamento)**: pode ser feito num notário em PT, escolhendo a lei aplicável (por exemplo, a russa)',
+          '📜 Testamento (Testamento): pode ser feito num notário em PT, escolhendo a lei aplicável (por exemplo, a russa)',
           '🇷🇺 Sem testamento + herdeiros russos: aplica-se a lei de PT (ou seja, cônjuge/filhos recebem tudo em partes iguais)',
           '⚖️ Com testamento ao abrigo da lei russa: são possíveis soluções mais flexíveis',
           '💰 Custo: 200–500 € (notário)',
@@ -143,14 +143,14 @@ export default {
       title: '📋 Depois de receber a herança',
       content: [
         { kind: 'checklist', items: [
-          '💰 **IMI** (imposto sobre imóveis) — agora é você que paga. Voltar a registar nas Finanças no prazo de 90 dias',
-          '🩺 **SNS / seguro**: notificar (se o falecido fosse dependente)',
-          '🏦 **Banco**: notificar e encerrar/transferir contas',
-          '📞 **Subscrições e contratos**: telefone, internet, serviços de água/luz/gás, Netflix — cancelar ou transferir',
-          '👨‍⚖️ **Pensões sociais**: notificar a Segurança Social — os pagamentos serão interrompidos',
-          '📊 **Contabilidade para recibos verdes**: encerrar a actividade, se era trabalhador independente',
-          '⚖️ **Acções judiciais**: se o falecido era parte — os herdeiros entram no processo',
-          '🏠 **Imóvel arrendado**: o contrato passa automaticamente para os herdeiros (Lei 6/2006)'
+          '💰 IMI (imposto sobre imóveis) — agora é você que paga. Voltar a registar nas Finanças no prazo de 90 dias',
+          '🩺 SNS / seguro: notificar (se o falecido fosse dependente)',
+          '🏦 Banco: notificar e encerrar/transferir contas',
+          '📞 Subscrições e contratos: telefone, internet, serviços de água/luz/gás, Netflix — cancelar ou transferir',
+          '👨‍⚖️ Pensões sociais: notificar a Segurança Social — os pagamentos serão interrompidos',
+          '📊 Contabilidade para recibos verdes: encerrar a actividade, se era trabalhador independente',
+          '⚖️ Acções judiciais: se o falecido era parte — os herdeiros entram no processo',
+          '🏠 Imóvel arrendado: o contrato passa automaticamente para os herdeiros (Lei 6/2006)'
         ]}
       ]
     },

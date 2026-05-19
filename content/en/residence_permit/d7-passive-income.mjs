@@ -3,7 +3,7 @@ export default {
   id: 'd7-passive-income',
   categoryId: 'residence_permit',
   title: 'D7 visa (passive income)',
-  tldr: 'D7 is a visa for those who have stable passive income (pension, rent, dividends).\n\nThe baseline threshold in consular practice is **1× SMN (Portugal’s minimum wage) for the applicant, which in 2026 = €920/month** (Portaria 1563/2007 art. 16-A is applied by analogy to sufficiency of means; the Lisboa/Rio/Moscow consulates use SMN, not IAS).\n\nStandard family coefficient: +50% SMN for a spouse (€460), +30% SMN for each child (€276).\n\nA deposit/reserve in a Portuguese account is usually **12× SMN = €11,040** for the main applicant (in case the income temporarily stops); this is consular practice, not a strict legal requirement. After 5 years of legal residence, a permanent residence permit or citizenship may be possible (under the current Lei 37/81; the new law Decreto AR 48/XVII was promulgated on 03.05.2026 and will increase the period to 10 years for third-country nationals after publication in the DRE — check the current publication status).',
+  tldr: 'D7 is a visa for those who have stable passive income (pension, rent, dividends).\n\nThe baseline threshold in consular practice is 1× SMN (Portugal’s minimum wage) for the applicant, which in 2026 = €920/month (Portaria 1563/2007 art. 16-A is applied by analogy to sufficiency of means; the Lisboa/Rio/Moscow consulates use SMN, not IAS).\n\nStandard family coefficient: +50% SMN for a spouse (€460), +30% SMN for each child (€276).\n\nA deposit/reserve in a Portuguese account is usually 12× SMN = €11,040 for the main applicant (in case the income temporarily stops); this is consular practice, not a strict legal requirement. After 5 years of legal residence, a permanent residence permit or citizenship may be possible (under the current Lei 37/81; the new law Decreto AR 48/XVII was promulgated on 03.05.2026 and will increase the period to 10 years for third-country nationals after publication in the DRE — check the current publication status).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d7', 'residence permit', 'passive income'],
   estimatedReadMinutes: 8,
@@ -12,14 +12,14 @@ export default {
       id: 'income-requirements',
       title: 'Financial requirements (2026)',
       content: [
-        { kind: 'paragraph', text: 'The minimum income for D7 in consular practice is tied to **SMN (Salário Mínimo Nacional)**, not to IAS. SMN for 2026 = **€920/month** (DL 112/2025). Baseline guidance:' },
+        { kind: 'paragraph', text: 'The minimum income for D7 in consular practice is tied to SMN (Salário Mínimo Nacional), not to IAS. SMN for 2026 = €920/month (DL 112/2025). Baseline guidance:' },
         { kind: 'checklist', items: [
-          'Applicant: ≥ 1× SMN = **€920/month** of passive income',
-          'Spouse / partner: +50% SMN = **€460/month**',
-          'Child under 18 (or dependant): +30% SMN = **€276/month**',
-          'Example for a family of 3: 920 + 460 + 276 = **€1,656/month**'
+          'Applicant: ≥ 1× SMN = €920/month of passive income',
+          'Spouse / partner: +50% SMN = €460/month',
+          'Child under 18 (or dependant): +30% SMN = €276/month',
+          'Example for a family of 3: 920 + 460 + 276 = €1,656/month'
         ]},
-        { kind: 'paragraph', text: 'In addition, the consulate / AIMA usually asks for proof of a deposit in a Portuguese account of **12× SMN = €11,040** for the applicant — as a reserve in case the income temporarily stops. This is practice, not a strict legal requirement; for a family, the same 50%/30% coefficients are added.' },
+        { kind: 'paragraph', text: 'In addition, the consulate / AIMA usually asks for proof of a deposit in a Portuguese account of 12× SMN = €11,040 for the applicant — as a reserve in case the income temporarily stops. This is practice, not a strict legal requirement; for a family, the same 50%/30% coefficients are added.' },
         { kind: 'checklist', items: [
           'Passive income sources: pension, rent, dividends, royalties, interest on deposits, licensing payments',
           'NOT suitable as the main source: salary and active freelance fees. For employment with a Portuguese employer, D1 is considered; for independent professional/entrepreneurial activity — D2; for highly qualified activity — D3; for remote work for foreign employers/clients — D8',
@@ -38,7 +38,7 @@ export default {
             { kind: 'paragraph', text: 'Before applying for the visa, obtain a NIF through a representative (see "NIF for third countries").' }
           ]},
           { id: 'd2', title: '2. Open an account with a Portuguese bank', content: [
-            { kind: 'paragraph', text: 'Transfer the reserve deposit **12× SMN = €11,040** (2026). For a spouse +50% (€5,520), for a child +30% (€3,312). As an alternative — proof of stable monthly receipts for 6–12 months. Do not use 12×IAS — this understates the reserve.' }
+            { kind: 'paragraph', text: 'Transfer the reserve deposit 12× SMN = €11,040 (2026). For a spouse +50% (€5,520), for a child +30% (€3,312). As an alternative — proof of stable monthly receipts for 6–12 months. Do not use 12×IAS — this understates the reserve.' }
           ]},
           { id: 'd3', title: '3. Rent accommodation in Portugal', content: [
             { kind: 'paragraph', text: 'Long-term contract (≥ 12 months) registered with Finanças (otherwise the consulate may not accept it). On Flatio / Idealista / through local agents.' }
@@ -62,7 +62,7 @@ export default {
       id: 'after',
       title: 'After obtaining the residence permit',
       content: [
-        { kind: 'paragraph', text: 'Initial residence permit for 2 years, renewal for 3 years → 5 years in total. After that, it is possible to request a permanent residence permit or citizenship (under the current Lei 37/81 — after 5 years; **Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026** and will increase the period to 10 years for third-country nationals after publication in the DRE).' },
+        { kind: 'paragraph', text: 'Initial residence permit for 2 years, renewal for 3 years → 5 years in total. After that, it is possible to request a permanent residence permit or citizenship (under the current Lei 37/81 — after 5 years; Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026 and will increase the period to 10 years for third-country nationals after publication in the DRE).' },
         { kind: 'warning', text: 'D7 requires “effective residence”: there are limits on absences. Under art. 85 Lei 23/2007, absence for more than 6 consecutive months or more than 8 months in total over 2 years during the validity of the residence permit is sufficient for cancellation of the residence permit. These are absence limits, not a “minimum residence” requirement; for renewal, AIMA checks compliance with these limits.' }
       ]
     }

@@ -3,7 +3,7 @@ export default {
   id: 'solar-panels',
   categoryId: 'housing_buy',
   title: 'Painéis solares — instalação, autorizações, poupança',
-  tldr: 'Portugal está no top 3 dos países da UE em potencial solar. Sistemas UPAC (Unidade de Produção para Autoconsumo) — limiares ao abrigo do DL 15/2022 / SERUP: sistemas muito pequenos (até ~700 W sem injecção na rede) podem estar isentos de controlo prévio; >700 W e ≤30 kW — normalmente mera comunicação prévia através da DGEG/SERUP; >30 kW — controlo prévio mais exigente.\n\nCusto chave na mão: 4 000-12 000 € para um apartamento/casa típico. Retorno em 5-9 anos. Para receber dinheiro pelo excedente é necessário um **bidirectional smart meter** e um contrato de venda com um comercializador/agregador (net metering 1:1 em PT NÃO existe).\n\nO Fundo Ambiental não garante financiamento anual — confirme o Aviso actual em fundoambiental.pt.',
+  tldr: 'Portugal está no top 3 dos países da UE em potencial solar. Sistemas UPAC (Unidade de Produção para Autoconsumo) — limiares ao abrigo do DL 15/2022 / SERUP: sistemas muito pequenos (até ~700 W sem injecção na rede) podem estar isentos de controlo prévio; >700 W e ≤30 kW — normalmente mera comunicação prévia através da DGEG/SERUP; >30 kW — controlo prévio mais exigente.\n\nCusto chave na mão: 4 000-12 000 € para um apartamento/casa típico. Retorno em 5-9 anos. Para receber dinheiro pelo excedente é necessário um bidirectional smart meter e um contrato de venda com um comercializador/agregador (net metering 1:1 em PT NÃO existe).\n\nO Fundo Ambiental não garante financiamento anual — confirme o Aviso actual em fundoambiental.pt.',
   tags: ['painéis solares', 'energia solar', 'autoconsumo', 'fundo ambiental'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,13 +12,13 @@ export default {
       title: '☀️ Porque PT é um excelente local',
       content: [
         { kind: 'checklist', items: [
-          '🌞 **Radiação solar**: 1500-1700 kWh/m²/ano — top 3 na UE (depois de Chipre, Malta)',
+          '🌞 Radiação solar: 1500-1700 kWh/m²/ano — top 3 na UE (depois de Chipre, Malta)',
           '☀️ Dia médio: 5-7 horas de actividade solar de pico',
-          '⚡ **Preços da electricidade**: 0,16-0,25 €/kWh (entre os mais altos da UE) → retorno rápido',
-          '📏 **Sistema doméstico de 5 kW** gera 7 000-9 000 kWh/ano — cobre as necessidades da maioria dos agregados familiares',
-          '💰 **Poupança**: 800-1 500 €/ano para uma família média com um sistema de 5 kW',
-          '🌍 **Redução de emissões de CO2**: ~3 toneladas/ano com um sistema de 5 kW',
-          '📈 **Valor do imóvel**: acrescenta 5-10% ao valor do imóvel'
+          '⚡ Preços da electricidade: 0,16-0,25 €/kWh (entre os mais altos da UE) → retorno rápido',
+          '📏 Sistema doméstico de 5 kW gera 7 000-9 000 kWh/ano — cobre as necessidades da maioria dos agregados familiares',
+          '💰 Poupança: 800-1 500 €/ano para uma família média com um sistema de 5 kW',
+          '🌍 Redução de emissões de CO2: ~3 toneladas/ano com um sistema de 5 kW',
+          '📈 Valor do imóvel: acrescenta 5-10% ao valor do imóvel'
         ]}
       ]
     },
@@ -29,7 +29,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: 'UPAC residencial ≤30 kW (casas/apartamentos típicos)', content: [
             { kind: 'checklist', items: [
-              'A maioria dos sistemas domésticos — por **mera comunicação prévia** através da DGEG/SERUP (não é licença)',
+              'A maioria dos sistemas domésticos — por mera comunicação prévia através da DGEG/SERUP (não é licença)',
               'Sistemas muito pequenos (~até 700 W sem injecção na rede) podem estar isentos de controlo prévio',
               'A opção mais popular para apartamentos / casas',
               'Inversor + painéis no telhado / varanda / anexo',
@@ -74,11 +74,11 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Padrão 2026 chave na mão', content: [
             { kind: 'checklist', items: [
-              '**3 kW (apartamento)**: 3 500-5 500 € (8-10 painéis, inversor, montagem)',
-              '**5 kW (casa pequena)**: 5 500-8 500 € (12-15 painéis)',
-              '**6.9 kW** (potência típica de uma moradia; mera comunicação prévia, a licença começa em >30 kW ao abrigo do DL 15/2022): 7 500-11 000 €',
-              '**+ bateria 10 kWh**: +5 000-8 000 €',
-              '**+ integração com casa inteligente**: +500-1 500 €'
+              '3 kW (apartamento): 3 500-5 500 € (8-10 painéis, inversor, montagem)',
+              '5 kW (casa pequena): 5 500-8 500 € (12-15 painéis)',
+              '6.9 kW (potência típica de uma moradia; mera comunicação prévia, a licença começa em >30 kW ao abrigo do DL 15/2022): 7 500-11 000 €',
+              '+ bateria 10 kWh: +5 000-8 000 €',
+              '+ integração com casa inteligente: +500-1 500 €'
             ]}
           ]},
           { id: 'c2', title: 'O que está incluído', content: [
@@ -95,11 +95,11 @@ export default {
           ]},
           { id: 'c3', title: 'Subsídios — Fundo Ambiental', content: [
             { kind: 'checklist', items: [
-              '**Fundo Ambiental** não garante financiamento anual — verifique o Aviso actual aberto em fundoambiental.pt',
+              'Fundo Ambiental não garante financiamento anual — verifique o Aviso actual aberto em fundoambiental.pt',
               'Calls residenciais de eficiência anteriores tinham caps e reimbursement rates específicos, mas os amounts de 2026 dependem do programa activo',
               'Calls abrem irregularly com deadlines, budgets e eligibility rules próprios — monitorize o Fundo Ambiental e o Diário da República',
               'Não inclua o subsídio no orçamento do projecto antes da aprovação da sua candidatura',
-              '**MAE** — programa dos municípios (algumas cidades complementam)'
+              'MAE — programa dos municípios (algumas cidades complementam)'
             ]}
           ]}
         ]}
@@ -141,7 +141,7 @@ export default {
             { kind: 'checklist', items: [
               '1-3 dias de montagem',
               'Ligação ao seu quadro eléctrico',
-              'Instalação/configuração de **bidirectional smart meter** — realizada pelo distribution network operator (normalmente **E-REDES** em PT continental). Comercializador (fornecedor) — entidade separada',
+              'Instalação/configuração de bidirectional smart meter — realizada pelo distribution network operator (normalmente E-REDES em PT continental). Comercializador (fornecedor) — entidade separada',
               'Teste + activação',
               'Registo no portal da DGEG (frequentemente tratado pelo instalador)'
             ]}
@@ -149,7 +149,7 @@ export default {
           { id: 'p5', title: '5. Compensação pelos excedentes', content: [
             { kind: 'checklist', items: [
               'A energia solar excedentária pode ser injectada na rede → compensação do seu comercializador (EDP, Galp, Endesa, Iberdrola, etc.) se houver bidirectional smart meter e contrato de venda',
-              '⚠️ Net metering no sentido de compensação 1:1 em Portugal **NÃO EXISTE** — sem contrato de venda, o surplus pode ir para a rede sem pagamento',
+              '⚠️ Net metering no sentido de compensação 1:1 em Portugal NÃO EXISTE — sem contrato de venda, o surplus pode ir para a rede sem pagamento',
               'Tarifa: normalmente inferior ao preço de retalho da electricidade',
               'Para UPAC maiores — contrato separado com comercializador/agregador'
             ]}
@@ -162,11 +162,11 @@ export default {
       title: '💼 Aspecto fiscal',
       content: [
         { kind: 'checklist', items: [
-          '**IVA reduzido** pode aplicar-se ao fornecimento/instalação de painéis fotovoltaicos segundo a redacção actual da Lista I do IVA — confirme o treatment na invoice com o instalador',
-          '**Dedução em IRS** directamente para sistemas solares domésticos não está prevista (é um investimento, não uma despesa)',
-          '**Imposto Municipal sobre Imóveis (IMI)**: alguns municípios oferecem redução para casas com sistemas solares (desconto de 5-15%)',
-          '**Excedente sale**: para pessoas singulares, o rendimento da venda de surplus de pequena UPAC pode estar excluído de IRS até ao statutory annual limit; acima disso — ou para business activity — aplicam-se regras tax/VAT. Confirme com contabilista/comercializador',
-          '**Sistemas solares para empresas (UPAC comerciais)**: amortização ao abrigo do Decreto Regulamentar 25/2009 (normalmente 5-10% ao ano para equipamento energético) — NÃO é uma «dedução total automática em 8-10 anos». A recuperação de IVA só está disponível se a empresa for VAT-taxable com direito a dedução e as facturas estiverem correctamente emitidas; para actividades parciais/isentas, a dedução é limitada. Confirme com TOC/CC'
+          'IVA reduzido pode aplicar-se ao fornecimento/instalação de painéis fotovoltaicos segundo a redacção actual da Lista I do IVA — confirme o treatment na invoice com o instalador',
+          'Dedução em IRS directamente para sistemas solares domésticos não está prevista (é um investimento, não uma despesa)',
+          'Imposto Municipal sobre Imóveis (IMI): alguns municípios oferecem redução para casas com sistemas solares (desconto de 5-15%)',
+          'Excedente sale: para pessoas singulares, o rendimento da venda de surplus de pequena UPAC pode estar excluído de IRS até ao statutory annual limit; acima disso — ou para business activity — aplicam-se regras tax/VAT. Confirme com contabilista/comercializador',
+          'Sistemas solares para empresas (UPAC comerciais): amortização ao abrigo do Decreto Regulamentar 25/2009 (normalmente 5-10% ao ano para equipamento energético) — NÃO é uma «dedução total automática em 8-10 anos». A recuperação de IVA só está disponível se a empresa for VAT-taxable com direito a dedução e as facturas estiverem correctamente emitidas; para actividades parciais/isentas, a dedução é limitada. Confirme com TOC/CC'
         ]}
       ]
     },
@@ -175,10 +175,10 @@ export default {
       title: '🏠 Se arrenda',
       content: [
         { kind: 'checklist', items: [
-          'Qualquer instalação fixa exige **consentimento escrito do proprietário**; para sistemas removable balcony plug-in verifique também o contrato de arrendamento, o regulamento condomínio e a segurança eléctrica',
-          '**Leasing de sistemas solares** (Iberdrola, Galp solar leasing): o prestador instala, você paga uma mensalidade — a poupança é menor, mas sem investimento inicial',
-          '**Cooperativas** (Sociedade Cooperativa de Energia): energia solar comunitária — participa num sistema maior',
-          '**Propriedade dos painéis** e possibilidade de os levar quando sair devem ser **acordadas por escrito** com o proprietário ANTES da instalação'
+          'Qualquer instalação fixa exige consentimento escrito do proprietário; para sistemas removable balcony plug-in verifique também o contrato de arrendamento, o regulamento condomínio e a segurança eléctrica',
+          'Leasing de sistemas solares (Iberdrola, Galp solar leasing): o prestador instala, você paga uma mensalidade — a poupança é menor, mas sem investimento inicial',
+          'Cooperativas (Sociedade Cooperativa de Energia): energia solar comunitária — participa num sistema maior',
+          'Propriedade dos painéis e possibilidade de os levar quando sair devem ser acordadas por escrito com o proprietário ANTES da instalação'
         ]}
       ]
     }

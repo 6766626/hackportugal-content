@@ -72,10 +72,10 @@ export default {
           ]},
           { id: 'tour', title: 'Tourist options', content: [
             { kind: 'checklist', items: [
-              '🛥️ **Yellow Boat** (Hop-on Hop-off) — tourist ferries Belém + Cacilhas + centre, ≈€25/day',
-              '🚢 **Tejo Sunset Cruise** — sunset, ≈€30/person',
-              '⚓ **Lisboa Sailing Tour** — private cruise, from €50/person',
-              '🏝️ **Sesimbra/Setúbal Boat Tour** — dolphins, ≈€50/person'
+              '🛥️ Yellow Boat (Hop-on Hop-off) — tourist ferries Belém + Cacilhas + centre, ≈€25/day',
+              '🚢 Tejo Sunset Cruise — sunset, ≈€30/person',
+              '⚓ Lisboa Sailing Tour — private cruise, from €50/person',
+              '🏝️ Sesimbra/Setúbal Boat Tour — dolphins, ≈€50/person'
             ]}
           ]}
         ]}

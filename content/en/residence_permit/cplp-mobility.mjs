@@ -81,7 +81,7 @@ export default {
         { kind: 'checklist', items: [
           'Validity and renewals depend on the type of document issued: early/electronic CPLP certificates may have been issued for 1 year; card-based temporary residence permits under art. 75 usually follow the scheme of 2 years initial + 3 years renewal — check the term printed on the card/AIMA decision',
           'Free access to work without a separate work permit',
-          'Under current law, naturalisation after 5 years of lawful residence. **On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII** — after publication in the DRE, the period for CPLP will increase to 7 years',
+          'Under current law, naturalisation after 5 years of lawful residence. On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE, the period for CPLP will increase to 7 years',
           'Brazilian residents may separately request the Estatuto de Igualdade de Direitos e Deveres; political rights require a separate status and usually 3 years of residence',
           'Simplified access to SNS and schools'
         ]}

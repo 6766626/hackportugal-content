@@ -3,7 +3,7 @@ export default {
   id: 'via-card-electronic-toll',
   categoryId: 'auto_trips',
   title: 'Via Verde e alternativas — todas as formas de pagar portagens',
-  tldr: 'A Via Verde é um dispositivo eletrónico para passar sem parar. Não é a única forma. Alternativas: Via Card (descartável), TollCard pré-pago, pagamento posterior através dos CTT/Payshop, EasyToll para matrículas estrangeiras. Para matrículas portuguesas, após a passagem, o pagamento fica disponível **após ~48 h**, e a janela de pagamento é **normalmente de 15 dias úteis**. Depois dessa janela — coima por contraordenação (intervalo fixo, **NÃO é um “×25” universal**). A partir de **01.01.2025**, foram abolidas as portagens na A22 Algarve, A23, A24, A25 e em partes da A28, A4, A13.',
+  tldr: 'A Via Verde é um dispositivo eletrónico para passar sem parar. Não é a única forma. Alternativas: Via Card (descartável), TollCard pré-pago, pagamento posterior através dos CTT/Payshop, EasyToll para matrículas estrangeiras. Para matrículas portuguesas, após a passagem, o pagamento fica disponível após ~48 h, e a janela de pagamento é normalmente de 15 dias úteis. Depois dessa janela — coima por contraordenação (intervalo fixo, NÃO é um “×25” universal). A partir de 01.01.2025, foram abolidas as portagens na A22 Algarve, A23, A24, A25 e em partes da A28, A4, A13.',
   tags: ['via verde', 'portagem', 'estradas com portagem', 'scut'],
   estimatedReadMinutes: 6,
   steps: [
@@ -32,7 +32,7 @@ export default {
             { kind: 'paragraph', text: 'Cartão com saldo de 5/10/20/40 €. Ativa-se por SMS → depois o saldo vai sendo debitado. Pode ser comprado em postos Galp, Repsol, BP. Para viagens curtas.' }
           ]},
           { id: 'o5', title: 'CTT / Payshop (após a passagem)', content: [
-            { kind: 'paragraph', text: 'Se passou num pórtico eletrónico sem Via Verde e não associou EasyToll — para matrículas portuguesas, o pagamento fica disponível **após ~48 h**, e a janela de pagamento é normalmente de **15 dias úteis**. Pode pagar nos CTT, em agentes Payshop, ou online em portagens.ctt.pt. Depois dessa janela — coima por contraordenação.' }
+            { kind: 'paragraph', text: 'Se passou num pórtico eletrónico sem Via Verde e não associou EasyToll — para matrículas portuguesas, o pagamento fica disponível após ~48 h, e a janela de pagamento é normalmente de 15 dias úteis. Pode pagar nos CTT, em agentes Payshop, ou online em portagens.ctt.pt. Depois dessa janela — coima por contraordenação.' }
           ]}
         ]}
       ]
@@ -41,7 +41,7 @@ export default {
       id: 'scut-explained',
       title: 'O que são ex-SCUT e quais são agora gratuitas',
       content: [
-        { kind: 'paragraph', text: 'SCUT (Sem Cobrança ao Utilizador) — antigas estradas sem praças de portagem. Com o tempo, algumas passaram a ser pagas através de pórticos eletrónicos (sem cabines), e a partir de **01.01.2025** o governo **aboliu as portagens** em várias ex-SCUT — A22, A23, A24, A25 e partes da A28, além da A4 e A13/A13-1. Antes da viagem, confirme o estado atual de cada via (Infraestruturas de Portugal, Via Verde) — o regime ainda pode mudar.' },
+        { kind: 'paragraph', text: 'SCUT (Sem Cobrança ao Utilizador) — antigas estradas sem praças de portagem. Com o tempo, algumas passaram a ser pagas através de pórticos eletrónicos (sem cabines), e a partir de 01.01.2025 o governo aboliu as portagens em várias ex-SCUT — A22, A23, A24, A25 e partes da A28, além da A4 e A13/A13-1. Antes da viagem, confirme o estado atual de cada via (Infraestruturas de Portugal, Via Verde) — o regime ainda pode mudar.' },
         { kind: 'checklist', items: [
           '✅ A partir de 01.01.2025 GRÁTIS: A22 Algarve, A23 Beira Interior, A24 Interior Norte, A25 Beira Litoral, partes da A28 Norte Litoral, A4 Marão, A13/A13-1',
           '💳 Pagas através de pórtico eletrónico (pórticos eletrónicos, sem cabines): A29 Espinho-Ovar, A41/A42 circular do Porto e os restantes troços',
@@ -57,7 +57,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Se o veículo tiver matrícula portuguesa', content: [
             { kind: 'checklist', items: [
-              'O pagamento fica disponível **após ~48 h da passagem**, e a janela de pagamento é normalmente de **15 dias úteis** através dos CTT/Payshop ou portagens.ctt.pt',
+              'O pagamento fica disponível após ~48 h da passagem, e a janela de pagamento é normalmente de 15 dias úteis através dos CTT/Payshop ou portagens.ctt.pt',
               'Tenha a matrícula + data/hora aproximada da passagem',
               'Depois dessa janela — notificação da AT com coima por contraordenação (intervalo fixo segundo a tabela — NÃO é um “×25” universal)',
               'Adicionalmente, custas judiciais de 30-100 €',

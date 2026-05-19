@@ -3,7 +3,7 @@ export default {
   id: 'golden-visa-2026',
   categoryId: 'residence_permit',
   title: 'Golden Visa (ARI) in 2026 — current routes',
-  tldr: 'Golden Visa (ARI, Autorização de Residência para Investimento) is a residence permit through investment. Since October 2023, the purchase of real estate has been REMOVED. Remaining routes are: collective investment / venture capital funds €500,000 (not in real estate), R&D €500,000, culture €250,000 (€200,000 in low-density areas), capitalisation of an existing company €500,000 + 5 permanent jobs, creation of a new company + 5 jobs, or simply 10 permanent jobs. Minimum stay — 7 days in the first year + 14 days in each subsequent two-year period (this is a requirement for maintaining ARI; it does NOT make the person a tax resident).\n\nPotential citizenship application after 5 years — **on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII**, which, after publication in the DRE, will raise the period to 10 years for third countries.',
+  tldr: 'Golden Visa (ARI, Autorização de Residência para Investimento) is a residence permit through investment. Since October 2023, the purchase of real estate has been REMOVED. Remaining routes are: collective investment / venture capital funds €500,000 (not in real estate), R&D €500,000, culture €250,000 (€200,000 in low-density areas), capitalisation of an existing company €500,000 + 5 permanent jobs, creation of a new company + 5 jobs, or simply 10 permanent jobs. Minimum stay — 7 days in the first year + 14 days in each subsequent two-year period (this is a requirement for maintaining ARI; it does NOT make the person a tax resident).\n\nPotential citizenship application after 5 years — on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII, which, after publication in the DRE, will raise the period to 10 years for third countries.',
   audience: { citizenships: ['thirdCountry'] },
   tags: ['golden visa', 'ari', 'investment'],
   estimatedReadMinutes: 8,
@@ -32,7 +32,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Minimum stay: 7 days in the first year + 14 days in each subsequent two-year period. This requirement relates to maintaining ARI; it does NOT make the person a tax resident and by itself does NOT guarantee citizenship',
-          'Potential route to citizenship after 5 years of legal residence subject to meeting Lei da Nacionalidade requirements (A2 language, no disqualifying criminal/security grounds). **On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII** — after publication in the DRE, the period for third countries will increase to 10 years',
+          'Potential route to citizenship after 5 years of legal residence subject to meeting Lei da Nacionalidade requirements (A2 language, no disqualifying criminal/security grounds). On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE, the period for third countries will increase to 10 years',
           'A Portuguese residence card gives the right to short-term travel within the Schengen Area for up to 90 days in any 180 days (NOT an “automatic Schengen visa”)',
           'Possibility to include family (spouse, children, dependent parents)',
           'Potential access to IFICI ONLY if the investor becomes a Portuguese tax resident and separately meets IFICI requirements (eligible activity, employer/entity, registration, no PT tax residence in the previous 5 years). ARI by itself does NOT grant this regime'

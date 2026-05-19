@@ -24,10 +24,10 @@ export default {
             { kind: 'paragraph', text: 'Teste positivo → marcação com o médico de família no Centro de Saúde (unidade pública) ou com um ginecologista privado (25-100 € pela primeira consulta).' }
           ]},
           { id: 'r2', title: '2. Início do acompanhamento no SNS', content: [
-            { kind: 'paragraph', text: 'O médico de família/USF inicia o acompanhamento da gravidez no SNS, emite referenciações e entrega o **Boletim de Saúde da Grávida** — a caderneta da grávida, onde são registadas consultas, análises e ecografias.' }
+            { kind: 'paragraph', text: 'O médico de família/USF inicia o acompanhamento da gravidez no SNS, emite referenciações e entrega o Boletim de Saúde da Grávida — a caderneta da grávida, onde são registadas consultas, análises e ecografias.' }
           ]},
           { id: 'r3', title: '3. Prestações — o quê e quando', content: [
-            { kind: 'paragraph', text: 'A partir da 13.ª semana, pode pedir o **Abono de Família Pré-Natal**, se o agregado cumprir os critérios de rendimentos. O **Subsídio Parental** é pedido depois do nascimento da criança / início da licença através da Segurança Social Direta — normalmente no prazo de 6 meses a contar do primeiro dia pelo qual a prestação é solicitada.' }
+            { kind: 'paragraph', text: 'A partir da 13.ª semana, pode pedir o Abono de Família Pré-Natal, se o agregado cumprir os critérios de rendimentos. O Subsídio Parental é pedido depois do nascimento da criança / início da licença através da Segurança Social Direta — normalmente no prazo de 6 meses a contar do primeiro dia pelo qual a prestação é solicitada.' }
           ]}
         ]}
       ]
@@ -36,10 +36,10 @@ export default {
       id: 'consultations',
       title: 'Acompanhamento da gravidez — calendário',
       content: [
-        { kind: 'paragraph', text: 'Para uma gravidez de baixo risco, a DGS recomenda **pelo menos 6 consultas**; na prática, o calendário é frequentemente mais apertado no fim da gravidez e depende da USF/hospital e do risco clínico.' },
+        { kind: 'paragraph', text: 'Para uma gravidez de baixo risco, a DGS recomenda pelo menos 6 consultas; na prática, o calendário é frequentemente mais apertado no fim da gravidez e depende da USF/hospital e do risco clínico.' },
         { kind: 'checklist', items: [
           '1.ª: até às 12 semanas — consulta inicial, análises, referenciação para rastreios',
-          'Ecografias programadas geralmente: **11–13+6 semanas**, **20–22 semanas**, **30–32 semanas**',
+          'Ecografias programadas geralmente: 11–13+6 semanas, 20–22 semanas, 30–32 semanas',
           '24-28 semanas — rastreio da diabetes gestacional',
           '32-36 semanas — plano de parto, discussão sobre anestesia',
           '36-40 semanas — controlo semanal/quinzenal',
@@ -59,7 +59,7 @@ export default {
           '📋 Plano de Parto (plano de parto) — as suas preferências: anestesia epidural, posição, música, presença do pai no parto',
           '🎒 Mala para a maternidade: documentos médicos, roupa para a mãe e para o bebé, produtos de higiene',
           '🚗 Caminho para a maternidade — conheça-o com antecedência, especialmente para partos nocturnos',
-          '📞 **SNS 24 (808 24 24 24)** — linha de triagem médica em caso de dúvidas/situações não urgentes. Em caso de risco de vida, hemorragia intensa, convulsões, perda de consciência — ligar **112**'
+          '📞 SNS 24 (808 24 24 24) — linha de triagem médica em caso de dúvidas/situações não urgentes. Em caso de risco de vida, hemorragia intensa, convulsões, perda de consciência — ligar 112'
         ]}
       ]
     },
@@ -75,16 +75,16 @@ export default {
             { kind: 'paragraph', text: 'Logo após o parto — procedimentos básicos: avaliação pelo índice de Apgar, medições, primeira amamentação, vitamina K. Em Portugal, o padrão no sistema público é contacto pele a pele durante pelo menos 1 hora.' }
           ]},
           { id: 'b3', title: 'Registo do nascimento', content: [
-            { kind: 'paragraph', text: 'Em muitas maternidades existe o **Balcão do Nado Vivo**, onde é possível registar o nascimento e obter o Assento de Nascimento no próprio dia. Se não existir/estiver fechado — o registo é feito na Conservatória do Registo Civil ou através dos serviços online disponíveis. O registo deve ser feito no prazo de **20 dias**. Gratuito.' }
+            { kind: 'paragraph', text: 'Em muitas maternidades existe o Balcão do Nado Vivo, onde é possível registar o nascimento e obter o Assento de Nascimento no próprio dia. Se não existir/estiver fechado — o registo é feito na Conservatória do Registo Civil ou através dos serviços online disponíveis. O registo deve ser feito no prazo de 20 dias. Gratuito.' }
           ]},
           { id: 'b4', title: 'Documentos na alta', content: [
             { kind: 'checklist', items: [
               'Assento de Nascimento',
               'Boletim de Saúde Infantil (caderneta de saúde infantil)',
-              '**Cartão de Cidadão** é emitido apenas se a criança for cidadã portuguesa. Filhos de estrangeiros nascidos em Portugal só obtêm nacionalidade se cumprirem as condições da Lei da Nacionalidade. Reforma da lei da nacionalidade 2026: TC ruled 49/XVII unconstitutional, 48/XVII still pending DRE — verifique o estado actualizado',
+              'Cartão de Cidadão é emitido apenas se a criança for cidadã portuguesa. Filhos de estrangeiros nascidos em Portugal só obtêm nacionalidade se cumprirem as condições da Lei da Nacionalidade. Reforma da lei da nacionalidade 2026: TC ruled 49/XVII unconstitutional, 48/XVII still pending DRE — verifique o estado actualizado',
               'Se a criança não for cidadã portuguesa — são tratados documentos estrangeiros/passaporte através do consulado dos pais e, se necessário, residence process através da AIMA',
-              '**NIF** para uma criança estrangeira é normalmente pedido separadamente na Autoridade Tributária através de representante; para uma criança portuguesa, o número pode estar associado à emissão do Cartão de Cidadão',
-              '**Número de Utente** é frequentemente criado através do mecanismo Nascer Utente, mas confirme-o após a alta; se o número não aparecer — peça-o no Centro de Saúde/ULS com o assento de nascimento e os documentos dos pais'
+              'NIF para uma criança estrangeira é normalmente pedido separadamente na Autoridade Tributária através de representante; para uma criança portuguesa, o número pode estar associado à emissão do Cartão de Cidadão',
+              'Número de Utente é frequentemente criado através do mecanismo Nascer Utente, mas confirme-o após a alta; se o número não aparecer — peça-o no Centro de Saúde/ULS com o assento de nascimento e os documentos dos pais'
             ]}
           ]}
         ]}
@@ -98,9 +98,9 @@ export default {
           { id: 'l1', title: 'Licença Parental Inicial', content: [
             { kind: 'checklist', items: [
               '120 dias — 100% do salário (opção base)',
-              '150 dias — 80%, se não forem cumpridas as condições de partilha; **150 dias com partilha** entre os pais segundo as regras da Segurança Social — **100%**',
-              '180 dias com partilha — **90%**, se, após o período obrigatório da mãe, cada progenitor gozar o período exclusivo previsto na lei (por exemplo, 30 dias consecutivos ou dois períodos de 15 dias), de acordo com as regras da Segurança Social',
-              'Pai: **28 dias obrigatórios** de licença parental exclusiva do pai; 7 deles consecutivos imediatamente após o nascimento, os restantes nos primeiros 42 dias. Existem ainda 7 dias facultativos, que podem ser gozados em simultâneo com a licença da mãe (Código do Trabalho art. 43, Lei 13/2023)',
+              '150 dias — 80%, se não forem cumpridas as condições de partilha; 150 dias com partilha entre os pais segundo as regras da Segurança Social — 100%',
+              '180 dias com partilha — 90%, se, após o período obrigatório da mãe, cada progenitor gozar o período exclusivo previsto na lei (por exemplo, 30 dias consecutivos ou dois períodos de 15 dias), de acordo com as regras da Segurança Social',
+              'Pai: 28 dias obrigatórios de licença parental exclusiva do pai; 7 deles consecutivos imediatamente após o nascimento, os restantes nos primeiros 42 dias. Existem ainda 7 dias facultativos, que podem ser gozados em simultâneo com a licença da mãe (Código do Trabalho art. 43, Lei 13/2023)',
               'Direito à licença — ambos os progenitores enquanto trabalhadores por conta de outrem, trabalhadores independentes, desempregados (desde que cumpram as condições aplicáveis)'
             ]}
           ]},
@@ -109,17 +109,17 @@ export default {
           ]},
           { id: 'l3', title: 'Licenças adicionais', content: [
             { kind: 'checklist', items: [
-              'Licença parental complementar / **subsídio parental alargado**: até 3 meses para cada progenitor imediatamente após a licença parental inicial, normalmente **30%** da remuneração de referência; existem também outras formas de complementar leave com condições próprias',
+              'Licença parental complementar / subsídio parental alargado: até 3 meses para cada progenitor imediatamente após a licença parental inicial, normalmente 30% da remuneração de referência; existem também outras formas de complementar leave com condições próprias',
               'Licença para assistência a filho — até 2 anos sem remuneração (com garantia de regresso ao trabalho)',
-              'Pausas para **amamentação/aleitação**: normalmente 2 períodos até 1 hora por dia. Aleitação — até 1 ano; amamentação pode continuar depois de 1 ano mediante confirmação médica (Código do Trabalho art. 47–48)',
-              'O direito a **part-time / flexible working time** pode caber à mãe ou ao pai com filho até 12 anos, desde que sejam cumpridos o procedimento de aviso e as condições do Código do Trabalho (art. 55–57)'
+              'Pausas para amamentação/aleitação: normalmente 2 períodos até 1 hora por dia. Aleitação — até 1 ano; amamentação pode continuar depois de 1 ano mediante confirmação médica (Código do Trabalho art. 47–48)',
+              'O direito a part-time / flexible working time pode caber à mãe ou ao pai com filho até 12 anos, desde que sejam cumpridos o procedimento de aviso e as condições do Código do Trabalho (art. 55–57)'
             ]}
           ]},
           { id: 'l4', title: 'Pagamentos pontuais', content: [
             { kind: 'checklist', items: [
-              '**Não existe um “baby bonus” nacional único**. Verifique os apoios à natalidade municipais no seu local de residência',
+              'Não existe um “baby bonus” nacional único. Verifique os apoios à natalidade municipais no seu local de residência',
               'A nível nacional, estão disponíveis: Abono de Família Pré-Natal (a partir da 13.ª semana, sujeito a rendimentos), Abono de Família para a criança, Garantia para a Infância, Subsídio Social Parental',
-              '**Subsídio Social Parental** — para quem não tem direito ao Subsídio Parental normal e cumpre condições de baixos rendimentos/recursos',
+              'Subsídio Social Parental — para quem não tem direito ao Subsídio Parental normal e cumpre condições de baixos rendimentos/recursos',
               'Abono de Família (prestação por criança) — pago mensalmente desde o nascimento (ver guia separado)'
             ]}
           ]}

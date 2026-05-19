@@ -3,7 +3,7 @@ export default {
   id: 'mortgage-foreigners',
   categoryId: 'housing_buy',
   title: 'Crédito à habitação para estrangeiros em Portugal',
-  tldr: 'Estrangeiros residentes podem obter crédito à habitação: o LTV macroprudencial para habitação **owner-occupied/permanent** é até 90% do **menor valor entre** o preço de compra e a avaliação; para secondary residence — até 80%; non-resident borrowers — normalmente inferior. Euribor a 6 meses no início de maio de 2026 ≈ 2,45–2,56% (desceu do pico de ~4% em 2023). Spreads portugueses típicos de 0,6–1,5%. Taxa real ~3,0–4,0%.\n\n**Limite macroprudencial do prazo** (Banco de Portugal desde 2022): para borrowers até 30 anos — até 40 anos; para 30-35 anos — até 37 anos; para >35 anos — até 35 anos. Processo de 30–90 dias.',
+  tldr: 'Estrangeiros residentes podem obter crédito à habitação: o LTV macroprudencial para habitação owner-occupied/permanent é até 90% do menor valor entre o preço de compra e a avaliação; para secondary residence — até 80%; non-resident borrowers — normalmente inferior. Euribor a 6 meses no início de maio de 2026 ≈ 2,45–2,56% (desceu do pico de ~4% em 2023). Spreads portugueses típicos de 0,6–1,5%. Taxa real ~3,0–4,0%.\n\nLimite macroprudencial do prazo (Banco de Portugal desde 2022): para borrowers até 30 anos — até 40 anos; para 30-35 anos — até 37 anos; para >35 anos — até 35 anos. Processo de 30–90 dias.',
   tags: ['crédito à habitação', 'banco', 'habitação', 'imobiliário'],
   estimatedReadMinutes: 7,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Quem pode obter',
       content: [
         { kind: 'checklist', items: [
-          'Residentes com rendimento em Portugal: LTV macroprudencial — até 90% do **menor valor entre** o preço de compra e a avaliação para owner-occupied permanent residence, até 80% para secondary',
+          'Residentes com rendimento em Portugal: LTV macroprudencial — até 90% do menor valor entre o preço de compra e a avaliação para owner-occupied permanent residence, até 80% para secondary',
           'Não residentes com rendimento fora de Portugal — normalmente 60–70%; as condições concretas dependem do banco',
           'Cidadãos da EU: os bancos avaliam a tax residency, a fonte/moeda do rendimento e a employment stability — a cidadania EU por si só não equivale às condições de um residente em Portugal',
           'Cidadãos não EU: não existe uma regra universal de “2 anos de autorização de residência”; alguns bancos são mais favoráveis a uma autorização de residência estável com rendimento em Portugal — avaliação individual',
@@ -65,7 +65,7 @@ export default {
             { kind: 'paragraph', text: 'Contactar bancos (no mínimo 3) → obter aprovação prévia com indicação do montante e da taxa. Prazo — 2–3 semanas.' }
           ]},
           { id: 'p2', title: '2. Encontrar habitação', content: [
-            { kind: 'paragraph', text: 'Com a aprovação prévia em mãos, as negociações com o vendedor são levadas mais a sério. Assinar CPCV (contrato de promessa) + sinal (sinal) — normalmente 10% (não é uma regra obrigatória). ⚠️ Inclua obrigatoriamente no CPCV uma **mortgage contingency clause** — caso contrário, se o banco recusar, pode perder o sinal.' }
+            { kind: 'paragraph', text: 'Com a aprovação prévia em mãos, as negociações com o vendedor são levadas mais a sério. Assinar CPCV (contrato de promessa) + sinal (sinal) — normalmente 10% (não é uma regra obrigatória). ⚠️ Inclua obrigatoriamente no CPCV uma mortgage contingency clause — caso contrário, se o banco recusar, pode perder o sinal.' }
           ]},
           { id: 'p3', title: '3. Avaliação bancária', content: [
             { kind: 'paragraph', text: 'O banco nomeia um avaliador. 300–500 €. Se a avaliação for inferior ao preço, o banco financiará apenas até ao valor da avaliação.' }

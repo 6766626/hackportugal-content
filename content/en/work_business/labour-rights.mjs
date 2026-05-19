@@ -22,14 +22,14 @@ export default {
           ]},
           { id: 'c2', title: 'Contrato a termo certo (fixed-term with a fixed date)', content: [
             { kind: 'checklist', items: [
-              'Specific end date. After the Agenda do Trabalho Digno (Lei 13/2023): the general maximum is **2 years** (including renewals). The minimum depends on the justification; for typical cases — 6 months',
+              'Specific end date. After the Agenda do Trabalho Digno (Lei 13/2023): the general maximum is 2 years (including renewals). The minimum depends on the justification; for typical cases — 6 months',
               'Only for objective reasons listed in the Código do Trabalho (market conditions, temporary project, replacement of an employee, etc.)',
-              'Maximum of **3 renewals**, and the total duration of renewals may not exceed the initial term',
+              'Maximum of 3 renewals, and the total duration of renewals may not exceed the initial term',
               'At the end of the term, if not converted into an open-ended contract — compensation according to Lei 13/2023 (general rate of 24 days of basic salary + diuturnidades for each year); the specific calculation depends on the situation'
             ]}
           ]},
           { id: 'c3', title: 'Contrato a termo incerto (fixed-term without a fixed date)', content: [
-            { kind: 'paragraph', text: 'Fixed-term without a fixed date (until completion of a project / replacement of someone on parental leave). Maximum **4 years** (after Lei 13/2023). Compensation follows the same general rules as termo certo.' }
+            { kind: 'paragraph', text: 'Fixed-term without a fixed date (until completion of a project / replacement of someone on parental leave). Maximum 4 years (after Lei 13/2023). Compensation follows the same general rules as termo certo.' }
           ]},
           { id: 'c4', title: 'Contrato de prestação de serviços / Recibo Verde', content: [
             { kind: 'paragraph', text: 'A format similar to being self-employed.\n\nYou pay taxes yourself through Anexo B. There are no employee labour rights under the Código do Trabalho — paid holiday from the employer, subsídios de férias/Natal, protection against dismissal. But when paying contributions to Segurança Social, an independent worker may have access to some social benefits (doença, parentalidade) subject to conditions. For protection, the contract must reflect genuine independent status; otherwise this is “falso recibo verde” — it may lead to recognition of an employment contract, additional Segurança Social assessments and ACT coimas (the amount depends on the category of breach).' }
@@ -42,15 +42,15 @@ export default {
       title: '💰 Salary and taxes',
       content: [
         { kind: 'checklist', items: [
-          '**Minimum wage 2026**: €920/month × 14 (including 13th salary + holiday pay)',
-          '**Subsídio de férias** (holiday allowance): 1 monthly salary in June',
-          '**Subsídio de Natal** (13th salary): 1 monthly salary in December',
-          '**Subsídio de alimentação** (meal allowance): not mandatory, but common. €6-9/working day. Up to €6/day is not subject to IRS when paid in cash; with cartão/vale refeição the limit is higher — €10.20/day',
-          '**Overtime (horas extras)** under art. 268 CT + Lei 13/2023 (Agenda do Trabalho Digno): rates **depend on the annual volume**. **Up to 100 hours/year**: +25% for the first hour on a working day, +37.5% for subsequent hours, +50% on a rest day/public holiday. **From the 101st hour/year**: rates increase to +50%/+75%/+100%. A collective agreement may set more favourable conditions',
-          '**Night work** (22:00-07:00): +25% extra',
-          '**Work on descanso semanal/feriado**: usually +50% for each hour; in some cases descanso compensatório is also due. A collective agreement may set better conditions (Código do Trabalho arts. 268, 269)',
-          '**Deductions**: IRS (progressive scale 11.97-48%), Segurança Social 11%. The difference between gross and net is approximately 22-35% depending on salary',
-          '**Payslip (recibo de vencimento)**: must be issued monthly, with a breakdown of all deductions'
+          'Minimum wage 2026: €920/month × 14 (including 13th salary + holiday pay)',
+          'Subsídio de férias (holiday allowance): 1 monthly salary in June',
+          'Subsídio de Natal (13th salary): 1 monthly salary in December',
+          'Subsídio de alimentação (meal allowance): not mandatory, but common. €6-9/working day. Up to €6/day is not subject to IRS when paid in cash; with cartão/vale refeição the limit is higher — €10.20/day',
+          'Overtime (horas extras) under art. 268 CT + Lei 13/2023 (Agenda do Trabalho Digno): rates depend on the annual volume. Up to 100 hours/year: +25% for the first hour on a working day, +37.5% for subsequent hours, +50% on a rest day/public holiday. From the 101st hour/year: rates increase to +50%/+75%/+100%. A collective agreement may set more favourable conditions',
+          'Night work (22:00-07:00): +25% extra',
+          'Work on descanso semanal/feriado: usually +50% for each hour; in some cases descanso compensatório is also due. A collective agreement may set better conditions (Código do Trabalho arts. 268, 269)',
+          'Deductions: IRS (progressive scale 11.97-48%), Segurança Social 11%. The difference between gross and net is approximately 22-35% depending on salary',
+          'Payslip (recibo de vencimento): must be issued monthly, with a breakdown of all deductions'
         ]}
       ]
     },
@@ -59,13 +59,13 @@ export default {
       title: '⏰ Working time',
       content: [
         { kind: 'checklist', items: [
-          '**Standard**: 40 hours per week, 8 hours per day',
+          'Standard: 40 hours per week, 8 hours per day',
           'Maximum overtime: 150 hours/year (for most sectors)',
           'Lunch break: 1-2 hours, minimum 1 hour if the working day is >6 hours',
           'Break between shifts: ≥ 11 hours',
           'Weekly rest day: 1 mandatory + 1 additional (usually Saturday+Sunday)',
           'Flexible schedule: possible by agreement',
-          '**Remote work (teletrabalho)**: regulated by Lei 83/2021 — written contract, payment of electricity/communications by the employer, right to disconnect'
+          'Remote work (teletrabalho): regulated by Lei 83/2021 — written contract, payment of electricity/communications by the employer, right to disconnect'
         ]}
       ]
     },
@@ -76,8 +76,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'l1', title: 'Férias (annual leave)', content: [
             { kind: 'checklist', items: [
-              '**22 working days** (standard) = approximately 31 calendar days',
-              '⚠️ Additional days for assiduidade (previously +1–3 days) **were abolished by Lei 23/2012** and no longer apply as a Código do Trabalho rule — they may exist only under a collective agreement, internal policy or individual agreement',
+              '22 working days (standard) = approximately 31 calendar days',
+              '⚠️ Additional days for assiduidade (previously +1–3 days) were abolished by Lei 23/2012 and no longer apply as a Código do Trabalho rule — they may exist only under a collective agreement, internal policy or individual agreement',
               'Must be used during the calendar year (cannot be carried over without agreement)',
               'Paid at 100% + subsídio de férias',
               'If dismissed: compensation for unused days'
@@ -89,15 +89,15 @@ export default {
               'From the 4th day — Subsídio de doença from Segurança Social, 55-75% of average salary',
               'For long-term illness (>365 days) — 70%',
               'Medical certificate (baixa) from a family doctor or emergency department',
-              '**Time off work** — up to 4 hours for medical appointments without salary reduction'
+              'Time off work — up to 4 hours for medical appointments without salary reduction'
             ]}
           ]},
           { id: 'l3', title: 'Parental leave', content: [
             { kind: 'checklist', items: [
-              '**120 days**: 100% of salary (standard)',
-              '**150 days**: 80% (if shared with the partner)',
-              '**180 days**: **90%** (since 2023, Lei 13/2023 — if both parents take ≥ 30 days)',
-              '**Father**: 28 mandatory days + 8 optional (Lei 90/2019)',
+              '120 days: 100% of salary (standard)',
+              '150 days: 80% (if shared with the partner)',
+              '180 days: 90% (since 2023, Lei 13/2023 — if both parents take ≥ 30 days)',
+              'Father: 28 mandatory days + 8 optional (Lei 90/2019)',
               'Pregnancy: 30+ days before birth — mandatory leave',
               'Breastfeeding: 2 × 30 min per day of paid breaks until the child is one year old'
             ]}
@@ -117,7 +117,7 @@ export default {
             { kind: 'checklist', items: [
               'Objective reasons: economic, market, technological',
               '30-75 days’ notice (depends on length of service)',
-              'Compensation: **14 days’ salary for each year of service** (cap of 12 × monthly salary or minimum 3 × monthly salaries)',
+              'Compensation: 14 days’ salary for each year of service (cap of 12 × monthly salary or minimum 3 × monthly salaries)',
               'Subsídio de desemprego: after dismissal for a reason not attributable to the employee'
             ]}
           ]},
@@ -134,9 +134,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Trade unions', content: [
             { kind: 'checklist', items: [
-              '**CGTP-IN** — the largest, left-wing, 600,000 members',
-              '**UGT** — centrist, 400,000',
-              '**FESAP**, **STE** — for civil servants',
+              'CGTP-IN — the largest, left-wing, 600,000 members',
+              'UGT — centrist, 400,000',
+              'FESAP, STE — for civil servants',
               'Membership fee: 0.5-1% of salary',
               'Protection: collective bargaining, legal assistance, strikes'
             ]}

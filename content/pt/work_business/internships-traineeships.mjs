@@ -3,7 +3,7 @@ export default {
   id: 'internships-traineeships',
   categoryId: 'work_business',
   title: 'Estágios — programas e remuneração',
-  tldr: 'Estágios são um ponto de partida frequente para a carreira em Portugal.\n\nTipos: **IEFP estágios** (por exemplo Estágios INICIAR / +Talento) — normalmente 6–9 meses, a bolsa depende do nível QNQ/formação e é calculada em IAS (a partir de ~1,3 IAS); **Estágios curriculares** (universidade parceira, muitas vezes sem remuneração obrigatória); **Estágios de Inserção** — medida específica do IEFP para pessoas com deficiência e incapacidade (não confundir com CEI+ para desempregados); **extracurricular** regulado pelo Decreto-Lei 66/2011 (contrato escrito, seguro, bolsa não inferior ao IAS 537,13 € em 2026); **estágios privados** de empresas, 600-1500 €/mês.',
+  tldr: 'Estágios são um ponto de partida frequente para a carreira em Portugal.\n\nTipos: IEFP estágios (por exemplo Estágios INICIAR / +Talento) — normalmente 6–9 meses, a bolsa depende do nível QNQ/formação e é calculada em IAS (a partir de ~1,3 IAS); Estágios curriculares (universidade parceira, muitas vezes sem remuneração obrigatória); Estágios de Inserção — medida específica do IEFP para pessoas com deficiência e incapacidade (não confundir com CEI+ para desempregados); extracurricular regulado pelo Decreto-Lei 66/2011 (contrato escrito, seguro, bolsa não inferior ao IAS 537,13 € em 2026); estágios privados de empresas, 600-1500 €/mês.',
   tags: ['estágio', 'estágio profissional', 'iefp', 'recém-licenciados'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,10 +14,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 't1', title: 'Estágios Profissionais (IEFP) — os mais populares', content: [
             { kind: 'checklist', items: [
-              '**Programa público** através do IEFP',
+              'Programa público através do IEFP',
               'Objectivo: primeiro emprego para recém-licenciados / requalificação',
-              '**Duração**: normalmente 6–9 meses, consoante a medida',
-              '**Bolsa**: depende do nível de qualificação QNQ e é calculada em múltiplos do IAS. Com o IAS 2026 de 537,13 €, valores indicativos: 1,3 IAS ≈ 698,27 €, 1,4 IAS ≈ 751,98 €, 1,6 IAS ≈ 859,41 €; confirme a tabela da medida IEFP específica',
+              'Duração: normalmente 6–9 meses, consoante a medida',
+              'Bolsa: depende do nível de qualificação QNQ e é calculada em múltiplos do IAS. Com o IAS 2026 de 537,13 €, valores indicativos: 1,3 IAS ≈ 698,27 €, 1,4 IAS ≈ 751,98 €, 1,6 IAS ≈ 859,41 €; confirme a tabela da medida IEFP específica',
               '+ subsídio de alimentação ~6 €/dia útil',
               'Substituir por: «+ subsídio de alimentação/refeição e seguro de acidentes; apoio ao transporte — apenas se previsto pela medida IEFP específica ou para categorias especiais.»',
               '+ seguro de acidentes de trabalho',
@@ -35,11 +35,11 @@ export default {
           ]},
           { id: 't3', title: 'Erasmus+ / EURES', content: [
             { kind: 'checklist', items: [
-              '**Erasmus+ Trainees**: para estudantes / recém-licenciados da UE',
+              'Erasmus+ Trainees: para estudantes / recém-licenciados da UE',
               '~3-6 meses numa empresa portuguesa',
               'O pagamento Erasmus depende do país, com complemento da UE + bolsa da universidade de origem',
               '600-1 100 €/mês de montante total da bolsa',
-              '**EURES** — portal da UE com ofertas de emprego, incluindo estágios'
+              'EURES — portal da UE com ofertas de emprego, incluindo estágios'
             ]}
           ]},
           { id: 't4', title: 'Estágios privados', content: [
@@ -48,7 +48,7 @@ export default {
               'Banca/consultoria (PwC, Deloitte, KPMG, BCP, Santander): 700-1200 €',
               'Startups (ecossistema de Lisboa): 500-1000 €',
               'Marketing / design: 600-900 €',
-              '**Extracurricular internship** fora do plano de estudos é regulado pelo Decreto-Lei 66/2011: é necessário contrato de estágio escrito, seguro, bolsa de estágio não inferior ao IAS (537,13 € em 2026), mais subsídio de refeição quando aplicável nos termos da lei. Unpaid é admissível sobretudo para curricular internships e excepções específicas (por exemplo estágios muito curtos até 3 meses sem renovação)',
+              'Extracurricular internship fora do plano de estudos é regulado pelo Decreto-Lei 66/2011: é necessário contrato de estágio escrito, seguro, bolsa de estágio não inferior ao IAS (537,13 € em 2026), mais subsídio de refeição quando aplicável nos termos da lei. Unpaid é admissível sobretudo para curricular internships e excepções específicas (por exemplo estágios muito curtos até 3 meses sem renovação)',
               'Candidatura: linkedin.com/jobs com o filtro «internship», jobs.eu, glassdoor'
             ]}
           ]},
@@ -80,7 +80,7 @@ export default {
           ]},
           { id: 'a2', title: '2. Procurar estágios adequados', content: [
             { kind: 'checklist', items: [
-              '**Net-Empregos / iefp.pt** mostra posições de estágio abertas',
+              'Net-Empregos / iefp.pt mostra posições de estágio abertas',
               'As empresas devem registar-se previamente como entidades de acolhimento',
               'Candidatura através do portal ou directamente à empresa',
               'Normalmente há entrevista; um técnico do IEFP pode participar'
@@ -129,10 +129,10 @@ export default {
           ]},
           { id: 'f2', title: 'Não UE (estudantes / trabalhadores com visto D)', content: [
             { kind: 'checklist', items: [
-              '**D4 Student**: é possível trabalhar até 20 horas por semana — o estágio está incluído',
-              '**Procuro Trabalho** (D-visa): o estágio pode contar como «trabalhar»',
+              'D4 Student: é possível trabalhar até 20 horas por semana — o estágio está incluído',
+              'Procuro Trabalho (D-visa): o estágio pode contar como «trabalhar»',
               'Substituir por: «O D3 é adequado para highly qualified activity, não para um estágio comum. Se a posição estiver formalizada como internship/traineeship, é necessário confirmar separadamente o visto/autorização de residência adequado: student, traineeship/research/temporary stay ou work-based route — consoante o contrato e a entidade de acolhimento.»',
-              '**Estágios IEFP** exigem autorização de residência / passaporte da UE — visto de turismo não serve',
+              'Estágios IEFP exigem autorização de residência / passaporte da UE — visto de turismo não serve',
               'TPD (Ukraine): direitos plenos de trabalho, incluindo estágio'
             ]}
           ]},
@@ -147,14 +147,14 @@ export default {
       title: '💡 Conselhos',
       content: [
         { kind: 'checklist', items: [
-          '🎯 **Candidate-se cedo**: o IEFP abre candidaturas a cada 2-3 meses, e os lugares esgotam rapidamente',
-          '📝 **CV em português**: máximo 2 páginas, fotografia é normalmente esperada, recomendações são bem-vindas',
-          '🗣️ **Língua**: português para a maioria; tecnologia / consultoria / startups são frequentemente mais receptivas ao inglês',
-          '🌐 **Ecossistema tecnológico / de startups em Lisboa**: mais fácil para estrangeiros, comunidade anglófona maior',
+          '🎯 Candidate-se cedo: o IEFP abre candidaturas a cada 2-3 meses, e os lugares esgotam rapidamente',
+          '📝 CV em português: máximo 2 páginas, fotografia é normalmente esperada, recomendações são bem-vindas',
+          '🗣️ Língua: português para a maioria; tecnologia / consultoria / startups são frequentemente mais receptivas ao inglês',
+          '🌐 Ecossistema tecnológico / de startups em Lisboa: mais fácil para estrangeiros, comunidade anglófona maior',
           'Substituir por: «A bolsa de estágio pode normalmente estar sujeita a IRS como rendimento de trabalho/dependent income, mas a retenção na fonte depende do montante, do estatuto e das tabelas em vigor; em bolsas baixas, a retenção pode ser zero. O imposto final é calculado na declaração anual de IRS.»',
-          '🎓 **Além do estágio**: fazer o Cartão Jovem (8 €/ano) — descontos em transportes, museus',
-          '🏆 **Outsystems / Critical**: melhores empresas para estágios tecnológicos, possível transição para emprego a tempo inteiro + apoio com autorização de trabalho',
-          '📅 **Sazonalidade**: estágios de IT — recrutamento principal em Setembro / Fevereiro; finanças — Junho-Julho; programas públicos — trimestralmente'
+          '🎓 Além do estágio: fazer o Cartão Jovem (8 €/ano) — descontos em transportes, museus',
+          '🏆 Outsystems / Critical: melhores empresas para estágios tecnológicos, possível transição para emprego a tempo inteiro + apoio com autorização de trabalho',
+          '📅 Sazonalidade: estágios de IT — recrutamento principal em Setembro / Fevereiro; finanças — Junho-Julho; programas públicos — trimestralmente'
         ]}
       ]
     }

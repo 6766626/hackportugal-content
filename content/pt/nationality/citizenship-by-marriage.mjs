@@ -3,11 +3,11 @@ export default {
   id: 'citizenship-by-marriage',
   categoryId: 'nationality',
   title: 'Nacionalidade portuguesa por casamento ou união de facto (Lei Orgânica 1/2026)',
-  tldr: '🆕 Ao abrigo da nova **Lei Orgânica n.º 1/2026** (publicada em 18.05.2026, em vigor desde **19.05.2026**), os cônjuges de cidadãos portugueses podem apresentar o pedido de nacionalidade **após 5 anos de casamento** (antes — 3 anos). União de facto — também 5 anos (antes 3), mais coabitação real obrigatória com provas. O certificado linguístico CIPLE formalmente NÃO é exigido. A presunção de «ligação efetiva à comunidade nacional» passa agora a começar aos 7–8 anos (antes 6). O limiar criminal do art. 9(b) Lei 37/81 já era de 3 anos de pena de prisão — a nova redação endurece a avaliação dos «vínculos», não reduz o próprio limiar.\n\n⚖️ **Disposição transitória:** para pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026, aplicam-se as regras anteriores — **3 anos de casamento / união de facto + reconhecimento da união por sentença declarativa**.\n\nO simples registo da união de facto na Junta de Freguesia ou na Conservatória para efeitos de nacionalidade NÃO é suficiente — é necessária uma decisão judicial. Não é obrigatório residir em Portugal.',
+  tldr: '🆕 Ao abrigo da nova Lei Orgânica n.º 1/2026 (publicada em 18.05.2026, em vigor desde 19.05.2026), os cônjuges de cidadãos portugueses podem apresentar o pedido de nacionalidade após 5 anos de casamento (antes — 3 anos). União de facto — também 5 anos (antes 3), mais coabitação real obrigatória com provas. O certificado linguístico CIPLE formalmente NÃO é exigido. A presunção de «ligação efetiva à comunidade nacional» passa agora a começar aos 7–8 anos (antes 6). O limiar criminal do art. 9(b) Lei 37/81 já era de 3 anos de pena de prisão — a nova redação endurece a avaliação dos «vínculos», não reduz o próprio limiar.\n\n⚖️ Disposição transitória: para pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026, aplicam-se as regras anteriores — 3 anos de casamento / união de facto + reconhecimento da união por sentença declarativa.\n\nO simples registo da união de facto na Junta de Freguesia ou na Conservatória para efeitos de nacionalidade NÃO é suficiente — é necessária uma decisão judicial. Não é obrigatório residir em Portugal.',
   tags: ['nacionalidade', 'casamento', 'união'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 **Lei Orgânica n.º 1/2026 (em vigor desde 19.05.2026):** prazo de casamento para pedir a nacionalidade **3 → 5 anos**. Para união de facto — também 5 anos + coabitação real obrigatória com provas. Presunção de «vínculos efetivos» — a partir de 7–8 anos (antes 6). **Pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026 seguem as regras anteriores (3 anos).** 🔴 O Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — em 08.05.2026 o TC declarou-o inconstitucional por UNANIMIDADE; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento; o PSD não irá reconfirmar.',
+  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (em vigor desde 19.05.2026): prazo de casamento para pedir a nacionalidade 3 → 5 anos. Para união de facto — também 5 anos + coabitação real obrigatória com provas. Presunção de «vínculos efetivos» — a partir de 7–8 anos (antes 6). Pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026 seguem as regras anteriores (3 anos). 🔴 O Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — em 08.05.2026 o TC declarou-o inconstitucional por UNANIMIDADE; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento; o PSD não irá reconfirmar.',
   steps: [
     {
       id: 'universal',
@@ -22,7 +22,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💍 Casamento com cidadão português ≥ 3 anos no momento da apresentação do pedido (Lei 37/81 art. 3 n.1)',
-          '🤝 OU união de facto >3 anos com cidadão português, **reconhecida por decisão judicial** (Lei 37/81 art. 3 n.3) — sentença declarativa de tribunal; uma simples certidão ou registo na Junta de Freguesia para nacionalidade NÃO serve',
+          '🤝 OU união de facto >3 anos com cidadão português, reconhecida por decisão judicial (Lei 37/81 art. 3 n.3) — sentença declarativa de tribunal; uma simples certidão ou registo na Junta de Freguesia para nacionalidade NÃO serve',
           '📜 Casamento válido no momento da apresentação do pedido (sem divórcio, sem separação de pessoas e bens com estatuto jurídico)',
           '⚖️ Ausência de condenações criminais em qualquer país com pena ≥ 3 anos de prisão'
         ]},
@@ -39,7 +39,7 @@ export default {
       id: 'uniao',
       title: 'União de Facto — para efeitos de NACIONALIDADE',
       content: [
-        { kind: 'warning', text: 'IMPORTANTE: para pedir a nacionalidade por união de facto, a Lei 37/81 art. 3 n.3 exige **decisão judicial de tribunal português** (sentença declarativa), que reconheça que o requerente vive em união de facto com cidadão português **há mais de 3 anos** à data do pedido. Uma simples certidão da Junta de Freguesia ou o registo geral da união de facto sem reconhecimento judicial para efeitos de nacionalidade NÃO são aceites.' },
+        { kind: 'warning', text: 'IMPORTANTE: para pedir a nacionalidade por união de facto, a Lei 37/81 art. 3 n.3 exige decisão judicial de tribunal português (sentença declarativa), que reconheça que o requerente vive em união de facto com cidadão português há mais de 3 anos à data do pedido. Uma simples certidão da Junta de Freguesia ou o registo geral da união de facto sem reconhecimento judicial para efeitos de nacionalidade NÃO são aceites.' },
         { kind: 'paragraph', text: 'Processo para obter a decisão judicial:' },
         { kind: 'checklist', items: [
           '🏛️ Apresentar requerimento no Tribunal de Família e Menores (ou Tribunal Cível) para reconhecimento da união de facto com cidadão português',

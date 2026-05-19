@@ -3,7 +3,7 @@ export default {
   id: 'procuro-trabalho',
   categoryId: 'residence_permit',
   title: 'Procuro Trabalho visa — job search in Portugal',
-  tldr: 'Procuro Trabalho is a national visa for **120 days (+ visa extension for a further 60 days)** to look for work. It is a visa, NOT a residence permit; the residence permit is issued only if, during the visa period, the applicant finds a job and applies for autorização de residência under the relevant route through AIMA. Proof of funds — **minimum 3× SMN** for the visa period (Portaria 1563/2007 + current consular practice: in 2026 SMN = €920, i.e. a benchmark of approx. **€2,760** for 4 months; more is better) + return ticket. Popular with graduates of Portuguese universities and highly qualified specialists.',
+  tldr: 'Procuro Trabalho is a national visa for 120 days (+ visa extension for a further 60 days) to look for work. It is a visa, NOT a residence permit; the residence permit is issued only if, during the visa period, the applicant finds a job and applies for autorização de residência under the relevant route through AIMA. Proof of funds — minimum 3× SMN for the visa period (Portaria 1563/2007 + current consular practice: in 2026 SMN = €920, i.e. a benchmark of approx. €2,760 for 4 months; more is better) + return ticket. Popular with graduates of Portuguese universities and highly qualified specialists.',
   audience: { citizenships: ['thirdCountry'] },
   tags: ['procuro trabalho', 'job search', 'visa'],
   estimatedReadMinutes: 5,
@@ -25,7 +25,7 @@ export default {
       title: 'Requirements',
       content: [
         { kind: 'checklist', items: [
-          'Proof of funds to live on for 4 months — **minimum 3× SMN** (in 2026 SMN = €920, i.e. a benchmark of approx. **€2,760**). This is the baseline; some consulates ask for a larger buffer. Do NOT use the IAS basis — it understates the requirement',
+          'Proof of funds to live on for 4 months — minimum 3× SMN (in 2026 SMN = €920, i.e. a benchmark of approx. €2,760). This is the baseline; some consulates ask for a larger buffer. Do NOT use the IAS basis — it understates the requirement',
           'Return ticket or equivalent proof',
           'Accommodation in Portugal (bookings / contract for 120 days)',
           'Health insurance for 120+ days',
@@ -43,10 +43,10 @@ export default {
             { kind: 'paragraph', text: 'Vistos.mne.gov.pt → Visto para Procura de Trabalho. Processing takes 15-60 days.' }
           ]},
           { id: 'p2', title: '2. Enter on the visa', content: [
-            { kind: 'paragraph', text: 'The visa gives **120 days of stay in Portugal to look for work** — it is a visa, NOT a residence permit. There is no automatic issue of a residence permit on entry.' }
+            { kind: 'paragraph', text: 'The visa gives 120 days of stay in Portugal to look for work — it is a visa, NOT a residence permit. There is no automatic issue of a residence permit on entry.' }
           ]},
           { id: 'p3', title: '3. Extend the visa for 60 days (if needed)', content: [
-            { kind: 'paragraph', text: 'A visa extension for a further **60 days** is processed through AIMA. This is an extension of STAY STATUS, not the issue of a residence permit.' }
+            { kind: 'paragraph', text: 'A visa extension for a further 60 days is processed through AIMA. This is an extension of STAY STATUS, not the issue of a residence permit.' }
           ]},
           { id: 'p4', title: '4. Look for work', content: [
             { kind: 'paragraph', text: 'LinkedIn, Landing.Jobs, ITJobs.pt, NetJobs, and approaching companies directly. 120 + 60 = 180 days — the maximum visa period.' }

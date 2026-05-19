@@ -81,7 +81,7 @@ export default {
         { kind: 'checklist', items: [
           'O prazo de validade e as renovações dependem do tipo de documento emitido: certificados CPLP iniciais/eletrónicos podiam ser emitidos por 1 ano; autorizações de residência temporárias em cartão ao abrigo do art. 75 seguem normalmente o esquema de 2 anos inicial + 3 anos de renovação — confirme o prazo impresso no cartão/decisão da AIMA',
           'Trabalho livre sem autorização de trabalho separada',
-          'Segundo a lei em vigor, naturalização após 5 anos de residência legal. **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** — após publicação no DRE, o prazo para a CPLP aumentará para 7 anos',
+          'Segundo a lei em vigor, naturalização após 5 anos de residência legal. 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação no DRE, o prazo para a CPLP aumentará para 7 anos',
           'Brasileiros residentes podem solicitar separadamente o Estatuto de Igualdade de Direitos e Deveres; os direitos políticos exigem um estatuto separado e normalmente 3 anos de residência',
           'Acesso simplificado ao SNS e às escolas'
         ]}

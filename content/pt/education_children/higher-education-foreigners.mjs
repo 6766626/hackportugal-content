@@ -12,12 +12,12 @@ export default {
       title: '🎓 Níveis e duração',
       content: [
         { kind: 'checklist', items: [
-          '**Licenciatura**: 3 anos, 180 ECTS — primeiro ciclo principal',
-          '**Mestrado**: 1,5–2 anos, 90–120 ECTS — segundo ciclo',
-          '**Mestrado Integrado**: para algumas profissões regulamentadas. **Medicina** — normalmente 6 anos / 360 ECTS; **Arquitetura** — frequentemente 5 anos / 300 ECTS; em Engenharia, muitos antigos mestrados integrados foram reorganizados em licenciatura + mestrado (confirme cada curso na DGES)',
-          '**Doutoramento** (PhD): 3–4 anos — terceiro ciclo',
-          '**CTeSP** (Curso Técnico Superior Profissional): 2 anos, 120 ECTS — ensino profissional, sem grau académico',
-          '**Pós-graduação**: cursos curtos de especialização (6–12 meses)'
+          'Licenciatura: 3 anos, 180 ECTS — primeiro ciclo principal',
+          'Mestrado: 1,5–2 anos, 90–120 ECTS — segundo ciclo',
+          'Mestrado Integrado: para algumas profissões regulamentadas. Medicina — normalmente 6 anos / 360 ECTS; Arquitetura — frequentemente 5 anos / 300 ECTS; em Engenharia, muitos antigos mestrados integrados foram reorganizados em licenciatura + mestrado (confirme cada curso na DGES)',
+          'Doutoramento (PhD): 3–4 anos — terceiro ciclo',
+          'CTeSP (Curso Técnico Superior Profissional): 2 anos, 120 ECTS — ensino profissional, sem grau académico',
+          'Pós-graduação: cursos curtos de especialização (6–12 meses)'
         ]}
       ]
     },
@@ -28,17 +28,17 @@ export default {
         { kind: 'substeps', items: [
           { id: 'a1', title: 'Cidadãos PT/UE/EEE/Suíça e alguns residentes non-EU (CNA)', content: [
             { kind: 'checklist', items: [
-              '**Concurso Nacional de Acesso (CNA)**: concurso geral — aplica-se se você NÃO for considerado Estudante Internacional',
-              'O CNA also applies to non-EU residents com residência legal em Portugal **>2 anos consecutivos até 1 de janeiro do ano de candidatura** (não contando o tempo apenas com student permit) ou com estatuto de igualdade',
+              'Concurso Nacional de Acesso (CNA): concurso geral — aplica-se se você NÃO for considerado Estudante Internacional',
+              'O CNA also applies to non-EU residents com residência legal em Portugal >2 anos consecutivos até 1 de janeiro do ano de candidatura (não contando o tempo apenas com student permit) ou com estatuto de igualdade',
               'Exames de acesso (Exames Nacionais) no 12.º ano — obrigatórios para o concurso',
               'Seriação por notas: nota do secundário + provas de ingresso (ponderações por curso na DGES)',
-              'PT/EU em licenciatura pública: propina **até ~697 € / ano no máximo**',
+              'PT/EU em licenciatura pública: propina até ~697 € / ano no máximo',
               'Se tiver um diploma escolar estrangeiro — é necessário obter equivalência + fazer local exam'
             ]}
           ]},
           { id: 'a2', title: 'Cidadãos não-UE', content: [
             { kind: 'checklist', items: [
-              '**Concurso Especial para Estudantes Internacionais** (CEIE)',
+              'Concurso Especial para Estudantes Internacionais (CEIE)',
               'Processo separado do CNA — cada universidade decide de forma autónoma',
               'Requisitos: diploma do ensino secundário, adequado ao acesso ao ensino superior no país de origem + certificado de equivalência (1–3 meses para obter através da DGES)',
               'Frequentemente — exames próprios de acesso da universidade / portefólio / entrevista',
@@ -68,27 +68,27 @@ export default {
         { kind: 'substeps', items: [
           { id: 'u1', title: 'Lisboa', content: [
             { kind: 'checklist', items: [
-              '**Universidade de Lisboa (ULisboa)** — a maior, top-300 QS. Medicina, direito, engenharia, artes',
-              '**Universidade Nova de Lisboa** — moderna, top-300 QS. Economia (NovaSBE — uma das melhores da Europa), engenharia, saúde',
-              '**Universidade Católica Portuguesa (UCP)** — privada, prestigiada (católica) — direito, gestão',
-              '**Iscte** (Instituto Universitário de Lisboa) — ciências sociais, negócios',
-              '**ISCSP** — ciência política, relações internacionais'
+              'Universidade de Lisboa (ULisboa) — a maior, top-300 QS. Medicina, direito, engenharia, artes',
+              'Universidade Nova de Lisboa — moderna, top-300 QS. Economia (NovaSBE — uma das melhores da Europa), engenharia, saúde',
+              'Universidade Católica Portuguesa (UCP) — privada, prestigiada (católica) — direito, gestão',
+              'Iscte (Instituto Universitário de Lisboa) — ciências sociais, negócios',
+              'ISCSP — ciência política, relações internacionais'
             ]}
           ]},
           { id: 'u2', title: 'Porto', content: [
             { kind: 'checklist', items: [
-              '**Universidade do Porto (UP)** — a 2.ª maior, top-300 QS. Engenharia, medicina, arquitetura',
-              '**Universidade Católica Portuguesa (Porto)** — privada, negócios, saúde',
-              '**Escola Superior Artística do Porto** — artes'
+              'Universidade do Porto (UP) — a 2.ª maior, top-300 QS. Engenharia, medicina, arquitetura',
+              'Universidade Católica Portuguesa (Porto) — privada, negócios, saúde',
+              'Escola Superior Artística do Porto — artes'
             ]}
           ]},
           { id: 'u3', title: 'Regiões', content: [
             { kind: 'checklist', items: [
-              '**Universidade de Coimbra** — uma das mais antigas da Europa (desde 1290). UNESCO. Medicina, filosofia, engenharia',
-              '**Universidade de Aveiro** — ciência dos materiais, engenharia',
-              '**Universidade do Minho** (Braga/Guimarães) — informática',
-              '**Universidade do Algarve** — ciências marinhas, turismo',
-              '**Universidade da Madeira, Açores** — regionais'
+              'Universidade de Coimbra — uma das mais antigas da Europa (desde 1290). UNESCO. Medicina, filosofia, engenharia',
+              'Universidade de Aveiro — ciência dos materiais, engenharia',
+              'Universidade do Minho (Braga/Guimarães) — informática',
+              'Universidade do Algarve — ciências marinhas, turismo',
+              'Universidade da Madeira, Açores — regionais'
             ]}
           ]}
         ]}
@@ -101,17 +101,17 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Universidades públicas', content: [
             { kind: 'checklist', items: [
-              '**UE/residentes considerados national/EU**: licenciatura — **até ~697 € / ano no máximo** (DGES propina cap); mestrado e PhD — tabelas próprias',
-              '**Não-UE (CEEI, Estudante Internacional)**: as international propinas são definidas por cada universidade/curso — consulte o edital do curso específico',
+              'UE/residentes considerados national/EU: licenciatura — até ~697 € / ano no máximo (DGES propina cap); mestrado e PhD — tabelas próprias',
+              'Não-UE (CEEI, Estudante Internacional): as international propinas são definidas por cada universidade/curso — consulte o edital do curso específico',
               'Algumas faculdades de medicina / engenharia — na parte superior deste intervalo'
             ]}
           ]},
           { id: 'c2', title: 'Universidades privadas', content: [
             { kind: 'checklist', items: [
               '3500–15000 € / ano — depende do programa',
-              '**NovaSBE MBA**: 30000–50000 € / ano',
-              '**UCP Law**: 5000–8000 € / ano',
-              '**ISG Business School**: 4000–7000 €',
+              'NovaSBE MBA: 30000–50000 € / ano',
+              'UCP Law: 5000–8000 € / ano',
+              'ISG Business School: 4000–7000 €',
               'Reconhecimento: funciona na UE; para empregadores nos EUA — são reconhecidas sobretudo as marcas de topo'
             ]}
           ]},
@@ -143,11 +143,11 @@ export default {
           ]},
           { id: 'b2', title: 'Bolsas internacionais', content: [
             { kind: 'checklist', items: [
-              '**Erasmus+**: para residentes / intercâmbio de curta duração, 800–1000 € / mês',
-              '**Camões Institute bolsas**: para cidadãos PALOP, Timor-Leste, Brasil',
-              '**FCT (Fundação para a Ciência e Tecnologia)**: bolsa de PhD — o montante é atualizado periodicamente; consulte a tabela de bolsas FCT atual (subsídio + propinas conforme o regulamento)',
-              '**EU Marie Skłodowska-Curie**: para PhD/post-doc — 3000 €+ / mês',
-              '**University-specific**: todas as instituições de topo têm programas de bolsas por mérito (descontos de 50–100% na tuition)',
+              'Erasmus+: para residentes / intercâmbio de curta duração, 800–1000 € / mês',
+              'Camões Institute bolsas: para cidadãos PALOP, Timor-Leste, Brasil',
+              'FCT (Fundação para a Ciência e Tecnologia): bolsa de PhD — o montante é atualizado periodicamente; consulte a tabela de bolsas FCT atual (subsídio + propinas conforme o regulamento)',
+              'EU Marie Skłodowska-Curie: para PhD/post-doc — 3000 €+ / mês',
+              'University-specific: todas as instituições de topo têm programas de bolsas por mérito (descontos de 50–100% na tuition)',
               'Concorrência: medicina — a mais difícil; ciências e engenharia — melhores hipóteses'
             ]}
           ]}
@@ -159,9 +159,9 @@ export default {
       title: '🗣️ Língua de ensino',
       content: [
         { kind: 'checklist', items: [
-          '**Licenciatura**: a maioria dos programas é em português; alguns programas de licenciatura são em inglês (Nova, IST, ISEG)',
-          '**Mestrado**: 30–50% em inglês nas instituições de topo',
-          '**PhD**: frequentemente em inglês, língua da tese à escolha',
+          'Licenciatura: a maioria dos programas é em português; alguns programas de licenciatura são em inglês (Nova, IST, ISEG)',
+          'Mestrado: 30–50% em inglês nas instituições de topo',
+          'PhD: frequentemente em inglês, língua da tese à escolha',
           'Requisito de português: A2–B1 para licenciatura (se o ensino for em português), CIPLE ou certificado escolar',
           'Requisito de inglês: IELTS 6.0+ / TOEFL 80+ para programas em inglês',
           'Cursos de português para estrangeiros são gratuitos na maioria das universidades'
@@ -174,13 +174,13 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Para estudantes não-UE que frequentem presencialmente um programa numa instituição de ensino superior portuguesa',
-          'Documentos: acceptance letter, proof of funds (referência mínima **12×SMN por ano para o requerente principal — em 2026 isto é 11 040 €**; o consulado/VFS pode aceitar bolsa, saldo bancário, patrocínio e/ou prepaid accommodation), seguro de saúde, alojamento',
+          'Documentos: acceptance letter, proof of funds (referência mínima 12×SMN por ano para o requerente principal — em 2026 isto é 11 040 €; o consulado/VFS pode aceitar bolsa, saldo bancário, patrocínio e/ou prepaid accommodation), seguro de saúde, alojamento',
           'Pedido no consulado do país de residência',
           'Prazo: 1–3 meses',
           'Visto → entrada → AIMA para autorização de residência D4 (mais taxa AIMA separada — tabela em vigor desde 01.03.2026)',
-          '**Após a conclusão**: pode pedir **autorização de residência para procura de trabalho ou criação de empresa** — normalmente até 12 meses (Lei 23/2007 art. 122). Isto **não** é o mesmo procedimento que o visto para procura de trabalho externo de 120+60 dias',
+          'Após a conclusão: pode pedir autorização de residência para procura de trabalho ou criação de empresa — normalmente até 12 meses (Lei 23/2007 art. 122). Isto não é o mesmo procedimento que o visto para procura de trabalho externo de 120+60 dias',
           'Ou transição para D3 / D8 / D2 após obter contrato / abrir negócio',
-          'Para a nacionalidade: segundo a lei em vigor não existe coeficiente 0.5 — os anos com título de residência de estudante válido normalmente contam como residência legal comum (Lei 37/81 art. 6). ⚠️ **Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026** — publicado em 18.05.2026 como **Lei Orgânica n.º 1/2026**, em vigor desde **19.05.2026**; regras de naturalização após esta data — 7 anos CPLP+EU / 10 anos para os restantes, a norma transitória protege processos apresentados ANTES de 19.05.2026'
+          'Para a nacionalidade: segundo a lei em vigor não existe coeficiente 0.5 — os anos com título de residência de estudante válido normalmente contam como residência legal comum (Lei 37/81 art. 6). ⚠️ Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026 — publicado em 18.05.2026 como Lei Orgânica n.º 1/2026, em vigor desde 19.05.2026; regras de naturalização após esta data — 7 anos CPLP+EU / 10 anos para os restantes, a norma transitória protege processos apresentados ANTES de 19.05.2026'
         ]}
       ]
     }

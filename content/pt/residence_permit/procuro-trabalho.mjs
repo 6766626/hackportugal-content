@@ -3,7 +3,7 @@ export default {
   id: 'procuro-trabalho',
   categoryId: 'residence_permit',
   title: 'Visto Procuro Trabalho — procura de emprego em Portugal',
-  tldr: 'Procuro Trabalho — visto nacional de **120 dias (+ prorrogação do visto por mais 60 dias)** para procurar emprego. É um visto, e NÃO uma autorização de residência; a autorização de residência só é tratada se, durante o período do visto, o requerente encontrar emprego e apresentar o pedido de autorização de residência com o fundamento correspondente através da AIMA. Comprovativo de meios financeiros — **mínimo 3× SMN** para o período do visto (Portaria 1563/2007 + prática consular actual: em 2026 SMN = 920 €, ou seja, referência ≈ **2 760 €** para 4 meses; mais é melhor) + bilhete de regresso. Popular entre diplomados de universidades portuguesas e profissionais altamente qualificados.',
+  tldr: 'Procuro Trabalho — visto nacional de 120 dias (+ prorrogação do visto por mais 60 dias) para procurar emprego. É um visto, e NÃO uma autorização de residência; a autorização de residência só é tratada se, durante o período do visto, o requerente encontrar emprego e apresentar o pedido de autorização de residência com o fundamento correspondente através da AIMA. Comprovativo de meios financeiros — mínimo 3× SMN para o período do visto (Portaria 1563/2007 + prática consular actual: em 2026 SMN = 920 €, ou seja, referência ≈ 2 760 € para 4 meses; mais é melhor) + bilhete de regresso. Popular entre diplomados de universidades portuguesas e profissionais altamente qualificados.',
   audience: { citizenships: ['thirdCountry'] },
   tags: ['procuro trabalho', 'procura de emprego', 'visto'],
   estimatedReadMinutes: 5,
@@ -25,7 +25,7 @@ export default {
       title: 'Requisitos',
       content: [
         { kind: 'checklist', items: [
-          'Prova de meios de subsistência para 4 meses — **mínimo 3× SMN** (em 2026 SMN = 920 €, ou seja, referência ≈ **2 760 €**). Esta é a base; alguns consulados pedem uma margem superior. NÃO usar a base IAS — subestima o requisito',
+          'Prova de meios de subsistência para 4 meses — mínimo 3× SMN (em 2026 SMN = 920 €, ou seja, referência ≈ 2 760 €). Esta é a base; alguns consulados pedem uma margem superior. NÃO usar a base IAS — subestima o requisito',
           'Bilhete de regresso ou comprovativo equivalente',
           'Alojamento em Portugal (reservas / contrato por 120 dias)',
           'Seguro de saúde por 120+ dias',
@@ -43,10 +43,10 @@ export default {
             { kind: 'paragraph', text: 'Vistos.mne.gov.pt → Visto para Procura de Trabalho. Análise em 15-60 dias.' }
           ]},
           { id: 'p2', title: '2. Entrada com o visto', content: [
-            { kind: 'paragraph', text: 'O visto dá **120 dias de permanência em Portugal para procurar emprego** — é um visto, e NÃO uma autorização de residência. Não há qualquer emissão automática de autorização de residência à entrada.' }
+            { kind: 'paragraph', text: 'O visto dá 120 dias de permanência em Portugal para procurar emprego — é um visto, e NÃO uma autorização de residência. Não há qualquer emissão automática de autorização de residência à entrada.' }
           ]},
           { id: 'p3', title: '3. Prorrogação do visto por 60 dias (se necessário)', content: [
-            { kind: 'paragraph', text: 'A prorrogação do visto por mais **60 dias** é tratada através da AIMA. É uma prorrogação do ESTATUTO DE PERMANÊNCIA, e não a emissão de uma autorização de residência.' }
+            { kind: 'paragraph', text: 'A prorrogação do visto por mais 60 dias é tratada através da AIMA. É uma prorrogação do ESTATUTO DE PERMANÊNCIA, e não a emissão de uma autorização de residência.' }
           ]},
           { id: 'p4', title: '4. Procura de emprego', content: [
             { kind: 'paragraph', text: 'LinkedIn, Landing.Jobs, ITJobs.pt, NetJobs, contacto directo com empresas. 120 + 60 = 180 dias — prazo máximo do visto.' }

@@ -17,7 +17,7 @@ export default {
           '📝 Grammar: differs slightly (tu/você, gerund constructions, estar/ficar)',
           '📚 Vocabulary: bus = autocarro (PT) / ônibus (BR); train = comboio (PT) / trem (BR); you = você (BR often) / vocês (PT formally)',
           '🎬 Films: Brazilian films are always shown with PT subtitles — Portuguese news is not shown in BR without translation',
-          '🎯 **Conclusion: learn PT-PT if you are coming to Portugal.** BR is understood — but for A2 for citizenship you need PT-PT. BR content (Duolingo, most YouTube) is fine for background exposure, but not for exams'
+          '🎯 Conclusion: learn PT-PT if you are coming to Portugal. BR is understood — but for A2 for citizenship you need PT-PT. BR content (Duolingo, most YouTube) is fine for background exposure, but not for exams'
         ]}
       ]
     },
@@ -31,7 +31,7 @@ export default {
               'State programme by AIMA + education authorities',
               '150 hours for A2 level (what is needed for citizenship)',
               '300 hours for B1/B2',
-              'Free for **all** foreigners with any status (including refugees and non-residents)',
+              'Free for all foreigners with any status (including refugees and non-residents)',
               'Registration: Centro Qualifica for your place of residence (qualifica.gov.pt) or AIMA',
               'Format: evening / weekend classes, 2-3 times a week for 3 hours',
               'The Certificado PLA certificate is recognised by IRN for naturalisation'
@@ -60,13 +60,13 @@ export default {
       title: '💼 Private language schools',
       content: [
         { kind: 'checklist', items: [
-          '**CIAL** (Centro de Línguas) — Lisbon, Faro. A classic option, €150-600 for a month of intensive classes',
-          '**CLIC** (Centro Línguas Intercultural) — Lisbon, Porto. €300-800 for 4-6 weeks',
-          '**Fast Forward Language Institute** — Lisbon, a good option for digital nomads, group classes €350 / individual €40-60/hour',
-          '**Inlingua** — international chain, standard €400-800',
-          '**Kiros** — online, €20-40/hour with a native speaker',
-          '**italki / Preply** — online platforms with teachers, €15-35/hour (look specifically for PT-PT teachers)',
-          '🎓 **University of Lisbon** and **University of Coimbra** — summer courses for foreigners, €500-900 for 3-4 intensive weeks, university certificate'
+          'CIAL (Centro de Línguas) — Lisbon, Faro. A classic option, €150-600 for a month of intensive classes',
+          'CLIC (Centro Línguas Intercultural) — Lisbon, Porto. €300-800 for 4-6 weeks',
+          'Fast Forward Language Institute — Lisbon, a good option for digital nomads, group classes €350 / individual €40-60/hour',
+          'Inlingua — international chain, standard €400-800',
+          'Kiros — online, €20-40/hour with a native speaker',
+          'italki / Preply — online platforms with teachers, €15-35/hour (look specifically for PT-PT teachers)',
+          '🎓 University of Lisbon and University of Coimbra — summer courses for foreigners, €500-900 for 3-4 intensive weeks, university certificate'
         ]}
       ]
     },
@@ -98,15 +98,15 @@ export default {
       title: '🗣️ Where to practise speaking',
       content: [
         { kind: 'checklist', items: [
-          '**Tandem / HelloTalk** — language exchange with Portuguese people, free',
-          '**Meetup Lisboa / Porto** — weekly language exchanges in cafés (free meet-ups)',
-          '**Portuguese Conversation Club** (FB) — group in Porto and Lisbon',
-          '**italki Community** — free corrections of Notebook posts by Portuguese people',
-          '**Series** — TVI / SIC in the evening, for example “Quero é Viver”',
-          '**Adverts in lifts / the metro** — short texts, good for passive exposure',
-          '**Football on the radio** — fast speech with idioms',
-          '**Talking to neighbours in your area** — senhor/senhora in a café, the shop assistant in a padaria',
-          '**Sem medo de falar** — the main rule: Portuguese people are pleasant, tolerate mistakes, and are happy for you to practise'
+          'Tandem / HelloTalk — language exchange with Portuguese people, free',
+          'Meetup Lisboa / Porto — weekly language exchanges in cafés (free meet-ups)',
+          'Portuguese Conversation Club (FB) — group in Porto and Lisbon',
+          'italki Community — free corrections of Notebook posts by Portuguese people',
+          'Series — TVI / SIC in the evening, for example “Quero é Viver”',
+          'Adverts in lifts / the metro — short texts, good for passive exposure',
+          'Football on the radio — fast speech with idioms',
+          'Talking to neighbours in your area — senhor/senhora in a café, the shop assistant in a padaria',
+          'Sem medo de falar — the main rule: Portuguese people are pleasant, tolerate mistakes, and are happy for you to practise'
         ]}
       ]
     },
@@ -115,11 +115,11 @@ export default {
       title: '⏱️ How long until A2 / B1',
       content: [
         { kind: 'checklist', items: [
-          '**A1** (basics): 60-80 hours of classes. 2-3 months at 4h/week',
-          '**A2** (for citizenship): 150-200 hours. 6-9 months if intensive',
-          '**B1** (comfortable conversation): 300-400 hours. 1-1.5 years',
-          '**B2** (professional): 500-700 hours. 2-3 years',
-          '**C1** (near-native level): 1000+ hours, 4-6 years',
+          'A1 (basics): 60-80 hours of classes. 2-3 months at 4h/week',
+          'A2 (for citizenship): 150-200 hours. 6-9 months if intensive',
+          'B1 (comfortable conversation): 300-400 hours. 1-1.5 years',
+          'B2 (professional): 500-700 hours. 2-3 years',
+          'C1 (near-native level): 1000+ hours, 4-6 years',
           '💡 Faster if: you already live in PT + practise daily. Slower if you are learning from Moscow without immersion',
           '📅 Real-life experience: most people who relocate reach a confident A2-B1 in 1-1.5 years in PT, B2 in 3-4 years with active practice'
         ]}

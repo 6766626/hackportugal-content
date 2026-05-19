@@ -86,7 +86,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A lei não prevê um prazo universal para «devolver a caução em 7/30 dias». A prática funcional é devolver após entrega das chaves, verificação do apartamento, conferência das contas de água/luz/gás e assinatura do auto de entrega. Um bom contrato define antecipadamente um prazo, por exemplo 15 ou 30 dias.' },
         { kind: 'checklist', items: [
-          '⚠️ Verifique o prazo de aviso no contrato e no Código Civil arts. 1098/1100: para muitos contratos habitacionais fixed-term, é de **60 ou 120 dias** consoante a duração do contrato e consoante se trate de oposição à renovação ou denúncia. NÃO confie nos «30 dias» por defeito — pode falhar o prazo legal',
+          '⚠️ Verifique o prazo de aviso no contrato e no Código Civil arts. 1098/1100: para muitos contratos habitacionais fixed-term, é de 60 ou 120 dias consoante a duração do contrato e consoante se trate de oposição à renovação ou denúncia. NÃO confie nos «30 dias» por defeito — pode falhar o prazo legal',
           'Envie o aviso de denúncia por escrito: email com confirmação, carta registada ou outro meio previsto no contrato',
           'Fotografe o apartamento no dia da saída: paredes, chão, mobília, equipamentos, contadores',
           'Elabore o auto de entrega das chaves: data, estado, leituras dos contadores, lista de chaves',

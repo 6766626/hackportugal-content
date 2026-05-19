@@ -3,7 +3,7 @@ export default {
   id: 'urgencia-how-to',
   categoryId: 'emergency_rights',
   title: 'How not to spend all day in urgência',
-  tldr: 'Urgência in Portugal uses the Manchester Triage System — the colour depends on how urgent the condition is. Red — immediately, orange — ≤ 10 min, yellow — ≤ 60 min, green — ≤ 120 min, blue — ≤ 240 min. To reduce waiting time: (1) first call SNS 24 (**808 24 24 24**) — nurse triage using clinical algorithms (not a doctor on the phone), which will direct you to the right level of care; (2) Atendimento Complementar at a Centro de Saúde (at night/weekends); (3) private urgências (CUF, Lusíadas, Luz) — €20–80; (4) the “Tempos de Espera SNS” app to check the queue.\n\n⚠️ 808 numbers are charged according to the subscriber tariff: mobile and foreign SIM cards may be paid.',
+  tldr: 'Urgência in Portugal uses the Manchester Triage System — the colour depends on how urgent the condition is. Red — immediately, orange — ≤ 10 min, yellow — ≤ 60 min, green — ≤ 120 min, blue — ≤ 240 min. To reduce waiting time: (1) first call SNS 24 (808 24 24 24) — nurse triage using clinical algorithms (not a doctor on the phone), which will direct you to the right level of care; (2) Atendimento Complementar at a Centro de Saúde (at night/weekends); (3) private urgências (CUF, Lusíadas, Luz) — €20–80; (4) the “Tempos de Espera SNS” app to check the queue.\n\n⚠️ 808 numbers are charged according to the subscriber tariff: mobile and foreign SIM cards may be paid.',
   tags: ['urgência', 'ambulance', 'sns', 'manchester'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'before',
       title: '📞 Before you go — call SNS 24',
       content: [
-        { kind: 'paragraph', text: 'SNS 24 (**808 24 24 24**) is the public health helpline, operating 24/7. Nurse triage using clinical algorithms (this is not a conversation with a doctor).\n\nThe service itself is free, but the 808 number is charged according to the subscriber tariff: mobile and foreign SIM cards may be charged by the minute:' },
+        { kind: 'paragraph', text: 'SNS 24 (808 24 24 24) is the public health helpline, operating 24/7. Nurse triage using clinical algorithms (this is not a conversation with a doctor).\n\nThe service itself is free, but the 808 number is charged according to the subscriber tariff: mobile and foreign SIM cards may be charged by the minute:' },
         { kind: 'checklist', items: [
           '🟢 Not urgent → book an appointment with your family doctor at the Centro de Saúde',
           '🟡 Need help, but not right now → private clinic / non-urgent appointment',
@@ -29,12 +29,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'When you arrive at urgência, the first step is triage by a nurse: 3–5 min interview → a colour is assigned.' },
         { kind: 'checklist', items: [
-          '🔴 **Vermelho (red) — EMERGÊNCIA**: seen **immediately**. Cardiac arrest, stroke, severe trauma, loss of consciousness',
-          '🟠 **Laranja (orange) — MUITO URGENTE**: within **≤ 10 min**. Severe chest pain, difficulty breathing, major bleeding',
-          '🟡 **Amarelo (yellow) — URGENTE**: within **≤ 60 min**. Moderate pain, fever with deterioration, broken limb',
-          '🟢 **Verde (green) — POUCO URGENTE**: within **≤ 120 min**. Wound without bleeding, moderate aches and pains, nausea',
-          '🔵 **Azul (blue) — NÃO URGENTE**: within **≤ 240 min** (4 hours!). Symptoms ≤ 7 days, mild cold, mild pain',
-          '⚪ **Branco** — does not require urgent care (you need to go to your family doctor) — you are sent home'
+          '🔴 Vermelho (red) — EMERGÊNCIA: seen immediately. Cardiac arrest, stroke, severe trauma, loss of consciousness',
+          '🟠 Laranja (orange) — MUITO URGENTE: within ≤ 10 min. Severe chest pain, difficulty breathing, major bleeding',
+          '🟡 Amarelo (yellow) — URGENTE: within ≤ 60 min. Moderate pain, fever with deterioration, broken limb',
+          '🟢 Verde (green) — POUCO URGENTE: within ≤ 120 min. Wound without bleeding, moderate aches and pains, nausea',
+          '🔵 Azul (blue) — NÃO URGENTE: within ≤ 240 min (4 hours!). Symptoms ≤ 7 days, mild cold, mild pain',
+          '⚪ Branco — does not require urgent care (you need to go to your family doctor) — you are sent home'
         ]},
         { kind: 'warning', text: '80% of patients in Portugal arrive with yellow/green/blue triage colours — and wait 2–4 hours. If you are assigned blue, it is more realistic to book at a Centro de Saúde or go to a private clinic.' }
       ]
@@ -58,7 +58,7 @@ export default {
               'In Lisbon: Hospital Beatriz Ângelo (Loures) — usually faster than Santa Maria',
               'Hospital de Cascais (if you live in Cascais/Estoril) — often calmer',
               'Porto: Hospital de São João — 4–6 hours; Hospital de Pedro Hispano (Matosinhos) — sometimes 2–3 hours',
-              '📱 **“Tempos de Espera SNS” app** — real waiting times for all hospitals!',
+              '📱 “Tempos de Espera SNS” app — real waiting times for all hospitals!',
               '💡 Check before leaving — go to the less busy place'
             ]}
           ]},
@@ -73,7 +73,7 @@ export default {
           { id: 's4', title: '4. Private urgência', content: [
             { kind: 'checklist', items: [
               'Cost: €20–80 per visit without insurance, €0–15 co-payment with private insurance',
-              'Network: **CUF, Lusíadas, Luz, Trofa, Hospital da Misericórdia**',
+              'Network: CUF, Lusíadas, Luz, Trofa, Hospital da Misericórdia',
               'Waiting time: usually 15–45 min',
               'Open 24/7 in major centres; 8:00 to 24:00 in smaller ones',
               'Consultation, blood tests, X-ray, ultrasound — on site',
@@ -82,10 +82,10 @@ export default {
           ]},
           { id: 's5', title: '5. Specialised urgência', content: [
             { kind: 'checklist', items: [
-              '**Pediátrica** (children up to 15–18 years): separate departments. In Lisbon — Hospital Dona Estefânia. In Porto — Centro Materno-Infantil do Norte (CHUSJ/ULS Santo António, after integration of the former Maria Pia)',
-              '**Gnecológica / Obstétrica**: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)',
-              '**Psiquiátrica**: Hospital Magalhães Lemos (Porto), Hospital Júlio de Matos (Lisboa)',
-              '**Estomatológica** (teeth): Hospital São José and private clinics (IMD, Dental Family)'
+              'Pediátrica (children up to 15–18 years): separate departments. In Lisbon — Hospital Dona Estefânia. In Porto — Centro Materno-Infantil do Norte (CHUSJ/ULS Santo António, after integration of the former Maria Pia)',
+              'Gnecológica / Obstétrica: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)',
+              'Psiquiátrica: Hospital Magalhães Lemos (Porto), Hospital Júlio de Matos (Lisboa)',
+              'Estomatológica (teeth): Hospital São José and private clinics (IMD, Dental Family)'
             ]}
           ]}
         ]}
@@ -96,13 +96,13 @@ export default {
       title: '📋 What to bring with you',
       content: [
         { kind: 'checklist', items: [
-          '🆔 **Cartão de Cidadão / residence permit / passport**',
-          '📇 **Número de Utente (SNS)** — you will still be seen without it, but the process will take longer',
-          '💊 **List current medicines** — written down or a photo on your phone',
-          '📄 **Medical history**: chronic illnesses, allergies, operations',
-          '💳 **Bank card**: in case you are prescribed paid medicines (part is covered by SNS, the rest is paid)',
-          '📚 **Book / charger / food** — the wait may be 2–4 hours',
-          '🗣️ **PT dictionary / translator**: 90% of doctors understand EN, but care staff often do not'
+          '🆔 Cartão de Cidadão / residence permit / passport',
+          '📇 Número de Utente (SNS) — you will still be seen without it, but the process will take longer',
+          '💊 List current medicines — written down or a photo on your phone',
+          '📄 Medical history: chronic illnesses, allergies, operations',
+          '💳 Bank card: in case you are prescribed paid medicines (part is covered by SNS, the rest is paid)',
+          '📚 Book / charger / food — the wait may be 2–4 hours',
+          '🗣️ PT dictionary / translator: 90% of doctors understand EN, but care staff often do not'
         ]}
       ]
     },
@@ -111,12 +111,12 @@ export default {
       title: 'General tips',
       content: [
         { kind: 'checklist', items: [
-          '🔁 **Family doctor** (médico de família) — the main key. Registration at the health centre for your place of residence, free of charge. Every resident with a Número de Utente has the right to one',
-          '📝 **Prescription**: médico de família issues one for 3–6 months for chronic illnesses — you do not need to go to urgência every time',
-          '📞 **SNS 24 first, always** — they will decide whether urgência is needed',
-          '💻 **MySNS portal** (mysns.min-saude.pt): view your prescriptions, appointments, test results',
-          '🚑 **INEM (112)**: only for genuinely life-threatening conditions. False call-outs are fined',
-          '🌙 **Night hours in urgência**: if you can wait until morning — wait. 2–4 in the morning is the hardest time'
+          '🔁 Family doctor (médico de família) — the main key. Registration at the health centre for your place of residence, free of charge. Every resident with a Número de Utente has the right to one',
+          '📝 Prescription: médico de família issues one for 3–6 months for chronic illnesses — you do not need to go to urgência every time',
+          '📞 SNS 24 first, always — they will decide whether urgência is needed',
+          '💻 MySNS portal (mysns.min-saude.pt): view your prescriptions, appointments, test results',
+          '🚑 INEM (112): only for genuinely life-threatening conditions. False call-outs are fined',
+          '🌙 Night hours in urgência: if you can wait until morning — wait. 2–4 in the morning is the hardest time'
         ]}
       ]
     }

@@ -3,7 +3,7 @@ export default {
   id: 'irs-anexo-g-mais-valias',
   categoryId: 'taxes',
   title: 'IRS Anexo G — imposto sobre mais-valias: apartamento, acções, fundos, crypto',
-  tldr: 'O Anexo G é entregue juntamente com a Modelo 3 IRS se, durante o ano, tiver havido mais-valias tributáveis **de fonte portuguesa**: venda de imóveis em Portugal, acções/ETF/participações através de um corretor PORTUGUÊS, crypto <365 dias.\n\n⚠️ **Mais-valias de fontes ESTRANGEIRAS** (venda de imóveis no estrangeiro, acções/ETF/fundos através de corretor estrangeiro, etc.) para um residente fiscal em Portugal são declaradas no **Anexo J** (e não no Anexo G) — com cálculo para eliminação da dupla tributação. Para residentes fiscais em Portugal, a mais-valia imobiliária é normalmente incluída no IRS apenas em 50% e tributada à taxa progressiva; acções/ETF/fundos são mais frequentemente tributados autonomamente a 28%, mas é possível optar pelo englobamento. A venda da primeira habitação pode ficar isenta em caso de reinvestimento numa nova HPP nos 24 meses anteriores ou 36 meses posteriores à venda.',
+  tldr: 'O Anexo G é entregue juntamente com a Modelo 3 IRS se, durante o ano, tiver havido mais-valias tributáveis de fonte portuguesa: venda de imóveis em Portugal, acções/ETF/participações através de um corretor PORTUGUÊS, crypto <365 dias.\n\n⚠️ Mais-valias de fontes ESTRANGEIRAS (venda de imóveis no estrangeiro, acções/ETF/fundos através de corretor estrangeiro, etc.) para um residente fiscal em Portugal são declaradas no Anexo J (e não no Anexo G) — com cálculo para eliminação da dupla tributação. Para residentes fiscais em Portugal, a mais-valia imobiliária é normalmente incluída no IRS apenas em 50% e tributada à taxa progressiva; acções/ETF/fundos são mais frequentemente tributados autonomamente a 28%, mas é possível optar pelo englobamento. A venda da primeira habitação pode ficar isenta em caso de reinvestimento numa nova HPP nos 24 meses anteriores ou 36 meses posteriores à venda.',
   tags: ['irs', 'anexog', 'maisvalias', 'impostos'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,15 +11,15 @@ export default {
       id: 'when-anexo-g',
       title: 'Quando é necessário o Anexo G',
       content: [
-        { kind: 'paragraph', text: 'O Anexo G é um anexo à Modelo 3 IRS para mais-valias de **fonte portuguesa** que não estejam automaticamente isentas. Entre Abril e Junho de 2026, entrega o IRS relativo aos rendimentos de 2025; as operações de 2026 entrarão na declaração de 2027. **Mais-valias de fontes estrangeiras** entram no Anexo J.' },
+        { kind: 'paragraph', text: 'O Anexo G é um anexo à Modelo 3 IRS para mais-valias de fonte portuguesa que não estejam automaticamente isentas. Entre Abril e Junho de 2026, entrega o IRS relativo aos rendimentos de 2025; as operações de 2026 entrarão na declaração de 2027. Mais-valias de fontes estrangeiras entram no Anexo J.' },
         { kind: 'checklist', items: [
           'Anexo G: venda de imóveis em Portugal (ou de uma quota-parte dos mesmos).',
           'Anexo G: venda de acções/ETF/obrigações/unidades de participação/quotas/options portuguesas através de um corretor PORTUGUÊS.',
           'Anexo G: venda de crypto-assets por residente, se o período de detenção for < 365 dias ou se o activo não estiver abrangido pela isenção.',
           'Anexo G: compensação por cessão de direitos, opção, cessão onerosa e operações semelhantes nos termos do Código do IRS art. 10.',
-          '⚠️ **Anexo J** (não G): venda de IMÓVEL NO ESTRANGEIRO por residente em Portugal.',
-          '⚠️ **Anexo J** (não G): venda de acções/ETF/fundos através de corretor ESTRANGEIRO (Interactive Brokers, Schwab, Tinkoff, Trade Republic fora de PT, etc.).',
-          '⚠️ **Anexo J** (não G): capital gain estrangeiro de qualquer tipo (dividendos e juros — também no Anexo J, mas noutras secções).',
+          '⚠️ Anexo J (não G): venda de IMÓVEL NO ESTRANGEIRO por residente em Portugal.',
+          '⚠️ Anexo J (não G): venda de acções/ETF/fundos através de corretor ESTRANGEIRO (Interactive Brokers, Schwab, Tinkoff, Trade Republic fora de PT, etc.).',
+          '⚠️ Anexo J (não G): capital gain estrangeiro de qualquer tipo (dividendos e juros — também no Anexo J, mas noutras secções).',
           'É não residente, mas vendeu imóvel português ou activos portugueses: também Anexo G no IRS português.'
         ] },
         { kind: 'warning', text: 'O Anexo G/J não substitui a troca de informação CRS/DAC7. As Finanças vêem frequentemente contas de corretoras estrangeiras, entradas bancárias e vendas através de notários. “Corretor no estrangeiro” não significa “não declarar”. Fontes estrangeiras — isto é Anexo J com indicação do país da fonte e do imposto retido no estrangeiro, para eliminação da dupla tributação.' }

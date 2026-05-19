@@ -3,7 +3,7 @@ export default {
   id: 'irs-senior-65-mais',
   categoryId: 'taxes',
   title: 'IRS para pensionistas 65+: regras especiais e deduções',
-  tldr: 'No IRS, ter 65+ anos, por si só, não dispensa a entrega da declaração. Com o OE 2025 (Lei 45-A/2024), a base da dedução específica para **ambas as categorias A e H** fica ligada à fórmula **max(4 104 €; 8,54 × IAS desse ano)**.\n\n**Para rendimentos de 2025 (declaração em 2026): 4 462,15 €** (8,54 × IAS 2025 de 522,50 €) — por cada beneficiário de pensão (Categoria H) ou trabalhador (Categoria A). Pode declarar lares: 25% das despesas, com limite de cerca de 403 €. Pensão de alimentos: o beneficiário declara o rendimento, o pagador deduz 20% com base em decisão judicial/notarial. A declaração Modelo 3 relativa a 2025 é entregue de 1 de abril a 30 de junho de 2026.',
+  tldr: 'No IRS, ter 65+ anos, por si só, não dispensa a entrega da declaração. Com o OE 2025 (Lei 45-A/2024), a base da dedução específica para ambas as categorias A e H fica ligada à fórmula max(4 104 €; 8,54 × IAS desse ano).\n\nPara rendimentos de 2025 (declaração em 2026): 4 462,15 € (8,54 × IAS 2025 de 522,50 €) — por cada beneficiário de pensão (Categoria H) ou trabalhador (Categoria A). Pode declarar lares: 25% das despesas, com limite de cerca de 403 €. Pensão de alimentos: o beneficiário declara o rendimento, o pagador deduz 20% com base em decisão judicial/notarial. A declaração Modelo 3 relativa a 2025 é entregue de 1 de abril a 30 de junho de 2026.',
   tags: ['irs', 'pensão', '65mais', 'lares', 'deduções'],
   estimatedReadMinutes: 6,
   steps: [
@@ -27,7 +27,7 @@ export default {
       id: 'specific-deduction',
       title: 'Principal benefício: dedução específica de 4 462,15 € para rendimentos de 2025',
       content: [
-        { kind: 'paragraph', text: 'Depois do OE 2025 (Lei n.º 45-A/2024), a base da dedução específica no Código do IRS art. 25 (Categoria A — trabalho) e art. 53 (Categoria H — pensões) fica ligada à fórmula **max(4 104 €; 8,54 × IAS desse ano)**. Para rendimentos de 2025: 8,54 × 522,50 € = **4 462,15 €** — igual para as categorias A e H (a mesma base). Para rendimentos de 2026, a referência é: 8,54 × 537,13 € ≈ **4 587,09 €** (declaração em 2027).\n\nA Categoria H já NÃO tem uma dedução majorada separada — a base é única.' },
+        { kind: 'paragraph', text: 'Depois do OE 2025 (Lei n.º 45-A/2024), a base da dedução específica no Código do IRS art. 25 (Categoria A — trabalho) e art. 53 (Categoria H — pensões) fica ligada à fórmula max(4 104 €; 8,54 × IAS desse ano). Para rendimentos de 2025: 8,54 × 522,50 € = 4 462,15 € — igual para as categorias A e H (a mesma base). Para rendimentos de 2026, a referência é: 8,54 × 537,13 € ≈ 4 587,09 € (declaração em 2027).\n\nA Categoria H já NÃO tem uma dedução majorada separada — a base é única.' },
         { kind: 'checklist', items: [
           'Para a declaração de IRS 2026 (relativa a rendimentos de 2025) — base de 4 462,15 € por cada titular com rendimento da Categoria H OU da Categoria A.',
           'A dedução aplica-se não ao imposto, mas à matéria coletável: primeiro reduz o rendimento bruto de pensão/salário, depois aplica-se a tabela de IRS.',

@@ -33,7 +33,7 @@ export default {
         { kind: 'paragraph', text: 'In Portugal, Uber Eats, Glovo and Bolt Food usually operate as a marketplace + logistics model. Commission is not set by law: it is provided in the commercial proposal and contract. For a small restaurant in 2026, a realistic benchmark is 25–30% of the order, sometimes lower for collection or own couriers, sometimes higher with paid visibility, promos and delivery handled by platform.' },
         { kind: 'checklist', items: [
           'Comissão: percentage of the food subtotal or of the whole basket — check the calculation base',
-          'IVA on the platform commission: 30% + 23% IVA = **36.9% only in cash-flow**. If your business is VAT-taxable with deduction rights, this IVA is deducted as input VAT (or reverse charge for platforms from abroad) — the economic burden remains 30%, not 36.9%. Check with your TOC',
+          'IVA on the platform commission: 30% + 23% IVA = 36.9% only in cash-flow. If your business is VAT-taxable with deduction rights, this IVA is deducted as input VAT (or reverse charge for platforms from abroad) — the economic burden remains 30%, not 36.9%. Check with your TOC',
           'Who pays for promos: a “-20%” discount is often charged to the restaurant in full or in part',
           'Delivery fee: whether it stays with the platform or affects your payout — check the payout statement',
           'Refunds: who pays for a “missing item”, cold food, courier cancellation and chargeback',
@@ -42,7 +42,7 @@ export default {
           'Exclusivity: a ban on working with other apps or a price parity requirement',
           'Termination period: notice period, return of tablet/equipment, early termination penalties'
         ] },
-        { kind: 'paragraph', text: 'Calculate the delivery menu separately. A €10 dish in the dining room with a 30% commission in **gross cash terms** leaves about €7 before food cost, packaging, staff and output VAT on the sale. If you deduct the IVA on the platform commission as input VAT (standard VAT-taxable regime), the economic impact of the commission = 30% (not 36.9%). Delivery prices are often set 10–20% higher, but check whether the contract prohibits this through price parity.' }
+        { kind: 'paragraph', text: 'Calculate the delivery menu separately. A €10 dish in the dining room with a 30% commission in gross cash terms leaves about €7 before food cost, packaging, staff and output VAT on the sale. If you deduct the IVA on the platform commission as input VAT (standard VAT-taxable regime), the economic impact of the commission = 30% (not 36.9%). Delivery prices are often set 10–20% higher, but check whether the contract prohibits this through price parity.' }
       ]
     },
     {

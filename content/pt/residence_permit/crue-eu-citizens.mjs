@@ -58,7 +58,7 @@ export default {
           'Troca da carta de condução — não é necessária, as cartas de condução da UE são aceites diretamente',
           'Após 5 anos — há um procedimento separado para pedir o certificado de residência permanente; não é uma substituição automática do CRUE'
         ]},
-        { kind: 'paragraph', text: 'De acordo com a legislação em vigor, a naturalização é possível após 5 anos de residência legal, desde que sejam cumpridos os restantes requisitos, incluindo conhecimento de português A2.\n\n**03.05.2026 O Presidente Seguro promulgou o Decreto AR 48/XVII** — após publicação no DRE, o prazo para cidadãos da UE/EEE/Suíça aumentará para 7 anos (equiparados à CPLP).' }
+        { kind: 'paragraph', text: 'De acordo com a legislação em vigor, a naturalização é possível após 5 anos de residência legal, desde que sejam cumpridos os restantes requisitos, incluindo conhecimento de português A2.\n\n03.05.2026 O Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação no DRE, o prazo para cidadãos da UE/EEE/Suíça aumentará para 7 anos (equiparados à CPLP).' }
       ]
     }
   ],

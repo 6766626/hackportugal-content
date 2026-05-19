@@ -33,7 +33,7 @@ export default {
         { kind: 'paragraph', text: 'Em Portugal, Uber Eats, Glovo e Bolt Food funcionam normalmente como marketplace + logística. A comissão não é fixada por lei: é apresentada na proposta comercial e no contrato. Para um pequeno restaurante em 2026, a referência realista é 25–30% da encomenda, por vezes menos em take-away ou com estafetas próprios, por vezes mais com visibilidade paga, promoções e entrega assegurada pela plataforma.' },
         { kind: 'checklist', items: [
           'Comissão: percentagem sobre o subtotal da comida ou sobre todo o carrinho — confirme a base de cálculo',
-          'IVA sobre a comissão da plataforma: 30% + 23% IVA = **36,9% apenas em termos de cash-flow**. Se a sua empresa for sujeito passivo de IVA com direito à dedução, este IVA é deduzido como input VAT (ou reverse charge para plataformas estrangeiras) — o encargo económico continua a ser 30%, não 36,9%. Confirme com o TOC',
+          'IVA sobre a comissão da plataforma: 30% + 23% IVA = 36,9% apenas em termos de cash-flow. Se a sua empresa for sujeito passivo de IVA com direito à dedução, este IVA é deduzido como input VAT (ou reverse charge para plataformas estrangeiras) — o encargo económico continua a ser 30%, não 36,9%. Confirme com o TOC',
           'Quem paga a promoção: um desconto “-20%” é muitas vezes debitado total ou parcialmente ao restaurante',
           'Delivery fee: fica para a plataforma ou influencia o seu pagamento — veja o payout statement',
           'Refunds: quem paga por “missing item”, comida fria, cancelamento do estafeta e chargeback',
@@ -42,7 +42,7 @@ export default {
           'Exclusividade: proibição de trabalhar com outras apps ou exigência de price parity',
           'Prazo de rescisão: notice period, devolução do tablet/equipamento, penalizações por early termination'
         ] },
-        { kind: 'paragraph', text: 'Calcule o menu de entrega separadamente. Um prato de 10 € na sala, com comissão de 30%, em **gross cash terms** deixa cerca de 7 € antes do custo da comida, embalagem, pessoal e output VAT da venda. Se deduzir o IVA sobre a comissão da plataforma como input VAT (regime normal VAT-taxable), o impacto económico da comissão = 30% (e não 36,9%). Muitas vezes, os preços de entrega são 10–20% mais altos, mas verifique se o contrato não proíbe price parity.' }
+        { kind: 'paragraph', text: 'Calcule o menu de entrega separadamente. Um prato de 10 € na sala, com comissão de 30%, em gross cash terms deixa cerca de 7 € antes do custo da comida, embalagem, pessoal e output VAT da venda. Se deduzir o IVA sobre a comissão da plataforma como input VAT (regime normal VAT-taxable), o impacto económico da comissão = 30% (e não 36,9%). Muitas vezes, os preços de entrega são 10–20% mais altos, mas verifique se o contrato não proíbe price parity.' }
       ]
     },
     {

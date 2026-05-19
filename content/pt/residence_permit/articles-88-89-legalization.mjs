@@ -3,7 +3,7 @@ export default {
   id: 'articles-88-89-legalization',
   categoryId: 'residence_permit',
   title: 'Legalização através dos artigos 88/89 da Lei 23/2007 — quando e como',
-  tldr: 'Os artigos 88 e 89 da Lei 23/2007 são regimes para obter autorização de residência para trabalho por conta de outrem (88) e para profissionais independentes/empresários (89).\n\n**88.1 e 89.1** — via normal com visto: primeiro visto de residência consular (D1 para 88.1, D2 para 89.1) → pedido na AIMA.\n\n**88.2 e 89.2** eram uma via excecional a partir de Portugal SEM visto (através da Manifestação de Interesse) — foram revogados: novos pedidos cessaram em 03.06.2024 (Decreto-Lei 37-A/2024), e a Lei 61/2025 (em vigor desde 23.10.2025) eliminou definitivamente o regime.\n\nIMPORTANTE: o art. 89 NÃO é uma via para investidores; as autorizações de residência por investimento são um artigo separado da Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
+  tldr: 'Os artigos 88 e 89 da Lei 23/2007 são regimes para obter autorização de residência para trabalho por conta de outrem (88) e para profissionais independentes/empresários (89).\n\n88.1 e 89.1 — via normal com visto: primeiro visto de residência consular (D1 para 88.1, D2 para 89.1) → pedido na AIMA.\n\n88.2 e 89.2 eram uma via excecional a partir de Portugal SEM visto (através da Manifestação de Interesse) — foram revogados: novos pedidos cessaram em 03.06.2024 (Decreto-Lei 37-A/2024), e a Lei 61/2025 (em vigor desde 23.10.2025) eliminou definitivamente o regime.\n\nIMPORTANTE: o art. 89 NÃO é uma via para investidores; as autorizações de residência por investimento são um artigo separado da Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
   tags: ['art 88', 'art 89', 'legalização', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
   steps: [
@@ -107,7 +107,7 @@ export default {
           'Emissão do cartão de residência por correio em 2–8 semanas',
           'Primeira autorização de residência — normalmente 2 anos, renovação — 3 anos',
           'Após 5 anos de residência legal — direito a autorização de residência permanente',
-          'Naturalização: 5 anos ao abrigo da lei em vigor; **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** — após publicação em DRE serão 7 anos para CPLP+EU / 10 anos para os restantes',
+          'Naturalização: 5 anos ao abrigo da lei em vigor; 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação em DRE serão 7 anos para CPLP+EU / 10 anos para os restantes',
           'Reagrupamento Familiar após a Lei 61/2025 não é automaticamente “imediato para todos”: verifique as condições atuais dos arts. 98–99 da Lei 23/2007 (meios de subsistência/alojamento, categoria do familiar); em alguns casos pode aplicar-se um período de espera — confirme urgentemente com a AIMA'
         ]}
       ]

@@ -94,7 +94,7 @@ export default {
           '✅ Maternity (after a 10–12 month waiting period, usually with a separate limit)',
           '⚠️ Dentistry — often separate',
           '⚠️ Ophthalmology — often separate',
-          '❌ **Pre-existing conditions** are usually excluded unless the insurer has accepted their cover in writing in advance; sometimes limits, a surcharge or carência may apply. Always read the Condições Particulares/Especiais',
+          '❌ Pre-existing conditions are usually excluded unless the insurer has accepted their cover in writing in advance; sometimes limits, a surcharge or carência may apply. Always read the Condições Particulares/Especiais',
           '⚠️ Purely aesthetic/cosmetic surgery is usually excluded; reconstructive/medically necessary procedures may be covered under the policy conditions',
           '⚠️ High-tech treatment (transplants, certain types of cancer treatment) — limited'
         ]}

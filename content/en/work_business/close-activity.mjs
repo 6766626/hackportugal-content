@@ -54,7 +54,7 @@ export default {
               'BUT: if you had carência (12-month exemption) and were not paying contributions — in the long term it is better to confirm this in Segurança Social Direta',
               'TI contributions are calculated by quarterly declaration: relevant income is usually 70% of services or 20% of sales/production/hotel/restaurant for the previous quarter, TI rate 21.4%. After cessação, check the last quarterly declaration in Segurança Social Direta',
               'The deadline for paying SS contributions is usually from the 10th to the 20th day of the following month',
-              '**After cessação**: contributions are no longer charged; accumulated contribution record remains (for a future pension)'
+              'After cessação: contributions are no longer charged; accumulated contribution record remains (for a future pension)'
             ]}
           ]}
         ]}

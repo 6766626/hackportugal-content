@@ -14,10 +14,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: 'Nazaré — столица больших волн', content: [
             { kind: 'checklist', items: [
-              '**Praia do Norte** — гигантские волны зимой, до 30 м',
+              'Praia do Norte — гигантские волны зимой, до 30 м',
               'Рекорды мира: Garrett McNamara, Sebastian Steudtner',
-              '**Только для экспертов** — с командой спасателей',
-              'Туристы смотрят с **Forte de São Miguel Arcanjo** — маяк + вид',
+              'Только для экспертов — с командой спасателей',
+              'Туристы смотрят с Forte de São Miguel Arcanjo — маяк + вид',
               'Сезон: ноябрь-февраль',
               'WSL/Nazaré big-wave events проходят в зимний waiting period и только при подходящем swell; даты нужно проверять на сайте WSL и у Município da Nazaré'
             ]}
@@ -25,10 +25,10 @@ export default {
           { id: 's2', title: 'Ericeira — World Surf Reserve', content: [
             { kind: 'checklist', items: [
               'около 8 км побережья и 7 официально признанных world-class waves',
-              '**Ribeira d\'Ilhas** — длинный правый reef/point break, часто используется для соревнований; подходит intermediate+ при нормальных условиях',
-              '**Coxos** — для продвинутых, рифовый брейк',
-              '**Foz do Lizandro** — пляжный брейк для среднего уровня',
-              '**São Lourenço** — powerful right-hand reef/point, скорее intermediate/advanced; новичкам лучше Foz do Lizandro / São Julião / Praia do Sul с школой',
+              'Ribeira d\'Ilhas — длинный правый reef/point break, часто используется для соревнований; подходит intermediate+ при нормальных условиях',
+              'Coxos — для продвинутых, рифовый брейк',
+              'Foz do Lizandro — пляжный брейк для среднего уровня',
+              'São Lourenço — powerful right-hand reef/point, скорее intermediate/advanced; новичкам лучше Foz do Lizandro / São Julião / Praia do Sul с школой',
               'Единственный World Surf Reserve в Европе',
               'Где жить: гостевые дома 40-80 €/ночь, аренда на неделю 200-400 €',
               'примерно 45–60 минут на машине из Лиссабона, дольше в час пик'
@@ -36,29 +36,29 @@ export default {
           ]},
           { id: 's3', title: 'Peniche — стабильный свелл', content: [
             { kind: 'checklist', items: [
-              '**Supertubos** — ещё один спот WSL, волны качества Pipeline',
-              '**Baleal** — полуостров с пляжными брейками для всех уровней',
-              '**Cantinho da Baía** — защищённая бухта для новичков',
+              'Supertubos — ещё один спот WSL, волны качества Pipeline',
+              'Baleal — полуостров с пляжными брейками для всех уровней',
+              'Cantinho da Baía — защищённая бухта для новичков',
               'Больше кафе / хостелов / школ серфинга, чем в Ericeira',
               '1.5 часа от Лиссабона'
             ]}
           ]},
           { id: 's4', title: 'Sagres / Aljezur — юго-запад', content: [
             { kind: 'checklist', items: [
-              '**Praia do Amado** — легендарный пляжный брейк',
-              '**Arrifana** — мощный рифовый + пляжный брейк',
-              '**Carrapateira** — открытый пляж, для больших волн',
-              '**Castelejo, Cordoama, Barriga** — дикие пляжи, мало людей',
+              'Praia do Amado — легендарный пляжный брейк',
+              'Arrifana — мощный рифовый + пляжный брейк',
+              'Carrapateira — открытый пляж, для больших волн',
+              'Castelejo, Cordoama, Barriga — дикие пляжи, мало людей',
               'Offshore зависит от ориентации пляжа: west coast обычно лучше при E/NE winds, south coast — при N/NW; проверяйте Windguru/Surfline по конкретному spot',
               '3 часа от Лиссабона, ближе к аэропорту Faro'
             ]}
           ]},
           { id: 's5', title: 'Porto / северное побережье', content: [
             { kind: 'checklist', items: [
-              '**Matosinhos** — городской пляжный брейк, для начинающих',
-              '**Vila Chã, Miramar** — стабильные условия',
-              '**Espinho** — чуть южнее, более длинные волны',
-              '**Viana do Castelo** — продвинутые point breaks',
+              'Matosinhos — городской пляжный брейк, для начинающих',
+              'Vila Chã, Miramar — стабильные условия',
+              'Espinho — чуть южнее, более длинные волны',
+              'Viana do Castelo — продвинутые point breaks',
               'Вода холоднее, гидрокостюм 4/3 даже летом'
             ]}
           ]}
@@ -72,23 +72,23 @@ export default {
         { kind: 'substeps', items: [
           { id: 'sc1', title: 'Цены 2026', content: [
             { kind: 'checklist', items: [
-              '**Индивидуальный урок (1:1)**: 60-100 €/2 часа',
-              '**Групповой урок**: 35-50 €/2 часа',
-              '**Полный день** (группа): 60-90 € + закуски',
-              '**Лагерь выходного дня (2 дня)**: 150-250 €',
-              '**Серф-лагерь на неделю**: 350-800 € (уроки + проживание + еда)',
-              '**Прокат доски + гидрокостюма**: 20-30 €/день, 60-100 €/неделю'
+              'Индивидуальный урок (1:1): 60-100 €/2 часа',
+              'Групповой урок: 35-50 €/2 часа',
+              'Полный день (группа): 60-90 € + закуски',
+              'Лагерь выходного дня (2 дня): 150-250 €',
+              'Серф-лагерь на неделю: 350-800 € (уроки + проживание + еда)',
+              'Прокат доски + гидрокостюма: 20-30 €/день, 60-100 €/неделю'
             ]}
           ]},
           { id: 'sc2', title: 'Топ школ', content: [
             { kind: 'checklist', items: [
-              '**Ericeira Surf Camp** — один из крупнейших в Европе',
-              '**Peniche Surf Camp** — хостел + школа',
-              '**Baleal Surf School** — семейная атмосфера',
-              '**Chill in Ericeira** — бюджетный вариант',
-              '**Nazaré Surf School** — для новичков и среднего уровня, не для больших волн',
-              '**WaterRats Sagres**, **Future Surf School** (Algarve)',
-              '**Surfivor Portugal** — лагеря в разных локациях',
+              'Ericeira Surf Camp — один из крупнейших в Европе',
+              'Peniche Surf Camp — хостел + школа',
+              'Baleal Surf School — семейная атмосфера',
+              'Chill in Ericeira — бюджетный вариант',
+              'Nazaré Surf School — для новичков и среднего уровня, не для больших волн',
+              'WaterRats Sagres, Future Surf School (Algarve)',
+              'Surfivor Portugal — лагеря в разных локациях',
               '⚠️ Проверять FPS/qualified instructor, наличие страховки, rescue plan, ratio группы, легальную школу/оператора и условия занятия на пляже'
             ]}
           ]},
@@ -111,12 +111,12 @@ export default {
       title: '🌊 Сезоны',
       content: [
         { kind: 'checklist', items: [
-          '🌨️ **Ноябрь-Март**: большой свелл, волны 2-6 м. Только для профессионалов. Холодная вода 14-16°C, гидрокостюм 4/3',
-          '🌼 **Апрель-Май**: идеально для среднего уровня, 1-2.5 м. Вода 15-17°C',
-          '☀️ **Июнь-Август**: лучше всего для новичков, маленькие волны 0.5-1.5 м. Вода 17-20°C, 3/2 full suit; в тёплые дни на юге возможен shorty, но на west coast вода часто холодная из-за upwelling',
-          '🍂 **Сентябрь-Октябрь**: отличные условия — стабильный свелл + тёплая вода. Лучший сезон в целом',
-          '💨 **Ветер**: утром обычно offshore (хорошо), после 14:00 onshore (волны становятся рваными)',
-          '📱 **Проверка условий**: Windguru, Surf-Forecast, Surfline, IPMA морской прогноз; проверять утром и за 24–48 часов'
+          '🌨️ Ноябрь-Март: большой свелл, волны 2-6 м. Только для профессионалов. Холодная вода 14-16°C, гидрокостюм 4/3',
+          '🌼 Апрель-Май: идеально для среднего уровня, 1-2.5 м. Вода 15-17°C',
+          '☀️ Июнь-Август: лучше всего для новичков, маленькие волны 0.5-1.5 м. Вода 17-20°C, 3/2 full suit; в тёплые дни на юге возможен shorty, но на west coast вода часто холодная из-за upwelling',
+          '🍂 Сентябрь-Октябрь: отличные условия — стабильный свелл + тёплая вода. Лучший сезон в целом',
+          '💨 Ветер: утром обычно offshore (хорошо), после 14:00 onshore (волны становятся рваными)',
+          '📱 Проверка условий: Windguru, Surf-Forecast, Surfline, IPMA морской прогноз; проверять утром и за 24–48 часов'
         ]}
       ]
     },
@@ -127,18 +127,18 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Купить доску', content: [
             { kind: 'checklist', items: [
-              '**Новая soft-top для новичков** (7-9 ft): 200-350 €',
-              '**Жёсткая доска для новичков** (лонгборд 9 ft): 400-700 €',
-              '**Шортборд для среднего уровня** (6-7 ft): 500-900 €',
-              'Магазины: **Natural, Surf World Hossegor, Wavesailing**',
-              'Б/у рынок: **olx.pt, Facebook Marketplace** — половина цены'
+              'Новая soft-top для новичков (7-9 ft): 200-350 €',
+              'Жёсткая доска для новичков (лонгборд 9 ft): 400-700 €',
+              'Шортборд для среднего уровня (6-7 ft): 500-900 €',
+              'Магазины: Natural, Surf World Hossegor, Wavesailing',
+              'Б/у рынок: olx.pt, Facebook Marketplace — половина цены'
             ]}
           ]},
           { id: 'b2', title: 'Гидрокостюм', content: [
             { kind: 'checklist', items: [
-              '**3/2 mm** (лето): 150-250 €',
-              '**4/3 mm** (круглогодичный): 200-350 €',
-              '**5/4 mm** (зима): 250-450 €',
+              '3/2 mm (лето): 150-250 €',
+              '4/3 mm (круглогодичный): 200-350 €',
+              '5/4 mm (зима): 250-450 €',
               'Бренды: Patagonia, O\'Neill, Billabong, Quiksilver',
               'Менее известные бренды тоже качественные — за 2/3 цены'
             ]}
@@ -159,13 +159,13 @@ export default {
       title: '👥 Сообщество и соревнования',
       content: [
         { kind: 'checklist', items: [
-          '**FPS** (Federação Portuguesa de Surf) — федерация, лицензия для соревнований',
-          '**WSL events**: MEO Rip Curl Pro Portugal в Peniche — даты по календарю WSL; Nazaré big-wave/tow events — зимний waiting period, проведение зависит от swell',
-          '**Местные клубы**: Ericeira Surf Clube, Peniche Surf Clube, Nazaré Surf Clube',
-          '**Liga MEO Surf** — национальная соревновательная лига; для любителей искать local club contests, school competitions и муниципальные beach events',
+          'FPS (Federação Portuguesa de Surf) — федерация, лицензия для соревнований',
+          'WSL events: MEO Rip Curl Pro Portugal в Peniche — даты по календарю WSL; Nazaré big-wave/tow events — зимний waiting period, проведение зависит от swell',
+          'Местные клубы: Ericeira Surf Clube, Peniche Surf Clube, Nazaré Surf Clube',
+          'Liga MEO Surf — национальная соревновательная лига; для любителей искать local club contests, school competitions и муниципальные beach events',
           'Соц. сети: @visitericeira и др. — проверяйте актуальные handles',
-          '**Surf/outdoor events** меняются по годам; проверяйте municipal agenda Cascais/Ericeira/Peniche и FPS calendar',
-          '**Локальные surf/music events** меняются каждый сезон; проверяйте agendas муниципалитетов Peniche, Mafra/Ericeira и Nazaré'
+          'Surf/outdoor events меняются по годам; проверяйте municipal agenda Cascais/Ericeira/Peniche и FPS calendar',
+          'Локальные surf/music events меняются каждый сезон; проверяйте agendas муниципалитетов Peniche, Mafra/Ericeira и Nazaré'
         ]}
       ]
     }

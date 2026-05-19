@@ -3,7 +3,7 @@ export default {
   id: 'internships-traineeships',
   categoryId: 'work_business',
   title: 'Internships (Estágios) — programmes and pay',
-  tldr: 'Estágios are a common starting point for a career in Portugal.\n\nTypes: **IEFP estágios** (for example Estágios INICIAR / +Talento) — usually 6–9 months, the bolsa depends on the QNQ/education level and is calculated in IAS (from around 1.3 IAS); **Estágios curriculares** (university partner, often with no mandatory pay); **Estágios de Inserção** — a separate IEFP measure for pessoas com deficiência e incapacidade (do not confuse with CEI+ for unemployed people); **extracurricular** is regulated by Decreto-Lei 66/2011 (written contract, seguro, bolsa not below IAS €537.13 in 2026); **private internships** from companies, €600-1500/month.',
+  tldr: 'Estágios are a common starting point for a career in Portugal.\n\nTypes: IEFP estágios (for example Estágios INICIAR / +Talento) — usually 6–9 months, the bolsa depends on the QNQ/education level and is calculated in IAS (from around 1.3 IAS); Estágios curriculares (university partner, often with no mandatory pay); Estágios de Inserção — a separate IEFP measure for pessoas com deficiência e incapacidade (do not confuse with CEI+ for unemployed people); extracurricular is regulated by Decreto-Lei 66/2011 (written contract, seguro, bolsa not below IAS €537.13 in 2026); private internships from companies, €600-1500/month.',
   tags: ['estágio', 'internship', 'iefp', 'graduates'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,10 +14,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 't1', title: 'Estágios Profissionais (IEFP) — the most popular', content: [
             { kind: 'checklist', items: [
-              '**State programme** through IEFP',
+              'State programme through IEFP',
               'Goal: first job for graduates / reskilling',
-              '**Duration**: usually 6–9 months depending on the measure',
-              '**Bolsa**: depends on the QNQ qualification level and is calculated in multiples of IAS. With IAS 2026 at €537.13, guide figures are: 1.3 IAS ≈ €698.27, 1.4 IAS ≈ €751.98, 1.6 IAS ≈ €859.41; check the table for the specific IEFP medida',
+              'Duration: usually 6–9 months depending on the measure',
+              'Bolsa: depends on the QNQ qualification level and is calculated in multiples of IAS. With IAS 2026 at €537.13, guide figures are: 1.3 IAS ≈ €698.27, 1.4 IAS ≈ €751.98, 1.6 IAS ≈ €859.41; check the table for the specific IEFP medida',
               '+ meal subsidy ~€6/working day',
               'Replace with: “+ subsídio de alimentação/refeição and seguro de acidentes; transport support — only if provided for by the specific IEFP medida or for special categories.”',
               '+ accident insurance',
@@ -35,11 +35,11 @@ export default {
           ]},
           { id: 't3', title: 'Erasmus+ / EURES', content: [
             { kind: 'checklist', items: [
-              '**Erasmus+ Trainees**: for EU students / recent graduates',
+              'Erasmus+ Trainees: for EU students / recent graduates',
               '~3-6 months in a Portuguese company',
               'The Erasmus payment depends on the country, with an EU top-up + grant from the home university',
               '€600-1,100/month total grant amount',
-              '**EURES** — EU portal with vacancies, including internships'
+              'EURES — EU portal with vacancies, including internships'
             ]}
           ]},
           { id: 't4', title: 'Private internships', content: [
@@ -48,7 +48,7 @@ export default {
               'Banks/consulting (PwC, Deloitte, KPMG, BCP, Santander): €700-1200',
               'Start-ups (Lisbon scene): €500-1000',
               'Marketing / design: €600-900',
-              '**Extracurricular internship** outside a study programme is regulated by Decreto-Lei 66/2011: a written contrato de estágio, seguro, bolsa de estágio not below IAS (€537.13 in 2026), plus subsídio de refeição under the conditions of the law are required. Unpaid is mainly allowed for curricular internships and specific exceptions (for example very short internships of up to 3 months with no extension)',
+              'Extracurricular internship outside a study programme is regulated by Decreto-Lei 66/2011: a written contrato de estágio, seguro, bolsa de estágio not below IAS (€537.13 in 2026), plus subsídio de refeição under the conditions of the law are required. Unpaid is mainly allowed for curricular internships and specific exceptions (for example very short internships of up to 3 months with no extension)',
               'Application: linkedin.com/jobs with the “internship” filter, jobs.eu, glassdoor'
             ]}
           ]},
@@ -80,7 +80,7 @@ export default {
           ]},
           { id: 'a2', title: '2. Finding suitable estágio positions', content: [
             { kind: 'checklist', items: [
-              '**Net-Empregos / iefp.pt** shows open estágio positions',
+              'Net-Empregos / iefp.pt shows open estágio positions',
               'Companies must register in advance as host organisations',
               'Apply through the portal or directly to the company',
               'An interview is usually held; an IEFP adviser may join'
@@ -129,10 +129,10 @@ export default {
           ]},
           { id: 'f2', title: 'Non-EU (students / workers with a D visa)', content: [
             { kind: 'checklist', items: [
-              '**D4 Student**: you may work up to 20 hours per week — an internship is included',
-              '**Procuro Trabalho** (D-visa): an estágio may count as “trabalhar”',
+              'D4 Student: you may work up to 20 hours per week — an internship is included',
+              'Procuro Trabalho (D-visa): an estágio may count as “trabalhar”',
               'Replace with: “D3 is suitable for highly qualified activity, not for a standard internship. If the position is formalised as an internship/traineeship, you need to check the appropriate visa/residence permit separately: student, traineeship/research/temporary stay or work-based route — depending on the contract and host organisation.”',
-              '**Estágios IEFP** require a residence permit / EU passport — a tourist visa is not suitable',
+              'Estágios IEFP require a residence permit / EU passport — a tourist visa is not suitable',
               'TPD (Ukraine): full work rights, including estágio'
             ]}
           ]},
@@ -147,14 +147,14 @@ export default {
       title: '💡 Tips',
       content: [
         { kind: 'checklist', items: [
-          '🎯 **Apply early**: IEFP opens intakes every 2-3 months, places fill quickly',
-          '📝 **CV in Portuguese**: maximum 2 pages, a photo is usually expected, references are welcome',
-          '🗣️ **Language**: Portuguese for most roles; tech / consulting / start-ups are often English-friendly',
-          '🌐 **Technology / start-up scene in Lisbon**: easier for foreigners, larger English-speaking community',
+          '🎯 Apply early: IEFP opens intakes every 2-3 months, places fill quickly',
+          '📝 CV in Portuguese: maximum 2 pages, a photo is usually expected, references are welcome',
+          '🗣️ Language: Portuguese for most roles; tech / consulting / start-ups are often English-friendly',
+          '🌐 Technology / start-up scene in Lisbon: easier for foreigners, larger English-speaking community',
           'Replace with: “Bolsa de estágio can usually be taxed under IRS as rendimento de trabalho/dependent income, but retenção na fonte depends on the amount, status and current tables; for low bolsas, withholding may be zero. The final tax is calculated in the annual IRS return.”',
-          '🎓 **In addition to estágio**: get a Cartão Jovem (€8/year) — discounts on transport, museums',
-          '🏆 **Outsystems / Critical**: best companies for technology internships, possible transition to full-time employment + support with a work permit',
-          '📅 **Seasonality**: IT internships — main intake September / February; finance — June-July; state programmes — quarterly'
+          '🎓 In addition to estágio: get a Cartão Jovem (€8/year) — discounts on transport, museums',
+          '🏆 Outsystems / Critical: best companies for technology internships, possible transition to full-time employment + support with a work permit',
+          '📅 Seasonality: IT internships — main intake September / February; finance — June-July; state programmes — quarterly'
         ]}
       ]
     }

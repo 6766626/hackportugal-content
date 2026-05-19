@@ -29,7 +29,7 @@ export default {
       id: 'deadline',
       title: 'Deadline',
       content: [
-        { kind: 'warning', text: 'Under Decreto-Lei 138/2012, the rules depend on the issuing country. If the licence is eligible for exchange, the request usually needs to be made after residence is recorded and within the established deadlines; **up to 2 years from the date of residence, exchange is possible without an exam for countries with a recognised regime**, after 2 years a practical exam may be required. For CPLP/OECD, conditions are often simplified. For Ukrainians with Proteção Temporária — validity lasts for the full protection period (until 04.03.2027 under EU Regulation 2022/1280).' }
+        { kind: 'warning', text: 'Under Decreto-Lei 138/2012, the rules depend on the issuing country. If the licence is eligible for exchange, the request usually needs to be made after residence is recorded and within the established deadlines; up to 2 years from the date of residence, exchange is possible without an exam for countries with a recognised regime, after 2 years a practical exam may be required. For CPLP/OECD, conditions are often simplified. For Ukrainians with Proteção Temporária — validity lasts for the full protection period (until 04.03.2027 under EU Regulation 2022/1280).' }
       ]
     },
     {

@@ -101,7 +101,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Anuidade / manutenção — comissão anual/mensal de manutenção. Em muitos bancos online é 0 € com actividade mínima',
-          'Imposto do Selo — imposto de selo. Em Portugal NÃO é uma taxa trimestral fixa pela conta em si; normalmente é cobrado como **4%** sobre comissões bancárias, **0,5%** sobre juros de créditos/créditos ao consumo, etc. Se tiver uma conta gratuita sem outros serviços — pode nem haver Imposto do Selo efectivo',
+          'Imposto do Selo — imposto de selo. Em Portugal NÃO é uma taxa trimestral fixa pela conta em si; normalmente é cobrado como 4% sobre comissões bancárias, 0,5% sobre juros de créditos/créditos ao consumo, etc. Se tiver uma conta gratuita sem outros serviços — pode nem haver Imposto do Selo efectivo',
           'Comissão por levantamento em Multibanco de outro banco — normalmente 0 € em Portugal, mas há limites',
           'Comissão por inactividade — alguns bancos cobram 3-10 €/mês se a conta não for utilizada durante 6+ meses',
           'Câmbio de moeda (para transferências internacionais): margem de 1-3% sobre a taxa do BCE',

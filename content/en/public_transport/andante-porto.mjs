@@ -28,23 +28,23 @@ export default {
         { kind: 'substeps', items: [
           { id: 'occasional', title: 'Occasional tickets — for tourists and infrequent trips', content: [
             { kind: 'checklist', items: [
-              '🟪 **Andante Azul** — card for €0.60 (can be topped up with occasional tickets)',
-              '💰 **Single Z2**: €1.40 — 1 hour in zone 2',
-              '💰 **Andante 24h Tour 1**: €7 — unlimited travel for one day in Z4',
-              '💰 **Andante 24h Tour 3**: €15 — 3 days in Z4',
-              '💰 **Andante Tour 24h** (Z2): €4.15 — for those travelling only around the centre',
+              '🟪 Andante Azul — card for €0.60 (can be topped up with occasional tickets)',
+              '💰 Single Z2: €1.40 — 1 hour in zone 2',
+              '💰 Andante 24h Tour 1: €7 — unlimited travel for one day in Z4',
+              '💰 Andante 24h Tour 3: €15 — 3 days in Z4',
+              '💰 Andante Tour 24h (Z2): €4.15 — for those travelling only around the centre',
               '🎟️ You can buy it and validate it straight away at the gate or on the bus'
             ]}
           ]},
           { id: 'monthly', title: 'Monthly passes (for residents)', content: [
             { kind: 'checklist', items: [
-              '👤 **Andante Mensal Z2** (Porto centre): €30/month',
-              '👤 **Andante Mensal Z3**: €35/month',
-              '👤 **Andante Mensal Z4**: €40/month',
-              '🚇 **Mensal MetroPorto** (unlimited across the whole region): €40/month',
-              '🎓 **Andante Estudante** (for students): -50%, ≈€15',
-              '👴 **Andante Sénior** (>65): -50%',
-              '👨‍👩‍👧 **Andante Família** (3+ people) — shared pass, -25% for each person',
+              '👤 Andante Mensal Z2 (Porto centre): €30/month',
+              '👤 Andante Mensal Z3: €35/month',
+              '👤 Andante Mensal Z4: €40/month',
+              '🚇 Mensal MetroPorto (unlimited across the whole region): €40/month',
+              '🎓 Andante Estudante (for students): -50%, ≈€15',
+              '👴 Andante Sénior (>65): -50%',
+              '👨‍👩‍👧 Andante Família (3+ people) — shared pass, -25% for each person',
               '⚠️ To apply, you need an Andante Branca (personalised) — photo + Cartão de Cidadão, at a metro station'
             ]}
           ]},

@@ -51,9 +51,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Formas de acesso através da CMD', content: [
             { kind: 'checklist', items: [
-              '🔢 **Código PIN** + código SMS de utilização única',
-              '👁️ **Biometria**: Apple Touch ID / Face ID, impressão digital Android',
-              '📱 Aplicação móvel **autenticacao.gov.pt**',
+              '🔢 Código PIN + código SMS de utilização única',
+              '👁️ Biometria: Apple Touch ID / Face ID, impressão digital Android',
+              '📱 Aplicação móvel autenticacao.gov.pt',
               '⚠️ Se os SMS não chegam — o telefone não está associado ou não funciona em roaming'
             ]}
           ]},
@@ -82,9 +82,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O CC tem 3 códigos PIN: PIN de autenticação (4 dígitos), PIN de assinatura (4 dígitos), PIN de alteração de morada (4 dígitos). Após 3 introduções incorrectas, o PIN fica bloqueado.' },
         { kind: 'checklist', items: [
-          '🔓 **Desbloquear**: Espaço Cidadão / Loja CC, presencialmente, gratuito',
-          '🆕 **Alterar o PIN autonomamente**: no site autenticacao.gov.pt (é necessário o PIN antigo)',
-          '📤 **Repor totalmente** (se o PIN foi esquecido e está bloqueado): Loja CC, cerca de 10 €, no dia da visita',
+          '🔓 Desbloquear: Espaço Cidadão / Loja CC, presencialmente, gratuito',
+          '🆕 Alterar o PIN autonomamente: no site autenticacao.gov.pt (é necessário o PIN antigo)',
+          '📤 Repor totalmente (se o PIN foi esquecido e está bloqueado): Loja CC, cerca de 10 €, no dia da visita',
           '⚠️ Carta de códigos («carta de PINs») — chega aquando da emissão do CC. Guarde-a!',
           '💡 Se perdeu o cartão: bloquear através do 808 12 12 30 ou do ePortugal — imediatamente'
         ]}

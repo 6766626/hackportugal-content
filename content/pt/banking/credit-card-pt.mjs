@@ -58,28 +58,28 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Cartões básicos até 30 €/ano', content: [
             { kind: 'checklist', items: [
-              '🟢 **Millennium Cartão Premium**: 0 € de anuidade, 1% de cashback em compras pontuais, limite 500–3000 €',
-              '🟢 **ActivoBank Visa Classic**: 0 € de anuidade, limite 500–2500 €, adequado para compras online',
-              '🟢 **Santander Light**: 0 € de anuidade, limite básico',
-              '🟢 **CGD Caixa Worldwide**: 19 €/ano, aceite em 200+ países',
-              '🟢 **BPI 5 estrelas**: 25 €/ano, milhões de caixas automáticos BPI'
+              '🟢 Millennium Cartão Premium: 0 € de anuidade, 1% de cashback em compras pontuais, limite 500–3000 €',
+              '🟢 ActivoBank Visa Classic: 0 € de anuidade, limite 500–2500 €, adequado para compras online',
+              '🟢 Santander Light: 0 € de anuidade, limite básico',
+              '🟢 CGD Caixa Worldwide: 19 €/ano, aceite em 200+ países',
+              '🟢 BPI 5 estrelas: 25 €/ano, milhões de caixas automáticos BPI'
             ]}
           ]},
           { id: 'c2', title: 'Cashback e bónus', content: [
             { kind: 'checklist', items: [
-              '🟡 **Millennium World Mastercard**: 75 €/ano, 0,5–1% de cashback + seguro de viagem',
-              '🟡 **ActivoBank Gold**: 50 €/ano, seguro + 0,5% de cashback',
-              '🟡 **CGD Universal Plus**: 30 €/ano, 1% de cashback no Continente / Pingo Doce',
-              '🟡 **Santander Light Visa**: 0,3% de cashback, 35 €/ano',
-              '🟡 **Wizink White**: 0 €/ano, 0% TAEG durante 24 meses para transferência de dívida'
+              '🟡 Millennium World Mastercard: 75 €/ano, 0,5–1% de cashback + seguro de viagem',
+              '🟡 ActivoBank Gold: 50 €/ano, seguro + 0,5% de cashback',
+              '🟡 CGD Universal Plus: 30 €/ano, 1% de cashback no Continente / Pingo Doce',
+              '🟡 Santander Light Visa: 0,3% de cashback, 35 €/ano',
+              '🟡 Wizink White: 0 €/ano, 0% TAEG durante 24 meses para transferência de dívida'
             ]}
           ]},
           { id: 'c3', title: 'Cartões premium (Platinum, World Elite)', content: [
             { kind: 'checklist', items: [
-              '🟣 **Millennium Visa Platinum**: 150 €/ano, 1–2% de cashback, acesso a salas lounge, seguro',
-              '🟣 **BPI World Elite Mastercard**: 250 €/ano, serviço de concierge premium',
-              '🟣 **Santander Select**: 200 €/ano, pacote familiar premium',
-              '🟣 **Caixa Geral Visa Infinite**: 300 €/ano, serviço de concierge exclusivo',
+              '🟣 Millennium Visa Platinum: 150 €/ano, 1–2% de cashback, acesso a salas lounge, seguro',
+              '🟣 BPI World Elite Mastercard: 250 €/ano, serviço de concierge premium',
+              '🟣 Santander Select: 200 €/ano, pacote familiar premium',
+              '🟣 Caixa Geral Visa Infinite: 300 €/ano, serviço de concierge exclusivo',
               '⚠️ O rendimento para Platinum é normalmente a partir de 50 000 €/ano'
             ]}
           ]}

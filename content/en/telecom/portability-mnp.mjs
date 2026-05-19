@@ -3,7 +3,7 @@ export default {
   id: 'portability-mnp',
   categoryId: 'telecom',
   title: 'Number portability (MNP) between operators',
-  tldr: 'Number portability between Portuguese operators under DL 56/2010 is FREE, takes 1 working day, and is requested from the new operator (they deal with the old one themselves).\n\nTo obtain the **Código de Validação da Portabilidade (CVP)**: send an SMS with the text **“CVP”** to the short number **1696** from the old SIM (for mobile numbers).\n\nThe standard command for Portuguese operators is exactly “CVP”, not “PORT”. Portability does NOT reset the lock-in period with the old operator — if there is a penalty, it must be paid.',
+  tldr: 'Number portability between Portuguese operators under DL 56/2010 is FREE, takes 1 working day, and is requested from the new operator (they deal with the old one themselves).\n\nTo obtain the Código de Validação da Portabilidade (CVP): send an SMS with the text “CVP” to the short number 1696 from the old SIM (for mobile numbers).\n\nThe standard command for Portuguese operators is exactly “CVP”, not “PORT”. Portability does NOT reset the lock-in period with the old operator — if there is a penalty, it must be paid.',
   tags: ['number portability', 'mnp', 'switching operator', 'porting code'],
   estimatedReadMinutes: 4,
   steps: [
@@ -28,7 +28,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'p1', title: '1. Obtain the porting code from the old operator', content: [
             { kind: 'checklist', items: [
-              '📲 SMS **“CVP”** to number **1696** from the old SIM (Código de Validação da Portabilidade — the standard command for Portuguese operators)',
+              '📲 SMS “CVP” to number 1696 from the old SIM (Código de Validação da Portabilidade — the standard command for Portuguese operators)',
               '🕒 You will receive the porting code by SMS within 1 hour',
               '⚠️ The code is valid for 30 days',
               '💡 Alternative: call the old operator’s support and ask them to arrange a number porting request'

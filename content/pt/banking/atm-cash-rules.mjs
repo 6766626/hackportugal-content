@@ -3,7 +3,7 @@ export default {
   id: 'atm-cash-rules',
   categoryId: 'banking',
   title: 'ATM, dinheiro em numerário e limites em Portugal',
-  tldr: 'A principal rede de ATM é o Multibanco (MB), com cerca de 12 000 equipamentos. Aceitam a maioria dos cartões internacionais, mas a decisão de aceitar um cartão específico depende do banco emissor. O Multibanco normalmente não cobra comissão adicional, mas o banco emissor estrangeiro pode cobrar a sua própria comissão.\n\nO limite de levantamento é de 200–400 €/dia. O pagamento em numerário entre pessoas singulares é proibido para montantes **≥ 3 000 €** (art. 63-E LGT); para IRC/IRS com contabilidade organizada — **≥ 1 000 €** em faturas. O depósito de numerário acima de 10 000 € exige justificação da origem dos fundos segundo as regras AML — os bancos podem pedir documentos também para montantes inferiores, em função da análise de risco.',
+  tldr: 'A principal rede de ATM é o Multibanco (MB), com cerca de 12 000 equipamentos. Aceitam a maioria dos cartões internacionais, mas a decisão de aceitar um cartão específico depende do banco emissor. O Multibanco normalmente não cobra comissão adicional, mas o banco emissor estrangeiro pode cobrar a sua própria comissão.\n\nO limite de levantamento é de 200–400 €/dia. O pagamento em numerário entre pessoas singulares é proibido para montantes ≥ 3 000 € (art. 63-E LGT); para IRC/IRS com contabilidade organizada — ≥ 1 000 € em faturas. O depósito de numerário acima de 10 000 € exige justificação da origem dos fundos segundo as regras AML — os bancos podem pedir documentos também para montantes inferiores, em função da análise de risco.',
   tags: ['atm', 'multibanco', 'numerário', 'limites', 'nota'],
   estimatedReadMinutes: 5,
   steps: [
@@ -43,9 +43,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'art. 63-E LGT (Lei Geral Tributária) — limitações aos pagamentos em numerário. As proibições aplicam-se a operações iguais ou superiores ao limiar:' },
         { kind: 'checklist', items: [
-          '🧑‍🤝‍🧑 Entre pessoas singulares comuns: proibição de pagamentos em numerário **≥ 3 000 €** por transação',
-          '🏢 Sujeitos passivos de IRC/IRS com contabilidade organizada: proibição de pagamentos em numerário de faturas/documentos **≥ 1 000 €**',
-          '✈️ Turistas não residentes (pessoas singulares sem obrigação de ter contabilidade organizada em Portugal): o limiar é geralmente **≥ 10 000 €** para operações em numerário sem procedimentos AML especiais',
+          '🧑‍🤝‍🧑 Entre pessoas singulares comuns: proibição de pagamentos em numerário ≥ 3 000 € por transação',
+          '🏢 Sujeitos passivos de IRC/IRS com contabilidade organizada: proibição de pagamentos em numerário de faturas/documentos ≥ 1 000 €',
+          '✈️ Turistas não residentes (pessoas singulares sem obrigação de ter contabilidade organizada em Portugal): o limiar é geralmente ≥ 10 000 € para operações em numerário sem procedimentos AML especiais',
           '⚖️ Coimas ao abrigo do RGIT por infração — podem ser significativas; a fiscalização é feita pela AT',
           '📋 Operações a partir de 3 000 € (ou 1 000 € para empresas) — transferência bancária/cheque/pagamento eletrónico',
           '🛒 IMPORTANTE: dividir uma única operação em vários pagamentos para contornar o limiar — é uma infração autónoma'

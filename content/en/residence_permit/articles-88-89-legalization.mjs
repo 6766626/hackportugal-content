@@ -3,7 +3,7 @@ export default {
   id: 'articles-88-89-legalization',
   categoryId: 'residence_permit',
   title: 'Legalisation through articles 88/89 of Lei 23/2007 — when and how',
-  tldr: 'Articles 88 and 89 of Lei 23/2007 are residence permit routes for employment (88) and independent professionals/entrepreneurs (89).\n\n**88.1 and 89.1** are the standard visa route: first a consular residence visa (D1 for 88.1, D2 for 89.1) → application to AIMA.\n\n**88.2 and 89.2** used to be an exceptional route from inside Portugal WITHOUT a visa (through Manifestação de Interesse) — abolished: new applications stopped on 03.06.2024 (Decreto-Lei 37-A/2024), and Lei 61/2025 (in force on 23.10.2025) definitively removed the regime.\n\nIMPORTANT: art. 89 is NOT an investor route; investment residence permits are a separate article of Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
+  tldr: 'Articles 88 and 89 of Lei 23/2007 are residence permit routes for employment (88) and independent professionals/entrepreneurs (89).\n\n88.1 and 89.1 are the standard visa route: first a consular residence visa (D1 for 88.1, D2 for 89.1) → application to AIMA.\n\n88.2 and 89.2 used to be an exceptional route from inside Portugal WITHOUT a visa (through Manifestação de Interesse) — abolished: new applications stopped on 03.06.2024 (Decreto-Lei 37-A/2024), and Lei 61/2025 (in force on 23.10.2025) definitively removed the regime.\n\nIMPORTANT: art. 89 is NOT an investor route; investment residence permits are a separate article of Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
   tags: ['art 88', 'art 89', 'legalisation', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
   steps: [
@@ -107,7 +107,7 @@ export default {
           'Residence card issued by post within 2–8 weeks',
           'First residence permit — usually 2 years, renewal — 3 years',
           'After 5 years of legal residence — right to a permanent residence permit',
-          'Naturalisation: 5 years under the current law; **on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII** — after publication in the DRE it will be 7 years for CPLP+EU / 10 years for others',
+          'Naturalisation: 5 years under the current law; on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE it will be 7 years for CPLP+EU / 10 years for others',
           'Reagrupamento Familiar after Lei 61/2025 is not automatically “immediately for everyone”: check the current conditions of arts. 98–99 of Lei 23/2007 (sufficient means/housing, category of relative); for some cases a waiting period may apply — urgently check with AIMA'
         ]}
       ]

@@ -3,7 +3,7 @@ export default {
   id: 'madeira-island',
   categoryId: 'travel_portugal',
   title: 'Madeira — para nómadas digitais',
-  tldr: 'Região Autónoma, primavera eterna +18-24°C durante todo o ano. Funchal — a capital. Digital Nomads Village em Ponta do Sol. Inglês amplamente falado. O SNS funciona. ZFM (Zona Franca da Madeira) — regime especial para **empresas** (IRC 5% em vez de 21%, não IRS de pessoas singulares!). Para pessoas singulares residentes na Madeira, o IRS à taxa regional é geralmente inferior ao do continente em 1–2 p.p. A renda é mais barata do que em Lisboa, mas em 2024-2025 aumentou devido aos nómadas digitais.',
+  tldr: 'Região Autónoma, primavera eterna +18-24°C durante todo o ano. Funchal — a capital. Digital Nomads Village em Ponta do Sol. Inglês amplamente falado. O SNS funciona. ZFM (Zona Franca da Madeira) — regime especial para empresas (IRC 5% em vez de 21%, não IRS de pessoas singulares!). Para pessoas singulares residentes na Madeira, o IRS à taxa regional é geralmente inferior ao do continente em 1–2 p.p. A renda é mais barata do que em Lisboa, mas em 2024-2025 aumentou devido aos nómadas digitais.',
   tags: ['madeira', 'funchal', 'nómada digital', 'ilha'],
   estimatedReadMinutes: 6,
   steps: [

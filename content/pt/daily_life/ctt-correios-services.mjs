@@ -14,12 +14,12 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: 'Correio (principal)', content: [
             { kind: 'checklist', items: [
-              '✉️ **Cartas**: Carta Normal (sem acompanhamento) — as tarifas dependem do peso, confirme as actuais no tarifário CTT',
-              '📬 **Carta Registada** + opcionalmente aviso de receção (suplemento)',
-              '📦 **Encomenda Postal**: tarifas por escalões de peso, veja a tabela dos CTT',
-              '🇪🇺 **EU**: as tarifas dependem do peso/formato, veja o CTT international tariff',
-              '🌍 **Envio internacional**: preços conforme a tabela em ctt.pt',
-              '⚡ **Correio Verde** — produto de envelope/embalagem prepaid (não é um «suplemento por rapidez»); o preço depende do formato do envelope'
+              '✉️ Cartas: Carta Normal (sem acompanhamento) — as tarifas dependem do peso, confirme as actuais no tarifário CTT',
+              '📬 Carta Registada + opcionalmente aviso de receção (suplemento)',
+              '📦 Encomenda Postal: tarifas por escalões de peso, veja a tabela dos CTT',
+              '🇪🇺 EU: as tarifas dependem do peso/formato, veja o CTT international tariff',
+              '🌍 Envio internacional: preços conforme a tabela em ctt.pt',
+              '⚡ Correio Verde — produto de envelope/embalagem prepaid (não é um «suplemento por rapidez»); o preço depende do formato do envelope'
             ]}
           ]},
           { id: 's2', title: 'CTT Expresso', content: [
@@ -120,11 +120,11 @@ export default {
       title: '📱 Aplicações úteis',
       content: [
         { kind: 'checklist', items: [
-          '📦 **CTT Mobile** (App Store / Google Play) — acompanhamento, pesquisa de estações CTT, tarifas',
-          '🚚 **PostManager** — tracker universal para CTT, GLS, DHL, UPS',
-          '📍 **17track** — para encomendas internacionais (Aliexpress, eBay)',
-          '🛒 **Amazon** — acompanhamento integrado',
-          '🇪🇺 **EasyTrack** — tracker único para transportadoras na EU'
+          '📦 CTT Mobile (App Store / Google Play) — acompanhamento, pesquisa de estações CTT, tarifas',
+          '🚚 PostManager — tracker universal para CTT, GLS, DHL, UPS',
+          '📍 17track — para encomendas internacionais (Aliexpress, eBay)',
+          '🛒 Amazon — acompanhamento integrado',
+          '🇪🇺 EasyTrack — tracker único para transportadoras na EU'
         ]}
       ]
     },

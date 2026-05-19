@@ -72,10 +72,10 @@ export default {
           ]},
           { id: 'tour', title: 'Туристические', content: [
             { kind: 'checklist', items: [
-              '🛥️ **Yellow Boat** (Hop-on Hop-off) — туристические паромы Belém + Cacilhas + центр, ≈25 €/день',
-              '🚢 **Tejo Sunset Cruise** — закат, ≈30 €/чел',
-              '⚓ **Lisboa Sailing Tour** — частный круиз, от 50 €/чел',
-              '🏝️ **Sesimbra/Setúbal Boat Tour** — дельфины, ≈50 €/чел'
+              '🛥️ Yellow Boat (Hop-on Hop-off) — туристические паромы Belém + Cacilhas + центр, ≈25 €/день',
+              '🚢 Tejo Sunset Cruise — закат, ≈30 €/чел',
+              '⚓ Lisboa Sailing Tour — частный круиз, от 50 €/чел',
+              '🏝️ Sesimbra/Setúbal Boat Tour — дельфины, ≈50 €/чел'
             ]}
           ]}
         ]}

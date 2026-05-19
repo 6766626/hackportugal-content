@@ -26,22 +26,22 @@ export default {
           ]},
           { id: 'w2', title: 'Частные ассоциации', content: [
             { kind: 'checklist', items: [
-              '🐕 **União Zoófila** (zoofila.pt) — крупнейшая, Lisboa',
-              '🐱 **ANIMAL** (animal.pt) — национальная',
-              '🦴 **Bianca** (bianca.pt) — Algarve, специализация на пожилых собаках',
-              '🐶 **SOS Animal** (sosanimal.pt) — спасение',
-              '🐈 **Gatos de Rua** (gatosderua.pt) — стерилизация городских кошек',
+              '🐕 União Zoófila (zoofila.pt) — крупнейшая, Lisboa',
+              '🐱 ANIMAL (animal.pt) — национальная',
+              '🦴 Bianca (bianca.pt) — Algarve, специализация на пожилых собаках',
+              '🐶 SOS Animal (sosanimal.pt) — спасение',
+              '🐈 Gatos de Rua (gatosderua.pt) — стерилизация городских кошек',
               '💰 Сборы 30-100 € (на покрытие стерилизации, прививок, чипа)',
               '✅ Часто проводят осмотр, выявляют поведенческие проблемы заранее'
             ]}
           ]},
           { id: 'w3', title: 'Платформы поиска', content: [
             { kind: 'checklist', items: [
-              '🌐 **adopt.cao.pt** — национальная база (собаки и кошки)',
-              '🌐 **adoptar.pt** — частная база, много объявлений',
-              '📱 **Tirar de Caixa** (Lisboa) — группа в Facebook',
-              '📱 **Adopta Lisboa** — приложение для усыновления',
-              '📱 **Pawsome** — недорогое приложение для просмотра'
+              '🌐 adopt.cao.pt — национальная база (собаки и кошки)',
+              '🌐 adoptar.pt — частная база, много объявлений',
+              '📱 Tirar de Caixa (Lisboa) — группа в Facebook',
+              '📱 Adopta Lisboa — приложение для усыновления',
+              '📱 Pawsome — недорогое приложение для просмотра'
             ]}
           ]},
           { id: 'w4', title: 'Случайные находки', content: [
@@ -143,9 +143,9 @@ export default {
       title: '🏠 После усыновления',
       content: [
         { kind: 'checklist', items: [
-          '🎓 **Первые 30 дней адаптации**: тихо, не водить много гостей, дайте время',
+          '🎓 Первые 30 дней адаптации: тихо, не водить много гостей, дайте время',
           '🩺 Первый плановый осмотр у ветеринара (собственного, не приютского) — 2 нед после усыновления',
-          '💪 **Поведенческий специалист** (для собак с травмой): кинолог с позитивным подходом',
+          '💪 Поведенческий специалист (для собак с травмой): кинолог с позитивным подходом',
           '🐾 Прогулки 2-3 раза в день (собаки), игры (кошки)',
           '📸 Социальные сети: помогите приюту — публикуйте фото, рекомендуйте',
           '🎁 Возвращение в приют (если не подошло): обычно есть 30 дней для возврата; не выкидывайте на улицу!',
@@ -159,12 +159,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Decreto-Lei 315/2009, изменённый Lei 110/2015; список raças potencialmente perigosas — Portaria 422/2004. Для усыновления требуются дополнительные условия.' },
         { kind: 'checklist', items: [
-          '🐕 **Потенциально опасные породы**: Cão de Fila Brasileiro, Dogo Argentino, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu — и их cruzamentos',
-          '📋 **Licença de detenção** в Junta de Freguesia',
-          '💼 **Seguro de responsabilidade civil** минимум €50 000',
-          '🐾 **Курс поведения** + сертификат',
-          '🩺 **Комплексное обследование** хозяина (медицинское, психологическое)',
-          '🚶 **На прогулке**: намордник + короткий поводок ≤1 м + взрослый ≥ 16 лет',
+          '🐕 Потенциально опасные породы: Cão de Fila Brasileiro, Dogo Argentino, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu — и их cruzamentos',
+          '📋 Licença de detenção в Junta de Freguesia',
+          '💼 Seguro de responsabilidade civil минимум €50 000',
+          '🐾 Курс поведения + сертификат',
+          '🩺 Комплексное обследование хозяина (медицинское, психологическое)',
+          '🚶 На прогулке: намордник + короткий поводок ≤1 м + взрослый ≥ 16 лет',
           '⚠️ Тяжелее усыновить — приюты придирчивы',
           '📜 Поведенческие тесты для самой собаки'
         ]}

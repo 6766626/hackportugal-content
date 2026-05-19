@@ -3,7 +3,7 @@ export default {
   id: 'license-renewal',
   categoryId: 'driving_license',
   title: 'Renewing a Portuguese driving licence',
-  tldr: 'Portuguese licences (Group I categories — AM/A/B/BE, etc.): valid for **15 years until age 60**, then renewal at **60, 65, 70**; after 70 — **every 2 years**. For licences issued before 02/01/2013, and for Group II (professional C/D, etc.) — separate transitional/special rules apply (validity periods may be shorter).\n\nRenewal online via imt-online.imt.gov.pt with CMD/Chave Móvel Digital — government fee €30 + medical certificate (usually required from age 60 for Group I) + psychotechnical assessment (for certain cases / ages / categories).',
+  tldr: 'Portuguese licences (Group I categories — AM/A/B/BE, etc.): valid for 15 years until age 60, then renewal at 60, 65, 70; after 70 — every 2 years. For licences issued before 02/01/2013, and for Group II (professional C/D, etc.) — separate transitional/special rules apply (validity periods may be shorter).\n\nRenewal online via imt-online.imt.gov.pt with CMD/Chave Móvel Digital — government fee €30 + medical certificate (usually required from age 60 for Group I) + psychotechnical assessment (for certain cases / ages / categories).',
   tags: ['licence', 'renewal', 'imt', 'licence renewal', 'medical examination'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,13 +12,13 @@ export default {
       title: '⏰ When to renew',
       content: [
         { kind: 'checklist', items: [
-          '🟢 **Group I (ordinary categories AM/A/B/BE)** — issued after 02/01/2013: 15 years until age 60, then renewal at 60, 65, 70; after 70 — every 2 years',
-          '🟡 **Medical certificate** is usually required from age 60 for Group I',
-          '🟠 **Psychotechnical assessment** — for some categories/ages and Group II (professional C/D drivers)',
-          '⚠️ **Group II (professional C, D, BE with trailers, etc.)** — separate shorter validity periods, annual/2-yearly medical checks',
-          '⚠️ Licences issued **before 02/01/2013** — separate transitional rules; check on imt-ip.pt',
-          '⚠️ If the licence expired **less than 2 years ago** — you can usually revalidar without an exam, but you cannot drive with an expired licence; apply for revalidação as soon as possible',
-          '🔴 If the licence expired **more than 2 years ago** — the procedure depends on how long ago it expired: a special exam and/or training may be required. Check the current IMT table for carta caducada',
+          '🟢 Group I (ordinary categories AM/A/B/BE) — issued after 02/01/2013: 15 years until age 60, then renewal at 60, 65, 70; after 70 — every 2 years',
+          '🟡 Medical certificate is usually required from age 60 for Group I',
+          '🟠 Psychotechnical assessment — for some categories/ages and Group II (professional C/D drivers)',
+          '⚠️ Group II (professional C, D, BE with trailers, etc.) — separate shorter validity periods, annual/2-yearly medical checks',
+          '⚠️ Licences issued before 02/01/2013 — separate transitional rules; check on imt-ip.pt',
+          '⚠️ If the licence expired less than 2 years ago — you can usually revalidar without an exam, but you cannot drive with an expired licence; apply for revalidação as soon as possible',
+          '🔴 If the licence expired more than 2 years ago — the procedure depends on how long ago it expired: a special exam and/or training may be required. Check the current IMT table for carta caducada',
           '💡 IMT sends a notification 60 days in advance by post or email'
         ]}
       ]
@@ -106,12 +106,12 @@ export default {
       title: '⚠️ Special cases',
       content: [
         { kind: 'checklist', items: [
-          '📝 **Lost/stolen licence**: police report (PSP/GNR), then a duplicate via imt-online — €30',
-          '🩺 **Change in health condition** (diabetes, epilepsy, stroke): you must notify IMT; they may require new tests',
-          '🚙 **Category D (bus) or C (lorry)**: annual medical examination for professional drivers',
-          '🌐 **Address changed**: update via imt-online (free)',
-          '🇪🇺 **Moving to another EU country**: the licence remains valid, but obtain a local card within 2 years',
-          '🔄 **Additional category (motorcycle A after car B)**: training + exams, ~€400-700'
+          '📝 Lost/stolen licence: police report (PSP/GNR), then a duplicate via imt-online — €30',
+          '🩺 Change in health condition (diabetes, epilepsy, stroke): you must notify IMT; they may require new tests',
+          '🚙 Category D (bus) or C (lorry): annual medical examination for professional drivers',
+          '🌐 Address changed: update via imt-online (free)',
+          '🇪🇺 Moving to another EU country: the licence remains valid, but obtain a local card within 2 years',
+          '🔄 Additional category (motorcycle A after car B): training + exams, ~€400-700'
         ]}
       ]
     }

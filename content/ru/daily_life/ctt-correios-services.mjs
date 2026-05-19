@@ -14,12 +14,12 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: 'Почта (основное)', content: [
             { kind: 'checklist', items: [
-              '✉️ **Письма**: Carta Normal (без отслеживания) — тарифы зависят от веса, проверяйте актуальные в tarifário CTT',
-              '📬 **Carta Registada** (заказное) + опционально aviso de receção (доплата)',
-              '📦 **Encomenda Postal** (посылка): тарифы по весовым категориям, см. таблицу CTT',
-              '🇪🇺 **EU**: тарифы зависят от веса/формата, см. CTT international tariff',
-              '🌍 **Международная отправка**: цены по таблице на ctt.pt',
-              '⚡ **Correio Verde** — prepaid envelope/packaging продукт (не «доплата за скорость»); цена зависит от формата конверта'
+              '✉️ Письма: Carta Normal (без отслеживания) — тарифы зависят от веса, проверяйте актуальные в tarifário CTT',
+              '📬 Carta Registada (заказное) + опционально aviso de receção (доплата)',
+              '📦 Encomenda Postal (посылка): тарифы по весовым категориям, см. таблицу CTT',
+              '🇪🇺 EU: тарифы зависят от веса/формата, см. CTT international tariff',
+              '🌍 Международная отправка: цены по таблице на ctt.pt',
+              '⚡ Correio Verde — prepaid envelope/packaging продукт (не «доплата за скорость»); цена зависит от формата конверта'
             ]}
           ]},
           { id: 's2', title: 'CTT Expresso', content: [
@@ -120,11 +120,11 @@ export default {
       title: '📱 Полезные приложения',
       content: [
         { kind: 'checklist', items: [
-          '📦 **CTT Mobile** (App Store / Google Play) — отслеживание, поиск отделений CTT, тарифы',
-          '🚚 **PostManager** — универсальный трекер для CTT, GLS, DHL, UPS',
-          '📍 **17track** — для международных посылок (Aliexpress, eBay)',
-          '🛒 **Amazon** — встроенное отслеживание',
-          '🇪🇺 **EasyTrack** — единый трекер для перевозчиков в EU'
+          '📦 CTT Mobile (App Store / Google Play) — отслеживание, поиск отделений CTT, тарифы',
+          '🚚 PostManager — универсальный трекер для CTT, GLS, DHL, UPS',
+          '📍 17track — для международных посылок (Aliexpress, eBay)',
+          '🛒 Amazon — встроенное отслеживание',
+          '🇪🇺 EasyTrack — единый трекер для перевозчиков в EU'
         ]}
       ]
     },

@@ -17,7 +17,7 @@ export default {
           '📝 Gramática: há pequenas diferenças (tu/você, construção com gerúndio, estar/ficar)',
           '📚 Vocabulário: autocarro = autocarro (PT) / ônibus (BR); comboio = comboio (PT) / trem (BR); você/vocês = você (BR frequentemente) / vocês (PT formalmente)',
           '🎬 Filmes: os filmes brasileiros são sempre apresentados com legendas em PT — notícias portuguesas em BR sem tradução não passam',
-          '🎯 **Conclusão: aprenda PT-PT se vier para Portugal.** O BR é compreendido — mas para cidadania, no nível A2, é preciso PT-PT. Conteúdo BR (Duolingo, a maioria do YouTube) — serve para exposição de fundo, para exames — não'
+          '🎯 Conclusão: aprenda PT-PT se vier para Portugal. O BR é compreendido — mas para cidadania, no nível A2, é preciso PT-PT. Conteúdo BR (Duolingo, a maioria do YouTube) — serve para exposição de fundo, para exames — não'
         ]}
       ]
     },
@@ -31,7 +31,7 @@ export default {
               'Programa público AIMA + educação',
               '150 horas para o nível A2 (o que é necessário para a cidadania)',
               '300 horas para B1/B2',
-              'Gratuito para **todos** os estrangeiros com qualquer estatuto (incluindo refugiados e não residentes)',
+              'Gratuito para todos os estrangeiros com qualquer estatuto (incluindo refugiados e não residentes)',
               'Inscrição: Centro Qualifica da área de residência (qualifica.gov.pt) ou AIMA',
               'Formato: aulas à noite / ao fim de semana, 2-3 vezes por semana, 3 horas cada',
               'O certificado Certificado PLA é reconhecido pelo IRN para naturalização'
@@ -60,13 +60,13 @@ export default {
       title: '💼 Escolas de línguas privadas',
       content: [
         { kind: 'checklist', items: [
-          '**CIAL** (Centro de Línguas) — Lisboa, Faro. Um clássico, 150-600 € por mês de intensivo',
-          '**CLIC** (Centro Línguas Intercultural) — Lisboa, Porto. 300-800 € por 4-6 semanas',
-          '**Fast Forward Language Institute** — Lisboa, boa opção para nómadas digitais, aulas de grupo 350 € / individuais 40-60 €/hora',
-          '**Inlingua** — rede internacional, padrão de 400-800 €',
-          '**Kiros** — online, 20-40 €/hora com falante nativo',
-          '**italki / Preply** — plataformas online com professores, 15-35 €/hora (procure professores de PT-PT separadamente)',
-          '🎓 **Universidade de Lisboa** e **Universidade de Coimbra** — cursos de verão para estrangeiros, 500-900 € por 3-4 semanas de intensivo, certificado universitário'
+          'CIAL (Centro de Línguas) — Lisboa, Faro. Um clássico, 150-600 € por mês de intensivo',
+          'CLIC (Centro Línguas Intercultural) — Lisboa, Porto. 300-800 € por 4-6 semanas',
+          'Fast Forward Language Institute — Lisboa, boa opção para nómadas digitais, aulas de grupo 350 € / individuais 40-60 €/hora',
+          'Inlingua — rede internacional, padrão de 400-800 €',
+          'Kiros — online, 20-40 €/hora com falante nativo',
+          'italki / Preply — plataformas online com professores, 15-35 €/hora (procure professores de PT-PT separadamente)',
+          '🎓 Universidade de Lisboa e Universidade de Coimbra — cursos de verão para estrangeiros, 500-900 € por 3-4 semanas de intensivo, certificado universitário'
         ]}
       ]
     },
@@ -98,15 +98,15 @@ export default {
       title: '🗣️ Onde praticar conversação',
       content: [
         { kind: 'checklist', items: [
-          '**Tandem / HelloTalk** — intercâmbio linguístico com portugueses, gratuito',
-          '**Meetup Lisboa / Porto** — intercâmbios linguísticos semanais em cafés (encontros gratuitos)',
-          '**Portuguese Conversation Club** (FB) — grupo no Porto e em Lisboa',
-          '**italki Community** — correções gratuitas de textos no Notebook por portugueses',
-          '**Séries** — TVI / SIC à noite, por exemplo “Quero é Viver”',
-          '**Publicidade no elevador / metro** — textos curtos, bons para exposição passiva',
-          '**Futebol na rádio** — discurso rápido com expressões idiomáticas',
-          '**Conversa com vizinhos do bairro** — senhor/senhora no café, empregado na padaria',
-          '**Sem medo de falar** — regra principal: os portugueses são simpáticos, toleram erros e ficam contentes com a prática'
+          'Tandem / HelloTalk — intercâmbio linguístico com portugueses, gratuito',
+          'Meetup Lisboa / Porto — intercâmbios linguísticos semanais em cafés (encontros gratuitos)',
+          'Portuguese Conversation Club (FB) — grupo no Porto e em Lisboa',
+          'italki Community — correções gratuitas de textos no Notebook por portugueses',
+          'Séries — TVI / SIC à noite, por exemplo “Quero é Viver”',
+          'Publicidade no elevador / metro — textos curtos, bons para exposição passiva',
+          'Futebol na rádio — discurso rápido com expressões idiomáticas',
+          'Conversa com vizinhos do bairro — senhor/senhora no café, empregado na padaria',
+          'Sem medo de falar — regra principal: os portugueses são simpáticos, toleram erros e ficam contentes com a prática'
         ]}
       ]
     },
@@ -115,11 +115,11 @@ export default {
       title: '⏱️ Quanto tempo até A2 / B1',
       content: [
         { kind: 'checklist', items: [
-          '**A1** (bases): 60-80 horas de aulas. 2-3 meses a 4 h/semana',
-          '**A2** (para cidadania): 150-200 horas. 6-9 meses em regime intensivo',
-          '**B1** (conversa confortável): 300-400 horas. 1-1,5 anos',
-          '**B2** (profissional): 500-700 horas. 2-3 anos',
-          '**C1** (quase nível nativo): 1000+ horas, 4-6 anos',
+          'A1 (bases): 60-80 horas de aulas. 2-3 meses a 4 h/semana',
+          'A2 (para cidadania): 150-200 horas. 6-9 meses em regime intensivo',
+          'B1 (conversa confortável): 300-400 horas. 1-1,5 anos',
+          'B2 (profissional): 500-700 horas. 2-3 anos',
+          'C1 (quase nível nativo): 1000+ horas, 4-6 anos',
           '💡 Mais rápido se: já vive em PT + prática diária. Mais lento se aprender a partir de Moscovo sem imersão',
           '📅 Experiência real: a maioria das pessoas que se muda chega a um A2-B1 seguro em 1-1,5 anos em PT, B2 — em 3-4 anos com prática ativa'
         ]}

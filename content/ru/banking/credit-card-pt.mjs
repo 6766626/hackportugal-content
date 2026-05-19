@@ -58,28 +58,28 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Базовые карты до € 30/год', content: [
             { kind: 'checklist', items: [
-              '🟢 **Millennium Cartão Premium**: € 0 за обслуживание, 1% кэшбэка на редкие покупки, лимит € 500–3000',
-              '🟢 **ActivoBank Visa Classic**: € 0 за обслуживание, лимит € 500–2500, подходит для онлайн-покупок',
-              '🟢 **Santander Light**: € 0 за обслуживание, базовый лимит',
-              '🟢 **CGD Caixa Worldwide**: € 19/год, принимается в 200+ странах',
-              '🟢 **BPI 5 estrelas**: € 25/год, миллионы банкоматов BPI'
+              '🟢 Millennium Cartão Premium: € 0 за обслуживание, 1% кэшбэка на редкие покупки, лимит € 500–3000',
+              '🟢 ActivoBank Visa Classic: € 0 за обслуживание, лимит € 500–2500, подходит для онлайн-покупок',
+              '🟢 Santander Light: € 0 за обслуживание, базовый лимит',
+              '🟢 CGD Caixa Worldwide: € 19/год, принимается в 200+ странах',
+              '🟢 BPI 5 estrelas: € 25/год, миллионы банкоматов BPI'
             ]}
           ]},
           { id: 'c2', title: 'Кэшбэк и бонусы', content: [
             { kind: 'checklist', items: [
-              '🟡 **Millennium World Mastercard**: € 75/год, 0,5–1% кэшбэка + страхование путешествий',
-              '🟡 **ActivoBank Gold**: € 50/год, страхование + 0,5% кэшбэка',
-              '🟡 **CGD Universal Plus**: € 30/год, 1% кэшбэка в Continente / Pingo Doce',
-              '🟡 **Santander Light Visa**: 0,3% кэшбэка, € 35/год',
-              '🟡 **Wizink White**: € 0/год, 0% IRR на 24 месяца для перевода долга'
+              '🟡 Millennium World Mastercard: € 75/год, 0,5–1% кэшбэка + страхование путешествий',
+              '🟡 ActivoBank Gold: € 50/год, страхование + 0,5% кэшбэка',
+              '🟡 CGD Universal Plus: € 30/год, 1% кэшбэка в Continente / Pingo Doce',
+              '🟡 Santander Light Visa: 0,3% кэшбэка, € 35/год',
+              '🟡 Wizink White: € 0/год, 0% IRR на 24 месяца для перевода долга'
             ]}
           ]},
           { id: 'c3', title: 'Премиальные карты (Platinum, World Elite)', content: [
             { kind: 'checklist', items: [
-              '🟣 **Millennium Visa Platinum**: € 150/год, 1–2% кэшбэка, доступ в бизнес-залы, страхование',
-              '🟣 **BPI World Elite Mastercard**: € 250/год, премиальный консьерж-сервис',
-              '🟣 **Santander Select**: € 200/год, премиальный семейный пакет',
-              '🟣 **Caixa Geral Visa Infinite**: € 300/год, эксклюзивный консьерж-сервис',
+              '🟣 Millennium Visa Platinum: € 150/год, 1–2% кэшбэка, доступ в бизнес-залы, страхование',
+              '🟣 BPI World Elite Mastercard: € 250/год, премиальный консьерж-сервис',
+              '🟣 Santander Select: € 200/год, премиальный семейный пакет',
+              '🟣 Caixa Geral Visa Infinite: € 300/год, эксклюзивный консьерж-сервис',
               '⚠️ Доход для Platinum обычно от € 50 000/год'
             ]}
           ]}

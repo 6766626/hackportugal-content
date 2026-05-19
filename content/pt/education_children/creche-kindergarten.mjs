@@ -3,7 +3,7 @@ export default {
   id: 'creche-kindergarten',
   categoryId: 'education_children',
   title: 'Creche e Jardim de Infância em Portugal',
-  tldr: 'A Creche (geralmente 0–3) pode ser IPSS/social, privada e, mais raramente, municipal. Ao abrigo do programa **Creche Feliz**, a vaga pode ser gratuita em instituições abrangidas (sobretudo IPSS/rede social)\.\n\nJardim de Infância / educação pré-escolar (3–6 anos) — na rede pública, a componente educativa é gratuita; alimentação, transporte e AAAF/prolongamento podem ser pagos à parte. A frequência do pré-escolar **não é obrigatória** — a escolaridade obrigatória começa aos 6 anos. Inscrição na Creche Feliz: Segurança Social Direta; no Jardim de Infância: Portal das Matrículas.',
+  tldr: 'A Creche (geralmente 0–3) pode ser IPSS/social, privada e, mais raramente, municipal. Ao abrigo do programa Creche Feliz, a vaga pode ser gratuita em instituições abrangidas (sobretudo IPSS/rede social)\.\n\nJardim de Infância / educação pré-escolar (3–6 anos) — na rede pública, a componente educativa é gratuita; alimentação, transporte e AAAF/prolongamento podem ser pagos à parte. A frequência do pré-escolar não é obrigatória — a escolaridade obrigatória começa aos 6 anos. Inscrição na Creche Feliz: Segurança Social Direta; no Jardim de Infância: Portal das Matrículas.',
   tags: ['creche', 'jardim de infância', 'crianças'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: 'Creche Feliz (creche gratuita para vagas elegíveis) — desde 2022', content: [
-            { kind: 'paragraph', text: 'Vaga gratuita em instituições **abrangidas** — sobretudo na rede social/solidária IPSS; creches privadas com fins lucrativos só podem participar cumprindo as regras do programa (normalmente quando não existe vaga adequada na rede social)\.\n\nInicialmente (2022/23), existia limitação aos 1.º–2.º escalões do abono — em 2026 já não é a regra principal. A mensalidade padrão é 0 €; «extras» (serviços adicionais, horários alargados) podem ser pagos à parte.' }
+            { kind: 'paragraph', text: 'Vaga gratuita em instituições abrangidas — sobretudo na rede social/solidária IPSS; creches privadas com fins lucrativos só podem participar cumprindo as regras do programa (normalmente quando não existe vaga adequada na rede social)\.\n\nInicialmente (2022/23), existia limitação aos 1.º–2.º escalões do abono — em 2026 já não é a regra principal. A mensalidade padrão é 0 €; «extras» (serviços adicionais, horários alargados) podem ser pagos à parte.' }
           ]},
           { id: 't2', title: 'Creche IPSS fora da Creche Feliz', content: [
             { kind: 'paragraph', text: 'Se a vaga não estiver abrangida pela Creche Feliz, pode aplicar-se uma comparticipação familiar de acordo com o rendimento, segundo as regras da instituição/Segurança Social. A alimentação costuma estar incluída no valor padrão.' }
@@ -22,7 +22,7 @@ export default {
             { kind: 'paragraph', text: 'Instituições comerciais. 400–1200 €/mês em Lisboa e no Porto. Existem opções internacionais com inglês, francês ou alemão.' }
           ]},
           { id: 't4', title: 'Jardim de Infância / educação pré-escolar (3–6 anos)', content: [
-            { kind: 'paragraph', text: 'Na rede pública, a componente educativa é gratuita. **A frequência não é obrigatória** — a escolaridade obrigatória começa aos 6 anos. Alimentação, transporte escolar e AAAF/prolongamento podem ser pagos ou subsidiados, dependendo do município e do escalão da Ação Social Escolar (ASE).' }
+            { kind: 'paragraph', text: 'Na rede pública, a componente educativa é gratuita. A frequência não é obrigatória — a escolaridade obrigatória começa aos 6 anos. Alimentação, transporte escolar e AAAF/prolongamento podem ser pagos ou subsidiados, dependendo do município e do escalão da Ação Social Escolar (ASE).' }
           ]}
         ]}
       ]

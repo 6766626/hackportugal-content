@@ -14,8 +14,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Garantia dos bens (Lei 84/2021)', content: [
             { kind: 'checklist', items: [
-              '✅ **Bens novos**: 3 anos de garantia (antes eram 2 — alterado em 2022)',
-              '✅ **Bens usados**: mínimo de 1 ano; vendedor e comprador podem acordar outro prazo',
+              '✅ Bens novos: 3 anos de garantia (antes eram 2 — alterado em 2022)',
+              '✅ Bens usados: mínimo de 1 ano; vendedor e comprador podem acordar outro prazo',
               '✅ A garantia cobre DEFEITOS de conformidade — não desgaste, nem danos causados por culpa do comprador',
               '🔁 Em caso de defeito, o vendedor é obrigado a propor: reparação OU substituição OU desconto OU reembolso',
               '⏰ Nos primeiros 6 meses aplica-se a presunção de que o defeito existia desde o momento da venda (ónus da prova a cargo do vendedor)',
@@ -24,7 +24,7 @@ export default {
           ]},
           { id: 'r2', title: 'Direito de livre resolução (apenas online/à distância)', content: [
             { kind: 'checklist', items: [
-              '🌐 **14 dias** para desistir de uma compra online / por telefone / ao domicílio (DL 24/2014)',
+              '🌐 14 dias para desistir de uma compra online / por telefone / ao domicílio (DL 24/2014)',
               '🚫 SEM explicar os motivos',
               '✅ Reembolso integral no prazo de 14 dias',
               '🚚 A devolução por transporte fica normalmente a cargo do comprador (se a loja não indicar o contrário)',
@@ -70,18 +70,18 @@ export default {
           ]},
           { id: 'l3', title: 'Passo 3 — Regulador', content: [
             { kind: 'checklist', items: [
-              '⚖️ **ASAE** (Autoridade de Segurança Alimentar e Económica) — controlo geral do comércio, asae.gov.pt',
-              '⚡ **ERSE** (electricidade, gás) — erse.pt',
-              '📞 **ANACOM** (telecomunicações, internet) — anacom.pt',
-              '🏥 **INFARMED** (medicamentos) — infarmed.pt',
-              '🏦 **Banco de Portugal** (bancos) — bportugal.pt',
-              '🚗 **AT IMT** (automóvel) — imt-ip.pt',
-              '✈️ **ANAC** (aviação) — anac.pt'
+              '⚖️ ASAE (Autoridade de Segurança Alimentar e Económica) — controlo geral do comércio, asae.gov.pt',
+              '⚡ ERSE (electricidade, gás) — erse.pt',
+              '📞 ANACOM (telecomunicações, internet) — anacom.pt',
+              '🏥 INFARMED (medicamentos) — infarmed.pt',
+              '🏦 Banco de Portugal (bancos) — bportugal.pt',
+              '🚗 AT IMT (automóvel) — imt-ip.pt',
+              '✈️ ANAC (aviação) — anac.pt'
             ]}
           ]},
           { id: 'l4', title: 'Passo 4 — Tribunal / Julgados de Paz', content: [
             { kind: 'checklist', items: [
-              '⚖️ **Julgados de Paz**: pequenas acções até 15 000 € — mais rápido do que um tribunal comum',
+              '⚖️ Julgados de Paz: pequenas acções até 15 000 € — mais rápido do que um tribunal comum',
               '💰 Custas judiciais de 70 € (se o pedido ≤ 5000 €) ou 105 € (>5000)',
               '⏱️ Decisão normalmente em 2-6 meses',
               '🎓 Advogado não é obrigatório (para pedidos ≤ 3 740 €)',
@@ -90,7 +90,7 @@ export default {
           ]},
           { id: 'l5', title: 'Litígio transfronteiriço (outro país da UE)', content: [
             { kind: 'checklist', items: [
-              '🇪🇺 **Centro Europeu do Consumidor (ECC-Net)**: cec.consumidor.pt',
+              '🇪🇺 Centro Europeu do Consumidor (ECC-Net): cec.consumidor.pt',
               '🆓 Apoio gratuito, mediação entre comprador em Portugal e loja estrangeira na UE',
               '📧 ec.europa.eu/consumers — para apresentar online',
               '⏱️ A solução através da ECC costuma demorar 2-3 meses'

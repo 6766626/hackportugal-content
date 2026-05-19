@@ -3,7 +3,7 @@ export default {
   id: 'portability-mnp',
   categoryId: 'telecom',
   title: 'Portabilidade de número (MNP) entre operadores',
-  tldr: 'A portabilidade de número entre operadores portugueses ao abrigo do DL 56/2010 é GRATUITA, demora 1 dia útil e é feita através de pedido junto do novo operador (é ele que comunica com o antigo)\.\n\nPara obter o **Código de Validação da Portabilidade (CVP)**: SMS com o texto **«CVP»** para o número curto **1696** a partir do SIM antigo (para números móveis)\.\n\nO comando padrão dos operadores portugueses é precisamente «CVP», não «PORT». A portabilidade NÃO anula a fidelização no operador antigo — se houver penalização, terá de ser paga.',
+  tldr: 'A portabilidade de número entre operadores portugueses ao abrigo do DL 56/2010 é GRATUITA, demora 1 dia útil e é feita através de pedido junto do novo operador (é ele que comunica com o antigo)\.\n\nPara obter o Código de Validação da Portabilidade (CVP): SMS com o texto «CVP» para o número curto 1696 a partir do SIM antigo (para números móveis)\.\n\nO comando padrão dos operadores portugueses é precisamente «CVP», não «PORT». A portabilidade NÃO anula a fidelização no operador antigo — se houver penalização, terá de ser paga.',
   tags: ['portabilidade de número', 'mnp', 'mudança de operador', 'código de portabilidade'],
   estimatedReadMinutes: 4,
   steps: [
@@ -28,7 +28,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'p1', title: '1. Obter o código de portabilidade junto do operador antigo', content: [
             { kind: 'checklist', items: [
-              '📲 SMS **«CVP»** para o número **1696** a partir do SIM antigo (Código de Validação da Portabilidade — comando padrão dos operadores portugueses)',
+              '📲 SMS «CVP» para o número 1696 a partir do SIM antigo (Código de Validação da Portabilidade — comando padrão dos operadores portugueses)',
               '🕒 Receberá o código de portabilidade por SMS no prazo de 1 hora',
               '⚠️ O código é válido durante 30 dias',
               '💡 Alternativa: ligar para o apoio ao cliente do operador antigo e pedir para registar o pedido de portabilidade do número'

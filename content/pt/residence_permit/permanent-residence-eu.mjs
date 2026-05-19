@@ -3,7 +3,7 @@ export default {
   id: 'permanent-residence-eu',
   categoryId: 'residence_permit',
   title: 'Residência permanente em Portugal (arts. 76, 80) e EU Long-Term Resident (arts. 125+)',
-  tldr: 'Após 5 anos de titularidade de uma autorização de residência temporária em Portugal, é possível requerer a **Autorização de Residência Permanente** (arts. 76 e 80 Lei 23/2007).\n\n**A própria autorização é POR TEMPO INDETERMINADO** (sem limite de tempo); apenas o **título/cartão é renovado de 5 em 5 anos** (art. 76 nº 4 Lei 23/2007). Alternativa: **Estatuto de Residente de Longa Duração UE / EU Long-Term Resident** (arts. 125+ Lei 23/2007, transpõe a Directive 2003/109/EC) — também com cartão de 5 anos, facilita a mudança para muitos países da UE (NÃO é liberdade de circulação automática como a dos cidadãos da UE; Dinamarca/Irlanda não participam). Requisitos: 5 anos de residência TEMPORÁRIA, português A2, ausência de judicial conviction por crime com pena privativa de liberdade > 1 ano, meios estáveis. Pedido na AIMA.',
+  tldr: 'Após 5 anos de titularidade de uma autorização de residência temporária em Portugal, é possível requerer a Autorização de Residência Permanente (arts. 76 e 80 Lei 23/2007).\n\nA própria autorização é POR TEMPO INDETERMINADO (sem limite de tempo); apenas o título/cartão é renovado de 5 em 5 anos (art. 76 nº 4 Lei 23/2007). Alternativa: Estatuto de Residente de Longa Duração UE / EU Long-Term Resident (arts. 125+ Lei 23/2007, transpõe a Directive 2003/109/EC) — também com cartão de 5 anos, facilita a mudança para muitos países da UE (NÃO é liberdade de circulação automática como a dos cidadãos da UE; Dinamarca/Irlanda não participam). Requisitos: 5 anos de residência TEMPORÁRIA, português A2, ausência de judicial conviction por crime com pena privativa de liberdade > 1 ano, meios estáveis. Pedido na AIMA.',
   tags: ['residência-permanente', 'permanente', 'autorização-de-residência', 'eu-long-term'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,10 +14,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 'n1', title: '🇵🇹 Autorização de Residência Permanente (nacional)', content: [
             { kind: 'checklist', items: [
-              '**A própria autorização é por tempo indeterminado** (sem limite de tempo, art. 76 Lei 23/2007). **O cartão (título de residência) é renovado de 5 em 5 anos** (art. 76 nº 4)',
+              'A própria autorização é por tempo indeterminado (sem limite de tempo, art. 76 Lei 23/2007). O cartão (título de residência) é renovado de 5 em 5 anos (art. 76 nº 4)',
               'Direito a trabalhar, viver e estudar em Portugal sem restrições',
               'Risco de cancellation em caso de ausência por 24 meses consecutivos OU 30 meses interpolados em 3 anos sem motivo atendível (art. 85 Lei 23/2007)',
-              'Ao abrigo da lei em vigor, a naturalização é possível após 5 anos de residência legal — **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII**, que, após publicação no DRE, aumentará o prazo para 7 anos para CPLP/UE e 10 anos para os restantes. A permanent residence NÃO é obrigatória para pedir a nacionalidade',
+              'Ao abrigo da lei em vigor, a naturalização é possível após 5 anos de residência legal — 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII, que, após publicação no DRE, aumentará o prazo para 7 anos para CPLP/UE e 10 anos para os restantes. A permanent residence NÃO é obrigatória para pedir a nacionalidade',
               'Os membros da família recebem uma autorização de residência temporária e depois podem seguir o seu próprio percurso para a residência permanente',
               'Não confere direitos noutros países da UE'
             ]}
@@ -33,7 +33,7 @@ export default {
             ]}
           ]},
           { id: 'n3', title: '🤔 Recomendação', content: [
-            { kind: 'paragraph', text: 'Para a maioria dos residentes — **residência permanente nacional**: o procedimento é mais simples, exige menos documentos e não caduca. EULTR — se planeia realmente mudar-se para outro país da UE dentro de 1-3 anos. Em teoria, é possível ter national permanent residence e/ou o estatuto EU long-term resident, mas o procedimento e a menção/cartão dependem da AIMA — é melhor confirmar a estratégia antes de submeter o pedido.' }
+            { kind: 'paragraph', text: 'Para a maioria dos residentes — residência permanente nacional: o procedimento é mais simples, exige menos documentos e não caduca. EULTR — se planeia realmente mudar-se para outro país da UE dentro de 1-3 anos. Em teoria, é possível ter national permanent residence e/ou o estatuto EU long-term resident, mas o procedimento e a menção/cartão dependem da AIMA — é melhor confirmar a estratégia antes de submeter o pedido.' }
           ]}
         ]}
       ]
@@ -43,13 +43,13 @@ export default {
       title: 'Condições para apresentar o pedido (arts. 76, 80)',
       content: [
         { kind: 'checklist', items: [
-          '📅 **5 anos de titularidade de uma autorização de residência temporária** em Portugal. NÃO confundir com as regras da nacionalidade: os períodos de espera dos pedidos podem ser relevantes para o nationality clock, mas normalmente NÃO substituem 5 anos de temporary residence permit para residência permanente',
-          '🗣️ **Português A2** — certificado CIPLE/CAPLE, certificado de curso de português reconhecido, ou outro documento expressamente aceite pela AIMA ao abrigo da lei/regulamento',
-          '💰 **Meios de subsistência estáveis e regulares** — normalmente trabalho, pensão, rendimentos; a AIMA orienta-se pelos Portuguese subsistence thresholds',
-          '🏠 **Alojamento adequado** — contrato de arrendamento / propriedade, área em função do agregado familiar',
-          '⚕️ **Seguro de saúde ou utente do SNS** — funciona se estiver registado',
-          '⚖️ **Sem cadastro criminal** por crime que, segundo o direito português, seja punível com pena de prisão superior a 1 ano (art. 80 Lei 23/2007)',
-          '📋 **Ausência de dívidas** às Finanças e à Segurança Social',
+          '📅 5 anos de titularidade de uma autorização de residência temporária em Portugal. NÃO confundir com as regras da nacionalidade: os períodos de espera dos pedidos podem ser relevantes para o nationality clock, mas normalmente NÃO substituem 5 anos de temporary residence permit para residência permanente',
+          '🗣️ Português A2 — certificado CIPLE/CAPLE, certificado de curso de português reconhecido, ou outro documento expressamente aceite pela AIMA ao abrigo da lei/regulamento',
+          '💰 Meios de subsistência estáveis e regulares — normalmente trabalho, pensão, rendimentos; a AIMA orienta-se pelos Portuguese subsistence thresholds',
+          '🏠 Alojamento adequado — contrato de arrendamento / propriedade, área em função do agregado familiar',
+          '⚕️ Seguro de saúde ou utente do SNS — funciona se estiver registado',
+          '⚖️ Sem cadastro criminal por crime que, segundo o direito português, seja punível com pena de prisão superior a 1 ano (art. 80 Lei 23/2007)',
+          '📋 Ausência de dívidas às Finanças e à Segurança Social',
           '🛡️ Sem infrações à legislação de imigração (estadia expirada, trabalho ilegal)'
         ]}
       ]
@@ -81,7 +81,7 @@ export default {
             { kind: 'paragraph', text: 'A submissão depende do canal atual da AIMA: portal online, se a AIMA tiver aberto a opção correspondente, ou marcação/submissão através da AIMA. Verifique a página da AIMA para «autorização de residência permanente» / «estatuto de residente de longa duração» antes de submeter.' }
           ]},
           { id: 'p2', title: '2. Pagar a taxa', content: [
-            { kind: 'paragraph', text: 'AIMA — concessão art. 76 = **351,10 €** (tabela 01.03.2026). Adicionalmente, receção + análise ~133 €.' }
+            { kind: 'paragraph', text: 'AIMA — concessão art. 76 = 351,10 € (tabela 01.03.2026). Adicionalmente, receção + análise ~133 €.' }
           ]},
           { id: 'p3', title: '3. Entrevista na AIMA (se exigida)', content: [
             { kind: 'paragraph', text: 'Normalmente não é exigida para a residência permanente nacional; por vezes há convocatória. Para EU Long-Term — a entrevista é obrigatória.' }
@@ -90,7 +90,7 @@ export default {
             { kind: 'timeline', text: '6-12 meses (pela Lei 61/2025 — até 9 meses legais). Na prática, em 2026 — até 18 meses devido às filas.' }
           ]},
           { id: 'p5', title: '5. Receber o cartão', content: [
-            { kind: 'paragraph', text: 'O cartão de residência permanente chega por correio. **A validade do cartão é de 5 anos** (tanto para a residência permanente nacional ao abrigo do art. 76 nº 4, como para EULTR). A própria autorização é por tempo indeterminado — só o plástico é renovado.' }
+            { kind: 'paragraph', text: 'O cartão de residência permanente chega por correio. A validade do cartão é de 5 anos (tanto para a residência permanente nacional ao abrigo do art. 76 nº 4, como para EULTR). A própria autorização é por tempo indeterminado — só o plástico é renovado.' }
           ]}
         ]}
       ]
@@ -106,7 +106,7 @@ export default {
           '👨‍👩‍👧 Reagrupamento Familiar — verifique as condições atuais na Lei 23/2007 (após a Lei 61/2025)',
           '🎓 Acesso ao ensino público nos termos gerais',
           '🏛️ Voto nas eleições locais (municipais) — para cidadãos da UE e de alguns países CPLP',
-          '🎫 Nacionalidade: procedimento separado através do IRN. Permanent residence NÃO é obrigatória. Ao abrigo da lei em vigor — 5 anos de residência legal; **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** — após publicação no DRE, serão 7 anos para CPLP/UE e 10 anos para os restantes'
+          '🎫 Nacionalidade: procedimento separado através do IRN. Permanent residence NÃO é obrigatória. Ao abrigo da lei em vigor — 5 anos de residência legal; 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação no DRE, serão 7 anos para CPLP/UE e 10 anos para os restantes'
         ]},
         { kind: 'warning', text: 'A residência permanente NÃO confere nacionalidade automaticamente — é necessário apresentar um pedido separado através do IRN. Mas simplifica o processo, uma vez que todos os documentos ficam mais estáveis + a língua já está comprovada.' }
       ]

@@ -56,7 +56,7 @@ export default {
           ]},
           { id: 's5', title: '5. Retenção de IRS', content: [
             { kind: 'checklist', items: [
-              'Cliente em Portugal — empresa/entidade com contabilidade organizada: a retenção depende do tipo de atividade — frequentemente **25%** para profissões da tabela art. 151 CIRS; **11,5%** apenas para alguns outros rendimentos da Cat. B',
+              'Cliente em Portugal — empresa/entidade com contabilidade organizada: a retenção depende do tipo de atividade — frequentemente 25% para profissões da tabela art. 151 CIRS; 11,5% apenas para alguns outros rendimentos da Cat. B',
               'Cliente pessoa singular em Portugal — normalmente sem retenção',
               'Cliente estrangeiro — sem retenção portuguesa',
               'Com volume de negócios abaixo do limite e cumpridas as condições, pode aplicar-se dispensa de retenção nos termos do art. 101-B CIRS',

@@ -112,11 +112,11 @@ export default {
       title: '🌟 Особые маршруты',
       content: [
         { kind: 'checklist', items: [
-          '🍷 **Linha do Douro** (Porto-Régua-Pocinho) — живописный маршрут вдоль реки Дору, винодельческая зона. Поезд Regional, 4 ч до Pocinho. Туристический сезон',
-          '🌊 **Linha do Algarve** (Lagos-Faro-VRSA) — пляжи Алгарве, IC + Regional',
-          '⛰️ **Linha Beira Alta** (Lisboa-Pampilhosa-Guarda) — горный маршрут к испанской границе',
-          '🇪🇸 **Sud Express / Lusitânia** (Lisboa-Hendaye/Madrid) — исторические ночные поезда, **приостановлены с 2020** и по состоянию на 2026 регулярного сообщения нет; могут возобновить в будущем (обновления: cp.pt и Renfe)',
-          '🚂 **Comboio Histórico do Vouga** — туристический паровоз, лето/осень'
+          '🍷 Linha do Douro (Porto-Régua-Pocinho) — живописный маршрут вдоль реки Дору, винодельческая зона. Поезд Regional, 4 ч до Pocinho. Туристический сезон',
+          '🌊 Linha do Algarve (Lagos-Faro-VRSA) — пляжи Алгарве, IC + Regional',
+          '⛰️ Linha Beira Alta (Lisboa-Pampilhosa-Guarda) — горный маршрут к испанской границе',
+          '🇪🇸 Sud Express / Lusitânia (Lisboa-Hendaye/Madrid) — исторические ночные поезда, приостановлены с 2020 и по состоянию на 2026 регулярного сообщения нет; могут возобновить в будущем (обновления: cp.pt и Renfe)',
+          '🚂 Comboio Histórico do Vouga — туристический паровоз, лето/осень'
         ]}
       ]
     }

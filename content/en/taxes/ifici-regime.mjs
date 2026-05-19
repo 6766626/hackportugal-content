@@ -40,7 +40,7 @@ export default {
           'Become a tax resident of Portugal (spend 183+ days there or have your centre of vital interests there)',
           'NOT have been a tax resident of Portugal in the last 5 years',
           'The activity falls within the IFICI list',
-          'Submit the application by **15 January** of the year following the year in which you became resident (Portaria 352/2024). The exceptional window until 15.03.2025 applied only to the first cycle (2024 residents)'
+          'Submit the application by 15 January of the year following the year in which you became resident (Portaria 352/2024). The exceptional window until 15.03.2025 applied only to the first cycle (2024 residents)'
         ]}
       ]
     },

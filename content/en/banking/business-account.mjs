@@ -39,29 +39,29 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Traditional banks', content: [
             { kind: 'checklist', items: [
-              '🏛️ **Millennium BCP** — the most popular for business, with a manager available for sole traders',
-              '🏛️ **Santander Empresas** — good for import/export (international transfers)',
-              '🏛️ **Caixa Geral de Depósitos** (CGD) — state-owned bank, slower but more reliable',
-              '🏛️ **BPI Empresas** — a competitive option for medium-sized Lda',
+              '🏛️ Millennium BCP — the most popular for business, with a manager available for sole traders',
+              '🏛️ Santander Empresas — good for import/export (international transfers)',
+              '🏛️ Caixa Geral de Depósitos (CGD) — state-owned bank, slower but more reliable',
+              '🏛️ BPI Empresas — a competitive option for medium-sized Lda',
               '💰 Maintenance: €5–15/month; packages with transfers — €10–25/month',
               '⏱️ Opening: 1–2 weeks, an in-person visit is required'
             ]}
           ]},
           { id: 'b2', title: 'Online banks', content: [
             { kind: 'checklist', items: [
-              '💻 **ActivoBank Empresas** — a Millennium subsidiary, focused on online service',
-              '💻 **Caixadirecta Empresas** (CGD) — the online channel of the state-owned bank',
-              '🌐 **Wise Business** — useful as an additional account for international payments. For day-to-day Lda operations, it is often more practical to have a PT IBAN at a Portuguese bank; formally, refusing to accept an EU SEPA IBAN solely because of the IBAN country may be IBAN discrimination, but integrations with AT/SS/fornecedores can create friction',
-              '🌐 **Revolut Business** — may issue an LT or PT IBAN depending on migration; for local operations a PT account is more convenient',
+              '💻 ActivoBank Empresas — a Millennium subsidiary, focused on online service',
+              '💻 Caixadirecta Empresas (CGD) — the online channel of the state-owned bank',
+              '🌐 Wise Business — useful as an additional account for international payments. For day-to-day Lda operations, it is often more practical to have a PT IBAN at a Portuguese bank; formally, refusing to accept an EU SEPA IBAN solely because of the IBAN country may be IBAN discrimination, but integrations with AT/SS/fornecedores can create friction',
+              '🌐 Revolut Business — may issue an LT or PT IBAN depending on migration; for local operations a PT account is more convenient',
               '⚠️ The law does not require an Lda to have specifically a PT IBAN; a PT IBAN is practically more convenient for AT, SS, salaries and counterparties'
             ]}
           ]},
           { id: 'b3', title: 'Specialist banks', content: [
             { kind: 'checklist', items: [
-              '🏗️ **Banco BIC** — for the construction sector',
-              '🌾 **Crédito Agrícola** — for farming / agriculture',
-              '🛒 **Banco BAI** — a Portuguese-Angolan bank, for trade with PALOP countries',
-              '🇪🇺 **EuroBic / Bankinter** — premium tariffs for affluent clients'
+              '🏗️ Banco BIC — for the construction sector',
+              '🌾 Crédito Agrícola — for farming / agriculture',
+              '🛒 Banco BAI — a Portuguese-Angolan bank, for trade with PALOP countries',
+              '🇪🇺 EuroBic / Bankinter — premium tariffs for affluent clients'
             ]}
           ]}
         ]}
@@ -84,12 +84,12 @@ export default {
           ]},
           { id: 'd2', title: 'For Lda (limited company)', content: [
             { kind: 'checklist', items: [
-              '📄 **Pacto Social** — Lda articles of association',
-              '📜 **Certidão Permanente** — registration extract (available online at portalcidadao.pt for €25)',
+              '📄 Pacto Social — Lda articles of association',
+              '📜 Certidão Permanente — registration extract (available online at portalcidadao.pt for €25)',
               '🆔 Cartão de Cidadão + NIF of founders and managers',
               '🔢 Company NIF',
               '💰 Share capital (capital social) to be blocked in the account',
-              '📃 **Beneficial Owners (RCBE)** — mandatory declaration of beneficial owners',
+              '📃 Beneficial Owners (RCBE) — mandatory declaration of beneficial owners',
               '🏢 Proof of registered office (Comprovativo de sede): office/virtual office address',
               '⚠️ For foreign founders — apostilled documents from the country'
             ]}
@@ -114,13 +114,13 @@ export default {
           ]},
           { id: 'p2', title: 'For Lda — longer', content: [
             { kind: 'checklist', items: [
-              '🏛️ **Step 1**: Register the Lda via “Empresa na Hora” (60 minutes, usually ~€360) or Conservatória (fees according to the tabela emolumentar IRN)',
-              '🆔 **Step 2**: Obtain the company NIPC automatically after registration + certidão permanente',
-              '📃 **Step 3**: Submit the RCBE declaration online to IRN — usually within 30 days after registration',
-              '📩 **Step 4**: Submit the declaração de início de atividade to AT',
-              '🏦 **Step 5**: Open the company account at the bank (1–2 hour meeting)',
-              '💰 **Step 6**: Pay in the capital social/initial deposit according to the articles of association and payment deadlines',
-              '✅ **Step 7**: Activate online banking',
+              '🏛️ Step 1: Register the Lda via “Empresa na Hora” (60 minutes, usually ~€360) or Conservatória (fees according to the tabela emolumentar IRN)',
+              '🆔 Step 2: Obtain the company NIPC automatically after registration + certidão permanente',
+              '📃 Step 3: Submit the RCBE declaration online to IRN — usually within 30 days after registration',
+              '📩 Step 4: Submit the declaração de início de atividade to AT',
+              '🏦 Step 5: Open the company account at the bank (1–2 hour meeting)',
+              '💰 Step 6: Pay in the capital social/initial deposit according to the articles of association and payment deadlines',
+              '✅ Step 7: Activate online banking',
               '⏱️ Full process: 2–4 weeks'
             ]}
           ]}
@@ -132,13 +132,13 @@ export default {
       title: '💰 Fees and maintenance',
       content: [
         { kind: 'checklist', items: [
-          '💳 **Monthly maintenance**: €5–25 (higher for packages with a manager)',
-          '🔁 **SEPA transfer within the EU**: €0.50–2 (Wise is cheaper)',
-          '🌐 **International transfer**: €25–50 + 0.5–1% exchange-rate spread',
-          '💱 **Currency conversion**: 1–3% spread (up to 5% at traditional banks!)',
-          '🏧 **ATM withdrawal**: free at your own bank, €0.50–2 at others',
-          '📱 **MB WAY**: free for businesses',
-          '📊 **Obtaining Certidão Permanente**: the bank may charge €25–50/year',
+          '💳 Monthly maintenance: €5–25 (higher for packages with a manager)',
+          '🔁 SEPA transfer within the EU: €0.50–2 (Wise is cheaper)',
+          '🌐 International transfer: €25–50 + 0.5–1% exchange-rate spread',
+          '💱 Currency conversion: 1–3% spread (up to 5% at traditional banks!)',
+          '🏧 ATM withdrawal: free at your own bank, €0.50–2 at others',
+          '📱 MB WAY: free for businesses',
+          '📊 Obtaining Certidão Permanente: the bank may charge €25–50/year',
           '⚠️ Compare a corporate account and a personal account for sole traders — for a small sole trader, a personal account is cheaper'
         ]}
       ]

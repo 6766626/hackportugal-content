@@ -3,7 +3,7 @@ export default {
   id: 'overstay-fines',
   categoryId: 'residence_permit',
   title: 'Multas por ultrapassar o período de permanência em Portugal',
-  tldr: 'Ultrapassar o período de permanência é uma infração grave. Segundo a Lei 23/2007 art. 192, as multas dividem-se em **quatro** intervalos: até 30 dias, 30–90, 90–180 e > 180 dias; confirme os valores exatos e os máximos na versão atual da Lei 23/2007 (art. 192) e na jurisprudência aplicável.\n\n**A multa por si só NÃO equivale a um alerta SIS**: a inscrição no Sistema de Informação Schengen (SIS) é feita por decisão separada (normalmente em caso de proibição de entrada / expulsão, não por cada multa). No entanto, ultrapassar o período de permanência aumenta drasticamente o risco de recusa na renovação e em vistos futuros. O pior caso é a permanência irregular acumulada: quanto mais tempo estiver sem estatuto, menor a probabilidade de voltar a legalizar-se.',
+  tldr: 'Ultrapassar o período de permanência é uma infração grave. Segundo a Lei 23/2007 art. 192, as multas dividem-se em quatro intervalos: até 30 dias, 30–90, 90–180 e > 180 dias; confirme os valores exatos e os máximos na versão atual da Lei 23/2007 (art. 192) e na jurisprudência aplicável.\n\nA multa por si só NÃO equivale a um alerta SIS: a inscrição no Sistema de Informação Schengen (SIS) é feita por decisão separada (normalmente em caso de proibição de entrada / expulsão, não por cada multa). No entanto, ultrapassar o período de permanência aumenta drasticamente o risco de recusa na renovação e em vistos futuros. O pior caso é a permanência irregular acumulada: quanto mais tempo estiver sem estatuto, menor a probabilidade de voltar a legalizar-se.',
   tags: ['permanência irregular', 'multa', 'aima'],
   estimatedReadMinutes: 6,
   steps: [
@@ -41,14 +41,14 @@ export default {
       id: 'fines',
       title: 'Multas e consequências',
       content: [
-        { kind: 'paragraph', text: 'Segundo a Lei 23/2007 art. 192, a lei divide a permanência irregular em **quatro** períodos. As referências abaixo servem para compreender a ordem de grandeza; confirme os mínimos/máximos exatos na versão atual da Lei 23/2007 art. 192 e da Lei 61/2025 (se aplicável), bem como na prática da AIMA:' },
+        { kind: 'paragraph', text: 'Segundo a Lei 23/2007 art. 192, a lei divide a permanência irregular em quatro períodos. As referências abaixo servem para compreender a ordem de grandeza; confirme os mínimos/máximos exatos na versão atual da Lei 23/2007 art. 192 e da Lei 61/2025 (se aplicável), bem como na prática da AIMA:' },
         { kind: 'checklist', items: [
-          'Permanência irregular **até 30 dias**: multa indicativa a partir de 80 €; limite superior — algumas centenas de euros',
-          'Permanência irregular **30–90 dias**: multa mais elevada; o limite superior pode chegar a centenas de euros',
-          'Permanência irregular **90–180 dias**: multa ainda mais elevada — várias centenas/cerca de mil euros',
-          'Permanência irregular **superior a 180 dias**: valores máximos; risco elevado de expulsão',
+          'Permanência irregular até 30 dias: multa indicativa a partir de 80 €; limite superior — algumas centenas de euros',
+          'Permanência irregular 30–90 dias: multa mais elevada; o limite superior pode chegar a centenas de euros',
+          'Permanência irregular 90–180 dias: multa ainda mais elevada — várias centenas/cerca de mil euros',
+          'Permanência irregular superior a 180 dias: valores máximos; risco elevado de expulsão',
           'Controlo na fronteira com permanência irregular — a multa é registada; pagamento no local, na PSP ou através do Portal AT por referência Multibanco',
-          'Inclusão no SIS (alerta de proibição de entrada no espaço Schengen) — **procedimento separado**, normalmente em caso de expulsão formal ou proibição de entrada, e não automaticamente pelo simples facto de existir uma multa',
+          'Inclusão no SIS (alerta de proibição de entrada no espaço Schengen) — procedimento separado, normalmente em caso de expulsão formal ou proibição de entrada, e não automaticamente pelo simples facto de existir uma multa',
           'Crianças com menos de 16 anos não são multadas, mas a permanência irregular é registada',
           'Disponibilidade para sair voluntariamente e pagar a multa — circunstância atenuante'
         ]},

@@ -58,28 +58,28 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Basic cards up to €30/year', content: [
             { kind: 'checklist', items: [
-              '🟢 **Millennium Cartão Premium**: €0 service fee, 1% cashback on occasional purchases, limit €500–3000',
-              '🟢 **ActivoBank Visa Classic**: €0 service fee, limit €500–2500, suitable for online purchases',
-              '🟢 **Santander Light**: €0 service fee, basic limit',
-              '🟢 **CGD Caixa Worldwide**: €19/year, accepted in 200+ countries',
-              '🟢 **BPI 5 estrelas**: €25/year, millions of BPI ATMs'
+              '🟢 Millennium Cartão Premium: €0 service fee, 1% cashback on occasional purchases, limit €500–3000',
+              '🟢 ActivoBank Visa Classic: €0 service fee, limit €500–2500, suitable for online purchases',
+              '🟢 Santander Light: €0 service fee, basic limit',
+              '🟢 CGD Caixa Worldwide: €19/year, accepted in 200+ countries',
+              '🟢 BPI 5 estrelas: €25/year, millions of BPI ATMs'
             ]}
           ]},
           { id: 'c2', title: 'Cashback and bonuses', content: [
             { kind: 'checklist', items: [
-              '🟡 **Millennium World Mastercard**: €75/year, 0.5–1% cashback + travel insurance',
-              '🟡 **ActivoBank Gold**: €50/year, insurance + 0.5% cashback',
-              '🟡 **CGD Universal Plus**: €30/year, 1% cashback at Continente / Pingo Doce',
-              '🟡 **Santander Light Visa**: 0.3% cashback, €35/year',
-              '🟡 **Wizink White**: €0/year, 0% APR for 24 months for debt transfer'
+              '🟡 Millennium World Mastercard: €75/year, 0.5–1% cashback + travel insurance',
+              '🟡 ActivoBank Gold: €50/year, insurance + 0.5% cashback',
+              '🟡 CGD Universal Plus: €30/year, 1% cashback at Continente / Pingo Doce',
+              '🟡 Santander Light Visa: 0.3% cashback, €35/year',
+              '🟡 Wizink White: €0/year, 0% APR for 24 months for debt transfer'
             ]}
           ]},
           { id: 'c3', title: 'Premium cards (Platinum, World Elite)', content: [
             { kind: 'checklist', items: [
-              '🟣 **Millennium Visa Platinum**: €150/year, 1–2% cashback, lounge access, insurance',
-              '🟣 **BPI World Elite Mastercard**: €250/year, premium concierge service',
-              '🟣 **Santander Select**: €200/year, premium family package',
-              '🟣 **Caixa Geral Visa Infinite**: €300/year, exclusive concierge service',
+              '🟣 Millennium Visa Platinum: €150/year, 1–2% cashback, lounge access, insurance',
+              '🟣 BPI World Elite Mastercard: €250/year, premium concierge service',
+              '🟣 Santander Select: €200/year, premium family package',
+              '🟣 Caixa Geral Visa Infinite: €300/year, exclusive concierge service',
               '⚠️ Income for Platinum is usually from €50,000/year'
             ]}
           ]}

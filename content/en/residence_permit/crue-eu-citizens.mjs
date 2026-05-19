@@ -58,7 +58,7 @@ export default {
           'Exchanging a driving licence — not needed, EU licences are accepted directly',
           'After 5 years — a separate procedure to request a certificado de residência permanente; this is not an automatic replacement of CRUE'
         ]},
-        { kind: 'paragraph', text: 'Under current law, naturalisation is possible after 5 years of legal residence if the other conditions are met, including knowledge of Portuguese at A2 level.\n\n**03.05.2026 President Seguro promulgated Decreto AR 48/XVII** — after publication in the DRE, the period for EU/EEA/Swiss citizens will increase to 7 years (aligned with CPLP).' }
+        { kind: 'paragraph', text: 'Under current law, naturalisation is possible after 5 years of legal residence if the other conditions are met, including knowledge of Portuguese at A2 level.\n\n03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE, the period for EU/EEA/Swiss citizens will increase to 7 years (aligned with CPLP).' }
       ]
     }
   ],

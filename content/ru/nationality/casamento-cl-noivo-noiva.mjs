@@ -3,7 +3,7 @@ export default {
   id: 'casamento-cl-noivo-noiva',
   categoryId: 'nationality',
   title: 'Casamento Civil: этапы и документы для иностранцев',
-  tldr: 'Casamento Civil в Португалии оформляется через **Conservatória do Registo Civil / IRN**. Церемонию проводит **conservador или oficial de registos**, НЕ нотариус; notário нужен для convenção antenupcial (брачного договора), но не для самой регистрации брака. Иностранцы-резиденты и нерезиденты проходят тот же процесс: минимум за 30 дней подают processo preliminar, паспорта и справки о семейном положении. Иностранные документы нужны с апостилем/легализацией и переводом на PT. Стандартный сбор за processo + registo de casamento по Regulamento Emolumentar — ориентировочно от €120; выездная церемония вне Conservatória — отдельная surcharge по таблице IRN, зависит от дня недели и удалённости. Обычно берут 2 свидетелей с документами.',
+  tldr: 'Casamento Civil в Португалии оформляется через Conservatória do Registo Civil / IRN. Церемонию проводит conservador или oficial de registos, НЕ нотариус; notário нужен для convenção antenupcial (брачного договора), но не для самой регистрации брака. Иностранцы-резиденты и нерезиденты проходят тот же процесс: минимум за 30 дней подают processo preliminar, паспорта и справки о семейном положении. Иностранные документы нужны с апостилем/легализацией и переводом на PT. Стандартный сбор за processo + registo de casamento по Regulamento Emolumentar — ориентировочно от €120; выездная церемония вне Conservatória — отдельная surcharge по таблице IRN, зависит от дня недели и удалённости. Обычно берут 2 свидетелей с документами.',
   tags: ['casamento', 'загс', 'irn', 'документы'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'Что такое Casamento Civil в Португалии',
       content: [
-        { kind: 'paragraph', text: 'Casamento Civil — официальный гражданский брак, регистрируемый в **Conservatória do Registo Civil (IRN)**. Церемонию проводит **conservador или oficial de registos**. Notário не является обычным органом регистрации гражданского брака — он нужен для convenção antenupcial (брачного договора), если выбирается нестандартный режим имущества. Религиозная церемония сама по себе не заменяет гражданскую регистрацию, если она не оформлена в установленной законом форме (catolico с эффектами по Concordata — отдельная процедура).' },
+        { kind: 'paragraph', text: 'Casamento Civil — официальный гражданский брак, регистрируемый в Conservatória do Registo Civil (IRN). Церемонию проводит conservador или oficial de registos. Notário не является обычным органом регистрации гражданского брака — он нужен для convenção antenupcial (брачного договора), если выбирается нестандартный режим имущества. Религиозная церемония сама по себе не заменяет гражданскую регистрацию, если она не оформлена в установленной законом форме (catolico с эффектами по Concordata — отдельная процедура).' },
         { kind: 'paragraph', text: 'Иностранцы проходят тот же процесс, что и граждане Португалии: предварительная проверка брачных препятствий, подача документов, назначение даты, церемония и внесение записи в registo civil.' },
         { kind: 'checklist', items: [
           'ВНЖ в Португалии не обязателен для самого факта заключения брака',

@@ -41,7 +41,7 @@ export default {
               'O agente verifica: integridade do cartão, correspondência do nome com o passaporte, prazo de validade',
               'Normalmente NÃO é colocado carimbo de entrada aos titulares de autorização de residência; se o carimbo for colocado por engano — guarde o cartão de embarque/bilhetes e, se necessário, esclareça junto do serviço de fronteiras',
               'Se a autorização de residência estiver em renovação — comprovativo + cartão antigo',
-              'EES (Entry-Exit System) — implementação faseada a partir de 12.10.2025. O EES aplica-se a cidadãos de países terceiros na ENTRADA para estadias de curta duração. **Titulares de autorização de residência/visto de longa duração válido de um país Schengen que entram como residentes normalmente NÃO são registados no EES** — apresente a autorização de residência + passaporte; o agente de fronteira determinará o procedimento correto'
+              'EES (Entry-Exit System) — implementação faseada a partir de 12.10.2025. O EES aplica-se a cidadãos de países terceiros na ENTRADA para estadias de curta duração. Titulares de autorização de residência/visto de longa duração válido de um país Schengen que entram como residentes normalmente NÃO são registados no EES — apresente a autorização de residência + passaporte; o agente de fronteira determinará o procedimento correto'
             ]}
           ]},
           { id: 'n3', title: 'Trânsito por Schengen', content: [

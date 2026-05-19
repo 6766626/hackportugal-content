@@ -14,8 +14,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Wise (antiga TransferWise)', content: [
             { kind: 'checklist', items: [
-              '🟢 **Taxa**: média de mercado + 0,4-0,5% (a mais barata entre as opções legais)',
-              '💳 **Cartão Wise**: pode gastar EUR a partir de uma conta multimoeda; os dados bancários em EUR normalmente não são um PT IBAN, e a Wise não é um banco português',
+              '🟢 Taxa: média de mercado + 0,4-0,5% (a mais barata entre as opções legais)',
+              '💳 Cartão Wise: pode gastar EUR a partir de uma conta multimoeda; os dados bancários em EUR normalmente não são um PT IBAN, e a Wise não é um banco português',
               '🚀 Transferência EUR-EUR: ≤ 1 hora, gratuita',
               '🚀 USD/GBP → EUR: 1-2 dias',
               '🇷🇺 RUB → EUR: NÃO disponível (desde 2022, sanções)',
@@ -25,7 +25,7 @@ export default {
           ]},
           { id: 'b2', title: 'Revolut', content: [
             { kind: 'checklist', items: [
-              '🟢 **Taxa**: em dias úteis — próxima da interbancária dentro dos limites do plano; no Standard, após o limite existe uma fair-use fee; ao fim de semana há normalmente uma margem adicional',
+              '🟢 Taxa: em dias úteis — próxima da interbancária dentro dos limites do plano; no Standard, após o limite existe uma fair-use fee; ao fim de semana há normalmente uma margem adicional',
               '💳 Para clientes Revolut migrados para a sucursal portuguesa, pode estar disponível um PT IBAN; confirme na aplicação. Não residentes/contas antigas podem ter um IBAN LT ou outro',
               '🚀 Conta multimoeda — mantenha USD/GBP',
               '⚡ Conversão imediata',
@@ -44,9 +44,9 @@ export default {
           ]},
           { id: 'b4', title: 'Brokers para montantes elevados', content: [
             { kind: 'checklist', items: [
-              '💼 **CurrencyFair**: para 10 000+ €, spread 0,3-0,5%',
-              '💼 **OFX**: spread 0,4-0,7%, sem comissão',
-              '💼 **Xe Money Transfer** (antiga HiFX): para residentes no Reino Unido e não só',
+              '💼 CurrencyFair: para 10 000+ €, spread 0,3-0,5%',
+              '💼 OFX: spread 0,4-0,7%, sem comissão',
+              '💼 Xe Money Transfer (antiga HiFX): para residentes no Reino Unido e não só',
               '⏱️ Transferência 1-3 dias, a taxa pode ser melhor do que na Wise para montantes elevados (depende da quote)',
               '🆔 KYC obrigatório — passaporte + comprovativo da origem dos fundos'
             ]}
@@ -94,10 +94,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Através de um país terceiro', content: [
             { kind: 'checklist', items: [
-              '🇹🇷 **Turquia**: abrir conta no Türkiye İş Bankası, transferir RUB → TRY → USD → EUR',
-              '🇷🇸 **Sérvia**: Banka Intesa, a regulação do NBS é mais liberal',
-              '🇬🇪 **Geórgia**: TBC Bank — opção funcional',
-              '🇰🇿 **Cazaquistão**: Halyk Bank — transferências da Federação Russa ainda funcionam',
+              '🇹🇷 Turquia: abrir conta no Türkiye İş Bankası, transferir RUB → TRY → USD → EUR',
+              '🇷🇸 Sérvia: Banka Intesa, a regulação do NBS é mais liberal',
+              '🇬🇪 Geórgia: TBC Bank — opção funcional',
+              '🇰🇿 Cazaquistão: Halyk Bank — transferências da Federação Russa ainda funcionam',
               '⏱️ 3-7 dias + 0,5-2% de perdas na taxa',
               '⚠️ As regras da Federação Russa para transferências cambiais e exportação de numerário mudam frequentemente; verifique separadamente os limites do Banco Central da Federação Russa/alfândega na data da operação. Não confundir transferências bancárias, transferências para contas estrangeiras próprias e exportação de numerário'
             ]}
@@ -127,15 +127,15 @@ export default {
       title: '💡 Conselhos',
       content: [
         { kind: 'checklist', items: [
-          '📅 **Acompanhamento da taxa**: configurar um alerta na Wise/Revolut, trocar quando a taxa for favorável',
-          '💸 **Média de preço**: dividir um montante grande em 3-5 parcelas, trocar ao longo de 2-4 semanas',
-          '🏦 **Guarde os comprovativos** de câmbio — para a AT, se necessário',
-          '🛡️ **Proteção contra sanções**: não manter montantes elevados num só banco/numa só moeda',
-          '⚖️ **Declaração à AT**: as contas bancárias estrangeiras de um residente em Portugal são declaradas na **Modelo 3 IRS, Anexo J, Quadro 11** anual (IBAN + país), e NÃO na Modelo 38. A Modelo 38 é uma comunicação separada para instituições financeiras portuguesas sobre transferências de residentes para países fora da UE, não para pessoas singulares. Não existe qualquer «limiar de 50 000 €» para pessoas singulares residentes — o Anexo J Quadro 11 é obrigatório independentemente do saldo',
-          '📊 **IRS português**: a diferença cambial em operações de moeda — é tributada como «mais-valias» (28%)',
-          '⚠️ **Residente fiscal**: se se tornou residente em Portugal e vendeu ativos no estrangeiro — IRS sobre a diferença',
-          '🌐 **Regulador CMVM**: o broker deve estar licenciado na UE; verificar em cmvm.pt',
-          '💰 **Fluxo de caixa**: ter uma reserva em EUR para 3-6 meses de vida, sem depender de movimentos cambiais'
+          '📅 Acompanhamento da taxa: configurar um alerta na Wise/Revolut, trocar quando a taxa for favorável',
+          '💸 Média de preço: dividir um montante grande em 3-5 parcelas, trocar ao longo de 2-4 semanas',
+          '🏦 Guarde os comprovativos de câmbio — para a AT, se necessário',
+          '🛡️ Proteção contra sanções: não manter montantes elevados num só banco/numa só moeda',
+          '⚖️ Declaração à AT: as contas bancárias estrangeiras de um residente em Portugal são declaradas na Modelo 3 IRS, Anexo J, Quadro 11 anual (IBAN + país), e NÃO na Modelo 38. A Modelo 38 é uma comunicação separada para instituições financeiras portuguesas sobre transferências de residentes para países fora da UE, não para pessoas singulares. Não existe qualquer «limiar de 50 000 €» para pessoas singulares residentes — o Anexo J Quadro 11 é obrigatório independentemente do saldo',
+          '📊 IRS português: a diferença cambial em operações de moeda — é tributada como «mais-valias» (28%)',
+          '⚠️ Residente fiscal: se se tornou residente em Portugal e vendeu ativos no estrangeiro — IRS sobre a diferença',
+          '🌐 Regulador CMVM: o broker deve estar licenciado na UE; verificar em cmvm.pt',
+          '💰 Fluxo de caixa: ter uma reserva em EUR para 3-6 meses de vida, sem depender de movimentos cambiais'
         ]}
       ]
     },
@@ -145,12 +145,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Cálculo da poupança aproximada em 1000 USD → EUR (taxa média de mercado ≈ 0,93):' },
         { kind: 'checklist', items: [
-          '🟢 **Wise**: recebe ≈ 925 €, perda ≈ 5 € (0,5%)',
-          '🟢 **Revolut Premium**: ≈ 928 €, perda ≈ 2 €',
-          '🟡 **N26**: ≈ 925 €, perda ≈ 5 €',
-          '🟠 **Banco português**: ≈ 905 €, perda ≈ 25 € (2,7%)',
-          '🔴 **Casa de câmbio no aeroporto**: ≈ 880 €, perda ≈ 50 € (5,4%)',
-          '🔴 **Western Union**: ≈ 870 €, perda ≈ 60 €'
+          '🟢 Wise: recebe ≈ 925 €, perda ≈ 5 € (0,5%)',
+          '🟢 Revolut Premium: ≈ 928 €, perda ≈ 2 €',
+          '🟡 N26: ≈ 925 €, perda ≈ 5 €',
+          '🟠 Banco português: ≈ 905 €, perda ≈ 25 € (2,7%)',
+          '🔴 Casa de câmbio no aeroporto: ≈ 880 €, perda ≈ 50 € (5,4%)',
+          '🔴 Western Union: ≈ 870 €, perda ≈ 60 €'
         ]}
       ]
     }

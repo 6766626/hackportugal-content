@@ -3,7 +3,7 @@ export default {
   id: 'ev-incentives',
   categoryId: 'auto_ownership',
   title: 'Subsídios e benefícios para automóveis elétricos em Portugal',
-  tldr: 'O Estado subsidia a compra de BEV através do Fundo Ambiental — os montantes, limites, teto de preço e quotas são definidos pelo **Aviso Fundo Ambiental** anual. Avisos anteriores: para particulares, BEV M1 — cerca de 4 000 € (normalmente não mais de 1 automóvel por candidato), para empresas N1 — cerca de 6 000 €; para empresas com M1, as condições são diferentes. O orçamento é limitado e esgota-se rapidamente.\n\n**ISV**: 0% para BEV puros.\n\n**IUC**: BEV normalmente isento (os EV puros não têm componente de cilindrada); PHEV/HEV — conforme a categoria IUC aplicável. Carregamento Mobi.E — 0,28–0,55 €/kWh. Antes da compra, verifique o Aviso em vigor em fundoambiental.pt.',
+  tldr: 'O Estado subsidia a compra de BEV através do Fundo Ambiental — os montantes, limites, teto de preço e quotas são definidos pelo Aviso Fundo Ambiental anual. Avisos anteriores: para particulares, BEV M1 — cerca de 4 000 € (normalmente não mais de 1 automóvel por candidato), para empresas N1 — cerca de 6 000 €; para empresas com M1, as condições são diferentes. O orçamento é limitado e esgota-se rapidamente.\n\nISV: 0% para BEV puros.\n\nIUC: BEV normalmente isento (os EV puros não têm componente de cilindrada); PHEV/HEV — conforme a categoria IUC aplicável. Carregamento Mobi.E — 0,28–0,55 €/kWh. Antes da compra, verifique o Aviso em vigor em fundoambiental.pt.',
   tags: ['ev', 'automóvel elétrico', 'subsídio', 'fundo ambiental'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,13 +14,13 @@ export default {
         { kind: 'paragraph', text: 'Portugal financia anualmente o programa Incentivo pela Introdução no Mercado de Veículos de Baixas Emissões. O orçamento é reiniciado a 1 de janeiro e normalmente esgota-se em 2–4 meses.' },
         { kind: 'substeps', items: [
           { id: 's1', title: 'Referências (verifique o Aviso do ano em vigor)', content: [
-            { kind: 'paragraph', text: '⚠️ Os montantes atuais constam do **Aviso Fundo Ambiental** para a Mobilidade Elétrica do respetivo ano. Antes da abertura do Aviso, não é possível garantir montantes, quotas, prazos e condições. Referências com base em Avisos recentes:' },
+            { kind: 'paragraph', text: '⚠️ Os montantes atuais constam do Aviso Fundo Ambiental para a Mobilidade Elétrica do respetivo ano. Antes da abertura do Aviso, não é possível garantir montantes, quotas, prazos e condições. Referências com base em Avisos recentes:' },
             { kind: 'checklist', items: [
               'Particular, BEV M1 novo: em Avisos recentes — cerca de 4 000 €, normalmente não mais de 1 automóvel por candidato',
-              'Pessoas coletivas/empresários em nome individual: em Avisos anteriores, o apoio de 6 000 € aplicava-se a BEV **N1** novos (mercadorias até 3,5 t); para empresas com M1, as condições são outras',
+              'Pessoas coletivas/empresários em nome individual: em Avisos anteriores, o apoio de 6 000 € aplicava-se a BEV N1 novos (mercadorias até 3,5 t); para empresas com M1, as condições são outras',
               'Bicicleta elétrica: ~500 €',
               'Scooter elétrica: ~500 €',
-              '**Teto de preço** para o subsídio M1 em Avisos recentes foi cerca de 38 500 € **com IVA** e despesas. 62 500 € sem IVA é um limiar fiscal separado para empresas, não um critério do subsidy'
+              'Teto de preço para o subsídio M1 em Avisos recentes foi cerca de 38 500 € com IVA e despesas. 62 500 € sem IVA é um limiar fiscal separado para empresas, não um critério do subsidy'
             ]}
           ]},
           { id: 's2', title: 'Como candidatar-se', content: [
@@ -40,7 +40,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 't1', title: 'ISV (alfândega/importação)', content: [
             { kind: 'checklist', items: [
-              'BEV puros: **0%** de ISV (isenção total)',
+              'BEV puros: 0% de ISV (isenção total)',
               'PHEV (híbrido plug-in) com autonomia elétrica ≥50 km: ISV bonificado (desconto de 25–40%)',
               'HEV (híbrido convencional): ISV normal, como para gasolina/gasóleo',
               'A vigência do benefício é confirmada anualmente no OE'
@@ -48,7 +48,7 @@ export default {
           ]},
           { id: 't2', title: 'IUC (imposto anual)', content: [
             { kind: 'checklist', items: [
-              'BEV: geralmente **isento de IUC** — os EV puros não têm componente de cilindrada. Verifique o veículo concreto no Portal das Finanças/AT',
+              'BEV: geralmente isento de IUC — os EV puros não têm componente de cilindrada. Verifique o veículo concreto no Portal das Finanças/AT',
               'PHEV: IUC normal, mas com componente ambiental mais baixa',
               'Híbridos: IUC normal'
             ]}
@@ -83,7 +83,7 @@ export default {
       title: 'Matrícula e identificação',
       content: [
         { kind: 'checklist', items: [
-          'Para vários benefícios é usado o **dístico identificativo de veículo elétrico**, emitido pelo IMT (isto NÃO é a moldura verde obrigatória da matrícula)',
+          'Para vários benefícios é usado o dístico identificativo de veículo elétrico, emitido pelo IMT (isto NÃO é a moldura verde obrigatória da matrícula)',
           'Para um BEV já registado, pode pedir o dístico EV no IMT — custo de acordo com a tabela de taxas IMT em vigor',
           'Os benefícios de acesso a ZER/estacionamento dependem do município e podem exigir o respetivo dístico/registo',
           'PHEV — regras separadas; benefícios parciais'

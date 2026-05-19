@@ -86,7 +86,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'There is no universal legal deadline to “return the caução within 7/30 days”. The working practice is to return it after entrega das chaves, inspection of the flat, reconciliation of água/luz/gás bills and signing of the auto de entrega. A good contrato sets a deadline in advance, for example 15 or 30 days.' },
         { kind: 'checklist', items: [
-          '⚠️ Check the notice period (aviso) in the contrato and Código Civil arts. 1098/1100: for many residential fixed-term contratos it is **60 or 120 days** depending on the length of the contract and on whether it is oposição à renovação or denúncia. Do NOT rely on “30 days” by default — you may miss the legal deadline',
+          '⚠️ Check the notice period (aviso) in the contrato and Código Civil arts. 1098/1100: for many residential fixed-term contratos it is 60 or 120 days depending on the length of the contract and on whether it is oposição à renovação or denúncia. Do NOT rely on “30 days” by default — you may miss the legal deadline',
           'Send the aviso de denúncia in writing: email with confirmation, carta registada or another method stated in the contract',
           'Photograph the flat on the day you move out: walls, floor, furniture, appliances, meters',
           'Prepare an auto de entrega das chaves: date, condition, meter readings, list of keys',

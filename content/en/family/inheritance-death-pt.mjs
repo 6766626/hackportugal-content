@@ -58,8 +58,8 @@ export default {
           ]},
           { id: 'f2', title: 'Cremation or burial', content: [
             { kind: 'checklist', items: [
-              '⚱️ **Cremation**: €350–€700, plus urn €100–€500',
-              '⚰️ **Burial**: €800–€2,000 (grave plot in a municipal cemetery)',
+              '⚱️ Cremation: €350–€700, plus urn €100–€500',
+              '⚰️ Burial: €800–€2,000 (grave plot in a municipal cemetery)',
               '🏛️ Family tombs (jazigo): purchase €5,000–€30,000, annual fees',
               '⏰ Usually the funeral takes place 24–72 hours after death',
               '🇷🇺 To send the body back to the home country: process through the consulate, €5,000–€15,000'
@@ -104,8 +104,8 @@ export default {
           ]},
           { id: 'i3', title: '3. Imposto do Selo (inheritance tax)', content: [
             { kind: 'checklist', items: [
-              '🟢 **Exempt 0%**: spouse, children, grandchildren and parents of the deceased',
-              '🟡 **10% Imposto do Selo**: brothers/sisters, uncles/aunts, nephews/nieces, non-relatives',
+              '🟢 Exempt 0%: spouse, children, grandchildren and parents of the deceased',
+              '🟡 10% Imposto do Selo: brothers/sisters, uncles/aunts, nephews/nieces, non-relatives',
               '🟣 PT differs from other countries — inheritance for close relatives is NOT taxed',
               '⏰ Declaration within 30 days via AT (Modelo 1 do Imposto do Selo)',
               '💸 Payment: up to 60 days after filing the declaration'
@@ -113,10 +113,10 @@ export default {
           ]},
           { id: 'i4', title: '4. Registering the transfer of assets', content: [
             { kind: 'checklist', items: [
-              '🏠 **Property**: Conservatória Predial (inheritance partition €350 + stamp duty)',
-              '🚗 **Car**: IMT — change of owner, €50',
-              '🏦 **Bank accounts**: with Habilitação de Herdeiros and paid Imposto do Selo → transfer to the heirs',
-              '📊 **Shares**: through the broker'
+              '🏠 Property: Conservatória Predial (inheritance partition €350 + stamp duty)',
+              '🚗 Car: IMT — change of owner, €50',
+              '🏦 Bank accounts: with Habilitação de Herdeiros and paid Imposto do Selo → transfer to the heirs',
+              '📊 Shares: through the broker'
             ]}
           ]}
         ]}
@@ -128,7 +128,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'EU Regulation 650/2012 (Brussels IV) gives you the right to choose which law applies — the country of your citizenship OR PT (where you are located). This is important for Russian/Ukrainian/British citizens, whose rules differ.' },
         { kind: 'checklist', items: [
-          '📜 **Will (Testamento)**: you can make one at a notary in PT, choosing the applicable law (for example, Russian law)',
+          '📜 Will (Testamento): you can make one at a notary in PT, choosing the applicable law (for example, Russian law)',
           '🇷🇺 Without a will + Russian heirs: PT law applies (that is, the spouse/children receive everything in equal shares)',
           '⚖️ With a will under Russian law: more flexible solutions are possible',
           '💰 Cost: €200–€500 (notary)',
@@ -143,14 +143,14 @@ export default {
       title: '📋 After receiving the inheritance',
       content: [
         { kind: 'checklist', items: [
-          '💰 **IMI** (property tax) — you now pay it. Re-register at Finanças within 90 days',
-          '🩺 **SNS / insurance**: notify them (if the deceased was a dependant)',
-          '🏦 **Bank**: notify and close/transfer accounts',
-          '📞 **Subscriptions and contracts**: phone, internet, utilities, Netflix — cancel or transfer',
-          '👨‍⚖️ **Social pensions**: notify Segurança Social — payments will be stopped',
-          '📊 **Accounting for recibos verdes**: close the activity if they were self-employed',
-          '⚖️ **Court claims**: if the deceased was a party — the heirs enter the proceedings',
-          '🏠 **Rented property**: the contract automatically passes to the heirs (Lei 6/2006)'
+          '💰 IMI (property tax) — you now pay it. Re-register at Finanças within 90 days',
+          '🩺 SNS / insurance: notify them (if the deceased was a dependant)',
+          '🏦 Bank: notify and close/transfer accounts',
+          '📞 Subscriptions and contracts: phone, internet, utilities, Netflix — cancel or transfer',
+          '👨‍⚖️ Social pensions: notify Segurança Social — payments will be stopped',
+          '📊 Accounting for recibos verdes: close the activity if they were self-employed',
+          '⚖️ Court claims: if the deceased was a party — the heirs enter the proceedings',
+          '🏠 Rented property: the contract automatically passes to the heirs (Lei 6/2006)'
         ]}
       ]
     },

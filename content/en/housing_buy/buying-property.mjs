@@ -3,7 +3,7 @@ export default {
   id: 'buying-property',
   categoryId: 'housing_buy',
   title: 'Buying property in Portugal — step by step',
-  tldr: 'Foreigners can buy property without restrictions. Route: NIF → search → CPCV + sinal 10% → financing/legal due diligence → escritura at a notary → registration. Taxes: **IMT** — marginal progressive scale with abatements (for own permanent residence — 0% up to a certain threshold, then rates increase in stages up to a fixed top rate); **IS 0.8%**. Total costs are 8-12% on top of the price. Important: since 7 October 2023 (Lei 56/2023), Golden Visa through the purchase of residential property has been **abolished** — this residence permit route is no longer available for new applications.\n\n**Youth relief up to age 35** was introduced by **Decreto-Lei 48-A/2024** (not DL 44/2024).',
+  tldr: 'Foreigners can buy property without restrictions. Route: NIF → search → CPCV + sinal 10% → financing/legal due diligence → escritura at a notary → registration. Taxes: IMT — marginal progressive scale with abatements (for own permanent residence — 0% up to a certain threshold, then rates increase in stages up to a fixed top rate); IS 0.8%. Total costs are 8-12% on top of the price. Important: since 7 October 2023 (Lei 56/2023), Golden Visa through the purchase of residential property has been abolished — this residence permit route is no longer available for new applications.\n\nYouth relief up to age 35 was introduced by Decreto-Lei 48-A/2024 (not DL 44/2024).',
   tags: ['purchase', 'property', 'escritura', 'imt'],
   estimatedReadMinutes: 8,
   steps: [
@@ -84,7 +84,7 @@ export default {
             { kind: 'paragraph', text: 'At the notary. Both parties + interpreter, if needed. Payment to the seller by banker’s draft / transfer. The bank releases the mortgage funds.' }
           ]},
           { id: 'e4', title: '4. Registration at the Conservatória do Registo Predial', content: [
-            { kind: 'paragraph', text: 'Usually done electronically by the notary.\n\n**Ownership transfers** by a valid purchase and sale title (escritura pública/documento particular autenticado); registo predial is critically important for opposability against third parties — without it, you are not protected from the seller’s subsequent transactions. Register without delay.' }
+            { kind: 'paragraph', text: 'Usually done electronically by the notary.\n\nOwnership transfers by a valid purchase and sale title (escritura pública/documento particular autenticado); registo predial is critically important for opposability against third parties — without it, you are not protected from the seller’s subsequent transactions. Register without delay.' }
           ]}
         ]}
       ]
@@ -97,7 +97,7 @@ export default {
           'Notify Finanças of the change of address (if this is your main home)',
           'Transfer utilities into your name (EDP, Águas, gas)',
           'Home insurance is mandatory if there is a mortgage',
-          'IMI (municipal tax) — for urban residential **0.3–0.45% of VPT** (0.8% — for the former rural rate); the rate is set by the Câmara Municipal. Payment in instalments (1/2/3 times a year) depends on the amount due',
+          'IMI (municipal tax) — for urban residential 0.3–0.45% of VPT (0.8% — for the former rural rate); the rate is set by the Câmara Municipal. Payment in instalments (1/2/3 times a year) depends on the amount due',
           'Replace with: “For long-term rental — contract and registration with Finanças. For short-term tourist rental, Alojamento Local registration is usually needed before starting activity; check municipal restrictions, contenção/suspensão zones and condomínio rules”.'
         ]}
       ]
@@ -106,7 +106,7 @@ export default {
   costs: [
     { label: 'IMT — for own permanent residence (continente)', note: 'Add: “IMT base — maior valor entre o preço declarado e o VPT (valor patrimonial tributário). Check the VPT in the Caderneta Predial before the CPCV”.' },
     { label: 'IMT — for secondary/other residential property', note: 'the same escalões, but without the 0% first threshold; starts at 1%' },
-    { label: 'Youth relief up to age 35 — main home', amountEUR: 0, note: 'IMT+IS 0% under **Decreto-Lei 48-A/2024** up to a certain price threshold; conditions (residency, no previous property ownership, main home) — check in the current text' },
+    { label: 'Youth relief up to age 35 — main home', amountEUR: 0, note: 'IMT+IS 0% under Decreto-Lei 48-A/2024 up to a certain price threshold; conditions (residency, no previous property ownership, main home) — check in the current text' },
     { label: 'IMT for buyers from tax havens', amountEUR: 0, note: 'fixed rate of 10% regardless of value' },
     { label: 'IS (stamp duty)', amountEUR: 0, note: 'Write: “IS 0.8% on acquisition — usually on the same base as IMT: greater of declared price and VPT”.' },
     { label: 'Escritura + notary', amountEURMin: 500, amountEURMax: 1500 },

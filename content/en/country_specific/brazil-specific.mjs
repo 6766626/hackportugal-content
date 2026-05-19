@@ -71,7 +71,7 @@ export default {
         { kind: 'paragraph', text: 'CPLP citizens have the easiest path to Portuguese citizenship:' },
         { kind: 'checklist', items: [
           'Under the current law (Lei 37/81) — 5 years of legal residence',
-          'Under the new law (Decreto AR 48/XVII, renamed from 17/XVII after passing through the TC; promulgated by President Seguro on **03.05.2026**, as of 13.05.2026 published on 18.05.2026 as **Lei Orgânica n.º 1/2026** — 10 days) — 7 years for CPLP+EU / 10 years for everyone else. The text of the law contains a transitional provision: cases in processing are subject to the previous version of Lei 37/81 (5 years)',
+          'Under the new law (Decreto AR 48/XVII, renamed from 17/XVII after passing through the TC; promulgated by President Seguro on 03.05.2026, as of 13.05.2026 published on 18.05.2026 as Lei Orgânica n.º 1/2026 — 10 days) — 7 years for CPLP+EU / 10 years for everyone else. The text of the law contains a transitional provision: cases in processing are subject to the previous version of Lei 37/81 (5 years)',
           'Waiting time for MdI / first residence permit no longer counts towards the qualifying period (under the new law)',
           'A2 language — not required (Portuguese is native)',
           'With a Portuguese passport — EU citizenship'

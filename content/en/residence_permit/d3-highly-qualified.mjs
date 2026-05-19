@@ -54,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'NIF is often arranged in advance. NISS is usually arranged after the employment relationship starts / through the employer. Check whether an AIMA appointment is indicated in the visa; if not — push to get an appointment through AIMA.' }
           ]},
           { id: 's5', title: '5. Apply for the IFICI tax regime (if the activity qualifies)', content: [
-            { kind: 'paragraph', text: 'IFICI is NOT automatic for D3. The regime gives 20% IRS on eligible net employment/self-employment income from listed scientific, innovation or qualified activities for up to 10 years, if the IFICI conditions are met: qualifying activity, qualifying employer/organisation (with registration, where applicable), no tax residence in PT during the previous 5 years, and no incompatible use of NHR. The application is usually submitted by **15 January** of the year following the year of becoming resident (Portaria 352/2024/1; EBF art. 58-A).' }
+            { kind: 'paragraph', text: 'IFICI is NOT automatic for D3. The regime gives 20% IRS on eligible net employment/self-employment income from listed scientific, innovation or qualified activities for up to 10 years, if the IFICI conditions are met: qualifying activity, qualifying employer/organisation (with registration, where applicable), no tax residence in PT during the previous 5 years, and no incompatible use of NHR. The application is usually submitted by 15 January of the year following the year of becoming resident (Portaria 352/2024/1; EBF art. 58-A).' }
           ]}
         ]}
       ]

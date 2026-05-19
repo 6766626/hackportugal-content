@@ -112,11 +112,11 @@ export default {
       title: '🌟 Rotas especiais',
       content: [
         { kind: 'checklist', items: [
-          '🍷 **Linha do Douro** (Porto-Régua-Pocinho) — percurso panorâmico ao longo do rio Douro, zona vinícola. Comboio Regional, 4 h até Pocinho. Época turística',
-          '🌊 **Linha do Algarve** (Lagos-Faro-VRSA) — praias do Algarve, IC + Regional',
-          '⛰️ **Linha Beira Alta** (Lisboa-Pampilhosa-Guarda) — rota de montanha até à fronteira espanhola',
-          '🇪🇸 **Sud Express / Lusitânia** (Lisboa-Hendaye/Madrid) — comboios nocturnos históricos, **suspensos desde 2020** e, em 2026, sem serviço regular; podem ser retomados no futuro (actualizações: cp.pt e Renfe)',
-          '🚂 **Comboio Histórico do Vouga** — comboio turístico a vapor, verão/outono'
+          '🍷 Linha do Douro (Porto-Régua-Pocinho) — percurso panorâmico ao longo do rio Douro, zona vinícola. Comboio Regional, 4 h até Pocinho. Época turística',
+          '🌊 Linha do Algarve (Lagos-Faro-VRSA) — praias do Algarve, IC + Regional',
+          '⛰️ Linha Beira Alta (Lisboa-Pampilhosa-Guarda) — rota de montanha até à fronteira espanhola',
+          '🇪🇸 Sud Express / Lusitânia (Lisboa-Hendaye/Madrid) — comboios nocturnos históricos, suspensos desde 2020 e, em 2026, sem serviço regular; podem ser retomados no futuro (actualizações: cp.pt e Renfe)',
+          '🚂 Comboio Histórico do Vouga — comboio turístico a vapor, verão/outono'
         ]}
       ]
     }

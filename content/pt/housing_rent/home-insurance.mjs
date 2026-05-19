@@ -3,7 +3,7 @@ export default {
   id: 'home-insurance',
   categoryId: 'housing_rent',
   title: 'Seguro de habitação — seguro multirriscos',
-  tldr: 'Por lei (art. 1429 Código Civil), para apartamentos em condomínio (propriedade horizontal) é obrigatório o seguro contra **risco de incêndio** — tanto para as frações autónomas como para as partes comuns. O Multirriscos habitação é mais amplo (incêndio + água + roubo + responsabilidade civil), mas quando o banco o exige no crédito habitação, trata-se de uma obrigação contratual — não é lei, é uma condição do crédito. Para arrendatários, o seguro não é obrigatório, mas é recomendado (seguro de recheio, 50-150 €/ano).\n\nMelhores seguradoras 2026: Fidelidade, Generali Tranquilidade (marca Generali), Allianz, Zurich, Liberty. O custo anual de 150-500 € para um apartamento de 70-100 m² depende das coberturas e da franquia.',
+  tldr: 'Por lei (art. 1429 Código Civil), para apartamentos em condomínio (propriedade horizontal) é obrigatório o seguro contra risco de incêndio — tanto para as frações autónomas como para as partes comuns. O Multirriscos habitação é mais amplo (incêndio + água + roubo + responsabilidade civil), mas quando o banco o exige no crédito habitação, trata-se de uma obrigação contratual — não é lei, é uma condição do crédito. Para arrendatários, o seguro não é obrigatório, mas é recomendado (seguro de recheio, 50-150 €/ano).\n\nMelhores seguradoras 2026: Fidelidade, Generali Tranquilidade (marca Generali), Allianz, Zurich, Liberty. O custo anual de 150-500 € para um apartamento de 70-100 m² depende das coberturas e da franquia.',
   tags: ['seguro', 'seguro', 'habitação', 'multirriscos'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,9 +14,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 't1', title: 'Seguro Multirriscos Habitação (principal)', content: [
             { kind: 'checklist', items: [
-              '**Obrigatório** como condição contratual — o banco exige no crédito habitação (crédito = contrato de seguro)',
+              'Obrigatório como condição contratual — o banco exige no crédito habitação (crédito = contrato de seguro)',
               'Cobre: incêndio, explosão, inundação, fenómenos naturais (trovoada, furacão), roubo, vandalismo',
-              '⚠️ **Responsabilidade civil familiar** — NEM sempre está incluída no multirriscos. Pode ser uma subscrição separada; confirme',
+              '⚠️ Responsabilidade civil familiar — NEM sempre está incluída no multirriscos. Pode ser uma subscrição separada; confirme',
               'Eletrónica, mobiliário (recheio) — secção separada; algumas apólices seguram apenas o imóvel/edifício sem recheio — verifique',
               'Despesas com alojamento temporário — normalmente cobertura adicional limitada, não universal',
               'Custo anual: 150-500 € por apartamento de 70-100 m²'
@@ -33,7 +33,7 @@ export default {
           ]},
           { id: 't3', title: 'Seguro contra incêndio (obrigatório por lei)', content: [
             { kind: 'checklist', items: [
-              '**Obrigatório** o seguro contra risco de incêndio nos termos do art. 1429 Código Civil — para cada fração autónoma E para as partes comuns do edifício',
+              'Obrigatório o seguro contra risco de incêndio nos termos do art. 1429 Código Civil — para cada fração autónoma E para as partes comuns do edifício',
               'O administrador do condomínio verifica a existência das apólices e pode contratá-las por conta dos proprietários, se não existirem apólices',
               'Mínimo — incêndio; na prática, normalmente contrata-se multirriscos (inclui incêndio + água + responsabilidade civil)',
               'Pago pelo proprietário de cada fração; partes comuns — através da quota do condomínio',
@@ -42,10 +42,10 @@ export default {
           ]},
           { id: 't4', title: 'Complementos especializados', content: [
             { kind: 'checklist', items: [
-              '**Assistência domiciliária 24/7** — canalizador, eletricista, serralheiro em caso de problemas (+10-30 €/ano)',
-              '**Reparação de eletrodomésticos** — reparação de grandes eletrodomésticos após a garantia (+20-40 €/ano)',
-              '**Proteção contra ciber-roubos** — proteção contra ciber-roubos e roubo de identidade (+5-15 €/ano)',
-              '**Seguro de animais** — cuidados veterinários para animais (por vezes pode ser adicionado ao seguro de habitação)'
+              'Assistência domiciliária 24/7 — canalizador, eletricista, serralheiro em caso de problemas (+10-30 €/ano)',
+              'Reparação de eletrodomésticos — reparação de grandes eletrodomésticos após a garantia (+20-40 €/ano)',
+              'Proteção contra ciber-roubos — proteção contra ciber-roubos e roubo de identidade (+5-15 €/ano)',
+              'Seguro de animais — cuidados veterinários para animais (por vezes pode ser adicionado ao seguro de habitação)'
             ]}
           ]}
         ]}
@@ -58,30 +58,30 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Principais empresas', content: [
             { kind: 'checklist', items: [
-              '**Fidelidade** — a maior, portuguesa, fiável',
-              '**Generali Tranquilidade** (grupo Generali) — boas condições, muitos agentes',
-              '**Allianz** — internacional, um pouco mais cara, mas fiável',
-              '**Zurich** — premium, melhor para património de valor elevado',
-              '**Liberty Seguros** — pacotes específicos com bónus',
-              '**Cofidis, Mediator** — marketplace de seguros, trabalham como intermediários',
-              '**CTT Seguros** — nas lojas CTT, preços atrativos'
+              'Fidelidade — a maior, portuguesa, fiável',
+              'Generali Tranquilidade (grupo Generali) — boas condições, muitos agentes',
+              'Allianz — internacional, um pouco mais cara, mas fiável',
+              'Zurich — premium, melhor para património de valor elevado',
+              'Liberty Seguros — pacotes específicos com bónus',
+              'Cofidis, Mediator — marketplace de seguros, trabalham como intermediários',
+              'CTT Seguros — nas lojas CTT, preços atrativos'
             ]}
           ]},
           { id: 'c2', title: 'Comparação online', content: [
             { kind: 'checklist', items: [
-              '**ComparaJá.pt** — agregador de cotações',
-              '**Doctor Finanças** — comparador financeiro',
-              '**Raconoscer / Seguros.pt** — especializados',
+              'ComparaJá.pt — agregador de cotações',
+              'Doctor Finanças — comparador financeiro',
+              'Raconoscer / Seguros.pt — especializados',
               'Comparar: preço, franquia, limites de cobertura, exclusões',
-              '💡 **Poder de negociação**: mostre outra cotação — podem baixar o preço até 20%'
+              '💡 Poder de negociação: mostre outra cotação — podem baixar o preço até 20%'
             ]}
           ]},
           { id: 'c3', title: 'O que verificar', content: [
             { kind: 'checklist', items: [
-              '**Capital seguro do edifício** — deve ser ≥ ao custo de reconstrução (não ao preço de mercado!)',
-              '**Capital seguro do recheio** — avalie os seus bens de forma honesta (não copie os exemplos da seguradora)',
-              '**Franquia**: normalmente 100-300 €, quanto mais alta — mais barata é a apólice',
-              '**Exclusões**: leia as letras pequenas — normalmente não cobrem:',
+              'Capital seguro do edifício — deve ser ≥ ao custo de reconstrução (não ao preço de mercado!)',
+              'Capital seguro do recheio — avalie os seus bens de forma honesta (não copie os exemplos da seguradora)',
+              'Franquia: normalmente 100-300 €, quanto mais alta — mais barata é a apólice',
+              'Exclusões: leia as letras pequenas — normalmente não cobrem:',
               '  - Sismos (é necessário adicionar separadamente)',
               '  - Guerra / riscos nucleares / terrorismo geralmente excluídos',
               '  - Utilização comercial (se arrendar em AL)',
@@ -100,7 +100,7 @@ export default {
             { kind: 'checklist', items: [
               'Ligar para a linha 24 horas da seguradora (todas têm)',
               'Ou através da aplicação (a maioria tem)',
-              '📸 **Fotografar TODOS os danos** — passo essencial',
+              '📸 Fotografar TODOS os danos — passo essencial',
               'Não reparar antes da avaliação (exceto ações de emergência: fechar a água, desligar a eletricidade)',
               'Guardar todos os recibos: reparação de emergência, alojamento temporário',
               'Testemunhas: vizinhos, polícia (em caso de roubo)'
@@ -120,9 +120,9 @@ export default {
           ]},
           { id: 's4', title: 'Pagamento', content: [
             { kind: 'checklist', items: [
-              '**Montantes pequenos**: 2-4 semanas',
-              '**Montantes elevados > 5 000 €**: 1-3 meses',
-              '**Litígios**: Provedor do Cliente da seguradora → Provedor dos Segurados (ASF) → tribunal',
+              'Montantes pequenos: 2-4 semanas',
+              'Montantes elevados > 5 000 €: 1-3 meses',
+              'Litígios: Provedor do Cliente da seguradora → Provedor dos Segurados (ASF) → tribunal',
               'Ajuda gratuita: DECO Proteste (defesa dos direitos dos consumidores) para litígios'
             ]}
           ]}
@@ -134,16 +134,16 @@ export default {
       title: '💡 Conselhos',
       content: [
         { kind: 'checklist', items: [
-          '📝 **Inventário com fotografias**: fotografe todos os bens importantes (equipamentos, joias, obras de arte) com números de série. Para participação de sinistro — é o padrão de referência',
-          '💾 **Cópia de segurança digital**: guarde o inventário na nuvem (não no dispositivo)',
-          '🔒 **Botão de pânico / alarme**: desconto de 10-15% da seguradora',
-          '🎂 **Data de renovação**: reveja a apólice todos os anos — os seus bens mudaram (comprou novos equipamentos, mudou de casa)',
-          '💍 **Joias / relógios / coleção de valor elevado**: declaração separada, é necessária avaliação independente',
-          '🌊 **Catástrofes naturais**: a cobertura de sismos em PT é barata (zona de baixa atividade), mas se a sua região for de risco (Algarve, Açores) — adicione',
-          '🏠 **Alojamento Local (AL)**: se arrendar — é necessário um seguro comercial separado (muitos seguros standard excluem)',
-          '💰 **Pagamento anual ou mensal**: o anual é 3-5% mais barato',
-          '📅 **Cancelamento**: por escrito, 30 dias antes da renovação',
-          '🔄 **Mudança de seguradora**: compare todos os anos; uma poupança de 10-20% é típica'
+          '📝 Inventário com fotografias: fotografe todos os bens importantes (equipamentos, joias, obras de arte) com números de série. Para participação de sinistro — é o padrão de referência',
+          '💾 Cópia de segurança digital: guarde o inventário na nuvem (não no dispositivo)',
+          '🔒 Botão de pânico / alarme: desconto de 10-15% da seguradora',
+          '🎂 Data de renovação: reveja a apólice todos os anos — os seus bens mudaram (comprou novos equipamentos, mudou de casa)',
+          '💍 Joias / relógios / coleção de valor elevado: declaração separada, é necessária avaliação independente',
+          '🌊 Catástrofes naturais: a cobertura de sismos em PT é barata (zona de baixa atividade), mas se a sua região for de risco (Algarve, Açores) — adicione',
+          '🏠 Alojamento Local (AL): se arrendar — é necessário um seguro comercial separado (muitos seguros standard excluem)',
+          '💰 Pagamento anual ou mensal: o anual é 3-5% mais barato',
+          '📅 Cancelamento: por escrito, 30 dias antes da renovação',
+          '🔄 Mudança de seguradora: compare todos os anos; uma poupança de 10-20% é típica'
         ]}
       ]
     }

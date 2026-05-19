@@ -3,7 +3,7 @@ export default {
   id: 'd2-entrepreneur',
   categoryId: 'residence_permit',
   title: 'Visto D2 (empreendedor / trabalhador independente)',
-  tldr: 'O D2 é um visto para abrir um negócio ou exercer atividade independente em Portugal. Opções: abrir uma empresa, registar atividade independente através de Início de Atividade, comprar um negócio existente. O limiar financeiro é individual: é necessário um plano de negócios viável e meios para arrancar e viver. A primeira autorização de residência é normalmente por 2 anos, depois renovável. Segundo a lei em vigor, a naturalização é possível após 5 anos — mas **em 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII**, que, após publicação no DRE, aumentará o prazo para 7 anos para CPLP/UE e 10 anos para os restantes.',
+  tldr: 'O D2 é um visto para abrir um negócio ou exercer atividade independente em Portugal. Opções: abrir uma empresa, registar atividade independente através de Início de Atividade, comprar um negócio existente. O limiar financeiro é individual: é necessário um plano de negócios viável e meios para arrancar e viver. A primeira autorização de residência é normalmente por 2 anos, depois renovável. Segundo a lei em vigor, a naturalização é possível após 5 anos — mas em 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII, que, após publicação no DRE, aumentará o prazo para 7 anos para CPLP/UE e 10 anos para os restantes.',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d2', 'autorização de residência', 'negócio', 'empreendedor'],
   estimatedReadMinutes: 7,

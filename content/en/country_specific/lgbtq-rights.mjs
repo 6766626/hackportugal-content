@@ -14,8 +14,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'l1', title: 'Marriage and partnership', content: [
             { kind: 'checklist', items: [
-              '✅ **Same-sex marriage** has been legal since 2010 (Lei 9/2010 + 2/2010)',
-              '✅ **Civil partnership** (união de facto) for same-sex couples since 2001',
+              '✅ Same-sex marriage has been legal since 2010 (Lei 9/2010 + 2/2010)',
+              '✅ Civil partnership (união de facto) for same-sex couples since 2001',
               '✅ Full equality in property rights, inheritance, maintenance and divorce',
               '✅ Foreign same-sex marriages are recognised in Portugal',
               '✅ A same-sex spouse through Reagrupamento Familiar receives the same rights as an opposite-sex spouse'
@@ -23,30 +23,30 @@ export default {
           ]},
           { id: 'l2', title: 'Family and children', content: [
             { kind: 'checklist', items: [
-              '✅ **Adoption of a partner’s child** for same-sex couples since 2016',
-              '✅ **Joint adoption** since 2016 (Lei 2/2016)',
-              '✅ **Fertility treatment**: lesbian couples since 2016, single women since 2017',
+              '✅ Adoption of a partner’s child for same-sex couples since 2016',
+              '✅ Joint adoption since 2016 (Lei 2/2016)',
+              '✅ Fertility treatment: lesbian couples since 2016, single women since 2017',
               '✅ Surrogacy: only for medical reasons (non-commercial), regardless of sexual orientation',
               '⚠️ Transgender people: parental rights become complicated if transition occurred after the children were born — decided individually by the court'
             ]}
           ]},
           { id: 'l3', title: 'Transgender rights — EU leader', content: [
             { kind: 'checklist', items: [
-              '✅ **Self-determination** since 2018 (Lei 38/2018) — gender change in documents WITHOUT medical procedures, WITHOUT court, WITHOUT psychiatric certificates',
+              '✅ Self-determination since 2018 (Lei 38/2018) — gender change in documents WITHOUT medical procedures, WITHOUT court, WITHOUT psychiatric certificates',
               '✅ ≥ 16 years old: application at the Conservatória do Registo Civil with a declaration → new documents are issued within a few days',
               '✅ < 16 years old: with parental consent + psychologist’s opinion',
-              '✅ **Hormone therapy**: free through SNS (after psychiatrist/endocrinologist)',
-              '✅ **Gender-affirming surgery**: covered by SNS (long queue) or available privately',
+              '✅ Hormone therapy: free through SNS (after psychiatrist/endocrinologist)',
+              '✅ Gender-affirming surgery: covered by SNS (long queue) or available privately',
               '✅ ❌ Conversion therapy banned since 2024 (Lei 23/2024) — up to 5 years’ imprisonment',
-              '✅ **Updating education, work and bank records**: automatically on request'
+              '✅ Updating education, work and bank records: automatically on request'
             ]}
           ]},
           { id: 'l4', title: 'Discrimination — a criminal offence', content: [
             { kind: 'checklist', items: [
-              '**Código Penal art. 240**: discrimination based on sexual orientation, identity, expression — a criminal offence',
+              'Código Penal art. 240: discrimination based on sexual orientation, identity, expression — a criminal offence',
               'Incitement to hatred / hate crime: up to 5 years’ imprisonment + fine',
               'Workplace discrimination: ACT (labour inspectorate) accepts complaints; civil compensation is possible',
-              '**ILGA Portugal** (ilga-portugal.pt): legal assistance, incident documentation'
+              'ILGA Portugal (ilga-portugal.pt): legal assistance, incident documentation'
             ]}
           ]}
         ]}
@@ -61,7 +61,7 @@ export default {
           '👫 Public displays of affection are normal in major cities (Lisboa, Porto, Cascais, Faro)',
           '🌾 Rural areas are more traditional, but aggressive homophobia is rare',
           '⛪ The Catholic Church is still socially influential, but the younger generation is more open',
-          '🎉 **Pride** in major cities: Lisbon Pride (June-July), Porto Pride, ARRAIAL Lisboa Pride (party), Algarve Pride (Lagoa, August)',
+          '🎉 Pride in major cities: Lisbon Pride (June-July), Porto Pride, ARRAIAL Lisboa Pride (party), Algarve Pride (Lagoa, August)',
           '🏳️‍🌈 Visibility of transgender people: lower than gay men and lesbians, but support groups are active',
           '👨‍👨‍👧 Same-sex families in schools — no problems, no unnecessary questions asked',
           '🏥 SNS: training for healthcare workers on respectful treatment — the situation has been improving since 2018'
@@ -75,29 +75,29 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Lisboa', content: [
             { kind: 'checklist', items: [
-              '**Centro LGBT+ Lisboa** (Príncipe Real) — main community centre',
-              '**Casa Maria Adelaide** (UMAR) — support for women and transgender people',
-              '**ILGA Portugal** — national human rights organisation, with offices in Lisbon',
-              '**Bairro Alto / Príncipe Real** — gay district, bars: Trumps, Construction, Side, Finalmente',
-              '**For lesbians**: Purex Bar, Lounge'
+              'Centro LGBT+ Lisboa (Príncipe Real) — main community centre',
+              'Casa Maria Adelaide (UMAR) — support for women and transgender people',
+              'ILGA Portugal — national human rights organisation, with offices in Lisbon',
+              'Bairro Alto / Príncipe Real — gay district, bars: Trumps, Construction, Side, Finalmente',
+              'For lesbians: Purex Bar, Lounge'
             ]}
           ]},
           { id: 'c2', title: 'Porto', content: [
             { kind: 'checklist', items: [
-              '**Casa Arco-Íris** — community centre',
-              '**Conquistador** (Vitória) — main gay bar',
-              '**Plano B** — LGBT-friendly club',
+              'Casa Arco-Íris — community centre',
+              'Conquistador (Vitória) — main gay bar',
+              'Plano B — LGBT-friendly club',
               'The scene is smaller than in Lisboa, but the community is close-knit'
             ]}
           ]},
           { id: 'c3', title: 'Online + meetups', content: [
             { kind: 'checklist', items: [
-              '**Grindr / Hornet / Romeo** — popular (with different audiences)',
-              '**Her** — for lesbians and queer women',
-              '**Telegram groups**: Russian Speaking LGBT in PT, Brazilian LGBT in PT',
-              '**Meetup.com**: LGBT Lisbon, Queer Porto',
-              '**Facebook**: LGBT+ Portugal, Trans Portugal communities',
-              '**Instagram hashtags**: #LGBTPortugal #PrideLisboa #LisboaPride'
+              'Grindr / Hornet / Romeo — popular (with different audiences)',
+              'Her — for lesbians and queer women',
+              'Telegram groups: Russian Speaking LGBT in PT, Brazilian LGBT in PT',
+              'Meetup.com: LGBT Lisbon, Queer Porto',
+              'Facebook: LGBT+ Portugal, Trans Portugal communities',
+              'Instagram hashtags: #LGBTPortugal #PrideLisboa #LisboaPride'
             ]}
           ]}
         ]}
@@ -129,7 +129,7 @@ export default {
               'HRT (hormone therapy): available, free',
               'Voice therapy: covered',
               'Hair removal: partially covered',
-              '**Gender-affirming surgery**: top surgery (mastectomy / breast reconstruction), bottom surgery — SNS covers it, but the queue is **up to 3-5 years**',
+              'Gender-affirming surgery: top surgery (mastectomy / breast reconstruction), bottom surgery — SNS covers it, but the queue is up to 3-5 years',
               'Self-administered HRT is also legal; medical supervision is recommended'
             ]}
           ]},
@@ -150,13 +150,13 @@ export default {
       title: '💡 Tips for everyday life',
       content: [
         { kind: 'checklist', items: [
-          '🏥 **Family doctor**: you can deliberately look for an LGBT-friendly doctor — ILGA has a directory',
-          '🏠 **Housing**: discrimination is illegal, but sometimes happens implicitly — do not mention orientation in the first email',
-          '👨‍👩‍👧 **School for children**: state schools in Portugal are usually supportive; private religious schools vary',
-          '💼 **Work**: Portuguese companies have anti-discrimination policies; LGBT employee groups exist in international companies',
-          '🎉 **Pride month** — June: PR events, activities and supportive campaigns in all major cities',
-          '🗣️ **Coming out in Portugal**: public figures (politicians, athletes, presenters) have become more open since 2010',
-          '⛪ **Religious ceremonies**: Portuguese Catholic churches do not marry same-sex couples; there are some Reformed / interfaith options'
+          '🏥 Family doctor: you can deliberately look for an LGBT-friendly doctor — ILGA has a directory',
+          '🏠 Housing: discrimination is illegal, but sometimes happens implicitly — do not mention orientation in the first email',
+          '👨‍👩‍👧 School for children: state schools in Portugal are usually supportive; private religious schools vary',
+          '💼 Work: Portuguese companies have anti-discrimination policies; LGBT employee groups exist in international companies',
+          '🎉 Pride month — June: PR events, activities and supportive campaigns in all major cities',
+          '🗣️ Coming out in Portugal: public figures (politicians, athletes, presenters) have become more open since 2010',
+          '⛪ Religious ceremonies: Portuguese Catholic churches do not marry same-sex couples; there are some Reformed / interfaith options'
         ]}
       ]
     }

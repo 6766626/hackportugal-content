@@ -72,10 +72,10 @@ export default {
           ]},
           { id: 'tour', title: 'Turísticos', content: [
             { kind: 'checklist', items: [
-              '🛥️ **Yellow Boat** (Hop-on Hop-off) — ferries turísticos Belém + Cacilhas + centro, ≈25 €/dia',
-              '🚢 **Tejo Sunset Cruise** — pôr do sol, ≈30 €/pessoa',
-              '⚓ **Lisboa Sailing Tour** — cruzeiro privado, a partir de 50 €/pessoa',
-              '🏝️ **Sesimbra/Setúbal Boat Tour** — golfinhos, ≈50 €/pessoa'
+              '🛥️ Yellow Boat (Hop-on Hop-off) — ferries turísticos Belém + Cacilhas + centro, ≈25 €/dia',
+              '🚢 Tejo Sunset Cruise — pôr do sol, ≈30 €/pessoa',
+              '⚓ Lisboa Sailing Tour — cruzeiro privado, a partir de 50 €/pessoa',
+              '🏝️ Sesimbra/Setúbal Boat Tour — golfinhos, ≈50 €/pessoa'
             ]}
           ]}
         ]}

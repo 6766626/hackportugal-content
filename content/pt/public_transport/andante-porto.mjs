@@ -28,23 +28,23 @@ export default {
         { kind: 'substeps', items: [
           { id: 'occasional', title: 'Bilhetes ocasionais — para turistas e viagens pouco frequentes', content: [
             { kind: 'checklist', items: [
-              '🟪 **Andante Azul** — cartão por 0,60 € (pode ser carregado com bilhetes ocasionais)',
-              '💰 **Ocasional Z2**: 1,40 € — 1 hora na zona 2',
-              '💰 **Andante 24h Tour 1**: 7 € — ilimitado por 24 horas em Z4',
-              '💰 **Andante 24h Tour 3**: 15 € — 3 dias em Z4',
-              '💰 **Andante Tour 24h** (Z2): 4,15 € — para quem circula apenas pelo centro',
+              '🟪 Andante Azul — cartão por 0,60 € (pode ser carregado com bilhetes ocasionais)',
+              '💰 Ocasional Z2: 1,40 € — 1 hora na zona 2',
+              '💰 Andante 24h Tour 1: 7 € — ilimitado por 24 horas em Z4',
+              '💰 Andante 24h Tour 3: 15 € — 3 dias em Z4',
+              '💰 Andante Tour 24h (Z2): 4,15 € — para quem circula apenas pelo centro',
               '🎟️ Pode comprar e validar logo no torniquete ou no autocarro'
             ]}
           ]},
           { id: 'monthly', title: 'Passes mensais (para residentes)', content: [
             { kind: 'checklist', items: [
-              '👤 **Andante Mensal Z2** (centro do Porto): 30 €/mês',
-              '👤 **Andante Mensal Z3**: 35 €/mês',
-              '👤 **Andante Mensal Z4**: 40 €/mês',
-              '🚇 **Mensal MetroPorto** (ilimitado em toda a região): 40 €/mês',
-              '🎓 **Andante Estudante** (para estudantes): -50%, ≈15 €',
-              '👴 **Andante Sénior** (>65): -50%',
-              '👨‍👩‍👧 **Andante Família** (3+ pessoas) — passe conjunto, -25% para cada pessoa',
+              '👤 Andante Mensal Z2 (centro do Porto): 30 €/mês',
+              '👤 Andante Mensal Z3: 35 €/mês',
+              '👤 Andante Mensal Z4: 40 €/mês',
+              '🚇 Mensal MetroPorto (ilimitado em toda a região): 40 €/mês',
+              '🎓 Andante Estudante (para estudantes): -50%, ≈15 €',
+              '👴 Andante Sénior (>65): -50%',
+              '👨‍👩‍👧 Andante Família (3+ pessoas) — passe conjunto, -25% para cada pessoa',
               '⚠️ Para o pedido é necessário Andante Branca (nominativo) — fotografia + Cartão de Cidadão, numa estação de metro'
             ]}
           ]},

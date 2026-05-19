@@ -94,7 +94,7 @@ export default {
           '✅ Maternidade (após período de carência de 10–12 meses, normalmente com limite separado)',
           '⚠️ Estomatologia — muitas vezes separada',
           '⚠️ Oftalmologia — muitas vezes separada',
-          '❌ **Pre-existing conditions** são normalmente excluídas, salvo se a seguradora tiver aceite previamente por escrito a sua cobertura; por vezes podem existir limites, agravamento de prémio ou carência. É essencial ler as Condições Particulares/Especiais',
+          '❌ Pre-existing conditions são normalmente excluídas, salvo se a seguradora tiver aceite previamente por escrito a sua cobertura; por vezes podem existir limites, agravamento de prémio ou carência. É essencial ler as Condições Particulares/Especiais',
           '⚠️ Cirurgia puramente estética/cosmetic surgery é normalmente excluída; reconstructive/medically necessary procedures podem ser cobertos conforme as condições da apólice',
           '⚠️ Tratamentos de alta tecnologia (transplantes, alguns tipos de tratamento oncológico) — cobertura limitada'
         ]}

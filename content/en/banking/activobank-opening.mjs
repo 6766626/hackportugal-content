@@ -101,7 +101,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Anuidade / manutenção — annual/monthly maintenance fee. Many online banks charge €0 with minimal activity',
-          'Imposto do Selo — stamp duty. In Portugal it is NOT a fixed quarterly fee for the account itself; it is usually charged as **4%** on bank fees, **0.5%** on interest on loans/consumer credit, etc. If you have a free account with no other services, there may be no actual Imposto do Selo',
+          'Imposto do Selo — stamp duty. In Portugal it is NOT a fixed quarterly fee for the account itself; it is usually charged as 4% on bank fees, 0.5% on interest on loans/consumer credit, etc. If you have a free account with no other services, there may be no actual Imposto do Selo',
           'Fee for withdrawing from another bank’s Multibanco — usually €0 in Portugal, but there are limits',
           'Inactivity fee — some banks charge €3-10/month if the account is not used for 6+ months',
           'Currency exchange (for international transfers): 1-3% mark-up over the ECB rate',

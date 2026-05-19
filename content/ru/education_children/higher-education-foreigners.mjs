@@ -12,12 +12,12 @@ export default {
       title: '🎓 Уровни и длительность',
       content: [
         { kind: 'checklist', items: [
-          '**Licenciatura** (бакалавриат): 3 года, 180 ECTS — основной первый цикл',
-          '**Mestrado** (магистратура): 1,5–2 года, 90–120 ECTS — второй цикл',
-          '**Mestrado Integrado**: для некоторых регулируемых профессий. **Medicina** — обычно 6 лет / 360 ECTS; **Arquitetura** — часто 5 лет / 300 ECTS; в Engenharia многие antigos mestrados integrados были reorganized в licenciatura + mestrado (сверяйте каждый курс в DGES)',
-          '**Doutoramento** (PhD): 3–4 года — третий цикл',
-          '**CTeSP** (Curso Técnico Superior Profissional): 2 года, 120 ECTS — профессиональное образование, без академической степени',
-          '**Pós-graduação**: короткие специализированные курсы (6–12 мес.)'
+          'Licenciatura (бакалавриат): 3 года, 180 ECTS — основной первый цикл',
+          'Mestrado (магистратура): 1,5–2 года, 90–120 ECTS — второй цикл',
+          'Mestrado Integrado: для некоторых регулируемых профессий. Medicina — обычно 6 лет / 360 ECTS; Arquitetura — часто 5 лет / 300 ECTS; в Engenharia многие antigos mestrados integrados были reorganized в licenciatura + mestrado (сверяйте каждый курс в DGES)',
+          'Doutoramento (PhD): 3–4 года — третий цикл',
+          'CTeSP (Curso Técnico Superior Profissional): 2 года, 120 ECTS — профессиональное образование, без академической степени',
+          'Pós-graduação: короткие специализированные курсы (6–12 мес.)'
         ]}
       ]
     },
@@ -28,17 +28,17 @@ export default {
         { kind: 'substeps', items: [
           { id: 'a1', title: 'Граждане PT/ЕС/ЕЭЗ/Швейцарии и некоторые non-EU резиденты (CNA)', content: [
             { kind: 'checklist', items: [
-              '**Concurso Nacional de Acesso (CNA)**: общий конкурс — применяется, если вы НЕ считаетесь Estudante Internacional',
-              'CNA also applies to non-EU residents с легальным проживанием в Португалии **>2 непрерывных лет к 1 января года поступления** (не считая времени только по student permit) или с estatuto de igualdade',
+              'Concurso Nacional de Acesso (CNA): общий конкурс — применяется, если вы НЕ считаетесь Estudante Internacional',
+              'CNA also applies to non-EU residents с легальным проживанием в Португалии >2 непрерывных лет к 1 января года поступления (не считая времени только по student permit) или с estatuto de igualdade',
               'Вступительные экзамены (Exames Nacionais) в 12-м классе — обязательны для конкурса',
               'Распределение по баллам: nota do secundário + provas de ingresso (веса по курсам у DGES)',
-              'PT/EU в гос. licenciatura: propina **до ~€697/год максимум**',
+              'PT/EU в гос. licenciatura: propina до ~€697/год максимум',
               'Если у вас иностранный школьный диплом — нужно equivalência + сдать local exam'
             ]}
           ]},
           { id: 'a2', title: 'Граждане не-ЕС', content: [
             { kind: 'checklist', items: [
-              '**Concurso Especial para Estudantes Internacionais** (CEIE)',
+              'Concurso Especial para Estudantes Internacionais (CEIE)',
               'Отдельный от CNA процесс — каждый университет решает сам',
               'Требования: диплом средней школы, подходящий для высшего образования в стране происхождения + certificado de equivalência (1–3 мес. на получение через DGES)',
               'Часто — собственные вступительные экзамены университета / портфолио / собеседование',
@@ -68,27 +68,27 @@ export default {
         { kind: 'substeps', items: [
           { id: 'u1', title: 'Лиссабон', content: [
             { kind: 'checklist', items: [
-              '**Universidade de Lisboa (ULisboa)** — крупнейший, топ-300 QS. Медицина, право, инженерия, искусство',
-              '**Universidade Nova de Lisboa** — современный, топ-300 QS. Экономика (NovaSBE — один из лучших в Европе), инженерия, здравоохранение',
-              '**Universidade Católica Portuguesa (UCP)** — частный, престижный (католический) — право, менеджмент',
-              '**Iscte** (Instituto Universitário de Lisboa) — социальные науки, бизнес',
-              '**ISCSP** — политология, международные отношения'
+              'Universidade de Lisboa (ULisboa) — крупнейший, топ-300 QS. Медицина, право, инженерия, искусство',
+              'Universidade Nova de Lisboa — современный, топ-300 QS. Экономика (NovaSBE — один из лучших в Европе), инженерия, здравоохранение',
+              'Universidade Católica Portuguesa (UCP) — частный, престижный (католический) — право, менеджмент',
+              'Iscte (Instituto Universitário de Lisboa) — социальные науки, бизнес',
+              'ISCSP — политология, международные отношения'
             ]}
           ]},
           { id: 'u2', title: 'Порту', content: [
             { kind: 'checklist', items: [
-              '**Universidade do Porto (UP)** — 2-й крупнейший, топ-300 QS. Инженерия, медицина, архитектура',
-              '**Universidade Católica Portuguesa (Porto)** — частный, бизнес, здравоохранение',
-              '**Escola Superior Artística do Porto** — искусство'
+              'Universidade do Porto (UP) — 2-й крупнейший, топ-300 QS. Инженерия, медицина, архитектура',
+              'Universidade Católica Portuguesa (Porto) — частный, бизнес, здравоохранение',
+              'Escola Superior Artística do Porto — искусство'
             ]}
           ]},
           { id: 'u3', title: 'Регионы', content: [
             { kind: 'checklist', items: [
-              '**Universidade de Coimbra** — один из старейших в Европе (с 1290 г.). UNESCO. Медицина, философия, инженерия',
-              '**Universidade de Aveiro** — материаловедение, инженерия',
-              '**Universidade do Minho** (Braga/Guimarães) — информатика',
-              '**Universidade do Algarve** — морские науки, туризм',
-              '**Universidade da Madeira, Açores** — региональные'
+              'Universidade de Coimbra — один из старейших в Европе (с 1290 г.). UNESCO. Медицина, философия, инженерия',
+              'Universidade de Aveiro — материаловедение, инженерия',
+              'Universidade do Minho (Braga/Guimarães) — информатика',
+              'Universidade do Algarve — морские науки, туризм',
+              'Universidade da Madeira, Açores — региональные'
             ]}
           ]}
         ]}
@@ -101,17 +101,17 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Государственные университеты', content: [
             { kind: 'checklist', items: [
-              '**ЕС/резиденты, считающиеся national/EU**: licenciatura — **до ~€697/год максимум** (DGES propina cap); магистратура и PhD — отдельные тарифы',
-              '**Не-ЕС (CEEI, Estudante Internacional)**: international propinas устанавливает каждый университет/курс — смотрите edital конкретного курса',
+              'ЕС/резиденты, считающиеся national/EU: licenciatura — до ~€697/год максимум (DGES propina cap); магистратура и PhD — отдельные тарифы',
+              'Не-ЕС (CEEI, Estudante Internacional): international propinas устанавливает каждый университет/курс — смотрите edital конкретного курса',
               'Некоторые факультеты медицины / инженерии — в верхней части этого диапазона'
             ]}
           ]},
           { id: 'c2', title: 'Частные университеты', content: [
             { kind: 'checklist', items: [
               '3500–15000 €/год — зависит от программы',
-              '**NovaSBE MBA**: 30000–50000 €/год',
-              '**UCP Law**: 5000–8000 €/год',
-              '**ISG Business School**: 4000–7000 €',
+              'NovaSBE MBA: 30000–50000 €/год',
+              'UCP Law: 5000–8000 €/год',
+              'ISG Business School: 4000–7000 €',
               'Признание: в ЕС работает; для работодателей в США — признаются в основном топовые бренды'
             ]}
           ]},
@@ -143,11 +143,11 @@ export default {
           ]},
           { id: 'b2', title: 'Международные стипендии', content: [
             { kind: 'checklist', items: [
-              '**Erasmus+**: для резидентов / краткосрочный обмен, 800–1000 €/мес.',
-              '**Camões Institute bolsas**: для граждан PALOP, Timor-Leste, Brasil',
-              '**FCT (Fundação para a Ciência e Tecnologia)**: PhD-стипендия — сумма периодически обновляется; смотрите актуальный tabela de bolsas FCT (subsídio + propinas согласно регламенту)',
-              '**EU Marie Skłodowska-Curie**: для PhD/post-doc — €3000+/мес.',
-              '**University-specific**: все топовые вузы имеют стипендиальные программы по заслугам (50–100% скидки на tuition)',
+              'Erasmus+: для резидентов / краткосрочный обмен, 800–1000 €/мес.',
+              'Camões Institute bolsas: для граждан PALOP, Timor-Leste, Brasil',
+              'FCT (Fundação para a Ciência e Tecnologia): PhD-стипендия — сумма периодически обновляется; смотрите актуальный tabela de bolsas FCT (subsídio + propinas согласно регламенту)',
+              'EU Marie Skłodowska-Curie: для PhD/post-doc — €3000+/мес.',
+              'University-specific: все топовые вузы имеют стипендиальные программы по заслугам (50–100% скидки на tuition)',
               'Конкуренция: медицина — самая сложная; науки и инженерия — шансы лучше'
             ]}
           ]}
@@ -159,9 +159,9 @@ export default {
       title: '🗣️ Язык обучения',
       content: [
         { kind: 'checklist', items: [
-          '**Бакалавриат**: большинство программ на португальском; некоторые программы бакалавриата на английском (Nova, IST, ISEG)',
-          '**Mestrado**: 30–50% на английском в топовых вузах',
-          '**PhD**: часто на английском, язык диссертации на выбор',
+          'Бакалавриат: большинство программ на португальском; некоторые программы бакалавриата на английском (Nova, IST, ISEG)',
+          'Mestrado: 30–50% на английском в топовых вузах',
+          'PhD: часто на английском, язык диссертации на выбор',
           'Требование по португальскому: A2–B1 для бакалавриата (если обучение на португальском), CIPLE или школьный сертификат',
           'Требование по английскому: IELTS 6.0+ / TOEFL 80+ для англоязычных программ',
           'Курсы португальского для иностранцев бесплатны в большинстве вузов'
@@ -174,13 +174,13 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Для студентов не-ЕС, обучающихся очно по программе в португальском вузе',
-          'Документы: acceptance letter, proof of funds (ориентир минимум **12×SMN в год для основного заявителя — в 2026 это €11 040**; консульство/VFS может принимать стипендию, банковский баланс, спонсорство и/или prepaid accommodation), медстраховка, жильё',
+          'Документы: acceptance letter, proof of funds (ориентир минимум 12×SMN в год для основного заявителя — в 2026 это €11 040; консульство/VFS может принимать стипендию, банковский баланс, спонсорство и/или prepaid accommodation), медстраховка, жильё',
           'Подача в консульстве страны проживания',
           'Срок: 1–3 мес.',
           'Виза → въезд → в AIMA для residence permit D4 (плюс отдельный AIMA fee — таблица в силе с 01.03.2026)',
-          '**После окончания**: можно запросить **autorização de residência para procura de trabalho ou criação de empresa** — обычно до 12 месяцев (Lei 23/2007 art. 122). Это **не** та же процедура, что внешнее visto para procura de trabalho на 120+60 дней',
+          'После окончания: можно запросить autorização de residência para procura de trabalho ou criação de empresa — обычно до 12 месяцев (Lei 23/2007 art. 122). Это не та же процедура, что внешнее visto para procura de trabalho на 120+60 дней',
           'Или переход на D3 / D8 / D2 после получения контракта / открытия бизнеса',
-          'Для гражданства: по действующему праву нет коэффициента 0.5 — годы с действующим título de residência студента обычно считаются как обычное легальное проживание (Lei 37/81 art. 6). ⚠️ **Decreto AR 48/XVII промульгирован Президентом Сегуру 03.05.2026** — опубликован 18.05.2026 как **Lei Orgânica n.º 1/2026**, в силе с **19.05.2026**; правила натурализации после этой даты — 7 лет CPLP+EU / 10 лет для остальных, переходное положение защищает дела, поданные ДО 19.05.2026'
+          'Для гражданства: по действующему праву нет коэффициента 0.5 — годы с действующим título de residência студента обычно считаются как обычное легальное проживание (Lei 37/81 art. 6). ⚠️ Decreto AR 48/XVII промульгирован Президентом Сегуру 03.05.2026 — опубликован 18.05.2026 как Lei Orgânica n.º 1/2026, в силе с 19.05.2026; правила натурализации после этой даты — 7 лет CPLP+EU / 10 лет для остальных, переходное положение защищает дела, поданные ДО 19.05.2026'
         ]}
       ]
     }

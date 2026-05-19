@@ -3,7 +3,7 @@ export default {
   id: 'birth-registration',
   categoryId: 'nationality',
   title: 'Registo de nascimento de uma criança em Portugal',
-  tldr: 'Criança nascida em Portugal: o nascimento deve ser registado no Registo Civil **no prazo de 20 dias** (Código do Registo Civil art. 96). Nos termos da Lei 37/81 art. 1 n.1 al. f), a criança adquire nacionalidade portuguesa por nascimento se pelo menos um dos progenitores residir legalmente em Portugal (qualquer título) OU residir em Portugal há pelo menos 1 ano independentemente do título — e não estiver ao serviço de um Estado estrangeiro. Registo: gratuito através do ePortugal ou na maternidade («Nascer Cidadão»). À criança são atribuídos Cartão de Cidadão, NIF, NISS, utente SNS — tudo de uma só vez.',
+  tldr: 'Criança nascida em Portugal: o nascimento deve ser registado no Registo Civil no prazo de 20 dias (Código do Registo Civil art. 96). Nos termos da Lei 37/81 art. 1 n.1 al. f), a criança adquire nacionalidade portuguesa por nascimento se pelo menos um dos progenitores residir legalmente em Portugal (qualquer título) OU residir em Portugal há pelo menos 1 ano independentemente do título — e não estiver ao serviço de um Estado estrangeiro. Registo: gratuito através do ePortugal ou na maternidade («Nascer Cidadão»). À criança são atribuídos Cartão de Cidadão, NIF, NISS, utente SNS — tudo de uma só vez.',
   tags: ['nascimento', 'criança', 'registo', 'nacionalidade', 'jus soli', 'nascer cidadão'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,12 +14,12 @@ export default {
         { kind: 'paragraph', text: 'Nos termos da Lei 37/81 art. 1 n.1 al. f), uma criança nascida em Portugal torna-se cidadã portuguesa por nascimento se pelo menos UM dos progenitores cumprir uma das condições e não estiver ao serviço de um Estado estrangeiro:' },
         { kind: 'checklist', items: [
           '✅ É cidadão português (nesse caso, automaticamente)',
-          '✅ **Reside legalmente em Portugal** no momento do nascimento (com autorização de residência ou outro título — a duração não é relevante)',
-          '✅ **Reside em Portugal há ≥ 1 ano independentemente da existência de título** (presença efetiva)',
+          '✅ Reside legalmente em Portugal no momento do nascimento (com autorização de residência ou outro título — a duração não é relevante)',
+          '✅ Reside em Portugal há ≥ 1 ano independentemente da existência de título (presença efetiva)',
           '✅ Cidadão da UE com registo CRUE válido no momento do nascimento — normalmente é considerado residente legal',
           '⚠️ Apenas uma curta visita turística sem presença prolongada — normalmente não; mas se houver 1+ ano de residência efetiva — existe fundamento',
           '🌐 Portugal admite múltipla nacionalidade — a criança também pode obter uma segunda nacionalidade através dos progenitores',
-          '⚖️ **03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII** (após passagem pelo TC, renumerado a partir de 17/XVII). Em 13.05.2026 a lei foi publicada em 18.05.2026 como **Lei Orgânica n.º 1/2026** (10 dias). Após publicação no Diário da República, para pedir a nacionalidade da criança por jus soli, os progenitores devem ter ≥5 anos de autorização de residência válida. O texto da lei contém uma disposição transitória: aos processos em tramitação aplica-se a redação anterior da Lei 37/81 (1 ano). Até 19.05.2026 aplicam-se as regras antigas a todos'
+          '⚖️ 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII (após passagem pelo TC, renumerado a partir de 17/XVII). Em 13.05.2026 a lei foi publicada em 18.05.2026 como Lei Orgânica n.º 1/2026 (10 dias). Após publicação no Diário da República, para pedir a nacionalidade da criança por jus soli, os progenitores devem ter ≥5 anos de autorização de residência válida. O texto da lei contém uma disposição transitória: aos processos em tramitação aplica-se a redação anterior da Lei 37/81 (1 ano). Até 19.05.2026 aplicam-se as regras antigas a todos'
         ]}
       ]
     },
@@ -57,7 +57,7 @@ export default {
       id: 'alternative',
       title: '📍 Alternativa — Conservatória / online',
       content: [
-        { kind: 'paragraph', text: 'Se o registo não tiver sido feito na maternidade (parto em casa, clínica privada sem o serviço), é necessário declarar o nascimento numa Conservatória do Registo Civil **no prazo de 20 dias** (art. 96 Código do Registo Civil).\n\nDepois desse prazo, o registo continua a ser possível, mas com procedimento adicional e eventual coima.' },
+        { kind: 'paragraph', text: 'Se o registo não tiver sido feito na maternidade (parto em casa, clínica privada sem o serviço), é necessário declarar o nascimento numa Conservatória do Registo Civil no prazo de 20 dias (art. 96 Código do Registo Civil).\n\nDepois desse prazo, o registo continua a ser possível, mas com procedimento adicional e eventual coima.' },
         { kind: 'checklist', items: [
           '🏛️ Qualquer Conservatória — escolha por morada ou conveniência',
           '🌐 Alternativa: ePortugal online através da Chave Móvel Digital, carregando os documentos',
@@ -74,12 +74,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Em Portugal existe uma lista oficial de nomes aprovados. Nem todos os nomes são admitidos.' },
         { kind: 'checklist', items: [
-          '✅ **Base de nomes aprovados do IRN**: irn.justica.gov.pt → «Vocábulos admitidos como nomes próprios»',
+          '✅ Base de nomes aprovados do IRN: irn.justica.gov.pt → «Vocábulos admitidos como nomes próprios»',
           '🚫 São proibidos: nomes fictícios/depreciativos/geográficos (por exemplo, «Lisboa», «Brasil»)',
           '🚫 Nos termos do art. 103 Código do Registo Civil, o nome é normalmente limitado a um máximo de 2 nomes próprios e 4 apelidos',
-          '🇷🇺 **Estrangeiros (incluindo cidadãos da Federação Russa)**: para uma criança com dupla nacionalidade, o IRN normalmente aceita um nome permitido no país da segunda nacionalidade, em transliteração latina',
+          '🇷🇺 Estrangeiros (incluindo cidadãos da Federação Russa): para uma criança com dupla nacionalidade, o IRN normalmente aceita um nome permitido no país da segunda nacionalidade, em transliteração latina',
           '⚠️ Se o nome não estiver na base do IRN — os progenitores apresentam um «pedido de admissibilidade» (1–2 semanas, gratuito)',
-          '👨‍👩‍👧 **Apelidos**: a criança pode receber apelidos de qualquer dos progenitores e ascendentes; a ordem é flexível, não tem de ser necessariamente «mãe+pai»',
+          '👨‍👩‍👧 Apelidos: a criança pode receber apelidos de qualquer dos progenitores e ascendentes; a ordem é flexível, não tem de ser necessariamente «mãe+pai»',
           '🌍 Para crianças estrangeiras com nacionalidade de outro país, o IRN pode admitir outra ordem de nomes, conforme a norma estrangeira'
         ]}
       ]
@@ -89,14 +89,14 @@ export default {
       title: '📋 Depois do registo — o que obter',
       content: [
         { kind: 'checklist', items: [
-          '🪪 **Cartão de Cidadão** da criança — chega em 2–4 semanas',
-          '🛡️ **NISS** — para prestações e seguro de saúde',
-          '🔢 **NIF** — necessário se abrir um depósito para a criança ou arrendar uma habitação para a família com a criança',
-          '🌍 **Passaporte português** (se houver nacionalidade): IRN, normal — cerca de 65 € em Portugal, urgente/expresso — mais caro; o prazo depende do tipo de serviço',
-          '🩺 **Médico de família** — marcar consulta com pediatra',
-          '💉 **Plano Nacional de Vacinação (PNV)**: primeira vacina aos 2 meses, consulta de controlo — 7 dias',
-          '👶 **Abono de família**: calculado por escalão (rendimento do agregado / número de crianças com direito + 1) e idade da criança. Calcule o valor exato na Segurança Social Direta ou através do ISS; tabelas exatas — em seg-social.pt',
-          '🌐 **Registo na embaixada do país dos progenitores**: para dupla nacionalidade — pedido através do consulado'
+          '🪪 Cartão de Cidadão da criança — chega em 2–4 semanas',
+          '🛡️ NISS — para prestações e seguro de saúde',
+          '🔢 NIF — necessário se abrir um depósito para a criança ou arrendar uma habitação para a família com a criança',
+          '🌍 Passaporte português (se houver nacionalidade): IRN, normal — cerca de 65 € em Portugal, urgente/expresso — mais caro; o prazo depende do tipo de serviço',
+          '🩺 Médico de família — marcar consulta com pediatra',
+          '💉 Plano Nacional de Vacinação (PNV): primeira vacina aos 2 meses, consulta de controlo — 7 dias',
+          '👶 Abono de família: calculado por escalão (rendimento do agregado / número de crianças com direito + 1) e idade da criança. Calcule o valor exato na Segurança Social Direta ou através do ISS; tabelas exatas — em seg-social.pt',
+          '🌐 Registo na embaixada do país dos progenitores: para dupla nacionalidade — pedido através do consulado'
         ]}
       ]
     },

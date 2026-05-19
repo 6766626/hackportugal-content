@@ -47,18 +47,18 @@ export default {
       title: 'All 12 villages',
       content: [
         { kind: 'checklist', items: [
-          '1. **Almeida** — a 17th-century star fortress (Vauban style), an excellent example of military architecture',
-          '2. **Belmonte** — Cabral + Jewish heritage (see above)',
-          '3. **Castelo Mendo** — tiny, with two town gates, 300 residents',
-          '4. **Castelo Novo** — thermal waters, mediaeval pillory',
-          '5. **Castelo Rodrigo** — on the border with Spain, excellently preserved, with a 16-year siege in its history',
-          '6. **Idanha-a-Velha** — a Roman town, one of the oldest villages in Portugal',
-          '7. **Linhares da Beira** — castle-museum, paragliding',
-          '8. **Marialva** — a “ghost town”: the old town on the hill is abandoned, with the newer settlement below',
-          '9. **Monsanto** — ⭐ (see above)',
-          '10. **Piódão** — ⭐ (see above)',
-          '11. **Sortelha** — a 13th-century fortress on a rock, the most “fairy-tale” view',
-          '12. **Trancoso** — birthplace of the prophet Bandarra, with a mediaeval culture festival every July'
+          '1. Almeida — a 17th-century star fortress (Vauban style), an excellent example of military architecture',
+          '2. Belmonte — Cabral + Jewish heritage (see above)',
+          '3. Castelo Mendo — tiny, with two town gates, 300 residents',
+          '4. Castelo Novo — thermal waters, mediaeval pillory',
+          '5. Castelo Rodrigo — on the border with Spain, excellently preserved, with a 16-year siege in its history',
+          '6. Idanha-a-Velha — a Roman town, one of the oldest villages in Portugal',
+          '7. Linhares da Beira — castle-museum, paragliding',
+          '8. Marialva — a “ghost town”: the old town on the hill is abandoned, with the newer settlement below',
+          '9. Monsanto — ⭐ (see above)',
+          '10. Piódão — ⭐ (see above)',
+          '11. Sortelha — a 13th-century fortress on a rock, the most “fairy-tale” view',
+          '12. Trancoso — birthplace of the prophet Bandarra, with a mediaeval culture festival every July'
         ]}
       ]
     },

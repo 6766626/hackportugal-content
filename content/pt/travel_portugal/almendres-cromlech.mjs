@@ -48,11 +48,11 @@ export default {
       title: 'O que incluir na viagem',
       content: [
         { kind: 'checklist', items: [
-          '🏛️ **Évora** (15 km) — templo romano de Diana, Capela dos Ossos, Sé medieval — no mínimo 1 dia',
-          '⚱️ **Anta Grande do Zambujeiro** — um dos maiores dólmenes da Europa, 10 km a sul do cromeleque',
-          '🏔️ **Arraiolos** — tapetes bordados, 25 km a norte',
-          '🥘 **Almoço em Évora** — cozinha tradicional do Alentejo: migas, açorda, porco preto',
-          '🍷 **Adegas do Alentejo** — Cartuxa, Herdade do Esporão — provas 15-25 €'
+          '🏛️ Évora (15 km) — templo romano de Diana, Capela dos Ossos, Sé medieval — no mínimo 1 dia',
+          '⚱️ Anta Grande do Zambujeiro — um dos maiores dólmenes da Europa, 10 km a sul do cromeleque',
+          '🏔️ Arraiolos — tapetes bordados, 25 km a norte',
+          '🥘 Almoço em Évora — cozinha tradicional do Alentejo: migas, açorda, porco preto',
+          '🍷 Adegas do Alentejo — Cartuxa, Herdade do Esporão — provas 15-25 €'
         ]}
       ]
     },

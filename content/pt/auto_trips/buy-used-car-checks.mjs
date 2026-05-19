@@ -3,7 +3,7 @@ export default {
   id: 'buy-used-car-checks',
   categoryId: 'auto_trips',
   title: 'Como verificar um carro usado antes de comprar em Portugal',
-  tldr: 'Verificação de **4 camadas**: (1) **ACP / Standvirtual** — relatório histórico por VIN, 15-30 €: multas, quilometragem, acidentes; (2) **Carfax Portugal** — base de dados internacional com histórico dos EUA/UE; (3) **Portal das Finanças** — verificar se existem dívidas de IUC, ISV; (4) **inspeção manual** + mecânico independente por 50-150 €. O vendedor deve fornecer o DUA (Documento Único Automóvel), IPO válido, manual, chaves (original + suplente).\n\nCoima ao vendedor por ocultação: até 3 × o valor do carro.',
+  tldr: 'Verificação de 4 camadas: (1) ACP / Standvirtual — relatório histórico por VIN, 15-30 €: multas, quilometragem, acidentes; (2) Carfax Portugal — base de dados internacional com histórico dos EUA/UE; (3) Portal das Finanças — verificar se existem dívidas de IUC, ISV; (4) inspeção manual + mecânico independente por 50-150 €. O vendedor deve fornecer o DUA (Documento Único Automóvel), IPO válido, manual, chaves (original + suplente).\n\nCoima ao vendedor por ocultação: até 3 × o valor do carro.',
   tags: ['automóvel', 'verificação', 'vin', 'compra'],
   estimatedReadMinutes: 5,
   steps: [
@@ -33,7 +33,7 @@ export default {
           ]},
           { id: 'o4', title: 'SICV (gratuito!)', content: [
             { kind: 'checklist', items: [
-              '**SICV** — Sistema Informativo do Certificado de Veículo',
+              'SICV — Sistema Informativo do Certificado de Veículo',
               'Portal gratuito do IMT: sicv.imt-ip.pt',
               'Mostra: matrícula, modelo, data de registo, inspeção periódica, dívidas de IUC',
               'Não mostra histórico de acidentes'
@@ -50,12 +50,12 @@ export default {
       title: '📄 Documentos do vendedor — obrigatório',
       content: [
         { kind: 'checklist', items: [
-          '📑 **DUA (Documento Único Automóvel)** — ORIGINAL, não cópia. Com logótipo azul, VIN, dados do proprietário',
-          '📋 **Certificado de IPO** — válido na data da compra (não expira nos 30 dias seguintes)',
-          '📖 **Manual do condutor** (livro de revisões) + histórico de manutenção, de preferência',
-          '🔑 **2 chaves**: original + suplente. 1 chave → negociar uma redução de preço',
-          '🧾 **Factura proforma / contrato de compra-venda** — do concessionário (se o vendedor for comerciante) ou contrato simples (se for particular)',
-          '📄 **Registo de propriedade** — certificado de propriedade',
+          '📑 DUA (Documento Único Automóvel) — ORIGINAL, não cópia. Com logótipo azul, VIN, dados do proprietário',
+          '📋 Certificado de IPO — válido na data da compra (não expira nos 30 dias seguintes)',
+          '📖 Manual do condutor (livro de revisões) + histórico de manutenção, de preferência',
+          '🔑 2 chaves: original + suplente. 1 chave → negociar uma redução de preço',
+          '🧾 Factura proforma / contrato de compra-venda — do concessionário (se o vendedor for comerciante) ou contrato simples (se for particular)',
+          '📄 Registo de propriedade — certificado de propriedade',
           '⚠️ Se faltar alguma coisa → motivo significativo para negociar ou desistir'
         ]}
       ]
@@ -91,7 +91,7 @@ export default {
           ]},
           { id: 'i3', title: 'Mecânico independente (recomendado)', content: [
             { kind: 'checklist', items: [
-              '**Inspeção pré-compra** — 50-150 € por uma inspeção de 2 horas',
+              'Inspeção pré-compra — 50-150 € por uma inspeção de 2 horas',
               'Centros populares: Norauto, Midas, oficinas locais com scanner OBD-II',
               'Verificam: erros informáticos, estado do motor, caixa de velocidades, suspensão',
               'Relatório com fotografias + lista de problemas',
@@ -139,7 +139,7 @@ export default {
           ]},
           { id: 'p3', title: 'Registo em nome do novo proprietário', content: [
             { kind: 'checklist', items: [
-              '**Em 60 dias** (por lei) — registar a transferência no IMT / Conservatória do Registo Automóvel / Espaço Automóvel numa Loja do Cidadão',
+              'Em 60 dias (por lei) — registar a transferência no IMT / Conservatória do Registo Automóvel / Espaço Automóvel numa Loja do Cidadão',
               'Taxa: 45-65 € (online / presencial)',
               'Documentos: DUA, contrato de compra e venda, Cartão de Cidadão/autorização de residência de ambos, IPO',
               '⚠️ Se o vendedor não entregou o DUA — você não é proprietário, o registo é impossível'
@@ -153,14 +153,14 @@ export default {
       title: '🚩 Esquemas de fraude frequentes',
       content: [
         { kind: 'checklist', items: [
-          '**Quilometragem adulterada**: comparar com o relatório ACP + desgaste do interior',
-          '**Penhor sobre o carro**: verificar no Registo Automóvel (pode ser gratuito através do ACP ou IRN)',
-          '**Automóvel apreendido**: o SICV mostra',
-          '**VIN falsificado (alterado)**: verificar em diferentes locais (motor, pilar, chapa) — devem coincidir',
-          '**Danos após inundação**: suspeitar se o preço for demasiado bom — verificar tapetes, cabos elétricos',
-          '**“Não estou cá, o meu sobrinho entrega”**: DUA original + procuração notarial',
-          '**Falsos concessionários ao estilo AliExpress**: apenas através de stands / empresas de usados conhecidas',
-          '**“Vamos dar uma volta, os documentos estão na mala, mostro depois”**: nunca'
+          'Quilometragem adulterada: comparar com o relatório ACP + desgaste do interior',
+          'Penhor sobre o carro: verificar no Registo Automóvel (pode ser gratuito através do ACP ou IRN)',
+          'Automóvel apreendido: o SICV mostra',
+          'VIN falsificado (alterado): verificar em diferentes locais (motor, pilar, chapa) — devem coincidir',
+          'Danos após inundação: suspeitar se o preço for demasiado bom — verificar tapetes, cabos elétricos',
+          '“Não estou cá, o meu sobrinho entrega”: DUA original + procuração notarial',
+          'Falsos concessionários ao estilo AliExpress: apenas através de stands / empresas de usados conhecidas',
+          '“Vamos dar uma volta, os documentos estão na mala, mostro depois”: nunca'
         ]}
       ]
     }

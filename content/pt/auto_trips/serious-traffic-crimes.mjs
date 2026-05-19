@@ -3,7 +3,7 @@ export default {
   id: 'serious-traffic-crimes',
   categoryId: 'auto_trips',
   title: 'Infrações graves ao Código da Estrada — crimes rodoviários',
-  tldr: 'Em Portugal, algumas infrações não são administrativas, mas sim criminais (Código Penal + Código da Estrada). Incluem: condução com BAC ≥1.2 g/l, recusa de teste de álcool, condução depois de inibição de conduzir, homicídio / ofensa grave por negligência, abandono do local do acidente. Sanções: inibição de conduzir de 2 meses a 3 anos, coimas até 15 000 €, prisão até 5 anos.\n\n**Sistema carta por pontos**: por crime rodoviário — **−6 pontos**; por contra-ordenação muito grave (incl. BAC 0.8–1.2) — **−5 pontos**; grave — normalmente −3. Ao chegar a 0 pontos — **cassação do título**: não é possível obter nova carta durante 2 anos; depois, é necessário tirar a carta do zero. A condenação fica na certidão do registo criminal.',
+  tldr: 'Em Portugal, algumas infrações não são administrativas, mas sim criminais (Código Penal + Código da Estrada). Incluem: condução com BAC ≥1.2 g/l, recusa de teste de álcool, condução depois de inibição de conduzir, homicídio / ofensa grave por negligência, abandono do local do acidente. Sanções: inibição de conduzir de 2 meses a 3 anos, coimas até 15 000 €, prisão até 5 anos.\n\nSistema carta por pontos: por crime rodoviário — −6 pontos; por contra-ordenação muito grave (incl. BAC 0.8–1.2) — −5 pontos; grave — normalmente −3. Ao chegar a 0 pontos — cassação do título: não é possível obter nova carta durante 2 anos; depois, é necessário tirar a carta do zero. A condenação fica na certidão do registo criminal.',
   tags: ['código da estrada', 'criminalidade', 'condução', 'coimas'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,10 +13,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Portugal tem um dos sistemas de controlo de BAC mais rigorosos da Europa.' },
         { kind: 'checklist', items: [
-          '🍺 **BAC 0.5–0.8 g/l** (cerca de 1–2 copos de vinho) — **contra-ordenação grave**: coima de 250–1 250 €, inibição de conduzir 1–12 meses, menos 3 pontos',
-          '🍷 **BAC 0.8–1.2 g/l** — **contra-ordenação muito grave**: coima de 500–2 500 €, inibição de conduzir 2–24 meses, menos 5 pontos',
-          '🍸 **BAC ≥ 1.2 g/l** — **crime** (art. 292 Código Penal): até 1 ano de prisão ou multa até 120 dias, SEMPRE inibição de conduzir 2+ meses, registo criminal durante 5–10 anos',
-          '🚫 **Recusa de teste** — é equiparada a BAC ≥ 1.2 g/l + acusação de "desobediência qualificada" (até 2 anos de prisão)',
+          '🍺 BAC 0.5–0.8 g/l (cerca de 1–2 copos de vinho) — contra-ordenação grave: coima de 250–1 250 €, inibição de conduzir 1–12 meses, menos 3 pontos',
+          '🍷 BAC 0.8–1.2 g/l — contra-ordenação muito grave: coima de 500–2 500 €, inibição de conduzir 2–24 meses, menos 5 pontos',
+          '🍸 BAC ≥ 1.2 g/l — crime (art. 292 Código Penal): até 1 ano de prisão ou multa até 120 dias, SEMPRE inibição de conduzir 2+ meses, registo criminal durante 5–10 anos',
+          '🚫 Recusa de teste — é equiparada a BAC ≥ 1.2 g/l + acusação de "desobediência qualificada" (até 2 anos de prisão)',
           '⚠️ Para novos condutores (<3 anos de carta): limite de 0.2 g/l — até uma caneca de cerveja pode constituir infração',
           '💼 Para condutores profissionais (táxis, camiões, autocarros): 0.2 g/l'
         ]}
@@ -26,7 +26,7 @@ export default {
       id: 'points',
       title: 'Sistema de pontos — 12 pontos com subtração',
       content: [
-        { kind: 'paragraph', text: 'Desde 2016 vigora o sistema de pontos (carta por pontos). Todos os condutores começam com 12 pontos.\n\n**Crime rodoviário** = −6 pontos.\n\n**Contra-ordenação muito grave** = −5 pontos.\n\n**Grave** = −3 pontos.\n\n**Leve** não retira pontos na tabela geral. Ao chegar a 0 — cassação do título; não é possível obter nova carta durante 2 anos; depois, é necessário fazer novamente todo o processo de obtenção.' },
+        { kind: 'paragraph', text: 'Desde 2016 vigora o sistema de pontos (carta por pontos). Todos os condutores começam com 12 pontos.\n\nCrime rodoviário = −6 pontos.\n\nContra-ordenação muito grave = −5 pontos.\n\nGrave = −3 pontos.\n\nLeve não retira pontos na tabela geral. Ao chegar a 0 — cassação do título; não é possível obter nova carta durante 2 anos; depois, é necessário fazer novamente todo o processo de obtenção.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Menos 1 ponto — contra-ordenações graves', content: [
             { kind: 'checklist', items: [
@@ -79,7 +79,7 @@ export default {
       title: 'Radares — margem de erro e como funcionam',
       content: [
         { kind: 'checklist', items: [
-          '📐 Margem de erro oficial: **7%** (integrada no cálculo da coima)',
+          '📐 Margem de erro oficial: 7% (integrada no cálculo da coima)',
           'Exemplo: limite 120, velocidade 140 — será registado como (140 × 0.93 = 130.2) → coima por +10 km/h, e não +20',
           'Radares fixos: há sinais de aviso 300 m antes',
           'Radares ocultos da ANSR: sem aviso, podem estar em veículos da GNR',
@@ -107,7 +107,7 @@ export default {
       id: 'foreign-licence',
       title: 'Para cartas de condução não portuguesas',
       content: [
-        { kind: 'paragraph', text: 'O sistema de pontos aplica-se a **todos** os condutores em território português, mesmo com carta estrangeira. Ao chegar a 0 pontos — perda do direito de conduzir em Portugal (a sua carta do país de origem deixa de ser válida em Portugal); ao regressar ao seu país — a carta continua válida como habitualmente.' },
+        { kind: 'paragraph', text: 'O sistema de pontos aplica-se a todos os condutores em território português, mesmo com carta estrangeira. Ao chegar a 0 pontos — perda do direito de conduzir em Portugal (a sua carta do país de origem deixa de ser válida em Portugal); ao regressar ao seu país — a carta continua válida como habitualmente.' },
         { kind: 'checklist', items: [
           'As coimas associadas a cartas estrangeiras são registadas na base centralizada EUCARIS (para cartas da UE) ou no registo nacional português',
           'Ao trocar a carta por uma portuguesa (após a troca) — os pontos são transferidos',

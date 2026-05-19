@@ -3,7 +3,7 @@ export default {
   id: 'relocation-shipping',
   categoryId: 'before_arrival',
   title: 'Shipping belongings to Portugal — container, companies, luggage',
-  tldr: 'Options: (1) **sea container** 20\' (33 m³) — €3,000-5,000 from Moscow/Kyiv, 4-8 weeks. 40\' — €4,500-7,500, 2 containers per family; (2) **groupage cargo (LCL)** from €600 for 5 m³; (3) **car transporter / furniture van** across Europe — €2,000-4,000 from Poland/Germany; (4) **EU-to-EU move** — specialist movers €800-2,500; (5) **airline luggage** — from €50/extra suitcase. Customs: personal belongings are duty-free when relocating (Isenção por transferência de residência), AIMA certificate + invoice required.',
+  tldr: 'Options: (1) sea container 20\' (33 m³) — €3,000-5,000 from Moscow/Kyiv, 4-8 weeks. 40\' — €4,500-7,500, 2 containers per family; (2) groupage cargo (LCL) from €600 for 5 m³; (3) car transporter / furniture van across Europe — €2,000-4,000 from Poland/Germany; (4) EU-to-EU move — specialist movers €800-2,500; (5) airline luggage — from €50/extra suitcase. Customs: personal belongings are duty-free when relocating (Isenção por transferência de residência), AIMA certificate + invoice required.',
   tags: ['relocation', 'container', 'shipping', 'customs'],
   estimatedReadMinutes: 7,
   steps: [
@@ -14,8 +14,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'o1', title: '🚢 Sea container (from non-EU)', content: [
             { kind: 'checklist', items: [
-              '**20\' (33 m³)**: roughly for a 2-bedroom flat — €3,000-5,000 to Lisbon, 4-8 weeks',
-              '**40\' (67 m³)**: 3-4-bedroom flat with a car — €4,500-7,500',
+              '20\' (33 m³): roughly for a 2-bedroom flat — €3,000-5,000 to Lisbon, 4-8 weeks',
+              '40\' (67 m³): 3-4-bedroom flat with a car — €4,500-7,500',
               'Port of arrival: Porto de Lisboa or Porto de Leixões (Porto)',
               'Major freight forwarders: FlyDove Cargo, Allied Pickfords, AGS Movers, Santa Fe Relocation',
               'Includes: loading/unloading, sea freight, insurance, customs clearance',
@@ -67,7 +67,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'When moving to Portugal, you do NOT pay import duties or IVA on personal belongings if you meet the conditions of EU Regulation 1186/2009.' },
         { kind: 'checklist', items: [
-          '✅ You are **genuinely** changing residence (confirmed by residence permit / certificado consular / MNE)',
+          '✅ You are genuinely changing residence (confirmed by residence permit / certificado consular / MNE)',
           '✅ The belongings are your personal items, used for ≥ 6 months before the move',
           '✅ They are imported within 12 months after becoming a resident',
           '✅ They will not be sold in the first 12 months after import',
@@ -98,7 +98,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Car = separate category ("ISV" = Imposto sobre Veículos)',
-          '**Preferential import when relocating** (Isenção ISV): the car must have been yours for ≥ 6 months before the move, bought in the departure country',
+          'Preferential import when relocating (Isenção ISV): the car must have been yours for ≥ 6 months before the move, bought in the departure country',
           'Transport: car transporter (€1,500-2,500 EU-to-EU) or RoRo by sea (€1,200-2,000 non-EU → PT)',
           'Registration at IMT: €270 + registration plate check + IPO',
           'Temporary insurance for 30 days — €80-150',
@@ -113,12 +113,12 @@ export default {
       title: '📅 Timeline',
       content: [
         { kind: 'checklist', items: [
-          '**T-3 months**: inventory, compare quotes (minimum 3 companies), book container',
-          '**T-2 months**: packing, documents for customs',
-          '**T-1 month**: loading at the place of departure, dispatch',
-          '**T-0**: move yourself (by air), obtain PT residence permit',
-          '**T+1–2 months**: cargo arrives in Leixões/Lisboa, customs clearance',
-          '**T+2–3 months**: delivery, unpacking'
+          'T-3 months: inventory, compare quotes (minimum 3 companies), book container',
+          'T-2 months: packing, documents for customs',
+          'T-1 month: loading at the place of departure, dispatch',
+          'T-0: move yourself (by air), obtain PT residence permit',
+          'T+1–2 months: cargo arrives in Leixões/Lisboa, customs clearance',
+          'T+2–3 months: delivery, unpacking'
         ]}
       ]
     },
@@ -127,15 +127,15 @@ export default {
       title: 'Tips',
       content: [
         { kind: 'checklist', items: [
-          '📊 **3+ quotes** from different companies — difference 30-50%',
-          '🔍 **Check reviews**: Google Reviews, Trustpilot, Facebook groups russia-pt',
-          '💰 **Cargo insurance** (“all risks”, All Risks) — 1-3% of the value of your belongings. Essential for a container',
-          '📸 **Photograph everything** before loading — damage is disputed through insurance',
-          '🔌 **220 V appliances**: sockets in PT — Europlug + Schuko. Adaptors for UK/US appliances',
-          '📏 **Volume** — calculate accurately. Underestimating → you will have to pay an extra €300-500/m³',
-          '🧳 **Air luggage**: take valuables with you (documents, laptop, jewellery) — a container may get lost / stuck',
-          '🐕 **Animals** separately: they are not transported with furniture. See the “pet-import” guide',
-          '🏢 **Storage in PT**: if the residence permit is delayed — temporary storage warehouse in Lisbon €50-100/m³/month'
+          '📊 3+ quotes from different companies — difference 30-50%',
+          '🔍 Check reviews: Google Reviews, Trustpilot, Facebook groups russia-pt',
+          '💰 Cargo insurance (“all risks”, All Risks) — 1-3% of the value of your belongings. Essential for a container',
+          '📸 Photograph everything before loading — damage is disputed through insurance',
+          '🔌 220 V appliances: sockets in PT — Europlug + Schuko. Adaptors for UK/US appliances',
+          '📏 Volume — calculate accurately. Underestimating → you will have to pay an extra €300-500/m³',
+          '🧳 Air luggage: take valuables with you (documents, laptop, jewellery) — a container may get lost / stuck',
+          '🐕 Animals separately: they are not transported with furniture. See the “pet-import” guide',
+          '🏢 Storage in PT: if the residence permit is delayed — temporary storage warehouse in Lisbon €50-100/m³/month'
         ]}
       ]
     }

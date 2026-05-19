@@ -18,7 +18,7 @@ export default {
               'Covers damage to third parties (cars, people)',
               'Minimum RC insured amounts: set by law/ASF (see art. 12 DL 291/2007); it is important to distinguish between the limit per injured party and the limit per event — check the current amounts in ASF publications',
               'International Motor Insurance Certificate / former Green Card — for the EU/EEA, Portuguese RC applies automatically, but it is useful to have the certificate; for some countries outside the EU/EEA it may be mandatory',
-              'Without valid RC: for a passenger car, the coima is usually **€500–2,500**, vehicle seizure/immobilisation is possible, as is liability to the Fundo de Garantia Automóvel/injured parties'
+              'Without valid RC: for a passenger car, the coima is usually €500–2,500, vehicle seizure/immobilisation is possible, as is liability to the Fundo de Garantia Automóvel/injured parties'
             ]}
           ]},
           { id: 'danos-p', title: 'Danos Próprios / Casco', content: [
@@ -96,7 +96,7 @@ export default {
         { kind: 'checklist', items: [
           '🛍️ Compare 3–5 offers — prices can differ by a factor of 2',
           '📅 Changing insurer — 30 days before the end, written cancellation notice',
-          '🚗 When selling a car, the seller’s insurance **does not transfer** to the buyer — the buyer arranges their own RC before driving. The seller notifies the insurer of the sale and can request termination of the contract/a refund of part of the premium or transfer of the policy to another car',
+          '🚗 When selling a car, the seller’s insurance does not transfer to the buyer — the buyer arranges their own RC before driving. The seller notifies the insurer of the sale and can request termination of the contract/a refund of part of the premium or transfer of the policy to another car',
           '🆘 ASF number 213 847 900 — for complaints',
           '🌍 Green Card is mandatory for travelling to other EU countries',
           '📉 After 5 years without accidents — bonus-malus goes down to the minimum'

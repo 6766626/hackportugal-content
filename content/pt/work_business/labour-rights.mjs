@@ -22,14 +22,14 @@ export default {
           ]},
           { id: 'c2', title: 'Contrato a termo certo (com data fixa)', content: [
             { kind: 'checklist', items: [
-              'Data de termo concreta. Após a Agenda do Trabalho Digno (Lei 13/2023): máximo geral — **2 anos** (incluindo renovações). O mínimo depende da fundamentação; para casos típicos — 6 meses',
+              'Data de termo concreta. Após a Agenda do Trabalho Digno (Lei 13/2023): máximo geral — 2 anos (incluindo renovações). O mínimo depende da fundamentação; para casos típicos — 6 meses',
               'Apenas por motivos objetivos enumerados no Código do Trabalho (conjuntura, projeto temporário, substituição de trabalhador, etc.)',
-              'Máximo de **3 renovações**, sendo que a duração total das renovações não pode exceder o prazo inicial',
+              'Máximo de 3 renovações, sendo que a duração total das renovações não pode exceder o prazo inicial',
               'No termo do prazo sem conversão em contrato sem termo — compensação nos termos da Lei 13/2023 (taxa geral de 24 dias de retribuição base + diuturnidades por cada ano); o cálculo concreto depende da situação'
             ]}
           ]},
           { id: 'c3', title: 'Contrato a termo incerto (sem data fixa)', content: [
-            { kind: 'paragraph', text: 'Contrato a termo sem data fixa (até à conclusão de um projeto / substituição de alguém em licença parental). Máximo de **4 anos** (após a Lei 13/2023). Compensação segundo as mesmas regras gerais do termo certo.' }
+            { kind: 'paragraph', text: 'Contrato a termo sem data fixa (até à conclusão de um projeto / substituição de alguém em licença parental). Máximo de 4 anos (após a Lei 13/2023). Compensação segundo as mesmas regras gerais do termo certo.' }
           ]},
           { id: 'c4', title: 'Contrato de prestação de serviços / Recibo Verde', content: [
             { kind: 'paragraph', text: 'Formato semelhante ao trabalho independente.\n\nPaga os seus próprios impostos através do Anexo B. Não existem direitos laborais do trabalhador ao abrigo do Código do Trabalho — férias pagas pelo empregador, subsídios de férias/Natal, proteção contra despedimento. Mas, com contribuições para a Segurança Social, o trabalhador independente pode ter acesso a algumas prestações sociais (doença, parentalidade) mediante condições. Para proteção, o contrato deve refletir um estatuto independente real; caso contrário, trata-se de «falso recibo verde» — pode levar ao reconhecimento de contrato de trabalho, liquidações adicionais de Segurança Social e coimas da ACT (o valor depende da categoria da infração).' }
@@ -42,15 +42,15 @@ export default {
       title: '💰 Salário e impostos',
       content: [
         { kind: 'checklist', items: [
-          '**Salário mínimo 2026**: 920 €/mês × 14 (incluindo 13.º mês + subsídio de férias)',
-          '**Subsídio de férias**: 1 salário mensal em junho',
-          '**Subsídio de Natal** (13.º mês): 1 salário mensal em dezembro',
-          '**Subsídio de alimentação**: não é obrigatório, mas é comum. 6-9 €/dia útil. Até 6 €/dia não está sujeito a IRS quando pago em dinheiro; com cartão/vale refeição o limite é superior — 10,20 €/dia',
-          '**Trabalho suplementar (horas extras)** nos termos do art. 268 CT + Lei 13/2023 (Agenda do Trabalho Digno): as taxas **dependem do volume anual**. **Até 100 horas/ano**: +25% pela primeira hora em dia útil, +37,5% pelas seguintes, +50% em dia de descanso/feriado. **A partir da 101.ª hora/ano**: as taxas sobem para +50%/+75%/+100%. O contrato coletivo pode estabelecer condições mais favoráveis',
-          '**Trabalho noturno** (22:00-07:00): +25% adicional',
-          '**Trabalho em descanso semanal/feriado**: normalmente +50% por cada hora; em alguns casos também há direito a descanso compensatório. O contrato coletivo pode estabelecer condições melhores (Código do Trabalho arts. 268, 269)',
-          '**Descontos**: IRS (escala progressiva 11,97-48%), Segurança Social 11%. A diferença entre bruto e líquido é de cerca de 22-35%, consoante o salário',
-          '**Recibo de vencimento**: deve ser emitido mensalmente, com discriminação de todos os descontos'
+          'Salário mínimo 2026: 920 €/mês × 14 (incluindo 13.º mês + subsídio de férias)',
+          'Subsídio de férias: 1 salário mensal em junho',
+          'Subsídio de Natal (13.º mês): 1 salário mensal em dezembro',
+          'Subsídio de alimentação: não é obrigatório, mas é comum. 6-9 €/dia útil. Até 6 €/dia não está sujeito a IRS quando pago em dinheiro; com cartão/vale refeição o limite é superior — 10,20 €/dia',
+          'Trabalho suplementar (horas extras) nos termos do art. 268 CT + Lei 13/2023 (Agenda do Trabalho Digno): as taxas dependem do volume anual. Até 100 horas/ano: +25% pela primeira hora em dia útil, +37,5% pelas seguintes, +50% em dia de descanso/feriado. A partir da 101.ª hora/ano: as taxas sobem para +50%/+75%/+100%. O contrato coletivo pode estabelecer condições mais favoráveis',
+          'Trabalho noturno (22:00-07:00): +25% adicional',
+          'Trabalho em descanso semanal/feriado: normalmente +50% por cada hora; em alguns casos também há direito a descanso compensatório. O contrato coletivo pode estabelecer condições melhores (Código do Trabalho arts. 268, 269)',
+          'Descontos: IRS (escala progressiva 11,97-48%), Segurança Social 11%. A diferença entre bruto e líquido é de cerca de 22-35%, consoante o salário',
+          'Recibo de vencimento: deve ser emitido mensalmente, com discriminação de todos os descontos'
         ]}
       ]
     },
@@ -59,13 +59,13 @@ export default {
       title: '⏰ Tempo de trabalho',
       content: [
         { kind: 'checklist', items: [
-          '**Padrão**: 40 horas por semana, 8 horas por dia',
+          'Padrão: 40 horas por semana, 8 horas por dia',
           'Máximo de trabalho suplementar: 150 horas/ano (para a maioria dos setores)',
           'Pausa para almoço: 1-2 horas, mínimo de 1 hora se o dia de trabalho for >6 horas',
           'Intervalo entre turnos: ≥ 11 horas',
           'Descanso semanal: 1 obrigatório + 1 complementar (normalmente sábado+domingo)',
           'Horário flexível: possível por acordo',
-          '**Teletrabalho**: regulado pela Lei 83/2021 — contrato escrito, pagamento de eletricidade/comunicações pelo empregador, direito a desligar'
+          'Teletrabalho: regulado pela Lei 83/2021 — contrato escrito, pagamento de eletricidade/comunicações pelo empregador, direito a desligar'
         ]}
       ]
     },
@@ -76,8 +76,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'l1', title: 'Férias (férias anuais)', content: [
             { kind: 'checklist', items: [
-              '**22 dias úteis** (padrão) = cerca de 31 dias de calendário',
-              '⚠️ Os dias adicionais por assiduidade (antes +1–3 dias) **foram eliminados pela Lei 23/2012** e já não vigoram como regra do Código do Trabalho — podem existir apenas por contrato coletivo, política interna ou acordo individual',
+              '22 dias úteis (padrão) = cerca de 31 dias de calendário',
+              '⚠️ Os dias adicionais por assiduidade (antes +1–3 dias) foram eliminados pela Lei 23/2012 e já não vigoram como regra do Código do Trabalho — podem existir apenas por contrato coletivo, política interna ou acordo individual',
               'Devem ser gozadas durante o ano civil (não podem transitar sem acordo)',
               'Pagas a 100% + subsídio de férias',
               'Em caso de despedimento/rescisão: compensação pelos dias não gozados'
@@ -89,15 +89,15 @@ export default {
               'A partir do 4.º dia — Subsídio de doença da Segurança Social, 55-75% do salário médio',
               'Em doença prolongada (>365 dias) — 70%',
               'Atestado médico (baixa) emitido pelo médico de família ou pelo serviço de urgência',
-              '**Dispensa do trabalho** — até 4 horas para consultas médicas sem redução do salário'
+              'Dispensa do trabalho — até 4 horas para consultas médicas sem redução do salário'
             ]}
           ]},
           { id: 'l3', title: 'Licença parental', content: [
             { kind: 'checklist', items: [
-              '**120 dias**: 100% do salário (padrão)',
-              '**150 dias**: 80% (se partilhada com o parceiro)',
-              '**180 dias**: **90%** (desde 2023, Lei 13/2023 — se ambos os progenitores gozarem ≥ 30 dias)',
-              '**Pai**: 28 dias obrigatórios + 8 opcionais (Lei 90/2019)',
+              '120 dias: 100% do salário (padrão)',
+              '150 dias: 80% (se partilhada com o parceiro)',
+              '180 dias: 90% (desde 2023, Lei 13/2023 — se ambos os progenitores gozarem ≥ 30 dias)',
+              'Pai: 28 dias obrigatórios + 8 opcionais (Lei 90/2019)',
               'Gravidez: 30+ dias antes do parto — licença obrigatória',
               'Amamentação: 2 × 30 min por dia de pausas pagas até 1 ano'
             ]}
@@ -117,7 +117,7 @@ export default {
             { kind: 'checklist', items: [
               'Motivos objetivos: económicos, de mercado, tecnológicos',
               'Aviso prévio de 30-75 dias (depende da antiguidade)',
-              'Compensação: **14 dias de salário por cada ano de antiguidade** (limite de 12 × salário mensal ou mínimo de 3 × salários mensais)',
+              'Compensação: 14 dias de salário por cada ano de antiguidade (limite de 12 × salário mensal ou mínimo de 3 × salários mensais)',
               'Subsídio de desemprego: após despedimento por motivo não imputável ao trabalhador'
             ]}
           ]},
@@ -134,9 +134,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Sindicatos', content: [
             { kind: 'checklist', items: [
-              '**CGTP-IN** — o maior, de esquerda, 600 000 membros',
-              '**UGT** — centrista, 400 000',
-              '**FESAP**, **STE** — para trabalhadores da função pública',
+              'CGTP-IN — o maior, de esquerda, 600 000 membros',
+              'UGT — centrista, 400 000',
+              'FESAP, STE — para trabalhadores da função pública',
               'Quota sindical: 0,5-1% do salário',
               'Proteção: negociação de contratos coletivos, apoio jurídico, greves'
             ]}

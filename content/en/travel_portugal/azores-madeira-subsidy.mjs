@@ -3,7 +3,7 @@ export default {
   id: 'azores-madeira-subsidy',
   categoryId: 'travel_portugal',
   title: 'Azores and Madeira — Subsídio Social de Mobilidade and how to buy tickets',
-  tldr: 'The state subsidy **Subsídio Social de Mobilidade (SSM)** exists for **residents of the autonomous regions of the Azores and Madeira/Porto Santo** when travelling between the region and the mainland (or between regions/islands of the archipelago), as well as for students with a connection to the region. It does NOT apply to mainland residents as a tourist discount for flying to the islands. Eligibility is confirmed by residence in the autonomous region. The amount and number of subsidised trips are determined by the current Decreto-Lei/Portaria — check the up-to-date rules on ANAC/IMT/SATA. For tourists from the mainland — standard TAP, SATA, Ryanair fares (look for early deals and low-cost options).',
+  tldr: 'The state subsidy Subsídio Social de Mobilidade (SSM) exists for residents of the autonomous regions of the Azores and Madeira/Porto Santo when travelling between the region and the mainland (or between regions/islands of the archipelago), as well as for students with a connection to the region. It does NOT apply to mainland residents as a tourist discount for flying to the islands. Eligibility is confirmed by residence in the autonomous region. The amount and number of subsidised trips are determined by the current Decreto-Lei/Portaria — check the up-to-date rules on ANAC/IMT/SATA. For tourists from the mainland — standard TAP, SATA, Ryanair fares (look for early deals and low-cost options).',
   tags: ['azores', 'madeira', 'subsidy', 'flights'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,10 +13,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A flight subsidy programme between mainland Portugal and the autonomous regions (Azores, Madeira) — it compensates for the price difference between the mainland and the islands.' },
         { kind: 'checklist', items: [
-          '✅ Who is eligible: **residents of the autonomous region of the Azores or Madeira/Porto Santo** (not the mainland!) — foreigners with a residence permit and real residence in the region also qualify',
-          '✅ **Island residents → mainland**: subsidy up to €134 (2026)',
-          '✅ **Mainland residents → islands** (as tourists): lower subsidy, depending on the route',
-          '✅ **Maximum 4 trips per year** for island residents; 2 for tourists',
+          '✅ Who is eligible: residents of the autonomous region of the Azores or Madeira/Porto Santo (not the mainland!) — foreigners with a residence permit and real residence in the region also qualify',
+          '✅ Island residents → mainland: subsidy up to €134 (2026)',
+          '✅ Mainland residents → islands (as tourists): lower subsidy, depending on the route',
+          '✅ Maximum 4 trips per year for island residents; 2 for tourists',
           '❌ Does not work for: business trips (if paid for by the company), non-residents',
           '💰 Example: Lisbon—Ponta Delgada ticket €210 → subsidy €80 → final cost €130'
         ]}
@@ -33,7 +33,7 @@ export default {
               'The system automatically applies the “resident” fare',
               'You pay the reduced amount straight away',
               'Self-service, with no paper bureaucracy',
-              '**Preferred method** — faster and simpler'
+              'Preferred method — faster and simpler'
             ]}
           ]},
           { id: 'h2', title: 'Option B — refund after the trip (Ryanair, other carriers)', content: [
@@ -66,7 +66,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'a1', title: 'Azores', content: [
             { kind: 'checklist', items: [
-              '**Super subsidy** via SATA for residents of the Azores: up to 80% refund of the ticket price',
+              'Super subsidy via SATA for residents of the Azores: up to 80% refund of the ticket price',
               'Maximum 6 trips per year',
               'Additional subsidy for students / medical cases — up to 100%',
               'Apply via srprorainol.azores.gov.pt or municipal offices'
@@ -89,8 +89,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Beach island 30 minutes by air from Funchal',
-          '**Porto Santo Line** — ferry company (3 hours, €50-80 return, 30% discount for residents)',
-          '**SATA / TAP** — 10-15 flights per week, €35-60 one way (residents)',
+          'Porto Santo Line — ferry company (3 hours, €50-80 return, 30% discount for residents)',
+          'SATA / TAP — 10-15 flights per week, €35-60 one way (residents)',
           'In season (June-September) — crowded, book tickets 2-3 months ahead'
         ]}
       ]
@@ -100,7 +100,7 @@ export default {
       title: '🛩️ Flights between the Azores islands',
       content: [
         { kind: 'checklist', items: [
-          '**SATA Air Açores** — the only inter-island carrier',
+          'SATA Air Açores — the only inter-island carrier',
           'Residents: super fare €35-60 one way between neighbouring islands',
           'Non-residents: €80-150',
           'Routes: Ponta Delgada ↔ Terceira, Pico, Faial, Corvo, Flores',
@@ -114,14 +114,14 @@ export default {
       title: '💡 Tips for tourists in the Azores / Madeira',
       content: [
         { kind: 'checklist', items: [
-          '📅 **Season**: May-October is best — warm, no storms. But high season = high prices',
-          '🌡️ **Weather**: Madeira 20-26°C year-round, Azores 15-25°C',
-          '🚗 **Car hire**: essential for activities — you cannot properly explore the islands by bus; €30-60/day',
-          '🏨 **Accommodation**: local AL (Airbnb) is cheaper than hotels, often with a view',
-          '🥾 **Hiking**: Azores — 8 islands, each with its own trails. Madeira — levadas (water channels), a must-do experience',
-          '🌊 **Whale watching** (Azores, April-September): €50-80 for a 3-hour tour',
-          '🍷 **Wine**: Madeira wine, Pico vineyards — UNESCO heritage',
-          '🏖️ **Beaches**: Porto Santo (Madeira) — the only sandy one in the region; Azores — volcanic, black'
+          '📅 Season: May-October is best — warm, no storms. But high season = high prices',
+          '🌡️ Weather: Madeira 20-26°C year-round, Azores 15-25°C',
+          '🚗 Car hire: essential for activities — you cannot properly explore the islands by bus; €30-60/day',
+          '🏨 Accommodation: local AL (Airbnb) is cheaper than hotels, often with a view',
+          '🥾 Hiking: Azores — 8 islands, each with its own trails. Madeira — levadas (water channels), a must-do experience',
+          '🌊 Whale watching (Azores, April-September): €50-80 for a 3-hour tour',
+          '🍷 Wine: Madeira wine, Pico vineyards — UNESCO heritage',
+          '🏖️ Beaches: Porto Santo (Madeira) — the only sandy one in the region; Azores — volcanic, black'
         ]}
       ]
     }

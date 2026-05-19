@@ -29,7 +29,7 @@ export default {
       id: 'deadline',
       title: 'Prazo',
       content: [
-        { kind: 'warning', text: 'Pelo Decreto-Lei 138/2012, as regras dependem do país de emissão. Se a carta for elegível para troca, o pedido normalmente deve ser feito após a fixação da residência dentro dos prazos estabelecidos; **até 2 anos a contar da data de residência, a troca é possível sem exame para países com regime reconhecido**, após 2 anos podem exigir exame prático. Para CPLP/OCDE, as condições são muitas vezes simplificadas. Para ucranianos com Proteção Temporária — validade durante todo o período de protecção (até 04.03.2027, ao abrigo do Regulamento EU 2022/1280).' }
+        { kind: 'warning', text: 'Pelo Decreto-Lei 138/2012, as regras dependem do país de emissão. Se a carta for elegível para troca, o pedido normalmente deve ser feito após a fixação da residência dentro dos prazos estabelecidos; até 2 anos a contar da data de residência, a troca é possível sem exame para países com regime reconhecido, após 2 anos podem exigir exame prático. Para CPLP/OCDE, as condições são muitas vezes simplificadas. Para ucranianos com Proteção Temporária — validade durante todo o período de protecção (até 04.03.2027, ao abrigo do Regulamento EU 2022/1280).' }
       ]
     },
     {

@@ -3,7 +3,7 @@ export default {
   id: 'dog-dangerous-breeds',
   categoryId: 'animals',
   title: 'Cães em Portugal — registo, raças perigosas, imposto',
-  tldr: 'Registo de cães: o SIAC (Sistema de Identificação dos Animais de Companhia) é obrigatório após a colocação do microchip — gratuito no veterinário. A licença municipal (licença canina) — categoria conforme o tipo de cão: **H = cão perigoso**, **G = cão potencialmente perigoso**, categorias normais — para os restantes. Segundo o DL 315/2009: para cão perigoso/potencialmente perigoso é obrigatório seguro de responsabilidade civil (mínimo legal), açaime + trela em locais públicos, proprietário maior de idade e sem condenações por determinados crimes. Lista de potencialmente perigoso (Portaria 422/2004 e actualizações): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino e cruzamentos destas raças.',
+  tldr: 'Registo de cães: o SIAC (Sistema de Identificação dos Animais de Companhia) é obrigatório após a colocação do microchip — gratuito no veterinário. A licença municipal (licença canina) — categoria conforme o tipo de cão: H = cão perigoso, G = cão potencialmente perigoso, categorias normais — para os restantes. Segundo o DL 315/2009: para cão perigoso/potencialmente perigoso é obrigatório seguro de responsabilidade civil (mínimo legal), açaime + trela em locais públicos, proprietário maior de idade e sem condenações por determinados crimes. Lista de potencialmente perigoso (Portaria 422/2004 e actualizações): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino e cruzamentos destas raças.',
   tags: ['cães', 'animais', 'cão', 'raças perigosas'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'r1', title: '1. Microchip (SIAC)', content: [
             { kind: 'checklist', items: [
-              'Obrigatório para **todos os cães** ≥ 4 meses (e gatos de companhia)',
+              'Obrigatório para todos os cães ≥ 4 meses (e gatos de companhia)',
               'Colocado por um veterinário — 20-40 €',
               'Registado automaticamente no SIAC (base de dados centralizada) — gratuito',
               'Verificação do chip: siac.dgav.pt pelo número'
@@ -24,7 +24,7 @@ export default {
             { kind: 'checklist', items: [
               'É requerida na Junta de Freguesia da área de residência',
               'Documentos: registo no SIAC, vacinação contra a raiva, comprovativo de esterilização (se estiver esterilizado)',
-              'Custo: **5-15 €/ano** (depende do município; categorias A/B — mais caro, até 50 €)',
+              'Custo: 5-15 €/ano (depende do município; categorias A/B — mais caro, até 50 €)',
               'Medalha — aro com número, fixado na coleira',
               'Renovação anual até 31 de Março',
               'Coima por falta de licença: 50-250 €'
@@ -67,13 +67,13 @@ export default {
               'Sem condenações por violência',
               'Sem contraindicações psicológicas (atestado médico)',
               'Frequentar um curso especial de «formação em comportamento canino» (em alguns municípios)',
-              'Seguro obrigatório de responsabilidade civil **≥ 50 000 €** (custa 50-200 €/ano)',
+              'Seguro obrigatório de responsabilidade civil ≥ 50 000 € (custa 50-200 €/ano)',
               'Declaração na Junta sobre a detenção de cão perigoso'
             ]}
           ]},
           { id: 'd3', title: 'Regras de detenção', content: [
             { kind: 'checklist', items: [
-              'Na rua: **açaime + trela com menos de 1 m**',
+              'Na rua: açaime + trela com menos de 1 m',
               'Não é permitido em parques infantis, transportes públicos, restaurantes',
               'No quintal: vedação ≥ 1.8 m, placa «cão perigoso»',
               'Passeio apenas com acompanhante adulto',
@@ -122,16 +122,16 @@ export default {
       title: '💰 Custo dos cuidados veterinários',
       content: [
         { kind: 'checklist', items: [
-          '**Consulta**: 25-40 € (normal), 50-80 € (clínica especializada)',
-          '**Castração/esterilização**: 150-350 € (macho), 200-500 € (fêmea)',
-          '**Vacinação (anual)**: 30-50 €',
-          '**Chip SIAC**: 20-40 €',
-          '**Estomatologia (destartarização)**: 200-400 €',
-          '**Análises ao sangue**: 40-100 €',
-          '**Raio-X**: 60-100 €',
-          '**Emergência 24/7** (urgência): 80-150 € só pela consulta',
-          '**Eutanásia + cremação**: 150-300 €',
-          '🏥 **Seguro para animal de companhia**: 10-40 €/mês — Tranquilidade Pet, Médis Animal, PetPremium'
+          'Consulta: 25-40 € (normal), 50-80 € (clínica especializada)',
+          'Castração/esterilização: 150-350 € (macho), 200-500 € (fêmea)',
+          'Vacinação (anual): 30-50 €',
+          'Chip SIAC: 20-40 €',
+          'Estomatologia (destartarização): 200-400 €',
+          'Análises ao sangue: 40-100 €',
+          'Raio-X: 60-100 €',
+          'Emergência 24/7 (urgência): 80-150 € só pela consulta',
+          'Eutanásia + cremação: 150-300 €',
+          '🏥 Seguro para animal de companhia: 10-40 €/mês — Tranquilidade Pet, Médis Animal, PetPremium'
         ]}
       ]
     },

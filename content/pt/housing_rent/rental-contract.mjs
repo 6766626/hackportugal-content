@@ -3,7 +3,7 @@ export default {
   id: 'rental-contract',
   categoryId: 'housing_rent',
   title: 'Arrendamento de longa duração em Portugal — enquadramento legal e processo',
-  tldr: 'O arrendamento de longa duração (arrendamento habitacional) é regulado pelo NRAU (Lei 6/2006, com alterações). Para **contratos com prazo certo**, o mínimo é 1 ano e o máximo 30 anos; se o prazo não for indicado, considera-se que o contrato foi celebrado por **5 anos** (Código Civil arts. 1094-1095)\.\n\nAs excepções para contratos para fins especiais transitórios podem ter duração inferior. Nos termos do art. 1076 Código Civil, o limite é: caução até **2 rendas mensais** + renda antecipada até **2 meses**. Exigências de pagamento antecipado de 3-12 meses são juridicamente vulneráveis — discuta com um advogado uma estrutura legal (seguro de fiança, garantia bancária, fiador)\.\n\nO contrato é registado nas Finanças pelo proprietário, que também emite os recibos de renda.',
+  tldr: 'O arrendamento de longa duração (arrendamento habitacional) é regulado pelo NRAU (Lei 6/2006, com alterações). Para contratos com prazo certo, o mínimo é 1 ano e o máximo 30 anos; se o prazo não for indicado, considera-se que o contrato foi celebrado por 5 anos (Código Civil arts. 1094-1095)\.\n\nAs excepções para contratos para fins especiais transitórios podem ter duração inferior. Nos termos do art. 1076 Código Civil, o limite é: caução até 2 rendas mensais + renda antecipada até 2 meses. Exigências de pagamento antecipado de 3-12 meses são juridicamente vulneráveis — discuta com um advogado uma estrutura legal (seguro de fiança, garantia bancária, fiador)\.\n\nO contrato é registado nas Finanças pelo proprietário, que também emite os recibos de renda.',
   tags: ['arrendamento', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Enquadramento legal',
       content: [
         { kind: 'paragraph', text: 'Principais diplomas: Código Civil (artigos sobre arrendamento), Lei 6/2006 (NRAU — Novo Regime do Arrendamento Urbano), Decreto-Lei 160/2006 (elementos formais do contrato), numerosos diplomas e decretos-leis com alterações. Importante para 2024–2026: a Lei 56/2023 «Mais Habitação» foi PARCIALMENTE REVOGADA no âmbito do programa «Construir Portugal»: o Decreto-Lei 43/2024 (Julho de 2024) revogou/alterou medidas sobre arrendamento coercivo de imóveis devolutos, e o Decreto-Lei 76/2024 (23 de Outubro de 2024) levantou a moratória sobre novas licenças de AL em apartamentos e eliminou a caducidade automática de 5 anos do AL.' },
-        { kind: 'paragraph', text: 'Princípios-chave: protecção do arrendatário (despejo apenas por via legal), obras estruturais — obrigação do proprietário, actualização da renda — no máximo 1 vez por ano e não acima do coeficiente oficial do INE (em 2026: **2,24%**, coeficiente 1,0224, publicado no Aviso n.º 23174/2025/2 de 19.09.2025).' },
+        { kind: 'paragraph', text: 'Princípios-chave: protecção do arrendatário (despejo apenas por via legal), obras estruturais — obrigação do proprietário, actualização da renda — no máximo 1 vez por ano e não acima do coeficiente oficial do INE (em 2026: 2,24%, coeficiente 1,0224, publicado no Aviso n.º 23174/2025/2 de 19.09.2025).' },
         { kind: 'paragraph', text: 'Caução e pagamento antecipado (art. 1076 Código Civil após a Lei 56/2023 «Mais Habitação»): máximo de 2 rendas mensais como caução + máximo de 2 rendas mensais como pagamento antecipado. Exigências superiores devem ser formalizadas através de uma estrutura jurídica separada (seguro de fiança, outra garantia), caso contrário a cláusula pode ser contestada por ilegalidade.' }
       ]
     },
@@ -79,7 +79,7 @@ export default {
               'Abrir conta bancária em Portugal (recomendável)',
               'Preparar comprovativo de rendimentos: contrato de trabalho, recibos de vencimento dos últimos 3 meses, extracto bancário ou declaração de IRS',
               'Encontrar fiador (se disponível) — o seu Cartão de Cidadão (CC) + rendimentos',
-              'Na ausência de fiador: discutir garantias **legais** — máximo de 2 meses de pagamento antecipado + máximo de 2 meses de caução, ou seguro de fiança/garantia bancária/fiador. A exigência de 3–12 meses em dinheiro como renda antecipada ou caução adicional é juridicamente vulnerável'
+              'Na ausência de fiador: discutir garantias legais — máximo de 2 meses de pagamento antecipado + máximo de 2 meses de caução, ou seguro de fiança/garantia bancária/fiador. A exigência de 3–12 meses em dinheiro como renda antecipada ou caução adicional é juridicamente vulnerável'
             ]}
           ]},
           { id: 'p2', title: '2. Pesquisa e visita', content: [
@@ -89,13 +89,13 @@ export default {
             { kind: 'paragraph', text: 'Pontos a discutir: prazo (12/24/36 meses), montante da caução, quem paga IMI e condomínio, mobiliário (mobilado (com móveis) / mobilado parcialmente (parcialmente mobilado) / sem mobília (sem móveis)), restrições a animais de estimação, actualização da renda, compromisso prévio do proprietário de corrigir defeitos identificados antes da entrada.' }
           ]},
           { id: 'p4', title: '4. Assinatura do contrato', content: [
-            { kind: 'paragraph', text: 'No mínimo em 2 exemplares. Elementos obrigatórios segundo a Lei 6/2006 + DL 160/2006: dados e NIF das partes, morada detalhada e identificação matricial/predial, finalidade do arrendamento, prazo, valor da renda e método de actualização, valor da caução, data de início. Verifique também a **licença de utilização** (ou isenção aplicável), o **certificado energético** (se exigido), e todos os anexos/inventário.' }
+            { kind: 'paragraph', text: 'No mínimo em 2 exemplares. Elementos obrigatórios segundo a Lei 6/2006 + DL 160/2006: dados e NIF das partes, morada detalhada e identificação matricial/predial, finalidade do arrendamento, prazo, valor da renda e método de actualização, valor da caução, data de início. Verifique também a licença de utilização (ou isenção aplicável), o certificado energético (se exigido), e todos os anexos/inventário.' }
           ]},
           { id: 'p5', title: '5. Entrega das chaves', content: [
             { kind: 'paragraph', text: 'Faça um inventário do estado — lista do mobiliário existente, estado das paredes, pavimento e canalização/sanitários. Fotografe tudo. Isto protege-o na devolução da caução.' }
           ]},
           { id: 'p6', title: '6. Registo nas Finanças', content: [
-            { kind: 'paragraph', text: 'O proprietário é obrigado a **comunicar contrato de arrendamento à AT** através do Portal das Finanças (Modelo 2) **até ao fim do mês seguinte ao do início do contrato** (Código do Imposto do Selo art. 60) — e NÃO simplesmente «no prazo de 30 dias». Depois disso, deve emitir recibos de renda eletrónicos. Sem registo e recibos, em regra, não conseguirá declarar correctamente a dedução de rendas no IRS. Para a Junta/AIMA, um contrato registado aumenta muito a fiabilidade da prova de morada, mas o conjunto concreto de documentos depende da Junta e do tipo de procedimento AIMA.' },
+            { kind: 'paragraph', text: 'O proprietário é obrigado a comunicar contrato de arrendamento à AT através do Portal das Finanças (Modelo 2) até ao fim do mês seguinte ao do início do contrato (Código do Imposto do Selo art. 60) — e NÃO simplesmente «no prazo de 30 dias». Depois disso, deve emitir recibos de renda eletrónicos. Sem registo e recibos, em regra, não conseguirá declarar correctamente a dedução de rendas no IRS. Para a Junta/AIMA, um contrato registado aumenta muito a fiabilidade da prova de morada, mas o conjunto concreto de documentos depende da Junta e do tipo de procedimento AIMA.' },
             { kind: 'warning', text: 'Se o proprietário se recusar a registar — é um sinal de alerta sério (possível evasão fiscal). Insista ou escolha outro apartamento.' }
           ]}
         ]}
@@ -149,7 +149,7 @@ export default {
       title: 'Situações de litígio',
       content: [
         { kind: 'checklist', items: [
-          'Não devolução da caução — reclamação por escrito, depois Julgado de Paz/tribunal ou (se as condições forem aplicáveis) injunção em matéria de arrendamento através do **Balcão do Arrendatário e do Senhorio (BAS)**',
+          'Não devolução da caução — reclamação por escrito, depois Julgado de Paz/tribunal ou (se as condições forem aplicáveis) injunção em matéria de arrendamento através do Balcão do Arrendatário e do Senhorio (BAS)',
           'Problemas com o estado técnico — pedido escrito por correio com aviso de recepção, fotografias, prazos para reparação',
           'Ruído e vizinhos — queixa na Junta de Freguesia, polícia (112 para ruído nocturno alto)',
           'A actualização anual da renda num contrato em vigor não deve exceder o coeficiente oficial do INE, salvo fundamento legal especial. Litígio — oposição por escrito, depois BAS/Julgado de Paz/tribunal/advogado',

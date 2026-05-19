@@ -3,7 +3,7 @@ export default {
   id: 'relocation-shipping',
   categoryId: 'before_arrival',
   title: 'Transporte de bens para Portugal — contentor, empresas, bagagem',
-  tldr: 'Opções: (1) **contentor marítimo** 20\' (33 m³) — 3 000-5 000 € a partir de Moscovo/Kyiv, 4-8 semanas. 40\' — 4 500-7 500 €, 2 contentores por família; (2) **carga consolidada (LCL)** desde 600 € por 5 m³; (3) **porta-automóveis / carrinha de mobiliário** pela Europa — 2 000-4 000 € a partir da Polónia/Alemanha; (4) **mudança dentro da UE** — transportadoras especializadas 800-2 500 €; (5) **bagagem no avião** — desde 50 €/mala adicional. Alfândega: bens pessoais sem direitos aduaneiros em caso de mudança (Isenção por transferência de residência), é necessário certificado AIMA + factura.',
+  tldr: 'Opções: (1) contentor marítimo 20\' (33 m³) — 3 000-5 000 € a partir de Moscovo/Kyiv, 4-8 semanas. 40\' — 4 500-7 500 €, 2 contentores por família; (2) carga consolidada (LCL) desde 600 € por 5 m³; (3) porta-automóveis / carrinha de mobiliário pela Europa — 2 000-4 000 € a partir da Polónia/Alemanha; (4) mudança dentro da UE — transportadoras especializadas 800-2 500 €; (5) bagagem no avião — desde 50 €/mala adicional. Alfândega: bens pessoais sem direitos aduaneiros em caso de mudança (Isenção por transferência de residência), é necessário certificado AIMA + factura.',
   tags: ['mudança', 'contentor', 'transporte', 'alfândega'],
   estimatedReadMinutes: 7,
   steps: [
@@ -14,8 +14,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'o1', title: '🚢 Contentor marítimo (a partir de fora da UE)', content: [
             { kind: 'checklist', items: [
-              '**20\' (33 m³)**: aproximadamente para um apartamento T2 — 3 000-5 000 € até Lisboa, 4-8 semanas',
-              '**40\' (67 m³)**: apartamento T3-T4 com automóvel — 4 500-7 500 €',
+              '20\' (33 m³): aproximadamente para um apartamento T2 — 3 000-5 000 € até Lisboa, 4-8 semanas',
+              '40\' (67 m³): apartamento T3-T4 com automóvel — 4 500-7 500 €',
               'Porto de chegada: Porto de Lisboa ou Porto de Leixões (Porto)',
               'Transitários grandes: FlyDove Cargo, Allied Pickfords, AGS Movers, Santa Fe Relocation',
               'Inclui: carga/descarga, frete marítimo, seguro, desalfandegamento',
@@ -67,7 +67,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Ao mudar-se para Portugal, você NÃO paga direitos de importação nem IVA sobre bens pessoais se cumprir as condições do Regulamento 1186/2009 EU.' },
         { kind: 'checklist', items: [
-          '✅ Você muda **realmente** de residência (confirmado por autorização de residência / certificado consular / MNE)',
+          '✅ Você muda realmente de residência (confirmado por autorização de residência / certificado consular / MNE)',
           '✅ Os bens são seus, pessoais, usados há ≥ 6 meses antes da mudança',
           '✅ São importados no prazo de 12 meses após se tornar residente',
           '✅ Não serão vendidos nos primeiros 12 meses após a importação',
@@ -98,7 +98,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Automóvel = categoria separada ("ISV" = Imposto sobre Veículos)',
-          '**Importação com benefício na mudança** (Isenção ISV): o automóvel deve ser seu há ≥ 6 meses antes da mudança, comprado no país de saída',
+          'Importação com benefício na mudança (Isenção ISV): o automóvel deve ser seu há ≥ 6 meses antes da mudança, comprado no país de saída',
           'Transporte: porta-automóveis (1 500-2 500 € UE-UE) ou RoRo por mar (1 200-2 000 € fora da UE → PT)',
           'Matrícula no IMT: 270 € + verificação da reserva + IPO',
           'Seguro temporário por 30 dias — 80-150 €',
@@ -113,12 +113,12 @@ export default {
       title: '📅 Cronograma',
       content: [
         { kind: 'checklist', items: [
-          '**T-3 meses**: inventário, comparação de orçamentos (mínimo 3 empresas), reserva do contentor',
-          '**T-2 meses**: embalamento, documentos para a alfândega',
-          '**T-1 mês**: carregamento no local de origem, expedição',
-          '**T-0**: mudança da própria pessoa (avião), obtenção da autorização de residência PT',
-          '**T+1–2 meses**: chegada da carga a Leixões/Lisboa, desalfandegamento',
-          '**T+2–3 meses**: entrega, desembalamento'
+          'T-3 meses: inventário, comparação de orçamentos (mínimo 3 empresas), reserva do contentor',
+          'T-2 meses: embalamento, documentos para a alfândega',
+          'T-1 mês: carregamento no local de origem, expedição',
+          'T-0: mudança da própria pessoa (avião), obtenção da autorização de residência PT',
+          'T+1–2 meses: chegada da carga a Leixões/Lisboa, desalfandegamento',
+          'T+2–3 meses: entrega, desembalamento'
         ]}
       ]
     },
@@ -127,15 +127,15 @@ export default {
       title: 'Conselhos',
       content: [
         { kind: 'checklist', items: [
-          '📊 **3+ orçamentos** de empresas diferentes — diferença de 30-50%',
-          '🔍 **Verificar avaliações**: Google Reviews, Trustpilot, grupos de Facebook russia-pt',
-          '💰 **Seguro de carga** (“contra todos os riscos”, All Risks) — 1-3% do valor dos bens. Obrigatório para contentor',
-          '📸 **Fotografar tudo** antes do carregamento — os danos são contestados junto do seguro',
-          '🔌 **Equipamentos 220 V**: tomadas em PT — Europlug + Schuko. Adaptadores para equipamentos UK/US',
-          '📏 **Volume** — calcule com precisão. Subestimativa → terá de pagar mais 300-500 €/m³',
-          '🧳 **Bagagem aérea**: leve consigo os objectos de valor (documentos, computador portátil, jóias) — o contentor pode perder-se / ficar retido',
-          '🐕 **Animais** separadamente: não são transportados com mobiliário. Ver guia “pet-import”',
-          '🏢 **Armazenamento em PT**: se a autorização de residência se atrasar — armazém de armazenamento temporário em Lisboa 50-100 €/m³/mês'
+          '📊 3+ orçamentos de empresas diferentes — diferença de 30-50%',
+          '🔍 Verificar avaliações: Google Reviews, Trustpilot, grupos de Facebook russia-pt',
+          '💰 Seguro de carga (“contra todos os riscos”, All Risks) — 1-3% do valor dos bens. Obrigatório para contentor',
+          '📸 Fotografar tudo antes do carregamento — os danos são contestados junto do seguro',
+          '🔌 Equipamentos 220 V: tomadas em PT — Europlug + Schuko. Adaptadores para equipamentos UK/US',
+          '📏 Volume — calcule com precisão. Subestimativa → terá de pagar mais 300-500 €/m³',
+          '🧳 Bagagem aérea: leve consigo os objectos de valor (documentos, computador portátil, jóias) — o contentor pode perder-se / ficar retido',
+          '🐕 Animais separadamente: não são transportados com mobiliário. Ver guia “pet-import”',
+          '🏢 Armazenamento em PT: se a autorização de residência se atrasar — armazém de armazenamento temporário em Lisboa 50-100 €/m³/mês'
         ]}
       ]
     }

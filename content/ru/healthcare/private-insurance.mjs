@@ -21,11 +21,11 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Проверяйте конкретную компанию в публичном реестре ASF (asf.com.pt): у страховщика должна быть авторизация на ramo Doença / health insurance, либо право работать в Португалии через филиал, либо через regime de livre prestação de serviços. Не ориентируйтесь на число игроков на рынке — многие бренды это не отдельные страховщики, а каналы дистрибуции. Юридического страховщика смотрите в apólice.' },
         { kind: 'checklist', items: [
-          'Крупные массовые бренды: **Médis** (Ocidental–Ageas Portugal), **Multicare** (Fidelidade), **Allianz**, **Generali Tranquilidade**, **Ageas**, **Zurich**, **Mapfre** и др.',
-          'Международные expat-полисы (**Allianz Care**, **Cigna Global** и др.) сравнивайте отдельно: проверяйте, кто юридический страховщик, применимое право, наличие прямого billing в Португалии, покрытие pre-existing conditions и пригодность для IRS/визы. Это не всегда то же самое, что локальный seguro de saúde, регулируемый ASF',
-          'В корпоративных схемах могут участвовать страховщик, брокер/консультант и управляющий сетью/claims administrator. Например, **AdvanceCare** часто выступает как сеть/администратор, а **Mercer** — как брокер/benefits consultant; юридического страховщика смотрите в apólice'
+          'Крупные массовые бренды: Médis (Ocidental–Ageas Portugal), Multicare (Fidelidade), Allianz, Generali Tranquilidade, Ageas, Zurich, Mapfre и др.',
+          'Международные expat-полисы (Allianz Care, Cigna Global и др.) сравнивайте отдельно: проверяйте, кто юридический страховщик, применимое право, наличие прямого billing в Португалии, покрытие pre-existing conditions и пригодность для IRS/визы. Это не всегда то же самое, что локальный seguro de saúde, регулируемый ASF',
+          'В корпоративных схемах могут участвовать страховщик, брокер/консультант и управляющий сетью/claims administrator. Например, AdvanceCare часто выступает как сеть/администратор, а Mercer — как брокер/benefits consultant; юридического страховщика смотрите в apólice'
         ]},
-        { kind: 'paragraph', text: 'При поиске используйте термин «**seguro de saúde**» и отличайте его от «**plano de saúde**» или «**cartão de saúde**»: последние часто являются скидочными планами, а не страхованием. Все лицензированные страховщики — в публичном реестре ASF.' }
+        { kind: 'paragraph', text: 'При поиске используйте термин «seguro de saúde» и отличайте его от «plano de saúde» или «cartão de saúde»: последние часто являются скидочными планами, а не страхованием. Все лицензированные страховщики — в публичном реестре ASF.' }
       ]
     },
     {

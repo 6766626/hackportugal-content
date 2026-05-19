@@ -14,10 +14,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 't1', title: '🔴⚪ GR (Grande Rota) — multi-day routes', content: [
             { kind: 'checklist', items: [
-              '**Rota Vicentina** (GR 11) — 450 km from Cabo de São Vicente to Santiago do Cacém, south-western Alentejo',
-              '**Caminho Português de Santiago** (GR 1) — 5 routes from Portugal to Santiago in Spain, 140-620 km',
-              '**Rota do Guadiana** — along the Guadiana river, 65 km',
-              '**GR 22 — Aldeias Históricas** — 540 km through 12 historic villages'
+              'Rota Vicentina (GR 11) — 450 km from Cabo de São Vicente to Santiago do Cacém, south-western Alentejo',
+              'Caminho Português de Santiago (GR 1) — 5 routes from Portugal to Santiago in Spain, 140-620 km',
+              'Rota do Guadiana — along the Guadiana river, 65 km',
+              'GR 22 — Aldeias Históricas — 540 km through 12 historic villages'
             ]}
           ]},
           { id: 't2', title: '🟡⚪ PR (Pequena Rota) — day routes', content: [
@@ -25,7 +25,7 @@ export default {
               'Short routes of 3-15 km, usually circular',
               'Marked with the symbol “PR” + number + municipality name',
               '150+ PR trails are registered with FCMP (Federação de Campismo e Montanhismo)',
-              'The **Trilhos de Portugal** app — all PR trails with descriptions and GPX',
+              'The Trilhos de Portugal app — all PR trails with descriptions and GPX',
               'Free GPX files on rededetrilhos.pt'
             ]}
           ]},
@@ -34,7 +34,7 @@ export default {
               'Levadas are irrigation channels from the 16th-20th centuries, with trails running alongside them',
               '350 km of marked trails',
               'From easy (flat) to difficult (tunnels, exposed sections)',
-              '**Top 3**: Levada das 25 Fontes (11 km), Levada do Caldeirão Verde (12 km), Levada do Rei (9 km)',
+              'Top 3: Levada das 25 Fontes (11 km), Levada do Caldeirão Verde (12 km), Levada do Rei (9 km)',
               'Season: all year round',
               'Equipment: non-slip boots, torch (for tunnels), waterproof clothing'
             ]}
@@ -51,9 +51,9 @@ export default {
             { kind: 'checklist', items: [
               'The highest mountain range in mainland Portugal (1,993 m, Torre)',
               'Snow in winter, cool in summer',
-              '**Top route**: PR 1 MTG — Vale do Zêzere, 14 km, excellent views',
-              '**Lagoa Comprida** — 8 km circular route',
-              '**Covão d\'Ametade** — starting point for many short routes',
+              'Top route: PR 1 MTG — Vale do Zêzere, 14 km, excellent views',
+              'Lagoa Comprida — 8 km circular route',
+              'Covão d\'Ametade — starting point for many short routes',
               'Where to stay: Manteigas, Seia, Covilhã'
             ]}
           ]},
@@ -61,16 +61,16 @@ export default {
             { kind: 'checklist', items: [
               'Portugal’s only national park (since 1971)',
               'Granite mountains, waterfalls, wolves, wild garrano horses',
-              '**Trilho dos Currais** — 8 km through pastures',
-              '**Cascata do Arado** — 3 km to the waterfall',
-              '**Miradouro da Pedra Bela** — a short route, but the views are impressive',
+              'Trilho dos Currais — 8 km through pastures',
+              'Cascata do Arado — 3 km to the waterfall',
+              'Miradouro da Pedra Bela — a short route, but the views are impressive',
               'Where to stay: Gerês village, Campo do Gerês (campsite)'
             ]}
           ]},
           { id: 'r3', title: 'Algarve — Rota Vicentina', content: [
             { kind: 'checklist', items: [
-              '**Trilho dos Pescadores** — coastal trail, 230 km along the south-western coast',
-              '**Caminho Histórico** — inland route, 263 km through villages',
+              'Trilho dos Pescadores — coastal trail, 230 km along the south-western coast',
+              'Caminho Histórico — inland route, 263 km through villages',
               'You can walk day sections of 10-20 km and stay overnight in rural houses',
               'Beautiful coves, fewer tourists than in the southern Algarve',
               'Best season: April-June, September-October'
@@ -78,19 +78,19 @@ export default {
           ]},
           { id: 'r4', title: 'Açores — nine islands with different characters', content: [
             { kind: 'checklist', items: [
-              '**São Miguel**: Lagoa do Fogo, Sete Cidades, Fumarolas hot springs',
-              '**Pico**: ascent of Pico Mountain (2,351 m) — the highest point in Portugal. Difficult, with a guide, 7-9 hours',
-              '**Flores**: “the greenest” — waterfalls, canyons',
-              '**Faial, Terceira** — volcanic landscapes',
+              'São Miguel: Lagoa do Fogo, Sete Cidades, Fumarolas hot springs',
+              'Pico: ascent of Pico Mountain (2,351 m) — the highest point in Portugal. Difficult, with a guide, 7-9 hours',
+              'Flores: “the greenest” — waterfalls, canyons',
+              'Faial, Terceira — volcanic landscapes',
               'All trails are waymarked, GPX on trails.visitazores.com',
               'Wind and rain are frequent — be prepared'
             ]}
           ]},
           { id: 'r5', title: 'Sintra-Cascais Natural Park (near Lisbon)', content: [
             { kind: 'checklist', items: [
-              '**Cabo da Roca** — the westernmost point of mainland Europe, coastal trails',
-              '**Serra de Sintra** — forest trails through the Pena National Palace',
-              '**Praia do Guincho → Cabo da Roca** — 16 km, a beautiful coastal route',
+              'Cabo da Roca — the westernmost point of mainland Europe, coastal trails',
+              'Serra de Sintra — forest trails through the Pena National Palace',
+              'Praia do Guincho → Cabo da Roca — 16 km, a beautiful coastal route',
               'Close to Lisboa = lots of tourists',
               'Tip: start at 7-8 in the morning to walk in peace'
             ]}
@@ -129,10 +129,10 @@ export default {
           ]},
           { id: 'g3', title: 'Where to buy', content: [
             { kind: 'checklist', items: [
-              '**Decathlon** (Lisboa, Porto and the regions) — affordable prices',
-              '**Sport Zone** — regular sales',
-              '**The North Face / Patagonia / Columbia** — Freeport outlet, Designer Outlet Algarve with discounts',
-              '**Local equipment shops**: Trilhos do Guerreiro, Gerês Natura — specialist stores'
+              'Decathlon (Lisboa, Porto and the regions) — affordable prices',
+              'Sport Zone — regular sales',
+              'The North Face / Patagonia / Columbia — Freeport outlet, Designer Outlet Algarve with discounts',
+              'Local equipment shops: Trilhos do Guerreiro, Gerês Natura — specialist stores'
             ]}
           ]}
         ]}
@@ -143,13 +143,13 @@ export default {
       title: '📱 Apps and resources',
       content: [
         { kind: 'checklist', items: [
-          '**Trilhos de Portugal** (official FCMP app) — 150+ PR routes with GPX',
-          '**Wikiloc** — international app, many trails in Portugal',
-          '**AllTrails** — English-language, convenient for English speakers',
-          '**ViewRanger / Komoot** — European, detailed',
-          '**Outdooractive** — GR routes',
-          '**trilhos.rededetrilhos.pt** — official database',
-          '**Mapa Amarelo** — for Cabo Verde + Portugal (popular in the Azores)',
+          'Trilhos de Portugal (official FCMP app) — 150+ PR routes with GPX',
+          'Wikiloc — international app, many trails in Portugal',
+          'AllTrails — English-language, convenient for English speakers',
+          'ViewRanger / Komoot — European, detailed',
+          'Outdooractive — GR routes',
+          'trilhos.rededetrilhos.pt — official database',
+          'Mapa Amarelo — for Cabo Verde + Portugal (popular in the Azores)',
           'GPX + offline maps are essential! Parks often have no signal'
         ]}
       ]
@@ -159,15 +159,15 @@ export default {
       title: '⚠️ Safety in the mountains / forests',
       content: [
         { kind: 'checklist', items: [
-          '🚨 **Emergency number 112**: works in most parks',
-          '🐴 **Wild animals**: wild horses in Gerês, wild boar (javali), foxes, and in the Algarve — genets. There is no serious danger to humans',
-          '🐍 **Snakes**: vípera seoanei is venomous — rarely seen and usually runs away. Check your boots in the morning',
-          '🔥 **Fires**: July-September — high risk; red level = ban on all open trails. Check on dgeg.gov.pt',
-          '🥵 **Heat**: in summer, start before 8 in the morning and finish by 13. The difference between morning and midday is 10°C',
-          '🌨️ **Winter in Serra da Estrela**: snow, ice; do not go without preparation',
-          '📍 **Offline maps**: download in advance; there is often no signal in Portugal’s mountains',
-          '👥 **Do not go alone** on long routes; tell someone your plan',
-          '🦵 **Footwear**: 80% of problems on the trail are due to the wrong footwear; it is easy to twist an ankle on rocky terrain'
+          '🚨 Emergency number 112: works in most parks',
+          '🐴 Wild animals: wild horses in Gerês, wild boar (javali), foxes, and in the Algarve — genets. There is no serious danger to humans',
+          '🐍 Snakes: vípera seoanei is venomous — rarely seen and usually runs away. Check your boots in the morning',
+          '🔥 Fires: July-September — high risk; red level = ban on all open trails. Check on dgeg.gov.pt',
+          '🥵 Heat: in summer, start before 8 in the morning and finish by 13. The difference between morning and midday is 10°C',
+          '🌨️ Winter in Serra da Estrela: snow, ice; do not go without preparation',
+          '📍 Offline maps: download in advance; there is often no signal in Portugal’s mountains',
+          '👥 Do not go alone on long routes; tell someone your plan',
+          '🦵 Footwear: 80% of problems on the trail are due to the wrong footwear; it is easy to twist an ankle on rocky terrain'
         ]}
       ]
     }

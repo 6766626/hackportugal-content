@@ -3,7 +3,7 @@ export default {
   id: 'lei-bases-migracao-2026',
   categoryId: 'residence_permit',
   title: 'Lei 61/2025 (new migration reform): what changes in Lei 23/2007',
-  tldr: '**Lei n.º 61/2025 of 22 October 2025** is the main reform of the migration regime, abolishing manifestação de interesse as a mass route to legalisation after entry (transitional deadline for cases already started — 31.12.2025), creating a qualified job-seeker visa, and tightening pre-entry checks. For an expat, the main takeaway is: enter through the correct D1-D8/work/family visa route, book with AIMA in advance, and gather proof of income and accommodation. AIMA fees from 01.03.2026 are €133 for the appointment and €307.20 for the residence permit under art. 75.',
+  tldr: 'Lei n.º 61/2025 of 22 October 2025 is the main reform of the migration regime, abolishing manifestação de interesse as a mass route to legalisation after entry (transitional deadline for cases already started — 31.12.2025), creating a qualified job-seeker visa, and tightening pre-entry checks. For an expat, the main takeaway is: enter through the correct D1-D8/work/family visa route, book with AIMA in advance, and gather proof of income and accommodation. AIMA fees from 01.03.2026 are €133 for the appointment and €307.20 for the residence permit under art. 75.',
   tags: ['aima', 'residence permit', 'lei23', 'migration', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-changed',
       title: 'What Lei 61/2025 is and why it matters',
       content: [
-        { kind: 'paragraph', text: '**Lei n.º 61/2025 of 22 October 2025** is the main migration package for 2025–2026. It is not “just another visa”, but a framework overhaul: the way Lei 23/2007 is read and applied for third-country nationals and Lei 37/2006 for EU/EEA/Swiss citizens is changing. In 2026, AIMA, consulates and Finanças increasingly look at the purpose of entry, source of income, accommodation and tax connection as one package.' },
+        { kind: 'paragraph', text: 'Lei n.º 61/2025 of 22 October 2025 is the main migration package for 2025–2026. It is not “just another visa”, but a framework overhaul: the way Lei 23/2007 is read and applied for third-country nationals and Lei 37/2006 for EU/EEA/Swiss citizens is changing. In 2026, AIMA, consulates and Finanças increasingly look at the purpose of entry, source of income, accommodation and tax connection as one package.' },
         { kind: 'paragraph', text: 'The main political direction after 2024–2026: less “retroactive” legalisation through work already in Portugal, more preliminary checks before entry. Therefore, the strategy of “arrive as a tourist, find a job and apply” is no longer a normal route.' },
         { kind: 'checklist', items: [
           'Lei 23/2007 remains the basic law for visas and autorização de residência for third-country nationals.',

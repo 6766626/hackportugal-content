@@ -11,13 +11,13 @@ export default {
       id: 'sns-system',
       title: '🏥 Como funciona o SNS para crianças',
       content: [
-        { kind: 'paragraph', text: 'Diferença importante face à Federação Russa/Brasil: no SNS, o acompanhamento primário é normalmente feito pelo **médico de família** (medicina geral e familiar) e pelo enfermeiro de família. A Pediatria no SNS está normalmente disponível através de referenciação para hospital/specialty care. No sector privado, os pediatras fazem frequentemente também consultas preventivas de rotina.' },
+        { kind: 'paragraph', text: 'Diferença importante face à Federação Russa/Brasil: no SNS, o acompanhamento primário é normalmente feito pelo médico de família (medicina geral e familiar) e pelo enfermeiro de família. A Pediatria no SNS está normalmente disponível através de referenciação para hospital/specialty care. No sector privado, os pediatras fazem frequentemente também consultas preventivas de rotina.' },
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Registo da criança no SNS', content: [
             { kind: 'checklist', items: [
-              '1. Após o nascimento / chegada — no **Centro de Saúde** da área de residência',
+              '1. Após o nascimento / chegada — no Centro de Saúde da área de residência',
               '2. Documentos: documento de identificação/passaporte ou Cartão de Cidadão da criança, certidão de nascimento, NIF (se existir), comprovativo de morada/estatuto de residência. Normalmente, o NISS NÃO é necessário para o número de utente — são números diferentes',
-              '3. Será atribuído o **Número de Utente** (vitalício)',
+              '3. Será atribuído o Número de Utente (vitalício)',
               '4. Se houver listas disponíveis na USF/UCSP — será atribuído um médico de família. Se não houver — a criança fica sem médico de família, mas mantém acesso à vacinação, ao programa Saúde Infantil através da unidade/consulta aberta/enfermagem',
               '5. A criança será automaticamente incluída no programa Saúde Infantil e Juvenil — consultas programadas segundo o calendário da DGS',
               '⚠️ Uma parte significativa dos utentes em Portugal permanece sem médico de família; os dados actualizados estão no SNS Transparência / relatórios da ACSS'
@@ -26,10 +26,10 @@ export default {
           { id: 'f2', title: 'Saúde Infantil e Juvenil — consultas programadas', content: [
             { kind: 'checklist', items: [
               'Gratuito para o utente, segundo o Programa Nacional de Saúde Infantil e Juvenil da DGS:',
-              '🍼 **Primeiro ano**: 1.ª semana de vida; 1, 2, 4, 6, 9, 12 meses — peso/altura, desenvolvimento, vacinas, alimentação',
-              '🧒 **1–5 anos**: 15, 18 meses; 2, 3, 4, 5 anos — fala, motricidade, vacinas',
-              '📚 **Escola**: 6–7, 8, 10 anos — crescimento, visão, audição, vacinas',
-              '🧑 **Adolescente**: 12–13 e 15–18 anos — desenvolvimento sexual, estado psicoemocional, autonomia',
+              '🍼 Primeiro ano: 1.ª semana de vida; 1, 2, 4, 6, 9, 12 meses — peso/altura, desenvolvimento, vacinas, alimentação',
+              '🧒 1–5 anos: 15, 18 meses; 2, 3, 4, 5 anos — fala, motricidade, vacinas',
+              '📚 Escola: 6–7, 8, 10 anos — crescimento, visão, audição, vacinas',
+              '🧑 Adolescente: 12–13 e 15–18 anos — desenvolvimento sexual, estado psicoemocional, autonomia',
               '📱 Os lembretes chegam na aplicação SNS 24',
               '📋 O boletim electrónico de vacinas e consultas está na aplicação (o calendário local pode variar)'
             ]}
@@ -39,7 +39,7 @@ export default {
               'Referenciação pelo médico de família através do sistema referenciação/SIGA SNS para consulta hospitalar; para crianças, sem taxas moderadoras. A espera depende da prioridade e do hospital — pode demorar semanas ou muitos meses',
               'Para uma situação urgente: pediatra privado por 60–120 € / consulta',
               'Especialidades comuns: endocrinologia pediátrica, neurologia pediátrica, dermatologia pediátrica',
-              '**Pediatra privado com seguro** (Médis/Multicare): copagamento de 10–25 €'
+              'Pediatra privado com seguro (Médis/Multicare): copagamento de 10–25 €'
             ]}
           ]}
         ]}
@@ -61,12 +61,12 @@ export default {
           ]},
           { id: 'c2', title: 'Redes de clínicas', content: [
             { kind: 'checklist', items: [
-              '**CUF Pediatrics** (Lisboa, Porto, Algarve) — serviços abrangentes',
-              '**Lusíadas Pediatrics** — Amadora, Porto',
-              '**Hospital da Luz Pediatrics** — Lisboa, Setúbal',
-              '**Grupo Trofa Saúde** — zona do Porto',
-              '**Joaquim Chaves** — clínicas em formato retail',
-              '**Rede AdvanceCare** — através do seguro'
+              'CUF Pediatrics (Lisboa, Porto, Algarve) — serviços abrangentes',
+              'Lusíadas Pediatrics — Amadora, Porto',
+              'Hospital da Luz Pediatrics — Lisboa, Setúbal',
+              'Grupo Trofa Saúde — zona do Porto',
+              'Joaquim Chaves — clínicas em formato retail',
+              'Rede AdvanceCare — através do seguro'
             ]}
           ]},
           { id: 'c3', title: 'Preços sem seguro', content: [
@@ -80,10 +80,10 @@ export default {
           ]},
           { id: 'c4', title: 'Com seguro de saúde privado', content: [
             { kind: 'checklist', items: [
-              '**Médis**: plano familiar ~100–180 €/mês, copagamento 10–20 €',
-              '**Multicare** (Fidelidade): ~80–150 €/mês, copagamento semelhante',
-              '**AdvanceCare** (Generali): planos mais individualizados',
-              '**Tranquilidade**: opção progressiva',
+              'Médis: plano familiar ~100–180 €/mês, copagamento 10–20 €',
+              'Multicare (Fidelidade): ~80–150 €/mês, copagamento semelhante',
+              'AdvanceCare (Generali): planos mais individualizados',
+              'Tranquilidade: opção progressiva',
               'Para uma criança separadamente: ~20–40 €/mês',
               'Para simples consultas de pediatria, a carência está frequentemente ausente ou é curta, mas isso depende da apólice; verifique as carências for exams, hospitalization, pre-existing conditions and newborn inclusion'
             ]}
@@ -98,21 +98,21 @@ export default {
         { kind: 'substeps', items: [
           { id: 'u1', title: 'Hospitais com urgência pediátrica', content: [
             { kind: 'checklist', items: [
-              '🏥 **Lisboa**: Hospital Dona Estefânia — principal hospital pediátrico',
-              '🏥 **Porto**: Hospital de São João, Centro Materno-Infantil do Norte',
-              '🏥 **Coimbra**: Hospital Pediátrico',
-              '🏥 **Faro**: serviço de pediatria do Hospital de Faro',
-              '🏥 **Cascais**: Hospital de Cascais (serviço de pediatria)',
+              '🏥 Lisboa: Hospital Dona Estefânia — principal hospital pediátrico',
+              '🏥 Porto: Hospital de São João, Centro Materno-Infantil do Norte',
+              '🏥 Coimbra: Hospital Pediátrico',
+              '🏥 Faro: serviço de pediatria do Hospital de Faro',
+              '🏥 Cascais: Hospital de Cascais (serviço de pediatria)',
               'Privados: CUF Tejo Pediatric, Luz Pediatric — filas menores',
               '⚠️ Antes de se deslocar, verifique os serviços de urgência disponíveis nas páginas do SNS/ULS ou ligue para o SNS 24: pediatric emergency units podem ter restrições temporárias. Para hospitais privados, confirme os horários da urgência pediátrica and accepted ages antes da visita'
             ]}
           ]},
           { id: 'u2', title: 'Quando ir à urgência', content: [
             { kind: 'checklist', items: [
-              '🚨 Em caso de risco de vida — **112** (número europeu único de emergência)',
+              '🚨 Em caso de risco de vida — 112 (número europeu único de emergência)',
               '🔴 SIM: febre alta numa criança <3 meses (qualquer >38°C), convulsões, falta de ar intensa, desmaio, trauma grave, reacção alérgica',
               '🟡 Normalmente não é necessário: constipação sem complicações, febre até 39°C em crianças mais velhas, trauma ligeiro',
-              '📞 Em casos não urgentes/duvidosos, ligue primeiro para o **SNS 24: 808 24 24 24** — o operador/enfermeiro fará triagem telefónica e indicará para onde deve ir. A Manchester Triage é aplicada apenas após a chegada à hospital emergency',
+              '📞 Em casos não urgentes/duvidosos, ligue primeiro para o SNS 24: 808 24 24 24 — o operador/enfermeiro fará triagem telefónica e indicará para onde deve ir. A Manchester Triage é aplicada apenas após a chegada à hospital emergency',
               '💡 Em muitos Centro de Saúde existe Atendimento Complementar — uma alternativa com menos afluência'
             ]}
           ]}

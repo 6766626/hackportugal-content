@@ -39,29 +39,29 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Bancos tradicionais', content: [
             { kind: 'checklist', items: [
-              '🏛️ **Millennium BCP** — o mais popular para empresas, tem gestor para trabalhadores independentes',
-              '🏛️ **Santander Empresas** — bom para importação/exportação (transferências internacionais)',
-              '🏛️ **Caixa Geral de Depósitos** (CGD) — banco público, mais lento, mas mais fiável',
-              '🏛️ **BPI Empresas** — opção competitiva para Lda de média dimensão',
+              '🏛️ Millennium BCP — o mais popular para empresas, tem gestor para trabalhadores independentes',
+              '🏛️ Santander Empresas — bom para importação/exportação (transferências internacionais)',
+              '🏛️ Caixa Geral de Depósitos (CGD) — banco público, mais lento, mas mais fiável',
+              '🏛️ BPI Empresas — opção competitiva para Lda de média dimensão',
               '💰 Manutenção: 5–15 €/mês; pacotes com transferências — 10–25 €/mês',
               '⏱️ Abertura: 1–2 semanas, é necessária visita presencial'
             ]}
           ]},
           { id: 'b2', title: 'Bancos online', content: [
             { kind: 'checklist', items: [
-              '💻 **ActivoBank Empresas** — banco subsidiário do Millennium, orientado para atendimento online',
-              '💻 **Caixadirecta Empresas** (CGD) — canal online do banco público',
-              '🌐 **Wise Business** — útil como conta adicional para pagamentos internacionais. Para o trabalho diário de uma Lda, muitas vezes é mais prático ter um IBAN PT num banco português; formalmente, recusar aceitar um IBAN SEPA da UE apenas por causa do país do IBAN pode ser IBAN discrimination, mas integrações com AT/SS/fornecedores podem criar atrito',
-              '🌐 **Revolut Business** — pode emitir IBAN LT ou PT, dependendo da migração; para operações locais, uma conta PT é mais conveniente',
+              '💻 ActivoBank Empresas — banco subsidiário do Millennium, orientado para atendimento online',
+              '💻 Caixadirecta Empresas (CGD) — canal online do banco público',
+              '🌐 Wise Business — útil como conta adicional para pagamentos internacionais. Para o trabalho diário de uma Lda, muitas vezes é mais prático ter um IBAN PT num banco português; formalmente, recusar aceitar um IBAN SEPA da UE apenas por causa do país do IBAN pode ser IBAN discrimination, mas integrações com AT/SS/fornecedores podem criar atrito',
+              '🌐 Revolut Business — pode emitir IBAN LT ou PT, dependendo da migração; para operações locais, uma conta PT é mais conveniente',
               '⚠️ A lei não exige que uma Lda tenha especificamente um IBAN PT; um IBAN PT é mais prático para AT, SS, salários e contrapartes'
             ]}
           ]},
           { id: 'b3', title: 'Especializados', content: [
             { kind: 'checklist', items: [
-              '🏗️ **Banco BIC** — para o sector da construção',
-              '🌾 **Crédito Agrícola** — para agricultura / sector agrícola',
-              '🛒 **Banco BAI** — banco luso-angolano, para comércio com países PALOP',
-              '🇪🇺 **EuroBic / Bankinter** — tarifários premium para clientes com elevado património'
+              '🏗️ Banco BIC — para o sector da construção',
+              '🌾 Crédito Agrícola — para agricultura / sector agrícola',
+              '🛒 Banco BAI — banco luso-angolano, para comércio com países PALOP',
+              '🇪🇺 EuroBic / Bankinter — tarifários premium para clientes com elevado património'
             ]}
           ]}
         ]}
@@ -84,12 +84,12 @@ export default {
           ]},
           { id: 'd2', title: 'Para Lda', content: [
             { kind: 'checklist', items: [
-              '📄 **Pacto Social** — contrato constitutivo da Lda',
-              '📜 **Certidão Permanente** — certidão de registo (pode ser obtida online em portalcidadao.pt por 25 €)',
+              '📄 Pacto Social — contrato constitutivo da Lda',
+              '📜 Certidão Permanente — certidão de registo (pode ser obtida online em portalcidadao.pt por 25 €)',
               '🆔 Cartão de Cidadão + NIF dos fundadores e gerentes',
               '🔢 NIF da empresa',
               '💰 Capital social para bloqueio na conta',
-              '📃 **Beneficial Owners (RCBE)** — declaração obrigatória dos beneficiários efetivos',
+              '📃 Beneficial Owners (RCBE) — declaração obrigatória dos beneficiários efetivos',
               '🏢 Comprovativo de sede: morada do escritório/escritório virtual',
               '⚠️ Para fundadores estrangeiros — documentos apostilados do país'
             ]}
@@ -114,13 +114,13 @@ export default {
           ]},
           { id: 'p2', title: 'Para Lda — demorado', content: [
             { kind: 'checklist', items: [
-              '🏛️ **Passo 1**: Registar a Lda através da «Empresa na Hora» (60 minutos, normalmente ~360 €) ou Conservatória (tarifas segundo a tabela emolumentar IRN)',
-              '🆔 **Passo 2**: Obter automaticamente o NIPC da empresa após o registo + certidão permanente',
-              '📃 **Passo 3**: Submeter a declaração RCBE online no IRN — normalmente no prazo de 30 dias após o registo',
-              '📩 **Passo 4**: Submeter a declaração de início de atividade na AT',
-              '🏦 **Passo 5**: Abrir a conta da empresa no banco (reunião de 1–2 horas)',
-              '💰 **Passo 6**: Realizar o capital social/primeiro depósito de acordo com os estatutos e os prazos de realização',
-              '✅ **Passo 7**: Ativação do homebanking',
+              '🏛️ Passo 1: Registar a Lda através da «Empresa na Hora» (60 minutos, normalmente ~360 €) ou Conservatória (tarifas segundo a tabela emolumentar IRN)',
+              '🆔 Passo 2: Obter automaticamente o NIPC da empresa após o registo + certidão permanente',
+              '📃 Passo 3: Submeter a declaração RCBE online no IRN — normalmente no prazo de 30 dias após o registo',
+              '📩 Passo 4: Submeter a declaração de início de atividade na AT',
+              '🏦 Passo 5: Abrir a conta da empresa no banco (reunião de 1–2 horas)',
+              '💰 Passo 6: Realizar o capital social/primeiro depósito de acordo com os estatutos e os prazos de realização',
+              '✅ Passo 7: Ativação do homebanking',
               '⏱️ Processo completo: 2–4 semanas'
             ]}
           ]}
@@ -132,13 +132,13 @@ export default {
       title: '💰 Comissões e manutenção',
       content: [
         { kind: 'checklist', items: [
-          '💳 **Manutenção mensal**: 5–25 € (mais elevada para pacotes com gestor)',
-          '🔁 **Transferência SEPA dentro da UE**: 0,50–2 € (Wise é mais barato)',
-          '🌐 **Transferência internacional**: 25–50 € + 0,5–1% de spread cambial',
-          '💱 **Conversão de moeda**: spread de 1–3% (até 5% nos bancos tradicionais!)',
-          '🏧 **Levantamento em ATM**: gratuito no próprio banco, 0,50–2 € noutros',
-          '📱 **MB WAY**: gratuito para empresas',
-          '📊 **Obtenção da Certidão Permanente**: o banco pode cobrar 25–50 €/ano',
+          '💳 Manutenção mensal: 5–25 € (mais elevada para pacotes com gestor)',
+          '🔁 Transferência SEPA dentro da UE: 0,50–2 € (Wise é mais barato)',
+          '🌐 Transferência internacional: 25–50 € + 0,5–1% de spread cambial',
+          '💱 Conversão de moeda: spread de 1–3% (até 5% nos bancos tradicionais!)',
+          '🏧 Levantamento em ATM: gratuito no próprio banco, 0,50–2 € noutros',
+          '📱 MB WAY: gratuito para empresas',
+          '📊 Obtenção da Certidão Permanente: o banco pode cobrar 25–50 €/ano',
           '⚠️ Compare a conta empresarial e a conta pessoal para trabalhador independente — para um trabalhador independente pequeno, a conta pessoal é mais barata'
         ]}
       ]

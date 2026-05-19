@@ -3,7 +3,7 @@ export default {
   id: 'serious-traffic-crimes',
   categoryId: 'auto_trips',
   title: 'Serious traffic offences — criminal road offences',
-  tldr: 'In Portugal, some offences are not administrative but criminal (Código Penal + Código da Estrada). These include: driving with BAC ≥1.2 g/l, refusing an alcohol test, driving after being disqualified, negligent homicide / serious bodily harm, leaving the scene of an accident. Penalties: driving ban from 2 months to 3 years, fines up to €15,000, imprisonment up to 5 years.\n\n**The carta por pontos system**: for a crime rodoviário — **−6 points**; for a contra-ordenação muito grave (incl. BAC 0.8–1.2) — **−5 points**; grave — usually −3. At 0 points — **cassação do título**: you cannot obtain a new licence for 2 years, then you must retake everything from scratch. A conviction remains on the certidão do registo criminal.',
+  tldr: 'In Portugal, some offences are not administrative but criminal (Código Penal + Código da Estrada). These include: driving with BAC ≥1.2 g/l, refusing an alcohol test, driving after being disqualified, negligent homicide / serious bodily harm, leaving the scene of an accident. Penalties: driving ban from 2 months to 3 years, fines up to €15,000, imprisonment up to 5 years.\n\nThe carta por pontos system: for a crime rodoviário — −6 points; for a contra-ordenação muito grave (incl. BAC 0.8–1.2) — −5 points; grave — usually −3. At 0 points — cassação do título: you cannot obtain a new licence for 2 years, then you must retake everything from scratch. A conviction remains on the certidão do registo criminal.',
   tags: ['traffic rules', 'crime', 'driving', 'fines'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,10 +13,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Portugal has one of the strictest BAC control systems in Europe.' },
         { kind: 'checklist', items: [
-          '🍺 **BAC 0.5–0.8 g/l** (about 1–2 glasses of wine) — **contra-ordenação grave**: fine €250–1,250, ban 1–12 months, minus 3 points',
-          '🍷 **BAC 0.8–1.2 g/l** — **contra-ordenação muito grave**: fine €500–2,500, ban 2–24 months, minus 5 points',
-          '🍸 **BAC ≥ 1.2 g/l** — **criminal offence** (art. 292 Código Penal): up to 1 year in prison or a fine of up to 120 daily rates, ALWAYS a ban of 2+ months, criminal record for 5–10 years',
-          '🚫 **Refusal to take the test** — treated as BAC ≥ 1.2 g/l + charge of "desobediência qualificada" (up to 2 years in prison)',
+          '🍺 BAC 0.5–0.8 g/l (about 1–2 glasses of wine) — contra-ordenação grave: fine €250–1,250, ban 1–12 months, minus 3 points',
+          '🍷 BAC 0.8–1.2 g/l — contra-ordenação muito grave: fine €500–2,500, ban 2–24 months, minus 5 points',
+          '🍸 BAC ≥ 1.2 g/l — criminal offence (art. 292 Código Penal): up to 1 year in prison or a fine of up to 120 daily rates, ALWAYS a ban of 2+ months, criminal record for 5–10 years',
+          '🚫 Refusal to take the test — treated as BAC ≥ 1.2 g/l + charge of "desobediência qualificada" (up to 2 years in prison)',
           '⚠️ For new drivers (<3 years of licence): limit 0.2 g/l — even a pint of beer can be an offence',
           '💼 For professional drivers (taxis, lorries, buses): 0.2 g/l'
         ]}
@@ -26,7 +26,7 @@ export default {
       id: 'points',
       title: 'Points system — 12 points with deductions',
       content: [
-        { kind: 'paragraph', text: 'Since 2016, a points system has applied (carta por pontos). All drivers start with 12 points.\n\n**Crime rodoviário** = −6 points.\n\n**Contra-ordenação muito grave** = −5 points.\n\n**Grave** = −3 points.\n\n**Leve** does not deduct points in the general table. Reach 0 — cassação do título; you cannot obtain a new licence for 2 years, after which you must go through the licensing process again.' },
+        { kind: 'paragraph', text: 'Since 2016, a points system has applied (carta por pontos). All drivers start with 12 points.\n\nCrime rodoviário = −6 points.\n\nContra-ordenação muito grave = −5 points.\n\nGrave = −3 points.\n\nLeve does not deduct points in the general table. Reach 0 — cassação do título; you cannot obtain a new licence for 2 years, after which you must go through the licensing process again.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Minus 1 point — contra-ordenações graves', content: [
             { kind: 'checklist', items: [
@@ -79,7 +79,7 @@ export default {
       title: 'Cameras — margin of error and how they work',
       content: [
         { kind: 'checklist', items: [
-          '📐 Official margin of error: **7%** (built into the fine calculation)',
+          '📐 Official margin of error: 7% (built into the fine calculation)',
           'Example: limit 120, speed 140 — it will be recorded as (140 × 0.93 = 130.2) → fine for +10 km/h, not +20',
           'Fixed cameras: signs warn you 300 m in advance',
           'Hidden ANSR radars: no warning, may be in GNR cars',
@@ -107,7 +107,7 @@ export default {
       id: 'foreign-licence',
       title: 'For non-Portuguese driving licences',
       content: [
-        { kind: 'paragraph', text: 'The points system applies to **all** drivers on Portuguese territory, even with foreign licences. If you reach 0 points — loss of the right to drive in Portugal (your home licence is not valid in Portugal); when you return home, the licence works as usual.' },
+        { kind: 'paragraph', text: 'The points system applies to all drivers on Portuguese territory, even with foreign licences. If you reach 0 points — loss of the right to drive in Portugal (your home licence is not valid in Portugal); when you return home, the licence works as usual.' },
         { kind: 'checklist', items: [
           'Fines linked to foreign licences are recorded in the centralised EUCARIS database (for EU licences) or in Portugal’s national register',
           'When exchanging your licence for a Portuguese one (after exchange) — points are transferred',

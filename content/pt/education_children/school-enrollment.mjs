@@ -76,7 +76,7 @@ export default {
       id: 'plnm',
       title: 'PLNM — português língua não materna',
       content: [
-        { kind: 'paragraph', text: 'O PLNM é atribuído após avaliação do nível de proficiência em português, normalmente para alunos com nível insuficiente da língua. Isto **não é um** direito/dever automático para todos os estrangeiros — a escola determina o nível e as medidas de apoio de acordo com as regras da DGE (Portaria 223-A/2018 e 226-A/2018). Uma criança estrangeira com bom nível de português pode não ficar em PLNM, enquanto uma criança com nacionalidade portuguesa cuja língua materna não seja o português pode ficar.' }
+        { kind: 'paragraph', text: 'O PLNM é atribuído após avaliação do nível de proficiência em português, normalmente para alunos com nível insuficiente da língua. Isto não é um direito/dever automático para todos os estrangeiros — a escola determina o nível e as medidas de apoio de acordo com as regras da DGE (Portaria 223-A/2018 e 226-A/2018). Uma criança estrangeira com bom nível de português pode não ficar em PLNM, enquanto uma criança com nacionalidade portuguesa cuja língua materna não seja o português pode ficar.' }
       ]
     },
     {
@@ -85,9 +85,9 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Manuais escolares gratuitos através da MEGA/vouchers para alunos de escolas públicas e de algumas escolas com contrato de associação; cadernos de actividades e materiais são frequentemente pagos à parte',
-          'ASE (**Ação Social Escolar**) — apoio de acordo com o escalão do abono de família: alimentação, transporte, materiais e visitas de estudo podem ser gratuitos ou subsidiados',
+          'ASE (Ação Social Escolar) — apoio de acordo com o escalão do abono de família: alimentação, transporte, materiais e visitas de estudo podem ser gratuitos ou subsidiados',
           'Abono de Família — veja o guia separado',
-          'Dedução de IRS por educação — 30% das despesas elegíveis, normalmente até 800 € por **agregado familiar** (não por criança); o limite pode aumentar em certos casos (por exemplo, em caso de renda de estudante deslocado)'
+          'Dedução de IRS por educação — 30% das despesas elegíveis, normalmente até 800 € por agregado familiar (não por criança); o limite pode aumentar em certos casos (por exemplo, em caso de renda de estudante deslocado)'
         ]}
       ]
     }

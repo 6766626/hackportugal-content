@@ -22,14 +22,14 @@ export default {
           { id: 't2', title: 'Grave', content: [
             { kind: 'checklist', items: [
               '120–600 € (intervalo típico; depende da infração)',
-              'Normalmente **−2 pontos**; para grave por álcool — −3 pontos',
+              'Normalmente −2 pontos; para grave por álcool — −3 pontos',
               'Exemplo: excesso de velocidade de 30–60 km/h em autoestrada, transposição de linha contínua, ultrapassagem numa passadeira'
             ]}
           ]},
           { id: 't3', title: 'Muito Grave', content: [
             { kind: 'checklist', items: [
               '500–2500 € (intervalo típico)',
-              'Normalmente **−4 pontos**; em muito grave por álcool/drogas — −5; em crime rodoviário — −6',
+              'Normalmente −4 pontos; em muito grave por álcool/drogas — −5; em crime rodoviário — −6',
               'Exemplo: excesso de velocidade superior a 60 km/h, condução sob o efeito do álcool, circulação em sentido contrário, passagem com sinal vermelho',
               'Pode haver inibição de conduzir até 2 anos'
             ]}
@@ -44,9 +44,9 @@ export default {
         { kind: 'paragraph', text: 'A carta por pontos está em vigor desde 01.06.2016. Cada condutor tem 12 pontos, que são retirados em caso de infrações. Os pontos são recuperados automaticamente: +1 por cada 3 anos sem infrações.' },
         { kind: 'checklist', items: [
           '⬇️ Retirada de pontos: por crimes rodoviários (crime rodoviário) — −6; por contraordenações muito graves — −4 (−5 para alcohol/drugs); por graves — −2 (−3 para alcohol). Não existe um «aviso» formal aos 9 pontos',
-          '⬇️ Com 5 ou 4 pontos — **ação de formação de segurança rodoviária** obrigatória',
-          '⬇️ Com 3, 2 ou 1 ponto — **exame teórico** obrigatório',
-          '⬇️ Com 0 pontos — **cassação da carta**; só é possível obter novo título de condução após o prazo previsto na lei e o cumprimento dos requisitos',
+          '⬇️ Com 5 ou 4 pontos — ação de formação de segurança rodoviária obrigatória',
+          '⬇️ Com 3, 2 ou 1 ponto — exame teórico obrigatório',
+          '⬇️ Com 0 pontos — cassação da carta; só é possível obter novo título de condução após o prazo previsto na lei e o cumprimento dos requisitos',
           '📅 Os pontos são recuperados: +1 por 3 anos sem infrações',
           '✅ Curso de aperfeiçoamento — é possível recuperar 4 pontos 1 vez a cada 5 anos'
         ]}
@@ -92,7 +92,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '📬 Chegou uma carta Auto de Contra-Ordenação com referência',
-          '✂️ Pagamento voluntário: no pagamento voluntário dentro do prazo estabelecido (normalmente 15 dias úteis a contar da notificação) paga-se o **valor mínimo** da coima, e não um «desconto de 50%». O valor mínimo concreto está indicado na notificação',
+          '✂️ Pagamento voluntário: no pagamento voluntário dentro do prazo estabelecido (normalmente 15 dias úteis a contar da notificação) paga-se o valor mínimo da coima, e não um «desconto de 50%». O valor mínimo concreto está indicado na notificação',
           '💳 Formas: ANSR online, Portal das Finanças, Multibanco, CTT/Payshop',
           '📅 Prazo para pagamento integral — 30 dias após a notificação',
           '⏰ Atraso — +30 %, depois processo judicial',
@@ -105,7 +105,7 @@ export default {
       title: 'Contestação',
       content: [
         { kind: 'checklist', items: [
-          '📝 **Defesa/contestação administrativa** no prazo de 15 dias úteis a contar da data da notificação, nos termos e para o endereço indicados no auto/notificação',
+          '📝 Defesa/contestação administrativa no prazo de 15 dias úteis a contar da data da notificação, nos termos e para o endereço indicados no auto/notificação',
           '📬 Endereço e procedimento: ANSR / GNR / PSP — indicado no próprio auto',
           '📸 Provas: testemunhas, vídeo de câmara de bordo, fotografias dos sinais',
           '🏛️ Primeiro, a ANSR/entidade competente analisa a defesa e profere decisão. Se a decisão for desfavorável — recurso para tribunal no prazo estabelecido; o tribunal competente depende da comarca',

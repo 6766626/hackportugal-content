@@ -3,7 +3,7 @@ export default {
   id: 'buy-used-car-checks',
   categoryId: 'auto_trips',
   title: 'How to check a used car before buying in Portugal',
-  tldr: 'Check **4 layers**: (1) **ACP / Standvirtual** — historical report by VIN, €15-30: fines, mileage, accidents; (2) **Carfax Portugal** — international database with history from the US/EU; (3) **Portal das Finanças** — check for any IUC, ISV debts; (4) **manual inspection** + independent mechanic for €50-150. The seller must provide the DUA (Documento Único Automóvel), valid IPO, handbook, keys (original + spare)\.\n\nSeller penalty for concealment: up to 3 × the value of the car.',
+  tldr: 'Check 4 layers: (1) ACP / Standvirtual — historical report by VIN, €15-30: fines, mileage, accidents; (2) Carfax Portugal — international database with history from the US/EU; (3) Portal das Finanças — check for any IUC, ISV debts; (4) manual inspection + independent mechanic for €50-150. The seller must provide the DUA (Documento Único Automóvel), valid IPO, handbook, keys (original + spare)\.\n\nSeller penalty for concealment: up to 3 × the value of the car.',
   tags: ['car', 'check', 'vin', 'purchase'],
   estimatedReadMinutes: 5,
   steps: [
@@ -33,7 +33,7 @@ export default {
           ]},
           { id: 'o4', title: 'SICV (free!)', content: [
             { kind: 'checklist', items: [
-              '**SICV** — Sistema Informativo do Certificado de Veículo',
+              'SICV — Sistema Informativo do Certificado de Veículo',
               'Free IMT portal: sicv.imt-ip.pt',
               'Shows: matrícula, model, registration date, vehicle inspection, IUC debts',
               'Does not show accident history'
@@ -50,12 +50,12 @@ export default {
       title: '📄 Documents from the seller — mandatory',
       content: [
         { kind: 'checklist', items: [
-          '📑 **DUA (Documento Único Automóvel)** — ORIGINAL, not a copy. With blue logo, VIN, owner details',
-          '📋 **IPO certificate** — valid on the purchase date (not expiring within the next 30 days)',
-          '📖 **Manual do condutor** (service book) + service history desirable',
-          '🔑 **2 keys**: original + spare. 1 key → negotiate a price reduction',
-          '🧾 **Factura proforma / contrato de compra-venda** — from the dealer (if the seller is a trader) or a simple contract (if a private individual)',
-          '📄 **Registo de propriedade** — certificate of ownership',
+          '📑 DUA (Documento Único Automóvel) — ORIGINAL, not a copy. With blue logo, VIN, owner details',
+          '📋 IPO certificate — valid on the purchase date (not expiring within the next 30 days)',
+          '📖 Manual do condutor (service book) + service history desirable',
+          '🔑 2 keys: original + spare. 1 key → negotiate a price reduction',
+          '🧾 Factura proforma / contrato de compra-venda — from the dealer (if the seller is a trader) or a simple contract (if a private individual)',
+          '📄 Registo de propriedade — certificate of ownership',
           '⚠️ If anything is missing → significant reason to negotiate or walk away'
         ]}
       ]
@@ -91,7 +91,7 @@ export default {
           ]},
           { id: 'i3', title: 'Independent mechanic (recommended)', content: [
             { kind: 'checklist', items: [
-              '**Pre-purchase inspection** — €50-150 for a 2-hour inspection',
+              'Pre-purchase inspection — €50-150 for a 2-hour inspection',
               'Popular centres: Norauto, Midas, local garages with an OBD-II scanner',
               'They will check: computer errors, condition of the engine, gearbox, suspension',
               'Report with photos + list of issues',
@@ -139,7 +139,7 @@ export default {
           ]},
           { id: 'p3', title: 'Registration to the new owner', content: [
             { kind: 'checklist', items: [
-              '**Within 60 days** (by law) — register the transfer at IMT / Conservatória do Registo Automóvel / Espaço Automóvel in Loja do Cidadão',
+              'Within 60 days (by law) — register the transfer at IMT / Conservatória do Registo Automóvel / Espaço Automóvel in Loja do Cidadão',
               'Fee: €45-65 (online / in person)',
               'Documents: DUA, purchase and sale contract, CC/residence permit of both parties, IPO',
               '⚠️ If the seller has not handed over the DUA — you are not the owner, registration is impossible'
@@ -153,14 +153,14 @@ export default {
       title: '🚩 Common scams',
       content: [
         { kind: 'checklist', items: [
-          '**Clocked mileage**: compare with ACP report + interior wear',
-          '**Lien on the car**: check Registo Automóvel (can be done free through ACP or IRN)',
-          '**Vehicle under seizure**: SICV will show it',
-          '**Fake VIN (tampered)**: check in different places (engine, pillar, plate) — they must match',
-          '**Flood damage**: suspect it if the price is too good — check mats, electrical cables',
-          '**“I am away, my nephew will hand it over”**: original DUA + notarised power of attorney',
-          '**AliExpress-style fake dealers**: only via known dealerships / used-car dealers',
-          '**“Let’s go for a drive, documents are in the bag, I’ll show you later”**: never'
+          'Clocked mileage: compare with ACP report + interior wear',
+          'Lien on the car: check Registo Automóvel (can be done free through ACP or IRN)',
+          'Vehicle under seizure: SICV will show it',
+          'Fake VIN (tampered): check in different places (engine, pillar, plate) — they must match',
+          'Flood damage: suspect it if the price is too good — check mats, electrical cables',
+          '“I am away, my nephew will hand it over”: original DUA + notarised power of attorney',
+          'AliExpress-style fake dealers: only via known dealerships / used-car dealers',
+          '“Let’s go for a drive, documents are in the bag, I’ll show you later”: never'
         ]}
       ]
     }

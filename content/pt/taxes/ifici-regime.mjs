@@ -40,7 +40,7 @@ export default {
           'Tornar-se residente fiscal em Portugal (viver 183+ dias ou ter o centro de interesses vitais)',
           'NÃO ter sido residente fiscal em Portugal nos últimos 5 anos',
           'A atividade consta da lista do IFICI',
-          'Apresentar o pedido até **15 de janeiro** do ano seguinte ao ano em que se tornou residente (Portaria 352/2024). A janela excecional até 15.03.2025 aplicou-se apenas ao primeiro ciclo (residentes de 2024)'
+          'Apresentar o pedido até 15 de janeiro do ano seguinte ao ano em que se tornou residente (Portaria 352/2024). A janela excecional até 15.03.2025 aplicou-se apenas ao primeiro ciclo (residentes de 2024)'
         ]}
       ]
     },

@@ -3,7 +3,7 @@ export default {
   id: 'exotic-pets-cats',
   categoryId: 'animals',
   title: 'Cats and exotic pets — rules',
-  tldr: 'Cats: SIAC microchip is mandatory since 2022 (DL 82/2019). The transition period for cats and ferrets that already existed ended on **25 October 2022**; for newborn cats, the chip must be implanted within 120 days.\n\n**Annual Junta de Freguesia licence — a national requirement ONLY for dogs**, there is NO such licence for cats; individual municipalities may introduce local registrations, but this is an exception. Exotic animals (reptiles, birds, rodents): CITES species and protected species require a microchip and DGAV registration. Ban: dangerous wild animals — great apes, big cats, certain venomous snakes. Import from outside the EU: AHC, vaccinations, microchip, sometimes a CITES permit. Vet cost: cat — €25–40 per appointment; rare animal — €50–80.',
+  tldr: 'Cats: SIAC microchip is mandatory since 2022 (DL 82/2019). The transition period for cats and ferrets that already existed ended on 25 October 2022; for newborn cats, the chip must be implanted within 120 days.\n\nAnnual Junta de Freguesia licence — a national requirement ONLY for dogs, there is NO such licence for cats; individual municipalities may introduce local registrations, but this is an exception. Exotic animals (reptiles, birds, rodents): CITES species and protected species require a microchip and DGAV registration. Ban: dangerous wild animals — great apes, big cats, certain venomous snakes. Import from outside the EU: AHC, vaccinations, microchip, sometimes a CITES permit. Vet cost: cat — €25–40 per appointment; rare animal — €50–80.',
   tags: ['cats', 'exotics', 'siac', 'cites'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,13 +11,13 @@ export default {
       id: 'cats',
       title: '🐈 Cats — mandatory registration',
       content: [
-        { kind: 'paragraph', text: 'DL 82/2019 introduced mandatory microchipping for cats and ferrets. The transition period for animals that already existed ended on **25 October 2022**. For animals born after that date, the chip must be implanted within the first **120 days** of life.' },
+        { kind: 'paragraph', text: 'DL 82/2019 introduced mandatory microchipping for cats and ferrets. The transition period for animals that already existed ended on 25 October 2022. For animals born after that date, the chip must be implanted within the first 120 days of life.' },
         { kind: 'checklist', items: [
-          '🆔 **SIAC microchip** — mandatory (for newborn cats — in the first 120 days)',
-          '💉 **Rabies**: recommended, but not mandatory under national law if the cat is not being imported or exported',
-          '⚠️ **Junta de Freguesia licence for cats — does NOT exist as a national requirement**. The annual licence was introduced only for dogs (DL 313/2003 + subsequent rules). Individual municipalities may introduce local cat registration or paid records, but this is the exception, not the rule. Check with your Junta',
-          '🔍 **Identification**: the SIAC chip number is the main identifier; a collar with a tag is at the owner’s discretion',
-          '🚪 **Street/colony cats** — CER (capture–neuter–return) programmes are run by municipalities together with associations; the chip is registered to the association/municipality'
+          '🆔 SIAC microchip — mandatory (for newborn cats — in the first 120 days)',
+          '💉 Rabies: recommended, but not mandatory under national law if the cat is not being imported or exported',
+          '⚠️ Junta de Freguesia licence for cats — does NOT exist as a national requirement. The annual licence was introduced only for dogs (DL 313/2003 + subsequent rules). Individual municipalities may introduce local cat registration or paid records, but this is the exception, not the rule. Check with your Junta',
+          '🔍 Identification: the SIAC chip number is the main identifier; a collar with a tag is at the owner’s discretion',
+          '🚪 Street/colony cats — CER (capture–neuter–return) programmes are run by municipalities together with associations; the chip is registered to the association/municipality'
         ]}
       ]
     },
@@ -37,10 +37,10 @@ export default {
           ]},
           { id: 'i2', title: 'From countries outside the EU (Russian Federation, Ukraine, US, Brazil)', content: [
             { kind: 'checklist', items: [
-              '🇷🇺 Russian Federation = high-risk country — **rabies antibody titre test** (blood test) is mandatory',
+              '🇷🇺 Russian Federation = high-risk country — rabies antibody titre test (blood test) is mandatory',
               'Test result: ≥ 0.5 IU/ml',
               'Wait 3 months after the test',
-              '**AHC (Animal Health Certificate)** from the state vet of the country of origin',
+              'AHC (Animal Health Certificate) from the state vet of the country of origin',
               'Apostille + translation into PT/EN',
               'At the border: checks at the point of entry — often Lisbon or Porto airport',
               'You can arrange a DGAV import permit in advance, especially for rare breeds'
@@ -77,7 +77,7 @@ export default {
           ]},
           { id: 'b2', title: 'Parrots', content: [
             { kind: 'checklist', items: [
-              '**CITES permit** is mandatory for most species:',
+              'CITES permit is mandatory for most species:',
               '  - African grey parrots, cockatoos, macaws, Amazons — Annex II',
               '  - A document from the breeder confirms lawful origin under CITES',
               'Import from countries outside the EU is complex — CITES export and import permits are needed',
@@ -105,11 +105,11 @@ export default {
           ]},
           { id: 'r2', title: 'Restricted or banned', content: [
             { kind: 'checklist', items: [
-              '🚫 **Venomous snakes** — cobras, mambas, etc.: ownership is prohibited',
-              '🚫 **Large boas and pythons** (>3 m): an ICNF licence is required due to public-safety handling requirements',
-              '🚫 **Crocodiles and alligators**: only registered wildlife centres',
-              '🚫 **Some monitor lizards** — Komodo dragons and large savannah monitors: CITES + special licence',
-              '⚠️ **Turtles and tortoises**: many species are protected in the EU — they cannot be caught in the wild, only captive-bred animals with CITES documents'
+              '🚫 Venomous snakes — cobras, mambas, etc.: ownership is prohibited',
+              '🚫 Large boas and pythons (>3 m): an ICNF licence is required due to public-safety handling requirements',
+              '🚫 Crocodiles and alligators: only registered wildlife centres',
+              '🚫 Some monitor lizards — Komodo dragons and large savannah monitors: CITES + special licence',
+              '⚠️ Turtles and tortoises: many species are protected in the EU — they cannot be caught in the wild, only captive-bred animals with CITES documents'
             ]}
           ]},
           { id: 'r3', title: 'Vivariums', content: [
@@ -158,10 +158,10 @@ export default {
       title: '👨‍⚕️ Vets for exotic animals',
       content: [
         { kind: 'checklist', items: [
-          '**Centro Veterinário Berna** (Lisboa) — exotic-animal specialist',
-          '**Hospital Veterinário do Porto** — large clinic for exotic animals',
-          '**Clínica Veterinária do Lis** (Leiria) — reptiles, birds',
-          '**Hospital Vet ULP** — Porto, university clinic',
+          'Centro Veterinário Berna (Lisboa) — exotic-animal specialist',
+          'Hospital Veterinário do Porto — large clinic for exotic animals',
+          'Clínica Veterinária do Lis (Leiria) — reptiles, birds',
+          'Hospital Vet ULP — Porto, university clinic',
           'Prices: consultation €50–80, surgery €200–1000, blood tests €30–60',
           'Specialist feeds: only in specialised pet shops or online, for example Zooplus',
           'Insurance for exotic pets: limited, usually does not cover reptiles and birds'

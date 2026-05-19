@@ -14,8 +14,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Warranty on goods (Lei 84/2021)', content: [
             { kind: 'checklist', items: [
-              '✅ **New goods**: 3-year warranty (previously 2 — changed in 2022)',
-              '✅ **Second-hand goods**: minimum 1 year; seller and buyer may agree a different period',
+              '✅ New goods: 3-year warranty (previously 2 — changed in 2022)',
+              '✅ Second-hand goods: minimum 1 year; seller and buyer may agree a different period',
               '✅ The warranty covers LACK OF CONFORMITY defects — not wear and tear, not damage caused by the buyer',
               '🔁 In the event of a defect, the seller must offer: repair OR replacement OR a discount OR a refund',
               '⏰ In the first 6 months, there is a presumption that the defect existed at the time of sale (burden of proof on the seller)',
@@ -24,7 +24,7 @@ export default {
           ]},
           { id: 'r2', title: 'Right of withdrawal (online/distance only)', content: [
             { kind: 'checklist', items: [
-              '🌐 **14 days** to withdraw when buying online / by phone / at home (DL 24/2014)',
+              '🌐 14 days to withdraw when buying online / by phone / at home (DL 24/2014)',
               '🚫 WITHOUT giving reasons',
               '✅ Full refund within 14 days',
               '🚚 Return delivery is usually at the buyer’s expense (unless the shop states otherwise)',
@@ -70,18 +70,18 @@ export default {
           ]},
           { id: 'l3', title: 'Step 3 — Regulator', content: [
             { kind: 'checklist', items: [
-              '⚖️ **ASAE** (Autoridade de Segurança Alimentar e Económica) — general trade supervision, asae.gov.pt',
-              '⚡ **ERSE** (electricity, gas) — erse.pt',
-              '📞 **ANACOM** (telecoms, internet) — anacom.pt',
-              '🏥 **INFARMED** (medicines) — infarmed.pt',
-              '🏦 **Banco de Portugal** (banks) — bportugal.pt',
-              '🚗 **AT IMT** (cars) — imt-ip.pt',
-              '✈️ **ANAC** (aviation) — anac.pt'
+              '⚖️ ASAE (Autoridade de Segurança Alimentar e Económica) — general trade supervision, asae.gov.pt',
+              '⚡ ERSE (electricity, gas) — erse.pt',
+              '📞 ANACOM (telecoms, internet) — anacom.pt',
+              '🏥 INFARMED (medicines) — infarmed.pt',
+              '🏦 Banco de Portugal (banks) — bportugal.pt',
+              '🚗 AT IMT (cars) — imt-ip.pt',
+              '✈️ ANAC (aviation) — anac.pt'
             ]}
           ]},
           { id: 'l4', title: 'Step 4 — Court / Julgados de Paz', content: [
             { kind: 'checklist', items: [
-              '⚖️ **Julgados de Paz**: small claims up to €15,000 — faster than the ordinary court',
+              '⚖️ Julgados de Paz: small claims up to €15,000 — faster than the ordinary court',
               '💰 Court costs €70 (if the claim is ≤ €5,000) or €105 (>€5,000)',
               '⏱️ Decision usually within 2-6 months',
               '🎓 A lawyer is not mandatory (for claims ≤ €3,740)',
@@ -90,7 +90,7 @@ export default {
           ]},
           { id: 'l5', title: 'Cross-border dispute (another EU country)', content: [
             { kind: 'checklist', items: [
-              '🇪🇺 **Centro Europeu do Consumidor (ECC-Net)**: cec.consumidor.pt',
+              '🇪🇺 Centro Europeu do Consumidor (ECC-Net): cec.consumidor.pt',
               '🆓 Free help, mediation between a buyer from Portugal and a foreign shop in the EU',
               '📧 ec.europa.eu/consumers — to file online',
               '⏱️ Resolution via ECC usually takes 2-3 months'

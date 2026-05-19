@@ -3,7 +3,7 @@ export default {
   id: 'used-car-check',
   categoryId: 'auto_ownership',
   title: 'Проверка б/у авто перед покупкой в Португалии',
-  tldr: 'Пять проверок перед покупкой б/у машины: (1) **Registo Automóvel** через IRN/Conservatória/Automóvel Online (НЕ IMT — реестр собственности и обременений ведёт IRN; через automovelonline.mj.pt получаете certidão с записями о владельце, reserva de propriedade, penhoras, hipotecas), (2) Finanças — IUC без долгов, (3) свежий IPO, (4) Carvertical как аналог Carfax для истории, (5) осмотр в независимом автосервисе. За ~50 € избежите покупки машины с долгами или скрытыми дефектами.',
+  tldr: 'Пять проверок перед покупкой б/у машины: (1) Registo Automóvel через IRN/Conservatória/Automóvel Online (НЕ IMT — реестр собственности и обременений ведёт IRN; через automovelonline.mj.pt получаете certidão с записями о владельце, reserva de propriedade, penhoras, hipotecas), (2) Finanças — IUC без долгов, (3) свежий IPO, (4) Carvertical как аналог Carfax для истории, (5) осмотр в независимом автосервисе. За ~50 € избежите покупки машины с долгами или скрытыми дефектами.',
   tags: ['б/у авто', 'проверка', 'покупка', 'dua'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,9 +11,9 @@ export default {
       id: 'check-registo',
       title: '1. Registo Automóvel — официальный реестр собственности (IRN)',
       content: [
-        { kind: 'paragraph', text: 'Реестр собственности на автомобиль и обременения ведёт **IRN (Instituto dos Registos e do Notariado)** через Conservatória do Registo Automóvel и онлайн-сервис **Automóvel Online** (automovelonline.mj.pt). НЕ IMT — IMT занимается технической стороной (matrícula, IPO, водительские права), но не реестром собственности.' },
+        { kind: 'paragraph', text: 'Реестр собственности на автомобиль и обременения ведёт IRN (Instituto dos Registos e do Notariado) через Conservatória do Registo Automóvel и онлайн-сервис Automóvel Online (automovelonline.mj.pt). НЕ IMT — IMT занимается технической стороной (matrícula, IPO, водительские права), но не реестром собственности.' },
         { kind: 'checklist', items: [
-          '💻 automovelonline.mj.pt → запросить **certidão permanente do registo automóvel** (нужен Chave Móvel Digital (CMD) или Cartão de Cidadão (CC) + считыватель)',
+          '💻 automovelonline.mj.pt → запросить certidão permanente do registo automóvel (нужен Chave Móvel Digital (CMD) или Cartão de Cidadão (CC) + считыватель)',
           '🔍 Ввести matrícula (регистрационный номер)',
           '📋 certidão покажет: текущего собственника, дату регистрации, реестровые обременения (reserva de propriedade, penhoras, hipotecas, locação financeira)',
           '🔒 «Penhora» (арест) — красный флаг, не покупайте',

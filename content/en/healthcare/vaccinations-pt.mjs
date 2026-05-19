@@ -3,7 +3,7 @@ export default {
   id: 'vaccinations-pt',
   categoryId: 'healthcare',
   title: 'Vaccinations in Portugal — PNV, children, adults, travel',
-  tldr: 'PNV (Plano Nacional de Vacinação) is the national vaccination programme, free in the SNS for residents with a número de utente. PNV vaccinations in Portugal are **recommended and free**, but legally they are usually not mandatory; schools/doctors may request the boletim de vacinas and refer you for catch-up vaccination. Adults: Td/Tdap — booster vaccination against tetanus/diphtheria according to the PNV age schedule; Tdap especially during pregnancy. Flu annually in autumn/winter for groups defined by DGS in the current campanha sazonal (usually 60+, pregnant women, chronic illnesses, etc.), COVID booster according to the DGS seasonal campaign. Travel vaccines and prophylaxis: Hep A, typhoid, yellow fever, rabies, Japanese encephalitis — at Consulta do Viajante / Centro de Vacinação Internacional. Malaria — preventive tablets, not a vaccine.',
+  tldr: 'PNV (Plano Nacional de Vacinação) is the national vaccination programme, free in the SNS for residents with a número de utente. PNV vaccinations in Portugal are recommended and free, but legally they are usually not mandatory; schools/doctors may request the boletim de vacinas and refer you for catch-up vaccination. Adults: Td/Tdap — booster vaccination against tetanus/diphtheria according to the PNV age schedule; Tdap especially during pregnancy. Flu annually in autumn/winter for groups defined by DGS in the current campanha sazonal (usually 60+, pregnant women, chronic illnesses, etc.), COVID booster according to the DGS seasonal campaign. Travel vaccines and prophylaxis: Hep A, typhoid, yellow fever, rabies, Japanese encephalitis — at Consulta do Viajante / Centro de Vacinação Internacional. Malaria — preventive tablets, not a vaccine.',
   tags: ['vaccines', 'pnv', 'sns', 'children', 'travel'],
   estimatedReadMinutes: 5,
   steps: [
@@ -29,15 +29,15 @@ export default {
           { id: 'c1', title: 'Under one year', content: [
             { kind: 'checklist', items: [
               '0 months: Hep B dose 1. BCG — only for children in risk groups (since 2017 not universal, according to DGS criteria)',
-              '2 months: **hexavalent DTPaHibVIPVHB** (6-in-1: diphtheria, tetanus, whooping cough, Hib, polio, Hep B) + PCV + MenB',
-              '4 months: **pentavalent DTPaHibVIP** (5-in-1, WITHOUT the Hep B component) + PCV + MenB',
-              '6 months: **hexavalent DTPaHibVIPVHB** (again with Hep B)',
-              '12 months: PCV, **MenACWY** (replaced MenC from April 2025 by DGS decision), MenB (booster), MMR/VASPR dose 1'
+              '2 months: hexavalent DTPaHibVIPVHB (6-in-1: diphtheria, tetanus, whooping cough, Hib, polio, Hep B) + PCV + MenB',
+              '4 months: pentavalent DTPaHibVIP (5-in-1, WITHOUT the Hep B component) + PCV + MenB',
+              '6 months: hexavalent DTPaHibVIPVHB (again with Hep B)',
+              '12 months: PCV, MenACWY (replaced MenC from April 2025 by DGS decision), MenB (booster), MMR/VASPR dose 1'
             ]}
           ]},
           { id: 'c2', title: '1–5 years', content: [
             { kind: 'checklist', items: [
-              '18 months: **pentavalent DTPaHibVIP booster** (WITHOUT Hep B — the Hep B component has already been completed by the 0/2/6-month schedule)',
+              '18 months: pentavalent DTPaHibVIP booster (WITHOUT Hep B — the Hep B component has already been completed by the 0/2/6-month schedule)',
               '5 years: DTPa-IPV booster + MMR/VASPR dose 2'
             ]}
           ]},
@@ -58,14 +58,14 @@ export default {
       title: 'Adults',
       content: [
         { kind: 'checklist', items: [
-          '💉 **Td/Tdap**: booster vaccination against tetanus/diphtheria according to the adult PNV age schedule (usually Td at 25/45/65 and then more often after 65). Tdap especially during pregnancy and for specific indications. Check e-Boletim or ask at the health centre',
-          '💉 **Flu**: annually in the DGS seasonal campaign — usually free/recommended for 60+, pregnant women, people with chronic conditions/risk groups and healthcare workers. The exact conditions (SNS / pharmacies) change by season, and the price of a paid vaccine depends on the pharmacy/clinic',
-          '💉 **COVID booster**: according to the current DGS seasonal campaign, usually for older people, immunocompromised people, risk groups, pregnant women and health/social care workers. The age threshold changes by season',
-          '💉 **Hep B**: if you did not receive it in childhood (before 1995 — it was not in the PNV). 0/1/6-month series',
-          '💉 **MMR**: if you do not have 2 doses (check your boletim de vacinas)',
-          '💉 **Shingles**: recommended for 60+, not included in the PNV (paid, €150–200/dose)',
-          '💉 **HPV for adults**: possible outside the PNV on prescription by a doctor; age, number of doses and price depend on the product and medical history. For those not covered by the PNV — usually paid',
-          '💉 **Pneumococcus**: for older people and certain risk groups. The specific sequence of products (conjugate / PPSV23) and conditions for free vaccination depend on DGS standards and a doctor’s prescription — ask at the health centre'
+          '💉 Td/Tdap: booster vaccination against tetanus/diphtheria according to the adult PNV age schedule (usually Td at 25/45/65 and then more often after 65). Tdap especially during pregnancy and for specific indications. Check e-Boletim or ask at the health centre',
+          '💉 Flu: annually in the DGS seasonal campaign — usually free/recommended for 60+, pregnant women, people with chronic conditions/risk groups and healthcare workers. The exact conditions (SNS / pharmacies) change by season, and the price of a paid vaccine depends on the pharmacy/clinic',
+          '💉 COVID booster: according to the current DGS seasonal campaign, usually for older people, immunocompromised people, risk groups, pregnant women and health/social care workers. The age threshold changes by season',
+          '💉 Hep B: if you did not receive it in childhood (before 1995 — it was not in the PNV). 0/1/6-month series',
+          '💉 MMR: if you do not have 2 doses (check your boletim de vacinas)',
+          '💉 Shingles: recommended for 60+, not included in the PNV (paid, €150–200/dose)',
+          '💉 HPV for adults: possible outside the PNV on prescription by a doctor; age, number of doses and price depend on the product and medical history. For those not covered by the PNV — usually paid',
+          '💉 Pneumococcus: for older people and certain risk groups. The specific sequence of products (conjugate / PPSV23) and conditions for free vaccination depend on DGS standards and a doctor’s prescription — ask at the health centre'
         ]}
       ]
     },
@@ -77,20 +77,20 @@ export default {
         { kind: 'substeps', items: [
           { id: 't1', title: '🏥 Where to get them', content: [
             { kind: 'checklist', items: [
-              '**Consulta do Viajante / Centros de Vacinação Internacional (CVI)** — list and contacts on SNS24/DGS. Availability, booking and fees depend on the specific unit',
-              '**Private clinics**: Lusíadas, CUF, Luz and others — travel medicine departments',
-              '**Yellow fever** — only at authorised Centros de Vacinação Internacional, which issue the International Certificate. The list of locations is on the official SNS24/DGS website',
-              '**Booking**: via SNS24 information pages, the SNS 24 line — 808 24 24 24, or directly with the chosen Consulta do Viajante / CVI'
+              'Consulta do Viajante / Centros de Vacinação Internacional (CVI) — list and contacts on SNS24/DGS. Availability, booking and fees depend on the specific unit',
+              'Private clinics: Lusíadas, CUF, Luz and others — travel medicine departments',
+              'Yellow fever — only at authorised Centros de Vacinação Internacional, which issue the International Certificate. The list of locations is on the official SNS24/DGS website',
+              'Booking: via SNS24 information pages, the SNS 24 line — 808 24 24 24, or directly with the chosen Consulta do Viajante / CVI'
             ]}
           ]},
           { id: 't2', title: '💉 Popular ones for tourists', content: [
             { kind: 'checklist', items: [
-              '**Yellow fever**: 1 dose usually for life; it must be administered/registered at an authorised CVI to obtain the International Certificate. The price varies by centre — check the official fee',
-              '**Hepatitis A**: for India, Africa, South America — usually 2 doses',
-              '**Typhoid**: India, Asia, Africa — protection for about 3 years',
-              '**Japanese encephalitis**: rural Asia — 2-dose series',
-              '**Rabies**: for people working with animals, long treks — 3-dose series',
-              '**Malaria**: not a vaccine — preventive tablets (doxycycline, Malarone) as prescribed by a doctor'
+              'Yellow fever: 1 dose usually for life; it must be administered/registered at an authorised CVI to obtain the International Certificate. The price varies by centre — check the official fee',
+              'Hepatitis A: for India, Africa, South America — usually 2 doses',
+              'Typhoid: India, Asia, Africa — protection for about 3 years',
+              'Japanese encephalitis: rural Asia — 2-dose series',
+              'Rabies: for people working with animals, long treks — 3-dose series',
+              'Malaria: not a vaccine — preventive tablets (doxycycline, Malarone) as prescribed by a doctor'
             ]}
           ]}
         ]}

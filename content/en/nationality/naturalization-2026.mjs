@@ -3,28 +3,28 @@ export default {
   id: 'naturalization-2026',
   categoryId: 'nationality',
   title: 'Naturalisation — Portuguese citizenship under the new law Lei Orgânica 1/2026',
-  tldr: '🆕 **Lei Orgânica n.º 1/2026** was published in the DR on **18/05/2026**, in force from **19/05/2026**. The basic route under the new law:\n\n📅 **Residence period:** 7 years for CPLP and EU/EEA/Swiss citizens; **10 years** for third countries. ONLY time from the date of issue of the first título de residência counts — waiting time for the first residence permit NO longer counts.\n\n🗣️ **Portuguese A2 knowledge** (CIPLE or equivalent certificate). For CPLP — not required.\n\n📝 **Mandatory test** on knowledge of Portuguese culture, citizens’ rights and duties, and the political system.\n\n⚖️ **No criminal convictions** with a sentence of ≥ 3 years’ imprisonment (threshold tightened).\n\n🏠 **Real physical presence** — simply holding a residence permit is not enough.\n\n🚫 **The Sephardic route has been completely abolished**.\n\n⚖️ **Transitional provision (for those who applied BEFORE 19/05/2026):** the previous Lei 37/81 applies — 5 years’ residence for all nationalities, no mandatory cultural test, criminal conviction threshold of 5 years. IRN confirmed on 07–08/05/2026: the key cut-off is the **submission date on the Portal da Nacionalidade online platform**; everything submitted before 19/05/2026 is assessed under the old rules.\n\n🔴 **Related Decreto 49/XVII** (loss of citizenship as a criminal penalty): on 08/05/2026 the TC UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament. PSD will not reconfirm it; overcoming the TC requires 2/3 of votes — unlikely.',
+  tldr: '🆕 Lei Orgânica n.º 1/2026 was published in the DR on 18/05/2026, in force from 19/05/2026. The basic route under the new law:\n\n📅 Residence period: 7 years for CPLP and EU/EEA/Swiss citizens; 10 years for third countries. ONLY time from the date of issue of the first título de residência counts — waiting time for the first residence permit NO longer counts.\n\n🗣️ Portuguese A2 knowledge (CIPLE or equivalent certificate). For CPLP — not required.\n\n📝 Mandatory test on knowledge of Portuguese culture, citizens’ rights and duties, and the political system.\n\n⚖️ No criminal convictions with a sentence of ≥ 3 years’ imprisonment (threshold tightened).\n\n🏠 Real physical presence — simply holding a residence permit is not enough.\n\n🚫 The Sephardic route has been completely abolished.\n\n⚖️ Transitional provision (for those who applied BEFORE 19/05/2026): the previous Lei 37/81 applies — 5 years’ residence for all nationalities, no mandatory cultural test, criminal conviction threshold of 5 years. IRN confirmed on 07–08/05/2026: the key cut-off is the submission date on the Portal da Nacionalidade online platform; everything submitted before 19/05/2026 is assessed under the old rules.\n\n🔴 Related Decreto 49/XVII (loss of citizenship as a criminal penalty): on 08/05/2026 the TC UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament. PSD will not reconfirm it; overcoming the TC requires 2/3 of votes — unlikely.',
   tags: ['citizenship', 'naturalisation', 'cplp'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 **Lei Orgânica n.º 1/2026 was published on 18/05/2026 in the DR**, **in force from 19/05/2026**. New naturalisation periods: **7 years for CPLP+EU, 10 years for third countries** (from the date of issue of the first residence permit — waiting time NO longer counts). A mandatory cultural test has been added, the criminal conviction threshold has been reduced from 5 to 3 years, the Sephardic route has been abolished, and for children born in PT the parents must have 5 years of residence permit. **Transitional provision:** all applications submitted on Portal da Nacionalidade BEFORE 19/05/2026 are assessed under the previous Lei 37/81 (5 years). 🔴 Related Decreto 49/XVII (loss of citizenship as a criminal penalty) — the TC UNANIMOUSLY found it unconstitutional on 08/05/2026; President Seguro returned it to Parliament on 12/05/2026.',
+  changeSummary: '🆕 Lei Orgânica n.º 1/2026 was published on 18/05/2026 in the DR, in force from 19/05/2026. New naturalisation periods: 7 years for CPLP+EU, 10 years for third countries (from the date of issue of the first residence permit — waiting time NO longer counts). A mandatory cultural test has been added, the criminal conviction threshold has been reduced from 5 to 3 years, the Sephardic route has been abolished, and for children born in PT the parents must have 5 years of residence permit. Transitional provision: all applications submitted on Portal da Nacionalidade BEFORE 19/05/2026 are assessed under the previous Lei 37/81 (5 years). 🔴 Related Decreto 49/XVII (loss of citizenship as a criminal penalty) — the TC UNANIMOUSLY found it unconstitutional on 08/05/2026; President Seguro returned it to Parliament on 12/05/2026.',
   variants: [
     {
       id: 'cplp',
       audience: { citizenships: ['cplp'] },
-      tldr: 'CPLP citizens under the new Lei Orgânica 1/2026 (from 19/05/2026): **7 years** of legal residence + cultural test. A2 language — automatic (Portuguese as native/official language). Applied BEFORE 19/05/2026 — 5 years under the previous Lei 37/81.',
+      tldr: 'CPLP citizens under the new Lei Orgânica 1/2026 (from 19/05/2026): 7 years of legal residence + cultural test. A2 language — automatic (Portuguese as native/official language). Applied BEFORE 19/05/2026 — 5 years under the previous Lei 37/81.',
       timelineDaysMin: 180,
       timelineDaysMax: 540
     },
     {
       id: 'eu-eea',
       audience: { citizenships: ['euEeaSwiss'] },
-      tldr: 'EU/EEA/Swiss citizens under the new Lei Orgânica 1/2026 (from 19/05/2026): **7 years** (aligned with CPLP) + CIPLE A2 + cultural test. Dual citizenship is allowed. Applied BEFORE 19/05/2026 — 5 years under the previous Lei 37/81.'
+      tldr: 'EU/EEA/Swiss citizens under the new Lei Orgânica 1/2026 (from 19/05/2026): 7 years (aligned with CPLP) + CIPLE A2 + cultural test. Dual citizenship is allowed. Applied BEFORE 19/05/2026 — 5 years under the previous Lei 37/81.'
     },
     {
       id: 'third-country',
       audience: { citizenships: ['thirdCountry'] },
-      tldr: 'Third-country citizens under the new Lei Orgânica 1/2026 (from 19/05/2026): **10 years** of legal residence + CIPLE A2 + cultural test. Most countries allow dual citizenship — check the law of your own country. Applied BEFORE 19/05/2026 — 5 years under the previous Lei 37/81.'
+      tldr: 'Third-country citizens under the new Lei Orgânica 1/2026 (from 19/05/2026): 10 years of legal residence + CIPLE A2 + cultural test. Most countries allow dual citizenship — check the law of your own country. Applied BEFORE 19/05/2026 — 5 years under the previous Lei 37/81.'
     }
   ],
   steps: [
@@ -32,20 +32,20 @@ export default {
       id: 'new-law',
       title: 'Main conditions under Lei Orgânica 1/2026 (from 19/05/2026)',
       content: [
-        { kind: 'paragraph', text: 'The new version of Lei 37/81, approved by **Lei Orgânica n.º 1/2026** (published in the DR on 18/05/2026, in force from 19/05/2026), applies to all applications submitted **on 19/05/2026 and later**. Basic requirements:' },
+        { kind: 'paragraph', text: 'The new version of Lei 37/81, approved by Lei Orgânica n.º 1/2026 (published in the DR on 18/05/2026, in force from 19/05/2026), applies to all applications submitted on 19/05/2026 and later. Basic requirements:' },
         { kind: 'checklist', items: [
-          '📅 **Legal residence in Portugal**: **7 years** for CPLP and EU/EEA/Swiss citizens; **10 years** for third-country citizens. ONLY time from the date of issue of the first título de residência counts (manifestação de interesse and waiting time for the first residence permit are NO longer counted)',
-          '🗣️ **Portuguese A2 knowledge**: CIPLE/DEPLE/school certificate ≥ 150 hours with A2 level/Portuguese university diploma/completion of the 6th year of school in Portugal. Not required for CPLP citizens',
-          '📝 **Mandatory test on knowledge of Portuguese culture, citizens’ rights and duties, and the state’s political system** (new requirement)',
-          '🏠 **Real physical presence** — simply holding a residence permit is not enough; AIMA/IRN check actual residence',
-          '⚖️ **No criminal convictions** with a sentence of ≥ 3 years’ imprisonment in any country of residence (threshold tightened from 5 to 3 years)',
+          '📅 Legal residence in Portugal: 7 years for CPLP and EU/EEA/Swiss citizens; 10 years for third-country citizens. ONLY time from the date of issue of the first título de residência counts (manifestação de interesse and waiting time for the first residence permit are NO longer counted)',
+          '🗣️ Portuguese A2 knowledge: CIPLE/DEPLE/school certificate ≥ 150 hours with A2 level/Portuguese university diploma/completion of the 6th year of school in Portugal. Not required for CPLP citizens',
+          '📝 Mandatory test on knowledge of Portuguese culture, citizens’ rights and duties, and the state’s political system (new requirement)',
+          '🏠 Real physical presence — simply holding a residence permit is not enough; AIMA/IRN check actual residence',
+          '⚖️ No criminal convictions with a sentence of ≥ 3 years’ imprisonment in any country of residence (threshold tightened from 5 to 3 years)',
           '🛡️ Does not pose a threat to national security'
         ]},
         { kind: 'paragraph', text: 'What has been abolished in the new version:' },
         { kind: 'checklist', items: [
-          '🚫 **The Sephardic route has been completely abolished** (Lei 43/2013 + DL 30-A/2015 and LO 1/2024 — no longer apply to new applications)',
-          '🚫 **Waiting time for the first residence permit NO longer counts** towards the naturalisation period',
-          '⚠️ For **children born in Portugal**: to apply for the child’s citizenship on this basis, the parents must now have **≥ 5 years of valid residence permit**'
+          '🚫 The Sephardic route has been completely abolished (Lei 43/2013 + DL 30-A/2015 and LO 1/2024 — no longer apply to new applications)',
+          '🚫 Waiting time for the first residence permit NO longer counts towards the naturalisation period',
+          '⚠️ For children born in Portugal: to apply for the child’s citizenship on this basis, the parents must now have ≥ 5 years of valid residence permit'
         ]},
         { kind: 'paragraph', text: 'What has NOT changed:' },
         { kind: 'checklist', items: [
@@ -58,10 +58,10 @@ export default {
       id: 'old-law-transition',
       title: '⚖️ Transitional regime: for applications submitted BEFORE 19/05/2026',
       content: [
-        { kind: 'paragraph', text: 'If your application was submitted on Portal da Nacionalidade or by another method to IRN **BEFORE 19/05/2026**, the **previous version of Lei 37/81** applies to it (regardless of when IRN physically reviews the case). This is confirmed by the text of Lei Orgânica 1/2026 itself (transitional provision) + IRN’s public clarification of 07–08/05/2026.' },
+        { kind: 'paragraph', text: 'If your application was submitted on Portal da Nacionalidade or by another method to IRN BEFORE 19/05/2026, the previous version of Lei 37/81 applies to it (regardless of when IRN physically reviews the case). This is confirmed by the text of Lei Orgânica 1/2026 itself (transitional provision) + IRN’s public clarification of 07–08/05/2026.' },
         { kind: 'paragraph', text: 'Previous version of Lei 37/81 — key differences from the new one:' },
         { kind: 'checklist', items: [
-          '📅 **5 years** of legal residence for ALL nationalities (CPLP, EU, third countries)',
+          '📅 5 years of legal residence for ALL nationalities (CPLP, EU, third countries)',
           '🗣️ Portuguese A2 knowledge — same requirement (for non-CPLP)',
           '❌ NO cultural test',
           '⚖️ Criminal conviction threshold — 5 years’ imprisonment (not 3 years)',
@@ -69,14 +69,14 @@ export default {
           '⏱️ Waiting time for the first residence permit (including MdI, if submitted before 03/06/2024 and a comprovativo was obtained) could be counted — the position is disputed and depends on the Conservatória/case law',
           '⚠️ The Sephardic route operated under the post-LO 1/2024 regime (residence 3+ years + committee) — but only for applications submitted before 19/05/2026'
         ]},
-        { kind: 'warning', text: 'The key cut-off is the **submission date on Portal da Nacionalidade**, not the date of physical registration by IRN. If you managed to click “Submeter” on the online platform before 23:59 on 18/05/2026, your case follows the previous rules.' }
+        { kind: 'warning', text: 'The key cut-off is the submission date on Portal da Nacionalidade, not the date of physical registration by IRN. If you managed to click “Submeter” on the online platform before 23:59 on 18/05/2026, your case follows the previous rules.' }
       ]
     },
     {
       id: 'counting-years',
       title: 'How to count the period (under the new Lei Orgânica 1/2026)',
       content: [
-        { kind: 'paragraph', text: 'Under the new version (for applications from 19/05/2026 and later), the period is counted **strictly from the date of issue of the first título de residência**. This is a tightening: waiting time for the first residence permit and Manifestação de Interesse no longer count.' },
+        { kind: 'paragraph', text: 'Under the new version (for applications from 19/05/2026 and later), the period is counted strictly from the date of issue of the first título de residência. This is a tightening: waiting time for the first residence permit and Manifestação de Interesse no longer count.' },
         { kind: 'checklist', items: [
           '✅ Starting point — the ISSUE date of the first título de residência',
           '🚫 Time from submitting the residence permit application until its issue — does NOT count',
@@ -85,7 +85,7 @@ export default {
           '⚠️ A long absence > 6 consecutive months or > 8 months in total over 2 years may interrupt the period',
           '⚠️ If the residence permit has expired and is not renewed on time — there is a break in legality'
         ]},
-        { kind: 'paragraph', text: 'For an exact count, order from AIMA the certificate **Certidão de residência legal** — it confirms the dates of all residence permits and periods. Ordered online at portal.aima.gov.pt (~€15).' },
+        { kind: 'paragraph', text: 'For an exact count, order from AIMA the certificate Certidão de residência legal — it confirms the dates of all residence permits and periods. Ordered online at portal.aima.gov.pt (~€15).' },
         { kind: 'warning', text: 'If you submitted your application BEFORE 19/05/2026 — the previous Lei 37/81 applies (5 years, waiting time may count under IRN’s 2024 position). See the “Transitional regime” section above.' }
       ]
     },

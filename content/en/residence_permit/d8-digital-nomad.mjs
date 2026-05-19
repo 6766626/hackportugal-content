@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'Up to 1 year, without a residence permit. Can be extended up to 2 years. Suitable if you want to try living in Portugal.' }
           ]},
           { id: 'v2', title: 'Long-stay D8 (residence visa)', content: [
-            { kind: 'paragraph', text: 'Gives the right to obtain a full residence permit for 2 years, with renewals thereafter. The path to citizenship is under the current Lei 37/81 after 5 years of legal residence.\n\n**Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026**; published on 18.05.2026 as **Lei Orgânica n.º 1/2026**. After publication in Diário da República, the naturalisation period will increase to 10 years for third countries. The text of the law contains a transitional provision: cases in progress are subject to the previous version of Lei 37/81 (5 years).' }
+            { kind: 'paragraph', text: 'Gives the right to obtain a full residence permit for 2 years, with renewals thereafter. The path to citizenship is under the current Lei 37/81 after 5 years of legal residence.\n\nDecreto AR 48/XVII was promulgated by President Seguro on 03.05.2026; published on 18.05.2026 as Lei Orgânica n.º 1/2026. After publication in Diário da República, the naturalisation period will increase to 10 years for third countries. The text of the law contains a transitional provision: cases in progress are subject to the previous version of Lei 37/81 (5 years).' }
           ]}
         ]}
       ]

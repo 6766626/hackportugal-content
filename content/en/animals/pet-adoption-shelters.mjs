@@ -26,22 +26,22 @@ export default {
           ]},
           { id: 'w2', title: 'Private associations', content: [
             { kind: 'checklist', items: [
-              '🐕 **União Zoófila** (zoofila.pt) — the largest, Lisboa',
-              '🐱 **ANIMAL** (animal.pt) — national',
-              '🦴 **Bianca** (bianca.pt) — Algarve, specialises in older dogs',
-              '🐶 **SOS Animal** (sosanimal.pt) — rescue',
-              '🐈 **Gatos de Rua** (gatosderua.pt) — sterilisation of urban cats',
+              '🐕 União Zoófila (zoofila.pt) — the largest, Lisboa',
+              '🐱 ANIMAL (animal.pt) — national',
+              '🦴 Bianca (bianca.pt) — Algarve, specialises in older dogs',
+              '🐶 SOS Animal (sosanimal.pt) — rescue',
+              '🐈 Gatos de Rua (gatosderua.pt) — sterilisation of urban cats',
               '💰 Fees €30-100 (to cover sterilisation, vaccinations, microchip)',
               '✅ They often carry out an assessment and identify behavioural issues in advance'
             ]}
           ]},
           { id: 'w3', title: 'Search platforms', content: [
             { kind: 'checklist', items: [
-              '🌐 **adopt.cao.pt** — national database (dogs and cats)',
-              '🌐 **adoptar.pt** — private database, many listings',
-              '📱 **Tirar de Caixa** (Lisboa) — Facebook group',
-              '📱 **Adopta Lisboa** — adoption app',
-              '📱 **Pawsome** — low-cost browsing app'
+              '🌐 adopt.cao.pt — national database (dogs and cats)',
+              '🌐 adoptar.pt — private database, many listings',
+              '📱 Tirar de Caixa (Lisboa) — Facebook group',
+              '📱 Adopta Lisboa — adoption app',
+              '📱 Pawsome — low-cost browsing app'
             ]}
           ]},
           { id: 'w4', title: 'Chance finds', content: [
@@ -143,9 +143,9 @@ export default {
       title: '🏠 After adoption',
       content: [
         { kind: 'checklist', items: [
-          '🎓 **First 30 days of adaptation**: keep things quiet, do not invite many guests, give time',
+          '🎓 First 30 days of adaptation: keep things quiet, do not invite many guests, give time',
           '🩺 First routine check-up with a vet (your own, not the shelter’s) — 2 weeks after adoption',
-          '💪 **Behavioural specialist** (for dogs with trauma): dog trainer using a positive approach',
+          '💪 Behavioural specialist (for dogs with trauma): dog trainer using a positive approach',
           '🐾 Walks 2-3 times a day (dogs), play (cats)',
           '📸 Social networks: help the shelter — post photos, recommend it',
           '🎁 Return to the shelter (if it did not work out): there are usually 30 days to return; do not abandon the animal on the street!',
@@ -159,12 +159,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Decreto-Lei 315/2009, amended by Lei 110/2015; list of raças potencialmente perigosas — Portaria 422/2004. Additional conditions are required for adoption.' },
         { kind: 'checklist', items: [
-          '🐕 **Potentially dangerous breeds**: Cão de Fila Brasileiro, Dogo Argentino, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu — and their cruzamentos',
-          '📋 **Licença de detenção** at the Junta de Freguesia',
-          '💼 **Seguro de responsabilidade civil** minimum €50,000',
-          '🐾 **Behaviour course** + certificate',
-          '🩺 **Comprehensive assessment** of the owner (medical, psychological)',
-          '🚶 **When walking**: muzzle + short lead ≤1 m + adult ≥ 16 years old',
+          '🐕 Potentially dangerous breeds: Cão de Fila Brasileiro, Dogo Argentino, Pit Bull Terrier, Rottweiler, American Staffordshire Terrier, Staffordshire Bull Terrier, Tosa Inu — and their cruzamentos',
+          '📋 Licença de detenção at the Junta de Freguesia',
+          '💼 Seguro de responsabilidade civil minimum €50,000',
+          '🐾 Behaviour course + certificate',
+          '🩺 Comprehensive assessment of the owner (medical, psychological)',
+          '🚶 When walking: muzzle + short lead ≤1 m + adult ≥ 16 years old',
           '⚠️ Harder to adopt — shelters are strict',
           '📜 Behavioural tests for the dog itself'
         ]}

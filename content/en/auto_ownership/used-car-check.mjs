@@ -3,7 +3,7 @@ export default {
   id: 'used-car-check',
   categoryId: 'auto_ownership',
   title: 'Checking a used car before buying in Portugal',
-  tldr: 'Five checks before buying a used car: (1) **Registo Automóvel** via IRN/Conservatória/Automóvel Online (NOT IMT — the ownership and encumbrances register is managed by IRN; via automovelonline.mj.pt you obtain a certidão with records on the owner, reserva de propriedade, penhoras, hipotecas), (2) Finanças — IUC with no debts, (3) recent IPO, (4) Carvertical as a Carfax-style history check, (5) inspection at an independent garage. For ~€50 you can avoid buying a car with debts or hidden defects.',
+  tldr: 'Five checks before buying a used car: (1) Registo Automóvel via IRN/Conservatória/Automóvel Online (NOT IMT — the ownership and encumbrances register is managed by IRN; via automovelonline.mj.pt you obtain a certidão with records on the owner, reserva de propriedade, penhoras, hipotecas), (2) Finanças — IUC with no debts, (3) recent IPO, (4) Carvertical as a Carfax-style history check, (5) inspection at an independent garage. For ~€50 you can avoid buying a car with debts or hidden defects.',
   tags: ['used car', 'check', 'purchase', 'dua'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,9 +11,9 @@ export default {
       id: 'check-registo',
       title: '1. Registo Automóvel — official ownership register (IRN)',
       content: [
-        { kind: 'paragraph', text: 'The vehicle ownership and encumbrances register is managed by **IRN (Instituto dos Registos e do Notariado)** through Conservatória do Registo Automóvel and the online service **Automóvel Online** (automovelonline.mj.pt). NOT IMT — IMT handles the technical side (matrícula, IPO, driving licences), but not the ownership register.' },
+        { kind: 'paragraph', text: 'The vehicle ownership and encumbrances register is managed by IRN (Instituto dos Registos e do Notariado) through Conservatória do Registo Automóvel and the online service Automóvel Online (automovelonline.mj.pt). NOT IMT — IMT handles the technical side (matrícula, IPO, driving licences), but not the ownership register.' },
         { kind: 'checklist', items: [
-          '💻 automovelonline.mj.pt → request a **certidão permanente do registo automóvel** (requires Chave Móvel Digital (CMD) or Cartão de Cidadão (CC) + card reader)',
+          '💻 automovelonline.mj.pt → request a certidão permanente do registo automóvel (requires Chave Móvel Digital (CMD) or Cartão de Cidadão (CC) + card reader)',
           '🔍 Enter the matrícula (registration number)',
           '📋 The certidão will show: current owner, registration date, registered encumbrances (reserva de propriedade, penhoras, hipotecas, locação financeira)',
           '🔒 “Penhora” (seizure) — red flag, do not buy',

@@ -3,7 +3,7 @@ export default {
   id: 'espaco-cidadao',
   categoryId: 'digital_gov',
   title: 'Espaço Cidadão — serviços públicos num balcão único',
-  tldr: 'Espaço Cidadão — pontos de atendimento (existem em todo o país, mas não garantidamente em todos os municípios), onde se resolvem muitas questões relacionadas com serviços públicos: Chave Móvel Digital, alteração de morada, várias certidões e outros. O conjunto concreto de serviços depende do ponto de atendimento — NIF/NISS não estão disponíveis em todos os Espaço Cidadão. Nas grandes cidades existe a Loja de Cidadão (balcões separados de diferentes entidades — a composição varia consoante a cidade)\.\n\nA marcação através de ePortugal.gov.pt é **recomendada**, mas não é obrigatória em todo o lado — alguns serviços funcionam por ordem de chegada ou por senhas.',
+  tldr: 'Espaço Cidadão — pontos de atendimento (existem em todo o país, mas não garantidamente em todos os municípios), onde se resolvem muitas questões relacionadas com serviços públicos: Chave Móvel Digital, alteração de morada, várias certidões e outros. O conjunto concreto de serviços depende do ponto de atendimento — NIF/NISS não estão disponíveis em todos os Espaço Cidadão. Nas grandes cidades existe a Loja de Cidadão (balcões separados de diferentes entidades — a composição varia consoante a cidade)\.\n\nA marcação através de ePortugal.gov.pt é recomendada, mas não é obrigatória em todo o lado — alguns serviços funcionam por ordem de chegada ou por senhas.',
   tags: ['espaço cidadão', 'loja de cidadão', 'serviços públicos'],
   estimatedReadMinutes: 4,
   steps: [

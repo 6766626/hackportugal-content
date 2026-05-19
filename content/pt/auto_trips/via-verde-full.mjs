@@ -3,7 +3,7 @@ export default {
   id: 'via-verde-full',
   categoryId: 'auto_trips',
   title: 'Via Verde (sistema de pagamento eletrónico de portagens) — guia completo para pagar portagens em Portugal',
-  tldr: 'A Via Verde é o pagamento eletrónico de portagens através de um transponder (identificador). Subscrição a partir de 5 € de ativação + 1,75 €/mês. Alternativa — pós-pagamento através de portagens.ctt.pt ou terminais CTT/Payshop: para matrículas portuguesas, o pagamento fica normalmente disponível **cerca de 48 horas** após a passagem e é válido durante **15 dias úteis**. Atraso → a dívida passa para cobrança administrativa: coima fixa por contraordenação (intervalo conforme tabela, não «25× o valor da portagem»), mais % por falta de pagamento.\n\nIMPORTANTE: desde 01.01.2025 foram abolidas as portagens na A22, A23, A24, A25, em partes da A28, A4, A13. O «bloqueio automático do DUA» NÃO é uma consequência padrão.',
+  tldr: 'A Via Verde é o pagamento eletrónico de portagens através de um transponder (identificador). Subscrição a partir de 5 € de ativação + 1,75 €/mês. Alternativa — pós-pagamento através de portagens.ctt.pt ou terminais CTT/Payshop: para matrículas portuguesas, o pagamento fica normalmente disponível cerca de 48 horas após a passagem e é válido durante 15 dias úteis. Atraso → a dívida passa para cobrança administrativa: coima fixa por contraordenação (intervalo conforme tabela, não «25× o valor da portagem»), mais % por falta de pagamento.\n\nIMPORTANTE: desde 01.01.2025 foram abolidas as portagens na A22, A23, A24, A25, em partes da A28, A4, A13. O «bloqueio automático do DUA» NÃO é uma consequência padrão.',
   tags: ['via verde', 'portagens', 'estradas', 'automóvel', 'autoestradas'],
   estimatedReadMinutes: 7,
   steps: [
@@ -66,10 +66,10 @@ export default {
           { id: 'n1', title: 'A. Autoestradas eletrónicas (antigas SCUT). Desde 01.01.2025, em várias autoestradas as portagens foram abolidas — A22 Algarve, A23, A24, A25, partes da A28, A4, A13', content: [
             { kind: 'paragraph', text: 'Não há cabine — apenas pórticos com câmaras. Leem a matrícula e emitem a cobrança.' },
             { kind: 'checklist', items: [
-              'O pagamento é possível quando aparece no sistema — para matrículas portuguesas, normalmente **cerca de 48 horas após a passagem**',
-              'Janela de pagamento — normalmente **15 dias úteis** através de terminais CTT/Payshop ou em `portagens.ctt.pt`',
+              'O pagamento é possível quando aparece no sistema — para matrículas portuguesas, normalmente cerca de 48 horas após a passagem',
+              'Janela de pagamento — normalmente 15 dias úteis através de terminais CTT/Payshop ou em `portagens.ctt.pt`',
               'Pré-pagamento em postos de combustível — associar previamente um cartão',
-              'Se o pagamento não for feito dentro do prazo estabelecido — a dívida passa para cobrança administrativa: aplica-se uma coima por contraordenação (intervalo conforme tabela, **não «25× o valor da portagem»**), mais % por falta de pagamento'
+              'Se o pagamento não for feito dentro do prazo estabelecido — a dívida passa para cobrança administrativa: aplica-se uma coima por contraordenação (intervalo conforme tabela, não «25× o valor da portagem»), mais % por falta de pagamento'
             ]}
           ]},
           { id: 'n2', title: 'B. Autoestradas clássicas (A1, A2, A5 — com cabines)', content: [

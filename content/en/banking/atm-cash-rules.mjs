@@ -3,7 +3,7 @@ export default {
   id: 'atm-cash-rules',
   categoryId: 'banking',
   title: 'ATMs, cash and limits in Portugal',
-  tldr: 'The main ATM network is Multibanco (MB), with around 12,000 machines. They accept most international cards, but whether a specific card is accepted depends on the issuing bank. Multibanco usually does not charge an additional fee, but the foreign issuing bank may apply its own fee.\n\nThe withdrawal limit is €200–€400/day. Cash payments between private individuals are prohibited for amounts **≥ €3,000** (art. 63-E LGT); for IRC/IRS taxpayers with organised accounts — **≥ €1,000** per invoice. Cash deposits above €10,000 require justification of the source of funds under AML rules — banks may request documents even for smaller amounts when analysing risk level.',
+  tldr: 'The main ATM network is Multibanco (MB), with around 12,000 machines. They accept most international cards, but whether a specific card is accepted depends on the issuing bank. Multibanco usually does not charge an additional fee, but the foreign issuing bank may apply its own fee.\n\nThe withdrawal limit is €200–€400/day. Cash payments between private individuals are prohibited for amounts ≥ €3,000 (art. 63-E LGT); for IRC/IRS taxpayers with organised accounts — ≥ €1,000 per invoice. Cash deposits above €10,000 require justification of the source of funds under AML rules — banks may request documents even for smaller amounts when analysing risk level.',
   tags: ['atm', 'multibanco', 'cash', 'limits', 'banknote'],
   estimatedReadMinutes: 5,
   steps: [
@@ -43,9 +43,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'art. 63-E LGT (Lei Geral Tributária) — restrictions on cash payments. The prohibitions apply to transactions equal to or exceeding the threshold:' },
         { kind: 'checklist', items: [
-          '🧑‍🤝‍🧑 Between ordinary private individuals: prohibition on cash payments **≥ €3,000** per transaction',
-          '🏢 IRC/IRS taxpayers with organised accounts: prohibition on cash payments for invoices/documents **≥ €1,000**',
-          '✈️ Non-resident tourists (private individuals with no obligation to keep organised accounts in Portugal): the threshold is usually **≥ €10,000** for cash transactions without special AML procedures',
+          '🧑‍🤝‍🧑 Between ordinary private individuals: prohibition on cash payments ≥ €3,000 per transaction',
+          '🏢 IRC/IRS taxpayers with organised accounts: prohibition on cash payments for invoices/documents ≥ €1,000',
+          '✈️ Non-resident tourists (private individuals with no obligation to keep organised accounts in Portugal): the threshold is usually ≥ €10,000 for cash transactions without special AML procedures',
           '⚖️ Fines under RGIT for breach — can be significant; enforcement is carried out by AT',
           '📋 Transactions from €3,000 (or €1,000 for businesses) — bank transfer/cheque/electronic payment',
           '🛒 IMPORTANT: splitting a single transaction into several payments to bypass the threshold is a separate breach'

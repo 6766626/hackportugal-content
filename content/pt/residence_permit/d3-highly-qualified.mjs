@@ -54,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'O NIF é muitas vezes tratado antecipadamente. O NISS costuma ser tratado após o início da relação laboral / através do empregador. Verifique se a marcação AIMA consta do visto; se não constar, insista na marcação através da AIMA.' }
           ]},
           { id: 's5', title: '5. Pedir o regime fiscal IFICI (se a atividade for elegível)', content: [
-            { kind: 'paragraph', text: 'O IFICI NÃO é automático para o D3. O regime concede IRS de 20% sobre eligible net employment/self-employment income de listed scientific, innovation ou qualified activities por um período até 10 anos, se forem cumpridas as condições do IFICI: atividade elegível, empregador/organização elegível (com registo, quando aplicável), ausência de residência fiscal em PT nos 5 anos anteriores e inexistência de utilização incompatível do NHR. O pedido é normalmente apresentado até **15 de janeiro** do ano seguinte ao ano em que se tornou residente (Portaria 352/2024/1; EBF art. 58-A).' }
+            { kind: 'paragraph', text: 'O IFICI NÃO é automático para o D3. O regime concede IRS de 20% sobre eligible net employment/self-employment income de listed scientific, innovation ou qualified activities por um período até 10 anos, se forem cumpridas as condições do IFICI: atividade elegível, empregador/organização elegível (com registo, quando aplicável), ausência de residência fiscal em PT nos 5 anos anteriores e inexistência de utilização incompatível do NHR. O pedido é normalmente apresentado até 15 de janeiro do ano seguinte ao ano em que se tornou residente (Portaria 352/2024/1; EBF art. 58-A).' }
           ]}
         ]}
       ]

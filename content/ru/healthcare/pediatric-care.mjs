@@ -11,13 +11,13 @@ export default {
       id: 'sns-system',
       title: '🏥 Как работает SNS для детей',
       content: [
-        { kind: 'paragraph', text: 'Важное отличие от РФ/BR: в SNS первичное наблюдение обычно ведут **médico de família** (medicina geral e familiar) и enfermeiro de família. Pediatria в SNS обычно доступна через направление в hospital/specialty care. В частном секторе педиатры часто ведут и обычные профилактические консультации.' },
+        { kind: 'paragraph', text: 'Важное отличие от РФ/BR: в SNS первичное наблюдение обычно ведут médico de família (medicina geral e familiar) и enfermeiro de família. Pediatria в SNS обычно доступна через направление в hospital/specialty care. В частном секторе педиатры часто ведут и обычные профилактические консультации.' },
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Регистрация ребёнка в SNS', content: [
             { kind: 'checklist', items: [
-              '1. После рождения / приезда — в **Centro de Saúde** по месту жительства',
+              '1. После рождения / приезда — в Centro de Saúde по месту жительства',
               '2. Документы: ID/passport или Cartão de Cidadão ребёнка, свидетельство о рождении, NIF (при наличии), proof of address/residence status. NISS обычно НЕ требуется для número de utente — это разные номера',
-              '3. Присвоят **Número de Utente** (пожизненный)',
+              '3. Присвоят Número de Utente (пожизненный)',
               '4. Если в USF/UCSP есть свободные списки — назначат médico de família. Если нет — ребёнок остаётся sem médico de família, но сохраняет доступ к вакцинации, программе Saúde Infantil через unidade/consulta aberta/enfermagem',
               '5. Автоматически включат в программу Saúde Infantil e Juvenil — плановые визиты по графику DGS',
               '⚠️ Значительная часть utentes в Португалии остаются sem médico de família; актуальные цифры — в SNS Transparência / ACSS reports'
@@ -26,10 +26,10 @@ export default {
           { id: 'f2', title: 'Saúde Infantil e Juvenil — плановые визиты', content: [
             { kind: 'checklist', items: [
               'Бесплатно для utente, по DGS Programa Nacional de Saúde Infantil e Juvenil:',
-              '🍼 **Первый год**: 1.ª semana de vida; 1, 2, 4, 6, 9, 12 мес — вес/рост, развитие, вакцины, питание',
-              '🧒 **1–5 лет**: 15, 18 мес; 2, 3, 4, 5 лет — речь, моторика, вакцины',
-              '📚 **Школа**: 6–7, 8, 10 лет — рост, зрение, слух, вакцины',
-              '🧑 **Подросток**: 12–13 и 15–18 лет — половое развитие, психоэмоциональное состояние, самостоятельность',
+              '🍼 Первый год: 1.ª semana de vida; 1, 2, 4, 6, 9, 12 мес — вес/рост, развитие, вакцины, питание',
+              '🧒 1–5 лет: 15, 18 мес; 2, 3, 4, 5 лет — речь, моторика, вакцины',
+              '📚 Школа: 6–7, 8, 10 лет — рост, зрение, слух, вакцины',
+              '🧑 Подросток: 12–13 и 15–18 лет — половое развитие, психоэмоциональное состояние, самостоятельность',
               '📱 Напоминания приходят в приложение SNS 24',
               '📋 Электронная карта вакцин и консультаций — в приложении (локальное расписание может отличаться)'
             ]}
@@ -39,7 +39,7 @@ export default {
               'Направление от médico de família через систему referenciação/SIGA SNS на consulta hospitalar; для детей без taxas moderadoras. Ожидание зависит от приоритета и hospital — может занять недели или много месяцев',
               'Для срочного случая: частный pediatra за 60–120 € / визит',
               'Распространённые направления: детская эндокринология, детская неврология, детская дерматология',
-              '**Частный pediatra со страховкой** (Médis/Multicare): доплата 10–25 €'
+              'Частный pediatra со страховкой (Médis/Multicare): доплата 10–25 €'
             ]}
           ]}
         ]}
@@ -61,12 +61,12 @@ export default {
           ]},
           { id: 'c2', title: 'Сети клиник', content: [
             { kind: 'checklist', items: [
-              '**CUF Pediatrics** (Lisboa, Porto, Algarve) — комплексные услуги',
-              '**Lusíadas Pediatrics** — Amadora, Porto',
-              '**Hospital da Luz Pediatrics** — Lisboa, Setúbal',
-              '**Grupo Trofa Saúde** — район Porto',
-              '**Joaquim Chaves** — клиники формата retail',
-              '**Сеть AdvanceCare** — через страховку'
+              'CUF Pediatrics (Lisboa, Porto, Algarve) — комплексные услуги',
+              'Lusíadas Pediatrics — Amadora, Porto',
+              'Hospital da Luz Pediatrics — Lisboa, Setúbal',
+              'Grupo Trofa Saúde — район Porto',
+              'Joaquim Chaves — клиники формата retail',
+              'Сеть AdvanceCare — через страховку'
             ]}
           ]},
           { id: 'c3', title: 'Цены без страховки', content: [
@@ -80,10 +80,10 @@ export default {
           ]},
           { id: 'c4', title: 'С частной страховкой', content: [
             { kind: 'checklist', items: [
-              '**Médis**: семейный план ~100–180 €/мес, доплата 10–20 €',
-              '**Multicare** (Fidelidade): ~80–150 €/мес, такая же доплата',
-              '**AdvanceCare** (Generali): более индивидуальные планы',
-              '**Tranquilidade**: прогрессивный вариант',
+              'Médis: семейный план ~100–180 €/мес, доплата 10–20 €',
+              'Multicare (Fidelidade): ~80–150 €/мес, такая же доплата',
+              'AdvanceCare (Generali): более индивидуальные планы',
+              'Tranquilidade: прогрессивный вариант',
               'Для ребёнка отдельно: ~20–40 €/мес',
               'Для simples consultas de pediatria carência часто отсутствует или короткая, но это зависит от apólice; проверяйте carências for exams, hospitalization, pre-existing conditions and newborn inclusion'
             ]}
@@ -98,21 +98,21 @@ export default {
         { kind: 'substeps', items: [
           { id: 'u1', title: 'Больницы с педиатрической urgência', content: [
             { kind: 'checklist', items: [
-              '🏥 **Lisboa**: Hospital Dona Estefânia — основной педиатрический',
-              '🏥 **Porto**: Hospital de São João, Centro Materno-Infantil do Norte',
-              '🏥 **Coimbra**: Hospital Pediátrico',
-              '🏥 **Faro**: педиатрическое отделение Hospital de Faro',
-              '🏥 **Cascais**: Hospital de Cascais (педиатрическое отделение)',
+              '🏥 Lisboa: Hospital Dona Estefânia — основной педиатрический',
+              '🏥 Porto: Hospital de São João, Centro Materno-Infantil do Norte',
+              '🏥 Coimbra: Hospital Pediátrico',
+              '🏥 Faro: педиатрическое отделение Hospital de Faro',
+              '🏥 Cascais: Hospital de Cascais (педиатрическое отделение)',
               'Частные: CUF Tejo Pediatric, Luz Pediatric — меньше очередей',
               '⚠️ Перед поездкой проверяйте serviços de urgência disponíveis на страницах SNS/ULS или звоните SNS 24: pediatric emergency units могут иметь временные ограничения. Для частных hospitals подтверждайте часы работы детской urgência and accepted ages перед визитом'
             ]}
           ]},
           { id: 'u2', title: 'Когда идти в urgência', content: [
             { kind: 'checklist', items: [
-              '🚨 При угрозе жизни — **112** (единый европейский номер экстренной помощи)',
+              '🚨 При угрозе жизни — 112 (единый европейский номер экстренной помощи)',
               '🔴 ДА: высокая температура у ребёнка <3 мес (любая >38°C), судороги, сильная одышка, обморок, тяжёлая травма, аллергическая реакция',
               '🟡 Обычно не надо: простуда без осложнений, температура до 39°C у детей постарше, лёгкая травма',
-              '📞 В неэкстренных/сомнительных случаях сначала звоните **SNS 24: 808 24 24 24** — оператор/медсестра проведёт телефонную triagem и скажет, куда идти. Manchester Triage применяется уже после прибытия в hospital emergency',
+              '📞 В неэкстренных/сомнительных случаях сначала звоните SNS 24: 808 24 24 24 — оператор/медсестра проведёт телефонную triagem и скажет, куда идти. Manchester Triage применяется уже после прибытия в hospital emergency',
               '💡 Во многих Centro de Saúde есть Atendimento Complementar — менее загруженная альтернатива'
             ]}
           ]}

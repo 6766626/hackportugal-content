@@ -3,7 +3,7 @@ export default {
   id: 'urgencia-how-to',
   categoryId: 'emergency_rights',
   title: 'Como não ficar o dia inteiro na urgência',
-  tldr: 'A urgência em Portugal funciona com o Manchester Triage System — a cor depende da gravidade do estado. Vermelho — imediato, laranja — ≤ 10 min, amarelo — ≤ 60 min, verde — ≤ 120 min, azul — ≤ 240 min. Para reduzir a espera: (1) primeiro SNS 24 (**808 24 24 24**) — triagem de enfermagem por algoritmos clínicos (não é um médico ao telefone), encaminha para o nível adequado; (2) Atendimento Complementar no Centro de Saúde (à noite/ao fim de semana); (3) urgências privadas (CUF, Lusíadas, Luz) — 20–80 €; (4) aplicação «Tempos de Espera SNS» para verificar a fila.\n\n⚠️ Os números 808 são tarifados de acordo com o tarifário do assinante: telemóveis e cartões SIM estrangeiros podem ser pagos.',
+  tldr: 'A urgência em Portugal funciona com o Manchester Triage System — a cor depende da gravidade do estado. Vermelho — imediato, laranja — ≤ 10 min, amarelo — ≤ 60 min, verde — ≤ 120 min, azul — ≤ 240 min. Para reduzir a espera: (1) primeiro SNS 24 (808 24 24 24) — triagem de enfermagem por algoritmos clínicos (não é um médico ao telefone), encaminha para o nível adequado; (2) Atendimento Complementar no Centro de Saúde (à noite/ao fim de semana); (3) urgências privadas (CUF, Lusíadas, Luz) — 20–80 €; (4) aplicação «Tempos de Espera SNS» para verificar a fila.\n\n⚠️ Os números 808 são tarifados de acordo com o tarifário do assinante: telemóveis e cartões SIM estrangeiros podem ser pagos.',
   tags: ['urgência', 'ambulância', 'sns', 'manchester'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'before',
       title: '📞 Antes de ir — ligue para o SNS 24',
       content: [
-        { kind: 'paragraph', text: 'SNS 24 (**808 24 24 24**) — linha médica pública, funciona 24/7. Triagem de enfermagem por algoritmos clínicos (não é uma conversa com um médico).\n\nO serviço em si é gratuito, mas o número 808 é tarifado de acordo com o tarifário do assinante: telemóveis e cartões SIM estrangeiros podem ser cobrados ao minuto:' },
+        { kind: 'paragraph', text: 'SNS 24 (808 24 24 24) — linha médica pública, funciona 24/7. Triagem de enfermagem por algoritmos clínicos (não é uma conversa com um médico).\n\nO serviço em si é gratuito, mas o número 808 é tarifado de acordo com o tarifário do assinante: telemóveis e cartões SIM estrangeiros podem ser cobrados ao minuto:' },
         { kind: 'checklist', items: [
           '🟢 Não urgente → marcar consulta com o médico de família no Centro de Saúde',
           '🟡 Precisa de ajuda, mas não imediatamente → clínica privada / consulta não urgente',
@@ -29,12 +29,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Ao chegar à urgência, a primeira coisa é ser triado por um enfermeiro ou enfermeira: questionário de 3–5 min → é atribuída uma cor.' },
         { kind: 'checklist', items: [
-          '🔴 **Vermelho (vermelho) — EMERGÊNCIA**: atendimento **imediato**. Paragem cardíaca, AVC, trauma grave, perda de consciência',
-          '🟠 **Laranja (laranja) — MUITO URGENTE**: em **≤ 10 min**. Dor forte no peito, dificuldade em respirar, hemorragia importante',
-          '🟡 **Amarelo (amarelo) — URGENTE**: em **≤ 60 min**. Dor moderada, febre com agravamento, membro partido',
-          '🟢 **Verde (verde) — POUCO URGENTE**: em **≤ 120 min**. Ferida sem hemorragia, dores moderadas, náuseas',
-          '🔵 **Azul (azul) — NÃO URGENTE**: em **≤ 240 min** (4 horas!). Sintomas ≤ 7 dias, constipação ligeira, dor ligeira',
-          '⚪ **Branco** — não requer cuidados urgentes (deve ir ao médico de família) — enviam para casa'
+          '🔴 Vermelho (vermelho) — EMERGÊNCIA: atendimento imediato. Paragem cardíaca, AVC, trauma grave, perda de consciência',
+          '🟠 Laranja (laranja) — MUITO URGENTE: em ≤ 10 min. Dor forte no peito, dificuldade em respirar, hemorragia importante',
+          '🟡 Amarelo (amarelo) — URGENTE: em ≤ 60 min. Dor moderada, febre com agravamento, membro partido',
+          '🟢 Verde (verde) — POUCO URGENTE: em ≤ 120 min. Ferida sem hemorragia, dores moderadas, náuseas',
+          '🔵 Azul (azul) — NÃO URGENTE: em ≤ 240 min (4 horas!). Sintomas ≤ 7 dias, constipação ligeira, dor ligeira',
+          '⚪ Branco — não requer cuidados urgentes (deve ir ao médico de família) — enviam para casa'
         ]},
         { kind: 'warning', text: '80% dos doentes em Portugal chegam com cor amarela/verde/azul — e esperam 2–4 horas. Se lhe atribuíram azul — é mais realista marcar no Centro de Saúde ou ir a uma clínica privada.' }
       ]
@@ -58,7 +58,7 @@ export default {
               'Em Lisboa: Hospital Beatriz Ângelo (Loures) — normalmente mais rápido do que Santa Maria',
               'Hospital de Cascais (se vive em Cascais/Estoril) — muitas vezes mais tranquilo',
               'Porto: Hospital de São João — 4–6 horas; Hospital de Pedro Hispano (Matosinhos) — por vezes 2–3 horas',
-              '📱 **Aplicação «Tempos de Espera SNS»** — tempo de espera real em todos os hospitais!',
+              '📱 Aplicação «Tempos de Espera SNS» — tempo de espera real em todos os hospitais!',
               '💡 Verifique antes de sair — vá para o local menos sobrecarregado'
             ]}
           ]},
@@ -73,7 +73,7 @@ export default {
           { id: 's4', title: '4. Urgência privada', content: [
             { kind: 'checklist', items: [
               'Custo: 20–80 € por visita sem seguro, 0–15 € de copagamento com seguro privado',
-              'Rede: **CUF, Lusíadas, Luz, Trofa, Hospital da Misericórdia**',
+              'Rede: CUF, Lusíadas, Luz, Trofa, Hospital da Misericórdia',
               'Espera: normalmente 15–45 min',
               'Funcionam 24/7 nos grandes centros, das 8:00 às 24:00 — nos mais pequenos',
               'Consulta, análises, raio-X, ecografia — no local',
@@ -82,10 +82,10 @@ export default {
           ]},
           { id: 's5', title: '5. Urgências especializadas', content: [
             { kind: 'checklist', items: [
-              '**Pediátrica** (crianças até aos 15–18 anos): serviços separados. Em Lisboa — Hospital Dona Estefânia. No Porto — Centro Materno-Infantil do Norte (CHUSJ/ULS Santo António, após integração do antigo Maria Pia)',
-              '**Ginecológica / Obstétrica**: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)',
-              '**Psiquiátrica**: Hospital Magalhães Lemos (Porto), Hospital Júlio de Matos (Lisboa)',
-              '**Estomatológica** (dentes): Hospital São José e clínicas privadas (IMD, Dental Family)'
+              'Pediátrica (crianças até aos 15–18 anos): serviços separados. Em Lisboa — Hospital Dona Estefânia. No Porto — Centro Materno-Infantil do Norte (CHUSJ/ULS Santo António, após integração do antigo Maria Pia)',
+              'Ginecológica / Obstétrica: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)',
+              'Psiquiátrica: Hospital Magalhães Lemos (Porto), Hospital Júlio de Matos (Lisboa)',
+              'Estomatológica (dentes): Hospital São José e clínicas privadas (IMD, Dental Family)'
             ]}
           ]}
         ]}
@@ -96,13 +96,13 @@ export default {
       title: '📋 O que levar consigo',
       content: [
         { kind: 'checklist', items: [
-          '🆔 **CC / autorização de residência / passaporte**',
-          '📇 **Número de Utente (SNS)** — mesmo sem ele será atendido, mas o processo será mais demorado',
-          '💊 **Lista dos medicamentos atuais** — escrita ou fotografia no telemóvel',
-          '📄 **Histórico médico**: doenças crónicas, alergias, cirurgias',
-          '💳 **Cartão bancário**: caso sejam prescritos medicamentos pagos (uma parte é comparticipada pelo SNS, o restante é pago)',
-          '📚 **Livro / carregador / comida** — a espera pode ser de 2–4 horas',
-          '🗣️ **Dicionário PT / tradutor**: 90% dos médicos entendem EN, mas o pessoal auxiliar muitas vezes não'
+          '🆔 CC / autorização de residência / passaporte',
+          '📇 Número de Utente (SNS) — mesmo sem ele será atendido, mas o processo será mais demorado',
+          '💊 Lista dos medicamentos atuais — escrita ou fotografia no telemóvel',
+          '📄 Histórico médico: doenças crónicas, alergias, cirurgias',
+          '💳 Cartão bancário: caso sejam prescritos medicamentos pagos (uma parte é comparticipada pelo SNS, o restante é pago)',
+          '📚 Livro / carregador / comida — a espera pode ser de 2–4 horas',
+          '🗣️ Dicionário PT / tradutor: 90% dos médicos entendem EN, mas o pessoal auxiliar muitas vezes não'
         ]}
       ]
     },
@@ -111,12 +111,12 @@ export default {
       title: 'Conselhos gerais',
       content: [
         { kind: 'checklist', items: [
-          '🔁 **Médico de família** (médico de família) — a chave principal. Registo no centro de saúde da área de residência, gratuito. Cada residente com Número de Utente tem direito a um',
-          '📝 **Receita**: o médico de família emite para 3–6 meses no caso de doenças crónicas — não é preciso ir sempre à urgência',
-          '📞 **Primeiro SNS 24, sempre** — eles próprios decidirão se é necessária urgência',
-          '💻 **Portal MySNS** (mysns.min-saude.pt): consultar as suas receitas, marcações, resultados de análises',
-          '🚑 **INEM (112)**: apenas para situações que ameaçam realmente a vida. Chamadas falsas são multadas',
-          '🌙 **Horas nocturnas na urgência**: se puder esperar até de manhã — espere. 2–4 da manhã é a hora mais difícil'
+          '🔁 Médico de família (médico de família) — a chave principal. Registo no centro de saúde da área de residência, gratuito. Cada residente com Número de Utente tem direito a um',
+          '📝 Receita: o médico de família emite para 3–6 meses no caso de doenças crónicas — não é preciso ir sempre à urgência',
+          '📞 Primeiro SNS 24, sempre — eles próprios decidirão se é necessária urgência',
+          '💻 Portal MySNS (mysns.min-saude.pt): consultar as suas receitas, marcações, resultados de análises',
+          '🚑 INEM (112): apenas para situações que ameaçam realmente a vida. Chamadas falsas são multadas',
+          '🌙 Horas nocturnas na urgência: se puder esperar até de manhã — espere. 2–4 da manhã é a hora mais difícil'
         ]}
       ]
     }

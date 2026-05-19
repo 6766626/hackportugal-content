@@ -51,9 +51,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Ways to log in via CMD', content: [
             { kind: 'checklist', items: [
-              '🔢 **PIN code** + one-time SMS code',
-              '👁️ **Biometrics**: Apple Touch ID / Face ID, Android fingerprint',
-              '📱 Mobile app **autenticacao.gov.pt**',
+              '🔢 PIN code + one-time SMS code',
+              '👁️ Biometrics: Apple Touch ID / Face ID, Android fingerprint',
+              '📱 Mobile app autenticacao.gov.pt',
               '⚠️ If SMS messages do not arrive — the phone is not linked or does not work in roaming'
             ]}
           ]},
@@ -82,9 +82,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'CC has 3 PIN codes: authentication PIN (4 digits), signature PIN (4 digits), address change PIN (4 digits). After 3 incorrect entries, the PIN is blocked.' },
         { kind: 'checklist', items: [
-          '🔓 **Unblock**: Espaço Cidadão / Loja CC, in person, free of charge',
-          '🆕 **Change PIN yourself**: on the autenticacao.gov.pt website (old PIN required)',
-          '📤 **Fully reset** (if the PIN is forgotten and blocked): Loja CC, around €10, on the day of the visit',
+          '🔓 Unblock: Espaço Cidadão / Loja CC, in person, free of charge',
+          '🆕 Change PIN yourself: on the autenticacao.gov.pt website (old PIN required)',
+          '📤 Fully reset (if the PIN is forgotten and blocked): Loja CC, around €10, on the day of the visit',
           '⚠️ Code letter (“carta de PINs”) — arrives when the CC is issued. Keep it!',
           '💡 If you have lost the card: block it via 808 12 12 30 or ePortugal — immediately'
         ]}

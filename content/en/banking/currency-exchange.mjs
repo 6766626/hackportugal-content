@@ -14,8 +14,8 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Wise (formerly TransferWise)', content: [
             { kind: 'checklist', items: [
-              '🟢 **Rate**: mid-market + 0.4-0.5% (the cheapest among legal options)',
-              '💳 **Wise card**: you can spend EUR from a multi-currency account; EUR account details are usually not a PT IBAN, and Wise is not a Portuguese bank',
+              '🟢 Rate: mid-market + 0.4-0.5% (the cheapest among legal options)',
+              '💳 Wise card: you can spend EUR from a multi-currency account; EUR account details are usually not a PT IBAN, and Wise is not a Portuguese bank',
               '🚀 EUR-EUR transfer: ≤ 1 hour, free',
               '🚀 USD/GBP → EUR: 1-2 days',
               '🇷🇺 RUB → EUR: NOT available (since 2022, sanctions)',
@@ -25,7 +25,7 @@ export default {
           ]},
           { id: 'b2', title: 'Revolut', content: [
             { kind: 'checklist', items: [
-              '🟢 **Rate**: on weekdays — close to the interbank rate within plan limits; on Standard, after the limit there is a fair-use fee; at weekends there is usually an additional mark-up',
+              '🟢 Rate: on weekdays — close to the interbank rate within plan limits; on Standard, after the limit there is a fair-use fee; at weekends there is usually an additional mark-up',
               '💳 For Revolut customers migrated to the Portuguese branch, a PT IBAN may be available; check in the app. Non-residents/old accounts may have an LT or other IBAN',
               '🚀 Multi-currency account — hold USD/GBP',
               '⚡ Instant conversion',
@@ -44,9 +44,9 @@ export default {
           ]},
           { id: 'b4', title: 'Brokers for large amounts', content: [
             { kind: 'checklist', items: [
-              '💼 **CurrencyFair**: for €10,000+, spread 0.3-0.5%',
-              '💼 **OFX**: spread 0.4-0.7%, no fee',
-              '💼 **Xe Money Transfer** (formerly HiFX): for UK residents and others',
+              '💼 CurrencyFair: for €10,000+, spread 0.3-0.5%',
+              '💼 OFX: spread 0.4-0.7%, no fee',
+              '💼 Xe Money Transfer (formerly HiFX): for UK residents and others',
               '⏱️ Transfer 1-3 days, the rate may be better than Wise for large amounts (depends on the quote)',
               '🆔 KYC is mandatory — passport + proof of source of funds'
             ]}
@@ -94,10 +94,10 @@ export default {
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Via a third country', content: [
             { kind: 'checklist', items: [
-              '🇹🇷 **Turkey**: open an account with Türkiye İş Bankası, transfer RUB → TRY → USD → EUR',
-              '🇷🇸 **Serbia**: Banka Intesa, NBS regulation is more liberal',
-              '🇬🇪 **Georgia**: TBC Bank — a workable option',
-              '🇰🇿 **Kazakhstan**: Halyk Bank — transfers from the Russian Federation still work',
+              '🇹🇷 Turkey: open an account with Türkiye İş Bankası, transfer RUB → TRY → USD → EUR',
+              '🇷🇸 Serbia: Banka Intesa, NBS regulation is more liberal',
+              '🇬🇪 Georgia: TBC Bank — a workable option',
+              '🇰🇿 Kazakhstan: Halyk Bank — transfers from the Russian Federation still work',
               '⏱️ 3-7 days + 0.5-2% loss on the rate',
               '⚠️ Russian Federation rules on currency transfers and cash export change often; check the Central Bank of the Russian Federation/customs limits separately on the date of the operation. Do not confuse bank transfers, transfers to your own foreign accounts and cash export'
             ]}
@@ -127,15 +127,15 @@ export default {
       title: '💡 Tips',
       content: [
         { kind: 'checklist', items: [
-          '📅 **Rate tracking**: set up an alert in Wise/Revolut, exchange when the rate is favourable',
-          '💸 **Averaging**: split a large amount into 3-5 portions, exchange over 2-4 weeks',
-          '🏦 **Keep exchange receipts** — for AT, if required',
-          '🛡️ **Protection from sanctions**: do not keep large amounts in one bank/one currency',
-          '⚖️ **AT declaration**: foreign bank accounts of a Portuguese resident are declared in the annual **Modelo 3 IRS, Anexo J, Quadro 11** (IBAN + country), and NOT in Modelo 38. Modelo 38 is separate reporting for Portuguese financial institutions on residents’ transfers to non-EU countries, not for individuals. There is no “€50,000 threshold” for resident individuals — Anexo J Quadro 11 is mandatory regardless of balance',
-          '📊 **Portuguese IRS**: exchange rate differences on currency operations are taxable as “mais-valias” (28%)',
-          '⚠️ **Tax resident**: if you became resident in Portugal and sold assets abroad — IRS on the difference',
-          '🌐 **CMVM regulator**: the broker must be licensed in the EU; check cmvm.pt',
-          '💰 **Cash flow**: keep a EUR reserve for 3-6 months of living costs, do not depend on currency movements'
+          '📅 Rate tracking: set up an alert in Wise/Revolut, exchange when the rate is favourable',
+          '💸 Averaging: split a large amount into 3-5 portions, exchange over 2-4 weeks',
+          '🏦 Keep exchange receipts — for AT, if required',
+          '🛡️ Protection from sanctions: do not keep large amounts in one bank/one currency',
+          '⚖️ AT declaration: foreign bank accounts of a Portuguese resident are declared in the annual Modelo 3 IRS, Anexo J, Quadro 11 (IBAN + country), and NOT in Modelo 38. Modelo 38 is separate reporting for Portuguese financial institutions on residents’ transfers to non-EU countries, not for individuals. There is no “€50,000 threshold” for resident individuals — Anexo J Quadro 11 is mandatory regardless of balance',
+          '📊 Portuguese IRS: exchange rate differences on currency operations are taxable as “mais-valias” (28%)',
+          '⚠️ Tax resident: if you became resident in Portugal and sold assets abroad — IRS on the difference',
+          '🌐 CMVM regulator: the broker must be licensed in the EU; check cmvm.pt',
+          '💰 Cash flow: keep a EUR reserve for 3-6 months of living costs, do not depend on currency movements'
         ]}
       ]
     },
@@ -145,12 +145,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Estimated savings calculation on 1000 USD → EUR (mid-market rate ≈ 0.93):' },
         { kind: 'checklist', items: [
-          '🟢 **Wise**: receive ≈ €925, loss ≈ €5 (0.5%)',
-          '🟢 **Revolut Premium**: ≈ €928, loss ≈ €2',
-          '🟡 **N26**: ≈ €925, loss ≈ €5',
-          '🟠 **Portuguese bank**: ≈ €905, loss ≈ €25 (2.7%)',
-          '🔴 **Airport exchange bureau**: ≈ €880, loss ≈ €50 (5.4%)',
-          '🔴 **Western Union**: ≈ €870, loss ≈ €60'
+          '🟢 Wise: receive ≈ €925, loss ≈ €5 (0.5%)',
+          '🟢 Revolut Premium: ≈ €928, loss ≈ €2',
+          '🟡 N26: ≈ €925, loss ≈ €5',
+          '🟠 Portuguese bank: ≈ €905, loss ≈ €25 (2.7%)',
+          '🔴 Airport exchange bureau: ≈ €880, loss ≈ €50 (5.4%)',
+          '🔴 Western Union: ≈ €870, loss ≈ €60'
         ]}
       ]
     }

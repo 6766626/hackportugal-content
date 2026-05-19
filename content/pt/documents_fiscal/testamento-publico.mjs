@@ -39,7 +39,7 @@ export default {
           'Por testamento, não é possível privar livremente os herdeiros legitimários da sua legítima, se se aplicar a lei portuguesa.',
           'Para efeitos fiscais, a escolha da lei sucessória não equivale à escolha do país fiscal: o Imposto do Selo e os impostos estrangeiros são verificados separadamente.'
         ] },
-        { kind: 'warning', text: 'Portugal não cobra um “imposto sucessório clássico” entre cônjuges, filhos, netos, pais e avós — para eles aplica-se a isenção dos **10% Imposto do Selo** sobre transmissões gratuitas. Para os restantes herdeiros/legatários, aplica-se normalmente 10% Imposto do Selo. Separadamente para imóveis: no processo de habilitação e registo da herança aplica-se **Imposto do Selo 0,8%** sobre acquisition of immovable property (verba 1.1 da Tabela Geral do Imposto do Selo) + despesas de registo no IRN. Isto não são “apenas despesas de registo”. O testamento resolve a questão dos beneficiários, mas não elimina a verificação fiscal.' }
+        { kind: 'warning', text: 'Portugal não cobra um “imposto sucessório clássico” entre cônjuges, filhos, netos, pais e avós — para eles aplica-se a isenção dos 10% Imposto do Selo sobre transmissões gratuitas. Para os restantes herdeiros/legatários, aplica-se normalmente 10% Imposto do Selo. Separadamente para imóveis: no processo de habilitação e registo da herança aplica-se Imposto do Selo 0,8% sobre acquisition of immovable property (verba 1.1 da Tabela Geral do Imposto do Selo) + despesas de registo no IRN. Isto não são “apenas despesas de registo”. O testamento resolve a questão dos beneficiários, mas não elimina a verificação fiscal.' }
       ]
     },
     {
@@ -65,9 +65,9 @@ export default {
       id: 'notary-process',
       title: 'Como decorre a formalização do testamento público',
       content: [
-        { kind: 'paragraph', text: 'Segundo o Código do Notariado, para **testamento público são obrigatórias 2 testemunhas** (testemunhas instrumentárias), que estão presentes na formalização e assinam o acto juntamente com o testador e o notário. As testemunhas não podem ser herdeiros nem pessoas com conflito de interesses.\n\nNa prática, o processo é assim: explica a sua vontade, o notário prepara o texto, **lê-o em voz alta na presença das testemunhas**, esclarece as formulações e, em seguida, o documento é assinado pelo testador, pelas testemunhas e pelo notário. O testamento público fica no arquivo notarial; normalmente, o testador recebe uma confirmação ou certidão mediante pedido.' },
+        { kind: 'paragraph', text: 'Segundo o Código do Notariado, para testamento público são obrigatórias 2 testemunhas (testemunhas instrumentárias), que estão presentes na formalização e assinam o acto juntamente com o testador e o notário. As testemunhas não podem ser herdeiros nem pessoas com conflito de interesses.\n\nNa prática, o processo é assim: explica a sua vontade, o notário prepara o texto, lê-o em voz alta na presença das testemunhas, esclarece as formulações e, em seguida, o documento é assinado pelo testador, pelas testemunhas e pelo notário. O testamento público fica no arquivo notarial; normalmente, o testador recebe uma confirmação ou certidão mediante pedido.' },
         { kind: 'checklist', items: [
-          'Marque com o notário e confirme o custo, a língua, **a disponibilização de 2 testemunhas** (se não as tiver — muitas vezes o notário ajuda).',
+          'Marque com o notário e confirme o custo, a língua, a disponibilização de 2 testemunhas (se não as tiver — muitas vezes o notário ajuda).',
           'Entregue os documentos e o rascunho da distribuição dos bens.',
           'Peça para incluir separadamente uma clause of choice of law, se isso for necessário para uma herança cross-border.',
           'Verifique que nomes, datas de nascimento, NIF, moradas e descrições dos bens estão escritos sem erros.',

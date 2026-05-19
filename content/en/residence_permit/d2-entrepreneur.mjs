@@ -3,7 +3,7 @@ export default {
   id: 'd2-entrepreneur',
   categoryId: 'residence_permit',
   title: 'D2 visa (entrepreneur / self-employed)',
-  tldr: 'D2 is a visa for starting a business or self-employment in Portugal. Options: open a company, register as self-employed via Início de Atividade, buy an existing business. The financial threshold is individual: you need a viable business plan and funds for the start-up and living costs. The first residence permit is usually for 2 years, then renewed. Under current law, naturalisation is after 5 years — but **on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII**, which, after publication in the DRE, will raise the period to 7 years for CPLP/EU and 10 years for everyone else.',
+  tldr: 'D2 is a visa for starting a business or self-employment in Portugal. Options: open a company, register as self-employed via Início de Atividade, buy an existing business. The financial threshold is individual: you need a viable business plan and funds for the start-up and living costs. The first residence permit is usually for 2 years, then renewed. Under current law, naturalisation is after 5 years — but on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII, which, after publication in the DRE, will raise the period to 7 years for CPLP/EU and 10 years for everyone else.',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d2', 'residence permit', 'business', 'entrepreneur'],
   estimatedReadMinutes: 7,

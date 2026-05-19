@@ -95,7 +95,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: 'Aprovado (green)', content: [
-            { kind: 'paragraph', text: 'You receive a **ficha/certificado de inspeção** (paper or electronic) with the date of the next IPO. The DUA is **not updated** for a standard IPO — it is reissued only when technical data change (for example, after a chassis/engine repair). Everything is recorded in IMT automatically.' }
+            { kind: 'paragraph', text: 'You receive a ficha/certificado de inspeção (paper or electronic) with the date of the next IPO. The DUA is not updated for a standard IPO — it is reissued only when technical data change (for example, after a chassis/engine repair). Everything is recorded in IMT automatically.' }
           ]},
           { id: 'r2', title: 'Aprovado com Deficiências Ligeiras (orange)', content: [
             { kind: 'paragraph', text: 'You have passed, but minor corrections are needed — they are recorded in the report. No retest is required; fix them before the next IPO.' }

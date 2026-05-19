@@ -3,7 +3,7 @@ export default {
   id: 'creche-kindergarten',
   categoryId: 'education_children',
   title: 'Creche and kindergarten in Portugal',
-  tldr: 'Creche (usually 0–3) can be IPSS/social, private and more rarely municipal. Under the **Creche Feliz** programme, a place may be free in covered institutions (mainly IPSS/social network).\n\nJardim de Infância / preschool education (3–6 years) — in the state network the educational component is free; meals, transporte and AAAF/prolongamento may be charged separately. Attendance at preschool **is not compulsory** — compulsory schooling starts at age 6. Enrolment for Creche Feliz: Segurança Social Direta; for Jardim de Infância: Portal das Matrículas.',
+  tldr: 'Creche (usually 0–3) can be IPSS/social, private and more rarely municipal. Under the Creche Feliz programme, a place may be free in covered institutions (mainly IPSS/social network).\n\nJardim de Infância / preschool education (3–6 years) — in the state network the educational component is free; meals, transporte and AAAF/prolongamento may be charged separately. Attendance at preschool is not compulsory — compulsory schooling starts at age 6. Enrolment for Creche Feliz: Segurança Social Direta; for Jardim de Infância: Portal das Matrículas.',
   tags: ['creche', 'kindergarten', 'jardim de infância', 'children'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: 'Creche Feliz (free nursery for eligible places) — since 2022', content: [
-            { kind: 'paragraph', text: 'A free place in **covered** institutions — primarily the IPSS social/solidarity network; private for-profit creches may participate only if they comply with the programme rules (usually when there is no suitable place in the social network).\n\nInitially (2022/23) there was a restriction to the 1st–2nd abono brackets — by 2026 this is no longer the main rule. The standard mensalidade is €0; “extras” (additional services, extended hours) may be charged separately.' }
+            { kind: 'paragraph', text: 'A free place in covered institutions — primarily the IPSS social/solidarity network; private for-profit creches may participate only if they comply with the programme rules (usually when there is no suitable place in the social network).\n\nInitially (2022/23) there was a restriction to the 1st–2nd abono brackets — by 2026 this is no longer the main rule. The standard mensalidade is €0; “extras” (additional services, extended hours) may be charged separately.' }
           ]},
           { id: 't2', title: 'IPSS Creche outside Creche Feliz', content: [
             { kind: 'paragraph', text: 'If the place is not covered by Creche Feliz, a comparticipação familiar based on income may apply according to the institution’s/Segurança Social rules. Meals are usually included in the standard fee.' }
@@ -22,7 +22,7 @@ export default {
             { kind: 'paragraph', text: 'Commercial institutions. €400–1,200/month in Lisbon and Porto. There are international options with English, French or German.' }
           ]},
           { id: 't4', title: 'Jardim de Infância / preschool education (3–6 years)', content: [
-            { kind: 'paragraph', text: 'In the state network, the educational component is free. **Attendance is not compulsory** — compulsory school starts at age 6. Meals, transporte escolar and AAAF/prolongamento may be paid or subsidised depending on the municipality and the Ação Social Escolar (ASE) bracket.' }
+            { kind: 'paragraph', text: 'In the state network, the educational component is free. Attendance is not compulsory — compulsory school starts at age 6. Meals, transporte escolar and AAAF/prolongamento may be paid or subsidised depending on the municipality and the Ação Social Escolar (ASE) bracket.' }
           ]}
         ]}
       ]

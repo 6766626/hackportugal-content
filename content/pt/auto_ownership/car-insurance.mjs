@@ -18,7 +18,7 @@ export default {
               'Cobre danos causados a terceiros (automóveis, pessoas)',
               'Capitais mínimos da RC: definidos por lei/ASF (ver art. 12 DL 291/2007); é importante distinguir o limite por lesado e o limite por sinistro — confirme os valores actualizados nas publicações da ASF',
               'Certificado Internacional de Seguro Automóvel / antiga Carta Verde — na UE/EEE a RC portuguesa é válida automaticamente, mas é útil ter o certificado; para alguns países fora da UE/EEE pode ser obrigatório',
-              'Sem RC válida: para automóvel ligeiro, a coima é normalmente **500–2500 €**, podendo haver apreensão/imobilização do veículo e responsabilidade perante o Fundo de Garantia Automóvel/lesados'
+              'Sem RC válida: para automóvel ligeiro, a coima é normalmente 500–2500 €, podendo haver apreensão/imobilização do veículo e responsabilidade perante o Fundo de Garantia Automóvel/lesados'
             ]}
           ]},
           { id: 'danos-p', title: 'Danos Próprios / Casco', content: [
@@ -96,7 +96,7 @@ export default {
         { kind: 'checklist', items: [
           '🛍️ Comparar 3–5 propostas — os preços podem variar até 2 vezes',
           '📅 Mudança de seguradora — 30 dias antes do fim, com pedido escrito de cancelamento',
-          '🚗 Ao vender o automóvel, o seguro do vendedor **não passa** para o comprador — o comprador contrata a sua própria RC antes de começar a circular. O vendedor notifica a seguradora da venda e pode pedir a cessação do contrato/reembolso de parte do prémio ou a transferência da apólice para outro automóvel',
+          '🚗 Ao vender o automóvel, o seguro do vendedor não passa para o comprador — o comprador contrata a sua própria RC antes de começar a circular. O vendedor notifica a seguradora da venda e pode pedir a cessação do contrato/reembolso de parte do prémio ou a transferência da apólice para outro automóvel',
           '🆘 Número da ASF 213 847 900 — para reclamações',
           '🌍 Carta Verde obrigatória para viajar para outros países da UE',
           '📉 Após 5 anos sem acidentes — o bónus-malus desce até ao mínimo'

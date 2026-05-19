@@ -17,7 +17,7 @@ export default {
           ]},
           { id: 'g2', title: 'SNS 24', content: [
             { kind: 'checklist', items: [
-              '**Medical record, prescriptions, test results**',
+              'Medical record, prescriptions, test results',
               'Online chat with a doctor or nurse 24/7',
               'Video call with a healthcare professional',
               'Electronic vaccination history',
@@ -59,9 +59,9 @@ export default {
           ]},
           { id: 'm2', title: 'Revolut / Wise / N26', content: [
             { kind: 'checklist', items: [
-              '**Revolut** (since 2024 provides a Portuguese IBAN for free) — multi-currency account, cryptocurrency, shares',
-              '**Wise** (BE IBAN) — best for multi-currency transfers, 20+ currencies',
-              '**N26** (DE IBAN) — minimal banking, but good user experience',
+              'Revolut (since 2024 provides a Portuguese IBAN for free) — multi-currency account, cryptocurrency, shares',
+              'Wise (BE IBAN) — best for multi-currency transfers, 20+ currencies',
+              'N26 (DE IBAN) — minimal banking, but good user experience',
               'Useful as a second or currency account + money for travel'
             ]}
           ]},
@@ -76,17 +76,17 @@ export default {
       title: '🚆 Transport',
       content: [
         { kind: 'checklist', items: [
-          '**Navegante Metropolitano** (Lisbon) — electronic travel pass, QR tickets, bus/metro/train timetables',
-          '**MobiCascais** (Cascais municipality) — bicycles, buses, parking',
-          '**Anda** (app for road traffic in Lisbon)',
-          '**Bolt** — taxis (cheaper than Uber for short trips)',
-          '**Uber** — wider coverage in the regions',
-          '**FREE NOW** — taxi aggregator',
-          '**BlaBlaCar** — car-sharing trips between cities',
-          '**Flixbus** — intercity coaches',
-          '**CP — Comboios de Portugal** — trains, tickets',
-          '**Via Verde** — toll roads',
-          '**GoEuro / Rome2Rio** — compare ways to get there'
+          'Navegante Metropolitano (Lisbon) — electronic travel pass, QR tickets, bus/metro/train timetables',
+          'MobiCascais (Cascais municipality) — bicycles, buses, parking',
+          'Anda (app for road traffic in Lisbon)',
+          'Bolt — taxis (cheaper than Uber for short trips)',
+          'Uber — wider coverage in the regions',
+          'FREE NOW — taxi aggregator',
+          'BlaBlaCar — car-sharing trips between cities',
+          'Flixbus — intercity coaches',
+          'CP — Comboios de Portugal — trains, tickets',
+          'Via Verde — toll roads',
+          'GoEuro / Rome2Rio — compare ways to get there'
         ]}
       ]
     },
@@ -95,15 +95,15 @@ export default {
       title: '🛒 Food and shopping',
       content: [
         { kind: 'checklist', items: [
-          '**Continente Siga** — digital card, coupons, in-store price scanner',
-          '**Pingo Doce** — similar',
-          '**Lidl Plus** — scratch cards, promotional catalogues, coupons',
-          '**Folhetos.pt** — aggregator of weekly discounts from all chains',
-          '**Too Good To Go** — discounted food from shops/restaurants at the end of the day (you can save 50-70%)',
-          '**Glovo** — delivery of food, groceries, goods',
-          '**Uber Eats** — food delivery',
-          '**Bolt Food** — popular in Porto',
-          '**Auchan**, **El Corte Inglés** — if nearby'
+          'Continente Siga — digital card, coupons, in-store price scanner',
+          'Pingo Doce — similar',
+          'Lidl Plus — scratch cards, promotional catalogues, coupons',
+          'Folhetos.pt — aggregator of weekly discounts from all chains',
+          'Too Good To Go — discounted food from shops/restaurants at the end of the day (you can save 50-70%)',
+          'Glovo — delivery of food, groceries, goods',
+          'Uber Eats — food delivery',
+          'Bolt Food — popular in Porto',
+          'Auchan, El Corte Inglés — if nearby'
         ]}
       ]
     },
@@ -112,10 +112,10 @@ export default {
       title: '📨 Post and documents',
       content: [
         { kind: 'checklist', items: [
-          '**CTT** — parcel tracking, booking an appointment at a branch, online customs clearance',
-          '**Id.Gov.Pt** — wallet for your digital documents (Cartão de Cidadão, Chave Móvel Digital, driving licence)',
-          '**DocsQR** — scanning documents with your phone, OCR',
-          '**CamScanner** — alternative with export to PDF'
+          'CTT — parcel tracking, booking an appointment at a branch, online customs clearance',
+          'Id.Gov.Pt — wallet for your digital documents (Cartão de Cidadão, Chave Móvel Digital, driving licence)',
+          'DocsQR — scanning documents with your phone, OCR',
+          'CamScanner — alternative with export to PDF'
         ]}
       ]
     }

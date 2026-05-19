@@ -61,10 +61,10 @@ export default {
       title: 'Smaller outlet spots in Lisbon',
       content: [
         { kind: 'checklist', items: [
-          '**Fashion Clinic Outlet** (Av. da Liberdade) — premium brands with discounts of 30-60% (Balenciaga, Celine, Prada from recent collections)',
-          '**Amoreiras Shopping** — a regular shopping centre (NOT an outlet); individual shops may run promos. Uterqüe as a brand was closed by Inditex in 2022 — items have been integrated into Massimo Dutti',
-          '**Mercado de Levante** (Feira da Ladra) — second-hand + vintage, Saturday-Sunday',
-          '**Lisboa Outlet Village (LOV)** (Campera, 40 km N) — 70 shops: Nike, Tous, Springfield, Levi\'s'
+          'Fashion Clinic Outlet (Av. da Liberdade) — premium brands with discounts of 30-60% (Balenciaga, Celine, Prada from recent collections)',
+          'Amoreiras Shopping — a regular shopping centre (NOT an outlet); individual shops may run promos. Uterqüe as a brand was closed by Inditex in 2022 — items have been integrated into Massimo Dutti',
+          'Mercado de Levante (Feira da Ladra) — second-hand + vintage, Saturday-Sunday',
+          'Lisboa Outlet Village (LOV) (Campera, 40 km N) — 70 shops: Nike, Tous, Springfield, Levi\'s'
         ]}
       ]
     },
@@ -73,12 +73,12 @@ export default {
       title: 'When the best discounts are',
       content: [
         { kind: 'checklist', items: [
-          '📅 **Post-Christmas sales** (26 December-2 January) — up to 80%',
-          '📅 **Summer sale** (early July, final stage — end of August)',
-          '📅 **Black Friday** (25 November) — an additional 20-30% discount in many outlets',
-          '📅 **Cyber Monday** — focus on online',
-          '🎁 **Easter** (April) — mini promotion',
-          '🧲 **Private sales** — subscribe to outlet newsletters; vouchers are sent 2 weeks before events'
+          '📅 Post-Christmas sales (26 December-2 January) — up to 80%',
+          '📅 Summer sale (early July, final stage — end of August)',
+          '📅 Black Friday (25 November) — an additional 20-30% discount in many outlets',
+          '📅 Cyber Monday — focus on online',
+          '🎁 Easter (April) — mini promotion',
+          '🧲 Private sales — subscribe to outlet newsletters; vouchers are sent 2 weeks before events'
         ]}
       ]
     },

@@ -49,12 +49,12 @@ export default {
       title: 'Porto',
       content: [
         { kind: 'checklist', items: [
-          '**Porto i/o** (3 locations: Ribeira, Seaside, Downtown) — the most popular network, €180-350/month',
-          '**Selina Porto** — hostel and coworking space, day pass €15 / €200/month',
-          '**Typographia** (Bolhão area) — bookish loft atmosphere, €150/month',
-          '**Cowork Porto** (Rua do Almada) — budget option, €130/month',
-          '**Cospaces** (Cedofeita) — freelancer community, €180-280/month',
-          '**Up.Start** (Boavista) — for start-ups, often free for accelerator residents'
+          'Porto i/o (3 locations: Ribeira, Seaside, Downtown) — the most popular network, €180-350/month',
+          'Selina Porto — hostel and coworking space, day pass €15 / €200/month',
+          'Typographia (Bolhão area) — bookish loft atmosphere, €150/month',
+          'Cowork Porto (Rua do Almada) — budget option, €130/month',
+          'Cospaces (Cedofeita) — freelancer community, €180-280/month',
+          'Up.Start (Boavista) — for start-ups, often free for accelerator residents'
         ]}
       ]
     },
@@ -76,11 +76,11 @@ export default {
       title: 'Regions',
       content: [
         { kind: 'checklist', items: [
-          '**Coimbra** — Cowork Coimbra (€200/month), student atmosphere',
-          '**Braga** — Startup Braga (€0 for certified start-ups), Start Point',
-          '**Aveiro** — Creative Science Park €100/month',
-          '**Faro/Algarve** — Cowork Algarve (Loulé), Selina Algarve (Lagos) — especially popular with remote workers in winter',
-          '**Évora** — EcoHub Alentejo, a rare coworking space in the region, €80/month'
+          'Coimbra — Cowork Coimbra (€200/month), student atmosphere',
+          'Braga — Startup Braga (€0 for certified start-ups), Start Point',
+          'Aveiro — Creative Science Park €100/month',
+          'Faro/Algarve — Cowork Algarve (Loulé), Selina Algarve (Lagos) — especially popular with remote workers in winter',
+          'Évora — EcoHub Alentejo, a rare coworking space in the region, €80/month'
         ]}
       ]
     },

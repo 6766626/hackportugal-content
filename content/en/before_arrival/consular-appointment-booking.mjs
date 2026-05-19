@@ -3,7 +3,7 @@ export default {
   id: 'consular-appointment-booking',
   categoryId: 'before_arrival',
   title: 'Booking an appointment at a Portuguese consulate — how to catch a slot',
-  tldr: 'Queues at Portuguese consulates (Moscow, Kyiv, Minsk, Almaty, Istanbul) mean 2–6 months of waiting. Slots open irregularly, often at night. Strategies: **check every few hours** (slots appear because of cancellations); **monitoring bots** (Telegram bots notify you about new slots); **travel to a neighbouring jurisdiction** (Yerevan, Tbilisi, Vilnius — often less busy); **private consultant** (VFS Global, agencies) — €50–200, but a guaranteed slot. Alternative: travel to Portugal without a visa (visa-free Schengen entry for 90 days for a number of countries) and arrange a D visa there.',
+  tldr: 'Queues at Portuguese consulates (Moscow, Kyiv, Minsk, Almaty, Istanbul) mean 2–6 months of waiting. Slots open irregularly, often at night. Strategies: check every few hours (slots appear because of cancellations); monitoring bots (Telegram bots notify you about new slots); travel to a neighbouring jurisdiction (Yerevan, Tbilisi, Vilnius — often less busy); private consultant (VFS Global, agencies) — €50–200, but a guaranteed slot. Alternative: travel to Portugal without a visa (visa-free Schengen entry for 90 days for a number of countries) and arrange a D visa there.',
   tags: ['consulate', 'appointment', 'd visa', 'booking'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,19 +11,19 @@ export default {
       id: 'where',
       title: '🌍 Consular jurisdictions',
       content: [
-        { kind: 'paragraph', text: 'A Portuguese consulate accepts only residents of the country of accreditation. But you can submit documents through the consulate of a country where you are **temporarily staying** (tourism, business trip). This is a legal workaround.' },
+        { kind: 'paragraph', text: 'A Portuguese consulate accepts only residents of the country of accreditation. But you can submit documents through the consulate of a country where you are temporarily staying (tourism, business trip). This is a legal workaround.' },
         { kind: 'substeps', items: [
           { id: 'w1', title: 'Main CIS / Russian Federation jurisdictions', content: [
             { kind: 'checklist', items: [
-              '🇷🇺 **Moscow** (embassy and consulates-general): serves the Russian Federation',
-              '🇺🇦 **Kyiv** (closed because of the war since 2022)',
-              '🇧🇾 **Warsaw** (for Belarus + Poland)',
-              '🇰🇿 **Almaty** (for Kazakhstan, Kyrgyzstan, Tajikistan)',
-              '🇹🇷 **Istanbul** (for citizens who have travelled there)',
-              '🇦🇲 **Yerevan** — often less busy than others (for those who relocated via Armenia)',
-              '🇬🇪 **Tbilisi** — a popular alternative for Russian applicants',
-              '🇱🇹 **Vilnius** — for Belarusians',
-              '🇮🇱 **Tel Aviv** — for residents of Israel'
+              '🇷🇺 Moscow (embassy and consulates-general): serves the Russian Federation',
+              '🇺🇦 Kyiv (closed because of the war since 2022)',
+              '🇧🇾 Warsaw (for Belarus + Poland)',
+              '🇰🇿 Almaty (for Kazakhstan, Kyrgyzstan, Tajikistan)',
+              '🇹🇷 Istanbul (for citizens who have travelled there)',
+              '🇦🇲 Yerevan — often less busy than others (for those who relocated via Armenia)',
+              '🇬🇪 Tbilisi — a popular alternative for Russian applicants',
+              '🇱🇹 Vilnius — for Belarusians',
+              '🇮🇱 Tel Aviv — for residents of Israel'
             ]}
           ]}
         ]}
@@ -36,9 +36,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 's1', title: 'Direct portal monitoring', content: [
             { kind: 'checklist', items: [
-              '**Official portal**: vistos.mne.gov.pt → select country → appointment',
+              'Official portal: vistos.mne.gov.pt → select country → appointment',
               'Slots appear because of cancellations — usually 1–3 per day, at random',
-              'Check **every 2–4 hours** — especially at 9:00, 14:00, 22:00 (when staff process requests)',
+              'Check every 2–4 hours — especially at 9:00, 14:00, 22:00 (when staff process requests)',
               'Less often at weekends, but it does happen',
               'For booking — prepare your NIF and passport in advance, complete it in 3 minutes'
             ]}
@@ -55,11 +55,11 @@ export default {
           ]},
           { id: 's3', title: 'Intermediary agencies', content: [
             { kind: 'checklist', items: [
-              '**VFS Global Portugal** (vfsglobal.com): official consular operator in some countries. Price +€50–100 on top of the consular fee',
-              '**Unitel, Nexus Portugal**: private agencies with advance appointments for +€100–300',
+              'VFS Global Portugal (vfsglobal.com): official consular operator in some countries. Price +€50–100 on top of the consular fee',
+              'Unitel, Nexus Portugal: private agencies with advance appointments for +€100–300',
               'Advantage: a guaranteed slot within an agreed period (2–4 weeks)',
               'Disadvantage: prepayments, contracts, fraud risk (check legal status)',
-              '⚠️ There is **NO** official “fast-track procedure” — anyone offering “a slot tomorrow for €500” is a scammer'
+              '⚠️ There is NO official “fast-track procedure” — anyone offering “a slot tomorrow for €500” is a scammer'
             ]}
           ]},
           { id: 's4', title: 'Travelling to an alternative jurisdiction', content: [
@@ -70,7 +70,7 @@ export default {
               '4. An appointment is often available within 2–4 weeks',
               '5. Attend with a full set of documents from home',
               '6. Collect the passport after 60–90 days (by post / courier)',
-              '💡 Total costs: flights ~€300–500 + hotel ~€200 + living costs = **cheaper than waiting 6 months in Moscow**'
+              '💡 Total costs: flights ~€300–500 + hotel ~€200 + living costs = cheaper than waiting 6 months in Moscow'
             ]}
           ]}
         ]}
@@ -85,7 +85,7 @@ export default {
           '✅ Brazilians (CPLP): visa-free entry, then AIMA',
           '✅ Ukrainians: under Proteção Temporária',
           '✅ US, UK, CA citizens: tourism for 90 days, BUT you cannot apply for a residence permit from inside after the cancellation of MdI (03.06.2024); a D visa is needed in advance',
-          '❌ **Russian Federation, BY, KZ**: Schengen visa regime, D visa mandatory BEFORE entry',
+          '❌ Russian Federation, BY, KZ: Schengen visa regime, D visa mandatory BEFORE entry',
           'Exception: TPD Ukraine until 04.03.2027, CPLP Brazilians always'
         ]}
       ]
@@ -94,7 +94,7 @@ export default {
       id: 'prep',
       title: '📋 Preparing for the appointment',
       content: [
-        { kind: 'paragraph', text: 'By the time a slot appears, **everything must be ready**, otherwise you will miss it.' },
+        { kind: 'paragraph', text: 'By the time a slot appears, everything must be ready, otherwise you will miss it.' },
         { kind: 'checklist', items: [
           '✅ NIF (possible online through a representative, €70–150)',
           '✅ International passport — valid for ≥ 6 months + blank pages',
@@ -114,12 +114,12 @@ export default {
       title: '🔄 If you still did not manage it',
       content: [
         { kind: 'checklist', items: [
-          '💼 **Startup visa**: application via IAPMEI through a certified incubator, timeframe 30–60 days, consulate slot after approval — faster',
-          '🎓 **Student visa D4**: enrol at a university / language school, visa processing time is shorter',
-          '💻 **Digital nomad visa (D8)**: separate category since 2022, often a faster slot',
-          '👨‍👩‍👧 **Reagrupamento Familiar**: if there is already a resident relative in Portugal, apply to AIMA (not needed from inside), the visa is issued later by notification',
-          '🇪🇺 **EU passport** (if you have one): does not require a D visa at all',
-          '⏰ **Wait**: a new “batch” of slots usually opens once every 2–3 months in Moscow'
+          '💼 Startup visa: application via IAPMEI through a certified incubator, timeframe 30–60 days, consulate slot after approval — faster',
+          '🎓 Student visa D4: enrol at a university / language school, visa processing time is shorter',
+          '💻 Digital nomad visa (D8): separate category since 2022, often a faster slot',
+          '👨‍👩‍👧 Reagrupamento Familiar: if there is already a resident relative in Portugal, apply to AIMA (not needed from inside), the visa is issued later by notification',
+          '🇪🇺 EU passport (if you have one): does not require a D visa at all',
+          '⏰ Wait: a new “batch” of slots usually opens once every 2–3 months in Moscow'
         ]}
       ]
     }

@@ -28,23 +28,23 @@ export default {
         { kind: 'substeps', items: [
           { id: 'occasional', title: 'Разовые билеты — для туристов и редких поездок', content: [
             { kind: 'checklist', items: [
-              '🟪 **Andante Azul** — карта за 0,60 € (можно пополнять разовыми билетами)',
-              '💰 **Разовый Z2**: 1,40 € — 1 час в зоне 2',
-              '💰 **Andante 24h Tour 1**: 7 € — безлимит на сутки в Z4',
-              '💰 **Andante 24h Tour 3**: 15 € — 3 дня в Z4',
-              '💰 **Andante Tour 24h** (Z2): 4,15 € — для тех, кто ездит только по центру',
+              '🟪 Andante Azul — карта за 0,60 € (можно пополнять разовыми билетами)',
+              '💰 Разовый Z2: 1,40 € — 1 час в зоне 2',
+              '💰 Andante 24h Tour 1: 7 € — безлимит на сутки в Z4',
+              '💰 Andante 24h Tour 3: 15 € — 3 дня в Z4',
+              '💰 Andante Tour 24h (Z2): 4,15 € — для тех, кто ездит только по центру',
               '🎟️ Можно купить и сразу отметить у турникета или в автобусе'
             ]}
           ]},
           { id: 'monthly', title: 'Месячные проездные (для резидентов)', content: [
             { kind: 'checklist', items: [
-              '👤 **Andante Mensal Z2** (центр Порту): 30 €/мес',
-              '👤 **Andante Mensal Z3**: 35 €/мес',
-              '👤 **Andante Mensal Z4**: 40 €/мес',
-              '🚇 **Mensal MetroPorto** (безлимит на весь регион): 40 €/мес',
-              '🎓 **Andante Estudante** (для студентов): -50%, ≈15 €',
-              '👴 **Andante Sénior** (>65): -50%',
-              '👨‍👩‍👧 **Andante Família** (3+ человека) — общий проездной, -25% на каждого',
+              '👤 Andante Mensal Z2 (центр Порту): 30 €/мес',
+              '👤 Andante Mensal Z3: 35 €/мес',
+              '👤 Andante Mensal Z4: 40 €/мес',
+              '🚇 Mensal MetroPorto (безлимит на весь регион): 40 €/мес',
+              '🎓 Andante Estudante (для студентов): -50%, ≈15 €',
+              '👴 Andante Sénior (>65): -50%',
+              '👨‍👩‍👧 Andante Família (3+ человека) — общий проездной, -25% на каждого',
               '⚠️ Для оформления нужна Andante Branca (именная) — фото + Cartão de Cidadão, на станции метро'
             ]}
           ]},

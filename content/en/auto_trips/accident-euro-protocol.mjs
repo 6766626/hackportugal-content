@@ -3,7 +3,7 @@ export default {
   id: 'accident-euro-protocol',
   categoryId: 'auto_trips',
   title: 'Road accident in Portugal — Declaração Amigável (European accident statement) and when to call GNR',
-  tldr: 'In a road accident with no injuries and no dispute — complete the **Declaração Amigável de Acidente Automóvel (DAAA)**, the two-party European accident statement. If there is a dispute, a drunk driver, injuries or third parties — 112 → GNR/PSP. The policyholder must notify the insurer of the accident within **8 days** (DL 72/2008 — Regime Jurídico do Contrato de Seguro).\n\nMissing the deadline **does not automatically** mean loss of the right to compensation for everyone (for an injured third party there is a separate regime), but it creates a real risk of refusal or reduction of the payout, especially if the delay caused loss to the insurer. It is better to meet the deadline.',
+  tldr: 'In a road accident with no injuries and no dispute — complete the Declaração Amigável de Acidente Automóvel (DAAA), the two-party European accident statement. If there is a dispute, a drunk driver, injuries or third parties — 112 → GNR/PSP. The policyholder must notify the insurer of the accident within 8 days (DL 72/2008 — Regime Jurídico do Contrato de Seguro).\n\nMissing the deadline does not automatically mean loss of the right to compensation for everyone (for an injured third party there is a separate regime), but it creates a real risk of refusal or reduction of the payout, especially if the delay caused loss to the insurer. It is better to meet the deadline.',
   tags: ['road accident', 'crash', 'insurance', 'gnr', 'declaração amigável'],
   estimatedReadMinutes: 6,
   steps: [
@@ -78,7 +78,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 's1', title: 'The other party left the scene', content: [
-            { kind: 'paragraph', text: 'Call 112 → GNR/PSP auto de notícia. FGA (Fundo de Garantia Automóvel), where the at-fault party is uninsured, covers physical injury to people and (with limitations) material damage. Where the at-fault party is **unknown** and left the scene of the road accident, cover for material damage is limited to special cases; physical injury to people is usually covered. Contact FGA directly (fga.pt) or through your insurer for instructions.' }
+            { kind: 'paragraph', text: 'Call 112 → GNR/PSP auto de notícia. FGA (Fundo de Garantia Automóvel), where the at-fault party is uninsured, covers physical injury to people and (with limitations) material damage. Where the at-fault party is unknown and left the scene of the road accident, cover for material damage is limited to special cases; physical injury to people is usually covered. Contact FGA directly (fga.pt) or through your insurer for instructions.' }
           ]},
           { id: 's2', title: 'Accident with an unknown object (post, sign)', content: [
             { kind: 'paragraph', text: 'GNR is mandatory. Without a report, the insurer will process this as “own damage” — full compensation will only be available if you have a Casco (danos próprios) package, not basic RC.' }

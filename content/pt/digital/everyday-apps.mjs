@@ -17,7 +17,7 @@ export default {
           ]},
           { id: 'g2', title: 'SNS 24', content: [
             { kind: 'checklist', items: [
-              '**Registo médico, receitas, resultados de análises**',
+              'Registo médico, receitas, resultados de análises',
               'Chat online com médico ou enfermeiro 24/7',
               'Videochamada com um profissional de saúde',
               'Histórico electrónico de vacinas',
@@ -59,9 +59,9 @@ export default {
           ]},
           { id: 'm2', title: 'Revolut / Wise / N26', content: [
             { kind: 'checklist', items: [
-              '**Revolut** (desde 2024 disponibiliza IBAN português gratuitamente) — conta multimoeda, criptomoeda, acções',
-              '**Wise** (IBAN BE) — melhor para transferências multimoeda, mais de 20 moedas',
-              '**N26** (IBAN DE) — banca mínima, mas boa experiência de utilização',
+              'Revolut (desde 2024 disponibiliza IBAN português gratuitamente) — conta multimoeda, criptomoeda, acções',
+              'Wise (IBAN BE) — melhor para transferências multimoeda, mais de 20 moedas',
+              'N26 (IBAN DE) — banca mínima, mas boa experiência de utilização',
               'Útil como segunda conta ou conta em moeda estrangeira + dinheiro para viagens'
             ]}
           ]},
@@ -76,17 +76,17 @@ export default {
       title: '🚆 Transportes',
       content: [
         { kind: 'checklist', items: [
-          '**Navegante Metropolitano** (Lisboa) — passe electrónico, bilhetes QR, horários de autocarros/metro/comboios',
-          '**MobiCascais** (município de Cascais) — bicicletas, autocarros, estacionamento',
-          '**Anda** (aplicação para tráfego rodoviário em Lisboa)',
-          '**Bolt** — táxi (mais barato do que Uber para viagens curtas)',
-          '**Uber** — tem maior presença nas regiões',
-          '**FREE NOW** — agregador de táxis',
-          '**BlaBlaCar** — viagens partilhadas entre cidades',
-          '**Flixbus** — autocarros interurbanos',
-          '**CP — Comboios de Portugal** — comboios, bilhetes',
-          '**Via Verde** — estradas com portagem',
-          '**GoEuro / Rome2Rio** — comparação de formas de chegar'
+          'Navegante Metropolitano (Lisboa) — passe electrónico, bilhetes QR, horários de autocarros/metro/comboios',
+          'MobiCascais (município de Cascais) — bicicletas, autocarros, estacionamento',
+          'Anda (aplicação para tráfego rodoviário em Lisboa)',
+          'Bolt — táxi (mais barato do que Uber para viagens curtas)',
+          'Uber — tem maior presença nas regiões',
+          'FREE NOW — agregador de táxis',
+          'BlaBlaCar — viagens partilhadas entre cidades',
+          'Flixbus — autocarros interurbanos',
+          'CP — Comboios de Portugal — comboios, bilhetes',
+          'Via Verde — estradas com portagem',
+          'GoEuro / Rome2Rio — comparação de formas de chegar'
         ]}
       ]
     },
@@ -95,15 +95,15 @@ export default {
       title: '🛒 Alimentação e compras',
       content: [
         { kind: 'checklist', items: [
-          '**Continente Siga** — cartão digital, cupões, leitor de preços na loja',
-          '**Pingo Doce** — semelhante',
-          '**Lidl Plus** — raspadinhas, catálogos de promoções, cupões',
-          '**Folhetos.pt** — agregador de descontos semanais de todas as cadeias',
-          '**Too Good To Go** — comida com desconto de lojas/restaurantes no fim do dia (pode poupar 50-70%)',
-          '**Glovo** — entrega de comida, mercearias, produtos',
-          '**Uber Eats** — entrega de comida',
-          '**Bolt Food** — popular no Porto',
-          '**Auchan**, **El Corte Inglés** — se estiverem por perto'
+          'Continente Siga — cartão digital, cupões, leitor de preços na loja',
+          'Pingo Doce — semelhante',
+          'Lidl Plus — raspadinhas, catálogos de promoções, cupões',
+          'Folhetos.pt — agregador de descontos semanais de todas as cadeias',
+          'Too Good To Go — comida com desconto de lojas/restaurantes no fim do dia (pode poupar 50-70%)',
+          'Glovo — entrega de comida, mercearias, produtos',
+          'Uber Eats — entrega de comida',
+          'Bolt Food — popular no Porto',
+          'Auchan, El Corte Inglés — se estiverem por perto'
         ]}
       ]
     },
@@ -112,10 +112,10 @@ export default {
       title: '📨 Correio e documentos',
       content: [
         { kind: 'checklist', items: [
-          '**CTT** — seguimento de encomendas, marcação numa estação, desalfandegamento online',
-          '**Id.Gov.Pt** — carteira dos seus documentos digitais (Cartão de Cidadão, Chave Móvel Digital, carta de condução)',
-          '**DocsQR** — digitalização de documentos com o telefone, OCR',
-          '**CamScanner** — alternativa com exportação para PDF'
+          'CTT — seguimento de encomendas, marcação numa estação, desalfandegamento online',
+          'Id.Gov.Pt — carteira dos seus documentos digitais (Cartão de Cidadão, Chave Móvel Digital, carta de condução)',
+          'DocsQR — digitalização de documentos com o telefone, OCR',
+          'CamScanner — alternativa com exportação para PDF'
         ]}
       ]
     }

@@ -3,7 +3,7 @@ export default {
   id: 'dog-dangerous-breeds',
   categoryId: 'animals',
   title: 'Dogs in Portugal — registration, dangerous breeds, tax',
-  tldr: 'Dog registration: SIAC (Sistema de Identificação dos Animais de Companhia) is mandatory after microchipping — free at the vet. Municipal licence (licença canina) — category by dog type: **H = cão perigoso**, **G = cão potencialmente perigoso**, standard categories — for the rest. Under DL 315/2009: for cão perigoso/potencialmente perigoso, civil liability insurance is mandatory (legal minimum), as are a muzzle + lead in public places, and the owner must be an adult with no convictions for certain crimes. List of potencialmente perigoso (Portaria 422/2004 and updates): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino and crossbreeds of these breeds.',
+  tldr: 'Dog registration: SIAC (Sistema de Identificação dos Animais de Companhia) is mandatory after microchipping — free at the vet. Municipal licence (licença canina) — category by dog type: H = cão perigoso, G = cão potencialmente perigoso, standard categories — for the rest. Under DL 315/2009: for cão perigoso/potencialmente perigoso, civil liability insurance is mandatory (legal minimum), as are a muzzle + lead in public places, and the owner must be an adult with no convictions for certain crimes. List of potencialmente perigoso (Portaria 422/2004 and updates): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino and crossbreeds of these breeds.',
   tags: ['dogs', 'animals', 'dog', 'fighting dogs'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'r1', title: '1. Microchip (SIAC)', content: [
             { kind: 'checklist', items: [
-              'Mandatory for **all dogs** ≥ 4 months (and pet cats)',
+              'Mandatory for all dogs ≥ 4 months (and pet cats)',
               'Inserted by a vet — €20-40',
               'Automatically registered in SIAC (centralised database) — free',
               'Chip check: siac.dgav.pt by number'
@@ -24,7 +24,7 @@ export default {
             { kind: 'checklist', items: [
               'Applied for at the Junta de Freguesia for your place of residence',
               'Documents: SIAC registration, rabies vaccination, sterilisation certificate (if sterilised)',
-              'Cost: **€5-15/year** (depends on the municipality; categories A/B are more expensive, up to €50)',
+              'Cost: €5-15/year (depends on the municipality; categories A/B are more expensive, up to €50)',
               'Tag (medalha) — a ring with a number, attached to the collar',
               'Renewal annually by 31 March',
               'Fine for not having a licence: €50-250'
@@ -67,13 +67,13 @@ export default {
               'No convictions for violence',
               'No mental health contraindications (medical certificate)',
               'Complete a special “formação em comportamento canino” course (in some municipalities)',
-              'Mandatory civil liability insurance **≥ €50,000** (costs €50-200/year)',
+              'Mandatory civil liability insurance ≥ €50,000 (costs €50-200/year)',
               'Declaration to the Junta that you have a dangerous dog'
             ]}
           ]},
           { id: 'd3', title: 'Keeping rules', content: [
             { kind: 'checklist', items: [
-              'Outdoors: **muzzle (açaime) + lead shorter than 1 m**',
+              'Outdoors: muzzle (açaime) + lead shorter than 1 m',
               'Not allowed in children’s playgrounds, on public transport, in restaurants',
               'In the yard: fence ≥ 1.8 m, “cão perigoso” sign',
               'Walking only with an adult accompanying the dog',
@@ -122,16 +122,16 @@ export default {
       title: '💰 Veterinary costs',
       content: [
         { kind: 'checklist', items: [
-          '**Consultation**: €25-40 (standard), €50-80 (specialist clinic)',
-          '**Castration/sterilisation**: €150-350 (male dog), €200-500 (female dog)',
-          '**Vaccination (annual)**: €30-50',
-          '**SIAC chip**: €20-40',
-          '**Dentistry (cleaning)**: €200-400',
-          '**Blood tests**: €40-100',
-          '**X-ray**: €60-100',
-          '**Emergência 24/7** (emergency care): €80-150 for the consultation only',
-          '**Euthanasia + cremation**: €150-300',
-          '🏥 **Pet insurance**: €10-40/month — Tranquilidade Pet, Médis Animal, PetPremium'
+          'Consultation: €25-40 (standard), €50-80 (specialist clinic)',
+          'Castration/sterilisation: €150-350 (male dog), €200-500 (female dog)',
+          'Vaccination (annual): €30-50',
+          'SIAC chip: €20-40',
+          'Dentistry (cleaning): €200-400',
+          'Blood tests: €40-100',
+          'X-ray: €60-100',
+          'Emergência 24/7 (emergency care): €80-150 for the consultation only',
+          'Euthanasia + cremation: €150-300',
+          '🏥 Pet insurance: €10-40/month — Tranquilidade Pet, Médis Animal, PetPremium'
         ]}
       ]
     },

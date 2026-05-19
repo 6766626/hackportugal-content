@@ -71,7 +71,7 @@ export default {
         { kind: 'paragraph', text: 'Para cidadãos da CPLP, obter a cidadania portuguesa é mais simples:' },
         { kind: 'checklist', items: [
           'Pela lei em vigor (Lei 37/81) — 5 anos de residência legal',
-          'Pela nova lei (Decreto AR 48/XVII, depois de passar pelo TC foi renumerado de 17/XVII; promulgado pelo Presidente Seguro em **03.05.2026**, em 13.05.2026 publicado a 18.05.2026 como **Lei Orgânica n.º 1/2026** — 10 dias) — 7 anos para CPLP+UE / 10 anos para os restantes. O texto da lei contém uma disposição transitória: aos processos em curso aplica-se a redacção anterior da Lei 37/81 (5 anos)',
+          'Pela nova lei (Decreto AR 48/XVII, depois de passar pelo TC foi renumerado de 17/XVII; promulgado pelo Presidente Seguro em 03.05.2026, em 13.05.2026 publicado a 18.05.2026 como Lei Orgânica n.º 1/2026 — 10 dias) — 7 anos para CPLP+UE / 10 anos para os restantes. O texto da lei contém uma disposição transitória: aos processos em curso aplica-se a redacção anterior da Lei 37/81 (5 anos)',
           'O tempo de espera pela MdI / primeira autorização de residência deixa de contar para o tempo de residência (pela nova lei)',
           'Língua A2 — não exigida (português é língua materna)',
           'Com passaporte português — cidadania da UE'

@@ -112,11 +112,11 @@ export default {
       title: '🌟 Special routes',
       content: [
         { kind: 'checklist', items: [
-          '🍷 **Linha do Douro** (Porto-Régua-Pocinho) — scenic route along the Douro river, wine-producing area. Regional train, 4 h to Pocinho. Tourist season',
-          '🌊 **Linha do Algarve** (Lagos-Faro-VRSA) — Algarve beaches, IC + Regional',
-          '⛰️ **Linha Beira Alta** (Lisboa-Pampilhosa-Guarda) — mountain route to the Spanish border',
-          '🇪🇸 **Sud Express / Lusitânia** (Lisboa-Hendaye/Madrid) — historic night trains, **suspended since 2020** and as of 2026 there is no regular service; they may restart in the future (updates: cp.pt and Renfe)',
-          '🚂 **Comboio Histórico do Vouga** — tourist steam train, summer/autumn'
+          '🍷 Linha do Douro (Porto-Régua-Pocinho) — scenic route along the Douro river, wine-producing area. Regional train, 4 h to Pocinho. Tourist season',
+          '🌊 Linha do Algarve (Lagos-Faro-VRSA) — Algarve beaches, IC + Regional',
+          '⛰️ Linha Beira Alta (Lisboa-Pampilhosa-Guarda) — mountain route to the Spanish border',
+          '🇪🇸 Sud Express / Lusitânia (Lisboa-Hendaye/Madrid) — historic night trains, suspended since 2020 and as of 2026 there is no regular service; they may restart in the future (updates: cp.pt and Renfe)',
+          '🚂 Comboio Histórico do Vouga — tourist steam train, summer/autumn'
         ]}
       ]
     }

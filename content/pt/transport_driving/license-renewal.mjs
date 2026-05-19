@@ -3,7 +3,7 @@ export default {
   id: 'license-renewal',
   categoryId: 'driving_license',
   title: 'Renovação da carta de condução portuguesa',
-  tldr: 'Carta de condução portuguesa (categorias do grupo I — AM/A/B/BE, etc.): válida por **15 anos até aos 60 anos**, depois renovação aos **60, 65, 70** e, após os 70, **de 2 em 2 anos**. Para cartas emitidas antes de 02.01.2013 e para o grupo II (categorias profissionais C/D, etc.) — aplicam-se regras transitórias/especiais próprias (os prazos podem ser mais curtos).\n\nRenovação online através de imt-online.imt.gov.pt com CMD/Chave Móvel Digital — taxa administrativa de 30 € + atestado médico (normalmente exigido a partir dos 60 anos para o grupo I) + avaliação psicotécnica (para determinados casos / idades / categorias).',
+  tldr: 'Carta de condução portuguesa (categorias do grupo I — AM/A/B/BE, etc.): válida por 15 anos até aos 60 anos, depois renovação aos 60, 65, 70 e, após os 70, de 2 em 2 anos. Para cartas emitidas antes de 02.01.2013 e para o grupo II (categorias profissionais C/D, etc.) — aplicam-se regras transitórias/especiais próprias (os prazos podem ser mais curtos).\n\nRenovação online através de imt-online.imt.gov.pt com CMD/Chave Móvel Digital — taxa administrativa de 30 € + atestado médico (normalmente exigido a partir dos 60 anos para o grupo I) + avaliação psicotécnica (para determinados casos / idades / categorias).',
   tags: ['carta de condução', 'renovação', 'imt', 'renovação da carta', 'exame médico'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,13 +12,13 @@ export default {
       title: '⏰ Quando renovar',
       content: [
         { kind: 'checklist', items: [
-          '🟢 **Grupo I (categorias comuns AM/A/B/BE)** — emitidas após 02.01.2013: 15 anos até aos 60 anos, depois renovação aos 60, 65, 70 anos; após os 70 — de 2 em 2 anos',
-          '🟡 **Atestado médico** normalmente exigido a partir dos 60 anos para o grupo I',
-          '🟠 **Avaliação psicotécnica** — para algumas categorias/idades e para o grupo II (condutores profissionais C/D)',
-          '⚠️ **Grupo II (profissionais C, D, BE com reboques, etc.)** — prazos próprios mais curtos, exames anuais/de 2 em 2 anos',
-          '⚠️ Cartas emitidas **antes de 02.01.2013** — regras transitórias próprias; confirme em imt-ip.pt',
-          '⚠️ Se o prazo expirou **há menos de 2 anos** — normalmente é possível revalidar sem exame, mas não pode conduzir com a carta caducada; peça a revalidação o mais rapidamente possível',
-          '🔴 Se a caducidade for **superior a 2 anos** — o procedimento depende do tempo decorrido: pode ser necessário exame especial e/ou formação. Consulte a tabela actual do IMT para carta caducada',
+          '🟢 Grupo I (categorias comuns AM/A/B/BE) — emitidas após 02.01.2013: 15 anos até aos 60 anos, depois renovação aos 60, 65, 70 anos; após os 70 — de 2 em 2 anos',
+          '🟡 Atestado médico normalmente exigido a partir dos 60 anos para o grupo I',
+          '🟠 Avaliação psicotécnica — para algumas categorias/idades e para o grupo II (condutores profissionais C/D)',
+          '⚠️ Grupo II (profissionais C, D, BE com reboques, etc.) — prazos próprios mais curtos, exames anuais/de 2 em 2 anos',
+          '⚠️ Cartas emitidas antes de 02.01.2013 — regras transitórias próprias; confirme em imt-ip.pt',
+          '⚠️ Se o prazo expirou há menos de 2 anos — normalmente é possível revalidar sem exame, mas não pode conduzir com a carta caducada; peça a revalidação o mais rapidamente possível',
+          '🔴 Se a caducidade for superior a 2 anos — o procedimento depende do tempo decorrido: pode ser necessário exame especial e/ou formação. Consulte a tabela actual do IMT para carta caducada',
           '💡 A notificação do IMT chega 60 dias antes por correio ou por e-mail'
         ]}
       ]
@@ -106,12 +106,12 @@ export default {
       title: '⚠️ Casos especiais',
       content: [
         { kind: 'checklist', items: [
-          '📝 **Perda/roubo da carta**: participação à polícia (PSP/GNR), depois duplicado através do imt-online — 30 €',
-          '🩺 **Alteração do estado de saúde** (diabetes, epilepsia, AVC): é obrigatório informar o IMT; podem exigir novos testes',
-          '🚙 **Categoria D (autocarro) ou C (camião)**: exame médico anual para condutores profissionais',
-          '🌐 **A morada mudou**: actualizar através do imt-online (gratuito)',
-          '🇪🇺 **Mudança para outro país da UE**: a carta é válida, mas trate do cartão local no prazo de 2 anos',
-          '🔄 **Categoria adicional (mota A depois de automóvel B)**: formação + exames, ~400-700 €'
+          '📝 Perda/roubo da carta: participação à polícia (PSP/GNR), depois duplicado através do imt-online — 30 €',
+          '🩺 Alteração do estado de saúde (diabetes, epilepsia, AVC): é obrigatório informar o IMT; podem exigir novos testes',
+          '🚙 Categoria D (autocarro) ou C (camião): exame médico anual para condutores profissionais',
+          '🌐 A morada mudou: actualizar através do imt-online (gratuito)',
+          '🇪🇺 Mudança para outro país da UE: a carta é válida, mas trate do cartão local no prazo de 2 anos',
+          '🔄 Categoria adicional (mota A depois de automóvel B): formação + exames, ~400-700 €'
         ]}
       ]
     }

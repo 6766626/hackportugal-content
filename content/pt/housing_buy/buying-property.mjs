@@ -3,7 +3,7 @@ export default {
   id: 'buying-property',
   categoryId: 'housing_buy',
   title: 'Compra de imóveis em Portugal — passo a passo',
-  tldr: 'Estrangeiros podem comprar imóveis sem restrições. Percurso: NIF → pesquisa → CPCV + sinal 10% → financiamento/verificação jurídica → escritura no notário → registo. Impostos: **IMT** — escala progressiva marginal com deduções (para habitação própria e permanente — 0% até determinado limiar, depois as taxas sobem por escalões até uma taxa máxima fixa); **IS 0,8%**. Despesas totais: 8-12% acima do preço. Importante: desde 7 de outubro de 2023 (Lei 56/2023), o Golden Visa através da compra de imóveis habitacionais **foi eliminado** — esta via de autorização de residência já não está disponível para novos pedidos.\n\n**Benefício para jovens até 35 anos** introduzido pelo **Decreto-Lei 48-A/2024** (não pelo DL 44/2024).',
+  tldr: 'Estrangeiros podem comprar imóveis sem restrições. Percurso: NIF → pesquisa → CPCV + sinal 10% → financiamento/verificação jurídica → escritura no notário → registo. Impostos: IMT — escala progressiva marginal com deduções (para habitação própria e permanente — 0% até determinado limiar, depois as taxas sobem por escalões até uma taxa máxima fixa); IS 0,8%. Despesas totais: 8-12% acima do preço. Importante: desde 7 de outubro de 2023 (Lei 56/2023), o Golden Visa através da compra de imóveis habitacionais foi eliminado — esta via de autorização de residência já não está disponível para novos pedidos.\n\nBenefício para jovens até 35 anos introduzido pelo Decreto-Lei 48-A/2024 (não pelo DL 44/2024).',
   tags: ['compra', 'imóveis', 'escritura', 'imt'],
   estimatedReadMinutes: 8,
   steps: [
@@ -84,7 +84,7 @@ export default {
             { kind: 'paragraph', text: 'No notário. Ambas as partes + tradutor, se necessário. Pagamento ao vendedor por cheque bancário / transferência. O banco disponibiliza os fundos do crédito habitação.' }
           ]},
           { id: 'e4', title: '4. Registo na Conservatória do Registo Predial', content: [
-            { kind: 'paragraph', text: 'Normalmente é feito pelo notário por via eletrónica.\n\n**O direito de propriedade transmite-se** por título válido de compra e venda (escritura pública/documento particular autenticado); o registo predial é crucial para a oponibilidade perante terceiros — sem ele, não fica protegido contra negócios posteriores do vendedor. Registe sem demora.' }
+            { kind: 'paragraph', text: 'Normalmente é feito pelo notário por via eletrónica.\n\nO direito de propriedade transmite-se por título válido de compra e venda (escritura pública/documento particular autenticado); o registo predial é crucial para a oponibilidade perante terceiros — sem ele, não fica protegido contra negócios posteriores do vendedor. Registe sem demora.' }
           ]}
         ]}
       ]
@@ -97,7 +97,7 @@ export default {
           'Informar as Finanças da alteração de morada (se for a habitação principal)',
           'Passar os serviços para o seu nome (EDP, Águas, gás)',
           'O seguro habitação é obrigatório se houver crédito habitação',
-          'IMI (imposto municipal) — para urban residential **0,3–0,45% do VPT** (0,8% — para a antiga taxa rural); a taxa é definida pela Câmara Municipal. O pagamento em prestações (1/2/3 vezes por ano) depende do montante',
+          'IMI (imposto municipal) — para urban residential 0,3–0,45% do VPT (0,8% — para a antiga taxa rural); a taxa é definida pela Câmara Municipal. O pagamento em prestações (1/2/3 vezes por ano) depende do montante',
           'Substituir por: «Para arrendamento de longa duração — contrato e registo nas Finanças. Para arrendamento turístico de curta duração, normalmente é necessário registo de Alojamento Local antes do início da atividade; verifique as restrições municipais, zonas de contenção/suspensão e regras do condomínio».'
         ]}
       ]
@@ -106,7 +106,7 @@ export default {
   costs: [
     { label: 'IMT — para habitação própria e permanente (continente)', note: 'Acrescentar: «A base do IMT é o maior valor entre o preço declarado e o VPT (valor patrimonial tributário). Verifique o VPT na Caderneta Predial antes do CPCV».' },
     { label: 'IMT — para habitação secundária/outra habitação', note: 'os mesmos escalões, mas sem o primeiro limiar a 0%; começa em 1%' },
-    { label: 'Benefício para jovens até 35 anos — habitação principal', amountEUR: 0, note: 'IMT+IS 0% ao abrigo do **Decreto-Lei 48-A/2024** até determinado limiar de preço; condições (residência, ausência de propriedade anterior, habitação principal) — verificar no texto atualizado' },
+    { label: 'Benefício para jovens até 35 anos — habitação principal', amountEUR: 0, note: 'IMT+IS 0% ao abrigo do Decreto-Lei 48-A/2024 até determinado limiar de preço; condições (residência, ausência de propriedade anterior, habitação principal) — verificar no texto atualizado' },
     { label: 'IMT para compradores de jurisdições fiscais offshore', amountEUR: 0, note: 'taxa fixa de 10% independentemente do valor' },
     { label: 'IS (Imposto do Selo)', amountEUR: 0, note: 'Escrever: «IS 0,8% sobre a aquisição — normalmente sobre a mesma base que o IMT: o maior valor entre o preço declarado e o VPT».' },
     { label: 'Escritura + notário', amountEURMin: 500, amountEURMax: 1500 },

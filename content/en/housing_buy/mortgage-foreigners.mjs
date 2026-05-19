@@ -3,7 +3,7 @@ export default {
   id: 'mortgage-foreigners',
   categoryId: 'housing_buy',
   title: 'Mortgages for foreigners in Portugal',
-  tldr: 'Foreign residents can obtain a mortgage: the macroprudential LTV for **owner-occupied/permanent** housing is up to 90% of the **lower of** the purchase price and valuation; for a secondary residence, up to 80%; non-resident borrowers are usually lower. 6-month Euribor in early May 2026 ≈ 2.45–2.56% (down from a peak of ~4% in 2023). Typical Portuguese spreads are 0.6–1.5%. The real rate is ~3.0–4.0%.\n\n**Macroprudential term limit** (Banco de Portugal since 2022): for borrowers up to 30 years old — up to 40 years; for 30-35 years old — up to 37 years; for >35 years old — up to 35 years. The process takes 30–90 days.',
+  tldr: 'Foreign residents can obtain a mortgage: the macroprudential LTV for owner-occupied/permanent housing is up to 90% of the lower of the purchase price and valuation; for a secondary residence, up to 80%; non-resident borrowers are usually lower. 6-month Euribor in early May 2026 ≈ 2.45–2.56% (down from a peak of ~4% in 2023). Typical Portuguese spreads are 0.6–1.5%. The real rate is ~3.0–4.0%.\n\nMacroprudential term limit (Banco de Portugal since 2022): for borrowers up to 30 years old — up to 40 years; for 30-35 years old — up to 37 years; for >35 years old — up to 35 years. The process takes 30–90 days.',
   tags: ['mortgage', 'bank', 'housing', 'property'],
   estimatedReadMinutes: 7,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Who can get one',
       content: [
         { kind: 'checklist', items: [
-          'Residents with income in Portugal: macroprudential LTV — up to 90% of the **lower of** the purchase price and valuation for an owner-occupied permanent residence, up to 80% for a secondary residence',
+          'Residents with income in Portugal: macroprudential LTV — up to 90% of the lower of the purchase price and valuation for an owner-occupied permanent residence, up to 80% for a secondary residence',
           'Non-residents with income outside Portugal — usually 60–70%; specific conditions depend on the bank',
           'EU citizens: banks assess tax residency, the source/currency of income, employment stability — EU citizenship in itself does not mean the same conditions as a PT resident',
           'Non-EU citizens: there is no universal “2 years of residence permit” rule; some banks are more favourable to a stable residence permit with PT income — assessment is individual',
@@ -65,7 +65,7 @@ export default {
             { kind: 'paragraph', text: 'Contact banks (at least 3) → obtain pre-approval indicating the amount and rate. Timeframe — 2–3 weeks.' }
           ]},
           { id: 'p2', title: '2. Find a property', content: [
-            { kind: 'paragraph', text: 'With pre-approval in hand, negotiations with the seller are taken more seriously. Sign the CPCV (contrato de promessa) + deposit (sinal) — usually 10% (not a mandatory rule). ⚠️ Make sure to include a **mortgage contingency clause** in the CPCV — otherwise, if the bank refuses the mortgage, you may lose the sinal.' }
+            { kind: 'paragraph', text: 'With pre-approval in hand, negotiations with the seller are taken more seriously. Sign the CPCV (contrato de promessa) + deposit (sinal) — usually 10% (not a mandatory rule). ⚠️ Make sure to include a mortgage contingency clause in the CPCV — otherwise, if the bank refuses the mortgage, you may lose the sinal.' }
           ]},
           { id: 'p3', title: '3. Bank valuation', content: [
             { kind: 'paragraph', text: 'The bank appoints a valuer. €300–500. If the valuation is below the price, the bank will finance only up to the valuation amount.' }

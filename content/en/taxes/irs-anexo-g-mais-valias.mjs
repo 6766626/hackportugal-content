@@ -3,7 +3,7 @@ export default {
   id: 'irs-anexo-g-mais-valias',
   categoryId: 'taxes',
   title: 'IRS Anexo G — capital gains tax: property, shares, funds, crypto',
-  tldr: 'Anexo G is filed together with Modelo 3 IRS if, during the year, there were taxable mais-valias **from Portuguese sources**: sale of property in Portugal, shares/ETFs/units through a PORTUGUESE broker, crypto held for <365 days.\n\n⚠️ **Mais-valias from FOREIGN sources** (sale of property abroad, shares/ETFs/funds through a foreign broker, etc.) for a Portuguese tax resident are declared in **Anexo J** (not Anexo G) — with the calculation for eliminating double taxation. For Portuguese tax residents, gains on property are usually included in IRS only at 50% and taxed at progressive rates; shares/ETFs/funds are more often taxed autonomously at 28%, but you can choose englobamento. Sale of primeira habitação may be exempt if reinvested in a new HPP within 24 months before or 36 months after the sale.',
+  tldr: 'Anexo G is filed together with Modelo 3 IRS if, during the year, there were taxable mais-valias from Portuguese sources: sale of property in Portugal, shares/ETFs/units through a PORTUGUESE broker, crypto held for <365 days.\n\n⚠️ Mais-valias from FOREIGN sources (sale of property abroad, shares/ETFs/funds through a foreign broker, etc.) for a Portuguese tax resident are declared in Anexo J (not Anexo G) — with the calculation for eliminating double taxation. For Portuguese tax residents, gains on property are usually included in IRS only at 50% and taxed at progressive rates; shares/ETFs/funds are more often taxed autonomously at 28%, but you can choose englobamento. Sale of primeira habitação may be exempt if reinvested in a new HPP within 24 months before or 36 months after the sale.',
   tags: ['irs', 'anexog', 'maisvalias', 'taxes'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,15 +11,15 @@ export default {
       id: 'when-anexo-g',
       title: 'When Anexo G is needed',
       content: [
-        { kind: 'paragraph', text: 'Anexo G is an attachment to Modelo 3 IRS for capital gains from **Portuguese sources** that are not automatically exempt. In April–June 2026 you file IRS for 2025 income; transactions in 2026 will go into the 2027 tax return. **Mais-valias from foreign sources** go in Anexo J.' },
+        { kind: 'paragraph', text: 'Anexo G is an attachment to Modelo 3 IRS for capital gains from Portuguese sources that are not automatically exempt. In April–June 2026 you file IRS for 2025 income; transactions in 2026 will go into the 2027 tax return. Mais-valias from foreign sources go in Anexo J.' },
         { kind: 'checklist', items: [
           'Anexo G: sale of property in Portugal (or a share in it).',
           'Anexo G: sale of Portuguese shares/ETFs/bonds/fund units/holdings/options through a PORTUGUESE broker.',
           'Anexo G: sale of crypto-assets by a resident if the holding period is < 365 days or the asset does not fall under an exemption.',
           'Anexo G: compensation for assignment of rights, option, cessão onerosa and similar transactions under Código do IRS art. 10.',
-          '⚠️ **Anexo J** (not G): sale of PROPERTY ABROAD by a Portuguese resident.',
-          '⚠️ **Anexo J** (not G): sale of shares/ETFs/funds through a FOREIGN broker (Interactive Brokers, Schwab, Tinkoff, Trade Republic outside PT, etc.).',
-          '⚠️ **Anexo J** (not G): foreign capital gain of any type (dividends and interest are also in Anexo J, but in other sections).',
+          '⚠️ Anexo J (not G): sale of PROPERTY ABROAD by a Portuguese resident.',
+          '⚠️ Anexo J (not G): sale of shares/ETFs/funds through a FOREIGN broker (Interactive Brokers, Schwab, Tinkoff, Trade Republic outside PT, etc.).',
+          '⚠️ Anexo J (not G): foreign capital gain of any type (dividends and interest are also in Anexo J, but in other sections).',
           'You are non-resident but sold Portuguese property or Portuguese assets: Anexo G is also used in the Portuguese IRS.'
         ] },
         { kind: 'warning', text: 'Anexo G/J does not replace CRS/DAC7 exchange. Finanças often sees foreign brokerage accounts, bank inflows and sales through notaries. “Broker abroad” does not mean “do not declare”. Foreign sources mean Anexo J, indicating the source country and tax withheld abroad, to eliminate double taxation.' }

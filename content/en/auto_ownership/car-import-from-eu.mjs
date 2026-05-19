@@ -12,12 +12,12 @@ export default {
       title: '💡 Why people import from the EU',
       content: [
         { kind: 'checklist', items: [
-          '💰 **Price**: the German used-car market is 20-30% cheaper than the Portuguese one',
-          '🔧 **Choice**: Portugal has a limited selection of specific models/configurations',
-          '🏎️ **Segment**: premium cars (BMW, Audi, Mercedes) are poorly represented in Portugal; they are often bought from Germany/the Netherlands',
-          '📋 **Transparency**: German TÜV = detailed history',
-          '⚡ **Electric cars**: wide choice in the Netherlands/Germany',
-          '🔙 **Not worthwhile**: mass-market models (Renault Clio, VW Polo) — the difference is small, and transport costs money'
+          '💰 Price: the German used-car market is 20-30% cheaper than the Portuguese one',
+          '🔧 Choice: Portugal has a limited selection of specific models/configurations',
+          '🏎️ Segment: premium cars (BMW, Audi, Mercedes) are poorly represented in Portugal; they are often bought from Germany/the Netherlands',
+          '📋 Transparency: German TÜV = detailed history',
+          '⚡ Electric cars: wide choice in the Netherlands/Germany',
+          '🔙 Not worthwhile: mass-market models (Renault Clio, VW Polo) — the difference is small, and transport costs money'
         ]}
       ]
     },
@@ -27,15 +27,15 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Approximate budget for a used BMW 318d 2020, bought in Germany for €18,000:' },
         { kind: 'checklist', items: [
-          'Car price in Germany: **€18,000**',
-          'Transport (car transporter Germany → Portugal): **€1,200-1,800** or driving it yourself (fuel + motels ~€400)',
-          'ISV (registration tax): **€1,500-3,500** (depends on engine capacity and CO₂; for a 5-year-old car the discount is 40%)',
-          'Registration with IMT + matriculation: **€135**',
-          'IPO (roadworthiness inspection): **€40**',
-          'Insurance for the first year: **€400-800**',
-          'Total: **~€21,500-24,700**',
-          '**Same car in Portugal**: €23,000-26,000',
-          '**Saving**: €1,500-4,500'
+          'Car price in Germany: €18,000',
+          'Transport (car transporter Germany → Portugal): €1,200-1,800 or driving it yourself (fuel + motels ~€400)',
+          'ISV (registration tax): €1,500-3,500 (depends on engine capacity and CO₂; for a 5-year-old car the discount is 40%)',
+          'Registration with IMT + matriculation: €135',
+          'IPO (roadworthiness inspection): €40',
+          'Insurance for the first year: €400-800',
+          'Total: ~€21,500-24,700',
+          'Same car in Portugal: €23,000-26,000',
+          'Saving: €1,500-4,500'
         ]},
         { kind: 'warning', text: 'The saving is not always huge — calculate a specific example. For cars cheaper than €10,000, the saving is often swallowed up by transport. For the premium segment from €20,000 — it is usually worthwhile.' }
       ]
@@ -50,7 +50,7 @@ export default {
               'Find via mobile.de, autoscout24.com, autotrader.nl',
               'Inspect the car in person (or through a specialist inspector for €100-200)',
               'Purchase agreement, signed by both parties',
-              'The seller provides: **COC (Certificate of Conformity)** — mandatory, otherwise there will be problems with matriculation in Portugal',
+              'The seller provides: COC (Certificate of Conformity) — mandatory, otherwise there will be problems with matriculation in Portugal',
               'Contract + invoice + COC + vehicle title (Fahrzeugbrief / Teil II in Germany) — all originals',
               '⚠️ Export plates (Ausfuhrkennzeichen in Germany) — temporary plates for 5-30 days to drive the car over'
             ]}
@@ -65,7 +65,7 @@ export default {
           ]},
           { id: 'p3', title: 'Step 3: DAV with AT (within 20 days)', content: [
             { kind: 'checklist', items: [
-              '**Declaração Aduaneira de Veículo** — must be submitted to Autoridade Tributária within 20 working days after import',
+              'Declaração Aduaneira de Veículo — must be submitted to Autoridade Tributária within 20 working days after import',
               'Submission: via Portal das Finanças (NIF + CMD) → IVA/ISV → DAV',
               'Attach: COC, contract, German vehicle registration document, VIN, photos',
               'AT calculates ISV based on the vehicle characteristics',
@@ -74,12 +74,12 @@ export default {
           ]},
           { id: 'p4', title: 'Step 4: ISV — calculation and payment', content: [
             { kind: 'checklist', items: [
-              'ISV = **Componente Cilindrada** (engine capacity tax) + **Componente Ambiental** (CO₂ tax)',
+              'ISV = Componente Cilindrada (engine capacity tax) + Componente Ambiental (CO₂ tax)',
               'Engine-capacity scale: €10-30 for each 250 cm³ for small combustion engines → €3-4+ per cm³ for large ones',
               'CO₂ scale: €5-350 for each g/km above the threshold values',
-              '**Discount for used cars**: 5-20% in the 1st year, up to 65% after 5 years',
-              '**0% ISV**: electric cars (BEV)',
-              '**Reduced rate**: PHEV with range >50 km',
+              'Discount for used cars: 5-20% in the 1st year, up to 65% after 5 years',
+              '0% ISV: electric cars (BEV)',
+              'Reduced rate: PHEV with range >50 km',
               '💡 Simulator: portaldasfinancas.gov.pt → Simuladores → ISV'
             ]}
           ]},
@@ -87,7 +87,7 @@ export default {
             { kind: 'checklist', items: [
               'After paying ISV — AT issues certificado desalfandegamento',
               'With it, you go to IMT (Instituto da Mobilidade e dos Transportes)',
-              'Appointment at portal.imt-ip.pt → Matrícula — fee **€135**',
+              'Appointment at portal.imt-ip.pt → Matrícula — fee €135',
               'You receive: Documento Único Automóvel (DUA) + Portuguese plates',
               'Timeframe: 2-4 weeks'
             ]}
@@ -95,7 +95,7 @@ export default {
           { id: 'p6', title: 'Step 6: IPO (roadworthiness inspection)', content: [
             { kind: 'checklist', items: [
               'Mandatory after import — at any certified centre',
-              'Cost: **~€40**',
+              'Cost: ~€40',
               'They check: exhaust, brakes, lights, safety',
               'German TÜV is not accepted — IPO must be done again',
               'It usually passes without problems if the German TÜV is valid'
@@ -116,14 +116,14 @@ export default {
       id: 'relocation-exemption',
       title: '✨ ISV exemption when relocating (important)',
       content: [
-        { kind: 'paragraph', text: 'If you are moving to Portugal (transferência de residência) — you can import a car with **FULL ISV exemption**.' },
+        { kind: 'paragraph', text: 'If you are moving to Portugal (transferência de residência) — you can import a car with FULL ISV exemption.' },
         { kind: 'checklist', items: [
-          '📅 **Conditions**: lived in the country of departure for ≥ 6 months before relocating',
-          '🚗 **Conditions**: the car has been yours for ≥ 6 months before relocating (prove it: registration card + insurance + servicing invoices)',
-          '📅 **Submission deadline**: 12 months after becoming resident in Portugal',
-          '🚫 **You cannot sell** within 12 months after import (otherwise ISV will be charged retroactively)',
-          '📄 **Documents**: certificado de transferência de residência from MNE (Portuguese consulate in the country of departure) + car documents + proof of address in Portugal',
-          '💡 **Huge saving**: ISV is usually €2-5 thousand for an average car — free if there is an exemption',
+          '📅 Conditions: lived in the country of departure for ≥ 6 months before relocating',
+          '🚗 Conditions: the car has been yours for ≥ 6 months before relocating (prove it: registration card + insurance + servicing invoices)',
+          '📅 Submission deadline: 12 months after becoming resident in Portugal',
+          '🚫 You cannot sell within 12 months after import (otherwise ISV will be charged retroactively)',
+          '📄 Documents: certificado de transferência de residência from MNE (Portuguese consulate in the country of departure) + car documents + proof of address in Portugal',
+          '💡 Huge saving: ISV is usually €2-5 thousand for an average car — free if there is an exemption',
           '⚠️ If you changed the purpose of your trip / bought the car recently — the exemption does not apply'
         ]}
       ]
@@ -133,12 +133,12 @@ export default {
       title: '🆘 Common difficulties',
       content: [
         { kind: 'checklist', items: [
-          '**No COC**: without it, ISV is calculated at the maximum rate + matriculation is blocked; order from the manufacturer in Germany for €200-500, wait 4-8 weeks',
-          '**VIN not recognised**: technical inspection at IMT required — €200-400',
-          '**Over 25 years old / classic**: separate matriculation category (“veículo histórico”), ISV is cheaper, but there are emissions restrictions',
-          '**Modifications** (tuning, large wheels): not everything is accepted in Portugal; it may fail IPO',
-          '**Car from outside the EU** (UK after Brexit, US): full customs + 23% IVA on top. More complicated than from the EU',
-          '**Delay**: the whole procedure usually takes 4-8 weeks from entry to Portuguese plates. Plan car rental in advance for this period'
+          'No COC: without it, ISV is calculated at the maximum rate + matriculation is blocked; order from the manufacturer in Germany for €200-500, wait 4-8 weeks',
+          'VIN not recognised: technical inspection at IMT required — €200-400',
+          'Over 25 years old / classic: separate matriculation category (“veículo histórico”), ISV is cheaper, but there are emissions restrictions',
+          'Modifications (tuning, large wheels): not everything is accepted in Portugal; it may fail IPO',
+          'Car from outside the EU (UK after Brexit, US): full customs + 23% IVA on top. More complicated than from the EU',
+          'Delay: the whole procedure usually takes 4-8 weeks from entry to Portuguese plates. Plan car rental in advance for this period'
         ]}
       ]
     }

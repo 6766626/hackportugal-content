@@ -61,10 +61,10 @@ export default {
       title: 'Pequenos pontos outlet em Lisboa',
       content: [
         { kind: 'checklist', items: [
-          '**Fashion Clinic Outlet** (Av. da Liberdade) — marcas premium com desconto de 30-60% (Balenciaga, Celine, Prada de colecções recentes)',
-          '**Amoreiras Shopping** — centro comercial normal (NÃO outlet); lojas individuais podem fazer promoções. A Uterqüe enquanto marca foi encerrada pela Inditex em 2022 — os artigos foram integrados na Massimo Dutti',
-          '**Mercado de Levante** (Feira da Ladra) — segunda mão + vintage, sábado-domingo',
-          '**Lisboa Outlet Village (LOV)** (Campera, 40 km N) — 70 lojas: Nike, Tous, Springfield, Levi\'s'
+          'Fashion Clinic Outlet (Av. da Liberdade) — marcas premium com desconto de 30-60% (Balenciaga, Celine, Prada de colecções recentes)',
+          'Amoreiras Shopping — centro comercial normal (NÃO outlet); lojas individuais podem fazer promoções. A Uterqüe enquanto marca foi encerrada pela Inditex em 2022 — os artigos foram integrados na Massimo Dutti',
+          'Mercado de Levante (Feira da Ladra) — segunda mão + vintage, sábado-domingo',
+          'Lisboa Outlet Village (LOV) (Campera, 40 km N) — 70 lojas: Nike, Tous, Springfield, Levi\'s'
         ]}
       ]
     },
@@ -73,12 +73,12 @@ export default {
       title: 'Quando há os melhores descontos',
       content: [
         { kind: 'checklist', items: [
-          '📅 **Saldos depois do Natal** (26 de Dezembro-2 de Janeiro) — até 80%',
-          '📅 **Saldos de Verão** (início de Julho, final — fim de Agosto)',
-          '📅 **Black Friday** (25 de Novembro) — desconto adicional de 20-30% em muitos outlets',
-          '📅 **Cyber Monday** — foco no online',
-          '🎁 **Páscoa** (Abril) — mini-campanha',
-          '🧲 **Saldos fechados** — subscreva as newsletters dos outlets; enviam vouchers 2 semanas antes dos eventos'
+          '📅 Saldos depois do Natal (26 de Dezembro-2 de Janeiro) — até 80%',
+          '📅 Saldos de Verão (início de Julho, final — fim de Agosto)',
+          '📅 Black Friday (25 de Novembro) — desconto adicional de 20-30% em muitos outlets',
+          '📅 Cyber Monday — foco no online',
+          '🎁 Páscoa (Abril) — mini-campanha',
+          '🧲 Saldos fechados — subscreva as newsletters dos outlets; enviam vouchers 2 semanas antes dos eventos'
         ]}
       ]
     },

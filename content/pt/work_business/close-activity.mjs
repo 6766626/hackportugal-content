@@ -54,7 +54,7 @@ export default {
               'MAS: se tinha carência (isenção de 12 meses) e não pagava contribuições — a longo prazo, é melhor confirmar na Segurança Social Direta',
               'As contribuições TI são calculadas pela quarterly declaration: relevant income normalmente 70% dos serviços ou 20% de sales/production/hotel/restaurant do trimestre anterior, taxa TI 21,4%. Após a cessação, verifique a última declaração trimestral na Segurança Social Direta',
               'O prazo de pagamento das contribuições SS é normalmente do dia 10 ao dia 20 do mês seguinte',
-              '**Após a cessação**: deixam de ser cobradas contribuições; o período contributivo acumulado mantém-se (para a futura pensão)'
+              'Após a cessação: deixam de ser cobradas contribuições; o período contributivo acumulado mantém-se (para a futura pensão)'
             ]}
           ]}
         ]}

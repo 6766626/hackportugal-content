@@ -3,7 +3,7 @@ export default {
   id: 'espaco-cidadao',
   categoryId: 'digital_gov',
   title: 'Espaço Cidadão — government services in one place',
-  tldr: 'Espaço Cidadão are service points (available across the country, but not guaranteed in every municipality) where many government-service matters can be handled: Chave Móvel Digital, change of address, various certificates and more. The exact set of services depends on the service point — NIF/NISS are not available in every Espaço Cidadão.\n\nBooking via ePortugal.gov.pt is **recommended**, but not mandatory everywhere — some services operate with walk-in queues or tickets.',
+  tldr: 'Espaço Cidadão are service points (available across the country, but not guaranteed in every municipality) where many government-service matters can be handled: Chave Móvel Digital, change of address, various certificates and more. The exact set of services depends on the service point — NIF/NISS are not available in every Espaço Cidadão.\n\nBooking via ePortugal.gov.pt is recommended, but not mandatory everywhere — some services operate with walk-in queues or tickets.',
   tags: ['espaço cidadão', 'loja de cidadão', 'government services'],
   estimatedReadMinutes: 4,
   steps: [
