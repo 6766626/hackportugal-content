@@ -33,7 +33,7 @@ export default [
     titles:    { pt: 'Arrendamento',               en: 'Renting' },
     subtitles: { pt: 'Contrato, caução, fiador',   en: 'Contract, caução, fiador' } },
 
-  { id: 'housing_buy',          order: 7,  tier: 'free',    title: 'Покупка жилья',             subtitle: 'Ипотека, IMT, AL',                      sfSymbol: 'key',                               hasVariants: false,
+  { id: 'housing_buy',          order: 7,  tier: 'premium', title: 'Покупка жилья',             subtitle: 'Ипотека, IMT, AL',                      sfSymbol: 'key',                               hasVariants: false,
     titles:    { pt: 'Compra de casa',             en: 'Buying a home' },
     subtitles: { pt: 'Hipoteca, IMT, AL',          en: 'Mortgage, IMT, AL' } },
 
