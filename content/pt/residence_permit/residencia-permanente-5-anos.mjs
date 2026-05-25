@@ -3,7 +3,7 @@ export default {
   id: 'residencia-permanente-5-anos',
   categoryId: 'residence_permit',
   title: 'Autorização de residência permanente em Portugal após 5 anos — caminho para a Permanente',
-  tldr: 'A autorização de residência permanente pode ser pedida após 5 anos de autorização de residência temporária legal em Portugal. A base é a Lei 23/2007, art. 80: autorização de residência válida, ausência de condenação grave, alojamento, meios de subsistência e português mínimo A2.\n\nNa prática, a AIMA avalia a continuidade da residência: não transforme a autorização de residência num "cartão de visitas"; mantenha ≥6 meses de residência efectiva por ano.\n\nA própria autorização é por tempo indeterminado (sem limite de tempo, art. 76 Lei 23/2007); apenas o cartão (título de residência) é renovado de 5 em 5 anos. Taxas da AIMA a partir de 01.03.2026 (Portaria 480/2025/1): admissão/análise 133 € + autorização de residência (art. 76) 351,10 € (em vez dos antigos 252 €).',
+  tldr: 'A autorização de residência permanente pode ser pedida após 5 anos de autorização de residência temporária legal em Portugal. A base é a Lei 23/2007, art. 80: autorização de residência válida, ausência de condenação grave, alojamento, meios de subsistência e português mínimo A2.\n\nNa prática, a AIMA avalia a continuidade da residência: não transforme a autorização de residência num "cartão de visitas"; mantenha ≥6 meses de residência efectiva por ano.\n\nA própria autorização é por tempo indeterminado (sem limite de tempo, art. 76 Lei 23/2007); apenas o cartão (título de residência) é renovado de 5 em 5 anos. Taxas da AIMA a partir de 01.03.2026 (Portaria 307/2023 (versão consolidada)): admissão/análise 133 € + autorização de residência (art. 76) 351,10 € (em vez dos antigos 252 €).',
   tags: ['aima', 'autorização de residência', 'permanente', 'a2'],
   estimatedReadMinutes: 6,
   steps: [
@@ -39,6 +39,24 @@ export default {
           'não existem problemas graves activos com a AIMA, alertas SIS/Schengen ou documentos de identidade'
         ] },
         { kind: 'warning', text: 'Se durante os 5 anos houve ausências longas, cartões caducados, intervalos entre autorizações de residência ou se viveu em Portugal “por temporadas”, não apresente o pedido às cegas. A AIMA pode pedir provas de residência efectiva e de continuidade do estatuto.' }
+      ]
+    },
+    {
+      id: 'counting-5-years',
+      title: 'Quando começam a contar os 5 anos: nuances importantes',
+      content: [
+        { kind: 'paragraph', text: 'Regra principal: os 5 anos contam-se a partir da data de emissão do PRIMEIRO cartão de autorização de residência (título de residência). NÃO da entrada com visto, NÃO da submissão da MdI, NÃO da emissão do visto D. Mas os edge cases são importantes:' },
+        { kind: 'checklist', items: [
+          'Visto D antes do primeiro cartão — NÃO conta. O visto é uma autorização de entrada, não de residência.',
+          'Manifestação de Interesse (MdI) — NUNCA contou para a residência permanente. A Lei 38/2024 permitiu brevemente para a nacionalidade, e a Lei Orgânica 1/2026 reverteu. O próprio regime da MdI foi revogado pela Lei 61/2025.',
+          'Fila de renovação com pedido apresentado a tempo — CONTA como continuous legal residence (art. 78 + DR 84/2007 art. 61). Desde Outubro de 2025 a AIMA prolongou explicitamente a validade dos cartões caducados.',
+          'Um intervalo sem título válido e sem pedido de renovação pendente — reseta o clock. A AIMA normalmente tolera intervalos curtos se a renovação anterior tiver sido pedida a tempo.',
+          'Período de transição SEF→AIMA com cartões SEF caducados e renovação pendente confirmada — CONTA. Comprovado por uma certidão da AIMA.',
+          'Conversões entre tipos de vistos (D2→D7, D7→D8) — o clock NÃO se reseta, desde que a autorização de residência se tenha mantido contínua. O importante é a continuidade da titularidade, não o tipo.',
+          'Reagrupamento familiar: o membro da família tem a SUA PRÓPRIA data de início — o seu primeiro cartão de reagrupamento, NÃO a data do residente principal.',
+          'Crianças nascidas em Portugal de residentes não-UE — art. 122 nº 1 al. a (NÃO 81!). O primeiro cartão próprio inicia os seus 5 anos.'
+        ] },
+        { kind: 'warning', text: 'Se o seu historial dos 5 anos for não linear (mudanças de visto, intervalos, ausências prolongadas, transição SEF→AIMA) — peça à AIMA uma certidão de residência antes de submeter o pedido. Mostra num único documento todos os seus períodos de residência legal e elimina disputas no atendimento.' }
       ]
     },
     {
@@ -89,7 +107,7 @@ export default {
             { kind: 'paragraph', text: 'Acompanhe os canais da AIMA: área pessoal/portal, email, linhas telefónicas e balcões regionais podem diferir. Se já tem em curso a renovação da autorização de residência temporária, esclareça se é possível converter o processo para permanente ou se é necessária uma marcação separada.' }
           ] },
           { id: 'appointment', title: '3. Compareça com os originais', content: [
-            { kind: 'paragraph', text: 'No atendimento são verificados os documentos, a biometria, a morada, os fundamentos da residência e o pagamento. A taxa da AIMA pela autorização de residência permanente (art. 76) é de 351,10 € + 133 € pela admissão/análise do processo. As taxas entraram em vigor em 01.03.2026 (Portaria 480/2025/1, aumento de cerca de +33% face aos antigos 252 €).' }
+            { kind: 'paragraph', text: 'No atendimento são verificados os documentos, a biometria, a morada, os fundamentos da residência e o pagamento. A taxa da AIMA pela autorização de residência permanente (art. 76) é de 351,10 € + 133 € pela admissão/análise do processo. As taxas entraram em vigor em 01.03.2026 (Portaria 307/2023 (versão consolidada), aumento de cerca de +33% face aos antigos 252 €).' }
           ] },
           { id: 'card', title: '4. Receba o cartão', content: [
             { kind: 'paragraph', text: 'Após a aprovação, o cartão chega por correio ou é entregue de acordo com as instruções da AIMA. Verifique o nome, data de nascimento, nacionalidade, número do documento e morada. Corrija erros de imediato.' }
@@ -145,6 +163,22 @@ export default {
           '18.05.2026 foi publicada a Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a naturalização passa a ser de 7 anos para CPLP/UE e 10 anos para os restantes (em vez dos anteriores 5). A residência permanente NÃO é obrigatória para pedir a nacionalidade, mas torna-se mais importante como estatuto intermédio estável durante esses 7–10 anos de espera'
         ] }
       ]
+    },
+    {
+      id: 'common-myths',
+      title: 'Mitos frequentes sobre a residência permanente art. 80',
+      content: [
+        { kind: 'paragraph', text: 'Estes equívocos aparecem em chats e grupos, por vezes até em conselhos de advogados pouco experientes. A realidade em Maio de 2026:' },
+        { kind: 'checklist', items: [
+          '❌ "A Manifestação de Interesse contava para a residência permanente" — NUNCA contou. Para o art. 80 é sempre necessário um título de residência formal.',
+          '❌ "A fila de renovação reseta os 5 anos" — Pelo contrário, conta como continuous legal residence, desde que o pedido tenha sido apresentado a tempo (art. 78).',
+          '❌ "O novo portal AIMA de Jan 2026 = submissão de ARP online" — o portal-renovacoes é apenas para renovações de autorizações temporárias. A primeira emissão da ARP é só presencial numa Loja AIMA.',
+          '❌ "A Lei Orgânica 1/2026 alterou as regras da ARP" — Não, a Lei Orgânica altera APENAS a Lei da Nacionalidade. O art. 80 da Lei 23/2007 não foi tocado.',
+          '❌ "É possível pedir ARP durante uma estadia turística" — É necessário ter uma autorização de residência temporária válida no momento do pedido (ou uma renovação pendente).',
+          '❌ "Após 5 anos a ARP é concedida automaticamente" — Não, é preciso apresentar o pedido explicitamente. Caso contrário, mantém-se no cartão temporário, que continua a ser renovado.',
+          '❌ "Mais vale ir direto à nacionalidade, a ARP é opcional" — A nacionalidade agora exige 7/10 anos (Lei Orgânica 1/2026), a ARP exige 5. Faz sentido obter a ARP como estatuto intermédio estável.'
+        ] }
+      ]
     }
   ],
   costs: [
@@ -161,6 +195,6 @@ export default {
   ],
   lastVerified: '2026-05-25',
   recentlyChangedAt: '2026-05-25',
-  changeSummary: 'Adicionado novo passo "A realidade da AIMA em 2026" com contornos (Livro Amarelo, intimação, Lojas regionais, CLAIM), prazo honesto de 1–2 anos e nota explícita de que o portal AIMA de Jan 2026 é apenas para renovações, não para ARP. Actualizado o impacto da Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a ARP torna-se mais importante como estatuto intermédio.',
+  changeSummary: 'Grande atualização de Maio 2026: (1) Passo "A realidade da AIMA em 2026" com contornos (Livro Amarelo, intimação, Lojas regionais, CLAIM), prazo honesto de 1–2 anos, nota explícita de que o portal AIMA de Jan 2026 é apenas para renovações. (2) Passo "Quando começam a contar os 5 anos" com 8 edge cases (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT). (3) Mitos frequentes sobre ARP art. 80. (4) Corrigida referência à Portaria — a correta é Portaria 307/2023 (versão consolidada), não 480/2025/1. (5) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a ARP torna-se mais importante como estatuto intermédio durante os 7–10 anos de espera pela nacionalidade.',
   verifyIntervalDays: 90
 }

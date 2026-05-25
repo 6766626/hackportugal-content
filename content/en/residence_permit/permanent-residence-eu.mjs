@@ -17,7 +17,7 @@ export default {
               'The autorização itself is indefinite (sem limite de tempo, art. 76 Lei 23/2007). The card (título de residência) is renewed every 5 years (art. 76 nº 4)',
               'The right to work, live and study in Portugal without restrictions',
               'Risk of cancellation if absent for 24 consecutive months OR 30 months in total over 3 years without a justified reason (art. 85 Lei 23/2007)',
-              'Under current law, naturalisation after 5 years of legal residence — on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII, which after publication in DRE will raise the period to 7 years for CPLP/EU and 10 years for others. Permanent residence is NOT required to apply for citizenship',
+              'Lei Orgânica 1/2026 (published 18.05.2026, in force from 19.05.2026): naturalisation now takes 7 years for CPLP/EU and 10 years for others (instead of the previous 5). Permanent residence is NOT required to apply for citizenship, but becomes more valuable as an intermediate stable status during those 7–10 years of waiting',
               'Family members receive a temporary residence permit, then can follow their own path to permanent residence',
               'Does not grant rights in other EU countries'
             ]}
@@ -52,6 +52,25 @@ export default {
           '📋 No debts to Finanças and Segurança Social',
           '🛡️ No breaches of immigration law (overstay, illegal work)'
         ]}
+      ]
+    },
+    {
+      id: 'counting-5-years',
+      title: 'When the 5 years start: important nuances',
+      content: [
+        { kind: 'paragraph', text: 'Main rule: the 5 years count from the issue date of the FIRST autorização de residência card (título de residência). NOT from visa entry, NOT from MdI submission, NOT from D-visa issuance. But the edge cases matter:' },
+        { kind: 'checklist', items: [
+          'D-visa before the first card — does NOT count. A visa is permission to enter, not to reside.',
+          'Manifestação de Interesse (MdI) — NEVER counted for either national ARP or EULTR. Lei 38/2024 briefly allowed it for nationality, Lei Orgânica 1/2026 reversed it. The MdI regime itself was revoked by Lei 61/2025.',
+          'Renewal queue with a timely-filed request — COUNTS as continuous legal residence (art. 78 + DR 84/2007 art. 61). Since October 2025 AIMA has explicitly extended the validity of expired cards.',
+          'A gap with no valid título and no pending renewal — resets the clock. AIMA usually forgives short gaps if the prior renewal was filed on time.',
+          'SEF→AIMA transition period with expired SEF cards plus a confirmed pending renewal — COUNTS. Evidenced by an AIMA certidão.',
+          'Conversions between visa types (D2→D7, D7→D8) — the clock does NOT reset, as long as the autorização de residência was held continuously. Continuity of holding matters, not the type.',
+          'Family reunification (reagrupamento): a family member has THEIR OWN start date — their first reagrupamento card, NOT the date of the principal resident.',
+          'Children born in Portugal to non-EU residents — art. 122 nº 1 al. a (NOT 81!). Their own first card starts their 5 years.',
+          'Students: for national ARP (art. 80), time on an autorização para estudo counts in full. For EULTR (art. 126 nº 3) it counts only 50%; pure students cannot be EULTR beneficiaries at all until they convert the status.'
+        ] },
+        { kind: 'warning', text: 'If your 5-year history is non-linear (visa changes, gaps, long absences, SEF→AIMA transition) — order a certidão de residência from AIMA before applying. It shows all your periods of legal residence in a single document and removes disputes at the appointment.' }
       ]
     },
     {
@@ -106,7 +125,7 @@ export default {
           '👨‍👩‍👧 Family Reagrupamento — check the current conditions under Lei 23/2007 (after Lei 61/2025)',
           '🎓 Access to state education on general terms',
           '🏛️ Voting in local elections (municipal) — for EU citizens and certain CPLP nationals',
-          '🎫 Citizenship: separate procedure through IRN. Permanent residence is NOT required. Under current law — 5 years of legal residence; on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in DRE it will be 7 years for CPLP/EU and 10 years for others'
+          '🎫 Citizenship: separate procedure through IRN. Permanent residence is NOT required. Lei Orgânica 1/2026 (in force from 19.05.2026): now 7 years for CPLP/EU and 10 years for others (instead of the previous 5)'
         ]},
         { kind: 'warning', text: 'Permanent residence does NOT grant citizenship automatically — you must apply separately through IRN. But it makes the process easier, as all documents are more stable + language has already been confirmed.' }
       ]
@@ -125,6 +144,22 @@ export default {
           'Loss: after obtaining it, separate rules under Lei 23/2007 apply (risk in case of long absence from the EU and in other cases)'
         ]}
       ]
+    },
+    {
+      id: 'common-myths',
+      title: 'Myths about ARP and EULTR',
+      content: [
+        { kind: 'paragraph', text: 'These misconceptions show up frequently in discussions of national ARP vs EULTR. Reality as of May 2026:' },
+        { kind: 'checklist', items: [
+          '❌ "EULTR = automatic right to live in any EU country like EU citizens do" — No, it is the right to APPLY for residence in another EU country under that country national rules. Denmark and Ireland do not participate in Directive 2003/109 at all.',
+          '❌ "You must choose between national ARP and EULTR" — You can hold both statuses simultaneously. Lawyers (PaxLegal, Lexidy, Fiolegal) often recommend the national ARP first (simpler, cheaper), then EULTR on top.',
+          '❌ "Student years count the same for both" — For national ARP (art. 80), they count in full. For EULTR (art. 126 nº 3), only 50%; pure students are excluded altogether.',
+          '❌ "Long absences are equally dangerous" — Different thresholds: national ARP is lost after 24 consecutive months or 30/36 interpolated. EULTR is lost after 12 months outside the EU.',
+          '❌ "Resources for EULTR are the same as for ARP" — EULTR requires recursos estáveis e regulares (benchmarked against SMN/pension), plus EXPLICITLY health insurance or SNS. ARP wording is softer — meios de subsistência.',
+          '❌ "Manifestação de Interesse counted for one of them" — No, it never counted for either ARP or EULTR.',
+          '❌ "The EULTR card moves with you to another EU country" — No. EULTR is a Portuguese status. In another EU country you apply for THEIR residence permit (usually within 3 months of entry), but the Portuguese EULTR strengthens the case.'
+        ] }
+      ]
     }
   ],
   costs: [
@@ -142,6 +177,8 @@ export default {
     { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Permanent Authorisation', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-25',
+  recentlyChangedAt: '2026-05-25',
+  changeSummary: 'May 2026 update: (1) Deeper comparison of national ARP (art. 80) and EULTR (art. 125+): students count differently, different absence thresholds, different resource standards. (2) Step "When the 5 years start" with 9 edge cases (D-visa, MdI, renewal queue, gaps, SEF→AIMA, conversions, reagrupamento, children born in PT, students). (3) Common myths about ARP vs EULTR differences. (4) Lei Orgânica 1/2026 (in force from 19.05.2026): citizenship now takes 7/10 years, ARP becomes more important as an intermediate status.',
   verifyIntervalDays: 180
 }

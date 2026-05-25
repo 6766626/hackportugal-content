@@ -3,7 +3,7 @@ export default {
   id: 'residencia-permanente-5-anos',
   categoryId: 'residence_permit',
   title: 'Permanent residence permit in Portugal after 5 years — the path to Permanente',
-  tldr: 'Autorização de residência permanente can be requested after 5 years of lawful temporary residence permit in Portugal. The basis is Lei 23/2007, art. 80: a valid residence permit, no serious criminal conviction, housing, means of subsistence and minimum A2 Portuguese.\n\nIn practice, AIMA looks at continuity of residence: do not turn the residence permit into a "visiting card", keep ≥6 months of actual residence per year.\n\nThe autorização itself is indefinite (sem limite de tempo, art. 76 Lei 23/2007); only the card (título de residência) is renewed every 5 years. AIMA fees from 01.03.2026 (Portaria 480/2025/1): admission/assessment €133 + autorização de residência (art. 76) €351.10 (instead of the outdated €252).',
+  tldr: 'Autorização de residência permanente can be requested after 5 years of lawful temporary residence permit in Portugal. The basis is Lei 23/2007, art. 80: a valid residence permit, no serious criminal conviction, housing, means of subsistence and minimum A2 Portuguese.\n\nIn practice, AIMA looks at continuity of residence: do not turn the residence permit into a "visiting card", keep ≥6 months of actual residence per year.\n\nThe autorização itself is indefinite (sem limite de tempo, art. 76 Lei 23/2007); only the card (título de residência) is renewed every 5 years. AIMA fees from 01.03.2026 (Portaria 307/2023 (consolidated version)): admission/assessment €133 + autorização de residência (art. 76) €351.10 (instead of the outdated €252).',
   tags: ['aima', 'residence permit', 'permanent', 'a2'],
   estimatedReadMinutes: 6,
   steps: [
@@ -39,6 +39,24 @@ export default {
           'there are no active serious issues with AIMA, SIS/Schengen alerts or identity documents'
         ] },
         { kind: 'warning', text: 'If over the 5 years there were long absences, expired cards, gaps between residence permits or you lived in Portugal “on and off”, do not apply blindly. AIMA may request proof of actual residence and continuity of status.' }
+      ]
+    },
+    {
+      id: 'counting-5-years',
+      title: 'When the 5 years start: important nuances',
+      content: [
+        { kind: 'paragraph', text: 'Main rule: the 5 years count from the issue date of the FIRST autorização de residência card (título de residência). NOT from visa entry, NOT from MdI submission, NOT from D-visa issuance. But the edge cases matter:' },
+        { kind: 'checklist', items: [
+          'D-visa before the first card — does NOT count. A visa is permission to enter, not to reside.',
+          'Manifestação de Interesse (MdI) — NEVER counted for permanent residence. Lei 38/2024 briefly allowed it for nationality, Lei Orgânica 1/2026 reversed it. The MdI regime itself was revoked by Lei 61/2025.',
+          'Renewal queue with a timely-filed request — COUNTS as continuous legal residence (art. 78 + DR 84/2007 art. 61). Since October 2025 AIMA has explicitly extended the validity of expired cards.',
+          'A gap with no valid título and no pending renewal — resets the clock. AIMA usually forgives short gaps if the prior renewal was filed on time.',
+          'SEF→AIMA transition period with expired SEF cards plus a confirmed pending renewal — COUNTS. Evidenced by an AIMA certidão.',
+          'Conversions between visa types (D2→D7, D7→D8) — the clock does NOT reset, as long as the autorização de residência was held continuously. Continuity of holding matters, not the type.',
+          'Family reunification (reagrupamento): a family member has THEIR OWN start date — their first reagrupamento card, NOT the date of the principal resident.',
+          'Children born in Portugal to non-EU residents — art. 122 nº 1 al. a (NOT 81!). Their own first card starts their 5 years.'
+        ] },
+        { kind: 'warning', text: 'If your 5-year history is non-linear (visa changes, gaps, long absences, SEF→AIMA transition) — order a certidão de residência from AIMA before applying. It shows all your periods of legal residence in a single document and removes disputes at the appointment.' }
       ]
     },
     {
@@ -89,7 +107,7 @@ export default {
             { kind: 'paragraph', text: 'Monitor AIMA channels: personal account/portal, email, telephone lines and regional desks may differ. If you already have a temporary residence permit renewal in progress, clarify whether the process can be converted to permanente or whether a separate appointment is needed.' }
           ] },
           { id: 'appointment', title: '3. Attend with originals', content: [
-            { kind: 'paragraph', text: 'At the appointment, they check documents, biometrics, address, residence grounds and payment. The AIMA fee for autorização de residência permanente (art. 76) is €351.10 + €133 for admission/case assessment. The fees entered into force on 01.03.2026 (Portaria 480/2025/1, an increase of ~+33% from the old €252).' }
+            { kind: 'paragraph', text: 'At the appointment, they check documents, biometrics, address, residence grounds and payment. The AIMA fee for autorização de residência permanente (art. 76) is €351.10 + €133 for admission/case assessment. The fees entered into force on 01.03.2026 (Portaria 307/2023 (consolidated version), an increase of ~+33% from the old €252).' }
           ] },
           { id: 'card', title: '4. Receive the card', content: [
             { kind: 'paragraph', text: 'After approval, the card arrives by post or is issued according to AIMA instructions. Check the name, date of birth, nationality, document number and address. Correct errors immediately.' }
@@ -145,6 +163,22 @@ export default {
           'On 18.05.2026 Lei Orgânica 1/2026 was published (in force from 19.05.2026): naturalisation is now 7 years for CPLP/EU and 10 years for everyone else (instead of the previous 5). Permanent residence is NOT mandatory for applying for citizenship, but it becomes more important as a stable intermediate status during those 7–10 years of waiting'
         ] }
       ]
+    },
+    {
+      id: 'common-myths',
+      title: 'Common myths about art. 80 permanent residence',
+      content: [
+        { kind: 'paragraph', text: 'These misconceptions show up in chats and groups, sometimes even in advice from inexperienced lawyers. Reality as of May 2026:' },
+        { kind: 'checklist', items: [
+          '❌ "Manifestação de Interesse counted for permanent residence" — NEVER counted. For art. 80 you always need a formal título de residência.',
+          '❌ "The renewal queue resets the 5 years" — On the contrary, it counts as continuous legal residence, provided the request was filed on time (art. 78).',
+          '❌ "The new AIMA Jan 2026 portal = ARP online filing" — portal-renovacoes is for renewals of temporary residence permits only. First-issuance ARP is presencial only at a Loja AIMA.',
+          '❌ "Lei Orgânica 1/2026 changed the ARP rules" — No, Lei Orgânica changes the Nationality Law ONLY. Lei 23/2007 art. 80 is untouched.',
+          '❌ "You can apply for ARP during a tourist stay" — You need a valid temporary residence permit at the time of application (or a pending renewal).',
+          '❌ "After 5 years, ARP is granted automatically" — No, you must file the application explicitly. Otherwise you stay on the temporary card, which simply keeps being renewed.',
+          '❌ "Better to go straight for citizenship, ARP is optional" — Citizenship now takes 7/10 years (Lei Orgânica 1/2026), ARP takes 5. It makes sense to obtain ARP as an intermediate stable status.'
+        ] }
+      ]
     }
   ],
   costs: [
@@ -161,6 +195,6 @@ export default {
   ],
   lastVerified: '2026-05-25',
   recentlyChangedAt: '2026-05-25',
-  changeSummary: 'Added a new step "AIMA reality in 2026" with workarounds (Livro Amarelo, intimação, regional Lojas, CLAIM), an honest 1–2 year timeline and an explicit note that the AIMA Jan 2026 portal is for renewals only, not for ARP. Updated the impact of Lei Orgânica 1/2026 (in force from 19.05.2026): ARP becomes more important as an intermediate status.',
+  changeSummary: 'Major May 2026 update: (1) Step "AIMA reality in 2026" with workarounds (Livro Amarelo, intimação, regional Lojas, CLAIM), honest 1–2 year timeline, and explicit note the AIMA Jan 2026 portal is renewals-only. (2) Step "When the 5 years start" with 8 edge cases (D-visa, MdI, renewal queue, gaps, SEF→AIMA, conversions, reagrupamento, children born in PT). (3) Common myths about art. 80 permanent residence. (4) Fixed Portaria reference — correct is Portaria 307/2023 (consolidated version), not 480/2025/1. (5) Lei Orgânica 1/2026 (in force from 19.05.2026): ARP becomes more important as an intermediate status during the 7–10 year wait for citizenship.',
   verifyIntervalDays: 90
 }
