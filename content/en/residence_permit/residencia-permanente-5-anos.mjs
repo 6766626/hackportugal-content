@@ -99,6 +99,38 @@ export default {
       ]
     },
     {
+      id: 'aima-reality-2026',
+      title: 'AIMA reality in 2026: workarounds for the stuck',
+      content: [
+        { kind: 'paragraph', text: 'The art. 80 rules themselves have not changed since 2007, but in 2026 the main obstacle is not the law but AIMA. Having inherited ~400,000 files from SEF, AIMA has cleared most temporary residence permit renewals, but it releases first-issuance slots for autorização permanente very rarely. According to complaints on the Portal da Queixa and reports in expat chats, the wait from a contactenos.aima.gov.pt request to an actual appointment is 6–12 months, with no published SLA.' },
+        { kind: 'warning', text: 'The portal-renovacoes.aima.gov.pt portal (launched Jan 2026, extended in May to cover July/August) handles ONLY renewals of valid temporary residence permits. A first-issuance autorização de residência permanente CANNOT be applied for through it — only presencial at a Loja AIMA.' },
+        { kind: 'paragraph', text: 'Realistic end-to-end timeline from the moment you are ready to apply to having the card in hand:' },
+        { kind: 'checklist', items: [
+          'slot request → appointment: 6–12 months (without a complaint it can be longer)',
+          'appointment → decision: 90 days by law, 4–12 months in practice',
+          'decision → physical card: another 3–6 months, sometimes longer',
+          'total: 1–2 years is a realistic scenario',
+          'comprovativo de deferimento with QR code (launched 20.01.2026, services.aima.gov.pt) serves as a document while the card is being printed'
+        ] },
+        { kind: 'paragraph', text: 'What to do if AIMA stays silent:' },
+        { kind: 'substeps', items: [
+          { id: 'livro-amarelo', title: '1. Livro Amarelo — the fastest legal nudge', content: [
+            { kind: 'paragraph', text: 'If there is no answer to a slot request within 15 working days, file a digital complaint on livroamarelo.gov.pt, search for AIMA. User reports indicate an appointment invitation usually arrives 2–4 weeks after the complaint. Free, and no lawyer needed.' }
+          ] },
+          { id: 'intimacao', title: '2. Ação de Intimação para Proteção de Direitos', content: [
+            { kind: 'paragraph', text: 'If the complaint does not help, contact an immigration lawyer to file intimação at the administrative court. The fee is usually €500–1500, the court decision comes in 8–10 weeks, and AIMA is obliged to schedule by court order. Lawyers with public art. 80 practice in 2026: LVP Advogados, RFF Lawyers, PaxLegal, TOF Advogados.' }
+          ] },
+          { id: 'regional-loja', title: '3. Regional Lojas', content: [
+            { kind: 'paragraph', text: 'Évora, Bragança, Viseu and other regional Lojas are less congested than Lisbon and Porto. If your residential address allows you to book at a provincial office, there is a chance to speed things up. By law you can apply at any Loja AIMA, not necessarily at the one for your place of residence.' }
+          ] },
+          { id: 'claim', title: '4. CLAIM Centres', content: [
+            { kind: 'paragraph', text: 'CLAIM (Centros Locais de Apoio à Integração de Migrantes) — 99 locations across the country, free help with assembling the dossier and submitting the request. Useful for those whose Portuguese is weak or who have no AIMA experience. acm.gov.pt/centros-locais-de-apoio-a-integracao-de-migrantes.' }
+          ] }
+        ] },
+        { kind: 'warning', text: 'Since April 2025 AIMA applies the "Complete Application Only" rule — if a single document is missing at the appointment, the case is rejected on the spot and you need to book again. A complete pack on the day of the appointment is therefore critical.' }
+      ]
+    },
+    {
       id: 'after-approval',
       title: 'After approval: how not to lose the status',
       content: [
@@ -110,7 +142,7 @@ export default {
           'do not leave Portugal for years without checking the consequences for the residence permit',
           'if you plan to live in another EU country, study estatuto de residente de longa duração separately — it is a different regime',
           'citizenship has separate requirements: a permanent residence permit is useful, but in itself is not the same as a passport',
-          'On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII (new version of the nationality law); the law will enter into force after publication in the DRE. After publication, naturalisation: 7 years for CPLP/EU, 10 years for the rest. Permanent residence is NOT mandatory for applying for citizenship'
+          'On 18.05.2026 Lei Orgânica 1/2026 was published (in force from 19.05.2026): naturalisation is now 7 years for CPLP/EU and 10 years for everyone else (instead of the previous 5). Permanent residence is NOT mandatory for applying for citizenship, but it becomes more important as a stable intermediate status during those 7–10 years of waiting'
         ] }
       ]
     }
@@ -127,6 +159,8 @@ export default {
     { title: 'Lei 23/2007 — legal regime for the entry, stay, departure and removal of foreign nationals, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — consolidated legislation on autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-25',
+  recentlyChangedAt: '2026-05-25',
+  changeSummary: 'Added a new step "AIMA reality in 2026" with workarounds (Livro Amarelo, intimação, regional Lojas, CLAIM), an honest 1–2 year timeline and an explicit note that the AIMA Jan 2026 portal is for renewals only, not for ARP. Updated the impact of Lei Orgânica 1/2026 (in force from 19.05.2026): ARP becomes more important as an intermediate status.',
   verifyIntervalDays: 90
 }

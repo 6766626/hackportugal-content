@@ -99,6 +99,38 @@ export default {
       ]
     },
     {
+      id: 'aima-reality-2026',
+      title: 'A realidade da AIMA em 2026: contornos para quem está parado',
+      content: [
+        { kind: 'paragraph', text: 'As regras do art. 80 não mudaram desde 2007, mas em 2026 o principal obstáculo não é a lei e sim a AIMA. Tendo herdado ~400 000 processos do SEF, a AIMA já tratou a maior parte das renovações de autorizações temporárias, mas raramente abre marcações para a primeira emissão da autorização permanente. Segundo queixas no Portal da Queixa e relatos em chats de expatriados, a espera desde o pedido em contactenos.aima.gov.pt até uma marcação efectiva é de 6 a 12 meses, sem SLA público.' },
+        { kind: 'warning', text: 'O portal portal-renovacoes.aima.gov.pt (lançado em Jan 2026, alargado em Maio para Julho/Agosto) trata APENAS de renovações de autorizações de residência temporárias válidas. A primeira emissão da autorização de residência permanente NÃO pode ser pedida por aí — apenas presencialmente numa Loja AIMA.' },
+        { kind: 'paragraph', text: 'Cronograma realista do momento em que está pronto a pedir até ter o cartão na mão:' },
+        { kind: 'checklist', items: [
+          'pedido de marcação → atendimento: 6–12 meses (sem queixa pode ser mais)',
+          'atendimento → decisão: 90 dias por lei, 4–12 meses na prática',
+          'decisão → cartão físico: mais 3–6 meses, às vezes mais',
+          'total: 1–2 anos é um cenário realista',
+          'comprovativo de deferimento com QR code (lançado 20.01.2026, services.aima.gov.pt) serve como documento enquanto o cartão é impresso'
+        ] },
+        { kind: 'paragraph', text: 'O que fazer se a AIMA não responde:' },
+        { kind: 'substeps', items: [
+          { id: 'livro-amarelo', title: '1. Livro Amarelo — o empurrão legal mais rápido', content: [
+            { kind: 'paragraph', text: 'Se em 15 dias úteis não houver resposta ao pedido de marcação, apresente uma reclamação digital em livroamarelo.gov.pt, pesquise por AIMA. Relatos de utilizadores indicam que o convite para o atendimento chega 2–4 semanas após a queixa. É gratuito e não exige advogado.' }
+          ] },
+          { id: 'intimacao', title: '2. Ação de Intimação para Proteção de Direitos', content: [
+            { kind: 'paragraph', text: 'Se a queixa não resolver, contacte um advogado de imigração para apresentar uma intimação no tribunal administrativo. Os honorários costumam ser de 500–1500 €, a decisão do tribunal sai em 8–10 semanas, e a AIMA fica obrigada a marcar por ordem do tribunal. Advogados com prática pública em art. 80 em 2026: LVP Advogados, RFF Lawyers, PaxLegal, TOF Advogados.' }
+          ] },
+          { id: 'regional-loja', title: '3. Lojas regionais', content: [
+            { kind: 'paragraph', text: 'Évora, Bragança, Viseu e outras Lojas regionais estão menos congestionadas que Lisboa e Porto. Se a sua morada permitir marcar num gabinete provincial, há possibilidade de acelerar. Por lei é possível apresentar o pedido em qualquer Loja AIMA, e não obrigatoriamente na da área de residência.' }
+          ] },
+          { id: 'claim', title: '4. Centros CLAIM', content: [
+            { kind: 'paragraph', text: 'CLAIM (Centros Locais de Apoio à Integração de Migrantes) — 99 pontos por todo o país, ajudam gratuitamente a juntar o dossiê e a apresentar o pedido. Útil para quem tem português fraco ou nenhuma experiência com a AIMA. acm.gov.pt/centros-locais-de-apoio-a-integracao-de-migrantes.' }
+          ] }
+        ] },
+        { kind: 'warning', text: 'Desde Abril de 2025 a AIMA aplica a regra "Complete Application Only" — se faltar um único documento no atendimento, o processo é indeferido na hora e tem de marcar de novo. Por isso, o pacote completo no dia do atendimento é crítico.' }
+      ]
+    },
+    {
       id: 'after-approval',
       title: 'Depois da aprovação: como não perder o estatuto',
       content: [
@@ -110,7 +142,7 @@ export default {
           'não saia de Portugal durante anos sem verificar as consequências para a autorização de residência',
           'se planeia viver noutro país da UE, estude separadamente o estatuto de residente de longa duração — é outro regime',
           'para a nacionalidade, os requisitos são separados: a autorização de residência permanente é útil, mas por si só não equivale a passaporte',
-          '03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII (nova versão da lei da nacionalidade); a lei entrará em vigor após publicação no DRE. Após a publicação, naturalização: 7 anos para CPLP/UE, 10 anos para os restantes. A residência permanente NÃO é obrigatória para pedir a nacionalidade'
+          '18.05.2026 foi publicada a Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a naturalização passa a ser de 7 anos para CPLP/UE e 10 anos para os restantes (em vez dos anteriores 5). A residência permanente NÃO é obrigatória para pedir a nacionalidade, mas torna-se mais importante como estatuto intermédio estável durante esses 7–10 anos de espera'
         ] }
       ]
     }
@@ -127,6 +159,8 @@ export default {
     { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento de estrangeiros, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — legislação consolidada sobre autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-25',
+  recentlyChangedAt: '2026-05-25',
+  changeSummary: 'Adicionado novo passo "A realidade da AIMA em 2026" com contornos (Livro Amarelo, intimação, Lojas regionais, CLAIM), prazo honesto de 1–2 anos e nota explícita de que o portal AIMA de Jan 2026 é apenas para renovações, não para ARP. Actualizado o impacto da Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a ARP torna-se mais importante como estatuto intermédio.',
   verifyIntervalDays: 90
 }

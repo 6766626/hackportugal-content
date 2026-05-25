@@ -99,6 +99,38 @@ export default {
       ]
     },
     {
+      id: 'aima-reality-2026',
+      title: 'Реальность AIMA в 2026: воркэраунды для застрявших',
+      content: [
+        { kind: 'paragraph', text: 'Сами правила art. 80 не меняются с 2007 года, но в 2026-м главное препятствие — не закон, а AIMA. Унаследовав ~400 000 файлов от SEF, AIMA разгребла большую часть продлений временных ВНЖ, но первичные слоты на autorização permanente выдаёт крайне редко. По жалобам портала Queixa и сообщениям в чатах, ожидание слота из contactenos.aima.gov.pt — от полугода до года, без публичного SLA.' },
+        { kind: 'warning', text: 'Портал portal-renovacoes.aima.gov.pt (запущен янв 2026, расширен в мае на июль/август) обслуживает ТОЛЬКО продление действующих временных ВНЖ. Первичную autorização de residência permanente через него подать НЕЛЬЗЯ — только presencial в Loja AIMA.' },
+        { kind: 'paragraph', text: 'Реалистичный сквозной срок от момента, как вы созрели подавать, до карты в руках:' },
+        { kind: 'checklist', items: [
+          'запрос слота → приём: 6–12 месяцев (без жалобы — может быть и больше)',
+          'приём → решение: 90 дней по закону, 4–12 месяцев по факту',
+          'решение → физическая карта: ещё 3–6 месяцев, иногда дольше',
+          'итого: 1–2 года реалистичный сценарий',
+          'comprovativo de deferimento с QR-кодом (запущен 20.01.2026, services.aima.gov.pt) служит документом, пока печатается карта'
+        ] },
+        { kind: 'paragraph', text: 'Что делать, если AIMA молчит:' },
+        { kind: 'substeps', items: [
+          { id: 'livro-amarelo', title: '1. Livro Amarelo — самый быстрый легальный пинок', content: [
+            { kind: 'paragraph', text: 'Если 15 рабочих дней нет ответа на запрос слота — подайте цифровую жалобу на livroamarelo.gov.pt, выберите AIMA в поиске. По отчётам пользователей, приглашение на приём приходит за 2–4 недели после жалобы. Это бесплатно и не требует юриста.' }
+          ] },
+          { id: 'intimacao', title: '2. Ação de Intimação para Proteção de Direitos', content: [
+            { kind: 'paragraph', text: 'Если жалоба не помогла — обращайтесь к иммиграционному адвокату для подачи intimação в административный суд. Гонорар обычно €500–1500, решение суда за 8–10 недель, AIMA обязана назначить приём по постановлению. Адвокаты с публичной практикой по art. 80 в 2026: LVP Advogados, RFF Lawyers, PaxLegal, TOF Advogados.' }
+          ] },
+          { id: 'regional-loja', title: '3. Региональные lojas', content: [
+            { kind: 'paragraph', text: 'Évora, Bragança, Viseu и другие региональные lojas менее загружены, чем Лиссабон и Порту. Если по адресу проживания можно записаться в провинциальный офис — есть шанс ускорить. По закону подавать можно в любой Loja AIMA, не обязательно по месту жительства.' }
+          ] },
+          { id: 'claim', title: '4. CLAIM-центры', content: [
+            { kind: 'paragraph', text: 'CLAIM (Centros Locais de Apoio à Integração de Migrantes) — 99 локаций по стране, бесплатно помогают собрать досье и оформить запрос. Полезно для тех, у кого португальский слабоват или нет опыта с AIMA. acm.gov.pt/centros-locais-de-apoio-a-integracao-de-migrantes.' }
+          ] }
+        ] },
+        { kind: 'warning', text: 'С апреля 2025 AIMA применяет правило "Complete Application Only" — если на приёме не хватает хоть одного документа, дело отказывают сразу, и нужно записываться заново. Поэтому полный пакет в день приёма критичен.' }
+      ]
+    },
+    {
       id: 'after-approval',
       title: 'После получения: как не потерять статус',
       content: [
@@ -110,7 +142,7 @@ export default {
           'не уезжайте из Португалии на годы без проверки последствий для ВНЖ',
           'если планируете жить в другой стране ЕС, отдельно изучите estatuto de residente de longa duração — это другой режим',
           'для гражданства требования отдельные: постоянный ВНЖ полезен, но сам по себе не равен паспорту',
-          '03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII (новая редакция закона о гражданстве); закон вступит в силу после публикации в DRE. После публикации натурализация: 7 лет для CPLP/EU, 10 лет для остальных. Permanent residence НЕ обязателен для подачи на гражданство'
+          '18.05.2026 опубликована Lei Orgânica 1/2026 (в силе с 19.05.2026): натурализация теперь 7 лет для CPLP/EU и 10 лет для остальных (вместо прежних 5). Permanent residence НЕ обязателен для подачи на гражданство, но становится важнее как стабильный промежуточный статус на эти 7–10 лет ожидания'
         ] }
       ]
     }
@@ -127,6 +159,8 @@ export default {
     { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento de estrangeiros, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — legislação consolidada sobre autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-25',
+  recentlyChangedAt: '2026-05-25',
+  changeSummary: 'Добавлен новый шаг "Реальность AIMA в 2026" с воркэраундами (Livro Amarelo, intimação, региональные lojas, CLAIM), честным timeline 1–2 года и явным указанием, что портал AIMA jan 2026 — только для renewals, не для ПМЖ. Обновлён эффект Lei Orgânica 1/2026 (в силе с 19.05.2026): ПМЖ становится важнее как промежуточный статус.',
   verifyIntervalDays: 90
 }
