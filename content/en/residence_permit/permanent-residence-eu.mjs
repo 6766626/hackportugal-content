@@ -151,7 +151,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'These misconceptions show up frequently in discussions of national ARP vs EULTR. Reality as of May 2026:' },
         { kind: 'checklist', items: [
-          '❌ "EULTR = automatic right to live in any EU country like EU citizens do" — No, it is the right to APPLY for residence in another EU country under that country national rules. Denmark and Ireland do not participate in Directive 2003/109 at all.',
+          '❌ "EULTR = automatic right to live in any EU country like EU citizens do" — No, it is the right to APPLY for residence in another EU country under the national rules of that country. Denmark and Ireland do not participate in Directive 2003/109 at all.',
           '❌ "You must choose between national ARP and EULTR" — You can hold both statuses simultaneously. Lawyers (PaxLegal, Lexidy, Fiolegal) often recommend the national ARP first (simpler, cheaper), then EULTR on top.',
           '❌ "Student years count the same for both" — For national ARP (art. 80), they count in full. For EULTR (art. 126 nº 3), only 50%; pure students are excluded altogether.',
           '❌ "Long absences are equally dangerous" — Different thresholds: national ARP is lost after 24 consecutive months or 30/36 interpolated. EULTR is lost after 12 months outside the EU.',

@@ -45,14 +45,14 @@ export default {
       id: 'counting-5-years',
       title: 'Quando começam a contar os 5 anos: nuances importantes',
       content: [
-        { kind: 'paragraph', text: 'Regra principal: os 5 anos contam-se a partir da data de emissão do PRIMEIRO cartão de autorização de residência (título de residência). NÃO da entrada com visto, NÃO da submissão da MdI, NÃO da emissão do visto D. Mas os edge cases são importantes:' },
+        { kind: 'paragraph', text: 'Regra principal: os 5 anos contam-se a partir da data de emissão do PRIMEIRO cartão de autorização de residência (título de residência). NÃO da entrada com visto, NÃO da submissão da MdI, NÃO da emissão do visto D. Mas existem nuances importantes:' },
         { kind: 'checklist', items: [
           'Visto D antes do primeiro cartão — NÃO conta. O visto é uma autorização de entrada, não de residência.',
           'Manifestação de Interesse (MdI) — NUNCA contou para a residência permanente. A Lei 38/2024 permitiu brevemente para a nacionalidade, e a Lei Orgânica 1/2026 reverteu. O próprio regime da MdI foi revogado pela Lei 61/2025.',
           'Fila de renovação com pedido apresentado a tempo — CONTA como continuous legal residence (art. 78 + DR 84/2007 art. 61). Desde Outubro de 2025 a AIMA prolongou explicitamente a validade dos cartões caducados.',
-          'Um intervalo sem título válido e sem pedido de renovação pendente — reseta o clock. A AIMA normalmente tolera intervalos curtos se a renovação anterior tiver sido pedida a tempo.',
+          'Um intervalo sem título válido e sem pedido de renovação pendente — reinicia a contagem. A AIMA normalmente tolera intervalos curtos se a renovação anterior tiver sido pedida a tempo.',
           'Período de transição SEF→AIMA com cartões SEF caducados e renovação pendente confirmada — CONTA. Comprovado por uma certidão da AIMA.',
-          'Conversões entre tipos de vistos (D2→D7, D7→D8) — o clock NÃO se reseta, desde que a autorização de residência se tenha mantido contínua. O importante é a continuidade da titularidade, não o tipo.',
+          'Conversões entre tipos de vistos (D2→D7, D7→D8) — a contagem NÃO se reinicia, desde que a autorização de residência se tenha mantido contínua. O importante é a continuidade da titularidade, não o tipo.',
           'Reagrupamento familiar: o membro da família tem a SUA PRÓPRIA data de início — o seu primeiro cartão de reagrupamento, NÃO a data do residente principal.',
           'Crianças nascidas em Portugal de residentes não-UE — art. 122 nº 1 al. a (NÃO 81!). O primeiro cartão próprio inicia os seus 5 anos.'
         ] },
@@ -195,6 +195,6 @@ export default {
   ],
   lastVerified: '2026-05-25',
   recentlyChangedAt: '2026-05-25',
-  changeSummary: 'Grande atualização de Maio 2026: (1) Passo "A realidade da AIMA em 2026" com contornos (Livro Amarelo, intimação, Lojas regionais, CLAIM), prazo honesto de 1–2 anos, nota explícita de que o portal AIMA de Jan 2026 é apenas para renovações. (2) Passo "Quando começam a contar os 5 anos" com 8 edge cases (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT). (3) Mitos frequentes sobre ARP art. 80. (4) Corrigida referência à Portaria — a correta é Portaria 307/2023 (versão consolidada), não 480/2025/1. (5) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a ARP torna-se mais importante como estatuto intermédio durante os 7–10 anos de espera pela nacionalidade.',
+  changeSummary: 'Grande atualização de Maio 2026: (1) Passo "A realidade da AIMA em 2026" com contornos (Livro Amarelo, intimação, Lojas regionais, CLAIM), prazo honesto de 1–2 anos, nota explícita de que o portal AIMA de Jan 2026 é apenas para renovações. (2) Passo "Quando começam a contar os 5 anos" com 8 nuances importantes (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT). (3) Mitos frequentes sobre ARP art. 80. (4) Corrigida referência à Portaria — a correta é Portaria 307/2023 (versão consolidada), não 480/2025/1. (5) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a ARP torna-se mais importante como estatuto intermédio durante os 7–10 anos de espera pela nacionalidade.',
   verifyIntervalDays: 90
 }

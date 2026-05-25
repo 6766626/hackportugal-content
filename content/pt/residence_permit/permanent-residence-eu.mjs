@@ -43,7 +43,7 @@ export default {
       title: 'Condições para apresentar o pedido (arts. 76, 80)',
       content: [
         { kind: 'checklist', items: [
-          '📅 5 anos de titularidade de uma autorização de residência temporária em Portugal. NÃO confundir com as regras da nacionalidade: os períodos de espera dos pedidos podem ser relevantes para o nationality clock, mas normalmente NÃO substituem 5 anos de temporary residence permit para residência permanente',
+          '📅 5 anos de titularidade de uma autorização de residência temporária em Portugal. NÃO confundir com as regras da nacionalidade: os períodos de espera dos pedidos podem ser relevantes para a contagem da nacionalidade, mas normalmente NÃO substituem os 5 anos de autorização de residência temporária para a residência permanente',
           '🗣️ Português A2 — certificado CIPLE/CAPLE, certificado de curso de português reconhecido, ou outro documento expressamente aceite pela AIMA ao abrigo da lei/regulamento',
           '💰 Meios de subsistência estáveis e regulares — normalmente trabalho, pensão, rendimentos; a AIMA orienta-se pelos Portuguese subsistence thresholds',
           '🏠 Alojamento adequado — contrato de arrendamento / propriedade, área em função do agregado familiar',
@@ -58,17 +58,17 @@ export default {
       id: 'counting-5-years',
       title: 'Quando começam a contar os 5 anos: nuances importantes',
       content: [
-        { kind: 'paragraph', text: 'Regra principal: os 5 anos contam-se a partir da data de emissão do PRIMEIRO cartão de autorização de residência (título de residência). NÃO da entrada com visto, NÃO da submissão da MdI, NÃO da emissão do visto D. Mas os edge cases são importantes:' },
+        { kind: 'paragraph', text: 'Regra principal: os 5 anos contam-se a partir da data de emissão do PRIMEIRO cartão de autorização de residência (título de residência). NÃO da entrada com visto, NÃO da submissão da MdI, NÃO da emissão do visto D. Mas existem nuances importantes:' },
         { kind: 'checklist', items: [
           'Visto D antes do primeiro cartão — NÃO conta. O visto é uma autorização de entrada, não de residência.',
           'Manifestação de Interesse (MdI) — NUNCA contou nem para a ARP nacional nem para o EULTR. A Lei 38/2024 permitiu brevemente para a nacionalidade, e a Lei Orgânica 1/2026 reverteu. O próprio regime da MdI foi revogado pela Lei 61/2025.',
           'Fila de renovação com pedido apresentado a tempo — CONTA como continuous legal residence (art. 78 + DR 84/2007 art. 61). Desde Outubro de 2025 a AIMA prolongou explicitamente a validade dos cartões caducados.',
-          'Um intervalo sem título válido e sem pedido de renovação pendente — reseta o clock. A AIMA normalmente tolera intervalos curtos se a renovação anterior tiver sido pedida a tempo.',
+          'Um intervalo sem título válido e sem pedido de renovação pendente — reinicia a contagem. A AIMA normalmente tolera intervalos curtos se a renovação anterior tiver sido pedida a tempo.',
           'Período de transição SEF→AIMA com cartões SEF caducados e renovação pendente confirmada — CONTA. Comprovado por uma certidão da AIMA.',
-          'Conversões entre tipos de vistos (D2→D7, D7→D8) — o clock NÃO se reseta, desde que a autorização de residência se tenha mantido contínua. O importante é a continuidade da titularidade, não o tipo.',
+          'Conversões entre tipos de vistos (D2→D7, D7→D8) — a contagem NÃO se reinicia, desde que a autorização de residência se tenha mantido contínua. O importante é a continuidade da titularidade, não o tipo.',
           'Reagrupamento familiar: o membro da família tem a SUA PRÓPRIA data de início — o seu primeiro cartão de reagrupamento, NÃO a data do residente principal.',
           'Crianças nascidas em Portugal de residentes não-UE — art. 122 nº 1 al. a (NÃO 81!). O primeiro cartão próprio inicia os seus 5 anos.',
-          'Estudantes: para a ARP nacional (art. 80), o tempo em autorização para estudo conta integralmente. Para o EULTR (art. 126 nº 3) conta apenas 50%; os estudantes puros não podem ser beneficiários EULTR enquanto não converterem o estatuto.'
+          'Estudantes: para a ARP nacional (art. 80), o tempo em autorização para estudo conta integralmente. Para o EULTR (art. 126 nº 3) conta apenas 50%; os estudantes em regime exclusivo de estudo não podem ser beneficiários EULTR enquanto não converterem o estatuto.'
         ] },
         { kind: 'warning', text: 'Se o seu historial dos 5 anos for não linear (mudanças de visto, intervalos, ausências prolongadas, transição SEF→AIMA) — peça à AIMA uma certidão de residência antes de submeter o pedido. Mostra num único documento todos os seus períodos de residência legal e elimina disputas no atendimento.' }
       ]
@@ -153,7 +153,7 @@ export default {
         { kind: 'checklist', items: [
           '❌ "EULTR = direito automático de viver em qualquer país da UE como os cidadãos da UE" — Não, é o direito de APRESENTAR um pedido de residência noutro país da UE ao abrigo das regras nacionais desse país. Dinamarca e Irlanda não participam de todo na Directive 2003/109.',
           '❌ "É preciso escolher entre ARP nacional e EULTR" — Pode ter os dois estatutos em simultâneo. Advogados (PaxLegal, Lexidy, Fiolegal) recomendam frequentemente primeiro a ARP nacional (mais simples, mais barata), depois o EULTR por cima.',
-          '❌ "Os anos de estudo contam da mesma forma para os dois" — Para a ARP nacional (art. 80) contam integralmente. Para o EULTR (art. 126 nº 3) contam apenas 50%; estudantes puros ficam totalmente excluídos.',
+          '❌ "Os anos de estudo contam da mesma forma para os dois" — Para a ARP nacional (art. 80) contam integralmente. Para o EULTR (art. 126 nº 3) contam apenas 50%; estudantes em regime exclusivo de estudo ficam totalmente excluídos.',
           '❌ "As ausências prolongadas são igualmente perigosas" — Limiares diferentes: a ARP nacional perde-se após 24 meses consecutivos ou 30/36 interpolados. O EULTR perde-se após 12 meses fora da UE.',
           '❌ "Os recursos para o EULTR são iguais aos da ARP" — O EULTR exige recursos estáveis e regulares (com referência ao SMN/pensão), além de EXPLICITAMENTE seguro de saúde ou SNS. A ARP tem formulação mais branda — meios de subsistência.',
           '❌ "A Manifestação de Interesse contava para um deles" — Não, nunca contou nem para ARP nem para EULTR.',
@@ -179,6 +179,6 @@ export default {
   ],
   lastVerified: '2026-05-25',
   recentlyChangedAt: '2026-05-25',
-  changeSummary: 'Atualização de Maio 2026: (1) Comparação mais profunda entre ARP nacional (art. 80) e EULTR (art. 125+): estudantes contam de forma diferente, limiares de ausência diferentes, padrões de recursos diferentes. (2) Passo "Quando começam a contar os 5 anos" com 9 edge cases (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT, estudantes). (3) Mitos frequentes sobre diferenças ARP vs EULTR. (4) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a nacionalidade agora exige 7/10 anos, a ARP torna-se mais importante como estatuto intermédio.',
+  changeSummary: 'Atualização de Maio 2026: (1) Comparação mais profunda entre ARP nacional (art. 80) e EULTR (art. 125+): estudantes contam de forma diferente, limiares de ausência diferentes, padrões de recursos diferentes. (2) Passo "Quando começam a contar os 5 anos" com 9 nuances importantes (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT, estudantes). (3) Mitos frequentes sobre diferenças ARP vs EULTR. (4) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a nacionalidade agora exige 7/10 anos, a ARP torna-se mais importante como estatuto intermédio.',
   verifyIntervalDays: 180
 }
