@@ -81,7 +81,7 @@ export default {
       id: 'work-etiquette',
       title: 'If you work from a café',
       content: [
-        { kind: '', text: 'Portugal is friendly to remote work, but a café is not a free office.\n\nIn Lisbon and Porto, some establishments have started restricting laptops during lunchtime because tables are needed for meals. Rule of thumb: the smaller your order and the more space you occupy, the higher the chance that people will look at you disapprovingly.' },
+        { kind: 'paragraph', text: 'Portugal is friendly to remote work, but a café is not a free office.\n\nIn Lisbon and Porto, some establishments have started restricting laptops during lunchtime because tables are needed for meals. Rule of thumb: the smaller your order and the more space you occupy, the higher the chance that people will look at you disapprovingly.' },
         { kind: 'checklist', items: [
           'Choose off-peak hours: 10:00–12:00 or 15:00–18:00 is better than almoço 12:30–14:30',
           'Ask whether laptops are allowed if the establishment is small',
