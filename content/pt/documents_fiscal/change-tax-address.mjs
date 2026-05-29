@@ -3,22 +3,26 @@ export default {
   id: 'change-tax-address',
   categoryId: 'documents_fiscal',
   title: 'Alteração da morada fiscal (domicílio fiscal) nas Finanças',
-  tldr: 'A morada fiscal (domicílio fiscal) é um campo obrigatório nas Finanças. Nos termos do art. 19.º LGT (Lei Geral Tributária), a nova morada deve ser comunicada no prazo de 60 dias. A alteração é gratuita. Se tiver Cartão de Cidadão, a morada é alterada através do procedimento CC/ePortugal, com confirmação por código recebido por carta; se tiver apenas NIF, através do Portal das Finanças → Alterar Domicílio Fiscal.\n\nIMPORTANTE: alterar a morada nas Finanças NÃO actualiza automaticamente AIMA, SNS, Segurança Social, banco, carta de condução — deve notificar cada entidade separadamente. Para o IMI, o mais importante é sobretudo o estatuto de habitação própria e permanente; a taxa de IMI em si depende do município onde se situa o imóvel.',
+  tldr: 'A morada fiscal (domicílio fiscal) é um campo obrigatório nas Finanças. Nos termos do art. 19.º LGT (Lei Geral Tributária), a nova morada deve ser comunicada no prazo de 60 dias — caso contrário, há **coima de 75–375 €** ao abrigo do RGIT, e a própria alteração pode ser considerada ineficaz para efeitos fiscais.\n\nSe tiver Cartão de Cidadão, a morada altera-se através do gov.pt/Cartão de Cidadão com confirmação por código recebido em carta em papel (chega em ~5 dias úteis, tem 90 dias para confirmar). Após a confirmação, a morada é comunicada automaticamente à AT.\n\nSe tiver apenas NIF/autorização de residência sem Cartão de Cidadão, através do Portal das Finanças → «Cidadãos» → «Serviços» → «Dados Cadastrais» → «Morada» → «Entregar Pedido de Alteração». O processo também é bifásico: pedido + confirmação por código da carta.\n\nA alteração é gratuita. IMPORTANTE: alterar a morada nas Finanças NÃO actualiza automaticamente AIMA, SNS, Segurança Social, banco, carta de condução — deve notificar cada entidade separadamente. Para o IMI, o mais importante é sobretudo o estatuto de habitação própria e permanente; a taxa de IMI em si depende do município onde se situa o imóvel.',
   tags: ['domicílio fiscal', 'morada', 'Finanças', 'mudança de casa'],
-  estimatedReadMinutes: 4,
+  estimatedReadMinutes: 5,
   steps: [
     {
       id: 'online',
       title: 'Online — a forma mais rápida',
       content: [
+        { kind: 'paragraph', text: 'O processo é **bifásico** independentemente do caminho: primeiro o pedido, depois a confirmação por código recebido em carta em papel enviada para a nova morada.' },
         { kind: 'checklist', items: [
-          '💻 Se tiver Cartão de Cidadão: altere a morada através do ePortugal/Cartão de Cidadão; confirmação por código recebido por carta. Após a confirmação, a morada é comunicada à AT',
-          '💻 Se tiver apenas NIF/autorização de residência sem Cartão de Cidadão: portaldasfinancas.gov.pt → «Os Seus Serviços» → «Dados Pessoais Relevantes» → «Alterar Domicílio Fiscal»',
+          '💳 **Se tiver Cartão de Cidadão**: gov.pt → «Alterar a morada do Cartão de Cidadão». Autenticação através de **Chave Móvel Digital + telemóvel associado**, OU **Cartão de Cidadão + PIN + leitor de cartões**. Após a confirmação, a morada é comunicada automaticamente à AT e a alguns outros serviços via AMA',
+          '🧾 **Se tiver apenas NIF/autorização de residência sem Cartão de Cidadão**: portaldasfinancas.gov.pt → «Cidadãos» → «Serviços» → «Dados Cadastrais» → «Morada» → «Entregar Pedido de Alteração». Autenticação por CMD ou CC',
+          '🔁 **Alternativa pelo e-balcão** (para casos específicos, como alteração de estatuto residente/não residente): «Registo Contribuinte» → «Identific» → «Alteração Morada / Singulares», com possibilidade de carregar documentos',
           '🏠 Introduzir a nova morada (rua, número, código postal, freguesia)',
-          '✅ Para alterações apenas na AT, normalmente aplica-se de imediato ou após validação; para o CC — após confirmação com o código da carta',
-          '📬 Descarregar o comprovativo/certidão no Portal das Finanças e guardar o PDF',
+          '📬 Aguardar a carta com o código de confirmação — ~5 dias úteis (mais tempo na Madeira/Açores)',
+          '✅ Introduzir o código na mesma página. Tem **até 90 dias** desde o pedido para confirmar',
+          '📄 Após a confirmação, descarregar o comprovativo/certidão no Portal das Finanças e guardar o PDF',
           '🆓 Gratuito'
         ]},
+        { kind: 'warning', text: 'Sem a confirmação do código a alteração é **considerada ineficaz para efeitos fiscais** — para a AT a morada continua a ser a antiga. Não ignore a carta.' },
         { kind: 'warning', text: 'Alterar a morada nas Finanças NÃO actualiza automaticamente a morada na AIMA, SNS, Segurança Social, banco ou carta de condução. Deve notificar cada entidade separadamente. No caso do CC, o procedimento pode actualizar parcialmente algumas entidades através da AMA, mas a AIMA e muitos serviços — não.' }
       ]
     },
@@ -27,10 +31,11 @@ export default {
       title: 'Presencialmente nas Finanças',
       content: [
         { kind: 'checklist', items: [
-          'Só é necessário se o Portal recusar o pedido (por exemplo, se a morada não for reconhecida nos CTT)',
+          'Só é necessário se o Portal recusar o pedido (por exemplo, se a morada não for reconhecida nos CTT) ou se não tiver CMD/leitor de cartões',
           'Marcação através do Portal → «Agendamento (marcação de atendimento)» → «Alteração de Morada»',
           'Em algumas repartições pode haver atendimento sem marcação, mas não convém contar com isso; é mais seguro marcar antecipadamente',
-          'Documentos: Cartão de Cidadão / autorização de residência + comprovativo de morada (factura de serviços, contrato de arrendamento)'
+          'Documentos: Cartão de Cidadão / autorização de residência + comprovativo de morada (factura de serviços, contrato de arrendamento)',
+          'A bifasidade mantém-se: o atendimento presencial é apenas o pedido, o código continua a chegar por carta'
         ]}
       ]
     },
@@ -45,7 +50,7 @@ export default {
     },
     {
       id: 'when-change',
-      title: 'Quando é obrigatório alterar',
+      title: 'Quando é obrigatório alterar + coimas',
       content: [
         { kind: 'checklist', items: [
           '🏠 Mudança de casa dentro de Portugal (prazo de 60 dias, art. 19.º LGT)',
@@ -54,6 +59,7 @@ export default {
           '🏝️ Mudança para Madeira / Açores — reduções em IRS',
           '💼 Registo de empresa — a morada pode ser diferente da morada de casa'
         ]},
+        { kind: 'warning', text: '**Coima por incumprimento do prazo de 60 dias: 75–375 €** ao abrigo do Regime Geral das Infrações Tributárias (RGIT). Além da coima, sem morada actualizada a AT pode enviar notificações para a morada antiga — e perde prazos e a possibilidade de impugnar.' },
         { kind: 'paragraph', text: 'Casamento/divórcio — isto não é uma alteração do domicílio fiscal, mas deve verificar os dados pessoais/agregado familiar para efeitos de IRS.' }
       ]
     },
@@ -72,11 +78,14 @@ export default {
     }
   ],
   sources: [
-    { title: 'Portal das Finanças — Alteração de Morada', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Lei Geral Tributária (LGT) — artigo 19.º, domicílio fiscal', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1998-34541975', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Código do IRS — art. 16.º, 71.º, 72.º (residência, taxas)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Alterar morada do Cartão de Cidadão', url: 'https://eportugal.gov.pt/servicos/alterar-a-morada-do-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Portal das Finanças — Alteração de Morada (FAQ)', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/pages/faqs-00303.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-29' },
+    { title: 'Portal das Finanças — Morada (Dados Pessoais)', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Dados_pessoais_familia/Dados_pessoais/Morada/Paginas/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-29' },
+    { title: 'gov.pt — Alterar a morada do Cartão de Cidadão', url: 'https://www.gov.pt/servicos/alterar-a-morada-do-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-29' },
+    { title: 'Lei Geral Tributária (LGT) — artigo 19.º, domicílio fiscal', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1998-34541975', kind: 'law', language: 'pt', lastRetrieved: '2026-05-29' },
+    { title: 'Código do IRS — art. 16.º, 71.º, 72.º (residência, taxas)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-29' }
   ],
-  lastVerified: '2026-05-17',
-  verifyIntervalDays: 365
+  lastVerified: '2026-05-29',
+  verifyIntervalDays: 365,
+  recentlyChangedAt: '2026-05-29',
+  changeSummary: '🔄 Sincronização maio 2026: (1) eportugal.gov.pt migrou para gov.pt — URLs das fontes actualizados; (2) menu do Portal das Finanças renomeado: «Dados Pessoais Relevantes» → «Dados Cadastrais»; (3) adicionada concretização: a carta com o código chega em ~5 dias úteis, 90 dias para confirmar; (4) adicionada **coima de 75–375 €** (RGIT) por incumprimento do prazo de 60 dias; (5) clarificados métodos de autenticação (CMD + telemóvel ou CC + PIN + leitor de cartões); (6) adicionado e-balcão como alternativa para alteração de estatuto residente/não residente.'
 }

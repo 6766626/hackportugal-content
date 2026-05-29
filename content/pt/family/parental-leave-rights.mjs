@@ -140,6 +140,6 @@ export default {
     { title: 'Lei 7/2009 — Código do Trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CITE — Comissão para a Igualdade no Trabalho', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  last: '2026-05-18',
+  lastVerified: '2026-05-18',
   verifyIntervalDays: 180
 }
