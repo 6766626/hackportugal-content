@@ -3,7 +3,7 @@ export default {
   id: 'eni-vs-sociedade-unipessoal',
   categoryId: 'work_business',
   title: 'ENI vs Sociedade Unipessoal: choosing a self-employment structure',
-  tldr: 'ENI is a quick start as a trabalhador independente/Empresário em Nome Individual: opening atividade in Finanças is free, you may qualify for the IVA exemption up to €15,000/year under art. 53 CIVA, but you are liable with your personal assets. Sociedade Unipessoal por Quotas is a separate company with its own NIPC and limited liability, but it is more expensive: Empresa na Hora €360, an accountant usually €100–250/month, IRC 20% and IVA from the first euro. The €12,500/year threshold is already outdated in 2026.',
+  tldr: 'ENI is a quick start as a trabalhador independente/Empresário em Nome Individual: opening atividade in Finanças is free, you may qualify for the IVA exemption up to €15,000/year under art. 53 CIVA, but you are liable with your personal assets. Sociedade Unipessoal por Quotas is a separate company with its own NIPC and limited liability, but it is more expensive: Empresa na Hora €360, an accountant usually €100–250/month, IRC 19% and IVA from the first euro. The €12,500/year threshold is already outdated in 2026.',
   tags: ['eni', 'lda', 'iva', 'business'],
   estimatedReadMinutes: 6,
   steps: [
@@ -53,7 +53,7 @@ export default {
           'A Contabilista Certificado is required; the typical market for a small company is around €100–250/month, more with payroll, imports, e-commerce or a high volume of documents.',
           'The company must keep contabilidade organizada.',
           'IVA exemption under art. 53 CIVA generally does not apply to companies with organised bookkeeping; in practice, an Lda charges IVA from the first euro unless the activity is exempt under a special rule.',
-          'Profit is subject to IRC: the general rate in mainland Portugal is 20%; for SMEs, a reduced rate of 16% may apply to the first €50,000 of taxable profit.',
+          'Profit is subject to IRC: the general rate in mainland Portugal is 19%; for SMEs, a reduced rate of 15% may apply to the first €50,000 of taxable profit.',
           'Municipal derrama may add up to 1.5% depending on the Câmara Municipal.',
           'Company money is not your personal money: it is withdrawn as gerente salary, dividends, expense reimbursement or other properly documented payments.'
         ] },
@@ -120,7 +120,7 @@ export default {
     },
     {
       title: 'ePortugal: Empresa na Hora and company registration',
-      url: 'https://eportugal.gov.pt/servicos/criar-uma-empresa-na-hora',
+      url: 'https://www.gov.pt/servicos/criar-uma-empresa-na-hora',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

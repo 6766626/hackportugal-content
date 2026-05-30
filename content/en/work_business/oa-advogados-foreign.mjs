@@ -3,7 +3,7 @@ export default {
   id: 'oa-advogados-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Advogados: foreign lawyer in Portugal without BR reciprocity',
-  tldr: 'In Portugal you cannot simply “transfer” lawyer status: the word advogado is protected, and access to the profession is granted only by the Ordem dos Advogados (OA)\.\n\nAfter the end of practical BR reciprocity, the direct route for non-EU lawyers is recognition of the degree by a Portuguese university/DGES, then admission to the OA, prova de acesso and an estágio of around 18 months with a patrono and final assessment. EU/EEA lawyers follow a separate route under Diretiva 98/5/CE: they may register under their home professional title.',
+  tldr: 'In Portugal you cannot simply “transfer” lawyer status: the word advogado is protected, and access to the profession is granted only by the Ordem dos Advogados (OA)\.\n\nAfter the end of practical BR reciprocity, the direct route for non-EU lawyers is recognition of the degree by a Portuguese university/DGES, then admission to the OA and a 12-month estágio (não prorrogável / non-extendable) with a patrono and final assessment. Since 1 April 2024, under Lei n.º 6/2024, de 19 de janeiro, the estágio lasts 12 months and the former phased structure and prova de agregação have been abolished. EU/EEA lawyers follow a separate route under Diretiva 98/5/CE: they may register under their home professional title.',
   tags: ['oa', 'advogado', 'lawyer', 'diploma', 'estágio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -38,9 +38,9 @@ export default {
           'Obtain recognition of the degree, usually nível/licenciatura or mestrado conforme caso',
           'Check whether the OA requires additional documents on good standing, absence of incompatibilidades and criminal record',
           'Submit an application for inscrição as a candidato a advogado estagiário',
-          'Pass the prova de acesso/avaliação, complete the estágio and final avaliação/agregação'
+          'Complete the estágio under a patrono and the final assessment (jury) of a trabalho final on a Deontologia Profissional theme'
         ] },
-        { kind: 'paragraph', text: 'The OA estágio usually lasts 18 months. It includes work under the supervision of a patrono, training in professional ethics, procedure, tax and registry practices, as well as a final assessment before full inscrição como advogado.' },
+        { kind: 'paragraph', text: 'Since 1 April 2024, under Lei n.º 6/2024, de 19 de janeiro, the OA estágio lasts 12 months (não prorrogável / non-extendable). The former phased structure and prova de agregação have been abolished: there is no longer a prova de acesso, prova escrita or exame/agregação. The estágio includes work under the supervision of a patrono, 40 hours of Deontologia Profissional, and a final assessment — a jury discussion of your trabalho final on a deontology theme (scale 0–20, pass ≥10), plus a relatório final de patrono and a relatório final de estagiário.' },
         { kind: 'warning', text: 'Recognition of the degree by a university does not mean automatic acceptance by the OA. The OA is a separate professional filter: it may request documents, refuse admission in cases of incompatibilidades, or require completion of the full estágio.' }
       ]
     },
@@ -49,7 +49,7 @@ export default {
       title: 'Brazil: why the old “fast” route should no longer be treated as workable',
       content: [
         { kind: 'paragraph', text: 'Until 2023, many Brazilian advogados relied on a more direct reciprocity regime between OA Portugal and OAB Brazil. In practice, after the termination/suspension of this regime, you should not plan a relocation under the old logic of “I am a lawyer in the OAB, so I will quickly fit into the OA”.' },
-        { kind: 'paragraph', text: 'As of April 2026, the safe practical position is: if you do not have an EU route and do not have individually confirmed OA grounds for direct registration, prepare for the standard foreign-degree route — reconhecimento académico, documents, exam/admission, 18-month estágio.' },
+        { kind: 'paragraph', text: 'As of April 2026, the safe practical position is: if you do not have an EU route and do not have individually confirmed OA grounds for direct registration, prepare for the standard foreign-degree route — reconhecimento académico, documents, inscrição como estagiário, 12-month estágio (não prorrogável).' },
         { kind: 'checklist', items: [
           'Do not buy a consultation where inscrição with the OA is promised “under the old acordo” without checking the current OA rules',
           'Ask the consultant for a link to the current OA page and the specific provision of the Estatuto da OA',
@@ -105,8 +105,8 @@ export default {
           { id: 'after-recognition', title: '3. After degree recognition', content: [
             { kind: 'checklist', items: [
               'Apply to the OA for admissibilidade/inscrição as advogado estagiário',
-              'Prepare for the prova de acesso, if it is scheduled',
-              'Plan for 18 months of estágio without the illusion of full commercial independence',
+              'Plan for 40 hours of Deontologia Profissional and a trabalho final on a deontology theme (there is no longer a prova de acesso/agregação)',
+              'Plan for 12 months of estágio (não prorrogável) without the illusion of full commercial independence',
               'Keep a portfolio of practice, training and documents for the final avaliação',
               'Do not change your public title to advogado until the OA decision on full inscrição'
             ] }
@@ -171,11 +171,18 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'DRE — Statute of the Ordem dos Advogados, Lei n.º 145/2015',
+      title: 'DRE — Statute of the Ordem dos Advogados, Lei n.º 145/2015 (amended by Lei n.º 6/2024)',
       url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2015-72859741',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'PGDLisboa — Statute of the Ordem dos Advogados, Art. 195 (Lei n.º 6/2024, de 19 de janeiro): 12-month estágio',
+      url: 'https://pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3790&tabela=leis&ficha=1&pagina=1',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
     },
     {
       title: 'DGES — Recognition of foreign academic degrees and diplomas',
@@ -185,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

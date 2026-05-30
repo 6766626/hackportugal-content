@@ -83,7 +83,7 @@ export default {
     { title: 'Turismo de Portugal — Estabelecimentos de Alojamento Local | Registo', url: 'https://business.turismodeportugal.pt/pt/Planear_Iniciar/Licenciamento_Registo_da_Atividade/Alojamento_Local/Paginas/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'Decreto-Lei 128/2014 — regime jurídico da exploração dos estabelecimentos de alojamento local', url: 'https://dre.pt/dre/detalhe/decreto-lei/128-2014-25676943', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 56/2023 — Programa Mais Habitação e alterações ao regime de AL', url: 'https://dre.pt/dre/detalhe/lei/56-2023-222477692', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — Alojamento Local: registo e comunicação prévia', url: 'https://eportugal.gov.pt/servicos/registar-um-estabelecimento-de-alojamento-local', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — Alojamento Local: registo e comunicação prévia', url: 'https://www.gov.pt/servicos/registar-um-estabelecimento-de-alojamento-local', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 90

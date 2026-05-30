@@ -117,7 +117,7 @@ export default {
     { title: 'Câmara Municipal de Lisboa — Higiene Urbana, recolha de resíduos e monstros', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal do Porto — Ambiente, resíduos urbanos e recolha municipal', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Agência Portuguesa do Ambiente — resíduos urbanos e separação de resíduos', url: 'https://apambiente.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — serviços municipais e gestão de resíduos', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — serviços municipais e gestão de resíduos', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

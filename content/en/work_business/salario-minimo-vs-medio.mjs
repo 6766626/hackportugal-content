@@ -11,7 +11,7 @@ export default {
       id: 'what-is-smn',
       title: 'What the SMN is in 2026',
       content: [
-        { kind: 'paragraph', text: 'Salário Mínimo Nacional, officially retribuição mínima mensal garantida, is the minimum monthly gross salary for full-time work. Write: "In 2026, the national RMMG/SMN is €920 gross per month. In the Região Autónoma da Madeira and Região Autónoma dos Açores, the regional minimum salary may be higher — check the regional diploma/applicable collective agreement."' },
+        { kind: 'paragraph', text: 'Salário Mínimo Nacional, officially retribuição mínima mensal garantida, is the minimum monthly gross salary for full-time work. In 2026, the national RMMG/SMN on the mainland is €920 gross per month. In the Região Autónoma da Madeira and Região Autónoma dos Açores, the regional minimum salary is higher: in 2026 it is €980 in Madeira and €966 in the Azores. Check the regional diploma and the applicable collective agreement.' },
         { kind: 'paragraph', text: 'In Portugal, salary is usually calculated not as 12 but as 14 payments per year: 12 regular months, subsídio de férias and subsídio de Natal. Therefore, the annual minimum for full-time work is €920 × 14 = €12,880 gross.' },
         { kind: 'checklist', items: [
           'SMN 2026: €920 gross per month',
@@ -106,11 +106,11 @@ export default {
     { label: 'Lisbon software dev, gross benchmark', amountEURMin: 2500, amountEURMax: 4500, note: 'For middle/senior employee contracts; market range, not a legal minimum' }
   ],
   sources: [
-    { title: 'DRE — Decreto-Lei on the update of the retribuição mínima mensal garantida', url: 'Replace with the exact DRE permalink for the Decreto-Lei that updates the retribuição mínima mensal garantida to €920 for 2026, and include the decree number/date in the title.', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DRE — Decreto-Lei n.º 139/2025, de 29 de dezembro (updates the retribuição mínima mensal garantida to €920 for 2026)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/139-2025-992879809', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'ACT — information on retribuição mínima mensal garantida and labour rights', url: 'https://www.act.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — contributions for employees', url: 'https://www.seg-social.pt/trabalhadores-por-conta-de-outrem', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'INE — remuneration statistics in Portugal', url: 'https://www.ine.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

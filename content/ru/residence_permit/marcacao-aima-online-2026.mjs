@@ -70,7 +70,7 @@ export default {
   ],
   sources: [
     { title: 'AIMA — официальный портал и услуги для иностранных граждан', url: 'https://aima.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — поиск Espaço Cidadão и цифровые госуслуги', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ePortugal — поиск Espaço Cidadão и цифровые госуслуги', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 61/2025 — изменения миграционного режима, в силе с 23.10.2025', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',

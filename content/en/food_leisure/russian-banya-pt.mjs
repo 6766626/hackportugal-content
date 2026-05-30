@@ -89,7 +89,7 @@ export default {
     { title: 'Atlas Lisboa — public saunas and steam rooms', url: 'https://www.atlaslisboa.com/lisbon-saunas-steamrooms/', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Direção-Geral da Saúde — Therapeutic thermalism (information about Termas)', url: 'https://www.dgs.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: Russian banya in Portugal. Honest description of the reality — there are no public Russian banyas, but there are Finnish saunas/hammams/Termas. Channels for finding private banyas through the community, pricing, safety. Alternatives: 5 major Termas in Portugal, spas in Lisbon/Porto hotels, a trip to Madrid/Barcelona.'

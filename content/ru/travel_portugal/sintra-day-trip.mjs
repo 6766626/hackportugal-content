@@ -52,7 +52,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: '09:00 — прибытие', content: [
-            { kind: 'paragraph', text: 'Поезд из Rossio. На выходе — автобус 434 (€ 5 в день, можно выходить и снова садиться по маршруту) или такси/Uber до Palácio da Pena (€ 6–8).' }
+            { kind: 'paragraph', text: 'Поезд из Rossio. На выходе — автобус 434 (€ 13,50 за суточный hop-on/hop-off билет (434/435); разовый билет ~€ 4 в одну сторону) или такси/Uber до Palácio da Pena (€ 6–8).' }
           ]},
           { id: 'r2', title: '09:30–11:30 — Palácio da Pena', content: [
             { kind: 'paragraph', text: 'С онлайн-слотом зайти внутрь, обойти дворец + сад (2 часа). Осмотр основных комнат + панорамные террасы.' }
@@ -88,7 +88,7 @@ export default {
           '🧥 Свитер: в Palácio da Pena может быть ветрено и прохладно даже летом',
           '💧 Вода — кафе мало на вершине, захватите бутылку',
           '🎫 Комбинированный билет Palácio da Pena + Castelo dos Mouros + Monserrate — € 32, экономия € 8',
-          '🚌 Автобус 434 (€ 5 в день, можно выходить и снова садиться по маршруту) — охватывает все главные достопримечательности',
+          '🚌 Автобус 434 (€ 13,50 за суточный hop-on/hop-off билет (434/435); разовый билет ~€ 4 в одну сторону) — охватывает все главные достопримечательности',
           '🚫 Избегайте Palácio da Pena после 11:00 — толпы; Quinta da Regaleira лучше в середине дня',
           '📸 Лучшее время для фото Palácio da Pena — утро (без теней) или закат',
           '🚗 На авто: парковка в городе € 3–5 в день, но дороги забиты',
@@ -114,6 +114,6 @@ export default {
     { title: 'Visit Sintra — муниципальный туризм', url: 'https://www.visitsintra.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Sintra', url: 'https://www.visitportugal.com/en/destinos/lisboa-regiao/73779', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

@@ -121,7 +121,7 @@ export default {
   sources: [
     { title: 'DECO PROteste: советы потребителям по ремонту, услугам и правам клиента', url: 'https://www.deco.proteste.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Lisboa: mercados, comércio local и городские сервисы', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Portal ePortugal: livro de reclamações и права потребителя при услугах', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Portal ePortugal: livro de reclamações и права потребителя при услугах', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 180

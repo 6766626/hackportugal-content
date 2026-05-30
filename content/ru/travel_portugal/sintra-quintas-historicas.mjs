@@ -3,7 +3,7 @@ export default {
   id: 'sintra-quintas-historicas',
   categoryId: 'travel_portugal',
   title: 'Sintra глубоко: Palácio da Pena, Monserrate и Quinta da Regaleira',
-  tldr: 'Sintra — не «один дворец за полдня», а плотный культурный маршрут на 1–2 дня. На апрель 2026 ориентиры: Palácio da Pena — 14 € и только с заранее выбранным слотом онлайн; Quinta da Regaleira — 11 €; Monserrate — 8 € и обычно меньше толпы; Castelo dos Mouros — 8 €; Palácio Nacional de Sintra — 10 €. Если хотите несколько объектов Parques de Sintra, смотрите unified ticket около 40 €. Машину в исторический центр лучше не брать: поезд CP + автобусы 434/435 проще.',
+  tldr: 'Sintra — не «один дворец за полдня», а плотный культурный маршрут на 1–2 дня. На май 2026 ориентиры: Palácio da Pena — 20 € и только с заранее выбранным слотом онлайн; Quinta da Regaleira — 11 €; Monserrate — 12 € и обычно меньше толпы; Castelo dos Mouros — 12 €; Palácio Nacional de Sintra — 10 €. Фиксированного комбинированного билета у Parques de Sintra нет: при покупке нескольких объектов в одном заказе действует скользящая скидка (примерно до 10 % за 6 объектов). Точные цены проверяйте на parquesdesintra.pt. Машину в исторический центр лучше не брать: поезд CP + автобусы 434/435 проще.',
   tags: ['sintra', 'pena', 'regaleira', 'monserrate', 'поездки'],
   estimatedReadMinutes: 6,
   steps: [
@@ -28,7 +28,7 @@ export default {
       id: 'pena',
       title: 'Palácio da Pena: билет, слот и реальная логистика',
       content: [
-        { kind: 'paragraph', text: 'Palácio da Pena — главный магнит Sintra и самый сложный объект по логистике. Билет за 14 € обычно привязан к времени входа именно во дворец, а не просто в парк. Если опоздать к слоту, персонал может не пустить внутрь интерьеров; парк останется доступен по правилам конкретного билета, но это не заменяет посещение дворца.' },
+        { kind: 'paragraph', text: 'Palácio da Pena — главный магнит Sintra и самый сложный объект по логистике. Билет за 20 € обычно привязан к времени входа именно во дворец, а не просто в парк. Если опоздать к слоту, персонал может не пустить внутрь интерьеров; парк останется доступен по правилам конкретного билета, но это не заменяет посещение дворца.' },
         { kind: 'checklist', items: [
           'Покупайте билет на parquesdesintra.pt, не у случайных реселлеров.',
           'Выбирайте утренний слот 09:30–10:30 или поздний после 15:30, если хотите меньше групп.',
@@ -64,7 +64,7 @@ export default {
       id: 'monserrate',
       title: 'Monserrate: самый недооценённый дворец Sintra',
       content: [
-        { kind: 'paragraph', text: 'Parque e Palácio de Monserrate — лучший объект для тех, кто уже видел Pena или хочет Sintra без ощущения туристического конвейера. Билет — около 8 €. Здесь меньше толпы, больше пространства и один из лучших ботанических садов региона: мексиканский сад, розарий, водопады, экзотические деревья, виды на холмы.' },
+        { kind: 'paragraph', text: 'Parque e Palácio de Monserrate — лучший объект для тех, кто уже видел Pena или хочет Sintra без ощущения туристического конвейера. Билет — около 12 €. Здесь меньше толпы, больше пространства и один из лучших ботанических садов региона: мексиканский сад, розарий, водопады, экзотические деревья, виды на холмы.' },
         { kind: 'checklist', items: [
           'Закладывайте 1,5–2 часа, но любители садов легко проведут 3 часа.',
           'Monserrate удобно ставить на второй день Sintra или после Regaleira.',
@@ -81,7 +81,7 @@ export default {
       id: 'mouros-sintra-palace',
       title: 'Castelo dos Mouros и Palácio Nacional de Sintra',
       content: [
-        { kind: 'paragraph', text: 'Castelo dos Mouros — крепостные стены над Sintra, билет около 8 €. Это не дворец, а маршрут по стенам с видами на Pena, город и океан при хорошей погоде. Объект физически активный: лестницы, камни, ветер. Лучше совмещать с Pena, потому что они находятся на одной горной линии.' },
+        { kind: 'paragraph', text: 'Castelo dos Mouros — крепостные стены над Sintra, билет около 12 €. Это не дворец, а маршрут по стенам с видами на Pena, город и океан при хорошей погоде. Объект физически активный: лестницы, камни, ветер. Лучше совмещать с Pena, потому что они находятся на одной горной линии.' },
         { kind: 'paragraph', text: 'Palácio Nacional de Sintra — белый дворец с двумя конусными трубами в историческом центре, билет около 10 €. Это самый удобный объект логистически: рядом кафе, магазины, travesseiros и queijadas. Внутри важны Sala dos Cisnes, Sala das Pegas, Sala dos Brasões и кухня с гигантскими дымоходами.' },
         { kind: 'checklist', items: [
           'Castelo dos Mouros выбирайте в ясную погоду: в тумане видовая ценность резко падает.',
@@ -99,7 +99,7 @@ export default {
       id: 'tickets-routes',
       title: 'Билеты, unified ticket и готовые маршруты',
       content: [
-        { kind: 'paragraph', text: 'У Parques de Sintra есть онлайн-продажа и комбинированные варианты. Для набора объектов вроде Pena, Monserrate, Castelo dos Mouros и Palácio Nacional de Sintra проверяйте unified ticket около 40 €: он может быть выгоден, если вы точно посетите несколько площадок в короткий срок. Но не покупайте комбо «из жадности»: Sintra наказывает перегруженный график.' },
+        { kind: 'paragraph', text: 'У Parques de Sintra есть онлайн-продажа, но фиксированного комбинированного билета нет. Вместо этого при покупке нескольких объектов в одном заказе действует скользящая скидка: 5 % за 2 объекта, 6 % за 3, 7 % за 4, 8 % за 5 и до 10 % за 6. Например, Pena (20 €) + Monserrate (12 €) + Castelo dos Mouros (12 €) по отдельности — 44 €, а в одном заказе со скидкой 6 % — около 41 €. Экономия небольшая, поэтому не покупайте лишние объекты «из жадности»: Sintra наказывает перегруженный график.' },
         { kind: 'substeps', items: [
           { id: 'one-day-classic', title: '1 день: классика впервые', content: [
             { kind: 'checklist', items: [
@@ -127,12 +127,12 @@ export default {
     }
   ],
   costs: [
-    { label: 'Palácio da Pena', amountEUR: 14, note: 'Ориентир для взрослого билета; бронируйте онлайн с временным слотом.' },
+    { label: 'Palácio da Pena', amountEUR: 20, note: 'Ориентир для взрослого билета; бронируйте онлайн с временным слотом.' },
     { label: 'Quinta da Regaleira', amountEUR: 11, note: 'Ориентир для взрослого билета на усадьбу и сады.' },
-    { label: 'Parque e Palácio de Monserrate', amountEUR: 8, note: 'Обычно меньше очередей, чем в Pena и Regaleira.' },
-    { label: 'Castelo dos Mouros', amountEUR: 8, note: 'Видовой маршрут по стенам; зависит от погоды.' },
+    { label: 'Parque e Palácio de Monserrate', amountEUR: 12, note: 'Обычно меньше очередей, чем в Pena и Regaleira.' },
+    { label: 'Castelo dos Mouros', amountEUR: 12, note: 'Видовой маршрут по стенам; зависит от погоды.' },
     { label: 'Palácio Nacional de Sintra', amountEUR: 10, note: 'Удобно расположен в историческом центре Sintra.' },
-    { label: 'Unified ticket Parques de Sintra', amountEUR: 40, note: 'Проверяйте актуальные условия и включённые объекты перед покупкой.' }
+    { label: 'Pena + Monserrate + Castelo dos Mouros в одном заказе', amountEUR: 41, note: 'Фиксированного комбо нет: скользящая скидка до 10 % за 6 объектов; здесь ~6 % от 44 €.' }
   ],
   sources: [
     { title: 'Официальные билеты и информация Parques de Sintra', url: 'https://www.parquesdesintra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -140,6 +140,6 @@ export default {
     { title: 'Официальная страница Parque e Palácio de Monserrate', url: 'https://www.parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-de-monserrate/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Официальная информация Quinta da Regaleira', url: 'https://www.regaleira.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

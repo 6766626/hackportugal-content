@@ -3,7 +3,7 @@ export default {
   id: 'oa-advogados-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Advogados: jurista estrangeiro em Portugal sem reciprocidade BR',
-  tldr: 'Em Portugal não é possível simplesmente “transferir” o estatuto de advogado: a palavra advogado é protegida e o acesso à profissão é concedido apenas pela Ordem dos Advogados (OA).\n\nApós o fim da reciprocidade prática com o Brasil, o caminho directo para juristas non-EU é o reconhecimento do diploma numa universidade portuguesa/DGES, seguido de admissão na OA, prova de acesso e estágio de cerca de 18 meses com patrono e avaliação final. Juristas EU/EEA seguem um regime separado ao abrigo da Diretiva 98/5/CE: podem registar-se sob o título profissional do país de origem.',
+  tldr: 'Em Portugal não é possível simplesmente “transferir” o estatuto de advogado: a palavra advogado é protegida e o acesso à profissão é concedido apenas pela Ordem dos Advogados (OA).\n\nApós o fim da reciprocidade prática com o Brasil, o caminho directo para juristas non-EU é o reconhecimento do diploma numa universidade portuguesa/DGES, seguido de admissão na OA e estágio de 12 meses (não prorrogável) com patrono e avaliação final. Desde 1 de abril de 2024, ao abrigo da Lei n.º 6/2024, de 19 de janeiro, o estágio dura 12 meses e a antiga estrutura por fases e a prova de agregação foram abolidas. Juristas EU/EEA seguem um regime separado ao abrigo da Diretiva 98/5/CE: podem registar-se sob o título profissional do país de origem.',
   tags: ['oa', 'advogado', 'jurista', 'diploma', 'estágio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -38,9 +38,9 @@ export default {
           'Obter o reconhecimento do grau, normalmente nível/licenciatura ou mestrado conforme o caso',
           'Verificar se a OA exige documentos adicionais sobre idoneidade, ausência de incompatibilidades e criminal record',
           'Apresentar pedido de inscrição como candidato a advogado estagiário',
-          'Fazer a prova de acesso/avaliação, concluir o estágio e a avaliação/agregação final'
+          'Concluir o estágio sob orientação de um patrono e a avaliação final (júri) de um trabalho final sobre um tema de Deontologia Profissional'
         ] },
-        { kind: 'paragraph', text: 'O estágio na OA dura normalmente 18 meses. Inclui trabalho sob orientação de um patrono, formação em deontologia profissional, processo, práticas fiscais e registrais, bem como uma avaliação final antes da inscrição plena como advogado.' },
+        { kind: 'paragraph', text: 'Desde 1 de abril de 2024, ao abrigo da Lei n.º 6/2024, de 19 de janeiro, o estágio na OA dura 12 meses (não prorrogável). A antiga estrutura por fases e a prova de agregação foram abolidas: já não há prova de acesso, prova escrita nem exame/agregação. O estágio inclui trabalho sob orientação de um patrono, 40 horas de Deontologia Profissional e uma avaliação final — a discussão perante um júri do seu trabalho final sobre um tema de deontologia (escala 0–20, aprovação ≥10), além de um relatório final de patrono e um relatório final de estagiário.' },
         { kind: 'warning', text: 'O reconhecimento do diploma por uma universidade não significa aceitação automática na OA. A OA é um filtro profissional separado: pode pedir documentos, recusar em caso de incompatibilidades ou exigir a realização do estágio completo.' }
       ]
     },
@@ -49,7 +49,7 @@ export default {
       title: 'Brasil: por que o antigo caminho “rápido” já não deve ser considerado operativo',
       content: [
         { kind: 'paragraph', text: 'Até 2023, muitos advogados brasileiros contavam com um regime de reciprocidade mais directo entre a OA Portugal e a OAB Brasil. Na prática, após a ruptura/suspensão desse regime, já não é possível planear a relocalização pela lógica antiga “sou advogado na OAB — portanto vou inscrever-me rapidamente na OA”.' },
-        { kind: 'paragraph', text: 'Em Abril de 2026, a posição prática segura é: se não tiver uma EU route e não tiver uma base individual confirmada pela OA para registo directo, prepare-se para o percurso normal de diploma estrangeiro — reconhecimento académico, documentos, exame/admissão, estágio de 18 meses.' },
+        { kind: 'paragraph', text: 'Em Abril de 2026, a posição prática segura é: se não tiver uma EU route e não tiver uma base individual confirmada pela OA para registo directo, prepare-se para o percurso normal de diploma estrangeiro — reconhecimento académico, documentos, inscrição como estagiário, estágio de 12 meses (não prorrogável).' },
         { kind: 'checklist', items: [
           'Não compre uma consulta em que prometam inscrição na OA “pelo acordo antigo” sem verificar as regras actuais da OA',
           'Peça ao consultor uma ligação para a página actual da OA e a norma concreta do Estatuto da OA',
@@ -105,8 +105,8 @@ export default {
           { id: 'after-recognition', title: '3. Após o reconhecimento do diploma', content: [
             { kind: 'checklist', items: [
               'Apresente à OA o pedido de admissibilidade/inscrição como advogado estagiário',
-              'Prepare-se para a prova de acesso, se for marcada',
-              'Planeie 18 meses de estágio sem a ilusão de autonomia comercial plena',
+              'Planeie 40 horas de Deontologia Profissional e um trabalho final sobre um tema de deontologia (já não há prova de acesso/agregação)',
+              'Planeie 12 meses de estágio (não prorrogável) sem a ilusão de autonomia comercial plena',
               'Mantenha um portefólio de prática, formação e documentos para a avaliação final',
               'Não altere o título público para advogado antes da decisão da OA sobre a inscrição plena'
             ] }
@@ -171,11 +171,18 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'DRE — Estatuto da Ordem dos Advogados, Lei n.º 145/2015',
+      title: 'DRE — Estatuto da Ordem dos Advogados, Lei n.º 145/2015 (alterada pela Lei n.º 6/2024)',
       url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2015-72859741',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'PGDLisboa — Estatuto da Ordem dos Advogados, Art. 195 (Lei n.º 6/2024, de 19 de janeiro): estágio de 12 meses',
+      url: 'https://pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3790&tabela=leis&ficha=1&pagina=1',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
     },
     {
       title: 'DGES — Reconhecimento de graus académicos e diplomas estrangeiros',
@@ -185,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

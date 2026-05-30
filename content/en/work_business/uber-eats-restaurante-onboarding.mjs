@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Platforms do not accept a “restaurant idea”, but an operating operador económico. Before applying, the NIF/NIPC, name, IBAN, CAE and the address of the location where the food is actually prepared must match. If the kitchen operates from a flat or a “dark kitchen” without the correct atividade, this creates a risk of account suspension and an ASAE inspection.' },
         { kind: 'checklist', items: [
-          'Atividade opened with Finanças: usually CAE 56101 Restaurante tipo tradicional, 56102 Restaurante com lugares ao balcão, 56103 Restaurante sem serviço de mesa or another suitable CAE',
+          'Atividade opened with Finanças: usually CAE 56111 Restaurantes tipo tradicional, 56112 Restaurantes com lugares ao balcão, 56113 Restaurantes sem serviço de mesa (CAE Rev.4 under Decreto-Lei n.º 9/2025, in force since 1 January 2025) or another suitable CAE',
           'Comunicação prévia / licenciamento through Balcão do Empreendedor or Câmara Municipal, if applicable to the premises',
           'NIF/NIPC and certidão permanente of the company or declaração de início de atividade for empresário em nome individual',
           'Conta bancária with IBAN in the name of the same titular who signs the contract with the platform',
@@ -153,11 +153,32 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Autoridade Tributária: invoicing rules, QR Code and ATCUD',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Paginas/certificacao-de-software.aspx',
+      title: 'gov.pt: Consult the certified invoicing software (AT service to check whether software is certified)',
+      url: 'https://www.gov.pt/servicos/consultar-o-programa-de-faturacao-certificado',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Portal das Finanças: list of certified invoicing programs',
+      url: 'https://www.portaldasfinancas.gov.pt/pt/consultaProgCertificadosM24.action',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Autoridade Tributária: FAQ on séries / ATCUD / QR Code (Decreto-Lei 28/2019)',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/Pages/faqs-00883.aspx',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Decreto-Lei n.º 9/2025: CAE Rev.4 (new CAE classification in force since 1 January 2025)',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/9-2025-905910490',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
     },
     {
       title: 'Decreto-Lei 28/2019: processing of invoices and archiving of tax-relevant documents',
@@ -174,6 +195,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

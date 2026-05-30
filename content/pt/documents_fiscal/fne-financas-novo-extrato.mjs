@@ -133,7 +133,7 @@ export default {
   sources: [
     { title: 'Portal das Finanças — entrada e serviços da Autoridade Tributária', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Finanças — secção Cidadãos / Serviços / Certidões', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — serviços e contactos da Autoridade Tributária e Aduaneira', url: 'https://eportugal.gov.pt/entidades/autoridade-tributaria-e-aduaneira', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — serviços e contactos da Autoridade Tributária e Aduaneira', url: 'https://www.gov.pt/entidades/autoridade-tributaria-e-aduaneira', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 90

@@ -3,7 +3,7 @@ export default {
   id: 'rrc-oncologia-sns',
   categoryId: 'healthcare',
   title: 'Percurso oncológico no SNS: Rede de Referenciação Oncológica e TMRG',
-  tldr: 'Em caso de suspeita de cancro, o percurso no SNS começa no Médico de Família: este regista a suspeita, prescreve exames iniciais e referencia através do CTH/SIGA para um hospital da Rede de Referenciação Oncológica. Para casos urgentes, usa-se a prioridade P1 / Alerta-Oncológico. Os TMRG legais para a primeira consulta hospitalar são: 30 dias para muito prioritária, 60 para prioritária, 120 para normal. Se o prazo for ultrapassado — reclamação à ERS e no Livro de Reclamações.',
+  tldr: 'Em caso de suspeita de cancro, o percurso no SNS começa no Médico de Família: este regista a suspeita, prescreve exames iniciais e referencia através do CTH/SIGA para um hospital da Rede de Referenciação Oncológica. Para casos urgentes, usa-se a prioridade P1 / Alerta-Oncológico. Os TMRG legais para a primeira consulta hospitalar em doença oncológica suspeita/confirmada têm apenas dois níveis: 7 dias para muito prioritária e 30 dias para prioritária (Portaria 137/2026/1, em vigor desde 2 de abril de 2026). Se o prazo for ultrapassado — reclamação à ERS e no Livro de Reclamações.',
   tags: ['oncologia', 'sns', 'tmrg', 'aima', 'ers'],
   estimatedReadMinutes: 6,
   steps: [
@@ -47,9 +47,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'TMRG significa Tempos Máximos de Resposta Garantidos, os prazos máximos garantidos de resposta no SNS para cuidados programados. Não contam “a partir do momento em que ficou assustado com os sintomas”, mas a partir do registo do pedido correto no sistema do SNS: por exemplo, referral da MGF no CTH/SIGA ou hospital order.' },
         { kind: 'checklist', items: [
-          'Primeira consulta de especialidade hospitalar muito prioritária: até 30 dias de calendário',
-          'Primeira consulta de especialidade hospitalar prioritária: até 60 dias de calendário',
-          'Primeira consulta de especialidade hospitalar normal: até 120 dias de calendário',
+          'Para doença oncológica suspeita/confirmada, a primeira consulta hospitalar tem apenas dois níveis (Portaria 137/2026/1): muito prioritária — até 7 dias, prioritária — até 30 dias, contados a partir da receção do pedido',
+          'Não existe nível “normal” para a primeira consulta oncológica; o antigo nível intermédio de 15 dias foi eliminado',
+          'Para cirurgia oncológica programada (cirurgia programada): prioritária — até 30 dias, normal — até 60 dias',
+          'Atenção: a ladder geral de 30 / 60 / 120 dias aplica-se às especialidades comuns, não à oncologia — não a confunda com a garantia oncológica',
           'Em caso de suspeita de cancro, o médico deve justificar clinicamente a prioridade; a palavra “cancro” por si só não garante P1 automático',
           'P1 / Alerta-Oncológico é um canal prático acelerado para suspeita oncológica, mas, juridicamente, confirme qual é a prioridade registada no SIGA',
           'Se a triage hospitalar baixou a prioridade, peça uma explicação por escrito ou uma reavaliação através da MGF',
@@ -141,7 +142,7 @@ export default {
     },
     {
       title: 'ePortugal — Tempos Máximos de Resposta Garantidos (TMRG)',
-      url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/tempos-maximos-de-resposta-garantidos-tmrg',
+      url: 'https://www.gov.pt/cidadaos/-/informacoes/tempos-maximos-de-resposta-garantidos-tmrg',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -161,6 +162,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

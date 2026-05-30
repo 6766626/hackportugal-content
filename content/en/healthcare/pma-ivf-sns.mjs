@@ -3,7 +3,7 @@ export default {
   id: 'pma-ivf-sns',
   categoryId: 'healthcare',
   title: 'IVF / PMA in the SNS: 3 free cycles, age and access rights',
-  tldr: 'In Portugal, PMA means procriação medicamente assistida: IUI, IVF/ICSI, donor gametes and cryopreservation. In the SNS, treatment is available free of charge for SNS users where there are medical indications: usually up to 3 IVF/ICSI cycles, if the woman is not older than 42 at the time of admission/referral. Since 2016, access has been open not only to heterosexual couples: single women and female couples have the same right. All cycles are registered with the CNPMA; the route starts with a médico de família or ginecologia in the SNS.',
+  tldr: 'In Portugal, PMA means procriação medicamente assistida: IUI, IVF/ICSI, donor gametes and cryopreservation. In the SNS, treatment is available free of charge for SNS users where there are medical indications: usually up to 3 cycles per technique. Important: the SNS age caps differ by technique. IVF/ICSI (2nd line) are funded only if treatment is carried out before the woman turns 40 (39 years and 364 days); the age 42 cap (41 years and 364 days) applies to IUI/insemination and ovulation induction (1st line), not to IVF/ICSI. Since 2016, access has been open not only to heterosexual couples: single women and female couples have the same right. All cycles are registered with the CNPMA; the route starts with a médico de família or ginecologia in the SNS.',
   tags: ['pma', 'ivf', 'sns', 'ivf'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What PMA in the SNS is and what is paid for',
       content: [
         { kind: 'paragraph', text: 'PMA is the official Portuguese term for assisted reproductive technologies: inseminação intrauterina (IUI), fertilização in vitro (IVF/FIV), ICSI, use of donor gametes, and cryopreservation of embryos/gametes for medical reasons.' },
-        { kind: 'paragraph', text: 'In the SNS, the patient does not pay for the IVF/ICSI procedure itself in a public PMA centre. The practical SNS rule is: up to 3 IVF/ICSI cycles per woman, provided the access and age criteria are met. IUI may be offered before IVF if this is medically reasonable.' },
+        { kind: 'paragraph', text: 'In the SNS, the patient does not pay for the IVF/ICSI procedure itself in a public PMA centre. The practical SNS rule is: up to 3 cycles per technique, provided the access and age criteria are met. The age cap depends on the technique: IVF/ICSI (2nd line) up to age 40 (39 years and 364 days); IUI/insemination and ovulation induction (1st line) up to age 42 (41 years and 364 days). IUI may be offered before IVF if this is medically reasonable.' },
         { kind: 'checklist', items: [
           'You need a número de utente SNS and active registration at a Centro de Saúde',
           'You need a clinical assessment of infertility or another lawful basis for PMA',
@@ -21,7 +21,7 @@ export default {
           'Gamete donation is possible, but the waiting list and donor availability depend on the centre',
           'All PMA procedures are subject to CNPMA rules and recording in national registers'
         ] },
-        { kind: 'warning', text: '“3 free cycles” does not mean immediate access. The waiting list in public centres can take months, and the age limit is applied at the point of admission/start of the process according to the centre’s rules. If you are 41–42, do not delay the referral.' }
+        { kind: 'warning', text: '“3 free cycles” does not mean immediate access. The waiting list in public centres can take months, and the age limit is applied at the point when treatment is carried out according to the centre’s rules. For IVF/ICSI in the SNS the cap is age 40 (39 years and 364 days): if you are close to 40, do not delay the referral, or only IUI will remain free.' }
       ]
     },
     {
@@ -43,19 +43,20 @@ export default {
     },
     {
       id: 'age-cap',
-      title: 'Age limit: women up to 42 years old',
+      title: 'Age limits: IVF/ICSI up to 40, IUI up to 42',
       content: [
-        { kind: 'paragraph', text: 'For public funding of PMA in the SNS, the key limit is the woman’s age up to 42 years. In practice, centres look not only at the date of the first appointment, but also at whether stimulation/the cycle can realistically start before the maximum age is reached under their internal protocol.' },
-        { kind: 'paragraph', text: 'The age limit is linked to clinical effectiveness and safety: after 40, the probability of IVF success falls noticeably, while obstetric risks increase. The waiting list is therefore especially critical for patients aged 40–42.' },
+        { kind: 'paragraph', text: 'For public funding of PMA in the SNS there are two distinct age caps by technique. IVF/ICSI (2nd line) are funded only if treatment is carried out before the woman turns 40 (in practice 39 years and 364 days). The age 42 cap (41 years and 364 days) applies to insemination/IUI and ovulation induction (1st line), not to IVF/ICSI. In practice, centres look not only at the date of the first appointment, but also at whether treatment can realistically be carried out before the maximum age for that technique is reached under their internal protocol.' },
+        { kind: 'paragraph', text: 'The age limit is linked to clinical effectiveness and safety: after 40, the probability of IVF success falls noticeably, while obstetric risks increase. That is precisely why the SNS funds free IVF/ICSI only up to age 40, and the waiting list becomes critical already at 38–39.' },
         { kind: 'checklist', items: [
           'Under 35: usually more time for diagnostics, but the waiting list still matters',
-          '35–39: ask for referral to a consulta de infertilidade without delay',
-          '40–42: ask for an urgent/priority referral if there are medical grounds',
-          'After 42: the SNS usually does not fund IVF/ICSI; private PMA or an individual assessment outside the standard route remains',
+          '35–39: ask for referral to a consulta de infertilidade without delay — this is the last window for free IVF/ICSI in the SNS',
+          '40–42: the SNS no longer funds IVF/ICSI (only IUI/insemination up to 42), so the realistic route to IVF at this age is private PMA; ask for an urgent referral but plan for private care',
+          'After 42: the SNS funds neither IVF/ICSI nor IUI; private PMA or an individual assessment outside the standard route remains',
+          'A maximum age of 50 is possible only in exceptional cases (serious illness)',
           'Donor gametes do not automatically remove the SNS limit',
           'Male age and sperm quality are assessed, but the main public cap for access to IVF/ICSI is the woman’s age'
         ] },
-        { kind: 'warning', text: 'If you are close to 42, do not wait for “a year of trying”. Book an appointment with a médico de família and ask for a referral now, attaching previous tests, ultrasound scans, semen analysis and medical reports.' }
+        { kind: 'warning', text: 'If you are close to 40, do not wait for “a year of trying”: after 40 free IVF/ICSI in the SNS is no longer available. Book an appointment with a médico de família and ask for a referral now, attaching previous tests, ultrasound scans, semen analysis and medical reports.' }
       ]
     },
     {
@@ -119,7 +120,7 @@ export default {
           'Embryo cryopreservation and storage are paid for separately',
           'Private insurance rarely covers IVF in full; check infertility/PMA exclusions'
         ] },
-        { kind: 'paragraph', text: 'Tactic at age 40–42: immediately ask for referral in the SNS, while also gathering a private opinion and tests. If the SNS waiting list takes you beyond the age limit, you will still have time to make a decision about private care.' }
+        { kind: 'paragraph', text: 'Tactic at age 40–42: at this point the SNS no longer funds free IVF/ICSI (only IUI up to 42), so private PMA is the realistic route to IVF. In parallel you can still ask for a referral in the SNS and gather a private opinion and tests, but plan on having the IVF/ICSI itself done in private care.' }
       ]
     }
   ],
@@ -135,6 +136,6 @@ export default {
     { title: 'Lei 32/2006 — Procriação medicamente assistida', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34412975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 17/2016 — access to PMA for all women regardless of marital status and orientation', url: 'https://diariodarepublica.pt/dr/detalhe/lei/17-2016-74738646', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

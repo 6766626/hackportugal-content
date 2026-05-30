@@ -68,7 +68,7 @@ export default {
   timelineDaysMin: 1,
   timelineDaysMax: 1,
   sources: [
-    { title: 'ePortugal — регистрация гражданина União Europeia', url: 'https://eportugal.gov.pt/cidadaos-ue/-/informacoes/registar-como-cidadao-da-uniao-europeia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ePortugal — регистрация гражданина União Europeia', url: 'https://www.gov.pt/servicos/registar-cidadao-uniao-europeia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei nº 37/2006 — въезд и проживание граждан ЕС', url: 'https://diariodarepublica.pt/dr/detalhe/lei/37-2006', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Your Europe — формальности проживания в Португалии', url: 'https://europa.eu/youreurope/citizens/residence/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],

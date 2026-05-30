@@ -3,7 +3,7 @@ export default {
   id: 'subsidio-refeicao-empregado',
   categoryId: 'work_business',
   title: 'Subsídio de Refeição: alimentação paga pelo empregador sem IRS e Segurança Social',
-  tldr: 'O Subsídio de Refeição é uma compensação diária para alimentação. No sector privado, não é obrigatório pela regra geral do Código do Trabalho, mas está frequentemente previsto no contrato de trabalho ou em CCT; para os funcionários da Administração Pública aplica-se 6 € por dia de trabalho. Em 2026, o pagamento em dinheiro está isento de IRS/Segurança Social até 6 €, e o cartão/vale refeição até 10,20 €. Tudo o que exceda o limite é considerado salário e está sujeito a imposto e contribuições.',
+  tldr: 'O Subsídio de Refeição é uma compensação diária para alimentação. No sector privado, não é obrigatório pela regra geral do Código do Trabalho, mas está frequentemente previsto no contrato de trabalho ou em CCT; para os funcionários da Administração Pública aplica-se 6,15 € por dia de trabalho. Em 2026, o pagamento em dinheiro está isento de IRS/Segurança Social até 6,15 €, e o cartão/vale refeição até 10,46 €. Tudo o que exceda o limite é considerado salário e está sujeito a imposto e contribuições.',
   tags: ['trabalho', 'irs', 'refeição', 'salário'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que é o Subsídio de Refeição',
       content: [
         { kind: 'paragraph', text: 'O Subsídio de Refeição não é um «bónus», mas sim uma linha separada no recibo de vencimento: o empregador paga um montante fixo por cada dia efectivamente trabalhado, para cobrir a alimentação.' },
-        { kind: 'paragraph', text: 'Na Administração Pública, o valor de base em abril de 2026 é de 6 € por dia. Este valor é frequentemente usado como referência também nas empresas privadas, mas um empregador privado só é obrigado a pagar subsídio de refeição se tal estiver escrito no seu contrato de trabalho, regulamento interno ou CCT aplicável — contrato coletivo de trabalho.' },
+        { kind: 'paragraph', text: 'Na Administração Pública, o valor de base em abril de 2026 é de 6,15 € por dia. Este valor é frequentemente usado como referência também nas empresas privadas, mas um empregador privado só é obrigado a pagar subsídio de refeição se tal estiver escrito no seu contrato de trabalho, regulamento interno ou CCT aplicável — contrato coletivo de trabalho.' },
         { kind: 'checklist', items: [
           'Normalmente é pago por dias de trabalho, e não por fins de semana.',
           'Normalmente não é pago durante férias, baixa médica e ausência sem remuneração.',
@@ -28,29 +28,29 @@ export default {
       id: 'tax-free-limits-2026',
       title: 'Limites sem impostos em 2026',
       content: [
-        { kind: 'paragraph', text: 'Para efeitos de IRS e Segurança Social, o que importa não é apenas a existência do pagamento, mas a forma de pagamento e o limite diário. Em abril de 2026 aplicam-se estes limites práticos: dinheiro — até 6 € por dia; cartão/vale refeição — até 10,20 € por dia.' },
+        { kind: 'paragraph', text: 'Para efeitos de IRS e Segurança Social, o que importa não é apenas a existência do pagamento, mas a forma de pagamento e o limite diário. Em abril de 2026 aplicam-se estes limites práticos: dinheiro — até 6,15 € por dia; cartão/vale refeição — até 10,46 € por dia.' },
         { kind: 'checklist', items: [
-          'Dinheiro 6 € por dia: 0 € de IRS e 0 € de Segurança Social.',
-          'Dinheiro 7 € por dia: 6 € isentos, 1 € é considerado salário.',
-          'Cartão refeição 10,20 € por dia: 0 € de IRS e 0 € de Segurança Social.',
-          'Cartão refeição 11 € por dia: 10,20 € isentos, 0,80 € é considerado salário.',
+          'Dinheiro 6,15 € por dia: 0 € de IRS e 0 € de Segurança Social.',
+          'Dinheiro 7 € por dia: 6,15 € isentos, 0,85 € é considerado salário.',
+          'Cartão refeição 10,46 € por dia: 0 € de IRS e 0 € de Segurança Social.',
+          'Cartão refeição 11 € por dia: 10,46 € isentos, 0,54 € é considerado salário.',
           'O montante acima do limite entra na base de incidência contributiva.',
           'Sobre o excedente é retido IRS de acordo com a sua taxa de withholding tax.',
           'Sobre o excedente aplica-se normalmente Segurança Social: 11% para o trabalhador e 23,75% para o empregador.',
           'O limite aplica-se por dia, e não como um «banco» mensal sem ligação aos dias.'
         ] },
-        { kind: 'warning', text: 'O antigo limite em dinheiro de 5,20 € já não é uma referência actual para 2026. Para a prática corrente, utilize 6 € em dinheiro e 10,20 € em cartão/vale.' }
+        { kind: 'warning', text: 'O antigo limite em dinheiro de 5,20 € já não é uma referência actual para 2026. Para a prática corrente, utilize 6,15 € em dinheiro e 10,46 € em cartão/vale.' }
       ]
     },
     {
       id: 'cash-vs-card',
       title: 'Em dinheiro ou em cartão: o que compensa mais',
       content: [
-        { kind: 'paragraph', text: 'Se o empregador estiver disposto a pagar mais de 6 € por dia, o cartão é quase sempre mais vantajoso: o limite isento é mais alto — 10,20 € em vez de 6 €. Com 22 dias úteis, isto pode representar até 224,40 € por mês sem IRS e Segurança Social através de cartão refeição, contra 132 € em dinheiro.' },
+        { kind: 'paragraph', text: 'Se o empregador estiver disposto a pagar mais de 6,15 € por dia, o cartão é quase sempre mais vantajoso: o limite isento é mais alto — 10,46 € em vez de 6,15 €. Com 22 dias úteis, isto pode representar até 230,12 € por mês sem IRS e Segurança Social através de cartão refeição, contra 135,30 € em dinheiro.' },
         { kind: 'checklist', items: [
           'O dinheiro é mais cómodo: o valor entra na conta bancária normal.',
-          'O dinheiro acima de 6 € perde rapidamente vantagem por causa do IRS e da Segurança Social.',
-          'O cartão refeição é mais vantajoso para montantes entre 6,01 € e 10,20 € por dia.',
+          'O dinheiro acima de 6,15 € perde rapidamente vantagem por causa do IRS e da Segurança Social.',
+          'O cartão refeição é mais vantajoso para montantes entre 6,16 € e 10,46 € por dia.',
           'O cartão é normalmente aceite em supermercados, restaurantes, cafés, take-away e food delivery, se o MCC do comerciante for adequado.',
           'O cartão não pode ser normalmente usado para renda, combustível, roupa ou levantamentos de numerário.',
           'O saldo do cartão é normalmente transitado para o mês seguinte, mas verifique as condições do prestador.',
@@ -84,10 +84,10 @@ export default {
         { kind: 'paragraph', text: 'No payslip, procure uma linha separada como Subsídio de Refeição, Subs. Alimentação, Ticket Refeição ou Cartão Refeição. Ao lado, normalmente aparecem o número de dias e a taxa diária.' },
         { kind: 'checklist', items: [
           'Número de dias: normalmente 20–23, dependendo do mês e do seu horário.',
-          'Taxa diária: por exemplo 6 €, 7,63 €, 9,60 € ou 10,20 €.',
+          'Taxa diária: por exemplo 6,15 €, 7,63 €, 9,60 € ou 10,46 €.',
           'Forma de pagamento: juntamente com o salário líquido ou através de carregamento separado no cartão.',
           'Isento: a parte até ao limite não deve entrar em IRS/Segurança Social.',
-          'Tributável: apenas o excedente acima de 6 € em dinheiro ou 10,20 € em cartão deve ser tributado.',
+          'Tributável: apenas o excedente acima de 6,15 € em dinheiro ou 10,46 € em cartão deve ser tributado.',
           'Se esteve de férias durante todo o mês, o subsídio de refeição será normalmente 0 €.',
           'Se trabalhou remote a partir de casa, o direito depende do contrato/CCT e da política interna, mas muitos empregadores continuam a pagar.',
           'Guarde os payslips: serão úteis em conflitos com HR, ACT e na verificação do IRS.'
@@ -96,10 +96,10 @@ export default {
     }
   ],
   costs: [
-    { label: 'Limite isento em dinheiro', amountEUR: 6, note: 'Por dia, se o pagamento for feito em dinheiro juntamente com o salário.' },
-    { label: 'Limite isento em cartão/vale refeição', amountEUR: 10.20, note: 'Por dia, se for utilizado meal card ou voucher com finalidade limitada.' },
-    { label: 'Exemplo para 22 dias úteis em dinheiro', amountEUR: 132, note: '22 × 6 € sem IRS e Segurança Social.' },
-    { label: 'Exemplo para 22 dias úteis em cartão', amountEUR: 224.40, note: '22 × 10,20 € sem IRS e Segurança Social.' }
+    { label: 'Limite isento em dinheiro', amountEUR: 6.15, note: 'Por dia, se o pagamento for feito em dinheiro juntamente com o salário.' },
+    { label: 'Limite isento em cartão/vale refeição', amountEUR: 10.46, note: 'Por dia, se for utilizado meal card ou voucher com finalidade limitada.' },
+    { label: 'Exemplo para 22 dias úteis em dinheiro', amountEUR: 135.30, note: '22 × 6,15 € sem IRS e Segurança Social.' },
+    { label: 'Exemplo para 22 dias úteis em cartão', amountEUR: 230.12, note: '22 × 10,46 € sem IRS e Segurança Social.' }
   ],
   sources: [
     {
@@ -117,11 +117,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'DRE — Portaria n.º 107-A/2023: atualização do subsídio de refeição na Administração Pública para 6 €',
-      url: 'https://dre.pt/dre/detalhe/portaria/107-a-2023-211427985',
+      title: 'DRE — Portaria n.º 51-B/2026/1: atualização do subsídio de refeição na Administração Pública para 6,15 €',
+      url: 'https://diariodarepublica.pt/dr/detalhe/portaria/51-b-2026-1031110274',
       kind: 'law',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
     },
     {
       title: 'DRE — Código do Trabalho, Lei n.º 7/2009',
@@ -131,6 +131,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

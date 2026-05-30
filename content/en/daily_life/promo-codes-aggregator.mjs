@@ -58,10 +58,10 @@ export default {
       id: 'youth-card',
       title: 'Cartão Jovem Europeu — a must-have for ages 12-29',
       content: [
-        { kind: 'paragraph', text: 'State programme from IPDJ (Instituto Português do Desporto e Juventude). Valid in all 38 countries of the European Youth Card Association. Validity period is 1 year, price €11 (equivalent).' },
+        { kind: 'paragraph', text: 'State programme from IPDJ (Instituto Português do Desporto e Juventude). Valid in all 38 countries of the European Youth Card Association. Validity period is 1 year. Since 2024 issuance of the standard Cartão Jovem in Portugal is free (it previously cost €10).' },
         { kind: 'checklist', items: [
           '🎯 Age: 12-29 (inclusive)',
-          '💶 Price: €8 (online) or €11 (in IPDJ offices). Term: 1 year',
+          '💶 Price: free since 2024 (previously €10). Term: 1 year',
           '🎫 Discounts in Portugal: ~60 business categories from cinema (FNAC -10%) to festivals (NOS Alive -15%)',
           '🚊 Transport: CP (trains) -25%, FlixBus -10%, Carris -50% on the tourist pass',
           '🏛️ Museums: free entry to many state museums in Lisbon/Porto',
@@ -182,7 +182,7 @@ export default {
     { title: 'ACSS — Conselho Nacional Famílias Numerosas', url: 'https://famnumerosas.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal das Finanças — e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: discount cards and promos in Portugal. Cartão Continente (main one), Pingo Doce Poupa Mais, Cartão Jovem Europeu (ages 12-29, ~60 discount categories), Cartão Família Numerosa (for 3+ children), shop programmes (KIWOKO, Decathlon, FNAC), cashback sites (Letyshops, eBuyClub), coupon aggregators (Radarcupao, Ocacapromocoes), e-Fatura IVA refund through IRS.'

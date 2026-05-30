@@ -69,7 +69,7 @@ export default {
   sources: [
     { title: 'Portal das Finanças — Registo/recuperar senha', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Autenticação.gov — Chave Móvel Digital', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Pedir a senha de acesso ao Portal das Finanças', url: 'https://eportugal.gov.pt/servicos/pedir-a-senha-de-acesso-ao-portal-das-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'ePortugal — Pedir a senha de acesso ao Portal das Finanças', url: 'https://www.gov.pt/servicos/pedir-a-senha-de-acesso-ao-portal-das-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 365

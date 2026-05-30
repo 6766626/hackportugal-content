@@ -122,10 +122,10 @@ export default {
   ],
   sources: [
     { title: 'Official NOS Alive website', url: 'https://www.nosalive.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Official Rock in Rio Lisboa website', url: 'https://rockinriolisboa.sapo.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Official Rock in Rio Lisboa website', url: 'https://rockinriolisboa.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Official Super Bock Super Rock website', url: 'https://superbocksuperrock.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Official Visit Portugal tourism portal — events and festivals', url: 'https://www.visitportugal.com/en/encontre/grandes-eventos/list', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

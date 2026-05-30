@@ -79,10 +79,10 @@ export default {
   ],
   sources: [
     { title: 'Liga dos Bombeiros Portugueses — портал Bombeiros.pt', url: 'https://www.bombeiros.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ANEPC — Autoridade Nacional de Emergência e Proteção Civil', url: 'https://www.anepc.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ANEPC — Autoridade Nacional de Emergência e Proteção Civil', url: 'https://prociv.gov.pt/pt/home/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 247/2007 — regime jurídico dos corpos de bombeiros', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/247-2007-635778', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 241/2007 — regime jurídico aplicável aos bombeiros portugueses', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/241-2007-635777', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

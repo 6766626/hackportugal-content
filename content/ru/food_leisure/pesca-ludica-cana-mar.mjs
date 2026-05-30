@@ -3,7 +3,7 @@ export default {
   id: 'pesca-ludica-cana-mar',
   categoryId: 'food_leisure',
   title: 'Морская рыбалка с берега — лицензия Pesca Lúdica à linha (DGRM)',
-  tldr: 'Любительская морская рыбалка с берега, пирса или скал в Португалии требует лицензии Pesca Lúdica (любительская рыбалка) от DGRM. Оформляешь онлайн на portal.dgrm.mm.gov.pt за 5 минут.\n\nСроки: 3 дня (~3 €), месяц (~10 €), год (~20 €), 3 года (~50 €)\.\n\nРаспечатай или сохрани QR‑код с лицензией: при проверке Polícia Marítima (морская полиция) / GNR‑SEPNA (экологическое подразделение национальной гвардии) без неё штраф от 100 €. Соблюдай дневной лимит (10 кг + 1 рыба, либо одна рыба >10 кг), минимальные размеры и defeso (запретный сезон) по виду.',
+  tldr: 'Любительская морская рыбалка с берега, пирса или скал в Португалии требует лицензии Pesca Lúdica (любительская рыбалка) от DGRM. Оформляешь онлайн на portal.dgrm.mm.gov.pt за 5 минут.\n\nСроки: день (~2 €), месяц (~4 €), год (~8 €)\.\n\nРаспечатай или сохрани QR‑код с лицензией: при проверке Polícia Marítima (морская полиция) / GNR‑SEPNA (экологическое подразделение национальной гвардии) без неё штраф от 100 €. Соблюдай дневной лимит (10 кг + 1 рыба, либо одна рыба >10 кг), минимальные размеры и defeso (запретный сезон) по виду.',
   tags: ['pesca', 'fishing', 'licenca', 'mar', 'dgrm'],
   estimatedReadMinutes: 6,
   steps: [
@@ -47,7 +47,7 @@ export default {
             content: [
               { kind: 'checklist', items: [
                 'Pesca à linha — с берега (apeada: с берега, моста, мола): самый частый выбор',
-                'Срок: 3 дня (для коротких поездок), 1 месяц, 1 год, 3 года',
+                'Срок: 1 день (для коротких поездок), 1 месяц, 1 год',
                 'Год выгоднее, если ловишь хотя бы пару раз за сезон',
                 'Поле «Embarcação» (судно) не отмечай — это для лодки, отдельный гайд'
               ] }
@@ -141,10 +141,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Лицензия Pesca Lúdica — 3 дня', amountEUR: 3, note: 'Для коротких туристических поездок' },
-    { label: 'Лицензия — 1 месяц', amountEUR: 10, note: 'Хороший выбор для одного отпуска или сезонной рыбалки' },
-    { label: 'Лицензия — 1 год', amountEUR: 20, note: 'Самый выгодный вариант если ловите 2+ раза за сезон' },
-    { label: 'Лицензия — 3 года', amountEUR: 50, note: 'Для тех, кто рыбачит регулярно' },
+    { label: 'Лицензия Pesca Lúdica — 1 день', amountEUR: 2, note: 'Для коротких туристических поездок' },
+    { label: 'Лицензия — 1 месяц', amountEUR: 4, note: 'Хороший выбор для одного отпуска или сезонной рыбалки' },
+    { label: 'Лицензия — 1 год', amountEUR: 8, note: 'Самый выгодный вариант если ловите 2+ раза за сезон' },
     { label: 'Базовый набор для серфкастинга', amountEURMin: 60, amountEURMax: 150, note: 'Удилище + катушка + леска + крючки + наживка' },
     { label: 'Штраф без лицензии', amountEURMin: 100, amountEURMax: 500, note: 'Плюс конфискация снастей и улова' }
   ],
@@ -152,9 +151,10 @@ export default {
     { title: 'DGRM — Pesca Lúdica, лицензии и правила', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portal de Licenciamento DGRM — оформление онлайн', url: 'https://portal.dgrm.mm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 246/2000 — режим Pesca Lúdica в морских водах', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Portaria n.º 14/2014, de 23 de janeiro (Anexo IV) — тарифы лицензий Pesca Lúdica', url: 'https://dre.pt/dre/detalhe/portaria/14-2014-571046', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Tamanhos mínimos por espécie — таблица DGRM', url: 'https://www.dgrm.pt/pesca_cpt_especies', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Polícia Marítima — Autoridade Marítima Nacional', url: 'https://www.amn.pt/PM/Paginas/MissaoCompetencias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

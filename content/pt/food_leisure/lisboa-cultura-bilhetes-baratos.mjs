@@ -21,7 +21,7 @@ export default {
       title: 'Onde ir no domingo de manhã',
       content: [
         { kind: 'paragraph', text: 'Esquema prático para um expat: escolher 1–2 locais próximos, chegar à abertura, apresentar o documento de residente na bilheteira e não contar com entrada gratuita depois de almoço. Abaixo estão pontos populares onde, em 2026, faz sentido verificar primeiro a janela gratuita ou a tarifa de residente.' },
-        { kind: 'checklist', items: ['Calouste Gulbenkian Museum — verifique a página da Gulbenkian: a fundação publica separadamente os dias/horários de entrada gratuita e as condições para residentes', 'MAAT — a Fundação EDP tem por vezes períodos/dias gratuitos e benefícios; as condições diferem para a MAAT Gallery, MAAT Central e bilhetes combinados', 'MNAA — Museu Nacional de Arte Antiga pertence aos museus nacionais; os residentes em Portugal normalmente têm acesso a um regime gratuito em dias/limites definidos', 'Museu Arqueológico do Carmo — verifique os horários de “domingo/feriado” e a aplicabilidade a residentes; no verão há mais filas', 'Padrão dos Descobrimentos — equipamento EGEAC/CML; para residentes, normalmente existe uma janela gratuita de manhã aos domingos e feriados', 'Museus municipais CML/EGEAC — Museu de Lisboa, Museu do Fado, Museu do Aljube, Atelier-Museu Júlio Pomar têm frequentemente uma lógica semelhante de manhã de domingo gratuita'] },
+        { kind: 'checklist', items: ['Calouste Gulbenkian Museum — verifique a página da Gulbenkian: a fundação publica separadamente os dias/horários de entrada gratuita e as condições para residentes', 'MAAT — a Fundação EDP tem por vezes períodos/dias gratuitos e benefícios; as condições diferem para a MAAT Gallery, MAAT Central e bilhetes combinados', 'MNAA — Museu Nacional de Arte Antiga está encerrado ao público desde 29 de setembro de 2025 para obras do PRR e só deverá reabrir no segundo semestre de 2026 (prazo das obras: 30 de junho de 2026); não planeie uma visita de domingo gratuito até a reabertura estar confirmada. Quando reabrir, os residentes em Portugal normalmente têm acesso a um regime gratuito em dias/limites definidos', 'Museu Arqueológico do Carmo — verifique os horários de “domingo/feriado” e a aplicabilidade a residentes; no verão há mais filas', 'Padrão dos Descobrimentos — equipamento EGEAC/CML; para residentes, normalmente existe uma janela gratuita de manhã aos domingos e feriados', 'Museus municipais CML/EGEAC — Museu de Lisboa, Museu do Fado, Museu do Aljube, Atelier-Museu Júlio Pomar têm frequentemente uma lógica semelhante de manhã de domingo gratuita'] },
         { kind: 'warning', text: 'Carmo, MAAT e Gulbenkian não são museus municipais CML comuns. Não transfira automaticamente para eles a regra do Padrão dos Descobrimentos — verifique a página de bilhetes concreta.' }
       ]
     },
@@ -79,8 +79,8 @@ export default {
     { title: 'Câmara Municipal de Lisboa — cultura, museus municipais e programas Lisboa Cultura', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Calouste Gulbenkian — bilhetes, museu e condições de entrada gratuita', url: 'https://www.gulbenkian.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EGEAC / Lisboa Cultura — espaços municipais, monumentos e bilhetes', url: 'https://egeac.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Museu Nacional de Arte Antiga — bilhetes e regime de visita', url: 'https://www.museudearteantiga.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Museus e Monumentos de Portugal — aviso de encerramento do MNAA, bilhetes e regime de visita', url: 'https://www.museusemonumentos.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -64,7 +64,7 @@ export default {
       id: 'dac7-tax',
       title: 'Налоги: DAC7 — платформы стучат в Finanças',
       content: [
-        { kind: 'paragraph', text: 'С 2024 года все онлайн-платформы в ЕС обязаны сообщать в налоговую данные о пользователях, превысивших пороги продаж. Это директива DAC7 (Council Directive 2021/514/EU), в Португалии — Decreto-Lei 53/2023.' },
+        { kind: 'paragraph', text: 'С 2024 года все онлайн-платформы в ЕС обязаны сообщать в налоговую данные о пользователях, превысивших пороги продаж. Это директива DAC7 (Council Directive 2021/514/EU), в Португалии — Lei n.º 36/2023, de 26 de julho.' },
         { kind: 'checklist', items: [
           '🚨 Порог: 2 000 € суммарной выручки ИЛИ 30+ транзакций за календарный год',
           '📨 Платформа (OLX, Vinted, CustoJusto) автоматически передаёт в Finanças данные тех, кто превысил порог',
@@ -176,12 +176,12 @@ export default {
   sources: [
     { title: 'Banco de Portugal — alerta sobre burlas MB Way em plataformas OLX/Vinted (2025)', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DECO PROteste — compras online em segunda mão: cuidados', url: 'https://www.deco.proteste.pt/familia-consumo/direitos-consumidor/dicas/compras-online-segunda-mao-cuidados-ter', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Decreto-Lei 53/2023 — transposição DAC7 (obrigações de plataformas)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/53-2023-214867521', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei n.º 36/2023, de 26 de julho — transposição DAC7 (obrigações de plataformas)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/36-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'EUR-Lex — Council Directive (EU) 2021/514 (DAC7)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021L0514', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'OLX Portugal — dicas para usar em segurança (помощь платформы)', url: 'https://help.olx.pt/olxpthelp/s/article/dicas-importantes-para-usares-o-olx-em-segurana-V33', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'PJ — Canal de Denúncia de Cibercrime', url: 'https://canalcyber.pj.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: OLX, CustoJusto, Vinted в Португалии. Сравнение платформ, налоговые последствия DAC7 (>2000 € или >30 продаж = в Finanças), главные мошенничества 2025-2026 (фейковые SMS оплаты, фишинговые ссылки, MB Way push), советы DECO PROteste по безопасной покупке/продаже.'

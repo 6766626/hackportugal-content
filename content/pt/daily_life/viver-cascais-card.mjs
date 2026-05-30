@@ -74,7 +74,7 @@ export default {
           ]},
           { id: 'g2', title: '2. Apresentar o pedido do Viver Cascais', content: [
             { kind: 'checklist', items: [
-              'Online: vivercascais.cascais.pt → Registar',
+              'Online: registe-se primeiro no MyCascais (my.cascais.pt/viver) e depois peça o cartão',
               'Ou presencialmente: Loja Cascais (Av. dos Combatentes 8-10) / Loja Parede',
               'Documentos: atestado de residência, Cartão de Cidadão/autorização de residência, fotografia (pode ser do telemóvel), email',
               'O registo é gratuito',
@@ -106,10 +106,10 @@ export default {
     { label: 'atestado de residência da Junta de Freguesia', amountEURMin: 5, amountEURMax: 15 }
   ],
   sources: [
-    { title: 'Viver Cascais — portal oficial', url: 'https://vivercascais.cascais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Viver Cascais — aderir / renovar (página oficial)', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'MobiCascais — aplicação e serviços', url: 'https://www.mobicascais.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal de Cascais', url: 'https://www.cascais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

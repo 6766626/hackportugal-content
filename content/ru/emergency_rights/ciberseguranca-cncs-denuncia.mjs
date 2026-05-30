@@ -127,7 +127,7 @@ export default {
     },
     {
       title: 'Polícia Judiciária — criminalidade informática и контакты PJ',
-      url: 'https://policiajudiciaria.pt',
+      url: 'https://www.policiajudiciaria.pt/unc3t/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -147,6 +147,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

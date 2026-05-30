@@ -74,7 +74,7 @@ export default {
           ]},
           { id: 'g2', title: '2. Подать заявку на Viver Cascais', content: [
             { kind: 'checklist', items: [
-              'Онлайн: vivercascais.cascais.pt → Registar',
+              'Онлайн: сначала зарегистрируйтесь в MyCascais (my.cascais.pt/viver), затем запросите карту',
               'Или лично: Loja Cascais (Av. dos Combatentes 8-10) / Loja Parede',
               'Документы: Atestado de Residência, Cartão de Cidadão/ВНЖ, фото (можно с телефона), электронная почта',
               'Регистрация бесплатна',
@@ -106,10 +106,10 @@ export default {
     { label: 'Atestado de Residência от Junta de Freguesia', amountEURMin: 5, amountEURMax: 15 }
   ],
   sources: [
-    { title: 'Viver Cascais — официальный портал', url: 'https://vivercascais.cascais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Viver Cascais — оформление и продление (официальная страница)', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'MobiCascais — приложение и сервисы', url: 'https://www.mobicascais.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal de Cascais', url: 'https://www.cascais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

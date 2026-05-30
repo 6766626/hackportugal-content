@@ -96,7 +96,7 @@ export default {
   sources: [
     { title: 'AIMA — Proteção Temporária', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Council Directive 2001/55/EC (EU temporary protection)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=celex:32001L0055', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Proteção Temporária', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ePortugal — Proteção Temporária', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Embassy of Ukraine in Portugal', url: 'https://portugal.mfa.gov.ua/', kind: 'official', language: 'uk', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-17',

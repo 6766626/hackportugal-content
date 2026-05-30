@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'A flight subsidy programme between mainland Portugal and the autonomous regions (Azores, Madeira) — it compensates for the price difference between the mainland and the islands.' },
         { kind: 'checklist', items: [
           '✅ Who is eligible: residents of the autonomous region of the Azores or Madeira/Porto Santo (not the mainland!) — foreigners with a residence permit and real residence in the region also qualify',
-          '✅ Island residents → mainland: subsidy up to €134 (2026)',
+          '✅ Island residents → mainland: with the SSM the passenger pays a capped amount per round trip — max €119 (Azores–mainland) / €79 (Madeira–mainland); students €89 / €59 (Decreto-Lei 37-A/2025, amended by DL 1-A/2026, in force since 15 Jan 2026). This is the capped fare you pay out of pocket, not the subsidy value',
           '✅ Mainland residents → islands (as tourists): lower subsidy, depending on the route',
           '✅ Maximum 4 trips per year for island residents; 2 for tourists',
           '❌ Does not work for: business trips (if paid for by the company), non-residents',
@@ -129,7 +129,7 @@ export default {
   costs: [
     { label: 'Lisbon—Azores ticket (resident)', amountEURMin: 120, amountEURMax: 180 },
     { label: 'Lisbon—Madeira ticket (resident)', amountEURMin: 80, amountEURMax: 160 },
-    { label: 'Subsídio STP', amountEURMin: 50, amountEURMax: 134, note: '€ refund' },
+    { label: 'Capped fare you pay (SSM, round trip)', amountEURMin: 79, amountEURMax: 119, note: 'max out-of-pocket: €119 Azores / €79 Madeira' },
     { label: 'Between Azores islands (residents)', amountEURMin: 35, amountEURMax: 60 },
     { label: 'Porto Santo ferry', amountEURMin: 50, amountEURMax: 80 }
   ],
@@ -139,6 +139,6 @@ export default {
     { title: 'Governo dos Açores — Support', url: 'https://portal.azores.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Governo Regional Madeira — Support', url: 'https://www.madeira.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'apicultura-registo-iniciante',
   categoryId: 'food_leisure',
   title: 'Apicultura para principiantes — registo na DGAV (Direção-Geral de Alimentação e Veterinária)',
-  tldr: 'Qualquer apiário em Portugal (mesmo uma única colmeia no jardim) tem de estar registado na DGAV (Direção-Geral de Alimentação e Veterinária — serviço público de segurança alimentar e veterinária)\.\n\nO registo é gratuito: entrega-se na Junta de Freguesia (órgão local da freguesia) ou através do ePortugal (portal de serviços públicos)\.\n\nApós o registo, recebe um número de apicultor e passa a ter a obrigação de manter um caderno sanitário (caderno sanitário)\.\n\nDistâncias mínimas: 200 m em zona urbana, 50 m em zona rural (pode ser menos com uma vedação alta). Mel para consumo próprio — sem HACCP. Para vender, é necessária uma sala de extração registada (sala de extração) e inspeção da ASAE (Autoridade de Segurança Alimentar e Económica — fiscalização da segurança alimentar). A FNAP (federação nacional dos apicultores) — é a principal associação. Cursos para principiantes: 150-300 €. Uma colmeia produz 15-30 kg de mel por ano; kit inicial (colmeia + enxame + proteção) 250-500 €.',
+  tldr: 'Qualquer apiário em Portugal (mesmo uma única colmeia no jardim) tem de estar registado na DGAV (Direção-Geral de Alimentação e Veterinária — serviço público de segurança alimentar e veterinária)\.\n\nO registo é gratuito: faz-se online na aplicação «Atividade Apícola» na Área Reservada do Portal do IFAP, ou na DSAVR (Direção de Serviços de Alimentação e Veterinária Regional), ou através de uma organização de apicultores reconhecida com protocolo com o IFAP\.\n\nA declaração de existências inicial tem de ser entregue no prazo de 10 dias úteis após o início da atividade; a declaração anual de existências é entregue de 1 a 30 de setembro\.\n\nApós o registo, recebe um número de apicultor e passa a ter a obrigação de manter um caderno sanitário (caderno sanitário)\.\n\nDistâncias mínimas: 200 m em zona urbana, 50 m em zona rural (pode ser menos com uma vedação alta). Mel para consumo próprio — sem HACCP. Para vender, é necessária uma sala de extração registada (sala de extração) e inspeção da ASAE (Autoridade de Segurança Alimentar e Económica — fiscalização da segurança alimentar). A FNAP (federação nacional dos apicultores) — é a principal associação. Cursos para principiantes: 150-300 €. Uma colmeia produz 15-30 kg de mel por ano; kit inicial (colmeia + enxame + proteção) 250-500 €.',
   tags: ['apicultura', 'abelha', 'mel', 'dgav', 'fnap'],
   estimatedReadMinutes: 6,
   steps: [
@@ -45,9 +45,10 @@ export default {
             title: 'Submeta o pedido',
             content: [
               { kind: 'checklist', items: [
-                'Através do ePortugal (portal de serviços públicos): eportugal.gov.pt → Cidadão → Apicultura',
-                'Ou presencialmente na Junta de Freguesia (órgão local da freguesia)',
-                'Ou através da DRAP (Direção Regional de Agricultura e Pescas — direção regional de agricultura e pescas; 5 regiões)',
+                'Online na Área Reservada do Portal do IFAP — aplicação «Atividade Apícola»',
+                'Ou na DSAVR (Direção de Serviços de Alimentação e Veterinária Regional)',
+                'Ou através de uma organização de apicultores reconhecida com protocolo com o IFAP',
+                'Entregue a declaração de existências inicial no prazo de 10 dias úteis após o início da atividade; a declaração anual de existências é entregue de 1 a 30 de setembro',
                 'Após aprovação, é emitido o número de apicultor (formato AA-NN-NNNN)'
               ] }
             ]
@@ -183,6 +184,6 @@ export default {
     { title: 'Portaria 9/2021 — distâncias das colmeias', url: 'https://dre.pt/dre/detalhe/portaria/9-2021-153700104', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — apoio à apicultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

@@ -119,7 +119,7 @@ export default {
   sources: [
     { title: 'Câmara Municipal de Cascais — Cascais Baby / Cheque-Bebé', url: 'https://www.cm-cascais.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Oeiras — Apoio à Natalidade', url: 'https://www.cm-oeiras.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Portal ePortugal — registo de nascimento и документы ребёнка', url: 'https://eportugal.gov.pt/servicos/registar-nascimento', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Portal ePortugal — registo de nascimento и документы ребёнка', url: 'https://www.gov.pt/servicos/registar-nascimento', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária — NIF и certidões no Portal das Finanças', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',

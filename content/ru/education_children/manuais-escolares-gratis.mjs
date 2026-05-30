@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'manuais-escolares-gratis',
   categoryId: 'education_children',
-  title: 'Бесплатные школьные учебники с 1-го по 9-й класс: Programa Manuais',
-  tldr: 'В государственных школах Португалии учебники для 1.º-9.º ano выдаются бесплатно через Programa Manuais Escolares Gratuitos: родитель получает ваучеры MEGA и обменивает их на книги в книжном магазине или школе. Программа универсальная, не зависит от дохода и ASE. В конце года большинство учебников нужно вернуть для повторного использования; рабочие тетради и расходники обычно покупаются отдельно.',
+  title: 'Бесплатные школьные учебники с 1-го по 12-й класс: Programa Manuais',
+  tldr: 'В государственных школах Португалии учебники для всего обязательного образования (1.º-12.º ano) выдаются бесплатно через Programa Manuais Escolares Gratuitos: родитель получает ваучеры MEGA и обменивает их на книги в книжном магазине или школе. Программа универсальная, не зависит от дохода и ASE. В конце года большинство учебников нужно вернуть для повторного использования; рабочие тетради и расходники обычно покупаются отдельно.',
   tags: ['школа', 'manuais', 'mega', 'учебники'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Programa Manuais Escolares Gratuitos — государственная схема бесплатной выдачи школьных учебников. Для семьи это работает через электронные ваучеры MEGA: каждый ваучер соответствует конкретному учебнику из списка школы.' },
         { kind: 'checklist', items: [
           'Покрываются основные учебники, утверждённые школой для конкретного ano и turma.',
-          'Для 1.º-9.º ano в публичной школе программа применяется независимо от дохода семьи.',
+          'Для всего обязательного образования (1.º-12.º ano) в публичной школе программа применяется независимо от дохода семьи.',
           'Это не пособие ASE: право на бесплатные manuais не требует статуса малоимущей семьи.',
           'Ребёнок должен быть зачислен в школу через Portal das Matrículas / ePortugal или напрямую через escola, если так просит учебное заведение.',
           'Новые или бывшие в употреблении книги выдаются по ваучеру — семья не выбирает формат.',
@@ -109,15 +109,15 @@ export default {
     }
   ],
   costs: [
-    { label: 'Учебники 1.º-9.º ano по ваучерам MEGA', amountEUR: 0, note: 'Для учеников публичной школы; выдаются как новые или б/у по системе reutilização.' },
+    { label: 'Учебники 1.º-12.º ano по ваучерам MEGA', amountEUR: 0, note: 'Для учеников публичной школы; выдаются как новые или б/у по системе reutilização.' },
     { label: 'Рабочие тетради и канцелярия', amountEURMin: 30, amountEURMax: 150, note: 'Ориентир на ребёнка за год; зависит от класса, школы и требований учителей.' }
   ],
   sources: [
     { title: 'DGE — Manuais Escolares (avaliação, certificação e reutilização)', url: 'https://www.dge.mec.pt/manuais-escolares', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'IGeFE — MEGA, Manuais Escolares Gratuitos', url: 'https://www.igefe.mec.pt/Page/Index/199', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
-    { title: 'ePortugal — Matrículas escolares', url: 'https://eportugal.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ePortugal — Matrículas escolares', url: 'https://www.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

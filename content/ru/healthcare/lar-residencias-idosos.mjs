@@ -150,7 +150,7 @@ export default {
   sources: [
     { title: 'Segurança Social — respostas sociais para pessoas idosas', url: 'https://www.seg-social.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Carta Social — pesquisa oficial de ERPI и outras respostas sociais', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — apoio social a pessoas idosas', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — apoio social a pessoas idosas', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 180

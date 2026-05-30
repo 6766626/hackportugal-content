@@ -67,7 +67,7 @@ export default {
   timelineDaysMax: 30,
   sources: [
     { title: 'Segurança Social — Pedido de NISS para cidadão estrangeiro', url: 'https://www.seg-social.pt/pedido-de-niss-para-cidadao-estrangeiro', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Get a NISS', url: 'https://eportugal.gov.pt/servicos/obter-numero-de-identificacao-da-seguranca-social-niss', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Get a NISS', url: 'https://www.gov.pt/servicos/obter-numero-de-identificacao-da-seguranca-social-niss', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AIMA — checklist by residence permit type', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
   lastVerified: '2026-05-17',

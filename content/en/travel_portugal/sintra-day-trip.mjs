@@ -52,7 +52,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: '09:00 — arrival', content: [
-            { kind: 'paragraph', text: 'Train from Rossio. At the exit — bus 434 (€5 per day, you can get off and back on again along the route) or taxi/Uber to Palácio da Pena (€6–8).' }
+            { kind: 'paragraph', text: 'Train from Rossio. At the exit — bus 434 (€13.50 for a 24h hop-on/hop-off pass (434/435); single ticket ~€4 one way) or taxi/Uber to Palácio da Pena (€6–8).' }
           ]},
           { id: 'r2', title: '09:30–11:30 — Palácio da Pena', content: [
             { kind: 'paragraph', text: 'With an online time slot, go inside and walk around the palace + garden (2 hours). Visit the main rooms + panoramic terraces.' }
@@ -88,7 +88,7 @@ export default {
           '🧥 Jumper: it can be windy and cool at Palácio da Pena even in summer',
           '💧 Water — there are few cafés at the top, bring a bottle',
           '🎫 Combined ticket Palácio da Pena + Castelo dos Mouros + Monserrate — €32, saving €8',
-          '🚌 Bus 434 (€5 per day, you can get off and back on again along the route) — covers all the main sights',
+          '🚌 Bus 434 (€13.50 for a 24h hop-on/hop-off pass (434/435); single ticket ~€4 one way) — covers all the main sights',
           '🚫 Avoid Palácio da Pena after 11:00 — crowds; Quinta da Regaleira is better in the middle of the day',
           '📸 Best time for photos of Palácio da Pena — morning (no shadows) or sunset',
           '🚗 By car: parking in town €3–5 per day, but the roads are congested',
@@ -114,6 +114,6 @@ export default {
     { title: 'Visit Sintra — municipal tourism', url: 'https://www.visitsintra.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Sintra', url: 'https://www.visitportugal.com/en/destinos/lisboa-regiao/73779', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

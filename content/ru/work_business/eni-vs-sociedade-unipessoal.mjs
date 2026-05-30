@@ -3,7 +3,7 @@ export default {
   id: 'eni-vs-sociedade-unipessoal',
   categoryId: 'work_business',
   title: 'ENI vs Sociedade Unipessoal: выбор формы самозанятости',
-  tldr: 'ENI — быстрый старт как trabalhador independente/Empresário em Nome Individual: открыть atividade в Finanças бесплатно, можно попасть под освобождение от IVA до 15 000 €/год по art. 53 CIVA, но ответственность личным имуществом. Sociedade Unipessoal por Quotas — отдельная компания с NIPC и ограниченной ответственностью, но дороже: Empresa na Hora 360 €, бухгалтер обычно 100–250 €/мес, IRC 20% и IVA с первого евро. Порог 12 500 €/год в 2026 уже устарел.',
+  tldr: 'ENI — быстрый старт как trabalhador independente/Empresário em Nome Individual: открыть atividade в Finanças бесплатно, можно попасть под освобождение от IVA до 15 000 €/год по art. 53 CIVA, но ответственность личным имуществом. Sociedade Unipessoal por Quotas — отдельная компания с NIPC и ограниченной ответственностью, но дороже: Empresa na Hora 360 €, бухгалтер обычно 100–250 €/мес, IRC 19% и IVA с первого евро. Порог 12 500 €/год в 2026 уже устарел.',
   tags: ['eni', 'lda', 'iva', 'бизнес'],
   estimatedReadMinutes: 6,
   steps: [
@@ -53,7 +53,7 @@ export default {
           'Нужен Contabilista Certificado; типичный рынок для малой компании — примерно 100–250 €/мес, больше при payroll, импорте, e-commerce или большом объёме документов.',
           'Компания обязана вести contabilidade organizada.',
           'Освобождение от IVA по art. 53 CIVA обычно не применяется к компаниям с организованной бухгалтерией; на практике Lda выставляет IVA с первого евро, если деятельность не освобождена по специальной норме.',
-          'Прибыль облагается IRC: общая ставка в материковой Португалии — 20%; для PME может применяться сниженная ставка 16% на первые 50 000 € налогооблагаемой прибыли.',
+          'Прибыль облагается IRC: общая ставка в материковой Португалии — 19%; для PME может применяться сниженная ставка 15% на первые 50 000 € налогооблагаемой прибыли.',
           'Муниципальная derrama может добавить до 1,5% в зависимости от Câmara Municipal.',
           'Деньги компании — не ваши личные деньги: выводятся как зарплата gerente, дивиденды, reimbursement расходов или иные оформленные выплаты.'
         ] },
@@ -120,7 +120,7 @@ export default {
     },
     {
       title: 'ePortugal: Empresa na Hora и регистрация компании',
-      url: 'https://eportugal.gov.pt/servicos/criar-uma-empresa-na-hora',
+      url: 'https://www.gov.pt/servicos/criar-uma-empresa-na-hora',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

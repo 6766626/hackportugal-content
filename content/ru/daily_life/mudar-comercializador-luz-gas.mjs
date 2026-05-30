@@ -3,7 +3,7 @@ export default {
   id: 'mudar-comercializador-luz-gas',
   categoryId: 'daily_life',
   title: 'Смена поставщика электричества и газа: бесплатно и без отключения',
-  tldr: 'В Португалии смена comercializador de eletricidade/gás бесплатна: новый поставщик сам запускает процесс, старый договор закрывается без визита техника и без отключения света/газа. Сравнивайте тарифы на официальном simulador.erse.pt по CPE/CUI, consumo anual и potência contratada. Основные игроки: EDP, Galp, Endesa, Iberdrola, Goldenergy, Coopérnico, Plenitude. При дистанционном договоре действует право отмены 14 дней.',
+  tldr: 'В Португалии смена comercializador de eletricidade/gás бесплатна: новый поставщик сам запускает процесс, старый договор закрывается без визита техника и без отключения света/газа. Сравнивайте тарифы на официальном simuladorprecos.erse.pt по CPE/CUI, consumo anual и potência contratada. Основные игроки: EDP, Galp, Endesa, Iberdrola, Goldenergy, Coopérnico, Plenitude. При дистанционном договоре действует право отмены 14 дней.',
   tags: ['eletricidade', 'gás', 'erse', 'счета'],
   estimatedReadMinutes: 5,
   steps: [
@@ -29,9 +29,9 @@ export default {
       id: 'compare',
       title: 'Сравните тарифы на Simulador ERSE',
       content: [
-        { kind: 'paragraph', text: 'Официальный сравнитель — simulador.erse.pt. Это не рекламный агрегатор: его ведёт ERSE, регулятор энергетики. Введите данные из последнего счёта, чтобы получить расчёт не “в среднем”, а по вашему профилю потребления.' },
+        { kind: 'paragraph', text: 'Официальный сравнитель — simuladorprecos.erse.pt. Это не рекламный агрегатор: его ведёт ERSE, регулятор энергетики. Введите данные из последнего счёта, чтобы получить расчёт не “в среднем”, а по вашему профилю потребления.' },
         { kind: 'checklist', items: [
-          'Откройте simulador.erse.pt',
+          'Откройте simuladorprecos.erse.pt',
           'Выберите eletricidade, gás natural или dual',
           'Введите distrito/concelho и тип клиента: doméstico',
           'Укажите consumo anual в kWh — берите из годового итога в счёте',
@@ -128,7 +128,7 @@ export default {
     },
     {
       title: 'ERSE Simulador de preços de energia',
-      url: 'https://www.simulador.erse.pt',
+      url: 'https://simuladorprecos.erse.pt/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

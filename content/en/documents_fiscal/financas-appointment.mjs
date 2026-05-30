@@ -85,7 +85,7 @@ export default {
   ],
   sources: [
     { title: 'Portal das Finanças — Atendimento por Marcação', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Book an appointment at the Serviço de Finanças', url: 'https://eportugal.gov.pt/servicos/agendar-atendimento-no-servico-de-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Book an appointment at the Serviço de Finanças', url: 'https://www.gov.pt/servicos/agendar-atendimento-no-servico-de-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — e-balcão (written requests)', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
   lastVerified: '2026-05-17',

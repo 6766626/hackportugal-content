@@ -86,7 +86,7 @@ export default {
     { label: 'Replacement after loss/theft', amountEUR: 0, note: 'tariff = new normal/urgente request according to age, not a fixed flat fee' }
   ],
   sources: [
-    { title: 'ePortugal — Cartão de Cidadão (request/renew/cancel)', url: 'https://eportugal.gov.pt/servicos/pedir-o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Cartão de Cidadão (request/renew/cancel)', url: 'https://www.gov.pt/servicos/pedir-o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Cartão de Cidadão (service)', url: 'https://irn.justica.gov.pt/Servicos/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Autenticação.gov — Cartão de Cidadão', url: 'https://www.autenticacao.gov.pt/o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Regulation (EU) 2019/1157 — eID biometrics', url: 'https://eur-lex.europa.eu/eli/reg/2019/1157/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }

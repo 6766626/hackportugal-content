@@ -3,7 +3,7 @@ export default {
   id: 'gyms-fitness',
   categoryId: 'daily_life',
   title: 'Fitness and sport — gyms, beaches, activities',
-  tldr: 'Gym chains 2026: Fitness Hut (budget €24.99–€34.99/month), Holmes Place (premium €89–€149/month), Phive (mid-range €35–€50), Onyria, Solinca, VivaGym. Activities: surfing (Ericeira, Lagos, Cascais), running (parks), football (communities), padel (hugely popular), yoga. Lots of free outdoor activities.',
+  tldr: 'Gym chains 2026: VivaGym (formerly Fitness Hut, budget, ~€20–€35/month depending on the club), Holmes Place (premium €89–€149/month), Phive (mid-range €35–€50), Onyria, Solinca. Activities: surfing (Ericeira, Lagos, Cascais), running (parks), football (communities), padel (hugely popular), yoga. Lots of free outdoor activities.',
   tags: ['fitness', 'gyms', 'sport', 'surfing'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,8 +12,8 @@ export default {
       title: 'Gym chains',
       content: [
         { kind: 'substeps', items: [
-          { id: 'c1', title: 'Fitness Hut (budget)', content: [
-            { kind: 'paragraph', text: '€24.99–€34.99/month in 2026 (Fit Lite / Fit Premium). Modern equipment. Some clubs operate 24/7. Dozens of clubs across Portugal (Solinca/VivaGym group, part of the same holding company). Often the first choice.' }
+          { id: 'c1', title: 'VivaGym (formerly Fitness Hut)', content: [
+            { kind: 'paragraph', text: 'Budget chain, ~€20–€35/month depending on the club and plan (ONE / FLEX / PRIME). No minimum commitment. Modern equipment, some clubs open 24/7. Dozens of clubs across Portugal (Solinca/VivaGym group). In late 2024–early 2025 the Spanish VivaGym group rebranded the Portuguese Fitness Hut clubs as VivaGym; fitnesshut.pt now redirects to vivagym.pt. Often the first choice.' }
           ]},
           { id: 'c2', title: 'Holmes Place (premium)', content: [
             { kind: 'paragraph', text: '€89–€149/month in 2026 depending on the plan/club. Swimming pools, saunas, personal training, group classes. In major cities. Suitable for corporate clients.' }
@@ -23,9 +23,6 @@ export default {
           ]},
           { id: 'c4', title: 'Solinca', content: [
             { kind: 'paragraph', text: '€40–€60/month. Closer to the premium segment; the chain’s clubs are often located in hotels.' }
-          ]},
-          { id: 'c5', title: 'VivaGym', content: [
-            { kind: 'paragraph', text: '€19–€25/month. Spanish chain, growing in Portugal.' }
           ]},
           { id: 'c6', title: 'Anytime Fitness', content: [
             { kind: 'paragraph', text: '€35–€50/month. 24/7 access by card.' }
@@ -101,9 +98,9 @@ export default {
   ],
   sources: [
     { title: 'IPDJ — Instituto Português do Desporto e Juventude', url: 'https://www.ipdj.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Ericeira World Surfing Reserve', url: 'https://www.ericeirasurfreserve.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Ericeira World Surfing Reserve (Save The Waves Coalition)', url: 'https://www.savethewaves.org/ericeira/', kind: 'official', language: 'en', lastRetrieved: '2026-05-30' },
     { title: 'Federação Portuguesa de Surf — FPS', url: 'https://www.surfingportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

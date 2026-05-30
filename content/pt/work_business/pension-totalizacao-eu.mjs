@@ -3,7 +3,7 @@ export default {
   id: 'pension-totalizacao-eu',
   categoryId: 'work_business',
   title: 'Totalização de períodos de pensão UE/EEE/Suíça: Reg. 883/2004',
-  tldr: 'O Reg. 883/2004 permite somar períodos de seguro de Portugal, de outros países da UE, do EEE e da Suíça para cumprir o período mínimo de contribuições para a pensão.\n\nEm Portugal, a pensão de velhice normal exige 15 anos civis com contribuições; Substituir por: "a idade de reforma em 2026 é 66 anos e 9 meses".. O pedido é apresentado no país de residência: em Portugal, através da Segurança Social/Centro Nacional de Pensões. O dinheiro não é «transferido»: cada país paga a sua parte pro-rata.',
+  tldr: 'O Reg. 883/2004 permite somar períodos de seguro de Portugal, de outros países da UE, do EEE e da Suíça para cumprir o período mínimo de contribuições para a pensão.\n\nEm Portugal, a pensão de velhice normal exige 15 anos civis com contribuições; a idade de reforma em 2026 é 66 anos e 9 meses. O pedido é apresentado no país de residência: em Portugal, através da Segurança Social/Centro Nacional de Pensões. O dinheiro não é «transferido»: cada país paga a sua parte pro-rata.',
   tags: ['pensão', 'segurança social', '883/2004', 'cnp'],
   estimatedReadMinutes: 6,
   steps: [
@@ -87,7 +87,7 @@ export default {
       id: 'timing-and-age',
       title: 'Idade, prazos e atrasos em 2026',
       content: [
-        { kind: 'paragraph', text: 'Escrever: "Em Portugal, a idade normal de reforma em 2026 é 66 anos e 9 meses." Esta é a idade para a pensão de velhice normal sem regimes especiais. Reforma antecipada, long career, incapacidade, função pública, dangerous occupations e regimes privados de pensões são calculados separadamente.' },
+        { kind: 'paragraph', text: 'Em Portugal, a idade normal de reforma em 2026 é 66 anos e 9 meses. Esta é a idade para a pensão de velhice normal sem regimes especiais. Reforma antecipada, long career, incapacidade, função pública, dangerous occupations e regimes privados de pensões são calculados separadamente.' },
         { kind: 'checklist', items: [
           'Período contributivo português mínimo para a pensão normal: 15 anos civis com contribuições',
           'Um ano civil português conta normalmente com pelo menos 120 dias de remunerações registadas',
@@ -97,7 +97,7 @@ export default {
           'Pode haver pagamento retroactivo a partir da data do direito/pedido, mas é melhor não atrasar',
           'Cada país pode ter a sua própria idade de reforma: uma parte da pensão pode começar mais cedo e outra mais tarde'
         ] },
-        { kind: 'warning', text: 'Se atingiu a idade portuguesa de 66 anos e 7 meses, isso não significa direito automático à parte alemã, francesa ou suíça no mesmo dia. Cada país aplica o seu retirement age e as suas próprias condições.' }
+        { kind: 'warning', text: 'Se atingiu a idade portuguesa de 66 anos e 9 meses, isso não significa direito automático à parte alemã, francesa ou suíça no mesmo dia. Cada país aplica o seu retirement age e as suas próprias condições.' }
       ]
     },
     {
@@ -153,6 +153,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

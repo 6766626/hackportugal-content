@@ -3,8 +3,8 @@ export default {
   id: 'carta-navegador-recreio',
   categoryId: 'food_leisure',
   title: 'Удостоверение капитана прогулочного судна — категории и обучение (Carta de Navegador de Recreio)',
-  tldr: 'Carta de Navegador de Recreio — официальное удостоверение капитана для управления частной прогулочной лодкой.\n\nКатегории: MARINHEIRO (до 5 миль, мотор до 30 кВт), PATRÃO LOCAL (до 12 миль, до 50 кВт), PATRÃO COSTEIRO (до 25 миль), PATRÃO ALTO MAR (без ограничений)\.\n\nМинимальный возраст: 16 лет для Marinheiro, 18 — для Patrão. Обучение в аккредитованных школах: 30–100 часов, экзамен в Capitania do Porto, теория и практика.\n\nСтоимость: примерно 250–1 500 € в зависимости от категории. Иностранные права (RYA Day Skipper, ICC, ASA) можно конвертировать через AMN (морская администрация Португалии) с упрощённым экзаменом.',
-  tags: ['carta', 'navegador', 'capitao', 'amn', 'curso'],
+  tldr: 'Carta de Navegador de Recreio — официальное удостоверение капитана для управления частной прогулочной лодкой.\n\nКатегории: MARINHEIRO (до 3 миль от берега / 10 миль от порта-убежища), PATRÃO LOCAL (до 6 миль от берега / 25 миль от порта-убежища), PATRÃO DE COSTA (до 40 миль от берега), PATRÃO DE ALTO MAR (без ограничений)\.\n\nМинимальный возраст: 16 лет для Marinheiro, 18 — для Patrão. Обучение в аккредитованных школах: 30–100 часов, экзамен в Capitania do Porto, теория и практика.\n\nСтоимость: примерно 250–1 500 € в зависимости от категории. Иностранные права (RYA Day Skipper, ICC, ASA) можно конвертировать через DGRM (морскую администрацию Португалии) с упрощённым экзаменом.',
+  tags: ['carta', 'navegador', 'capitao', 'dgrm', 'curso'],
   estimatedReadMinutes: 6,
   steps: [
     {
@@ -14,10 +14,11 @@ export default {
         { kind: 'paragraph', text: 'Лицензия капитана нужна не для каждой лодки. Базовые правила по мощности двигателя и размеру:' },
         { kind: 'checklist', items: [
           'Без удостоверения: только лодки с мотором ≤ 4.5 кВт (~6 л.с.) и длиной ≤ 7 м',
-          'MARINHEIRO: мотор до 30 кВт (~40 л.с.) или парус, до 5 миль от берега',
-          'PATRÃO LOCAL: мотор до 50 кВт (~67 л.с.), до 12 миль',
-          'PATRÃO COSTEIRO: без ограничений по мощности, до 25 миль',
-          'PATRÃO ALTO MAR: без ограничений по мощности и расстоянию',
+          'MARINHEIRO JÚNIOR: малое прогулочное судно до 6 м, мотор до 4.5 кВт, только дневное плавание, не далее 1 мили от линии малой воды и 3 миль от любого порта-убежища',
+          'MARINHEIRO: дневное плавание, не далее 3 миль от берега и 10 миль от любого порта-убежища',
+          'PATRÃO LOCAL: в виду берега, не далее 6 миль от берега и 25 миль от любого порта-убежища',
+          'PATRÃO DE COSTA: до 40 миль от берега',
+          'PATRÃO DE ALTO MAR: без ограничения по району',
           'Гидроцикл (mota de água): нужна отдельная Carta para motas de água — упрощённый курс'
         ] },
         { kind: 'paragraph', text: 'Классы плавания: Local (местный район плавания), Costeira (прибрежный район), Largo (открытое море).' },
@@ -34,7 +35,7 @@ export default {
           'Умение плавать: 50 м без остановки под наблюдением (для всех категорий)',
           'Визовые ограничения отсутствуют: иностранцы могут получить наравне с португальцами',
           'NIF (налоговый номер) и Cartão de Cidadão (гражданская карта) или паспорт + подтверждение адреса',
-          'Курс в аккредитованной школе AMN'
+          'Курс в аккредитованной DGRM школе'
         ] }
       ]
     },
@@ -42,12 +43,12 @@ export default {
       id: 'training',
       title: 'Обучение: где и как',
       content: [
-        { kind: 'paragraph', text: 'Список аккредитованных школ смотри на amn.pt → Carta de Navegador → Escolas. Больше всего школ в Cascais, Lisboa, Setúbal, Vilamoura, Sesimbra, Porto.' },
+        { kind: 'paragraph', text: 'Список аккредитованных DGRM школ смотри на dgrm.pt/formacao1. Больше всего школ в Cascais, Lisboa, Setúbal, Vilamoura, Sesimbra, Porto.' },
         { kind: 'checklist', items: [
           'MARINHEIRO: 30–40 часов (теория + ~10 часов практики), ~250–400 €',
           'PATRÃO LOCAL: ~50 часов, ~400–600 €',
-          'PATRÃO COSTEIRO: ~80 часов, ~600–1000 €',
-          'PATRÃO ALTO MAR: 100+ часов, ~1000–1500 € + морская практика ~200 миль',
+          'PATRÃO DE COSTA: ~80 часов, ~600–1000 €',
+          'PATRÃO DE ALTO MAR: 100+ часов, ~1000–1500 € + морская практика ~200 миль',
           'Mota de água: ~16 часов, ~150–250 €',
           'Программа: основы навигации, Правила предотвращения столкновений (COLREGS), радиосвязь VHF (база), метеорология, безопасность, предотвращение и действия при авариях'
         ] },
@@ -64,7 +65,7 @@ export default {
             id: 's1',
             title: 'Запись на экзамен',
             content: [
-              { kind: 'paragraph', text: 'Школа подаёт заявку от твоего имени. Либо можно записаться самостоятельно через AMN. Ожидание обычно 2–6 недель.' }
+              { kind: 'paragraph', text: 'Школа подаёт заявку от твоего имени через BMar (Balcão Eletrónico do Mar). Либо можно записаться самостоятельно через DGRM. Ожидание обычно 2–6 недель.' }
             ]
           },
           {
@@ -87,9 +88,8 @@ export default {
             content: [
               { kind: 'checklist', items: [
                 'Готовность: примерно через 2–4 недели',
-                'Можно забрать в Capitania или получить по почте',
-                'Действует до 70 лет; затем медосмотр каждые 5 лет',
-                'Пластиковая карточка, как водительские права'
+                'Выдаётся DGRM в электронном виде с ключом доступа; доступна в приложении gov.pt',
+                'Действует до 70 лет; затем медосмотр каждые 5 лет'
               ] }
             ]
           }
@@ -100,10 +100,10 @@ export default {
       id: 'foreign-conversion',
       title: 'Конвертация иностранных прав',
       content: [
-        { kind: 'paragraph', text: 'Если у тебя уже есть иностранные капитанские права, многие из них можно конвертировать через AMN, обычно с упрощённым экзаменом.' },
+        { kind: 'paragraph', text: 'Если у тебя уже есть иностранные капитанские права, многие из них может признать DGRM (equiparação): права из стран ЕС признаются автоматически, права из третьих стран DGRM признаёт в течение 5 дней, обычно с упрощённым экзаменом. Сбор около 89–99 €.' },
         { kind: 'checklist', items: [
-          'RYA Day Skipper (UK) → обычно конвертируется в Patrão Costeiro с теоретическим экзаменом',
-          'RYA Yachtmaster Coastal/Offshore → Patrão Alto Mar',
+          'RYA Day Skipper (UK) → обычно конвертируется в Patrão de Costa с теоретическим экзаменом',
+          'RYA Yachtmaster Coastal/Offshore → Patrão de Alto Mar',
           'ICC (International Certificate of Competence) → Patrão Local или Costeiro в зависимости от отметок',
           'ASA (US) Bareboat Cruising 104+ → как правило конвертируется',
           'Российское «Удостоверение судоводителя» → чаще требует переэкзаменовки; иногда проще пройти курс с нуля',
@@ -115,7 +115,7 @@ export default {
           'Оригинал иностранных прав + присяжный перевод на португальский',
           'Судовой журнал/логи плавания (logbook) — желательно',
           'Медсправка',
-          'Заявление в AMN с указанием желаемой категории',
+          'Заявление в DGRM с указанием желаемой категории',
           'Стоимость: 100–300 € + упрощённый экзамен'
         ] }
       ]
@@ -127,7 +127,7 @@ export default {
         { kind: 'checklist', items: [
           'Хочется просто покататься на катере с друзьями в бухте Лиссабона — бери Marinheiro. Пара недель курса, ~300 €',
           'Планируешь аренду лодки в Algarve / на Madeira / на Азорских островах — смотри в сторону Patrão Local: без него многие компании не сдают суда',
-          'Для океана и переходов между островами Азор — минимум Patrão Costeiro',
+          'Для океана и переходов между островами Азор — минимум Patrão de Costa',
           'Курсы CMI (международные) нередко дают и португальскую Carta, и ICC',
           'Школы в Cascais и Vilamoura проводят обучение на английском, по итогам выдают португальскую Carta',
           'Лучшее время записываться: октябрь–март (низкий сезон и ниже цены)',
@@ -140,8 +140,8 @@ export default {
   costs: [
     { label: 'Курс MARINHEIRO', amountEURMin: 250, amountEURMax: 400 },
     { label: 'Курс PATRÃO LOCAL', amountEURMin: 400, amountEURMax: 600 },
-    { label: 'Курс PATRÃO COSTEIRO', amountEURMin: 600, amountEURMax: 1000 },
-    { label: 'Курс PATRÃO ALTO MAR', amountEURMin: 1000, amountEURMax: 1500 },
+    { label: 'Курс PATRÃO DE COSTA', amountEURMin: 600, amountEURMax: 1000 },
+    { label: 'Курс PATRÃO DE ALTO MAR', amountEURMin: 1000, amountEURMax: 1500 },
     { label: 'Курс: гидроцикл (mota de água)', amountEURMin: 150, amountEURMax: 250 },
     { label: 'Экзамен в Capitania', amountEURMin: 30, amountEURMax: 80 },
     { label: 'Конвертация иностранных прав', amountEURMin: 100, amountEURMax: 300 },
@@ -149,11 +149,11 @@ export default {
     { label: 'Повторный медосмотр (после 70 лет, каждые 5 лет)', amountEUR: 30 }
   ],
   sources: [
-    { title: 'AMN — Carta de Navegador de Recreio', url: 'https://www.amn.pt/DGAM/FR/Paginas/NauticaRecreio.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'AMN — escolas reconhecidas', url: 'https://www.amn.pt/DGAM/FR/Paginas/NauticaRecreio.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 124/2004 — embarcações de recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/124-2004-220127', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 568/89 — categorias e formação', url: 'https://dre.pt/dre/detalhe/portaria/568-1989-580367', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'DGRM — Carta de Navegador de Recreio', url: 'https://www.dgrm.pt/am-nr-navegador-recreio', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'DGRM — Equiparação de carta de navegador de recreio', url: 'https://www.dgrm.pt/equiparacao-de-carta-de-navegador-de-recreio', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'DGRM — escolas/entidades formadoras acreditadas', url: 'https://www.dgrm.pt/formacao1', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Decreto-Lei 93/2018 — Regime Jurídico da Náutica de Recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/93-2018-116954925', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

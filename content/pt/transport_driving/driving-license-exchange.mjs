@@ -83,7 +83,7 @@ export default {
   timelineDaysMax: 180,
   sources: [
     { title: 'IMT — Troca de Carta de Condução (carta de condução)', url: 'https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Trocar Carta de Condução', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/trocar-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Trocar Carta de Condução', url: 'https://www.gov.pt/cidadaos/-/informacoes/trocar-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

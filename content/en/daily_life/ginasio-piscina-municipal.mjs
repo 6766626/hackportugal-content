@@ -115,7 +115,7 @@ export default {
   sources: [
     { title: 'Câmara Municipal de Lisboa — Desporto and municipal equipamentos desportivos', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal do Porto — Desporto, equipamentos and municipal programmes', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal portal — municipal services and Câmara Municipal contacts', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal portal — municipal services and Câmara Municipal contacts', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

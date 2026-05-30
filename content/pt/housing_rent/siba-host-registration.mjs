@@ -12,7 +12,7 @@ export default {
       title: 'O que é o SIBA e quem é obrigado a submeter',
       content: [
         { kind: 'paragraph', text: 'SIBA significa Sistema de Informação de Boletins de Alojamento. Trata-se da submissão eletrónica do boletim de alojamento: uma comunicação ao Estado de que um cidadão estrangeiro ficou alojado consigo em alojamento pago.' },
-        { kind: 'paragraph', text: 'Após o encerramento do SEF, as funções passaram para a AIMA e outras entidades, mas o antigo nome do portal siba.sef.pt ainda aparece em instruções e é usado por anfitriões. Para o utilizador, o essencial não mudou: o host pago é obrigado a enviar os dados do hóspede estrangeiro.' },
+        { kind: 'paragraph', text: 'Após o encerramento do SEF, as funções passaram para a AIMA e outras entidades, mas o antigo nome do portal siba.ssi.gov.pt ainda aparece em instruções e é usado por anfitriões. Para o utilizador, o essencial não mudou: o host pago é obrigado a enviar os dados do hóspede estrangeiro.' },
         { kind: 'checklist', items: [
           'São obrigados a submeter: hotéis, hostels, guest houses, alojamento local (AL), Airbnb, Booking, Expedia e reservas diretas',
           'São obrigados a submeter: proprietários de quartos e apartamentos, se o alojamento for pago',
@@ -127,7 +127,7 @@ export default {
   ],
   sources: [
     { title: 'Lei 23/2007 — regime de entrada, permanência e saída de estrangeiros, arts. 15–16 e sanções', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'SIBA — portal de boletins de alojamento', url: 'https://siba.sef.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'SIBA — portal de boletins de alojamento', url: 'https://siba.ssi.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'GuestReady: registo de hóspedes no SIBA em Portugal', url: 'https://www.guestready.com/blog/siba-guest-registration-sef-aima-portugal/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',

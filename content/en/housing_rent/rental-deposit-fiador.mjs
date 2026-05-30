@@ -147,7 +147,7 @@ export default {
     },
     {
       title: 'ePortugal — renting a home in Portugal',
-      url: 'https://eportugal.gov.pt/cidadaos/arrendar-casa',
+      url: 'https://www.gov.pt/cidadaos/arrendar-casa',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

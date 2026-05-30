@@ -3,7 +3,7 @@ export default {
   id: 'pesca-submarina-apneia',
   categoryId: 'food_leisure',
   title: 'Pesca submarina em apneia — licença e regras',
-  tldr: 'A pesca submarina com arma de arpão em apneia é uma categoria específica de pesca lúdica, subcategoria Submarina. Idade mínima: 16 anos. Licença da DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos) (~15 € por ano) + atestado médico obrigatório de aptidão para apneia + seguro obrigatório. Garrafa de mergulho e qualquer equipamento autónomo de respiração são proibidos. Apenas máscara, barbatanas, arpão e os seus próprios pulmões. Limite diário: 10 kg + 1 peixe. Proibição total nos parques naturais das Berlengas, Arrábida (núcleo), parcialmente nos Açores.',
+  tldr: 'A pesca submarina com arma de arpão em apneia é uma categoria específica de pesca lúdica, subcategoria Submarina. Idade mínima: 16 anos. Licença da DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos) (~25 € por ano) + atestado médico obrigatório de aptidão para apneia + seguro obrigatório. Garrafa de mergulho e qualquer equipamento autónomo de respiração são proibidos. Apenas máscara, barbatanas, arpão e os seus próprios pulmões. Limite diário: 10 kg + 1 peixe. Proibição total nos parques naturais das Berlengas, Arrábida (núcleo), parcialmente nos Açores.',
   tags: ['pesca', 'apneia', 'submarina', 'pesca-submarina', 'dgrm'],
   estimatedReadMinutes: 5,
   steps: [
@@ -133,8 +133,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Licença de pesca lúdica submarina (Submarina) — 1 ano', amountEUR: 15 },
-    { label: 'Licença — 3 anos', amountEUR: 35 },
+    { label: 'Licença de pesca lúdica submarina (Submarina) — 1 ano', amountEUR: 25, note: 'Existem também opções diária (€3) e mensal (€10)' },
     { label: 'Atestado médico', amountEURMin: 30, amountEURMax: 80, note: 'Uma vez a cada 1–2 anos, consoante a idade' },
     { label: 'Seguro de pesca submarina', amountEURMin: 30, amountEURMax: 80, note: 'Obrigatório, anual' },
     { label: 'Equipamento básico (início)', amountEURMin: 400, amountEURMax: 800, note: 'Máscara, fato de mergulho 5 mm, barbatanas, arpão, boia, lastros' },
@@ -146,6 +145,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica e Submarina', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICNF — Parques Marinhos e zonas restritas', url: 'https://www.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

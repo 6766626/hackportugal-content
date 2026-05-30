@@ -3,23 +3,23 @@ export default {
   id: 'charity-donations-tax',
   categoryId: 'daily_life',
   title: 'Caridade — onde ajudar e benefícios fiscais',
-  tldr: 'A «consignação» do IRS permite direcionar 0,5% do imposto IRS para uma das cerca de 5 000 organizações de beneficência registadas (sem custos para si, basta assinalar a opção na declaração).\n\nAdicionalmente: 25% de todos os donativos a IPSS (Instituições Particulares de Solidariedade Social) são dedutíveis no IRS. Principais organizações de beneficência: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (apoio a pessoas com deficiência), AMI (ajuda humanitária).\n\nA campanha do Banco Alimentar decorre 2 vezes por ano e mobiliza centenas de milhares de voluntários.',
+  tldr: 'A «consignação» do IRS permite direcionar 1% do imposto IRS para uma das cerca de 5 000 organizações de beneficência registadas (sem custos para si, basta assinalar a opção na declaração).\n\nAdicionalmente: 25% de todos os donativos a IPSS (Instituições Particulares de Solidariedade Social) são dedutíveis no IRS. Principais organizações de beneficência: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (apoio a pessoas com deficiência), AMI (ajuda humanitária).\n\nA campanha do Banco Alimentar decorre 2 vezes por ano e mobiliza centenas de milhares de voluntários.',
   tags: ['caridade', 'donativos', 'consignação', 'irs'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'consignacao',
-      title: '✅ Consignação 0,5% IRS — sem custos',
+      title: '✅ Consignação 1% IRS — sem custos',
       content: [
-        { kind: 'paragraph', text: 'Cada residente em Portugal pode direcionar 0,5% do imposto IRS final para uma das organizações de beneficência registadas. Isto NÃO tem custos adicionais para si — o Estado simplesmente redireciona uma parte do seu imposto.' },
+        { kind: 'paragraph', text: 'Cada residente em Portugal pode direcionar 1% do imposto IRS final para uma das organizações de beneficência registadas. Isto NÃO tem custos adicionais para si — o Estado simplesmente redireciona uma parte do seu imposto.' },
         { kind: 'checklist', items: [
           '📅 Quando: ao entregar o IRS (abril-junho)',
           '✅ No formulário de IRS — «consignação de quota da liquidação do imposto»',
           '🏢 Escolher uma organização (por NIF) da lista oficial da AT',
           'Lista: portaldasfinancas.gov.pt → IRS → Consignação',
-          '💰 Em concreto: 0,5% do seu imposto final. Para 30 000 €/ano — cerca de 50-150 €',
+          '💰 Em concreto: 1% do seu imposto final. Para 30 000 €/ano — cerca de 100-300 €',
           '🔁 Pode alterar a escolha todos os anos',
-          '🇵🇹 Também: é possível consignar benefício fiscal do IVA — transferir para uma instituição de beneficência o valor da sua dedução de IVA de faturas elegíveis. Isto NÃO é gratuito: ao contrário dos 0,5% do IRS, perde essa dedução de IVA'
+          '🇵🇹 Também: é possível consignar benefício fiscal do IVA — transferir para uma instituição de beneficência o valor da sua dedução de IVA de faturas elegíveis. Isto NÃO é gratuito: ao contrário do 1% do IRS, perde essa dedução de IVA'
         ]}
       ]
     },
@@ -151,7 +151,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Consignação IRS 0,5%', amountEUR: 0, note: 'sem custos para si' },
+    { label: 'Consignação IRS 1%', amountEUR: 0, note: 'sem custos para si' },
     { label: 'Dedução IRS sobre donativos', amountEUR: 0, note: '25% × 1,3 do donativo' },
     { label: 'Limite da dedução IRS', amountEUR: 0, note: '15% do imposto a pagar' }
   ],
@@ -161,6 +161,6 @@ export default {
     { title: 'Segurança Social — registo IPSS', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Cáritas Portuguesa', url: 'https://www.caritas.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

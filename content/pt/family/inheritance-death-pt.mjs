@@ -104,10 +104,10 @@ export default {
           ]},
           { id: 'i3', title: '3. Imposto do Selo (imposto sobre heranças)', content: [
             { kind: 'checklist', items: [
-              '🟢 Isentos 0%: cônjuge, filhos, netos e pais do falecido',
+              '🟢 Isentos de pagamento (0%): cônjuge/unido de facto, filhos, netos e pais do falecido — mas têm na mesma de entregar o Modelo 1 (a participação é obrigatória mesmo quando o imposto é €0)',
               '🟡 10% Imposto do Selo: irmãos/irmãs, tios/tias, sobrinhos, não familiares',
               '🟣 PT difere de outros países — a herança para familiares próximos NÃO é tributada',
-              '⏰ Declaração no prazo de 30 dias através da AT (Modelo 1 do Imposto do Selo)',
+              '⏰ A declaração (participação, Modelo 1 do Imposto do Selo) é entregue através da AT até ao final do 3.º mês seguinte ao do óbito (art. 26.º do Código do Imposto do Selo) — p. ex. morte em março → prazo até 30 de junho',
               '💸 Pagamento: até 60 dias após a entrega da declaração'
             ]}
           ]},
@@ -162,7 +162,7 @@ export default {
           '📜 Fazer testamento em qualquer idade, especialmente se for estrangeiro, simplifica o processo',
           '🆘 Agência funerária 24/7: SNS 808 24 24 24 — linha não apenas para questões médicas',
           '🤝 Advogado de «direito sucessório» é indispensável se: houver imóveis >500 mil, estrangeiros, herdeiros em litígio',
-          '⏱️ 30 dias para a declaração do Imposto do Selo — falhar o prazo = coima até 25%',
+          '⏱️ A declaração do Imposto do Selo é entregue até ao final do 3.º mês seguinte ao do óbito — falhar o prazo significa uma coima fixa de 150–3 750 € (RGIT art. 117.º; mínimo 50 €, ou 25 € se reduzida), e NÃO uma percentagem da herança',
           '💰 Contrato de seguro de vida do falecido — procedimento separado, não integra a herança (se houver beneficiário indicado)',
           '🌐 PT tem acordos internacionais com a Federação Russa/Ucrânia em sucessória — simplificam o processo',
           '🏠 Se o falecido era arrendatário — o herdeiro tem direito a continuar o contrato, não pode ser despejado',
@@ -184,6 +184,6 @@ export default {
     { title: 'Autoridade Tributária — Imposto do Selo (herança)', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Regulamento UE 650/2012 — Brussels IV', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0650', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Programa de subsidiação de voos entre Portugal continental e as regiões autónomas (Açores, Madeira) — compensa a diferença de preços entre o continente e as ilhas.' },
         { kind: 'checklist', items: [
           '✅ Quem tem direito: residentes da região autónoma dos Açores ou da Madeira/Porto Santo (não do continente!) — estrangeiros com autorização de residência e residência real na região também são elegíveis',
-          '✅ Residentes das ilhas → continente: subsídio até 134 € (2026)',
+          '✅ Residentes das ilhas → continente: com o SSM o passageiro paga um valor limitado por ida e volta — máximo 119 € (Açores–continente) / 79 € (Madeira–continente); estudantes 89 € / 59 € (Decreto-Lei 37-A/2025, alterado pelo DL 1-A/2026, em vigor desde 15 jan 2026). Este é o valor máximo que paga do seu bolso, não o valor do subsídio',
           '✅ Residentes do continente → ilhas (como turistas): subsídio mais baixo, dependendo da rota',
           '✅ Máximo de 4 viagens por ano para residentes das ilhas; 2 — para turistas',
           '❌ Não se aplica a: viagens de negócios (se pagas pela empresa), não residentes',
@@ -129,7 +129,7 @@ export default {
   costs: [
     { label: 'Bilhete Lisboa—Açores (residente)', amountEURMin: 120, amountEURMax: 180 },
     { label: 'Bilhete Lisboa—Madeira (residente)', amountEURMin: 80, amountEURMax: 160 },
-    { label: 'Subsídio STP', amountEURMin: 50, amountEURMax: 134, note: '€ reembolso' },
+    { label: 'Valor máximo que paga (SSM, ida e volta)', amountEURMin: 79, amountEURMax: 119, note: 'máx. do seu bolso: 119 € Açores / 79 € Madeira' },
     { label: 'Entre ilhas dos Açores (residentes)', amountEURMin: 35, amountEURMax: 60 },
     { label: 'Ferry para Porto Santo', amountEURMin: 50, amountEURMax: 80 }
   ],
@@ -139,6 +139,6 @@ export default {
     { title: 'Governo dos Açores — Apoios', url: 'https://portal.azores.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Governo Regional da Madeira — Apoios', url: 'https://www.madeira.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -83,7 +83,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Official tournaments are published in the calendars of the Federação Portuguesa de Ténis and the Federação Portuguesa de Padel. Padel often has levels and pairs; tennis has age and ranking categories, singles/doubles, youth, senior/veteranos. Registration usually closes in advance, and draws and horários are published closer to the start.' },
         { kind: 'checklist', items: [
-          'Check the calendar on tenis.pt or fpp.pt.',
+          'Check the calendar on tenis.pt or fppadel.pt.',
           'Look at the category: open, veteranos, juvenis, feminino/masculino, mistos, nível.',
           'Check the deadline inscrição: if you are late, you may not be included in the draw.',
           'Make sure the licence is active in the right federation.',
@@ -125,8 +125,8 @@ export default {
   ],
   sources: [
     { title: 'Federação Portuguesa de Ténis — official website, calendar, clubs and competitions', url: 'https://www.tenis.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Federação Portuguesa de Padel — official website, licences, calendário and regulamentos', url: 'https://www.fpp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Federação Portuguesa de Padel — official website, licences, calendário and regulamentos', url: 'https://www.fppadel.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -143,12 +143,12 @@ export default {
     },
     {
       title: 'Cascais Próxima — парковка и мобильность в Cascais',
-      url: 'https://www.cascaisproxima.pt',
+      url: 'https://www.cascais.pt/empresa-municipal/cascais-proxima',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

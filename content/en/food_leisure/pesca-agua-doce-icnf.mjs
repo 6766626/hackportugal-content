@@ -3,7 +3,7 @@ export default {
   id: 'pesca-agua-doce-icnf',
   categoryId: 'food_leisure',
   title: 'Freshwater fishing (água doce) — ICNF licence (Institute for Nature Conservation and Forests)',
-  tldr: 'Fishing in rivers, reservoirs and lakes in mainland Portugal is regulated by ICNF (Institute for Nature Conservation and Forests), not DGRM (the maritime resources authority).\n\nYou can get the licence online at icnf.pt → e-Balcão or via the SI ICNF app for around €5-15. Main categories: recreational (sport) fishing; salmonid fishing (trout, salmon — a separate licence and its own seasons); fishing in concession areas (special zones with an extra fee).\n\nDefeso periods (closed seasons) apply by species: trout — roughly November–March, salmon — banned for almost the entire year except for rare events. Daily limit: 8 fish for trout and up to 30 for most others.',
+  tldr: 'Fishing in rivers, reservoirs and lakes in mainland Portugal is regulated by ICNF (Institute for Nature Conservation and Forests), not DGRM (the maritime resources authority).\n\nYou can get the licence online at icnf.pt → e-Balcão or via the SI ICNF app for around €5-15. Main categories: recreational (sport) fishing; salmonid fishing (trout, salmon — a separate licence and its own seasons); fishing in concession areas (special zones with an extra fee).\n\nDefeso periods (closed seasons) apply by species: trout — open roughly March to July (up to 31 August in specific waters), closed roughly August/September to February; salmon — banned for almost the entire year except for rare events. Daily limit: 8 fish for trout and up to 30 for most others.',
   tags: ['fishing', 'angling', 'icnf', 'river', 'freshwater'],
   estimatedReadMinutes: 5,
   steps: [
@@ -89,7 +89,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Freshwater seasons and closed seasons are usually stricter than at sea:' },
         { kind: 'checklist', items: [
-          'Truta (trout): the season is usually March–October; November–February is closed (spawning protection)',
+          'Truta (trout): the season is usually 1 March – 31 July (up to 31 August in specific waters under Anexo III, and exceptionally to 30 September in certain reservoirs); outside the season it is closed (spawning protection)',
           'Salmão (salmon): banned almost all year round, except for rare traditional events; in the Minho there is a special regime',
           'Achigã (bass) and lúcio (pike): often allowed all year round, but there may be restrictions during spawning',
           'Barbo and bordalo: as a rule, allowed for most of the year',
@@ -100,7 +100,7 @@ export default {
         ] },
         { kind: 'paragraph', text: 'Daily limit:' },
         { kind: 'checklist', items: [
-          'Truta: up to 8 specimens per day, minimum size 19 cm',
+          'Truta: up to 8 specimens per day, minimum size 20 cm',
           'Achigã: up to 3 per day, minimum size 25 cm',
           'Lúcio: up to 3 per day, minimum size 35 cm',
           'Barbo: up to 30 fish',
@@ -161,6 +161,6 @@ export default {
     { title: 'Decreto-Lei 112/2017 — Pesca em Águas Interiores regime', url: 'https://dre.pt/dre/detalhe/decreto-lei/112-2017-108128620', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR SEPNA — environmental police', url: 'https://www.gnr.pt/sepna.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

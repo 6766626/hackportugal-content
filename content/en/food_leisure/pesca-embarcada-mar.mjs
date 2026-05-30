@@ -3,7 +3,7 @@ export default {
   id: 'pesca-embarcada-mar',
   categoryId: 'food_leisure',
   title: 'Sea fishing from a boat — Pesca Lúdica Embarcada licence',
-  tldr: 'Fishing at sea from any boat (your own, rented or chartered) requires the embarcada option in the Pesca Lúdica licence (pesca lúdica — recreational sea fishing).\n\nMore expensive than shore fishing: ~€10 for 3 days, ~€20 for a month, ~€40 for a year. The boat must be registered with the Capitania (harbour master’s office), and each angler on board must have their own licence. The daily limit for the whole boat is higher: 15 kg + 1 especially large fish. For a charter, check that the skipper has a professional "Marítimo‑Turística" licence; passengers only need the standard embarcada.',
+  tldr: 'Fishing at sea from any boat (your own, rented or chartered) requires the embarcada option in the Pesca Lúdica licence (pesca lúdica — recreational sea fishing).\n\nMore expensive than shore fishing: ~€10 for 3 days, ~€20 for a month, ~€40 for a year. The boat must be registered with the Capitania (harbour master’s office), and each angler on board must have their own licence. The daily limit is 10 kg per angler (the single largest specimen caught is not counted); if there are more than 3 anglers on board, the combined boat limit is capped at 25 kg. For a charter, check that the skipper has a professional "Marítimo‑Turística" licence; passengers only need the standard embarcada.',
   tags: ['fishing', 'sea fishing', 'boat', 'vessel', 'dgrm'],
   estimatedReadMinutes: 5,
   steps: [
@@ -65,7 +65,9 @@ export default {
       title: 'Limits and rules on a boat',
       content: [
         { kind: 'checklist', items: [
-          'Daily boat limit: 15 kg in total for everyone + 1 especially large fish',
+          'Daily limit: 10 kg per angler, with the single largest specimen caught not counted',
+          'If there are more than 3 anglers on board, the combined limit for the whole boat may not exceed 25 kg (one largest specimen per angler is not counted)',
+          'Note: 15 kg is specifically the per-person spearfishing (pesca submarina) limit, not the line-fishing limit from a boat',
           'Minimum sizes — the same as from the shore',
           'Defeso (closed season by species) — the same seasons',
           'Prohibited methods: trawls, nets, explosives, electric fishing rods — never',
@@ -108,6 +110,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICCAT — atum rabilho quotas', url: 'https://www.iccat.int', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

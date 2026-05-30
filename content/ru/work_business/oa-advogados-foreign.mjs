@@ -3,7 +3,7 @@ export default {
   id: 'oa-advogados-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Advogados: иностранный юрист в Португалии без BR-реципрокности',
-  tldr: 'В Португалии нельзя просто “перевести” статус адвоката: слово advogado защищено, доступ к профессии даёт только Ordem dos Advogados (OA)\.\n\nПосле прекращения практической BR-реципрокности прямой путь для non-EU юристов — признание диплома в португальском вузе/DGES, затем допуск в OA, prova de acesso и estágio около 18 месяцев с patrono и финальной оценкой. Юристы EU/EEA идут отдельно по Diretiva 98/5/CE: могут зарегистрироваться под домашним профессиональным титулом.',
+  tldr: 'В Португалии нельзя просто “перевести” статус адвоката: слово advogado защищено, доступ к профессии даёт только Ordem dos Advogados (OA)\.\n\nПосле прекращения практической BR-реципрокности прямой путь для non-EU юристов — признание диплома в португальском вузе/DGES, затем допуск в OA и estágio 12 месяцев (não prorrogável / без продления) с patrono и финальной оценкой. С 1 апреля 2024 года по Lei n.º 6/2024, de 19 de janeiro estágio длится 12 месяцев, прежняя поэтапная структура и prova de agregação отменены. Юристы EU/EEA идут отдельно по Diretiva 98/5/CE: могут зарегистрироваться под домашним профессиональным титулом.',
   tags: ['oa', 'advogado', 'юрист', 'diploma', 'estágio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -38,9 +38,9 @@ export default {
           'Получить признание степени, обычно nível/licenciatura или mestrado conforme caso',
           'Проверить, требует ли OA дополнительные документы о добропорядочности, отсутствии incompatibilidades и criminal record',
           'Подать заявление на inscrição как candidato a advogado estagiário',
-          'Сдать prova de acesso/avaliação, пройти estágio и финальную avaliação/agregação'
+          'Пройти estágio под руководством patrono и финальную оценку (jury) по trabalho final о теме Deontologia Profissional'
         ] },
-        { kind: 'paragraph', text: 'Estágio в OA обычно длится 18 месяцев. В него входит работа под руководством patrono, обучение по профессиональной этике, процессу, налоговым и регистрационным практикам, а также финальная оценка перед полноценной inscrição como advogado.' },
+        { kind: 'paragraph', text: 'С 1 апреля 2024 года по Lei n.º 6/2024, de 19 de janeiro estágio в OA длится 12 месяцев (não prorrogável / без продления). Прежняя поэтапная структура и prova de agregação отменены: больше нет prova de acesso, prova escrita или exame/agregação. В estágio входит работа под руководством patrono, 40 часов Deontologia Profissional и финальная оценка — обсуждение перед жюри вашего trabalho final по теме deontologia (шкала 0–20, проходной балл ≥10), плюс relatório final de patrono и relatório final de estagiário.' },
         { kind: 'warning', text: 'Признание диплома вузом не означает автоматическое принятие в OA. OA — отдельный профессиональный фильтр: может запросить документы, отказать при incompatibilidades или потребовать прохождение полного estágio.' }
       ]
     },
@@ -49,7 +49,7 @@ export default {
       title: 'Бразилия: почему старый “быстрый” путь больше не стоит считать рабочим',
       content: [
         { kind: 'paragraph', text: 'До 2023 года многие бразильские advogados рассчитывали на более прямой режим взаимности между OA Portugal и OAB Brasil. В реальности после разрыва/приостановки этого режима нельзя планировать релокацию по старой логике “я адвокат в OAB — значит быстро впишусь в OA”.' },
-        { kind: 'paragraph', text: 'На апрель 2026 безопасная практическая позиция: если у вас нет EU route и нет индивидуально подтверждённого OA основания для прямой регистрации, готовьтесь к обычному пути иностранного диплома — reconhecimento académico, документы, экзамен/допуск, estágio 18 месяцев.' },
+        { kind: 'paragraph', text: 'На апрель 2026 безопасная практическая позиция: если у вас нет EU route и нет индивидуально подтверждённого OA основания для прямой регистрации, готовьтесь к обычному пути иностранного диплома — reconhecimento académico, документы, inscrição como estagiário и estágio 12 месяцев (não prorrogável).' },
         { kind: 'checklist', items: [
           'Не покупайте консультацию, где обещают inscrição в OA “по старому acordo” без проверки актуальных правил OA',
           'Попросите у консультанта ссылку на действующую страницу OA и конкретную норму Estatuto da OA',
@@ -105,8 +105,8 @@ export default {
           { id: 'after-recognition', title: '3. После признания диплома', content: [
             { kind: 'checklist', items: [
               'Подавайте в OA на admissibilidade/inscrição как advogado estagiário',
-              'Готовьтесь к prova de acesso, если она назначена',
-              'Планируйте 18 месяцев estágio без иллюзии полной коммерческой самостоятельности',
+              'Планируйте 40 часов Deontologia Profissional и trabalho final по теме deontologia (prova de acesso/agregação больше нет)',
+              'Планируйте 12 месяцев estágio (não prorrogável) без иллюзии полной коммерческой самостоятельности',
               'Ведите портфолио практики, обучения и документов для финальной avaliação',
               'Не меняйте публичный титул на advogado до решения OA о полноценной inscrição'
             ] }
@@ -171,11 +171,18 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'DRE — Estatuto da Ordem dos Advogados, Lei n.º 145/2015',
+      title: 'DRE — Estatuto da Ordem dos Advogados, Lei n.º 145/2015 (изменён Lei n.º 6/2024)',
       url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2015-72859741',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'PGDLisboa — Estatuto da Ordem dos Advogados, Art. 195 (Lei n.º 6/2024, de 19 de janeiro): estágio de 12 meses',
+      url: 'https://pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3790&tabela=leis&ficha=1&pagina=1',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
     },
     {
       title: 'DGES — Reconhecimento de graus académicos e diplomas estrangeiros',
@@ -185,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

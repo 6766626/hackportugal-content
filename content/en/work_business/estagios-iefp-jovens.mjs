@@ -3,7 +3,7 @@ export default {
   id: 'estagios-iefp-jovens',
   categoryId: 'work_business',
   title: 'Estágios IEFP: traineeships for young people through the employment service',
-  tldr: 'Estágios IEFP are paid traineeships through the Centro de Emprego/IEFP for entering the Portuguese labour market.\n\nIn 2026, the typical duration under programmes for young people is up to 12 months; the candidate is usually 18–29, while 30+ are admitted only in special groups, for example RSI recipients. The money is paid by the employer, and IEFP reimburses part of the employer’s costs. A common benchmark in vacancies is around €870/month gross: the actual bolsa depends on the IAS €537.13, qualification level, and programme.',
+  tldr: 'Estágios IEFP are paid traineeships through the Centro de Emprego/IEFP for entering the Portuguese labour market.\n\nIn 2026, the standard IEFP youth traineeships (Estágios INICIAR, +Talento) target people aged 18–35; a candidate aged 30–35 needs no special status. The money is paid by the employer, and IEFP reimburses part of the employer’s costs. A common benchmark in vacancies is around €870/month gross: the actual bolsa depends on the IAS €537.13, qualification level, and programme.',
   tags: ['iefp', 'traineeship', 'work', 'young-people'],
   estimatedReadMinutes: 6,
   steps: [
@@ -20,10 +20,11 @@ export default {
       id: 'who-can-apply',
       title: 'Who can take part in 2026',
       content: [
-        { kind: 'paragraph', text: 'The basic target group for IEFP youth traineeships is people aged 18–29 registered with the Centro de Emprego as desempregado or à procura do 1.º emprego. For those aged 30+, access depends on the specific measure and status: for example, recipients of Rendimento Social de Inserção (RSI), long-term unemployed people, or other vulnerable groups may qualify under separate schemes, including Inserção+.' },
+        { kind: 'paragraph', text: 'The basic target group for the standard IEFP youth traineeships (Estágios INICIAR, +Talento) is people aged 18–35 registered with the Centro de Emprego as desempregado or à procura do 1.º emprego. A candidate aged 30–35 needs no special status — they are a standard young applicant. People over 35 can also qualify under INICIAR if the qualification was obtained in the last 24 months; separate schemes (RSI, long-term unemployment, Inserção+) are for other vulnerable groups.' },
         { kind: 'checklist', items: [
-          'Age is usually 18–29 for youth Estágios Profissionais / Estágios INICIAR',
-          'For 30+ — check eligibility under the specific candidatura: RSI, unemployment, disability, long-term unemployment',
+          'Age 18–35 for the standard youth Estágios INICIAR / +Talento',
+          'A candidate aged 30–35 needs no special status — they are a standard young applicant',
+          'Over 35 — check eligibility under the specific candidatura: qualification obtained in the last 24 months, RSI, disability, long-term unemployment',
           'Registration with IEFP as a candidato a emprego is required',
           'Legal stay and the right to work in Portugal are required: residence permit, visa with the right to work, or another acceptable status',
           'A NIF is required; a NISS will almost always be needed for payments and Segurança Social',
@@ -88,7 +89,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The names of IEFP measures change by year and avisos de abertura. In April 2026, rely not on an old blog name but on the active IEFP page and the aviso for the specific candidatura.' },
         { kind: 'checklist', items: [
-          'Estágios Profissionais / youth traineeships — the typical route for 18–29 after study or when getting first experience',
+          'Estágios Profissionais / youth traineeships — the typical route for 18–35 after study or when getting first experience',
           'Estágios INICIAR — a format for starting a professional career; conditions depend on the open IEFP aviso',
           'Estágios IPN or traineeships through incubators/partners — often arranged through a company/organisation, but the funding rules still need to be checked with IEFP',
           'Inserção+ — integration measures for people in vulnerable situations; for 30+, it is important to have a status such as RSI or long-term unemployment',
@@ -106,7 +107,7 @@ export default {
           'Prepare a CV in a European but concise format: 1–2 pages, without a long biography',
           'Add your Portuguese level: A2/B1 often matters more than perfect English',
           'Get a NISS in advance if you are already eligible: companies do not like delays in onboarding',
-          'Ask the IEFP técnico which measure you qualify under: 18–29, RSI, long-term unemployed, primeiro emprego',
+          'Ask the IEFP técnico which measure you qualify under: 18–35, RSI, long-term unemployed, primeiro emprego',
           'At the interview, clarify the gross bolsa, alimentação, horário, tutor, and likelihood of hiring after the estágio',
           'Do not hide your immigration status: the employer needs to understand whether the traineeship can be arranged legally',
           'If your diploma is foreign, prepare a translation or recognition through DGES if the profession requires it',
@@ -127,6 +128,6 @@ export default {
     { title: 'gov.pt — inscrição with the Centro de Emprego', url: 'https://www.gov.pt/pt/servicos/inscrever-se-no-centro-de-emprego', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'gov.pt — IEFP and public employment policies', url: 'https://www.gov.pt/pt/entidades/instituto-do-emprego-e-formacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

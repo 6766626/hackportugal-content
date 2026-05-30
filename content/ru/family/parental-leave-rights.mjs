@@ -121,7 +121,7 @@ export default {
           '💰 Заменить на: «180 дней partilhada может быть выгодным режимом, но проверьте ставку: 83% в обычном shared варианте или 90% при усиленном разделении по Lei 13/2023. Сравните общий семейный доход и возможность каждого родителя взять требуемый эксклюзивный период»., но сравните общий семейный доход и возможность отца реально взять свою часть',
           '📅 До/после рождения выберите режим licença parental inicial: 120, 150 или partilhada 150/180 дней; для 180 дней partilhada заранее согласуйте с работодателями периоды матери и отца',
           '🩺 Расчёт пособия: remuneração de referência = заработок за 6 из 8 предыдущих месяцев / 180. Если уходите в декрет вскоре после повышения, новая зарплата может не успеть полностью попасть в базу',
-          '🛡️ Декрет не прерывает стаж законного проживания, если ВНЖ остаётся действительным/продлённым. Для гражданства проверяйте актуальную редакцию Lei da Nacionalidade: Decreto AR 48/XVII промульгирован Президентом Сегуру 03.05.2026 и увеличит срок до 7/10 лет после публикации в DRE — на 17.05.2026 действующее правило 5 лет (Lei 37/81)',
+          '🛡️ Декрет не прерывает стаж законного проживания, если ВНЖ остаётся действительным/продлённым. Для гражданства проверяйте актуальную редакцию Lei da Nacionalidade: Lei Orgânica 1/2026 de 18 de maio (изменение Lei 37/81) уже вступила в силу 19.05.2026 и для новых заявлений требует 7 лет проживания (граждане CPLP/ЕС) или 10 лет (остальные); правило 5 лет сохраняется только для процедур, уже поданных до 19.05.2026 (Art. 7.º n.º 2)',
           '⚖️ Защита от увольнения: увольнение беременной, недавно родившей, кормящей работницы или работника в parental leave требует специальной процедуры и предварительного заключения CITE; универсального иммунитета на 12 месяцев после возвращения нет',
           '👶 В SNS ведение беременности, роды, вакцинация и педиатрическая помощь обычно бесплатны/освобождены от taxas moderadoras; иностранцам — заранее оформить número de utente',
           '📑 Сохраняйте все справки и заявления — они могут понадобиться при следующем декрете или налоговой проверке'
@@ -138,8 +138,9 @@ export default {
     { title: 'Lei 13/2023 — Mudança do Código do Trabalho', url: 'https://diariodarepublica.pt/dr/detalhe/lei/13-2023-208854851', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Segurança Social — Subsídio Parental', url: 'https://www.seg-social.pt/parentalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 7/2009 — Código do Trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CITE — Comissão para a Igualdade no Trabalho', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'CITE — Comissão para a Igualdade no Trabalho', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei Orgânica 1/2026, de 18 de maio — alteração à Lei 37/81 (Lei da Nacionalidade)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

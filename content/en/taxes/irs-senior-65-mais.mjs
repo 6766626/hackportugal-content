@@ -138,7 +138,7 @@ export default {
     },
     {
       title: 'ePortugal — IRS for citizens resident in Portugal',
-      url: 'https://eportugal.gov.pt/cidadaos/entregar-a-declaracao-de-irs',
+      url: 'https://www.gov.pt/cidadaos/entregar-a-declaracao-de-irs',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

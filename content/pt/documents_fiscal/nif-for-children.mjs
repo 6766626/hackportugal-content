@@ -96,7 +96,7 @@ export default {
   timelineDaysMin: 1,
   timelineDaysMax: 15,
   sources: [
-    { title: 'ePortugal — Balcão do Nado Vivo', url: 'https://eportugal.gov.pt/servicos/registar-o-nascimento-no-balcao-do-nado-vivo', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Balcão do Nado Vivo', url: 'https://www.gov.pt/servicos/registar-o-nascimento-no-balcao-do-nado-vivo', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Cartão de Cidadão / Nascer Cidadão', url: 'https://irn.justica.gov.pt/Servicos/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — Ofício Circulado 90057/2022 (representante fiscal)', url: 'https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'HCCH — Estatuto da Convenção da Apostila', url: 'https://www.hcch.net/en/instruments/conventions/status-table/?cid=41', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },

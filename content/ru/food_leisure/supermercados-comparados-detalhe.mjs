@@ -195,7 +195,7 @@ export default {
     },
     {
       title: 'Direção-Geral do Consumidor — права потребителей, indicação de preços и reclamações',
-      url: 'https://www.dgc.gov.pt',
+      url: 'https://www.consumidor.gov.pt/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -209,12 +209,12 @@ export default {
     },
     {
       title: 'ePortugal — информация о защите прав потребителей в Португалии',
-      url: 'https://eportugal.gov.pt/cidadaos-europeus-viajar-viver-e-fazer-negocios-em-portugal/direitos-dos-consumidores-em-portugal',
+      url: 'https://www.gov.pt/cidadaos/-/informacoes/direitos-do-consumidor',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

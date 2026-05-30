@@ -57,8 +57,8 @@ export default {
           'The kWh price may include energy + tarifas de acesso às redes or be shown as separate lines',
           'In the liberalised market, the price depends on the contract, not only on ERSE'
         ] },
-        { kind: 'paragraph', text: 'IVA on consumo in mainland Portugal: for capacity up to 6.9 kVA, the first 100 kWh over 30 days are taxed at 6%; for large families, the limit may be 150 kWh over 30 days after status confirmation; consumption above the limit is taxed at 23%. If the billing period is not 30 days, the limit is recalculated proportionally.' },
-        { kind: 'warning', text: 'If the bill period is 60 days, the limit for reduced IVA on consumo is not “100 kWh”, but roughly 200 kWh. That is why the IVA lines may look unexpected: some kWh at 6%, the remainder at 23%.' }
+        { kind: 'paragraph', text: 'IVA on consumo in mainland Portugal: since 1 January 2025, under Lei n.º 38/2024, for capacity up to 6.9 kVA the first 200 kWh over 30 days are taxed at 6%; for large families (5+ members), the limit is 300 kWh over 30 days after status confirmation; consumption above the limit is taxed at 23%. If the billing period is not 30 days, the limit is recalculated proportionally.' },
+        { kind: 'warning', text: 'If the bill period is 60 days, the limit for reduced IVA on consumo is not “200 kWh”, but roughly 400 kWh. That is why the IVA lines may look unexpected: some kWh at 6%, the remainder at 23%.' }
       ]
     },
     {
@@ -131,8 +131,9 @@ export default {
     { title: 'ERSE: information for electricity consumers and bill breakdown', url: 'https://www.erse.pt/consumidores-de-energia/eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE: electricity tariffs, prices and IVA', url: 'https://www.erse.pt/atividade/regulacao/tarifas-e-precos-eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DECO Proteste: how to read an electricity bill', url: 'https://www.deco.proteste.pt/casa-energia/eletricidade-gas', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'E-REDES: submitting meter readings', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'E-REDES: submitting meter readings', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ERSExplica: application of IVA on the electricity bill (200/300 kWh, Lei n.º 38/2024)', url: 'https://www.erse.pt/media/tcsfm4n2/ersexplica_iva-fatura_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

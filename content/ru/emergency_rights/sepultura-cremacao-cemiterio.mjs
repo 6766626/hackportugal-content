@@ -132,7 +132,7 @@ export default {
     },
     {
       title: 'ePortugal — guia oficial: o que fazer quando alguém morre',
-      url: 'https://eportugal.gov.pt/guias/o-que-fazer-quando-alguem-morre',
+      url: 'https://www.gov.pt/guias/o-que-fazer-quando-alguem-morre',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

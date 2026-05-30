@@ -3,7 +3,7 @@ export default {
   id: 'apoio-aleitamento-materno',
   categoryId: 'healthcare',
   title: 'Breastfeeding support: help with breastfeeding in the SNS',
-  tldr: 'In Portugal, you can get help with breastfeeding free of charge through the SNS: at the Centro de Saúde with an enfermeira de saúde materna/infantil, at the maternity hospital through the Cantinho da Amamentação, and by phone via Linha SOS Amamentação 800 200 200. A número de utente is needed, but in urgent situations help should not be delayed. At work, Código do Trabalho art. 47 gives up to 2 hours per day for amamentação/aleitação: usually 2 periods of 1 hour, at least until the child is 1 year old, and longer if breastfeeding is actually continuing, with confirmation.',
+  tldr: 'In Portugal, you can get help with breastfeeding free of charge through the SNS: at the Centro de Saúde with an enfermeira de saúde materna/infantil, at the maternity hospital through the Cantinho da Amamentação, and by phone via Linha SOS Amamentação 213 880 915 (Mon-Fri 10h-18h). A número de utente is needed, but in urgent situations help should not be delayed. At work, Código do Trabalho art. 47 gives up to 2 hours per day for amamentação/aleitação: usually 2 periods of 1 hour, at least until the child is 1 year old, and longer if breastfeeding is actually continuing, with confirmation.',
   tags: ['breastfeeding', 'sns', 'birth', 'work'],
   estimatedReadMinutes: 5,
   steps: [
@@ -29,7 +29,7 @@ export default {
             { kind: 'paragraph', text: 'Many SNS maternidades and hospitais have a Cantinho da Amamentação — a room or team that helps with lactation after discharge. This is usually especially useful in the first 2–6 weeks, when cracked nipples, blocked ducts, latch problems or supplementation issues arise.' }
           ]},
           { id: 'phone-app', title: '3. Linha SOS Amamentação and app', content: [
-            { kind: 'paragraph', text: 'Linha SOS Amamentação: 800 200 200. This is the free helpline of Associação SOS Amamentação, where you can get advice on common feeding problems. The SOS-Amamentação app is also available: useful for recording feeds and quickly finding support contacts.' }
+            { kind: 'paragraph', text: 'Linha SOS Amamentação: 213 880 915 (Mon-Fri 10h-18h). This is the helpline of Associação SOS Amamentação, where you can get advice on common feeding problems. It is a Lisbon geographic number charged at the normal call rate. The SOS-Amamentação app is also available: useful for recording feeds and quickly finding support contacts.' }
           ]}
         ]}
       ]
@@ -63,15 +63,15 @@ export default {
   ],
   costs: [
     { label: 'Consulta de enfermagem / apoio à amamentação in the SNS', amountEUR: 0, note: 'For SNS users with a número de utente; in urgent situations, help should not be delayed because of bureaucracy.' },
-    { label: 'Linha SOS Amamentação 800 200 200', amountEUR: 0, note: 'Free telephone breastfeeding support line.' },
+    { label: 'Linha SOS Amamentação 213 880 915 (Mon-Fri 10h-18h)', amountEUR: 0, note: 'Telephone breastfeeding support line; a Lisbon geographic number charged at the normal call rate.' },
     { label: 'Private lactation consultant', amountEURMin: 40, amountEURMax: 100, note: 'Market guide for an in-person/online consultation; does not replace medical help in case of fever, mastitis or problems with the baby’s weight.' }
   ],
   sources: [
     { title: 'DGS — recommendations and materials on aleitamento materno', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — gravidez, pós-parto, bebé and access to SNS services', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Trabalho — art. 47, dispensa para amamentação ou aleitação', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Associação SOS Amamentação — Linha SOS Amamentação 800 200 200', url: 'https://www.sosamamentacao.org.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Associação SOS Amamentação — Linha SOS Amamentação 213 880 915', url: 'https://www.sosamamentacao.org.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

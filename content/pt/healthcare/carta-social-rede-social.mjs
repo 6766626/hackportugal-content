@@ -119,9 +119,9 @@ export default {
   ],
   sources: [
     { title: 'Carta Social — pesquisa oficial de instituições sociais e respostas sociais', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'GEPIS — plataforma pública de informação sobre a rede social', url: 'https://www.gepis.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'GEP — Carta Social, Gabinete de Estratégia e Planeamento (MTSSS)', url: 'https://www.gep.mtsss.gov.pt/carta-social', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Segurança Social — IPSS e respostas sociais', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

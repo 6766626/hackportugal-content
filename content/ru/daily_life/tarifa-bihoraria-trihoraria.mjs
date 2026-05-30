@@ -118,7 +118,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Официальный Simulador ERSE — лучший способ не гадать. Он сравнивает предложения свободного и регулируемого рынка по вашему профилю, мощности и годовому потреблению.' },
         { kind: 'checklist', items: [
-          'Откройте simulador.erse.pt.',
+          'Откройте simuladorprecos.erse.pt.',
           'Выберите eletricidade или eletricidade + gás, если у вас bundle.',
           'Введите potência contratada из счёта.',
           'Введите годовое потребление kWh; если есть данные по зонам, внесите их отдельно.',
@@ -138,9 +138,9 @@ export default {
   ],
   sources: [
     { title: 'ERSE — информация о потребителях электроэнергии и тарифных опциях', url: 'https://www.erse.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Simulador ERSE — официальный симулятор тарифов eletricidade/gás', url: 'https://www.simulador.erse.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Simulador ERSE — официальный симулятор тарифов eletricidade/gás', url: 'https://simuladorprecos.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'E-REDES — ciclos horários и счётчики для baixa tensão', url: 'https://www.e-redes.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

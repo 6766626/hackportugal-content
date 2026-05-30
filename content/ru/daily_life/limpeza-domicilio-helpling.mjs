@@ -3,7 +3,7 @@ export default {
   id: 'limpeza-domicilio-helpling',
   categoryId: 'daily_life',
   title: 'Уборка на дому: Helpling, Lavanda Lisboa и частные клинеры',
-  tldr: 'В Португалии разовая уборка через платформы обычно стоит 12–18 €/ч у Helpling и похожих сервисов; частные клинеры через Fixando/Habitissimo часто называют цену после осмотра или по часам. Для Лиссабона закладывайте 35–70 € за стандартную уборку T1–T2 без окон и глажки. Важная грань: самозанятый клинер с recibos verdes сам платит Segurança Social, а регулярная помощница, работающая у вас напрямую как serviço doméstico, должна быть оформлена; при выплатах свыше 100 €/мес регистрация в Segurança Social обязательна.',
+  tldr: 'В Португалии разовая уборка через платформы обычно стоит 12–18 €/ч у Helpling и похожих сервисов; частные клинеры через Fixando/Habitissimo часто называют цену после осмотра или по часам. Для Лиссабона закладывайте 35–70 € за стандартную уборку T1–T2 без окон и глажки. Важная грань: самозанятый клинер с recibos verdes сам платит Segurança Social, а регулярная помощница, работающая у вас напрямую как serviço doméstico, должна быть оформлена; регистрация в Segurança Social обязательна независимо от суммы выплат и числа отработанных часов.',
   tags: ['уборка', 'helpling', 'limpeza', 'segurança-social'],
   estimatedReadMinutes: 5,
   steps: [
@@ -70,7 +70,7 @@ export default {
       title: 'Формально или «по знакомству»: где риск',
       content: [
         { kind: 'paragraph', text: 'Если клинер приходит как самозанятый profissional, выставляет recibos verdes или fatura, вы покупаете услугу. В этом сценарии клинер сам отвечает за свою Segurança Social и налоги.' },
-        { kind: 'paragraph', text: 'Если вы нанимаете одного и того же человека напрямую, задаёте расписание, платите регулярно и фактически выступаете работодателем, это serviço doméstico. В этом случае нужно оформление в Segurança Social. Практический порог для обязательной регистрации при регулярной домашней работе — выплаты свыше 100 €/мес; лучше не дробить платежи наличными, если отношения постоянные.' },
+        { kind: 'paragraph', text: 'Если вы нанимаете одного и того же человека напрямую, задаёте расписание, платите регулярно и фактически выступаете работодателем, это serviço doméstico. В этом случае нужно оформление в Segurança Social. Регистрация обязательна независимо от суммы выплат и числа отработанных часов; при почасовой оплате работодатель обязан декларировать минимум 30 часов в месяц, даже если фактически отработано меньше. Несообщение о приёме на работу карается как преступление (тюрьма или штраф), поэтому лучше не дробить платежи наличными, если отношения постоянные.' },
         { kind: 'checklist', items: [
           'Попросите NIF и документ, удостоверяющий личность.',
           'Уточните, работает ли человек как trabalhador independente и может ли выдать recibo verde/fatura.',
@@ -119,7 +119,7 @@ export default {
     { label: 'Helpling / похожие платформы', amountEURMin: 12, amountEURMax: 18, note: 'Ориентир за час бытовой уборки; итог зависит от города, минимального заказа и допработ.' },
     { label: 'Стандартная уборка T1', amountEURMin: 30, amountEURMax: 50, note: 'Обычно 2–3 часа без окон, духовки и глубокой уборки.' },
     { label: 'Стандартная уборка T2', amountEURMin: 45, amountEURMax: 70, note: 'Обычно 3–4 часа; расходники могут быть ваши.' },
-    { label: 'Регулярная частная помощница', amountEURMin: 100, amountEURMax: 300, note: 'При выплатах свыше 100 €/мес за serviço doméstico нужна регистрация в Segurança Social.' }
+    { label: 'Регулярная частная помощница', amountEURMin: 100, amountEURMax: 300, note: 'Регистрация в Segurança Social за serviço doméstico обязательна независимо от суммы и часов; при почасовой оплате декларируется минимум 30 часов в месяц.' }
   ],
   sources: [
     { title: 'Segurança Social: trabalhador do serviço doméstico', url: 'https://www.seg-social.pt/trabalhador-do-servico-domestico', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -127,6 +127,6 @@ export default {
     { title: 'DECO PROteste: direitos e cuidados na contratação de serviços domésticos', url: 'https://www.deco.proteste.pt', kind: 'news', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Helpling Portugal: serviço de limpeza doméstica', url: 'https://www.helpling.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -132,9 +132,9 @@ export default {
   ],
   sources: [
     { title: 'Bombeiros.pt — Bombeiros Portugueses portal and information on corporações', url: 'https://www.bombeiros.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ANEPC — Autoridade Nacional de Emergência e Proteção Civil', url: 'https://www.anepc.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ANEPC — Autoridade Nacional de Emergência e Proteção Civil', url: 'https://prociv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — medical emergency and use of 112', url: 'https://www.sns24.gov.pt/guia/emergencia-medica/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

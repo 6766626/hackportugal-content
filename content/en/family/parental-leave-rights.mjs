@@ -121,7 +121,7 @@ export default {
           '💰 Replace with: “180 days partilhada may be an advantageous scheme, but check the rate: 83% in the ordinary shared option or 90% with enhanced sharing under Lei 13/2023. Compare the total family income and each parent’s ability to take the required exclusive period”., but compare the total family income and the father’s real ability to take his part',
           '📅 Before/after the birth, choose the licença parental inicial scheme: 120, 150 or partilhada 150/180 days; for 180 days partilhada, agree the mother’s and father’s periods with the employers in advance',
           '🩺 Benefit calculation: remuneração de referência = earnings for 6 of the previous 8 months / 180. If you go on maternity leave soon after a pay rise, the new salary may not fully make it into the base',
-          '🛡️ Maternity leave does not interrupt the length of lawful residence if the residence permit remains valid/extended. For citizenship, check the current version of Lei da Nacionalidade: Decreto AR 48/XVII was promulgated by President Seguro on 03/05/2026 and will increase the period to 7/10 years after publication in the DRE — as of 17/05/2026 the current rule is 5 years (Lei 37/81)',
+          '🛡️ Maternity leave does not interrupt the length of lawful residence if the residence permit remains valid/extended. For citizenship, check the current version of Lei da Nacionalidade: Lei Orgânica 1/2026 of 18 May (amending Lei 37/81) is already in force since 19/05/2026 and, for new applications, requires 7 years of residence (CPLP/EU nationals) or 10 years (others); the 5-year rule survives only for procedures already pending before 19/05/2026 (Art. 7.º n.º 2)',
           '⚖️ Protection against dismissal: dismissal of a pregnant, recently postpartum or breastfeeding worker, or a worker on parental leave, requires a special procedure and a prior opinion from CITE; there is no universal immunity for 12 months after returning',
           '👶 In the SNS, pregnancy monitoring, childbirth, vaccination and paediatric care are usually free/exempt from taxas moderadoras; foreign nationals should arrange a número de utente in advance',
           '📑 Keep all certificates and applications — they may be needed for the next maternity leave or a tax audit'
@@ -138,8 +138,9 @@ export default {
     { title: 'Lei 13/2023 — Amendment to the Código do Trabalho', url: 'https://diariodarepublica.pt/dr/detalhe/lei/13-2023-208854851', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Segurança Social — Subsídio Parental', url: 'https://www.seg-social.pt/parentalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 7/2009 — Código do Trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CITE — Commission for Equality in Labour', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'CITE — Commission for Equality in Labour', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei Orgânica 1/2026, de 18 de maio — amendment to Lei 37/81 (Nationality Law)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

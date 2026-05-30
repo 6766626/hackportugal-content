@@ -3,7 +3,7 @@ export default {
   id: 'vhf-radio-marinha-cep',
   categoryId: 'food_leisure',
   title: 'Marine VHF radio — CEP licence and operator certificate',
-  tldr: 'If you have a VHF radio on board (or plan to install one), you need two documents: 1) Licença de Estação (CEP) from ANACOM (Autoridade Nacional de Comunicações — the national communications regulator) for the radio station itself — €30–80 per year; 2) Certificado de Operador (SRC/LRC) — personal authorisation to operate on air, essentially the operator’s “licence”. SRC (Short Range Certificate) — for VHF near the coast, exam €80–150. LRC (Long Range Certificate) — for DSC and satellite/long-range communications. Operating on marine frequencies without these documents is an offence, with fines of up to €2,000. Emergency channel 16 must be monitored continuously when VHF is switched on. Foreign certificates RYA SRC, ICC VHF and UKHO are recognised.',
+  tldr: 'If you have a VHF radio on board (or plan to install one), you need two documents: 1) Licença de Estação (CEP) from DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos — the maritime authority) for the radio station itself, applied for via the www.bmar.pt portal — €30–80 per year; 2) Certificado de Operador (SRC/LRC) — personal authorisation to operate on air, essentially the operator’s “licence”. SRC (Short Range Certificate) — for VHF near the coast, exam €80–150. LRC (Long Range Certificate) — for DSC and satellite/long-range communications. Operating on marine frequencies without these documents is an offence, with fines of up to €2,000. Emergency channel 16 must be monitored continuously when VHF is switched on. Foreign certificates RYA SRC, ICC VHF and UKHO are recognised.',
   tags: ['vhf', 'radio', 'anacom', 'src', 'navigation'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,11 +27,11 @@ export default {
       content: [
         { kind: 'paragraph', text: 'CEP is the licence for the specific VHF installation on your boat. It is linked to the vessel, not to the person.' },
         { kind: 'checklist', items: [
-          'Issued by ANACOM',
-          'Application: on anacom.pt → electronic forms (e‑formulários) → Estações de barco',
+          'Issued by DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos)',
+          'Application: register and authenticate on the www.bmar.pt portal (Licença de Estação de Embarcação)',
           'You will need: boat registration, VHF details (model, serial number, whether it has DSC), MMSI',
           'MMSI (Maritime Mobile Service Identity) — mandatory 9-digit identifier for DSC',
-          'MMSI is arranged through ANACOM and is free when applying for CEP',
+          'MMSI is arranged through DGRM and is free when applying for CEP',
           'CEP cost: €30–80 per year (depends on the vessel category)',
           'Renewal: annually; you can pay via Multibanco (ATM/online payment) or MB WAY (mobile payment service)'
         ] },
@@ -44,14 +44,14 @@ export default {
       content: [
         { kind: 'paragraph', text: 'SRC (Short Range Certificate) is a personal operator certificate; without it you may not transmit on air.' },
         { kind: 'checklist', items: [
-          'Who issues it: ANACOM through accredited maritime schools',
+          'Who issues it: DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos) through accredited maritime schools',
           'Minimum age: 16',
           'Course: 8–16 hours of theory plus practical radio operation',
           'Content: radio communication rules, NATO phonetic alphabet, channel overview, DSC operation, emergency procedures, MAYDAY/PAN-PAN/SECURITE',
           'Course cost: €100–200',
           'Exam: test + practical part on VHF and DSC',
           'Certificate has no expiry date',
-          'If you already have RYA SRC or ICC VHF — ANACOM has simplified recognition'
+          'If you already have RYA SRC or ICC VHF — DGRM has simplified recognition'
         ] },
         { kind: 'paragraph', text: 'LRC (Long Range Certificate) is for long-range communications (MF/HF, satellite). Usually needed for ocean passages. Course 30–50 hours, ~€250–400.' }
       ]
@@ -65,7 +65,7 @@ export default {
             id: 's1',
             title: 'Find a school',
             content: [
-              { kind: 'paragraph', text: 'See the list of ANACOM-accredited courses on anacom.pt → Radiocomunicações marítimas. Many schools are the same ones that prepare people for skipper licences. There are often combos: Patrão Local + SRC in one course for ~€700.' }
+              { kind: 'paragraph', text: 'The operator certificate is issued by DGRM — see the procedure and the list of accredited courses on dgrm.pt (Certificação profissional, Circular n.º 56). Many schools are the same ones that prepare people for skipper licences. There are often combos: Patrão Local + SRC in one course for ~€700.' }
             ]
           },
           {
@@ -91,7 +91,7 @@ export default {
             id: 's4',
             title: 'Receive your SRC',
             content: [
-              { kind: 'paragraph', text: 'The school submits your details to ANACOM; after 2–4 weeks the certificate arrives by post or email. It may be electronic (with QR) or plastic.' }
+              { kind: 'paragraph', text: 'The school submits your details to DGRM; after 2–4 weeks the certificate arrives by post or email. It may be electronic (with QR) or plastic.' }
             ]
           }
         ] }
@@ -102,7 +102,7 @@ export default {
       title: 'Recognition of foreign certificates',
       content: [
         { kind: 'checklist', items: [
-          'RYA SRC — recognised directly by ANACOM, registration required',
+          'RYA SRC — recognised directly by DGRM, registration required',
           'ICC VHF endorsement — recognised',
           'UK CAA SRC (after Brexit) — re-examination in Portugal is required',
           'NRR/NDA from Germany and France — recognised within the EU',
@@ -155,11 +155,12 @@ export default {
     { label: 'Handheld VHF', amountEURMin: 100, amountEURMax: 350 }
   ],
   sources: [
-    { title: 'ANACOM — Maritime radiocommunications', url: 'https://www.anacom.pt/render.jsp?categoryId=320', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'ANACOM — Operator Certificates', url: 'https://www.anacom.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'DGRM — Vessel Station Licence (BMAR portal)', url: 'https://www.dgrm.pt/navios-e-embarcacoes?articleId=204988', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'DGRM — Professional certification (radiotelephone operator certificate)', url: 'https://www.dgrm.pt/certificacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'ANACOM — Maritime radiocommunications (spectrum)', url: 'https://www.anacom.pt/render.jsp?categoryId=387625', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 53/2009 — radiocommunications', url: 'https://dre.pt/dre/detalhe/decreto-lei/53-2009-606037', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ITU Radio Regulations', url: 'https://www.itu.int/pub/R-REG-RR', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

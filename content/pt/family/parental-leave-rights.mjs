@@ -121,7 +121,7 @@ export default {
           '💰 Substituir por: «180 dias partilhada pode ser um regime vantajoso, mas confirme a taxa: 83% na variante shared normal ou 90% com partilha reforçada ao abrigo da Lei 13/2023. Compare o rendimento familiar total e a possibilidade de cada progenitor gozar o período exclusivo exigido»., mas compare o rendimento familiar total e a possibilidade de o pai gozar efetivamente a sua parte',
           '📅 Antes/depois do nascimento, escolha o regime de licença parental inicial: 120, 150 ou partilhada 150/180 dias; para 180 dias partilhada, acorde antecipadamente com as entidades empregadoras os períodos da mãe e do pai',
           '🩺 Cálculo do subsídio: remuneração de referência = remuneração dos 6 dos 8 meses anteriores / 180. Se entrar em licença pouco depois de um aumento, o novo salário pode não entrar totalmente na base de cálculo',
-          '🛡️ A licença parental não interrompe o tempo de residência legal, se a autorização de residência continuar válida/prorrogada. Para a nacionalidade, verifique a redação atual da Lei da Nacionalidade: Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026 e aumentará o prazo para 7/10 anos após publicação no DRE — em 17.05.2026 vigora a regra de 5 anos (Lei 37/81)',
+          '🛡️ A licença parental não interrompe o tempo de residência legal, se a autorização de residência continuar válida/prorrogada. Para a nacionalidade, verifique a redação atual da Lei da Nacionalidade: a Lei Orgânica 1/2026, de 18 de maio (que altera a Lei 37/81), já está em vigor desde 19.05.2026 e, para novos pedidos, exige 7 anos de residência (nacionais CPLP/UE) ou 10 anos (restantes); a regra dos 5 anos só se mantém para procedimentos já pendentes antes de 19.05.2026 (Art. 7.º n.º 2)',
           '⚖️ Proteção contra despedimento: o despedimento de trabalhadora grávida, puérpera, lactante ou de trabalhador em parental leave exige procedimento especial e parecer prévio da CITE; não existe imunidade universal durante 12 meses após o regresso',
           '👶 No SNS, o acompanhamento da gravidez, o parto, a vacinação e os cuidados pediátricos são normalmente gratuitos/isentos de taxas moderadoras; para estrangeiros — tratar antecipadamente do número de utente',
           '📑 Guarde todos os atestados e pedidos — podem ser necessários na licença seguinte ou numa inspeção fiscal'
@@ -138,8 +138,9 @@ export default {
     { title: 'Lei 13/2023 — Alteração ao Código do Trabalho', url: 'https://diariodarepublica.pt/dr/detalhe/lei/13-2023-208854851', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Segurança Social — Subsídio Parental', url: 'https://www.seg-social.pt/parentalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 7/2009 — Código do Trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'CITE — Comissão para a Igualdade no Trabalho', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'CITE — Comissão para a Igualdade no Trabalho', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei Orgânica 1/2026, de 18 de maio — alteração à Lei 37/81 (Lei da Nacionalidade)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

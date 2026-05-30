@@ -126,7 +126,7 @@ export default {
   sources: [
     {
       title: 'Portal das Finanças: certified invoicing software',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Paginas/certificacao-de-software.aspx',
+      url: 'https://www.gov.pt/servicos/consultar-o-programa-de-faturacao-certificado',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

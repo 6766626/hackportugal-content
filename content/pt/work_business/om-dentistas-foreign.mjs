@@ -3,7 +3,7 @@ export default {
   id: 'om-dentistas-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Médicos Dentistas: como um dentista estrangeiro pode trabalhar em Portugal',
-  tldr: 'Dentista em Portugal é uma profissão regulamentada: só é possível trabalhar após inscrição na Ordem dos Médicos Dentistas (OMD). Para um diploma fora da UE, em 2026 o percurso é normalmente este: reconhecer o diploma através da DGES/de uma instituição de ensino superior portuguesa ao abrigo do DL 66/2018, depois realizar uma prova escrita da OMD em português — 2 partes de 120 e 80 minutos — e só depois apresentar o pedido de inscrição. Sem número da OMD, não é legal atender pacientes como médico dentista.',
+  tldr: 'Dentista em Portugal é uma profissão regulamentada: só é possível trabalhar após inscrição na Ordem dos Médicos Dentistas (OMD). Para um diploma fora da UE, em 2026 o percurso é normalmente este: reconhecer o diploma através da DGES/de uma instituição de ensino superior portuguesa ao abrigo do DL 66/2018, depois realizar a prova de língua da OMD Prova de Comunicação em Medicina Dentária (PCMD) — uma prova de português ao nível B2 do QECR, com duração máxima de 120 minutos — e só depois apresentar o pedido de inscrição. Sem número da OMD, não é legal atender pacientes como médico dentista.',
   tags: ['omd', 'dentista', 'dges', 'trabalho'],
   estimatedReadMinutes: 6,
   steps: [
@@ -40,19 +40,20 @@ export default {
     },
     {
       id: 'omd-written-exam',
-      title: 'Passo 2. Realizar a prova escrita da OMD em português',
+      title: 'Passo 2. Realizar a prova de língua da OMD (PCMD)',
       content: [
-        { kind: 'paragraph', text: 'Após o reconhecimento académico, a OMD aplica o procedimento de verificação de qualificações para candidatos com formação fora da UE. O filtro principal é uma prova escrita em língua portuguesa: duas partes com duração de 120 minutos e 80 minutos. Na prática, isto significa que o português médico não é necessário apenas «para cumprir formalidade», mas para compreender casos clínicos, terminologia, farmacologia e ética.' },
+        { kind: 'paragraph', text: 'Após o reconhecimento académico, a OMD aplica um procedimento para candidatos com formação fora da UE. O filtro principal é a Prova de Comunicação em Medicina Dentária (PCMD): uma prova de língua que avalia o conhecimento linguístico necessário ao exercício da profissão, equivalente ao nível B2 do QECR — não é um exame de conhecimentos clínicos. A exigência foi introduzida pelo Estatuto da OMD na redação da Lei 73/2023 (12 de dezembro de 2023, em vigor desde 1 de março de 2024) para candidatos que não sejam nacionais de Portugal nem de países de língua portuguesa; estão isentos os candidatos que realizaram toda a formação em medicina dentária em português. A duração máxima é de 120 minutos.' },
         { kind: 'checklist', items: [
-          'O exame realiza-se em português; não existe direito automático a fazê-lo em inglês ou russo',
-          'São avaliados conhecimentos comparáveis à formação portuguesa em Medicina Dentária',
-          'O formato é escrito, com duas partes: 120 minutos + 80 minutos',
-          'A OMD pode publicar datas concretas, instruções, regras de admissão e lista de temas separadamente da página geral de inscrição',
+          'A prova realiza-se em português; não existe direito automático a fazê-la em inglês ou russo',
+          'Avalia o conhecimento linguístico ao nível B2 do QECR, não conhecimentos clínicos — os conhecimentos e a equivalência académica são avaliados separadamente na fase da DGES/instituição de ensino superior (Reconhecimento Específico)',
+          'Formato: Parte 1 Receção (eliminatória) — compreensão escrita 40 minutos e compreensão oral 30 minutos; Parte 2 Produção — produção escrita 30 minutos e uma parte oral de 20 minutos (entrevista, relato oral de caso clínico, comentário oral)',
+          'A duração máxima total é de 120 minutos; a prova inclui um componente oral, não é apenas escrita',
+          'A OMD pode publicar datas concretas, instruções, regras de admissão e o regulamento separadamente da página geral de inscrição',
           'O candidato deve confirmar previamente a admissão, pagar as taxas aplicáveis, se forem indicadas pela OMD, e comparecer com documento de identificação',
-          'Não conte com uma clínica empregadora como substituto do exame: a OMD verifica a qualificação independentemente da job offer',
-          'Se não domina Portuguese medical vocabulary, planeie primeiro uma aprendizagem intensiva da língua a um nível não inferior a B2/C1 para o ambiente profissional'
+          'Há isenção da PCMD para candidatos que realizaram toda a formação em medicina dentária em português',
+          'Se não domina Portuguese medical vocabulary, planeie primeiro uma aprendizagem intensiva da língua a um nível não inferior a B2 para o ambiente profissional'
         ] },
-        { kind: 'warning', text: 'Não confunda o exame da OMD com o reconhecimento do diploma pela DGES. São etapas diferentes: a DGES confirma a equivalência académica, a OMD decide sobre o acesso ao exercício profissional.' }
+        { kind: 'warning', text: 'Não confunda a prova de língua da OMD (PCMD) com o reconhecimento do diploma pela DGES. São etapas diferentes: a DGES/a instituição de ensino superior confirma a equivalência académica e os conhecimentos (Reconhecimento Específico), enquanto a PCMD apenas verifica o conhecimento da língua portuguesa para a profissão.' }
       ]
     },
     {
@@ -65,7 +66,7 @@ export default {
           'NIF — necessário para pagamentos, contratos e emissão de recibos/faturas',
           'Documento de reconhecimento do grau estrangeiro através da DGES/de uma instituição de ensino superior portuguesa',
           'Original do diploma e suplemento/transcrição com traduções, se aplicável',
-          'Comprovativo da conclusão com sucesso do procedimento de qualificação da OMD, incluindo a prova escrita, se tiver sido exigida',
+          'Comprovativo da realização com sucesso da prova de língua da OMD (PCMD), se tiver sido exigida',
           'Certificado de registo criminal — normalmente de Portugal e/ou do país de origem/residência anterior, se a OMD o solicitar',
           'Fotografia, contactos, morada em Portugal e dados profissionais',
           'Declarações sobre idoneidade profissional, ética e ausência de proibições de exercício, se exigidas pelos formulários da OMD',
@@ -121,6 +122,13 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'OMD: Prova de Comunicação em Medicina Dentária (PCMD) — regulamento',
+      url: 'https://www.omd.pt/inscricao/pcmd/regulamento/',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
+    },
+    {
       title: 'Decreto-Lei 66/2018: regime jurídico de reconhecimento de graus académicos e diplomas estrangeiros',
       url: 'https://dre.pt/dre/detalhe/decreto-lei/66-2018-116068879',
       kind: 'law',
@@ -135,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

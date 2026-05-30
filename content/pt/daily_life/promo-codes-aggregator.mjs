@@ -58,10 +58,10 @@ export default {
       id: 'youth-card',
       title: 'Cartão Jovem Europeu — must-have para 12-29 anos',
       content: [
-        { kind: 'paragraph', text: 'Programa público do IPDJ (Instituto Português do Desporto e Juventude). Válido em todos os 38 países da European Youth Card Association. Validade de 1 ano, preço 11 € (por equivalente).' },
+        { kind: 'paragraph', text: 'Programa público do IPDJ (Instituto Português do Desporto e Juventude). Válido em todos os 38 países da European Youth Card Association. Validade de 1 ano. Desde 2024, a emissão do Cartão Jovem padrão em Portugal é gratuita (antes custava 10 €).' },
         { kind: 'checklist', items: [
           '🎯 Idade: 12-29 anos (inclusive)',
-          '💶 Preço: 8 € (online) ou 11 € (nos balcões do IPDJ). Validade: 1 ano',
+          '💶 Preço: gratuito desde 2024 (antes 10 €). Validade: 1 ano',
           '🎫 Descontos em Portugal: ~60 categorias de negócios, do cinema (FNAC -10%) a festivais (NOS Alive -15%)',
           '🚊 Transportes: CP (comboios) -25%, FlixBus -10%, Carris -50% no passe turístico',
           '🏛️ Museus: entrada gratuita em muitos museus públicos de Lisboa/Porto',
@@ -182,7 +182,7 @@ export default {
     { title: 'ACSS — Conselho Nacional Famílias Numerosas', url: 'https://famnumerosas.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal das Finanças — e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: cartões de desconto e promoções em Portugal. Cartão Continente (principal), Pingo Doce Poupa Mais, Cartão Jovem Europeu (12-29 anos, ~60 categorias de descontos), Cartão Família Numerosa (para 3+ filhos), programas de lojas (KIWOKO, Decathlon, FNAC), sites de cashback (Letyshops, eBuyClub), agregadores de cupões (Radarcupao, Ocacapromocoes), reembolso de IVA via e-Fatura através do IRS.'

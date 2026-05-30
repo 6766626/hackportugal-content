@@ -3,7 +3,7 @@ export default {
   id: 'sintra-quintas-historicas',
   categoryId: 'travel_portugal',
   title: 'Sintra em profundidade: Palácio da Pena, Monserrate e Quinta da Regaleira',
-  tldr: 'Sintra não é «um palácio em meia jornada», mas sim um roteiro cultural denso para 1–2 dias. Em abril de 2026, as referências são: Palácio da Pena — 14 € e apenas com horário previamente escolhido online; Quinta da Regaleira — 11 €; Monserrate — 8 € e, normalmente, menos multidões; Castelo dos Mouros — 8 €; Palácio Nacional de Sintra — 10 €. Se quiser visitar vários espaços da Parques de Sintra, veja o unified ticket por cerca de 40 €. É melhor não levar carro para o centro histórico: comboio CP + autocarros 434/435 é mais simples.',
+  tldr: 'Sintra não é «um palácio em meia jornada», mas sim um roteiro cultural denso para 1–2 dias. Em maio de 2026, as referências são: Palácio da Pena — 20 € e apenas com horário previamente escolhido online; Quinta da Regaleira — 11 €; Monserrate — 12 € e, normalmente, menos multidões; Castelo dos Mouros — 12 €; Palácio Nacional de Sintra — 10 €. A Parques de Sintra não vende um bilhete combinado fixo: comprar vários monumentos na mesma compra dá um desconto progressivo (até cerca de 10% para 6 espaços). Confirme os preços actuais em parquesdesintra.pt. É melhor não levar carro para o centro histórico: comboio CP + autocarros 434/435 é mais simples.',
   tags: ['sintra', 'pena', 'regaleira', 'monserrate', 'viagens'],
   estimatedReadMinutes: 6,
   steps: [
@@ -28,7 +28,7 @@ export default {
       id: 'pena',
       title: 'Palácio da Pena: bilhete, horário e logística real',
       content: [
-        { kind: 'paragraph', text: 'O Palácio da Pena é o principal íman de Sintra e o local mais complexo em termos logísticos. O bilhete de 14 € está normalmente associado à hora de entrada no palácio propriamente dito, e não apenas no parque. Se chegar atrasado ao horário, o pessoal pode não o deixar entrar nos interiores; o parque continuará acessível de acordo com as regras do bilhete específico, mas isso não substitui a visita ao palácio.' },
+        { kind: 'paragraph', text: 'O Palácio da Pena é o principal íman de Sintra e o local mais complexo em termos logísticos. O bilhete de 20 € está normalmente associado à hora de entrada no palácio propriamente dito, e não apenas no parque. Se chegar atrasado ao horário, o pessoal pode não o deixar entrar nos interiores; o parque continuará acessível de acordo com as regras do bilhete específico, mas isso não substitui a visita ao palácio.' },
         { kind: 'checklist', items: [
           'Compre o bilhete em parquesdesintra.pt, não a revendedores aleatórios.',
           'Escolha um horário de manhã, 09:30–10:30, ou mais tarde, depois das 15:30, se quiser menos grupos.',
@@ -64,7 +64,7 @@ export default {
       id: 'monserrate',
       title: 'Monserrate: o palácio mais subestimado de Sintra',
       content: [
-        { kind: 'paragraph', text: 'O Parque e Palácio de Monserrate é o melhor local para quem já viu a Pena ou quer uma Sintra sem sensação de linha de montagem turística. O bilhete custa cerca de 8 €. Aqui há menos multidões, mais espaço e um dos melhores jardins botânicos da região: jardim mexicano, roseiral, cascatas, árvores exóticas, vistas para as colinas.' },
+        { kind: 'paragraph', text: 'O Parque e Palácio de Monserrate é o melhor local para quem já viu a Pena ou quer uma Sintra sem sensação de linha de montagem turística. O bilhete custa cerca de 12 €. Aqui há menos multidões, mais espaço e um dos melhores jardins botânicos da região: jardim mexicano, roseiral, cascatas, árvores exóticas, vistas para as colinas.' },
         { kind: 'checklist', items: [
           'Reserve 1,5–2 horas, mas os amantes de jardins passam facilmente 3 horas.',
           'Monserrate encaixa bem no segundo dia em Sintra ou depois da Regaleira.',
@@ -81,7 +81,7 @@ export default {
       id: 'mouros-sintra-palace',
       title: 'Castelo dos Mouros e Palácio Nacional de Sintra',
       content: [
-        { kind: 'paragraph', text: 'O Castelo dos Mouros são muralhas acima de Sintra, com bilhete por cerca de 8 €. Não é um palácio, mas sim um percurso pelas muralhas com vistas para a Pena, a vila e o oceano em dias de bom tempo. O local é fisicamente activo: escadas, pedras, vento. É melhor combiná-lo com a Pena, porque ficam na mesma linha de serra.' },
+        { kind: 'paragraph', text: 'O Castelo dos Mouros são muralhas acima de Sintra, com bilhete por cerca de 12 €. Não é um palácio, mas sim um percurso pelas muralhas com vistas para a Pena, a vila e o oceano em dias de bom tempo. O local é fisicamente activo: escadas, pedras, vento. É melhor combiná-lo com a Pena, porque ficam na mesma linha de serra.' },
         { kind: 'paragraph', text: 'O Palácio Nacional de Sintra é o palácio branco com duas chaminés cónicas no centro histórico, com bilhete por cerca de 10 €. É o local mais conveniente em termos logísticos: há cafés, lojas, travesseiros e queijadas por perto. No interior, são importantes a Sala dos Cisnes, a Sala das Pegas, a Sala dos Brasões e a cozinha com chaminés gigantes.' },
         { kind: 'checklist', items: [
           'Escolha o Castelo dos Mouros com tempo limpo: com nevoeiro, o valor das vistas cai drasticamente.',
@@ -99,7 +99,7 @@ export default {
       id: 'tickets-routes',
       title: 'Bilhetes, unified ticket e roteiros prontos',
       content: [
-        { kind: 'paragraph', text: 'A Parques de Sintra tem venda online e opções combinadas. Para um conjunto de locais como Pena, Monserrate, Castelo dos Mouros e Palácio Nacional de Sintra, verifique o unified ticket por cerca de 40 €: pode compensar se tiver a certeza de que vai visitar vários espaços num curto período. Mas não compre um combinado «por ganância»: Sintra penaliza programas sobrecarregados.' },
+        { kind: 'paragraph', text: 'A Parques de Sintra tem venda online, mas não existe um bilhete combinado fixo. Em vez disso, comprar vários monumentos na mesma compra dá um desconto progressivo: 5% para 2 espaços, 6% para 3, 7% para 4, 8% para 5 e até 10% para 6. Por exemplo, Pena (20 €) + Monserrate (12 €) + Castelo dos Mouros (12 €) comprados em separado são 44 €, enquanto na mesma compra com o desconto de 6% ficam por cerca de 41 €. A poupança é pequena, por isso não compre espaços a mais «por ganância»: Sintra penaliza programas sobrecarregados.' },
         { kind: 'substeps', items: [
           { id: 'one-day-classic', title: '1 dia: clássicos pela primeira vez', content: [
             { kind: 'checklist', items: [
@@ -127,12 +127,12 @@ export default {
     }
   ],
   costs: [
-    { label: 'Palácio da Pena', amountEUR: 14, note: 'Referência para bilhete de adulto; reserve online com horário.' },
+    { label: 'Palácio da Pena', amountEUR: 20, note: 'Referência para bilhete de adulto; reserve online com horário.' },
     { label: 'Quinta da Regaleira', amountEUR: 11, note: 'Referência para bilhete de adulto para a propriedade e os jardins.' },
-    { label: 'Parque e Palácio de Monserrate', amountEUR: 8, note: 'Normalmente tem menos filas do que a Pena e a Regaleira.' },
-    { label: 'Castelo dos Mouros', amountEUR: 8, note: 'Percurso panorâmico pelas muralhas; depende do tempo.' },
+    { label: 'Parque e Palácio de Monserrate', amountEUR: 12, note: 'Normalmente tem menos filas do que a Pena e a Regaleira.' },
+    { label: 'Castelo dos Mouros', amountEUR: 12, note: 'Percurso panorâmico pelas muralhas; depende do tempo.' },
     { label: 'Palácio Nacional de Sintra', amountEUR: 10, note: 'Convenientemente localizado no centro histórico de Sintra.' },
-    { label: 'Unified ticket Parques de Sintra', amountEUR: 40, note: 'Verifique as condições actuais e os locais incluídos antes de comprar.' }
+    { label: 'Pena + Monserrate + Castelo dos Mouros na mesma compra', amountEUR: 41, note: 'Não há combo fixo: desconto progressivo até 10% para 6 espaços; aqui ~6% sobre 44 €.' }
   ],
   sources: [
     { title: 'Bilhetes e informação oficial da Parques de Sintra', url: 'https://www.parquesdesintra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -140,6 +140,6 @@ export default {
     { title: 'Página oficial do Parque e Palácio de Monserrate', url: 'https://www.parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-de-monserrate/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Informação oficial da Quinta da Regaleira', url: 'https://www.regaleira.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

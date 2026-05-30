@@ -83,7 +83,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Официальные турниры публикуются в календарях Federação Portuguesa de Ténis и Federação Portuguesa de Padel. У падела часто есть уровни и пары; у тенниса — возрастные и рейтинговые категории, singles/doubles, youth, senior/veteranos. Запись обычно закрывается заранее, а сетки и horários публикуются ближе к началу.' },
         { kind: 'checklist', items: [
-          'Проверьте календарь на tenis.pt или fpp.pt.',
+          'Проверьте календарь на tenis.pt или fppadel.pt.',
           'Смотрите категорию: абсолютный, veteranos, juvenis, feminino/masculino, mistos, nível.',
           'Проверьте deadline inscrição: опоздали — вас могут не включить в draw.',
           'Убедитесь, что лицензия активна именно в нужной федерации.',
@@ -125,8 +125,8 @@ export default {
   ],
   sources: [
     { title: 'Federação Portuguesa de Ténis — официальный сайт, календарь, клубы и соревнования', url: 'https://www.tenis.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Federação Portuguesa de Padel — официальный сайт, лицензии, calendário и regulamentos', url: 'https://www.fpp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Federação Portuguesa de Padel — официальный сайт, лицензии, calendário и regulamentos', url: 'https://www.fppadel.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

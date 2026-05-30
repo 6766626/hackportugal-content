@@ -25,8 +25,7 @@ export default {
               'Short routes of 3-15 km, usually circular',
               'Marked with the symbol “PR” + number + municipality name',
               '150+ PR trails are registered with FCMP (Federação de Campismo e Montanhismo)',
-              'The Trilhos de Portugal app — all PR trails with descriptions and GPX',
-              'Free GPX files on rededetrilhos.pt'
+              'The Trilhos de Portugal app — all PR trails with descriptions and GPX'
             ]}
           ]},
           { id: 't3', title: '💧 Levadas (Madeira) — unique', content: [
@@ -148,7 +147,6 @@ export default {
           'AllTrails — English-language, convenient for English speakers',
           'ViewRanger / Komoot — European, detailed',
           'Outdooractive — GR routes',
-          'trilhos.rededetrilhos.pt — official database',
           'Mapa Amarelo — for Cabo Verde + Portugal (popular in the Azores)',
           'GPX + offline maps are essential! Parks often have no signal'
         ]}
@@ -181,11 +179,11 @@ export default {
   ],
   sources: [
     { title: 'Federação Portuguesa de Campismo e Montanhismo', url: 'https://fcmportugal.com/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Rede de Trilhos', url: 'https://rededetrilhos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'FCMP — Registo Nacional de Percursos Pedestres (RNPP)', url: 'https://www.fcmportugal.com/percursos-pedestres/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'ICNF — Parks and Reserves', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Rota Vicentina', url: 'https://rotavicentina.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Madeira Levadas', url: 'https://www.visitmadeira.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

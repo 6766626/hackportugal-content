@@ -3,7 +3,7 @@ export default {
   id: 'gyms-fitness',
   categoryId: 'daily_life',
   title: 'Фитнес и спорт — залы, пляжи, активности',
-  tldr: 'Сети фитнес-клубов 2026: Fitness Hut (бюджет € 24,99–34,99/мес), Holmes Place (премиум € 89–149/мес), Phive (средний сегмент € 35–50), Onyria, Solinca, VivaGym. Активности: серфинг (Ericeira, Lagos, Cascais), бег (парки), футбол (сообщества), падел (суперпопулярно), йога. Много бесплатных активностей на свежем воздухе.',
+  tldr: 'Сети фитнес-клубов 2026: VivaGym (бывший Fitness Hut, бюджет, ~€ 20–35/мес в зависимости от клуба), Holmes Place (премиум € 89–149/мес), Phive (средний сегмент € 35–50), Onyria, Solinca. Активности: серфинг (Ericeira, Lagos, Cascais), бег (парки), футбол (сообщества), падел (суперпопулярно), йога. Много бесплатных активностей на свежем воздухе.',
   tags: ['фитнес', 'залы', 'спорт', 'серфинг'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,8 +12,8 @@ export default {
       title: 'Сети фитнес-клубов',
       content: [
         { kind: 'substeps', items: [
-          { id: 'c1', title: 'Fitness Hut (бюджет)', content: [
-            { kind: 'paragraph', text: '€ 24,99–34,99/мес в 2026 (Fit Lite / Fit Premium). Оборудование современное. В некоторых клубах работает 24/7. Десятки клубов по Португалии (Solinca/VivaGym group, входит в один холдинг). Часто первый выбор.' }
+          { id: 'c1', title: 'VivaGym (бывший Fitness Hut)', content: [
+            { kind: 'paragraph', text: 'Бюджетная сеть, ~€ 20–35/мес в зависимости от клуба и тарифа (ONE / FLEX / PRIME). Минимального срока обязательства нет. Оборудование современное, в некоторых клубах доступ 24/7. Десятки клубов по Португалии (Solinca/VivaGym group). В конце 2024 — начале 2025 года испанская группа VivaGym переименовала португальские клубы Fitness Hut в VivaGym; сайт fitnesshut.pt теперь перенаправляет на vivagym.pt. Часто первый выбор.' }
           ]},
           { id: 'c2', title: 'Holmes Place (премиум)', content: [
             { kind: 'paragraph', text: '€ 89–149/мес в 2026 в зависимости от плана/клуба. Бассейны, сауны, персональные тренировки, групповые занятия. В крупных городах. Подходит для корпоративных клиентов.' }
@@ -23,9 +23,6 @@ export default {
           ]},
           { id: 'c4', title: 'Solinca', content: [
             { kind: 'paragraph', text: '€ 40–60/мес. Ближе к премиум-сегменту, клубы сети часто находятся при отелях.' }
-          ]},
-          { id: 'c5', title: 'VivaGym', content: [
-            { kind: 'paragraph', text: '€ 19–25/мес. Испанская сеть, растёт в Португалии.' }
           ]},
           { id: 'c6', title: 'Anytime Fitness', content: [
             { kind: 'paragraph', text: '€ 35–50/мес. Доступ 24/7 по карте.' }
@@ -101,9 +98,9 @@ export default {
   ],
   sources: [
     { title: 'IPDJ — Instituto Português do Desporto e Juventude', url: 'https://www.ipdj.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Ericeira World Surfing Reserve', url: 'https://www.ericeirasurfreserve.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Ericeira World Surfing Reserve (Save The Waves Coalition)', url: 'https://www.savethewaves.org/ericeira/', kind: 'official', language: 'en', lastRetrieved: '2026-05-30' },
     { title: 'Federação Portuguesa de Surf — FPS', url: 'https://www.surfingportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

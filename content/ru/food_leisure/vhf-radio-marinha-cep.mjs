@@ -3,7 +3,7 @@ export default {
   id: 'vhf-radio-marinha-cep',
   categoryId: 'food_leisure',
   title: 'Морское радио VHF — лицензия CEP и сертификат оператора',
-  tldr: 'Если у тебя на борту есть VHF-радиостанция (или планируешь установить), нужны два документа: 1) Licença de Estação (CEP) от ANACOM (Autoridade Nacional de Comunicações — национальный регулятор связи) на саму радиостанцию — 30–80 € в год; 2) Certificado de Operador (SRC/LRC) — личный допуск к работе в эфире, по сути «права» оператора. SRC (Short Range Certificate) — для VHF у берега, экзамен 80–150 €. LRC (Long Range Certificate) — для DSC и спутниковой/дальней связи. Без этих документов работа на морских частотах — нарушение, штрафы до 2 000 €. Аварийный канал 16 при включённом VHF нужно постоянно прослушивать. Иностранные сертификаты RYA SRC, ICC VHF и UKHO признаются.',
+  tldr: 'Если у тебя на борту есть VHF-радиостанция (или планируешь установить), нужны два документа: 1) Licença de Estação (CEP) от DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos — морское ведомство) на саму радиостанцию, заявка через портал www.bmar.pt — 30–80 € в год; 2) Certificado de Operador (SRC/LRC) — личный допуск к работе в эфире, по сути «права» оператора. SRC (Short Range Certificate) — для VHF у берега, экзамен 80–150 €. LRC (Long Range Certificate) — для DSC и спутниковой/дальней связи. Без этих документов работа на морских частотах — нарушение, штрафы до 2 000 €. Аварийный канал 16 при включённом VHF нужно постоянно прослушивать. Иностранные сертификаты RYA SRC, ICC VHF и UKHO признаются.',
   tags: ['vhf', 'radio', 'anacom', 'src', 'navegacao'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,11 +27,11 @@ export default {
       content: [
         { kind: 'paragraph', text: 'CEP — это лицензия на конкретную установку VHF на твоей лодке. Привязана к судну, а не к человеку.' },
         { kind: 'checklist', items: [
-          'Выдаёт ANACOM',
-          'Подача: на anacom.pt → электронные формуляры (e‑formulários) → Estações de barco',
+          'Выдаёт DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos)',
+          'Подача: зарегистрируйся и авторизуйся на портале www.bmar.pt (Licença de Estação de Embarcação)',
           'Понадобится: регистрация лодки, данные VHF (модель, серийный номер, наличие DSC), MMSI',
           'MMSI (Maritime Mobile Service Identity) — обязательный 9‑значный идентификатор для DSC',
-          'MMSI оформляется через ANACOM и бесплатно при подаче на CEP',
+          'MMSI оформляется через DGRM и бесплатно при подаче на CEP',
           'Стоимость CEP: 30–80 € в год (зависит от категории судна)',
           'Продление: ежегодно; оплатить можно через Multibanco (платёж через банкомат/онлайн) или MB WAY (мобильный платёжный сервис)'
         ] },
@@ -44,14 +44,14 @@ export default {
       content: [
         { kind: 'paragraph', text: 'SRC (Short Range Certificate) — личный сертификат оператора; без него выходить в эфир нельзя.' },
         { kind: 'checklist', items: [
-          'Кто выдаёт: ANACOM через аккредитованные морские школы',
+          'Кто выдаёт: DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos) через аккредитованные морские школы',
           'Минимальный возраст: 16 лет',
           'Курс: 8–16 часов теории плюс практика работы с радио',
           'Содержание: правила радиосвязи, фонетический алфавит NATO, обзор каналов, работа с DSC, аварийные процедуры, MAYDAY/PAN-PAN/SECURITE',
           'Стоимость курса: 100–200 €',
           'Экзамен: тест + практическая часть на VHF и DSC',
           'Сертификат бессрочный',
-          'Если уже есть RYA SRC или ICC VHF — у ANACOM упрощённое признание'
+          'Если уже есть RYA SRC или ICC VHF — у DGRM упрощённое признание'
         ] },
         { kind: 'paragraph', text: 'LRC (Long Range Certificate) — для дальней связи (MF/HF, спутниковая). Обычно нужно для океанских переходов. Курс 30–50 часов, ~250–400 €.' }
       ]
@@ -65,7 +65,7 @@ export default {
             id: 's1',
             title: 'Найди школу',
             content: [
-              { kind: 'paragraph', text: 'Список аккредитованных ANACOM курсов смотри на anacom.pt → Radiocomunicações marítimas. Многие школы — те же, что готовят к шкиперским правам. Часто есть комбо: Patrão Local + SRC за один курс ~700 €.' }
+              { kind: 'paragraph', text: 'Сертификат оператора выдаёт DGRM — порядок и список аккредитованных курсов см. на dgrm.pt (Certificação profissional, Circular n.º 56). Многие школы — те же, что готовят к шкиперским правам. Часто есть комбо: Patrão Local + SRC за один курс ~700 €.' }
             ]
           },
           {
@@ -91,7 +91,7 @@ export default {
             id: 's4',
             title: 'Получи SRC',
             content: [
-              { kind: 'paragraph', text: 'Школа подаёт твои данные в ANACOM; через 2–4 недели сертификат приходит по почте или на email. Может быть электронный (с QR) или пластиковый.' }
+              { kind: 'paragraph', text: 'Школа подаёт твои данные в DGRM; через 2–4 недели сертификат приходит по почте или на email. Может быть электронный (с QR) или пластиковый.' }
             ]
           }
         ] }
@@ -102,7 +102,7 @@ export default {
       title: 'Признание иностранных сертификатов',
       content: [
         { kind: 'checklist', items: [
-          'RYA SRC — признаётся ANACOM напрямую, нужно зарегистрироваться',
+          'RYA SRC — признаётся DGRM напрямую, нужно зарегистрироваться',
           'ICC VHF endorsement — признаётся',
           'UK CAA SRC (после Brexit) — требуется переэкзаменовка в Португалии',
           'NRR/NDA из Германии и Франции — признаются в рамках ЕС',
@@ -155,11 +155,12 @@ export default {
     { label: 'VHF ручная', amountEURMin: 100, amountEURMax: 350 }
   ],
   sources: [
-    { title: 'ANACOM — Radiocomunicações marítimas', url: 'https://www.anacom.pt/render.jsp?categoryId=320', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'ANACOM — Certificados de Operador', url: 'https://www.anacom.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'DGRM — Licença de Estação de Embarcação (portal BMAR)', url: 'https://www.dgrm.pt/navios-e-embarcacoes?articleId=204988', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'DGRM — Certificação profissional (certificado de operador radiotelefonista)', url: 'https://www.dgrm.pt/certificacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'ANACOM — Radiocomunicações marítimas (espetro)', url: 'https://www.anacom.pt/render.jsp?categoryId=387625', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 53/2009 — radiocomunicações', url: 'https://dre.pt/dre/detalhe/decreto-lei/53-2009-606037', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ITU Radio Regulations', url: 'https://www.itu.int/pub/R-REG-RR', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

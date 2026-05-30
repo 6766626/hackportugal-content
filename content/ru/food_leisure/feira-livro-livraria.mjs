@@ -11,7 +11,7 @@ export default {
       id: 'feira-livro-lisboa',
       title: 'Feira do Livro Lisboa: как это работает',
       content: [
-        { kind: 'paragraph', text: 'Feira do Livro Lisboa — крупнейшая книжная ярмарка Португалии. Проходит в Parque Eduardo VII в Lisboa, обычно в период конец мая–июнь. На 03.05.2026 точные даты и программа нужно сверять на официальном сайте feiradolivrolisboa.pt: расписание участников, часы работы, автограф-сессии и акции публикуют там.' },
+        { kind: 'paragraph', text: 'Feira do Livro Lisboa — крупнейшая книжная ярмарка Португалии. Проходит в Parque Eduardo VII в Lisboa, обычно в период конец мая–июнь. На 03.05.2026 точные даты и программа нужно сверять на официальном сайте feiradolivrodelisboa.pt: расписание участников, часы работы, автограф-сессии и акции публикуют там.' },
         { kind: 'paragraph', text: 'Формат простой: павильоны издательств и книжных сетей вдоль аллей парка. Вход обычно бесплатный. Покупаете книги прямо на стендах, часто дешевле, чем в обычном магазине, особенно в часы “Hora H” и на промо конкретных издательств.' },
         { kind: 'checklist', items: [
           'Локация: Parque Eduardo VII, Lisboa; удобно ехать на metro Marquês de Pombal или Parque',
@@ -96,7 +96,7 @@ export default {
   sources: [
     {
       title: 'Официальный сайт Feira do Livro Lisboa',
-      url: 'https://www.feiradolivrolisboa.pt',
+      url: 'https://feiradolivrodelisboa.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -123,6 +123,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

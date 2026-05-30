@@ -32,7 +32,7 @@ export default {
           { id: 'h3', title: 'Registering the death', content: [
             { kind: 'checklist', items: [
               '🏛️ Any Conservatória do Registo Civil (or Loja CTT, Espaço Cidadão)',
-              '🌐 Alternative: online via CMD at eportugal.gov.pt',
+              '🌐 Alternative: online via CMD at gov.pt',
               '📜 Documents: Certidão de Óbito from the doctor + Cartão de Cidadão of the deceased + Cartão de Cidadão of the applicant',
               '✅ Free if completed within 48 hours',
               '⚠️ Delay >48 h = fine €50–€200',
@@ -104,10 +104,10 @@ export default {
           ]},
           { id: 'i3', title: '3. Imposto do Selo (inheritance tax)', content: [
             { kind: 'checklist', items: [
-              '🟢 Exempt 0%: spouse, children, grandchildren and parents of the deceased',
+              '🟢 Exempt from payment (0%): spouse/partner (união de facto), children, grandchildren and parents of the deceased — but they must still file Modelo 1 (the participação is mandatory even when the tax is €0)',
               '🟡 10% Imposto do Selo: brothers/sisters, uncles/aunts, nephews/nieces, non-relatives',
               '🟣 PT differs from other countries — inheritance for close relatives is NOT taxed',
-              '⏰ Declaration within 30 days via AT (Modelo 1 do Imposto do Selo)',
+              '⏰ The declaration (participação, Modelo 1 do Imposto do Selo) is filed via AT by the end of the 3rd month following the month of death (Art. 26 Código do Imposto do Selo) — e.g. death in March → deadline 30 June',
               '💸 Payment: up to 60 days after filing the declaration'
             ]}
           ]},
@@ -162,7 +162,7 @@ export default {
           '📜 Make a will at any age, especially if you are a foreigner — this will simplify the process',
           '🆘 Funeral home 24/7: SNS 808 24 24 24 — the line is not only for medical questions',
           '🤝 A lawyer for “direito sucessório” is essential if: there is property >€500k, foreigners, disputed heirs',
-          '⏱️ 30 days for the Imposto do Selo declaration — miss it = fine up to 25%',
+          '⏱️ The Imposto do Selo declaration is filed by the end of the 3rd month following the month of death — missing the deadline means a fixed coima of €150–€3,750 (RGIT Art. 117; minimum €50, or €25 if reduced), NOT a percentage of the inheritance',
           '💰 The deceased’s life insurance contract — separate procedure, not included in the inheritance (if a beneficiary is named)',
           '🌐 PT has international agreements with the Russian Federation/Ukraine on inheritance — they simplify the process',
           '🏠 If the deceased was a tenant — the heir has the right to continue the contract, they cannot be evicted',
@@ -184,6 +184,6 @@ export default {
     { title: 'Autoridade Tributária — Imposto do Selo (inheritance)', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'EU Regulation 650/2012 — Brussels IV', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0650', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

@@ -43,7 +43,7 @@ export default {
           kind: 'checklist',
           items: [
             '112 — immediate danger to life, suicide attempt, self-harm, psychosis, aggression, disappearance with risk.',
-            'SOS Voz Amiga — 213 544 545: emotional support and suicide prevention; the line is presented as free and available 24/7.',
+            'SOS Voz Amiga — 213 544 545 (also 912 802 669 / 963 524 660): emotional support and suicide prevention; open daily from 15:30 to 00:30, not 24/7. Outside those hours use 112, SNS 24 808 24 24 24 or Linha de Emergência Social 144.',
             'SNS 24 — 808 24 24 24: choose apoio psicológico / aconselhamento psicológico; available 24/7, you can call without going to a Centro de Saúde.',
             'Linha de Emergência Social — 144: free, 24/7; if the crisis is linked to homelessness, violence, lack of food, children, older people, urgent social risk.',
             'SOS Criança — 116 111: free line for children and situations involving children; suitable for violence, neglect, threats, running away from home.',
@@ -187,6 +187,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

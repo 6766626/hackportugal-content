@@ -3,7 +3,7 @@ export default {
   id: 'doctoralia-marcacao-medico',
   categoryId: 'healthcare',
   title: 'Doctoralia и Linkare — поиск и запись к частному врачу',
-  tldr: 'В Португалии частного врача быстрее всего искать через Doctoralia.pt: 25 000+ врачей и клиник, отзывы, цены, языки, онлайн-календарь и фильтры по Médis/Multicare. Linkare удобен для анализов, exames и части специалистов: можно сравнить слоты и записаться без звонков. Типичный приём у частного терапевта стоит 50–80 €, у специалиста 70–120 €, с seguro de saúde часто 15–40 €. Перед визитом всегда подтверждайте цену, страховую сеть и нужен ли referral.',
+  tldr: 'В Португалии частного врача быстрее всего искать через Doctoralia.com.pt: 25 000+ врачей и клиник, отзывы, цены, языки, онлайн-календарь и фильтры по Médis/Multicare. Linkare удобен для анализов, exames и части специалистов: можно сравнить слоты и записаться без звонков. Типичный приём у частного терапевта стоит 50–80 €, у специалиста 70–120 €, с seguro de saúde часто 15–40 €. Перед визитом всегда подтверждайте цену, страховую сеть и нужен ли referral.',
   tags: ['doctoralia', 'linkare', 'медицина', 'seguro'],
   estimatedReadMinutes: 5,
   steps: [
@@ -25,11 +25,11 @@ export default {
     },
     {
       id: 'doctoralia',
-      title: 'Doctoralia.pt: основной поиск врача',
+      title: 'Doctoralia.com.pt: основной поиск врача',
       content: [
-        { kind: 'paragraph', text: 'Doctoralia.pt — крупнейший агрегатор частных врачей в Португалии: более 25 000 врачей и клиник, профили, отзывы пациентов, онлайн-календарь, адреса, цены и часть страховых фильтров. Для Лиссабона, Порту, Браги, Коимбры, Алгарве и Мадейры это обычно первый сайт для поиска especialista.' },
+        { kind: 'paragraph', text: 'Doctoralia.com.pt — крупнейший агрегатор частных врачей в Португалии: более 25 000 врачей и клиник, профили, отзывы пациентов, онлайн-календарь, адреса, цены и часть страховых фильтров. Для Лиссабона, Порту, Браги, Коимбры, Алгарве и Мадейры это обычно первый сайт для поиска especialista.' },
         { kind: 'checklist', items: [
-          'Откройте doctoralia.pt и выберите especialidade: “Clínico geral”, “Dermatologista”, “Ginecologista”, “Pediatra”, “Psiquiatra”',
+          'Откройте doctoralia.com.pt и выберите especialidade: “Clínico geral”, “Dermatologista”, “Ginecologista”, “Pediatra”, “Psiquiatra”',
           'Укажите город или почтовый индекс: Lisboa, Porto, Cascais, Oeiras, Braga, Faro и т.д.',
           'Отфильтруйте “Marcação online”, если хотите записаться без звонка',
           'Проверьте “Opiniões”: смотрите не только рейтинг, но и свежесть отзывов',
@@ -102,9 +102,9 @@ export default {
     { label: 'Базовые análises clínicas', amountEURMin: 10, amountEURMax: 60, note: 'Цена зависит от набора анализов и наличия направления/страховки.' }
   ],
   sources: [
-    { title: 'Doctoralia Portugal — поиск врачей, отзывы и marcação online', url: 'https://www.doctoralia.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Doctoralia Portugal — поиск врачей, отзывы и marcação online', url: 'https://www.doctoralia.com.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Linkare Portugal — запись на exames, análises и специалистов', url: 'https://www.linkare.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

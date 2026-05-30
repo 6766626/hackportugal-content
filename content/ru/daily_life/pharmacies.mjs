@@ -52,8 +52,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Farmácia de Serviço — дежурство организуется по escala de serviço (графику), как правило, посменно между аптеками в зоне. Это не гарантия что в каждой freguesia есть аптека 24/7 — проверяйте список дежурных. График вывешен на двери любой Farmácia или на сайте.' },
         { kind: 'checklist', items: [
-          '📍 farmacias.pt — сайт со списком дежурных аптек по почтовому коду',
-          '📞 Linha 1400 / farmaciasdeservico.net — информация о дежурных аптеках; 112 — только экстренная помощь',
+          '📍 farmaciasdeservico.net — сайт со списком дежурных аптек по почтовому коду',
+          '📞 Linha 1400 / 1400safe.pt — служба INFARMED для поиска лекарств и дежурных аптек; INFARMED (infarmed.pt) — «Localize farmácia»; 112 — только экстренная помощь',
           '💊 После 22:00 звоните по видеодомофону — аптекарь выдаёт через окошко',
           '💰 Ночью наценка около € 2,50 сверху'
         ]}
@@ -85,9 +85,10 @@ export default {
   ],
   sources: [
     { title: 'INFARMED — регулятор аптек', url: 'https://www.infarmed.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Farmácias de Portugal — дежурные аптеки', url: 'https://www.farmacias.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Linha 1400 / 1400safe.pt — поиск лекарств и дежурных аптек (INFARMED)', url: 'https://www.1400safe.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Farmácias de Serviço — дежурные аптеки', url: 'https://www.farmaciasdeservico.net/', kind: 'reference', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

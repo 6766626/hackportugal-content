@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'dgae-teacher-recognition',
   categoryId: 'work_business',
-  title: 'DGAE: признание квалификации учителя и Habilitação Própria',
-  tldr: 'Для работы учителем в государственной школе Португалии есть два разных пути. Reconhecimento de Qualificação Profissional в DGAE — признание уже имеющейся педагогической квалификации по DL 227/2005: вы доказали, что имеете право преподавать в стране, где учились. Habilitação Própria — не признание профессии, а академическая пригодность по предмету, когда нет полной formação profissional по DL 79/2014. В 2026 это особенно важно из-за дефицита учителей, но приоритет в concursos остаётся у profissionalizados.',
+  title: 'AGSE (бывш. DGAE): признание квалификации учителя и Habilitação Própria',
+  tldr: 'Для работы учителем в государственной школе Португалии есть два разных пути. Reconhecimento de Qualificação Profissional — признание уже имеющейся педагогической квалификации по DL 227/2005: вы доказали, что имеете право преподавать в стране, где учились. Habilitação Própria — не признание профессии, а академическая пригодность по предмету, когда нет полной formação profissional по DL 79/2014. Важно: с 1 февраля 2026 года DGAE упразднена (Despacho n.º 919-A/2026; Decreto-Lei n.º 99/2025), а её полномочия перешли к новому Agência para a Gestão do Sistema Educativo (AGSE, I.P.); все обращения теперь через agse.pt, Portal E72 и SIGRHE. В 2026 это особенно важно из-за дефицита учителей, но приоритет в concursos остаётся у profissionalizados.',
   tags: ['dgae', 'учитель', 'диплом', 'работа'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'choose-route',
       title: '1. Сначала выберите правильный путь',
       content: [
-        { kind: 'paragraph', text: 'В Португалии “я преподавал в своей стране” и “у меня есть диплом по предмету” — юридически разные вещи. DGAE смотрит не только на диплом, а на то, даёт ли он профессиональное право преподавать конкретный уровень и предмет.' },
+        { kind: 'paragraph', text: 'В Португалии “я преподавал в своей стране” и “у меня есть диплом по предмету” — юридически разные вещи. AGSE (которая с 1 февраля 2026 переняла функции упразднённой DGAE) смотрит не только на диплом, а на то, даёт ли он профессиональное право преподавать конкретный уровень и предмет.' },
         { kind: 'checklist', items: [
           'Reconhecimento de Qualificação Profissional — если у вас есть педагогическая квалификация учителя и право преподавать в стране получения квалификации.',
           'Habilitação Própria — если у вас есть академический диплом по предмету, но нет полной португальской formação profissional para a docência.',
@@ -25,7 +25,7 @@ export default {
     },
     {
       id: 'professional-recognition',
-      title: '2. Reconhecimento de Qualificação Profissional через DGAE',
+      title: '2. Reconhecimento de Qualificação Profissional через AGSE (бывш. DGAE)',
       content: [
         { kind: 'paragraph', text: 'Этот путь нужен, если вы хотите, чтобы Португалия признала вашу иностранную профессиональную квалификацию учителя. Обычно это актуально для выпускников педагогических программ, которые уже давали право преподавать в другой стране.' },
         { kind: 'checklist', items: [
@@ -33,16 +33,16 @@ export default {
           'Подготовьте дипломы и приложения с предметами, часами или ECTS.',
           'Получите документ, подтверждающий право преподавать в стране происхождения: licença, certificado profissional, аттестация, справка от компетентного органа.',
           'Подготовьте подтверждение профессионального опыта, если он важен для сопоставления квалификации.',
-          'Сделайте перевод на португальский у присяжного/сертифицированного переводчика, если документы не на PT/EN/FR/ES и DGAE требует перевод.',
+          'Сделайте перевод на португальский у присяжного/сертифицированного переводчика, если документы не на PT/EN/FR/ES и AGSE требует перевод.',
           'Для документов из стран вне ЕС обычно нужен Apostille Hague или консульская легализация, если применимо.',
-          'Подайте заявление по инструкции и формам на странице DGAE “Reconhecimento de Qualificação Profissional”.'
+          'Подайте заявление по инструкции и формам AGSE для “Reconhecimento de Qualificação Profissional” (через agse.pt и Portal E72).'
         ] },
-        { kind: 'paragraph', text: 'DGAE сравнивает вашу подготовку с португальскими требованиями. Возможный результат: признание квалификации для конкретного уровня/группы, запрос дополнительных документов, отказ или требование компенсационных мер, если выявлены существенные различия.' }
+        { kind: 'paragraph', text: 'AGSE сравнивает вашу подготовку с португальскими требованиями. Возможный результат: признание квалификации для конкретного уровня/группы, запрос дополнительных документов, отказ или требование компенсационных мер, если выявлены существенные различия.' }
       ]
     },
     {
       id: 'habilitacao-propria',
-      title: 'Add a clear caveat near the start: “Habilitação Própria обычно не является отдельной процедурой признания профессии и не выдаёт статус profissionalizado; это проверка соответствия академической подготовки требованиям конкретного grupo de recrutamento при кандидатуре/найме. Проверяйте актуальный Guia/Lista de Habilitações da DGAE для конкретной группы.”',
+      title: 'Add a clear caveat near the start: “Habilitação Própria обычно не является отдельной процедурой признания профессии и не выдаёт статус profissionalizado; это проверка соответствия академической подготовки требованиям конкретного grupo de recrutamento при кандидатуре/найме. Проверяйте актуальный Guia/Lista de Habilitações da AGSE (бывш. DGAE) для конкретной группы.”',
       content: [
         { kind: 'paragraph', text: 'Habilitação Própria — это путь для людей с подходящим академическим образованием по предмету, но без признанной formação profissional para a docência.\n\nПример: диплом математика, физика, инженера, филолога или биолога может подходить для отдельных grupos de recrutamento, если учебный план покрывает нужную научную область.' },
         { kind: 'checklist', items: [
@@ -50,18 +50,18 @@ export default {
           'Сопоставьте ваш диплом с grupo de recrutamento, где есть дефицит и где принимают habilitação própria.',
           'Проверьте ECTS/часы по профильным дисциплинам: название диплома само по себе не всегда достаточно.',
           'Соберите histórico escolar / transcript с дисциплинами и нагрузкой.',
-          'Следите за объявлениями DGAE, contratação de escola и платформой SIGRHE, если вакансия идёт через государственную систему.',
+          'Следите за объявлениями AGSE, contratação de escola и платформой SIGRHE, если вакансия идёт через государственную систему.',
           'Будьте готовы, что школа запросит дополнительные доказательства содержания курса.',
           'Если хотите долгосрочную карьеру в ensino público, планируйте получить португальскую profissionalização / mestrado em ensino по DL 79/2014.'
         ] },
-        { kind: 'warning', text: 'Не подавайте Habilitação Própria как “признание иностранной педагогической лицензии”. Если у вас есть именно педагогическая квалификация, правильный первый адрес — DGAE Reconhecimento de Qualificação Profissional.' }
+        { kind: 'warning', text: 'Не подавайте Habilitação Própria как “признание иностранной педагогической лицензии”. Если у вас есть именно педагогическая квалификация, правильный первый адрес — Reconhecimento de Qualificação Profissional в AGSE (бывш. DGAE).' }
       ]
     },
     {
       id: 'documents',
       title: '4. Документы: что готовить заранее',
       content: [
-        { kind: 'paragraph', text: 'Главная задержка — не сама DGAE, а сбор доказательств из страны обучения. В 2026 школы и ведомства всё чаще требуют подробные приложения: предметы, часы, ECTS, практику, стажировку, педагогический компонент.' },
+        { kind: 'paragraph', text: 'Главная задержка — не сама AGSE, а сбор доказательств из страны обучения. В 2026 школы и ведомства всё чаще требуют подробные приложения: предметы, часы, ECTS, практику, стажировку, педагогический компонент.' },
         { kind: 'checklist', items: [
           'Паспорт или Cartão de Cidadão / título de residência, если уже живёте в Португалии.',
           'NIF для контрактов, оплаты и регистрации в португальских системах.',
@@ -73,7 +73,7 @@ export default {
           'Признание степени в Португалии, если уже получено: reconhecimento específico/de nível/automático.',
           'Переводы на португальский и легализация/Apostille для документов из стран вне ЕС, если требуется.'
         ] },
-        { kind: 'warning', text: 'Не ограничивайтесь нотариальным переводом диплома. Без transcript и описания педагогической практики DGAE или школа часто не сможет понять, соответствует ли квалификация португальскому grupo de recrutamento.' }
+        { kind: 'warning', text: 'Не ограничивайтесь нотариальным переводом диплома. Без transcript и описания педагогической практики AGSE или школа часто не сможет понять, соответствует ли квалификация португальскому grupo de recrutamento.' }
       ]
     },
     {
@@ -82,7 +82,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Признание квалификации само по себе не является трудовым договором. Оно открывает дверь к конкурсным процедурам и найму, но дальше вы проходите правила системы ensino público или подаётесь напрямую в частные/международные школы.' },
         { kind: 'checklist', items: [
-          'Создайте или обновите доступ к SIGRHE/DGAE, если участвуете в государственных конкурсах.',
+          'Создайте или обновите доступ к SIGRHE / Portal E72 (AGSE), если участвуете в государственных конкурсах.',
           'Проверьте, какой grupo de recrutamento указан в решении или подходит по habilitação própria.',
           'Следите за concursos, reserva de recrutamento и contratação de escola.',
           'Для частных школ отправляйте CV напрямую; они могут ценить опыт и языки, но всё равно спрашивают легальный статус и дипломы.',
@@ -90,7 +90,7 @@ export default {
           'Оформите NISS и налоговый статус до подписания contrato de trabalho.',
           'Если работаете по recibos verdes в частной школе или как tutor, заранее проверьте IRS/Segurança Social, чтобы не получить неожиданные взносы.'
         ] },
-        { kind: 'paragraph', text: 'Если DGAE признала квалификацию частично или указала ограничения, не игнорируйте формулировку. Для конкурса важны конкретные níveis de ensino и grupos de recrutamento, а не общий статус “teacher”.' }
+        { kind: 'paragraph', text: 'Если AGSE признала квалификацию частично или указала ограничения, не игнорируйте формулировку. Для конкурса важны конкретные níveis de ensino и grupos de recrutamento, а не общий статус “teacher”.' }
       ]
     },
     {
@@ -98,7 +98,7 @@ export default {
       title: '6. Частые ошибки иностранцев',
       content: [
         { kind: 'checklist', items: [
-          'Путают DGE и DGAE: DGE занимается equivalências estrangeiras для школьного образования, а DGAE — кадровыми и квалификационными вопросами учителей.',
+          'Путают DGE и AGSE (бывш. DGAE): DGE занимается equivalências estrangeiras для школьного образования, а AGSE — кадровыми и квалификационными вопросами учителей.',
           'Думают, что признание диплома в DGES автоматически даёт право преподавать. Нет: академическая степень и profissionalização — разные уровни.',
           'Подают только диплом без приложения с часами/ECTS.',
           'Не доказывают право преподавать в стране происхождения, хотя именно это важно для professional recognition.',
@@ -112,17 +112,19 @@ export default {
     }
   ],
   costs: [
-    { label: 'Подача заявления в DGAE', amountEUR: 0, note: 'На официальной странице DGAE не указан государственный сбор за саму процедуру reconhecimento de qualificação profissional; проверяйте актуальную форму перед подачей.' },
+    { label: 'Подача заявления в AGSE', amountEUR: 0, note: 'На официальной странице AGSE (agse.pt) не указан государственный сбор за саму процедуру reconhecimento de qualificação profissional; проверяйте актуальную форму перед подачей.' },
     { label: 'Перевод документов', amountEURMin: 20, amountEURMax: 60, note: 'Обычно за страницу у сертифицированного переводчика; цена зависит от языка и срочности.' },
     { label: 'Apostille / легализация за рубежом', amountEURMin: 10, amountEURMax: 80, note: 'Не португальский сбор; зависит от страны выдачи документа.' },
     { label: 'Признание иностранной степени в вузе/DGES', amountEURMin: 30, amountEURMax: 600, note: 'Тариф устанавливает принимающее учреждение; reconhecimento específico обычно дороже automático/de nível.' }
   ],
   sources: [
-    { title: 'DGAE: Reconhecimento de Qualificação Profissional для docentes', url: 'https://www.dgae.medu.pt/gestao-de-recursos-humanos/pessoal-docente/qualificacoes/reconhecimento-de-qualificacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'AGSE: Agência para a Gestão do Sistema Educativo (преемник DGAE)', url: 'https://www.agse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'DGAE: уведомление об упразднении и передаче полномочий AGSE', url: 'https://www.dgae.medu.pt/noticias/conc-a-ext-dgae-transf-comp-agse', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Decreto-Lei 99/2025: создаёт AGSE, I.P. и упраздняет DGAE/DGEstE', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/99-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'DGE: Equivalências estrangeiras школьного образования', url: 'https://www.dge.mec.pt/equivalencias-estrangeiras', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 227/2005: признание иностранной профессиональной квалификации docentes', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/227-2005-469091', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 79/2014: regime jurídico da habilitação profissional para a docência', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/79-2014-25344769', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

@@ -122,7 +122,7 @@ export default {
   sources: [
     { title: 'Lei n.º 8/2022 — Propriedade horizontal', url: 'https://dre.pt/dre/detalhe/lei/8-2022', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código Civil — articles 1414–1438-A', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Condomínio', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/gestao-de-condominio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'ePortugal — Condomínio', url: 'https://www.gov.pt/cidadaos/-/informacoes/gestao-de-condominio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IHRU — Institute for Housing and Urban Rehabilitation', url: 'https://www.ihru.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-17',

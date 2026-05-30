@@ -132,7 +132,7 @@ export default {
     },
     {
       title: 'ePortugal — официальные услуги государства для жителей и иностранцев',
-      url: 'https://eportugal.gov.pt',
+      url: 'https://www.gov.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

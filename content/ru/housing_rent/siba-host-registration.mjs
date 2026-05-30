@@ -12,7 +12,7 @@ export default {
       title: 'Что такое SIBA и кто обязан подавать',
       content: [
         { kind: 'paragraph', text: 'SIBA — Sistema de Informação de Boletins de Alojamento. Это электронная подача boletim de alojamento: уведомления государству о том, что иностранный гражданин остановился у вас в платном жилье.' },
-        { kind: 'paragraph', text: 'После закрытия SEF функции перешли к AIMA и другим органам, но старое название портала siba.sef.pt всё ещё встречается в инструкциях и у хостов. Для пользователя смысл не изменился: платный host обязан отправлять данные иностранного гостя.' },
+        { kind: 'paragraph', text: 'После закрытия SEF функции перешли к AIMA и другим органам, но старое название портала siba.ssi.gov.pt всё ещё встречается в инструкциях и у хостов. Для пользователя смысл не изменился: платный host обязан отправлять данные иностранного гостя.' },
         { kind: 'checklist', items: [
           'Обязано подавать: hotéis, hostels, guest houses, alojamento local (AL), Airbnb, Booking, Expedia и прямые бронирования',
           'Обязано подавать: владельцы комнат и квартир, если размещение платное',
@@ -127,7 +127,7 @@ export default {
   ],
   sources: [
     { title: 'Lei 23/2007 — режим въезда, пребывания и выезда иностранцев, arts. 15–16 и санкции', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'SIBA — портал boletins de alojamento', url: 'https://siba.sef.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'SIBA — портал boletins de alojamento', url: 'https://siba.ssi.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'GuestReady: SIBA guest registration in Portugal', url: 'https://www.guestready.com/blog/siba-guest-registration-sef-aima-portugal/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',

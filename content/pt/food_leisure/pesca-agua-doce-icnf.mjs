@@ -3,7 +3,7 @@ export default {
   id: 'pesca-agua-doce-icnf',
   categoryId: 'food_leisure',
   title: 'Pesca em água doce — licença ICNF (Instituto da Conservação da Natureza e das Florestas)',
-  tldr: 'A pesca em rios, albufeiras e lagos de Portugal continental é regulada pelo ICNF (Instituto da Conservação da Natureza e das Florestas), e não pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos).\n\nA licença é obtida online em icnf.pt → e-Balcão ou através da aplicação SI ICNF por cerca de 5-15 €. As principais categorias são: pesca lúdica (desportiva); pesca de salmonídeos (truta, salmão — licença separada e épocas próprias); pesca em zonas concessionadas (zonas especiais com pagamento adicional).\n\nAplicam-se períodos de defeso por espécie: truta — aproximadamente novembro–março, salmão — proibido durante quase todo o ano, salvo eventos raros. Limite diário: 8 peixes para truta e até 30 para a maioria das restantes espécies.',
+  tldr: 'A pesca em rios, albufeiras e lagos de Portugal continental é regulada pelo ICNF (Instituto da Conservação da Natureza e das Florestas), e não pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos).\n\nA licença é obtida online em icnf.pt → e-Balcão ou através da aplicação SI ICNF por cerca de 5-15 €. As principais categorias são: pesca lúdica (desportiva); pesca de salmonídeos (truta, salmão — licença separada e épocas próprias); pesca em zonas concessionadas (zonas especiais com pagamento adicional).\n\nAplicam-se períodos de defeso por espécie: truta — aberta aproximadamente de março a julho (até 31 de agosto em águas específicas), em defeso aproximadamente de agosto/setembro a fevereiro; salmão — proibido durante quase todo o ano, salvo eventos raros. Limite diário: 8 peixes para truta e até 30 para a maioria das restantes espécies.',
   tags: ['pesca', 'pesca', 'icnf', 'rio', 'água-doce'],
   estimatedReadMinutes: 5,
   steps: [
@@ -89,7 +89,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'As épocas e o defeso em água doce são normalmente mais rigorosos do que no mar:' },
         { kind: 'checklist', items: [
-          'Truta: a época é geralmente de março a outubro; em novembro–fevereiro há proibição (proteção da desova)',
+          'Truta: a época é geralmente de 1 de março a 31 de julho (até 31 de agosto em águas específicas ao abrigo do Anexo III e, excecionalmente, até 30 de setembro em certas albufeiras); fora da época há defeso (proteção da desova)',
           'Salmão: proibido durante quase todo o ano, salvo raros eventos tradicionais; no Minho — regime especial',
           'Achigã e lúcio: muitas vezes permitidos durante todo o ano, mas podem existir restrições na época de reprodução',
           'Barbo e bordalo: regra geral, permitidos durante a maior parte do ano',
@@ -100,7 +100,7 @@ export default {
         ] },
         { kind: 'paragraph', text: 'Limite diário:' },
         { kind: 'checklist', items: [
-          'Truta: até 8 exemplares por dia, tamanho mínimo 19 cm',
+          'Truta: até 8 exemplares por dia, tamanho mínimo 20 cm',
           'Achigã: até 3 por dia, tamanho mínimo 25 cm',
           'Lúcio: até 3 por dia, tamanho mínimo 35 cm',
           'Barbo: até 30 peixes',
@@ -161,6 +161,6 @@ export default {
     { title: 'Decreto-Lei 112/2017 — regime Pesca em Águas Interiores', url: 'https://dre.pt/dre/detalhe/decreto-lei/112-2017-108128620', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR SEPNA — polícia ambiental', url: 'https://www.gnr.pt/sepna.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

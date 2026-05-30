@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'If you have a Cartão de Cidadão with PIN and a USB reader (or mobile NFC) — activate it on autenticacao.gov.pt without a visit.' }
           ]},
           { id: 'c2', title: '1. Option B — in person at a Loja de Cidadão / Espaço Cidadão', content: [
-            { kind: 'paragraph', text: 'Book on eportugal.gov.pt or use the walk-in queue. The operator checks your documents and activates CMD on your PT number.' }
+            { kind: 'paragraph', text: 'Book on gov.pt or use the walk-in queue. The operator checks your documents and activates CMD on your PT number.' }
           ]},
           { id: 'c3', title: '2. Set a password (PIN)', content: [
             { kind: 'paragraph', text: 'A web PIN of 4-8 digits. Used for every authorisation together with the SMS code.' }
@@ -76,7 +76,7 @@ export default {
   timelineDaysMax: 14,
   sources: [
     { title: 'Autenticação.gov — official', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Chave Móvel Digital', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/cidadaos/-/informacoes/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

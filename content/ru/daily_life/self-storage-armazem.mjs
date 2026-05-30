@@ -3,7 +3,7 @@ export default {
   id: 'self-storage-armazem',
   categoryId: 'daily_life',
   title: 'Self storage: где хранить вещи в Португалии',
-  tldr: 'Self storage в Португалии — это аренда индивидуального бокса/мини-склада для мебели, чемоданов, велосипедов, архивов и сезонных вещей. В 2026 ориентир по рынку: 5–15 м³ обычно стоят 40–200 €/мес, плюс залог/админ-сбор и страховка.\n\nВ Лиссабоне и Порту есть AUS Self Storage, Big Yellow PT, Storax и локальные armazéns. Проверяйте 24/7 доступ, влажность, страховку, срок расторжения и запрет на хранение еды, газа, топлива и ценностей.',
+  tldr: 'Self storage в Португалии — это аренда индивидуального бокса/мини-склада для мебели, чемоданов, велосипедов, архивов и сезонных вещей. В 2026 ориентир по рынку: 5–15 м³ обычно стоят 40–200 €/мес, плюс залог/админ-сбор и страховка.\n\nВ Лиссабоне и Порту есть Storex, BigBox, Allstorage, Bluespace и локальные armazéns. Проверяйте 24/7 доступ, влажность, страховку, срок расторжения и запрет на хранение еды, газа, топлива и ценностей.',
   tags: ['storage', 'armazem', 'переезд', 'lisboa', 'porto'],
   estimatedReadMinutes: 5,
   steps: [
@@ -43,18 +43,18 @@ export default {
     },
     {
       id: 'providers',
-      title: 'Кого смотреть: AUS, Big Yellow PT, Storax',
+      title: 'Кого смотреть: Storex, BigBox, Allstorage, Bluespace',
       content: [
         { kind: 'paragraph', text: 'В крупных городах рынок фрагментирован: есть международные/крупные бренды и локальные armazéns. Для экспата важнее не бренд, а договор, доступ, безопасность и логистика от вашей квартиры.' },
         { kind: 'substeps', items: [
-          { id: 'aus', title: 'AUS Self Storage', content: [
-            { kind: 'paragraph', text: 'AUS Self Storage работает как городской self storage с решениями для частных клиентов и бизнеса. Смотрите объекты в Lisboa/Porto, доступность 24/7, наличие подъезда для carrinha и варианты боксов по объёму.' }
+          { id: 'storex', title: 'Storex', content: [
+            { kind: 'paragraph', text: 'Storex — пионер self storage в Португалии (с 1996 года) с несколькими объектами в Лиссабоне (Alcântara, Benfica, Matinha, Morais Soares, Aeroporto). Смотрите доступность 24/7, наличие подъезда для carrinha и варианты боксов по объёму.' }
           ] },
-          { id: 'big-yellow', title: 'Big Yellow PT', content: [
-            { kind: 'paragraph', text: 'Big Yellow PT — вариант для тех, кто хочет понятный формат self storage: индивидуальные units, security, онлайн-запрос цены, часто есть packing materials и страхование.' }
+          { id: 'bigbox', title: 'BigBox', content: [
+            { kind: 'paragraph', text: 'BigBox — оператор self storage на севере страны (Porto, Braga, Gaia). Понятный формат: индивидуальные units, security, онлайн-запрос цены, часто есть packing materials и страхование.' }
           ] },
-          { id: 'storax', title: 'Storax и локальные склады', content: [
-            { kind: 'paragraph', text: 'Storax и местные armazéns могут быть дешевле, особенно вне центра. Минус — иногда меньше английского сервиса, хуже онлайн-кабинет или не 24/7 доступ. Зато можно торговаться при аренде на 6–12 месяцев.' }
+          { id: 'allstorage-bluespace', title: 'Allstorage, Bluespace и локальные склады', content: [
+            { kind: 'paragraph', text: 'Allstorage (Большой Лиссабон) и Bluespace (несколько объектов в Лиссабоне), а также местные armazéns могут быть дешевле, особенно вне центра. Минус — иногда меньше английского сервиса, хуже онлайн-кабинет или не 24/7 доступ. Зато можно торговаться при аренде на 6–12 месяцев.' }
           ] }
         ] },
         { kind: 'checklist', items: [
@@ -175,27 +175,34 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'AUS Self Storage: услуги self storage в Португалии',
-      url: 'https://www.aus.pt',
+      title: 'Storex: self storage в Лиссабоне с 1996 года',
+      url: 'https://storex.com',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
     },
     {
-      title: 'Big Yellow Portugal: storage units и условия аренды',
-      url: 'https://www.bigyellow.pt',
+      title: 'BigBox: self storage на севере (Porto, Braga, Gaia)',
+      url: 'https://www.bigbox.pt',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
     },
     {
-      title: 'Storax Self Storage: боксы и складские решения',
-      url: 'https://www.storax.pt',
+      title: 'Allstorage: боксы в Большом Лиссабоне',
+      url: 'https://www.allstorage.pt',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Bluespace: self storage в Лиссабоне',
+      url: 'https://www.bluespace.pt',
+      kind: 'company',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -52,8 +52,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Farmácia de Serviço — o serviço é organizado por escala de serviço (horário), em regra por turnos entre farmácias da zona. Isto não garante que exista uma farmácia 24/7 em cada freguesia — verifique a lista de farmácias de serviço. A escala está afixada na porta de qualquer Farmácia ou no site.' },
         { kind: 'checklist', items: [
-          '📍 farmacias.pt — site com lista de farmácias de serviço por código postal',
-          '📞 Linha 1400 / farmaciasdeservico.net — informação sobre farmácias de serviço; 112 — apenas emergência',
+          '📍 farmaciasdeservico.net — site com lista de farmácias de serviço por código postal',
+          '📞 Linha 1400 / 1400safe.pt — serviço do INFARMED para localizar medicamentos e farmácias de serviço; INFARMED (infarmed.pt) — «Localize farmácia»; 112 — apenas emergência',
           '💊 Depois das 22:00, toque no videoporteiro — o farmacêutico entrega pelo postigo',
           '💰 À noite há uma sobretaxa de cerca de 2,50 €'
         ]}
@@ -85,9 +85,10 @@ export default {
   ],
   sources: [
     { title: 'INFARMED — regulador das farmácias', url: 'https://www.infarmed.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Farmácias de Portugal — farmácias de serviço', url: 'https://www.farmacias.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Linha 1400 / 1400safe.pt — localizar medicamentos e farmácias de serviço (INFARMED)', url: 'https://www.1400safe.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Farmácias de Serviço — farmácias de serviço', url: 'https://www.farmaciasdeservico.net/', kind: 'reference', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

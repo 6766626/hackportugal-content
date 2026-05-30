@@ -3,7 +3,7 @@ export default {
   id: 'self-storage-armazem',
   categoryId: 'daily_life',
   title: 'Self storage: onde guardar os seus bens em Portugal',
-  tldr: 'Self storage em Portugal é o aluguer de um box individual/mini-armazém para móveis, malas, bicicletas, arquivos e artigos sazonais. Em 2026, a referência de mercado é: 5–15 m³ costumam custar 40–200 €/mês, mais caução/taxa administrativa e seguro.\n\nEm Lisboa e no Porto existem AUS Self Storage, Big Yellow PT, Storax e armazéns locais. Verifique acesso 24/7, humidade, seguro, prazo de rescisão e a proibição de guardar comida, gás, combustível e valores.',
+  tldr: 'Self storage em Portugal é o aluguer de um box individual/mini-armazém para móveis, malas, bicicletas, arquivos e artigos sazonais. Em 2026, a referência de mercado é: 5–15 m³ costumam custar 40–200 €/mês, mais caução/taxa administrativa e seguro.\n\nEm Lisboa e no Porto existem Storex, BigBox, Allstorage, Bluespace e armazéns locais. Verifique acesso 24/7, humidade, seguro, prazo de rescisão e a proibição de guardar comida, gás, combustível e valores.',
   tags: ['armazenamento', 'armazem', 'mudanca', 'lisboa', 'porto'],
   estimatedReadMinutes: 5,
   steps: [
@@ -43,18 +43,18 @@ export default {
     },
     {
       id: 'providers',
-      title: 'Quem analisar: AUS, Big Yellow PT, Storax',
+      title: 'Quem analisar: Storex, BigBox, Allstorage, Bluespace',
       content: [
         { kind: 'paragraph', text: 'Nas grandes cidades, o mercado é fragmentado: existem marcas internacionais/grandes e armazéns locais. Para um expat, o mais importante não é a marca, mas o contrato, o acesso, a segurança e a logística a partir da sua casa.' },
         { kind: 'substeps', items: [
-          { id: 'aus', title: 'AUS Self Storage', content: [
-            { kind: 'paragraph', text: 'A AUS Self Storage funciona como self storage urbano, com soluções para clientes particulares e empresas. Veja as instalações em Lisboa/Porto, disponibilidade 24/7, acesso para carrinha e opções de boxes por volume.' }
+          { id: 'storex', title: 'Storex', content: [
+            { kind: 'paragraph', text: 'A Storex é a pioneira do self storage em Portugal (desde 1996), com várias instalações em Lisboa (Alcântara, Benfica, Matinha, Morais Soares, Aeroporto). Veja a disponibilidade 24/7, o acesso para carrinha e as opções de boxes por volume.' }
           ] },
-          { id: 'big-yellow', title: 'Big Yellow PT', content: [
-            { kind: 'paragraph', text: 'A Big Yellow PT é uma opção para quem quer um formato de self storage claro: units individuais, security, pedido de preço online, frequentemente com packing materials e seguro.' }
+          { id: 'bigbox', title: 'BigBox', content: [
+            { kind: 'paragraph', text: 'A BigBox é um operador de self storage no norte do país (Porto, Braga, Gaia). Formato claro: units individuais, security, pedido de preço online, frequentemente com packing materials e seguro.' }
           ] },
-          { id: 'storax', title: 'Storax e armazéns locais', content: [
-            { kind: 'paragraph', text: 'A Storax e os armazéns locais podem ser mais baratos, especialmente fora do centro. A desvantagem é que, por vezes, há menos serviço em inglês, uma área de cliente online pior ou acesso não 24/7. Em contrapartida, é possível negociar em alugueres de 6–12 meses.' }
+          { id: 'allstorage-bluespace', title: 'Allstorage, Bluespace e armazéns locais', content: [
+            { kind: 'paragraph', text: 'A Allstorage (Grande Lisboa) e a Bluespace (várias instalações em Lisboa), bem como os armazéns locais, podem ser mais baratos, especialmente fora do centro. A desvantagem é que, por vezes, há menos serviço em inglês, uma área de cliente online pior ou acesso não 24/7. Em contrapartida, é possível negociar em alugueres de 6–12 meses.' }
           ] }
         ] },
         { kind: 'checklist', items: [
@@ -175,27 +175,34 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'AUS Self Storage: serviços de self storage em Portugal',
-      url: 'https://www.aus.pt',
+      title: 'Storex: self storage em Lisboa desde 1996',
+      url: 'https://storex.com',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
     },
     {
-      title: 'Big Yellow Portugal: storage units e condições de aluguer',
-      url: 'https://www.bigyellow.pt',
+      title: 'BigBox: self storage no norte (Porto, Braga, Gaia)',
+      url: 'https://www.bigbox.pt',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
     },
     {
-      title: 'Storax Self Storage: boxes e soluções de armazenamento',
-      url: 'https://www.storax.pt',
+      title: 'Allstorage: boxes na Grande Lisboa',
+      url: 'https://www.allstorage.pt',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Bluespace: self storage em Lisboa',
+      url: 'https://www.bluespace.pt',
+      kind: 'company',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

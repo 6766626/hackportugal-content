@@ -85,7 +85,7 @@ export default {
           '💼 Proof of income: IRS Anexo A for 3 years, 12 monthly payslips or Anexo B (for self-employed workers)',
           '🏠 Atestado de residência from Junta + rental contract',
           '💳 Certidões sem dívida: Finanças + Segurança Social (free on e-portals)',
-          '⚖️ Registo criminal: Portugal (free on eportugal.gov.pt) + countries of residence ≥ 1 year in the last 5 years',
+          '⚖️ Registo criminal: Portugal (free on gov.pt) + countries of residence ≥ 1 year in the last 5 years',
           '📸 2 photos 3x4',
           '💶 Payment of the fee'
         ]}

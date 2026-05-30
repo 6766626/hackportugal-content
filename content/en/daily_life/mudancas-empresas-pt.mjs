@@ -124,7 +124,7 @@ export default {
     { title: 'Direção-Geral do Consumidor: consumer rights and complaints', url: 'https://www.consumidor.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Eletrónico: submitting a complaint about a service provider', url: 'https://www.livroreclamacoes.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'AGS Frasers Portugal: international moves and relocation', url: 'https://www.agsmovers.com/branches/europe/portugal/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal: information on Câmara Municipal services', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal: information on Câmara Municipal services', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

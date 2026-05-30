@@ -43,7 +43,7 @@ export default {
           kind: 'checklist',
           items: [
             '112 — perigo de vida, tentativa de suicídio, automutilação, psicose, agressividade, desaparecimento com risco.',
-            'SOS Voz Amiga — 213 544 545: apoio emocional e prevenção do suicídio; a linha é apresentada como gratuita e disponível 24/7.',
+            'SOS Voz Amiga — 213 544 545 (também 912 802 669 / 963 524 660): apoio emocional e prevenção do suicídio; funciona diariamente das 15:30 às 00:30, não 24 horas. Fora desse horário use o 112, o SNS 24 808 24 24 24 ou a Linha de Emergência Social 144.',
             'SNS 24 — 808 24 24 24: escolha apoio psicológico / aconselhamento psicológico; funciona 24/7, pode ligar sem ir ao Centro de Saúde.',
             'Linha de Emergência Social — 144: gratuita, 24/7; se a crise estiver relacionada com situação de sem-abrigo, violência, falta de comida, crianças, idosos, risco social urgente.',
             'SOS Criança — 116 111: linha gratuita para crianças e situações com crianças; adequada em casos de violência, negligência, ameaças, fuga de casa.',
@@ -187,6 +187,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

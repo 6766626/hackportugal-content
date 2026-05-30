@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'Se tiver Cartão de Cidadão com PIN e leitor USB (ou NFC móvel), pode ativar em autenticacao.gov.pt sem deslocação.' }
           ]},
           { id: 'c2', title: '1. Opção B — presencialmente numa Loja de Cidadão / Espaço Cidadão', content: [
-            { kind: 'paragraph', text: 'Agendamento em eportugal.gov.pt ou fila sem marcação. O operador verifica os documentos e ativa a CMD no seu número PT.' }
+            { kind: 'paragraph', text: 'Agendamento em gov.pt ou fila sem marcação. O operador verifica os documentos e ativa a CMD no seu número PT.' }
           ]},
           { id: 'c3', title: '2. Definir a palavra-passe (PIN)', content: [
             { kind: 'paragraph', text: 'PIN numérico de 4-8 dígitos. É utilizado em cada autenticação juntamente com o código por SMS.' }
@@ -76,7 +76,7 @@ export default {
   timelineDaysMax: 14,
   sources: [
     { title: 'Autenticação.gov — oficial', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Chave Móvel Digital', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/cidadaos/-/informacoes/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

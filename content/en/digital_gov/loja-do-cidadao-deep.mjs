@@ -150,7 +150,7 @@ export default {
     },
     {
       title: 'ePortugal: search for in-person atendimento de serviços públicos locations',
-      url: 'https://eportugal.gov.pt/locais-de-atendimento-de-servicos-publicos',
+      url: 'https://www.gov.pt/locais-de-atendimento-de-servicos-publicos',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

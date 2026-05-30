@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'e-lar-fundo-ambiental',
   categoryId: 'daily_life',
-  title: 'E-LAR / Vale E-Lar: vale até 1 683 € para substituir gás por electricidade',
-  tldr: 'O E-LAR é um programa do Fundo Ambiental: desde 11.12.2025 está em curso a 2.ª fase, com um orçamento de cerca de 60,8 milhões de €. O vale cobre a substituição de fogão/placa/forno/esquentador a gás por equipamentos eléctricos de classe A+ ou superior. Grupos I/II — até 1 683 € com instalação, grupo III — até 1 100 €, mais até 50 € para selagem do tubo de gás. Candidatura através de fundoambiental.pt com CMD/Cartão de Cidadão, NIF, CPE e escolha de fornecedor da lista.',
+  title: 'E-LAR / Vale E-Lar: vale para substituir gás por electricidade',
+  tldr: 'O E-LAR é um programa do Fundo Ambiental: a 2.ª fase (aviso AAC 11/C13-i01/2025) tem um orçamento de cerca de 60,8 milhões de €, mas desde 24.03.2026 está encerrada a novas candidaturas, a aguardar renegociação do PRR. O vale cobre a substituição de fogão/placa/forno/esquentador a gás por equipamentos eléctricos de classe A+ ou superior. O apoio é pago por limites por equipamento (e não numa única verba): para a Tarifa Social (Grupo II) — por exemplo, termoacumulador até 615 €, conjunto placa+forno até 738 €; para os restantes (Grupo III) — até 500 € e 600 € respectivamente. Candidatura através de fundoambiental.pt com CMD/Cartão de Cidadão, NIF, CPE e escolha de fornecedor da lista.',
   tags: ['elar', 'fundoambiental', 'energia', 'vale'],
   estimatedReadMinutes: 5,
   steps: [
@@ -18,10 +18,10 @@ export default {
     },
     {
       id: 'who-can-apply',
-      title: 'Quem pode candidatar-se em 2026',
+      title: 'Quem pode candidatar-se',
       content: [
-        { kind: 'paragraph', text: 'Na 2.ª fase, aberta desde 11.12.2025, o programa divide os candidatos em 3 grupos. O importante não é a nacionalidade, mas sim ter habitação/contrato de electricidade em Portugal e cumprir as condições do aviso.' },
-        { kind: 'checklist', items: ['Grupo I: agregados familiares com Tarifa Social de Energia Elétrica — limite aumentado até 1 683 €', 'Grupo II: residentes em zonas/bairros Bairros + Sustentáveis — limite aumentado até 1 683 €', 'Grupo III: restantes clientes de electricidade — limite até 1 100 €', 'Adicionalmente, é possível receber até 50 € para o encerramento seguro/selagem do tubo de gás', 'É necessário o CPE — Código de Ponto de Entrega da factura de electricidade', 'É necessário o NIF do candidato', 'Para entrar no portal é necessário Cartão de Cidadão com leitor/PIN ou Chave Móvel Digital', 'Os arrendatários normalmente devem ter consentimento do proprietário se houver alteração de equipamento fixo ou da instalação de gás'] },
+        { kind: 'paragraph', text: 'Na 2.ª fase (aberta desde 11.12.2025, mas encerrada a novas candidaturas desde 24.03.2026, a aguardar renegociação do PRR) o programa divide os candidatos em 2 grupos com dotação. O importante não é a nacionalidade, mas sim ter habitação/contrato de electricidade em Portugal e cumprir as condições do aviso.' },
+        { kind: 'checklist', items: ['Grupo II: agregados familiares com Tarifa Social de Energia Elétrica (TSEE) — limites por equipamento mais altos (por exemplo, termoacumulador até 615 €, conjunto placa+forno até 738 €) mais despesas de transporte e instalação', 'Grupo III: restantes clientes de electricidade — limites por equipamento mais baixos (por exemplo, termoacumulador até 500 €, conjunto placa+forno até 600 €), sem transporte nem instalação pagos', 'Bairros + Sustentáveis (Grupo I) está marcado «Não Aplicável» nesta fase e não recebe dotação', 'Transporte, instalação e os até 50 € pela remoção/selagem do antigo equipamento a gás só existem para a Tarifa Social (Grupo II); para o Grupo III estes serviços são «Não elegível»', 'É necessário o CPE — Código de Ponto de Entrega da factura de electricidade', 'É necessário o NIF do candidato', 'Para entrar no portal é necessário Cartão de Cidadão com leitor/PIN ou Chave Móvel Digital', 'Os arrendatários normalmente devem ter consentimento do proprietário se houver alteração de equipamento fixo ou da instalação de gás'] },
         { kind: 'warning', text: 'Se a electricidade estiver em nome do senhorio, de um familiar ou do antigo morador, a candidatura pode ficar bloqueada: CPE, morada e dados do candidato devem estar logicamente alinhados com as condições do programa. Antes de candidatar-se, verifique o contrato de eletricidade.' }
       ]
     },
@@ -30,7 +30,7 @@ export default {
       title: 'O que preparar antes da candidatura',
       content: [
         { kind: 'paragraph', text: 'O portal do Fundo Ambiental normalmente verifica parte dos dados automaticamente, mas é melhor reunir previamente digitalizações e fotografias. Isto poupa semanas de troca de mensagens.' },
-        { kind: 'checklist', items: ['Acesso através de CMD ou Cartão de Cidadão', 'NIF e contactos actualizados', 'Factura de electricidade com CPE e morada do imóvel', 'Prova do direito de utilização da habitação: contrato de arrendamento, caderneta predial/documento do proprietário ou outro comprovativo, se for pedido', 'Fotografias do antigo equipamento a gás antes da desmontagem', 'Marca, modelo e tipo do equipamento antigo: placa, fogão, forno, esquentador ou caldeira', 'Dados sobre a existência de gás: botija, rede de gás natural ou GPL canalizado, se aplicável', 'Se estiver na Tarifa Social — verifique que esta já aparece na factura de electricidade', 'Se se candidata como Bairros + Sustentáveis — verifique que a morada integra o território/iniciativa elegível', 'Consentimento do senhorio para a substituição do equipamento, se a habitação for arrendada'] }
+        { kind: 'checklist', items: ['Acesso através de CMD ou Cartão de Cidadão', 'NIF e contactos actualizados', 'Factura de electricidade com CPE e morada do imóvel', 'Prova do direito de utilização da habitação: contrato de arrendamento, caderneta predial/documento do proprietário ou outro comprovativo, se for pedido', 'Fotografias do antigo equipamento a gás antes da desmontagem', 'Marca, modelo e tipo do equipamento antigo: placa, fogão, forno, esquentador ou caldeira', 'Dados sobre a existência de gás: botija, rede de gás natural ou GPL canalizado, se aplicável', 'Se estiver na Tarifa Social — verifique que esta já aparece na factura de electricidade, pois é isso que determina o grupo (Grupo II) e os limites mais altos', 'Consentimento do senhorio para a substituição do equipamento, se a habitação for arrendada'] }
       ]
     },
     {
@@ -79,7 +79,7 @@ export default {
   sources: [
     { title: 'Fundo Ambiental — portal oficial dos programas e Área Reservada', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fundo Ambiental — Avisos 2025, Bairros + Sustentáveis e E-LAR', url: 'https://www.fundoambiental.pt/apoios-prr/c13-eficiencia-energetica-em-edificios/11c13-i012025-programa-e-lar-2-fase.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — Chave Móvel Digital', url: 'https://eportugal.gov.pt/servicos/ativar-a-chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/servicos/ativar-a-chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

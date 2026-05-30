@@ -25,8 +25,7 @@ export default {
               'Percursos curtos de 3-15 km, normalmente circulares',
               'Assinalados com o símbolo «PR» + número + nome do município',
               'Mais de 150 trilhos PR registados na FCMP (Federação de Campismo e Montanhismo)',
-              'Aplicação Trilhos de Portugal — todos os trilhos PR com descrições e GPX',
-              'GPX gratuitos em rededetrilhos.pt'
+              'Aplicação Trilhos de Portugal — todos os trilhos PR com descrições e GPX'
             ]}
           ]},
           { id: 't3', title: '💧 Levadas (Madeira) — único', content: [
@@ -148,7 +147,6 @@ export default {
           'AllTrails — em inglês, conveniente para quem fala inglês',
           'ViewRanger / Komoot — europeias, detalhadas',
           'Outdooractive — percursos GR',
-          'trilhos.rededetrilhos.pt — base oficial',
           'Mapa Amarelo — para Cabo Verde + Portugal (popular nos Açores)',
           'GPX + mapas offline — obrigatório! Nos parques muitas vezes não há rede'
         ]}
@@ -181,11 +179,11 @@ export default {
   ],
   sources: [
     { title: 'Federação Portuguesa de Campismo e Montanhismo', url: 'https://fcmportugal.com/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Rede de Trilhos', url: 'https://rededetrilhos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'FCMP — Registo Nacional de Percursos Pedestres (RNPP)', url: 'https://www.fcmportugal.com/percursos-pedestres/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'ICNF — Parques e Reservas', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Rota Vicentina', url: 'https://rotavicentina.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Madeira Levadas', url: 'https://www.visitmadeira.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

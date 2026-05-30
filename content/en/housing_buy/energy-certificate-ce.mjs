@@ -76,7 +76,7 @@ export default {
     { title: 'ADENE: Energy Certification', url: 'https://www.adene.pt/edificios/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SCE: building energy certification portal', url: 'https://www.sce.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 101-D/2020: Sistema de Certificação Energética dos Edifícios', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/101-d-2020-150570704', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal: Energy certificate for buildings', url: 'https://eportugal.gov.pt/servicos/pedir-o-certificado-energetico-de-edificios', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal: Energy certificate for buildings', url: 'https://www.gov.pt/servicos/pedir-o-certificado-energetico-de-edificios', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

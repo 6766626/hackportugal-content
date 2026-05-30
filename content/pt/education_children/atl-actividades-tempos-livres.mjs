@@ -3,7 +3,7 @@ export default {
   id: 'atl-actividades-tempos-livres',
   categoryId: 'education_children',
   title: 'ATL e CAF: prolongamento escolar para crianças dos 6 aos 10 anos em Portugal',
-  tldr: 'Para o 1.º ciclo, 1.º–4.º anos, depois das aulas há normalmente AEC gratuitas e CAF/ATL paga ou comparticipada: acompanhamento de manhã, almoço, fim do dia e férias. A inscrição abre frequentemente juntamente com a matrícula/renovação em portal-matriculas.gov.pt na primavera-verão de 2026, mas as regras e os preços são definidos pelo município ou pela IPSS. As famílias com escalão A/B da Ação Social Escolar normalmente pagam menos ou 0 €; situações sociais e crianças com necessidades específicas têm prioridade.',
+  tldr: 'Para o 1.º ciclo, 1.º–4.º anos, depois das aulas há normalmente AEC gratuitas e CAF/ATL paga ou comparticipada: acompanhamento de manhã, almoço, fim do dia e férias. A inscrição abre frequentemente juntamente com a matrícula/renovação em https://www.portaldasmatriculas.edu.gov.pt/ na primavera-verão de 2026, mas as regras e os preços são definidos pelo município ou pela IPSS. As famílias com escalão A/B da Ação Social Escolar normalmente pagam menos ou 0 €; situações sociais e crianças com necessidades específicas têm prioridade.',
   tags: ['atl', 'caf', 'escola', 'almoço', 'ase'],
   estimatedReadMinutes: 5,
   steps: [
@@ -90,7 +90,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'As datas exatas de matrícula e renovação são publicadas anualmente pelo Ministério da Educação e pelo Portal das Matrículas. Na prática, para o 1.º ciclo, a inscrição e a renovação decorrem na primavera-verão; os pedidos municipais para almoços, transporte e CAF/ATL abrem frequentemente logo após a matrícula escolar ou em junho-julho.' },
         { kind: 'checklist', items: [
-          'Abril–maio: verifique os prazos de matrícula/renovação em portal-matriculas.gov.pt e no site do seu agrupamento.',
+          'Abril–maio: verifique os prazos de matrícula/renovação em https://www.portaldasmatriculas.edu.gov.pt/ e no site do seu agrupamento.',
           'Maio–junho: submeta a matrícula ou renovação; guarde o comprovativo.',
           'Junho–julho: aceda ao site da Câmara Municipal e submeta pedidos para refeições, transportes, CAF/ATL.',
           'Julho–agosto: assine o contrato com a IPSS/associação, se o prolongamento não for municipal.',
@@ -132,6 +132,6 @@ export default {
     { title: 'Portal do Governo — Portal das Matrículas e serviços de educação', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Matrículas — matrícula e renovação online', url: 'https://portaldasmatriculas.edu.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

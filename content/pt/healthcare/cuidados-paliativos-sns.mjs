@@ -107,10 +107,10 @@ export default {
   ],
   sources: [
     { title: 'SNS — informação sobre Cuidados Paliativos', url: 'https://www.sns.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'RNCCI — Rede Nacional de Cuidados Continuados Integrados', url: 'https://www.rncci.min-saude.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'RNCCI — Rede Nacional de Cuidados Continuados Integrados', url: 'https://www.sns.gov.pt/sns-saude-mais/cuidados-continuados/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 52/2012 — Lei de Bases dos Cuidados Paliativos', url: 'https://diariodarepublica.pt/dr/detalhe/lei/52-2012-174841', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — linha de contacto 808 24 24 24', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

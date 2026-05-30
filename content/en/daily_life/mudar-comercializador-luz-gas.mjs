@@ -3,7 +3,7 @@ export default {
   id: 'mudar-comercializador-luz-gas',
   categoryId: 'daily_life',
   title: 'Changing electricity and gas supplier: free and without disconnection',
-  tldr: 'In Portugal, changing comercializador de eletricidade/gás is free: the new supplier starts the process itself, and the old contract is closed without a technician visit and without cutting off electricity/gas. Compare tariffs on the official simulador.erse.pt using CPE/CUI, consumo anual and potência contratada. Main players: EDP, Galp, Endesa, Iberdrola, Goldenergy, Coopérnico, Plenitude. For distance contracts, there is a 14-day cancellation right.',
+  tldr: 'In Portugal, changing comercializador de eletricidade/gás is free: the new supplier starts the process itself, and the old contract is closed without a technician visit and without cutting off electricity/gas. Compare tariffs on the official simuladorprecos.erse.pt using CPE/CUI, consumo anual and potência contratada. Main players: EDP, Galp, Endesa, Iberdrola, Goldenergy, Coopérnico, Plenitude. For distance contracts, there is a 14-day cancellation right.',
   tags: ['electricity', 'gas', 'erse', 'bills'],
   estimatedReadMinutes: 5,
   steps: [
@@ -29,9 +29,9 @@ export default {
       id: 'compare',
       title: 'Compare tariffs on Simulador ERSE',
       content: [
-        { kind: 'paragraph', text: 'The official comparison tool is simulador.erse.pt. It is not an advertising aggregator: it is run by ERSE, the energy regulator. Enter the details from your latest bill to get a calculation based not on an “average”, but on your own consumption profile.' },
+        { kind: 'paragraph', text: 'The official comparison tool is simuladorprecos.erse.pt. It is not an advertising aggregator: it is run by ERSE, the energy regulator. Enter the details from your latest bill to get a calculation based not on an “average”, but on your own consumption profile.' },
         { kind: 'checklist', items: [
-          'Open simulador.erse.pt',
+          'Open simuladorprecos.erse.pt',
           'Choose eletricidade, gás natural or dual',
           'Enter distrito/concelho and customer type: doméstico',
           'Enter consumo anual in kWh — take it from the annual total on the bill',
@@ -128,7 +128,7 @@ export default {
     },
     {
       title: 'ERSE energy price simulator',
-      url: 'https://www.simulador.erse.pt',
+      url: 'https://simuladorprecos.erse.pt/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -97,7 +97,7 @@ export default {
     { title: 'Decreto-Lei n.º 84/2021 — regime da venda de bens de consumo', url: 'https://dre.pt/dre/detalhe/decreto-lei/84-2021', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Directiva da UE 2019/771 — venda de bens', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32019L0771', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Livro de Reclamações — portal oficial', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — garantia de bens de consumo', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/garantia-de-bens-de-consumo', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — garantia de bens de consumo', url: 'https://www.gov.pt/cidadaos/-/informacoes/garantia-de-bens-de-consumo', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 365

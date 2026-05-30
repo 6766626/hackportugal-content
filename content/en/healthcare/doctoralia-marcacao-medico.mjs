@@ -3,7 +3,7 @@ export default {
   id: 'doctoralia-marcacao-medico',
   categoryId: 'healthcare',
   title: 'Doctoralia and Linkare — finding and booking a private doctor',
-  tldr: 'In Portugal, the fastest way to find a private doctor is usually via Doctoralia.pt: 25,000+ doctors and clinics, reviews, prices, languages, an online calendar and filters for Médis/Multicare. Linkare is convenient for blood tests, exames and some specialists: you can compare slots and book without phone calls. A typical appointment with a private GP costs €50–80, with a specialist €70–120, and with seguro de saúde often €15–40. Before your visit, always confirm the price, insurance network and whether a referral is needed.',
+  tldr: 'In Portugal, the fastest way to find a private doctor is usually via Doctoralia.com.pt: 25,000+ doctors and clinics, reviews, prices, languages, an online calendar and filters for Médis/Multicare. Linkare is convenient for blood tests, exames and some specialists: you can compare slots and book without phone calls. A typical appointment with a private GP costs €50–80, with a specialist €70–120, and with seguro de saúde often €15–40. Before your visit, always confirm the price, insurance network and whether a referral is needed.',
   tags: ['doctoralia', 'linkare', 'healthcare', 'insurance'],
   estimatedReadMinutes: 5,
   steps: [
@@ -25,11 +25,11 @@ export default {
     },
     {
       id: 'doctoralia',
-      title: 'Doctoralia.pt: the main doctor search',
+      title: 'Doctoralia.com.pt: the main doctor search',
       content: [
-        { kind: 'paragraph', text: 'Doctoralia.pt is the largest aggregator of private doctors in Portugal: more than 25,000 doctors and clinics, profiles, patient reviews, an online calendar, addresses, prices and some insurance filters. For Lisbon, Porto, Braga, Coimbra, the Algarve and Madeira, it is usually the first site for finding an especialista.' },
+        { kind: 'paragraph', text: 'Doctoralia.com.pt is the largest aggregator of private doctors in Portugal: more than 25,000 doctors and clinics, profiles, patient reviews, an online calendar, addresses, prices and some insurance filters. For Lisbon, Porto, Braga, Coimbra, the Algarve and Madeira, it is usually the first site for finding an especialista.' },
         { kind: 'checklist', items: [
-          'Open doctoralia.pt and choose an especialidade: “Clínico geral”, “Dermatologista”, “Ginecologista”, “Pediatra”, “Psiquiatra”',
+          'Open doctoralia.com.pt and choose an especialidade: “Clínico geral”, “Dermatologista”, “Ginecologista”, “Pediatra”, “Psiquiatra”',
           'Enter a city or postcode: Lisboa, Porto, Cascais, Oeiras, Braga, Faro, etc.',
           'Filter by “Marcação online” if you want to book without calling',
           'Check “Opiniões”: look not only at the rating, but also at how recent the reviews are',
@@ -102,9 +102,9 @@ export default {
     { label: 'Basic análises clínicas', amountEURMin: 10, amountEURMax: 60, note: 'The price depends on the set of tests and the presence of a referral/insurance.' }
   ],
   sources: [
-    { title: 'Doctoralia Portugal — doctor search, reviews and marcação online', url: 'https://www.doctoralia.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Doctoralia Portugal — doctor search, reviews and marcação online', url: 'https://www.doctoralia.com.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Linkare Portugal — booking exames, análises and specialists', url: 'https://www.linkare.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

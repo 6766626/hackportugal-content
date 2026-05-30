@@ -3,7 +3,7 @@ export default {
   id: 'cpap-medicina-sono',
   categoryId: 'healthcare',
   title: 'Sleep apnoea and CPAP through the SNS: from médico de família to polissonografia',
-  tldr: 'If apneia obstrutiva do sono is suspected, the usual SNS route is: médico de família → referral to pneumologia/consulta do sono → polissonografia or estudo cardiorrespiratório do sono → CPAP prescription as Cuidados Respiratórios Domiciliários. Under Norma DGS 031/2011, updated on 13.07.2015, CPAP is prescribed by a doctor and supplied through a contracted provider; the patient usually does not buy the device themselves. In 2026 consultas and prescribed examinations in the SNS are in most cases exempt from taxa moderadora.',
+  tldr: 'If apneia obstrutiva do sono is suspected, the usual SNS route is: médico de família → referral to pneumologia/consulta do sono → polissonografia or estudo cardiorrespiratório do sono → CPAP prescription as Cuidados Respiratórios Domiciliários. Under Norma DGS n.º 022/2011 (28/09/2011), updated on 11/09/2015, CPAP is prescribed by a doctor and supplied through a contracted provider; the patient usually does not buy the device themselves. In 2026 consultas and prescribed examinations in the SNS are in most cases exempt from taxa moderadora.',
   tags: ['sns', 'cpap', 'sleep', 'apnoea'],
   estimatedReadMinutes: 6,
   steps: [
@@ -65,7 +65,7 @@ export default {
       id: 'cpap-prescription',
       title: 'Step 3: CPAP prescription as Cuidados Respiratórios Domiciliários',
       content: [
-        { kind: 'paragraph', text: 'If the doctor confirms the indication, CPAP is prescribed as ventiloterapia under Cuidados Respiratórios Domiciliários. The current DGS page on this subject is Norma DGS 031/2011, updated on 13.07.2015; in everyday use it is sometimes incorrectly called “030/2011”.' },
+        { kind: 'paragraph', text: 'If the doctor confirms the indication, CPAP is prescribed as ventiloterapia under Cuidados Respiratórios Domiciliários. The current DGS page on this subject is Norma DGS n.º 022/2011 (28/09/2011), updated on 11/09/2015.' },
         { kind: 'paragraph', text: 'Under the SNS, the patient usually does not buy the device: the doctor issues a prescrição, and a contracted supplier delivers the CPAP/APAP, mask, tubing and consumables. The model and supplier depend on the contract and region, not on the patient’s wish to choose a brand.' },
         { kind: 'checklist', items: [
           'Ask the doctor to clarify: CPAP, APAP or another mode',
@@ -123,8 +123,8 @@ export default {
   ],
   sources: [
     {
-      title: 'DGS: Norma n.º 031/2011, Cuidados Respiratórios Domiciliários, updated on 13.07.2015',
-      url: 'https://www.dgs.pt/em-destaque/norma-da-dgs-n0312011-de-30092011-actualizada-a-13072015.aspx',
+      title: 'DGS: Norma n.º 022/2011, Cuidados Respiratórios Domiciliários (Ventiloterapia), updated 11/09/2015',
+      url: 'https://normas.dgs.min-saude.pt/2011/09/28/cuidados-respiratorios-domiciliarios-prescricao-de-ventiloterapia-e-outros-equipamentos/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -137,6 +137,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

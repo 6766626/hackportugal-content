@@ -3,7 +3,7 @@ export default {
   id: 'doctoralia-marcacao-medico',
   categoryId: 'healthcare',
   title: 'Doctoralia e Linkare — procurar e marcar consulta com médico privado',
-  tldr: 'Em Portugal, a forma mais rápida de procurar um médico privado é através do Doctoralia.pt: 25 000+ médicos e clínicas, avaliações, preços, idiomas, calendário online e filtros por Médis/Multicare. O Linkare é útil para análises, exames e alguns especialistas: permite comparar vagas e marcar sem telefonemas. Uma consulta típica com um clínico geral privado custa 50–80 €, com um especialista 70–120 €, e com seguro de saúde frequentemente 15–40 €. Antes da visita, confirme sempre o preço, a rede do seguro e se é necessário referral.',
+  tldr: 'Em Portugal, a forma mais rápida de procurar um médico privado é através do Doctoralia.com.pt: 25 000+ médicos e clínicas, avaliações, preços, idiomas, calendário online e filtros por Médis/Multicare. O Linkare é útil para análises, exames e alguns especialistas: permite comparar vagas e marcar sem telefonemas. Uma consulta típica com um clínico geral privado custa 50–80 €, com um especialista 70–120 €, e com seguro de saúde frequentemente 15–40 €. Antes da visita, confirme sempre o preço, a rede do seguro e se é necessário referral.',
   tags: ['doctoralia', 'linkare', 'medicina', 'seguro'],
   estimatedReadMinutes: 5,
   steps: [
@@ -25,11 +25,11 @@ export default {
     },
     {
       id: 'doctoralia',
-      title: 'Doctoralia.pt: a principal pesquisa de médicos',
+      title: 'Doctoralia.com.pt: a principal pesquisa de médicos',
       content: [
-        { kind: 'paragraph', text: 'Doctoralia.pt é o maior agregador de médicos privados em Portugal: mais de 25 000 médicos e clínicas, perfis, avaliações de pacientes, calendário online, moradas, preços e alguns filtros de seguros. Para Lisboa, Porto, Braga, Coimbra, Algarve e Madeira, é normalmente o primeiro site para procurar especialista.' },
+        { kind: 'paragraph', text: 'Doctoralia.com.pt é o maior agregador de médicos privados em Portugal: mais de 25 000 médicos e clínicas, perfis, avaliações de pacientes, calendário online, moradas, preços e alguns filtros de seguros. Para Lisboa, Porto, Braga, Coimbra, Algarve e Madeira, é normalmente o primeiro site para procurar especialista.' },
         { kind: 'checklist', items: [
-          'Abra doctoralia.pt e escolha a especialidade: “Clínico geral”, “Dermatologista”, “Ginecologista”, “Pediatra”, “Psiquiatra”',
+          'Abra doctoralia.com.pt e escolha a especialidade: “Clínico geral”, “Dermatologista”, “Ginecologista”, “Pediatra”, “Psiquiatra”',
           'Indique a cidade ou o código postal: Lisboa, Porto, Cascais, Oeiras, Braga, Faro, etc.',
           'Filtre por “Marcação online”, se quiser marcar sem telefonar',
           'Verifique “Opiniões”: veja não só a classificação, mas também a atualidade das avaliações',
@@ -102,9 +102,9 @@ export default {
     { label: 'Análises clínicas básicas', amountEURMin: 10, amountEURMax: 60, note: 'O preço depende do conjunto de análises e da existência de referenciação/seguro.' }
   ],
   sources: [
-    { title: 'Doctoralia Portugal — pesquisa de médicos, avaliações e marcação online', url: 'https://www.doctoralia.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Doctoralia Portugal — pesquisa de médicos, avaliações e marcação online', url: 'https://www.doctoralia.com.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Linkare Portugal — marcação de exames, análises e especialistas', url: 'https://www.linkare.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

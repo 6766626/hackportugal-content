@@ -3,7 +3,7 @@ export default {
   id: 'mudar-comercializador-luz-gas',
   categoryId: 'daily_life',
   title: 'Mudar de fornecedor de eletricidade e gás: gratuito e sem corte',
-  tldr: 'Em Portugal, mudar de comercializador de eletricidade/gás é gratuito: o novo fornecedor inicia o processo, o contrato antigo é encerrado sem visita técnica e sem corte de luz/gás. Compare tarifas no simulador oficial simulador.erse.pt usando CPE/CUI, consumo anual e potência contratada. Principais operadores: EDP, Galp, Endesa, Iberdrola, Goldenergy, Coopérnico, Plenitude. Em contratos à distância, existe direito de cancelamento durante 14 dias.',
+  tldr: 'Em Portugal, mudar de comercializador de eletricidade/gás é gratuito: o novo fornecedor inicia o processo, o contrato antigo é encerrado sem visita técnica e sem corte de luz/gás. Compare tarifas no simulador oficial simuladorprecos.erse.pt usando CPE/CUI, consumo anual e potência contratada. Principais operadores: EDP, Galp, Endesa, Iberdrola, Goldenergy, Coopérnico, Plenitude. Em contratos à distância, existe direito de cancelamento durante 14 dias.',
   tags: ['eletricidade', 'gás', 'erse', 'faturas'],
   estimatedReadMinutes: 5,
   steps: [
@@ -29,9 +29,9 @@ export default {
       id: 'compare',
       title: 'Compare tarifas no Simulador ERSE',
       content: [
-        { kind: 'paragraph', text: 'O comparador oficial é o simulador.erse.pt. Não é um agregador publicitário: é gerido pela ERSE, a entidade reguladora da energia. Introduza os dados da última fatura para obter um cálculo não “em média”, mas de acordo com o seu perfil de consumo.' },
+        { kind: 'paragraph', text: 'O comparador oficial é o simuladorprecos.erse.pt. Não é um agregador publicitário: é gerido pela ERSE, a entidade reguladora da energia. Introduza os dados da última fatura para obter um cálculo não “em média”, mas de acordo com o seu perfil de consumo.' },
         { kind: 'checklist', items: [
-          'Abra simulador.erse.pt',
+          'Abra simuladorprecos.erse.pt',
           'Escolha eletricidade, gás natural ou dual',
           'Introduza distrito/concelho e tipo de cliente: doméstico',
           'Indique o consumo anual em kWh — use o total anual da fatura',
@@ -128,7 +128,7 @@ export default {
     },
     {
       title: 'ERSE Simulador de preços de energia',
-      url: 'https://www.simulador.erse.pt',
+      url: 'https://simuladorprecos.erse.pt/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

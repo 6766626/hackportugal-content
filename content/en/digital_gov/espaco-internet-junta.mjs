@@ -109,7 +109,7 @@ export default {
           'When finished, click terminar sessão / logout in all services',
           'Delete downloaded files from Downloads, Desktop and the bin',
           'Do not open MB WAY or banking apps on someone else’s computer',
-          'Check the website address: financas.gov.pt, seg-social.pt, eportugal.gov.pt, aima.gov.pt',
+          'Check the website address: financas.gov.pt, seg-social.pt, gov.pt, aima.gov.pt',
           'Do not send scans of documents to strangers from a shared e-mail account',
           'If you printed a document with NIF, IRS or bank details — take all copies, including incorrect ones'
         ] },
@@ -147,7 +147,7 @@ export default {
     },
     {
       title: 'ePortugal — government online services',
-      url: 'https://eportugal.gov.pt',
+      url: 'https://www.gov.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

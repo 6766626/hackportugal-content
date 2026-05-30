@@ -85,7 +85,7 @@ export default {
           '💼 Comprovativo de rendimentos: IRS Anexo A dos últimos 3 anos, 12 recibos mensais de vencimento ou Anexo B (para trabalhadores independentes)',
           '🏠 Atestado de residência da Junta + contrato de arrendamento',
           '💳 Certidões sem dívida: Finanças + Segurança Social (gratuitas nos portais eletrónicos)',
-          '⚖️ Registo criminal: Portugal (gratuito em eportugal.gov.pt) + países de residência ≥ 1 ano nos últimos 5 anos',
+          '⚖️ Registo criminal: Portugal (gratuito em gov.pt) + países de residência ≥ 1 ano nos últimos 5 anos',
           '📸 2 fotografias 3x4',
           '💶 Pagamento da taxa'
         ]}

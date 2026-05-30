@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'manuais-escolares-gratis',
   categoryId: 'education_children',
-  title: 'Manuais escolares gratuitos do 1.º ao 9.º ano: Programa Manuais',
-  tldr: 'Nas escolas públicas em Portugal, os manuais escolares do 1.º-9.º ano são disponibilizados gratuitamente através do Programa Manuais Escolares Gratuitos: o encarregado de educação recebe vouchers MEGA e troca-os por livros numa livraria ou na escola. O programa é universal, não depende do rendimento nem da ASE. No fim do ano, a maioria dos manuais deve ser devolvida para reutilização; os cadernos de atividades e consumíveis são normalmente comprados à parte.',
+  title: 'Manuais escolares gratuitos do 1.º ao 12.º ano: Programa Manuais',
+  tldr: 'Nas escolas públicas em Portugal, os manuais escolares de todo o ensino obrigatório (1.º-12.º ano) são disponibilizados gratuitamente através do Programa Manuais Escolares Gratuitos: o encarregado de educação recebe vouchers MEGA e troca-os por livros numa livraria ou na escola. O programa é universal, não depende do rendimento nem da ASE. No fim do ano, a maioria dos manuais deve ser devolvida para reutilização; os cadernos de atividades e consumíveis são normalmente comprados à parte.',
   tags: ['escola', 'manuais', 'mega', 'manuais escolares'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'O Programa Manuais Escolares Gratuitos é um regime público de distribuição gratuita de manuais escolares. Para a família, funciona através de vouchers eletrónicos MEGA: cada voucher corresponde a um manual específico da lista da escola.' },
         { kind: 'checklist', items: [
           'São abrangidos os manuais principais aprovados pela escola para um ano e turma específicos.',
-          'Do 1.º-9.º ano na escola pública, o programa aplica-se independentemente do rendimento da família.',
+          'Em todo o ensino obrigatório (1.º-12.º ano) na escola pública, o programa aplica-se independentemente do rendimento da família.',
           'Não é um apoio ASE: o direito a manuais gratuitos não exige estatuto de família carenciada.',
           'A criança deve estar matriculada na escola através do Portal das Matrículas / ePortugal ou diretamente através da escola, se o estabelecimento de ensino assim o solicitar.',
           'Os livros novos ou usados são entregues mediante voucher — a família não escolhe o formato.',
@@ -109,15 +109,15 @@ export default {
     }
   ],
   costs: [
-    { label: 'Manuais escolares do 1.º-9.º ano com vouchers MEGA', amountEUR: 0, note: 'Para alunos da escola pública; são entregues como novos ou usados no sistema de reutilização.' },
+    { label: 'Manuais escolares do 1.º-12.º ano com vouchers MEGA', amountEUR: 0, note: 'Para alunos da escola pública; são entregues como novos ou usados no sistema de reutilização.' },
     { label: 'Cadernos de atividades e material de papelaria', amountEURMin: 30, amountEURMax: 150, note: 'Estimativa por criança por ano; depende do ano, da escola e das exigências dos professores.' }
   ],
   sources: [
     { title: 'DGE — Manuais Escolares (avaliação, certificação e reutilização)', url: 'https://www.dge.mec.pt/manuais-escolares', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'IGeFE — MEGA, Manuais Escolares Gratuitos', url: 'https://www.igefe.mec.pt/Page/Index/199', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
-    { title: 'ePortugal — Matrículas escolares', url: 'https://eportugal.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ePortugal — Matrículas escolares', url: 'https://www.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

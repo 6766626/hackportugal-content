@@ -3,23 +3,23 @@ export default {
   id: 'charity-donations-tax',
   categoryId: 'daily_life',
   title: 'Благотворительность — где помочь и налоговые вычеты',
-  tldr: 'IRS «consignação» — возможность направить 0,5% налога IRS в одну из ~5 000 зарегистрированных благотворительных организаций (без расходов для вас, просто галочка в декларации)\.\n\nДополнительно: 25% всех пожертвований IPSS (Instituições Particulares de Solidariedade Social) вычитаются из IRS. Топ благотворительных организаций: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (помощь людям с инвалидностью), AMI (гуманитарная помощь)\.\n\nКампания Banco Alimentar — 2 раза в год, мобилизует сотни тысяч добровольцев.',
+  tldr: 'IRS «consignação» — возможность направить 1% налога IRS в одну из ~5 000 зарегистрированных благотворительных организаций (без расходов для вас, просто галочка в декларации)\.\n\nДополнительно: 25% всех пожертвований IPSS (Instituições Particulares de Solidariedade Social) вычитаются из IRS. Топ благотворительных организаций: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (помощь людям с инвалидностью), AMI (гуманитарная помощь)\.\n\nКампания Banco Alimentar — 2 раза в год, мобилизует сотни тысяч добровольцев.',
   tags: ['благотворительность', 'пожертвования', 'consignação', 'IRS'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'consignacao',
-      title: '✅ Consignação 0,5% IRS — без расходов',
+      title: '✅ Consignação 1% IRS — без расходов',
       content: [
-        { kind: 'paragraph', text: 'Каждый резидент Португалии может направить 0,5% от итогового налога IRS в одну из зарегистрированных благотворительных организаций. Это БЕЗ дополнительных расходов для вас — государство просто перенаправляет часть вашего налога.' },
+        { kind: 'paragraph', text: 'Каждый резидент Португалии может направить 1% от итогового налога IRS в одну из зарегистрированных благотворительных организаций. Это БЕЗ дополнительных расходов для вас — государство просто перенаправляет часть вашего налога.' },
         { kind: 'checklist', items: [
           '📅 Когда: при подаче IRS (апрель-июнь)',
           '✅ В форме IRS — «consignação de quota da liquidação do imposto»',
           '🏢 Выбрать одну организацию (по NIF) из официального списка AT',
           'Список: portaldasfinancas.gov.pt → IRS → Consignação',
-          '💰 Конкретно: 0,5% от вашего итогового налога. Для 30 000 €/год — это ~50-150 €',
+          '💰 Конкретно: 1% от вашего итогового налога. Для 30 000 €/год — это ~100-300 €',
           '🔁 Можно менять выбор каждый год',
-          '🇵🇹 Также: можно consignar benefício fiscal do IVA — передать благотворительной организации сумму вашего вычета по IVA из eligible invoices. Это НЕ бесплатно: в отличие от 0,5% IRS, вы теряете этот IVA deduction'
+          '🇵🇹 Также: можно consignar benefício fiscal do IVA — передать благотворительной организации сумму вашего вычета по IVA из eligible invoices. Это НЕ бесплатно: в отличие от 1% IRS, вы теряете этот IVA deduction'
         ]}
       ]
     },
@@ -151,7 +151,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Consignação IRS 0,5%', amountEUR: 0, note: 'без расходов для вас' },
+    { label: 'Consignação IRS 1%', amountEUR: 0, note: 'без расходов для вас' },
     { label: 'Вычет IRS по пожертвованиям', amountEUR: 0, note: '25% × 1,3 от пожертвования' },
     { label: 'Лимит вычета IRS', amountEUR: 0, note: '15% от налога к уплате' }
   ],
@@ -161,6 +161,6 @@ export default {
     { title: 'Segurança Social — IPSS registry', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Cáritas Portuguesa', url: 'https://www.caritas.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

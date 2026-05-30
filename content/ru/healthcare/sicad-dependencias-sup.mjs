@@ -79,7 +79,7 @@ export default {
     { title: 'SICAD/ICAD — информация о comportamentos aditivos e dependências и сети ответов', url: 'https://www.sicad.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DGS — нормы и рекомендации по здоровью, álcool, saúde mental и respostas do SNS', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — медицинская сортировка и доступ к urgência', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — доступ к Serviço Nacional de Saúde и услуги для граждан', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — доступ к Serviço Nacional de Saúde и услуги для граждан', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 180

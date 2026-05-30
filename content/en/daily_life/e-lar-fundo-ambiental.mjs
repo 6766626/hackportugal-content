@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'e-lar-fundo-ambiental',
   categoryId: 'daily_life',
-  title: 'E-LAR / Vale E-Lar: voucher up to €1,683 to replace gas with electric',
-  tldr: 'E-LAR is a Fundo Ambiental programme: from 11/12/2025 the 2nd wave is running with a budget of around €60.8 million. The voucher covers replacement of a gas cooker/hob/oven/water heater with class A+ or higher electric appliances. Groups I/II — up to €1,683 with installation, group III — up to €1,100, plus up to €50 for capping the gas pipe. Applications are through fundoambiental.pt with CMD/Cartão de Cidadão, NIF, CPE and selection of a supplier from the list.',
+  title: 'E-LAR / Vale E-Lar: voucher to replace gas with electric',
+  tldr: 'E-LAR is a Fundo Ambiental programme: the 2nd phase (aviso AAC 11/C13-i01/2025) has a budget of around €60.8 million, but since 24/03/2026 it has been closed to new applications pending PRR renegotiation. The voucher covers replacement of a gas cooker/hob/oven/water heater with class A+ or higher electric appliances. Support is paid as per-appliance caps (not a single lump sum): for Tarifa Social (Grupo II) — e.g. water heater up to €615, hob+oven set up to €738; for others (Grupo III) — up to €500 and €600 respectively. Applications are through fundoambiental.pt with CMD/Cartão de Cidadão, NIF, CPE and selection of a supplier from the list.',
   tags: ['elar', 'fundoambiental', 'energy', 'voucher'],
   estimatedReadMinutes: 5,
   steps: [
@@ -18,10 +18,10 @@ export default {
     },
     {
       id: 'who-can-apply',
-      title: 'Who can apply in 2026',
+      title: 'Who can apply',
       content: [
-        { kind: 'paragraph', text: 'In the 2nd wave, open from 11/12/2025, the programme divides applicants into 3 groups. What matters is not citizenship, but having housing/an electricity contract in Portugal and meeting the aviso conditions.' },
-        { kind: 'checklist', items: ['Group I: households with Tarifa Social de Energia Elétrica — increased limit up to €1,683', 'Group II: residents of Bairros + Sustentáveis areas/neighbourhoods — increased limit up to €1,683', 'Group III: all other electricity customers — limit up to €1,100', 'Additionally, up to €50 can be obtained for safely closing/capping the gas pipe', 'You need a CPE — Código de Ponto de Entrega from the electricity bill', 'You need the applicant’s NIF', 'To log in to the portal you need a Cartão de Cidadão with reader/PIN or Chave Móvel Digital', 'Tenants usually need the owner’s consent if fixed equipment or the gas installation is being changed'] },
+        { kind: 'paragraph', text: 'In the 2nd phase (open from 11/12/2025, but closed to new applications since 24/03/2026 pending PRR renegotiation) the programme splits applicants into 2 funded groups. What matters is not citizenship, but having housing/an electricity contract in Portugal and meeting the aviso conditions.' },
+        { kind: 'checklist', items: ['Grupo II: households with Tarifa Social de Energia Elétrica (TSEE) — higher per-appliance caps (e.g. water heater up to €615, hob+oven set up to €738) plus transport and installation costs', 'Grupo III: all other electricity customers — lower per-appliance caps (e.g. water heater up to €500, hob+oven set up to €600), with no transport or installation paid', 'Bairros + Sustentáveis (Grupo I) is marked "Não Aplicável" in this phase and receives no funding', 'Transport, installation and the up to €50 for removing/capping the old gas appliance are available only for Tarifa Social (Grupo II); for Grupo III these services are "Não elegível"', 'You need a CPE — Código de Ponto de Entrega from the electricity bill', 'You need the applicant’s NIF', 'To log in to the portal you need a Cartão de Cidadão with reader/PIN or Chave Móvel Digital', 'Tenants usually need the owner’s consent if fixed equipment or the gas installation is being changed'] },
         { kind: 'warning', text: 'If the electricity is in the landlord’s, a relative’s or a previous tenant’s name, the application may get stuck: the CPE, address and applicant details must logically match the programme conditions. Before applying, check the contrato de eletricidade.' }
       ]
     },
@@ -30,7 +30,7 @@ export default {
       title: 'What to prepare before applying',
       content: [
         { kind: 'paragraph', text: 'The Fundo Ambiental portal usually checks some data automatically, but it is better to gather scans and photos in advance. This saves weeks of correspondence.' },
-        { kind: 'checklist', items: ['Access via CMD or Cartão de Cidadão', 'NIF and up-to-date contact details', 'Electricity bill with the CPE and property address', 'Proof of the right to use the property: tenancy agreement, caderneta predial/owner’s document or other confirmation, if requested', 'Photos of the old gas appliance before removal', 'Brand, model and type of the old appliance: placa, fogão, forno, esquentador or caldeira', 'Details on the existence of gas: botija, rede de gás natural or GPL canalizado, if applicable', 'If you are on Tarifa Social — check that it already appears on the electricity bill', 'If you are applying as Bairros + Sustentáveis — check that the address is within the eligible territory/initiative', 'Consent from the senhorio to replace equipment, if the property is rented'] }
+        { kind: 'checklist', items: ['Access via CMD or Cartão de Cidadão', 'NIF and up-to-date contact details', 'Electricity bill with the CPE and property address', 'Proof of the right to use the property: tenancy agreement, caderneta predial/owner’s document or other confirmation, if requested', 'Photos of the old gas appliance before removal', 'Brand, model and type of the old appliance: placa, fogão, forno, esquentador or caldeira', 'Details on the existence of gas: botija, rede de gás natural or GPL canalizado, if applicable', 'If you are on Tarifa Social — check that it already appears on the electricity bill, since this determines your group (Grupo II) and the higher caps', 'Consent from the senhorio to replace equipment, if the property is rented'] }
       ]
     },
     {
@@ -58,7 +58,7 @@ export default {
       title: 'Purchase, installation and gas closure',
       content: [
         { kind: 'paragraph', text: 'After the voucher is issued, choose a supplier from the Fundo Ambiental list. Check not only the appliance price, but also whether delivery, removal of the old appliance, installation, electrical work and disposal are included.' },
-        { kind: 'checklist', items: ['Ask for an orçamento before confirming the order', 'Check that the model meets the E-LAR and energy-efficiency requirements', 'For an induction hob, check the power of the quadro elétrico and disjuntor — older flats often require the line to be upgraded', 'For a termoacumulador, check the capacity, installation location and load on the electrical network', 'Keep the fatura, auto de instalação and supplier documents', 'If a gas appliance is being disconnected, ask for proper capping/selagem da ligação de gás', 'There may be separate support of up to €50 for selagem', 'Do not dismantle the gas pipe yourself — this is a matter of safety and home insurance'] },
+        { kind: 'checklist', items: ['Ask for an orçamento before confirming the order', 'Check that the model meets the E-LAR and energy-efficiency requirements', 'For an induction hob, check the power of the quadro elétrico and disjuntor — older flats often require the line to be upgraded', 'For a termoacumulador, check the capacity, installation location and load on the electrical network', 'Keep the fatura, auto de instalação and supplier documents', 'If a gas appliance is being disconnected, ask for proper capping/selagem da ligação de gás', 'Removing the old gas appliance with capping is supported up to €50, and transport and installation are paid only for Tarifa Social (Grupo II); for Grupo III these services are "Não elegível"', 'Do not dismantle the gas pipe yourself — this is a matter of safety and home insurance'] },
         { kind: 'warning', text: 'E-LAR covers the programme limit, but does not guarantee that all the work will be free. If the chosen appliance, electrics or installation costs more than the limit, the applicant pays the difference.' }
       ]
     },
@@ -67,20 +67,20 @@ export default {
       title: 'Practical details for expats',
       content: [
         { kind: 'paragraph', text: 'The programme is useful even for those who have only just moved: it is linked to Portuguese housing and the electricity CPE, not to length of residence. But without CMD/CC, NIF and a clear status at the address, applying is difficult.' },
-        { kind: 'checklist', items: ['If you only have a passport and NIF, but no CMD, first set up access to government services', 'If you rent your home, agree this with the senhorio in writing: an e-mail is sufficiently better than a verbal agreement', 'If you use bottled gas, photograph the connection and the appliance itself before replacement', 'If you have mains gas, do not close the contrato de gás before consulting an instalador', 'If the building has weak electrical wiring, budget for a separate line/circuit breaker — this may not be included in the voucher', 'Check the application status in the Área Reservada; e-mails from Fundo Ambiental may go to spam', 'Since the 2nd wave budget is around €60.8 million, applications effectively operate according to the funding limit: do not delay if your documents are ready'] }
+        { kind: 'checklist', items: ['If you only have a passport and NIF, but no CMD, first set up access to government services', 'If you rent your home, agree this with the senhorio in writing: an e-mail is sufficiently better than a verbal agreement', 'If you use bottled gas, photograph the connection and the appliance itself before replacement', 'If you have mains gas, do not close the contrato de gás before consulting an instalador', 'If the building has weak electrical wiring, budget for a separate line/circuit breaker — this may not be included in the voucher', 'Check the application status in the Área Reservada; e-mails from Fundo Ambiental may go to spam', 'Since 24/03/2026 the 2nd phase is closed to new applications pending PRR renegotiation; watch fundoambiental.pt for any reopening or a new phase'] }
       ]
     }
   ],
   costs: [
-    { label: 'E-LAR voucher for groups I/II', amountEURMax: 1683, note: 'For Tarifa Social de Energia Elétrica or Bairros + Sustentáveis; the limit includes eligible appliances and installation under the aviso conditions.' },
-    { label: 'E-LAR voucher for group III', amountEURMax: 1100, note: 'For all other electricity customers, if the programme conditions are met.' },
-    { label: 'Top-up for closing the gas pipe', amountEURMax: 50, note: 'Additional support for selagem/closure of the gas connection, where applicable.' }
+    { label: 'Tarifa Social (Grupo II): water heater', amountEURMax: 615, note: 'Per-appliance cap (quadro 9.1, TSEE column). Induction hob up to €369, conventional hob up to €179.6, hob+oven set up to €738, oven up to €369.' },
+    { label: 'Tarifa Social (Grupo II): transport and installation', amountEURMax: 180, note: 'Transport up to €50, hob/oven installation up to €100, water-heater installation up to €180, removal of the old gas appliance with capping up to €50 — TSEE only.' },
+    { label: 'Others (Grupo III): water heater', amountEURMax: 500, note: 'Per-appliance cap (quadro 9.1, Outras Pessoas Singulares column). Induction hob up to €300, conventional hob up to €146, hob+oven set up to €600, oven up to €300. Transport and installation are "Não elegível".' }
   ],
   sources: [
     { title: 'Fundo Ambiental — official programme portal and Área Reservada', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fundo Ambiental — 2025 Avisos, Bairros + Sustentáveis and E-LAR', url: 'https://www.fundoambiental.pt/apoios-prr/c13-eficiencia-energetica-em-edificios/11c13-i012025-programa-e-lar-2-fase.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — Chave Móvel Digital', url: 'https://eportugal.gov.pt/servicos/ativar-a-chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/servicos/ativar-a-chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

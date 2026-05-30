@@ -106,8 +106,8 @@ export default {
     { title: 'Decreto-Lei 72/2008 — Regime Jurídico do Contrato de Seguro', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2008-107544019', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Código do IRS art. 78.º-C — despesas de saúde', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ERS — Entidade Reguladora da Saúde', url: 'https://www.ers.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'SNS — official portal', url: 'https://www.sns.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'SNS — official portal', url: 'https://www.sns.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

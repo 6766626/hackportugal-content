@@ -3,7 +3,7 @@ export default {
   id: 'apicultura-registo-iniciante',
   categoryId: 'food_leisure',
   title: 'Beekeeping for beginners — registration with DGAV (Direção-Geral de Alimentação e Veterinária)',
-  tldr: 'Any apiary in Portugal (even a single hive in a garden) must be registered with DGAV (Direção-Geral de Alimentação e Veterinária — the state food safety and veterinary authority).\n\nRegistration is free: you apply at the Junta de Freguesia (local parish council) or via ePortugal (public services portal).\n\nAfter registration, you receive a beekeeper number and the obligation to keep a health record book (caderno sanitário).\n\nMinimum distances: 200 m in urban areas, 50 m in rural areas (closer is possible with a high fence). Honey for personal consumption — no HACCP. For sales, you need a registered extraction room (sala de extração) and an ASAE (Autoridade de Segurança Alimentar e Económica — food safety supervision) inspection. FNAP (national federation of beekeepers) is the main association. Beginner courses: €150-300. One hive produces 15-30 kg of honey per year; starter kit (hive + swarm + protection) €250-500.',
+  tldr: 'Any apiary in Portugal (even a single hive in a garden) must be registered with DGAV (Direção-Geral de Alimentação e Veterinária — the state food safety and veterinary authority).\n\nRegistration is free: you apply online in the "Atividade Apícola" application in the IFAP Portal reserved area (Área Reservada do Portal do IFAP), or at the Regional Food and Veterinary Services (DSAVR — Direção de Serviços de Alimentação e Veterinária Regional), or through a recognised beekeeper organisation holding an IFAP protocol.\n\nThe initial declaration of existence must be filed within 10 working days of starting activity; the annual existence declaration is filed 1–30 September.\n\nAfter registration, you receive a beekeeper number and the obligation to keep a health record book (caderno sanitário).\n\nMinimum distances: 200 m in urban areas, 50 m in rural areas (closer is possible with a high fence). Honey for personal consumption — no HACCP. For sales, you need a registered extraction room (sala de extração) and an ASAE (Autoridade de Segurança Alimentar e Económica — food safety supervision) inspection. FNAP (national federation of beekeepers) is the main association. Beginner courses: €150-300. One hive produces 15-30 kg of honey per year; starter kit (hive + swarm + protection) €250-500.',
   tags: ['beekeeping', 'bee', 'honey', 'dgav', 'fnap'],
   estimatedReadMinutes: 6,
   steps: [
@@ -45,9 +45,10 @@ export default {
             title: 'Submit the application',
             content: [
               { kind: 'checklist', items: [
-                'Via ePortugal (public services portal): eportugal.gov.pt → Cidadão → Apicultura',
-                'Or in person at the Junta de Freguesia (local parish council)',
-                'Or through DRAP (Direção Regional de Agricultura e Pescas — regional directorate for agriculture and fisheries; 5 regions)',
+                'Online via the IFAP Portal reserved area (Área Reservada do Portal do IFAP) — the "Atividade Apícola" application',
+                'Or at the Regional Food and Veterinary Services (DSAVR — Direção de Serviços de Alimentação e Veterinária Regional)',
+                'Or through a recognised beekeeper organisation holding an IFAP protocol',
+                'File the initial declaration of existence within 10 working days of starting activity; the annual existence declaration is filed 1–30 September',
                 'After approval, a beekeeper number is issued (format AA-NN-NNNN)'
               ] }
             ]
@@ -183,6 +184,6 @@ export default {
     { title: 'Portaria 9/2021 — colmeias distances', url: 'https://dre.pt/dre/detalhe/portaria/9-2021-153700104', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — support for apicultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

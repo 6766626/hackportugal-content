@@ -52,7 +52,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'r1', title: '09:00 — chegada', content: [
-            { kind: 'paragraph', text: 'Comboio a partir do Rossio. À saída — autocarro 434 (5 € por dia, pode sair e voltar a entrar ao longo do percurso) ou táxi/Uber até ao Palácio da Pena (6–8 €).' }
+            { kind: 'paragraph', text: 'Comboio a partir do Rossio. À saída — autocarro 434 (13,50 € por bilhete diário hop-on/hop-off (434/435); bilhete simples ~4 € por sentido) ou táxi/Uber até ao Palácio da Pena (6–8 €).' }
           ]},
           { id: 'r2', title: '09:30–11:30 — Palácio da Pena', content: [
             { kind: 'paragraph', text: 'Com horário online, entrar no interior, visitar o palácio + jardim (2 horas). Visita às salas principais + terraços panorâmicos.' }
@@ -88,7 +88,7 @@ export default {
           '🧥 Camisola: no Palácio da Pena pode estar ventoso e fresco mesmo no Verão',
           '💧 Água — há poucos cafés no topo, leve uma garrafa',
           '🎫 Bilhete combinado Palácio da Pena + Castelo dos Mouros + Monserrate — 32 €, poupança de 8 €',
-          '🚌 Autocarro 434 (5 € por dia, pode sair e voltar a entrar ao longo do percurso) — cobre todas as principais atracções',
+          '🚌 Autocarro 434 (13,50 € por bilhete diário hop-on/hop-off (434/435); bilhete simples ~4 € por sentido) — cobre todas as principais atracções',
           '🚫 Evite o Palácio da Pena depois das 11:00 — multidões; a Quinta da Regaleira é melhor a meio do dia',
           '📸 Melhor altura para fotografar o Palácio da Pena — manhã (sem sombras) ou pôr do sol',
           '🚗 De carro: estacionamento na cidade 3–5 € por dia, mas as estradas ficam congestionadas',
@@ -114,6 +114,6 @@ export default {
     { title: 'Visit Sintra — turismo municipal', url: 'https://www.visitsintra.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Sintra', url: 'https://www.visitportugal.com/en/destinos/lisboa-regiao/73779', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

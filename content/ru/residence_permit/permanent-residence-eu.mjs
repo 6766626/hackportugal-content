@@ -85,7 +85,7 @@ export default {
           '💼 Подтверждение дохода: IRS Anexo A за 3 года, 12 месячных выписок по зарплате или Anexo B (для ИП)',
           '🏠 Atestado de residência от Junta + договор аренды',
           '💳 Certidões sem dívida: Finanças + Segurança Social (бесплатно на е-порталах)',
-          '⚖️ Registo criminal: Португалия (бесплатно на eportugal.gov.pt) + страны проживания ≥ 1 года за последние 5 лет',
+          '⚖️ Registo criminal: Португалия (бесплатно на gov.pt) + страны проживания ≥ 1 года за последние 5 лет',
           '📸 2 фото 3х4',
           '💶 Оплата пошлины'
         ]}

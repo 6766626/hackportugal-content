@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'Если есть Cartão de Cidadão с PIN и USB-ридер (или мобильное NFC) — активировать на autenticacao.gov.pt без визита.' }
           ]},
           { id: 'c2', title: '1. Вариант B — очно в Loja de Cidadão / Espaço Cidadão', content: [
-            { kind: 'paragraph', text: 'Запись на eportugal.gov.pt или живая очередь. Оператор проверяет документы, активирует CMD на ваш PT-номер.' }
+            { kind: 'paragraph', text: 'Запись на gov.pt или живая очередь. Оператор проверяет документы, активирует CMD на ваш PT-номер.' }
           ]},
           { id: 'c3', title: '2. Установить пароль (PIN)', content: [
             { kind: 'paragraph', text: 'Сетевая PIN 4-8 цифр. Используется для каждой авторизации вместе с SMS-кодом.' }
@@ -76,7 +76,7 @@ export default {
   timelineDaysMax: 14,
   sources: [
     { title: 'Autenticação.gov — официальный', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Chave Móvel Digital', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/cidadaos/-/informacoes/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 180

@@ -3,7 +3,7 @@ export default {
   id: 'pesca-ludica-cana-mar',
   categoryId: 'food_leisure',
   title: 'Sea fishing from the shore — Pesca Lúdica à linha licence (DGRM)',
-  tldr: 'Recreational sea fishing from the shore, pier or rocks in Portugal requires a Pesca Lúdica (recreational fishing) licence from DGRM. You can apply online at portal.dgrm.mm.gov.pt in 5 minutes.\n\nPeriods: 3 days (~€3), month (~€10), year (~€20), 3 years (~€50).\n\nPrint or save the QR code with the licence: if checked by Polícia Marítima (maritime police) / GNR‑SEPNA (environmental unit of the national guard) without it, the fine starts at €100. Respect the daily limit (10 kg + 1 fish, or one fish >10 kg), minimum sizes and defeso (closed season) by species.',
+  tldr: 'Recreational sea fishing from the shore, pier or rocks in Portugal requires a Pesca Lúdica (recreational fishing) licence from DGRM. You can apply online at portal.dgrm.mm.gov.pt in 5 minutes.\n\nPeriods: day (~€2), month (~€4), year (~€8).\n\nPrint or save the QR code with the licence: if checked by Polícia Marítima (maritime police) / GNR‑SEPNA (environmental unit of the national guard) without it, the fine starts at €100. Respect the daily limit (10 kg + 1 fish, or one fish >10 kg), minimum sizes and defeso (closed season) by species.',
   tags: ['fishing', 'fishing', 'licence', 'sea', 'dgrm'],
   estimatedReadMinutes: 6,
   steps: [
@@ -47,7 +47,7 @@ export default {
             content: [
               { kind: 'checklist', items: [
                 'Pesca à linha — from the shore (apeada: from the shore, bridge, breakwater): the most common choice',
-                'Period: 3 days (for short trips), 1 month, 1 year, 3 years',
+                'Period: 1 day (for short trips), 1 month, 1 year',
                 'A yearly licence is better value if you fish at least a couple of times per season',
                 'Do not tick the “Embarcação” (vessel) field — that is for boats, covered in a separate guide'
               ] }
@@ -141,10 +141,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Pesca Lúdica licence — 3 days', amountEUR: 3, note: 'For short tourist trips' },
-    { label: 'Licence — 1 month', amountEUR: 10, note: 'A good choice for one holiday or seasonal fishing' },
-    { label: 'Licence — 1 year', amountEUR: 20, note: 'The best-value option if you fish 2+ times per season' },
-    { label: 'Licence — 3 years', amountEUR: 50, note: 'For those who fish regularly' },
+    { label: 'Pesca Lúdica licence — 1 day', amountEUR: 2, note: 'For short tourist trips' },
+    { label: 'Licence — 1 month', amountEUR: 4, note: 'A good choice for one holiday or seasonal fishing' },
+    { label: 'Licence — 1 year', amountEUR: 8, note: 'The best-value option if you fish 2+ times per season' },
     { label: 'Basic surf-casting kit', amountEURMin: 60, amountEURMax: 150, note: 'Rod + reel + line + hooks + bait' },
     { label: 'Fine without a licence', amountEURMin: 100, amountEURMax: 500, note: 'Plus confiscation of gear and catch' }
   ],
@@ -152,9 +151,10 @@ export default {
     { title: 'DGRM — Pesca Lúdica, licences and rules', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'DGRM Licensing Portal — online application', url: 'https://portal.dgrm.mm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica regime in maritime waters', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Portaria n.º 14/2014, de 23 de janeiro (Anexo IV) — Pesca Lúdica licence fees', url: 'https://dre.pt/dre/detalhe/portaria/14-2014-571046', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Minimum sizes by species — DGRM table', url: 'https://www.dgrm.pt/pesca_cpt_especies', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Polícia Marítima — Autoridade Marítima Nacional', url: 'https://www.amn.pt/PM/Paginas/MissaoCompetencias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'limpeza-domicilio-helpling',
   categoryId: 'daily_life',
   title: 'Limpeza ao domicílio: Helpling, Lavanda Lisboa e profissionais de limpeza particulares',
-  tldr: 'Em Portugal, uma limpeza pontual através de plataformas custa normalmente 12–18 €/h na Helpling e em serviços semelhantes; profissionais de limpeza particulares através da Fixando/Habitissimo muitas vezes indicam o preço depois de uma visita ou à hora. Para Lisboa, conte com 35–70 € por uma limpeza standard de um T1–T2 sem janelas nem engomadoria. Ponto importante: um profissional de limpeza independente com recibos verdes paga a sua própria Segurança Social, mas uma empregada regular que trabalhe directamente para si como serviço doméstico deve estar formalizada; para pagamentos superiores a 100 €/mês, a inscrição na Segurança Social é obrigatória.',
+  tldr: 'Em Portugal, uma limpeza pontual através de plataformas custa normalmente 12–18 €/h na Helpling e em serviços semelhantes; profissionais de limpeza particulares através da Fixando/Habitissimo muitas vezes indicam o preço depois de uma visita ou à hora. Para Lisboa, conte com 35–70 € por uma limpeza standard de um T1–T2 sem janelas nem engomadoria. Ponto importante: um profissional de limpeza independente com recibos verdes paga a sua própria Segurança Social, mas uma empregada regular que trabalhe directamente para si como serviço doméstico deve estar formalizada; a inscrição na Segurança Social é obrigatória independentemente do valor pago ou das horas trabalhadas.',
   tags: ['limpeza', 'helpling', 'limpeza', 'segurança-social'],
   estimatedReadMinutes: 5,
   steps: [
@@ -70,7 +70,7 @@ export default {
       title: 'Formal ou “por conhecimento”: onde está o risco',
       content: [
         { kind: 'paragraph', text: 'Se o profissional de limpeza actua como trabalhador independente, emite recibos verdes ou fatura, você está a comprar um serviço. Neste cenário, o profissional é responsável pela sua própria Segurança Social e impostos.' },
-        { kind: 'paragraph', text: 'Se contrata directamente a mesma pessoa, define o horário, paga regularmente e, na prática, actua como empregador, isto é serviço doméstico. Neste caso, é necessário formalizar junto da Segurança Social. O limiar prático para a inscrição obrigatória em trabalho doméstico regular é o pagamento superior a 100 €/mês; é melhor não fragmentar pagamentos em numerário se a relação for permanente.' },
+        { kind: 'paragraph', text: 'Se contrata directamente a mesma pessoa, define o horário, paga regularmente e, na prática, actua como empregador, isto é serviço doméstico. Neste caso, é necessário formalizar junto da Segurança Social. A inscrição é obrigatória independentemente do valor pago ou das horas trabalhadas; quando pago à hora, o empregador tem de declarar um mínimo de 30 horas por mês, mesmo que sejam efectivamente trabalhadas menos. A não comunicação da admissão é punível como crime (prisão ou multa), por isso é melhor não fragmentar pagamentos em numerário se a relação for permanente.' },
         { kind: 'checklist', items: [
           'Peça o NIF e um documento de identificação.',
           'Confirme se a pessoa trabalha como trabalhador independente e se pode emitir recibo verde/fatura.',
@@ -119,7 +119,7 @@ export default {
     { label: 'Helpling / plataformas semelhantes', amountEURMin: 12, amountEURMax: 18, note: 'Referência por hora de limpeza doméstica; o total depende da cidade, do pedido mínimo e de trabalhos adicionais.' },
     { label: 'Limpeza standard T1', amountEURMin: 30, amountEURMax: 50, note: 'Normalmente 2–3 horas sem janelas, forno nem limpeza profunda.' },
     { label: 'Limpeza standard T2', amountEURMin: 45, amountEURMax: 70, note: 'Normalmente 3–4 horas; os consumíveis podem ser seus.' },
-    { label: 'Ajudante particular regular', amountEURMin: 100, amountEURMax: 300, note: 'Para pagamentos superiores a 100 €/mês por serviço doméstico, é necessária inscrição na Segurança Social.' }
+    { label: 'Ajudante particular regular', amountEURMin: 100, amountEURMax: 300, note: 'A inscrição na Segurança Social por serviço doméstico é obrigatória independentemente do valor ou das horas; quando pago à hora, declara-se um mínimo de 30 horas por mês.' }
   ],
   sources: [
     { title: 'Segurança Social: trabalhador do serviço doméstico', url: 'https://www.seg-social.pt/trabalhador-do-servico-domestico', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -127,6 +127,6 @@ export default {
     { title: 'DECO PROteste: direitos e cuidados na contratação de serviços domésticos', url: 'https://www.deco.proteste.pt', kind: 'news', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Helpling Portugal: serviço de limpeza doméstica', url: 'https://www.helpling.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

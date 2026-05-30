@@ -3,7 +3,7 @@ export default {
   id: 'rrc-oncologia-sns',
   categoryId: 'healthcare',
   title: 'SNS oncology pathway: Rede de Referenciação Oncológica and TMRG',
-  tldr: 'If cancer is suspected, the SNS pathway starts with the Médico de Família: they record the suspeita, order initial exames and refer through CTH/SIGA to a hospital in the Rede de Referenciação Oncológica. For urgent cases, priority P1 / Alerta-Oncológico is used. Legal TMRG for the first hospital consultation: 30 days for muito prioritária, 60 for prioritária, 120 for normal. If the deadline is missed, complain to ERS and the Livro de Reclamações.',
+  tldr: 'If cancer is suspected, the SNS pathway starts with the Médico de Família: they record the suspeita, order initial exames and refer through CTH/SIGA to a hospital in the Rede de Referenciação Oncológica. For urgent cases, priority P1 / Alerta-Oncológico is used. Legal TMRG for the first hospital consultation in suspected/confirmed cancer has only two levels: 7 days for muito prioritária and 30 days for prioritária (Portaria 137/2026/1, in force since 2 April 2026). If the deadline is missed, complain to ERS and the Livro de Reclamações.',
   tags: ['oncology', 'sns', 'tmrg', 'aima', 'ers'],
   estimatedReadMinutes: 6,
   steps: [
@@ -47,9 +47,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'TMRG — Tempos Máximos de Resposta Garantidos — are the guaranteed maximum response times in the SNS for planned care. They are counted not “from the moment you became frightened by the symptoms”, but from the moment the correct pedido is registered in the SNS system: for example, a referral from the MGF in CTH/SIGA or a hospital order.' },
         { kind: 'checklist', items: [
-          'Primeira consulta de especialidade hospitalar muito prioritária: up to 30 calendar days',
-          'Primeira consulta de especialidade hospitalar prioritária: up to 60 calendar days',
-          'Primeira consulta de especialidade hospitalar normal: up to 120 calendar days',
+          'For suspected/confirmed cancer, the first hospital consultation has only two levels (Portaria 137/2026/1): muito prioritária — up to 7 days, prioritária — up to 30 days, counted from when the pedido is received',
+          'There is no “normal” level for the oncology first consultation; the former intermediate 15-day level has been removed',
+          'For oncology programmed surgery (cirurgia programada): prioritária — up to 30 days, normal — up to 60 days',
+          'Note: the general 30 / 60 / 120-day ladder applies to ordinary specialties, not to oncology — do not confuse it with the oncology guarantee',
           'If cancer is suspected, the doctor must justify the priority clinically; the word “cancro” alone does not guarantee automatic P1',
           'P1 / Alerta-Oncológico is a practical fast-track channel for suspeita oncológica, but legally you should check which priority is recorded in SIGA',
           'If hospital triage has lowered the priority, ask for a written explanation or a reassessment through the MGF',
@@ -141,7 +142,7 @@ export default {
     },
     {
       title: 'ePortugal — Guaranteed Maximum Response Times (TMRG)',
-      url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/tempos-maximos-de-resposta-garantidos-tmrg',
+      url: 'https://www.gov.pt/cidadaos/-/informacoes/tempos-maximos-de-resposta-garantidos-tmrg',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -161,6 +162,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

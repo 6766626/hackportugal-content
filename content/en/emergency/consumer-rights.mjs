@@ -160,7 +160,7 @@ export default {
           '⚠️ If the shop has closed: the warranty passes to the manufacturer (if there is one — Apple, Samsung, Bosch)',
           '🌐 Check the shop on “Livro de Reclamações” — frequent complaints = do not buy',
           '📚 “Direitos do Consumidor” — official free DGC booklet',
-          '🇪🇺 EU Online Dispute Resolution: ec.europa.eu/odr — for cross-border disputes',
+          '🇪🇺 Cross-border EU disputes: European Consumer Centre Portugal (cec.consumidor.gov.pt) and consumer-redress.ec.europa.eu — the EU ODR platform (ec.europa.eu/odr) shut down on 20 July 2025',
           '⚖️ Annual membership of DECO Proteste pays for itself with one serious problem',
           '🛡️ Credit card: chargeback via the bank — last resort (the bank will reverse the charge)'
         ]}
@@ -181,6 +181,6 @@ export default {
     { title: 'DL 24/2014 — Distance contracts', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Centro Europeu do Consumidor (ECC-Net Portugal)', url: 'https://cec.consumidor.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

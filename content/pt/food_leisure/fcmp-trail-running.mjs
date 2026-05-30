@@ -149,9 +149,10 @@ export default {
   sources: [
     { title: 'IPDJ — federações desportivas oficiais (FCMP, FPA reconhecidas)', url: 'https://ipdj.gov.pt/federacoes-desportivas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IPDJ — registo de praticantes desportivos', url: 'https://ipdj.gov.pt/clube-de-praticantes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 102/2018 — exames médicos desportivos', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-2018-117203174', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 248-A/2008 — regime jurídico dos contratos de seguro de federações desportivas', url: 'https://dre.pt/dre/detalhe/decreto-lei/248-a-2008-242876', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'IPDJ — exame de avaliação médico-desportiva (Decreto-Lei 345/99 + Lei 5/2007 + Despacho 9613/2020)', url: 'https://ipdj.gov.pt/exame-medico-desportivo', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Decreto-Lei 10/2009 — regime jurídico do seguro desportivo obrigatório', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/10-2009-397323', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'IPDJ — seguro desportivo obrigatório', url: 'https://ipdj.gov.pt/seguro-desportivo', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

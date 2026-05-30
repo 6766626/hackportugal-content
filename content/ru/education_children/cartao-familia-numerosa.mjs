@@ -80,7 +80,7 @@ export default {
   sources: [
     { title: 'APFN — Associação Portuguesa de Famílias Numerosas и Cartão de Família Numerosa', url: 'https://www.apfn.com.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'gov.pt — портал правительства Португалии: семейные и социальные услуги', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — услуги для семей, детей и домохозяйств', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — услуги для семей, детей и домохозяйств', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-18',
   verifyIntervalDays: 180

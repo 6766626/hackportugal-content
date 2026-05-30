@@ -188,8 +188,8 @@ export default {
     { title: 'PSP — Firearms and ammunition', url: 'https://www.psp.pt/Pages/atividade-da-psp/armas/inicio.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 202/2004 — legal framework for hunting', url: 'https://dre.pt/dre/detalhe/decreto-lei/202-2004-528700', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Lei 5/2006 — use and carrying of firearms', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34539075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 105/2024 — 2024-2025 hunting calendar', url: 'https://dre.pt/dre/detalhe/portaria/105-2024-848530150', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'Portaria 67/2024, de 22 de fevereiro — hunting calendar for 2024-2025, 2025-2026 and 2026-2027 (amended by Portarias 309/2024/1 and 222-A/2025/1)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2024-898587583', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

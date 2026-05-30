@@ -3,7 +3,7 @@ export default {
   id: 'atl-actividades-tempos-livres',
   categoryId: 'education_children',
   title: 'ATL and CAF: after-school care for children aged 6–10 in Portugal',
-  tldr: 'For 1.º ciclo, years 1–4, after lessons there are usually free AEC and paid/subsidised CAF/ATL: supervision in the morning, lunch, end of day and school holidays. Enrolment often opens together with matrícula/renovação on portal-matriculas.gov.pt in spring-summer 2026, but the rules and prices are set by the município or IPSS. Families with escalão A/B da Ação Social Escolar usually pay less or €0; social cases and children with special needs have priority.',
+  tldr: 'For 1.º ciclo, years 1–4, after lessons there are usually free AEC and paid/subsidised CAF/ATL: supervision in the morning, lunch, end of day and school holidays. Enrolment often opens together with matrícula/renovação on https://www.portaldasmatriculas.edu.gov.pt/ in spring-summer 2026, but the rules and prices are set by the município or IPSS. Families with escalão A/B da Ação Social Escolar usually pay less or €0; social cases and children with special needs have priority.',
   tags: ['atl', 'caf', 'school', 'lunch', 'ase'],
   estimatedReadMinutes: 5,
   steps: [
@@ -90,7 +90,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The exact dates for matrícula and renovação are published each year by the Ministério da Educação and Portal das Matrículas. In practice, for 1.º ciclo, enrolment and renewal take place in spring-summer; municipal applications for lunches, transport and CAF/ATL often open immediately after the school matrícula or in June-July.' },
         { kind: 'checklist', items: [
-          'April-May: check the matrícula/renovação deadlines on portal-matriculas.gov.pt and your agrupamento website.',
+          'April-May: check the matrícula/renovação deadlines on https://www.portaldasmatriculas.edu.gov.pt/ and your agrupamento website.',
           'May-June: submit the matrícula or renovação; save the comprovativo.',
           'June-July: open the Câmara Municipal website and submit applications for refeições, transportes, CAF/ATL.',
           'July-August: sign the contract with the IPSS/associação, if the after-school care is not municipal.',
@@ -132,6 +132,6 @@ export default {
     { title: 'Portal do Governo — Portal das Matrículas and education services', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Matrículas — online matrícula and renovação', url: 'https://portaldasmatriculas.edu.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

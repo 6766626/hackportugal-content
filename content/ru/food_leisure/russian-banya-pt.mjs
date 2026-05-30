@@ -89,7 +89,7 @@ export default {
     { title: 'Atlas Lisboa — публичные сауны и парные', url: 'https://www.atlaslisboa.com/lisbon-saunas-steamrooms/', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Direção-Geral da Saúde — Termalismo terapêutico (информация о термах)', url: 'https://www.dgs.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: русская баня в Португалии. Честное описание реальности — публичных русских бань нет, есть финские сауны/хамамы/термы. Каналы поиска частных бань через комьюнити, ценник, безопасность. Альтернативы: 5 крупных termas Португалии, СПА в отелях Лиссабона/Порту, поездка в Мадрид/Барселону.'

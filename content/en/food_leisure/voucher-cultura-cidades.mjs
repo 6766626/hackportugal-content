@@ -86,9 +86,9 @@ export default {
   sources: [
     { title: 'Câmara Municipal de Lisboa — culture and municipal programmes', url: 'https://www.lisboa.pt/temas/cultura', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal do Porto — culture and city services', url: 'https://www.cm-porto.pt/cultura', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Câmara Municipal do Porto — Cartão Porto', url: 'https://www.cm-porto.pt/cartao-porto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Câmara Municipal do Porto — Cartão Porto', url: 'https://cartao.porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Cascais — Cartão Viver Cascais', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

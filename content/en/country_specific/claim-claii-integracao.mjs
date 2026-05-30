@@ -120,7 +120,7 @@ export default {
   sources: [
     { title: 'AIMA — Agência para a Integração, Migrações e Asilo: information and services for migrants', url: 'https://aima.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ACM — archived and reference information on CLAIM/CNAIM and migrant integration', url: 'https://www.acm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — government portal for services and public administration contacts', url: 'https://eportugal.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — government portal for services and public administration contacts', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

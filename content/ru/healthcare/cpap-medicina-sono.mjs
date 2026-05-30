@@ -3,7 +3,7 @@ export default {
   id: 'cpap-medicina-sono',
   categoryId: 'healthcare',
   title: 'Апноэ сна и CPAP через SNS: от médico de família до polissonografia',
-  tldr: 'При подозрении на apneia obstrutiva do sono путь в SNS обычно такой: médico de família → направление в pneumologia/consulta do sono → polissonografia или estudo cardiorrespiratório do sono → рецепт на CPAP как Cuidados Respiratórios Domiciliários. По Norma DGS 031/2011, обновлённой 13.07.2015, CPAP назначается врачом и поставляется через договорного провайдера; пациент обычно не покупает аппарат сам. В 2026 consultas и назначенные обследования в SNS в большинстве случаев без taxa moderadora.',
+  tldr: 'При подозрении на apneia obstrutiva do sono путь в SNS обычно такой: médico de família → направление в pneumologia/consulta do sono → polissonografia или estudo cardiorrespiratório do sono → рецепт на CPAP как Cuidados Respiratórios Domiciliários. По Norma DGS n.º 022/2011 (28/09/2011), обновлённой 11/09/2015, CPAP назначается врачом и поставляется через договорного провайдера; пациент обычно не покупает аппарат сам. В 2026 consultas и назначенные обследования в SNS в большинстве случаев без taxa moderadora.',
   tags: ['sns', 'cpap', 'sono', 'апноэ'],
   estimatedReadMinutes: 6,
   steps: [
@@ -65,7 +65,7 @@ export default {
       id: 'cpap-prescription',
       title: 'Шаг 3: назначение CPAP как Cuidados Respiratórios Domiciliários',
       content: [
-        { kind: 'paragraph', text: 'Если врач подтверждает показания, CPAP назначается как ventiloterapia в рамках Cuidados Respiratórios Domiciliários. Актуальная страница DGS по этой теме — Norma DGS 031/2011, обновлена 13.07.2015; в быту её иногда ошибочно называют “030/2011”.' },
+        { kind: 'paragraph', text: 'Если врач подтверждает показания, CPAP назначается как ventiloterapia в рамках Cuidados Respiratórios Domiciliários. Актуальная страница DGS по этой теме — Norma DGS n.º 022/2011 (28/09/2011), атуализирована 11/09/2015.' },
         { kind: 'paragraph', text: 'По SNS пациент обычно не покупает аппарат: врач оформляет prescrição, а договорный поставщик доставляет CPAP/APAP, маску, трубку и расходники. Модель и поставщик зависят от контракта и региона, а не от желания пациента выбрать бренд.' },
         { kind: 'checklist', items: [
           'Уточните у врача: CPAP, APAP или другой режим',
@@ -123,8 +123,8 @@ export default {
   ],
   sources: [
     {
-      title: 'DGS: Norma n.º 031/2011, Cuidados Respiratórios Domiciliários, обновлена 13.07.2015',
-      url: 'https://www.dgs.pt/em-destaque/norma-da-dgs-n0312011-de-30092011-actualizada-a-13072015.aspx',
+      title: 'DGS: Norma n.º 022/2011, Cuidados Respiratórios Domiciliários (Ventiloterapia), atualizada 11/09/2015',
+      url: 'https://normas.dgs.min-saude.pt/2011/09/28/cuidados-respiratorios-domiciliarios-prescricao-de-ventiloterapia-e-outros-equipamentos/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -137,6 +137,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -64,7 +64,7 @@ export default {
       id: 'dac7-tax',
       title: 'Impostos: DAC7 — as plataformas comunicam às Finanças',
       content: [
-        { kind: 'paragraph', text: 'Desde 2024, todas as plataformas online na UE são obrigadas a comunicar à autoridade tributária dados sobre utilizadores que ultrapassem os limiares de vendas. É a directiva DAC7 (Council Directive 2021/514/EU), em Portugal — Decreto-Lei 53/2023.' },
+        { kind: 'paragraph', text: 'Desde 2024, todas as plataformas online na UE são obrigadas a comunicar à autoridade tributária dados sobre utilizadores que ultrapassem os limiares de vendas. É a directiva DAC7 (Council Directive 2021/514/EU), em Portugal — Lei n.º 36/2023, de 26 de julho.' },
         { kind: 'checklist', items: [
           '🚨 Limiar: 2 000 € de receita total OU 30+ transacções por ano civil',
           '📨 A plataforma (OLX, Vinted, CustoJusto) transmite automaticamente às Finanças os dados de quem ultrapassou o limiar',
@@ -176,12 +176,12 @@ export default {
   sources: [
     { title: 'Banco de Portugal — alerta sobre burlas MB WAY em plataformas OLX/Vinted (2025)', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DECO PROteste — compras online em segunda mão: cuidados', url: 'https://www.deco.proteste.pt/familia-consumo/direitos-consumidor/dicas/compras-online-segunda-mao-cuidados-ter', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Decreto-Lei 53/2023 — transposição DAC7 (obrigações de plataformas)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/53-2023-214867521', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei n.º 36/2023, de 26 de julho — transposição DAC7 (obrigações de plataformas)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/36-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'EUR-Lex — Council Directive (EU) 2021/514 (DAC7)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32021L0514', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'OLX Portugal — dicas para utilizar em segurança (ajuda da plataforma)', url: 'https://help.olx.pt/olxpthelp/s/article/dicas-importantes-para-usares-o-olx-em-segurana-V33', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'PJ — Canal de Denúncia de Cibercrime', url: 'https://canalcyber.pj.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: OLX, CustoJusto, Vinted em Portugal. Comparação de plataformas, consequências fiscais da DAC7 (>2 000 € ou >30 vendas = comunicado às Finanças), principais burlas de 2025-2026 (SMS falsos de pagamento, links de phishing, push MB WAY), conselhos da DECO PROteste para comprar/vender em segurança.'

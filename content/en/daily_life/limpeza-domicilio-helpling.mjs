@@ -3,7 +3,7 @@ export default {
   id: 'limpeza-domicilio-helpling',
   categoryId: 'daily_life',
   title: 'Home cleaning: Helpling, Lavanda Lisboa and private cleaners',
-  tldr: 'In Portugal, one-off cleaning via platforms usually costs €12–18/h with Helpling and similar services; private cleaners via Fixando/Habitissimo often quote after an inspection or by the hour. For Lisbon, budget €35–70 for a standard T1–T2 clean without windows or ironing. An important distinction: a self-employed cleaner with recibos verdes pays their own Segurança Social, while a regular helper working directly for you as serviço doméstico must be formally registered; for payments above €100/month, registration with Segurança Social is mandatory.',
+  tldr: 'In Portugal, one-off cleaning via platforms usually costs €12–18/h with Helpling and similar services; private cleaners via Fixando/Habitissimo often quote after an inspection or by the hour. For Lisbon, budget €35–70 for a standard T1–T2 clean without windows or ironing. An important distinction: a self-employed cleaner with recibos verdes pays their own Segurança Social, while a regular helper working directly for you as serviço doméstico must be formally registered; registration with Segurança Social is mandatory regardless of the amount paid or the hours worked.',
   tags: ['cleaning', 'helpling', 'limpeza', 'segurança-social'],
   estimatedReadMinutes: 5,
   steps: [
@@ -70,7 +70,7 @@ export default {
       title: 'Formal or “through someone you know”: where the risk lies',
       content: [
         { kind: 'paragraph', text: 'If the cleaner comes as a self-employed profissional, issues recibos verdes or a fatura, you are buying a service. In this scenario, the cleaner is responsible for their own Segurança Social and taxes.' },
-        { kind: 'paragraph', text: 'If you hire the same person directly, set their schedule, pay regularly and are effectively acting as an employer, this is serviço doméstico. In this case, registration with Segurança Social is required. The practical threshold for mandatory registration for regular domestic work is payments above €100/month; it is better not to split payments in cash if the relationship is ongoing.' },
+        { kind: 'paragraph', text: 'If you hire the same person directly, set their schedule, pay regularly and are effectively acting as an employer, this is serviço doméstico. In this case, registration with Segurança Social is required. Registration is mandatory regardless of the amount paid or the hours worked; when paid hourly, the employer must declare a minimum of 30 hours per month even if fewer hours are actually worked. Failing to communicate the hiring is punishable as a crime (prison or a fine), so it is better not to split payments in cash if the relationship is ongoing.' },
         { kind: 'checklist', items: [
           'Ask for a NIF and identity document.',
           'Clarify whether the person works as a trabalhador independente and can issue a recibo verde/fatura.',
@@ -119,7 +119,7 @@ export default {
     { label: 'Helpling / similar platforms', amountEURMin: 12, amountEURMax: 18, note: 'Guide price per hour of domestic cleaning; the final cost depends on the city, minimum booking and extra work.' },
     { label: 'Standard T1 cleaning', amountEURMin: 30, amountEURMax: 50, note: 'Usually 2–3 hours without windows, oven or deep cleaning.' },
     { label: 'Standard T2 cleaning', amountEURMin: 45, amountEURMax: 70, note: 'Usually 3–4 hours; consumables may be yours.' },
-    { label: 'Regular private helper', amountEURMin: 100, amountEURMax: 300, note: 'For payments above €100/month for serviço doméstico, registration with Segurança Social is required.' }
+    { label: 'Regular private helper', amountEURMin: 100, amountEURMax: 300, note: 'Registration with Segurança Social for serviço doméstico is required regardless of the amount or hours; when paid hourly, a minimum of 30 hours per month is declared.' }
   ],
   sources: [
     { title: 'Segurança Social: domestic service worker', url: 'https://www.seg-social.pt/trabalhador-do-servico-domestico', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -127,6 +127,6 @@ export default {
     { title: 'DECO PROteste: rights and precautions when hiring domestic services', url: 'https://www.deco.proteste.pt', kind: 'news', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Helpling Portugal: domestic cleaning service', url: 'https://www.helpling.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'self-storage-armazem',
   categoryId: 'daily_life',
   title: 'Self storage: where to keep your belongings in Portugal',
-  tldr: 'Self storage in Portugal means renting an individual unit/mini-warehouse for furniture, suitcases, bicycles, archives and seasonal items. In 2026, a market benchmark: 5–15 m³ usually costs €40–200/month, plus deposit/admin fee and insurance.\n\nIn Lisbon and Porto there are AUS Self Storage, Big Yellow PT, Storax and local armazéns. Check 24/7 access, humidity, insurance, notice period and the ban on storing food, gas, fuel and valuables.',
+  tldr: 'Self storage in Portugal means renting an individual unit/mini-warehouse for furniture, suitcases, bicycles, archives and seasonal items. In 2026, a market benchmark: 5–15 m³ usually costs €40–200/month, plus deposit/admin fee and insurance.\n\nIn Lisbon and Porto there are Storex, BigBox, Allstorage, Bluespace and local armazéns. Check 24/7 access, humidity, insurance, notice period and the ban on storing food, gas, fuel and valuables.',
   tags: ['storage', 'warehouse', 'move', 'lisbon', 'porto'],
   estimatedReadMinutes: 5,
   steps: [
@@ -43,18 +43,18 @@ export default {
     },
     {
       id: 'providers',
-      title: 'Who to look at: AUS, Big Yellow PT, Storax',
+      title: 'Who to look at: Storex, BigBox, Allstorage, Bluespace',
       content: [
         { kind: 'paragraph', text: 'In large cities the market is fragmented: there are international/large brands and local armazéns. For an expat, what matters is not the brand, but the contract, access, security and logistics from your flat.' },
         { kind: 'substeps', items: [
-          { id: 'aus', title: 'AUS Self Storage', content: [
-            { kind: 'paragraph', text: 'AUS Self Storage operates as urban self storage with solutions for private customers and businesses. Look at facilities in Lisboa/Porto, 24/7 availability, access for a carrinha and unit options by volume.' }
+          { id: 'storex', title: 'Storex', content: [
+            { kind: 'paragraph', text: 'Storex is the pioneer of self storage in Portugal (since 1996), with several facilities in Lisbon (Alcântara, Benfica, Matinha, Morais Soares, Aeroporto). Check 24/7 availability, access for a carrinha and unit options by volume.' }
           ] },
-          { id: 'big-yellow', title: 'Big Yellow PT', content: [
-            { kind: 'paragraph', text: 'Big Yellow PT is an option for those who want a clear self storage format: individual units, security, an online price request, and often packing materials and insurance.' }
+          { id: 'bigbox', title: 'BigBox', content: [
+            { kind: 'paragraph', text: 'BigBox is a self storage operator in the north of the country (Porto, Braga, Gaia). A clear format: individual units, security, an online price request, and often packing materials and insurance.' }
           ] },
-          { id: 'storax', title: 'Storax and local warehouses', content: [
-            { kind: 'paragraph', text: 'Storax and local armazéns may be cheaper, especially outside the centre. The downside is sometimes less English-language service, a poorer online account area or no 24/7 access. On the other hand, you may be able to negotiate when renting for 6–12 months.' }
+          { id: 'allstorage-bluespace', title: 'Allstorage, Bluespace and local warehouses', content: [
+            { kind: 'paragraph', text: 'Allstorage (Greater Lisbon) and Bluespace (several locations in Lisbon), as well as local armazéns, may be cheaper, especially outside the centre. The downside is sometimes less English-language service, a poorer online account area or no 24/7 access. On the other hand, you may be able to negotiate when renting for 6–12 months.' }
           ] }
         ] },
         { kind: 'checklist', items: [
@@ -175,27 +175,34 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'AUS Self Storage: self storage services in Portugal',
-      url: 'https://www.aus.pt',
+      title: 'Storex: self storage in Lisbon since 1996',
+      url: 'https://storex.com',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
     },
     {
-      title: 'Big Yellow Portugal: storage units and rental terms',
-      url: 'https://www.bigyellow.pt',
+      title: 'BigBox: self storage in the north (Porto, Braga, Gaia)',
+      url: 'https://www.bigbox.pt',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
     },
     {
-      title: 'Storax Self Storage: units and storage solutions',
-      url: 'https://www.storax.pt',
+      title: 'Allstorage: units in Greater Lisbon',
+      url: 'https://www.allstorage.pt',
       kind: 'company',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Bluespace: self storage in Lisbon',
+      url: 'https://www.bluespace.pt',
+      kind: 'company',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

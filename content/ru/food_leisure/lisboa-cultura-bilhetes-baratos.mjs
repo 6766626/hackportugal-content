@@ -21,7 +21,7 @@ export default {
       title: 'Куда идти в воскресное утро',
       content: [
         { kind: 'paragraph', text: 'Рабочая схема для экспата: выбрать 1–2 места рядом, прийти к открытию, показать документ резидента на кассе и не рассчитывать на бесплатный проход после обеда. Ниже — популярные точки, где в 2026 году имеет смысл сначала проверять бесплатное окно или резидентский тариф.' },
-        { kind: 'checklist', items: ['Calouste Gulbenkian Museum — проверяйте страницу Gulbenkian: фонд отдельно публикует дни/часы бесплатного входа и условия для резидентов', 'MAAT — у Fundação EDP бывают бесплатные периоды/дни и льготы; условия отличаются для MAAT Gallery, MAAT Central и комбинированных билетов', 'MNAA — Museu Nacional de Arte Antiga относится к национальным музеям; резидентам Португалии обычно доступен бесплатный режим по установленным дням/лимитам', 'Museu Arqueológico do Carmo — проверяйте часы “domingo/feriado” и применимость к residentes; летом очереди больше', 'Padrão dos Descobrimentos — объект EGEAC/CML; для резидентов обычно действует бесплатное утреннее окно по воскресеньям и праздникам', 'Муниципальные музеи CML/EGEAC — Museu de Lisboa, Museu do Fado, Museu do Aljube, Atelier-Museu Júlio Pomar часто имеют похожую логику бесплатного воскресного утра'] },
+        { kind: 'checklist', items: ['Calouste Gulbenkian Museum — проверяйте страницу Gulbenkian: фонд отдельно публикует дни/часы бесплатного входа и условия для резидентов', 'MAAT — у Fundação EDP бывают бесплатные периоды/дни и льготы; условия отличаются для MAAT Gallery, MAAT Central и комбинированных билетов', 'MNAA — Museu Nacional de Arte Antiga закрыт для посещения с 29 сентября 2025 года на реставрацию по программе PRR и, как ожидается, откроется только во втором полугодии 2026 года (срок работ — 30 июня 2026); не планируйте сюда визит на бесплатное воскресенье, пока повторное открытие не подтверждено. После открытия резидентам Португалии обычно доступен бесплатный режим по установленным дням/лимитам', 'Museu Arqueológico do Carmo — проверяйте часы “domingo/feriado” и применимость к residentes; летом очереди больше', 'Padrão dos Descobrimentos — объект EGEAC/CML; для резидентов обычно действует бесплатное утреннее окно по воскресеньям и праздникам', 'Муниципальные музеи CML/EGEAC — Museu de Lisboa, Museu do Fado, Museu do Aljube, Atelier-Museu Júlio Pomar часто имеют похожую логику бесплатного воскресного утра'] },
         { kind: 'warning', text: 'Carmo, MAAT и Gulbenkian не являются обычными муниципальными музеями CML. Не переносите правило Padrão dos Descobrimentos автоматически на них — проверяйте конкретную страницу билетов.' }
       ]
     },
@@ -79,8 +79,8 @@ export default {
     { title: 'Câmara Municipal de Lisboa — культура, муниципальные музеи и программы Lisboa Cultura', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Calouste Gulbenkian — билеты, музей и условия бесплатного входа', url: 'https://www.gulbenkian.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EGEAC / Lisboa Cultura — муниципальные пространства, памятники и билеты', url: 'https://egeac.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Museu Nacional de Arte Antiga — билеты и режим посещения', url: 'https://www.museudearteantiga.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Museus e Monumentos de Portugal — уведомление о закрытии MNAA, билеты и режим посещения', url: 'https://www.museusemonumentos.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

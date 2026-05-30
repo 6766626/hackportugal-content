@@ -57,8 +57,8 @@ export default {
           'O preço por kWh pode incluir energy + tarifas de acesso às redes ou surgir em linhas separadas',
           'No mercado liberalizado, o preço depende do contrato, não apenas da ERSE'
         ] },
-        { kind: 'paragraph', text: 'IVA sobre o consumo em Portugal continental: para potência até 6,9 kVA, os primeiros 100 kWh por 30 dias são tributados a 6%; para agregados familiares numerosos, o limite pode ser 150 kWh por 30 dias após confirmação do estatuto; o consumo acima do limite é tributado a 23%. Se o período de faturação não for de 30 dias, o limite é recalculado proporcionalmente.' },
-        { kind: 'warning', text: 'Se a fatura tiver um período de 60 dias, o limite para o IVA reduzido sobre o consumo não é “100 kWh”, mas cerca de 200 kWh. Por isso, as linhas do IVA podem parecer inesperadas: parte dos kWh a 6%, o restante a 23%.' }
+        { kind: 'paragraph', text: 'IVA sobre o consumo em Portugal continental: desde 1 de janeiro de 2025, ao abrigo da Lei n.º 38/2024, para potência até 6,9 kVA os primeiros 200 kWh por 30 dias são tributados a 6%; para agregados familiares numerosos (5 ou mais elementos), o limite é 300 kWh por 30 dias após confirmação do estatuto; o consumo acima do limite é tributado a 23%. Se o período de faturação não for de 30 dias, o limite é recalculado proporcionalmente.' },
+        { kind: 'warning', text: 'Se a fatura tiver um período de 60 dias, o limite para o IVA reduzido sobre o consumo não é “200 kWh”, mas cerca de 400 kWh. Por isso, as linhas do IVA podem parecer inesperadas: parte dos kWh a 6%, o restante a 23%.' }
       ]
     },
     {
@@ -131,8 +131,9 @@ export default {
     { title: 'ERSE: informação para consumidores de eletricidade e explicação da fatura', url: 'https://www.erse.pt/consumidores-de-energia/eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE: tarifas, preços e IVA da eletricidade', url: 'https://www.erse.pt/atividade/regulacao/tarifas-e-precos-eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DECO Proteste: como ler a fatura da eletricidade', url: 'https://www.deco.proteste.pt/casa-energia/eletricidade-gas', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'E-REDES: comunicação de leituras do contador', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'E-REDES: comunicação de leituras do contador', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ERSExplica: aplicação do IVA na fatura de eletricidade (200/300 kWh, Lei n.º 38/2024)', url: 'https://www.erse.pt/media/tcsfm4n2/ersexplica_iva-fatura_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'pma-ivf-sns',
   categoryId: 'healthcare',
   title: 'FIV / PMA no SNS: 3 ciclos gratuitos, idade e direito de acesso',
-  tldr: 'Em Portugal, PMA significa procriação medicamente assistida: IUI, IVF/ICSI, gâmetas de dador e crioconservação. No SNS, o tratamento está disponível gratuitamente para utentes do SNS quando existe indicação médica: normalmente até 3 ciclos de IVF/ICSI, se a mulher não tiver mais de 42 anos no momento da admissão/referenciação. Desde 2016, o acesso não está limitado a casais heterossexuais: mulheres solteiras e casais de mulheres têm o mesmo direito. Todos os ciclos são registados no CNPMA; o percurso começa com o médico de família ou ginecologia no SNS.',
+  tldr: 'Em Portugal, PMA significa procriação medicamente assistida: IUI, IVF/ICSI, gâmetas de dador e crioconservação. No SNS, o tratamento está disponível gratuitamente para utentes do SNS quando existe indicação médica: normalmente até 3 ciclos por técnica. Importante: os limites de idade do SNS diferem consoante a técnica. A FIV/IVF e a ICSI (2.ª linha) só são financiadas se o tratamento for feito antes dos 40 anos da mulher (39 anos e 364 dias); o limite dos 42 anos (41 anos e 364 dias) aplica-se à inseminação/IUI e à indução da ovulação (1.ª linha), não à IVF/ICSI. Desde 2016, o acesso não está limitado a casais heterossexuais: mulheres solteiras e casais de mulheres têm o mesmo direito. Todos os ciclos são registados no CNPMA; o percurso começa com o médico de família ou ginecologia no SNS.',
   tags: ['pma', 'ivf', 'sns', 'fiv'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que é a PMA no SNS e o que é pago',
       content: [
         { kind: 'paragraph', text: 'PMA é o termo oficial português para as tecnologias de reprodução medicamente assistida: inseminação intrauterina (IUI), fertilização in vitro (IVF/FIV), ICSI, utilização de gâmetas de dador, crioconservação de embriões/gâmetas por indicação médica.' },
-        { kind: 'paragraph', text: 'No SNS, o utente não paga o próprio procedimento de IVF/ICSI num centro público de PMA. Regra prática do SNS: até 3 ciclos de IVF/ICSI por mulher, desde que cumpra os critérios de admissão e idade. A IUI pode ser proposta antes da IVF, se for clinicamente razoável.' },
+        { kind: 'paragraph', text: 'No SNS, o utente não paga o próprio procedimento de IVF/ICSI num centro público de PMA. Regra prática do SNS: até 3 ciclos por técnica, desde que cumpra os critérios de admissão e idade. O limite de idade depende da técnica: IVF/ICSI (2.ª linha) até aos 40 anos da mulher (39 anos e 364 dias); IUI/inseminação e indução da ovulação (1.ª linha) até aos 42 anos (41 anos e 364 dias). A IUI pode ser proposta antes da IVF, se for clinicamente razoável.' },
         { kind: 'checklist', items: [
           'É necessário número de utente SNS e inscrição activa no Centro de Saúde',
           'É necessária avaliação clínica de infertilidade ou outro fundamento legal para PMA',
@@ -21,7 +21,7 @@ export default {
           'A dádiva de gâmetas é possível, mas a lista de espera e a disponibilidade de dadores dependem do centro',
           'Todos os procedimentos de PMA estão sujeitos às regras do CNPMA e ao registo nos registos nacionais'
         ] },
-        { kind: 'warning', text: '“3 ciclos gratuitos” não significa acesso imediato. A lista de espera nos centros públicos pode demorar meses, e o limite de idade é aplicado no momento da admissão/início do processo segundo as regras do centro. Se tiver 41–42 anos, não adie a referenciação.' }
+        { kind: 'warning', text: '“3 ciclos gratuitos” não significa acesso imediato. A lista de espera nos centros públicos pode demorar meses, e o limite de idade é aplicado no momento em que o tratamento é realizado, segundo as regras do centro. Para IVF/ICSI no SNS o limite são os 40 anos (39 anos e 364 dias): se estiver perto dos 40, não adie a referenciação, ou só ficará gratuita a IUI.' }
       ]
     },
     {
@@ -43,19 +43,20 @@ export default {
     },
     {
       id: 'age-cap',
-      title: 'Limite de idade: mulheres até aos 42 anos',
+      title: 'Limites de idade: IVF/ICSI até aos 40, IUI até aos 42',
       content: [
-        { kind: 'paragraph', text: 'Para o financiamento público da PMA no SNS, o limite principal é a idade da mulher até aos 42 anos. Na prática, os centros analisam não só a data do primeiro pedido, mas também a possibilidade real de iniciar a estimulação/ciclo antes de atingir a idade-limite segundo o seu protocolo interno.' },
-        { kind: 'paragraph', text: 'O limite de idade está ligado à eficácia clínica e à segurança: depois dos 40 anos, a probabilidade de sucesso da IVF diminui de forma visível e os riscos obstétricos aumentam. Por isso, a lista de espera é especialmente crítica para doentes dos 40–42 anos.' },
+        { kind: 'paragraph', text: 'Para o financiamento público da PMA no SNS existem dois limites de idade distintos consoante a técnica. A IVF/ICSI (2.ª linha) só é financiada se o tratamento for feito antes dos 40 anos da mulher (na prática, 39 anos e 364 dias). O limite dos 42 anos (41 anos e 364 dias) aplica-se à inseminação/IUI e à indução da ovulação (1.ª linha), não à IVF/ICSI. Na prática, os centros analisam não só a data do primeiro pedido, mas também a possibilidade real de realizar o tratamento antes de atingir a idade-limite da respectiva técnica, segundo o seu protocolo interno.' },
+        { kind: 'paragraph', text: 'O limite de idade está ligado à eficácia clínica e à segurança: depois dos 40 anos, a probabilidade de sucesso da IVF diminui de forma visível e os riscos obstétricos aumentam. É precisamente por isso que o SNS só financia IVF/ICSI gratuita até aos 40 anos, e a lista de espera torna-se crítica já aos 38–39 anos.' },
         { kind: 'checklist', items: [
           'Até aos 35 anos: normalmente há mais tempo para diagnóstico, mas a lista de espera continua a ser relevante',
-          '35–39 anos: peça referenciação para consulta de infertilidade sem atrasar',
-          '40–42 anos: peça urgent/priority referral, se existirem fundamentos médicos',
-          'Depois dos 42 anos: o SNS normalmente não financia IVF/ICSI; resta a PMA privada ou uma avaliação individual fora do percurso padrão',
+          '35–39 anos: peça referenciação para consulta de infertilidade sem atrasar — é a última janela para IVF/ICSI gratuita no SNS',
+          '40–42 anos: o SNS já não financia IVF/ICSI (só IUI/inseminação até aos 42), pelo que o caminho realista para a IVF nesta idade é a PMA privada; peça urgent referral, mas conte com o private',
+          'Depois dos 42 anos: o SNS não financia IVF/ICSI nem IUI; resta a PMA privada ou uma avaliação individual fora do percurso padrão',
+          'A idade máxima de 50 anos só é possível em casos excepcionais (doença grave)',
           'Gâmetas de dador não anulam automaticamente o limite do SNS',
           'A idade masculina e a qualidade do esperma são avaliadas, mas o principal cap público para acesso a IVF/ICSI é a idade da mulher'
         ] },
-        { kind: 'warning', text: 'Se estiver perto dos 42 anos, não espere “um ano de tentativas”. Marque consulta com o médico de família e peça referenciação já, juntando análises anteriores, ecografias, espermograma e relatórios clínicos.' }
+        { kind: 'warning', text: 'Se estiver perto dos 40 anos, não espere “um ano de tentativas”: depois dos 40 a IVF/ICSI gratuita no SNS deixa de estar disponível. Marque consulta com o médico de família e peça referenciação já, juntando análises anteriores, ecografias, espermograma e relatórios clínicos.' }
       ]
     },
     {
@@ -119,7 +120,7 @@ export default {
           'Crioconservação e armazenamento de embriões são pagos separadamente',
           'O seguro privado raramente cobre IVF integralmente; verifique as exclusões relativas a infertility/PMA'
         ] },
-        { kind: 'paragraph', text: 'Estratégia aos 40–42 anos: pedir imediatamente referenciação no SNS e, em paralelo, recolher uma opinião e análises no privado. Se a lista de espera do SNS ultrapassar o limite de idade, ainda terá tempo para decidir sobre o private.' }
+        { kind: 'paragraph', text: 'Estratégia aos 40–42 anos: nesta fase o SNS já não financia IVF/ICSI gratuita (só IUI até aos 42), pelo que a PMA privada é o caminho realista para a IVF. Em paralelo pode pedir referenciação no SNS e recolher uma opinião e análises no privado, mas conte que a própria IVF/ICSI terá de ser feita no private.' }
       ]
     }
   ],
@@ -135,6 +136,6 @@ export default {
     { title: 'Lei 32/2006 — Procriação medicamente assistida', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34412975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 17/2016 — acesso à PMA para todas as mulheres independentemente do estado civil e orientação', url: 'https://diariodarepublica.pt/dr/detalhe/lei/17-2016-74738646', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

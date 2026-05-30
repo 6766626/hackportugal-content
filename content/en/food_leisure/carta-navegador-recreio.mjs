@@ -3,8 +3,8 @@ export default {
   id: 'carta-navegador-recreio',
   categoryId: 'food_leisure',
   title: 'Recreational skipper licence — categories and training (Carta de Navegador de Recreio)',
-  tldr: 'Carta de Navegador de Recreio is the official skipper licence for operating a private recreational boat.\n\nCategories: MARINHEIRO (up to 5 miles, engine up to 30 kW), PATRÃO LOCAL (up to 12 miles, up to 50 kW), PATRÃO COSTEIRO (up to 25 miles), PATRÃO ALTO MAR (no limits).\n\nMinimum age: 16 for Marinheiro, 18 for Patrão. Training at accredited schools: 30–100 hours, exam at the Capitania do Porto, theory and practice.\n\nCost: roughly €250–1,500 depending on category. Foreign licences (RYA Day Skipper, ICC, ASA) can be converted through AMN (Portugal’s maritime administration) with a simplified exam.',
-  tags: ['licence', 'navigator', 'skipper', 'amn', 'course'],
+  tldr: 'Carta de Navegador de Recreio is the official skipper licence for operating a private recreational boat.\n\nCategories: MARINHEIRO (up to 3 miles from the coast / 10 miles from a safe harbour), PATRÃO LOCAL (up to 6 miles from the coast / 25 miles from a safe harbour), PATRÃO DE COSTA (up to 40 miles from the coast), PATRÃO DE ALTO MAR (no limits).\n\nMinimum age: 16 for Marinheiro, 18 for Patrão. Training at accredited schools: 30–100 hours, exam at the Capitania do Porto, theory and practice.\n\nCost: roughly €250–1,500 depending on category. Foreign licences (RYA Day Skipper, ICC, ASA) can be converted through DGRM (Portugal’s maritime authority) with a simplified exam.',
+  tags: ['licence', 'navigator', 'skipper', 'dgrm', 'course'],
   estimatedReadMinutes: 6,
   steps: [
     {
@@ -14,10 +14,11 @@ export default {
         { kind: 'paragraph', text: 'A skipper licence is not needed for every boat. The basic rules by engine power and size are:' },
         { kind: 'checklist', items: [
           'Without a licence: only boats with an engine ≤ 4.5 kW (~6 hp) and length ≤ 7 m',
-          'MARINHEIRO: engine up to 30 kW (~40 hp) or sail, up to 5 miles from shore',
-          'PATRÃO LOCAL: engine up to 50 kW (~67 hp), up to 12 miles',
-          'PATRÃO COSTEIRO: no power limit, up to 25 miles',
-          'PATRÃO ALTO MAR: no power or distance limits',
+          'MARINHEIRO JÚNIOR: small recreational craft up to 6 m, engine up to 4.5 kW, daytime only, max 1 mile from the low-water line and 3 miles from any safe harbour',
+          'MARINHEIRO: daytime navigation, max 3 miles from the coast and 10 miles from any safe harbour',
+          'PATRÃO LOCAL: within sight of the coast, max 6 miles from the coast and 25 miles from any safe harbour',
+          'PATRÃO DE COSTA: up to 40 miles from the coast',
+          'PATRÃO DE ALTO MAR: no area limit',
           'Jet ski (mota de água): a separate Carta para motas de água is required — simplified course'
         ] },
         { kind: 'paragraph', text: 'Navigation classes: Local (local navigation area), Costeira (coastal area), Largo (open sea).' },
@@ -34,7 +35,7 @@ export default {
           'Ability to swim: 50 m without stopping under supervision (for all categories)',
           'No visa restrictions: foreigners can obtain it on the same basis as Portuguese citizens',
           'NIF (tax number) and Cartão de Cidadão (citizen card) or passport + proof of address',
-          'Course at an AMN-accredited school'
+          'Course at a DGRM-accredited school'
         ] }
       ]
     },
@@ -42,12 +43,12 @@ export default {
       id: 'training',
       title: 'Training: where and how',
       content: [
-        { kind: 'paragraph', text: 'See the list of accredited schools at amn.pt → Carta de Navegador → Escolas. Most schools are in Cascais, Lisboa, Setúbal, Vilamoura, Sesimbra, Porto.' },
+        { kind: 'paragraph', text: 'See the list of DGRM-accredited schools at dgrm.pt/formacao1. Most schools are in Cascais, Lisboa, Setúbal, Vilamoura, Sesimbra, Porto.' },
         { kind: 'checklist', items: [
           'MARINHEIRO: 30–40 hours (theory + ~10 hours of practice), ~€250–400',
           'PATRÃO LOCAL: ~50 hours, ~€400–600',
-          'PATRÃO COSTEIRO: ~80 hours, ~€600–1,000',
-          'PATRÃO ALTO MAR: 100+ hours, ~€1,000–1,500 + sea practice ~200 miles',
+          'PATRÃO DE COSTA: ~80 hours, ~€600–1,000',
+          'PATRÃO DE ALTO MAR: 100+ hours, ~€1,000–1,500 + sea practice ~200 miles',
           'Mota de água: ~16 hours, ~€150–250',
           'Syllabus: navigation basics, Collision Regulations (COLREGS), VHF radio (basics), meteorology, safety, prevention of and response to emergencies'
         ] },
@@ -64,7 +65,7 @@ export default {
             id: 's1',
             title: 'Booking the exam',
             content: [
-              { kind: 'paragraph', text: 'The school submits the application on your behalf. Alternatively, you can book independently through AMN. The wait is usually 2–6 weeks.' }
+              { kind: 'paragraph', text: 'The school submits the application on your behalf via BMar (Balcão Eletrónico do Mar). Alternatively, you can apply independently through DGRM. The wait is usually 2–6 weeks.' }
             ]
           },
           {
@@ -87,9 +88,8 @@ export default {
             content: [
               { kind: 'checklist', items: [
                 'Ready: in roughly 2–4 weeks',
-                'You can collect it at the Capitania or receive it by post',
-                'Valid until age 70; after that, a medical examination every 5 years',
-                'Plastic card, like a driving licence'
+                'Issued electronically by DGRM with an access key; available in the gov.pt app',
+                'Valid until age 70; after that, a medical examination every 5 years'
               ] }
             ]
           }
@@ -100,10 +100,10 @@ export default {
       id: 'foreign-conversion',
       title: 'Converting foreign licences',
       content: [
-        { kind: 'paragraph', text: 'If you already have a foreign skipper licence, many can be converted through AMN, usually with a simplified exam.' },
+        { kind: 'paragraph', text: 'If you already have a foreign skipper licence, many can be recognised by DGRM (equiparação): EU charts are automatically recognised, third-country charts are recognised by DGRM within 5 days, usually with a simplified exam. Fee around €89–99.' },
         { kind: 'checklist', items: [
-          'RYA Day Skipper (UK) → usually converts to Patrão Costeiro with a theory exam',
-          'RYA Yachtmaster Coastal/Offshore → Patrão Alto Mar',
+          'RYA Day Skipper (UK) → usually converts to Patrão de Costa with a theory exam',
+          'RYA Yachtmaster Coastal/Offshore → Patrão de Alto Mar',
           'ICC (International Certificate of Competence) → Patrão Local or Costeiro depending on endorsements',
           'ASA (US) Bareboat Cruising 104+ → generally converts',
           'Russian “Small craft operator licence” → more often requires re-examination; sometimes it is easier to take the course from scratch',
@@ -115,7 +115,7 @@ export default {
           'Original foreign licence + sworn translation into Portuguese',
           'Ship’s log / sailing logs (logbook) — desirable',
           'Medical certificate',
-          'Application to AMN stating the desired category',
+          'Application to DGRM stating the desired category',
           'Cost: €100–300 + simplified exam'
         ] }
       ]
@@ -127,7 +127,7 @@ export default {
         { kind: 'checklist', items: [
           'If you simply want to go out on a motorboat with friends in the Lisbon bay — take Marinheiro. A couple of weeks of course, ~€300',
           'Planning to rent a boat in Algarve / on Madeira / in the Azores — look towards Patrão Local: without it, many companies will not rent vessels',
-          'For the ocean and passages between the Azores islands — at least Patrão Costeiro',
+          'For the ocean and passages between the Azores islands — at least Patrão de Costa',
           'CMI courses (international) often provide both the Portuguese Carta and the ICC',
           'Schools in Cascais and Vilamoura provide training in English and issue a Portuguese Carta on completion',
           'Best time to enrol: October–March (low season and lower prices)',
@@ -140,8 +140,8 @@ export default {
   costs: [
     { label: 'MARINHEIRO course', amountEURMin: 250, amountEURMax: 400 },
     { label: 'PATRÃO LOCAL course', amountEURMin: 400, amountEURMax: 600 },
-    { label: 'PATRÃO COSTEIRO course', amountEURMin: 600, amountEURMax: 1000 },
-    { label: 'PATRÃO ALTO MAR course', amountEURMin: 1000, amountEURMax: 1500 },
+    { label: 'PATRÃO DE COSTA course', amountEURMin: 600, amountEURMax: 1000 },
+    { label: 'PATRÃO DE ALTO MAR course', amountEURMin: 1000, amountEURMax: 1500 },
     { label: 'Course: jet ski (mota de água)', amountEURMin: 150, amountEURMax: 250 },
     { label: 'Exam at the Capitania', amountEURMin: 30, amountEURMax: 80 },
     { label: 'Conversion of foreign licences', amountEURMin: 100, amountEURMax: 300 },
@@ -149,11 +149,11 @@ export default {
     { label: 'Repeat medical examination (after age 70, every 5 years)', amountEUR: 30 }
   ],
   sources: [
-    { title: 'AMN — Carta de Navegador de Recreio', url: 'https://www.amn.pt/DGAM/FR/Paginas/NauticaRecreio.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'AMN — recognised schools', url: 'https://www.amn.pt/DGAM/FR/Paginas/NauticaRecreio.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 124/2004 — recreational craft', url: 'https://dre.pt/dre/detalhe/decreto-lei/124-2004-220127', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 568/89 — categories and training', url: 'https://dre.pt/dre/detalhe/portaria/568-1989-580367', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'DGRM — Carta de Navegador de Recreio', url: 'https://www.dgrm.pt/am-nr-navegador-recreio', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'DGRM — Equiparação de carta de navegador de recreio', url: 'https://www.dgrm.pt/equiparacao-de-carta-de-navegador-de-recreio', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'DGRM — DGRM-accredited training entities', url: 'https://www.dgrm.pt/formacao1', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Decreto-Lei 93/2018 — Regime Jurídico da Náutica de Recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/93-2018-116954925', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

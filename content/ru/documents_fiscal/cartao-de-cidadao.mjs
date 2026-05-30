@@ -86,7 +86,7 @@ export default {
     { label: 'Замена после потери/кражи', amountEUR: 0, note: 'тариф = новый pedido normal/urgente по возрасту, а не фиксированная плоская ставка' }
   ],
   sources: [
-    { title: 'ePortugal — Cartão de Cidadão (pedir/renovar/cancelar)', url: 'https://eportugal.gov.pt/servicos/pedir-o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Cartão de Cidadão (pedir/renovar/cancelar)', url: 'https://www.gov.pt/servicos/pedir-o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Cartão de Cidadão (serviço)', url: 'https://irn.justica.gov.pt/Servicos/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Autenticação.gov — Cartão de Cidadão', url: 'https://www.autenticacao.gov.pt/o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Regulamento (UE) 2019/1157 — биометрия eID', url: 'https://eur-lex.europa.eu/eli/reg/2019/1157/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }

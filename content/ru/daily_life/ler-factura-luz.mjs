@@ -57,8 +57,8 @@ export default {
           'Цена kWh может включать energy + tarifas de acesso às redes или показываться отдельными строками',
           'На либерализованном рынке цена зависит от договора, а не только от ERSE'
         ] },
-        { kind: 'paragraph', text: 'IVA на consumo в континентальной Португалии: для мощности до 6,9 kVA первые 100 kWh за 30 дней облагаются 6%; для многодетных домохозяйств лимит может быть 150 kWh за 30 дней после подтверждения статуса; потребление сверх лимита облагается 23%. Если расчётный период не 30 дней, лимит пропорционально пересчитывается.' },
-        { kind: 'warning', text: 'Если в счёте период 60 дней, лимит для сниженного IVA по consumo не “100 kWh”, а примерно 200 kWh. Поэтому строки IVA могут выглядеть неожиданно: часть kWh по 6%, остаток по 23%.' }
+        { kind: 'paragraph', text: 'IVA на consumo в континентальной Португалии: с 1 января 2025 по Lei n.º 38/2024 для мощности до 6,9 kVA первые 200 kWh за 30 дней облагаются 6%; для многодетных семей (5+ человек) лимит — 300 kWh за 30 дней после подтверждения статуса; потребление сверх лимита облагается 23%. Если расчётный период не 30 дней, лимит пропорционально пересчитывается.' },
+        { kind: 'warning', text: 'Если в счёте период 60 дней, лимит для сниженного IVA по consumo не “200 kWh”, а примерно 400 kWh. Поэтому строки IVA могут выглядеть неожиданно: часть kWh по 6%, остаток по 23%.' }
       ]
     },
     {
@@ -131,8 +131,9 @@ export default {
     { title: 'ERSE: информация для потребителей электроэнергии и разбор счёта', url: 'https://www.erse.pt/consumidores-de-energia/eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE: тарифы, цены и IVA на электроэнергию', url: 'https://www.erse.pt/atividade/regulacao/tarifas-e-precos-eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DECO Proteste: как читать счёт за электричество', url: 'https://www.deco.proteste.pt/casa-energia/eletricidade-gas', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'E-REDES: передача показаний счётчика', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'E-REDES: передача показаний счётчика', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ERSExplica: применение IVA в счёте за электричество (200/300 kWh, Lei n.º 38/2024)', url: 'https://www.erse.pt/media/tcsfm4n2/ersexplica_iva-fatura_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

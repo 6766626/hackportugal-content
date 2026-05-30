@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'С 2011 года ICNF (Instituto da Conservação da Natureza e das Florestas) ограничивает посещение — 550 человек в день на Berlenga Grande, чтобы сохранить экосистему.' },
         { kind: 'substeps', items: [
           { id: 'b1', title: '1. Зарезервировать доступ ICNF', content: [
-            { kind: 'paragraph', text: 'berlengareservas.icnf.pt → выбрать дату и количество человек. Регистрация (без оплаты) открывается за ≥ 30 дней до визита. Для июля-августа бронируйте в день открытия окна: места заканчиваются за часы.' }
+            { kind: 'paragraph', text: 'berlengaspass.icnf.pt (платформа BerlengasPass) → выбрать дату и количество человек. Здесь же оформляется обязательная плата за доступ/посещение (~3 € с человека), а не только бесплатное бронирование даты. Регистрация открывается за ≥ 30 дней до визита. Для июля-августа бронируйте в день открытия окна: места заканчиваются за часы.' }
           ]},
           { id: 'b2', title: '2. Купить билет на катер', content: [
             { kind: 'checklist', items: [
@@ -110,10 +110,10 @@ export default {
     { label: 'Кемпинг', amountEURMin: 10, amountEURMax: 15, note: '€/ночь' }
   ],
   sources: [
-    { title: 'ICNF — Reservas Berlengas', url: 'https://berlengareservas.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'BerlengasPass — ICNF (official reservation + fee)', url: 'https://berlengaspass.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'ICNF — Reserva Natural das Berlengas', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Peniche — Berlengas', url: 'https://visitpeniche.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

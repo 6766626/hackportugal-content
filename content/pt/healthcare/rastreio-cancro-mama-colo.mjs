@@ -3,7 +3,7 @@ export default {
   id: 'rastreio-cancro-mama-colo',
   categoryId: 'healthcare',
   title: 'Rastreios oncológicos SNS: rastreio do cancro da mama, do colo do útero e do intestino',
-  tldr: 'No SNS existem rastreios de base populacional gratuitos: cancro da mama — mulheres dos 50 aos 69 anos, normalmente mamografia de 2 em 2 anos; cancro do colo do útero — dos 25 aos 69 anos, de acordo com o programa da sua ULS/antiga ARS; cancro colorretal — homens e mulheres dos 50 aos 74 anos, teste de sangue oculto nas fezes com colonoscopia posterior em caso de resultado positivo. São necessários número de utente, morada atual e telefone no SNS. Se perdeu a convocatória, contacte o seu Centro de Saúde/USF ou o SNS 24: normalmente a marcação é reposta.',
+  tldr: 'No SNS existem rastreios de base populacional gratuitos: cancro da mama — mulheres dos 45 aos 74 anos, com intervalo de mamografia que varia com a idade (45–49 de 2 em 2 a 3 em 3 anos, 50–69 de 2 em 2 anos, 70–74 de 3 em 3 anos); cancro do colo do útero — dos 25 aos 69 anos, de acordo com o programa da sua ULS/antiga ARS; cancro colorretal — homens e mulheres dos 50 aos 74 anos, teste de sangue oculto nas fezes com colonoscopia posterior em caso de resultado positivo. São necessários número de utente, morada atual e telefone no SNS. Se perdeu a convocatória, contacte o seu Centro de Saúde/USF ou o SNS 24: normalmente a marcação é reposta.',
   tags: ['sns', 'rastreio', 'oncologia', 'utente'],
   estimatedReadMinutes: 5,
   steps: [

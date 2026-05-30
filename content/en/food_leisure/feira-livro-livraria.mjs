@@ -11,7 +11,7 @@ export default {
       id: 'feira-livro-lisboa',
       title: 'Feira do Livro Lisboa: how it works',
       content: [
-        { kind: 'paragraph', text: 'Feira do Livro Lisboa is Portugal’s largest book fair. It takes place in Parque Eduardo VII in Lisboa, usually from late May to June. As of 03/05/2026, exact dates and the programme should be checked on the official website feiradolivrolisboa.pt: the exhibitor schedule, opening hours, signing sessions and offers are published there.' },
+        { kind: 'paragraph', text: 'Feira do Livro Lisboa is Portugal’s largest book fair. It takes place in Parque Eduardo VII in Lisboa, usually from late May to June. As of 03/05/2026, exact dates and the programme should be checked on the official website feiradolivrodelisboa.pt: the exhibitor schedule, opening hours, signing sessions and offers are published there.' },
         { kind: 'paragraph', text: 'The format is simple: pavilions from publishers and book chains along the park avenues. Entry is usually free. You buy books directly at the stands, often cheaper than in a regular shop, especially during “Hora H” and publisher-specific promotions.' },
         { kind: 'checklist', items: [
           'Location: Parque Eduardo VII, Lisboa; easy to get there by metro to Marquês de Pombal or Parque',
@@ -96,7 +96,7 @@ export default {
   sources: [
     {
       title: 'Official Feira do Livro Lisboa website',
-      url: 'https://www.feiradolivrolisboa.pt',
+      url: 'https://feiradolivrodelisboa.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -123,6 +123,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'rrc-oncologia-sns',
   categoryId: 'healthcare',
   title: 'Онкологический маршрут SNS: Rede de Referenciação Oncológica и TMRG',
-  tldr: 'При подозрении на рак маршрут в SNS начинается у Médico de Família: он фиксирует suspeita, назначает первичные exames и направляет через CTH/SIGA в больницу сети Rede de Referenciação Oncológica. Для срочных случаев используется приоритет P1 / Alerta-Oncológico. Юридические TMRG для первой больничной консультации: 30 дней для muito prioritária, 60 для prioritária, 120 для normal. Если срок сорван — жалоба в ERS и Livro de Reclamações.',
+  tldr: 'При подозрении на рак маршрут в SNS начинается у Médico de Família: он фиксирует suspeita, назначает первичные exames и направляет через CTH/SIGA в больницу сети Rede de Referenciação Oncológica. Для срочных случаев используется приоритет P1 / Alerta-Oncológico. Юридические TMRG для первой больничной консультации при подозрении/подтверждении онкологии — только два уровня: 7 дней для muito prioritária и 30 дней для prioritária (Portaria 137/2026/1, в силе с 2 апреля 2026). Если срок сорван — жалоба в ERS и Livro de Reclamações.',
   tags: ['онкология', 'sns', 'tmrg', 'aima', 'ers'],
   estimatedReadMinutes: 6,
   steps: [
@@ -47,9 +47,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'TMRG — Tempos Máximos de Resposta Garantidos, гарантированные максимальные сроки ответа в SNS для плановой помощи. Они отсчитываются не “с момента, когда вы испугались симптомов”, а с момента регистрации правильного pedido в системе SNS: например, referral от MGF в CTH/SIGA или hospital order.' },
         { kind: 'checklist', items: [
-          'Primeira consulta de especialidade hospitalar muito prioritária: до 30 календарных дней',
-          'Primeira consulta de especialidade hospitalar prioritária: до 60 календарных дней',
-          'Primeira consulta de especialidade hospitalar normal: до 120 календарных дней',
+          'При подозрении/подтверждении онкологии для первой больничной консультации действуют только два уровня (Portaria 137/2026/1): muito prioritária — до 7 дней, prioritária — до 30 дней, отсчёт с момента поступления pedido',
+          'Уровня “normal” для онкологической первой консультации нет; прежний промежуточный 15-дневный уровень отменён',
+          'Для онкологической плановой хирургии (cirurgia programada): prioritária — до 30 дней, normal — до 60 дней',
+          'Внимание: общая ladder 30 / 60 / 120 дней относится к обычным специальностям, а не к онкологии — не путайте её с онкологической гарантией',
           'При подозрении на рак врач должен обосновать приоритет клинически; само слово “cancro” не гарантирует автоматический P1',
           'P1 / Alerta-Oncológico — практический ускоренный канал для suspeita oncológica, но юридически проверяйте, какой приоритет стоит в SIGA',
           'Если hospital triage снизил приоритет, просите письменное объяснение или повторную оценку через MGF',
@@ -141,7 +142,7 @@ export default {
     },
     {
       title: 'ePortugal — Tempos Máximos de Resposta Garantidos (TMRG)',
-      url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/tempos-maximos-de-resposta-garantidos-tmrg',
+      url: 'https://www.gov.pt/cidadaos/-/informacoes/tempos-maximos-de-resposta-garantidos-tmrg',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -161,6 +162,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'estagios-iefp-jovens',
   categoryId: 'work_business',
   title: 'Estágios IEFP: estágios para jovens através do serviço de emprego',
-  tldr: 'Os Estágios IEFP são estágios remunerados através do Centro de Emprego/IEFP para entrar no mercado de trabalho português.\n\nEm 2026, a duração típica dos programas para jovens é até 12 meses; normalmente, o candidato tem 18–29 anos, e pessoas com 30+ só são admitidas em grupos especiais, por exemplo beneficiários de RSI. O pagamento é feito pelo empregador, e o IEFP reembolsa-lhe uma parte dos custos. Uma referência frequente nas ofertas é cerca de 870 €/mês brutos: a bolsa efetiva depende do IAS 537,13 €, do nível de qualificação e do programa.',
+  tldr: 'Os Estágios IEFP são estágios remunerados através do Centro de Emprego/IEFP para entrar no mercado de trabalho português.\n\nEm 2026, os estágios para jovens padrão do IEFP (Estágios INICIAR, +Talento) destinam-se a pessoas dos 18 aos 35 anos; um candidato dos 30 aos 35 anos não precisa de estatuto especial. O pagamento é feito pelo empregador, e o IEFP reembolsa-lhe uma parte dos custos. Uma referência frequente nas ofertas é cerca de 870 €/mês brutos: a bolsa efetiva depende do IAS 537,13 €, do nível de qualificação e do programa.',
   tags: ['iefp', 'estágio', 'trabalho', 'jovens'],
   estimatedReadMinutes: 6,
   steps: [
@@ -20,10 +20,11 @@ export default {
       id: 'who-can-apply',
       title: 'Quem pode participar em 2026',
       content: [
-        { kind: 'paragraph', text: 'O grupo-alvo de base dos estágios para jovens do IEFP são pessoas dos 18 aos 29 anos, inscritas no Centro de Emprego como desempregado ou à procura do 1.º emprego. Para pessoas com 30+, o acesso depende da medida e do estatuto concretos: por exemplo, beneficiários de Rendimento Social de Inserção (RSI), desempregados de longa duração ou outros grupos vulneráveis podem enquadrar-se em regimes específicos, incluindo Inserção+.' },
+        { kind: 'paragraph', text: 'O grupo-alvo de base dos estágios para jovens padrão do IEFP (Estágios INICIAR, +Talento) são pessoas dos 18 aos 35 anos, inscritas no Centro de Emprego como desempregado ou à procura do 1.º emprego. Um candidato dos 30 aos 35 anos não precisa de estatuto especial — é um jovem candidato comum. Pessoas com mais de 35 anos também se podem candidatar ao INICIAR se tiverem obtido a qualificação nos últimos 24 meses; regimes específicos (RSI, desemprego de longa duração, Inserção+) destinam-se a outros grupos vulneráveis.' },
         { kind: 'checklist', items: [
-          'Idade normalmente entre 18–29 anos para Estágios Profissionais / Estágios INICIAR para jovens',
-          'Para 30+ — confirme a elegibilidade na candidatura concreta: RSI, desemprego, deficiência, desemprego de longa duração',
+          'Idade entre 18–35 anos para os Estágios INICIAR / +Talento para jovens padrão',
+          'Um candidato dos 30 aos 35 anos não precisa de estatuto especial — é um jovem candidato comum',
+          'Mais de 35 anos — confirme a elegibilidade na candidatura concreta: qualificação obtida nos últimos 24 meses, RSI, deficiência, desemprego de longa duração',
           'É necessária inscrição no IEFP como candidato a emprego',
           'É necessária permanência legal e direito a trabalhar em Portugal: autorização de residência, visto com direito a trabalho ou outro estatuto admissível',
           'É necessário NIF; o NISS será quase sempre necessário para pagamentos e Segurança Social',
@@ -88,7 +89,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Os nomes das medidas do IEFP mudam consoante os anos e os avisos de abertura. Em abril de 2026, não se oriente por um nome antigo visto num blogue, mas pela página ativa do IEFP e pelo aviso da candidatura concreta.' },
         { kind: 'checklist', items: [
-          'Estágios Profissionais / estágios para jovens — via típica para 18–29 anos após os estudos ou para uma primeira experiência',
+          'Estágios Profissionais / estágios para jovens — via típica para 18–35 anos após os estudos ou para uma primeira experiência',
           'Estágios INICIAR — formato para início de carreira profissional; as condições dependem do aviso IEFP aberto',
           'Estágios IPN ou estágios através de incubadoras/parceiros — muitas vezes formalizados através da empresa/organização, mas as regras de financiamento devem ser confirmadas na mesma com o IEFP',
           'Inserção+ — medidas de integração para pessoas em situação vulnerável; para 30+ é importante ter um estatuto como RSI ou desemprego de longa duração',
@@ -106,7 +107,7 @@ export default {
           'Faça um CV em formato europeu, mas curto: 1–2 páginas, sem uma biografia longa',
           'Acrescente o nível de português: A2/B1 muitas vezes conta mais do que um inglês perfeito',
           'Obtenha o NISS com antecedência, se já tiver direito: as empresas não gostam de atrasos no processo',
-          'Pergunte ao técnico do IEFP em que medida se enquadra: 18–29, RSI, desempregado de longa duração, primeiro emprego',
+          'Pergunte ao técnico do IEFP em que medida se enquadra: 18–35, RSI, desempregado de longa duração, primeiro emprego',
           'Na entrevista, confirme a bolsa bruta, alimentação, horário, tutor e probabilidade de contratação após o estágio',
           'Não esconda o estatuto migratório: o empregador precisa de saber se é possível formalizar legalmente o estágio',
           'Se o diploma for estrangeiro, prepare tradução ou reconhecimento através da DGES, se a profissão o exigir',
@@ -127,6 +128,6 @@ export default {
     { title: 'gov.pt — inscrição no Centro de Emprego', url: 'https://www.gov.pt/pt/servicos/inscrever-se-no-centro-de-emprego', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'gov.pt — IEFP e políticas públicas de emprego', url: 'https://www.gov.pt/pt/entidades/instituto-do-emprego-e-formacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

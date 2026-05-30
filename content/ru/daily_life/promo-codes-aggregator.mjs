@@ -58,10 +58,10 @@ export default {
       id: 'youth-card',
       title: 'Cartão Jovem Europeu — must-have для 12-29 лет',
       content: [
-        { kind: 'paragraph', text: 'Государственная программа IPDJ (Instituto Português do Desporto e Juventude). Действует во всех 38 странах European Youth Card Association. Срок действия 1 год, цена 11 € (по эквиваленту).' },
+        { kind: 'paragraph', text: 'Государственная программа IPDJ (Instituto Português do Desporto e Juventude). Действует во всех 38 странах European Youth Card Association. Срок действия 1 год. С 2024 года выпуск стандартного Cartão Jovem в Португалии бесплатный (раньше стоил 10 €).' },
         { kind: 'checklist', items: [
           '🎯 Возраст: 12-29 лет (включительно)',
-          '💶 Цена: 8 € (онлайн) или 11 € (в IPDJ-офисах). Срок: 1 год',
+          '💶 Цена: бесплатно с 2024 года (раньше 10 €). Срок: 1 год',
           '🎫 Скидки в Португалии: ~60 категорий бизнесов от кино (FNAC -10%) до фестивалей (NOS Alive -15%)',
           '🚊 Транспорт: CP (комбоиос) -25%, FlixBus -10%, Carris -50% на туристический пасс',
           '🏛️ Музеи: бесплатный вход во многие государственные музеи Лиссабона/Порту',
@@ -182,7 +182,7 @@ export default {
     { title: 'ACSS — Conselho Nacional Famílias Numerosas', url: 'https://famnumerosas.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal das Finanças — e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: скидочные карты и промо в Португалии. Cartão Continente (главный), Pingo Doce Poupa Mais, Cartão Jovem Europeu (12-29 лет, ~60 категорий скидок), Cartão Família Numerosa (для 3+ детей), магазинные программы (KIWOKO, Decathlon, FNAC), кэшбэк-сайты (Letyshops, eBuyClub), купонные агрегаторы (Radarcupao, Ocacapromocoes), e-Fatura возврат IVA через IRS.'

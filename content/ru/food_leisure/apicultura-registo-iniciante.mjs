@@ -3,7 +3,7 @@ export default {
   id: 'apicultura-registo-iniciante',
   categoryId: 'food_leisure',
   title: 'Пчеловодство для новичка — регистрация в DGAV (Direção-Geral de Alimentação e Veterinária)',
-  tldr: 'Любая пасека в Португалии (даже один улей в саду) должна быть зарегистрирована в DGAV (Direção-Geral de Alimentação e Veterinária — госслужба по продбезопасности и ветеринарии)\.\n\nРегистрация бесплатная: подаёшь в Junta de Freguesia (местный приходский совет) или через ePortugal (портал госуслуг)\.\n\nПосле регистрации получаешь номер пчеловода и обязанность вести санитарный журнал (caderno sanitário)\.\n\nМинимальные расстояния: 200 м в городской зоне, 50 м в сельской (можно ближе при высоком заборе). Мёд для собственного потребления — без HACCP. Для продаж нужна зарегистрированная комната для откачки (sala de extração) и инспекция ASAE (Autoridade de Segurança Alimentar e Económica — надзор за продбезопасностью). FNAP (национальная федерация пчеловодов) — главный союз. Курсы для новичков: 150-300 €. Один улей даёт 15-30 кг мёда в год; стартовый комплект (улей + рой + защита) 250-500 €.',
+  tldr: 'Любая пасека в Португалии (даже один улей в саду) должна быть зарегистрирована в DGAV (Direção-Geral de Alimentação e Veterinária — госслужба по продбезопасности и ветеринарии)\.\n\nРегистрация бесплатная: подаёшь онлайн в приложении «Atividade Apícola» в личном кабинете портала IFAP (Área Reservada do Portal do IFAP), либо в региональной ветеринарно-продовольственной службе DSAVR (Direção de Serviços de Alimentação e Veterinária Regional), либо через признанную организацию пчеловодов с протоколом IFAP\.\n\nПервичную декларацию о наличии пчёл нужно подать в течение 10 рабочих дней с начала деятельности; ежегодная декларация о наличии подаётся с 1 по 30 сентября\.\n\nПосле регистрации получаешь номер пчеловода и обязанность вести санитарный журнал (caderno sanitário)\.\n\nМинимальные расстояния: 200 м в городской зоне, 50 м в сельской (можно ближе при высоком заборе). Мёд для собственного потребления — без HACCP. Для продаж нужна зарегистрированная комната для откачки (sala de extração) и инспекция ASAE (Autoridade de Segurança Alimentar e Económica — надзор за продбезопасностью). FNAP (национальная федерация пчеловодов) — главный союз. Курсы для новичков: 150-300 €. Один улей даёт 15-30 кг мёда в год; стартовый комплект (улей + рой + защита) 250-500 €.',
   tags: ['apicultura', 'abelha', 'mel', 'dgav', 'fnap'],
   estimatedReadMinutes: 6,
   steps: [
@@ -45,9 +45,10 @@ export default {
             title: 'Подача заявки',
             content: [
               { kind: 'checklist', items: [
-                'Через ePortugal (портал госуслуг): eportugal.gov.pt → Cidadão → Apicultura',
-                'Или лично в Junta de Freguesia (местный приходский совет)',
-                'Или через DRAP (Direção Regional de Agricultura e Pescas — региональная дирекция сельского хозяйства и рыболовства; 5 регионов)',
+                'Онлайн через личный кабинет портала IFAP (Área Reservada do Portal do IFAP) — приложение «Atividade Apícola»',
+                'Или в региональной ветеринарно-продовольственной службе DSAVR (Direção de Serviços de Alimentação e Veterinária Regional)',
+                'Или через признанную организацию пчеловодов, имеющую протокол с IFAP',
+                'Первичную декларацию о наличии пчёл подай в течение 10 рабочих дней с начала деятельности; ежегодная декларация о наличии — с 1 по 30 сентября',
                 'После одобрения выдаётся номер пчеловода (формат AA-NN-NNNN)'
               ] }
             ]
@@ -183,6 +184,6 @@ export default {
     { title: 'Portaria 9/2021 — distâncias colmeias', url: 'https://dre.pt/dre/detalhe/portaria/9-2021-153700104', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — apoio à apicultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

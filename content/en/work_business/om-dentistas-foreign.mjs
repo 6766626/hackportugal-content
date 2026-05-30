@@ -3,7 +3,7 @@ export default {
   id: 'om-dentistas-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Médicos Dentistas: how a foreign dentist can work in Portugal',
-  tldr: 'Dentistry in Portugal is a regulated profession: you can work only after inscrição with the Ordem dos Médicos Dentistas (OMD). For a non-EU diploma, the route in 2026 is usually: have the diploma recognised through DGES/a Portuguese university under DL 66/2018, then pass the OMD written assessment in Portuguese — 2 parts of 120 and 80 minutes — and only then apply for inscrição. Without an OMD number, you cannot legally treat patients as a médico dentista.',
+  tldr: 'Dentistry in Portugal is a regulated profession: you can work only after inscrição with the Ordem dos Médicos Dentistas (OMD). For a non-EU diploma, the route in 2026 is usually: have the diploma recognised through DGES/a Portuguese university under DL 66/2018, then pass the OMD language test Prova de Comunicação em Medicina Dentária (PCMD) — a Portuguese-language test at CEFR B2, max 120 minutes — and only then apply for inscrição. Without an OMD number, you cannot legally treat patients as a médico dentista.',
   tags: ['omd', 'dentist', 'dges', 'work'],
   estimatedReadMinutes: 6,
   steps: [
@@ -40,19 +40,20 @@ export default {
     },
     {
       id: 'omd-written-exam',
-      title: 'Step 2. Pass the OMD written assessment in Portuguese',
+      title: 'Step 2. Pass the OMD language test (PCMD)',
       content: [
-        { kind: 'paragraph', text: 'After academic recognition, the OMD applies a qualification assessment procedure for candidates educated outside the EU. The key filter is a written prova in Portuguese: two parts lasting 120 minutes and 80 minutes. In practice, this means that medical Portuguese is needed not “for formality”, but to understand clinical cases, terminology, pharmacology, and ethics.' },
+        { kind: 'paragraph', text: 'After academic recognition, the OMD applies a procedure for candidates educated outside the EU. The key filter is the Prova de Comunicação em Medicina Dentária (PCMD): a Portuguese-language test that checks the language ability needed for the profession at CEFR B2 level — not a clinical-knowledge exam. The requirement was introduced by the OMD Statute as amended by Lei 73/2023 (12 Dec 2023, in force 1 March 2024) for candidates who are not nationals of Portugal or Portuguese-speaking countries; candidates who did all their dental training in Portuguese are exempt. The maximum total duration is 120 minutes.' },
         { kind: 'checklist', items: [
-          'The exam is held in Portuguese; there is no automatic right to sit it in English or Russian',
-          'Knowledge comparable to Portuguese education in Medicina Dentária is assessed',
-          'The format is written, in two parts: 120 minutes + 80 minutes',
-          'The OMD may publish specific dates, instructions, admission rules, and the list of topics separately from the general inscrição page',
+          'The test is held in Portuguese; there is no automatic right to sit it in English or Russian',
+          'It assesses language ability at CEFR B2 level, not clinical knowledge — knowledge and academic equivalence are assessed separately at the DGES/university stage (Reconhecimento Específico)',
+          'Format: Part 1 Receção (eliminatory) — written comprehension 40 minutes and oral comprehension 30 minutes; Part 2 Produção — written production 30 minutes and an oral part 20 minutes (interview, oral clinical-case report, oral commentary)',
+          'The maximum total duration is 120 minutes; the test includes an oral component, it is not written-only',
+          'The OMD may publish specific dates, instructions, admission rules, and the regulation separately from the general inscrição page',
           'The candidate needs to confirm admission in advance, pay the applicable fees if stated by the OMD, and attend with an identity document',
-          'Do not rely on an employing clinic as a substitute for the exam: the OMD checks the qualification independently of a job offer',
-          'If you do not have Portuguese medical vocabulary, first plan intensive language study to at least B2/C1 level for a professional setting'
+          'There is an exemption from the PCMD for candidates who did all their dental training in Portuguese',
+          'If you do not have Portuguese medical vocabulary, first plan intensive language study to at least B2 level for a professional setting'
         ] },
-        { kind: 'warning', text: 'Do not confuse the OMD exam with DGES diploma recognition. These are different stages: DGES confirms academic equivalence, while the OMD decides on access to professional practice.' }
+        { kind: 'warning', text: 'Do not confuse the OMD language test (PCMD) with DGES diploma recognition. These are different stages: DGES/the university confirms academic equivalence and knowledge (Reconhecimento Específico), while the PCMD only checks Portuguese-language ability for the profession.' }
       ]
     },
     {
@@ -65,7 +66,7 @@ export default {
           'NIF — needed for payments, contracts, and issuing receipts/invoices',
           'Document confirming recognition of the foreign degree through DGES/a Portuguese university',
           'Original diploma and diploma supplement/transcript with translations, if applicable',
-          'Confirmation of successful completion of the OMD qualification procedure, including the written prova if it was required',
+          'Confirmation of successful completion of the OMD language test (PCMD) if it was required',
           'Certificado de registo criminal — usually from Portugal and/or the country of origin/previous residence, if the OMD requests it',
           'Photo, contact details, address in Portugal, and professional data',
           'Declarations on professional fitness, ethics, and absence of bans on practice, if required by the OMD forms',
@@ -121,6 +122,13 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'OMD: Prova de Comunicação em Medicina Dentária (PCMD) — regulamento',
+      url: 'https://www.omd.pt/inscricao/pcmd/regulamento/',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
+    },
+    {
       title: 'Decreto-Lei 66/2018: legal regime for the recognition of foreign academic degrees and diplomas',
       url: 'https://dre.pt/dre/detalhe/decreto-lei/66-2018-116068879',
       kind: 'law',
@@ -135,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

@@ -134,7 +134,7 @@ export default {
       id: 'insurance',
       title: 'Seguro — obrigatório',
       content: [
-        { kind: 'paragraph', text: 'Desde 2018, o seguro de responsabilidade civil é obrigatório para todas as embarcações registadas (Lei 4/2018).' },
+        { kind: 'paragraph', text: 'O seguro de responsabilidade civil é obrigatório para as embarcações de recreio (Decreto-Lei 93/2018, art. 33.º), com capital mínimo seguro de 250 000 €. Isentas apenas embarcações a remos/canoas e pequenas embarcações de praia que naveguem a menos de 300 m da costa.' },
         { kind: 'checklist', items: [
           'Mínimo: responsabilidade civil ~150–300 € por ano',
           'Completo (corpo + civil): 0,5–1,5% do valor da embarcação por ano',
@@ -165,7 +165,7 @@ export default {
         { kind: 'checklist', items: [
           'Embarcação sem registo: 250–2 500 € + possível apreensão',
           'Sem licença de exploração: 100–500 €',
-          'Sem seguro: 250–2 500 € (como para um automóvel)',
+          'Sem seguro: 300–3 000 € para pessoas singulares (600–12 000 € para pessoas coletivas), nos termos do art. 54.º do DL 93/2018',
           'Falta de equipamento obrigatório: 100–1 000 € (por cada item em falta)',
           'Exceder a classe de navegação (embarcação Local em zona Largo): 250–1 500 €',
           'Utilização da embarcação sem a carta de navegador exigida: 500–2 500 €'
@@ -186,9 +186,9 @@ export default {
     { title: 'AMN — Autoridade Marítima Nacional', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'DGAM — Direção-Geral da Autoridade Marítima', url: 'https://www.amn.pt/DGAM/Paginas/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Capitanias — encontrar o porto mais próximo', url: 'https://www.amn.pt/DGAM/Capitanias/Paginas/Capitanias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 124/2004 — embarcações de recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/124-2004-220127', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Lei 4/2018 — seguro obrigatório embarcações', url: 'https://dre.pt/dre/detalhe/lei/4-2018-114655100', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'Decreto-Lei 93/2018 — Regime Jurídico da Náutica de Recreio', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-116950304', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Decreto-Lei 93/2018, art. 33.º — seguro obrigatório de embarcações', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-116950304', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

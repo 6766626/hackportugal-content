@@ -42,7 +42,7 @@ export default {
       id: 'how-to-license',
       title: 'Получение лицензии Apanha Apeada',
       content: [
-        { kind: 'paragraph', text: 'Оформи на portal.dgrm.mm.gov.pt → Licenciamento → Pesca Lúdica → Apanha Apeada. Вход по Chave Móvel Digital (CMD; мобильная цифровая подпись) или Cartão de Cidadão (гражданская карта).' },
+        { kind: 'paragraph', text: 'Лицензию оформляют по нескольким каналам (host portal.dgrm.mm.gov.pt больше не работает): через любой банкомат Multibanco (Pagamentos e Outros Serviços → Estado e Setor Público → Licenciamento de Pesca Lúdica — для граждан с португальской картой Multibanco); на стойке DGRM в Лиссабоне (для резидентов и иностранцев); в региональных отделениях DRAP (Norte, Centro, LVT, Alentejo, Algarve); либо через портал BMar — Balcão Eletrónico do Mar на www.bmar.pt (для нерезидентов и иностранцев, оплата банковским переводом). Общая информация — на www.dgrm.pt.' },
         { kind: 'checklist', items: [
           '3 дня: ~10 €',
           '1 месяц: ~15 €',
@@ -181,6 +181,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica e Apanha', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 27/2001 — минимальный размер por espécie', url: 'https://dre.pt/dre/detalhe/portaria/27-2001-411720', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

@@ -3,23 +3,23 @@ export default {
   id: 'charity-donations-tax',
   categoryId: 'daily_life',
   title: 'Charity — where to help and tax deductions',
-  tldr: 'IRS “consignação” is an option to direct 0.5% of IRS tax to one of ~5,000 registered charities (at no cost to you, just a tick in the tax return)\.\n\nAdditionally: 25% of all donations to IPSS (Instituições Particulares de Solidariedade Social) are deductible from IRS. Top charities: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (support for people with disabilities), AMI (humanitarian aid)\.\n\nThe Banco Alimentar campaign runs twice a year and mobilises hundreds of thousands of volunteers.',
+  tldr: 'IRS “consignação” is an option to direct 1% of IRS tax to one of ~5,000 registered charities (at no cost to you, just a tick in the tax return)\.\n\nAdditionally: 25% of all donations to IPSS (Instituições Particulares de Solidariedade Social) are deductible from IRS. Top charities: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (support for people with disabilities), AMI (humanitarian aid)\.\n\nThe Banco Alimentar campaign runs twice a year and mobilises hundreds of thousands of volunteers.',
   tags: ['charity', 'donations', 'consignação', 'irs'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'consignacao',
-      title: '✅ Consignação 0.5% IRS — at no cost',
+      title: '✅ Consignação 1% IRS — at no cost',
       content: [
-        { kind: 'paragraph', text: 'Every Portuguese resident can direct 0.5% of their final IRS tax to one of the registered charities. This is at NO additional cost to you — the state simply redirects part of your tax.' },
+        { kind: 'paragraph', text: 'Every Portuguese resident can direct 1% of their final IRS tax to one of the registered charities. This is at NO additional cost to you — the state simply redirects part of your tax.' },
         { kind: 'checklist', items: [
           '📅 When: when filing IRS (April-June)',
           '✅ In the IRS form — “consignação de quota da liquidação do imposto”',
           '🏢 Choose one organisation (by NIF) from the official AT list',
           'List: portaldasfinancas.gov.pt → IRS → Consignação',
-          '💰 Specifically: 0.5% of your final tax. For €30,000/year — about €50-150',
+          '💰 Specifically: 1% of your final tax. For €30,000/year — about €100-300',
           '🔁 You can change your choice every year',
-          '🇵🇹 Also: you can consignar benefício fiscal do IVA — transfer to a charity the amount of your IVA deduction from eligible invoices. This is NOT free: unlike the 0.5% IRS, you lose this IVA deduction'
+          '🇵🇹 Also: you can consignar benefício fiscal do IVA — transfer to a charity the amount of your IVA deduction from eligible invoices. This is NOT free: unlike the 1% IRS, you lose this IVA deduction'
         ]}
       ]
     },
@@ -151,7 +151,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'IRS consignação 0.5%', amountEUR: 0, note: 'at no cost to you' },
+    { label: 'IRS consignação 1%', amountEUR: 0, note: 'at no cost to you' },
     { label: 'IRS deduction for donations', amountEUR: 0, note: '25% × 1.3 of the donation' },
     { label: 'IRS deduction limit', amountEUR: 0, note: '15% of the tax payable' }
   ],
@@ -161,6 +161,6 @@ export default {
     { title: 'Segurança Social — IPSS registry', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Cáritas Portuguesa', url: 'https://www.caritas.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

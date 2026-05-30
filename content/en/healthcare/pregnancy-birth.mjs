@@ -157,12 +157,12 @@ export default {
     }
   ],
   sources: [
-    { title: 'DGS — National Programme for the Surveillance of Low-Risk Pregnancy', url: 'https://www.dgs.pt/documentos-e-publicacoes/programa-nacional-para-a-vigilancia-da-gravidez-de-baixo-risco.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'DGS — National Programme for the Surveillance of Low-Risk Pregnancy', url: 'https://www.dgs.pt/em-destaque/programa-nacional-para-a-vigilancia-da-gravidez-de-baixo-risco.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'SNS 24 — pregnancy', url: 'https://www.sns24.gov.pt/tema/gravidez/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Segurança Social — parenthood', url: 'https://www.seg-social.pt/parentalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Código do Trabalho (Lei 7/2009, amended by Lei 13/2023)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Registering a birth / Balcão do Nado Vivo', url: 'https://irn.justica.gov.pt/Registos/Registo-Civil/Nascimento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

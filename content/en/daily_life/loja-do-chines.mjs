@@ -78,7 +78,7 @@ export default {
   ],
   sources: [
     { title: 'DECO Proteste: consumer rights, guarantees and returns', url: 'https://www.deco.proteste.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal: consumer rights and Livro de Reclamações', url: 'https://eportugal.gov.pt/cidadaos/defesa-do-consumidor', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ePortugal: consumer rights and Livro de Reclamações', url: 'https://www.gov.pt/cidadaos/defesa-do-consumidor', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 84/2021: guarantees for consumer goods', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/84-2021-172938301', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal: banknotes, coins and cash payments', url: 'https://www.bportugal.pt/page/notas-e-moedas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],

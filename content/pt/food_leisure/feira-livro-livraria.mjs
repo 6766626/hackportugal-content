@@ -11,7 +11,7 @@ export default {
       id: 'feira-livro-lisboa',
       title: 'Feira do Livro Lisboa: como funciona',
       content: [
-        { kind: 'paragraph', text: 'A Feira do Livro Lisboa é a maior feira do livro de Portugal. Realiza-se no Parque Eduardo VII, em Lisboa, normalmente no período fim de maio–junho. Em 03.05.2026, as datas exactas e o programa devem ser confirmados no site oficial feiradolivrolisboa.pt: o calendário dos participantes, horários, sessões de autógrafos e promoções são publicados aí.' },
+        { kind: 'paragraph', text: 'A Feira do Livro Lisboa é a maior feira do livro de Portugal. Realiza-se no Parque Eduardo VII, em Lisboa, normalmente no período fim de maio–junho. Em 03.05.2026, as datas exactas e o programa devem ser confirmados no site oficial feiradolivrodelisboa.pt: o calendário dos participantes, horários, sessões de autógrafos e promoções são publicados aí.' },
         { kind: 'paragraph', text: 'O formato é simples: pavilhões de editoras e redes livreiras ao longo das alamedas do parque. A entrada é normalmente gratuita. Compra livros directamente nos stands, muitas vezes mais baratos do que numa loja normal, especialmente nas horas “Hora H” e nas promoções de editoras específicas.' },
         { kind: 'checklist', items: [
           'Localização: Parque Eduardo VII, Lisboa; é prático ir de metro até Marquês de Pombal ou Parque',
@@ -96,7 +96,7 @@ export default {
   sources: [
     {
       title: 'Site oficial da Feira do Livro Lisboa',
-      url: 'https://www.feiradolivrolisboa.pt',
+      url: 'https://feiradolivrodelisboa.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -123,6 +123,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

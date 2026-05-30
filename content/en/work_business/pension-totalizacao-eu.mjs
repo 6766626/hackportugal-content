@@ -97,7 +97,7 @@ export default {
           'Back payments may be made from the date of entitlement/application, but it is better not to delay',
           'Each country may have its own pension age: one part of the pension may start earlier and another later'
         ] },
-        { kind: 'warning', text: 'If you have reached the Portuguese age of 66 years and 7 months, this does not mean automatic entitlement to the German, French or Swiss part on the same day. Each country applies its own retirement age and its own conditions.' }
+        { kind: 'warning', text: 'If you have reached the Portuguese age of 66 years and 9 months, this does not mean automatic entitlement to the German, French or Swiss part on the same day. Each country applies its own retirement age and its own conditions.' }
       ]
     },
     {
@@ -153,6 +153,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

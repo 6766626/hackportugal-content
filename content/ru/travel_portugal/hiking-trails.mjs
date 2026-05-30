@@ -25,8 +25,7 @@ export default {
               'Короткие маршруты 3-15 км, обычно круговые',
               'Маркированы символом «PR» + номер + название муниципалитета',
               '150+ PR-троп зарегистрированы в FCMP (Federação de Campismo e Montanhismo)',
-              'Приложение Trilhos de Portugal — все PR-тропы с описаниями и GPX',
-              'Бесплатные GPX на rededetrilhos.pt'
+              'Приложение Trilhos de Portugal — все PR-тропы с описаниями и GPX'
             ]}
           ]},
           { id: 't3', title: '💧 Levadas (Мадейра) — уникальное', content: [
@@ -148,7 +147,6 @@ export default {
           'AllTrails — англоязычное, удобно для тех, кто говорит по-английски',
           'ViewRanger / Komoot — европейские, подробные',
           'Outdooractive — GR-маршруты',
-          'trilhos.rededetrilhos.pt — официальная база',
           'Mapa Amarelo — для Cabo Verde + Portugal (популярен на Azores)',
           'GPX + офлайн-карты — обязательно! В парках часто нет связи'
         ]}
@@ -181,11 +179,11 @@ export default {
   ],
   sources: [
     { title: 'Federação Portuguesa de Campismo e Montanhismo', url: 'https://fcmportugal.com/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Rede de Trilhos', url: 'https://rededetrilhos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'FCMP — Registo Nacional de Percursos Pedestres (RNPP)', url: 'https://www.fcmportugal.com/percursos-pedestres/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'ICNF — Parques e Reservas', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Rota Vicentina', url: 'https://rotavicentina.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Madeira Levadas', url: 'https://www.visitmadeira.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

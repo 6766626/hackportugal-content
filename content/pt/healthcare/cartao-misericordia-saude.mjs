@@ -79,9 +79,9 @@ export default {
   ],
   sources: [
     { title: 'Santa Casa da Misericórdia de Lisboa — serviços e ação social', url: 'https://www.scml.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'União das Misericórdias Portuguesas — rede nacional de Misericórdias', url: 'https://www.umpmisericordias.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'União das Misericórdias Portuguesas — rede nacional de Misericórdias', url: 'https://www.ump.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'SNS 24 — contacto e orientação para cuidados de saúde', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

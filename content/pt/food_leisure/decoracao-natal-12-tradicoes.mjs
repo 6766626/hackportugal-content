@@ -120,7 +120,7 @@ export default {
   sources: [
     { title: 'VisitPortugal — tradições de Natal em Portugal', url: 'https://www.visitportugal.com/en/content/christmas-traditions-portugal', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'VisitPortugal — gastronomia portuguesa e doçaria regional', url: 'https://www.visitportugal.com/en/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — feriados nacionais em Portugal', url: 'https://eportugal.gov.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
+    { title: 'ePortugal — feriados nacionais em Portugal', url: 'https://www.gov.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Patriarcado de Lisboa — informações das paróquias e celebrações de Natal', url: 'https://www.patriarcado-lisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',

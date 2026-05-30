@@ -105,7 +105,7 @@ export default {
   sources: [
     { title: 'Leroy Merlin Portugal — serviços e aluguer de ferramentas', url: 'https://www.leroymerlin.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Bricomarché Portugal — lojas e serviços', url: 'https://www.bricomarche.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — pesquisa de Junta de Freguesia e entidades locais', url: 'https://www.eportugal.gov.pt/entidades/juntas-de-freguesia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'ePortugal — pesquisa de Junta de Freguesia e entidades locais', url: 'https://www.gov.pt/entidades/juntas-de-freguesia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 180

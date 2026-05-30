@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'manuais-escolares-gratis',
   categoryId: 'education_children',
-  title: 'Free school textbooks from Year 1 to Year 9: Programa Manuais',
-  tldr: 'In Portuguese state schools, textbooks for 1.º-9.º ano are provided free of charge through Programa Manuais Escolares Gratuitos: the parent receives MEGA vouchers and exchanges them for books at a bookshop or school. The programme is universal, and does not depend on income or ASE. At the end of the year, most textbooks must be returned for reuse; workbooks and consumables are usually bought separately.',
+  title: 'Free school textbooks from Year 1 to Year 12: Programa Manuais',
+  tldr: 'In Portuguese state schools, textbooks for all of compulsory education (1.º-12.º ano) are provided free of charge through Programa Manuais Escolares Gratuitos: the parent receives MEGA vouchers and exchanges them for books at a bookshop or school. The programme is universal, and does not depend on income or ASE. At the end of the year, most textbooks must be returned for reuse; workbooks and consumables are usually bought separately.',
   tags: ['school', 'manuais', 'mega', 'textbooks'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Programa Manuais Escolares Gratuitos is the state scheme for providing school textbooks free of charge. For families, it works through electronic MEGA vouchers: each voucher corresponds to a specific textbook from the school’s list.' },
         { kind: 'checklist', items: [
           'The main textbooks approved by the school for the specific ano and turma are covered.',
-          'For 1.º-9.º ano in a state school, the programme applies regardless of family income.',
+          'For all of compulsory education (1.º-12.º ano) in a state school, the programme applies regardless of family income.',
           'This is not an ASE benefit: eligibility for free manuais does not require low-income family status.',
           'The child must be enrolled in school through Portal das Matrículas / ePortugal or directly through the escola, if the educational establishment requests this.',
           'New or used books are issued with the voucher — the family does not choose the format.',
@@ -109,15 +109,15 @@ export default {
     }
   ],
   costs: [
-    { label: 'Textbooks for 1.º-9.º ano with MEGA vouchers', amountEUR: 0, note: 'For state school pupils; issued as new or second-hand through the reutilização system.' },
+    { label: 'Textbooks for 1.º-12.º ano with MEGA vouchers', amountEUR: 0, note: 'For state school pupils; issued as new or second-hand through the reutilização system.' },
     { label: 'Workbooks and stationery', amountEURMin: 30, amountEURMax: 150, note: 'Indicative amount per child per year; depends on the year group, school and teachers’ requirements.' }
   ],
   sources: [
     { title: 'DGE — Manuais Escolares (assessment, certification and reuse)', url: 'https://www.dge.mec.pt/manuais-escolares', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'IGeFE — MEGA, Manuais Escolares Gratuitos', url: 'https://www.igefe.mec.pt/Page/Index/199', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
-    { title: 'ePortugal — School enrolments', url: 'https://eportugal.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ePortugal — School enrolments', url: 'https://www.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

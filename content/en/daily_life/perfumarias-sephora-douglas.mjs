@@ -98,7 +98,7 @@ export default {
   sources: [
     { title: 'Sephora Portugal — official online shop', url: 'https://www.sephora.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Douglas Portugal — official online shop', url: 'https://www.douglas.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ePortugal — consumer rights for online purchases and returns', url: 'https://eportugal.gov.pt/cidadaos/comprar-vender-ou-arrendar/compras-online', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ePortugal — consumer rights for online purchases and returns', url: 'https://www.gov.pt/cidadaos/comprar-vender-ou-arrendar/compras-online', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária — IVA rates in Portugal', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/codigo-do-iva-indice.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',

@@ -160,7 +160,7 @@ export default {
           '⚠️ Se a loja fechou: a garantia passa para o fabricante (se existir — Apple, Samsung, Bosch)',
           '🌐 Verifique a loja no «Livro de Reclamações» — reclamações frequentes = não compre',
           '📚 «Direitos do Consumidor» — brochura oficial gratuita da DGC',
-          '🇪🇺 EU Online Dispute Resolution: ec.europa.eu/odr — para litígios transfronteiriços',
+          '🇪🇺 Litígios transfronteiriços na UE: Centro Europeu do Consumidor (cec.consumidor.gov.pt) e consumer-redress.ec.europa.eu — a plataforma EU ODR (ec.europa.eu/odr) encerrou a 20 de julho de 2025',
           '⚖️ A quota anual da DECO Proteste paga-se com um único problema sério',
           '🛡️ Cartão de crédito: chargeback através do banco — último recurso (o banco reverte o débito)'
         ]}
@@ -181,6 +181,6 @@ export default {
     { title: 'DL 24/2014 — Contratos à distância', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Centro Europeu do Consumidor (ECC-Net Portugal)', url: 'https://cec.consumidor.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

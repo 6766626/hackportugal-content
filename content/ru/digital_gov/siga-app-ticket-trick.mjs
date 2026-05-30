@@ -116,7 +116,7 @@ export default {
     },
     {
       title: 'ePortugal: официальный портал государственных услуг',
-      url: 'https://eportugal.gov.pt/',
+      url: 'https://www.gov.pt/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

@@ -3,7 +3,7 @@ export default {
   id: 'pesca-embarcada-mar',
   categoryId: 'food_leisure',
   title: 'Pesca marítima a partir de barco — licença Pesca Lúdica Embarcada',
-  tldr: 'Pescar no mar a partir de qualquer barco (próprio, alugado ou de charter) exige a modalidade embarcada na licença de Pesca Lúdica (pesca lúdica — pesca marítima recreativa).\n\nMais cara do que a pesca a partir da costa: ~10 € por 3 dias, ~20 € por mês, ~40 € por ano. O barco deve estar registado na Capitania, e cada pescador a bordo deve ter a sua própria licença. O limite diário para todo o barco é mais elevado: 15 kg + 1 peixe de grande porte. Para charter, verifique se o capitão tem licença profissional "Marítimo‑Turística"; para os passageiros basta a licença embarcada normal.',
+  tldr: 'Pescar no mar a partir de qualquer barco (próprio, alugado ou de charter) exige a modalidade embarcada na licença de Pesca Lúdica (pesca lúdica — pesca marítima recreativa).\n\nMais cara do que a pesca a partir da costa: ~10 € por 3 dias, ~20 € por mês, ~40 € por ano. O barco deve estar registado na Capitania, e cada pescador a bordo deve ter a sua própria licença. O limite diário é de 10 kg por pescador (não conta o exemplar de maior peso); quando estão a bordo mais de 3 pescadores, o limite total do barco não pode exceder 25 kg. Para charter, verifique se o capitão tem licença profissional "Marítimo‑Turística"; para os passageiros basta a licença embarcada normal.',
   tags: ['pesca', 'pesca', 'lancha', 'embarcação', 'dgrm'],
   estimatedReadMinutes: 5,
   steps: [
@@ -65,7 +65,9 @@ export default {
       title: 'Limites e regras a bordo',
       content: [
         { kind: 'checklist', items: [
-          'Limite diário para o barco: 15 kg no total para todos + 1 peixe de grande porte',
+          'Limite diário: 10 kg por pescador, não sendo contabilizado o exemplar de maior peso',
+          'Quando estão a bordo mais de 3 pescadores, o limite total para todo o barco não pode exceder 25 kg (não conta um exemplar de maior peso por cada pescador)',
+          'Atenção: 15 kg é o limite específico da pesca submarina (por pessoa), não o limite da pesca à linha a partir de barco',
           'Tamanhos mínimos — os mesmos que na pesca a partir da costa',
           'Defeso (período de proibição por espécie) — as mesmas épocas',
           'Métodos proibidos: arrastos, redes, explosivos, canas eléctricas — nunca',
@@ -108,6 +110,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICCAT — quotas de atum-rabilho', url: 'https://www.iccat.int', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

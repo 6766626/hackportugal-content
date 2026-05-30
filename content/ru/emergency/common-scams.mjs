@@ -110,7 +110,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🚨 PSP — 112 (экстренно) или ближайший полицейский участок. Для заявления в полицию',
-          '🌐 Cibercrime — заявление на cibercrime.mj.pt для онлайн-мошенничества',
+          '🌐 Cibercrime — заявление на cibercrime.ministeriopublico.pt для онлайн-мошенничества',
           '💰 Banco de Portugal — портал для жалоб на банки и финансовые услуги',
           '📞 DECO Proteste — 213 710 000, защита прав потребителей',
           '⚖️ Provedor do Cliente — омбудсмен для жалоб на банки и страховые компании',
@@ -139,11 +139,11 @@ export default {
   ],
   sources: [
     { title: 'PSP — Polícia de Segurança Pública', url: 'https://www.psp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Cibercrime MJ — портал для заявлений', url: 'https://cibercrime.mj.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Cibercrime — Gabinete de Cibercrime (Ministério Público)', url: 'https://cibercrime.ministeriopublico.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Banco de Portugal — права потребителя финансовых услуг', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DECO Proteste — права потребителя', url: 'https://www.deco.proteste.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMI — Associação dos Mediadores Imobiliários', url: 'https://www.ami.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

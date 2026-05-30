@@ -3,7 +3,7 @@ export default {
   id: 'atl-actividades-tempos-livres',
   categoryId: 'education_children',
   title: 'ATL и CAF: продлёнка для школьников 6–10 лет в Португалии',
-  tldr: 'Для 1.º ciclo, 1–4 классы, после уроков обычно есть бесплатные AEC и платная/льготная CAF/ATL: присмотр утром, обед, конец дня и каникулы. Запись часто открывается вместе с matrícula/renovação на portal-matriculas.gov.pt весной-летом 2026, но правила и цены задаёт município или IPSS. Семьи с escalão A/B da Ação Social Escolar обычно платят меньше или 0 €; социальные случаи и дети с особыми потребностями имеют приоритет.',
+  tldr: 'Для 1.º ciclo, 1–4 классы, после уроков обычно есть бесплатные AEC и платная/льготная CAF/ATL: присмотр утром, обед, конец дня и каникулы. Запись часто открывается вместе с matrícula/renovação на https://www.portaldasmatriculas.edu.gov.pt/ весной-летом 2026, но правила и цены задаёт município или IPSS. Семьи с escalão A/B da Ação Social Escolar обычно платят меньше или 0 €; социальные случаи и дети с особыми потребностями имеют приоритет.',
   tags: ['atl', 'caf', 'школа', 'обед', 'ase'],
   estimatedReadMinutes: 5,
   steps: [
@@ -90,7 +90,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Точные даты matrícula и renovação ежегодно публикуют Ministério da Educação и Portal das Matrículas. На практике для 1.º ciclo запись и обновление идут весной-летом; муниципальные заявки на обеды, транспорт и CAF/ATL часто открываются сразу после школьной matrícula или в июне-июле.' },
         { kind: 'checklist', items: [
-          'Апрель–май: проверьте сроки matrícula/renovação на portal-matriculas.gov.pt и сайт вашего agrupamento.',
+          'Апрель–май: проверьте сроки matrícula/renovação на https://www.portaldasmatriculas.edu.gov.pt/ и сайт вашего agrupamento.',
           'Май–июнь: подайте matrícula или renovação; сохраните comprovativo.',
           'Июнь–июль: откройте сайт Câmara Municipal и подайте заявки на refeições, transportes, CAF/ATL.',
           'Июль–август: подпишите договор с IPSS/associação, если продлёнка не муниципальная.',
@@ -132,6 +132,6 @@ export default {
     { title: 'Portal do Governo — Portal das Matrículas и serviços da educação', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Matrículas — matrícula e renovação online', url: 'https://portaldasmatriculas.edu.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

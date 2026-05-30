@@ -3,7 +3,7 @@ export default {
   id: 'sintra-quintas-historicas',
   categoryId: 'travel_portugal',
   title: 'Sintra in depth: Palácio da Pena, Monserrate and Quinta da Regaleira',
-  tldr: 'Sintra is not “one palace in half a day”, but a dense cultural route for 1–2 days. As of April 2026, guide prices are: Palácio da Pena — €14 and only with a pre-selected online time slot; Quinta da Regaleira — €11; Monserrate — €8 and usually less crowded; Castelo dos Mouros — €8; Palácio Nacional de Sintra — €10. If you want several Parques de Sintra sites, check the unified ticket at around €40. It is better not to take a car into the historic centre: CP train + buses 434/435 are simpler.',
+  tldr: 'Sintra is not “one palace in half a day”, but a dense cultural route for 1–2 days. As of May 2026, guide prices are: Palácio da Pena — €20 and only with a pre-selected online time slot; Quinta da Regaleira — €11; Monserrate — €12 and usually less crowded; Castelo dos Mouros — €12; Palácio Nacional de Sintra — €10. Parques de Sintra does not sell a fixed combined ticket: buying several monuments in one purchase gives a scaling discount (up to about 10% for 6 sites). Check current prices at parquesdesintra.pt. It is better not to take a car into the historic centre: CP train + buses 434/435 are simpler.',
   tags: ['sintra', 'pena', 'regaleira', 'monserrate', 'trips'],
   estimatedReadMinutes: 6,
   steps: [
@@ -28,7 +28,7 @@ export default {
       id: 'pena',
       title: 'Palácio da Pena: ticket, slot and real logistics',
       content: [
-        { kind: 'paragraph', text: 'Palácio da Pena is Sintra’s main magnet and the most logistically complicated site. The €14 ticket is usually tied to the time of entry to the palace itself, not just to the park. If you miss your slot, staff may not let you into the interiors; the park will remain accessible according to the rules of the specific ticket, but this does not replace visiting the palace.' },
+        { kind: 'paragraph', text: 'Palácio da Pena is Sintra’s main magnet and the most logistically complicated site. The €20 ticket is usually tied to the time of entry to the palace itself, not just to the park. If you miss your slot, staff may not let you into the interiors; the park will remain accessible according to the rules of the specific ticket, but this does not replace visiting the palace.' },
         { kind: 'checklist', items: [
           'Buy your ticket on parquesdesintra.pt, not from random resellers.',
           'Choose a morning slot at 09:30–10:30 or a late one after 15:30 if you want fewer groups.',
@@ -64,7 +64,7 @@ export default {
       id: 'monserrate',
       title: 'Monserrate: Sintra’s most underrated palace',
       content: [
-        { kind: 'paragraph', text: 'Parque e Palácio de Monserrate is the best site for those who have already seen Pena or want Sintra without the feeling of a tourist conveyor belt. The ticket is around €8. There are fewer crowds here, more space and one of the region’s best botanical gardens: a Mexican garden, rose garden, waterfalls, exotic trees and views of the hills.' },
+        { kind: 'paragraph', text: 'Parque e Palácio de Monserrate is the best site for those who have already seen Pena or want Sintra without the feeling of a tourist conveyor belt. The ticket is around €12. There are fewer crowds here, more space and one of the region’s best botanical gardens: a Mexican garden, rose garden, waterfalls, exotic trees and views of the hills.' },
         { kind: 'checklist', items: [
           'Allow 1.5–2 hours, but garden lovers will easily spend 3 hours.',
           'Monserrate works well on a second day in Sintra or after Regaleira.',
@@ -81,7 +81,7 @@ export default {
       id: 'mouros-sintra-palace',
       title: 'Castelo dos Mouros and Palácio Nacional de Sintra',
       content: [
-        { kind: 'paragraph', text: 'Castelo dos Mouros is the fortress walls above Sintra, with a ticket at around €8. It is not a palace, but a route along the walls with views of Pena, the town and the ocean in good weather. The site is physically active: stairs, stones, wind. It is best combined with Pena, because they are on the same mountain line.' },
+        { kind: 'paragraph', text: 'Castelo dos Mouros is the fortress walls above Sintra, with a ticket at around €12. It is not a palace, but a route along the walls with views of Pena, the town and the ocean in good weather. The site is physically active: stairs, stones, wind. It is best combined with Pena, because they are on the same mountain line.' },
         { kind: 'paragraph', text: 'Palácio Nacional de Sintra is the white palace with two conical chimneys in the historic centre, with a ticket at around €10. It is the most convenient site logistically: cafés, shops, travesseiros and queijadas are nearby. Inside, the key rooms are Sala dos Cisnes, Sala das Pegas, Sala dos Brasões and the kitchen with giant chimneys.' },
         { kind: 'checklist', items: [
           'Choose Castelo dos Mouros in clear weather: in fog, its scenic value drops sharply.',
@@ -99,7 +99,7 @@ export default {
       id: 'tickets-routes',
       title: 'Tickets, unified ticket and ready-made routes',
       content: [
-        { kind: 'paragraph', text: 'Parques de Sintra has online sales and combined options. For a set of sites such as Pena, Monserrate, Castelo dos Mouros and Palácio Nacional de Sintra, check the unified ticket at around €40: it can be good value if you are definitely going to visit several sites within a short period. But do not buy a combo “out of greed”: Sintra punishes an overloaded schedule.' },
+        { kind: 'paragraph', text: 'Parques de Sintra has online sales, but there is no fixed combined ticket. Instead, buying several monuments in one purchase gives a scaling discount: 5% for 2 sites, 6% for 3, 7% for 4, 8% for 5 and up to 10% for 6. For example, Pena (€20) + Monserrate (€12) + Castelo dos Mouros (€12) bought separately are €44, while in one purchase with the 6% discount they come to about €41. The saving is small, so do not buy extra sites “out of greed”: Sintra punishes an overloaded schedule.' },
         { kind: 'substeps', items: [
           { id: 'one-day-classic', title: '1 day: the classic first visit', content: [
             { kind: 'checklist', items: [
@@ -127,12 +127,12 @@ export default {
     }
   ],
   costs: [
-    { label: 'Palácio da Pena', amountEUR: 14, note: 'Guide price for an adult ticket; book online with a time slot.' },
+    { label: 'Palácio da Pena', amountEUR: 20, note: 'Guide price for an adult ticket; book online with a time slot.' },
     { label: 'Quinta da Regaleira', amountEUR: 11, note: 'Guide price for an adult ticket to the estate and gardens.' },
-    { label: 'Parque e Palácio de Monserrate', amountEUR: 8, note: 'Usually fewer queues than at Pena and Regaleira.' },
-    { label: 'Castelo dos Mouros', amountEUR: 8, note: 'Scenic route along the walls; depends on the weather.' },
+    { label: 'Parque e Palácio de Monserrate', amountEUR: 12, note: 'Usually fewer queues than at Pena and Regaleira.' },
+    { label: 'Castelo dos Mouros', amountEUR: 12, note: 'Scenic route along the walls; depends on the weather.' },
     { label: 'Palácio Nacional de Sintra', amountEUR: 10, note: 'Conveniently located in Sintra’s historic centre.' },
-    { label: 'Unified ticket Parques de Sintra', amountEUR: 40, note: 'Check the current conditions and included sites before buying.' }
+    { label: 'Pena + Monserrate + Castelo dos Mouros in one purchase', amountEUR: 41, note: 'No fixed combo: scaling discount up to 10% for 6 sites; here ~6% off €44.' }
   ],
   sources: [
     { title: 'Official tickets and information from Parques de Sintra', url: 'https://www.parquesdesintra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -140,6 +140,6 @@ export default {
     { title: 'Official Parque e Palácio de Monserrate page', url: 'https://www.parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-de-monserrate/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Official Quinta da Regaleira information', url: 'https://www.regaleira.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

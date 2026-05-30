@@ -12,7 +12,7 @@ export default {
       title: 'What SIBA is and who must file',
       content: [
         { kind: 'paragraph', text: 'SIBA is the Sistema de Informação de Boletins de Alojamento. It is the electronic submission of a boletim de alojamento: a notification to the state that a foreign national has stayed with you in paid accommodation.' },
-        { kind: 'paragraph', text: 'After SEF was closed, functions moved to AIMA and other bodies, but the old portal name siba.sef.pt still appears in instructions and among hosts. For the user, the practical meaning has not changed: a paid host must submit the foreign guest’s details.' },
+        { kind: 'paragraph', text: 'After SEF was closed, functions moved to AIMA and other bodies, but the old portal name siba.ssi.gov.pt still appears in instructions and among hosts. For the user, the practical meaning has not changed: a paid host must submit the foreign guest’s details.' },
         { kind: 'checklist', items: [
           'Must file: hotéis, hostels, guest houses, alojamento local (AL), Airbnb, Booking, Expedia and direct bookings',
           'Must file: owners of rooms and flats, if the accommodation is paid',
@@ -127,7 +127,7 @@ export default {
   ],
   sources: [
     { title: 'Lei 23/2007 — regime for entry, stay and departure of foreigners, arts. 15–16 and sanctions', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'SIBA — boletins de alojamento portal', url: 'https://siba.sef.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'SIBA — boletins de alojamento portal', url: 'https://siba.ssi.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'GuestReady: SIBA guest registration in Portugal', url: 'https://www.guestready.com/blog/siba-guest-registration-sef-aima-portugal/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-17',

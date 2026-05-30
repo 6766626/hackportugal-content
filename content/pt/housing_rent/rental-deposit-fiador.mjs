@@ -147,7 +147,7 @@ export default {
     },
     {
       title: 'ePortugal — arrendar casa em Portugal',
-      url: 'https://eportugal.gov.pt/cidadaos/arrendar-casa',
+      url: 'https://www.gov.pt/cidadaos/arrendar-casa',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

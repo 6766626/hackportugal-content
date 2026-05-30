@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'As plataformas não aceitam uma “ideia de restaurante”, mas sim um operador económico em funcionamento. Antes da candidatura, devem coincidir o NIF/NIPC, nome, IBAN, CAE e morada do ponto onde a comida é realmente preparada. Se a cozinha funcionar a partir de uma habitação ou de uma “dark kitchen” sem atividade correta, há risco de bloqueio da conta e de fiscalização da ASAE.' },
         { kind: 'checklist', items: [
-          'Atividade aberta nas Finanças: normalmente CAE 56101 Restaurante tipo tradicional, 56102 Restaurante com lugares ao balcão, 56103 Restaurante sem serviço de mesa ou outro CAE adequado',
+          'Atividade aberta nas Finanças: normalmente CAE 56111 Restaurantes tipo tradicional, 56112 Restaurantes com lugares ao balcão, 56113 Restaurantes sem serviço de mesa (CAE Rev.4 ao abrigo do Decreto-Lei n.º 9/2025, em vigor desde 1 de Janeiro de 2025) ou outro CAE adequado',
           'Existe comunicação prévia / licenciamento através do Balcão do Empreendedor ou Câmara Municipal, se aplicável ao espaço',
           'NIF/NIPC e certidão permanente da empresa ou declaração de início de atividade para empresário em nome individual',
           'Conta bancária com IBAN em nome do mesmo titular que assina o contrato com a plataforma',
@@ -153,11 +153,32 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Autoridade Tributária: regras de faturação, QR Code e ATCUD',
-      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Faturacao/Paginas/certificacao-de-software.aspx',
+      title: 'gov.pt: Consultar o Programa de faturação certificado (serviço da AT para verificar a certificação do software)',
+      url: 'https://www.gov.pt/servicos/consultar-o-programa-de-faturacao-certificado',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Portal das Finanças: lista de programas de faturação certificados',
+      url: 'https://www.portaldasfinancas.gov.pt/pt/consultaProgCertificadosM24.action',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Autoridade Tributária: FAQ séries / ATCUD / QR Code (Decreto-Lei 28/2019)',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/Pages/faqs-00883.aspx',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
+    },
+    {
+      title: 'Decreto-Lei n.º 9/2025: CAE Rev.4 (nova classificação CAE em vigor desde 1 de Janeiro de 2025)',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/9-2025-905910490',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-30'
     },
     {
       title: 'Decreto-Lei 28/2019: processamento de faturas e arquivo de documentos fiscalmente relevantes',
@@ -174,6 +195,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

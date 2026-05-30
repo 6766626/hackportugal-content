@@ -52,8 +52,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Farmácia de Serviço — duty service is organised according to an escala de serviço (schedule), usually rotating between pharmacies in the area. This does not guarantee that every freguesia has a 24/7 pharmacy — check the list of duty pharmacies. The schedule is posted on the door of any Farmácia or on the website.' },
         { kind: 'checklist', items: [
-          '📍 farmacias.pt — website with a list of duty pharmacies by postcode',
-          '📞 Linha 1400 / farmaciasdeservico.net — information on duty pharmacies; 112 — emergency help only',
+          '📍 farmaciasdeservico.net — website with a list of duty pharmacies by postcode',
+          '📞 Linha 1400 / 1400safe.pt — INFARMED service for locating medicines and duty pharmacies; INFARMED (infarmed.pt) — "Localize farmácia"; 112 — emergency help only',
           '💊 After 22:00, call on the video intercom — the pharmacist dispenses through the window',
           '💰 At night there is a surcharge of about €2.50 on top'
         ]}
@@ -85,9 +85,10 @@ export default {
   ],
   sources: [
     { title: 'INFARMED — pharmacy regulator', url: 'https://www.infarmed.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Farmácias de Portugal — duty pharmacies', url: 'https://www.farmacias.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Linha 1400 / 1400safe.pt — locate medicines and duty pharmacies (INFARMED)', url: 'https://www.1400safe.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Farmácias de Serviço — duty pharmacies', url: 'https://www.farmaciasdeservico.net/', kind: 'reference', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

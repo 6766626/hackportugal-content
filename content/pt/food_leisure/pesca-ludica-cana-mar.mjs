@@ -3,7 +3,7 @@ export default {
   id: 'pesca-ludica-cana-mar',
   categoryId: 'food_leisure',
   title: 'Pesca marítima a partir da costa — licença Pesca Lúdica à linha (DGRM)',
-  tldr: 'A pesca marítima recreativa a partir da costa, de molhes ou de rochas em Portugal exige uma licença de Pesca Lúdica da DGRM. Pode fazê-la online em portal.dgrm.mm.gov.pt em 5 minutos.\n\nDurações: 3 dias (~3 €), mês (~10 €), ano (~20 €), 3 anos (~50 €)\.\n\nImprima ou guarde o código QR da licença: numa fiscalização da Polícia Marítima / GNR‑SEPNA (serviço ambiental da guarda nacional), sem ela a coima começa nos 100 €. Respeite o limite diário (10 kg + 1 peixe, ou um peixe >10 kg), os tamanhos mínimos e o defeso por espécie.',
+  tldr: 'A pesca marítima recreativa a partir da costa, de molhes ou de rochas em Portugal exige uma licença de Pesca Lúdica da DGRM. Pode fazê-la online em portal.dgrm.mm.gov.pt em 5 minutos.\n\nDurações: dia (~2 €), mês (~4 €), ano (~8 €)\.\n\nImprima ou guarde o código QR da licença: numa fiscalização da Polícia Marítima / GNR‑SEPNA (serviço ambiental da guarda nacional), sem ela a coima começa nos 100 €. Respeite o limite diário (10 kg + 1 peixe, ou um peixe >10 kg), os tamanhos mínimos e o defeso por espécie.',
   tags: ['pesca', 'pesca', 'licença', 'mar', 'dgrm'],
   estimatedReadMinutes: 6,
   steps: [
@@ -47,7 +47,7 @@ export default {
             content: [
               { kind: 'checklist', items: [
                 'Pesca à linha — a partir da costa (apeada: da costa, ponte, molhe): a escolha mais frequente',
-                'Duração: 3 dias (para viagens curtas), 1 mês, 1 ano, 3 anos',
+                'Duração: 1 dia (para viagens curtas), 1 mês, 1 ano',
                 'A licença anual compensa se pescar pelo menos algumas vezes por época',
                 'Não assinale o campo “Embarcação” — é para barco, guia separado'
               ] }
@@ -141,10 +141,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Licença Pesca Lúdica — 3 dias', amountEUR: 3, note: 'Para viagens turísticas curtas' },
-    { label: 'Licença — 1 mês', amountEUR: 10, note: 'Boa opção para umas férias ou pesca sazonal' },
-    { label: 'Licença — 1 ano', amountEUR: 20, note: 'A opção mais vantajosa se pescar 2+ vezes por época' },
-    { label: 'Licença — 3 anos', amountEUR: 50, note: 'Para quem pesca regularmente' },
+    { label: 'Licença Pesca Lúdica — 1 dia', amountEUR: 2, note: 'Para viagens turísticas curtas' },
+    { label: 'Licença — 1 mês', amountEUR: 4, note: 'Boa opção para umas férias ou pesca sazonal' },
+    { label: 'Licença — 1 ano', amountEUR: 8, note: 'A opção mais vantajosa se pescar 2+ vezes por época' },
     { label: 'Kit básico para surfcasting', amountEURMin: 60, amountEURMax: 150, note: 'Cana + carreto + linha + anzóis + isco' },
     { label: 'Coima por falta de licença', amountEURMin: 100, amountEURMax: 500, note: 'Mais apreensão das artes de pesca e da captura' }
   ],
@@ -152,9 +151,10 @@ export default {
     { title: 'DGRM — Pesca Lúdica, licenças e regras', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portal de Licenciamento DGRM — pedido online', url: 'https://portal.dgrm.mm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 246/2000 — regime da Pesca Lúdica em águas marítimas', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Portaria n.º 14/2014, de 23 de janeiro (Anexo IV) — tarifas das licenças de Pesca Lúdica', url: 'https://dre.pt/dre/detalhe/portaria/14-2014-571046', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Tamanhos mínimos por espécie — tabela da DGRM', url: 'https://www.dgrm.pt/pesca_cpt_especies', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Polícia Marítima — Autoridade Marítima Nacional', url: 'https://www.amn.pt/PM/Paginas/MissaoCompetencias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

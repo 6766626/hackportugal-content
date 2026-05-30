@@ -109,7 +109,7 @@ export default {
           'Quando terminar, clique em terminar sessão / logout em todos os serviços',
           'Apague os ficheiros descarregados de Downloads, Desktop e da reciclagem',
           'Não abra MB WAY nem aplicações bancárias no computador de outra pessoa',
-          'Verifique o endereço do site: financas.gov.pt, seg-social.pt, eportugal.gov.pt, aima.gov.pt',
+          'Verifique o endereço do site: financas.gov.pt, seg-social.pt, gov.pt, aima.gov.pt',
           'Não envie digitalizações de documentos a desconhecidos a partir de um e-mail partilhado',
           'Se imprimiu um documento com NIF, IRS ou dados bancários — leve todas as cópias, incluindo as erradas'
         ] },
@@ -147,7 +147,7 @@ export default {
     },
     {
       title: 'ePortugal — serviços públicos online',
-      url: 'https://eportugal.gov.pt',
+      url: 'https://www.gov.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'

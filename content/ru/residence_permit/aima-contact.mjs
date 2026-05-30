@@ -97,7 +97,7 @@ export default {
     { title: 'AIMA — Contactos (главная страница контактов)', url: 'https://aima.gov.pt/pt/contactos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AIMA — Locais de atendimento', url: 'https://aima.gov.pt/pt/locais-de-atendimento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AIMA Portal — личный кабинет', url: 'https://portal.aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Agendamento', url: 'https://eportugal.gov.pt/agendamento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'ePortugal — Agendamento', url: 'https://www.gov.pt/servicos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Provedor de Justiça — омбудсмен Португалии', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei n.º 41/2023 — створення AIMA / extinção SEF', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023-212371907', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],

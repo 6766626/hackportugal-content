@@ -3,7 +3,7 @@ export default {
   id: 'gyms-fitness',
   categoryId: 'daily_life',
   title: 'Fitness e desporto — ginásios, praias, actividades',
-  tldr: 'Cadeias de ginásios 2026: Fitness Hut (económico 24,99–34,99 €/mês), Holmes Place (premium 89–149 €/mês), Phive (segmento médio 35–50 €), Onyria, Solinca, VivaGym. Actividades: surf (Ericeira, Lagos, Cascais), corrida (parques), futebol (comunidades), padel (superpopular), ioga. Há muitas actividades gratuitas ao ar livre.',
+  tldr: 'Cadeias de ginásios 2026: VivaGym (ex-Fitness Hut, económico, ~20–35 €/mês consoante o clube), Holmes Place (premium 89–149 €/mês), Phive (segmento médio 35–50 €), Onyria, Solinca. Actividades: surf (Ericeira, Lagos, Cascais), corrida (parques), futebol (comunidades), padel (superpopular), ioga. Há muitas actividades gratuitas ao ar livre.',
   tags: ['fitness', 'ginásios', 'desporto', 'surf'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,8 +12,8 @@ export default {
       title: 'Cadeias de ginásios',
       content: [
         { kind: 'substeps', items: [
-          { id: 'c1', title: 'Fitness Hut (económico)', content: [
-            { kind: 'paragraph', text: '24,99–34,99 €/mês em 2026 (Fit Lite / Fit Premium). Equipamento moderno. Alguns clubes funcionam 24/7. Dezenas de clubes em Portugal (grupo Solinca/VivaGym, parte do mesmo holding). Muitas vezes é a primeira escolha.' }
+          { id: 'c1', title: 'VivaGym (ex-Fitness Hut)', content: [
+            { kind: 'paragraph', text: 'Cadeia económica, ~20–35 €/mês consoante o clube e o plano (ONE / FLEX / PRIME). Sem fidelização mínima. Equipamento moderno, alguns clubes funcionam 24/7. Dezenas de clubes em Portugal (grupo Solinca/VivaGym). No final de 2024 e início de 2025, o grupo espanhol VivaGym mudou a marca dos clubes Fitness Hut portugueses para VivaGym; o site fitnesshut.pt redireciona agora para vivagym.pt. Muitas vezes é a primeira escolha.' }
           ]},
           { id: 'c2', title: 'Holmes Place (premium)', content: [
             { kind: 'paragraph', text: '89–149 €/mês em 2026, consoante o plano/clube. Piscinas, saunas, treinos personalizados, aulas de grupo. Presente nas grandes cidades. Adequado para clientes empresariais.' }
@@ -23,9 +23,6 @@ export default {
           ]},
           { id: 'c4', title: 'Solinca', content: [
             { kind: 'paragraph', text: '40–60 €/mês. Mais próximo do segmento premium; os clubes da cadeia encontram-se frequentemente junto de hotéis.' }
-          ]},
-          { id: 'c5', title: 'VivaGym', content: [
-            { kind: 'paragraph', text: '19–25 €/mês. Cadeia espanhola em crescimento em Portugal.' }
           ]},
           { id: 'c6', title: 'Anytime Fitness', content: [
             { kind: 'paragraph', text: '35–50 €/mês. Acesso 24/7 por cartão.' }
@@ -101,9 +98,9 @@ export default {
   ],
   sources: [
     { title: 'IPDJ — Instituto Português do Desporto e Juventude', url: 'https://www.ipdj.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Reserva Mundial de Surf da Ericeira', url: 'https://www.ericeirasurfreserve.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Reserva Mundial de Surf da Ericeira (Save The Waves Coalition)', url: 'https://www.savethewaves.org/ericeira/', kind: 'official', language: 'en', lastRetrieved: '2026-05-30' },
     { title: 'Federação Portuguesa de Surf — FPS', url: 'https://www.surfingportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

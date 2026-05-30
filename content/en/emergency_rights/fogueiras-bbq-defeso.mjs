@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Período crítico is the official period of increased fire risk. It is announced annually by ICNF (Portugal’s Institute for Nature Conservation and Forests) and MAI. It usually lasts from 1 July to 30 September, but in dry years it may be extended until 15 October.' },
         { kind: 'checklist', items: [
-          'Law: Decreto-Lei 124/2006 (National Forest Fire Defence System)',
+          'Law: Decreto-Lei 82/2021 (SGIFR — Integrated Rural Fire Management System)',
           'Additional restrictions on red/orange risk level days (estado de alerta especial nível vermelho/laranja) — IPMA (weather service) + ICNF',
           'Daily updates on the ICNF website and in the IPMA app — usually by 09:00',
           'Each municipality (Câmara Municipal) may impose additional restrictions in its territory'
@@ -100,7 +100,7 @@ export default {
           'Queimada (controlled burning of a field): requires a licence and the presence of a firefighting team',
           'During the período crítico — almost always prohibited, except for emergency fire prevention operations',
           'Special programmes operate within the Sistema de Gestão Integrada de Fogos Rurais',
-          'Application: online via autoriza.pt or at the Junta de Freguesia (parish/local council)',
+          'Application: online via the ICNF “Queimas e Queimadas” platform (fogos.icnf.pt/queimasqueimadas) or through the Câmara Municipal / Junta de Freguesia (municipality/parish council)',
           'Licence issued within 24-48 hours, depending on complexity',
           'Cost: €0-€30 (often free for small volumes)',
           'For controlled burning, volunteer firefighters (bombeiros voluntários) must be present on site'
@@ -136,11 +136,11 @@ export default {
   ],
   sources: [
     { title: 'ICNF — Forest Fire Defence', url: 'https://www.icnf.pt/florestas/dfci', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 124/2006 (consolidated) — DFCI', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2006-34540575', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'autoriza.pt — burning licences online', url: 'https://autoriza.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 82/2021 (SGIFR) — Integrated Rural Fire Management System', url: 'https://dre.pt/dre/detalhe/decreto-lei/82-2021-172938081', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'ICNF — Queimas e Queimadas platform (PQQ)', url: 'https://fogos.icnf.pt/queimasqueimadas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'IPMA — weather alert and fire risk', url: 'https://www.ipma.pt/pt/riscoincendio/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR — National Forest Defence System', url: 'https://www.gnr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

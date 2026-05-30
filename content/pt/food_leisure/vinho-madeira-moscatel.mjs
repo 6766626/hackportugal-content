@@ -112,10 +112,10 @@ export default {
     { label: 'Moscatel de Setúbal 10 years', amountEURMin: 18, amountEURMax: 35, note: 'Bom equilíbrio entre preço e qualidade; Moscatel Roxo é normalmente mais caro.' }
   ],
   sources: [
-    { title: 'IVBAM: Vinho da Madeira — instituto oficial da Madeira', url: 'https://www.ivbam.gov.madeira.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'IVBAM: Vinho da Madeira — instituto oficial da Madeira', url: 'https://ivbam.madeira.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IVV: Instituto da Vinha e do Vinho — vinhos de Portugal e DOP/IGP', url: 'https://www.ivv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Comissão Vitivinícola Regional da Península de Setúbal — Moscatel de Setúbal', url: 'https://www.cvregionpsetubal.com', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Comissão Vitivinícola Regional da Península de Setúbal — Moscatel de Setúbal', url: 'https://vinhosdesetubal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

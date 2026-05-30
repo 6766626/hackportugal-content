@@ -21,7 +21,7 @@ export default {
       title: 'Where to go on a Sunday morning',
       content: [
         { kind: 'paragraph', text: 'A practical setup for an expat: choose 1–2 nearby places, arrive at opening time, show your resident document at the ticket desk and do not count on free entry after lunch. Below are popular spots where, in 2026, it makes sense to check the free window or resident rate first.' },
-        { kind: 'checklist', items: ['Calouste Gulbenkian Museum — check the Gulbenkian page: the foundation separately publishes the days/times for free entry and the conditions for residents', 'MAAT — Fundação EDP may have free periods/days and concessions; conditions differ for MAAT Gallery, MAAT Central and combined tickets', 'MNAA — Museu Nacional de Arte Antiga is part of the national museums; residents of Portugal usually have access to a free-entry regime on set days/within set limits', 'Museu Arqueológico do Carmo — check “domingo/feriado” hours and applicability to residentes; queues are longer in summer', 'Padrão dos Descobrimentos — an EGEAC/CML site; residents usually have a free morning window on Sundays and public holidays', 'CML/EGEAC municipal museums — Museu de Lisboa, Museu do Fado, Museu do Aljube, Atelier-Museu Júlio Pomar often follow a similar free Sunday-morning logic'] },
+        { kind: 'checklist', items: ['Calouste Gulbenkian Museum — check the Gulbenkian page: the foundation separately publishes the days/times for free entry and the conditions for residents', 'MAAT — Fundação EDP may have free periods/days and concessions; conditions differ for MAAT Gallery, MAAT Central and combined tickets', 'MNAA — Museu Nacional de Arte Antiga is closed to the public since 29 September 2025 for PRR renovation works and is only expected to reopen in the second half of 2026 (works deadline 30 June 2026); do not plan a free-Sunday visit there until the reopening is confirmed. When it reopens, residents of Portugal usually have access to a free-entry regime on set days/within set limits', 'Museu Arqueológico do Carmo — check “domingo/feriado” hours and applicability to residentes; queues are longer in summer', 'Padrão dos Descobrimentos — an EGEAC/CML site; residents usually have a free morning window on Sundays and public holidays', 'CML/EGEAC municipal museums — Museu de Lisboa, Museu do Fado, Museu do Aljube, Atelier-Museu Júlio Pomar often follow a similar free Sunday-morning logic'] },
         { kind: 'warning', text: 'Carmo, MAAT and Gulbenkian are not ordinary CML municipal museums. Do not automatically apply the Padrão dos Descobrimentos rule to them — check the specific tickets page.' }
       ]
     },
@@ -79,8 +79,8 @@ export default {
     { title: 'Câmara Municipal de Lisboa — culture, municipal museums and Lisboa Cultura programmes', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Calouste Gulbenkian — tickets, museum and free-entry conditions', url: 'https://www.gulbenkian.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EGEAC / Lisboa Cultura — municipal venues, monuments and tickets', url: 'https://egeac.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Museu Nacional de Arte Antiga — tickets and visiting regime', url: 'https://www.museudearteantiga.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Museus e Monumentos de Portugal — MNAA closure notice, tickets and visiting regime', url: 'https://www.museusemonumentos.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

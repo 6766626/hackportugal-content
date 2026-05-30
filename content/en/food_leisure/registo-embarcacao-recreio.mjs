@@ -134,7 +134,7 @@ export default {
       id: 'insurance',
       title: 'Insurance — mandatory',
       content: [
-        { kind: 'paragraph', text: 'Since 2018, civil liability insurance (responsabilidade civil) has been mandatory for all registered boats (Lei 4/2018).' },
+        { kind: 'paragraph', text: 'Civil liability insurance (responsabilidade civil) is mandatory for recreational boats (Decreto-Lei 93/2018, art. 33.º), with a minimum insured capital of €250,000. Only rowing boats/canoes and small beach craft sailing less than 300 m from shore are exempt.' },
         { kind: 'checklist', items: [
           'Minimum: civil liability ~€150–300 per year',
           'Comprehensive (corpo + civil): 0.5–1.5% of the boat’s value per year',
@@ -165,7 +165,7 @@ export default {
         { kind: 'checklist', items: [
           'Boat without registration: €250–2,500 + possible confiscation',
           'Without an operating licence: €100–500',
-          'Without insurance: €250–2,500 (as for a car)',
+          'Without insurance: €300–3,000 for individuals (€600–12,000 for legal entities), under art. 54.º of DL 93/2018',
           'Missing mandatory equipment: €100–1,000 (for each missing item)',
           'Exceeding the navigation class (a Local boat in a Largo area): €250–1,500',
           'Using a boat without the required skipper’s certificate: €500–2,500'
@@ -186,9 +186,9 @@ export default {
     { title: 'AMN — Autoridade Marítima Nacional', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'DGAM — Direção-Geral da Autoridade Marítima', url: 'https://www.amn.pt/DGAM/Paginas/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Capitanias — find the nearest port', url: 'https://www.amn.pt/DGAM/Capitanias/Paginas/Capitanias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 124/2004 — recreational boats', url: 'https://dre.pt/dre/detalhe/decreto-lei/124-2004-220127', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Lei 4/2018 — mandatory boat insurance', url: 'https://dre.pt/dre/detalhe/lei/4-2018-114655100', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'Decreto-Lei 93/2018 — Regime Jurídico da Náutica de Recreio', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-116950304', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'Decreto-Lei 93/2018, art. 33.º — mandatory boat insurance', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-116950304', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

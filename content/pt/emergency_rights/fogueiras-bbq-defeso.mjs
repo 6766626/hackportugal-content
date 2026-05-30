@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Período crítico é o período oficial de maior perigo de incêndio. É declarado anualmente pelo ICNF (Instituto da Conservação da Natureza e das Florestas de Portugal) e pelo MAI. Normalmente decorre de 1 de julho a 30 de setembro, mas em anos de seca pode ser prolongado até 15 de outubro.' },
         { kind: 'checklist', items: [
-          'Lei: Decreto-Lei 124/2006 (Sistema Nacional de Defesa da Floresta contra Incêndios)',
+          'Lei: Decreto-Lei 82/2021 (SGIFR — Sistema de Gestão Integrada de Fogos Rurais)',
           'Restrições adicionais em dias de nível de perigo vermelho/laranja (estado de alerta especial nível vermelho/laranja) — IPMA (serviço meteorológico) + ICNF',
           'Atualizações diárias no site do ICNF e na aplicação do IPMA — normalmente até às 9:00',
           'Cada município (Câmara Municipal) pode introduzir restrições adicionais no seu território'
@@ -100,7 +100,7 @@ export default {
           'Queimada (fogo controlado num campo): exige licença e a presença de uma equipa de bombeiros',
           'No período crítico — quase sempre proibida, exceto em operações de emergência para prevenção de incêndios',
           'No âmbito do Sistema de Gestão Integrada de Fogos Rurais existem programas especiais',
-          'Pedido: online através de autoriza.pt ou na Junta de Freguesia (freguesia/conselho local)',
+          'Pedido: online através da plataforma do ICNF «Queimas e Queimadas» (fogos.icnf.pt/queimasqueimadas) ou na Câmara Municipal / Junta de Freguesia',
           'A licença é emitida em 24-48 horas, dependendo da complexidade',
           'Custo: 0-30 € (frequentemente gratuita para pequenos volumes)',
           'Numa queimada controlada, devem estar presentes no local bombeiros voluntários'
@@ -136,11 +136,11 @@ export default {
   ],
   sources: [
     { title: 'ICNF — Defesa da Floresta contra Incêndios', url: 'https://www.icnf.pt/florestas/dfci', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 124/2006 (consolidado) — DFCI', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2006-34540575', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'autoriza.pt — licenças de queima online', url: 'https://autoriza.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 82/2021 (SGIFR) — Sistema de Gestão Integrada de Fogos Rurais', url: 'https://dre.pt/dre/detalhe/decreto-lei/82-2021-172938081', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
+    { title: 'ICNF — Plataforma Queimas e Queimadas (PQQ)', url: 'https://fogos.icnf.pt/queimasqueimadas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'IPMA — alerta meteorológico e risco de incêndio', url: 'https://www.ipma.pt/pt/riscoincendio/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR — Sistema Nacional de Defesa da Floresta', url: 'https://www.gnr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 180
 }

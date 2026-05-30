@@ -3,7 +3,7 @@ export default {
   id: 'eni-vs-sociedade-unipessoal',
   categoryId: 'work_business',
   title: 'ENI vs Sociedade Unipessoal: escolher a forma de trabalho independente',
-  tldr: 'ENI — arranque rápido como trabalhador independente/Empresário em Nome Individual: abrir atividade nas Finanças é gratuito, pode beneficiar da isenção de IVA até 15 000 €/ano ao abrigo do art. 53 CIVA, mas a responsabilidade recai sobre o património pessoal. Sociedade Unipessoal por Quotas — uma empresa separada com NIPC e responsabilidade limitada, mas mais cara: Empresa na Hora 360 €, contabilista normalmente 100–250 €/mês, IRC 20% e IVA desde o primeiro euro. O limite de 12 500 €/ano em 2026 já está desatualizado.',
+  tldr: 'ENI — arranque rápido como trabalhador independente/Empresário em Nome Individual: abrir atividade nas Finanças é gratuito, pode beneficiar da isenção de IVA até 15 000 €/ano ao abrigo do art. 53 CIVA, mas a responsabilidade recai sobre o património pessoal. Sociedade Unipessoal por Quotas — uma empresa separada com NIPC e responsabilidade limitada, mas mais cara: Empresa na Hora 360 €, contabilista normalmente 100–250 €/mês, IRC 19% e IVA desde o primeiro euro. O limite de 12 500 €/ano em 2026 já está desatualizado.',
   tags: ['eni', 'lda', 'iva', 'negócio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -53,7 +53,7 @@ export default {
           'É necessário um Contabilista Certificado; o mercado típico para uma pequena empresa ronda 100–250 €/mês, mais se houver payroll, importação, e-commerce ou grande volume de documentos.',
           'A empresa é obrigada a manter contabilidade organizada.',
           'A isenção de IVA ao abrigo do art. 53 CIVA normalmente não se aplica a empresas com contabilidade organizada; na prática, uma Lda cobra IVA desde o primeiro euro, se a atividade não estiver isenta por norma especial.',
-          'O lucro é tributado em IRC: a taxa geral em Portugal continental é 20%; para PME pode aplicar-se a taxa reduzida de 16% sobre os primeiros 50 000 € de lucro tributável.',
+          'O lucro é tributado em IRC: a taxa geral em Portugal continental é 19%; para PME pode aplicar-se a taxa reduzida de 15% sobre os primeiros 50 000 € de lucro tributável.',
           'A derrama municipal pode acrescentar até 1,5%, dependendo da Câmara Municipal.',
           'O dinheiro da empresa não é o seu dinheiro pessoal: é retirado como salário de gerente, dividendos, reembolso de despesas ou outros pagamentos formalizados.'
         ] },
@@ -120,7 +120,7 @@ export default {
     },
     {
       title: 'ePortugal: Empresa na Hora e registo de empresa',
-      url: 'https://eportugal.gov.pt/servicos/criar-uma-empresa-na-hora',
+      url: 'https://www.gov.pt/servicos/criar-uma-empresa-na-hora',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 90
 }

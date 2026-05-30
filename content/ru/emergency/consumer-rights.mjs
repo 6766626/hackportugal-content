@@ -160,7 +160,7 @@ export default {
           '⚠️ Если магазин закрылся: гарантия переходит на производителя (если есть — Apple, Samsung, Bosch)',
           '🌐 Проверяйте магазин на «Livro de Reclamações» — частые жалобы = не покупайте',
           '📚 «Direitos do Consumidor» — официальный бесплатный буклет DGC',
-          '🇪🇺 EU Online Dispute Resolution: ec.europa.eu/odr — для трансграничных споров',
+          '🇪🇺 Трансграничные споры в EU: Centro Europeu do Consumidor (cec.consumidor.gov.pt) и consumer-redress.ec.europa.eu — платформа EU ODR (ec.europa.eu/odr) закрыта с 20 июля 2025',
           '⚖️ Годовое членство в DECO Proteste окупается одной серьёзной проблемой',
           '🛡️ Кредитка: чарджбэк через банк — крайнее средство (банк отзовёт списание)'
         ]}
@@ -181,6 +181,6 @@ export default {
     { title: 'DL 24/2014 — Contratos à distância', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Centro Europeu do Consumidor (ECC-Net Portugal)', url: 'https://cec.consumidor.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-30',
   verifyIntervalDays: 365
 }

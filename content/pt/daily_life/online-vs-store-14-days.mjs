@@ -99,7 +99,7 @@ export default {
     { title: 'Decreto-Lei n.º 24/2014 — contratos à distância', url: 'https://dre.pt/dre/detalhe/decreto-lei/24-2014', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Diretiva UE 2011/83 — direitos dos consumidores', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0083', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Livro de Reclamações — portal oficial', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — compras online e devoluções', url: 'https://eportugal.gov.pt/cidadaos/-/informacoes/direitos-do-consumidor', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — compras online e devoluções', url: 'https://www.gov.pt/cidadaos/-/informacoes/direitos-do-consumidor', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-17',
   verifyIntervalDays: 365
