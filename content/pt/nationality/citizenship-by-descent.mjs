@@ -65,11 +65,11 @@ export default {
     },
     {
       id: 'sefardi',
-      title: 'Judeus sefarditas — regime sob ameaça de revogação',
+      title: 'Judeus sefarditas — regime revogado',
       content: [
         { kind: 'paragraph', text: 'A via sefardita evoluiu em três fases: (1) Lei Orgânica n.º 1/2013 introduziu-a na Lei da Nacionalidade (detalhada pelo Decreto-Lei 30-A/2015); (2) Decreto-Lei n.º 26/2022 (01.09.2022) tornou o Regulamento mais exigente e passou a exigir prova de ligação a Portugal; (3) Lei Orgânica n.º 1/2024 de 5 de março de 2024 (entrou em vigor em 01.04.2024) alterou materialmente a própria lei: introduziu a obrigatoriedade de residência legal em Portugal ≥ 3 anos (consecutive ou interpolated) + avaliação por uma comissão especial junto do Ministério da Justiça (investigadores + representantes de comunidades judaicas com estatuto de religious legal entity em PT).\n\nDepois da 1/2024, a via sefardita “à distância” ficou, na prática, encerrada.' },
-        { kind: 'paragraph', text: '03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII (após passagem pelo TC, renomeado a partir de 17/XVII) — a lei revoga totalmente a via sefardita, mesmo no formato atual com residência de 3 anos. Entra em vigor no dia seguinte ao da publicação em Diário da República; publicada como Lei Orgânica n.º 1/2026, DR 18.05.2026, em vigor desde 19.05.2026. O texto da lei contém uma disposição transitória — aos processos administrativos em tramitação à data da entrada em vigor aplica-se a redação anterior da Lei 37/81 (a proposta do PS de garantias transitórias mais amplas foi rejeitada). Seguro, no discurso de 03.05.2026, também pediu publicamente que os processos já apresentados fossem apreciados segundo as regras antigas por razões de segurança jurídica.\n\nAté 19.05.2026, a via sefardita funciona tecnicamente no regime posterior à LO 1/2024 (residência ≥ 3 anos + comissão).' },
-        { kind: 'warning', text: 'Se planeia apresentar o pedido — faça-o COM URGÊNCIA, antes da publicação do Decreto 48/XVII no DRE. A apresentação fixa o processo no regime antigo (disposição transitória da lei + pedido do Presidente ao IRN).\n\nApós a publicação, a nova lei eliminará totalmente esta via para novos requerentes.' }
+        { kind: 'paragraph', text: '03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII (após passagem pelo TC, renomeado a partir de 17/XVII) — a lei revoga totalmente a via sefardita, mesmo no formato atual com residência de 3 anos. Entra em vigor no dia seguinte ao da publicação em Diário da República; publicada como Lei Orgânica n.º 1/2026, DR 18.05.2026, em vigor desde 19.05.2026. O texto da lei contém uma disposição transitória — aos processos administrativos em tramitação à data da entrada em vigor aplica-se a redação anterior da Lei 37/81 (a proposta do PS de garantias transitórias mais amplas foi rejeitada). Seguro, no discurso de 03.05.2026, também pediu publicamente que os processos já apresentados fossem apreciados segundo as regras antigas por razões de segurança jurídica.\n\nDesde 19.05.2026, a via sefardita está encerrada para novos requerentes. Os processos apresentados ANTES dessa data são apreciados segundo o regime anterior (posterior à LO 1/2024 — residência ≥ 3 anos + comissão).' },
+        { kind: 'warning', text: 'O prazo terminou: a via sefardita já não está disponível para novos requerentes. Ao abrigo da disposição transitória (art. 7.º da LO 1/2026), o regime anterior só se mantém para os processos que já estavam pendentes em 19.05.2026. Se apresentou o pedido ANTES dessa data — verifique o estado do processo; caso contrário, a via sefardita já não está aberta para si.' }
       ]
     }
   ],
@@ -90,6 +90,6 @@ export default {
     { title: 'Arquivo Nacional Torre do Tombo', url: 'https://antt.dglab.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

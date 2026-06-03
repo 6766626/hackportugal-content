@@ -3,7 +3,7 @@ export default {
   id: 'aima-online-2026',
   categoryId: 'residence_permit',
   title: 'Renewing a residence permit via the AIMA online portal',
-  tldr: 'From 1 January 2026, residence permit renewals are handled via portal-renovacoes.aima.gov.pt. No appointment is needed if all documents are in order. Submission is possible 30 days before the card expires, but ideally — 60–90 days before. The residence permit card arrives by post; while you wait, legal status is confirmed by the comprovativo de submissão. Decreto-Lei 41/2023 introduced the rule: if AIMA misses the deadline and does not close the process on time, your stay does NOT become illegal — the comprovativo replaces the residence permit until the new card is issued.',
+  tldr: 'From 1 January 2026, residence permit renewals are handled via portal-renovacoes.aima.gov.pt. No appointment is needed if all documents are in order. Submission is possible 30 days before the card expires, but ideally — 60–90 days before. The residence permit card arrives by post; while you wait, legal status is confirmed by the comprovativo de submissão. Under art. 78 of Lei 23/2007 (and AIMA guidance from 2025) this comprovativo serves as a temporary residence title and is renewed until the final decision and card issuance, so if you applied on time your stay does not become illegal because of an AIMA delay.',
   tags: ['aima', 'residence permit', 'renewal', 'online'],
   estimatedReadMinutes: 8,
   recentlyChangedAt: '2026-01-01',
@@ -32,7 +32,7 @@ export default {
           '✅ Recommendation: 60–90 days before expiry (less stress, more time to correct errors)',
           '⚠️ Less than 30 days before — the portal may accept it, but there is no guarantee it will be processed before expiry',
           '⏰ If the residence permit has already expired: apply immediately. Formally, the fine is €75–€300 (art. 192 Lei 23/2007), but in 2025–2026 it is practically not applied for online renewals',
-          '🛡️ Decreto-Lei 41/2023: if AIMA has not processed your request on time — you remain in legal status on the basis of the comprovativo'
+          '🛡️ If AIMA has not processed your request on time — you remain in legal status on the basis of the comprovativo (art. 78 Lei 23/2007 + AIMA guidance)'
         ]},
         { kind: 'warning', text: 'All residence permits with an expiry date before 30.06.2025 must be renewed by 15 April 2026. After this date, the status is considered invalid; restoration is through a complex procedure with a lawyer.' }
       ]
@@ -89,7 +89,7 @@ export default {
             { kind: 'warning', text: 'Comprovativo de submissão is NOT a replacement for the residence permit card for travel and NOT a guaranteed travel document. Airlines and border officers of other Schengen countries are not obliged to accept it instead of a valid residence permit card. If the old card has expired and the new one has not yet arrived — there is a risk of denied boarding/entry. Before travelling, it is better to consult the Portuguese consulate in the transit country.' }
           ]},
           { id: 's7', title: '7. Wait for the decision', content: [
-            { kind: 'timeline', text: 'Standard — 30–90 days. Legal maximum — up to 120 days. Lei 61/2025 (in force 23.10.2025) established a general AIMA decision deadline of 9 months for complex cases. The EU Single Permit Directive requires Portugal to process single permit applications within 90 days from 22.05.2026. Notification arrives by email + in the personal account. Statuses: “Em análise”, “Notificado para entrevista”, “Aprovado”, “Indeferido”.' }
+            { kind: 'timeline', text: 'Standard — 30–90 days. Legal maximum — up to 120 days. Lei 61/2025 (in force 23.10.2025) established a general AIMA decision deadline of 9 months for residence permit applications (extendable only in exceptional cases). The EU Single Permit Directive (Directive (EU) 2024/1233) sets a 90-day decision period (+30 days in particularly complex cases); its transposition deadline was 21.05.2026 and it applies from 22.05.2026, but as of that date Portugal had not yet transposed it, so check the exact deadlines and how they apply to specific applications against current official sources. Notification arrives by email + in the personal account. Statuses: “Em análise”, “Notificado para entrevista”, “Aprovado”, “Indeferido”.' }
           ]},
           { id: 's7a', title: '7a. Comprovativo de Deferimento — confirmation of a positive decision', content: [
             { kind: 'paragraph', text: 'As soon as the process is approved, a “Comprovativo de Deferimento” button appears in the personal account — a PDF with a QR code to verify authenticity. This is a document confirming AIMA’s POSITIVE decision until the physical card arrives.' },
@@ -151,7 +151,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The standard deadline is 30–90 days. If 90 days have passed without a response — it is time to be proactive. Legal maximum — 120 days; after that AIMA is breaching the procedural deadline.' },
         { kind: 'checklist', items: [
-          '🛡️ You remain in legal status — Decreto-Lei 41/2023 directly protects you while you have the comprovativo',
+          '🛡️ You remain in legal status while you hold a valid comprovativo — it serves as a temporary title and is renewed until the decision (art. 78 Lei 23/2007 + AIMA guidance)',
           '📧 90+ days — email the AIMA regional delegation (see the guide “How to contact AIMA”) with the processo number and submission date',
           '🏛️ 120+ days — complaint to Provedor de Justiça at provedor-jus.pt (it really can speed things up; AIMA is obliged to answer the ombudsman)',
           '⚖️ 180+ days — discuss an administrative claim against AIMA’s inaction with an advogado. The type of procedure depends on the case (for example, intimação para a prática de ato devido); the court may oblige AIMA to act, but the specific deadline and outcome are not guaranteed. Intimação para prestação de informações is suitable only when you need to obtain information/copies of documents, and NOT to force AIMA to make a decision on a residence permit',
@@ -229,10 +229,10 @@ export default {
   sources: [
     { title: 'AIMA — Portal de Renovações', url: 'https://portal-renovacoes.aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — official website', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Decreto-Lei 41/2023 — protection of status in case of AIMA delay', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 23/2007 — entry and stay regime', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei 41/2023 — creation of AIMA (successor to SEF/ACM)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Lei 23/2007 — entry and stay regime (art. 78 — renewal and validity of the comprovativo)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'ePortugal — Renew Residence Permit', url: 'https://www.gov.pt/servicos/renovar-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60
 }

@@ -8,7 +8,7 @@ export default {
   tags: ['cplp', 'residence permit', 'brazil', 'mobility'],
   estimatedReadMinutes: 8,
   recentlyChangedAt: '2025-10-23',
-  changeSummary: 'Decreto-Lei 37-A/2024 ended the acceptance of new Manifestação de Interesse applications from June 2024; Lei 61/2025 (in force from 23.10.2025) changed/tightened the subsequent regime, including CPLP procedures — for CPLP citizens except Brazilians, a visa before entry is now mandatory. The new nationality law (Decreto AR 48/XVII, promulgated by President António José Seguro on 03.05.2026; will enter into force after publication in the DRE) will increase the qualifying period for citizenship from 5 to 7 years for all CPLP citizens.',
+  changeSummary: 'Decreto-Lei 37-A/2024 ended the acceptance of new Manifestação de Interesse applications from June 2024; Lei 61/2025 (in force from 23.10.2025) changed/tightened the subsequent regime, including CPLP procedures — for CPLP citizens except Brazilians, a visa before entry is now mandatory. The new nationality law was published as Lei Orgânica 1/2026 (18.05.2026) and is in force since 19.05.2026: the qualifying period for naturalisation for all CPLP citizens increased from 5 to 7 years. Under a transitional rule, applications filed before the law entered into force remain governed by the prior version (5 years).',
   variants: [
     {
       id: 'brazil',
@@ -81,7 +81,7 @@ export default {
         { kind: 'checklist', items: [
           'Validity and renewals depend on the type of document issued: early/electronic CPLP certificates may have been issued for 1 year; card-based temporary residence permits under art. 75 usually follow the scheme of 2 years initial + 3 years renewal — check the term printed on the card/AIMA decision',
           'Free access to work without a separate work permit',
-          'Under current law, naturalisation after 5 years of lawful residence. On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE, the period for CPLP will increase to 7 years',
+          'Naturalisation after 7 years of lawful residence: Lei Orgânica 1/2026, in force since 19.05.2026, increased the period for CPLP citizens from 5 to 7 years. Under a transitional rule, applications filed before the law entered into force keep the prior 5-year regime',
           'Brazilian residents may separately request the Estatuto de Igualdade de Direitos e Deveres; political rights require a separate status and usually 3 years of residence',
           'Simplified access to SNS and schools'
         ]}
@@ -118,6 +118,6 @@ export default {
     { title: 'Lei nº 61/2025 (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPLP — official portal', url: 'https://www.cplp.org/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60
 }

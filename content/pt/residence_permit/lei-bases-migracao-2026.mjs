@@ -93,7 +93,7 @@ export default {
     },
     {
       id: 'action-plan',
-      title: 'O que deve fazer o expat em abril de 2026',
+      title: 'O que deve fazer o expat em 2026',
       content: [
         { kind: 'substeps', items: [
           { id: 'audit-status', title: '1. Verifique o seu estatuto atual', content: [
@@ -130,6 +130,6 @@ export default {
     { title: 'Diário da República — Lei n.º 61/2025 de 22 de outubro (reforma migratória)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-18' },
     { title: 'AIMA — informação sobre residência, Reagrupamento Familiar e taxas', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

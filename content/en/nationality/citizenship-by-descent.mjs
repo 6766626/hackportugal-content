@@ -65,11 +65,11 @@ export default {
     },
     {
       id: 'sefardi',
-      title: 'Sephardic Jews — regime under threat of abolition',
+      title: 'Sephardic Jews — regime abolished',
       content: [
         { kind: 'paragraph', text: 'The Sephardic route evolved in three stages: (1) Lei Orgânica n.º 1/2013 introduced it into the Lei da Nacionalidade (details — Decreto-Lei 30-A/2015); (2) Decreto-Lei n.º 26/2022 (01/09/2022) tightened the Regulamento and required proof of connection with Portugal; (3) Lei Orgânica n.º 1/2024 of 5 March 2024 (entered into force on 01/04/2024) materially changed the law itself: it introduced mandatory legal residence in Portugal ≥ 3 years (consecutive or interpolated) + assessment by a special committee at the Ministry of Justice (researchers + representatives of Jewish communities with religious legal entity status in PT).\n\nAfter 1/2024 the “remote” Sephardic route was effectively closed.' },
-        { kind: 'paragraph', text: 'On 03/05/2026 President Seguro promulgated Decreto AR 48/XVII (renumbered from 17/XVII after passing through the TC) — the law fully abolishes the Sephardic route, even in its current format with 3 years of residence. It enters into force on the day after publication in Diário da República; published as Lei Orgânica n.º 1/2026, DR 18/05/2026, in force from 19/05/2026. The text of the law contains a transitional provision — administrative processes pending on the date of entry into force are subject to the previous version of Lei 37/81 (the PS proposal for broader transitional guarantees was rejected). In his speech on 03/05/2026, Seguro also publicly asked that already submitted cases be assessed under the old rules for the sake of legal certainty.\n\nUntil 19/05/2026 the Sephardic route technically operates under the post-LO 1/2024 regime (residence ≥ 3 years + committee).' },
-        { kind: 'warning', text: 'If you plan to apply — do it URGENTLY, before publication of Decreto 48/XVII in the DRE. Submission locks the case into the old regime (the law’s transitional provision + the President’s request to IRN).\n\nAfter publication, the new law will completely eliminate this route for new applicants.' }
+        { kind: 'paragraph', text: 'On 03/05/2026 President Seguro promulgated Decreto AR 48/XVII (renumbered from 17/XVII after passing through the TC) — the law fully abolishes the Sephardic route, even in its current format with 3 years of residence. It enters into force on the day after publication in Diário da República; published as Lei Orgânica n.º 1/2026, DR 18/05/2026, in force from 19/05/2026. The text of the law contains a transitional provision — administrative processes pending on the date of entry into force are subject to the previous version of Lei 37/81 (the PS proposal for broader transitional guarantees was rejected). In his speech on 03/05/2026, Seguro also publicly asked that already submitted cases be assessed under the old rules for the sake of legal certainty.\n\nFrom 19/05/2026 the Sephardic route is closed to new applicants. Cases submitted BEFORE that date are assessed under the previous regime (post-LO 1/2024 — residence ≥ 3 years + committee).' },
+        { kind: 'warning', text: 'The deadline has passed: the Sephardic route is no longer available to new applicants. Under the transitional provision (art. 7 LO 1/2026), the previous regime is preserved only for cases that were already pending on 19/05/2026. If you applied BEFORE that date — check the status of your case; if not — the Sephardic route is no longer open to you.' }
       ]
     }
   ],
@@ -90,6 +90,6 @@ export default {
     { title: 'Arquivo Nacional Torre do Tombo', url: 'https://antt.dglab.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidência da República — Promulgation of Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

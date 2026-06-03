@@ -93,7 +93,7 @@ export default {
     },
     {
       id: 'action-plan',
-      title: 'Что делать экспату в апреле 2026',
+      title: 'Что делать экспату в 2026 году',
       content: [
         { kind: 'substeps', items: [
           { id: 'audit-status', title: '1. Проверьте свой текущий статус', content: [
@@ -130,6 +130,6 @@ export default {
     { title: 'Diário da República — Lei n.º 61/2025 de 22 de outubro (миграционная реформа)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-18' },
     { title: 'AIMA — информация о residência, reagrupamento familiar и taxas', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

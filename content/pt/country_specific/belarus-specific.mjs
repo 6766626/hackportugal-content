@@ -46,7 +46,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Belarusbank / BPS-Sber / etc. — os cartões não funcionam em Portugal (desde 2022)',
-          'Belgazprombank — funciona parcialmente',
+          'Belgazprombank — os cartões Visa/Mastercard deixaram de funcionar na UE (desde 2026)',
           'Abrir conta em Portugal: ActivoBank, Millennium — aceitam bielorrussos',
           'Transferência de dinheiro: Wise / Revolut / cripto através da CEI',
           'Dinheiro em numerário na fronteira: até 10 000 € sem declaração',
@@ -62,8 +62,8 @@ export default {
           'Belarusian Diaspora Association em Lisboa',
           'Chats de emigrantes bielorrussos (Telegram)',
           'Comunidades religiosas bielorrussas — em Lisboa e no Porto',
-          'Secção consular: a embaixada da Bielorrússia em Paris ou Varsóvia presta serviço a Portugal (a embaixada em Madrid foi encerrada pelo lado bielorrusso em 2023)',
-          'Para notícias actualizadas sobre as opções consulares actuais, confirme através do Ministério dos Negócios Estrangeiros da Bielorrússia'
+          'A Bielorrússia não tem postos consulares em Portugal; os serviços consulares para residentes em Portugal são prestados pela embaixada da Bielorrússia em Madrid (Espanha)',
+          'A área consular pode mudar — confirme a situação atual no site do Ministério dos Negócios Estrangeiros da Bielorrússia antes de qualquer pedido'
         ]}
       ]
     },
@@ -87,6 +87,6 @@ export default {
     { title: 'Vistos MNE — procedimento de pedido', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — serviços para cidadãos de países terceiros', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

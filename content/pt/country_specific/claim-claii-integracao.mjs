@@ -3,7 +3,7 @@ export default {
   id: 'claim-claii-integracao',
   categoryId: 'country_specific',
   title: 'CLAIM/CLAII — centros locais de apoio à integração de migrantes',
-  tldr: 'CLAIM são pontos locais gratuitos de apoio a migrantes: explicam que documentos são necessários para AIMA, Finanças, SNS, Segurança Social, escola, habitação e trabalho, ajudam a preencher formulários e a fazer marcações online. A rede funciona em mais de 90 municípios através da Câmara Municipal/Junta de Freguesia, AIMA e da antiga estrutura do ACM; o nome antigo CLAII ainda aparece em sites. Não é um acelerador de autorização de residência nem um advogado, e as taxas administrativas da AIMA/IRN/Finanças são pagas separadamente.',
+  tldr: 'CLAIM são pontos locais gratuitos de apoio a migrantes: explicam que documentos são necessários para AIMA, Finanças, SNS, Segurança Social, escola, habitação e trabalho, ajudam a preencher formulários e a fazer marcações online. A rede de mais de 150 centros funciona em todo o país através da Câmara Municipal/Junta de Freguesia, AIMA e da antiga estrutura do ACM; o nome antigo CLAII ainda aparece em sites. Não é um acelerador de autorização de residência nem um advogado, e as taxas administrativas da AIMA/IRN/Finanças são pagas separadamente.',
   tags: ['claim', 'migrantes', 'aima', 'integração'],
   estimatedReadMinutes: 5,
   steps: [
@@ -122,6 +122,6 @@ export default {
     { title: 'ACM — informação arquivada e de referência sobre CLAIM/CNAIM e integração de migrantes', url: 'https://www.acm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — portal do Estado para serviços e contactos da administração pública', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -41,7 +41,7 @@ export default {
           ]},
           { id: 'r2', title: 'Step 2: Check for marriage impediments (impedimentos matrimoniais)', content: [
             { kind: 'paragraph', text: 'The Conservadora opens the processo preliminar and checks the impedimentos matrimoniais (absolute and relative impediments: age, legal capacity, kinship, existing marriage, etc.). This is NOT a fixed 30-day public notice period — the timing depends on the workload of the Conservatória and the completeness of the documents. At the end of the assessment — despacho favorável. The marriage must be celebrated within 6 months after the despacho.' },
-            { kind: 'paragraph', text: 'If there is an impediment, the Conservatória notifies you; an impediment dispensável can be removed by application, while an impediment dirimente prevents the marriage.' }
+            { kind: 'paragraph', text: 'If there is an impediment, the Conservatória notifies you; an impedimento dispensável can be removed (dispensa de impedimentos, a separate emolumento of about €60), while an impedimento dirimente prevents the marriage.' }
           ]},
           { id: 'r3', title: 'Step 3: Civil ceremony', content: [
             { kind: 'checklist', items: [
@@ -153,7 +153,7 @@ export default {
           'The prenuptial agreement must be signed BEFORE the marriage before a notary / at the Conservatória',
           'Cost: €100-300',
           'Recommended: separação total if there is a significant difference in assets or if the spouses have a business',
-          '⚠️ After marriage, the property regime usually does NOT change (princípio da imutabilidade convenção antenupcial). Change is possible only in strictly limited cases provided by law. Choose the regime BEFORE the wedding'
+          '⚠️ After marriage, the property regime usually does NOT change (princípio da imutabilidade das convenções antenupciais). Change is possible only in strictly limited cases provided by law. Choose the regime BEFORE the wedding'
         ]}
       ]
     }
@@ -172,6 +172,6 @@ export default {
     { title: 'Código Civil — Marriage (book IV)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 9/2010 — Marriage between persons of the same sex', url: 'https://diariodarepublica.pt/dr/detalhe/lei/9-2010-616040', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

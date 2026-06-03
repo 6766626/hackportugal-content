@@ -3,7 +3,7 @@ export default {
   id: 'd7-passive-income',
   categoryId: 'residence_permit',
   title: 'Visto D7 (rendimento passivo)',
-  tldr: 'O D7 é um visto para quem tem rendimento passivo estável (pensão, rendas, dividendos)\.\n\nO patamar de base na prática dos consulados é 1× SMN (salário mínimo nacional de Portugal) para o requerente, o que em 2026 = 920 €/mês (Portaria 1563/2007 art. 16-A é aplicada por analogia à suficiência de meios; os consulados de Lisboa/Rio/Moscovo usam o SMN, não o IAS)\.\n\nCoeficiente padrão para a família: +50% do SMN pelo cônjuge (460 €), +30% do SMN por cada criança (276 €)\.\n\nDepósito/reserva numa conta portuguesa — normalmente 12× SMN = 11 040 € para o requerente principal (para o caso de o rendimento cessar temporariamente); isto é prática dos consulados, não uma exigência rígida da lei. Após 5 anos de residência legal, pode ser possível obter autorização de residência permanente ou nacionalidade (ao abrigo da Lei 37/81 em vigor; a nova lei Decreto AR 48/XVII foi promulgada em 03.05.2026 e aumentará o prazo para 10 anos para países terceiros após publicação no DRE — verifique o estado actual da publicação).',
+  tldr: 'O D7 é um visto para quem tem rendimento passivo estável (pensão, rendas, dividendos)\.\n\nO patamar de base na prática dos consulados é 1× SMN (salário mínimo nacional de Portugal) para o requerente, o que em 2026 = 920 €/mês (Portaria 1563/2007 art. 16-A é aplicada por analogia à suficiência de meios; os consulados de Lisboa/Rio/Moscovo usam o SMN, não o IAS)\.\n\nCoeficiente padrão para a família: +50% do SMN pelo cônjuge (460 €), +30% do SMN por cada criança (276 €)\.\n\nDepósito/reserva numa conta portuguesa — normalmente 12× SMN = 11 040 € para o requerente principal (para o caso de o rendimento cessar temporariamente); isto é prática dos consulados, não uma exigência rígida da lei. Após 5 anos de residência legal pode ser possível obter autorização de residência permanente. Quanto à nacionalidade, o prazo mudou: desde 19.05.2026 está em vigor a Lei Orgânica 1/2026 (publicada no DRE em 18.05.2026), que aumentou a exigência de residência para 7 anos para nacionais de países da CPLP e para 10 anos para os restantes países terceiros; o prazo conta-se a partir da emissão do título de residência. Aos pedidos apresentados antes da entrada em vigor da lei aplica-se a redacção anterior da Lei 37/81 (5 anos).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d7', 'autorização de residência', 'rendimento passivo'],
   estimatedReadMinutes: 8,
@@ -12,7 +12,7 @@ export default {
       id: 'income-requirements',
       title: 'Requisitos financeiros (2026)',
       content: [
-        { kind: 'paragraph', text: 'O rendimento mínimo para o D7 na prática dos consulados está ligado ao SMN (Salário Mínimo Nacional), e não ao IAS. O SMN em 2026 = 920 €/mês (DL 112/2025). Referências de base:' },
+        { kind: 'paragraph', text: 'O rendimento mínimo para o D7 na prática dos consulados está ligado ao SMN (Salário Mínimo Nacional), e não ao IAS. O SMN em 2026 = 920 €/mês (DL 139/2025). Referências de base:' },
         { kind: 'checklist', items: [
           'Requerente: ≥ 1× SMN = 920 €/mês de rendimento passivo',
           'Cônjuge / parceiro: +50% do SMN = 460 €/mês',
@@ -62,8 +62,8 @@ export default {
       id: 'after',
       title: 'Após obter a autorização de residência',
       content: [
-        { kind: 'paragraph', text: 'Autorização de residência inicial por 2 anos, renovação por 3 anos → total de 5 anos. Depois, pode ser possível pedir autorização de residência permanente ou nacionalidade (ao abrigo da Lei 37/81 em vigor — após 5 anos; Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026 e aumentará o prazo para 10 anos para países terceiros após publicação no DRE).' },
-        { kind: 'warning', text: 'O D7 exige «residência efectiva»: há limites às ausências. Pelo art. 85 Lei 23/2007, para cancelar a autorização de residência basta uma ausência superior a 6 meses consecutivos ou superior a 8 meses no total em 2 anos durante a validade da autorização de residência. Estes são limites de ausência, não um «mínimo de residência»; para a renovação, a AIMA verifica o cumprimento destes limites.' }
+        { kind: 'paragraph', text: 'Autorização de residência inicial por 2 anos, renovação por 3 anos → total de 5 anos. Depois, pode ser possível pedir autorização de residência permanente. Quanto à nacionalidade, aplica-se a Lei Orgânica 1/2026 (publicada no DRE em 18.05.2026, em vigor desde 19.05.2026): a exigência de residência subiu para 7 anos para nacionais da CPLP e para 10 anos para os restantes países terceiros, contados a partir da emissão do título de residência. A lei foi promulgada pelo Presidente Seguro em 03.05.2026 depois de retiradas as normas julgadas inconstitucionais (Acórdão 1133/2025 do Tribunal Constitucional). Aos pedidos apresentados antes da entrada em vigor da lei aplica-se a redacção anterior da Lei 37/81 (5 anos).' },
+        { kind: 'warning', text: 'O D7 exige «residência efectiva»: há limites às ausências. Pelo art. 85 Lei 23/2007, no caso de autorização de residência temporária, uma ausência do país (sem razões atendíveis) superior a 6 meses consecutivos ou superior a 8 meses interpolados durante todo o período de validade da autorização pode fundamentar o cancelamento. Estes são limites de ausência, não um «mínimo de residência»; para a renovação, a AIMA verifica o cumprimento destes limites.' }
       ]
     }
   ],
@@ -94,6 +94,6 @@ export default {
     { title: 'AIMA — Autorização de Residência', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei nº 23/2007 (Regime de Entrada) — DRE', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

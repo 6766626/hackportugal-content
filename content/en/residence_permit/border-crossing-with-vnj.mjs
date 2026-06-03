@@ -41,7 +41,7 @@ export default {
               'The officer checks: the integrity of the card, that the name matches the passport, the validity period',
               'An entry stamp is usually NOT placed for residence permit holders; if a stamp was placed by mistake — keep your boarding pass/tickets and, if necessary, clarify with the border service',
               'If the residence permit is being renewed — confirmation + old card',
-              'EES (Entry-Exit System) — phased launch from 12.10.2025. EES applies to third-country nationals on ENTRY for a short stay. Holders of a valid residence permit/long-stay visa of a Schengen country entering as residents are usually NOT registered in EES — show the residence permit + passport; the border guard will determine the correct procedure'
+              'EES (Entry-Exit System) — phased launch from 12.10.2025, fully operational from 10.04.2026. EES applies to third-country nationals on ENTRY for a short stay. Holders of a valid residence permit/long-stay visa of a Schengen country entering as residents are usually NOT registered in EES — show the residence permit + passport; the border guard will determine the correct procedure'
             ]}
           ]},
           { id: 'n3', title: 'Transit through Schengen', content: [
@@ -71,7 +71,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 's1', title: 'United Kingdom', content: [
-            { kind: 'paragraph', text: 'NOT Schengen. The United Kingdom does not recognise a PT residence permit as a right of entry. The rule depends on the passport: nationals of visa-national countries (including the Russian Federation/Belarus) usually need a UK Standard Visitor visa; nationals of visa-free countries need an ETA. An ETA costs £16 (2025+), is valid for up to 2 years or until the passport expires; permitted visits are usually up to 6 months.' }
+            { kind: 'paragraph', text: 'NOT Schengen. The United Kingdom does not recognise a PT residence permit as a right of entry. The rule depends on the passport: nationals of visa-national countries (including the Russian Federation/Belarus) usually need a UK Standard Visitor visa; nationals of visa-free countries need an ETA. An ETA costs £20 (from 8 April 2026), is valid for up to 2 years or until the passport expires; permitted visits are usually up to 6 months.' }
           ]},
           { id: 's2', title: 'Ireland', content: [
             { kind: 'paragraph', text: 'Not Schengen. A PT residence permit by itself does NOT give a right of entry; whether an Irish visa is needed depends on the passport. Nationals of the Russian Federation/Belarus usually need a visa. Website — irishimmigration.ie.' }
@@ -113,6 +113,6 @@ export default {
     { title: 'EU Entry/Exit System (EES) — ec.europa.eu', url: 'https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/smart-borders_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Vistos MNE — rules for third-country nationals', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

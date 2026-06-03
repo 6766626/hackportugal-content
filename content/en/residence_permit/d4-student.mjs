@@ -3,7 +3,7 @@ export default {
   id: 'd4-student',
   categoryId: 'residence_permit',
   title: 'D4 visa (student) — bachelor’s, master’s, doctoral studies',
-  tldr: 'D4 / residence visa for study — primarily for higher education and some recognised long-term programmes. For language/preparatory courses, a temporary stay visa is often used rather than D4. A student with a residence permit for higher education may work as an employee or as self-employed, provided the law is complied with and AIMA is notified — there is no general 20-hour-per-week limit under this regime. After completing studies, it is possible to request a residence permit/renewal to look for work or start a business for up to 1 year (this is NOT the same as the “job seeker visa” for entry from outside the country).',
+  tldr: 'D4 / residence visa for study — primarily for higher education and some recognised long-term programmes. For language/preparatory courses, a temporary stay visa is often used rather than D4. A student with a residence permit for higher education may work as an employee or as self-employed, provided the law is complied with and AIMA is notified — there is no general 20-hour-per-week limit under this regime. After completing studies, it is possible to request a residence permit to look for work or start a business; for master’s/doctoral graduates this is a period of up to 1 year (this is NOT the same as the “job seeker visa” for entry from outside the country).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d4', 'student', 'residence permit', 'study'],
   estimatedReadMinutes: 6,
@@ -55,7 +55,7 @@ export default {
           'After legalisation, it is possible to register with the SNS / centro de saúde. The SNS is mostly tendencialmente gratuito, but medicines and some services are partially paid for; before registration, health insurance is needed',
           'Renewal for the duration of studies',
           'If there is a job offer after graduation, it is possible to change the basis of the residence permit to professional activity; for high-qualified roles, the highly qualified activity regime may be possible. Eligibility depends on the contract, salary/qualifications and the decision of AIMA',
-          'After completing studies, it is possible to request a residence permit/renewal to look for work or start a business for up to 1 year (Lei 23/2007 art. 122) — this is NOT the job seeker visa for entry from abroad'
+          'After completing studies, it is possible to request a residence permit to look for work or start a business (Lei 23/2007 art. 122): for master’s/doctoral graduates (2nd/3rd cycle) — a period of up to 1 year (al. p); for bachelor’s graduates (1st cycle) the basis differs (al. o). This is NOT the job seeker visa for entry from abroad'
         ]}
       ]
     },
@@ -83,6 +83,6 @@ export default {
     { title: 'Vistos MNE — Study Visa', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Foreign students', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

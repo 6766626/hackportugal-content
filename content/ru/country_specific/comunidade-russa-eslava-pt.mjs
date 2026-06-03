@@ -3,7 +3,7 @@ export default {
   id: 'comunidade-russa-eslava-pt',
   categoryId: 'country_specific',
   title: 'Русская, украинская и белорусская диаспоры в Португалии',
-  tldr: 'В Португалии есть заметные русскоязычные и восточноевропейские сообщества: Lisboa, Cascais, Porto, Algarve, Braga. Украинская община резко выросла после 2022 года: у Португалии десятки тысяч выданных proteções temporárias, а с уже жившими здесь украинцами масштаб сообщества — один из крупнейших среди non-EU. Для практики полезны Casa Ucraniana Lisboa, православные приходы, Centro Russo Lisboa и Telegram-чаты, но документы, ВНЖ, TPD, NIF/NISS и AIMA всегда проверяйте только по AIMA/ACM/ePortugal.',
+  tldr: 'В Португалии есть заметные русскоязычные и восточноевропейские сообщества: Lisboa, Cascais, Porto, Algarve, Braga. Украинская община резко выросла после 2022 года: Португалия выдала десятки тысяч proteções temporárias, и вместе с украинцами, жившими здесь и раньше, это одно из крупнейших сообществ среди non-EU. Для практики полезны Casa Ucraniana Lisboa, православные приходы, Centro Russo Lisboa и Telegram-чаты, но документы, ВНЖ, TPD, NIF/NISS и AIMA всегда проверяйте только по AIMA/ePortugal.',
   tags: ['диаспора', 'украинцы', 'русские', 'telegram', 'aima'],
   estimatedReadMinutes: 5,
   steps: [
@@ -55,7 +55,7 @@ export default {
           'Для работы: NISS, NIF, договор или recibos verdes, IBAN, inscrição na Segurança Social',
           'Для аренды: договор, recibos de renda, подтверждение адреса для Finanças и serviços públicos',
           'Для продлений ВНЖ/защиты: отслеживайте изменения AIMA, потому что процедуры менялись после замены SEF',
-          'ACM/службы миграционной поддержки помогают с интеграцией, языком, переводами и социальной навигацией'
+          'Центры интеграции мигрантов CLAIM/CNAIM (теперь под AIMA) помогают с интеграцией, языком, переводами и социальной навигацией'
         ] },
         { kind: 'warning', text: 'AIMA заменила SEF в октябре 2023 года. Если инструкция говорит “идите в SEF”, она устарела. В 2026 году проверяйте, относится ли вопрос к AIMA, IRN, Finanças, Segurança Social, SNS или Câmara Municipal: это разные ведомства.' }
       ]
@@ -81,7 +81,7 @@ export default {
       id: 'official-help',
       title: 'Официальная помощь: куда идти вместо слухов',
       content: [
-        { kind: 'paragraph', text: 'Для миграционных и интеграционных вопросов используйте официальные каналы. AIMA занимается миграцией, документами и частью наследия SEF/ACM. ACM как бренд и портал всё ещё полезен для материалов по интеграции, CNAIM/CLAIM, правам мигрантов и поддержке уязвимых групп.' },
+        { kind: 'paragraph', text: 'Для миграционных и интеграционных вопросов используйте официальные каналы. AIMA занимается миграцией, документами и интеграцией: она унаследовала функции SEF и упразднённого ACM. Поддержка по интеграции, правам мигрантов и уязвимым группам теперь идёт через сеть центров CLAIM/CNAIM под AIMA, а информацию ищите на aima.gov.pt и ePortugal.' },
         { kind: 'checklist', items: [
           'AIMA — ВНЖ, proteção temporária, appointments, миграционные процедуры',
           'IRN — Conservatória, гражданство, Cartão de Cidadão для имеющих право, certidões',
@@ -90,7 +90,7 @@ export default {
           'SNS / Centro de Saúde — número de utente, семейный врач, вакцинация',
           'IEFP — работа, курсы, português, признание навыков',
           'Câmara Municipal / Junta de Freguesia — atestado de residência, местные программы, школа и жильё',
-          'ACM/CLAIM/CNAIM — ориентация мигрантов, переводы, социальная и юридическая навигация'
+          'CLAIM/CNAIM (под AIMA) — ориентация мигрантов, переводы, социальная и юридическая навигация'
         ] },
         { kind: 'warning', text: 'Если вопрос юридически важный — ВНЖ, гражданство, налоговое резидентство, развод, опека, долг, уголовное дело — используйте advogado/solicitador с cédula profissional. “Консультант из диаспоры” без лицензии не должен подавать себя как юрист.' }
       ]
@@ -110,7 +110,7 @@ export default {
           'Заведите банковский счёт/IBAN и включите Multibanco/MB WAY осторожно',
           'Запишитесь на португальский: IEFP, escolas, муниципальные курсы, частные группы',
           'Найдите 1–2 локальные группы по району, а не только общепортугальские чаты',
-          'Проверяйте важные новости по первоисточнику: AIMA/ACM/DRE/ePortugal'
+          'Проверяйте важные новости по первоисточнику: AIMA/DRE/ePortugal'
         ] }
       ]
     }
@@ -124,11 +124,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'ACM — поддержка мигрантов, CLAIM/CNAIM и интеграционные материалы',
-      url: 'https://www.acm.gov.pt',
+      title: 'CLAIM/CNAIM (под AIMA) — центры поддержки и интеграции мигрантов',
+      url: 'https://www.gov.pt/servicos/centros-nacionais-de-apoio-a-integracao-de-migrantes-cnaim-',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'ePortugal — официальные услуги государства для жителей и иностранцев',
@@ -145,6 +145,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

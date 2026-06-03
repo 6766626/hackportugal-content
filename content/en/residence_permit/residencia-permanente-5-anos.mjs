@@ -193,7 +193,7 @@ export default {
     { title: 'Lei 23/2007 — legal regime for the entry, stay, departure and removal of foreign nationals, art. 80', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE — consolidated legislation on autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-25',
+  lastVerified: '2026-05-31',
   recentlyChangedAt: '2026-05-25',
   changeSummary: 'Major May 2026 update: (1) Step "AIMA reality in 2026" with workarounds (Livro Amarelo, intimação, regional Lojas, CLAIM), honest 1–2 year timeline, and explicit note the AIMA Jan 2026 portal is renewals-only. (2) Step "When the 5 years start" with 8 edge cases (D-visa, MdI, renewal queue, gaps, SEF→AIMA, conversions, reagrupamento, children born in PT). (3) Common myths about art. 80 permanent residence. (4) Fixed Portaria reference — correct is Portaria 307/2023 (consolidated version), not 480/2025/1. (5) Lei Orgânica 1/2026 (in force from 19.05.2026): ARP becomes more important as an intermediate status during the 7–10 year wait for citizenship.',
   verifyIntervalDays: 90

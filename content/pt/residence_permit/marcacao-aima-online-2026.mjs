@@ -71,8 +71,8 @@ export default {
   sources: [
     { title: 'AIMA — portal oficial e serviços para cidadãos estrangeiros', url: 'https://aima.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — pesquisa de Espaço Cidadão e serviços públicos digitais', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Lei 61/2025 — alterações ao regime migratório, em vigor desde 23.10.2025', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Lei 61/2025 — alterações ao regime migratório, em vigor desde 23.10.2025', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

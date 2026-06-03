@@ -2,7 +2,7 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'apostille-translation',
   categoryId: 'before_arrival',
-  title: 'Апостиль и присяжный документов',
+  title: 'Апостиль и присяжный перевод документов',
   tldr: 'Документы из страны происхождения для Португалии должны быть: 1) с апостилем (для стран-участников Гаагской конвенции) или легализацией в консульстве; 2) переведены присяжным переводчиком. Без этого их не принимают в AIMA, Finanças, IRN, университетах.',
   tags: ['апостиль', 'перевод', 'легализация', 'документы'],
   estimatedReadMinutes: 6,
@@ -80,8 +80,8 @@ export default {
           { id: 't1', title: 'Вариант A — сертифицированный переводчик в Conservatória do Registo Civil', content: [
             { kind: 'paragraph', text: 'Переводчик делает перевод → заверяет его в Conservatória do Registo Civil. Это официальный путь.' }
           ]},
-          { id: 't2', title: 'Вариант B — перевод у нотариуса', content: [
-            { kind: 'paragraph', text: 'Нотариус делает удостоверительную запись к переводу.' }
+          { id: 't2', title: 'Вариант B — заверение у нотариуса, адвоката или солиситора', content: [
+            { kind: 'paragraph', text: 'Нотариус, адвокат (advogado) или солиситор (solicitador), а также торгово-промышленная палата делают удостоверительную запись к переводу — это разрешено Decreto-Lei n.º 237/2001. На практике это самый частый и удобный путь.' }
           ]},
           { id: 't3', title: 'Вариант C — консульство Португалии в стране происхождения', content: [
             { kind: 'paragraph', text: 'Перевод у консульского переводчика. Удобно, если документ легализуется в консульстве.' }
@@ -103,6 +103,6 @@ export default {
     { title: 'Hague Conference — Apostille Convention', url: 'https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Traduções e reconhecimentos', url: 'https://irn.justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

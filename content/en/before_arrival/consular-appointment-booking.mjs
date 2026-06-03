@@ -4,7 +4,7 @@ export default {
   categoryId: 'before_arrival',
   title: 'Booking an appointment at a Portuguese consulate — how to catch a slot',
   tldr: 'Queues at Portuguese consulates (Moscow, Kyiv, Minsk, Almaty, Istanbul) mean 2–6 months of waiting. Slots open irregularly, often at night. Strategies: check every few hours (slots appear because of cancellations); monitoring bots (Telegram bots notify you about new slots); travel to a neighbouring jurisdiction (Yerevan, Tbilisi, Vilnius — often less busy); private consultant (VFS Global, agencies) — €50–200, but a guaranteed slot. Alternative: travel to Portugal without a visa (visa-free Schengen entry for 90 days for a number of countries) and arrange a D visa there.',
-  tags: ['consulate', 'appointment', 'd visa', 'booking'],
+  tags: ['consulate', 'appointment', 'd visa', 'slots'],
   estimatedReadMinutes: 6,
   steps: [
     {
@@ -125,7 +125,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Consular fee (standard)', amountEUR: 90 },
+    { label: 'Consular fee (standard)', amountEUR: 110 },
     { label: 'Agency for a slot', amountEURMin: 50, amountEURMax: 300 },
     { label: 'Trip to Yerevan/Tbilisi (flight+hotel+visa)', amountEURMin: 500, amountEURMax: 1500 },
     { label: 'Telegram monitoring bot (paid version)', amountEURMin: 3, amountEURMax: 10, note: '€/month' }
@@ -135,6 +135,6 @@ export default {
     { title: 'VFS Global Portugal', url: 'https://visa.vfsglobal.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Consulate of Portugal in Moscow', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

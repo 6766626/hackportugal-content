@@ -3,7 +3,7 @@ export default {
   id: 'voto-imigrante-municipal',
   categoryId: 'country_specific',
   title: 'Direito de voto dos migrantes nas eleições municipais em Portugal',
-  tldr: 'Em Portugal, os estrangeiros podem votar nas eleições autárquicas — eleições para a Câmara Municipal, Assembleia Municipal e Junta de Freguesia. Os cidadãos da UE votam se forem residentes e estiverem inscritos no recenseamento eleitoral. Brasil e Cabo Verde — com residência legal, normalmente há mais de 2 anos, e reciprocidade. Vários países com reciprocidade por acordo, incluindo Argentina, Chile, Colômbia, Islândia, Noruega, Nova Zelândia, Peru, Reino Unido, Uruguai, Venezuela — mediante residência legal por um período mais longo. A inscrição é gratuita, a verificação é feita em eleitor.mai.gov.pt.',
+  tldr: 'Em Portugal, os estrangeiros podem votar nas eleições autárquicas — eleições para a Câmara Municipal, Assembleia Municipal e Assembleia de Freguesia. Os cidadãos da UE votam se forem residentes e estiverem inscritos no recenseamento eleitoral. Brasil e Cabo Verde — com residência legal há mais de 2 anos e reciprocidade. Vários países com reciprocidade por acordo, incluindo Argentina, Chile, Colômbia, Islândia, Noruega, Nova Zelândia, Peru, Reino Unido, Uruguai, Venezuela — mediante residência legal há mais de 3 anos. A inscrição é gratuita, a verificação é feita em eleitor.mai.gov.pt.',
   tags: ['voto', 'eleições', 'migrantes', 'cplp'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,8 +16,8 @@ export default {
           'Cidadãos da UE residentes em Portugal: podem votar nas eleições municipais depois da inscrição no recenseamento eleitoral.',
           'Cidadãos do Brasil: o direito depende da residência legal, da inscrição e do regime de reciprocidade; para direitos políticos mais amplos é necessário o Estatuto de Igualdade de Direitos Políticos.',
           'Cidadãos de Cabo Verde: normalmente integram o regime da CPLP com reciprocidade para eleições autárquicas depois de residência legal há mais de 2 anos.',
-          'Cidadãos de outros países com reciprocidade: Argentina, Chile, Colômbia, Islândia, Noruega, Nova Zelândia, Peru, Reino Unido, Uruguai, Venezuela — o direito depende do período de residência legal e da declaração MAI/CNE em vigor.',
-          'Idade: 18+ no dia das eleições.',
+          'Cidadãos de outros países com reciprocidade: Argentina, Chile, Colômbia, Islândia, Noruega, Nova Zelândia, Peru, Reino Unido, Uruguai, Venezuela — com residência legal há mais de 3 anos e declaração MAI/CNE em vigor.',
+          'Idade: vota-se a partir dos 18 anos no dia das eleições; pode inscrever-se no recenseamento eleitoral a partir dos 17 anos.',
           'É necessário estar inscrito como eleitor na freguesia de residência.',
           'A morada no recenseamento eleitoral deve corresponder ao local de residência efectivo, porque se vota na própria freguesia.'
         ] },
@@ -30,13 +30,13 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Para cidadãos da UE, a condição essencial é residir em Portugal e estar inscrito como eleitor. O período mínimo de residência para o voto municipal normalmente não se aplica da mesma forma que aos nacionais de países terceiros.' },
         { kind: 'paragraph', text: 'Para cidadãos de países de língua portuguesa com reciprocidade, na prática sobretudo Brasil e Cabo Verde, aplica-se a regra de residência legal há mais de 2 anos para o direito de voto activo nas eleições locais, se não existir um estatuto especial mais amplo.' },
-        { kind: 'paragraph', text: 'Para “outros países com tratado / reciprocidade”, é necessário consultar a formulação actual da CNE e do MAI. Nos guias públicos, muitas vezes mistura-se o direito activo de votar com o direito passivo de ser candidato: os prazos para candidatura são mais elevados. Se lhe disserem “4 anos”, confirme se se trata de votar ou da possibilidade de ser eleito.' },
+        { kind: 'paragraph', text: 'Para “outros países com tratado / reciprocidade” — Argentina, Chile, Colômbia, Islândia, Noruega, Nova Zelândia, Peru, Reino Unido, Uruguai, Venezuela — a regra é residência legal há mais de 3 anos para o direito de voto activo, desde que se mantenha a reciprocidade; consulte sempre a formulação actual da CNE e do MAI. Nos guias públicos, muitas vezes mistura-se o direito activo de votar com o direito passivo de ser candidato: os prazos para candidatura são mais elevados. Se lhe indicarem outro prazo, confirme se se trata de votar ou da possibilidade de ser eleito.' },
         { kind: 'checklist', items: [
           'UE: residência + inscrição no recenseamento eleitoral.',
           'CPLP com reciprocidade: normalmente residência legal há mais de 2 anos para votar.',
           'Brasil: verifique separadamente o Estatuto de Igualdade, se quiser direitos mais amplos do que os municipais.',
           'Cabo Verde: verifique o período de residência legal e a inscrição.',
-          'Argentina / Chile / Colômbia / Islândia / Noruega / Nova Zelândia / Peru / Reino Unido / Uruguai / Venezuela: verifique a lista recíproca actual da CNE.',
+          'Argentina / Chile / Colômbia / Islândia / Noruega / Nova Zelândia / Peru / Reino Unido / Uruguai / Venezuela: normalmente residência legal há mais de 3 anos para votar; verifique a lista recíproca actual da CNE.',
           'Para a candidatura, os prazos e regras são mais rigorosos do que para votar.',
           'Ter NIF, NISS ou SNS, por si só, não cria direito de voto.'
         ] }
@@ -127,6 +127,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

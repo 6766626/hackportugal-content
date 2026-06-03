@@ -3,7 +3,7 @@ export default {
   id: 'golden-visa-2026',
   categoryId: 'residence_permit',
   title: 'Golden Visa (ARI) em 2026 — rotas atuais',
-  tldr: 'Golden Visa (ARI, Autorização de Residência para Investimento) — autorização de residência por investimento. Desde outubro de 2023, a compra de imóveis foi ELIMINADA. Mantêm-se: fundos de investimento coletivo / venture capital 500 000 € (não em imobiliário), I&D 500 000 €, cultura 250 000 € (200 000 € em territórios de baixa densidade), capitalização de uma empresa existente 500 000 € + 5 postos de trabalho permanentes, criação de uma nova empresa + 5 postos de trabalho, ou simplesmente 10 postos de trabalho permanentes. Estadia mínima — 7 dias no primeiro ano + 14 dias em cada período bienal subsequente (este é um requisito para manter a ARI; NÃO torna a pessoa residente fiscal).\n\nPossível pedido de cidadania após 5 anos — 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII, que, após publicação no DRE, aumentará o prazo para 10 anos para países terceiros.',
+  tldr: 'Golden Visa (ARI, Autorização de Residência para Investimento) — autorização de residência por investimento. Desde outubro de 2023, a compra de imóveis foi ELIMINADA. Mantêm-se: fundos de investimento coletivo / venture capital 500 000 € (não em imobiliário), I&D 500 000 €, cultura 250 000 € (200 000 € em territórios de baixa densidade), capitalização de uma empresa existente 500 000 € + 5 postos de trabalho permanentes, criação de uma nova empresa + 5 postos de trabalho, ou simplesmente 10 postos de trabalho permanentes. Estadia mínima — 7 dias no primeiro ano + 14 dias em cada período bienal subsequente (este é um requisito para manter a ARI; NÃO torna a pessoa residente fiscal).\n\nCaminho para a cidadania: desde 19.05.2026 está em vigor a Lei Orgânica n.º 1/2026 (publicada no DR a 18.05.2026), que aumentou o prazo de residência legal para a naturalização para 10 anos para nacionais de países terceiros (7 anos para nacionais da CPLP e da UE). O anterior prazo de 5 anos já não se aplica.',
   audience: { citizenships: ['thirdCountry'] },
   tags: ['golden visa', 'ari', 'investimentos'],
   estimatedReadMinutes: 8,
@@ -32,7 +32,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Estadia mínima: 7 dias no primeiro ano + 14 dias em cada período bienal subsequente. Este requisito diz respeito à manutenção da ARI; NÃO torna a pessoa residente fiscal e, por si só, NÃO garante a cidadania',
-          'Possível caminho para a cidadania após 5 anos de residência legal, cumpridos os requisitos da Lei da Nacionalidade (língua A2, ausência de disqualifying criminal/security grounds). 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação no DRE, o prazo para países terceiros aumentará para 10 anos',
+          'Possível caminho para a cidadania, cumpridos os requisitos da Lei da Nacionalidade (língua A2, ausência de disqualifying criminal/security grounds). Desde 19.05.2026 está em vigor a Lei Orgânica n.º 1/2026: o prazo de residência legal exigido para a naturalização é de 10 anos para nacionais de países terceiros (7 anos para nacionais da CPLP e da UE); o anterior prazo de 5 anos foi revogado',
           'O cartão de residência português dá direito a viagens de curta duração no Espaço Schengen até 90 dias em qualquer período de 180 dias (NÃO é um “visto Schengen automático”)',
           'Possibilidade de incluir a família (cônjuge, filhos, pais dependentes)',
           'Possível acesso ao IFICI APENAS se o investidor se tornar residente fiscal em Portugal e cumprir separadamente os requisitos do IFICI (eligible activity, employer/entity, registo, ausência de PT tax residence nos últimos 5 anos). A ARI por si só NÃO dá acesso a este regime'
@@ -74,9 +74,9 @@ export default {
   ],
   costs: [
     { label: 'Investimento mínimo', amountEUR: 250000, note: 'de 250 000 € (cultura; 200 000 € quando eligible low-density) a 500 000 € (fundos/empresa; para I&D é possível 400 000 € em low-density)' },
-    { label: 'Taxa AIMA pela submissão', amountEUR: 708, note: 'valor de referência segundo a tabela AIMA a partir de 01.03.2026; confirme na Portaria/tabela atualizada' },
-    { label: 'Autorização de residência AIMA (após aprovação, para o requerente principal)', amountEUR: 7097, note: 'valor de referência segundo a tabela AIMA a partir de 01.03.2026; o montante exato consta da tabela de taxas em vigor' },
-    { label: 'Renovação da autorização de residência', amountEUR: 3549, note: 'a cada 2 anos, segundo a nova tabela de taxas de 2026' },
+    { label: 'Taxa AIMA pela receção e análise do pedido', amountEUR: 843, note: 'exatamente 842,80 € segundo a tabela AIMA (Portaria 307/2023, atualização a partir de 01.03.2026); confirme na tabela atualizada' },
+    { label: 'Autorização de residência AIMA (após aprovação, para o requerente principal)', amountEUR: 8419, note: 'exatamente 8418,90 € segundo a tabela AIMA (Portaria 307/2023, atualização a partir de 01.03.2026); o montante exato consta da tabela de taxas em vigor' },
+    { label: 'Renovação da autorização de residência', amountEUR: 4210, note: 'exatamente 4210,30 € segundo a tabela AIMA (Portaria 307/2023, atualização a partir de 01.03.2026), a cada 2 anos' },
     { label: 'Acompanhamento jurídico', amountEURMin: 5000, amountEURMax: 20000 }
   ],
   timelineDaysMin: 365,
@@ -86,8 +86,9 @@ export default {
     { title: 'Lei 23/2007, art. 3.º (consolidado) — principais rotas ARI', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Lei do Mais Habitação (56/2023) — eliminação do imobiliário na ARI', url: 'https://diariodarepublica.pt/dr/detalhe/lei/56-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CMVM — registos de fundos e sociedades gestoras (NÃO é uma lista de fundos ARI)', url: 'https://www.cmvm.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Portaria 480-A/2025/1 — tabela de taxas AIMA a partir de 01.03.2026', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/480-a-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Portaria 307/2023, de 13 de outubro — tabela de taxas AIMA (atualização pelo IPC a partir de 01.03.2026)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2023-222418094', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Lei Orgânica n.º 1/2026, de 18 de maio — alteração à Lei da Nacionalidade (prazo de naturalização de 10 anos para países terceiros)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -42,7 +42,7 @@ export default {
       title: 'NHR / IFICI для американцев',
       content: [
         { kind: 'paragraph', text: 'Старый NHR (до 2024) был очень выгоден: 10% на пенсии из США + 20% на квалифицированную работу + 0% на дивиденды из США. Те, кто успел до 2024, сохраняют режим на 10 лет.' },
-        { kind: 'paragraph', text: 'IFICI (2024+): плоская ставка 20%, но список квалифицированных профессий уже уже. Традиционному удалённому работнику сложнее попасть. FEIE + FTC — основная защита.' }
+        { kind: 'paragraph', text: 'IFICI (2024+): плоская ставка 20%, но список квалифицированных профессий теперь уже. Традиционному удалённому работнику сложнее попасть. FEIE + FTC — основная защита.' }
       ]
     },
     {
@@ -66,7 +66,7 @@ export default {
           'PFIC (Passive Foreign Investment Company) — фонды ЕС часто считаются PFIC, тяжёлая отчётность в IRS',
           'Vanguard / Fidelity / Charles Schwab — резидентам США обычно легче',
           'US-ETF — лучше португальских/европейских фондов для американцев',
-          'Roth IRA — не облагается налогом в Португалии (договор защищает)',
+          'Roth IRA — Португалия не признаёт её освобождение от налога: для налогового резидента выплаты, как правило, облагаются в Португалии (прирост — как пенсионный доход), договор от этого не защищает. Частая ошибка — требуется консультация налогового специалиста',
           '401(k) — пенсионные выплаты облагаются в Португалии',
           'Португальский пенсионный фонд (PPR) — США считают PFIC, плохой выбор для гражданина США'
         ]}
@@ -105,6 +105,6 @@ export default {
     { title: 'US-Portugal Tax Treaty (IRS)', url: 'https://www.irs.gov/businesses/international-businesses/portugal-tax-treaty-documents', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças (налоговый портал) — резидентство', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

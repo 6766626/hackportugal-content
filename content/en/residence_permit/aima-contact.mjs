@@ -3,7 +3,7 @@ export default {
   id: 'aima-contact',
   categoryId: 'residence_permit',
   title: 'How to contact AIMA — all channels',
-  tldr: 'AIMA is overloaded: the 808 202 653 line is often busy, email replies take 2–6 weeks, in-person service is by appointment only. The realistic route: the AIMA Portal online account (portal.aima.gov.pt), booking via Espaço Cidadão, or using the dedicated 800 203 373 line for residents who already have an ongoing process. For urgent cases — email by region, list below.',
+  tldr: 'AIMA is overloaded: the phone line is often busy, email replies take 2–6 weeks, in-person service is by appointment only. The realistic route: the AIMA Portal online account (portal.aima.gov.pt), booking via Espaço Cidadão, and for general questions the Linha de Apoio a Migrantes 808 257 257 (from a mobile/abroad +351 218 106 191). For urgent cases — email by region, list below. Re-check every number and address on aima.gov.pt: they change.',
   tags: ['aima', 'contacts', 'contact', 'phone', 'email'],
   estimatedReadMinutes: 6,
   steps: [
@@ -18,17 +18,18 @@ export default {
           { id: 'c2', title: '2. Espaço Cidadão / ePortugal — in-person appointment', content: [
             { kind: 'paragraph', text: 'On ePortugal/SIGA, you can check available AIMA services and service locations. Not all Espaço Cidadão sites provide AIMA services, and the available services are limited to specific procedures; availability depends on the municipality and the type of service. Slots may be unavailable — check regularly.' }
           ]},
-          { id: 'c3', title: '3. Official phone line — 808 202 653', content: [
+          { id: 'c3', title: '3. Official phone line — Linha de Apoio a Migrantes', content: [
             { kind: 'checklist', items: [
-              'Hours: Mon–Fri 09:00–17:30',
+              'Numbers: 808 257 257 (from a Portuguese landline) and +351 218 106 191 (from a mobile / abroad). 808 202 653 is the old SEF number — do not use it anymore',
+              'Hours: Mon–Fri 09:00–19:00 (per the official gov.pt page; the AIMA page may show different hours — cross-check)',
               'The 808 tariff depends on the operator and network type — before calling, check the cost and whether there is an alternative official number on the AIMA contacts page',
               'Often busy; the best chance is during the first 30 minutes after opening',
               'Speak clearly in Portuguese; English may be possible, but slower',
               'If AIMA publishes an alternative geographic number, try that as well. Do not use unverified numbers from chats'
             ]}
           ]},
-          { id: 'c4', title: '4. Possible linha dedicada — 800 203 373', content: [
-            { kind: 'paragraph', text: 'This free line is mentioned as a channel for people with an open process at AIMA, but before using it, always confirm the number and audience on the official aima.gov.pt page — phone campaigns can change.' }
+          { id: 'c4', title: '4. The “free line” 800 203 373 — NOT confirmed', content: [
+            { kind: 'paragraph', text: 'The number 800 203 373 circulates in chats as a “free line for people with an open process”, but it is not confirmed on the official AIMA/gov.pt pages, and AIMA explicitly states there is no separate free line to speak with the agency. Do not rely on it: use only the numbers and channels published on aima.gov.pt.' }
           ]},
           { id: 'c5', title: '5. Email', content: [
             { kind: 'paragraph', text: 'Use email addresses and contact forms published on the official AIMA “Contactos” page or on the page of the specific service location / in the AIMA notification you received. Unverified regional addresses in the format cidade@aima.gov.pt circulate regularly — do not send personal data there unless confirmed on aima.gov.pt.' },
@@ -45,7 +46,7 @@ export default {
       id: 'community-tools',
       title: 'Community tools for getting through by phone',
       content: [
-        { kind: 'paragraph', text: 'The AIMA 808 202 653 line is often busy. SEF was abolished in October 2023, and its immigration functions were transferred to AIMA — old materials may mention SEF, but you need to contact AIMA. Any unofficial bots/chats have NO connection to AIMA:' },
+        { kind: 'paragraph', text: 'The AIMA phone line is often busy. SEF was abolished in October 2023, and its immigration functions were transferred to AIMA — old materials may mention SEF and its number 808 202 653, but you need to contact AIMA on the current numbers. Any unofficial bots/chats have NO connection to AIMA:' },
         { kind: 'checklist', items: [
           '⚠️ Telegram bots with “automatic dialling” (for example, @callaimabot) are NOT official. By giving a bot your phone number, NIF, número de processo or passport scan, you are giving personal data to a third party. Use only at your own risk',
           '⚠️ Public/private chats (such as @aimasefgroup) can be useful for general information, but DO NOT post DUC, CN codes, NIF, número de processo, recibos, passport details or screenshots with personal data there',
@@ -95,12 +96,13 @@ export default {
   ],
   sources: [
     { title: 'AIMA — Contactos (main contacts page)', url: 'https://aima.gov.pt/pt/contactos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'gov.pt — Contactar a Linha de Apoio a Migrantes (808 257 257 / +351 218 106 191)', url: 'https://www2.gov.pt/pt/servicos/contactar-a-linha-de-apoio-a-migrantes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'AIMA — Locais de atendimento', url: 'https://aima.gov.pt/pt/locais-de-atendimento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AIMA Portal — online account', url: 'https://portal.aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Appointment booking', url: 'https://www.gov.pt/servicos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Provedor de Justiça — Portuguese ombudsman', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei n.º 41/2023 — creation of AIMA / extinção SEF', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023-212371907', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

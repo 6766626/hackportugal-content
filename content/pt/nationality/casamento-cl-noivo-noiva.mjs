@@ -3,7 +3,7 @@ export default {
   id: 'casamento-cl-noivo-noiva',
   categoryId: 'nationality',
   title: 'Casamento Civil: etapas e documentos para estrangeiros',
-  tldr: 'O Casamento Civil em Portugal é tratado através da Conservatória do Registo Civil / IRN. A cerimónia é realizada por um conservador ou oficial de registos, NÃO por um notário; o notário é necessário para a convenção antenupcial (contrato antenupcial), mas não para o próprio registo do casamento. Estrangeiros residentes e não residentes seguem o mesmo processo: apresentam o processo preliminar, passaportes e comprovativos de estado civil com pelo menos 30 dias de antecedência. Documentos estrangeiros precisam de apostila/legalização e tradução para PT. A taxa normal do processo + registo de casamento segundo o Regulamento Emolumentar é indicativamente a partir de 120 €; uma cerimónia externa fora da Conservatória tem uma surcharge separada segundo a tabela do IRN, dependendo do dia da semana e da distância. Normalmente são pedidas 2 testemunhas com documentos.',
+  tldr: 'O Casamento Civil em Portugal é tratado através da Conservatória do Registo Civil / IRN. A cerimónia é realizada por um conservador ou oficial de registos, NÃO por um notário; o notário é necessário para a convenção antenupcial (contrato antenupcial), mas não para o próprio registo do casamento. Estrangeiros residentes e não residentes seguem o mesmo processo: apresentam o processo preliminar, passaportes e comprovativos de estado civil com pelo menos 30 dias de antecedência. Documentos estrangeiros precisam de apostila/legalização e tradução para PT. A taxa do processo + registo de casamento segundo o Regulamento Emolumentar é de 120 €; uma cerimónia fora da Conservatória ou fora do horário de funcionamento / em dia feriado tem um emolumento de 200 € segundo a tabela do IRN, acrescido de eventuais custos de deslocação do conservador. As testemunhas não são obrigatórias: podem intervir entre 2 e 4 testemunhas, mas a lei não as exige.',
   tags: ['casamento', 'registo civil', 'irn', 'documentos'],
   estimatedReadMinutes: 6,
   steps: [
@@ -120,8 +120,8 @@ export default {
     }
   ],
   costs: [
-    { label: 'Processo + registo de casamento na Conservatória (IRN)', amountEURMin: 120, amountEURMax: 160, note: 'Valor indicativo para uma cerimónia normal segundo o Regulamento Emolumentar dos Registos e do Notariado; confirme o montante final no momento da marcação no IRN.' },
-    { label: 'Cerimónia externa fora da Conservatória', amountEURMin: 300, amountEURMax: 600, note: 'Surcharge segundo a tabela do IRN; depende do dia da semana, da hora e da distância; confirme o montante exacto na Conservatória concreta.' },
+    { label: 'Processo + registo de casamento na Conservatória (IRN)', amountEURMin: 120, amountEURMax: 120, note: 'Emolumento fixo de 120 € para uma cerimónia normal em horário de funcionamento, segundo o Regulamento Emolumentar dos Registos e do Notariado; podem acrescer certidões avulsas. Confirme o montante final no momento da marcação no IRN.' },
+    { label: 'Cerimónia fora da Conservatória / fora do horário / em dia feriado', amountEURMin: 200, amountEURMax: 200, note: 'O emolumento do IRN é de 200 € (Regulamento Emolumentar). Os custos de deslocação do conservador e do espaço privado (quinta, hotel) são pagos à parte e não constituem taxa do IRN.' },
     { label: 'Convenção antenupcial', amountEURMin: 100, amountEURMax: 250, note: 'Se for necessário contrato antenupcial ou um regime de bens não padrão; o preço depende da Conservatória/Notário e do conteúdo.' },
     { label: 'Tradução e reconhecimento notarial', amountEURMin: 30, amountEURMax: 120, note: 'Por documento; depende da língua, da urgência e do tradutor.' },
     { label: 'Apostila de Haia no estrangeiro', amountEURMin: 10, amountEURMax: 80, note: 'Não é uma taxa portuguesa; depende do país de emissão do documento.' }
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

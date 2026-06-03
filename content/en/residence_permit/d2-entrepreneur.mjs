@@ -3,7 +3,7 @@ export default {
   id: 'd2-entrepreneur',
   categoryId: 'residence_permit',
   title: 'D2 visa (entrepreneur / self-employed)',
-  tldr: 'D2 is a visa for starting a business or self-employment in Portugal. Options: open a company, register as self-employed via Início de Atividade, buy an existing business. The financial threshold is individual: you need a viable business plan and funds for the start-up and living costs. The first residence permit is usually for 2 years, then renewed. Under current law, naturalisation is after 5 years — but on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII, which, after publication in the DRE, will raise the period to 7 years for CPLP/EU and 10 years for everyone else.',
+  tldr: 'D2 is a visa for starting a business or self-employment in Portugal. Options: open a company, register as self-employed via Início de Atividade, buy an existing business. The financial threshold is individual: you need a viable business plan and funds for the start-up and living costs. The first residence permit is usually for 2 years, then renewed. The Nationality Law reform is already in force: Lei Orgânica n.º 1/2026 (published 18.05.2026, in force from 19.05.2026) raised the residence requirement for naturalisation from 5 to 7 years for CPLP/EU citizens and to 10 years for everyone else. Applications filed up to and including 18.05.2026 keep the previous 5-year period.',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d2', 'residence permit', 'business', 'entrepreneur'],
   estimatedReadMinutes: 7,
@@ -75,8 +75,9 @@ export default {
     { title: 'AIMA — Autorização de Residência (residence permit) for entrepreneurs', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Empresa na Hora — create a company in a day', url: 'https://justica.gov.pt/Servicos/Empresa-na-Hora', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portaria n.º 1563/2007 — meios de subsistência', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/1563-2007-635255', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Decreto-Lei n.º 112/2025 — SMN 2026 (€920)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/112-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Decreto-Lei n.º 112/2025 — SMN 2026 (€920)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/112-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei Orgânica n.º 1/2026 — Nationality Law reform (7/10-year requirement, in force from 19.05.2026)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'd4-student',
   categoryId: 'residence_permit',
   title: 'Visto D4 (estudante) — licenciatura, mestrado, doutoramento',
-  tldr: 'D4 / visto de residência para estudo — sobretudo para ensino superior e alguns programas de longa duração reconhecidos. Para cursos de línguas/preparatórios aplica-se frequentemente um visto de estada temporária, e não o D4. Um estudante com autorização de residência para ensino superior pode trabalhar por conta de outrem ou como trabalhador independente, cumprindo a lei e notificando a AIMA — neste regime não existe um limite geral de 20 horas por semana. Após a conclusão dos estudos, é possível pedir uma autorização de residência/prorrogação para procura de trabalho ou empreendedorismo por até 1 ano (isto NÃO é o mesmo «visto de procura de trabalho» para entrada a partir do estrangeiro).',
+  tldr: 'D4 / visto de residência para estudo — sobretudo para ensino superior e alguns programas de longa duração reconhecidos. Para cursos de línguas/preparatórios aplica-se frequentemente um visto de estada temporária, e não o D4. Um estudante com autorização de residência para ensino superior pode trabalhar por conta de outrem ou como trabalhador independente, cumprindo a lei e notificando a AIMA — neste regime não existe um limite geral de 20 horas por semana. Após a conclusão dos estudos, é possível pedir uma autorização de residência para procura de trabalho ou empreendedorismo; para diplomados de mestrado/doutoramento trata-se de um período de até 1 ano (isto NÃO é o mesmo «visto de procura de trabalho» para entrada a partir do estrangeiro).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d4', 'estudante', 'autorização de residência', 'estudos'],
   estimatedReadMinutes: 6,
@@ -55,7 +55,7 @@ export default {
           'Após a legalização, é possível inscrever-se no SNS / centro de saúde. O SNS é, em geral, tendencialmente gratuito, mas medicamentos e alguns serviços são parcialmente pagos; até à inscrição é necessário seguro de saúde',
           'Renovação pelo período dos estudos',
           'Havendo uma oferta de emprego após o diploma, é possível alterar o fundamento da autorização de residência para actividade profissional; para funções altamente qualificadas pode aplicar-se o regime de highly qualified activity. A possibilidade depende do contrato, salário/qualificações e decisão da AIMA',
-          'Após a conclusão dos estudos, é possível pedir uma autorização de residência/prorrogação para procura de trabalho ou empreendedorismo por um período de até 1 ano (Lei 23/2007 art. 122) — isto NÃO é o visto de procura de trabalho para entrada a partir do estrangeiro'
+          'Após a conclusão dos estudos, é possível pedir uma autorização de residência para procura de trabalho ou empreendedorismo (Lei 23/2007 art. 122): para diplomados de mestrado/doutoramento (2.º/3.º ciclo) — um período de até 1 ano (al. p); para diplomados de licenciatura (1.º ciclo) o fundamento é outro (al. o). Isto NÃO é o visto de procura de trabalho para entrada a partir do estrangeiro'
         ]}
       ]
     },
@@ -83,6 +83,6 @@ export default {
     { title: 'Vistos MNE — Visto de Estudo', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Estudantes estrangeiros', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

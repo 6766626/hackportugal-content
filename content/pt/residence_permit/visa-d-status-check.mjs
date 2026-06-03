@@ -89,6 +89,6 @@ export default {
     { title: 'Lei 23/2007 — regime de entrada e permanência', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Obter autorização de residência', url: 'https://www.gov.pt/cidadaos/-/informacoes/obter-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

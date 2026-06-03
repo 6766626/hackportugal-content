@@ -47,7 +47,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Список немного отличается по муниципалитетам. Перед визитом проверьте сайт своей Câmara Municipal или напишите в atendimento. Но базовый набор для студента почти везде одинаковый.' },
         { kind: 'checklist', items: [
-          'Паспорт или national ID card страны ЕС/EEE/Швейцарии',
+          'Паспорт или национальное удостоверение личности страны ЕС/EEE/Швейцарии',
           'NIF, если уже есть; формально это не условие права на проживание, но муниципалитеты часто просят для записи/квитанции',
           'Подтверждение адреса в Португалии: договор аренды, declaração do senhorio, счёт за коммунальные услуги или atestado de residência от Junta de Freguesia',
           'Документ о зачислении: declaração de matrícula, acceptance letter, Erasmus learning agreement или справка университета',
@@ -128,6 +128,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

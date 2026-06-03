@@ -3,7 +3,7 @@ export default {
   id: 'd7-passive-income',
   categoryId: 'residence_permit',
   title: 'D7 visa (passive income)',
-  tldr: 'D7 is a visa for those who have stable passive income (pension, rent, dividends).\n\nThe baseline threshold in consular practice is 1× SMN (Portugal’s minimum wage) for the applicant, which in 2026 = €920/month (Portaria 1563/2007 art. 16-A is applied by analogy to sufficiency of means; the Lisboa/Rio/Moscow consulates use SMN, not IAS).\n\nStandard family coefficient: +50% SMN for a spouse (€460), +30% SMN for each child (€276).\n\nA deposit/reserve in a Portuguese account is usually 12× SMN = €11,040 for the main applicant (in case the income temporarily stops); this is consular practice, not a strict legal requirement. After 5 years of legal residence, a permanent residence permit or citizenship may be possible (under the current Lei 37/81; the new law Decreto AR 48/XVII was promulgated on 03.05.2026 and will increase the period to 10 years for third-country nationals after publication in the DRE — check the current publication status).',
+  tldr: 'D7 is a visa for those who have stable passive income (pension, rent, dividends).\n\nThe baseline threshold in consular practice is 1× SMN (Portugal’s minimum wage) for the applicant, which in 2026 = €920/month (Portaria 1563/2007 art. 16-A is applied by analogy to sufficiency of means; the Lisboa/Rio/Moscow consulates use SMN, not IAS).\n\nStandard family coefficient: +50% SMN for a spouse (€460), +30% SMN for each child (€276).\n\nA deposit/reserve in a Portuguese account is usually 12× SMN = €11,040 for the main applicant (in case the income temporarily stops); this is consular practice, not a strict legal requirement. After 5 years of legal residence a permanent residence permit may be possible. For citizenship the period has changed: since 19.05.2026, Lei Orgânica 1/2026 (published in the DRE on 18.05.2026) is in force and raised the residence requirement to 7 years for CPLP nationals and to 10 years for other third-country nationals; the period counts from the issuance of the residence permit. Applications filed before the law entered into force remain governed by the previous version of Lei 37/81 (5 years).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d7', 'residence permit', 'passive income'],
   estimatedReadMinutes: 8,
@@ -12,7 +12,7 @@ export default {
       id: 'income-requirements',
       title: 'Financial requirements (2026)',
       content: [
-        { kind: 'paragraph', text: 'The minimum income for D7 in consular practice is tied to SMN (Salário Mínimo Nacional), not to IAS. SMN for 2026 = €920/month (DL 112/2025). Baseline guidance:' },
+        { kind: 'paragraph', text: 'The minimum income for D7 in consular practice is tied to SMN (Salário Mínimo Nacional), not to IAS. SMN for 2026 = €920/month (DL 139/2025). Baseline guidance:' },
         { kind: 'checklist', items: [
           'Applicant: ≥ 1× SMN = €920/month of passive income',
           'Spouse / partner: +50% SMN = €460/month',
@@ -62,8 +62,8 @@ export default {
       id: 'after',
       title: 'After obtaining the residence permit',
       content: [
-        { kind: 'paragraph', text: 'Initial residence permit for 2 years, renewal for 3 years → 5 years in total. After that, it is possible to request a permanent residence permit or citizenship (under the current Lei 37/81 — after 5 years; Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026 and will increase the period to 10 years for third-country nationals after publication in the DRE).' },
-        { kind: 'warning', text: 'D7 requires “effective residence”: there are limits on absences. Under art. 85 Lei 23/2007, absence for more than 6 consecutive months or more than 8 months in total over 2 years during the validity of the residence permit is sufficient for cancellation of the residence permit. These are absence limits, not a “minimum residence” requirement; for renewal, AIMA checks compliance with these limits.' }
+        { kind: 'paragraph', text: 'Initial residence permit for 2 years, renewal for 3 years → 5 years in total. After that, it is possible to request a permanent residence permit. For citizenship, Lei Orgânica 1/2026 applies (published in the DRE on 18.05.2026, in force since 19.05.2026): the residence requirement rose to 7 years for CPLP nationals and to 10 years for other third-country nationals, counted from the issuance of the residence permit. The law was promulgated by President Seguro on 03.05.2026 after removing provisions found unconstitutional (Constitutional Court ruling Acórdão 1133/2025). Applications filed before the law entered into force remain governed by the previous version of Lei 37/81 (5 years).' },
+        { kind: 'warning', text: 'D7 requires “effective residence”: there are limits on absences. Under art. 85 Lei 23/2007, for a temporary residence permit, absence from the country (without acceptable reasons) for more than 6 consecutive months or more than 8 months in total over the whole period of validity of the permit can be grounds for cancellation. These are absence limits, not a “minimum residence” requirement; for renewal, AIMA checks compliance with these limits.' }
       ]
     }
   ],
@@ -94,6 +94,6 @@ export default {
     { title: 'AIMA — Autorização de Residência (residence permit)', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei nº 23/2007 (Entry Regime) — DRE', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

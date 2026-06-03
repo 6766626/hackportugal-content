@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'Até 1 ano, sem autorização de residência. Pode ser prorrogado até 2 anos. Adequado se quiser experimentar viver em Portugal.' }
           ]},
           { id: 'v2', title: 'D8 de longa duração (visto de residência)', content: [
-            { kind: 'paragraph', text: 'Dá direito a requerer uma autorização de residência completa por 2 anos, com renovações posteriores. O caminho para a nacionalidade segue a Lei 37/81 em vigor após 5 anos de residência legal.\n\nDecreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026; publicado em 18.05.2026 como Lei Orgânica n.º 1/2026. Após a publicação no Diário da República, o prazo de naturalização aumentará para 10 anos para nacionais de países terceiros. O texto da lei contém uma disposição transitória: aos processos em tramitação aplica-se a redação anterior da Lei 37/81 (5 anos).' }
+            { kind: 'paragraph', text: 'Dá direito a requerer uma autorização de residência completa por 2 anos, com renovações posteriores — é o caminho para a nacionalidade por naturalização.\n\nDecreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026; publicado em 18.05.2026 como Lei Orgânica n.º 1/2026 e em vigor desde 19.05.2026. Ao abrigo da nova redação da Lei 37/81, o prazo mínimo de residência legal para naturalização é de 10 anos para nacionais de países terceiros e de 7 anos para nacionais da CPLP e da UE (anteriormente 5 anos). O prazo passa a contar-se desde o início da residência legal. Disposição transitória: aos procedimentos administrativos pendentes à data de entrada em vigor da lei aplica-se a redação anterior da Lei 37/81. Confirme a redação aplicável e a forma de contagem do prazo no seu caso junto de fontes oficiais / de um advogado.' }
           ]}
         ]}
       ]
@@ -87,6 +87,6 @@ export default {
     { title: 'Vistos MNE — Tipos de Visto', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Autorização de Residência', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

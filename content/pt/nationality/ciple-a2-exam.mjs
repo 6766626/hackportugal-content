@@ -3,7 +3,7 @@ export default {
   id: 'ciple-a2-exam',
   categoryId: 'nationality',
   title: 'Português A2 — cursos gratuitos, programas escolares e exame CIPLE',
-  tldr: 'O certificado de nível A2 só é necessário para a naturalização por residência (ao abrigo da Lei 37/81 em vigor — 5 anos; 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação em DRE, o prazo aumentará para 7 anos para CPLP/EU e 10 anos para os restantes, além de passar a existir um teste obrigatório de conhecimentos sobre cultura portuguesa, direitos e organização do Estado). Para casamento, união de facto, Reagrupamento Familiar — NÃO é necessário.\n\nIMPORTANTE: para a naturalização, o IRN aceita apenas certificado oficial de nível A2+ (CIPLE / PLA / Centros Qualifica / DEPLE / DAPLE) — uma simples declaração de frequência de 150 horas de curso SEM avaliação de nível NÃO é aceite. As vias mais baratas: PLA (0 €), IEFP (0 € + bolsa, mas com obrigações enquanto desempregado), escolas públicas para adultos ~20 €/semestre. Exame CIPLE — 85 € (2026), sessões mensais.',
+  tldr: 'O certificado de nível A2 só é necessário para a naturalização por residência. A reforma da Lei da Nacionalidade está em vigor desde 19.05.2026: o prazo de residência sobe de 5 para 7 anos para CPLP/UE e 10 anos para os restantes (os pedidos já pendentes antes de 19.05.2026 mantêm a regra antiga — 5 anos). A lei prevê ainda um teste de conhecimentos da língua, cultura, história e organização do Estado, mas só se torna exigível após a publicação de regulamentação própria. Para casamento, união de facto, Reagrupamento Familiar — NÃO é necessário.\n\nIMPORTANTE: para a naturalização, o IRN aceita apenas certificado oficial de nível A2+ (CIPLE / PLA / Centros Qualifica / DEPLE / DAPLE) — uma simples declaração de frequência de 150 horas de curso SEM avaliação de nível NÃO é aceite. As vias mais baratas: PLA (0 €), IEFP (0 € + bolsa, mas com obrigações enquanto desempregado), escolas públicas para adultos ~20 €/semestre. Exame CIPLE — 85 € (2026), sessões mensais.',
   audience: { citizenships: ['thirdCountry', 'euEeaSwiss'] },
   tags: ['ciple', 'a2', 'língua', 'exame', 'pla'],
   estimatedReadMinutes: 7,
@@ -14,18 +14,18 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O nível A2 de português é necessário apenas em alguns casos:' },
         { kind: 'checklist', items: [
-          '✅ Naturalização por residência (art. 6 Lei 37/81 + art. 25 Decreto-Lei 237-A/2006): ao abrigo do direito em vigor — após 5 anos. 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação em DRE: 7 anos para CPLP/EU, 10 anos para os restantes, além de teste obrigatório de conhecimentos sobre cultura portuguesa, direitos e organização do Estado. Até à publicação em DRE, aplicam-se as regras antigas',
+          '✅ Naturalização por residência (art. 6 Lei 37/81 + art. 25 Decreto-Lei 237-A/2006): ao abrigo do direito anterior — após 5 anos. A reforma da Lei da Nacionalidade (promulgada em 03.05.2026, publicada em DR a 18.05.2026, em vigor desde 19.05.2026) aumentou o prazo para 7 anos para CPLP/UE e 10 anos para os restantes. Os pedidos submetidos e pendentes antes de 19.05.2026 são apreciados pelas regras antigas (5 anos). A lei prevê ainda um teste de conhecimentos da língua, cultura, história, símbolos nacionais, direitos e deveres fundamentais e organização do Estado portugueses, mas só se torna exigível após a publicação de regulamentação própria',
           '✅ Para admissão em determinados programas do IEFP, escolas públicas e Centros Qualifica'
         ]},
         { kind: 'paragraph', text: 'Quando o certificado CIPLE NÃO é exigido:' },
         { kind: 'checklist', items: [
           '❌ Nacionalidade por casamento / união de facto — a Lei 37/81 não exige língua (apenas «ligações efetivas»)',
-          '⚠️ Nacionalidade por origem — netos/bisnetos de portugueses (Lei 37/81 art. 1(1)(d) e art. 1(1)(e)): a lei exige «sufficient knowledge of the Portuguese language» (conhecimento suficiente da língua portuguesa), e não especificamente A2. O certificado CIPLE A2 ou equivalente é a forma mais segura de comprovar; em casos duvidosos, o IRN também pode aceitar entrevista, documentos escolares de um país de língua portuguesa, documentos CPLP, etc. Filhos de portugueses (art. 1(1)(c)) — normalmente sem requisito linguístico',
+          '⚠️ Nacionalidade por origem — netos/bisnetos de portugueses (Lei 37/81 art. 1(1)(d) e art. 1(1)(e)): a lei exige «conhecimento suficiente da língua portuguesa», e não especificamente A2. O certificado CIPLE A2 ou equivalente é a forma mais segura de comprovar; em casos duvidosos, o IRN também pode aceitar entrevista, documentos escolares de um país de língua portuguesa, documentos CPLP, etc. Filhos de portugueses (art. 1(1)(c)) — normalmente sem requisito linguístico',
           '❌ Reagrupamento Familiar — a AIMA não pede prova de língua',
           '❌ Renovação da autorização de residência — a AIMA não exige',
           '❌ Cidadãos de países com português como língua oficial (Brasil, Angola, Cabo Verde, Moçambique, Guiné-Bissau, São Tomé, Timor-Leste, Guiné Equatorial): pelas regras do Regulamento da Nacionalidade, presume-se o conhecimento da língua. Confirme o seu caso concreto junto do IRN'
         ]},
-        { kind: 'warning', text: 'O IRN, ao submeter pedido de naturalização por residência (art. 6), aceita apenas certificado OFICIAL que indique um nível concreto A2 ou superior. Uma declaração de frequência de curso (frequência) sem avaliação de nível — NÃO serve. Para netos/bisnetos (art. 1(1)(d/e)), o conjunto de provas admissíveis é mais amplo — confirme junto do IRN se o CIPLE não estiver disponível.' }
+        { kind: 'warning', text: 'No pedido de naturalização por residência (art. 6), o IRN aceita apenas certificado OFICIAL que indique um nível concreto A2 ou superior. Uma declaração de frequência de curso (frequência) sem avaliação de nível — NÃO serve. Para netos/bisnetos (art. 1(1)(d/e)), o conjunto de provas admissíveis é mais amplo — confirme junto do IRN se o CIPLE não estiver disponível.' }
       ]
     },
     {
@@ -168,6 +168,6 @@ export default {
     { title: 'AIMA — Português Língua de Acolhimento (PLA)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

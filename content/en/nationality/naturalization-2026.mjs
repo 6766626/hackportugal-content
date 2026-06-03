@@ -3,7 +3,7 @@ export default {
   id: 'naturalization-2026',
   categoryId: 'nationality',
   title: 'Naturalisation — Portuguese citizenship under the new law Lei Orgânica 1/2026',
-  tldr: '🆕 Lei Orgânica n.º 1/2026 was published in the DR on 18/05/2026, in force from 19/05/2026. The basic route under the new law:\n\n📅 Residence period: 7 years for CPLP and EU/EEA/Swiss citizens; 10 years for third countries. ONLY time from the date of issue of the first título de residência counts — waiting time for the first residence permit NO longer counts.\n\n🗣️ Portuguese A2 knowledge (CIPLE or equivalent certificate). For CPLP — not required.\n\n📝 Mandatory test on knowledge of Portuguese culture, citizens’ rights and duties, and the political system.\n\n⚖️ No criminal convictions with a sentence of ≥ 3 years’ imprisonment (threshold tightened).\n\n🏠 Real physical presence — simply holding a residence permit is not enough.\n\n🚫 The Sephardic route has been completely abolished.\n\n⚖️ Transitional provision (for those who applied BEFORE 19/05/2026): the previous Lei 37/81 applies — 5 years’ residence for all nationalities, no mandatory cultural test, criminal conviction threshold of 5 years. IRN confirmed on 07–08/05/2026: the key cut-off is the submission date on the Portal da Nacionalidade online platform; everything submitted before 19/05/2026 is assessed under the old rules.\n\n🔴 Related Decreto 49/XVII (loss of citizenship as a criminal penalty): on 08/05/2026 the TC UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament. PSD will not reconfirm it; overcoming the TC requires 2/3 of votes — unlikely.',
+  tldr: '🆕 Lei Orgânica n.º 1/2026 was published in the DR on 18/05/2026, in force from 19/05/2026. The basic route under the new law:\n\n📅 Residence period: 7 years for CPLP and EU/EEA/Swiss citizens; 10 years for third countries. ONLY time from the date of issue of the first título de residência counts — waiting time for the first residence permit NO longer counts.\n\n🗣️ Portuguese A2 knowledge (CIPLE or equivalent certificate). For CPLP — not required.\n\n📝 Mandatory test on knowledge of Portuguese culture, citizens’ rights and duties, and the political system.\n\n⚖️ Naturalisation is barred by a final conviction to effective imprisonment of more than 3 years for serious crimes (terrorism, violent and especially violent crime, highly organised crime, crimes against state security, aiding illegal immigration). The previous threshold was more than 5 years.\n\n🏠 Real physical presence — simply holding a residence permit is not enough.\n\n🚫 The Sephardic route has been completely abolished.\n\n⚖️ Transitional provision (for those who applied BEFORE 19/05/2026): the previous Lei 37/81 applies — 5 years’ residence for all nationalities, no mandatory cultural test, criminal conviction threshold of 5 years. IRN confirmed on 07–08/05/2026: the key cut-off is the submission date on the Portal da Nacionalidade online platform; everything submitted before 19/05/2026 is assessed under the old rules.\n\n🔴 Related Decreto 49/XVII (loss of citizenship as a criminal penalty): on 08/05/2026 the TC UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament. PSD will not reconfirm it; overcoming the TC requires 2/3 of votes — unlikely.',
   tags: ['citizenship', 'naturalisation', 'cplp'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-05-19',
@@ -38,7 +38,7 @@ export default {
           '🗣️ Portuguese A2 knowledge: CIPLE/DEPLE/school certificate ≥ 150 hours with A2 level/Portuguese university diploma/completion of the 6th year of school in Portugal. Not required for CPLP citizens',
           '📝 Mandatory test on knowledge of Portuguese culture, citizens’ rights and duties, and the state’s political system (new requirement)',
           '🏠 Real physical presence — simply holding a residence permit is not enough; AIMA/IRN check actual residence',
-          '⚖️ No criminal convictions with a sentence of ≥ 3 years’ imprisonment in any country of residence (threshold tightened from 5 to 3 years)',
+          '⚖️ No final conviction to effective imprisonment of more than 3 years for serious crimes (terrorism, violent and especially violent crime, highly organised crime, crimes against state security, aiding illegal immigration) — as punishable under Portuguese law. Threshold tightened: previously more than 5 years',
           '🛡️ Does not pose a threat to national security'
         ]},
         { kind: 'paragraph', text: 'What has been abolished in the new version:' },
@@ -64,7 +64,7 @@ export default {
           '📅 5 years of legal residence for ALL nationalities (CPLP, EU, third countries)',
           '🗣️ Portuguese A2 knowledge — same requirement (for non-CPLP)',
           '❌ NO cultural test',
-          '⚖️ Criminal conviction threshold — 5 years’ imprisonment (not 3 years)',
+          '⚖️ Criminal conviction threshold — more than 5 years’ imprisonment (not more than 3 years)',
           '✅ “Connection to Portugal” is NOT a formal requirement in art. 6. It may only be requested where there are obvious signs of fictitious stay. 5 years of legal residence permit is considered sufficient',
           '⏱️ Waiting time for the first residence permit (including MdI, if submitted before 03/06/2024 and a comprovativo was obtained) could be counted — the position is disputed and depends on the Conservatória/case law',
           '⚠️ The Sephardic route operated under the post-LO 1/2024 regime (residence 3+ years + committee) — but only for applications submitted before 19/05/2026'
@@ -174,6 +174,6 @@ export default {
     { title: 'PUBLICO — IRN: nationality applications count from the submission date. Pending cases are not affected (08/05/2026)', url: 'https://www.publico.pt/2026/05/08/sociedade/noticia/irn-pedidos-nacionalidade-contam-desde-data-submissao-pendentes-nao-sao-afectados-nova-lei-2174038', kind: 'news', language: 'pt', lastRetrieved: '2026-05-15' },
     { title: 'PUBLICO — Nationality applications made before the change in the law will follow the old rules (13/05/2026)', url: 'https://www.publico.pt/2026/05/13/publico-brasil/noticia/pedidos-nacionalidade-mudanca-lei-seguirao-regras-antigas-2174590', kind: 'news', language: 'pt', lastRetrieved: '2026-05-15' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60
 }

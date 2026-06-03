@@ -80,8 +80,8 @@ export default {
           { id: 't1', title: 'Opção A — tradutor certificado na Conservatória do Registo Civil', content: [
             { kind: 'paragraph', text: 'O tradutor faz a tradução → certifica-a na Conservatória do Registo Civil. Este é o procedimento oficial.' }
           ]},
-          { id: 't2', title: 'Opção B — tradução no notário', content: [
-            { kind: 'paragraph', text: 'O notário faz um termo de certificação da tradução.' }
+          { id: 't2', title: 'Opção B — certificação por notário, advogado ou solicitador', content: [
+            { kind: 'paragraph', text: 'O notário, o advogado ou o solicitador, bem como as câmaras de comércio e indústria, podem fazer um termo de certificação da tradução — é o que permite o Decreto-Lei n.º 237/2001. Na prática, é o procedimento mais comum e cómodo.' }
           ]},
           { id: 't3', title: 'Opção C — consulado de Portugal no país de origem', content: [
             { kind: 'paragraph', text: 'Tradução por tradutor consular. É conveniente se o documento for legalizado no consulado.' }
@@ -103,6 +103,6 @@ export default {
     { title: 'Conferência da Haia — Convenção da Apostilha', url: 'https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Traduções e reconhecimentos', url: 'https://irn.justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

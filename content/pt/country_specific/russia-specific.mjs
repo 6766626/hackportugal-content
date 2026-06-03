@@ -3,7 +3,7 @@ export default {
   id: 'russia-specific',
   categoryId: 'country_specific',
   title: 'Mudança da Rússia — especificidades',
-  tldr: 'Cidadãos russos: as sanções da UE tornaram a parte bancária mais difícil, mas a mudança é possível. Os vistos turísticos Schengen normalmente não são emitidos (excepto em casos humanitários). Os vistos D são emitidos. O Consulado de Portugal em Moscovo funciona, mas com fila de espera de 2–4 meses. Importante: cartões Visa/Mastercard de bancos russos NÃO funcionam fora da Federação Russa (desde 2022 — Visa/MC saíram da Federação Russa).\n\nUnionPay é parcialmente aceite em alguns terminais. Muitos grandes bancos russos (Sber, VTB, Alfa, Gazprombank, Tinkoff/T-Bank, entre outros) estão sujeitos a sanções da UE/SDN; a origem de fundos provenientes destes bancos exige prova reforçada da proveniência e pode ser bloqueada por um banco português. Abra uma conta portuguesa antes da chegada ou imediatamente depois.',
+  tldr: 'Cidadãos russos: as sanções da UE tornaram a parte bancária mais difícil, mas a mudança é possível. Os vistos turísticos Schengen (C) são mais difíceis de obter: não há proibição geral, mas desde Setembro de 2022 o controlo é muito mais rigoroso e desde Novembro de 2025 são quase exclusivamente de entrada única. Os vistos D são emitidos. O Consulado de Portugal em Moscovo funciona, mas com fila de espera de 2–4 meses. Importante: cartões Visa/Mastercard de bancos russos NÃO funcionam fora da Federação Russa (desde 2022 — Visa/MC saíram da Federação Russa).\n\nUnionPay é parcialmente aceite em alguns terminais. Muitos grandes bancos russos (Sber, VTB, Alfa, Gazprombank, Tinkoff/T-Bank, entre outros) estão sujeitos a sanções da UE/SDN; a origem de fundos provenientes destes bancos exige prova reforçada da proveniência e pode ser bloqueada por um banco português. Abra uma conta portuguesa antes da chegada ou imediatamente depois.',
   audience: { countryCodes: ['RU'] },
   tags: ['rússia', 'sanções', 'vistos'],
   estimatedReadMinutes: 7,
@@ -13,12 +13,12 @@ export default {
       title: 'Vistos 2026',
       content: [
         { kind: 'checklist', items: [
-          '❌ Schengen turísticos (C) — a UE suspendeu o acordo de facilitação com a Federação Russa desde Setembro de 2022; taxa de visto 90 €; emissões pontuais',
+          '❌ Schengen turísticos (C) — a UE suspendeu o acordo de facilitação com a Federação Russa desde Setembro de 2022; taxa de visto 90 €; emissões pontuais. Desde Novembro de 2025, a Comissão Europeia pôs fim aos vistos de entradas múltiplas para cidadãos russos — quase todos os vistos são agora de entrada única, com verificação reforçada',
           '✅ Vistos D (D2/D3/D4/D7/D8) — são emitidos, processo igual ao de outros países terceiros',
           '✅ Reagrupamento Familiar — funciona',
           '✅ A mobilidade CPLP não se aplica (a Rússia não pertence à comunidade dos países de língua portuguesa). Opção — apenas se tiver uma segunda nacionalidade de um país CPLP',
           '✅ D4 de estudante — é emitido, popular',
-          'Consulado de Portugal em Moscovo: Rua Fadeyeva 11 — funciona em regime normal, fila para marcação de 2–4 meses'
+          'Consulado de Portugal em Moscovo (Botanichesky Pereulok 1) — funciona em regime normal, fila para marcação de 2–4 meses'
         ]}
       ]
     },
@@ -120,7 +120,7 @@ export default {
     { title: 'Vistos MNE — vistos D', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — compensações e AML', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90,
   recentlyChangedAt: '2026-05-13',
   changeSummary: '13.05.2026 Adicionada secção sobre o anúncio da Embaixada de Portugal em Moscovo de 17.04.2026: simplificação do procedimento de entrega de documentos para vistos de estudo D4 (nacional de estudo), E9 (Erasmus Mundus) e E6 (para contacto posterior com a AIMA). Esclarecido: a embaixada não declara literalmente “sem marcação”; trata-se de entrega prioritária/simplificada. Horário da BLS Moscovo: recepção 09:00–15:00, entrega/consultas 15:00–16:00 (seg–sex).'

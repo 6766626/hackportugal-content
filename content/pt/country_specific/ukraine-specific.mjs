@@ -5,7 +5,7 @@ export default {
   title: 'Ucranianos em Portugal — proteção temporária e mudança',
   tldr: 'Os ucranianos recebem proteção temporária (Proteção Temporária) — residência legal, trabalho, acesso ao SNS e escola sem visto separado. Diretiva UE 2001/55/CE, regime prolongado por decisão do Conselho da UE até 4 de março de 2027. O estatuto é tratado na AIMA gratuitamente. Para uma mudança de longo prazo, estão disponíveis os vistos D normais.',
   audience: { countryCodes: ['UA'] },
-  tags: ['ucrânia', 'proteção temporária', 'proteção temporária'],
+  tags: ['ucrânia', 'proteção temporária', 'mudança'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2025-11-01',
   changeSummary: 'A proteção temporária para ucranianos na UE foi prolongada até 4 de março de 2027. AIMA continua a emitir e a renovar autorizações.',
@@ -69,7 +69,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Spilka Ukrainska em Portugal — organização cívica',
-          'Embaixada da Ucrânia em Lisboa: Rua de Alcolena 17 (+351 21 301 1030)',
+          'Embaixada da Ucrânia em Lisboa: Avenida das Descobertas 18, 1400-092 Lisboa (+351 213 010 043)',
           'Consulados honorários: Porto, Faro, Funchal',
           'Igreja Ortodoxa Ucraniana em Lisboa',
           'Escolas ucranianas de fim de semana em Lisboa, Porto',
@@ -88,7 +88,7 @@ export default {
           'Trabalho: LinkedIn, Indeed, chats ucranianos',
           'Apoio social: Segurança Social — Abono de Família, RSI, apoio à habitação',
           'Para regressos temporários à Ucrânia: o estatuto mantém-se, mas confirme junto da AIMA',
-          'As cartas de condução da Ucrânia são reconhecidas durante todo o período de validade da Proteção Temporária (Regulation EU 2022/1280, prolongado até 4 de março de 2027) — sem troca obrigatória nos primeiros 185 dias. Ao transitar para visto D/autorização de residência — troca no IMT ao abrigo do acordo bilateral UA–PT de 2019 sem exame'
+          'As cartas de condução da Ucrânia são reconhecidas durante todo o período de validade da Proteção Temporária (Regulation EU 2022/1280, prolongado até 4 de março de 2027) — sem troca obrigatória. Ao transitar para autorização de residência, a troca no IMT é feita com dispensa de exame (a Ucrânia é parte na Convenção de Viena sobre Trânsito Rodoviário de 1968); os titulares de proteção temporária estão isentos de taxas de exame. Os pedidos são submetidos online no portal do IMT'
         ]}
       ]
     }
@@ -99,6 +99,6 @@ export default {
     { title: 'ePortugal — Proteção Temporária', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Embaixada da Ucrânia em Portugal', url: 'https://portugal.mfa.gov.ua/', kind: 'official', language: 'uk', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

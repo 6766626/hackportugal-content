@@ -3,7 +3,7 @@ export default {
   id: 'immigrant-calendar',
   categoryId: 'before_arrival',
   title: 'Calendário do imigrante — o que fazer mês a mês após a chegada',
-  tldr: 'Checklist por mês para os primeiros 24 meses em Portugal. Mês 1 (NIF, conta bancária, contrato de arrendamento); Mês 2 (NISS, registo na Junta de Freguesia, utente SNS); Meses 2–4 (pedido à AIMA para autorização de residência, pagamento de 96,12 €, verificação do estado através de autorização de residência online); Meses 4–9 (emissão do título de residência); Ano 1 (declaração de IRS até 30 de junho, verificação da morada, seguros); Ano 2 (renovação da autorização de residência 60 dias antes do fim da validade, nova comunicação da morada às Finanças).\n\nApós 5 anos — autorização de residência permanente ou cidadania (ver guia separado).\n\nCada passo remete para um guia detalhado na aplicação.',
+  tldr: 'Checklist por mês para os primeiros 24 meses em Portugal. Mês 1 (NIF, conta bancária, contrato de arrendamento); Mês 2 (NISS, registo na Junta de Freguesia, utente SNS); Meses 2–4 (pedido à AIMA para autorização de residência, pagamento da taxa da AIMA, verificação do estado através de autorização de residência online); Meses 4–9 (emissão do título de residência); Ano 1 (declaração de IRS até 30 de junho, verificação da morada, seguros); Ano 2 (renovação da autorização de residência 60 dias antes do fim da validade, nova comunicação da morada às Finanças).\n\nApós 5 anos — autorização de residência permanente ou cidadania (ver guia separado).\n\nCada passo remete para um guia detalhado na aplicação.',
   tags: ['calendário', 'checklist', 'mudança', 'integração'],
   estimatedReadMinutes: 9,
   steps: [
@@ -42,7 +42,7 @@ export default {
         { kind: 'paragraph', text: 'Desde 2024-2025, a AIMA passou totalmente para pedidos online através de aima.gov.pt e do Portal SAPA para a maioria dos tipos de autorização de residência. Não há marcação presencial para entregar o pedido — apenas a biometria final após aprovação.' },
         { kind: 'checklist', items: [
           '📝 Preparar o dossiê: passaporte, visto D (se aplicável), NIF, NISS, contrato de arrendamento + registo nas Finanças, extrato bancário (3 meses), certificado de registo criminal do país de nacionalidade (apostila + tradução), prova de rendimentos/estudos (depende do tipo de autorização de residência)',
-          '💶 Pagar a taxa AIMA: 96,12 € para a maioria dos tipos de autorização de residência (D1-D9), referência Multibanco',
+          '💶 Pagar a taxa da AIMA: desde 1 de março de 2026, para a maioria dos tipos de autorização de residência (D1-D9) são 133 € de receção e análise + 307,20 € de concessão (cerca de 440 € no total), por referência Multibanco. As taxas são atualizadas anualmente — confirme a tabela em vigor em aima.gov.pt',
           '📤 Submeter online em aima.gov.pt com Chave Móvel Digital. Ver o guia «AIMA online 2026»',
           '⏱️ Espera pela decisão: 30–90 dias (por lei — 90 dias, na prática 60–180 dias em 2026)',
           '📅 Marcação da biometria (após aprovação): proposta automática de data na área pessoal',
@@ -88,8 +88,8 @@ export default {
         { kind: 'checklist', items: [
           '📅 60 dias antes do fim da validade da autorização de residência: pedido de renovação através de aima.gov.pt',
           '📋 Documentos: os mesmos do primeiro pedido + comprovativo de rendimentos (IRS dos últimos 2 anos)',
-          '💶 Taxa: 96,12 € (renovação = o mesmo custo)',
-          '⏱️ Se a AIMA ficar em silêncio e a autorização de residência estiver prestes a expirar: a sua autorização de residência é OFICIALMENTE prorrogada automaticamente até à decisão da AIMA — leve consigo a autorização de residência antiga + comprovativo do pedido de renovação',
+          '💶 Taxa: igual à da primeira emissão (desde 1 de março de 2026 — 133 € de receção + 307,20 € de renovação)',
+          '⏱️ Se a autorização de residência já caducou e ainda não há decisão: o direito de residência não caduca antes de decorridos 6 meses sobre o termo da validade do título (artigo 63.º do Decreto Regulamentar n.º 84/2007) — mas só se JÁ tiver apresentado o pedido de renovação. Leve consigo o título caducado + o recibo comprovativo de que o pedido de renovação está em tramitação',
           '🇵🇹 Ano 2+ — excelente altura para começar a aprender português de forma ativa (para cidadania será necessário A2, para autorização de residência permanente é útil)',
           '🎓 Inscrever-se em cursos gratuitos PLA (Português Língua de Acolhimento) numa escola ou online — ver «Aprender português»'
         ]}
@@ -112,10 +112,10 @@ export default {
       id: 'year-5',
       title: 'Ano 5 — cidadania ou autorização de residência permanente',
       content: [
-        { kind: 'paragraph', text: 'Após 5 anos de residência legal, pode escolher: pedir a cidadania (ao abrigo da lei antiga — enquanto estiver em vigor) ou pedir autorização de residência permanente.' },
+        { kind: 'paragraph', text: 'ATENÇÃO: a regra dos 5 anos já não se aplica a novos requerentes. A nova lei da nacionalidade (Lei Orgânica n.º 1/2026) foi publicada no Diário da República em 18 de maio de 2026 e entrou em vigor em 19 de maio de 2026. Passa a exigir 7 anos de residência legal para nacionais de países da CPLP e da UE, e 10 anos para nacionais de países terceiros; o prazo conta-se a partir da data de emissão do primeiro título de residência. Os pedidos apresentados até 18 de maio de 2026, inclusive, são tramitados ao abrigo da lei anterior (Lei n.º 37/81). A autorização de residência permanente está disponível após 5 anos de residência; para a cidadania, verifique os novos prazos.' },
         { kind: 'checklist', items: [
-          '🆔 Pedido de naturalização: formulários IRN, certificado A2 PT, certidão de residência legal da AIMA, certificados de registo criminal de todos os países de residência >1 ano, taxa de 250 €. Ver «Naturalização 2026»',
-          '⚖️ IMPORTANTE: a partir de 2026, a nova lei pode alterar os prazos para 7 (CPLP+EU) ou 10 (países terceiros) anos. Submeta online através do Portal da Nacionalidade ANTES da publicação em DRE — isso fixa para si as regras antigas',
+          '🆔 Pedido de naturalização (quando atingir o novo prazo — 7 ou 10 anos): formulários IRN, certificado A2 PT, certidão de residência legal da AIMA, certificados de registo criminal de todos os países de residência >1 ano, taxa de 250 €. Ver «Naturalização 2026»',
+          '⚖️ IMPORTANTE: as disposições transitórias da Lei Orgânica n.º 1/2026 não esclarecem de forma inequívoca se o tempo de residência anterior à entrada em vigor da lei conta para o novo prazo — a questão é controversa e aguardam-se esclarecimentos da AIMA/IRN. Antes de submeter, consulte um advogado sobre a sua situação concreta',
           '🌍 Alternativa: autorização de residência permanente (residência permanente) — dá quase todos os direitos de cidadão, exceto voto e passaporte, sem renunciar a outra nacionalidade, sem requisito A2 (embora A1 seja recomendado)',
           '👶 Se nasceram filhos em Portugal — podem obter cidadania automaticamente (ver «Cidadania por descendência»)'
         ]}
@@ -144,7 +144,7 @@ export default {
     { title: 'ePortugal / AMA — Chave Móvel Digital', url: 'https://www.gov.pt/cidadaos/-/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Pedidos de nacionalidade', url: 'https://justica.gov.pt/Servicos/Submeter-pedido-de-nacionalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: calendário do imigrante — o que fazer mês a mês após a chegada a Portugal. Mês 1 (NIF, banco, arrendamento), mês 2 (NISS, SNS, Chave Móvel Digital), meses 2-4 (AIMA), meses 4-9 (obtenção da autorização de residência), ano 1 (IRS, seguros), ano 2 (renovação da autorização de residência), ano 5 (cidadania/autorização de residência permanente). Ligado a todos os guias principais na aplicação.'

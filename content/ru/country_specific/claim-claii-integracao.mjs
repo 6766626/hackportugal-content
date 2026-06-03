@@ -3,7 +3,7 @@ export default {
   id: 'claim-claii-integracao',
   categoryId: 'country_specific',
   title: 'CLAIM/CLAII — местные центры поддержки интеграции мигрантов',
-  tldr: 'CLAIM — бесплатные местные пункты помощи мигрантам: объясняют, какие документы нужны для AIMA, Finanças, SNS, Segurança Social, школы, жилья и работы, помогают заполнить формы и записаться онлайн. Сеть работает в 90+ муниципалитетах через Câmara Municipal/Junta de Freguesia, AIMA и бывшую структуру ACM; старое название CLAII ещё встречается на сайтах. Это не ускоритель ВНЖ и не адвокат, госпошлины AIMA/IRN/Finanças оплачиваются отдельно.',
+  tldr: 'CLAIM — бесплатные местные пункты помощи мигрантам: объясняют, какие документы нужны для AIMA, Finanças, SNS, Segurança Social, школы, жилья и работы, помогают заполнить формы и записаться онлайн. Сеть из 150+ центров работает по всей стране через Câmara Municipal/Junta de Freguesia, AIMA и бывшую структуру ACM; старое название CLAII ещё встречается на сайтах. Это не ускоритель ВНЖ и не адвокат, госпошлины AIMA/IRN/Finanças оплачиваются отдельно.',
   tags: ['claim', 'мигранты', 'aima', 'интеграция'],
   estimatedReadMinutes: 5,
   steps: [
@@ -29,7 +29,7 @@ export default {
           'Работа: базовая информация о contrato de trabalho, recibos verdes, ACT, IEFP и правах работника',
           'Жильё и адрес: atestado de residência, контакты Junta de Freguesia, разъяснение писем от арендодателя/муниципалитета',
           'Перевод смысла документов: помощь понять письмо на португальском, но не нотариальный перевод',
-          'Запись и навигация по порталами: ePortugal, AIMA, Segurança Social Direta, Portal das Finanças, SNS24',
+          'Запись и навигация по порталам: ePortugal, AIMA, Segurança Social Direta, Portal das Finanças, SNS24',
           'Направление в CNAIM, юриста, associação, linha telefónica или другой сервис, если вопрос сложный'
         ] },
         { kind: 'warning', text: 'CLAIM не выдаёт ВНЖ, NIF, NISS или número de utente сам по себе. Центр помогает подготовить и подать/объяснить документы, но решение принимает соответствующий орган: AIMA, Finanças, Segurança Social, SNS, IRN, Câmara Municipal или школа.' }
@@ -122,6 +122,6 @@ export default {
     { title: 'ACM — архивная и справочная информация о CLAIM/CNAIM и интеграции мигрантов', url: 'https://www.acm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — государственный портал услуг и контактов публичной администрации', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'naturalization-2026',
   categoryId: 'nationality',
   title: 'Naturalização — cidadania portuguesa ao abrigo da nova lei Lei Orgânica 1/2026',
-  tldr: '🆕 Lei Orgânica n.º 1/2026 publicada no DR em 18.05.2026, em vigor desde 19.05.2026. Percurso-base ao abrigo da nova lei:\n\n📅 Prazo de residência: 7 anos para cidadãos CPLP e UE/EEE/Suíça; 10 anos para países terceiros. Conta APENAS o tempo desde a data de emissão do primeiro título de residência — o tempo de espera pela primeira autorização de residência já NÃO conta.\n\n🗣️ Conhecimento de português A2 (CIPLE ou certificado equivalente). Para CPLP — não é exigido.\n\n📝 Teste obrigatório sobre cultura portuguesa, direitos e deveres dos cidadãos, organização política.\n\n⚖️ Sem condenações com pena ≥ 3 anos de prisão (limiar agravado).\n\n🏠 Presença física real — não basta simplesmente ter autorização de residência.\n\n🚫 Via sefardita totalmente revogada.\n\n⚖️ Regime transitório (para quem submeteu ANTES de 19.05.2026): aplica-se a anterior Lei 37/81 — 5 anos de residência para todas as nacionalidades, sem teste cultural obrigatório, limiar de condenação de 5 anos. O IRN confirmou em 07–08.05.2026: o corte decisivo é a data de submissão na plataforma online Portal da Nacionalidade; tudo o que foi submetido antes de 19.05.2026 é analisado pelas regras antigas.\n\n🔴 Decreto 49/XVII conexo (perda da nacionalidade como pena criminal): em 08.05.2026 o TC declarou-o INCONSTITUCIONAL por unanimidade; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento. O PSD não irá reconfirmar; para ultrapassar o TC são necessários 2/3 dos votos — improvável.',
+  tldr: '🆕 Lei Orgânica n.º 1/2026 publicada no DR em 18.05.2026, em vigor desde 19.05.2026. Percurso-base ao abrigo da nova lei:\n\n📅 Prazo de residência: 7 anos para cidadãos CPLP e UE/EEE/Suíça; 10 anos para países terceiros. Conta APENAS o tempo desde a data de emissão do primeiro título de residência — o tempo de espera pela primeira autorização de residência já NÃO conta.\n\n🗣️ Conhecimento de português A2 (CIPLE ou certificado equivalente). Para CPLP — não é exigido.\n\n📝 Teste obrigatório sobre cultura portuguesa, direitos e deveres dos cidadãos, organização política.\n\n⚖️ A naturalização fica impedida por condenação, com trânsito em julgado, em pena de prisão efetiva superior a 3 anos por crimes graves (terrorismo, criminalidade violenta e especialmente violenta, criminalidade altamente organizada, contra a segurança do Estado ou de auxílio à imigração ilegal). Antes o limiar era superior a 5 anos.\n\n🏠 Presença física real — não basta simplesmente ter autorização de residência.\n\n🚫 Via sefardita totalmente revogada.\n\n⚖️ Regime transitório (para quem submeteu ANTES de 19.05.2026): aplica-se a anterior Lei 37/81 — 5 anos de residência para todas as nacionalidades, sem teste cultural obrigatório, limiar de condenação de 5 anos. O IRN confirmou em 07–08.05.2026: o corte decisivo é a data de submissão na plataforma online Portal da Nacionalidade; tudo o que foi submetido antes de 19.05.2026 é analisado pelas regras antigas.\n\n🔴 Decreto 49/XVII conexo (perda da nacionalidade como pena criminal): em 08.05.2026 o TC declarou-o INCONSTITUCIONAL por unanimidade; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento. O PSD não irá reconfirmar; para ultrapassar o TC são necessários 2/3 dos votos — improvável.',
   tags: ['cidadania', 'naturalização', 'cplp'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-05-19',
@@ -38,7 +38,7 @@ export default {
           '🗣️ Conhecimento de português A2: CIPLE/DEPLE/diploma escolar ≥ 150 horas com nível A2/diploma de instituição de ensino superior portuguesa/conclusão do 6.º ano de escolaridade em Portugal. Não é exigido para cidadãos CPLP',
           '📝 Teste obrigatório sobre cultura portuguesa, direitos e deveres dos cidadãos, organização política do Estado (novo requisito)',
           '🏠 Presença física real — não basta simplesmente ter autorização de residência; AIMA/IRN verificam a residência efectiva',
-          '⚖️ Sem condenações com pena ≥ 3 anos de prisão em qualquer país de residência (limiar agravado de 5 para 3 anos)',
+          '⚖️ Sem condenação, com trânsito em julgado, em pena de prisão efetiva superior a 3 anos por crimes graves (terrorismo, criminalidade violenta e especialmente violenta, criminalidade altamente organizada, contra a segurança do Estado ou de auxílio à imigração ilegal) — puníveis segundo a lei portuguesa. Limiar agravado: antes era superior a 5 anos',
           '🛡️ Não representar uma ameaça à segurança nacional'
         ]},
         { kind: 'paragraph', text: 'O que foi revogado na nova redacção:' },
@@ -64,7 +64,7 @@ export default {
           '📅 5 anos de residência legal para TODAS as nacionalidades (CPLP, UE, países terceiros)',
           '🗣️ Conhecimento de português A2 — o mesmo requisito (para não-CPLP)',
           '❌ NÃO há teste cultural',
-          '⚖️ Limiar de condenação — 5 anos de prisão (não 3 anos)',
+          '⚖️ Limiar de condenação — superior a 5 anos de prisão (não superior a 3 anos)',
           '✅ «Ligação a Portugal» NÃO é um requisito formal no art. 6. Só pode ser solicitada perante indícios evidentes de permanência fictícia. 5 anos de autorização de residência legal são considerados suficientes',
           '⏱️ O tempo de espera pela primeira autorização de residência (incluindo MdI, se submetida antes de 03.06.2024 e com comprovativo obtido) podia contar — posição controversa e dependente da Conservatória/jurisprudência',
           '⚠️ A via sefardita funcionava no regime pós-LO 1/2024 (residência de 3+ anos + comissão) — mas apenas para pedidos submetidos antes de 19.05.2026'
@@ -174,6 +174,6 @@ export default {
     { title: 'PÚBLICO — IRN: pedidos de nacionalidade contam desde data de submissão. Pendentes não são afectados (08.05.2026)', url: 'https://www.publico.pt/2026/05/08/sociedade/noticia/irn-pedidos-nacionalidade-contam-desde-data-submissao-pendentes-nao-sao-afectados-nova-lei-2174038', kind: 'news', language: 'pt', lastRetrieved: '2026-05-15' },
     { title: 'PÚBLICO — Pedidos de nacionalidade feitos antes de mudança na lei seguirão regras antigas (13.05.2026)', url: 'https://www.publico.pt/2026/05/13/publico-brasil/noticia/pedidos-nacionalidade-mudanca-lei-seguirao-regras-antigas-2174590', kind: 'news', language: 'pt', lastRetrieved: '2026-05-15' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60
 }

@@ -3,7 +3,7 @@ export default {
   id: 'claim-claii-integracao',
   categoryId: 'country_specific',
   title: 'CLAIM/CLAII — local support centres for migrant integration',
-  tldr: 'CLAIM are free local help points for migrants: they explain which documents are needed for AIMA, Finanças, SNS, Segurança Social, schools, housing and work, help fill in forms and make online appointments. The network operates in 90+ municipalities through Câmara Municipal/Junta de Freguesia, AIMA and the former ACM structure; the old name CLAII still appears on websites. It is not a residence permit accelerator and not a lawyer; AIMA/IRN/Finanças state fees are paid separately.',
+  tldr: 'CLAIM are free local help points for migrants: they explain which documents are needed for AIMA, Finanças, SNS, Segurança Social, schools, housing and work, help fill in forms and make online appointments. The network of 150+ centres operates across the country through Câmara Municipal/Junta de Freguesia, AIMA and the former ACM structure; the old name CLAII still appears on websites. It is not a residence permit accelerator and not a lawyer; AIMA/IRN/Finanças state fees are paid separately.',
   tags: ['claim', 'migrants', 'aima', 'integration'],
   estimatedReadMinutes: 5,
   steps: [
@@ -122,6 +122,6 @@ export default {
     { title: 'ACM — archived and reference information on CLAIM/CNAIM and migrant integration', url: 'https://www.acm.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — government portal for services and public administration contacts', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

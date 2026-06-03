@@ -82,7 +82,8 @@ export default {
           'If the old passport was taken when the new one was issued, keep copies of important pages and a certificate/endorsement from the consulate, if issued.',
           'Check that the name in the new passport matches the name on the cartão de residência and airline ticket.',
           'If your name changed after marriage/divorce, first assess whether the cartão de residência needs replacing, not only whether the passport needs updating.',
-          'Do not hand the cartão de residência to the airline as a “visa”: it is your residence document; show it together with your passport when your right to enter is checked.'
+          'Do not hand the cartão de residência to the airline as a “visa”: it is your residence document; show it together with your passport when your right to enter is checked.',
+          'The Schengen Entry/Exit System (EES) has been fully operational since 10/04/2026, but it does not apply to holders of a valid residence permit: you are not required to register fingerprints in EES — at the border your passport and a valid cartão de residência are enough.'
         ] },
         { kind: 'warning', text: 'If the residence permit has expired, a new passport alone does not solve the entry problem. You need a valid renewal/confirmation of the AIMA process or another document recognised on the date of travel.' }
       ]
@@ -114,7 +115,7 @@ export default {
       label: 'Replacement or duplicate cartão de residência',
       amountEURMin: 0,
       amountEURMax: 307.2,
-      note: 'Not always needed; the fee depends on the grounds and the type of AIMA procedure. From 01/03/2026, under the updated AIMA table, separate procedures, for example art. 75, cost €307.20.'
+      note: 'Not always needed; the fee depends on the grounds. Under the updated AIMA table (from 01/03/2026), a substituição for changed details (art. 86) is 25% of the emissão fee, and a segunda via (duplicate if lost/stolen) is 50%. For reference, a full concessão/renovação of the residence permit under art. 75 costs €307.20.'
     },
     {
       label: 'New foreign passport at your country’s consulate',
@@ -153,6 +154,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

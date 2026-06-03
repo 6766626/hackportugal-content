@@ -31,7 +31,7 @@ export default {
             { kind: 'checklist', items: [
               'Entrega conjunta de IRS (tributação conjunta)',
               'Dedução de pensões de alimentos, despesas de saúde e educação do parceiro',
-              '⚠️ O parceiro em união não é herdeiro automático — é necessário testamento/planeamento. Em transmissões gratuitas, o surviving partner está normalmente isento de Imposto do Selo de 10% (Código do Imposto do Selo art. 6)',
+              '⚠️ O parceiro em união não é herdeiro automático — é necessário testamento/planeamento. Em transmissões gratuitas, o parceiro sobrevivo está normalmente isento de Imposto do Selo de 10% (Código do Imposto do Selo art. 6, al. e)',
               'Direito a pensão do parceiro sobrevivo (pensão de sobrevivência) em caso de morte do parceiro',
               '⚠️ Não existe um regime geral de «spousal alimony» como no divórcio. Possíveis claims after breakup/death são limitados e dependem dos factos; em caso de dependência financeira, é melhor obter aconselhamento jurídico'
             ]}
@@ -41,7 +41,7 @@ export default {
               'Segurança Social: a união pode ser relevante para determinadas prestações familiares e survivor benefits, mas cada pessoa tem o seu próprio NISS e contribution/benefit status',
               'SNS: a parceria, por si só, não «inscreve» a pessoa no SNS através do parceiro — é necessária lawful residence própria e número de utente do SNS; a união ajuda a provar morada/agregado comum',
               'Seguros privados — tarifa para cônjuges (planos familiares)',
-              'Visitas hospitalares enquanto pessoa próxima — normalmente mais fácil, mas para poderes claros de decisão médica deve formalizar uma formal advance directive / procurador de cuidados de saúde (Lei 25/2012)'
+              'Visitas hospitalares enquanto pessoa próxima — normalmente mais fácil, mas para poderes claros de decisão médica deve formalizar uma directiva antecipada de vontade / procurador de cuidados de saúde (Lei 25/2012)'
             ]}
           ]},
           { id: 'r3', title: '🛂 Imigração', content: [
@@ -117,7 +117,7 @@ export default {
           '🔸 Para a área social: a pensão de sobrevivência funciona para ambos, mas os detalhes dependem das contribuições',
           '🔸 Fiscalidade: ambas as formas permitem tributação conjunta'
         ]},
-        { kind: 'warning', text: 'Para Reagrupamento Familiar — reúna provas fortes de cohabitation/relação e verifique a lista actual da AIMA. Para nacionalidade por união com cidadão PT — planeie o reconhecimento judicial; o registo na Conservatória por si só não é suficiente.\n\n⚠️ Reforma Lei da Nacionalidade: Decreto AR 48/XVII promulgado pelo Presidente Seguro em 03.05.2026 — à data de 17.05.2026 ainda aguarda publicação no DRE; antes de submeter, confira a redacção actual da lei.' }
+        { kind: 'warning', text: 'Para Reagrupamento Familiar — reúna provas fortes de cohabitation/relação e verifique a lista actual da AIMA. Para nacionalidade por união com cidadão PT — planeie o reconhecimento judicial; o registo na Conservatória por si só não é suficiente.\n\n⚠️ Reforma Lei da Nacionalidade: a reforma foi promulgada pelo Presidente Seguro em 03.05.2026, publicada como Lei Orgânica 1/2026 no DRE em 18.05.2026 e entrou em vigor em 19.05.2026. O mecanismo de base para a união mantém-se: para nacionalidade continua a ser necessário o reconhecimento judicial da união de facto (>3 anos com cidadão PT). As principais alterações dizem respeito aos prazos de residência e às regras de oposição; antes de submeter, confira a redacção actual da lei.' }
       ]
     }
   ],
@@ -131,6 +131,6 @@ export default {
     { title: 'ePortugal — União de facto', url: 'https://www.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Registo de União de Facto', url: 'https://irn.justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

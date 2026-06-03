@@ -37,7 +37,7 @@ export default {
             { kind: 'paragraph', text: 'Up to 1 year, without a residence permit. Can be extended up to 2 years. Suitable if you want to try living in Portugal.' }
           ]},
           { id: 'v2', title: 'Long-stay D8 (residence visa)', content: [
-            { kind: 'paragraph', text: 'Gives the right to obtain a full residence permit for 2 years, with renewals thereafter. The path to citizenship is under the current Lei 37/81 after 5 years of legal residence.\n\nDecreto AR 48/XVII was promulgated by President Seguro on 03.05.2026; published on 18.05.2026 as Lei Orgânica n.º 1/2026. After publication in Diário da República, the naturalisation period will increase to 10 years for third countries. The text of the law contains a transitional provision: cases in progress are subject to the previous version of Lei 37/81 (5 years).' }
+            { kind: 'paragraph', text: 'Gives the right to obtain a full residence permit for 2 years, with renewals thereafter — this is the path to citizenship by naturalisation.\n\nDecreto AR 48/XVII was promulgated by President Seguro on 03.05.2026; published on 18.05.2026 as Lei Orgânica n.º 1/2026 and entered into force on 19.05.2026. Under the new version of Lei 37/81, the minimum period of legal residence for naturalisation is 10 years for third-country nationals and 7 years for CPLP and EU nationals (previously 5 years). The period is now counted from the start of legal residence. Transitional provision: administrative procedures filed before the law entered into force remain subject to the previous version of Lei 37/81. Verify the version that applies and how the period is counted in your case via official sources / a lawyer.' }
           ]}
         ]}
       ]
@@ -87,6 +87,6 @@ export default {
     { title: 'Vistos MNE — Visa Types', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Residence Permit', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

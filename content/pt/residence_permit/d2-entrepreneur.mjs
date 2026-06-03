@@ -3,7 +3,7 @@ export default {
   id: 'd2-entrepreneur',
   categoryId: 'residence_permit',
   title: 'Visto D2 (empreendedor / trabalhador independente)',
-  tldr: 'O D2 é um visto para abrir um negócio ou exercer atividade independente em Portugal. Opções: abrir uma empresa, registar atividade independente através de Início de Atividade, comprar um negócio existente. O limiar financeiro é individual: é necessário um plano de negócios viável e meios para arrancar e viver. A primeira autorização de residência é normalmente por 2 anos, depois renovável. Segundo a lei em vigor, a naturalização é possível após 5 anos — mas em 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII, que, após publicação no DRE, aumentará o prazo para 7 anos para CPLP/UE e 10 anos para os restantes.',
+  tldr: 'O D2 é um visto para abrir um negócio ou exercer atividade independente em Portugal. Opções: abrir uma empresa, registar atividade independente através de Início de Atividade, comprar um negócio existente. O limiar financeiro é individual: é necessário um plano de negócios viável e meios para arrancar e viver. A primeira autorização de residência é normalmente por 2 anos, depois renovável. A reforma da Lei da Nacionalidade já está em vigor: a Lei Orgânica n.º 1/2026 (publicada em 18.05.2026, em vigor desde 19.05.2026) aumentou o prazo de residência para a naturalização de 5 para 7 anos para cidadãos da CPLP/UE e para 10 anos para os restantes. Aos pedidos apresentados até 18.05.2026, inclusive, aplica-se o anterior prazo de 5 anos.',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d2', 'autorização de residência', 'negócio', 'empreendedor'],
   estimatedReadMinutes: 7,
@@ -75,8 +75,9 @@ export default {
     { title: 'AIMA — Autorização de Residência para empreendedores', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Empresa na Hora — criação de empresa num dia', url: 'https://justica.gov.pt/Servicos/Empresa-na-Hora', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portaria n.º 1563/2007 — meios de subsistência', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/1563-2007-635255', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Decreto-Lei n.º 112/2025 — SMN 2026 (920 €)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/112-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Decreto-Lei n.º 112/2025 — SMN 2026 (920 €)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/112-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei Orgânica n.º 1/2026 — reforma da Lei da Nacionalidade (prazo de 7/10 anos, em vigor desde 19.05.2026)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

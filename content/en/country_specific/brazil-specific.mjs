@@ -3,7 +3,7 @@ export default {
   id: 'brazil-specific',
   categoryId: 'country_specific',
   title: 'Brazilians in Portugal — CPLP and Estatuto de Igualdade',
-  tldr: 'Brazilians in Portugal: visa-free entry for 90 days, applying for a residence permit from within the country via the CPLP mobility agreement. After 3 years of residency — Estatuto de Igualdade: political and economic rights on an equal footing with Portuguese citizens. After 5 years — citizenship (7 years under the new law Decreto AR 48/XVII, promulgated by President Seguro on 03.05.2026; it will enter into force after publication in the DRE). This is the easiest immigration route to Portugal of all.',
+  tldr: 'Brazilians in Portugal: visa-free entry for 90 days, applying for a residence permit from within the country via the CPLP mobility agreement. After 3 years of residency — Estatuto de Igualdade: political and economic rights on an equal footing with Portuguese citizens. Under the law in force (Lei Orgânica n.º 1/2026, effective 19.05.2026), citizenship comes after 7 years of legal residence for CPLP nationals; applications filed on or before 18.05.2026 are assessed under the previous version (5 years). This is one of the easiest immigration routes to Portugal.',
   audience: { countryCodes: ['BR'] },
   tags: ['brazil', 'cplp', 'estatuto'],
   estimatedReadMinutes: 6,
@@ -70,9 +70,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'CPLP citizens have the easiest path to Portuguese citizenship:' },
         { kind: 'checklist', items: [
-          'Under the current law (Lei 37/81) — 5 years of legal residence',
-          'Under the new law (Decreto AR 48/XVII, renamed from 17/XVII after passing through the TC; promulgated by President Seguro on 03.05.2026, as of 13.05.2026 published on 18.05.2026 as Lei Orgânica n.º 1/2026 — 10 days) — 7 years for CPLP+EU / 10 years for everyone else. The text of the law contains a transitional provision: cases in processing are subject to the previous version of Lei 37/81 (5 years)',
-          'Waiting time for MdI / first residence permit no longer counts towards the qualifying period (under the new law)',
+          'Law in force: the Lei da Nacionalidade (Lei 37/81) as amended by Lei Orgânica n.º 1/2026 (published in the DRE on 18.05.2026, effective 19.05.2026) — 7 years of legal residence for CPLP and EU nationals, 10 years for everyone else',
+          'Transitional provision: applications filed on or before 18.05.2026 are assessed under the previous version (5 years)',
+          'The period is counted from the issue of the first residence permit; waiting time (including the MdI) does not count towards the qualifying period',
           'A2 language — not required (Portuguese is native)',
           'With a Portuguese passport — EU citizenship'
         ]},
@@ -115,6 +115,6 @@ export default {
     { title: 'Tratado de Amizade Brasil-Portugal (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-do-presidente-da-republica/79-2000', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPLP — official portal', url: 'https://www.cplp.org/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

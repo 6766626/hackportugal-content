@@ -3,7 +3,7 @@ export default {
   id: 'overstay-fines',
   categoryId: 'residence_permit',
   title: 'Fines for overstaying in Portugal',
-  tldr: 'Overstaying is a serious breach. Under Lei 23/2007 art. 192, fines are split into four bands: up to 30 days, 30–90, 90–180 and > 180 days; check the exact amounts and maximums against the current version of Lei 23/2007 (art. 192) and applicable case law.\n\nA fine by itself does NOT equal an SIS alert: an entry in the Schengen Information System (SIS) is made by a separate decision (usually in the case of an entry ban / expulsão, not for every fine). However, overstaying sharply increases the risk of refusal for renewals and future visas. The worst case is cumulative overstay: the longer you are without status, the lower the chance of becoming legal again.',
+  tldr: 'Overstaying is a serious breach. Under Lei 23/2007 art. 192 the fine (coima) depends on how long you overstay: €80–160 (up to 30 days), €160–320 (30–90), €320–500 (90–180), €500–700 (> 180 days). Reconfirm the amounts against the current version of art. 192 before paying.\n\nA fine by itself does NOT equal an SIS alert: an entry in the Schengen Information System (SIS) is made by a separate decision (usually in the case of an entry ban / expulsão, not for every fine). However, overstaying sharply increases the risk of refusal for renewals and future visas. The worst case is cumulative overstay: the longer you are without status, the lower the chance of becoming legal again.',
   tags: ['overstay', 'fine', 'aima'],
   estimatedReadMinutes: 6,
   steps: [
@@ -41,12 +41,12 @@ export default {
       id: 'fines',
       title: 'Fines and consequences',
       content: [
-        { kind: 'paragraph', text: 'Under Lei 23/2007 art. 192, the law divides overstay into four periods. The guide figures below are to understand the order of magnitude; check the exact minimums/maximums against the current version of Lei 23/2007 art. 192 and Lei 61/2025 (if applicable), as well as AIMA practice:' },
+        { kind: 'paragraph', text: 'Under Lei 23/2007 art. 192 (as amended by Lei 18/2022), the law divides overstay into four periods with fixed coima ranges. The amounts below are from the version in force; reconfirm them against the current text of art. 192 on diariodarepublica.pt and with AIMA practice before paying:' },
         { kind: 'checklist', items: [
-          'Overstay up to 30 days: fine roughly from €80; the upper limit is several hundred euros',
-          'Overstay 30–90 days: higher fine; the upper limit may reach hundreds of euros',
-          'Overstay 90–180 days: higher again — several hundred/around a thousand euros',
-          'Overstay more than 180 days: maximum amounts; high risk of expulsão (removal)',
+          'Overstay up to 30 days: coima €80–160',
+          'Overstay 30–90 days: coima €160–320',
+          'Overstay 90–180 days: coima €320–500',
+          'Overstay more than 180 days: coima €500–700; high risk of expulsão (removal)',
           'Border control with an overstay — the fine is recorded; payment on the spot, at PSP or via Portal AT using a Multibanco reference',
           'Inclusion in SIS (alert for a Schengen entry ban) — a separate procedure, usually in the event of a formal expulsão or entry ban, not automatically because of the fine',
           'Children under 16 are not fined, but the overstay is recorded',
@@ -110,10 +110,10 @@ export default {
     }
   ],
   costs: [
-    { label: 'Fine for overstaying up to 30 days (Lei 23/2007 art. 192 #1)', amountEURMin: 80, amountEURMax: 400, note: 'Guide figure; the exact amount in a specific case is determined by AIMA / the court under art. 192 of the current version' },
-    { label: 'Fine for overstaying 30-90 days', amountEURMin: 160, amountEURMax: 700 },
-    { label: 'Fine for overstaying 90-180 days', amountEURMin: 400, amountEURMax: 1200 },
-    { label: 'Fine for overstaying >180 days', amountEURMin: 800, amountEURMax: 1600 },
+    { label: 'Fine for overstaying up to 30 days (Lei 23/2007 art. 192 #1)', amountEURMin: 80, amountEURMax: 160, note: 'The coima range is set directly in art. 192 (as amended by Lei 18/2022); the specific amount within it is set by the authority / court' },
+    { label: 'Fine for overstaying 30-90 days', amountEURMin: 160, amountEURMax: 320 },
+    { label: 'Fine for overstaying 90-180 days', amountEURMin: 320, amountEURMax: 500 },
+    { label: 'Fine for overstaying >180 days', amountEURMin: 500, amountEURMax: 700 },
     { label: 'Lawyer consultation', amountEURMin: 50, amountEURMax: 150 }
   ],
   sources: [
@@ -122,6 +122,6 @@ export default {
     { title: 'EU 90/180 calculator', url: 'https://ec.europa.eu/assets/home/visa-calculator/calculator.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 37-A/2024', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-a-2024-864229054', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

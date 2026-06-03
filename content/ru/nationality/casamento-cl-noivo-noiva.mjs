@@ -3,7 +3,7 @@ export default {
   id: 'casamento-cl-noivo-noiva',
   categoryId: 'nationality',
   title: 'Casamento Civil: этапы и документы для иностранцев',
-  tldr: 'Casamento Civil в Португалии оформляется через Conservatória do Registo Civil / IRN. Церемонию проводит conservador или oficial de registos, НЕ нотариус; notário нужен для convenção antenupcial (брачного договора), но не для самой регистрации брака. Иностранцы-резиденты и нерезиденты проходят тот же процесс: минимум за 30 дней подают processo preliminar, паспорта и справки о семейном положении. Иностранные документы нужны с апостилем/легализацией и переводом на PT. Стандартный сбор за processo + registo de casamento по Regulamento Emolumentar — ориентировочно от €120; выездная церемония вне Conservatória — отдельная surcharge по таблице IRN, зависит от дня недели и удалённости. Обычно берут 2 свидетелей с документами.',
+  tldr: 'Casamento Civil в Португалии оформляется через Conservatória do Registo Civil / IRN. Церемонию проводит conservador или oficial de registos, НЕ нотариус; notário нужен для convenção antenupcial (брачного договора), но не для самой регистрации брака. Иностранцы-резиденты и нерезиденты проходят тот же процесс: минимум за 30 дней подают processo preliminar, паспорта и справки о семейном положении. Иностранные документы нужны с апостилем/легализацией и переводом на PT. Стандартный сбор за processo + registo de casamento по Regulamento Emolumentar — €120; церемония вне Conservatória или в нерабочее время / в выходной — эмолумент €200 по таблице IRN, плюс возможные расходы на выезд conservador. Свидетели не обязательны: на церемонии могут присутствовать от 2 до 4 свидетелей, но это не требование закона.',
   tags: ['casamento', 'загс', 'irn', 'документы'],
   estimatedReadMinutes: 6,
   steps: [
@@ -120,8 +120,8 @@ export default {
     }
   ],
   costs: [
-    { label: 'Processo + registo de casamento в Conservatória (IRN)', amountEURMin: 120, amountEURMax: 160, note: 'Ориентир для стандартной церемонии по Regulamento Emolumentar dos Registos e do Notariado; финальную сумму подтверждайте при записи в IRN.' },
-    { label: 'Выездная церемония вне Conservatória', amountEURMin: 300, amountEURMax: 600, note: 'Surcharge по таблице IRN; зависит от дня недели, времени и удалённости; точную сумму уточняйте в конкретной Conservatória.' },
+    { label: 'Processo + registo de casamento в Conservatória (IRN)', amountEURMin: 120, amountEURMax: 120, note: 'Фиксированный эмолумент €120 за стандартную церемонию в рабочее время по Regulamento Emolumentar dos Registos e do Notariado; дополнительно могут оплачиваться отдельные certidões. Финальную сумму подтверждайте при записи в IRN.' },
+    { label: 'Церемония вне Conservatória / в нерабочее время / в выходной', amountEURMin: 200, amountEURMax: 200, note: 'Эмолумент IRN — €200 (Regulamento Emolumentar). Расходы на выезд conservador и частную локацию (quinta, отель) оплачиваются отдельно и не являются сбором IRN.' },
     { label: 'Convenção antenupcial', amountEURMin: 100, amountEURMax: 250, note: 'Если нужен брачный договор или нестандартный режим имущества; цена зависит от Conservatória/Notário и содержания.' },
     { label: 'Перевод и нотариальное удостоверение', amountEURMin: 30, amountEURMax: 120, note: 'За документ; зависит от языка, срочности и переводчика.' },
     { label: 'Apostila de Haia за границей', amountEURMin: 10, amountEURMax: 80, note: 'Не португальский сбор; зависит от страны выдачи документа.' }
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

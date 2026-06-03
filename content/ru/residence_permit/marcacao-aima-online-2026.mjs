@@ -3,7 +3,7 @@ export default {
   id: 'marcacao-aima-online-2026',
   categoryId: 'residence_permit',
   title: 'Запись в AIMA онлайн: реальный workflow 2026',
-  tldr: 'В 2026 запись в AIMA не выглядит как “выбрал дату и пришёл”. Основной вход — aima.gov.pt и portal-rf.aima.gov.pt, но слоты открываются волнами, часть процессов вызывают по SMS/e-mail, а ожидание 4–12 месяцев всё ещё нормально. Walk-in почти не работает. Альтернатива — попросить помощь в Espaço Cidadão: там не создают привилегированную очередь, но помогают зайти в портал, проверить контакты и отправить/обновить запрос.',
+  tldr: 'В 2026 запись в AIMA не выглядит как “выбрал дату и пришёл”. Основной вход — aima.gov.pt и portal-rf.aima.gov.pt, но слоты открываются волнами, по части процессов вызов приходит по SMS/e-mail, а ожидание 4–12 месяцев всё ещё в порядке вещей. Walk-in почти не работает. Альтернатива — попросить помощь в Espaço Cidadão: там не создают привилегированную очередь, но помогают зайти в портал, проверить контакты и отправить/обновить запрос.',
   tags: ['aima', 'marcação', 'внж', 'portal-rf'],
   estimatedReadMinutes: 6,
   steps: [
@@ -71,8 +71,8 @@ export default {
   sources: [
     { title: 'AIMA — официальный портал и услуги для иностранных граждан', url: 'https://aima.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — поиск Espaço Cidadão и цифровые госуслуги', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Lei 61/2025 — изменения миграционного режима, в силе с 23.10.2025', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Lei 61/2025 — изменения миграционного режима, в силе с 23.10.2025', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -82,7 +82,8 @@ export default {
           'Se o passaporte antigo tiver sido retido aquando da emissão do novo, guarde cópias das páginas importantes e uma declaração/anotação do consulado, se for emitida.',
           'Verifique se o nome no novo passaporte coincide com o nome no cartão de residência e no bilhete de avião.',
           'Se o nome mudou após casamento/divórcio, avalie primeiro a necessidade de substituir o cartão de residência, e não apenas de atualizar o passaporte.',
-          'Não entregue o cartão de residência à companhia aérea como “visto”: é o seu documento de residência; mostre-o juntamente com o passaporte ao verificar o direito de entrada.'
+          'Não entregue o cartão de residência à companhia aérea como “visto”: é o seu documento de residência; mostre-o juntamente com o passaporte ao verificar o direito de entrada.',
+          'O Sistema de Entrada/Saída Schengen (EES) está plenamente operacional desde 10.04.2026, mas não se aplica aos titulares de autorização de residência válida: não tem de registar impressões digitais no EES — na fronteira basta o passaporte e um cartão de residência válido.'
         ] },
         { kind: 'warning', text: 'Se a autorização de residência tiver caducado, o novo passaporte por si só não resolve o problema de entrada. É necessária uma renovação válida/comprovativo do processo AIMA ou outro documento reconhecido na data da viagem.' }
       ]
@@ -114,7 +115,7 @@ export default {
       label: 'Substituição ou duplicado do cartão de residência',
       amountEURMin: 0,
       amountEURMax: 307.2,
-      note: 'Nem sempre é necessário; a taxa depende do fundamento e do tipo de procedimento da AIMA. A partir de 01.03.2026, segundo a tabela atualizada da AIMA, determinados procedimentos, por exemplo art. 75, custam 307,20 €.'
+      note: 'Nem sempre é necessário; a taxa depende do fundamento. Segundo a tabela atualizada da AIMA (a partir de 01.03.2026), a substituição por alteração de elementos (art. 86) corresponde a 25% da taxa de emissão, e a segunda via (duplicado em caso de perda/roubo) a 50%. Para referência, a concessão/renovação integral da autorização de residência ao abrigo do art. 75 custa 307,20 €.'
     },
     {
       label: 'Novo passaporte no consulado do seu país',
@@ -153,6 +154,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'ciple-a2-exam',
   categoryId: 'nationality',
   title: 'Portuguese A2 — free courses, school programmes and the CIPLE exam',
-  tldr: 'An A2-level certificate is only needed for naturalisation by residence (under the current Lei 37/81 — 5 years; on 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE, the period will increase to 7 years for CPLP/EU and 10 years for others, plus a mandatory test on knowledge of Portuguese culture, rights and the structure of the state will be introduced). For marriage, união de facto, Reagrupamento Familiar — it is NOT needed.\n\nIMPORTANT: for naturalisation, IRN accepts only an official A2+ level certificate (CIPLE / PLA / Centros Qualifica / DEPLE / DAPLE) — a simple attendance statement for 150 course hours WITHOUT a level assessment is NOT accepted. The cheapest routes: PLA (€0), IEFP (€0 + training allowance, but with obligations as an unemployed person), state adult schools ~€20/semester. CIPLE exam — €85 (2026), monthly sessions.',
+  tldr: 'An A2-level certificate is only needed for naturalisation by residence. The Lei da Nacionalidade reform has been in force since 19.05.2026: the residence period rises from 5 to 7 years for CPLP/EU and 10 years for others (applications already pending before 19.05.2026 keep the old 5-year rule). The law also introduces a test on knowledge of the language, culture, history and the structure of the state, but it only becomes mandatory once separate regulations are published. For marriage, união de facto, Reagrupamento Familiar — it is NOT needed.\n\nIMPORTANT: for naturalisation, IRN accepts only an official A2+ level certificate (CIPLE / PLA / Centros Qualifica / DEPLE / DAPLE) — a simple attendance statement for 150 course hours WITHOUT a level assessment is NOT accepted. The cheapest routes: PLA (€0), IEFP (€0 + training allowance, but with obligations as an unemployed person), state adult schools ~€20/semester. CIPLE exam — €85 (2026), monthly sessions.',
   audience: { citizenships: ['thirdCountry', 'euEeaSwiss'] },
   tags: ['ciple', 'a2', 'language', 'exam', 'pla'],
   estimatedReadMinutes: 7,
@@ -14,7 +14,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Portuguese A2 level is needed only in a few cases:' },
         { kind: 'checklist', items: [
-          '✅ Naturalisation by residence (art. 6 Lei 37/81 + art. 25 Decreto-Lei 237-A/2006): under current law — after 5 years. On 03.05.2026 President Seguro promulgated Decreto AR 48/XVII — after publication in the DRE: 7 years for CPLP/EU, 10 years for others, plus a mandatory test on knowledge of Portuguese culture, rights and the structure of the state. Until publication in the DRE, the old rules apply',
+          '✅ Naturalisation by residence (art. 6 Lei 37/81 + art. 25 Decreto-Lei 237-A/2006): under previous law — after 5 years. The Lei da Nacionalidade reform (promulgated 03.05.2026, published in the DR on 18.05.2026, in force since 19.05.2026) raised the period to 7 years for CPLP/EU and 10 years for others. Applications submitted and pending before 19.05.2026 are assessed under the old rules (5 years). The law also introduces a test on knowledge of the Portuguese language, culture, history, national symbols, fundamental rights and duties and the structure of the state, but it only becomes mandatory once separate regulations (regulamentação) are published',
           '✅ For admission to a number of IEFP programmes, state colleges and Centros Qualifica'
         ]},
         { kind: 'paragraph', text: 'When a CIPLE certificate is NOT required:' },
@@ -168,6 +168,6 @@ export default {
     { title: 'AIMA — Português Língua de Acolhimento (PLA)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Presidência da República — Promulgation of Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

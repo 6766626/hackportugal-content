@@ -3,7 +3,7 @@ export default {
   id: 'aima-online-2026',
   categoryId: 'residence_permit',
   title: 'Renovação da autorização de residência através do portal online da AIMA',
-  tldr: 'A partir de 1 de janeiro de 2026, a renovação da autorização de residência é feita através de portal-renovacoes.aima.gov.pt. Sem deslocação presencial, se todos os documentos estiverem em ordem. A submissão é possível 30 dias antes do termo do cartão, mas é aconselhável fazê-lo com 60–90 dias de antecedência. O cartão da autorização de residência chega por correio; enquanto aguarda, o estatuto legal é comprovado pelo comprovativo de submissão. Decreto-Lei 41/2023 introduziu a regra: se a AIMA ultrapassar o prazo e não concluir o processo a tempo, a sua permanência NÃO se torna ilegal — o comprovativo substitui a autorização de residência até à emissão do novo cartão.',
+  tldr: 'A partir de 1 de janeiro de 2026, a renovação da autorização de residência é feita através de portal-renovacoes.aima.gov.pt. Sem deslocação presencial, se todos os documentos estiverem em ordem. A submissão é possível 30 dias antes do termo do cartão, mas é aconselhável fazê-lo com 60–90 dias de antecedência. O cartão da autorização de residência chega por correio; enquanto aguarda, o estatuto legal é comprovado pelo comprovativo de submissão. Nos termos do art. 78.º da Lei 23/2007 (e dos esclarecimentos da AIMA de 2025), este comprovativo funciona como título de residência temporário e é renovado até à decisão final e à emissão do cartão, pelo que, se submeteu dentro do prazo, a sua permanência não se torna ilegal por causa de um atraso da AIMA.',
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
   estimatedReadMinutes: 8,
   recentlyChangedAt: '2026-01-01',
@@ -32,7 +32,7 @@ export default {
           '✅ Recomendação: 60–90 dias antes do termo (menos stress, mais tempo para corrigir erros)',
           '⚠️ Com menos de 30 dias — o portal pode aceitar, mas sem garantia de conclusão antes do termo',
           '⏰ Se a autorização de residência já caducou: submeta imediatamente. Formalmente, a coima é de 75–300 € (art. 192 Lei 23/2007), mas em 2025–2026, nas renovações online, praticamente não é aplicada',
-          '🛡️ Decreto-Lei 41/2023: se a AIMA não processar o seu pedido dentro do prazo — mantém-se em estatuto legal com o comprovativo'
+          '🛡️ Se a AIMA não processar o seu pedido dentro do prazo — mantém-se em estatuto legal com o comprovativo (art. 78.º da Lei 23/2007 + esclarecimentos da AIMA)'
         ]},
         { kind: 'warning', text: 'Todas as autorizações de residência com data de termo até 30.06.2025 devem ser renovadas até 15 de abril de 2026. Após essa data, o estatuto é considerado inválido; a recuperação faz-se através de um procedimento complexo com advogado.' }
       ]
@@ -89,7 +89,7 @@ export default {
             { kind: 'warning', text: 'Comprovativo de submissão NÃO é substituto do cartão da autorização de residência para viagens e NÃO é um documento de viagem garantido. Companhias aéreas e autoridades de fronteira de outros países Schengen não são obrigadas a aceitá-lo em vez de um cartão da autorização de residência válido. Se o cartão antigo caducou e o novo ainda não chegou — existe risco de recusa de embarque/entrada. Antes de viajar, é melhor consultar o consulado de Portugal no país de trânsito.' }
           ]},
           { id: 's7', title: '7. Aguardar a decisão', content: [
-            { kind: 'timeline', text: 'Padrão — 30–90 dias. Máximo por lei — até 120 dias. Lei 61/2025 (em vigor em 23.10.2025) estabeleceu um prazo geral de decisão da AIMA de 9 meses para casos complexos. A diretiva da UE relativa à autorização única obriga Portugal a analisar pedidos de autorização única em 90 dias a partir de 22.05.2026. A notificação chega por email + na área pessoal. Estados: “Em análise”, “Notificado para entrevista”, “Aprovado”, “Indeferido”.' }
+            { kind: 'timeline', text: 'Padrão — 30–90 dias. Máximo por lei — até 120 dias. Lei 61/2025 (em vigor em 23.10.2025) estabeleceu um prazo geral de decisão da AIMA de 9 meses para os pedidos de autorização de residência (prorrogável apenas em casos excecionais). A diretiva da UE relativa à autorização única (Diretiva (UE) 2024/1233) prevê um prazo de decisão de 90 dias (+30 dias em casos de especial complexidade); o prazo de transposição era 21.05.2026 e aplica-se a partir de 22.05.2026, mas, nessa data, Portugal ainda não a tinha transposto, pelo que deve confirmar os prazos exatos e a forma de aplicação a cada pedido nas fontes oficiais atuais. A notificação chega por email + na área pessoal. Estados: “Em análise”, “Notificado para entrevista”, “Aprovado”, “Indeferido”.' }
           ]},
           { id: 's7a', title: '7a. Comprovativo de Deferimento — confirmação de decisão favorável', content: [
             { kind: 'paragraph', text: 'Assim que o processo é aprovado, aparece na área pessoal o botão “Comprovativo de Deferimento” — PDF com código QR para verificação de autenticidade. Este é o documento que confirma a decisão FAVORÁVEL da AIMA até à chegada do cartão físico.' },
@@ -151,7 +151,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O prazo padrão é de 30–90 dias. Se passaram 90 dias sem resposta — é altura de agir. O máximo por lei é de 120 dias; depois disso, a AIMA viola o prazo processual.' },
         { kind: 'checklist', items: [
-          '🛡️ Mantém-se em estatuto legal — Decreto-Lei 41/2023 protege expressamente, desde que tenha o comprovativo',
+          '🛡️ Mantém-se em estatuto legal enquanto tiver um comprovativo válido — funciona como título temporário e é renovado até à decisão (art. 78.º da Lei 23/2007 + esclarecimentos da AIMA)',
           '📧 90+ dias — email para a delegação regional da AIMA (ver guia “Como contactar a AIMA”) com o número do processo e a data de submissão',
           '🏛️ 120+ dias — queixa ao Provedor de Justiça em provedor-jus.pt (acelera na prática; a AIMA é obrigada a responder ao provedor)',
           '⚖️ 180+ dias — discutir com um advogado uma ação administrativa contra a inação da AIMA. O tipo de procedimento depende do caso (por exemplo, intimação para a prática de ato devido); o tribunal pode obrigar a AIMA a atuar, mas o prazo concreto e o resultado não são garantidos. Intimação para prestação de informações só é adequada quando é necessário obter informação/cópias de documentos, e NÃO para obrigar a AIMA a decidir sobre a autorização de residência',
@@ -229,10 +229,10 @@ export default {
   sources: [
     { title: 'AIMA — Portal de Renovações', url: 'https://portal-renovacoes.aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — site oficial', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Decreto-Lei 41/2023 — proteção do estatuto em caso de atraso da AIMA', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 23/2007 — regime de entrada e permanência', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei 41/2023 — criação da AIMA (sucessora do SEF/ACM)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Lei 23/2007 — regime de entrada e permanência (art. 78.º — renovação e validade do comprovativo)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'ePortugal — Renovar Título de Residência', url: 'https://www.gov.pt/servicos/renovar-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60
 }

@@ -3,7 +3,7 @@ export default {
   id: 'permanent-residence-eu',
   categoryId: 'residence_permit',
   title: 'Residência permanente em Portugal (arts. 76, 80) e EU Long-Term Resident (arts. 125+)',
-  tldr: 'Após 5 anos de titularidade de uma autorização de residência temporária em Portugal, é possível requerer a Autorização de Residência Permanente (arts. 76 e 80 Lei 23/2007).\n\nA própria autorização é POR TEMPO INDETERMINADO (sem limite de tempo); apenas o título/cartão é renovado de 5 em 5 anos (art. 76 nº 4 Lei 23/2007). Alternativa: Estatuto de Residente de Longa Duração UE / EU Long-Term Resident (arts. 125+ Lei 23/2007, transpõe a Directive 2003/109/EC) — também com cartão de 5 anos, facilita a mudança para muitos países da UE (NÃO é liberdade de circulação automática como a dos cidadãos da UE; Dinamarca/Irlanda não participam). Requisitos: 5 anos de residência TEMPORÁRIA, português A2, ausência de judicial conviction por crime com pena privativa de liberdade > 1 ano, meios estáveis. Pedido na AIMA.',
+  tldr: 'Após 5 anos de titularidade de uma autorização de residência temporária em Portugal, é possível requerer a Autorização de Residência Permanente (arts. 76 e 80 Lei 23/2007).\n\nA própria autorização é POR TEMPO INDETERMINADO (sem limite de tempo); apenas o título/cartão é renovado de 5 em 5 anos (art. 76 nº 4 Lei 23/2007). Alternativa: Estatuto de Residente de Longa Duração UE / EU Long-Term Resident (arts. 125+ Lei 23/2007, transpõe a Directive 2003/109/EC) — também com cartão de 5 anos, facilita a mudança para muitos países da UE (NÃO é liberdade de circulação automática como a dos cidadãos da UE; Dinamarca/Irlanda não participam). Requisitos: 5 anos de residência TEMPORÁRIA, português A2, ausência de condenação por crime com pena privativa de liberdade > 1 ano, meios estáveis. Pedido na AIMA.',
   tags: ['residência-permanente', 'permanente', 'autorização-de-residência', 'eu-long-term'],
   estimatedReadMinutes: 6,
   steps: [
@@ -16,7 +16,7 @@ export default {
             { kind: 'checklist', items: [
               'A própria autorização é por tempo indeterminado (sem limite de tempo, art. 76 Lei 23/2007). O cartão (título de residência) é renovado de 5 em 5 anos (art. 76 nº 4)',
               'Direito a trabalhar, viver e estudar em Portugal sem restrições',
-              'Risco de cancellation em caso de ausência por 24 meses consecutivos OU 30 meses interpolados em 3 anos sem motivo atendível (art. 85 Lei 23/2007)',
+              'Risco de cancelamento em caso de ausência por 24 meses consecutivos OU 30 meses interpolados em 3 anos sem motivo atendível (art. 85 Lei 23/2007)',
               'Lei Orgânica 1/2026 (publicada 18.05.2026, em vigor desde 19.05.2026): a naturalização passa a ser de 7 anos para CPLP/UE e 10 anos para os restantes (em vez dos anteriores 5). A residência permanente NÃO é obrigatória para pedir a nacionalidade, mas torna-se mais importante como estatuto intermédio estável durante esses 7–10 anos de espera',
               'Os membros da família recebem uma autorização de residência temporária e depois podem seguir o seu próprio percurso para a residência permanente',
               'Não confere direitos noutros países da UE'
@@ -25,7 +25,7 @@ export default {
           { id: 'n2', title: '🇪🇺 EU Long-Term Resident (EULTR)', content: [
             { kind: 'checklist', items: [
               'O cartão é válido por 5 anos → renovação (o estatuto de residente de longa duração também é por tempo indeterminado; só o cartão é renovado)',
-              'Facilita a mudança para muitos países da UE: depois da entrada no segundo Estado, normalmente é necessário requerer uma residence permit local e cumprir as respetivas condições (NÃO é liberdade de circulação como a dos cidadãos da UE)',
+              'Facilita a mudança para muitos países da UE: depois da entrada no segundo Estado, normalmente é necessário requerer uma autorização de residência local e cumprir as respetivas condições (NÃO é liberdade de circulação como a dos cidadãos da UE)',
               'NÃO se aplica à Dinamarca e à Irlanda (não participam na Directive 2003/109/EC)',
               'Requisitos: meios de subsistência estáveis e regulares, seguro de saúde, conhecimento básico de português',
               'Risco de perda em caso de ausência da UE por 12 meses consecutivos e noutras situações previstas na Lei 23/2007/Directive 2003/109',
@@ -33,7 +33,7 @@ export default {
             ]}
           ]},
           { id: 'n3', title: '🤔 Recomendação', content: [
-            { kind: 'paragraph', text: 'Para a maioria dos residentes — residência permanente nacional: o procedimento é mais simples, exige menos documentos e não caduca. EULTR — se planeia realmente mudar-se para outro país da UE dentro de 1-3 anos. Em teoria, é possível ter national permanent residence e/ou o estatuto EU long-term resident, mas o procedimento e a menção/cartão dependem da AIMA — é melhor confirmar a estratégia antes de submeter o pedido.' }
+            { kind: 'paragraph', text: 'Para a maioria dos residentes — residência permanente nacional: o procedimento é mais simples, exige menos documentos e não caduca. EULTR — se planeia realmente mudar-se para outro país da UE dentro de 1-3 anos. Em teoria, é possível ter a autorização de residência permanente nacional e/ou o estatuto de residente de longa duração UE em simultâneo, mas o procedimento e a menção/cartão dependem da AIMA — é melhor confirmar a estratégia antes de submeter o pedido.' }
           ]}
         ]}
       ]
@@ -45,7 +45,7 @@ export default {
         { kind: 'checklist', items: [
           '📅 5 anos de titularidade de uma autorização de residência temporária em Portugal. NÃO confundir com as regras da nacionalidade: os períodos de espera dos pedidos podem ser relevantes para a contagem da nacionalidade, mas normalmente NÃO substituem os 5 anos de autorização de residência temporária para a residência permanente',
           '🗣️ Português A2 — certificado CIPLE/CAPLE, certificado de curso de português reconhecido, ou outro documento expressamente aceite pela AIMA ao abrigo da lei/regulamento',
-          '💰 Meios de subsistência estáveis e regulares — normalmente trabalho, pensão, rendimentos; a AIMA orienta-se pelos Portuguese subsistence thresholds',
+          '💰 Meios de subsistência estáveis e regulares — normalmente trabalho, pensão, rendimentos; a AIMA orienta-se pelos limiares portugueses de meios de subsistência',
           '🏠 Alojamento adequado — contrato de arrendamento / propriedade, área em função do agregado familiar',
           '⚕️ Seguro de saúde ou utente do SNS — funciona se estiver registado',
           '⚖️ Sem cadastro criminal por crime que, segundo o direito português, seja punível com pena de prisão superior a 1 ano (art. 80 Lei 23/2007)',
@@ -62,7 +62,7 @@ export default {
         { kind: 'checklist', items: [
           'Visto D antes do primeiro cartão — NÃO conta. O visto é uma autorização de entrada, não de residência.',
           'Manifestação de Interesse (MdI) — NUNCA contou nem para a ARP nacional nem para o EULTR. A Lei 38/2024 permitiu brevemente para a nacionalidade, e a Lei Orgânica 1/2026 reverteu. O próprio regime da MdI foi revogado pela Lei 61/2025.',
-          'Fila de renovação com pedido apresentado a tempo — CONTA como continuous legal residence (art. 78 + DR 84/2007 art. 61). Desde Outubro de 2025 a AIMA prolongou explicitamente a validade dos cartões caducados.',
+          'Fila de renovação com pedido apresentado a tempo — CONTA como residência legal contínua (art. 78 + DR 84/2007 art. 61). Desde Outubro de 2025 a AIMA prolongou explicitamente a validade dos cartões caducados.',
           'Um intervalo sem título válido e sem pedido de renovação pendente — reinicia a contagem. A AIMA normalmente tolera intervalos curtos se a renovação anterior tiver sido pedida a tempo.',
           'Período de transição SEF→AIMA com cartões SEF caducados e renovação pendente confirmada — CONTA. Comprovado por uma certidão da AIMA.',
           'Conversões entre tipos de vistos (D2→D7, D7→D8) — a contagem NÃO se reinicia, desde que a autorização de residência se tenha mantido contínua. O importante é a continuidade da titularidade, não o tipo.',
@@ -120,7 +120,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🎂 Não há «recontagem» obrigatória do tempo — renovação do CARTÃO de 5 em 5 anos (a própria autorização é por tempo indeterminado)',
-          '🌍 Residência permanente nacional: risco de cancellation em caso de ausência por 24 meses consecutivos OU 30 meses interpolados em 3 anos sem motivo atendível. EULTR: risco de perda em caso de ausência da UE por 12 meses consecutivos e noutros casos',
+          '🌍 Residência permanente nacional: risco de cancelamento em caso de ausência por 24 meses consecutivos OU 30 meses interpolados em 3 anos sem motivo atendível. EULTR: risco de perda em caso de ausência da UE por 12 meses consecutivos e noutros casos',
           '💼 Trabalho sem restrições, sem autorizações',
           '👨‍👩‍👧 Reagrupamento Familiar — verifique as condições atuais na Lei 23/2007 (após a Lei 61/2025)',
           '🎓 Acesso ao ensino público nos termos gerais',
@@ -136,11 +136,11 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'O pedido é apresentado na AIMA, escolhendo «Estatuto de residente de longa duração (UE)»',
-          'Meios de subsistência estáveis e regulares, suficientes para o requerente e a família sem recurso a social assistance (limiar exato — confirmar junto da AIMA)',
+          'Meios de subsistência estáveis e regulares, suficientes para o requerente e a família sem recurso ao apoio social (limiar exato — confirmar junto da AIMA)',
           'Condição de integração — em Portugal, normalmente prova de conhecimento básico da língua portuguesa em formato aceite pela AIMA',
           'Para OBTER EULTR: a residência de 5 anos deve ser contínua — limites habituais de ausências não superiores a 6 meses consecutivos e não superiores a 10 meses no total ao longo de 5 anos, salvo exceções',
-          'Mobilidade para um segundo Estado da UE: normalmente é necessário requerer uma residence permit local no prazo de 3 meses após a entrada e cumprir as condições desse país; alguns países exigem passos prévios / visto / teste do mercado de trabalho',
-          'Exceções e regras especiais: estatutos diplomáticos/temporários ficam excluídos; períodos de estudo normalmente não dão direito por si só e podem ser contados parcialmente; beneficiaries of international protection — existem regras especiais na Lei 23/2007 / Directive 2011/51/EU',
+          'Mobilidade para um segundo Estado da UE: normalmente é necessário requerer uma autorização de residência local no prazo de 3 meses após a entrada e cumprir as condições desse país; alguns países exigem passos prévios / visto / teste do mercado de trabalho',
+          'Exceções e regras especiais: estatutos diplomáticos/temporários ficam excluídos; períodos de estudo normalmente não dão direito por si só e podem ser contados parcialmente; beneficiários de proteção internacional — existem regras especiais na Lei 23/2007 / Directive 2011/51/EU',
           'Perda: após a obtenção, aplicam-se regras próprias da Lei 23/2007 (risco em caso de ausência prolongada da UE e noutros casos)'
         ]}
       ]
@@ -177,7 +177,7 @@ export default {
     { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Autorização Permanente', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-25',
+  lastVerified: '2026-05-31',
   recentlyChangedAt: '2026-05-25',
   changeSummary: 'Atualização de Maio 2026: (1) Comparação mais profunda entre ARP nacional (art. 80) e EULTR (art. 125+): estudantes contam de forma diferente, limiares de ausência diferentes, padrões de recursos diferentes. (2) Passo "Quando começam a contar os 5 anos" com 9 nuances importantes (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT, estudantes). (3) Mitos frequentes sobre diferenças ARP vs EULTR. (4) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a nacionalidade agora exige 7/10 anos, a ARP torna-se mais importante como estatuto intermédio.',
   verifyIntervalDays: 180

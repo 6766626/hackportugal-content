@@ -3,7 +3,7 @@ export default {
   id: 'overstay-fines',
   categoryId: 'residence_permit',
   title: 'Multas por ultrapassar o período de permanência em Portugal',
-  tldr: 'Ultrapassar o período de permanência é uma infração grave. Segundo a Lei 23/2007 art. 192, as multas dividem-se em quatro intervalos: até 30 dias, 30–90, 90–180 e > 180 dias; confirme os valores exatos e os máximos na versão atual da Lei 23/2007 (art. 192) e na jurisprudência aplicável.\n\nA multa por si só NÃO equivale a um alerta SIS: a inscrição no Sistema de Informação Schengen (SIS) é feita por decisão separada (normalmente em caso de proibição de entrada / expulsão, não por cada multa). No entanto, ultrapassar o período de permanência aumenta drasticamente o risco de recusa na renovação e em vistos futuros. O pior caso é a permanência irregular acumulada: quanto mais tempo estiver sem estatuto, menor a probabilidade de voltar a legalizar-se.',
+  tldr: 'Ultrapassar o período de permanência é uma infração grave. Segundo a Lei 23/2007 art. 192, a coima depende da duração da permanência irregular: 80–160 € (até 30 dias), 160–320 € (30–90), 320–500 € (90–180), 500–700 € (> 180 dias). Confirme os valores na versão atual do art. 192 antes de pagar.\n\nA multa por si só NÃO equivale a um alerta SIS: a inscrição no Sistema de Informação Schengen (SIS) é feita por decisão separada (normalmente em caso de proibição de entrada / expulsão, não por cada multa). No entanto, ultrapassar o período de permanência aumenta drasticamente o risco de recusa na renovação e em vistos futuros. O pior caso é a permanência irregular acumulada: quanto mais tempo estiver sem estatuto, menor a probabilidade de voltar a legalizar-se.',
   tags: ['permanência irregular', 'multa', 'aima'],
   estimatedReadMinutes: 6,
   steps: [
@@ -41,12 +41,12 @@ export default {
       id: 'fines',
       title: 'Multas e consequências',
       content: [
-        { kind: 'paragraph', text: 'Segundo a Lei 23/2007 art. 192, a lei divide a permanência irregular em quatro períodos. As referências abaixo servem para compreender a ordem de grandeza; confirme os mínimos/máximos exatos na versão atual da Lei 23/2007 art. 192 e da Lei 61/2025 (se aplicável), bem como na prática da AIMA:' },
+        { kind: 'paragraph', text: 'Segundo a Lei 23/2007 art. 192 (na redação da Lei 18/2022), a lei divide a permanência irregular em quatro períodos com intervalos de coima fixos. Os valores abaixo são os da versão em vigor; confirme-os no texto atual do art. 192 em diariodarepublica.pt e na prática da AIMA antes de pagar:' },
         { kind: 'checklist', items: [
-          'Permanência irregular até 30 dias: multa indicativa a partir de 80 €; limite superior — algumas centenas de euros',
-          'Permanência irregular 30–90 dias: multa mais elevada; o limite superior pode chegar a centenas de euros',
-          'Permanência irregular 90–180 dias: multa ainda mais elevada — várias centenas/cerca de mil euros',
-          'Permanência irregular superior a 180 dias: valores máximos; risco elevado de expulsão',
+          'Permanência irregular até 30 dias: coima 80–160 €',
+          'Permanência irregular 30–90 dias: coima 160–320 €',
+          'Permanência irregular 90–180 dias: coima 320–500 €',
+          'Permanência irregular superior a 180 dias: coima 500–700 €; risco elevado de expulsão',
           'Controlo na fronteira com permanência irregular — a multa é registada; pagamento no local, na PSP ou através do Portal AT por referência Multibanco',
           'Inclusão no SIS (alerta de proibição de entrada no espaço Schengen) — procedimento separado, normalmente em caso de expulsão formal ou proibição de entrada, e não automaticamente pelo simples facto de existir uma multa',
           'Crianças com menos de 16 anos não são multadas, mas a permanência irregular é registada',
@@ -110,10 +110,10 @@ export default {
     }
   ],
   costs: [
-    { label: 'Multa por permanência irregular até 30 dias (Lei 23/2007 art. 192 #1)', amountEURMin: 80, amountEURMax: 400, note: 'Referência indicativa; o valor exato no caso concreto é determinado pela AIMA / tribunal nos termos do art. 192 da versão atual' },
-    { label: 'Multa por permanência irregular de 30-90 dias', amountEURMin: 160, amountEURMax: 700 },
-    { label: 'Multa por permanência irregular de 90-180 dias', amountEURMin: 400, amountEURMax: 1200 },
-    { label: 'Multa por permanência irregular >180 dias', amountEURMin: 800, amountEURMax: 1600 },
+    { label: 'Multa por permanência irregular até 30 dias (Lei 23/2007 art. 192 #1)', amountEURMin: 80, amountEURMax: 160, note: 'O intervalo da coima está fixado diretamente no art. 192 (na redação da Lei 18/2022); o valor concreto dentro do intervalo é fixado pela autoridade / tribunal' },
+    { label: 'Multa por permanência irregular de 30-90 dias', amountEURMin: 160, amountEURMax: 320 },
+    { label: 'Multa por permanência irregular de 90-180 dias', amountEURMin: 320, amountEURMax: 500 },
+    { label: 'Multa por permanência irregular >180 dias', amountEURMin: 500, amountEURMax: 700 },
     { label: 'Consulta de advogado', amountEURMin: 50, amountEURMax: 150 }
   ],
   sources: [
@@ -122,6 +122,6 @@ export default {
     { title: 'Calculadora UE 90/180', url: 'https://ec.europa.eu/assets/home/visa-calculator/calculator.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 37-A/2024', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-a-2024-864229054', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

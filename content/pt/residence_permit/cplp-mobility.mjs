@@ -8,7 +8,7 @@ export default {
   tags: ['cplp', 'autorização de residência', 'brasil', 'mobilidade'],
   estimatedReadMinutes: 8,
   recentlyChangedAt: '2025-10-23',
-  changeSummary: 'O Decreto-Lei 37-A/2024 pôs fim à aceitação de novas Manifestação de Interesse a partir de junho de 2024; a Lei 61/2025 (em vigor desde 23.10.2025) alterou/agravou o regime subsequente, incluindo os procedimentos CPLP — para cidadãos CPLP, exceto brasileiros, passa a ser obrigatório visto antes da entrada. A nova lei da nacionalidade (Decreto AR 48/XVII, promulgado pelo Presidente António José Seguro em 03.05.2026; entrará em vigor após publicação no DRE) aumentará o período até à nacionalidade de 5 para 7 anos para todos os cidadãos CPLP.',
+  changeSummary: 'O Decreto-Lei 37-A/2024 pôs fim à aceitação de novas Manifestação de Interesse a partir de junho de 2024; a Lei 61/2025 (em vigor desde 23.10.2025) alterou/agravou o regime subsequente, incluindo os procedimentos CPLP — para cidadãos CPLP, exceto brasileiros, passa a ser obrigatório visto antes da entrada. A nova lei da nacionalidade foi publicada como Lei Orgânica 1/2026 (18.05.2026) e está em vigor desde 19.05.2026: o período de residência para naturalização de todos os cidadãos CPLP aumentou de 5 para 7 anos. Por regra transitória, aos procedimentos pendentes à data de entrada em vigor aplica-se a redação anterior (5 anos).',
   variants: [
     {
       id: 'brazil',
@@ -81,7 +81,7 @@ export default {
         { kind: 'checklist', items: [
           'O prazo de validade e as renovações dependem do tipo de documento emitido: certificados CPLP iniciais/eletrónicos podiam ser emitidos por 1 ano; autorizações de residência temporárias em cartão ao abrigo do art. 75 seguem normalmente o esquema de 2 anos inicial + 3 anos de renovação — confirme o prazo impresso no cartão/decisão da AIMA',
           'Trabalho livre sem autorização de trabalho separada',
-          'Segundo a lei em vigor, naturalização após 5 anos de residência legal. 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação no DRE, o prazo para a CPLP aumentará para 7 anos',
+          'Naturalização após 7 anos de residência legal: a Lei Orgânica 1/2026, em vigor desde 19.05.2026, aumentou o prazo para os cidadãos CPLP de 5 para 7 anos. Por regra transitória, aos pedidos submetidos antes da entrada em vigor aplica-se o regime anterior de 5 anos',
           'Brasileiros residentes podem solicitar separadamente o Estatuto de Igualdade de Direitos e Deveres; os direitos políticos exigem um estatuto separado e normalmente 3 anos de residência',
           'Acesso simplificado ao SNS e às escolas'
         ]}
@@ -118,6 +118,6 @@ export default {
     { title: 'Lei nº 61/2025 (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPLP — portal oficial', url: 'https://www.cplp.org/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60
 }

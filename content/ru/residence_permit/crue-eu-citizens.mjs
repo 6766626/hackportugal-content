@@ -3,7 +3,7 @@ export default {
   id: 'crue-eu-citizens',
   categoryId: 'residence_permit',
   title: 'CRUE — регистрация граждан ЕС/ЕЭЗ/Швейцарии',
-  tldr: 'Граждане ЕС/ЕЭЗ/Швейцарии не нуждаются в визе. Если планируете жить в Португалии БОЛЕЕ 3 месяцев — нужно зарегистрироваться в течение 30 дней после истечения первых 3 месяцев пребывания и получить Certificado de Registo de Cidadão da União Europeia (CRUE)\.\n\nОформляется в Câmara Municipal по месту жительства. ~€ 15 (для детей младше 6 лет — €7,50), выдаётся обычно в день визита; ожидание записи зависит от муниципалитета.',
+  tldr: 'Граждане ЕС/ЕЭЗ/Швейцарии не нуждаются в визе. Если планируете жить в Португалии БОЛЕЕ 3 месяцев — нужно зарегистрироваться в течение 30 дней после истечения первых 3 месяцев пребывания и получить Certificado de Registo de Cidadão da União Europeia (CRUE).\n\nОформляется в Câmara Municipal по месту жительства. ~€ 15 (для детей младше 6 лет — €7,50), выдаётся обычно в день визита; ожидание записи зависит от муниципалитета.',
   audience: { citizenships: ['euEeaSwiss'] },
   tags: ['crue', 'ес', 'регистрация'],
   estimatedReadMinutes: 4,
@@ -72,6 +72,6 @@ export default {
     { title: 'Lei nº 37/2006 — въезд и проживание граждан ЕС', url: 'https://diariodarepublica.pt/dr/detalhe/lei/37-2006', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Your Europe — формальности проживания в Португалии', url: 'https://europa.eu/youreurope/citizens/residence/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

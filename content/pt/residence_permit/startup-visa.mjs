@@ -3,7 +3,7 @@ export default {
   id: 'startup-visa',
   categoryId: 'residence_permit',
   title: 'Startup Visa — para fundadores de startups certificadas',
-  tldr: 'O Startup Visa destina-se a fundadores de startups inovadoras. Exige a aprovação de um dos ~94 incubadores certificados em Portugal (lista IAPMEI 2026) + um plano de negócios viável. Por projecto — máximo de 5 empreendedores. A autorização de residência inicial é por 2 anos. O IFICI NÃO é automático: depende do estatuto de residente fiscal português, da actividade elegível e do registo atempado. Candidatura através do portal Startup Visa + residence visa empreendedora no consulado.',
+  tldr: 'O Startup Visa destina-se a fundadores de startups inovadoras. Exige a aprovação de um dos ~102 incubadores certificados em Portugal (lista IAPMEI 2026) + um plano de negócios viável. Por projecto — máximo de 5 empreendedores. A autorização de residência inicial é por 2 anos. O IFICI NÃO é automático: depende do estatuto de residente fiscal português, da actividade elegível e do registo atempado. Candidatura através do portal Startup Visa + residence visa empreendedora no consulado.',
   audience: { citizenships: ['thirdCountry'] },
   tags: ['startup', 'autorização de residência', 'startup', 'inovação'],
   estimatedReadMinutes: 6,
@@ -38,7 +38,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 's1', title: '1. Escolher um incubador da lista', content: [
-            { kind: 'link', text: 'Lista de incubadores certificados (~94 em 2026)', url: 'https://startupvisa.iapmei.pt/' }
+            { kind: 'link', text: 'Lista de incubadores certificados (~102 em 2026)', url: 'https://startupvisa.iapmei.pt/' }
           ]},
           { id: 's2', title: '2. Contactar o incubador e submeter o projecto', content: [
             { kind: 'paragraph', text: 'Cada incubador tem o seu próprio procedimento de avaliação (apresentações do projecto, entrevistas, documentos).' }
@@ -75,8 +75,8 @@ export default {
     { label: 'Candidatura IAPMEI', amountEUR: 0 },
     { label: 'Incubador (programa)', amountEURMin: 0, amountEURMax: 5000, note: 'muitos são gratuitos, alguns cobram uma taxa' },
     { label: 'Visto consular', amountEUR: 90 },
-    { label: 'AIMA — receção e análise do pedido', amountEUR: 134.28, note: 'tarifa desde 01.03.2026 (25% IAS com IAS 2026 = 537,13 €)' },
-    { label: 'AIMA — emissão do título de residência temporário', amountEUR: 322.28, note: 'tarifa desde 01.03.2026 (60% IAS); a linha exacta da tabela de taxas depende do tipo de autorização' }
+    { label: 'AIMA — receção e análise do pedido', amountEUR: 133.00, note: 'tarifa desde 01.03.2026 (Portaria n.º 307/2023, actualizada anualmente pelo IPC)' },
+    { label: 'AIMA — emissão do título de residência temporário', amountEUR: 307.20, note: 'tarifa desde 01.03.2026 (Portaria n.º 307/2023); a linha exacta da tabela de taxas depende do tipo de autorização' }
   ],
   timelineDaysMin: 90,
   timelineDaysMax: 180,
@@ -85,6 +85,6 @@ export default {
     { title: 'IAPMEI — Startup Portugal', url: 'https://www.iapmei.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Vistos MNE — Startup Visa', url: 'https://vistos.mne.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

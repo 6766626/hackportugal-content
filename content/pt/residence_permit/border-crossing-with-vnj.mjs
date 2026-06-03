@@ -41,7 +41,7 @@ export default {
               'O agente verifica: integridade do cartão, correspondência do nome com o passaporte, prazo de validade',
               'Normalmente NÃO é colocado carimbo de entrada aos titulares de autorização de residência; se o carimbo for colocado por engano — guarde o cartão de embarque/bilhetes e, se necessário, esclareça junto do serviço de fronteiras',
               'Se a autorização de residência estiver em renovação — comprovativo + cartão antigo',
-              'EES (Entry-Exit System) — implementação faseada a partir de 12.10.2025. O EES aplica-se a cidadãos de países terceiros na ENTRADA para estadias de curta duração. Titulares de autorização de residência/visto de longa duração válido de um país Schengen que entram como residentes normalmente NÃO são registados no EES — apresente a autorização de residência + passaporte; o agente de fronteira determinará o procedimento correto'
+              'EES (Entry-Exit System) — implementação faseada a partir de 12.10.2025, totalmente operacional desde 10.04.2026. O EES aplica-se a cidadãos de países terceiros na ENTRADA para estadias de curta duração. Titulares de autorização de residência/visto de longa duração válido de um país Schengen que entram como residentes normalmente NÃO são registados no EES — apresente a autorização de residência + passaporte; o agente de fronteira determinará o procedimento correto'
             ]}
           ]},
           { id: 'n3', title: 'Trânsito por Schengen', content: [
@@ -71,7 +71,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 's1', title: 'Reino Unido', content: [
-            { kind: 'paragraph', text: 'NÃO é Schengen. O Reino Unido não reconhece a autorização de residência PT como direito de entrada. A regra depende do passaporte: cidadãos de países visa-national (incluindo Federação Russa/Bielorrússia) normalmente precisam de UK Standard Visitor visa; cidadãos de países visa-free precisam de ETA. A ETA custa £16 (2025+), é válida até 2 anos ou até ao fim da validade do passaporte; as visitas permitidas são normalmente até 6 meses.' }
+            { kind: 'paragraph', text: 'NÃO é Schengen. O Reino Unido não reconhece a autorização de residência PT como direito de entrada. A regra depende do passaporte: cidadãos de países visa-national (incluindo Federação Russa/Bielorrússia) normalmente precisam de UK Standard Visitor visa; cidadãos de países visa-free precisam de ETA. A ETA custa £20 (desde 8 de abril de 2026), é válida até 2 anos ou até ao fim da validade do passaporte; as visitas permitidas são normalmente até 6 meses.' }
           ]},
           { id: 's2', title: 'Irlanda', content: [
             { kind: 'paragraph', text: 'Não é Schengen. A autorização de residência PT por si só NÃO confere direito de entrada; a necessidade de Irish visa depende do passaporte. Para cidadãos da Federação Russa/Bielorrússia, normalmente é necessário visto. Site — irishimmigration.ie.' }
@@ -113,6 +113,6 @@ export default {
     { title: 'Sistema de Entrada/Saída da UE (EES) — ec.europa.eu', url: 'https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/smart-borders_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Vistos MNE — regras para cidadãos de países terceiros', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

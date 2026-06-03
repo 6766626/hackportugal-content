@@ -3,7 +3,7 @@ export default {
   id: 'casamento-cl-noivo-noiva',
   categoryId: 'nationality',
   title: 'Casamento Civil: steps and documents for foreigners',
-  tldr: 'Casamento Civil in Portugal is arranged through the Conservatória do Registo Civil / IRN. The ceremony is conducted by a conservador or oficial de registos, NOT a notary; a notário is needed for a convenção antenupcial (prenuptial agreement), but not for the marriage registration itself. Foreign residents and non-residents follow the same process: at least 30 days in advance they submit the processo preliminar, passports and certificates of marital status. Foreign documents require an apostille/legalisation and translation into PT. The standard fee for processo + registo de casamento under the Regulamento Emolumentar is approximately from €120; an off-site ceremony outside the Conservatória is a separate surcharge under the IRN table, depending on the day of the week and distance. Usually 2 witnesses with documents are required.',
+  tldr: 'Casamento Civil in Portugal is arranged through the Conservatória do Registo Civil / IRN. The ceremony is conducted by a conservador or oficial de registos, NOT a notary; a notário is needed for a convenção antenupcial (prenuptial agreement), but not for the marriage registration itself. Foreign residents and non-residents follow the same process: at least 30 days in advance they submit the processo preliminar, passports and certificates of marital status. Foreign documents require an apostille/legalisation and translation into PT. The standard fee for processo + registo de casamento under the Regulamento Emolumentar is €120; a ceremony outside the Conservatória or outside working hours / on a holiday carries a €200 emolument under the IRN table, plus possible costs for the conservador to travel. Witnesses are not mandatory: between 2 and 4 witnesses may attend, but the law does not require them.',
   tags: ['marriage', 'civil registry office', 'irn', 'documents'],
   estimatedReadMinutes: 6,
   steps: [
@@ -120,8 +120,8 @@ export default {
     }
   ],
   costs: [
-    { label: 'Processo + registo de casamento at the Conservatória (IRN)', amountEURMin: 120, amountEURMax: 160, note: 'Indicative amount for a standard ceremony under the Regulamento Emolumentar dos Registos e do Notariado; confirm the final amount when booking with IRN.' },
-    { label: 'Off-site ceremony outside the Conservatória', amountEURMin: 300, amountEURMax: 600, note: 'Surcharge under the IRN table; depends on the day of the week, time and distance; check the exact amount with the specific Conservatória.' },
+    { label: 'Processo + registo de casamento at the Conservatória (IRN)', amountEURMin: 120, amountEURMax: 120, note: 'Fixed €120 emolument for a standard ceremony during working hours under the Regulamento Emolumentar dos Registos e do Notariado; separate certidões may be charged extra. Confirm the final amount when booking with IRN.' },
+    { label: 'Ceremony outside the Conservatória / outside working hours / on a holiday', amountEURMin: 200, amountEURMax: 200, note: 'IRN emolument is €200 (Regulamento Emolumentar). The cost of the conservador travelling and of a private venue (quinta, hotel) is charged separately and is not an IRN fee.' },
     { label: 'Convenção antenupcial', amountEURMin: 100, amountEURMax: 250, note: 'If a prenuptial agreement or non-standard property regime is needed; the price depends on the Conservatória/Notário and the content.' },
     { label: 'Translation and notarisation', amountEURMin: 30, amountEURMax: 120, note: 'Per document; depends on the language, urgency and translator.' },
     { label: 'Apostila de Haia abroad', amountEURMin: 10, amountEURMax: 80, note: 'Not a Portuguese fee; depends on the country where the document is issued.' }
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

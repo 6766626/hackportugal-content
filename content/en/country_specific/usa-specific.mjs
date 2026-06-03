@@ -66,7 +66,7 @@ export default {
           'PFIC (Passive Foreign Investment Company) — EU funds are often considered PFICs, with heavy IRS reporting',
           'Vanguard / Fidelity / Charles Schwab — generally easier for US residents',
           'US ETFs — better than Portuguese/European funds for Americans',
-          'Roth IRA — not taxed in Portugal (protected by the treaty)',
+          'Roth IRA — Portugal does not recognize its tax-free status: for a Portuguese tax resident, distributions are generally taxable in Portugal (growth taxed as pension income), and the treaty does not protect them. A common trap — get advice from a tax professional',
           '401(k) — pension payments are taxed in Portugal',
           'Portuguese pension fund (PPR) — the US treats it as a PFIC, a poor choice for a US citizen'
         ]}
@@ -105,6 +105,6 @@ export default {
     { title: 'US-Portugal Tax Treaty (IRS)', url: 'https://www.irs.gov/businesses/international-businesses/portugal-tax-treaty-documents', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças (tax portal) — residency', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

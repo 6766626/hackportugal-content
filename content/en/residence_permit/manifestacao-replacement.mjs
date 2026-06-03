@@ -71,6 +71,6 @@ export default {
     { title: 'Decreto-Lei 37-A/2024 (DRE) — end of MdI acceptance on 03.06.2024', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-a-2024-864229054', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 23/2007 (consolidated) — grounds for residence permit', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60
 }

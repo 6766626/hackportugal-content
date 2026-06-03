@@ -3,7 +3,7 @@ export default {
   id: 'reagrupamento-familiar',
   categoryId: 'residence_permit',
   title: 'Family reunification (Reagrupamento Familiar)',
-  tldr: 'A process that allows you to bring a spouse, children or parents after obtaining your own residence permit. Applications are submitted through AIMA (portal-rf.aima.gov.pt).\n\nImportant: since 2024 (Lei 9/2024 + Lei 61/2025 of 23.10.2025), at least 2 years of legal residence in Portugal BEFORE applying is required.\n\nAIMA decision time — up to 9 months (previously 90 days).\n\nExceptions: Golden Visa holders, D3 (EU Blue Card), and several other qualified statuses.',
+  tldr: 'A process that allows you to bring a spouse, children or parents after obtaining your own residence permit. Applications are submitted through AIMA (portal-rf.aima.gov.pt).\n\nImportant: Lei 61/2025 (published 22.10.2025, in force from 23.10.2025) introduced a requirement of 2 years of legal residence BEFORE applying. However, the Constitutional Court (Acórdão 785/2025) ruled the absolute 2-year condition unconstitutional as it applies to spouses and minor children. The exact requirements depend on the family member category — individual checking is needed.\n\nAIMA decision time — up to 9 months (previously 3 months, extendable to 6).\n\nExceptions: Golden Visa holders, EU Blue Card holders, highly qualified professionals, researchers and several other qualified statuses; spouses and families with minor children have separate protection.',
   tags: ['family', 'reunification', 'reagrupamento', 'aima'],
   estimatedReadMinutes: 8,
   steps: [
@@ -25,14 +25,14 @@ export default {
       title: 'Requirements for the applicant',
       content: [
         { kind: 'checklist', items: [
-          'Valid residence permit for ≥ 2 years at the time of application (introduced by Lei 9/2024; Lei 61/2025 confirmed this rule)',
-          'Exceptions to the 2-year rule: Golden Visa holders, D3 (highly qualified professionals), EU Blue Card, refugees, researchers with a short-term contract, minor children, spouses where cohabitation is ≥ 15 months.',
+          'As a general rule — a valid residence permit for ≥ 2 years at the time of application (introduced by Lei 61/2025, which amended Lei 23/2007). Important: the Constitutional Court (Acórdão 785/2025) ruled the absolute 2-year condition unconstitutional for spouses and families with minor children, so it does not apply to them',
+          'Exceptions and reductions to the 2-year rule: Golden Visa holders, EU Blue Card, highly qualified professionals (arts. 90, 90-A, 121-A), refugees, researchers with a short-term contract, minors or incapacitated dependants; for spouses/partners without children — a reduced threshold (around 15 months of residence with prior cohabitation). The exact conditions depend on the category — check individually',
           'Suitable accommodation (rental contract for a term of ≥ 12 months or ownership, floor area ≥ 30 m² for 1 person + 15 m² for each additional person)',
           'Stable income — minimum 100% SMN (€920 in 2026) for the applicant + 50% for the spouse (€460) + 30% per child (€276 per child)',
           'Health insurance for all family members until SNS is obtained',
           'No debts to Finanças or Segurança Social'
         ]},
-        { kind: 'warning', text: 'Lei 9/2024 (entered into force in 2024, confirmed by Lei 61/2025): at least 2 years of legal residence BEFORE applying for Reagrupamento Familiar. Previously, it was possible to apply immediately after obtaining a residence permit. This is the key change for new residents.' }
+        { kind: 'warning', text: 'Lei 61/2025 (published 22.10.2025, in force from 23.10.2025; amended Lei 23/2007) introduced a requirement of at least 2 years of legal residence BEFORE applying for Reagrupamento Familiar. Previously, it was possible to apply immediately after obtaining a residence permit. However, in Acórdão 785/2025 the Constitutional Court ruled this condition unconstitutional for spouses and families with minor children — for them the 2-year period does not apply. Because of this instability, always check the current version of the law and AIMA practice before applying.' }
       ]
     },
     {
@@ -52,7 +52,7 @@ export default {
             { kind: 'paragraph', text: 'Through the dedicated portal portal-rf.aima.gov.pt (launched in 2024) or at an in-person appointment. Select the “Reagrupamento Familiar” type.' }
           ]},
           { id: 'r3', title: '3. Receive preliminary approval', content: [
-            { kind: 'timeline', text: 'Up to 9 months under Lei 61/2025 (previously “up to 90 days” — before the reform). In practice in 2026 — 6–12 months. If approved, AIMA sends a notification to the consulate in the family’s country of residence.' }
+            { kind: 'timeline', text: 'Up to 9 months under Lei 61/2025 (previously 3 months, extendable by a further 3; the rule on “tacit approval” after 6 months was also revoked). In practice in 2026 — 6–12 months. If approved, AIMA sends a notification to the consulate in the family’s country of residence.' }
           ]},
           { id: 'r4', title: '4. The family obtains a visa at the consulate', content: [
             { kind: 'paragraph', text: 'On the basis of AIMA approval. Fee — around €90 per person.' }
@@ -92,9 +92,9 @@ export default {
     { title: 'AIMA — Reagrupamento Familiar (portal-rf)', url: 'https://portal-rf.aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Reagrupamento Familiar', url: 'https://www.gov.pt/cidadaos/-/informacoes/reagrupamento-familiar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 23/2007 — Articles 98-108', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 9/2024 — 2-year residence requirement for Reagrupamento Familiar', url: 'https://diariodarepublica.pt/dr/detalhe/lei/9-2024', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Lei 61/2025 — 9-month AIMA decision period', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Lei 61/2025 (DR No. 204, 22.10.2025) — amendments to Lei 23/2007 (2-year condition, 9-month AIMA decision period)', url: 'https://files.diariodarepublica.pt/1s/2025/10/20400/0000900017.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Tribunal Constitucional — Acórdão 785/2025 (unconstitutionality of several Reagrupamento Familiar provisions)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20250785.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

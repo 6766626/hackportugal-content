@@ -3,7 +3,7 @@ export default {
   id: 'd2-entrepreneur',
   categoryId: 'residence_permit',
   title: 'Виза D2 (предприниматель / ИП)',
-  tldr: 'D2 — виза для открытия бизнеса или самозанятости в Португалии. Варианты: открыть компанию, оформить самозанятость через Início de Atividade, купить существующий бизнес. Финансовый порог — индивидуальный: нужен жизнеспособный бизнес-план и средства для старта и жизни. Первый ВНЖ обычно на 2 года, затем продление. По действующему праву натурализация после 5 лет — но 03.05.2026 Президент Сегуру промульгировал Decreto AR 48/XVII, который после публикации в DRE поднимет срок до 7 лет для CPLP/EU и 10 лет для остальных.',
+  tldr: 'D2 — виза для открытия бизнеса или самозанятости в Португалии. Варианты: открыть компанию, оформить самозанятость через Início de Atividade, купить существующий бизнес. Финансовый порог — индивидуальный: нужен жизнеспособный бизнес-план и средства для старта и жизни. Первый ВНЖ обычно на 2 года, затем продление. Реформа Закона о гражданстве уже вступила в силу: Lei Orgânica n.º 1/2026 (опубликована 18.05.2026, действует с 19.05.2026) подняла ценз оседлости для натурализации с 5 до 7 лет для граждан CPLP/EU и до 10 лет для остальных. По заявлениям, поданным до 18.05.2026 включительно, применяется прежний 5-летний срок.',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
   tags: ['d2', 'внж', 'бизнес', 'предприниматель'],
   estimatedReadMinutes: 7,
@@ -75,8 +75,9 @@ export default {
     { title: 'AIMA — Autorização de Residência (ВНЖ) для предпринимателей', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Empresa na Hora — создание компании за день', url: 'https://justica.gov.pt/Servicos/Empresa-na-Hora', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portaria n.º 1563/2007 — meios de subsistência', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/1563-2007-635255', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Decreto-Lei n.º 112/2025 — SMN 2026 (€920)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/112-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Decreto-Lei n.º 112/2025 — SMN 2026 (€920)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/112-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Lei Orgânica n.º 1/2026 — реформа Закона о гражданстве (ценз 7/10 лет, в силе с 19.05.2026)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

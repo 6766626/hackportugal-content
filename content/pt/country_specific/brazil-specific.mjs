@@ -3,7 +3,7 @@ export default {
   id: 'brazil-specific',
   categoryId: 'country_specific',
   title: 'Brasileiros em Portugal — CPLP e Estatuto de Igualdade',
-  tldr: 'Brasileiros em Portugal: isenção de visto por 90 dias, pedido de autorização de residência a partir de dentro do país através do acordo de mobilidade CPLP. Após 3 anos de residência — Estatuto de Igualdade: direitos políticos e económicos em pé de igualdade com os portugueses. Após 5 anos — cidadania (7 anos pela nova lei Decreto AR 48/XVII, promulgada pelo Presidente Seguro em 03.05.2026; entrará em vigor após publicação no DRE). É o caminho de imigração para Portugal mais fácil de todos.',
+  tldr: 'Brasileiros em Portugal: isenção de visto por 90 dias, pedido de autorização de residência a partir de dentro do país através do acordo de mobilidade CPLP. Após 3 anos de residência — Estatuto de Igualdade: direitos políticos e económicos em pé de igualdade com os portugueses. Pela lei em vigor (Lei Orgânica n.º 1/2026, em vigor desde 19.05.2026), a cidadania obtém-se após 7 anos de residência legal para nacionais da CPLP; os pedidos entregues até 18.05.2026 são apreciados pela redacção anterior (5 anos). É um dos caminhos de imigração para Portugal mais fáceis.',
   audience: { countryCodes: ['BR'] },
   tags: ['brasil', 'cplp', 'estatuto'],
   estimatedReadMinutes: 6,
@@ -70,9 +70,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Para cidadãos da CPLP, obter a cidadania portuguesa é mais simples:' },
         { kind: 'checklist', items: [
-          'Pela lei em vigor (Lei 37/81) — 5 anos de residência legal',
-          'Pela nova lei (Decreto AR 48/XVII, depois de passar pelo TC foi renumerado de 17/XVII; promulgado pelo Presidente Seguro em 03.05.2026, em 13.05.2026 publicado a 18.05.2026 como Lei Orgânica n.º 1/2026 — 10 dias) — 7 anos para CPLP+UE / 10 anos para os restantes. O texto da lei contém uma disposição transitória: aos processos em curso aplica-se a redacção anterior da Lei 37/81 (5 anos)',
-          'O tempo de espera pela MdI / primeira autorização de residência deixa de contar para o tempo de residência (pela nova lei)',
+          'Lei em vigor: a Lei da Nacionalidade (Lei 37/81) na redacção da Lei Orgânica n.º 1/2026 (publicada no DRE a 18.05.2026, em vigor desde 19.05.2026) — 7 anos de residência legal para nacionais da CPLP e da UE, 10 anos para os restantes',
+          'Disposição transitória: aos pedidos entregues até 18.05.2026 aplica-se a redacção anterior (5 anos)',
+          'O prazo conta-se a partir da emissão da primeira autorização de residência; o tempo de espera (incluindo a MdI) não conta para o tempo de residência',
           'Língua A2 — não exigida (português é língua materna)',
           'Com passaporte português — cidadania da UE'
         ]},
@@ -115,6 +115,6 @@ export default {
     { title: 'Tratado de Amizade Brasil-Portugal (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-do-presidente-da-republica/79-2000', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPLP — portal oficial', url: 'https://www.cplp.org/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

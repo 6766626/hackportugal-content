@@ -31,7 +31,7 @@ export default {
         { kind: 'checklist', items: [
           'D7 (passive income) — for pensioners',
           'D8 (digital nomad) — for those who work remotely. Popular with IT specialists from London',
-          'D3 (qualified professional) — work in a Portuguese company',
+          'D3 (highly qualified activity / EU Blue Card) — work under an offer from a Portuguese company',
           'Golden Visa — for major investors',
           'Tourists: 90 days in Schengen visa-free'
         ]},
@@ -43,10 +43,10 @@ export default {
       title: 'Taxes United Kingdom ↔ Portugal',
       content: [
         { kind: 'checklist', items: [
-          'Portugal—United Kingdom tax treaty — in force since 1968, updated by protocols (latest — 2016) — avoidance of double taxation',
+          'Portugal—United Kingdom tax treaty — a new Convention was signed on 15.09.2025, entered into force on 29.12.2025 and applies from 01.01.2026 (in Portugal) / from 06.04.2026 for Income Tax and Capital Gains Tax in the UK; it replaced the 1968 Convention — avoidance of double taxation',
           'Non-dom in the United Kingdom — not relevant in Portugal (Portugal taxes residents on worldwide income with no non-dom option)',
           'Portuguese resident (>183 days) — taxed on worldwide income in Portugal',
-          'British pension (state, occupational): taxed in Portugal, where the person is resident. The United Kingdom may withhold tax at source — offset via a foreign tax credit',
+          'British pensions: the State Pension, private and occupational pensions are taxed in Portugal, where the person is resident. IMPORTANT: government service pensions (civil service, armed forces, police, NHS, state schools) are taxed ONLY in the UK under the new Convention (the exception is where the recipient is also a Portuguese national). This is a grey area — check with a tax specialist',
           'ISA — the British tax advantage does not work in Portugal: income inside an ISA is taxed in Portugal (dividends and interest at normal rates)',
           'SIPP — Portugal usually recognises it as a pension plan; withdrawals are taxed as pension income, but taxation of growth inside the SIPP is a grey area and often requires a specialist',
           'CRS — British banks report to Portugal automatically (Common Reporting Standard)',
@@ -102,6 +102,6 @@ export default {
     { title: 'HMRC — Portugal Tax Treaty', url: 'https://www.gov.uk/government/publications/portugal-tax-treaties', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'EU Commission — Brexit WA rights', url: 'https://commission.europa.eu/strategy-and-policy/relations-united-kingdom/eu-uk-withdrawal-agreement_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

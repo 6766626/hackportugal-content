@@ -31,7 +31,7 @@ export default {
         { kind: 'checklist', items: [
           'D7 (rendimento passivo) — para reformados',
           'D8 (nómada digital) — para quem trabalha remotamente. Popular entre profissionais de TI de Londres',
-          'D3 (profissional qualificado) — trabalho numa empresa portuguesa',
+          'D3 (atividade altamente qualificada / Cartão Azul UE) — trabalho mediante oferta de uma empresa portuguesa',
           'Golden Visa — para grandes investidores',
           'Turistas: 90 dias no Espaço Schengen sem visto'
         ]},
@@ -43,10 +43,10 @@ export default {
       title: 'Impostos Reino Unido ↔ Portugal',
       content: [
         { kind: 'checklist', items: [
-          'A convenção fiscal Portugal—Reino Unido — em vigor desde 1968, atualizada por protocolos (o mais recente — 2016) — evita a dupla tributação',
+          'A convenção fiscal Portugal—Reino Unido — foi assinada uma nova Convenção em 15.09.2025, entrou em vigor em 29.12.2025 e aplica-se a partir de 01.01.2026 (em Portugal) / a partir de 06.04.2026 quanto ao Income Tax e Capital Gains Tax no Reino Unido; substituiu a Convenção de 1968 — evita a dupla tributação',
           'Non-dom no Reino Unido — não é relevante em Portugal (Portugal tributa o rendimento mundial dos residentes sem opção non-dom)',
           'Residente em Portugal (>183 dias) — é tributado em Portugal sobre o rendimento mundial',
-          'Pensão britânica (estatal, profissional): é tributada em Portugal, onde a pessoa é residente. O Reino Unido pode reter imposto na fonte — crédito através de crédito fiscal por imposto estrangeiro',
+          'Pensões britânicas: a State Pension, as pensões privadas e profissionais são tributadas em Portugal, onde a pessoa é residente. IMPORTANTE: as pensões da função pública (civil service, forças armadas, polícia, NHS, escolas públicas) são tributadas APENAS no Reino Unido ao abrigo da nova Convenção (a exceção é quando o beneficiário também é cidadão português). É uma zona cinzenta — confirme com um especialista fiscal',
           'ISA — o benefício fiscal britânico não funciona em Portugal: o rendimento dentro de um ISA é tributado em Portugal (dividendos e juros às taxas normais)',
           'SIPP — Portugal normalmente reconhece-o como plano de pensões; os pagamentos são tributados como rendimento de pensões, mas a tributação do crescimento dentro do SIPP é uma zona cinzenta, sendo frequentemente necessário um especialista',
           'CRS — os bancos britânicos reportam automaticamente a Portugal (Common Reporting Standard)',
@@ -102,6 +102,6 @@ export default {
     { title: 'HMRC — Convenção Fiscal Portugal', url: 'https://www.gov.uk/government/publications/portugal-tax-treaties', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Comissão Europeia — direitos do WA do Brexit', url: 'https://commission.europa.eu/strategy-and-policy/relations-united-kingdom/eu-uk-withdrawal-agreement_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -66,7 +66,7 @@ export default {
           'PFIC (Passive Foreign Investment Company) — fundos da UE são frequentemente considerados PFIC, com declaração complexa ao IRS dos EUA',
           'Vanguard / Fidelity / Charles Schwab — geralmente são mais fáceis para residentes dos EUA',
           'US-ETF — melhores do que fundos portugueses/europeus para americanos',
-          'Roth IRA — não é tributado em Portugal (a convenção protege)',
+          'Roth IRA — Portugal não reconhece a sua isenção fiscal: para um residente fiscal em Portugal, os levantamentos são, em regra, tributáveis em Portugal (a valorização é tributada como rendimento de pensão) e a convenção não os protege. Um erro frequente — aconselhe-se com um especialista fiscal',
           '401(k) — os pagamentos de pensões são tributados em Portugal',
           'Fundo de pensões português (PPR) — os EUA consideram-no PFIC, má escolha para um cidadão dos EUA'
         ]}
@@ -105,6 +105,6 @@ export default {
     { title: 'Convenção fiscal EUA-Portugal (IRS)', url: 'https://www.irs.gov/businesses/international-businesses/portugal-tax-treaty-documents', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças (portal fiscal) — residência', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

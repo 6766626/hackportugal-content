@@ -28,8 +28,8 @@ export default {
         { kind: 'checklist', items: [
           'Diploma de ensino superior ou qualificação correspondente a atividade altamente qualificada (com apostila e tradução). Em alguns casos, pode ser aceite experiência profissional relevante comprovada',
           'Para profissões regulamentadas (medicina, engenharia, etc.) — reconhecimento do diploma e/ou inscrição na respetiva Ordem profissional',
-          'Contrato de trabalho ou promessa de contrato para atividade altamente qualificada, normalmente com duração MÍNIMA de 1 ano',
-          'Limiar salarial: remuneração bruta anual ≥ 1,5× salário bruto anual médio nacional ou ≥ 3× IAS. Em 2026, IAS = 537,13 € → 3× IAS = 1 611,39 €/mês. Se calcular com base no salário médio, recalcule exatamente o valor bruto anual e confirme a prática do consulado/AIMA concreto. Tenha em conta que o salário português é frequentemente discutido em 14 pagamentos',
+          'Contrato de trabalho ou promessa de contrato para atividade altamente qualificada; segundo os requisitos oficiais do MNE, com duração MÍNIMA de 6 meses (na prática, os empregadores celebram frequentemente contratos de 1 ano ou mais)',
+          'Limiar salarial: remuneração bruta anual ≥ 1,5× salário bruto anual médio nacional ou ≥ 3× IAS. Em 2026, IAS = 537,13 € → 3× IAS = 1 611,39 €/mês. Para certas profissões dos grupos 1 e 2 da classificação ISCO aplica-se um limiar reduzido — ≥ 1,2× o salário médio ou ≥ 2× IAS. Se calcular com base no salário médio, recalcule exatamente o valor bruto anual e confirme a prática do consulado/AIMA concreto. Tenha em conta que o salário português é frequentemente discutido em 14 pagamentos',
           'Certificado de registo criminal',
           'Seguro de saúde para o período até ao registo no SNS'
         ]},
@@ -61,7 +61,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Visto consular', amountEUR: 90 },
+    { label: 'Visto consular', amountEUR: 110, note: 'taxa do MNE para visto nacional; para atividade de investigação altamente qualificada há isenção do emolumento consular' },
     { label: 'AIMA — pedido/análise de concessão de autorização de residência', amountEUR: 133, note: 'tarifa desde 01.03.2026' },
     { label: 'AIMA — emissão do título de residência para atividade altamente qualificada (Lei 23/2007 art. 90)', amountEUR: 307.20, note: 'tarifa desde 01.03.2026; para Cartão Azul UE aplica-se uma tarifa própria' },
     { label: 'Reconhecimento do diploma', amountEURMin: 100, amountEURMax: 300, note: 'se necessário' }
@@ -71,9 +71,10 @@ export default {
   sources: [
     { title: 'Vistos MNE — visto D3 para profissionais altamente qualificados', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — autorização de residência para profissionais altamente qualificados', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Vistos MNE — emolumentos dos vistos nacionais', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/emolumentos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Portaria 352/2024/1 — lista de profissões qualificadas IFICI', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/352-2024-913098024', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Estatuto dos Benefícios Fiscais art. 58-A — regime IFICI', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1989-34423775', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

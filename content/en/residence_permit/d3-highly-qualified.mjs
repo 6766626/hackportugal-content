@@ -28,8 +28,8 @@ export default {
         { kind: 'checklist', items: [
           'Higher education diploma or qualification corresponding to highly qualified activity (with apostille and translation). In some cases, confirmed relevant professional experience may be accepted',
           'For regulated professions (medicine, engineering, etc.) — diploma recognition and/or registration with the professional Ordem',
-          'Contrato de trabalho or promessa de contrato for highly qualified activity, usually for a MINIMUM of 1 year',
-          'Salary threshold: annual gross remuneration ≥ 1.5× national average gross annual salary or ≥ 3× IAS. In 2026 IAS = €537.13 → 3× IAS = €1,611.39/month. If calculating based on the average salary, recalculate the annual gross amount specifically and check the practice of the particular consulate/AIMA. Bear in mind that Portuguese salaries are often discussed over 14 payments',
+          'Contrato de trabalho or promessa de contrato for highly qualified activity; per MNE official requirements, for a MINIMUM of 6 months (in practice employers often issue contracts of 1 year or more)',
+          'Salary threshold: annual gross remuneration ≥ 1.5× national average gross annual salary or ≥ 3× IAS. In 2026 IAS = €537.13 → 3× IAS = €1,611.39/month. For certain occupations in ISCO groups 1 and 2 a reduced threshold applies — ≥ 1.2× the average salary or ≥ 2× IAS. If calculating based on the average salary, recalculate the annual gross amount specifically and check the practice of the particular consulate/AIMA. Bear in mind that Portuguese salaries are often discussed over 14 payments',
           'Criminal record certificate',
           'Health insurance for the period until registration with SNS'
         ]},
@@ -61,7 +61,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Consular visa', amountEUR: 90 },
+    { label: 'Consular visa', amountEUR: 110, note: 'MNE national-visa fee; for atividade de investigação altamente qualificada (highly qualified research activity) the consular fee is waived' },
     { label: 'AIMA — pedido/análise de concessão de autorização de residência', amountEUR: 133, note: 'fee from 01.03.2026' },
     { label: 'AIMA — emissão do título de residência para atividade altamente qualificada (Lei 23/2007 art. 90)', amountEUR: 307.20, note: 'fee from 01.03.2026; Cartão Azul UE has its own fee' },
     { label: 'Diploma recognition', amountEURMin: 100, amountEURMax: 300, note: 'if required' }
@@ -71,9 +71,10 @@ export default {
   sources: [
     { title: 'Vistos MNE — D3 visa for highly qualified specialists', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/tipo-de-visto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — residence permit for highly qualified specialists', url: 'https://aima.gov.pt/pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Vistos MNE — emolumentos (consular fees) for national visas', url: 'https://vistos.mne.gov.pt/pt/vistos-nacionais/informacao-geral/emolumentos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Portaria 352/2024/1 — list of qualified professions for IFICI', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/352-2024-913098024', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Estatuto dos Benefícios Fiscais art. 58-A — IFICI regime', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1989-34423775', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

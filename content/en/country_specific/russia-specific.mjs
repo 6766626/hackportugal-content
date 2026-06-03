@@ -3,7 +3,7 @@ export default {
   id: 'russia-specific',
   categoryId: 'country_specific',
   title: 'Moving from Russia — specifics',
-  tldr: 'Russians: EU sanctions have made the banking side more complicated, but moving is possible. Schengen tourist visas are generally not issued (except for humanitarian cases). D visas are issued. The Portuguese Consulate in Moscow is operating, but with a 2–4 month queue. Important: Visa/Mastercard cards from Russian banks do NOT work outside the Russian Federation (since 2022 — Visa/MC left the Russian Federation).\n\nUnionPay is partially accepted at some terminals. Many large Russian banks (Sber, VTB, Alfa, Gazprombank, Tinkoff/T-Bank, etc.) are under EU/SDN sanctions; the source of funds from them requires extended proof of origin and may be blocked by a Portuguese bank. Open a Portuguese account before arrival or immediately afterwards.',
+  tldr: 'Russians: EU sanctions have made the banking side more complicated, but moving is possible. Schengen tourist (C) visas are harder to obtain: there is no blanket ban, but since September 2022 scrutiny is much higher, and since November 2025 they are almost exclusively single-entry. D visas are issued. The Portuguese Consulate in Moscow is operating, but with a 2–4 month queue. Important: Visa/Mastercard cards from Russian banks do NOT work outside the Russian Federation (since 2022 — Visa/MC left the Russian Federation).\n\nUnionPay is partially accepted at some terminals. Many large Russian banks (Sber, VTB, Alfa, Gazprombank, Tinkoff/T-Bank, etc.) are under EU/SDN sanctions; the source of funds from them requires extended proof of origin and may be blocked by a Portuguese bank. Open a Portuguese account before arrival or immediately afterwards.',
   audience: { countryCodes: ['RU'] },
   tags: ['russia', 'sanctions', 'visas'],
   estimatedReadMinutes: 7,
@@ -13,12 +13,12 @@ export default {
       title: 'Visas 2026',
       content: [
         { kind: 'checklist', items: [
-          '❌ Schengen tourist visas (C) — the EU suspended the visa facilitation agreement with the Russian Federation in September 2022; visa fee €90; issuance is case-by-case',
+          '❌ Schengen tourist visas (C) — the EU suspended the visa facilitation agreement with the Russian Federation in September 2022; visa fee €90; issuance is case-by-case. Since November 2025 the European Commission has ended multiple-entry visas for Russian citizens — nearly all visas are now single-entry, with enhanced scrutiny',
           '✅ D visas (D2/D3/D4/D7/D8) — issued, process as for other third countries',
           '✅ Family reunification — works',
           '✅ CPLP mobility does not apply (Russia is not part of the Community of Portuguese-speaking Countries). An option exists only if you have second citizenship of a CPLP country',
           '✅ Student D4 — issued, popular',
-          'Portuguese Consulate in Moscow: Rua Fadeyeva 11 — operating as normal, appointment queue 2–4 months'
+          'Portuguese Consulate in Moscow (Botanichesky Pereulok 1) — operating as normal, appointment queue 2–4 months'
         ]}
       ]
     },
@@ -120,7 +120,7 @@ export default {
     { title: 'Vistos MNE — D visas', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Banco de Portugal — compensation and AML', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90,
   recentlyChangedAt: '2026-05-13',
   changeSummary: '13.05.2026 Added a section on the announcement by the Embassy of Portugal in Moscow dated 17.04.2026: simplification of the document submission procedure for study visas D4 (national study), E9 (Erasmus Mundus) and E6 (for subsequent contact with AIMA). Clarified: the Embassy does not literally state “without appointment”; it refers to priority/simplified submission. BLS Moscow opening hours: applications 09:00–15:00, collection/consultations 15:00–16:00 (Mon–Fri).'

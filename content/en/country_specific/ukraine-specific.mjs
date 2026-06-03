@@ -69,7 +69,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Spilka Ukrainska em Portugal — community organisation',
-          'Embassy of Ukraine in Lisbon: Rua de Alcolena 17 (+351 21 301 1030)',
+          'Embassy of Ukraine in Lisbon: Avenida das Descobertas 18, 1400-092 Lisboa (+351 213 010 043)',
           'Honorary consulates: Porto, Faro, Funchal',
           'Ukrainian Orthodox Church in Lisbon',
           'Ukrainian weekend schools in Lisbon and Porto',
@@ -88,7 +88,7 @@ export default {
           'Work: LinkedIn, Indeed, Ukrainian chats',
           'Social assistance: Segurança Social (social security) — Abono de Família, RSI, housing support',
           'For temporary return to Ukraine: the status is maintained, but check with AIMA',
-          'Ukrainian driving licences are recognised for the entire validity period of Proteção Temporária (Regulation EU 2022/1280, extended until 4 March 2027) — without mandatory exchange in the first 185 days. When switching to a D visa/residence permit — exchange at IMT under the 2019 UA-PT bilateral agreement without an exam'
+          'Ukrainian driving licences are recognised for the entire validity period of Proteção Temporária (Regulation EU 2022/1280, extended until 4 March 2027) — without mandatory exchange. When switching to a residence permit, exchange at IMT is exam-free (Ukraine is a party to the 1968 Vienna Convention on Road Traffic); temporary-protection holders are exempt from exam fees. Applications are submitted online via the IMT portal'
         ]}
       ]
     }
@@ -99,6 +99,6 @@ export default {
     { title: 'ePortugal — Proteção Temporária', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Embassy of Ukraine in Portugal', url: 'https://portugal.mfa.gov.ua/', kind: 'official', language: 'uk', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

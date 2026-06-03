@@ -3,7 +3,7 @@ export default {
   id: 'immigrant-calendar',
   categoryId: 'before_arrival',
   title: 'Immigrant calendar — what to do month by month after arrival',
-  tldr: 'A month-by-month checklist for your first 24 months in Portugal. Month 1 (NIF, bank account, rental contract); Month 2 (NISS, registration at the Junta de Freguesia, SNS user number); Months 2–4 (apply to AIMA for a residence permit, pay €96.12, check status via residence-permit online); Months 4–9 (issue of título de residência); Year 1 (IRS return by 30 June, address check, insurance); Year 2 (renew residence permit 60 days before expiry, resubmit address in Finanças).\n\nAfter 5 years — permanent residence permit or citizenship (see separate guide).\n\nEach step links to a detailed guide in the app.',
+  tldr: 'A month-by-month checklist for your first 24 months in Portugal. Month 1 (NIF, bank account, rental contract); Month 2 (NISS, registration at the Junta de Freguesia, SNS user number); Months 2–4 (apply to AIMA for a residence permit, pay the AIMA fee, check status via residence-permit online); Months 4–9 (issue of título de residência); Year 1 (IRS return by 30 June, address check, insurance); Year 2 (renew residence permit 60 days before expiry, resubmit address in Finanças).\n\nAfter 5 years — permanent residence permit or citizenship (see separate guide).\n\nEach step links to a detailed guide in the app.',
   tags: ['calendar', 'checklist', 'relocation', 'onboarding'],
   estimatedReadMinutes: 9,
   steps: [
@@ -42,13 +42,13 @@ export default {
         { kind: 'paragraph', text: 'Since 2024-2025, AIMA has fully moved to online submission via aima.gov.pt and Portal SAPA for most residence permit types. There is no in-person appointment for submission (only final biometrics after approval).' },
         { kind: 'checklist', items: [
           '📝 Prepare the dossier: passport, D visa (if applicable), NIF, NISS, rental contract + registration with Finanças, bank statement (3 months), criminal record certificate from the country of citizenship (apostille + translation), proof of income/study (depends on residence permit type)',
-          '💶 Pay the AIMA fee: €96.12 for most residence permit types (D1-D9), Multibanco reference',
+          '💶 Pay the AIMA fee: since 1 March 2026, for most residence permit types (D1-D9) this is €133 for reception and analysis + €307.20 for the grant (about €440 in total), via Multibanco reference. Fees are indexed annually — check the current table at aima.gov.pt',
           '📤 Submit online at aima.gov.pt with Chave Móvel Digital. See the guide “AIMA online 2026”',
           '⏱️ Waiting for a decision: 30–90 days (by law — 90 days, in practice 60–180 days in 2026)',
           '📅 Biometrics appointment (after approval): automatic date offer in your personal account',
           '⚠️ If AIMA is silent for >90 days: submit a reclamação to the Provedoria de Justiça (free), then — action in the Tribunal Administrativo'
         ]},
-        { kind: 'warning', text: 'If you have a D visit visa (type D7, D8, D2 etc.), you MUST register with AIMA within 4 months of the day of entry. Otherwise the visa “expires” and a new one is needed.' }
+        { kind: 'warning', text: 'If you have a D visa (type D7, D8, D2 etc.), you MUST register with AIMA within 4 months of the day of entry. Otherwise the visa “expires” and a new one is needed.' }
       ]
     },
     {
@@ -88,8 +88,8 @@ export default {
         { kind: 'checklist', items: [
           '📅 60 days before the residence permit expires: apply for renewal via aima.gov.pt',
           '📋 Documents: the same as for the first application + proof of income (IRS for the past 2 years)',
-          '💶 Fee: €96.12 (renewal = same cost)',
-          '⏱️ If AIMA is silent and the residence permit is about to expire: your residence permit is OFFICIALLY extended automatically until AIMA makes a decision — carry your old residence permit + proof of renewal submission with you',
+          '💶 Fee: the same as the first issue (since 1 March 2026 — €133 reception + €307.20 renewal)',
+          '⏱️ If your residence permit has expired and there is no decision yet: the right of residence does not lapse for 6 months after the card expiry date (Article 63 of Decreto Regulamentar n.º 84/2007) — but only if you have ALREADY submitted the renewal request. Carry your expired residence permit + the receipt proving the renewal request with you',
           '🇵🇹 Year 2+ — a great time to start actively learning Portuguese (A2 is later needed for citizenship, and useful for permanent residence permit)',
           '🎓 Enrol in free PLA (Português Língua de Acolhimento) courses at a school or online — see “Learn Portuguese”'
         ]}
@@ -112,10 +112,10 @@ export default {
       id: 'year-5',
       title: 'Year 5 — citizenship or permanent residence permit',
       content: [
-        { kind: 'paragraph', text: 'After 5 years of legal residence you can choose: either apply for citizenship (under the old law — while it remains in force), or apply for a permanent residence permit.' },
+        { kind: 'paragraph', text: 'NOTE: the 5-year rule no longer applies to new applicants. The new nationality law (Lei Orgânica n.º 1/2026) was published in the Diário da República on 18 May 2026 and entered into force on 19 May 2026. It now requires 7 years of legal residence for nationals of CPLP and EU countries, and 10 years for third-country nationals; the period is counted from the date the first título de residência is issued. Applications filed on or before 18 May 2026 are processed under the previous law (Lei n.º 37/81). A permanent residence permit is available after 5 years of residence; for citizenship, check the new timeframes.' },
         { kind: 'checklist', items: [
-          '🆔 Naturalisation application: IRN forms, A2 PT certificate, certidão de residência legal from AIMA, criminal record certificates from all countries of residence >1 year, fee €250. See “Naturalization 2026”',
-          '⚖️ IMPORTANT: from 2026 a new law may change the timeframes to 7 (CPLP+EU) or 10 (third countries) years. Apply online via Portal da Nacionalidade BEFORE publication in the DRE — this locks in the old rules for you',
+          '🆔 Naturalisation application (once you reach the new threshold — 7 or 10 years): IRN forms, A2 PT certificate, certidão de residência legal from AIMA, criminal record certificates from all countries of residence >1 year, fee €250. See “Naturalization 2026”',
+          '⚖️ IMPORTANT: the transitional provisions of Lei Orgânica n.º 1/2026 do not clearly state whether time spent in Portugal before the law took effect counts toward the new period — this remains disputed and AIMA/IRN guidance is pending. Consult a lawyer about your specific situation before applying',
           '🌍 Alternative: permanent residence permit (residencia permanente) — gives almost all the rights of a citizen except voting and passport, without renouncing another citizenship, without the A2 requirement (although A1 is recommended)',
           '👶 If children were born in Portugal — they may obtain citizenship automatically (see “Citizenship by descent”)'
         ]}
@@ -144,7 +144,7 @@ export default {
     { title: 'ePortugal / AMA — Chave Móvel Digital', url: 'https://www.gov.pt/cidadaos/-/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Nationality applications', url: 'https://justica.gov.pt/Servicos/Submeter-pedido-de-nacionalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: immigrant calendar — what to do month by month after arrival in Portugal. Month 1 (NIF, bank, rental), month 2 (NISS, SNS, Chave Móvel Digital), months 2-4 (AIMA), months 4-9 (obtaining the residence permit), year 1 (IRS, insurance), year 2 (residence permit renewal), year 5 (citizenship/permanent residence permit). Linked to all key guides in the app.'

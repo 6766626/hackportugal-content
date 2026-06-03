@@ -31,7 +31,7 @@ export default {
             { kind: 'checklist', items: [
               'Joint IRS filing (tributação conjunta)',
               'Deduction of maintenance payments, medical and education expenses of the partner',
-              '⚠️ A partner in união is not an automatic heir — a will/planning is needed. For gratuitous transfers, the surviving partner is usually exempt from the 10% Imposto do Selo (Código do Imposto do Selo art. 6)',
+              '⚠️ A partner in união is not an automatic heir — a will/planning is needed. For gratuitous transfers, the surviving partner is usually exempt from the 10% Imposto do Selo (Código do Imposto do Selo art. 6, al. e)',
               'Right to a survivor’s pension (pensão de sobrevivência) on the partner’s death',
               '⚠️ There is no general “spousal maintenance” regime as in divorce. Possible claims after breakup/death are limited and depend on the facts; if there is financial dependency, it is better to obtain legal advice'
             ]}
@@ -41,7 +41,7 @@ export default {
               'Segurança Social: união may be relevant for certain family benefits and survivor benefits, but each person has their own NISS and contribution/benefit status',
               'SNS: the partnership itself does not “attach” someone to the SNS through the partner — one needs one’s own lawful residence and SNS user number; união helps prove a shared address/household',
               'Private insurance — spouse tariff (family plans)',
-              'Hospital visits as a close person — usually easier, but for clear powers to make medical decisions, execute a formal advance directive / procurador de cuidados de saúde (Lei 25/2012)'
+              'Hospital visits as a close person — usually easier, but for clear powers to make medical decisions, execute a formal advance directive (directiva antecipada de vontade) / procurador de cuidados de saúde (Lei 25/2012)'
             ]}
           ]},
           { id: 'r3', title: '🛂 Immigration', content: [
@@ -117,7 +117,7 @@ export default {
           '🔸 For the social sphere: pensão de sobrevivência works for both, but the details depend on contributions',
           '🔸 Taxation: both forms allow tributação conjunta'
         ]},
-        { kind: 'warning', text: 'For Reagrupamento Familiar — collect strong evidence of cohabitation/relationship and check the current AIMA list. For nationality through união with a PT citizen — plan for reconhecimento judicial; registration at the Conservatória alone is insufficient.\n\n⚠️ Reforma Lei da Nacionalidade: Decreto AR 48/XVII was promulgated by President Seguro on 03.05.2026 — as of 17.05.2026 it is still awaiting publication in the DRE; before applying, check the current version of the law.' }
+        { kind: 'warning', text: 'For Reagrupamento Familiar — collect strong evidence of cohabitation/relationship and check the current AIMA list. For nationality through união with a PT citizen — plan for reconhecimento judicial; registration at the Conservatória alone is insufficient.\n\n⚠️ Reforma Lei da Nacionalidade: the reform was promulgated by President Seguro on 03.05.2026, published as Lei Orgânica 1/2026 in the DRE on 18.05.2026 and entered into force on 19.05.2026. The basic mechanism for união is unchanged: nationality still requires a judicial reconhecimento da união de facto (>3 years with a PT citizen). The main changes concern residence periods and the rules on oposição; before applying, check the current version of the law.' }
       ]
     }
   ],
@@ -131,6 +131,6 @@ export default {
     { title: 'ePortugal — União de facto', url: 'https://www.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Registo de União de Facto', url: 'https://irn.justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

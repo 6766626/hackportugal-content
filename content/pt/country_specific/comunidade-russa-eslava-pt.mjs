@@ -3,7 +3,7 @@ export default {
   id: 'comunidade-russa-eslava-pt',
   categoryId: 'country_specific',
   title: 'Diásporas russa, ucraniana e bielorrussa em Portugal',
-  tldr: 'Em Portugal existem comunidades russófonas e da Europa de Leste significativas: Lisboa, Cascais, Porto, Algarve, Braga. A comunidade ucraniana cresceu acentuadamente depois de 2022: Portugal emitiu dezenas de milhares de proteções temporárias e, juntamente com os ucranianos que já viviam cá, a escala da comunidade é uma das maiores entre os non-EU. Na prática, são úteis a Casa Ucraniana Lisboa, as paróquias ortodoxas, o Centro Russo Lisboa e os chats de Telegram, mas documentos, autorização de residência, TPD, NIF/NISS e AIMA devem ser sempre verificados apenas através da AIMA/ACM/ePortugal.',
+  tldr: 'Em Portugal existem comunidades russófonas e da Europa de Leste significativas: Lisboa, Cascais, Porto, Algarve, Braga. A comunidade ucraniana cresceu acentuadamente depois de 2022: Portugal emitiu dezenas de milhares de proteções temporárias e, juntamente com os ucranianos que já viviam cá, a escala da comunidade é uma das maiores entre os non-EU. Na prática, são úteis a Casa Ucraniana Lisboa, as paróquias ortodoxas, o Centro Russo Lisboa e os chats de Telegram, mas documentos, autorização de residência, TPD, NIF/NISS e AIMA devem ser sempre verificados apenas através da AIMA/ePortugal.',
   tags: ['diáspora', 'ucranianos', 'russos', 'telegram', 'aima'],
   estimatedReadMinutes: 5,
   steps: [
@@ -55,7 +55,7 @@ export default {
           'Para trabalhar: NISS, NIF, contrato ou recibos verdes, IBAN, inscrição na Segurança Social',
           'Para arrendar: contrato, recibos de renda, comprovativo de morada para Finanças e serviços públicos',
           'Para renovações de autorização de residência/proteção: acompanhe as alterações da AIMA, porque os procedimentos mudaram após a substituição do SEF',
-          'ACM/serviços de apoio à migração ajudam com integração, língua, traduções e navegação social'
+          'Os centros de integração de migrantes CLAIM/CNAIM (agora sob a AIMA) ajudam com integração, língua, traduções e navegação social'
         ] },
         { kind: 'warning', text: 'AIMA substituiu o SEF em outubro de 2023. Se uma instrução diz “vá ao SEF”, está desactualizada. Em 2026, verifique se a questão pertence à AIMA, IRN, Finanças, Segurança Social, SNS ou Câmara Municipal: são entidades diferentes.' }
       ]
@@ -81,7 +81,7 @@ export default {
       id: 'official-help',
       title: 'Ajuda oficial: onde ir em vez de seguir rumores',
       content: [
-        { kind: 'paragraph', text: 'Para questões de migração e integração, use canais oficiais. AIMA trata de migração, documentos e parte do legado do SEF/ACM. ACM enquanto marca e portal continua a ser útil para materiais sobre integração, CNAIM/CLAIM, direitos dos migrantes e apoio a grupos vulneráveis.' },
+        { kind: 'paragraph', text: 'Para questões de migração e integração, use canais oficiais. A AIMA trata de migração, documentos e integração: herdou as funções do SEF e do extinto ACM. O apoio em matéria de integração, direitos dos migrantes e grupos vulneráveis passa agora pela rede de centros CLAIM/CNAIM sob a AIMA, com informação em aima.gov.pt e ePortugal.' },
         { kind: 'checklist', items: [
           'AIMA — autorização de residência, proteção temporária, appointments, procedimentos migratórios',
           'IRN — Conservatória, nacionalidade, Cartão de Cidadão para quem tem direito, certidões',
@@ -90,7 +90,7 @@ export default {
           'SNS / Centro de Saúde — número de utente, médico de família, vacinação',
           'IEFP — emprego, cursos, português, reconhecimento de competências',
           'Câmara Municipal / Junta de Freguesia — atestado de residência, programas locais, escola e habitação',
-          'ACM/CLAIM/CNAIM — orientação para migrantes, traduções, navegação social e jurídica'
+          'CLAIM/CNAIM (sob a AIMA) — orientação para migrantes, traduções, navegação social e jurídica'
         ] },
         { kind: 'warning', text: 'Se a questão for juridicamente importante — autorização de residência, nacionalidade, residência fiscal, divórcio, guarda de menores, dívida, processo-crime — use um advogado/solicitador com cédula profissional. Um “consultor da diáspora” sem licença não deve apresentar-se como jurista.' }
       ]
@@ -110,7 +110,7 @@ export default {
           'Abra uma conta bancária/IBAN e active Multibanco/MB WAY com cuidado',
           'Inscreva-se em português: IEFP, escolas, cursos municipais, grupos privados',
           'Encontre 1–2 grupos locais da sua zona, e não apenas chats de todo o país',
-          'Verifique notícias importantes na fonte primária: AIMA/ACM/DRE/ePortugal'
+          'Verifique notícias importantes na fonte primária: AIMA/DRE/ePortugal'
         ] }
       ]
     }
@@ -124,11 +124,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'ACM — apoio a migrantes, CLAIM/CNAIM e materiais de integração',
-      url: 'https://www.acm.gov.pt',
+      title: 'CLAIM/CNAIM (sob a AIMA) — centros de apoio e integração de migrantes',
+      url: 'https://www.gov.pt/servicos/centros-nacionais-de-apoio-a-integracao-de-migrantes-cnaim-',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'ePortugal — serviços oficiais do Estado para residentes e estrangeiros',
@@ -145,6 +145,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

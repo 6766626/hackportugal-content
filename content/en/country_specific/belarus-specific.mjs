@@ -46,7 +46,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Belarusbank / BPS-Sber / etc. — cards do not work in Portugal (since 2022)',
-          'Belgazprombank — works partially',
+          'Belgazprombank — Visa/Mastercard cards stopped working in the EU (since 2026)',
           'Opening an account in Portugal: ActivoBank, Millennium — accept Belarusians',
           'Money transfers: Wise / Revolut / crypto via the CIS',
           'Cash across the border: up to €10,000 without declaration',
@@ -62,8 +62,8 @@ export default {
           'Belarusian Diaspora Association in Lisbon',
           'Chats for Belarusian emigrants (Telegram)',
           'Belarusian religious communities — in Lisbon and Porto',
-          'Consular section: the Belarusian embassy in Paris or Warsaw serves Portugal (the Madrid embassy was closed by the Belarusian side in 2023)',
-          'Check news relevant to current consular options through the Ministry of Foreign Affairs of Belarus'
+          'Belarus has no consular offices in Portugal; consular services for residents of Portugal are handled by the Belarusian embassy in Madrid (Spain)',
+          'The consular district may change — confirm the current arrangement on the website of the Ministry of Foreign Affairs of Belarus before applying'
         ]}
       ]
     },
@@ -87,6 +87,6 @@ export default {
     { title: 'Vistos MNE — application procedure', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — services for third-country nationals', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

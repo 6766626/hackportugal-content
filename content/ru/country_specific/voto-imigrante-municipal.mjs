@@ -3,7 +3,7 @@ export default {
   id: 'voto-imigrante-municipal',
   categoryId: 'country_specific',
   title: 'Право голоса мигрантов на муниципальных выборах в Portugal',
-  tldr: 'В Португалии иностранцы могут голосовать на eleições autárquicas — выборы Câmara Municipal, Assembleia Municipal и Junta de Freguesia. EU-граждане голосуют при резидентстве и регистрации в recenseamento eleitoral. Brazil и Cabo Verde — при законном проживании обычно более 2 лет и взаимности. Ряд стран с договорной взаимностью, включая Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela, — при более длительном законном проживании. Регистрация бесплатна, проверка — eleitor.mai.gov.pt.',
+  tldr: 'В Португалии иностранцы могут голосовать на eleições autárquicas — выборы Câmara Municipal, Assembleia Municipal и Assembleia de Freguesia. EU-граждане голосуют при резидентстве и регистрации в recenseamento eleitoral. Brazil и Cabo Verde — при законном проживании более 2 лет и взаимности. Ряд стран с договорной взаимностью, включая Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela, — при законном проживании более 3 лет. Регистрация бесплатна, проверка — eleitor.mai.gov.pt.',
   tags: ['voto', 'eleições', 'мигранты', 'cplp'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,8 +16,8 @@ export default {
           'Граждане EU, проживающие в Portugal: могут голосовать на муниципальных выборах после регистрации в recenseamento eleitoral.',
           'Граждане Brazil: право зависит от законного проживания, регистрации и режима взаимности; для более широких политических прав нужен Estatuto de Igualdade de Direitos Políticos.',
           'Граждане Cabo Verde: обычно входят в режим CPLP с взаимностью для eleições autárquicas после законного проживания более 2 лет.',
-          'Граждане других стран с взаимностью: Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela — право зависит от срока законного проживания и актуальной декларации MAI/CNE.',
-          'Возраст: 18+ на день выборов.',
+          'Граждане других стран с взаимностью: Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela — при законном проживании более 3 лет и при наличии актуальной декларации MAI/CNE.',
+          'Возраст: голосуют с 18 лет на день выборов; в recenseamento eleitoral можно записаться уже с 17 лет.',
           'Нужно быть зарегистрированным избирателем в freguesia проживания.',
           'Адрес в recenseamento eleitoral должен соответствовать фактическому месту проживания, потому что голосуют по своей freguesia.'
         ] },
@@ -30,13 +30,13 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Для EU-граждан ключевое условие — проживание в Portugal и регистрация как eleitor. Минимальный срок проживания для municipal vote обычно не применяется так же, как для third-country nationals.' },
         { kind: 'paragraph', text: 'Для граждан стран Portuguese-speaking с взаимностью, на практике прежде всего Brazil и Cabo Verde, применяется правило законного проживания более 2 лет для активного избирательного права на local elections, если нет специального более широкого статуса.' },
-        { kind: 'paragraph', text: 'Для “other treaty / reciprocity countries” нужно смотреть актуальную формулировку CNE и MAI. В публичных памятках часто смешивают активное право голосовать и пассивное право быть кандидатом: сроки для кандидатства выше. Если вам говорят “4 года”, уточните, идёт ли речь о голосовании или о возможности быть избранным.' },
+        { kind: 'paragraph', text: 'Для “other treaty / reciprocity countries” — Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela — действует правило законного проживания более 3 лет для активного избирательного права, при сохранении взаимности; всегда сверяйтесь с актуальной формулировкой CNE и MAI. В публичных памятках часто смешивают активное право голосовать и пассивное право быть кандидатом: сроки для кандидатства выше. Если вам называют другой срок, уточните, идёт ли речь о голосовании или о возможности быть избранным.' },
         { kind: 'checklist', items: [
           'EU: residência + регистрация в recenseamento eleitoral.',
           'CPLP с взаимностью: обычно legal residence более 2 лет для голосования.',
           'Brazil: отдельно проверьте Estatuto de Igualdade, если хотите права шире муниципальных.',
           'Cabo Verde: проверьте срок legal residence и регистрацию.',
-          'Argentina / Chile / Colombia / Iceland / Norway / New Zealand / Peru / UK / Uruguay / Venezuela: проверьте актуальный reciprocal list CNE.',
+          'Argentina / Chile / Colombia / Iceland / Norway / New Zealand / Peru / UK / Uruguay / Venezuela: обычно legal residence более 3 лет для голосования; сверьтесь с актуальным reciprocal list CNE.',
           'Для кандидатства сроки и правила строже, чем для голосования.',
           'Наличие NIF, NISS или SNS само по себе не создаёт voting right.'
         ] }
@@ -127,6 +127,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

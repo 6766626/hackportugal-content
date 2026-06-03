@@ -3,7 +3,7 @@ export default {
   id: 'comunidade-russa-eslava-pt',
   categoryId: 'country_specific',
   title: 'Russian, Ukrainian and Belarusian diasporas in Portugal',
-  tldr: 'Portugal has visible Russian-speaking and Eastern European communities: Lisboa, Cascais, Porto, Algarve, Braga. The Ukrainian community grew sharply after 2022: Portugal has issued tens of thousands of proteções temporárias, and together with Ukrainians already living here, the community is one of the largest among non-EU groups. In practice, Casa Ucraniana Lisboa, Orthodox parishes, Centro Russo Lisboa and Telegram chats are useful, but documents, residence permits, TPD, NIF/NISS and AIMA should always be checked only via AIMA/ACM/ePortugal.',
+  tldr: 'Portugal has visible Russian-speaking and Eastern European communities: Lisboa, Cascais, Porto, Algarve, Braga. The Ukrainian community grew sharply after 2022: Portugal has issued tens of thousands of proteções temporárias, and together with Ukrainians already living here, the community is one of the largest among non-EU groups. In practice, Casa Ucraniana Lisboa, Orthodox parishes, Centro Russo Lisboa and Telegram chats are useful, but documents, residence permits, TPD, NIF/NISS and AIMA should always be checked only via AIMA/ePortugal.',
   tags: ['diaspora', 'ukrainians', 'russians', 'telegram', 'aima'],
   estimatedReadMinutes: 5,
   steps: [
@@ -55,7 +55,7 @@ export default {
           'For work: NISS, NIF, contract or recibos verdes, IBAN, inscrição na Segurança Social',
           'For renting: contract, recibos de renda, proof of address for Finanças and serviços públicos',
           'For renewals of residence permits/protection: follow AIMA changes, because procedures changed after SEF was replaced',
-          'ACM/migration support services help with integration, language, translations and social navigation'
+          'CLAIM/CNAIM migrant integration centres (now under AIMA) help with integration, language, translations and social navigation'
         ] },
         { kind: 'warning', text: 'AIMA replaced SEF in October 2023. If an instruction says “go to SEF”, it is outdated. In 2026, check whether the issue belongs to AIMA, IRN, Finanças, Segurança Social, SNS or Câmara Municipal: these are different authorities.' }
       ]
@@ -81,7 +81,7 @@ export default {
       id: 'official-help',
       title: 'Official help: where to go instead of relying on rumours',
       content: [
-        { kind: 'paragraph', text: 'For migration and integration questions, use official channels. AIMA handles migration, documents and part of the SEF/ACM legacy. ACM as a brand and portal is still useful for materials on integration, CNAIM/CLAIM, migrants’ rights and support for vulnerable groups.' },
+        { kind: 'paragraph', text: 'For migration and integration questions, use official channels. AIMA handles migration, documents and integration: it inherited the functions of SEF and of the now-extinct ACM. Support on integration, migrants’ rights and vulnerable groups now runs through the CLAIM/CNAIM network under AIMA, with information on aima.gov.pt and ePortugal.' },
         { kind: 'checklist', items: [
           'AIMA — residence permits, proteção temporária, appointments, migration procedures',
           'IRN — Conservatória, citizenship, Cartão de Cidadão for those entitled to it, certidões',
@@ -90,7 +90,7 @@ export default {
           'SNS / Centro de Saúde — número de utente, family doctor, vaccination',
           'IEFP — work, courses, português, skills recognition',
           'Câmara Municipal / Junta de Freguesia — atestado de residência, local programmes, school and housing',
-          'ACM/CLAIM/CNAIM — migrant orientation, translations, social and legal navigation'
+          'CLAIM/CNAIM (under AIMA) — migrant orientation, translations, social and legal navigation'
         ] },
         { kind: 'warning', text: 'If the issue is legally important — residence permit, citizenship, tax residence, divorce, custody, debt, criminal case — use an advogado/solicitador with a cédula profissional. A “diaspora consultant” without a licence should not present themselves as a lawyer.' }
       ]
@@ -110,7 +110,7 @@ export default {
           'Open a bank account/IBAN and enable Multibanco/MB WAY carefully',
           'Sign up for Portuguese: IEFP, escolas, municipal courses, private groups',
           'Find 1–2 local groups for your area, not only Portugal-wide chats',
-          'Check important news at the primary source: AIMA/ACM/DRE/ePortugal'
+          'Check important news at the primary source: AIMA/DRE/ePortugal'
         ] }
       ]
     }
@@ -124,11 +124,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'ACM — migrant support, CLAIM/CNAIM and integration materials',
-      url: 'https://www.acm.gov.pt',
+      title: 'CLAIM/CNAIM (under AIMA) — migrant support and integration centres',
+      url: 'https://www.gov.pt/servicos/centros-nacionais-de-apoio-a-integracao-de-migrantes-cnaim-',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'ePortugal — official state services for residents and foreigners',
@@ -145,6 +145,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

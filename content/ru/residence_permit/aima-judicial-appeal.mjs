@@ -3,7 +3,7 @@ export default {
   id: 'aima-judicial-appeal',
   categoryId: 'residence_permit',
   title: 'AIMA отказала: иерархическое обжалование и иск в TAC',
-  tldr: 'Если AIMA отказала в ВНЖ или продлении, не ждите «само исправится»: обычно есть 3 месяца с уведомления на recurso hierárquico или ação administrativa в Tribunal Administrativo de Círculo de Lisboa. Судебный путь требует advogado; базовая court fee часто около 76,50 € (0,75 UC), но гонорар юриста — основной расход. До финального отказа проверьте, не была ли это audiência prévia: на ответ часто дают 10 рабочих дней.',
+  tldr: 'Если AIMA отказала в ВНЖ или продлении, не ждите, что всё «само исправится»: обычно есть 3 месяца с даты уведомления на recurso hierárquico или ação administrativa в Tribunal Administrativo de Círculo de Lisboa. Судебный путь требует advogado; базовая court fee часто около 76,50 € (0,75 UC), но гонорар юриста — основной расход. До финального отказа проверьте, не была ли это audiência prévia: на ответ часто дают 10 рабочих дней.',
   tags: ['aima', 'tac', 'обжалование', 'внж'],
   estimatedReadMinutes: 6,
   steps: [
@@ -150,6 +150,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

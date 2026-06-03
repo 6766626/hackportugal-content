@@ -80,8 +80,8 @@ export default {
           { id: 't1', title: 'Option A — certified translator at the Conservatória do Registo Civil', content: [
             { kind: 'paragraph', text: 'The translator prepares the translation → certifies it at the Conservatória do Registo Civil. This is the official route.' }
           ]},
-          { id: 't2', title: 'Option B — translation certified by a notary', content: [
-            { kind: 'paragraph', text: 'The notary adds a certification statement to the translation.' }
+          { id: 't2', title: 'Option B — certified by a notary, lawyer or solicitador', content: [
+            { kind: 'paragraph', text: 'A notary, lawyer (advogado) or solicitador, as well as a chamber of commerce, can add a certification statement to the translation — this is allowed under Decreto-Lei n.º 237/2001. In practice this is the most common and convenient route.' }
           ]},
           { id: 't3', title: 'Option C — Portuguese consulate in the country of origin', content: [
             { kind: 'paragraph', text: 'Translation by a consular translator. Convenient if the document is being legalised at the consulate.' }
@@ -103,6 +103,6 @@ export default {
     { title: 'Hague Conference — Apostille Convention', url: 'https://www.hcch.net/en/instruments/conventions/specialised-sections/apostille', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Translations and certifications', url: 'https://irn.justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

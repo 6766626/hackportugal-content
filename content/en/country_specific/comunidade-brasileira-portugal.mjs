@@ -12,7 +12,7 @@ export default {
       title: 'Scale of the community in 2026',
       content: [
         { kind: 'paragraph', text: 'The Brazilian community is the largest foreign community in Portugal. In AIMA public statistics for recent years, Brazil has consistently ranked first among nationalities with a residence permit; taking into account new CPLP processes, renewals and pending cases at AIMA, the practical estimate for 2026 is more than 500,000 Brazilian residents.' },
-        { kind: 'paragraph', text: 'Important: the figure “Brazilians in Portugal” is broader than “Brazilian citizens with a residence permit”. In practice, it includes Brazilians with Portuguese citizenship, dual citizenship, Cartão Cidadão, a European passport, a residence permit for work/study/family, CPLP, as well as people waiting for an AIMA decision.' },
+        { kind: 'paragraph', text: 'Important: the figure “Brazilians in Portugal” is broader than “Brazilian citizens with a residence permit”. In practice, it includes Brazilians with Portuguese citizenship, dual citizenship, Cartão de Cidadão, a European passport, a residence permit for work/study/family, CPLP, as well as people waiting for an AIMA decision.' },
         { kind: 'checklist', items: [
           'Main cities: Lisboa, Porto, Braga, Aveiro, Coimbra, Faro',
           'Strong concentration in Área Metropolitana de Lisboa: Lisboa, Amadora, Odivelas, Sintra, Loures, Cascais',
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

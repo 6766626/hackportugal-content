@@ -3,17 +3,17 @@ export default {
   id: 'citizenship-by-marriage',
   categoryId: 'nationality',
   title: 'Nacionalidade portuguesa por casamento ou união de facto (Lei Orgânica 1/2026)',
-  tldr: '🆕 Ao abrigo da nova Lei Orgânica n.º 1/2026 (publicada em 18.05.2026, em vigor desde 19.05.2026), os cônjuges de cidadãos portugueses podem apresentar o pedido de nacionalidade após 5 anos de casamento (antes — 3 anos). União de facto — também 5 anos (antes 3), mais coabitação real obrigatória com provas. O certificado linguístico CIPLE formalmente NÃO é exigido. A presunção de «ligação efetiva à comunidade nacional» passa agora a começar aos 7–8 anos (antes 6). O limiar criminal do art. 9(b) Lei 37/81 já era de 3 anos de pena de prisão — a nova redação endurece a avaliação dos «vínculos», não reduz o próprio limiar.\n\n⚖️ Disposição transitória: para pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026, aplicam-se as regras anteriores — 3 anos de casamento / união de facto + reconhecimento da união por sentença declarativa.\n\nO simples registo da união de facto na Junta de Freguesia ou na Conservatória para efeitos de nacionalidade NÃO é suficiente — é necessária uma decisão judicial. Não é obrigatório residir em Portugal.',
+  tldr: '🆕 Ao abrigo da Lei Orgânica n.º 1/2026 (publicada em 18.05.2026, em vigor desde 19.05.2026), o prazo mínimo para pedir a nacionalidade por casamento ou união de facto MANTÉM-SE em 3 anos (Lei 37/81, art. 3) — os «5 anos» de que se fala referem-se à naturalização por residência, não ao casamento. A nova redação não aumenta a exigência para o casamento; ENDURECE o regime de oposição: o prazo em que o Ministério Público pode deduzir oposição passa de 1 ano para 2 anos, e a avaliação da «ligação efetiva à comunidade nacional» passa a ponderar parâmetros de língua/cultura/integração (em articulação com o art. 6). O certificado linguístico CIPLE formalmente NÃO é exigido por esta via. A presunção de ausência de oposição continua a aplicar-se a partir de >6 anos de casamento/união OU havendo filhos comuns com nacionalidade portuguesa (art. 9/10). Ficam excluídos do regime os condenados em pena de prisão efetiva superior a 3 anos por crimes graves (terrorismo, criminalidade violenta/organizada, etc.).\n\n⚖️ Disposição transitória: os procedimentos administrativos iniciados ANTES de 19.05.2026 continuam a reger-se pela versão anterior da lei.\n\nO simples registo da união de facto na Junta de Freguesia ou na Conservatória para efeitos de nacionalidade NÃO é suficiente — é necessária uma decisão judicial (sentença declarativa). Não é obrigatório residir em Portugal.',
   tags: ['nacionalidade', 'casamento', 'união'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (em vigor desde 19.05.2026): prazo de casamento para pedir a nacionalidade 3 → 5 anos. Para união de facto — também 5 anos + coabitação real obrigatória com provas. Presunção de «vínculos efetivos» — a partir de 7–8 anos (antes 6). Pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026 seguem as regras anteriores (3 anos). 🔴 O Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — em 08.05.2026 o TC declarou-o inconstitucional por UNANIMIDADE; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento; o PSD não irá reconfirmar.',
+  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (em vigor desde 19.05.2026): o prazo mínimo de casamento / união de facto para pedir a nacionalidade MANTÉM-SE em 3 anos (art. 3 não alterado). A reforma endurece não o prazo, mas o regime de oposição: o prazo do Ministério Público para deduzir oposição passa de 1 ano para 2 anos, e a avaliação da «ligação efetiva» passa a ponderar língua/cultura/integração. A presunção de ausência de oposição continua a aplicar-se a partir de >6 anos de casamento/união ou havendo filhos comuns com nacionalidade portuguesa. Os procedimentos iniciados ANTES de 19.05.2026 continuam a reger-se pela versão anterior. 🔴 O Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — em 08.05.2026 o TC declarou-o inconstitucional por UNANIMIDADE; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento; o PSD não irá reconfirmar.',
   steps: [
     {
       id: 'universal',
       title: 'O processo é igual para todos os países',
       content: [
-        { kind: 'paragraph', text: 'Ao contrário da naturalização (por 5/7/10 anos de residência), por casamento ou união de facto o processo NÃO depende do país de origem do requerente. Cidadãos CPLP, UE, países terceiros — as condições são as mesmas. Não existem vias «aceleradas» para brasileiros ou italianos — todos precisam de 3 anos de casamento.' }
+        { kind: 'paragraph', text: 'Ao contrário da naturalização por residência (após a Lei Orgânica 1/2026 — 7 anos para cidadãos CPLP/UE e 10 anos para os restantes), por casamento ou união de facto o processo NÃO depende do país de origem do requerente. Cidadãos CPLP, UE, países terceiros — as condições são as mesmas. Não existem vias «aceleradas» para brasileiros ou italianos — todos precisam de 3 anos de casamento.' }
       ]
     },
     {
@@ -28,7 +28,7 @@ export default {
         ]},
         { kind: 'paragraph', text: 'Formalmente NÃO é exigido por esta via:' },
         { kind: 'checklist', items: [
-          '❌ Certificado CIPLE A2 — formalmente NÃO é exigido (língua apenas para naturalização após 5+ anos de residência). Na prática, o IRN pode avaliar o domínio da língua como indício indireto de «vínculo efetivo» em casamentos <6 anos',
+          '❌ Certificado CIPLE A2 — formalmente NÃO é exigido (o exame de língua aplica-se à naturalização por residência). Na prática, o IRN pode avaliar o domínio da língua como indício indireto de «vínculo efetivo» em casamentos <6 anos',
           '❌ Residência em território português — não é obrigatória, o cônjuge estrangeiro pode viver com o português no estrangeiro',
           '❌ «Vínculo a Portugal» como lista formal de requisitos — não é pedido na fase de receção. Mas veja abaixo sobre a presunção'
         ]},
@@ -120,10 +120,11 @@ export default {
   sources: [
     { title: 'IRN — Nacionalidade por casamento ou união de facto', url: 'https://justica.gov.pt/Servicos/Submeter-pedido-de-nacionalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 37/81 (Lei da Nacionalidade), art. 3 — por casamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei Orgânica n.º 1/2026, de 18 de maio (11.ª alteração à Lei da Nacionalidade)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Decreto-Lei 237-A/2006 — Regulamento da Nacionalidade Portuguesa', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-34456975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — união de facto', url: 'https://www.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

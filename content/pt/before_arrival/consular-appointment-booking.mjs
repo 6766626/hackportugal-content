@@ -4,7 +4,7 @@ export default {
   categoryId: 'before_arrival',
   title: 'Marcação no consulado de Portugal — como apanhar uma vaga',
   tldr: 'As filas nos consulados de Portugal (Moscovo, Kiev, Minsk, Almaty, Istambul) implicam 2–6 meses de espera. As vagas abrem de forma irregular, muitas vezes durante a noite. Estratégias: verificar a cada poucas horas (as vagas aparecem devido a cancelamentos); bots de monitorização (bots de Telegram notificam sobre novas vagas); deslocar-se para uma jurisdição vizinha (Erevan, Tbilisi, Vilnius — muitas vezes com mais disponibilidade); consultor privado (VFS Global, agências) — 50–200 €, mas com vaga garantida. Alternativa: viajar para Portugal sem visto (entrada sem visto no Espaço Schengen por 90 dias para vários países) e tratar do visto D aí.',
-  tags: ['consulado', 'marcação', 'visto d', 'marcação'],
+  tags: ['consulado', 'marcação', 'visto d', 'vagas'],
   estimatedReadMinutes: 6,
   steps: [
     {
@@ -94,7 +94,7 @@ export default {
       id: 'prep',
       title: '📋 Preparação para a marcação',
       content: [
-        { kind: 'paragraph', text: 'No momento em que a vaga aparecer, — tudo deve estar pronto, caso contrário perde-a.' },
+        { kind: 'paragraph', text: 'No momento em que a vaga aparecer, tudo deve estar pronto, caso contrário perde-a.' },
         { kind: 'checklist', items: [
           '✅ NIF (possível online através de representante, 70–150 €)',
           '✅ Passaporte — válido por ≥ 6 meses + páginas em branco',
@@ -125,7 +125,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Taxa consular (standard)', amountEUR: 90 },
+    { label: 'Taxa consular (standard)', amountEUR: 110 },
     { label: 'Agência para obter vaga', amountEURMin: 50, amountEURMax: 300 },
     { label: 'Deslocação para Erevan/Tbilisi (voo+hotel+visto)', amountEURMin: 500, amountEURMax: 1500 },
     { label: 'Bot de Telegram de monitorização (versão paga)', amountEURMin: 3, amountEURMax: 10, note: '€/mês' }
@@ -135,6 +135,6 @@ export default {
     { title: 'VFS Global Portugal', url: 'https://visa.vfsglobal.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Consulado de Portugal em Moscovo', url: 'https://moscovo.embaixadaportugal.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

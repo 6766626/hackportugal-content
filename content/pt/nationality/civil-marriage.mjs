@@ -41,7 +41,7 @@ export default {
           ]},
           { id: 'r2', title: 'Passo 2: Verificação de impedimentos matrimoniais', content: [
             { kind: 'paragraph', text: 'O conservador abre o processo preliminar e verifica os impedimentos matrimoniais (impedimentos absolutos e relativos: idade, capacidade jurídica, parentesco, casamento existente, etc.). Isto NÃO é um período fixo de 30 dias de anúncio público — o prazo depende da carga da Conservatória e da completude dos documentos. No final da análise — despacho favorável. O casamento deve ser celebrado no prazo de 6 meses após o despacho.' },
-            { kind: 'paragraph', text: 'Se existir um impedimento — a Conservatória notifica; um impediment dispensável pode ser removido por requerimento, um impediment dirimente impede o casamento.' }
+            { kind: 'paragraph', text: 'Se existir um impedimento — a Conservatória notifica; um impedimento dispensável pode ser removido (dispensa de impedimentos, emolumento autónomo de cerca de 60 €), um impedimento dirimente impede o casamento.' }
           ]},
           { id: 'r3', title: 'Passo 3: Cerimónia civil', content: [
             { kind: 'checklist', items: [
@@ -153,7 +153,7 @@ export default {
           'A convenção antenupcial deve ser assinada ANTES do casamento perante notário / na Conservatória',
           'Custo: 100-300 €',
           'Recomendado: separação total, se houver uma diferença significativa de património ou se os cônjuges tiverem negócios',
-          '⚠️ Após o casamento, o regime de bens geralmente NÃO muda (princípio da imutabilidade convenção antenupcial). A alteração só é possível em casos estritamente limitados pela lei. Escolha o regime ANTES do casamento'
+          '⚠️ Após o casamento, o regime de bens geralmente NÃO muda (princípio da imutabilidade das convenções antenupciais). A alteração só é possível em casos estritamente limitados pela lei. Escolha o regime ANTES do casamento'
         ]}
       ]
     }
@@ -172,6 +172,6 @@ export default {
     { title: 'Código Civil — Casamento (livro IV)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 9/2010 — Casamento entre pessoas do mesmo sexo', url: 'https://diariodarepublica.pt/dr/detalhe/lei/9-2010-616040', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,17 +3,17 @@ export default {
   id: 'citizenship-by-marriage',
   categoryId: 'nationality',
   title: 'Portuguese citizenship by marriage or união de facto (Lei Orgânica 1/2026)',
-  tldr: '🆕 Under the new Lei Orgânica n.º 1/2026 (published on 18/05/2026, in force from 19/05/2026), spouses of Portuguese citizens may apply for citizenship after 5 years of marriage (previously 3 years). União de facto is also 5 years (previously 3), plus mandatory genuine cohabitation with evidence. A CIPLE language certificate is formally NOT required. The presumption of “ligação efetiva à comunidade nacional” now starts at 7–8 years (previously 6). The criminal threshold under art. 9(b) Lei 37/81 was already 3 years of imprisonment — the new wording tightens the assessment of “ties”, rather than lowering the threshold itself.\n\n⚖️ Transitional provision: for applications submitted on the Portal da Nacionalidade BEFORE 19/05/2026, the previous rules apply — 3 years of marriage / união de facto + recognition of the union through sentença declarativa.\n\nA simple registration of união de facto at the Junta de Freguesia or Conservatória is NOT sufficient for citizenship purposes — a court decision is required. Living in Portugal is not mandatory.',
+  tldr: '🆕 Under Lei Orgânica n.º 1/2026 (published 18/05/2026, in force from 19/05/2026), the minimum period to apply for citizenship by marriage or união de facto REMAINS 3 years (Lei 37/81, art. 3) — the “5 years” talk refers to naturalisation by residence, not to marriage. The new wording does not raise the bar for marriage; instead it TIGHTENS the opposition regime: the period within which the Ministério Público may file opposition is extended from 1 year to 2 years, and the assessment of “ligação efetiva à comunidade nacional” now factors in language/culture/integration parameters (aligned with art. 6). A CIPLE language certificate is formally NOT required for this route. The presumption of no opposition still applies from >6 years of marriage/union OR where there are common children who are Portuguese citizens (art. 9/10). Excluded from the regime: anyone sentenced to effective imprisonment of more than 3 years for serious crimes (terrorism, violent/organised crime, etc.).\n\n⚖️ Transitional provision: administrative procedures begun BEFORE 19/05/2026 continue under the previous version of the law.\n\nA simple registration of união de facto at the Junta de Freguesia or Conservatória is NOT sufficient for citizenship purposes — a court decision (sentença declarativa) is required. Living in Portugal is not mandatory.',
   tags: ['citizenship', 'marriage', 'união'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (in force from 19/05/2026): the marriage period for applying for citizenship is 3 → 5 years. For união de facto — also 5 years + mandatory genuine cohabitation with evidence. Presumption of “effective ties” — from 7–8 years (previously 6). Applications submitted on the Portal da Nacionalidade BEFORE 19/05/2026 proceed under the previous rules (3 years). 🔴 The accompanying Decreto 49/XVII (loss of citizenship as a criminal penalty) — on 08/05/2026 the Constitutional Court UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament; PSD will not reconfirm it.',
+  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (in force from 19/05/2026): the minimum period of marriage / união de facto to apply for citizenship REMAINS 3 years (art. 3 unchanged). The reform tightens not the period itself but the opposition regime: the Ministério Público opposition window is extended from 1 year to 2 years, and the assessment of “effective ties” now factors in language/culture/integration. The presumption of no opposition still applies from >6 years of marriage/union or where there are common children who are Portuguese citizens. Procedures begun BEFORE 19/05/2026 continue under the previous version. 🔴 The accompanying Decreto 49/XVII (loss of citizenship as a criminal penalty) — on 08/05/2026 the Constitutional Court UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament; PSD will not reconfirm it.',
   steps: [
     {
       id: 'universal',
       title: 'The process is the same for all countries',
       content: [
-        { kind: 'paragraph', text: 'Unlike naturalisation (after 5/7/10 years of residence), the process by marriage or união de facto does NOT depend on the applicant’s country of origin. CPLP citizens, EU citizens, third-country nationals — the conditions are the same. There are no “fast-track” routes for Brazilians or Italians — everyone needs 3 years of marriage.' }
+        { kind: 'paragraph', text: 'Unlike naturalisation by residence (after Lei Orgânica 1/2026 — 7 years for CPLP/EU citizens and 10 years for others), the process by marriage or união de facto does NOT depend on the applicant’s country of origin. CPLP citizens, EU citizens, third-country nationals — the conditions are the same. There are no “fast-track” routes for Brazilians or Italians — everyone needs 3 years of marriage.' }
       ]
     },
     {
@@ -28,7 +28,7 @@ export default {
         ]},
         { kind: 'paragraph', text: 'Formally NOT required for this route:' },
         { kind: 'checklist', items: [
-          '❌ CIPLE A2 certificate — formally NOT required (language is only for naturalisation after 5+ years of residence). In practice, IRN may assess language ability as an indirect sign of an “effective connection” for marriages <6 years',
+          '❌ CIPLE A2 certificate — formally NOT required (the language exam applies to naturalisation by residence). In practice, IRN may assess language ability as an indirect sign of an “effective connection” for marriages <6 years',
           '❌ Residence in Portugal — not mandatory; the foreign spouse may live with the Portuguese citizen abroad',
           '❌ “Connection to Portugal” as a formal list of requirements — this is not requested at the acceptance stage. But see below regarding the presumption'
         ]},
@@ -120,10 +120,11 @@ export default {
   sources: [
     { title: 'IRN — Nationality by marriage or união de facto', url: 'https://justica.gov.pt/Servicos/Submeter-pedido-de-nacionalidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 37/81 (Lei da Nacionalidade), art. 3 — by marriage', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Lei Orgânica n.º 1/2026, de 18 de maio (11th amendment to the Nationality Law)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Decreto-Lei 237-A/2006 — Regulamento da Nacionalidade Portuguesa', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2006-34456975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — união de facto', url: 'https://www.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidency of the Republic — Promulgation of Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'voto-imigrante-municipal',
   categoryId: 'country_specific',
   title: 'Voting rights for migrants in municipal elections in Portugal',
-  tldr: 'In Portugal, foreign nationals can vote in eleições autárquicas — elections for Câmara Municipal, Assembleia Municipal and Junta de Freguesia. EU citizens vote if resident and registered in the recenseamento eleitoral. Brazil and Cabo Verde — with lawful residence usually for more than 2 years and reciprocity. A number of countries with treaty reciprocity, including Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela, — with a longer period of lawful residence. Registration is free, checks are done at eleitor.mai.gov.pt.',
+  tldr: 'In Portugal, foreign nationals can vote in eleições autárquicas — elections for Câmara Municipal, Assembleia Municipal and Assembleia de Freguesia. EU citizens vote if resident and registered in the recenseamento eleitoral. Brazil and Cabo Verde — with lawful residence for more than 2 years and reciprocity. A number of countries with treaty reciprocity, including Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela, — with lawful residence for more than 3 years. Registration is free, checks are done at eleitor.mai.gov.pt.',
   tags: ['vote', 'elections', 'migrants', 'cplp'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,8 +16,8 @@ export default {
           'EU citizens living in Portugal: can vote in municipal elections after registering in the recenseamento eleitoral.',
           'Citizens of Brazil: the right depends on lawful residence, registration and the reciprocity regime; for broader political rights, the Estatuto de Igualdade de Direitos Políticos is needed.',
           'Citizens of Cabo Verde: usually fall under the CPLP regime with reciprocity for eleições autárquicas after lawful residence of more than 2 years.',
-          'Citizens of other countries with reciprocity: Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela — the right depends on the period of lawful residence and the current MAI/CNE declaration.',
-          'Age: 18+ on election day.',
+          'Citizens of other countries with reciprocity: Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela — with lawful residence of more than 3 years and a current MAI/CNE declaration in force.',
+          'Age: you vote from 18 on election day; you can register in the recenseamento eleitoral from 17.',
           'You must be registered as a voter in the freguesia where you live.',
           'The address in the recenseamento eleitoral must match your actual place of residence, because you vote in your own freguesia.'
         ] },
@@ -30,13 +30,13 @@ export default {
       content: [
         { kind: 'paragraph', text: 'For EU citizens, the key condition is residence in Portugal and registration as an eleitor. A minimum residence period for the municipal vote usually does not apply in the same way as for third-country nationals.' },
         { kind: 'paragraph', text: 'For citizens of Portuguese-speaking countries with reciprocity, in practice primarily Brazil and Cabo Verde, the rule of lawful residence for more than 2 years applies for active voting rights in local elections, unless there is a special broader status.' },
-        { kind: 'paragraph', text: 'For “other treaty / reciprocity countries”, you need to check the current CNE and MAI wording. Public guides often mix up the active right to vote and the passive right to stand as a candidate: the periods for candidacy are higher. If someone tells you “4 years”, clarify whether they mean voting or being eligible for election.' },
+        { kind: 'paragraph', text: 'For “other treaty / reciprocity countries” — Argentina, Chile, Colombia, Iceland, Norway, New Zealand, Peru, United Kingdom, Uruguay, Venezuela — the rule is more than 3 years of lawful residence for active voting rights, provided reciprocity holds; always check the current CNE and MAI wording. Public guides often mix up the active right to vote and the passive right to stand as a candidate: the periods for candidacy are higher. If someone tells you a different number, clarify whether they mean voting or being eligible for election.' },
         { kind: 'checklist', items: [
           'EU: residência + registration in the recenseamento eleitoral.',
           'CPLP with reciprocity: usually legal residence of more than 2 years for voting.',
           'Brazil: check the Estatuto de Igualdade separately if you want rights broader than municipal ones.',
           'Cabo Verde: check the legal residence period and registration.',
-          'Argentina / Chile / Colombia / Iceland / Norway / New Zealand / Peru / UK / Uruguay / Venezuela: check the current CNE reciprocal list.',
+          'Argentina / Chile / Colombia / Iceland / Norway / New Zealand / Peru / UK / Uruguay / Venezuela: usually legal residence of more than 3 years for voting; check the current CNE reciprocal list.',
           'For candidacy, the periods and rules are stricter than for voting.',
           'Having a NIF, NISS or SNS does not in itself create a voting right.'
         ] }
@@ -127,6 +127,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }
