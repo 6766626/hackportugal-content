@@ -3,7 +3,7 @@ export default {
   id: 'cogumelos-selvagens-icnf',
   categoryId: 'food_leisure',
   title: 'Сбор диких грибов в Португалии: licença ICNF, сезоны и безопасность',
-  tldr: 'В Португалии дикие грибы обычно собирают осенью после дождей: октябрь–декабрь, локально до января; весенний сезон слабее — март–май. Для личного потребления ориентир по DL 254/2009 — до 5 кг на человека в день, но земля почти всегда чья-то: нужно разрешение владельца, baldios или entidade gestora. В áreas protegidas, matas nacionais и зонах ICNF проверяйте licença/autorização ICNF и местные запреты. При отравлении: CIAV 800 250 250, SNS 24 808 24 24 24, экстренно 112.',
+  tldr: 'В Португалии дикие грибы обычно собирают осенью после дождей: октябрь–декабрь, локально до января; весенний сезон слабее — март–май. Единого национального закона о сборе сейчас нет: прежний Código Florestal (DL 254/2009), вводивший licença ICNF и ориентир до 5 кг на человека в день для личного потребления, отменён законом Lei 12/2012. Эту цифру до сих пор используют как привычный ориентир, но земля почти всегда чья-то: нужно разрешение владельца, baldios или entidade gestora, а правила задают местные регламенты. В áreas protegidas, matas nacionais и зонах ICNF проверяйте autorização ICNF и местные запреты. При отравлении: CIAV 800 250 250, SNS 24 808 24 24 24, экстренно 112.',
   tags: ['cogumelos', 'icnf', 'грибы', 'безопасность'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'legal-basics',
       title: 'Где сбор легален, а где нужна licença ICNF',
       content: [
-        { kind: 'paragraph', text: 'В Португалии нет правила «лес общий — можно всё». Большая часть леса частная, municipal или baldios. Даже если нет забора, сбор грибов без согласия владельца или entidade gestora может считаться незаконным доступом/изъятием ресурсов.' },
+        { kind: 'paragraph', text: 'В Португалии нет правила «лес общий — можно всё». Большая часть леса частная, municipal или baldios. Даже если нет забора, сбор грибов без согласия владельца или entidade gestora может считаться незаконным доступом/изъятием ресурсов. Прежний Código Florestal (DL 254/2009), который вводил режим recursos micológicos с лицензиями ICNF и лимитом сбора, отменён законом Lei 12/2012, и единый национальный режим пока не восстановлен — правила сейчас задают местные регламенты, planos de gestão и условия конкретной территории.' },
         { kind: 'checklist', items: [
           'Частная земля: нужно разрешение владельца; отсутствие таблички не означает разрешение.',
           'Baldios: уточняйте правила у conselho diretivo dos baldios или Junta de Freguesia.',
@@ -19,7 +19,7 @@ export default {
           'Áreas protegidas: Parque Nacional da Peneda-Gerês, parques naturais, reservas naturais, paisagens protegidas — сбор может быть ограничен или запрещён по zonamento.',
           'Zonas de proteção total, reserva integral, dunas, habitats sensíveis и участки с табличками proibição de apanha — не собирать.',
           'Natura 2000 сама по себе не всегда означает запрет, но конкретный plano de gestão или regulamento может вводить ограничения.',
-          'Коммерческий сбор, закупка и продажа требуют отдельного соблюдения режима DL 254/2009: идентификация видов, прослеживаемость, условия транспортировки и торговли.',
+          'Коммерческий сбор, закупка и продажа всё равно требуют идентификации видов, прослеживаемости и соблюдения санитарных норм и условий транспортировки и торговли, даже без отдельного микологического закона.',
           'Если организуете тур/экскурсию за грибами в protected area, это уже actividade organizada: заранее согласуйте с ICNF/муниципалитетом.'
         ] },
         { kind: 'warning', text: 'Практическое правило для экспата: перед поездкой откройте карту protected areas ICNF, проверьте название зоны и отправьте email в serviço regional ICNF, если планируете собирать не в частном лесу знакомого владельца. Устное «все тут собирают» не защищает от штрафа.' }
@@ -29,7 +29,7 @@ export default {
       id: 'quantity-and-method',
       title: 'Лимиты и как собирать без вреда лесу',
       content: [
-        { kind: 'paragraph', text: 'Для autoconsumo по режиму DL 254/2009 обычно используют ориентир до 5 кг дикорастущих грибов на сборщика в день. Местные правила protected areas, matas nacionais или baldios могут быть строже: например, полный запрет, меньший лимит, конкретные дни или обязательная autorização.' },
+        { kind: 'paragraph', text: 'Для autoconsumo обычно используют привычный ориентир до 5 кг дикорастущих грибов на сборщика в день. Эта цифра идёт из отменённого Código Florestal (DL 254/2009) и сегодня не является обязательной нормой национального закона, но её до сих пор приводят как разумный предел. Местные правила protected areas, matas nacionais или baldios могут быть строже: например, полный запрет, меньший лимит, конкретные дни или обязательная autorização.' },
         { kind: 'checklist', items: [
           'Берите плетёную корзину или жёсткий вентилируемый контейнер, не пластиковый пакет.',
           'Не используйте грабли, мотыги и инструменты, разрушающие подстилку и micélio.',
@@ -64,7 +64,7 @@ export default {
       id: 'species',
       title: 'Виды: boletos, míscaros, cantarelos, sanchas',
       content: [
-        { kind: 'paragraph', text: 'Португальские народные названия отличаются по регионам. Один и тот же «míscaro» в разных местах может означать разные грибы. Для еды и тем более продажи используйте латинское название, а не перевод из чата или русскую привычку.' },
+        { kind: 'paragraph', text: 'Португальские народные названия отличаются по регионам. Один и тот же «míscaro» в разных местах может означать разные грибы. Для еды и тем более продажи используйте латинское название, а не перевод из чата или привычку с родины.' },
         { kind: 'checklist', items: [
           'Boletos: Boletus edulis, B. aereus, B. pinophilus, B. reticulatus — популярные съедобные трубчатые грибы, но есть горькие и токсичные двойники.',
           'Cantarelos: Cantharellus cibarius и близкие виды — жёлтые лисички; не путать с Omphalotus olearius, который растёт пучками на древесине/корнях и ядовит.',
@@ -106,11 +106,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Decreto-Lei n.º 254/2009 — regime jurídico dos recursos micológicos silvestres',
-      url: 'https://dre.pt/dre/detalhe/decreto-lei/254-2009-490398',
+      title: 'Decreto-Lei n.º 254/2009 (Código Florestal) — revogado pela Lei n.º 12/2012; continha o antigo regime dos recursos micológicos silvestres',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/254-2009-490450',
       kind: 'law',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'INEM / CIAV — Centro de Informação Antivenenos, телефон 800 250 250',
@@ -127,6 +127,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

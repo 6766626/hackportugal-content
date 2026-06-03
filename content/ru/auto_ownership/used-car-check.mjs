@@ -20,7 +20,7 @@ export default {
           '💰 «Reserva de propriedade» — значит машина в кредите; покупать можно только после закрытия reserva',
           '🏦 «Hipoteca» — ипотека/залог банка',
           '🚗 «Locação financeira» — лизинг',
-          '💶 Стоимость: certidão permanente обычно ~25 € за 6 месяцев доступа онлайн (актуальный тариф — на irn.justica.gov.pt / automovelonline.mj.pt)'
+          '💶 Стоимость: certidão permanente обычно ~10 € за 6 месяцев доступа онлайн (актуальный тариф — на irn.justica.gov.pt / automovelonline.mj.pt)'
         ]}
       ]
     },
@@ -74,9 +74,9 @@ export default {
           '📋 Полная проверка: двигатель, трансмиссия, подвеска, тормоза, ржавчина кузова',
           '💻 OBD-диагностика — коды ошибок ECU',
           '🛞 Шины, рисунок протектора, дата производства',
-          '🪟 Кузов на перекраску, шпатлёвку (замером толщиномером)',
+          '🪟 Кузов на перекраску и шпатлёвку (замер толщиномером)',
           '❄️ Кондиционер работает летом / зимой',
-          '🧰 Все кнопки / электрика работают',
+          '🧰 Все кнопки и электрика работают',
           '🗒️ Просите письменный отчёт — пригодится при торге'
         ]}
       ]
@@ -90,7 +90,7 @@ export default {
           '🆔 Обе стороны: CC/ВНЖ, NIF, IBAN',
           '📋 Приём-передача DUA + ключей + запасных',
           '💶 Оплата — банковский перевод с назначением «compra viatura matrícula X»',
-          '🏢 Registo de propriedade в IRN (irn.justica.gov.pt) — 45 € + оформление',
+          '🏢 Registo de propriedade в IRN (irn.justica.gov.pt) — ~55 € онлайн через Automóvel Online / 65 € очно в conservatória или Loja do Cidadão',
           '📅 Срок регистрации смены — 60 дней с подписания',
           '🛡️ Страховка на ваше имя с дня передачи',
           '🧾 IUC: владелец на 1 января текущего года остаётся ответственным за этот год; перерасчёта при смене собственника внутри года нет. Следующий год — на новом владельце'
@@ -99,10 +99,10 @@ export default {
     }
   ],
   costs: [
-    { label: 'Certidão Permanente Registo Automóvel (IRN/Automóvel Online)', amountEURMin: 15, amountEURMax: 25, note: 'тарифы могут отличаться, проверяйте на irn.justica.gov.pt' },
+    { label: 'Certidão Permanente Registo Automóvel (IRN/Automóvel Online)', amountEURMin: 8, amountEURMax: 12, note: 'тарифы могут отличаться, проверяйте на irn.justica.gov.pt' },
     { label: 'Отчёт Carvertical', amountEURMin: 15, amountEURMax: 30 },
     { label: 'Диагностика в автосервисе', amountEURMin: 40, amountEURMax: 80 },
-    { label: 'Registo de propriedade на нового владельца (IRN)', amountEURMin: 45, amountEURMax: 65 },
+    { label: 'Registo de propriedade на нового владельца (IRN)', amountEURMin: 55, amountEURMax: 65, note: '~55 € онлайн через Automóvel Online, 65 € очно' },
     { label: 'ИТОГО проверок перед сделкой', amountEURMin: 60, amountEURMax: 130 }
   ],
   sources: [
@@ -111,6 +111,6 @@ export default {
     { title: 'Portal das Finanças — Certidões', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IMT — IPO (технический осмотр)', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

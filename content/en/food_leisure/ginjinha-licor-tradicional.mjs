@@ -102,6 +102,6 @@ export default {
     { title: 'Diário da República: Decreto-Lei 106/2015 — age restrictions on alcohol sales', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/106-2015-67541745', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Licor Beirão: official brand website', url: 'https://www.licorbeirao.com/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

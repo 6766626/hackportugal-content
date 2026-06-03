@@ -17,7 +17,7 @@ export default {
           'IBKR — para residentes da UE, normalmente Interactive Brokers Ireland Limited; formulários fiscais e relatórios são descarregados a partir do Client Portal.',
           'Trading 212 — para clientes da UE, muitas vezes Trading 212 Markets Ltd, licença da Cyprus Securities and Exchange Commission; verifique o país da licença no onboarding.',
           'XTB — XTB S.A. com sucursal / serviços em Portugal; muitas vezes é mais conveniente para clientes portugueses, mas o imposto continua a ser declarado por si.',
-          'Verifique o corretor no site da CMVM: existência de registo, país de origem, serviços autorizados, avisos regulator warnings.',
+          'Verifique o corretor no site da CMVM: existência de registo, país de origem, serviços autorizados, avisos do regulador.',
           'Não confunda a aplicação, o banco intermediário, o custodian e a empresa de investimento: o regime de compensação depende da entidade jurídica licenciada, não da marca na App Store.'
         ] },
         { kind: 'warning', text: 'Se o corretor promete «rendimento garantido», pede transferência para um IBAN pessoal, opera apenas por Telegram/WhatsApp ou não consta dos registos dos reguladores — é um sinal de alerta. A CMVM publica regularmente avisos sobre intermediários não licenciados.' }
@@ -123,6 +123,6 @@ export default {
     { title: 'Código do IRS — tributação de rendimentos, categorias E e G', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Sistema de Indemnização aos Investidores — informação sobre protecção dos investidores', url: 'https://www.cmvm.pt/pt/AreadoInvestidor/SistemaDeIndemnizacaoAosInvestidores/LegisOutrasInfo/Pages/legislacao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'caca-licenca-icnf',
   categoryId: 'food_leisure',
   title: 'Hunting in Portugal — ICNF licence + hunter certificate (carta de caçador)',
-  tldr: 'Hunting is a bureaucratically complex subject. You need: 1) a hunter certificate (theory + practical, ~€150-300) — obtained once and valid for life; 2) a firearms licence (PSP) — a separate procedure: medical board and psychological test; 3) an annual hunter licence from ICNF (~€30-100 per year); 4) access to a hunting area (zonas de caça) — almost everything is under concessions, usually paid (~€50-500 per day/outing).\n\nSeasons: big game (caça maior: wild boar, deer) — October-January; small game (caça menor: rabbit, quail, pigeon) — August-January, with exact dates depending on the species. Foreign nationals may hunt if they have obtained a certificate in Portugal or had their own recognised. Not recommended for beginners without experience and without a local club.',
+  tldr: 'Hunting is a bureaucratically complex subject. You need: 1) a hunter certificate (theory + practical, ~€150-300) — valid until the age of 60, then renewed every 5 years; 2) a firearms licence (PSP) — a separate procedure: medical board and psychological test; 3) an annual hunter licence from ICNF (~€30-100 per year); 4) access to a hunting area (zonas de caça) — almost everything is under concessions, usually paid (~€50-500 per day/outing).\n\nSeasons: big game (caça maior: wild boar, deer) — October-January; small game (caça menor: rabbit, quail, pigeon) — August-January, with exact dates depending on the species. Foreign nationals may hunt if they have obtained a certificate in Portugal or had their own recognised. Not recommended for beginners without experience and without a local club.',
   tags: ['hunting', 'hunter', 'icnf', 'weapon', 'game'],
   estimatedReadMinutes: 7,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Hunting in Portugal is a strictly regulated activity. Firearms, the right to hunt, access to land, the specific species and the season — each of these aspects has its own document.' },
         { kind: 'checklist', items: [
-          '1️⃣ Hunter certificate (ICNF): theory + practical. You obtain it once for life',
+          '1️⃣ Hunter certificate (ICNF): theory + practical. Valid until the age of 60, then renewed every 5 years',
           '2️⃣ Licença de Uso e Porte de Arma (PSP): the right to use and carry firearms. Classes B, B1, C, D — depending on the type of firearm',
           '3️⃣ Annual hunter licence (ICNF): the fee for the right to hunt in the current season',
           '4️⃣ Right of access to hunting areas (zonas de caça): tourist area (paid), concession (paid) or associative area (through membership) — almost the whole country is divided into such areas',
@@ -25,7 +25,7 @@ export default {
       id: 'carta-caçador',
       title: 'Carta de Caçador (the main document)',
       content: [
-        { kind: 'paragraph', text: 'This is the basic certificate: without it, you cannot hunt. It is obtained once and is valid for life (after the age of 65 — medical confirmation every 5 years).' },
+        { kind: 'paragraph', text: 'This is the basic certificate: without it, you cannot hunt. It is valid until the age of 60, after which it must be renewed every 5 years (with medical confirmation).' },
         { kind: 'substeps', items: [
           {
             id: 's1',
@@ -71,10 +71,10 @@ export default {
         { kind: 'paragraph', text: 'In parallel with the hunter certificate, you need to arrange the right to use and carry firearms. This is a separate procedure with the Polícia de Segurança Pública (PSP).' },
         { kind: 'checklist', items: [
           'Class B (short-barrelled): not needed for hunting; used for self-defence',
-          'Class B1 (small revolver): rarely used',
-          'Class C (long-barrelled semi-automatic smoothbore): most hunters use shotguns',
-          'Class D (rifle, pump-action): for more advanced hunting scenarios',
-          'Class E (bolt-action rifled firearm): for big game — wild boar, deer'
+          'Class B1 (small-calibre pistol/revolver): rarely used',
+          'Class C (long-barrelled, rifled bore): licence for big game — wild boar, deer',
+          'Class D (long-barrelled smoothbore, shotgun): licence for small game — most hunters',
+          'Class E covers aerosols and electric weapons; it is not a hunting firearm class'
         ] },
         { kind: 'paragraph', text: 'What to gather for the application:' },
         { kind: 'checklist', items: [
@@ -190,6 +190,6 @@ export default {
     { title: 'Lei 5/2006 — use and carrying of firearms', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34539075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 67/2024, de 22 de fevereiro — hunting calendar for 2024-2025, 2025-2026 and 2026-2027 (amended by Portarias 309/2024/1 and 222-A/2025/1)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2024-898587583', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

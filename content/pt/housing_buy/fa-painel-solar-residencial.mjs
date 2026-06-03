@@ -3,7 +3,7 @@ export default {
   id: 'fa-painel-solar-residencial',
   categoryId: 'housing_buy',
   title: 'Fundo Ambiental: voucher para painéis solares para habitação',
-  tldr: 'O Fundo Ambiental abre periodicamente concursos para compensação de painéis solares para habitação: solar fotovoltaico para autoconsumo e solar térmico para águas quentes. Nos Avisos típicos, o limite por habitação chegou a cerca de 2 500 €, mas não é um benefício permanente: em abril de 2026 é necessário aguardar um novo Aviso/ronda PRR e verificar as condições da vaga concreta. São necessários habitação em Portugal, NIF, inexistência de dívidas à AT/Segurança Social, fatura e instalador de uma lista admissível.',
+  tldr: 'O Fundo Ambiental abre periodicamente concursos para compensação de painéis solares para habitação: solar fotovoltaico para autoconsumo e solar térmico para águas quentes. Nos Avisos típicos, o limite por habitação chegou a cerca de 2 500 €, mas não é um benefício permanente: em maio de 2026 é necessário aguardar um novo Aviso/ronda PRR e verificar as condições da vaga concreta. São necessários habitação em Portugal, NIF, inexistência de dívidas à AT/Segurança Social, fatura e instalador de uma lista admissível.',
   tags: ['fundoambiental', 'solar', 'habitação', 'upac'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O Fundo Ambiental é um fundo público através do qual Portugal distribui subsídios para a eficiência energética das habitações. Para sistemas solares, normalmente não se trata de um «desconto na loja», mas sim de uma compensação de parte das despesas após a instalação e a apresentação da candidatura no portal do Fundo Ambiental.' },
         { kind: 'paragraph', text: 'O apoio pode abranger solar fotovoltaico — painéis para autoconsumo de eletricidade, e solar térmico — painéis para aquecimento de água. Em rondas anteriores do Edifícios + Sustentáveis, os limites para tipologias individuais chegaram a cerca de 2 500 € por habitação, mas as percentagens exatas, os tetos e as despesas elegíveis são sempre definidos pelo Aviso concreto.' },
-        { kind: 'warning', text: 'Em abril de 2026, isto não é um direito automático do proprietário da habitação. Se o novo Aviso ainda não estiver aberto, não é possível garantir o pagamento por uma instalação feita «retroativamente». Antes de assinar contrato, verifique a data de admissibilidade das despesas no Aviso em vigor.' }
+        { kind: 'warning', text: 'Em maio de 2026, isto não é um direito automático do proprietário da habitação. Se o novo Aviso ainda não estiver aberto, não é possível garantir o pagamento por uma instalação feita «retroativamente». Antes de assinar contrato, verifique a data de admissibilidade das despesas no Aviso em vigor.' }
       ]
     },
     {
@@ -127,6 +127,6 @@ export default {
     { title: 'Decreto-Lei 15/2022 — organização e funcionamento do Sistema Elétrico Nacional', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/15-2022-177634016', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE — Certificação energética e eficiência em edifícios', url: 'https://www.adene.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

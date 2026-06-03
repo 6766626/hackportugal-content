@@ -3,7 +3,7 @@ export default {
   id: 'fa-vehicles-eletricos-2026',
   categoryId: 'auto_ownership',
   title: 'Fundo Ambiental: subsídio para automóvel elétrico em 2026',
-  tldr: 'O Fundo Ambiental atribui anualmente vales para mobilidade elétrica: no último ciclo completo, os Avisos 2025 tiveram um orçamento de 13,5 milhões €, para particulares — 4 000 € para um veículo ligeiro novo M1 100% elétrico até 38 500 € com IVA e entrega de automóvel antigo para abate; os PHEV não eram elegíveis. Em 03.05.2026, ainda é necessário verificar o Aviso 2026 específico em fundoambiental.pt: regras, limites e datas só se aplicam após a publicação do novo Aviso.',
+  tldr: 'O Fundo Ambiental atribui anualmente vales para mobilidade elétrica: no último Aviso publicado, o Aviso 06/2025 (aberto a 29.12.2025, para 2025–2026), o orçamento foi de 17,6 milhões €, para particulares — 4 000 € para um veículo ligeiro novo M1 100% elétrico até 38 500 € com IVA (até 55 000 € para veículos com mais de 5 lugares) e entrega para abate de automóvel antigo a combustão com mais de 10 anos; os PHEV não eram elegíveis. Em 31.05.2026, ainda é necessário verificar o Aviso 2026 específico em fundoambiental.pt: regras, limites e datas só se aplicam após a publicação do novo Aviso.',
   tags: ['fundoambiental', 'automóvelelétrico', 'subsídio', 'auto'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que é este subsídio',
       content: [
         { kind: 'paragraph', text: 'O Fundo Ambiental é um fundo público que abre anualmente o programa Incentivo pela Introdução no Consumo de Veículos de Emissões Nulas. Não é um desconto do concessionário, mas sim uma compensação após a compra: você compra o veículo, apresenta a candidatura online, aguarda a validação e recebe uma transferência para o IBAN.' },
-        { kind: 'paragraph', text: 'Importante: as regras mudam todos os anos. Em 03.05.2026, no site do Fundo Ambiental, deve verificar especificamente o novo Aviso 2026. A última referência completa publicada são os Avisos Mobilidade Elétrica 2025: orçamento total de 13,5 milhões €, limites por categoria e princípio “até esgotar o orçamento”.' },
+        { kind: 'paragraph', text: 'Importante: as regras mudam todos os anos. Em 31.05.2026, no site do Fundo Ambiental, deve verificar especificamente o novo Aviso 2026. A última referência publicada é o Aviso 06/2025 (Mobilidade Verde Passageiros, aberto a 29.12.2025 para 2025–2026): orçamento total de 17,6 milhões €, limites por categoria e princípio “até esgotar o orçamento”.' },
         { kind: 'warning', text: 'Não assine uma compra e venda apenas “por causa do subsídio”. O direito ao pagamento não nasce da publicidade do concessionário, mas sim do Aviso concreto. Se o Aviso 2026 alterar o limite de preço, a exigência de abate ou a lista de categorias, aplicam-se as novas regras.' }
       ]
     },
@@ -23,7 +23,7 @@ export default {
         { kind: 'paragraph', text: 'Em 2025, o programa estava orientado para veículos de emissões nulas — veículos sem emissões no local de utilização. Para automóveis ligeiros, isto significava um automóvel 100% elétrico, e não um plug-in hybrid.' },
         { kind: 'checklist', items: [
           'Veículo ligeiro 100% elétrico M1 para particular: referência 2025 — 4 000 €.',
-          'Preço máximo do veículo ligeiro segundo o Aviso 2025: 38 500 € com IVA e todas as despesas obrigatórias incluídas na fatura.',
+          'Preço máximo do veículo ligeiro segundo o Aviso 06/2025: 38 500 € com IVA e todas as despesas obrigatórias incluídas na fatura (até 55 000 € para veículos com mais de 5 lugares).',
           'PHEV / híbrido plug-in: nos Avisos 2025 não eram considerados “emissões nulas” para este apoio.',
           'Novo veículo comercial ligeiro 100% elétrico N1: referência 2025 — 6 000 €.',
           'Cargo bike / bicicleta de carga: referência 2025 — 50% do custo até 1 500 €.',
@@ -48,7 +48,7 @@ export default {
           'IBAN em nome do candidato; é preferível um IBAN PT, embora um IBAN SEPA deva ser formalmente aceite, na prática um IBAN PT reduz fricções.',
           'A fatura e o recibo devem estar em nome do mesmo candidato que apresenta a candidatura.',
           'Normalmente, um incentivo por categoria/candidato no âmbito do ano, mas consulte o limite exato no Aviso 2026.',
-          'Para veículo ligeiro BEV, no modelo de 2025 era exigido o abate de um automóvel antigo com motor de combustão interna; o novo Aviso pode manter ou alterar esta condição.'
+          'Para veículo ligeiro BEV, no modelo de 2025 era exigido o abate de um automóvel antigo com motor de combustão interna com mais de 10 anos; o novo Aviso pode manter ou alterar esta condição.'
         ] },
         { kind: 'warning', text: 'Se está apenas a mudar-se e ainda não é residente em Portugal, não conte com o Fundo Ambiental como desconto garantido. Verifique primeiro a eligibility no Aviso: “pessoas singulares residentes em território nacional” e os documentos que o fundo aceita como prova.' }
       ]
@@ -70,7 +70,7 @@ export default {
           'Características técnicas do veículo: marca, modelo, versão, VIN/quadro, potência, tipo de bateria — na fatura ou em anexo.',
           'Para cargo bike/e-bike: fatura com indicação clara do modelo e da conformidade com a categoria, e não apenas “bicicleta”.'
         ] },
-        { kind: 'warning', text: 'O preço de 38 500 € no Aviso 2025 era calculado com IVA. As “campanhas” dos concessionários por vezes mostram o preço sem despesas obrigatórias, ISV/IUC/entrega/documentação. Para o fundo, o que conta é o valor na fatura.' }
+        { kind: 'warning', text: 'O preço de 38 500 € no Aviso 06/2025 era calculado com IVA. As “campanhas” dos concessionários por vezes mostram o preço sem despesas obrigatórias, ISV/IUC/entrega/documentação. Para o fundo, o que conta é o valor na fatura.' }
       ]
     },
     {
@@ -116,7 +116,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Veículo ligeiro 100% elétrico M1 para pessoa singular', amountEUR: 4000, note: 'Referência Avisos 2025; preço do veículo até 38 500 € com IVA; em 2026, confirmar no novo Aviso.' },
+    { label: 'Veículo ligeiro 100% elétrico M1 para pessoa singular', amountEUR: 4000, note: 'Referência Aviso 06/2025; preço do veículo até 38 500 € com IVA (até 55 000 € para veículos com mais de 5 lugares); em 2026, confirmar no novo Aviso.' },
     { label: 'Veículo comercial ligeiro 100% elétrico N1', amountEUR: 6000, note: 'Referência Avisos 2025; as condições dependem da categoria do candidato e do Aviso.' },
     { label: 'Cargo bike / bicicleta de carga', amountEURMax: 1500, note: 'Referência Avisos 2025: até 50% do custo, mas não acima do limite.' },
     { label: 'Bicicleta elétrica', amountEURMax: 500, note: 'Referência Avisos 2025: até 50% do custo.' },
@@ -127,6 +127,6 @@ export default {
     { title: 'Fundo Ambiental — portal oficial', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fundo Ambiental — Aviso 06/2025: Veículos de Emissões Nulas (Mobilidade Verde Passageiros)', url: 'https://www.fundoambiental.pt/avisos-anteriores/apoios-20242/mitigacao-as-alteracoes-climaticas/incentivo-pela-aquisicao-de-veiculos-de-emissoes-nulas-ano-20252026-mobilidade-verde--passageiros.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

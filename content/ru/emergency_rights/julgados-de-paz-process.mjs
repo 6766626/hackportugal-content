@@ -3,7 +3,7 @@ export default {
   id: 'julgados-de-paz-process',
   categoryId: 'emergency_rights',
   title: 'Julgados de Paz: мировой суд для споров до 15 000 €',
-  tldr: 'Julgados de Paz — быстрый гражданский суд для небольших споров до 15 000 €: потребительские претензии, договоры, долги, condomínio, соседские и имущественные конфликты. Стартовая пошлина обычно 35 € с заявителя; полная taxa única — 70 €.\n\nПроцесс mediation-first: сначала предлагают медиацию, затем слушание у juiz de paz. Не подходят семейные, наследственные, трудовые, уголовные, банкротные дела и выселение. Работает только в территориях, где есть Julgado de Paz.',
+  tldr: 'Julgados de Paz — быстрый гражданский суд для небольших споров до 15 000 €: потребительские претензии, договоры, долги, condomínio, соседские и имущественные конфликты. Пошлину (taxa única) платят в конце процесса: при соглашении на медиации — 25 € с каждой стороны, при решении судьи — 70 € с проигравшей стороны.\n\nПроцесс mediation-first: сначала предлагают медиацию, затем слушание у juiz de paz. Не подходят семейные, наследственные, трудовые, уголовные дела, банкротство и выселение. Работает только в территориях, где есть Julgado de Paz.',
   tags: ['julgados', 'суд', 'споры', 'медиация'],
   estimatedReadMinutes: 6,
   steps: [
@@ -77,8 +77,8 @@ export default {
           { id: 'write-claim', title: '2. Опишите pedido простым языком', content: [
             { kind: 'paragraph', text: 'Укажите: кто кому должен, что произошло, дату, сумму, доказательства и что именно вы просите: заплатить X €, вернуть вещь, устранить дефект, прекратить нарушение.' }
           ] },
-          { id: 'pay-fee', title: '3. Оплатите начальную пошлину', content: [
-            { kind: 'paragraph', text: 'Обычно заявитель платит 35 € при подаче. Полная taxa única процесса — 70 €, по общему правилу распределяется между сторонами; финальное распределение зависит от исхода дела.' }
+          { id: 'pay-fee', title: '3. Учтите пошлину (taxa única)', content: [
+            { kind: 'paragraph', text: 'При подаче платить ничего не нужно: пошлину вносят в конце процесса банковским переводом. Если стороны договорились на медиации, каждая платит 25 €. Если дело решает судья, taxa única — 70 € с проигравшей стороны (при частичном проигрыше судья делит сумму пропорционально).' }
           ] },
           { id: 'wait-notification', title: '4. Дождитесь уведомления ответчика', content: [
             { kind: 'paragraph', text: 'Julgado de Paz уведомляет ответчика и предлагает дальнейший порядок: медиация, contestação, назначение заседания. Следите за почтой: пропуск уведомления может навредить делу.' }
@@ -92,7 +92,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Логика Julgados de Paz — сначала попытка мирного решения. Медиация добровольная: если обе стороны согласны, mediador помогает оформить acordo. Такой acordo может иметь силу судебного решения после homologação.' },
         { kind: 'checklist', items: [
-          'медиация дешевле и быстрее, если спор можно закрыть платежом или ремонтом',
+          'медиация дешевле и быстрее: при соглашении — всего 25 € с каждой стороны',
           'не соглашайтесь на устные обещания без письменного acordo',
           'в acordo фиксируйте сумму, срок, IBAN, рассрочку и последствия просрочки',
           'если медиация провалилась, дело идёт к juiz de paz',
@@ -102,7 +102,7 @@ export default {
           'решение juiz de paz называется sentença и обязательно к исполнению',
           'если сторона не платит добровольно, возможен исполнительный процесс'
         ] },
-        { kind: 'warning', text: 'Апелляция возможна не всегда. По общему правилу она зависит от цены дела и процессуальных условий. Если сумма для вас существенная или спор юридически сложный, до подачи покажите документы advogado или solicitador.' }
+        { kind: 'warning', text: 'Апелляция возможна не всегда: по общему правилу — только если цена дела выше 2 500 €, и на этой стадии адвокат уже обязателен. Если сумма для вас существенная или спор юридически сложный, до подачи покажите документы advogado или solicitador.' }
       ]
     },
     {
@@ -125,15 +125,16 @@ export default {
     }
   ],
   costs: [
-    { label: 'Подача заявителем', amountEUR: 35, note: 'Обычно оплачивается при начале процесса в Julgado de Paz.' },
-    { label: 'Полная taxa única процесса', amountEUR: 70, note: 'Как правило, 35 € с каждой стороны; окончательное распределение может зависеть от решения.' },
+    { label: 'Соглашение на медиации', amountEUR: 25, note: 'По 25 € с каждой стороны (всего 50 €), если спор закрыт мировым соглашением.' },
+    { label: 'taxa única при решении судьи', amountEUR: 70, note: 'Платит проигравшая сторона в конце процесса; при частичном проигрыше судья делит сумму пропорционально.' },
     { label: 'Адвокат или solicitador', amountEURMin: 50, amountEURMax: 250, note: 'Не обязателен для большинства дел, но полезен для проверки иска, доказательств и апелляции.' }
   ],
   sources: [
     { title: 'ePortugal: начать процесс в Julgado de Paz', url: 'https://www2.gov.pt/en/servicos/iniciar-um-processo-num-julgado-de-paz', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Conselho dos Julgados de Paz: суды, компетенция и информация', url: 'https://www.conselhodosjulgadosdepaz.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Lei 78/2001: organização, competência e funcionamento dos Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34412675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Lei 78/2001: organização, competência e funcionamento dos Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34412675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Portaria 342/2019: regime de cobrança das taxas nos Julgados de Paz', url: 'https://files.dre.pt/1s/2019/10/18900/0011900120.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

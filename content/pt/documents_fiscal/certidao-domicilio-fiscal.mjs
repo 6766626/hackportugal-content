@@ -66,7 +66,7 @@ export default {
           'Os bancos exigem frequentemente uma certidão "com menos de 3 meses"',
           'IRN/AIMA: depende do procedimento; é mais seguro apresentar uma certidão com menos de 3 meses, se a lista concreta de documentos não indicar outro prazo',
           'Se a morada mudou — peça uma nova, a antiga deixa de ser válida',
-          'Para certificado de residência fiscal — é válido para um ano fiscal específico'
+          'Para a certidão de residência fiscal — é válida para um ano fiscal específico'
         ]}
       ]
     },
@@ -89,6 +89,6 @@ export default {
     { title: 'Portal das Finanças — Certidões', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

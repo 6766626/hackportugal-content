@@ -127,6 +127,6 @@ export default {
     { title: 'Código do Registo Predial — Decreto-Lei 224/84', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1984-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — buying and selling a home and associated documentation', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

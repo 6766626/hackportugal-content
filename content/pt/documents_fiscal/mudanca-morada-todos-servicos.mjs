@@ -80,7 +80,7 @@ export default {
       id: 'aima',
       title: '3. AIMA: titulares de autorização de residência — obrigatório em 60 dias',
       content: [
-        { kind: 'paragraph', text: 'Se tiver autorização de residência / autorização de residência, deve comunicar a alteração de morada à AIMA no prazo de 60 dias. Esta é uma obrigação autónoma do cidadão estrangeiro ao abrigo da Lei 23/2007. A alteração da morada nas Finanças, por si só, não garante que a AIMA tenha recebido e registado a nova morada.' },
+        { kind: 'paragraph', text: 'Se tiver autorização de residência, deve comunicar a alteração de morada à AIMA no prazo de 60 dias. Esta é uma obrigação autónoma do cidadão estrangeiro ao abrigo da Lei 23/2007 (artigo 86.º). A alteração da morada nas Finanças, por si só, não garante que a AIMA tenha recebido e registado a nova morada.' },
         { kind: 'checklist', items: [
           'Prepare uma digitalização da autorização de residência dos dois lados',
           'Passaporte',
@@ -155,7 +155,7 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Lei 23/2007: regime jurídico de entrada, permanência e saída de cidadãos estrangeiros, obrigação de comunicar a morada',
+      title: 'Lei 23/2007 (artigo 86.º): regime jurídico de entrada, permanência e saída de cidadãos estrangeiros, obrigação de comunicar a morada no prazo de 60 dias',
       url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34554775',
       kind: 'law',
       language: 'pt',
@@ -169,6 +169,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

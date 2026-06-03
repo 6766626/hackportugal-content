@@ -3,7 +3,7 @@ export default {
   id: 'aima-escalation-ombudsman',
   categoryId: 'emergency_rights',
   title: 'AIMA не отвечает: эскалация через Provedor de Justiça',
-  tldr: 'Если AIMA потеряла файл, не даёт слот, месяцами не выпускает cartão de residência или не отвечает на email, действуйте по лестнице: собрать доказательства → жалоба в Livro de Reclamações → дать AIMA до 60 дней на реакцию → жалоба в Provedor de Justiça → при срочном ущербе идти в Tribunal Administrativo с адвокатом. Provedor бесплатен, но не заменяет суд и не отменяет дедлайны по ВНЖ.',
+  tldr: 'Если AIMA потеряла досье, не даёт слот, месяцами не выпускает cartão de residência или не отвечает на email, действуйте по лестнице: собрать доказательства → жалоба в Livro de Reclamações → дать AIMA до 60 дней на реакцию → жалоба в Provedor de Justiça → при срочном ущербе идти в Tribunal Administrativo с адвокатом. Provedor бесплатен, но не заменяет суд и не отменяет дедлайны по ВНЖ.',
   tags: ['aima', 'жалоба', 'provedor', 'внж'],
   estimatedReadMinutes: 6,
   steps: [
@@ -74,7 +74,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Для Provedor важно, чтобы вы сначала дали администрации возможность ответить. Практический ориентир — 60 дней после жалобы/последнего обращения, если нет срочного риска. Если AIMA ответила формально, но проблему не решила, это тоже материал для Provedor.' },
         { kind: 'checklist', items: [
-          'через 15-20 дней проверьте email, spam и статус жалобы',
+          'через 15-20 дней проверьте email, папку спама и статус жалобы',
           'если пришёл ответ AIMA, сохраните его PDF',
           'если ответа нет, отправьте короткий follow-up с номером Livro de Reclamações',
           'не создавайте 10 одинаковых жалоб каждую неделю: это ухудшает читаемость дела',
@@ -88,7 +88,7 @@ export default {
       id: 'provedor-complaint',
       title: 'Шаг 3: жалоба в Provedor de Justiça',
       content: [
-        { kind: 'paragraph', text: 'Жалоба в Provedor бесплатна и подаётся онлайн, письмом или лично. Подавать можно на португальском или английском; на практике для AIMA лучше португальский. Русский текст лучше перевести хотя бы машинно и проверить имена, даты, номера.' },
+        { kind: 'paragraph', text: 'Жалоба в Provedor бесплатна и подаётся онлайн, письмом или лично. Подавать можно на португальском или английском; на практике для AIMA лучше португальский. Русский текст лучше перевести хотя бы машинным переводом и проверить имена, даты, номера.' },
         { kind: 'checklist', items: [
           'укажите, что жалоба против AIMA — Agência para a Integração, Migrações e Asilo',
           'напишите номер жалобы Livro de Reclamações и дату подачи',
@@ -133,6 +133,6 @@ export default {
     { title: 'AIMA — Perguntas Frequentes e contactos', url: 'https://aima.gov.pt/pt/perguntas-frequentes-faq-s', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Código de Processo nos Tribunais Administrativos — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

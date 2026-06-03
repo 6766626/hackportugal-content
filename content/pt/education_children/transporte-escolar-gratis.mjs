@@ -28,12 +28,12 @@ export default {
       id: 'eligibility',
       title: 'Verifique o direito ao transporte gratuito',
       content: [
-        { kind: 'paragraph', text: 'A regra de base para 2026: o transporte escolar gratuito é concedido a alunos da escolaridade obrigatória se a distância entre o local de residência e a escola exceder 3 km. O município pode detalhar como mede a distância: por estrada, pelo percurso pedonal mais curto ou através de mapa GIS.' },
+        { kind: 'paragraph', text: 'A regra de base para 2026: o transporte escolar gratuito é concedido a alunos da escolaridade obrigatória se a distância entre o local de residência e a escola exceder 3 km — e, se a escola tiver refeitório, o limiar é muitas vezes de 4 km. O município pode detalhar como mede a distância: por estrada, pelo percurso pedonal mais curto ou através de mapa GIS.' },
         { kind: 'checklist', items: [
           'A criança tem entre 6 e 18 anos ou ainda está a concluir a escolaridade obrigatória',
           'Existe uma matrícula ou renovação de matrícula confirmada para o ano lectivo',
           'A escola pertence à sua zona ou a criança foi encaminhada oficialmente para essa escola',
-          'A casa fica a mais de 3 km da escola',
+          'A casa fica a mais de 3 km da escola (4 km se a escola tiver refeitório)',
           'Não existe outra opção escolar gratuita mais perto de casa que a família tenha recusado voluntariamente utilizar',
           'A criança reside efectivamente nesse município',
           'O pedido foi apresentado dentro dos prazos publicados pela Câmara Municipal',
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

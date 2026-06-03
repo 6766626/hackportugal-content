@@ -3,7 +3,7 @@ export default {
   id: 'residential-parking',
   categoryId: 'auto_trips',
   title: 'Resident parking — Lisbon, Cascais, Setúbal',
-  tldr: 'In major cities, the municipality sells residents discounted parking permits (dístico de residente) — from free to around €80/year. It works based on place of residence (Atestado de Residência) + vehicle registration. Lisbon is managed by EMEL, Cascais by Cascais Próxima, Setúbal by Divisão de Trânsito. Without a dístico, a resident will have to pay hourly like a tourist.',
+  tldr: 'In major cities, the municipality issues residents discounted parking permits (dístico de residente) — from free to around €130/year. It works based on place of residence (Atestado de Residência) + vehicle registration. Lisbon is managed by EMEL, Cascais by Cascais Próxima, Setúbal by Divisão de Trânsito. Without a dístico, a resident will have to pay hourly like a tourist.',
   tags: ['parking', 'dístico', 'resident'],
   estimatedReadMinutes: 5,
   steps: [
@@ -26,11 +26,11 @@ export default {
           ]},
           { id: 'l3', title: 'Price', content: [
             { kind: 'checklist', items: [
-              '1st car: €12/year (the first year is often free)',
-              '2nd car in the household: €36/year',
-              'Each additional car: €72/year',
-              'Dístico de visitante (visitor): €24/year + time restrictions',
-              'Pensioners 65+ — 50% discount'
+              '1st car per address: free',
+              '2nd car per address: €54/year',
+              '3rd car per address: €132/year',
+              'Cartão Visitante (visitor): €25 — a balance-based card, first 30 minutes free, then hourly',
+              'Up to 3 permits per address'
             ]}
           ]},
           { id: 'l4', title: 'Zones', content: [
@@ -70,7 +70,7 @@ export default {
       title: 'Free parking for electric vehicles',
       content: [
         { kind: 'checklist', items: [
-          'Lisbon: EMEL — first 2 hours free for electric vehicles with a green number plate (MEV marking)',
+          'Lisbon: EMEL — first 2 hours free for electric vehicles with a green number plate (MEV marking); since 2026 the benefit is restricted for vehicles from neighbouring municipalities',
           'Porto: parking for electric vehicles — 50% discount in municipal zones',
           'Cascais: free parking for electric vehicles at municipal charging stations',
           'Nationwide: free parking in Mobi.E charging zones while charging',
@@ -84,7 +84,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Parking without a dístico or payment: €30-50 (if paid promptly)',
-          'Parking in a disabled bay without documentation: €120 (fine + penalty point)',
+          'Parking in a disabled bay without the card: €60-300 (art. 145 Código da Estrada) + 2 penalty points',
           'Towing: €80-150 + storage €15/day',
           '50% discount when paid within 15 days (minimum fine amount)',
           'Appeal the fine — via EMEL.pt or Câmara, deadline 30 days'
@@ -93,17 +93,17 @@ export default {
     }
   ],
   costs: [
-    { label: 'Lisbon EMEL dístico (1st car)', amountEUR: 12, note: '/year, often 1st year free' },
-    { label: 'Lisbon EMEL dístico (2nd car)', amountEUR: 36, note: '/year' },
+    { label: 'Lisbon EMEL dístico (1st car)', amountEUR: 0, note: 'free' },
+    { label: 'Lisbon EMEL dístico (2nd car)', amountEUR: 54, note: '/year' },
     { label: 'Cascais dístico', amountEURMin: 10, amountEURMax: 30, note: '/year, 1st free' },
     { label: 'Setúbal cartão residente', amountEUR: 20, note: '/year' },
     { label: 'Fine without a dístico', amountEURMin: 30, amountEURMax: 50 }
   ],
   sources: [
-    { title: 'EMEL — Dísticos', url: 'https://www.emel.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'EMEL — Dístico de Residente', url: 'https://www.emel.pt/pt/disticos/estacionamento-nos-bairros-historicos/distico-de-residente/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Cascais Próxima — Parking', url: 'https://www.cascaisproxima.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal de Setúbal — Traffic', url: 'https://www.mun-setubal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

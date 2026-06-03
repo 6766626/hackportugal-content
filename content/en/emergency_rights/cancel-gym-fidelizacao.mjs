@@ -34,7 +34,7 @@ export default {
           'State your name, NIF, customer number, contract date, and IBAN for the refund.',
           'Send it by a method that leaves proof: email with confirmation, área de cliente, but preferably carta registada.',
           'Ask for confirmation of cancellation of the débito direto SEPA.',
-          'If an joining fee or mensalidade has already been charged, request a refund in proportion to the rules of DL 24/2014.',
+          'If a joining fee or mensalidade has already been charged, request a refund in proportion to the rules of DL 24/2014.',
           'Keep the comprovativo de envio and a copy of the letter.'
         ] },
         { kind: 'warning', text: 'If you signed the contract in person on the gym premises, the 14-day withdrawal under DL 24/2014 usually does not apply. In that case, move on to termination for justa causa or negotiation.' }
@@ -130,6 +130,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

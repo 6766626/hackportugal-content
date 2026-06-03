@@ -3,7 +3,7 @@ export default {
   id: 'alojamento-local-license',
   categoryId: 'housing_rent',
   title: 'Alojamento Local (AL): licença para arrendamento de curta duração',
-  tldr: 'Alojamento Local é o registo de habitação para arrendamento de curta duração a turistas através da Câmara Municipal e do RNAL.\n\nEm 2026, o regime assenta no DL 128/2014, com as alterações do Mais Habitação e alterações posteriores: os municípios podem criar zonas de contenção e zonas de crescimento sustentável, onde novos AL são limitados ou suspensos. Sem número RNAL não é possível publicitar legalmente o imóvel no Airbnb/Booking. Verifique o regulamento da Câmara antes de comprar um apartamento para AL.',
+  tldr: 'Alojamento Local é o registo de habitação para arrendamento de curta duração a turistas através da Câmara Municipal e do RNAL.\n\nEm 2026, o regime assenta no DL 128/2014, com as alterações do Mais Habitação (Lei 56/2023) e o DL 76/2024, que revogou parte das restrições anteriores: os municípios podem criar zonas de contenção e zonas de crescimento sustentável, onde novos AL são limitados ou suspensos. Sem número RNAL não é possível publicitar legalmente o imóvel no Airbnb/Booking. Verifique o regulamento da Câmara antes de comprar um apartamento para AL.',
   tags: ['al', 'arrendamento', 'rnal', 'câmara'],
   estimatedReadMinutes: 6,
   steps: [

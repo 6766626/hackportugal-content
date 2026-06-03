@@ -93,7 +93,7 @@ export default {
           'Cereja do Fundão — известная черешня короткого летнего сезона.',
           'Ameixa d’Elvas — традиционная слива, часто встречается как сладость/консерва.',
           'Figo-da-Índia — плод опунции, не путать с обычным figo.',
-          'Dióspiro de roer / dióspiro maçã — твёрдый тип хурмы; dióspiro mole — мягкий, естся ложкой.'
+          'Dióspiro de roer / dióspiro maçã — твёрдый тип хурмы; dióspiro mole — мягкий, едят ложкой.'
         ] },
         { kind: 'warning', text: 'Маркировки DOP/IGP/Produto Nacional полезны, но не гарантируют, что фрукт будет спелым именно сегодня. Для спелости всё равно проверяйте запах, вес и совет продавца.' }
       ]
@@ -110,6 +110,6 @@ export default {
     { title: 'Maçã de Alcobaça IGP — спецификация и сведения о продукте в реестре eAmbrosia', url: 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'SIMA/GPP Portugal — рыночная информация по сельхозценам', url: 'https://www.gpp.pt/index.php/sima/sima-2018', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

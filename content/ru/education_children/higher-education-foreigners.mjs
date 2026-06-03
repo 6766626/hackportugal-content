@@ -3,7 +3,7 @@ export default {
   id: 'higher-education-foreigners',
   categoryId: 'education_children',
   title: 'Высшее образование в Португалии — для иностранных студентов',
-  tldr: 'Бакалавриат (licenciatura) — 3 года, магистратура (mestrado) — 2 года, PhD (doutoramento) — 3–4 года. Поступление — через Concurso Nacional de Acesso (для резидентов Португалии) или Concurso Especial para Estudantes Internacionais (только для граждан вне ЕС).\n\nСтоимость: резиденты ЕС платят как португальцы — 700–1400 €/год в государственных вузах, не-ЕС — 2000–7000 €/год в государственных вузах, 3500–15000 €/год в частных. Топовые вузы: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 в мире в top 500)\.\n\nErasmus+ — полный доступ. D4 Student Visa для граждан не-ЕС.',
+  tldr: 'Бакалавриат (licenciatura) — 3 года, магистратура (mestrado) — 2 года, PhD (doutoramento) — 3–4 года. Поступление — через Concurso Nacional de Acesso (для резидентов Португалии) или Concurso Especial para Estudantes Internacionais (только для граждан вне ЕС).\n\nСтоимость: резиденты ЕС платят как португальцы — 700–1400 €/год в государственных вузах, не-ЕС — 2000–7000 €/год в государственных вузах, 3500–15000 €/год в частных. Топовые вузы: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 португальских вузов входят в топ-500 мира по QS).\n\nErasmus+ — полный доступ. D4 Student Visa для граждан не-ЕС.',
   tags: ['высшее', 'licenciatura', 'университет', 'erasmus'],
   estimatedReadMinutes: 7,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           'Licenciatura (бакалавриат): 3 года, 180 ECTS — основной первый цикл',
           'Mestrado (магистратура): 1,5–2 года, 90–120 ECTS — второй цикл',
-          'Mestrado Integrado: для некоторых регулируемых профессий. Medicina — обычно 6 лет / 360 ECTS; Arquitetura — часто 5 лет / 300 ECTS; в Engenharia многие antigos mestrados integrados были reorganized в licenciatura + mestrado (сверяйте каждый курс в DGES)',
+          'Mestrado Integrado: для некоторых регулируемых профессий. Medicina — обычно 6 лет / 360 ECTS; Arquitetura — часто 5 лет / 300 ECTS; в Engenharia многие antigos mestrados integrados были реорганизованы в licenciatura + mestrado (сверяйте каждый курс в DGES)',
           'Doutoramento (PhD): 3–4 года — третий цикл',
           'CTeSP (Curso Técnico Superior Profissional): 2 года, 120 ECTS — профессиональное образование, без академической степени',
           'Pós-graduação: короткие специализированные курсы (6–12 мес.)'
@@ -29,16 +29,16 @@ export default {
           { id: 'a1', title: 'Граждане PT/ЕС/ЕЭЗ/Швейцарии и некоторые non-EU резиденты (CNA)', content: [
             { kind: 'checklist', items: [
               'Concurso Nacional de Acesso (CNA): общий конкурс — применяется, если вы НЕ считаетесь Estudante Internacional',
-              'CNA also applies to non-EU residents с легальным проживанием в Португалии >2 непрерывных лет к 1 января года поступления (не считая времени только по student permit) или с estatuto de igualdade',
+              'CNA также распространяется на граждан не-ЕС с легальным проживанием в Португалии более 2 непрерывных лет к 1 января года поступления (не считая времени только по student permit) или с estatuto de igualdade',
               'Вступительные экзамены (Exames Nacionais) в 12-м классе — обязательны для конкурса',
               'Распределение по баллам: nota do secundário + provas de ingresso (веса по курсам у DGES)',
               'PT/EU в гос. licenciatura: propina до ~€697/год максимум',
-              'Если у вас иностранный школьный диплом — нужно equivalência + сдать local exam'
+              'Если у вас иностранный школьный диплом — нужно equivalência + сдать местный экзамен'
             ]}
           ]},
           { id: 'a2', title: 'Граждане не-ЕС', content: [
             { kind: 'checklist', items: [
-              'Concurso Especial para Estudantes Internacionais (CEIE)',
+              'Concurso Especial para Estudantes Internacionais (CEEI)',
               'Отдельный от CNA процесс — каждый университет решает сам',
               'Требования: диплом средней школы, подходящий для высшего образования в стране происхождения + certificado de equivalência (1–3 мес. на получение через DGES)',
               'Часто — собственные вступительные экзамены университета / портфолио / собеседование',
@@ -69,7 +69,7 @@ export default {
           { id: 'u1', title: 'Лиссабон', content: [
             { kind: 'checklist', items: [
               'Universidade de Lisboa (ULisboa) — крупнейший, топ-300 QS. Медицина, право, инженерия, искусство',
-              'Universidade Nova de Lisboa — современный, топ-300 QS. Экономика (NovaSBE — один из лучших в Европе), инженерия, здравоохранение',
+              'Universidade Nova de Lisboa — современный, топ-350 QS. Экономика (NovaSBE — один из лучших в Европе), инженерия, здравоохранение',
               'Universidade Católica Portuguesa (UCP) — частный, престижный (католический) — право, менеджмент',
               'Iscte (Instituto Universitário de Lisboa) — социальные науки, бизнес',
               'ISCSP — политология, международные отношения'
@@ -101,7 +101,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Государственные университеты', content: [
             { kind: 'checklist', items: [
-              'ЕС/резиденты, считающиеся national/EU: licenciatura — до ~€697/год максимум (DGES propina cap); магистратура и PhD — отдельные тарифы',
+              'ЕС/резиденты, считающиеся national/EU: licenciatura — до €697/год максимум в 2025/26 (DGES propina cap); с 2026/27 потолок повышен до €710/год; магистратура и PhD — отдельные тарифы',
               'Не-ЕС (CEEI, Estudante Internacional): international propinas устанавливает каждый университет/курс — смотрите edital конкретного курса',
               'Некоторые факультеты медицины / инженерии — в верхней части этого диапазона'
             ]}
@@ -119,10 +119,10 @@ export default {
             { kind: 'checklist', items: [
               '📚 Учебники: 100–300 €/семестр (можно купить б/у в группах Facebook)',
               '🏠 Общежитие (residência universitária): 150–300 €/мес.',
-              '🍽️ Столовая университета: 2,65 €/приём пищи (cantina social)',
+              '🍽️ Столовая университета: ~3 €/приём пищи (refeição social, обновляется 1 октября по формуле от IAS)',
               '🚇 Студенческий проездной: 30 €/мес. (Lisbon/Porto)',
               'Медстраховка (для студентов не-ЕС): ~25 €/мес.',
-              '💳 Карта Acedo (студенческая): скидки на транспорт, еду, билеты'
+              '💳 Cartão Jovem (молодёжная карта, выдаёт IPDJ, для 12–29 лет): скидки на транспорт, еду, билеты'
             ]}
           ]}
         ]}
@@ -186,7 +186,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Licenciatura в гос. вузе (national/EU)', amountEURMax: 697, note: '€/год — DGES propina cap' },
+    { label: 'Licenciatura в гос. вузе (national/EU)', amountEURMax: 697, note: '€/год — DGES propina cap (2025/26); с 2026/27 — €710' },
     { label: 'Licenciatura в гос. вузе (Estudante Internacional / CEEI)', note: 'устанавливает каждый вуз/курс — смотрите edital' },
     { label: 'Licenciatura в частном вузе', amountEURMin: 3500, amountEURMax: 15000, note: '€/год' },
     { label: 'Residência universitária', amountEURMin: 150, amountEURMax: 300, note: '€/мес' },
@@ -201,6 +201,6 @@ export default {
     { title: 'FCT — Fundação para a Ciência e Tecnologia', url: 'https://www.fct.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

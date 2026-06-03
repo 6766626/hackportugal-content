@@ -123,6 +123,6 @@ export default {
     { title: 'ePortugal — feriados nacionais em Portugal', url: 'https://www.gov.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Patriarcado de Lisboa — informações das paróquias e celebrações de Natal', url: 'https://www.patriarcado-lisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

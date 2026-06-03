@@ -101,6 +101,6 @@ export default {
     { title: 'UE — Your Europe — Cuidados de saúde não planeados: estadias temporárias', url: 'https://europa.eu/youreurope/citizens/health/unplanned-healthcare/temporary-stays/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'NHS do Reino Unido — Cuidados de saúde para visitantes da UE no Reino Unido', url: 'https://www.nhs.uk/nhs-services/visiting-or-moving-to-england/visiting-england-from-the-eea/', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

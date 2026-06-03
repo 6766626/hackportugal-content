@@ -40,8 +40,8 @@ export default {
           { id: 's3', title: '3. Carregar digitalizações dos documentos', content: [
             { kind: 'checklist', items: ['Passaporte/documento de identificação civil (páginas com dados pessoais e, se necessário, páginas com visto/carimbo válido)', 'NIF (na prática, normalmente é necessário)', 'Autorização de residência / visto / documento da UE', 'Morada em Portugal; comprovativo de morada pode ser pedido adicionalmente'] }
           ]},
-          { id: 's4', title: '4. Receber o NISS por correio electrónico', content: [
-            { kind: 'timeline', text: '5–30 dias. Normalmente a resposta chega ao email/contacto indicado no pedido. A SSD fica plenamente disponível após a atribuição do NISS e a configuração do acesso.' }
+          { id: 's4', title: '4. Receber o NISS por correio electrónico ou carta', content: [
+            { kind: 'timeline', text: '5–30 dias. Normalmente a resposta chega ao email/contacto indicado no pedido; para cidadãos estrangeiros é frequente ser também enviada uma carta registada a convidar a levantar o NISS numa Loja da Segurança Social. A SSD fica plenamente disponível após a atribuição do NISS e a configuração do acesso.' }
           ]}
         ]}
       ]
@@ -70,6 +70,6 @@ export default {
     { title: 'ePortugal — Obter NISS', url: 'https://www.gov.pt/servicos/obter-numero-de-identificacao-da-seguranca-social-niss', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AIMA — lista de verificação por tipos de autorização de residência', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

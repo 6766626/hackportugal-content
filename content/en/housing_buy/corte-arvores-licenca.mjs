@@ -3,7 +3,7 @@ export default {
   id: 'corte-arvores-licenca',
   categoryId: 'housing_buy',
   title: 'Felling trees on your own plot — what is allowed, and where fines exceed €5,000',
-  tldr: 'Not every tree on your plot can simply be cut down. Sobreiro (cork oak) and azinheira (holm oak) are protected nationally (Decreto-Lei 169/2001) — unlawful felling/uprooting of sobreiro/azinheira is a contraordenação ambiental; fines can reach tens of thousands of euros for individuals and be substantially higher for companies, plus restoration measures. The amount depends on the nature of the offence and fault. (Institute for Nature Conservation and Forests).\n\nOliveira (olive tree) older than 1951 is also protected (DL 120/86).\n\nAny works in REN/RAN areas (national ecological/agricultural reserves) or natural parks require separate authorisations. In urban areas, Câmara Municipal authorisation is almost always required.\n\nApplications for sobreiro/azinheira are made through ICNF/e-Balcão. For oliveira, apply to the competent agricultural services/CCDR. For municipal trees/urban areas, apply to the Câmara Municipal. The Junta de Freguesia can only help with local information, but usually does not issue these authorisations.\n\nThe review period is usually 30–90 days.',
+  tldr: 'Not every tree on your plot can simply be cut down. Sobreiro (cork oak) and azinheira (holm oak) are protected nationally (Decreto-Lei 169/2001) — unlawful felling/uprooting of sobreiro/azinheira is a contraordenação ambiental; fines can reach tens of thousands of euros for individuals and be substantially higher for companies, plus restoration measures. The amount depends on the nature of the offence and fault. (Institute for Nature Conservation and Forests).\n\nOliveira (olive tree) of old age is also protected (DL 120/86).\n\nAny works in REN/RAN areas (national ecological/agricultural reserves) or natural parks require separate authorisations. In urban areas, Câmara Municipal authorisation is almost always required.\n\nApplications for sobreiro/azinheira are made through ICNF/e-Balcão. For oliveira, apply to the competent agricultural services/CCDR. For municipal trees/urban areas, apply to the Câmara Municipal. The Junta de Freguesia can only help with local information, but usually does not issue these authorisations.\n\nThe review period is usually 30–90 days.',
   tags: ['trees', 'felling', 'sobreiro', 'azinheira', 'icnf', 'camara'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Portugal has species protected at national level. Illegal felling of even one tree = serious administrative liability, and in severe cases criminal prosecution too.' },
         { kind: 'checklist', items: [
-          '🛑 SOBREIRO (cork oak, Quercus suber) — ALL trees are protected. Fine of €5,000-€50,000 per tree',
+          '🛑 SOBREIRO (cork oak, Quercus suber) — ALL trees are protected. Fines for illegal felling are heavy, up to tens of thousands of euros for individuals',
           '🛑 AZINHEIRA (holm oak, Quercus rotundifolia/ilex) — ALL trees are protected',
           '🛑 OLIVEIRA (olive tree) older than ~70 years (rule of thumb: trunk diameter > 60 cm) — protected under DL 120/86',
           '🛑 CARVALHO (oak, Quercus robur, faginea) — additionally protected in some natural parks',
@@ -107,8 +107,8 @@ export default {
       title: 'Fines — this is serious',
       content: [
         { kind: 'checklist', items: [
-          'Sobreiro/azinheira without authorisation: a major administrative environmental sanction; for individuals, fines of tens of thousands of euros may be possible, and for companies much higher; restoration/compensation measures may also apply.',
-          'For legal entities, fines may be substantially higher, up to hundreds of thousands or millions of euros in the most serious environmental offences; the specific range depends on the classification of the offence.',
+          'Sobreiro/azinheira without authorisation: a major administrative environmental sanction. For individuals, fines can reach tens of thousands of euros (under DL 169/2001, up to around €150,000 in serious cases); restoration/compensation measures may also apply',
+          'For legal entities, fines may be substantially higher — up to hundreds of thousands of euros in the most serious environmental offences; the specific range depends on the classification of the offence',
           'Old oliveira without authorisation: €1,000-€10,000',
           'In a natural park without authorisation: €5,000-€50,000 + obligation to restore plantings',
           'In REN/RAN without authorisation: €1,500-€50,000',
@@ -161,7 +161,7 @@ export default {
     { label: 'Felling a large tree', amountEURMin: 800, amountEURMax: 2000 },
     { label: 'Felling sobreiro/old oliveira', amountEURMin: 1500, amountEURMax: 5000 },
     { label: 'Compensation: saplings (5+ trees)', amountEURMin: 50, amountEURMax: 500, note: 'Purchase and planting' },
-    { label: 'Fine for sobreiro without authorisation', amountEURMin: 5000, amountEURMax: 50000, note: 'Per tree' }
+    { label: 'Fine for sobreiro/azinheira without authorisation', amountEURMin: 5000, amountEURMax: 150000, note: 'For individuals; may be higher for companies. Depends on the offence' }
   ],
   sources: [
     { title: 'ICNF — Sobreiros and Azinheiras', url: 'https://www.icnf.pt/florestas/gfr/sa', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
@@ -170,6 +170,6 @@ export default {
     { title: 'ICNF e-Balcão — sobreiro felling application', url: 'https://eservicos.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'CCDR — REN authorisations', url: 'https://www.ccdr-lvt.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

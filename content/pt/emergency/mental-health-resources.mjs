@@ -3,7 +3,7 @@ export default {
   id: 'mental-health-resources',
   categoryId: 'emergency_rights',
   title: 'Saúde mental — linhas de apoio e ajuda',
-  tldr: 'Em crise: SNS 24 → opção 4 (apoio psicológico do SNS, 24/7) ou SOS Voz Amiga 213 544 545 (linha de prevenção do suicídio, 16:00-24:00).\n\n⚠️ Os números 808 são tarifados de acordo com o tarifário do assinante (cartões SIM móveis/estrangeiros podem ter custos). Pelo SNS — o médico de família encaminha para psicólogo/psiquiatra (gratuito, lista de espera de 1-3 meses). Psicólogo privado 50-90 €/sessão, psiquiatra 80-150 €. Profissionais de língua inglesa — na CUF, Lusíadas, Luz. Online: BetterHelp, ePsicólogos. Linha Vida 1414 — para dependências, tem horário de funcionamento (NÃO 24/7).',
+  tldr: 'Em crise: SNS 24 → opção 4 (apoio psicológico do SNS, 24/7) ou SOS Voz Amiga 213 544 545 (linha de prevenção do suicídio, 15:30-00:30).\n\n⚠️ Os números 808 são tarifados de acordo com o tarifário do assinante (cartões SIM móveis/estrangeiros podem ter custos). Pelo SNS — o médico de família encaminha para psicólogo/psiquiatra (gratuito, lista de espera de 1-3 meses). Psicólogo privado 50-90 €/sessão, psiquiatra 80-150 €. Profissionais de língua inglesa — na CUF, Lusíadas, Luz. Online: BetterHelp, ePsicólogos. Linha Vida 1414 — para dependências, tem horário de funcionamento (NÃO 24/7).',
   tags: ['psicologia', 'psiquiatra', 'crise', 'saúde mental'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           '☎️ 112 — serviço de emergência, em caso de intenções suicidas / ameaça à vida',
           '☎️ SNS 24: 808 24 24 24 → opção 4 — apoio psicológico do SNS, 24/7. O serviço em si é gratuito, mas o número 808 é tarifado de acordo com o tarifário do assinante (cartões SIM móveis/estrangeiros podem ser cobrados ao minuto)',
-          '☎️ SOS Voz Amiga: 213 544 545 — linha anónima de prevenção do suicídio, 16:00-24:00 todos os dias',
+          '☎️ SOS Voz Amiga: 213 544 545 — linha anónima de prevenção do suicídio, todos os dias 15:30-00:30',
           '☎️ Telefone Amizade: 222 080 707 — linha no Porto, 16:00-23:00',
           '☎️ Linha Vida (ICAD/SICAD): 1414 — para dependências (drogas/álcool). Tem horário de funcionamento — NÃO é 24 horas. Gratuito',
           '☎️ APAV (para vítimas de violência): 116 006 — apoio nacional a vítimas de crime',
@@ -166,6 +166,6 @@ export default {
     { title: 'SOS Voz Amiga', url: 'https://www.sosvozamiga.org/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'APAV — apoio à vítima', url: 'https://apav.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

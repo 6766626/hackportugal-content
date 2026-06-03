@@ -11,7 +11,7 @@ export default {
       id: 'best-default',
       title: 'Базовое правило: онлайн лучше наличного обменника',
       content: [
-        { kind: 'paragraph', text: 'Если вам нужно обменять евро на USD, GBP, CHF, PLN или другую крупную валюту, сначала смотрите Revolut и Wise. Они показывают курс и комиссию до операции, а итог обычно ближе к межбанковому mid-market, чем в португальском банке или туристическом câmbio.' },
+        { kind: 'paragraph', text: 'Если вам нужно обменять евро на USD, GBP, CHF, PLN или другую крупную валюту, сначала смотрите Revolut и Wise. Они показывают курс и комиссию до операции, а итог обычно ближе к межбанковскому mid-market, чем в португальском банке или туристическом câmbio.' },
         { kind: 'checklist', items: [
           'Для поездки из Португалии в США/UK: конвертируйте €→USD/GBP в Revolut или Wise и платите картой.',
           'Для получения зарплаты или перевода из-за рубежа: Wise часто удобен для международных реквизитов и прозрачной комиссии.',
@@ -104,6 +104,6 @@ export default {
     { title: 'Wise: комиссии и курс обмена валют', url: 'https://wise.com/pt/pricing/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal: предупреждения о Dynamic Currency Conversion и платежных услугах', url: 'https://clientebancario.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

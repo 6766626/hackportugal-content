@@ -3,7 +3,7 @@ export default {
   id: 'everyday-apps',
   categoryId: 'digital_gov',
   title: 'Aplicações essenciais para viver em Portugal',
-  tldr: 'Kit básico para expatriados: MB WAY (pagamentos), Autenticação.gov (Chave Móvel Digital), SNS 24 (saúde), Portal AT (impostos), AIMA Renovações (autorização de residência), MobiCascais/Navegante (transportes), CTT (correio), Bolt/Uber (táxi), Glovo/Uber Eats (entrega de comida), Continente/Lidl Plus (supermercados), Via Verde (estradas), Folhetos.pt (descontos). Por lei, desde 2023 muitos serviços públicos exigem Chave Móvel Digital — active-a primeiro.',
+  tldr: 'Kit básico para expatriados: MB WAY (pagamentos), Autenticação.gov (Chave Móvel Digital), SNS 24 (saúde), Portal AT (impostos), AIMA Renovações (autorização de residência), MobiCascais/Navegante (transportes), CTT (correio), Bolt/Uber (táxi), Glovo/Uber Eats (entrega de comida), Continente/Lidl Plus (supermercados), Via Verde (estradas), Folhetos.pt (descontos). Na prática, dificilmente se passa sem a Chave Móvel Digital: é com ela que funciona a maioria dos serviços públicos online — active-a primeiro.',
   tags: ['aplicações', 'serviços digitais', 'digital'],
   estimatedReadMinutes: 5,
   steps: [
@@ -53,13 +53,13 @@ export default {
               'Envio de dinheiro por número de telefone / NIF',
               'Pagamento por código QR em lojas e restaurantes',
               'Levantamento de dinheiro em caixas Multibanco sem cartão',
-              'Limites: 2 500 € por dia, 5 000 € por mês',
-              'Associada a uma conta bancária portuguesa — não funciona com Revolut / Wise / N26'
+              'Os limites dependem do banco (normalmente cerca de 2 500 € por dia) — confirme na sua aplicação',
+              'Associada a uma conta portuguesa: funciona com a Revolut (com IBAN português PT50), mas não com Wise / N26'
             ]}
           ]},
           { id: 'm2', title: 'Revolut / Wise / N26', content: [
             { kind: 'checklist', items: [
-              'Revolut (desde 2024 disponibiliza IBAN português gratuitamente) — conta multimoeda, criptomoeda, acções',
+              'Revolut (desde julho de 2025 disponibiliza IBAN português PT50 gratuitamente) — conta multimoeda, criptomoeda, acções',
               'Wise (IBAN BE) — melhor para transferências multimoeda, mais de 20 moedas',
               'N26 (IBAN DE) — banca mínima, mas boa experiência de utilização',
               'Útil como segunda conta ou conta em moeda estrangeira + dinheiro para viagens'
@@ -78,7 +78,7 @@ export default {
         { kind: 'checklist', items: [
           'Navegante Metropolitano (Lisboa) — passe electrónico, bilhetes QR, horários de autocarros/metro/comboios',
           'MobiCascais (município de Cascais) — bicicletas, autocarros, estacionamento',
-          'Anda (aplicação para tráfego rodoviário em Lisboa)',
+          'Anda (aplicação Andante/TIP para passes de transporte no Porto e em Lisboa)',
           'Bolt — táxi (mais barato do que Uber para viagens curtas)',
           'Uber — tem maior presença nas regiões',
           'FREE NOW — agregador de táxis',
@@ -126,6 +126,6 @@ export default {
     { title: 'Portal das Finanças — aplicação AT', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — portal único de serviços públicos', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

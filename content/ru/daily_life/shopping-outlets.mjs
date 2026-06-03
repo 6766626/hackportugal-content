@@ -21,7 +21,7 @@ export default {
           'Еда: большой фуд-корт — 5-15 €/блюдо',
           'Детям: игровая зона + Kidzânia рядом',
           '🎟️ Карта туриста — +10% дополнительной скидки в большинстве магазинов (покажите паспорт страны вне ЕС + карту посетителя)',
-          'Лучший сезон: после Рождества (26 декабря), в конце июля, в последние дни августа'
+          'Лучший сезон: сразу после Рождества (с 26 декабря), а также в конце июля и в последние дни августа'
         ]}
       ]
     },
@@ -61,7 +61,7 @@ export default {
       title: 'Мелкие аутлет-точки в Лиссабоне',
       content: [
         { kind: 'checklist', items: [
-          'Fashion Clinic Outlet (Av. da Liberdade) — премиум-бренды со скидкой30-60% (Balenciaga, Celine, Prada последних коллекций)',
+          'Fashion Clinic Outlet (Av. da Liberdade) — премиум-бренды со скидкой 30-60% (Balenciaga, Celine, Prada прошлых коллекций)',
           'Amoreiras Shopping — обычный торговый центр (НЕ outlet); отдельные магазины могут проводить promo. Uterqüe как бренд закрыт Inditex в 2022 году — товары интегрированы в Massimo Dutti',
           'Mercado de Levante (Feira da Ladra) — секонд-хенд + винтаж, суббота-воскресенье',
           'Lisboa Outlet Village (LOV) (Campera, 40 km N) — 70 магазинов: Nike, Tous, Springfield, Levi\'s'
@@ -75,7 +75,7 @@ export default {
         { kind: 'checklist', items: [
           '📅 Распродажи после Рождества (26 декабря-2 января) — до 80%',
           '📅 Летняя распродажа (начало июля, финал — конец августа)',
-          '📅 Black Friday (25 ноября) — дополнительная скидка 20-30% во многих аутлетах',
+          '📅 Black Friday (последняя пятница ноября) — дополнительная скидка 20-30% во многих аутлетах',
           '📅 Cyber Monday — акцент на онлайн',
           '🎁 Пасха (апрель) — мини-акция',
           '🧲 Закрытые распродажи — подпишитесь на рассылки аутлетов, за 2 недели до событий присылают ваучеры'
@@ -108,6 +108,6 @@ export default {
     { title: 'Vila do Conde The Style Outlets', url: 'https://viladoconde.thestyleoutlets.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ASAE — права потребителя', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

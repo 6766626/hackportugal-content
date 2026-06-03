@@ -51,7 +51,7 @@ export default {
           'Cinemas may stay open later than the shopping gallery; entry after closing is usually through separate doors or the car park.',
           '24 December and 31 December almost always have reduced hours.',
           'On 25 December, 1 January and sometimes Easter Sunday, some shops are closed or operate special hours.',
-          'On public holidays such as 25 de Abril, 10 de Junho, 15 de Agosto, 5 de Outubro, 1 de Novembro, 1 deembro and 8 de Dezembro, many shopping centres are open, but individual shops may change their hours.',
+          'On public holidays such as 25 de Abril, 10 de Junho, 15 de Agosto, 5 de Outubro, 1 de Novembro, 1 de Dezembro and 8 de Dezembro, many shopping centres are open, but individual shops may change their hours.',
           'Before going to a specific shop check not only the shopping centre website, but also the shop’s own page: a bank, Loja do Cidadão, clinic, operator store or repair point may close earlier.'
         ] },
         { kind: 'warning', text: 'Do not plan a critical purchase for the evening of 24/31 December or for 25 December: even if the building is partly open, the shop you need, the returns till or the service desk may not be working.' }
@@ -105,6 +105,6 @@ export default {
     { title: 'Centro Vasco da Gama — official shopping centre website', url: 'https://www.centrovascodagama.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'MAR Shopping Matosinhos — official shopping centre website', url: 'https://www.marshopping.com/pt/matosinhos', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

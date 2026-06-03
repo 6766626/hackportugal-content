@@ -81,7 +81,7 @@ export default {
             { kind: 'checklist', items: [
               'Assento de Nascimento',
               'Boletim de Saúde Infantil (child health booklet)',
-              'Cartão de Cidadão is issued only if the child is a Portuguese citizen. Children of foreigners born in Portugal acquire citizenship only if the conditions of the Lei da Nacionalidade are met. 2026 nationality law reform: TC ruled 49/XVII unconstitutional, 48/XVII still pending DRE — check the current status',
+              'Cartão de Cidadão is issued only if the child is a Portuguese citizen. Children of foreigners born in Portugal acquire citizenship only if the conditions of the Lei da Nacionalidade are met. The 2026 nationality law reform (promulgated in May 2026) tightened the rules: one parent must now have lived legally in Portugal for at least 5 years (previously 1 year). Check the current status and transitional rules',
               'If the child is not a Portuguese citizen — foreign documents/passport are arranged through the parents\' consulate and, if necessary, the residence process through AIMA',
               'NIF for a foreign child is usually requested separately from the Autoridade Tributária through a representative; for a Portuguese child, the number may be linked to the issue of the Cartão de Cidadão',
               'Número de Utente is often created through the Nascer Utente mechanism, but check it after discharge; if the number has not appeared — request it at the Centro de Saúde/ULS with the assento de nascimento and the parents\' documents'
@@ -163,6 +163,6 @@ export default {
     { title: 'Código do Trabalho (Lei 7/2009, amended by Lei 13/2023)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Registering a birth / Balcão do Nado Vivo', url: 'https://irn.justica.gov.pt/Registos/Registo-Civil/Nascimento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

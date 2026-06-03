@@ -3,7 +3,7 @@ export default {
   id: 'flat-tyre-highway',
   categoryId: 'auto_trips',
   title: 'Flat tyre on the motorway — the correct sequence',
-  tldr: 'On Portuguese motorways it is strictly forbidden to change a wheel on the carriageway. Sequence: hazard lights → move onto the hard shoulder → triangle 30 m → vest → call roadside assistance (707 500 501 Brisa or 707 509 510 IP). For ordinary drivers, assistência em viagem insurance usually covers recovery and transfer.',
+  tldr: 'On Portuguese motorways it is strictly forbidden to change a wheel on the carriageway. Sequence: hazard lights → move onto the hard shoulder → triangle 30 m → vest → call the motorway operator’s roadside assistance or your own insurer. For ordinary drivers, assistência em viagem insurance usually covers recovery and transfer.',
   tags: ['accident', 'wheel', 'tyre', 'motorway', 'assistance'],
   estimatedReadMinutes: 5,
   steps: [
@@ -45,11 +45,10 @@ export default {
           ]},
           { id: 'c2', title: 'B. Motorway concessionaire', content: [
             { kind: 'checklist', items: [
-              'Brisa (A1, A2, A5, A6, A9-A14): 707 500 501',
-              'Ascendi (A4, A7, A24, A25, A41, A42): 707 509 510',
-              'AE do Atlântico (A8, A15): 707 200 002',
-              'Norscut (A24): 800 203 021',
-              'There are always emergency SOS posts every 2 km'
+              'Brisa (A1, A2, A6, A8, A9-A13): 707 500 900 or 210 730 300',
+              'Ascendi (A4, A11, A24, A41, A42): 229 767 767',
+              'The exact operator number is printed on your toll ticket and on roadside signs',
+              'There are always emergency SOS posts every 2 km — they connect you directly to the operator’s control centre'
             ]}
           ]},
           { id: 'c3', title: 'C. GNR — if there are injuries or an accident', content: [
@@ -64,7 +63,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '📄 Tow truck receipt — needed for the insurer',
-          '🏪 Receipt for the new tyre — if the breakdown was caused by a pothole / debris, you can submit a claim to the concessionaire (707 500 501)',
+          '🏪 Receipt for the new tyre — if the breakdown was caused by a pothole or debris on the road, you can submit a claim to the concessionaire',
           '📝 Submit a complaint on the Brisa / Ascendi website with photos of the location + kp',
           '⏰ Claim deadline — 30 days',
           '💶 The concessionaire often reimburses the cost of the tyre if you prove the cause (photo of the pothole, GNR report)'
@@ -92,6 +91,6 @@ export default {
     { title: 'Autoridade Nacional de Segurança Rodoviária (ANSR)', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — tyre safety', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -50,7 +50,7 @@ export default {
             { kind: 'paragraph', text: 'Depois do curso, a escola encaminha-o para a avaliação de acordo com as regras do IMT. Confirme com a escola se a inscrição no exame está incluída no preço e quanto custa uma nova tentativa.' }
           ] },
           { id: 'request-cqm', title: '4. Emitir a CQM ou código 95', content: [
-            { kind: 'paragraph', text: 'Após conclusão com aproveitamento, a qualificação é registada no sistema do IMT. O motorista precisa de um documento/menção que comprove a qualificação profissional: Carta de Qualificação de Motorista (CQM) ou o respectivo código 95, se aplicável à sua situação.' }
+            { kind: 'paragraph', text: 'Após conclusão com aproveitamento, a qualificação é registada no sistema do IMT. Para condutores residentes em Portugal, desde 2021 já não é emitida uma CQM autónoma: a prova é o código 95 averbado na carta de condução. A Carta de Qualificação de Motorista (CQM) mantém-se no quadro da UE e para alguns casos de não residentes.' }
           ] }
         ] },
         { kind: 'warning', text: 'Não comece a trabalhar «enquanto o cartão está em processo» se o empregador não tiver confirmado a legalidade de ir para a estrada. Numa fiscalização, o que conta não é apenas o diploma da escola, mas uma qualificação válida reconhecida pelo IMT.' }
@@ -85,6 +85,6 @@ export default {
     { title: 'Decreto-Lei 126/2009 — qualificação inicial e formação contínua de motoristas', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34508075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IMT: Carta de Qualificação de Motorista / categorias profissionais', url: 'https://www.imt-ip.pt/sites/IMTT/Portugues/Cidadao/Cartas-Conducao/Paginas/CartasConducao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

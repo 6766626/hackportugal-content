@@ -3,7 +3,7 @@ export default {
   id: 'fne-financas-novo-extrato',
   categoryId: 'documents_fiscal',
   title: 'Получение справок Finanças: IRS, IUC, IMI, дивиденды и отсутствие долгов',
-  tldr: 'В Portal das Finanças можно бесплатно или за небольшой сбор получить налоговые справки AT: declaração de não-dívida, certidão de IRS, IUC, IMI, comprovativo de morada fiscal и справки по доходам, включая дивиденды. Путь: Portal das Finanças → Cidadãos → Serviços → Certidões. Большинство PDF выдаются сразу и стоят 0 €, отдельные certidões могут стоить до 10 €.\n\nСрок действия зависит от типа: não-dívida обычно 3 месяца, многие получатели принимают остальные справки не старше 6 месяцев.',
+  tldr: 'В Portal das Finanças можно бесплатно или за небольшой сбор получить налоговые справки AT: declaração de não-dívida, certidão de IRS, IUC, IMI, comprovativo de morada fiscal и справки по доходам, включая дивиденды. Путь: Portal das Finanças → Cidadãos → Serviços → Certidões. Большинство PDF выдаются сразу и стоят 0 €, отдельные certidões могут стоить до 10 €.\n\nСрок действия зависит от типа: с 1 июля 2025 года não-dívida действительна 4 месяца, многие получатели принимают остальные справки не старше 6 месяцев.',
   tags: ['finanças', 'certidões', 'irs', 'imi', 'iuc'],
   estimatedReadMinutes: 5,
   steps: [
@@ -51,7 +51,7 @@ export default {
             title: 'Справка об отсутствии долгов',
             content: [
               { kind: 'paragraph', text: 'Ищите “Situação Tributária Regularizada” или “Certidão de dívida e não dívida”. Выберите emissão, подтвердите запрос и скачайте PDF.' },
-              { kind: 'warning', text: 'Declaração de não-dívida обычно действительна 3 месяца, а не 6. Если банк, AIMA или Câmara просит “certidão recente”, лучше выпускать её заново за 1–7 дней до подачи.' }
+              { kind: 'warning', text: 'С 1 июля 2025 года Declaração de não-dívida действительна 4 месяца (раньше — 3). Если банк, AIMA или Câmara просит “certidão recente”, лучше выпускать её заново за 1–7 дней до подачи.' }
             ]
           },
           {
@@ -97,7 +97,7 @@ export default {
           'Обычная стоимость: 0 € для большинства comprovativos и certidões, скачиваемых онлайн.',
           'Отдельные certidões или заверенные варианты могут стоить до 10 €.',
           'Срок действия не универсален: смотрите campo “validade” в PDF.',
-          'Não-dívida обычно действительна 3 месяца.',
+          'Não-dívida действительна 4 месяца (с 1 июля 2025 года; раньше — 3).',
           'Для IRS, IMI, IUC и morada fiscal многие организации требуют документ не старше 3–6 месяцев, даже если в PDF нет явного срока.',
           'PDF с Portal das Finanças обычно содержит código de validação; получатель может проверить подлинность онлайн.',
           'Если документ нужен на английском, AT обычно не переводит его автоматически: делайте tradução certificada у переводчика, если получатель не принимает PT.',
@@ -120,13 +120,13 @@ export default {
           'IUC висит на проданный автомобиль — проверьте, перерегистрировал ли покупатель veículo в IRN/IMT; налог платит владелец на дату aniversário da matrícula.',
           'Получатель не принимает PDF — отправьте вместе с código de validação или попросите указать точное название требуемой certidão.'
         ] },
-        { kind: 'paragraph', text: 'Если онлайн-раздел не работает, можно открыть pedido e-balcão в Portal das Finanças: опишите документ, налоговый год, NIF и цель. Для срочных случаев помогает запись в Serviço de Finanças, но большинство справок AT ожидает, что вы получите онлайн.' }
+        { kind: 'paragraph', text: 'Если онлайн-раздел не работает, можно открыть pedido e-balcão в Portal das Finanças: опишите документ, налоговый год, NIF и цель. Для срочных случаев помогает запись в Serviço de Finanças, но AT ожидает, что большинство справок вы получите онлайн.' }
       ]
     }
   ],
   costs: [
     { label: 'Comprovativo de morada fiscal', amountEUR: 0, note: 'Обычно скачивается бесплатно в Portal das Finanças.' },
-    { label: 'Declaração de não-dívida / situação tributária regularizada', amountEUR: 0, note: 'Электронная выдача обычно бесплатна; срок действия обычно 3 месяца.' },
+    { label: 'Declaração de não-dívida / situação tributária regularizada', amountEUR: 0, note: 'Электронная выдача обычно бесплатна; срок действия — 4 месяца (с 1 июля 2025 года).' },
     { label: 'IRS comprovativo / liquidação', amountEUR: 0, note: 'Доступно онлайн по поданным декларациям и годам с данными в AT.' },
     { label: 'Отдельные certidões AT', amountEURMin: 0, amountEURMax: 10, note: 'Стоимость зависит от типа справки и способа выдачи; портал покажет сумму до подтверждения.' }
   ],
@@ -135,6 +135,6 @@ export default {
     { title: 'Portal das Finanças — раздел Cidadãos / Serviços / Certidões', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — услуги и контакты Autoridade Tributária e Aduaneira', url: 'https://www.gov.pt/entidades/autoridade-tributaria-e-aduaneira', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

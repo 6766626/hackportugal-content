@@ -15,10 +15,10 @@ export default {
           { id: 'r1', title: 'Гарантия на товары (Lei 84/2021)', content: [
             { kind: 'checklist', items: [
               '✅ Новые товары: 3 года гарантии (раньше было 2 — изменено в 2022)',
-              '✅ Б/у товары: минимум 1 год; продавец и покупатель могут договориться о другом сроке',
-              '✅ Гарантия покрывает ДЕФЕКТЫ соответствия — не износ, не повреждение по вине покупателя',
+              '✅ Б/у товары: тоже 3 года по умолчанию; стороны могут письменно сократить срок, но не менее чем до 18 месяцев',
+              '✅ Гарантия покрывает ДЕФЕКТЫ соответствия — не износ и не повреждение по вине покупателя',
               '🔁 При дефекте продавец обязан предложить: ремонт ИЛИ замену ИЛИ скидку ИЛИ возврат денег',
-              '⏰ В первые 6 месяцев действует презумпция, что дефект был с момента продажи (бремя доказательства на продавце)',
+              '⏰ В первые 2 года действует презумпция, что дефект был с момента продажи (бремя доказательства на продавце)',
               '📋 Храните квитанцию (talão de compra) и упаковку весь срок гарантии'
             ]}
           ]},
@@ -82,7 +82,7 @@ export default {
           { id: 'l4', title: 'Шаг 4 — Суд / Julgados de Paz', content: [
             { kind: 'checklist', items: [
               '⚖️ Julgados de Paz: малые иски до 15 000 € — быстрее обычного суда',
-              '💰 Судебные расходы 70 € (если иск ≤ 5000 €) или 105 € (>5000)',
+              '💰 Единый сбор 70 € (платит проигравшая сторона); при мировом соглашении в медиации — 50 €',
               '⏱️ Решение обычно за 2-6 мес',
               '🎓 Адвокат не обязателен (для исков ≤ 3 740 €)',
               '🏛️ Адреса: julgadosdepaz.mj.pt'
@@ -170,8 +170,7 @@ export default {
   costs: [
     { label: 'Livro de Reclamações', amountEUR: 0, note: 'обязательно бесплатно' },
     { label: 'Подписка DECO Proteste', amountEURMin: 25, amountEURMax: 25, note: '€/мес' },
-    { label: 'Julgados de Paz (≤ 5000 €)', amountEUR: 70 },
-    { label: 'Julgados de Paz (5000-15000 €)', amountEUR: 105 },
+    { label: 'Julgados de Paz — единый сбор', amountEUR: 70, note: '50 € при мировом соглашении' },
     { label: 'Адвокат для серьёзного дела', amountEURMin: 200, amountEURMax: 1500, note: '€ единоразово' }
   ],
   sources: [
@@ -181,6 +180,6 @@ export default {
     { title: 'DL 24/2014 — Contratos à distância', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Centro Europeu do Consumidor (ECC-Net Portugal)', url: 'https://cec.consumidor.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

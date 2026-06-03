@@ -16,7 +16,7 @@ export default {
           '🗣️ Pronúncia: PT-PT — vogais mais “fechadas”, sílabas que se engolem (“Lis-bo-a” → “Lʒbwa”). BR-PT — mais claro, mais aberto',
           '📝 Gramática: há pequenas diferenças (tu/você, construção com gerúndio, estar/ficar)',
           '📚 Vocabulário: autocarro = autocarro (PT) / ônibus (BR); comboio = comboio (PT) / trem (BR); você/vocês = você (BR frequentemente) / vocês (PT formalmente)',
-          '🎬 Filmes: os filmes brasileiros são sempre apresentados com legendas em PT — notícias portuguesas em BR sem tradução não passam',
+          '🎬 Cinema e TV: o conteúdo brasileiro em Portugal passa muitas vezes com legendas em PT — as duas variantes são consideradas suficientemente diferentes',
           '🎯 Conclusão: aprenda PT-PT se vier para Portugal. O BR é compreendido — mas para cidadania, no nível A2, é preciso PT-PT. Conteúdo BR (Duolingo, a maioria do YouTube) — serve para exposição de fundo, para exames — não'
         ]}
       ]
@@ -133,7 +133,7 @@ export default {
     { label: 'Escola privada (curso de 1 mês)', amountEURMin: 150, amountEURMax: 600 },
     { label: 'Online com professor (hora)', amountEURMin: 15, amountEURMax: 60 },
     { label: 'Assinatura Practice Portuguese', amountEUR: 12, note: '€/mês' },
-    { label: 'Exame CIPLE A2', amountEUR: 85 }
+    { label: 'Exame CIPLE A2', amountEUR: 95 }
   ],
   sources: [
     { title: 'Centros Qualifica — pesquisa por morada', url: 'https://www.qualifica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
@@ -141,6 +141,6 @@ export default {
     { title: 'Instituto Camões — certificação', url: 'https://www.instituto-camoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CAPLE — exames CIPLE', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

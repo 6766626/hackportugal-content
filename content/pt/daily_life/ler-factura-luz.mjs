@@ -134,6 +134,6 @@ export default {
     { title: 'E-REDES: comunicação de leituras do contador', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSExplica: aplicação do IVA na fatura de eletricidade (200/300 kWh, Lei n.º 38/2024)', url: 'https://www.erse.pt/media/tcsfm4n2/ersexplica_iva-fatura_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

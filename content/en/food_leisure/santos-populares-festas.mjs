@@ -116,6 +116,6 @@ export default {
     { title: 'Visit Porto — São João do Porto', url: 'https://www.visitporto.travel', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Évora — municipal information and holidays', url: 'https://www.cm-evora.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

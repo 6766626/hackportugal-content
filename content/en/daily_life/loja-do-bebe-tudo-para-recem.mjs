@@ -57,7 +57,7 @@ export default {
           'Second-hand cot or pushchair on OLX/Vinted: often 40–60% of the new price.',
           'Delivery of large furniture within Portugal: usually €5–40, depending on the shop and region.'
         ] },
-        { kind: 'warning', text: 'Do not cut corners on safety: buy a second-hand car seat only if you know its history for certain, there has been no accident, it has the instructions, all straps and ECE R129/i-Size marking or permitted R44/04 marking. If in doubt, buy new.' }
+        { kind: 'warning', text: 'Do not cut corners on safety. Since 1 September 2024, new car seats sold in the EU must meet the ECE R129/i-Size standard; the older R44/04 is no longer sold in shops, although a seat you already own may still be used for now. Buy a second-hand car seat only if you know its history for certain, there has been no accident, and it has the instructions and all straps; R129/i-Size marking is preferable. If in doubt, buy new.' }
       ]
     },
     {
@@ -108,6 +108,6 @@ export default {
     { title: 'Vinted Portugal — buying and selling children’s clothing and items', url: 'https://www.vinted.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ANSR — rules for transporting children by car in Portugal', url: 'https://www.ansr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

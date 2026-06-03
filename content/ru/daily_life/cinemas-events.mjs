@@ -3,7 +3,7 @@ export default {
   id: 'cinemas-events',
   categoryId: 'daily_life',
   title: 'Кино, концерты, мероприятия — где покупать билеты и какие скидки',
-  tldr: 'Кинотеатры: 6-10 € стандарт; у многих сетей бывают weekday/Tuesday promos, но условия проверяйте на сайте конкретного кинотеатра — скидки не всегда действуют на IMAX/3D/премьеры. Концерты и спектакли: Ticketline, Blueticket, BOL — главные агрегаторы. Театр в Лиссабоне 15-40 €, концерт 20-80 €, футбол Benfica / Sporting / Porto 15-60 €. Студенческие, Cartão Jovem и senior discounts встречаются часто, но зависят от организатора и требуют документ.',
+  tldr: 'Кинотеатры: 6-10 € стандарт; у многих сетей бывают скидки по вторникам или будням, но условия проверяйте на сайте конкретного кинотеатра — скидки не всегда действуют на IMAX/3D/премьеры. Концерты и спектакли: Ticketline, Blueticket, BOL — главные агрегаторы. Театр в Лиссабоне 15-40 €, концерт 20-80 €, футбол Benfica / Sporting / Porto 15-60 €. Скидки студентам, по Cartão Jovem и пенсионерам встречаются часто, но зависят от организатора и требуют документ.',
   tags: ['кино', 'концерты', 'мероприятия', 'билеты'],
   estimatedReadMinutes: 5,
   steps: [
@@ -23,7 +23,7 @@ export default {
           ]},
           { id: 'c2', title: 'Скидки', content: [
             { kind: 'checklist', items: [
-              '⭐ Вторник/weekday deals — часто билеты около 5-7 €, но условия и исключения зависят от сети и сеанса (могут не действовать на IMAX/3D/премьеры)',
+              '⭐ Скидки по вторникам или будням — часто билеты около 5-7 €, но условия и исключения зависят от сети и сеанса (могут не действовать на IMAX/3D/премьеры)',
               '🎓 Студенты (с Cartão Jovem или студенческим билетом): 4.50-5.50 € в будни',
               '👵 65+ пенсионеры: 4.50-5.50 €',
               '🎬 Cartão NOS обычно даёт промо типа 2 билета по цене 1 для клиентов NOS; подписки и условия меняются — проверяйте NOS Cinemas. UCI имеет UCI Unlimited (проверяйте актуальную цену)',
@@ -63,7 +63,7 @@ export default {
               'MEO Arena (бывш. Altice Arena, Lisboa, Parque das Nações) — главная концертная площадка, Coldplay, Taylor Swift, фестивали',
               'Coliseu dos Recreios (Lisboa) — исторический зал, 4000 мест',
               'Super Bock Arena (Porto) — 8000 мест',
-              'Teatro Nacional D. Maria II (Lisboa) — классический театр. Внимание: основное здание на Rossio закрыто на реконструкцию, спектакли проходят в рамках programação em trânsito на других площадках — проверяйте конкретный адрес в билете',
+              'Teatro Nacional D. Maria II (Lisboa) — классический театр. Внимание: основное здание на Rossio долго было закрыто на реконструкцию; официальное открытие запланировано на сентябрь 2026 (летом 2026 — программа Prólogo на Rossio). До открытия часть спектаклей идёт на других площадках — проверяйте конкретный адрес в билете',
               'Teatro Nacional de São Carlos (Lisboa) — опера',
               'Casa da Música (Porto) — концерты от классики до джаза'
             ]}
@@ -102,7 +102,7 @@ export default {
               'Падел — индивидуальные занятия (см. отдельный гайд gyms-fitness)',
               'MMA / бокс — редко, 30-100 €',
               'Автоспорт — автодром Estoril, MotoGP Portimão',
-              'Теннис — Oeiras Open / ATP Challenger events (бывший Millennium Estoril Open ATP 250 выпал из календаря после 2024); статус и даты меняются — проверяйте ATP calendar и Federação Portuguesa de Ténis'
+              'Теннис — Millennium Estoril Open вернулся в тур: в 2025 проходил как ATP Challenger 175, а с 2026 снова имеет статус ATP 250 (в 2026 — в июле, на грунте в Кашкайше); статус и даты меняются — проверяйте ATP calendar и Federação Portuguesa de Ténis'
             ]}
           ]}
         ]}
@@ -113,15 +113,14 @@ export default {
       title: '🎉 Крупные фестивали',
       content: [
         { kind: 'checklist', items: [
-          'NOS Alive (Algés/Lisboa, июль) — рок / инди, обычно 3 дня; day ticket/pass prices меняются ежегодно, проверяйте официальный сайт',
+          'NOS Alive (Algés/Lisboa, июль) — рок / инди, обычно 3 дня; цены на дневной билет и абонемент меняются ежегодно, проверяйте официальный сайт',
           'Rock in Rio Lisboa (июнь, раз в 2 года) — поп / рок, 100+ € день',
           'Primavera Sound Porto (июнь) — инди, 150+ €',
           'MEO Sudoeste (Zambujeira, август) — электронная музыка, 130-180 €',
           'EDP Cool Jazz (Cascais, июль) — джаз, 40-100 € вечер',
           'Festas de São João do Porto (23-24 июня) — традиционная культура, бесплатные городские мероприятия',
           'Festas de Lisboa / Lisboa na Rua (июнь) — городские бесплатные программы EGEAC, см. agenda',
-          'Festa de Santo António (Lisbon, 12-13 июня) — большой городской фестиваль, бесплатно',
-          'São João do Porto (23-24 июня) — фестиваль Porto'
+          'Festa de Santo António (Lisbon, 12-13 июня) — большой городской фестиваль, бесплатно'
         ]}
       ]
     },
@@ -130,11 +129,11 @@ export default {
       title: '🆓 Бесплатные события под открытым небом и городские мероприятия',
       content: [
         { kind: 'checklist', items: [
-          'Cinema ao Ar Livre летом — бывают бесплатные муниципальные open-air screenings и платные коммерческие проекты; проверяйте Lisboa na Rua/EGEAC, Agenda Cultural de Lisboa, Porto municipal agenda и конкретный организатор',
-          'Концерты на площадях: летом часто проходят бесплатные концерты в рамках municipal programmes (Festas de Lisboa/Lisboa na Rua), но расписание меняется ежегодно',
+          'Cinema ao Ar Livre летом — бывают бесплатные муниципальные показы под открытым небом и платные коммерческие проекты; проверяйте Lisboa na Rua/EGEAC, Agenda Cultural de Lisboa, муниципальную афишу Порту и конкретного организатора',
+          'Концерты на площадях: летом часто проходят бесплатные концерты в рамках муниципальных программ (Festas de Lisboa/Lisboa na Rua), но расписание меняется ежегодно',
           'Noite Branca — особенно известна в Braga; в других городах похожие ночные культурные программы бывают нерегулярно, проверяйте agenda municipal',
-          'Festival Elétrico — paid electronic music festival в районе Porto; цены и локация меняются, проверяйте официальный сайт',
-          'Community events — ищите на Meetup, Eventbrite и в local cultural agendas',
+          'Festival Elétrico — платный фестиваль электронной музыки в районе Порту; цены и локация меняются, проверяйте официальный сайт',
+          'События сообществ — ищите на Meetup, Eventbrite и в местных культурных афишах',
           'Viva Brasil (Lisboa, июль) — бразильский фестиваль, бесплатно',
           'Книжные ярмарки: Feira do Livro de Lisboa (май-июнь в Parque Eduardo VII), Porto (сентябрь) — бесплатный вход'
         ]}
@@ -153,7 +152,7 @@ export default {
           '@timeoutportugal Instagram',
           'Ticketline app — еженедельная подборка',
           'Bandas Portuguesas (Spotify / Apple Music playlists) — местная музыка',
-          'Для free events часто нужна предварительная inscrição/reservation или levantamento de bilhete; места ограничены'
+          'Для бесплатных событий часто нужна предварительная запись (inscrição/reserva) или levantamento de bilhete; места ограничены'
         ]}
       ]
     }
@@ -172,6 +171,6 @@ export default {
     { title: 'Agenda Cultural de Lisboa', url: 'https://www.agendalx.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Porto — Eventos', url: 'https://www.visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

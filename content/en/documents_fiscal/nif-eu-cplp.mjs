@@ -33,7 +33,7 @@ export default {
       title: 'CPLP citizens — important',
       audience: { citizenships: ['cplp'] },
       content: [
-        { kind: 'paragraph', text: 'If you are in Portugal under the CPLP Mobility Agreement, you can get a NIF immediately after entry. For Brazilians, this is especially convenient, as no visa is required for up to 90 days and it is possible to apply for a residence permit from inside the country.' },
+        { kind: 'paragraph', text: 'The NIF itself does not depend on your immigration status: you can obtain it at Finanças immediately after entry. For Brazilians, entry is simpler, as no visa is required for short stays of up to 90 days. Note, however, that after Lei 61/2025 you can no longer apply for a CPLP residence permit from inside the country after a visa-free entry — you need a residence visa obtained at the consulate before entry.' },
         { kind: 'warning', text: 'Lei 61/2025 (entered into force on 23/10/2025) tightened entry rules for CPLP citizens, except Brazil: a CPLP visa from the consulate is now required before entry. The exception is only Brazilians (90-day visa-free entry).\n\nCheck the current requirements at vistos.mne.gov.pt.' }
       ]
     }
@@ -53,6 +53,6 @@ export default {
     { title: 'Lei n.º 61/2025 — CPLP changes (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Vistos MNE — CPLP', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

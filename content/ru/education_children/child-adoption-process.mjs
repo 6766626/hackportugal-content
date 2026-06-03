@@ -19,7 +19,7 @@ export default {
           'На дату передачи ребёнка кандидату обычно не должно быть больше 60 лет.',
           'Разница в возрасте между кандидатом и ребёнком обычно не должна превышать 50 лет; возможны исключения, если это отвечает интересам ребёнка.',
           'Нужны физическое и психическое здоровье, жилищные условия, доход, отсутствие судимостей и способность обеспечить ребёнку стабильную среду.',
-          'Иностранцу не нужна португальская гражданство, но нужно обычное проживание в Португалии и документы, подтверждающие легальный статус и семейное положение.',
+          'Иностранцу не нужно португальское гражданство, но нужно обычное проживание в Португалии и документы, подтверждающие легальный статус и семейное положение.',
           'Если вы живёте не в Португалии, применяется международная процедура через центральный орган страны обычного проживания, а не обычная candidatura в Centro Distrital.'
         ] },
         { kind: 'warning', text: 'Усыновление — не способ “получить ребёнка быстрее”. Система исходит из интересов конкретного ребёнка, а не из очереди взрослых. Чем уже ваши критерии по возрасту, здоровью и истории ребёнка, тем дольше ожидание.' }
@@ -31,7 +31,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'stage-1-info', title: '1. Информация и первичная консультация', content: [
-            { kind: 'paragraph', text: 'Начните с страницы Segurança Social “Como adotar” или сервиса gov.pt “Adotar uma criança”. Там указано, куда обращаться по месту жительства: Centro Distrital do Instituto da Segurança Social или, в зоне Лиссабона, Santa Casa da Misericórdia de Lisboa.' }
+            { kind: 'paragraph', text: 'Начните со страницы Segurança Social “Como adotar” или сервиса gov.pt “Adotar uma criança”. Там указано, куда обращаться по месту жительства: Centro Distrital do Instituto da Segurança Social или, в зоне Лиссабона, Santa Casa da Misericórdia de Lisboa.' }
           ] },
           { id: 'stage-2-candidatura', title: '2. Подача candidatura', content: [
             { kind: 'paragraph', text: 'Кандидатура подаётся в орган adoção по месту жительства. Обычно назначают встречу и выдают формы. Для пары заявление подписывают оба кандидата.' },
@@ -134,6 +134,6 @@ export default {
     { title: 'Regime Jurídico do Processo de Adoção — Lei 143/2015', url: 'https://diariodarepublica.pt/dr/detalhe/lei/143-2015-70215246', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código Civil português: adoção, art. 1973.º e seguintes', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

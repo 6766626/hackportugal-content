@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           'Microchip ISO 11784/11785 (norma internacional)',
           'Vacinação contra a raiva pelo menos 21 dias antes da entrada (após a primeira vacinação)',
-          'Título de anticorpos contra a raiva (para países com alto risco de raiva — análise ao sangue, validade de 30 dias, espera de 3 meses após o teste)',
+          'Título de anticorpos contra a raiva (para países com alto risco de raiva — colheita de sangue pelo menos 30 dias após a vacinação, seguida de uma espera de 3 meses até à entrada)',
           'Idade do animal — mínimo 15 semanas (vacina + 21 dias)',
           'Documentos: Pet Passport (para UE/EEE) ou Animal Health Certificate (AHC) — para países fora da UE'
         ]},
@@ -91,6 +91,6 @@ export default {
     { title: 'Comissão Europeia — Viajar com animais de companhia', url: 'https://food.ec.europa.eu/animals/movement-pets_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'SIAC — Sistema de Informação de Animais de Companhia', url: 'https://siac.vet/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

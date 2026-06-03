@@ -67,7 +67,7 @@ export default {
       title: 'Practical details for expats',
       content: [
         { kind: 'paragraph', text: 'The programme is useful even for those who have only just moved: it is linked to Portuguese housing and the electricity CPE, not to length of residence. But without CMD/CC, NIF and a clear status at the address, applying is difficult.' },
-        { kind: 'checklist', items: ['If you only have a passport and NIF, but no CMD, first set up access to government services', 'If you rent your home, agree this with the senhorio in writing: an e-mail is sufficiently better than a verbal agreement', 'If you use bottled gas, photograph the connection and the appliance itself before replacement', 'If you have mains gas, do not close the contrato de gás before consulting an instalador', 'If the building has weak electrical wiring, budget for a separate line/circuit breaker — this may not be included in the voucher', 'Check the application status in the Área Reservada; e-mails from Fundo Ambiental may go to spam', 'Since 24/03/2026 the 2nd phase is closed to new applications pending PRR renegotiation; watch fundoambiental.pt for any reopening or a new phase'] }
+        { kind: 'checklist', items: ['If you only have a passport and NIF, but no CMD, first set up access to government services', 'If you rent your home, agree the replacement with the senhorio in writing: even an e-mail is more reliable than a verbal agreement', 'If you use bottled gas, photograph the connection and the appliance itself before replacement', 'If you have mains gas, do not close the contrato de gás before consulting an instalador', 'If the building has weak electrical wiring, budget for a separate line/circuit breaker — this may not be included in the voucher', 'Check the application status in the Área Reservada; e-mails from Fundo Ambiental may go to spam', 'Since 24/03/2026 the 2nd phase is closed to new applications pending PRR renegotiation; watch fundoambiental.pt for any reopening or a new phase'] }
       ]
     }
   ],
@@ -81,6 +81,6 @@ export default {
     { title: 'Fundo Ambiental — 2025 Avisos, Bairros + Sustentáveis and E-LAR', url: 'https://www.fundoambiental.pt/apoios-prr/c13-eficiencia-energetica-em-edificios/11c13-i012025-programa-e-lar-2-fase.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/servicos/ativar-a-chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

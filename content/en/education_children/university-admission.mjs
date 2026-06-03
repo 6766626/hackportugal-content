@@ -5,7 +5,7 @@ export default {
   title: 'Admission to a Portuguese university — for foreigners',
   tldr: 'For admission to a Portuguese university (undergraduate, licenciatura): via DGES / Concurso Nacional de Acesso ao Ensino Superior (CNAES regulates access rules) — for Portuguese/EU school leavers; or via Concurso Especial para Estudantes Internacionais (CEEI) under DL 36/2014 — for candidates with Estudante Internacional status (usually non-EU, NOT PT residents for > 2 years by 1 January of the admission year, not EU family members and not people with estatuto de igualdade).\n\nYou need: equivalência/reconhecimento of your school certificate (through a state school/agrupamento under DGE rules), Portuguese B1-B2 (CAPLE: DEPLE=B1, DIPLE=B2) or IELTS 6.0+ for English-taught programmes, a motivation letter.\n\nCost: up to ~€697/year for PT/EU students in a public licenciatura; for CEEI international propinas are set separately by each university (usually higher).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
-  tags: ['university', 'admission', 'diploma', 'recognition', 'dges', 'cnes'],
+  tags: ['university', 'admission', 'diploma', 'recognition', 'dges', 'cnaes'],
   estimatedReadMinutes: 9,
   steps: [
     {
@@ -120,7 +120,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Cost', content: [
             { kind: 'checklist', items: [
-              '🟢 PT/EU in a public licenciatura: up to around €697/year maximum (DGES propina cap for national/EU students in covered public licenciatura/mestrado integrado)',
+              '🟢 PT/EU in a public licenciatura: up to €697/year maximum in 2025/2026 (DGES propina cap for national/EU students in covered public licenciatura/mestrado integrado); from 2026/2027 the cap rises to €710',
               '🟡 Foreigners (CEEI): international propinas are set by each university — usually higher; see the edital for the specific course',
               '🔴 Private universities: €5,000-15,000/year',
               '💵 Housing: room ~€350-650+ in Lisbon/Porto (private market), less in residences and smaller towns; a studio in Lisbon is often €750-1,100+',
@@ -178,7 +178,7 @@ export default {
     { label: 'PT/EU public licenciatura — propina (DGES maximum)', amountEURMax: 697, note: '€/year for national/EU students' },
     { label: 'Foreigner (CEEI) — propina', note: 'set by each university/course — see the edital' },
     { label: 'Private university', amountEURMin: 5000, amountEURMax: 15000, note: '€/year' },
-    { label: 'D4 visa (consular fee)', amountEUR: 90 },
+    { label: 'D4 visa (consular fee)', amountEUR: 110 },
     { label: 'AIMA residence permit/card after arrival', note: 'check the actual fee table in force from 01.03.2026' },
     { label: 'Student life in Lisbon', amountEURMin: 700, amountEURMax: 1300, note: '€/month (room + food + transport + books)' }
   ],
@@ -190,6 +190,6 @@ export default {
     { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'CAPLE — Portuguese as a foreign language', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

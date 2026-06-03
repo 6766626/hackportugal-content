@@ -3,7 +3,7 @@ export default {
   id: 'rastreio-cancro-mama-colo',
   categoryId: 'healthcare',
   title: 'Rastreios oncológicos SNS: rastreio do cancro da mama, do colo do útero e do intestino',
-  tldr: 'No SNS existem rastreios de base populacional gratuitos: cancro da mama — mulheres dos 45 aos 74 anos, com intervalo de mamografia que varia com a idade (45–49 de 2 em 2 a 3 em 3 anos, 50–69 de 2 em 2 anos, 70–74 de 3 em 3 anos); cancro do colo do útero — dos 25 aos 69 anos, de acordo com o programa da sua ULS/antiga ARS; cancro colorretal — homens e mulheres dos 50 aos 74 anos, teste de sangue oculto nas fezes com colonoscopia posterior em caso de resultado positivo. São necessários número de utente, morada atual e telefone no SNS. Se perdeu a convocatória, contacte o seu Centro de Saúde/USF ou o SNS 24: normalmente a marcação é reposta.',
+  tldr: 'No SNS existem rastreios de base populacional gratuitos: cancro da mama — mulheres dos 45 aos 74 anos, com mamografia de 2 em 2 anos; cancro do colo do útero — dos 25 aos 69 anos, de acordo com o programa da sua ULS/antiga ARS; cancro colorretal — homens e mulheres dos 50 aos 74 anos, teste de sangue oculto nas fezes com colonoscopia posterior em caso de resultado positivo. São necessários número de utente, morada atual e telefone no SNS. Se perdeu a convocatória, contacte o seu Centro de Saúde/USF ou o SNS 24: normalmente a marcação é reposta.',
   tags: ['sns', 'rastreio', 'oncologia', 'utente'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,14 +13,14 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O rastreio de base populacional não é uma “verificação a pedido”, mas sim um programa organizado do SNS: o sistema convoca automaticamente as pessoas da idade adequada por carta, SMS ou telefone. O objetivo é detetar cancro ou alterações pré-cancerosas antes de existirem sintomas.' },
         { kind: 'checklist', items: [
-          'Cancro da mama: mulheres dos 50 aos 69 anos; por norma, mamografia de 2 em 2 anos.',
+          'Cancro da mama: mulheres dos 45 aos 74 anos; mamografia de 2 em 2 anos.',
           'Cancro do colo do útero: mulheres dos 25 aos 69 anos; é utilizada citologia e/ou teste HPV segundo as regras da sua ULS/programa regional.',
           'Cancro colorretal: homens e mulheres dos 50 aos 74 anos; normalmente teste de sangue oculto nas fezes, seguido de colonoscopia se o teste for positivo.',
           'A participação é gratuita para utentes do SNS com número de utente.',
           'O convite pode chegar pela ULS, Centro de Saúde/USF, Unidade de Saúde Pública ou com a antiga identificação regional ARS/ACES.',
           'Se já tem sintomas — sangue, nódulo, dor, perda de peso inexplicada, hemorragias — não espere pelo rastreio: marque consulta com o médico de família ou recorra ao Atendimento Complementar/urgência.'
         ] },
-        { kind: 'warning', text: 'O rastreio não substitui o diagnóstico. Os programas destinam-se a pessoas sem sintomas. Em caso de sintomas, as janelas etárias 50–69 / 25–69 / 50–74 não são uma limitação para procurar um médico.' }
+        { kind: 'warning', text: 'O rastreio não substitui o diagnóstico. Os programas destinam-se a pessoas sem sintomas. Em caso de sintomas, as janelas etárias 45–74 / 25–69 / 50–74 não são uma limitação para procurar um médico.' }
       ]
     },
     {
@@ -42,9 +42,9 @@ export default {
     },
     {
       id: 'breast-screening',
-      title: 'Cancro da mama: mammografia 50–69',
+      title: 'Cancro da mama: mammografia 45–74',
       content: [
-        { kind: 'paragraph', text: 'As mulheres dos 50 aos 69 anos são convidadas para uma mamografia na área de residência. Em algumas zonas, o exame é feito em unidades móveis; noutras, num hospital ou centro de diagnóstico convencionado com o SNS.' },
+        { kind: 'paragraph', text: 'As mulheres dos 45 aos 74 anos são convidadas para uma mamografia na área de residência. Em algumas zonas, o exame é feito em unidades móveis; noutras, num hospital ou centro de diagnóstico convencionado com o SNS.' },
         { kind: 'checklist', items: [
           'Intervalo habitual: 2 anos, se o resultado anterior foi normal.',
           'Para o exame, leve documento de identificação e número de utente.',
@@ -52,7 +52,7 @@ export default {
           'Se tem implantes, cirurgia mamária anterior, gravidez ou está a amamentar — informe antes da imagem.',
           'O resultado costuma chegar por carta/SMS ou ser enviado para o Centro de Saúde; os prazos dependem da ULS.',
           'Em caso de resultado suspeito, será encaminhada para mammografia adicional, ecografia, consulta de senologia ou biópsia.',
-          'Se tem 40–49 ou 70+ anos, o rastreio populacional gratuito pode não a convocar automaticamente, mas o médico do SNS pode prescrever exames por indicação clínica.'
+          'Se tem menos de 45 ou 75+ anos, o rastreio populacional gratuito pode não a convocar automaticamente, mas o médico do SNS pode prescrever exames por indicação clínica.'
         ] }
       ]
     },
@@ -118,6 +118,6 @@ export default {
     { title: 'Direção-Geral da Saúde — rastreios oncológicos e normas da DGS', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — contactos e navegação no SNS', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

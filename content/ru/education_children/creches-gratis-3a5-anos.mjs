@@ -3,7 +3,7 @@ export default {
   id: 'creches-gratis-3a5-anos',
   categoryId: 'education_children',
   title: 'Бесплатные creches для детей 0–3 лет: Programa Creche Feliz',
-  tldr: 'Creche Feliz — программа бесплатных яслей для детей до 3 лет в Portugal. В 2026 она покрывает mensalidade, inscrição, alimentação и базовый уход в creches aderentes, если ребёнок входит в охваченный возрастной контингент и есть место. Нужны NIF ребёнка/родителей, NISS ребёнка и подтверждение адреса. Заявка фактически идёт через поиск места на Carta Social и контакт с creche. Главный риск — не право, а нехватка vagas, особенно Lisboa, Porto, Cascais, Oeiras.',
+  tldr: 'Creche Feliz — программа бесплатных яслей для детей до 3 лет в Portugal. В 2026 она покрывает mensalidade, inscrição, alimentação и базовый уход в creches aderentes, если ребёнок входит в охваченный возрастной контингент и есть место. Нужны NIF ребёнка/родителей, NISS ребёнка и подтверждение адреса. С 9 апреля 2026 заявка на место подаётся онлайн через Segurança Social Direta (отдельное приложение Creche Feliz закрыто); Carta Social остаётся удобной для предварительного поиска creche. Главный риск — не право, а нехватка vagas, особенно Lisboa, Porto, Cascais, Oeiras.',
   tags: ['creche', 'дети', 'crechefeliz', 'segurançasocial'],
   estimatedReadMinutes: 5,
   steps: [
@@ -28,7 +28,7 @@ export default {
       id: 'eligibility',
       title: 'Кто имеет право в 2026',
       content: [
-        { kind: 'paragraph', text: 'Ключевой критерий — ребёнок должен быть принят в creche aderente и относиться к возрасту, охваченному программой. В 2026 программа уже применяется как массовая схема для детей до 3 лет, включая детей, родившихся после 1 сентября 2021 года, и последующие контингенты.' },
+        { kind: 'paragraph', text: 'Ключевой критерий — ребёнок должен быть принят в creche aderente и относиться к возрасту, охваченному программой. Дети, родившиеся 1 сентября 2021 года и позже, получают бесплатную creche автоматически, без проверки доходов. Дети, родившиеся раньше, попадают под программу только если семья относится к 1-му или 2-му escalão (доходной группе) comparticipação familiar.' },
         { kind: 'checklist', items: [
           'Ребёнок проживает в Portugal и имеет NIF.',
           'У ребёнка есть NISS или он оформляется через Segurança Social; многие creches попросят NISS до финальной регистрации.',
@@ -43,12 +43,12 @@ export default {
     },
     {
       id: 'how-to-find-place',
-      title: 'Как искать место через Carta Social',
+      title: 'Как искать место и подавать заявку',
       content: [
-        { kind: 'paragraph', text: 'Carta Social — основной публичный каталог социальных учреждений. Через него удобно проверять creches, участвующие в Creche Feliz, и наличие заявленных vagas. Но финальное решение всё равно принимает конкретная creche после контакта с семьёй.' },
+        { kind: 'paragraph', text: 'С 9 апреля 2026 формальная заявка на бесплатное место подаётся онлайн через Segurança Social Direta: раздел «Família» → «Desenvolvimento de crianças e jovens» → «Creche Feliz — Rede de creches gratuitas». Там же можно искать creches с vagas, выбрать до 3 учреждений сразу и получить автоматическую приоритизацию. Carta Social остаётся удобной для предварительного просмотра учреждений и контактов, но сам запрос gratuitidade теперь идёт через Segurança Social.' },
         { kind: 'substeps', items: [
-          { id: 'open-carta-social', title: '1. Откройте Carta Social', content: [
-            { kind: 'paragraph', text: 'Зайдите на cartasocial.pt и ищите resposta social «Creche» по concelho, freguesia или почтовому индексу.' }
+          { id: 'open-carta-social', title: '1. Найдите creches', content: [
+            { kind: 'paragraph', text: 'В Segurança Social Direta или на cartasocial.pt ищите resposta social «Creche» по concelho, freguesia или почтовому индексу.' }
           ] },
           { id: 'filter-creche-feliz', title: '2. Проверяйте участие в Creche Feliz', content: [
             { kind: 'paragraph', text: 'Выбирайте учреждения, где указано участие в Programa Creche Feliz или наличие vagas gratuitas. Не все частные creches участвуют в программе.' }
@@ -63,8 +63,8 @@ export default {
               'Спросите, есть ли waiting list и как часто она обновляется.'
             ] }
           ] },
-          { id: 'confirm-registration', title: '4. Подтвердите matrícula', content: [
-            { kind: 'paragraph', text: 'После согласия creche подаёте документы, подписываете regulamento interno и matrícula. Только после этого место считается реальным.' }
+          { id: 'confirm-registration', title: '4. Подайте запрос gratuitidade и подтвердите matrícula', content: [
+            { kind: 'paragraph', text: 'После согласия creche подаёте запрос на gratuitidade через Segurança Social Direta (учреждение может выдать код для привязки), затем подписываете regulamento interno и matrícula. Только после этого место считается реальным.' }
           ] }
         ] }
       ]
@@ -134,10 +134,10 @@ export default {
   ],
   sources: [
     { title: 'Gov.pt: aderir ao Programa Creche Feliz', url: 'https://www.gov.pt/servicos/aderir-ao-programa-creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social: Creche Feliz', url: 'https://www.seg-social.pt/creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Segurança Social: Creche Feliz — Rede de creches gratuitas', url: 'https://www.seg-social.pt/ptss/pssd/menu/momento-filhos/momento-durante-crescimento/creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Carta Social: pesquisa de creches e respostas sociais', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE: Lei 41/2023', url: 'https://diariodarepublica.pt/dr/detalhe/lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

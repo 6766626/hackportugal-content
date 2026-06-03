@@ -128,6 +128,6 @@ export default {
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica: fiscalização económica e reclamações', url: 'https://www.asae.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Eletrónico — portal oficial de reclamações dos consumidores', url: 'https://www.livroreclamacoes.pt/Inicio/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

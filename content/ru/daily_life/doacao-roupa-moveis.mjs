@@ -33,7 +33,7 @@ export default {
         { kind: 'checklist', items: [
           'Для Re-Food: найдите ближайший núcleo на re-food.org и напишите им до передачи еды.',
           'Не приносите в Re-Food домашнюю кастрюлю супа без согласования: требования к безопасности еды строгие.',
-          'Если у вас кафе, ресторан, bakery или catering — Re-Food может быть хорошим каналом регулярной передачи излишков.',
+          'Если у вас кафе, ресторан, пекарня или catering — Re-Food может быть хорошим каналом регулярной передачи излишков.',
           'Для Banco Alimentar: сдавайте закрытые продукты с нормальным сроком годности.',
           'Проверяйте акции Banco Alimentar в супермаркетах: волонтёры обычно стоят у входа и выдают пакеты для покупки продуктов.',
           'Онлайн-пожертвования и «vale» в супермаркетах часто удобнее, чем везти продукты самостоятельно.',
@@ -137,6 +137,6 @@ export default {
     { title: 'Banco Alimentar Contra a Fome — продовольственные банки и кампании', url: 'https://www.bancoalimentar.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Cáritas Portuguesa — сеть социальной помощи и Cáritas Diocesana', url: 'https://www.caritas.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

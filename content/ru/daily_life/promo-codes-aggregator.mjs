@@ -3,7 +3,7 @@ export default {
   id: 'promo-codes-aggregator',
   categoryId: 'daily_life',
   title: 'Скидочные карты, промокоды и кэшбэк в Португалии — где экономить',
-  tldr: 'Главные программы лояльности: Cartão Continente (Continente — самый сильный, скидки + накопление на топливо Galp), Pingo Doce Poupa Mais (с BP), Cartão Jovem Europeu (для 12-29 лет, скидки в 60+ магазинах и музеях), Decathlon Card (10% возврат на бренды Decathlon), KIWOKO Card (зоомагазины, бесплатно с регистрации), Oceanário/Zoo de Lisboa (годовой абонемент окупается за 2 визита)\.\n\nКэшбэк-сайты: Letyshops PT, eBuyClub PT. Промо-агрегаторы: radarcupao.pt, ocacapromocoes.pt, Cuponation.pt. На фестивалях, концертах, культурных событиях — Cartão Jovem даёт до 50% скидку (огромная экономия для студентов)\.\n\nТакже: программы со скидкой Cartão dos Bombeiros, Cartão de Família Numerosa, IRS-возмещение через e-fatura.',
+  tldr: 'Главные программы лояльности: Cartão Continente (Continente — самый сильный, скидки + накопление на топливо Galp), Pingo Doce Poupa Mais (с BP), Cartão Jovem Europeu (для 12-29 лет, скидки в 60+ магазинах и музеях), Decathlon Card (10% возврат на бренды Decathlon), KIWOKO Card (зоомагазины, бесплатно с регистрации), Oceanário/Zoo de Lisboa (годовой абонемент окупается за 2 визита)\.\n\nКэшбэк-сайты: Letyshops PT, eBuyClub PT. Промо-агрегаторы: radarcupao.pt, ocacapromocoes.pt, Cuponation.pt. На фестивалях, концертах, культурных событиях — Cartão Jovem даёт до 50% скидки (огромная экономия для студентов)\.\n\nТакже: программы со скидкой Cartão dos Bombeiros, Cartão de Família Numerosa, IRS-возмещение через e-fatura.',
   tags: ['скидки', 'промокоды', 'cartão continente', 'кэшбэк', 'экономия'],
   estimatedReadMinutes: 6,
   steps: [
@@ -19,7 +19,7 @@ export default {
             content: [
               { kind: 'checklist', items: [
                 '🛒 Бесплатно: получите в любом Continente за 1 минуту (паспорт + email)',
-                '⛽ Накопление: 10 центов за литр топлива на Galp идёт на ваш Continente-баланс (Galp Frota)',
+                '⛽ Накопление: 10 центов за литр топлива на Galp идут на ваш баланс Continente (Galp Frota)',
                 '💸 Минимум 2% накопленных скидок на сумму годовых покупок',
                 '🎟️ Эксклюзивные купоны: персональные «cupões» приходят в app + SMS, иногда 30-50% off на категории',
                 '🆕 Continente Carrega: подписка на «5%/10% off» в Continente магазинах (платная, окупается если тратите >150 €/мес)',
@@ -162,10 +162,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Каждый раз, давая ваш NIF на кассе, вы добавляете чек в e-Fatura.gov.pt. В конце года можно вернуть часть IVA (НДС) как вычет из IRS. Это не «скидка», но реальные деньги обратно.' },
         { kind: 'checklist', items: [
-          '🍽️ Рестораны: 15% от IVA (макс 250 € в год)',
-          '🚗 Ремонты авто и мотоциклов: 15% от IVA (макс 250 €)',
-          '💇 Парикмахерские/салоны красоты: 15% от IVA (макс 250 €)',
-          '🐾 Ветеринария: 15% (макс 250 €)',
+          '🍽️ Рестораны и общепит: 15% от IVA',
+          '🚗 Ремонты авто и мотоциклов: 15% от IVA',
+          '💇 Парикмахерские/салоны красоты: 15% от IVA',
+          '🐾 Ветеринария: 15% от IVA (лекарства для животных — 35%)',
+          '💪 Спортзалы, проезд, газеты и журналы: 15% от IVA',
+          '⚠️ Общий лимит на все эти категории — 250 € в год вместе (а не на каждую отдельно)',
           '🏠 Газ, электричество, вода: 15% от IVA',
           '🎓 Образование (включая курсы, репетиторов): 30% (макс 800 €)',
           '🏥 Здоровье (включая аптеки): 15% (макс 1000 €)',
@@ -182,7 +184,7 @@ export default {
     { title: 'ACSS — Conselho Nacional Famílias Numerosas', url: 'https://famnumerosas.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal das Finanças — e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: скидочные карты и промо в Португалии. Cartão Continente (главный), Pingo Doce Poupa Mais, Cartão Jovem Europeu (12-29 лет, ~60 категорий скидок), Cartão Família Numerosa (для 3+ детей), магазинные программы (KIWOKO, Decathlon, FNAC), кэшбэк-сайты (Letyshops, eBuyClub), купонные агрегаторы (Radarcupao, Ocacapromocoes), e-Fatura возврат IVA через IRS.'

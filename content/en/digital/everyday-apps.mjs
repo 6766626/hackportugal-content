@@ -3,7 +3,7 @@ export default {
   id: 'everyday-apps',
   categoryId: 'digital_gov',
   title: 'Essential apps for life in Portugal',
-  tldr: 'A basic set for an expat: MB WAY (payments), Autenticação.gov (Chave Móvel Digital), SNS 24 (healthcare), Portal AT (taxes), AIMA Renovações (residence permit), MobiCascais/Navegante (transport), CTT (post), Bolt/Uber (taxis), Glovo/Uber Eats (food delivery), Continente/Lidl Plus (supermarkets), Via Verde (roads), Folhetos.pt (discounts). By law, since 2023 many public services require Chave Móvel Digital — set it up first.',
+  tldr: 'A basic set for an expat: MB WAY (payments), Autenticação.gov (Chave Móvel Digital), SNS 24 (healthcare), Portal AT (taxes), AIMA Renovações (residence permit), MobiCascais/Navegante (transport), CTT (post), Bolt/Uber (taxis), Glovo/Uber Eats (food delivery), Continente/Lidl Plus (supermarkets), Via Verde (roads), Folhetos.pt (discounts). In practice you can hardly manage without Chave Móvel Digital: it powers most online public services — set it up first.',
   tags: ['apps', 'digital services', 'digital'],
   estimatedReadMinutes: 5,
   steps: [
@@ -53,13 +53,13 @@ export default {
               'Send money by phone number / NIF',
               'Pay by QR code in shops and restaurants',
               'Withdraw cash from an ATM without a card',
-              'Limits: €2,500 per day, €5,000 per month',
-              'Linked to a Portuguese bank account — does not work with Revolut / Wise / N26'
+              'Limits depend on your bank (typically around €2,500 per day) — check in your app',
+              'Linked to a Portuguese account: works with Revolut (with a Portuguese PT50 IBAN), but not with Wise / N26'
             ]}
           ]},
           { id: 'm2', title: 'Revolut / Wise / N26', content: [
             { kind: 'checklist', items: [
-              'Revolut (since 2024 provides a Portuguese IBAN for free) — multi-currency account, cryptocurrency, shares',
+              'Revolut (since July 2025 provides a Portuguese PT50 IBAN for free) — multi-currency account, cryptocurrency, shares',
               'Wise (BE IBAN) — best for multi-currency transfers, 20+ currencies',
               'N26 (DE IBAN) — minimal banking, but good user experience',
               'Useful as a second or currency account + money for travel'
@@ -78,7 +78,7 @@ export default {
         { kind: 'checklist', items: [
           'Navegante Metropolitano (Lisbon) — electronic travel pass, QR tickets, bus/metro/train timetables',
           'MobiCascais (Cascais municipality) — bicycles, buses, parking',
-          'Anda (app for road traffic in Lisbon)',
+          'Anda (Andante/TIP app for transport passes in Porto and Lisbon)',
           'Bolt — taxis (cheaper than Uber for short trips)',
           'Uber — wider coverage in the regions',
           'FREE NOW — taxi aggregator',
@@ -126,6 +126,6 @@ export default {
     { title: 'Portal das Finanças — AT app', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — single government services portal', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

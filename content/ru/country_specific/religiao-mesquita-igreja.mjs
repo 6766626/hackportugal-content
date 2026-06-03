@@ -29,7 +29,7 @@ export default {
       id: 'lisbon-communities',
       title: 'Куда идти в Лиссабоне и рядом',
       content: [
-        { kind: 'paragraph', text: 'В крупных городах общины обычно отвечают через сайт, Facebook/Instagram, WhatsApp или email. Перед первым визитом проверьте расписание: службы могут меняться на Ramadan, Pessach, Пасху, Рождество, Diwali и летний период.' },
+        { kind: 'paragraph', text: 'В крупных городах общины обычно отвечают через сайт, Facebook/Instagram, WhatsApp или email. Перед первым визитом проверьте расписание: службы могут меняться в период Ramadan, Pessach, Пасхи, Рождества, Diwali и летом.' },
         { kind: 'checklist', items: [
           'Mesquita Central de Lisboa — главная мечеть Лиссабона, район Praça de Espanha / Av. José Malhoa. В Mouraria есть мусульманские молитвенные пространства и магазины, но “центральная” мечеть находится не в Mouraria.',
           'Comunidade Islâmica de Lisboa — полезна для расписания молитв, Ramadan, halal-контактов и образовательных мероприятий.',
@@ -62,7 +62,7 @@ export default {
       id: 'hospitals-chaplaincy',
       title: '🏥 Духовная помощь в больницах SNS',
       content: [
-        { kind: 'paragraph', text: 'В больницах Португалии действует assistência espiritual e religiosa. Это не только католический священник: пациент может попросить духовную поддержку своей религии или конфессии, насколько это возможно организационно.' },
+        { kind: 'paragraph', text: 'В больницах Португалии действует assistência espiritual e religiosa. Это не только католический священник: пациент может попросить духовную поддержку в рамках своей религии или конфессии, насколько это возможно организационно.' },
         { kind: 'checklist', items: [
           'При поступлении скажите на стойке, медсестре или врачу: “Preciso de assistência espiritual/religiosa”.',
           'Укажите религию/конфессию и язык: например, “muçulmano, russo/inglês”, “judeu”, “ortodoxo”, “anglicano”, “hindu”.',
@@ -94,7 +94,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Посещение обычной службы', amountEUR: 0, note: 'Как правило бесплатно; пожертвования добровольные.' },
+    { label: 'Посещение обычной службы', amountEUR: 0, note: 'Как правило, бесплатно; пожертвования добровольные.' },
     { label: 'Добровольное пожертвование', amountEURMin: 5, amountEURMax: 50, note: 'Типичный бытовой диапазон; крупные взносы, членство и мероприятия зависят от общины.' },
     { label: 'Такси/TVDE по Лиссабону до религиозного центра', amountEURMin: 6, amountEURMax: 20, note: 'Ориентир для поездки внутри города; дешевле на Metro/Carris с Navegante.' }
   ],
@@ -104,6 +104,6 @@ export default {
     { title: 'Decreto-Lei 253/2009 — assistência espiritual e religiosa em hospitais', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/253-2009-489830', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — liberdade religiosa em Portugal', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

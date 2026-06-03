@@ -66,7 +66,7 @@ export default {
   ],
   costs: [
     { label: 'Taxa ADENE para habitação T0/T1', amountEUR: 28, note: 'Taxa de registo fixa; normalmente acresce IVA a 23% e honorário do perito.' },
-    { label: 'Taxa ADENE para habitação T2/T3', amountEUR: .5, note: 'Taxa de registo fixa; normalmente acresce IVA a 23% e honorário do perito.' },
+    { label: 'Taxa ADENE para habitação T2/T3', amountEUR: 40.5, note: 'Taxa de registo fixa; normalmente acresce IVA a 23% e honorário do perito.' },
     { label: 'Taxa ADENE para habitação T4/T5', amountEUR: 55, note: 'Taxa de registo fixa; normalmente acresce IVA a 23% e honorário do perito.' },
     { label: 'Taxa ADENE para habitação T6+', amountEUR: 65, note: 'Taxa de registo fixa; normalmente acresce IVA a 23% e honorário do perito.' },
     { label: 'Preço de mercado do CE para apartamento', amountEURMin: 90, amountEURMax: 230, note: 'Valor indicativo de mercado; depende da cidade, tipologia, urgência e documentos.' },
@@ -78,6 +78,6 @@ export default {
     { title: 'Decreto-Lei 101-D/2020: Sistema de Certificação Energética dos Edifícios', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/101-d-2020-150570704', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal: Certificado energético de edifícios', url: 'https://www.gov.pt/servicos/pedir-o-certificado-energetico-de-edificios', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

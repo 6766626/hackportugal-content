@@ -3,7 +3,7 @@ export default {
   id: 'promo-codes-verified',
   categoryId: 'daily_life',
   premium: true,
- title: 'Promo codes and referral links — verified on 18/05/2026',
+  title: 'Promo codes and referral links — verified on 18/05/2026',
   tldr: '🔥 Hot offers until 02/06/2026: Vivid Money gives you €20 for each invited friend (up to €100 for 5 friends), the friend gets 3% annual interest for 60 days. Revolut gives €40 per friend (up to 10 rewards per period), but the friend must complete 4 actions (registration + top-up + 3 purchases of €5+ + ordering a physical card).\n\nThe selection is updated monthly. Each code has a last-checked date. Referral codes (Vivid, Revolut, N26, Wise, Glovo) do not "expire" in the usual sense — they give a bonus both to you and to the inviter. Promo codes (AutoDoc, iHerb, Glovo public) do expire; below are only those where the source has been verified.\n\nIf you are already a customer of these services, use the HackPortugal AutoDoc code and cashback plug-ins (Honey, Letyshops). If a code did not work — write via Settings → Feedback, and we will update it within 48 hours.',
   tags: ['promo codes', 'coupons', 'referral', 'cashback', 'savings', 'premium'],
   estimatedReadMinutes: 8,
@@ -130,7 +130,7 @@ export default {
           '💳 Honey (from PayPal) — browser plug-in, automatically tests all known promo codes in the basket. Free, nothing to configure',
           '🇪🇺 Carlo (EU cashback) — growing service, lower fees than Letyshops, but fewer brands'
         ]},
-        { kind: 'paragraph', text: 'Strategy: install Honey +etyshops AT THE SAME TIME — Honey will find a promo code, Letyshops will add cashback on top. These are completely independent mechanisms.' }
+        { kind: 'paragraph', text: 'Strategy: install Honey + Letyshops AT THE SAME TIME — Honey will find a promo code, Letyshops will add cashback on top. These are completely independent mechanisms.' }
       ]
     },
     {
@@ -155,7 +155,7 @@ export default {
     { title: '🎁 Vivid Money — HackPortugal referral link (€20 per friend, until 02/06/2026)', url: 'https://vivid.money/r/aKKQ/3', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' },
     { title: '🎁 Revolut — HackPortugal referral link (€40 per friend, until 02/06/2026)', url: 'https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90,
   recentlyChangedAt: '2026-05-18',
   changeSummary: '🔥 Added 2 personal HackPortugal referral links to fintech services with active bonuses until 02/06/2026: Vivid Money (€20 per friend × 5 = €100, friend gets 3% annual interest for 60 days) and Revolut (€40 per friend, up to 10 rewards; friend must register + KYC + top up + 3 purchases of €5+ + order physical card). Savings strategy recalculated with the new subscription price €17.99/year: 5 Vivid friends + 1 Revolut friend = €140 pays back the subscription for 7+ years. Fintech section rewritten: for N26/Wise/Bunq we now state honestly that HackPortugal has no personal code, with bonuses and conditions described as general options.'

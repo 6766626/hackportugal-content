@@ -58,7 +58,7 @@ export default {
       title: 'Compra, instalação e encerramento do gás',
       content: [
         { kind: 'paragraph', text: 'Depois de emitido o vale, escolha um fornecedor da lista do Fundo Ambiental. Confirme não só o preço do equipamento, mas também se estão incluídos entrega, desmontagem do equipamento antigo, instalação, trabalhos eléctricos e reciclagem.' },
-        { kind: 'checklist', items: ['Peça um orçamento antes de confirmar a encomenda', 'Verifique que o modelo cumpre os requisitos do E-LAR e de eficiência energética', 'Para uma placa de indução, verifique a potência do quadro elétrico e do disjuntor — apartamentos antigos exigem muitas vezes reforço da linha', 'Para um termoacumulador, verifique a capacidade, o local de instalação e a carga na rede eléctrica', 'Guarde a fatura, o auto de instalação e os documentos do fornecedor', 'Se for desligado um equipamento a gás, peça a devida selagem da ligação de gás', 'Para a selagem pode haver um apoio separado até 50 €', 'Não desmonte o tubo de gás por conta própria — é uma questão de segurança e de seguro da habitação'] },
+        { kind: 'checklist', items: ['Peça um orçamento antes de confirmar a encomenda', 'Verifique que o modelo cumpre os requisitos do E-LAR e de eficiência energética', 'Para uma placa de indução, verifique a potência do quadro elétrico e do disjuntor — apartamentos antigos exigem muitas vezes reforço da linha', 'Para um termoacumulador, verifique a capacidade, o local de instalação e a carga na rede eléctrica', 'Guarde a fatura, o auto de instalação e os documentos do fornecedor', 'Se for desligado um equipamento a gás, peça a devida selagem da ligação de gás', 'A desmontagem do antigo equipamento a gás com selagem dá direito a até 50 €, e o transporte e a instalação só são pagos para a Tarifa Social (Grupo II); para o Grupo III estes serviços são «Não elegível»', 'Não desmonte o tubo de gás por conta própria — é uma questão de segurança e de seguro da habitação'] },
         { kind: 'warning', text: 'O E-LAR cobre o limite do programa, mas não garante que todo o trabalho seja gratuito. Se o equipamento escolhido, a instalação eléctrica ou a instalação forem mais caros do que o limite, a diferença é paga pelo candidato.' }
       ]
     },
@@ -67,20 +67,20 @@ export default {
       title: 'Aspectos práticos para expats',
       content: [
         { kind: 'paragraph', text: 'O programa é útil mesmo para quem acabou de se mudar: está associado à habitação portuguesa e ao CPE eléctrico, não ao tempo de residência. Mas sem CMD/CC, NIF e um estatuto claro na morada, é difícil candidatar-se.' },
-        { kind: 'checklist', items: ['Se tem apenas passaporte e NIF, mas não tem CMD, configure primeiro o acesso aos serviços públicos', 'Se arrenda a habitação, combine por escrito com o senhorio: um e-mail já é melhor do que um acordo verbal', 'Se o gás for de botija, fotografe a ligação e o próprio equipamento antes da substituição', 'Se o gás for da rede, não encerre o contrato de gás antes de consultar o instalador', 'Se a instalação eléctrica da casa for fraca, preveja orçamento para uma linha/disjuntor separado — isto pode não estar incluído no vale', 'Verifique o estado da candidatura na Área Reservada; as mensagens do Fundo Ambiental podem ir para spam', 'Como o orçamento da 2.ª fase é de cerca de 60,8 milhões de €, a candidatura funciona na prática por limite de verba: não adie se os documentos estiverem prontos'] }
+        { kind: 'checklist', items: ['Se tem apenas passaporte e NIF, mas não tem CMD, configure primeiro o acesso aos serviços públicos', 'Se arrenda a habitação, combine a substituição por escrito com o senhorio: até um e-mail é mais fiável do que um acordo verbal', 'Se o gás for de botija, fotografe a ligação e o próprio equipamento antes da substituição', 'Se o gás for da rede, não encerre o contrato de gás antes de consultar o instalador', 'Se a instalação eléctrica da casa for fraca, preveja orçamento para uma linha/disjuntor separado — isto pode não estar incluído no vale', 'Verifique o estado da candidatura na Área Reservada; as mensagens do Fundo Ambiental podem ir para spam', 'Desde 24.03.2026 a 2.ª fase está encerrada a novas candidaturas, a aguardar renegociação do PRR; acompanhe fundoambiental.pt sobre uma eventual reabertura ou nova fase'] }
       ]
     }
   ],
   costs: [
-    { label: 'Vale E-LAR para os grupos I/II', amountEURMax: 1683, note: 'Para Tarifa Social de Energia Elétrica ou Bairros + Sustentáveis; o limite inclui equipamentos elegíveis e instalação de acordo com as condições do aviso.' },
-    { label: 'Vale E-LAR para o grupo III', amountEURMax: 1100, note: 'Para os restantes clientes de electricidade, se forem cumpridas as condições do programa.' },
-    { label: 'Apoio adicional para encerramento do tubo de gás', amountEURMax: 50, note: 'Apoio adicional para selagem/encerramento da ligação de gás, quando aplicável.' }
+    { label: 'Tarifa Social (Grupo II): termoacumulador', amountEURMax: 615, note: 'Limite por equipamento (quadro 9.1, tipo TSEE). Placa de indução — até 369 €, placa convencional — até 179,6 €, conjunto placa+forno — até 738 €, forno — até 369 €.' },
+    { label: 'Tarifa Social (Grupo II): transporte e instalação', amountEURMax: 180, note: 'Transporte até 50 €, instalação de placas/fornos até 100 €, instalação de termoacumulador até 180 €, desmontagem do antigo equipamento a gás com selagem até 50 € — apenas para TSEE.' },
+    { label: 'Restantes (Grupo III): termoacumulador', amountEURMax: 500, note: 'Limite por equipamento (quadro 9.1, tipo Outras Pessoas Singulares). Placa de indução — até 300 €, placa convencional — até 146 €, conjunto placa+forno — até 600 €, forno — até 300 €. Transporte e instalação — «Não elegível».' }
   ],
   sources: [
     { title: 'Fundo Ambiental — portal oficial dos programas e Área Reservada', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fundo Ambiental — Avisos 2025, Bairros + Sustentáveis e E-LAR', url: 'https://www.fundoambiental.pt/apoios-prr/c13-eficiencia-energetica-em-edificios/11c13-i012025-programa-e-lar-2-fase.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/servicos/ativar-a-chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

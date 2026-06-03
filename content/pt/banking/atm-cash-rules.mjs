@@ -3,7 +3,7 @@ export default {
   id: 'atm-cash-rules',
   categoryId: 'banking',
   title: 'ATM, dinheiro em numerário e limites em Portugal',
-  tldr: 'A principal rede de ATM é o Multibanco (MB), com cerca de 12 000 equipamentos. Aceitam a maioria dos cartões internacionais, mas a decisão de aceitar um cartão específico depende do banco emissor. O Multibanco normalmente não cobra comissão adicional, mas o banco emissor estrangeiro pode cobrar a sua própria comissão.\n\nO limite de levantamento é de 200–400 €/dia. O pagamento em numerário entre pessoas singulares é proibido para montantes ≥ 3 000 € (art. 63-E LGT); para IRC/IRS com contabilidade organizada — ≥ 1 000 € em faturas. O depósito de numerário acima de 10 000 € exige justificação da origem dos fundos segundo as regras AML — os bancos podem pedir documentos também para montantes inferiores, em função da análise de risco.',
+  tldr: 'A principal rede de ATM é o Multibanco (MB), com cerca de 13 000 equipamentos. Aceitam a maioria dos cartões internacionais, mas a decisão de aceitar um cartão específico depende do banco emissor. O Multibanco normalmente não cobra comissão adicional, mas o banco emissor estrangeiro pode cobrar a sua própria comissão.\n\nO limite de levantamento é de 200–400 €/dia. O pagamento em numerário entre pessoas singulares é proibido para montantes ≥ 3 000 € (art. 63-E LGT); para IRC/IRS com contabilidade organizada — ≥ 1 000 € em faturas. O depósito de numerário acima de 10 000 € exige justificação da origem dos fundos segundo as regras AML — os bancos podem pedir documentos também para montantes inferiores, em função da análise de risco.',
   tags: ['atm', 'multibanco', 'numerário', 'limites', 'nota'],
   estimatedReadMinutes: 5,
   steps: [
@@ -96,6 +96,6 @@ export default {
     { title: 'Banco de Portugal — troca de notas e moedas danificadas', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SIBS — Multibanco', url: 'https://www.sibs.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

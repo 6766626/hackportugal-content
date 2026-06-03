@@ -11,7 +11,7 @@ export default {
       id: 'where-to-book',
       title: 'Onde marcar',
       content: [
-        { kind: 'paragraph', text: 'Em Portugal há 4 canais principais para marcar num salão de beleza. Todos os salões legais (estabelecimento de estética) devem ter licença da ASAE — verifique à entrada (moldura com alvará).' },
+        { kind: 'paragraph', text: 'Em Portugal há 4 canais principais para marcar num salão de beleza. Desde 2015 (regime RJACSR) já não é necessária uma licença específica para abrir um salão; a ASAE faz a fiscalização dos estabelecimentos. O sinal de um estabelecimento legal é ter o "Livro de Reclamações" à vista.' },
         { kind: 'checklist', items: [
           '📱 Treatwell (treatwell.pt) — a plataforma mais popular, 5000+ salões, avaliações, por vezes códigos promocionais de -15% para novos clientes',
           '📱 Fresha (fresha.com/pt) — concorrente da Treatwell, calendário potente, especialmente popular em Lisboa e no Porto',
@@ -89,7 +89,7 @@ export default {
           '✅ O espaço está limpo, há lavatório, luvas',
           '✅ A profissional tem licença (certificado de qualificação na área de estética)',
           '❌ Se vir limas/instrumentos reutilizáveis sem esterilização — é melhor ir embora. O risco de VIH/hepatite é real',
-          '⚠️ Microblading e extensão de pestanas — exigem certificação adicional (CICDR / sanitárias). Confirme antes de marcar',
+          '⚠️ Microblading (maquilhagem permanente) — equipara-se a tatuagem: exige autorização sanitária das autoridades de saúde locais e cumprimento das normas da DGS/ASAE. Confirme antes de marcar',
           '⚠️ Alergias: para extensão / coloração, exija sempre um teste de alergia 24 horas antes',
           '🏥 Reclamação: ASAE (https://www.asae.gov.pt/) — se houver violações de higiene; Livro de Reclamações em qualquer salão (obrigatório por lei)'
         ]},
@@ -114,11 +114,11 @@ export default {
   ],
   sources: [
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica (fiscalização de salões de beleza)', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'CICDR — Comissão para a Igualdade e Contra a Discriminação Racial', url: 'https://www.cicdr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'DGS — Direção-Geral da Saúde (normas sanitárias para tatuagem / maquilhagem permanente)', url: 'https://www.dgs.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Treatwell Portugal — pesquisa de salões e preços', url: 'https://www.treatwell.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Fresha — pesquisa de salões de manicure em Lisboa', url: 'https://www.fresha.com/lp/en/bt/nail-salons/in/pt-lisbon', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: salões de beleza em Portugal — manicure/pedicure/sobrancelhas. Plataformas de marcação (Treatwell, Fresha, Mygon), preços 2026 (desde 5 € sobrancelhas até 450 € microblading), etiqueta e gorjetas (opcional, 1-2 €), como encontrar profissionais que falam russo (diáspora em Cascais/Estoril/Algarve), segurança e normas ASAE, dicas úteis para descontos.'

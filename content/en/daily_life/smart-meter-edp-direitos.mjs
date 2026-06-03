@@ -128,6 +128,6 @@ export default {
     { title: 'ERSE: electricity consumer rights and commercial relations', url: 'https://www.erse.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE: Livro de Reclamações and dispute resolution in the energy sector', url: 'https://www.erse.pt/consumidores-de-energia/pedidos-de-informacao-reclamacoes/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

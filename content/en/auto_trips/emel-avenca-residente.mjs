@@ -3,7 +3,7 @@ export default {
   id: "emel-avenca-residente",
   categoryId: "auto_trips",
   title: "EMEL Avença Residente: resident parking in Lisbon",
-  tldr: "EMEL Avença Residente is an annual permit for Lisbon residents to park in their EMEL zone, rather than paying the hourly tariff. For 2026, the guideline from the official EMEL page is: €40 / year for zona verde, €60 / year for zona amarela, €100 / year for zona vermelha. The main condition is that the morada fiscal for your NIF must be in the relevant zone, and the car must be registered to you or legally made available to you. You can apply online or at a Loja EMEL, but for expats it is often safer to go to the counter with a full document pack.",
+  tldr: "EMEL Avença Residente (Dístico de Residente) is an annual permit for Lisbon residents to park in their EMEL zone, rather than paying the hourly tariff. The price does not depend on the zone colour but on the number of cars in the household: on the official EMEL page the first permit is free, the second is €54 / year and the third is €132 / year (up to three per address, up to five where several families share it). The main condition is that the morada fiscal for your NIF must be in the relevant zone, and the car must be registered to you or legally made available to you. You can apply online or at a Loja EMEL, but for expats it is often safer to go to the counter with a full document pack.",
   tags: ["emel", "parking", "lisbon", "car"],
   estimatedReadMinutes: 5,
   steps: [
@@ -101,7 +101,7 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "On the EMEL website, find your residential street and see which zone it belongs to: verde, amarela or vermelha. The price depends on the zone, and the permit is valid only within that area."
+                  text: "On the EMEL website, find your residential street and see which zone it belongs to: verde, amarela or vermelha. The zone colour sets the hourly tariff; for the resident permit it only defines where the permit is valid, while the price is based on the number of cars in the household."
                 }
               ]
             },
@@ -145,7 +145,7 @@ export default {
       content: [
         {
           kind: "paragraph",
-          text: "According to the official EMEL page for residentes, in 2026 the annual price guide is: zona verde — €40, zona amarela — €60, zona vermelha — €100. This is the price for the right to park as a resident in your zone, not the cost of a reserved space."
+          text: "According to the official EMEL page for residentes, the price depends not on the zone colour but on the number of cars in the household: the first permit is free, the second is €54 / year and the third is €132 / year. A single address gets up to three permits (up to five where several families live at the address). This is the price for the right to park as a resident in your zone, not the cost of a reserved space."
         },
         {
           kind: "checklist",
@@ -168,19 +168,19 @@ export default {
   ],
   costs: [
     {
-      label: "Avença Residente — zona verde",
-      amountEUR: 40,
-      note: "Annual EMEL tariff for a resident; valid only in the assigned zone."
+      label: "Avença Residente — first car",
+      amountEUR: 0,
+      note: "The first resident permit per address is issued free of charge."
     },
     {
-      label: "Avença Residente — zona amarela",
-      amountEUR: 60,
-      note: "Annual EMEL tariff for a resident; not a guarantee of a space."
+      label: "Avença Residente — second car",
+      amountEUR: 54,
+      note: "Annual EMEL tariff for a second resident permit at the same address."
     },
     {
-      label: "Avença Residente — zona vermelha",
-      amountEUR: 100,
-      note: "Annual EMEL tariff for a more expensive parking zone."
+      label: "Avença Residente — third car",
+      amountEUR: 132,
+      note: "Annual EMEL tariff for a third permit; up to three are issued per address (up to five for several families)."
     }
   ],
   sources: [
@@ -206,6 +206,6 @@ export default {
       lastRetrieved: "2026-04-28"
     }
   ],
-  lastVerified: "2026-05-17",
+  lastVerified: "2026-05-31",
   verifyIntervalDays: 180
 }

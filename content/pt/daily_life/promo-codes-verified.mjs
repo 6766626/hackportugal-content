@@ -159,7 +159,7 @@ export default {
     { title: '🎁 Vivid Money — link de recomendação HackPortugal (20 € por amigo, até 02/06/2026)', url: 'https://vivid.money/r/aKKQ/3', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' },
     { title: '🎁 Revolut — link de recomendação HackPortugal (40 € por amigo, até 02/06/2026)', url: 'https://revolut.com/referral/?referral-code=aleksa0ygf!MAY2-26-AR-L1&geo-redirect', kind: 'company', language: 'en', lastRetrieved: '2026-05-18' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90,
   recentlyChangedAt: '2026-05-18',
   changeSummary: '🔥 Adicionados 2 links de recomendação pessoais HackPortugal a serviços fintech com bónus ativos até 02/06/2026: Vivid Money (20 € por amigo × 5 = 100 €, o amigo recebe 3% de juro anual durante 60 dias) e Revolut (40 € por amigo, até 10 recompensas; o amigo tem de se registar + KYC + carregar + 3 compras de 5 €+ + pedir cartão físico). Estratégia de poupança recalculada com o novo preço da subscrição 17,99 €/ano: 5 amigos Vivid + 1 amigo Revolut = 140 € pagam a subscrição durante 7+ anos. Secção Fintech reescrita: para N26/Wise/Bunq indicamos agora honestamente que a HackPortugal não tem código pessoal, com bónus e condições descritos como opções gerais.'

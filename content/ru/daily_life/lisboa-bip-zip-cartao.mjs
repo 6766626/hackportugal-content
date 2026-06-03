@@ -3,7 +3,7 @@ export default {
   id: 'lisboa-bip-zip-cartao',
   categoryId: 'daily_life',
   title: 'Cartão BIP/ZIP: резидентская карта Лиссабона со скидками',
-  tldr: 'Cartão BIP/ZIP — муниципальная карта Câmara Municipal de Lisboa для жителей 65 зон BIP/ZIP: Bairros e Zonas de Intervenção Prioritária. Это не туристическая Lisboa Card, а локальный документ для доступа к скидкам и условиям участия в программах культуры, спорта, здоровья и соседских проектов. Право зависит от адреса проживания, а не от гражданства. Обычно нужна идентификация и подтверждение адреса в зоне BIP/ZIP; выпуск карты бесплатный.',
+  tldr: 'Cartão BIP/ZIP — муниципальная карта Câmara Municipal de Lisboa для жителей 67 зон BIP/ZIP: Bairros e Zonas de Intervenção Prioritária. Это не туристическая Lisboa Card, а локальный документ для доступа к скидкам и условиям участия в программах культуры, спорта, здоровья и соседских проектов. Право зависит от адреса проживания, а не от гражданства. Обычно нужна идентификация и подтверждение адреса в зоне BIP/ZIP; выпуск карты бесплатный.',
   tags: ['lisboa', 'bipzip', 'скидки', 'bairro'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'Что такое Cartão BIP/ZIP',
       content: [
-        { kind: 'paragraph', text: 'BIP/ZIP означает Bairros e Zonas de Intervenção Prioritária — районы и зоны Лиссабона, которые Câmara Municipal de Lisboa считает приоритетными для социальной, городской и соседской поддержки. В 2026 году муниципальная карта BIP/ZIP привязана к проживанию в одной из 65 таких зон.' },
+        { kind: 'paragraph', text: 'BIP/ZIP означает Bairros e Zonas de Intervenção Prioritária — районы и зоны Лиссабона, которые Câmara Municipal de Lisboa считает приоритетными для социальной, городской и соседской поддержки. В 2026 году муниципальная карта BIP/ZIP привязана к проживанию в одной из 67 таких зон.' },
         { kind: 'paragraph', text: 'Карта нужна не для транспорта и не для туристических музеев «всё включено». Она подтверждает, что вы живёте в конкретной зоне BIP/ZIP, и может давать доступ к муниципальным скидкам, мероприятиям, спортивным, культурным, образовательным, медицинским и социальным инициативам, которые CML или партнёры запускают для этих районов.' },
         { kind: 'warning', text: 'Не путайте с Lisboa Card: Lisboa Card — платная туристическая карта для транспорта и достопримечательностей. Cartão BIP/ZIP — резидентская муниципальная карта по адресу проживания в приоритетном районе.' }
       ]
@@ -20,7 +20,7 @@ export default {
       id: 'check-eligibility',
       title: 'Проверьте, входит ли ваш адрес в BIP/ZIP',
       content: [
-        { kind: 'paragraph', text: 'Право на Cartão BIP/ZIP определяется не NIF, не ВНЖ и не сроком жизни в Португалии, а адресом: ваша улица и дом должны попадать в одну из зон BIP/ZIP на карте Câmara Municipal de Lisboa.' },
+        { kind: 'paragraph', text: 'Право на Cartão BIP/ZIP определяется не NIF, не ВНЖ и не сроком проживания в Португалии, а адресом: ваша улица и дом должны попадать в одну из зон BIP/ZIP на карте Câmara Municipal de Lisboa.' },
         { kind: 'checklist', items: [
           'Откройте страницу BIP/ZIP на сайте cm-lisboa.pt.',
           'Найдите список или карту Bairros e Zonas de Intervenção Prioritária.',
@@ -88,7 +88,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Пытаться оформить карту по адресу Airbnb или временного отеля — обычно нужен реальный адрес проживания.',
-          'Думать, что вся Lisboa входит в BIP/ZIP: нет, только определённые 65 зоны.',
+          'Думать, что вся Lisboa входит в BIP/ZIP: нет, только определённые 67 зон.',
           'Показывать только NIF с адресом в Finanças: он полезен, но не всегда достаточен как comprovativo de morada.',
           'Путать Junta de Freguesia и Câmara Municipal de Lisboa: Junta помогает с atestado и местной информацией, но программа муниципальная.',
           'Ожидать фиксированную скидку в евро или процентах по всей столице: условия зависят от программы и партнёра.',
@@ -126,6 +126,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -47,12 +47,12 @@ export default {
       id: 'pontes',
       title: 'Pontes — как португальцы удлиняют выходные',
       content: [
-        { kind: 'paragraph', text: '«Ponte» — «мост» между праздником и выходными. Если праздник во вторник, многие берут понедельник как отгул → 4-дневные выходные.' },
+        { kind: 'paragraph', text: '«Ponte» — «мост» между праздником и выходными. Если праздник во вторник, многие берут отгул в понедельник → 4-дневные выходные.' },
         { kind: 'paragraph', text: 'В 2026 классические pontes:' },
         { kind: 'checklist', items: [
           '25 апреля (сб) — не слишком выгодно',
           '1 мая (пт) — длинные выходные 1-3 мая',
-          '10 июня (ср) — вторник или четверг могут быть отгулами',
+          '10 июня (ср) — середина недели, удобного «моста» нет',
           '5 октября (пн) — 3-4-5 октября длинные выходные',
           '8 декабря (вт) — многие берут 7.12 → 4-дневные выходные'
         ]}
@@ -93,6 +93,6 @@ export default {
     { title: 'Governo de Portugal — Código do Trabalho (трудовой кодекс)', url: 'https://www.dgert.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Diário da República — Lei 7/2009 (Código do Trabalho)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

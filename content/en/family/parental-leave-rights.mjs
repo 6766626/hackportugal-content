@@ -3,7 +3,7 @@ export default {
   id: 'parental-leave-rights',
   categoryId: 'work_business',
   title: 'Maternity leave and parental rights',
-  tldr: 'Maternity leave (licença parental) in Portugal in 2026: licença parental inicial — 120 days (100%), Replace with: “120 days — 100%; 150 days without sharing — 80%; 150 days partilhada — 100%; 180 days partilhada — 83% or 90% with enhanced sharing under Lei 13/2023”.\n\nAfter the mother’s 6 compulsory weeks, the remaining time may be shared by the parents. Father: 28 compulsory days (7 — immediately after the birth, 21 — within 42 days) + up to 7 additional days together with the mother. The job is protected during leave. Breastfeeding/aleitação: usually 2 hours per day (2 periods × 1 hour), after 1 year for breastfeeding — a medical certificate is required. The right to horário flexível / part-time work — until the child is 12 years old (Código do Trabalho art. 55/56). For children with special needs — extended rules apply.',
+  tldr: 'Maternity leave (licença parental) in Portugal in 2026. Licença parental inicial schemes: 120 days — 100%; 150 days without sharing — 80%; 150 days partilhada — 100%; 180 days partilhada — 83% or 90% with enhanced sharing (at least 60 days taken exclusively by the father) under Lei 13/2023.\n\nAfter the mother’s 6 compulsory weeks, the remaining time may be shared by the parents. Father: 28 compulsory days (7 — immediately after the birth, 21 — within 42 days) + up to 7 additional days together with the mother. The job is protected during leave. Breastfeeding/aleitação: usually 2 hours per day (2 periods × 1 hour), after 1 year for breastfeeding — a medical certificate is required. The right to horário flexível / part-time work — until the child is 12 years old (Código do Trabalho art. 55/56). For children with special needs — extended rules apply.',
   tags: ['maternity', 'maternity leave', 'licença parental', 'mother', 'father', 'segurança social'],
   estimatedReadMinutes: 8,
   steps: [
@@ -16,7 +16,7 @@ export default {
             { kind: 'checklist', items: [
               '🏥 Compulsory part: 6 weeks (42 days) immediately after childbirth — taken only by the mother',
               '👶 Licença parental inicial: 120 days paid at 100% (after the mother’s compulsory 42 days, the remainder may be used by the mother or the father)',
-              '🤝 Inicial partilhada: 150 days (at a different rate) or 180 days paid at 90% if the conditions for sharing leave between the parents are met (Lei 13/2023)',
+              '🤝 Inicial partilhada: 150 days — 100% or 180 days — 83% (90% with enhanced sharing, at least 60 days taken exclusively by the father) if the conditions for sharing leave between the parents are met (Lei 13/2023)',
               '⏰ Leave may be started before childbirth with a medical certificate (generally about 10 days before)',
               '👼 For twins: +30 days',
               '👶 For triplets: +60 days'
@@ -118,7 +118,7 @@ export default {
       title: '💡 Tips',
       content: [
         { kind: 'checklist', items: [
-          '💰 Replace with: “180 days partilhada may be an advantageous scheme, but check the rate: 83% in the ordinary shared option or 90% with enhanced sharing under Lei 13/2023. Compare the total family income and each parent’s ability to take the required exclusive period”., but compare the total family income and the father’s real ability to take his part',
+          '💰 180 days partilhada may be an advantageous scheme, but check the rate: 83% in the ordinary shared option or 90% with enhanced sharing (at least 60 days taken exclusively by the father) under Lei 13/2023. Compare the total family income and each parent’s ability to take the required exclusive period',
           '📅 Before/after the birth, choose the licença parental inicial scheme: 120, 150 or partilhada 150/180 days; for 180 days partilhada, agree the mother’s and father’s periods with the employers in advance',
           '🩺 Benefit calculation: remuneração de referência = earnings for 6 of the previous 8 months / 180. If you go on maternity leave soon after a pay rise, the new salary may not fully make it into the base',
           '🛡️ Maternity leave does not interrupt the length of lawful residence if the residence permit remains valid/extended. For citizenship, check the current version of Lei da Nacionalidade: Lei Orgânica 1/2026 of 18 May (amending Lei 37/81) is already in force since 19/05/2026 and, for new applications, requires 7 years of residence (CPLP/EU nationals) or 10 years (others); the 5-year rule survives only for procedures already pending before 19/05/2026 (Art. 7.º n.º 2)',
@@ -141,6 +141,6 @@ export default {
     { title: 'CITE — Commission for Equality in Labour', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei Orgânica 1/2026, de 18 de maio — amendment to Lei 37/81 (Nationality Law)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

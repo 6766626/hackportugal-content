@@ -3,7 +3,7 @@ export default {
   id: 'ikea-conforama-myhome-moveis',
   categoryId: 'daily_life',
   title: 'IKEA, Conforama, MyHome, JYSK — where to buy furniture in Portugal',
-  tldr: 'In Portugal, the easiest places to buy furniture are IKEA, Conforama, MyHome, JYSK, El Corte Inglés Hogar and Worten Casa. IKEA offers the best balance of price, availability and returns: 4 large stores in Alfragide, Loures, Matosinhos and Loulé, plus delivery across mainland Portugal. Conforama and JYSK are often cheaper for sofas, mattresses and basic wardrobes, but check entrega times and montagem costs carefully. In 2026, budget €29–99 for delivery of large furniture and separate assembly.',
+  tldr: 'In Portugal, the easiest places to buy furniture are IKEA, Conforama, MyHome, JYSK, El Corte Inglés Hogar and Worten Casa. IKEA offers the best balance of price, availability and returns: 5 large stores in Alfragide, Loures, Braga, Matosinhos and Loulé, plus delivery across mainland Portugal. Conforama and JYSK are often cheaper for sofas, mattresses and basic wardrobes, but check entrega times and montagem costs carefully. In 2026, budget €29–99 for delivery of large furniture and separate assembly.',
   tags: ['furniture', 'ikea', 'conforama', 'jysk', 'delivery'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,7 +27,7 @@ export default {
       id: 'ikea',
       title: 'IKEA: the safest start 🛒',
       content: [
-        { kind: 'paragraph', text: 'IKEA Portugal in 2026 has 4 large stores: Alfragide and Loures in the Lisboa area, Matosinhos near Porto and Loulé in the Algarve. Online orders work through ikea.com/pt/pt with delivery, click and collect, and store-by-store stock checks.' },
+        { kind: 'paragraph', text: 'IKEA Portugal in 2026 has 5 large stores: Alfragide and Loures in the Lisboa area, Matosinhos near Porto, Braga in the north and Loulé in the Algarve. Online orders work through ikea.com/pt/pt with delivery, click and collect, and store-by-store stock checks.' },
         { kind: 'paragraph', text: 'For a move, IKEA is convenient because you can put together a “minimum living kit” in one day: bed, mattress, desk, chair, tableware, lamps, boxes, rails and storage. Most products are standardised, so it is easy to buy extra shelves, doors or replace a broken part.' },
         { kind: 'checklist', items: [
           'Pros: clear dimensions, many reviews, stock is visible online, returns are easier than with small shops',
@@ -116,6 +116,6 @@ export default {
     { title: 'JYSK Portugal — catalogue, stores and campaigns', url: 'https://jysk.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'El Corte Inglés Portugal — Casa e Decoração section', url: 'https://www.elcorteingles.pt/casa-e-decoracao/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

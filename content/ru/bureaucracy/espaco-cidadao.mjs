@@ -43,10 +43,10 @@ export default {
             { kind: 'link', text: 'Карта Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao' }
           ]},
           { id: 'e2', title: '2. Записаться онлайн', content: [
-            { kind: 'paragraph', text: 'Через ePortugal.gov.pt → выбрать услугу → выбрать место → выбрать время. Запись обязательна.' }
+            { kind: 'paragraph', text: 'Через ePortugal.gov.pt → выбрать услугу → выбрать место → выбрать время. По умолчанию Espaço Cidadão принимает без записи, но для популярных услуг запись лучше сделать заранее.' }
           ]},
           { id: 'e3', title: '3. Взять документы и прийти', content: [
-            { kind: 'paragraph', text: 'На 10 мин раньше. Каждая услуга занимает 15-30 мин. Оператор часто помогает с соседними вопросами без отдельной записи.' }
+            { kind: 'paragraph', text: 'Приходите за 10 минут до назначенного времени. Каждая услуга занимает 15-30 минут. Оператор часто помогает и с соседними вопросами без отдельной записи.' }
           ]}
         ]}
       ]
@@ -56,7 +56,7 @@ export default {
       title: 'Советы',
       content: [
         { kind: 'checklist', items: [
-          'Всегда бронируйте слот заранее — по живой очереди часто не принимают',
+          'В крупных точках лучше бронировать слот заранее: формально приём идёт без записи, но мест в живой очереди часто не хватает',
           'Берите оригинал и копию каждого документа',
           'Если оператор отказывает — вежливо попросите позвать старшего сотрудника',
           'В Лиссабоне/Порту выгоднее ехать в менее загруженный Espaço Cidadão в пригороде — свободных слотов больше',
@@ -69,6 +69,6 @@ export default {
     { title: 'ePortugal — Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Loja de Cidadão — официальный сайт', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

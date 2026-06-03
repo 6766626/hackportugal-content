@@ -42,7 +42,7 @@ export default {
                 'Atestado médico-desportivo: documento emitido por um médico de medicina desportiva sobre a aptidão para esforço físico',
                 'Pode ser feito com o médico de família ou num centro de medicina desportiva',
                 'Custo: 30-50 €, sem SNS — 60-100 €',
-                'Validade: 1 ano para menores de 35 anos, 6 meses para mais velhos',
+                'Validade: 1 ano, renovado no mês do aniversário do titular',
                 'Inclui: ECG, medição da tensão arterial, breve exame clínico, parecer de aptidão'
               ] }
             ]
@@ -153,6 +153,6 @@ export default {
     { title: 'Decreto-Lei 10/2009 — regime jurídico do seguro desportivo obrigatório', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/10-2009-397323', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'IPDJ — seguro desportivo obrigatório', url: 'https://ipdj.gov.pt/seguro-desportivo', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

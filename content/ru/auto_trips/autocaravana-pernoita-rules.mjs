@@ -11,13 +11,13 @@ export default {
       id: 'current-rule',
       title: 'Главное правило 2026: где можно ночевать',
       content: [
-        { kind: 'paragraph', text: 'Lei 92/2019 ввела более жёсткий режим для autocaravanas, но текущая практическая рамка в Código da Estrada была смягчена последующими изменениями. На апрель 2026 базовое правило такое: pernoita в autocaravana разрешена до 48 часов подряд в одном município, если это не запрещённая зона и нет местного запрета.' },
+        { kind: 'paragraph', text: 'Lei 92/2019 ввела более жёсткий режим для autocaravanas, но текущая практическая рамка в Código da Estrada была смягчена последующими изменениями. На апрель 2026 года базовое правило такое: pernoita в autocaravana разрешена до 48 часов подряд в одном município, если это не запрещённая зона и нет местного запрета.' },
         { kind: 'checklist', items: [
           'Можно ночевать в parques de autocaravanismo, áreas de serviço para autocaravanas и parques de campismo e caravanismo.',
           'В обычном разрешённом месте вне охраняемых зон — максимум 48 часов в том же município.',
           'Если место специально обозначено для autocaravanas, действуют правила этого места: лимит часов, оплата, сервисы, запрет на столы/тенты.',
           'Муниципалитет может запретить или ограничить pernoita знаками, regulamento municipal или временными правилами.',
-          'Обычная парковка днём не равна ночёвке: pernoita — нахождение с людьми внутри между 21:00 и 07:00.',
+          'Обычная парковка днём не равна ночёвке: pernoita — нахождение с людьми внутри между 22:00 и 07:00.',
           'Если вы разложили тент, столы, стулья, вывели ступеньки, поставили клинья или заняли больше площади — это уже похоже на aparcamento/campismo и риск штрафа выше.'
         ] }
       ]
@@ -46,7 +46,7 @@ export default {
         { kind: 'paragraph', text: 'Португальские правила различают простую стоянку, ночёвку и размещение “лагерем”. Чем больше вы выходите за габариты автомобиля, тем выше риск, что инспектор сочтёт это aparcamento/campismo вне разрешённого места.' },
         { kind: 'checklist', items: [
           'Estacionamento: автомобиль стоит в пределах разметки и не занимает больше площади, чем его габариты.',
-          'Pernoita: люди находятся в autocaravana между 21:00 и 07:00.',
+          'Pernoita: люди находятся в autocaravana между 22:00 и 07:00.',
           'Aparcamento: стоянка с признаками размещения — выдвинутый тент, столы, стулья, клинья, ступеньки, внешние баки.',
           'Campismo selvagem: фактический дикий кемпинг вне camping/parque/ASA; это нельзя легализовать фразой “мы просто переночевали”.',
           'Окна и крыша сами по себе обычно не проблема, но тент, мебель и верёвки для белья — красный флаг.',
@@ -102,6 +102,6 @@ export default {
     { title: 'Lei 66/2021 — alteração das regras de pernoita de autocaravanas', url: 'https://dre.pt/dre/detalhe/lei/66-2021-169570084', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Federação de Campismo e Montanhismo de Portugal — informação sobre caravanismo', url: 'https://www.fcmp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

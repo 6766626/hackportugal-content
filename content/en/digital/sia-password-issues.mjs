@@ -11,7 +11,7 @@ export default {
       id: 'pf-password',
       title: '🔐 Recover your Portal das Finanças password',
       content: [
-        { kind: 'paragraph', text: 'The most common scenario. AT (the tax authority) uses “Senha de Acesso” — an 8-digit password for logging into Portal das Finanças.' },
+        { kind: 'paragraph', text: 'The most common scenario. AT (the tax authority) uses “Senha de Acesso” — a password of at least 8 characters (uppercase and lowercase letter, digit and special character) for logging into Portal das Finanças.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Method 1 — SMS (quick, if you have the number)', content: [
             { kind: 'checklist', items: [
@@ -84,7 +84,7 @@ export default {
         { kind: 'checklist', items: [
           '🔓 Unblock: Espaço Cidadão / Loja CC, in person, free of charge',
           '🆕 Change PIN yourself: on the autenticacao.gov.pt website (old PIN required)',
-          '📤 Fully reset (if the PIN is forgotten and blocked): Loja CC, around €10, on the day of the visit',
+          '📤 Fully reset (if the PIN is forgotten and blocked): new PIN codes at Loja CC, €5, on the day of the visit',
           '⚠️ Code letter (“carta de PINs”) — arrives when the CC is issued. Keep it!',
           '💡 If you have lost the card: block it via 808 12 12 30 or ePortugal — immediately'
         ]}
@@ -126,13 +126,13 @@ export default {
     { label: 'Portal das Finanças password recovery', amountEUR: 0 },
     { label: 'CMD recovery', amountEUR: 0 },
     { label: 'CC PIN unblocking', amountEUR: 0 },
-    { label: 'Full CC PIN reset', amountEURMin: 10, amountEURMax: 15 }
+    { label: 'New CC PIN codes', amountEUR: 5 }
   ],
   sources: [
     { title: 'Portal das Finanças', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Autenticação.gov.pt — Chave Móvel Digital', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Cartão de Cidadão', url: 'https://www.gov.pt/cidadaos/-/informacoes/o-que-e-o-cartao-de-cidadao-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

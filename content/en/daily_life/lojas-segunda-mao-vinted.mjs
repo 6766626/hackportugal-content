@@ -118,6 +118,6 @@ export default {
     { title: 'Wallapop Portugal — official website', url: 'https://pt.wallapop.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal da Queixa — consumer complaints and company reputation checks', url: 'https://portaldaqueixa.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

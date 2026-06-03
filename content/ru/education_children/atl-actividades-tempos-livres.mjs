@@ -3,7 +3,7 @@ export default {
   id: 'atl-actividades-tempos-livres',
   categoryId: 'education_children',
   title: 'ATL и CAF: продлёнка для школьников 6–10 лет в Португалии',
-  tldr: 'Для 1.º ciclo, 1–4 классы, после уроков обычно есть бесплатные AEC и платная/льготная CAF/ATL: присмотр утром, обед, конец дня и каникулы. Запись часто открывается вместе с matrícula/renovação на https://www.portaldasmatriculas.edu.gov.pt/ весной-летом 2026, но правила и цены задаёт município или IPSS. Семьи с escalão A/B da Ação Social Escolar обычно платят меньше или 0 €; социальные случаи и дети с особыми потребностями имеют приоритет.',
+  tldr: 'Для 1.º ciclo, 1–4 классы, после уроков обычно есть бесплатные AEC и платная/льготная CAF/ATL: присмотр утром, обед, конец дня и каникулы. Запись часто открывается вместе с matrícula/renovação на https://www.portaldasmatriculas.edu.gov.pt/ весной–летом 2026, но правила и цены задаёт município или IPSS. Семьи с escalão A/B da Ação Social Escolar обычно платят меньше или 0 €; социальные случаи и дети с особыми потребностями имеют приоритет.',
   tags: ['atl', 'caf', 'школа', 'обед', 'ase'],
   estimatedReadMinutes: 5,
   steps: [
@@ -88,13 +88,13 @@ export default {
       id: 'practical-timing',
       title: 'Практический календарь на 2026',
       content: [
-        { kind: 'paragraph', text: 'Точные даты matrícula и renovação ежегодно публикуют Ministério da Educação и Portal das Matrículas. На практике для 1.º ciclo запись и обновление идут весной-летом; муниципальные заявки на обеды, транспорт и CAF/ATL часто открываются сразу после школьной matrícula или в июне-июле.' },
+        { kind: 'paragraph', text: 'Точные даты matrícula и renovação ежегодно публикуют Ministério da Educação и Portal das Matrículas. На практике для 1.º ciclo запись и обновление идут весной–летом; муниципальные заявки на обеды, транспорт и CAF/ATL часто открываются сразу после школьной matrícula или в июне–июле.' },
         { kind: 'checklist', items: [
           'Апрель–май: проверьте сроки matrícula/renovação на https://www.portaldasmatriculas.edu.gov.pt/ и сайт вашего agrupamento.',
           'Май–июнь: подайте matrícula или renovação; сохраните comprovativo.',
           'Июнь–июль: откройте сайт Câmara Municipal и подайте заявки на refeições, transportes, CAF/ATL.',
           'Июль–август: подпишите договор с IPSS/associação, если продлёнка не муниципальная.',
-          'До начала сентября: проверьте horário, цену, способ оплаты, список разрешённых лиц для pickup.',
+          'До начала сентября: проверьте horário, цену, способ оплаты, список лиц, которым разрешено забирать ребёнка.',
           'Первая неделя школы: подтвердите у professora titular и координатора ATL, где ребёнок обедает и куда идёт после уроков.'
         ] },
         { kind: 'warning', text: 'Места в ATL рядом с популярными школами заканчиваются быстро. Если вы переезжаете в Португалию летом, пишите одновременно в agrupamento, Câmara Municipal и ближайшие IPSS — не ждите получения ВНЖ, если у ребёнка уже есть NIF, адрес и школьная matrícula.' }
@@ -132,6 +132,6 @@ export default {
     { title: 'Portal do Governo — Portal das Matrículas и serviços da educação', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Matrículas — matrícula e renovação online', url: 'https://portaldasmatriculas.edu.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

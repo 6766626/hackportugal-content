@@ -3,7 +3,7 @@ export default {
   id: 'coffee-culture',
   categoryId: 'food_leisure',
   title: 'Кофейная культура Португалии',
-  tldr: 'Кофе в Португалии пьют часто: для многих нормально выпить несколько маленьких café/bica в течение дня. Bica (Лиссабон) / Cimbalino (Порту) = маленький эспрессо, обычно € 0,80–1,30 в районной pastelaria; в центре, исторических кафе и specialty-местах дороже. Основные варианты — meia de leite, galão, abatanado, pingado. Исторические кафе: A Brasileira, Nicola, Martinho da Arcada, Majestic. Specialty: Fábrica Coffee Roasters, Copenhagen Coffee Lab, Combi, 7g.',
+  tldr: 'Кофе в Португалии пьют часто: для многих нормально выпить несколько маленьких café/bica в течение дня. Bica (Лиссабон) / Cimbalino (Порту) = маленький эспрессо, обычно € 0,80–1,30 в районной pastelaria; в центре, исторических кафе и специалити-местах дороже. Основные варианты — meia de leite, galão, abatanado, pingado. Исторические кафе: A Brasileira, Nicola, Martinho da Arcada, Majestic. Specialty: Fábrica Coffee Roasters, Copenhagen Coffee Lab, Combi, 7g.',
   tags: ['кофе', 'bica', 'pastelaria'],
   estimatedReadMinutes: 4,
   steps: [
@@ -72,6 +72,6 @@ export default {
     { title: 'A Brasileira do Chiado', url: 'https://www.visitlisboa.com/en/places/chiado-41699ec3-eda7-414e-a9c1-e985f2f0efb7', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Cafés', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -24,7 +24,7 @@ export default {
           'Online subsidiaries of major banks: ActivoBank (from Millennium BCP)',
           'Digital neobanks with an EU licence operating in Portugal: Revolut (LT), N26 (DE), Wise (BE) — IBAN is not PT, but SEPA works',
           'Co-operative and regional banks: Crédito Agrícola, Montepio — often convenient in small towns',
-          'Accounts at CTT (post office): CTT Bank — the state postal operator with basic banking services'
+          'Accounts at CTT (post office): Banco CTT — the state postal operator’s bank with basic banking services'
         ]},
         { kind: 'paragraph', text: 'Banks licensed by Banco de Portugal or by EU banking regulators — deposits up to €100,000 are insured by the national DGS (Fundo de Garantia de Depósitos for banks licensed in Portugal, equivalent DGS schemes for other EU banks).\n\nIMPORTANT: Wise, Revolut and similar payment/EMI companies do NOT have bank status and are usually not covered by DGS; funds are protected under a safeguarding regime (a separate account with a partner bank). This is a different level of protection — especially important for large balances.' }
       ]
@@ -160,6 +160,6 @@ export default {
     { title: 'ePortugal — opening a bank account', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulamento BdP 2/2018 (AML rules)', url: 'https://www.bportugal.pt/aviso-circular/aviso-ndeg-22018', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

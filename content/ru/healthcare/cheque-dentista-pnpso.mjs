@@ -27,9 +27,9 @@ export default {
       id: 'who-can-get',
       title: 'Кому положен ваучер в 2026 году',
       content: [
-        { kind: 'paragraph', text: 'PNPSO адресная программа. Сам факт проживания в Португалии или наличие ВНЖ не дают автоматического права на Cheque-Dentista. Нужна принадлежность к одной из групп SNS.' },
+        { kind: 'paragraph', text: 'PNPSO — адресная программа. Сам факт проживания в Португалии или наличие ВНЖ не даёт автоматического права на Cheque-Dentista. Нужна принадлежность к одной из групп SNS.' },
         { kind: 'checklist', items: [
-          'Дети и подростки: ваучеры выдаются по возрастным группам PNPSO, часто через школу, médico de família или hygienist oral. Ключевые школьные возрасты — 7, 10 и 13 лет; дальнейшие чеки возможны при выполнении условий программы.',
+          'Дети и подростки: ваучеры выдаются по возрастным группам PNPSO, часто через школу, médico de família или higienista oral. Ключевые школьные возрасты — 7, 10 и 13 лет; дальнейшие чеки возможны при выполнении условий программы.',
           'Дети младшего возраста: в отдельных клинических ситуациях направление может выдать médico de família в Centro de Saúde.',
           'Беременные: grávidas acompanhadas no SNS могут получить до 3 cheques-dentista за беременность.',
           'Пожилые: beneficiários do Complemento Solidário para Idosos (CSI) могут получать cheques-dentista по правилам PNPSO.',
@@ -128,6 +128,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

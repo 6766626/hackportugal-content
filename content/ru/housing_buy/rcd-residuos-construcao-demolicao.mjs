@@ -45,7 +45,7 @@ export default {
       id: 'large-renovation',
       title: 'Средний и большой ремонт: licensed transportadora + operador RCD',
       content: [
-        { kind: 'paragraph', text: 'Если отходов больше, чем помещается в багажник, или работает empreiteiro, оформляйте вывоз через лицензированную transportadora de resíduos. Она должна отвезти RCD на autorizated operador/aterro RCD: например, региональные системы и операторы вроде Valnor, Tratolixo или другие площадки, указанные в лицензиях APA/SILOGR.' },
+        { kind: 'paragraph', text: 'Если отходов больше, чем помещается в багажник, или работает empreiteiro, оформляйте вывоз через лицензированную transportadora de resíduos. Она должна отвезти RCD авторизованному operador/aterro RCD: например, региональные системы и операторы вроде Valnor, Tratolixo или другие площадки, указанные в лицензиях APA/SILOGR.' },
         { kind: 'checklist', items: [
           'Попросите у empreiteiro заранее включить gestão de RCD в orçamento.',
           'Проверьте, кто является produtor do resíduo: собственник, contractor или оба по договору.',

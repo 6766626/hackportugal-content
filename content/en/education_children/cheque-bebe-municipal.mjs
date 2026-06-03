@@ -122,6 +122,6 @@ export default {
     { title: 'Portal ePortugal — birth registration and child’s documents', url: 'https://www.gov.pt/servicos/registar-nascimento', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária — NIF and certidões on Portal das Finanças', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

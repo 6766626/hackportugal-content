@@ -11,16 +11,16 @@ export default {
       id: 'why-license',
       title: 'Why a licence is needed — the law and reality',
       content: [
-        { kind: 'paragraph', text: 'Write instead: "Water belongs either to the public water domain or to private water resources, but the abstraction of groundwater even on a private plot is regulated by Lei da Água and Regime de Utilização dos Recursos Hídricos; comunicação prévia, autorização/licença or another APA/ARH title is usually required." The use of groundwater is regulated by Decreto-Lei 226-A/2007 (Lei da Água — Water Law). Without a licence or registration, it is illegal to use water from a private borehole even on your own plot.' },
+        { kind: 'paragraph', text: 'Water belongs either to the public water domain or to private water resources, but the abstraction of groundwater — even on a private plot — is regulated by the Lei da Água and the Regime de Utilização dos Recursos Hídricos. An APA/ARH title is usually required: a prior communication (comunicação prévia), an authorisation (autorização) or a licence (licença). The use of groundwater is regulated by Decreto-Lei 226-A/2007 (Lei da Água — the Water Law). Without such a title or registration, it is illegal to use water from a private borehole even on your own plot.' },
         { kind: 'checklist', items: [
           'Water supply for domestic use: 100–300 l/day per person — considered domestic use',
           'Irrigation of a garden/vegetable plot up to 5 m³/day in total — domestic use',
-          'Write: "Swimming pool: look at the actual daily abstraction volume, the water source and the purpose of the property. A one-off filling may exceed 5 m³/day; a seasonal volume of 100–200 m³ by itself does not prove that the daily limit has been exceeded."',
-          'Write: "For AL, a restaurant, turismo rural, agricultural production and other commercial/public use, do not rely on the domestic regime: check with APA/ARH which título is needed and with health/ERSAR rules for water for human consumption."',
+          'Swimming pool: look at the actual daily abstraction volume, the water source and the purpose of the property. A one-off filling may exceed 5 m³/day; a seasonal volume of 100–200 m³ by itself does not prove that the daily limit has been exceeded',
+          'For AL, a restaurant, turismo rural, agricultural production and any other commercial/public use, do not rely on the domestic regime: check with APA/ARH which title is needed, and also the ERSAR/health rules for water intended for human consumption',
           'Fire-fighting reserve — separate registration',
           'Geothermal energy (heat pump) — regulated separately by DGEG'
         ] },
-        { kind: 'warning', text: 'Many old boreholes on rural estates (quintas) were built before 2007 and are NOT registered. If you bought such a property, you usually have 6–12 months to regularise everything. Write: "Control in drought-prone regions, especially Algarve/Alentejo, may be stricter; breaches usually lead to contraordenação, fines, embargo/cessação da utilização and a requirement to close/legalise the captação. Criminal liability is possible only in certain serious cases." (drought-prone regions where water is scarce).' }
+        { kind: 'warning', text: 'Many old boreholes on rural estates (quintas) were built before 2007 and are NOT registered. If you bought such a property, you usually have 6–12 months to regularise everything. Enforcement in drought-prone regions, especially the Algarve and Alentejo where water is scarce, may be stricter: breaches usually lead to an administrative offence (contraordenação), fines, an embargo or cessation of use (embargo/cessação da utilização) and a requirement to close or legalise the abstraction (captação). Criminal liability is possible only in certain serious cases.' }
       ]
     },
     {
@@ -33,7 +33,7 @@ export default {
           '  • Dug well up to 5 m deep',
           '  • Boreholes that already existed before 2007',
           '  • Essentially free (~€30 administrative fee)',
-          '  • Submission to the Junta de Freguesia (local parish council) or via ePortugal (public services portal)',
+          '  • Submission via SILiAmb (APA’s environmental licensing portal) or at your local ARH office',
           '  • Timeframe: regularisation in 30–60 days',
           'LICENCE — for:',
           '  • Use > 5 m³/day',
@@ -70,7 +70,7 @@ export default {
             id: 's2',
             title: 'Submission',
             content: [
-              { kind: 'paragraph', text: 'Via ePortugal (public services portal): Cidadão → Ambiente → Pedido de Registo de Furo. Authentication via Chave Móvel Digital (CMD — mobile digital signature).' },
+              { kind: 'paragraph', text: 'Via SILiAmb (Sistema Integrado de Licenciamento do Ambiente — APA’s integrated environmental licensing portal): Recursos hídricos → Processos → Criar novo requerimento. Authentication via Chave Móvel Digital (CMD — mobile digital signature).' },
               { kind: 'paragraph', text: 'Alternatively — in person at ARH (5 regions: Norte, Centro, Tejo e Oeste, Alentejo, Algarve).' }
             ]
           },
@@ -109,14 +109,14 @@ export default {
             id: 's2',
             title: 'Submission to ARH',
             content: [
-              { kind: 'paragraph', text: 'With the hydrogeologist’s project. Through the ARH Online portal, authentication via Chave Móvel Digital (CMD), payment ~€50–€300. ARH review: 60–180 days (often longer because Write: "opinions may be required from CCDR/entidades agrícolas competentes, ICNF, câmara municipal or other sectoral authorities, depending on location and use.", and ICNF — the nature conservation institute, if the plot is in a protected area).' }
+              { kind: 'paragraph', text: 'With the hydrogeologist’s project. Through the SILiAmb portal (Recursos hídricos module), authentication via Chave Móvel Digital (CMD), payment ~€50–€300. ARH review: 60–180 days (often longer, because depending on the location and use, opinions may be required from other bodies — the CCDR, the competent agricultural authorities, the câmara municipal (town hall) or other sectoral authorities, as well as the ICNF (the nature conservation institute) if the plot is in a protected area).' }
             ]
           },
           {
             id: 's3',
             title: 'Drilling',
             content: [
-              { kind: 'paragraph', text: 'Only after the licence has been obtained. Write: "The contractor must be legally habilitado/qualified and comply with APA/ARH requirements for drilling works; ANEFA membership may be a market signal but is not an official licence. Ask for proof of legal habilitation, insurance, technical report and completion documents." (Associação Nacional de Empresas de Furos de Água). Cost: €50–€150/m depth. Standard borehole 50–100 m = €3,000–€15,000.' }
+              { kind: 'paragraph', text: 'Only after the licence has been obtained. The contractor must be legally qualified (legalmente habilitado) and comply with APA/ARH requirements for drilling works. ANEFA membership (Associação Nacional de Empresas de Furos de Água — the national association of water-borehole companies) may be a market signal, but it is not an official licence. Ask for proof of legal habilitation, insurance, a technical report and completion documents. Cost: €50–€150/m of depth. Standard borehole 50–100 m = €3,000–€15,000.' }
             ]
           },
           {
@@ -151,13 +151,13 @@ export default {
       id: 'water-quality',
       title: 'Water quality and mandatory tests',
       content: [
-        { kind: 'paragraph', text: 'Write: "For your own home, analyses are strongly recommended on a regular basis and may be required by the title/authority; if water is supplied to third parties, AL guests, a restaurant or workers, drinking-water legal monitoring is mandatory."' },
+        { kind: 'paragraph', text: 'For your own home, analyses are strongly recommended on a regular basis — and the title or the authority may even require them. If water is supplied to third parties — AL guests, a restaurant or workers — legal drinking-water monitoring is mandatory.' },
         { kind: 'checklist', items: [
           'Microbiological analysis: E.coli, coliforms, enterococci. At least once a year',
           'Chemical analysis: pH, nitrates, sulphates, chlorides, heavy metals',
           'Cost: €50–€150 for a full test at a private laboratory',
-          'Replace with: "Use a laboratory with accreditation by IPAC for the relevant parameters. Search IPAC’s accredited laboratories database; ask the lab for the exact accredited scope for microbiology/chemical drinking-water tests."',
-          'Write: "If water is supplied to guests/clients/workers as drinking water, the água destinada ao consumo humano regime applies. The private supply system and monitoring programme must be agreed/registered with the competent health/ERSAR/municipal authority; frequency depends on scale and risk."',
+          'Use a laboratory accredited by IPAC for the relevant parameters. Search IPAC’s accredited-laboratories database and ask the lab for its exact accredited scope for microbiological/chemical drinking-water tests',
+          'If water is supplied to guests/clients/workers as drinking water, the água destinada ao consumo humano (water for human consumption) regime applies. The private supply system and monitoring programme must be agreed or registered with the competent authority (health service/ERSAR/municipality); the frequency depends on the scale and the risk',
           'If in Algarve/Alentejo: add a nitrate test — levels are often exceeded due to intensive agriculture',
           'Treatment: UV for microbes, reverse osmosis for salts/chemicals, cartridge filters for suspended solids'
         ] }
@@ -198,6 +198,6 @@ export default {
     { title: 'ARH Tejo e Oeste', url: 'https://apambiente.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ANEFA — National Association of Water Borehole Companies', url: 'https://www.anefa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

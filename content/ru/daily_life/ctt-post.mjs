@@ -3,7 +3,7 @@ export default {
   id: 'ctt-post',
   categoryId: 'daily_life',
   title: 'CTT — почта Португалии',
-  tldr: 'CTT = публичная компания Correios de Portugal, S.A., приватизированная и работающая под концессией универсальной почтовой услуги. Отделения есть в каждом городе, банковские услуги Banco CTT, посылки, отслеживание. Для AIMA часто нужна Carta Registada com Aviso de Receção. Посылки из ЕС без таможни, из стран вне ЕС — IVA на все, customs duty — на товары дороже € 150.',
+  tldr: 'CTT = публичная компания Correios de Portugal, S.A., приватизированная и работающая под концессией универсальной почтовой услуги. Отделения есть в каждом городе, банковские услуги Banco CTT, посылки, отслеживание. Для AIMA часто нужна Carta Registada com Aviso de Receção. Посылки из ЕС без таможни, из стран вне ЕС — IVA на всё, customs duty — на товары дороже € 150.',
   tags: ['ctt', 'почта', 'посылки'],
   estimatedReadMinutes: 4,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Услуги CTT',
       content: [
         { kind: 'checklist', items: [
-          'Carta Normal — обычное письмо, € 0,70 по Португалии / € 1,25 в ЕС',
+          'Carta Normal — обычное письмо, € 0,73 по Португалии / € 1,30 в ЕС',
           'Carta Registada — заказное письмо с номером для отслеживания',
           'Carta com Aviso de Receção — заказное письмо + уведомление о получении (для AIMA обязательно в некоторых случаях)',
           'Encomenda — посылка до 30 кг по Португалии, до 20 кг международная',
@@ -34,7 +34,7 @@ export default {
           { id: 'p2', title: 'Из стран вне ЕС (РФ, БР, США, Китай)', content: [
             { kind: 'paragraph', text: 'Таможенная декларация. Пороги:' },
             { kind: 'checklist', items: [
-              'До € 22 — без IVA и пошлины (раньше, сейчас ОТМЕНЕНО с 2021)',
+              'До € 22 — раньше без IVA и пошлины; этот порог ОТМЕНЁН с 2021 года',
               'Любая посылка: IVA по ставкам региона назначения (mainland 23%, Madeira/Açores региональные ставки)',
               'От € 150 — дополнительно customs duty (ставка по TARIC-коду товара)',
               'CTT присылает SMS/электронное письмо с суммой оплаты → оплачиваете онлайн или при получении',
@@ -52,7 +52,7 @@ export default {
     },
     {
       id: 'sending',
-      title: 'Отправка в страны СНГ',
+      title: 'Отправка в страны бывшего СССР',
       content: [
         { kind: 'checklist', items: [
           '📦 РФ/Беларусь — сервис, сроки и допустимые категории нестабильны из-за санкций и ограничений; проверяйте на ctt.pt перед отправкой',
@@ -89,6 +89,6 @@ export default {
     { title: 'CTT — официальный', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AT — таможня / импорт посылок', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

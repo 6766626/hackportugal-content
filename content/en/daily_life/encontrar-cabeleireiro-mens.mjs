@@ -104,6 +104,6 @@ export default {
     { title: 'Livro de Reclamações — official electronic complaints book', url: 'https://www.livroreclamacoes.pt/Inicio/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Direção-Geral do Consumidor — consumer rights and price information', url: 'https://www.consumidor.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

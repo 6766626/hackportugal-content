@@ -3,7 +3,7 @@ export default {
   id: 's2-treatment-abroad-eu',
   categoryId: 'healthcare',
   title: 'S2 form: planned treatment in another EU country paid for by the SNS',
-  tldr: 'S2 is prior authorisation from the SNS for planned treatment in another EU/EEA/Swiss country under Reg. 883/2004 rules. It is not an EHIC: Cartão Europeu de Seguro de Doença covers sudden medical care during travel, while S2 is needed before surgery, therapy or a consultation abroad. In April 2026, the request usually goes through your médico de família/SNS hospital and Administração Regional de Saúde/ULS. Without S2, you may be billed; an alternative route is reimbursement under Lei 52/2014, but it is limited to SNS tariffs and often requires autorização prévia.',
+  tldr: 'S2 is prior authorisation from the SNS for planned treatment in another EU/EEA/Swiss country under Reg. 883/2004 rules. It is not an EHIC: Cartão Europeu de Seguro de Doença covers sudden medical care during travel, while S2 is needed before surgery, therapy or a consultation abroad. The request usually goes through your médico de família or SNS hospital and the competent Administração Regional de Saúde/ULS. Without S2, you may be billed; an alternative route is reimbursement under Lei 52/2014, but it is limited to SNS tariffs and often requires autorização prévia.',
   tags: ['sns', 's2', 'treatment', 'eu'],
   estimatedReadMinutes: 6,
   steps: [
@@ -159,6 +159,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

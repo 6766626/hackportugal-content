@@ -3,7 +3,7 @@ export default {
   id: 'horta-comunitaria-bairro',
   categoryId: 'daily_life',
   title: 'Hortas comunitárias: hortas coletivas nos bairros de Portugal',
-  tldr: 'Hortas comunitárias são hortas municipais para residentes: um pequeno talhão, água, compostagem e regras sem pesticidas. Em Lisboa, o programa CML Hortas Comunitárias custa cerca de 3 €/mês por talhão; em Cascais existem as Hortas Solidárias, e projectos semelhantes funcionam no Porto, Loures, Almada e noutros municípios. Normalmente é necessário NIF com morada no município, comprovativo de residência e inscrição em lista de espera. Prazo real de espera em 2026: frequentemente 6–12 meses, mais tempo nas freguesias centrais.',
+  tldr: 'Hortas comunitárias são hortas municipais para residentes: um pequeno talhão, água, compostagem e regras sem pesticidas. Em Lisboa, a taxa por talhão é anual e depende da área (cerca de 1,6 €/m² por ano com desconto, com um mínimo de cerca de 58,60 €/ano; na prática, normalmente 55–100 €/ano); em Cascais existem as Hortas Solidárias, e projectos semelhantes funcionam no Porto, Loures, Almada e noutros municípios. Normalmente é necessário NIF com morada no município, comprovativo de residência e inscrição em lista de espera. Prazo real de espera em 2026: frequentemente 6–12 meses, mais tempo nas freguesias centrais.',
   tags: ['hortas', 'bairro', 'horta', 'lisboa', 'cascais'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,7 +32,7 @@ export default {
         { kind: 'paragraph', text: 'Procure no site da sua Câmara Municipal pelas expressões “hortas comunitárias”, “hortas urbanas”, “hortas solidárias”, “agricultura urbana” ou “ambiente”. Nas cidades maiores, as candidaturas passam frequentemente pelo portal municipal; nas mais pequenas, pela Junta de Freguesia.' },
         { kind: 'substeps', items: [
           { id: 'lisboa', title: 'Lisboa — CML Hortas Comunitárias', content: [
-            { kind: 'paragraph', text: 'Em Lisboa, a rede de hortas é gerida pela Câmara Municipal de Lisboa. Em 2026, o participante paga uma contribuição simbólica de cerca de 3 €/mês por talhão. A candidatura é normalmente apresentada online através dos serviços municipais ou segundo as instruções da CML; a atribuição depende dos talhões disponíveis e da lista de espera.' }
+            { kind: 'paragraph', text: 'Em Lisboa, a rede de hortas (parques hortícolas) é gerida pela Câmara Municipal de Lisboa. Em 2026, a taxa por talhão é anual e calculada por área: o valor de referência é de 1,6 €/m² por ano, com desconto para hortas sociais (80%) e hortas de recreio (20%), mas não inferior a cerca de 58,60 €/ano. Na prática, um talhão custa normalmente 55–100 €/ano. A candidatura é normalmente apresentada online através dos serviços municipais ou segundo as instruções da CML; a atribuição depende dos talhões disponíveis e da lista de espera.' }
           ] },
           { id: 'cascais', title: 'Cascais — Hortas Solidárias', content: [
             { kind: 'paragraph', text: 'Em Cascais existe o programa Hortas Solidárias. Destina-se aos residentes do concelho e tem frequentemente uma componente social: alimentação sustentável, formação, inclusão de pessoas idosas e famílias. As condições e as hortas disponíveis são publicadas pela Câmara Municipal de Cascais.' }
@@ -121,7 +121,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Lisboa CML Hortas Comunitárias', amountEUR: 3, note: 'Contribuição mensal indicativa por talhão; confirme o regulamento e o edital actualizados da horta específica.' },
+    { label: 'Lisboa parques hortícolas (talhão)', amountEURMin: 55, amountEURMax: 100, note: 'Taxa anual indicativa por talhão (1,6 €/m² por ano com desconto, mínimo de cerca de 58,60 €); confirme o regulamento e o edital actualizados da horta específica.' },
     { label: 'Ferramentas básicas', amountEURMin: 25, amountEURMax: 70, note: 'Luvas, pequena enxada, tesoura de poda, regador; frequentemente algumas ferramentas estão disponíveis na zona comum.' },
     { label: 'Sementes e plantas para começar', amountEURMin: 10, amountEURMax: 40, note: 'Depende da estação; nos mercados e viveiros é mais barato do que nas grandes lojas.' }
   ],
@@ -148,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

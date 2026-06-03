@@ -16,7 +16,8 @@ export default {
           'The payment deadline is the end of the anniversary month of the first registration in Portugal (for imported used vehicles, usually the date of Portuguese registration/matrícula)',
           'Example: Portuguese registration of the car on 10 March 2020 — IUC is paid by 31 March each year',
           'When a car is sold, IUC falls on whoever is listed as the holder at the moment the liability arises',
-          '⚠️ For imported used cars: the tax rate may be calculated taking into account the first registration in the EU/EEA, but the payment month is based on the Portuguese registration'
+          '⚠️ For imported used cars: the tax rate may be calculated taking into account the first registration in the EU/EEA, but the payment month is based on the Portuguese registration',
+          '📅 For 2026 the “anniversary month” rule still applies. Under the 2026 State Budget (OE 2026), from 2027 a single IUC payment date (April) is planned for all vehicles — watch for updates'
         ]},
         { kind: 'warning', text: 'Non-payment of IUC is a tax debt to AT (Autoridade Tributária): interest and fines accrue, and penhora is possible. IUC is not an automatic condition for passing the IPO roadworthiness inspection, and the debt is the taxpayer’s personal debt; the sale of a car is not formally blocked by an IUC debt alone, but in a transaction you should take into account the risk of liability and debt issues.' }
       ]
@@ -83,12 +84,12 @@ export default {
       title: 'Exemptions and discounts',
       content: [
         { kind: 'checklist', items: [
-          '♿ People with disability ≥ 60% — full exemption',
-          '🚜 Agricultural machinery on a farm — exemption',
-          '🇵🇹 Diplomats — exemption',
-          '⚡ Electric vehicles in categories B/E — exemption',
-          '🚗 First year for veterans and large families — discount',
-          '🏝️ Madeira and Açores — reduced local rates'
+          '♿ People with a disability rating ≥ 60% — exemption (one vehicle per beneficiary per year, exemption capped at €240; for category B only within the CO2 limits)',
+          '🚜 Tractors and agricultural machinery used on a farm — exemption',
+          '🚑 Fire-brigade, ambulance, security-force and IPSS vehicles — exemption',
+          '🏛️ Historic vehicles over 30 years old with official status — special regime',
+          '⚡ Electric vehicles (100% BEV) in categories A/B/E — exemption',
+          '🏝️ Madeira and Açores — reduced regional rates'
         ]}
       ]
     }
@@ -104,6 +105,6 @@ export default {
     { title: 'Portal das Finanças — IUC', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Pay IUC', url: 'https://www.gov.pt/cidadaos/-/informacoes/pagar-o-imposto-unico-de-circulacao-iuc-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'apanha-bivalves-mar',
   categoryId: 'food_leisure',
   title: 'Apanha de bivalves — licença e zonas sanitárias',
-  tldr: 'A apanha de bivalves na praia e na zona costeira (amêijoa, berbigão, conquilha, longueirão) é uma categoria separada de Pesca Lúdica da DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos).\n\nA licença "Apanha Apeada": ~10 € por 3 dias, ~25 € por ano. Limite diário: 1 kg com concha por pessoa. Só se pode apanhar em zonas sanitariamente classificadas (zonas classificadas): o IPMA (Instituto Português do Mar e da Atmosfera) publica todos os meses a lista A/B/C. A apanha em zonas não classificadas é ilegal OU exige tratamento térmico obrigatório (mesmo que a espécie seja permitida).\n\nSão proibidos: pé-de-cabra, quaisquer instrumentos mecânicos, bem como a apanha de conchas abaixo do tamanho mínimo (amêijoa 25 mm, berbigão 25 mm, longueirão 100 mm).\n\nA licença de Pesca Lúdica à linha para cana NÃO cobre a apanha de bivalves — é necessária uma licença separada.',
+  tldr: 'A apanha de bivalves na praia e na zona costeira (amêijoa, berbigão, conquilha, longueirão) é apanha lúdica no âmbito da Pesca Lúdica, regulada pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos).\n\nA apanha manual sem utensílios não exige licença. Se usar um utensílio (ancinho, faca, sacho), precisa da licença lúdica «apeada»: ~2 € por dia, ~4 € por mês, ~8 € por ano (Portaria 14/2014). Limite diário de bivalves: 2 kg com concha por pessoa. Só se pode apanhar em zonas sanitariamente classificadas (zonas classificadas): o IPMA (Instituto Português do Mar e da Atmosfera) publica todos os meses a lista A/B/C. A apanha em zonas não classificadas é proibida.\n\nImportante: a apanha de bivalves é proibida de 1 de maio a 15 de junho (defeso) em águas oceânicas e interiores marítimas.\n\nSão proibidos: pé-de-cabra, quaisquer instrumentos mecânicos, bem como a apanha de conchas abaixo do tamanho mínimo (amêijoa 25 mm, berbigão 25 mm, longueirão 100 mm).',
   tags: ['bivalves', 'mariscagem', 'apanha', 'amêijoa', 'dgrm', 'ipma'],
   estimatedReadMinutes: 6,
   steps: [
@@ -19,7 +19,7 @@ export default {
           'Equinodermes: ouriço-do-mar — especialmente regulado',
           'NÃO inclui: pesca à cana (é necessária Pesca Lúdica à linha), retirar polvo à mão da toca (proibido desde 2017), lagostas (apenas captura profissional)'
         ] },
-        { kind: 'warning', text: 'A licença de Pesca Lúdica à linha (para cana) NÃO é válida para bivalves. E vice-versa. Muitas pessoas pensam: “tenho licença”, vão apanhar ameijoa no Algarve e recebem uma coima de 250-500 €.' }
+        { kind: 'warning', text: 'A apanha manual sem utensílios não exige licença. Mas assim que usa um utensílio (ancinho, faca, sacho), precisa da licença lúdica “apeada”. Muitas pessoas apanham ameijoa no Algarve com ancinho e sem licença nenhuma e recebem uma coima de 100-500 €.' }
       ]
     },
     {
@@ -40,17 +40,18 @@ export default {
     },
     {
       id: 'how-to-license',
-      title: 'Obter a licença Apanha Apeada',
+      title: 'É precisa licença e como a obter',
       content: [
-        { kind: 'paragraph', text: 'A licença obtém-se por vários canais (o host portal.dgrm.mm.gov.pt já não funciona): em qualquer caixa Multibanco (Pagamentos e Outros Serviços → Estado e Setor Público → Licenciamento de Pesca Lúdica — para titulares de cartão Multibanco português); no balcão da DGRM em Lisboa (residentes e estrangeiros); nos balcões regionais das DRAP (Norte, Centro, LVT, Alentejo, Algarve); ou através do portal BMar — Balcão Eletrónico do Mar em www.bmar.pt (para não residentes e estrangeiros, pagamento por transferência bancária). Informação geral em www.dgrm.pt.' },
+        { kind: 'paragraph', text: 'Antes de mais: a apanha manual de moluscos sem utensílios NÃO exige licença (Decreto-Lei 101/2013). A licença é necessária se usar um utensílio (ancinho, faca, sacho) — nesse caso aplica-se a licença lúdica «apeada» (para apanha e pesca à linha a partir de terra).' },
+        { kind: 'paragraph', text: 'Obtém-se por vários canais: em qualquer caixa Multibanco (Pagamentos e Outros Serviços → Estado e Setor Público → Licenciamento de Pesca Lúdica — para titulares de cartão Multibanco português); no balcão da DGRM em Lisboa; nos balcões regionais das DRAP (Norte, Centro, LVT, Alentejo, Algarve); ou através do portal BMar — Balcão Eletrónico do Mar em www.bmar.pt (para não residentes e estrangeiros, pagamento por transferência bancária). Informação geral em www.dgrm.pt.' },
         { kind: 'checklist', items: [
-          '3 dias: ~10 €',
-          '1 mês: ~15 €',
-          '1 ano: ~25 €',
-          '3 anos: ~60 €',
+          'Apanha manual sem utensílios: gratuita, não precisa de licença',
+          'Licença «apeada» — 1 dia: ~2 €',
+          'Licença «apeada» — 1 mês: ~4 €',
+          'Licença «apeada» — 1 ano: ~8 €',
           'A licença é nominal, não pode ser transmitida'
         ] },
-        { kind: 'paragraph', text: 'O combo «à linha apeada + apanha» por vezes compensa se você também pesca e apanha moluscos.' }
+        { kind: 'paragraph', text: 'As taxas são fixadas pela Portaria 14/2014; confirme o preço final no portal ao fazer o pedido.' }
       ]
     },
     {
@@ -68,13 +69,14 @@ export default {
           'Polvo: 750 g (mas retirá-lo à mão da toca é proibido desde 2017)',
           'Percebes: 25 mm na base de fixação'
         ] },
-        { kind: 'paragraph', text: 'Limite diário:' },
+        { kind: 'paragraph', text: 'Limite diário (Portaria 14/2014; o limite total da pesca lúdica é de 10 kg por pessoa por dia):' },
         { kind: 'checklist', items: [
-          'Todos os bivalves no total: 1 kg com concha por pessoa por dia',
+          'Todos os bivalves no total: 2 kg com concha por pessoa por dia',
           'Percebes: 0,5 kg no total (espécie especialmente protegida!)',
-          'Mexilhão: 1 kg',
+          'Mexilhão: 3 kg',
           'Polvo: até 5 kg (é difícil atingir, mas a regra existe)'
         ] },
+        { kind: 'warning', text: 'Defeso: a apanha de bivalves é proibida de 1 de maio a 15 de junho em águas oceânicas e interiores marítimas. Além disso, as capitanias locais podem impor períodos e zonas de interdição adicionais — verifique sempre o edital em vigor.' },
         { kind: 'paragraph', text: 'Instrumentos permitidos e proibidos:' },
         { kind: 'checklist', items: [
           '✅ Apenas apanha manual (dedos, pau fino)',
@@ -166,21 +168,22 @@ export default {
     }
   ],
   costs: [
-    { label: 'Apanha Apeada — 3 dias', amountEUR: 10 },
-    { label: 'Apanha Apeada — 1 mês', amountEUR: 15 },
-    { label: 'Apanha Apeada — 1 ano', amountEUR: 25 },
-    { label: 'Combo (à linha + apanha) — ano', amountEURMin: 35, amountEURMax: 50, note: 'Verifique o preço final no portal da DGRM ao fazer o pedido' },
+    { label: 'Apanha manual sem utensílios', amountEUR: 0, note: 'Não requer licença' },
+    { label: 'Licença «apeada» — 1 dia', amountEUR: 2 },
+    { label: 'Licença «apeada» — 1 mês', amountEUR: 4 },
+    { label: 'Licença «apeada» — 1 ano', amountEUR: 8, note: 'Taxas pela Portaria 14/2014; confirme ao fazer o pedido' },
     { label: 'Sacha (ancinho) para bivalves', amountEURMin: 15, amountEURMax: 35, note: 'Na Decathlon e em lojas de pesca' },
     { label: 'Coima sem licença', amountEURMin: 100, amountEURMax: 500 },
     { label: 'Coima em zona PROIBIDO', amountEURMin: 250, amountEURMax: 1500 }
   ],
   sources: [
-    { title: 'DGRM — Pesca Lúdica e Apanha', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPMA — Bivalves: zonas e classificação sanitária', url: 'https://www.ipma.pt/pt/bivalves/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPMA Bivalves App — mapa de zonas em tempo real (iOS/Android)', url: 'https://www.ipma.pt/pt/bivalves/avisos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 246/2000 — Pesca Lúdica e Apanha', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 27/2001 — tamanho mínimo por espécie', url: 'https://dre.pt/dre/detalhe/portaria/27-2001-411720', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'DGRM — Pesca Lúdica', url: 'https://www.dgrm.pt/pesca-pl-licenciamento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'DGRM — Apanha (utensílios e espécies)', url: 'https://www.dgrm.pt/apanha', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'IPMA — Bivalves: zonas e classificação sanitária', url: 'https://www.ipma.pt/pt/bivalves/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'IPMA Bivalves App — mapa de zonas em tempo real (iOS/Android)', url: 'https://www.ipma.pt/pt/bivalves/avisos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Decreto-Lei 101/2013 — regime jurídico da pesca lúdica', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2013-34538275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Portaria 14/2014 — licenças, taxas e limites de captura', url: 'https://dre.pt/dre/detalhe/portaria/14-2014-278910', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -111,6 +111,6 @@ export default {
     { title: 'Lei 52/2012 — Lei de Bases dos Cuidados Paliativos', url: 'https://diariodarepublica.pt/dr/detalhe/lei/52-2012-174841', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — linha de contacto 808 24 24 24', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

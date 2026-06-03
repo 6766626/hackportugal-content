@@ -3,7 +3,7 @@ export default {
   id: 'ethnic-restaurants-groceries',
   categoryId: 'food_leisure',
   title: 'Ethnic food — where to buy Russian, Georgian and Brazilian products',
-  tldr: 'In Lisbon and Porto there are shops with CIS products (Slavyanka, Bazar Russo, Euromercado), Georgian restaurants, and Brazilian supermarkets (Brasa, Brasileirinho)\.\n\nDelivery from Spain — Tiendas de Rusia (Madrid): timings and cost depend on the address/weight/promotions; check at checkout. Some large Continente/Pingo Doce stores sometimes have individual Eastern European products, but the range is inconsistent. Georgian wine is sometimes found in specialised wine shops and in temporary Lidl/other chain promotions; check the current folheto.',
+  tldr: 'In Lisbon and Porto there are shops with CIS products (Slavyanka, Bazar Russo, Euromercado), Georgian restaurants, and Brazilian supermarkets (Brasa, Brasileirinho).\n\nDelivery from Spain — Tiendas de Rusia (Madrid): timings and cost depend on the address/weight/promotions; check at checkout. Some large Continente/Pingo Doce stores sometimes have individual Eastern European products, but the range is inconsistent. Georgian wine is sometimes found in specialised wine shops and in temporary Lidl/other chain promotions; check the current folheto.',
   tags: ['ethnic food', 'russian products', 'georgian', 'brazilian'],
   estimatedReadMinutes: 5,
   steps: [
@@ -132,6 +132,6 @@ export default {
     { title: 'Visit Lisboa — Ethnic restaurants', url: 'https://www.visitlisboa.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Tiendas de Rusia (ES delivery to PT)', url: 'https://www.tiendasderusia.es/', kind: 'company', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

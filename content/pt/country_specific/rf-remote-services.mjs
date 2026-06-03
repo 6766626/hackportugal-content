@@ -32,7 +32,7 @@ export default {
           { id: 'c1', title: 'Certificado de registo criminal (GUVM do MVD)', content: [
             { kind: 'checklist', items: [
               'Através do Gosuslugi (gosuslugi.ru) → Serviços → Certificados → Existência de registo criminal',
-              'Prazo: 30 dias úteis',
+              'Prazo: até 30 dias de calendário (na prática, muitas vezes mais rápido)',
               'Entrega: em PDF com assinatura eletrónica na área pessoal',
               'Adicionalmente — apostila: através do Gosuslugi (apostila eletrónica) ou através do MFC / Ministério dos Negócios Estrangeiros',
               'Para Portugal basta o PDF com assinatura eletrónica + PDF com apostila + tradução certificada para português',
@@ -66,7 +66,7 @@ export default {
           '📋 Documentos: passaporte da Federação Russa, texto da procuração (preparar antecipadamente), dados do procurador (nome completo, dados do passaporte, morada)',
           '💶 Taxa: cerca de 30-60 € consoante o tipo (geral, pontual)',
           '📜 O notário-cônsul autentica no dia da visita',
-          'A procuração pronta é válida na Federação Russa como notarial (art. 38 da Lei sobre instituição consular)',
+          'A procuração pronta é válida na Federação Russa como notarial (o cônsul pratica atos notariais ao abrigo do Estatuto Consular da Federação Russa)',
           'Pode ser usada para: venda de imóveis, condução de processos judiciais, operações fiscais, recebimento de pensão, encerramento de atividade como empresário individual'
         ]},
         { kind: 'warning', text: 'Alternativa — contacto remoto com um notário na Federação Russa através da aplicação “Notarius Online” + Gosuslugi. Mas a aplicação exige ESIA e biometria — funciona apenas se a conta estiver ativa e a biometria tiver sido feita anteriormente na Federação Russa.' }
@@ -80,7 +80,7 @@ export default {
           { id: 'i1', title: '1. Concluir todas as obrigações', content: [
             { kind: 'checklist', items: [
               'Notificar os clientes sobre o encerramento',
-              'Pagar contribuições para a segurança social ao PFR (proporcionalmente ao período do ano)',
+              'Pagar contribuições para a segurança social (desde 2023 — ao Fundo Social da Rússia, SFR; proporcionalmente ao período trabalhado no ano)',
               'Submeter as declarações finais (USN / patente) — através da área pessoal em nalog.ru',
               'Pagar saldos de impostos',
               'Encerrar a conta bancária empresarial (ou mantê-la — não é obrigatório antes do encerramento da atividade como empresário individual)'
@@ -90,7 +90,7 @@ export default {
             { kind: 'checklist', items: [
               'Através do Gosuslugi (gosuslugi.ru) com assinatura eletrónica qualificada',
               'Ou através de nalog.ru “Área pessoal do empresário individual”',
-              'Taxa estatal: 160 € (através do Gosuslugi — 112 € com desconto de 30%)',
+              'Taxa estatal: na submissão eletrónica com assinatura eletrónica qualificada (através do Gosuslugi ou nalog.ru) — 0 ₽; a taxa de 160 ₽ aplica-se apenas à submissão em papel',
               'Prazo de processamento: 5 dias úteis',
               'Resultado: notificação de cessação na área pessoal + EGRIP'
             ]}
@@ -99,8 +99,8 @@ export default {
             { kind: 'checklist', items: [
               'No prazo de 15 dias após o encerramento — submeter as declarações fiscais finais',
               'No prazo de 15 dias — pagar as contribuições para a segurança social relativas ao período trabalhado',
-              'Cancelar o registo de OKVED no Rosstat (automaticamente aquando do encerramento)',
-              'Guardar os documentos durante 4 anos (prazo de inspeção fiscal)'
+              'A saída do registo estatístico no Rosstat ocorre automaticamente aquando do encerramento',
+              'Guardar os documentos durante 5 anos (prazo previsto no art. 23 do Código Fiscal da Federação Russa)'
             ]}
           ]}
         ]}
@@ -127,9 +127,9 @@ export default {
         { kind: 'checklist', items: [
           '💳 “Mir” em Portugal: não funciona (não é aceite por caixas automáticos nem terminais de pagamento na UE)',
           '💳 UnionPay (Gazprombank) — funciona parcialmente em caixas automáticos em Portugal',
-          '💳 Visa/Mastercard de bancos não sancionados: Raiffeisen (Raiffeisen Bank International — sob pressão, o estatuto muda), Tinkoff Bank — parcialmente',
+          '💳 Visa/Mastercard de bancos não sancionados: Raiffeisen (Raiffeisen Bank International — sob pressão, o estatuto muda), T-Bank (antigo Tinkoff) — parcialmente',
           '💰 Para pagamentos na Federação Russa (impostos, taxas) a partir de Portugal: use a conta de um familiar / criptomoeda → rublos através de P2P Binance / BestChange',
-          '💼 Sanções do 12.º pacote: transferências para a Federação Russa via SWIFT a partir de bancos da UE estão fortemente limitadas. Use Wise / Revolut para transferir para um destinatário russo que tenha um banco não sancionado',
+          '💼 Sanções da UE: transferências para a Federação Russa via SWIFT a partir de bancos da UE estão fortemente limitadas. Use Wise / Revolut para transferir para um destinatário russo que tenha um banco não sancionado',
           '⚠️ Grandes fornecedores recusam aceitar SWIFT da Federação Russa — tenha isto em conta no planeamento'
         ]}
       ]
@@ -141,7 +141,7 @@ export default {
         { kind: 'checklist', items: [
           '📅 Marcação no consulado — reserve com 2-3 meses de antecedência para serviços planeados',
           '🔐 ESIA / Gosuslugi: guarde um login funcional antes da mudança; não altere a palavra-passe sem acesso ao telefone russo',
-          '📱 Telefone russo: mantenha o número ativo (Tinkoff Mobile, MTS eSIM) — é necessário para códigos SMS do Gosuslugi',
+          '📱 Telefone russo: mantenha o número ativo (T-Mobile RU, MTS eSIM) — é necessário para códigos SMS do Gosuslugi',
           '📧 Notificações do FNS: associe o correio eletrónico à área pessoal — caso contrário, poderá perder notificações fiscais',
           '⚖️ Situações complexas (partilha de bens, ações judiciais, herança): contratar um advogado na Federação Russa + emitir-lhe uma procuração através do consulado da Federação Russa em Portugal',
           '🔑 Assinatura eletrónica: se precisar de atos notariais sem ela — apenas através do consulado'
@@ -151,9 +151,9 @@ export default {
   ],
   costs: [
     { label: 'Certificado de registo criminal do GUVM', amountEUR: 0 },
-    { label: 'Apostila (Ministério da Justiça da Federação Russa)', amountEURMin: 30, amountEURMax: 50, note: '2500 BYN' },
+    { label: 'Apostila (Ministério da Justiça da Federação Russa)', amountEURMin: 25, amountEURMax: 35, note: 'taxa estatal 2500 ₽' },
     { label: 'Procuração consular', amountEURMin: 30, amountEURMax: 60 },
-    { label: 'Encerramento de atividade como empresário individual (Gosuslugi)', amountEURMin: 1, amountEURMax: 3, note: '112-160 ₽' },
+    { label: 'Encerramento de atividade como empresário individual (Gosuslugi, eletrónico)', amountEUR: 0, note: 'gratuito; 160 ₽ apenas na submissão em papel' },
     { label: 'Tradução certificada em Portugal', amountEURMin: 25, amountEURMax: 50, note: '€/página' }
   ],
   sources: [
@@ -161,6 +161,6 @@ export default {
     { title: 'Gosuslugi', url: 'https://gosuslugi.ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-04-22' },
     { title: 'FNS — Área pessoal do empresário individual', url: 'https://lkip.nalog.ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

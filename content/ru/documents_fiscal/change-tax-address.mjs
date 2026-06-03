@@ -3,7 +3,7 @@ export default {
   id: 'change-tax-address',
   categoryId: 'documents_fiscal',
   title: 'Смена налогового адреса (domicílio fiscal) в Finanças',
-  tldr: 'Налоговый адрес (domicílio fiscal) — обязательное поле в Finanças. По art. 19.º LGT (Lei Geral Tributária) новый адрес нужно сообщить в течение 60 дней — иначе штраф 75–375 € по RGIT, а сама смена может быть признана неэффективной для налоговых целей.\n\nЕсли у вас Cartão de Cidadão — адрес меняется через gov.pt/Cartão de Cidadão с подтверждением кодом из бумажного письма (приходит ~5 рабочих дней, на подтверждение даётся 90 дней). После подтверждения адрес автоматически передаётся в AT.\n\nЕсли только NIF/ВНЖ без Cartão de Cidadão — через Portal das Finanças → «Cidadãos» → «Serviços» → «Dados Cadastrais» → «Morada» → «Entregar Pedido de Alteração». Процесс тоже двухфазный: запрос + подтверждение кодом из письма.\n\nСмена бесплатна. ВАЖНО: смена адреса в Finanças НЕ обновляет автоматически AIMA, SNS, Segurança Social, банк, водительские права — каждое ведомство уведомляйте отдельно. Для IMI важен главным образом статус habitação própria e permanente; сама ставка IMI зависит от município, где находится объект.',
+  tldr: 'Налоговый адрес (domicílio fiscal) — обязательное поле в Finanças. По art. 19.º LGT (Lei Geral Tributária) новый адрес нужно сообщить в течение 60 дней — иначе штраф 75–375 € по RGIT, а сама смена может быть признана неэффективной для налоговых целей.\n\nЕсли у вас Cartão de Cidadão — адрес меняется через gov.pt/Cartão de Cidadão с подтверждением кодом из бумажного письма (приходит ~5 рабочих дней, на подтверждение даётся 90 дней). После подтверждения адрес автоматически передаётся в AT.\n\nЕсли у вас только NIF/ВНЖ без Cartão de Cidadão — через Portal das Finanças → «Cidadãos» → «Serviços» → «Dados Cadastrais» → «Morada» → «Entregar Pedido de Alteração». Процесс тоже двухфазный: запрос + подтверждение кодом из письма.\n\nСмена бесплатна. ВАЖНО: смена адреса в Finanças НЕ обновляет автоматически AIMA, SNS, Segurança Social, банк, водительские права — каждое ведомство уведомляйте отдельно. Для IMI важен главным образом статус habitação própria e permanente; сама ставка IMI зависит от município, где находится объект.',
   tags: ['domicílio fiscal', 'адрес', 'Finanças', 'переезд'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Процесс двухфазный независимо от пути: сначала запрос, затем подтверждение кодом из бумажного письма, которое приходит на новый адрес.' },
         { kind: 'checklist', items: [
           '💳 Если у вас Cartão de Cidadão: gov.pt → «Alterar a morada do Cartão de Cidadão». Авторизация через Chave Móvel Digital + телефон, ИЛИ Cartão de Cidadão + PIN + cardreader. После подтверждения адрес автоматически передаётся в AT и в часть других сервисов через AMA',
-          '🧾 Если только NIF/ВНЖ без Cartão de Cidadão: portaldasfinancas.gov.pt → «Cidadãos» → «Serviços» → «Dados Cadastrais» → «Morada» → «Entregar Pedido de Alteração». Авторизация через CMD или CC',
+          '🧾 Если у вас только NIF/ВНЖ без Cartão de Cidadão: portaldasfinancas.gov.pt → «Cidadãos» → «Serviços» → «Dados Cadastrais» → «Morada» → «Entregar Pedido de Alteração». Авторизация через CMD или CC',
           '🔁 Альтернатива через e-balcão (для специфических случаев, например смены статуса резидент/нерезидент): «Registo Contribuinte» → «Identific» → «Alteração Morada / Singulares», с возможностью загрузить документы',
           '🏠 Ввести новый адрес (rua, número, código postal, freguesia)',
           '📬 Дождаться письма с кодом подтверждения — ~5 рабочих дней (на Мадейре/Азорах может дольше)',
@@ -84,7 +84,7 @@ export default {
     { title: 'Lei Geral Tributária (LGT) — artigo 19.º, domicílio fiscal', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1998-34541975', kind: 'law', language: 'pt', lastRetrieved: '2026-05-29' },
     { title: 'Código do IRS — art. 16.º, 71.º, 72.º (residência, taxas)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-29' }
   ],
-  lastVerified: '2026-05-29',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-29',
   changeSummary: '🔄 Сверка май 2026: (1) eportugal.gov.pt мигрировал на gov.pt — обновили URL источников; (2) меню Portal das Finanças переименовано: «Dados Pessoais Relevantes» → «Dados Cadastrais»; (3) добавили конкретику: код приходит ~5 раб. дней, на подтверждение 90 дней; (4) добавили штраф 75–375 € (RGIT) за пропуск 60-дневного срока; (5) уточнили методы аутентификации (CMD + телефон или CC + PIN + cardreader); (6) добавили e-balcão как альтернативу для смены статуса резидент/нерезидент.'

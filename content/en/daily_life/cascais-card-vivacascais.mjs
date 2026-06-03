@@ -3,7 +3,7 @@ export default {
   id: 'cascais-card-vivacascais',
   categoryId: 'daily_life',
   title: 'Cascais Card / Viva Cascais — Cascais resident card',
-  tldr: 'Cartão Viver Cascais / Viva Cascais is the Câmara Municipal de Cascais municipal card for residents, workers and students in the Cascais municipality. In 2026 it is needed to access municipal benefits: BUS LINE/MobiCascais, parking through Cascais Próxima, swimming pools, sport, culture, events and local discounts. Application is usually free online through Cascais ID; you need a NIF, identity document and proof of a connection to Cascais: address, work or study.',
+  tldr: 'Cartão Viver Cascais / Viva Cascais is the Câmara Municipal de Cascais municipal card for residents, workers and students in the Cascais municipality. In 2026 it is needed to access municipal benefits: BUS LINE/MobiCascais, parking through Cascais Próxima, swimming pools, sport, culture, events and local discounts. The digital card is issued free online through a MyCascais account; the physical card is optional and costs €7. You need a NIF, identity document and proof of a connection to Cascais: address, work or study.',
   tags: ['cascais', 'vivacascais', 'transport', 'parking'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'What this card is',
       content: [
-        { kind: 'paragraph', text: 'Cartão Viver Cascais is the Câmara Municipal de Cascais municipal benefits card. In everyday use it is often called the Cascais Card or Viva Cascais, because access to services goes through the Cascais ID digital account, the municipality’s website and apps.' },
+        { kind: 'paragraph', text: 'Cartão Viver Cascais is the Câmara Municipal de Cascais municipal benefits card. In everyday use it is often called the Cascais Card or Viva Cascais, because access to services goes through the MyCascais digital account, the municipality’s website and apps.' },
         { kind: 'paragraph', text: 'The card does not replace a residence permit, Cartão de Cidadão, NIF, Navegante or bank card. It is a local pass for discounts and fares specifically in the concelho de Cascais: Cascais, Estoril, Carcavelos, Parede, Alcabideche, São Domingos de Rana.' },
         { kind: 'checklist', items: [
           'Cascais residents — based on an address of residence in the municipality',
@@ -36,7 +36,7 @@ export default {
           'Bibliotecas and municipal services: simplified identification for some municipal services',
           'Partners: local discounts with commercial partners, if they are active on the current Câmara list'
         ] },
-        { kind: 'warning', text: 'Do not plan your budget on the basis that “everything is free”. Whether something is free or discounted depends on the specific service, your status and the conditions in force. Before travelling, parking or buying a ticket, check the fare in MobiCascais/Cascais Próxima or on cm-cascais.pt.' }
+        { kind: 'warning', text: 'Do not plan your budget on the basis that “everything is free”. Whether something is free or discounted depends on the specific service, your status and the conditions in force. Before travelling, parking or buying a ticket, check the fare in MobiCascais/Cascais Próxima or on cascais.pt.' }
       ]
     },
     {
@@ -52,7 +52,7 @@ export default {
           'If you are a student: declaração de matrícula or student document from an educational institution in Cascais',
           'For a child: the child’s document, the child’s NIF if available, the parent’s document and proof of parental authority, if the system requests it',
           'Email and Portuguese mobile number for confirmations',
-          'Access to Cascais ID / Câmara personal account'
+          'Access to MyCascais / Câmara personal account'
         ] },
         { kind: 'warning', text: 'Atestado de residência from the Junta de Freguesia is useful if you do not have a rental contract in your own name or utility bills. To issue an atestado, the Junta usually asks for an identity document, NIF, proof of address and sometimes two witnesses from the freguesia.' }
       ]
@@ -62,8 +62,8 @@ export default {
       title: 'How to apply online',
       content: [
         { kind: 'substeps', items: [
-          { id: 'create-cascais-id', title: '1. Create a Cascais ID', content: [
-            { kind: 'paragraph', text: 'Go to the Câmara Municipal de Cascais website and create a personal account. Use an email address to which you have permanent access: confirmations and application notifications will be sent there.' }
+          { id: 'create-cascais-id', title: '1. Create a MyCascais account', content: [
+            { kind: 'paragraph', text: 'Go to the Câmara Municipal de Cascais website (cascais.pt) and create a personal MyCascais account — the application is submitted through it at viver.cascais.pt. Use an email address to which you have permanent access: confirmations and application notifications will be sent there.' }
           ] },
           { id: 'choose-profile', title: '2. Choose a profile', content: [
             { kind: 'paragraph', text: 'In the application, choose the basis: residente/munícipe, trabalhador or estudante. This determines which documents will be requested and which benefits will be activated.' }
@@ -116,39 +116,40 @@ export default {
     }
   ],
   costs: [
-    { label: 'Cartão Viver Cascais application', amountEUR: 0, note: 'Usually free; individual municipal services, parking, sport or events may be charged according to their own rates.' },
+    { label: 'Cartão Viver Cascais digital card', amountEUR: 0, note: 'Free: the digital card is issued automatically once your application is validated. Individual municipal services, parking, sport or events may be charged according to their own rates.' },
+    { label: 'Cartão Viver Cascais physical card', amountEUR: 7, note: 'Optional. Requested if you want it once your application is validated; valid for 5 years.' },
     { label: 'Atestado de residência at the Junta de Freguesia', amountEURMin: 0, amountEURMax: 10, note: 'The fee depends on the freguesia and the type of certificate; it is only needed if there is no other proof of address.' }
   ],
   sources: [
     {
       title: 'Câmara Municipal de Cascais — official municipal services website',
-      url: 'https://www.cm-cascais.pt',
+      url: 'https://www.cascais.pt',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
-      title: 'Câmara Municipal de Cascais — Cartão Viver Cascais',
-      url: 'https://www.cm-cascais.pt/cartao-viver-cascais',
+      title: 'Câmara Municipal de Cascais — Viver Cascais (apply / renew)',
+      url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
-      title: 'Câmara Municipal de Cascais — MobiCascais and transport',
-      url: 'https://www.cm-cascais.pt/mobi-cascais',
+      title: 'MobiCascais — Cartão Viver Cascais and transport',
+      url: 'https://mobi.cascais.pt/viver-cascais',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'Cascais Próxima — parking and mobility in Cascais',
       url: 'https://www.cascais.pt/empresa-municipal/cascais-proxima',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

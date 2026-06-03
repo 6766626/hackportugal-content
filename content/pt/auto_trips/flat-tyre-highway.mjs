@@ -3,7 +3,7 @@ export default {
   id: 'flat-tyre-highway',
   categoryId: 'auto_trips',
   title: 'Pneu furado na autoestrada — sequência correcta',
-  tldr: 'Nas autoestradas portuguesas é estritamente proibido mudar um pneu na faixa de rodagem. Procedimento: quatro piscas → encostar na berma de emergência → triângulo a 30 m → colete → chamada para a assistência (707 500 501 Brisa ou 707 509 510 IP). Para condutores comuns, o seguro assistência em viagem cobre normalmente o reboque e o transporte.',
+  tldr: 'Nas autoestradas portuguesas é estritamente proibido mudar um pneu na faixa de rodagem. Procedimento: quatro piscas → encostar na berma de emergência → triângulo a 30 m → colete → chamada para a assistência da concessionária ou para a sua seguradora. Para condutores comuns, o seguro assistência em viagem cobre normalmente o reboque e o transporte.',
   tags: ['acidente', 'roda', 'pneu', 'autoestrada', 'assistência'],
   estimatedReadMinutes: 5,
   steps: [
@@ -45,11 +45,10 @@ export default {
           ]},
           { id: 'c2', title: 'B. Concessionária da autoestrada', content: [
             { kind: 'checklist', items: [
-              'Brisa (A1, A2, A5, A6, A9-A14): 707 500 501',
-              'Ascendi (A4, A7, A24, A25, A41, A42): 707 509 510',
-              'AE do Atlântico (A8, A15): 707 200 002',
-              'Norscut (A24): 800 203 021',
-              'Há sempre postos SOS de emergência a cada 2 km'
+              'Brisa (A1, A2, A6, A8, A9-A13): 707 500 900 ou 210 730 300',
+              'Ascendi (A4, A11, A24, A41, A42): 229 767 767',
+              'O número exacto da concessionária consta do bilhete de portagem e dos painéis ao longo da via',
+              'Há sempre postos SOS de emergência a cada 2 km — ligam directamente ao centro de coordenação da concessionária'
             ]}
           ]},
           { id: 'c3', title: 'C. GNR — se houver feridos ou acidente', content: [
@@ -64,7 +63,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '📄 Recibo do reboque — necessário para a seguradora',
-          '🏪 Talão do pneu novo — se a avaria resultou de um buraco / detritos, pode apresentar reclamação à concessionária (707 500 501)',
+          '🏪 Talão do pneu novo — se a avaria resultou de um buraco ou de detritos na via, pode apresentar reclamação à concessionária',
           '📝 Apresentar reclamação no site da Brisa / Ascendi com fotografias do local + kp',
           '⏰ Prazo da reclamação — 30 dias',
           '💶 A concessionária muitas vezes reembolsa o custo do pneu, se conseguir provar a causa (fotografia do buraco, relatório da GNR)'
@@ -92,6 +91,6 @@ export default {
     { title: 'Autoridade Nacional de Segurança Rodoviária (ANSR)', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — segurança dos pneus', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

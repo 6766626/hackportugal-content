@@ -134,6 +134,6 @@ export default {
     { title: 'Banco de Portugal — crédito habitação, FINE, TAEG e produtos associados', url: 'https://www.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regime Jurídico do Contrato de Seguro — Decreto-Lei 72/2008', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2008-34561275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

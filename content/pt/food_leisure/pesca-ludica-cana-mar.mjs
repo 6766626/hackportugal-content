@@ -3,7 +3,7 @@ export default {
   id: 'pesca-ludica-cana-mar',
   categoryId: 'food_leisure',
   title: 'Pesca marítima a partir da costa — licença Pesca Lúdica à linha (DGRM)',
-  tldr: 'A pesca marítima recreativa a partir da costa, de molhes ou de rochas em Portugal exige uma licença de Pesca Lúdica da DGRM. Pode fazê-la online em portal.dgrm.mm.gov.pt em 5 minutos.\n\nDurações: dia (~2 €), mês (~4 €), ano (~8 €)\.\n\nImprima ou guarde o código QR da licença: numa fiscalização da Polícia Marítima / GNR‑SEPNA (serviço ambiental da guarda nacional), sem ela a coima começa nos 100 €. Respeite o limite diário (10 kg + 1 peixe, ou um peixe >10 kg), os tamanhos mínimos e o defeso por espécie.',
+  tldr: 'A pesca marítima recreativa a partir da costa, de molhes ou de rochas em Portugal exige uma licença de Pesca Lúdica da DGRM. Pode fazê-la online em portal.dgrm.mm.gov.pt em 5 minutos.\n\nDurações: dia (~2 €), mês (~4 €), ano (~8 €).\n\nImprima ou guarde o código QR da licença: numa fiscalização da Polícia Marítima / GNR‑SEPNA (serviço ambiental da guarda nacional), sem ela a coima começa nos 100 €. Respeite o limite diário (10 kg + 1 peixe, ou um peixe >10 kg), os tamanhos mínimos e o defeso por espécie.',
   tags: ['pesca', 'pesca', 'licença', 'mar', 'dgrm'],
   estimatedReadMinutes: 6,
   steps: [
@@ -71,7 +71,7 @@ export default {
         { kind: 'paragraph', text: 'A licença é apenas o começo. Depois aplicam-se os tamanhos mínimos por espécie, o defeso e o limite diário.' },
         { kind: 'checklist', items: [
           'Limite diário: 10 kg de captura por pessoa por dia + 1 peixe, OU um peixe com peso >10 kg (se apanhou esse, por hoje terminou)',
-          'Tamanhos mínimos: robalo 36 cm, dourada 23 cm, sargo 25 cm, choco 10 cm, polvo 750 g, etc. — lista completa no site da DGRM',
+          'Tamanhos mínimos: robalo 36 cm, dourada 19 cm, sargo 25 cm, choco 10 cm, polvo 750 g, etc. — lista completa no site da DGRM',
           'Defeso: períodos de proibição por espécie. robalo — proibição parcial nos meses de inverno, sardinha — defeso de verão (as datas mudam anualmente)',
           'Espécies proibidas: santola em determinados períodos, algumas raias — todo o ano',
           'Métodos proibidos: tresmalho/redes — apenas para profissionais; explosivos, veneno, choque elétrico — nunca',
@@ -155,6 +155,6 @@ export default {
     { title: 'Tamanhos mínimos por espécie — tabela da DGRM', url: 'https://www.dgrm.pt/pesca_cpt_especies', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Polícia Marítima — Autoridade Marítima Nacional', url: 'https://www.amn.pt/PM/Paginas/MissaoCompetencias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -43,7 +43,7 @@ export default {
             { kind: 'link', text: 'Mapa dos Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao' }
           ]},
           { id: 'e2', title: '2. Fazer marcação online', content: [
-            { kind: 'paragraph', text: 'Através de ePortugal.gov.pt → escolher o serviço → escolher o local → escolher a hora. A marcação é obrigatória.' }
+            { kind: 'paragraph', text: 'Através de ePortugal.gov.pt → escolher o serviço → escolher o local → escolher a hora. Por norma o Espaço Cidadão atende sem marcação, mas para os serviços mais procurados convém marcar com antecedência.' }
           ]},
           { id: 'e3', title: '3. Levar os documentos e comparecer', content: [
             { kind: 'paragraph', text: 'Chegue 10 min antes. Cada serviço demora 15-30 min. O operador ajuda muitas vezes com questões relacionadas sem uma marcação separada.' }
@@ -56,7 +56,7 @@ export default {
       title: 'Conselhos',
       content: [
         { kind: 'checklist', items: [
-          'Reserve sempre uma vaga com antecedência — por ordem de chegada muitas vezes não atendem',
+          'Nos pontos mais movimentados convém reservar uma vaga com antecedência: oficialmente o atendimento é sem marcação, mas a capacidade do dia esgota-se muitas vezes',
           'Leve o original e uma cópia de cada documento',
           'Se o operador recusar — peça educadamente para chamar um funcionário sénior',
           'Em Lisboa/Porto compensa ir a um Espaço Cidadão menos sobrecarregado nos arredores — há mais vagas disponíveis',
@@ -69,6 +69,6 @@ export default {
     { title: 'ePortugal — Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Loja de Cidadão — site oficial', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

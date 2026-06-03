@@ -3,7 +3,7 @@ export default {
   id: 'casa-eficiente-2020-credito',
   categoryId: 'housing_buy',
   title: 'Casa Eficiente 2020 — subsidised loan for home improvements',
-  tldr: 'Casa Eficiente 2020 is not a grant, but a preferential credit line for home renovation in Portugal: insulation, windows, HVAC, solar panels, water saving and other energy-efficiency works. Replace with: "official limits depend on the type of applicant and property; for private housing, the historical reference was a limit of around €50,000 per fraction/house, while amounts above this usually relate to the conditions of a specific bank or a separate green loan. Check the current FIN/FINE and the bank’s conditions.", but the final decision is made by the partner bank. Write more firmly: "Casa Eficiente 2020 is an old Portugal 2020 credit line; in 2026, do not assume that it is open for new applications. First confirm in writing with the bank and/or through the programme portal that Casa Eficiente 2020 itself, and not a similar commercial green loan, is available for a new operation."',
+  tldr: 'Casa Eficiente 2020 is not a grant, but a preferential credit line for home renovation in Portugal: insulation, windows, HVAC, solar panels, water saving and other energy-efficiency works. Official limits depend on the applicant and the property; for private housing the historical reference was up to €50,000 per fraction/house, while amounts above this usually relate to the conditions of a specific bank or a separate green loan, and the final decision is made by the partner bank. This is an old Portugal 2020 credit line: in 2026, do not assume it is open for new applications. First confirm in writing with the bank and/or through the programme portal that Casa Eficiente 2020 itself, and not a similar commercial green loan, is available for a new operation.',
   tags: ['casaeficiente', 'renovation', 'energia', 'credito'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What this programme is',
       content: [
         { kind: 'paragraph', text: 'Casa Eficiente 2020 is a Portuguese credit line for financing works that improve the environmental and energy performance of residential buildings. It is not a payment from the state into your account and not a tax deduction: you take out a bank loan for renovation, but under the programme’s special conditions.' },
-        { kind: 'paragraph', text: 'Write: "Historically, the line operated as a bank loan with a term of up to 10 years and a preferential spread close to 1.45–1.5% at participating banks, but the limit, TAN, TAEG, fees and availability of a new operation in 2026 must be confirmed with the specific bank. In 2026, Euribor changes, so the final rate is not fixed in advance: the bank will calculate it on the approval date.' },
+        { kind: 'paragraph', text: 'Historically, the line operated as a bank loan with a term of up to 10 years and a preferential spread close to 1.45–1.5% at participating banks, but the limit, TAN, TAEG, fees and availability of a new operation in 2026 must be confirmed with the specific bank. Euribor changes, so the final rate is not fixed in advance: the bank will calculate it on the approval date.' },
         { kind: 'warning', text: 'The name “2020” does not mean that the conditions are automatically available in 2026. As of April 2026, the official Casa Eficiente 2020 website remains a reference point, but actual lending depends on the partner bank, the remaining limit and the bank’s internal credit rules.' }
       ]
     },
@@ -59,7 +59,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'check-bank', title: '1. Check the partner bank and availability of the line', content: [
-            { kind: 'paragraph', text: 'Add a separate step: "before applying to the bank, check the operation on the Casa Eficiente 2020 portal/through the programme mechanism and obtain a declaração/comprovativo de enquadramento, if the portal is still accepting new operations; the bank then uses this document together with the credit application." In 2026, it is important to ask directly: “A linha Casa Eficiente 2020 ainda está disponível para novas operações?” If the manager does not know, ask for the crédito pessoal / crédito habitação department.' }
+            { kind: 'paragraph', text: 'Before applying to the bank, check the operation on the Casa Eficiente 2020 portal or through the programme mechanism and obtain a declaração/comprovativo de enquadramento, if the portal is still accepting new operations; the bank then uses this document together with the credit application. In 2026, it is important to ask directly: “A linha Casa Eficiente 2020 ainda está disponível para novas operações?” If the manager does not know, ask for the crédito pessoal / crédito habitação department.' }
           ] },
           { id: 'prepare-budget', title: '2. Prepare a quotation and technical description', content: [
             { kind: 'checklist', items: [
@@ -119,7 +119,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Maximum reference amount for a Casa Eficiente 2020 loan', amountEURMax: 110000, note: 'The actual limit depends on the bank, the property, the quotation and the availability of the line in 2026.' },
+    { label: 'Maximum reference amount for a Casa Eficiente 2020 loan', amountEURMax: 50000, note: 'The official programme reference is up to €50,000 per fraction/house; the actual limit depends on the bank, the property, the quotation and the availability of the line in 2026.' },
     { label: 'Typical repayment term', amountEURMin: 0, amountEURMax: 0, note: 'Up to 10 years; this is a term, not a separate charge.' },
     { label: 'Indicative rate', amountEURMin: 0, amountEURMax: 0, note: 'Around Euribor + 1.5%; the final TAN/TAEG is calculated by the bank on the offer date.' },
     { label: 'Home energy certificate', amountEURMin: 150, amountEURMax: 350, note: 'Market guide for a flat/small house; the price depends on area, region and perito qualificado.' },
@@ -131,6 +131,6 @@ export default {
     { title: 'Banco de Portugal — information on consumer credit and cost comparison', url: 'https://clientebancario.bportugal.pt/credito-aos-consumidores', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE/SCE — energy certification of buildings', url: 'https://www.sce.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

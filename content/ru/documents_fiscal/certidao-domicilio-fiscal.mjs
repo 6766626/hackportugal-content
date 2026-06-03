@@ -66,7 +66,7 @@ export default {
           'Банки часто требуют справку "не старше 3 месяцев"',
           'IRN/AIMA: зависит от процедуры; безопаснее подавать справку не старше 3 месяцев, если в конкретном списке документов не указан иной срок',
           'Если адрес сменился — запросите новую, старая становится недействительной',
-          'Для certificado de residência fiscal — действителен на конкретный налоговый год'
+          'Для certidão de residência fiscal — действительна на конкретный налоговый год'
         ]}
       ]
     },
@@ -75,7 +75,7 @@ export default {
       title: 'Частые проблемы',
       content: [
         { kind: 'warning', text: 'Если адрес в Finanças старый и вы переехали — сначала смените его (см. гайд «Смена налогового адреса»). Иначе справка подтвердит старый адрес.' },
-        { kind: 'warning', text: 'У нерезидентов domicílio fiscal в AT обычно — зарубежный адрес налогового проживания, а не португальский; поэтому certidão может не подтвердить фактический адрес в Португалии. Если нужно подтвердить адрес в Португалии (например, для банка), можно использовать Atestado de Residência от Junta de Freguesia — но Junta выдаёт его только при подтверждении фактического проживания; список доказательств зависит от freguesia, а банк заранее стоит спросить, какой proof of address он принимает.' }
+        { kind: 'warning', text: 'У нерезидентов domicílio fiscal в AT обычно — зарубежный адрес налогового резидентства, а не португальский; поэтому certidão может не подтвердить фактический адрес в Португалии. Если нужно подтвердить адрес в Португалии (например, для банка), можно использовать Atestado de Residência от Junta de Freguesia — но Junta выдаёт его только при подтверждении фактического проживания; список доказательств зависит от freguesia, а банк заранее стоит спросить, какой proof of address он принимает.' }
       ]
     }
   ],
@@ -89,6 +89,6 @@ export default {
     { title: 'Portal das Finanças — Certidões', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -23,7 +23,7 @@ export default {
         { kind: 'checklist', items: [
           'Euromilhões — draws on Tuesday and Friday; a simples entry in Portugal costs €2.50.',
           'M1lhão — a Portuguese additional code, usually included in Euromilhões; it gives a separate weekly prize of €1,000,000 for players in Portugal.',
-          'Totoloto — a national numbers lottery; a basic simples entry costs €0.40.',
+          'Totoloto — a national numbers lottery; a basic simples entry costs €1.',
           'Joker — an additional game with a separate number; an entry costs €1.',
           'Raspadinha — an instant scratchcard; the price depends on the series, usually €1–5, sometimes higher for special editions.',
           'Lotaria Clássica / Lotaria Popular — paper lottery tickets with draws and bilhete/fração shares.',
@@ -86,7 +86,7 @@ export default {
   ],
   costs: [
     { label: 'Euromilhões, simples entry', amountEUR: 2.5, note: 'Draws Tuesday/Friday; price in Portugal for a basic aposta.' },
-    { label: 'Totoloto, simples entry', amountEUR: 0.4, note: 'Basic entry; the final price depends on the number of apostas and additional options.' },
+    { label: 'Totoloto, simples entry', amountEUR: 1, note: 'Basic entry; the final price depends on the number of apostas and additional options.' },
     { label: 'Joker', amountEUR: 1, note: 'Additional game with a separate number.' },
     { label: 'Raspadinha', amountEURMin: 1, amountEURMax: 5, note: 'Typical range for popular series; special editions may cost more.' },
     { label: 'Tax on prizes', amountEUR: 0, note: 'Up to €5,000 no tax is withheld; on the excess above €5,000 — 20% Imposto do Selo.' }
@@ -97,6 +97,6 @@ export default {
     { title: 'Jogos Santa Casa — Totoloto', url: 'https://www.jogossantacasa.pt/web/SCCartazResult/cartazTotoloto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Imposto do Selo — taxation of prizes', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1999-34502275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

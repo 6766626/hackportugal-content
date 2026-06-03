@@ -51,7 +51,7 @@ export default {
           'Do not count on retrospective reimbursement without prior approval: IEFP often requires the application before training begins.',
           'If the course is needed for work in Portugal, ask the employer to arrange formação contínua or partial payment as a training benefit.'
         ] },
-        { kind: 'warning', text: 'Cheque-Formação + Digital in its previous format had limits and deadlines linked to the budget/PRR; by April 2026 the status needs to be checked with IEFP. Do not buy an expensive subscription expecting an automatic refund.' }
+        { kind: 'warning', text: 'Cheque-Formação + Digital in its previous format had limits and deadlines linked to the budget/PRR (the current programme runs until 30 June 2026); check the up-to-date status with IEFP. Do not buy an expensive subscription expecting an automatic refund.' }
       ]
     },
     {
@@ -101,6 +101,6 @@ export default {
     { title: 'Coursera — Coursera Plus and certificates', url: 'https://www.coursera.org/courseraplus', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Domestika — online courses and subscription', url: 'https://www.domestika.org', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

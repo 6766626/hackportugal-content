@@ -62,7 +62,7 @@ export default {
       title: 'Why this is not Brazil',
       content: [
         { kind: 'paragraph', text: 'Brazilian Carnaval means samba-enredo, sambódromo, huge escolas de samba and league competition. Portuguese Carnaval is more often organised as popular satire: the town itself mocks politicians, bureaucracy, prices, tourists, neighbouring freguesias and itself.' },
-        { kind: 'checklist', items: ['In Torres Vedras, samba is not the main thing: matrafonas, cabeçudos and political caricature matter more', 'In Loulé there is tourist scale, but the themes are often local and Portuguese', 'In Sesimbra, escolas de samba are more visible, but the atmosphere is still town-based, not Rio-style', 'In Madeira there is more sparkle and choreografia, but the format is adapted to Funchal and tourists', 'A costume does not have to be sexy or expensive: funny, absurd and homemade is often better', 'Alcohol is present, but it is not a licence to behave badly: police and segurança in tourist areas are active'] },
+        { kind: 'checklist', items: ['In Torres Vedras, samba is not the main thing: matrafonas, cabeçudos and political caricature matter more', 'In Loulé there is tourist scale, but the themes are often local and Portuguese', 'In Sesimbra, escolas de samba are more visible, but the atmosphere is still town-based, not Rio-style', 'In Madeira there is more sparkle and coreografia, but the format is adapted to Funchal and tourists', 'A costume does not have to be sexy or expensive: funny, absurd and homemade is often better', 'Alcohol is present, but it is not a licence to behave badly: police and segurança in tourist areas are active'] },
         { kind: 'paragraph', text: 'The best approach: do not compare it with Rio. Go as if to a Portuguese Entrudo — an old tradition of winter role-reversal, where you can be ridiculous, loud and temporarily free from seriousness.' }
       ]
     }
@@ -79,6 +79,6 @@ export default {
     { title: 'Câmara Municipal de Sesimbra — municipal programme and Carnaval', url: 'https://www.sesimbra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Visit Madeira — Carnival festivities in Madeira', url: 'https://visitmadeira.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'sos-voz-amiga-suicidio',
   categoryId: 'emergency_rights',
   title: 'SOS Voz Amiga и линии экстренной психологической помощи',
-  tldr: 'Если есть риск суицида или человек уже в опасности — звоните 112 или едьте в Urgência hospitalar. Для разговора и деэскалации в Португалии доступны SOS Voz Amiga 213 544 545, SNS 24 apoio psicológico 808 24 24 24, Linha de Emergência Social 144, SOS Criança 116 111, Linha SOS Estudante и Vodafone SOS Saúde Mental. Большинство линий бесплатные или по тарифу оператора; звонить можно без NIF, ВНЖ и регистрации в SNS.',
+  tldr: 'Если есть риск суицида или человек уже в опасности — звоните 112 или поезжайте в Urgência hospitalar. Для разговора и деэскалации в Португалии доступны SOS Voz Amiga 213 544 545, SNS 24 apoio psicológico 808 24 24 24, Linha de Emergência Social 144, SOS Criança 116 111, Linha SOS Estudante и Vodafone SOS Saúde Mental. Большинство линий бесплатные или по тарифу оператора; звонить можно без NIF, ВНЖ и регистрации в SNS.',
   tags: ['suicidio', 'психология', '112', 'sns'],
   estimatedReadMinutes: 5,
   steps: [
@@ -47,7 +47,7 @@ export default {
             'SNS 24 — 808 24 24 24: выберите apoio psicológico / aconselhamento psicológico; работает 24/7, можно звонить без похода в Centro de Saúde.',
             'Linha de Emergência Social — 144: бесплатно, 24/7; если кризис связан с бездомностью, насилием, отсутствием еды, детьми, пожилыми, срочным социальным риском.',
             'SOS Criança — 116 111: бесплатная линия для детей и про ситуации с детьми; подходит при насилии, пренебрежении, угрозах, побеге из дома.',
-            'Linha SOS Estudante — для студентов и молодых людей в кризисе; график и номера могут меняться по учебному году, проверяйте перед звонком.',
+            'Linha SOS Estudante — для студентов и молодых людей в кризисе; график и номера могут меняться в течение учебного года, проверяйте перед звонком.',
             'Vodafone SOS Saúde Mental — операторская инициатива психологической поддержки; актуальный доступ проверяйте на сайте Vodafone, так как формат кампаний меняется.',
             'Если номер не отвечает: не ждите “идеальную” линию — звоните 112 или SNS 24.'
           ]
@@ -187,6 +187,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

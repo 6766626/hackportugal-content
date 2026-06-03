@@ -11,7 +11,7 @@ export default {
       id: 'market',
       title: 'Регулируемый и либерализованный рынок',
       content: [
-        { kind: 'paragraph', text: 'Электричество и газ в Португалии с 2015 года либерализованы — поставщиком может быть любая компания, цены свободные. Параллельно с 2021 года вернулся регулируемый тариф для уязвимых клиентов: пожилых людей и людей с низким доходом.' },
+        { kind: 'paragraph', text: 'Электричество и газ в Португалии с 2015 года либерализованы — поставщиком может быть любая компания, цены свободные. Параллельно сохраняется регулируемый тариф: к нему может перейти любой бытовой клиент низкого напряжения (до 41,4 кВА). Этот переходный режим продлён до конца 2027 года. Отдельно есть социальный тариф (tarifa social) — скидка для уязвимых клиентов с низким доходом.' },
         { kind: 'checklist', items: [
           '💡 Электричество: 20+ поставщиков (EDP Comercial, Galp, Iberdrola, Endesa, Goldenergy, Coopérnico, Luzigás и др.)',
           '🔥 Газ: 10+ поставщиков (часто те же)',
@@ -105,7 +105,7 @@ export default {
         { kind: 'checklist', items: [
           '📋 Livro de Reclamações (книга жалоб) — бумажная или на livroreclamacoes.pt',
           '⚖️ ERSE — регулятор, erse.pt/reclamações',
-          '⚡ DGEG (Direcção-Geral de Energia) — для серьёзных случаев',
+          '⚡ DGEG (Direção-Geral de Energia e Geologia) — для серьёзных случаев',
           '💰 CTC (Centro de Arbitragem de Conflitos de Consumo) — на региональном уровне',
           '🚫 Отключение электричества без уведомления запрещено; положена компенсация',
           '📅 Задержки возмещения / кредита >30 дней — штраф поставщику'
@@ -126,6 +126,6 @@ export default {
     { title: 'DGEG — Direcção-Geral de Energia e Geologia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 38/2017 — comercialização de electricidade', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/38-2017', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

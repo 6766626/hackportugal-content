@@ -3,9 +3,9 @@ export default {
   id: 'university-admission',
   categoryId: 'education_children',
   title: 'Поступление в португальский университет — для иностранцев',
-  tldr: 'Для поступления в португальский университет (бакалавриат, лиценциатура): через DGES / Concurso Nacional de Acesso ao Ensino Superior (CNAES регулирует правила доступа) — для португальских/EU выпускников; либо через Concurso Especial para Estudantes Internacionais (CEEI) по DL 36/2014 — для кандидатов со статусом Estudante Internacional (обычно non-EU, НЕ резиденты PT > 2 лет к 1 января года поступления, не члены семей EU и не лица с estatuto de igualdade)\.\n\nНужно: equivalência/reconhecimento аттестата (через государственную школу/agrupamento по правилам DGE), португальский B1-B2 (CAPLE: DEPLE=B1, DIPLE=B2) или IELTS 6.0+ для англоязычных программ, мотивационное письмо.\n\nСтоимость: до ~€697/год для PT/EU в гос. licenciatura; для CEEI международные propinas устанавливает каждый вуз отдельно (обычно выше).',
+  tldr: 'Для поступления в португальский университет (бакалавриат, лиценциатура): через DGES / Concurso Nacional de Acesso ao Ensino Superior (CNAES регулирует правила доступа) — для португальских/EU выпускников; либо через Concurso Especial para Estudantes Internacionais (CEEI) по DL 36/2014 — для кандидатов со статусом Estudante Internacional (обычно non-EU, НЕ резиденты PT > 2 лет к 1 января года поступления, не члены семей EU и не лица с estatuto de igualdade).\n\nНужно: equivalência/reconhecimento аттестата (через государственную школу/agrupamento по правилам DGE), португальский B1-B2 (CAPLE: DEPLE=B1, DIPLE=B2) или IELTS 6.0+ для англоязычных программ, мотивационное письмо.\n\nСтоимость: до ~€697/год для PT/EU в гос. licenciatura; для CEEI международные propinas устанавливает каждый вуз отдельно (обычно выше).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
-  tags: ['университет', 'поступление', 'диплом', 'нострификация', 'dges', 'cnes'],
+  tags: ['университет', 'поступление', 'диплом', 'нострификация', 'dges', 'cnaes'],
   estimatedReadMinutes: 9,
   steps: [
     {
@@ -81,7 +81,7 @@ export default {
               '💰 Стоимость зависит от уровня и центра CAPLE; проверяйте tabela de preços CAPLE',
               '📅 Сессии — по календарю CAPLE в аккредитованных центрах; даты и уровни зависят от центра, записываться нужно заранее',
               '🌐 Вуз может принять CAPLE DIPLE B2 или другой признанный сертификат португальского, если это указано в edital (DELE — это испанский сертификат Instituto Cervantes, не португальский)',
-              '⚠️ Для кандидатов с образованием на португальском языке многие вузы освобождают от сертификата, но это зависит от edital; CPLP citizenship by itself is not a universal exemption'
+              '⚠️ Для кандидатов с образованием на португальском языке многие вузы освобождают от сертификата, но это зависит от edital; само по себе гражданство CPLP не даёт универсального освобождения'
             ]}
           ]},
           { id: 'l2', title: 'Английский (программы для иностранцев)', content: [
@@ -120,7 +120,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Стоимость', content: [
             { kind: 'checklist', items: [
-              '🟢 PT/EU в гос. licenciatura: до примерно €697/год максимум (DGES propina cap для national/EU students в гос. licenciatura/mestrado integrado abrangido)',
+              '🟢 PT/EU в гос. licenciatura: до €697/год максимум в 2025/2026 (DGES propina cap для national/EU students в гос. licenciatura/mestrado integrado abrangido); с 2026/2027 потолок повышается до €710',
               '🟡 Иностранцы (CEEI): international propinas устанавливает каждый вуз — обычно выше; смотрите edital конкретного курса',
               '🔴 Частные вузы: 5 000-15 000 €/год',
               '💵 Жильё: комната ~€350-650+ в Lisbon/Porto (private market), меньше — в residences и в малых городах; studio в Lisbon часто €750-1 100+',
@@ -166,7 +166,7 @@ export default {
           '🏠 Жильё в студенческих общежитиях (residências) дешевле, но конкурс — подавать заранее',
           '📚 Erasmus+ во время учёбы открывает много возможностей',
           '🌍 После лиценциатуры — магистратура 1-2 года, докторантура 3-4 года',
-          '💼 Reconhecimento иностранного higher-education degree: через DGES reconhecimento platform (DL 66/2018) — automatic/level/specific recognition. Сompetent Portuguese HEI и стоимость зависят от типа и уровня degree (обычно несколько сотен евро, сроки варьируются)',
+          '💼 Reconhecimento иностранного higher-education degree: через DGES reconhecimento platform (DL 66/2018) — automatic/level/specific recognition. competent Portuguese HEI и стоимость зависят от типа и уровня degree (обычно несколько сотен евро, сроки варьируются)',
           '⚠️ Для медицинских специалистов: признание ОЧЕНЬ сложное, обычно требует досдачи 1-2 года + резидентура'
         ]}
       ]
@@ -178,7 +178,7 @@ export default {
     { label: 'PT/EU гос. licenciatura — propina (максимум по DGES)', amountEURMax: 697, note: '€/год для national/EU students' },
     { label: 'Иностранец (CEEI) — propina', note: 'устанавливает каждый вуз/курс — смотрите edital' },
     { label: 'Частный вуз', amountEURMin: 5000, amountEURMax: 15000, note: '€/год' },
-    { label: 'Виза D4 (консульский сбор)', amountEUR: 90 },
+    { label: 'Виза D4 (консульский сбор)', amountEUR: 110 },
     { label: 'AIMA residence permit/card после прибытия', note: 'проверяйте actual fee table в силе с 01.03.2026' },
     { label: 'Жизнь студента в Лиссабоне', amountEURMin: 700, amountEURMax: 1300, note: '€/мес (комната + еда + транспорт + книги)' }
   ],
@@ -190,6 +190,6 @@ export default {
     { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'CAPLE — португальский язык как иностранный', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

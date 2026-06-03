@@ -3,7 +3,7 @@ export default {
   id: 'bolsa-investigacao-fct',
   categoryId: 'education_children',
   title: 'Bolsa de Investigação FCT — grants for researchers',
-  tldr: 'FCT is Portugal’s main public science fund. Foreign nationals can apply for doutoramento, project grants, post-doc/BIPD and Estímulo ao Emprego Científico contracts: Portuguese citizenship is usually not required, and English is often sufficient. 2026 benchmarks: doutoramento around €1,300/month, post-doc around €1,700/month, junior research contract around €2,200/month gross. Applications are through myFCT/Ciência Vitae; you need a plan, supervisor/host and diplomas.',
+  tldr: 'FCT is Portugal’s main public science fund. Foreign nationals can apply for doutoramento, project grants, post-doc/BIPD and Estímulo ao Emprego Científico contracts: Portuguese citizenship is usually not required, and English is often sufficient. 2026 benchmarks: doutoramento around €1,686/month, post-doc around €1,851/month, junior research contract around €2,200/month gross. Applications are through myFCT/Ciência Vitae; you need a plan, supervisor/host and diplomas.',
   tags: ['fct', 'grant', 'doutoramento', 'research'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,9 +13,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Fundação para a Ciência e a Tecnologia, I.P. is the public agency that funds PhDs, research projects, laboratories and scientific contracts. For an expat, the key point is: many calls are open to non-Portuguese candidates if you meet the academic requirements and have a host organisation.' },
         { kind: 'checklist', items: [
-          'Bolsa de Doutoramento — an individual PhD grant; in 2026, the typical monthly maintenance allowance is around €1,300/month when working in Portugal.',
+          'Bolsa de Doutoramento — an individual PhD grant; in 2026, the typical monthly maintenance allowance is around €1,686/month when working in Portugal.',
           'Bolsa de Investigação in a project — a temporary grant within a specific funded project; amounts depend on the degree: licenciatura, mestrado, doutoramento.',
-          'Bolsa de Investigação Pós-Doutoral / BIPD — a post-doc grant, usually around €1,700–€1,800/month; used in a limited way and not a substitute for permanent work.',
+          'Bolsa de Investigação Pós-Doutoral / BIPD — a post-doc grant, usually around €1,851/month; used in a limited way and not a substitute for permanent work.',
           'Estímulo ao Emprego Científico / CEEC — not a grant, but an employment contract for a researcher; junior level starts at roughly €2,200/month gross, usually 14 payments per year.',
           'FCT may also cover propinas for a PhD up to the set limit, personal accident insurance and social insurance in the cases provided for.'
         ] },
@@ -79,10 +79,10 @@ export default {
       id: 'money-and-tax',
       title: 'Money, taxes and social insurance',
       content: [
-        { kind: 'paragraph', text: 'An FCT grant is usually paid monthly into a bank account. It is a maintenance allowance, not a salary. So you cannot directly compare a €1,300 bolsa and a €1,300 gross salary: they have different tax and social regimes.' },
+        { kind: 'paragraph', text: 'An FCT grant is usually paid monthly into a bank account. It is a maintenance allowance, not a salary. So you cannot directly compare a bolsa and a gross salary of the same amount: they have different tax and social regimes.' },
         { kind: 'checklist', items: [
-          'Doutoramento in Portugal: 2026 benchmark — around €1,300/month net-like allowance.',
-          'Post-doc/BIPD: benchmark — around €1,700–€1,800/month, depending on the FCT table and edital.',
+          'Doutoramento in Portugal: 2026 benchmark — around €1,686/month net-like allowance.',
+          'Post-doc/BIPD: benchmark — around €1,851/month, depending on the FCT table and edital.',
           'CEEC Junior: around €2,200/month gross, but this is a salary: IRS and Segurança Social are withheld as for an employee.',
           'A bolsa is usually exempt from IRS if it complies with the Estatuto do Bolseiro de Investigação and is not payment for ordinary work.',
           'FCT may reimburse Seguro Social Voluntário under the rules of the grant agreement; check who submits the application and the deadlines.',
@@ -107,7 +107,7 @@ export default {
           'Apply through several channels at the same time: FCT individual call, project bolsa, university scholarship, Marie Skłodowska-Curie, Erasmus Mundus, company-funded PhD.',
           'After the result, check the appeal/reclamação deadline: if the assessment contains a factual error, you can file an objection.'
         ] },
-        { kind: 'paragraph', text: 'For a family, plan the budget realistically. A €1,300/month PhD bolsa in Lisbon or Porto covers a modest life for one person, but for a couple/children, a second income or savings is almost always needed.' }
+        { kind: 'paragraph', text: 'For a family, plan the budget realistically. A PhD bolsa of around €1,686/month in Lisbon or Porto covers a modest life for one person, but for a couple/children, a second income or savings is almost always needed.' }
       ]
     }
   ],
@@ -123,6 +123,6 @@ export default {
     { title: 'FCT — Emprego Científico / Estímulo ao Emprego Científico', url: 'https://www.fct.pt/financiamento/programas-de-financiamento/emprego-cientifico/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Estatuto do Bolseiro de Investigação — Lei 40/2004', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2004-58216179', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

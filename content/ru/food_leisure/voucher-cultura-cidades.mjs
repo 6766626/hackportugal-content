@@ -3,7 +3,7 @@ export default {
   id: 'voucher-cultura-cidades',
   categoryId: 'food_leisure',
   title: 'Vale Cultura и культурные ваучеры: муниципальные программы',
-  tldr: 'В Португалии нет единого национального Vale Cultura для всех резидентов: культурные ваучеры и скидки дают Câmara Municipal. В 2026 ориентируйтесь на Lisboa Cultura / Lisboa Cultural до 100 € на семью при открытом наборе, Cartão Porto / Porto Cultura и Cartão Viver Cascais. Обычно нужен NIF с фискальным адресом в муниципалитете, comprovativo de residência и иногда доход. Скидки на театры, концерты, музеи и кино — чаще 5–50 € или бесплатный вход по партнёрам.',
+  tldr: 'В Португалии нет единого национального Vale Cultura для всех резидентов: культурные ваучеры и скидки дают Câmara Municipal. В 2026 ориентируйтесь на Lisboa Cultura / Lisboa Cultural до 100 € на семью при открытом наборе, Cartão Porto / Porto Cultura и Cartão Viver Cascais. Обычно нужен NIF с фискальным адресом в муниципалитете, comprovativo de residência и иногда доход. Скидки на театры, концерты, музеи и кино — обычно 5–50 € или бесплатный вход у партнёров.',
   tags: ['cultura', 'ваучеры', 'lisboa', 'porto', 'cascais'],
   estimatedReadMinutes: 5,
   steps: [
@@ -89,6 +89,6 @@ export default {
     { title: 'Câmara Municipal do Porto — Cartão Porto', url: 'https://cartao.porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Cascais — Cartão Viver Cascais', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

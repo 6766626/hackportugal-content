@@ -3,7 +3,7 @@ export default {
   id: 'psp-gnr-quem-chamar',
   categoryId: 'emergency_rights',
   title: 'PSP vs GNR: which police to call and where',
-  tldr: 'In Portugal, there is one emergency number — 112: accident, assault, domestic violence, threats, missing child, fire, ambulance. PSP usually operates in cities: Lisboa, Porto, district capitals and large municipalities. GNR covers rural areas, small towns, roads and motorways, a large part of the Algarve, border and natural areas, and parts of Açores/Madeira outside urban centres. For non-emergency issues, look for the nearest esquadra PSP or posto GNR; the PSP line 800 202 148 is not a substitute for 112.',
+  tldr: 'In Portugal, there is one emergency number — 112: accident, assault, domestic violence, threats, missing child, fire, ambulance. PSP usually operates in cities: Lisboa, Porto, district capitals and large municipalities. GNR covers rural areas, small towns, roads and motorways, a large part of the Algarve, border and natural areas, and parts of Açores/Madeira outside urban centres. For non-emergency issues, look for the nearest esquadra PSP or posto GNR. Separately, 800 202 148 is the free 24/7 information and support line for victims of domestic violence (CIG); it is not a substitute for 112.',
   tags: ['psp', 'gnr', '112', 'police'],
   estimatedReadMinutes: 5,
   steps: [
@@ -39,7 +39,7 @@ export default {
           'Domestic violence in an urban area — urgently via 112, or at an esquadra PSP if there is no immediate danger.'
         ] },
         { kind: 'paragraph', text: 'How to tell: PSP is written on uniforms and vehicles. Usually dark-blue uniform, blue/white patrol cars and an esquadra sign. The PSP website has a contact search by commands and units.' },
-        { kind: 'warning', text: 'The PSP line 800 202 148 can be used for non-emergency PSP contact/guidance, but in immediate danger always call 112.' }
+        { kind: 'warning', text: 'PSP has no single hotline that replaces 112: for non-emergency matters go to an esquadra or find the relevant command\'s contact on the PSP website. The number 800 202 148 is the free 24/7 line for victims of domestic violence (CIG), not a general PSP information line; in immediate danger always call 112.' }
       ]
     },
     {
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

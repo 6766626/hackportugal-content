@@ -104,6 +104,6 @@ export default {
     { title: 'Wise: fees and currency exchange rate', url: 'https://wise.com/pt/pricing/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal: warnings on Dynamic Currency Conversion and payment services', url: 'https://clientebancario.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

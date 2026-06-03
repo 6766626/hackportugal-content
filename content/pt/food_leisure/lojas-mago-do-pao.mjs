@@ -138,6 +138,6 @@ export default {
     { title: 'Site oficial da Confeitaria Nacional: história desde 1829 e produtos', url: 'https://confeitarianacional.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Site oficial da Manteigaria: pastel de nata e pontos de venda', url: 'https://manteigaria.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

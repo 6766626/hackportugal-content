@@ -4,7 +4,7 @@ export default {
   categoryId: 'food_leisure',
   title: 'Mercados de Portugal (Mercados)',
   tldr: 'Os mercados municipais são uma tradição viva: peixe fresco, carne, legumes, especiarias. Os principais em Lisboa: Mercado da Ribeira (Time Out), Mercado de Campo de Ourique, Arroios, 31 de Janeiro.\n\nNo Porto — o lendário Mercado do Bolhão. As bancas tradicionais estão geralmente mais activas de manhã, aproximadamente até às 14:00, mas os horários variam muito consoante o mercado; os food halls normalmente funcionam até mais tarde e abrem mais tarde. Verifique os horários na página do mercado/feira específico.',
-  tags: ['mercados', 'mercado', 'mercado', 'time out'],
+  tags: ['mercados', 'mercado', 'feira', 'time out'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -85,6 +85,6 @@ export default {
     { title: 'Visit Porto — Mercado do Bolhão', url: 'https://visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Time Out Market Lisboa', url: 'https://www.timeoutmarket.com/lisboa/', kind: 'secondary', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

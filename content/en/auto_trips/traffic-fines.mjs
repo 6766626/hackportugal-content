@@ -41,13 +41,13 @@ export default {
       id: 'points',
       title: 'Carta por pontos — 12 points',
       content: [
-        { kind: 'paragraph', text: 'Carta por pontos has been in force since 01/06/2016. Each driver has 12 points, which are deducted for offences. Points are restored automatically: +1 for every 3 years without offences.' },
+        { kind: 'paragraph', text: 'Carta por pontos has been in force since 01/06/2016. Each driver has 12 points, which are deducted for offences. Points are restored automatically: +3 for every 3 years without offences (up to a maximum of 15 points).' },
         { kind: 'checklist', items: [
           '⬇️ Points deduction: for road traffic crimes (crime rodoviário) — −6; for administrative muito grave offences — −4 (−5 for alcohol/drugs); for grave — −2 (−3 for alcohol). There is no formal “warning” at 9 points',
           '⬇️ At 5 or 4 points — mandatory ação de formação de segurança rodoviária',
           '⬇️ At 3, 2 or 1 point — mandatory theory test',
           '⬇️ At 0 points — cassação da carta; a new título de condução can be obtained only after the legally specified period and after meeting the requirements',
-          '📅 Points are restored: +1 for 3 years without offences',
+          '📅 Points are restored: +3 for every 3 years without offences (maximum 15 points)',
           '✅ Refresher course (Curso de aperfeiçoamento) — you can recover 4 points once every 5 years'
         ]}
       ]
@@ -127,6 +127,6 @@ export default {
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Pay a traffic coima', url: 'https://www.gov.pt/cidadaos/-/informacoes/pagar-coimas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

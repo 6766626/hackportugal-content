@@ -3,7 +3,7 @@ export default {
   id: 'aquecimento-inverno-recuperador',
   categoryId: 'daily_life',
   title: 'Aquecimento da casa no inverno: recuperador de calor, salamandra, esquentador',
-  tldr: 'O inverno português muitas vezes não significa geada, mas sim 14–17 °C dentro de casa, humidade e bolor. A opção rápida é um aquecedor elétrico por 20–80 €, mas a fatura da eletricidade sobe depressa. A longo prazo: ar condicionado/bomba de calor 700–1 800 € por split, recuperador de calor a lenha desde 1 500 €, salamandra a pellets normalmente desde 2 000 €. Esquentador a gás é sobretudo para água quente; para aquecer divisões é necessária uma caldeira/radiadores. Verifique o Fundo Ambiental: o Vale Eficiência pode subsidiar bombas de calor, mas apenas em avisos abertos e com condições.',
+  tldr: 'O inverno português muitas vezes não significa geada, mas sim 14–17 °C dentro de casa, humidade e bolor. A opção rápida é um aquecedor elétrico por 20–80 €, mas a fatura da eletricidade sobe depressa. A longo prazo: ar condicionado/bomba de calor 700–1 800 € por split, recuperador de calor a lenha desde 1 500 €, salamandra a pellets normalmente desde 2 000 €. Esquentador a gás é sobretudo para água quente; para aquecer divisões é necessária uma caldeira/radiadores. Verifique o Fundo Ambiental: o programa Vale Eficiência deixou de aceitar novas candidaturas em fevereiro de 2026, mas existem o E-Lar (substituição de equipamentos a gás por elétricos) e uma linha de crédito para eficiência energética — consulte as condições em fundoambiental.pt.',
   tags: ['aquecimento', 'inverno', 'energia', 'casa'],
   estimatedReadMinutes: 5,
   steps: [
@@ -89,10 +89,10 @@ export default {
       title: '5. Verificar o Fundo Ambiental e o Vale Eficiência',
       content: [
         { kind: 'paragraph', text: 'O Fundo Ambiental abre periodicamente avisos para eficiência energética na habitação: substituição de janelas, isolamento térmico, bombas de calor e, por vezes, equipamentos para aquecimento/AQS. As condições mudam consoante o ano, a região e o tipo de agregado familiar.' },
-        { kind: 'paragraph', text: 'O Vale Eficiência tem sido historicamente direcionado para agregados familiares economicamente vulneráveis, por exemplo beneficiários da tarifa social de energia elétrica, e funcionou através de vales para medidas aprovadas. Em 2026, não compre equipamento “a contar com o subsídio” antes de verificar que o aviso está aberto, que o seu NIF é elegível e que o fornecedor/instalador aceita o programa.' },
+        { kind: 'paragraph', text: 'O Vale Eficiência foi direcionado para agregados familiares economicamente vulneráveis, por exemplo beneficiários da tarifa social de energia elétrica, e funcionou através de vales para medidas aprovadas, incluindo bombas de calor. Contudo, em fevereiro de 2026 o Fundo Ambiental deixou de emitir novos vales ao abrigo deste programa, pelo que já não são aceites novas candidaturas. A alternativa atual é o programa E-Lar (substituição de equipamentos a gás por elétricos: fogões, fornos, termoacumuladores; as bombas de calor não estão incluídas) e uma linha de crédito para obras de eficiência energética. Em 2026, não compre equipamento “a contar com o subsídio” antes de verificar em fundoambiental.pt que o aviso aplicável está aberto, que o seu NIF é elegível e que o fornecedor/instalador aceita o programa.' },
         { kind: 'checklist', items: [
           'Verifique fundoambiental.pt antes da compra, não depois',
-          'Consulte o prazo de candidatura, eligible expenses e as datas das faturas',
+          'Consulte o prazo de candidatura, as despesas elegíveis e as datas das faturas',
           'Guarde a fatura com NIF, comprovativo de pagamento e ficha técnica',
           'Verifique se é necessário certificado energético antes ou depois das obras',
           'Confirme se o programa aceita o equipamento: split AC, bomba de calor AQS, salamandra ou isolamento',
@@ -114,6 +114,6 @@ export default {
     { title: 'Fundo Ambiental — programas de apoio à eficiência energética e Vale Eficiência', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE — informação prática sobre eficiência energética na habitação e certificado energético', url: 'https://www.adene.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

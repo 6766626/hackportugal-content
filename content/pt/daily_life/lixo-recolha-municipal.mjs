@@ -119,6 +119,6 @@ export default {
     { title: 'Agência Portuguesa do Ambiente — resíduos urbanos e separação de resíduos', url: 'https://apambiente.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — serviços municipais e gestão de resíduos', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

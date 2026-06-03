@@ -107,7 +107,7 @@ export default {
           'Ask for the list of documents: NIF, NISS, utente, residence permit/passport, comprovativo de morada, IRS',
           'For elderly people, clarify medical restrictions, night care and medical follow-up',
           'Visit the institution in person: accessibility, smell, staff, menu, safety',
-          'If you are refused without explanation, ask about de admissão and the availability of a livro de reclamações'
+          'If you are refused without explanation, ask for the admission criteria (critérios de admissão) and check whether there is a livro de reclamações'
         ] },
         { kind: 'warning', text: 'Do not transfer a “reservation deposit” to an unfamiliar organisation based only on WhatsApp. Check that the name, NIF and address match the Carta Social profile and the institution’s official e-mail.' }
       ]
@@ -122,6 +122,6 @@ export default {
     { title: 'GEP — Carta Social, Gabinete de Estratégia e Planeamento (MTSSS)', url: 'https://www.gep.mtsss.gov.pt/carta-social', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Segurança Social — IPSS and social responses', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

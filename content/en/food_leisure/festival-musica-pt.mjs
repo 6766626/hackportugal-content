@@ -126,6 +126,6 @@ export default {
     { title: 'Official Super Bock Super Rock website', url: 'https://superbocksuperrock.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Official Visit Portugal tourism portal — events and festivals', url: 'https://www.visitportugal.com/en/encontre/grandes-eventos/list', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

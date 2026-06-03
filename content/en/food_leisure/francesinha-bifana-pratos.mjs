@@ -123,6 +123,6 @@ export default {
     { title: 'Visit Portugal: Porto and North — regional food and wine', url: 'https://www.visitportugal.com/en/destinos/porto-e-norte', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Visit Portugal: Centro de Portugal — Bairrada, Mealhada and regional cuisine', url: 'https://www.visitportugal.com/en/destinos/centro-de-portugal', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

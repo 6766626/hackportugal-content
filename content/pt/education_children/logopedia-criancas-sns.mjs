@@ -50,7 +50,7 @@ export default {
       title: 'Antes da escola e na primeira infância: SNIPI / Intervenção Precoce',
       content: [
         { kind: 'paragraph', text: 'Para crianças dos 0 aos 6 anos com atraso no desenvolvimento ou risco de perturbação do desenvolvimento, funciona o Sistema Nacional de Intervenção Precoce na Infância — SNIPI.\n\nNa prática, trata-se da Equipa Local de Intervenção (ELI): especialistas de saúde, educação e Segurança Social, que avaliam a criança e elaboram o Plano Individual de Intervenção Precoce.' },
-        { kind: 'paragraph', text: 'O pedido pode seguir através do médico de família, pediatra, Creche, Jardim de Infância, serviço social ou directamente para aLI local, se a família conhecer o contacto. Para uma família estrangeira, o essencial é mostrar que as dificuldades não se explicam apenas pela mudança de país e pela nova língua portuguesa.' },
+        { kind: 'paragraph', text: 'O pedido pode seguir através do médico de família, pediatra, Creche, Jardim de Infância, serviço social ou directamente para a ELI local, se a família conhecer o contacto. Para uma família estrangeira, o essencial é mostrar que as dificuldades não se explicam apenas pela mudança de país e pela nova língua portuguesa.' },
         { kind: 'checklist', items: [
           'Peça na Creche/Jardim de Infância uma observação escrita: comunicação, brincadeira, compreensão de instruções, comportamento em grupo',
           'Na consulta no SNS, diga directamente: “Quero referenciação para Intervenção Precoce / ELI”',
@@ -153,6 +153,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -94,6 +94,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — city events and traffic restrictions', url: 'https://www.lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Turismo de Portugal — official Visit Portugal tourism portal', url: 'https://www.visitportugal.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

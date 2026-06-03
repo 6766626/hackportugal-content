@@ -117,6 +117,6 @@ export default {
     { title: 'Câmara Municipal do Porto — Desporto, equipamentos e programas municipais', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal ePortugal — serviços municipais e contactos das câmaras municipais', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

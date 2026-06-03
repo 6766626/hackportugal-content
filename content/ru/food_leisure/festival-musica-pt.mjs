@@ -64,7 +64,7 @@ export default {
       title: 'Север и центр: Gaia, Paredes de Coura, Vagos',
       content: [
         { kind: 'paragraph', text: 'Если вы живёте в Porto, Braga, Aveiro или Coimbra, не обязательно ехать в Lisboa. MEO Marés Vivas в Gaia проще логистически: можно ночевать в Porto/Vila Nova de Gaia и возвращаться на такси или ночном транспорте.' },
-        { kind: 'paragraph', text: 'Vodafone Paredes de Coura и Vagos Open Air — более “походные” варианты. Там важны кемпинг, машина, трансфер или жильё в маленьких городах, которое заканчивается рано.' },
+        { kind: 'paragraph', text: 'Vodafone Paredes de Coura и Vagos Open Air — более “походные” варианты. Там важны кемпинг, машина, трансфер или жильё в маленьких городах, которое быстро разбирают.' },
         { kind: 'checklist', items: [
           'Для Gaia бронируйте жильё в Porto, Vila Nova de Gaia, Matosinhos или рядом с метро/поездом.',
           'Для Paredes de Coura ищите официальные автобусы из Porto/Braga/Viana do Castelo или арендуйте машину.',
@@ -126,6 +126,6 @@ export default {
     { title: 'Официальный сайт Super Bock Super Rock', url: 'https://superbocksuperrock.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Официальный туристический портал Visit Portugal — события и фестивали', url: 'https://www.visitportugal.com/en/encontre/grandes-eventos/list', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

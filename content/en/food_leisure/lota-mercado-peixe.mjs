@@ -18,8 +18,8 @@ export default {
           'Monday often has a weaker selection: part of the fleet does not go out on Sunday',
           'After a storm, the selection is worse and prices are higher',
           'The most “local” fish is the one that arrived at the nearest port, not an imported vitrine bonito',
-          'Ask for the fish “amanhada” — cleaned and gutted',
-          'Ask for “escamada” — scaled',
+          'Ask for the fish “amanhado” — cleaned and gutted',
+          'Ask for “escamado” — scaled',
           'Ask for “em postas” — cut into steaks',
           'Ask for “filetes” — fillets; not every fish is suitable without waste'
         ] }
@@ -111,6 +111,6 @@ export default {
     { title: 'DGRM — notices and rules on bivalves and harvesting areas', url: 'https://www.dgrm.pt/web/guest/pesca', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Docapesca — lotas e postos de venda', url: 'https://www.docapesca.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

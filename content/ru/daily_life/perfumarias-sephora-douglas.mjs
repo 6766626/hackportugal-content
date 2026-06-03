@@ -62,7 +62,7 @@ export default {
         { kind: 'paragraph', text: 'Для жизни в Португалии выгодно завести аккаунты в основных сетях: Sephora.pt и Douglas.pt часто дают онлайн-акции, промокоды, историю заказов и уведомления о наличии товара. Для регистрации обычно достаточно email, телефона и адреса доставки; NIF можно добавить в счёт, если хотите fatura com NIF.' },
         { kind: 'checklist', items: [
           'Оплата: банковская карта, Multibanco, MB WAY и иногда PayPal — зависит от магазина.',
-          'Доставка домой обычно платная при маленькой корзине и бесплатная от определённой суммы; порог меняется по акциям.',
+          'Доставка домой обычно платная для небольшого заказа и бесплатная от определённой суммы; порог меняется по акциям.',
           'Click & collect удобен, если вы живёте рядом с торговым центром: товар резервируют онлайн, забираете в магазине.',
           'В Sephora и Douglas проверяйте наличие по конкретному магазину: ассортимент в Colombo, NorteShopping или El Corte Inglés может отличаться от маленьких точек.',
           'Просите fatura com NIF на кассе до оплаты, если собираете расходы в личном кабинете Finanças; после оплаты исправить сложнее.',
@@ -101,6 +101,6 @@ export default {
     { title: 'ePortugal — права потребителя при онлайн-покупках и возвратах', url: 'https://www.gov.pt/cidadaos/comprar-vender-ou-arrendar/compras-online', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária — ставки IVA в Португалии', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/codigo-do-iva-indice.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -112,7 +112,7 @@ export default {
           '🚨 PSP — 112 (emergency) or the nearest police station. For filing a police report',
           '🌐 Cibercrime — report at cibercrime.ministeriopublico.pt for online fraud',
           '💰 Banco de Portugal — portal for complaints about banks and financial services',
-          '📞 DECO Proteste — 213 710 000, consumer rights protection',
+          '📞 DECO PROteste — 218 410 801, consumer rights protection',
           '⚖️ Provedor do Cliente — ombudsman for complaints about banks and insurance companies',
           '🏠 Instituto da Habitação (IHRU) — for housing disputes',
           '👥 CICDR — commission against discrimination',
@@ -144,6 +144,6 @@ export default {
     { title: 'DECO Proteste — consumer rights', url: 'https://www.deco.proteste.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMI — Associação dos Mediadores Imobiliários', url: 'https://www.ami.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

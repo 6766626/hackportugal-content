@@ -17,7 +17,7 @@ export default {
           'distrito, concelho, freguesia e morada',
           'tipo de imóvel: urbano, rústico ou misto',
           'fração autónoma, se for um apartamento em condomínio',
-          'titular ou titulares — proprietário/copropietários na base fiscal',
+          'titular ou titulares — proprietário/coproprietários na base fiscal',
           'área total, área de implantação, área bruta privativa, área bruta dependente',
           'afetação: habitação, comércio, serviços, estacionamento, etc.',
           'VPT — Valor Patrimonial Tributário, o valor fiscal',
@@ -131,9 +131,9 @@ export default {
   ],
   sources: [
     { title: 'Portal das Finanças — apoio ao contribuinte e serviços de património predial', url: 'https://info.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Portal das Finanças — acesso aos serviços online da Autor Tributária', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Portal das Finanças — acesso aos serviços online da Autoridade Tributária', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Imposto Municipal sobre Imóveis (CIMI) — taxas de IMI e regras do VPT', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2003-34577875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

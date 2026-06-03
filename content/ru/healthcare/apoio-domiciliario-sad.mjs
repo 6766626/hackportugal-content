@@ -35,7 +35,7 @@ export default {
         { kind: 'checklist', items: [
           'Junta de Freguesia: спросить список IPSS, centros sociais и Misericórdia, которые обслуживают ваш адрес',
           'Câmara Municipal: отдел Ação Social / Divisão de Intervenção Social',
-          'Centro de Saúde: попросить social worker / assistente social оценить ситуацию',
+          'Centro de Saúde: попросить соцработника (assistente social) оценить ситуацию',
           'Segurança Social local: направление и информация по respostas sociais',
           'Carta Social: проверить лицензированные respostas sociais по concelho и freguesia',
           'Santa Casa da Misericórdia местного concelho',
@@ -70,7 +70,7 @@ export default {
       title: 'Сколько стоит в 2026',
       content: [
         { kind: 'paragraph', text: 'Для SAD через IPSS цена называется comparticipação familiar. Она рассчитывается учреждением по доходу на человека, расходам и внутреннему regulamento. В 2026 типичный коридор для базового пакета — примерно 100–400 €/мес: например, доставка еды + гигиена утром + лёгкая уборка несколько раз в неделю.' },
-        { kind: 'paragraph', text: 'Если доход очень низкий, цена может быть символической или ниже 100 €/мес. Если доход высокий, нужны ежедневные два визита, выходные, диета, транспорт и сопровождение — сумма может выйти за 400 €/мес, особенно у частных поставщиков.' },
+        { kind: 'paragraph', text: 'Если доход очень низкий, цена может быть символической или ниже 100 €/мес. Если доход высокий и нужны два визита в день, обслуживание по выходным, диета, транспорт и сопровождение, сумма может выйти за 400 €/мес, особенно у частных поставщиков.' },
         { kind: 'checklist', items: [
           'спросите, входит ли питание в цену или оплачивается отдельно за refeição',
           'уточните, есть ли доплата за выходные и feriados',
@@ -89,9 +89,9 @@ export default {
         { kind: 'paragraph', text: 'SAD часто быстрее, чем ERPI — lar/residência для пожилых. В ERPI очереди в популярных concelhos могут быть месяцами или дольше; SAD проще масштабировать, если маршрут уже проходит рядом.' },
         { kind: 'checklist', items: [
           'приоритет выше, если человек живёт один и есть риск падений',
-          'после госпитализации просите hospital discharge social worker связаться с IPSS',
+          'после госпитализации просите соцработника при выписке (assistente social) связаться с IPSS',
           'при деменции приложите relatório médico: это влияет на частоту визитов',
-          'если семье нужно уехать, заранее оформляйте temporary reinforcement, а не в последний день',
+          'если семье нужно уехать, заранее оформляйте временное усиление помощи, а не в последний день',
           'если нет мест у одной IPSS, подайте заявки в 3–5 организаций по вашему адресу',
           'спросите Câmara Municipal о programa municipal sénior, teleassistência или apoio alimentar',
           'для медицинского ухода на дому параллельно просите семейного врача о referenciação para ECCI, если показано'
@@ -140,19 +140,19 @@ export default {
     },
     {
       title: 'Portaria 38/2013: условия организации Serviço de Apoio Domiciliário',
-      url: 'https://diariodarepublica.pt/dr/detalhe/portaria/38-2013-258083',
+      url: 'https://diariodarepublica.pt/dr/detalhe/portaria/38-2013-258278',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Decreto-Lei 64/2007: лицензирование и контроль социальных учреждений',
-      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/64-2007-519065',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/64-2007-518425',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

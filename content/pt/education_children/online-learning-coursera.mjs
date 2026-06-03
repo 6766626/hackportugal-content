@@ -51,7 +51,7 @@ export default {
           'Não conte com compensação retroativa sem aprovação prévia: o IEFP muitas vezes exige candidatura antes do início da formação.',
           'Se o curso for necessário para trabalhar em Portugal, peça ao empregador para o enquadrar como formação contínua ou pagamento parcial como training benefit.'
         ] },
-        { kind: 'warning', text: 'O Cheque-Formação + Digital no formato anterior tinha limites e prazos ligados ao orçamento/PRR; até abril de 2026, o estado deve ser verificado no IEFP. Não compre uma subscrição cara a contar com reembolso automático.' }
+        { kind: 'warning', text: 'O Cheque-Formação + Digital no formato anterior tinha limites e prazos ligados ao orçamento/PRR (o programa atual decorre até 30 de junho de 2026); confirme o estado atualizado no IEFP. Não compre uma subscrição cara a contar com reembolso automático.' }
       ]
     },
     {
@@ -101,6 +101,6 @@ export default {
     { title: 'Coursera — Coursera Plus e certificates', url: 'https://www.coursera.org/courseraplus', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Domestika — cursos online e subscrição', url: 'https://www.domestika.org', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

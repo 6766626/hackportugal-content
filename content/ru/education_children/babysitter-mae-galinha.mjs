@@ -48,7 +48,7 @@ export default {
         { kind: 'paragraph', text: 'Даже если профиль выглядит хорошо, проведите короткое интервью и пробный час дома. Для маленьких детей не нанимайте человека только по переписке.' },
         { kind: 'checklist', items: [
           'Паспорт, Cartão de Cidadão или ВНЖ; имя должно совпадать с профилем на платформе.',
-          'NIF — нужен для договора, recibo или платежной идентификации.',
+          'NIF — нужен для договора, recibo или платёжной идентификации.',
           'Опыт с конкретным возрастом: bebé, toddler, дошкольник, школьник.',
           'Языки: português, inglês, русский; проверьте, понимает ли ребёнок базовые инструкции.',
           'Referências: контакты 1–2 семей, где человек уже работал.',
@@ -70,7 +70,7 @@ export default {
           'Дневная babysitter: обычно 5–10 €/час.',
           'Вечер/ночь: часто 8–12 €/час, иногда фикс за вечер.',
           'Двое и более детей: добавляйте 1–3 €/час к базовой ставке.',
-          'Забрать из школы + транспорт: отдельно договоритесь, кто платит Uber, bus/metro или combustível.',
+          'Забрать из школы + транспорт: отдельно договоритесь, кто платит за Uber, bus/metro или combustível.',
           'Минимальный booking: многие няни просят оплату минимум 2–3 часов.',
           'Поздняя отмена: нормальная практика — 50–100% оплаты, если отмена в тот же день.',
           'Full-time nanny: ориентир не ниже SMN 920 €/мес за 40 часов/неделю в 2026, плюс subsídio de férias и subsídio de Natal, если это трудовой договор.',
@@ -129,6 +129,6 @@ export default {
     { title: 'Babysits Portugal — профили babysitters и правила платформы', url: 'https://www.babysits.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — trabalhadores do serviço doméstico и взносы', url: 'https://www.seg-social.pt/trabalhadores-do-servico-domestico', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

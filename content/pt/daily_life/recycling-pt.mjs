@@ -113,7 +113,7 @@ export default {
           '⚠️ Separação incorrecta — formalmente dá coima; na prática, o saco pode não ser recolhido',
           '⚠️ Monos na rua sem pedido — coima de 50-250 €',
           '⚠️ Deitar lixo fora do horário (em algumas zonas há horários definidos)',
-          '⚠️ Deitar lixo a partir de um automóvel — até 750 €',
+          '⚠️ Deitar lixo pela janela do automóvel — coima de 60-300 € (Código da Estrada, art. 79.º)',
           '⚠️ Os Ecocentros aceitam gratuitamente cidadãos com atestado de residência; para entidades comerciais — pago'
         ]}
       ]
@@ -126,7 +126,7 @@ export default {
           '🚮 Passe as embalagens por água para remover restos — embalagens limpas são recicladas melhor',
           '📦 Desmonte as caixas de cartão e espalme-as — assim cabe mais no contentor',
           '🔋 Não deite pilhas no lixo comum — é perigoso',
-          '🛍️ Saco de compras (saco reutilizável) — desde 2021, nos supermercados, os sacos de plástico custam 3-10 cêntimos',
+          '🛍️ Saco de compras (saco reutilizável) — desde 2015, os sacos de plástico leves são pagos nas lojas: contribuição de 8 cêntimos mais IVA, preço mínimo de cerca de 10 cêntimos (os sacos de caixa normais custam mais)',
           '🏭 Ecocentro — existe em todos os grandes municípios; pode entregar lá tudo o que for fora do comum',
           '♻️ Compostagem na varanda ou no quintal — é cada vez mais comum entre residentes, e os municípios distribuem compostores gratuitamente',
           '📱 Aplicação «Sociedade Ponto Verde» — explica onde colocar cada coisa'
@@ -140,6 +140,6 @@ export default {
     { title: 'Decreto-Lei n.º 102-D/2020 — Regime Geral da Gestão de Resíduos', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-d-2020', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Directiva 2008/98/CE — directiva-quadro da UE relativa aos resíduos', url: 'https://eur-lex.europa.eu/', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

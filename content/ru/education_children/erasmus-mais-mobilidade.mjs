@@ -3,7 +3,7 @@ export default {
   id: 'erasmus-mais-mobilidade',
   categoryId: 'education_children',
   title: 'Erasmus+ — обмен и стажировка для студентов в Португалии',
-  tldr: 'Erasmus+ доступен не по паспорту, а через португальский вуз или instituto politécnico с Erasmus Charter for Higher Education. Студент подаётся через International Office своей instituição de ensino superior. В 2026 грант обычно около 350–800 €/мес: сумма зависит от страны, типа мобильности, top-up за стажировку, fewer opportunities и green travel. Учёба длится 2–12 мес, Erasmus Estágios — 2–12 мес; общий лимит обычно 12 мес на цикл обучения.',
+  tldr: 'Erasmus+ доступен не по паспорту, а через португальский вуз или instituto politécnico с Erasmus Charter for Higher Education. Студент подаётся через International Office своей instituição de ensino superior. В 2026 году грант обычно около 350–800 €/мес: сумма зависит от страны, типа мобильности, top-up за стажировку, fewer opportunities и green travel. Учёба длится 2–12 мес, Erasmus Estágios — тоже 2–12 мес; общий лимит обычно 12 мес на цикл обучения.',
   tags: ['erasmus', 'стажировка', 'universidade', 'bolsa'],
   estimatedReadMinutes: 5,
   steps: [
@@ -29,17 +29,17 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'study-mobility', title: 'Учёба в партнёрском вузе', content: [
-            { kind: 'paragraph', text: 'Student mobility for studies — семестр или год в host university. Обычно длительность 2–12 месяцев. Предметы заранее фиксируются в Learning Agreement, чтобы ECTS засчитались в Португалии после возвращения.' },
+            { kind: 'paragraph', text: 'Student mobility for studies — семестр или год в host university. Длительность обычно 2–12 месяцев. Предметы заранее фиксируются в Learning Agreement, чтобы ECTS засчитались в Португалии после возвращения.' },
             { kind: 'checklist', items: [
-              'Выбираете вуз из списка партнёров вашего факультета.',
-              'Проверяете язык преподавания и минимальный уровень языка.',
-              'Согласуете дисциплины и ECTS с координатором курса.',
-              'После отбора получаете nomination от португальского вуза.',
-              'Host university присылает свои формы, дедлайны и housing-инструкции.'
+              'Выберите вуз из списка партнёров вашего факультета.',
+              'Проверьте язык преподавания и минимальный уровень языка.',
+              'Согласуйте дисциплины и ECTS с координатором курса.',
+              'После отбора получите nomination от португальского вуза.',
+              'Host university пришлёт свои формы, дедлайны и housing-инструкции.'
             ] }
           ] },
           { id: 'traineeship', title: 'Erasmus Estágios — стажировка за границей', content: [
-            { kind: 'paragraph', text: 'Erasmus Estágios — traineeship/internship в компании, лаборатории, NGO, университете или иной организации за пределами Португалии. Обычно длительность 2–12 месяцев. Это не просто поездка: нужны work plan, supervisor, Learning Agreement for Traineeships и подтверждение от принимающей организации.' },
+            { kind: 'paragraph', text: 'Erasmus Estágios — traineeship/internship в компании, лаборатории, NGO, университете или иной организации за пределами Португалии. Длительность обычно 2–12 месяцев. Это не просто поездка: нужны work plan, supervisor, Learning Agreement for Traineeships и подтверждение от принимающей организации.' },
             { kind: 'checklist', items: [
               'Стажировку можно искать самому или через контакты факультета.',
               'Принимающая организация должна подтвердить задачи, даты, supervisor и рабочий язык.',
@@ -55,14 +55,14 @@ export default {
       id: 'money',
       title: 'Сколько платят в 2026',
       content: [
-        { kind: 'paragraph', text: 'Размер bolsa Erasmus+ не единый для всей Европы. Национальное агентство и португальский вуз публикуют таблицу на конкретный call. В 2026 для долгосрочной мобильности реальный диапазон для студентов из Португалии обычно около 350–800 €/мес: ниже — учёба в странах с меньшей ставкой, выше — стажировка, top-up fewer opportunities, дорогие направления или международная мобильность.' },
+        { kind: 'paragraph', text: 'Размер bolsa Erasmus+ не единый для всей Европы. Национальное агентство и португальский вуз публикуют таблицу на конкретный call. В 2026 году для долгосрочной мобильности реальный диапазон для студентов из Португалии обычно около 350–800 €/мес: ниже — учёба в странах с меньшей ставкой, выше — стажировка, top-up fewer opportunities, дорогие направления или международная мобильность.' },
         { kind: 'checklist', items: [
           'Грант на учёбу часто считается по country group: страна с высокой, средней или более низкой стоимостью жизни.',
           'Erasmus Estágios обычно получает доплату к базовой ставке, часто около 150 €/мес, если это предусмотрено call.',
           'Студенты с fewer opportunities могут получить дополнительный top-up, часто около 250 €/мес для долгосрочной мобильности.',
           'Green travel может дать разовую доплату и дополнительные travel days, если едете поездом, автобусом или car-sharing вместо самолёта.',
           'Краткосрочная blended mobility оплачивается по дневной ставке, обычно 79 €/день до 14-го дня и 56 €/день с 15-го по 30-й день, плюс возможные top-up.',
-          'Деньги часто платят частями: аванс до/в начале поездки и остаток после submission документов.',
+          'Деньги часто платят частями: аванс до или в начале поездки и остаток после подачи документов.',
           'Грант не обязан покрывать всю жизнь за границей: жильё, депозит, перелёт и первые недели часто нужно оплатить заранее.'
         ] },
         { kind: 'warning', text: 'Не планируйте бюджет только по верхней цифре 800 €/мес. Финальная сумма появляется в Financial Agreement вашего португальского вуза. Один и тот же студент может получить разные суммы в зависимости от страны, длительности, типа mobility и top-up.' }
@@ -90,7 +90,7 @@ export default {
       id: 'language',
       title: 'Язык: от A2 до C1 — зависит от места',
       content: [
-        { kind: 'paragraph', text: 'Erasmus+ не устанавливает один универсальный уровень языка для всех. Требование задаёт host university, компания-стажировка или факультет. В 2026 типичная картина такая: для англоязычных предметов часто требуют B1/B2, для медицины, права, педагогики или клинических практик может быть C1; для некоторых стажировок, где работа простая или есть supervisor на английском, минимально принимают A2/B1.' },
+        { kind: 'paragraph', text: 'Erasmus+ не устанавливает один универсальный уровень языка для всех. Требование задаёт host university, компания-стажировка или факультет. В 2026 году типичная картина такая: для англоязычных предметов часто требуют B1/B2; для медицины, права, педагогики или клинических практик может понадобиться C1; для некоторых стажировок, где работа простая или есть supervisor на английском, минимально принимают A2/B1.' },
         { kind: 'checklist', items: [
           'Проверьте language requirements на странице host university до подачи.',
           'Если предметы на местном языке, одного английского может быть недостаточно.',
@@ -106,7 +106,7 @@ export default {
       id: 'after-selection',
       title: 'После отбора: документы, зачёт ECTS и отчёт',
       content: [
-        { kind: 'paragraph', text: 'Отбор — это не конец процесса. Чтобы не потерять грант и зачёт предметов, соблюдайте документы и даты. Erasmus+ очень бюрократичен: подписи до выезда, подтверждение прибытия, изменения Learning Agreement в срок, transcript или traineeship certificate после окончания.' },
+        { kind: 'paragraph', text: 'Отбор — это не конец процесса. Чтобы не потерять грант и зачёт предметов, следите за документами и сроками. Erasmus+ очень бюрократичен: подписи до выезда, подтверждение прибытия, изменения Learning Agreement в срок, transcript или traineeship certificate после окончания.' },
         { kind: 'checklist', items: [
           'До выезда: Grant Agreement, Learning Agreement, страховка, acceptance letter, при необходимости виза.',
           'В первый день: Certificate of Arrival или аналогичная форма host institution.',
@@ -116,7 +116,7 @@ export default {
           'Для учёбы: Transcript of Records с ECTS и оценками.',
           'Для стажировки: Traineeship Certificate или evaluation от принимающей организации.',
           'Заполните EU Survey; без него вуз может задержать остаток гранта.',
-          'Проверьте, что ECTS перенесены в ваш português transcript.'
+          'Проверьте, что ECTS перенесены в ваш португальский transcript.'
         ] }
       ]
     }
@@ -125,14 +125,14 @@ export default {
     { label: 'Грант Erasmus+ на долгосрочную мобильность', amountEURMin: 350, amountEURMax: 800, note: 'Ориентир на месяц в 2026; финальная ставка зависит от страны, типа mobility и правил португальского вуза.' },
     { label: 'Доплата за Erasmus Estágios', amountEURMin: 100, amountEURMax: 150, note: 'Часто применяется как monthly top-up к базовой ставке, если это предусмотрено call.' },
     { label: 'Top-up fewer opportunities', amountEUR: 250, note: 'Типичная месячная доплата для долгосрочной mobility при подтверждённом праве; критерии задаёт вуз и программа.' },
-    { label: 'Краткосрочная mobility 1–14 дни', amountEUR: 79, note: 'Ориентировочная дневная ставка Erasmus+ для short-term blended mobility.' },
-    { label: 'Краткосрочная mobility 15–30 дни', amountEUR: 56, note: 'Ориентировочная дневная ставка после 14-го дня.' }
+    { label: 'Краткосрочная mobility, дни 1–14', amountEUR: 79, note: 'Ориентировочная дневная ставка Erasmus+ для short-term blended mobility.' },
+    { label: 'Краткосрочная mobility, дни 15–30', amountEUR: 56, note: 'Ориентировочная дневная ставка после 14-го дня.' }
   ],
   sources: [
     { title: 'Erasmus+ Portugal — официальный портал программы в Португалии', url: 'https://www.erasmus.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'European Commission — Erasmus+ opportunities for individuals', url: 'https://erasmus-plus.ec.europa.eu/opportunities/opportunities-for-individuals/students', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'European Commission — Erasmus+ Programme Guide 2026', url: 'https://erasmus-plus.ec.europa.eu/erasmus-programme-guide', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

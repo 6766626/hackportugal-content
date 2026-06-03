@@ -3,7 +3,7 @@ export default {
   id: 'horta-comunitaria-bairro',
   categoryId: 'daily_life',
   title: 'Hortas comunitárias: community allotments in Portuguese neighbourhoods',
-  tldr: 'Hortas comunitárias are municipal allotments for residents: a small plot, water, compost and pesticide-free rules. In Lisboa, the CML Hortas Comunitárias programme costs around €3/month per talhão; in Cascais there are Hortas Solidárias, with similar projects operating in Porto, Loures, Almada and other municípios. You usually need a NIF with an address in the município, proof of residence and registration on a waiting list. Realistic waiting time in 2026: often 6–12 months, longer in central freguesias.',
+  tldr: 'Hortas comunitárias are municipal allotments for residents: a small plot, water, compost and pesticide-free rules. In Lisboa, the fee for a talhão is annual and based on area (roughly €1.6/m² per year with a discount, a minimum of about €58.60/year; in practice usually €55–100/year); in Cascais there are Hortas Solidárias, with similar projects operating in Porto, Loures, Almada and other municípios. You usually need a NIF with an address in the município, proof of residence and registration on a waiting list. Realistic waiting time in 2026: often 6–12 months, longer in central freguesias.',
   tags: ['allotments', 'neighbourhood', 'vegetable-garden', 'lisboa', 'cascais'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,7 +32,7 @@ export default {
         { kind: 'paragraph', text: 'Search your Câmara Municipal website for “hortas comunitárias”, “hortas urbanas”, “hortas solidárias”, “agricultura urbana” or “ambiente”. In larger cities, applications often go through the municipal portal; in smaller places, through the Junta de Freguesia.' },
         { kind: 'substeps', items: [
           { id: 'lisboa', title: 'Lisboa — CML Hortas Comunitárias', content: [
-            { kind: 'paragraph', text: 'In Lisboa, the network of hortas is managed by Câmara Municipal de Lisboa. As of 2026, a participant pays a symbolic fee of around €3/month per talhão. The application is usually submitted online through municipal services or according to CML instructions; allocation depends on available plots and the queue.' }
+            { kind: 'paragraph', text: 'In Lisboa, the network of hortas (parques hortícolas) is managed by Câmara Municipal de Lisboa. As of 2026, the fee for a talhão is annual and calculated by area: the reference rate is €1.6/m² per year, with a discount for hortas sociais (80%) and hortas de recreio (20%), but not less than about €58.60/year. In practice a plot usually costs €55–100/year. The application is usually submitted online through municipal services or according to CML instructions; allocation depends on available plots and the queue.' }
           ] },
           { id: 'cascais', title: 'Cascais — Hortas Solidárias', content: [
             { kind: 'paragraph', text: 'Cascais has the Hortas Solidárias programme. It is aimed at residents of the concelho and often has a social component: sustainable food, training, and the inclusion of older people and families. Conditions and available hortas are published by Câmara Municipal de Cascais.' }
@@ -121,7 +121,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Lisboa CML Hortas Comunitárias', amountEUR: 3, note: 'Indicative monthly fee per talhão; check the current regulamento and edital for the specific horta.' },
+    { label: 'Lisboa parques hortícolas (talhão)', amountEURMin: 55, amountEURMax: 100, note: 'Indicative annual fee per talhão (€1.6/m² per year with a discount, minimum about €58.60); check the current regulamento and edital for the specific horta.' },
     { label: 'Basic tools', amountEURMin: 25, amountEURMax: 70, note: 'Gloves, small enxada, tesoura de poda, regador; some tools are often available in the shared area.' },
     { label: 'Seeds and seedlings to start', amountEURMin: 10, amountEURMax: 40, note: 'Depends on the season; markets and viveiros are cheaper than large shops.' }
   ],
@@ -148,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

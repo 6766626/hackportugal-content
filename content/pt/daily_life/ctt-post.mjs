@@ -12,7 +12,7 @@ export default {
       title: 'Serviços dos CTT',
       content: [
         { kind: 'checklist', items: [
-          'Carta Normal — carta comum, 0,70 € em Portugal / 1,25 € na UE',
+          'Carta Normal — carta comum, 0,73 € em Portugal / 1,30 € na UE',
           'Carta Registada — carta registada com número para seguimento',
           'Carta com Aviso de Receção — carta registada + aviso de receção (obrigatório para a AIMA em alguns casos)',
           'Encomenda — encomenda até 30 kg em Portugal, até 20 kg internacional',
@@ -52,7 +52,7 @@ export default {
     },
     {
       id: 'sending',
-      title: 'Envio para países da CEI',
+      title: 'Envio para países da ex-URSS',
       content: [
         { kind: 'checklist', items: [
           '📦 Federação Russa/Bielorrússia — o serviço, os prazos e as categorias permitidas são instáveis devido a sanções e restrições; confirme em ctt.pt antes de enviar',
@@ -89,6 +89,6 @@ export default {
     { title: 'CTT — oficial', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AT — alfândega / importação de encomendas', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

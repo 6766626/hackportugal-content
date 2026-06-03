@@ -3,7 +3,7 @@ export default {
   id: 'relocation-shipping',
   categoryId: 'before_arrival',
   title: 'Transporte de bens para Portugal — contentor, empresas, bagagem',
-  tldr: 'Opções: (1) contentor marítimo 20\' (33 m³) — 3 000-5 000 € a partir de Moscovo/Kyiv, 4-8 semanas. 40\' — 4 500-7 500 €, 2 contentores por família; (2) carga consolidada (LCL) desde 600 € por 5 m³; (3) porta-automóveis / carrinha de mobiliário pela Europa — 2 000-4 000 € a partir da Polónia/Alemanha; (4) mudança dentro da UE — transportadoras especializadas 800-2 500 €; (5) bagagem no avião — desde 50 €/mala adicional. Alfândega: bens pessoais sem direitos aduaneiros em caso de mudança (Isenção por transferência de residência), é necessário certificado AIMA + factura.',
+  tldr: 'Opções: (1) contentor marítimo 20\' (33 m³) — 3 000-5 000 € a partir de Moscovo/Kyiv, 4-8 semanas. 40\' — 4 500-7 500 €, 2 contentores por família; (2) carga consolidada (LCL) desde 600 € por 5 m³; (3) porta-automóveis / carrinha de mobiliário pela Europa — 2 000-4 000 € a partir da Polónia/Alemanha; (4) mudança dentro da UE — transportadoras especializadas 800-2 500 €; (5) bagagem no avião — desde 50 €/mala adicional. Alfândega: bens pessoais sem direitos aduaneiros em caso de mudança (Isenção por transferência de residência), é necessário certificado de transferência de residência (do consulado de Portugal) + factura.',
   tags: ['mudança', 'contentor', 'transporte', 'alfândega'],
   estimatedReadMinutes: 7,
   steps: [
@@ -84,7 +84,7 @@ export default {
           'Inventário completo: lista detalhada dos bens com estimativa de valor + fotografias',
           'Lista de embalagem (anexada ao inventário)',
           'Factura do transporte (da transportadora)',
-          'Certificado de transferência de residência (do consulado MNE ou AIMA)',
+          'Certificado de transferência de residência (do consulado de Portugal / MNE)',
           'Passaporte + autorização de residência',
           'Comprovativo de morada em PT (atestado de residência / contrato)',
           'Bill of lading (conhecimento de embarque marítimo) ou CMR (rodoviário)',
@@ -156,6 +156,6 @@ export default {
     { title: 'Regulamento (CE) 1186/2009 — franquias aduaneiras', url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32009R1186', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — Importação de veículos', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

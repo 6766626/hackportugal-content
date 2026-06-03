@@ -3,7 +3,7 @@ export default {
   id: "emel-avenca-residente",
   categoryId: "auto_trips",
   title: "EMEL Avença Residente: estacionamento de residente em Lisboa",
-  tldr: "A Avença Residente EMEL é uma autorização anual para residentes de Lisboa estacionarem na sua zona EMEL, em vez de pagarem à hora. Em 2026, segundo a página oficial da EMEL, os valores de referência são: 40 € / ano para zona verde, 60 € / ano para zona amarela, 100 € / ano para zona vermelha. A condição principal é que a morada fiscal do seu NIF esteja na zona correspondente e que o automóvel esteja em seu nome ou lhe tenha sido legalmente disponibilizado. Pode pedir online ou numa Loja EMEL, mas para expats costuma ser mais seguro ir ao balcão com o pacote completo de documentos.",
+  tldr: "A Avença Residente (Dístico de Residente) EMEL é uma autorização anual para residentes de Lisboa estacionarem na sua zona EMEL, em vez de pagarem à hora. O preço não depende da cor da zona, mas do número de automóveis do agregado: segundo a página oficial da EMEL, o primeiro dístico é gratuito, o segundo custa 54 € / ano e o terceiro 132 € / ano (até três por morada, até cinco quando vivem várias famílias). A condição principal é que a morada fiscal do seu NIF esteja na zona correspondente e que o automóvel esteja em seu nome ou lhe tenha sido legalmente disponibilizado. Pode pedir online ou numa Loja EMEL, mas para expats costuma ser mais seguro ir ao balcão com o pacote completo de documentos.",
   tags: ["emel", "estacionamento", "lisboa", "automóvel"],
   estimatedReadMinutes: 5,
   steps: [
@@ -101,7 +101,7 @@ export default {
               content: [
                 {
                   kind: "paragraph",
-                  text: "No site da EMEL, procure a rua onde vive e veja a que zona pertence: verde, amarela ou vermelha. O preço depende da zona, e a validade da autorização está limitada a esse território."
+                  text: "No site da EMEL, procure a rua onde vive e veja a que zona pertence: verde, amarela ou vermelha. A cor da zona define a tarifa à hora; para a autorização de residente apenas define o território onde é válida, sendo o preço calculado pelo número de automóveis do agregado."
                 }
               ]
             },
@@ -145,7 +145,7 @@ export default {
       content: [
         {
           kind: "paragraph",
-          text: "Segundo a página oficial da EMEL para residentes, em 2026 a ordem de preços anual é a seguinte: zona verde — 40 €, zona amarela — 60 €, zona vermelha — 100 €. Este é o preço pelo direito de estacionar como residente na sua zona, e não o custo de um lugar reservado."
+          text: "Segundo a página oficial da EMEL para residentes, o preço não depende da cor da zona, mas do número de automóveis do agregado: o primeiro dístico é gratuito, o segundo custa 54 € / ano e o terceiro 132 € / ano. Cada morada tem direito a até três autorizações (até cinco quando vivem várias famílias na morada). Este é o preço pelo direito de estacionar como residente na sua zona, e não o custo de um lugar reservado."
         },
         {
           kind: "checklist",
@@ -168,19 +168,19 @@ export default {
   ],
   costs: [
     {
-      label: "Avença Residente — zona verde",
-      amountEUR: 40,
-      note: "Tarifa anual da EMEL para residente; válida apenas na zona atribuída."
+      label: "Avença Residente — primeiro automóvel",
+      amountEUR: 0,
+      note: "O primeiro dístico de residente por morada é emitido gratuitamente."
     },
     {
-      label: "Avença Residente — zona amarela",
-      amountEUR: 60,
-      note: "Tarifa anual da EMEL para residente; não garante um lugar."
+      label: "Avença Residente — segundo automóvel",
+      amountEUR: 54,
+      note: "Tarifa anual da EMEL para uma segunda autorização de residente na mesma morada."
     },
     {
-      label: "Avença Residente — zona vermelha",
-      amountEUR: 100,
-      note: "Tarifa anual da EMEL para uma zona de estacionamento mais cara."
+      label: "Avença Residente — terceiro automóvel",
+      amountEUR: 132,
+      note: "Tarifa anual da EMEL para uma terceira autorização; cada morada tem direito a até três (até cinco para várias famílias)."
     }
   ],
   sources: [
@@ -206,6 +206,6 @@ export default {
       lastRetrieved: "2026-04-28"
     }
   ],
-  lastVerified: "2026-05-17",
+  lastVerified: "2026-05-31",
   verifyIntervalDays: 180
 }

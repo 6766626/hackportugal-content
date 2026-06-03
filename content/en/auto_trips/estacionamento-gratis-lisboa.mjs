@@ -130,6 +130,6 @@ export default {
     { title: 'EMEL — my profile (management of permits and zones)', url: 'https://meuperfil.emel.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'EMEL — official website of the Lisboa parking operator', url: 'https://www.emel.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

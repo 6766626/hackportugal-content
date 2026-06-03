@@ -84,7 +84,7 @@ export default {
     { title: 'Lei Geral Tributária (LGT) — article 19.º, domicílio fiscal', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1998-34541975', kind: 'law', language: 'pt', lastRetrieved: '2026-05-29' },
     { title: 'Código do IRS — art. 16.º, 71.º, 72.º (residence, rates)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-29' }
   ],
-  lastVerified: '2026-05-29',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-29',
   changeSummary: '🔄 May 2026 sync: (1) eportugal.gov.pt migrated to gov.pt — source URLs updated; (2) Portal das Finanças menu renamed: “Dados Pessoais Relevantes” → “Dados Cadastrais”; (3) added specifics: confirmation letter arrives in ~5 business days, 90 days to confirm; (4) added 75–375 € fine (RGIT) for missing the 60-day deadline; (5) clarified authentication methods (CMD + phone or CC + PIN + card reader); (6) added e-balcão as an alternative for resident/non-resident status changes.'

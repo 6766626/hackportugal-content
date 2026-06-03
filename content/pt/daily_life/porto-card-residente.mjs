@@ -44,7 +44,7 @@ export default {
       id: 'documents',
       title: 'Documentos: o que preparar antecipadamente',
       content: [
-        { kind: 'paragraph', text: 'A lista exacta de documentos depende do seu fundamento: residente, estudante ou trabalhador. Antes de submeter o pedido, verifique o formulário actualizado no site cm-porto.pt, porque a CMP pode alterar a forma de comprovação e os canais digitais.' },
+        { kind: 'paragraph', text: 'A lista exacta de documentos depende do seu fundamento: residente, estudante ou trabalhador. Antes de submeter o pedido, verifique o formulário actualizado no site cartao.porto.pt, porque a CMP pode alterar a forma de comprovação e os canais digitais.' },
         { kind: 'checklist', items: [
           'Documento de identificação: autorização de residência, passaporte, Cartão de Cidadão ou outro ID aceite',
           'NIF',
@@ -63,8 +63,8 @@ export default {
       title: 'Como submeter o pedido 📝',
       content: [
         { kind: 'substeps', items: [
-          { id: 'check-page', title: '1. Abra a secção Cartão Porto. no site da CMP', content: [
-            { kind: 'paragraph', text: 'Comece pelo site oficial da Câmara Municipal do Porto. Procure a secção Cartão Porto. ou benefícios Cartão Porto. Não use páginas da Porto Card turística: é outro produto.' }
+          { id: 'check-page', title: '1. Abra o site oficial do Cartão Porto.', content: [
+            { kind: 'paragraph', text: 'Comece pelo portal oficial cartao.porto.pt. Procure a secção Cartão Porto. ou benefícios Cartão Porto. Não use páginas da Porto Card turística: é outro produto.' }
           ] },
           { id: 'create-profile', title: '2. Crie ou confirme o perfil', content: [
             { kind: 'paragraph', text: 'Se o pedido online estiver disponível, preencha os dados, carregue os documentos e verifique o e-mail. Em alguns casos, a CMP pode encaminhá-lo para o atendimento municipal ou pedir comprovativos adicionais.' }
@@ -85,7 +85,7 @@ export default {
       id: 'benefits',
       title: 'Que benefícios pode realisticamente esperar',
       content: [
-        { kind: 'paragraph', text: 'O objectivo do Cartão Porto. são vantagens municipais, não um cartão universal de descontos para tudo. A lista de parceiros e regras muda, por isso, antes de comprar um bilhete ou assinatura, verifique o equipamento específico em cm-porto.pt.' },
+        { kind: 'paragraph', text: 'O objectivo do Cartão Porto. são vantagens municipais, não um cartão universal de descontos para tudo. A lista de parceiros e regras muda, por isso, antes de comprar um bilhete ou assinatura, verifique o equipamento específico em cartao.porto.pt.' },
         { kind: 'checklist', items: [
           'Descontos ou acesso com preço reduzido a equipamentos culturais da CMP',
           'Benefícios em eventos do Teatro Municipal do Porto e outros programas municipais, se estiverem incluídos na lista actual',
@@ -118,17 +118,17 @@ export default {
     }
   ],
   costs: [
-    { label: 'Cartão Porto.', amountEUR: 0, note: 'Cartão municipal da CMP para residentes/estudantes/trabalhadores elegíveis; verifique as condições actuais de emissão em cm-porto.pt.' },
+    { label: 'Cartão Porto.', amountEUR: 0, note: 'Cartão municipal da CMP para residentes/estudantes/trabalhadores elegíveis; verifique as condições actuais de emissão em cartao.porto.pt.' },
     { label: 'Emissão do cartão Andante personalizado', amountEUR: 6, note: 'Valor de referência para o cartão Andante personalizado físico; o Cartão Porto. em si não o substitui.' },
     { label: 'Andante Municipal', amountEUR: 30, note: 'Passe mensal normal para uma zona municipal; aos estudantes Sub23 podem aplicar-se benefícios separados.' },
     { label: 'Andante Metropolitano', amountEUR: 40, note: 'Passe mensal normal para a Área Metropolitana do Porto; não faz parte do Cartão Porto.' }
   ],
   sources: [
-    { title: 'Câmara Municipal do Porto — Cartão Porto.', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Cartão Porto. — site oficial', url: 'https://cartao.porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Câmara Municipal do Porto — serviços e benefícios municipais', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Andante — passes, títulos e cartão personalizado', url: 'https://andante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Movijovem — Cartão Jovem', url: 'https://www.cartaojovem.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

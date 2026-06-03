@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A carta de capitão não é necessária para todas as embarcações. Regras básicas por potência do motor e dimensão:' },
         { kind: 'checklist', items: [
-          'Sem carta: apenas embarcações com motor ≤ 4,5 kW (~6 cv) e comprimento ≤ 7 m',
+          'Sem carta: apenas embarcações com comprimento inferior a 5 m e motor inferior a 4,5 kW (~6 cv), em navegação diurna dentro das barras dos portos',
           'MARINHEIRO JÚNIOR: embarcação de recreio até 6 m, motor até 4,5 kW, navegação diurna, máx. 1 milha da linha de baixa-mar e 3 milhas de qualquer porto de abrigo',
           'MARINHEIRO: navegação diurna, máx. 3 milhas da costa e 10 milhas de qualquer porto de abrigo',
           'PATRÃO LOCAL: à vista da costa, máx. 6 milhas da costa e 25 milhas de qualquer porto de abrigo',
@@ -89,7 +89,7 @@ export default {
               { kind: 'checklist', items: [
                 'Disponibilidade: cerca de 2–4 semanas depois',
                 'Emitida eletronicamente pela DGRM com chave de acesso; disponível na app gov.pt',
-                'Válida até aos 70 anos; depois, exame médico de 5 em 5 anos'
+                'Renovada com exame médico: até aos 70 anos antes de expirar, a partir dos 70 anos de 5 em 5 anos e a partir dos 80 anos de 2 em 2 anos'
               ] }
             ]
           }
@@ -100,7 +100,7 @@ export default {
       id: 'foreign-conversion',
       title: 'Conversão de cartas estrangeiras',
       content: [
-        { kind: 'paragraph', text: 'Se já tiver uma carta de capitão estrangeira, muitas podem ser reconhecidas pela DGRM (equiparação): as cartas da UE são reconhecidas automaticamente, as de países terceiros são reconhecidas pela DGRM no prazo de 5 dias, normalmente com um exame simplificado. Taxa de cerca de 89–99 €.' },
+        { kind: 'paragraph', text: 'Se já tiver uma carta de capitão estrangeira, muitas podem ser reconhecidas pela DGRM (equiparação). Submete o pedido online; a DGRM verifica as competências, o programa e as horas de formação face aos requisitos do Decreto-Lei 93/2018 e atribui a categoria correspondente (por vezes com exame adicional). Taxa: 89,37 € (carta digital) ou 99,30 € (digital + física).' },
         { kind: 'checklist', items: [
           'RYA Day Skipper (UK) → normalmente é convertida em Patrão de Costa com exame teórico',
           'RYA Yachtmaster Coastal/Offshore → Patrão de Alto Mar',
@@ -154,6 +154,6 @@ export default {
     { title: 'DGRM — escolas/entidades formadoras acreditadas', url: 'https://www.dgrm.pt/formacao1', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 93/2018 — Regime Jurídico da Náutica de Recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/93-2018-116954925', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

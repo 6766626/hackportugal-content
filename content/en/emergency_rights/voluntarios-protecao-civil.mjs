@@ -3,7 +3,7 @@ export default {
   id: 'voluntarios-protecao-civil',
   categoryId: 'emergency_rights',
   title: 'Bombeiros Voluntários: how to become a volunteer firefighter in Portugal',
-  tldr: 'In Portugal, volunteer firefighters are the backbone of Proteção Civil: there are around 469 corpos de bombeiros across the country, and recruitment is handled through the local Associação Humanitária de Bombeiros Voluntários. Applicants are usually accepted from age 16; you need a legal document, an address, good health and readiness for shifts. Basic training is free and takes roughly 6–12 months: physical training, first aid, fires, rescue work. It is not a quick way to get a job, but it gives integration, uniform, skills and a path into a professional career.',
+  tldr: 'In Portugal, volunteer firefighters are the backbone of Proteção Civil: there are around 469 corpos de bombeiros across the country, and recruitment is handled through the local Associação Humanitária de Bombeiros Voluntários. The operational carreira de bombeiro is usually entered from age 18 (the estágio can start at 17), while 16–17 year-olds join cadetes schools. You need a legal document, an address, good health and readiness for shifts. Basic training is free and takes roughly 6–12 months: physical training, first aid, fires, rescue work. It is not a quick way to get a job, but it gives integration, uniform, skills and a path into a professional career.',
   tags: ['bombeiros', 'volunteering', 'proteção-civil', '112'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Bombeiros Voluntários are volunteer fire brigades attached to local Associação Humanitária de Bombeiros Voluntários. They are part of the Proteção Civil system and work alongside Bombeiros Sapadores, INEM, GNR/PSP, Câmara Municipal and ANEPC.' },
         { kind: 'paragraph', text: 'Their tasks go beyond extinguishing fires: road traffic accidents, evacuations, floods, forest fires, searches for missing people, patient transport, event support and assistance to the population during emergencies.' },
-        { kind: 'checklist', items: ['There are around 469 corpos de bombeiros across the country', 'Recruitment is usually local: through the nearest Associação de Bombeiros', 'The minimum age to enter the carreira de bombeiro voluntário is usually 16', 'Under 16s may have cadetes/infantes schools, but this is not full operational service', 'Training and uniform are usually provided by the corps', 'Volunteering is not the same as an employment contract and does not guarantee a salary', 'After training, shifts, operational call-outs and further specialisations may be possible'] }
+        { kind: 'checklist', items: ['There are around 469 corpos de bombeiros across the country', 'Recruitment is usually local: through the nearest Associação de Bombeiros', 'The minimum age to enter the carreira de bombeiro is usually 18 (the estágio can start at 17)', '16–17 year-olds join cadetes/infantes schools, but this is not full operational service', 'Training and uniform are usually provided by the corps', 'Volunteering is not the same as an employment contract and does not guarantee a salary', 'After training, shifts, operational call-outs and further specialisations may be possible'] }
       ]
     },
     {
@@ -21,7 +21,7 @@ export default {
       title: 'Who is accepted: basic requirements',
       content: [
         { kind: 'paragraph', text: 'The exact requirements are set by the specific corpo de bombeiros, but the logic across the country is similar: you must live nearby, be physically and psychologically fit, understand at least enough Portuguese for commands and safety, and attend classes and shifts regularly.' },
-        { kind: 'checklist', items: ['Age: usually from 16 for bombeiro voluntário', 'Identity document: passport, residence permit, Cartão de Cidadão or another legal ID', 'NIF — often requested for internal registration and insurance', 'Proof of address within the corps area: contrato de arrendamento, bill, atestado de residência', 'Medical fitness: the corps may refer you for avaliação médica', 'A criminal record certificate may be required for some roles and work with vulnerable groups', 'Basic Portuguese: commands, radio, addresses, safety, first aid', 'Readiness for training in the evening/at weekends and for shifts after certification'] },
+        { kind: 'checklist', items: ['Age: usually from 18 for bombeiro voluntário (estágio from 17, cadetes schools from 16)', 'Identity document: passport, residence permit, Cartão de Cidadão or another legal ID', 'NIF — often requested for internal registration and insurance', 'Proof of address within the corps area: contrato de arrendamento, bill, atestado de residência', 'Medical fitness: the corps may refer you for avaliação médica', 'A criminal record certificate may be required for some roles and work with vulnerable groups', 'Basic Portuguese: commands, radio, addresses, safety, first aid', 'Readiness for training in the evening/at weekends and for shifts after certification'] },
         { kind: 'warning', text: 'If you have only just arrived and do not yet speak Portuguese, you may be accepted as a candidato/estagiário, but you will not be allowed to perform operational tasks. On a call-out, not understanding a command is dangerous for you, the crew and the victims.' }
       ]
     },
@@ -83,6 +83,6 @@ export default {
     { title: 'Decreto-Lei 247/2007 — legal regime for corpos de bombeiros', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/247-2007-635778', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 241/2007 — legal regime applicable to Portuguese firefighters', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/241-2007-635777', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

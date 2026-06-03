@@ -23,7 +23,7 @@ export default {
         { kind: 'checklist', items: [
           'Registo da doença crónica no processo clínico SNS — é visível para o médico, enfermeiro e farmacêutico através da receita eletrónica.',
           'Receita sem papel para tratamento prolongado: o médico pode emitir receitas renováveis, para não ter de ir todos os meses apenas renovar medicação.',
-          'Comparticipação especial de medicamentos: os escalões normais em Portugal são 90%, 69%, 37% ou 15%, mas em alguns protocolos pode ser 100%.',
+          'Comparticipação especial de medicamentos: os escalões normais em Portugal são 95%, 69%, 37% ou 15%, mas em alguns protocolos pode ser 100%.',
           'Para diabetes: a insulina é normalmente totalmente comparticipada; agulhas, lancetas e seringas para autocontrolo podem ter cobertura a 100%, e as tiras-teste seguem um regime próprio.',
           'Para doenças oncológicas: muitos medicamentos são fornecidos através da farmácia hospitalar do SNS sem pagamento pelo doente, se o tratamento for prescrito por hospital público.',
           'Para asma, hipertensão e doenças cardiovasculares: a cobertura depende do medicamento concreto e do protocolo clínico, nem sempre é 100%.',
@@ -145,6 +145,6 @@ export default {
       lastRetrieved: '2026-05-04'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

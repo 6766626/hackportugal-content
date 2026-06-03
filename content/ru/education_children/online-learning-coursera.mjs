@@ -3,7 +3,7 @@ export default {
   id: 'online-learning-coursera',
   categoryId: 'education_children',
   title: 'Онлайн-обучение в Португалии: Coursera, Domestika, Skillshare и MOOC',
-  tldr: 'Для экспата в Португалии онлайн-курсы — быстрый способ закрыть португальский язык, IT, дизайн, маркетинг или смену профессии без привязки к городу. Coursera/edX дают университетские сертификаты, Domestika и Skillshare — творческие навыки, Udemy — дешёвые прикладные курсы. В 2026 частичная компенсация через IEFP возможна только для cursos certificados и активных мер; Cheque-Formação + Digital нужно проверять на статус перед покупкой курса.',
+  tldr: 'Для экспата в Португалии онлайн-курсы — быстрый способ подтянуть португальский язык, IT, дизайн, маркетинг или сменить профессию без привязки к городу. Coursera/edX дают университетские сертификаты, Domestika и Skillshare — творческие навыки, Udemy — дешёвые прикладные курсы. В 2026 частичная компенсация через IEFP возможна только для cursos certificados и активных мер; статус Cheque-Formação + Digital нужно уточнить перед покупкой курса.',
   tags: ['mooc', 'iefp', 'coursera', 'курсы'],
   estimatedReadMinutes: 5,
   steps: [
@@ -51,7 +51,7 @@ export default {
           'Не рассчитывайте на компенсацию задним числом без предварительного одобрения: IEFP часто требует заявку до начала обучения.',
           'Если курс нужен для работы в Португалии, попросите работодателя оформить formação contínua или частичную оплату как training benefit.'
         ] },
-        { kind: 'warning', text: 'Cheque-Formação + Digital в предыдущем формате имел лимиты и сроки, привязанные к бюджету/PRR; к апрелю 2026 статус нужно проверять на IEFP. Не покупайте дорогую подписку, рассчитывая на автоматический возврат.' }
+        { kind: 'warning', text: 'Cheque-Formação + Digital в предыдущем формате имел лимиты и сроки, привязанные к бюджету/PRR (текущая программа действует до 30 июня 2026); актуальный статус уточняйте в IEFP. Не покупайте дорогую подписку, рассчитывая на автоматический возврат.' }
       ]
     },
     {
@@ -101,6 +101,6 @@ export default {
     { title: 'Coursera — Coursera Plus и certificates', url: 'https://www.coursera.org/courseraplus', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Domestika — онлайн-курсы и подписка', url: 'https://www.domestika.org', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'presente-funeral-coroa',
   categoryId: 'food_leisure',
   title: 'Flores para funerais em Portugal: coroa de flores, ramo e etiqueta',
-  tldr: 'Em Portugal, nos funerais, envia-se normalmente uma coroa de flores — uma coroa fúnebre em suporte, muitas vezes branca, creme, lilás ou com folhagem. Orçamento real em 2026: 40–150 € por uma coroa, 25–70 € por um ramo de flores, 3–10 € por uma fita/cartão; a entrega através da Interflora.pt ou de um florista local costuma ser no próprio dia, se encomendar de manhã. No cartão escreve-se algo curto: “Sentidas condolências”, “Com amizade” + nome da família/empresa. Normalmente não se oferece dinheiro em vez de flores, mas uma missa lembrada pode custar cerca de 100 €.',
+  tldr: 'Em Portugal, nos funerais, envia-se normalmente uma coroa de flores — uma coroa fúnebre em suporte, muitas vezes branca, creme, lilás ou com folhagem. Orçamento real em 2026: 60–250 € por uma coroa, 25–70 € por um ramo de flores, 3–10 € por uma fita/cartão; a entrega através da Interflora.pt ou de um florista local costuma ser no próprio dia, se encomendar de manhã. No cartão escreve-se algo curto: “Sentidas condolências”, “Com amizade” + nome da família/empresa. Normalmente não se oferece dinheiro em vez de flores, mas uma missa lembrada pode custar cerca de 100 €.',
   tags: ['funeral', 'flores', 'etiqueta', 'coroa'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que enviar exatamente',
       content: [
         { kind: 'paragraph', text: 'O formato mais reconhecível em Portugal é a coroa de flores: uma coroa fúnebre redonda em suporte ou com fita. É colocada na capela mortuária, igreja, agência funerária ou junto ao caixão durante o velório e a cerimónia.' },
-        { kind: 'checklist', items: ['Coroa de flores — a escolha habitual da família, amigos, colegas ou empresa; normalmente 40–150 €', 'Ramo de flores — um bouquet mais discreto, adequado de um conhecido, vizinho ou de um colega individualmente; normalmente 25–70 €', 'Centro de flores — composição para a cerimónia ou para a casa da família; frequentemente 35–100 €', 'Fita com texto — se for enviada por um grupo, empresa ou familiares; mais 3–10 €', 'Cartão — quase sempre basta uma frase curta de condolências', 'Missa lembrada — missa paga em memória da pessoa falecida; referência de cerca de 100 €, se a família for religiosa e isso for habitual no seu meio'] }
+        { kind: 'checklist', items: ['Coroa de flores — a escolha habitual da família, amigos, colegas ou empresa; normalmente 60–250 € (a partir de cerca de 150 € na Interflora.pt)', 'Ramo de flores — um bouquet mais discreto, adequado de um conhecido, vizinho ou de um colega individualmente; normalmente 25–70 €', 'Centro de flores — composição para a cerimónia ou para a casa da família; frequentemente 35–100 €', 'Fita com texto — se for enviada por um grupo, empresa ou familiares; mais 3–10 €', 'Cartão — quase sempre basta uma frase curta de condolências', 'Missa lembrada — missa paga em memória da pessoa falecida; referência de cerca de 100 €, se a família for religiosa e isso for habitual no seu meio'] }
       ]
     },
     {
@@ -52,7 +52,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Coroa de flores', amountEURMin: 40, amountEURMax: 150, note: 'Depende do tamanho, das flores, da cidade e da urgência da entrega' },
+    { label: 'Coroa de flores', amountEURMin: 60, amountEURMax: 250, note: 'Depende do tamanho, das flores, da cidade e da urgência da entrega; na Interflora.pt as coroas começam por volta dos 150 €' },
     { label: 'Ramo de flores fúnebre', amountEURMin: 25, amountEURMax: 70, note: 'Opção discreta de um conhecido ou de uma só pessoa' },
     { label: 'Fita ou cartão', amountEURMin: 3, amountEURMax: 10, note: 'Por vezes incluído no preço da composição' },
     { label: 'Missa lembrada', amountEUR: 100, note: 'Valor de referência; o montante exato depende da paróquia e da prática local' }
@@ -80,6 +80,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

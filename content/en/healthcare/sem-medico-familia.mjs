@@ -3,7 +3,7 @@ export default {
   id: 'sem-medico-familia',
   categoryId: 'healthcare',
   title: 'What to do without a médico de família: consultas de recurso and consulta aberta',
-  tldr: 'Not having a médico de família does not deprive you of access to the SNS. If you have a número de utente, contact your Centro de Saúde/USF/UCSP for a consulta aberta, consulta de recurso or atendimento complementar; if you have symptoms, call SNS 24 — 808 24 24 24, to get triage and a referral. From June 2026, a practical list clean-up will be introduced: patients who have not had contact with cuidados de saúde primários for 5 years may lose their assigned doctor, but not their SNS registration.',
+  tldr: 'Not having a médico de família does not deprive you of access to the SNS. If you have a número de utente, contact your Centro de Saúde/USF/UCSP for a consulta aberta, consulta de recurso or atendimento complementar; if you have symptoms, call SNS 24 — 808 24 24 24, to get triage and a referral. From mid-June 2026, a practical list clean-up will be introduced: patients who have not had contact with the SNS for 5 years may lose their assigned doctor, but not their SNS registration.',
   tags: ['sns', 'utente', 'appointment', 'healthcare'],
   estimatedReadMinutes: 5,
   steps: [
@@ -91,7 +91,7 @@ export default {
       id: 'five-year-rule',
       title: 'The 5-year inactivity rule from June 2026',
       content: [
-        { kind: 'paragraph', text: 'From June 2026, a mechanism for updating lists will be launched in cuidados de saúde primários: patients who have had no contact with primary care for 5 years may lose their assigned médico de família. The aim is to free up doctors’ lists for people who actually live in the area and need follow-up.' },
+        { kind: 'paragraph', text: 'From mid-June 2026, a mechanism for updating lists will be launched in cuidados de saúde primários: patients who have had no contact with the SNS for 5 years may lose their assigned médico de família. Previously only contact with primary care was counted; now any contact with the SNS counts. The aim is to free up doctors’ lists for people who actually live in the area and need follow-up.' },
         { kind: 'paragraph', text: 'This does not mean losing your número de utente or your right to the SNS. It concerns the list of a specific family doctor. But for expats the risk is practical: if you have left, changed address, do not respond to contacts or have never used the service, the system may consider you inactive.' },
         { kind: 'checklist', items: [
           'Once a year, check Área Pessoal do SNS 24: unidade, contacts, médico de família',
@@ -159,6 +159,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

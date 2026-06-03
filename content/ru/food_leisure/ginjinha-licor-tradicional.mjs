@@ -48,7 +48,7 @@ export default {
           'Lisboa: A Ginjinha у Rossio — классический адрес для первой рюмки.',
           'Lisboa: старые casas de ginja в Baixa, Alfama, Mouraria — смотрите, чтобы за стойкой были бутылки ginja, а не только сувениры.',
           'Óbidos: город известен ginja de Óbidos, часто подают в шоколадных стаканчиках; туристично, но традиция живая.',
-          'Algarve: для medronho и amêndoa amarga ищите producers shops, mercados municipais и лавки в Monchique, Silves, Loulé.',
+          'Algarve: для medronho и amêndoa amarga ищите магазины производителей, mercados municipais и лавки в Monchique, Silves, Loulé.',
           'Рестораны: после обеда спросите “Tem digestivos portugueses?” — часто есть aguardente velha, Licor Beirão или amêndoa amarga.',
           'Фестивали и feiras: там можно пробовать локальные версии, но проверяйте, продаётся ли продукт с этикеткой, производителем и объёмом.'
         ] },
@@ -67,7 +67,7 @@ export default {
           'Duty free в аэропорту — удобно для подарка, но не всегда дешевле города.',
           'Смотрите крепость: ginjinha часто около 18–20%, Licor Beirão около 22%, medronho и aguardente часто 40%+.',
           'Для подарка берите 0,5–0,7 л; мини-бутылки 50–100 мл удобны, но цена за литр выше.',
-          'Если летите с ручной кладью, бутылка более 100 мл не пройдёт контроль безопасности, кроме покупки после security.'
+          'Если летите с ручной кладью, бутылка более 100 мл не пройдёт контроль безопасности, кроме бутылок, купленных уже после досмотра.'
         ] },
         { kind: 'paragraph', text: 'Ориентиры по цене на 2026: ginjinha 0,7 л — 7–15 €, Licor Beirão 0,7 л — 10–16 €, amêndoa amarga 0,7 л — 5–12 €, medronho 0,5–0,7 л — 15–35 €, выдержанная aguardente velha — от 15 € и сильно выше.' }
       ]
@@ -102,6 +102,6 @@ export default {
     { title: 'Diário da República: Decreto-Lei 106/2015 — возрастные ограничения продажи алкоголя', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/106-2015-67541745', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Licor Beirão: официальный сайт бренда', url: 'https://www.licorbeirao.com/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

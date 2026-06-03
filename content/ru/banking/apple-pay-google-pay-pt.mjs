@@ -3,7 +3,7 @@ export default {
   id: 'apple-pay-google-pay-pt',
   categoryId: 'banking',
   title: 'Apple Pay и Google Pay в Португалии — как настроить',
-  tldr: 'В Португалии Apple Pay и Google Pay работают везде, где терминал принимает contactless: супермаркеты, метро, такси, рестораны, online. На апрель 2026 поддерживаются карты многих банков, включая CGD, Millennium bcp, Santander, ActivoBank, Banco Best и Revolut, но конкретная карта проверяется в приложении банка/Wallet. Обычный contactless без PIN ограничен 50 €, а Apple Pay/Google Pay с Face ID/Touch ID/отпечатком обычно проходят и выше 50 €, потому что это сильная аутентификация. MB WAY остаётся местной альтернативой.',
+  tldr: 'В Португалии Apple Pay и Google Pay работают везде, где терминал принимает contactless: супермаркеты, метро, такси, рестораны, online. На апрель 2026 поддерживаются карты многих банков, включая CGD, Millennium bcp, Santander, ActivoBank, Banco Best и Revolut, но конкретная карта проверяется в приложении банка/Wallet. Обычный contactless без PIN ограничен 50 €, а Apple Pay/Google Pay с Face ID/Touch ID/отпечатком обычно проходят и выше 50 €, потому что это сильная аутентификация (SCA). MB WAY остаётся местной альтернативой.',
   tags: ['applepay', 'googlepay', 'mbway', 'банки'],
   estimatedReadMinutes: 5,
   steps: [
@@ -64,7 +64,7 @@ export default {
             { kind: 'paragraph', text: 'На iPhone с Face ID дважды нажмите боковую кнопку, подтвердите Face ID и поднесите к терминалу. На iPhone с Touch ID приложите палец к Touch ID. На Apple Watch дважды нажмите боковую кнопку.' }
           ] }
         ] },
-        { kind: 'warning', text: 'Регион Apple ID обычно не должен быть Португалией для оплаты португальской картой, но устройство должно иметь Face ID/Touch ID или код-пароль. Без блокировки экрана Wallet не даст нормально использовать карту.' }
+        { kind: 'warning', text: 'Регион Apple ID, как правило, не обязан быть португальским, чтобы платить португальской картой, но на устройстве должны быть настроены Face ID/Touch ID или код-пароль. Без блокировки экрана Wallet не даст нормально пользоваться картой.' }
       ]
     },
     {
@@ -89,7 +89,7 @@ export default {
       id: 'limits-and-pin',
       title: 'Лимиты 50 €, PIN и биометрия',
       content: [
-        { kind: 'paragraph', text: 'В Португалии стандартный лимит для обычной contactless-оплаты физической картой без PIN — 50 € за одну операцию. После нескольких мелких операций подряд терминал или банк может запросить PIN из-за правил SCA.' },
+        { kind: 'paragraph', text: 'В Португалии стандартный лимит для обычной contactless-оплаты физической картой без PIN — 50 € за одну операцию. После нескольких небольших операций подряд (правила ограничивают это суммой около 150 € или пятью операциями) терминал или банк может запросить PIN из-за требований SCA.' },
         { kind: 'checklist', items: [
           'Физическая карта contactless до 50 € обычно проходит без PIN',
           'Физическая карта выше 50 € почти всегда требует PIN',
@@ -131,6 +131,6 @@ export default {
     { title: 'Banco de Portugal — pagamentos contactless и правила безопасности', url: 'https://www.bportugal.pt/page/pagamentos-contactless', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'MB WAY — официальный сайт сервиса SIBS', url: 'https://www.mbway.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

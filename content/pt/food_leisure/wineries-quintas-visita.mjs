@@ -106,7 +106,7 @@ export default {
           'Se é possível comprar vinho no local e enviar delivery em Portugal/EU.',
           'Se é necessário pré-pagamento com cartão; algumas quintas aceitam Multibanco/MB WAY apenas para clientes portugueses.'
         ] },
-        { kind: 'warning', text: 'Limite de álcool ao volante em Portugal: o limite geral é 0,5 g/l; para condutores recém-encartados e profissionais — 0,2 g/l. Depois de uma prova, é mais seguro ter um condutor que não beba, escolher uma visita com transfer ou pernoitar perto.' }
+        { kind: 'warning', text: 'Limite de álcool ao volante em Portugal: o limite geral é 0,5 g/l; para condutores recém-encartados (menos de 3 anos de carta) e profissionais — 0,2 g/l. Depois de uma prova, é mais seguro ter um condutor que não beba, escolher uma visita com transfer ou pernoitar perto.' }
       ]
     },
     {
@@ -138,6 +138,6 @@ export default {
     { title: 'Herdade do Esporão — visitas e provas oficiais', url: 'https://www.esporao.com/en/winetourism/herdade-do-esporao/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'José Maria da Fonseca — visitas oficiais de enoturismo', url: 'https://www.jmf.pt/index.php?id=95', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'creches-gratis-3a5-anos',
   categoryId: 'education_children',
   title: 'Free Creches for children aged 0–3: Programa Creche Feliz',
-  tldr: 'Creche Feliz is a free childcare programme for children up to age 3 in Portugal. In 2026 it covers mensalidade, inscrição, meals and basic care in creches aderentes, if the child is within the covered age cohort and there is a place. You need the child’s/parents’ NIF, the child’s NISS and proof of address. In practice, the application goes through searching for a place on Carta Social and contacting the creche. The main risk is not eligibility, but a shortage of vagas, especially in Lisboa, Porto, Cascais and Oeiras.',
+  tldr: 'Creche Feliz is a free childcare programme for children up to age 3 in Portugal. In 2026 it covers mensalidade, inscrição, meals and basic care in creches aderentes, if the child is within the covered age cohort and there is a place. You need the child’s/parents’ NIF, the child’s NISS and proof of address. Since 9 April 2026 the request for a place is submitted online through Segurança Social Direta (the standalone Creche Feliz app has been discontinued); Carta Social is still useful for browsing creches first. The main risk is not eligibility, but a shortage of vagas, especially in Lisboa, Porto, Cascais and Oeiras.',
   tags: ['creche', 'children', 'crechefeliz', 'segurançasocial'],
   estimatedReadMinutes: 5,
   steps: [
@@ -28,7 +28,7 @@ export default {
       id: 'eligibility',
       title: 'Who is eligible in 2026',
       content: [
-        { kind: 'paragraph', text: 'The key criterion is that the child must be accepted into a creche aderente and fall within the age range covered by the programme. In 2026 the programme already applies as a broad scheme for children up to age 3, including children born after 1 September 2021 and subsequent cohorts.' },
+        { kind: 'paragraph', text: 'The key criterion is that the child must be accepted into a creche aderente and fall within the age range covered by the programme. Children born on or after 1 September 2021 get a free creche automatically, with no income test. Children born before that date are covered only if the family is in the 1st or 2nd escalão (income bracket) of comparticipação familiar.' },
         { kind: 'checklist', items: [
           'The child lives in Portugal and has a NIF.',
           'The child has a NISS or it is being arranged through Segurança Social; many creches will ask for the NISS before final registration.',
@@ -43,12 +43,12 @@ export default {
     },
     {
       id: 'how-to-find-place',
-      title: 'How to search for a place through Carta Social',
+      title: 'How to search for a place and apply',
       content: [
-        { kind: 'paragraph', text: 'Carta Social is the main public directory of social institutions. It is a convenient way to check creches participating in Creche Feliz and the availability of declared vagas. But the final decision is still made by the specific creche after contact with the family.' },
+        { kind: 'paragraph', text: 'Since 9 April 2026 the formal request for a free place is submitted online through Segurança Social Direta: the “Família” → “Desenvolvimento de crianças e jovens” → “Creche Feliz — Rede de creches gratuitas” menu. There you can search for creches with vagas, select up to 3 institutions at once and get automatic prioritisation. Carta Social is still useful for browsing institutions and contacts first, but the gratuitidade request itself now goes through Segurança Social.' },
         { kind: 'substeps', items: [
-          { id: 'open-carta-social', title: '1. Open Carta Social', content: [
-            { kind: 'paragraph', text: 'Go to cartasocial.pt and search for the resposta social “Creche” by concelho, freguesia or postcode.' }
+          { id: 'open-carta-social', title: '1. Find creches', content: [
+            { kind: 'paragraph', text: 'In Segurança Social Direta or on cartasocial.pt, search for the resposta social “Creche” by concelho, freguesia or postcode.' }
           ] },
           { id: 'filter-creche-feliz', title: '2. Check participation in Creche Feliz', content: [
             { kind: 'paragraph', text: 'Choose institutions where participation in Programa Creche Feliz or the availability of vagas gratuitas is indicated. Not all private creches take part in the programme.' }
@@ -63,8 +63,8 @@ export default {
               'Ask whether there is a waiting list and how often it is updated.'
             ] }
           ] },
-          { id: 'confirm-registration', title: '4. Confirm the matrícula', content: [
-            { kind: 'paragraph', text: 'After the creche agrees, you submit the documents and sign the regulamento interno and matrícula. Only after this is the place considered real.' }
+          { id: 'confirm-registration', title: '4. Submit the gratuitidade request and confirm the matrícula', content: [
+            { kind: 'paragraph', text: 'After the creche agrees, you submit the gratuitidade request through Segurança Social Direta (the institution may give you a code to link it), then sign the regulamento interno and matrícula. Only after this is the place considered real.' }
           ] }
         ] }
       ]
@@ -134,10 +134,10 @@ export default {
   ],
   sources: [
     { title: 'Gov.pt: joining Programa Creche Feliz', url: 'https://www.gov.pt/servicos/aderir-ao-programa-creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social: Creche Feliz', url: 'https://www.seg-social.pt/creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Segurança Social: Creche Feliz — Rede de creches gratuitas', url: 'https://www.seg-social.pt/ptss/pssd/menu/momento-filhos/momento-durante-crescimento/creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Carta Social: search for creches and social responses', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE: Lei 41/2023', url: 'https://diariodarepublica.pt/dr/detalhe/lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -40,8 +40,8 @@ export default {
           { id: 's3', title: '3. Загрузить сканы документов', content: [
             { kind: 'checklist', items: ['Паспорт/документ гражданской идентификации (страницы с персональными данными и, если требуется, страницы с актуальной визой/штампом)', 'NIF (на практике обычно нужен)', 'ВНЖ / виза / документ EU', 'Адрес в Португалии; comprovativo de morada могут попросить дополнительно'] }
           ]},
-          { id: 's4', title: '4. Получить NISS по электронной почте', content: [
-            { kind: 'timeline', text: '5–30 дней. Обычно ответ приходит на email/контакт, указанный в заявке. SSD полноценно доступна уже после присвоения NISS и настройки доступа.' }
+          { id: 's4', title: '4. Получить NISS по электронной почте или письмом', content: [
+            { kind: 'timeline', text: '5–30 дней. Обычно ответ приходит на email/контакт, указанный в заявке; для иностранцев нередко присылают и заказное письмо с приглашением получить NISS в Loja da Segurança Social. SSD полноценно доступна уже после присвоения NISS и настройки доступа.' }
           ]}
         ]}
       ]
@@ -70,6 +70,6 @@ export default {
     { title: 'ePortugal — Obter NISS', url: 'https://www.gov.pt/servicos/obter-numero-de-identificacao-da-seguranca-social-niss', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AIMA — checklist по типам ВНЖ', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

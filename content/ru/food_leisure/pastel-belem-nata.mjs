@@ -11,7 +11,7 @@ export default {
       id: 'short-answer',
       title: 'Коротко: в чём разница',
       content: [
-        { kind: 'paragraph', text: 'Pastel de nata — родовое название десерта: слоёное тесто, яично-сливочный крем, сильная печь, карамелизированные пятна сверху. Его можно купить в любой pastelaria, супермаркете, кафе при метро или аэропорту.' },
+        { kind: 'paragraph', text: 'Pastel de nata — родовое название десерта: слоёное тесто, яично-сливочный крем, очень горячая печь, карамелизированные пятна сверху. Его можно купить в любой pastelaria, супермаркете, кафе при метро или аэропорту.' },
         { kind: 'paragraph', text: 'Pastel de Belém — конкретный продукт дома Pastéis de Belém на Rua de Belém 84-92 в Лиссабоне. Название связано с брендом, местом и закрытым рецептом. Поэтому корректная бытовая формула такая: каждый Pastel de Belém — это pastel de nata по типу десерта, но не каждый pastel de nata — Pastel de Belém.' },
         { kind: 'warning', text: 'Если кафе в другом районе пишет «pastel de Belém», это почти всегда маркетинговая вольность. Правильное общее название — pastel de nata.' }
       ]
@@ -39,7 +39,7 @@ export default {
         { kind: 'paragraph', text: 'Разница не только в легенде. У Pastéis de Belém обычно более хрустящая и сухая слоёная корзинка, крем плотный, с выраженной сладостью и пряным профилем. Подают тёплыми, отдельно дают açúcar em pó и canela — сахарную пудру и корицу.' },
         { kind: 'paragraph', text: 'Pastel de nata в других местах может быть отличным, но стиль меняется: где-то крем более жидкий, где-то больше ванили, где-то тесто маслянее, где-то верх обжигают сильнее. Это нормально: nata — категория, а не единый стандарт.' },
         { kind: 'checklist', items: [
-          'Хотите «исторический оригинал» — едьте в Pastéis de Belém',
+          'Хотите «исторический оригинал» — поезжайте в Pastéis de Belém',
           'Хотите стабильную современную nata в центре — Manteigaria',
           'Хотите классическую лиссабонскую pastelaria — Cristal',
           'Хотите историческое кафе в Baixa — Confeitaria Nacional',
@@ -92,6 +92,6 @@ export default {
     { title: 'Turismo de Portugal о Pastéis de Belém', url: 'https://www.visitportugal.com/en/NR/exeres/46D7AB44-1F59-4FAA-8340-EEEE969438B2', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'INPI — проверка marcas и nomes de estabelecimento', url: 'https://inpi.justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

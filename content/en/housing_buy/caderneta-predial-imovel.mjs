@@ -134,6 +134,6 @@ export default {
     { title: 'Portal das Finanças — access to Autoridade Tributária online services', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Imposto Municipal sobre Imóveis (CIMI) — IMI rates and VPT rules', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2003-34577875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

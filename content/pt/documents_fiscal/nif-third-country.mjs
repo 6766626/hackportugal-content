@@ -62,7 +62,7 @@ export default {
           'Verificar o estatuto de residente/não residente na AT e a existência de representante fiscal — actualizar se necessário',
           'Guardar o comprovativo do NIF (impressão do Número de Identificação Fiscal)'
         ]},
-        { kind: 'warning', text: 'Se se tornou efectivamente residente fiscal em Portugal (183+ dias ou habitação permanente), altere separadamente a morada fiscal para uma morada portuguesa. Enquanto na AT constar uma morada estrangeira/estatuto de não residente, o empregador português retém IRS como para não residente — para employment income, normalmente a taxa é de 25% (Código do IRS art. 72; retenção na fonte — segundo as regras de retenção na fonte).' }
+        { kind: 'warning', text: 'Se se tornou efectivamente residente fiscal em Portugal (183+ dias ou habitação permanente), altere separadamente a morada fiscal para uma morada portuguesa. Enquanto na AT constar uma morada estrangeira/estatuto de não residente, o empregador português retém IRS como para não residente — para employment income, normalmente a taxa é de 25% (Código do IRS art. 71; retenção na fonte — segundo as regras de retenção na fonte).' }
       ]
     }
   ],
@@ -82,6 +82,6 @@ export default {
     { title: 'ePortugal — Pedir NIF para pessoa singular', url: 'https://www.gov.pt/servicos/pedir-o-numero-de-identificacao-fiscal-nif-para-pessoa-singular', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do IRS — domicílio fiscal e tributação de não residentes', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/default.aspx', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

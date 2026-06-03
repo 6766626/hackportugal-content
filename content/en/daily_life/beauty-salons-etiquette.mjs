@@ -11,7 +11,7 @@ export default {
       id: 'where-to-book',
       title: 'Where to book',
       content: [
-        { kind: 'paragraph', text: 'In Portugal there are 4 main channels for booking a beauty salon. All legal salons (estabelecimento de estética) must have an ASAE licence — check at the entrance (a framed alvará).' },
+        { kind: 'paragraph', text: 'In Portugal there are 4 main channels for booking a beauty salon. Since 2015 (the RJACSR regime) a separate licence to open a salon is no longer required; ASAE oversees salons through inspections. The mark of a legitimate establishment is a "Livro de Reclamações" (complaints book) on display.' },
         { kind: 'checklist', items: [
           '📱 Treatwell (treatwell.pt) — the most popular platform, 5,000+ salons, reviews, sometimes -15% promo codes for new clients',
           '📱 Fresha (fresha.com/pt) — Treatwell competitor, strong calendar, especially popular in Lisbon and Porto',
@@ -89,7 +89,7 @@ export default {
           '✅ The premises are clean, with a washbasin and gloves',
           '✅ The professional has a licence (certificate of qualification in aesthetics)',
           '❌ If you see reusable files/tools without sterilisation — it is better to leave. The risk of HIV/hepatitis is real',
-          '⚠️ Microblading and lash extensions require additional certification (CICDR / sanitárias). Check before booking',
+          '⚠️ Microblading (permanent makeup) counts as tattooing: it requires sanitary authorisation from the local health authorities and compliance with DGS/ASAE rules. Check before booking',
           '⚠️ Allergies: for extensions / tinting, always require a patch test 24 hours beforehand',
           '🏥 Complaint: ASAE (https://www.asae.gov.pt/) — if there are hygiene breaches; Livro de Reclamações in any salon (mandatory by law)'
         ]},
@@ -114,11 +114,11 @@ export default {
   ],
   sources: [
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica (supervision of beauty salons)', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'CICDR — Comissão para a Igualdade e Contra a Discriminação Racial', url: 'https://www.cicdr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'DGS — Direção-Geral da Saúde (sanitary rules for tattooing / permanent makeup)', url: 'https://www.dgs.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Treatwell Portugal — salon search and prices', url: 'https://www.treatwell.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Fresha — search for nail salons in Lisbon', url: 'https://www.fresha.com/lp/en/bt/nail-salons/in/pt-lisbon', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: beauty salons in Portugal — manicure/pedicure/brows. Booking platforms (Treatwell, Fresha, Mygon), 2026 prices (from €5 brows to €450 microblading), etiquette and tips (optional, €1-2), how to find Russian-speaking professionals (diaspora in Cascais/Estoril/Algarve), safety and ASAE standards, life hacks for discounts.'

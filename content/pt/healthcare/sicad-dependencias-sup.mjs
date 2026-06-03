@@ -81,6 +81,6 @@ export default {
     { title: 'SNS 24 — triagem médica e acesso à urgência', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — acesso ao Serviço Nacional de Saúde e serviços para cidadãos', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

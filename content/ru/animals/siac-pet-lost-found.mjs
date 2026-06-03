@@ -3,7 +3,7 @@ export default {
   id: 'siac-pet-lost-found',
   categoryId: 'animals',
   title: 'SIAC.pt: потерянный или найденный питомец в Португалии',
-  tldr: 'SIAC — португальская база микрочипов для cães, gatos, furões. Если питомец потерялся, объявите пропажу на SIAC.pt по номеру microchip и сразу проверьте, что телефон, email и адрес владельца актуальны. Если нашли животное, не забирайте его «на себя»: отведите к veterinário, Câmara Municipal, GNR/PSP или canil для сканирования чипа. Через Europetnet можно искать иностранные чипы. Само объявление на SIAC бесплатно; ветеринар может взять плату за приём.',
+  tldr: 'SIAC — португальская база микрочипов для cães, gatos, furões. Если питомец потерялся, объявите пропажу на SIAC.pt по номеру microchip и сразу проверьте, что телефон, email и адрес владельца актуальны. Если нашли животное, не оставляйте его себе: отведите к veterinário, Câmara Municipal, GNR/PSP или canil для сканирования чипа. Через Europetnet можно искать иностранные чипы. Само объявление на SIAC бесплатно; ветеринар может взять плату за приём.',
   tags: ['siac', 'питомец', 'microchip', 'animais'],
   estimatedReadMinutes: 5,
   steps: [
@@ -29,7 +29,7 @@ export default {
             { kind: 'paragraph', text: 'Откройте SIAC.pt → «Anunciar Animal Desaparecido». Заполните форму с номером microchip, контактами и местом исчезновения. Если данные владельца в базе не совпадают с текущими, параллельно звоните своему veterinário и просите обновить контакты в SIAC.' }
           ]},
           { id: 'call-local-network', title: '3. Уведомьте местные службы', content: [
-            { kind: 'checklist', items: ['Veterinário, где животное зарегистрировано.', 'Canil/Gatil municipal или Centro de Recolha Oficial de Animais вашего concelho.', 'Câmara Municipal — отдел proteção animal или ambiente.', 'Junta de Freguesia района пропажи.', 'GNR или PSP, если животное может быть на дороге или есть подозрение кражи.', 'Соседние vet clinics: попросите сканировать чип и сверять с SIAC.', 'Локальные Facebook/WhatsApp-группы района, но без публикации полного номера microchip.'] }
+            { kind: 'checklist', items: ['Veterinário, где животное зарегистрировано.', 'Canil/Gatil municipal или Centro de Recolha Oficial de Animais вашего concelho.', 'Câmara Municipal — отдел proteção animal или ambiente.', 'Junta de Freguesia района пропажи.', 'GNR или PSP, если животное может быть на дороге или есть подозрение кражи.', 'Соседние ветклиники: попросите сканировать чип и сверять с SIAC.', 'Локальные Facebook/WhatsApp-группы района, но без публикации полного номера microchip.'] }
           ]}
         ]},
         { kind: 'warning', text: 'Не публикуйте полный номер microchip, копию DIAC или свои документы в открытых группах. Для публичного объявления достаточно фото, района, клички, телефона и признаков. Полный номер нужен SIAC, veterinário и официальным службам.' }
@@ -51,7 +51,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Europetnet объединяет многие европейские базы микрочипов. Если животное приехало из другой страны или найденный чип не находится в SIAC, номер можно проверить через Europetnet: система показывает, в какой базе зарегистрирован чип, и куда обращаться дальше.' },
         { kind: 'checklist', items: ['Введите 15-значный microchip без пробелов.', 'Если система показывает иностранную базу, свяжитесь с этой базой или попросите veterinário помочь.', 'Если животное ваше и вы переехали в Португалию, зарегистрируйте/свяжите данные в SIAC через veterinário.', 'Проверьте, что в SIAC указан португальский телефон или email, по которому вас реально найдут.', 'Если у животного EU pet passport, сверяйте номер microchip в паспорте, SIAC и Europetnet.', 'При путешествиях держите на ошейнике жетон с телефоном, потому что microchip требует сканера.'] },
-        { kind: 'warning', text: 'Europetnet не заменяет SIAC. Для жизни в Португалии найденный местной службой питомец должен быть идентифицируем через португальский рабочий контакт владельца. Иностранный номер без актуального телефона часто задерживает возврат на дни.' }
+        { kind: 'warning', text: 'Europetnet не заменяет SIAC. Для жизни в Португалии найденный местной службой питомец должен быть идентифицируем через португальский рабочий контакт владельца. Иностранный номер без актуального телефона часто задерживает возврат на несколько дней.' }
       ]
     },
     {
@@ -76,6 +76,6 @@ export default {
     { title: 'Decreto-Lei 82/2019: идентификация домашних животных и SIAC', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2019-122728684', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Europetnet: поиск микрочипа в европейских базах', url: 'https://www.europetnet.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

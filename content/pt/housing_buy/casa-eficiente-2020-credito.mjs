@@ -3,7 +3,7 @@ export default {
   id: 'casa-eficiente-2020-credito',
   categoryId: 'housing_buy',
   title: 'Casa Eficiente 2020 — crédito bonificado para melhoria da habitação',
-  tldr: 'Casa Eficiente 2020 não é um subsídio, mas sim uma linha de crédito bonificada para obras em habitação em Portugal: isolamento, janelas, HVAC, painéis solares, poupança de água e outras intervenções de eficiência energética. Substituir por: "os limites oficiais dependem do tipo de requerente e do imóvel; para habitação privada, historicamente usava-se como referência um limite de cerca de 50 000 € por fração/casa, enquanto montantes acima disso normalmente dizem respeito às condições de um banco específico ou a um green loan separado. Verifique o FIN/FINE em vigor e as condições do banco.", mas a decisão final cabe ao banco parceiro. Escrever de forma mais firme: "Casa Eficiente 2020 é uma antiga linha de crédito Portugal 2020; em 2026, não parta do princípio de que está aberta a novas candidaturas. Primeiro confirme por escrito junto do banco e/ou através do portal do programa que é precisamente Casa Eficiente 2020, e não um green loan comercial semelhante, que está disponível para uma nova operação."',
+  tldr: 'Casa Eficiente 2020 não é um subsídio, mas sim uma linha de crédito bonificada para obras em habitação em Portugal: isolamento, janelas, HVAC, painéis solares, poupança de água e outras intervenções de eficiência energética. Os limites oficiais dependem do requerente e do imóvel; para habitação privada, a referência histórica era até 50 000 € por fração/casa, enquanto montantes acima disso normalmente dizem respeito às condições de um banco específico ou a um green loan separado, e a decisão final cabe ao banco parceiro. É uma antiga linha de crédito Portugal 2020: em 2026, não parta do princípio de que está aberta a novas candidaturas. Primeiro confirme por escrito junto do banco e/ou através do portal do programa que está disponível precisamente Casa Eficiente 2020, e não um green loan comercial semelhante.',
   tags: ['casaeficiente', 'obras', 'energia', 'credito'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Que programa é este',
       content: [
         { kind: 'paragraph', text: 'Casa Eficiente 2020 é uma linha de crédito portuguesa para financiar intervenções que melhoram a eficiência ambiental e energética de edifícios habitacionais. Não é um pagamento do Estado para a sua conta nem uma dedução fiscal: você contrata um crédito bancário para obras, mas ao abrigo de condições especiais do programa.' },
-        { kind: 'paragraph', text: 'Escrever: "Historicamente, a linha funcionava como um crédito bancário com prazo até 10 anos e um spread bonificado, próximo de 1,45–1,5% nos bancos participantes, mas o limite, a TAN, a TAEG, as comissões e a disponibilidade de uma nova operação em 2026 devem ser confirmados junto do banco concreto. Em 2026, a Euribor varia, pelo que a taxa final não é previamente fixa: o banco calculá-la-á na data de aprovação.' },
+        { kind: 'paragraph', text: 'Historicamente, a linha funcionava como um crédito bancário com prazo até 10 anos e um spread bonificado, próximo de 1,45–1,5% nos bancos participantes, mas o limite, a TAN, a TAEG, as comissões e a disponibilidade de uma nova operação em 2026 devem ser confirmados junto do banco concreto. A Euribor varia, pelo que a taxa final não é previamente fixa: o banco calculá-la-á na data de aprovação.' },
         { kind: 'warning', text: 'O nome “2020” não significa que as condições estejam automaticamente disponíveis em 2026. À data de abril de 2026, o site oficial Casa Eficiente 2020 continua a ser um ponto de referência, mas a concessão efetiva depende do banco parceiro, do limite remanescente e das regras internas de crédito do banco.' }
       ]
     },
@@ -59,7 +59,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'check-bank', title: '1. Verificar o banco parceiro e a disponibilidade da linha', content: [
-            { kind: 'paragraph', text: 'Acrescentar um passo separado: "antes de apresentar ao banco, verifique a operação no portal Casa Eficiente 2020/através do mecanismo do programa e obtenha a declaração/comprovativo de enquadramento, se o portal ainda aceitar novas operações; depois o banco usa este documento juntamente com o pedido de crédito." Em 2026 é importante perguntar diretamente: “A linha Casa Eficiente 2020 ainda está disponível para novas operações?” Se o gestor não souber, peça o departamento de crédito pessoal / crédito habitação.' }
+            { kind: 'paragraph', text: 'Antes de apresentar ao banco, verifique a operação no portal Casa Eficiente 2020 ou através do mecanismo do programa e obtenha a declaração/comprovativo de enquadramento, se o portal ainda aceitar novas operações; depois o banco usa este documento juntamente com o pedido de crédito. Em 2026 é importante perguntar diretamente: “A linha Casa Eficiente 2020 ainda está disponível para novas operações?” Se o gestor não souber, peça o departamento de crédito pessoal / crédito habitação.' }
           ] },
           { id: 'prepare-budget', title: '2. Preparar orçamento e descrição técnica', content: [
             { kind: 'checklist', items: [
@@ -119,7 +119,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Referência máxima do crédito Casa Eficiente 2020', amountEURMax: 110000, note: 'O limite efetivo depende do banco, do imóvel, do orçamento e da disponibilidade da linha em 2026.' },
+    { label: 'Referência máxima do crédito Casa Eficiente 2020', amountEURMax: 50000, note: 'A referência oficial do programa é até 50 000 € por fração/casa; o limite efetivo depende do banco, do imóvel, do orçamento e da disponibilidade da linha em 2026.' },
     { label: 'Prazo típico de reembolso', amountEURMin: 0, amountEURMax: 0, note: 'Até 10 anos; isto é um prazo, não uma taxa separada.' },
     { label: 'Referência de taxa', amountEURMin: 0, amountEURMax: 0, note: 'Cerca de Euribor + 1,5%; a TAN/TAEG final é calculada pelo banco na data da proposta.' },
     { label: 'Certificado energético da habitação', amountEURMin: 150, amountEURMax: 350, note: 'Referência de mercado para apartamento/casa pequena; o preço depende da área, da região e do perito qualificado.' },
@@ -131,6 +131,6 @@ export default {
     { title: 'Banco de Portugal — informação sobre crédito aos consumidores e comparação de custos', url: 'https://clientebancario.bportugal.pt/credito-aos-consumidores', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE/SCE — certificação energética de edifícios', url: 'https://www.sce.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

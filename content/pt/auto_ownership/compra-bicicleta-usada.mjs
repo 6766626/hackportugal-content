@@ -128,6 +128,6 @@ export default {
     { title: 'Custojusto Portugal — site de anúncios particulares', url: 'https://www.custojusto.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Vinted Portugal — regras de compra e proteção dentro da plataforma', url: 'https://www.vinted.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

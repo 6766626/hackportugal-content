@@ -107,7 +107,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Combine as férias por escrito: email, sistema de RH, Slack também serve, se for assim que a empresa trabalha.',
-          'Antes de agosto, trate de tudo o que exige uma pessoa presencialmente: reparações, chaves, notário, contabilista, veterinário, dentist.',
+          'Antes de agosto, trate de tudo o que exige uma pessoa presencialmente: reparações, chaves, notário, contabilista, veterinário, dentista.',
           'Para AIMA, Finanças, Segurança Social, escola, SNS, não conte com respostas rápidas em agosto nem entre 24 de dezembro–2 de janeiro.',
           'No Carnaval e nas pontes, confirme antecipadamente se a ponte é descontada dos seus 22 dias.',
           'Se a empresa encerra coletivamente em agosto ou no Natal, verifique como isso está refletido no mapa de férias.',
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'brisa-tunel-marao-tolls',
   categoryId: 'auto_trips',
   title: 'Portagens da Brisa e do Túnel do Marão: tarifas e Via Verde',
-  tldr: 'A Brisa gere autoestradas essenciais: A1, A2, A5, A6, A8, A9, A14. O pagamento é normalmente feito por portagem manual: retirar bilhete à entrada e pagar à saída, ou através da Via Verde sem parar. A tarifa depende da classe 1–4: um automóvel ligeiro é quase sempre classe 1; uma carrinha/SUV com altura no eixo dianteiro ≥1,10 m pode passar a classe 2. O Túnel do Marão na A4 é pago à parte: referência para 2026 — cerca de 7–12 € para classes maiores; a classe 1 ligeira é mais barata. Antes da viagem, verifique o simulador da Brisa/Via Verde.',
+  tldr: 'A Brisa gere autoestradas essenciais: A1, A2, A5, A6, A8, A9, A14. O pagamento é normalmente feito por portagem manual: retirar bilhete à entrada e pagar à saída, ou através da Via Verde sem parar. A tarifa depende da classe 1–4: um automóvel ligeiro é quase sempre classe 1; uma carrinha/SUV com altura no eixo dianteiro ≥1,10 m pode passar a classe 2. Atenção: o próprio Túnel do Marão deixou de ter portagem em 1 de janeiro de 2025 (Lei n.º 37/2024) — na A4 só o troço Porto–Amarante, gerido pela Brisa, continua pago (referência para 2026: classe 1 cerca de 4,75 €, até ~12 € para classes maiores). Antes da viagem, verifique o simulador da Brisa/Via Verde.',
   tags: ['portagens', 'brisa', 'viaverde', 'a4'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que é exatamente pago',
       content: [
         { kind: 'paragraph', text: 'Em Portugal, as estradas pagas chamam-se autoestradas com portagem. Na Brisa, são autoestradas clássicas com barreiras e bilhetes: A1 Lisboa–Porto, A2 Lisboa–Algarve, A5 Lisboa–Cascais, A6 Marateca–Caia, A8 Lisboa–Leiria, A9 CREL, A14 Figueira da Foz–Coimbra.' },
-        { kind: 'paragraph', text: 'O Túnel do Marão é um troço pago na A4 entre a zona de Amarante e Vila Real. Não é um “túnel urbano”, mas sim parte da autoestrada que atravessa a Serra do Marão: nas viagens Porto ↔ Trás-os-Montes, aparece frequentemente no itinerário.' },
+        { kind: 'paragraph', text: 'O Túnel do Marão é um troço da A4 entre a zona de Amarante e Vila Real, que atravessa a Serra do Marão. Desde 1 de janeiro de 2025 (Lei n.º 37/2024), o próprio túnel e toda a A4 “Transmontana” de Amarante até à fronteira passaram a não ter portagem. Na A4, só o troço ocidental Porto (Águas Santas) ↔ Amarante, gerido pela Brisa, continua pago: nas viagens Porto ↔ Trás-os-Montes, é essa a parte que aparece na conta.' },
         { kind: 'checklist', items: [
           'A1: principal corredor pago Lisboa ↔ Porto',
           'A2: Lisboa ↔ Algarve, o percurso mais frequente para sul',
@@ -21,7 +21,7 @@ export default {
           'A8: Lisboa ↔ Oeste / Leiria',
           'A9: circular CREL em redor de Lisboa',
           'A14: Figueira da Foz ↔ Coimbra',
-          'A4 / Túnel do Marão: Porto / Amarante ↔ Vila Real / Bragança'
+          'A4: só o troço Porto (Águas Santas) ↔ Amarante é pago; o Túnel do Marão e o resto até Bragança estão sem portagem desde 2025'
         ] }
       ]
     },
@@ -74,7 +74,7 @@ export default {
           'A8 Lisboa–Leiria, classe 1: referência cerca de 9–11 € para uma deslocação longa',
           'A9 CREL, classe 1: viagens curtas normalmente alguns euros, frequentemente 1–4 €',
           'A14 Figueira da Foz–Coimbra, classe 1: normalmente alguns euros, cerca de 3–5 €',
-          'Túnel do Marão / A4: para classe 2–4, referência cerca de 7–12 €; a classe 1 é normalmente mais baixa, mas verifique a calculadora antes da viagem'
+          'A4 Porto–Amarante (troço pago da Brisa), classe 1: referência cerca de 4,75 €; para classe 2–4 até ~12 €. O próprio Túnel do Marão e a A4 a seguir a Amarante estão sem portagem desde 2025'
         ] },
         { kind: 'paragraph', text: 'Para classe 2–4, o valor aumenta de forma significativa: uma carrinha ou campervan pode pagar mais 60–150% do que um automóvel ligeiro no mesmo percurso. Por isso, antes de uma viagem Porto ↔ Algarve ou Porto ↔ Vila Real, confirmar a classe poupa dinheiro real.' },
         { kind: 'warning', text: 'Os valores acima são referências práticas para planear o orçamento, não uma tabela tarifária legal. O valor oficial no dia da viagem só consta do tarifário/simulador da Brisa ou da Via Verde.' }
@@ -118,7 +118,7 @@ export default {
   costs: [
     { label: 'A1 Lisboa–Porto, classe 1', amountEURMin: 24, amountEURMax: 26, note: 'Referência pelo percurso completo pela A1 com portagem; calcule o valor exato na Brisa/Via Verde.' },
     { label: 'A2 Lisboa–Algarve, classe 1', amountEURMin: 23, amountEURMax: 25, note: 'Referência até à zona do Algarve pela A2; depende da entrada/saída.' },
-    { label: 'Túnel do Marão / A4, classe 2–4', amountEURMin: 7, amountEURMax: 12, note: 'Intervalo prático para classes maiores; a classe 1 é normalmente mais barata.' },
+    { label: 'A4 Porto–Amarante (Brisa)', amountEURMin: 5, amountEURMax: 12, note: 'classe 1 cerca de 4,75 €, classes maiores até ~12 €. O próprio Túnel do Marão está sem portagem desde 2025 (Lei 37/2024).' },
     { label: 'Via Verde', amountEURMin: 0, amountEURMax: 2, note: 'A portagem é paga separadamente; pode existir uma mensalidade/comissão de acordo com o plano escolhido.' }
   ],
   sources: [
@@ -126,6 +126,6 @@ export default {
     { title: 'Via Verde — tarifas, identificador e pagamento de portagens', url: 'https://www.viaverde.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Via Verde — planeador de rotas e cálculo de portagens', url: 'https://www.viaverde.pt/particulares/ferramentas/calculador-de-portagens', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

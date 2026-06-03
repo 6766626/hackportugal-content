@@ -75,8 +75,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'In Spain the Russian diaspora is 5-10 times larger, so there are several public Russian banyas with venik service. If an authentic experience is very important, it can sometimes be cheaper to fly there than to search in Portugal.' },
         { kind: 'checklist', items: [
-          '🇪🇸 Madrid: “Russian Banya on Moscow” (Calle Atocha) — classic banya with steam room, venik master, pond',
-          '🇪🇸 Barcelona: “Banya Russa Barcelona” in the Eixample district — banya + Russian restaurant',
+          '🇪🇸 Madrid: there are Russian banyas with a steam room and a venik master — look up current addresses in Russian-speaking Madrid chats and directories',
+          '🇪🇸 Barcelona: PAR Banya (Carrer d\'Enric Granados, 85, Eixample district) — traditional banya with venik steaming, a hammam and a pool',
           '🇪🇸 Malaga/Marbella: several private banya villas in the Costa del Sol beach area',
           '✈️ Lisbon ↔ Madrid: TAP ~€50-80 round-trip; Renfe train ~9 hours from Lisboa',
           '🚗 Porto ↔ Vigo ↔ Santiago: 3 hours by car to the Spanish border; Galicia has several Slavic restaurants with saunas'
@@ -89,7 +89,7 @@ export default {
     { title: 'Atlas Lisboa — public saunas and steam rooms', url: 'https://www.atlaslisboa.com/lisbon-saunas-steamrooms/', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Direção-Geral da Saúde — Therapeutic thermalism (information about Termas)', url: 'https://www.dgs.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: Russian banya in Portugal. Honest description of the reality — there are no public Russian banyas, but there are Finnish saunas/hammams/Termas. Channels for finding private banyas through the community, pricing, safety. Alternatives: 5 major Termas in Portugal, spas in Lisbon/Porto hotels, a trip to Madrid/Barcelona.'

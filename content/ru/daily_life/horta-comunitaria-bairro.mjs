@@ -3,7 +3,7 @@ export default {
   id: 'horta-comunitaria-bairro',
   categoryId: 'daily_life',
   title: 'Hortas comunitárias: общественные огороды в районах Португалии',
-  tldr: 'Hortas comunitárias — муниципальные огороды для жителей: маленький участок, вода, компост и правила без пестицидов. В Lisboa программа CML Hortas Comunitárias стоит около 3 €/мес за talhão; в Cascais есть Hortas Solidárias, похожие проекты работают в Porto, Loures, Almada и других municípios. Обычно нужен NIF с адресом в município, доказательство проживания и регистрация в лист ожидания. Реальный срок ожидания в 2026: часто 6–12 мес, в центральных freguesias дольше.',
+  tldr: 'Hortas comunitárias — муниципальные огороды для жителей: маленький участок, вода, компост и правила без пестицидов. В Lisboa плата за talhão годовая и зависит от площади: ориентир — 1,6 €/м² в год со скидкой, минимум около 58,60 € в год, на практике чаще 55–100 € в год; в Cascais есть Hortas Solidárias, похожие проекты работают в Porto, Loures, Almada и других municípios. Обычно нужен NIF с адресом в município, доказательство проживания и регистрация в лист ожидания. Реальный срок ожидания в 2026: часто 6–12 мес, в центральных freguesias дольше.',
   tags: ['hortas', 'bairro', 'огород', 'lisboa', 'cascais'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,7 +32,7 @@ export default {
         { kind: 'paragraph', text: 'Ищите на сайте вашей Câmara Municipal по словам “hortas comunitárias”, “hortas urbanas”, “hortas solidárias”, “agricultura urbana” или “ambiente”. В крупных городах заявки часто идут через муниципальный портал; в маленьких — через Junta de Freguesia.' },
         { kind: 'substeps', items: [
           { id: 'lisboa', title: 'Lisboa — CML Hortas Comunitárias', content: [
-            { kind: 'paragraph', text: 'В Lisboa сеть hortas управляется Câmara Municipal de Lisboa. По состоянию на 2026 участник платит символический взнос около 3 €/мес за talhão. Заявка обычно подаётся онлайн через муниципальные сервисы или по инструкции CML; распределение зависит от свободных участков и очереди.' }
+            { kind: 'paragraph', text: 'В Lisboa сеть hortas (parques hortícolas) управляется Câmara Municipal de Lisboa. По состоянию на 2026 плата за talhão годовая и считается по площади: ориентир — 1,6 €/м² в год, со скидкой для hortas sociais (80%) и hortas de recreio (20%), но не менее примерно 58,60 € в год. На практике участок чаще обходится в 55–100 € в год. Заявка обычно подаётся онлайн через муниципальные сервисы или по инструкции CML; распределение зависит от свободных участков и очереди.' }
           ] },
           { id: 'cascais', title: 'Cascais — Hortas Solidárias', content: [
             { kind: 'paragraph', text: 'В Cascais действует программа Hortas Solidárias. Она ориентирована на жителей concelho и часто имеет социальный компонент: устойчивое питание, обучение, включение пожилых людей и семей. Условия и доступные hortas публикует Câmara Municipal de Cascais.' }
@@ -121,7 +121,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Lisboa CML Hortas Comunitárias', amountEUR: 3, note: 'Ориентировочный ежемесячный взнос за talhão; проверяйте актуальный regulamento и edital конкретной horta.' },
+    { label: 'Lisboa parques hortícolas (talhão)', amountEURMin: 55, amountEURMax: 100, note: 'Ориентировочная годовая плата за talhão (1,6 €/м² в год со скидкой, минимум около 58,60 €); проверяйте актуальный regulamento и edital конкретной horta.' },
     { label: 'Базовые инструменты', amountEURMin: 25, amountEURMax: 70, note: 'Перчатки, маленькая enxada, tesoura de poda, regador; часто часть инструментов есть в общей зоне.' },
     { label: 'Семена и рассада на старт', amountEURMin: 10, amountEURMax: 40, note: 'Зависит от сезона; на рынках и в viveiros дешевле, чем в больших магазинах.' }
   ],
@@ -148,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

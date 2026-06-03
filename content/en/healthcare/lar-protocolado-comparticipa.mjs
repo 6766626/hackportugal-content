@@ -47,7 +47,7 @@ export default {
       id: 'payment-calculation',
       title: 'How the payment is calculated',
       content: [
-        { kind: 'paragraph', text: 'For a lugar protocolado, the user pays a comparticipação familiar, calculated according to income and the institution’s rules within the cooperação with Segurança Social. A benchmark often seen in practice is 25–75% of the elderly person’s pension/income. The exact amount depends on the IPSS regulamento interno, the composition of the agregado familiar, expenses and the degree of support.' },
+        { kind: 'paragraph', text: 'For a vaga protocolada, the user pays a comparticipação familiar, calculated according to income and the institution’s rules within the cooperação with Segurança Social. A benchmark often seen in practice is 25–75% of the elderly person’s pension/income. The exact amount depends on the IPSS regulamento interno, the composition of the agregado familiar, expenses and the degree of support.' },
         { kind: 'checklist', items: ['If the pension is €500, the indicative mensalidade may be around €125–€375', 'If the pension is €900, indicatively €225–€675', 'If there is significant additional income, the amount may be higher', 'If there is no income, the issue is handled through avaliação social; the place does not automatically become free', 'The family may be asked to contribute to the comparticipação, especially if there are children with income', 'Medication, nappies, transport, hairdresser, physiotherapy or personal expenses may be charged separately', 'Ask for the written regulamento interno and minuta do contrato before moving in'] },
         { kind: 'warning', text: 'Do not confuse a protocolo with a private “lar com vaga”. A private lar may cost €900–€1,800+ per month and is not obliged to reduce the price because of a low pension. The Segurança Social subsidy only works where there is an acordo/protocolo and an available protocolada vaga.' }
       ]
@@ -73,6 +73,6 @@ export default {
     { title: 'Segurança Social: IPSS and cooperação with the social sector', url: 'https://www.seg-social.pt/instituicoes-particulares-de-solidariedade-social-ipss-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portaria 196-A/2015: cooperação model between Segurança Social and the social sector', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/196-a-2015-67666026', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

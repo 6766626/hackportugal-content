@@ -3,7 +3,7 @@ export default {
   id: 'fado-culture',
   categoryId: 'food_leisure',
   title: 'Fado — душа Португалии и где её услышать',
-  tldr: 'Fado — жанр португальской музыки, включённый в список нематериального культурного наследия ЮНЕСКО (2011). «Fado» значит «судьба». Характерная меланхоличность выражает saudade (тоску, ностальгию). Два стиля: Lisboa (женский и мужской) и Coimbra (только мужской, академический).\n\nВ Лиссабоне — Alfama, Mouraria, Bairro Alto. Концерт с ужином — € 30-80.',
+  tldr: 'Fado — жанр португальской музыки, включённый в список нематериального культурного наследия ЮНЕСКО (2011). «Fado» значит «судьба». Характерная меланхолия выражает saudade (тоску, ностальгию). Два стиля: Lisboa (женский и мужской) и Coimbra (только мужской, академический).\n\nВ Лиссабоне — Alfama, Mouraria, Bairro Alto. Концерт с ужином — € 30-80.',
   tags: ['fado', 'музыка', 'культура', 'Лиссабон', 'saudade'],
   estimatedReadMinutes: 6,
   steps: [
@@ -107,7 +107,7 @@ export default {
       id: 'museum',
       title: 'Museu do Fado — погрузиться глубже',
       content: [
-        { kind: 'paragraph', text: 'В Alfama (Largo do Chafariz de Dentro 1)\.\n\nМуниципальный музей Лиссабона, управляется EGEAC; стандартный билет около € 5, проверяйте актуальную цену на официальном сайте. Коллекция инструментов, фотографии, аудио- и видеоархив, временные выставки. Рекомендуется ДО похода на живой концерт — помогает понять контекст.' },
+        { kind: 'paragraph', text: 'В Alfama (Largo do Chafariz de Dentro 1).\n\nМуниципальный музей Лиссабона, управляется EGEAC; стандартный билет около € 5, проверяйте актуальную цену на официальном сайте. Коллекция инструментов, фотографии, аудио- и видеоархив, временные выставки. Рекомендуется ДО похода на живой концерт — помогает понять контекст.' },
         { kind: 'paragraph', text: 'Есть часы живого fado по расписанию и магазин с записями.' }
       ]
     }
@@ -117,6 +117,6 @@ export default {
     { title: 'UNESCO — Fado, Urban Popular Song of Portugal', url: 'https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Fado', url: 'https://www.visitportugal.com/en/node/73868', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

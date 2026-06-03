@@ -20,7 +20,8 @@ export default {
           'O preço final resulta da energia CEME, da tarifa OPC, das taxas de rede/gestão e do IVA 23%.',
           'Nos carregamentos rápidos, a tarifa inclui frequentemente uma componente por minuto: se o carro aceitar corrente lentamente depois dos 80%, o preço por kWh aumenta bruscamente.',
           'Nas autoestradas A1/A2/A22 e em zonas turísticas, o HPC é mais caro do que o AC junto a um supermercado ou num parque municipal.',
-          'Aplicações de roaming como Chargemap/Plugsurfing podem funcionar, mas são muitas vezes mais caras do que um CEME local.'
+          'Aplicações de roaming como Chargemap/Plugsurfing podem funcionar, mas são muitas vezes mais caras do que um CEME local.',
+          'Desde 2025, com o novo regime (DL 93/2025), o pagamento ad hoc com cartão sem contrato passa a ser obrigatório nos postos, sobretudo a partir de 50 kW; na prática a transição é gradual, pelo que o cartão CEME continua, para já, a ser a forma mais conveniente.'
         ] }
       ]
     },
@@ -125,8 +126,8 @@ export default {
     { title: 'Mobi.E — informação oficial sobre a rede de mobilidade elétrica', url: 'https://www.mobie.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Galp — soluções de carregamento de veículos elétricos e Galp Electric', url: 'https://www.galp.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EDP Comercial — mobilidade elétrica e carregamento EV', url: 'https://www.edp.pt/particulares/servicos/mobilidade-eletrica/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Decreto-Lei 39/2010 — regime de organização e acesso à mobilidade elétrica', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/39-2010-243233', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Decreto-Lei 93/2025 — novo regime jurídico da mobilidade elétrica (substituiu o DL 39/2010)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2025-928937303', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

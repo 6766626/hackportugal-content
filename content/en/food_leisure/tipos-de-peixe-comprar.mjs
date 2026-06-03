@@ -22,7 +22,7 @@ export default {
           '“Em filetes” — make fillets.',
           '“Sem escamas e sem tripas” — without scales and guts.',
           '“Quanto pesa para duas pessoas?” — how much should I take for two people.',
-          '“Tem muito espinhas?” — does it have many bones?'
+          '“Tem muitas espinhas?” — does it have many bones?'
         ] },
         { kind: 'paragraph', text: 'Quantity guide: whole fish — 350–500 g per person before cleaning; fillet — 180–250 g; polvo — 500–700 g raw per person, because it shrinks a lot when boiled.' }
       ]
@@ -144,6 +144,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

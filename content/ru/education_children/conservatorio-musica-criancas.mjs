@@ -27,7 +27,7 @@ export default {
       id: 'age-and-routes',
       title: 'Возраст и траектории обучения',
       content: [
-        { kind: 'paragraph', text: 'Главное разделение — iniciação для младших детей и curso básico/ secundário для школьников постарше. Названия и возрастные окна у конкретной школы могут отличаться, поэтому проверяйте edital de admissão на сайте conservatório в год поступления.' },
+        { kind: 'paragraph', text: 'Главное разделение — iniciação для младших детей и curso básico/secundário для школьников постарше. Названия и возрастные окна у конкретной школы могут отличаться, поэтому проверяйте edital de admissão на сайте conservatório в год поступления.' },
         { kind: 'substeps', items: [
           { id: 'iniciacao', title: '6–9 лет: iniciação musical', content: [
             { kind: 'paragraph', text: 'Подходит детям 1.º ciclo. Обычно включает formação musical, coro и instrumento или подготовку к инструменту. Во многих школах именно с 6 лет можно подаваться на инструмент, но распределение зависит от результатов теста, возраста, свободных мест и выбранного инструмента.' }
@@ -107,15 +107,15 @@ export default {
   ],
   sources: [
     {
-      title: 'Conservatório de Música de Lisboa — информация школы и поступление',
-      url: 'https://www.cmlc.pt',
+      title: 'Escola Artística de Música do Conservatório Nacional (Lisboa) — поступление и matrículas',
+      url: 'https://www.emcn.edu.pt',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Conservatório de Música do Porto — cursos, admissões и matrículas',
-      url: 'https://www.cmusica.pt',
+      url: 'https://conservatoriodemusicadoporto.pt',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -135,6 +135,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

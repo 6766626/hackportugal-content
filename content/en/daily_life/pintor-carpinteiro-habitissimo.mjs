@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'pintor-carpinteiro-habitissimo',
   categoryId: 'daily_life',
-  title: 'How to find a painter, carpenter or renovation crew: Habitissimo, Fixando, ZAask',
-  tldr: 'In Portugal, tradespeople are found through Habitissimo, Fixando, ZAask, OLX Serviços, Facebook groups and neighbour recommendations. For the client, requests are usually free; tradespeople pay the platform per lead or via commission, effectively building 10–20% into the price. In 2026, ask for an orçamento por escrito, NIF/recibo, insurance, photos of previous work and timelines. For work costing from a few hundred euros upwards, record it in a contrato or at least an e-mail/WhatsApp estimate; in a dispute, use the Livro de Reclamações and Centro de Arbitragem.',
+  title: 'How to find a painter, carpenter or renovation crew: Habitissimo, Fixando, Zaask',
+  tldr: 'In Portugal, tradespeople are found through Habitissimo, Fixando, Zaask, OLX Serviços, Facebook groups and neighbour recommendations. For the client, requests are usually free; tradespeople pay the platform per lead or via commission, effectively building 10–20% into the price. In 2026, ask for an orçamento por escrito, NIF/recibo, insurance, photos of previous work and timelines. For work costing from a few hundred euros upwards, record it in a contrato or at least an e-mail/WhatsApp estimate; in a dispute, use the Livro de Reclamações and Centro de Arbitragem.',
   tags: ['renovation', 'habitissimo', 'fixando', 'obra'],
   estimatedReadMinutes: 5,
   steps: [
@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'Habitissimo.pt — strong for obras, remodelações, pintura, canalização, eletricidade; you submit a request and receive contacts/offers.',
           'Fixando.pt — a services marketplace: pintor, carpinteiro, handyman, limpeza pós-obra, mudanças; convenient for quick jobs.',
-          'ZAask.pt — a similar request and orçamento model; often used for renovation, cleaning, furniture assembly and design.',
+          'Zaask.pt — a similar request and orçamento model; often used for renovation, cleaning, furniture assembly and design.',
           'OLX Serviços — many sole traders and small crews; prices are lower, but checks are weaker.',
           'Google Maps — search for “pintor Lisboa”, “carpinteiro Porto”, “remodelações Cascais” and check recent reviews.',
           'Local Facebook/WhatsApp groups — useful for “a neighbour has already used them” recommendations.',
@@ -25,7 +25,7 @@ export default {
     },
     {
       id: 'how-platforms-work',
-      title: 'How Habitissimo, Fixando and ZAask work',
+      title: 'How Habitissimo, Fixando and Zaask work',
       content: [
         { kind: 'paragraph', text: 'For the client, posting a request is usually free. The specialist pays: for a contact, credit, lead or platform commission. So “free 3 orçamento” does not mean the platform is free for the market: the tradesperson’s costs are often included in the final price.' },
         { kind: 'checklist', items: [
@@ -115,7 +115,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Client request on Habitissimo/Fixando/ZAask', amountEUR: 0, note: 'Usually free for the client; platform terms may change by category.' },
+    { label: 'Client request on Habitissimo/Fixando/Zaask', amountEUR: 0, note: 'Usually free for the client; platform terms may change by category.' },
     { label: 'Markup a tradesperson may build in due to lead cost/commission', amountEURMin: 10, amountEURMax: 20, note: 'Indicative percentage of the price, not an official tariff; depends on the platform and type of work.' },
     { label: 'Livro de Reclamações Eletrónico', amountEUR: 0, note: 'Submitting a consumer complaint is free.' }
   ],
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -76,6 +76,6 @@ export default {
     { title: 'Decreto-Lei 82/2019: identificação de animais de companhia e SIAC', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/82-2019-122728684', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Europetnet: pesquisa de microchip em bases europeias', url: 'https://www.europetnet.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

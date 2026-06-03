@@ -33,11 +33,12 @@ export default {
           { id: 'l3', title: 'Direitos das pessoas transgénero — líder da UE', content: [
             { kind: 'checklist', items: [
               '✅ Autodeterminação desde 2018 (Lei 38/2018) — alteração do sexo nos documentos SEM procedimentos médicos, SEM tribunal, SEM atestados psiquiátricos',
+              '⚠️ Atenção: a 20 de março de 2026 o Parlamento aprovou na generalidade a reversão da autodeterminação (PSD, Chega, CDS-PP) — propondo repor a validação médica obrigatória para adultos. Em maio de 2026 ainda NÃO está em vigor e segue em especialidade; as regras podem mudar — confirme o estado atual',
               '✅ ≥ 16 anos: pedido na Conservatória do Registo Civil com declaração → novos documentos emitidos em poucos dias',
               '✅ < 16 anos: com consentimento dos pais + parecer de psicólogo',
               '✅ Terapia hormonal: gratuita através do SNS (após psiquiatra/endocrinologista)',
               '✅ Cirurgia de afirmação de género: o SNS cobre (lista de espera longa) ou pode ser feita no privado',
-              '✅ ❌ Proibição da terapia de conversão desde 2024 (Lei 23/2024) — até 5 anos de prisão',
+              '✅ ❌ Proibição da terapia de conversão desde 2024 (Lei 15/2024, em vigor desde 1 de março de 2024) — até 5 anos de prisão',
               '✅ Atualização de registos escolares, profissionais e bancários: automaticamente mediante pedido'
             ]}
           ]},
@@ -168,6 +169,6 @@ export default {
     { title: 'CIG — Igualdade de género', url: 'https://www.cig.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPR — Conselho Português para os Refugiados', url: 'https://cpr.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

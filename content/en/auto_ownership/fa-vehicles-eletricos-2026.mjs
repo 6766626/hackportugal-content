@@ -3,7 +3,7 @@ export default {
   id: 'fa-vehicles-eletricos-2026',
   categoryId: 'auto_ownership',
   title: 'Fundo Ambiental: electric car subsidy in 2026',
-  tldr: 'Fundo Ambiental issues vouchers for mobilidade elétrica every year: in the last full cycle, Avisos 2025, the budget was €13.5 million; for individuals, €4,000 for a new 100% electric M1 passenger car up to €38,500 including IVA and with an old car handed in for scrapping; PHEVs did not qualify. As of 03/05/2026, a separate Aviso 2026 still needs to be checked on fundoambiental.pt: rules, limits and dates apply only after the new Aviso is published.',
+  tldr: 'Fundo Ambiental issues vouchers for mobilidade elétrica every year: in the last published Aviso 06/2025 (opened 29/12/2025, for 2025–2026), the budget was €17.6 million; for individuals, €4,000 for a new 100% electric M1 passenger car up to €38,500 including IVA (up to €55,000 for vehicles with more than 5 seats), with an old internal-combustion car over 10 years old handed in for scrapping; PHEVs did not qualify. As of 31/05/2026, a separate Aviso 2026 still needs to be checked on fundoambiental.pt: rules, limits and dates apply only after the new Aviso is published.',
   tags: ['fundoambiental', 'electriccar', 'subsidy', 'car'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What this subsidy is',
       content: [
         { kind: 'paragraph', text: 'Fundo Ambiental is a state fund that opens the Incentivo pela Introdução no Consumo de Veículos de Emissões Nulas programme each year. It is not a dealer discount, but compensation after purchase: you buy the vehicle, submit an application online, wait for validation and receive a transfer to your IBAN.' },
-        { kind: 'paragraph', text: 'Important: the rules change every year. As of 03/05/2026, you must check the new Aviso 2026 specifically on the Fundo Ambiental website. The last full published reference point is Avisos Mobilidade Elétrica 2025: a total budget of €13.5 million, category limits and the “while budget remains” principle.' },
+        { kind: 'paragraph', text: 'Important: the rules change every year. As of 31/05/2026, you must check the new Aviso 2026 specifically on the Fundo Ambiental website. The last published reference point is Aviso 06/2025 (Mobilidade Verde Passageiros, opened 29/12/2025 for 2025–2026): a total budget of €17.6 million, category limits and the “while budget remains” principle.' },
         { kind: 'warning', text: 'Do not sign a compra e venda solely “for the subsidy”. The right to payment does not arise from dealer advertising, but from the specific Aviso. If the 2026 Aviso changes the price limit, scrapping requirement or list of categories, the new rules apply.' }
       ]
     },
@@ -23,7 +23,7 @@ export default {
         { kind: 'paragraph', text: 'In 2025, the programme was aimed at veículos de emissões nulas — vehicles with zero emissions at the point of use. For passenger cars, this meant a 100% electric car, not a plug-in hybrid.' },
         { kind: 'checklist', items: [
           '100% electric M1 passenger car for an individual: 2025 reference point — €4,000.',
-          'Maximum passenger car price under Aviso 2025: €38,500 including IVA and all mandatory costs on the invoice.',
+          'Maximum passenger car price under Aviso 06/2025: €38,500 including IVA and all mandatory costs on the invoice (up to €55,000 for vehicles with more than 5 seats).',
           'PHEV / plug-in hybrid: in Avisos 2025 they were not considered “emissões nulas” for this support.',
           'New 100% electric N1 light goods vehicle: 2025 reference point — €6,000.',
           'Cargo bike / bicicleta de carga: 2025 reference point — 50% of the cost up to €1,500.',
@@ -48,7 +48,7 @@ export default {
           'IBAN in the applicant’s name; a PT IBAN is better, although a SEPA IBAN should formally be accepted, in practice a PT IBAN reduces friction.',
           'The invoice and recibo must be in the name of the same applicant who submits the application.',
           'Usually one incentive per category/applicant within the year, but check the exact limit in Aviso 2026.',
-          'For a passenger BEV under the 2025 model, scrapping an old internal-combustion car was required; the new Aviso may keep or change this condition.'
+          'For a passenger BEV under the 2025 model, scrapping an old internal-combustion car over 10 years old was required; the new Aviso may keep or change this condition.'
         ] },
         { kind: 'warning', text: 'If you are only just moving and are not yet resident in Portugal, do not treat Fundo Ambiental as a guaranteed discount. First check eligibility in the Aviso: “pessoas singulares residentes em território nacional” and the documents the fund accepts as proof.' }
       ]
@@ -70,7 +70,7 @@ export default {
           'Vehicle technical specifications: brand, model, version, VIN/frame, power, battery type — on the invoice or in an attachment.',
           'For a cargo bike/e-bike: an invoice clearly stating the model and category compliance, not simply “bicicleta”.'
         ] },
-        { kind: 'warning', text: 'The €38,500 price in Aviso 2025 was calculated including IVA. Dealer “campaigns” sometimes show a price excluding mandatory expenses, ISV/IUC/delivery/documentation. For the fund, the amount on the fatura matters.' }
+        { kind: 'warning', text: 'The €38,500 price in Aviso 06/2025 was calculated including IVA. Dealer “campaigns” sometimes show a price excluding mandatory expenses, ISV/IUC/delivery/documentation. For the fund, the amount on the fatura matters.' }
       ]
     },
     {
@@ -116,7 +116,7 @@ export default {
     }
   ],
   costs: [
-    { label: '100% electric M1 passenger car for an individual', amountEUR: 4000, note: 'Avisos 2025 reference point; car price up to €38,500 including IVA; confirm under the new Aviso in 2026.' },
+    { label: '100% electric M1 passenger car for an individual', amountEUR: 4000, note: 'Aviso 06/2025 reference point; car price up to €38,500 including IVA (up to €55,000 for vehicles with more than 5 seats); confirm under the new Aviso in 2026.' },
     { label: '100% electric N1 light goods vehicle', amountEUR: 6000, note: 'Avisos 2025 reference point; conditions depend on the applicant category and the Aviso.' },
     { label: 'Cargo bike / bicicleta de carga', amountEURMax: 1500, note: 'Avisos 2025 reference point: up to 50% of the cost, but not above the limit.' },
     { label: 'Electric bicycle', amountEURMax: 500, note: 'Avisos 2025 reference point: up to 50% of the cost.' },
@@ -127,6 +127,6 @@ export default {
     { title: 'Fundo Ambiental — official portal', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fundo Ambiental — Aviso 06/2025: Veículos de Emissões Nulas (Mobilidade Verde Passageiros)', url: 'https://www.fundoambiental.pt/avisos-anteriores/apoios-20242/mitigacao-as-alteracoes-climaticas/incentivo-pela-aquisicao-de-veiculos-de-emissoes-nulas-ano-20252026-mobilidade-verde--passageiros.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

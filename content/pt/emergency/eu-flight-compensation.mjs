@@ -121,6 +121,6 @@ export default {
     { title: 'Livro de Reclamações', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UE — Direitos dos passageiros', url: 'https://europa.eu/youreurope/citizens/travel/passenger-rights/air/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

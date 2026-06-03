@@ -3,7 +3,7 @@ export default {
   id: 'everyday-apps',
   categoryId: 'digital_gov',
   title: 'Необходимые приложения для жизни в Португалии',
-  tldr: 'Базовый набор для экспата: MB WAY (платежи), Autenticação.gov (Chave Móvel Digital), SNS 24 (медицина), Portal AT (налоги), AIMA Renovações (ВНЖ), MobiCascais/Navegante (транспорт), CTT (почта), Bolt/Uber (такси), Glovo/Uber Eats (доставка еды), Continente/Lidl Plus (супермаркеты), Via Verde (дороги), Folhetos.pt (скидки). По закону с 2023 года многие гос-сервисы требуют Chave Móvel Digital — подключите её первой.',
+  tldr: 'Базовый набор для экспата: MB WAY (платежи), Autenticação.gov (Chave Móvel Digital), SNS 24 (медицина), Portal AT (налоги), AIMA Renovações (ВНЖ), MobiCascais/Navegante (транспорт), CTT (почта), Bolt/Uber (такси), Glovo/Uber Eats (доставка еды), Continente/Lidl Plus (супермаркеты), Via Verde (дороги), Folhetos.pt (скидки). На практике без Chave Móvel Digital не обойтись: через неё работает большинство госуслуг онлайн — подключите её первой.',
   tags: ['приложения', 'цифровые сервисы', 'digital'],
   estimatedReadMinutes: 5,
   steps: [
@@ -53,19 +53,19 @@ export default {
               'Отправка денег по номеру телефона / NIF',
               'Оплата по QR-коду в магазинах и ресторанах',
               'Снятие наличных в банкомате без карты',
-              'Лимиты: € 2 500 в день, € 5 000 в месяц',
-              'Привязывается к португальскому банковскому счёту — не работает с Revolut / Wise / N26'
+              'Лимиты зависят от банка (обычно около € 2 500 в день) — проверьте в своём приложении',
+              'Привязывается к португальскому счёту: работает с Revolut (с португальским IBAN PT50), но не с Wise / N26'
             ]}
           ]},
           { id: 'm2', title: 'Revolut / Wise / N26', content: [
             { kind: 'checklist', items: [
-              'Revolut (с 2024 даёт португальский IBAN бесплатно) — мультивалютный счёт, криптовалюта, акции',
+              'Revolut (с июля 2025 даёт португальский IBAN PT50 бесплатно) — мультивалютный счёт, криптовалюта, акции',
               'Wise (BE IBAN) — лучший для мультивалютных переводов, 20+ валют',
               'N26 (DE IBAN) — минимальный банкинг, но хороший пользовательский опыт',
               'Полезно как второй или валютный счёт + деньги для поездок'
             ]}
           ]},
-          { id: 'm3', title: 'Банк вашего португальского банка', content: [
+          { id: 'm3', title: 'Приложение вашего португальского банка', content: [
             { kind: 'paragraph', text: 'ActivoBank, Millennium BCP, Caixa, Novobanco, Santander — у всех есть приложения. Переводы SEPA, контроль карт, выписки, депозиты. Португальские банки не самые удобные, но необходимы.' }
           ]}
         ]}
@@ -78,7 +78,7 @@ export default {
         { kind: 'checklist', items: [
           'Navegante Metropolitano (Лиссабон) — электронный проездной, QR-билеты, расписание автобусов/метро/поездов',
           'MobiCascais (муниципалитет Кашкайша) — велосипеды, автобусы, парковка',
-          'Anda (приложение для дорожного трафика в Лиссабоне)',
+          'Anda (приложение Andante/TIP для проездных в Порту и Лиссабоне)',
           'Bolt — такси (дешевле Uber для коротких поездок)',
           'Uber — шире представлен в регионах',
           'FREE NOW — агрегатор такси',
@@ -126,6 +126,6 @@ export default {
     { title: 'Portal das Finanças — приложение AT', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — единый портал государственных услуг', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

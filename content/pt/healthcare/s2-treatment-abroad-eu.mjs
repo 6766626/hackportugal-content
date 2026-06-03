@@ -3,7 +3,7 @@ export default {
   id: 's2-treatment-abroad-eu',
   categoryId: 'healthcare',
   title: 'Formulário S2: tratamento programado noutro país da UE pago pelo SNS',
-  tldr: 'O S2 é uma autorização prévia do SNS para tratamento programado noutro país da UE/EEE/Suíça ao abrigo das regras do Reg. 883/2004. Não é o EHIC: o Cartão Europeu de Seguro de Doença cobre cuidados médicos súbitos durante uma viagem, enquanto o S2 é necessário antes de uma cirurgia, terapia ou consulta no estrangeiro. Em abril de 2026, o pedido normalmente passa pelo seu médico de família/hospital do SNS e pela Administração Regional de Saúde/ULS. Sem S2, a conta pode ser emitida em seu nome; a via alternativa é o reembolso ao abrigo da Lei 52/2014, mas está limitado às tarifas do SNS e muitas vezes exige autorização prévia.',
+  tldr: 'O S2 é uma autorização prévia do SNS para tratamento programado noutro país da UE/EEE/Suíça ao abrigo das regras do Reg. 883/2004. Não é o EHIC: o Cartão Europeu de Seguro de Doença cobre cuidados médicos súbitos durante uma viagem, enquanto o S2 é necessário antes de uma cirurgia, terapia ou consulta no estrangeiro. O pedido normalmente passa pelo seu médico de família ou hospital do SNS e pela Administração Regional de Saúde/ULS competente. Sem S2, a conta pode ser emitida em seu nome; a via alternativa é o reembolso ao abrigo da Lei 52/2014, mas está limitado às tarifas do SNS e muitas vezes exige autorização prévia.',
   tags: ['sns', 's2', 'tratamento', 'ue'],
   estimatedReadMinutes: 6,
   steps: [
@@ -50,7 +50,7 @@ export default {
           'Reside efetivamente em Portugal e está inscrito num Centro de Saúde/ULS.',
           'Existe parecer médico de um médico do SNS ou hospital do SNS sobre a necessidade do tratamento.',
           'O tratamento está incluído no âmbito dos cuidados que o SNS, em princípio, cobre em Portugal.',
-          'Em Portugal, o tratamento não pode ser prestado em medically justifiable time — o prazo deve ser avaliado tendo em conta o diagnóstico, a dor, o risco de agravamento e a urgência clínica.',
+          'Em Portugal, o tratamento não pode ser prestado num prazo clinicamente justificável — o prazo deve ser avaliado tendo em conta o diagnóstico, a dor, o risco de agravamento e a urgência clínica.',
           'Existe uma clínica/hospital de destino noutro país da UE/EEE/Suíça disposto a receber ao abrigo do S2.',
           'Não está a tentar contornar a lista de espera apenas por preferência pessoal por uma clínica, se o tratamento estiver disponível em Portugal num prazo aceitável.'
         ] },
@@ -99,8 +99,8 @@ export default {
           'Os copagamentos no país de tratamento podem ficar a seu cargo.',
           'Pagamentos privados adicionais, quarto individual, serviços premium e taxas administrativas podem não ser cobertos.',
           'Transporte e alojamento do paciente normalmente não estão incluídos no S2.',
-          'Acompanhante, intérprete, childcare, perda de rendimento — não são cobertura padrão do SNS.',
-          'Guarde todos os documentos: invoices, discharge report, prescriptions, proof of payments.',
+          'Acompanhante, intérprete, guarda de crianças, perda de rendimento — não são cobertura padrão do SNS.',
+          'Guarde todos os documentos: faturas, relatório de alta, receitas e comprovativos de pagamento.',
           'Depois de regressar, entregue o relatório clínico ao médico do SNS, para continuar o acompanhamento em Portugal.'
         ] },
         { kind: 'warning', text: 'Se a clínica de destino pedir pagamento antecipado, confirme primeiro com a parte portuguesa se isso é compatível com o S2. Nem todas as propostas comerciais de clínicas privadas podem ser pagas através do SNS.' }
@@ -159,6 +159,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

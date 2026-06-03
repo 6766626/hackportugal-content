@@ -160,6 +160,6 @@ export default {
     { title: 'AIMA — Programa PLA (former ACM)', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'CAPLE — Centro de Avaliação de Português', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 730
 }

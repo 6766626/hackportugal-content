@@ -37,7 +37,7 @@ export default {
               'Up to 5-50% on marked products (promotion + Cartão)',
               '“Poupa Mais” — personalised coupons in the app',
               'Fuel at Galp — with a discount when paying with Cartão Continente (conditions change — check the current ones)',
-              'Universal cashback also works at Worten, Zippy, MO, Sport Zone, Wells (all in the Sonae group)'
+              'The accumulated saldo can also be spent at Worten, Zippy, MO, Sport Zone, Wells (all in the Sonae group)'
             ]}
           ]},
           { id: 'c2', title: '🟩 Pingo Doce — Poupa Mais', content: [
@@ -125,6 +125,6 @@ export default {
     { title: 'folhetos.pt — promotions aggregator', url: 'https://www.folhetos.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DECO PROteste — supermarket comparison', url: 'https://www.deco.proteste.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -11,7 +11,7 @@ export default {
       id: 'main-places',
       title: 'Куда идти: 4 семейных формата',
       content: [
-        { kind: 'paragraph', text: 'В Лиссабоне два главных варианта для детей: Jardim Zoológico de Lisboa у Sete Rios и Oceanário de Lisboa в Parque das Nações. Это не взаимозаменяемые места: зоопарк — целый день на улице, Oceanário — 1,5–3 часа в помещении, хороший вариант для дождя и жары.' },
+        { kind: 'paragraph', text: 'В Лиссабоне два главных варианта для детей: Jardim Zoológico de Lisboa рядом с Sete Rios и Oceanário de Lisboa в Parque das Nações. Это не взаимозаменяемые места: зоопарк — это целый день на улице, а Oceanário — 1,5–3 часа в помещении, удобный вариант на случай дождя или жары.' },
         { kind: 'checklist', items: [
           'Jardim Zoológico de Lisboa — животные, канатная дорога, дельфинарий/представления, большая территория; планируйте 4–6 часов.',
           'Oceanário de Lisboa — большой центральный аквариум, временные выставки, удобно с коляской; планируйте 1,5–3 часа.',
@@ -34,7 +34,7 @@ export default {
           'Для Oceanário смотрите, включена ли временная выставка: иногда билет продаётся как combined/permanent + temporary.',
           'Для Jardim Zoológico уточняйте, включены ли шоу и канатная дорога в обычный входной билет на выбранную дату.',
           'Сохраняйте QR-коды офлайн: в Parque das Nações и у входов связь может проседать в пиковые часы.',
-          'Если едете большой семьёй, сравните обычные билеты с cartão/годовым абонементом — он окупается быстрее, чем кажется.'
+          'Если едете большой семьёй, сравните обычные билеты с cartão или годовым абонементом — он окупается быстрее, чем кажется.'
         ] },
         { kind: 'warning', text: 'Не ориентируйтесь на старые русскоязычные блоги с ценами 2022–2024. После инфляции и ежегодных обновлений прайса семейный день на 2 взрослых + 2 детей легко выходит в 75–110 € только за вход.' }
       ]
@@ -90,7 +90,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Oceanário de Lisboa — ориентир взрослого билета', amountEURMin: 19, amountEURMax: 25, note: 'Зависит от возраста, выставки и онлайн/касса; дети до 3 лет обычно бесплатно.' },
+    { label: 'Oceanário de Lisboa — ориентир взрослого билета', amountEURMin: 25, amountEURMax: 25, note: 'Взрослый билет (13–64) — около 25 €; детский (3–12) дешевле, senior (65+) — льготный; дети до 3 лет обычно бесплатно.' },
     { label: 'Jardim Zoológico de Lisboa — ориентир детского/льготного билета', amountEURMin: 19, amountEURMax: 22, note: 'Взрослый билет может быть выше; проверяйте актуальный прайс на zoo.pt перед покупкой.' },
     { label: 'Семейный день 2 взрослых + 2 детей', amountEURMin: 75, amountEURMax: 110, note: 'Только входные билеты, без еды, парковки и сувениров.' },
     { label: 'Еда/напитки внутри', amountEURMin: 8, amountEURMax: 15, note: 'Ориентир на человека за простой перекус; можно сэкономить, взяв воду и снеки заранее.' }
@@ -100,6 +100,6 @@ export default {
     { title: 'Oceanário de Lisboa — tickets, memberships, education programmes', url: 'https://www.oceanario.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Sea Life Porto — билеты и семейные посещения', url: 'https://www.visitsealife.com/porto/en/', kind: 'company', language: 'en', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

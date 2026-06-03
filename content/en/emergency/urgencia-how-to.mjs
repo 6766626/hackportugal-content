@@ -83,7 +83,7 @@ export default {
           { id: 's5', title: '5. Specialised urgência', content: [
             { kind: 'checklist', items: [
               'Pediátrica (children up to 15–18 years): separate departments. In Lisbon — Hospital Dona Estefânia. In Porto — Centro Materno-Infantil do Norte (CHUSJ/ULS Santo António, after integration of the former Maria Pia)',
-              'Gnecológica / Obstétrica: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)',
+              'Ginecológica / Obstétrica: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)',
               'Psiquiátrica: Hospital Magalhães Lemos (Porto), Hospital Júlio de Matos (Lisboa)',
               'Estomatológica (teeth): Hospital São José and private clinics (IMD, Dental Family)'
             ]}
@@ -127,6 +127,6 @@ export default {
     { title: 'DGS — Manchester Triage System', url: 'https://www.dgs.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'INEM — Instituto Nacional de Emergência Médica', url: 'https://www.inem.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

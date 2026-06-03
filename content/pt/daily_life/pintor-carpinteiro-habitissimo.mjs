@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'pintor-carpinteiro-habitissimo',
   categoryId: 'daily_life',
-  title: 'Como encontrar um pintor, carpinteiro ou equipa de obras: Habitissimo, Fixando, ZAask',
-  tldr: 'Em Portugal, procuram-se profissionais de obras através da Habitissimo, Fixando, ZAask, OLX Serviços, grupos de Facebook e recomendações de vizinhos. Para o cliente, os pedidos são normalmente gratuitos; os profissionais pagam à plataforma por lead ou comissão, incorporando na prática 10–20% no preço. Em 2026, peça orçamento por escrito, NIF/recibo, seguro, fotografias de trabalhos e prazos. Para trabalhos a partir de algumas centenas de euros, formalize um contrato ou pelo menos um orçamento por e-mail/WhatsApp; em caso de litígio — Livro de Reclamações e Centro de Arbitragem.',
+  title: 'Como encontrar um pintor, carpinteiro ou equipa de obras: Habitissimo, Fixando, Zaask',
+  tldr: 'Em Portugal, procuram-se profissionais de obras através da Habitissimo, Fixando, Zaask, OLX Serviços, grupos de Facebook e recomendações de vizinhos. Para o cliente, os pedidos são normalmente gratuitos; os profissionais pagam à plataforma por lead ou comissão, incorporando na prática 10–20% no preço. Em 2026, peça orçamento por escrito, NIF/recibo, seguro, fotografias de trabalhos e prazos. Para trabalhos a partir de algumas centenas de euros, formalize um contrato ou pelo menos um orçamento por e-mail/WhatsApp; em caso de litígio — Livro de Reclamações e Centro de Arbitragem.',
   tags: ['obras', 'habitissimo', 'fixando', 'obra'],
   estimatedReadMinutes: 5,
   steps: [
@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'Habitissimo.pt — forte em obras, remodelações, pintura, canalização, eletricidade; deixa um pedido e recebe contactos/propostas.',
           'Fixando.pt — marketplace de serviços: pintor, carpinteiro, handyman, limpeza pós-obra, mudanças; prático para trabalhos rápidos.',
-          'ZAask.pt — modelo semelhante de pedidos e orçamento; frequentemente usado para obras, limpeza, montagem de móveis e design.',
+          'Zaask.pt — modelo semelhante de pedidos e orçamento; frequentemente usado para obras, limpeza, montagem de móveis e design.',
           'OLX Serviços — muitos trabalhadores independentes e pequenas equipas; preços mais baixos, mas verificação mais fraca.',
           'Google Maps — procure “pintor Lisboa”, “carpinteiro Porto”, “remodelações Cascais” e veja avaliações recentes.',
           'Grupos de Facebook/WhatsApp da zona — úteis para recomendações do tipo “o vizinho já fez”.',
@@ -25,7 +25,7 @@ export default {
     },
     {
       id: 'how-platforms-work',
-      title: 'Como funcionam a Habitissimo, a Fixando e a ZAask',
+      title: 'Como funcionam a Habitissimo, a Fixando e a Zaask',
       content: [
         { kind: 'paragraph', text: 'Para o cliente, publicar um pedido é normalmente gratuito. Quem paga é o especialista: por contacto, crédito, lead ou comissão da plataforma. Por isso, “3 orçamento gratuitos” não significa que a plataforma seja gratuita para o mercado: os custos do profissional estão frequentemente incluídos no preço final.' },
         { kind: 'checklist', items: [
@@ -115,7 +115,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Pedido do cliente na Habitissimo/Fixando/ZAask', amountEUR: 0, note: 'Normalmente gratuito para o cliente; as condições das plataformas podem mudar conforme a categoria.' },
+    { label: 'Pedido do cliente na Habitissimo/Fixando/Zaask', amountEUR: 0, note: 'Normalmente gratuito para o cliente; as condições das plataformas podem mudar conforme a categoria.' },
     { label: 'Acréscimo que o profissional pode incluir devido ao custo do lead/comissão', amountEURMin: 10, amountEURMax: 20, note: 'Referência em percentagem do preço, não uma tarifa oficial; depende da plataforma e do tipo de trabalho.' },
     { label: 'Livro de Reclamações Eletrónico', amountEUR: 0, note: 'A apresentação de reclamação pelo consumidor é gratuita.' }
   ],
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

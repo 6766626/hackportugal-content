@@ -3,7 +3,7 @@ export default {
   id: 'ethnic-restaurants-groceries',
   categoryId: 'food_leisure',
   title: 'Этническая еда — где купить русские, грузинские, бразильские продукты',
-  tldr: 'В Лиссабоне и Порту работают магазины с продуктами СНГ (Славянка, Bazar Russo, Euromercado), грузинские рестораны, бразильские супермаркеты (Brasa, Brasileirinho)\.\n\nДоставка из Испании — Tiendas de Rusia (Мадрид): сроки и стоимость зависят от адреса/веса/акций, проверяйте при оформлении заказа. В некоторых крупных Continente/Pingo Doce иногда встречаются отдельные восточноевропейские товары, но ассортимент нестабильный. Грузинское вино иногда встречается в специализированных винных магазинах и во временных акциях Lidl/других сетей; проверяйте текущий folheto.',
+  tldr: 'В Лиссабоне и Порту работают магазины с продуктами СНГ (Славянка, Bazar Russo, Euromercado), грузинские рестораны, бразильские супермаркеты (Brasa, Brasileirinho).\n\nДоставка из Испании — Tiendas de Rusia (Мадрид): сроки и стоимость зависят от адреса/веса/акций, проверяйте при оформлении заказа. В некоторых крупных Continente/Pingo Doce иногда встречаются отдельные восточноевропейские товары, но ассортимент нестабильный. Грузинское вино иногда встречается в специализированных винных магазинах и во временных акциях Lidl/других сетей; проверяйте текущий folheto.',
   tags: ['этническая еда', 'русские продукты', 'грузинская', 'бразильская'],
   estimatedReadMinutes: 5,
   steps: [
@@ -132,6 +132,6 @@ export default {
     { title: 'Visit Lisboa — Restaurantes étnicos', url: 'https://www.visitlisboa.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Tiendas de Rusia (ES доставка в PT)', url: 'https://www.tiendasderusia.es/', kind: 'company', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'residential-parking',
   categoryId: 'auto_trips',
   title: 'Резидентская парковка — Лиссабон, Кашкаиш, Сетубал',
-  tldr: 'В крупных городах муниципалитет продаёт резидентам льготные парковочные разрешения (dístico de residente) — от бесплатной до ~80 €/год. Работает по месту проживания (Atestado de Residência) + регистрации автомобиля. Лиссабоном управляет EMEL, Кашкаишем — Cascais Próxima, Сетубалом — Divisão de Trânsito. Без dístico резиденту придётся платить почасово как туристу.',
+  tldr: 'В крупных городах муниципалитет выдаёт резидентам льготные парковочные разрешения (dístico de residente) — от бесплатного до ~130 €/год. Привязано к месту проживания (Atestado de Residência) и регистрации автомобиля. Лиссабоном управляет EMEL, Кашкаишем — Cascais Próxima, Сетубалом — Divisão de Trânsito. Без dístico резиденту придётся платить почасово как туристу.',
   tags: ['парковка', 'dístico', 'резидент'],
   estimatedReadMinutes: 5,
   steps: [
@@ -26,11 +26,11 @@ export default {
           ]},
           { id: 'l3', title: 'Цена', content: [
             { kind: 'checklist', items: [
-              '1-я машина: €12/год (первый год часто бесплатно)',
-              '2-я машина домохозяйства: €36/год',
-              'Каждая следующая: €72/год',
-              'Dístico de visitante (гостевой): €24/год + ограничения по часам',
-              'Пенсионеры 65+ — скидка 50%'
+              '1-я машина по адресу: бесплатно',
+              '2-я машина по адресу: €54/год',
+              '3-я машина по адресу: €132/год',
+              'Cartão Visitante (гостевой): €25 — карта с балансом, первые 30 минут бесплатно, далее почасово',
+              'До 3 разрешений на один адрес'
             ]}
           ]},
           { id: 'l4', title: 'Зоны', content: [
@@ -70,7 +70,7 @@ export default {
       title: 'Бесплатная парковка для электромобилей',
       content: [
         { kind: 'checklist', items: [
-          'Лиссабон: EMEL — первые 2 часа бесплатно для электромобилей с зелёным номерным знаком (маркировка MEV)',
+          'Лиссабон: EMEL — первые 2 часа бесплатно для электромобилей с зелёным номерным знаком (маркировка MEV); с 2026 года для машин из соседних муниципалитетов льгота ограничена',
           'Порту: парковка для электромобилей — скидка 50% в муниципальных зонах',
           'Кашкаиш: бесплатная парковка для электромобилей на муниципальных зарядных станциях',
           'По всей стране: бесплатная парковка в зонах зарядки Mobi.E во время зарядки',
@@ -84,7 +84,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Парковка без dístico или оплаты: 30-50 € (при быстрой оплате)',
-          'Парковка в зоне для инвалидов без документа: €120 (штраф + штрафной балл)',
+          'Парковка на месте для людей с инвалидностью без карты: 60-300 € (ст. 145 Código da Estrada) + 2 штрафных балла',
           'Эвакуация: 80-150 € + хранение 15 €/день',
           'Скидка 50% при оплате в течение 15 дней (минимальный размер штрафа)',
           'Обжаловать штраф — через EMEL.pt или Câmara, срок 30 дней'
@@ -93,17 +93,17 @@ export default {
     }
   ],
   costs: [
-    { label: 'Лиссабон EMEL dístico (1-я машина)', amountEUR: 12, note: '/год, часто 1-й год бесплатно' },
-    { label: 'Лиссабон EMEL dístico (2-я машина)', amountEUR: 36, note: '/год' },
+    { label: 'Лиссабон EMEL dístico (1-я машина)', amountEUR: 0, note: 'бесплатно' },
+    { label: 'Лиссабон EMEL dístico (2-я машина)', amountEUR: 54, note: '/год' },
     { label: 'Cascais dístico', amountEURMin: 10, amountEURMax: 30, note: '/год, 1-й бесплатно' },
     { label: 'Setúbal cartão residente', amountEUR: 20, note: '/год' },
     { label: 'Штраф без dístico', amountEURMin: 30, amountEURMax: 50 }
   ],
   sources: [
-    { title: 'EMEL — Dísticos', url: 'https://www.emel.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'EMEL — Dístico de Residente', url: 'https://www.emel.pt/pt/disticos/estacionamento-nos-bairros-historicos/distico-de-residente/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Cascais Próxima — Estacionamento', url: 'https://www.cascaisproxima.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal de Setúbal — Trânsito', url: 'https://www.mun-setubal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

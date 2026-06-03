@@ -50,7 +50,7 @@ export default {
             { kind: 'paragraph', text: 'After the course, the school sends you for assessment under IMT rules. Ask the school whether exam registration is included in the price and how much a resit costs.' }
           ] },
           { id: 'request-cqm', title: '4. Obtain CQM or código 95', content: [
-            { kind: 'paragraph', text: 'After successful completion, the qualification is recorded in the IMT system. The driver needs a document/entry confirming the professional qualification: Carta de Qualificação de Motorista (CQM) or the corresponding código 95, if it applies to your situation.' }
+            { kind: 'paragraph', text: 'After successful completion, the qualification is recorded in the IMT system. For drivers resident in Portugal, a separate CQM card has not been issued since 2021: proof is the código 95 annotated on the driving licence. The Carta de Qualificação de Motorista (CQM) remains in the EU framework and for certain non-resident cases.' }
           ] }
         ] },
         { kind: 'warning', text: 'Do not start working “while the card is being processed” unless the employer has confirmed that going out on the road is lawful. During an inspection, what matters is not just the school diploma, but a valid qualification recognised by IMT.' }
@@ -85,6 +85,6 @@ export default {
     { title: 'Decreto-Lei 126/2009 — initial qualification and formação contínua for drivers', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34508075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IMT: Carta de Qualificação de Motorista / professional categories', url: 'https://www.imt-ip.pt/sites/IMTT/Portugues/Cidadao/Cartas-Conducao/Paginas/CartasConducao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

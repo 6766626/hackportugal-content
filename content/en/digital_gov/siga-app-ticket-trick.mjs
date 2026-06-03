@@ -3,7 +3,7 @@ export default {
   id: 'siga-app-ticket-trick',
   categoryId: 'digital_gov',
   title: 'SigaApp + ePortugal: how to take the right ticket at a Loja de Cidadão',
-  tldr: 'SigaApp is the official way to take an electronic ticket for many Loja de Cidadão and Espaço Cidadão locations before you arrive, instead of standing at the machine. Practical 2026 trick: open ePortugal/Siga, check the queues across several nearby Lojas and take a senha about 20–30 minutes before arrival. Remote tickets usually have a 30-minute window/delay, but if you are called and you are not there, the ticket is lost. Not all services are available without an appointment: AIMA, IRN, Finanças and Segurança Social often have separate rules.',
+  tldr: 'SigaApp is the official way to take an electronic ticket for many Loja de Cidadão and Espaço Cidadão locations before you arrive, instead of standing at the machine. Practical 2026 trick: open ePortugal/Siga, check the queues across several nearby Lojas and take a senha about 20–30 minutes before arrival. A ticket is just a place in a live queue: if you are called and you are not there, it is lost. The only hard timing rule is that you must wait 30 minutes between taking two tickets on the same phone number or e-mail. Not all services are available without an appointment: AIMA, IRN, Finanças and Segurança Social often have separate rules.',
   tags: ['siga', 'eportugal', 'loja', 'ticket'],
   estimatedReadMinutes: 5,
   steps: [
@@ -36,7 +36,7 @@ export default {
       title: 'The 30-minute trick: take a ticket before you arrive',
       content: [
         { kind: 'paragraph', text: 'In practice: do not wait until you are at the machine. 20–30 minutes before arrival, open SigaApp, choose the Loja de Cidadão, the required service and the type of atendimento, then take a senha. This lets you “join the queue” while you are still on the way.' },
-        { kind: 'paragraph', text: 'Remote talões often use a 30-minute logic: the system may take into account that a person needs time to get there, or show a window when you need to approach. So taking a ticket 2 hours in advance is risky: the queue may move faster, you may be called, and the senha will be lost.' },
+        { kind: 'paragraph', text: 'Bear in mind: a remote ticket does not give you a separate “travel window”. It is an ordinary place in a live queue — the queue moves at its own pace and does not wait for you to arrive. So taking a ticket 2 hours in advance is risky: the queue may move faster, you may be called, and the senha will be lost. The only hard timing rule is that you must wait 30 minutes between taking two tickets on the same phone number or e-mail.' },
         { kind: 'checklist', items: [
           'If the Loja is 5 minutes away — first check the queue speed; do not take a ticket too early.',
           'If the Loja is 20–30 minutes away — this is usually the ideal window for a pre-pull.',
@@ -122,6 +122,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

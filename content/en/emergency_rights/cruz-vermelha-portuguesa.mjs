@@ -122,6 +122,6 @@ export default {
     { title: 'INEM — 112 number and emergency medical care', url: 'https://www.inem.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — 808 24 24 24 contact and medical guidance', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

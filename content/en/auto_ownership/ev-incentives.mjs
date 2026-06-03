@@ -20,17 +20,17 @@ export default {
               'Companies/sole traders: in previous Avisos, €6,000 support applied to new BEV N1 vehicles (goods vehicles up to 3.5 t); for M1 company cars, the conditions are different',
               'Electric bicycle: ~€500',
               'Electric scooter: ~€500',
-              'Price cap for the M1 subsidy in recent Avisos was around €38,500 with IVA and expenses. €62,500 excluding IVA is a separate tax threshold for companies, not a subsidy criterion'
+              'Price cap for the M1 subsidy in recent Avisos was around €38,500 with IVA and expenses (the limit is higher for versions with more than 5 seats). €62,500 excluding IVA is a separate tax threshold for companies, not a subsidy criterion'
             ]}
           ]},
           { id: 's2', title: 'How to apply', content: [
-            { kind: 'paragraph', text: 'fundoambiental.pt → Candidaturas → Mobilidade Elétrica. The application is submitted online only with Chave Móvel Digital or Cartão de Cidadão. Application windows usually open on 15 January. You need: invoice for the car (a pro forma invoice may be accepted), copy of your residence permit/Cartão de Cidadão, NIF, IBAN for payment.' }
+            { kind: 'paragraph', text: 'fundoambiental.pt → Candidaturas → Mobilidade Elétrica. The application is submitted online only with Chave Móvel Digital or Cartão de Cidadão. The window opening date varies each year (in 2026, between May and June; in previous years, in January); exact dates are published on fundoambiental.pt. You need: invoice for the car (a pro forma invoice may be accepted), copy of your residence permit/Cartão de Cidadão, NIF, IBAN for payment.' }
           ]},
           { id: 's3', title: 'Payment timeframe', content: [
             { kind: 'timeline', text: '30–90 days after approval. The money is paid to your IBAN as a reimbursement.' }
           ]}
         ]},
-        { kind: 'warning', text: 'The programme budget for 2024–2025 ran out within 2–3 months. If you are buying an electric car in spring, apply in January-February.' }
+        { kind: 'warning', text: 'The programme budget for 2024–2025 ran out within 2–3 months. Watch for the Aviso opening date on fundoambiental.pt and apply in the first few days — funds are allocated on a first-come basis until the budget is exhausted.' }
       ]
     },
     {
@@ -41,7 +41,7 @@ export default {
           { id: 't1', title: 'ISV (customs/import)', content: [
             { kind: 'checklist', items: [
               'Pure BEVs: 0% ISV (full exemption)',
-              'PHEV (plug-in hybrid) with electric range ≥50 km: reduced ISV (25–40% discount)',
+              'PHEV (plug-in hybrid): reduced ISV (75% discount) with electric range ≥50 km and CO₂ emissions ≤80 g/km under the Euro 6e-bis standard (the threshold was raised from 50 to 80 g/km in OE 2026). Older PHEVs without Euro 6e-bis: ≤50 g/km',
               'HEV (standard hybrid): standard ISV, as for petrol/diesel',
               'The validity of the tax break is confirmed annually in the OE'
             ]}

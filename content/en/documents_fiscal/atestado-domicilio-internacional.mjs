@@ -123,7 +123,7 @@ export default {
     },
     {
       title: 'Portal das Finanças — Domicílio fiscal and registration data',
-      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.htmlindex.html',
+      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -136,6 +136,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-05',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

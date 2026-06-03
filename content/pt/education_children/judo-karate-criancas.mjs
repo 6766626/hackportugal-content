@@ -3,7 +3,7 @@ export default {
   id: 'judo-karate-criancas',
   categoryId: 'education_children',
   title: 'Judo, Karate e artes marciais para crianças',
-  tldr: 'Em Portugal, as secções infantis de Judo, Karate, Taekwondo e BJJ aceitam normalmente crianças a partir dos 4–6 anos, e as competições oficiais começam mais frequentemente por volta dos 8 anos, dependendo da federação e do clube. Clubes municipais e escolares custam cerca de 25–35 € por mês, academias privadas — 35–50 € por mês, mais kimono/dobok 25–70 €, licença e seguro. Verifique se o clube está ligado à FPJudo ou à FPK, se existe seguro desportivo e exame médico-desportivo.',
+  tldr: 'Em Portugal, as secções infantis de Judo, Karate, Taekwondo e BJJ aceitam normalmente crianças a partir dos 4–6 anos, e as competições oficiais começam mais frequentemente por volta dos 8 anos, dependendo da federação e do clube. Clubes municipais e escolares custam cerca de 25–35 € por mês, academias privadas — 35–50 € por mês, mais kimono/dobok 25–70 €, licença e seguro. Verifique se o clube está ligado à FPJ ou à FNK-P, se existe seguro desportivo e exame médico-desportivo.',
   tags: ['judo', 'karate', 'crianças', 'desporto'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,9 +27,9 @@ export default {
       id: 'check-club',
       title: '2. Verifique o clube: federação, seguro, treinador',
       content: [
-        { kind: 'paragraph', text: 'Não escolha uma secção apenas pela proximidade de casa. Nas artes marciais infantis, o treinador, a segurança e a ligação do clube à federação são mais importantes: Federação Portuguesa de Judo (FPJudo), Federação Nacional de Karate - Portugal (FPK) ou a federação correspondente de Taekwondo/BJJ.' },
+        { kind: 'paragraph', text: 'Não escolha uma secção apenas pela proximidade de casa. Nas artes marciais infantis, o treinador, a segurança e a ligação do clube à federação são mais importantes: Federação Portuguesa de Judo (FPJ), Federação Nacional de Karate - Portugal (FNK-P) ou a federação correspondente de Taekwondo/BJJ.' },
         { kind: 'checklist', items: [
-          'Pergunte se o clube está registado na FPJudo ou na FPK e se a criança pode obter uma licença federativa.',
+          'Pergunte se o clube está registado na FPJ ou na FNK-P e se a criança pode obter uma licença federativa.',
           'Confirme se o seguro desportivo está incluído na quota anual ou se é pago à parte.',
           'Peça o nome do treinador e a sua graduação / cédula de treinador, se o clube participar em competições oficiais.',
           'Assista a um treino: as crianças devem cair sobre tatami, não sobre um chão duro.',
@@ -70,7 +70,7 @@ export default {
           'Para participar, são normalmente necessários licença federativa, seguro desportivo e, por vezes, exame médico-desportivo.',
           'O cinto, por si só, não garante a admissão: a decisão cabe ao treinador e ao regulamento do torneio.',
           'Não inscreva a criança em competições se ela ainda não souber cair em segurança, parar ao comando e cumprir as regras.',
-          'Confirme com o clube o calendario distrital/regional: os torneios decorrem frequentemente aos fins-de-semana e exigem deslocações.'
+          'Confirme com o clube o calendário distrital/regional: os torneios decorrem frequentemente aos fins-de-semana e exigem deslocações.'
         ] },
         { kind: 'warning', text: 'As competições não são obrigatórias. Um bom clube infantil não deve pressionar a criança por medalhas, especialmente no primeiro ano de adaptação em Portugal.' }
       ]
@@ -81,8 +81,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Comece pelos sites oficiais das federações e pelos canais locais. Em Portugal, muitas secções funcionam em pequenas associações, pelo que nem todas têm um bom site; muitas vezes, o Facebook, o Instagram ou o horário do pavilhão municipal estão mais actualizados.' },
         { kind: 'checklist', items: [
-          'FPJudo: procure clubes, associações distritais e o calendário de judo.',
-          'FPK: verifique clubes e associações de karate.',
+          'FPJ: procure clubes, associações distritais e o calendário de judo.',
+          'FNK-P: verifique clubes e associações de karate.',
           'Pergunte na Câmara Municipal ou na Junta de Freguesia sobre atividades desportivas para crianças.',
           'Verifique a escola / ATL: muitas escolas têm karate, judo ou taekwondo depois das aulas.',
           'Pesquise por “judo crianças”, “karate infantil”, “taekwondo kids”, “jiu-jitsu crianças” + nome da cidade.',
@@ -100,10 +100,10 @@ export default {
     { label: 'Exame de cinto', amountEURMin: 10, amountEURMax: 30, note: 'A tarifa é definida pelo clube/associação; por vezes está incluída na mensalidade.' }
   ],
   sources: [
-    { title: 'Federação Portuguesa de Judo — clubes, calendário e informação federativa', url: 'https://www.fpjudo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Federação Nacional de Karate - Portugal — estrutura, clubes e eventos', url: 'https://www.fpkarate.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Federação Portuguesa de Judo (FPJ) — clubes, calendário e informação federativa', url: 'https://www.fpj.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Federação Nacional de Karate - Portugal (FNK-P) — estrutura, clubes e eventos', url: 'https://www.fnkp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'IPDJ — enquadramento do desporto federado e seguro desportivo', url: 'https://ipdj.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

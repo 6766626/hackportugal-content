@@ -3,7 +3,7 @@ export default {
   id: 'dog-dangerous-breeds',
   categoryId: 'animals',
   title: 'Dogs in Portugal — registration, dangerous breeds, tax',
-  tldr: 'Dog registration: SIAC (Sistema de Identificação dos Animais de Companhia) is mandatory after microchipping — free at the vet. Municipal licence (licença canina) — category by dog type: H = cão perigoso, G = cão potencialmente perigoso, standard categories — for the rest. Under DL 315/2009: for cão perigoso/potencialmente perigoso, civil liability insurance is mandatory (legal minimum), as are a muzzle + lead in public places, and the owner must be an adult with no convictions for certain crimes. List of potencialmente perigoso (Portaria 422/2004 and updates): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino and crossbreeds of these breeds.',
+  tldr: 'Dog registration: SIAC (Sistema de Identificação dos Animais de Companhia) is mandatory after microchipping — free at the vet. Municipal licence (licença canina) — category by dog type: H = cão perigoso, G = cão potencialmente perigoso, standard categories — for the rest. Under DL 315/2009: for cão perigoso/potencialmente perigoso, civil liability insurance is mandatory (minimum €50,000), as are a muzzle and lead in public places, and the owner must be an adult with no convictions for certain crimes. List of potencialmente perigoso (Portaria 422/2004 and updates): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino and crossbreeds of these breeds.',
   tags: ['dogs', 'animals', 'dog', 'fighting dogs'],
   estimatedReadMinutes: 5,
   steps: [
@@ -24,9 +24,9 @@ export default {
             { kind: 'checklist', items: [
               'Applied for at the Junta de Freguesia for your place of residence',
               'Documents: SIAC registration, rabies vaccination, sterilisation certificate (if sterilised)',
-              'Cost: €5-15/year (depends on the municipality; categories A/B are more expensive, up to €50)',
+              'Cost: €5-15/year (depends on the municipality; categories G/H are more expensive, up to €50)',
               'Tag (medalha) — a ring with a number, attached to the collar',
-              'Renewal annually by 31 March',
+              'Renewal annually (exact deadline depends on the freguesia)',
               'Fine for not having a licence: €50-250'
             ]}
           ]},
@@ -56,9 +56,8 @@ export default {
               'Dogo Argentino',
               'Fila Brasileiro',
               'Tosa Inu (Tosa Japanese)',
-              'Cão de Fila de São Miguel',
               'Crossbreeds of these breeds (≥ 50% bloodline)',
-              'Any dog that has shown aggression towards a person or animal (without provocation) is moved to cão perigoso (category H) (perigoso) by decision of the municipal vet'
+              'Any dog that has shown aggression towards a person or animal (without provocation) is moved to category H (cão perigoso) by decision of the municipal vet'
             ]}
           ]},
           { id: 'd2', title: 'Owner requirements', content: [
@@ -77,7 +76,7 @@ export default {
               'Not allowed in children’s playgrounds, on public transport, in restaurants',
               'In the yard: fence ≥ 1.8 m, “cão perigoso” sign',
               'Walking only with an adult accompanying the dog',
-              'No more than 2 category A/B dogs in one household without a special licence'
+              'No more than 2 category G/H dogs in one household without a special licence'
             ]}
           ]},
           { id: 'd4', title: 'Fines', content: [
@@ -98,7 +97,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Professional breeding requires registration with DGAV (Direção-Geral de Alimentação e Veterinária)',
-          'Breeding category A/B dogs is prohibited (since 2009) — only sterilisation is possible',
+          'Breeding category G/H dogs is prohibited (since 2009) — only sterilisation is possible',
           'Sale without a chip/registration — fine up to €3,750',
           'Kennel clubs: Clube Português de Canicultura (cpc.pt) for official pedigrees'
         ]}
@@ -153,17 +152,18 @@ export default {
   costs: [
     { label: 'SIAC microchip', amountEURMin: 20, amountEURMax: 40 },
     { label: 'Licença Canina (standard)', amountEURMin: 5, amountEURMax: 15, note: '€/year' },
-    { label: 'Licença Canina cão perigoso (category H)/B', amountEURMin: 25, amountEURMax: 50, note: '€/year' },
-    { label: 'Insurance for categories A/B', amountEURMin: 50, amountEURMax: 200, note: '€/year' },
+    { label: 'Licença Canina cão perigoso/potencialmente perigoso (categories G/H)', amountEURMin: 25, amountEURMax: 50, note: '€/year' },
+    { label: 'Insurance for categories G/H', amountEURMin: 50, amountEURMax: 200, note: '€/year' },
     { label: 'Annual vaccination', amountEURMin: 30, amountEURMax: 50 },
     { label: 'Castration', amountEURMin: 150, amountEURMax: 500 }
   ],
   sources: [
     { title: 'DGAV — SIAC', url: 'https://www.dgav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DL 315/2009 — dangerous dogs (consolidated)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34469975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portaria 422/2004 — list of potentially dangerous breeds', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/422-2004-222996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Lei 69/2014 — animal mistreatment', url: 'https://diariodarepublica.pt/dr/detalhe/lei/69-2014-56470378', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Clube Português de Canicultura', url: 'https://www.cpc.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

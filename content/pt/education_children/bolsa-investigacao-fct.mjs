@@ -3,7 +3,7 @@ export default {
   id: 'bolsa-investigacao-fct',
   categoryId: 'education_children',
   title: 'Bolsa de Investigação FCT — bolsas para investigadores',
-  tldr: 'A FCT é o principal fundo público de ciência em Portugal. Estrangeiros podem candidatar-se a doutoramento, project grants, post-doc/BIPD e contratos Estímulo ao Emprego Científico: a nacionalidade portuguesa normalmente não é exigida e o inglês é frequentemente suficiente. Em 2026, referências: doutoramento cerca de 1 300 €/mês, post-doc cerca de 1 700 €/mês, contrato de investigador júnior cerca de 2 200 €/mês brutos. Candidatura através de myFCT/Ciência Vitae; é necessário um plano, supervisor/host e diplomas.',
+  tldr: 'A FCT é o principal fundo público de ciência em Portugal. Estrangeiros podem candidatar-se a doutoramento, project grants, post-doc/BIPD e contratos Estímulo ao Emprego Científico: a nacionalidade portuguesa normalmente não é exigida e o inglês é frequentemente suficiente. Em 2026, referências: doutoramento cerca de 1 686 €/mês, post-doc cerca de 1 851 €/mês, contrato de investigador júnior cerca de 2 200 €/mês brutos. Candidatura através de myFCT/Ciência Vitae; é necessário um plano, supervisor/host e diplomas.',
   tags: ['fct', 'bolsa', 'doutoramento', 'investigação'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,9 +13,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A Fundação para a Ciência e a Tecnologia, I.P. é a agência pública que financia PhD, projectos de investigação, laboratórios e contratos científicos. Para um expat, o ponto importante é: muitos concursos estão abertos a non-Portuguese candidates, se cumprir os requisitos académicos e tiver uma organização de acolhimento.' },
         { kind: 'checklist', items: [
-          'Bolsa de Doutoramento — bolsa individual de PhD; em 2026, o monthly maintenance allowance típico é cerca de 1 300 €/mês para trabalho em Portugal.',
+          'Bolsa de Doutoramento — bolsa individual de PhD; em 2026, o monthly maintenance allowance típico é cerca de 1 686 €/mês para trabalho em Portugal.',
           'Bolsa de Investigação em projecto — bolsa temporária dentro de um funded project concreto; os valores dependem do grau: licenciatura, mestrado, doutoramento.',
-          'Bolsa de Investigação Pós-Doutoral / BIPD — bolsa post-doc, normalmente cerca de 1 700–1 800 €/mês; é usada de forma limitada e não substitui emprego permanente.',
+          'Bolsa de Investigação Pós-Doutoral / BIPD — bolsa post-doc, normalmente cerca de 1 851 €/mês; é usada de forma limitada e não substitui emprego permanente.',
           'Estímulo ao Emprego Científico / CEEC — não é uma bolsa, mas sim um contrato de trabalho de investigador; o nível junior começa aproximadamente nos 2 200 €/mês brutos, normalmente com 14 pagamentos por ano.',
           'A FCT também pode cobrir propinas de PhD até ao limite estabelecido, personal accident insurance e segurança social nos casos previstos.'
         ] },
@@ -79,10 +79,10 @@ export default {
       id: 'money-and-tax',
       title: 'Dinheiro, impostos e segurança social',
       content: [
-        { kind: 'paragraph', text: 'A bolsa FCT é normalmente paga mensalmente para uma conta bancária. É um maintenance allowance, não um salary. Por isso, não se pode comparar directamente uma bolsa de 1 300 € com um gross salary de 1 300 €: têm regimes fiscais e sociais diferentes.' },
+        { kind: 'paragraph', text: 'A bolsa FCT é normalmente paga mensalmente para uma conta bancária. É um maintenance allowance, não um salary. Por isso, não se pode comparar directamente uma bolsa de 1 686 € com um gross salary de 1 686 €: têm regimes fiscais e sociais diferentes.' },
         { kind: 'checklist', items: [
-          'Doutoramento em Portugal: referência 2026 — cerca de 1 300 €/mês de allowance de tipo líquido.',
-          'Post-doc/BIPD: referência — cerca de 1 700–1 800 €/mês, dependendo da tabela da FCT e do edital.',
+          'Doutoramento em Portugal: referência 2026 — cerca de 1 686 €/mês de allowance de tipo líquido.',
+          'Post-doc/BIPD: referência — cerca de 1 851 €/mês, dependendo da tabela da FCT e do edital.',
           'CEEC Junior: cerca de 2 200 €/mês brutos, mas é salário: IRS e Segurança Social são retidos como para um trabalhador.',
           'A bolsa está normalmente isenta de IRS, se cumprir o Estatuto do Bolseiro de Investigação e não for pagamento por trabalho normal.',
           'A FCT pode compensar o Seguro Social Voluntário de acordo com as regras do grant agreement; verifique quem apresenta o pedido e quais são os prazos.',
@@ -107,7 +107,7 @@ export default {
           'Candidate-se a vários canais em simultâneo: FCT individual call, project bolsa, university scholarship, Marie Skłodowska-Curie, Erasmus Mundus, company-funded PhD.',
           'Depois do resultado, verifique o prazo de appeal/reclamação: se a avaliação contiver um erro factual, pode apresentar contestação.'
         ] },
-        { kind: 'paragraph', text: 'Para a família, planeie o orçamento de forma realista. Uma PhD bolsa de 1 300 €/mês em Lisboa ou no Porto cobre uma vida modesta para uma pessoa, mas para um casal/filhos quase sempre é necessário um segundo rendimento ou savings.' }
+        { kind: 'paragraph', text: 'Para a família, planeie o orçamento de forma realista. Uma PhD bolsa de 1 686 €/mês em Lisboa ou no Porto cobre uma vida modesta para uma pessoa, mas para um casal/filhos quase sempre é necessário um segundo rendimento ou savings.' }
       ]
     }
   ],
@@ -123,6 +123,6 @@ export default {
     { title: 'FCT — Emprego Científico / Estímulo ao Emprego Científico', url: 'https://www.fct.pt/financiamento/programas-de-financiamento/emprego-cientifico/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Estatuto do Bolseiro de Investigação — Lei 40/2004', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2004-58216179', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

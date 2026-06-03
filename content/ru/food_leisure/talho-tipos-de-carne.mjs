@@ -16,7 +16,7 @@ export default {
           'Continente Talho — удобно: онлайн-каталог, акции, вакуумная упаковка, часто есть picanha и maturada.',
           'Pingo Doce — нормальный выбор базовых отрубов: bife de vaca, alcatra, carne para estufar, frango, porco.',
           'Mercado municipal — хороший вариант для свежего мяса и разговора с мясником, но названия могут отличаться по региону.',
-          'Talho de bairro — лучший формат, если нужно «нарежьте тонко», «сделайте кубиками», «без кости», «с жиром оставить».',
+          'Talho de bairro — лучший формат, если нужно «нарежьте тонко», «сделайте кубиками», «без кости», «оставьте с жиром».',
           'Lidl/Aldi — дешевле на базовом мясе, но меньше контроля над конкретной нарезкой.',
           'Онлайн-мясники и premium talhos — дороже, зато есть dry-aged, raças autóctones, wagyu, black angus.'
         ] }
@@ -34,7 +34,7 @@ export default {
           'pojadouro — задняя часть, ближе к rump/topside. Для bifes finos, estufado, carne guisada; может быть суше, чем vazia.',
           'acém — передняя часть/лопатка. Лучше тушить, варить, делать ragù, carne picada. Обычно дешевле alcatra.',
           'maçã do peito — грудинка/brisket. Для медленного тушения, forno baixo, caldo, pulled beef. Не брать для быстрого стейка.',
-          'cachaço / pescoço — шея. Дешевле, вкусно для тушения, супов, slow cooking.',
+          'cachaço / pescoço — шея. Дешевле, хороша для тушения, супов, slow cooking.',
           'costela / entrecosto de vaca — рёбра. Для forno, churrasqueira, long cooking.',
           'carne picada — фарш. Уточняйте «só vaca» или «mistura»; mistura обычно говядина + свинина.'
         ] },
@@ -45,7 +45,7 @@ export default {
       id: 'picanha',
       title: 'Picanha: популярно, но это не классический португальский отруб',
       content: [
-        { kind: 'paragraph', text: 'Picanha в Португалии знают почти везде из-за бразильских ресторанов и churrasqueira. Но это бразильский стиль выделения верхней части rump cap с жировой крышкой. В традиционной португальской разделке эта зона может уходить в alcatra/pojadorao/pojadoro в зависимости от мясника и региона.' },
+        { kind: 'paragraph', text: 'Picanha в Португалии знают почти везде из-за бразильских ресторанов и churrasqueira. Но это бразильский стиль выделения верхней части rump cap с жировой крышкой. В традиционной португальской разделке эта зона может уходить в alcatra или pojadouro в зависимости от мясника и региона.' },
         { kind: 'checklist', items: [
           'Хорошая picanha имеет ровный слой жира сверху, примерно 0,5–1,5 см.',
           'Для churrasqueira просите «picanha inteira» или «em peças», а не тонкие bifes.',
@@ -62,14 +62,14 @@ export default {
       content: [
         { kind: 'paragraph', text: 'В Португалии свинина дешевле говядины и очень популярна: febras, secretos, entremeada, lombo de porco. Курица продаётся целиком, частями и уже разделанной для grelhados. Баранина чаще встречается как borrego или cabrito, особенно к Пасхе и семейным праздникам.' },
         { kind: 'checklist', items: [
-          'lombo de porco — свиная корейка/карбонад, нежирно; для forno и bifes.',
+          'lombo de porco — свиная корейка/карбонад, нежирная; для forno и bifes.',
           'febras — тонкие свиные стейки, быстро жарятся; часто берут для будней.',
           'entremeada — свиная грудинка/беконная часть, жирная; для гриля и forno.',
           'secretos de porco — тонкие мраморные куски, особенно популярны у porco preto.',
           'perna — нога. Может быть perna de porco, perna de borrego, perna de frango; уточняйте животное.',
           'pá — лопатка. Хороша для запекания и тушения, дешевле lombo.',
           'frango inteiro — целая курица; frango do campo дороже и плотнее по текстуре.',
-          'peito de frango — куриная грудка; pernas/coxsas — ножки/бёдра; asas — крылья.',
+          'peito de frango — куриная грудка; pernas/coxas — ножки/бёдра; asas — крылья.',
           'borrego — ягнёнок/молодая баранина; cabrito — козлёнок, часто для assado.'
         ] }
       ]
@@ -125,6 +125,6 @@ export default {
     { title: 'Continente — онлайн-каталог Talho и актуальные розничные цены', url: 'https://www.continente.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Pingo Doce — мясной отдел и розничные цены', url: 'https://www.pingodoce.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

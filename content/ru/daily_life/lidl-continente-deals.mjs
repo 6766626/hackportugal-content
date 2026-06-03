@@ -3,7 +3,7 @@ export default {
   id: 'lidl-continente-deals',
   categoryId: 'daily_life',
   title: 'Lidl Outlet, карта Continente, сравнение цен — экономия в супермаркетах',
-  tldr: 'В Португалии скидки в супермаркетах концентрируются в программах лояльности (Continente, Pingo Doce, Lidl Plus) и еженедельных флаерах. Lidl Plus app и lidl.pt — основные каналы Lidl Portugal; Lidl Outlet как постоянный отдельный онлайн-магазин не для всех категорий — проверяйте сайт. Cartão Continente даёт descontos em Cartão (saldo) + персональные купоны. Сравнение цен между сетями: разница 10-25% на базовой корзине, до 40% на алкоголе и бытовой химии.',
+  tldr: 'В Португалии скидки в супермаркетах сосредоточены в программах лояльности (Continente, Pingo Doce, Lidl Plus) и еженедельных флаерах. Приложение Lidl Plus и lidl.pt — основные каналы Lidl Portugal; отдельного постоянного интернет-магазина Lidl Outlet для всех категорий нет — проверяйте сайт. Cartão Continente даёт descontos em Cartão (saldo) + персональные купоны. Разница цен между сетями: 10-25% на базовой корзине, до 40% на алкоголе и бытовой химии.',
   tags: ['супермаркеты', 'скидки', 'lidl', 'continente'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'lidl-outlet',
       title: 'Lidl Outlet — интернет-магазин',
       content: [
-        { kind: 'paragraph', text: 'У Lidl Portugal основной публичный канал — lidl.pt и приложение Lidl Plus. Раздел онлайн-продаж непродовольственных товаров (техника, одежда, инвентарь, туризм) с цикличными остатками называется loja online; постоянного отдельного «outlet» сайта в виде, как в некоторых других странах, не всегда существует — проверяйте текущую структуру lidl.pt.' },
+        { kind: 'paragraph', text: 'У Lidl Portugal основные публичные каналы — сайт lidl.pt и приложение Lidl Plus. Раздел онлайн-продаж непродовольственных товаров (техника, одежда, инвентарь, туризм) с цикличными остатками называется loja online; отдельный постоянный сайт «outlet», как в некоторых других странах, есть не всегда — проверяйте текущую структуру lidl.pt.' },
         { kind: 'checklist', items: [
           'Категории: домашняя техника, спорт, туризм, товары для ремонта, сад, мода',
           'Доставка по всей стране, 3-5 € за заказ',
@@ -37,7 +37,7 @@ export default {
               'До 5-50% на маркированные товары (акция + Cartão)',
               '«Poupa Mais» — персонализированные купоны в приложении',
               'Топливо в Galp — со скидкой при оплате Cartão Continente (условия меняются — проверяйте текущие)',
-              'Универсальный кешбэк работает и в Worten, Zippy, MO, Sport Zone, Wells (все в группе Sonae)'
+              'Накопленный saldo тратится и в Worten, Zippy, MO, Sport Zone, Wells (все в группе Sonae)'
             ]}
           ]},
           { id: 'c2', title: '🟩 Pingo Doce — Poupa Mais', content: [
@@ -107,7 +107,7 @@ export default {
           '🛒 Покупать товары собственных марок Lidl/Continente — качество высокое, цена на 30% ниже брендов',
           '🐟 Рыба и мясо «по акции» в Continente: маркировка жёлтым ценником — последний день продажи, -30-50%',
           '🥯 Вечерние скидки в пекарнях Pingo Doce/Continente — после 20:00 на хлеб и выпечку -50%',
-          '💳 Карта Continente для топлива на АЗС — €10/мес скидка среднестатистической семье',
+          '💳 Карта Continente для топлива на АЗС — около €10/мес экономии для средней семьи',
           '📊 Folhetos.pt — поставить push-уведомления на молоко, мясо, оливковое масло, моющее средство',
           '🌽 Муниципальные рынки (Ribeira Bolhão Porto, Mercado Arroios Lisboa) — свежие овощи/рыба дешевле на 20-40%, чем в супермаркетах'
         ]}
@@ -125,6 +125,6 @@ export default {
     { title: 'folhetos.pt — агрегатор акций', url: 'https://www.folhetos.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DECO PROteste — сравнение супермаркетов', url: 'https://www.deco.proteste.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

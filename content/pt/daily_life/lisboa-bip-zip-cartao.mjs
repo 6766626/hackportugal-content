@@ -3,7 +3,7 @@ export default {
   id: 'lisboa-bip-zip-cartao',
   categoryId: 'daily_life',
   title: 'Cartão BIP/ZIP: cartão de residente de Lisboa com descontos',
-  tldr: 'O Cartão BIP/ZIP é um cartão municipal da Câmara Municipal de Lisboa para residentes de 65 zonas BIP/ZIP: Bairros e Zonas de Intervenção Prioritária. Não é o Lisboa Card turístico, mas sim um documento local para aceder a descontos e a condições de participação em programas de cultura, desporto, saúde e projectos de bairro. O direito depende da morada de residência, não da nacionalidade. Normalmente são necessários identificação e comprovativo de morada numa zona BIP/ZIP; a emissão do cartão é gratuita.',
+  tldr: 'O Cartão BIP/ZIP é um cartão municipal da Câmara Municipal de Lisboa para residentes de 67 zonas BIP/ZIP: Bairros e Zonas de Intervenção Prioritária. Não é o Lisboa Card turístico, mas sim um documento local para aceder a descontos e a condições de participação em programas de cultura, desporto, saúde e projectos de bairro. O direito depende da morada de residência, não da nacionalidade. Normalmente são necessários identificação e comprovativo de morada numa zona BIP/ZIP; a emissão do cartão é gratuita.',
   tags: ['lisboa', 'bipzip', 'descontos', 'bairro'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'O que é o Cartão BIP/ZIP',
       content: [
-        { kind: 'paragraph', text: 'BIP/ZIP significa Bairros e Zonas de Intervenção Prioritária — bairros e zonas de Lisboa que a Câmara Municipal de Lisboa considera prioritários para apoio social, urbano e de proximidade. Em 2026, o cartão municipal BIP/ZIP está associado à residência numa destas 65 zonas.' },
+        { kind: 'paragraph', text: 'BIP/ZIP significa Bairros e Zonas de Intervenção Prioritária — bairros e zonas de Lisboa que a Câmara Municipal de Lisboa considera prioritários para apoio social, urbano e de proximidade. Em 2026, o cartão municipal BIP/ZIP está associado à residência numa destas 67 zonas.' },
         { kind: 'paragraph', text: 'O cartão não serve para transportes nem para museus turísticos “tudo incluído”. Confirma que você vive numa zona BIP/ZIP concreta e pode dar acesso a descontos municipais, eventos, iniciativas desportivas, culturais, educativas, de saúde e sociais que a CML ou parceiros promovem para estes bairros.' },
         { kind: 'warning', text: 'Não confunda com o Lisboa Card: o Lisboa Card é um cartão turístico pago para transportes e atracções. O Cartão BIP/ZIP é um cartão municipal de residente, baseado na morada de residência num bairro prioritário.' }
       ]
@@ -88,7 +88,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Tentar pedir o cartão com a morada de um Airbnb ou de um hotel temporário — normalmente é necessária uma morada real de residência.',
-          'Pensar que toda a Lisboa está incluída no BIP/ZIP: não, apenas 65 zonas determinadas.',
+          'Pensar que toda a Lisboa está incluída no BIP/ZIP: não, apenas 67 zonas determinadas.',
           'Apresentar apenas o NIF com a morada nas Finanças: é útil, mas nem sempre é suficiente como comprovativo de morada.',
           'Confundir Junta de Freguesia com Câmara Municipal de Lisboa: a Junta ajuda com atestado e informação local, mas o programa é municipal.',
           'Esperar um desconto fixo em euros ou percentagem em toda a capital: as condições dependem do programa e do parceiro.',
@@ -126,6 +126,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

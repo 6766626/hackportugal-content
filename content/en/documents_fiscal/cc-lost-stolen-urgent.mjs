@@ -117,6 +117,6 @@ export default {
     { title: 'gov.pt: booking services related to Cartão de Cidadão', url: 'https://www2.gov.pt/en/servicos/agendar-um-servico-relacionado-com-o-cartao-de-cidadao', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Justiça/IRN: Cartão de Cidadão, application, collection, timelines and cost', url: 'https://justica.gov.pt/Registos/Identificacao/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

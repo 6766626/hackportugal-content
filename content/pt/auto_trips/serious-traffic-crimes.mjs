@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           '🍺 BAC 0.5–0.8 g/l (cerca de 1–2 copos de vinho) — contra-ordenação grave: coima de 250–1 250 €, inibição de conduzir 1–12 meses, menos 3 pontos',
           '🍷 BAC 0.8–1.2 g/l — contra-ordenação muito grave: coima de 500–2 500 €, inibição de conduzir 2–24 meses, menos 5 pontos',
-          '🍸 BAC ≥ 1.2 g/l — crime (art. 292 Código Penal): até 1 ano de prisão ou multa até 120 dias, SEMPRE inibição de conduzir 2+ meses, registo criminal durante 5–10 anos',
+          '🍸 BAC ≥ 1.2 g/l — crime (art. 292 Código Penal): até 1 ano de prisão ou multa até 120 dias, SEMPRE proibição de conduzir de 3 meses a 3 anos, registo criminal durante 5–10 anos',
           '🚫 Recusa de teste — é equiparada a BAC ≥ 1.2 g/l + acusação de "desobediência qualificada" (até 2 anos de prisão)',
           '⚠️ Para novos condutores (<3 anos de carta): limite de 0.2 g/l — até uma caneca de cerveja pode constituir infração',
           '💼 Para condutores profissionais (táxis, camiões, autocarros): 0.2 g/l'
@@ -28,50 +28,37 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Desde 2016 vigora o sistema de pontos (carta por pontos). Todos os condutores começam com 12 pontos.\n\nCrime rodoviário = −6 pontos.\n\nContra-ordenação muito grave = −5 pontos.\n\nGrave = −3 pontos.\n\nLeve não retira pontos na tabela geral. Ao chegar a 0 — cassação do título; não é possível obter nova carta durante 2 anos; depois, é necessário fazer novamente todo o processo de obtenção.' },
         { kind: 'substeps', items: [
-          { id: 'p1', title: 'Menos 1 ponto — contra-ordenações graves', content: [
+          { id: 'p1', title: 'Menos 2–3 pontos — contra-ordenação grave', content: [
             { kind: 'checklist', items: [
               'Excesso de velocidade de 30–60 km/h dentro de localidade (60–80 fora de localidade, 80–100 em autoestrada)',
               'Passar um sinal vermelho',
               'Utilizar o telemóvel ao volante sem auricular',
               'Não ceder passagem a peão na passadeira',
-              'Conduzir sem cinto de segurança',
-              'Não ter cadeira de criança para <12 anos / <135 cm'
+              'Conduzir sem cinto de segurança ou sem cadeira de criança para <12 anos / <135 cm',
+              'Ultrapassagem sobre linha contínua',
+              'Álcool 0.5–0.8 g/l e corridas dentro de localidade — −3 pontos'
             ]}
           ]},
-          { id: 'p2', title: 'Menos 2 pontos', content: [
+          { id: 'p2', title: 'Menos 4–5 pontos — contra-ordenação muito grave', content: [
             { kind: 'checklist', items: [
               'Excesso de velocidade de 60+ km/h dentro de localidade',
-              'Ultrapassagem sobre linha contínua',
               'Não parar por ordem da GNR / PSP',
-              'Circular em local proibido (sentido único, zona pedonal)'
+              'Circular em local proibido (sentido único, zona pedonal)',
+              'Álcool 0.8–1.2 g/l — −5 pontos'
             ]}
           ]},
-          { id: 'p3', title: 'Menos 3 pontos', content: [
-            { kind: 'checklist', items: [
-              'Álcool 0.5–0.8 g/l',
-              'Corridas dentro de localidade',
-              'Conduzir sem carta ou com carta caducada',
-              'Utilização de matrículas falsas'
-            ]}
-          ]},
-          { id: 'p4', title: 'Menos 4 pontos', content: [
-            { kind: 'checklist', items: [
-              'Álcool 0.8–1.2 g/l',
-              'Conduzir sem IPO válido',
-              'Recusa de paragem + perseguição'
-            ]}
-          ]},
-          { id: 'p5', title: 'Menos 5 pontos — crime', content: [
+          { id: 'p3', title: 'Menos 6 pontos — crime (crime rodoviário)', content: [
             { kind: 'checklist', items: [
               'Álcool ≥ 1.2 g/l',
               'Recusa de teste de álcool / drogas',
+              'Conduzir sem nunca ter tido habilitação legal',
               'Abandono do local do acidente com feridos',
               'Drogas ao volante',
               'Homicídio / ofensa grave por negligência'
             ]}
           ]}
         ]},
-        { kind: 'paragraph', text: 'Recuperação de pontos: +1 ponto a cada 3 anos sem infrações, máximo 12. É possível fazer um «curso de reeducação» — 2–3 dias no IMT — +2 pontos (pago, ~250 €).' }
+        { kind: 'paragraph', text: 'Recuperação de pontos: +3 pontos no final de cada período de 3 anos sem infrações, até ao máximo de 15 pontos. Aos condutores com 5 ou menos pontos é imposta uma ação de formação de segurança rodoviária obrigatória: sem a frequentar, a carta é suspensa; custo ~250 €.' }
       ]
     },
     {
@@ -130,6 +117,6 @@ export default {
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — Portal Digital', url: 'https://portal.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'pet-adoption-shelters',
   categoryId: 'animals',
   title: 'Усыновить животное в Португалии — приюты и процесс',
-  tldr: 'В Португалии усыновление в приюте бесплатно или с символическим взносом (10-50 €) для покрытия стерилизации и чипа. Главные источники: муниципальные CRO (Centro de Recolha Oficial), частные ассоциации (União Zoófila, ANIMAL, Bianca, СВ), Animais de Rua (Lisboa), Casa dos Animais Lisboa. На сайте adopt.cao.pt — национальная база. Закон требует чипа + регистрации в SIAC + страхования (для собак опасных пород)\.\n\nСтерилизация обычно включена.',
+  tldr: 'В Португалии усыновление в приюте бесплатно или с символическим взносом (10-50 €) для покрытия стерилизации и чипа. Главные источники: муниципальные CRO (Centro de Recolha Oficial), частные ассоциации (União Zoófila, ANIMAL, Bianca), Animais de Rua (Lisboa), Casa dos Animais Lisboa. На сайте adopt.cao.pt — национальная база. Закон требует чипа, регистрации в SIAC и страхования (для собак опасных пород).\n\nСтерилизация обычно включена.',
   tags: ['усыновление', 'приют', 'собака', 'кошка', 'cro', 'animal'],
   estimatedReadMinutes: 6,
   steps: [
@@ -149,7 +149,7 @@ export default {
           '🐾 Прогулки 2-3 раза в день (собаки), игры (кошки)',
           '📸 Социальные сети: помогите приюту — публикуйте фото, рекомендуйте',
           '🎁 Возвращение в приют (если не подошло): обычно есть 30 дней для возврата; не выкидывайте на улицу!',
-          '⚖️ Закон Lei 92/95: жестокое обращение = до 2 лет тюрьмы + 5 000 € штраф'
+          '⚖️ Жестокое обращение — уголовное преступление (ст. 387 Уголовного кодекса, введена Lei 69/2014): до 2 лет тюрьмы; административные штрафы (Lei 92/95) — отдельно'
         ]}
       ]
     },
@@ -182,9 +182,10 @@ export default {
   sources: [
     { title: 'SIAC — Sistema de Informação de Animais de Companhia', url: 'https://www.siac.vet/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Lei 92/95 — Proteção animal', url: 'https://diariodarepublica.pt/dr/detalhe/lei/92-1995-241458', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Código Penal, art. 387 (Lei 69/2014) — Maus-tratos a animais', url: 'https://diariodarepublica.pt/dr/detalhe/lei/69-2014-56167988', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Decreto-Lei 315/2009 + Lei 110/2015 — Cães perigosos', url: 'https://diariodarepublica.pt/dr/detalhe/lei/110-2015-69859225', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portaria 422/2004 — Lista de raças potencialmente perigosas', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/422-2004', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

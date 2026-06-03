@@ -4,7 +4,7 @@ export default {
   categoryId: 'emergency_rights',
   title: 'Funeral e luto em Portugal: tradições, rituais, custos',
   tldr: 'Em Portugal, o funeral é normalmente organizado por uma agência funerária: recolhe o corpo, trata da certidão de óbito, reserva o cemitério/crematório e a igreja. Conta típica em 2026: 1 500–3 500 € por um funeral básico; a cremação como parte do serviço acrescenta/custa frequentemente 600–1 200 €, e os preços aumentam devido ao combustível, à energia e às taxas locais. Rituais católicos: velório, missa de 7º dia, 30º dia e aniversário. Etiqueta: preto durante 1 semana, cores escuras durante cerca de um mês, nas redes sociais — só depois da família.',
-  tags: ['funeral', 'luto', 'luto', 'tradições'],
+  tags: ['funeral', 'luto', 'tradições'],
   estimatedReadMinutes: 6,
   steps: [
     {
@@ -125,6 +125,6 @@ export default {
     { title: 'Segurança Social: subsídio por morte', url: 'https://www.seg-social.pt/subsidio-por-morte', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DECO PROteste — direitos e proteção do consumidor', url: 'https://www.deco.proteste.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

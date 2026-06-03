@@ -11,7 +11,7 @@ export default {
       id: 'what',
       title: 'O que significam Simples, Bi-horária e Tri-horária',
       content: [
-        { kind: 'paragraph', text: 'No segmento doméstico BTN — baixa tensão normal, normalmente até 20,7 kVA — o preço da eletricidade é composto pela potência contratada, energia kWh, tarifas de acesso às redes, IVA e pequenas taxas. O time-of-use altera precisamente o preço do kWh por horário.' },
+        { kind: 'paragraph', text: 'No segmento doméstico BTN — baixa tensão normal, normalmente até 41,4 kVA — o preço da eletricidade é composto pela potência contratada, energia kWh, tarifas de acesso às redes, IVA e pequenas taxas. O time-of-use altera precisamente o preço do kWh por horário.' },
         { kind: 'checklist', items: [
           'Simples — um único preço de kWh durante todo o dia. A opção mais segura se não gere o seu consumo.',
           'Bi-horária — duas zonas: vazio mais barato, fora de vazio mais caro. Adequada para termoacumulador, máquina de lavar roupa, máquina de lavar loiça, EV, heat pump durante a noite.',
@@ -141,6 +141,6 @@ export default {
     { title: 'Simulador ERSE — simulador oficial de tarifas de eletricidade/gás', url: 'https://simuladorprecos.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'E-REDES — ciclos horários e contadores para baixa tensão', url: 'https://www.e-redes.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

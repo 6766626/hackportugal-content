@@ -108,6 +108,6 @@ export default {
     { title: 'Decreto-Lei 152-D/2017 — regime unificado dos fluxos específicos de resíduos', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/152-d-2017-114337042', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Agência Portuguesa do Ambiente — resíduos de equipamentos elétricos e eletrónicos', url: 'https://apambiente.pt/residuos/residuos-de-equipamentos-eletricos-e-eletronicos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

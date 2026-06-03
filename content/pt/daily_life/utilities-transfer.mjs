@@ -11,7 +11,7 @@ export default {
       id: 'market',
       title: 'Mercado regulado e liberalizado',
       content: [
-        { kind: 'paragraph', text: 'A eletricidade e o gás em Portugal estão liberalizados desde 2015 — o fornecedor pode ser qualquer empresa e os preços são livres. Em paralelo, desde 2021 voltou a existir uma tarifa regulada para clientes vulneráveis: pessoas idosas e pessoas com baixos rendimentos.' },
+        { kind: 'paragraph', text: 'A eletricidade e o gás em Portugal estão liberalizados desde 2015 — o fornecedor pode ser qualquer empresa e os preços são livres. Em paralelo, mantém-se uma tarifa regulada: qualquer cliente doméstico em baixa tensão normal (até 41,4 kVA) pode aderir. Este regime transitório foi prolongado até ao final de 2027. À parte existe a tarifa social — um desconto para clientes vulneráveis com baixos rendimentos.' },
         { kind: 'checklist', items: [
           '💡 Eletricidade: mais de 20 fornecedores (EDP Comercial, Galp, Iberdrola, Endesa, Goldenergy, Coopérnico, Luzigás e outros)',
           '🔥 Gás: mais de 10 fornecedores (muitas vezes os mesmos)',
@@ -105,7 +105,7 @@ export default {
         { kind: 'checklist', items: [
           '📋 Livro de Reclamações — em papel ou em livroreclamacoes.pt',
           '⚖️ ERSE — regulador, erse.pt/reclamações',
-          '⚡ DGEG (Direcção-Geral de Energia) — para casos graves',
+          '⚡ DGEG (Direção-Geral de Energia e Geologia) — para casos graves',
           '💰 CTC (Centro de Arbitragem de Conflitos de Consumo) — a nível regional',
           '🚫 O corte de eletricidade sem aviso é proibido; há direito a compensação',
           '📅 Atrasos no reembolso / crédito >30 dias — coima para o fornecedor'
@@ -126,6 +126,6 @@ export default {
     { title: 'DGEG — Direcção-Geral de Energia e Geologia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 38/2017 — comercialização de electricidade', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/38-2017', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

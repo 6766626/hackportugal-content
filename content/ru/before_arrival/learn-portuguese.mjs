@@ -3,7 +3,7 @@ export default {
   id: 'learn-portuguese',
   categoryId: 'before_arrival',
   title: 'Как выучить португальский — школы, приложения, советы',
-  tldr: 'PT-PT (европейский) отличается от BR-PT произношением и частично словарём. Три пути: (1) бесплатные государственные курсы PLA для резидентов (150ч, А2 за 6 мес); (2) IEFP-курсы с субсидией для безработных; (3) частные: Fast Forward, CIAL, CLIC — 350-900 € за курс. Приложения: Practice Portuguese (специализация на PT-PT, лучший выбор), Portuguese With Carla (YouTube), Pimsleur (аудио)\.\n\nDuolingo — только бразильский вариант, для PT-PT не лучший старт.',
+  tldr: 'PT-PT (европейский) отличается от BR-PT произношением и частично словарём. Три пути: (1) бесплатные государственные курсы PLA для резидентов (150ч, А2 за 6 мес); (2) IEFP-курсы с субсидией для безработных; (3) частные: Fast Forward, CIAL, CLIC — 350-900 € за курс. Приложения: Practice Portuguese (специализация на PT-PT, лучший выбор), Portuguese With Carla (YouTube), Pimsleur (аудио).\n\nDuolingo — только бразильский вариант, для PT-PT не лучший старт.',
   tags: ['португальский', 'язык', 'курсы', 'ciple'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,10 +13,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Португальский язык имеет две основные разновидности: европейский португальский (PT-PT) и бразильский португальский (PT-BR). В Португалии говорят на PT-PT.' },
         { kind: 'checklist', items: [
-          '🗣️ Произношение: PT-PT — «закрытые» гласные, глотающиеся слоги («Lis-bo-a» → «Lʒbwa»). BR-PT — чётче, открытее',
+          '🗣️ Произношение: PT-PT — «закрытые» гласные, проглатываемые слоги («Lis-bo-a» → «Lʒbwa»). BR-PT — чётче и открытее',
           '📝 Грамматика: немного различается (tu/você, конструкция с герундием, estar/ficar)',
           '📚 Словарь: автобус = autocarro (PT) / ônibus (BR); поезд = comboio (PT) / trem (BR); вы = você (BR часто) / vocês (PT формально)',
-          '🎬 Фильмы: бразильские фильмы всегда с субтитрами в PT — португальские новости в BR без перевода не показываются',
+          '🎬 Кино и ТВ: бразильский контент в Португалии нередко идёт с субтитрами на PT — варианты считаются достаточно разными',
           '🎯 Вывод: учите PT-PT, если приезжаете в Португалию. BR понимают — но на A2 для гражданства нужен PT-PT. BR-контент (Duolingo, большинство YouTube) — для фонового воздействия подойдёт, для экзаменов — нет'
         ]}
       ]
@@ -133,7 +133,7 @@ export default {
     { label: 'Частная школа (курс 1 мес)', amountEURMin: 150, amountEURMax: 600 },
     { label: 'Онлайн с преподавателем (час)', amountEURMin: 15, amountEURMax: 60 },
     { label: 'Practice Portuguese подписка', amountEUR: 12, note: '€/мес' },
-    { label: 'Экзамен CIPLE A2', amountEUR: 85 }
+    { label: 'Экзамен CIPLE A2', amountEUR: 95 }
   ],
   sources: [
     { title: 'Centros Qualifica — поиск по адресу', url: 'https://www.qualifica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
@@ -141,6 +141,6 @@ export default {
     { title: 'Instituto Camões — сертификация', url: 'https://www.instituto-camoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CAPLE — экзамены CIPLE', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

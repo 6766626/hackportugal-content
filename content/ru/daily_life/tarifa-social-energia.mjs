@@ -20,7 +20,7 @@ export default {
           'Нужен португальский NIF у держателя договора с E-REDES/поставщиком, поставщиком газа или муниципальной водой.',
           'Гражданство не важно: экспат с NIF, адресом в Португалии и подходящим доходом может получить тариф.'
         ] },
-        { kind: 'warning', text: 'Tarifa Social не отменяет весь счёт. IVA, potência contratada, taxas, audiovisuel contribution и услуги поставщика могут оставаться частично или полностью к оплате.' }
+        { kind: 'warning', text: 'Tarifa Social не отменяет весь счёт. IVA, potência contratada, taxas, аудиовизуальный взнос (contribuição audiovisual) и услуги поставщика могут оставаться частично или полностью к оплате.' }
       ]
     },
     {
@@ -32,7 +32,7 @@ export default {
           'Электричество: contrato doméstico для habitação permanente.',
           'Potência contratada по электричеству — до 6,9 kVA включительно.',
           'Держатель договора получает одно из пособий: Complemento Solidário para Idosos, Rendimento Social de Inserção, subsídio social de desemprego, abono de família, pensão social de velhice, pensão social de invalidez или complemento da prestação social para a inclusão.',
-          'Альтернатива по электричеству: низкий годовой доход домохозяйства. В 2026 ориентир — 12 × IAS = 6 445,56 € в год, с увеличением на членов домохозяйства без дохода по правилам режима.',
+          'Альтернатива по электричеству: низкий годовой доход домохозяйства. В 2026 ориентир — 12 × IAS = 6 445,56 € в год, с прибавкой за каждого члена домохозяйства без дохода по правилам режима.',
           'Природный газ: бытовой договор, baixa pressão, consumo anual до 500 m³ и статус экономически уязвимого клиента.',
           'Вода: критерии задаёт município; часто принимают те же социальные пособия или доход ниже лимита, привязанного к IAS.',
           'Долги перед поставщиком сами по себе не должны автоматически лишать права на Tarifa Social, но могут мешать смене поставщика или заключению нового договора.'
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

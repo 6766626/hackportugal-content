@@ -3,7 +3,7 @@ export default {
   id: 'atm-cash-rules',
   categoryId: 'banking',
   title: 'ATMs, cash and limits in Portugal',
-  tldr: 'The main ATM network is Multibanco (MB), with around 12,000 machines. They accept most international cards, but whether a specific card is accepted depends on the issuing bank. Multibanco usually does not charge an additional fee, but the foreign issuing bank may apply its own fee.\n\nThe withdrawal limit is €200–€400/day. Cash payments between private individuals are prohibited for amounts ≥ €3,000 (art. 63-E LGT); for IRC/IRS taxpayers with organised accounts — ≥ €1,000 per invoice. Cash deposits above €10,000 require justification of the source of funds under AML rules — banks may request documents even for smaller amounts when analysing risk level.',
+  tldr: 'The main ATM network is Multibanco (MB), with around 13,000 machines. They accept most international cards, but whether a specific card is accepted depends on the issuing bank. Multibanco usually does not charge an additional fee, but the foreign issuing bank may apply its own fee.\n\nThe withdrawal limit is €200–€400/day. Cash payments between private individuals are prohibited for amounts ≥ €3,000 (art. 63-E LGT); for IRC/IRS taxpayers with organised accounts — ≥ €1,000 per invoice. Cash deposits above €10,000 require justification of the source of funds under AML rules — banks may request documents even for smaller amounts when analysing risk level.',
   tags: ['atm', 'multibanco', 'cash', 'limits', 'banknote'],
   estimatedReadMinutes: 5,
   steps: [
@@ -96,6 +96,6 @@ export default {
     { title: 'Banco de Portugal — exchange of damaged banknotes and coins', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SIBS — Multibanco', url: 'https://www.sibs.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

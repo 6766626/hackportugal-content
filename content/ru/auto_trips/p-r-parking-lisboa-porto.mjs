@@ -29,6 +29,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'В Большом Лиссабоне нет одной карты всех бесплатных P+R. Практический подход — выбирать парковку по направлению въезда: север через Odivelas/Loures, запад через Oeiras/Cascais, юг через Almada/Pragal, восток через Oriente/Moscavide.' },
         { kind: 'checklist', items: [
+          'Parques Navegante (EMEL) — несколько парков (Colégio Militar, Ameixoeira, Avenida de Pádua и др.) бесплатны для держателей действующего passe Navegante примерно с 07:30 до 21:00; карту нужно один раз зарегистрировать в офисе парка и продлевать ежемесячно',
           'Senhor Roubado / Odivelas — удобны для въезда с севера и пересадки на Linha Amarela Metro; проверяйте фактический статус парковки на месте',
           'Sete Rios — сильный транспортный узел: Metro, CP, автобусы Rede Expressos; обычно это не “бесплатная окраина”, а платный городской вариант',
           'Cais do Sodré — удобно для Linha Verde, CP Cascais и паромов, но это центр; используйте только если нужен именно этот узел, а не экономия',
@@ -80,7 +81,7 @@ export default {
             { kind: 'paragraph', text: 'Сначала решите, куда вам нужно в центре: Saldanha, Baixa-Chiado, Entrecampos, São Bento, Trindade, Aliados. Затем выбирайте станцию на той же линии, чтобы не делать лишние пересадки.' }
           ] },
           { id: 'backup', title: '2. Держите запасной вариант', content: [
-            { kind: 'paragraph', text: 'Для каждой поездки имейте “план Б” в 1–2 станциях дальше. Если Senhor Roubado, Senhora da Hora или Pragal заполнены, не тратьте 20 минут на круги — едьте к следующей станции.' }
+            { kind: 'paragraph', text: 'Для каждой поездки имейте “план Б” в 1–2 станциях дальше. Если Senhor Roubado, Senhora da Hora или Pragal заполнены, не тратьте 20 минут на круги — езжайте к следующей станции.' }
           ] },
           { id: 'payment', title: '3. Проверьте оплату до ухода', content: [
             { kind: 'paragraph', text: 'Посмотрите, как платить: Multibanco, карта, MB WAY, автомат, приложение оператора. Некоторые парки требуют оплату до выезда, а не у шлагбаума.' }
@@ -104,6 +105,6 @@ export default {
     { title: 'Metro Lisboa: сеть, станции и планирование поездки', url: 'https://www.metrolisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'CP Comboios de Portugal: городские и пригородные поезда', url: 'https://www.cp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

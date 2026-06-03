@@ -3,7 +3,7 @@ export default {
   id: 'pharmacies',
   categoryId: 'healthcare',
   title: 'Pharmacies in Portugal — Farmácia and Parafarmácia',
-  tldr: 'Farmácia (green cross) sells prescription and over-the-counter medicines, with pharmacist consultation available. Parafarmácia sells only over-the-counter medicines and skincare/cosmetics. Comparticipação SNS (37-90% by escalão A/B/C/D) applies to prescriptions issued in the system with correct user/beneficiary identification — NIF alone does not give an SNS discount. Farmácia de serviço is the duty pharmacy according to the escala de serviço.',
+  tldr: 'Farmácia (green cross) sells prescription and over-the-counter medicines, with pharmacist consultation available. Parafarmácia sells only over-the-counter medicines and skincare/cosmetics. Comparticipação SNS (15-90% by escalão A/B/C/D) applies to prescriptions issued in the system with correct user/beneficiary identification — NIF alone does not give an SNS discount. Farmácia de serviço is the duty pharmacy according to the escala de serviço.',
   tags: ['pharmacy', 'farmácia', 'prescription', 'sns'],
   estimatedReadMinutes: 4,
   steps: [
@@ -89,6 +89,6 @@ export default {
     { title: 'Farmácias de Serviço — duty pharmacies', url: 'https://www.farmaciasdeservico.net/', kind: 'reference', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

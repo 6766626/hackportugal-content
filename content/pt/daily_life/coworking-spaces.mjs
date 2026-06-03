@@ -130,6 +130,6 @@ export default {
     { title: 'Porto i/o', url: 'https://porto.io/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Impact Hub Lisboa', url: 'https://lisbon.impacthub.net/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

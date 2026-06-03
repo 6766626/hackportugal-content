@@ -65,6 +65,6 @@ export default {
     { title: 'Treatwell Portugal — marcação online em salões e barbearias', url: 'https://www.treatwell.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fresha Portugal — reserva de serviços de beauty e barbershop', url: 'https://www.fresha.com/pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

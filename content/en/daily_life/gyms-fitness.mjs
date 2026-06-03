@@ -3,7 +3,7 @@ export default {
   id: 'gyms-fitness',
   categoryId: 'daily_life',
   title: 'Fitness and sport — gyms, beaches, activities',
-  tldr: 'Gym chains 2026: VivaGym (formerly Fitness Hut, budget, ~€20–€35/month depending on the club), Holmes Place (premium €89–€149/month), Phive (mid-range €35–€50), Onyria, Solinca. Activities: surfing (Ericeira, Lagos, Cascais), running (parks), football (communities), padel (hugely popular), yoga. Lots of free outdoor activities.',
+  tldr: 'Gym chains 2026: VivaGym (formerly Fitness Hut, budget, ~€20–€35/month depending on the club), Holmes Place (premium €89–€149/month), Phive (mid-range €35–€50), Solinca. Activities: surfing (Ericeira, Lagos, Cascais), running (parks), football (communities), padel (hugely popular), yoga. Lots of free outdoor activities.',
   tags: ['fitness', 'gyms', 'sport', 'surfing'],
   estimatedReadMinutes: 5,
   steps: [
@@ -101,6 +101,6 @@ export default {
     { title: 'Ericeira World Surfing Reserve (Save The Waves Coalition)', url: 'https://www.savethewaves.org/ericeira/', kind: 'official', language: 'en', lastRetrieved: '2026-05-30' },
     { title: 'Federação Portuguesa de Surf — FPS', url: 'https://www.surfingportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

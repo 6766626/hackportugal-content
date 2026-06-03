@@ -3,7 +3,7 @@ export default {
   id: 'universidade-senior',
   categoryId: 'daily_life',
   title: 'Universidade Sénior — education for pensioners',
-  tldr: 'Universidade Sénior is the Portuguese U3A format: daytime courses for older people, with no exams or diplomas. There are 200+ such schools across the country; many are part of the RUTIS network and are run by Câmaras Municipais, Juntas de Freguesia, IPSS or associations. Typical price in 2026: registration €10–30 and a monthly fee of €30–50 for many classes: languages, culture, IT, dance, arts, health. Registration is usually through the Câmara/Junta or directly at the school secretaria.',
+  tldr: 'Universidade Sénior is the Portuguese U3A format: daytime courses for older people, with no exams or diplomas. There are hundreds of such schools across the country: the RUTIS network — Rede de Universidades Seniores alone has over 400, run by Câmaras Municipais, Juntas de Freguesia, IPSS or associations. Typical price in 2026: registration €10–30 and a monthly fee of €30–50 for many classes: languages, culture, IT, dance, arts, health. Registration is usually through the Câmara/Junta or directly at the school secretaria.',
   tags: ['senior', 'education', 'câmara', 'rutis'],
   estimatedReadMinutes: 5,
   steps: [
@@ -102,6 +102,6 @@ export default {
     { title: 'Carta Social — search for social institutions and IPSS', url: 'https://www.cartasocial.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — IPSS framework', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -137,9 +137,9 @@ export default {
   sources: [
     { title: 'IPDJ — Campos de Férias: regras, registo e fiscalização', url: 'https://ipdj.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Gov.pt — informação sobre direitos e serviços para cidadãos e famílias', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Decreto-Lei 32/2011 — regime jurídico dos campos de férias', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/32-2011-278563', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Decreto-Lei 32/2011 — regime jurídico dos campos de férias', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/32-2011-279423', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal do Porto — Juventude em Verão / programas municipais', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

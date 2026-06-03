@@ -125,6 +125,6 @@ export default {
     { title: 'ePortugal — Condomínio', url: 'https://www.gov.pt/cidadaos/-/informacoes/gestao-de-condominio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IHRU — Instituto da Habitação e Reabilitação Urbana', url: 'https://www.ihru.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

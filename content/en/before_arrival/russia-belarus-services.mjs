@@ -106,14 +106,15 @@ export default {
       id: 'tax-residence-cert',
       title: 'Tax residence certificate from the Russian Federation',
       content: [
-        { kind: 'paragraph', text: 'Needed for IRS in Portugal if there is income from the Russian Federation, or to reclaim 30% tax withheld in the Russian Federation. Request via the “Taxpayer Account” on nalog.ru → “Certificate of Russian Federation resident status”.' },
+        { kind: 'paragraph', text: 'Needed for IRS in Portugal if there is income from the Russian Federation. Request via the “Taxpayer Account” on nalog.ru → “Certificate of Russian Federation resident status”.' },
         { kind: 'checklist', items: [
           'Online via the Federal Tax Service',
-          '40 working days',
+          'Up to 40 calendar days',
           'Free of charge',
           'Issued in English',
-          'For Portugal — apostille + translation are not needed (Hague Convention + agreement)'
-        ]}
+          'For Portugal, an apostille and translation are usually not required'
+        ]},
+        { kind: 'warning', text: 'Since August 2023, Russia has suspended key articles of its double-taxation treaty with Portugal (Decree No. 585). Crediting or refunding withheld tax is no longer guaranteed — check the procedure with a tax adviser.' }
       ]
     },
     {
@@ -155,6 +156,6 @@ export default {
     { title: 'PT Ministry of Justice — Apostille', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGES — Recognition of foreign qualifications', url: 'https://www.dges.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

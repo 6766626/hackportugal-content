@@ -3,7 +3,7 @@ export default {
   id: 'health-insurance-compared',
   categoryId: 'healthcare',
   title: 'Частная медстраховка в Португалии — Médis, Multicare, CUF и др.',
-  tldr: 'SNS доступен зарегистрированным резидентам/utente; большинство основных услуг — без taxas moderadoras (Lei n.º 22/2022), но лекарства, стоматология, очки и часть услуг оплачиваются отдельно или частично. Очереди на специалистов варьируются от недель до месяцев в зависимости от региона, приоритета и специальности. Частная страховка ускоряет — GP/urgent care часто в тот же день, specialists/exames за дни-недели. Топ-страховщики: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare — сеть/администратор (не отдельный страховщик).\n\nЦены 2026: 30–80 €/мес базовый план, 100–250 €/мес полный. Для виз D7/D8 консульства обычно требуют travel medical insurance — точные требования у каждого консульства свои.',
+  tldr: 'SNS доступен зарегистрированным резидентам/utente; большинство основных услуг — без taxas moderadoras (Decreto-Lei n.º 37/2022), но лекарства, стоматология, очки и часть услуг оплачиваются отдельно или частично. Очереди на специалистов варьируются от недель до месяцев в зависимости от региона, приоритета и специальности. Частная страховка ускоряет — GP/urgent care часто в тот же день, specialists/exames за дни-недели. Ведущие страховщики: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare — сеть/администратор (не отдельный страховщик).\n\nЦены 2026: 30–80 €/мес базовый план, 100–250 €/мес полный. Для виз D7/D8 консульства обычно требуют travel medical insurance — точные требования у каждого консульства свои.',
   tags: ['страховка', 'здоровье', 'médis', 'multicare', 'частная медицина'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           '⏰ SNS: очереди к специалистам варьируются от недель до месяцев в зависимости от региона, приоритета и специальности',
           '🏥 Частная система обычно быстрее: GP/urgent care часто в тот же день, specialists/exames — от нескольких дней до недель в зависимости от сети и врача',
-          '💊 Большинство taxas moderadoras в SNS отменены с 2022 года (Lei n.º 22/2022); остаются, например, urgência без referral от SNS24/INEM/центра здоровья и некоторые услуги вне SNS',
+          '💊 Большинство taxas moderadoras в SNS отменены с 2022 года (Decreto-Lei n.º 37/2022); остаются, например, urgência без referral от SNS24/INEM/центра здоровья и некоторые услуги вне SNS',
           '🧪 Анализы/МРТ по SNS — от недель до месяцев; по страховке часто 1–2 недели',
           '💰 Вычет в IRS: 15% на despesas de saúde в пределах household cap (Código do IRS art. 78.º-C)',
           '🌍 Для виз D7 / D8 консульства обычно требуют travel medical insurance — конкретные требования отличаются по консульству',
@@ -48,10 +48,10 @@ export default {
             ]}
           ]},
           { id: 'p3', title: 'AdvanceCare', content: [
-            { kind: 'paragraph', text: 'Сеть/платформа медицинских услуг (managed-care/network administrator), а не отдельный страховщик. Часто используется страховыми продуктами Generali Tranquilidade и партнёров; проверяйте, кто именно является юридическим страховщиком в полисе. От 30 €/мес.' }
+            { kind: 'paragraph', text: 'Сеть/платформа медицинских услуг (managed-care/network administrator), а не отдельный страховщик. Часто задействована в страховых продуктах Generali Tranquilidade и партнёров; проверяйте, кто именно является юридическим страховщиком в полисе. От 30 €/мес.' }
           ]},
           { id: 'p4', title: 'Generali Tranquilidade', content: [
-            { kind: 'paragraph', text: 'С 2024 года Tranquilidade принадлежит группе Generali и работает под брендом Generali Tranquilidade; в 2024 в неё была интегрирована Liberty Seguros Portugal. Премиальные планы, международное покрытие, дороже, но сильная поддержка для иностранцев. От 50 €/мес.' }
+            { kind: 'paragraph', text: 'С 2024 года Tranquilidade принадлежит группе Generali и работает под брендом Generali Tranquilidade; в 2024 году она приобрела Liberty Seguros Portugal, юридическое слияние завершилось в 2025-м. Премиальные планы, международное покрытие, дороже, но сильная поддержка для иностранцев. От 50 €/мес.' }
           ]},
           { id: 'p4b', title: 'Allianz Portugal', content: [
             { kind: 'paragraph', text: 'Отдельная страховая группа (НЕ часть Tranquilidade/Generali). Health-планы и международное покрытие для экспатов. Сравнивайте отдельно.' }
@@ -141,12 +141,12 @@ export default {
   ],
   sources: [
     { title: 'ASF — Autoridade de Supervisão de Seguros', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Lei n.º 22/2022 — taxas moderadoras (отмена)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/22-2022-184170621', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei n.º 37/2022 — taxas moderadoras (отмена)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-2022-184054398', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Ministério da Saúde — SNS', url: 'https://www.sns.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ERS — Entidade Reguladora da Saúde', url: 'https://www.ers.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ADSE, I.P.', url: 'https://www.adse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal dos Vistos MNE — requisitos D7/D8', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

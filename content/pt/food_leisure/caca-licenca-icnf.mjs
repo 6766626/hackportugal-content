@@ -3,7 +3,7 @@ export default {
   id: 'caca-licenca-icnf',
   categoryId: 'food_leisure',
   title: 'Caça em Portugal — licença ICNF + carta de caçador',
-  tldr: 'A caça é um tema burocraticamente complexo. É necessário: 1) carta de caçador (teoria + prática, ~150-300 €) — uma vez e para toda a vida; 2) licença de arma (PSP) — procedimento separado: junta médica e teste psicológico; 3) licença anual de caçador do ICNF (~30-100 € por ano); 4) acesso a uma zona de caça (zonas de caça) — quase tudo funciona por concessões, normalmente pago (~50-500 € por dia/saída).\n\nÉpocas: caça maior (caça maior: javali, veado) — outubro–janeiro; caça menor (caça menor: coelho, codorniz, pombo) — agosto–janeiro, as datas exactas dependem da espécie. Estrangeiros podem caçar se tiverem obtido a carta em Portugal ou conseguido o reconhecimento da sua. Não recomendamos a principiantes sem experiência e sem clube local.',
+  tldr: 'A caça é um tema burocraticamente complexo. É necessário: 1) carta de caçador (teoria + prática, ~150-300 €) — válida até aos 60 anos, depois renovada de 5 em 5 anos; 2) licença de arma (PSP) — procedimento separado: junta médica e teste psicológico; 3) licença anual de caçador do ICNF (~30-100 € por ano); 4) acesso a uma zona de caça (zonas de caça) — quase tudo funciona por concessões, normalmente pago (~50-500 € por dia/saída).\n\nÉpocas: caça maior (caça maior: javali, veado) — outubro–janeiro; caça menor (caça menor: coelho, codorniz, pombo) — agosto–janeiro, as datas exactas dependem da espécie. Estrangeiros podem caçar se tiverem obtido a carta em Portugal ou conseguido o reconhecimento da sua. Não recomendamos a principiantes sem experiência e sem clube local.',
   tags: ['caça', 'caçador', 'icnf', 'arma', 'venatória'],
   estimatedReadMinutes: 7,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A caça em Portugal é uma actividade estritamente regulada. Arma, direito a caçar, acesso ao território, espécie concreta e época — para cada um destes aspectos há um documento próprio.' },
         { kind: 'checklist', items: [
-          '1️⃣ Carta de caçador (ICNF): teoria + prática. Obtém-se uma vez para toda a vida',
+          '1️⃣ Carta de caçador (ICNF): teoria + prática. Válida até aos 60 anos, depois renovada de 5 em 5 anos',
           '2️⃣ Licença de Uso e Porte de Arma (PSP): direito a arma. Classes B, B1, C, D — conforme o tipo de arma',
           '3️⃣ Licença anual de caçador (ICNF): taxa pelo direito a caçar na época em curso',
           '4️⃣ Direito de acesso às zonas de caça (zonas de caça): zona turística (paga), concessão (paga) ou zona associativa (através de quota de membro) — quase todo o país está dividido nestas zonas',
@@ -25,7 +25,7 @@ export default {
       id: 'carta-caçador',
       title: 'Carta de Caçador (documento principal)',
       content: [
-        { kind: 'paragraph', text: 'É a credencial de base: sem ela não se pode caçar. Obtém-se uma vez e é vitalícia (após os 65 anos — confirmação médica a cada 5 anos).' },
+        { kind: 'paragraph', text: 'É a credencial de base: sem ela não se pode caçar. É válida até aos 60 anos, devendo depois ser renovada de 5 em 5 anos (com confirmação médica).' },
         { kind: 'substeps', items: [
           {
             id: 's1',
@@ -71,10 +71,10 @@ export default {
         { kind: 'paragraph', text: 'Em paralelo com a carta de caçador, é necessário tratar do direito a possuir e usar arma. É um procedimento separado na Polícia de Segurança Pública (PSP).' },
         { kind: 'checklist', items: [
           'Classe B (arma curta): não é necessária para caça; aplica-se à defesa pessoal',
-          'Classe B1 (revólver pequeno): raramente utilizada',
-          'Classe C (arma longa semiautomática de alma lisa): a maioria dos caçadores usa espingardas de caça',
-          'Classe D (carabina, caçadeira de repetição): para cenários de caça mais avançados',
-          'Classe E (arma estriada de ferrolho): para caça maior — javali, veado'
+          'Classe B1 (pistola/revólver de pequeno calibre): raramente utilizada',
+          'Classe C (arma longa de alma estriada): licença para caça maior — javali, veado',
+          'Classe D (arma longa de alma lisa, espingarda/caçadeira): licença para caça menor — a maioria dos caçadores',
+          'Classe E corresponde a aerossóis e armas elétricas; não é uma classe de arma de caça'
         ] },
         { kind: 'paragraph', text: 'O que reunir para a candidatura:' },
         { kind: 'checklist', items: [
@@ -190,6 +190,6 @@ export default {
     { title: 'Lei 5/2006 — uso e porte de armas', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34539075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Portaria 67/2024, de 22 de fevereiro — Calendário Venatório 2024-2025, 2025-2026 e 2026-2027 (alterada pelas Portarias 309/2024/1 e 222-A/2025/1)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/portaria/2024-898587583', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

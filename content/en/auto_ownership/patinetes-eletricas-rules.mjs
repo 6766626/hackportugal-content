@@ -3,7 +3,7 @@ export default {
   id: 'patinetes-eletricas-rules',
   categoryId: 'auto_ownership',
   title: 'Electric scooters in Portugal: rules, helmet, Bolt/Lime/TIER',
-  tldr: 'In 2026, an ordinary trotineta elétrica is considered a veículo de mobilidade individual, treated as a velocípede, if it is not designed to exceed 25 km/h and has power up to 0.25 kW. You must ride on cycle lanes or the carriageway, not on the passeio: a typical coima is €60–300. The minimum age for an electric scooter is 16; Bolt/Lime/TIER rentals are often 18+. Helmets are mandatory for minors; for adults they are not always formally checked, but in injury cases without one, the insurer and the app may dispute liability.',
+  tldr: 'In 2026, an ordinary trotineta elétrica is considered a veículo de mobilidade individual, treated as a velocípede, if it is not designed to exceed 25 km/h and has power up to 0.25 kW. You must ride on cycle lanes or the carriageway, not on the passeio: a typical coima is €60–300. The law sets no minimum age for such a scooter; Bolt/Lime/TIER rentals almost always require 18+. A helmet is not legally required for adults but is strongly recommended. Important: since 20 June 2025 (Decreto-Lei n.º 26/2025) insurance is mandatory for scooters faster than 25 km/h or heavier than 25 kg (above 14 km/h); a standard scooter up to 25 km/h and under 25 kg still does not need it.',
   tags: ['trotinetas', 'scooter', 'fines', 'bolt'],
   estimatedReadMinutes: 5,
   steps: [
@@ -18,7 +18,8 @@ export default {
           'A category B or AM licence is not needed for this type of scooter.',
           'Registration with IMT and a matrícula are not required for a standard trotineta elétrica.',
           'IUC, ISV and IMT/ISV taxes do not apply to an ordinary scooter.',
-          'Motor insurance, as for a car, is not compulsory for a standard scooter.',
+          'Compulsory liability insurance (as for a car) is not required for a standard scooter up to 25 km/h and under 25 kg.',
+          'Since 20 June 2025 (Decreto-Lei n.º 26/2025), insurance is mandatory if the scooter is faster than 25 km/h OR heavier than 25 kg and goes faster than 14 km/h.',
           'If the scooter is faster/more powerful, it may cease to be a “trotineta” and fall under the ciclomotor/motociclo regime: in that case homologação, matrícula, seguro and a licence are required.'
         ] },
         { kind: 'warning', text: 'Many private models from AliExpress/Amazon have an unlock option for 30–45 km/h. On the road, this already creates a risk of a fine, refusal of insurance cover and seizure while the vehicle category is clarified.' }
@@ -46,11 +47,11 @@ export default {
       id: 'age-helmet-safety',
       title: '3. Age, helmet and safety',
       content: [
-        { kind: 'paragraph', text: 'The practical rule for 2026: an electric scooter is not a children’s toy. For a motorised trotineta, assume a minimum age of 16; rental services usually set 18+ in the account terms, because a contract, payment card and responsibility for fines/damage are required.' },
+        { kind: 'paragraph', text: 'The practical rule for 2026: an electric scooter is not a children’s toy. The Código da Estrada sets no minimum age for a scooter up to 25 km/h (treated as a velocípede) — which often surprises people. In practice, rental services set 18+ in the account terms, because a contract, payment card and responsibility for fines/damage are required.' },
         { kind: 'checklist', items: [
-          'Minimum age for riding an electric scooter: 16.',
-          'Bolt, Lime, TIER and Hive may require 18+ — check the Terms in the app.',
-          'A helmet is mandatory for minors; for adults, it is strongly recommended.',
+          'The law sets no minimum age for a scooter up to 25 km/h; it is still unsafe for children.',
+          'Bolt, Lime, TIER and Hive almost always require 18+ — check the Terms in the app.',
+          'A helmet is not legally required for adults but is strongly recommended; for children, all the more so.',
           'For night-time: white front light, red rear light, reflective elements.',
           'One trotineta — one rider; a child “on the platform in front” is considered an offence and dangerous transport.',
           'Do not ride with a bag on the handlebars: this is a typical cause of falls on calçada portuguesa.',
@@ -82,9 +83,10 @@ export default {
       id: 'insurance-fines',
       title: '5. Insurance, fines and what to do if stopped by the police',
       content: [
-        { kind: 'paragraph', text: 'For a standard trotineta elétrica up to 25 km/h, separate compulsory civil liability insurance is not required. But this does not mean damage is free: if you hit a pedestrian, damage a car or break a shop window, the rider may have to pay personally.' },
+        { kind: 'paragraph', text: 'For a standard trotineta elétrica up to 25 km/h and under 25 kg, separate compulsory civil liability insurance is not required. But since 20 June 2025 (Decreto-Lei n.º 26/2025) insurance has become mandatory for scooters faster than 25 km/h or heavier than 25 kg (above 14 km/h). And in any case damage is not free: if you hit a pedestrian, damage a car or break a shop window, the rider may have to pay personally.' },
         { kind: 'checklist', items: [
-          'For a personal scooter, it is sensible to have seguro de responsabilidade civil familiar/vida privada.',
+          'For a powerful scooter (>25 km/h, or >25 kg above 14 km/h), you must take out seguro under Decreto-Lei n.º 26/2025: riding without it means a coima of €250–1,250 and seizure.',
+          'For a personal scooter up to 25 km/h, it is sensible to have seguro de responsabilidade civil familiar/vida privada, even though it is not compulsory.',
           'Check whether your multirriscos habitação or seguro familiar covers damage caused by trotinetas elétricas.',
           'Rentals usually have basic cover, but with an excess, exclusions and refusal in cases of alcohol, riding two-up or breaching zones.',
           'If stopped by the police, calmly show your ID/residence permit or passport, the rental app and explain your route.',
@@ -100,6 +102,7 @@ export default {
   costs: [
     { label: 'Fine for riding on the passeio/pavement or breaching traffic rules', amountEURMin: 60, amountEURMax: 300, note: 'Typical coima under the Código da Estrada for breaches of the velocípedes regime/riding on the pavement.' },
     { label: 'Bolt/Lime/TIER rental', amountEURMin: 0.15, amountEURMax: 0.35, note: 'Indicative per minute; unlock fee and passes depend on the city, season and app.' },
+    { label: 'Fine for riding without compulsory insurance (powerful scooter)', amountEURMin: 250, amountEURMax: 1250, note: 'Under Decreto-Lei n.º 26/2025 for scooters >25 km/h or >25 kg (above 14 km/h); seizure possible.' },
     { label: 'Personal helmet', amountEURMin: 25, amountEURMax: 80, note: 'A normal urban helmet from Decathlon/a sports shop; cheaper than a fine and an injury.' },
     { label: 'Seguro responsabilidade civil familiar', amountEURMin: 25, amountEURMax: 80, note: 'Indicative per year; check whether trotinetas elétricas are included.' }
   ],
@@ -107,8 +110,9 @@ export default {
     { title: 'IMT: veículos de mobilidade individual and rules for trotinetas', url: 'https://www.imt-ip.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código da Estrada — consolidated legislation, rules for velocípedes/trotinetas and coimas', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1994-34457775', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 102-B/2020 — changes to the Código da Estrada on mobilidade suave', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-b-2020-150077473', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ASF: new vehicles subject to compulsory motor insurance (Decreto-Lei n.º 26/2025, in force from 20.06.2025)', url: 'https://www.asf.com.pt/pt/w/ni_seg_auto', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Bolt Portugal: safety rules and terms of use for scooters', url: 'https://bolt.eu/pt-pt/scooters/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

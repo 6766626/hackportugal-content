@@ -3,7 +3,7 @@ export default {
   id: 'cartao-jovem-europeu',
   categoryId: 'daily_life',
   title: 'Cartão Jovem Europeu — youth discount card up to age 30',
-  tldr: 'Cartão Jovem Europeu is the Portuguese version of the European Youth Card for residents of Portugal aged 12 to 29 inclusive. In April 2026 it costs €11/year via IPDJ/cartaojovem.pt and gives access to 60,000+ discounts in Portugal and Europe: CP is usually 25% on journeys, plus museums, cinemas, restaurants, hostels, sport and online services. Registration, NIF/document and proof of payment are needed; the card is digital and is shown in the app/personal account together with ID.',
+  tldr: 'Cartão Jovem Europeu is the Portuguese version of the European Youth Card for residents of Portugal aged 12 to 29 inclusive. In 2026 the base card (Clássico) is issued for free via IPDJ/cartaojovem.pt and the myEYC app, and gives access to 60,000+ discounts in Portugal and Europe: CP is usually 25% on journeys, plus museums, cinemas, restaurants, hostels, sport and online services. Registration with a NIF/document is needed; the card is digital and is shown in the app/personal account together with ID.',
   tags: ['cartãojovem', 'discounts', 'youth', 'cp'],
   estimatedReadMinutes: 4,
   steps: [
@@ -11,12 +11,12 @@ export default {
       id: 'what-it-is',
       title: 'What this card is',
       content: [
-        { kind: 'paragraph', text: 'Cartão Jovem Europeu is not a bank card and not a residence permit document. It is a paid IPDJ discount card linked to the European Youth Card Association network. It works in Portugal and in other EYCA participating countries.' },
-        { kind: 'paragraph', text: 'The main point for an expat under 30 is to quickly recover the €11 cost through CP trains, museums, cultural events, restaurants, hostels, sport and local partners. Discounts depend on the partner: in some places it is enough to show the card, in others you need a promo code or to buy through a specific website.' },
+        { kind: 'paragraph', text: 'Cartão Jovem Europeu is not a bank card and not a residence permit document. It is an IPDJ discount card linked to the European Youth Card Association network. It works in Portugal and in other EYCA participating countries.' },
+        { kind: 'paragraph', text: 'The main point for an expat under 30 is to save on CP trains, museums, cultural events, restaurants, hostels, sport and local partners. Discounts depend on the partner: in some places it is enough to show the card, in others you need a promo code or to buy through a specific website.' },
         { kind: 'checklist', items: [
           'Age: usually from 12 to 29 inclusive',
-          'Price in 2026: €11 for 1 year',
-          'Format: digital card in the personal account/Cartão Jovem app',
+          'Price in 2026: the base card (Clássico) is free, valid for 1 year',
+          'Format: digital card in the personal account/myEYC app',
           'Geography: Portugal + European Youth Card partners in Europe',
           'Typical categories: CP, museums, cinemas, concerts, restaurants, sport, education, tourism',
           'The card is personal: it cannot be lent to a friend',
@@ -34,7 +34,7 @@ export default {
           'Portuguese residential address',
           'NIF — useful for registration and payments, even if the form does not always make it the main document',
           'Email and a Portuguese or international phone number',
-          'Bank card, referência Multibanco or another available payment method',
+          'A payment method is only needed for paid versions (e.g. Mega); the base card is free',
           'Access to the personal account on cartaojovem.pt',
           'For minors, parent/responsible adult details may be required'
         ] },
@@ -59,11 +59,11 @@ export default {
               'Acceptance of the terms of use and data processing'
             ] }
           ] },
-          { id: 'pay', title: '3. Pay €11', content: [
-            { kind: 'paragraph', text: 'After the form is submitted, the system provides a payment method. A bank card or Portuguese options such as Multibanco/MB WAY are most often available, but the specific methods depend on the current version of the website.' }
+          { id: 'pay', title: '3. Confirm issuance', content: [
+            { kind: 'paragraph', text: 'The base card (Clássico) is issued for free — no payment is needed. You only pay if you deliberately choose a paid version such as the Mega Cartão Jovem; in that case a bank card or Portuguese options such as Multibanco/MB WAY are available.' }
           ] },
           { id: 'activate', title: '4. Activate and save the card', content: [
-            { kind: 'paragraph', text: 'After payment is confirmed, the card appears in digital form. Keep access to your account and install the Cartão Jovem app if it is available for your device. At the till or when boarding, show the card together with ID.' }
+            { kind: 'paragraph', text: 'After issuance, the card appears in digital form. Keep access to your account and install the myEYC app if it is available for your device. At the till or when boarding, show the card together with ID.' }
           ] }
         ] }
       ]
@@ -91,7 +91,7 @@ export default {
       title: 'Practical tips for an expat',
       content: [
         { kind: 'checklist', items: [
-          'Buy the card before your first major CP journey: one or two intercity journeys can cover the €11 cost',
+          'Get the card before your first CP journey: the base card is free and the 25% discount applies straight away',
           'Before paying for a ticket, look for “Cartão Jovem” in the fare conditions, not after purchase',
           'Keep your passport or residence permit to hand: the name on the card and in the document must match',
           'If the cashier does not know the card, show the partner page on cartaojovem.pt with the discount conditions',
@@ -99,12 +99,12 @@ export default {
           'For trips around Europe, install the app/save the card number in advance — abroad, a screenshot may not be accepted without current validation',
           'If you are a student, compare the Cartão Jovem discount with student fares: sometimes another fare is cheaper, and sometimes they cannot be combined'
         ] },
-        { kind: 'paragraph', text: 'For most young expats this is one of the cheapest “everyday life” subscriptions in Portugal: €11 a year, minimal bureaucracy, and clear value for transport and leisure.' }
+        { kind: 'paragraph', text: 'For most young expats this is the best-value “everyday life” money-saver in Portugal: the base card is free, minimal bureaucracy, and clear value for transport and leisure.' }
       ]
     }
   ],
   costs: [
-    { label: 'Issuing Cartão Jovem Europeu', amountEUR: 11, note: 'Annual cost in 2026 via IPDJ/cartaojovem.pt' },
+    { label: 'Issuing Cartão Jovem Europeu (Clássico)', amountEUR: 0, note: 'In 2026 the base card is free via IPDJ/cartaojovem.pt; the paid Mega version is about €14/year + stamp duty' },
     { label: 'Typical CP discount', amountEURMin: 0, amountEURMax: 0, note: 'Not a fixed amount: often 25% off an eligible fare; conditions depend on the train and purchase channel' }
   ],
   sources: [
@@ -112,6 +112,6 @@ export default {
     { title: 'IPDJ — youth programmes and Cartão Jovem', url: 'https://ipdj.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'European Youth Card Association — international discount network', url: 'https://eyca.org', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

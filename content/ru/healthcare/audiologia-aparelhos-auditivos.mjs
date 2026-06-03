@@ -11,7 +11,7 @@ export default {
       id: 'when-to-check',
       title: 'Когда идти к audiologia, а когда к ORL',
       content: [
-        { kind: 'paragraph', text: 'Если вы стали хуже слышать речь, повышаете громкость ТВ, просите повторить фразы или слышите звон в ушах, начните с проверки слуха. В Португалии это называется audiometria tonal/vocal, иногда добавляют impedanciometria.' },
+        { kind: 'paragraph', text: 'Если вы хуже слышите речь, прибавляете громкость ТВ, просите повторить фразы или слышите звон в ушах, начните с проверки слуха. В Португалии это называется audiometria tonal/vocal, иногда добавляют impedanciometria.' },
         { kind: 'paragraph', text: 'Важный нюанс: продавец слуховых аппаратов может сделать тест и подобрать аппарат, но медицинский диагноз ставит врач ORL — otorrinolaringologista. Для SNS, comparticipação и серьёзных симптомов нужен именно ORL.' },
         { kind: 'checklist', items: [
           'Идите к ORL срочно, если потеря слуха возникла внезапно за часы/дни',
@@ -116,7 +116,7 @@ export default {
       id: 'aftercare',
       title: 'После покупки: настройка важнее коробки',
       content: [
-        { kind: 'paragraph', text: 'Первые недели почти всегда непривычны: слышны холодильник, шаги, посуда, ветер. Это не значит, что аппарат плохой. Нужны ajustes — обычно 1-й контроль через 2–4 недели, затем ещё 1–2 настройки.' },
+        { kind: 'paragraph', text: 'Первые недели почти всегда непривычны: слышны холодильник, шаги, посуда, ветер. Это не значит, что аппарат плохой. Нужны ajustes — обычно первый контроль через 2–4 недели, затем ещё 1–2 настройки.' },
         { kind: 'checklist', items: [
           'Носите аппарат ежедневно, иначе мозг не адаптируется',
           'Записывайте ситуации, где плохо: ресторан, машина, Zoom, улица',
@@ -143,6 +143,6 @@ export default {
     { title: 'Instituto Nacional para a Reabilitação — produtos de apoio / SAPA', url: 'https://www.inr.pt/produtos-de-apoio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Acustimedi — rede privada de audiologia e aparelhos auditivos', url: 'https://www.acustimedi.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

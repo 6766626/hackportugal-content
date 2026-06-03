@@ -12,13 +12,13 @@ export default {
       title: 'Что такое tabacaria и quiosque',
       content: [
         { kind: 'paragraph', text: 'Tabacaria — табачная лавка, часто внутри торгового центра, на улице или рядом с кафе. Quiosque — киоск: газетный, табачный, транспортный или смешанный. В быту эти слова часто пересекаются: один и тот же киоск может продавать табак, газеты, лотереи, транспортные билеты и принимать платежи.' },
-        { kind: 'paragraph', text: 'Главное правило: смотрите на наклейки на витрине. Логотип Jogos Santa Casa означает лотереи и raspadinhas; Payshop — платежи и recargas; Navegante/Carris Metropolitana/CP — транспортные услуги; Worten/Meo/NOS/Vodafone — иногда telecom recargas.' },
+        { kind: 'paragraph', text: 'Главное правило: смотрите на наклейки на витрине. Логотип Jogos Santa Casa означает лотереи и raspadinhas; Payshop — платежи и пополнения; Navegante/Carris Metropolitana/CP — транспортные услуги; Worten/Meo/NOS/Vodafone — иногда пополнение мобильной связи.' },
         { kind: 'checklist', items: [
           'Tabacaria — обычно сигареты, табак, зажигалки, лотереи, иногда платежи Payshop',
           'Quiosque — газеты, журналы, вода, снеки, табак, билеты, иногда кофе',
           'Papelaria — канцелярия, печать, конверты, марки, иногда лотереи',
           'Agente Payshop — оплата счетов, recargas, иногда impostos по платёжной referência',
-          'Ponto Navegante — пополнение transport pass или zapping в Área Metropolitana de Lisboa',
+          'Ponto Navegante — пополнение проездного или zapping в Área Metropolitana de Lisboa',
           'Agente CP — отдельные точки продажи билетов CP, чаще рядом со станциями',
           'Не каждая tabacaria делает всё: услуга зависит от лицензии и терминала'
         ] }
@@ -71,7 +71,7 @@ export default {
           'Фильтры и бумага: “filtros” и “mortalhas”',
           'Зажигалка: “isqueiro”',
           'Газеты: Público, Expresso, Correio da Manhã, Jornal de Notícias, Diário de Notícias',
-          'Журналы: часто есть Portuguese press, футбол, ТВ, lifestyle',
+          'Журналы: часто есть португальская пресса, спорт, ТВ, lifestyle',
           'Открытки, конверты, ручки, батарейки — зависит от quiosque/papelaria',
           'Вода, жвачка, снеки и транспортные карты чаще есть в уличных киосках'
         ] },
@@ -85,7 +85,7 @@ export default {
         { kind: 'paragraph', text: 'Многие tabacarias работают как agente Payshop. Это удобно, если у вас есть счёт с entidade/referência или штрихкодом: электричество, вода, telecom, штрафы, некоторые налоги и пополнения мобильной связи. Для оплаты IUC нужен документ cobrança из Finanças с referência Multibanco; если точка Payshop принимает этот тип платежа, его можно оплатить там.' },
         { kind: 'checklist', items: [
           'Скажите: “quero pagar uma referência” или покажите счёт',
-          'Для telecom recarga назовите оператора: MEO, NOS, Vodafone, Lycamobile и сумму',
+          'Для пополнения связи назовите оператора: MEO, NOS, Vodafone, Lycamobile и сумму',
           'Проверьте NIF/entidade/referência/valor на экране или в чеке',
           'Всегда забирайте comprovativo de pagamento',
           'Для IUC сначала сформируйте cobrança в Portal das Finanças',
@@ -93,7 +93,7 @@ export default {
           'Комиссия обычно не берётся с клиента, но условия зависят от услуги',
           'При сбое терминала не платите второй раз, пока не проверите статус платежа'
         ] },
-        { kind: 'warning', text: 'IUC привязан к месяцу регистрации автомобиля и оплачивается ежегодно. Киоск не рассчитывает налог за вас: он только принимает платёж по готовой referência. Ошибка в referência = риск оплатить не то.' }
+        { kind: 'warning', text: 'IUC привязан к месяцу регистрации автомобиля и оплачивается ежегодно. Киоск не рассчитывает налог за вас: он только принимает платёж по готовой referência. Ошибка в referência = риск оплатить не тот счёт.' }
       ]
     },
     {
@@ -128,6 +128,6 @@ export default {
     { title: 'CP — покупка билетов и точки продажи', url: 'https://www.cp.pt/passageiros/pt/comprar-bilhetes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Payshop — сеть агентов и услуги оплаты', url: 'https://www.payshop.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

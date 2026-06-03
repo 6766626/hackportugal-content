@@ -3,7 +3,7 @@ export default {
   id: 'brisa-tunel-marao-tolls',
   categoryId: 'auto_trips',
   title: 'Brisa and Túnel do Marão toll roads: tariffs and Via Verde',
-  tldr: 'Brisa operates key autoestradas: A1, A2, A5, A6, A8, A9, A14. Payment is usually via portagem manual: take a ticket on entry and pay on exit, or use Via Verde without stopping. The tariff depends on class 1–4: a passenger car is almost always classe 1, while a van/SUV with a height at the front axle of ≥1.10 m may become classe 2. Túnel do Marão on the A4 is paid separately: 2026 guide — around €7–12 for larger classes, while passenger car classe 1 is cheaper. Check the Brisa/Via Verde simulator before travelling.',
+  tldr: 'Brisa operates key autoestradas: A1, A2, A5, A6, A8, A9, A14. Payment is usually via portagem manual: take a ticket on entry and pay on exit, or use Via Verde without stopping. The tariff depends on class 1–4: a passenger car is almost always classe 1, while a van/SUV with a height at the front axle of ≥1.10 m may become classe 2. Note: the Túnel do Marão itself has been toll-free since 1 January 2025 (Lei n.º 37/2024) — only the A4 Porto–Amarante section, run by Brisa, is still tolled (2026 guide: classe 1 around €4.75, up to ~€12 for larger classes). Check the Brisa/Via Verde simulator before travelling.',
   tags: ['tolls', 'brisa', 'via verde', 'a4'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What exactly is tolled',
       content: [
         { kind: 'paragraph', text: 'In Portugal, toll roads are called autoestradas com portagem. With Brisa, these are classic motorways with barriers and tickets: A1 Lisboa–Porto, A2 Lisboa–Algarve, A5 Lisboa–Cascais, A6 Marateca–Caia, A8 Lisboa–Leiria, A9 CREL, A14 Figueira da Foz–Coimbra.' },
-        { kind: 'paragraph', text: 'Túnel do Marão is a tolled section on the A4 between the Amarante area and Vila Real. It is not an “urban tunnel”, but part of the main road through Serra do Marão: on Porto ↔ Trás-os-Montes trips, it often ends up on the route.' },
+        { kind: 'paragraph', text: 'Túnel do Marão is a section of the A4 between the Amarante area and Vila Real, through Serra do Marão. Since 1 January 2025 (Lei n.º 37/2024), the tunnel itself and the whole “Transmontana” A4 from Amarante to the border have been toll-free. On the A4, only the western Porto (Águas Santas) ↔ Amarante section, run by Brisa, is still tolled: on Porto ↔ Trás-os-Montes trips, that is the part that shows up on your bill.' },
         { kind: 'checklist', items: [
           'A1: main tolled corridor Lisboa ↔ Porto',
           'A2: Lisboa ↔ Algarve, the most common route south',
@@ -21,7 +21,7 @@ export default {
           'A8: Lisboa ↔ Oeste / Leiria',
           'A9: CREL ring road around Lisboa',
           'A14: Figueira da Foz ↔ Coimbra',
-          'A4 / Túnel do Marão: Porto / Amarante ↔ Vila Real / Bragança'
+          'A4: only the Porto (Águas Santas) ↔ Amarante section is tolled; the Túnel do Marão and onwards to Bragança have been free since 2025'
         ] }
       ]
     },
@@ -74,7 +74,7 @@ export default {
           'A8 Lisboa–Leiria, classe 1: guide figure around €9–11 for a long journey',
           'A9 CREL, classe 1: short trips are usually a few euros, often €1–4',
           'A14 Figueira da Foz–Coimbra, classe 1: usually a few euros, approximately €3–5',
-          'Túnel do Marão / A4: for classe 2–4, guide figure around €7–12; classe 1 is usually lower, but check the calculator before travelling'
+          'A4 Porto–Amarante (Brisa tolled section), classe 1: guide figure around €4.75; for classe 2–4 up to ~€12. The Túnel do Marão itself and the A4 beyond Amarante have been free since 2025'
         ] },
         { kind: 'paragraph', text: 'For classe 2–4, the amount rises noticeably: a van or campervan may pay 60–150% more than a passenger car on the same route. That is why checking the class before a Porto ↔ Algarve or Porto ↔ Vila Real trip saves real money.' },
         { kind: 'warning', text: 'The figures above are practical guide figures for budget planning, not a legal tariff sheet. The official amount on the day of travel is only in the Brisa or Via Verde tarifário/simulador.' }
@@ -118,7 +118,7 @@ export default {
   costs: [
     { label: 'A1 Lisboa–Porto, classe 1', amountEURMin: 24, amountEURMax: 26, note: 'Guide figure for the full route on the tolled A1; calculate the exact amount in Brisa/Via Verde.' },
     { label: 'A2 Lisboa–Algarve, classe 1', amountEURMin: 23, amountEURMax: 25, note: 'Guide figure to the Algarve area via the A2; depends on entry/exit.' },
-    { label: 'Túnel do Marão / A4, classe 2–4', amountEURMin: 7, amountEURMax: 12, note: 'Practical range for larger classes; classe 1 is usually cheaper.' },
+    { label: 'A4 Porto–Amarante (Brisa)', amountEURMin: 5, amountEURMax: 12, note: 'classe 1 around €4.75, larger classes up to ~€12. The Túnel do Marão itself has been toll-free since 2025 (Lei 37/2024).' },
     { label: 'Via Verde', amountEURMin: 0, amountEURMax: 2, note: 'Portagem is paid separately; a monthly fee/commission may apply according to the selected plan.' }
   ],
   sources: [
@@ -126,6 +126,6 @@ export default {
     { title: 'Via Verde — tariffs, identifier and portagens payment', url: 'https://www.viaverde.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Via Verde — route planner and cálculo de portagens', url: 'https://www.viaverde.pt/particulares/ferramentas/calculador-de-portagens', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'pagar-contestar-contraordenacoes',
   categoryId: 'auto_ownership',
   title: 'Portal das Contraordenações: pagamento e contestação de coimas online',
-  tldr: 'O Portal das Contraordenações da ANSR é a área oficial para coimas rodoviárias: acesso com Cartão de Cidadão ou Chave Móvel Digital, consulta de processos por NIF, pagamento por referência Multibanco, apresentação de defesa/requerimento online e verificação dos pontos da carta.\n\nEm 2026, a defesa é normalmente apresentada no prazo de 15 dias úteis após a notificação. O pagamento em prestações pode ser pedido para coimas a partir de 210 €, com um mínimo de 50 € por pagamento, normalmente até 12 prestações.',
+  tldr: 'O Portal das Contraordenações da ANSR é a área oficial para coimas rodoviárias: acesso com Cartão de Cidadão ou Chave Móvel Digital, consulta de processos por NIF, pagamento por referência Multibanco, apresentação de defesa/requerimento online e verificação dos pontos da carta.\n\nEm 2026, a defesa é normalmente apresentada no prazo de 15 dias úteis após a notificação. O pagamento em prestações pode ser pedido para coimas a partir de 204 € (2 UC), com um mínimo de 50 € por pagamento, normalmente até 12 prestações.',
   tags: ['coimas', 'ansr', 'contraordenações', 'mb', 'carta'],
   estimatedReadMinutes: 6,
   steps: [
@@ -67,16 +67,16 @@ export default {
             ] }
           ] }
         ] },
-        { kind: 'warning', text: 'O pagamento voluntário pelo mínimo encerra muitas vezes a questão da coima, mas nem sempre encerra todo o processo: em caso de contraordenação grave ou muito grave pode haver uma sanção separada, por exemplo inhibição de conduzir e perda de pontos. Se quiser contestar o mérito da infração, avalie primeiro se o pagamento será considerado reconhecimento/pagamento voluntário ou depósito.' }
+        { kind: 'warning', text: 'O pagamento voluntário pelo mínimo encerra muitas vezes a questão da coima, mas nem sempre encerra todo o processo: em caso de contraordenação grave ou muito grave pode haver uma sanção separada, por exemplo inibição de conduzir e perda de pontos. Se quiser contestar o mérito da infração, avalie primeiro se o pagamento será considerado reconhecimento/pagamento voluntário ou depósito.' }
       ]
     },
     {
       id: 'parcelamento',
       title: 'Pagamento em prestações: quando a coima pode ser dividida',
       content: [
-        { kind: 'paragraph', text: 'Para coimas rodoviárias elevadas, é possível pedir pagamento em prestações. Regra prática da ANSR para 2026: o valor da coima deve ser igual ou superior a 210 €, cada pagamento deve ser de pelo menos 50 €, e o plano é normalmente limitado a 12 prestações mensais.' },
+        { kind: 'paragraph', text: 'Para coimas rodoviárias elevadas, é possível pedir pagamento em prestações. Regra prática da ANSR para 2026: o valor da coima deve ser igual ou superior a 204 € (2 UC), cada pagamento deve ser de pelo menos 50 €, e o plano é normalmente limitado a 12 prestações mensais.' },
         { kind: 'checklist', items: [
-          'Verifique que o montante da coima ≥ 210 €',
+          'Verifique que o montante da coima ≥ 204 € (2 UC)',
           'Calcule os pagamentos de modo a que cada prestação seja de pelo menos 50 €',
           'Apresente requerimento através do portal no seu processo ou por escrito à ANSR',
           'Indique o número do processo, NIF, nome, morada, email, telefone',
@@ -104,7 +104,7 @@ export default {
           'Se pedir testemunhas, indique nome, morada e o que confirmam concretamente',
           'Guarde o comprovativo de submissão com data e hora'
         ] },
-        { kind: 'warning', text: 'A apresentação de defesa não garante a suspensão de todas as consequências. Em infrações graves, a ANSR pode ainda assim emitir decisão sobre coima, custas, inhibição de conduzir e retirada de pontos. Para álcool, acidente, excesso elevado de velocidade, reincidência ou risco de perda da carta, é melhor mostrar o processo a um advogado.' }
+        { kind: 'warning', text: 'A apresentação de defesa não garante a suspensão de todas as consequências. Em infrações graves, a ANSR pode ainda assim emitir decisão sobre coima, custas, inibição de conduzir e retirada de pontos. Para álcool, acidente, excesso elevado de velocidade, reincidência ou risco de perda da carta, é melhor mostrar o processo a um advogado.' }
       ]
     },
     {
@@ -128,7 +128,7 @@ export default {
   ],
   costs: [
     { label: 'Acesso ao Portal das Contraordenações', amountEUR: 0, note: 'O portal oficial da ANSR é gratuito; paga apenas a própria coima, custas ou sanções do processo.' },
-    { label: 'Valor mínimo da coima para pedir pagamento em prestações', amountEUR: 210, note: 'Limiar prático para pagamento em prestações em 2026.' },
+    { label: 'Valor mínimo da coima para pedir pagamento em prestações', amountEUR: 204, note: 'Limiar de 2 UC (UC = 102 €) para pagamento em prestações em 2026.' },
     { label: 'Pagamento mínimo por prestação', amountEUR: 50, note: 'Cada prestação deve ser de pelo menos 50 €; normalmente o máximo é de 12 prestações mensais.' }
   ],
   sources: [
@@ -136,6 +136,6 @@ export default {
     { title: 'ePortugal: consultar o Portal das Contraordenações', url: 'https://www2.gov.pt/servicos/consultar-o-portal-das-contraordenacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código da Estrada — Decreto-Lei 114/94, artigos sobre contraordenações, pagamento, defesa e pontos', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

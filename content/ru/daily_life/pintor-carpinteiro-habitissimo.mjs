@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'pintor-carpinteiro-habitissimo',
   categoryId: 'daily_life',
-  title: 'Как найти маляра, плотника или ремонтную бригаду: Habitissimo, Fixando, ZAask',
-  tldr: 'В Португалии ремонтников ищут через Habitissimo, Fixando, ZAask, OLX Serviços, Facebook-группы и рекомендации соседей. Для клиента заявки обычно бесплатны; мастера платят платформе за лид или комиссию, фактически закладывая 10–20% в цену. В 2026 просите orçamento por escrito, NIF/recibo, страховку, фото работ и сроки. Для работ от нескольких сотен евро фиксируйте contrato или хотя бы e-mail/WhatsApp-смету; при споре — Livro de Reclamações и Centro de Arbitragem.',
+  title: 'Как найти маляра, плотника или ремонтную бригаду: Habitissimo, Fixando, Zaask',
+  tldr: 'В Португалии ремонтников ищут через Habitissimo, Fixando, Zaask, OLX Serviços, Facebook-группы и рекомендации соседей. Для клиента заявки обычно бесплатны; мастера платят платформе за лид или комиссию, фактически закладывая 10–20% в цену. В 2026 просите orçamento por escrito, NIF/recibo, страховку, фото работ и сроки. Для работ от нескольких сотен евро фиксируйте contrato или хотя бы e-mail/WhatsApp-смету; при споре — Livro de Reclamações и Centro de Arbitragem.',
   tags: ['ремонт', 'habitissimo', 'fixando', 'obra'],
   estimatedReadMinutes: 5,
   steps: [
@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'Habitissimo.pt — сильный по obras, remodelações, pintura, canalização, eletricidade; оставляете заявку, получаете контакты/предложения.',
           'Fixando.pt — маркетплейс услуг: pintor, carpinteiro, handyman, limpeza pós-obra, mudanças; удобно для быстрых работ.',
-          'ZAask.pt — похожая модель заявок и orçamento; часто используют для ремонта, уборки, сборки мебели, дизайна.',
+          'Zaask.pt — похожая модель заявок и orçamento; часто используют для ремонта, уборки, сборки мебели, дизайна.',
           'OLX Serviços — много частников и маленьких бригад; цены ниже, но проверка слабее.',
           'Google Maps — ищите “pintor Lisboa”, “carpinteiro Porto”, “remodelações Cascais” и смотрите свежие отзывы.',
           'Facebook/WhatsApp-группы района — полезно для рекомендаций “сосед уже делал”.',
@@ -25,7 +25,7 @@ export default {
     },
     {
       id: 'how-platforms-work',
-      title: 'Как работают Habitissimo, Fixando и ZAask',
+      title: 'Как работают Habitissimo, Fixando и Zaask',
       content: [
         { kind: 'paragraph', text: 'Для клиента размещение заявки обычно бесплатно. Деньги платит специалист: за контакт, кредит, лид или комиссию платформы. Поэтому “бесплатные 3 orçamento” не означают, что платформа бесплатна для рынка: расходы мастера часто заложены в итоговую цену.' },
         { kind: 'checklist', items: [
@@ -35,7 +35,7 @@ export default {
           'Уточняйте, кто покупает материалы: вы, мастер или “incluído”. Для краски и дерева это сильно меняет цену.',
           'Если специалист просит аванс, нормальная практика — небольшой sinal под материалы, но не 100% вперёд.',
           'Просите NIF или название empresa/empresário em nome individual — потом можно проверить atividade и выставление recibo/fatura.',
-          'Комиссия/стоимость лидов для мастеров не всегда публична и зависит от категории, региона и модели платформы; ориентируйтесь, что она может увеличивать цену примерно на 10–20%.'
+          'Комиссия/стоимость лидов для мастеров не всегда публична и зависит от категории, региона и модели платформы; исходите из того, что она может увеличивать цену примерно на 10–20%.'
         ] },
         { kind: 'warning', text: 'Не соглашайтесь на “só dinheiro, sem fatura” для заметной работы. Без fatura/recibo почти невозможно доказать услугу, требовать гарантию, подать Livro de Reclamações или использовать спор в Centro de Arbitragem.' }
       ]
@@ -44,7 +44,7 @@ export default {
       id: 'request-template',
       title: 'Что написать в заявке, чтобы получить нормальную смету',
       content: [
-        { kind: 'paragraph', text: 'Португальские мастера часто не отвечают на vague-заявки “нужно покрасить квартиру”. Чем точнее запрос, тем меньше “surpresas” в день работ.' },
+        { kind: 'paragraph', text: 'Португальские мастера часто не отвечают на расплывчатые заявки в духе “нужно покрасить квартиру”. Чем точнее запрос, тем меньше “surpresas” в день работ.' },
         { kind: 'checklist', items: [
           'Тип работы: pintura interior, carpintaria, montagem de móveis, remodelação de casa de banho, cozinha, pladur, azulejos.',
           'Объём: площадь стен/пола в м², количество комнат, дверей, окон, шкафов.',
@@ -81,7 +81,7 @@ export default {
       id: 'price-reality',
       title: 'Цены и авансы в 2026',
       content: [
-        { kind: 'paragraph', text: 'Цены сильно зависят от Лиссабона/Порту/Алгарве, срочности, парковки, материалов и размера работы. Маленькая задача часто имеет “taxa mínima” за выезд, даже если работа на 30 минут.' },
+        { kind: 'paragraph', text: 'Цены сильно зависят от Лиссабона/Порту/Алгарве, срочности, парковки, материалов и размера работы. За маленькую задачу часто берут “taxa mínima” — плату за выезд, даже если работа занимает 30 минут.' },
         { kind: 'checklist', items: [
           'Покраска комнаты: часто считают за м² или фиксированной суммой после visita; материалы и подготовка стен могут удвоить цену.',
           'Покраска квартиры T1/T2: просите отдельные строки за стены, потолки, reparações, primário, tinta и limpeza.',
@@ -115,7 +115,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Заявка клиента на Habitissimo/Fixando/ZAask', amountEUR: 0, note: 'Обычно бесплатно для клиента; условия платформ могут меняться по категории.' },
+    { label: 'Заявка клиента на Habitissimo/Fixando/Zaask', amountEUR: 0, note: 'Обычно бесплатно для клиента; условия платформ могут меняться по категории.' },
     { label: 'Надбавка, которую мастер может заложить из-за стоимости лида/комиссии', amountEURMin: 10, amountEURMax: 20, note: 'Ориентир в процентах от цены, не официальный тариф; зависит от платформы и типа работы.' },
     { label: 'Livro de Reclamações Eletrónico', amountEUR: 0, note: 'Подача жалобы потребителем бесплатна.' }
   ],
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

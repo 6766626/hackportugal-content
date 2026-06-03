@@ -111,7 +111,7 @@ export default {
       title: 'Conselhos gerais',
       content: [
         { kind: 'checklist', items: [
-          '🔁 Médico de família (médico de família) — a chave principal. Registo no centro de saúde da área de residência, gratuito. Cada residente com Número de Utente tem direito a um',
+          '🔁 Médico de família — a chave principal. Registo no centro de saúde da área de residência, gratuito. Cada residente com Número de Utente tem direito a um',
           '📝 Receita: o médico de família emite para 3–6 meses no caso de doenças crónicas — não é preciso ir sempre à urgência',
           '📞 Primeiro SNS 24, sempre — eles próprios decidirão se é necessária urgência',
           '💻 Portal MySNS (mysns.min-saude.pt): consultar as suas receitas, marcações, resultados de análises',
@@ -127,6 +127,6 @@ export default {
     { title: 'DGS — Manchester Triage System', url: 'https://www.dgs.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'INEM — Instituto Nacional de Emergência Médica', url: 'https://www.inem.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

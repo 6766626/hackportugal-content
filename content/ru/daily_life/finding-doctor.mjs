@@ -3,7 +3,7 @@ export default {
   id: 'finding-doctor',
   categoryId: 'healthcare',
   title: 'Найти врача в Португалии',
-  tldr: 'Семейный врач (médico de família) — бесплатно через SNS в Centro de Saúde (государственная поликлиника) по месту жительства, но очередь на запись 2–14 дней. Специалисты SNS — очередь 1–12 мес. Для срочного — больница SNS (Urgência)\.\n\nЧастные клиники (CUF, Lusíadas, HPA) — без очереди за деньги (~€ 50–80 первый приём).',
+  tldr: 'Семейный врач (médico de família) — бесплатно через SNS в Centro de Saúde (государственная поликлиника) по месту жительства, но очередь на запись 2–14 дней. Специалисты SNS — очередь 1–12 мес. Для срочного — больница SNS (Urgência).\n\nЧастные клиники (CUF, Lusíadas, HPA) — без очереди за деньги (~€ 50–80 первый приём).',
   tags: ['врач', 'SNS', 'Centro de Saúde', 'специалист'],
   estimatedReadMinutes: 5,
   steps: [
@@ -92,7 +92,7 @@ export default {
             { kind: 'paragraph', text: 'Вы приходите → медсестра оценивает состояние → присваивает цвет приоритета (красный = 0 мин, оранжевый = 10 мин, жёлтый = 60 мин, зелёный = 120 мин, синий = 240 мин, белый = не срочно, идите в Centro de Saúde).' }
           ]},
           { id: 'u3', title: 'Стоимость', content: [
-            { kind: 'paragraph', text: 'С 2022 года (DL 52/2022) большинство taxas moderadoras SNS отменены, но в Serviço de Urgência они могут взиматься, если пациент пришёл без предварительного referenciamento SNS24/семейного врача и нет госпитализации/исключения. Если цвет «белый/синий» (не срочно), могут направить в Centro de Saúde.' }
+            { kind: 'paragraph', text: 'С 2022 года (DL 37/2022) большинство taxas moderadoras SNS отменены, но в Serviço de Urgência они могут взиматься, если пациент пришёл без предварительного referenciamento SNS24/семейного врача и нет госпитализации/исключения. Если цвет «белый/синий» (не срочно), могут направить в Centro de Saúde.' }
           ]},
           { id: 'u4', title: 'Частная неотложная помощь', content: [
             { kind: 'paragraph', text: 'В частной клинике (CUF, Luz) — без очереди, но € 80–150 за первый приём. Быстрее, если очередь в SNS 4+ часа.' }
@@ -106,6 +106,6 @@ export default {
     { title: 'SNS 24 — онлайн-услуги', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ACSS — статистика SNS', url: 'https://www.acss.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

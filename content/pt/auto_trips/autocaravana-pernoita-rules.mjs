@@ -17,7 +17,7 @@ export default {
           'Num local comum autorizado fora de zonas protegidas — máximo de 48 horas no mesmo município.',
           'Se o local estiver especificamente assinalado para autocaravanas, aplicam-se as regras desse local: limite de horas, pagamento, serviços, proibição de mesas/toldos.',
           'O município pode proibir ou limitar a pernoita através de sinalização, regulamento municipal ou regras temporárias.',
-          'Estacionamento normal durante o dia não é o mesmo que pernoita: pernoita é a permanência com pessoas no interior entre as 21:00 e as 07:00.',
+          'Estacionamento normal durante o dia não é o mesmo que pernoita: pernoita é a permanência com pessoas no interior entre as 22:00 e as 07:00.',
           'Se abriu um toldo, montou mesas, cadeiras, estendeu degraus, colocou calços ou ocupou mais área — isso já se aproxima de aparcamento/campismo e o risco de coima é maior.'
         ] }
       ]
@@ -46,7 +46,7 @@ export default {
         { kind: 'paragraph', text: 'As regras portuguesas distinguem entre estacionamento simples, pernoita e instalação em “acampamento”. Quanto mais ultrapassar os limites físicos do veículo, maior é o risco de o fiscal considerar que se trata de aparcamento/campismo fora de local autorizado.' },
         { kind: 'checklist', items: [
           'Estacionamento: o veículo está dentro da marcação e não ocupa mais área do que as suas dimensões.',
-          'Pernoita: há pessoas dentro da autocaravana entre as 21:00 e as 07:00.',
+          'Pernoita: há pessoas dentro da autocaravana entre as 22:00 e as 07:00.',
           'Aparcamento: estacionamento com sinais de instalação — toldo aberto, mesas, cadeiras, calços, degraus, depósitos exteriores.',
           'Campismo selvagem: campismo de facto fora de camping/parque/ASA; isto não se legaliza com a frase “só pernoitámos”.',
           'Janelas e tejadilho, por si só, normalmente não são problema, mas toldo, mobiliário e cordas para roupa são um alerta vermelho.',
@@ -102,6 +102,6 @@ export default {
     { title: 'Lei 66/2021 — alteração das regras de pernoita de autocaravanas', url: 'https://dre.pt/dre/detalhe/lei/66-2021-169570084', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Federação de Campismo e Montanhismo de Portugal — informação sobre caravanismo', url: 'https://www.fcmp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

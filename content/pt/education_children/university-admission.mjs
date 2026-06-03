@@ -5,7 +5,7 @@ export default {
   title: 'Entrada numa universidade portuguesa — para estrangeiros',
   tldr: 'Para entrar numa universidade portuguesa (bacharelato/licenciatura): através da DGES / Concurso Nacional de Acesso ao Ensino Superior (CNAES regula as regras de acesso) — para diplomados portugueses/UE; ou através do Concurso Especial para Estudantes Internacionais (CEEI) ao abrigo do DL 36/2014 — para candidatos com estatuto de Estudante Internacional (normalmente non-EU, NÃO residentes em PT há > 2 anos a 1 de janeiro do ano de candidatura, não membros de família de cidadãos da UE e não pessoas com estatuto de igualdade).\n\nÉ necessário: equivalência/reconhecimento do certificado do ensino secundário (através de escola pública/agrupamento segundo as regras da DGE), português B1-B2 (CAPLE: DEPLE=B1, DIPLE=B2) ou IELTS 6.0+ para programas em inglês, carta de motivação.\n\nCusto: até ~697 €/ano para PT/UE em licenciatura pública; para CEEI, as propinas internacionais são definidas por cada instituição de ensino superior separadamente (normalmente mais altas).',
   audience: { citizenships: ['thirdCountry', 'cplp'] },
-  tags: ['universidade', 'admissão', 'diploma', 'reconhecimento', 'dges', 'cnes'],
+  tags: ['universidade', 'admissão', 'diploma', 'reconhecimento', 'dges', 'cnaes'],
   estimatedReadMinutes: 9,
   steps: [
     {
@@ -120,7 +120,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Custo', content: [
             { kind: 'checklist', items: [
-              '🟢 PT/UE em licenciatura pública: até cerca de 697 €/ano no máximo (limite de propina DGES para national/EU students em licenciatura/mestrado integrado público abrangido)',
+              '🟢 PT/UE em licenciatura pública: até 697 €/ano no máximo em 2025/2026 (limite de propina DGES para national/EU students em licenciatura/mestrado integrado público abrangido); a partir de 2026/2027 o limite sobe para 710 €',
               '🟡 Estrangeiros (CEEI): as propinas internacionais são definidas por cada instituição — normalmente mais altas; consulte o edital do curso específico',
               '🔴 Instituições privadas: 5 000-15 000 €/ano',
               '💵 Alojamento: quarto ~350-650 €+ em Lisbon/Porto (private market), menos em residências e em cidades pequenas; studio em Lisbon frequentemente 750-1 100 €+',
@@ -178,7 +178,7 @@ export default {
     { label: 'Licenciatura pública PT/UE — propina (máximo segundo a DGES)', amountEURMax: 697, note: '€/ano para national/EU students' },
     { label: 'Estrangeiro (CEEI) — propina', note: 'definida por cada instituição/curso — consulte o edital' },
     { label: 'Instituição privada', amountEURMin: 5000, amountEURMax: 15000, note: '€/ano' },
-    { label: 'Visto D4 (taxa consular)', amountEUR: 90 },
+    { label: 'Visto D4 (taxa consular)', amountEUR: 110 },
     { label: 'AIMA residence permit/card após a chegada', note: 'confirme a actual fee table em vigor desde 01.03.2026' },
     { label: 'Vida de estudante em Lisboa', amountEURMin: 700, amountEURMax: 1300, note: '€/mês (quarto + alimentação + transportes + livros)' }
   ],
@@ -190,6 +190,6 @@ export default {
     { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'CAPLE — português como língua estrangeira', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

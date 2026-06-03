@@ -84,7 +84,7 @@ export default {
             id: 's4',
             title: 'Receive the registration number and apply it to the hull',
             content: [
-              { kind: 'paragraph', text: 'Format: P-XX-NNNN, where P — Portugal, XX — port of registration (LX — Lisboa, CS — Cascais, SE — Setúbal, FA — Faro, etc.), NNNN — number. The number must be applied to the hull on both sides with indelible paint or a plate in a visible place.' }
+              { kind: 'paragraph', text: 'The identification set (conjunto de identificação) consists of the boat name, the registration number and a digit for the vessel type by navigation zone followed by the letters PT — the last two separated by a dash, e.g. NAME-12345-5PT. It is inscribed on the stern (or on both sides if not legible on the stern) in contrasting, indelible paint.' }
             ]
           }
         ] }
@@ -189,6 +189,6 @@ export default {
     { title: 'Decreto-Lei 93/2018 — Regime Jurídico da Náutica de Recreio', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-116950304', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 93/2018, art. 33.º — mandatory boat insurance', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-116950304', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

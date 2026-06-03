@@ -3,7 +3,7 @@ export default {
   id: 'bombeiros-voluntarios-pt',
   categoryId: 'emergency_rights',
   title: 'Bombeiros Voluntários: когда звонить и сколько стоит',
-  tldr: 'В Португалии 469 corporações de bombeiros voluntários — это не “частная пожарная служба”, а часть системы гражданской защиты. При пожаре, ДТП, утечке газа, обмороке, инсульте, травме или любой угрозе жизни звоните 112: экстренный выезд для населения бесплатный. Напрямую в quartel dos bombeiros звонят для неэкстренных услуг: transporte de doentes não-urgente обычно 40–80 € по месту, дежурство на мероприятии и помощь с безопасностью оплачиваются по тарифам конкретной corporação.',
+  tldr: 'В Португалии около 435 corpos de bombeiros voluntários — это не “частная пожарная служба”, а часть системы гражданской защиты. При пожаре, ДТП, утечке газа, обмороке, инсульте, травме или любой угрозе жизни звоните 112: экстренный выезд для населения бесплатный. Напрямую в quartel dos bombeiros звонят для неэкстренных услуг: transporte de doentes não-urgente обычно стоит 40–80 € за местную поездку, дежурство на мероприятии и помощь с безопасностью оплачиваются по тарифам конкретной corporação.',
   tags: ['112', 'bombeiros', 'экстренно', 'транспорт'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Кто такие Bombeiros Voluntários',
       content: [
         { kind: 'paragraph', text: 'Bombeiros Voluntários — добровольные пожарные корпусы, работающие через местные associações humanitárias. Они тушат пожары, выезжают на ДТП, спасают людей, помогают при наводнениях, оползнях, штормах, утечках газа и оказывают первую помощь до передачи пациента SNS/INEM.' },
-        { kind: 'paragraph', text: 'По состоянию на 2026 год в Португалии около 469 corporações de bombeiros voluntários. Почти в каждом concelho есть свой quartel, но экстренный вызов всё равно маршрутизируется через 112 и Centro de Orientação de Doentes Urgentes/операторов гражданской защиты.' },
+        { kind: 'paragraph', text: 'По состоянию на 2026 год в Португалии около 435 corpos de bombeiros voluntários (всего корпусов пожарных, считая муниципальные и профессиональные, около 470). Почти в каждом concelho есть свой quartel, но экстренный вызов всё равно маршрутизируется через 112 и Centro de Orientação de Doentes Urgentes / операторов гражданской защиты.' },
         { kind: 'checklist', items: [
           'Пожары в квартире, доме, лесу, гараже, машине',
           'ДТП, зажатые люди, перевёрнутая машина',
@@ -64,7 +64,7 @@ export default {
       id: 'non-urgent-transport',
       title: 'Transporte de doentes não-urgente: как заказать',
       content: [
-        { kind: 'paragraph', text: 'Неэкстренная перевозка — это когда пациенту нужен транспорт сидя, лежа или с сопровождением, но нет непосредственной угрозы жизни.\n\nНапример: поездка на гемодиализ, физиотерапию, обследование, выписка из больницы домой, перевозка пожилого человека между домом и клиникой.' },
+        { kind: 'paragraph', text: 'Неэкстренная перевозка — это когда пациенту нужен транспорт сидя, лёжа или с сопровождением, но нет непосредственной угрозы жизни.\n\nНапример: поездка на гемодиализ, физиотерапию, обследование, выписка из больницы домой, перевозка пожилого человека между домом и клиникой.' },
         { kind: 'substeps', items: [
           { id: 'check-sns', title: '1. Проверьте, может ли оплатить SNS', content: [
             { kind: 'paragraph', text: 'Если перевозка медицински необходима, спросите врача SNS или больницу о requisição de transporte. Без назначения поездка обычно оплачивается пациентом.' }
@@ -135,6 +135,6 @@ export default {
     { title: 'ANEPC — Autoridade Nacional de Emergência e Proteção Civil', url: 'https://prociv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — emergência médica и использование 112', url: 'https://www.sns24.gov.pt/guia/emergencia-medica/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

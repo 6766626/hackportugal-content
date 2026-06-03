@@ -3,7 +3,7 @@ export default {
   id: 'pesca-agua-doce-icnf',
   categoryId: 'food_leisure',
   title: 'Freshwater fishing (água doce) — ICNF licence (Institute for Nature Conservation and Forests)',
-  tldr: 'Fishing in rivers, reservoirs and lakes in mainland Portugal is regulated by ICNF (Institute for Nature Conservation and Forests), not DGRM (the maritime resources authority).\n\nYou can get the licence online at icnf.pt → e-Balcão or via the SI ICNF app for around €5-15. Main categories: recreational (sport) fishing; salmonid fishing (trout, salmon — a separate licence and its own seasons); fishing in concession areas (special zones with an extra fee).\n\nDefeso periods (closed seasons) apply by species: trout — open roughly March to July (up to 31 August in specific waters), closed roughly August/September to February; salmon — banned for almost the entire year except for rare events. Daily limit: 8 fish for trout and up to 30 for most others.',
+  tldr: 'Fishing in rivers, reservoirs and lakes in mainland Portugal is regulated by ICNF (Institute for Nature Conservation and Forests), not DGRM (the maritime resources authority).\n\nYou can get the licence online at icnf.pt → e-Balcão or via the SI ICNF app. A resident licence is annual (valid for the calendar year): national ~€20.52, regional ~€12.31. Non-residents can buy short licences: 7 days ~€16.81, 30 days ~€22.45. Main categories: recreational (sport) fishing; salmonid fishing (trout, salmon — a separate licence and its own seasons); fishing in concession areas (special zones with an extra fee).\n\nDefeso periods (closed seasons) apply by species: trout — open roughly March to July (up to 31 August in specific waters), closed roughly August/September to February; salmon — banned for almost the entire year except for rare events. Daily limit: 8 fish for trout and up to 30 for most others.',
   tags: ['fishing', 'angling', 'icnf', 'river', 'freshwater'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,14 +32,14 @@ export default {
           'Fishing in concession areas: specially designated zones, with an extra charge on top of the standard licence. Often the best spots',
           'Lagoa de Albufeira and reservoirs: usually the same rules — recreational fishing. But some reservoirs may have special conditions'
         ] },
-        { kind: 'paragraph', text: 'Licence validity periods (typically):' },
+        { kind: 'paragraph', text: 'Validity and cost (typically):' },
         { kind: 'checklist', items: [
-          '1 day: ~€3',
-          '8 days: ~€5',
-          '1 month: ~€10',
-          '6 months: ~€15',
-          '1 year: ~€25'
-        ] }
+          'Resident, national (whole country), for the calendar year: ~€20.52',
+          'Resident, regional, for the calendar year: ~€12.31',
+          'Non-resident, 7 days: ~€16.81',
+          'Non-resident, 30 days: ~€22.45'
+        ] },
+        { kind: 'paragraph', text: 'A resident licence is valid for the calendar year (until 31 December), not for 12 months from the date of issue.' }
       ]
     },
     {
@@ -68,7 +68,7 @@ export default {
               { kind: 'checklist', items: [
                 'Type: recreational fishing or salmonids',
                 'Region: mainland Portugal by default',
-                'Validity period: 1 day / 8 days / month / 6 months / year',
+                'Validity: for residents — the calendar year (national or regional); for non-residents — 7 or 30 days',
                 'Special options: concession lagoons/areas (if you plan to fish there)'
               ] }
             ]
@@ -101,7 +101,7 @@ export default {
         { kind: 'paragraph', text: 'Daily limit:' },
         { kind: 'checklist', items: [
           'Truta: up to 8 specimens per day, minimum size 20 cm',
-          'Achigã: up to 3 per day, minimum size 25 cm',
+          'Achigã: up to 3 per day, minimum size 20 cm',
           'Lúcio: up to 3 per day, minimum size 35 cm',
           'Barbo: up to 30 fish',
           'Carpa: up to 30 fish',
@@ -147,11 +147,10 @@ export default {
     }
   ],
   costs: [
-    { label: '1-day licence', amountEUR: 3 },
-    { label: '8-day licence', amountEUR: 5 },
-    { label: '1-month licence', amountEUR: 10 },
-    { label: '6-month licence', amountEUR: 15 },
-    { label: '1-year licence', amountEUR: 25 },
+    { label: 'Resident, national (calendar year)', amountEUR: 20.52 },
+    { label: 'Resident, regional (calendar year)', amountEUR: 12.31 },
+    { label: 'Non-resident, 7 days', amountEUR: 16.81 },
+    { label: 'Non-resident, 30 days', amountEUR: 22.45 },
     { label: 'Concession area — day', amountEURMin: 5, amountEURMax: 15, note: 'On top of the standard licence' },
     { label: 'Basic float fishing set', amountEURMin: 50, amountEURMax: 120 }
   ],
@@ -161,6 +160,6 @@ export default {
     { title: 'Decreto-Lei 112/2017 — Pesca em Águas Interiores regime', url: 'https://dre.pt/dre/detalhe/decreto-lei/112-2017-108128620', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR SEPNA — environmental police', url: 'https://www.gnr.pt/sepna.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -90,7 +90,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Oceanário de Lisboa — adult ticket guide price', amountEURMin: 19, amountEURMax: 25, note: 'Depends on age, exhibition and online/ticket office; children under 3 are usually free.' },
+    { label: 'Oceanário de Lisboa — adult ticket guide price', amountEURMin: 25, amountEURMax: 25, note: 'Adult ticket (13–64) is around €25; the child fare (3–12) is cheaper and seniors (65+) get a concession; children under 3 are usually free.' },
     { label: 'Jardim Zoológico de Lisboa — child/concession ticket guide price', amountEURMin: 19, amountEURMax: 22, note: 'An adult ticket may be higher; check the current price list on zoo.pt before buying.' },
     { label: 'Family day for 2 adults + 2 children', amountEURMin: 75, amountEURMax: 110, note: 'Admission tickets only, excluding food, parking and souvenirs.' },
     { label: 'Food/drinks inside', amountEURMin: 8, amountEURMax: 15, note: 'Guide price per person for a simple snack; you can save by taking water and snacks in advance.' }
@@ -100,6 +100,6 @@ export default {
     { title: 'Oceanário de Lisboa — tickets, memberships, education programmes', url: 'https://www.oceanario.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Sea Life Porto — tickets and family visits', url: 'https://www.visitsealife.com/porto/en/', kind: 'company', language: 'en', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

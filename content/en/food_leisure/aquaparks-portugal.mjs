@@ -193,7 +193,7 @@ export default {
     { title: 'Aqualand Algarve — Tickets (official website)', url: 'https://www.aqualand.pt/tickets/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Aquashow Family Park — Visit Portugal', url: 'https://www.visitportugal.com/en/content/aquashow-family-park', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: all 8 major water parks in Portugal (Algarve, north, centre, Madeira) with verified 2026 prices, operating seasons, addresses and practical tips. Sources — official Aquashow, Slide & Splash, Aqualand websites and the Visit Portugal portal.'

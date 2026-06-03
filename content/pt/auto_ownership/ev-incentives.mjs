@@ -20,17 +20,17 @@ export default {
               'Pessoas coletivas/empresários em nome individual: em Avisos anteriores, o apoio de 6 000 € aplicava-se a BEV N1 novos (mercadorias até 3,5 t); para empresas com M1, as condições são outras',
               'Bicicleta elétrica: ~500 €',
               'Scooter elétrica: ~500 €',
-              'Teto de preço para o subsídio M1 em Avisos recentes foi cerca de 38 500 € com IVA e despesas. 62 500 € sem IVA é um limiar fiscal separado para empresas, não um critério do subsidy'
+              'Teto de preço para o subsídio M1 em Avisos recentes foi cerca de 38 500 € com IVA e despesas (para versões com mais de 5 lugares o limite é mais alto). 62 500 € sem IVA é um limiar fiscal separado para empresas, não um critério do subsídio'
             ]}
           ]},
           { id: 's2', title: 'Como candidatar-se', content: [
-            { kind: 'paragraph', text: 'fundoambiental.pt → Candidaturas → Mobilidade Elétrica. A candidatura é apresentada apenas online com Chave Móvel Digital ou Cartão de Cidadão. A abertura dos períodos é normalmente a 15 de janeiro. São necessários: fatura do automóvel (pode ser fatura pró-forma), cópia da autorização de residência/Cartão de Cidadão, NIF, IBAN para o pagamento.' }
+            { kind: 'paragraph', text: 'fundoambiental.pt → Candidaturas → Mobilidade Elétrica. A candidatura é apresentada apenas online com Chave Móvel Digital ou Cartão de Cidadão. A data de abertura do período varia a cada ano (em 2026, entre maio e junho; em anos anteriores, em janeiro); as datas exatas são publicadas em fundoambiental.pt. São necessários: fatura do automóvel (pode ser fatura pró-forma), cópia da autorização de residência/Cartão de Cidadão, NIF, IBAN para o pagamento.' }
           ]},
           { id: 's3', title: 'Prazo de pagamento', content: [
             { kind: 'timeline', text: '30–90 dias após a aprovação. O dinheiro chega ao IBAN como reembolso.' }
           ]}
         ]},
-        { kind: 'warning', text: 'O orçamento do programa em 2024–2025 esgotou-se em 2–3 meses. Se comprar um automóvel elétrico na primavera — apresente a candidatura em janeiro-fevereiro.' }
+        { kind: 'warning', text: 'O orçamento do programa em 2024–2025 esgotou-se em 2–3 meses. Esteja atento à data de abertura do Aviso em fundoambiental.pt e candidate-se nos primeiros dias — as verbas são atribuídas por ordem de chegada até esgotar o orçamento.' }
       ]
     },
     {
@@ -41,7 +41,7 @@ export default {
           { id: 't1', title: 'ISV (alfândega/importação)', content: [
             { kind: 'checklist', items: [
               'BEV puros: 0% de ISV (isenção total)',
-              'PHEV (híbrido plug-in) com autonomia elétrica ≥50 km: ISV bonificado (desconto de 25–40%)',
+              'PHEV (híbrido plug-in): ISV bonificado (desconto de 75%) com autonomia elétrica ≥50 km e emissões de CO₂ ≤80 g/km pela norma Euro 6e-bis (o limiar subiu de 50 para 80 g/km no OE 2026). PHEV antigos sem Euro 6e-bis: ≤50 g/km',
               'HEV (híbrido convencional): ISV normal, como para gasolina/gasóleo',
               'A vigência do benefício é confirmada anualmente no OE'
             ]}

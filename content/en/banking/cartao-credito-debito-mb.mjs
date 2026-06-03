@@ -55,7 +55,7 @@ export default {
           'Carregamento telemóvel — top-up of a mobile number.',
           'Carregamento de títulos de transporte — top-up of some transport cards.',
           'Operações MB WAY — linking a card, confirming transactions, withdrawing without a card in some scenarios.',
-          'Some ATMs provide depóstio/cheques services, but this depends on the bank and the specific ATM.'
+          'Some ATMs provide depósito/cheques services, but this depends on the bank and the specific ATM.'
         ] },
         { kind: 'paragraph', text: 'If a terminal in a small café says “só Multibanco”, it may mean that international Visa/Mastercard is not accepted and that a card working on the Portuguese MB network is required. Cards from Portuguese banks usually have no problem with this.' }
       ]
@@ -149,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

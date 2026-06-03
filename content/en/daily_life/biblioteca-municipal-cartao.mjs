@@ -3,7 +3,7 @@ export default {
   id: 'biblioteca-municipal-cartao',
   categoryId: 'daily_life',
   title: 'Cartão de Leitor: free municipal libraries',
-  tldr: 'Municipal libraries in Portugal are free: in Lisboa, the BLX network has around 15 libraries; in Porto, there is Biblioteca Municipal Almeida Garrett and city branches; in Coimbra, there is Biblioteca Municipal. Cartão de Leitor is usually issued free of charge in 5–15 minutes with a passport/residence permit, NIF and comprovativo de morada. You can borrow books, DVDs, audiobooks and children’s publications to take home; the standard loan period is often 21 days, with renewal if there is no reservation.',
+  tldr: 'Municipal libraries in Portugal are free: in Lisboa, the BLX network has around 17 libraries; in Porto, there is Biblioteca Municipal Almeida Garrett and city branches; in Coimbra, there is Biblioteca Municipal. Cartão de Leitor is usually issued free of charge in 5–15 minutes with a passport/residence permit, NIF and comprovativo de morada. You can borrow books, DVDs, audiobooks and children’s publications to take home; the standard loan period is often 21 days, with renewal if there is no reservation.',
   tags: ['library', 'card', 'books', 'blx'],
   estimatedReadMinutes: 5,
   steps: [
@@ -30,7 +30,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'In Portugal, libraries are run by municipalities, so registration rules and loan periods differ slightly. Start with your city’s Câmara Municipal website or search for “biblioteca municipal + city name”.' },
         { kind: 'checklist', items: [
-          'Lisboa: the BLX network — Bibliotecas de Lisboa; around 15 municipal libraries and themed spaces across neighbourhoods',
+          'Lisboa: the BLX network — Bibliotecas de Lisboa; around 17 municipal libraries (including a mobile one) and themed spaces across neighbourhoods',
           'Porto: Biblioteca Municipal Almeida Garrett in Jardins do Palácio de Cristal — the main city address, plus municipal reading services',
           'Coimbra: Biblioteca Municipal de Coimbra and city reading spaces',
           'Cascais, Oeiras, Sintra, Almada, Braga, Aveiro and Faro also have free municipal libraries',
@@ -123,6 +123,6 @@ export default {
     { title: 'Câmara Municipal do Porto — Biblioteca Municipal Almeida Garrett', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Coimbra — Biblioteca Municipal', url: 'https://www.cm-coimbra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

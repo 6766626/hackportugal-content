@@ -43,7 +43,7 @@ export default {
             { kind: 'link', text: 'Map of Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao' }
           ]},
           { id: 'e2', title: '2. Book online', content: [
-            { kind: 'paragraph', text: 'Via ePortugal.gov.pt → choose the service → choose the location → choose the time. Booking is mandatory.' }
+            { kind: 'paragraph', text: 'Via ePortugal.gov.pt → choose the service → choose the location → choose the time. By default Espaço Cidadão serves walk-ins without booking, but for popular services it is better to book in advance.' }
           ]},
           { id: 'e3', title: '3. Take your documents and attend', content: [
             { kind: 'paragraph', text: 'Arrive 10 minutes early. Each service takes 15-30 minutes. The operator often helps with related matters without a separate booking.' }
@@ -56,7 +56,7 @@ export default {
       title: 'Tips',
       content: [
         { kind: 'checklist', items: [
-          'Always book a slot in advance — walk-ins are often not accepted',
+          'At busy points it is better to book a slot in advance: officially service is walk-in, but same-day capacity often runs out',
           'Bring the original and a copy of each document',
           'If the operator refuses — politely ask them to call a senior staff member',
           'In Lisbon/Porto it is better to go to a less busy Espaço Cidadão in the suburbs — there are more available slots',
@@ -69,6 +69,6 @@ export default {
     { title: 'ePortugal — Espaços Cidadão', url: 'https://www2.gov.pt/acesso-aos-servicos-publicos-em-portugal/atendimento-nos-espacos-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Loja de Cidadão — official website', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

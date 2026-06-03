@@ -3,7 +3,7 @@ export default {
   id: 'rent-a-car',
   categoryId: 'auto_trips',
   title: 'Car hire in Portugal — advice for residents and tourists',
-  tldr: 'Car hire in Portugal ranges from €20/day for a budget small car to €150+/day for premium. International firms such as Hertz / Europcar / Avis are more expensive than local companies, but more reliable.\n\nBudget options: Sixt, Goldcar, Centauro — cheap, but with many hidden fees. Requirements: driver age ≥ 21, licence held for ≥ 1 year, credit card (debit cards are not accepted everywhere)\.\n\nFull insurance (CDW + TP + zero excess) ~€15-25/day — essential if you do not have a premium credit card with insurance. Deposit €800-2500. Via Verde is usually included, toll roads — selectively.',
+  tldr: 'Car hire in Portugal ranges from €20/day for a budget small car to €150+/day for premium. International firms such as Hertz / Europcar / Avis are more expensive than local companies, but more reliable.\n\nBudget options: Sixt, Goldcar, Centauro — cheap, but with many hidden fees. Requirements: driver age ≥ 21, licence held for ≥ 1 year, credit card (debit cards are not accepted everywhere).\n\nFull insurance (CDW + TP + zero excess) ~€15-25/day — essential if you do not have a premium credit card with insurance. Deposit €800-2500. Via Verde is usually included, toll roads — selectively.',
   tags: ['hire', 'car', 'vehicle', 'sixt', 'europcar'],
   estimatedReadMinutes: 6,
   steps: [
@@ -180,6 +180,6 @@ export default {
     { title: 'Discover Cars — aggregator', url: 'https://www.discovercars.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'DECO PROteste — hire company ratings', url: 'https://www.deco.proteste.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

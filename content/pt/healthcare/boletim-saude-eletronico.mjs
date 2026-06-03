@@ -71,7 +71,7 @@ export default {
           'para Creche ou Jardim de Infância privado, confirme antecipadamente a lista de documentos: os requisitos variam',
           'se a escola pedir “boletim de vacinas”, normalmente refere-se ao comprovativo de vacinação, e não a todo o boletim infantil'
         ] },
-        { kind: 'warning', text: 'Em Portugal, o Programa Nacional de Vacinação é um programa nacional gratuito, mas não é uma “vacinação obrigatória” universal no sentido de haver multa por cada dose. No entanto, as escolas, os serviços de saúde e a DGS podem controlar riscos epidemiológicos e pedir o estado vacinal.' }
+        { kind: 'warning', text: 'Em Portugal, o Programa Nacional de Vacinação é um programa nacional gratuito e, em geral, não é obrigatório no sentido de haver multa por cada dose. Mas há uma exceção importante: para a matrícula e para realizar exames num estabelecimento de ensino são necessárias as vacinas atualizadas contra a difteria e o tétano. Além disso, as escolas, os serviços de saúde e a DGS podem controlar riscos epidemiológicos e pedir o estado vacinal.' }
       ]
     },
     {
@@ -105,6 +105,6 @@ export default {
     { title: 'DGS — Programa Nacional de Vacinação e normas de vacinação', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — informação sobre vacinas e boletim de vacinas', url: 'https://www.sns24.gov.pt/tema/vacinas/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

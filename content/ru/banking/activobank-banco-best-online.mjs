@@ -3,7 +3,7 @@ export default {
   id: 'activobank-banco-best-online',
   categoryId: 'banking',
   title: 'ActivoBank vs Banco Best: онлайн-банки без комиссий',
-  tldr: 'ActivoBank — лучший «первый банк» в Португалии: счёт без manutenção, бесплатная дебетовая карта, MB WAY, Multibanco и поддержка Millennium BCP. Banco Best — цифровой банк для тех, кому нужны брокерские продукты, фондовые/ETF-счета и депозиты, а не отделения. В 2026 обычные банки Caixa/Millennium/Santander часто берут 5–8 €/мес за пакет, если нет зарплаты или условий. Вклады в обоих банках покрыты Fundo de Garantia de Depósitos до 100 000 € на клиента и банк.',
+  tldr: 'ActivoBank — лучший «первый банк» в Португалии: счёт без manutenção, бесплатная дебетовая карта, MB WAY, Multibanco и поддержка Millennium BCP. Banco Best — цифровой банк для тех, кому нужны брокерские продукты, фондовые/ETF-счета и депозиты, а не отделения. В 2026 обычные банки Caixa/Millennium/Santander часто берут 5–8 €/мес за пакет, если нет зачисления зарплаты или выполнения условий. Вклады в обоих банках покрыты Fundo de Garantia de Depósitos до 100 000 € на клиента и банк.',
   tags: ['банки', 'activobank', 'best', 'mbway'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'quick-choice',
       title: 'Короткий выбор: кому какой банк',
       content: [
-        { kind: 'paragraph', text: 'Оба банка работают как интернет-банки, но решают разные задачи. ActivoBank — массовый ежедневный банк: зарплата, аренда, IRS, MB WAY, карта, Multibanco. Banco Best — цифровой банк с сильным инвестиционным блоком: брокерский счёт, фонды, ETF, депозиты, структурные продукты.' },
+        { kind: 'paragraph', text: 'Оба банка работают как интернет-банки, но решают разные задачи. ActivoBank — массовый банк на каждый день: зарплата, аренда, IRS, MB WAY, карта, Multibanco. Banco Best — цифровой банк с сильным инвестиционным блоком: брокерский счёт, фонды, ETF, депозиты, структурные продукты.' },
         { kind: 'checklist', items: [
           'Берите ActivoBank, если нужен основной счёт для жизни в Португалии без ежемесячной комиссии.',
           'Берите ActivoBank, если важны MB WAY, Multibanco, Apple Pay/Google Pay и простая дебетовая карта.',
@@ -121,6 +121,6 @@ export default {
     { title: 'Banco de Portugal — comparador de comissões bancárias', url: 'https://clientebancario.bportugal.pt/pt-pt/comparador-de-comissoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fundo de Garantia de Depósitos — гарантия вкладов в Португалии', url: 'https://www.fgd.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

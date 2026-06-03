@@ -98,7 +98,7 @@ export default {
           'Não misture despesas pessoais e despesas do projecto no mesmo orçamento',
           'Verifique a possibilidade de IVA reduzido 6% para empreitadas de reabilitação urbana, se o imóvel e os trabalhos forem elegíveis',
           'Confirme na Câmara se existe IMI exemption/reduction após a reabilitação',
-          'Se arrendar a habitação, tenha em conta IRS/IRC e o limite de actualização anual das rendas: em 2026 aplica-se o coeficiente de 2,16%',
+          'Se arrendar a habitação, tenha em conta IRS/IRC e o limite de actualização anual das rendas: em 2026 aplica-se o coeficiente de 2,24%',
           'Para Alojamento Local, verifique as restrições locais: a reabilitação não garante licença AL'
         ] },
         { kind: 'warning', text: 'Não inclua no modelo financeiro a premissa de que “o subsídio vai cobrir X% de certeza”. Até à aprovação escrita, calcule o projecto como crédito com uma margem própria de liquidez para derrapagens, atrasos da Câmara e IVA.' }
@@ -154,6 +154,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

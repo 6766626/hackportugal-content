@@ -91,6 +91,6 @@ export default {
     { title: 'Autenticação.gov — Cartão de Cidadão', url: 'https://www.autenticacao.gov.pt/o-cartao-de-cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Regulation (EU) 2019/1157 — eID biometrics', url: 'https://eur-lex.europa.eu/eli/reg/2019/1157/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

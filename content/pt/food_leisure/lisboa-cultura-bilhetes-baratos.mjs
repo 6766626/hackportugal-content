@@ -81,6 +81,6 @@ export default {
     { title: 'EGEAC / Lisboa Cultura — espaços municipais, monumentos e bilhetes', url: 'https://egeac.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Museus e Monumentos de Portugal — aviso de encerramento do MNAA, bilhetes e regime de visita', url: 'https://www.museusemonumentos.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

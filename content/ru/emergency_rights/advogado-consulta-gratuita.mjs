@@ -3,7 +3,7 @@ export default {
   id: 'advogado-consulta-gratuita',
   categoryId: 'emergency_rights',
   title: 'Бесплатная юридическая консультация: Junta de Freguesia + Ordem dos Advogados',
-  tldr: 'В Португалии есть 3 практичных бесплатных маршрута: приём юриста/адвоката в вашей Junta de Freguesia, специализированные кабинеты для мигрантов и семей вроде GIAAP/структур CIG, и Apoio Judiciário по Lei 34/2004 — если доходы низкие, государство оплачивает адвоката, судебные пошлины или их рассрочку. Консультации в Junta обычно 1 раз в неделю/месяц по записи, не везде. Для суда нужен не “совет”, а официальный запрос через Segurança Social; пороги считают от IAS 537,13 € в 2026.',
+  tldr: 'В Португалии есть 3 практичных бесплатных маршрута: приём юриста/адвоката в вашей Junta de Freguesia, специализированные кабинеты для мигрантов и семей вроде GIAAP/структур CIG, и Apoio Judiciário по Lei 34/2004 — если доходы низкие, государство оплачивает адвоката, судебные пошлины или их рассрочку. Консультации в Junta обычно 1 раз в неделю/месяц по записи, не везде. Для суда нужен не “совет”, а официальный запрос через Segurança Social; пороги рассчитывают исходя из IAS 537,13 € (2026).',
   tags: ['адвокат', 'junta', 'apoiojudiciário', 'мигранты'],
   estimatedReadMinutes: 6,
   steps: [
@@ -67,7 +67,7 @@ export default {
         { kind: 'checklist', items: [
           'Подайте pedido de proteção jurídica в Segurança Social: онлайн через Segurança Social Direta или лично в serviço de atendimento.',
           'Укажите форму помощи: nomeação e pagamento da compensação de patrono, dispensa de taxa de justiça e demais encargos, pagamento faseado или consulta jurídica.',
-          'Приложите документы о доходах, составе household, аренде/ипотеке, счетах, безработице, пособиях, имуществе.',
+          'Приложите документы о доходах, составе домохозяйства, аренде/ипотеке, счетах, безработице, пособиях, имуществе.',
           'В 2026 расчёты привязаны к IAS 537,13 €; Segurança Social смотрит не только зарплату, но и имущество/банковские остатки/состав семьи.',
           'Если заявление одобрено, Ordem dos Advogados назначает patrono или defensor.',
           'Если отказали, можно оспорить решение в установленный срок; не игнорируйте carta da Segurança Social.',
@@ -109,7 +109,7 @@ export default {
           'Нужно письмо от адвоката на português jurídico.',
           'Вы не говорите по-португальски, а дело требует точных формулировок.'
         ] },
-        { kind: 'paragraph', text: 'Попросите у адвоката письменную fee quote: consulta, análise documental, carta, processo judicial, IVA.\n\nВ Португалии юридические услуги обычно облагаются IVA 23%, если не применимо освобождение. Для первой платной консультации нормальный диапазон на рынке — примерно 60–150 €, но цены свободные.' }
+        { kind: 'paragraph', text: 'Попросите у адвоката письменную смету гонорара: consulta, análise documental, carta, processo judicial, IVA.\n\nВ Португалии юридические услуги обычно облагаются IVA 23%, если не применимо освобождение. Для первой платной консультации нормальный диапазон на рынке — примерно 60–150 €, но цены свободные.' }
       ]
     }
   ],
@@ -125,6 +125,6 @@ export default {
     { title: 'Segurança Social: proteção jurídica / apoio judiciário', url: 'https://www.seg-social.pt/protecao-juridica', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 34/2004: regime de acesso ao direito e aos tribunais', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2004-34509975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

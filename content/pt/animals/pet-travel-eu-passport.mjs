@@ -130,6 +130,6 @@ export default {
     { title: 'Comissão Europeia: viajar com animais de companhia e outros animais na UE', url: 'https://europa.eu/youreurope/citizens/travel/carry/animal-plant/index_en.htm', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Governo do UK: trazer o seu cão, gato ou furão de companhia para a Great Britain', url: 'https://www.gov.uk/bring-pet-to-great-britain', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

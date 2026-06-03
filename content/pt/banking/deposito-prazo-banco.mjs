@@ -87,14 +87,14 @@ export default {
       id: 'guarantee',
       title: 'Protecção dos depósitos: Fundo de Garantia de Depósitos',
       content: [
-        { kind: 'paragraph', text: 'O Fundo de Garantia de Depósitos (FGD) protege eligible deposits até 100 000 € por depositante por instituição de crédito. Este é o limite essencial: se tiver 150 000 € num banco, por regra ficam protegidos apenas 100 000 €. Se tiver uma conta conjunta de duas pessoas, o limite aplica-se a cada depositante — normalmente até 200 000 € para duas pessoas no mesmo banco.' },
+        { kind: 'paragraph', text: 'O Fundo de Garantia de Depósitos (FGD) protege os depósitos elegíveis até 100 000 € por depositante por instituição de crédito. Este é o limite essencial: se tiver 150 000 € num banco, por regra ficam protegidos apenas 100 000 €. Se tiver uma conta conjunta de duas pessoas, o limite aplica-se a cada depositante — normalmente até 200 000 € para duas pessoas no mesmo banco.' },
         { kind: 'checklist', items: [
           'Limite: 100 000 € por depositante por banco',
           'Conta conjunta: a quota de cada pessoa é contabilizada separadamente, salvo prova em contrário',
           'Várias contas no mesmo banco são somadas para o limite de 100 000 €',
           'Marcas diferentes podem ser o mesmo banco — verifique a entidade jurídica',
           'Uma sucursal de um banco estrangeiro da UE pode estar coberta não pelo FGD, mas pelo fundo de outro país',
-          'O FGD cobre depósitos, não investimentos, acções, obrigações, fundos de investimento ou structured products',
+          'O FGD cobre depósitos, não investimentos, acções, obrigações, fundos de investimento ou produtos estruturados',
           'O pagamento da garantia na UE está orientado para um prazo curto; o FGD indica o procedimento em fgd.pt'
         ] },
         { kind: 'warning', text: 'Não mantenha mais de 100 000 € por pessoa num único banco se o objectivo for protecção máxima. Para 180 000 €, é mais seguro dividir entre dois bancos independentes, 90 000 € em cada, do que colocar tudo num só DP.' }
@@ -110,7 +110,7 @@ export default {
           'Desactive a renovação automática, se o banco permitir',
           'Se a renovação automática não puder ser desactivada antecipadamente, informe-se sobre a janela para cancelar após a renovação',
           'Verifique se perde todos os juros em caso de mobilização antecipada',
-          'Não coloque o emergency fund num DP sem mobilização parcial',
+          'Não coloque o fundo de emergência num DP sem mobilização parcial',
           'Verifique se existe comissão pela conta à ordem, cartão ou transferência de dinheiro para outro banco',
           'Guarde o PDF das condições e a confirmação da subscrição',
           'Após o pagamento dos juros, confira bruto, retenção 28% e líquido'
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

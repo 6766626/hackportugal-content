@@ -125,6 +125,6 @@ export default {
     { title: 'IPDJ — National Sport for All Programme', url: 'https://ipdj.gov.pt/programa-nacional-de-desporto-para-todos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Diário da República — Basic Law on Physical Activity and Sport, Lei 5/2007', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34498875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

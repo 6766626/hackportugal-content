@@ -16,10 +16,10 @@ export default {
             { kind: 'paragraph', text: 'Основан в 1904 году. Самый титулованный клуб — 38 чемпионств Португалии. Стадион Estádio da Luz (64 642 места) в Лиссабоне. Цвета — красно-белые. Талисман — орёл Vítor. Гимн — «Ser Benfiquista». Сотни тысяч sócios; Benfica заявляла о рекорде Guinness по числу членов футбольного клуба — актуальную цифру лучше проверять на slbenfica.pt.' }
           ]},
           { id: 'p1', title: 'FC Porto', content: [
-            { kind: 'paragraph', text: 'Основан в 1893 году. 30 чемпионств. Стадион Estádio do Dragão (50 033 места)\.\n\nЦвета — сине-белые. Талисман — дракон. Самый успешный португальский клуб в еврокубках: выигрывал Кубок европейских чемпионов/Лигу чемпионов в 1987 и 2004, Кубок UEFA/Лигу Европы, Суперкубок UEFA и Межконтинентальный кубок.' }
+            { kind: 'paragraph', text: 'Основан в 1893 году. 31 чемпионство. Стадион Estádio do Dragão (50 033 места).\n\nЦвета — сине-белые. Талисман — дракон. Самый успешный португальский клуб в еврокубках: выигрывал Кубок европейских чемпионов/Лигу чемпионов в 1987 и 2004, Кубок UEFA/Лигу Европы, Суперкубок UEFA и Межконтинентальный кубок.' }
           ]},
           { id: 's1', title: 'Sporting CP (Лиссабон)', content: [
-            { kind: 'paragraph', text: 'Основан в 1906 году. 21 чемпионство. Стадион Estádio José Alvalade (50 095 мест)\.\n\nЦвета — зелёно-белые, в полоску. Талисман — лев. Alma de Leão. Академия Alcochete — одна из лучших в мире: выпустила Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa.' }
+            { kind: 'paragraph', text: 'Основан в 1906 году. 21 чемпионство. Стадион Estádio José Alvalade (50 095 мест).\n\nЦвета — зелёно-белые, в полоску. Талисман — лев. Alma de Leão. Академия Alcochete — одна из лучших в мире: выпустила Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa.' }
           ]}
         ]}
       ]
@@ -32,7 +32,7 @@ export default {
           '🔥 O Clássico — Benfica против FC Porto. Главный матч Португалии. 2–3 раза в сезон (Liga + Taça)',
           '🔥 Derby de Lisboa — Benfica против Sporting. Столичное противостояние. Город делится на красных и зелёных',
           '🔥 FC Porto против Sporting — ещё один clássico между клубами из Três Grandes. А Derby da Invicta — это FC Porto против Boavista',
-          '🔥 Derby Eterno / Dérbi de Lisboa — Benfica против Sporting, историческое лиссабонское противостояние'
+          '🔥 Dérbi do Minho — SC Braga против Vitória SC (Guimarães). Старейшее дерби страны и самое жаркое за пределами Três Grandes'
         ]},
         { kind: 'paragraph', text: 'В дни дерби — толпы на улицах, автобусы с фанатами, телевизоры во всех кафе. ТВ-комментаторы и болельщики переживают очень эмоционально.' }
       ]
@@ -126,6 +126,6 @@ export default {
     { title: 'FC Porto', url: 'https://www.fcporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Sporting CP', url: 'https://www.sporting.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

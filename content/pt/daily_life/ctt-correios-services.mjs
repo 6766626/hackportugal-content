@@ -109,7 +109,7 @@ export default {
               '📦 DHL Express — ponto DHL ou estação DHL',
               '🚚 UPS Access Point: mercearias, AKI, bombas de combustível',
               '⚠️ O IVA de importação aplica-se a encomendas non-EU e abaixo de 150 € (o limiar de 150 € refere-se sobretudo a direitos aduaneiros). O desalfandegamento é normalmente feito através do portal aduaneiro dos CTT/customs broker',
-              '💸 IVA: 23% continente, 16% Madeira, 16% Açores (taxas regionais); + taxa CTT de processamento, depende do tipo de envio e do estado IOSS/prepaid VAT'
+              '💸 IVA: 23% continente, 22% Madeira, 16% Açores (taxas regionais); + taxa CTT de processamento, depende do tipo de envio e do estado IOSS/prepaid VAT'
             ]}
           ]}
         ]}
@@ -160,6 +160,6 @@ export default {
     { title: 'CTT — Correios de Portugal', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANACOM — regulador dos serviços postais', url: 'https://www.anacom.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -106,6 +106,6 @@ export default {
     { title: 'Lei n.º 24-D/2022 — State Budget 2023, tax regime for criptoativos', url: 'https://dre.pt/dre/detalhe/lei/24-d-2022-205557192', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regulamento (UE) 2023/1114 — MiCA, regime for crypto-asset service providers in the EU', url: 'https://eur-lex.europa.eu/eli/reg/2023/1114/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'finding-doctor',
   categoryId: 'healthcare',
   title: 'Find a doctor in Portugal',
-  tldr: 'Family doctor (médico de família) — free via the SNS at the Centro de Saúde (state health centre) for your place of residence, but the waiting time for an appointment is 2–14 days. SNS specialists — waiting time 1–12 months. For urgent cases — SNS hospital (Urgência)\.\n\nPrivate clinics (CUF, Lusíadas, HPA) — no waiting list, paid (~€50–80 for the first appointment).',
+  tldr: 'Family doctor (médico de família) — free via the SNS at the Centro de Saúde (state health centre) for your place of residence, but the waiting time for an appointment is 2–14 days. SNS specialists — waiting time 1–12 months. For urgent cases — SNS hospital (Urgência).\n\nPrivate clinics (CUF, Lusíadas, HPA) — no waiting list, paid (~€50–80 for the first appointment).',
   tags: ['doctor', 'sns', 'centro de saúde', 'specialist'],
   estimatedReadMinutes: 5,
   steps: [
@@ -92,7 +92,7 @@ export default {
             { kind: 'paragraph', text: 'You arrive → a nurse assesses your condition → assigns a priority colour (red = 0 min, orange = 10 min, yellow = 60 min, green = 120 min, blue = 240 min, white = not urgent, go to the Centro de Saúde).' }
           ]},
           { id: 'u3', title: 'Cost', content: [
-            { kind: 'paragraph', text: 'Since 2022 (DL 52/2022), most SNS taxas moderadoras have been abolished, but in the Serviço de Urgência they may be charged if the patient came without prior SNS24/family doctor referral and there is no hospitalisation/exemption. If the colour is “white/blue” (not urgent), you may be referred to the Centro de Saúde.' }
+            { kind: 'paragraph', text: 'Since 2022 (DL 37/2022), most SNS taxas moderadoras have been abolished, but in the Serviço de Urgência they may be charged if the patient came without prior SNS24/family doctor referral and there is no hospitalisation/exemption. If the colour is “white/blue” (not urgent), you may be referred to the Centro de Saúde.' }
           ]},
           { id: 'u4', title: 'Private emergency care', content: [
             { kind: 'paragraph', text: 'At a private clinic (CUF, Luz) — no waiting list, but €80–150 for the first appointment. Faster if the SNS queue is 4+ hours.' }
@@ -106,6 +106,6 @@ export default {
     { title: 'SNS 24 — online services', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ACSS — SNS statistics', url: 'https://www.acss.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

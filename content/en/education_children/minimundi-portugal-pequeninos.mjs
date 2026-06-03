@@ -3,7 +3,7 @@ export default {
   id: 'minimundi-portugal-pequeninos',
   categoryId: 'education_children',
   title: 'Portugal dos Pequenitos and Minimundi: miniature Portugal for children',
-  tldr: 'Portugal dos Pequenitos in Coimbra has been operating since 1940: child-sized copies of Portuguese houses, monuments and former overseas territories, a good 1.5–3 hour format for children aged 3–10. On the Costa do Estoril, look for Minimundi as a small local children’s stop, not a large theme park. For a full day near Lisbon, KidZania Lisboa at UBBO is more practical; in the north — Magikland Penafiel.\n\nIn 2026, budget roughly €10–22 per child ticket, plus transport and food.',
+  tldr: 'Portugal dos Pequenitos in Coimbra has been operating since 1940: child-sized copies of Portuguese houses, monuments and former overseas territories, a good 1.5–3 hour format for children aged 3–10. On the Costa do Estoril, look for Minimundi as a small local children’s stop, not a large theme park. For a full day near Lisbon, KidZania Lisboa at UBBO is more practical; in the north — Magikland Penafiel.\n\nIn 2026, budget roughly €6–24 per child ticket, plus transport and food.',
   tags: ['children', 'coimbra', 'parks', 'kidzania'],
   estimatedReadMinutes: 5,
   steps: [
@@ -47,16 +47,16 @@ export default {
       id: 'budget-logistics',
       title: 'Budget, transport and 2026 tips',
       content: [
-        { kind: 'paragraph', text: 'For a family day out, count more than just admission. The real cost is tickets, train/fuel/parking, lunch, water, ice cream and souvenirs. In 2026, a typical child ticket for places like these often falls in the €10–22 range, but the exact price depends on age, season, online fare and family packages.' },
+        { kind: 'paragraph', text: 'For a family day out, count more than just admission. The real cost is tickets, train/fuel/parking, lunch, water, ice cream and souvenirs. In 2026, a typical child ticket for places like these falls roughly in the €6–24 range (Portugal dos Pequenitos is around €6 per child, KidZania is more expensive), but the exact price depends on age, season, online fare and family packages.' },
         { kind: 'checklist', items: ['Buy tickets online if the site offers a discount or a fixed slot', 'Check age thresholds: 0–2, 3–4, 5–12, 13+ may be counted differently', 'Look for “bilhete família” if 2 adults + 2 children are going', 'Bring water and a snack: inside is often more expensive and has less choice', 'In Coimbra, parking near tourist spots can be difficult — arrive in the morning', 'From Lisboa/Porto to Coimbra by train, it is convenient to go to Coimbra-B, then transfer/taxi to the centre', 'At KidZania, allow time for entry through UBBO and queues for popular professions', 'During Portugal’s school holidays, book in advance: Páscoa, July–August, Natal and feriados'] },
         { kind: 'warning', text: 'Amusement park prices in Portugal are often updated before the season and may differ at the ticket office and online. Before buying, check the date, the child’s age and whether an accompanying adult is included.' }
       ]
     }
   ],
   costs: [
-    { label: 'Portugal dos Pequenitos — child/concession admission', amountEURMin: 10, amountEURMax: 15, note: 'Guide price for 2026; the exact price depends on age and the fare on the park website.' },
-    { label: 'KidZania Lisboa — child', amountEURMin: 16, amountEURMax: 22, note: 'Guide price for a standard visit; promotions, holidays and age categories change the final amount.' },
-    { label: 'Magikland Penafiel — day ticket', amountEURMin: 18, amountEURMax: 22, note: 'Seasonal park; check the calendar and online prices before travelling.' },
+    { label: 'Portugal dos Pequenitos — child/concession admission', amountEURMin: 6, amountEURMax: 9, note: 'For 2026: children 3–13 and 65+ — €5.95, adults 14–64 — €8.95, family ticket (2+2) — €25.95. Check the park website.' },
+    { label: 'KidZania Lisboa — child', amountEURMin: 16, amountEURMax: 24, note: 'For 2026: ages 3–4 — about €15.50, ages 5–15 — about €23.50 (a 4-hour visit). Promotions, holidays and age categories change the final amount.' },
+    { label: 'Magikland Penafiel — day ticket', amountEURMin: 14, amountEURMax: 23, note: 'For 2026: children 3–12 — €14, adults 13–64 — €22.50. Seasonal park; check the calendar and online prices before travelling.' },
     { label: 'Family day with transport and food', amountEURMin: 70, amountEURMax: 160, note: 'For 2 adults + 1–2 children, without an overnight stay; Coimbra from another city may cost more.' }
   ],
   sources: [
@@ -64,6 +64,6 @@ export default {
     { title: 'KidZania Lisboa — official website, tickets and slots', url: 'https://www.kidzania.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Magikland — official Penafiel park website', url: 'https://www.magikland.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

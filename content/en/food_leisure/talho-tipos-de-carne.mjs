@@ -45,7 +45,7 @@ export default {
       id: 'picanha',
       title: 'Picanha: popular, but not a classic Portuguese cut',
       content: [
-        { kind: 'paragraph', text: 'Picanha is known almost everywhere in Portugal because of Brazilian restaurants and churrasqueira. But it is a Brazilian style of separating the top part of the rump cap with a fat cap. In traditional Portuguese butchery, this area may fall under alcatra/pojadorao/pojadoro, depending on the butcher and region.' },
+        { kind: 'paragraph', text: 'Picanha is known almost everywhere in Portugal because of Brazilian restaurants and churrasqueira. But it is a Brazilian style of separating the top part of the rump cap with a fat cap. In traditional Portuguese butchery, this area may fall under alcatra or pojadouro, depending on the butcher and region.' },
         { kind: 'checklist', items: [
           'Good picanha has an even layer of fat on top, around 0.5–1.5 cm.',
           'For churrasqueira, ask for “picanha inteira” or “em peças”, not thin bifes.',
@@ -69,7 +69,7 @@ export default {
           'perna — leg. It can be perna de porco, perna de borrego, perna de frango; specify the animal.',
           'pá — shoulder. Good for roasting and stewing, cheaper than lombo.',
           'frango inteiro — whole chicken; frango do campo is more expensive and firmer in texture.',
-          'peito de frango — chicken breast; pernas/coxsas — legs/thighs; asas — wings.',
+          'peito de frango — chicken breast; pernas/coxas — legs/thighs; asas — wings.',
           'borrego — lamb/young sheep; cabrito — kid goat, often for assado.'
         ] }
       ]
@@ -125,6 +125,6 @@ export default {
     { title: 'Continente — online Talho catalogue and current retail prices', url: 'https://www.continente.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Pingo Doce — meat department and retail prices', url: 'https://www.pingodoce.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

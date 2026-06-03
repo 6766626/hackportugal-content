@@ -3,7 +3,7 @@ export default {
   id: 'imt-stamp-duty-buy',
   categoryId: 'housing_buy',
   title: 'IMT and Imposto do Selo when buying property',
-  tldr: 'When buying property in Portugal, the buyer pays IMT and Imposto do Selo before the escritura. The base is the higher of the transaction price and the VPT from the caderneta predial. For housing for própria e permanente in Continente in 2026, a progressive IMT table applies: 0% up to €106,346, then 2–8%, with separate rates of 6% and 7.5% for expensive properties (escalões updated by OE 2026 +2%)\.\n\nImposto do Selo on the purchase is 0.8%. For jovens até 35 buying their first permanent home, there is an exemption up to €330,539 and partial relief up to €661,078.',
+  tldr: 'When buying property in Portugal, the buyer pays IMT and Imposto do Selo before the escritura. The base is the higher of the transaction price and the VPT from the caderneta predial. For housing for própria e permanente in Continente in 2026, a progressive IMT table applies: 0% up to €106,346, then 2–8%, with separate rates of 6% and 7.5% for expensive properties (escalões updated by OE 2026 +2%)\.\n\nImposto do Selo on the purchase is 0.8%. For jovens até 35 buying their first permanent home, there is an exemption up to €330,539 and partial relief up to €660,982.',
   tags: ['imt', 'selo', 'escritura', 'property'],
   estimatedReadMinutes: 6,
   steps: [
@@ -30,7 +30,7 @@ export default {
       title: 'IMT rates for housing in Continente',
       content: [
         { kind: 'paragraph', text: 'For urban housing, the rates depend on its use: habitação própria e permanente — the buyer’s main home; habitação secundária or arrendamento — a second home, investment or rental. In Madeira and Açores, regional tables apply.' },
-        { kind: 'paragraph', text: 'For habitação própria e permanente in Continente, the 2026 table (OE 2026, escalões increased by 2%) uses the following thresholds: up to €106,346 — 0%; €106,346–€145,471 — 2% minus parcela a abater of €2,126.92; €145,471–€198,347 — 5% minus €6,491.03; €198,347–€330,539 — 7% minus €10,457.98; €330,539–€661,078 — 8% minus €13,763.38; €661,078–€1,150,853 — flat rate of 6%; above €1,150,853 — flat rate of 7.5%.' },
+        { kind: 'paragraph', text: 'For habitação própria e permanente in Continente, the 2026 table (OE 2026, escalões increased by 2%) uses the following thresholds: up to €106,346 — 0%; €106,346–€145,470 — 2% minus parcela a abater of €2,126.92; €145,470–€198,347 — 5% minus €6,491.03; €198,347–€330,539 — 7% minus €10,457.98; €330,539–€660,982 — 8% minus €13,763.38; €660,982–€1,150,853 — flat rate of 6%; above €1,150,853 — flat rate of 7.5%.' },
         { kind: 'checklist', items: [
           'Main home up to €106,346 in Continente: IMT = €0, but Selo at 0.8% remains unless there is a separate relief.',
           'Main home at €250,000: IMT = 250,000 × 7% − €10,457.98 = €7,042.02.',

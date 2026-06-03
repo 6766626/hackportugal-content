@@ -98,7 +98,7 @@ export default {
           'Do not mix personal expenses and project expenses in the same orçamento',
           'Check the possibility of IVA reduzido 6% for empreitadas de reabilitação urbana, if the property and works qualify',
           'Ask the Câmara whether there is an IMI exemption/reduction after reabilitação',
-          'If you rent out the property, take IRS/IRC and the limit on annual rent indexation into account: in 2026 the applicable coefficient is 2.16%',
+          'If you rent out the property, take IRS/IRC and the limit on annual rent indexation into account: in 2026 the applicable coefficient is 2.24%',
           'For Alojamento Local, check local restrictions: renovation does not guarantee an AL licence'
         ] },
         { kind: 'warning', text: 'Do not build “the subsidy will definitely cover X%” into your financial model. Until written approval, treat the project as a loan with your own liquidity buffer for overruns, Câmara delays and VAT.' }
@@ -154,6 +154,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

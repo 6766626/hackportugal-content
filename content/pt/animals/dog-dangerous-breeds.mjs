@@ -3,7 +3,7 @@ export default {
   id: 'dog-dangerous-breeds',
   categoryId: 'animals',
   title: 'Cães em Portugal — registo, raças perigosas, imposto',
-  tldr: 'Registo de cães: o SIAC (Sistema de Identificação dos Animais de Companhia) é obrigatório após a colocação do microchip — gratuito no veterinário. A licença municipal (licença canina) — categoria conforme o tipo de cão: H = cão perigoso, G = cão potencialmente perigoso, categorias normais — para os restantes. Segundo o DL 315/2009: para cão perigoso/potencialmente perigoso é obrigatório seguro de responsabilidade civil (mínimo legal), açaime + trela em locais públicos, proprietário maior de idade e sem condenações por determinados crimes. Lista de potencialmente perigoso (Portaria 422/2004 e actualizações): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino e cruzamentos destas raças.',
+  tldr: 'Registo de cães: o SIAC (Sistema de Identificação dos Animais de Companhia) é obrigatório após a colocação do microchip — gratuito no veterinário. A licença municipal (licença canina) — categoria conforme o tipo de cão: H = cão perigoso, G = cão potencialmente perigoso, categorias normais — para os restantes. Segundo o DL 315/2009: para cão perigoso/potencialmente perigoso é obrigatório seguro de responsabilidade civil (mínimo de 50 000 €), açaime e trela em locais públicos, proprietário maior de idade e sem condenações por determinados crimes. Lista de potencialmente perigoso (Portaria 422/2004 e actualizações): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino e cruzamentos destas raças.',
   tags: ['cães', 'animais', 'cão', 'raças perigosas'],
   estimatedReadMinutes: 5,
   steps: [
@@ -24,9 +24,9 @@ export default {
             { kind: 'checklist', items: [
               'É requerida na Junta de Freguesia da área de residência',
               'Documentos: registo no SIAC, vacinação contra a raiva, comprovativo de esterilização (se estiver esterilizado)',
-              'Custo: 5-15 €/ano (depende do município; categorias A/B — mais caro, até 50 €)',
+              'Custo: 5-15 €/ano (depende do município; categorias G/H — mais caro, até 50 €)',
               'Medalha — aro com número, fixado na coleira',
-              'Renovação anual até 31 de Março',
+              'Renovação anual (o prazo exacto depende da freguesia)',
               'Coima por falta de licença: 50-250 €'
             ]}
           ]},
@@ -56,9 +56,8 @@ export default {
               'Dogo Argentino',
               'Fila Brasileiro',
               'Tosa Inu (Tosa Japanese)',
-              'Cão de Fila de São Miguel',
               'Cruzamentos destas raças (≥ 50% de sangue)',
-              'Qualquer cão que tenha manifestado agressividade contra uma pessoa ou animal (sem provocação) passa a cão perigoso (categoria H) (perigoso) por decisão do veterinário municipal'
+              'Qualquer cão que tenha manifestado agressividade contra uma pessoa ou animal (sem provocação) passa à categoria H (cão perigoso) por decisão do veterinário municipal'
             ]}
           ]},
           { id: 'd2', title: 'Requisitos para o proprietário', content: [
@@ -77,7 +76,7 @@ export default {
               'Não é permitido em parques infantis, transportes públicos, restaurantes',
               'No quintal: vedação ≥ 1.8 m, placa «cão perigoso»',
               'Passeio apenas com acompanhante adulto',
-              'Não mais de 2 cães de categoria A/B no mesmo agregado sem licença especial'
+              'Não mais de 2 cães de categoria G/H no mesmo agregado sem licença especial'
             ]}
           ]},
           { id: 'd4', title: 'Coimas', content: [
@@ -98,7 +97,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'A criação profissional exige registo na DGAV (Direção-Geral de Alimentação e Veterinária)',
-          'Criação de categoria A/B — proibida (desde 2009) — apenas é possível a esterilização',
+          'Criação de categoria G/H — proibida (desde 2009) — apenas é possível a esterilização',
           'Venda sem chip/registo — coima até 3 750 €',
           'Clubes cinológicos: Clube Português de Canicultura (cpc.pt) para pedigrees oficiais'
         ]}
@@ -153,17 +152,18 @@ export default {
   costs: [
     { label: 'Microchip SIAC', amountEURMin: 20, amountEURMax: 40 },
     { label: 'Licença Canina (normal)', amountEURMin: 5, amountEURMax: 15, note: '€/ano' },
-    { label: 'Licença Canina cão perigoso (categoria H)/B', amountEURMin: 25, amountEURMax: 50, note: '€/ano' },
-    { label: 'Seguro para categorias A/B', amountEURMin: 50, amountEURMax: 200, note: '€/ano' },
+    { label: 'Licença Canina cão perigoso/potencialmente perigoso (categorias G/H)', amountEURMin: 25, amountEURMax: 50, note: '€/ano' },
+    { label: 'Seguro para categorias G/H', amountEURMin: 50, amountEURMax: 200, note: '€/ano' },
     { label: 'Vacinação anual', amountEURMin: 30, amountEURMax: 50 },
     { label: 'Castração', amountEURMin: 150, amountEURMax: 500 }
   ],
   sources: [
     { title: 'DGAV — SIAC', url: 'https://www.dgav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DL 315/2009 — cães perigosos (consolidado)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34469975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portaria 422/2004 — lista de raças potencialmente perigosas', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/422-2004-222996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Lei 69/2014 — maus tratos a animais', url: 'https://diariodarepublica.pt/dr/detalhe/lei/69-2014-56470378', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Clube Português de Canicultura', url: 'https://www.cpc.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

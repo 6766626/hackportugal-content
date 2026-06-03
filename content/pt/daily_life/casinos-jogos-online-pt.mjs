@@ -67,7 +67,7 @@ export default {
   costs: [
     { label: 'Verificação da licença do operador no site do SRIJ', amountEUR: 0, note: 'Gratuito, a lista de entidades licenciadas está publicamente disponível.' },
     { label: 'Registo num operador online', amountEUR: 0, note: 'A conta é gratuita; só precisa de dinheiro para o depósito, cujo valor depende do operador.' },
-    { label: 'Autoexclusão / autoexclusão', amountEUR: 0, note: 'A apresentação do pedido é gratuita; o prazo e o âmbito dependem do mecanismo escolhido.' },
+    { label: 'Autoexclusão / autoexclusão de jogo', amountEUR: 0, note: 'A apresentação do pedido é gratuita; o prazo e o âmbito dependem do mecanismo escolhido.' },
     { label: 'Entrada num casino físico', amountEURMin: 0, amountEURMax: 20, note: 'A entrada normal é frequentemente gratuita, mas eventos, concertos e zonas especiais podem ter custo separado.' }
   ],
   sources: [
@@ -76,6 +76,6 @@ export default {
     { title: 'Decreto-Lei 66/2015 — Regime Jurídico dos Jogos e Apostas Online', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/66-2015-67098382', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 422/89 — Lei do Jogo para casinos físicos', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/422-1989-618718', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

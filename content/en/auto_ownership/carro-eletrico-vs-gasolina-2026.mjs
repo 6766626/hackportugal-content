@@ -71,7 +71,7 @@ export default {
           'Petrol: IUC is often €120–€300/year for mainstream models, but may be higher for powerful SUVs.',
           'IVA is not recoverable for a private individual; for companies and ENI there may be separate rules, limits and tributação autónoma.',
           'Fundo Ambiental: in 2026, the guide figure for an individual is support of up to €4,000 for the purchase of a BEV, subject to the programme conditions.',
-          'The subsidy is not automatic: you need an open aviso, budget availability, purchase documents and compliance with the car price limit.',
+          'The subsidy is not automatic: you need an open aviso, budget availability, purchase documents and compliance with the car price limit (in the 2026 aviso, up to €38,500 for cars with up to 5 seats).',
           'Buying before the aviso opens or outside its conditions may not give you the right to payment.',
           'Fundo Ambiental money may run out before the deadline — treat the voucher as a bonus, not a guaranteed discount.'
         ] },
@@ -129,6 +129,6 @@ export default {
     { title: 'Autoridade Tributária — IUC and ISV on Portal das Finanças', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE — Electric Mobility Tariffs and Prices', url: 'https://www.erse.pt/mobilidade-eletrica/tarifas-e-precos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

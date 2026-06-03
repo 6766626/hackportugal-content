@@ -135,7 +135,7 @@ export default {
   costs: [
     { label: 'Verificação das condições e registo no site municipal', amountEUR: 0, note: 'Normalmente gratuito; o que é pago é o serviço concreto, bilhete ou mensalidade com desconto.' },
     { label: 'Atestado de residência na Junta de Freguesia', amountEURMin: 0, amountEURMax: 10, note: 'A taxa depende da freguesia e da urgência; alguns certificados para fins sociais podem ser gratuitos.' },
-    { label: 'Lisboa Card turística', amountEURMin: 27, amountEURMax: 54, note: 'É um produto turístico separado para 24/48/72 horas; não é o Cartão Lisboa para residentes.' }
+    { label: 'Lisboa Card turística', amountEURMin: 31, amountEURMax: 62, note: 'É um produto turístico separado para 24/48/72 horas (preço de adulto de 2026); não é o Cartão Lisboa para residentes.' }
   ],
   sources: [
     { title: 'Câmara Municipal de Lisboa — portal oficial dos serviços e programas municipais', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -143,6 +143,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — cultura, desporto e iniciativas da cidade', url: 'https://www.cm-lisboa.pt/viver', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Turismo de Lisboa — Lisboa Card turística para comparação', url: 'https://www.visitlisboa.com/en/p/lisboa-card', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

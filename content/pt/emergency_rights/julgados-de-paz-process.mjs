@@ -3,7 +3,7 @@ export default {
   id: 'julgados-de-paz-process',
   categoryId: 'emergency_rights',
   title: 'Julgados de Paz: tribunal de proximidade para litígios até 15 000 €',
-  tldr: 'Os Julgados de Paz são tribunais cíveis rápidos para pequenos litígios até 15 000 €: reclamações de consumo, contratos, dívidas, condomínio, conflitos de vizinhança e patrimoniais. A taxa inicial é normalmente 35 € por requerente; a taxa única total é 70 €.\n\nO processo é mediation-first: primeiro é proposta mediação, depois há audiência perante o juiz de paz. Não servem para processos de família, sucessões, trabalho, crime, insolvência nem despejo. Funcionam apenas nos territórios onde exista Julgado de Paz.',
+  tldr: 'Os Julgados de Paz são tribunais cíveis rápidos para pequenos litígios até 15 000 €: reclamações de consumo, contratos, dívidas, condomínio, conflitos de vizinhança e patrimoniais. A taxa única é paga no fim do processo: 25 € por parte se houver acordo na mediação, ou 70 € pela parte vencida se o juiz decidir.\n\nO processo é mediation-first: primeiro é proposta mediação, depois há audiência perante o juiz de paz. Não servem para processos de família, sucessões, trabalho, crime, insolvência nem despejo. Funcionam apenas nos territórios onde exista Julgado de Paz.',
   tags: ['julgados', 'tribunal', 'litígios', 'mediação'],
   estimatedReadMinutes: 6,
   steps: [
@@ -77,8 +77,8 @@ export default {
           { id: 'write-claim', title: '2. Descreva o pedido em linguagem simples', content: [
             { kind: 'paragraph', text: 'Indique: quem deve a quem, o que aconteceu, a data, o valor, as provas e o que pede exactamente: pagar X €, devolver um bem, corrigir um defeito, cessar a infracção.' }
           ] },
-          { id: 'pay-fee', title: '3. Pague a taxa inicial', content: [
-            { kind: 'paragraph', text: 'Normalmente o requerente paga 35 € no momento da apresentação. A taxa única total do processo é 70 € e, em regra, é repartida entre as partes; a distribuição final depende do resultado do processo.' }
+          { id: 'pay-fee', title: '3. Tenha em conta a taxa única', content: [
+            { kind: 'paragraph', text: 'No momento da apresentação não se paga nada: a taxa é paga no fim do processo por transferência bancária. Se as partes chegarem a acordo na mediação, cada uma paga 25 €. Se o juiz decidir o processo, a taxa única é de 70 €, suportada pela parte vencida (em caso de perda parcial, o juiz reparte o valor proporcionalmente).' }
           ] },
           { id: 'wait-notification', title: '4. Aguarde a notificação do requerido', content: [
             { kind: 'paragraph', text: 'O Julgado de Paz notifica o requerido e propõe a tramitação seguinte: mediação, contestação, marcação de audiência. Esteja atento ao correio: falhar uma notificação pode prejudicar o processo.' }
@@ -92,7 +92,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A lógica dos Julgados de Paz é tentar primeiro uma solução amigável. A mediação é voluntária: se ambas as partes concordarem, o mediador ajuda a formalizar um acordo. Esse acordo pode ter força de sentença judicial após homologação.' },
         { kind: 'checklist', items: [
-          'a mediação é mais barata e mais rápida se o litígio puder ser resolvido com pagamento ou reparação',
+          'a mediação é mais barata e mais rápida: um acordo custa apenas 25 € por parte',
           'não aceite promessas verbais sem acordo escrito',
           'no acordo, fixe o valor, o prazo, o IBAN, o pagamento em prestações e as consequências do atraso',
           'se a mediação falhar, o processo segue para o juiz de paz',
@@ -102,7 +102,7 @@ export default {
           'a decisão do juiz de paz chama-se sentença e é de cumprimento obrigatório',
           'se a parte não pagar voluntariamente, pode haver processo executivo'
         ] },
-        { kind: 'warning', text: 'O recurso nem sempre é possível. Em regra, depende do valor da causa e das condições processuais. Se o valor for significativo para si ou o litígio for juridicamente complexo, mostre os documentos a um advogado ou solicitador antes de apresentar o processo.' }
+        { kind: 'warning', text: 'O recurso nem sempre é possível: em regra, só se o valor da causa for superior a 2 500 € e, nessa fase, o advogado passa a ser obrigatório. Se o valor for significativo para si ou o litígio for juridicamente complexo, mostre os documentos a um advogado ou solicitador antes de apresentar o processo.' }
       ]
     },
     {
@@ -125,15 +125,16 @@ export default {
     }
   ],
   costs: [
-    { label: 'Apresentação pelo requerente', amountEUR: 35, note: 'Normalmente paga no início do processo no Julgado de Paz.' },
-    { label: 'Taxa única total do processo', amountEUR: 70, note: 'Regra geral, 35 € por cada parte; a distribuição final pode depender da decisão.' },
+    { label: 'Acordo na mediação', amountEUR: 25, note: '25 € por cada parte (50 € no total) se o litígio terminar em acordo de mediação.' },
+    { label: 'Taxa única se o juiz decidir', amountEUR: 70, note: 'Paga pela parte vencida no fim do processo; em caso de perda parcial, o juiz reparte o valor proporcionalmente.' },
     { label: 'Advogado ou solicitador', amountEURMin: 50, amountEURMax: 250, note: 'Não é obrigatório para a maioria dos processos, mas é útil para verificar o pedido, as provas e o recurso.' }
   ],
   sources: [
     { title: 'ePortugal: iniciar um processo num Julgado de Paz', url: 'https://www2.gov.pt/en/servicos/iniciar-um-processo-num-julgado-de-paz', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Conselho dos Julgados de Paz: tribunais, competência e informação', url: 'https://www.conselhodosjulgadosdepaz.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Lei 78/2001: organização, competência e funcionamento dos Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34412675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Lei 78/2001: organização, competência e funcionamento dos Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34412675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Portaria 342/2019: regime de cobrança das taxas nos Julgados de Paz', url: 'https://files.dre.pt/1s/2019/10/18900/0011900120.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

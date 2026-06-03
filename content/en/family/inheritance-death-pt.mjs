@@ -35,7 +35,7 @@ export default {
               '🌐 Alternative: online via CMD at gov.pt',
               '📜 Documents: Certidão de Óbito from the doctor + Cartão de Cidadão of the deceased + Cartão de Cidadão of the applicant',
               '✅ Free if completed within 48 hours',
-              '⚠️ Delay >48 h = fine €50–€200',
+              '⚠️ Delay >48 h = additional fees (emolumentos), sometimes authorisation from the Public Prosecutor (Ministério Público) is required',
               '📜 You receive the “Assento de Óbito”'
             ]}
           ]}
@@ -70,7 +70,7 @@ export default {
               '✝️ Catholic mass: free for parishioners',
               '☪️ Muslim ceremony: Mesquita Central de Lisboa',
               '✡️ Jewish: Comunidade Israelita',
-              '🛐 Orthodox: there are Orthodox services at Sé de Lisboa church',
+              '🛐 Orthodox: the Russian Orthodox Church in Lisbon (Igreja Ortodoxa Russa)',
               '🌐 Secular ceremony: increasingly chosen by foreigners'
             ]}
           ]}
@@ -164,7 +164,7 @@ export default {
           '🤝 A lawyer for “direito sucessório” is essential if: there is property >€500k, foreigners, disputed heirs',
           '⏱️ The Imposto do Selo declaration is filed by the end of the 3rd month following the month of death — missing the deadline means a fixed coima of €150–€3,750 (RGIT Art. 117; minimum €50, or €25 if reduced), NOT a percentage of the inheritance',
           '💰 The deceased’s life insurance contract — separate procedure, not included in the inheritance (if a beneficiary is named)',
-          '🌐 PT has international agreements with the Russian Federation/Ukraine on inheritance — they simplify the process',
+          '🌐 Documents from the Russian Federation/Ukraine (death, marriage, kinship certificates) must be legalised for PT (apostille) and translated by a sworn translator',
           '🏠 If the deceased was a tenant — the heir has the right to continue the contract, they cannot be evicted',
           '📊 Keep all documents (Habilitação de Herdeiros, payment of Imposto do Selo, registos) — they may be needed for FATCA / the country of your tax residence'
         ]}
@@ -184,6 +184,6 @@ export default {
     { title: 'Autoridade Tributária — Imposto do Selo (inheritance)', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'EU Regulation 650/2012 — Brussels IV', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0650', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

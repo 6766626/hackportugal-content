@@ -3,7 +3,7 @@ export default {
   id: 'imi-property-tax',
   categoryId: 'housing_buy',
   title: 'IMI — муниципальный налог на недвижимость',
-  tldr: 'IMI платит каждый собственник недвижимости в Португалии: налог считается от Valor Patrimonial Tributário (VPT), а не от цены покупки. В 2026 ставки: 0,3–0,45% для городской недвижимости, 0,8% для сельской, 7,5% для владельцев из офшорных юрисдикций. Счёт приходит в Finanças весной: платёж в мае, либо май/ноябрь, либо май/август/ноябрь. Для primeira habitação possível льгота до 3 лет при VPT ≤ 125 000 € и доходе ≤ 153 300 €; “IMI jovem” зависит от município.',
+  tldr: 'IMI платит каждый собственник недвижимости в Португалии: налог считается от Valor Patrimonial Tributário (VPT), а не от цены покупки. В 2026 ставки: 0,3–0,45% для городской недвижимости, 0,8% для сельской, 7,5% для владельцев из офшорных юрисдикций. Счёт приходит в Finanças весной: платёж в мае, либо май/ноябрь, либо май/август/ноябрь. Для primeira habitação возможна льгота до 3 лет при VPT ≤ 125 000 € и доходе ≤ 153 300 €; “IMI jovem” зависит от município.',
   tags: ['imi', 'недвижимость', 'finanças', 'vpt'],
   estimatedReadMinutes: 5,
   steps: [
@@ -36,10 +36,10 @@ export default {
     },
     {
       id: 'exemptions',
-      title: 'Льготы: primeira habitação, low income, dependents, IMI jovem',
+      title: 'Льготы: primeira habitação, низкий доход, иждивенцы, IMI jovem',
       content: [
-        { kind: 'paragraph', text: 'Главная национальная льгота — временное освобождение от IMI для habitação própria e permanente. В 2026 базовые условия по Estatuto dos Benefícios Fiscais: объект используется как постоянное собственное жильё, VPT объекта не выше 125 000 €, совокупный доход household для IRS не выше 153 300 €. Обычно льгота действует до 3 лет.' },
-        { kind: 'checklist', items: ['Адрес в Finanças должен быть изменён на адрес купленного жилья', 'Объект должен быть afetado a habitação própria e permanente', 'Проверьте Caderneta Predial: тип объекта, VPT, владельцы, доли', 'Запрос льготы подаётся через Portal das Finanças или e-Balcão, если автоматом не применилось', 'Низкодоходные households могут иметь отдельное постоянное освобождение при выполнении лимитов по доходу и VPT', 'IMI familiar: município может дать вычет за иждивенцев — обычно 30 € за 1, 70 € за 2, 140 € за 3 и более', '“IMI jovem” не является единой национальной льготой: это муниципальная мера, условия по возрасту, доходу, сроку и проценту скидки задаёт Câmara Municipal', 'Покупка primeira habitação молодыми до 35 лет имеет отдельные льготы по IMT и Imposto do Selo; не путайте их с IMI'] },
+        { kind: 'paragraph', text: 'Главная национальная льгота — временное освобождение от IMI для habitação própria e permanente. В 2026 базовые условия по Estatuto dos Benefícios Fiscais: объект используется как постоянное собственное жильё, VPT объекта не выше 125 000 €, совокупный доход домохозяйства для IRS не выше 153 300 €. Обычно льгота действует до 3 лет.' },
+        { kind: 'checklist', items: ['Адрес в Finanças должен быть изменён на адрес купленного жилья', 'Объект должен быть afetado a habitação própria e permanente', 'Проверьте Caderneta Predial: тип объекта, VPT, владельцы, доли', 'Запрос льготы подаётся через Portal das Finanças или e-Balcão, если автоматом не применилось', 'Домохозяйства с низким доходом могут иметь отдельное постоянное освобождение при выполнении лимитов по доходу и VPT', 'IMI familiar: município может дать вычет за иждивенцев — обычно 30 € за 1, 70 € за 2, 140 € за 3 и более', '“IMI jovem” не является единой национальной льготой: это муниципальная мера, условия по возрасту, доходу, сроку и проценту скидки задаёт Câmara Municipal', 'Покупка primeira habitação молодыми до 35 лет имеет отдельные льготы по IMT и Imposto do Selo; не путайте их с IMI'] },
         { kind: 'warning', text: 'Не рассчитывайте на льготу только потому, что это первая квартира. Для IMI важны VPT, доход, статус habitação própria e permanente и решение município. Перед покупкой проверьте ставку и льготы конкретной Câmara Municipal.' }
       ]
     },
@@ -56,7 +56,7 @@ export default {
     { label: 'IMI для городской недвижимости', amountEURMin: 0, amountEURMax: 0, note: 'Ставка 0,3–0,45% от VPT в год; сумма зависит от município и VPT.' },
     { label: 'IMI для сельской недвижимости', amountEURMin: 0, amountEURMax: 0, note: 'Ставка 0,8% от VPT в год.' },
     { label: 'IMI familiar', amountEURMin: 30, amountEURMax: 140, note: 'Возможный муниципальный вычет: 30 € за 1 иждивенца, 70 € за 2, 140 € за 3 и более; применяется только если município утвердил меру.' },
-    { label: 'Временная isenção для habitação própria e permanente', amountEUR: 0, note: 'До 3 лет при выполнении условий: VPT ≤ 125 000 € и доход household ≤ 153 300 €.' }
+    { label: 'Временная isenção для habitação própria e permanente', amountEUR: 0, note: 'До 3 лет при выполнении условий: VPT ≤ 125 000 € и доход домохозяйства ≤ 153 300 €.' }
   ],
   sources: [
     { title: 'Finanças — Código do IMI (CIMI), índice', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cimi/Pages/cimi1.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
@@ -64,6 +64,6 @@ export default {
     { title: 'Portal das Finanças: IMI и pagamento de impostos', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal: покупка жилья и налоги на недвижимость', url: 'https://www.gov.pt/cidadaos/comprar-arrendar-ou-vender-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

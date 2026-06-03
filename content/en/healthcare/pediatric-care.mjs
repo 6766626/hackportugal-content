@@ -133,6 +133,6 @@ export default {
     { title: 'SNS — Serviços de Urgência', url: 'https://www.sns.gov.pt/sns/servicos-de-urgencia/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Hospital Dona Estefânia (paediatric)', url: 'https://www.chlc.min-saude.pt/urgencias-2/urgencia-pediatrica-hospital-de-dona-estefania/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

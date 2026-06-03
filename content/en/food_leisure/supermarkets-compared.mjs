@@ -3,7 +3,7 @@ export default {
   id: 'supermarkets-compared',
   categoryId: 'daily_life',
   title: 'Supermarkets in Portugal — comparison',
-  tldr: 'Main chains: Continente (leader, Sonae), Pingo Doce (quality and promotions, Jerónimo Martins), Lidl (cheap + specialised goods), Auchan (hypermarket; in 2024–2025 acquired DIA Portugal — the Minipreço brand is being rebranded/integrated), Aldi (discounter), Mercadona (Spanish chain, expanded beyond the north, active in Lisbon and the centre of the country), El Corte Inglés (premium, Lisbon/Gaia)\.\n\nCards/apps are often needed for the best promotions and personalised coupons; without them, some discounts are unavailable, but savings depend on your basket.',
+  tldr: 'Main chains: Continente (leader, Sonae), Pingo Doce (quality and promotions, Jerónimo Martins), Lidl (cheap + specialised goods), Auchan (hypermarket; in 2024–2025 acquired DIA Portugal — the Minipreço brand is being rebranded/integrated), Aldi (discounter), Mercadona (Spanish chain, expanded beyond the north, active in Lisbon and the centre of the country), El Corte Inglés (premium, Lisbon/Gaia).\n\nCards/apps are often needed for the best promotions and personalised coupons; without them, some discounts are unavailable, but savings depend on your basket.',
   tags: ['supermarkets', 'continente', 'pingo doce', 'lidl'],
   estimatedReadMinutes: 6,
   steps: [
@@ -88,6 +88,6 @@ export default {
     { title: 'Autoridade Tributária / Portal e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGADR — food policy', url: 'https://www.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

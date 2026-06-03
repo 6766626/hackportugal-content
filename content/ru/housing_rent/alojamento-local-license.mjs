@@ -3,7 +3,7 @@ export default {
   id: 'alojamento-local-license',
   categoryId: 'housing_rent',
   title: 'Alojamento Local (AL): лицензия на краткосрочную аренду',
-  tldr: 'Alojamento Local — регистрация жилья для краткосрочной аренды туристам через Câmara Municipal и RNAL.\n\nВ 2026 году режим основан на DL 128/2014, с изменениями Mais Habitação и последующими правками: municípios могут создавать zonas de contenção и zonas de crescimento sustentável, где новые AL ограничены или приостановлены. Без номера RNAL нельзя легально размещать объект на Airbnb/Booking. Проверьте регламент Câmara до покупки квартиры под AL.',
+  tldr: 'Alojamento Local — регистрация жилья для краткосрочной аренды туристам через Câmara Municipal и RNAL.\n\nВ 2026 году режим основан на DL 128/2014, с изменениями Mais Habitação (Lei 56/2023) и DL 76/2024, который отменил часть прежних ограничений: municípios могут создавать zonas de contenção и zonas de crescimento sustentável, где новые AL ограничены или приостановлены. Без номера RNAL нельзя легально размещать объект на Airbnb/Booking. Проверьте регламент Câmara до покупки квартиры под AL.',
   tags: ['al', 'аренда', 'rnal', 'câmara'],
   estimatedReadMinutes: 6,
   steps: [

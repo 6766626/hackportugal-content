@@ -3,8 +3,8 @@ export default {
   id: 'pesca-agua-doce-icnf',
   categoryId: 'food_leisure',
   title: 'Pesca em água doce — licença ICNF (Instituto da Conservação da Natureza e das Florestas)',
-  tldr: 'A pesca em rios, albufeiras e lagos de Portugal continental é regulada pelo ICNF (Instituto da Conservação da Natureza e das Florestas), e não pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos).\n\nA licença é obtida online em icnf.pt → e-Balcão ou através da aplicação SI ICNF por cerca de 5-15 €. As principais categorias são: pesca lúdica (desportiva); pesca de salmonídeos (truta, salmão — licença separada e épocas próprias); pesca em zonas concessionadas (zonas especiais com pagamento adicional).\n\nAplicam-se períodos de defeso por espécie: truta — aberta aproximadamente de março a julho (até 31 de agosto em águas específicas), em defeso aproximadamente de agosto/setembro a fevereiro; salmão — proibido durante quase todo o ano, salvo eventos raros. Limite diário: 8 peixes para truta e até 30 para a maioria das restantes espécies.',
-  tags: ['pesca', 'pesca', 'icnf', 'rio', 'água-doce'],
+  tldr: 'A pesca em rios, albufeiras e lagos de Portugal continental é regulada pelo ICNF (Instituto da Conservação da Natureza e das Florestas), e não pela DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos).\n\nA licença é obtida online em icnf.pt → e-Balcão ou através da aplicação SI ICNF. A licença de residente é anual (válida para o ano civil): nacional ~20,52 €, regional ~12,31 €. Os não residentes podem adquirir licenças de curta duração: 7 dias ~16,81 €, 30 dias ~22,45 €. As principais categorias são: pesca lúdica (desportiva); pesca de salmonídeos (truta, salmão — licença separada e épocas próprias); pesca em zonas concessionadas (zonas especiais com pagamento adicional).\n\nAplicam-se períodos de defeso por espécie: truta — aberta aproximadamente de março a julho (até 31 de agosto em águas específicas), em defeso aproximadamente de agosto/setembro a fevereiro; salmão — proibido durante quase todo o ano, salvo eventos raros. Limite diário: 8 peixes para truta e até 30 para a maioria das restantes espécies.',
+  tags: ['pesca', 'pesca-desportiva', 'icnf', 'rio', 'água-doce'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -32,14 +32,14 @@ export default {
           'Pesca em zonas concessionadas: zonas especialmente delimitadas, com pagamento adicional além da licença normal. Muitas vezes são os melhores locais',
           'Lagoa de Albufeira e albufeiras: normalmente aplicam-se as mesmas regras — pesca lúdica. Mas algumas albufeiras podem ter condições especiais'
         ] },
-        { kind: 'paragraph', text: 'Validade das licenças (tipicamente):' },
+        { kind: 'paragraph', text: 'Validade e custo (tipicamente):' },
         { kind: 'checklist', items: [
-          '1 dia: ~3 €',
-          '8 dias: ~5 €',
-          '1 mês: ~10 €',
-          '6 meses: ~15 €',
-          '1 ano: ~25 €'
-        ] }
+          'Residente, nacional (todo o país), para o ano civil: ~20,52 €',
+          'Residente, regional, para o ano civil: ~12,31 €',
+          'Não residente, 7 dias: ~16,81 €',
+          'Não residente, 30 dias: ~22,45 €'
+        ] },
+        { kind: 'paragraph', text: 'A licença de residente é válida para o ano civil (até 31 de dezembro), e não por 12 meses a contar da data de emissão.' }
       ]
     },
     {
@@ -68,7 +68,7 @@ export default {
               { kind: 'checklist', items: [
                 'Tipo: pesca lúdica ou salmonídeos',
                 'Região: por defeito, Portugal continental',
-                'Validade: 1 dia / 8 dias / mês / 6 meses / ano',
+                'Validade: para residentes — o ano civil (nacional ou regional); para não residentes — 7 ou 30 dias',
                 'Opções especiais: lagoas/zonas concessionadas (se tenciona pescar aí)'
               ] }
             ]
@@ -101,7 +101,7 @@ export default {
         { kind: 'paragraph', text: 'Limite diário:' },
         { kind: 'checklist', items: [
           'Truta: até 8 exemplares por dia, tamanho mínimo 20 cm',
-          'Achigã: até 3 por dia, tamanho mínimo 25 cm',
+          'Achigã: até 3 por dia, tamanho mínimo 20 cm',
           'Lúcio: até 3 por dia, tamanho mínimo 35 cm',
           'Barbo: até 30 peixes',
           'Carpa: até 30 peixes',
@@ -147,11 +147,10 @@ export default {
     }
   ],
   costs: [
-    { label: 'Licença 1 dia', amountEUR: 3 },
-    { label: 'Licença 8 dias', amountEUR: 5 },
-    { label: 'Licença 1 mês', amountEUR: 10 },
-    { label: 'Licença 6 meses', amountEUR: 15 },
-    { label: 'Licença 1 ano', amountEUR: 25 },
+    { label: 'Residente, nacional (ano civil)', amountEUR: 20.52 },
+    { label: 'Residente, regional (ano civil)', amountEUR: 12.31 },
+    { label: 'Não residente, 7 dias', amountEUR: 16.81 },
+    { label: 'Não residente, 30 dias', amountEUR: 22.45 },
     { label: 'Zona concessionada — dia', amountEURMin: 5, amountEURMax: 15, note: 'Além da licença normal' },
     { label: 'Conjunto básico de pesca à boia', amountEURMin: 50, amountEURMax: 120 }
   ],
@@ -161,6 +160,6 @@ export default {
     { title: 'Decreto-Lei 112/2017 — regime Pesca em Águas Interiores', url: 'https://dre.pt/dre/detalhe/decreto-lei/112-2017-108128620', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR SEPNA — polícia ambiental', url: 'https://www.gnr.pt/sepna.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

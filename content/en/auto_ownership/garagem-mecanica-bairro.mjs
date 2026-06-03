@@ -93,7 +93,7 @@ export default {
           'For cars under warranty, clarify whether servicing outside the dealer will affect warranty conditions',
           'After replacing the timing belt, ask for the mileage and parts kit to be stated in the fatura'
         ] },
-        { kind: 'warning', text: 'Do not agree to “pass the IPO through contacts”. A legal check is carried out only at autorizados centros de inspeção. Manipulation of mileage, emissions or DPF/EGR can create problems at IPO, on sale and in an insurance claim.' }
+        { kind: 'warning', text: 'Do not agree to “pass the IPO through contacts”. A legal check is carried out only at authorised centros de inspeção. Manipulation of mileage, emissions or DPF/EGR can create problems at IPO, on sale and in an insurance claim.' }
       ]
     },
     {
@@ -128,6 +128,6 @@ export default {
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica: economic inspection and complaints', url: 'https://www.asae.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Eletrónico — official consumer complaints portal', url: 'https://www.livroreclamacoes.pt/Inicio/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

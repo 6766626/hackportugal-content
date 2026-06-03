@@ -85,7 +85,7 @@ export default {
           { id: 'd2', title: 'For Lda (limited company)', content: [
             { kind: 'checklist', items: [
               '📄 Pacto Social — Lda articles of association',
-              '📜 Certidão Permanente — registration extract (available online at portalcidadao.pt for €25)',
+              '📜 Certidão Permanente — registration extract (available online at empresaonline.justica.gov.pt for €25 for one year)',
               '🆔 Cartão de Cidadão + NIF of founders and managers',
               '🔢 Company NIF',
               '💰 Share capital (capital social) to be blocked in the account',
@@ -171,8 +171,8 @@ export default {
   sources: [
     { title: 'Banco de Portugal — Payment account', url: 'https://www.bportugal.pt/page/contas-de-pagamentos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Empresa na Hora', url: 'https://justica.gov.pt/Servicos/Empresas/Empresa-na-Hora', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Autoridade Tributária — Início de Atividade', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Autoridade Tributária — Início de Atividade', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

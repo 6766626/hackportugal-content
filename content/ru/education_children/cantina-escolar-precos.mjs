@@ -3,7 +3,7 @@ export default {
   id: 'cantina-escolar-precos',
   categoryId: 'education_children',
   title: 'Школьное питание Cantina: цены и социальный escalão',
-  tldr: 'Cantina escolar — школьная столовая в госшколах. В 2025/2026 учебном году цена зависит от цикла школы, município и ASE: в 2.º/3.º ciclo обычно escalão A — бесплатно, B — 0,73 €, без ASE — около 1,85 €; в 1.º ciclo питание часто администрирует Câmara Municipal, и тариф может быть от 1,46 € для социального escalão до 4,05 € без поддержки. ASE запрашивают через Portal das Matrículas или в secretaria школы; решение привязано к escalão do abono de família.',
+  tldr: 'Cantina escolar — школьная столовая в госшколах. В 2025/2026 учебном году цена зависит от цикла школы, município и ASE: в 2.º/3.º ciclo обычно escalão A — бесплатно, B — 0,73 €, без ASE — 1,46 € по национальной ставке (плюс 0,30 €, если бронировать в день питания); в 1.º ciclo питание часто администрирует Câmara Municipal, и тариф может доходить примерно до 4,05 € без поддержки. ASE запрашивают через Portal das Matrículas или в secretaria школы; решение привязано к escalão do abono de família.',
   tags: ['cantina', 'ase', 'школа', 'дети'],
   estimatedReadMinutes: 5,
   steps: [
@@ -24,9 +24,9 @@ export default {
         { kind: 'checklist', items: [
           '2.º и 3.º ciclo: escalão A — обычно бесплатно.',
           '2.º и 3.º ciclo: escalão B — обычно 0,73 € за обед.',
-          '2.º и 3.º ciclo: без ASE — около 1,85 € за обед при обычном школьном тарифе.',
+          '2.º и 3.º ciclo: без ASE — 1,46 € за обед по национальной ставке (плюс 0,30 €, если бронировать в день питания).',
           'Secundário: тариф может быть выше, особенно если школа применяет отдельную цену для ensino secundário или позднего заказа.',
-          '1.º ciclo: питание чаще администрирует Câmara Municipal; встречается тариф около 1,46 € для социального escalão и около 4,05 € без поддержки.',
+          '1.º ciclo: питание чаще администрирует Câmara Municipal; муниципальный тариф зависит от concelho и может доходить примерно до 4,05 € без поддержки.',
           'Pré-escolar: правила почти всегда муниципальные; проверяйте tabela de preços da Câmara Municipal.',
           'Поздний заказ или покупка «на день» может стоить дороже обычного бронирования.',
           'Отмена обеда после установленного дедлайна обычно не возвращает деньги.'
@@ -92,8 +92,8 @@ export default {
   costs: [
     { label: '2.º/3.º ciclo, ASE escalão A', amountEUR: 0, note: 'Обычно бесплатно при одобренной Ação Social Escolar.' },
     { label: '2.º/3.º ciclo, ASE escalão B', amountEUR: 0.73, note: 'Обычно 50% льготного школьного тарифа.' },
-    { label: '2.º/3.º ciclo, без ASE', amountEUR: 1.85, note: 'Типовой нормальный тариф; школа может применять отдельную цену для позднего заказа.' },
-    { label: '1.º ciclo, социальный тариф município', amountEUR: 1.46, note: 'Муниципальная таблица; зависит от Câmara Municipal и статуса семьи.' },
+    { label: '2.º/3.º ciclo, без ASE', amountEUR: 1.46, note: 'Национальная ставка по despacho; плюс 0,30 €, если бронировать в день питания.' },
+    { label: '1.º ciclo, социальный тариф município', amountEUR: 0.73, note: 'Муниципальная таблица; зависит от Câmara Municipal и статуса семьи.' },
     { label: '1.º ciclo, без социальной поддержки', amountEUR: 4.05, note: 'Встречающийся муниципальный normal tariff; проверяйте tabela de preços своего concelho.' }
   ],
   sources: [
@@ -119,6 +119,6 @@ export default {
       lastRetrieved: '2026-05-04'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

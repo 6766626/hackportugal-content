@@ -121,7 +121,7 @@ export default {
           'Sapadores Florestais (forest fire prevention services) patrol dry areas in summer',
           'Always take glass bottles away from the beach and picnic'
         ] },
-        { kind: 'paragraph', text: 'For residents of rural homes: every year by 30 April, the firebreak strip (50 m around the house) must be cleared — remove scrub and dry grass. Failure to comply: €280-€10,000. This applies to all homeowners and tenants.' }
+        { kind: 'paragraph', text: 'For residents of rural homes: every year the firebreak strip (50 m around the house) must be cleared — remove scrub and dry grass. In 2026 the general deadline is 31 May (extended to 30 June for municipalities under a calamity declaration). Failure to comply: a fine of up to €5,000 for individuals. This applies to all homeowners and tenants.' }
       ]
     }
   ],
@@ -131,7 +131,7 @@ export default {
     { label: 'Fine for a barbecue during the período crítico', amountEURMin: 280, amountEURMax: 10000 },
     { label: 'Fine for fireworks without a licence', amountEURMin: 1000, amountEURMax: 3000 },
     { label: 'Fine for smoking in the forest', amountEURMin: 100, amountEURMax: 280 },
-    { label: 'Fine for not clearing the firebreak strip', amountEURMin: 280, amountEURMax: 10000 },
+    { label: 'Fine for not clearing the firebreak strip (individual)', amountEURMin: 150, amountEURMax: 5000 },
     { label: 'Compensation if you caused a fire', amountEURMin: 10000, amountEURMax: 1000000, note: 'Real cases — millions of €' }
   ],
   sources: [
@@ -141,6 +141,6 @@ export default {
     { title: 'IPMA — weather alert and fire risk', url: 'https://www.ipma.pt/pt/riscoincendio/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR — National Forest Defence System', url: 'https://www.gnr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

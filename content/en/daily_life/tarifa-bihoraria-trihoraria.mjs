@@ -11,7 +11,7 @@ export default {
       id: 'what',
       title: 'What Simples, Bi-horária and Tri-horária mean',
       content: [
-        { kind: 'paragraph', text: 'In the household BTN segment — baixa tensão normal, usually up to 20.7 kVA — the electricity price consists of potência contratada, kWh energy, network tariffs, IVA and small charges. Time-of-use changes the kWh price by hour.' },
+        { kind: 'paragraph', text: 'In the household BTN segment — baixa tensão normal, usually up to 41.4 kVA — the electricity price consists of potência contratada, kWh energy, network tariffs, IVA and small charges. Time-of-use changes the kWh price by hour.' },
         { kind: 'checklist', items: [
           'Simples — one kWh price all day. The safest option if you do not manage your consumption.',
           'Bi-horária — two zones: vazio is cheaper, fora de vazio is more expensive. Suitable for a boiler, washing machine, dishwasher, EV, heat pump at night.',
@@ -141,6 +141,6 @@ export default {
     { title: 'Simulador ERSE — official eletricidade/gás tariff simulator', url: 'https://simuladorprecos.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'E-REDES — ciclos horários and meters for baixa tensão', url: 'https://www.e-redes.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

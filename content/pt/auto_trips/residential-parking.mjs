@@ -3,7 +3,7 @@ export default {
   id: 'residential-parking',
   categoryId: 'auto_trips',
   title: 'Estacionamento de residente — Lisboa, Cascais, Setúbal',
-  tldr: 'Nas grandes cidades, o município vende aos residentes autorizações de estacionamento bonificadas (dístico de residente) — desde gratuito até ~80 €/ano. Funciona com base no local de residência (Atestado de Residência) + registo do automóvel. Lisboa é gerida pela EMEL, Cascais pela Cascais Próxima, Setúbal pela Divisão de Trânsito. Sem dístico, o residente terá de pagar à hora como um turista.',
+  tldr: 'Nas grandes cidades, o município emite aos residentes autorizações de estacionamento bonificadas (dístico de residente) — desde gratuito até ~130 €/ano. Funciona com base no local de residência (Atestado de Residência) + registo do automóvel. Lisboa é gerida pela EMEL, Cascais pela Cascais Próxima, Setúbal pela Divisão de Trânsito. Sem dístico, o residente terá de pagar à hora como um turista.',
   tags: ['estacionamento', 'dístico', 'residente'],
   estimatedReadMinutes: 5,
   steps: [
@@ -26,11 +26,11 @@ export default {
           ]},
           { id: 'l3', title: 'Preço', content: [
             { kind: 'checklist', items: [
-              '1.º automóvel: 12 €/ano (o primeiro ano é frequentemente gratuito)',
-              '2.º automóvel do agregado familiar: 36 €/ano',
-              'Cada automóvel adicional: 72 €/ano',
-              'Dístico de visitante: 24 €/ano + limitações horárias',
-              'Reformados 65+ — desconto de 50%'
+              '1.ª viatura por morada: gratuito',
+              '2.ª viatura por morada: 54 €/ano',
+              '3.ª viatura por morada: 132 €/ano',
+              'Cartão Visitante: 25 € — cartão com saldo, primeiros 30 minutos gratuitos, depois à hora',
+              'Até 3 dísticos por morada'
             ]}
           ]},
           { id: 'l4', title: 'Zonas', content: [
@@ -70,7 +70,7 @@ export default {
       title: 'Estacionamento gratuito para veículos eléctricos',
       content: [
         { kind: 'checklist', items: [
-          'Lisboa: EMEL — as primeiras 2 horas são gratuitas para veículos eléctricos com matrícula verde (marcação MEV)',
+          'Lisboa: EMEL — as primeiras 2 horas são gratuitas para veículos eléctricos com matrícula verde (marcação MEV); desde 2026, o benefício é restringido para veículos de concelhos vizinhos',
           'Porto: estacionamento para veículos eléctricos — desconto de 50% nas zonas municipais',
           'Cascais: estacionamento gratuito para veículos eléctricos nos postos de carregamento municipais',
           'Em todo o país: estacionamento gratuito nas zonas de carregamento Mobi.E durante o carregamento',
@@ -84,7 +84,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Estacionamento sem dístico ou pagamento: 30-50 € (em caso de pagamento rápido)',
-          'Estacionamento em lugar para pessoas com deficiência sem documento: 120 € (coima + ponto de penalização)',
+          'Estacionamento em lugar para pessoas com deficiência sem cartão: 60-300 € (art. 145.º do Código da Estrada) + 2 pontos de penalização',
           'Reboque: 80-150 € + parqueamento 15 €/dia',
           'Desconto de 50% se pagar no prazo de 15 dias (valor mínimo da coima)',
           'Contestar a coima — através de EMEL.pt ou da Câmara, prazo de 30 dias'
@@ -93,17 +93,17 @@ export default {
     }
   ],
   costs: [
-    { label: 'Dístico EMEL Lisboa (1.º automóvel)', amountEUR: 12, note: '/ano, frequentemente 1.º ano gratuito' },
-    { label: 'Dístico EMEL Lisboa (2.º automóvel)', amountEUR: 36, note: '/ano' },
+    { label: 'Dístico EMEL Lisboa (1.º automóvel)', amountEUR: 0, note: 'gratuito' },
+    { label: 'Dístico EMEL Lisboa (2.º automóvel)', amountEUR: 54, note: '/ano' },
     { label: 'Dístico Cascais', amountEURMin: 10, amountEURMax: 30, note: '/ano, 1.º gratuito' },
     { label: 'Cartão residente Setúbal', amountEUR: 20, note: '/ano' },
     { label: 'Coima sem dístico', amountEURMin: 30, amountEURMax: 50 }
   ],
   sources: [
-    { title: 'EMEL — Dísticos', url: 'https://www.emel.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'EMEL — Dístico de Residente', url: 'https://www.emel.pt/pt/disticos/estacionamento-nos-bairros-historicos/distico-de-residente/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Cascais Próxima — Estacionamento', url: 'https://www.cascaisproxima.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal de Setúbal — Trânsito', url: 'https://www.mun-setubal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

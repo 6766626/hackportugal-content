@@ -48,7 +48,7 @@ export default {
       id: 'financas',
       title: '2. Обновите morada fiscal в Finanças',
       content: [
-        { kind: 'paragraph', text: 'Morada fiscal — главный юридический адрес для налогов. На него завязаны IRS, IMI, IUC, уведомления Autoridade Tributária, штрафы и сроки ответа. Если письма AT уходят на старый адрес, это обычно не отменяет последствия.' },
+        { kind: 'paragraph', text: 'Morada fiscal — главный юридический адрес для налогов. На него завязаны IRS, IMI, IUC, уведомления Autoridade Tributária, штрафы и сроки ответа. Даже если письма AT уходят на старый адрес, это обычно не отменяет их последствий.' },
         { kind: 'substeps', items: [
           {
             id: 'financas-online',
@@ -80,7 +80,7 @@ export default {
       id: 'aima',
       title: '3. AIMA: держателям ВНЖ — обязательно за 60 дней',
       content: [
-        { kind: 'paragraph', text: 'Если у вас autorização de residência / ВНЖ, изменение адреса нужно сообщить AIMA в течение 60 дней. Это отдельная обязанность иностранца по Lei 23/2007. Замена адреса в Finanças сама по себе не гарантирует, что AIMA получила и внесла новый адрес.' },
+        { kind: 'paragraph', text: 'Если у вас autorização de residência / ВНЖ, изменение адреса нужно сообщить AIMA в течение 60 дней. Это отдельная обязанность иностранца по Lei 23/2007 (статья 86). Замена адреса в Finanças сама по себе не гарантирует, что AIMA получила и внесла новый адрес.' },
         { kind: 'checklist', items: [
           'Подготовьте скан ВНЖ с двух сторон',
           'Паспорт',
@@ -155,7 +155,7 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Lei 23/2007: правовой режим въезда, пребывания и выезда иностранцев, обязанность сообщать адрес',
+      title: 'Lei 23/2007 (ст. 86): правовой режим въезда, пребывания и выезда иностранцев, обязанность сообщать адрес за 60 дней',
       url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34554775',
       kind: 'law',
       language: 'pt',
@@ -169,6 +169,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

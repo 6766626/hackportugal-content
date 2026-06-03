@@ -4,7 +4,7 @@ export default {
   categoryId: 'digital_gov',
   title: 'Drones em Portugal — registo, regras, onde é permitido',
   tldr: 'Em Portugal aplicam-se as regras europeias EU 2019/947: registo do operador na ANAC (gratuito) para drones ≥250 g ou com câmara + formação teórica. É permitido voar até 120 m de altura na categoria Open. Não é permitido — sobre pessoas, num raio de 5 km de aeroportos, sobre parques nacionais sem autorização. Coimas até 2 000 € por infracções.',
-  tags: ['drone', 'drones', 'anac', 'regulamento federação russa/ue'],
+  tags: ['drone', 'drones', 'anac', 'regulamento ue'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -29,7 +29,7 @@ export default {
             { kind: 'paragraph', text: 'No mesmo portal — 40 perguntas, gratuito, pode repetir. No final — certificado A1/A3 (categoria Open), válido por 5 anos. Para A2 (mais perto de pessoas) — exame presencial adicional por 90 €.' }
           ]},
           { id: 'r4', title: '4. Seguro', content: [
-            { kind: 'paragraph', text: 'Obrigatório para operadores comerciais e drones ≥ 20 kg. Para uso particular — recomendado. Seguradoras: Fidelidade, Generali, AXA — responsabilidade civil até 750 000 €, 50-150 €/ano.' }
+            { kind: 'paragraph', text: 'Pela lei portuguesa (Decreto-Lei 58/2018), o seguro de responsabilidade civil é obrigatório para drones com massa máxima operacional superior a 900 g, bem como para operadores comerciais. Para drones particulares ligeiros — recomendado. Seguradoras: Fidelidade, Generali, AXA — responsabilidade civil até 750 000 €, 50-150 €/ano.' }
           ]}
         ]}
       ]
@@ -94,12 +94,12 @@ export default {
       title: 'Coimas',
       content: [
         { kind: 'checklist', items: [
-          'Voo sem registo: 500–1 500 €',
-          'Violação de geozona (aeroporto): 1 000–2 000 €',
-          'Voo sobre pessoas em A3: 500–1 000 €',
-          'Voo em parque natural sem autorização: 250–750 € + possível apreensão',
-          'Voo nocturno sem autorização: 500 €',
-          'Verificação da coima: GNR / PSP no momento do voo ou através da ANAC'
+          'As coimas são fixadas pelo Decreto-Lei 58/2018 e dividem-se em três níveis de infracção (para pessoas singulares; pessoas colectivas pagam mais)',
+          'Contraordenação muito grave, p. ex. voar sem registo de operador: 2 000–3 500 €',
+          'Contraordenação grave, p. ex. violação de geozona ou voo fora das regras da categoria: 1 000–2 500 €',
+          'Contraordenação leve: 300–600 €',
+          'Sanções acessórias: proibição de operar drones até 2 anos e/ou apreensão da aeronave',
+          'Fiscalização no local: GNR / PSP; processamento e cobrança através da ANAC'
         ]}
       ]
     }
@@ -115,8 +115,9 @@ export default {
     { title: 'ANAC — Registo de Operador de Aeronaves Não Tripuladas', url: 'https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Portal de drones de Portugal (registo + geozonas)', url: 'https://voanouceu.anac.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulamento (EU) 2019/947', url: 'https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
-    { title: 'ICNF — parques naturais', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ICNF — parques naturais', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei n.º 58/2018 (registo, seguro, coimas)', url: 'https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3035&tabela=leis', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

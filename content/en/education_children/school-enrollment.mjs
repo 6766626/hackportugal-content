@@ -87,7 +87,7 @@ export default {
           'Free manuais escolares via MEGA/vouchers for pupils in state schools and some schools with contrato de associação; workbooks and materials are often paid for separately',
           'ASE (Ação Social Escolar) — support according to the escalão do abono de família: meals, transport, materials and visitas de estudo may be free or subsidised',
           'Abono de Família (child benefit) — see the separate guide',
-          'IRS education deduction — 30% eligible expenses, usually up to €800 per agregado familiar (not per child); the limit may increase in specific cases (for example, rent for displaced student)'
+          'IRS education deduction — 30% of eligible expenses, usually up to €800 per agregado familiar (not per child); the limit may increase in specific cases (for example, rent for a displaced student / estudante deslocado)'
         ]}
       ]
     }
@@ -97,6 +97,6 @@ export default {
     { title: 'DGE — Directorate-General for Education', url: 'https://www.dge.mec.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Register a child at school', url: 'https://www.gov.pt/cidadaos/-/informacoes/matricular-ou-renovar-a-matricula-no-ensino-obrigatorio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

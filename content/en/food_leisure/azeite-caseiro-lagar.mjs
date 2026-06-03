@@ -97,11 +97,11 @@ export default {
         { kind: 'checklist', items: [
           'Registration as an olivicultor with DGAV (Direção-Geral de Alimentação e Veterinária)',
           'Opening an atividade with Finanças: CIRS code 1311 — agricultura',
-          'IVA: up to €14,500/year turnover you can operate without VAT (from 2025)',
+          'IVA: up to €15,000/year turnover you can operate without VAT (from 2025)',
           'Labels according to EU regulations: producer, NIF, type (extra virgem / virgem / olivais), weight, expiry date, country',
           'Laboratory analyses: acidity (% oleic acid), peroxídeos, K232/K270 — mandatory quality parameters',
           'Laboratories: ASAE-accredited. Around €50-150 per analysis',
-          'IGP/DOP certifications (premium): Azeite do Alentejo Interior, Azeite de Trás-os-Montes, Azeite do Norte Alentejano, etc. — separate registration with IPV (Instituto Português da Qualidade) or CertiQuê',
+          'IGP/DOP certifications (premium): Azeite do Alentejo Interior, Azeite de Trás-os-Montes, Azeite do Norte Alentejano, etc. — separate registration with IPQ (Instituto Português da Qualidade) or CertiQuê',
           'Selling at local markets: licence from Câmara Municipal, around €30-100/day',
           'Online sales: VAT if turnover exceeds the limit'
         ] }
@@ -140,6 +140,6 @@ export default {
     { title: 'Azeite IGP — DOP Alentejo, Trás-os-Montes', url: 'https://tradicional.dgadr.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — support for olive growing', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -89,7 +89,7 @@ export default {
       id: 'limits-and-pin',
       title: 'Limites de 50 €, PIN e biometria',
       content: [
-        { kind: 'paragraph', text: 'Em Portugal, o limite padrão para um pagamento contactless normal com cartão físico sem PIN é de 50 € por operação. Depois de várias operações pequenas seguidas, o terminal ou o banco pode pedir o PIN devido às regras SCA.' },
+        { kind: 'paragraph', text: 'Em Portugal, o limite padrão para um pagamento contactless normal com cartão físico sem PIN é de 50 € por operação. Depois de várias operações pequenas seguidas (as regras limitam isto a cerca de 150 € ou cinco operações), o terminal ou o banco pode pedir o PIN devido às regras SCA.' },
         { kind: 'checklist', items: [
           'Um cartão físico contactless até 50 € normalmente passa sem PIN',
           'Um cartão físico acima de 50 € quase sempre exige PIN',
@@ -131,6 +131,6 @@ export default {
     { title: 'Banco de Portugal — pagamentos contactless e regras de segurança', url: 'https://www.bportugal.pt/page/pagamentos-contactless', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'MB WAY — site oficial do serviço SIBS', url: 'https://www.mbway.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

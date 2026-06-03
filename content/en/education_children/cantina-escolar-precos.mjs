@@ -3,7 +3,7 @@ export default {
   id: 'cantina-escolar-precos',
   categoryId: 'education_children',
   title: 'School meals at the Cantina: prices and social escalão',
-  tldr: 'Cantina escolar is the school canteen in state schools. In the 2025/2026 school year, the price depends on the school cycle, município and ASE: in 2.º/3.º ciclo, usually escalão A is free, B is €0.73, without ASE around €1.85; in 1.º ciclo, meals are often administered by the Câmara Municipal, and the tariff can be from €1.46 for a social escalão to €4.05 without support. ASE is requested via Portal das Matrículas or at the school secretaria; the decision is linked to the escalão do abono de família.',
+  tldr: 'Cantina escolar is the school canteen in state schools. In the 2025/2026 school year, the price depends on the school cycle, município and ASE: in 2.º/3.º ciclo, usually escalão A is free, B is €0.73, without ASE €1.46 at the national rate (plus €0.30 if you book on the meal day); in 1.º ciclo, meals are often administered by the Câmara Municipal, and the tariff can be from €0.73 for a social escalão to about €4.05 without support. ASE is requested via Portal das Matrículas or at the school secretaria; the decision is linked to the escalão do abono de família.',
   tags: ['canteen', 'ase', 'school', 'children'],
   estimatedReadMinutes: 5,
   steps: [
@@ -24,9 +24,9 @@ export default {
         { kind: 'checklist', items: [
           '2.º and 3.º ciclo: escalão A — usually free.',
           '2.º and 3.º ciclo: escalão B — usually €0.73 per lunch.',
-          '2.º and 3.º ciclo: without ASE — around €1.85 per lunch under the standard school tariff.',
+          '2.º and 3.º ciclo: without ASE — €1.46 per lunch at the national rate (plus €0.30 if you book on the meal day).',
           'Secundário: the tariff may be higher, especially if the school applies a separate price for ensino secundário or late ordering.',
-          '1.º ciclo: meals are more often administered by the Câmara Municipal; tariffs of around €1.46 for a social escalão and around €4.05 without support are seen.',
+          '1.º ciclo: meals are more often administered by the Câmara Municipal; the municipal tariff depends on the concelho and can reach about €4.05 without support.',
           'Pré-escolar: the rules are almost always municipal; check the tabela de preços da Câmara Municipal.',
           'Late ordering or buying “on the day” may cost more than a standard booking.',
           'Cancelling lunch after the set deadline usually does not refund the money.'
@@ -92,8 +92,8 @@ export default {
   costs: [
     { label: '2.º/3.º ciclo, ASE escalão A', amountEUR: 0, note: 'Usually free with approved Ação Social Escolar.' },
     { label: '2.º/3.º ciclo, ASE escalão B', amountEUR: 0.73, note: 'Usually 50% of the subsidised school tariff.' },
-    { label: '2.º/3.º ciclo, without ASE', amountEUR: 1.85, note: 'Typical normal tariff; the school may apply a separate price for late ordering.' },
-    { label: '1.º ciclo, social município tariff', amountEUR: 1.46, note: 'Municipal table; depends on the Câmara Municipal and family status.' },
+    { label: '2.º/3.º ciclo, without ASE', amountEUR: 1.46, note: 'National rate set by despacho; plus €0.30 if you book on the meal day.' },
+    { label: '1.º ciclo, social município tariff', amountEUR: 0.73, note: 'Municipal table; depends on the Câmara Municipal and family status.' },
     { label: '1.º ciclo, without social support', amountEUR: 4.05, note: 'A municipal normal tariff that is encountered; check the tabela de preços for your concelho.' }
   ],
   sources: [
@@ -119,6 +119,6 @@ export default {
       lastRetrieved: '2026-05-04'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

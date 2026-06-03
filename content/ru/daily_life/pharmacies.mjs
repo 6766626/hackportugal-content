@@ -3,7 +3,7 @@ export default {
   id: 'pharmacies',
   categoryId: 'healthcare',
   title: 'Аптеки в Португалии — Farmácia и Parafarmácia',
-  tldr: 'Farmácia (зелёный крест) — продаёт рецептурные и безрецептурные лекарства, есть консультация фармацевта. Parafarmácia — только безрецептурные препараты и уходовая косметика. Comparticipação SNS (37-90% по escalão A/B/C/D) применяется к рецептам, выписанным в системе с корректной идентификацией пользователя/бенефициара — NIF сам по себе не даёт SNS-скидку. Farmácia de serviço — дежурная аптека по escala de serviço.',
+  tldr: 'Farmácia (зелёный крест) — продаёт рецептурные и безрецептурные лекарства, есть консультация фармацевта. Parafarmácia — только безрецептурные препараты и уходовая косметика. Comparticipação SNS (15-90% по escalão A/B/C/D) применяется к рецептам, выписанным в системе с корректной идентификацией пользователя/бенефициара — NIF сам по себе не даёт SNS-скидку. Farmácia de serviço — дежурная аптека по escala de serviço.',
   tags: ['аптека', 'farmácia', 'рецепт', 'sns'],
   estimatedReadMinutes: 4,
   steps: [
@@ -41,7 +41,7 @@ export default {
             ]}
           ]},
           { id: 'p3', title: 'Без рецепта', content: [
-            { kind: 'paragraph', text: 'Многие препараты продаются свободно без рецепта. Но антибиотики, снотворные, сильные обезболивающие — только по рецепту, в отличие от некоторых стран.' }
+            { kind: 'paragraph', text: 'Многие препараты продаются свободно без рецепта. Но антибиотики, снотворные и сильные обезболивающие — только по рецепту, в отличие от некоторых стран, где их продают свободно.' }
           ]}
         ]}
       ]
@@ -50,7 +50,7 @@ export default {
       id: 'night',
       title: 'Ночная / дежурная аптека',
       content: [
-        { kind: 'paragraph', text: 'Farmácia de Serviço — дежурство организуется по escala de serviço (графику), как правило, посменно между аптеками в зоне. Это не гарантия что в каждой freguesia есть аптека 24/7 — проверяйте список дежурных. График вывешен на двери любой Farmácia или на сайте.' },
+        { kind: 'paragraph', text: 'Farmácia de Serviço — дежурство организуется по escala de serviço (графику), как правило, посменно между аптеками в зоне. Это не гарантия, что в каждой freguesia есть аптека 24/7, — проверяйте список дежурных. График вывешен на двери любой Farmácia или на сайте.' },
         { kind: 'checklist', items: [
           '📍 farmaciasdeservico.net — сайт со списком дежурных аптек по почтовому коду',
           '📞 Linha 1400 / 1400safe.pt — служба INFARMED для поиска лекарств и дежурных аптек; INFARMED (infarmed.pt) — «Localize farmácia»; 112 — только экстренная помощь',
@@ -68,7 +68,7 @@ export default {
             { kind: 'paragraph', text: 'Parafarmácia или Farmácia: Ibuprofeno, Paracetamol (Ben-U-Ron), Bisolvon, Cegripe.' }
           ]},
           { id: 'm2', title: 'Аллергия', content: [
-            { kind: 'paragraph', text: 'Loratadina, Cetirizina часто доступны без рецепта; многие формы desloratadina (бренд Aerius) в Португалии классифицированы как MSRM — субъект к рецепту. Уточняйте у фармацевта.' }
+            { kind: 'paragraph', text: 'Loratadina, Cetirizina часто доступны без рецепта; многие формы desloratadina (бренд Aerius) в Португалии классифицированы как MSRM — отпускаются по рецепту. Уточняйте у фармацевта.' }
           ]},
           { id: 'm3', title: 'Антибиотики', content: [
             { kind: 'paragraph', text: 'Только по рецепту. Amoxicilina, Azitromicina.' }
@@ -89,6 +89,6 @@ export default {
     { title: 'Farmácias de Serviço — дежурные аптеки', url: 'https://www.farmaciasdeservico.net/', kind: 'reference', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'cascais-card-vivacascais',
   categoryId: 'daily_life',
   title: 'Cascais Card / Viva Cascais — cartão de residente de Cascais',
-  tldr: 'Cartão Viver Cascais / Viva Cascais — cartão municipal da Câmara Municipal de Cascais para residentes, trabalhadores e estudantes do concelho de Cascais. Em 2026, é necessário para aceder a benefícios do município: BUS LINE/MobiCascais, estacionamento através da Cascais Próxima, piscinas, desporto, cultura, eventos e descontos locais. A emissão é normalmente gratuita online através do Cascais ID; são necessários NIF, documento de identificação e comprovativo de ligação a Cascais: morada, trabalho ou estudo.',
+  tldr: 'Cartão Viver Cascais / Viva Cascais — cartão municipal da Câmara Municipal de Cascais para residentes, trabalhadores e estudantes do concelho de Cascais. Em 2026, é necessário para aceder a benefícios do município: BUS LINE/MobiCascais, estacionamento através da Cascais Próxima, piscinas, desporto, cultura, eventos e descontos locais. O cartão digital é emitido gratuitamente online através de uma conta MyCascais; o cartão físico é opcional e custa 7 €. São necessários NIF, documento de identificação e comprovativo de ligação a Cascais: morada, trabalho ou estudo.',
   tags: ['cascais', 'vivacascais', 'transporte', 'estacionamento'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'Que cartão é este',
       content: [
-        { kind: 'paragraph', text: 'O Cartão Viver Cascais é um cartão de benefícios municipais da Câmara Municipal de Cascais. No dia a dia, é frequentemente chamado Cascais Card ou Viva Cascais, porque o acesso aos serviços é feito através da conta digital Cascais ID, do site e das aplicações do município.' },
+        { kind: 'paragraph', text: 'O Cartão Viver Cascais é um cartão de benefícios municipais da Câmara Municipal de Cascais. No dia a dia, é frequentemente chamado Cascais Card ou Viva Cascais, porque o acesso aos serviços é feito através da conta digital MyCascais, do site e das aplicações do município.' },
         { kind: 'paragraph', text: 'O cartão não substitui a autorização de residência, o Cartão de Cidadão, o NIF, o Navegante nem um cartão bancário. É um passe local para descontos e tarifas especificamente no concelho de Cascais: Cascais, Estoril, Carcavelos, Parede, Alcabideche, São Domingos de Rana.' },
         { kind: 'checklist', items: [
           'Para residentes em Cascais — pela morada de residência no município',
@@ -36,7 +36,7 @@ export default {
           'Bibliotecas e serviços municipais: identificação simplificada em parte dos serviços municipais',
           'Parceiros: descontos locais em parceiros comerciais, se estiverem ativos na lista atual da Câmara'
         ] },
-        { kind: 'warning', text: 'Não planeie o orçamento assumindo que “é tudo gratuito”. A gratuitidade ou o desconto depende do serviço concreto, do seu estatuto e das condições em vigor. Antes de viajar, estacionar ou comprar um bilhete, confirme a tarifa na MobiCascais/Cascais Próxima ou em cm-cascais.pt.' }
+        { kind: 'warning', text: 'Não planeie o orçamento assumindo que “é tudo gratuito”. A gratuitidade ou o desconto depende do serviço concreto, do seu estatuto e das condições em vigor. Antes de viajar, estacionar ou comprar um bilhete, confirme a tarifa na MobiCascais/Cascais Próxima ou em cascais.pt.' }
       ]
     },
     {
@@ -52,7 +52,7 @@ export default {
           'Se é estudante: declaração de matrícula ou documento de estudante de um estabelecimento de ensino em Cascais',
           'Para uma criança: documento da criança, NIF da criança se existir, documento do progenitor e comprovativo das responsabilidades parentais, se o sistema o solicitar',
           'Email e número de telemóvel português para confirmações',
-          'Acesso ao Cascais ID / área pessoal da Câmara'
+          'Acesso ao MyCascais / área pessoal da Câmara'
         ] },
         { kind: 'warning', text: 'O atestado de residência da Junta de Freguesia é útil se não tiver contrato de arrendamento em seu nome ou facturas de serviços. Para emitir o atestado, a Junta normalmente pede documento de identificação, NIF, comprovativo de morada e, por vezes, duas testemunhas da freguesia.' }
       ]
@@ -62,8 +62,8 @@ export default {
       title: 'Como pedir online',
       content: [
         { kind: 'substeps', items: [
-          { id: 'create-cascais-id', title: '1. Crie o Cascais ID', content: [
-            { kind: 'paragraph', text: 'Aceda ao site da Câmara Municipal de Cascais e crie uma conta pessoal. Use um email ao qual tenha acesso permanente: é para aí que são enviadas as confirmações e notificações sobre o pedido.' }
+          { id: 'create-cascais-id', title: '1. Crie uma conta MyCascais', content: [
+            { kind: 'paragraph', text: 'Aceda ao site da Câmara Municipal de Cascais (cascais.pt) e crie uma conta pessoal MyCascais — é através dela que se faz o pedido em viver.cascais.pt. Use um email ao qual tenha acesso permanente: é para aí que são enviadas as confirmações e notificações sobre o pedido.' }
           ] },
           { id: 'choose-profile', title: '2. Escolha o perfil', content: [
             { kind: 'paragraph', text: 'No pedido, escolha o fundamento: residente/munícipe, trabalhador ou estudante. Isto determina que documentos serão pedidos e que benefícios serão activados.' }
@@ -116,39 +116,40 @@ export default {
     }
   ],
   costs: [
-    { label: 'Emissão do Cartão Viver Cascais', amountEUR: 0, note: 'Normalmente gratuita; serviços municipais específicos, estacionamento, desporto ou eventos podem ser pagos de acordo com as suas próprias tarifas.' },
+    { label: 'Cartão Viver Cascais digital', amountEUR: 0, note: 'Gratuito: o cartão digital é atribuído automaticamente após a validação do pedido. Serviços municipais específicos, estacionamento, desporto ou eventos podem ser pagos de acordo com as suas próprias tarifas.' },
+    { label: 'Cartão Viver Cascais físico', amountEUR: 7, note: 'Opcional. Pode ser pedido, se o desejar, após a validação do pedido; tem validade de 5 anos.' },
     { label: 'Atestado de residência na Junta de Freguesia', amountEURMin: 0, amountEURMax: 10, note: 'A tarifa depende da freguesia e do tipo de certidão; só é necessário se não houver outro comprovativo de morada.' }
   ],
   sources: [
     {
       title: 'Câmara Municipal de Cascais — site oficial dos serviços municipais',
-      url: 'https://www.cm-cascais.pt',
+      url: 'https://www.cascais.pt',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
-      title: 'Câmara Municipal de Cascais — Cartão Viver Cascais',
-      url: 'https://www.cm-cascais.pt/cartao-viver-cascais',
+      title: 'Câmara Municipal de Cascais — Viver Cascais (aderir / renovar)',
+      url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
-      title: 'Câmara Municipal de Cascais — MobiCascais e transportes',
-      url: 'https://www.cm-cascais.pt/mobi-cascais',
+      title: 'MobiCascais — Cartão Viver Cascais e transportes',
+      url: 'https://mobi.cascais.pt/viver-cascais',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'Cascais Próxima — estacionamento e mobilidade em Cascais',
       url: 'https://www.cascais.pt/empresa-municipal/cascais-proxima',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

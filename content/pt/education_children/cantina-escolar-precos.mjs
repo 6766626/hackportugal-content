@@ -3,7 +3,7 @@ export default {
   id: 'cantina-escolar-precos',
   categoryId: 'education_children',
   title: 'Alimentação escolar na Cantina: preços e escalão social',
-  tldr: 'A Cantina escolar é a cantina/refeitório da escola pública. No ano letivo de 2025/2026, o preço depende do ciclo escolar, do município e da ASE: no 2.º/3.º ciclo, normalmente o escalão A é gratuito, o B custa 0,73 €, e sem ASE fica cerca de 1,85 €; no 1.º ciclo, a alimentação é frequentemente administrada pela Câmara Municipal, e a tarifa pode ir de 1,46 € para escalão social até 4,05 € sem apoio. A ASE é solicitada através do Portal das Matrículas ou na secretaria da escola; a decisão está ligada ao escalão do abono de família.',
+  tldr: 'A Cantina escolar é a cantina/refeitório da escola pública. No ano letivo de 2025/2026, o preço depende do ciclo escolar, do município e da ASE: no 2.º/3.º ciclo, normalmente o escalão A é gratuito, o B custa 0,73 €, e sem ASE fica em 1,46 € pela tarifa nacional (mais 0,30 € se reservar no próprio dia da refeição); no 1.º ciclo, a alimentação é frequentemente administrada pela Câmara Municipal, e a tarifa pode ir de 0,73 € para escalão social até cerca de 4,05 € sem apoio. A ASE é solicitada através do Portal das Matrículas ou na secretaria da escola; a decisão está ligada ao escalão do abono de família.',
   tags: ['cantina', 'ase', 'escola', 'crianças'],
   estimatedReadMinutes: 5,
   steps: [
@@ -24,9 +24,9 @@ export default {
         { kind: 'checklist', items: [
           '2.º e 3.º ciclo: escalão A — normalmente gratuito.',
           '2.º e 3.º ciclo: escalão B — normalmente 0,73 € por almoço.',
-          '2.º e 3.º ciclo: sem ASE — cerca de 1,85 € por almoço na tarifa escolar normal.',
+          '2.º e 3.º ciclo: sem ASE — 1,46 € por almoço pela tarifa nacional (mais 0,30 € se reservar no próprio dia da refeição).',
           'Secundário: a tarifa pode ser mais elevada, especialmente se a escola aplicar um preço separado para o ensino secundário ou para reservas tardias.',
-          '1.º ciclo: a alimentação é mais frequentemente administrada pela Câmara Municipal; existem tarifas de cerca de 1,46 € para escalão social e cerca de 4,05 € sem apoio.',
+          '1.º ciclo: a alimentação é mais frequentemente administrada pela Câmara Municipal; a tarifa municipal depende do concelho e pode ir até cerca de 4,05 € sem apoio.',
           'Pré-escolar: as regras são quase sempre municipais; consulte a tabela de preços da Câmara Municipal.',
           'Uma reserva tardia ou compra «no próprio dia» pode custar mais do que a reserva normal.',
           'O cancelamento do almoço após o prazo definido normalmente não dá direito a reembolso.'
@@ -92,8 +92,8 @@ export default {
   costs: [
     { label: '2.º/3.º ciclo, ASE escalão A', amountEUR: 0, note: 'Normalmente gratuito com Ação Social Escolar aprovada.' },
     { label: '2.º/3.º ciclo, ASE escalão B', amountEUR: 0.73, note: 'Normalmente 50% da tarifa escolar bonificada.' },
-    { label: '2.º/3.º ciclo, sem ASE', amountEUR: 1.85, note: 'Tarifa normal típica; a escola pode aplicar um preço separado para reservas tardias.' },
-    { label: '1.º ciclo, tarifa social do município', amountEUR: 1.46, note: 'Tabela municipal; depende da Câmara Municipal e da situação da família.' },
+    { label: '2.º/3.º ciclo, sem ASE', amountEUR: 1.46, note: 'Tarifa nacional definida por despacho; mais 0,30 € se reservar no próprio dia da refeição.' },
+    { label: '1.º ciclo, tarifa social do município', amountEUR: 0.73, note: 'Tabela municipal; depende da Câmara Municipal e da situação da família.' },
     { label: '1.º ciclo, sem apoio social', amountEUR: 4.05, note: 'Tarifa normal municipal encontrada em alguns casos; consulte a tabela de preços do seu concelho.' }
   ],
   sources: [
@@ -119,6 +119,6 @@ export default {
       lastRetrieved: '2026-05-04'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

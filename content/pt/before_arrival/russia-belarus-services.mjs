@@ -106,14 +106,15 @@ export default {
       id: 'tax-residence-cert',
       title: 'Certificado de residência fiscal da Federação Russa',
       content: [
-        { kind: 'paragraph', text: 'É necessário para o IRS em Portugal, se houver rendimentos da Federação Russa, ou para reembolso de 30 % de imposto retido na Federação Russa. Pedido através da «Área do contribuinte» em nalog.ru → «Certificado de estatuto de residente da Federação Russa».' },
+        { kind: 'paragraph', text: 'É necessário para o IRS em Portugal, se houver rendimentos da Federação Russa. Pedido através da «Área do contribuinte» em nalog.ru → «Certificado de estatuto de residente da Federação Russa».' },
         { kind: 'checklist', items: [
           'Online através do Serviço Fiscal Federal',
-          '40 dias úteis',
+          'Até 40 dias de calendário',
           'Gratuito',
           'Emitido em inglês',
-          'Para Portugal — não são necessários apostila + tradução (Convenção de Haia + acordo)'
-        ]}
+          'Para Portugal, normalmente não são necessárias apostila nem tradução'
+        ]},
+        { kind: 'warning', text: 'Desde Agosto de 2023, a Rússia suspendeu artigos fundamentais do acordo para evitar a dupla tributação com Portugal (Decreto n.º 585). O crédito ou reembolso do imposto retido deixou de estar garantido — confirme o procedimento com um consultor fiscal.' }
       ]
     },
     {
@@ -155,6 +156,6 @@ export default {
     { title: 'Ministério da Justiça PT — Apostila', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGES — Reconhecimento de habilitações estrangeiras', url: 'https://www.dges.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

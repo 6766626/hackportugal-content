@@ -30,7 +30,7 @@ export default {
             { kind: 'checklist', items: ['Лучший выбор, если вы живёте в Faro, Vilamoura, Quarteira, Albufeira или Tavira', 'Больше солнца и туристической инфраструктуры, чем на севере', 'Много сатиры на национальную политику и знаменитостей', 'Есть carros alegóricos, танцевальные группы, музыка, костюмы', 'Билеты обычно недорогие, но парковка в центре быстро заканчивается', 'С детьми удобнее идти на дневной parade, а не на ночные festas'] }
           ]},
           { id: 'sesimbra', title: 'Sesimbra — море, samba и местный хаос', content: [
-            { kind: 'paragraph', text: 'Sesimbra, к югу от Lisboa, — хороший компромисс между португальским уличным Carnaval и более «samba»-настроением. Здесь сильна традиция escolas de samba, но праздник всё равно остаётся локальным: пляж, рыбацкий город, группы друзей, костюмы и много людей на набережной.' },
+            { kind: 'paragraph', text: 'Sesimbra, к югу от Lisboa, — хороший компромисс между португальским уличным Carnaval и более «самба»-атмосферой. Здесь сильна традиция escolas de samba, но праздник всё равно остаётся локальным: пляж, рыбацкий город, группы друзей, костюмы и много людей на набережной.' },
             { kind: 'checklist', items: ['Главные дни — воскресенье и terça-feira de Carnaval', 'Есть desfile de escolas de samba и grupos de axé/маскарадные группы', 'Локация красивая, но узкая: центр и набережная быстро переполняются', 'На машине из Lisboa закладывайте пробки у въезда и проблемы с парковкой', 'После парада рестораны забиты — бронируйте заранее', 'Ветер у океана в феврале реальный: костюм + тёплая куртка лучше, чем только блёстки'] }
           ]},
           { id: 'madeira', title: 'Madeira — самый зрелищный островной вариант', content: [
@@ -62,7 +62,7 @@ export default {
       title: 'Почему это не Бразилия',
       content: [
         { kind: 'paragraph', text: 'Бразильский Carnaval — это samba-enredo, sambódromo, огромные escolas de samba и соревнование лиг. Португальский Carnaval чаще устроен как народная сатира: город сам высмеивает политиков, бюрократию, цены, туристов, соседние freguesias и себя.' },
-        { kind: 'checklist', items: ['В Torres Vedras samba не главная: важнее matrafonas, cabeçudos и политическая карикатура', 'В Loulé есть туристический масштаб, но темы часто локальные и португальские', 'В Sesimbra escolas de samba заметны сильнее, но атмосфера всё равно городская, не Rio-style', 'На Madeira больше блеска и choreografia, но формат адаптирован под Funchal и туристов', 'Костюм не обязан быть sexy или дорогим: смешной, абсурдный и самодельный часто лучше', 'Алкоголь присутствует, но это не licence to behave badly: полиция и segurança в туристических зонах активны'] },
+        { kind: 'checklist', items: ['В Torres Vedras samba не главная: важнее matrafonas, cabeçudos и политическая карикатура', 'В Loulé есть туристический масштаб, но темы часто локальные и португальские', 'В Sesimbra escolas de samba заметны сильнее, но атмосфера всё равно городская, не Rio-style', 'На Madeira больше блеска и coreografia, но формат адаптирован под Funchal и туристов', 'Костюм не обязан быть sexy или дорогим: смешной, абсурдный и самодельный часто лучше', 'Алкоголь присутствует, но это не licence to behave badly: полиция и segurança в туристических зонах активны'] },
         { kind: 'paragraph', text: 'Лучший подход: не сравнивать с Рио. Идите как на португальский Entrudo — старую традицию зимнего переворачивания ролей, где можно быть нелепым, громким и временно свободным от серьёзности.' }
       ]
     }
@@ -79,6 +79,6 @@ export default {
     { title: 'Câmara Municipal de Sesimbra — programação municipal e Carnaval', url: 'https://www.sesimbra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Visit Madeira — Carnival festivities in Madeira', url: 'https://visitmadeira.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -27,7 +27,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'c1', title: '1. Активация функции подписи', content: [
-            { kind: 'paragraph', text: 'Если CMD активирована, функция подписи включается отдельно. На autenticacao.gov.pt → «Ativar Assinatura Digital» → подтверждение PIN и SMS. Бесплатно.' }
+            { kind: 'paragraph', text: 'Даже если CMD уже активирована, функцию подписи нужно включить отдельно. На autenticacao.gov.pt → «Ativar Assinatura Digital» → подтверждение PIN и SMS. Бесплатно.' }
           ]},
           { id: 'c2', title: '2. Подписание документа', content: [
             { kind: 'checklist', items: [
@@ -64,7 +64,7 @@ export default {
               'PIN Autenticação (вход на госпорталы) — 4 цифры',
               'PIN Assinatura (подпись) — 4 цифры, отдельный',
               'PUK (разблокировка) — 8 цифр, в конверте Cartão de Cidadão',
-              'Забыли PIN → до 3 попыток → блокировка → разблокировать на gov.pt с PUK'
+              'Забыли PIN → до 3 попыток → блокировка → разблокировать лично в Espaço Cidadão / отделении IRN с PUK (онлайн для Cartão de Cidadão нельзя)'
             ]}
           ]}
         ]}
@@ -117,6 +117,6 @@ export default {
     { title: 'Decreto-Lei 12/2021 (адаптация eIDAS в Португалии)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/12-2021', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMA — Agência para a Modernização Administrativa', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

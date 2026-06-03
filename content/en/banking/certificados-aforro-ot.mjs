@@ -3,7 +3,7 @@ export default {
   id: 'certificados-aforro-ot',
   categoryId: 'banking',
   title: 'Portuguese government bonds: Certificados de Aforro, Certificados do Tesouro and OT via AforroNet',
-  tldr: 'AforroNet is IGCP online access to Portugal’s retail government debt. In 2026 the main mass-market product is Certificados de Aforro Série F: minimum €100, maximum €50,000 per person, term up to 15 years, cannot be redeemed in the first 3 months, rate = Euribor 3M + 1%, but capped at 2.5% before bonuses. You need a NIF, Conta Aforro, confirmed IBAN and Portuguese tax address. Interest is subject to IRS withholding at source: usually 28%.',
+  tldr: 'AforroNet is IGCP online access to Portugal’s retail government debt. In 2026 the main mass-market product is Certificados de Aforro Série F: minimum €100, maximum €250,000 per person, term up to 15 years, cannot be redeemed in the first 3 months, rate = Euribor 3M + 1%, but capped at 2.5% before bonuses. You need a NIF, Conta Aforro, confirmed IBAN and Portuguese tax address. Interest is subject to IRS withholding at source: usually 28%.',
   tags: ['aforronet', 'igcp', 'bonds', 'irs', 'nif'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What you can actually buy in 2026',
       content: [
         { kind: 'paragraph', text: 'IGCP sells retail government debt directly to individuals through the CTT/partner network and online via AforroNet. This is debt of the Portuguese Republic: the risk is sovereign, not banking risk. It is not covered by the Fundo de Garantia de Depósitos because it is not a deposit.' },
-        { kind: 'checklist', items: ['Certificados de Aforro Série F — the main product available for new subscriptions in 2026', 'Minimum Série F subscription: €100', 'Maximum Série F: €50,000 per person; total Série E + Série F limit — €250,000', 'Série F term: up to 15 years', 'Early redemption of Série F is prohibited for the first 3 months', 'Série F rate: average Euribor 3M + 1%, but the base rate is capped at 2.5%', 'Série F holding-period bonuses are added after the 1st year: +0.25%, +0.50% or +1.00% depending on the holding period', 'Certificados do Tesouro — old series can be held and redeemed; new subscriptions depend on whether the specific IGCP series is open', 'OT / Obrigações do Tesouro — standard treasury bonds; retail availability via AforroNet depends on the specific issue, and on the secondary market they are usually bought through a bank or broker'] },
+        { kind: 'checklist', items: ['Certificados de Aforro Série F — the main product available for new subscriptions in 2026', 'Minimum Série F subscription: €100', 'Maximum Série F: €250,000 per person (limit raised in April 2026); total Série E + Série F limit — €500,000', 'Série F term: up to 15 years', 'Early redemption of Série F is prohibited for the first 3 months', 'Série F rate: average Euribor 3M + 1%, but the base rate is capped at 2.5%', 'Série F holding-period bonuses are added from the 2nd year and rise from +0.25% up to +1.75% depending on the holding period', 'Certificados do Tesouro — old series can be held and redeemed; new subscriptions depend on whether the specific IGCP series is open', 'OT / Obrigações do Tesouro — standard treasury bonds; retail availability via AforroNet depends on the specific issue, and on the secondary market they are usually bought through a bank or broker'] },
         { kind: 'warning', text: 'Do not confuse Certificados de Aforro with a bank fixed-term deposit. The yield changes, liquidity is restricted by the series rules, and the price of standard OT on the market may fall when rates rise.' }
       ]
     },
@@ -77,7 +77,7 @@ export default {
   costs: [
     { label: 'Opening Conta Aforro / AforroNet', amountEUR: 0, note: 'IGCP does not charge a fee for opening or online access; your bank may charge fees for operations.' },
     { label: 'Minimum subscription for Certificados de Aforro Série F', amountEUR: 100, note: 'The subscription nominal amount follows the rules of the series; check the operation form in AforroNet.' },
-    { label: 'Maximum Certificados de Aforro Série F', amountEUR: 50000, note: 'Limit per person for Série F; total Série E + Série F limit — €250,000.' },
+    { label: 'Maximum Certificados de Aforro Série F', amountEUR: 250000, note: 'Limit per person for Série F (raised in April 2026); total Série E + Série F limit — €500,000.' },
     { label: 'IRS on interest for a resident', amountEURMin: 0, amountEURMax: 28, note: 'This is a 28% rate, not a fixed amount in euros; it is withheld from accrued income.' },
     { label: 'OT fees through a bank/broker', amountEURMin: 0, amountEURMax: 50, note: 'They depend on the intermediary: purchase, custody, coupon payment, sale. Through AforroNet there are usually no IGCP fees for Certificados.' }
   ],
@@ -87,6 +87,6 @@ export default {
     { title: 'Código do IRS — tax withholding at source, art. 71', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Finanças — IRS and englobamento de rendimentos de capitais', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/IRS/Pages/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

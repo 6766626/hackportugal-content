@@ -3,7 +3,7 @@ export default {
   id: 'bicicleta-registo-codigo',
   categoryId: 'auto_ownership',
   title: 'Bicycle in Portugal — registration, licences and rules',
-  tldr: 'Ordinary bicycles (without a motor) in Portugal do NOT require registration, a licence or insurance. Since 2022, a voluntary bicycle register has been introduced via MyBike (mybike.pt) — to protect against theft. Electric bicycles (e-bikes) up to 250 W and 25 km/h do not require registration. Above that, it is a speed pedelec / e-moped and you need: registration with IMT, an AM or A1 licence, helmet, insurance. Highway Code: ride on the right-hand side of the road, you may use cycle lanes, pavement — only children under 10. A helmet is compulsory for children under 16, recommended for everyone. Bicycle on CP trains — free outside peak hours, on Lisboa Metro — yes at most stations.',
+  tldr: 'Ordinary bicycles (without a motor) in Portugal do NOT require registration, a licence or insurance. Since 2022, a voluntary bicycle register has been introduced via MyBike (mybike.pt) — to protect against theft. Electric bicycles (e-bikes) up to 250 W and 25 km/h do not require registration. Above that, it is a speed pedelec / e-moped and you need: registration with IMT, an AM or A1 licence, helmet, insurance. Highway Code: ride on the right-hand side of the road, you may use cycle lanes, pavement — only children under 10. On an ordinary bicycle a helmet is not legally compulsory (recommended for everyone), but it is compulsory on a motorised electric cycle. Bicycle on CP trains — free outside peak hours, on Lisboa Metro — yes at most stations.',
   tags: ['bicycle', 'bicycles', 'mybike', 'e-bike', 'imt'],
   estimatedReadMinutes: 6,
   steps: [
@@ -68,7 +68,7 @@ export default {
           '✅ Two abreast: you may ride in pairs if you do not obstruct traffic',
           '🚦 Traffic lights: the same rules as for cars',
           '🚦 Pedestrian crossing: dismount and walk the bicycle — cross as a pedestrian',
-          '⚠️ Alcohol: 0.5 per mille for cyclists (as for cars), 0.2 for young people under 25 or novice drivers',
+          '⚠️ Alcohol: 0.5 g/l for cyclists (as for cars), 0.2 g/l for novice drivers (first 3 years) and professional drivers',
           '⚠️ Phone in hand: prohibited, as for motorists',
           '🌃 At night: a front light (white) and rear light (red) + reflector are compulsory. Reflectors on the pedals. Without them — fine €60-300'
         ] }
@@ -79,12 +79,11 @@ export default {
       title: 'Helmet — compulsory or not',
       content: [
         { kind: 'checklist', items: [
-          'Children under 16: HELMET COMPULSORY (Decreto-Lei 41/2007)',
-          'Adults: RECOMMENDED, but not compulsory',
+          'Ordinary bicycle (no motor): a helmet is NOT legally compulsory for children or adults — but strongly RECOMMENDED for everyone',
+          'Motorised electric cycle (velocípede com motor): a helmet is COMPULSORY for the rider and passenger under the Código da Estrada, regardless of age',
           'Child seat: allowed for children up to 7 years old, must have footrests and straps',
           'Bicycle with load / trailer: up to 80 kg in total, trailer must have lights',
-          'Sports rallies: a helmet is compulsory for all participants under FPC rules',
-          'Pedelec / e-moped: helmet is compulsory regardless of age'
+          'Sports rallies: a helmet is compulsory for all participants under FPC rules'
         ] }
       ]
     },
@@ -97,7 +96,7 @@ export default {
           'Report it to PSP immediately: “furto de bicicleta”, you need the frame number, MyBike registration, photos',
           'The chances of finding it increase if you have MyBike + a photo with the frame number',
           'Bicycle insurance: €50-200/year from Tranquilidade, Fidelidade, Generali. Covers: theft, damage, liability for injuries',
-          'Expensive bicycles (>€1,500): insurance is essential',
+          'Expensive bicycles (>€1,500): insurance is strongly advisable (not legally required)',
           'Additionally: you can add the bicycle to your home insurance (seguro multirriscos), often cheaper',
           'Lock: U-lock minimum €60, not cheap cable locks',
           'GPS tracker: AirTag in the frame or special bike trackers (Powunity, Vodafone V-Bike)'
@@ -154,6 +153,6 @@ export default {
     { title: 'Decreto-Lei 41/2007 — Código da Estrada', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2007-34490175', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'PSP — road safety for cyclists', url: 'https://www.psp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

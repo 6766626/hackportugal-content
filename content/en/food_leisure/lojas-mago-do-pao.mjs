@@ -138,6 +138,6 @@ export default {
     { title: 'Official Confeitaria Nacional website: history since 1829 and products', url: 'https://confeitarianacional.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Official Manteigaria website: pastel de nata and locations', url: 'https://manteigaria.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

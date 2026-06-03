@@ -3,7 +3,7 @@ export default {
   id: "florista-flores-tradicoes",
   categoryId: "daily_life",
   title: "Цветочные магазины и традиции: Dia da Mãe, Pai, Páscoa, funeral",
-  tldr: "В Португалии цветы покупают не только «на свидание»: Dia da Mãe — 1-е воскресенье мая, в 2026 это 3 мая; Dia do Pai — 19 марта; Páscoa 2026 — 5 апреля, с пальмовыми ветвями в Domingo de Ramos 29 марта. На похороны отправляют coroa de flores или ramo fúnebre обычно за 40–150 €. 25 Abril — день красных гвоздик cravos vermelhos. Заказывать можно у местной florista, через Interflora.pt и доставку в день заказа.",
+  tldr: "В Португалии цветы покупают не только «на свидание»: Dia da Mãe — 1-е воскресенье мая, в 2026 это 3 мая; Dia do Pai — 19 марта; Páscoa 2026 — 5 апреля, с пальмовыми ветвями в Domingo de Ramos 29 марта. На похороны отправляют coroa de flores или ramo fúnebre обычно за 40–150 €. 25 Abril — день красных гвоздик cravos vermelhos. Заказать можно у местной florista, через Interflora.pt или с доставкой в день заказа.",
   tags: ["flores", "florista", "традиции", "похороны", "páscoa"],
   estimatedReadMinutes: 5,
   steps: [
@@ -19,7 +19,7 @@ export default {
           kind: "checklist",
           items: [
             "Для срочного букета ищите в Google Maps: “florista perto de mim”, “entrega de flores”, “flores ao domicílio”.",
-            "Для доставки по стране используйте Interflora.pt: букеты, похоронные венки, корзины, растения, доставка в тот же день при заказе до локального cut-off.",
+            "Для доставки по стране используйте Interflora.pt: букеты, похоронные венки, корзины, растения, доставка в тот же день при заказе до местного крайнего срока приёма заявок.",
             "В супермаркетах Continente, Pingo Doce, Lidl, Auchan продают простые букеты за 5–20 €, но без индивидуальной открытки и нормальной упаковки.",
             "На рынках можно купить свежие сезонные цветы дешевле, но оплата часто наличными или Multibanco; MB WAY есть не везде.",
             "Если нужен конкретный цвет или сорт, звоните заранее: в маленьких floristas ассортимент зависит от поставки утром.",
@@ -64,7 +64,7 @@ export default {
       content: [
         {
           kind: "paragraph",
-          text: "Páscoa — Пасха. В 2026 году Domingo de Páscoa приходится на 5 апреля, Sexta-Feira Santa — 3 апреля, Domingo de Ramos — 29 марта. В Domingo de Ramos в церкви приносят ramos: пальмовые, оливковые или лавровые ветви. Их благословляют на мессе и потом держат дома."
+          text: "Páscoa — Пасха. В 2026 году Domingo de Páscoa приходится на 5 апреля, Sexta-Feira Santa — 3 апреля, Domingo de Ramos — 29 марта. В Domingo de Ramos в церковь приносят ramos: пальмовые, оливковые или лавровые ветви. Их благословляют на мессе и потом держат дома."
         },
         {
           kind: "paragraph",
@@ -223,6 +223,6 @@ export default {
       lastRetrieved: "2026-04-28"
     }
   ],
-  lastVerified: "2026-05-17",
+  lastVerified: "2026-05-31",
   verifyIntervalDays: 180
 }

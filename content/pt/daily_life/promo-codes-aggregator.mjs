@@ -162,10 +162,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Sempre que dá o seu NIF na caixa, adiciona a factura ao e-Fatura.gov.pt. No fim do ano, pode recuperar parte do IVA como dedução no IRS. Não é um «desconto», mas é dinheiro real de volta.' },
         { kind: 'checklist', items: [
-          '🍽️ Restaurantes: 15% do IVA (máx 250 € por ano)',
-          '🚗 Reparações de automóveis e motas: 15% do IVA (máx 250 €)',
-          '💇 Cabeleireiros/salões de beleza: 15% do IVA (máx 250 €)',
-          '🐾 Veterinária: 15% (máx 250 €)',
+          '🍽️ Restaurantes e restauração: 15% do IVA',
+          '🚗 Reparações de automóveis e motas: 15% do IVA',
+          '💇 Cabeleireiros/salões de beleza: 15% do IVA',
+          '🐾 Veterinária: 15% do IVA (medicamentos para animais — 35%)',
+          '💪 Ginásios, passes de transporte, jornais e revistas: 15% do IVA',
+          '⚠️ Limite global para todas estas categorias — 250 € por ano no conjunto (não 250 € em cada)',
           '🏠 Gás, electricidade, água: 15% do IVA',
           '🎓 Educação (incluindo cursos, explicadores): 30% (máx 800 €)',
           '🏥 Saúde (incluindo farmácias): 15% (máx 1000 €)',
@@ -182,7 +184,7 @@ export default {
     { title: 'ACSS — Conselho Nacional Famílias Numerosas', url: 'https://famnumerosas.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal das Finanças — e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: cartões de desconto e promoções em Portugal. Cartão Continente (principal), Pingo Doce Poupa Mais, Cartão Jovem Europeu (12-29 anos, ~60 categorias de descontos), Cartão Família Numerosa (para 3+ filhos), programas de lojas (KIWOKO, Decathlon, FNAC), sites de cashback (Letyshops, eBuyClub), agregadores de cupões (Radarcupao, Ocacapromocoes), reembolso de IVA via e-Fatura através do IRS.'

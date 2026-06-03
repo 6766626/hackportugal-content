@@ -107,6 +107,6 @@ export default {
     { title: 'MyWash Portugal — lavandarias self-service e franchising', url: 'https://www.mywash.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações — livro de reclamações electrónico oficial para consumidores', url: 'https://www.livroreclamacoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -9,7 +9,7 @@ export default {
   steps: [
     {
       id: 'choose-track',
-      title: '1. Выберите трек: хобби или предпрофессионально',
+      title: '1. Выберите трек: хобби или предпрофессиональный',
       content: [
         {
           kind: 'paragraph', text: 'Сначала решите, зачем ребёнку занятия: движение и социализация, сцена и фестивали, подготовка к профессиональному танцу или просто спорт после школы. В Португалии это разные форматы с разной нагрузкой.'
@@ -40,7 +40,7 @@ export default {
         {
           kind: 'checklist',
           items: [
-            'Проверяйте раздел admissões на сайте EADCN весной: сроки и правила меняются по учебному году',
+            'Проверяйте раздел admissões на сайте EDCN весной: сроки и правила меняются по учебному году',
             'Обычно нужен конкурс / prova de admissão: физические данные, координация, музыкальность, мотивация',
             'Основной язык — португальский; для маленьких детей языковая адаптация важна',
             'Государственная школа не означает “запись всем желающим”: места ограничены',
@@ -159,7 +159,7 @@ export default {
     },
     {
       title: 'Escola Artística de Dança do Conservatório Nacional — admissões e ensino artístico',
-      url: 'https://www.eadcn.pt',
+      url: 'https://edcn.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -179,6 +179,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

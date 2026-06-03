@@ -44,13 +44,13 @@ export default {
             { kind: 'paragraph', text: 'Ищите escola de condução или centro de formação, которые прямо пишут «CAM mercadorias», «CAM passageiros», «formação inicial acelerada» и «entidade certificada/reconhecida pelo IMT».' }
           ] },
           { id: 'complete-140h', title: '2. Пройти 140 часов обучения', content: [
-            { kind: 'paragraph', text: 'График бывает дневной, вечерний или интенсивный. Реально закладывайте от 3 до 8 недель, в зависимости от расписания и вашей занятости.' }
+            { kind: 'paragraph', text: 'График бывает дневной, вечерний или интенсивный. На практике закладывайте от 3 до 8 недель в зависимости от расписания и вашей занятости.' }
           ] },
           { id: 'imt-exam', title: '3. Сдать avaliação/exame', content: [
             { kind: 'paragraph', text: 'После курса школа направляет на оценку по правилам IMT. Уточните у школы, входит ли запись на экзамен в стоимость и сколько стоит повторная попытка.' }
           ] },
           { id: 'request-cqm', title: '4. Оформить CQM или código 95', content: [
-            { kind: 'paragraph', text: 'После успешного завершения квалификация оформляется в системе IMT. Водителю нужен документ/отметка, подтверждающая профессиональную квалификацию: Carta de Qualificação de Motorista (CQM) или соответствующий código 95, если он применяется к вашей ситуации.' }
+            { kind: 'paragraph', text: 'После успешного завершения квалификация оформляется в системе IMT. У резидентов Португалии с 2021 года отдельная карточка CQM не выдаётся: подтверждением служит código 95, проставляемый на водительском удостоверении. Carta de Qualificação de Motorista (CQM) сохраняется в рамках ЕС и для отдельных случаев нерезидентов.' }
           ] }
         ] },
         { kind: 'warning', text: 'Не начинайте работать «пока карточка в процессе», если работодатель не подтвердил законность выхода на линию. При проверке важен не только диплом школы, а действующая квалификация, признанная IMT.' }
@@ -62,7 +62,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'CAM/CQM действует 5 лет. Для продления нужно пройти formação contínua 35 часов до истечения срока. Это не полный повтор 140 ч: цель — обновить знания по безопасности, нормативам, тахографу, eco-driving и изменениям законодательства.' },
         { kind: 'checklist', items: ['Проверьте срок действия CQM/código 95 минимум за 6 месяцев до даты окончания.', 'Запишитесь на formação contínua 35 ч в entidade formadora, признанную IMT.', 'Уточните, относится ли курс к mercadorias, passageiros или покрывает обе квалификации.', 'После курса школа передаёт данные/документы для обновления квалификации.', 'Сохраните comprovativo de frequência и recibo до получения обновлённого документа.', 'Если срок уже истёк, не выполняйте профессиональные рейсы до восстановления квалификации.', 'При смене работодателя передайте копию действующего CQM/código 95 и прав.' ] },
-        { kind: 'warning', text: 'Просроченный CAM/CQM фактически означает отсутствие профессиональной квалификации. Это отдельный риск от просроченной carta de condução: права могут быть действующими, но коммерчески работать водителем C/D всё равно нельзя.' }
+        { kind: 'warning', text: 'Просроченный CAM/CQM фактически означает отсутствие профессиональной квалификации. Это отдельный риск, не связанный с просроченной carta de condução: права могут быть действующими, но коммерчески работать водителем C/D всё равно нельзя.' }
       ]
     },
     {
@@ -85,6 +85,6 @@ export default {
     { title: 'Decreto-Lei 126/2009 — qualificação inicial e formação contínua de motoristas', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34508075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IMT: Carta de Qualificação de Motorista / categorias profissionais', url: 'https://www.imt-ip.pt/sites/IMTT/Portugues/Cidadao/Cartas-Conducao/Paginas/CartasConducao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

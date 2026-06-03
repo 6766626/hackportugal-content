@@ -45,7 +45,7 @@ export default {
       id: 'picanha',
       title: 'Picanha: popular, mas não é um corte português clássico',
       content: [
-        { kind: 'paragraph', text: 'A picanha é conhecida em quase todo o lado em Portugal por causa dos restaurantes brasileiros e das churrasqueiras. Mas é um estilo brasileiro de destacar a parte superior do rump cap com capa de gordura. Na desmancha tradicional portuguesa, essa zona pode ser incluída na alcatra/pojadorao/pojadoro, dependendo do talhante e da região.' },
+        { kind: 'paragraph', text: 'A picanha é conhecida em quase todo o lado em Portugal por causa dos restaurantes brasileiros e das churrasqueiras. Mas é um estilo brasileiro de destacar a parte superior do rump cap com capa de gordura. Na desmancha tradicional portuguesa, essa zona pode ser incluída na alcatra ou no pojadouro, dependendo do talhante e da região.' },
         { kind: 'checklist', items: [
           'Uma boa picanha tem uma camada uniforme de gordura por cima, com cerca de 0,5–1,5 cm.',
           'Para churrasqueira, peça “picanha inteira” ou “em peças”, e não bifes finos.',
@@ -125,6 +125,6 @@ export default {
     { title: 'Continente — catálogo online do Talho e preços de retalho actuais', url: 'https://www.continente.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Pingo Doce — secção de carne e preços de retalho', url: 'https://www.pingodoce.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

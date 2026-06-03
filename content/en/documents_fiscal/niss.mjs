@@ -40,8 +40,8 @@ export default {
           { id: 's3', title: '3. Upload scans of documents', content: [
             { kind: 'checklist', items: ['Passport/civil identification document (pages with personal data and, if required, pages with a current visa/stamp)', 'NIF (in practice usually needed)', 'Residence permit / visa / EU document', 'Address in Portugal; comprovativo de morada may be requested additionally'] }
           ]},
-          { id: 's4', title: '4. Receive the NISS by email', content: [
-            { kind: 'timeline', text: '5–30 days. The reply usually comes to the email/contact provided in the application. SSD becomes fully available after the NISS has been assigned and access has been set up.' }
+          { id: 's4', title: '4. Receive the NISS by email or letter', content: [
+            { kind: 'timeline', text: '5–30 days. The reply usually comes to the email/contact provided in the application; for foreign citizens a registered letter is often sent as well, inviting you to collect the NISS at a Loja da Segurança Social. SSD becomes fully available after the NISS has been assigned and access has been set up.' }
           ]}
         ]}
       ]
@@ -70,6 +70,6 @@ export default {
     { title: 'ePortugal — Get a NISS', url: 'https://www.gov.pt/servicos/obter-numero-de-identificacao-da-seguranca-social-niss', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AIMA — checklist by residence permit type', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

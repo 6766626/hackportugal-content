@@ -3,7 +3,7 @@ export default {
   id: 'lisboa-bip-zip-cartao',
   categoryId: 'daily_life',
   title: 'Cartão BIP/ZIP: Lisbon resident card with discounts',
-  tldr: 'Cartão BIP/ZIP is a municipal card from Câmara Municipal de Lisboa for residents of 65 BIP/ZIP zones: Bairros e Zonas de Intervenção Prioritária. It is not the tourist Lisboa Card, but a local for access to discounts and participation conditions in cultural, sports, health and neighbourhood project programmes. Eligibility depends on your residential address, not citizenship. Identification and proof of address in a BIP/ZIP zone are usually required; issuing the card is free.',
+  tldr: 'Cartão BIP/ZIP is a municipal card from Câmara Municipal de Lisboa for residents of 67 BIP/ZIP zones: Bairros e Zonas de Intervenção Prioritária. It is not the tourist Lisboa Card, but a local document for access to discounts and participation conditions in cultural, sports, health and neighbourhood project programmes. Eligibility depends on your residential address, not citizenship. Identification and proof of address in a BIP/ZIP zone are usually required; issuing the card is free.',
   tags: ['lisboa', 'bipzip', 'discounts', 'bairro'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'What Cartão BIP/ZIP is',
       content: [
-        { kind: 'paragraph', text: 'BIP/ZIP means Bairros e Zonas de Intervenção Prioritária — Lisbon neighbourhoods and zones that Câmara Municipal de Lisboa considers priorities for social, urban and neighbourhood support. In 2026, the municipal BIP/ZIP card is linked to living in one of these 65 zones.' },
+        { kind: 'paragraph', text: 'BIP/ZIP means Bairros e Zonas de Intervenção Prioritária — Lisbon neighbourhoods and zones that Câmara Municipal de Lisboa considers priorities for social, urban and neighbourhood support. In 2026, the municipal BIP/ZIP card is linked to living in one of these 67 zones.' },
         { kind: 'paragraph', text: 'The card is not for transport and not for “all-inclusive” tourist museums. It confirms that you live in a specific BIP/ZIP zone, and may give access to municipal discounts, events, sports, cultural, educational, medical and social initiatives that CML or partners run for these neighbourhoods.' },
         { kind: 'warning', text: 'Do not confuse it with Lisboa Card: Lisboa Card is a paid tourist card for transport and attractions. Cartão BIP/ZIP is a municipal resident card based on your residential address in a priority neighbourhood.' }
       ]
@@ -88,7 +88,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Trying to get the card using an Airbnb or temporary hotel address — a real residential address is usually needed.',
-          'Thinking that all of Lisboa is included in BIP/ZIP: no, only the defined 65 zones.',
+          'Thinking that all of Lisboa is included in BIP/ZIP: no, only the defined 67 zones.',
           'Showing only NIF with the address in Finanças: it is useful, but not always sufficient as comprovativo de morada.',
           'Confusing Junta de Freguesia and Câmara Municipal de Lisboa: the Junta helps with atestado and local information, but the programme is municipal.',
           'Expecting a fixed discount in euros or percentages across the whole capital: conditions depend on the programme and partner.',
@@ -126,6 +126,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

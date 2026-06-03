@@ -113,7 +113,7 @@ export default {
           '⚠️ Incorrect sorting — formally a fine may apply; in practice, the bag may not be collected',
           '⚠️ Bulky waste left on the street without a request — fine of €50-250',
           '⚠️ Putting waste out outside the schedule (some areas have set times)',
-          '⚠️ Throwing waste from a car — up to €750',
+          '⚠️ Throwing waste from a car window — fine of €60-300 (Código da Estrada, Art. 79)',
           '⚠️ Ecocentros accept citizens with atestado de residência free of charge; commercial users pay'
         ]}
       ]
@@ -126,7 +126,7 @@ export default {
           '🚮 Rinse packaging to remove residues — clean packaging is recycled more effectively',
           '📦 Take cardboard boxes apart and flatten them — more fits in the bin this way',
           '🔋 Do not throw batteries into ordinary rubbish — it is dangerous',
-          '🛍️ Shopping bag (saco reutilizável) — since 2021, plastic bags in supermarkets have cost 3-10 cents',
+          '🛍️ Shopping bag (saco reutilizável) — since 2015, light plastic bags in shops are paid: an 8-cent levy plus VAT, a minimum price of about 10 cents (ordinary checkout bags cost more)',
           '🏭 Ecocentro — every large municipality has one, and you can take unusual items there',
           '♻️ Composting on a balcony or in a yard — increasingly common among residents; municipalities distribute composters free of charge',
           '📱 “Sociedade Ponto Verde” app — explains where to put each item'
@@ -140,6 +140,6 @@ export default {
     { title: 'Decreto-Lei n.º 102-D/2020 — Regime Geral da Gestão de Resíduos', url: 'https://dre.pt/dre/detalhe/decreto-lei/102-d-2020', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Directive 2008/98/EC — EU Waste Framework Directive', url: 'https://eur-lex.europa.eu/', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

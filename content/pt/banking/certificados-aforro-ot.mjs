@@ -3,7 +3,7 @@ export default {
   id: 'certificados-aforro-ot',
   categoryId: 'banking',
   title: 'Obrigações do Estado português: Certificados de Aforro, Certificados do Tesouro e OT através do AforroNet',
-  tldr: 'O AforroNet é o acesso online do IGCP à dívida pública de retalho portuguesa. Em 2026, o principal produto de massas é o Certificados de Aforro Série F: mínimo 100 €, máximo 50 000 € por pessoa, prazo até 15 anos, não pode ser resgatado nos primeiros 3 meses, taxa = Euribor 3M + 1%, mas no máximo 2,5% antes dos prémios. São necessários NIF, Conta Aforro, IBAN confirmado e morada fiscal portuguesa. Os juros estão sujeitos a IRS na fonte: normalmente 28%.',
+  tldr: 'O AforroNet é o acesso online do IGCP à dívida pública de retalho portuguesa. Em 2026, o principal produto de massas é o Certificados de Aforro Série F: mínimo 100 €, máximo 250 000 € por pessoa, prazo até 15 anos, não pode ser resgatado nos primeiros 3 meses, taxa = Euribor 3M + 1%, mas no máximo 2,5% antes dos prémios. São necessários NIF, Conta Aforro, IBAN confirmado e morada fiscal portuguesa. Os juros estão sujeitos a IRS na fonte: normalmente 28%.',
   tags: ['aforronet', 'igcp', 'obrigações', 'irs', 'nif'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que é realmente possível comprar em 2026',
       content: [
         { kind: 'paragraph', text: 'O IGCP vende dívida pública de retalho directamente a pessoas singulares através da rede CTT/parceiros e online através do AforroNet. Trata-se de dívida da República Portuguesa: o risco não é bancário, é soberano. Não está abrangida pelo Fundo de Garantia de Depósitos, porque não é um depósito.' },
-        { kind: 'checklist', items: ['Certificados de Aforro Série F — o principal produto disponível para novas subscrições em 2026', 'Subscrição mínima da Série F: 100 €', 'Máximo da Série F: 50 000 € por pessoa; limite total Série E + Série F — 250 000 €', 'Prazo da Série F: até 15 anos', 'O resgate antecipado da Série F é proibido nos primeiros 3 meses', 'Taxa da Série F: Euribor 3M média + 1%, mas a taxa base está limitada a 2,5%', 'Os prémios de permanência da Série F são acrescentados após o 1.º ano: +0,25%, +0,50% ou +1,00%, consoante o período de detenção', 'Certificados do Tesouro — as séries antigas podem ser mantidas e resgatadas; novas subscrições dependem de a série específica estar aberta pelo IGCP', 'OT / Obrigações do Tesouro — obrigações do tesouro comuns; a disponibilidade para retalho através do AforroNet depende da emissão específica, e no mercado secundário são normalmente compradas através de banco ou corretora'] },
+        { kind: 'checklist', items: ['Certificados de Aforro Série F — o principal produto disponível para novas subscrições em 2026', 'Subscrição mínima da Série F: 100 €', 'Máximo da Série F: 250 000 € por pessoa (limite aumentado em abril de 2026); limite total Série E + Série F — 500 000 €', 'Prazo da Série F: até 15 anos', 'O resgate antecipado da Série F é proibido nos primeiros 3 meses', 'Taxa da Série F: Euribor 3M média + 1%, mas a taxa base está limitada a 2,5%', 'Os prémios de permanência da Série F são acrescentados a partir do 2.º ano e sobem de +0,25% até +1,75%, consoante o período de detenção', 'Certificados do Tesouro — as séries antigas podem ser mantidas e resgatadas; novas subscrições dependem de a série específica estar aberta pelo IGCP', 'OT / Obrigações do Tesouro — obrigações do tesouro comuns; a disponibilidade para retalho através do AforroNet depende da emissão específica, e no mercado secundário são normalmente compradas através de banco ou corretora'] },
         { kind: 'warning', text: 'Não confunda Certificados de Aforro com um depósito bancário a prazo. A rentabilidade varia, a liquidez é limitada pelas regras da série, e o preço das OT comuns no mercado pode cair quando as taxas sobem.' }
       ]
     },
@@ -77,7 +77,7 @@ export default {
   costs: [
     { label: 'Abertura da Conta Aforro / AforroNet', amountEUR: 0, note: 'O IGCP não cobra comissão pela abertura nem pelo acesso online; podem existir comissões bancárias do seu banco por operações.' },
     { label: 'Subscrição mínima de Certificados de Aforro Série F', amountEUR: 100, note: 'O valor nominal da subscrição segue as regras da série; verifique o formulário da operação no AforroNet.' },
-    { label: 'Máximo de Certificados de Aforro Série F', amountEUR: 50000, note: 'Limite por pessoa para a Série F; limite total Série E + Série F — 250 000 €.' },
+    { label: 'Máximo de Certificados de Aforro Série F', amountEUR: 250000, note: 'Limite por pessoa para a Série F (aumentado em abril de 2026); limite total Série E + Série F — 500 000 €.' },
     { label: 'IRS sobre juros para residente', amountEURMin: 0, amountEURMax: 28, note: 'Esta é uma taxa de 28%, não um montante fixo em euros; é retida sobre o rendimento apurado.' },
     { label: 'Comissões sobre OT através de banco/corretora', amountEURMin: 0, amountEURMax: 50, note: 'Dependem do intermediário: compra, custódia, pagamento de cupão, venda. Através do AforroNet, para Certificados, normalmente não há comissões do IGCP.' }
   ],
@@ -87,6 +87,6 @@ export default {
     { title: 'Código do IRS — retenção na fonte, art. 71', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Finanças — IRS e englobamento de rendimentos de capitais', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/IRS/Pages/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

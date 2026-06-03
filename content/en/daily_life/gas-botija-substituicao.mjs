@@ -3,7 +3,7 @@ export default {
   id: 'gas-botija-substituicao',
   categoryId: 'daily_life',
   title: 'Gas botija: where to replace a cylinder and how to arrange delivery',
-  tldr: 'In Portugal, homes without natural gas often use LPG in cylinders: a 13 kg butane botija for the kitchen and esquentador, propane for outdoor/cold areas. In 2026, replacing a 13 kg butane cylinder usually costs €27–32 + delivery, if it is not included; without an empty cylinder, you pay a caução/purchase of the container. Galp, Repsol, BP and local revendedores deliver to homes in Lisboa, Porto, Algarve and most towns. A contract is not always needed: ordering by phone/WhatsApp is often enough, but you can set up regular entrega.',
+  tldr: 'In Portugal, homes without natural gas often use LPG in cylinders: a 13 kg butane botija for the kitchen and esquentador, propane for outdoor/cold areas. In 2026, replacing a 13 kg butane cylinder usually costs around €34–39 + delivery, if it is not included; without an empty cylinder, you pay a caução/purchase of the container. Galp, Repsol, BP and local revendedores deliver to homes in Lisboa, Porto, Algarve and most towns. A contract is not always needed: ordering by phone/WhatsApp is often enough, but you can set up regular entrega.',
   tags: ['lpg', 'botija', 'gas', 'galp', 'repsol'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A botija is a domestic LPG cylinder: butane or propane. In flats and houses without natural gas, it powers the hob, oven, esquentador water heater and sometimes heating. The most common kitchen format is 13 kg butane. Propane works better outdoors, in unheated spaces and at low temperatures.' },
         { kind: 'checklist', items: [
-          '13 kg butane — the standard for a flat kitchen; in 2026 a typical replacement costs €27–32.',
+          '13 kg butane — the standard for a flat kitchen; in 2026 a typical replacement costs around €34–39.',
           '11 kg propane — a similar domestic format, often chosen for exterior use or colder areas.',
           '45 kg propane — for houses, heating, high consumo; usually installed outside and requires more space.',
           'Cylinders from different brands are not always interchangeable: Galp is exchanged for Galp, Repsol for Repsol, etc.',
@@ -74,9 +74,9 @@ export default {
       id: 'prices',
       title: 'How much it costs in 2026',
       content: [
-        { kind: 'paragraph', text: 'Prices for LPG in cylinders in Portugal are commercial and vary by brand, area, delivery and promotions. As a guide for April 2026: a domestic 13 kg butane cylinder, when exchanging an empty one, usually falls in the €27–32 range. Delivery may be included or added separately.' },
+        { kind: 'paragraph', text: 'Prices for LPG in cylinders in Portugal are commercial and vary by brand, area, delivery and promotions. As a guide for 2026: a domestic 13 kg butane cylinder, when exchanging an empty one, usually falls in the €34–39 range. Delivery may be included or added separately.' },
         { kind: 'checklist', items: [
-          '13 kg butane replacement: usually €27–32 if you have an empty botija.',
+          '13 kg butane replacement: usually €34–39 if you have an empty botija.',
           'Delivery: often €0–5 in the city, but it may be higher for remote addresses.',
           'New/first cylinder without an empty one: a caução or container fee is added.',
           'Regulator: usually €10–25 depending on the type and shop.',
@@ -107,7 +107,7 @@ export default {
     }
   ],
   costs: [
-    { label: '13 kg butane botija replacement', amountEURMin: 27, amountEURMax: 32, note: 'Typical range in mainland Portugal in 2026 when handing over an empty cylinder; the price depends on the brand and revendedor.' },
+    { label: '13 kg butane botija replacement', amountEURMin: 34, amountEURMax: 39, note: 'Typical range in mainland Portugal in 2026 when handing over an empty cylinder; the price depends on the brand and revendedor.' },
     { label: 'Home delivery', amountEURMin: 0, amountEURMax: 5, note: 'Often included in cities, but may be higher in remote freguesias or for urgent orders.' },
     { label: 'LPG regulator', amountEURMin: 10, amountEURMax: 25, note: 'Needed for the first connection or if the old/unsuitable encaixe is used.' },
     { label: 'LPG hose + clamps', amountEURMin: 5, amountEURMax: 15, note: 'Check the expiry date printed on the hose.' },
@@ -118,6 +118,6 @@ export default {
     { title: 'Repsol — Repsol Gás and LPG distribution', url: 'https://www.repsol.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE — consumer information on gas and energy', url: 'https://www.erse.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

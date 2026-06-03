@@ -107,6 +107,6 @@ export default {
     { title: 'A Brasileira — historic Lisbon café and bica', url: 'https://www.abrasileira.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Delta Cafés — Portuguese coffee culture', url: 'https://www.deltacafes.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

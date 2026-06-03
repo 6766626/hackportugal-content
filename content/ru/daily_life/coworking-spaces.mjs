@@ -3,7 +3,7 @@ export default {
   id: 'coworking-spaces',
   categoryId: 'daily_life',
   title: 'Коворкинги в Португалии — где работать удалёнщикам',
-  tldr: 'Лиссабон, Порту и Мадейра — крупные хабы цифровых кочевников.\n\nЦены: 150-400 €/мес за гибкое место, 250-800 €/мес за фиксированное. Крупные сети: Second Home (премиум), LACS, Avila Spaces, Impact Hub, WorkIO. Digital Nomads Village Ponta do Sol (Мадейра) — бесплатный коворкинг для зарегистрированных удалёнщиков.\n\nВ Порту: Porto i/o, Village Underground, Selina Cowork. Wi-Fi 100-1000 Мбит, комнаты для звонков от 10 €/час.',
+  tldr: 'Лиссабон, Порту и Мадейра — крупные хабы цифровых кочевников.\n\nЦены: 150-400 €/мес за гибкое место, 250-800 €/мес за фиксированное. Крупные сети: Second Home (премиум), LACS, Avila Spaces, Impact Hub, WorkIO. Digital Nomads Village Ponta do Sol (Мадейра) — бесплатный коворкинг для зарегистрированных удалёнщиков.\n\nВ Порту: Porto i/o, Village Underground, Selina Cowork. Wi-Fi 100-1000 Мбит/с, комнаты для звонков от 10 €/час.',
   tags: ['коворкинг', 'удалённая работа', 'цифровой кочевник', 'офис'],
   estimatedReadMinutes: 5,
   steps: [
@@ -17,7 +17,7 @@ export default {
               'Second Home (Mercado da Ribeira) — легендарное место, дизайн с растениями, 400-800 €/мес',
               'WorkIO (Marquês de Pombal) — красивый открытый коворкинг, 350-600 €/мес',
               'Heden (Avenida) — бутик-формат с частными офисами, 500+ €/мес',
-              'The Hub (Saldanha) — операционные коллективные офисы, 400-700 €/мес'
+              'The Hub (Saldanha) — коллективные офисы с полным обслуживанием, 400-700 €/мес'
             ]}
           ]},
           { id: 'l2', title: '🏢 Средний ценник (150-350 €/мес)', content: [
@@ -89,7 +89,7 @@ export default {
       title: 'На что смотреть при выборе',
       content: [
         { kind: 'checklist', items: [
-          '🌐 Wi-Fi: >100 Мбит — норма, не соглашайтесь на меньшее',
+          '🌐 Wi-Fi: >100 Мбит/с — норма, не соглашайтесь на меньшее',
           '🔊 Звукоизоляция — тихие зоны для звонков отдельно',
           '🪑 Эргономика — стул с регулировкой, монитор',
           '🍽️ Кухня / кофе включены?',
@@ -107,7 +107,7 @@ export default {
       id: 'tax-deduction',
       title: 'Налоговый аспект',
       content: [
-        { kind: 'paragraph', text: 'Для recibos verdes в regime simplificado расходы напрямую не вычитаются как 100%: налогооблагаемый доход считается по коэффициентам (часто 75% для услуг), но часть расходов с факт-чеками может уменьшить базу. Для contabilidade organizada и юрлиц коворкинг учитывается как рабочий расход. Дедукция IVA возможна только для VAT-liable деятельности при правильном документообороте. Всегда просите счёт с NIF; хранить чеки минимум 4 года.' },
+        { kind: 'paragraph', text: 'Для recibos verdes в regime simplificado расходы напрямую не вычитаются как 100%: налогооблагаемый доход считается по коэффициентам (часто 75% для услуг), но часть расходов с подтверждающими счетами (faturas) может уменьшить базу. Для contabilidade organizada и юрлиц коворкинг учитывается как рабочий расход. Дедукция IVA возможна только для VAT-liable деятельности при правильном документообороте. Всегда просите счёт с NIF; хранить чеки минимум 4 года.' },
         { kind: 'checklist', items: [
           'Гибкое место: услуга "serviços de escritório / coworking"',
           'Фиксированное место: услуга/аренда (office services); классификация зависит от договора',
@@ -130,6 +130,6 @@ export default {
     { title: 'Porto i/o', url: 'https://porto.io/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Impact Hub Lisboa', url: 'https://lisbon.impacthub.net/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

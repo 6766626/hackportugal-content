@@ -3,7 +3,7 @@ export default {
   id: 'health-insurance-compared',
   categoryId: 'healthcare',
   title: 'Seguro de saúde privado em Portugal — Médis, Multicare, CUF e outros',
-  tldr: 'O SNS está disponível para residentes registados/utente; a maioria dos serviços essenciais não tem taxas moderadoras (Lei n.º 22/2022), mas medicamentos, estomatologia, óculos e parte dos serviços são pagos separadamente ou parcialmente. As listas de espera para especialistas variam entre semanas e meses, consoante a região, a prioridade e a especialidade. O seguro privado acelera — GP/urgent care muitas vezes no próprio dia, specialists/exames em dias-semanas. Principais seguradoras: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare é uma rede/administrador (não uma seguradora separada).\n\nPreços 2026: 30–80 €/mês plano básico, 100–250 €/mês completo. Para vistos D7/D8, os consulados normalmente exigem travel medical insurance — os requisitos exactos variam por consulado.',
+  tldr: 'O SNS está disponível para residentes registados/utente; a maioria dos serviços essenciais não tem taxas moderadoras (Decreto-Lei n.º 37/2022), mas medicamentos, estomatologia, óculos e parte dos serviços são pagos separadamente ou parcialmente. As listas de espera para especialistas variam entre semanas e meses, consoante a região, a prioridade e a especialidade. O seguro privado acelera — GP/urgent care muitas vezes no próprio dia, specialists/exames em dias-semanas. Principais seguradoras: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare é uma rede/administrador (não uma seguradora separada).\n\nPreços 2026: 30–80 €/mês plano básico, 100–250 €/mês completo. Para vistos D7/D8, os consulados normalmente exigem travel medical insurance — os requisitos exactos variam por consulado.',
   tags: ['seguro', 'saúde', 'médis', 'multicare', 'medicina privada'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           '⏰ SNS: as listas de espera para especialistas variam entre semanas e meses, consoante a região, a prioridade e a especialidade',
           '🏥 O sistema privado é geralmente mais rápido: GP/urgent care muitas vezes no próprio dia, specialists/exames — de alguns dias a semanas, consoante a rede e o médico',
-          '💊 A maioria das taxas moderadoras no SNS foi eliminada desde 2022 (Lei n.º 22/2022); permanecem, por exemplo, urgência sem referral do SNS24/INEM/centro de saúde e alguns serviços fora do SNS',
+          '💊 A maioria das taxas moderadoras no SNS foi eliminada desde 2022 (Decreto-Lei n.º 37/2022); permanecem, por exemplo, urgência sem referral do SNS24/INEM/centro de saúde e alguns serviços fora do SNS',
           '🧪 Análises/RM pelo SNS — de semanas a meses; com seguro, muitas vezes 1–2 semanas',
           '💰 Dedução no IRS: 15% em despesas de saúde dentro do household cap (Código do IRS art. 78.º-C)',
           '🌍 Para vistos D7 / D8, os consulados normalmente exigem travel medical insurance — os requisitos concretos diferem por consulado',
@@ -51,13 +51,13 @@ export default {
             { kind: 'paragraph', text: 'Rede/plataforma de serviços de saúde (managed-care/network administrator), e não uma seguradora separada. É frequentemente utilizada por produtos de seguro da Generali Tranquilidade e de parceiros; confirme quem é exactamente a seguradora jurídica na apólice. A partir de 30 €/mês.' }
           ]},
           { id: 'p4', title: 'Generali Tranquilidade', content: [
-            { kind: 'paragraph', text: 'Desde 2024, a Tranquilidade pertence ao grupo Generali e opera sob a marca Generali Tranquilidade; em 2024 foi integrada nela a Liberty Seguros Portugal. Planos premium, cobertura internacional, mais caros, mas com apoio forte para estrangeiros. A partir de 50 €/mês.' }
+            { kind: 'paragraph', text: 'Desde 2024, a Tranquilidade pertence ao grupo Generali e opera sob a marca Generali Tranquilidade; em 2024 adquiriu a Liberty Seguros Portugal, tendo a fusão jurídica sido concluída em 2025. Planos premium, cobertura internacional, mais caros, mas com apoio forte para estrangeiros. A partir de 50 €/mês.' }
           ]},
           { id: 'p4b', title: 'Allianz Portugal', content: [
             { kind: 'paragraph', text: 'Grupo segurador separado (NÃO faz parte da Tranquilidade/Generali). Planos de saúde e cobertura internacional para expatriados. Compare separadamente.' }
           ]},
           { id: 'p5', title: 'ADSE (para trabalhadores do sector público)', content: [
-            { kind: 'paragraph', text: 'A ADSE é uma subsistema público de saúde para trabalhadores do sector público, aposentados da função pública e respectivos eligible dependants (Decreto-Lei n.º 7/2017). Não é uma seguradora privada nem uma apólice comum para expatriados.' }
+            { kind: 'paragraph', text: 'A ADSE é um subsistema público de saúde para trabalhadores do sector público, aposentados da função pública e respectivos eligible dependants (Decreto-Lei n.º 7/2017). Não é uma seguradora privada nem uma apólice comum para expatriados.' }
           ]}
         ]}
       ]
@@ -141,12 +141,12 @@ export default {
   ],
   sources: [
     { title: 'ASF — Autoridade de Supervisão de Seguros', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Lei n.º 22/2022 — taxas moderadoras (eliminação)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/22-2022-184170621', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei n.º 37/2022 — taxas moderadoras (eliminação)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-2022-184054398', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Ministério da Saúde — SNS', url: 'https://www.sns.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ERS — Entidade Reguladora da Saúde', url: 'https://www.ers.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ADSE, I.P.', url: 'https://www.adse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal dos Vistos MNE — requisitos D7/D8', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'cascais-card-vivacascais',
   categoryId: 'daily_life',
   title: 'Cascais Card / Viva Cascais — карта резидента Кашкайша',
-  tldr: 'Cartão Viver Cascais / Viva Cascais — муниципальная карта Câmara Municipal de Cascais для жителей, работников и студентов округа Cascais. В 2026 она нужна для доступа к льготам муниципалитета: BUS LINE/MobiCascais, парковка через Cascais Próxima, бассейны, спорт, культура, мероприятия и местные скидки. Оформление обычно бесплатное онлайн через Cascais ID; нужны NIF, документ личности и подтверждение связи с Cascais: адрес, работа или учёба.',
+  tldr: 'Cartão Viver Cascais / Viva Cascais — муниципальная карта Câmara Municipal de Cascais для жителей, работников и студентов округа Cascais. В 2026 году она нужна для доступа к льготам муниципалитета: BUS LINE/MobiCascais, парковка через Cascais Próxima, бассейны, спорт, культура, мероприятия и местные скидки. Цифровая карта оформляется бесплатно онлайн через аккаунт MyCascais; пластиковая карта необязательна и стоит 7 €. Нужны NIF, документ личности и подтверждение связи с Cascais: адрес, работа или учёба.',
   tags: ['cascais', 'vivacascais', 'транспорт', 'парковка'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'Что это за карта',
       content: [
-        { kind: 'paragraph', text: 'Cartão Viver Cascais — карта муниципальных льгот Câmara Municipal de Cascais. В быту её часто называют Cascais Card или Viva Cascais, потому что доступ к услугам идёт через цифровой аккаунт Cascais ID, сайт и приложения муниципалитета.' },
+        { kind: 'paragraph', text: 'Cartão Viver Cascais — карта муниципальных льгот Câmara Municipal de Cascais. В быту её часто называют Cascais Card или Viva Cascais, потому что доступ к услугам идёт через цифровой аккаунт MyCascais, сайт и приложения муниципалитета.' },
         { kind: 'paragraph', text: 'Карта не заменяет ВНЖ, Cartão de Cidadão, NIF, Navegante или банковскую карту. Это локальный пропуск к скидкам и тарифам именно в concelho de Cascais: Cascais, Estoril, Carcavelos, Parede, Alcabideche, São Domingos de Rana.' },
         { kind: 'checklist', items: [
           'Жителям Cascais — по адресу проживания в муниципалитете',
@@ -24,7 +24,7 @@ export default {
     },
     {
       id: 'benefits',
-      title: 'Что даёт в 2026',
+      title: 'Что даёт в 2026 году',
       content: [
         { kind: 'paragraph', text: 'Набор льгот зависит от вашего профиля: munícipe, trabalhador или estudante. Проверяйте активные benefícios в личном кабинете/приложении, потому что Câmara de Cascais периодически меняет партнёров, тарифы и правила отдельных услуг.' },
         { kind: 'checklist', items: [
@@ -36,14 +36,14 @@ export default {
           'Bibliotecas и municipal services: упрощённая идентификация в части муниципальных сервисов',
           'Партнёры: локальные скидки у коммерческих партнёров, если они активны в текущем списке Câmara'
         ] },
-        { kind: 'warning', text: 'Не планируйте бюджет исходя из “всё бесплатно”. Бесплатность или скидка зависит от конкретной услуги, вашего статуса и действующих условий. Перед поездкой, парковкой или покупкой билета проверьте тариф в MobiCascais/Cascais Próxima или на cm-cascais.pt.' }
+        { kind: 'warning', text: 'Не планируйте бюджет исходя из принципа «всё бесплатно». Бесплатность или скидка зависит от конкретной услуги, вашего статуса и действующих условий. Перед поездкой, парковкой или покупкой билета проверьте тариф в MobiCascais/Cascais Próxima или на cascais.pt.' }
       ]
     },
     {
       id: 'documents',
       title: 'Документы для заявки',
       content: [
-        { kind: 'paragraph', text: 'Обычно заявка подаётся онлайн. Система просит идентифицировать человека и доказать связь с Cascais. Для иностранца подойдут стандартные португальские документы: NIF, ВНЖ или паспорт, подтверждение адреса/работы/учёбы.' },
+        { kind: 'paragraph', text: 'Обычно заявка подаётся онлайн. Система просит подтвердить личность и доказать связь с Cascais. Иностранцу подойдут стандартные португальские документы: NIF, ВНЖ или паспорт, подтверждение адреса, работы или учёбы.' },
         { kind: 'checklist', items: [
           'NIF',
           'Документ личности: ВНЖ, Cartão de Cidadão для граждан PT/EU или паспорт',
@@ -52,7 +52,7 @@ export default {
           'Если вы студент: declaração de matrícula или студенческий документ учебного заведения в Cascais',
           'Для ребёнка: документ ребёнка, NIF ребёнка при наличии, документ родителя и подтверждение родительских полномочий, если система запросит',
           'Email и португальский мобильный номер для подтверждений',
-          'Доступ к Cascais ID / личному кабинету Câmara'
+          'Доступ к MyCascais / личному кабинету Câmara'
         ] },
         { kind: 'warning', text: 'Atestado de residência от Junta de Freguesia полезен, если у вас нет договора аренды на своё имя или коммунальных счетов. Для получения atestado Junta обычно просит документ личности, NIF, доказательство адреса и иногда двух свидетелей из freguesia.' }
       ]
@@ -62,8 +62,8 @@ export default {
       title: 'Как оформить онлайн',
       content: [
         { kind: 'substeps', items: [
-          { id: 'create-cascais-id', title: '1. Создайте Cascais ID', content: [
-            { kind: 'paragraph', text: 'Зайдите на сайт Câmara Municipal de Cascais и создайте личный аккаунт. Используйте email, к которому у вас есть постоянный доступ: туда приходят подтверждения и уведомления по заявке.' }
+          { id: 'create-cascais-id', title: '1. Создайте аккаунт MyCascais', content: [
+            { kind: 'paragraph', text: 'Зайдите на сайт Câmara Municipal de Cascais (cascais.pt) и создайте личный аккаунт MyCascais — через него подаётся заявка на viver.cascais.pt. Используйте email, к которому у вас есть постоянный доступ: туда приходят подтверждения и уведомления по заявке.' }
           ] },
           { id: 'choose-profile', title: '2. Выберите профиль', content: [
             { kind: 'paragraph', text: 'В заявке выберите основание: residente/munícipe, trabalhador или estudante. От этого зависит, какие документы запросят и какие льготы активируются.' }
@@ -72,7 +72,7 @@ export default {
             { kind: 'paragraph', text: 'Скан или фото должны быть читаемыми: имя, NIF, адрес, дата и подпись/логотип организации должны быть видны. Файлы лучше подготовить в PDF или JPG.' }
           ] },
           { id: 'wait-validation', title: '4. Дождитесь validação', content: [
-            { kind: 'paragraph', text: 'Муниципалитет проверяет документы. Если чего-то не хватает, заявку вернут на исправление.\n\nСрок зависит от загрузки сервиса; на практике закладывайте несколько рабочих дней, а перед срочной парковкой или покупкой абонемента не оставляйте оформление на последний момент.' }
+            { kind: 'paragraph', text: 'Муниципалитет проверяет документы. Если чего-то не хватает, заявку вернут на исправление.\n\nСрок зависит от загрузки сервиса; на практике закладывайте несколько рабочих дней и не оставляйте оформление на последний момент перед срочной парковкой или покупкой абонемента.' }
           ] },
           { id: 'use-digital-card', title: '5. Используйте цифровую карту', content: [
             { kind: 'paragraph', text: 'После одобрения карта доступна в цифровом виде. Для автобусов, парковки и скидок могут использоваться разные приложения/сервисы муниципальной экосистемы, поэтому проверьте, где именно нужно привязать Cartão Viver Cascais.' }
@@ -116,39 +116,40 @@ export default {
     }
   ],
   costs: [
-    { label: 'Оформление Cartão Viver Cascais', amountEUR: 0, note: 'Обычно бесплатно; отдельные муниципальные услуги, парковка, спорт или мероприятия могут оплачиваться по своим тарифам.' },
-    { label: 'Atestado de residência в Junta de Freguesia', amountEURMin: 0, amountEURMax: 10, note: 'Тариф зависит от freguesia и типа справки; нужен только если нет другого подтверждения адреса.' }
+    { label: 'Цифровая карта Cartão Viver Cascais', amountEUR: 0, note: 'Бесплатно: цифровая карта выдаётся автоматически после проверки заявки. Отдельные муниципальные услуги, парковка, спорт или мероприятия могут оплачиваться по своим тарифам.' },
+    { label: 'Пластиковая карта Cartão Viver Cascais', amountEUR: 7, note: 'Необязательна. Заказывается по желанию после проверки заявки, действует 5 лет.' },
+    { label: 'Atestado de residência в Junta de Freguesia', amountEURMin: 0, amountEURMax: 10, note: 'Тариф зависит от freguesia и типа справки; нужен, только если нет другого подтверждения адреса.' }
   ],
   sources: [
     {
       title: 'Câmara Municipal de Cascais — официальный сайт муниципальных услуг',
-      url: 'https://www.cm-cascais.pt',
+      url: 'https://www.cascais.pt',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
-      title: 'Câmara Municipal de Cascais — Cartão Viver Cascais',
-      url: 'https://www.cm-cascais.pt/cartao-viver-cascais',
+      title: 'Câmara Municipal de Cascais — Viver Cascais (подача заявки / продление)',
+      url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
-      title: 'Câmara Municipal de Cascais — MobiCascais и транспорт',
-      url: 'https://www.cm-cascais.pt/mobi-cascais',
+      title: 'MobiCascais — Cartão Viver Cascais и транспорт',
+      url: 'https://mobi.cascais.pt/viver-cascais',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'Cascais Próxima — парковка и мобильность в Cascais',
       url: 'https://www.cascais.pt/empresa-municipal/cascais-proxima',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

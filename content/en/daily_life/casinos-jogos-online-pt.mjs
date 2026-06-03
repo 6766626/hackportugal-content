@@ -76,6 +76,6 @@ export default {
     { title: 'Decreto-Lei 66/2015 — Regime Jurídico dos Jogos e Apostas Online', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/66-2015-67098382', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 422/89 — Lei do Jogo for land-based casinos', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/422-1989-618718', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

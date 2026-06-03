@@ -33,7 +33,7 @@ export default {
           '4º escalão — 88,43 € para crianças ≤36 meses; 44,77 € para 36–72 meses; depois dos 72 meses, deve confirmar o direito (muitas vezes o abono base no 4.º escalão não é pago)',
           '5º escalão — o Abono não é pago'
         ]},
-        { kind: 'paragraph', text: 'Famílias monoparentais: +35%. Bonificação por deficiência — complemento fixo em caso de deficiência. Majoração extraordinária — para o 2.º filho e seguintes ≤36 meses nos escalões 1–4. Os valores actualizados e os limites dos escalões devem ser sempre consultados em seg-social.pt.' }
+        { kind: 'paragraph', text: 'Famílias monoparentais: +50%. Bonificação por deficiência — complemento fixo em caso de deficiência. Majoração extraordinária — para o 2.º filho e seguintes ≤36 meses nos escalões 1–4. Os valores actualizados e os limites dos escalões devem ser sempre consultados em seg-social.pt.' }
       ]
     },
     {
@@ -88,6 +88,6 @@ export default {
     { title: 'ePortugal — Pedir Abono de Família', url: 'https://www.gov.pt/servicos/pedir-o-abono-de-familia-para-criancas-e-jovens', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Decreto-Lei 176/2003 — Abono de Família', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/176-2003', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

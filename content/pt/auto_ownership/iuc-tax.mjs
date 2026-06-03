@@ -16,7 +16,8 @@ export default {
           'O prazo de pagamento é até ao fim do mês do aniversário da primeira matrícula em Portugal (para usados importados — normalmente a data da matrícula portuguesa)',
           'Exemplo: matrícula portuguesa do automóvel em 10 de março de 2020 — o IUC é pago até 31 de março de cada ano',
           'Em caso de venda do automóvel, o IUC recai sobre quem constar como titular no momento em que nasce a obrigação',
-          '⚠️ Para veículos usados importados: a taxa do imposto pode ser calculada tendo em conta a primeira matrícula na UE/EEE, mas o mês de pagamento é determinado pela matrícula portuguesa'
+          '⚠️ Para veículos usados importados: a taxa do imposto pode ser calculada tendo em conta a primeira matrícula na UE/EEE, mas o mês de pagamento é determinado pela matrícula portuguesa',
+          '📅 Em 2026 mantém-se a regra do «mês do aniversário». Pelo Orçamento do Estado para 2026 (OE 2026), a partir de 2027 está prevista uma data única de pagamento do IUC (abril) para todos os veículos — acompanhe as atualizações'
         ]},
         { kind: 'warning', text: 'A falta de pagamento do IUC é uma dívida fiscal perante a AT (Autoridade Tributária): são cobrados juros, coimas e pode haver penhora. O IUC não é uma condição automática para realizar a inspeção IPO, e a dívida é uma dívida pessoal do contribuinte; a venda do automóvel não é formalmente bloqueada apenas por uma dívida de IUC, mas na transacção deve ter-se em conta o risco de transferência de responsabilidade e de dívidas.' }
       ]
@@ -83,12 +84,12 @@ export default {
       title: 'Isenções e descontos',
       content: [
         { kind: 'checklist', items: [
-          '♿ Pessoas com incapacidade ≥ 60 % — isenção total',
-          '🚜 Máquinas agrícolas afectas à exploração agrícola — isenção',
-          '🇵🇹 Diplomatas — isenção',
-          '⚡ Veículos eléctricos das categorias B/E — isenção',
-          '🚗 Primeiro ano para veteranos e famílias numerosas — desconto',
-          '🏝️ Madeira e Açores — taxas locais reduzidas'
+          '♿ Pessoas com grau de incapacidade ≥ 60 % — isenção (um veículo por beneficiário e por ano, isenção limitada a 240 €; na categoria B apenas dentro dos limites de CO2)',
+          '🚜 Tractores e máquinas agrícolas afectos à exploração agrícola — isenção',
+          '🚑 Veículos de bombeiros, ambulâncias, forças de segurança e IPSS — isenção',
+          '🏛️ Veículos históricos com mais de 30 anos e estatuto oficial — regime especial',
+          '⚡ Veículos eléctricos (100% BEV) das categorias A/B/E — isenção',
+          '🏝️ Madeira e Açores — taxas regionais reduzidas'
         ]}
       ]
     }
@@ -104,6 +105,6 @@ export default {
     { title: 'Portal das Finanças — IUC', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Pagar o IUC', url: 'https://www.gov.pt/cidadaos/-/informacoes/pagar-o-imposto-unico-de-circulacao-iuc-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

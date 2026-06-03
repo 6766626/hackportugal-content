@@ -42,14 +42,14 @@ export default {
       id: 'what-to-buy',
       title: 'Что обычно есть и как это называется по-португальски',
       content: [
-        { kind: 'paragraph', text: 'Portuguese labels иногда отличаются от привычных английских или русских названий. Это важно для поиска на полках и в Google Maps: пишите не только “Asian shop”, но и “mercearia indiana”, “loja africana”, “produtos brasileiros”, “supermercado oriental”.' },
+        { kind: 'paragraph', text: 'Португальские этикетки иногда отличаются от привычных английских или русских названий. Это важно для поиска на полках и в Google Maps: пишите не только “Asian shop”, но и “mercearia indiana”, “loja africana”, “produtos brasileiros”, “supermercado oriental”.' },
         { kind: 'checklist', items: [
           'Индийское/бангладешское: arroz basmati, farinha atta, dal/lentilhas, grão-de-bico, garam masala, curry, cominhos, coentros, ghee, paneer, pickles/achar.',
           'Китайское/корейское/японское: arroz para sushi, molho de soja, miso, gochujang, kimchi, tofu, noodles, seaweed/algas, rice vinegar/vinagre de arroz, sesame oil/óleo de sésamo.',
           'Юго-Восточная Азия: coconut milk/leite de coco, curry paste, fish sauce/molho de peixe, rice paper, tapioca pearls, lemongrass, galangal, Thai basil.',
           'Африканское: óleo de palma, gari, farinha de mandioca, fufu, banana-pão/plantain, quiabo/okra, malagueta, dried fish/peixe seco, feijão-frade.',
           'Бразильское: tapioca, polvilho doce/azedo, farofa, feijão preto/carioca, pão de queijo, paçoca, goiabada, guaraná, cachaça, requeijão.',
-          'Восточно-европейское: trigo sarraceno/гречка, tvorog/requeijão fresco как слабая замена, natas azedas/sour cream, pickles, arenque/сельдь, pelmeni, kefir, kvass.'
+          'Восточно-европейское: trigo sarraceno/гречка, tvorog/творог, requeijão fresco как слабая замена, natas azedas/сметана, pickles/соленья, arenque/сельдь, pelmeni/пельмени, kefir/кефир, kvass/квас.'
         ] }
       ]
     },
@@ -98,6 +98,6 @@ export default {
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica: безопасность пищевых продуктов и жалобы', url: 'https://www.asae.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Loja Brasil — ассортимент бразильских продуктов в Португалии', url: 'https://www.lojabrasil.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'traditional-dishes',
   categoryId: 'food_leisure',
   title: 'Что попробовать из португальской кухни',
-  tldr: 'Основа — bacalhau (треска, «1001 рецепт»), sardinhas assadas (сардины в Лиссабоне летом), cozido à portuguesa (мясное ассорти), francesinha (главное блюдо Порту), arroz de marisco (рис с морепродуктами), leitão da Bairrada (молочный поросёнок)\.\n\nДесерт — pastel de nata везде, ovos moles в Авейру.',
+  tldr: 'Основа — bacalhau (треска, «1001 рецепт»), sardinhas assadas (сардины в Лиссабоне летом), cozido à portuguesa (мясное ассорти), francesinha (главное блюдо Порту), arroz de marisco (рис с морепродуктами), leitão da Bairrada (молочный поросёнок).\n\nДесерт — pastel de nata везде, ovos moles в Авейру.',
   tags: ['еда', 'кухня', 'bacalhau', 'pastel de nata'],
   estimatedReadMinutes: 6,
   steps: [
@@ -15,7 +15,7 @@ export default {
           '🐟 Bacalhau à Brás — треска с картошкой, яйцом и луком (классика)',
           '🐟 Bacalhau com Natas — треска, запечённая со сливочным соусом',
           '🐟 Bacalhau à Lagareiro — треска, запечённая с оливковым маслом и «мини-картошкой»',
-          '🐟 Sardinhas Assadas — жареные на углях сардины (июнь-сентябрь, дешевле в тавернах)',
+          '🐟 Sardinhas Assadas — жареные на углях сардины (июнь–сентябрь, дешевле в тавернах)',
           '🐟 Arroz de Marisco — рис с морепродуктами, классика прибрежной Португалии',
           '🍖 Cozido à Portuguesa — отварное мясо, колбасы, овощи, нут',
           '🍖 Leitão da Bairrada — молочный поросёнок на вертеле (регион Байррада)',
@@ -33,9 +33,9 @@ export default {
           '🥧 Pastel de Nata — заварной крем в хрустящем тесте (лучшие — Pastéis de Belém, оригинал)',
           '🥚 Ovos Moles de Aveiro — яичный желток + сахар, в вафельной оболочке (IGP/PGI Aveiro)',
           '🧁 Queijadas de Sintra — творожные кексы',
-          '🌰 Castanhas assadas — жареные каштаны (ноябрь-январь)',
+          '🌰 Castanhas assadas — жареные каштаны (ноябрь–январь)',
           '🍮 Leite-Creme — португальский крем-брюле',
-          '🍰 Bolo Rei — рождественский кекс с сухофруктами (декабрь-январь)',
+          '🍰 Bolo Rei — рождественский кекс с сухофруктами (декабрь–январь)',
           '🍧 Arroz Doce — сладкий рис с корицей'
         ]}
       ]
@@ -96,7 +96,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Хлеб, оливки, масло, паштеты могут поставить на стол как couvert, но они платные, если вы их едите; цены должны быть в меню. Не хотите — сразу скажите «não, obrigado» и попросите убрать',
-          'Основной обед 13:00-15:00, ужин 20:00-22:00',
+          'Основной обед 13:00–15:00, ужин 20:00–22:00',
           'Кофе — после десерта, никогда с едой',
           'Чаевые не обязательны: в кафе обычно округляют, в ресторане за хороший сервис можно оставить небольшую сумму или около 5–10%',
           'Menu do dia/prato do dia — обычно самый бюджетный обед: примерно € 9–15 в зависимости от города и района',
@@ -111,6 +111,6 @@ export default {
     { title: 'DGAV — безопасность продуктов питания', url: 'https://www.dgav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGADR — DOP/IGP: защищённые наименования и традиционные продукты', url: 'https://www.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

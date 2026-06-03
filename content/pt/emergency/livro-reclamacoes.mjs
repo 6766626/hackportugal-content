@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Nos termos do DL 156/2005 — qualquer empresa que preste serviços a consumidores é obrigada a ter Livro de Reclamações (livro físico com formulários normalizados ou versão electrónica) e a disponibilizá-lo ao primeiro pedido do cliente.' },
         { kind: 'checklist', items: [
           '📚 Livro físico: formulários em papel em 3 vias — o original fica no livro, 1 cópia para si, 1 cópia é enviada ao regulador',
-          '💻 Livro electrónico: em livroreclamacoes.pt — submissão online após a visita',
+          '💻 Livro electrónico: em livroreclamacoes.pt — submissão online, sem deslocação ao estabelecimento',
           '🚫 Recusa de disponibilização — é uma infracção, com coimas de 250-3 750 € (pessoas singulares), 5 000-25 000 € (pessoas colectivas)',
           '⏰ A resposta é obrigatória em 15 dias úteis ou a empresa é sancionada',
           '🏢 Quem é obrigado: restaurantes, hotéis, bancos, seguradoras, telecomunicações, ginásios, centros médicos, supermercados, companhias aéreas, táxis — tudo, excepto algumas excepções (serviços públicos — sistema diferente)'
@@ -141,7 +141,7 @@ export default {
           { id: 's3', title: 'Negócios online', content: [
             { kind: 'checklist', items: [
               'Plataformas (Glovo, Uber, Airbnb, Booking) — primeiro através dos processos internos próprios',
-              'Se não houver solução — DGC (Direção-Geral do Consumidor) — consumer.gov.pt',
+              'Se não houver solução — DGC (Direção-Geral do Consumidor) — consumidor.gov.pt',
               'Transfronteiriço (site na EU) — ECC-Net (Centro Europeu do Consumidor), serviço gratuito',
               'Fora da EU — possibilidades limitadas, principalmente procedimentos internos'
             ]}
@@ -162,6 +162,6 @@ export default {
     { title: 'Provedor de Justiça', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGC — Direção-Geral do Consumidor', url: 'https://www.consumidor.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

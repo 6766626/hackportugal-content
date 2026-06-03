@@ -43,7 +43,7 @@ export default {
           'Português для иностранцев: 12–30 €/ч, преподаватель с опытом PALOP/expat-детей обычно дороже.',
           'Групповые занятия в centro de explicações: примерно 60–180 €/мес за 1–3 занятия в неделю, зависит от предметов и часов.',
           'Онлайн-уроки обычно на 10–25% дешевле очных, но для младших школьников очный формат часто эффективнее.',
-          'Пробный урок: иногда бесплатный на платформах или 30 минут, но не считайте это гарантией — условия у каждого explicador свои.'
+          'Пробный урок: на платформах он иногда бесплатный или укороченный до 30 минут, но не считайте это гарантией — условия у каждого explicador свои.'
         ] },
         { kind: 'warning', text: 'Если цена сильно ниже рынка, проверьте опыт с португальской программой и экзаменами. “Знаю математику” не равно “готовлю к exame nacional de Matemática A”.' }
       ]
@@ -115,6 +115,6 @@ export default {
     { title: 'Superprof Portugal — поиск explicadores по предметам и городам', url: 'https://www.superprof.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Explica.pt — каталог explicadores и centros de explicações', url: 'https://www.explica.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

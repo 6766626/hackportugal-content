@@ -150,7 +150,7 @@ export default {
           'Перед праздниками и в августе проверяйте часы: feriados, férias и муниципальные мероприятия меняют режим.',
           'Для регулярной корзины комбинируйте: рынок утром + supermercado для молока, круп, заморозки и бытовых товаров.'
         ] },
-        { kind: 'warning', text: 'Официальные часы рынка и часы конкретной bancа — разные вещи. Муниципальный рынок может быть открыт до 19:00 или 20:00, но рыбный продавец уже закрылся в 13:00. Для свежих продуктов планируйте утро.' }
+        { kind: 'warning', text: 'Официальные часы рынка и часы конкретной banca — разные вещи. Муниципальный рынок может быть открыт до 19:00 или 20:00, но рыбный продавец уже закрылся в 13:00. Для свежих продуктов планируйте утро.' }
       ]
     }
   ],
@@ -166,6 +166,6 @@ export default {
     { title: 'Câmara Municipal de Coimbra — Mercado Municipal D. Pedro V', url: 'https://www.cm-coimbra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Município de Olhão — Mercado Municipal de Olhão', url: 'https://www.cm-olhao.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

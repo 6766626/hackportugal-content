@@ -3,7 +3,7 @@ export default {
   id: 'traditional-dishes',
   categoryId: 'food_leisure',
   title: 'O que provar da cozinha portuguesa',
-  tldr: 'A base é bacalhau (o peixe dos “1001 receitas”), sardinhas assadas (em Lisboa no verão), cozido à portuguesa (sortido de carnes), francesinha (o prato emblemático do Porto), arroz de marisco (arroz com marisco), leitão da Bairrada (leitão assado)\.\n\nSobremesa — pastel de nata por todo o lado, ovos moles em Aveiro.',
+  tldr: 'A base é bacalhau (o peixe dos “1001 receitas”), sardinhas assadas (em Lisboa no verão), cozido à portuguesa (sortido de carnes), francesinha (o prato emblemático do Porto), arroz de marisco (arroz com marisco), leitão da Bairrada (leitão assado).\n\nSobremesa — pastel de nata por todo o lado, ovos moles em Aveiro.',
   tags: ['comida', 'cozinha', 'bacalhau', 'pastel de nata'],
   estimatedReadMinutes: 6,
   steps: [
@@ -111,6 +111,6 @@ export default {
     { title: 'DGAV — segurança dos produtos alimentares', url: 'https://www.dgav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGADR — DOP/IGP: denominações protegidas e produtos tradicionais', url: 'https://www.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

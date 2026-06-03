@@ -114,6 +114,6 @@ export default {
     { title: 'CMLC — cultural and educational programmes for children and young people', url: 'https://www.cmlc.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal das Finanças — e-Fatura and despesas de educação', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

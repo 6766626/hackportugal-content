@@ -29,6 +29,7 @@ export default {
           'Income not above the programme’s established limit: as a guide — up to the 8th escalão IRS',
           'No overdue debts to Autoridade Tributária and Segurança Social',
           'No similar state guarantee has been used before',
+          'The loan agreement is signed by 31 December 2026 — the programme deadline (an extension is possible but not guaranteed)',
           'The bank approves the mortgage under its own stress test and taxa de esforço rules'
         ] },
         { kind: 'paragraph', text: 'Citizenship in itself is not the main criterion. For an expat, legal stay, tax residence, provable income and the bank’s willingness to lend to a non-resident/new resident matter more.\n\nIn practice, banks more often require a residence permit, contrato de trabalho sem termo or stable recibos verdes/foreign income with documentation.' }
@@ -127,6 +128,6 @@ export default {
     { title: 'Decreto-Lei 44/2024 — state personal guarantee for acquisition of a first habitação própria e permanente', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/44-2024-870793703', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal — home loans and FINE', url: 'https://clientebancario.bportugal.pt/pt-pt/credito-habitacao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

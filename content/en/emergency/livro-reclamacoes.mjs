@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Under DL 156/2005 — every business providing services to consumers is required to have Livro de Reclamações (a physical book with standard forms or an electronic version) and provide it at the customer’s first request.' },
         { kind: 'checklist', items: [
           '📚 Physical Livro: paper forms in 3 copies — the original stays in the book, 1 copy for you, 1 copy is sent to the regulator',
-          '💻 Electronic Livro: at livroreclamacoes.pt — file online after a visit',
+          '💻 Electronic Livro: at livroreclamacoes.pt — file online, without visiting the establishment',
           '🚫 Refusal to provide it — this is a breach, fines of €250-€3,750 (individuals), €5,000-€25,000 (legal entities)',
           '⏰ A response is mandatory within 15 working days or the business is fined',
           '🏢 Who is required: restaurants, hotels, banks, insurers, telecoms, gyms, medical centres, supermarkets, airlines, taxis — everything except a few exceptions (public authorities — a different system)'
@@ -141,7 +141,7 @@ export default {
           { id: 's3', title: 'Online businesses', content: [
             { kind: 'checklist', items: [
               'Platforms (Glovo, Uber, Airbnb, Booking) — use their own internal processes first',
-              'If there is no solution — DGC (Direção-Geral do Consumidor) — consumer.gov.pt',
+              'If there is no solution — DGC (Direção-Geral do Consumidor) — consumidor.gov.pt',
               'Cross-border (site in the EU) — ECC-Net (Centro Europeu do Consumidor), free service',
               'Outside the EU — limited options, mainly internal procedures'
             ]}
@@ -162,6 +162,6 @@ export default {
     { title: 'Provedor de Justiça', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGC — Direção-Geral do Consumidor', url: 'https://www.consumidor.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

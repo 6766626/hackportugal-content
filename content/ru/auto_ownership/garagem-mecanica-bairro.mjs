@@ -19,7 +19,7 @@ export default {
           'Junta de Freguesia и соседи: в маленьких городах рекомендации часто надёжнее рекламы',
           'Сети: Bosch Car Service, Norauto, Midas, Feu Vert — дороже маленькой oficina, но стандартизированнее',
           'ACP: полезен для членов клуба, эвакуации, проверок и консультаций по авто',
-          'Дилер марки: лучше для гарантии, отзывных кампаний, сложной электроники и свежих машин'
+          'Дилер марки: лучше для гарантии, отзывных кампаний, сложной электроники и новых машин'
         ] }
       ]
     },
@@ -89,11 +89,11 @@ export default {
           'После ремонта тормозов, рулевого, подвески и шин требуйте тест-драйв и подтверждение работ в fatura',
           'Если горит check engine, airbag, ABS или ESP — не ограничивайтесь “сбросом ошибки”',
           'При аварии и кузовном ремонте уточняйте, затронуты ли airbags, sensores, estrutura, alinhamento',
-          'Для гибридов и EV выбирайте oficina с опытом high voltage, а не любую garagem',
+          'Для гибридов и EV выбирайте oficina с опытом работы с высоковольтными системами, а не любую garagem',
           'Для машин на гарантии уточняйте, не повлияет ли обслуживание вне дилера на гарантийные условия',
           'После замены ремня ГРМ просите указать в fatura пробег и комплект деталей'
         ] },
-        { kind: 'warning', text: 'Не соглашайтесь “пройти IPO через знакомых”. Легальная проверка проводится только в autorizados centros de inspeção. Манипуляции с пробегом, emissions или DPF/EGR могут создать проблемы при IPO, продаже и страховом случае.' }
+        { kind: 'warning', text: 'Не соглашайтесь “пройти IPO через знакомых”. Легальная проверка проводится только в авторизованных centros de inspeção. Манипуляции с пробегом, выбросами или DPF/EGR могут создать проблемы при IPO, продаже и страховом случае.' }
       ]
     },
     {
@@ -128,6 +128,6 @@ export default {
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica: fiscalização económica и жалобы', url: 'https://www.asae.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Eletrónico — официальный портал жалоб потребителей', url: 'https://www.livroreclamacoes.pt/Inicio/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

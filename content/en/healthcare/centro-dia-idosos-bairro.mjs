@@ -3,7 +3,7 @@ export default {
   id: 'centro-dia-idosos-bairro',
   categoryId: 'healthcare',
   title: 'Centro de Dia — daytime support for older people',
-  tldr: 'Centro de Dia is a day centre for older people: the person lives at home, and during the day receives meals, supervision, activities, help with hygiene and often transporte. They are usually run by an IPSS/ Misericórdia/local associação, with hours of roughly 8:00–18:00 on weekdays. In 2026 the price is usually €200–500/month and depends on household income; places are found through Carta Social, Junta de Freguesia, Segurança Social and local IPSS. This is an alternative to ERPI if the family wants to keep the older person at home but cannot leave them alone during the day.',
+  tldr: 'Centro de Dia is a day centre for older people: the person lives at home, and during the day receives meals, supervision, activities, help with hygiene and often transporte. They are usually run by an IPSS/Misericórdia/local associação, with hours of roughly 8:00–18:00 on weekdays. In 2026 the price is usually €200–500/month and depends on household income; places are found through Carta Social, Junta de Freguesia, Segurança Social and local IPSS. This is an alternative to ERPI if the family wants to keep the older person at home but cannot leave them alone during the day.',
   tags: ['older-people', 'ipss', 'care', 'sns'],
   estimatedReadMinutes: 5,
   steps: [
@@ -119,10 +119,10 @@ export default {
     { label: 'Private Centro de Dia', amountEURMin: 400, amountEURMax: 900, note: 'Market prices vary greatly by region, hours, meals and level of care.' }
   ],
   sources: [
-    { title: 'Carta Social — search for respostas sociais, including Centro de Dia', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social — respostas sociais para pessoas idosas', url: 'https://www.seg-social.pt/idosos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social — information about instituições particulares de solidariedade social', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Carta Social — search for respostas sociais, including Centro de Dia', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Segurança Social — respostas sociais para pessoas idosas', url: 'https://www.seg-social.pt/ptss/pssd/menu/acao-social/apoios-respostas-sociais/respostas-sociais-idosos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Segurança Social — apoios e respostas sociais', url: 'https://www.seg-social.pt/ptss/pssd/menu/acao-social/apoios-respostas-sociais', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

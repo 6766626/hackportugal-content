@@ -3,7 +3,7 @@ export default {
   id: 'gas-botija-substituicao',
   categoryId: 'daily_life',
   title: 'Botija de gás: onde substituir a garrafa e como organizar a entrega',
-  tldr: 'Em Portugal, as casas sem gás natural usam frequentemente GPL em garrafa: botija de butano 13 kg para a cozinha e o esquentador, propano para o exterior/zonas frias. Em 2026, a substituição de uma garrafa de 13 kg de butano custa normalmente 27–32 € + entrega, se esta não estiver incluída; sem garrafa vazia, paga-se uma caução/compra da tara. Galp, Repsol, BP e revendedores locais fazem entregas ao domicílio em Lisboa, Porto, Algarve e na maioria das cidades. Nem sempre é necessário contrato: muitas vezes basta encomendar por telefone/WhatsApp, mas é possível configurar uma entrega regular.',
+  tldr: 'Em Portugal, as casas sem gás natural usam frequentemente GPL em garrafa: botija de butano 13 kg para a cozinha e o esquentador, propano para o exterior/zonas frias. Em 2026, a substituição de uma garrafa de 13 kg de butano custa normalmente cerca de 34–39 € + entrega, se esta não estiver incluída; sem garrafa vazia, paga-se uma caução/compra da tara. Galp, Repsol, BP e revendedores locais fazem entregas ao domicílio em Lisboa, Porto, Algarve e na maioria das cidades. Nem sempre é necessário contrato: muitas vezes basta encomendar por telefone/WhatsApp, mas é possível configurar uma entrega regular.',
   tags: ['gpl', 'botija', 'gás', 'galp', 'repsol'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Botija é uma garrafa doméstica de GPL: butano ou propano. Em apartamentos e casas sem gás natural, alimenta o fogão, o forno, o esquentador e, por vezes, o aquecimento. O formato mais comum para a cozinha é butano 13 kg. O propano funciona melhor no exterior, em espaços não aquecidos e com temperaturas baixas.' },
         { kind: 'checklist', items: [
-          'Butano 13 kg — o padrão para a cozinha num apartamento; em 2026, uma substituição típica custa 27–32 €.',
+          'Butano 13 kg — o padrão para a cozinha num apartamento; em 2026, uma substituição típica custa cerca de 34–39 €.',
           'Propano 11 kg — formato doméstico semelhante, frequentemente escolhido para exterior ou zonas mais frias.',
           'Propano 45 kg — para moradias, aquecimento, grande consumo; normalmente fica no exterior e exige mais espaço.',
           'As garrafas de marcas diferentes nem sempre são intermutáveis: Galp troca por Galp, Repsol por Repsol, etc.',
@@ -74,9 +74,9 @@ export default {
       id: 'prices',
       title: 'Quanto custa em 2026',
       content: [
-        { kind: 'paragraph', text: 'Os preços do GPL em garrafa em Portugal são comerciais e variam por marca, zona, entrega e promoções. Como referência para Abril de 2026: o butano doméstico 13 kg, na troca por uma garrafa vazia, fica normalmente na faixa de 27–32 €. A entrega pode estar incluída ou ser acrescentada à parte.' },
+        { kind: 'paragraph', text: 'Os preços do GPL em garrafa em Portugal são comerciais e variam por marca, zona, entrega e promoções. Como referência para 2026: o butano doméstico 13 kg, na troca por uma garrafa vazia, fica normalmente na faixa de 34–39 €. A entrega pode estar incluída ou ser acrescentada à parte.' },
         { kind: 'checklist', items: [
-          'Substituição de butano 13 kg: normalmente 27–32 € com botija vazia.',
+          'Substituição de butano 13 kg: normalmente 34–39 € com botija vazia.',
           'Entrega: frequentemente 0–5 € na cidade, mas pode ser mais cara para moradas afastadas.',
           'Garrafa nova/primeira sem vazia: acrescenta-se uma caução ou taxa pela tara.',
           'Redutor: normalmente 10–25 €, consoante o tipo e a loja.',
@@ -107,7 +107,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Substituição de botija de butano 13 kg', amountEURMin: 27, amountEURMax: 32, note: 'Intervalo típico em Portugal continental em 2026 ao entregar uma garrafa vazia; o preço depende da marca e do revendedor.' },
+    { label: 'Substituição de botija de butano 13 kg', amountEURMin: 34, amountEURMax: 39, note: 'Intervalo típico em Portugal continental em 2026 ao entregar uma garrafa vazia; o preço depende da marca e do revendedor.' },
     { label: 'Entrega ao domicílio', amountEURMin: 0, amountEURMax: 5, note: 'Frequentemente incluída nas cidades, mas pode ser mais cara em freguesias afastadas ou em encomendas urgentes.' },
     { label: 'Redutor GPL', amountEURMin: 10, amountEURMax: 25, note: 'Necessário na primeira ligação ou se o encaixe antigo for velho/inadequado.' },
     { label: 'Mangueira GPL + abraçadeiras', amountEURMin: 5, amountEURMax: 15, note: 'Verifique o prazo de validade impresso na mangueira.' },
@@ -118,6 +118,6 @@ export default {
     { title: 'Repsol — Repsol Gás e distribuição de GPL', url: 'https://www.repsol.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE — informação ao consumidor sobre gás e energia', url: 'https://www.erse.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           '🍺 BAC 0.5–0.8 g/l (about 1–2 glasses of wine) — contra-ordenação grave: fine €250–1,250, ban 1–12 months, minus 3 points',
           '🍷 BAC 0.8–1.2 g/l — contra-ordenação muito grave: fine €500–2,500, ban 2–24 months, minus 5 points',
-          '🍸 BAC ≥ 1.2 g/l — criminal offence (art. 292 Código Penal): up to 1 year in prison or a fine of up to 120 daily rates, ALWAYS a ban of 2+ months, criminal record for 5–10 years',
+          '🍸 BAC ≥ 1.2 g/l — criminal offence (art. 292 Código Penal): up to 1 year in prison or a fine of up to 120 daily rates, ALWAYS a driving ban of 3 months to 3 years, criminal record for 5–10 years',
           '🚫 Refusal to take the test — treated as BAC ≥ 1.2 g/l + charge of "desobediência qualificada" (up to 2 years in prison)',
           '⚠️ For new drivers (<3 years of licence): limit 0.2 g/l — even a pint of beer can be an offence',
           '💼 For professional drivers (taxis, lorries, buses): 0.2 g/l'
@@ -28,50 +28,37 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Since 2016, a points system has applied (carta por pontos). All drivers start with 12 points.\n\nCrime rodoviário = −6 points.\n\nContra-ordenação muito grave = −5 points.\n\nGrave = −3 points.\n\nLeve does not deduct points in the general table. Reach 0 — cassação do título; you cannot obtain a new licence for 2 years, after which you must go through the licensing process again.' },
         { kind: 'substeps', items: [
-          { id: 'p1', title: 'Minus 1 point — contra-ordenações graves', content: [
+          { id: 'p1', title: 'Minus 2–3 points — contra-ordenação grave', content: [
             { kind: 'checklist', items: [
               'Speeding by 30–60 km/h in town (60–80 outside town, 80–100 on a motorway)',
               'Running a red light',
               'Using a phone while driving without a hands-free kit',
               'Failing to give way to a pedestrian on a pedestrian crossing',
-              'Driving without a seat belt',
-              'No child seat for <12 years / <135 cm'
+              'Driving without a seat belt or without a child seat for <12 years / <135 cm',
+              'Overtaking across a solid line',
+              'Alcohol 0.5–0.8 g/l and racing in town — −3 points'
             ]}
           ]},
-          { id: 'p2', title: 'Minus 2 points', content: [
+          { id: 'p2', title: 'Minus 4–5 points — contra-ordenação muito grave', content: [
             { kind: 'checklist', items: [
               'Speeding by 60+ km/h in town',
-              'Overtaking across a solid line',
               'Failing to stop when required by GNR / PSP',
-              'Driving in a prohibited place (one-way street, pedestrian zone)'
+              'Driving in a prohibited place (one-way street, pedestrian zone)',
+              'Alcohol 0.8–1.2 g/l — −5 points'
             ]}
           ]},
-          { id: 'p3', title: 'Minus 3 points', content: [
-            { kind: 'checklist', items: [
-              'Alcohol 0.5–0.8 g/l',
-              'Racing in town',
-              'Driving without a licence or with an expired licence',
-              'Using false number plates'
-            ]}
-          ]},
-          { id: 'p4', title: 'Minus 4 points', content: [
-            { kind: 'checklist', items: [
-              'Alcohol 0.8–1.2 g/l',
-              'Driving without a valid IPO (roadworthiness inspection)',
-              'Refusal to stop + pursuit'
-            ]}
-          ]},
-          { id: 'p5', title: 'Minus 5 points — criminal offence', content: [
+          { id: 'p3', title: 'Minus 6 points — criminal offence (crime rodoviário)', content: [
             { kind: 'checklist', items: [
               'Alcohol ≥ 1.2 g/l',
               'Refusal to take an alcohol / drugs test',
+              'Driving without ever holding a licence',
               'Leaving the scene of an accident with injured persons',
               'Drugs at the wheel',
               'Negligent homicide / serious bodily harm'
             ]}
           ]}
         ]},
-        { kind: 'paragraph', text: 'Recovering points: +1 point every 3 years without offences, maximum 12. A "re-education course" is possible — 2–3 days at IMT — +2 points (paid, ~€250).' }
+        { kind: 'paragraph', text: 'Recovering points: +3 points for each 3-year period without offences, up to a maximum of 15 points. Drivers with 5 points or fewer are assigned a mandatory road-safety course (ação de formação): without it the licence is suspended; cost ~€250.' }
       ]
     },
     {
@@ -130,6 +117,6 @@ export default {
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — Portal Digital', url: 'https://portal.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

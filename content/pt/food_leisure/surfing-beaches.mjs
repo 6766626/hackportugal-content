@@ -3,7 +3,7 @@ export default {
   id: 'surfing-beaches',
   categoryId: 'food_leisure',
   title: 'Surf em Portugal — escolas, praias, épocas',
-  tldr: 'Portugal é uma capital mundial do surf. Nazaré — recordes das maiores ondas (30+ m)\\.\n\nEriceira — a única World Surf Reserve na Europa. Peniche, Sagres, Aljezur — spots lendários. Escolas desde 30-60 €/aula + 15-25 € de aluguer, um camp completo de fim de semana ~150-350 €. Pico da época: setembro-abril para ondas grandes, maio-agosto para principiantes. Qualquer nível — de principiante a classe mundial.',
+  tldr: 'Portugal é uma capital mundial do surf. Nazaré — recordes das maiores ondas (30+ m).\n\nEriceira — a única World Surf Reserve na Europa. Peniche, Sagres, Aljezur — spots lendários. Escolas desde 30-60 €/aula + 15-25 € de aluguer, um camp completo de fim de semana ~150-350 €. Pico da época: setembro-abril para ondas grandes, maio-agosto para principiantes. Qualquer nível — de principiante a classe mundial.',
   tags: ['surf', 'surf', 'nazaré', 'ericeira'],
   estimatedReadMinutes: 6,
   steps: [
@@ -183,6 +183,6 @@ export default {
     { title: 'WSR Ericeira — World Surf Reserve', url: 'https://www.ericeirawsr.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Portugal — Surf', url: 'https://www.visitportugal.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

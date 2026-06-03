@@ -3,7 +3,7 @@ export default {
   id: 'rastreio-cancro-mama-colo',
   categoryId: 'healthcare',
   title: 'SNS cancer screening: breast, cervical and bowel cancer screening',
-  tldr: 'The SNS has free population-based rastreios: breast cancer — women aged 45–74, with a mammogram interval that varies by age (45–49 every 2–3 years, 50–69 every 2 years, 70–74 every 3 years); cervical cancer — ages 25–69 under your ULS/former ARS programme; colorectal cancer — men and women aged 50–74, a faecal occult blood test followed by colonoscopia if the result is positive. You need a número de utente, and an up-to-date address and phone number in the SNS. If you missed the convocatória, call your Centro de Saúde/USF or SNS 24: appointments are usually reinstated.',
+  tldr: 'The SNS has free population-based rastreios: breast cancer — women aged 45–74, with a mammogram every 2 years; cervical cancer — ages 25–69 under your ULS/former ARS programme; colorectal cancer — men and women aged 50–74, a faecal occult blood test followed by colonoscopia if the result is positive. You need a número de utente, and an up-to-date address and phone number in the SNS. If you missed the convocatória, call your Centro de Saúde/USF or SNS 24: appointments are usually reinstated.',
   tags: ['sns', 'rastreio', 'oncology', 'utente'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Rastreio de base populacional is not an “on-demand check-up”, but an organised SNS programme: the system itself calls people in the eligible age group by letter, SMS or phone. The aim is to find cancer or precancerous changes before symptoms appear.' },
         { kind: 'checklist', items: [
-          'Breast cancer: women aged 45–74; the mammography interval depends on age: 45–49 every 2–3 years, 50–69 every 2 years, 70–74 every 3 years.',
+          'Breast cancer: women aged 45–74; a mammogram every 2 years.',
           'Cervical cancer: women aged 25–69; cytology and/or an HPV test are used according to the rules of your ULS/regional programme.',
           'Colorectal cancer: men and women aged 50–74; usually a faecal occult blood test, followed by colonoscopia if the test is positive.',
           'Participation is free for SNS users with a número de utente.',
@@ -46,7 +46,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Women aged 45–74 are invited for a mammogram according to their place of residence. In some areas the examination is carried out in mobile unidades móveis, in others at a hospital or diagnostic centre working with the SNS.' },
         { kind: 'checklist', items: [
-          'Interval depends on age: 45–49 every 2–3 years, 50–69 every 2 years, 70–74 every 3 years, if the previous result was normal.',
+          'The interval is every 2 years, if the previous result was normal.',
           'Bring a documento de identificação and número de utente to the examination.',
           'Do not apply deodorant/talcum powder/cream to your breasts or armpits on the day of the mammogram: this can interfere with the images.',
           'If you have implants, have had breast surgery, are pregnant or breastfeeding — say so before the image is taken.',
@@ -118,6 +118,6 @@ export default {
     { title: 'Direção-Geral da Saúde — cancer screening and DGS standards', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — contacts and navigation through the SNS', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

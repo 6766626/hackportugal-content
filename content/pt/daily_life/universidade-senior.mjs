@@ -3,7 +3,7 @@ export default {
   id: 'universidade-senior',
   categoryId: 'daily_life',
   title: 'Universidade Sénior — educação para reformados',
-  tldr: 'A Universidade Sénior é o formato português de U3A: cursos diurnos para pessoas mais velhas, sem exames nem diplomas. Existem mais de 200 destas escolas em todo o país; muitas integram a rede RUTIS e são promovidas por Câmaras Municipais, Juntas de Freguesia, IPSS ou associações. Preço típico em 2026: inscrição 10–30 € e mensalidade 30–50 € por muitas aulas: línguas, cultura, informática, dança, artes, saúde. A inscrição é normalmente feita através da Câmara/Junta ou diretamente na secretaria da escola.',
+  tldr: 'A Universidade Sénior é o formato português de U3A: cursos diurnos para pessoas mais velhas, sem exames nem diplomas. Existem centenas destas escolas em todo o país: só a rede RUTIS — Rede de Universidades Seniores tem mais de 400, promovidas por Câmaras Municipais, Juntas de Freguesia, IPSS ou associações. Preço típico em 2026: inscrição 10–30 € e mensalidade 30–50 € por muitas aulas: línguas, cultura, informática, dança, artes, saúde. A inscrição é normalmente feita através da Câmara/Junta ou diretamente na secretaria da escola.',
   tags: ['sénior', 'educação', 'câmara', 'rutis'],
   estimatedReadMinutes: 5,
   steps: [
@@ -102,6 +102,6 @@ export default {
     { title: 'Carta Social — pesquisa de instituições sociais e IPSS', url: 'https://www.cartasocial.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — enquadramento das IPSS', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

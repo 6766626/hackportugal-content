@@ -71,7 +71,7 @@ export default {
           'for a private nursery, check the list of documents in advance: requirements differ',
           'if the school asks for “boletim de vacinas”, this usually means proof of vaccinations, not the entire child record'
         ] },
-        { kind: 'warning', text: 'In Portugal, the Programa Nacional de Vacinação is a free national programme, but not a universal “mandatory vaccination” in the sense of a fine for every dose. However, schools, health services and DGS may monitor epidemiological risks and request vaccination status.' }
+        { kind: 'warning', text: 'In Portugal, the Programa Nacional de Vacinação is a free national programme and, in general, not mandatory in the sense of a fine for every dose. But there is an important exception: for matrícula (enrolment) and to sit exams at an educational establishment, up-to-date diphtheria and tetanus vaccinations are required. In addition, schools, health services and DGS may monitor epidemiological risks and request vaccination status.' }
       ]
     },
     {
@@ -105,6 +105,6 @@ export default {
     { title: 'DGS — Programa Nacional de Vacinação and vaccination rules', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — information on vaccines and boletim de vacinas', url: 'https://www.sns24.gov.pt/tema/vacinas/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

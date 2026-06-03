@@ -107,6 +107,6 @@ export default {
     { title: 'Bricomarché Portugal — stores and serviços', url: 'https://www.bricomarche.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — search for Junta de Freguesia and local authorities', url: 'https://www.gov.pt/entidades/juntas-de-freguesia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

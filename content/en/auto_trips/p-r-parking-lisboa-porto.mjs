@@ -29,6 +29,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'In Greater Lisbon there is no single map of all free P+R sites. The practical approach is to choose parking according to your entry direction: north via Odivelas/Loures, west via Oeiras/Cascais, south via Almada/Pragal, east via Oriente/Moscavide.' },
         { kind: 'checklist', items: [
+          'Parques Navegante (EMEL) — several car parks (Colégio Militar, Ameixoeira, Avenida de Pádua and others) are free for holders of a valid passe Navegante roughly between 07:30 and 21:00; you must register the card once at the park office and renew it monthly',
           'Senhor Roubado / Odivelas — convenient for entering from the north and changing to the Linha Amarela Metro; check the actual parking status on site',
           'Sete Rios — a strong transport hub: Metro, CP, Rede Expressos buses; usually this is not a “free outskirts” option, but a paid urban one',
           'Cais do Sodré — convenient for Linha Verde, CP Cascais and ferries, but it is central; use it only if you need this specific hub, not savings',
@@ -104,6 +105,6 @@ export default {
     { title: 'Metro Lisboa: network, stations and journey planning', url: 'https://www.metrolisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'CP Comboios de Portugal: urban and suburban trains', url: 'https://www.cp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'fne-financas-novo-extrato',
   categoryId: 'documents_fiscal',
   title: 'Obter certidões nas Finanças: IRS, IUC, IMI, dividendos e inexistência de dívidas',
-  tldr: 'No Portal das Finanças pode obter gratuitamente, ou por uma pequena taxa, certidões fiscais da AT: declaração de não-dívida, certidão de IRS, IUC, IMI, comprovativo de morada fiscal e certidões de rendimentos, incluindo dividendos. Percurso: Portal das Finanças → Cidadãos → Serviços → Certidões. A maioria dos PDF é emitida de imediato e custa 0 €, mas algumas certidões podem custar até 10 €.\n\nA validade depende do tipo: a não-dívida é normalmente válida por 3 meses; muitos destinatários aceitam as restantes certidões apenas se tiverem menos de 6 meses.',
+  tldr: 'No Portal das Finanças pode obter gratuitamente, ou por uma pequena taxa, certidões fiscais da AT: declaração de não-dívida, certidão de IRS, IUC, IMI, comprovativo de morada fiscal e certidões de rendimentos, incluindo dividendos. Percurso: Portal das Finanças → Cidadãos → Serviços → Certidões. A maioria dos PDF é emitida de imediato e custa 0 €, mas algumas certidões podem custar até 10 €.\n\nA validade depende do tipo: desde 1 de julho de 2025 a não-dívida é válida por 4 meses; muitos destinatários aceitam as restantes certidões apenas se tiverem menos de 6 meses.',
   tags: ['finanças', 'certidões', 'irs', 'imi', 'iuc'],
   estimatedReadMinutes: 5,
   steps: [
@@ -51,7 +51,7 @@ export default {
             title: 'Certidão de inexistência de dívidas',
             content: [
               { kind: 'paragraph', text: 'Procure “Situação Tributária Regularizada” ou “Certidão de dívida e não dívida”. Escolha emissão, confirme o pedido e descarregue o PDF.' },
-              { kind: 'warning', text: 'A Declaração de não-dívida é normalmente válida por 3 meses, não por 6. Se o banco, a AIMA ou a Câmara pedir uma “certidão recente”, é melhor emiti-la novamente 1–7 dias antes da entrega.' }
+              { kind: 'warning', text: 'Desde 1 de julho de 2025 a Declaração de não-dívida é válida por 4 meses (antes eram 3). Se o banco, a AIMA ou a Câmara pedir uma “certidão recente”, é melhor emiti-la novamente 1–7 dias antes da entrega.' }
             ]
           },
           {
@@ -97,7 +97,7 @@ export default {
           'Custo habitual: 0 € para a maioria dos comprovativos e certidões descarregados online.',
           'Algumas certidões ou versões certificadas podem custar até 10 €.',
           'A validade não é universal: consulte o campo “validade” no PDF.',
-          'A não-dívida é normalmente válida por 3 meses.',
+          'A não-dívida é válida por 4 meses (desde 1 de julho de 2025; antes eram 3).',
           'Para IRS, IMI, IUC e morada fiscal, muitas organizações exigem um documento com menos de 3–6 meses, mesmo que o PDF não indique um prazo explícito.',
           'O PDF do Portal das Finanças contém normalmente um código de validação; o destinatário pode verificar a autenticidade online.',
           'Se o documento for necessário em inglês, a AT normalmente não o traduz automaticamente: faça uma tradução certificada por um tradutor se o destinatário não aceitar PT.',
@@ -126,7 +126,7 @@ export default {
   ],
   costs: [
     { label: 'Comprovativo de morada fiscal', amountEUR: 0, note: 'Normalmente pode ser descarregado gratuitamente no Portal das Finanças.' },
-    { label: 'Declaração de não-dívida / situação tributária regularizada', amountEUR: 0, note: 'A emissão eletrónica é normalmente gratuita; a validade é geralmente de 3 meses.' },
+    { label: 'Declaração de não-dívida / situação tributária regularizada', amountEUR: 0, note: 'A emissão eletrónica é normalmente gratuita; a validade é de 4 meses (desde 1 de julho de 2025).' },
     { label: 'Comprovativo / liquidação de IRS', amountEUR: 0, note: 'Disponível online para declarações entregues e anos com dados na AT.' },
     { label: 'Certidões AT específicas', amountEURMin: 0, amountEURMax: 10, note: 'O custo depende do tipo de certidão e do modo de emissão; o portal mostra o valor antes da confirmação.' }
   ],
@@ -135,6 +135,6 @@ export default {
     { title: 'Portal das Finanças — secção Cidadãos / Serviços / Certidões', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — serviços e contactos da Autoridade Tributária e Aduaneira', url: 'https://www.gov.pt/entidades/autoridade-tributaria-e-aduaneira', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

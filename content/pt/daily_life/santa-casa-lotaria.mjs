@@ -23,7 +23,7 @@ export default {
         { kind: 'checklist', items: [
           'Euromilhões — sorteios à terça-feira e à sexta-feira; uma aposta simples em Portugal custa 2,50 €.',
           'M1lhão — código adicional português, normalmente incluído no Euromilhões; dá um prémio semanal separado de 1 000 000 € para jogadores em Portugal.',
-          'Totoloto — lotaria numérica nacional; a aposta simples base custa 0,40 €.',
+          'Totoloto — lotaria numérica nacional; a aposta simples base custa 1 €.',
           'Joker — jogo adicional com um número separado; a aposta custa 1 €.',
           'Raspadinha — cartão de raspar instantâneo; o preço depende da série, normalmente 1–5 €, por vezes mais em edições especiais.',
           'Lotaria Clássica / Lotaria Popular — bilhetes de lotaria em papel com sorteios e partes bilhete/fração.',
@@ -86,7 +86,7 @@ export default {
   ],
   costs: [
     { label: 'Euromilhões, aposta simples', amountEUR: 2.5, note: 'Sorteios terça-feira/sexta-feira; preço em Portugal por aposta base.' },
-    { label: 'Totoloto, aposta simples', amountEUR: 0.4, note: 'Aposta base; o preço final depende do número de apostas e de opções adicionais.' },
+    { label: 'Totoloto, aposta simples', amountEUR: 1, note: 'Aposta base; o preço final depende do número de apostas e de opções adicionais.' },
     { label: 'Joker', amountEUR: 1, note: 'Jogo adicional com um número separado.' },
     { label: 'Raspadinha', amountEURMin: 1, amountEURMax: 5, note: 'Intervalo típico para séries populares; edições especiais podem custar mais.' },
     { label: 'Imposto sobre prémios', amountEUR: 0, note: 'Até 5 000 € não há retenção de imposto; sobre o excedente acima de 5 000 € — Imposto do Selo 20%.' }
@@ -97,6 +97,6 @@ export default {
     { title: 'Jogos Santa Casa — Totoloto', url: 'https://www.jogossantacasa.pt/web/SCCartazResult/cartazTotoloto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Imposto do Selo — tributação de prémios', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1999-34502275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

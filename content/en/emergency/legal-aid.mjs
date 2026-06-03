@@ -120,7 +120,7 @@ export default {
       title: 'When you need a lawyer',
       content: [
         { kind: 'checklist', items: [
-          '🏛️ AIMA refusal of a residence permit / temporary residence permit — a lawyer with immigration practice is essential',
+          '🏛️ AIMA refusal of a residence permit / permanent residence permit — a lawyer with immigration practice is essential',
           '🏛️ Refusal of citizenship — appeal through IRN',
           '🏠 Dispute with a landlord / eviction — urgent lawyer needed (court deadlines are short)',
           '💼 Dismissal / employment dispute — ACT + lawyer',
@@ -158,6 +158,6 @@ export default {
     { title: 'Segurança Social — Apoio Judiciário', url: 'https://www.seg-social.pt/apoio-judiciario', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Provedor de Justiça — ombudsman of Portugal', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

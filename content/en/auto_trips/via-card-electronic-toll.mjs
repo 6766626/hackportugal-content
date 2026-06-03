@@ -108,6 +108,6 @@ export default {
     { title: 'EasyToll — linking for foreigners', url: 'https://www.portugaltolls.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Directive 2011/82/EU — cross-border enforcement', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011L0082', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

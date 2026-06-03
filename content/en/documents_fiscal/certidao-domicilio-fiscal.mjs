@@ -66,7 +66,7 @@ export default {
           'Banks often require a certificate "no older than 3 months"',
           'IRN/AIMA: depends on the procedure; it is safer to submit a certificate no older than 3 months if the specific document list does not state another period',
           'If the address has changed — request a new one; the old one becomes invalid',
-          'For certificado de residência fiscal — valid for the specific tax year'
+          'For the certidão de residência fiscal — valid for the specific tax year'
         ]}
       ]
     },
@@ -89,6 +89,6 @@ export default {
     { title: 'Portal das Finanças — Certificates', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

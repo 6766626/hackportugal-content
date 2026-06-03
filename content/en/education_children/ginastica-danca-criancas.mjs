@@ -40,7 +40,7 @@ export default {
         {
           kind: 'checklist',
           items: [
-            'Check the admissões section on the EADCN website in spring: deadlines and rules change by school year',
+            'Check the admissões section on the EDCN website in spring: deadlines and rules change by school year',
             'A competition / prova de admissão is usually required: physical aptitude, coordination, musicality, motivation',
             'The main language is Portuguese; for younger children, language adaptation matters',
             'A state school does not mean “open enrolment for everyone”: places are limited',
@@ -159,7 +159,7 @@ export default {
     },
     {
       title: 'Escola Artística de Dança do Conservatório Nacional — admissions and artistic education',
-      url: 'https://www.eadcn.pt',
+      url: 'https://edcn.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -179,6 +179,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -78,6 +78,6 @@ export default {
     { title: 'Autenticação.gov — official', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/cidadaos/-/informacoes/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

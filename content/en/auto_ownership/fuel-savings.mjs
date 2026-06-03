@@ -3,7 +3,7 @@ export default {
   id: 'fuel-savings',
   categoryId: 'auto_ownership',
   title: 'Petrol and diesel — how to save on fuel',
-  tldr: 'Forecourt prices in mainland Portugal in 2026: 95 petrol (gasolina) €1.70–€1.90/l, diesel (gasóleo) €1.55–€1.75/l.\n\nPrices are free on the mainland; ERSE publishes a weekly “preço eficiente” — a reference, non-binding benchmark, not a maximum cap.\n\nIn Madeira and the Azores, prices may be administratively regulated. The difference between expensive chains (Galp / BP / Repsol) and cheaper ones (Prio, Intermarché, Continente, Cepsa/Moeve) is up to €0.15/l. ComboMais / IdealGás / Tankpreise apps help find the cheapest filling station. Loyalty cards give a discount of €0.05–€0.12/l.',
+  tldr: 'Forecourt prices in mainland Portugal in 2026: 95 petrol (gasolina) €1.85–€2.05/l, diesel (gasóleo) €1.80–€2.00/l.\n\nPrices are free on the mainland; ERSE publishes a weekly “preço eficiente” — a reference, non-binding benchmark, not a maximum cap.\n\nIn Madeira and the Azores, prices may be administratively regulated. The difference between expensive chains (Galp / BP / Repsol) and cheaper ones (Prio, Intermarché, Continente, Cepsa/Moeve) is up to €0.15/l. ComboMais / IdealGás / Tankpreise apps help find the cheapest filling station. Loyalty cards give a discount of €0.05–€0.12/l.',
   tags: ['petrol', 'filling station', 'savings', 'fuel'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,13 +11,13 @@ export default {
       id: 'prices',
       title: '⛽ Prices and differences between chains',
       content: [
-        { kind: 'paragraph', text: 'Prices in Portugal are free, but market-regulated. The state publishes weekly recommended maximum prices — all filling stations stay below them.' },
+        { kind: 'paragraph', text: 'Prices on the mainland are free: each chain sets its own. The regulator ERSE publishes a weekly reference “efficient” benchmark (preço eficiente), but it is not a cap — actual forecourt prices can be both above and below it.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Brand levels', content: [
             { kind: 'checklist', items: [
-              '🔴 Premium (Galp, BP, Repsol, ENI, Cepsa/Moeve): €1.75–€1.90/l — in cities, on motorways. Usually slightly more expensive',
-              '🟡 Mid-range (OMV, Prio, BPCarga): €1.65–€1.80/l — in regions, less often in centres',
-              '🟢 Budget (Intermarché filling stations, Continente Auto, Leclerc): €1.55–€1.70/l — at supermarkets, often the cheapest'
+              '🔴 Premium (Galp, BP, Repsol, ENI, Cepsa/Moeve): €1.95–€2.10/l — in cities, on motorways. Usually slightly more expensive',
+              '🟡 Mid-range (OMV, Prio, BPCarga): €1.90–€2.00/l — in regions, less often in centres',
+              '🟢 Budget (Intermarché filling stations, Continente Auto, Leclerc): €1.80–€1.95/l — at supermarkets, often the cheapest'
             ]}
           ]},
           { id: 'p2', title: 'Geographical differences', content: [
@@ -123,16 +123,16 @@ export default {
     }
   ],
   costs: [
-    { label: 'Petrol (95)', amountEURMin: 1.70, amountEURMax: 1.90, note: '€/l' },
-    { label: 'Diesel', amountEURMin: 1.55, amountEURMax: 1.75, note: '€/l' },
-    { label: 'Premium (98)', amountEURMin: 1.85, amountEURMax: 2.05, note: '€/l' },
-    { label: 'AutoGás (GPL)', amountEURMin: 0.90, amountEURMax: 1.10, note: '€/l' },
+    { label: 'Petrol (95)', amountEURMin: 1.85, amountEURMax: 2.05, note: '€/l' },
+    { label: 'Diesel', amountEURMin: 1.80, amountEURMax: 2.00, note: '€/l' },
+    { label: 'Premium (98)', amountEURMin: 2.10, amountEURMax: 2.30, note: '€/l' },
+    { label: 'AutoGás (GPL)', amountEURMin: 0.90, amountEURMax: 1.15, note: '€/l' },
     { label: 'EV DC fast charging', amountEURMin: 0.40, amountEURMax: 0.55, note: '€/kWh' }
   ],
   sources: [
     { title: 'ERSE — fuel prices', url: 'https://www.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGEG — Directorate-General for Energy', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

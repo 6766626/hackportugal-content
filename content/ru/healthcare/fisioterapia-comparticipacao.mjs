@@ -3,7 +3,7 @@ export default {
   id: 'fisioterapia-comparticipacao',
   categoryId: 'healthcare',
   title: 'Fisioterapia с comparticipação SNS и частными страховками',
-  tldr: 'В Португалии физиотерапию можно пройти через SNS по направлению médico de família: после отмены большинства taxas moderadoras в 2022 году для назначенных SNS процедур пациент обычно платит 0 €, но ждёт место и идёт в clínica convencionada. Частно — быстрее: обычно 25–40 € за сеанс, курс 5–15 сеансов = 125–600 €. Страховки Médis, Multicare, AdvanceCare и др. часто дают copagamento или reimburso, но требуют prescrição médica.',
+  tldr: 'В Португалии физиотерапию можно пройти через SNS по направлению médico de família: после отмены большинства taxas moderadoras в 2022 году для назначенных SNS процедур пациент обычно платит 0 €, но ждёт своей очереди и идёт в clínica convencionada. Частно — быстрее: обычно 25–40 € за сеанс, курс 5–15 сеансов = 125–600 €. Страховки Médis, Multicare, AdvanceCare и др. часто дают copagamento или reimburso, но требуют prescrição médica.',
   tags: ['fisioterapia', 'sns', 'страховка', 'comparticipação'],
   estimatedReadMinutes: 5,
   steps: [
@@ -61,7 +61,7 @@ export default {
           'Спросите лимит: количество сеансов в год, plafond в €, процент reimburso.',
           'В сети страховщика copagamento часто выгоднее, чем reimburso вне сети.',
           'Для reimburso сохраняйте fatura-recibo с NIF, prescrição médica и relatório/declaração de presença, если требует страховщик.',
-          'Если физиотерапия связана с acidente de trabalho, seguro automóvel или спортом, сначала уточняйте, кто платит: обычная saúde-страховка может отказать.'
+          'Если физиотерапия связана с acidente de trabalho, seguro automóvel или спортом, сначала уточняйте, кто платит: обычная медицинская страховка может отказать.'
         ] },
         { kind: 'warning', text: 'Не покупайте пакет из 10–15 частных сеансов до проверки страхового покрытия. Некоторые планы покрывают только врачебную consulta de fisiatria, но не сами sessões de fisioterapia, или покрывают их только в конкретной rede.' }
       ]
@@ -70,7 +70,7 @@ export default {
       id: 'private-prices',
       title: 'Сколько стоит частно в 2026',
       content: [
-        { kind: 'paragraph', text: 'Рынок сильно зависит от города и специализации. В Лиссабоне, Cascais, Porto и Algarve цены выше; в небольших городах ниже. Домашний визит дороже, особенно если нужен реабилитологический уход после операции или инсульта.' },
+        { kind: 'paragraph', text: 'Рынок сильно зависит от города и специализации. В Лиссабоне, Cascais, Porto и Algarve цены выше; в небольших городах ниже. Домашний визит дороже, особенно если нужен реабилитационный уход после операции или инсульта.' },
         { kind: 'checklist', items: [
           'Обычный сеанс fisioterapia в клинике: примерно 25–40 €.',
           'Курс 5 сеансов: примерно 125–200 €.',
@@ -98,7 +98,7 @@ export default {
           'Выдаёте fatura com NIF и документы для reimburso?',
           'Есть ли физиотерапевт с опытом по моей проблеме: coluna, joelho, ombro, pós-operatório, neurologia, pavimento pélvico?'
         ] },
-        { kind: 'warning', text: 'Красные флаги: обещают “вылечить за 1 сеанс”, не спрашивают диагноз и лекарства, не оформляют fatura, не объясняют план лечения, навязывают большой пакет без avaliação.' }
+        { kind: 'warning', text: 'Красные флаги: обещают «вылечить за 1 сеанс», не спрашивают про диагноз и лекарства, не оформляют fatura, не объясняют план лечения, навязывают большой пакет без avaliação.' }
       ]
     }
   ],
@@ -113,6 +113,6 @@ export default {
     { title: 'Entidade Reguladora da Saúde — права пользователей медицинских услуг', url: 'https://www.ers.pt/pt/utentes/direitos-e-deveres-dos-utentes/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fisiogaspar — пример частной сети физиотерапии в Португалии', url: 'https://www.fisiogaspar.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Couvert são pequenos aperitivos colocados antes do pedido: pão, azeitonas, manteiga, queijo, paté, por vezes presunto ou croquetes. Em Portugal, isto nem sempre é uma “oferta da casa”. Se começar a comer, é muito provável que o item seja incluído na conta.' },
         { kind: 'checklist', items: ['Os preços do couvert devem estar indicados no menu ou na tabela de preços.', 'Se o aperitivo foi colocado sem perguntarem, pode recusá-lo tranquilamente.', 'Se não tocou nele, peça para retirar: “não queremos couvert, obrigado/obrigada”.', 'Se comeu pelo menos parte do pão, manteiga, queijo ou paté, normalmente paga esse item.', 'Em zonas turísticas, o couvert pode custar 1–5 € por pessoa ou por conjunto; consulte o menu.', 'Numa tasca e em cafés simples, o pão por vezes é cobrado separadamente: pão, manteiga, queijo.', 'Queijo caro, presunto ou marisco na mesa sem pedido — confirme o preço antes de comer.'] },
-        { kind: 'warning', text: 'Não discuta dizendo “mas trouxeram isto sem pedirmos” se já comeu o produto. A posição forte do consumidor é quando o item não foi pedido e não foi consumed. Se não quer pagar, recuse de imediato e afaste fisicamente o prato.' }
+        { kind: 'warning', text: 'Não discuta dizendo “mas trouxeram isto sem pedirmos” se já comeu o produto. A posição forte do consumidor é quando o item não foi pedido e não foi consumido. Se não quer pagar, recuse de imediato e afaste fisicamente o prato.' }
       ]
     },
     {
@@ -91,6 +91,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

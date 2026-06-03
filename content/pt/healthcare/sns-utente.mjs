@@ -12,7 +12,7 @@ export default {
       title: 'O que é e para que serve',
       content: [
         { kind: 'paragraph', text: 'Número de utente — identificador de 9 dígitos no SNS. Sem ele é mais difícil marcar consultas no SNS e obter receitas comparticipadas; alguns serviços programados podem ser cobrados segundo as tabelas do SNS para pessoas sem direito ao SNS confirmado. O atendimento de urgência e os casos protegidos estão disponíveis independentemente do número.' },
-        { kind: 'paragraph', text: 'Dá acesso ao SNS e à inscrição na lista para médico de família (o médico nem sempre é atribuído de imediato; em várias regiões é possível ficar muito tempo sem médico de família), consultas, análises, hospitalização, comparticipações na farmácia (até 90% de desconto em receitas), vacinas do PNV. Todas as pessoas que se encontrem em Portugal podem ligar para o 112 independentemente de terem número de utente — o número ajuda no registo posterior e na cobrança/comparticipações.' }
+        { kind: 'paragraph', text: 'Dá acesso ao SNS e à inscrição na lista para médico de família (o médico nem sempre é atribuído de imediato; em várias regiões é possível ficar muito tempo sem médico de família), consultas, análises, hospitalização, comparticipações na farmácia (até 95% de desconto em receitas), vacinas do PNV. Todas as pessoas que se encontrem em Portugal podem ligar para o 112 independentemente de terem número de utente — o número ajuda no registo posterior e na cobrança/comparticipações.' }
       ]
     },
     {
@@ -66,6 +66,6 @@ export default {
     { title: 'SNS24 — Portal do Cidadão', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Pedir o número de utente do SNS', url: 'https://www.gov.pt/servicos/pedir-o-numero-de-utente-do-sns', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

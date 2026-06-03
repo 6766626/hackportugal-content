@@ -85,8 +85,8 @@ export default {
           'Посмотрите, сколько детей на одного тренера: комфортно 8–12 для младших, 12–16 для старших.',
           'Спросите язык: многие тренеры говорят только по-португальски; для интеграции это плюс, но первые недели ребёнку нужна поддержка.',
           'Проверьте покрытие: relva sintética требует подходящих бутс TF/AG.',
-          'Уточните расписание дождя: тренируются ли в плохую погоду, есть ли зал.',
-          'Спросите, играют ли в чемпионате Associação de Futebol или только в внутренних турнирах.',
+          'Уточните, что с тренировками в дождь: занимаются ли в плохую погоду, есть ли зал.',
+          'Спросите, играют ли в чемпионате Associação de Futebol или только во внутренних турнирах.',
           'Проверьте страховку: что покрывает treino, jogo, deslocação.',
           'Сравните сезон: обычно setembro–junho, летом отдельные campos de férias.',
           'Узнайте правила выхода: есть ли fidelização, возвращают ли inscrição при переезде.',
@@ -125,6 +125,6 @@ export default {
     { title: 'IPDJ — Programa Nacional de Desporto para Todos', url: 'https://ipdj.gov.pt/programa-nacional-de-desporto-para-todos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Diário da República — Lei de Bases da Atividade Física e do Desporto, Lei 5/2007', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34498875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

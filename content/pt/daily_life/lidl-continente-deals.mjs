@@ -37,7 +37,7 @@ export default {
               'Até 5-50% em produtos assinalados (promoção + Cartão)',
               '«Poupa Mais» — cupões personalizados na aplicação',
               'Combustível na Galp — com desconto ao pagar com Cartão Continente (as condições mudam — confirme as actuais)',
-              'O cashback universal também funciona na Worten, Zippy, MO, Sport Zone, Wells (todas do grupo Sonae)'
+              'O saldo acumulado também pode ser gasto na Worten, Zippy, MO, Sport Zone, Wells (todas do grupo Sonae)'
             ]}
           ]},
           { id: 'c2', title: '🟩 Pingo Doce — Poupa Mais', content: [
@@ -125,6 +125,6 @@ export default {
     { title: 'folhetos.pt — agregador de promoções', url: 'https://www.folhetos.pt/', kind: 'secondary', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DECO PROteste — comparação de supermercados', url: 'https://www.deco.proteste.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

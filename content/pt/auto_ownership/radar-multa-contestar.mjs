@@ -3,7 +3,7 @@ export default {
   id: 'radar-multa-contestar',
   categoryId: 'auto_ownership',
   title: 'Contestar uma multa de câmara de velocidade SINCRO',
-  tldr: 'As multas dos radares SINCRO chegam pela ANSR: para automóveis ligeiros, excesso até 20 km/h dentro de localidade ou até 30 km/h fora de localidade — 60–300 €; acima disso, as multas aumentam até 2 500 € e pode haver inibição de conduzir.\n\nEm Portugal aplica-se uma correcção metrológica: normalmente 7 km/h até 100 km/h e 7% acima de 100 km/h. Para apresentar defesa ou indicar outro condutor, há normalmente 15 dias úteis após a notificação; se pagar, faça-o como depósito, para não encerrar o processo. Verifique a fotografia, o sinal, o local, o prazo de verificação do IPQ e a prescrição de 2 anos.',
+  tldr: 'As multas dos radares SINCRO chegam pela ANSR: para automóveis ligeiros, excesso até 20 km/h dentro de localidade ou até 30 km/h fora de localidade — 60–300 €; acima disso, as multas aumentam até 2 500 € e pode haver inibição de conduzir.\n\nEm Portugal aplica-se uma correcção metrológica: normalmente 5–7 km/h até 100 km/h (muitas vezes 5 km/h nos radares fixos) e 5–7% acima de 100 km/h. Para apresentar defesa ou indicar outro condutor, há normalmente 15 dias úteis após a notificação; se pagar, faça-o como depósito, para não encerrar o processo. Verifique a fotografia, o sinal, o local, o prazo de verificação do IPQ e a prescrição de 2 anos.',
   tags: ['radar', 'multa', 'ansr', 'automóvel'],
   estimatedReadMinutes: 6,
   steps: [
@@ -17,7 +17,7 @@ export default {
           'Compare a matrícula e a marca do automóvel na fotografia.',
           'Verifique a data, hora, estrada, sentido de circulação e km.',
           'Compare o limite indicado com o sinal real no local.',
-          'Verifique se foi aplicada a correcção à velocidade: 7 km/h até 100 km/h ou 7% acima de 100 km/h.',
+          'Verifique se foi aplicada a correcção à velocidade: normalmente 5–7 km/h até 100 km/h (muitas vezes 5 km/h nos radares fixos) ou 5–7% acima de 100 km/h.',
           'Veja se existe ameaça de sanção acessória: a inibição de conduzir surge normalmente em contraordenação grave / muito grave.',
           'Conte o prazo: normalmente 15 dias úteis a partir da data da notificação para defesa ou identificação do condutor.'
         ] },
@@ -55,12 +55,12 @@ export default {
           'Em caso de grave / muito grave, mesmo o pagamento da coima nem sempre resolve a questão: pode correr separadamente uma inibição de conduzir por 1–12 meses ou 2–24 meses.',
           'Para condutores com histórico limpo, por vezes é possível pedir a suspensão da sanção acessória, mas não é um direito automático.'
         ] },
-        { kind: 'warning', text: 'A regra das 48 horas é importante em fiscalização na estrada: para contestar depois de pagar, o dinheiro deve ser entregue como depósito nos termos previstos. A formulação no recibo importa.' }
+        { kind: 'warning', text: 'A regra das 48 horas é importante em fiscalização na estrada: para contestar depois de pagar, o dinheiro deve ser entregue como depósito nas 48 horas seguintes à notificação e nos termos previstos. A formulação no recibo importa.' }
       ]
     },
     {
       id: 'defence-arguments',
-      title: '4. O que vale realmente a pena verificar na',
+      title: '4. O que vale realmente a pena verificar na defesa',
       content: [
         { kind: 'paragraph', text: 'Uma boa defesa não é “não reparei no sinal”, mas sim pontos processuais e técnicos concretos. Escreva em português, de forma breve, com anexos: fotografias do local, captura do mapa, cópia de documentos, prova de quem era o condutor.' },
         { kind: 'checklist', items: [
@@ -68,7 +68,7 @@ export default {
           'Fotografia: peça cópia da fotografia, se não tiver sido anexada ou se não permitir identificar com segurança o veículo.',
           'Local: verifique se a coordenada/km corresponde à estrada e ao sentido onde o radar SINCRO está efectivamente instalado.',
           'Sinal de limite: fotografe a aproximação ao local, especialmente se o sinal estiver tapado, ausente, contraditório ou colocado depois do radar.',
-          'Correcção da velocidade: verifique se a ANSR utilizou a velocidade depois de descontar 7 km/h ou 7%, e não a medição “bruta”.',
+          'Correcção da velocidade: verifique se a ANSR utilizou a velocidade depois de descontar a correcção (5–7 km/h ou 5–7% conforme o certificado do equipamento), e não a medição “bruta”.',
           'IPQ / metrologia: solicite o certificado de aprovação de modelo e o certificado de verificação periódica do cinemómetro, válidos na data da infracção.',
           'Prazos: verifique a data da infracção, a data do auto, a data da notificação e a eventual prescrição.',
           'Duplicação: se recebeu várias cartas pelo mesmo episódio, verifique se os factos não foram erradamente separados.'
@@ -147,6 +147,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

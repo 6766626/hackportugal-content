@@ -3,7 +3,7 @@ export default {
   id: 'voluntarios-protecao-civil',
   categoryId: 'emergency_rights',
   title: 'Bombeiros Voluntários: como tornar-se bombeiro voluntário em Portugal',
-  tldr: 'Em Portugal, os bombeiros voluntários são a base da Proteção Civil: existem cerca de 469 corpos de bombeiros no país, e o recrutamento é feito através da Associação Humanitária de Bombeiros Voluntários local. Normalmente aceitam candidatos a partir dos 16 anos; é necessário um documento legal, morada, saúde e disponibilidade para piquetes. A formação de base é gratuita e demora cerca de 6–12 meses: preparação física, primeiros socorros, incêndios, operações de salvamento. Não é uma forma rápida de conseguir emprego, mas dá integração, farda, competências e um caminho para uma carreira profissional.',
+  tldr: 'Em Portugal, os bombeiros voluntários são a base da Proteção Civil: existem cerca de 469 corpos de bombeiros no país, e o recrutamento é feito através da Associação Humanitária de Bombeiros Voluntários local. A carreira operacional de bombeiro entra-se normalmente a partir dos 18 anos (o estágio pode começar aos 17), enquanto os jovens dos 16 aos 17 anos entram nas escolas de cadetes. É necessário um documento legal, morada, saúde e disponibilidade para piquetes. A formação de base é gratuita e demora cerca de 6–12 meses: preparação física, primeiros socorros, incêndios, operações de salvamento. Não é uma forma rápida de conseguir emprego, mas dá integração, farda, competências e um caminho para uma carreira profissional.',
   tags: ['bombeiros', 'voluntariado', 'proteção-civil', '112'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Os Bombeiros Voluntários são corpos de bombeiros voluntários ligados às Associações Humanitárias de Bombeiros Voluntários locais. Fazem parte do sistema de Proteção Civil e trabalham em conjunto com Bombeiros Sapadores, INEM, GNR/PSP, Câmara Municipal e ANEPC.' },
         { kind: 'paragraph', text: 'As suas tarefas vão além do combate a incêndios: acidentes rodoviários, evacuações, inundações, incêndios florestais, busca de pessoas, transporte sanitário, apoio a eventos e ajuda à população em situações de emergência.' },
-        { kind: 'checklist', items: ['Existem cerca de 469 corpos de bombeiros no país', 'O recrutamento é normalmente local: através da Associação de Bombeiros mais próxima', 'A idade mínima para entrar na carreira de bombeiro voluntário é normalmente 16 anos', 'Antes dos 16 anos pode haver escolas de cadetes/infantes, mas isso não é serviço operacional completo', 'A formação e a farda são normalmente fornecidas pelo corpo', 'Voluntariado não equivale a contrato de trabalho e não garante salário', 'Depois da formação, podem existir piquetes, chamadas operacionais e especializações posteriores'] }
+        { kind: 'checklist', items: ['Existem cerca de 469 corpos de bombeiros no país', 'O recrutamento é normalmente local: através da Associação de Bombeiros mais próxima', 'A idade mínima para entrar na carreira de bombeiro é normalmente 18 anos (o estágio pode começar aos 17)', 'Os jovens dos 16 aos 17 anos entram nas escolas de cadetes/infantes, mas isso não é serviço operacional completo', 'A formação e a farda são normalmente fornecidas pelo corpo', 'Voluntariado não equivale a contrato de trabalho e não garante salário', 'Depois da formação, podem existir piquetes, chamadas operacionais e especializações posteriores'] }
       ]
     },
     {
@@ -21,7 +21,7 @@ export default {
       title: 'Quem é aceite: requisitos básicos',
       content: [
         { kind: 'paragraph', text: 'Os requisitos exactos são definidos por cada corpo de bombeiros, mas a lógica é semelhante em todo o país: você deve viver perto, estar física e psicologicamente apto, compreender português no mínimo ao nível de comandos e segurança, frequentar regularmente as aulas e os piquetes.' },
-        { kind: 'checklist', items: ['Idade: normalmente a partir dos 16 anos para bombeiro voluntário', 'Documento de identidade: passaporte, autorização de residência, Cartão de Cidadão ou outro ID legal', 'NIF — muitas vezes é pedido para registo interno e seguro', 'Comprovativo de morada na zona do corpo: contrato de arrendamento, factura, atestado de residência', 'Aptidão médica: o corpo pode encaminhar para avaliação médica', 'O certificado de registo criminal pode ser necessário para algumas funções e trabalho com grupos vulneráveis', 'Português básico: comandos, rádio, moradas, segurança, primeiros socorros', 'Disponibilidade para treinos à noite/fim de semana e para piquetes após a certificação'] },
+        { kind: 'checklist', items: ['Idade: normalmente a partir dos 18 anos para bombeiro voluntário (estágio a partir dos 17, escolas de cadetes a partir dos 16)', 'Documento de identidade: passaporte, autorização de residência, Cartão de Cidadão ou outro ID legal', 'NIF — muitas vezes é pedido para registo interno e seguro', 'Comprovativo de morada na zona do corpo: contrato de arrendamento, factura, atestado de residência', 'Aptidão médica: o corpo pode encaminhar para avaliação médica', 'O certificado de registo criminal pode ser necessário para algumas funções e trabalho com grupos vulneráveis', 'Português básico: comandos, rádio, moradas, segurança, primeiros socorros', 'Disponibilidade para treinos à noite/fim de semana e para piquetes após a certificação'] },
         { kind: 'warning', text: 'Se acabou de chegar e ainda não fala português, podem aceitá-lo como candidato/estagiário, mas não será autorizado a realizar tarefas operacionais. Numa ocorrência, não compreender uma ordem é perigoso para si, para a equipa e para as vítimas.' }
       ]
     },
@@ -83,6 +83,6 @@ export default {
     { title: 'Decreto-Lei 247/2007 — regime jurídico dos corpos de bombeiros', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/247-2007-635778', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 241/2007 — regime jurídico aplicável aos bombeiros portugueses', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/241-2007-635777', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

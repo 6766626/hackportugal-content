@@ -3,7 +3,7 @@ export default {
   id: 'pagar-contestar-contraordenacoes',
   categoryId: 'auto_ownership',
   title: 'Portal das Contraordenações: paying and contesting fines online',
-  tldr: 'The ANSR Portal das Contraordenações is the official account for road traffic fines: login with Cartão de Cidadão or Chave Móvel Digital, view cases by NIF, pay by Multibanco reference, submit a defesa/requerimento online and check pontos da carta.\n\nIn 2026, a defence is usually submitted within 15 working days after notification. Instalments can be requested for fines from €210, with a minimum of €50 per payment, usually up to 12 instalments.',
+  tldr: 'The ANSR Portal das Contraordenações is the official account for road traffic fines: login with Cartão de Cidadão or Chave Móvel Digital, view cases by NIF, pay by Multibanco reference, submit a defesa/requerimento online and check pontos da carta.\n\nIn 2026, a defence is usually submitted within 15 working days after notification. Instalments can be requested for fines from €204 (2 UC), with a minimum of €50 per payment, usually up to 12 instalments.',
   tags: ['fines', 'ansr', 'contraordenações', 'mb', 'licence'],
   estimatedReadMinutes: 6,
   steps: [
@@ -67,16 +67,16 @@ export default {
             ] }
           ] }
         ] },
-        { kind: 'warning', text: 'Pagamento voluntário pelo mínimo often closes the coima issue, but does not always close the entire case: for a contraordenação grave or muito grave there may be a separate penalty, such as inhibição de conduzir and loss of points. If you want to contest the substance of the case, first assess whether payment will be treated as an admission/voluntary payment or depósito.' }
+        { kind: 'warning', text: 'Pagamento voluntário pelo mínimo often closes the coima issue, but does not always close the entire case: for a contraordenação grave or muito grave there may be a separate penalty, such as inibição de conduzir and loss of points. If you want to contest the substance of the case, first assess whether payment will be treated as an admission/voluntary payment or depósito.' }
       ]
     },
     {
       id: 'parcelamento',
       title: 'Instalments: when a fine can be split',
       content: [
-        { kind: 'paragraph', text: 'For large road traffic fines, you can request pagamento em prestações. ANSR’s practical rule for 2026: the fine amount must be at least €210, each payment must be at least €50, and instalments are usually limited to 12 monthly payments.' },
+        { kind: 'paragraph', text: 'For large road traffic fines, you can request pagamento em prestações. ANSR’s practical rule for 2026: the fine amount must be at least €204 (2 UC), each payment must be at least €50, and instalments are usually limited to 12 monthly payments.' },
         { kind: 'checklist', items: [
-          'Check that montante da coima ≥ €210',
+          'Check that montante da coima ≥ €204 (2 UC)',
           'Calculate payments so that each prestação is at least €50',
           'Submit a requerimento through the portal in your case or in writing to ANSR',
           'State the case number, NIF, name, address, email, telephone',
@@ -104,7 +104,7 @@ export default {
           'If you are requesting witnesses, state their name, address and exactly what they confirm',
           'Save the comprovativo de submissão with date and time'
         ] },
-        { kind: 'warning', text: 'Submitting a defesa does not guarantee suspension of all consequences. For serious offences, ANSR may still issue a decision on coima, custas, inhibição de conduzir and loss of points. For alcool, acidente, excesso grande de velocidade, reincidência or risk of losing your licence, it is better to show the case to an advogado.' }
+        { kind: 'warning', text: 'Submitting a defesa does not guarantee suspension of all consequences. For serious offences, ANSR may still issue a decision on coima, custas, inibição de conduzir and loss of points. For alcool, acidente, excesso grande de velocidade, reincidência or risk of losing your licence, it is better to show the case to an advogado.' }
       ]
     },
     {
@@ -128,7 +128,7 @@ export default {
   ],
   costs: [
     { label: 'Access to Portal das Contraordenações', amountEUR: 0, note: 'The official ANSR portal is free; you pay only the fine/coima itself, custas or sanctions in the case.' },
-    { label: 'Minimum fine amount for requesting instalments', amountEUR: 210, note: 'Practical threshold for pagamento em prestações in 2026.' },
+    { label: 'Minimum fine amount for requesting instalments', amountEUR: 204, note: '2 UC threshold (UC = €102) for pagamento em prestações in 2026.' },
     { label: 'Minimum instalment payment', amountEUR: 50, note: 'Each prestação must be at least €50; usually a maximum of 12 monthly payments.' }
   ],
   sources: [
@@ -136,6 +136,6 @@ export default {
     { title: 'ePortugal: consulting the Portal das Contraordenações', url: 'https://www2.gov.pt/servicos/consultar-o-portal-das-contraordenacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código da Estrada — Decreto-Lei 114/94, articles on contraordenações, payment, defence and points', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

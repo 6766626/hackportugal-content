@@ -3,7 +3,7 @@ export default {
   id: 'rrc-oncologia-sns',
   categoryId: 'healthcare',
   title: 'Онкологический маршрут SNS: Rede de Referenciação Oncológica и TMRG',
-  tldr: 'При подозрении на рак маршрут в SNS начинается у Médico de Família: он фиксирует suspeita, назначает первичные exames и направляет через CTH/SIGA в больницу сети Rede de Referenciação Oncológica. Для срочных случаев используется приоритет P1 / Alerta-Oncológico. Юридические TMRG для первой больничной консультации при подозрении/подтверждении онкологии — только два уровня: 7 дней для muito prioritária и 30 дней для prioritária (Portaria 137/2026/1, в силе с 2 апреля 2026). Если срок сорван — жалоба в ERS и Livro de Reclamações.',
+  tldr: 'При подозрении на рак маршрут в SNS начинается у Médico de Família: он фиксирует suspeita, назначает первичные exames и направляет через CTH/SIGA в больницу сети Rede de Referenciação Oncológica. Для срочных случаев используется приоритет P1 / Alerta-Oncológico. Юридические TMRG для первой больничной консультации при подозрении/подтверждении онкологии — только два уровня: 7 дней для muito prioritária и 30 дней для prioritária (Portaria 137/2026/1, действует с 2 апреля 2026 года). Если срок сорван — жалоба в ERS и Livro de Reclamações.',
   tags: ['онкология', 'sns', 'tmrg', 'aima', 'ers'],
   estimatedReadMinutes: 6,
   steps: [
@@ -50,7 +50,7 @@ export default {
           'При подозрении/подтверждении онкологии для первой больничной консультации действуют только два уровня (Portaria 137/2026/1): muito prioritária — до 7 дней, prioritária — до 30 дней, отсчёт с момента поступления pedido',
           'Уровня “normal” для онкологической первой консультации нет; прежний промежуточный 15-дневный уровень отменён',
           'Для онкологической плановой хирургии (cirurgia programada): prioritária — до 30 дней, normal — до 60 дней',
-          'Внимание: общая ladder 30 / 60 / 120 дней относится к обычным специальностям, а не к онкологии — не путайте её с онкологической гарантией',
+          'Внимание: общая шкала 30 / 60 / 120 дней относится к обычным специальностям, а не к онкологии — не путайте её с онкологической гарантией',
           'При подозрении на рак врач должен обосновать приоритет клинически; само слово “cancro” не гарантирует автоматический P1',
           'P1 / Alerta-Oncológico — практический ускоренный канал для suspeita oncológica, но юридически проверяйте, какой приоритет стоит в SIGA',
           'Если hospital triage снизил приоритет, просите письменное объяснение или повторную оценку через MGF',
@@ -114,14 +114,14 @@ export default {
       id: 'private-parallel',
       title: 'Можно ли ускориться через частный сектор',
       content: [
-        { kind: 'paragraph', text: 'Да, многие пациенты делают часть диагностики privately: colonoscopia, RM, PET, biópsia, second opinion. Это может ускорить факты для MGF и hospital triage, но не создаёт автоматического права на лечение в конкретном IPO. Чтобы частный результат “сработал” в SNS, нужен relatório médico и, желательно, цифровые изображения.' },
+        { kind: 'paragraph', text: 'Да, многие пациенты делают часть диагностики в частном секторе: colonoscopia, RM, PET, biópsia, second opinion. Это может ускорить факты для MGF и hospital triage, но не создаёт автоматического права на лечение в конкретном IPO. Чтобы частный результат “сработал” в SNS, нужен relatório médico и, желательно, цифровые изображения.' },
         { kind: 'checklist', items: [
           'Просите не только снимок, но и relatório médico assinado',
           'Для biópsia забирайте полный anatomia patológica report',
           'Спросите, можно ли передать lâminas / blocos para revisão no SNS',
           'Принесите результаты MGF и попросите anexar ao pedido CTH/SIGA',
           'Если частный врач пишет письмо, пусть укажет suspected diagnosis, ICD/термины PT и urgency',
-          'Не начинайте лечение privately без понимания, примет ли SNS уже начатую схему и где будет follow-up'
+          'Не начинайте лечение в частном секторе без понимания, примет ли SNS уже начатую схему и где будет follow-up'
         ] },
         { kind: 'warning', text: 'Частная диагностика полезна, но может стоить сотни евро и не всегда покрывается страховкой при pre-existing condition. Перед exame уточняйте copagamento, autorização prévia и срок выдачи relatório.' }
       ]
@@ -162,6 +162,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

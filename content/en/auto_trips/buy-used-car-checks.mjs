@@ -133,7 +133,7 @@ export default {
               'Better at IMT / Conservatória Automóvel — public place, both witnesses',
               'Bank transfer — show confirmation immediately',
               'Simple contract (2 copies, full name/NIF of both parties + car registration + amount + date)',
-              'NO cash > €3,000 (Lei 92/2017 — generally not allowed between private individuals)',
+              'Cash cannot be used for amounts of €3,000 or more (Lei 92/2017 — the ban also applies between private individuals)',
               'Handover of DUA + keys + documents in person'
             ]}
           ]},
@@ -177,6 +177,6 @@ export default {
     { title: 'ACP — Automóvel Club de Portugal', url: 'https://www.acp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Registo Automóvel', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

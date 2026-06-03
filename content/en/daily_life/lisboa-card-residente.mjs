@@ -135,7 +135,7 @@ export default {
   costs: [
     { label: 'Checking conditions and registering on the municipal website', amountEUR: 0, note: 'Usually free; the paid item is the specific service, ticket or discounted subscription.' },
     { label: 'Atestado de residência at the Junta de Freguesia', amountEURMin: 0, amountEURMax: 10, note: 'The fee depends on the freguesia and urgency; some certificates for social purposes may be free.' },
-    { label: 'Tourist Lisboa Card', amountEURMin: 27, amountEURMax: 54, note: 'This is a separate tourist product for 24/48/72 hours; it is not the Cartão Lisboa for residents.' }
+    { label: 'Tourist Lisboa Card', amountEURMin: 31, amountEURMax: 62, note: 'This is a separate tourist product for 24/48/72 hours (2026 adult price); it is not the Cartão Lisboa for residents.' }
   ],
   sources: [
     { title: 'Câmara Municipal de Lisboa — official portal for municipal services and programmes', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -143,6 +143,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — cultura, desporto and city initiatives', url: 'https://www.cm-lisboa.pt/viver', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Turismo de Lisboa — tourist Lisboa Card for comparison', url: 'https://www.visitlisboa.com/en/p/lisboa-card', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

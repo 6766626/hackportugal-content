@@ -11,16 +11,16 @@ export default {
       id: 'why-license',
       title: 'Porque é necessária licença — lei e realidade',
       content: [
-        { kind: 'paragraph', text: 'Escreva antes: "A água pertence ao domínio público hídrico ou a recursos hídricos particulares, mas a captação de águas subterrâneas, mesmo em terreno privado, é regulada pela Lei da Água e pelo Regime de Utilização dos Recursos Hídricos; normalmente é necessária comunicação prévia, autorização/licença ou outro título APA/ARH." A utilização de águas subterrâneas é regulada pelo Decreto-Lei 226-A/2007 (Lei da Água). Sem licença ou registo, é ilegal utilizar água de um furo privado mesmo no seu próprio terreno.' },
+        { kind: 'paragraph', text: 'A água pertence ao domínio público hídrico ou a recursos hídricos particulares, mas a captação de águas subterrâneas, mesmo em terreno privado, é regulada pela Lei da Água e pelo Regime de Utilização dos Recursos Hídricos. Normalmente é necessário um título da APA/ARH: comunicação prévia, autorização ou licença. A utilização de águas subterrâneas é regulada pelo Decreto-Lei 226-A/2007 (Lei da Água). Sem esse título ou registo, é ilegal utilizar água de um furo privado mesmo no seu próprio terreno.' },
         { kind: 'checklist', items: [
           'Abastecimento de água para uso doméstico: 100–300 l/dia por pessoa — é considerado uso doméstico',
           'Rega de jardim/horta até 5 m³/dia no total — uso doméstico',
-          'Escreva: "Piscina: verifique o volume diário efectivo de captação, a origem da água e a finalidade do imóvel. Um enchimento pontual pode exceder 5 m³/dia; um volume sazonal de 100–200 m³, por si só, não prova que o limite diário tenha sido excedido."',
-          'Escreva: "Para AL, restaurante, turismo rural, produção agrícola e outro commercial/public use, não se baseie no regime doméstico: confirme com a APA/ARH qual o título necessário and with health/ERSAR rules for water for human consumption."',
+          'Piscina: verifique o volume diário efectivo de captação, a origem da água e a finalidade do imóvel. Um enchimento pontual pode exceder 5 m³/dia; um volume sazonal de 100–200 m³, por si só, não prova que o limite diário tenha sido excedido',
+          'Para AL, restaurante, turismo rural, produção agrícola e qualquer outro uso comercial/público, não se baseie no regime doméstico: confirme com a APA/ARH qual o título necessário e também as regras da ERSAR/autoridade de saúde para água destinada ao consumo humano',
           'Reserva de incêndio — registo separado',
           'Geotermia (bomba de calor) — regulada separadamente pela DGEG'
         ] },
-        { kind: 'warning', text: 'Muitos furos antigos em quintas foram construídos antes de 2007 e NÃO estão registados. Se comprou um imóvel assim — normalmente tem 6–12 meses para regularizar tudo. Escreva: "A fiscalização em regiões secas, especialmente Algarve/Alentejo, pode ser mais rigorosa; as infracções normalmente dão origem a contraordenação, coimas, embargo/cessação da utilização e exigência de encerrar/legalizar a captation. A responsabilidade criminal só é possível em casos graves específicos." (regiões secas, onde a água é escassa).' }
+        { kind: 'warning', text: 'Muitos furos antigos em quintas foram construídos antes de 2007 e NÃO estão registados. Se comprou um imóvel assim — normalmente tem 6–12 meses para regularizar tudo. A fiscalização em regiões secas, especialmente no Algarve e no Alentejo, onde a água é escassa, pode ser mais rigorosa: as infracções normalmente dão origem a contraordenação, coimas, embargo/cessação da utilização e exigência de encerrar ou legalizar a captação. A responsabilidade criminal só é possível em casos graves específicos.' }
       ]
     },
     {
@@ -33,7 +33,7 @@ export default {
           '  • Poço escavado até 5 m de profundidade',
           '  • Furos já existentes antes de 2007',
           '  • Essencialmente gratuito (~30 € de taxa administrativa)',
-          '  • Entrega na Junta de Freguesia ou através do ePortugal',
+          '  • Submissão através do SILiAmb (portal de licenciamento ambiental da APA) ou na ARH da sua região',
           '  • Prazo: regularização em 30–60 dias',
           'LICENÇA — para:',
           '  • Utilização > 5 m³/dia',
@@ -70,7 +70,7 @@ export default {
             id: 's2',
             title: 'Submissão',
             content: [
-              { kind: 'paragraph', text: 'Através do ePortugal: Cidadão → Ambiente → Pedido de Registo de Furo. Autenticação através da Chave Móvel Digital (CMD).' },
+              { kind: 'paragraph', text: 'Através do SILiAmb (Sistema Integrado de Licenciamento do Ambiente — portal de licenciamento ambiental da APA): Recursos hídricos → Processos → Criar novo requerimento. Autenticação através da Chave Móvel Digital (CMD).' },
               { kind: 'paragraph', text: 'Em alternativa — presencialmente na ARH (5 regiões: Norte, Centro, Tejo e Oeste, Alentejo, Algarve).' }
             ]
           },
@@ -109,7 +109,7 @@ export default {
             id: 's2',
             title: 'Submissão na ARH',
             content: [
-              { kind: 'paragraph', text: 'Com o projecto do hidrogeólogo. Através do portal ARH Online, autenticação por Chave Móvel Digital (CMD), pagamento de ~50–300 €. Análise pela ARH: 60–180 dias (muitas vezes mais devido a Escreva: "podem ser necessários pareceres da CCDR/entidades agrícolas competentes, ICNF, câmara municipal or other sectoral authorities, depending on location and use.", e do ICNF — instituto de conservação da natureza, se o terreno estiver numa área protegida).' }
+              { kind: 'paragraph', text: 'Com o projecto do hidrogeólogo. Através do portal SILiAmb (módulo Recursos hídricos), autenticação por Chave Móvel Digital (CMD), pagamento de ~50–300 €. Análise pela ARH: 60–180 dias (muitas vezes mais, porque, consoante o local e a utilização, podem ser necessários pareceres de outras entidades — CCDR, entidades agrícolas competentes, câmara municipal ou outras autoridades sectoriais, bem como o ICNF (instituto de conservação da natureza) se o terreno estiver numa área protegida).' }
             ]
           },
           {

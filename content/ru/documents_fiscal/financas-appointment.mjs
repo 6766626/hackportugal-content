@@ -36,7 +36,7 @@ export default {
           '🚗 IUC — налог на транспортное средство (20 мин)',
           '🏠 IMT — налог при покупке недвижимости (20 мин)',
           '🏢 IMI — 30 мин',
-          '📄 Apoio ao preenchimento de IRS — 30–45 мин; основной сезон подачи Modelo 3: 1 апреля – 30 июня'
+          '📄 Apoio ao preenchimento de IRS — 30–45 мин; основной период подачи Modelo 3: 1 апреля – 30 июня'
         ]}
       ]
     },
@@ -49,7 +49,7 @@ export default {
           'Porto Baixa, Gaia, Matosinhos — аналогично',
           'Маленькие отделения в отдалённых регионах — приём без записи часто проходит без проблем',
           'Возможен отказ, если слоты переполнены — лучше записаться',
-          'Без записи лучше рассчитывать только на срочные или простые вопросы; при высокой загрузке могут попросить записаться'
+          'Без записи идите только по срочным или простым вопросам; при высокой загрузке могут попросить записаться'
         ]}
       ]
     },
@@ -72,7 +72,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'С 2022 большинство операций доступно онлайн. Визит в Finanças обычно нужен для случаев, где требуется очная идентификация, невозможно решить вопрос через Portal/e-balcão или услуга недоступна онлайн. Биометрия в Finanças не оформляется — это AIMA/IRN.' },
         { kind: 'checklist', items: [
-          '✅ Получение NIF иностранцем зависит от статуса и документов: нерезидент обычно через налогового представителя/mandatário через e-balcão или лично в Serviço de Finanças',
+          '✅ Получение NIF иностранцем зависит от статуса и документов: нерезидент обычно оформляет его через налогового представителя/mandatário по e-balcão или лично в Serviço de Finanças',
           '✅ Смена адреса — онлайн',
           '✅ Активация пароля — онлайн (выдача по почте)',
           '✅ Декларация IRS — онлайн (Modelo 3)',
@@ -88,6 +88,6 @@ export default {
     { title: 'ePortugal — Agendar atendimento no Serviço de Finanças', url: 'https://www.gov.pt/servicos/agendar-atendimento-no-servico-de-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — e-balcão (письменные запросы)', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

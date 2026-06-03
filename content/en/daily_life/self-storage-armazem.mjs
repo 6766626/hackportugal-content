@@ -203,6 +203,6 @@ export default {
       lastRetrieved: '2026-05-30'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'creches-gratis-3a5-anos',
   categoryId: 'education_children',
   title: 'Creches gratuitas para crianças dos 0 aos 3 anos: Programa Creche Feliz',
-  tldr: 'Creche Feliz é um programa de creches gratuitas para crianças até aos 3 anos em Portugal. Em 2026 cobre mensalidade, inscrição, alimentação e cuidados básicos em creches aderentes, se a criança estiver dentro do contingente etário abrangido e houver vaga. São necessários o NIF da criança/dos pais, o NISS da criança e comprovativo de morada. Na prática, o pedido passa pela procura de lugar na Carta Social e pelo contacto com a creche. O principal risco não é o direito, mas a falta de vagas, especialmente em Lisboa, Porto, Cascais, Oeiras.',
+  tldr: 'Creche Feliz é um programa de creches gratuitas para crianças até aos 3 anos em Portugal. Em 2026 cobre mensalidade, inscrição, alimentação e cuidados básicos em creches aderentes, se a criança estiver dentro do contingente etário abrangido e houver vaga. São necessários o NIF da criança/dos pais, o NISS da criança e comprovativo de morada. Desde 9 de Abril de 2026, o pedido de vaga é feito online através da Segurança Social Direta (a aplicação autónoma Creche Feliz foi descontinuada); a Carta Social continua útil para uma procura prévia de creches. O principal risco não é o direito, mas a falta de vagas, especialmente em Lisboa, Porto, Cascais, Oeiras.',
   tags: ['creche', 'crianças', 'crechefeliz', 'segurançasocial'],
   estimatedReadMinutes: 5,
   steps: [
@@ -28,7 +28,7 @@ export default {
       id: 'eligibility',
       title: 'Quem tem direito em 2026',
       content: [
-        { kind: 'paragraph', text: 'O critério principal é que a criança seja aceite numa creche aderente e pertença à faixa etária abrangida pelo programa. Em 2026, o programa já se aplica como regime generalizado para crianças até aos 3 anos, incluindo crianças nascidas depois de 1 de Setembro de 2021 e os contingentes seguintes.' },
+        { kind: 'paragraph', text: 'O critério principal é que a criança seja aceite numa creche aderente e pertença à faixa etária abrangida pelo programa. As crianças nascidas a partir de 1 de Setembro de 2021 têm creche gratuita de forma automática, sem condição de recursos. As crianças nascidas antes dessa data só são abrangidas se a família estiver no 1.º ou 2.º escalão de rendimentos da comparticipação familiar.' },
         { kind: 'checklist', items: [
           'A criança reside em Portugal e tem NIF.',
           'A criança tem NISS ou este está a ser tratado junto da Segurança Social; muitas creches pedirão o NISS antes do registo final.',
@@ -43,12 +43,12 @@ export default {
     },
     {
       id: 'how-to-find-place',
-      title: 'Como procurar lugar através da Carta Social',
+      title: 'Como procurar lugar e fazer o pedido',
       content: [
-        { kind: 'paragraph', text: 'A Carta Social é o principal catálogo público de instituições sociais. Através dela é conveniente verificar creches que participam no Creche Feliz e a existência de vagas declaradas. Mas a decisão final continua a ser tomada pela creche concreta depois do contacto com a família.' },
+        { kind: 'paragraph', text: 'Desde 9 de Abril de 2026, o pedido formal de lugar gratuito é feito online através da Segurança Social Direta: menu “Família” → “Desenvolvimento de crianças e jovens” → “Creche Feliz — Rede de creches gratuitas”. Aí pode procurar creches com vagas, selecionar até 3 instituições em simultâneo e obter priorização automática. A Carta Social continua útil para consultar previamente instituições e contactos, mas o pedido de gratuitidade passa agora pela Segurança Social.' },
         { kind: 'substeps', items: [
-          { id: 'open-carta-social', title: '1. Abra a Carta Social', content: [
-            { kind: 'paragraph', text: 'Entre em cartasocial.pt e procure a resposta social “Creche” por concelho, freguesia ou código postal.' }
+          { id: 'open-carta-social', title: '1. Encontre creches', content: [
+            { kind: 'paragraph', text: 'Na Segurança Social Direta ou em cartasocial.pt, procure a resposta social “Creche” por concelho, freguesia ou código postal.' }
           ] },
           { id: 'filter-creche-feliz', title: '2. Verifique a participação no Creche Feliz', content: [
             { kind: 'paragraph', text: 'Escolha instituições onde esteja indicada a participação no Programa Creche Feliz ou a existência de vagas gratuitas. Nem todas as creches privadas participam no programa.' }
@@ -63,8 +63,8 @@ export default {
               'Pergunte se existe lista de espera e com que frequência é actualizada.'
             ] }
           ] },
-          { id: 'confirm-registration', title: '4. Confirme a matrícula', content: [
-            { kind: 'paragraph', text: 'Depois da concordância da creche, entrega os documentos, assina o regulamento interno e a matrícula. Só depois disso o lugar é considerado real.' }
+          { id: 'confirm-registration', title: '4. Faça o pedido de gratuitidade e confirme a matrícula', content: [
+            { kind: 'paragraph', text: 'Depois da concordância da creche, faz o pedido de gratuitidade através da Segurança Social Direta (a instituição pode dar-lhe um código para associar), e assina o regulamento interno e a matrícula. Só depois disso o lugar é considerado real.' }
           ] }
         ] }
       ]
@@ -134,10 +134,10 @@ export default {
   ],
   sources: [
     { title: 'Gov.pt: aderir ao Programa Creche Feliz', url: 'https://www.gov.pt/servicos/aderir-ao-programa-creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social: Creche Feliz', url: 'https://www.seg-social.pt/creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Segurança Social: Creche Feliz — Rede de creches gratuitas', url: 'https://www.seg-social.pt/ptss/pssd/menu/momento-filhos/momento-durante-crescimento/creche-feliz', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Carta Social: pesquisa de creches e respostas sociais', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DRE: Lei 41/2023', url: 'https://diariodarepublica.pt/dr/detalhe/lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

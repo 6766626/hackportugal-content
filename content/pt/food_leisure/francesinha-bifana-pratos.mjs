@@ -105,7 +105,7 @@ export default {
           'Ao almoço há trabalhadores, famílias, casais idosos — bom sinal.',
           'As avaliações no Google são úteis, mas veja as recentes dos últimos 3–6 meses, não apenas a classificação geral.',
           'Se o sítio é conhecido por um prato, peça precisamente esse: casa de francesinha, casa de leitão, casa de arroz de pato.',
-          'Nas zonas turísticas, evite angari, menus com fotografias em 8 línguas e “paella/pizza/bacalhau/francesinha” na lista.'
+          'Nas zonas turísticas, evite angariadores, menus com fotografias em 8 línguas e “paella/pizza/bacalhau/francesinha” na lista.'
         ] },
         { kind: 'warning', text: 'Diga as alergias de forma direta: “Tenho alergia a…” Os molhos portugueses podem conter leite, farinha, marisco, piri-piri, vinho ou cerveja. Na francesinha há quase sempre glúten, lactose e porco.' }
       ]
@@ -123,6 +123,6 @@ export default {
     { title: 'Visit Portugal: Porto e Norte — comida e vinho da região', url: 'https://www.visitportugal.com/en/destinos/porto-e-norte', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Visit Portugal: Centro de Portugal — Bairrada, Mealhada e cozinha regional', url: 'https://www.visitportugal.com/en/destinos/centro-de-portugal', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

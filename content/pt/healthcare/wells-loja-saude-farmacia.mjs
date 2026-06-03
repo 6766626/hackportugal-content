@@ -119,6 +119,6 @@ export default {
     { title: 'INFARMED — locais de venda de medicamentos não sujeitos a receita médica (MNSRM)', url: 'https://www.infarmed.pt/web/infarmed/entidades/licenciamentos/locais-de-venda-de-medicamentos-nao-sujeitos-a-receita-medica-lvmnsrm', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'SNS 24 — contactos e orientação médica', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

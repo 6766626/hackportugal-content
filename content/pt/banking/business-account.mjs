@@ -4,7 +4,7 @@ export default {
   categoryId: 'banking',
   title: 'Abrir uma conta empresarial — para trabalhadores independentes e empresas',
   tldr: 'Para Recibo Verde em regime simplificado, uma conta empresarial separada normalmente não é obrigatória, mas é muito recomendada. Uma conta separada é obrigatória para IRS com contabilidade organizada (normalmente com volume de negócios > 200 000 €/ano ou por opção) e para empresas (Lda, SA).\n\nOs bancos Millennium BCP, Santander Totta, Caixa Geral, BPI apoiam trabalhadores independentes. Para Lda — os mesmos + ActivoBank Empresas (online).\n\nCusto: 5–15 €/mês de manutenção + comissões por transferências.',
-  tags: ['banco', 'empresa', 'trabalhador independente', 'lda', 'recibos verdes', 'empresa'],
+  tags: ['banco', 'negócio', 'trabalhador independente', 'lda', 'recibos verdes', 'empresa'],
   estimatedReadMinutes: 6,
   steps: [
     {
@@ -26,7 +26,7 @@ export default {
               '💰 A quota mínima é de 1 € por sócio; numa sociedade unipessoal por quotas o capital social pode ser de 1 €. Os bancos podem preferir capital/primeiro depósito mais elevado, mas isso é uma política comercial/KYC do banco, não a lei',
               '🆔 O capital social é indicado no registo; a realização pode normalmente ser diferida dentro dos prazos previstos na lei/documentos constitutivos — não é necessário bloquear previamente o capital antes do registo comercial',
               '📋 Para registar uma Lda, normalmente não é necessária uma conta bancária antecipadamente — Empresa na Hora/IRN permite registar a empresa sem conta; a conta é aberta depois de obter o NIPC/certidão permanente',
-              '⚠️ Não misture dinheiro da empresa com fundos pessoais. Quaisquer transferências entre a Lda e sócios/gerentes devem ter fundamento jurídico — salário, dividendos, suprimentos/empréstimo, reimbursement — e a tributação depende da classificação da operação'
+              '⚠️ Não misture dinheiro da empresa com fundos pessoais. Quaisquer transferências entre a Lda e sócios/gerentes devem ter fundamento jurídico — salário, dividendos, suprimentos/empréstimo, reembolso de despesas — e a tributação depende da classificação da operação'
             ]}
           ]}
         ]}
@@ -85,7 +85,7 @@ export default {
           { id: 'd2', title: 'Para Lda', content: [
             { kind: 'checklist', items: [
               '📄 Pacto Social — contrato constitutivo da Lda',
-              '📜 Certidão Permanente — certidão de registo (pode ser obtida online em portalcidadao.pt por 25 €)',
+              '📜 Certidão Permanente — certidão de registo (pode ser obtida online em empresaonline.justica.gov.pt por 25 € por um ano)',
               '🆔 Cartão de Cidadão + NIF dos fundadores e gerentes',
               '🔢 NIF da empresa',
               '💰 Capital social para bloqueio na conta',
@@ -171,8 +171,8 @@ export default {
   sources: [
     { title: 'Banco de Portugal — Conta de pagamentos', url: 'https://www.bportugal.pt/page/contas-de-pagamentos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Empresa na Hora', url: 'https://justica.gov.pt/Servicos/Empresas/Empresa-na-Hora', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Autoridade Tributária — Início de Atividade', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Autoridade Tributária — Início de Atividade', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

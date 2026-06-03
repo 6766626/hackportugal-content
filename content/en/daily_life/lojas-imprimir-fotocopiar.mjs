@@ -108,6 +108,6 @@ export default {
     { title: 'CTT — branches and Loja CTT services', url: 'https://www.ctt.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'FNAC Portugal — stores and services', url: 'https://www.fnac.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

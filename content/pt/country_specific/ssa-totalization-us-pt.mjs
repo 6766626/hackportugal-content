@@ -12,7 +12,7 @@ export default {
       title: 'O que permite o acordo US–Portugal',
       content: [
         { kind: 'paragraph', text: 'Os EUA e Portugal têm um acordo de segurança social em vigor: ajuda a evitar contribuições duplicadas e permite somar períodos de seguro para pensão, invalidez e prestações para familiares sobrevivos.' },
-        { kind: 'paragraph', text: 'Nos EUA, o direito normal a retirement benefits exige 40 credits. Em 2026, 1 credit é atribuído por 1 810 $ de rendimentos, com um máximo de 4 credits por ano. Se não tiver 40 credits, a SSA pode contar os períodos de contribuições portugueses, mas apenas se tiver pelo menos 6 US credits.' },
+        { kind: 'paragraph', text: 'Nos EUA, o direito normal a retirement benefits exige 40 credits. Em 2026, 1 credit é atribuído por 1 890 $ de rendimentos, com um máximo de 4 credits por ano (7 560 $). Se não tiver 40 credits, a SSA pode contar os períodos de contribuições portugueses, mas apenas se tiver pelo menos 6 US credits.' },
         { kind: 'warning', text: 'A totalization não cria uma «pensão dupla». Os EUA pagam apenas a parte proporcional com base no seu earnings record americano. Portugal calcula separadamente a sua pensão segundo as regras da Segurança Social.' }
       ]
     },
@@ -28,7 +28,7 @@ export default {
           'A americanos independentes em Portugal que precisam de perceber onde pagar social security contributions.',
           'A trabalhadores temporariamente destacados dos EUA para Portugal ou de Portugal para os EUA, para não pagarem contribuições nos dois sistemas.'
         ] },
-        { kind: 'paragraph', text: 'Se já tiver 40 US credits, os períodos portugueses normalmente não aumentam a pensão americana. Mas podem ser importantes para a pensão portuguesa: em Portugal, o prazo de garantia contributivo mínimo normal para a old-age pension é de 15 anos de contribuições, e a normal pension age em 2026 é de 66 anos e 7 meses.' }
+        { kind: 'paragraph', text: 'Se já tiver 40 US credits, os períodos portugueses normalmente não aumentam a pensão americana. Mas podem ser importantes para a pensão portuguesa: em Portugal, o prazo de garantia contributivo mínimo normal para a old-age pension é de 15 anos de contribuições, e a normal pension age em 2026 é de 66 anos e 9 meses.' }
       ]
     },
     {
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

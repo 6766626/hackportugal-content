@@ -145,6 +145,6 @@ export default {
     { title: 'Generali Tranquilidade — seguros de saúde and rede AdvanceCare', url: 'https://www.generali.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ASF — supervision of the Portugal insurance market', url: 'https://www.asf.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

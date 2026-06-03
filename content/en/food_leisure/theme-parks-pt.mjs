@@ -3,7 +3,7 @@ export default {
   id: 'theme-parks-pt',
   categoryId: 'food_leisure',
   title: 'Theme parks and amusement parks in Portugal (2026)',
-  tldr: 'Portugal’s main theme parks: KidZania (UBBO, Lisbon) — a children’s “city of professions” for ages 3–15, €24.50 / child; Dino Parque Lourinhã — life-sized dinosaurs, €16 adult / €12 children aged 4–12; Magikland (Penafiel, Northern Portugal) — an amusement park with roller coasters, €19 / €12.50; Sea Life Porto — an oceanarium on Foz beach. Zoomarine Algarve (separate from water parks) — a marine park with dolphins, shows and rides. Buying online gives a 10% discount. Most operate all year round; in summer — extended hours.',
+  tldr: 'Portugal’s main theme parks: KidZania (UBBO, Lisbon) — a children’s “city of professions” for ages 3–15, €24.50 / child; Dino Parque Lourinhã — life-sized dinosaurs, €16 adult / €12 children aged 4–12; Magikland (Penafiel, Northern Portugal) — an amusement park with roller coasters, from €22.50 / from €14; Sea Life Porto — an oceanarium on Foz beach. Zoomarine Algarve (separate from water parks) — a marine park with dolphins, shows and rides. Buying online gives a 10% discount. Most operate all year round; in summer — extended hours.',
   tags: ['theme park', 'children', 'rides', 'kidzania'],
   estimatedReadMinutes: 7,
   steps: [
@@ -26,7 +26,7 @@ export default {
       id: 'kidzania',
       title: 'KidZania Lisboa — a “city of professions” for children',
       content: [
-        { kind: 'paragraph', text: 'The main idea: children play the role of adults. Professions include firefighter, doctor, journalist, pilot, banker, chef and actor. They “earn” the local currency, kidZos, and can “spend” it in the shops inside the park. Age range — 3-15 years; the youngest (3-4) go with an accompanying adult, children aged 5-15 go independently, while parents wait in the lounge area (with Wi-Fi and a café).' },
+        { kind: 'paragraph', text: 'The main idea: children play the role of adults. Professions include firefighter, doctor, journalist, pilot, banker, chef and actor. They “earn” the local currency, kidZos, and can “spend” it in the shops inside the park. Age range — 3-15 years; children under 8 must be accompanied by an adult, while from age 8 a child can explore the park independently (an adult still has to drop them off and pick them up), and parents wait in the lounge area (with Wi-Fi and a café).' },
         { kind: 'checklist', items: [
           '📍 UBBO (formerly Dolce Vita Tejo), Amadora — on the blue metro line (Amadora Este station), free parking',
           '💶 Children aged 5–15: €24.50',
@@ -65,10 +65,10 @@ export default {
         { kind: 'paragraph', text: 'The largest “classic” amusement park in northern Portugal. Carousels, roller coasters, water rides, shows and karting. Located in Penafiel (~40 km from Porto). Open seasonally, mainly spring-autumn.' },
         { kind: 'checklist', items: [
           '📍 Magikland, Penafiel (Porto district)',
-          '💶 Adults aged 13–64: €19',
-          '💶 Children aged 4–12: €12.50',
-          '💶 Seniors aged 65–75: €15',
-          '💶 Children aged 0–3 and seniors 76+ — free',
+          '💶 Adults aged 13–64: from €22.50 (higher at peak summer)',
+          '💶 Children aged 3–12: from €14',
+          '💶 Seniors aged 65–75: from €17',
+          '💶 Children under 2 and seniors 76+ — free',
           '🎢 Access to all rides included (unlimited rides)',
           '⏱️ Time needed for a visit: 4–6 hours',
           '🚗 Free parking'
@@ -82,9 +82,9 @@ export default {
         { kind: 'paragraph', text: 'One of Portugal’s two large oceanariums (the other is Oceanário de Lisboa, see the separate guide). 31 tanks with marine life: reef sharks, rays, seahorses and tropical fish. Smaller than Oceanário, but more convenient in location (on Foz do Douro beach).' },
         { kind: 'checklist', items: [
           '📍 1. Praça Gonçalves Zarco, 4100-274 Porto (Foz beach, terminus of bus 500 from the centre)',
-          '💶 Adults: ~€17 ticket office / ~€14 online',
-          '💶 Children aged 3–11: ~€12 ticket office / ~€10 online',
-          '💶 Children aged 0–2: free',
+          '💶 Adults (15+): ~€19 online (basic ticket), more at the door',
+          '💶 Children aged 2–14: ~€14 online',
+          '💶 Children under 2: free',
           '🕐 Open daily, usually 10:00-18:00',
           '🌊 Can be combined with a walk along Foz beach or a trip to Matosinhos'
         ]},
@@ -98,10 +98,10 @@ export default {
         { kind: 'paragraph', text: 'A unique park in Albufeira: a mix of zoo (marine animals), water park (pools and slides), amusement park (4D cinema, carousels) and shows. The dolphin show is the main highlight, but ASAE critics: the programme has been modernised, dolphins do not perform forced tricks, and there is a “trainer interaction” programme.' },
         { kind: 'checklist', items: [
           '📍 N125, KM65, 8201-864 Guia, Albufeira',
-          '💶 Adults: ~€36 ticket office',
-          '💶 Children aged 4–10: ~€26',
-          '💶 Children aged 0–3: free',
-          '🐬 “Dolphin Emotions” programme (entering the water with dolphins): extra fee ~€150-200 (by appointment)',
+          '💶 Adults (11–64): €32 at the ticket office (low season) / €41 (June-September); cheaper online — from ~€29',
+          '💶 Junior/Senior (≥1 m tall, ages 1–10, and 65+): €22 at the ticket office / €31 in summer',
+          '💶 Children under 1 m tall: free',
+          '🐬 “Dolphin Emotions” programme (entering the water with dolphins, ages 6+): extra fee from ~€103 (by appointment)',
           '🗓️ Open March-November, best time — June-September',
           '🏖️ Can be combined with Albufeira beach'
         ]},
@@ -125,9 +125,9 @@ export default {
   costs: [
     { label: 'KidZania — child aged 5–15', amountEUR: 24.5 },
     { label: 'Dino Parque — adult', amountEUR: 16 },
-    { label: 'Magikland — adult', amountEUR: 19 },
-    { label: 'Sea Life Porto — adult online', amountEUR: 14 },
-    { label: 'Zoomarine — adult', amountEUR: 36 }
+    { label: 'Magikland — adult', amountEUR: 22.5 },
+    { label: 'Sea Life Porto — adult online', amountEUR: 19 },
+    { label: 'Zoomarine — adult (ticket office, low season)', amountEUR: 32 }
   ],
   sources: [
     { title: 'KidZania Lisboa — official website', url: 'https://lisboa.kidzania.com/pt-pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
@@ -136,7 +136,7 @@ export default {
     { title: 'CM Penafiel — Magikland (municipal page)', url: 'https://www.cm-penafiel.pt/visitar/como-chegar/o-que-fazer/magikland-parque-de-diversoes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Visit Portugal — attractions and parks', url: 'https://www.visitportugal.com/en/experiencias/diversao-em-familia', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: theme parks in Portugal — KidZania (Lisbon), Dino Parque (Lourinhã), Magikland (Penafiel), Sea Life (Porto), Zoomarine (Algarve) + lesser-known parks. Verified 2026 prices, age categories and lifehacks.'

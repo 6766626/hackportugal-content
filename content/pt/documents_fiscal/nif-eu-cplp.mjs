@@ -33,7 +33,7 @@ export default {
       title: 'Cidadãos da CPLP — importante',
       audience: { citizenships: ['cplp'] },
       content: [
-        { kind: 'paragraph', text: 'Se estiver em Portugal ao abrigo do Acordo de Mobilidade da CPLP, pode obter o NIF logo após a entrada. Para cidadãos brasileiros, é especialmente conveniente, uma vez que não é exigido visto até 90 dias e é possível requerer a autorização de residência dentro do país.' },
+        { kind: 'paragraph', text: 'O próprio NIF não depende do estatuto migratório: pode obtê-lo nas Finanças logo após a entrada. Para cidadãos brasileiros, a entrada é mais simples, uma vez que não é exigido visto para estadas curtas até 90 dias. Tenha presente, porém, que, após a Lei 61/2025, já não é possível requerer a autorização de residência CPLP dentro do país após uma entrada sem visto — é necessário um visto de residência obtido no consulado antes da entrada.' },
         { kind: 'warning', text: 'A Lei 61/2025 (entrou em vigor em 23.10.2025) tornou mais rigorosas as regras de entrada para cidadãos da CPLP, excepto Brasil: agora é exigido visto CPLP no consulado antes da entrada. A excepção aplica-se apenas a cidadãos brasileiros (entrada sem visto por 90 dias).\n\nConfirme os requisitos actualizados em vistos.mne.gov.pt.' }
       ]
     }
@@ -53,6 +53,6 @@ export default {
     { title: 'Lei n.º 61/2025 — alterações CPLP (DRE)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Vistos MNE — CPLP', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

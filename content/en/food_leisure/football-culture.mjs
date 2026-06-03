@@ -16,7 +16,7 @@ export default {
             { kind: 'paragraph', text: 'Founded in 1904. The most decorated club — 38 Portuguese championships. Estádio da Luz (64,642 seats) in Lisbon. Colours — red and white. Mascot — the eagle Vítor. Anthem — “Ser Benfiquista”. Hundreds of thousands of sócios; Benfica has claimed a Guinness record for the number of football club members — it is best to check the current figure on slbenfica.pt.' }
           ]},
           { id: 'p1', title: 'FC Porto', content: [
-            { kind: 'paragraph', text: 'Founded in 1893. 30 championships. Estádio do Dragão (50,033 seats).\n\nColours — blue and white. Mascot — the dragon. The most successful Portuguese club in European competitions: winner of the European Cup/Champions League in 1987 and 2004, the UEFA Cup/Europa League, the UEFA Super Cup and the Intercontinental Cup.' }
+            { kind: 'paragraph', text: 'Founded in 1893. 31 championships. Estádio do Dragão (50,033 seats).\n\nColours — blue and white. Mascot — the dragon. The most successful Portuguese club in European competitions: winner of the European Cup/Champions League in 1987 and 2004, the UEFA Cup/Europa League, the UEFA Super Cup and the Intercontinental Cup.' }
           ]},
           { id: 's1', title: 'Sporting CP (Lisbon)', content: [
             { kind: 'paragraph', text: 'Founded in 1906. 21 championships. Estádio José Alvalade (50,095 seats).\n\nColours — green and white, striped. Mascot — the lion. Alma de Leão. The Alcochete academy is one of the best in the world: it produced Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa.' }
@@ -32,7 +32,7 @@ export default {
           '🔥 O Clássico — Benfica versus FC Porto. Portugal’s biggest match. 2–3 times per season (Liga + Taça)',
           '🔥 Derby de Lisboa — Benfica versus Sporting. The capital-city rivalry. The city splits into red and green',
           '🔥 FC Porto versus Sporting — another clássico between clubs from Três Grandes. And the Derby da Invicta is FC Porto versus Boavista',
-          '🔥 Derby Eterno / Dérbi de Lisboa — Benfica versus Sporting, the historic Lisbon rivalry'
+          '🔥 Dérbi do Minho — SC Braga versus Vitória SC (Guimarães). The country’s oldest derby and the fiercest outside the Três Grandes'
         ]},
         { kind: 'paragraph', text: 'On derby days, there are crowds in the streets, buses full of fans, and televisions on in every café. TV commentators and supporters get very emotional.' }
       ]
@@ -126,6 +126,6 @@ export default {
     { title: 'FC Porto', url: 'https://www.fcporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Sporting CP', url: 'https://www.sporting.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

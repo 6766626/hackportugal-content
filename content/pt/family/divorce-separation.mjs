@@ -163,7 +163,7 @@ export default {
           '⚠️ Responsabilidades parentais internacionais (um progenitor muda-se para fora): ao abrigo da Convenção da Haia pode haver procedimento por rapto de criança se a saída ocorrer sem consentimento',
           '⚠️ Ocultação de rendimento através de despedimento: por vezes um progenitor deixa de trabalhar para evitar a pensão de alimentos — o tribunal pode imputar rendimento',
           '⚠️ Mediação (Sistema de Mediação Familiar / DGPJ): pode ser útil e pode ser recomendada/encaminhada, mas não é uma condição prévia obrigatória geral para o divórcio. Confirme a tarifa na tabela DGPJ actual',
-          '⚠️ Saúde mental: 60% das pessoas após o divórcio sofrem depressão clínica nos primeiros 6 meses — procure apoio com antecedência'
+          '⚠️ Saúde mental: o divórcio é um grande fator de stress e, nos primeiros meses, muitas pessoas sofrem de ansiedade ou depressão — não adie a procura de apoio'
         ]}
       ]
     }
@@ -181,6 +181,6 @@ export default {
     { title: 'Reg. (UE) 1259/2010 — Rome III (applicable law for divorce)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R1259', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Reg. (UE) 2019/1111 — Brussels II ter (jurisdiction/recognition)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R1111', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

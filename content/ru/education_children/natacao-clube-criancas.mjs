@@ -18,7 +18,7 @@ export default {
           'Муниципальные бассейны дешевле, но запись ограничена и зависит от freguesia/município',
           'Частные школы дороже, зато чаще есть гибкие расписания и маленькие группы',
           'Клуб FPN нужен для спортивной траектории: treino regular, соревнования, licença desportiva',
-          'Для детей без португальского языка плавание обычно проходит легче, чем командные виды спорта: тренер показывает упражнения жестами',
+          'Для детей без португальского языка плавание обычно даётся легче, чем командные виды спорта: тренер показывает упражнения жестами',
           'В Лиссабоне, Порту, Cascais, Oeiras, Braga, Coimbra места на субботу утром заканчиваются быстрее всего'
         ] }
       ]
@@ -122,6 +122,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — desporto и piscinas municipais', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal do Porto — piscinas municipais и atividades aquáticas', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

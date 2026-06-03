@@ -21,7 +21,7 @@ export default {
           'IBAN, если хотите débito direto',
           'Última leitura / текущие показания счётчика — полезно, но не всегда обязательно',
           'Понимание своего тарифа: simples, bi-horário или tri-horário',
-          'Понимание potência contratada: например 3,45 kVA, 4,6 kVA, 6,9 kVA'
+          'Понимание potência contratada: например, 3,45 kVA, 4,6 kVA, 6,9 kVA'
         ] }
       ]
     },
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

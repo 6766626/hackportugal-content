@@ -3,7 +3,7 @@ export default {
   id: 'vhf-radio-marinha-cep',
   categoryId: 'food_leisure',
   title: 'Rádio marítimo VHF — licença CEP e certificado de operador',
-  tldr: 'Se tiver uma estação de rádio VHF a bordo (ou se estiver a planear instalar uma), são necessários dois documentos: 1) Licença de Estação (CEP) da DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos — autoridade marítima) para a própria estação de rádio, pedida através do portal www.bmar.pt — 30–80 € por ano; 2) Certificado de Operador (SRC/LRC) — autorização pessoal para operar no ar, na prática a “carta” de operador. SRC (Short Range Certificate) — para VHF junto à costa, exame 80–150 €. LRC (Long Range Certificate) — para DSC e comunicações por satélite/de longo alcance. Sem estes documentos, operar em frequências marítimas é uma infracção, com coimas até 2 000 €. O canal de emergência 16 deve ser mantido em escuta permanente quando o VHF está ligado. Certificados estrangeiros RYA SRC, ICC VHF e UKHO são reconhecidos.',
+  tldr: 'Se tiver uma estação de rádio VHF a bordo (ou se estiver a planear instalar uma), são necessários dois documentos: 1) Licença de Estação (CEP) da DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos — autoridade marítima) para a própria estação de rádio, pedida através do portal www.bmar.pt — taxa única de 88,80 € por banda de frequências; 2) Certificado de Operador (SRC/LRC) — autorização pessoal para operar no ar, na prática a “carta” de operador. SRC (Short Range Certificate) — para VHF junto à costa, exame 80–150 €. LRC (Long Range Certificate) — para DSC e comunicações por satélite/de longo alcance. Sem estes documentos, operar em frequências marítimas é uma infracção, com coimas para pessoas singulares até 3 740 €. O canal de emergência 16 deve ser mantido em escuta permanente quando o VHF está ligado. Certificados estrangeiros RYA SRC e ICC VHF são reconhecidos.',
   tags: ['vhf', 'radio', 'anacom', 'src', 'navegacao'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,8 +32,8 @@ export default {
           'Será necessário: registo do barco, dados do VHF (modelo, número de série, existência de DSC), MMSI',
           'MMSI (Maritime Mobile Service Identity) — identificador obrigatório de 9 dígitos para DSC',
           'O MMSI é tratado através da DGRM e é gratuito ao pedir a CEP',
-          'Custo da CEP: 30–80 € por ano (depende da categoria da embarcação)',
-          'Renovação: anual; o pagamento pode ser feito por Multibanco (pagamento por caixa automático/online) ou MB WAY (serviço de pagamento móvel)'
+          'Custo da CEP: taxa única de 88,80 € por cada banda de frequências licenciada (para embarcação de recreio)',
+          'Para embarcações de recreio a licença não tem prazo de validade (Decreto-Lei 93/2018) — não é necessária renovação anual; o pagamento pode ser feito por Multibanco (pagamento por caixa automático/online) ou MB WAY (serviço de pagamento móvel)'
         ] },
         { kind: 'paragraph', text: 'Se mudar de barco, a CEP não é transferível — deve pedir uma nova.' }
       ]
@@ -145,7 +145,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'CEP — licença da estação', amountEURMin: 30, amountEURMax: 80, note: 'Por ano' },
+    { label: 'CEP — licença da estação', amountEUR: 88.8, note: 'Taxa única por banda de frequências; sem prazo de validade para embarcações de recreio' },
     { label: 'Atribuição de MMSI', amountEUR: 0, note: 'Gratuito com a CEP' },
     { label: 'Curso SRC', amountEURMin: 100, amountEURMax: 200 },
     { label: 'Exame SRC', amountEURMin: 30, amountEURMax: 80 },
@@ -159,8 +159,9 @@ export default {
     { title: 'DGRM — Certificação profissional (certificado de operador radiotelefonista)', url: 'https://www.dgrm.pt/certificacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'ANACOM — Radiocomunicações marítimas (espetro)', url: 'https://www.anacom.pt/render.jsp?categoryId=387625', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 53/2009 — radiocomunicações', url: 'https://dre.pt/dre/detalhe/decreto-lei/53-2009-606037', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 93/2018 — náutica de recreio (licença de estação, art. 51.º)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-117038233', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Regulamento das Radiocomunicações da ITU', url: 'https://www.itu.int/pub/R-REG-RR', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

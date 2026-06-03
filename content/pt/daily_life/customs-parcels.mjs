@@ -18,7 +18,8 @@ export default {
           '📦 Comercial > 150 €: IVA + direitos aduaneiros (0–17 % conforme o código HS)',
           '📄 Qualquer encomenda com mercadorias proveniente de países fora da UE deve ser declarada através do IOSS ou como importação',
           '🌍 Taxas regionais de IVA: Madeira e Açores têm as suas próprias taxas normais (Açores — 16% standard, Madeira — 22% standard em 2026; confirme os valores actualizados)',
-          '🍷 Excise duties (IEC): álcool, tabaco, energy products — para além do IVA. O perfume NÃO é um harmonised excise good na EU; para perfume aplicam-se duty/VAT normais, sem excise'
+          '🍷 Excise duties (IEC): álcool, tabaco, energy products — para além do IVA. O perfume NÃO é um harmonised excise good na EU; para perfume aplicam-se duty/VAT normais, sem excise',
+          '⏳ No horizonte: a UE acordou eliminar o limiar de isenção de direitos de 150 € para encomendas de e-commerce. Estão previstas medidas transitórias (incluindo uma taxa de processamento) durante 2026, mas em maio de 2026 o limiar de 150 € ainda se aplica'
         ]}
       ]
     },
@@ -116,6 +117,6 @@ export default {
     { title: 'CTT — Encomendas do estrangeiro', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Importar bens de países fora da UE', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

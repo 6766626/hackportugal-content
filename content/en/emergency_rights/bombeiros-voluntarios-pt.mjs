@@ -3,7 +3,7 @@ export default {
   id: 'bombeiros-voluntarios-pt',
   categoryId: 'emergency_rights',
   title: 'Bombeiros Voluntários: when to call and how much it costs',
-  tldr: 'In Portugal, 469 corporações de bombeiros voluntários are not a “private fire service”, but part of the civil protection system. In case of fire, road accident, gas leak, fainting, stroke, injury or any threat to life, call 112: emergency response for the public is free. You call the quartel dos bombeiros directly for non-emergency services: transporte de doentes não-urgente usually costs €40–80 locally, while event standby and safety support are charged according to the rates of the specific corporação.',
+  tldr: 'In Portugal, around 435 corpos de bombeiros voluntários are not a “private fire service”, but part of the civil protection system. In case of fire, road accident, gas leak, fainting, stroke, injury or any threat to life, call 112: emergency response for the public is free. You call the quartel dos bombeiros directly for non-emergency services: transporte de doentes não-urgente usually costs €40–80 locally, while event standby and safety support are charged according to the rates of the specific corporação.',
   tags: ['112', 'bombeiros', 'emergency', 'transport'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Who the Bombeiros Voluntários are',
       content: [
         { kind: 'paragraph', text: 'Bombeiros Voluntários are volunteer fire brigades operating through local associações humanitárias. They put out fires, attend road accidents, rescue people, help during floods, landslides, storms and gas leaks, and provide first aid before handing the patient over to SNS/INEM.' },
-        { kind: 'paragraph', text: 'As of 2026, Portugal has around 469 corporações de bombeiros voluntários. Almost every concelho has its own quartel, but emergency calls are still routed through 112 and the Centro de Orientação de Doentes Urgentes/civil protection operators.' },
+        { kind: 'paragraph', text: 'As of 2026, Portugal has around 435 corpos de bombeiros voluntários (and roughly 470 fire corps in total, counting municipal and professional ones). Almost every concelho has its own quartel, but emergency calls are still routed through 112 and the Centro de Orientação de Doentes Urgentes / civil protection operators.' },
         { kind: 'checklist', items: [
           'Fires in a flat, house, forest, garage or car',
           'Road accidents, trapped people, overturned vehicle',
@@ -135,6 +135,6 @@ export default {
     { title: 'ANEPC — Autoridade Nacional de Emergência e Proteção Civil', url: 'https://prociv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — medical emergency and use of 112', url: 'https://www.sns24.gov.pt/guia/emergencia-medica/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

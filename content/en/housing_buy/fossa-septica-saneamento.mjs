@@ -3,7 +3,7 @@ export default {
   id: 'fossa-septica-saneamento',
   categoryId: 'housing_buy',
   title: 'Septic tank (fossa séptica) — rules, distances, permits',
-  tldr: 'If a house is not connected to the public sewerage network, autonomous wastewater treatment is needed.\n\nIn Portugal this is either a classic septic tank (fossa séptica) with a soakaway, or a modern compact mini biological treatment plant, ETAR. Capacity: ~3 m³ for 4–5 residents. Minimum distances: ≥30 m from a borehole/well, ≥10 m from neighbouring houses, ≥5 m from the plot boundary. Installation requires a design by an engineer, permission from the Câmara Municipal (municipality), an inspection after installation, and permission to put it into use (licença de utilização)\.\n\nPrice: classic septic tank €1,500-4,000, ETAR €5,000-15,000. Emptying by a cesspit tanker every 1–3 years (€80-200).',
+  tldr: 'If a house is not connected to the public sewerage network, autonomous wastewater treatment is needed.\n\nIn Portugal this is either a classic septic tank (fossa séptica) with a soakaway, or a modern compact mini biological treatment plant, ETAR. Capacity: ~3 m³ for 4–5 residents. Minimum distances: ≥30 m from a borehole/well, ≥10 m from neighbouring houses, ≥5 m from the plot boundary. Installation requires a design by an engineer, permission from the Câmara Municipal (municipality), an inspection after installation, and permission to put it into use (licença de utilização).\n\nPrice: classic septic tank €1,500-4,000, ETAR €5,000-15,000. Emptying by a cesspit tanker every 1–3 years (€80-200).',
   tags: ['septic', 'tank', 'sewerage', 'etar', 'wastewater'],
   estimatedReadMinutes: 6,
   steps: [
@@ -47,7 +47,7 @@ export default {
       id: 'distances',
       title: 'Minimum distances',
       content: [
-        { kind: 'paragraph', text: 'Correct to: “The basic rules for network design are in Decreto Regulamentar 23/95 (Regulamento Geral dos Sistemas Públicos e Prediais de Distribuição de Água e de Drenagem de Águas Residuais). But for autonomous treatment, the municipal regulamento de saneamento, RJUE and the water resources regime are also important: Lei da Água / DL 226-A/2007, especially if there is discharge or infiltration”.' },
+        { kind: 'paragraph', text: 'The basic rules for network design are set by Decreto Regulamentar 23/95 (Regulamento Geral dos Sistemas Públicos e Prediais de Distribuição de Água e de Drenagem de Águas Residuais). But for autonomous treatment, the municipal regulamento de saneamento, the RJUE and the water resources regime also matter: Lei da Água / DL 226-A/2007, especially if there is discharge or infiltration.' },
         { kind: 'checklist', items: [
           'From a borehole/well: ≥ 30 m (often 50 m in public water abstraction zones)',
           'From the foundations of neighbouring houses: ≥ 10 m',
@@ -82,7 +82,7 @@ export default {
             id: 's2',
             title: 'Obtaining permission from the Câmara Municipal',
             content: [
-              { kind: 'paragraph', text: 'Write: “Submission is made through the balcão urbanístico/online services of the specific Câmara Municipal or in person; the platform name depends on the municipality. For APA/ARH licences, SILiAmb is used”. The following are submitted:' },
+              { kind: 'paragraph', text: 'Submission is made through the balcão urbanístico / online services of the specific Câmara Municipal, or in person; the platform name depends on the municipality. For APA/ARH licences, SILiAmb is used. The following are submitted:' },
               { kind: 'checklist', items: [
                 'Caderneta predial (property tax record extract)',
                 'Sewerage design + explanatory report (memorial descritivo)',
@@ -110,7 +110,7 @@ export default {
             id: 's4',
             title: 'Inspection and permission to put into use',
             content: [
-              { kind: 'paragraph', text: 'After installation, the Câmara Municipal may send an inspector to check compliance with the design. Rewrite: “After the works, the construction/legalisation procedure must be closed with the Câmara and the applicable documents obtained/kept: projetos, termos de responsabilidade, comprovativos de comunicação/licenciamento, ficha técnica/elementos urbanísticos. Banks, AL and buyers may require proof of the legality and compliance of the property, but the form of the document depends on the procedure and date”.' }
+              { kind: 'paragraph', text: 'After installation, the Câmara Municipal may send an inspector to check compliance with the design. After the works, the construction or legalisation procedure must be closed with the Câmara, and the applicable documents obtained and kept: projetos, termos de responsabilidade, comprovativos de comunicação/licenciamento, ficha técnica and elementos urbanísticos. Banks, Alojamento Local platforms and buyers may require proof of the legality and compliance of the property, but the form of the document depends on the procedure and the date.' }
             ]
           }
         ] }
@@ -142,9 +142,9 @@ export default {
           'ETAR is mandatory (a classic septic tank is not enough)',
           'Capacity calculation based on the maximum number of guests — usually with a 1.5x safety margin',
           'A maintenance contract is mandatory',
-          'Replace with: “The municipality may carry out AL inspections, and the autoridade de saúde may intervene where there are sanitary risks or following a request/complaint. The frequency and scope of inspections depend on the municipality and the specific licence/project”.',
-          'If there are problems — the AL licence is suspended until they are resolved',
-          'Write: “In sensitive areas, near águas balneares, water abstractions or where there is reutilização da água, APA/ARH or Câmara may require additional disinfection, including UV, but this is determined in the design and licence conditions”.'
+          'The municipality may carry out Alojamento Local inspections, and the autoridade de saúde (health authority) may intervene where there are sanitary risks or following a complaint. The frequency and scope of inspections depend on the municipality and the specific licence or project',
+          'If there are problems, the Alojamento Local licence is suspended until they are resolved',
+          'In sensitive areas — near águas balneares (bathing waters), water abstractions, or where there is reutilização da água (water reuse) — APA/ARH or the Câmara may require additional disinfection, including UV; this is determined in the design and licence conditions'
         ] }
       ]
     },
@@ -154,10 +154,9 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Municipal subsidies for replacing a classic septic tank with an ETAR — ask your municipality, especially in the Algarve and Alentejo',
-          'Tax deduction in IRS (income tax) for repairs to the main home: 30% up to €1,500/year',
-          'Replace with: “Check the specific avisos with the Câmara, entidade gestora de águas/saneamento, CCDR/Portugal 2030/PRR. A permanent national subsidy for private septic tank installation under such a name should not be cited without a current aviso”.',
-          'Write: “There are sometimes Fundo Ambiental/APA/CCDR/municipality avisos for water protection or environmental projects, but they are not permanent and usually have narrow criteria. Check currently open avisos”.',
-          'Delete this item. If a practical tip needs to remain: “Contractors sometimes offer comprehensive works packages, but CER itself is not a sewerage subsidy programme”.'
+          'The IRS (income tax) deduction exists only for certified urban rehabilitation (ARU zones): 30%, capped at €500 per household. An ordinary septic tank installation does not qualify',
+          'Check the specific avisos (calls for applications) with the Câmara, entidade gestora de águas/saneamento, CCDR/Portugal 2030/PRR. There is no permanent national subsidy specifically for private septic tank installation — do not rely on one without a current aviso',
+          'Fundo Ambiental / APA / CCDR / municipality avisos for water protection or environmental projects do appear from time to time, but they are not permanent and usually have narrow criteria — check the avisos open at the time'
         ] }
       ]
     },
@@ -191,6 +190,6 @@ export default {
     { title: 'Decree-Law 152/97 — urban wastewater treatment', url: 'https://dre.pt/dre/detalhe/decreto-lei/152-1997-217470', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ERSAR — Water and Waste Services Regulatory Authority', url: 'https://www.ersar.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

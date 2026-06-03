@@ -20,7 +20,8 @@ export default {
           'Em 2026, o registo civil português funciona com marcadores binários: feminino / masculino; não existe marcador X / não binário separado no Cartão de Cidadão e no passaporte',
           'Após o registo no Registo Civil, é necessário substituir separadamente os documentos: Cartão de Cidadão, passaporte, carta de condução, registos fiscais e médicos'
         ] },
-        { kind: 'warning', text: 'Se você não for cidadão português, a Conservatória normalmente não “reescreve” a sua certidão de nascimento estrangeira. Para a maioria dos residentes, o caminho tem dois passos: primeiro alterar os documentos no país de nacionalidade e depois actualizar os registos portugueses com base nos novos documentos estrangeiros.' }
+        { kind: 'warning', text: 'Se você não for cidadão português, a Conservatória normalmente não “reescreve” a sua certidão de nascimento estrangeira. Para a maioria dos residentes, o caminho tem dois passos: primeiro alterar os documentos no país de nacionalidade e depois actualizar os registos portugueses com base nos novos documentos estrangeiros.' },
+        { kind: 'warning', text: 'Importante: em março de 2026, o Parlamento aprovou na generalidade uma revisão deste regime — podendo voltar a exigir atestado médico também para adultos. No final de maio de 2026 o diploma ainda está em especialidade: não houve votação final, promulgação nem publicação no Diário da República, pelo que continuam a aplicar-se as regras actuais da Lei 38/2018. Confirme a versão em vigor da lei antes de apresentar o pedido.' }
       ]
     },
     {
@@ -161,6 +162,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

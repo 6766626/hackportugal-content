@@ -57,7 +57,7 @@ export default {
           'Save the correspondence, listing, phone number, NIF/name from the recibo, if the seller is willing to provide it',
           'After purchase, take your own photos of the number, frame and components and store them in the cloud'
         ] },
-        { kind: 'paragraph', text: 'For an expensive purchase, ask for a simple recibo de compra e venda date, price, seller’s name, document/NIF if the parties wish, brand, model, colour, serial number, signatures. It is not a notarial deed, but it is much better than cash with no trace.' }
+        { kind: 'paragraph', text: 'For an expensive purchase, ask for a simple recibo de compra e venda: date, price, seller’s name, document/NIF if the parties wish, brand, model, colour, serial number, signatures. It is not a notarial deed, but it is much better than cash with no trace.' }
       ]
     },
     {
@@ -128,6 +128,6 @@ export default {
     { title: 'Custojusto Portugal — private classifieds board', url: 'https://www.custojusto.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Vinted Portugal — buying rules and protection inside the platform', url: 'https://www.vinted.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

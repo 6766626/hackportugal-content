@@ -3,7 +3,7 @@ export default {
   id: 'via-verde-full',
   categoryId: 'auto_trips',
   title: 'Via Verde (sistema de pagamento eletrónico de portagens) — guia completo para pagar portagens em Portugal',
-  tldr: 'A Via Verde é o pagamento eletrónico de portagens através de um transponder (identificador). Subscrição a partir de 5 € de ativação + 1,75 €/mês. Alternativa — pós-pagamento através de portagens.ctt.pt ou terminais CTT/Payshop: para matrículas portuguesas, o pagamento fica normalmente disponível cerca de 48 horas após a passagem e é válido durante 15 dias úteis. Atraso → a dívida passa para cobrança administrativa: coima fixa por contraordenação (intervalo conforme tabela, não «25× o valor da portagem»), mais % por falta de pagamento.\n\nIMPORTANTE: desde 01.01.2025 foram abolidas as portagens na A22, A23, A24, A25, em partes da A28, A4, A13. O «bloqueio automático do DUA» NÃO é uma consequência padrão.',
+  tldr: 'A Via Verde é o pagamento eletrónico de portagens através de um transponder (identificador). Pode comprar o dispositivo (~45 € de uma só vez, mais barato com extrato eletrónico) ou alugá-lo a partir de ~1,04 €/mês. Alternativa — pós-pagamento através de portagens.ctt.pt ou terminais CTT/Payshop: para matrículas portuguesas, o pagamento fica normalmente disponível cerca de 48 horas após a passagem e é válido durante 15 dias úteis. Atraso → a dívida passa para cobrança administrativa: coima fixa por contraordenação (intervalo conforme tabela, não «25× o valor da portagem»), mais % por falta de pagamento.\n\nIMPORTANTE: desde 01.01.2025 foram abolidas as portagens na A22, A23, A24, A25, em partes da A28, A4, A13. O «bloqueio automático do DUA» NÃO é uma consequência padrão.',
   tags: ['via verde', 'portagens', 'estradas', 'automóvel', 'autoestradas'],
   estimatedReadMinutes: 7,
   steps: [
@@ -48,8 +48,8 @@ export default {
       title: 'Tarifas e subscrições',
       content: [
         { kind: 'checklist', items: [
-          '💶 Ativação do identificador: ~5–10 € uma única vez (com devolução da caução em caso de cancelamento)',
-          '💶 Mensalidade: ~1,75 €/mês por dispositivo',
+          '💶 Compra do identificador: ~45 € de uma só vez (~37,50 € com extrato eletrónico)',
+          '💶 Aluguer do dispositivo em vez da compra: a partir de ~1,04 €/mês (os planos «Mobilidade»/«Mobilidade Leve» custam mais) ou ~12,39 €/ano',
           '💶 Portagem — valor fixo por troços (por exemplo, Lisboa → Porto pela A1 ~22 €)',
           '💶 Via Verde Visitors: sem mensalidade, apenas % adicional',
           '🏷️ Descontos para veículos elétricos em algumas autoestradas',
@@ -110,8 +110,8 @@ export default {
     }
   ],
   costs: [
-    { label: 'Ativação do dispositivo', amountEURMin: 5, amountEURMax: 10, note: 'frequentemente reembolsável' },
-    { label: 'Mensalidade', amountEUR: 1.75, note: '€/mês' },
+    { label: 'Compra do dispositivo', amountEUR: 45, note: '~37,50 € com extrato eletrónico' },
+    { label: 'Aluguer do dispositivo (plano mínimo)', amountEUR: 1.04, note: '€/mês; mais nos planos Mobilidade' },
     { label: 'Coima por falta de pagamento de portagem', amountEURMin: 25, amountEURMax: 250, note: 'intervalo fixo por contraordenação; depende da portagem e das circunstâncias — valores exatos na notificação da IP/AT' },
     { label: 'Lisboa → Porto pela A1', amountEUR: 22 }
   ],
@@ -121,6 +121,6 @@ export default {
     { title: 'Infraestruturas de Portugal — portagens e concessões', url: 'https://www.infraestruturasdeportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — Regulamento de Portagens', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

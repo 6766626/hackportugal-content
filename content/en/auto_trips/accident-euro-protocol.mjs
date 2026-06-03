@@ -27,7 +27,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🚑 There are injured people (of any kind — even “just a bruise”)',
-          '💥 Material damage is clearly > €5,000 or infrastructure has been damaged',
+          '💥 Significant material damage or infrastructure has been damaged (there is no fixed legal threshold — call GNR/PSP whenever in doubt)',
           '⚖️ A driver is suspected of driving while intoxicated (alcohol/drugs)',
           '🚗 One of the parties has no documents or no insurance',
           '🏃 The at-fault driver left the scene of the road accident',
@@ -112,6 +112,6 @@ export default {
     { title: 'FGA — Fundo de Garantia Automóvel', url: 'https://www.fga.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

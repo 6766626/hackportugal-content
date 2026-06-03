@@ -80,7 +80,7 @@ export default {
       id: 'aima',
       title: '3. AIMA: residence permit holders — mandatory within 60 days',
       content: [
-        { kind: 'paragraph', text: 'If you have an autorização de residência / residence permit, you need to notify AIMA of the address change within 60 days. This is a separate obligation for foreigners under Lei 23/2007. Changing the address in Finanças alone does not guarantee that AIMA has received and recorded the new address.' },
+        { kind: 'paragraph', text: 'If you have an autorização de residência / residence permit, you need to notify AIMA of the address change within 60 days. This is a separate obligation for foreigners under Lei 23/2007 (Article 86). Changing the address in Finanças alone does not guarantee that AIMA has received and recorded the new address.' },
         { kind: 'checklist', items: [
           'Prepare a scan of the residence permit on both sides',
           'Passport',
@@ -155,7 +155,7 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Lei 23/2007: legal regime for the entry, stay and departure of foreigners, obligation to report an address',
+      title: 'Lei 23/2007 (Article 86): legal regime for the entry, stay and departure of foreigners, obligation to report an address within 60 days',
       url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34554775',
       kind: 'law',
       language: 'pt',
@@ -169,6 +169,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'parking-fine-municipal',
   categoryId: 'auto_ownership',
   title: 'Parking fines: EMEL in Lisbon, Porto and other municipalities',
-  tldr: 'In Portugal, municipalities manage paid parking, but fines are issued under the Código da Estrada. A typical fine for unpaid/expired parking in a metered zone is €30–150.\n\nIn Lisbon, notices often come from EMEL; in Porto — via Câmara Municipal do Porto/the municipal avença system; in other cities — via the Câmara or a concessionaire. Challenges usually start by following the instructions on the notice, while a formal defesa is submitted to ANSR within 15 working days after the official notification.',
+  tldr: 'In Portugal, municipalities manage paid parking, but fines are issued under the Código da Estrada. A typical fine for unpaid/expired parking in a metered zone is €30–150.\n\nIn Lisbon, notices often come from EMEL; in Porto — via Câmara Municipal do Porto/the municipal avença system; in other cities — via the Câmara or a concessionaire. Challenges usually start by following the instructions on the notice, while a formal defesa is submitted to the municipality (Câmara Municipal) within 15 working days after the official notification.',
   tags: ['parking', 'emel', 'porto', 'fines'],
   estimatedReadMinutes: 5,
   steps: [
@@ -49,7 +49,7 @@ export default {
           'If you have a dístico de residente, check whether it was valid specifically in this zona and for this matrícula.',
           'You can pay using the details on the notice if you accept the offence.',
           'If you believe it is a mistake, submit a reclamação/contestação through the channel indicated by EMEL and attach evidence.',
-          'When the official contraordenação notification arrives, the formal defence follows ANSR and Código da Estrada rules.'
+          'When the official contraordenação notification arrives, the formal defence (defesa) is submitted to the municipality — the entidade municipal competente (for Lisbon, the Câmara Municipal de Lisboa) — under Código da Estrada rules.'
         ] },
         { kind: 'warning', text: 'An EMEL dístico de residente does not give you the right to park anywhere in Lisbon. It is tied to a specific zone/conditions. A common expat mistake is moving to a neighbouring freguesia and continuing to use the old dístico.' }
       ]
@@ -74,7 +74,7 @@ export default {
       id: 'contest',
       title: 'How to challenge without missing deadlines',
       content: [
-        { kind: 'paragraph', text: 'A challenge is divided into two stages: an informal reclamação to the municipal service/concessionaire and a formal defesa in the contraordenação process. If the official notification has already arrived, use the 15-working-day deadline for defesa stated in the Código da Estrada as your guide.' },
+        { kind: 'paragraph', text: 'A challenge is divided into two stages: an informal reclamação to the municipal service/concessionaire and a formal defesa in the contraordenação process. For parking offences, the defence is submitted to the municipality (the entidade municipal competente, e.g. the Câmara Municipal de Lisboa), not to ANSR. If the official notification has already arrived, use the 15-working-day deadline for defesa stated in the Código da Estrada as your guide.' },
         { kind: 'checklist', items: [
           'Photograph the place: signs, road markings, parking meter, zone number, absence/illegibility of signs.',
           'Keep proof of payment: recibo, email, PDF from the app, card statement, MB WAY.',
@@ -83,7 +83,7 @@ export default {
           'If there was a residente permit/dístico/avença, attach proof that it was valid on the date of the offence.',
           'Write briefly in Portuguese: “Venho apresentar defesa/reclamação…” + facts + attachments.',
           'Send it through the channel on the notice: EMEL, municipal portal, ePorto/CMP, email, balcão or registered letter.',
-          'After an official ANSR notification, do not ignore the letter: silence usually ends in a decision and cobrança.'
+          'After an official notification, do not ignore the letter: silence usually ends in a decision and then enforced collection (cobrança) and surcharges via ANSR.'
         ] },
         { kind: 'warning', text: 'Voluntary payment of the minimum fine often closes the dispute as an admission of the offence. If you want to dispute it, first check whether the specific procedure allows payment as a depósito without admitting liability.' }
       ]
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

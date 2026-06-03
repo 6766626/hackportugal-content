@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'agua-quente-solar-obrigatorio',
   categoryId: 'housing_buy',
-  title: 'Replace with something like: "Hot water and renewable energy in new builds: when solar térmico is needed and what can replace it".',
-  tldr: 'Write: "Under the old DL 80/2006, for new buildings with suitable solar exposure, solar collectors for AQS or an equivalent renewable-energy solution were usually required; projects often used a high solar contribution to annual demand as a benchmark. Under the current DL 101-D/2020 regime, the requirement is framed through energy performance/SCE and the renewable-energy contribution, rather than as a universal obligation to install solar térmico specifically." In 2026, DL 80/2006 itself has already been replaced by the SCE regime and DL 101-D/2020, but the meaning remains: a new building must pass energy certification and demonstrate a renewable-energy contribution. For existing homes, installation is not mandatory, but incentivos may be available through the Fundo Ambiental under open avisos.',
+  title: 'Hot water and renewable energy in new builds: when solar térmico is needed and what can replace it',
+  tldr: 'Under the old DL 80/2006, for new buildings with suitable solar exposure, solar collectors for AQS or an equivalent renewable-energy solution were usually required; projects often used a high solar contribution to annual demand as a benchmark. Under the current DL 101-D/2020 regime, the requirement is framed through energy performance/SCE and the renewable-energy contribution, rather than as a universal obligation to install solar térmico specifically. In 2026, DL 80/2006 itself has already been replaced by the SCE regime and DL 101-D/2020, but the meaning remains: a new building must pass energy certification and demonstrate a renewable-energy contribution. For existing homes, installation is not mandatory, but incentives may be available through the Fundo Ambiental under open avisos.',
   tags: ['solar', 'hot-water', 'sce', 'housing'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What exactly is mandatory in a new home',
       content: [
         { kind: 'paragraph', text: 'Solar térmico is not solar panels for electricity, but collectors that heat domestic hot water: shower, kitchen, bathrooms. In Portuguese documents, look for the terms: sistemas solares térmicos, AQS — águas quentes sanitárias, depósito acumulador, apoio elétrico/gás/bomba de calor.' },
-        { kind: 'paragraph', text: 'Clarify: "Under the old RCCTE/DL 80/2006, this was a practical rule for new buildings with favourable exposure, with the possibility of justified exemptions or alternative renewable-energy solutions. The 70% figure is better presented as a historical/project benchmark, not as a current universal minimum for 2026."' },
+        { kind: 'paragraph', text: 'Under the old RCCTE/DL 80/2006, this was a practical rule for new buildings with favourable exposure, with the possibility of justified exemptions or alternative renewable-energy solutions. The 70% figure is best read as a historical project benchmark, not as a current universal minimum for 2026.' },
         { kind: 'warning', text: 'In 2026, DL 80/2006 is no longer the current base energy-efficiency regime: it was replaced by subsequent SCE rules, and the key act now is Decreto-Lei 101-D/2020. But when buying a new build, the meaning for the buyer is the same: the project must be compatible with the energy certificate and the requirements for renewable energy/AQS.' }
       ]
     },
@@ -29,7 +29,7 @@ export default {
           'Ask where the collectors are physically installed: roof, terrace, technical area; and whether there is access for maintenance.',
           'Ask for the manual de utilização e manutenção and the manufacturer’s warranty.',
           'Check whether the system is included in the escritura/caderneta predial as part of the building or whether it is condomínio equipment.',
-          'Write: "Photovoltaic by itself is not an AQS system: it produces electricity. But in a current SCE project, PV together with a bomba de calor/other equipment can be an alternative to solar térmico if the energy-performance calculation passes."',
+          'Remember: photovoltaics by itself is not an AQS system — it produces electricity. But in a current SCE project, PV together with a bomba de calor or other equipment can be an alternative to solar térmico if the energy-performance calculation passes.',
           'For a building after 2021, ask for confirmation that the project passed SCE under DL 101-D/2020 and the applicable portarias.'
         ] }
       ]
@@ -75,7 +75,7 @@ export default {
           'No access to the roof/technical area for the annual inspection.',
           'The warranty covers only installation, but not the collectors, pump, controller and tank.'
         ] },
-        { kind: 'paragraph', text: 'Write: "Request the projeto de especialidades, memória descritiva/caderno de encargos, telas finais or condomínio documents, Certificado Energético SCE, manual da instalação and warranties. It makes sense to ask for the Ficha técnica da habitação only if the property is old and such a ficha was issued before the regime was abolished." If buying off-plan, include the AQS specifications in the contrato-promessa.' }
+        { kind: 'paragraph', text: 'Request the projeto de especialidades, memória descritiva or caderno de encargos, telas finais or condomínio documents, Certificado Energético SCE, manual da instalação and warranties. It makes sense to ask for the Ficha técnica da habitação only if the property is old and such a ficha was issued before the regime was abolished. If buying off-plan, include the AQS specifications in the contrato-promessa.' }
       ]
     }
   ],
@@ -114,6 +114,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

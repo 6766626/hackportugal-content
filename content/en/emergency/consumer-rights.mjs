@@ -15,10 +15,10 @@ export default {
           { id: 'r1', title: 'Warranty on goods (Lei 84/2021)', content: [
             { kind: 'checklist', items: [
               '✅ New goods: 3-year warranty (previously 2 — changed in 2022)',
-              '✅ Second-hand goods: minimum 1 year; seller and buyer may agree a different period',
+              '✅ Second-hand goods: also 3 years by default; the parties may agree in writing to shorten it, but to no less than 18 months',
               '✅ The warranty covers LACK OF CONFORMITY defects — not wear and tear, not damage caused by the buyer',
               '🔁 In the event of a defect, the seller must offer: repair OR replacement OR a discount OR a refund',
-              '⏰ In the first 6 months, there is a presumption that the defect existed at the time of sale (burden of proof on the seller)',
+              '⏰ In the first 2 years, there is a presumption that the defect existed at the time of sale (burden of proof on the seller)',
               '📋 Keep the receipt (talão de compra) and packaging for the entire warranty period'
             ]}
           ]},
@@ -82,7 +82,7 @@ export default {
           { id: 'l4', title: 'Step 4 — Court / Julgados de Paz', content: [
             { kind: 'checklist', items: [
               '⚖️ Julgados de Paz: small claims up to €15,000 — faster than the ordinary court',
-              '💰 Court costs €70 (if the claim is ≤ €5,000) or €105 (>€5,000)',
+              '💰 Single fee of €70 (paid by the losing party); €50 if settled through mediation',
               '⏱️ Decision usually within 2-6 months',
               '🎓 A lawyer is not mandatory (for claims ≤ €3,740)',
               '🏛️ Addresses: julgadosdepaz.mj.pt'
@@ -170,8 +170,7 @@ export default {
   costs: [
     { label: 'Livro de Reclamações', amountEUR: 0, note: 'mandatory free of charge' },
     { label: 'DECO Proteste subscription', amountEURMin: 25, amountEURMax: 25, note: '€/month' },
-    { label: 'Julgados de Paz (≤ €5,000)', amountEUR: 70 },
-    { label: 'Julgados de Paz (€5,000-15,000)', amountEUR: 105 },
+    { label: 'Julgados de Paz — single fee', amountEUR: 70, note: '€50 if settled through mediation' },
     { label: 'Lawyer for a serious case', amountEURMin: 200, amountEURMax: 1500, note: '€ one-off' }
   ],
   sources: [
@@ -181,6 +180,6 @@ export default {
     { title: 'DL 24/2014 — Distance contracts', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Centro Europeu do Consumidor (ECC-Net Portugal)', url: 'https://cec.consumidor.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -35,7 +35,7 @@ export default {
               '🌐 Alternativa: online através da CMD em ePortugal.gov.pt',
               '📜 Documentos: Certidão de Óbito emitida pelo médico + Cartão de Cidadão do falecido + Cartão de Cidadão do declarante',
               '✅ Gratuito, se for feito no prazo de 48 horas',
-              '⚠️ Atraso >48 h = coima de 50–200 €',
+              '⚠️ Atraso >48 h = emolumentos adicionais, por vezes é necessária autorização do Ministério Público',
               '📜 Recebe o «Assento de Óbito»'
             ]}
           ]}
@@ -70,7 +70,7 @@ export default {
               '✝️ Missa católica: gratuita para paroquianos',
               '☪️ Cerimónia muçulmana: Mesquita Central de Lisboa',
               '✡️ Judaica: Comunidade Israelita',
-              '🛐 Ortodoxa: há serviços ortodoxos na igreja da Sé de Lisboa',
+              '🛐 Ortodoxa: Igreja Ortodoxa Russa em Lisboa',
               '🌐 Cerimónia civil: cada vez mais escolhida por estrangeiros'
             ]}
           ]}
@@ -164,7 +164,7 @@ export default {
           '🤝 Advogado de «direito sucessório» é indispensável se: houver imóveis >500 mil, estrangeiros, herdeiros em litígio',
           '⏱️ A declaração do Imposto do Selo é entregue até ao final do 3.º mês seguinte ao do óbito — falhar o prazo significa uma coima fixa de 150–3 750 € (RGIT art. 117.º; mínimo 50 €, ou 25 € se reduzida), e NÃO uma percentagem da herança',
           '💰 Contrato de seguro de vida do falecido — procedimento separado, não integra a herança (se houver beneficiário indicado)',
-          '🌐 PT tem acordos internacionais com a Federação Russa/Ucrânia em sucessória — simplificam o processo',
+          '🌐 Os documentos da Federação Russa/Ucrânia (certidões de óbito, casamento, parentesco) têm de ser legalizados para PT (apostila) e traduzidos por tradutor ajuramentado',
           '🏠 Se o falecido era arrendatário — o herdeiro tem direito a continuar o contrato, não pode ser despejado',
           '📊 Guarde todos os documentos (Habilitação de Herdeiros, pagamento do Imposto do Selo, registos) — podem ser necessários para FATCA / país da sua residência fiscal'
         ]}
@@ -184,6 +184,6 @@ export default {
     { title: 'Autoridade Tributária — Imposto do Selo (herança)', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Regulamento UE 650/2012 — Brussels IV', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32012R0650', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

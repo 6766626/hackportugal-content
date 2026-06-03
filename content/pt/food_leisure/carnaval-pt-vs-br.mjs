@@ -79,6 +79,6 @@ export default {
     { title: 'Câmara Municipal de Sesimbra — programação municipal e Carnaval', url: 'https://www.sesimbra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Visit Madeira — festividades de Carnaval na Madeira', url: 'https://visitmadeira.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

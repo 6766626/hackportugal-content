@@ -3,7 +3,7 @@ export default {
   id: 'fcmp-trail-running',
   categoryId: 'food_leisure',
   title: 'Trail running and mountain running — federation card FCMP / FPA',
-  tldr: 'Portugal is a country of a thousand trail races: Madeira Island Ultra Trail (MIUT), Trail dos Fenómenos in the Açores, Templários trail, Costa Vicentina ultra, and hundreds of local ones. To take part in trail races you need a sports medical certificate (atestado médico-desportivo, ~€30-50) and often a federation card: FCMP (Federação Camp. de Montanhismo e Escalada) for trail-running routes or FPA (Federação Portuguesa de Atletismo) for road races. Free local races — no card. Serious ultras — require ITRA points and insurance. Federation card ~€30-60/year, with an online safety course + registration.',
+  tldr: 'Portugal is a country of a thousand trail races: Madeira Island Ultra Trail (MIUT), Trail dos Fenómenos in the Açores, Templários trail, Costa Vicentina ultra, and hundreds of local ones. To take part in trail races you need a sports medical certificate (atestado médico-desportivo, ~€30-50) and often a federation card: FCMP (Federação de Campismo e Montanhismo de Portugal) for trail-running routes or FPA (Federação Portuguesa de Atletismo) for road races. Free local races — no card. Serious ultras — require ITRA points and insurance. Federation card ~€30-60/year, with an online safety course + registration.',
   tags: ['trail', 'running', 'fcmp', 'fpa', 'marathon'],
   estimatedReadMinutes: 5,
   steps: [
@@ -42,7 +42,7 @@ export default {
                 'Atestado médico-desportivo: a document from a sports doctor confirming fitness for physical exertion',
                 'You can get it from a family doctor or at a sports centre',
                 'Cost: €30-50, without SNS — €60-100',
-                'Validity: 1 year for those under 35, 6 months for older people',
+                'Validity: 1 year, renewed in the month of your birthday',
                 'Includes: ECG, blood pressure measurement, brief examination, conclusion on clearance to participate'
               ] }
             ]
@@ -153,6 +153,6 @@ export default {
     { title: 'Decreto-Lei 10/2009 — legal regime for mandatory sports insurance (seguro desportivo)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/10-2009-397323', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'IPDJ — seguro desportivo (mandatory sports insurance)', url: 'https://ipdj.gov.pt/seguro-desportivo', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

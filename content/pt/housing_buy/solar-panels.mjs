@@ -90,7 +90,7 @@ export default {
               'Contador inteligente / sistema de monitorização',
               'Trabalhos de instalação',
               'Registo na DGEG (frequentemente tratado pelo instalador)',
-              'Taxa reduzida de IVA de 6% (desde 2024) para habitação'
+              'IVA: desde 1 de julho de 2025 a taxa reduzida de 6% sobre painéis solares foi eliminada — aplica-se a taxa normal de 23% (a verba 2.37 da Lista I cessou). O regresso aos 6% foi discutido no OE2026, mas não está em vigor hoje'
             ]}
           ]},
           { id: 'c3', title: 'Subsídios — Fundo Ambiental', content: [

@@ -178,7 +178,7 @@ export default {
     { title: 'Autódromo do Algarve — Aluguer de Karts (site oficial)', url: 'https://autodromodoalgarve.com/pt/driving-experiences/aluguer-de-karts/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Kart Montijo (site oficial)', url: 'https://kartmontijo.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: karting em Portugal — ~15 centros. Principais localizações: OKL (a única pista outdoor em Lisboa, 25 €/15 min), Karting Almancil (Algarve, aberto por Senna em 1992, Mini F1 para crianças a partir dos 3 anos), AIA Kartódromo (certificado pela FIA), Baltar (1023 m). Preços 2026, categorias etárias, dicas de reserva.'

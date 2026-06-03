@@ -111,6 +111,6 @@ export default {
     { title: 'ERSE — informação para consumidores de eletricidade e situações de avaria', url: 'https://www.erse.pt/consumidores-de-energia/eletricidade/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária e Aduaneira — faturas, NIF e documentos fiscais', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

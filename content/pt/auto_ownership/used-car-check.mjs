@@ -20,7 +20,7 @@ export default {
           '💰 «Reserva de propriedade» — significa que o carro está associado a crédito; só deve comprar depois de a reserva ser cancelada',
           '🏦 «Hipoteca» — hipoteca/garantia bancária',
           '🚗 «Locação financeira» — leasing',
-          '💶 Custo: a certidão permanente costuma ser ~25 € por 6 meses de acesso online (tarifa atual — em irn.justica.gov.pt / automovelonline.mj.pt)'
+          '💶 Custo: a certidão permanente costuma ser ~10 € por 6 meses de acesso online (tarifa atual — em irn.justica.gov.pt / automovelonline.mj.pt)'
         ]}
       ]
     },
@@ -90,7 +90,7 @@ export default {
           '🆔 Ambas as partes: CC/autorização de residência, NIF, IBAN',
           '📋 Entrega-receção do DUA + chaves + sobresselentes',
           '💶 Pagamento — transferência bancária com a descrição «compra viatura matrícula X»',
-          '🏢 Registo de propriedade no IRN (irn.justica.gov.pt) — 45 € + formalização',
+          '🏢 Registo de propriedade no IRN (irn.justica.gov.pt) — ~55 € online no Automóvel Online / 65 € presencial numa conservatória ou Loja do Cidadão',
           '📅 Prazo para registar a alteração — 60 dias a contar da assinatura',
           '🛡️ Seguro em seu nome a partir do dia da entrega',
           '🧾 IUC: o proprietário em 1 de janeiro do ano corrente continua responsável por esse ano; não há recálculo quando há mudança de proprietário durante o ano. O ano seguinte — fica a cargo do novo proprietário'
@@ -99,10 +99,10 @@ export default {
     }
   ],
   costs: [
-    { label: 'Certidão Permanente Registo Automóvel (IRN/Automóvel Online)', amountEURMin: 15, amountEURMax: 25, note: 'as tarifas podem variar, verifique em irn.justica.gov.pt' },
+    { label: 'Certidão Permanente Registo Automóvel (IRN/Automóvel Online)', amountEURMin: 8, amountEURMax: 12, note: 'as tarifas podem variar, verifique em irn.justica.gov.pt' },
     { label: 'Relatório Carvertical', amountEURMin: 15, amountEURMax: 30 },
     { label: 'Diagnóstico na oficina', amountEURMin: 40, amountEURMax: 80 },
-    { label: 'Registo de propriedade para o novo proprietário (IRN)', amountEURMin: 45, amountEURMax: 65 },
+    { label: 'Registo de propriedade para o novo proprietário (IRN)', amountEURMin: 55, amountEURMax: 65, note: '~55 € online no Automóvel Online, 65 € presencial' },
     { label: 'TOTAL das verificações antes do negócio', amountEURMin: 60, amountEURMax: 130 }
   ],
   sources: [
@@ -111,6 +111,6 @@ export default {
     { title: 'Portal das Finanças — Certidões', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IMT — IPO (inspeção técnica)', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

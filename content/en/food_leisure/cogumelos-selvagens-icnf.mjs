@@ -3,7 +3,7 @@ export default {
   id: 'cogumelos-selvagens-icnf',
   categoryId: 'food_leisure',
   title: 'Foraging wild mushrooms in Portugal: ICNF licence, seasons and safety',
-  tldr: 'In Portugal, wild mushrooms are usually foraged in autumn after rain: October-December, locally until January; the spring season is weaker — March-May. For personal consumption, the DL 254/2009 reference point is up to 5 kg per person per day, but land almost always belongs to someone: you need permission from the owner, baldios or entidade gestora. In areas protegidas, matas nacionais and ICNF zones, check the ICNF licence/authorisation and local bans. In case of poisoning: CIAV 800 250 250, SNS 24 808 24 24 24, emergency 112.',
+  tldr: 'In Portugal, wild mushrooms are usually foraged in autumn after rain: October-December, locally until January; the spring season is weaker — March-May. There is currently no unified national foraging law: the former Código Florestal (DL 254/2009), which introduced the ICNF licence and the up-to-5 kg-per-person-per-day reference for personal consumption, was repealed by Lei 12/2012. That figure is still used as a customary reference, but land almost always belongs to someone: you need permission from the owner, baldios or entidade gestora, and the rules are set by local regulations. In areas protegidas, matas nacionais and ICNF zones, check the ICNF authorisation and local bans. In case of poisoning: CIAV 800 250 250, SNS 24 808 24 24 24, emergency 112.',
   tags: ['mushrooms', 'icnf', 'fungi', 'safety'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'legal-basics',
       title: 'Where foraging is legal, and where an ICNF licence is needed',
       content: [
-        { kind: 'paragraph', text: 'In Portugal there is no rule that “the forest is common land — anything is allowed”. Most forest is private, municipal or baldios. Even if there is no fence, foraging mushrooms without the consent of the owner or entidade gestora may be considered unlawful access/removal of resources.' },
+        { kind: 'paragraph', text: 'In Portugal there is no rule that “the forest is common land — anything is allowed”. Most forest is private, municipal or baldios. Even if there is no fence, foraging mushrooms without the consent of the owner or entidade gestora may be considered unlawful access/removal of resources. The former Código Florestal (DL 254/2009), which introduced the recursos micológicos regime with ICNF licences and a harvesting limit, was repealed by Lei 12/2012, and a unified national regime has not yet been restored — the rules are now set by local regulations, planos de gestão and the conditions of the specific site.' },
         { kind: 'checklist', items: [
           'Private land: you need the owner’s permission; the absence of a sign does not mean permission.',
           'Baldios: check the rules with the conselho diretivo dos baldios or Junta de Freguesia.',
@@ -19,7 +19,7 @@ export default {
           'Areas protegidas: Parque Nacional da Peneda-Gerês, parques naturais, reservas naturais, paisagens protegidas — foraging may be restricted or banned by zonamento.',
           'Zonas de proteção total, reserva integral, dunes, habitats sensíveis and areas with proibição de apanha signs — do not forage.',
           'Natura 2000 does not always mean a ban by itself, but a specific plano de gestão or regulamento may introduce restrictions.',
-          'Commercial foraging, purchasing and sale require separate compliance with the DL 254/2009 regime: species identification, traceability, transport and trading conditions.',
+          'Commercial foraging, purchasing and sale still require species identification, traceability and compliance with food-safety, transport and trading conditions, even without a dedicated mycological law.',
           'If you organise a mushroom tour/excursion in a protected area, this is already an organised activity: agree it in advance with ICNF/the municipality.'
         ] },
         { kind: 'warning', text: 'Practical rule for an expat: before travelling, open the ICNF protected areas map, check the name of the zone and send an email to the regional ICNF service if you plan to forage somewhere other than the private forest of an owner you know. A verbal “everyone forages here” will not protect you from a fine.' }
@@ -29,7 +29,7 @@ export default {
       id: 'quantity-and-method',
       title: 'Limits and how to forage without harming the forest',
       content: [
-        { kind: 'paragraph', text: 'For autoconsumo under the DL 254/2009 regime, the usual reference point is up to 5 kg of wild mushrooms per forager per day. Local rules in protected areas, matas nacionais or baldios may be stricter: for example, a total ban, a lower limit, specific days or mandatory authorisation.' },
+        { kind: 'paragraph', text: 'For autoconsumo, the usual customary reference point is up to 5 kg of wild mushrooms per forager per day. This figure comes from the repealed Código Florestal (DL 254/2009) and is no longer a binding national-law limit, but it is still cited as a reasonable cap. Local rules in protected areas, matas nacionais or baldios may be stricter: for example, a total ban, a lower limit, specific days or mandatory authorisation.' },
         { kind: 'checklist', items: [
           'Take a wicker basket or a rigid ventilated container, not a plastic bag.',
           'Do not use rakes, hoes or tools that destroy the litter layer and micélio.',
@@ -106,11 +106,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Decreto-Lei n.º 254/2009 — regime jurídico dos recursos micológicos silvestres',
-      url: 'https://dre.pt/dre/detalhe/decreto-lei/254-2009-490398',
+      title: 'Decreto-Lei n.º 254/2009 (Código Florestal) — revogado pela Lei n.º 12/2012; continha o antigo regime dos recursos micológicos silvestres',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/254-2009-490450',
       kind: 'law',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'INEM / CIAV — Centro de Informação Antivenenos, phone 800 250 250',
@@ -127,6 +127,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

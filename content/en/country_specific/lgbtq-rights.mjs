@@ -33,11 +33,12 @@ export default {
           { id: 'l3', title: 'Transgender rights — EU leader', content: [
             { kind: 'checklist', items: [
               '✅ Self-determination since 2018 (Lei 38/2018) — gender change in documents WITHOUT medical procedures, WITHOUT court, WITHOUT psychiatric certificates',
+              '⚠️ Note: on 20 March 2026 Parliament approved, in a first reading, a reversal of self-determination (PSD, Chega, CDS-PP) — proposing to reinstate mandatory medical validation for adults. As of May 2026 this is NOT yet in force and remains in committee; the rules may change — check the current status',
               '✅ ≥ 16 years old: application at the Conservatória do Registo Civil with a declaration → new documents are issued within a few days',
               '✅ < 16 years old: with parental consent + psychologist’s opinion',
               '✅ Hormone therapy: free through SNS (after psychiatrist/endocrinologist)',
               '✅ Gender-affirming surgery: covered by SNS (long queue) or available privately',
-              '✅ ❌ Conversion therapy banned since 2024 (Lei 23/2024) — up to 5 years’ imprisonment',
+              '✅ ❌ Conversion therapy banned since 2024 (Lei 15/2024, in force since 1 March 2024) — up to 5 years’ imprisonment',
               '✅ Updating education, work and bank records: automatically on request'
             ]}
           ]},
@@ -168,6 +169,6 @@ export default {
     { title: 'CIG — Gender equality', url: 'https://www.cig.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CPR — Conselho Português para os Refugiados', url: 'https://cpr.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

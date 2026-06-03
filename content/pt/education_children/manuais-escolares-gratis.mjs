@@ -84,7 +84,7 @@ export default {
           'Os manuais devem ser devolvidos sem danos graves, páginas arrancadas ou anotações que os tornem inutilizáveis.',
           'Escreva a lápis ou use marcadores de página, se a escola avisar que os manuais terão de ser devolvidos.',
           'Não plastifique páginas de forma permanente nem recorte exercícios.',
-          'Os manuais do 1.º ciclo podem ter um regime especial, porque as crianças escrevem frequentemente diretamente no livro; confirme junto da escola.',
+          'Os manuais do 1.º ciclo (1.º-4.º ano) não têm de ser devolvidos: não há sistema de reutilização para eles, são entregues livros novos todos os anos e as crianças podem escrever neles.',
           'Os cadernos de atividades e materiais consumíveis normalmente não são devolvidos.',
           'Se o livro se perder ou ficar danificado, a escola pode exigir a sua substituição ou o pagamento do valor.'
         ] },
@@ -118,6 +118,6 @@ export default {
     { title: 'ePortugal — Matrículas escolares', url: 'https://www.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

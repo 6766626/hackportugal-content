@@ -3,7 +3,7 @@ export default {
   id: 'apicultura-registo-iniciante',
   categoryId: 'food_leisure',
   title: 'Beekeeping for beginners — registration with DGAV (Direção-Geral de Alimentação e Veterinária)',
-  tldr: 'Any apiary in Portugal (even a single hive in a garden) must be registered with DGAV (Direção-Geral de Alimentação e Veterinária — the state food safety and veterinary authority).\n\nRegistration is free: you apply online in the "Atividade Apícola" application in the IFAP Portal reserved area (Área Reservada do Portal do IFAP), or at the Regional Food and Veterinary Services (DSAVR — Direção de Serviços de Alimentação e Veterinária Regional), or through a recognised beekeeper organisation holding an IFAP protocol.\n\nThe initial declaration of existence must be filed within 10 working days of starting activity; the annual existence declaration is filed 1–30 September.\n\nAfter registration, you receive a beekeeper number and the obligation to keep a health record book (caderno sanitário).\n\nMinimum distances: 200 m in urban areas, 50 m in rural areas (closer is possible with a high fence). Honey for personal consumption — no HACCP. For sales, you need a registered extraction room (sala de extração) and an ASAE (Autoridade de Segurança Alimentar e Económica — food safety supervision) inspection. FNAP (national federation of beekeepers) is the main association. Beginner courses: €150-300. One hive produces 15-30 kg of honey per year; starter kit (hive + swarm + protection) €250-500.',
+  tldr: 'Any apiary in Portugal (even a single hive in a garden) must be registered with DGAV (Direção-Geral de Alimentação e Veterinária — the state food safety and veterinary authority).\n\nRegistration is free: you apply online in the "Atividade Apícola" application in the IFAP Portal reserved area (Área Reservada do Portal do IFAP), or at the Regional Food and Veterinary Services (DSAVR — Direção de Serviços de Alimentação e Veterinária Regional), or through a recognised beekeeper organisation holding an IFAP protocol.\n\nThe initial declaration of existence must be filed within 10 working days of starting activity; the annual existence declaration is filed 1–30 September.\n\nAfter registration, you receive a beekeeper number and the obligation to keep a health record book (caderno sanitário).\n\nMinimum distances (Decreto-Lei 203/2005): more than 50 m from a public road and more than 100 m from any building in use. Honey for personal consumption — no HACCP. For sales, you need a registered extraction room (sala de extração) and an ASAE (Autoridade de Segurança Alimentar e Económica — food safety supervision) inspection. FNAP (national federation of beekeepers) is the main association. Beginner courses: €150-300. One hive produces 15-30 kg of honey per year; starter kit (hive + swarm + protection) €250-500.',
   tags: ['beekeeping', 'bee', 'honey', 'dgav', 'fnap'],
   estimatedReadMinutes: 6,
   steps: [
@@ -67,15 +67,13 @@ export default {
       id: 'distance-rules',
       title: 'Minimum distances — where hives can be placed',
       content: [
-        { kind: 'paragraph', text: 'This is the most common cause of conflicts with neighbours. Decreto-Lei 203/2005 and Portaria 9/2021 set the minimum distances:' },
+        { kind: 'paragraph', text: 'This is the most common cause of conflicts with neighbours. The minimum distances are set by Article 5 of Decreto-Lei 203/2005:' },
         { kind: 'checklist', items: [
-          '200 m from any buildings where people are present (homes, schools, hospitals) in urban areas',
-          '50 m in rural areas',
-          '25 m if there is a solid barrier at least 2 m high (hedge or wooden partition)',
-          'Right next to it is possible where there is a line-of-sight barrier — a high wall or fence',
-          '500 m from areas with a high concentration of apiaries',
-          '200 m from landfill sites and places where pesticides are stored/transferred',
-          'Between neighbouring sites — at least 50 m, to reduce swarming competition'
+          'More than 50 m from a public road (via pública)',
+          'More than 100 m from any building in use (homes, schools, hospitals)',
+          'Exception: rural and agricultural paths, and buildings dedicated to the beekeeping activity of the apiary owner',
+          'Distance between neighbouring apiaries (Anexo I): at least 400 m for 11-30 hives and at least 800 m for 31-100 hives',
+          'Maximum of 100 colonies per apiary'
         ] },
         { kind: 'warning', text: 'If neighbours complain and the distances are not respected, the municipality (Câmara Municipal — municipal council) may require the hives to be moved. This often happens after the first stings involving neighbours’ children. Check your municipality’s rules — they may be stricter.' }
       ]
@@ -124,13 +122,13 @@ export default {
         { kind: 'paragraph', text: 'If you want to sell honey, there are more requirements:' },
         { kind: 'checklist', items: [
           'Beekeeper registration has already been completed',
-          'Open activity with Finanças (tax authority) under CIRS code 1311 — apicultura',
+          'Open activity with Finanças (tax authority) under CAE code 01491 — apicultura',
           'Register the extraction room (sala de extração) with DGAV — the place where you extract honey (HACCP requirements)',
           'The room must be suitable for food production: washable surfaces, insect protection, temperature control',
           'Laboratory analyses of honey batches (moisture, HMF, diastase) at least once per season: €30-80 per analysis',
           'Labelling according to EU requirements: name, beekeeper’s NIF, batch number, country of origin, weight, expiry date',
           'Market sales — permission from the municipality (Câmara Municipal)',
-          'Online sales — IVA is mandatory if turnover is > €14,500 per year (changes are possible from 2025)',
+          'Online sales — IVA is mandatory if turnover is > €15,000 per year (Article 53 CIVA exemption threshold, in force since 1 July 2025)',
           'IGP (Indicação Geográfica Protegida — protected geographical indication): Mel da Serra de Aire, Mel do Alentejo, Mel de Trás-os-Montes — premium segment, additional registration is needed'
         ] }
       ]
@@ -181,9 +179,9 @@ export default {
     { title: 'DGAV — Direção-Geral de Alimentação e Veterinária', url: 'https://www.dgav.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'DGAV — Apicultura: registration and legislação', url: 'https://www.dgav.pt/animais/conteudo/animais-de-producao/abelhas/identificacao-registo-e-movimentacao-animal/registo/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 203/2005 — registration of apicultores', url: 'https://dre.pt/dre/detalhe/decreto-lei/203-2005-243676', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 9/2021 — colmeias distances', url: 'https://dre.pt/dre/detalhe/portaria/9-2021-153700104', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'gov.pt — Fazer o registo apícola e declarar existências de abelhas', url: 'https://www2.gov.pt/inicio/espaco-empresa/balcao-do-empreendedor/fazer-o-registo-apicola-e-declarar-existencias-de-abelhas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'IFAP — support for apicultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

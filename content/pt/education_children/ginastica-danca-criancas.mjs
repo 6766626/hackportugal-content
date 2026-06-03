@@ -40,7 +40,7 @@ export default {
         {
           kind: 'checklist',
           items: [
-            'Consulte a secção admissões no site da EADCN na primavera: os prazos e as regras mudam consoante o ano lectivo',
+            'Consulte a secção admissões no site da EDCN na primavera: os prazos e as regras mudam consoante o ano lectivo',
             'Normalmente é necessário concurso / prova de admissão: características físicas, coordenação, musicalidade, motivação',
             'A língua principal é o português; para crianças pequenas, a adaptação linguística é importante',
             'Uma escola pública não significa “inscrição aberta a todos”: as vagas são limitadas',
@@ -159,7 +159,7 @@ export default {
     },
     {
       title: 'Escola Artística de Dança do Conservatório Nacional — admissões e ensino artístico',
-      url: 'https://www.eadcn.pt',
+      url: 'https://edcn.pt',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -179,6 +179,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

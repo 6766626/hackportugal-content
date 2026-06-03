@@ -32,7 +32,7 @@ export default {
           { id: 'c1', title: 'Criminal record certificate (GUVM MVD)', content: [
             { kind: 'checklist', items: [
               'Via Gosuslugi (gosuslugi.ru) → Services → Certificates → Criminal record status',
-              'Timeframe: 30 working days',
+              'Timeframe: up to 30 calendar days (often faster in practice)',
               'Delivery: PDF with electronic signature in your personal account',
               'Additionally — apostille: either via Gosuslugi (electronic apostille), or via MFC / MFA',
               'For Portugal, a PDF with electronic signature + PDF with apostille + sworn translation into Portuguese is sufficient',
@@ -66,7 +66,7 @@ export default {
           '📋 Documents: Russian Federation passport, text of the power of attorney (prepare in advance), attorney-in-fact details (full name, passport details, address)',
           '💶 Fee: ~€30-60 depending on the type (general, one-off)',
           '📜 The consul-notary will certify it on the day of the visit',
-          'The completed power of attorney is valid in the Russian Federation as a notarised one (Article 38 of the Law on Consular Institutions)',
+          'The completed power of attorney is valid in the Russian Federation as a notarised one (the consul performs notarial acts under the Consular Statute of the Russian Federation)',
           'Can be used for: sale of real estate, handling court cases, tax transactions, receiving a pension, closing a sole trader registration'
         ]},
         { kind: 'warning', text: 'Alternative — remote contact with a notary in the Russian Federation via the Notary Online app + Gosuslugi. However, the app requires ESIA and biometrics — it only works if the account is active and biometrics were previously completed in the Russian Federation.' }
@@ -80,7 +80,7 @@ export default {
           { id: 'i1', title: '1. Complete all obligations', content: [
             { kind: 'checklist', items: [
               'Notify clients about the closure',
-              'Pay insurance contributions to the Pension Fund (proportionally to the time in the year)',
+              'Pay insurance contributions (since 2023 — to the Social Fund of Russia, SFR; proportionally to the time worked in the year)',
               'Submit final tax returns (simplified tax system / patent) — via the nalog.ru personal account',
               'Pay any remaining taxes',
               'Close the current account (or leave it — not mandatory before closing the sole trader registration)'
@@ -90,7 +90,7 @@ export default {
             { kind: 'checklist', items: [
               'Via Gosuslugi (gosuslugi.ru) with a qualified electronic signature',
               'Or via the nalog.ru “Individual Entrepreneur Account”',
-              'State fee: €160 (via Gosuslugi — €112 with a 30% discount)',
+              'State fee: when filed electronically with a qualified electronic signature (via Gosuslugi or nalog.ru) — RUB 0; the RUB 160 fee applies only to paper filing',
               'Processing time: 5 working days',
               'Result: termination notice in the personal account + EGRIP extract'
             ]}
@@ -99,8 +99,8 @@ export default {
             { kind: 'checklist', items: [
               'Within 15 days after closure — submit final tax returns',
               'Within 15 days — pay insurance contributions for the period worked',
-              'Deregister OKVED codes with Rosstat (automatic on closure)',
-              'Keep documents for 4 years (tax audit limitation period)'
+              'Removal from statistical registration with Rosstat happens automatically on closure',
+              'Keep documents for 5 years (period under Article 23 of the Russian Tax Code)'
             ]}
           ]}
         ]}
@@ -127,9 +127,9 @@ export default {
         { kind: 'checklist', items: [
           '💳 Mir in Portugal: does not work (not accepted by ATMs or payment terminals in the EU)',
           '💳 UnionPay (Gazprombank) — works partially in ATMs in Portugal',
-          '💳 Visa/Mastercard from non-sanctioned banks: Raiffeisen (Raiffeisen Bank International — under pressure, status changes), Tinkoff Bank — partially',
+          '💳 Visa/Mastercard from non-sanctioned banks: Raiffeisen (Raiffeisen Bank International — under pressure, status changes), T-Bank (formerly Tinkoff) — partially',
           '💰 To pay in the Russian Federation (taxes, duties) from Portugal: use a relative’s account / cryptocurrency → roubles via P2P Binance / BestChange',
-          '💼 12th sanctions package: transfers to the Russian Federation via SWIFT from EU banks are heavily restricted. Use Wise / Revolut to transfer to a Russian recipient who has a non-sanctioned bank',
+          '💼 EU sanctions: transfers to the Russian Federation via SWIFT from EU banks are heavily restricted. Use Wise / Revolut to transfer to a Russian recipient who has a non-sanctioned bank',
           '⚠️ Major providers refuse to accept SWIFT from the Russian Federation — take this into account when planning'
         ]}
       ]
@@ -141,7 +141,7 @@ export default {
         { kind: 'checklist', items: [
           '📅 Consulate appointments — book 2-3 months in advance for planned services',
           '🔐 ESIA / Gosuslugi: keep a working login before moving; do not change the password without access to a Russian phone',
-          '📱 Russian phone: keep the number active (Tinkoff Mobile, MTS eSIM) — needed for Gosuslugi SMS codes',
+          '📱 Russian phone: keep the number active (T-Mobile RU, MTS eSIM) — needed for Gosuslugi SMS codes',
           '📧 FTS notifications: link an email address to the personal account — otherwise you may miss tax demands',
           '⚖️ Complex situations (division of property, claims, inheritance): hire a lawyer in the Russian Federation + issue them a power of attorney through the Russian consulate in Portugal',
           '🔑 Electronic signature: if you need notarial acts without it — only through the consulate'
@@ -151,9 +151,9 @@ export default {
   ],
   costs: [
     { label: 'GUVM criminal record certificate', amountEUR: 0 },
-    { label: 'Apostille (Ministry of Justice of the Russian Federation)', amountEURMin: 30, amountEURMax: 50, note: 'BYN 2500' },
+    { label: 'Apostille (Ministry of Justice of the Russian Federation)', amountEURMin: 25, amountEURMax: 35, note: 'state fee RUB 2500' },
     { label: 'Consular power of attorney', amountEURMin: 30, amountEURMax: 60 },
-    { label: 'Closing a sole trader registration (Gosuslugi)', amountEURMin: 1, amountEURMax: 3, note: 'RUB 112-160' },
+    { label: 'Closing a sole trader registration (Gosuslugi, electronic)', amountEUR: 0, note: 'free; RUB 160 only for paper filing' },
     { label: 'Sworn translation in Portugal', amountEURMin: 25, amountEURMax: 50, note: '€/page' }
   ],
   sources: [
@@ -161,6 +161,6 @@ export default {
     { title: 'Gosuslugi', url: 'https://gosuslugi.ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-04-22' },
     { title: 'FTS — Individual Entrepreneur Account', url: 'https://lkip.nalog.ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

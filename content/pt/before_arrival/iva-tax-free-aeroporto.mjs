@@ -86,7 +86,7 @@ export default {
         { kind: 'checklist', items: [
           'Preço com IVA: 123 €',
           'Base tributável: 100 €',
-          'IVA 23: 23 €',
+          'IVA 23%: 23 €',
           'A comissão do operador de 5–10% reduz o pagamento',
           'Quanto menor for o talão, mais visível é a comissão',
           'Receber no cartão é frequentemente mais vantajoso do que em numerário',
@@ -139,6 +139,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

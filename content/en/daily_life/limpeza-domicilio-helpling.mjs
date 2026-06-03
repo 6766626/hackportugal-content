@@ -127,6 +127,6 @@ export default {
     { title: 'DECO PROteste: rights and precautions when hiring domestic services', url: 'https://www.deco.proteste.pt', kind: 'news', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Helpling Portugal: domestic cleaning service', url: 'https://www.helpling.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

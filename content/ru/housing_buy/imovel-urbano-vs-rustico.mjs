@@ -20,9 +20,9 @@ export default {
           'Caderneta predial — карточка объекта в Finanças: natureza, VPT, área, proprietário, artigo matricial.',
           'Certidão permanente do registo predial — регистрация в Conservatória: собственник, ипотека, сервитуты, аресты.',
           'Descrição predial и artigo matricial — не одно и то же: первая запись в Conservatória, второй — налоговая запись в Finanças.',
-          'Рекламное “quinta”, “monte”, “ruína” или “terreno com viabilidade” ничего не доказывает без PDM/PDI и письменной информации Câmara Municipal.'
+          'Слова в объявлении — “quinta”, “monte”, “ruína” или “terreno com viabilidade” — ничего не доказывают без PDM/PDI и письменной информации Câmara Municipal.'
         ] },
-        { kind: 'warning', text: 'Если в объявлении написано “rústico com ruína”, это не означает, что можно восстановить дом для жилья. Руина может не иметь легальной licença de utilização, быть вне urban perimeter или находиться в RAN/REN/зоне ICNF.' }
+        { kind: 'warning', text: 'Если в объявлении написано “rústico com ruína”, это не означает, что можно восстановить дом для жилья. Руина может не иметь легальной licença de utilização, быть вне городского периметра (perímetro urbano) или находиться в RAN/REN/зоне ICNF.' }
       ]
     },
     {
@@ -35,7 +35,7 @@ export default {
           'IMI rústico: 0,8% от VPT.',
           'IMT при покупке жилья urbano для постоянного проживания — прогрессивная шкала; для второго жилья/инвестиций шкала иная.',
           'IMT для prédio rústico обычно 5% от цены сделки или VPT, берётся большая величина.',
-          'IMT для other urban property, не жилья для собственного постоянного проживания, часто 6,5%.',
+          'IMT для прочей городской недвижимости (não habitação própria e permanente) часто 6,5%.',
           'Imposto do Selo при покупке недвижимости — 0,8% от цены/VPT, берётся большая величина.',
           'AIMI применяется к дорогостоящей городской недвижимости: обычно к сумме VPT urbano habitacional и terrenos para construção выше 600 000 € на человека; rústico в базу AIMI обычно не входит.',
           'IRS/IRC при продаже: прирост капитала считается не по слову urbano/rústico, а по цене покупки, цене продажи, расходам, резидентскому статусу и срокам.',
@@ -79,7 +79,7 @@ export default {
           'Запросите dívida de condomínio, если это urbano в здании или condomínio fechado.',
           'Проверьте IMI arrears: долги продавца не должны перейти на вас, но могут осложнить сделку.',
           'Для сельхозземли проверьте права арендаторов, соседей, сообществ baldios и возможные direitos de preferência.',
-          'В CPCV включите условие о возврате sinal, если PIP/urbanistic information подтвердит невозможность заявленного использования.',
+          'В CPCV включите условие о возврате sinal, если PIP или informação urbanística подтвердит невозможность заявленного использования.',
           'Не переводите большой sinal без проверки адвокатом или solicitador, особенно если покупаете удалённо.'
         ] }
       ]
@@ -156,6 +156,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

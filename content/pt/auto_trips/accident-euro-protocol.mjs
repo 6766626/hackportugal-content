@@ -27,7 +27,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🚑 Há feridos (de qualquer tipo — mesmo que seja «só uma pisadura»)',
-          '💥 Os danos materiais são claramente > 5 000 € ou há infraestrutura danificada',
+          '💥 Danos materiais significativos ou infraestrutura danificada (não existe limite fixo na lei — chame a GNR/PSP sempre que houver dúvidas)',
           '⚖️ Há suspeita de condução sob o efeito de álcool ou drogas',
           '🚗 Um dos intervenientes não tem documentos ou não tem seguro',
           '🏃 O responsável fugiu do local do acidente',
@@ -112,6 +112,6 @@ export default {
     { title: 'FGA — Fundo de Garantia Automóvel', url: 'https://www.fga.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

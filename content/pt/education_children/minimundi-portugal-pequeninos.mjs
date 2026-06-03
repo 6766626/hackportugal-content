@@ -3,7 +3,7 @@ export default {
   id: 'minimundi-portugal-pequeninos',
   categoryId: 'education_children',
   title: 'Portugal dos Pequenitos e Minimundi: Portugal em miniatura para crianças',
-  tldr: 'Portugal dos Pequenitos, em Coimbra, funciona desde 1940: réplicas infantis de casas portuguesas, monumentos e antigos territórios ultramarinos, num bom formato de 1,5–3 horas para crianças dos 3 aos 10 anos. Na Costa do Estoril, encare o Minimundi como uma pequena paragem infantil local, não como um grande parque temático. Para um dia completo perto de Lisboa, é mais prático escolher a KidZania Lisboa no UBBO; no norte — Magikland Penafiel.\n\nEm 2026, conte com cerca de 10–22 € por bilhete de criança, mais transporte e comida.',
+  tldr: 'Portugal dos Pequenitos, em Coimbra, funciona desde 1940: réplicas infantis de casas portuguesas, monumentos e antigos territórios ultramarinos, num bom formato de 1,5–3 horas para crianças dos 3 aos 10 anos. Na Costa do Estoril, encare o Minimundi como uma pequena paragem infantil local, não como um grande parque temático. Para um dia completo perto de Lisboa, é mais prático escolher a KidZania Lisboa no UBBO; no norte — Magikland Penafiel.\n\nEm 2026, conte com cerca de 6–24 € por bilhete de criança, mais transporte e comida.',
   tags: ['crianças', 'coimbra', 'parques', 'kidzania'],
   estimatedReadMinutes: 5,
   steps: [
@@ -47,16 +47,16 @@ export default {
       id: 'budget-logistics',
       title: 'Orçamento, transporte e dicas para 2026',
       content: [
-        { kind: 'paragraph', text: 'Para um dia em família, não conte apenas a entrada. O custo real inclui bilhetes, comboio/combustível/estacionamento, almoço, água, gelados e lembranças. Em 2026, um bilhete típico de criança para estes locais fica muitas vezes na faixa dos 10–22 €, mas o preço concreto depende da idade, da época, da tarifa online e dos pacotes familiares.' },
+        { kind: 'paragraph', text: 'Para um dia em família, não conte apenas a entrada. O custo real inclui bilhetes, comboio/combustível/estacionamento, almoço, água, gelados e lembranças. Em 2026, um bilhete típico de criança para estes locais fica sensivelmente na faixa dos 6–24 € (Portugal dos Pequenitos ronda os 6 € por criança, a KidZania é mais cara), mas o preço concreto depende da idade, da época, da tarifa online e dos pacotes familiares.' },
         { kind: 'checklist', items: ['Compre bilhetes online, se o site oferecer desconto ou horário fixo', 'Verifique os escalões etários: 0–2, 3–4, 5–12, 13+ podem ser contabilizados de formas diferentes', 'Procure “bilhete família”, se forem 2 adultos + 2 crianças', 'Leve água e um lanche: no interior costuma ser mais caro e haver menos escolha', 'Em Coimbra, estacionar junto aos pontos turísticos pode ser complicado — chegue de manhã', 'De Lisboa/Porto para Coimbra de comboio, é conveniente ir até Coimbra-B e depois fazer transbordo/táxi até ao centro', 'Na KidZania, conte com tempo para entrar pelo UBBO e para filas nas profissões populares', 'Nas férias escolares em Portugal, reserve com antecedência: Páscoa, julho–agosto, Natal e feriados'] },
         { kind: 'warning', text: 'Os preços dos parques de diversões em Portugal são frequentemente actualizados antes da época e podem diferir entre a bilheteira e o online. Antes de comprar, confirme a data, a idade da criança e se o adulto acompanhante está incluído.' }
       ]
     }
   ],
   costs: [
-    { label: 'Portugal dos Pequenitos — entrada de criança/reduzida', amountEURMin: 10, amountEURMax: 15, note: 'Referência para 2026; o preço exacto depende da idade e da tarifa no site do parque.' },
-    { label: 'KidZania Lisboa — criança', amountEURMin: 16, amountEURMax: 22, note: 'Referência para uma visita normal; promoções, feriados e categorias etárias alteram o total.' },
-    { label: 'Magikland Penafiel — bilhete diário', amountEURMin: 18, amountEURMax: 22, note: 'Parque sazonal; verifique o calendário e os preços online antes da viagem.' },
+    { label: 'Portugal dos Pequenitos — entrada de criança/reduzida', amountEURMin: 6, amountEURMax: 9, note: 'Em 2026: crianças dos 3 aos 13 anos e 65+ — 5,95 €, adultos dos 14 aos 64 — 8,95 €, bilhete família (2+2) — 25,95 €. Confirme no site do parque.' },
+    { label: 'KidZania Lisboa — criança', amountEURMin: 16, amountEURMax: 24, note: 'Em 2026: dos 3 aos 4 anos — cerca de 15,50 €, dos 5 aos 15 anos — cerca de 23,50 € (visita de 4 horas). Promoções, feriados e categorias etárias alteram o total.' },
+    { label: 'Magikland Penafiel — bilhete diário', amountEURMin: 14, amountEURMax: 23, note: 'Em 2026: crianças dos 3 aos 12 anos — 14 €, adultos dos 13 aos 64 — 22,50 €. Parque sazonal; verifique o calendário e os preços online antes da viagem.' },
     { label: 'Dia em família com transporte e comida', amountEURMin: 70, amountEURMax: 160, note: 'Para 2 adultos + 1–2 crianças, sem pernoita; Coimbra a partir de outra cidade pode ficar mais caro.' }
   ],
   sources: [
@@ -64,6 +64,6 @@ export default {
     { title: 'KidZania Lisboa — site oficial, bilhetes e turnos', url: 'https://www.kidzania.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Magikland — site oficial do parque de Penafiel', url: 'https://www.magikland.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

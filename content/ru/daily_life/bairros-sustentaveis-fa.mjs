@@ -3,7 +3,7 @@ export default {
   id: 'bairros-sustentaveis-fa',
   categoryId: 'daily_life',
   title: 'Bairros + Sustentáveis: какие кварталы включены и какие льготы дают',
-  tldr: 'Bairros + Sustentáveis — официальный перечень приоритетных кварталов для энергоэффективности и улучшения жилья. Если ваш адрес попадает в такой bairro, для заявок Fundo Ambiental, включая E-LAR, обычно не нужно доказывать Tarifa Social de Energia: сам адрес даёт право на повышенный приоритет/допуск. Проверять нужно не “район на слух”, а конкретную улицу/porta в списке Fundo Ambiental или Portal da Habitação; примеры: Cova da Moura, Quinta da Fonte, Porto Seixo.',
+  tldr: 'Bairros + Sustentáveis — официальный перечень приоритетных кварталов для энергоэффективности и улучшения жилья. Если ваш адрес попадает в такой bairro, для заявок Fundo Ambiental, включая E-LAR, обычно не нужно доказывать Tarifa Social de Energia: сам адрес даёт право на повышенный приоритет/допуск. Проверять нужно не «район на слух», а конкретную улицу/porta в списке Fundo Ambiental или Portal da Habitação; примеры: Cova da Moura, Quinta da Fonte, Porto Seixo.',
   tags: ['habitação', 'energia', 'bairro', 'fundoambiental'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,9 +11,9 @@ export default {
       id: 'what-it-is',
       title: 'Что такое Bairros + Sustentáveis',
       content: [
-        { kind: 'paragraph', text: 'Bairros + Sustentáveis — не отдельная “скидочная карта”, а статус территории. Государство отмечает кварталы с уязвимым жилищным фондом, энергетической бедностью и потребностью в ремонте/декарбонизации. После этого жители таких адресов получают упрощённый доступ к некоторым программам Fundo Ambiental и жилищным мерам.' },
+        { kind: 'paragraph', text: 'Bairros + Sustentáveis — не отдельная «скидочная карта», а статус территории. Государство отмечает кварталы с уязвимым жилищным фондом, энергетической бедностью и потребностью в ремонте/декарбонизации. После этого жители таких адресов получают упрощённый доступ к некоторым программам Fundo Ambiental и жилищным мерам.' },
         { kind: 'paragraph', text: 'Для экспата практический смысл простой: если вы арендуете или купили жильё в таком bairro, адрес может заменить требование Tarifa Social de Energia Elétrica в отдельных конкурсах Fundo Ambiental, например в E-LAR. То есть право возникает из местоположения жилья, а не из вашего дохода.' },
-        { kind: 'warning', text: 'Статус относится к конкретной зоне/адресам, а не ко всему município или freguesia. “Живу рядом с Cova da Moura” или “это social housing” недостаточно: система смотрит официальный список/географический периметр.' }
+        { kind: 'warning', text: 'Статус относится к конкретной зоне/адресам, а не ко всему município или freguesia. «Живу рядом с Cova da Moura» или «это социальное жильё» недостаточно: система смотрит официальный список/географический периметр.' }
       ]
     },
     {
@@ -25,10 +25,10 @@ export default {
           'Cova da Moura / Alto da Cova da Moura — Amadora',
           'Quinta da Fonte — Loures',
           'Porto Seixo / Bairro do Porto Seixo — район, фигурирующий в перечнях приоритетных bairros',
-          'Другие bairros municipais или social housing areas, включённые в официальный anexo/lista Fundo Ambiental',
+          'Другие bairros municipais или зоны социального жилья, включённые в официальный anexo/lista Fundo Ambiental',
           'Кварталы, выбранные через программы reabilitação urbana, energia и habitação, если они прямо указаны в списке',
           'Адреса внутри периметра bairro, даже если договор аренды оформлен на частного собственника',
-          'Не включаются автоматически: вся freguesia, весь concelho, “старый центр” города или любая zona ARU без прямого указания',
+          'Не включаются автоматически: вся freguesia, весь concelho, «старый центр» города или любая zona ARU без прямого указания',
           'Не включаются автоматически: жильё рядом с bairro, но за пределами официального perímetro'
         ] },
         { kind: 'paragraph', text: 'Если вы видите название своего района в новостях, всё равно проверяйте официальный PDF/таблицу. Для подачи заявки по E-LAR или другой мере Fundo Ambiental оператор будет сверять адрес, а не устное название bairro.' }
@@ -57,7 +57,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'find-official-list', title: '1. Найдите официальный список', content: [
-            { kind: 'paragraph', text: 'Откройте сайт Fundo Ambiental и раздел конкретной программы, например E-LAR. Ищите anexos, lista de Bairros + Sustentáveis, FAQ или campo “Bairro + Sustentável” в форме candidatura.' }
+            { kind: 'paragraph', text: 'Откройте сайт Fundo Ambiental и раздел конкретной программы, например E-LAR. Ищите anexos, lista de Bairros + Sustentáveis, FAQ или campo «Bairro + Sustentável» в форме candidatura.' }
           ] },
           { id: 'compare-address', title: '2. Сверьте адрес дословно', content: [
             { kind: 'checklist', items: [
@@ -87,7 +87,7 @@ export default {
           'Documento de identificação: Cartão de Cidadão, ВНЖ или паспорт',
           'Comprovativo de morada: contrato de arrendamento, atestado de residência, счёт коммунальных услуг или справка от Câmara/Junta',
           'Доказательство проживания именно по адресу в Bairro + Sustentável',
-          'IBAN на имя заявителя для выплаты, если программа платит reimbursement',
+          'IBAN на имя заявителя для выплаты, если программа возмещает расходы',
           'Fatura-recibo или orçamento от поставщика/установщика, если требуется',
           'Declaração do senhorio/autorização, если работы затрагивают недвижимость арендодателя',
           'Счёт за электричество, если мера связана с заменой оборудования или электрификацией',
@@ -102,12 +102,12 @@ export default {
       title: 'Частые ошибки',
       content: [
         { kind: 'checklist', items: [
-          'Считать, что весь Lisbon/Porto/Amadora/Loures включён — нет, только конкретные bairros',
+          'Считать, что весь Лиссабон/Порту/Amadora/Loures включён — нет, только конкретные bairros',
           'Подаваться по названию района без проверки улицы и номера дома',
           'Думать, что Tarifa Social всё равно обязательна — для жителей Bairro + Sustentável в ряде avisos это альтернативный критерий',
           'Покупать оборудование до открытия/одобрения конкурса, хотя aviso может требовать дату после подачи или после решения',
-          'Оформлять factura на другого человека: NIF в счёте должен совпадать с заявителем, если aviso не допускает исключений',
-          'Игнорировать согласие landlord: для арендатора это критично при работах в квартире',
+          'Оформлять fatura на другого человека: NIF в счёте должен совпадать с заявителем, если aviso не допускает исключений',
+          'Игнорировать согласие арендодателя: для арендатора это критично при работах в квартире',
           'Путать Bairros + Sustentáveis с ARU, Porta 65, 1.º Direito или Bairro Saudável — это разные инструменты',
           'Не сохранять PDF, faturas, comprovativos и e-mails: Fundo Ambiental может запросить их при проверке'
         ] },
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

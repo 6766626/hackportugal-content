@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'fossa-septica-saneamento',
   categoryId: 'housing_buy',
-  title: 'Fossa séptica (fossa séptica) — normas, distâncias, licenças',
-  tldr: 'Se a casa não estiver ligada à rede pública de saneamento, é necessário tratamento autónomo das águas residuais.\n\nEm Portugal, isto pode ser uma fossa séptica clássica (fossa séptica) com poço absorvente, ou uma ETAR compacta moderna de tratamento biológico. Volume: ~3 m³ para 4–5 residentes. Distâncias mínimas: ≥30 m de um furo/poço, ≥10 m de casas vizinhas, ≥5 m do limite do terreno. A instalação exige projecto de um engenheiro, autorização na Câmara Municipal, vistoria técnica após a montagem e licença de utilização.\n\nPreço: fossa séptica clássica 1 500-4 000 €, ETAR 5 000-15 000 €. Limpeza por limpa-fossas uma vez a cada 1–3 anos (80-200 €).',
+  title: 'Fossa séptica — normas, distâncias, licenças',
+  tldr: 'Se a casa não estiver ligada à rede pública de saneamento, é necessário tratamento autónomo das águas residuais.\n\nEm Portugal, isto pode ser uma fossa séptica clássica com poço absorvente, ou uma ETAR compacta moderna de tratamento biológico. Volume: ~3 m³ para 4–5 residentes. Distâncias mínimas: ≥30 m de um furo/poço, ≥10 m de casas vizinhas, ≥5 m do limite do terreno. A instalação exige projecto de um engenheiro, autorização na Câmara Municipal, vistoria técnica após a montagem e licença de utilização.\n\nPreço: fossa séptica clássica 1 500-4 000 €, ETAR 5 000-15 000 €. Limpeza por limpa-fossas uma vez a cada 1–3 anos (80-200 €).',
   tags: ['fossa', 'septica', 'saneamento', 'etar', 'agua-residual'],
   estimatedReadMinutes: 6,
   steps: [
@@ -47,7 +47,7 @@ export default {
       id: 'distances',
       title: 'Distâncias mínimas',
       content: [
-        { kind: 'paragraph', text: 'Corrigir para: «As regras de base para o dimensionamento das redes — Decreto Regulamentar 23/95 (Regulamento Geral dos Sistemas Públicos e Prediais de Distribuição de Água e de Drenagem de Águas Residuais). Mas, para tratamento autónomo, também são importantes o regulamento municipal de saneamento, o RJUE e o regime dos recursos hídricos: Lei da Água / DL 226-A/2007, especialmente se houver descarga ou infiltração».' },
+        { kind: 'paragraph', text: 'As regras de base para o dimensionamento das redes são definidas pelo Decreto Regulamentar 23/95 (Regulamento Geral dos Sistemas Públicos e Prediais de Distribuição de Água e de Drenagem de Águas Residuais). Mas, para tratamento autónomo, também são importantes o regulamento municipal de saneamento, o RJUE e o regime dos recursos hídricos: Lei da Água / DL 226-A/2007, especialmente se houver descarga ou infiltração.' },
         { kind: 'checklist', items: [
           'Do furo/poço: ≥ 30 m (muitas vezes 50 m em zonas de captação pública de água)',
           'Das fundações das casas vizinhas: ≥ 10 m',
@@ -82,7 +82,7 @@ export default {
             id: 's2',
             title: 'Obter autorização na Câmara Municipal',
             content: [
-              { kind: 'paragraph', text: 'Escrever: «A submissão é feita através do balcão urbanístico/serviços online da Câmara Municipal concreta ou presencialmente; o nome da plataforma depende do município. Para licenças APA/ARH utiliza-se o SILiAmb». São submetidos:' },
+              { kind: 'paragraph', text: 'A submissão é feita através do balcão urbanístico / serviços online da Câmara Municipal em causa, ou presencialmente; o nome da plataforma depende do município. Para licenças APA/ARH utiliza-se o SILiAmb. São submetidos:' },
               { kind: 'checklist', items: [
                 'Caderneta predial (certidão/extracto do imóvel)',
                 'Projecto de saneamento + memória descritiva (memorial descritivo)',
@@ -110,7 +110,7 @@ export default {
             id: 's4',
             title: 'Vistoria técnica e licença de utilização',
             content: [
-              { kind: 'paragraph', text: 'Após a instalação, a Câmara Municipal pode enviar um inspector para verificar a conformidade com o projecto. Reescrever: «Depois das obras é necessário fechar o procedimento de construção/legalização na Câmara e obter/guardar os documentos aplicáveis: projetos, termos de responsabilidade, comprovativos de comunicação/licenciamento, ficha técnica/elementos urbanísticos. Bancos, AL e compradores podem exigir prova da legalidade e conformidade do imóvel, mas a forma do documento depende do procedimento e da data».' }
+              { kind: 'paragraph', text: 'Após a instalação, a Câmara Municipal pode enviar um inspector para verificar a conformidade com o projecto. Depois das obras é necessário fechar o procedimento de construção ou legalização na Câmara e obter e guardar os documentos aplicáveis: projetos, termos de responsabilidade, comprovativos de comunicação/licenciamento, ficha técnica e elementos urbanísticos. Bancos, plataformas de Alojamento Local e compradores podem exigir prova da legalidade e conformidade do imóvel, mas a forma do documento depende do procedimento e da data.' }
             ]
           }
         ] }
@@ -142,9 +142,9 @@ export default {
           'ETAR obrigatória (a fossa séptica clássica não é suficiente)',
           'Cálculo do volume para o número máximo de hóspedes — normalmente com margem de 1,5x',
           'Contrato de manutenção obrigatório',
-          'Substituir por: «O município pode realizar fiscalizações ao AL, e a autoridade de saúde pode intervir em caso de riscos sanitários ou a pedido/por queixa. A regularidade e a composição das fiscalizações dependem do município e da licença/projecto concretos».',
-          'Em caso de problemas — a licença de AL é suspensa até à correcção',
-          'Escrever: «Em zonas sensíveis, perto de águas balneares, captações de água ou em caso de reutilização da água, a APA/ARH ou a Câmara podem exigir desinfecção adicional, incluindo UV, mas isso é definido no projecto e nas condições da licença».'
+          'O município pode realizar fiscalizações ao Alojamento Local, e a autoridade de saúde pode intervir em caso de riscos sanitários ou na sequência de uma queixa. A regularidade e o âmbito das fiscalizações dependem do município e da licença ou projecto concretos',
+          'Em caso de problemas, a licença de Alojamento Local é suspensa até à correcção',
+          'Em zonas sensíveis — perto de águas balneares, captações de água ou em caso de reutilização da água — a APA/ARH ou a Câmara podem exigir desinfecção adicional, incluindo UV; isso é definido no projecto e nas condições da licença'
         ] }
       ]
     },
@@ -154,10 +154,9 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Subsídios municipais para substituir uma fossa séptica clássica por ETAR — informe-se junto do seu município, especialmente no Algarve e no Alentejo',
-          'Dedução fiscal no IRS (imposto sobre o rendimento) por obras na habitação própria permanente: 30% até 1 500 €/ano',
-          'Substituir por: «Verifique os avisos concretos na Câmara, entidade gestora de águas/saneamento, CCDR/Portugal 2030/PRR. Não convém indicar uma subvenção nacional permanente para instalação privada de fossa séptica com esse nome sem aviso actual».',
-          'Escrever: «Por vezes existem avisos do Fundo Ambiental/APA/CCDR/município para projectos de protecção da água ou ambientais, mas não são permanentes e normalmente têm critérios restritos. Verificar os avisos actualmente abertos».',
-          'Eliminar este ponto. Se for necessário manter uma dica prática: «Por vezes os empreiteiros propõem pacotes integrados de works packages, mas uma CER, por si só, não é um programa de subsidiação de saneamento».'
+          'A dedução no IRS (imposto sobre o rendimento) só existe para reabilitação urbana certificada (zonas ARU): 30%, com limite de 500 € por agregado. A instalação corrente de uma fossa séptica não é elegível',
+          'Verifique os avisos concretos na Câmara, na entidade gestora de águas/saneamento, na CCDR/Portugal 2030/PRR. Não existe uma subvenção nacional permanente especificamente para instalação privada de fossa séptica — não conte com ela sem um aviso actual',
+          'Por vezes surgem avisos do Fundo Ambiental / APA / CCDR / município para projectos de protecção da água ou ambientais, mas não são permanentes e normalmente têm critérios restritos — verifique os avisos abertos no momento'
         ] }
       ]
     },
@@ -191,6 +190,6 @@ export default {
     { title: 'Decreto-Lei 152/97 — tratamento de águas residuais urbanas', url: 'https://dre.pt/dre/detalhe/decreto-lei/152-1997-217470', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ERSAR — Entidade Reguladora dos Serviços de Águas e Resíduos', url: 'https://www.ersar.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

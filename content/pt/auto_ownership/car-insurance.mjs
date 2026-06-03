@@ -97,7 +97,7 @@ export default {
           '🛍️ Comparar 3–5 propostas — os preços podem variar até 2 vezes',
           '📅 Mudança de seguradora — 30 dias antes do fim, com pedido escrito de cancelamento',
           '🚗 Ao vender o automóvel, o seguro do vendedor não passa para o comprador — o comprador contrata a sua própria RC antes de começar a circular. O vendedor notifica a seguradora da venda e pode pedir a cessação do contrato/reembolso de parte do prémio ou a transferência da apólice para outro automóvel',
-          '🆘 Número da ASF 213 847 900 — para reclamações',
+          '🆘 Linha da ASF 217 983 983 — para questões e reclamações',
           '🌍 Carta Verde obrigatória para viajar para outros países da UE',
           '📉 Após 5 anos sem acidentes — o bónus-malus desce até ao mínimo'
         ]}
@@ -116,6 +116,6 @@ export default {
     { title: 'FGA — Fundo de Garantia Automóvel', url: 'https://www.fga.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Seguro automóvel', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

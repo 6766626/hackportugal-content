@@ -54,7 +54,7 @@ export default {
           'Capital seguro обычно равен сумме кредита или текущему outstanding debt',
           'Срок полиса — минимум до окончания кредита',
           'Покрытие смерти почти всегда обязательно',
-          'IAD часто минимально принимаемое покрытие инвалидности',
+          'IAD часто является минимально принимаемым покрытием инвалидности',
           'ITP дороже, но лучше защищает заёмщика: триггер выплаты менее жёсткий, чем IAD',
           'Банк просит указать себя beneficiary/credor hipotecário в пределах остатка долга',
           'При двух заёмщиках покрытие может быть 50/50, 100/100 или пропорционально доходу',
@@ -134,6 +134,6 @@ export default {
     { title: 'Banco de Portugal — crédito habitação, FINE, TAEG и связанные продукты', url: 'https://www.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Regime Jurídico do Contrato de Seguro — Decreto-Lei 72/2008', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2008-34561275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

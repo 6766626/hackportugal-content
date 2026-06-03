@@ -38,7 +38,7 @@ export default {
           'The bank could not force new products or services as a condition of renegociação.',
           'Measures could include extending the term, temporary carência de capital, reducing the rate, changing the loan structure or consolidation.'
         ] },
-        { kind: 'warning', text: 'In April 2026 DL 80-A/2022 matters as a historical and contractual basis: if measures were agreed at that time, they continue to apply under your contrato. But you can no longer demand a new automatic application of the 2022–2023 special regime; use the general Banco de Portugal rules and your negotiating position.' }
+        { kind: 'warning', text: 'In 2026 DL 80-A/2022 matters as a historical and contractual basis: if measures were agreed at that time, they continue to apply under your contrato. But you can no longer demand a new automatic application of the 2022–2023 special regime; use the general Banco de Portugal rules and your negotiating position.' }
       ]
     },
     {
@@ -151,6 +151,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

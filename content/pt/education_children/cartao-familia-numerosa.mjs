@@ -3,7 +3,7 @@ export default {
   id: 'cartao-familia-numerosa',
   categoryId: 'education_children',
   title: 'Cartão de Família Numerosa: descontos para famílias com 3+ filhos',
-  tldr: 'O Cartão de Família Numerosa é o cartão da APFN para famílias com 3 ou mais filhos. Em 2026, a quota custa 15 €/ano e dá acesso a descontos de parceiros: CP, museus, lojas, seguros, serviços e, por vezes, programas de serviços municipais. Não é uma prestação social do Estado e não substitui o abono de família, mas funciona frequentemente em conjunto com benefícios municipais da Câmara Municipal: água, IMI, refeições escolares, transportes. Adequado para estrangeiros residentes, mediante comprovativo da composição do agregado familiar e da morada em Portugal.',
+  tldr: 'O Cartão de Família Numerosa é o cartão da APFN para famílias com 3 ou mais filhos. Em 2026, a quota custa 35 €/ano (mais uma jóia de inscrição única de 10 €, isenta se pagar por débito direto) e dá acesso a descontos de parceiros: CP, museus, lojas, seguros, serviços e, por vezes, programas de serviços municipais. Não é uma prestação social do Estado e não substitui o abono de família, mas funciona frequentemente em conjunto com benefícios municipais da Câmara Municipal: água, IMI, refeições escolares, transportes. Adequado para estrangeiros residentes, mediante comprovativo da composição do agregado familiar e da morada em Portugal.',
   tags: ['família', 'filhos', 'apfn', 'descontos'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que o cartão oferece',
       content: [
         { kind: 'paragraph', text: 'O Cartão de Família Numerosa é emitido pela APFN — Associação Portuguesa de Famílias Numerosas. É um cartão associativo para famílias com 3 ou mais filhos, e não uma autorização de residência, nem um estatuto fiscal, nem uma prestação da Segurança Social.' },
-        { kind: 'paragraph', text: 'A principal utilidade é o acesso a descontos de parceiros da APFN e a confirmação do estatuto de família numerosa para alguns programas comerciais e municipais. Em 2026, a quota normal da APFN é de 15 €/ano por família.' },
+        { kind: 'paragraph', text: 'A principal utilidade é o acesso a descontos de parceiros da APFN e a confirmação do estatuto de família numerosa para alguns programas comerciais e municipais. Em 2026, a quota normal da APFN é de 35 €/ano por família; na primeira inscrição acresce ainda uma jóia de inscrição única de 10 €, que não é cobrada se optar pelo pagamento por débito direto.' },
         { kind: 'checklist', items: ['descontos em parceiros da APFN: transportes, cultura, lojas, seguros, educação, lazer', 'descontos CP para viagens em família — as condições dependem do tipo de comboio e da tarifa', 'benefícios ou dias gratuitos em determinados museus e espaços culturais', 'benefícios municipais da Câmara Municipal: água, serviços escolares, transportes, desporto — se existir um programa local', 'pode ajudar no pedido da tarifa familiar da água, mas o cartão em si não garante a tarifa', 'os descontos comerciais exigem normalmente a apresentação do cartão e de um documento de identificação'] }
       ]
     },
@@ -30,7 +30,7 @@ export default {
       title: 'Documentos para o pedido',
       content: [
         { kind: 'paragraph', text: 'O conjunto de documentos depende da composição da família, mas a lógica é simples: a APFN deve conseguir ver quem são os pais, quem são os filhos, onde vive a família e como a pode contactar. É preferível ter documentos estrangeiros em português, inglês ou com tradução, se o original estiver em russo.' },
-        { kind: 'checklist', items: ['documentos dos pais: passaporte, Cartão de Residência, Cartão de Cidadão ou documento de residência da UE', 'NIF dos pais — útil para identificação e faturas, embora o cartão da APFN não seja um procedimento fiscal', 'certidões de nascimento dos filhos ou documentos equivalentes do registo civil', 'documento de adoção, tutela ou responsabilidades parentais, se aplicável', 'comprovativo de morada em Portugal: contrato de arrendamento, recibo de renda, fatura de serviços ou atestado de residência da Junta de Freguesia', 'email e telefone português para contacto', 'comprovativo de pagamento da quota da APFN de 15 €/ano', 'para filhos 18+ — certificado de frequência escolar ou outro documento, se a APFN pedir prova de dependência'] },
+        { kind: 'checklist', items: ['documentos dos pais: passaporte, Cartão de Residência, Cartão de Cidadão ou documento de residência da UE', 'NIF dos pais — útil para identificação e faturas, embora o cartão da APFN não seja um procedimento fiscal', 'certidões de nascimento dos filhos ou documentos equivalentes do registo civil', 'documento de adoção, tutela ou responsabilidades parentais, se aplicável', 'comprovativo de morada em Portugal: contrato de arrendamento, recibo de renda, fatura de serviços ou atestado de residência da Junta de Freguesia', 'email e telefone português para contacto', 'comprovativo de pagamento da quota da APFN de 35 €/ano (e da jóia de inscrição de 10 €, se aplicável)', 'para filhos 18+ — certificado de frequência escolar ou outro documento, se a APFN pedir prova de dependência'] },
         { kind: 'warning', text: 'As certidões de nascimento da Federação Russa são frequentemente pedidas com tradução certificada. Se o documento tiver sido emitido fora da UE, verifique antecipadamente se é necessária apostille/legalização para a situação concreta.' }
       ]
     },
@@ -45,8 +45,8 @@ export default {
           { id: 'upload-documents', title: '2. Anexar os documentos', content: [
             { kind: 'paragraph', text: 'Carregue ou envie, de acordo com as instruções da APFN, cópias dos documentos da família. Se o sistema pedir esclarecimentos, responda rapidamente: as perguntas dizem mais frequentemente respeito à idade dos filhos, à morada ou à confirmação do parentesco.' }
           ] },
-          { id: 'pay-fee', title: '3. Pagar 15 €/ano', content: [
-            { kind: 'paragraph', text: 'O pagamento da quota ativa a participação na APFN. Guarde o comprovativo de pagamento: pode ser pedido durante o tratamento do pedido.' }
+          { id: 'pay-fee', title: '3. Pagar a quota (35 €/ano)', content: [
+            { kind: 'paragraph', text: 'O pagamento da quota ativa a participação na APFN. Na primeira inscrição pode acrescer uma jóia de inscrição única de 10 €, mas não é cobrada se pagar por débito direto. Guarde o comprovativo de pagamento: pode ser pedido durante o tratamento do pedido.' }
           ] },
           { id: 'receive-card', title: '4. Receber o cartão e usar os descontos', content: [
             { kind: 'paragraph', text: 'Após aprovação, a APFN emite o Cartão de Família Numerosa. As condições de utilização dependem do parceiro: por vezes é necessário o cartão físico, por vezes basta o número do cartão ou a confirmação de associado.' }
@@ -73,7 +73,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Quota da APFN', amountEUR: 15, note: 'Em 2026, quota anual normal por família para acesso ao Cartão de Família Numerosa e aos descontos de parceiros.' },
+    { label: 'Quota da APFN', amountEUR: 35, note: 'Em 2026, quota anual normal por família para acesso ao Cartão de Família Numerosa e aos descontos de parceiros. Na primeira inscrição acresce uma jóia de inscrição única de 10 €, que não é cobrada se pagar por débito direto.' },
     { label: 'Pedidos municipais', amountEUR: 0, note: 'Normalmente gratuitos, mas a Câmara Municipal pode exigir declarações recentes ou atualização anual.' },
     { label: 'Tradução de documentos estrangeiros', amountEURMin: 20, amountEURMax: 60, note: 'Valor indicativo por documento; depende do idioma, da certificação notarial e da urgência.' }
   ],
@@ -82,6 +82,6 @@ export default {
     { title: 'gov.pt — portal do Governo de Portugal: serviços familiares e sociais', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — serviços para famílias, crianças e agregados familiares', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

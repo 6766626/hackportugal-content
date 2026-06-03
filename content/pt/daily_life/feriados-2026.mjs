@@ -44,7 +44,7 @@ export default {
       ]
     },
     {
-      id: 'es',
+      id: 'pontes',
       title: 'Pontes — como os portugueses prolongam os fins de semana',
       content: [
         { kind: 'paragraph', text: '«Ponte» é uma ligação entre um feriado e o fim de semana. Se o feriado calhar a uma terça-feira, muitos tiram a segunda-feira como folga → fim de semana de 4 dias.' },
@@ -52,7 +52,7 @@ export default {
         { kind: 'checklist', items: [
           '25 de abril (sáb) — não é muito vantajoso',
           '1 de maio (sex) — fim de semana prolongado de 1-3 de maio',
-          '10 de junho (qua) — terça-feira ou quinta-feira podem ser dias de folga',
+          '10 de junho (qua) — a meio da semana, sem ponte conveniente',
           '5 de outubro (seg) — fim de semana prolongado de 3-4-5 de outubro',
           '8 de dezembro (ter) — muitos tiram 7.12 → fim de semana de 4 dias'
         ]}
@@ -93,6 +93,6 @@ export default {
     { title: 'Governo de Portugal — Código do Trabalho', url: 'https://www.dgert.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Diário da República — Lei 7/2009 (Código do Trabalho)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

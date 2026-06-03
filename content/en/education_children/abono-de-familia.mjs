@@ -33,7 +33,7 @@ export default {
           '4º escalão — €88.43 for children ≤36 months; €44.77 for 36–72 months; after 72 months, check eligibility (often the basic abono under the 4.º escalão is not paid)',
           '5º escalão — Abono is not paid'
         ]},
-        { kind: 'paragraph', text: 'Single-parent families: +35%. Bonificação por deficiência — a fixed supplement in cases of disability. Additional extraordinário supplement — for the 2nd and subsequent children ≤36 months in escalões 1–4. Current values and escalão limits — always on seg-social.pt.' }
+        { kind: 'paragraph', text: 'Single-parent families: +50%. Bonificação por deficiência — a fixed supplement in cases of disability. Additional extraordinário supplement — for the 2nd and subsequent children ≤36 months in escalões 1–4. Current values and escalão limits — always on seg-social.pt.' }
       ]
     },
     {
@@ -88,6 +88,6 @@ export default {
     { title: 'ePortugal — Request Abono de Família', url: 'https://www.gov.pt/servicos/pedir-o-abono-de-familia-para-criancas-e-jovens', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Decreto-Lei 176/2003 — Abono de Família', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/176-2003', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -2,7 +2,7 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'luto-funeral-portugues-tradicoes',
   categoryId: 'emergency_rights',
-  title: 'Похороны и траур в Португалии: традиции, ритуалы, costos',
+  title: 'Похороны и траур в Португалии: традиции, ритуалы, расходы',
   tldr: 'В Португалии похороны обычно организует agência funerária: она забирает тело, оформляет certidão de óbito, бронирует кладбище/crematório и церковь. Типичный счёт в 2026: 1 500–3 500 € за базовые похороны; кремация как часть услуги часто добавляет/стоит 600–1 200 €, цены растут из‑за топлива, энергии и местных тарифов. Католические ритуалы: velório, missa de 7º dia, 30º dia и aniversário. Этикет: чёрный 1 неделю, тёмные цвета около месяца, в соцсетях — только после семьи.',
   tags: ['funeral', 'luto', 'траур', 'традиции'],
   estimatedReadMinutes: 6,
@@ -125,6 +125,6 @@ export default {
     { title: 'Segurança Social: subsídio por morte', url: 'https://www.seg-social.pt/subsidio-por-morte', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'DECO PROteste — direitos e proteção do consumidor', url: 'https://www.deco.proteste.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

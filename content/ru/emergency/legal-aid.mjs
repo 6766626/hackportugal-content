@@ -28,7 +28,7 @@ export default {
       id: 'free-aid',
       title: 'Бесплатная юридическая помощь (Apoio Judiciário)',
       content: [
-        { kind: 'paragraph', text: 'По Lei 34/2004. Право имеют лица с доходом ниже порога. Применяется в гражданских, административных и уголовных делах.' },
+        { kind: 'paragraph', text: 'По Lei 34/2004. Право на неё имеют лица с доходом ниже установленного порога. Применяется в гражданских, административных и уголовных делах.' },
         { kind: 'substeps', items: [
           { id: 'a1', title: 'Кто имеет право', content: [
             { kind: 'checklist', items: [
@@ -107,7 +107,7 @@ export default {
               '📋 Принесите ВСЕ документы по делу',
               '💰 Спросите про полный бюджет — не только первую консультацию',
               '⏰ Узнайте ориентировочный срок',
-              '✍️ Договор долгосрочного сопровождения (contrato de avença) обязателен для долгосрочного сопровождения',
+              '✍️ Для постоянного ведения дел обязателен письменный договор (contrato de avença)',
               '📃 Счёт-фактура: IVA 23%',
               '🗣️ На каких языках работают (PT/EN/ES/FR/иногда RU)'
             ]}
@@ -120,7 +120,7 @@ export default {
       title: 'Когда нужен юрист',
       content: [
         { kind: 'checklist', items: [
-          '🏛️ Отказ AIMA в ВНЖ / ЖВЖ — обязательно юрист с иммиграционной практикой',
+          '🏛️ Отказ AIMA в ВНЖ / ПМЖ — обязательно юрист с иммиграционной практикой',
           '🏛️ Отказ в гражданстве — обжалование через IRN',
           '🏠 Спор с арендодателем / выселение — срочно юрист (судебные сроки короткие)',
           '💼 Увольнение / трудовой спор — ACT + юрист',
@@ -158,6 +158,6 @@ export default {
     { title: 'Segurança Social — Apoio Judiciário', url: 'https://www.seg-social.pt/apoio-judiciario', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Provedor de Justiça — омбудсмен Португалии', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

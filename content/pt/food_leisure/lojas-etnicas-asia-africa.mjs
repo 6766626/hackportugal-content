@@ -98,6 +98,6 @@ export default {
     { title: 'ASAE — Autoridade de Segurança Alimentar e Económica: segurança alimentar e reclamações', url: 'https://www.asae.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Loja Brasil — sortido de produtos brasileiros em Portugal', url: 'https://www.lojabrasil.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

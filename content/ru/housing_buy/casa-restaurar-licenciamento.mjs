@@ -3,7 +3,7 @@ export default {
   id: 'casa-restaurar-licenciamento',
   categoryId: 'housing_buy',
   title: 'Реставрация старой квартиры: licenciamento da Câmara, ARU и льгота IMI',
-  tldr: 'В старой квартире в Португалии нельзя начинать «реставрацию» как обычный ремонт, если трогаете фасад, структуру, общие части, окна, балконы, azulejos или дом стоит в ARU / зоне património. Нужны архитектор, проверка Câmara Municipal и иногда DGPC. Муниципальные taxas за processo часто 100–500 €, но проект и fiscalização стоят отдельно. В ARU возможны IMI: 3 года освобождения после reabilitação, затем продление ещё на 5 лет для HPP или аренды, плюс IRS 30% расходов до 500 €.',
+  tldr: 'В старой квартире в Португалии нельзя начинать «реставрацию» как обычный ремонт, если трогаете фасад, структуру, общие части, окна, балконы, azulejos или дом стоит в ARU / зоне património. Нужны архитектор, проверка Câmara Municipal и иногда DGPC. Муниципальные taxas за processo часто 100–500 €, но проект и fiscalização стоят отдельно. В ARU возможны льготы по IMI: 3 года освобождения после reabilitação, затем продление ещё на 5 лет для HPP или аренды, плюс вычет по IRS 30% расходов до 500 €.',
   tags: ['aru', 'imi', 'licenciamento', 'obra'],
   estimatedReadMinutes: 6,
   steps: [
@@ -91,7 +91,7 @@ export default {
       id: 'contratos',
       title: '5. Договор с архитектором и подрядчиком: что прописать',
       content: [
-        { kind: 'paragraph', text: 'Старая квартира — это не косметический ремонт. В смете часто всплывают скрытые проблемы: балки, humidade, канализация, электричество без terra, asbestos/fibrocimento, незаконные mezzanines, слабая акустика. Нужны не только дизайнер, но архитектор с опытом licenciamento и инженер.' },
+        { kind: 'paragraph', text: 'Старая квартира — это не косметический ремонт. В смете часто всплывают скрытые проблемы: балки, humidade, канализация, электричество без terra, asbestos/fibrocimento, незаконные mezzanines, слабая акустика. Нужны не только дизайнер, но и архитектор с опытом licenciamento, и инженер.' },
         { kind: 'checklist', items: [
           'В договоре с архитектором: levantamento, estudo prévio, projeto, submissão à Câmara, respostas a notificações, acompanhamento de obra',
           'Отдельно указать, кто получает parecer DGPC / património, если адрес в охраняемой зоне',
@@ -159,6 +159,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

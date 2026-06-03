@@ -3,7 +3,7 @@ export default {
   id: 'psp-gnr-quem-chamar',
   categoryId: 'emergency_rights',
   title: 'PSP vs GNR: que polícia chamar e onde',
-  tldr: 'Em Portugal, o número de emergência é único — 112: acidente, agressão, violência doméstica, ameaças, criança desaparecida, incêndio, ambulância. A PSP atua normalmente nas cidades: Lisboa, Porto, capitais de distrito e grandes municípios. A GNR cobre zonas rurais, pequenas localidades, estradas e autoestradas, uma parte significativa do Algarve, zonas fronteiriças e naturais, e parte dos Açores/Madeira fora dos centros urbanos. Para assuntos não urgentes, procure a esquadra PSP ou o posto GNR mais próximo; a linha PSP 800 202 148 não substitui o 112.',
+  tldr: 'Em Portugal, o número de emergência é único — 112: acidente, agressão, violência doméstica, ameaças, criança desaparecida, incêndio, ambulância. A PSP atua normalmente nas cidades: Lisboa, Porto, capitais de distrito e grandes municípios. A GNR cobre zonas rurais, pequenas localidades, estradas e autoestradas, uma parte significativa do Algarve, zonas fronteiriças e naturais, e parte dos Açores/Madeira fora dos centros urbanos. Para assuntos não urgentes, procure a esquadra PSP ou o posto GNR mais próximo. À parte, o 800 202 148 é a linha gratuita 24h de informação e apoio a vítimas de violência doméstica (CIG); não substitui o 112.',
   tags: ['psp', 'gnr', '112', 'polícia'],
   estimatedReadMinutes: 5,
   steps: [
@@ -39,7 +39,7 @@ export default {
           'Violência doméstica em zona urbana — através do 112 em caso urgente ou na esquadra PSP, se não houver perigo imediato.'
         ] },
         { kind: 'paragraph', text: 'Como identificar: no uniforme e nas viaturas está escrito PSP. Normalmente uniforme azul-escuro, carros-patrulha azuis/brancos e letreiro de esquadra. No site da PSP existe pesquisa de contactos por comandos e unidades.' },
-        { kind: 'warning', text: 'A linha PSP 800 202 148 pode ser utilizada para contacto/orientação não urgente com a PSP, mas em perigo imediato é sempre 112.' }
+        { kind: 'warning', text: 'A PSP não tem uma linha única que substitua o 112: para assuntos não urgentes, dirija-se a uma esquadra ou procure o contacto do comando respetivo no site da PSP. O número 800 202 148 é a linha gratuita 24h para vítimas de violência doméstica (CIG), não uma linha geral de informação da PSP; em perigo imediato é sempre 112.' }
       ]
     },
     {
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

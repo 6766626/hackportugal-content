@@ -3,7 +3,7 @@ export default {
   id: 'aquecimento-inverno-recuperador',
   categoryId: 'daily_life',
   title: 'Отопление дома зимой: recuperador de calor, salamandra, esquentador',
-  tldr: 'Португальская зима часто означает не мороз, а 14–17 °C внутри дома, влажность и плесень. Быстрый вариант — электрический обогреватель за 20–80 €, но счёт за свет растёт быстро. Долгосрочно: кондиционер/тепловой насос 700–1 800 € за сплит, recuperador de calor на дровах от 1 500 €, salamandra a pellets обычно от 2 000 €. Esquentador a gás — в основном для горячей воды; для комнат нужен котёл/радиаторы. Проверьте Fundo Ambiental: Vale Eficiência может субсидировать тепловые насосы, но только по открытым avisos и с условиями.',
+  tldr: 'Португальская зима часто означает не мороз, а 14–17 °C внутри дома, влажность и плесень. Быстрый вариант — электрический обогреватель за 20–80 €, но счёт за свет растёт быстро. Долгосрочно: кондиционер/тепловой насос 700–1 800 € за сплит, recuperador de calor на дровах от 1 500 €, salamandra a pellets обычно от 2 000 €. Esquentador a gás — в основном для горячей воды; для комнат нужен котёл/радиаторы. Проверьте Fundo Ambiental: программа Vale Eficiência в феврале 2026 прекратила приём новых заявок, но есть E-Lar (замена газовой техники на электрическую) и кредитная линия на энергоэффективность — условия читайте на fundoambiental.pt.',
   tags: ['отопление', 'inverno', 'energia', 'casa'],
   estimatedReadMinutes: 5,
   steps: [
@@ -89,10 +89,10 @@ export default {
       title: '5. Проверить Fundo Ambiental и Vale Eficiência',
       content: [
         { kind: 'paragraph', text: 'Fundo Ambiental периодически открывает avisos для энергоэффективности жилья: замена окон, теплоизоляция, bombas de calor, иногда оборудование для отопления/ГВС. Условия меняются по году, региону и типу домохозяйства.' },
-        { kind: 'paragraph', text: 'Vale Eficiência исторически был направлен на экономически уязвимые домохозяйства, например получателей tarifa social de energia elétrica, и работал через ваучеры на утверждённые меры. В 2026 не покупайте оборудование “под субсидию”, пока не проверили, что aviso открыт, ваш NIF подходит и поставщик/инсталлятор принимает программу.' },
+        { kind: 'paragraph', text: 'Vale Eficiência был направлен на экономически уязвимые домохозяйства, например получателей tarifa social de energia elétrica, и работал через ваучеры на утверждённые меры, включая bombas de calor. Но в феврале 2026 Fundo Ambiental прекратил выдачу новых ваучеров по этой программе, поэтому новые заявки сейчас не принимаются. Актуальная альтернатива — программа E-Lar (замена газовых приборов на электрические: плиты, духовки, водонагреватели; тепловые насосы в неё не входят) и кредитная линия на работы по энергоэффективности. В 2026 не покупайте оборудование “под субсидию”, пока не проверили на fundoambiental.pt, что нужный aviso открыт, ваш NIF подходит и поставщик/инсталлятор принимает программу.' },
         { kind: 'checklist', items: [
           'Проверьте fundoambiental.pt перед покупкой, а не после',
-          'Смотрите prazo de candidatura, eligible expenses и даты счетов',
+          'Смотрите prazo de candidatura, перечень допустимых расходов и даты счетов',
           'Сохраняйте fatura с NIF, comprovativo de pagamento и техническую ficha',
           'Проверьте, нужен ли certificado energético до или после работ',
           'Уточните, принимает ли программа оборудование: split AC, bomba de calor AQS, salamandra или изоляцию',
@@ -114,6 +114,6 @@ export default {
     { title: 'Fundo Ambiental — программы поддержки энергоэффективности и Vale Eficiência', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE — практическая информация по энергоэффективности жилья и certificado energético', url: 'https://www.adene.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

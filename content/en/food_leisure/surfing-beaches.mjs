@@ -183,6 +183,6 @@ export default {
     { title: 'WSR Ericeira — World Surf Reserve', url: 'https://www.ericeirawsr.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Portugal — Surf', url: 'https://www.visitportugal.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'mental-health-resources',
   categoryId: 'emergency_rights',
   title: 'Mental health — hotlines and support',
-  tldr: 'In a crisis: SNS 24 → option 4 (SNS psychological support, 24/7) or SOS Voz Amiga 213 544 545 (suicide prevention, 16:00-24:00).\n\n⚠️ 808 numbers are charged at the subscriber’s tariff (mobile/foreign SIM cards may incur charges). Through SNS — your family doctor will refer you to a psychologist/psychiatrist (free, waiting list 1-3 months). Private psychologist €50-90/session, psychiatrist €80-150. English-speaking specialists — at CUF, Lusíadas, Luz. Online: BetterHelp, ePsicólogos. Linha Vida 1414 — for addictions, has working hours (NOT 24/7).',
+  tldr: 'In a crisis: SNS 24 → option 4 (SNS psychological support, 24/7) or SOS Voz Amiga 213 544 545 (suicide prevention, 15:30-00:30).\n\n⚠️ 808 numbers are charged at the subscriber’s tariff (mobile/foreign SIM cards may incur charges). Through SNS — your family doctor will refer you to a psychologist/psychiatrist (free, waiting list 1-3 months). Private psychologist €50-90/session, psychiatrist €80-150. English-speaking specialists — at CUF, Lusíadas, Luz. Online: BetterHelp, ePsicólogos. Linha Vida 1414 — for addictions, has working hours (NOT 24/7).',
   tags: ['psychology', 'psychiatrist', 'crisis', 'mental health'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           '☎️ 112 — emergency service, for suicidal intent / threat to life',
           '☎️ SNS 24: 808 24 24 24 → option 4 — SNS psychological support, 24/7. The service itself is free, but the 808 number is charged at the subscriber’s tariff (mobile/foreign SIM cards may be charged per minute)',
-          '☎️ SOS Voz Amiga: 213 544 545 — anonymous suicide prevention line, 16:00-24:00 daily',
+          '☎️ SOS Voz Amiga: 213 544 545 — anonymous suicide prevention line, daily 15:30-00:30',
           '☎️ Telefone Amizade: 222 080 707 — line in Porto, 16:00-23:00',
           '☎️ Linha Vida (ICAD/SICAD): 1414 — for addictions (drugs/alcohol). Has working hours — NOT 24-hour. Free',
           '☎️ APAV (for victims of violence): 116 006 — national support for victims of crime',
@@ -166,6 +166,6 @@ export default {
     { title: 'SOS Voz Amiga', url: 'https://www.sosvozamiga.org/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'APAV — victim support', url: 'https://apav.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

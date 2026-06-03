@@ -71,7 +71,7 @@ export default {
         { kind: 'paragraph', text: 'The licence is only the beginning. Minimum sizes by species, defeso (closed season) and the daily limit also apply.' },
         { kind: 'checklist', items: [
           'Daily limit: 10 kg of catch per person per day + 1 fish, OR one fish weighing >10 kg (if you catch one of those — that is it for today)',
-          'Minimum sizes: robalo 36 cm, dourada 23 cm, sargo 25 cm, choco 10 cm, polvo 750 g, etc. — the full list is on the DGRM website',
+          'Minimum sizes: robalo 36 cm, dourada 19 cm, sargo 25 cm, choco 10 cm, polvo 750 g, etc. — the full list is on the DGRM website',
           'Defeso: closed periods by species. robalo — partial ban in the winter months, sardinha — summer defeso (dates change annually)',
           'Prohibited species: santola during certain periods, some rays — all year round',
           'Prohibited methods: tresmalho/redes (nets) — for professionals only; explosives, poison, electric shock — never',
@@ -155,6 +155,6 @@ export default {
     { title: 'Minimum sizes by species — DGRM table', url: 'https://www.dgrm.pt/pesca_cpt_especies', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Polícia Marítima — Autoridade Marítima Nacional', url: 'https://www.amn.pt/PM/Paginas/MissaoCompetencias.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

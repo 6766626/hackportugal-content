@@ -103,6 +103,6 @@ export default {
     { title: 'IRN — Cartão de Cidadão: application and renewal', url: 'https://irn.justica.gov.pt/Servicos/Cidadao/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IRN — Portuguese Electronic Passport', url: 'https://irn.justica.gov.pt/Servicos/Cidadao/Passaporte', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

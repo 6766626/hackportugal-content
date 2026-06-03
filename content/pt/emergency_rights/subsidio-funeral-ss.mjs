@@ -3,7 +3,7 @@ export default {
   id: 'subsidio-funeral-ss',
   categoryId: 'emergency_rights',
   title: 'Subsídio de Funeral — apoio para despesas de funeral da Segurança Social',
-  tldr: 'O Subsídio de Funeral é uma prestação única da Segurança Social para cobrir parte das despesas de funeral: em 2026, o valor padrão é 219,96 €. O pedido deve ser apresentado no prazo de 6 meses após a morte, através da Segurança Social Direta / gov.pt ou num balcão da Segurança Social. Para cônjuge, filhos, pais e outros familiares em linha reta, não se trata de uma verificação de insuficiência económica: contam o parentesco, o facto de ter pago o funeral e o estatuto da pessoa falecida como beneficiário da Segurança Social.',
+  tldr: 'O Subsídio de Funeral é uma prestação única da Segurança Social para cobrir parte das despesas de funeral: em 2026, o valor padrão é 261,25 €. O pedido deve ser apresentado no prazo de 6 meses (a contar do primeiro dia do mês seguinte ao da morte), através da Segurança Social Direta / gov.pt ou num balcão da Segurança Social. Para cônjuge, filhos, pais e outros familiares em linha reta, não se trata de uma verificação de insuficiência económica: contam o parentesco, o facto de ter pago o funeral e o estatuto da pessoa falecida como beneficiário da Segurança Social.',
   tags: ['funeral', 'segurança-social', 'apoio', 'niss'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'Que prestação é esta',
       content: [
-        { kind: 'paragraph', text: 'O Subsídio de Funeral não é uma compensação pelo custo total do funeral, mas sim uma ajuda única de valor fixo da Segurança Social. Em abril de 2026, o valor indicado na página oficial da Segurança Social é 219,96 €.' },
+        { kind: 'paragraph', text: 'O Subsídio de Funeral não é uma compensação pelo custo total do funeral, mas sim uma ajuda única de valor fixo da Segurança Social. Em 2026, o valor indicado na página oficial da Segurança Social é 261,25 €.' },
         { kind: 'paragraph', text: 'Normalmente, é pedido pela pessoa que pagou o funeral da pessoa falecida beneficiário da Segurança Social: cônjuge/parceiro em união de facto, filho, progenitor ou outro familiar em linha reta. Para estes familiares próximos, a prestação não é means-tested: a Segurança Social não avalia o seu rendimento como condição de acesso.' },
         { kind: 'warning', text: 'Não confunda com o subsídio por morte nem com o reembolso de despesas de funeral. O subsídio por morte é uma prestação distinta e mais elevada, paga aos familiares sobrevivos em caso de morte de uma pessoa segurada/pensionista. O reembolso de despesas de funeral aplica-se noutros cenários e depende das despesas efetivamente suportadas. Se não tiver a certeza, apresente o pedido através do serviço gov.pt/Segurança Social: o sistema e o funcionário encaminharão para o formulário correto.' }
       ]
@@ -53,10 +53,10 @@ export default {
       id: 'deadline-and-application',
       title: 'Prazo e apresentação do pedido',
       content: [
-        { kind: 'paragraph', text: 'O pedido deve ser apresentado no prazo de 6 meses após a morte. Não espere pelo fim dos procedimentos sucessórios: a prestação está ligada às funeral expenses e ao prazo de apresentação, não à partilha de herança.' },
+        { kind: 'paragraph', text: 'O pedido deve ser apresentado no prazo de 6 meses, a contar do primeiro dia do mês seguinte ao da morte. Não espere pelo fim dos procedimentos sucessórios: a prestação está ligada às despesas de funeral e ao prazo de apresentação, não à partilha de herança.' },
         { kind: 'substeps', items: [
           { id: 'online', title: 'Online através do gov.pt / Segurança Social Direta', content: [
-            { kind: 'paragraph', text: 'Aceda ao serviço “Pedir o subsídio de funeral” no gov.pt. Para iniciar sessão, normalmente utiliza-se a Chave Móvel Digital (CMD), o Cartão de Cidadão ou o acesso à Segurança Social Direta.' },
+            { kind: 'paragraph', text: 'Aceda ao serviço “Requerer o subsídio de funeral à Segurança Social” no gov.pt. Para iniciar sessão, normalmente utiliza-se a Chave Móvel Digital (CMD), o Cartão de Cidadão ou o acesso à Segurança Social Direta.' },
             { kind: 'checklist', items: [
               'Confirme os seus dados: nome, NISS, NIF, morada, IBAN.',
               'Indique os dados da pessoa falecida e a data de óbito.',
@@ -84,12 +84,12 @@ export default {
           'Se a pessoa falecida recebia pensão, esclareça a cessação da pensão e eventuais survivor benefits.',
           'Guarde as funeral invoices durante pelo menos vários anos: podem ser necessárias para a herança ou para questões fiscais.'
         ] },
-        { kind: 'warning', text: 'A prestação é pequena — 219,96 €, e a funeral agency invoice média em Portugal é frequentemente bastante superior. Não planeie o funeral partindo do princípio de que a Segurança Social irá cobrir a totalidade das despesas.' }
+        { kind: 'warning', text: 'A prestação é pequena — 261,25 €, e a fatura média de uma agência funerária em Portugal é frequentemente bastante superior. Não planeie o funeral partindo do princípio de que a Segurança Social irá cobrir a totalidade das despesas.' }
       ]
     }
   ],
   costs: [
-    { label: 'Subsídio de Funeral', amountEUR: 219.96, note: 'Prestação única de valor fixo da Segurança Social em abril de 2026.' },
+    { label: 'Subsídio de Funeral', amountEUR: 261.25, note: 'Prestação única de valor fixo da Segurança Social em 2026.' },
     { label: 'Apresentação do pedido', amountEUR: 0, note: 'Através do gov.pt/Segurança Social Direta ou num balcão da Segurança Social, não é cobrada taxa administrativa.' }
   ],
   sources: [
@@ -98,16 +98,16 @@ export default {
       url: 'https://www.seg-social.pt/subsidio-de-funeral',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
-      title: 'gov.pt: Pedir o subsídio de funeral',
-      url: 'https://www.gov.pt/servicos/pedir-o-subsidio-de-funeral',
+      title: 'gov.pt: Requerer o subsídio de funeral à Segurança Social',
+      url: 'https://www.gov.pt/servicos/requerer-o-subsidio-de-funeral-a-seguranca-social',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

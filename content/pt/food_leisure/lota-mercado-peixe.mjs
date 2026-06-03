@@ -18,8 +18,8 @@ export default {
           'A segunda-feira costuma ter menos escolha: parte da frota não sai ao domingo',
           'Depois de uma tempestade, a escolha é pior e os preços são mais altos',
           'O peixe mais “local” é o que chegou ao porto mais próximo, não uma vitrine bonito importada',
-          'Peça o peixe “amanhada” — limpo e eviscerado',
-          'Peça “escamada” — para retirar as escamas',
+          'Peça o peixe “amanhado” — limpo e eviscerado',
+          'Peça “escamado” — para retirar as escamas',
           'Peça “em postas” — para cortar em postas',
           'Peça “filetes” — filetes; nem todo o peixe se presta a isso sem desperdício'
         ] }
@@ -111,6 +111,6 @@ export default {
     { title: 'DGRM — avisos e regras sobre bivalves e zonas de apanha', url: 'https://www.dgrm.pt/web/guest/pesca', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Docapesca — lotas e postos de venda', url: 'https://www.docapesca.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -11,7 +11,7 @@ export default {
       id: 'pf-password',
       title: '🔐 Recuperar a palavra-passe do Portal das Finanças',
       content: [
-        { kind: 'paragraph', text: 'O cenário mais frequente. A AT (autoridade tributária) utiliza a «Senha de Acesso» — uma palavra-passe de 8 dígitos para entrar no Portal das Finanças.' },
+        { kind: 'paragraph', text: 'O cenário mais frequente. A AT (autoridade tributária) utiliza a «Senha de Acesso» — uma palavra-passe de pelo menos 8 caracteres (letra maiúscula e minúscula, algarismo e caracter especial) para entrar no Portal das Finanças.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Método 1 — SMS (rápido, se tiver o número)', content: [
             { kind: 'checklist', items: [
@@ -84,7 +84,7 @@ export default {
         { kind: 'checklist', items: [
           '🔓 Desbloquear: Espaço Cidadão / Loja CC, presencialmente, gratuito',
           '🆕 Alterar o PIN autonomamente: no site autenticacao.gov.pt (é necessário o PIN antigo)',
-          '📤 Repor totalmente (se o PIN foi esquecido e está bloqueado): Loja CC, cerca de 10 €, no dia da visita',
+          '📤 Repor totalmente (se o PIN foi esquecido e está bloqueado): novos códigos PIN na Loja CC, 5 €, no dia da visita',
           '⚠️ Carta de códigos («carta de PINs») — chega aquando da emissão do CC. Guarde-a!',
           '💡 Se perdeu o cartão: bloquear através do 808 12 12 30 ou do ePortugal — imediatamente'
         ]}
@@ -126,13 +126,13 @@ export default {
     { label: 'Recuperação da palavra-passe do Portal das Finanças', amountEUR: 0 },
     { label: 'Recuperação da CMD', amountEUR: 0 },
     { label: 'Desbloqueio do PIN do CC', amountEUR: 0 },
-    { label: 'Reposição total do PIN do CC', amountEURMin: 10, amountEURMax: 15 }
+    { label: 'Novos códigos PIN do CC', amountEUR: 5 }
   ],
   sources: [
     { title: 'Portal das Finanças', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Autenticação.gov.pt — Chave Móvel Digital', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Cartão de Cidadão', url: 'https://www.gov.pt/cidadaos/-/informacoes/o-que-e-o-cartao-de-cidadao-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

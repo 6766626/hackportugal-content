@@ -81,7 +81,7 @@ export default {
             { kind: 'checklist', items: [
               'Assento de Nascimento',
               'Boletim de Saúde Infantil (caderneta de saúde infantil)',
-              'Cartão de Cidadão é emitido apenas se a criança for cidadã portuguesa. Filhos de estrangeiros nascidos em Portugal só obtêm nacionalidade se cumprirem as condições da Lei da Nacionalidade. Reforma da lei da nacionalidade 2026: TC ruled 49/XVII unconstitutional, 48/XVII still pending DRE — verifique o estado actualizado',
+              'Cartão de Cidadão é emitido apenas se a criança for cidadã portuguesa. Filhos de estrangeiros nascidos em Portugal só obtêm nacionalidade se cumprirem as condições da Lei da Nacionalidade. A reforma da lei da nacionalidade (promulgada em maio de 2026) tornou as regras mais exigentes: passa a ser necessário que um dos progenitores tenha residido legalmente em Portugal há pelo menos 5 anos (antes, 1 ano). Verifique o estado actualizado e as regras transitórias',
               'Se a criança não for cidadã portuguesa — são tratados documentos estrangeiros/passaporte através do consulado dos pais e, se necessário, residence process através da AIMA',
               'NIF para uma criança estrangeira é normalmente pedido separadamente na Autoridade Tributária através de representante; para uma criança portuguesa, o número pode estar associado à emissão do Cartão de Cidadão',
               'Número de Utente é frequentemente criado através do mecanismo Nascer Utente, mas confirme-o após a alta; se o número não aparecer — peça-o no Centro de Saúde/ULS com o assento de nascimento e os documentos dos pais'
@@ -163,6 +163,6 @@ export default {
     { title: 'Código do Trabalho (Lei 7/2009, alterado por Lei 13/2023)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRN — Registar nascimento / Balcão do Nado Vivo', url: 'https://irn.justica.gov.pt/Registos/Registo-Civil/Nascimento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

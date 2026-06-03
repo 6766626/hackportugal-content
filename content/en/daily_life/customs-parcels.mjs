@@ -18,7 +18,8 @@ export default {
           '📦 Commercial > €150: IVA + customs duty (0–17% according to HS code)',
           '📄 Any goods parcel from a non-EU country must be declared via IOSS or import',
           '🌍 Regional IVA rates: Madeira and Açores have their own standard rates (Açores — 16% standard, Madeira — 22% standard in 2026; check the current rates)',
-          '🍷 Excise duties (IEC): alcohol, tobacco, energy products — on top of IVA. Perfume is NOT a harmonised excise good in the EU; for perfume, ordinary duty/VAT apply, with no excise'
+          '🍷 Excise duties (IEC): alcohol, tobacco, energy products — on top of IVA. Perfume is NOT a harmonised excise good in the EU; for perfume, ordinary duty/VAT apply, with no excise',
+          '⏳ On the horizon: the EU has agreed to abolish the €150 duty-free threshold for e-commerce parcels. Transitional measures (including a handling fee) are expected during 2026, but as of May 2026 the €150 threshold still applies'
         ]}
       ]
     },
@@ -116,6 +117,6 @@ export default {
     { title: 'CTT — Parcels from abroad', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Importing goods from countries outside the EU', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

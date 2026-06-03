@@ -16,7 +16,7 @@ export default {
           'Não residentes com rendimento fora de Portugal — normalmente 60–70%; as condições concretas dependem do banco',
           'Cidadãos da EU: os bancos avaliam a tax residency, a fonte/moeda do rendimento e a employment stability — a cidadania EU por si só não equivale às condições de um residente em Portugal',
           'Cidadãos não EU: não existe uma regra universal de “2 anos de autorização de residência”; alguns bancos são mais favoráveis a uma autorização de residência estável com rendimento em Portugal — avaliação individual',
-          'Substituir por: "Golden Visa: novas ARI através da compra de imóveis já não estão disponíveis; para requerentes/titulares de ARI existentes, o banco continua a verificar individualmente a origem dos fundos, riscos de sanções e rendimento."'
+          'Golden Visa: novas ARI através da compra de imóveis já não estão disponíveis (Lei 56/2023, Mais Habitação); para requerentes e titulares de ARI existentes, o banco continua a verificar individualmente a origem dos fundos, riscos de sanções e rendimento.'
         ]},
         { kind: 'warning', text: 'Cidadãos da Federação Russa enfrentam restrições em alguns bancos desde 2022 — a escolha é mais limitada e as taxas de juro podem ser mais elevadas. Verifique as condições no banco concreto.' }
       ]

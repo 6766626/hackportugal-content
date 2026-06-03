@@ -3,7 +3,7 @@ export default {
   id: 'biblioteca-municipal-cartao',
   categoryId: 'daily_life',
   title: 'Cartão de Leitor: бесплатные муниципальные библиотеки',
-  tldr: 'Муниципальные библиотеки в Португалии бесплатны: в Lisboa работает сеть BLX примерно из 15 библиотек, в Porto — Biblioteca Municipal Almeida Garrett и городские филиалы, в Coimbra — Biblioteca Municipal. Cartão de Leitor обычно оформляют бесплатно за 5–15 минут по паспорту/ВНЖ, NIF и comprovativo de morada. Домой дают книги, DVD, аудиокниги и детские издания; стандартный срок займа часто 21 день, с продлением, если нет брони.',
+  tldr: 'Муниципальные библиотеки в Португалии бесплатны: в Lisboa работает сеть BLX примерно из 17 библиотек, в Porto — Biblioteca Municipal Almeida Garrett и городские филиалы, в Coimbra — Biblioteca Municipal. Cartão de Leitor обычно оформляют бесплатно за 5–15 минут по паспорту/ВНЖ, NIF и comprovativo de morada. Домой дают книги, DVD, аудиокниги и детские издания; стандартный срок займа часто 21 день, с продлением, если нет брони.',
   tags: ['biblioteca', 'cartão', 'книги', 'blx'],
   estimatedReadMinutes: 5,
   steps: [
@@ -30,7 +30,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'В Португалии библиотеки управляются муниципалитетами, поэтому правила регистрации и срок выдачи немного отличаются. Начинайте с сайта Câmara Municipal вашего города или с поиска “biblioteca municipal + название города”.' },
         { kind: 'checklist', items: [
-          'Lisboa: сеть BLX — Bibliotecas de Lisboa; около 15 муниципальных библиотек и тематические пространства по районам',
+          'Lisboa: сеть BLX — Bibliotecas de Lisboa; около 17 муниципальных библиотек (включая передвижную) и тематические пространства по районам',
           'Porto: Biblioteca Municipal Almeida Garrett в Jardins do Palácio de Cristal — главный городской адрес, плюс муниципальные сервисы чтения',
           'Coimbra: Biblioteca Municipal de Coimbra и городские читальные пространства',
           'Cascais, Oeiras, Sintra, Almada, Braga, Aveiro, Faro тоже имеют бесплатные муниципальные библиотеки',
@@ -81,7 +81,7 @@ export default {
       id: 'borrowing-rules',
       title: 'Сроки, лимиты и штрафы',
       content: [
-        { kind: 'paragraph', text: 'Базовая логика в муниципальных библиотеках похожа: берёте документы на дом, возвращаете в срок, при необходимости продлеваете. Частый срок займа — 21 день, но лимиты по количеству книг/DVD и возможность продления устанавливает конкретная Câmara Municipal.' },
+        { kind: 'paragraph', text: 'Базовая логика в муниципальных библиотеках похожа: берёте издания на дом, возвращаете в срок, при необходимости продлеваете. Частый срок займа — 21 день, но лимиты по количеству книг/DVD и возможность продления устанавливает конкретная Câmara Municipal.' },
         { kind: 'checklist', items: [
           'Проверяйте prazo de devolução в чеке, e-mail или личном кабинете',
           'Продлевайте до истечения срока, особенно если уезжаете из города',
@@ -123,6 +123,6 @@ export default {
     { title: 'Câmara Municipal do Porto — Biblioteca Municipal Almeida Garrett', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Coimbra — Biblioteca Municipal', url: 'https://www.cm-coimbra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -95,6 +95,6 @@ export default {
     { title: 'DGADR: Traditional Portuguese Products', url: 'https://tradicional.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'European Commission eAmbrosia: Portuguese PGI products', url: 'https://ec.europa.eu/agriculture/eambrosia/geographical-indications-register/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

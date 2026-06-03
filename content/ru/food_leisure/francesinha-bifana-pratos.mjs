@@ -43,12 +43,12 @@ export default {
               'Типичная порция на человека: 18–28 €, без вина и десертов.',
               'На 2–4 человек выгодно брать порцию/полпорции по весу и делить.',
               'Классическая подача: хрустящая кожа, сочное мясо, острый перечный соус, апельсин, batata frita.',
-              'Лучшее время — обед в выходные, но бронируйте: хорошие casas lotam.',
+              'Лучшее время — обед в выходные, но бронируйте: популярные casas заполняются под завязку.',
               'Вино региона Bairrada — espumante или красное Baga.'
             ] }
           ]},
           { id: 'everywhere-bifana', title: 'Любой город: bifana', content: [
-            { kind: 'paragraph', text: 'Bifana — лучший дешёвый тест местной еды. Её продают в snack-bar, tasca, cervejaria, на рынках и у стадионов. Хорошая bifana — мягкое мясо, свежий papo-seco и понятный соус, а не сухая свиная отбивная в хлебе.' },
+            { kind: 'paragraph', text: 'Bifana — лучший дешёвый тест местной еды. Её продают в snack-bar, tasca, cervejaria, на рынках и у стадионов. Хорошая bifana — мягкое мясо, свежий papo-seco и выраженный соус, а не сухая свиная отбивная в хлебе.' },
             { kind: 'checklist', items: [
               'Обычная цена в 2026: 2,50–5 €.',
               'В туристическом центре Lisboa/Porto цена 5–7 € уже не редкость.',
@@ -123,6 +123,6 @@ export default {
     { title: 'Visit Portugal: Porto and North — еда и вино региона', url: 'https://www.visitportugal.com/en/destinos/porto-e-norte', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Visit Portugal: Centro de Portugal — Bairrada, Mealhada и региональная кухня', url: 'https://www.visitportugal.com/en/destinos/centro-de-portugal', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

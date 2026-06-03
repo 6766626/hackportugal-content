@@ -84,7 +84,7 @@ export default {
             id: 's4',
             title: 'Obter o número de registo e aplicá-lo no casco',
             content: [
-              { kind: 'paragraph', text: 'Formato: P-XX-NNNN, em que P — Portugal, XX — porto de registo (LX — Lisboa, CS — Cascais, SE — Setúbal, FA — Faro, etc.), NNNN — número. O número deve ser aplicado no casco de ambos os lados com tinta indelével ou numa placa colocada em local visível.' }
+              { kind: 'paragraph', text: 'O conjunto de identificação é composto pelo nome da embarcação, pelo número de registo e por um algarismo do tipo de embarcação consoante a zona de navegação seguido das letras PT — os dois últimos separados por hífen, por exemplo NAME-12345-5PT. É inscrito na popa (ou em ambos os bordos, se não ficar legível na popa) com tinta indelével de cor contrastante.' }
             ]
           }
         ] }
@@ -189,6 +189,6 @@ export default {
     { title: 'Decreto-Lei 93/2018 — Regime Jurídico da Náutica de Recreio', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-116950304', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 93/2018, art. 33.º — seguro obrigatório de embarcações', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-116950304', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

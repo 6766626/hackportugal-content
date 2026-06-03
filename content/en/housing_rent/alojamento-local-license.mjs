@@ -3,7 +3,7 @@ export default {
   id: 'alojamento-local-license',
   categoryId: 'housing_rent',
   title: 'Alojamento Local (AL): licence for short-term rentals',
-  tldr: 'Alojamento Local is the registration of accommodation for short-term rental to tourists through the Câmara Municipal and RNAL.\n\nIn 2026, the regime is based on DL 128/2014, with Mais Habitação amendments and subsequent changes: municípios can create zonas de contenção and zonas de crescimento sustentável, where new AL registrations are limited or suspended. Without an RNAL number, you cannot legally list a property on Airbnb/Booking. Check the Câmara regulations before buying a flat for AL.',
+  tldr: 'Alojamento Local is the registration of accommodation for short-term rental to tourists through the Câmara Municipal and RNAL.\n\nIn 2026, the regime is based on DL 128/2014, with Mais Habitação amendments (Lei 56/2023) and DL 76/2024, which rolled back some of the earlier restrictions: municípios can create zonas de contenção and zonas de crescimento sustentável, where new AL registrations are limited or suspended. Without an RNAL number, you cannot legally list a property on Airbnb/Booking. Check the Câmara regulations before buying a flat for AL.',
   tags: ['al', 'rent', 'rnal', 'câmara'],
   estimatedReadMinutes: 6,
   steps: [

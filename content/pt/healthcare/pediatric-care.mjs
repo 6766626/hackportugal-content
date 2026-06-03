@@ -3,7 +3,7 @@ export default {
   id: 'pediatric-care',
   categoryId: 'healthcare',
   title: 'Pediatra em Portugal — SNS, médicos privados, o que esperar',
-  tldr: 'Após o registo, é atribuído à criança um Número de Utente; o médico de família é atribuído se houver listas disponíveis na USF/UCSP — caso contrário, a criança fica sem médico de família, mas mantém acesso à vacinação, ao programa Saúde Infantil através da unidade/consulta aberta/enfermagem e a cuidados urgentes. As consultas programadas de Saúde Infantil e Juvenil seguem o calendário da DGS (1.ª semana; 1, 2, 4, 6, 9, 12, 15, 18 meses; 2, 3, 4, 5 anos; 6–7, 8, 10, 12–13 e 15–18 anos) — gratuitas. A Pediatria no SNS funciona através de referenciação para hospital/specialty care; no sector privado, os pediatras fazem frequentemente também consultas preventivas de rotina (60–120 €/consulta sem seguro)\\.\n\nUrgência pediátrica: Hospital Dona Estefânia (Lisboa), Hospital Pediátrico (Coimbra), Hospital de São João (Porto). Em caso de risco de vida — 112; nos restantes casos, ligue primeiro para o SNS 24 (808 24 24 24).',
+  tldr: 'Após o registo, é atribuído à criança um Número de Utente; o médico de família é atribuído se houver listas disponíveis na USF/UCSP — caso contrário, a criança fica sem médico de família, mas mantém acesso à vacinação, ao programa Saúde Infantil através da unidade/consulta aberta/enfermagem e a cuidados urgentes. As consultas programadas de Saúde Infantil e Juvenil seguem o calendário da DGS (1.ª semana; 1, 2, 4, 6, 9, 12, 15, 18 meses; 2, 3, 4, 5 anos; 6–7, 8, 10, 12–13 e 15–18 anos) — gratuitas. A Pediatria no SNS funciona através de referenciação para hospital/specialty care; no sector privado, os pediatras fazem frequentemente também consultas preventivas de rotina (60–120 €/consulta sem seguro).\n\nUrgência pediátrica: Hospital Dona Estefânia (Lisboa), Hospital Pediátrico (Coimbra), Hospital de São João (Porto). Em caso de risco de vida — 112; nos restantes casos, ligue primeiro para o SNS 24 (808 24 24 24).',
   tags: ['pediatra', 'crianças', 'sns', 'médico de família'],
   estimatedReadMinutes: 5,
   steps: [
@@ -72,7 +72,7 @@ export default {
           { id: 'c3', title: 'Preços sem seguro', content: [
             { kind: 'checklist', items: [
               'Consulta de pediatra geral: 60–100 €',
-              'Subspecialty consultation (neurologia, cardiologia, endocrinologia pediátricas): 80–150 €',
+              'Consulta de subespecialidade (neurologia, cardiologia, endocrinologia pediátricas): 80–150 €',
               'Urgência pediátrica privada: 50–80 €',
               'Análises e exames (análise ao sangue, ecografia): 30–150 € por exame',
               'Pacote «acompanhamento no primeiro ano»: 300–600 € (consultas mensais + controlo das etapas de desenvolvimento)'
@@ -85,7 +85,7 @@ export default {
               'AdvanceCare (Generali): planos mais individualizados',
               'Tranquilidade: opção progressiva',
               'Para uma criança separadamente: ~20–40 €/mês',
-              'Para simples consultas de pediatria, a carência está frequentemente ausente ou é curta, mas isso depende da apólice; verifique as carências for exams, hospitalization, pre-existing conditions and newborn inclusion'
+              'Para simples consultas de pediatria, a carência está frequentemente ausente ou é curta, mas isso depende da apólice; verifique as carências para exames, internamento, doenças preexistentes e inclusão do recém-nascido'
             ]}
           ]}
         ]}
@@ -104,7 +104,7 @@ export default {
               '🏥 Faro: serviço de pediatria do Hospital de Faro',
               '🏥 Cascais: Hospital de Cascais (serviço de pediatria)',
               'Privados: CUF Tejo Pediatric, Luz Pediatric — filas menores',
-              '⚠️ Antes de se deslocar, verifique os serviços de urgência disponíveis nas páginas do SNS/ULS ou ligue para o SNS 24: pediatric emergency units podem ter restrições temporárias. Para hospitais privados, confirme os horários da urgência pediátrica and accepted ages antes da visita'
+              '⚠️ Antes de se deslocar, verifique os serviços de urgência disponíveis nas páginas do SNS/ULS ou ligue para o SNS 24: as unidades de urgência pediátrica podem ter restrições temporárias. Para hospitais privados, confirme os horários da urgência pediátrica e as idades aceites antes da visita'
             ]}
           ]},
           { id: 'u2', title: 'Quando ir à urgência', content: [
@@ -112,7 +112,7 @@ export default {
               '🚨 Em caso de risco de vida — 112 (número europeu único de emergência)',
               '🔴 SIM: febre alta numa criança <3 meses (qualquer >38°C), convulsões, falta de ar intensa, desmaio, trauma grave, reacção alérgica',
               '🟡 Normalmente não é necessário: constipação sem complicações, febre até 39°C em crianças mais velhas, trauma ligeiro',
-              '📞 Em casos não urgentes/duvidosos, ligue primeiro para o SNS 24: 808 24 24 24 — o operador/enfermeiro fará triagem telefónica e indicará para onde deve ir. A Manchester Triage é aplicada apenas após a chegada à hospital emergency',
+              '📞 Em casos não urgentes/duvidosos, ligue primeiro para o SNS 24: 808 24 24 24 — o operador/enfermeiro fará triagem telefónica e indicará para onde deve ir. A Manchester Triage é aplicada apenas após a chegada à urgência hospitalar',
               '💡 Em muitos Centro de Saúde existe Atendimento Complementar — uma alternativa com menos afluência'
             ]}
           ]}
@@ -133,6 +133,6 @@ export default {
     { title: 'SNS — Serviços de Urgência', url: 'https://www.sns.gov.pt/sns/servicos-de-urgencia/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Hospital Dona Estefânia (pediátrico)', url: 'https://www.chlc.min-saude.pt/urgencias-2/urgencia-pediatrica-hospital-de-dona-estefania/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

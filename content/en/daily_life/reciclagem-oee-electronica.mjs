@@ -104,10 +104,10 @@ export default {
   ],
   sources: [
     { title: 'Electrão — collection point map and recycling rules', url: 'https://www.electrao.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ERP Portugal — where to recycle REEE, pil and lâmpadas', url: 'https://www.erp-recycling.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ERP Portugal — where to recycle REEE, pilhas and lâmpadas', url: 'https://www.erp-recycling.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 152-D/2017 — unified regime for specific waste streams', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/152-d-2017-114337042', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portuguese Environment Agency — waste electrical and electronic equipment', url: 'https://apambiente.pt/residuos/residuos-de-equipamentos-eletricos-e-eletronicos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

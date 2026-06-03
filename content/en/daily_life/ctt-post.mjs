@@ -12,7 +12,7 @@ export default {
       title: 'CTT services',
       content: [
         { kind: 'checklist', items: [
-          'Carta Normal — standard letter, €0.70 within Portugal / €1.25 in the EU',
+          'Carta Normal — standard letter, €0.73 within Portugal / €1.30 in the EU',
           'Carta Registada — registered letter with a tracking number',
           'Carta com Aviso de Receção — registered letter + delivery confirmation (mandatory for AIMA in some cases)',
           'Encomenda — parcel up to 30 kg within Portugal, up to 20 kg internationally',
@@ -52,7 +52,7 @@ export default {
     },
     {
       id: 'sending',
-      title: 'Sending to CIS countries',
+      title: 'Sending to former-USSR countries',
       content: [
         { kind: 'checklist', items: [
           '📦 Russian Federation/Belarus — service, timescales and permitted categories are unstable due to sanctions and restrictions; check on ctt.pt before sending',
@@ -89,6 +89,6 @@ export default {
     { title: 'CTT — official', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AT — customs / parcel imports', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

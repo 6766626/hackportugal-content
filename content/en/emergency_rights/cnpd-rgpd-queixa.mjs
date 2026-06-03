@@ -74,7 +74,7 @@ export default {
           'Specify the infringing organisation and its contacts.',
           'Describe the facts by date: no long story, but with specific events.',
           'Write what you want: stopping processing, data erasure, rectification, banning the camera, investigation of the leak.',
-          'Attach evidence in PDF/JPG/PNG, preferably as one tidy PDF.',
+          'Evidence is usually not attached to the form itself: state in the form that you have it, and CNPD will request it later. Prepare it in advance in PDF/JPG/PNG, preferably as one tidy PDF.',
           'Submit the form and save the confirmation, process number or CNPD e-mail.'
         ] },
         { kind: 'paragraph', text: 'In practice, for simple complaints CNPD may give an initial response or request clarifications within around 30 days, but a final investigation takes longer. Under the GDPR, the supervisory authority must inform the complainant about the progress and outcome of the complaint, including the possibility of a judicial remedy if the case is not moving forward.' }
@@ -123,6 +123,6 @@ export default {
     { title: 'Regulation (EU) 2016/679 — RGPD/GDPR, text in EUR-Lex', url: 'https://eur-lex.europa.eu/eli/reg/2016/679/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 58/2019 — implementation of the GDPR in Portugal', url: 'https://dre.pt/dre/detalhe/lei/58-2019-123815982', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

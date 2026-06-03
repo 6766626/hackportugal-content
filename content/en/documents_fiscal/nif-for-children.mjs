@@ -32,7 +32,7 @@ export default {
           'If a Portuguese Cartão de Cidadão/Nascer Cidadão is issued for the child, NIF, NISS and Número de Utente are usually assigned together as one package',
           'If the child remains a foreign citizen, check separately: NIF — at Finanças, utente — at the centro de saúde, NISS — at Segurança Social/ISS',
           'Parents receive a Cédula de Nascimento electronically or an Assento de Nascimento',
-          'The child’s citizenship depends on the laws of the parents’ country. Under the current Lei n.º 37/81 art. 1.º, a child born in PT to foreign parents may be português de origem if, at the time of birth, one of the parents has lived in PT for at least 1 year and is not in the service of a foreign state; there are also other special grounds. The new citizenship law, approved on 01.04.2026, is awaiting promulgation'
+          'The child’s citizenship depends on the laws of the parents’ country. Since 19.05.2026, Lei Orgânica n.º 1/2026 applies (amending Lei n.º 37/81): a child born in PT to foreign parents may be português de origem if, at the time of birth, one of the parents has been legally resident in PT for at least 5 years (previously 1 year was required) and is not in the service of a foreign state; there are also other special grounds'
         ]}
       ]
     },
@@ -100,8 +100,8 @@ export default {
     { title: 'IRN — Cartão de Cidadão / Nascer Cidadão', url: 'https://irn.justica.gov.pt/Servicos/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — Circular Letter 90057/2022 (representante fiscal)', url: 'https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'HCCH — Apostille Convention status', url: 'https://www.hcch.net/en/instruments/conventions/status-table/?cid=41', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },
-    { title: 'Lei n.º 37/81 — Nationality Law', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34514475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Lei n.º 37/81 — Nationality Law (consolidated, amended by Lei Orgânica n.º 1/2026)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34514475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

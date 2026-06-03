@@ -85,8 +85,8 @@ export default {
           'Fotografe a placa na entrada do prédio com contactos de piquete/emergência.',
           'Ligue para o canal municipal de emergência antes de contratar um técnico privado.',
           'Indique a morada completa, bloco/lote, andar, número do apartamento e o problema com a fechadura.',
-          'Confirme quem paga a intervenção: tenant, Câmara/GEBALIS ou condomínio.',
-          'Se ainda assim chamar um chaveiro privado, obtenha autorização pelo menos confirmação escrita do contacto efectuado.'
+          'Confirme quem paga a intervenção: arrendatário, Câmara/GEBALIS ou condomínio.',
+          'Se ainda assim chamar um chaveiro privado, obtenha autorização ou pelo menos confirmação escrita do contacto efectuado.'
         ] },
         { kind: 'warning', text: 'Em habitação municipal, a substituição autónoma da fechadura sem notificar a entidade gestora pode violar as regras de utilização do apartamento. Guarde todas as provas da urgência.' }
       ]
@@ -100,7 +100,7 @@ export default {
           'Se perdeu as chaves fora de casa — substitua o cilindro, não faça apenas uma chave nova.',
           'Entregue um conjunto suplente a uma pessoa de confiança ou guarde-o numa lockbox, se isso for permitido pelo condomínio.',
           'Informe o senhorio sobre o incidente e envie uma cópia da fatura, se for arrendatário.',
-          'Se houve roubo de chaves — faça participação na/GNR para o.',
+          'Se houve roubo de chaves — faça participação na PSP/GNR para a seguradora.',
           'Verifique se a assistência ao lar do seu seguro cobre as despesas retroactivamente.',
           'Guarde o contacto de um chaveiro de confiança no telemóvel: procurar de novo à noite é mais caro e mais arriscado.'
         ] },
@@ -121,6 +121,6 @@ export default {
     { title: 'ASAE: defesa dos direitos dos consumidores e fiscalização da actividade económica', url: 'https://www.asae.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Lisboa: serviços municipais e contactos para residentes', url: 'https://www.lisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

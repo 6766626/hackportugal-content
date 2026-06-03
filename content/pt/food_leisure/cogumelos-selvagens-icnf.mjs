@@ -3,7 +3,7 @@ export default {
   id: 'cogumelos-selvagens-icnf',
   categoryId: 'food_leisure',
   title: 'Apanha de cogumelos silvestres em Portugal: licença ICNF, épocas e segurança',
-  tldr: 'Em Portugal, os cogumelos silvestres são normalmente apanhados no outono depois das chuvas: outubro–dezembro, localmente até janeiro; a época da primavera é mais fraca — março–maio. Para consumo próprio, a referência do DL 254/2009 é até 5 kg por pessoa por dia, mas o terreno quase sempre pertence a alguém: é necessária autorização do proprietário, dos baldios ou da entidade gestora. Em áreas protegidas, matas nacionais e zonas do ICNF, verifique a licença/autorização ICNF e as proibições locais. Em caso de intoxicação: CIAV 800 250 250, SNS 24 808 24 24 24, emergência 112.',
+  tldr: 'Em Portugal, os cogumelos silvestres são normalmente apanhados no outono depois das chuvas: outubro–dezembro, localmente até janeiro; a época da primavera é mais fraca — março–maio. Atualmente não existe uma lei nacional unificada sobre a apanha: o antigo Código Florestal (DL 254/2009), que introduziu a licença ICNF e a referência de até 5 kg por pessoa por dia para consumo próprio, foi revogado pela Lei 12/2012. Esse valor continua a ser usado como referência habitual, mas o terreno quase sempre pertence a alguém: é necessária autorização do proprietário, dos baldios ou da entidade gestora, e as regras são definidas pelos regulamentos locais. Em áreas protegidas, matas nacionais e zonas do ICNF, verifique a autorização ICNF e as proibições locais. Em caso de intoxicação: CIAV 800 250 250, SNS 24 808 24 24 24, emergência 112.',
   tags: ['cogumelos', 'icnf', 'fungos', 'segurança'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'legal-basics',
       title: 'Onde a apanha é legal e onde é necessária licença ICNF',
       content: [
-        { kind: 'paragraph', text: 'Em Portugal não existe a regra “a floresta é de todos — pode-se fazer tudo”. Grande parte da floresta é privada, municipal ou baldios. Mesmo que não haja vedação, apanhar cogumelos sem consentimento do proprietário ou da entidade gestora pode ser considerado acesso/extração de recursos ilegal.' },
+        { kind: 'paragraph', text: 'Em Portugal não existe a regra “a floresta é de todos — pode-se fazer tudo”. Grande parte da floresta é privada, municipal ou baldios. Mesmo que não haja vedação, apanhar cogumelos sem consentimento do proprietário ou da entidade gestora pode ser considerado acesso/extração de recursos ilegal. O antigo Código Florestal (DL 254/2009), que introduzia o regime dos recursos micológicos com licenças do ICNF e um limite de apanha, foi revogado pela Lei 12/2012, e um regime nacional unificado ainda não foi reposto — as regras são agora definidas por regulamentos locais, planos de gestão e pelas condições de cada terreno.' },
         { kind: 'checklist', items: [
           'Terreno privado: é necessária autorização do proprietário; a ausência de placa não significa autorização.',
           'Baldios: confirme as regras junto do conselho diretivo dos baldios ou da Junta de Freguesia.',
@@ -19,7 +19,7 @@ export default {
           'Áreas protegidas: Parque Nacional da Peneda-Gerês, parques naturais, reservas naturais, paisagens protegidas — a apanha pode ser limitada ou proibida pelo zonamento.',
           'Zonas de proteção total, reserva integral, dunas, habitats sensíveis e parcelas com placas de proibição de apanha — não apanhar.',
           'Natura 2000, por si só, nem sempre significa proibição, mas um plano de gestão ou regulamento específico pode introduzir restrições.',
-          'A apanha comercial, compra e venda exigem o cumprimento separado do regime do DL 254/2009: identificação das espécies, rastreabilidade, condições de transporte e comércio.',
+          'A apanha comercial, compra e venda continuam a exigir identificação das espécies, rastreabilidade e o cumprimento das condições de segurança alimentar, transporte e comércio, mesmo sem uma lei micológica específica.',
           'Se organizar uma visita/excursão de cogumelos numa área protegida, isso já é uma atividade organizada: articule antecipadamente com o ICNF/município.'
         ] },
         { kind: 'warning', text: 'Regra prática para expatriados: antes da deslocação, abra o mapa de áreas protegidas do ICNF, confirme o nome da zona e envie um email para o serviço regional do ICNF, se pretende apanhar fora de uma floresta privada de um proprietário conhecido. Um “toda a gente apanha aqui” verbal não protege de uma coima.' }
@@ -29,7 +29,7 @@ export default {
       id: 'quantity-and-method',
       title: 'Limites e como apanhar sem prejudicar a floresta',
       content: [
-        { kind: 'paragraph', text: 'Para autoconsumo, ao abrigo do regime do DL 254/2009, usa-se normalmente como referência até 5 kg de cogumelos silvestres por apanhador por dia. As regras locais de áreas protegidas, matas nacionais ou baldios podem ser mais rigorosas: por exemplo, proibição total, limite inferior, dias específicos ou autorização obrigatória.' },
+        { kind: 'paragraph', text: 'Para autoconsumo, usa-se normalmente como referência habitual até 5 kg de cogumelos silvestres por apanhador por dia. Este valor vem do revogado Código Florestal (DL 254/2009) e já não é um limite obrigatório de lei nacional, mas continua a ser citado como um teto razoável. As regras locais de áreas protegidas, matas nacionais ou baldios podem ser mais rigorosas: por exemplo, proibição total, limite inferior, dias específicos ou autorização obrigatória.' },
         { kind: 'checklist', items: [
           'Leve um cesto de vime ou um recipiente rígido ventilado, não um saco de plástico.',
           'Não use ancinhos, enxadas nem ferramentas que destruam a manta morta e o micélio.',
@@ -106,11 +106,11 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Decreto-Lei n.º 254/2009 — regime jurídico dos recursos micológicos silvestres',
-      url: 'https://dre.pt/dre/detalhe/decreto-lei/254-2009-490398',
+      title: 'Decreto-Lei n.º 254/2009 (Código Florestal) — revogado pela Lei n.º 12/2012; continha o antigo regime dos recursos micológicos silvestres',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/254-2009-490450',
       kind: 'law',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'INEM / CIAV — Centro de Informação Antivenenos, telefone 800 250 250',
@@ -127,6 +127,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

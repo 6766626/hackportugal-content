@@ -124,6 +124,6 @@ export default {
     { title: 'Decreto-Lei 234/81 — criação e enquadramento legal do INEM, DRE', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1981-34546275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — contacto 808 24 24 24 e orientação médica', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

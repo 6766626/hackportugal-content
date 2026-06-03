@@ -11,15 +11,15 @@ export default {
       id: 'before',
       title: '📞 Перед тем как ехать — позвоните в SNS 24',
       content: [
-        { kind: 'paragraph', text: 'SNS 24 (808 24 24 24) — государственная медицинская линия, работает 24/7. Медсестринский триаж по клиническим алгоритмам (это не разговор с врачом)\.\n\nСама услуга бесплатна, но номер 808 тарифицируется по тарифу абонента: мобильные и иностранные SIM-карты могут оплачиваться поминутно:' },
+        { kind: 'paragraph', text: 'SNS 24 (808 24 24 24) — государственная медицинская линия, работает 24/7. Медсестринский триаж по клиническим алгоритмам (это не разговор с врачом).\n\nСама услуга бесплатна, но номер 808 тарифицируется по тарифу абонента: мобильные и иностранные SIM-карты могут оплачиваться поминутно:' },
         { kind: 'checklist', items: [
           '🟢 Не срочно → записаться к семейному врачу в Centro de Saúde',
           '🟡 Нужна помощь, но не прямо сейчас → частная клиника / несрочный приём',
-          '🟠 Срочно, но не экстренно → специализированная urgência (педиатрическая, детская, гинекологическая)',
+          '🟠 Срочно, но не экстренно → специализированная urgência (педиатрическая, гинекологическая)',
           '🔴 Экстренно → вызвать INEM (112) или ехать в urgência',
           'Языки: PT + EN (сказать «English please»)',
           'Приложение SNS 24: чат с врачом, видеозвонок — без ожидания телефонного оператора',
-          '💡 У SNS 24 часто меньше загрузка, чем у urgência: 15 мин на диагностику'
+          '💡 SNS 24 часто загружен меньше, чем urgência: около 15 мин на оценку состояния'
         ]}
       ]
     },
@@ -47,10 +47,10 @@ export default {
           { id: 's1', title: '1. Centro de Saúde — Atendimento Complementar', content: [
             { kind: 'checklist', items: [
               'В центрах здоровья есть отдельный «Atendimento Complementar» — для ситуаций, не требующих госпитализации',
-              'Работают как минимум до 20:00 в некоторых центрах, некоторые — 24/7 (Cascais, Almada)',
+              'В одних центрах работают как минимум до 20:00, в других — круглосуточно (Cascais, Almada)',
               'Запись через SNS 24 (звонок / приложение) — приходите к назначенному времени',
               'Ожидание: обычно 10–30 мин',
-              'Бесплатно — пользовательские сборы в первичной помощи SNS отменены (реформа Decreto-Lei 37/2022)'
+              'Бесплатно — плата за обращение (taxas moderadoras) в первичной помощи SNS отменена (реформа Decreto-Lei 37/2022)'
             ]}
           ]},
           { id: 's2', title: '2. Hospital Urgência — менее загруженная', content: [
@@ -83,7 +83,7 @@ export default {
           { id: 's5', title: '5. Специализированные urgência', content: [
             { kind: 'checklist', items: [
               'Pediátrica (дети до 15–18 лет): отдельные отделения. В Лиссабоне — Hospital Dona Estefânia. В Porto — Centro Materno-Infantil do Norte (CHUSJ/ULS Santo António, после интеграции бывшего Maria Pia)',
-              'Gnecológica / Obstétrica: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)',
+              'Ginecológica / Obstétrica: Maternidade Alfredo da Costa (Lisboa), Maternidade Júlio Dinis (Porto)',
               'Psiquiátrica: Hospital Magalhães Lemos (Porto), Hospital Júlio de Matos (Lisboa)',
               'Estomatológica (зубы): Hospital São José и частные клиники (IMD, Dental Family)'
             ]}
@@ -102,7 +102,7 @@ export default {
           '📄 Медицинская история: хронические заболевания, аллергии, операции',
           '💳 Банковская карта: на случай если выпишут платные лекарства (часть покрывается SNS, остальное платно)',
           '📚 Книга / зарядка / еда — ожидание может быть 2–4 часа',
-          '🗣️ PT-словарь / переводчик: 90% врачей понимают EN, но ухаживающий персонал — часто нет'
+          '🗣️ PT-словарь / переводчик: 90% врачей понимают EN, но вспомогательный персонал — часто нет'
         ]}
       ]
     },
@@ -111,7 +111,7 @@ export default {
       title: 'Общие советы',
       content: [
         { kind: 'checklist', items: [
-          '🔁 Семейный врач (médico de família) — главный ключ. Регистрация в центре здоровья по месту жительства, бесплатно. У каждого резидента с Número de Utente есть право на одного',
+          '🔁 Семейный врач (médico de família) — это главное. Регистрация в центре здоровья по месту жительства бесплатна. Каждый резидент с Número de Utente имеет право на одного',
           '📝 Рецепт: médico de família выписывает на 3–6 мес для хронических заболеваний — не надо каждый раз ходить в urgência',
           '📞 Сначала SNS 24, всегда — они сами решат, нужна ли urgência',
           '💻 MySNS portal (mysns.min-saude.pt): смотреть свои рецепты, записи, результаты анализов',
@@ -127,6 +127,6 @@ export default {
     { title: 'DGS — Manchester Triage System', url: 'https://www.dgs.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'INEM — Instituto Nacional de Emergência Médica', url: 'https://www.inem.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

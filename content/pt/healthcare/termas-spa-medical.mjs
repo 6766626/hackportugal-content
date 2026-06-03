@@ -3,7 +3,7 @@ export default {
   id: 'termas-spa-medical',
   categoryId: 'healthcare',
   title: 'Termas: termas terapêuticas em Portugal e comparticipação SNS',
-  tldr: 'Em Portugal, o termalismo não é apenas spa, mas sim tratamentos médicos com água termal. Se o médico de família do SNS prescrever tratamentos termais e você escolher termas-aderentes licenciadas, o SNS comparticipa 35% do custo dos tratamentos através de pagamento da comparticipação diretamente ao estabelecimento termal aderente (e não por reembolso ao utente)\.\n\nO limite anual base por utente está definido na Portaria n.º 337-C/2018 — 95 €; periodicamente, o Ministério da Saúde pode publicar uma portaria/despacho atualizada — verifique o limite e as condições em vigor em sns.gov.pt e no estabelecimento termal escolhido antes de marcar. Um curso típico de 14 dias custa 220–500 € sem alojamento. Destinos populares: Caldas da Rainha, Monfortinho, São Pedro do Sul, Vidago.',
+  tldr: 'Em Portugal, o termalismo não é apenas spa, mas sim tratamentos médicos com água termal. Se o médico de família do SNS prescrever tratamentos termais e você escolher termas-aderentes licenciadas, o SNS comparticipa 35% do custo dos tratamentos através de pagamento da comparticipação diretamente ao estabelecimento termal aderente (e não por reembolso ao utente).\n\nDesde 1 de outubro de 2025, o limite anual por utente está definido na Portaria n.º 280/2025/1 e é de 110 € (anteriormente 95 €, ao abrigo da Portaria n.º 337-C/2018). O limite é revisto periodicamente — verifique o valor e as condições em vigor em sns.gov.pt e no estabelecimento termal escolhido antes de marcar. Um curso típico de 14 dias custa 220–500 € sem alojamento. Destinos populares: Caldas da Rainha, Monfortinho, São Pedro do Sul, Vidago.',
   tags: ['termas', 'sns', 'saúde', 'comparticipação'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,7 +27,7 @@ export default {
       id: 'sns-reimbursement',
       title: 'Como funciona a comparticipação SNS em 2026',
       content: [
-        { kind: 'paragraph', text: 'Regra base (Portaria n.º 337-C/2018): o SNS comparticipa 35% do custo dos tratamentos termais prescritos, mas até ao limite anual por utente. O limite base da portaria é 95 €/ano.\n\nO limite pode ser revisto por portaria/despacho próprio — antes de marcar, confirme o valor em vigor em sns.gov.pt e/ou diretamente nas termas-aderente. A comparticipação é paga diretamente ao estabelecimento termal, e não ao utente: você paga a sua parte (65%) às termas, e o SNS transfere os 35% (até ao limite) para o estabelecimento.\n\nExemplo: se o curso custar 200 €, a sua parte é 130 €, e o SNS transfere 70 € para as termas.' },
+        { kind: 'paragraph', text: 'Regra base: o SNS comparticipa 35% do custo dos tratamentos termais prescritos, mas até ao limite anual por utente. Desde 1 de outubro de 2025, o limite é de 110 €/ano (Portaria n.º 280/2025/1; anteriormente 95 €, ao abrigo da Portaria n.º 337-C/2018).\n\nO limite é revisto periodicamente — antes de marcar, confirme o valor em vigor em sns.gov.pt e/ou diretamente nas termas-aderente. A comparticipação é paga diretamente ao estabelecimento termal, e não ao utente: você paga a sua parte às termas, e o SNS transfere os 35% (até ao limite) para o estabelecimento.\n\nExemplo: se o curso custar 200 €, o SNS transfere 70 € (35%) para as termas, e a sua parte é 130 €.' },
         { kind: 'paragraph', text: 'Normalmente, o regime não funciona como um “desconto na caixa”. Você paga o curso às termas, guarda os documentos e entrega-os de acordo com as regras que as termas explicam no local: fatura-recibo com NIF, comprovativo da realização dos tratamentos e prescrição médica / termo de responsabilidade, se necessário.' },
         { kind: 'checklist', items: [
           'Confirme que o seu médico de família emite especificamente uma prescrição de tratamentos termais, e não apenas uma recomendação para “ir a banhos”',
@@ -91,13 +91,13 @@ export default {
       id: 'budget',
       title: 'Quanto custa um curso de 14 dias',
       content: [
-        { kind: 'paragraph', text: 'Orçamento realista para um adulto em 2026: componente médica de 220–500 € por 12–14 dias, se escolher um curso terapêutico e não luxury wellness. Depois da aplicação da comparticipação SNS de 35% (até ao limite anual base de 95 € ou ao limite em vigor), a sua parte costuma ficar em 130–400 €.\n\nVerifique o limite antes de marcar.' },
+        { kind: 'paragraph', text: 'Orçamento realista para um adulto em 2026: componente médica de 220–500 € por 12–14 dias, se escolher um curso terapêutico e não luxury wellness. Depois da aplicação da comparticipação SNS de 35% (até ao limite anual de 110 €), a sua parte costuma ficar em 143–390 €.\n\nVerifique o limite antes de marcar.' },
         { kind: 'checklist', items: [
           'Consulta termal: normalmente 35–60 €',
           'Inscrição / taxa administrativa: 10–25 €',
           'Pacote de tratamentos 12–14 dias: cerca de 180–420 €',
           'Total do tratamento antes da comparticipação: cerca de 220–500 €',
-          'Limite anual base do SNS: 95 €/ano (Portaria 337-C/2018) — pago diretamente às termas; verifique o limite em vigor em sns.gov.pt',
+          'Limite anual do SNS: 110 €/ano desde 1 de outubro de 2025 (Portaria 280/2025/1; anteriormente 95 €) — pago diretamente às termas; verifique o limite em vigor em sns.gov.pt',
           'Alojamento: desde 40–70 €/noite num alojamento simples até 120–250 €/noite num hotel termal',
           'Transporte: autocarro/comboio são mais baratos, mas algumas termas são mais práticas apenas de carro',
           'Spa extras, massagens “relax”, cosmética e piscinas normalmente não entram na comparticipação médica'
@@ -107,17 +107,17 @@ export default {
     }
   ],
   costs: [
-    { label: 'Comparticipação SNS para tratamentos termais', amountEURMax: 95, note: '35% do custo dos tratamentos, limite anual base da Portaria 337-C/2018 = 95 €. Podem existir portaria/despacho mais recentes — verifique em sns.gov.pt. O pagamento é feito diretamente às termas-aderente.' },
+    { label: 'Comparticipação SNS para tratamentos termais', amountEURMax: 110, note: '35% do custo dos tratamentos, limite anual de 110 € desde 1 de outubro de 2025 (Portaria 280/2025/1; anteriormente 95 € ao abrigo da Portaria 337-C/2018). Verifique o limite em vigor em sns.gov.pt. O pagamento é feito diretamente às termas-aderente.' },
     { label: 'Consulta termal', amountEURMin: 35, amountEURMax: 60, note: 'Primeira avaliação médica nas termas; o preço depende da estância' },
     { label: 'Curso terapêutico de 12–14 dias', amountEURMin: 220, amountEURMax: 500, note: 'Sem alojamento nem transporte; pacotes luxury spa podem ser mais caros' },
-    { label: 'Custo efetivo após aplicação da comparticipação', amountEURMin: 130, amountEURMax: 405, note: 'Se o curso for elegível para comparticipação e for aplicado o limite base de 95 € do SNS' }
+    { label: 'Custo efetivo após aplicação da comparticipação', amountEURMin: 143, amountEURMax: 390, note: 'Se o curso for elegível para comparticipação e for aplicado o limite de 110 € do SNS' }
   ],
   sources: [
     { title: 'DGS: termalismo e licenciamento de estabelecimentos termais', url: 'https://www.dgs.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Termas de Portugal: catálogo de termas, indicações e contactos', url: 'https://www.termasdeportugal.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Portaria n.º 337-C/2018 (com alterações): regime de comparticipação pelo SNS dos tratamentos termais', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/337-c-2018-117669735', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Portaria n.º 280/2025/1: limite da comparticipação do SNS aumentado para 110 €/ano desde 1 de outubro de 2025 (altera o regime da Portaria n.º 337-C/2018)', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/280-2025-1', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'SNS: cuidados de saúde e acesso através do número de utente', url: 'https://www.sns.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

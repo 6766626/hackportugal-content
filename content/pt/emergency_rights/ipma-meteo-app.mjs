@@ -131,7 +131,7 @@ export default {
     },
     {
       title: 'IPMA — perigo de incêndio rural',
-      url: 'https://www.ipma.pt/pt/riscoincendio/rcm.pt/',
+      url: 'https://www.ipma.pt/pt/riscoincendio/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -144,6 +144,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

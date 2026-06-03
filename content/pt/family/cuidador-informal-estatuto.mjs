@@ -3,7 +3,7 @@ export default {
   id: 'cuidador-informal-estatuto',
   categoryId: 'healthcare',
   title: 'Cuidador Informal: estatuto de cuidador informal para cuidar de pais e familiares',
-  tldr: 'O Estatuto do Cuidador Informal, previsto na Lei 100/2019, é um estatuto oficial para a pessoa que cuida regular ou permanentemente de um familiar dependente em Portugal. Dá acesso a cartão de identificação, plano de acompanhamento, formação, direito ao descanso do cuidador e, para o cuidador informal principal, a um apoio mensal da Segurança Social: em 2026, o máximo é normalmente limitado ao IAS 537,13 € e depende dos rendimentos do agregado familiar. O pedido é gratuito através da Segurança Social Direta ou num balcão.',
+  tldr: 'O Estatuto do Cuidador Informal, previsto na Lei 100/2019, é um estatuto oficial para a pessoa que cuida regular ou permanentemente de um familiar dependente em Portugal. Dá acesso a cartão de identificação, plano de acompanhamento, formação, direito ao descanso do cuidador e, para o cuidador informal principal, a um apoio mensal da Segurança Social: em 2026, o valor de referência máximo é 1,1 IAS, ou seja 590,84 €, e o montante depende dos rendimentos do agregado familiar. O pedido é gratuito através da Segurança Social Direta ou num balcão.',
   tags: ['cuidador', 'família', 'segurança-social', 'cuidados'],
   estimatedReadMinutes: 6,
   steps: [
@@ -80,15 +80,17 @@ export default {
         { kind: 'paragraph', text: 'A prestação em dinheiro chama-se subsídio de apoio ao cuidador informal principal. Não é uma pensão automática nem um salário. A Segurança Social calcula os rendimentos do agregado familiar e aplica limites indexados ao IAS.' },
         { kind: 'checklist', items: [
           'IAS em 2026: 537,13 €',
+          'O valor de referência (limite) do subsídio é 1,1 IAS: 590,84 € em 2026',
           'O limiar de necessidade para o principal é normalmente calculado face a 1,3 IAS: 698,27 €',
-          'O apoio mensal máximo não deve ser entendido como garantido: o valor é individual',
+          'O subsídio = diferença entre a referência de 590,84 € e o rendimento de referência do agregado, pelo que o valor é individual',
           'No cálculo podem entrar salários, pensões, prestações sociais, rendimentos de arrendamento e outros rendimentos regulares da família',
           'Se os rendimentos excederem o limite, o estatuto pode ser reconhecido, mas o subsídio pode não ser atribuído',
           'A prestação é atribuída ao cuidador informal principal, e não à pessoa cuidada',
           'O IBAN deve ser português ou de uma conta SEPA aceite pela Segurança Social',
+          'A partir de 2026, o próprio subsídio de cuidador informal deixa de contar como rendimento para acesso a outras prestações sociais',
           'Em caso de alteração de rendimentos, morada, composição do agregado familiar, internamento hospitalar ou entrada em instituição, é necessário comunicar à Segurança Social'
         ] },
-        { kind: 'warning', text: 'Não planeie o orçamento familiar como se a prestação fosse exatamente 537,13 €. Na prática, o valor depende do cálculo da Segurança Social e pode ser zero mesmo com o estatuto reconhecido.' }
+        { kind: 'warning', text: 'Não planeie o orçamento familiar como se a prestação fosse exatamente 590,84 €. Esse é apenas o valor de referência máximo; na prática, o valor depende do cálculo da Segurança Social e pode ser zero mesmo com o estatuto reconhecido.' }
       ]
     },
     {
@@ -142,7 +144,7 @@ export default {
   ],
   costs: [
     { label: 'Apresentação do pedido de reconhecimento do Estatuto do Cuidador Informal', amountEUR: 0, note: 'Não há taxa administrativa; podem existir custos com traduções, atestados médicos e deslocações.' },
-    { label: 'Referência do apoio mensal máximo para o principal em 2026', amountEURMax: 537.13, note: 'Indexado ao IAS 2026; o valor efetivo depende dos rendimentos e do cálculo da Segurança Social.' },
+    { label: 'Referência do apoio mensal máximo para o principal em 2026', amountEURMax: 590.84, note: '1,1 IAS 2026; o valor efetivo é a diferença face ao rendimento calculado e depende da Segurança Social.' },
     { label: 'Limiar de 1,3 IAS para verificação de necessidade em 2026', amountEUR: 698.27, note: 'Usado como referência-chave de rendimentos; aplicam-se as regras da Segurança Social.' }
   ],
   sources: [
@@ -168,6 +170,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

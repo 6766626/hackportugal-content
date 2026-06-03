@@ -3,7 +3,7 @@ export default {
   id: 'ikea-conforama-myhome-moveis',
   categoryId: 'daily_life',
   title: 'IKEA, Conforama, MyHome, JYSK — onde comprar móveis em Portugal',
-  tldr: 'Em Portugal, a forma mais simples de comprar móveis é através da IKEA, Conforama, MyHome, JYSK, El Corte Inglés Hogar e Worten Casa. A IKEA oferece o melhor equilíbrio entre preço, disponibilidade e devoluções: 4 grandes lojas em Alfragide, Loures, Matosinhos e Loulé, além de entrega em Portugal continental. A Conforama e a JYSK são muitas vezes mais baratas para sofás, colchões e roupeiros básicos, mas verifique com atenção os prazos de entrega e o custo da montagem. Em 2026, conte com 29–99 € para a entrega de mobiliário grande e com a montagem à parte.',
+  tldr: 'Em Portugal, a forma mais simples de comprar móveis é através da IKEA, Conforama, MyHome, JYSK, El Corte Inglés Hogar e Worten Casa. A IKEA oferece o melhor equilíbrio entre preço, disponibilidade e devoluções: 5 grandes lojas em Alfragide, Loures, Braga, Matosinhos e Loulé, além de entrega em Portugal continental. A Conforama e a JYSK são muitas vezes mais baratas para sofás, colchões e roupeiros básicos, mas verifique com atenção os prazos de entrega e o custo da montagem. Em 2026, conte com 29–99 € para a entrega de mobiliário grande e com a montagem à parte.',
   tags: ['móveis', 'ikea', 'conforama', 'jysk', 'entrega'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,7 +27,7 @@ export default {
       id: 'ikea',
       title: 'IKEA: o ponto de partida mais seguro 🛒',
       content: [
-        { kind: 'paragraph', text: 'A IKEA Portugal em 2026 tem 4 grandes lojas: Alfragide e Loures na zona de Lisboa, Matosinhos junto ao Porto e Loulé no Algarve. As encomendas online funcionam através de ikea.com/pt/pt com entrega, recolha e verificação de disponibilidade por loja.' },
+        { kind: 'paragraph', text: 'A IKEA Portugal em 2026 tem 5 grandes lojas: Alfragide e Loures na zona de Lisboa, Matosinhos junto ao Porto, Braga no norte e Loulé no Algarve. As encomendas online funcionam através de ikea.com/pt/pt com entrega, recolha e verificação de disponibilidade por loja.' },
         { kind: 'paragraph', text: 'Para uma mudança, a IKEA é conveniente porque permite montar um “kit mínimo de vida” num só dia: cama, colchão, mesa, cadeira, loiça, candeeiros, caixas, varões e arrumação. A maioria dos artigos é normalizada, por isso é fácil comprar depois prateleiras, portas ou substituir uma peça partida.' },
         { kind: 'checklist', items: [
           'Vantagens: medidas claras, muitas avaliações, disponibilidade visível online, devoluções mais simples do que em lojas pequenas',
@@ -116,6 +116,6 @@ export default {
     { title: 'JYSK Portugal — catálogo, lojas e campanhas', url: 'https://jysk.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'El Corte Inglés Portugal — secção Casa e Decoração', url: 'https://www.elcorteingles.pt/casa-e-decoracao/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

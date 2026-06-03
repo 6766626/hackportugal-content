@@ -63,14 +63,14 @@ export default {
           'IMI: уведомление появляется в Portal das Finanças; платёж частями зависит от суммы налога',
           'IUC: платится ежегодно до конца месяца регистрации автомобиля; referência берётся в Finanças',
           'IRS: доплата по годовой декларации оплачивается по nota de cobrança',
-          'IVA/recibos verdes: самозанятые платят по документу cobrança, если есть сумма к оплате',
+          'IVA/recibos verdes: самозанятые платят по documento de cobrança, если есть сумма к оплате',
           'Coimas Finanças: штрафы налоговой оплачиваются по данным в уведомлении',
           'Штрафы trânsito: используйте данные из письма ANSR/PSP/GNR или уведомления на месте',
           'Парковка/EMEL/муниципальные штрафы: способ зависит от муниципалитета, часто есть Multibanco reference',
           'Portagens/SCUT: если есть referência, платите как serviços; иногда проще через CTT/Payshop/онлайн-сервис'
         ] },
         { kind: 'warning', text: 'Для штрафов за trânsito оплата может означать depósito или pagamento voluntário, но не всегда закрывает право на защиту/обжалование. Читайте письмо: сроки, реквизиты и юридический эффект оплаты указаны там, а не в меню Multibanco.' },
-        { kind: 'warning', text: 'Налоговые сроки в 2026 остаются жёсткими: просрочка может дать juros de mora и coima. Если referência не работает, проверьте в Portal das Finanças, не истёк ли prazo или не создан ли новый documento de cobrança.' }
+        { kind: 'warning', text: 'Налоговые сроки в 2026 остаются жёсткими: просрочка может повлечь juros de mora и coima. Если referência не работает, проверьте в Portal das Finanças, не истёк ли prazo и не создан ли новый documento de cobrança.' }
       ]
     },
     {
@@ -140,6 +140,6 @@ export default {
     { title: 'Portal das Finanças — pagamentos ao Estado и documentos de cobrança', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ANSR — штрафы за дорожные нарушения и pagamento voluntário', url: 'https://www.ansr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

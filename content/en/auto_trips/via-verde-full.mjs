@@ -3,7 +3,7 @@ export default {
   id: 'via-verde-full',
   categoryId: 'auto_trips',
   title: 'Via Verde (electronic toll payment system) — complete guide to paying road tolls in Portugal',
-  tldr: 'Via Verde is electronic toll payment via a transponder (identificador). Subscription from €5 for activation + €1.75/month. The alternative is post-payment via portagens.ctt.pt or CTT/Payshop terminals: for Portuguese plates, payment usually becomes available after ~48 hours following the journey and remains valid for 15 working days. Late payment → the debt moves to administrative collection: a fixed fine for an administrative offence (range according to the table, not “25× the toll cost”), plus a % for non-payment.\n\nIMPORTANT: from 01/01/2025, tolls have been abolished on the A22, A23, A24, A25, parts of the A28, A4, A13. “Automatic blocking of the DUA” is NOT a standard consequence.',
+  tldr: 'Via Verde is electronic toll payment via a transponder (identificador). You can buy the device (~€45 one-off, cheaper with an electronic statement) or rent it from ~€1.04/month. The alternative is post-payment via portagens.ctt.pt or CTT/Payshop terminals: for Portuguese plates, payment usually becomes available after ~48 hours following the journey and remains valid for 15 working days. Late payment → the debt moves to administrative collection: a fixed fine for an administrative offence (range according to the table, not “25× the toll cost”), plus a % for non-payment.\n\nIMPORTANT: from 01/01/2025, tolls have been abolished on the A22, A23, A24, A25, parts of the A28, A4, A13. “Automatic blocking of the DUA” is NOT a standard consequence.',
   tags: ['via verde', 'portagens', 'roads', 'car', 'motorways'],
   estimatedReadMinutes: 7,
   steps: [
@@ -48,8 +48,8 @@ export default {
       title: 'Tariffs and subscriptions',
       content: [
         { kind: 'checklist', items: [
-          '💶 Identificador activation: ~€5–10 one-off (with deposit refund on cancellation)',
-          '💶 Subscription fee: ~€1.75/month per device',
+          '💶 Identificador purchase: ~€45 one-off (~€37.50 with an electronic statement)',
+          '💶 Device rental instead of purchase: from ~€1.04/month (the “Mobilidade”/“Mobilidade Leve” plans cost more) or ~€12.39/year',
           '💶 Toll — fixed by section (for example, Lisbon → Porto via A1 ~€22)',
           '💶 Via Verde Visitors: no subscription fee, only a % on top',
           '🏷️ Discounts for electric vehicles on a number of motorways',
@@ -110,8 +110,8 @@ export default {
     }
   ],
   costs: [
-    { label: 'Device activation', amountEURMin: 5, amountEURMax: 10, note: 'often refundable' },
-    { label: 'Subscription fee', amountEUR: 1.75, note: '€/month' },
+    { label: 'Device purchase', amountEUR: 45, note: '~€37.50 with an electronic statement' },
+    { label: 'Device rental (minimum plan)', amountEUR: 1.04, note: '€/month; more on the Mobilidade plans' },
     { label: 'Fine for non-payment of a toll', amountEURMin: 25, amountEURMax: 250, note: 'fixed range for an administrative offence; depends on the toll and circumstances — exact amounts in the IP/AT notice' },
     { label: 'Lisbon → Porto via A1', amountEUR: 22 }
   ],
@@ -121,6 +121,6 @@ export default {
     { title: 'Infraestruturas de Portugal — tolls and concessions', url: 'https://www.infraestruturasdeportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — Regulamento de Portagens', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

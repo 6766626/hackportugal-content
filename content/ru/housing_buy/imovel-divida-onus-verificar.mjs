@@ -53,7 +53,7 @@ export default {
           'Запросите у продавца certidão de não dívida из Finanças / Autoridade Tributária.',
           'Попросите comprovativos de pagamento do IMI минимум за последний год; если объект дорогой, попросите несколько лет.',
           'Проверьте, есть ли AIMI для дорогой недвижимости — это налог продавца до даты сделки, но долг может создавать риск взысканий.',
-          'Уточните, кто платит IMI за год сделки: юридически IMI начисляется владельцу на 31 декабря налогового года, но стороны часто делают пропорциональный расчёт в договоре.',
+          'Уточните, кто платит IMI за год сделки: юридически IMI начисляется тому, кто был владельцем по состоянию на 31 декабря налогового года, но стороны часто делают пропорциональный расчёт в договоре.',
           'Если объект принадлежит компании, запросите certidão permanente comercial компании и проверьте полномочия подписанта.',
           'Если продавец нерезидент, убедитесь, что у него есть NIF и fiscal representative, если он обязан его иметь.'
         ] },
@@ -127,6 +127,6 @@ export default {
     { title: 'Código do Registo Predial — Decreto-Lei 224/84', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1984-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — compra e venda de casa e documentação associada', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

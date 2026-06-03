@@ -20,7 +20,8 @@ export default {
           'The final price consists of CEME energy, the OPC tariff, network/management charges and IVA 23%.',
           'On fast chargers, the tariff often includes a per-minute component: if the car accepts current slowly after 80%, the price per kWh rises sharply.',
           'On the A1/A2/A22 motorways and in tourist areas, HPC is more expensive than AC at a supermarket or municipal car park.',
-          'Roaming apps such as Chargemap/Plugsurfing may work, but are often more expensive than a local CEME.'
+          'Roaming apps such as Chargemap/Plugsurfing may work, but are often more expensive than a local CEME.',
+          'Since 2025, under the new regime (DL 93/2025), ad hoc card payment without a contract is becoming mandatory at charge points, especially from 50 kW; in practice the rollout is gradual, so a CEME card is still the most convenient option for now.'
         ] }
       ]
     },
@@ -125,8 +126,8 @@ export default {
     { title: 'Mobi.E — official information on the electric mobility network', url: 'https://www.mobie.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Galp — electric vehicle charging solutions and Galp Electric', url: 'https://www.galp.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EDP Comercial — electric mobility and EV charging', url: 'https://www.edp.pt/particulares/servicos/mobilidade-eletrica/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Decreto-Lei 39/2010 — regime for the organisation of and access to electric mobility', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/39-2010-243233', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Decreto-Lei 93/2025 — new legal regime for electric mobility (replaced DL 39/2010)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2025-928937303', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

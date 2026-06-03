@@ -57,7 +57,7 @@ export default {
           'Berço ou carrinho em segunda mão no OLX/Vinted: muitas vezes 40–60% do preço novo.',
           'Entrega de mobiliário volumoso em Portugal: normalmente 5–40 €, dependendo da loja e da região.'
         ] },
-        { kind: 'warning', text: 'Não poupe na segurança: compre uma cadeira auto em segunda mão apenas se conhecer exactamente o historial, se não tiver havido acidentes, se houver manual, todos os cintos e a marcação ECE R129/i-Size ou a R44/04 aceitável. Se tiver dúvidas — compre nova.' }
+        { kind: 'warning', text: 'Não poupe na segurança. Desde 1 de Setembro de 2024, as cadeiras auto novas vendidas na UE têm de cumprir a norma ECE R129/i-Size; a antiga R44/04 já não é vendida nas lojas, embora uma cadeira que já tenha possa continuar a ser usada por agora. Compre uma cadeira auto em segunda mão apenas se conhecer exactamente o historial, se não tiver havido acidentes e se houver manual e todos os cintos; é preferível a marcação R129/i-Size. Se tiver dúvidas — compre nova.' }
       ]
     },
     {
@@ -108,6 +108,6 @@ export default {
     { title: 'Vinted Portugal — compra e venda de roupa e artigos infantis', url: 'https://www.vinted.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ANSR — regras de transporte de crianças no automóvel em Portugal', url: 'https://www.ansr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -31,12 +31,12 @@ export default {
           'A municipal gym may not automatically include the pool — check the pacote',
           'In August, some facilities close for manutenção or operate on reduced hours'
         ] },
-        { kind: 'paragraph', text: 'For comparison: a private gym is more convenient in terms of opening hours and app access, but the final price with mensal, taxa de inscrição, manutenção and extras is often higher. The municipal option is especially good value for a family with children or for someone who needs a 1–3 times a week.' }
+        { kind: 'paragraph', text: 'For comparison: a private gym is more convenient in terms of opening hours and app access, but the final price with mensalidade, taxa de inscrição, manutenção and extras is often higher. The municipal option is especially good value for a family with children or for someone who needs the pool 1–3 times a week.' }
       ]
     },
     {
       id: 'how-to-find',
-      title: 'How to find facility nearby',
+      title: 'How to find a facility nearby',
       content: [
         { kind: 'paragraph', text: 'Do not search only for “gym”; use Portuguese terms: piscina municipal, complexo desportivo municipal, pavilhão municipal, equipamentos desportivos, desporto municipal + the name of the concelho.' },
         { kind: 'checklist', items: [
@@ -44,7 +44,7 @@ export default {
           'Porto: Câmara Municipal do Porto website → Desporto → Equipamentos / Programas',
           'Oeiras, Cascais, Sintra, Almada, Matosinhos and Gaia have their own separate networks and fees',
           'Check who manages the facility: Câmara Municipal, empresa municipal, clube or concession',
-          'Look at thehorário público” and “natação livre” timetable, not only school classes',
+          'Look at the “horário público” and “natação livre” timetable, not only school classes',
           'Check transport: many pools are cheaper but inconvenient without a car',
           'Call before visiting: places in aulas de natação often run out in September and January',
           'If the website is old, current vagas are often published in a PDF, on the municipality’s Facebook page or at reception'
@@ -117,6 +117,6 @@ export default {
     { title: 'Câmara Municipal do Porto — Desporto, equipamentos and municipal programmes', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal portal — municipal services and Câmara Municipal contacts', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

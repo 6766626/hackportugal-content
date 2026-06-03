@@ -65,6 +65,6 @@ export default {
     { title: 'Treatwell Portugal — online booking for salons and barbearias', url: 'https://www.treatwell.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fresha Portugal — booking beauty services and barbershop', url: 'https://www.fresha.com/pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -122,6 +122,6 @@ export default {
     { title: 'GEP — Carta Social, Gabinete de Estratégia e Planeamento (MTSSS)', url: 'https://www.gep.mtsss.gov.pt/carta-social', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Segurança Social — IPSS e respostas sociais', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

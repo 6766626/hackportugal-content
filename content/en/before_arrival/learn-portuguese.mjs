@@ -16,7 +16,7 @@ export default {
           '🗣️ Pronunciation: PT-PT has “closed” vowels and swallowed syllables (“Lis-bo-a” → “Lʒbwa”). BR-PT is clearer and more open',
           '📝 Grammar: differs slightly (tu/você, gerund constructions, estar/ficar)',
           '📚 Vocabulary: bus = autocarro (PT) / ônibus (BR); train = comboio (PT) / trem (BR); you = você (BR often) / vocês (PT formally)',
-          '🎬 Films: Brazilian films are always shown with PT subtitles — Portuguese news is not shown in BR without translation',
+          '🎬 Film and TV: Brazilian content in Portugal is often shown with PT subtitles — the two varieties are treated as different enough',
           '🎯 Conclusion: learn PT-PT if you are coming to Portugal. BR is understood — but for A2 for citizenship you need PT-PT. BR content (Duolingo, most YouTube) is fine for background exposure, but not for exams'
         ]}
       ]
@@ -133,7 +133,7 @@ export default {
     { label: 'Private school (1-month course)', amountEURMin: 150, amountEURMax: 600 },
     { label: 'Online with a teacher (hour)', amountEURMin: 15, amountEURMax: 60 },
     { label: 'Practice Portuguese subscription', amountEUR: 12, note: '€/month' },
-    { label: 'CIPLE A2 exam', amountEUR: 85 }
+    { label: 'CIPLE A2 exam', amountEUR: 95 }
   ],
   sources: [
     { title: 'Centros Qualifica — search by address', url: 'https://www.qualifica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
@@ -141,6 +141,6 @@ export default {
     { title: 'Instituto Camões — certification', url: 'https://www.instituto-camoes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CAPLE — CIPLE exams', url: 'https://caple.letras.ulisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

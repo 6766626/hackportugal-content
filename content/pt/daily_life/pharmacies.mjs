@@ -3,8 +3,8 @@ export default {
   id: 'pharmacies',
   categoryId: 'healthcare',
   title: 'Farmácias em Portugal — Farmácia e Parafarmácia',
-  tldr: 'Farmácia (cruz verde) — vende medicamentos sujeitos e não sujeitos a receita médica, e há aconselhamento do farmacêutico. Parafarmácia — apenas medicamentos não sujeitos a receita médica e cosmética de cuidado. A Comparticipação SNS (37-90% por escalão A/B/C/D) aplica-se a receitas emitidas no sistema com a identificação correcta do utente/beneficiário — o NIF por si só não dá desconto SNS. Farmácia de serviço — farmácia de turno segundo a escala de serviço.',
-  tags: ['farmácia', 'farmácia', 'receita', 'sns'],
+  tldr: 'Farmácia (cruz verde) — vende medicamentos sujeitos e não sujeitos a receita médica, e há aconselhamento do farmacêutico. Parafarmácia — apenas medicamentos não sujeitos a receita médica e cosmética de cuidado. A Comparticipação SNS (15-90% por escalão A/B/C/D) aplica-se a receitas emitidas no sistema com a identificação correcta do utente/beneficiário — o NIF por si só não dá desconto SNS. Farmácia de serviço — farmácia de turno segundo a escala de serviço.',
+  tags: ['farmácia', 'parafarmácia', 'receita', 'sns'],
   estimatedReadMinutes: 4,
   steps: [
     {
@@ -89,6 +89,6 @@ export default {
     { title: 'Farmácias de Serviço — farmácias de serviço', url: 'https://www.farmaciasdeservico.net/', kind: 'reference', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Ordem dos Farmacêuticos', url: 'https://www.ordemfarmaceuticos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

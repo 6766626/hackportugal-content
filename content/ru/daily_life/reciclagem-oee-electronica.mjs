@@ -36,7 +36,7 @@ export default {
           'При доставке крупной техники домой заранее отметьте “recolha do antigo” или спросите поддержку',
           'Устройство должно быть отсоединено, разморожено/осушено, без личных вещей и мусора внутри',
           'Магазин не обязан забирать технику другого типа по правилу 1-for-1',
-          'Мелкую электронику до 25 см крупные магазины EEE площадью продаж от 400 м² принимают бесплатно даже без покупки',
+          'Мелкую электронику до 25 см крупные магазины электроники с торговой площадью от 400 м² принимают бесплатно даже без покупки',
           'В Worten часто есть caixas/pontos de recolha для кабелей, телефонов, батареек и мелкой техники',
           'В Continente ищите pilhão и зоны recolha; крупную технику проще сдавать через доставку новой покупки'
         ] },
@@ -84,7 +84,7 @@ export default {
       title: 'Быстрые сценарии для экспата',
       content: [
         { kind: 'checklist', items: [
-          'Старый телефон: backup → reset → вынуть SIM/eSIM отвязать → сдать в Worten/пункт Electrão/ERP; батарейку отдельно только если съёмная',
+          'Старый телефон: backup → reset → вынуть SIM / отвязать eSIM → сдать в Worten/пункт Electrão/ERP; батарейку отдельно только если съёмная',
           'Ноутбук: wipe/сброс → сдать в магазин с REEE box или ecocentro; зарядку можно сдавать вместе',
           'Телевизор: при покупке нового заказать recolha 1-for-1; без покупки — ecocentro или recolha de volumosos у Câmara',
           'Холодильник/стиральная машина: лучше оформлять забор при доставке новой техники; иначе звонить в Câmara Municipal',
@@ -108,6 +108,6 @@ export default {
     { title: 'Decreto-Lei 152-D/2017 — regime unificado dos fluxos específicos de resíduos', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/152-d-2017-114337042', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Agência Portuguesa do Ambiente — resíduos de equipamentos elétricos e eletrónicos', url: 'https://apambiente.pt/residuos/residuos-de-equipamentos-eletricos-e-eletronicos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

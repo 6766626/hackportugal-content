@@ -3,7 +3,7 @@ export default {
   id: 'traffic-fines',
   categoryId: 'auto_trips',
   title: 'Штрафы ПДД в Португалии — виды, баллы, обжалование',
-  tldr: 'Штрафы ANSR (Autoridade Nacional de Segurança Rodoviária) делятся на лёгкие (leves), серьёзные (graves), очень серьёзные (muito graves). У водителя 12 баллов в системе «carta por pontos» — они списываются за нарушения. При 0 баллов — cassação do título. В течение 15 рабочих дней после уведомления обычно можно добровольно оплатить минимальную сумму coima (не «скидка 50%»)\.\n\nDefesa/contestação — в течение 15 рабочих дней по адресу/порядку из уведомления.',
+  tldr: 'Штрафы ANSR (Autoridade Nacional de Segurança Rodoviária) делятся на лёгкие (leves), серьёзные (graves), очень серьёзные (muito graves). У водителя 12 баллов в системе «carta por pontos» — они списываются за нарушения. При 0 баллов — cassação do título. В течение 15 рабочих дней после уведомления обычно можно добровольно оплатить минимальную сумму coima (не «скидка 50%»).\n\nDefesa/contestação — в течение 15 рабочих дней по адресу/порядку, указанным в уведомлении.',
   tags: ['штраф', 'пдд', 'ansr', 'баллы'],
   estimatedReadMinutes: 6,
   steps: [
@@ -41,13 +41,13 @@ export default {
       id: 'points',
       title: 'Carta por pontos — 12 баллов',
       content: [
-        { kind: 'paragraph', text: 'Carta por pontos действует с 01.06.2016. У каждого водителя есть 12 баллов, которые списываются при нарушениях. Баллы восстанавливаются автоматически: +1 за каждые 3 года без нарушений.' },
+        { kind: 'paragraph', text: 'Carta por pontos действует с 01.06.2016. У каждого водителя есть 12 баллов, которые списываются при нарушениях. Баллы восстанавливаются автоматически: +3 за каждые 3 года без нарушений (но не более 15 баллов).' },
         { kind: 'checklist', items: [
-          '⬇️ Снятие баллов: за дорожные преступления (crime rodoviário) — −6; за административные muito grave — −4 (−5 для alcohol/drugs); за grave — −2 (−3 для alcohol). Формального «предупреждения» на 9 баллах нет',
+          '⬇️ Снятие баллов: за дорожные преступления (crime rodoviário) — −6; за административные muito grave — −4 (−5 за алкоголь/наркотики); за grave — −2 (−3 за алкоголь). Формального «предупреждения» на 9 баллах нет',
           '⬇️ При 5 или 4 баллах — обязательная ação de formação de segurança rodoviária',
           '⬇️ При 3, 2 или 1 балле — обязательный теоретический экзамен',
           '⬇️ При 0 баллов — cassação da carta; новый título de condução можно получать только после предусмотренного законом срока и выполнения требований',
-          '📅 Баллы восстанавливаются: +1 за 3 года без нарушений',
+          '📅 Баллы восстанавливаются: +3 за 3 года без нарушений (максимум 15 баллов)',
           '✅ Курс повышения квалификации (Curso de aperfeiçoamento) — можно восстановить 4 балла 1 раз в 5 лет'
         ]}
       ]
@@ -96,7 +96,7 @@ export default {
           '💳 Способы: ANSR онлайн, Portal das Finanças, Multibanco, CTT/Payshop',
           '📅 Срок полной оплаты — 30 дней после уведомления',
           '⏰ Просрочка — +30 %, затем судебный процесс',
-          '💸 Долг > 50 € — заблокирует IPO и продажу машины'
+          '💸 Долг > 50 € — заблокирует техосмотр (IPO) и продажу машины'
         ]}
       ]
     },
@@ -127,6 +127,6 @@ export default {
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Pagar coima de trânsito', url: 'https://www.gov.pt/cidadaos/-/informacoes/pagar-coimas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -97,7 +97,7 @@ export default {
           '🛍️ Compare 3–5 offers — prices can differ by a factor of 2',
           '📅 Changing insurer — 30 days before the end, written cancellation notice',
           '🚗 When selling a car, the seller’s insurance does not transfer to the buyer — the buyer arranges their own RC before driving. The seller notifies the insurer of the sale and can request termination of the contract/a refund of part of the premium or transfer of the policy to another car',
-          '🆘 ASF number 213 847 900 — for complaints',
+          '🆘 ASF line 217 983 983 — for queries and complaints',
           '🌍 Green Card is mandatory for travelling to other EU countries',
           '📉 After 5 years without accidents — bonus-malus goes down to the minimum'
         ]}
@@ -116,6 +116,6 @@ export default {
     { title: 'FGA — Fundo de Garantia Automóvel', url: 'https://www.fga.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Car insurance', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

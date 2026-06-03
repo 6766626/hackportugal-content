@@ -29,6 +29,7 @@ export default {
           'Доход не выше установленного лимита программы: ориентир — до 8-го escalão IRS',
           'Нет просроченных долгов перед Autoridade Tributária и Segurança Social',
           'Не использовалась аналогичная государственная гарантия раньше',
+          'Кредитный договор заключён до 31 декабря 2026 года — крайний срок программы (возможно продление, но оно не гарантировано)',
           'Банк одобряет ипотеку по своим правилам stress test и taxa de esforço'
         ] },
         { kind: 'paragraph', text: 'Гражданство само по себе не является главным критерием. Для экспата важнее законное пребывание, налоговая резиденция, подтверждаемый доход и готовность банка кредитовать нерезидента/нового резидента.\n\nНа практике банки чаще требуют ВНЖ, contrato de trabalho sem termo или стабильные recibos verdes/зарубежный доход с документами.' }
@@ -108,7 +109,7 @@ export default {
           'Сделайте Mapa de responsabilidades de crédito, даже если кредитов в PT нет',
           'Сравнивайте spread и TAEG, а не рекламную ставку',
           'Уточните стоимость seguro de vida: у молодых он дешевле, но при заболеваниях цена растёт',
-          'Не закладывайте 100% financing как гарантированный сценарий: банк может попросить 5–10% собственных средств',
+          'Не закладывайте финансирование на 100% как гарантированный сценарий: банк может попросить 5–10% собственных средств',
           'Проверяйте IMT/IS льготы для молодых отдельно: это налоговая мера, не часть кредита'
         ] },
         { kind: 'paragraph', text: 'Хорошая стратегия — получить две pré-aprovações в разных банках и только потом делать оферту продавцу. Для иностранца с короткой историей в Португалии это часто решает исход сделки.' }
@@ -127,6 +128,6 @@ export default {
     { title: 'Decreto-Lei 44/2024 — garantia pessoal do Estado para aquisição da primeira habitação própria e permanente', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/44-2024-870793703', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal — crédito à habitação e FINE', url: 'https://clientebancario.bportugal.pt/pt-pt/credito-habitacao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

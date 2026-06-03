@@ -3,7 +3,7 @@ export default {
   id: 'bicicleta-registo-codigo',
   categoryId: 'auto_ownership',
   title: 'Bicicleta em Portugal — registo, carta e regras',
-  tldr: 'As bicicletas comuns (sem motor) em Portugal NÃO exigem registo, carta ou seguro. Desde 2022 existe um registo voluntário de bicicletas através do MyBike (mybike.pt) — para protecção contra roubo. As bicicletas eléctricas (e-bike) até 250 W e 25 km/h — não exigem registo. Acima disso — são speed pedelec / e-moped e é necessário: registo no IMT, carta AM ou A1, capacete, seguro. Código da Estrada: circulação pelo lado direito da via, pode circular em ciclovias, passeio — apenas crianças até 10 anos. O capacete é obrigatório para crianças até 16 anos, recomendado para todos. Bicicleta nos comboios da CP — gratuita fora das horas de ponta, no Metro de Lisboa — sim na maioria das estações.',
+  tldr: 'As bicicletas comuns (sem motor) em Portugal NÃO exigem registo, carta ou seguro. Desde 2022 existe um registo voluntário de bicicletas através do MyBike (mybike.pt) — para protecção contra roubo. As bicicletas eléctricas (e-bike) até 250 W e 25 km/h — não exigem registo. Acima disso — são speed pedelec / e-moped e é necessário: registo no IMT, carta AM ou A1, capacete, seguro. Código da Estrada: circulação pelo lado direito da via, pode circular em ciclovias, passeio — apenas crianças até 10 anos. Numa bicicleta comum o capacete não é obrigatório por lei (recomendado para todos), mas é obrigatório num velocípede eléctrico com motor. Bicicleta nos comboios da CP — gratuita fora das horas de ponta, no Metro de Lisboa — sim na maioria das estações.',
   tags: ['bicicleta', 'bicicletas', 'mybike', 'e-bike', 'imt'],
   estimatedReadMinutes: 6,
   steps: [
@@ -68,7 +68,7 @@ export default {
           '✅ Two abreast: pode circular a par se não dificultar o trânsito',
           '🚦 Semáforos: as mesmas regras que para os automóveis',
           '🚦 Passadeira: desça e leve a bicicleta à mão — atravesse como peão',
-          '⚠️ Álcool: 0,5 g/l para ciclistas (como para automóveis), 0,2 para jovens até 25 anos ou recém-encartados',
+          '⚠️ Álcool: 0,5 g/l para ciclistas (como para automóveis), 0,2 g/l para condutores recém-encartados (primeiros 3 anos) e condutores profissionais',
           '⚠️ Telemóvel na mão: proibido como para os automobilistas',
           '🌃 À noite: é obrigatório ter luz à frente (branca) e atrás (vermelha) + reflector. Reflectores nos pedais. Sem isso — coima de 60-300 €'
         ] }
@@ -79,12 +79,11 @@ export default {
       title: 'Capacete — obrigatório ou não',
       content: [
         { kind: 'checklist', items: [
-          'Crianças até 16 anos: CAPACETE OBRIGATÓRIO (Decreto-Lei 41/2007)',
-          'Adultos: RECOMENDADO, mas não obrigatório',
+          'Bicicleta comum (sem motor): o capacete NÃO é obrigatório por lei nem para crianças nem para adultos — mas é fortemente RECOMENDADO para todos',
+          'Velocípede eléctrico com motor (velocípede com motor): o capacete é OBRIGATÓRIO para o condutor e o passageiro segundo o Código da Estrada, independentemente da idade',
           'Cadeira de criança: permitida para crianças até 7 anos, deve ter apoios para os pés e cintos',
           'Bicicleta com carga / reboque: até 80 kg no total, o reboque deve ter luzes',
-          'Ralis desportivos: capacete obrigatório para todos os participantes segundo as regras da FPC',
-          'Pedelec / e-moped: capacete obrigatório independentemente da idade'
+          'Ralis desportivos: capacete obrigatório para todos os participantes segundo as regras da FPC'
         ] }
       ]
     },
@@ -97,7 +96,7 @@ export default {
           'Apresentar queixa imediatamente na PSP: «furto de bicicleta», são necessários o número do quadro, MyBike registration, fotografia',
           'As hipóteses de encontrar aumentam se houver MyBike + fotografia com o número do quadro',
           'Seguro de bicicleta: 50-200 €/ano na Tranquilidade, Fidelidade, Generali. Cobrem: roubo, danos, responsabilidade por lesões',
-          'Bicicletas caras (>1500 €): seguro obrigatório',
+          'Bicicletas caras (>1500 €): seguro fortemente aconselhável (não é obrigatório por lei)',
           'Adicionalmente: pode adicionar a bicicleta ao seguro da casa (seguro multirriscos), muitas vezes mais barato',
           'Cadeado: U-lock no mínimo 60 €, não cabos baratos',
           'Localizador GPS: AirTag no quadro ou special bike trackers (Powunity, Vodafone V-Bike)'
@@ -154,6 +153,6 @@ export default {
     { title: 'Decreto-Lei 41/2007 — Código da Estrada', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2007-34490175', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'PSP — segurança rodoviária para ciclistas', url: 'https://www.psp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

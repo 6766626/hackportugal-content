@@ -3,7 +3,7 @@ export default {
   id: 'pediatric-care',
   categoryId: 'healthcare',
   title: 'Педиатр в Португалии — SNS, частные врачи, чего ожидать',
-  tldr: 'После регистрации ребёнку присваивают Número de Utente; médico de família назначают, если в USF/UCSP есть свободные списки — иначе ребёнок остаётся sem médico de família, но сохраняет доступ к вакцинации, программе Saúde Infantil через unidade/consulta aberta/enfermagem и urgent care. Плановые консультации Saúde Infantil e Juvenil по графику DGS (1.ª semana; 1, 2, 4, 6, 9, 12, 15, 18 мес; 2, 3, 4, 5 лет; 6–7, 8, 10, 12–13 и 15–18 лет) — бесплатно. Pediatria в SNS — через направление в hospital/specialty care; в частном секторе педиатры часто ведут и обычные профилактические консультации (60–120 €/визит без страховки)\.\n\nДетская urgência: Hospital Dona Estefânia (Lisboa), Hospital Pediátrico (Coimbra), Hospital de São João (Porto). При угрозе жизни — 112; иначе сначала SNS 24 (808 24 24 24).',
+  tldr: 'После регистрации ребёнку присваивают Número de Utente; médico de família назначают, если в USF/UCSP есть свободные списки — иначе ребёнок остаётся sem médico de família, но сохраняет доступ к вакцинации, программе Saúde Infantil через unidade/consulta aberta/enfermagem и urgent care. Плановые консультации Saúde Infantil e Juvenil по графику DGS (1.ª semana; 1, 2, 4, 6, 9, 12, 15, 18 мес; 2, 3, 4, 5 лет; 6–7, 8, 10, 12–13 и 15–18 лет) — бесплатно. Pediatria в SNS — через направление в hospital/specialty care; в частном секторе педиатры часто ведут и обычные профилактические консультации (60–120 €/визит без страховки).\n\nДетская urgência: Hospital Dona Estefânia (Lisboa), Hospital Pediátrico (Coimbra), Hospital de São João (Porto). При угрозе жизни — 112; иначе сначала SNS 24 (808 24 24 24).',
   tags: ['педиатр', 'дети', 'sns', 'médico de família'],
   estimatedReadMinutes: 5,
   steps: [
@@ -72,7 +72,7 @@ export default {
           { id: 'c3', title: 'Цены без страховки', content: [
             { kind: 'checklist', items: [
               'Консультация общего педиатра: 60–100 €',
-              'Subspecialty consultation (неврология, кардиология, эндокринология педиатрические): 80–150 €',
+              'Консультация субспециалиста (детская неврология, кардиология, эндокринология): 80–150 €',
               'Частная urgência pediátrica: 50–80 €',
               'Анализы и обследования (анализ крови, УЗИ): 30–150 € за исследование',
               'Пакет «наблюдение в первый год»: 300–600 € (ежемесячные приёмы + контроль этапов развития)'
@@ -85,7 +85,7 @@ export default {
               'AdvanceCare (Generali): более индивидуальные планы',
               'Tranquilidade: прогрессивный вариант',
               'Для ребёнка отдельно: ~20–40 €/мес',
-              'Для simples consultas de pediatria carência часто отсутствует или короткая, но это зависит от apólice; проверяйте carências for exams, hospitalization, pre-existing conditions and newborn inclusion'
+              'Для простых консультаций педиатра (simples consultas de pediatria) carência часто отсутствует или короткая, но это зависит от apólice; уточняйте carências для обследований, госпитализации, ранее имевшихся заболеваний и включения новорождённого'
             ]}
           ]}
         ]}
@@ -104,7 +104,7 @@ export default {
               '🏥 Faro: педиатрическое отделение Hospital de Faro',
               '🏥 Cascais: Hospital de Cascais (педиатрическое отделение)',
               'Частные: CUF Tejo Pediatric, Luz Pediatric — меньше очередей',
-              '⚠️ Перед поездкой проверяйте serviços de urgência disponíveis на страницах SNS/ULS или звоните SNS 24: pediatric emergency units могут иметь временные ограничения. Для частных hospitals подтверждайте часы работы детской urgência and accepted ages перед визитом'
+              '⚠️ Перед поездкой проверяйте serviços de urgência disponíveis на страницах SNS/ULS или звоните в SNS 24: детские отделения urgência могут иметь временные ограничения. Для частных клиник подтверждайте часы работы детской urgência и принимаемый возраст перед визитом'
             ]}
           ]},
           { id: 'u2', title: 'Когда идти в urgência', content: [
@@ -112,7 +112,7 @@ export default {
               '🚨 При угрозе жизни — 112 (единый европейский номер экстренной помощи)',
               '🔴 ДА: высокая температура у ребёнка <3 мес (любая >38°C), судороги, сильная одышка, обморок, тяжёлая травма, аллергическая реакция',
               '🟡 Обычно не надо: простуда без осложнений, температура до 39°C у детей постарше, лёгкая травма',
-              '📞 В неэкстренных/сомнительных случаях сначала звоните SNS 24: 808 24 24 24 — оператор/медсестра проведёт телефонную triagem и скажет, куда идти. Manchester Triage применяется уже после прибытия в hospital emergency',
+              '📞 В неэкстренных/сомнительных случаях сначала звоните SNS 24: 808 24 24 24 — оператор/медсестра проведёт телефонную triagem и скажет, куда идти. Manchester Triage применяется уже после прибытия в приёмный покой больницы',
               '💡 Во многих Centro de Saúde есть Atendimento Complementar — менее загруженная альтернатива'
             ]}
           ]}
@@ -133,6 +133,6 @@ export default {
     { title: 'SNS — Serviços de Urgência', url: 'https://www.sns.gov.pt/sns/servicos-de-urgencia/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Hospital Dona Estefânia (педиатрический)', url: 'https://www.chlc.min-saude.pt/urgencias-2/urgencia-pediatrica-hospital-de-dona-estefania/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

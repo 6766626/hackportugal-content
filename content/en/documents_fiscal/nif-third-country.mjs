@@ -62,7 +62,7 @@ export default {
           'Check resident/non-resident status in AT and whether there is a fiscal representative — update if necessary',
           'Keep the NIF confirmation (printout of the Número de Identificação Fiscal)'
         ]},
-        { kind: 'warning', text: 'If you have in fact become a tax resident of Portugal (183+ days or a permanent home), separately change your tax address to a Portuguese one. While AT shows a foreign address/non-resident status, a Portuguese employer withholds IRS as for a non-resident — for employment income the rate is usually 25% (Código do IRS art. 72; withholding at source — under the retenção na fonte rules).' }
+        { kind: 'warning', text: 'If you have in fact become a tax resident of Portugal (183+ days or a permanent home), separately change your tax address to a Portuguese one. While AT shows a foreign address/non-resident status, a Portuguese employer withholds IRS as for a non-resident — for employment income the rate is usually 25% (Código do IRS art. 71; withholding at source — under the retenção na fonte rules).' }
       ]
     }
   ],
@@ -82,6 +82,6 @@ export default {
     { title: 'ePortugal — Request a NIF for an individual', url: 'https://www.gov.pt/servicos/pedir-o-numero-de-identificacao-fiscal-nif-para-pessoa-singular', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do IRS — tax domicile and taxation of non-residents', url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/default.aspx', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

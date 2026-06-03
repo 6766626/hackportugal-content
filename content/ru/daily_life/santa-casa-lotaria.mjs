@@ -23,7 +23,7 @@ export default {
         { kind: 'checklist', items: [
           'Euromilhões — розыгрыши во вторник и пятницу; ставка simples в Португалии стоит 2,50 €.',
           'M1lhão — португальский дополнительный код, обычно включён в Euromilhões; даёт отдельный еженедельный приз 1 000 000 € для игроков в Португалии.',
-          'Totoloto — национальная числовая лотерея; базовая ставка simples стоит 0,40 €.',
+          'Totoloto — национальная числовая лотерея; базовая ставка simples стоит 1 €.',
           'Joker — дополнительная игра с отдельным номером; ставка стоит 1 €.',
           'Raspadinha — моментальная скретч-карта; цена зависит от серии, обычно 1–5 €, иногда выше для специальных выпусков.',
           'Lotaria Clássica / Lotaria Popular — бумажные лотерейные билеты с тиражами и долями bilhete/fração.',
@@ -86,7 +86,7 @@ export default {
   ],
   costs: [
     { label: 'Euromilhões, ставка simples', amountEUR: 2.5, note: 'Розыгрыши вторник/пятница; цена в Португалии за базовую aposta.' },
-    { label: 'Totoloto, ставка simples', amountEUR: 0.4, note: 'Базовая ставка; итоговая цена зависит от количества apostas и дополнительных опций.' },
+    { label: 'Totoloto, ставка simples', amountEUR: 1, note: 'Базовая ставка; итоговая цена зависит от количества apostas и дополнительных опций.' },
     { label: 'Joker', amountEUR: 1, note: 'Дополнительная игра с отдельным номером.' },
     { label: 'Raspadinha', amountEURMin: 1, amountEURMax: 5, note: 'Типичный диапазон для популярных серий; специальные выпуски могут стоить дороже.' },
     { label: 'Налог на призы', amountEUR: 0, note: 'До 5 000 € налог не удерживается; с превышения сверх 5 000 € — Imposto do Selo 20%.' }
@@ -97,6 +97,6 @@ export default {
     { title: 'Jogos Santa Casa — Totoloto', url: 'https://www.jogossantacasa.pt/web/SCCartazResult/cartazTotoloto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Imposto do Selo — налогообложение призов', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1999-34502275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

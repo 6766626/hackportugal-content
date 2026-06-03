@@ -121,6 +121,6 @@ export default {
     { title: 'Banco de Portugal — bank fee comparison tool', url: 'https://clientebancario.bportugal.pt/pt-pt/comparador-de-comissoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Fundo de Garantia de Depósitos — deposit guarantee in Portugal', url: 'https://www.fgd.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

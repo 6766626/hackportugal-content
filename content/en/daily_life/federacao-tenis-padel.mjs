@@ -27,7 +27,7 @@ export default {
       id: 'where-to-play',
       title: 'Where to play without a licence',
       content: [
-        { kind: 'paragraph', text: 'If the goal is simply to play 1–3 times a week, start not with the federation but with the nearest courts.\n\nIn Lisbon, Porto, Cascais, Oeiras, Almada,, Algarve and Madeira there are many clubs with online booking. For padel, people often use booking apps, the club website or WhatsApp; some venues are located directly in shopping centres and retail parks.' },
+        { kind: 'paragraph', text: 'If the goal is simply to play 1–3 times a week, start not with the federation but with the nearest courts.\n\nIn Lisbon, Porto, Cascais, Oeiras, Almada, Algarve and Madeira there are many clubs with online booking. For padel, people often use booking apps, the club website or WhatsApp; some venues are located directly in shopping centres and retail parks.' },
         { kind: 'checklist', items: [
           'Search on Google Maps for: “padel”, “clube de ténis”, “court tenis”, “aulas padel”.',
           'Check the price per court/hour, not per person: padel is usually split between 4 players.',
@@ -127,6 +127,6 @@ export default {
     { title: 'Federação Portuguesa de Ténis — official website, calendar, clubs and competitions', url: 'https://www.tenis.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Federação Portuguesa de Padel — official website, licences, calendário and regulamentos', url: 'https://www.fppadel.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

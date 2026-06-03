@@ -44,7 +44,7 @@ export default {
       id: 'documents',
       title: 'Документы: что подготовить заранее',
       content: [
-        { kind: 'paragraph', text: 'Точный список документов зависит от вашего основания: резидент, студент или работник. Перед подачей проверьте актуальную форму на сайте cm-porto.pt, потому что CMP может менять способ подтверждения и цифровые каналы.' },
+        { kind: 'paragraph', text: 'Точный список документов зависит от вашего основания: резидент, студент или работник. Перед подачей проверьте актуальную форму на сайте cartao.porto.pt, потому что CMP может менять способ подтверждения и цифровые каналы.' },
         { kind: 'checklist', items: [
           'Documento de identificação: ВНЖ, паспорт, Cartão de Cidadão или другой допустимый ID',
           'NIF',
@@ -63,8 +63,8 @@ export default {
       title: 'Как подать заявку 📝',
       content: [
         { kind: 'substeps', items: [
-          { id: 'check-page', title: '1. Откройте раздел Cartão Porto. на сайте CMP', content: [
-            { kind: 'paragraph', text: 'Начинайте с официального сайта Câmara Municipal do Porto. Ищите раздел Cartão Porto. или benefícios Cartão Porto. Не используйте страницы туристической Porto Card: это другой продукт.' }
+          { id: 'check-page', title: '1. Откройте официальный сайт Cartão Porto.', content: [
+            { kind: 'paragraph', text: 'Начинайте с официального портала cartao.porto.pt. Ищите раздел Cartão Porto. или benefícios Cartão Porto. Не используйте страницы туристической Porto Card: это другой продукт.' }
           ] },
           { id: 'create-profile', title: '2. Создайте или подтвердите профиль', content: [
             { kind: 'paragraph', text: 'Если доступна онлайн-заявка, заполните данные, загрузите документы и проверьте email. В некоторых случаях CMP может направить вас в atendimento municipal или запросить дополнительные доказательства.' }
@@ -73,7 +73,7 @@ export default {
             { kind: 'paragraph', text: 'Файл должен быть читаемым: имя, адрес, дата и организация-эмитент должны быть видны. Для аренды лучше приложить договор и последний recibo de renda, если он есть.' }
           ] },
           { id: 'wait-validation', title: '4. Дождитесь проверки', content: [
-            { kind: 'paragraph', text: 'CMP проверяет право на карту. Сроки не являются универсальными: в периоды обновления учебного года и массовых заявок ожидание обычно дольше.' }
+            { kind: 'paragraph', text: 'CMP проверяет право на карту. Единого срока нет: в периоды начала учебного года и массовых заявок ожидание обычно дольше.' }
           ] },
           { id: 'use-card', title: '5. Используйте цифровую или физическую карту', content: [
             { kind: 'paragraph', text: 'После одобрения проверьте, где карта отображается: в личном кабинете, приложении или как физическая карта. На кассах музеев, бассейнов и мероприятий могут попросить ID вместе с картой.' }
@@ -85,7 +85,7 @@ export default {
       id: 'benefits',
       title: 'Какие льготы реально ожидать',
       content: [
-        { kind: 'paragraph', text: 'Смысл Cartão Porto. — муниципальные преимущества, а не универсальная скидочная карта на всё. Список партнёров и правил меняется, поэтому перед покупкой билета или абонемента проверяйте конкретный объект на cm-porto.pt.' },
+        { kind: 'paragraph', text: 'Смысл Cartão Porto. — муниципальные преимущества, а не универсальная скидочная карта на всё. Список партнёров и правил меняется, поэтому перед покупкой билета или абонемента проверяйте конкретный объект на cartao.porto.pt.' },
         { kind: 'checklist', items: [
           'Скидки или льготный доступ к культурным объектам CMP',
           'Льготы на мероприятия Teatro Municipal do Porto и другие муниципальные программы, если они включены в актуальный список',
@@ -118,17 +118,17 @@ export default {
     }
   ],
   costs: [
-    { label: 'Cartão Porto.', amountEUR: 0, note: 'Муниципальная карта CMP для подходящих жителей/студентов/работников; проверяйте актуальные условия выпуска на cm-porto.pt.' },
+    { label: 'Cartão Porto.', amountEUR: 0, note: 'Муниципальная карта CMP для подходящих жителей/студентов/работников; проверяйте актуальные условия выпуска на cartao.porto.pt.' },
     { label: 'Выпуск персональной карты Andante', amountEUR: 6, note: 'Ориентир для физической персональной карты Andante; сама Cartão Porto. её не заменяет.' },
     { label: 'Andante Municipal', amountEUR: 30, note: 'Обычный месячный проездной для одной муниципальной зоны; студентам Sub23 могут применяться отдельные льготы.' },
     { label: 'Andante Metropolitano', amountEUR: 40, note: 'Обычный месячный проездной для Área Metropolitana do Porto; не является частью Cartão Porto.' }
   ],
   sources: [
-    { title: 'Câmara Municipal do Porto — Cartão Porto.', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Cartão Porto. — site oficial', url: 'https://cartao.porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Câmara Municipal do Porto — serviços e benefícios municipais', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Andante — passes, títulos e cartão personalizado', url: 'https://andante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Movijovem — Cartão Jovem', url: 'https://www.cartaojovem.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -11,7 +11,7 @@ export default {
       id: 'find-operator',
       title: '1. Найдите своего оператора воды',
       content: [
-        { kind: 'paragraph', text: 'В Португалии водоснабжение — муниципальная услуга. Нельзя выбрать “поставщика” как интернет или мобильную связь: договор заключается с оператором, который обслуживает конкретный адрес.' },
+        { kind: 'paragraph', text: 'В Португалии водоснабжение — муниципальная услуга. Поставщика нельзя выбрать, как при подключении интернета или мобильной связи: договор заключается с оператором, который обслуживает конкретный адрес.' },
         { kind: 'checklist', items: [
           'Lisboa: EPAL — Empresa Portuguesa das Águas Livres',
           'Porto: Águas e Energia do Porto / Águas do Porto',
@@ -22,7 +22,7 @@ export default {
           'Almada: SMAS de Almada',
           'В маленьких городах ищите “Águas”, “SMAS” или “Serviços Municipalizados” на сайте Câmara Municipal'
         ] },
-        { kind: 'paragraph', text: 'Если вы снимаете жильё, сначала спросите у landlord/агента: вода уже активна и надо только сменить titular, или счётчик отключён и нужен новый contrato de fornecimento.' }
+        { kind: 'paragraph', text: 'Если вы снимаете жильё, сначала спросите у арендодателя или агента: вода уже активна и надо только сменить titular, или счётчик отключён и нужен новый contrato de fornecimento.' }
       ]
     },
     {
@@ -56,8 +56,8 @@ export default {
           { id: 'counter', title: 'Лично в офисе', content: [
             { kind: 'paragraph', text: 'Если онлайн-форма не принимает иностранный документ, адрес не находится в базе или нужен срочный запуск, идите в loja/balcão do cliente. Возьмите оригиналы документов и копии в PDF на телефоне.' }
           ] },
-          { id: 'landlord', title: 'Если договор остаётся на landlord', content: [
-            { kind: 'paragraph', text: 'Так делать можно, но это хуже для арендатора: вы не контролируете débito direto, не получаете официальные faturas на своё имя и сложнее доказывать адрес. Для долгосрочной аренды обычно лучше оформить água на себя.' }
+          { id: 'landlord', title: 'Если договор остаётся на арендодателе', content: [
+            { kind: 'paragraph', text: 'Так делать можно, но это хуже для арендатора: вы не контролируете débito direto, не получаете официальные faturas на своё имя, и сложнее доказывать адрес. Для долгосрочной аренды обычно лучше оформить água на себя.' }
           ] }
         ] }
       ]
@@ -124,6 +124,6 @@ export default {
     { title: 'ERSAR — права потребителей услуг воды, saneamento и resíduos', url: 'https://www.ersar.pt/pt/consumidor', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações eletrónico — жалобы на коммунальных операторов', url: 'https://www.livroreclamacoes.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

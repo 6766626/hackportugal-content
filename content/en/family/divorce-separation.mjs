@@ -163,7 +163,7 @@ export default {
           '⚠️ International custody (one parent leaves the country): under the Hague Convention there may be child-abduction proceedings if the child is taken without consent',
           '⚠️ Concealing income through resignation: sometimes a parent stops working to avoid maintenance — the court may impute income',
           '⚠️ Mediation (Sistema de Mediação Familiar / DGPJ): may be useful and may be recommended/referred, but it is not a universally mandatory precondition for divorce. Check the fee against the current DGPJ table',
-          '⚠️ Mental health: 60% of people after divorce experience clinical depression in the first 6 months — seek support in advance'
+          '⚠️ Mental health: divorce is a major stressor, and in the first months many people experience anxiety or depression — do not delay seeking support'
         ]}
       ]
     }
@@ -181,6 +181,6 @@ export default {
     { title: 'Reg. (EU) 1259/2010 — Rome III (applicable law for divorce)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R1259', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Reg. (EU) 2019/1111 — Brussels II ter (jurisdiction/recognition)', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32019R1111', kind: 'law', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

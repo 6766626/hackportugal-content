@@ -3,7 +3,7 @@ export default {
   id: 'sia-password-issues',
   categoryId: 'digital_gov',
   title: 'Сброс пароля Portal das Finanças и SIA — что делать',
-  tldr: 'Если забыли пароль AT (Portal das Finanças / SIA): через portaldasfinancas.gov.pt → «Recuperar Senha» → СМС или письмо по почте (5-7 дней)\.\n\nАльтернатива: лично в Espaço Cidadão или отделении Finanças. С CMD (Chave Móvel Digital) можно войти БЕЗ пароля. Для сброса CMD — ePortugal.gov.pt → перевыпуск ОДНОРАЗОВЫХ кодов. Если потеряли всё — Conservatória/Espaço Cidadão с CC.',
+  tldr: 'Если забыли пароль AT (Portal das Finanças / SIA): через portaldasfinancas.gov.pt → «Recuperar Senha» → СМС или письмо по почте (5-7 дней).\n\nАльтернатива: лично в Espaço Cidadão или отделении Finanças. С CMD (Chave Móvel Digital) можно войти БЕЗ пароля. Для сброса CMD — ePortugal.gov.pt → перевыпуск ОДНОРАЗОВЫХ кодов. Если потеряли всё — Conservatória/Espaço Cidadão с CC.',
   tags: ['пароль', 'finanças', 'sia', 'cmd', 'портал', 'забыл пароль'],
   estimatedReadMinutes: 4,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'pf-password',
       title: '🔐 Восстановить пароль Portal das Finanças',
       content: [
-        { kind: 'paragraph', text: 'Самый частый сценарий. AT (налоговая) использует «Senha de Acesso» — 8-значный пароль для входа в Portal das Finanças.' },
+        { kind: 'paragraph', text: 'Самый частый сценарий. AT (налоговая) использует «Senha de Acesso» — пароль не менее 8 символов (заглавная и строчная буквы, цифра и спецсимвол) для входа в Portal das Finanças.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Способ 1 — СМС (быстро, если есть номер)', content: [
             { kind: 'checklist', items: [
@@ -84,7 +84,7 @@ export default {
         { kind: 'checklist', items: [
           '🔓 Разблокировать: Espaço Cidadão / Loja CC, лично, бесплатно',
           '🆕 Сменить PIN самостоятельно: на сайте autenticacao.gov.pt (нужен старый PIN)',
-          '📤 Полностью сбросить (если PIN забыт и заблокирован): Loja CC, около 10 €, в день визита',
+          '📤 Полностью сбросить (если PIN забыт и заблокирован): новые коды PIN в Loja CC, 5 €, в день визита',
           '⚠️ Кодовое письмо («carta de PINs») — приходит при выдаче CC. Сохраните!',
           '💡 Если потеряли карту: заблокировать через 808 12 12 30 или ePortugal — сразу'
         ]}
@@ -95,9 +95,9 @@ export default {
       title: '⚠️ Типичные ошибки',
       content: [
         { kind: 'checklist', items: [
-          '🔴 «К NIF не привязан мобильный номер» — мобильный номер не привязан. Лично в отделение Finanças',
+          '🔴 «К NIF не привязан мобильный номер» — номер не зарегистрирован в AT. Привязать его можно лично в отделении Finanças',
           '🔴 «Неверный адрес» — адрес устарел. Сначала обновить адрес в AT/IRN',
-          '🔴 «Пароль заблокирован после 3 попыток» — заблокирован на 24 часа, потом ещё 3 попытки',
+          '🔴 «Пароль заблокирован после 3 попыток» — блокировка на 24 часа, затем ещё 3 попытки',
           '🔴 «Письмо не пришло» — обратиться в местное отделение Finanças, перевыпустят',
           '🔴 «Приложение CMD не работает в роуминге» — телефон должен быть в PT для СМС',
           '🔴 «iPhone Face ID не распознаёт CMD» — обновить приложение autenticacao.gov.pt',
@@ -126,13 +126,13 @@ export default {
     { label: 'Восстановление пароля Portal das Finanças', amountEUR: 0 },
     { label: 'Восстановление CMD', amountEUR: 0 },
     { label: 'Разблокировка PIN CC', amountEUR: 0 },
-    { label: 'Полный сброс PIN CC', amountEURMin: 10, amountEURMax: 15 }
+    { label: 'Новые коды PIN CC', amountEUR: 5 }
   ],
   sources: [
     { title: 'Portal das Finanças', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Autenticação.gov.pt — Chave Móvel Digital', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Cartão de Cidadão', url: 'https://www.gov.pt/cidadaos/-/informacoes/o-que-e-o-cartao-de-cidadao-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

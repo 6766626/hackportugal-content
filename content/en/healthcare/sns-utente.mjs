@@ -12,7 +12,7 @@ export default {
       title: 'What it is and why you need it',
       content: [
         { kind: 'paragraph', text: 'Número de utente is a 9-digit identifier in the SNS. Without it, it is harder to book appointments in the SNS and obtain subsidised prescriptions; some planned services may be charged at SNS rates for people without confirmed entitlement to the SNS. Emergency care and protected cases are available regardless of the number.' },
-        { kind: 'paragraph', text: 'It gives access to the SNS and placement on the list for a médico de família (the doctor is not always assigned immediately; in some regions you can remain sem médico de família for a long time), consultations, tests, hospitalisation, pharmacy benefits (up to a 90% discount on prescriptions), and PNV vaccinations. Anyone in Portugal can call 112 regardless of having a utente number — the number helps with subsequent records and payment/benefits.' }
+        { kind: 'paragraph', text: 'It gives access to the SNS and placement on the list for a médico de família (the doctor is not always assigned immediately; in some regions you can remain sem médico de família for a long time), consultations, tests, hospitalisation, pharmacy benefits (up to a 95% discount on prescriptions), and PNV vaccinations. Anyone in Portugal can call 112 regardless of having a utente number — the number helps with subsequent records and payment/benefits.' }
       ]
     },
     {
@@ -66,6 +66,6 @@ export default {
     { title: 'SNS24 — Citizen Portal', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Request the SNS número de utente', url: 'https://www.gov.pt/servicos/pedir-o-numero-de-utente-do-sns', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

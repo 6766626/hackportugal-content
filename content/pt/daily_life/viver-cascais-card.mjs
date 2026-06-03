@@ -3,7 +3,7 @@ export default {
   id: 'viver-cascais-card',
   categoryId: 'daily_life',
   title: 'Cartão Viver Cascais — benefícios para residentes do município',
-  tldr: 'Viver Cascais é um cartão municipal para residentes do município de Cascais (Cascais, Estoril, Alcabideche, São Domingos, Parede). Dá descontos de 20–50% em transportes (MobiCascais), estacionamento, piscinas, clubes desportivos, eventos culturais e bibliotecas. É gratuito e é emitido com base no local de residência: é necessário um atestado de residência da Junta de Freguesia. Pode apresentar o pedido online ou numa Loja Cascais.',
+  tldr: 'Viver Cascais é um cartão municipal para residentes do município de Cascais (Cascais, Estoril, Alcabideche, São Domingos, Parede). Viagens gratuitas nos autocarros municipais MobiCascais, até 180 minutos de estacionamento gratuito por dia e descontos em piscinas, clubes desportivos, eventos culturais e bibliotecas. O cartão digital é gratuito; o cartão físico custa 7 € e é válido por 5 anos. É emitido com base no local de residência: serve qualquer documento que comprove a residência ou o domicílio fiscal no concelho (uma factura de serviços, comprovativo de domicílio fiscal, atestado de residência da Junta de Freguesia, etc.). Pode apresentar o pedido online no MyCascais ou numa Loja Cascais.',
   tags: ['cascais', 'viver', 'cartão', 'benefícios'],
   estimatedReadMinutes: 3,
   steps: [
@@ -12,9 +12,9 @@ export default {
       title: 'Quem pode obter',
       content: [
         { kind: 'checklist', items: [
-          'Residentes do município de Cascais com atestado de residência (residência ≥ 30 dias)',
+          'Residentes do município de Cascais que consigam comprovar a residência ou o domicílio fiscal no concelho',
           'A idade não é relevante — crianças a partir dos 6 anos podem ter o seu próprio cartão',
-          'Trabalhadores e estudantes ligados a Cascais também podem ter categorias específicas MobiCascais/Viver Cascais — confirme as categorias actuais em mobicascais.pt e cascais.pt',
+          'Trabalhadores e estudantes ligados a Cascais também são elegíveis (com comprovativo de trabalho ou de matrícula) — confirme as categorias em mobi.cascais.pt e cascais.pt',
           'Estrangeiros com autorização de residência — são elegíveis'
         ]}
       ]
@@ -26,16 +26,16 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: '🚌 Transportes MobiCascais', content: [
             { kind: 'checklist', items: [
-              'Autocarros MobiCascais gratuitos (excepto a M-Line no Estoril)',
-              'Bicicletas MobiCascais Bikes gratuitas (até 45 minutos por dia)',
+              'Viagens gratuitas nos autocarros municipais MobiCascais (linhas M01–M41, dentro do concelho) — é preciso ter sessão iniciada na aplicação MobiCascais',
+              'Bicicletas eléctricas gratuitas — 30 minutos por dia na primeira viagem (através da aplicação Bird)',
               'Viagem gratuita no autocarro shuttle MobiPark entre parques de estacionamento e praias na época balnear'
             ]}
           ]},
           { id: 'b2', title: '🅿️ Estacionamento', content: [
             { kind: 'checklist', items: [
-              'Dístico de residente — primeiro ano gratuito',
-              'Depois, 10–30 € por ano, consoante a zona',
-              'No centro de Cascais e do Estoril, a zona paga é mais barata para residentes'
+              'Até 180 minutos de estacionamento gratuito por dia nas zonas de duração limitada (requer subscrição prévia em viver.cascais.pt e comprovativo de domicílio fiscal no concelho)',
+              'Os 180 minutos não são acumuláveis, renovam-se todos os dias e podem ser divididos entre viaturas registadas em nome do titular do cartão',
+              'Nas zonas azuis, o estacionamento é gratuito na época baixa (1 de Novembro – 30 de Abril)'
             ]}
           ]},
           { id: 'b3', title: '🏊 Desporto', content: [
@@ -69,17 +69,17 @@ export default {
       title: 'Como obter',
       content: [
         { kind: 'substeps', items: [
-          { id: 'g1', title: '1. Obter o atestado de residência', content: [
-            { kind: 'paragraph', text: 'Na Junta de Freguesia da área de residência (Cascais, Carcavelos, Parede, Estoril, etc.). É necessário contrato de arrendamento / documento de propriedade + Cartão de Cidadão/autorização de residência. Custo 5–15 €.' }
+          { id: 'g1', title: '1. Preparar o comprovativo de residência', content: [
+            { kind: 'paragraph', text: 'Serve qualquer documento com menos de 3 meses: uma factura de serviços (água, luz, gás, telefone, TV), comprovativo de domicílio fiscal ou de agregado familiar das Finanças, atestado de residência da Junta de Freguesia, etc. Não é obrigatório obter um atestado em separado. Se optar por o pedir, custa 5–15 €.' }
           ]},
           { id: 'g2', title: '2. Apresentar o pedido do Viver Cascais', content: [
             { kind: 'checklist', items: [
               'Online: registe-se primeiro no MyCascais (my.cascais.pt/viver) e depois peça o cartão',
-              'Ou presencialmente: Loja Cascais (Av. dos Combatentes 8-10) / Loja Parede',
-              'Documentos: atestado de residência, Cartão de Cidadão/autorização de residência, fotografia (pode ser do telemóvel), email',
-              'O registo é gratuito',
-              'O cartão chega por correio em 7–14 dias, ou pode pedir o levantamento numa Loja',
-              'Até receber o cartão físico, funciona o cartão virtual na aplicação MobiCascais'
+              'Ou presencialmente: Loja Cascais (Rua Manuel Joaquim Avelar, 118, piso -1), Loja Tires (Praça Fernando Lopes Graça, 156A) ou o balcão no CascaiShopping',
+              'Documentos: comprovativo de residência, Cartão de Cidadão/autorização de residência, fotografia (pode ser do telemóvel), email',
+              'O cartão digital é gratuito — após a validação dos dados fica logo disponível na aplicação MobiCascais (código QR para viajar)',
+              'O cartão físico é opcional: custa 7 €, é válido por 5 anos e chega por correio ou é levantado numa Loja',
+              'O perfil tem de ser revalidado de 5 em 5 anos (residentes — com comprovativo de domicílio fiscal no concelho)'
             ]}
           ]},
           { id: 'g3', title: '3. Descarregar a aplicação MobiCascais', content: [
@@ -102,14 +102,15 @@ export default {
     }
   ],
   costs: [
-    { label: 'Cartão Viver Cascais', amountEUR: 0 },
-    { label: 'atestado de residência da Junta de Freguesia', amountEURMin: 5, amountEURMax: 15 }
+    { label: 'Cartão Viver Cascais digital', amountEUR: 0 },
+    { label: 'Cartão Viver Cascais físico (opcional, válido 5 anos)', amountEUR: 7 },
+    { label: 'atestado de residência da Junta de Freguesia (opcional)', amountEURMin: 5, amountEURMax: 15 }
   ],
   sources: [
-    { title: 'Viver Cascais — aderir / renovar (página oficial)', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
-    { title: 'MobiCascais — aplicação e serviços', url: 'https://www.mobicascais.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Câmara Municipal de Cascais', url: 'https://www.cascais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Viver Cascais — aderir / renovar (página oficial)', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Cartão Viver Cascais — MobiCascais', url: 'https://mobi.cascais.pt/viver-cascais', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: '180 minutos de estacionamento gratuito para residentes — MobiCascais', url: 'https://mobi.cascais.pt/geral/180-minutos-de-estacionamento-gratuitos-para-residentes', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

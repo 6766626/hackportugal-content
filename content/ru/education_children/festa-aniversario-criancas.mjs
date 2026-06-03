@@ -86,7 +86,7 @@ export default {
           'Обычный торт из супермаркета или pastelaria: примерно 15–35 €.',
           'Декорированный bolo de aniversário на заказ: обычно 25–60 € за небольшой/средний размер.',
           'Cake designer с 3D-декором может стоить 70–120 € и выше.',
-          'Заказывайте торт минимум за 5–10 дней; перед маем-июнем лучше за 2 недели.',
+          'Заказывайте торт минимум за 5–10 дней; перед сезоном мая–июня лучше за 2 недели.',
           'Попросите список аллергенов: ovo, leite, glúten, frutos secos.',
           'Если есть дети с alergia, держите отдельные snacks в упаковке.',
           'Для школы/садика часто просят индивидуальные порции или фабричную упаковку.',
@@ -107,7 +107,7 @@ export default {
           'Для 10+ лет: gift card FNAC, Decathlon, Nintendo eShop, книги, спортивные аксессуары.',
           'Если не знаете ребёнка — спросите у родителя “o que ele/ela gosta?”. Это нормально.',
           'Подарочный чек/talão de troca часто кладут в пакет, особенно из FNAC, Worten, Zara, Sport Zone.',
-          'Деньги наличными детям дают реже; gift card выглядит привычнее.',
+          'Наличные деньги детям дарят реже; gift card выглядит привычнее.',
           'Если в классе собирают общий подарок, вклад обычно 5–15 € с семьи.'
         ] },
         { kind: 'paragraph', text: 'Подарок приносят упакованным. Открывать сразу или дома — зависит от семьи и темпа праздника. Если подарки не открыли при гостях, это не невежливость.' }
@@ -144,6 +144,6 @@ export default {
     { title: 'Mundo das Crianças — программы и festas infantis', url: 'https://www.mundodascriancas.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Lisboa — правила использования jardins и espaço público', url: 'https://www.lisboa.pt/cidade/ambiente/espacos-verdes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

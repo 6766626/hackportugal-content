@@ -64,7 +64,7 @@ export default {
               'PIN Autenticação (acesso a portais do Estado) — 4 dígitos',
               'PIN Assinatura (assinatura) — 4 dígitos, separado',
               'PUK (desbloqueio) — 8 dígitos, no envelope do Cartão de Cidadão',
-              'Esqueceu-se do PIN → até 3 tentativas → bloqueio → desbloquear em ePortugal.gov.pt com o PUK'
+              'Esqueceu-se do PIN → até 3 tentativas → bloqueio → desbloquear presencialmente num balcão Espaço Cidadão / IRN com o PUK (não disponível online para o Cartão de Cidadão)'
             ]}
           ]}
         ]}
@@ -117,6 +117,6 @@ export default {
     { title: 'Decreto-Lei 12/2021 (adaptação do eIDAS em Portugal)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/12-2021', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMA — Agência para a Modernização Administrativa', url: 'https://www.ama.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

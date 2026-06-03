@@ -109,7 +109,7 @@ export default {
               '📦 DHL Express — DHL point or DHL branch',
               '🚚 UPS Access Point: grocery shops, AKI, petrol stations',
               '⚠️ Import IVA applies to non-EU parcels and below €150 (the €150 threshold relates mainly to customs duties). Customs clearance is usually through the CTT customs portal/customs broker',
-              '💸 IVA: 23% mainland, 16% Madeira, 16% Açores (regional rates); + CTT handling fee, depends on shipment type and IOSS/prepaid VAT status'
+              '💸 IVA: 23% mainland, 22% Madeira, 16% Açores (regional rates); + CTT handling fee, depends on shipment type and IOSS/prepaid VAT status'
             ]}
           ]}
         ]}
@@ -160,6 +160,6 @@ export default {
     { title: 'CTT — Correios de Portugal', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANACOM — postal services regulator', url: 'https://www.anacom.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

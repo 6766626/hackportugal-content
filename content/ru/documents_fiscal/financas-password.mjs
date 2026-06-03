@@ -31,7 +31,7 @@ export default {
             { kind: 'paragraph', text: 'Если в Finanças заранее подтверждён мобильный телефон/контакт для восстановления, можно попробовать «Esqueceu-se da sua palavra-chave?» → ввести NIF → получить код подтверждения (обычно SMS) → задать новый пароль. Если такой опции нет — см. вариант B.' }
           ]},
           { id: 'r2', title: 'B. Через почту', content: [
-            { kind: 'paragraph', text: 'Если электронная почта не настроена — пароль высылают по почте CTT тем же порядком, что и при первичной активации. 5–10 дней.' }
+            { kind: 'paragraph', text: 'Если электронная почта не настроена — пароль высылают по почте CTT в том же порядке, что и при первичной активации. 5–10 дней.' }
           ]},
           { id: 'r3', title: 'C. Через Chave Móvel Digital', content: [
             { kind: 'paragraph', text: 'Если у вас активирована CMD — входите в Portal das Finanças через «Autenticação.gov» (кнопка сверху). Пароль не нужен вовсе.' }
@@ -58,8 +58,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '📧 Сразу настройте электронную почту и мобильный номер в Finanças — это страховка',
-          '🔐 Пароль: следуйте требованиям сложности, которые показывает форма AT; сохраните senha в менеджере паролей',
-          '📂 Сохраните пароль в менеджере паролей — восстановление по почте занимает неделю',
+          '🔐 Пароль: следуйте требованиям сложности, которые показывает форма AT, и придумайте надёжную senha',
+          '📂 Сохраните пароль в менеджере — восстановление по почте занимает около недели',
           '🏠 Обновляйте налоговый адрес при переезде — иначе пароль уйдёт на старый',
           '👫 Семейный аккаунт: у супруга отдельный NIF и отдельный пароль'
         ]}
@@ -71,6 +71,6 @@ export default {
     { title: 'Autenticação.gov — Chave Móvel Digital', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Pedir a senha de acesso ao Portal das Finanças', url: 'https://www.gov.pt/servicos/pedir-a-senha-de-acesso-ao-portal-das-financas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

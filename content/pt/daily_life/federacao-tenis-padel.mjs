@@ -27,7 +27,7 @@ export default {
       id: 'where-to-play',
       title: 'Onde jogar sem licença',
       content: [
-        { kind: 'paragraph', text: 'Se o objetivo é simplesmente jogar 1–3 vezes por semana, comece não pela federação, mas pelos campos mais próximos.\n\nEm Lisboa, Porto, Cascais, Oeiras, Almada,, Algarve e Madeira há muitos clubes com reservas online. Para padel, usam-se frequentemente aplicações de reserva, o site do clube ou WhatsApp; alguns espaços ficam mesmo em shopping centers e retail parks.' },
+        { kind: 'paragraph', text: 'Se o objetivo é simplesmente jogar 1–3 vezes por semana, comece não pela federação, mas pelos campos mais próximos.\n\nEm Lisboa, Porto, Cascais, Oeiras, Almada, Algarve e Madeira há muitos clubes com reservas online. Para padel, usam-se frequentemente aplicações de reserva, o site do clube ou WhatsApp; alguns espaços ficam mesmo em shopping centers e retail parks.' },
         { kind: 'checklist', items: [
           'Pesquise no Google Maps: “padel”, “clube de ténis”, “court tenis”, “aulas padel”.',
           'Confirme o preço por court/hour, e não por pessoa: no padel, normalmente é dividido por 4 jogadores.',
@@ -127,6 +127,6 @@ export default {
     { title: 'Federação Portuguesa de Ténis — site oficial, calendário, clubes e competições', url: 'https://www.tenis.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Federação Portuguesa de Padel — site oficial, licenças, calendário e regulamentos', url: 'https://www.fppadel.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

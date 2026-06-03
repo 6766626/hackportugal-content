@@ -23,7 +23,7 @@ export default {
         { kind: 'checklist', items: [
           'A chronic illness note in the processo clínico SNS — it is seen by the doctor, enfermeiro and pharmacist through the electronic prescription.',
           'Receita sem papel for long-term treatment: the doctor can issue repeatable prescriptions so you do not have to go every month just for renewal.',
-          'Special comparticipação for medicines: standard levels in Portugal are 90%, 69%, 37% or 15%, but under specific protocols it can be 100%.',
+          'Special comparticipação for medicines: standard levels in Portugal are 95%, 69%, 37% or 15%, but under specific protocols it can be 100%.',
           'For diabetes: insulin is usually fully covered; needles, lancets and syringes for self-monitoring may have 100% cover, while test strips are under a separate regime.',
           'For oncological diseases: many medicines are dispensed through an SNS hospitalar pharmacy without payment by the patient, if the treatment has been prescribed by a hospital público.',
           'For asthma, hypertension and cardiovascular diseases: cover depends on the specific medicine and clinical protocol, and is not always 100%.',
@@ -145,6 +145,6 @@ export default {
       lastRetrieved: '2026-05-04'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

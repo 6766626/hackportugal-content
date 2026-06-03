@@ -40,13 +40,13 @@ export default {
             { kind: 'paragraph', text: 'Запись на gov.pt или живая очередь. Оператор проверяет документы, активирует CMD на ваш PT-номер.' }
           ]},
           { id: 'c3', title: '2. Установить пароль (PIN)', content: [
-            { kind: 'paragraph', text: 'Сетевая PIN 4-8 цифр. Используется для каждой авторизации вместе с SMS-кодом.' }
+            { kind: 'paragraph', text: 'ПИН-код из 4–8 цифр для входа. Используется при каждой авторизации вместе с кодом из SMS.' }
           ]},
           { id: 'c4', title: '3. Установить приложение Autenticação.gov', content: [
-            { kind: 'paragraph', text: 'App для iOS / Android. Избавляет от SMS-кодов — push вместо. Рекомендуется.' }
+            { kind: 'paragraph', text: 'Приложение для iOS / Android. Избавляет от SMS-кодов: вместо них приходит push-уведомление. Рекомендуем.' }
           ]},
           { id: 'c5', title: '4. Активировать цифровую подпись (по желанию)', content: [
-            { kind: 'paragraph', text: 'Отдельная опция в профиле. Позволяет подписывать PDF без визита у нотариуса (для многих целей).' }
+            { kind: 'paragraph', text: 'Отдельная опция в профиле. Позволяет подписывать PDF без визита к нотариусу (для многих задач).' }
           ]}
         ]}
       ]
@@ -57,7 +57,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'portal-renovacoes.aima.gov.pt — продление ВНЖ',
-          'segurança social Direta — NISS, пособия',
+          'Segurança Social Direta — NISS, пособия',
           'Portal das Finanças (налоговый портал) — IRS, NIF',
           'SNS — медкарта и рецепты',
           'ePortugal — справки, выписки',
@@ -78,6 +78,6 @@ export default {
     { title: 'Autenticação.gov — официальный', url: 'https://www.autenticacao.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Chave Móvel Digital', url: 'https://www.gov.pt/cidadaos/-/informacoes/chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

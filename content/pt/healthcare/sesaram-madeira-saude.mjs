@@ -11,7 +11,7 @@ export default {
       id: 'what-is-different',
       title: 'Diferença principal: não é o SNS continental',
       content: [
-        { kind: 'paragraph', text: 'Em Portugal continental, a saúde é gerida pelo SNS através dos ACES/ULS, hospitais e Centros de Saúde. Na Madeira funciona o Serviço de Saúde da Região Autónoma da Madeira, na prática através do SESARAM, E.P.E.R.A.M. Nos Açores, funciona o Serviço Regional de Saúde dos Açores, com Unidade de Saúde de Ilha e hospitais regionais.' },
+        { kind: 'paragraph', text: 'Em Portugal continental, a saúde é gerida pelo SNS através dos ACES/ULS, hospitais e Centros de Saúde. Na Madeira funciona o Serviço de Saúde da Região Autónoma da Madeira, na prática através do SESARAM, EPERAM. Nos Açores, funciona o Serviço Regional de Saúde dos Açores, com Unidade de Saúde de Ilha e hospitais regionais.' },
         { kind: 'paragraph', text: 'Para o paciente, isto significa o seguinte: você não se limitou a “mudar-se dentro do SNS”. Tem de se inscrever no sistema local, ficar associado a um Centro de Saúde/Unidade de Saúde, actualizar a morada e obter acesso à rede regional de referenciações.' },
         { kind: 'checklist', items: [
           'Madeira: o SESARAM integra hospitais, Centros de Saúde e parte dos cuidados especializados.',
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

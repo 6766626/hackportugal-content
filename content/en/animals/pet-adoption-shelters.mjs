@@ -3,7 +3,7 @@ export default {
   id: 'pet-adoption-shelters',
   categoryId: 'animals',
   title: 'Adopting an animal in Portugal — shelters and the process',
-  tldr: 'In Portugal, adoption from a shelter is free or involves a symbolic fee (€10-50) to cover sterilisation and the microchip. Main sources: municipal CRO (Centro de Recolha Oficial), private associations (União Zoófila, ANIMAL, Bianca, CB), Animais de Rua (Lisboa), Casa dos Animais Lisboa. The adopt.cao.pt website is a national database. The law requires a microchip + registration in SIAC + insurance (for dangerous-breed dogs).\n\nSterilisation is usually included.',
+  tldr: 'In Portugal, adoption from a shelter is free or involves a symbolic fee (€10-50) to cover sterilisation and the microchip. Main sources: municipal CRO (Centro de Recolha Oficial), private associations (União Zoófila, ANIMAL, Bianca), Animais de Rua (Lisboa), Casa dos Animais Lisboa. The adopt.cao.pt website is a national database. The law requires a microchip + registration in SIAC + insurance (for dangerous-breed dogs).\n\nSterilisation is usually included.',
   tags: ['adoption', 'shelter', 'dog', 'cat', 'cro', 'animal'],
   estimatedReadMinutes: 6,
   steps: [
@@ -149,7 +149,7 @@ export default {
           '🐾 Walks 2-3 times a day (dogs), play (cats)',
           '📸 Social networks: help the shelter — post photos, recommend it',
           '🎁 Return to the shelter (if it did not work out): there are usually 30 days to return; do not abandon the animal on the street!',
-          '⚖️ Lei 92/95: cruelty = up to 2 years in prison + €5,000 fine'
+          '⚖️ Cruelty is a criminal offence (art. 387 of the Penal Code, introduced by Lei 69/2014): up to 2 years in prison; administrative fines (Lei 92/95) apply separately'
         ]}
       ]
     },
@@ -182,9 +182,10 @@ export default {
   sources: [
     { title: 'SIAC — Companion Animal Information System', url: 'https://www.siac.vet/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Lei 92/95 — Animal protection', url: 'https://diariodarepublica.pt/dr/detalhe/lei/92-1995-241458', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Penal Code, art. 387 (Lei 69/2014) — Animal cruelty', url: 'https://diariodarepublica.pt/dr/detalhe/lei/69-2014-56167988', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Decreto-Lei 315/2009 + Lei 110/2015 — Dangerous dogs', url: 'https://diariodarepublica.pt/dr/detalhe/lei/110-2015-69859225', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portaria 422/2004 — List of potentially dangerous breeds', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/422-2004', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

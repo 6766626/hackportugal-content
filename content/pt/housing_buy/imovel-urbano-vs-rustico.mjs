@@ -35,7 +35,7 @@ export default {
           'IMI rústico: 0,8% do VPT.',
           'IMT na compra de habitação urbano para habitação própria e permanente — escala progressiva; para segunda habitação/investimentos, a escala é diferente.',
           'IMT para prédio rústico é normalmente 5% sobre o preço da transacção ou o VPT, aplicando-se o valor mais elevado.',
-          'IMT para other urban property, que não seja habitação própria e permanente, é frequentemente 6,5%.',
+          'IMT para outros prédios urbanos, que não sejam habitação própria e permanente, é frequentemente 6,5%.',
           'Imposto do Selo na compra de imóveis — 0,8% sobre o preço/VPT, aplicando-se o valor mais elevado.',
           'O AIMI aplica-se a imóveis urbanos de valor elevado: normalmente ao somatório do VPT urbano habitacional e terrenos para construção acima de 600 000 € por pessoa; rústico normalmente não entra na base do AIMI.',
           'IRS/IRC na venda: a mais-valia não é calculada pela palavra urbano/rústico, mas pelo preço de compra, preço de venda, despesas, estatuto de residente e prazos.',
@@ -156,6 +156,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

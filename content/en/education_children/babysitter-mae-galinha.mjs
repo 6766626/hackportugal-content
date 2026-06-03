@@ -129,6 +129,6 @@ export default {
     { title: 'Babysits Portugal — babysitter profiles and platform rules', url: 'https://www.babysits.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — trabalhadores do serviço doméstico and contributions', url: 'https://www.seg-social.pt/trabalhadores-do-servico-domestico', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

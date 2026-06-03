@@ -38,7 +38,7 @@ export default {
           'O banco não podia impor novos produtos ou serviços como condição da renegociação.',
           'As medidas podiam incluir prolongamento do prazo, carência de capital temporária, redução da taxa, alteração da estrutura do crédito ou consolidação.'
         ] },
-        { kind: 'warning', text: 'Em abril de 2026, o DL 80-A/2022 é importante como base histórica e contratual: se as medidas foram acordadas nessa altura, continuam a produzir efeitos nos termos do seu contrato. Mas já não é possível exigir uma nova aplicação automática do regime especial de 2022–2023; use as regras gerais do Banco de Portugal e a sua posição negocial.' }
+        { kind: 'warning', text: 'Em 2026, o DL 80-A/2022 é importante como base histórica e contratual: se as medidas foram acordadas nessa altura, continuam a produzir efeitos nos termos do seu contrato. Mas já não é possível exigir uma nova aplicação automática do regime especial de 2022–2023; use as regras gerais do Banco de Portugal e a sua posição negocial.' }
       ]
     },
     {

@@ -140,19 +140,19 @@ export default {
     },
     {
       title: 'Portaria 38/2013: condições de organização do Serviço de Apoio Domiciliário',
-      url: 'https://diariodarepublica.pt/dr/detalhe/portaria/38-2013-258083',
+      url: 'https://diariodarepublica.pt/dr/detalhe/portaria/38-2013-258278',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Decreto-Lei 64/2007: licenciamento e fiscalização de estabelecimentos sociais',
-      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/64-2007-519065',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/64-2007-518425',
       kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

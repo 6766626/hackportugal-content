@@ -116,7 +116,7 @@ export default {
       id: 'big-wave-nazare',
       title: 'Big wave Nazaré — a special case',
       content: [
-        { kind: 'paragraph', text: 'Nazaré is the site of the world record for the tallest wave ever surfed (24+ m). Season: October–March. This is not tourist surfing — it is tow-in surfing or paddle surfing with support boats.' },
+        { kind: 'paragraph', text: 'Nazaré is the site of the world record for the tallest wave ever surfed (26+ m). Season: October–March. This is not tourist surfing — it is tow-in surfing or paddle surfing with support boats.' },
         { kind: 'checklist', items: [
           'You need a local guide or connections in the shaper community',
           'Essential: jet ski for tow-in + pilot + safety team',
@@ -182,6 +182,6 @@ export default {
     { title: 'AMN — concessions in Domínio Público Marítimo', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IPMA — surf forecast and tides', url: 'https://www.ipma.pt/pt/maritima/marobs/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

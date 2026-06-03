@@ -133,7 +133,7 @@ export default {
               'Melhor no IMT / Conservatória Automóvel — local público, ambos como testemunhas',
               'Transferência bancária — mostrar imediatamente o comprovativo',
               'Contrato simples (2 exemplares, nome completo/NIF de ambos + matrícula do carro + valor + data)',
-              'NÃO dinheiro vivo > 3 000 € (Lei 92/2017 — de todo proibido entre pessoas singulares)',
+              'Dinheiro vivo não pode ser usado em montantes iguais ou superiores a 3 000 € (Lei 92/2017 — a proibição aplica-se também entre particulares)',
               'Entrega do DUA + chaves + documentos em mão'
             ]}
           ]},
@@ -177,6 +177,6 @@ export default {
     { title: 'ACP — Automóvel Club de Portugal', url: 'https://www.acp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IRN — Registo Automóvel', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -89,7 +89,7 @@ export default {
       id: 'limits-and-pin',
       title: '€50 limits, PIN and biometrics',
       content: [
-        { kind: 'paragraph', text: 'In Portugal, the standard limit for ordinary contactless payment with a physical card without PIN is €50 per transaction. After several small transactions in a row, the terminal or bank may request a PIN due to SCA rules.' },
+        { kind: 'paragraph', text: 'In Portugal, the standard limit for ordinary contactless payment with a physical card without PIN is €50 per transaction. After several small transactions in a row (the rules cap this at roughly €150 or five transactions), the terminal or bank may request a PIN due to SCA rules.' },
         { kind: 'checklist', items: [
           'A physical contactless card usually works without PIN up to €50',
           'A physical card above €50 almost always requires a PIN',
@@ -131,6 +131,6 @@ export default {
     { title: 'Banco de Portugal — contactless payments and security rules', url: 'https://www.bportugal.pt/page/pagamentos-contactless', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'MB WAY — official SIBS service website', url: 'https://www.mbway.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

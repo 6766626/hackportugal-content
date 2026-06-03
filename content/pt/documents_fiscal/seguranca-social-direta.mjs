@@ -141,6 +141,6 @@ export default {
     { title: 'gov.pt — Pedir o Número de Identificação da Segurança Social', url: 'https://www.gov.pt/servicos/pedir-o-numero-de-identificacao-da-seguranca-social-niss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'gov.pt — Pedir a Chave Móvel Digital', url: 'https://www.gov.pt/servicos/pedir-a-chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

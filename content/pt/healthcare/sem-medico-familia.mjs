@@ -3,7 +3,7 @@ export default {
   id: 'sem-medico-familia',
   categoryId: 'healthcare',
   title: 'O que fazer sem médico de família: consultas de recurso e consulta aberta',
-  tldr: 'A falta de médico de família não lhe retira o acesso ao SNS. Se tiver número de utente, contacte o seu Centro de Saúde/USF/UCSP para pedir consulta aberta, consulta de recurso ou atendimento complementar; em caso de sintomas, ligue para o SNS 24 — 808 24 24 24, para obter triagem e encaminhamento. A partir de junho de 2026 será introduzida uma limpeza prática das listas: os utentes que não tiverem contactado os cuidados de saúde primários durante 5 anos podem perder o médico atribuído, mas não a inscrição no SNS.',
+  tldr: 'A falta de médico de família não lhe retira o acesso ao SNS. Se tiver número de utente, contacte o seu Centro de Saúde/USF/UCSP para pedir consulta aberta, consulta de recurso ou atendimento complementar; em caso de sintomas, ligue para o SNS 24 — 808 24 24 24, para obter triagem e encaminhamento. A partir de meados de junho de 2026 será introduzida uma limpeza prática das listas: os utentes que não tiverem contactado o SNS durante 5 anos podem perder o médico atribuído, mas não a inscrição no SNS.',
   tags: ['sns', 'utente', 'consulta', 'medicina'],
   estimatedReadMinutes: 5,
   steps: [
@@ -91,7 +91,7 @@ export default {
       id: 'five-year-rule',
       title: 'Regra dos 5 anos de inatividade a partir de junho de 2026',
       content: [
-        { kind: 'paragraph', text: 'A partir de junho de 2026, nos cuidados de saúde primários, será ativado um mecanismo de atualização das listas: os utentes que não tiverem tido contactos com os cuidados primários durante 5 anos podem perder o médico de família atribuído. O objetivo é libertar lugares nas listas dos médicos para pessoas que vivem efetivamente na zona e precisam de acompanhamento.' },
+        { kind: 'paragraph', text: 'A partir de meados de junho de 2026, nos cuidados de saúde primários, será ativado um mecanismo de atualização das listas: os utentes que não tiverem tido contactos com o SNS durante 5 anos podem perder o médico de família atribuído. Até agora contava apenas o contacto com os cuidados primários; agora conta qualquer contacto com o SNS. O objetivo é libertar lugares nas listas dos médicos para pessoas que vivem efetivamente na zona e precisam de acompanhamento.' },
         { kind: 'paragraph', text: 'Isto não significa perder o número de utente nem o direito ao SNS. Está em causa a lista de um médico de família específico. Mas, para expats, o risco é prático: se saiu do país, mudou de morada, não responde a contactos ou nunca recorreu aos serviços, o sistema pode considerá-lo inativo.' },
         { kind: 'checklist', items: [
           'Uma vez por ano, verifique a Área Pessoal do SNS 24: unidade, contactos, médico de família',
@@ -159,6 +159,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

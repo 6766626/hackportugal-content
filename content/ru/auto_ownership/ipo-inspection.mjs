@@ -3,7 +3,7 @@ export default {
   id: 'ipo-inspection',
   categoryId: 'auto_ownership',
   title: 'Техосмотр IPO — как, когда и сколько',
-  tldr: 'Inspeção Periódica Obrigatória (IPO) — обязательный техосмотр. Новый легковой автомобиль (категория M1 — легковой пассажирский) — первый IPO через 4 года, далее раз в 2 года до 8 лет, после — ежегодно. Проходится в аккредитованных IMT центрах (Controlauto, SGS, Tecnauto, Strada и другие операторы)\.\n\nСтоит около 30-40 € для легкового автомобиля. Базовый режим — Decreto-Lei 144/2017; тарифные таблицы и периодичность периодически обновляются Portaria IMT. С собой: DUA, страховка, удостоверение личности владельца, права.',
+  tldr: 'Inspeção Periódica Obrigatória (IPO) — обязательный техосмотр. Новый легковой автомобиль (категория M1 — легковой пассажирский) — первый IPO через 4 года, далее раз в 2 года до 8 лет, после — ежегодно. Проходится в аккредитованных IMT центрах (Controlauto, SGS, Tecnauto, Strada и другие операторы).\n\nСтоит около 30-40 € для легкового автомобиля. Базовый режим — Decreto-Lei 144/2017; тарифные таблицы и периодичность периодически обновляются Portaria IMT. С собой: DUA, страховка, удостоверение личности владельца, права.',
   tags: ['ipo', 'техосмотр', 'imt', 'авто'],
   estimatedReadMinutes: 6,
   steps: [
@@ -124,6 +124,6 @@ export default {
     { title: 'Portaria n.º 178/2023 — tarifas e periodicidade', url: 'https://dre.pt/dre/detalhe/portaria/178-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Fazer a inspeção periódica do veículo', url: 'https://www.gov.pt/cidadaos/-/informacoes/realizar-a-inspecao-periodica-ao-veiculo-ipo-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -41,13 +41,13 @@ export default {
       id: 'points',
       title: 'Carta por pontos — 12 pontos',
       content: [
-        { kind: 'paragraph', text: 'A carta por pontos está em vigor desde 01.06.2016. Cada condutor tem 12 pontos, que são retirados em caso de infrações. Os pontos são recuperados automaticamente: +1 por cada 3 anos sem infrações.' },
+        { kind: 'paragraph', text: 'A carta por pontos está em vigor desde 01.06.2016. Cada condutor tem 12 pontos, que são retirados em caso de infrações. Os pontos são recuperados automaticamente: +3 por cada 3 anos sem infrações (até ao máximo de 15 pontos).' },
         { kind: 'checklist', items: [
-          '⬇️ Retirada de pontos: por crimes rodoviários (crime rodoviário) — −6; por contraordenações muito graves — −4 (−5 para alcohol/drugs); por graves — −2 (−3 para alcohol). Não existe um «aviso» formal aos 9 pontos',
+          '⬇️ Retirada de pontos: por crimes rodoviários (crime rodoviário) — −6; por contraordenações muito graves — −4 (−5 para álcool/drogas); por graves — −2 (−3 para álcool). Não existe um «aviso» formal aos 9 pontos',
           '⬇️ Com 5 ou 4 pontos — ação de formação de segurança rodoviária obrigatória',
           '⬇️ Com 3, 2 ou 1 ponto — exame teórico obrigatório',
           '⬇️ Com 0 pontos — cassação da carta; só é possível obter novo título de condução após o prazo previsto na lei e o cumprimento dos requisitos',
-          '📅 Os pontos são recuperados: +1 por 3 anos sem infrações',
+          '📅 Os pontos são recuperados: +3 por cada 3 anos sem infrações (máximo 15 pontos)',
           '✅ Curso de aperfeiçoamento — é possível recuperar 4 pontos 1 vez a cada 5 anos'
         ]}
       ]
@@ -127,6 +127,6 @@ export default {
     { title: 'ANSR — Autoridade Nacional de Segurança Rodoviária', url: 'https://www.ansr.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Pagar coima de trânsito', url: 'https://www.gov.pt/cidadaos/-/informacoes/pagar-coimas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

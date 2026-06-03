@@ -3,7 +3,7 @@ export default {
   id: 'cheque-bebe-municipal',
   categoryId: 'education_children',
   title: 'Cheque-Bebé и муниципальные пособия на новорождённых',
-  tldr: 'Cheque-Bebé — не национальная выплата, а муниципальная поддержка: ваучер или компенсация расходов на ребёнка. В 2026 Cascais даёт 500 €, Oeiras — 350 €, в малых municípios встречается 250–1 000 €. Обычно заявление подают в Câmara Municipal в течение 6 месяцев после рождения или усыновления. Ключевые условия: ребёнок и хотя бы один родитель с NIF и фактическим residência fiscal/адресом в município, отсутствие долгов перед Câmara и Finanças.',
+  tldr: 'Cheque-Bebé — не национальная выплата, а муниципальная поддержка: ваучер или компенсация расходов на ребёнка. В 2026 Cascais выплачивает 500 €, Oeiras — 350 €, в малых municípios встречаются суммы 250–1 000 €. Обычно заявление подают в Câmara Municipal в течение 6 месяцев после рождения или усыновления. Ключевые условия: ребёнок и хотя бы один родитель с NIF и фактическим residência fiscal/адресом в município, отсутствие долгов перед Câmara и Finanças.',
   tags: ['cheque-bebé', 'município', 'дети', 'câmara'],
   estimatedReadMinutes: 5,
   steps: [
@@ -30,9 +30,9 @@ export default {
         { kind: 'checklist', items: [
           'Ребёнок родился или был усыновлён, и есть assento de nascimento / certidão de nascimento.',
           'Хотя бы один родитель или законный представитель проживает в município.',
-          'У родителя есть NIF; часто требуют residência fiscal в этом município в Finanças.',
+          'У родителя есть NIF; часто требуют, чтобы residência fiscal в Finanças была привязана к этому município.',
           'Ребёнок тоже имеет NIF или он должен быть оформлен до выплаты.',
-          'Семья зарегистрирована по адресу: contrato de arrendamento, escritura, atestado de residência от Junta de Freguesia или счёт utilities.',
+          'Семья зарегистрирована по адресу: contrato de arrendamento, escritura, atestado de residência от Junta de Freguesia или счёт за коммунальные услуги.',
           'Нет долгов перед Câmara Municipal, муниципальными службами и иногда Autoridade Tributária.',
           'Заявление подано в срок: обычно до 6 месяцев после рождения, но в некоторых municípios срок 90 дней или 12 месяцев.',
           'Покупки, если нужна компенсация, сделаны после рождения ребёнка и оформлены fatura с NIF заявителя или ребёнка.'
@@ -44,7 +44,7 @@ export default {
       id: 'documents',
       title: 'Документы: что подготовить заранее',
       content: [
-        { kind: 'paragraph', text: 'Список немного различается, но базовый пакет почти одинаков. Лучше собрать его до рождения: после роддома сроки быстро теряются, особенно если нужно получить NIF ребёнка и certidão.' },
+        { kind: 'paragraph', text: 'Список немного различается, но базовый пакет почти одинаков. Лучше собрать его заранее: после роддома время уходит быстро, особенно если нужно получить NIF ребёнка и certidão.' },
         { kind: 'checklist', items: [
           'Документ родителя: паспорт, Cartão de Cidadão, ВНЖ или другой ID.',
           'NIF родителя-заявителя.',
@@ -68,7 +68,7 @@ export default {
             { kind: 'paragraph', text: 'Ищите на сайте Câmara слова “Cheque Bebé”, “Apoio à Natalidade”, “Incentivo à Natalidade”, “Bebé+”, “Regulamento Municipal”. Проверяйте год и PDF regulamento: суммы и сроки меняются ежегодно через orçamento municipal.' }
           ] },
           { id: 'confirm-deadline', title: '2. Проверьте срок подачи', content: [
-            { kind: 'paragraph', text: 'Типичный срок — 6 месяцев с даты рождения или усыновления. Если ребёнок родился 10 апреля 2026, безопасный дедлайн — 10 октября 2026, если regulamento вашего município не даёт другой срок.' }
+            { kind: 'paragraph', text: 'Типичный срок — 6 месяцев с даты рождения или усыновления. Если ребёнок родился 10 апреля 2026 года, безопасный крайний срок — 10 октября 2026 года, если regulamento вашего município не устанавливает другой.' }
           ] },
           { id: 'submit', title: '3. Подайте онлайн или лично', content: [
             { kind: 'paragraph', text: 'Крупные Câmara принимают через balcão online/serviços online с CMD или email с PDF. В малых municípios часто проще идти лично в Balcão Único/Atendimento Municipal.' }
@@ -122,6 +122,6 @@ export default {
     { title: 'Portal ePortugal — registo de nascimento и документы ребёнка', url: 'https://www.gov.pt/servicos/registar-nascimento', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária — NIF и certidões no Portal das Finanças', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

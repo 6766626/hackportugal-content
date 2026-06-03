@@ -137,6 +137,6 @@ export default {
     { title: 'Banco Alimentar Contra a Fome — food banks and campaigns', url: 'https://www.bancoalimentar.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Cáritas Portuguesa — social support network and Cáritas Diocesana', url: 'https://www.caritas.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

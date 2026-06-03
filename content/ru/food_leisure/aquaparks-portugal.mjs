@@ -3,7 +3,7 @@ export default {
   id: 'aquaparks-portugal',
   categoryId: 'food_leisure',
   title: 'Аквапарки Португалии — куда поехать летом (2026)',
-  tldr: 'В Португалии 8 крупных аквапарков. Самые большие — три в Алгарве: Aquashow (Quarteira), Slide & Splash (Lagoa), Aqualand (Alcantarilha).\n\nНа севере — Naturwaterpark (Vila Real) и Parque Aquático de Amarante.\n\nВ центре — Norpark (Nazaré), Panorâmico Aquaparque (Pombal), Sportágua (Peniche).\n\nНа Мадейре — Aqua Park Santa Cruz.\n\nСезон у большинства — с апреля/мая по сентябрь/октябрь.\n\nБилеты дешевле онлайн (скидки 10–30%).\n\nЦены 2026: взрослый 27–38 €, ребёнок 18–28 € (от 1 метра роста, дети ниже — бесплатно)\.\n\nАквапарки Алгарве в высокий сезон (июль-август) дороже на 3–4 €.',
+  tldr: 'В Португалии 8 крупных аквапарков. Самые большие — три в Алгарве: Aquashow (Quarteira), Slide & Splash (Lagoa), Aqualand (Alcantarilha).\n\nНа севере — Naturwaterpark (Vila Real) и Parque Aquático de Amarante.\n\nВ центре — Norpark (Nazaré), Panorâmico Aquaparque (Pombal), Sportágua (Peniche).\n\nНа Мадейре — Aqua Park Santa Cruz.\n\nСезон у большинства — с апреля/мая по сентябрь/октябрь.\n\nБилеты дешевле онлайн (скидки 10–30%).\n\nЦены 2026: взрослый 27–38 €, ребёнок 18–28 € (от 1 метра роста, дети ниже — бесплатно).\n\nАквапарки Алгарве в высокий сезон (июль-август) дороже на 3–4 €.',
   tags: ['аквапарк', 'лето', 'дети', 'алгарве'],
   estimatedReadMinutes: 7,
   steps: [
@@ -20,14 +20,14 @@ export default {
           '🏨 Hotel + парк: пакеты у Aquashow Park Hotel и аналогичных — выгодно, если едете специально на 2–3 дня',
           '🎫 Combo-билеты: некоторые парки продают 2-в-1 (например, Aquashow Outdoor + Indoor)'
         ]},
-        { kind: 'warning', text: 'В июле-августе очереди на топовые горки 30–60 минут. Лучший лайфхак: приезжать к 10:00 (открытие) и идти СРАЗУ на самые экстремальные. К полудню уже толпа.' }
+        { kind: 'warning', text: 'В июле-августе очереди на топовые горки 30–60 минут. Лучший лайфхак: приезжать к 10:00 (открытие) и идти СРАЗУ на самые экстремальные горки. К полудню уже толпа.' }
       ]
     },
     {
       id: 'algarve',
       title: 'Алгарве — три главных парка',
       content: [
-        { kind: 'paragraph', text: 'Алгарве — главное направление аквапарков в стране. Три крупных и плюс Zoomarine (это морской парк-зоопарк с дельфинами, отдельная категория).' },
+        { kind: 'paragraph', text: 'Алгарве — главное направление аквапарков в стране. Три крупных, а также Zoomarine (это морской парк-зоопарк с дельфинами, отдельная категория).' },
         { kind: 'substeps', items: [
           {
             id: 'aquashow',
@@ -85,7 +85,7 @@ export default {
             id: 'amarante',
             title: 'Parque Aquático de Amarante',
             content: [
-              { kind: 'paragraph', text: 'С 1994 года, считается крупнейшим горным аквапарком на Иберийском полуострове. Расположен в горах — пейзажи живописные, вода прохладнее чем в Алгарве, но и жара не такая.' },
+              { kind: 'paragraph', text: 'С 1994 года, считается крупнейшим горным аквапарком на Иберийском полуострове. Расположен в горах — пейзажи живописные, вода прохладнее, чем в Алгарве, но и жара не такая сильная.' },
               { kind: 'checklist', items: [
                 '📍 Lugar de Vila Caiz, 4600-768 Amarante (~50 км от Порту по A4)',
                 '🗓️ Сезон: середина июня – начало сентября',
@@ -97,11 +97,11 @@ export default {
             id: 'naturwaterpark',
             title: 'Naturwaterpark — Vila Real',
             content: [
-              { kind: 'paragraph', text: 'Позиционируется как первый «полностью экологичный» аквапарк Португалии. Меньше Amarante по размеру, но красивый дизайн в природном стиле, на воде город Vila Real.' },
+              { kind: 'paragraph', text: 'Позиционируется как первый «полностью экологичный» аквапарк Португалии. Меньше Amarante по размеру, но красивый дизайн в природном стиле; расположен в городе Vila Real.' },
               { kind: 'checklist', items: [
                 '📍 Vila Real (центр города, рядом с UTAD университетом)',
                 '🗓️ Летний сезон — июнь–сентябрь',
-                '🌱 Дружелюбен к семьям, меньше очередей чем в Алгарве'
+                '🌱 Дружелюбен к семьям, меньше очередей, чем в Алгарве'
               ]}
             ]
           }
@@ -118,9 +118,9 @@ export default {
             title: 'Norpark — Nazaré',
             content: [
               { kind: 'checklist', items: [
-                '📍 Nazaré, EN 242 (рядом с пляжем-серф столицей мира)',
+                '📍 Nazaré, EN 242 (рядом с пляжем — мировой столицей сёрфинга)',
                 '🗓️ Сезон: июнь–сентябрь',
-                '🏄 Удобно совместить с поездкой на гигантские волны Нашаре'
+                '🏄 Удобно совместить с поездкой на гигантские волны Nazaré'
               ]}
             ]
           },
@@ -129,7 +129,7 @@ export default {
             title: 'Panorâmico Aquaparque — Pombal',
             content: [
               { kind: 'checklist', items: [
-                '📍 Charneca, Pombal (центральная Португалия, между Лиссабоном и Coimbrой)',
+                '📍 Charneca, Pombal (центральная Португалия, между Лиссабоном и Коимброй)',
                 '🗓️ Сезон: середина июня – начало сентября',
                 '🌳 Удобный пит-стоп при поездке Лиссабон–Порту по A1'
               ]}
@@ -193,7 +193,7 @@ export default {
     { title: 'Aqualand Algarve — Tickets (официальный сайт)', url: 'https://www.aqualand.pt/tickets/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Aquashow Family Park — Visit Portugal', url: 'https://www.visitportugal.com/en/content/aquashow-family-park', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: все 8 крупных аквапарков Португалии (Алгарве, север, центр, Мадейра) с верифицированными ценами 2026 года, сезонами работы, адресами и практическими советами. Источники — официальные сайты Aquashow, Slide & Splash, Aqualand и портал Visit Portugal.'

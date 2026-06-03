@@ -3,19 +3,20 @@ export default {
   id: 'vinho-caseiro-particular',
   categoryId: 'food_leisure',
   title: 'Vinho caseiro próprio — o que é permitido sem licença',
-  tldr: 'Se tiver uvas no seu terreno, pode fazer vinho para consumo próprio sem qualquer licença.\n\nO limite é 100 l por ano por família sem declaração (lei IVDP).\n\nAcima de 100 l — é obrigatória a declaração ao IVV (Instituto da Vinha e do Vinho), mesmo sem venda. A venda é uma actividade seriamente regulada: exige atestado de qualidade, certificações IGP/DOC, IVA, registo no IVV. Para quintas com vinha, convém confirmar se o terreno está inserido numa região DOC — isso influencia as castas e o estilo permitidos. Misturar com vinhos comuns e vender como DOC sem certificação = coima elevada.',
-  tags: ['vinho', 'vinho', 'ivdp', 'doc', 'caseiro'],
+  tldr: 'Se tiver uvas no seu terreno, pode fazer vinho para consumo próprio sem qualquer licença.\n\nPara autoconsumo não precisa de inscrição no IVV até 4000 l por ano; a declaração de produção não é exigida até 1000 l (10 hl), desde que o vinho não seja vendido.\n\nAcima destes volumes, ou se vender, a inscrição e as declarações no IVV (Instituto da Vinha e do Vinho) passam a ser obrigatórias. A venda é uma actividade seriamente regulada: exige atestado de qualidade, certificações IGP/DOC, IVA, registo no IVV. Para quintas com vinha, convém confirmar se o terreno está inserido numa região DOC — isso influencia as castas e o estilo permitidos. Misturar com vinhos comuns e vender como DOC sem certificação = coima elevada.',
+  tags: ['vinho', 'caseiro', 'ivdp', 'doc', 'particular'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'limits',
       title: 'Limites para consumo pessoal',
       content: [
-        { kind: 'paragraph', text: 'Portugal é o quinto maior produtor de vinho do mundo. A lei trata a produção caseira de forma relativamente flexível, mas há regras claras:' },
+        { kind: 'paragraph', text: 'Portugal é um dos maiores produtores de vinho do mundo (cerca do 10.º-11.º lugar em volume). A lei trata a produção caseira de forma relativamente flexível, mas há regras claras:' },
         { kind: 'checklist', items: [
-          'Até 100 l/ano por família: NENHUMA declaração. Faça e beba, ofereça aos vizinhos',
-          '100-1000 l/ano: a declaração ao IVV (Instituto da Vinha e do Vinho) é obrigatória, mesmo sem venda. A declaração é gratuita, mas obrigatória',
-          '1000+ l/ano: já é produção comercial. Registo da vinha, atestado, análises regulares',
+          'Até 1000 l/ano (10 hl) por família e sem venda: não é exigida declaração de produção (DCP) ao IVV. Faça e beba, ofereça aos vizinhos',
+          'Até 4000 l/ano para autoconsumo: não é exigida inscrição no IVV (Instituto da Vinha e do Vinho)',
+          'Acima de 1000 l ou qualquer venda: são exigidas a inscrição no IVV e as declarações obrigatórias (colheita/produção)',
+          'Produção comercial: registo da vinha, atestado, análises regulares',
           'Os limites são calculados por «família» (agregado familiar), não por cada adulto'
         ] },
         { kind: 'paragraph', text: 'Isto aplica-se ao vinho «vinho de mesa» — o comum. Para outros produtos:' },
@@ -117,7 +118,7 @@ export default {
       title: 'Coimas por infracções',
       content: [
         { kind: 'checklist', items: [
-          'Produção acima de 100 l sem declaração ao IVV: 100-1000 €',
+          'Produção acima do limite sem declaração ao IVV: 100-1000 €',
           'Venda sem registo: 500-5000 €',
           'Uso de nome DOC sem certificação: 1500-25000 €',
           'Falsificação de nome regional: crime',
@@ -142,6 +143,6 @@ export default {
     { title: 'Decreto-Lei 219/2008 — regime jurídico do sector do vinho', url: 'https://dre.pt/dre/detalhe/decreto-lei/219-2008-441478', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — apoio à viticultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

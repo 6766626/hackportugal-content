@@ -3,7 +3,7 @@ export default {
   id: 'gyms-fitness',
   categoryId: 'daily_life',
   title: 'Фитнес и спорт — залы, пляжи, активности',
-  tldr: 'Сети фитнес-клубов 2026: VivaGym (бывший Fitness Hut, бюджет, ~€ 20–35/мес в зависимости от клуба), Holmes Place (премиум € 89–149/мес), Phive (средний сегмент € 35–50), Onyria, Solinca. Активности: серфинг (Ericeira, Lagos, Cascais), бег (парки), футбол (сообщества), падел (суперпопулярно), йога. Много бесплатных активностей на свежем воздухе.',
+  tldr: 'Сети фитнес-клубов 2026: VivaGym (бывший Fitness Hut, бюджет, ~€ 20–35/мес в зависимости от клуба), Holmes Place (премиум € 89–149/мес), Phive (средний сегмент € 35–50), Solinca. Активности: серфинг (Ericeira, Lagos, Cascais), бег (парки), футбол (сообщества), падел (суперпопулярно), йога. Много бесплатных активностей на свежем воздухе.',
   tags: ['фитнес', 'залы', 'спорт', 'серфинг'],
   estimatedReadMinutes: 5,
   steps: [
@@ -28,7 +28,7 @@ export default {
             { kind: 'paragraph', text: '€ 35–50/мес. Доступ 24/7 по карте.' }
           ]},
           { id: 'c7', title: 'Муниципальные спортзалы', content: [
-            { kind: 'paragraph', text: 'Câmara Municipal (муниципалитет) в каждом муниципалитете. € 15–30/мес. Для резидентов с Atestado de Residência.' }
+            { kind: 'paragraph', text: 'Есть почти в каждом муниципалитете (Câmara Municipal). € 15–30/мес. Для резидентов с Atestado de Residência.' }
           ]}
         ]}
       ]
@@ -87,7 +87,7 @@ export default {
         { kind: 'checklist', items: [
           '🎾 Падел — суперпопулярно. Клубы везде, € 10–15/час за корт. Padel Sports Club, Top Padel',
           '⚽ Футбол — любительские лиги, 3–5 на 3–5, для любого возраста',
-          '🏊 Бассейн SNS — не существует. Либо частный зал, либо муниципальный за € 20–40/мес',
+          '🏊 Бесплатных бассейнов «от SNS» не бывает. Вариант один: частный клуб или муниципальный бассейн за € 20–40/мес',
           '🚴 Велосипед — GIRA в Лиссабоне (электровелосипеды), велодорожки у реки Tejo',
           '🧘 Йога — студии Upavana, Ana Heart, многие бутик-студии, € 10–15/занятие',
           '🧗 Скалолазание — Indoorwall (Лиссабон), Parede (Порту)',
@@ -101,6 +101,6 @@ export default {
     { title: 'Ericeira World Surfing Reserve (Save The Waves Coalition)', url: 'https://www.savethewaves.org/ericeira/', kind: 'official', language: 'en', lastRetrieved: '2026-05-30' },
     { title: 'Federação Portuguesa de Surf — FPS', url: 'https://www.surfingportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

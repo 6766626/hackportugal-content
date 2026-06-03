@@ -3,7 +3,7 @@ export default {
   id: 'cartao-familia-numerosa',
   categoryId: 'education_children',
   title: 'Cartão de Família Numerosa: discounts for families with 3+ children',
-  tldr: 'Cartão de Família Numerosa is an APFN card for families with 3 or more children. In 2026, membership costs €15/year and gives access to partner discounts: CP, museums, shops, insurance, services, and sometimes utility programmes. It is not a state benefit and does not replace abono de família, but it often works alongside Câmara Municipal municipal benefits: water, IMI, school meals, transport. It is suitable for foreign residents who can confirm their family composition and address in Portugal.',
+  tldr: 'Cartão de Família Numerosa is an APFN card for families with 3 or more children. In 2026, membership costs €35/year (plus a one-time €10 joining fee, waived if you pay by direct debit) and gives access to partner discounts: CP, museums, shops, insurance, services, and sometimes utility programmes. It is not a state benefit and does not replace abono de família, but it often works alongside Câmara Municipal municipal benefits: water, IMI, school meals, transport. It is suitable for foreign residents who can confirm their family composition and address in Portugal.',
   tags: ['family', 'children', 'apfn', 'discounts'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What the card gives you',
       content: [
         { kind: 'paragraph', text: 'Cartão de Família Numerosa is issued by APFN — Associação Portuguesa de Famílias Numerosas. It is an association card for families with 3 or more children, not a residence permit, not a tax status, and not a Segurança Social benefit.' },
-        { kind: 'paragraph', text: 'The main benefit is access to APFN partner discounts and confirmation of large-family status for some commercial and municipal programmes. In 2026, the standard APFN fee is €15/year per family.' },
+        { kind: 'paragraph', text: 'The main benefit is access to APFN partner discounts and confirmation of large-family status for some commercial and municipal programmes. In 2026, the standard APFN fee is €35/year per family; on first registration there is also a one-time joining fee (jóia de inscrição) of €10, which is not charged if you choose to pay by direct debit.' },
         { kind: 'checklist', items: ['discounts with APFN partners: transport, culture, shops, insurance, education, leisure', 'CP discounts for family journeys — conditions depend on the type of train and fare', 'benefits or free days at certain museums and cultural sites', 'Câmara Municipal municipal benefits: water, school services, transport, sport — if there is a local programme', 'may help when requesting tarifa familiar da água, but the card itself does not guarantee the tariff', 'commercial discounts usually require presenting the card and an identity document'] }
       ]
     },
@@ -30,7 +30,7 @@ export default {
       title: 'Documents for the application',
       content: [
         { kind: 'paragraph', text: 'The document set depends on the family composition, but the logic is simple: APFN must see who the parents are, who the children are, where the family lives, and how to contact you. Foreign documents are best provided in Portuguese, English, or with a translation if the original is in Russian.' },
-        { kind: 'checklist', items: ['parents’ documents: passport, Cartão de Residência, Cartão de Cidadão, or EU residence document', 'parents’ NIF — useful for identification and invoices, although the APFN card is not a tax procedure', 'children’s birth certificates or equivalent civil registry documents', 'adoption, guardianship, or parental responsibility document, if applicable', 'proof of address in Portugal: contrato de arrendamento, recibo de renda, utility bill, or atestado de residência from the Junta de Freguesia', 'email and Portuguese phone number for contact', 'proof of payment of the APFN fee of €15/year', 'for children aged 18+ — certificate of study or another document if APFN asks for proof of dependency'] },
+        { kind: 'checklist', items: ['parents’ documents: passport, Cartão de Residência, Cartão de Cidadão, or EU residence document', 'parents’ NIF — useful for identification and invoices, although the APFN card is not a tax procedure', 'children’s birth certificates or equivalent civil registry documents', 'adoption, guardianship, or parental responsibility document, if applicable', 'proof of address in Portugal: contrato de arrendamento, recibo de renda, utility bill, or atestado de residência from the Junta de Freguesia', 'email and Portuguese phone number for contact', 'proof of payment of the APFN fee of €35/year (and the €10 joining fee, if it applies)', 'for children aged 18+ — certificate of study or another document if APFN asks for proof of dependency'] },
         { kind: 'warning', text: 'Russian birth certificates are often requested with a certified translation. If the document was not issued in the EU, check in advance whether an apostille/legalização is needed for your specific situation.' }
       ]
     },
@@ -45,8 +45,8 @@ export default {
           { id: 'upload-documents', title: '2. Attach documents', content: [
             { kind: 'paragraph', text: 'Upload or send copies of the family documents according to APFN’s instructions. If the system asks for clarification, reply quickly: most questions concern the children’s ages, address, or proof of relationship.' }
           ] },
-          { id: 'pay-fee', title: '3. Pay €15/year', content: [
-            { kind: 'paragraph', text: 'Payment of the membership fee activates participation in APFN. Keep the comprovativo de pagamento: it may be requested when the application is processed.' }
+          { id: 'pay-fee', title: '3. Pay the fee (€35/year)', content: [
+            { kind: 'paragraph', text: 'Payment of the membership fee activates participation in APFN. On first registration, a one-time €10 joining fee may be added, but it is not charged if you pay by direct debit. Keep the comprovativo de pagamento: it may be requested when the application is processed.' }
           ] },
           { id: 'receive-card', title: '4. Receive the card and use the discounts', content: [
             { kind: 'paragraph', text: 'After approval, APFN issues the Cartão de Família Numerosa. Conditions of use depend on the partner: sometimes a physical card is needed, and sometimes the card number or proof of membership is enough.' }
@@ -73,7 +73,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'APFN membership fee', amountEUR: 15, note: 'In 2026, the standard annual fee per family for access to Cartão de Família Numerosa and partner discounts.' },
+    { label: 'APFN membership fee', amountEUR: 35, note: 'In 2026, the standard annual fee per family for access to Cartão de Família Numerosa and partner discounts. On first registration a one-time €10 joining fee is added, which is not charged if you pay by direct debit.' },
     { label: 'Municipal applications', amountEUR: 0, note: 'Usually free, but the Câmara Municipal may require recent certificates or annual renewal.' },
     { label: 'Translation of foreign documents', amountEURMin: 20, amountEURMax: 60, note: 'Indicative amount per document; depends on the language, notarisation, and urgency.' }
   ],
@@ -82,6 +82,6 @@ export default {
     { title: 'gov.pt — Portuguese government portal: family and social services', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — services for families, children, and households', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'fne-financas-novo-extrato',
   categoryId: 'documents_fiscal',
   title: 'Getting certificates from Finanças: IRS, IUC, IMI, dividends and no debts',
-  tldr: 'In Portal das Finanças you can obtain AT tax certificates free of charge or for a small fee: declaração de não-dívida, certidão de IRS, IUC, IMI, comprovativo de morada fiscal and income certificates, including dividends. Path: Portal das Finanças → Cidadãos → Serviços → Certidões. Most PDFs are issued immediately and cost €0; some certidões can cost up to €10.\n\nValidity depends on the type: não-dívida is usually 3 months, while many recipients accept other certificates no older than 6 months.',
+  tldr: 'In Portal das Finanças you can obtain AT tax certificates free of charge or for a small fee: declaração de não-dívida, certidão de IRS, IUC, IMI, comprovativo de morada fiscal and income certificates, including dividends. Path: Portal das Finanças → Cidadãos → Serviços → Certidões. Most PDFs are issued immediately and cost €0; some certidões can cost up to €10.\n\nValidity depends on the type: since 1 July 2025 não-dívida is valid for 4 months, while many recipients accept other certificates no older than 6 months.',
   tags: ['finanças', 'certificates', 'irs', 'imi', 'iuc'],
   estimatedReadMinutes: 5,
   steps: [
@@ -51,7 +51,7 @@ export default {
             title: 'Certificate of no debts',
             content: [
               { kind: 'paragraph', text: 'Search for “Situação Tributária Regularizada” or “Certidão de dívida e não dívida”. Choose emissão, confirm the request and download the PDF.' },
-              { kind: 'warning', text: 'Declaração de não-dívida is usually valid for 3 months, not 6. If a bank, AIMA or Câmara asks for a “certidão recente”, it is better to issue it again 1–7 days before submission.' }
+              { kind: 'warning', text: 'Since 1 July 2025 Declaração de não-dívida is valid for 4 months (previously 3). If a bank, AIMA or Câmara asks for a “certidão recente”, it is better to issue it again 1–7 days before submission.' }
             ]
           },
           {
@@ -97,7 +97,7 @@ export default {
           'Usual cost: €0 for most comprovativos and certidões downloaded online.',
           'Some certidões or certified versions can cost up to €10.',
           'Validity is not universal: check the “validade” field in the PDF.',
-          'Não-dívida is usually valid for 3 months.',
+          'Não-dívida is valid for 4 months (since 1 July 2025; previously 3).',
           'For IRS, IMI, IUC and morada fiscal, many organisations require a document no older than 3–6 months, even if the PDF has no explicit validity period.',
           'A PDF from Portal das Finanças usually contains a código de validação; the recipient can verify authenticity online.',
           'If the document is needed in English, AT usually does not translate it automatically: arrange a tradução certificada with a translator if the recipient does not accept PT.',
@@ -126,7 +126,7 @@ export default {
   ],
   costs: [
     { label: 'Comprovativo de morada fiscal', amountEUR: 0, note: 'Usually downloaded free of charge in Portal das Finanças.' },
-    { label: 'Declaração de não-dívida / situação tributária regularizada', amountEUR: 0, note: 'Electronic issue is usually free; validity is usually 3 months.' },
+    { label: 'Declaração de não-dívida / situação tributária regularizada', amountEUR: 0, note: 'Electronic issue is usually free; validity is 4 months (since 1 July 2025).' },
     { label: 'IRS comprovativo / liquidação', amountEUR: 0, note: 'Available online for submitted returns and years with data in AT.' },
     { label: 'Individual AT certidões', amountEURMin: 0, amountEURMax: 10, note: 'The cost depends on the type of certificate and method of issue; the portal will show the amount before confirmation.' }
   ],
@@ -135,6 +135,6 @@ export default {
     { title: 'Portal das Finanças — Cidadãos / Serviços / Certidões section', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — Autoridade Tributária e Aduaneira services and contacts', url: 'https://www.gov.pt/entidades/autoridade-tributaria-e-aduaneira', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

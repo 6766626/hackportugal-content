@@ -3,7 +3,7 @@ export default {
   id: 'judo-karate-criancas',
   categoryId: 'education_children',
   title: 'Judo, Karate и единоборства для детей',
-  tldr: 'В Португалии детские секции Judo, Karate, Taekwondo и BJJ обычно принимают с 4–6 лет, а официальные соревнования чаще начинаются примерно с 8 лет, в зависимости от федерации и клуба. Муниципальные и школьные клубы стоят около 25–35 €/мес, частные academias — 35–50 €/мес, плюс kimono/dobok 25–70 €, лицензия и страховка. Проверяйте, связан ли клуб с FPJudo или FPK, есть ли seguro desportivo и exame médico-desportivo.',
+  tldr: 'В Португалии детские секции Judo, Karate, Taekwondo и BJJ обычно принимают с 4–6 лет, а официальные соревнования чаще начинаются примерно с 8 лет — в зависимости от федерации и клуба. Муниципальные и школьные клубы стоят около 25–35 €/мес, частные academias — 35–50 €/мес, плюс kimono/dobok 25–70 €, лицензия и страховка. Проверьте, связан ли клуб с FPJ или FNK-P, есть ли seguro desportivo и exame médico-desportivo.',
   tags: ['judo', 'karate', 'дети', 'спорт'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,9 +27,9 @@ export default {
       id: 'check-club',
       title: '2. Проверьте клуб: федерация, страховка, тренер',
       content: [
-        { kind: 'paragraph', text: 'Не выбирайте секцию только по близости к дому. В детских единоборствах важнее тренер, безопасность и связь клуба с федерацией: Federação Portuguesa de Judo (FPJudo), Federação Nacional de Karate - Portugal (FPK) или соответствующая федерация по Taekwondo/BJJ.' },
+        { kind: 'paragraph', text: 'Не выбирайте секцию только по близости к дому. В детских единоборствах важнее тренер, безопасность и связь клуба с федерацией: Federação Portuguesa de Judo (FPJ), Federação Nacional de Karate - Portugal (FNK-P) или соответствующая федерация по Taekwondo/BJJ.' },
         { kind: 'checklist', items: [
-          'Спросите, зарегистрирован ли клуб в FPJudo или FPK и может ли ребёнок получить licença federativa.',
+          'Спросите, зарегистрирован ли клуб в FPJ или FNK-P и может ли ребёнок получить licença federativa.',
           'Уточните, включён ли seguro desportivo в годовой взнос или оплачивается отдельно.',
           'Попросите имя тренера и его graduação / cédula de treinador, если клуб участвует в официальных соревнованиях.',
           'Посмотрите тренировку: дети должны падать на tatami, а не на твёрдом полу.',
@@ -70,7 +70,7 @@ export default {
           'Для участия обычно нужны licença federativa, seguro desportivo и иногда exame médico-desportivo.',
           'Пояс сам по себе не гарантирует допуск: решает тренер и регламент турнира.',
           'Не записывайте ребёнка на соревнования, если он ещё не умеет безопасно падать, останавливаться по команде и соблюдать правила.',
-          'Уточняйте у клуба calendario distrital/regional: турниры часто проходят по выходным и требуют поездок.'
+          'Уточняйте у клуба calendário distrital/regional: турниры часто проходят по выходным и требуют поездок.'
         ] },
         { kind: 'warning', text: 'Соревнования не обязательны. Хороший детский клуб не должен давить на ребёнка ради медалей, особенно в первый год адаптации в Португалии.' }
       ]
@@ -81,8 +81,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Начните с официальных сайтов федераций и местных каналов. В Португалии многие секции работают при небольших associações, поэтому не у всех есть хороший сайт; часто актуальнее Facebook, Instagram или расписание pavilhão municipal.' },
         { kind: 'checklist', items: [
-          'FPJudo: ищите clubes, associações distritais и календарь judo.',
-          'FPK: проверяйте clubes и associações по karate.',
+          'FPJ: ищите clubes, associações distritais и календарь judo.',
+          'FNK-P: проверяйте clubes и associações по karate.',
           'Спросите в Câmara Municipal или Junta de Freguesia про atividades desportivas para crianças.',
           'Проверьте escola / ATL: у многих школ есть after-school karate, judo или taekwondo.',
           'Ищите по словам “judo crianças”, “karate infantil”, “taekwondo kids”, “jiu-jitsu crianças” + название города.',
@@ -100,10 +100,10 @@ export default {
     { label: 'Экзамен на пояс', amountEURMin: 10, amountEURMax: 30, note: 'Тариф устанавливает клуб/ассоциация; иногда включён в mensalidade.' }
   ],
   sources: [
-    { title: 'Federação Portuguesa de Judo — клубы, календарь и федеративная информация', url: 'https://www.fpjudo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Federação Nacional de Karate - Portugal — структура, clubes и eventos', url: 'https://www.fpkarate.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Federação Portuguesa de Judo (FPJ) — клубы, календарь и федеративная информация', url: 'https://www.fpj.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Federação Nacional de Karate - Portugal (FNK-P) — структура, clubes и eventos', url: 'https://www.fnkp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'IPDJ — enquadramento do desporto federado e seguro desportivo', url: 'https://ipdj.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

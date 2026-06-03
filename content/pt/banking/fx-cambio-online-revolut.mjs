@@ -4,7 +4,7 @@ export default {
   categoryId: 'banking',
   title: 'Câmbio de moeda em Portugal: Revolut, Wise e câmbio no centro de Lisboa',
   tldr: 'Para €→USD/GBP e o inverso em 2026, quase sempre compensa mais usar Revolut ou Wise: a taxa fica próxima do mid-market e a comissão é visível antes da confirmação. Os bancos em Portugal muitas vezes são piores em 3–5% devido ao spread e às comissões, sobretudo para numerário. Para trocar numerário, é melhor evitar o aeroporto e usar um câmbio licenciado no centro de Lisboa, por exemplo na zona da Baixa/Chiado, comparando a taxa de compra/venda. Nos Multibanco, escolha sempre o pagamento na moeda local sem DCC.',
-  tags: ['câmbio', 'revolut', 'wise', 'câmbio', 'bancos'],
+  tags: ['fx', 'revolut', 'wise', 'câmbio', 'bancos'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -104,6 +104,6 @@ export default {
     { title: 'Wise: comissões e taxa de câmbio', url: 'https://wise.com/pt/pricing/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal: alertas sobre Dynamic Currency Conversion e serviços de pagamento', url: 'https://clientebancario.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

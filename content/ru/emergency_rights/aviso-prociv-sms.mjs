@@ -12,14 +12,14 @@ export default {
       title: 'Что такое AvisoPROCIV',
       content: [
         { kind: 'paragraph', text: 'AvisoPROCIV — официальный канал предупреждений Autoridade Nacional de Emergência e Proteção Civil (ANEPC). Это не маркетинговая рассылка и не приложение: при угрозе ANEPC отправляет короткое SMS через мобильных операторов людям, находящимся в затронутой географической зоне.' },
-        { kind: 'paragraph', text: 'Типичные темы: risco de incêndio rural, active incêndio рядом с населённым пунктом, vaga de calor, chuva forte, vento, cheias, agitação marítima, necessidade de confinamento или эвакуации. Сообщение обычно начинается с AVISO PROCIV / AvisoPROCIV и содержит короткую инструкцию на португальском.' },
+        { kind: 'paragraph', text: 'Типичные темы: risco de incêndio rural, incêndio ativo рядом с населённым пунктом, vaga de calor, chuva forte, vento, cheias, agitação marítima, necessidade de confinamento или эвакуации. Сообщение обычно начинается с AVISO PROCIV / AvisoPROCIV и содержит короткую инструкцию на португальском.' },
         { kind: 'checklist', items: [
           'Регистрироваться не нужно: ANEPC не просит NIF, NISS, e-mail или адрес.',
           'Платить не нужно: SMS бесплатное для получателя.',
           'Сообщение приходит по геолокации мобильной сети, а не по прописке или адресу в Finanças.',
           'Если вы турист или недавно переехали, но телефон подключён к португальской сети, вы можете получить предупреждение.',
           'Если телефон выключен, в airplane mode или без сети, предупреждение может не прийти вовремя.',
-          'Если у вас иностранная SIM в роуминге, доставка обычно возможна через местного оператора, но не гарантируйте её как единственный источник информации.'
+          'Если у вас иностранная SIM в роуминге, доставка обычно возможна через местного оператора, но не считайте её единственным источником информации.'
         ] }
       ]
     },
@@ -27,7 +27,7 @@ export default {
       id: 'how-to-read',
       title: 'Как читать SMS: уровни и смысл',
       content: [
-        { kind: 'paragraph', text: 'В Португалии в публичных предупреждениях часто встречаются два разных языка риска. IPMA использует метеопредупреждения amarelo / laranja / vermelho. Для сельских пожаров применяется perigo de incêndio rural: reduzido, moderado, elevado, muito elevado, máximo. В бытовых новостях и SMS вы также увидите формулировки risco elevado, muito elevado или extremo.' },
+        { kind: 'paragraph', text: 'В Португалии в публичных предупреждениях часто используются два разных способа описания риска. IPMA использует метеопредупреждения amarelo / laranja / vermelho. Для сельских пожаров применяется perigo de incêndio rural: reduzido, moderado, elevado, muito elevado, máximo. В бытовых новостях и SMS вы также увидите формулировки risco elevado, muito elevado или extremo.' },
         { kind: 'checklist', items: [
           'Amarelo — будьте внимательны: погода может нарушить планы, но обычно без массовых ограничений.',
           'Laranja — опасная ситуация: избегайте ненужных поездок, следите за PROCIV, Câmara Municipal и IPMA.',
@@ -128,6 +128,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

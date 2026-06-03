@@ -3,7 +3,7 @@ export default {
   id: 'radar-multa-contestar',
   categoryId: 'auto_ownership',
   title: 'Challenging a SINCRO speed camera fine',
-  tldr: 'Fines from radares SINCRO come from ANSR: for a passenger car, exceeding the limit by up to 20 km/h in a built-up area or up to 30 km/h outside one is €60–300; beyond that, fines rise up to €2,500 and a driving ban is possible.\n\nPortugal applies a metrological tolerance: usually 7 km/h up to 100 km/h and 7% above 100 km/h. You usually have 15 working days after notification to submit a defence or identify another driver; if you pay, do it as a depósito so as not to close the case. Check the photo, sign, location, IPQ calibration validity and the 2-year prescrição.',
+  tldr: 'Fines from radares SINCRO come from ANSR: for a passenger car, exceeding the limit by up to 20 km/h in a built-up area or up to 30 km/h outside one is €60–300; beyond that, fines rise up to €2,500 and a driving ban is possible.\n\nPortugal applies a metrological tolerance: usually 5–7 km/h up to 100 km/h (often 5 km/h for fixed radars) and 5–7% above 100 km/h. You usually have 15 working days after notification to submit a defence or identify another driver; if you pay, do it as a depósito so as not to close the case. Check the photo, sign, location, IPQ calibration validity and the 2-year prescrição.',
   tags: ['speed camera', 'fine', 'ansr', 'car'],
   estimatedReadMinutes: 6,
   steps: [
@@ -17,7 +17,7 @@ export default {
           'Compare the number plate and make of the car in the photo.',
           'Check the date, time, road, direction of travel and km marker.',
           'Compare the stated limit with the actual sign at the location.',
-          'Check whether the speed tolerance was applied: 7 km/h up to 100 km/h or 7% above 100 km/h.',
+          'Check whether the speed tolerance was applied: usually 5–7 km/h up to 100 km/h (often 5 km/h for fixed radars) or 5–7% above 100 km/h.',
           'See whether there is a threat of sanção acessória: a driving ban usually appears with a contraordenação grave / muito grave.',
           'Count the deadline: usually 15 working days from the notification date for defesa or identificação do condutor.'
         ] },
@@ -55,7 +55,7 @@ export default {
           'For grave / muito grave, even paying the coima does not always settle the matter: a driving ban of 1–12 months or 2–24 months may proceed separately.',
           'For drivers with a clean record, it is sometimes possible to request suspensão da sanção acessória, but this is not an automatic right.'
         ] },
-        { kind: 'warning', text: 'The 48-hour rule matters for roadside enforcement: to challenge after payment, the money must be paid as depósito under the prescribed procedure. The wording on the receipt matters.' }
+        { kind: 'warning', text: 'The 48-hour rule matters for roadside enforcement: to challenge after payment, the money must be paid as depósito within 48 hours of notification and under the prescribed procedure. The wording on the receipt matters.' }
       ]
     },
     {
@@ -68,7 +68,7 @@ export default {
           'Photo: request a copy of the photograph if it was not attached or does not allow the vehicle to be identified with confidence.',
           'Location: check whether the coordinate/km marker matches the road and direction where the radar SINCRO is actually installed.',
           'Speed-limit sign: photograph the approach to the location, especially if the sign is obscured, missing, contradictory or placed after the radar.',
-          'Speed tolerance: check that ANSR used the speed after deducting 7 km/h or 7%, not the “raw” measurement.',
+          'Speed tolerance: check that ANSR used the speed after deducting the tolerance (5–7 km/h or 5–7% per the device certificate), not the “raw” measurement.',
           'IPQ / metrologia: request the certificado de aprovação de modelo and certificado de verificação periódica do cinemómetro, valid on the date of the offence.',
           'Deadlines: check the date of the offence, the date of the auto, the notification date and possible prescrição.',
           'Duplication: if several letters arrived for one episode, check whether the events were wrongly separated.'
@@ -147,6 +147,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

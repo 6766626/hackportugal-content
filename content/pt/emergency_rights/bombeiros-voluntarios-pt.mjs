@@ -3,7 +3,7 @@ export default {
   id: 'bombeiros-voluntarios-pt',
   categoryId: 'emergency_rights',
   title: 'Bombeiros Voluntários: quando ligar e quanto custa',
-  tldr: 'Em Portugal existem 469 corporações de bombeiros voluntários — não são um “serviço privado de bombeiros”, mas sim parte do sistema de proteção civil. Em caso de incêndio, acidente rodoviário, fuga de gás, desmaio, AVC, ferimento ou qualquer ameaça à vida, ligue 112: a intervenção de emergência para a população é gratuita. Liga-se diretamente para o quartel dos bombeiros para serviços não urgentes: o transporte de doentes não-urgente costuma custar 40–80 € localmente; piquetes em eventos e apoio à segurança são pagos segundo as tarifas da corporação concreta.',
+  tldr: 'Em Portugal existem cerca de 435 corpos de bombeiros voluntários — não são um “serviço privado de bombeiros”, mas sim parte do sistema de proteção civil. Em caso de incêndio, acidente rodoviário, fuga de gás, desmaio, AVC, ferimento ou qualquer ameaça à vida, ligue 112: a intervenção de emergência para a população é gratuita. Liga-se diretamente para o quartel dos bombeiros para serviços não urgentes: o transporte de doentes não-urgente costuma custar 40–80 € localmente; piquetes em eventos e apoio à segurança são pagos segundo as tarifas da corporação concreta.',
   tags: ['112', 'bombeiros', 'emergência', 'transporte'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Quem são os Bombeiros Voluntários',
       content: [
         { kind: 'paragraph', text: 'Os Bombeiros Voluntários são corpos de bombeiros voluntários que funcionam através de associações humanitárias locais. Combatem incêndios, respondem a acidentes rodoviários, resgatam pessoas, ajudam em cheias, deslizamentos de terras, tempestades, fugas de gás e prestam primeiros socorros antes da entrega do doente ao SNS/INEM.' },
-        { kind: 'paragraph', text: 'Em 2026, existem em Portugal cerca de 469 corporações de bombeiros voluntários. Quase todos os concelhos têm o seu quartel, mas uma chamada de emergência continua a ser encaminhada através do 112 e do Centro de Orientação de Doentes Urgentes/operadores de proteção civil.' },
+        { kind: 'paragraph', text: 'Em 2026, existem em Portugal cerca de 435 corpos de bombeiros voluntários (e cerca de 470 corpos de bombeiros no total, contando os municipais e profissionais). Quase todos os concelhos têm o seu quartel, mas uma chamada de emergência continua a ser encaminhada através do 112 e do Centro de Orientação de Doentes Urgentes / operadores de proteção civil.' },
         { kind: 'checklist', items: [
           'Incêndios em apartamento, casa, floresta, garagem, carro',
           'Acidentes rodoviários, pessoas encarceradas, carro capotado',
@@ -135,6 +135,6 @@ export default {
     { title: 'ANEPC — Autoridade Nacional de Emergência e Proteção Civil', url: 'https://prociv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'SNS 24 — emergência médica e utilização do 112', url: 'https://www.sns24.gov.pt/guia/emergencia-medica/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

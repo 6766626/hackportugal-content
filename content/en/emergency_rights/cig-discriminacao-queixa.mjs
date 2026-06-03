@@ -116,6 +116,6 @@ export default {
     { title: 'Lei 38/2018 — right to self-determination of gender identity and gender expression', url: 'https://diariodarepublica.pt/dr/detalhe/lei/38-2018-115933863', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Trabalho — Lei 7/2009, equality and non-discrimination at work', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

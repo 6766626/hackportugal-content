@@ -65,7 +65,7 @@ export default {
       id: 'cpap-prescription',
       title: 'Шаг 3: назначение CPAP как Cuidados Respiratórios Domiciliários',
       content: [
-        { kind: 'paragraph', text: 'Если врач подтверждает показания, CPAP назначается как ventiloterapia в рамках Cuidados Respiratórios Domiciliários. Актуальная страница DGS по этой теме — Norma DGS n.º 022/2011 (28/09/2011), атуализирована 11/09/2015.' },
+        { kind: 'paragraph', text: 'Если врач подтверждает показания, CPAP назначается как ventiloterapia в рамках Cuidados Respiratórios Domiciliários. Актуальная страница DGS по этой теме — Norma DGS n.º 022/2011 (28/09/2011), обновлённая 11/09/2015.' },
         { kind: 'paragraph', text: 'По SNS пациент обычно не покупает аппарат: врач оформляет prescrição, а договорный поставщик доставляет CPAP/APAP, маску, трубку и расходники. Модель и поставщик зависят от контракта и региона, а не от желания пациента выбрать бренд.' },
         { kind: 'checklist', items: [
           'Уточните у врача: CPAP, APAP или другой режим',
@@ -118,7 +118,7 @@ export default {
   costs: [
     { label: 'Consulta в SNS по направлению', amountEUR: 0, note: 'В 2026 большинство consultas и назначенных обследований в SNS освобождены от taxa moderadora.' },
     { label: 'Polissonografia / estudo do sono в SNS', amountEUR: 0, note: 'Если назначено врачом SNS и выполнено по маршруту SNS; сроки зависят от региона.' },
-    { label: 'Частное исследование сна', amountEURMin: 150, amountEURMax: 450, note: 'Ориентир по рынку; цена зависит от лаборатории, формата и страховки.' },
+    { label: 'Частное исследование сна', amountEURMin: 150, amountEURMax: 450, note: 'Ориентировочная рыночная цена; зависит от лаборатории, формата и страховки.' },
     { label: 'Частная покупка CPAP/APAP', amountEURMin: 500, amountEURMax: 1200, note: 'Не требуется, если CPAP оформлен через SNS как CRD; частная покупка не заменяет медицинское назначение.' }
   ],
   sources: [
@@ -137,6 +137,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

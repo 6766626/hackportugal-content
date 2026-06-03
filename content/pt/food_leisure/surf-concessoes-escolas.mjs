@@ -116,7 +116,7 @@ export default {
       id: 'big-wave-nazare',
       title: 'Big wave Nazaré — caso especial',
       content: [
-        { kind: 'paragraph', text: 'A Nazaré é o local do recorde mundial da maior onda surfada (24+ m). Época: outubro–março. Isto não é surf turístico — é tow-in ou paddle com embarcações de apoio.' },
+        { kind: 'paragraph', text: 'A Nazaré é o local do recorde mundial da maior onda surfada (26+ m). Época: outubro–março. Isto não é surf turístico — é tow-in ou paddle com embarcações de apoio.' },
         { kind: 'checklist', items: [
           'É necessário um guia local ou ligações na comunidade de shapers',
           'Obrigatório: mota de água para tow‑in + piloto + equipa de segurança',
@@ -182,6 +182,6 @@ export default {
     { title: 'AMN — concessões no Domínio Público Marítimo', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IPMA — previsão de surf e marés', url: 'https://www.ipma.pt/pt/maritima/marobs/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

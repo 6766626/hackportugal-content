@@ -16,11 +16,12 @@ export default {
         { kind: 'checklist', items: [
           'Для публичной зарядки почти всегда нужен контракт CEME: Galp Electric, EDP Comercial, Prio, Miio, Evio, Via Verde Electric и др.',
           'Карта CEME обычно работает на большинстве postos da rede Mobi.E, не только на “своих” станциях бренда.',
-          'В приложении поставщика видно мощность, занятость, тариф и история сессий; точность статуса зависит от станции.',
+          'В приложении поставщика видны мощность, занятость, тариф и история сессий; точность статуса зависит от станции.',
           'Итоговая цена складывается из энергии CEME, тарифа OPC, сетевых/управляющих сборов и IVA 23%.',
           'На быстрых зарядках тариф часто содержит компоненту за минуту: если машина медленно принимает ток после 80%, цена за kWh резко растёт.',
           'На автострадах A1/A2/A22 и в туристических зонах HPC дороже, чем AC у супермаркета или муниципального паркинга.',
-          'Roaming-приложения типа Chargemap/Plugsurfing могут работать, но часто дороже локального CEME.'
+          'Roaming-приложения типа Chargemap/Plugsurfing могут работать, но часто дороже локального CEME.',
+          'С 2025 года по новому регламенту (DL 93/2025) на постах ad hoc оплата картой без контракта становится обязательной, особенно от 50 kW; на практике переход идёт постепенно, поэтому карта CEME пока остаётся самым удобным способом.'
         ] }
       ]
     },
@@ -125,8 +126,8 @@ export default {
     { title: 'Mobi.E — официальная информация о сети электрической мобильности', url: 'https://www.mobie.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Galp — решения для зарядки электромобилей и Galp Electric', url: 'https://www.galp.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'EDP Comercial — электрическая мобильность и зарядка EV', url: 'https://www.edp.pt/particulares/servicos/mobilidade-eletrica/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Decreto-Lei 39/2010 — режим организации и доступа к электрической мобильности', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/39-2010-243233', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Decreto-Lei 93/2025 — новый правовой режим электрической мобильности (заменил DL 39/2010)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2025-928937303', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

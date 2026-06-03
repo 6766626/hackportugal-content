@@ -3,7 +3,7 @@ export default {
   id: 'loja-do-cidadao-deep',
   categoryId: 'digital_gov',
   title: 'Loja do Cidadão глубоко: какие сервисы где доступны',
-  tldr: 'Loja do Cidadão — не «одно окно для всего», а сеть крупных центров, где под одной крышей работают balcões разных ведомств: Finanças, IRN, Segurança Social, IMT, ACT, CTT, EDP, иногда AIMA. Espaço Cidadão — облегчённая версия в Junta de Freguesia, Câmara Municipal или CTT: помогает с цифровыми услугами ePortugal, CMD, справками и заявками, но не заменяет профильное ведомство. В 2026 почти всё зависит от конкретной локации и записи через ePortugal/SIGA.',
+  tldr: 'Loja do Cidadão — не «одно окно для всего», а сеть крупных центров, где под одной крышей работают balcões разных ведомств: Finanças, IRN, Segurança Social, IMT, ACT, CTT, EDP, иногда AIMA. Espaço Cidadão — облегчённая версия в Junta de Freguesia, Câmara Municipal или CTT: помогает с цифровыми услугами ePortugal, CMD, справками и заявками, но не заменяет профильное ведомство. В 2026 году почти всё зависит от конкретной локации и записи через ePortugal/SIGA.',
   tags: ['loja', 'eportugal', 'документы', 'serviços'],
   estimatedReadMinutes: 6,
   steps: [
@@ -18,7 +18,7 @@ export default {
           'Часто удобнее обычного офиса ведомства: длинные часы работы, электронная очередь, несколько balcões рядом',
           'Не гарантирует наличие AIMA, IRN или IMT в каждой локации',
           'Многие услуги принимают только по предварительной marcação',
-          'Для части услуг можно взять талон на месте, но лимит талонов заканчивается утром',
+          'Для части услуг можно взять талон на месте, но дневной лимит талонов исчерпывается уже утром',
           'Услуги ведомств оплачиваются по их обычным тарифам; вход и талон бесплатны'
         ] }
       ]
@@ -89,13 +89,13 @@ export default {
       id: 'aima-reality',
       title: 'AIMA в Loja do Cidadão: осторожно',
       content: [
-        { kind: 'paragraph', text: 'После замены SEF на AIMA в октябре 2023 миграционные услуги распределены между AIMA, IRN и цифровыми каналами. В 2026 наличие balcão AIMA в Loja do Cidadão не означает, что там можно прийти без записи и оформить любой ВНЖ.' },
+        { kind: 'paragraph', text: 'После замены SEF на AIMA в октябре 2023 года миграционные услуги распределены между AIMA, IRN и цифровыми каналами. В 2026 году наличие balcão AIMA в Loja do Cidadão не означает, что туда можно прийти без записи и оформить любой ВНЖ.' },
         { kind: 'checklist', items: [
           'Проверяйте на сайте AIMA, есть ли atendimento presencial в нужной Loja',
           'Для ВНЖ почти всегда нужна предварительная запись или вызов AIMA',
           'Не все balcões AIMA принимают первичную подачу, продление, биометрию и замену карты',
           'Для art. 75 и других процедур действуют отдельные пошлины AIMA; с 01.03.2026, например, admission fee составляет 133 €, а autorização de residência art. 75 — 307,20 €',
-          'Берите паспорт, визу D1-D8 или другой статус, NIF, NISS при наличии, comprovativo de morada, contrato de trabalho/recibos verdes/доходы, seguro/SNS, фотографии только если указано',
+          'Берите паспорт, визу D1-D8 или другой статус, NIF, NISS при наличии, comprovativo de morada, contrato de trabalho/recibos verdes/доходы, seguro/SNS, фотографии — только если указано',
           'Если запись дана в конкретный posto AIMA, нельзя самовольно заменить его на ближайшую Loja'
         ] },
         { kind: 'warning', text: 'Не покупайте «слоты в AIMA» у посредников. Официальная запись бесплатна; оплачиваются только пошлины процедуры. Если вас просят MB WAY-перевод за запись, это почти всегда риск мошенничества.' }
@@ -114,7 +114,7 @@ export default {
           'Если доступна запись через SIGA/ePortugal, берите её — это снижает риск отказа',
           'Приходите за 15-20 минут до записи; для talão sem marcação — рано утром',
           'Возьмите оригиналы и копии: паспорт/ВНЖ, NIF, comprovativo de morada, contrato, IBAN, документы по делу',
-          'Держите Portuguese phone number и email под рукой: уведомления и códigos часто приходят по SMS/email',
+          'Держите под рукой португальский номер телефона и email: уведомления и коды часто приходят по SMS/email',
           'После приёма просите comprovativo или número do processo'
         ] }
       ]
@@ -170,6 +170,6 @@ export default {
       lastRetrieved: '2026-05-04'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

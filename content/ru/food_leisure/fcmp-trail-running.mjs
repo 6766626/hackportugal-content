@@ -3,8 +3,8 @@ export default {
   id: 'fcmp-trail-running',
   categoryId: 'food_leisure',
   title: 'Trail running и горный бег — federation card FCMP / FPA',
-  tldr: 'Португалия — страна тысячи trail-забегов: Madeira Island Ultra Trail (MIUT), Trail dos Fenómenos в Açores, Templários trail, Costa Vicentina ultra, и сотни локальных. Чтобы участвовать в trail races нужна спортивная медсправка (atestado médico-desportivo, ~30-50 €) и часто federation card: FCMP (Federação Camp. de Montanhismo e Escalada) для trail-беговых трасс или FPA (Federação Portuguesa de Atletismo) для road races. Бесплатные местные забеги — без карты. Серьёзные ультра — требуют ITRA points и страховку. Federation card ~30-60 €/год, есть онлайн-курс safety + оформление.',
-  tags: ['trail', 'corrida', 'fcmp', 'fpa', 'maraton'],
+  tldr: 'Португалия — страна тысячи trail-забегов: Madeira Island Ultra Trail (MIUT), Trail dos Fenómenos в Açores, Templários trail, Costa Vicentina ultra, и сотни локальных. Чтобы участвовать в trail races нужна спортивная медсправка (atestado médico-desportivo, ~30-50 €) и часто federation card: FCMP (Federação de Campismo e Montanhismo de Portugal) для trail-беговых трасс или FPA (Federação Portuguesa de Atletismo) для road races. Бесплатные местные забеги — без карты. Серьёзные ультра — требуют ITRA points и страховку. Federation card ~30-60 €/год, есть онлайн-курс safety + оформление.',
+  tags: ['trail', 'corrida', 'fcmp', 'fpa', 'marafon'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -25,7 +25,7 @@ export default {
           'Ultra trails (50K+): часто требуют ITRA points + insurance + federation card',
           'Подростки до 18 лет: card часто бесплатно или со скидкой при родительском согласии',
           'Туристы (иностранцы из ЕС): можно использовать свою национальную card в Португалии (FFA Франция, RFEA Испания, FIDAL Италия и т.д.)',
-          'Третьи страны (Россия, Украина, Бразилия): нужно либо португальская card либо «day license» (~5-15 €/гонка) если организатор предлагает'
+          'Третьи страны (Россия, Украина, Бразилия): нужна либо португальская card, либо «day license» (~5-15 €/гонка), если организатор предлагает'
         ] }
       ]
     },
@@ -42,7 +42,7 @@ export default {
                 'Atestado médico-desportivo: документ от спортивного врача о пригодности к нагрузкам',
                 'Можно сделать у семейного врача или в спортивном центре',
                 'Стоимость: 30-50 €, без SNS — 60-100 €',
-                'Срок действия: 1 год для до 35 лет, 6 месяцев для старше',
+                'Срок действия: 1 год, обновляется в месяц твоего дня рождения',
                 'Содержит: ECG, измерение давления, краткий осмотр, заключение о допуске'
               ] }
             ]
@@ -51,10 +51,10 @@ export default {
             id: 's2',
             title: 'Регистрация в local club',
             content: [
-              { kind: 'paragraph', text: 'Federation card выдаётся через клуб (a federation не работает напрямую с физлицами). Нужно вступить в любой клуб FCMP — их сотни.' },
+              { kind: 'paragraph', text: 'Federation card выдаётся через клуб (сама федерация не работает напрямую с физлицами). Нужно вступить в любой клуб FCMP — их сотни.' },
               { kind: 'checklist', items: [
                 'Местные клубы: ищи "clube trail running + твой city"',
-                'Атрибутика: Crónicas do Trail (Lisboa), Trail dos Fenómenos (Açores), Lousã Trail Sports',
+                'Например: Crónicas do Trail (Lisboa), Trail dos Fenómenos (Açores), Lousã Trail Sports',
                 'Членство в клубе: 20-100 €/год — клубный взнос',
                 'В обмен: тренировки, скидки на старты, экипировка, сообщество'
               ] }
@@ -89,7 +89,7 @@ export default {
           'Costa Vicentina Ultra: вдоль западного побережья',
           'Maratona de Lisboa (sábado de páscoa): IAAF road, 10 000 участников',
           'Maratona do Porto: октябрь, второй по размеру в Португалии',
-          'Meia Maratona de Lisboa: март, начинается с 25 de Abril моста',
+          'Meia Maratona de Lisboa: март, старт на мосту 25 de Abril',
           'Серра-да-Эстрела SkyRace: на самой высокой точке материка'
         ] },
         { kind: 'paragraph', text: 'Booking platforms:' },
@@ -153,6 +153,6 @@ export default {
     { title: 'Decreto-Lei 10/2009 — regime jurídico do seguro desportivo obrigatório', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/10-2009-397323', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'IPDJ — seguro desportivo obrigatório', url: 'https://ipdj.gov.pt/seguro-desportivo', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -57,7 +57,7 @@ export default {
             { kind: 'paragraph', text: 'If the online form does not accept a foreign document, the address cannot be found in the database or you need urgent activation, go to the loja/balcão do cliente. Take the original documents and PDF copies on your phone.' }
           ] },
           { id: 'landlord', title: 'If the contract remains in the landlord’s name', content: [
-            { kind: 'paragraph', text: 'This is possible, but it worse for the tenant: you do not control the débito direto, you do not receive official faturas in your own name and it is harder to prove your address. For a long-term rental, it is usually better to put the água in your own name.' }
+            { kind: 'paragraph', text: 'This is possible, but it is worse for the tenant: you do not control the débito direto, you do not receive official faturas in your own name and it is harder to prove your address. For a long-term rental, it is usually better to put the água in your own name.' }
           ] }
         ] }
       ]
@@ -124,6 +124,6 @@ export default {
     { title: 'ERSAR — consumer rights for water, saneamento and resíduos services', url: 'https://www.ersar.pt/pt/consumidor', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações eletrónico — complaints about utility operators', url: 'https://www.livroreclamacoes.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

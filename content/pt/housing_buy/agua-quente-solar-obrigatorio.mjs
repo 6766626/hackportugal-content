@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'agua-quente-solar-obrigatorio',
   categoryId: 'housing_buy',
-  title: 'Substituir por algo como: "Água quente e energia renovável em construções novas: quando é necessário solar térmico e pelo que pode ser substituído".',
-  tldr: 'Escrever: "Ao abrigo do antigo DL 80/2006, para edifícios novos com exposição solar adequada, eram geralmente exigidos colectores solares para AQS ou uma solução equivalente baseada em energias renováveis; muitas vezes tomava-se como referência uma elevada contribuição solar para a necessidade anual. No regime em vigor do DL 101-D/2020, a exigência é formulada através de indicadores energéticos/SCE e da contribuição de energias renováveis, e não como uma obrigação universal de instalar especificamente solar térmico." Em 2026, o próprio DL 80/2006 já foi substituído pelo regime SCE e pelo DL 101-D/2020, mas a lógica mantém-se: um edifício novo tem de passar pela certificação energética e demonstrar a contribuição de energias renováveis. Para casas existentes, a instalação não é obrigatória, mas podem existir incentivos através do Fundo Ambiental nos avisos abertos.',
+  title: 'Água quente e energia renovável em construções novas: quando é necessário solar térmico e por que pode ser substituído',
+  tldr: 'Ao abrigo do antigo DL 80/2006, para edifícios novos com exposição solar adequada, eram geralmente exigidos colectores solares para AQS ou uma solução equivalente baseada em energias renováveis; muitas vezes tomava-se como referência uma elevada contribuição solar para a necessidade anual. No regime em vigor do DL 101-D/2020, a exigência é formulada através de indicadores energéticos/SCE e da contribuição de energias renováveis, e não como uma obrigação universal de instalar especificamente solar térmico. Em 2026, o próprio DL 80/2006 já foi substituído pelo regime SCE e pelo DL 101-D/2020, mas a lógica mantém-se: um edifício novo tem de passar pela certificação energética e demonstrar a contribuição de energias renováveis. Para casas existentes, a instalação não é obrigatória, mas podem existir incentivos através do Fundo Ambiental nos avisos abertos.',
   tags: ['solar', 'água-quente', 'sce', 'habitação'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que é exactamente obrigatório numa casa nova',
       content: [
         { kind: 'paragraph', text: 'Solar térmico não são painéis solares para electricidade, mas sim colectores que aquecem a água quente doméstica: duche, cozinha, casas de banho. Nos documentos portugueses, procure os termos: sistemas solares térmicos, AQS — águas quentes sanitárias, depósito acumulador, apoio elétrico/gás/bomba de calor.' },
-        { kind: 'paragraph', text: 'Esclarecer: "No antigo RCCTE/DL 80/2006, isto era uma regra prática para edifícios novos com exposição favorável, com possibilidade de excepções justificadas ou soluções alternativas de energias renováveis. O valor de 70% deve ser apresentado como referência histórica/de projecto, e não como um mínimo universal actualmente em vigor em 2026."' },
+        { kind: 'paragraph', text: 'No antigo RCCTE/DL 80/2006, isto era uma regra prática para edifícios novos com exposição favorável, com possibilidade de excepções justificadas ou soluções alternativas de energias renováveis. O valor de 70% deve ser entendido como referência histórica de projecto, e não como um mínimo universal actualmente em vigor em 2026.' },
         { kind: 'warning', text: 'Em 2026, o DL 80/2006 já não é o regime-base em vigor para a eficiência energética: foi substituído por regras SCE posteriores, sendo actualmente o diploma-chave o Decreto-Lei 101-D/2020. Mas, ao comprar uma construção nova, a lógica para o comprador é a mesma: o projecto deve ser compatível com o certificado energético e com os requisitos relativos a energias renováveis/AQS.' }
       ]
     },
@@ -29,7 +29,7 @@ export default {
           'Pergunte onde estão fisicamente instalados os colectores: cobertura, terraço, zona técnica; e se existe acesso para manutenção.',
           'Peça o manual de utilização e manutenção e a garantia do fabricante.',
           'Verifique se o sistema está incluído na escritura/caderneta predial como parte do edifício ou se é equipamento do condomínio.',
-          'Escrever: "O fotovoltaico, por si só, não é um sistema AQS: produz electricidade. Mas, num projecto SCE actualmente em vigor, PV juntamente com bomba de calor/outro equipamento pode ser uma alternativa ao solar térmico, se o cálculo dos indicadores energéticos cumprir os requisitos."',
+          'Lembre-se: o fotovoltaico, por si só, não é um sistema AQS — produz electricidade. Mas, num projecto SCE actualmente em vigor, o PV em conjunto com bomba de calor ou outro equipamento pode ser uma alternativa ao solar térmico, se o cálculo dos indicadores energéticos cumprir os requisitos.',
           'Para um edifício posterior a 2021, peça confirmação de que o projecto passou pelo SCE ao abrigo do DL 101-D/2020 e das portarias aplicáveis.'
         ] }
       ]
@@ -75,7 +75,7 @@ export default {
           'Não há acesso à cobertura/zona técnica para a verificação anual.',
           'A garantia cobre apenas a instalação, mas não os colectores, a bomba, o controlador e o depósito.'
         ] },
-        { kind: 'paragraph', text: 'Escrever: "Peça o projeto de especialidades, memória descritiva/caderno de encargos, telas finais ou documentos condomínio, Certificado Energético SCE, manual da instalação e garantias. Só faz sentido pedir a Ficha técnica da habitação se o imóvel for antigo e essa ficha tiver sido emitida antes da revogação do regime." Se comprar em planta, inclua as características AQS no contrato-promessa.' }
+        { kind: 'paragraph', text: 'Peça o projeto de especialidades, memória descritiva ou caderno de encargos, telas finais ou documentos do condomínio, Certificado Energético SCE, manual da instalação e garantias. Só faz sentido pedir a Ficha técnica da habitação se o imóvel for antigo e essa ficha tiver sido emitida antes da revogação do regime. Se comprar em planta, inclua as características AQS no contrato-promessa.' }
       ]
     }
   ],
@@ -114,6 +114,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -136,7 +136,7 @@ export default {
         { kind: 'paragraph', text: 'MB WAY — sistema português de pagamentos instantâneos da SIBS. Como a Revolut, mas apenas para IBAN PT.' },
         { kind: 'checklist', items: [
           '📱 Associar o número a um banco português através da aplicação do banco ou da aplicação MB WAY',
-          '💸 Transferências por telefone instantâneas; o limite típico do MB WAY — até 750 € por transferência, mas cada banco pode definir limites diários/mensais mais baixos',
+          '💸 Transferências por telefone instantâneas; o limite típico do MB WAY — até 2000 € por transferência e cerca de 5000 €/mês, mas cada banco pode definir limites mais baixos',
           '🛒 Pagamento em lojas por NFC / QR',
           '🎟️ Geração de cartões virtuais de utilização única',
           '🆓 O pagamento de compras é normalmente gratuito para o cliente; as transferências P2P podem ser gratuitas dentro dos limites/condições do banco',
@@ -149,7 +149,7 @@ export default {
   costs: [
     { label: 'Banco clássico (comissão/mês)', amountEURMin: 4, amountEURMax: 8 },
     { label: 'Banco online com IBAN PT', amountEUR: 0 },
-    { label: 'Revolut Standard (IBAN PT gratuito)', amountEUR: 0, note: 'desde 2024 IBAN PT para todos' },
+    { label: 'Revolut Standard (IBAN PT gratuito)', amountEUR: 0, note: 'desde 2025 novos clientes em PT recebem IBAN PT; os existentes são migrados gradualmente' },
     { label: 'Revolut Premium', amountEUR: 10, note: '~9,99 €/mês, mais limites/seguro' },
     { label: 'Primeiro depósito', amountEURMin: 250, amountEURMax: 1000 }
   ],
@@ -159,6 +159,6 @@ export default {
     { title: 'Banco de Portugal — Comparador de comissões', url: 'https://clientebancario.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'SIBS — MB WAY oficial', url: 'https://www.mbway.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

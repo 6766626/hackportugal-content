@@ -97,7 +97,7 @@ export default {
         { kind: 'checklist', items: [
           'Registo como olivicultor na DGAV (Direção-Geral de Alimentação e Veterinária)',
           'Abertura de atividade nas Finanças: código CIRS 1311 — agricultura',
-          'IVA: até 14 500 € por ano de volume de negócios, pode trabalhar sem IVA (a partir de 2025)',
+          'IVA: até 15 000 € por ano de volume de negócios, pode trabalhar sem IVA (a partir de 2025)',
           'Rótulos segundo os regulamentos da UE: produtor, NIF, tipo (extra virgem / virgem / olivais), peso, prazo de validade, país',
           'Análises laboratoriais: acidez (% de ácido oleico), peróxidos, K232/K270 — parâmetros de qualidade obrigatórios',
           'Laboratórios: acreditados pela ASAE. ~50-150 € por análise',
@@ -140,6 +140,6 @@ export default {
     { title: 'Azeite IGP — DOP Alentejo, Trás-os-Montes', url: 'https://tradicional.dgadr.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — apoio à olivicultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

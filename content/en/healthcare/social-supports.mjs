@@ -3,7 +3,7 @@ export default {
   id: 'social-supports',
   categoryId: 'healthcare',
   title: 'Social support in Portugal — RSI, subsidies, benefits',
-  tldr: 'Portugal offers residents a broad set of social benefits: RSI (rendimento social de inserção) — a top-up to the household reference amount (100% of the base for the applicant, 70% for each additional adult, 50% for a child); Subsídio de desemprego — around 65% of remuneração de referência, maximum 2.5×IAS (€1,342.83 in 2026), duration according to the Segurança Social table by age and contribution record; Porta 65 Jovem — rent support (amount according to IHRU tables, not a fixed cap); Tarifa Social Energia Elétrica — around a 33.8% discount on eligible tariff components (for gas — a separate tariff of around 31.2%); habitação social — rent under the renda apoiada formula. Requirements: legal residence in PT, income/assets assessment, and sometimes a minimum contribution record.',
+  tldr: 'Portugal offers residents a broad set of social benefits: RSI (rendimento social de inserção) — a top-up to the household reference amount (100% of the base for the applicant — €247.56/month in 2026, 70% for each additional adult, 50% for a child); Subsídio de desemprego — around 65% of remuneração de referência, maximum 2.5×IAS (€1,342.83 in 2026), duration according to the Segurança Social table by age and contribution record; Porta 65 Jovem — rent support (amount according to IHRU tables, not a fixed cap); Tarifa Social Energia Elétrica — around a 33.8% discount on eligible tariff components (for gas — a separate tariff of around 31.2%); habitação social — rent under the renda apoiada formula. Requirements: legal residence in PT, income/assets assessment, and sometimes a minimum contribution record.',
   tags: ['rsi', 'subsidy', 'social support', 'benefit'],
   estimatedReadMinutes: 7,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'RSI is a top-up to the household reference amount for families with very low income. The calculation is made up as follows: 100% of the base amount for the applicant, 70% for each additional adult, 50% for each minor; payment = this reference amount minus the household income taken into account.' },
         { kind: 'checklist', items: [
-          '📊 Base amount: around €242.80/month for the applicant in 2026 (≈ 45.208% of IAS €537.13); +70% of this amount for each additional adult; +50% for each minor',
+          '📊 Base amount: around €247.56/month for the applicant in 2026 (≈ 46.09% of IAS €537.13); +70% of this amount (≈ €173.29) for each additional adult; +50% (≈ €123.78) for each minor',
           '🧾 Conditions: total household income < threshold amount; limit on movable assets (usually ≤ 60× IAS); willingness to work (there is an obligation to look for work through IEFP)',
           '📅 Duration: 12 months, renewed each year if the conditions continue to be met',
           '👨‍👩‍👧 For foreigners: legal residence in Portugal; for third-country nationals Segurança Social usually requires a residence permit/legal residence for at least 1 year. For refugees and some protected statuses — special rules apply (check the current Guia Prático RSI)',
@@ -44,7 +44,7 @@ export default {
               'Maximum: 2.5× IAS = €1,342.83 in 2026 (not above the established limits based on net reference remuneration)',
               'Minimum: usually 1× IAS = €537.13 in 2026, but not above net remuneration de referência; with a very low salary, the benefit may be below IAS',
               'The duration is determined by the Segurança Social table according to age and contribution record: from 150 days for young workers with the minimum record to 540 days and more with additional days for a long career. See the detailed table in the Guia Prático Subsídio de Desemprego',
-              'Subsídio social de desemprego is available for low household income; the amount is usually 80% of IAS for a single person or 100% of IAS for a person with a household; the duration depends on age/contribution record and on whether it is awarded as initial or subsequent after subsídio de desemprego'
+              'Subsídio social de desemprego is available for low household income; the amount is usually 80% of IAS (≈ €429.70 in 2026) for a single person or 100% of IAS (€537.13) for a person with a household; the duration depends on age/contribution record and on whether it is awarded as initial (inicial) or subsequent (subsequente) after subsídio de desemprego'
             ]}
           ]},
           { id: 'u3', title: 'Application', content: [
@@ -141,7 +141,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'RSI base amount for the applicant', amountEUR: 242.80, note: '€/month 2026 (≈ 45.208% × IAS €537.13)' },
+    { label: 'RSI base amount for the applicant', amountEUR: 247.56, note: '€/month 2026 (≈ 46.09% × IAS €537.13)' },
     { label: 'Minimum Subsídio desemprego', amountEUR: 537.13, note: '€/month (1× IAS), but not above net remuneration de referência' },
     { label: 'Maximum Subsídio desemprego', amountEUR: 1342.83, note: '€/month (2.5× IAS 2026)' },
     { label: 'Porta 65 Jovem (rent)', amountEUR: 0, note: 'amount varies — calculated by the Portal da Habitação simulator according to eligible rent and municipality' },
@@ -159,6 +159,6 @@ export default {
     { title: 'DGEG — Tarifa Social de Energia Elétrica', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/energia-eletrica/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

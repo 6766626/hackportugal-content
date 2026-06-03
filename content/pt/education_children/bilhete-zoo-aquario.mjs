@@ -90,7 +90,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Oceanário de Lisboa — referência para bilhete de adulto', amountEURMin: 19, amountEURMax: 25, note: 'Depende da idade, exposição e compra online/bilheteira; crianças até aos 3 anos normalmente entram gratuitamente.' },
+    { label: 'Oceanário de Lisboa — referência para bilhete de adulto', amountEURMin: 25, amountEURMax: 25, note: 'O bilhete de adulto (13–64) ronda os 25 €; a tarifa infantil (3–12) é mais barata e os seniores (65+) têm desconto; crianças até aos 3 anos normalmente entram gratuitamente.' },
     { label: 'Jardim Zoológico de Lisboa — referência para bilhete infantil/reduzido', amountEURMin: 19, amountEURMax: 22, note: 'O bilhete de adulto pode ser mais caro; verifique a tabela de preços actual em zoo.pt antes de comprar.' },
     { label: 'Dia em família 2 adultos + 2 crianças', amountEURMin: 75, amountEURMax: 110, note: 'Apenas bilhetes de entrada, sem comida, estacionamento nem lembranças.' },
     { label: 'Comida/bebidas no interior', amountEURMin: 8, amountEURMax: 15, note: 'Referência por pessoa para um lanche simples; pode poupar levando água e snacks com antecedência.' }
@@ -100,6 +100,6 @@ export default {
     { title: 'Oceanário de Lisboa — bilhetes, memberships, programas educativos', url: 'https://www.oceanario.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Sea Life Porto — bilhetes e visitas familiares', url: 'https://www.visitsealife.com/porto/en/', kind: 'company', language: 'en', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

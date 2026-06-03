@@ -3,7 +3,7 @@ export default {
   id: 'nif-for-children',
   categoryId: 'documents_fiscal',
   title: 'NIF для ребёнка — как оформить',
-  tldr: 'NIF ребёнка часто просят: для школы, оформления SNS (Número de Utente), страховки, частных мед.услуг, Abono de Família. Если ребёнок получает португальское гражданство и оформляется первый Cartão de Cidadão/Nascer Cidadão, NIF/NISS/Número de Utente обычно присваиваются в рамках этой процедуры. Для ребёнка-иностранца (даже родившегося в PT) NIF оформляется отдельно в Finanças. Бесплатно.',
+  tldr: 'NIF ребёнка часто просят: для школы, оформления SNS (Número de Utente), страховки, частных медицинских услуг, Abono de Família. Если ребёнок получает португальское гражданство и оформляется первый Cartão de Cidadão/Nascer Cidadão, NIF/NISS/Número de Utente обычно присваиваются в рамках этой процедуры. Для ребёнка-иностранца (даже родившегося в PT) NIF оформляется отдельно в Finanças. Бесплатно.',
   tags: ['nif', 'дети', 'документы'],
   estimatedReadMinutes: 4,
   steps: [
@@ -32,7 +32,7 @@ export default {
           'Если ребёнку оформляют португальский Cartão de Cidadão/Nascer Cidadão, вместе с ним обычно присваиваются NIF, NISS и Número de Utente одним пакетом',
           'Если ребёнок остаётся иностранным гражданином, уточняйте отдельно: NIF — в Finanças, utente — в centro de saúde, NISS — в Segurança Social/ISS',
           'Родители получают Cédula de Nascimento в электронном виде или Assento de Nascimento',
-          'Гражданство ребёнка зависит от законов страны родителей. По действующей Lei n.º 37/81 art. 1.º ребёнок, родившийся в PT от иностранных родителей, может быть português de origem, если на момент рождения один из родителей проживает в PT не менее 1 года и не находится на службе иностранного государства; есть и другие специальные основания. Новый закон о гражданстве, одобренный 01.04.2026, ожидает промульгации'
+          'Гражданство ребёнка зависит от законов страны родителей. С 19.05.2026 действует Lei Orgânica n.º 1/2026 (изменившая Lei n.º 37/81): ребёнок, родившийся в PT от иностранных родителей, может быть português de origem, если на момент рождения один из родителей легально проживает в PT не менее 5 лет (раньше требовался 1 год) и не находится на службе иностранного государства; есть и другие специальные основания'
         ]}
       ]
     },
@@ -100,8 +100,8 @@ export default {
     { title: 'IRN — Cartão de Cidadão / Nascer Cidadão', url: 'https://irn.justica.gov.pt/Servicos/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — Ofício Circulado 90057/2022 (representante fiscal)', url: 'https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'HCCH — Apostille Convention status', url: 'https://www.hcch.net/en/instruments/conventions/status-table/?cid=41', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },
-    { title: 'Lei n.º 37/81 — Lei da Nacionalidade', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34514475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Lei n.º 37/81 — Lei da Nacionalidade (consolidada, alterada pela Lei Orgânica n.º 1/2026)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34514475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

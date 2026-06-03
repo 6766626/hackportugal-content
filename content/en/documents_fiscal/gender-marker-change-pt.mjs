@@ -20,7 +20,8 @@ export default {
           'In 2026, Portuguese civil registration works with binary markers: feminino / masculino; there is no separate X / non-binary marker in the Cartão de Cidadão and passport',
           'After the entry in the Registo Civil, documents must be replaced separately: Cartão de Cidadão, passport, driving licence, tax and medical records'
         ] },
-        { kind: 'warning', text: 'If you are not a Portuguese citizen, the Conservatória usually does not “rewrite” your foreign birth certificate. For most residents, the route has two steps: first change documents in the country of citizenship, then update Portuguese registers based on the new foreign documents.' }
+        { kind: 'warning', text: 'If you are not a Portuguese citizen, the Conservatória usually does not “rewrite” your foreign birth certificate. For most residents, the route has two steps: first change documents in the country of citizenship, then update Portuguese registers based on the new foreign documents.' },
+        { kind: 'warning', text: 'Important: in March 2026 Parliament approved, at first reading (na generalidade), a revision of this regime — possibly bringing back a mandatory medical report for adults too. As of late May 2026 the bill is still at committee stage (especialidade): there has been no final vote, promulgation or publication in the Diário da República, so the current rules under Lei 38/2018 still apply. Check the current version of the law before applying.' }
       ]
     },
     {
@@ -161,6 +162,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

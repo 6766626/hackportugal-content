@@ -48,7 +48,7 @@ export default {
             { kind: 'paragraph', text: 'Bloquear através do número 211 950 500 (IRN, 24/7). Pedido de novo documento — em qualquer Espaço Cidadão.' }
           ]},
           { id: 'l3', title: 'Autorização de residência (título de residência)', content: [
-            { kind: 'paragraph', text: 'Participação à PSP (auto policial) → marcação na AIMA para substituição → taxa de 82 € → espera de 30-60 dias.' }
+            { kind: 'paragraph', text: 'Participação à PSP (auto policial) → marcação na AIMA para substituição → a taxa da segunda via corresponde a 50% da taxa de emissão do título (varia consoante o tipo de autorização; as taxas da AIMA subiram a 1 de março de 2026) → espera de 30-60 dias.' }
           ]},
           { id: 'l4', title: 'Cartão bancário', content: [
             { kind: 'paragraph', text: 'Bloquear na aplicação ou por telefone junto do banco. O cartão MB WAY é bloqueado instantaneamente na aplicação.' }
@@ -83,6 +83,6 @@ export default {
     { title: 'APAV — apoio a vítimas', url: 'https://apav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Embaixada da Federação Russa em Lisboa', url: 'https://lisbon.mid.ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

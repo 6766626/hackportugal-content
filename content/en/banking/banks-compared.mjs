@@ -136,7 +136,7 @@ export default {
         { kind: 'paragraph', text: 'MB WAY is the Portuguese instant payments system from SIBS. Like Revolut, but only for PT IBANs.' },
         { kind: 'checklist', items: [
           '📱 Link a number to a Portuguese bank via the bank app or the MB WAY app',
-          '💸 Transfers by phone are instant; a typical MB WAY limit is up to €750 per transfer, and the specific bank may set lower daily/monthly limits',
+          '💸 Transfers by phone are instant; a typical MB WAY limit is up to €2,000 per transfer and around €5,000/month, and the specific bank may set lower limits',
           '🛒 In-store payment by NFC / QR',
           '🎟️ Generation of one-off virtual cards',
           '🆓 Paying for purchases is usually free for the customer; P2P transfers may be free within the bank’s limits/terms',
@@ -149,7 +149,7 @@ export default {
   costs: [
     { label: 'Traditional bank (fee/month)', amountEURMin: 4, amountEURMax: 8 },
     { label: 'Online bank with a PT IBAN', amountEUR: 0 },
-    { label: 'Revolut Standard (PT IBAN free)', amountEUR: 0, note: 'since 2024 PT IBAN for everyone' },
+    { label: 'Revolut Standard (PT IBAN free)', amountEUR: 0, note: 'since 2025 new PT customers get a PT IBAN; existing ones migrated gradually' },
     { label: 'Revolut Premium', amountEUR: 10, note: '~€9.99/month, higher limits/insurance' },
     { label: 'Initial deposit', amountEURMin: 250, amountEURMax: 1000 }
   ],
@@ -159,6 +159,6 @@ export default {
     { title: 'Banco de Portugal — Fee comparison tool', url: 'https://clientebancario.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'SIBS — official MB WAY', url: 'https://www.mbway.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

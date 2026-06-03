@@ -63,7 +63,7 @@ export default {
               'MEO Arena (formerly Altice Arena, Lisboa, Parque das Nações) — main concert venue, Coldplay, Taylor Swift, festivals',
               'Coliseu dos Recreios (Lisboa) — historic hall, 4,000 seats',
               'Super Bock Arena (Porto) — 8,000 seats',
-              'Teatro Nacional D. Maria II (Lisboa) — classical theatre. Note: the main building on Rossio is closed for renovation, performances take place as part of programação em trânsito at other venues — check the specific address on the ticket',
+              'Teatro Nacional D. Maria II (Lisboa) — classical theatre. Note: the main building on Rossio was closed for a long renovation; the official reopening is planned for September 2026 (with a Prólogo programme at Rossio in summer 2026). Until then some performances take place at other venues — check the specific address on the ticket',
               'Teatro Nacional de São Carlos (Lisboa) — opera',
               'Casa da Música (Porto) — concerts from classical music to jazz'
             ]}
@@ -102,7 +102,7 @@ export default {
               'Padel — individual lessons (see separate gyms-fitness guide)',
               'MMA / boxing — rare, €30-€100',
               'Motorsport — Estoril circuit, MotoGP Portimão',
-              'Tennis — Oeiras Open / ATP Challenger events (the former Millennium Estoril Open ATP 250 dropped out of the calendar after 2024); status and dates change — check the ATP calendar and Federação Portuguesa de Ténis'
+              'Tennis — the Millennium Estoril Open is back on tour: in 2025 it ran as an ATP Challenger 175, and from 2026 it is again an ATP 250 (in 2026 held in July, on clay in Cascais); status and dates change — check the ATP calendar and Federação Portuguesa de Ténis'
             ]}
           ]}
         ]}
@@ -120,8 +120,7 @@ export default {
           'EDP Cool Jazz (Cascais, July) — jazz, €40-€100 evening',
           'Festas de São João do Porto (23-24 June) — traditional culture, free city events',
           'Festas de Lisboa / Lisboa na Rua (June) — free city programmes by EGEAC, see agenda',
-          'Festa de Santo António (Lisbon, 12-13 June) — major city festival, free',
-          'São João do Porto (23-24 June) — Porto festival'
+          'Festa de Santo António (Lisbon, 12-13 June) — major city festival, free'
         ]}
       ]
     },
@@ -172,6 +171,6 @@ export default {
     { title: 'Agenda Cultural de Lisboa', url: 'https://www.agendalx.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Porto — Events', url: 'https://www.visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

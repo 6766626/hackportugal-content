@@ -3,7 +3,7 @@ export default {
   id: 'universidade-senior',
   categoryId: 'daily_life',
   title: 'Universidade Sénior — образование для пенсионеров',
-  tldr: 'Universidade Sénior — португальский формат U3A: дневные курсы для людей старшего возраста без экзаменов и дипломов. По стране работают 200+ таких школ, многие входят в сеть RUTIS и запускаются Câmaras Municipais, Juntas de Freguesia, IPSS или ассоциациями. Типичная цена в 2026 году: inscrição 10–30 € и mensalidade 30–50 € за много занятий: línguas, cultura, informática, dança, artes, saúde. Запись обычно через Câmara/Junta или напрямую в secretaria школы.',
+  tldr: 'Universidade Sénior — португальский формат U3A: дневные курсы для людей старшего возраста без экзаменов и дипломов. По стране работают сотни таких школ: только в сети RUTIS — Rede de Universidades Seniores их свыше 400, а организуют их Câmaras Municipais, Juntas de Freguesia, IPSS или ассоциации. Типичная цена в 2026 году: inscrição 10–30 € и mensalidade 30–50 € за множество занятий: línguas, cultura, informática, dança, artes, saúde. Запись обычно через Câmara/Junta или напрямую в secretaria школы.',
   tags: ['senior', 'образование', 'câmara', 'rutis'],
   estimatedReadMinutes: 5,
   steps: [
@@ -102,6 +102,6 @@ export default {
     { title: 'Carta Social — поиск социальных учреждений и IPSS', url: 'https://www.cartasocial.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — enquadramento das IPSS', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

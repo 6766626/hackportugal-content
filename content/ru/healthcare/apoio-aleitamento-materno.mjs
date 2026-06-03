@@ -3,7 +3,7 @@ export default {
   id: 'apoio-aleitamento-materno',
   categoryId: 'healthcare',
   title: 'Apoio à amamentação: поддержка грудного вскармливания в SNS',
-  tldr: 'В Португалии помощь с грудным вскармливанием можно получить бесплатно через SNS: в Centro de Saúde у enfermeira de saúde materna/infantil, в роддоме через Cantinho da Amamentação и по телефону Linha SOS Amamentação 213 880 915 (пн–пт 10:00–18:00). Нужен número de utente, но в срочных ситуациях помощь не должны откладывать. На работе Código do Trabalho art. 47 даёт до 2 часов в день на amamentação/aleitação: обычно 2 периода по 1 часу, минимум до 1 года ребёнка, а при фактическом грудном вскармливании — дольше с подтверждением.',
+  tldr: 'В Португалии помощь с грудным вскармливанием можно получить бесплатно через SNS: в Centro de Saúde у enfermeira de saúde materna/infantil, в роддоме через Cantinho da Amamentação и по телефону Linha SOS Amamentação 213 880 915 (пн–пт 10:00–18:00). Нужен número de utente, но в срочных ситуациях помощь не должны откладывать. На работе Código do Trabalho art. 47 даёт до 2 часов в день на amamentação/aleitação: обычно 2 периода по 1 часу, как минимум до достижения ребёнком 1 года, а при продолжающемся грудном вскармливании — дольше, по медицинскому подтверждению.',
   tags: ['amamentação', 'sns', 'роды', 'работа'],
   estimatedReadMinutes: 5,
   steps: [
@@ -72,6 +72,6 @@ export default {
     { title: 'Código do Trabalho — art. 47, dispensa para amamentação ou aleitação', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Associação SOS Amamentação — Linha SOS Amamentação 213 880 915', url: 'https://www.sosamamentacao.org.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

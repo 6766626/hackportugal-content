@@ -74,7 +74,7 @@ export default {
           'Indique a organização infratora e os respetivos contactos.',
           'Descreva os factos por datas: sem uma história longa, mas com acontecimentos concretos.',
           'Escreva o que pretende: cessação do tratamento, apagamento dos dados, retificação, proibição da câmara, investigação da fuga de dados.',
-          'Anexe as provas em PDF/JPG/PNG, de preferência num único PDF organizado.',
+          'Normalmente as provas não se anexam ao próprio formulário: indique no formulário que as tem e a CNPD solicitá-las-á mais tarde. Prepare-as previamente em PDF/JPG/PNG, de preferência num único PDF organizado.',
           'Envie o formulário e guarde a confirmação, número do processo ou e-mail da CNPD.'
         ] },
         { kind: 'paragraph', text: 'Na prática, em queixas simples, a CNPD pode dar uma primeira resposta ou pedir esclarecimentos em cerca de 30 dias, mas a investigação final demora mais. Nos termos do RGPD, a autoridade de controlo deve informar o queixoso sobre o andamento e o resultado da queixa, incluindo a possibilidade de tutela judicial se o caso não avançar.' }
@@ -123,6 +123,6 @@ export default {
     { title: 'Regulamento (UE) 2016/679 — RGPD/GDPR, texto no EUR-Lex', url: 'https://eur-lex.europa.eu/eli/reg/2016/679/oj', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 58/2019 — execução do RGPD em Portugal', url: 'https://dre.pt/dre/detalhe/lei/58-2019-123815982', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

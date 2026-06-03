@@ -3,7 +3,7 @@ export default {
   id: 'presente-funeral-coroa',
   categoryId: 'food_leisure',
   title: 'Funeral flowers in Portugal: coroa de flores, ramo and etiquette',
-  tldr: 'In Portugal, people usually send a coroa de flores to a funeral — a funeral wreath on a stand, most often white, cream, lilac or with greenery. A realistic budget in 2026: €40–150 for a coroa, €25–70 for a ramo de flores, €3–10 for a ribbon/card; delivery via Interflora.pt or a local florista is usually on the same day if ordered in the morning. On the card, keep it short: “Sentidas condolências”, “Com amizade” + the family/company name. Money instead of flowers is not usually given, but a missa lembrada may cost around €100.',
+  tldr: 'In Portugal, people usually send a coroa de flores to a funeral — a funeral wreath on a stand, most often white, cream, lilac or with greenery. A realistic budget in 2026: €60–250 for a coroa, €25–70 for a ramo de flores, €3–10 for a ribbon/card; delivery via Interflora.pt or a local florista is usually on the same day if ordered in the morning. On the card, keep it short: “Sentidas condolências”, “Com amizade” + the family/company name. Money instead of flowers is not usually given, but a missa lembrada may cost around €100.',
   tags: ['funeral', 'flowers', 'etiquette', 'coroa'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What exactly to send',
       content: [
         { kind: 'paragraph', text: 'The most recognisable format in Portugal is a coroa de flores: a round funeral wreath on a stand or with a ribbon. It is placed in the capela mortuária, igreja, agência funerária or by the coffin during the velório and cerimónia.' },
-        { kind: 'checklist', items: ['Coroa de flores — the standard choice from family, friends, colleagues or a company; usually €40–150', 'Ramo de flores — a more modest bouquet, appropriate from an acquaintance, neighbour or one colleague; usually €25–70', 'Centro de flores — an arrangement for the ceremony or the family home; often €35–100', 'Ribbon with text — if sent by a group, company or relatives; an additional €3–10', 'Card — a short condolence phrase is almost always enough', 'Missa lembrada — a paid mass in memory of the deceased; a guide price is around €100 if the family is religious and this is customary in their circle'] }
+        { kind: 'checklist', items: ['Coroa de flores — the standard choice from family, friends, colleagues or a company; usually €60–250 (from about €150 on Interflora.pt)', 'Ramo de flores — a more modest bouquet, appropriate from an acquaintance, neighbour or one colleague; usually €25–70', 'Centro de flores — an arrangement for the ceremony or the family home; often €35–100', 'Ribbon with text — if sent by a group, company or relatives; an additional €3–10', 'Card — a short condolence phrase is almost always enough', 'Missa lembrada — a paid mass in memory of the deceased; a guide price is around €100 if the family is religious and this is customary in their circle'] }
       ]
     },
     {
@@ -52,7 +52,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Coroa de flores', amountEURMin: 40, amountEURMax: 150, note: 'Depends on size, flowers, city and delivery urgency' },
+    { label: 'Coroa de flores', amountEURMin: 60, amountEURMax: 250, note: 'Depends on size, flowers, city and delivery urgency; on Interflora.pt wreaths start at around €150' },
     { label: 'Funeral ramo de flores', amountEURMin: 25, amountEURMax: 70, note: 'A modest option from an acquaintance or one person' },
     { label: 'Ribbon or card', amountEURMin: 3, amountEURMax: 10, note: 'Sometimes included in the arrangement price' },
     { label: 'Missa lembrada', amountEUR: 100, note: 'A guide price; the exact amount depends on the paróquia and local practice' }
@@ -80,6 +80,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

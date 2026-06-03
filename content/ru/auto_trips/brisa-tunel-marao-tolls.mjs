@@ -3,7 +3,7 @@ export default {
   id: 'brisa-tunel-marao-tolls',
   categoryId: 'auto_trips',
   title: 'Платные дороги Brisa и Túnel do Marão: тарифы и Via Verde',
-  tldr: 'Brisa управляет ключевыми autoestradas: A1, A2, A5, A6, A8, A9, A14. Оплата обычно через portagem manual: взять билет на въезде и заплатить на выезде, или через Via Verde без остановки. Тариф зависит от класса 1–4: легковая машина почти всегда classe 1, фургон/SUV с высотой у передней оси ≥1,10 м может стать classe 2. Túnel do Marão на A4 оплачивается отдельно: ориентир 2026 — около 7–12 € для крупных классов, легковой класс 1 дешевле. Перед поездкой проверяйте симулятор Brisa/Via Verde.',
+  tldr: 'Brisa управляет ключевыми autoestradas: A1, A2, A5, A6, A8, A9, A14. Оплата обычно через portagem manual: взять билет на въезде и заплатить на выезде, или через Via Verde без остановки. Тариф зависит от класса 1–4: легковая машина почти всегда classe 1, фургон/SUV с высотой у передней оси ≥1,10 м может стать classe 2. Важно: сам Túnel do Marão с 1 января 2025 года бесплатный (Lei n.º 37/2024) — платным остаётся только участок A4 Porto–Amarante под управлением Brisa (ориентир 2026: classe 1 около 4,75 €, до ~12 € для крупных классов). Перед поездкой проверяйте симулятор Brisa/Via Verde.',
   tags: ['portagens', 'brisa', 'viaverde', 'a4'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'Что именно платное',
       content: [
         { kind: 'paragraph', text: 'В Португалии платные дороги называются autoestradas com portagem. У Brisa это классические автомагистрали с шлагбаумами и билетами: A1 Lisboa–Porto, A2 Lisboa–Algarve, A5 Lisboa–Cascais, A6 Marateca–Caia, A8 Lisboa–Leiria, A9 CREL, A14 Figueira da Foz–Coimbra.' },
-        { kind: 'paragraph', text: 'Túnel do Marão — платный участок на A4 между районом Amarante и Vila Real. Это не “городской тоннель”, а часть магистрали через Serra do Marão: при поездках Porto ↔ Trás-os-Montes он часто попадает в маршрут.' },
+        { kind: 'paragraph', text: 'Túnel do Marão — участок A4 между районом Amarante и Vila Real через Serra do Marão. С 1 января 2025 года (Lei n.º 37/2024) сам тоннель и вся «Трансмонтанская» A4 от Amarante до границы стали бесплатными. Платным на A4 остаётся только западный участок Porto (Águas Santas) ↔ Amarante под управлением Brisa: при поездках Porto ↔ Trás-os-Montes именно он попадает в чек.' },
         { kind: 'checklist', items: [
           'A1: основной платный коридор Lisboa ↔ Porto',
           'A2: Lisboa ↔ Algarve, самый частый маршрут на юг',
@@ -21,7 +21,7 @@ export default {
           'A8: Lisboa ↔ Oeste / Leiria',
           'A9: объездная CREL вокруг Lisboa',
           'A14: Figueira da Foz ↔ Coimbra',
-          'A4 / Túnel do Marão: Porto / Amarante ↔ Vila Real / Bragança'
+          'A4: платный участок только Porto (Águas Santas) ↔ Amarante; Túnel do Marão и далее до Bragança с 2025 года бесплатны'
         ] }
       ]
     },
@@ -74,7 +74,7 @@ export default {
           'A8 Lisboa–Leiria, classe 1: ориентир около 9–11 € за длинный проезд',
           'A9 CREL, classe 1: короткие поездки обычно несколько евро, часто 1–4 €',
           'A14 Figueira da Foz–Coimbra, classe 1: обычно несколько евро, примерно 3–5 €',
-          'Túnel do Marão / A4: для classe 2–4 ориентир около 7–12 €; classe 1 обычно ниже, но проверяйте калькулятор перед поездкой'
+          'A4 Porto–Amarante (платный участок Brisa), classe 1: ориентир около 4,75 €; для classe 2–4 до ~12 €. Сам Túnel do Marão и A4 за Amarante бесплатны с 2025 года'
         ] },
         { kind: 'paragraph', text: 'Для classe 2–4 сумма растёт заметно: фургон или campervan может заплатить на 60–150% больше легковой машины на том же маршруте. Поэтому перед поездкой Porto ↔ Algarve или Porto ↔ Vila Real проверка класса экономит реальные деньги.' },
         { kind: 'warning', text: 'Цифры выше — практические ориентиры для планирования бюджета, не юридический тарифный лист. Официальная сумма на день поездки — только в tarifário/simulador Brisa или Via Verde.' }
@@ -118,7 +118,7 @@ export default {
   costs: [
     { label: 'A1 Lisboa–Porto, classe 1', amountEURMin: 24, amountEURMax: 26, note: 'Ориентир за полный маршрут по платной A1; точную сумму считайте в Brisa/Via Verde.' },
     { label: 'A2 Lisboa–Algarve, classe 1', amountEURMin: 23, amountEURMax: 25, note: 'Ориентир до района Algarve по A2; зависит от въезда/выезда.' },
-    { label: 'Túnel do Marão / A4, classe 2–4', amountEURMin: 7, amountEURMax: 12, note: 'Практический диапазон для более крупных классов; classe 1 обычно дешевле.' },
+    { label: 'A4 Porto–Amarante (Brisa)', amountEURMin: 5, amountEURMax: 12, note: 'classe 1 около 4,75 €, крупные классы до ~12 €. Сам Túnel do Marão бесплатен с 2025 года (Lei 37/2024).' },
     { label: 'Via Verde', amountEURMin: 0, amountEURMax: 2, note: 'Portagem оплачивается отдельно; возможна ежемесячная плата/комиссия по выбранному плану.' }
   ],
   sources: [
@@ -126,6 +126,6 @@ export default {
     { title: 'Via Verde — тарифы, идентификатор и оплата portagens', url: 'https://www.viaverde.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Via Verde — планировщик маршрута и cálculo de portagens', url: 'https://www.viaverde.pt/particulares/ferramentas/calculador-de-portagens', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

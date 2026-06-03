@@ -3,7 +3,7 @@ export default {
   id: 'ctt-mail-parcels-advanced',
   categoryId: 'daily_life',
   title: 'CTT — mail forwarding, parcels, online customs clearance',
-  tldr: 'Forwarding when moving: Reencaminhamento Postal — 3 months (€17.55), 6 months (€28.90), 12 months (€51.30).\n\nReserva domiciliária — holding mail at a branch for up to 2 months (€9.60). Parcels from non-EU countries: IVA 23% + customs duty from €150. Customs clearance is done on ctt.pt via "Desalfandegamento Online" in 5 min, fee €5 per parcel + IVA on value+shipping. Lost parcel — CTT online assistant, compensation up to €50.',
+  tldr: 'Forwarding when moving: Reencaminhamento Postal — 3 months (€17.55), 6 months (€28.90), 12 months (€51.30).\n\nReserva domiciliária — holding mail at a branch for up to 2 months (€9.60). Parcels from non-EU countries: IVA 23% + customs duty (the €150 threshold applies until 1 July 2026; after that, an EU transitional fee of €3 per product category). Customs clearance is done on ctt.pt via "Desalfandegamento Online" in 5 min; the CTT fee depends on value (around €12 for parcels €150-1000) + IVA on value+shipping. Lost parcel — CTT online assistant, compensation up to €50.',
   tags: ['ctt', 'post', 'parcels', 'customs clearance'],
   estimatedReadMinutes: 5,
   steps: [
@@ -60,10 +60,10 @@ export default {
           { id: 'p1', title: '💰 Taxes', content: [
             { kind: 'checklist', items: [
               'IVA 23%: charged on ALL parcels from non-EU countries since 1 July 2021 (previously there was a threshold of <€22)',
-              'Customs duty: on goods > €150 (value + shipping). The rate depends on the product TARIC code — 0-17% for most goods, up to 50% for clothing in certain categories',
-              'Additional CTT costs: processing fee €5 + €1-3 for an additional operation',
-              'Example for a €100 parcel (no duty, up to €150): €23 IVA + ~€5 CTT fee = ~€28 additional costs on top of the item value',
-              'Example for a €200 parcel (>€150): ~€46 IVA + ~€24 customs duty (depends on TARIC) + ~€7 CTT fee = ~€77 additional costs'
+              'IMPORTANT — from 1 July 2026: the EU ends the customs-duty exemption for parcels under €150 and introduces a transitional fee of €3 per product category in the parcel (e.g. one silk blouse + two wool ones = 2 categories = €6). The permanent regime starts later (around 2028). IVA 23% still applies as before',
+              'Customs duty (until 1 July 2026): on goods > €150 (value + shipping). The rate depends on the product TARIC code — 0-17% for most goods, up to 50% for clothing in certain categories',
+              'CTT processing fee (desalfandegamento): depends on the value and type of goods; for parcels €150-1000 it is around €12 on average (around €14 for goods at a reduced IVA rate). Check the exact tariff on ctt.pt',
+              'Example for a €200 parcel (>€150): ~€46 IVA + ~€24 customs duty (depends on TARIC) + CTT fee ~€12 = roughly €80 additional costs'
             ]}
           ]},
           { id: 'p2', title: '🛂 How to complete customs clearance', content: [
@@ -95,7 +95,7 @@ export default {
         { kind: 'paragraph', text: 'IOSS (Import One-Stop Shop) — a system introduced in 2021 allowing retailers from non-EU countries to collect IVA at the moment of purchase. For the consumer = trouble-free receipt.' },
         { kind: 'checklist', items: [
           '✅ Amazon.com, AliExpress, eBay, Temu, Shein — IOSS-registered, IVA included in the price, the parcel clears automatically',
-          '✅ Up to €150 — no additional taxes',
+          '✅ Up to €150 — no customs duty (but from 1 July 2026 an EU transitional fee of €3 per product category is added)',
           '❌ Russian shops, Wildberries before sanctions, private sellers — no IOSS, customs clearance is still required',
           '❌ Parcels >€150 — IOSS does not apply, always customs duty + CTT fee'
         ]}
@@ -139,15 +139,16 @@ export default {
     { label: 'Reencaminhamento 6 months', amountEUR: 28.90 },
     { label: 'Reencaminhamento 12 months', amountEUR: 51.30 },
     { label: 'Reserva Domiciliária', amountEUR: 9.60 },
-    { label: 'CTT processing fee', amountEUR: 5, note: 'per parcel' },
+    { label: 'CTT clearance fee (€150-1000)', amountEUR: 12, note: 'depends on goods; ~€14 at reduced IVA' },
+    { label: 'EU per-category fee (from 1 July 2026)', amountEUR: 3, note: 'per product category, parcels under €150' },
     { label: 'IVA on parcels from non-EU countries', amountEUR: 0, note: '23% of value+shipping' },
-    { label: 'Customs duty (>€150)', amountEUR: 0, note: '0-17% of value+shipping' }
+    { label: 'Customs duty (>€150, until 1 July 2026)', amountEUR: 0, note: '0-17% of value+shipping' }
   ],
   sources: [
     { title: 'CTT — Online Customs Clearance', url: 'https://www.ctt.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AT — Customs', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'EU Taxation — IOSS', url: 'https://taxation-customs.ec.europa.eu/ioss_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

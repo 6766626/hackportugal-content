@@ -3,7 +3,7 @@ export default {
   id: 'social-supports',
   categoryId: 'healthcare',
   title: 'Apoio social em Portugal — RSI, subsídios, prestações',
-  tldr: 'Portugal disponibiliza um conjunto amplo de prestações sociais a residentes: RSI (rendimento social de inserção) — complemento até ao montante de referência do agregado familiar (100% da base para o requerente, 70% por cada adulto adicional, 50% por criança); Subsídio de desemprego — cerca de 65% da remuneração de referência, máximo 2,5×IAS (1 342,83 € em 2026), duração segundo a tabela da Segurança Social por idade e carreira contributiva; Porta 65 Jovem — apoio à renda (montante segundo as tabelas do IHRU, sem limite fixo); Tarifa Social Energia Elétrica — cerca de 33,8% de desconto nas componentes tarifárias elegíveis (para gás — tarifa separada de ~31,2%); habitação social — renda segundo a fórmula de renda apoiada. Requisitos: residência legal em PT, verificação de rendimentos/património e, por vezes, período mínimo de contribuições.',
+  tldr: 'Portugal disponibiliza um conjunto amplo de prestações sociais a residentes: RSI (rendimento social de inserção) — complemento até ao montante de referência do agregado familiar (100% da base para o requerente — 247,56 €/mês em 2026, 70% por cada adulto adicional, 50% por criança); Subsídio de desemprego — cerca de 65% da remuneração de referência, máximo 2,5×IAS (1 342,83 € em 2026), duração segundo a tabela da Segurança Social por idade e carreira contributiva; Porta 65 Jovem — apoio à renda (montante segundo as tabelas do IHRU, sem limite fixo); Tarifa Social Energia Elétrica — cerca de 33,8% de desconto nas componentes tarifárias elegíveis (para gás — tarifa separada de ~31,2%); habitação social — renda segundo a fórmula de renda apoiada. Requisitos: residência legal em PT, verificação de rendimentos/património e, por vezes, período mínimo de contribuições.',
   tags: ['rsi', 'subsídio', 'apoio social', 'prestação'],
   estimatedReadMinutes: 7,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O RSI é um complemento até ao montante de referência do agregado familiar para famílias com rendimentos muito baixos. Composição do cálculo: 100% do montante de base para o requerente, 70% para cada adulto adicional, 50% para cada menor; a prestação = esse montante de referência menos os rendimentos considerados do agregado.' },
         { kind: 'checklist', items: [
-          '📊 Montante de base: cerca de 242,8 €/mês para o requerente em 2026 (≈ 45,208% do IAS 537,13 €); +70% desse montante por cada adulto adicional; +50% por cada menor',
+          '📊 Montante de base: cerca de 247,56 €/mês para o requerente em 2026 (≈ 46,09% do IAS 537,13 €); +70% desse montante (≈ 173,29 €) por cada adulto adicional; +50% (≈ 123,78 €) por cada menor',
           '🧾 Condições: rendimento global do agregado < montante-limite; limite de património mobiliário (normalmente ≤ 60× IAS); disponibilidade para trabalhar (há obrigação de procurar trabalho através do IEFP)',
           '📅 Duração: 12 meses, renovação anual se as condições se mantiverem',
           '👨‍👩‍👧 Para estrangeiros: residência legal em Portugal; para cidadãos de países terceiros, a Segurança Social normalmente exige autorização de residência/residência legal há pelo menos 1 ano. Para refugiados e alguns estatutos protegidos — regras especiais (verificar o Guia Prático RSI actualizado)',
@@ -21,7 +21,7 @@ export default {
           '⏱️ Processamento: 30-60 dias',
           '📋 Obrigações: inscrição no IEFP como candidato a emprego, frequência de cursos / entrevistas obrigatórias, não recusar trabalho «adequado»'
         ]},
-        { kind: 'warning', text: 'O subsídio de desemprego, o salário e outros rendimentos são considerados no cálculo do RSI e podem reduzir ou excluir a prestação. O património mobiliário do agregado não deve exceder o limite estabelecido (normalmente 60× IAS)\.\n\nIncumprimento das regras/ocultação de rendimentos = perda do direito e sanções.' }
+        { kind: 'warning', text: 'O subsídio de desemprego, o salário e outros rendimentos são considerados no cálculo do RSI e podem reduzir ou excluir a prestação. O património mobiliário do agregado não deve exceder o limite estabelecido (normalmente 60× IAS).\n\nIncumprimento das regras/ocultação de rendimentos = perda do direito e sanções.' }
       ]
     },
     {
@@ -44,7 +44,7 @@ export default {
               'Máximo: 2,5× IAS = 1 342,83 € em 2026 (sem exceder os limites estabelecidos para a remuneração líquida de referência)',
               'Mínimo: normalmente 1× IAS = 537,13 € em 2026, mas não superior à remuneração líquida de referência; com salário muito baixo, o subsídio pode ser inferior ao IAS',
               'A duração é determinada pela tabela da Segurança Social por idade e carreira contributiva: desde 150 dias para trabalhadores jovens com carreira mínima até 540 dias ou mais com dias adicionais por carreira longa. Consulte a tabela detalhada no Guia Prático Subsídio de Desemprego',
-              'Subsídio social de desemprego disponível em caso de baixo rendimento do agregado; o montante é normalmente 80% do IAS para pessoa isolada ou 100% do IAS para pessoa com agregado; a duração depende da idade/carreira contributiva e de ser atribuído como inicial ou subsequente após o subsídio de desemprego'
+              'Subsídio social de desemprego disponível em caso de baixo rendimento do agregado; o montante é normalmente 80% do IAS (≈ 429,70 € em 2026) para pessoa isolada ou 100% do IAS (537,13 €) para pessoa com agregado; a duração depende da idade/carreira contributiva e de ser atribuído como inicial ou subsequente após o subsídio de desemprego'
             ]}
           ]},
           { id: 'u3', title: 'Pedido', content: [
@@ -141,7 +141,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Montante de base do RSI para o requerente', amountEUR: 242.80, note: '€/mês 2026 (≈ 45,208% × IAS 537,13 €)' },
+    { label: 'Montante de base do RSI para o requerente', amountEUR: 247.56, note: '€/mês 2026 (≈ 46,09% × IAS 537,13 €)' },
     { label: 'Mínimo do Subsídio desemprego', amountEUR: 537.13, note: '€/mês (1× IAS), mas não superior à remuneração líquida de referência' },
     { label: 'Máximo do Subsídio desemprego', amountEUR: 1342.83, note: '€/mês (2,5× IAS 2026)' },
     { label: 'Porta 65 Jovem (renda)', amountEUR: 0, note: 'o montante varia — é calculado pelo simulador do Portal da Habitação segundo a renda elegível e o município' },
@@ -159,6 +159,6 @@ export default {
     { title: 'DGEG — Tarifa Social de Energia Elétrica', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/energia-eletrica/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

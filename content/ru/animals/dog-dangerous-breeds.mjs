@@ -3,7 +3,7 @@ export default {
   id: 'dog-dangerous-breeds',
   categoryId: 'animals',
   title: 'Собаки в Португалии — регистрация, опасные породы, налог',
-  tldr: 'Регистрация собак: SIAC (Sistema de Identificação dos Animais de Companhia) обязательна после установки микрочипа — бесплатно у ветеринара. Муниципальная лицензия (licença canina) — категория по типу собаки: H = cão perigoso, G = cão potencialmente perigoso, обычные категории — для остальных. По DL 315/2009: для cão perigoso/potencialmente perigoso обязательна страховка гражданской ответственности (минимум по закону), намордник + поводок в общественных местах, владелец совершеннолетний и без судимостей по определённым преступлениям. Список potencialmente perigoso (Portaria 422/2004 и обновления): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino и помеси этих пород.',
+  tldr: 'Регистрация собак: SIAC (Sistema de Identificação dos Animais de Companhia) обязательна после установки микрочипа — бесплатно у ветеринара. Муниципальная лицензия (licença canina) — категория по типу собаки: H = cão perigoso, G = cão potencialmente perigoso, обычные категории — для остальных. По DL 315/2009: для cão perigoso/potencialmente perigoso обязательна страховка гражданской ответственности (минимальная сумма — 50 000 €), намордник и поводок в общественных местах, владелец совершеннолетний и без судимостей по определённым преступлениям. Список potencialmente perigoso (Portaria 422/2004 и обновления): Rottweiler, Pit Bull Terrier, Staffordshire Terrier, Tosa Inu, Fila Brasileiro, American Staffordshire Terrier, Dogo Argentino и помеси этих пород.',
   tags: ['собаки', 'животные', 'пёс', 'бойцовские'],
   estimatedReadMinutes: 5,
   steps: [
@@ -24,9 +24,9 @@ export default {
             { kind: 'checklist', items: [
               'Подаётся в Junta de Freguesia по месту жительства',
               'Документы: регистрация в SIAC, вакцинация от бешенства, справка о стерилизации (если стерилизована)',
-              'Стоимость: 5-15 €/год (зависит от муниципалитета; категории A/B — дороже, до 50 €)',
+              'Стоимость: 5-15 €/год (зависит от муниципалитета; категории G/H — дороже, до 50 €)',
               'Жетон (medalha) — кольцо с номером, крепится на ошейник',
-              'Продление ежегодно до 31 марта',
+              'Продление ежегодно (точный срок зависит от freguesia)',
               'Штраф за отсутствие лицензии: 50-250 €'
             ]}
           ]},
@@ -56,9 +56,8 @@ export default {
               'Dogo Argentino',
               'Fila Brasileiro',
               'Tosa Inu (Tosa Japanese)',
-              'Cão de Fila de São Miguel',
               'Метисы этих пород (≥ 50% крови)',
-              'Любая собака, проявившая агрессию к человеку или животному (без провокации), переводится в cão perigoso (категория H) (perigoso) по решению муниципального ветеринара'
+              'Любую собаку, проявившую агрессию к человеку или животному (без провокации), решением муниципального ветеринара переводят в категорию H (cão perigoso)'
             ]}
           ]},
           { id: 'd2', title: 'Требования к владельцу', content: [
@@ -77,7 +76,7 @@ export default {
               'Нельзя на детских площадках, в общественном транспорте, ресторанах',
               'Во дворе: забор ≥ 1.8 м, табличка «cão perigoso»',
               'Прогулка только со взрослым сопровождающим',
-              'Не более 2 собак категории A/B в одном хозяйстве без специальной лицензии'
+              'Не более 2 собак категории G/H в одном хозяйстве без специальной лицензии'
             ]}
           ]},
           { id: 'd4', title: 'Штрафы', content: [
@@ -98,7 +97,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Профессиональное разведение требует регистрации в DGAV (Direção-Geral de Alimentação e Veterinária)',
-          'Разведение категории A/B — запрещено (с 2009) — возможна только стерилизация',
+          'Разведение категории G/H — запрещено (с 2009) — возможна только стерилизация',
           'Продажа без чипа/регистрации — штраф до 3 750 €',
           'Кинологические клубы: Clube Português de Canicultura (cpc.pt) для официальных родословных'
         ]}
@@ -153,17 +152,18 @@ export default {
   costs: [
     { label: 'Микрочип SIAC', amountEURMin: 20, amountEURMax: 40 },
     { label: 'Licença Canina (обычная)', amountEURMin: 5, amountEURMax: 15, note: '€/год' },
-    { label: 'Licença Canina cão perigoso (категория H)/B', amountEURMin: 25, amountEURMax: 50, note: '€/год' },
-    { label: 'Страховка для категорий A/B', amountEURMin: 50, amountEURMax: 200, note: '€/год' },
+    { label: 'Licença Canina cão perigoso/potencialmente perigoso (категории G/H)', amountEURMin: 25, amountEURMax: 50, note: '€/год' },
+    { label: 'Страховка для категорий G/H', amountEURMin: 50, amountEURMax: 200, note: '€/год' },
     { label: 'Вакцинация ежегодная', amountEURMin: 30, amountEURMax: 50 },
     { label: 'Кастрация', amountEURMin: 150, amountEURMax: 500 }
   ],
   sources: [
     { title: 'DGAV — SIAC', url: 'https://www.dgav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DL 315/2009 — cães perigosos (consolidado)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2009-34469975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Portaria 422/2004 — lista de raças potencialmente perigosas', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/422-2004-222996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Lei 69/2014 — maus tratos a animais', url: 'https://diariodarepublica.pt/dr/detalhe/lei/69-2014-56470378', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Clube Português de Canicultura', url: 'https://www.cpc.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

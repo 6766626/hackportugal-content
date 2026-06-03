@@ -3,7 +3,7 @@ export default {
   id: 'relocation-shipping',
   categoryId: 'before_arrival',
   title: 'Shipping belongings to Portugal — container, companies, luggage',
-  tldr: 'Options: (1) sea container 20\' (33 m³) — €3,000-5,000 from Moscow/Kyiv, 4-8 weeks. 40\' — €4,500-7,500, 2 containers per family; (2) groupage cargo (LCL) from €600 for 5 m³; (3) car transporter / furniture van across Europe — €2,000-4,000 from Poland/Germany; (4) EU-to-EU move — specialist movers €800-2,500; (5) airline luggage — from €50/extra suitcase. Customs: personal belongings are duty-free when relocating (Isenção por transferência de residência), AIMA certificate + invoice required.',
+  tldr: 'Options: (1) sea container 20\' (33 m³) — €3,000-5,000 from Moscow/Kyiv, 4-8 weeks. 40\' — €4,500-7,500, 2 containers per family; (2) groupage cargo (LCL) from €600 for 5 m³; (3) car transporter / furniture van across Europe — €2,000-4,000 from Poland/Germany; (4) EU-to-EU move — specialist movers €800-2,500; (5) airline luggage — from €50/extra suitcase. Customs: personal belongings are duty-free when relocating (Isenção por transferência de residência), residence-transfer certificate (from the Portuguese consulate) + invoice required.',
   tags: ['relocation', 'container', 'shipping', 'customs'],
   estimatedReadMinutes: 7,
   steps: [
@@ -84,7 +84,7 @@ export default {
           'Full inventory (Inventário completo): detailed list of belongings with estimated value + photos',
           'Packing list (attached to the inventory)',
           'Transport invoice (from the carrier)',
-          'Certificado de transferência de residência (from the MNE consulate or AIMA)',
+          'Certificado de transferência de residência (from the Portuguese consulate / MNE)',
           'Passport + residence permit',
           'Proof of address in PT (Atestado de Residência / contract)',
           'Bill of lading (sea waybill) or CMR (road consignment note)',
@@ -156,6 +156,6 @@ export default {
     { title: 'Regulation (EC) 1186/2009 — customs reliefs', url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32009R1186', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — vehicle imports', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

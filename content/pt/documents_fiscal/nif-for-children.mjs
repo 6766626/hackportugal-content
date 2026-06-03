@@ -32,7 +32,7 @@ export default {
           'Se for emitido para a criança o Cartão de Cidadão/Nascer Cidadão português, normalmente são atribuídos em conjunto o NIF, o NISS e o Número de Utente',
           'Se a criança continuar a ser cidadã estrangeira, confirme separadamente: NIF — nas Finanças, utente — no centro de saúde, NISS — na Segurança Social/ISS',
           'Os pais recebem a Cédula de Nascimento em formato electrónico ou o Assento de Nascimento',
-          'A nacionalidade da criança depende das leis do país dos pais. Ao abrigo da Lei n.º 37/81 art. 1.º em vigor, uma criança nascida em PT de pais estrangeiros pode ser português de origem se, no momento do nascimento, um dos pais residir em PT há pelo menos 1 ano e não se encontrar ao serviço de um Estado estrangeiro; existem também outros fundamentos especiais. A nova lei da nacionalidade, aprovada em 01.04.2026, aguarda promulgação'
+          'A nacionalidade da criança depende das leis do país dos pais. Desde 19.05.2026 está em vigor a Lei Orgânica n.º 1/2026 (que alterou a Lei n.º 37/81): uma criança nascida em PT de pais estrangeiros pode ser português de origem se, no momento do nascimento, um dos pais residir legalmente em PT há pelo menos 5 anos (anteriormente exigia-se 1 ano) e não se encontrar ao serviço de um Estado estrangeiro; existem também outros fundamentos especiais'
         ]}
       ]
     },
@@ -100,8 +100,8 @@ export default {
     { title: 'IRN — Cartão de Cidadão / Nascer Cidadão', url: 'https://irn.justica.gov.pt/Servicos/Cartao-de-Cidadao', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'AT — Ofício Circulado 90057/2022 (representante fiscal)', url: 'https://info.portaldasfinancas.gov.pt/pt/atualidades/instrucoesadmin/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'HCCH — Estatuto da Convenção da Apostila', url: 'https://www.hcch.net/en/instruments/conventions/status-table/?cid=41', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' },
-    { title: 'Lei n.º 37/81 — Lei da Nacionalidade', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34514475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Lei n.º 37/81 — Lei da Nacionalidade (consolidada, alterada pela Lei Orgânica n.º 1/2026)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/1981-34514475', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -29,9 +29,9 @@ export default {
         { kind: 'checklist', items: [
           'Custo do automóvel na Alemanha: 18 000 €',
           'Transporte (camião porta-automóveis Alemanha → Portugal): 1 200-1 800 € ou condução por conta própria (combustível + motéis ~400 €)',
-          'ISV (imposto sobre a matrícula): 1 500-3 500 € (depende da cilindrada e do CO₂; para um automóvel com 5 anos, redução de 40%)',
-          'Registo no IMT + matrícula: 135 €',
-          'IPO (inspeção técnica): 40 €',
+          'ISV (imposto sobre a matrícula): 1 500-3 500 € (depende da cilindrada e do CO₂; para um automóvel com 5 anos, redução de cerca de 43%)',
+          'Registo no IMT (matrícula): 45 € com COC ou 165 € sem COC',
+          'Inspeção para atribuição de matrícula (cat. B): 93,52 €',
           'Seguro para o primeiro ano: 400-800 €',
           'Total: ~21 500-24 700 €',
           'O mesmo automóvel em Portugal: 23 000-26 000 €',
@@ -69,7 +69,7 @@ export default {
               'Submissão: através do Portal das Finanças (NIF + CMD) → IVA/ISV → DAV',
               'Anexar: COC, contrato, documento alemão do automóvel, VIN, fotografias',
               'A AT calcula o ISV com base nas características',
-              'Pagamento do ISV: cerca de 30 dias para pagar'
+              'Pagamento do ISV: 10 dias úteis a contar da submissão da DAV (com a referência do DUC)'
             ]}
           ]},
           { id: 'p4', title: 'Passo 4: ISV — cálculo e pagamento', content: [
@@ -77,7 +77,7 @@ export default {
               'ISV = Componente Cilindrada (imposto sobre a cilindrada) + Componente Ambiental (imposto sobre CO₂)',
               'Escalão por cilindrada: 10-30 € por cada 250 cm³ em motores de combustão pequenos → 3-4+ € por cm³ para motores grandes',
               'Escalão de CO₂: 5-350 € por cada g/km acima dos valores-limite',
-              'Redução para usados: 5-20% no 1.º ano, até 65% após 5 anos',
+              'Redução para usados (por idade): ~10% com 1 ano, ~43% com 5 anos, máximo de 65% para automóveis com mais de 8 anos',
               '0% ISV: veículos elétricos (BEV)',
               'Tarifa reduzida: PHEV com autonomia >50 km',
               '💡 Simulador: portaldasfinancas.gov.pt → Simuladores → ISV'
@@ -87,17 +87,18 @@ export default {
             { kind: 'checklist', items: [
               'Após o pagamento do ISV — a AT emite o certificado desalfandegamento',
               'Com ele, dirija-se ao IMT (Instituto da Mobilidade e dos Transportes)',
-              'Marcação em portal.imt-ip.pt → Matrícula — taxa 135 €',
+              'Marcação em portal.imt-ip.pt → Matrícula — taxa 45 € com COC, 165 € sem COC',
               'Recebe: Documento Único Automóvel (DUA) + matrículas portuguesas',
               'Prazo: 2-4 semanas'
             ]}
           ]},
-          { id: 'p6', title: 'Passo 6: IPO (inspeção técnica)', content: [
+          { id: 'p6', title: 'Passo 6: Inspeção (para matrícula)', content: [
             { kind: 'checklist', items: [
               'Obrigatória após a importação — em qualquer centro certificado',
-              'Custo: ~40 €',
+              'A atribuição de matrícula exige uma inspeção cat. B (emite o Certificado Modelo 112): ~93,52 € (2026)',
+              'A inspeção periódica obrigatória (IPO) posterior — ~37 € para ligeiros (2026)',
               'Verificam: emissões, travões, luzes, segurança',
-              'O TÜV alemão não conta — é necessário fazer novamente a IPO',
+              'O TÜV alemão não conta — é necessário fazer novamente a inspeção',
               'Normalmente passa sem problemas se o TÜV alemão estiver válido'
             ]}
           ]},
@@ -147,8 +148,8 @@ export default {
     { label: 'Transporte por camião porta-automóveis Alemanha → Portugal', amountEURMin: 1200, amountEURMax: 1800 },
     { label: 'ISV (usado, 5 anos)', amountEURMin: 1500, amountEURMax: 3500, note: 'automóvel médio' },
     { label: 'ISV para veículo elétrico', amountEUR: 0 },
-    { label: 'Matrícula IMT', amountEUR: 135 },
-    { label: 'IPO inspeção técnica', amountEUR: 40 },
+    { label: 'Matrícula IMT', amountEURMin: 45, amountEURMax: 165, note: '45 € com COC, 165 € sem COC' },
+    { label: 'Inspeção para matrícula (cat. B)', amountEUR: 94, note: 'Modelo 112, 2026' },
     { label: 'COC (certificado)', amountEURMin: 200, amountEURMax: 500, note: 'se não for fornecido pelo vendedor' }
   ],
   timelineDaysMin: 30,
@@ -158,6 +159,6 @@ export default {
     { title: 'IMT — Matrícula', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do ISV (DL 22-A/2007)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34525875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

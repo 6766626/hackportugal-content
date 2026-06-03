@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'Что такое Segurança Social Direta',
       content: [
-        { kind: 'paragraph', text: 'Segurança Social Direta, или SSD, — официальный онлайн-кабинет Segurança Social. Это не налоговая Finanças и не AIMA: здесь учитываются социальные взносы, стаж, пособия, пенсии и статусы работника/самозанятого.' },
+        { kind: 'paragraph', text: 'Segurança Social Direta, или SSD, — официальный онлайн-кабинет Segurança Social. Это не налоговая Finanças и не AIMA: здесь отражаются социальные взносы, стаж, пособия, пенсии и статусы работника/самозанятого.' },
         { kind: 'paragraph', text: 'SSD нужен не только тем, кто уже работает. Через портал можно запросить NISS, проверить, платит ли работодатель взносы, подать заявления на пособия, увидеть долги, скачать декларации и управлять данными семьи.' },
         { kind: 'checklist', items: [
           'Запросить NISS для иностранного гражданина',
@@ -95,7 +95,7 @@ export default {
       id: 'benefits-and-services',
       title: 'Пособия, пенсии и serviço doméstico',
       content: [
-        { kind: 'paragraph', text: 'SSD — основной канал для заявлений и отслеживания выплат. Не все пособия «запрашиваются с нуля» вручную: например, больничный часто начинается с Certificado de Incapacidade Temporária, который врач SNS отправляет электронно, а в SSD вы проверяете статус, суммы и недостающие данные.' },
+        { kind: 'paragraph', text: 'SSD — основной канал для заявлений и отслеживания выплат. Не все пособия «запрашиваются с нуля» вручную: например, больничный часто начинается с Certificado de Incapacidade Temporária, который врач SNS отправляет в электронном виде, а в SSD вы проверяете статус, суммы и недостающие данные.' },
         { kind: 'checklist', items: [
           'Subsídio de doença — больничный, если есть необходимый prazo de garantia и электронный CIT',
           'Subsídio de desemprego — пособие по безработице после регистрации в IEFP и при соблюдении стажа',
@@ -141,6 +141,6 @@ export default {
     { title: 'gov.pt — Pedir o Número de Identificação da Segurança Social', url: 'https://www.gov.pt/servicos/pedir-o-numero-de-identificacao-da-seguranca-social-niss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'gov.pt — Pedir a Chave Móvel Digital', url: 'https://www.gov.pt/servicos/pedir-a-chave-movel-digital', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

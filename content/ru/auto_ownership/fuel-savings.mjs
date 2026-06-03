@@ -3,7 +3,7 @@ export default {
   id: 'fuel-savings',
   categoryId: 'auto_ownership',
   title: 'Бензин и дизель — как сэкономить на топливе',
-  tldr: 'Цена на АЗС в континентальной Португалии в 2026 году: бензин 95 (gasolina) 1,70–1,90 €/л, дизель (gasóleo) 1,55–1,75 €/л.\n\nЦены свободные на материке; ERSE публикует еженедельный «preço eficiente» — справочный, необязательный ориентир, а не максимальный потолок.\n\nНа Мадейре и Азорах цены могут быть административно регулируемыми. Разница между дорогими сетями (Galp / BP / Repsol) и дешёвыми (Prio, Intermarché, Continente, Cepsa/Moeve) — до 0,15 €/л. Приложения ComboMais / IdealGás / Tankpreise помогают найти самую дешёвую заправку. Карты лояльности дают скидку 0,05–0,12 €/л.',
+  tldr: 'Цена на АЗС в континентальной Португалии в 2026 году: бензин 95 (gasolina) 1,85–2,05 €/л, дизель (gasóleo) 1,80–2,00 €/л.\n\nЦены свободные на материке; ERSE публикует еженедельный «preço eficiente» — справочный, необязательный ориентир, а не максимальный потолок.\n\nНа Мадейре и Азорах цены могут быть административно регулируемыми. Разница между дорогими сетями (Galp / BP / Repsol) и дешёвыми (Prio, Intermarché, Continente, Cepsa/Moeve) — до 0,15 €/л. Приложения ComboMais / IdealGás / Tankpreise помогают найти самую дешёвую заправку. Карты лояльности дают скидку 0,05–0,12 €/л.',
   tags: ['бензин', 'azs', 'экономия', 'топливо'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,13 +11,13 @@ export default {
       id: 'prices',
       title: '⛽ Цены и разница между сетями',
       content: [
-        { kind: 'paragraph', text: 'Цены в Португалии свободные, но регулируются рынком. Государство публикует еженедельные рекомендованные максимальные цены — все АЗС держатся ниже.' },
+        { kind: 'paragraph', text: 'Цены на материке свободные: каждая сеть устанавливает их сама. Регулятор ERSE еженедельно публикует справочный «эффективный» ориентир (preço eficiente), но это не потолок — фактические цены на АЗС бывают и выше, и ниже него.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Уровни брендов', content: [
             { kind: 'checklist', items: [
-              '🔴 Премиум (Galp, BP, Repsol, ENI, Cepsa/Moeve): 1,75–1,90 €/л — в городах, на магистралях. Обычно немного дороже',
-              '🟡 Средний сегмент (OMV, Prio, BPCarga): 1,65–1,80 €/л — в регионах, реже в центрах',
-              '🟢 Бюджетные (Intermarché АЗС, Continente Auto, Leclerc): 1,55–1,70 €/л — при супермаркетах, часто самые дешёвые'
+              '🔴 Премиум (Galp, BP, Repsol, ENI, Cepsa/Moeve): 1,95–2,10 €/л — в городах, на магистралях. Обычно немного дороже',
+              '🟡 Средний сегмент (OMV, Prio, BPCarga): 1,90–2,00 €/л — в регионах, реже в центрах',
+              '🟢 Бюджетные (Intermarché АЗС, Continente Auto, Leclerc): 1,80–1,95 €/л — при супермаркетах, часто самые дешёвые'
             ]}
           ]},
           { id: 'p2', title: 'Географические различия', content: [
@@ -68,7 +68,7 @@ export default {
             { kind: 'checklist', items: [
               'BP PLUS — скидка 0,06 €/л + кэшбек 0,02 €',
               'Galp Poupa — 0,04–0,08 €/л + кэшбек в Continente',
-              'Repsol — не очень выраженная программа, небольшой кэшбек',
+              'Repsol — программа лояльности слабая, небольшой кэшбек',
               'Prio Card — базовые скидки',
               'Оформление: на АЗС или онлайн, бесплатно'
             ]}
@@ -123,16 +123,16 @@ export default {
     }
   ],
   costs: [
-    { label: 'Бензин (95)', amountEURMin: 1.70, amountEURMax: 1.90, note: '€/л' },
-    { label: 'Дизель', amountEURMin: 1.55, amountEURMax: 1.75, note: '€/л' },
-    { label: 'Премиум (98)', amountEURMin: 1.85, amountEURMax: 2.05, note: '€/л' },
-    { label: 'AutoGás (GPL)', amountEURMin: 0.90, amountEURMax: 1.10, note: '€/л' },
+    { label: 'Бензин (95)', amountEURMin: 1.85, amountEURMax: 2.05, note: '€/л' },
+    { label: 'Дизель', amountEURMin: 1.80, amountEURMax: 2.00, note: '€/л' },
+    { label: 'Премиум (98)', amountEURMin: 2.10, amountEURMax: 2.30, note: '€/л' },
+    { label: 'AutoGás (GPL)', amountEURMin: 0.90, amountEURMax: 1.15, note: '€/л' },
     { label: 'Быстрая зарядка EV DC', amountEURMin: 0.40, amountEURMax: 0.55, note: '€/кВт·ч' }
   ],
   sources: [
     { title: 'ERSE — цены на топливо', url: 'https://www.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGEG — Direção-Geral de Energia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

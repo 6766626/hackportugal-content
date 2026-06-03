@@ -17,9 +17,9 @@ export default {
           'Лучшее время: раннее утро, обычно после ночного/утреннего выхода лодок',
           'Понедельник часто слабее по выбору: часть флота не выходит в воскресенье',
           'После шторма выбор хуже и цены выше',
-          'Самая “местная” рыба — та, что пришла в ближайший порт, а не импортная vitrine bonito',
-          'Просите рыбу “amanhada” — почистить и выпотрошить',
-          'Просите “escamada” — снять чешую',
+          'Самая “местная” рыба — та, что пришла в ближайший порт, а не красивая импортная рыба на витрине',
+          'Просите рыбу “amanhado” — почистить и выпотрошить',
+          'Просите “escamado” — снять чешую',
           'Просите “em postas” — нарезать стейками',
           'Просите “filetes” — филе; не всякая рыба подходит без потерь'
         ] }
@@ -111,6 +111,6 @@ export default {
     { title: 'DGRM — avisos и правила по bivalves и зонам добычи', url: 'https://www.dgrm.pt/web/guest/pesca', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Docapesca — lotas e postos de venda', url: 'https://www.docapesca.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

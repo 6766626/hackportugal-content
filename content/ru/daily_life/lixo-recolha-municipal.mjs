@@ -9,12 +9,12 @@ export default {
   steps: [
     {
       id: 'municipio-first',
-      title: '1. Сначала проверьте свой município, а не “общие правила”',
+      title: '1. Сначала проверьте свой município, а не «общие правила»',
       content: [
         { kind: 'paragraph', text: 'В Португалии нет единого национального расписания вывоза бытового мусора. За ежедневный сбор, контейнеры, графики по улицам, monstros, verdes и ecocentros отвечает Câmara Municipal или муниципальная компания.' },
         { kind: 'checklist', items: [
           'Найдите сайт своей Câmara Municipal: Lisboa — cm-lisboa.pt, Porto — cm-porto.pt.',
-          'Ищите разделы “Higiene Urbana”, “Resíduos Urbanos”, “Recolha de Resíduos”, “Ecopontos”, “Ecocentros”.',
+          'Ищите разделы «Higiene Urbana», «Resíduos Urbanos», «Recolha de Resíduos», «Ecopontos», «Ecocentros».',
           'Проверяйте адрес по улице: в крупных городах график отличается по zona/freguesia и даже по стороне улицы.',
           'Если живёте в condomínio, уточните у administração do condomínio: часто есть свои баки и часы выставления на улицу.',
           'Если снимаете квартиру, спросите landlord о dias de recolha и где именно стоят contentores.',
@@ -25,12 +25,12 @@ export default {
     },
     {
       id: 'five-bin-system',
-      title: '2. Сортировка: 5 основных потоков ♻️',
+      title: '2. Сортировка: пять основных потоков ♻️',
       content: [
-        { kind: 'paragraph', text: 'В 2026 реальная бытовая схема — не “один мусорный бак”, а несколько потоков. Цвета в большинстве муниципалитетов совпадают, но детали по bioresíduos и подземным контейнерам зависят от города.' },
+        { kind: 'paragraph', text: 'В 2026 году реальная бытовая схема — это не «один мусорный бак», а несколько потоков. Цвета в большинстве муниципалитетов совпадают, но детали по bioresíduos и подземным контейнерам зависят от города.' },
         { kind: 'checklist', items: [
           'Azul — бумага и картон: коробки, газеты, бумажные пакеты. Грязная салфетка, жирная коробка от пиццы и бумага с остатками еды — не сюда.',
-          'Amarelo — пластиковая и металлическая упаковка, пакеты, банки, Tetra Pak / embalagens de cartão para alimentos líquidos. Желательно смять, чтобы не занимали объём.',
+          'Amarelo — пластиковая и металлическая упаковка, пакеты, банки, Tetra Pak / embalagens de cartão para alimentos líquidos. Желательно смять, чтобы они занимали меньше места.',
           'Verde — стеклянная тара: бутылки и банки. Керамика, зеркала, лампы, Pyrex и оконное стекло — не сюда.',
           'Castanho — bioresíduos: пищевые отходы и иногда садовая органика. Доступность зависит от município; в некоторых домах дают коричневый контейнер или ключ/карту.',
           'Cinzento / indiferenciado — остаточный мусор: то, что не идёт в переработку и не является опасным отходом.',
@@ -55,7 +55,7 @@ export default {
           'Обрезки растений и ветки — verdes; в Lisboa для них тоже действует отдельная муниципальная схема/заявка, а не обычный бак.',
           'Строительный мусор от ремонта — entulho / resíduos de construção. Это не monstros: нужен ecocentro, saco próprio или лицензированный оператор.'
         ] },
-        { kind: 'warning', text: 'В Лиссабоне оставленный без заявки матрас, диван или шкаф считается deposição indevida. Даже если “все так делают”, штраф и жалоба через fiscalização возможны.' }
+        { kind: 'warning', text: 'В Лиссабоне оставленный без заявки матрас, диван или шкаф считается deposição indevida. Даже если «все так делают», возможны штраф и жалоба через fiscalização.' }
       ]
     },
     {
@@ -67,7 +67,7 @@ export default {
           'На cm-porto.pt ищите “Ambiente”, “Resíduos”, “Recolha de Monstros”, “Ecocentros” или “Porto Ambiente”.',
           'Для мебели, матрасов, бытовой техники и verdes используйте pedido de recolha; не оставляйте улично без подтверждения.',
           'Если рядом нет ecoponto нужного цвета, ищите карту ecopontos/ecocentros на сайте município.',
-          'В малых городах часто действует сбор “porta-a-porta” по дням недели: контейнер или мешок выставляют вечером перед конкретным днём.',
+          'В малых городах часто действует сбор «porta-a-porta» по дням недели: контейнер или мешок выставляют вечером накануне нужного дня.',
           'В исторических центрах Lisboa, Porto, Coimbra, Évora, Braga могут быть подземные контейнеры или ограниченные часы из-за узких улиц.',
           'В туристических зонах fiscalização активнее: жалобы на мусор часто подают соседи, condomínio и Junta de Freguesia.'
         ] }
@@ -85,7 +85,7 @@ export default {
           'Лекарства, сиропы, блистеры и коробки от лекарств — VALORMED в аптеке.',
           'Краски, растворители, масла, химия, пестициды — ecocentro или специальная municipal recolha.',
           'Строительный мусор, плитка, цемент, сантехника после ремонта — не бытовой lixo; оформляйте через ecocentro/оператора.',
-          'Одежда и обувь — textile containers, charity, lojas sociais; грязный текстиль без вариантов идёт в indiferenciado.',
+          'Одежда и обувь — textile containers, charity, lojas sociais; грязный текстиль при отсутствии других вариантов идёт в indiferenciado.',
           'Шприцы и медицинские отходы — уточняйте у farmácia/centro de saúde; не выбрасывайте иглы в обычный пакет.'
         ] }
       ]
@@ -119,6 +119,6 @@ export default {
     { title: 'Agência Portuguesa do Ambiente — resíduos urbanos и separação de resíduos', url: 'https://apambiente.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — serviços municipais e gestão de resíduos', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

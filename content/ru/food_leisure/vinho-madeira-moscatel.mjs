@@ -2,9 +2,9 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'vinho-madeira-moscatel',
   categoryId: 'food_leisure',
-  title: 'Vinho da Madeira и Moscatel: португальские fortified vintages',
-  tldr: 'Vinho da Madeira и Moscatel de Setúbal — креплёные вина, но это не «ещё один портвейн». Madeira бывает от сухого Sercial до сладкой Malvasia/Malmsey, выдержки 5, 10, 15, 20, 30, 40 и 50 лет; нормальная цена в 2026: 10 years за 18–35 €, 20 years за 70–130 €. Moscatel de Setúbal DOP обычно дешевле: базовый 5–9 €, 10 years 18–35 €, редкий Moscatel Roxo дороже. Смотрите DOP/сelo, сорт, возраст и способ выдержки.',
-  tags: ['vinho', 'madeira', 'moscatel', 'dоп'],
+  title: 'Vinho da Madeira и Moscatel: португальские креплёные вина',
+  tldr: 'Vinho da Madeira и Moscatel de Setúbal — креплёные вина, но это не «ещё один портвейн». Madeira бывает от сухого Sercial до сладкой Malvasia/Malmsey, выдержки 5, 10, 15, 20, 30, 40 и 50 лет; нормальная цена в 2026: 10 years за 18–35 €, 20 years за 70–130 €. Moscatel de Setúbal DOP обычно дешевле: базовый 5–9 €, 10 years 18–35 €, редкий Moscatel Roxo дороже. Смотрите DOP/selo, сорт, возраст и способ выдержки.',
+  tags: ['vinho', 'madeira', 'moscatel', 'dop'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -116,6 +116,6 @@ export default {
     { title: 'IVV: Instituto da Vinha e do Vinho — вина Portugal и DOP/IGP', url: 'https://www.ivv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Vitivinícola Regional da Península de Setúbal — Moscatel de Setúbal', url: 'https://vinhosdesetubal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

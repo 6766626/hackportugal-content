@@ -3,7 +3,7 @@ export default {
   id: 'outlet-fashion-portugal',
   categoryId: 'daily_life',
   title: 'Outlet centres in Portugal: Freeport Lisboa, Algarve Designer Outlet, Porto and Setúbal',
-  tldr: 'In Portugal, the outlet format is not “Black Friday every day”, but past collections with discounts usually of 30–70%. The main locations for 2026: Freeport Lisboa Fashion Outlet in Alcochete — the largest, with around 130 shops; Algarve Designer Outlet in Loulé; Vila do Conde Porto Fashion Outlet near Porto; Discoveries Outlet in Setúbal. MAR Shopping Matosinhos/Porto is a convenient large shopping centre, but not an outlet. Best buys: Nike, Adidas, Levi’s, Guess, Tommy Hilfiger, sports shoes, jeans, basic clothing.',
+  tldr: 'In Portugal, the outlet format is not “Black Friday every day”, but past collections with discounts usually of 30–70%. The main locations for 2026: Freeport Lisboa Fashion Outlet in Alcochete — the largest, with around 150 shops; Algarve Designer Outlet in Loulé; Vila do Conde Porto Fashion Outlet near Porto; Discoveries Outlet in Setúbal. MAR Shopping Matosinhos/Porto is a convenient large shopping centre, but not an outlet. Best buys: Nike, Adidas, Levi’s, Guess, Tommy Hilfiger, sports shoes, jeans, basic clothing.',
   tags: ['outlet', 'shopping', 'clothing', 'porto', 'algarve'],
   estimatedReadMinutes: 5,
   steps: [
@@ -20,7 +20,7 @@ export default {
       id: 'freeport-lisboa',
       title: 'Freeport Lisboa Fashion Outlet — the main option near Lisboa',
       content: [
-        { kind: 'paragraph', text: 'Freeport Lisboa Fashion Outlet is in Alcochete, across the Vasco da Gama bridge. It is the largest outlet in Portugal: around 130 shops, an open-air “village” with streets, restaurants and a large car park. The format is convenient if you live in Lisboa, Setúbal, Montijo, Almada or are coming by car.' },
+        { kind: 'paragraph', text: 'Freeport Lisboa Fashion Outlet is in Alcochete, across the Vasco da Gama bridge. It is the largest outlet in Portugal: around 150 shops, an open-air “village” with streets, restaurants and a large car park. The format is convenient if you live in Lisboa, Setúbal, Montijo, Almada or are coming by car.' },
         { kind: 'checklist', items: ['Strong categories: sportswear and shoes, denim, casualwear, bags, children’s clothing.', 'People often look for Nike, Adidas, Levi’s, Guess, Tommy Hilfiger, Calvin Klein, Pepe Jeans, Lacoste — the tenant mix changes, so check the website before travelling.', 'By car from Lisboa it usually takes 25–40 minutes without traffic; on Friday evenings and at weekends the Vasco da Gama bridge can slow the journey down significantly.', 'Without a car, check the current shuttle/bus on the Freeport website: timetables and departure points change.', 'Parking is usually easier than in city shopping centres, but during Saldos and before Natal, arrive in the morning.', 'There are restaurants, but this is not a foodie destination: if you are going with children, plan a break in advance.' ] },
         { kind: 'paragraph', text: 'Freeport is the best choice for “buy everything in one day”: trainers, jeans, a jacket, a suitcase, children’s clothing. For luxury and rare designer brands, it is better to lower expectations: this is a mass-market outlet, not Bicester Village.' }
       ]
@@ -29,7 +29,7 @@ export default {
       id: 'algarve-loule',
       title: 'Algarve Designer Outlet in Loulé — convenient for Faro, Vilamoura and Albufeira',
       content: [
-        { kind: 'paragraph', text: 'Algarve Designer Outlet is located in Loulé next to Mar Shopping Algarve and IKEA Algarve. It is the main outlet in the Algarve region: it is easy to combine with a large shopping centre, groceries, furniture and a trip from Faro, Quarteira, Vilamoura, Albufeira or Tavira.' },
+        { kind: 'paragraph', text: 'Algarve Designer Outlet is located in Loulé next to MAR Shopping Algarve and IKEA Algarve. It is the main outlet in the Algarve region: it is easy to combine with a large shopping centre, groceries, furniture and a trip from Faro, Quarteira, Vilamoura, Albufeira or Tavira.' },
         { kind: 'checklist', items: ['Suitable for expat life in the Algarve: no need to go to Lisboa for Nike/Adidas/Levi’s and casual brands.', 'By car from Faro it usually takes around 15–25 minutes, from Albufeira around 30–40 minutes without summer traffic.', 'In summer and in August, the tourist flow is higher: arrive at opening time or closer to the evening.', 'The outlet + MAR Shopping Algarve combination is convenient for a family: one person goes for clothes, the other to the normal shopping centre or IKEA.', 'Check seasonal campaigns on the website: in the Algarve, sales are often tied to the tourist season, not only to Portuguese Saldos.', 'If you need a beach wardrobe, suitcases, sports shoes and basic clothing, this is the most practical outlet in the south.' ] },
         { kind: 'warning', text: 'Do not confuse Algarve Designer Outlet with the normal shops in MAR Shopping Algarve. In one complex there may be outlet prices and normal retail prices; compare item codes and the final amount.' }
       ]
@@ -64,7 +64,7 @@ export default {
   sources: [
     {
       title: 'Official website of Freeport Lisboa Fashion Outlet',
-      url: 'https://www.freeport.pt',
+      url: 'https://www.freeportfashionoutlet.pt',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -78,7 +78,7 @@ export default {
     },
     {
       title: 'Official website of Vila do Conde Porto Fashion Outlet',
-      url: 'https://www.viladocondeportofashionoutlet.pt',
+      url: 'https://www.viladocondefashionoutlet.pt',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -91,6 +91,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

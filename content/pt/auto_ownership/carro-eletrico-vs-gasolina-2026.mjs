@@ -71,7 +71,7 @@ export default {
           'Gasolina: IUC frequentemente 120–300 €/ano para modelos generalistas, mas pode ser superior em SUV potentes.',
           'O IVA não é recuperável para um particular; para empresas e ENI podem aplicar-se regras, limites e tributação autónoma específicos.',
           'Fundo Ambiental: em 2026, a referência para uma pessoa singular é apoio até 4 000 € na compra de BEV, se cumpridas as condições do programa.',
-          'O subsídio não é automático: é necessário haver aviso aberto, orçamento, documentos da compra e cumprimento do limite de preço do automóvel.',
+          'O subsídio não é automático: é necessário haver aviso aberto, orçamento, documentos da compra e cumprimento do limite de preço do automóvel (no aviso 2026, até 38 500 € para automóveis até 5 lugares).',
           'A compra antes da abertura ou fora das condições do aviso pode não dar direito ao pagamento.',
           'O dinheiro do Fundo Ambiental pode esgotar-se antes do prazo — trate o vale como um bónus, não como um desconto garantido.'
         ] },
@@ -129,6 +129,6 @@ export default {
     { title: 'Autoridade Tributária — IUC e ISV no Portal das Finanças', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE — Tarifas e Preços Mobilidade Elétrica', url: 'https://www.erse.pt/mobilidade-eletrica/tarifas-e-precos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

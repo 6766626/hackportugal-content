@@ -44,7 +44,7 @@ export default {
       id: 'documents',
       title: 'Documents: what to prepare in advance',
       content: [
-        { kind: 'paragraph', text: 'The exact list of documents depends on your basis: resident, student or worker. Before applying, check the current form on the cm-porto.pt website, because CMP may change the method of proof and digital channels.' },
+        { kind: 'paragraph', text: 'The exact list of documents depends on your basis: resident, student or worker. Before applying, check the current form on the cartao.porto.pt website, because CMP may change the method of proof and digital channels.' },
         { kind: 'checklist', items: [
           'Documento de identificação: residence permit, passport, Cartão de Cidadão or another acceptable ID',
           'NIF',
@@ -63,8 +63,8 @@ export default {
       title: 'How to apply 📝',
       content: [
         { kind: 'substeps', items: [
-          { id: 'check-page', title: '1. Open the Cartão Porto. section on the CMP website', content: [
-            { kind: 'paragraph', text: 'Start with the official Câmara Municipal do Porto website. Look for the Cartão Porto. section or benefícios Cartão Porto. Do not use tourist Porto Card pages: that is a different product.' }
+          { id: 'check-page', title: '1. Open the official Cartão Porto. website', content: [
+            { kind: 'paragraph', text: 'Start with the official cartao.porto.pt portal. Look for the Cartão Porto. section or benefícios Cartão Porto. Do not use tourist Porto Card pages: that is a different product.' }
           ] },
           { id: 'create-profile', title: '2. Create or confirm your profile', content: [
             { kind: 'paragraph', text: 'If an online application is available, fill in your details, upload the documents and check your email. In some cases, CMP may refer you to atendimento municipal or request additional evidence.' }
@@ -85,7 +85,7 @@ export default {
       id: 'benefits',
       title: 'What benefits to realistically expect',
       content: [
-        { kind: 'paragraph', text: 'The purpose of Cartão Porto. is municipal benefits, not a universal discount card for everything. The list of partners and rules changes, so before buying a ticket or subscription, check the specific venue on cm-porto.pt.' },
+        { kind: 'paragraph', text: 'The purpose of Cartão Porto. is municipal benefits, not a universal discount card for everything. The list of partners and rules changes, so before buying a ticket or subscription, check the specific venue on cartao.porto.pt.' },
         { kind: 'checklist', items: [
           'Discounts or reduced-price access to CMP cultural venues',
           'Benefits for Teatro Municipal do Porto events and other municipal programmes, if they are included in the current list',
@@ -118,17 +118,17 @@ export default {
     }
   ],
   costs: [
-    { label: 'Cartão Porto.', amountEUR: 0, note: 'CMP municipal card for eligible residents/students/workers; check the current issue conditions on cm-porto.pt.' },
+    { label: 'Cartão Porto.', amountEUR: 0, note: 'CMP municipal card for eligible residents/students/workers; check the current issue conditions on cartao.porto.pt.' },
     { label: 'Issuing a personalised Andante card', amountEUR: 6, note: 'Indicative cost for a physical personalised Andante card; Cartão Porto. itself does not replace it.' },
     { label: 'Andante Municipal', amountEUR: 30, note: 'Standard monthly pass for one municipal zone; separate Sub23 benefits may apply to students.' },
     { label: 'Andante Metropolitano', amountEUR: 40, note: 'Standard monthly pass for Área Metropolitana do Porto; it is not part of Cartão Porto.' }
   ],
   sources: [
-    { title: 'Câmara Municipal do Porto — Cartão Porto.', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Cartão Porto. — site oficial', url: 'https://cartao.porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Câmara Municipal do Porto — municipal services and benefits', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Andante — passes, tickets and personalised card', url: 'https://andante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Movijovem — Cartão Jovem', url: 'https://www.cartaojovem.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

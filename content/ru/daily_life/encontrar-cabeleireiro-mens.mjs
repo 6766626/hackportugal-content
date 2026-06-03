@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'encontrar-cabeleireiro-mens',
   categoryId: 'daily_life',
-  title: 'Тёщины салоны и дешёвые barbeiros: где стричься за 5–10 €',
-  tldr: 'В 2026 мужская стрижка в сетевом салоне Лиссабона легко стоит 18–35 €, но дешёвые barbeiros всё ещё есть: Mouraria/Intendente/Anjos — обычно 5–10 €, Porto Bonfim/Cedofeita — 6–12 €, в Sintra/Amadora/Almada чаще 7–12 €. Ищите вывески “barbeiro”, “corte homem”, “corte máquina”, заходите без записи и платите наличными. Treatwell.pt удобен для брони, но чаще показывает средний сегмент от 12–20 €.',
+  title: 'Районные салоны и дешёвые barbeiros: где стричься за 5–10 €',
+  tldr: 'В 2026 году мужская стрижка в сетевом салоне Лиссабона легко стоит 18–35 €, но дешёвые barbeiros всё ещё есть: Mouraria/Intendente/Anjos — обычно 5–10 €, Porto Bonfim/Cedofeita — 6–12 €, в Sintra/Amadora/Almada чаще 7–12 €. Ищите вывески “barbeiro”, “corte homem”, “corte máquina”, заходите без записи и платите наличными. Treatwell.pt удобен для записи, но чаще показывает средний сегмент — от 12–20 €.',
   tags: ['barbeiro', 'стрижка', 'lisboa', 'porto'],
   estimatedReadMinutes: 4,
   steps: [
@@ -28,7 +28,7 @@ export default {
       id: 'street-search',
       title: 'Как искать на улице',
       content: [
-        { kind: 'paragraph', text: 'Лучший метод — пройти 2–3 квартала вокруг метро/рынка/автобусного узла и смотреть не на дизайн, а на бумажный прайс в окне. По португальским правилам цена услуги должна быть понятна клиенту до покупки; если прайса нет, спросите до посадки в кресло.' },
+        { kind: 'paragraph', text: 'Лучший метод — пройти 2–3 квартала вокруг метро, рынка или автобусного узла и смотреть не на дизайн, а на бумажный прайс в витрине. По португальским правилам цена услуги должна быть понятна клиенту до покупки; если прайса нет, спросите, прежде чем сесть в кресло.' },
         { kind: 'checklist', items: [
           'Ищите вывески: “Barbeiro”, “Cabeleireiro Homem”, “Corte Homem”, “Corte Máquina”, “Barbearia”.',
           'Слова “studio”, “premium”, “concept”, “gentlemen club” почти всегда означают цену выше 15–20 €.',
@@ -46,7 +46,7 @@ export default {
       id: 'treatwell',
       title: 'Treatwell.pt: удобно, но не всегда дёшево',
       content: [
-        { kind: 'paragraph', text: 'Treatwell.pt — главный агрегатор записи в салоны в Португалии. Он удобен, если вы не говорите по-португальски, хотите видеть рейтинг, адрес, свободное время и оплату/бронь онлайн. Но самые дешёвые “тёщины” салоны за 5–8 € часто там не представлены.' },
+        { kind: 'paragraph', text: 'Treatwell.pt — главный агрегатор записи в салоны в Португалии. Он удобен, если вы не говорите по-португальски, хотите видеть рейтинг, адрес, свободное время и оплату/бронь онлайн. Но самые дешёвые районные салоны за 5–8 € часто там не представлены.' },
         { kind: 'checklist', items: [
           'Откройте Treatwell.pt и выберите “Corte de cabelo homem” или “Barbearia”.',
           'Фильтруйте по району, а не по “Lisboa centro”: Anjos, Arroios, Alameda, Benfica, Bonfim, Cedofeita.',
@@ -104,6 +104,6 @@ export default {
     { title: 'Livro de Reclamações — официальная электронная книга жалоб', url: 'https://www.livroreclamacoes.pt/Inicio/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Direção-Geral do Consumidor — права потребителей и информация о ценах', url: 'https://www.consumidor.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

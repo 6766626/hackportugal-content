@@ -3,7 +3,7 @@ export default {
   id: 'subsidio-funeral-ss',
   categoryId: 'emergency_rights',
   title: 'Subsídio de Funeral — funeral grant from Segurança Social',
-  tldr: 'Subsídio de Funeral is a one-off Segurança Social payment covering part of funeral costs: in 2026 the standard amount is €219.96. The application is submitted within 6 months of the death via Segurança Social Direta / gov.pt or at a balcão da Segurança Social. For a spouse, children, parents and other direct relatives, this is not a means test: what matters is the family relationship, proof that the funeral was paid for, and the deceased person’s status as a beneficiário da Segurança Social.',
+  tldr: 'Subsídio de Funeral is a one-off Segurança Social payment covering part of funeral costs: in 2026 the standard amount is €261.25. The application is submitted within 6 months of the death (counted from the first day of the month following the death) via Segurança Social Direta / gov.pt or at a balcão da Segurança Social. For a spouse, children, parents and other direct relatives, this is not a means test: what matters is the family relationship, proof that the funeral was paid for, and the deceased person’s status as a beneficiário da Segurança Social.',
   tags: ['funeral', 'segurança-social', 'grant', 'niss'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-it-is',
       title: 'What this payment is',
       content: [
-        { kind: 'paragraph', text: 'Subsídio de Funeral is not compensation for the full cost of a funeral, but a fixed one-off Segurança Social support payment. As of April 2026, the amount on the official Segurança Social page is €219.96.' },
+        { kind: 'paragraph', text: 'Subsídio de Funeral is not compensation for the full cost of a funeral, but a fixed one-off Segurança Social support payment. For 2026, the amount on the official Segurança Social page is €261.25.' },
         { kind: 'paragraph', text: 'It is usually requested by the person who paid for the funeral of the deceased beneficiário da Segurança Social: a spouse/partner in união de facto, child, parent or another direct-line relative. For these close relatives, the payment is not means-tested: Segurança Social does not assess your income as a condition of entitlement.' },
         { kind: 'warning', text: 'Do not confuse it with subsídio por morte or reembolso de despesas de funeral. Subsídio por morte is a separate, larger payment to surviving family members when an insured person/pensioner dies. Reembolso de despesas de funeral applies in other scenarios and depends on the actual costs. If you are not sure, apply through the gov.pt/Segurança Social service: the system and the officer will direct you to the correct form.' }
       ]
@@ -53,10 +53,10 @@ export default {
       id: 'deadline-and-application',
       title: 'Deadline and application',
       content: [
-        { kind: 'paragraph', text: 'The application must be submitted within 6 months of the death. Do not wait for inheritance procedures to finish: the grant is linked to funeral expenses and the application deadline, not to partilha de herança.' },
+        { kind: 'paragraph', text: 'The application must be submitted within 6 months, counted from the first day of the month following the death. Do not wait for inheritance procedures to finish: the grant is linked to funeral expenses and the application deadline, not to partilha de herança.' },
         { kind: 'substeps', items: [
           { id: 'online', title: 'Online via gov.pt / Segurança Social Direta', content: [
-            { kind: 'paragraph', text: 'Go to the “Pedir o subsídio de funeral” service on gov.pt. Login is usually via Chave Móvel Digital (CMD), Cartão de Cidadão or access to Segurança Social Direta.' },
+            { kind: 'paragraph', text: 'Go to the “Requerer o subsídio de funeral à Segurança Social” service on gov.pt. Login is usually via Chave Móvel Digital (CMD), Cartão de Cidadão or access to Segurança Social Direta.' },
             { kind: 'checklist', items: [
               'Check your details: name, NISS, NIF, address, IBAN.',
               'Enter the deceased person’s details and date of death.',
@@ -84,12 +84,12 @@ export default {
           'If the deceased person was receiving a pension, clarify the termination of the pension and any possible survivor benefits.',
           'Keep funeral invoices for at least several years: they may be needed for inheritance or tax matters.'
         ] },
-        { kind: 'warning', text: 'The grant is small — €219.96, while the average funeral agency invoice in Portugal is often significantly higher. Do not plan the funeral on the assumption that Segurança Social will cover the costs in full.' }
+        { kind: 'warning', text: 'The grant is small — €261.25, while the average funeral agency invoice in Portugal is often significantly higher. Do not plan the funeral on the assumption that Segurança Social will cover the costs in full.' }
       ]
     }
   ],
   costs: [
-    { label: 'Subsídio de Funeral', amountEUR: 219.96, note: 'Fixed one-off Segurança Social payment as of April 2026.' },
+    { label: 'Subsídio de Funeral', amountEUR: 261.25, note: 'Fixed one-off Segurança Social payment in 2026.' },
     { label: 'Application submission', amountEUR: 0, note: 'No state fee is charged via gov.pt/Segurança Social Direta or at a balcão da Segurança Social.' }
   ],
   sources: [
@@ -98,16 +98,16 @@ export default {
       url: 'https://www.seg-social.pt/subsidio-de-funeral',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     },
     {
-      title: 'gov.pt: Request the funeral grant',
-      url: 'https://www.gov.pt/servicos/pedir-o-subsidio-de-funeral',
+      title: 'gov.pt: Requerer o subsídio de funeral à Segurança Social',
+      url: 'https://www.gov.pt/servicos/requerer-o-subsidio-de-funeral-a-seguranca-social',
       kind: 'official',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

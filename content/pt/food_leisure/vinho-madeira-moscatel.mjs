@@ -16,24 +16,24 @@ export default {
           'Vinho da Madeira — ilha da Madeira, controlado pelo IVBAM; procure “Madeira” / “Vinho da Madeira” e selo de garantia.',
           'Moscatel de Setúbal — DOP Setúbal / Península de Setúbal; procure DOP, Moscatel de Setúbal ou Moscatel Roxo.',
           'A Madeira aguenta melhor uma garrafa aberta: devido ao envelhecimento oxidativo, pode ficar semanas ou meses sem perda brusca de qualidade.',
-          'O Moscatel, depois de, também é mais estável do que um vinho comum, mas é mais aromático se for bebido em 2–6 semanas; guarde no frigorífico.',
+          'O Moscatel, depois de aberto, também é mais estável do que um vinho comum, mas é mais aromático se for bebido em 2–6 semanas; guarde no frigorífico.',
           'Ambos os vinhos bebem-se em pequenas doses de 60–90 ml, não como vinho tinto de mesa.',
-          'Para oferecer, é mais seguro escolher Madeira  years ou Moscatel Roxo 10 years: têm aspeto sério, mas ainda não custam como garrafas de coleção.'
+          'Para oferecer, é mais seguro escolher Madeira 10 years ou Moscatel Roxo 10 years: têm aspeto sério, mas ainda não custam como garrafas de coleção.'
         ] }
       ]
     },
     {
       id: 'madeira-styles',
-      title: 'Vinho da Madeira: Sercial, Verdelho,ual, Malmsey',
+      title: 'Vinho da Madeira: Sercial, Verdelho, Bual, Malmsey',
       content: [
-        { kind: 'paragraph', text: 'A escala clássica da Madeira lê-se pela casta e pela doçura. Na prateleira do supermercado também encontrará muitas vezes Tinta Negra — uma casta de trabalho, usada para produzir muita Madeiraível. Isto não é automaticamente mau: nos bons produtores, uma Tinta Negra 5–10 years pode ser uma excelente compra.' },
+        { kind: 'paragraph', text: 'A escala clássica da Madeira lê-se pela casta e pela doçura. Na prateleira do supermercado também encontrará muitas vezes Tinta Negra — uma casta de trabalho, usada para produzir muita Madeira acessível. Isto não é automaticamente mau: nos bons produtores, uma Tinta Negra 5–10 years pode ser uma excelente compra.' },
         { kind: 'checklist', items: [
-          'Sercial — o estilo mais seco; limão, amêndoa, salinidade. B como aperitivo, com azeitonas, queijos, amêndoas.',
+          'Sercial — o estilo mais seco; limão, amêndoa, salinidade. Beba como aperitivo, com azeitonas, queijos, amêndoas.',
           'Verdelho — medium dry; mais corpo, caramelo, frutos secos, citrinos. Funciona bem com sopas, cogumelos, peixe fumado.',
-          'Bual / Boal — medium sweet; frutos secos, figo, caramelo.átil com sobremesas sem excesso de açúcar.',
+          'Bual / Boal — medium sweet; frutos secos, figo, caramelo. Versátil com sobremesas sem excesso de açúcar.',
           'Malvasia / Malmsey — estilo doce; melaço, café, chocolate, tâmaras. Com chocolate, bolo de mel, queijos azuis.',
           'Tinta Negra — pode ser lançada em vários níveis de doçura; confirme as palavras dry, medium dry, medium sweet, sweet.',
-          'Terrantez e Bastardo — castas raras; normalmente mais caras e mais interessantes para entusiastas de do que para uma primeira garrafa.'
+          'Terrantez e Bastardo — castas raras; normalmente mais caras e mais interessantes para entusiastas de vinho do que para uma primeira garrafa.'
         ] },
         { kind: 'warning', text: 'Não compre Madeira apenas pela palavra “old” num rótulo bonito. Para qualidade previsível, procure uma categoria de idade concreta: 5, 10, 15, 20, 30, 40 ou 50 years / anos, ou Colheita / Frasqueira com o ano de vindima.' }
       ]
@@ -116,6 +116,6 @@ export default {
     { title: 'IVV: Instituto da Vinha e do Vinho — vinhos de Portugal e DOP/IGP', url: 'https://www.ivv.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Vitivinícola Regional da Península de Setúbal — Moscatel de Setúbal', url: 'https://vinhosdesetubal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

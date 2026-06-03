@@ -3,7 +3,7 @@ export default {
   id: 'theme-parks-pt',
   categoryId: 'food_leisure',
   title: 'Parques temáticos e parques de diversões em Portugal (2026)',
-  tldr: 'Os principais parques temáticos de Portugal: KidZania (UBBO, Lisboa) — uma “cidade das profissões” para crianças dos 3 aos 15 anos, 24,50 € / criança; Dino Parque Lourinhã — dinossauros em tamanho real, 16 € adulto / 12 € crianças dos 4 aos 12 anos; Magikland (Penafiel, Norte de Portugal) — parque de diversões com montanhas-russas, 19 € / 12,50 €; Sea Life Porto — oceanário na praia da Foz. Zoomarine Algarve (distinto dos parques aquáticos) — parque marinho com golfinhos, espetáculos e diversões. Compra online — desconto de 10%. A maioria funciona durante todo o ano; no verão — horários alargados.',
+  tldr: 'Os principais parques temáticos de Portugal: KidZania (UBBO, Lisboa) — uma “cidade das profissões” para crianças dos 3 aos 15 anos, 24,50 € / criança; Dino Parque Lourinhã — dinossauros em tamanho real, 16 € adulto / 12 € crianças dos 4 aos 12 anos; Magikland (Penafiel, Norte de Portugal) — parque de diversões com montanhas-russas, a partir de 22,50 € / a partir de 14 €; Sea Life Porto — oceanário na praia da Foz. Zoomarine Algarve (distinto dos parques aquáticos) — parque marinho com golfinhos, espetáculos e diversões. Compra online — desconto de 10%. A maioria funciona durante todo o ano; no verão — horários alargados.',
   tags: ['parque temático', 'crianças', 'atrações', 'kidzania'],
   estimatedReadMinutes: 7,
   steps: [
@@ -26,7 +26,7 @@ export default {
       id: 'kidzania',
       title: 'KidZania Lisboa — “cidade das profissões” para crianças',
       content: [
-        { kind: 'paragraph', text: 'O grande destaque: crianças no papel de adultos. Profissões — bombeiro, médico, jornalista, piloto, banqueiro, chefe de cozinha, ator. Elas “ganham” a moeda local kidZos e podem “gastá-la” nas lojas dentro do parque. Idade — 3-15 anos; os mais pequenos (3-4) vão com um acompanhante, as crianças dos 5 aos 15 — autonomamente, os pais aguardam na zona lounge (há Wi-Fi, café).' },
+        { kind: 'paragraph', text: 'O grande destaque: crianças no papel de adultos. Profissões — bombeiro, médico, jornalista, piloto, banqueiro, chefe de cozinha, ator. Elas “ganham” a moeda local kidZos e podem “gastá-la” nas lojas dentro do parque. Idade — 3-15 anos; as crianças com menos de 8 anos têm de ser acompanhadas por um adulto e, a partir dos 8 anos, a criança circula pelo parque de forma autónoma (mas um adulto tem sempre de a entregar e ir buscá-la), enquanto os pais aguardam na zona lounge (há Wi-Fi, café).' },
         { kind: 'checklist', items: [
           '📍 UBBO (antigo Dolce Vita Tejo), Amadora — na linha azul do metro (estação Amadora Este), estacionamento gratuito',
           '💶 Crianças 5–15 anos: 24,50 €',
@@ -65,10 +65,10 @@ export default {
         { kind: 'paragraph', text: 'O maior parque de diversões “clássico” do norte de Portugal. Carrosséis, montanhas-russas, diversões aquáticas, espetáculos, karting. Fica em Penafiel (~40 km do Porto). Aberto sazonalmente, sobretudo da primavera ao outono.' },
         { kind: 'checklist', items: [
           '📍 Magikland, Penafiel (distrito do Porto)',
-          '💶 Adultos 13–64 anos: 19 €',
-          '💶 Crianças 4–12 anos: 12,50 €',
-          '💶 Seniores 65–75 anos: 15 €',
-          '💶 Crianças 0–3 anos e seniores 76+ — gratuito',
+          '💶 Adultos 13–64 anos: a partir de 22,50 € (mais caro no pico do verão)',
+          '💶 Crianças 3–12 anos: a partir de 14 €',
+          '💶 Seniores 65–75 anos: a partir de 17 €',
+          '💶 Crianças até aos 2 anos e seniores 76+ — gratuito',
           '🎢 Inclui acesso a todas as diversões (unlimited rides)',
           '⏱️ Tempo de visita: 4–6 horas',
           '🚗 Estacionamento gratuito'
@@ -82,9 +82,9 @@ export default {
         { kind: 'paragraph', text: 'Um dos dois grandes oceanários de Portugal (o segundo — Oceanário de Lisboa, ver guia separado). 31 tanques com vida marinha: tubarões de recife, raias, cavalos-marinhos, peixes tropicais. Menor do que o Oceanário, mas mais conveniente pela localização (na praia da Foz do Douro).' },
         { kind: 'checklist', items: [
           '📍 1. Praça Gonçalves Zarco, 4100-274 Porto (praia da Foz, fim da linha do autocarro 500 a partir do centro)',
-          '💶 Adultos: ~17 € bilheteira / ~14 € online',
-          '💶 Crianças 3–11 anos: ~12 € bilheteira / ~10 € online',
-          '💶 Crianças 0–2: gratuito',
+          '💶 Adultos (15+): ~19 € online (bilhete básico), mais caro na bilheteira',
+          '💶 Crianças 2–14 anos: ~14 € online',
+          '💶 Crianças com menos de 2 anos: gratuito',
           '🕐 Aberto diariamente, normalmente 10:00-18:00',
           '🌊 Pode combinar com um passeio pela praia da Foz ou uma ida a Matosinhos'
         ]},
@@ -98,10 +98,10 @@ export default {
         { kind: 'paragraph', text: 'Parque único em Albufeira: mistura de jardim zoológico (animais marinhos), parque aquático (piscinas e escorregas), parque de diversões (cinema 4D, carrosséis) e espetáculos. O espetáculo com golfinhos é o grande destaque, mas há críticas da ASAE: o programa foi modernizado, os golfinhos não atuam em truques forçados; existe antes um programa de "interação com o treinador".' },
         { kind: 'checklist', items: [
           '📍 N125, KM65, 8201-864 Guia, Albufeira',
-          '💶 Adultos: ~36 € bilheteira',
-          '💶 Crianças 4–10 anos: ~26 €',
-          '💶 Crianças 0–3: gratuito',
-          '🐬 Programa "Dolphin Emotions" (entrada na água com golfinhos): custo adicional ~150-200 € (com marcação)',
+          '💶 Adultos (11–64): 32 € na bilheteira (época baixa) / 41 € (junho-setembro); online mais barato — a partir de ~29 €',
+          '💶 Junior/Sénior (altura ≥1 m, 1–10 anos, e 65+): 22 € na bilheteira / 31 € no verão',
+          '💶 Crianças com menos de 1 m de altura: gratuito',
+          '🐬 Programa "Dolphin Emotions" (entrada na água com golfinhos, a partir dos 6 anos): custo adicional a partir de ~103 € (com marcação)',
           '🗓️ Aberto de março a novembro, melhor altura — junho-setembro',
           '🏖️ Combina com a praia de Albufeira'
         ]},
@@ -125,9 +125,9 @@ export default {
   costs: [
     { label: 'KidZania — criança 5–15 anos', amountEUR: 24.5 },
     { label: 'Dino Parque — adulto', amountEUR: 16 },
-    { label: 'Magikland — adulto', amountEUR: 19 },
-    { label: 'Sea Life Porto — adulto online', amountEUR: 14 },
-    { label: 'Zoomarine — adulto', amountEUR: 36 }
+    { label: 'Magikland — adulto', amountEUR: 22.5 },
+    { label: 'Sea Life Porto — adulto online', amountEUR: 19 },
+    { label: 'Zoomarine — adulto (bilheteira, época baixa)', amountEUR: 32 }
   ],
   sources: [
     { title: 'KidZania Lisboa — site oficial', url: 'https://lisboa.kidzania.com/pt-pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
@@ -136,7 +136,7 @@ export default {
     { title: 'CM Penafiel — Magikland (página do município)', url: 'https://www.cm-penafiel.pt/visitar/como-chegar/o-que-fazer/magikland-parque-de-diversoes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Visit Portugal — atrações e parques', url: 'https://www.visitportugal.com/en/experiencias/diversao-em-familia', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: parques temáticos de Portugal — KidZania (Lisboa), Dino Parque (Lourinhã), Magikland (Penafiel), Sea Life (Porto), Zoomarine (Algarve) + menos conhecidos. Preços de 2026 verificados, categorias etárias, dicas práticas.'

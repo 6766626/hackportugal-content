@@ -3,7 +3,7 @@ export default {
   id: 'vinho-caseiro-particular',
   categoryId: 'food_leisure',
   title: 'Your own homemade wine — what is allowed without a licence',
-  tldr: 'If you have grapes growing on your plot, you can make wine for your own consumption without any licences.\n\nThe limit is 100 l per year per household without a declaration (IVDP law).\n\nAbove 100 l — a declaration to the IVV (Instituto da Vinha e do Vinho) is mandatory, even without selling. Selling is a serious regulated business: a quality certificate, IGP/DOC certifications, IVA and registration with IVV are mandatory. For quintas with vines, it is worth finding out whether the plot is inside a DOC region — this affects the permitted grape varieties and style. Mixing with ordinary wines and selling as DOC without certification = a large fine.',
+  tldr: 'If you have grapes growing on your plot, you can make wine for your own consumption without any licences.\n\nFor self-consumption you do not need to register with the IVV up to 4,000 l per year; a production declaration is not required up to 1,000 l (10 hl) as long as the wine is not sold.\n\nAbove those volumes, or if you sell, registration and declarations with the IVV (Instituto da Vinha e do Vinho) become mandatory. Selling is a serious regulated business: a quality certificate, IGP/DOC certifications, IVA and registration with the IVV are mandatory. For quintas with vines, it is worth finding out whether the plot is inside a DOC region — this affects the permitted grape varieties and style. Mixing with ordinary wines and selling as DOC without certification = a large fine.',
   tags: ['wine', 'homemade', 'ivdp', 'doc', 'private'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,11 +11,12 @@ export default {
       id: 'limits',
       title: 'Limits for personal consumption',
       content: [
-        { kind: 'paragraph', text: 'Portugal is the fifth-largest wine-producing country in the world. The law treats home production relatively leniently, but there are clear rules:' },
+        { kind: 'paragraph', text: 'Portugal is one of the world’s largest wine producers (around 10th-11th by volume). The law treats home production relatively leniently, but there are clear rules:' },
         { kind: 'checklist', items: [
-          'Up to 100 l/year for a household: NO declarations. Make it and drink it, give it to neighbours',
-          '100-1,000 l/year: a declaration to the IVV (Instituto da Vinha e do Vinho) is mandatory, even without selling. The declaration is free, but mandatory',
-          '1,000+ l/year: this is already commercial production. Vineyard registration, certificate, regular samples',
+          'Up to 1,000 l/year (10 hl) for a household and not sold: no production declaration (DCP) to the IVV is required. Make it and drink it, give it to neighbours',
+          'Up to 4,000 l/year for self-consumption: no registration (inscrição) with the IVV (Instituto da Vinha e do Vinho) is required',
+          'Above 1,000 l or any selling: registration with the IVV and the mandatory declarations (harvest/production) are required',
+          'Commercial production: vineyard registration, certificate, regular samples',
           'Limits are calculated per “household” (agregado familiar), not per adult'
         ] },
         { kind: 'paragraph', text: 'This applies to “vinho de mesa” — ordinary wine. For other products:' },
@@ -117,7 +118,7 @@ export default {
       title: 'Fines for breaches',
       content: [
         { kind: 'checklist', items: [
-          'Production above 100 l without an IVV declaration: €100-€1,000',
+          'Production above the limit without an IVV declaration: €100-€1,000',
           'Selling without registo: €500-€5,000',
           'Using a DOC name without certification: €1,500-€25,000',
           'Forgery of a regional name: criminal offence',
@@ -142,6 +143,6 @@ export default {
     { title: 'Decreto-Lei 219/2008 — legal framework for the wine sector', url: 'https://dre.pt/dre/detalhe/decreto-lei/219-2008-441478', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IFAP — support for viticulture', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

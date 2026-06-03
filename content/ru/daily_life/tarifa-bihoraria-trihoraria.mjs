@@ -11,7 +11,7 @@ export default {
       id: 'what',
       title: 'Что означают Simples, Bi-horária и Tri-horária',
       content: [
-        { kind: 'paragraph', text: 'В домашнем сегменте BTN — baixa tensão normal, обычно до 20,7 kVA — цена электричества состоит из potência contratada, энергии kWh, сетевых тарифов, IVA и мелких сборов. Time-of-use меняет именно цену kWh по часам.' },
+        { kind: 'paragraph', text: 'В домашнем сегменте BTN — baixa tensão normal, обычно до 41,4 kVA — цена электричества состоит из potência contratada, энергии kWh, сетевых тарифов, IVA и мелких сборов. Time-of-use меняет именно цену kWh по часам.' },
         { kind: 'checklist', items: [
           'Simples — одна цена kWh весь день. Самый безопасный вариант, если вы не управляете потреблением.',
           'Bi-horária — две зоны: vazio дешевле, fora de vazio дороже. Подходит для бойлера, стиралки, посудомойки, EV, heat pump ночью.',
@@ -141,6 +141,6 @@ export default {
     { title: 'Simulador ERSE — официальный симулятор тарифов eletricidade/gás', url: 'https://simuladorprecos.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'E-REDES — ciclos horários и счётчики для baixa tensão', url: 'https://www.e-redes.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

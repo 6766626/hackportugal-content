@@ -3,7 +3,7 @@ export default {
   id: 'estacionamento-gratis-lisboa',
   categoryId: 'auto_trips',
   title: 'Бесплатные парковки Лиссабона — где оставить машину без EMEL',
-  tldr: 'В Лиссабоне бесплатная парковка ещё есть, но не в центре: ищите места fora da zona EMEL у Monsanto, на периферии Parque das Nações, в отдельных карманах Belém/Algés и на окраинах Alvalade. В большинстве зон EMEL воскресенье и feriados бесплатны; во многих zona azul суббота после 13:00 тоже бесплатна, но решает знак на улице. В 2026 проверяйте табличку EMEL и карту: границы зон меняются, а штраф за неоплату быстро съедает всю экономию.',
+  tldr: 'В Лиссабоне бесплатная парковка ещё есть, но не в центре: ищите места fora da zona EMEL около Monsanto, на периферии Parque das Nações, в отдельных карманах Belém/Algés и на окраинах Alvalade. В большинстве зон EMEL воскресенье и feriados бесплатны; во многих zona azul суббота после 13:00 тоже бесплатна, но решает знак на улице. В 2026 проверяйте табличку EMEL и карту: границы зон меняются, а штраф за неоплату быстро съедает всю экономию.',
   tags: ['парковка', 'lisboa', 'emel', 'авто'],
   estimatedReadMinutes: 5,
   steps: [
@@ -34,10 +34,10 @@ export default {
           { id: 'monsanto', title: 'Monsanto', content: [
             { kind: 'paragraph', text: 'Parque Florestal de Monsanto — самый надёжный вариант для бесплатной парковки на несколько часов: парковочные карманы у смотровых, спортивных зон и троп обычно не входят в уличную сеть EMEL.' },
             { kind: 'checklist', items: [
-              'Подходит для прогулок, вело, пикника и как park-and-ride, если дальше ехать на Uber/такси.',
+              'Подходит для прогулок, велопрогулок, пикника и как park-and-ride, если дальше ехать на Uber/такси.',
               'Проверяйте шлагбаумы и ночные ограничения у отдельных площадок.',
               'Не оставляйте вещи в салоне: туристические машины здесь заметны.',
-              'Для центра неудобно пешком, но удобно, если вы живёте/едете через Benfica, Campolide, Alcântara.'
+              'До центра неудобно идти пешком, но удобно, если вы живёте рядом или едете через Benfica, Campolide, Alcântara.'
             ] }
           ] },
           { id: 'belem', title: 'Belém и набережная к Algés', content: [
@@ -130,6 +130,6 @@ export default {
     { title: 'EMEL — meu perfil (gestão de dísticos e zonas)', url: 'https://meuperfil.emel.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' },
     { title: 'EMEL — официальный сайт оператора парковки Lisboa', url: 'https://www.emel.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

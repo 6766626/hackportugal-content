@@ -3,7 +3,7 @@ export default {
   id: 'business-account',
   categoryId: 'banking',
   title: 'Открыть бизнес-счёт — для ИП и компаний',
-  tldr: 'Для Recibo Verde в regime simplificado отдельный бизнес-счёт обычно не обязателен, но очень рекомендуется. Отдельный счёт обязателен для IRS с contabilidade organizada (обычно при обороте >200 000 €/год или по выбору) и для компаний (Lda, SA)\.\n\nБанки Millennium BCP, Santander Totta, Caixa Geral, BPI поддерживают ИП. Для Lda — те же + ActivoBank Empresas (онлайн).\n\nСтоимость: 5–15 €/мес за обслуживание + комиссии за переводы.',
+  tldr: 'Для Recibo Verde в regime simplificado отдельный бизнес-счёт обычно не обязателен, но настоятельно рекомендуется. Отдельный счёт обязателен для IRS с contabilidade organizada (обычно при обороте >200 000 €/год или по выбору) и для компаний (Lda, SA)\.\n\nБанки Millennium BCP, Santander Totta, Caixa Geral, BPI поддерживают ИП. Для Lda — те же + ActivoBank Empresas (онлайн).\n\nСтоимость: 5–15 €/мес за обслуживание + комиссии за переводы.',
   tags: ['банк', 'бизнес', 'ип', 'lda', 'recibos verdes', 'empresa'],
   estimatedReadMinutes: 6,
   steps: [
@@ -26,7 +26,7 @@ export default {
               '💰 Минимальная quota — 1 € на участника; у sociedade unipessoal por quotas capital social может быть 1 €. Банки могут предпочитать более высокий капитал/первый депозит, но это коммерческая/KYC-политика банка, а не закон',
               '🆔 Capital social указывается при регистрации; внесение обычно может быть отложено в сроки, предусмотренные законом/учредительными документами — предварительная блокировка капитала до registo comercial не требуется',
               '📋 Для регистрации Lda банковский счёт заранее обычно не нужен — Empresa na Hora/IRN позволяет зарегистрировать компанию без счёта; счёт открывают после получения NIPC/certidão permanente',
-              '⚠️ Не смешивайте деньги компании и личные средства. Любые переводы между Lda и sócios/gerentes должны иметь юридическое основание — зарплата, дивиденды, suprimentos/займ, reimbursement — и налогообложение зависит от классификации операции'
+              '⚠️ Не смешивайте деньги компании и личные средства. Любые переводы между Lda и sócios/gerentes должны иметь юридическое основание — зарплата, дивиденды, suprimentos/займ, возмещение расходов — и налогообложение зависит от классификации операции'
             ]}
           ]}
         ]}
@@ -85,7 +85,7 @@ export default {
           { id: 'd2', title: 'Для Lda (ООО)', content: [
             { kind: 'checklist', items: [
               '📄 Pacto Social — учредительный договор Lda',
-              '📜 Certidão Permanente — выписка о регистрации (можно онлайн на portalcidadao.pt за 25 €)',
+              '📜 Certidão Permanente — выписка о регистрации (можно онлайн на empresaonline.justica.gov.pt за 25 € на год)',
               '🆔 Cartão de Cidadão + NIF учредителей и управляющих',
               '🔢 NIF компании',
               '💰 Уставный капитал (capital social) для блокировки на счёте',
@@ -171,8 +171,8 @@ export default {
   sources: [
     { title: 'Banco de Portugal — Conta de pagamentos', url: 'https://www.bportugal.pt/page/contas-de-pagamentos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Empresa na Hora', url: 'https://justica.gov.pt/Servicos/Empresas/Empresa-na-Hora', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Autoridade Tributária — Início de Atividade', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.htmlindex.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Autoridade Tributária — Início de Atividade', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

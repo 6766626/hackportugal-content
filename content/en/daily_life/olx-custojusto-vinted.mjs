@@ -181,7 +181,7 @@ export default {
     { title: 'OLX Portugal — tips for using OLX safely (platform help)', url: 'https://help.olx.pt/olxpthelp/s/article/dicas-importantes-para-usares-o-olx-em-segurana-V33', kind: 'secondary', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'PJ — Cybercrime Reporting Channel', url: 'https://canalcyber.pj.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: OLX, CustoJusto, Vinted in Portugal. Platform comparison, DAC7 tax consequences (>€2,000 or >30 sales = reported to Finanças), main scams in 2025-2026 (fake payment SMS messages, phishing links, MB Way push notifications), DECO PROteste advice on safe buying/selling.'

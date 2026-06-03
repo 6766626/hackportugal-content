@@ -122,7 +122,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           {
-            id: 'kartodromoaltar',
+            id: 'kartodromo-baltar',
             title: 'Kartódromo de Baltar (Paredes)',
             content: [
               { kind: 'checklist', items: [
@@ -178,7 +178,7 @@ export default {
     { title: 'Autódromo do Algarve — Kart Rental (official website)', url: 'https://autodromodoalgarve.com/pt/driving-experiences/aluguer-de-karts/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Kart Montijo (official website)', url: 'https://kartmontijo.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: karting in Portugal — ~15 centres. Main locations: OKL (the only outdoor track in Lisbon, €25/15 min), Karting Almancil (Algarve, opened by Senna in 1992, Mini F1 for children from 3 years old), AIA Kartódromo (FIA-certified), Baltar (1,023 m). 2026 prices, age categories, booking tips.'

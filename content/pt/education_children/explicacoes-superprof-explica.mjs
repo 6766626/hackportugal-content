@@ -115,6 +115,6 @@ export default {
     { title: 'Superprof Portugal — pesquisa de explicadores por disciplinas e cidades', url: 'https://www.superprof.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Explica.pt — catálogo de explicadores e centros de explicações', url: 'https://www.explica.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

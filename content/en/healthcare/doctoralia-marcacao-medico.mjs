@@ -105,6 +105,6 @@ export default {
     { title: 'Doctoralia Portugal — doctor search, reviews and marcação online', url: 'https://www.doctoralia.com.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Linkare Portugal — booking exames, análises and specialists', url: 'https://www.linkare.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

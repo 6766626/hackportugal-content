@@ -17,7 +17,7 @@ export default {
           'In an ordinary permitted place outside protected zones — a maximum of 48 hours in the same município.',
           'If the place is specifically designated for autocaravanas, the rules of that place apply: time limit, payment, services, ban on tables/awnings.',
           'The municipality may prohibit or restrict pernoita by signs, regulamento municipal or temporary rules.',
-          'Ordinary daytime parking is not the same as an overnight stay: pernoita means people being inside between 21:00 and 07:00.',
+          'Ordinary daytime parking is not the same as an overnight stay: pernoita means people being inside between 22:00 and 07:00.',
           'If you have put out an awning, tables, chairs, extended steps, used levelling wedges or occupied more space — this already looks like aparcamento/campismo and the risk of a fine is higher.'
         ] }
       ]
@@ -46,7 +46,7 @@ export default {
         { kind: 'paragraph', text: 'Portuguese rules distinguish between simple parking, an overnight stay and setting up “camp”. The more you extend beyond the vehicle’s dimensions, the higher the risk that an inspector will treat it as aparcamento/campismo outside an authorised place.' },
         { kind: 'checklist', items: [
           'Estacionamento: the vehicle is within the marked bay and does not occupy more space than its own dimensions.',
-          'Pernoita: people are inside the autocaravana between 21:00 and 07:00.',
+          'Pernoita: people are inside the autocaravana between 22:00 and 07:00.',
           'Aparcamento: parking with signs of setting up — extended awning, tables, chairs, levelling wedges, steps, external tanks.',
           'Campismo selvagem: actual wild camping outside a camping/parque/ASA; it cannot be made legal by saying “we just stayed overnight”.',
           'Windows and the roof are usually not a problem in themselves, but an awning, furniture and washing lines are a red flag.',
@@ -102,6 +102,6 @@ export default {
     { title: 'Lei 66/2021 — amendment to the rules on pernoita de autocaravanas', url: 'https://dre.pt/dre/detalhe/lei/66-2021-169570084', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Federação de Campismo e Montanhismo de Portugal — information on caravanismo', url: 'https://www.fcmp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

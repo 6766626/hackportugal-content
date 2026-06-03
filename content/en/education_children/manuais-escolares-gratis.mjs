@@ -84,7 +84,7 @@ export default {
           'Textbooks must be returned without major damage, torn-out pages or unusable annotations.',
           'Write in pencil or use bookmarks if the school warns that the books must be returned.',
           'Do not permanently stick pages together or cut out exercises.',
-          'Textbooks for 1.º ciclo may have a special arrangement, because children often write directly in the book; check with the escola.',
+          'Textbooks for 1.º ciclo (1.º-4.º ano) do not have to be returned: there is no reuse system for them, new books are issued each year, and children are allowed to write in them.',
           'Workbooks and consumable materials are usually not returned.',
           'If a book is lost or damaged, the school may require you to replace it or pay the cost.'
         ] },
@@ -118,6 +118,6 @@ export default {
     { title: 'ePortugal — School enrolments', url: 'https://www.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

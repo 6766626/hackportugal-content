@@ -52,7 +52,7 @@ export default {
         { kind: 'checklist', items: [
           '25 April (Sat) — not especially advantageous',
           '1 May (Fri) — long weekend from 1-3 May',
-          '10 June (Wed) — Tuesday or Thursday may be taken as days off',
+          '10 June (Wed) — midweek, so no convenient bridge',
           '5 October (Mon) — long weekend from 3-4-5 October',
           '8 December (Tue) — many people take 7.12 → a 4-day weekend'
         ]}
@@ -93,6 +93,6 @@ export default {
     { title: 'Governo de Portugal — Código do Trabalho (labour code)', url: 'https://www.dgert.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Diário da República — Lei 7/2009 (Código do Trabalho)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

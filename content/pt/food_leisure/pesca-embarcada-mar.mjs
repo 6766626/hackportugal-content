@@ -3,8 +3,8 @@ export default {
   id: 'pesca-embarcada-mar',
   categoryId: 'food_leisure',
   title: 'Pesca marítima a partir de barco — licença Pesca Lúdica Embarcada',
-  tldr: 'Pescar no mar a partir de qualquer barco (próprio, alugado ou de charter) exige a modalidade embarcada na licença de Pesca Lúdica (pesca lúdica — pesca marítima recreativa).\n\nMais cara do que a pesca a partir da costa: ~10 € por 3 dias, ~20 € por mês, ~40 € por ano. O barco deve estar registado na Capitania, e cada pescador a bordo deve ter a sua própria licença. O limite diário é de 10 kg por pescador (não conta o exemplar de maior peso); quando estão a bordo mais de 3 pescadores, o limite total do barco não pode exceder 25 kg. Para charter, verifique se o capitão tem licença profissional "Marítimo‑Turística"; para os passageiros basta a licença embarcada normal.',
-  tags: ['pesca', 'pesca', 'lancha', 'embarcação', 'dgrm'],
+  tldr: 'Pescar no mar a partir de qualquer barco (próprio, alugado ou de charter) exige a modalidade embarcada na licença de Pesca Lúdica (pesca lúdica — pesca marítima recreativa).\n\nMais cara do que a pesca a partir da costa: ~5 € por dia, ~12 € por mês, ~50 € por ano. O barco deve estar registado na Capitania, e cada pescador a bordo deve ter a sua própria licença. O limite diário é de 10 kg por pescador (não conta o exemplar de maior peso); quando estão a bordo mais de 3 pescadores, o limite total do barco não pode exceder 25 kg. Para charter, verifique se o capitão tem licença profissional "Marítimo‑Turística"; para os passageiros basta a licença embarcada normal.',
+  tags: ['pesca', 'pesca-maritima', 'lancha', 'embarcação', 'dgrm'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -28,11 +28,11 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Compra através do portal da DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos): portal.dgrm.mm.gov.pt. Ao preencher, seleccione a opção «Embarcação» (a partir de barco). O preço é mais alto:' },
         { kind: 'checklist', items: [
-          '3 dias (embarcada): ~10 € (para comparação: a partir da costa — ~3 €; modalidade apeada)',
-          '1 mês (embarcada): ~20 €',
-          '1 ano (embarcada): ~40 €',
-          '3 anos (embarcada): ~100 €',
-          'Pode comprar o combinado «à linha apeada + embarcada» — por vezes compensa face a duas licenças separadas'
+          '1 dia (embarcada): ~5 € (para comparação: a partir da costa — ~2 €; modalidade apeada)',
+          '1 mês (embarcada): ~12 €',
+          '1 ano (embarcada): ~50 €',
+          'As licenças existem apenas em três durações: diária, mensal e anual (não há opção de «3 dias» nem de «3 anos»)',
+          'Existe ainda a licença geral, que abrange todas as modalidades: ~20 € por mês, ~70 € por ano'
         ] },
         { kind: 'paragraph', text: 'A licença para pesca a partir de barco (embarcada) também é válida para pesca a partir da costa; o contrário não acontece: a licença apenas de costa (apeada) não cobre a pesca a partir de barco.' }
       ]
@@ -72,7 +72,7 @@ export default {
           'Defeso (período de proibição por espécie) — as mesmas épocas',
           'Métodos proibidos: arrastos, redes, explosivos, canas eléctricas — nunca',
           'Métodos permitidos: cana com bóia/de fundo, spinning, jig vertical (jigging), corrico (trolling)',
-          'Não mais de 2 canas por pessoa em simultâneo',
+          'Não mais de 3 canas (linhas) e 9 anzóis por pessoa em simultâneo',
           'Plotter GPS com marcações de locais de pesca — normal para uso pessoal; não é permitido vender esses dados'
         ] },
         { kind: 'paragraph', text: 'O atum de grande porte é outra história. O atum-rabilho do Atlântico (bluefin tuna, atum‑rabilho) é capturado ao abrigo de quotas especiais e exige licença profissional ou participação num campeonato autorizado. Não é permitido capturá-lo e ficar com ele ao abrigo de uma licença recreativa.' }
@@ -97,9 +97,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Licença Pesca Lúdica Embarcada — 3 dias', amountEUR: 10 },
-    { label: 'Licença — 1 mês', amountEUR: 20 },
-    { label: 'Licença — 1 ano', amountEUR: 40 },
+    { label: 'Licença Pesca Lúdica Embarcada — 1 dia', amountEUR: 5 },
+    { label: 'Licença — 1 mês', amountEUR: 12 },
+    { label: 'Licença — 1 ano', amountEUR: 50 },
     { label: 'Charter para 4–6 pessoas, dia', amountEURMin: 200, amountEURMax: 700, note: 'Depende da região e do tipo de pesca' },
     { label: 'Charter para grandes peixes oceânicos (big game) (Algarve/Açores)', amountEURMin: 400, amountEURMax: 1200, note: 'Marlin, tuna' },
     { label: 'Registo de barco até 7 m', amountEURMin: 50, amountEURMax: 200, note: 'Através da Capitania do porto, depende da classe' }
@@ -110,6 +110,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICCAT — quotas de atum-rabilho', url: 'https://www.iccat.int', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'vhf-radio-marinha-cep',
   categoryId: 'food_leisure',
   title: 'Marine VHF radio — CEP licence and operator certificate',
-  tldr: 'If you have a VHF radio on board (or plan to install one), you need two documents: 1) Licença de Estação (CEP) from DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos — the maritime authority) for the radio station itself, applied for via the www.bmar.pt portal — €30–80 per year; 2) Certificado de Operador (SRC/LRC) — personal authorisation to operate on air, essentially the operator’s “licence”. SRC (Short Range Certificate) — for VHF near the coast, exam €80–150. LRC (Long Range Certificate) — for DSC and satellite/long-range communications. Operating on marine frequencies without these documents is an offence, with fines of up to €2,000. Emergency channel 16 must be monitored continuously when VHF is switched on. Foreign certificates RYA SRC, ICC VHF and UKHO are recognised.',
+  tldr: 'If you have a VHF radio on board (or plan to install one), you need two documents: 1) Licença de Estação (CEP) from DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos — the maritime authority) for the radio station itself, applied for via the www.bmar.pt portal — a one-off fee of €88.80 per frequency band; 2) Certificado de Operador (SRC/LRC) — personal authorisation to operate on air, essentially the operator’s “licence”. SRC (Short Range Certificate) — for VHF near the coast, exam €80–150. LRC (Long Range Certificate) — for DSC and satellite/long-range communications. Operating on marine frequencies without these documents is an offence, with fines for individuals of up to €3,740. Emergency channel 16 must be monitored continuously when VHF is switched on. Foreign certificates RYA SRC and ICC VHF are recognised.',
   tags: ['vhf', 'radio', 'anacom', 'src', 'navigation'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,8 +32,8 @@ export default {
           'You will need: boat registration, VHF details (model, serial number, whether it has DSC), MMSI',
           'MMSI (Maritime Mobile Service Identity) — mandatory 9-digit identifier for DSC',
           'MMSI is arranged through DGRM and is free when applying for CEP',
-          'CEP cost: €30–80 per year (depends on the vessel category)',
-          'Renewal: annually; you can pay via Multibanco (ATM/online payment) or MB WAY (mobile payment service)'
+          'CEP cost: a one-off fee of €88.80 per licensed frequency band (for a recreational craft)',
+          'For recreational craft the licence has no expiry date (Decreto-Lei 93/2018) — no annual renewal needed; you can pay via Multibanco (ATM/online payment) or MB WAY (mobile payment service)'
         ] },
         { kind: 'paragraph', text: 'If you change boat, CEP cannot be transferred — apply again.' }
       ]
@@ -145,7 +145,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'CEP — station licence', amountEURMin: 30, amountEURMax: 80, note: 'Per year' },
+    { label: 'CEP — station licence', amountEUR: 88.8, note: 'One-off fee per frequency band; no expiry for recreational craft' },
     { label: 'MMSI assignment', amountEUR: 0, note: 'Free with CEP' },
     { label: 'SRC course', amountEURMin: 100, amountEURMax: 200 },
     { label: 'SRC exam', amountEURMin: 30, amountEURMax: 80 },
@@ -159,8 +159,9 @@ export default {
     { title: 'DGRM — Professional certification (radiotelephone operator certificate)', url: 'https://www.dgrm.pt/certificacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'ANACOM — Maritime radiocommunications (spectrum)', url: 'https://www.anacom.pt/render.jsp?categoryId=387625', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 53/2009 — radiocommunications', url: 'https://dre.pt/dre/detalhe/decreto-lei/53-2009-606037', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 93/2018 — recreational boating (station licence, art. 51)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-117038233', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'ITU Radio Regulations', url: 'https://www.itu.int/pub/R-REG-RR', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

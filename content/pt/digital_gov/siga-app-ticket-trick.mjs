@@ -3,7 +3,7 @@ export default {
   id: 'siga-app-ticket-trick',
   categoryId: 'digital_gov',
   title: 'SigaApp + ePortugal: como tirar corretamente uma senha na Loja de Cidadão',
-  tldr: 'A SigaApp é a forma oficial de tirar uma senha eletrónica em muitas Lojas de Cidadão e Espaços Cidadão antes de chegar, em vez de ficar à espera no dispensador. Truque prático para 2026: abra o ePortugal/Siga, veja as filas em várias Lojas próximas e tire a senha cerca de 20–30 minutos antes da chegada. As senhas remotas normalmente têm uma janela/atraso de 30 minutos, mas se for chamado e não estiver presente, a senha caduca. Nem todos os serviços estão disponíveis sem marcação: AIMA, IRN, Finanças e Segurança Social têm frequentemente regras próprias.',
+  tldr: 'A SigaApp é a forma oficial de tirar uma senha eletrónica em muitas Lojas de Cidadão e Espaços Cidadão antes de chegar, em vez de ficar à espera no dispensador. Truque prático para 2026: abra o ePortugal/Siga, veja as filas em várias Lojas próximas e tire a senha cerca de 20–30 minutos antes da chegada. A senha é apenas um lugar numa fila real: se for chamado e não estiver presente, caduca. A única regra rígida de tempo é que tem de esperar 30 minutos entre tirar duas senhas para o mesmo número de telefone ou e-mail. Nem todos os serviços estão disponíveis sem marcação: AIMA, IRN, Finanças e Segurança Social têm frequentemente regras próprias.',
   tags: ['siga', 'eportugal', 'loja', 'senha'],
   estimatedReadMinutes: 5,
   steps: [
@@ -36,7 +36,7 @@ export default {
       title: 'O truque dos 30 minutos: tirar a senha antes de chegar',
       content: [
         { kind: 'paragraph', text: 'Na prática: não espere até estar junto ao dispensador. Cerca de 20–30 minutos antes da chegada, abra a SigaApp, escolha a Loja de Cidadão, o serviço pretendido e o tipo de atendimento, e depois tire a senha. Isto permite “entrar na fila” ainda durante o percurso.' },
-        { kind: 'paragraph', text: 'Nas senhas remotas aplica-se frequentemente uma lógica de 30 minutos: o sistema pode considerar que a pessoa precisa de tempo para chegar, ou mostrar uma janela em que deve dirigir-se ao local. Por isso, tirar uma senha com 2 horas de antecedência é arriscado: a fila pode avançar mais depressa, chamam-no, e a senha perde-se.' },
+        { kind: 'paragraph', text: 'Tenha em conta: uma senha remota não lhe dá uma “janela” separada para a deslocação. É um lugar normal numa fila real — a fila avança ao seu próprio ritmo e não espera pela sua chegada. Por isso, tirar uma senha com 2 horas de antecedência é arriscado: a fila pode avançar mais depressa, chamam-no, e a senha perde-se. A única regra rígida de tempo é que tem de esperar 30 minutos entre tirar duas senhas para o mesmo número de telefone ou e-mail.' },
         { kind: 'checklist', items: [
           'Se estiver a 5 minutos da Loja — veja primeiro a velocidade da fila, não tire a senha demasiado cedo.',
           'Se estiver a 20–30 minutos da Loja — esta é normalmente a janela ideal para tirar a senha antecipadamente.',
@@ -122,6 +122,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

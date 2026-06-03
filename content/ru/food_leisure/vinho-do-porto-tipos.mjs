@@ -3,7 +3,7 @@ export default {
   id: 'vinho-do-porto-tipos',
   categoryId: 'food_leisure',
   title: 'Vinho do Porto: типы Tawny, Ruby, Vintage, LBV и как покупать',
-  tldr: 'Vinho do Porto — креплёное вино из Região Demarcada do Douro, обычно 19–22% алкоголя. Для новичка безопасный выбор: Ruby Reserve за 10–18 € или Tawny 10 anos за 18–35 €. Tawny 20/30/40 anos — подарок и медленное питьё, 45–150 €+. Vintage — дорогой коллекционный портвейн конкретного года, требует декантации и часто стоит 70–300 €+. LBV — компромисс: один урожай, готов к питью, обычно 15–35 €. В Vila Nova de Gaia удобно сравнить стили в caves Sandeman, Graham’s, Taylor’s.',
+  tldr: 'Vinho do Porto — креплёное вино из Região Demarcada do Douro, обычно 19–22% алкоголя. Для новичка безопасный выбор: Ruby Reserve за 10–18 € или Tawny 10 anos за 18–35 €. Tawny 20/30/40 anos — на подарок и для неспешного питья, 45–150 €+. Vintage — дорогой коллекционный портвейн конкретного года, требует декантации и часто стоит 70–300 €+. LBV — компромисс: один урожай, готов к питью, обычно 15–35 €. В Vila Nova de Gaia удобно сравнить стили в caves Sandeman, Graham’s, Taylor’s.',
   tags: ['vinho', 'porto', 'douro', 'гастрономия'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-is-port',
       title: 'Что такое Vinho do Porto',
       content: [
-        { kind: 'paragraph', text: 'Vinho do Porto — не просто «сладкое красное». Это защищённое наименование вина из Região Demarcada do Douro. Брожение останавливают добавлением aguardente vínica, поэтому вино сохраняет природную сладость и получает крепость обычно около 19–22%.' },
+        { kind: 'paragraph', text: 'Vinho do Porto — не просто «сладкое красное». Это защищённое наименование вина из Região Demarcada do Douro. Брожение останавливают добавлением aguardente vínica, поэтому вино сохраняет природную сладость и обычно имеет крепость 19–22%.' },
         { kind: 'paragraph', text: 'Исторически портвейн выдерживали и отправляли из Vila Nova de Gaia, напротив Porto. Поэтому большинство известных caves — Sandeman, Graham’s, Taylor’s, Cálem, Ferreira, Kopke — находятся именно в Gaia, хотя виноград растёт в Douro.' },
         { kind: 'checklist', items: [
           'Ищите на бутылке «Vinho do Porto» или «Porto» и selo de garantia IVDP.',
@@ -114,6 +114,6 @@ export default {
     { title: 'Taylor’s Port — visitor centre и стили Port Wine', url: 'https://www.taylor.pt/en/visit-taylors/port-cellars', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Graham’s Port Lodge — дегустации в Vila Nova de Gaia', url: 'https://www.grahams-port.com/visit-us', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

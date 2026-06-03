@@ -105,6 +105,6 @@ export default {
     { title: 'Banco de Portugal — informação sobre a garantia de depósitos e bancos', url: 'https://www.bportugal.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal — registo de instituições autorizadas', url: 'https://www.bportugal.pt/entidades-autorizadas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

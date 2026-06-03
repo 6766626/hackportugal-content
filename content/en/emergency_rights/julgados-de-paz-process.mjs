@@ -3,7 +3,7 @@ export default {
   id: 'julgados-de-paz-process',
   categoryId: 'emergency_rights',
   title: 'Julgados de Paz: small-claims court for disputes up to €15,000',
-  tldr: 'Julgados de Paz are fast civil courts for smaller disputes up to €15,000: consumer claims, contracts, debts, condomínio, neighbour and property conflicts. The initial fee is usually €35 per applicant; the full taxa única is €70.\n\nThe process is mediation-first: mediation is offered first, then a hearing before a juiz de paz. They are not suitable for family, inheritance, employment, criminal, insolvency cases or eviction. They operate only in areas where there is a Julgado de Paz.',
+  tldr: 'Julgados de Paz are fast civil courts for smaller disputes up to €15,000: consumer claims, contracts, debts, condomínio, neighbour and property conflicts. The fee (taxa única) is paid at the end of the process: €25 per party if you settle in mediation, or €70 paid by the losing party if the judge decides.\n\nThe process is mediation-first: mediation is offered first, then a hearing before a juiz de paz. They are not suitable for family, inheritance, employment, criminal, insolvency cases or eviction. They operate only in areas where there is a Julgado de Paz.',
   tags: ['julgados', 'court', 'disputes', 'mediation'],
   estimatedReadMinutes: 6,
   steps: [
@@ -77,8 +77,8 @@ export default {
           { id: 'write-claim', title: '2. Describe the pedido in plain language', content: [
             { kind: 'paragraph', text: 'State: who owes whom, what happened, the date, the amount, the evidence and exactly what you are asking for: to pay €X, return an item, fix a defect, stop the infringement.' }
           ] },
-          { id: 'pay-fee', title: '3. Pay the initial fee', content: [
-            { kind: 'paragraph', text: 'Usually the applicant pays €35 when filing. The full taxa única for the process is €70 and, as a general rule, is split between the parties; the final allocation depends on the outcome of the case.' }
+          { id: 'pay-fee', title: '3. Plan for the fee (taxa única)', content: [
+            { kind: 'paragraph', text: 'Nothing is paid when filing: the fee is paid at the end of the process by bank transfer. If the parties settle in mediation, each pays €25. If the judge decides the case, the taxa única is €70, paid by the losing party (in case of partial loss the judge splits it proportionally).' }
           ] },
           { id: 'wait-notification', title: '4. Wait for the respondent to be notified', content: [
             { kind: 'paragraph', text: 'The Julgado de Paz notifies the respondent and proposes the next steps: mediation, contestação, scheduling a hearing. Watch your post: missing a notification can harm the case.' }
@@ -92,7 +92,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The logic of Julgados de Paz is to try an amicable solution first. Mediation is voluntary: if both parties agree, a mediador helps formalise an acordo. Such an acordo can have the force of a court judgment after homologação.' },
         { kind: 'checklist', items: [
-          'mediation is cheaper and faster if the dispute can be closed with payment or repairs',
+          'mediation is cheaper and faster: a settlement costs just €25 per party',
           'do not agree to verbal promises without a written acordo',
           'in the acordo, record the amount, deadline, IBAN, instalments and consequences of late payment',
           'if mediation fails, the case goes to the juiz de paz',
@@ -102,7 +102,7 @@ export default {
           'the decision of the juiz de paz is called a sentença and is enforceable',
           'if a party does not pay voluntarily, enforcement proceedings may be possible'
         ] },
-        { kind: 'warning', text: 'Appeal is not always possible. As a general rule, it depends on the value of the case and procedural conditions. If the amount is significant for you or the dispute is legally complex, show the documents to an advogado or solicitador before filing.' }
+        { kind: 'warning', text: 'Appeal is not always possible: as a general rule, only if the value of the case is above €2,500, and at that stage a lawyer becomes mandatory. If the amount is significant for you or the dispute is legally complex, show the documents to an advogado or solicitador before filing.' }
       ]
     },
     {
@@ -125,15 +125,16 @@ export default {
     }
   ],
   costs: [
-    { label: 'Filing by the applicant', amountEUR: 35, note: 'Usually paid when starting the case at the Julgado de Paz.' },
-    { label: 'Full taxa única for the process', amountEUR: 70, note: 'As a rule, €35 from each party; the final allocation may depend on the decision.' },
+    { label: 'Settlement in mediation', amountEUR: 25, note: '€25 from each party (€50 total) if the dispute ends in a mediated agreement.' },
+    { label: 'taxa única if the judge decides', amountEUR: 70, note: 'Paid by the losing party at the end of the process; in case of partial loss the judge splits it proportionally.' },
     { label: 'Lawyer or solicitador', amountEURMin: 50, amountEURMax: 250, note: 'Not mandatory for most cases, but useful for checking the claim, evidence and appeal.' }
   ],
   sources: [
     { title: 'ePortugal: start a case in a Julgado de Paz', url: 'https://www2.gov.pt/en/servicos/iniciar-um-processo-num-julgado-de-paz', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Conselho dos Julgados de Paz: courts, jurisdiction and information', url: 'https://www.conselhodosjulgadosdepaz.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Lei 78/2001: organisation, jurisdiction and operation of Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34412675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Lei 78/2001: organisation, jurisdiction and operation of Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34412675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Portaria 342/2019: regime de cobrança das taxas nos Julgados de Paz', url: 'https://files.dre.pt/1s/2019/10/18900/0011900120.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

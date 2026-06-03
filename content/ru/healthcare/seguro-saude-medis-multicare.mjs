@@ -3,7 +3,7 @@ export default {
   id: 'seguro-saude-medis-multicare',
   categoryId: 'healthcare',
   title: 'Страховки здоровья в Португалии: Médis vs Multicare vs AdvanceCare',
-  tldr: 'В 2026 частная saúde insurance в Португалии обычно стоит 30–60 €/мес для 25–35 лет, 60–100 €/мес после 45 и 100–150 €+/мес после 60, если включены госпитализация и амбулаторные лимиты. Médis — премиальная сеть Ageas с сильным сервисом; Multicare от Fidelidade — крупнейший массовый игрок; AdvanceCare — сеть/администратор, часто через Generali Tranquilidade и корпоративные планы. Смотрите не бренд, а plafond, copagamentos, exclusions и período de carência.',
+  tldr: 'В 2026 частная медицинская страховка в Португалии обычно стоит 30–60 €/мес для 25–35 лет, 60–100 €/мес после 45 и 100–150 €+/мес после 60, если включены госпитализация и амбулаторные лимиты. Médis — премиальная сеть Ageas с сильным сервисом; Multicare от Fidelidade — крупнейший массовый игрок; AdvanceCare — сеть/администратор, часто через Generali Tranquilidade и корпоративные планы. Смотрите не бренд, а plafond, copagamentos, exclusions и período de carência.',
   tags: ['seguro', 'saúde', 'médis', 'multicare', 'advancecare'],
   estimatedReadMinutes: 6,
   steps: [
@@ -145,6 +145,6 @@ export default {
     { title: 'Generali Tranquilidade — seguros de saúde и rede AdvanceCare', url: 'https://www.generali.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ASF — надзор за страховым рынком Portugal', url: 'https://www.asf.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

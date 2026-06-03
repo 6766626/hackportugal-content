@@ -44,7 +44,7 @@ export default {
       id: 'documents',
       title: 'Документы: что подготовить заранее',
       content: [
-        { kind: 'paragraph', text: 'Самый частый стоп-фактор у экспатов — адрес. В Португалии “я здесь живу” обычно нужно подтвердить документом, а не устным объяснением. Для Lisboa это особенно важно: район в разговорном смысле и административный Município могут не совпадать.' },
+        { kind: 'paragraph', text: 'Самый частый стоп-фактор у экспатов — адрес. В Португалии “я здесь живу” обычно нужно подтвердить документом, а не устным объяснением. Для Lisboa это особенно важно: район в бытовом смысле и административный Município могут не совпадать.' },
         { kind: 'checklist', items: [
           'Документ личности: паспорт, Cartão de Cidadão, ВНЖ или EU registration certificate',
           'NIF — желательно с актуальным morada fiscal в Finanças',
@@ -135,7 +135,7 @@ export default {
   costs: [
     { label: 'Проверка условий и регистрация на муниципальном сайте', amountEUR: 0, note: 'Обычно бесплатно; платной является конкретная услуга, билет или абонемент со скидкой.' },
     { label: 'Atestado de residência в Junta de Freguesia', amountEURMin: 0, amountEURMax: 10, note: 'Тариф зависит от freguesia и срочности; некоторые справки для социальных целей могут быть бесплатными.' },
-    { label: 'Туристическая Lisboa Card', amountEURMin: 27, amountEURMax: 54, note: 'Это отдельный туристический продукт на 24/48/72 часа; не является Cartão Lisboa для резидентов.' }
+    { label: 'Туристическая Lisboa Card', amountEURMin: 31, amountEURMax: 62, note: 'Это отдельный туристический продукт на 24/48/72 часа (взрослый тариф 2026 года); не является Cartão Lisboa для резидентов.' }
   ],
   sources: [
     { title: 'Câmara Municipal de Lisboa — официальный портал муниципальных услуг и программ', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -143,6 +143,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — cultura, desporto и городские инициативы', url: 'https://www.cm-lisboa.pt/viver', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Turismo de Lisboa — туристическая Lisboa Card для сравнения', url: 'https://www.visitlisboa.com/en/p/lisboa-card', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

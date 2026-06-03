@@ -3,7 +3,7 @@ export default {
   id: 'centro-dia-idosos-bairro',
   categoryId: 'healthcare',
   title: 'Centro de Dia — дневная помощь пожилым',
-  tldr: 'Centro de Dia — дневной центр для пожилых: человек живёт дома, а днём получает питание, присмотр, занятия, помощь с гигиеной и часто transporte. Обычно работают IPSS/ Misericórdia/associação local, график примерно 8:00–18:00 по будням. Цена в 2026 чаще 200–500 €/мес и зависит от доходов семьи; места ищут через Carta Social, Junta de Freguesia, Segurança Social и местные IPSS. Это альтернатива ERPI, если семья хочет сохранить пожилого дома, но не может оставлять его одного днём.',
+  tldr: 'Centro de Dia — дневной центр для пожилых: человек живёт дома, а днём получает питание, присмотр, занятия, помощь с гигиеной и часто transporte. Обычно работают IPSS/Misericórdia/associação local, график примерно 8:00–18:00 по будням. Цена в 2026 чаще 200–500 €/мес и зависит от доходов семьи; места ищут через Carta Social, Junta de Freguesia, Segurança Social и местные IPSS. Это альтернатива ERPI, если семья хочет сохранить пожилого дома, но не может оставлять его одного днём.',
   tags: ['idosos', 'ipss', 'уход', 'sns'],
   estimatedReadMinutes: 5,
   steps: [
@@ -119,10 +119,10 @@ export default {
     { label: 'Частный Centro de Dia', amountEURMin: 400, amountEURMax: 900, note: 'Рыночные цены сильно различаются по региону, графику, питанию и уровню ухода.' }
   ],
   sources: [
-    { title: 'Carta Social — поиск respostas sociais, включая Centro de Dia', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social — respostas sociais para pessoas idosas', url: 'https://www.seg-social.pt/idosos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social — informação sobre instituições particulares de solidariedade social', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Carta Social — поиск respostas sociais, включая Centro de Dia', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Segurança Social — respostas sociais para pessoas idosas', url: 'https://www.seg-social.pt/ptss/pssd/menu/acao-social/apoios-respostas-sociais/respostas-sociais-idosos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Segurança Social — apoios e respostas sociais', url: 'https://www.seg-social.pt/ptss/pssd/menu/acao-social/apoios-respostas-sociais', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

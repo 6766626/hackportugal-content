@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           'ISO 11784/11785 microchip (international standard)',
           'Rabies vaccination at least 21 days before entry (after the first vaccination)',
-          'Rabies antibody titre test (for countries with a high rabies risk — blood test, valid for 30 days, 3-month wait after the test)',
+          'Rabies antibody titre test (for countries with a high rabies risk — blood sample taken at least 30 days after vaccination, then a 3-month wait before entry)',
           'Pet age — at least 15 weeks (vaccination + 21 days)',
           'Documents: Pet Passport (for the EU/EEA) or Animal Health Certificate (AHC) — for non-EU countries'
         ]},
@@ -91,6 +91,6 @@ export default {
     { title: 'EU Commission — Travelling with pets', url: 'https://food.ec.europa.eu/animals/movement-pets_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'SIAC — Companion Animal Information System', url: 'https://siac.vet/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

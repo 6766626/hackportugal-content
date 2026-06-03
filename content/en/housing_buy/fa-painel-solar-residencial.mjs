@@ -3,7 +3,7 @@ export default {
   id: 'fa-painel-solar-residencial',
   categoryId: 'housing_buy',
   title: 'Fundo Ambiental: voucher for residential solar panels',
-  tldr: 'Fundo Ambiental periodically opens calls to compensate residential solar panels: solar fotovoltaico for autoconsumo and solar térmico for hot water. In typical Aviso rounds, the per-dwelling cap reached around €2,500, but this is not a permanent benefit: in April 2026 you need to wait for a new Aviso/PRR round and check the conditions of that specific wave. You need housing in Portugal, NIF, no debts to AT/Segurança Social, an invoice and an installer from the permitted list.',
+  tldr: 'Fundo Ambiental periodically opens calls to compensate residential solar panels: solar fotovoltaico for autoconsumo and solar térmico for hot water. In typical Aviso rounds, the per-dwelling cap reached around €2,500, but this is not a permanent benefit: in May 2026 you need to wait for a new Aviso/PRR round and check the conditions of that specific wave. You need housing in Portugal, NIF, no debts to AT/Segurança Social, an invoice and an installer from the permitted list.',
   tags: ['fundoambiental', 'solar', 'housing', 'upac'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Fundo Ambiental is a state fund through which Portugal distributes subsidies for residential energy efficiency. For solar systems, this is usually not a “shop discount”, but compensation for part of the costs after installation and submission of an application on the Fundo Ambiental portal.' },
         { kind: 'paragraph', text: 'Support may cover solar fotovoltaico — panels for self-consumption of electricity, and solar térmico — panels for heating water. In previous Edifícios + Sustentáveis rounds, caps for individual typologies reached around €2,500 per dwelling, but the exact percentages, ceilings and eligible expenses are always set by the specific Aviso.' },
-        { kind: 'warning', text: 'As of April 2026, this is not an automatic right for a homeowner. If a new Aviso has not yet opened, payment for an installation “retroactively” cannot be guaranteed. Before signing a contract, check the admissibilidade das despesas date in the current Aviso.' }
+        { kind: 'warning', text: 'As of May 2026, this is not an automatic right for a homeowner. If a new Aviso has not yet opened, payment for an installation “retroactively” cannot be guaranteed. Before signing a contract, check the admissibilidade das despesas date in the current Aviso.' }
       ]
     },
     {
@@ -127,6 +127,6 @@ export default {
     { title: 'Decreto-Lei 15/2022 — organisation and operation of the Sistema Elétrico Nacional', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/15-2022-177634016', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE — Energy certification and efficiency in buildings', url: 'https://www.adene.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

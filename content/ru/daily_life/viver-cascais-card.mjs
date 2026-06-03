@@ -3,7 +3,7 @@ export default {
   id: 'viver-cascais-card',
   categoryId: 'daily_life',
   title: 'Карта Viver Cascais — льготы для резидентов муниципалитета',
-  tldr: 'Viver Cascais — муниципальная карта для жителей муниципалитета Кашкаиш (Cascais, Estoril, Alcabideche, São Domingos, Parede). Даёт скидки 20–50% на транспорт (MobiCascais), парковку, бассейны, спортивные клубы, культурные мероприятия и библиотеки. Бесплатная, оформляется по месту проживания: нужен Atestado de Residência от Junta de Freguesia. Подать заявку можно онлайн или в Loja Cascais.',
+  tldr: 'Viver Cascais — муниципальная карта для жителей муниципалитета Кашкаиш (Cascais, Estoril, Alcabideche, São Domingos, Parede). Бесплатный проезд на муниципальных автобусах MobiCascais, до 180 минут бесплатной парковки в день, скидки на бассейны, спортивные клубы, культурные мероприятия и библиотеки. Цифровая карта бесплатна; пластиковая стоит € 7 и действует 5 лет. Оформляется по месту проживания: подойдёт любой документ, подтверждающий проживание или налоговый адрес в муниципалитете (счёт за коммуналку, справка о налоговом адресе, Atestado de Residência от Junta de Freguesia и т. п.). Подать заявку можно онлайн в MyCascais или в Loja Cascais.',
   tags: ['cascais', 'viver', 'карта', 'льготы'],
   estimatedReadMinutes: 3,
   steps: [
@@ -12,9 +12,9 @@ export default {
       title: 'Кто может получить',
       content: [
         { kind: 'checklist', items: [
-          'Жители муниципалитета Кашкаиш с Atestado de Residência (проживание ≥ 30 дней)',
+          'Жители муниципалитета Кашкаиш, способные подтвердить проживание или налоговый адрес в муниципалитете',
           'Возраст неважен — дети с 6 лет могут иметь свою карту',
-          'Связанные с Кашкаишом работники и студенты также могут иметь профильные категории MobiCascais/Viver Cascais — проверяйте текущие категории на mobicascais.pt и cascais.pt',
+          'Связанные с Кашкаишом работники и студенты тоже подходят (по справке с работы или из учебного заведения) — категории смотрите на mobi.cascais.pt и cascais.pt',
           'Иностранцы с ВНЖ — подходят'
         ]}
       ]
@@ -26,16 +26,16 @@ export default {
         { kind: 'substeps', items: [
           { id: 'b1', title: '🚌 Транспорт MobiCascais', content: [
             { kind: 'checklist', items: [
-              'Бесплатные автобусы MobiCascais (кроме M-Line в Эшториле)',
-              'Бесплатные велосипеды MobiCascais Bikes (до 45 минут в день)',
+              'Бесплатный проезд на муниципальных автобусах MobiCascais (линии M01–M41, внутри муниципалитета) — нужно авторизоваться в приложении MobiCascais',
+              'Бесплатные электровелосипеды — 30 минут в день на первой поездке (через приложение Bird)',
               'Бесплатный проезд на шаттл-автобусе MobiPark между парковками и пляжами в сезон'
             ]}
           ]},
           { id: 'b2', title: '🅿️ Парковка', content: [
             { kind: 'checklist', items: [
-              'Dístico de residente — первый год бесплатно',
-              'Далее € 10–30 в год в зависимости от зоны',
-              'В центре Cascais и Estoril платная зона дешевле для резидентов'
+              'До 180 минут бесплатной парковки в день в зонах с ограничением времени (нужна предварительная подписка на viver.cascais.pt и подтверждение налогового адреса в муниципалитете)',
+              '180 минут не накапливаются, обновляются каждый день, их можно делить между авто, оформленными на владельца карты',
+              'В синих зонах парковка бесплатна в низкий сезон (1 ноября — 30 апреля)'
             ]}
           ]},
           { id: 'b3', title: '🏊 Спорт', content: [
@@ -69,17 +69,17 @@ export default {
       title: 'Как получить',
       content: [
         { kind: 'substeps', items: [
-          { id: 'g1', title: '1. Оформить Atestado de Residência', content: [
-            { kind: 'paragraph', text: 'В Junta de Freguesia по месту жительства (Cascais, Carcavelos, Parede, Estoril и т.д.). Нужен договор аренды / документ о собственности + Cartão de Cidadão/ВНЖ. Стоимость € 5–15.' }
+          { id: 'g1', title: '1. Подготовить подтверждение проживания', content: [
+            { kind: 'paragraph', text: 'Подойдёт любой документ не старше 3 месяцев: счёт за коммуналку (вода, свет, газ, телефон, ТВ), справка о налоговом адресе или о составе семьи из Finanças, Atestado de Residência от Junta de Freguesia и т. п. Отдельно оформлять Atestado необязательно. Если всё же берёте Atestado, он стоит € 5–15.' }
           ]},
           { id: 'g2', title: '2. Подать заявку на Viver Cascais', content: [
             { kind: 'checklist', items: [
               'Онлайн: сначала зарегистрируйтесь в MyCascais (my.cascais.pt/viver), затем запросите карту',
-              'Или лично: Loja Cascais (Av. dos Combatentes 8-10) / Loja Parede',
-              'Документы: Atestado de Residência, Cartão de Cidadão/ВНЖ, фото (можно с телефона), электронная почта',
-              'Регистрация бесплатна',
-              'Карта приходит по почте за 7–14 дней, либо можно заказать получение в Loja',
-              'До получения пластиковой карты работает виртуальная карта в приложении MobiCascais'
+              'Или лично: Loja Cascais (Rua Manuel Joaquim Avelar, 118, piso -1), Loja Tires (Praça Fernando Lopes Graça, 156A) или стойка в CascaiShopping',
+              'Документы: подтверждение проживания, Cartão de Cidadão/ВНЖ, фото (можно с телефона), электронная почта',
+              'Цифровая карта бесплатна — после проверки данных доступна сразу в приложении MobiCascais (QR-код для проезда)',
+              'Пластиковая карта необязательна: стоит € 7, действует 5 лет, приходит по почте или выдаётся в Loja',
+              'Профиль нужно продлевать раз в 5 лет (резидентам — по подтверждению налогового адреса в муниципалитете)'
             ]}
           ]},
           { id: 'g3', title: '3. Скачать приложение MobiCascais', content: [
@@ -102,14 +102,15 @@ export default {
     }
   ],
   costs: [
-    { label: 'Карта Viver Cascais', amountEUR: 0 },
-    { label: 'Atestado de Residência от Junta de Freguesia', amountEURMin: 5, amountEURMax: 15 }
+    { label: 'Цифровая карта Viver Cascais', amountEUR: 0 },
+    { label: 'Пластиковая карта Viver Cascais (необязательна, действует 5 лет)', amountEUR: 7 },
+    { label: 'Atestado de Residência от Junta de Freguesia (необязательно)', amountEURMin: 5, amountEURMax: 15 }
   ],
   sources: [
-    { title: 'Viver Cascais — оформление и продление (официальная страница)', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
-    { title: 'MobiCascais — приложение и сервисы', url: 'https://www.mobicascais.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Câmara Municipal de Cascais', url: 'https://www.cascais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Viver Cascais — оформление и продление (официальная страница)', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Cartão Viver Cascais — MobiCascais', url: 'https://mobi.cascais.pt/viver-cascais', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: '180 минут бесплатной парковки для резидентов — MobiCascais', url: 'https://mobi.cascais.pt/geral/180-minutos-de-estacionamento-gratuitos-para-residentes', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

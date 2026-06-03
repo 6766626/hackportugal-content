@@ -18,7 +18,7 @@ export default {
           'Amoreiras Shopping Center — ближе к центру и Campo de Ourique/Marquês de Pombal. Меньше Colombo, но удобен для повседневных покупок, еды и кино.',
           'El Corte Inglés Lisboa — скорее универсальный department store, чем классический mall: продукты, косметика, одежда, техника, товары для дома, gourmet-зона. Метро São Sebastião.',
           'Armazéns do Chiado — маленький центр в туристическом Chiado; удобен для быстрых покупок в центре, но не для большой закупки.',
-          'UBBO — формально Amadora, не Лиссабон, но популярен у тех, кто живёт в пригородах. Нужна машина или автобус; много крупных магазинов и IKEA рядом в Alfragide не входит в сам ТЦ.'
+          'UBBO — формально Amadora, не Лиссабон, но популярен у тех, кто живёт в пригородах. Нужна машина или автобус; много крупных магазинов, а IKEA по соседству в Alfragide не входит в сам ТЦ.'
         ] },
         { kind: 'warning', text: 'Если цель — быстро купить базовые вещи после переезда, не начинайте с Baixa/Chiado: там красиво, но дороже, туристичнее и меньше больших супермаркетов. Colombo или Vasco da Gama практичнее.' }
       ]
@@ -105,6 +105,6 @@ export default {
     { title: 'Centro Vasco da Gama — официальный сайт торгового центра', url: 'https://www.centrovascodagama.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'MAR Shopping Matosinhos — официальный сайт торгового центра', url: 'https://www.marshopping.com/pt/matosinhos', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

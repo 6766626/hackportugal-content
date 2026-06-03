@@ -3,7 +3,7 @@ export default {
   id: 'pesca-submarina-apneia',
   categoryId: 'food_leisure',
   title: 'Spearfishing on breath-hold (apnoea) — licence and rules',
-  tldr: 'Spearfishing with a speargun on breath-hold is a separate category of pesca lúdica (recreational fishing), the Submarina subcategory. Minimum age: 16. Licence from DGRM (Directorate-General for Natural Resources, Safety and Maritime Services) (~€25 per year) + mandatory medical certificate of fitness for apnoea + mandatory insurance. Scuba and any self-contained breathing equipment are prohibited. Mask, fins, spear and your own lungs only. Daily limit: 10 kg + 1 fish. Total ban in the Berlengas and Arrábida (core) natural parks, and partial bans in the Açores.',
+  tldr: 'Spearfishing with a speargun on breath-hold is a separate category of pesca lúdica (recreational fishing), the Submarina subcategory. Minimum age: 16. Licence from DGRM (Directorate-General for Natural Resources, Safety and Maritime Services) (~€25 per year) + mandatory medical certificate of fitness for apnoea + mandatory insurance. Scuba and any self-contained breathing equipment are prohibited. Mask, fins, spear and your own lungs only. Daily limit: 15 kg (the largest specimen does not count). Total ban in the Berlengas and Arrábida (core) natural parks, and partial bans in the Açores.',
   tags: ['pesca', 'apnoea', 'submarina', 'spearfishing', 'dgrm'],
   estimatedReadMinutes: 5,
   steps: [
@@ -145,6 +145,6 @@ export default {
     { title: 'Decreto-Lei 246/2000 — Pesca Lúdica e Submarina', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'ICNF — Marine parks and restricted zones', url: 'https://www.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -132,6 +132,6 @@ export default {
     { title: 'Visit Lisboa — Restaurantes étnicos', url: 'https://www.visitlisboa.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Tiendas de Rusia (ES entrega em PT)', url: 'https://www.tiendasderusia.es/', kind: 'company', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

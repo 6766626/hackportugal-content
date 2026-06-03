@@ -93,7 +93,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'After obtaining a residence permit and the ability to activate Chave Móvel Digital, it is better to set up CMD: most Portuguese services are optimised specifically for it. CMD is linked to Portuguese identifiers and is more convenient for signatures, notifications and regular login.' },
         { kind: 'checklist', items: [
-          'Activate CMD through a loja de cidadão, Espaço Cidadão, consulate or available online channels, if you meet the conditions.',
+          'Activate CMD through a Loja de Cidadão, Espaço Cidadão, consulate or available online channels, if you meet the conditions.',
           'Link a Portuguese phone number and email that you actually control.',
           'Check login to ePortugal, Finanças, Segurança Social Direta, SNS 24.',
           'Keep the foreign eID as a backup method for EU services.',
@@ -135,6 +135,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

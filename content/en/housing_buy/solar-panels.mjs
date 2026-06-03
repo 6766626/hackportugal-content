@@ -90,7 +90,7 @@ export default {
               'Smart meter / monitoring system',
               'Installation work',
               'Registration with DGEG (often done by the installer)',
-              'Reduced IVA rate of 6% (since 2024) for housing'
+              'IVA: since 1 July 2025 the reduced 6% rate on solar panels has been abolished — the standard 23% rate applies (verba 2.37 of List I expired). A return to 6% was discussed for the 2026 State Budget but is not in force today'
             ]}
           ]},
           { id: 'c3', title: 'Subsidies — Fundo Ambiental', content: [

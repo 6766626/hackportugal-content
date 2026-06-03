@@ -3,7 +3,7 @@ export default {
   id: 'parental-leave-rights',
   categoryId: 'work_business',
   title: 'Licença de maternidade/paternidade e direitos parentais',
-  tldr: 'Licença de maternidade/paternidade (licença parental) em Portugal em 2026: licença parental inicial — 120 dias (100%), Substituir por: «120 dias — 100%; 150 dias sem partilha — 80%; 150 dias partilhada — 100%; 180 dias partilhada — 83% ou 90% com partilha reforçada ao abrigo da Lei 13/2023».\n\nApós as 6 semanas obrigatórias da mãe, o tempo restante pode ser partilhado pelos pais. Pai: 28 dias obrigatórios (7 — imediatamente após o nascimento, 21 — no prazo de 42 dias) + até 7 dias adicionais em conjunto com a mãe. O posto de trabalho fica protegido durante a licença. Amamentação/aleitação: normalmente 2 horas por dia (2 períodos × 1 hora), após 1 ano em caso de amamentação — é necessário atestado médico. Direito a horário flexível / trabalho a tempo parcial — até aos 12 anos da criança (Código do Trabalho art. 55/56). Para crianças com necessidades especiais — aplicam-se regras alargadas.',
+  tldr: 'Licença de maternidade/paternidade (licença parental) em Portugal em 2026. Modalidades de licença parental inicial: 120 dias — 100%; 150 dias sem partilha — 80%; 150 dias partilhada — 100%; 180 dias partilhada — 83% ou 90% com partilha reforçada (pelo menos 60 dias gozados exclusivamente pelo pai) ao abrigo da Lei 13/2023.\n\nApós as 6 semanas obrigatórias da mãe, o tempo restante pode ser partilhado pelos pais. Pai: 28 dias obrigatórios (7 — imediatamente após o nascimento, 21 — no prazo de 42 dias) + até 7 dias adicionais em conjunto com a mãe. O posto de trabalho fica protegido durante a licença. Amamentação/aleitação: normalmente 2 horas por dia (2 períodos × 1 hora), após 1 ano em caso de amamentação — é necessário atestado médico. Direito a horário flexível / trabalho a tempo parcial — até aos 12 anos da criança (Código do Trabalho art. 55/56). Para crianças com necessidades especiais — aplicam-se regras alargadas.',
   tags: ['maternidade', 'licença parental', 'licença parental', 'mãe', 'pai', 'segurança social'],
   estimatedReadMinutes: 8,
   steps: [
@@ -16,7 +16,7 @@ export default {
             { kind: 'checklist', items: [
               '🏥 Parte obrigatória: 6 semanas (42 dias) imediatamente após o parto — só a mãe pode gozar',
               '👶 Licença parental inicial: 120 dias pagos a 100% (após os 42 dias obrigatórios da mãe, o restante pode ser utilizado pela mãe ou pelo pai)',
-              '🤝 Inicial partilhada: 150 dias (a outra taxa) ou 180 dias pagos a 90% se forem cumpridas as condições de partilha da licença entre os pais (Lei 13/2023)',
+              '🤝 Inicial partilhada: 150 dias — 100% ou 180 dias — 83% (90% com partilha reforçada, pelo menos 60 dias gozados exclusivamente pelo pai) se forem cumpridas as condições de partilha da licença entre os pais (Lei 13/2023)',
               '⏰ É possível iniciar a licença antes do parto com atestado médico (regra geral, cerca de 10 dias antes)',
               '👼 Em caso de gémeos: +30 dias',
               '👶 Em caso de trigémeos: +60 dias'
@@ -118,7 +118,7 @@ export default {
       title: '💡 Conselhos',
       content: [
         { kind: 'checklist', items: [
-          '💰 Substituir por: «180 dias partilhada pode ser um regime vantajoso, mas confirme a taxa: 83% na variante shared normal ou 90% com partilha reforçada ao abrigo da Lei 13/2023. Compare o rendimento familiar total e a possibilidade de cada progenitor gozar o período exclusivo exigido»., mas compare o rendimento familiar total e a possibilidade de o pai gozar efetivamente a sua parte',
+          '💰 180 dias partilhada pode ser um regime vantajoso, mas confirme a taxa: 83% na variante normal com partilha ou 90% com partilha reforçada (pelo menos 60 dias gozados exclusivamente pelo pai) ao abrigo da Lei 13/2023. Compare o rendimento familiar total e a possibilidade de cada progenitor gozar o período exclusivo exigido',
           '📅 Antes/depois do nascimento, escolha o regime de licença parental inicial: 120, 150 ou partilhada 150/180 dias; para 180 dias partilhada, acorde antecipadamente com as entidades empregadoras os períodos da mãe e do pai',
           '🩺 Cálculo do subsídio: remuneração de referência = remuneração dos 6 dos 8 meses anteriores / 180. Se entrar em licença pouco depois de um aumento, o novo salário pode não entrar totalmente na base de cálculo',
           '🛡️ A licença parental não interrompe o tempo de residência legal, se a autorização de residência continuar válida/prorrogada. Para a nacionalidade, verifique a redação atual da Lei da Nacionalidade: a Lei Orgânica 1/2026, de 18 de maio (que altera a Lei 37/81), já está em vigor desde 19.05.2026 e, para novos pedidos, exige 7 anos de residência (nacionais CPLP/UE) ou 10 anos (restantes); a regra dos 5 anos só se mantém para procedimentos já pendentes antes de 19.05.2026 (Art. 7.º n.º 2)',
@@ -141,6 +141,6 @@ export default {
     { title: 'CITE — Comissão para a Igualdade no Trabalho', url: 'https://cite.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei Orgânica 1/2026, de 18 de maio — alteração à Lei 37/81 (Lei da Nacionalidade)', url: 'https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

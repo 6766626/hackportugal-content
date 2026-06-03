@@ -3,7 +3,7 @@ export default {
   id: 'higher-education-foreigners',
   categoryId: 'education_children',
   title: 'Higher education in Portugal — for international students',
-  tldr: 'Bachelor’s degree (licenciatura) — 3 years, master’s degree (mestrado) — 2 years, PhD (doutoramento) — 3–4 years. Admission is via Concurso Nacional de Acesso (for Portugal residents) or Concurso Especial para Estudantes Internacionais (only for non-EU citizens).\n\nCost: EU residents pay the same as Portuguese students — €700–1,400/year at public universities, non-EU students — €2,000–7,000/year at public universities, €3,500–15,000/year at private ones. Top universities: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 in the world top 500).\n\nErasmus+ — full access. D4 Student Visa for non-EU citizens.',
+  tldr: 'Bachelor’s degree (licenciatura) — 3 years, master’s degree (mestrado) — 2 years, PhD (doutoramento) — 3–4 years. Admission is via Concurso Nacional de Acesso (for Portugal residents) or Concurso Especial para Estudantes Internacionais (only for non-EU citizens).\n\nCost: EU residents pay the same as Portuguese students — €700–1,400/year at public universities, non-EU students — €2,000–7,000/year at public universities, €3,500–15,000/year at private ones. Top universities: Universidade de Lisboa, Universidade do Porto, Universidade Nova de Lisboa, Universidade de Coimbra (5 Portuguese universities are in the world top 500 per QS).\n\nErasmus+ — full access. D4 Student Visa for non-EU citizens.',
   tags: ['higher education', 'licenciatura', 'university', 'erasmus'],
   estimatedReadMinutes: 7,
   steps: [
@@ -38,7 +38,7 @@ export default {
           ]},
           { id: 'a2', title: 'Non-EU citizens', content: [
             { kind: 'checklist', items: [
-              'Concurso Especial para Estudantes Internacionais (CEIE)',
+              'Concurso Especial para Estudantes Internacionais (CEEI)',
               'A process separate from CNA — each university decides for itself',
               'Requirements: secondary school diploma suitable for higher education in the country of origin + certificado de equivalência (1–3 months to obtain through DGES)',
               'Often — the university’s own entrance exams / portfolio / interview',
@@ -69,7 +69,7 @@ export default {
           { id: 'u1', title: 'Lisbon', content: [
             { kind: 'checklist', items: [
               'Universidade de Lisboa (ULisboa) — the largest, top-300 QS. Medicine, law, engineering, art',
-              'Universidade Nova de Lisboa — modern, top-300 QS. Economics (NovaSBE — one of the best in Europe), engineering, healthcare',
+              'Universidade Nova de Lisboa — modern, top-350 QS. Economics (NovaSBE — one of the best in Europe), engineering, healthcare',
               'Universidade Católica Portuguesa (UCP) — private, prestigious (Catholic) — law, management',
               'Iscte (Instituto Universitário de Lisboa) — social sciences, business',
               'ISCSP — political science, international relations'
@@ -101,7 +101,7 @@ export default {
         { kind: 'substeps', items: [
           { id: 'c1', title: 'Public universities', content: [
             { kind: 'checklist', items: [
-              'EU/residents considered national/EU: licenciatura — up to ~€697/year maximum (DGES propina cap); master’s and PhD — separate tariffs',
+              'EU/residents considered national/EU: licenciatura — up to €697/year maximum in 2025/26 (DGES propina cap); from 2026/27 the cap rises to €710/year; master’s and PhD — separate tariffs',
               'Non-EU (CEEI, Estudante Internacional): international propinas are set by each university/course — see the edital for the specific course',
               'Some medicine / engineering faculties — at the upper end of this range'
             ]}
@@ -119,10 +119,10 @@ export default {
             { kind: 'checklist', items: [
               '📚 Textbooks: €100–300/semester (you can buy second-hand in Facebook groups)',
               '🏠 Student residence (residência universitária): €150–300/month',
-              '🍽️ University canteen: €2.65/meal (cantina social)',
+              '🍽️ University canteen: ~€3/meal (refeição social, updated on 1 October by an IAS-based formula)',
               '🚇 Student travel pass: €30/month (Lisbon/Porto)',
               'Health insurance (for non-EU students): ~€25/month',
-              '💳 Acedo card (student): discounts on transport, food, tickets'
+              '💳 Cartão Jovem (European Youth Card, issued by IPDJ, ages 12–29): discounts on transport, food, tickets'
             ]}
           ]}
         ]}
@@ -186,7 +186,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Licenciatura at a public university (national/EU)', amountEURMax: 697, note: '€/year — DGES propina cap' },
+    { label: 'Licenciatura at a public university (national/EU)', amountEURMax: 697, note: '€/year — DGES propina cap (2025/26); from 2026/27 — €710' },
     { label: 'Licenciatura at a public university (Estudante Internacional / CEEI)', note: 'set by each university/course — see the edital' },
     { label: 'Licenciatura at a private university', amountEURMin: 3500, amountEURMax: 15000, note: '€/year' },
     { label: 'Residência universitária', amountEURMin: 150, amountEURMax: 300, note: '€/month' },
@@ -201,6 +201,6 @@ export default {
     { title: 'FCT — Foundation for Science and Technology', url: 'https://www.fct.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Study in Portugal', url: 'https://www.studyinportugal.pt/', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

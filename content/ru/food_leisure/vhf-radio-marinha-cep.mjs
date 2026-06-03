@@ -3,7 +3,7 @@ export default {
   id: 'vhf-radio-marinha-cep',
   categoryId: 'food_leisure',
   title: 'Морское радио VHF — лицензия CEP и сертификат оператора',
-  tldr: 'Если у тебя на борту есть VHF-радиостанция (или планируешь установить), нужны два документа: 1) Licença de Estação (CEP) от DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos — морское ведомство) на саму радиостанцию, заявка через портал www.bmar.pt — 30–80 € в год; 2) Certificado de Operador (SRC/LRC) — личный допуск к работе в эфире, по сути «права» оператора. SRC (Short Range Certificate) — для VHF у берега, экзамен 80–150 €. LRC (Long Range Certificate) — для DSC и спутниковой/дальней связи. Без этих документов работа на морских частотах — нарушение, штрафы до 2 000 €. Аварийный канал 16 при включённом VHF нужно постоянно прослушивать. Иностранные сертификаты RYA SRC, ICC VHF и UKHO признаются.',
+  tldr: 'Если у тебя на борту есть VHF-радиостанция (или планируешь установить), нужны два документа: 1) Licença de Estação (CEP) от DGRM (Direção-Geral de Recursos Naturais, Segurança e Serviços Marítimos — морское ведомство) на саму радиостанцию, заявка через портал www.bmar.pt — разовый сбор 88,80 € за полосу частот; 2) Certificado de Operador (SRC/LRC) — личный допуск к работе в эфире, по сути «права» оператора. SRC (Short Range Certificate) — для VHF у берега, экзамен 80–150 €. LRC (Long Range Certificate) — для DSC и спутниковой/дальней связи. Без этих документов работа на морских частотах — нарушение, штрафы для физлиц до 3 740 €. Аварийный канал 16 при включённом VHF нужно постоянно прослушивать. Иностранные сертификаты RYA SRC и ICC VHF признаются.',
   tags: ['vhf', 'radio', 'anacom', 'src', 'navegacao'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,8 +32,8 @@ export default {
           'Понадобится: регистрация лодки, данные VHF (модель, серийный номер, наличие DSC), MMSI',
           'MMSI (Maritime Mobile Service Identity) — обязательный 9‑значный идентификатор для DSC',
           'MMSI оформляется через DGRM и бесплатно при подаче на CEP',
-          'Стоимость CEP: 30–80 € в год (зависит от категории судна)',
-          'Продление: ежегодно; оплатить можно через Multibanco (платёж через банкомат/онлайн) или MB WAY (мобильный платёжный сервис)'
+          'Стоимость CEP: разовый сбор 88,80 € за каждую лицензируемую полосу частот (для прогулочного судна)',
+          'Для прогулочных судов лицензия бессрочна (Decreto-Lei 93/2018) — ежегодного продления не требуется; оплатить можно через Multibanco (платёж через банкомат/онлайн) или MB WAY (мобильный платёжный сервис)'
         ] },
         { kind: 'paragraph', text: 'Если меняешь лодку, CEP не переносится — оформляй заново.' }
       ]
@@ -145,7 +145,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'CEP — лицензия на станцию', amountEURMin: 30, amountEURMax: 80, note: 'В год' },
+    { label: 'CEP — лицензия на станцию', amountEUR: 88.8, note: 'Разовый сбор за полосу частот; для прогулочных судов бессрочна' },
     { label: 'Назначение MMSI', amountEUR: 0, note: 'Бесплатно с CEP' },
     { label: 'Курс SRC', amountEURMin: 100, amountEURMax: 200 },
     { label: 'Экзамен SRC', amountEURMin: 30, amountEURMax: 80 },
@@ -159,8 +159,9 @@ export default {
     { title: 'DGRM — Certificação profissional (certificado de operador radiotelefonista)', url: 'https://www.dgrm.pt/certificacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'ANACOM — Radiocomunicações marítimas (espetro)', url: 'https://www.anacom.pt/render.jsp?categoryId=387625', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 53/2009 — radiocomunicações', url: 'https://dre.pt/dre/detalhe/decreto-lei/53-2009-606037', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'Decreto-Lei 93/2018 — náutica de recreio (licença de estação, art. 51.º)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/93-2018-117038233', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'ITU Radio Regulations', url: 'https://www.itu.int/pub/R-REG-RR', kind: 'official', language: 'en', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

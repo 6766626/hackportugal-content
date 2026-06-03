@@ -3,7 +3,7 @@ export default {
   id: 'apanha-bivalves-mar',
   categoryId: 'food_leisure',
   title: 'Сбор моллюсков (apanha de bivalves) — лицензия и санитарные зоны',
-  tldr: 'Сбор моллюсков на пляже и в прибрежной зоне (ameijoa, berbigão, conquilha, longueirão) — отдельная категория Pesca Lúdica (любительское рыболовство) от DGRM (Генеральное управление морских ресурсов)\.\n\nЛицензия "Apanha Apeada": ~10 € на 3 дня, ~25 € на год. Дневной лимит: 1 кг с раковиной на человека. Собирать можно ТОЛЬКО в санитарно классифицированных зонах (zonas classificadas): IPMA (Институт моря и атмосферы) публикует список A/B/C каждый месяц. Сбор в неклассифицированных зонах — незаконен ИЛИ требует обязательной термической обработки (даже если вид разрешён)\.\n\nЗапрещены: лом, любые механические инструменты, а также сбор раковин меньше минимального размера (ameijoa 25 мм, berbigão 25 мм, longueirão 100 мм)\.\n\nЛицензия Pesca Lúdica à linha для удочки НЕ покрывает сбор моллюсков — нужна отдельная лицензия.',
+  tldr: 'Сбор моллюсков на пляже и в прибрежной зоне (ameijoa, berbigão, conquilha, longueirão) — это apanha lúdica в рамках Pesca Lúdica (любительское рыболовство), регулируется DGRM (Генеральное управление морских ресурсов).\n\nРучной сбор без инструментов лицензии не требует. Если используешь инструмент (грабли, нож, sacho), нужна любительская лицензия «apeada»: ~2 € в день, ~4 € в месяц, ~8 € в год (Portaria 14/2014). Дневной лимит на моллюсков (bivalves) — 2 кг с раковиной на человека. Собирать можно ТОЛЬКО в санитарно классифицированных зонах (zonas classificadas): IPMA (Институт моря и атмосферы) публикует список A/B/C каждый месяц. Сбор в неклассифицированных зонах запрещён.\n\nВажно: сбор bivalves запрещён с 1 мая по 15 июня (defeso) в океанских и внутренних морских водах.\n\nЗапрещены: лом, любые механические инструменты, а также сбор раковин меньше минимального размера (ameijoa 25 мм, berbigão 25 мм, longueirão 100 мм).',
   tags: ['bivalves', 'mariscagem', 'apanha', 'ameijoa', 'dgrm', 'ipma'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,12 +14,12 @@ export default {
         { kind: 'paragraph', text: 'Apanha de bivalves — это любительский сбор двустворчатых моллюсков и других съедобных морских организмов в прибрежной зоне: на песчаных пляжах во время отлива, на скалах, в эстуариях.\n\nВ Португалии это вид Pesca Lúdica (любительское рыболовство), юридически регулируется DGRM (Генеральное управление морских ресурсов), а санитарный контроль осуществляет IPMA (Институт моря и атмосферы).' },
         { kind: 'checklist', items: [
           'Bivalves: ameijoa-boa (Ruditapes decussatus), ameijoa-japonesa (R. philippinarum), berbigão (Cerastoderma edule), longueirão (Ensis spp.), navalha (Solen spp.)',
-          'Другие моллюски: pé-de-burrinho, lapa (пателла), mexilhão (мидии) на скалах',
+          'Другие моллюски: pé-de-burrinho, lapa (морское блюдечко), mexilhão (мидии) на скалах',
           'Ракообразные: caranguejo, camarão, percebes (морские желуди) — частично попадают сюда',
           'Иглокожие: ouriço-do-mar (морской ёж) — особо регулируется',
           'НЕ входит: ловля удочкой (нужна Pesca Lúdica à linha), вытаскивание осьминога руками из норы (запрещено с 2017), лангусты (только профессиональная добыча)'
         ] },
-        { kind: 'warning', text: 'Лицензия Pesca Lúdica à linha (для удочки) НЕ действует на bivalves. И наоборот. Многие думают: «у меня есть лицензия», идут копать ameijoa в Algarve и получают штраф 250-500 €.' }
+        { kind: 'warning', text: 'Ручной сбор без инструментов лицензии не требует. Но как только берёшь инструмент (грабли, нож, sacho), нужна любительская лицензия «apeada». Многие копают ameijoa в Algarve граблями вообще без лицензии и получают штраф 100-500 €.' }
       ]
     },
     {
@@ -40,17 +40,18 @@ export default {
     },
     {
       id: 'how-to-license',
-      title: 'Получение лицензии Apanha Apeada',
+      title: 'Нужна ли лицензия и как её оформить',
       content: [
-        { kind: 'paragraph', text: 'Лицензию оформляют по нескольким каналам (host portal.dgrm.mm.gov.pt больше не работает): через любой банкомат Multibanco (Pagamentos e Outros Serviços → Estado e Setor Público → Licenciamento de Pesca Lúdica — для граждан с португальской картой Multibanco); на стойке DGRM в Лиссабоне (для резидентов и иностранцев); в региональных отделениях DRAP (Norte, Centro, LVT, Alentejo, Algarve); либо через портал BMar — Balcão Eletrónico do Mar на www.bmar.pt (для нерезидентов и иностранцев, оплата банковским переводом). Общая информация — на www.dgrm.pt.' },
+        { kind: 'paragraph', text: 'Сначала главное: ручной сбор моллюсков без инструментов лицензии НЕ требует (Decreto-Lei 101/2013). Лицензия нужна, если используешь инструмент (грабли, нож, sacho) — тогда подойдёт любительская лицензия «apeada» (для сбора и рыбалки с берега).' },
+        { kind: 'paragraph', text: 'Оформляют её по нескольким каналам: через любой банкомат Multibanco (Pagamentos e Outros Serviços → Estado e Setor Público → Licenciamento de Pesca Lúdica — для граждан с португальской картой Multibanco); на стойке DGRM в Лиссабоне; в региональных отделениях DRAP (Norte, Centro, LVT, Alentejo, Algarve); либо через портал BMar — Balcão Eletrónico do Mar на www.bmar.pt (для нерезидентов и иностранцев, оплата банковским переводом). Общая информация — на www.dgrm.pt.' },
         { kind: 'checklist', items: [
-          '3 дня: ~10 €',
-          '1 месяц: ~15 €',
-          '1 год: ~25 €',
-          '3 года: ~60 €',
+          'Ручной сбор без инструментов: бесплатно, лицензия не нужна',
+          'Лицензия «apeada» — 1 день: ~2 €',
+          'Лицензия «apeada» — 1 месяц: ~4 €',
+          'Лицензия «apeada» — 1 год: ~8 €',
           'Лицензия именная, передавать нельзя'
         ] },
-        { kind: 'paragraph', text: 'Комбо «à linha apeada + apanha» иногда выгоднее, если ты и рыбачишь, и собираешь моллюсков.' }
+        { kind: 'paragraph', text: 'Тарифы установлены Portaria 14/2014; итоговую цену уточняй на портале при оформлении.' }
       ]
     },
     {
@@ -68,13 +69,14 @@ export default {
           'Polvo (осьминог): 750 г (но руками вытаскивать из норы запрещено с 2017)',
           'Percebes: 25 мм у основания прикрепления'
         ] },
-        { kind: 'paragraph', text: 'Дневной лимит:' },
+        { kind: 'paragraph', text: 'Дневной лимит (Portaria 14/2014; общий потолок любительского улова — 10 кг на человека в день):' },
         { kind: 'checklist', items: [
-          'Все bivalves суммарно: 1 кг с раковиной на человека в сутки',
+          'Все bivalves суммарно: 2 кг с раковиной на человека в сутки',
           'Percebes: 0,5 кг суммарно (особо охраняемый вид!)',
-          'Mexilhão: 1 кг',
+          'Mexilhão (мидии): 3 кг',
           'Polvo: до 5 кг (набрать сложно, но правило есть)'
         ] },
+        { kind: 'warning', text: 'Сезонный запрет (defeso): сбор bivalves запрещён с 1 мая по 15 июня в океанских и внутренних морских водах. Плюс местные капитании могут вводить дополнительные периоды и зоны запрета — всегда проверяй актуальный edital.' },
         { kind: 'paragraph', text: 'Разрешённые и запрещённые инструменты:' },
         { kind: 'checklist', items: [
           '✅ Только ручной сбор (пальцы, тонкая палочка)',
@@ -166,21 +168,22 @@ export default {
     }
   ],
   costs: [
-    { label: 'Apanha Apeada — 3 дня', amountEUR: 10 },
-    { label: 'Apanha Apeada — 1 месяц', amountEUR: 15 },
-    { label: 'Apanha Apeada — 1 год', amountEUR: 25 },
-    { label: 'Combo (à linha + apanha) — год', amountEURMin: 35, amountEURMax: 50, note: 'Проверь итоговую цену на портале DGRM при оформлении' },
+    { label: 'Ручной сбор без инструментов', amountEUR: 0, note: 'Лицензия не требуется' },
+    { label: 'Лицензия «apeada» — 1 день', amountEUR: 2 },
+    { label: 'Лицензия «apeada» — 1 месяц', amountEUR: 4 },
+    { label: 'Лицензия «apeada» — 1 год', amountEUR: 8, note: 'Тарифы по Portaria 14/2014; уточняй при оформлении' },
     { label: 'Sacha (грабли) для bivalves', amountEURMin: 15, amountEURMax: 35, note: 'В Decathlon и рыболовных магазинах' },
     { label: 'Штраф без лицензии', amountEURMin: 100, amountEURMax: 500 },
     { label: 'Штраф в зоне PROIBIDO', amountEURMin: 250, amountEURMax: 1500 }
   ],
   sources: [
-    { title: 'DGRM — Pesca Lúdica e Apanha', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPMA — Bivalves: zonas e classificação sanitária', url: 'https://www.ipma.pt/pt/bivalves/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPMA Bivalves App — карта зон в реальном времени (iOS/Android)', url: 'https://www.ipma.pt/pt/bivalves/avisos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 246/2000 — Pesca Lúdica e Apanha', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 27/2001 — минимальный размер por espécie', url: 'https://dre.pt/dre/detalhe/portaria/27-2001-411720', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'DGRM — Pesca Lúdica', url: 'https://www.dgrm.pt/pesca-pl-licenciamento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'DGRM — Apanha (utensílios e espécies)', url: 'https://www.dgrm.pt/apanha', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'IPMA — Bivalves: zonas e classificação sanitária', url: 'https://www.ipma.pt/pt/bivalves/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'IPMA Bivalves App — карта зон в реальном времени (iOS/Android)', url: 'https://www.ipma.pt/pt/bivalves/avisos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Decreto-Lei 101/2013 — regime jurídico da pesca lúdica', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2013-34538275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Portaria 14/2014 — licenças, taxas e limites de captura', url: 'https://dre.pt/dre/detalhe/portaria/14-2014-278910', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

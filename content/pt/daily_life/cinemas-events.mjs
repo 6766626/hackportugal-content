@@ -63,7 +63,7 @@ export default {
               'MEO Arena (antiga Altice Arena, Lisboa, Parque das Nações) — principal sala de concertos, Coldplay, Taylor Swift, festivais',
               'Coliseu dos Recreios (Lisboa) — sala histórica, 4000 lugares',
               'Super Bock Arena (Porto) — 8000 lugares',
-              'Teatro Nacional D. Maria II (Lisboa) — teatro clássico. Atenção: o edifício principal no Rossio está fechado para obras, os espectáculos decorrem no âmbito da programação em trânsito noutros espaços — confirme o endereço específico no bilhete',
+              'Teatro Nacional D. Maria II (Lisboa) — teatro clássico. Atenção: o edifício principal no Rossio esteve fechado para uma longa obra; a reabertura oficial está prevista para Setembro de 2026 (com uma programação Prólogo no Rossio no Verão de 2026). Até lá, alguns espectáculos decorrem noutros espaços — confirme o endereço específico no bilhete',
               'Teatro Nacional de São Carlos (Lisboa) — ópera',
               'Casa da Música (Porto) — concertos de clássica a jazz'
             ]}
@@ -102,7 +102,7 @@ export default {
               'Padel — aulas individuais (ver o guia separado gyms-fitness)',
               'MMA / boxe — raro, 30-100 €',
               'Desporto motorizado — autódromo do Estoril, MotoGP Portimão',
-              'Ténis — Oeiras Open / eventos ATP Challenger (o antigo Millennium Estoril Open ATP 250 saiu do calendário depois de 2024); o estado e as datas mudam — confirme no calendário ATP e na Federação Portuguesa de Ténis'
+              'Ténis — o Millennium Estoril Open regressou ao circuito: em 2025 decorreu como ATP Challenger 175 e, a partir de 2026, volta a ter estatuto de ATP 250 (em 2026 realiza-se em Julho, em terra batida, em Cascais); o estado e as datas mudam — confirme no calendário ATP e na Federação Portuguesa de Ténis'
             ]}
           ]}
         ]}
@@ -120,8 +120,7 @@ export default {
           'EDP Cool Jazz (Cascais, Julho) — jazz, 40-100 € por noite',
           'Festas de São João do Porto (23-24 de Junho) — cultura tradicional, eventos municipais gratuitos',
           'Festas de Lisboa / Lisboa na Rua (Junho) — programas municipais gratuitos da EGEAC, ver agenda',
-          'Festa de Santo António (Lisboa, 12-13 de Junho) — grande festival da cidade, gratuito',
-          'São João do Porto (23-24 de Junho) — festival do Porto'
+          'Festa de Santo António (Lisboa, 12-13 de Junho) — grande festival da cidade, gratuito'
         ]}
       ]
     },
@@ -172,6 +171,6 @@ export default {
     { title: 'Agenda Cultural de Lisboa', url: 'https://www.agendalx.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Porto — Eventos', url: 'https://www.visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

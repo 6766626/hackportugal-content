@@ -29,6 +29,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Na Grande Lisboa não existe um único mapa de todos os P+R gratuitos. A abordagem prática é escolher o parque conforme a direção de entrada: norte por Odivelas/Loures, oeste por Oeiras/Cascais, sul por Almada/Pragal, leste por Oriente/Moscavide.' },
         { kind: 'checklist', items: [
+          'Parques Navegante (EMEL) — vários parques (Colégio Militar, Ameixoeira, Avenida de Pádua e outros) são gratuitos para portadores de um passe Navegante válido, sensivelmente entre as 07:30 e as 21:00; é preciso registar o cartão uma vez no balcão do parque e renovar mensalmente',
           'Senhor Roubado / Odivelas — convenientes para entrar pelo norte e mudar para a Linha Amarela do Metro; confirme no local o estado efetivo do estacionamento',
           'Sete Rios — grande nó de transportes: Metro, CP, autocarros Rede Expressos; normalmente não é uma “periferia gratuita”, mas sim uma opção urbana paga',
           'Cais do Sodré — conveniente para a Linha Verde, CP Cascais e ferries, mas é centro; use apenas se precisar especificamente deste nó, e não de poupar',
@@ -104,6 +105,6 @@ export default {
     { title: 'Metro Lisboa: rede, estações e planeamento de viagem', url: 'https://www.metrolisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'CP Comboios de Portugal: comboios urbanos e suburbanos', url: 'https://www.cp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

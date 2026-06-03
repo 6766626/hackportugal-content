@@ -3,7 +3,7 @@ export default {
   id: 'charity-donations-tax',
   categoryId: 'daily_life',
   title: 'Charity — where to help and tax deductions',
-  tldr: 'IRS “consignação” is an option to direct 1% of IRS tax to one of ~5,000 registered charities (at no cost to you, just a tick in the tax return)\.\n\nAdditionally: 25% of all donations to IPSS (Instituições Particulares de Solidariedade Social) are deductible from IRS. Top charities: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (support for people with disabilities), AMI (humanitarian aid)\.\n\nThe Banco Alimentar campaign runs twice a year and mobilises hundreds of thousands of volunteers.',
+  tldr: 'IRS “consignação” is an option to direct 1% of IRS tax to one of ~5,000 registered charities (at no cost to you, just a tick in the tax return).\n\nAdditionally: 25% of all donations to IPSS (Instituições Particulares de Solidariedade Social) are deductible from IRS. Top charities: Cáritas, Cruz Vermelha, Médicos do Mundo, Banco Alimentar, ACAPO (support for people with disabilities), AMI (humanitarian aid).\n\nThe Banco Alimentar campaign runs twice a year and mobilises hundreds of thousands of volunteers.',
   tags: ['charity', 'donations', 'consignação', 'irs'],
   estimatedReadMinutes: 5,
   steps: [
@@ -161,6 +161,6 @@ export default {
     { title: 'Segurança Social — IPSS registry', url: 'https://www.seg-social.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Cáritas Portuguesa', url: 'https://www.caritas.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

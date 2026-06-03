@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Синтра — не только Palácio da Pena и Quinta da Regaleira. У города есть собственная кондитерская идентичность: queijadas de Sintra и travesseiros. Это не «просто португальские пирожные», а локальные сладости, которые лучше пробовать в Sintra centro, пока они свежие.' },
         { kind: 'checklist', items: [
           'Queijadas de Sintra — маленькие тарталетки с начинкой из свежего сыра, сахара, яиц, муки и корицы.',
-          'Текстура queijada плотная, сладкая, немного зернистая из-за сыра; вкус ближе к cheesecake + cinnamon tart.',
+          'Текстура queijada плотная, сладкая, немного зернистая из-за сыра; по вкусу ближе всего к чизкейку с корицей.',
           'Travesseiro — прямоугольная «подушка» из слоёного теста.',
           'Начинка travesseiro — сладкий крем на яйцах и миндале; рецепт Casa Piriquita держит как фирменный.',
           'Queijadas удобнее брать коробкой домой: они лучше переносят дорогу.',
@@ -58,7 +58,7 @@ export default {
       id: 'how-to-order',
       title: 'Как заказать по-португальски',
       content: [
-        { kind: 'paragraph', text: 'Персонал в центре Синтры обычно говорит по-английски, но несколько фраз на Portuguese ускоряют заказ и помогают не выглядеть потерянно в очереди.' },
+        { kind: 'paragraph', text: 'Персонал в центре Синтры обычно говорит по-английски, но несколько фраз на португальском ускоряют заказ и помогают не выглядеть потерянно в очереди.' },
         { kind: 'checklist', items: [
           '“Um travesseiro, por favor” — один travesseiro, пожалуйста.',
           '“Duas queijadas de Sintra” — две queijadas de Sintra.',
@@ -109,6 +109,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

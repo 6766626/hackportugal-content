@@ -48,7 +48,7 @@ export default {
             { kind: 'paragraph', text: 'Block it by calling 211 950 500 (IRN, 24/7). Apply for a new document at any Espaço Cidadão.' }
           ]},
           { id: 'l3', title: 'Residence permit (título de residência)', content: [
-            { kind: 'paragraph', text: 'Report to PSP (police report) → appointment with AIMA for replacement → fee €82 → wait 30-60 days.' }
+            { kind: 'paragraph', text: 'Report to PSP (police report) → appointment with AIMA for replacement → fee for the second copy (segunda via) is 50% of the title issuance fee (varies by permit type; AIMA fees rose on 1 March 2026) → wait 30-60 days.' }
           ]},
           { id: 'l4', title: 'Bank card', content: [
             { kind: 'paragraph', text: 'Block it in the app or by calling the bank. An MB WAY card is blocked instantly in the app.' }
@@ -83,6 +83,6 @@ export default {
     { title: 'APAV — victim support', url: 'https://apav.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Embassy of the Russian Federation in Lisbon', url: 'https://lisbon.mid.ru/', kind: 'official', language: 'ru', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

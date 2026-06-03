@@ -11,7 +11,7 @@ export default {
       id: 'what-is-different',
       title: 'The main difference: this is not the mainland SNS',
       content: [
-        { kind: 'paragraph', text: 'In mainland Portugal, healthcare is run by the SNS through ACES/ULS, hospitais and Centros de Saúde. In Madeira, the Serviço de Saúde da Região Autónoma da Madeira operates, in practice through SESARAM, E.P.E.R.A.M. In Açores, it is the Serviço Regional de Saúde dos Açores, with Unidade de Saúde de Ilha and regional hospitals.' },
+        { kind: 'paragraph', text: 'In mainland Portugal, healthcare is run by the SNS through ACES/ULS, hospitais and Centros de Saúde. In Madeira, the Serviço de Saúde da Região Autónoma da Madeira operates, in practice through SESARAM, EPERAM. In Açores, it is the Serviço Regional de Saúde dos Açores, with Unidade de Saúde de Ilha and regional hospitals.' },
         { kind: 'paragraph', text: 'For the patient, it looks like this: you have not simply “moved within the SNS”. You need to register with the local system, be attached to a Centro de Saúde/Unidade de Saúde, update your address and gain access to the regional referral network.' },
         { kind: 'checklist', items: [
           'Madeira: SESARAM brings together hospitals, Centros de Saúde and part of specialist care.',
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

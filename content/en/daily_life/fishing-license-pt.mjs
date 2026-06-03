@@ -38,7 +38,7 @@ export default {
           'When fishing, keep your ID and licence with you — an inspector needs readable proof, not a “screenshot of a chat”.',
           'If you go by boat, the fisher’s licence does not replace vessel documents and safety requirements.'
         ] },
-        { kind: 'paragraph', text: 'As a guide for a mainland sea licence: a daily licença apeada starts at around €2, embarcada at around €3, submarina at around €5; annual options are more expensive and depend on the type. Always check the final amount in BMar before paying.' },
+        { kind: 'paragraph', text: 'As a guide for a mainland sea licence: a daily licença apeada starts at around €2, submarina at around €3, embarcada at around €5; annual options are more expensive and depend on the type. Always check the final amount in BMar before paying.' },
         { kind: 'warning', text: 'Spearfishing is not “just a mask and a gun”. You need a licença submarina, a buoy, compliance with distance rules, a ban on night fishing and a ban in protected/port/bathing areas, where established by the rules of the location.' }
       ]
     },
@@ -97,8 +97,8 @@ export default {
   ],
   costs: [
     { label: 'DGRM sea licence apeada, 1 day', amountEUR: 2, note: 'Guide price for shore fishing; the final price is shown in BMar before payment.' },
-    { label: 'DGRM sea licence embarcada, 1 day', amountEUR: 3, note: 'Guide price for fishing from a boat in mainland Portugal.' },
-    { label: 'DGRM sea licence submarina, 1 day', amountEUR: 5, note: 'Guide price for spearfishing; separate safety restrictions apply.' },
+    { label: 'DGRM sea licence embarcada, 1 day', amountEUR: 5, note: 'Guide price for fishing from a boat in mainland Portugal.' },
+    { label: 'DGRM sea licence submarina, 1 day', amountEUR: 3, note: 'Guide price for spearfishing; separate safety restrictions apply.' },
     { label: 'ICNF freshwater licence for a visitor, 1 day', amountEUR: 2, note: 'Minimum online option for águas interiores; the price depends on duration and category.' },
     { label: 'Fine for fishing without the correct licence', amountEURMin: 50, amountEURMax: 500, note: 'The practical risk depends on the breach: no licence, prohibited area, closed season, exceeding the limit or prohibited tackle.' }
   ],
@@ -107,6 +107,6 @@ export default {
     { title: 'ICNF — pesca lúdica em águas interiores: licences, zones and rules', url: 'https://www.icnf.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ICNF — information on species, fishing seasons and fishing zones', url: 'https://www.icnf.pt/pesca/pescaludica', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

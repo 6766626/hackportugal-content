@@ -3,7 +3,7 @@ export default {
   id: 'ipma-meteo-app',
   categoryId: 'emergency_rights',
   title: 'IPMA: погода, штормы, море, пожары и сейсмика',
-  tldr: 'IPMA — официальный источник погоды в Португалии: avisos amarelo/laranja/vermelho по округам, прогнозы дождя, ветра, жары и холода, agitação marítima для побережья, ежедневный risco de incêndio rural и реестр sismos. В 2026 это первый сайт/приложение, которое стоит проверять перед поездками, серфингом, рыбалкой, походами и в периоды жары. Красный aviso vermelho означает опасную ситуацию: отменяйте необязательные перемещения и следуйте ANEPC/Câmara.',
+  tldr: 'IPMA — официальный источник погоды в Португалии: avisos amarelo/laranja/vermelho по округам, прогнозы дождя, ветра, жары и холода, agitação marítima для побережья, ежедневный risco de incêndio rural и реестр sismos. В 2026 это первый ресурс, который стоит проверять перед поездками, серфингом, рыбалкой, походами и в периоды жары. Красный aviso vermelho означает опасную ситуацию: отменяйте необязательные перемещения и следуйте ANEPC/Câmara.',
   tags: ['ipma', 'погода', 'штормы', 'incêndio', 'sismo'],
   estimatedReadMinutes: 5,
   steps: [
@@ -131,7 +131,7 @@ export default {
     },
     {
       title: 'IPMA — perigo de incêndio rural',
-      url: 'https://www.ipma.pt/pt/riscoincendio/rcm.pt/',
+      url: 'https://www.ipma.pt/pt/riscoincendio/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -144,6 +144,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

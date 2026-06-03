@@ -3,7 +3,7 @@ export default {
   id: 'supermarkets-compared',
   categoryId: 'daily_life',
   title: 'Супермаркеты Португалии — сравнение',
-  tldr: 'Главные сети: Continente (лидер, Sonae), Pingo Doce (качество и акции, Jerónimo Martins), Lidl (дёшево + специализированные товары), Auchan (гипермаркет; в 2024–2025 поглотил DIA Portugal — бренд Minipreço перебрендируется/интегрируется), Aldi (дискаунтер), Mercadona (испанская сеть, расширилась за пределы севера, активна в Лиссабоне и центре страны), El Corte Inglés (премиум, Лиссабон/Gaia)\.\n\nКарты/app часто нужны для лучших промо и персональных купонов; без них часть скидок недоступна, но экономия зависит от корзины.',
+  tldr: 'Главные сети: Continente (лидер, Sonae), Pingo Doce (качество и акции, Jerónimo Martins), Lidl (дёшево + специализированные товары), Auchan (гипермаркет; в 2024–2025 поглотил DIA Portugal — бренд Minipreço перебрендируется/интегрируется), Aldi (дискаунтер), Mercadona (испанская сеть, расширилась за пределы севера, активна в Лиссабоне и центре страны), El Corte Inglés (премиум, Лиссабон/Gaia).\n\nКарты/app часто нужны для лучших промо и персональных купонов; без них часть скидок недоступна, но экономия зависит от корзины.',
   tags: ['супермаркеты', 'continente', 'pingo doce', 'lidl'],
   estimatedReadMinutes: 6,
   steps: [
@@ -62,7 +62,7 @@ export default {
           'Вино: Lidl часто хорош для бюджетных вин и акционных подборок; El Corte Inglés — для премиального/редкого',
           'Органика/био: Celeiro, Go Natural, отделы био в Pingo/Continente',
           'Дёшево: Lidl + Minipreço для базовых продуктов',
-          'Доставка: Continente Online, Pingo Doce Casa, Mercadão. Обычно есть fee за доставку/сервис, но цена, минимум заказа и бесплатные слоты зависят от адреса, времени и текущих акций — проверяйте в app перед заказом',
+          'Доставка: Continente Online, Pingo Doce Casa, Mercadão. Обычно есть комиссия за доставку/сервис, но цена, минимальная сумма заказа и бесплатные слоты зависят от адреса, времени и текущих акций — проверяйте в app перед заказом',
           'Если вы налоговый резидент PT и подаёте IRS, просите fatura com NIF: супермаркеты обычно идут в e-Fatura как despesas gerais familiares — 35% расходов, максимум € 250 на налогоплательщика в год; проверяйте/подтверждайте счета в Portal e-Fatura'
         ]}
       ]
@@ -88,6 +88,6 @@ export default {
     { title: 'Autoridade Tributária / Portal e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGADR — продуктовая политика', url: 'https://www.dgadr.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

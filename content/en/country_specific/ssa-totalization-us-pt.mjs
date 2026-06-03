@@ -12,7 +12,7 @@ export default {
       title: 'What the US–Portugal agreement does',
       content: [
         { kind: 'paragraph', text: 'The US and Portugal have a social security agreement: it helps avoid double contributions and allows insurance periods to be combined for pensions, disability and benefits for surviving family members.' },
-        { kind: 'paragraph', text: 'In the US, ordinary entitlement to retirement benefits requires 40 credits. In 2026, 1 credit is earned for $1,810 of earnings, with a maximum of 4 credits per year. If you do not have 40 credits, the SSA can count Portuguese contribution periods, but only if you have at least 6 US credits.' },
+        { kind: 'paragraph', text: 'In the US, ordinary entitlement to retirement benefits requires 40 credits. In 2026, 1 credit is earned for $1,890 of earnings, with a maximum of 4 credits per year ($7,560). If you do not have 40 credits, the SSA can count Portuguese contribution periods, but only if you have at least 6 US credits.' },
         { kind: 'warning', text: 'Totalization does not create a “double pension”. The US pays only the proportional part based on your American earnings record. Portugal calculates its own pension separately under Segurança Social rules.' }
       ]
     },
@@ -28,7 +28,7 @@ export default {
           'Self-employed Americans in Portugal who need to understand where to pay social security contributions.',
           'Workers temporarily posted from the US to Portugal or from Portugal to the US, so they do not pay contributions into both systems.'
         ] },
-        { kind: 'paragraph', text: 'If you already have 40 US credits, Portuguese periods usually will not increase your American pension. But they may be important for the Portuguese pension: in Portugal, the standard minimum contributory period for an old-age pension is 15 years of contributions, and the normal pension age in 2026 is 66 years and 7 months.' }
+        { kind: 'paragraph', text: 'If you already have 40 US credits, Portuguese periods usually will not increase your American pension. But they may be important for the Portuguese pension: in Portugal, the standard minimum contributory period for an old-age pension is 15 years of contributions, and the normal pension age in 2026 is 66 years and 9 months.' }
       ]
     },
     {
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'aquecimento-inverno-recuperador',
   categoryId: 'daily_life',
   title: 'Home heating in winter: recuperador de calor, salamandra, esquentador',
-  tldr: 'A Portuguese winter often means not frost, but 14–17 °C inside the home, humidity and mould. The quick option is an electric heater for €20–80, but the electricity bill rises fast. Longer term: air conditioning/heat pump at €700–1,800 per split unit, a wood-burning recuperador de calor from €1,500, and a salamandra a pellets usually from €2,000. Esquentador a gás is mainly for hot water; for rooms you need a boiler/radiators. Check Fundo Ambiental: Vale Eficiência may subsidise heat pumps, but only under open avisos and subject to conditions.',
+  tldr: 'A Portuguese winter often means not frost, but 14–17 °C inside the home, humidity and mould. The quick option is an electric heater for €20–80, but the electricity bill rises fast. Longer term: air conditioning/heat pump at €700–1,800 per split unit, a wood-burning recuperador de calor from €1,500, and a salamandra a pellets usually from €2,000. Esquentador a gás is mainly for hot water; for rooms you need a boiler/radiators. Check Fundo Ambiental: the Vale Eficiência programme stopped accepting new applications in February 2026, but E-Lar (replacing gas appliances with electric ones) and a home energy-efficiency credit line exist — check the conditions at fundoambiental.pt.',
   tags: ['heating', 'winter', 'energy', 'home'],
   estimatedReadMinutes: 5,
   steps: [
@@ -89,7 +89,7 @@ export default {
       title: '5. Check Fundo Ambiental and Vale Eficiência',
       content: [
         { kind: 'paragraph', text: 'Fundo Ambiental periodically opens avisos for home energy efficiency: window replacement, thermal insulation, bombas de calor, and sometimes equipment for heating/DHW. Conditions change by year, region and type of household.' },
-        { kind: 'paragraph', text: 'Vale Eficiência has historically been aimed at economically vulnerable households, for example recipients of the tarifa social de energia elétrica, and worked through vouchers for approved measures. In 2026, do not buy equipment “for the subsidy” until you have checked that the aviso is open, your NIF qualifies and the supplier/installer accepts the programme.' },
+        { kind: 'paragraph', text: 'Vale Eficiência was aimed at economically vulnerable households, for example recipients of the tarifa social de energia elétrica, and worked through vouchers for approved measures, including bombas de calor. However, in February 2026 the Fundo Ambiental stopped issuing new vouchers under this programme, so new applications are no longer accepted. The current alternative is the E-Lar programme (replacing gas appliances with electric ones: stoves, ovens, water heaters; heat pumps are not included) and a credit line for energy-efficiency works. In 2026, do not buy equipment “for the subsidy” until you have checked at fundoambiental.pt that the relevant aviso is open, your NIF qualifies and the supplier/installer accepts the programme.' },
         { kind: 'checklist', items: [
           'Check fundoambiental.pt before purchase, not after',
           'Look at prazo de candidatura, eligible expenses and invoice dates',
@@ -114,6 +114,6 @@ export default {
     { title: 'Fundo Ambiental — energy efficiency support programmes and Vale Eficiência', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE — practical information on home energy efficiency and certificado energético', url: 'https://www.adene.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

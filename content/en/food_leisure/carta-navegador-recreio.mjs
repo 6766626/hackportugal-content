@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A skipper licence is not needed for every boat. The basic rules by engine power and size are:' },
         { kind: 'checklist', items: [
-          'Without a licence: only boats with an engine ≤ 4.5 kW (~6 hp) and length ≤ 7 m',
+          'Without a licence: only boats under 5 m in length with an engine under 4.5 kW (~6 hp), in daytime navigation within harbour waters',
           'MARINHEIRO JÚNIOR: small recreational craft up to 6 m, engine up to 4.5 kW, daytime only, max 1 mile from the low-water line and 3 miles from any safe harbour',
           'MARINHEIRO: daytime navigation, max 3 miles from the coast and 10 miles from any safe harbour',
           'PATRÃO LOCAL: within sight of the coast, max 6 miles from the coast and 25 miles from any safe harbour',
@@ -89,7 +89,7 @@ export default {
               { kind: 'checklist', items: [
                 'Ready: in roughly 2–4 weeks',
                 'Issued electronically by DGRM with an access key; available in the gov.pt app',
-                'Valid until age 70; after that, a medical examination every 5 years'
+                'Renewed with a medical check: before expiry up to age 70, then every 5 years from age 70, and every 2 years from age 80'
               ] }
             ]
           }
@@ -100,7 +100,7 @@ export default {
       id: 'foreign-conversion',
       title: 'Converting foreign licences',
       content: [
-        { kind: 'paragraph', text: 'If you already have a foreign skipper licence, many can be recognised by DGRM (equiparação): EU charts are automatically recognised, third-country charts are recognised by DGRM within 5 days, usually with a simplified exam. Fee around €89–99.' },
+        { kind: 'paragraph', text: 'If you already have a foreign skipper licence, many can be recognised by DGRM (equiparação). You apply online; DGRM checks the competencies, syllabus and training hours against the requirements of Decreto-Lei 93/2018 and assigns the matching category (sometimes with an additional exam). Fee: €89.37 (digital licence) or €99.30 (digital + physical).' },
         { kind: 'checklist', items: [
           'RYA Day Skipper (UK) → usually converts to Patrão de Costa with a theory exam',
           'RYA Yachtmaster Coastal/Offshore → Patrão de Alto Mar',
@@ -154,6 +154,6 @@ export default {
     { title: 'DGRM — DGRM-accredited training entities', url: 'https://www.dgrm.pt/formacao1', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Decreto-Lei 93/2018 — Regime Jurídico da Náutica de Recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/93-2018-116954925', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -93,7 +93,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Depois de obter a autorização de residência e de poder ativar a Chave Móvel Digital, é melhor configurar a CMD: a maioria dos serviços portugueses está otimizada precisamente para ela. A CMD está associada a identificadores portugueses e é mais conveniente para assinaturas, notificações e acesso regular.' },
         { kind: 'checklist', items: [
-          'Ative a CMD através de uma loja de cidadão, Espaço Cidadão, consulado ou canais online disponíveis, se cumprir as condições.',
+          'Ative a CMD através de uma Loja de Cidadão, Espaço Cidadão, consulado ou canais online disponíveis, se cumprir as condições.',
           'Associe um número de telefone português e um email que realmente controla.',
           'Verifique o acesso a ePortugal, Finanças, Segurança Social Direta, SNS 24.',
           'Guarde o eID estrangeiro como método de reserva para serviços da UE.',
@@ -135,6 +135,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

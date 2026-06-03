@@ -30,7 +30,7 @@ export default {
       title: 'Где искать места: Carta Social + IPSS + Centro Distrital',
       content: [
         { kind: 'paragraph', text: 'Единого сайта, где можно одним кликом подать заявку во все lar protocolado, нет. Практический путь — составить список ERPI через Carta Social, затем обзвонить учреждения и параллельно обратиться в Centro Distrital da Segurança Social по месту проживания.' },
-        { kind: 'checklist', items: ['Откройте cartasocial.pt', 'Выберите distrito/concelho, где реально готовы жить', 'В resposta social ищите Estrutura Residencial para Pessoas Idosas / ERPI', 'Отдельно уточняйте у учреждения: есть ли acordo de cooperação с Segurança Social', 'Спросите, есть ли vagas protocoladas, lista de espera и условия comparticipação', 'Попросите e-mail для отправки документов и formulário de candidatura', 'Запишите имя técnico/a de serviço social, который ведёт заявку', 'Подайте сигнализацию ситуации в Centro Distrital da Segurança Social, если есть срочный риск дома'] },
+        { kind: 'checklist', items: ['Откройте cartasocial.pt', 'Выберите distrito/concelho, где реально готовы жить', 'В resposta social ищите Estrutura Residencial para Pessoas Idosas / ERPI', 'Отдельно уточняйте у учреждения: есть ли acordo de cooperação с Segurança Social', 'Спросите, есть ли vagas protocoladas, lista de espera и условия comparticipação', 'Попросите e-mail для отправки документов и formulário de candidatura', 'Запишите имя técnico/a de serviço social, который ведёт заявку', 'Сообщите о ситуации (sinalização) в Centro Distrital da Segurança Social, если есть срочный риск дома'] },
         { kind: 'warning', text: 'Carta Social показывает сеть социальных учреждений, но не гарантирует актуальное наличие свободного места. В 2026 году в Лиссабоне, Porto, Algarve и пригородах очереди длиннее; в малых concelhos шанс найти место выше.' }
       ]
     },
@@ -47,7 +47,7 @@ export default {
       id: 'payment-calculation',
       title: 'Как считается оплата',
       content: [
-        { kind: 'paragraph', text: 'При lugar protocolado пользователь платит comparticipação familiar, рассчитанную по доходам и правилам учреждения в рамках cooperação с Segurança Social. Ориентир, который часто встречается на практике: 25–75% пенсии/дохода пожилого человека. Точная сумма зависит от regulamento interno IPSS, состава agregado familiar, расходов и степени поддержки.' },
+        { kind: 'paragraph', text: 'При vaga protocolada пользователь платит comparticipação familiar, рассчитанную по доходам и правилам учреждения в рамках cooperação с Segurança Social. Ориентир, который часто встречается на практике: 25–75% пенсии/дохода пожилого человека. Точная сумма зависит от regulamento interno IPSS, состава agregado familiar, расходов и степени поддержки.' },
         { kind: 'checklist', items: ['Если пенсия 500 €, ориентировочная mensalidade может быть около 125–375 €', 'Если пенсия 900 €, ориентировочно 225–675 €', 'Если есть крупные дополнительные доходы, сумма может быть выше', 'Если дохода нет, вопрос решается через avaliação social; место не становится автоматически бесплатным', 'Семья может быть привлечена к comparticipação, особенно если есть дети с доходом', 'Лекарства, подгузники, транспорт, парикмахер, физиотерапия или личные расходы могут оплачиваться отдельно', 'Попросите письменный regulamento interno и minuta do contrato до въезда'] },
         { kind: 'warning', text: 'Не путайте protocolo с частным «lar com vaga». Частный lar может стоить 900–1 800 €+ в месяц и не обязан снижать цену из-за низкой пенсии. Субсидия Segurança Social работает только там, где есть acordo/protocolo и доступная protocolada vaga.' }
       ]
@@ -73,6 +73,6 @@ export default {
     { title: 'Segurança Social: IPSS и cooperação с социальным сектором', url: 'https://www.seg-social.pt/instituicoes-particulares-de-solidariedade-social-ipss-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portaria 196-A/2015: модель cooperação между Segurança Social и social sector', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/196-a-2015-67666026', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

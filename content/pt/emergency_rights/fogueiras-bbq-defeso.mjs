@@ -121,7 +121,7 @@ export default {
           'Sapadores Florestais (serviços de prevenção de incêndios florestais) patrulham zonas secas no verão',
           'Leve sempre as garrafas de vidro consigo ao sair da praia e do piquenique'
         ] },
-        { kind: 'paragraph', text: 'Para residentes em casas rurais: todos os anos, até 30 de abril, é necessário limpar a faixa de gestão de combustível (50 m em redor da casa) — remover mato e erva seca. Incumprimento: 280-10 000 €. Isto aplica-se a todos os proprietários e arrendatários.' }
+        { kind: 'paragraph', text: 'Para residentes em casas rurais: todos os anos é necessário limpar a faixa de gestão de combustível (50 m em redor da casa) — remover mato e erva seca. Em 2026 o prazo geral é 31 de maio (prolongado até 30 de junho para os municípios com declaração de calamidade). Incumprimento: coima até 5 000 € para pessoas singulares. Isto aplica-se a todos os proprietários e arrendatários.' }
       ]
     }
   ],
@@ -131,7 +131,7 @@ export default {
     { label: 'Coima por grelhador no período crítico', amountEURMin: 280, amountEURMax: 10000 },
     { label: 'Coima por fogo-de-artifício sem licença', amountEURMin: 1000, amountEURMax: 3000 },
     { label: 'Coima por fumar na floresta', amountEURMin: 100, amountEURMax: 280 },
-    { label: 'Coima por não limpar a faixa de gestão de combustível', amountEURMin: 280, amountEURMax: 10000 },
+    { label: 'Coima por não limpar a faixa de gestão de combustível (pessoa singular)', amountEURMin: 150, amountEURMax: 5000 },
     { label: 'Indemnização se for responsável por um incêndio', amountEURMin: 10000, amountEURMax: 1000000, note: 'Casos reais — milhões de €' }
   ],
   sources: [
@@ -141,6 +141,6 @@ export default {
     { title: 'IPMA — alerta meteorológico e risco de incêndio', url: 'https://www.ipma.pt/pt/riscoincendio/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'GNR — Sistema Nacional de Defesa da Floresta', url: 'https://www.gnr.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

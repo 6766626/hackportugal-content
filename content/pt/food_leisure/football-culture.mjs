@@ -16,7 +16,7 @@ export default {
             { kind: 'paragraph', text: 'Fundado em 1904. O clube mais titulado — 38 campeonatos de Portugal. Estádio da Luz (64 642 lugares) em Lisboa. Cores — vermelho e branco. Mascote — a águia Vítor. Hino — «Ser Benfiquista». Centenas de milhares de sócios; o Benfica declarou um recorde Guinness pelo número de membros de um clube de futebol — é melhor confirmar o número actual em slbenfica.pt.' }
           ]},
           { id: 'p1', title: 'FC Porto', content: [
-            { kind: 'paragraph', text: 'Fundado em 1893. 30 campeonatos. Estádio do Dragão (50 033 lugares).\n\nCores — azul e branco. Mascote — o dragão. O clube português com mais sucesso nas competições europeias: venceu a Taça dos Clubes Campeões Europeus/Liga dos Campeões em 1987 e 2004, a Taça UEFA/Liga Europa, a Supertaça UEFA e a Taça Intercontinental.' }
+            { kind: 'paragraph', text: 'Fundado em 1893. 31 campeonatos. Estádio do Dragão (50 033 lugares).\n\nCores — azul e branco. Mascote — o dragão. O clube português com mais sucesso nas competições europeias: venceu a Taça dos Clubes Campeões Europeus/Liga dos Campeões em 1987 e 2004, a Taça UEFA/Liga Europa, a Supertaça UEFA e a Taça Intercontinental.' }
           ]},
           { id: 's1', title: 'Sporting CP (Lisboa)', content: [
             { kind: 'paragraph', text: 'Fundado em 1906. 21 campeonatos. Estádio José Alvalade (50 095 lugares).\n\nCores — verde e branco, às riscas. Mascote — o leão. Alma de Leão. A Academia de Alcochete é uma das melhores do mundo: formou Cristiano Ronaldo, Luís Figo, Nani, Ricardo Quaresma, João Moutinho, Simão Sabrosa.' }
@@ -32,7 +32,7 @@ export default {
           '🔥 O Clássico — Benfica contra FC Porto. O principal jogo de Portugal. 2–3 vezes por época (Liga + Taça)',
           '🔥 Derby de Lisboa — Benfica contra Sporting. Rivalidade da capital. A cidade divide-se entre vermelhos e verdes',
           '🔥 FC Porto contra Sporting — outro clássico entre clubes dos Três Grandes. E o Derby da Invicta é FC Porto contra Boavista',
-          '🔥 Derby Eterno / Dérbi de Lisboa — Benfica contra Sporting, rivalidade histórica lisboeta'
+          '🔥 Dérbi do Minho — SC Braga contra Vitória SC (Guimarães). O dérbi mais antigo do país e o mais aceso fora dos Três Grandes'
         ]},
         { kind: 'paragraph', text: 'Nos dias de dérbi — multidões nas ruas, autocarros com adeptos, televisores em todos os cafés. Comentadores de televisão e adeptos vivem tudo com muita emoção.' }
       ]
@@ -126,6 +126,6 @@ export default {
     { title: 'FC Porto', url: 'https://www.fcporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Sporting CP', url: 'https://www.sporting.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

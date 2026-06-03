@@ -82,6 +82,6 @@ export default {
     { title: 'Decreto-Lei 84/2021: guarantees for consumer goods', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/84-2021-172938301', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal: banknotes, coins and cash payments', url: 'https://www.bportugal.pt/page/notas-e-moedas', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

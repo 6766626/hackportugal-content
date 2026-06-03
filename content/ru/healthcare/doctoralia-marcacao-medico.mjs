@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'SNS остаётся базовой системой, но для экспата частный врач часто быстрее: приём можно получить в тот же день или в течение недели, выбрать язык врача, район, клинику и цену. Это особенно полезно до получения número de utente, при длинной очереди к médico de família или когда нужен узкий специалист.' },
         { kind: 'checklist', items: [
           'Нужен приём сегодня/на этой неделе, а в SNS нет слотов',
-          'Нужен врач, говорящий по-английски, испански или русски',
+          'Нужен врач, говорящий по-английски, по-испански или по-русски',
           'Нужна dermatologia, ginecologia, pediatria, psiquiatria, ortopedia, oftalmologia без долгого ожидания',
           'Нужен second opinion перед операцией или лечением',
           'Нужны анализы, ecografia, raio-X, TAC, ressonância magnética',
@@ -105,6 +105,6 @@ export default {
     { title: 'Doctoralia Portugal — поиск врачей, отзывы и marcação online', url: 'https://www.doctoralia.com.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Linkare Portugal — запись на exames, análises и специалистов', url: 'https://www.linkare.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

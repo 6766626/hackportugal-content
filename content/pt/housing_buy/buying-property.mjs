@@ -3,7 +3,7 @@ export default {
   id: 'buying-property',
   categoryId: 'housing_buy',
   title: 'Compra de imóveis em Portugal — passo a passo',
-  tldr: 'Estrangeiros podem comprar imóveis sem restrições. Percurso: NIF → pesquisa → CPCV + sinal 10% → financiamento/verificação jurídica → escritura no notário → registo. Impostos: IMT — escala progressiva marginal com deduções (para habitação própria e permanente — 0% até determinado limiar, depois as taxas sobem por escalões até uma taxa máxima fixa); IS 0,8%. Despesas totais: 8-12% acima do preço. Importante: desde 7 de outubro de 2023 (Lei 56/2023), o Golden Visa através da compra de imóveis habitacionais foi eliminado — esta via de autorização de residência já não está disponível para novos pedidos.\n\nBenefício para jovens até 35 anos introduzido pelo Decreto-Lei 48-A/2024 (não pelo DL 44/2024).',
+  tldr: 'Estrangeiros podem comprar imóveis sem restrições. Percurso: NIF → pesquisa → CPCV + sinal 10% → financiamento e verificação jurídica → escritura no notário → registo. Impostos: IMT — escala progressiva marginal com deduções (para habitação própria e permanente — 0% até determinado limiar, depois as taxas sobem por escalões até uma taxa máxima fixa); IS 0,8%. Despesas totais: 8-12% acima do preço. Importante: desde 7 de outubro de 2023 (Lei 56/2023), o Golden Visa através da compra de imóveis habitacionais foi eliminado — esta via de autorização de residência já não está disponível para novos pedidos.\n\nBenefício para jovens até 35 anos introduzido pelo Decreto-Lei 48-A/2024.',
   tags: ['compra', 'imóveis', 'escritura', 'imt'],
   estimatedReadMinutes: 8,
   steps: [
@@ -54,7 +54,7 @@ export default {
       id: 'cpcv',
       title: 'CPCV (Contrato Promessa de Compra e Venda)',
       content: [
-        { kind: 'paragraph', text: 'Acrescentar: «Para imóveis, o CPCV deve ser escrito; na prática, as assinaturas são feitas com reconhecimento presencial, e o advogado verifica os documentos necessários do imóvel antes da assinatura. Não assine um CPCV apenas por email/digitalização sem verificar a forma e os poderes do vendedor».' },
+        { kind: 'paragraph', text: 'Para imóveis, o CPCV deve ser escrito; na prática, as assinaturas são feitas com reconhecimento presencial, e o advogado verifica os documentos necessários do imóvel antes da assinatura. Não assine um CPCV apenas por email ou digitalização sem verificar a forma do contrato e os poderes do vendedor.' },
         { kind: 'checklist', items: [
           'Partes + NIF',
           'Descrição do imóvel + número matricial',
@@ -98,17 +98,17 @@ export default {
           'Passar os serviços para o seu nome (EDP, Águas, gás)',
           'O seguro habitação é obrigatório se houver crédito habitação',
           'IMI (imposto municipal) — para urban residential 0,3–0,45% do VPT (0,8% — para a antiga taxa rural); a taxa é definida pela Câmara Municipal. O pagamento em prestações (1/2/3 vezes por ano) depende do montante',
-          'Substituir por: «Para arrendamento de longa duração — contrato e registo nas Finanças. Para arrendamento turístico de curta duração, normalmente é necessário registo de Alojamento Local antes do início da atividade; verifique as restrições municipais, zonas de contenção/suspensão e regras do condomínio».'
+          'Para arrendamento de longa duração — contrato e registo nas Finanças. Para arrendamento turístico de curta duração, normalmente é necessário registo de Alojamento Local antes do início da atividade; verifique as restrições municipais, zonas de contenção/suspensão e regras do condomínio'
         ]}
       ]
     }
   ],
   costs: [
-    { label: 'IMT — para habitação própria e permanente (continente)', note: 'Acrescentar: «A base do IMT é o maior valor entre o preço declarado e o VPT (valor patrimonial tributário). Verifique o VPT na Caderneta Predial antes do CPCV».' },
+    { label: 'IMT — para habitação própria e permanente (continente)', note: 'A base do IMT é o maior valor entre o preço declarado e o VPT (valor patrimonial tributário). Verifique o VPT na Caderneta Predial antes de assinar o CPCV.' },
     { label: 'IMT — para habitação secundária/outra habitação', note: 'os mesmos escalões, mas sem o primeiro limiar a 0%; começa em 1%' },
     { label: 'Benefício para jovens até 35 anos — habitação principal', amountEUR: 0, note: 'IMT+IS 0% ao abrigo do Decreto-Lei 48-A/2024 até determinado limiar de preço; condições (residência, ausência de propriedade anterior, habitação principal) — verificar no texto atualizado' },
     { label: 'IMT para compradores de jurisdições fiscais offshore', amountEUR: 0, note: 'taxa fixa de 10% independentemente do valor' },
-    { label: 'IS (Imposto do Selo)', amountEUR: 0, note: 'Escrever: «IS 0,8% sobre a aquisição — normalmente sobre a mesma base que o IMT: o maior valor entre o preço declarado e o VPT».' },
+    { label: 'IS (Imposto do Selo)', amountEUR: 0, note: 'IS 0,8% sobre a aquisição — normalmente sobre a mesma base que o IMT: o maior valor entre o preço declarado e o VPT.' },
     { label: 'Escritura + notário', amountEURMin: 500, amountEURMax: 1500 },
     { label: 'Registo', amountEURMin: 250, amountEURMax: 400 },
     { label: 'Advogado', amountEURMin: 500, amountEURMax: 2000 },
@@ -123,6 +123,6 @@ export default {
     { title: 'ePortugal — Comprar casa', url: 'https://www.gov.pt/cidadaos/-/informacoes/comprar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ADENE — Certificado Energético', url: 'https://www.adene.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

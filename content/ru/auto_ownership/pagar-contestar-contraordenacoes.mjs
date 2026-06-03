@@ -3,7 +3,7 @@ export default {
   id: 'pagar-contestar-contraordenacoes',
   categoryId: 'auto_ownership',
   title: 'Portal das Contraordenações: оплата и обжалование штрафов онлайн',
-  tldr: 'Portal das Contraordenações ANSR — официальный кабинет по дорожным штрафам: вход через Cartão de Cidadão или Chave Móvel Digital, просмотр процессов по NIF, оплата по Multibanco reference, подача defesa/requerimento онлайн и проверка pontos da carta.\n\nВ 2026 году защита обычно подаётся в течение 15 рабочих дней после уведомления. Рассрочку можно просить для штрафов от 210 €, минимум 50 € за платёж, обычно до 12 частей.',
+  tldr: 'Portal das Contraordenações ANSR — официальный кабинет по дорожным штрафам: вход через Cartão de Cidadão или Chave Móvel Digital, просмотр процессов по NIF, оплата по Multibanco reference, подача defesa/requerimento онлайн и проверка pontos da carta.\n\nВ 2026 году защита обычно подаётся в течение 15 рабочих дней после уведомления. Рассрочку можно просить для штрафов от 204 € (2 UC), минимум 50 € за платёж, обычно до 12 платежей.',
   tags: ['штрафы', 'ansr', 'contraordenações', 'mb', 'carta'],
   estimatedReadMinutes: 6,
   steps: [
@@ -67,23 +67,23 @@ export default {
             ] }
           ] }
         ] },
-        { kind: 'warning', text: 'Pagamento voluntário pelo mínimo часто закрывает вопрос по coima, но не всегда закрывает дело целиком: при contraordenação grave или muito grave может идти отдельное наказание, например inhibição de conduzir и потеря баллов. Если хотите спорить по существу, сначала оцените, будет ли платёж считаться признанием/добровольной оплатой или depósito.' }
+        { kind: 'warning', text: 'Pagamento voluntário pelo mínimo часто закрывает вопрос по coima, но не всегда закрывает дело целиком: при contraordenação grave или muito grave может идти отдельное наказание, например inibição de conduzir и потеря баллов. Если хотите спорить по существу, сначала оцените, будет ли платёж считаться признанием/добровольной оплатой или depósito.' }
       ]
     },
     {
       id: 'parcelamento',
       title: 'Рассрочка: когда штраф можно разбить',
       content: [
-        { kind: 'paragraph', text: 'Для крупных дорожных штрафов можно просить pagamento em prestações. Практическое правило ANSR на 2026 год: сумма штрафа должна быть не ниже 210 €, каждый платёж — минимум 50 €, рассрочка обычно ограничена 12 ежемесячными платежами.' },
+        { kind: 'paragraph', text: 'Для крупных дорожных штрафов можно просить pagamento em prestações. Практическое правило ANSR на 2026 год: сумма штрафа должна быть не ниже 204 € (2 UC), каждый платёж — минимум 50 €, рассрочка обычно ограничена 12 ежемесячными платежами.' },
         { kind: 'checklist', items: [
-          'Проверьте, что montante da coima ≥ 210 €',
+          'Проверьте, что montante da coima ≥ 204 € (2 UC)',
           'Рассчитайте платежи так, чтобы каждая prestação была не меньше 50 €',
           'Подайте requerimento через портал в своём процессе или письменно в ANSR',
           'Укажите номер процесса, NIF, имя, адрес, email, телефон',
           'Напишите, сколько prestações просите и почему нужна рассрочка',
           'Приложите документы о доходах/расходах, если они подтверждают необходимость',
           'Дождитесь решения ANSR и новых реквизитов для платежей',
-          'Платите строго в сроки: пропуск одной части может сделать всю оставшуюся сумму немедленно подлежащей оплате'
+          'Платите строго в сроки: из-за пропуска одного платежа всю оставшуюся сумму могут потребовать сразу'
         ] },
         { kind: 'warning', text: 'Не считайте рассрочку одобренной автоматически. Пока ANSR не вынесла despacho/решение, исходный срок оплаты может продолжать иметь значение. Если срок близко, подавайте requerimento сразу после получения уведомления.' }
       ]
@@ -104,7 +104,7 @@ export default {
           'Если просите свидетелей, укажите имя, адрес и что именно они подтверждают',
           'Сохраните comprovativo de submissão с датой и часом'
         ] },
-        { kind: 'warning', text: 'Подача defesa не гарантирует приостановку всех последствий. При серьёзных нарушениях ANSR может всё равно вынести решение о coima, custas, inhibição de conduzir и снятии баллов. Для alcool, acidente, excesso grande de velocidade, reincidência или риска потери прав лучше показать дело advogado.' }
+        { kind: 'warning', text: 'Подача defesa не гарантирует приостановку всех последствий. При серьёзных нарушениях ANSR может всё равно вынести решение о coima, custas, inibição de conduzir и снятии баллов. Для alcool, acidente, excesso grande de velocidade, reincidência или риска потери прав лучше показать дело advogado.' }
       ]
     },
     {
@@ -128,7 +128,7 @@ export default {
   ],
   costs: [
     { label: 'Доступ к Portal das Contraordenações', amountEUR: 0, note: 'Официальный портал ANSR бесплатный; платите только сам штраф/coima, custas или санкции по делу.' },
-    { label: 'Минимальная сумма штрафа для запроса рассрочки', amountEUR: 210, note: 'Практическое пороговое значение для pagamento em prestações в 2026 году.' },
+    { label: 'Минимальная сумма штрафа для запроса рассрочки', amountEUR: 204, note: 'Порог 2 UC (UC = 102 €) для pagamento em prestações в 2026 году.' },
     { label: 'Минимальный платёж по рассрочке', amountEUR: 50, note: 'Каждая prestação должна быть не меньше 50 €; обычно максимум 12 ежемесячных платежей.' }
   ],
   sources: [
@@ -136,6 +136,6 @@ export default {
     { title: 'ePortugal: consultar o Portal das Contraordenações', url: 'https://www2.gov.pt/servicos/consultar-o-portal-das-contraordenacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código da Estrada — Decreto-Lei 114/94, artigos sobre contraordenações, pagamento, defesa e pontos', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34445075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

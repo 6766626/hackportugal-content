@@ -11,7 +11,7 @@ export default {
       id: 'baseline',
       title: '1. Сравните не цену в салоне, а TCO за 5 лет',
       content: [
-        { kind: 'paragraph', text: 'Total cost of ownership — это покупка минус будущая перепродажа плюс энергия, налоги, страховка, обслуживание, шины, парковка и зарядная инфраструктура.\n\nВ Португалии главный разрыв в 2026: электрокар дороже при покупке, но дешевле каждый километр и почти всегда дешевле по налогам.' },
+        { kind: 'paragraph', text: 'Total cost of ownership — это цена покупки минус будущая перепродажа плюс энергия, налоги, страховка, обслуживание, шины, парковка и зарядная инфраструктура.\n\nВ Португалии главный разрыв в 2026: электрокар дороже при покупке, но дешевле каждый километр и почти всегда дешевле по налогам.' },
         { kind: 'checklist', items: [
           'BEV новый: обычно 30 000–50 000 €; городские модели иногда ниже, семейные SUV часто 40 000 €+.',
           'Бензиновый новый автомобиль: обычно 20 000–35 000 € за компакт/кроссовер массового сегмента.',
@@ -71,7 +71,7 @@ export default {
           'Бензин: IUC часто 120–300 €/год для массовых моделей, но может быть выше у мощных SUV.',
           'IVA для частного лица не возвращается; для компаний и ENI возможны отдельные правила, лимиты и tributação autónoma.',
           'Fundo Ambiental: в 2026 ориентир для физлица — поддержка до 4 000 € на покупку BEV при соблюдении условий программы.',
-          'Субсидия не автоматическая: нужен открытый aviso, бюджет, документы покупки и соответствие лимиту цены автомобиля.',
+          'Субсидия не автоматическая: нужен открытый aviso, бюджет, документы покупки и соответствие лимиту цены автомобиля (в авизо 2026 — до 38 500 € для авто до 5 мест).',
           'Покупка до открытия/вне условий aviso может не дать права на выплату.',
           'Деньги Fundo Ambiental могут закончиться раньше дедлайна — считайте ваучер бонусом, а не гарантированной скидкой.'
         ] },
@@ -125,10 +125,10 @@ export default {
   ],
   sources: [
     { title: 'Fundo Ambiental — incentivos a veículos de emissões nulas', url: 'https://www.fundoambiental.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'ACAP — рынок автомобилей и статистика registrations в Португалии', url: 'https://www.acap.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'ACAP — рынок автомобилей и статистика регистраций в Португалии', url: 'https://www.acap.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Tributária — IUC и ISV на Portal das Finanças', url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Pages/default.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSE — Tarifas e Preços Mobilidade Elétrica', url: 'https://www.erse.pt/mobilidade-eletrica/tarifas-e-precos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-05' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

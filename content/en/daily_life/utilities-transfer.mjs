@@ -11,7 +11,7 @@ export default {
       id: 'market',
       title: 'Regulated and liberalised market',
       content: [
-        { kind: 'paragraph', text: 'Electricity and gas in Portugal have been liberalised since 2015 — the supplier can be any company, and prices are free. In parallel, since 2021 a regulated tariff has returned for vulnerable customers: older people and people on low incomes.' },
+        { kind: 'paragraph', text: 'Electricity and gas in Portugal have been liberalised since 2015 — the supplier can be any company, and prices are free. In parallel, a regulated tariff remains available: any low-voltage domestic customer (up to 41.4 kVA) can switch to it. This transitional regime has been extended until the end of 2027. Separately, there is a social tariff (tarifa social) — a discount for vulnerable customers on low incomes.' },
         { kind: 'checklist', items: [
           '💡 Electricity: 20+ suppliers (EDP Comercial, Galp, Iberdrola, Endesa, Goldenergy, Coopérnico, Luzigás and others)',
           '🔥 Gas: 10+ suppliers (often the same ones)',
@@ -105,7 +105,7 @@ export default {
         { kind: 'checklist', items: [
           '📋 Livro de Reclamações (complaints book) — paper or on livroreclamacoes.pt',
           '⚖️ ERSE — regulator, erse.pt/reclamações',
-          '⚡ DGEG (Direcção-Geral de Energia) — for serious cases',
+          '⚡ DGEG (Direção-Geral de Energia e Geologia) — for serious cases',
           '💰 CTC (Centro de Arbitragem de Conflitos de Consumo) — at regional level',
           '🚫 Electricity disconnection without notice is prohibited; compensation is due',
           '📅 Reimbursement / credit delays >30 days — fine for the supplier'
@@ -126,6 +126,6 @@ export default {
     { title: 'DGEG — Direcção-Geral de Energia e Geologia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 38/2017 — electricity supply', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/38-2017', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

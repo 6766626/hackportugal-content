@@ -3,7 +3,7 @@ export default {
   id: 'health-insurance-compared',
   categoryId: 'healthcare',
   title: 'Private health insurance in Portugal — Médis, Multicare, CUF and others',
-  tldr: 'SNS is available to registered residents/utente; most core services have no taxas moderadoras (Lei n.º 22/2022), but medicines, dentistry, glasses and some services are paid separately or partly covered. Waiting times for specialists vary from weeks to months depending on region, priority and specialty. Private insurance speeds things up — GP/urgent care is often the same day, specialists/exames within days to weeks. Top insurers: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare is a network/administrator (not a separate insurer).\n\n2026 prices: €30–80/month for a basic plan, €100–250/month for full cover. For D7/D8 visas, consulates usually require travel medical insurance — the exact requirements vary by consulate.',
+  tldr: 'SNS is available to registered residents/utente; most core services have no taxas moderadoras (Decreto-Lei n.º 37/2022), but medicines, dentistry, glasses and some services are paid separately or partly covered. Waiting times for specialists vary from weeks to months depending on region, priority and specialty. Private insurance speeds things up — GP/urgent care is often the same day, specialists/exames within days to weeks. Top insurers: Médis (Ocidental–Ageas), Multicare (Fidelidade), Allianz Portugal, Generali Tranquilidade; AdvanceCare is a network/administrator (not a separate insurer).\n\n2026 prices: €30–80/month for a basic plan, €100–250/month for full cover. For D7/D8 visas, consulates usually require travel medical insurance — the exact requirements vary by consulate.',
   tags: ['insurance', 'health', 'médis', 'multicare', 'private healthcare'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           '⏰ SNS: waiting times for specialists vary from weeks to months depending on region, priority and specialty',
           '🏥 The private system is usually faster: GP/urgent care is often the same day, specialists/exames — from a few days to weeks depending on the network and doctor',
-          '💊 Most taxas moderadoras in SNS have been abolished since 2022 (Lei n.º 22/2022); they remain, for example, for urgência without referral from SNS24/INEM/health centre and some services outside SNS',
+          '💊 Most taxas moderadoras in SNS have been abolished since 2022 (Decreto-Lei n.º 37/2022); they remain, for example, for urgência without referral from SNS24/INEM/health centre and some services outside SNS',
           '🧪 Blood tests/MRI via SNS — from weeks to months; with insurance often 1–2 weeks',
           '💰 IRS deduction: 15% on despesas de saúde within the household cap (Código do IRS art. 78.º-C)',
           '🌍 For D7 / D8 visas, consulates usually require travel medical insurance — specific requirements differ by consulate',
@@ -51,7 +51,7 @@ export default {
             { kind: 'paragraph', text: 'A healthcare services network/platform (managed-care/network administrator), not a separate insurer. Often used by insurance products from Generali Tranquilidade and partners; check exactly who the legal insurer is in the policy. From €30/month.' }
           ]},
           { id: 'p4', title: 'Generali Tranquilidade', content: [
-            { kind: 'paragraph', text: 'Since 2024, Tranquilidade has belonged to the Generali group and operates under the Generali Tranquilidade brand; in 2024 Liberty Seguros Portugal was integrated into it. Premium plans, international cover, more expensive, but strong support for foreigners. From €50/month.' }
+            { kind: 'paragraph', text: 'Since 2024, Tranquilidade has belonged to the Generali group and operates under the Generali Tranquilidade brand; it acquired Liberty Seguros Portugal in 2024, with the legal merger completed in 2025. Premium plans, international cover, more expensive, but strong support for foreigners. From €50/month.' }
           ]},
           { id: 'p4b', title: 'Allianz Portugal', content: [
             { kind: 'paragraph', text: 'A separate insurance group (NOT part of Tranquilidade/Generali). Health plans and international cover for expats. Compare separately.' }
@@ -141,12 +141,12 @@ export default {
   ],
   sources: [
     { title: 'ASF — Autoridade de Supervisão de Seguros', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Lei n.º 22/2022 — taxas moderadoras (abolition)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/22-2022-184170621', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei n.º 37/2022 — taxas moderadoras (abolition)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-2022-184054398', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Ministério da Saúde — SNS', url: 'https://www.sns.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ERS — Entidade Reguladora da Saúde', url: 'https://www.ers.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ADSE, I.P.', url: 'https://www.adse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal dos Vistos MNE — D7/D8 requirements', url: 'https://vistos.mne.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

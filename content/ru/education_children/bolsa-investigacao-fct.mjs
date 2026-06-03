@@ -3,7 +3,7 @@ export default {
   id: 'bolsa-investigacao-fct',
   categoryId: 'education_children',
   title: 'Bolsa de Investigação FCT — стипендии для исследователей',
-  tldr: 'FCT — главный госфонд науки Португалии. Иностранцы могут подаваться на doutoramento, project grants, post-doc/BIPD и контракты Estímulo ao Emprego Científico: гражданство Португалии обычно не требуется, английский часто достаточен. В 2026 ориентиры: doutoramento около 1 300 €/мес, post-doc около 1 700 €/мес, junior research contract около 2 200 €/мес gross. Подача через myFCT/Ciência Vitae; нужен план, supervisor/host и дипломы.',
+  tldr: 'FCT — главный госфонд науки Португалии. Иностранцы могут подаваться на doutoramento, project grants, post-doc/BIPD и контракты Estímulo ao Emprego Científico: гражданство Португалии обычно не требуется, английский часто достаточен. В 2026 ориентиры: doutoramento около 1 686 €/мес, post-doc около 1 851 €/мес, junior research contract около 2 200 €/мес gross. Подача через myFCT/Ciência Vitae; нужен план, supervisor/host и дипломы.',
   tags: ['fct', 'bolsa', 'doutoramento', 'исследования'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,13 +13,13 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Fundação para a Ciência e a Tecnologia, I.P. — государственное агентство, которое финансирует PhD, исследовательские проекты, лаборатории и научные контракты. Для экспата важно: многие конкурсы открыты для non-Portuguese candidates, если вы соответствуете академическим требованиям и у вас есть принимающая организация.' },
         { kind: 'checklist', items: [
-          'Bolsa de Doutoramento — индивидуальная PhD-стипендия; в 2026 типичный monthly maintenance allowance около 1 300 €/мес при работе в Португалии.',
+          'Bolsa de Doutoramento — индивидуальная PhD-стипендия; в 2026 типичный monthly maintenance allowance около 1 686 €/мес при работе в Португалии.',
           'Bolsa de Investigação в проекте — временная стипендия внутри конкретного funded project; суммы зависят от степени: licenciatura, mestrado, doutoramento.',
-          'Bolsa de Investigação Pós-Doutoral / BIPD — post-doc стипендия, обычно около 1 700–1 800 €/мес; используется ограниченно и не заменяет постоянную работу.',
+          'Bolsa de Investigação Pós-Doutoral / BIPD — post-doc стипендия, обычно около 1 851 €/мес; используется ограниченно и не заменяет постоянную работу.',
           'Estímulo ao Emprego Científico / CEEC — не стипендия, а трудовой контракт исследователя; junior level стартует примерно от 2 200 €/мес gross, обычно 14 выплат в год.',
           'FCT также может покрывать propinas для PhD до установленного лимита, personal accident insurance и социальное страхование в предусмотренных случаях.'
         ] },
-        { kind: 'warning', text: 'Не путайте bolsa и contrato. Bolsa обычно не является трудовым договором, не даёт стандартных отпускных/Christmas allowance и не удерживает IRS как зарплата. CEEC и DL 57/2016 contracts — это employment contract с IRS, Segurança Social и трудовыми правами.' }
+        { kind: 'warning', text: 'Не путайте bolsa и contrato. Bolsa обычно не является трудовым договором, не даёт стандартных отпускных и Christmas allowance, и с неё не удерживается IRS, как с зарплаты. CEEC и DL 57/2016 contracts — это employment contract с IRS, Segurança Social и трудовыми правами.' }
       ]
     },
     {
@@ -33,7 +33,7 @@ export default {
           'Для CEEC: нужен PhD и research track record; уровень Junior/Assistant/Principal зависит от лет после PhD и публикаций.',
           'Португальский язык не всегда обязателен: STEM, social sciences и international PhD programmes часто работают на английском.',
           'Если диплом не португальский, могут попросить reconhecimento de grau или доказательство equivalence; это оформляется через DGES/университеты.',
-          'Для выплаты в Португалии почти всегда понадобятся NIF, банковский IBAN SEPA, адрес и документы законного пребывания.',
+          'Для выплат в Португалии почти всегда понадобятся NIF, банковский IBAN SEPA, адрес и документы, подтверждающие законность пребывания.',
           'Если вы переезжаете из-за стипендии/контракта, обычно смотрят визы D3, D4, D5 или research visa route в зависимости от статуса и host agreement.'
         ] },
         { kind: 'warning', text: 'Формальная победа в конкурсе FCT не заменяет иммиграционный статус. Для въезда и ВНЖ через AIMA всё равно нужны виза/основание пребывания, страховка/SNS, адрес и документы принимающей организации.' }
@@ -79,10 +79,10 @@ export default {
       id: 'money-and-tax',
       title: 'Деньги, налоги и социальное страхование',
       content: [
-        { kind: 'paragraph', text: 'Стипендия FCT обычно платится ежемесячно на банковский счёт. Это maintenance allowance, а не salary. Поэтому сравнивать 1 300 € bolsa и 1 300 € gross salary напрямую нельзя: у них разный налоговый и социальный режим.' },
+        { kind: 'paragraph', text: 'Стипендия FCT обычно платится ежемесячно на банковский счёт. Это maintenance allowance, а не salary. Поэтому напрямую сравнивать bolsa и gross salary одинакового размера нельзя: у них разный налоговый и социальный режим.' },
         { kind: 'checklist', items: [
-          'Doutoramento в Португалии: ориентир 2026 — около 1 300 €/мес net-like allowance.',
-          'Post-doc/BIPD: ориентир — около 1 700–1 800 €/мес, зависит от таблицы FCT и edital.',
+          'Doutoramento в Португалии: ориентир 2026 — около 1 686 €/мес net-like allowance.',
+          'Post-doc/BIPD: ориентир — около 1 851 €/мес, зависит от таблицы FCT и edital.',
           'CEEC Junior: около 2 200 €/мес gross, но это зарплата: IRS и Segurança Social удерживаются как у работника.',
           'Bolsa обычно освобождена от IRS, если соответствует Estatuto do Bolseiro de Investigação и не является оплатой обычной работы.',
           'FCT может компенсировать Seguro Social Voluntário по правилам grant agreement; проверьте, кто подаёт заявление и какие сроки.',
@@ -107,7 +107,7 @@ export default {
           'Подайте на несколько каналов одновременно: FCT individual call, project bolsa, university scholarship, Marie Skłodowska-Curie, Erasmus Mundus, company-funded PhD.',
           'После результата проверьте appeal/reclamação deadline: если оценка содержит фактическую ошибку, можно подать возражение.'
         ] },
-        { kind: 'paragraph', text: 'Для семьи планируйте бюджет реалистично. 1 300 €/мес PhD bolsa в Лиссабоне или Порту покрывает скромную жизнь одного человека, но для пары/детей почти всегда нужен второй доход или savings.' }
+        { kind: 'paragraph', text: 'Для семьи планируйте бюджет реалистично. PhD bolsa около 1 686 €/мес в Лиссабоне или Порту покрывает скромную жизнь одного человека, но для пары/детей почти всегда нужен второй доход или savings.' }
       ]
     }
   ],
@@ -123,6 +123,6 @@ export default {
     { title: 'FCT — Emprego Científico / Estímulo ao Emprego Científico', url: 'https://www.fct.pt/financiamento/programas-de-financiamento/emprego-cientifico/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Estatuto do Bolseiro de Investigação — Lei 40/2004', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2004-58216179', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

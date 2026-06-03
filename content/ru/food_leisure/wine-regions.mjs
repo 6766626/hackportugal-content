@@ -39,7 +39,7 @@ export default {
           { id: 'r4', title: 'Острова', content: [
             { kind: 'checklist', items: [
               'Madeira — креплёное вино, уникальный процесс выдержки в жаре',
-              'Açores — вулканические вина на базальте (Pico), включая Paisagem da Cultura da Vinha da Ilha do Pico UNESCO'
+              'Açores — вулканические вина на базальте (Pico); виноградники острова Пику входят в список Всемирного наследия ЮНЕСКО (Paisagem da Cultura da Vinha da Ilha do Pico)'
             ]}
           ]}
         ]}
@@ -103,6 +103,6 @@ export default {
     { title: 'IVDP — Instituto dos Vinhos do Douro e Porto', url: 'https://www.ivdp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Wine tourism', url: 'https://www.visitportugal.com/pt-pt/experiencias/gastronomia-e-vinhos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

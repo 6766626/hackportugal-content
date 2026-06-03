@@ -3,7 +3,7 @@ export default {
   id: 'money-transfer',
   categoryId: 'banking',
   title: 'Перевод денег из СНГ в Португалию — легальные каналы 2026',
-  tldr: 'Санкции ЕС (2022+) заблокировали SWIFT для крупных российских банков и ограничили переводы. Легальные каналы остаются: небольшие российские банки без санкций, несанкционные банки СНГ (Казахстан, Армения, Грузия), необанки ЕС (через посредника), криптовалюта через регулируемые биржи. Ключевое — документирование источника средств (AML/KYC)\.\n\nАнонимный перевод невозможен.',
+  tldr: 'Санкции ЕС (2022+) заблокировали SWIFT для крупных российских банков и ограничили переводы. Легальные каналы остаются: небольшие российские банки без санкций, несанкционные банки СНГ (Казахстан, Армения, Грузия), необанки ЕС (через посредника), криптовалюта через регулируемые биржи. Ключевое — документирование источника средств (AML/KYC).\n\nАнонимный перевод невозможен.',
   audience: { countryCodes: ['RU', 'BY', 'KZ', 'KG', 'UZ'] },
   tags: ['переводы', 'санкции', 'банк', 'aml'],
   estimatedReadMinutes: 8,
@@ -131,6 +131,6 @@ export default {
     { title: 'Directiva 2018/1673 — AML 6', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32018L1673', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças (налоговый портал) — declaração de rendimentos estrangeiros', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

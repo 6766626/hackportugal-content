@@ -3,7 +3,7 @@ export default {
   id: 'fa-painel-solar-residencial',
   categoryId: 'housing_buy',
   title: 'Fundo Ambiental: ваучер на солнечные панели для жилья',
-  tldr: 'Fundo Ambiental периодически открывает конкурсы на компенсацию солнечных панелей для жилья: solar fotovoltaico для autoconsumo и solar térmico для горячей воды. В типичных Aviso лимит по дому доходил примерно до 2 500 €, но это не постоянная льгота: в апреле 2026 нужно ждать нового Aviso/PRR-раунда и смотреть условия конкретной волны. Нужны жильё в Португалии, NIF, отсутствие долгов в AT/Segurança Social, счёт-фактура и установщик из допустимого списка.',
+  tldr: 'Fundo Ambiental периодически открывает конкурсы на компенсацию солнечных панелей для жилья: solar fotovoltaico для autoconsumo и solar térmico для горячей воды. В типичных Aviso лимит по дому доходил примерно до 2 500 €, но это не постоянная льгота: в мае 2026 нужно ждать нового Aviso/PRR-раунда и смотреть условия конкретной волны. Понадобятся жильё в Португалии, NIF, отсутствие долгов в AT/Segurança Social, счёт-фактура и установщик из допустимого списка.',
   tags: ['fundoambiental', 'solar', 'жильё', 'upac'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Fundo Ambiental — государственный фонд, через который Португалия распределяет субсидии на энергоэффективность жилья. Для солнечных систем это обычно не «скидка в магазине», а компенсация части расходов после установки и подачи заявки в портал Fundo Ambiental.' },
         { kind: 'paragraph', text: 'Поддержка может покрывать solar fotovoltaico — панели для собственного потребления электроэнергии, и solar térmico — панели для нагрева воды. В прошлых раундах Edifícios + Sustentáveis лимиты по отдельным типологиям доходили примерно до 2 500 € на dwelling, но точные проценты, потолки и eligible expenses всегда задаются конкретным Aviso.' },
-        { kind: 'warning', text: 'На апрель 2026 это не автоматическое право владельца жилья. Если новый Aviso ещё не открыт, нельзя гарантировать выплату за установку «задним числом». Перед подписанием договора проверьте дату admissibilidade das despesas в текущем Aviso.' }
+        { kind: 'warning', text: 'На май 2026 это не автоматическое право владельца жилья. Если новый Aviso ещё не открыт, нельзя гарантировать выплату за установку «задним числом». Перед подписанием договора проверьте дату admissibilidade das despesas в текущем Aviso.' }
       ]
     },
     {
@@ -109,7 +109,7 @@ export default {
           'Проверьте, что суммы без/с IVA совпадают с требованиями формы.',
           'Отправьте candidatura и сохраните comprovativo submission.',
           'Отвечайте на pedidos de esclarecimento быстро: пропуск срока ведёт к indeferimento.',
-          'После aprovação дождитесь pagamento; сроки могут быть от недель до многих месяцев.'
+          'После aprovação дождитесь pagamento; сроки могут быть от нескольких недель до многих месяцев.'
         ] },
         { kind: 'warning', text: 'Если заявка отклонена, обычно можно подать reclamação/contestação в срок, указанный в уведомлении. Но отсутствие обязательного документа, неверная дата fatura или установщик вне условий Aviso часто не лечатся постфактум.' }
       ]
@@ -127,6 +127,6 @@ export default {
     { title: 'Decreto-Lei 15/2022 — organização e funcionamento do Sistema Elétrico Nacional', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/15-2022-177634016', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ADENE — Certificação energética e eficiência em edifícios', url: 'https://www.adene.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

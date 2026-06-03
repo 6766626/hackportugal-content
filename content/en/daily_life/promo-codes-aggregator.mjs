@@ -162,10 +162,12 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Every time you give your NIF at the checkout, you add the receipt to e-Fatura.gov.pt. At the end of the year, you can recover part of the IVA (VAT) as a deduction from IRS. This is not a “discount”, but real money back.' },
         { kind: 'checklist', items: [
-          '🍽️ Restaurants: 15% of IVA (max €250 per year)',
-          '🚗 Car and motorcycle repairs: 15% of IVA (max €250)',
-          '💇 Hairdressers/beauty salons: 15% of IVA (max €250)',
-          '🐾 Veterinary services: 15% (max €250)',
+          '🍽️ Restaurants and catering: 15% of IVA',
+          '🚗 Car and motorcycle repairs: 15% of IVA',
+          '💇 Hairdressers/beauty salons: 15% of IVA',
+          '🐾 Veterinary services: 15% of IVA (medicines for animals — 35%)',
+          '💪 Gyms, transport passes, newspapers and magazines: 15% of IVA',
+          '⚠️ Combined limit for all these categories — €250 per year together (not €250 each)',
           '🏠 Gas, electricity, water: 15% of IVA',
           '🎓 Education (including courses, tutors): 30% (max €800)',
           '🏥 Health (including pharmacies): 15% (max €1000)',
@@ -182,7 +184,7 @@ export default {
     { title: 'ACSS — Conselho Nacional Famílias Numerosas', url: 'https://famnumerosas.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portal das Finanças — e-Fatura', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: discount cards and promos in Portugal. Cartão Continente (main one), Pingo Doce Poupa Mais, Cartão Jovem Europeu (ages 12-29, ~60 discount categories), Cartão Família Numerosa (for 3+ children), shop programmes (KIWOKO, Decathlon, FNAC), cashback sites (Letyshops, eBuyClub), coupon aggregators (Radarcupao, Ocacapromocoes), e-Fatura IVA refund through IRS.'

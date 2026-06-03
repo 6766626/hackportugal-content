@@ -15,10 +15,10 @@ export default {
           { id: 'r1', title: 'Garantia dos bens (Lei 84/2021)', content: [
             { kind: 'checklist', items: [
               '✅ Bens novos: 3 anos de garantia (antes eram 2 — alterado em 2022)',
-              '✅ Bens usados: mínimo de 1 ano; vendedor e comprador podem acordar outro prazo',
+              '✅ Bens usados: também 3 anos por defeito; as partes podem acordar por escrito reduzir o prazo, mas nunca para menos de 18 meses',
               '✅ A garantia cobre DEFEITOS de conformidade — não desgaste, nem danos causados por culpa do comprador',
               '🔁 Em caso de defeito, o vendedor é obrigado a propor: reparação OU substituição OU desconto OU reembolso',
-              '⏰ Nos primeiros 6 meses aplica-se a presunção de que o defeito existia desde o momento da venda (ónus da prova a cargo do vendedor)',
+              '⏰ Nos primeiros 2 anos aplica-se a presunção de que o defeito existia desde o momento da venda (ónus da prova a cargo do vendedor)',
               '📋 Guarde o recibo (talão de compra) e a embalagem durante todo o prazo da garantia'
             ]}
           ]},
@@ -82,7 +82,7 @@ export default {
           { id: 'l4', title: 'Passo 4 — Tribunal / Julgados de Paz', content: [
             { kind: 'checklist', items: [
               '⚖️ Julgados de Paz: pequenas acções até 15 000 € — mais rápido do que um tribunal comum',
-              '💰 Custas judiciais de 70 € (se o pedido ≤ 5000 €) ou 105 € (>5000)',
+              '💰 Taxa única de 70 € (a cargo da parte vencida); 50 € se houver acordo em mediação',
               '⏱️ Decisão normalmente em 2-6 meses',
               '🎓 Advogado não é obrigatório (para pedidos ≤ 3 740 €)',
               '🏛️ Endereços: julgadosdepaz.mj.pt'
@@ -170,8 +170,7 @@ export default {
   costs: [
     { label: 'Livro de Reclamações', amountEUR: 0, note: 'obrigatoriamente gratuito' },
     { label: 'Subscrição DECO Proteste', amountEURMin: 25, amountEURMax: 25, note: '€/mês' },
-    { label: 'Julgados de Paz (≤ 5000 €)', amountEUR: 70 },
-    { label: 'Julgados de Paz (5000-15000 €)', amountEUR: 105 },
+    { label: 'Julgados de Paz — taxa única', amountEUR: 70, note: '50 € se houver acordo em mediação' },
     { label: 'Advogado para um caso sério', amountEURMin: 200, amountEURMax: 1500, note: '€ pagamento único' }
   ],
   sources: [
@@ -181,6 +180,6 @@ export default {
     { title: 'DL 24/2014 — Contratos à distância', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Centro Europeu do Consumidor (ECC-Net Portugal)', url: 'https://cec.consumidor.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

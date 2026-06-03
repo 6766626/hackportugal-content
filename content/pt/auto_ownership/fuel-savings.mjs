@@ -3,7 +3,7 @@ export default {
   id: 'fuel-savings',
   categoryId: 'auto_ownership',
   title: 'Gasolina e gasóleo — como poupar em combustível',
-  tldr: 'Preço nos postos de abastecimento em Portugal continental em 2026: gasolina 95 (gasolina) 1,70–1,90 €/l, gasóleo (gasóleo) 1,55–1,75 €/l.\n\nOs preços são livres no continente; a ERSE publica semanalmente o «preço eficiente» — uma referência indicativa e não obrigatória, não um tecto máximo.\n\nNa Madeira e nos Açores, os preços podem ser regulados administrativamente. A diferença entre redes caras (Galp / BP / Repsol) e baratas (Prio, Intermarché, Continente, Cepsa/Moeve) pode chegar a 0,15 €/l. As apps ComboMais / IdealGás / Tankpreise ajudam a encontrar o posto mais barato. Os cartões de fidelização dão descontos de 0,05–0,12 €/l.',
+  tldr: 'Preço nos postos de abastecimento em Portugal continental em 2026: gasolina 95 (gasolina) 1,85–2,05 €/l, gasóleo (gasóleo) 1,80–2,00 €/l.\n\nOs preços são livres no continente; a ERSE publica semanalmente o «preço eficiente» — uma referência indicativa e não obrigatória, não um tecto máximo.\n\nNa Madeira e nos Açores, os preços podem ser regulados administrativamente. A diferença entre redes caras (Galp / BP / Repsol) e baratas (Prio, Intermarché, Continente, Cepsa/Moeve) pode chegar a 0,15 €/l. As apps ComboMais / IdealGás / Tankpreise ajudam a encontrar o posto mais barato. Os cartões de fidelização dão descontos de 0,05–0,12 €/l.',
   tags: ['gasolina', 'posto de abastecimento', 'poupança', 'combustível'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,13 +11,13 @@ export default {
       id: 'prices',
       title: '⛽ Preços e diferença entre redes',
       content: [
-        { kind: 'paragraph', text: 'Os preços em Portugal são livres, mas regulados pelo mercado. O Estado publica semanalmente preços máximos recomendados — todos os postos de abastecimento mantêm-se abaixo.' },
+        { kind: 'paragraph', text: 'No continente os preços são livres: cada rede define o seu. A ERSE publica semanalmente um «preço eficiente» de referência, mas não é um tecto — os preços praticados nos postos podem ficar acima ou abaixo dele.' },
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Níveis das marcas', content: [
             { kind: 'checklist', items: [
-              '🔴 Premium (Galp, BP, Repsol, ENI, Cepsa/Moeve): 1,75–1,90 €/l — nas cidades, nas autoestradas. Normalmente um pouco mais caro',
-              '🟡 Segmento médio (OMV, Prio, BPCarga): 1,65–1,80 €/l — nas regiões, menos frequente nos centros',
-              '🟢 Económicos (postos Intermarché, Continente Auto, Leclerc): 1,55–1,70 €/l — junto a supermercados, muitas vezes os mais baratos'
+              '🔴 Premium (Galp, BP, Repsol, ENI, Cepsa/Moeve): 1,95–2,10 €/l — nas cidades, nas autoestradas. Normalmente um pouco mais caro',
+              '🟡 Segmento médio (OMV, Prio, BPCarga): 1,90–2,00 €/l — nas regiões, menos frequente nos centros',
+              '🟢 Económicos (postos Intermarché, Continente Auto, Leclerc): 1,80–1,95 €/l — junto a supermercados, muitas vezes os mais baratos'
             ]}
           ]},
           { id: 'p2', title: 'Diferenças geográficas', content: [
@@ -123,16 +123,16 @@ export default {
     }
   ],
   costs: [
-    { label: 'Gasolina (95)', amountEURMin: 1.70, amountEURMax: 1.90, note: '€/l' },
-    { label: 'Gasóleo', amountEURMin: 1.55, amountEURMax: 1.75, note: '€/l' },
-    { label: 'Premium (98)', amountEURMin: 1.85, amountEURMax: 2.05, note: '€/l' },
-    { label: 'AutoGás (GPL)', amountEURMin: 0.90, amountEURMax: 1.10, note: '€/l' },
+    { label: 'Gasolina (95)', amountEURMin: 1.85, amountEURMax: 2.05, note: '€/l' },
+    { label: 'Gasóleo', amountEURMin: 1.80, amountEURMax: 2.00, note: '€/l' },
+    { label: 'Premium (98)', amountEURMin: 2.10, amountEURMax: 2.30, note: '€/l' },
+    { label: 'AutoGás (GPL)', amountEURMin: 0.90, amountEURMax: 1.15, note: '€/l' },
     { label: 'Carregamento rápido EV DC', amountEURMin: 0.40, amountEURMax: 0.55, note: '€/kWh' }
   ],
   sources: [
     { title: 'ERSE — preços dos combustíveis', url: 'https://www.erse.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGEG — Direção-Geral de Energia', url: 'https://www.dgeg.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

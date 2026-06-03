@@ -127,6 +127,6 @@ export default {
     { title: 'VisitPortugal: cafés, restaurants and regional cuisine of Portugal', url: 'https://www.visitportugal.com/pt-pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Turismo de Lisboa: where to eat and drink in Lisbon', url: 'https://www.visitlisboa.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

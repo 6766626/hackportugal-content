@@ -3,7 +3,7 @@ export default {
   id: 'ler-factura-luz',
   categoryId: 'daily_life',
   title: 'Как читать счёт за электричество: consumo, taxas и расчёт',
-  tldr: 'Счёт EDP, Galp, Iberdrola или Endesa состоит из 3 главных частей: potência contratada в kVA — фиксированная плата за мощность, consumo в kWh — фактическая или оценочная энергия, и налоги/taxas. В 2026 в континентальной Португалии на счёте обычно есть contribuição audiovisual RTP 2,85 € + IVA 6%, taxa DGEG около 0,07 €/мес + IVA 23%, IEC 0,001 €/kWh и IVA 6%/13%/23% по правилам. Главное — проверить, стоит ли leitura real или estimativa: если счёт оценочный, передайте показания в E-REDES или поставщику.',
+  tldr: 'Счёт EDP, Galp, Iberdrola или Endesa состоит из 3 главных частей: potência contratada в kVA — фиксированная плата за мощность, consumo в kWh — фактическая или оценочная энергия, и налоги/taxas. В 2026 в континентальной Португалии на счёте обычно есть contribuição audiovisual RTP 2,85 € + IVA 6%, taxa DGEG около 0,07 €/мес + IVA 23%, IEC 0,001 €/kWh и IVA 6%/13%/23% по правилам. Главное — проверить, указано ли в счёте leitura real или estimativa: если счёт оценочный, передайте показания в E-REDES или поставщику.',
   tags: ['luz', 'edp', 'счёт', 'iva', 'kwh'],
   estimatedReadMinutes: 6,
   steps: [
@@ -76,7 +76,7 @@ export default {
           'Juros, penalizações или custos de cobrança появляются только при просрочках/особых операциях'
         ] },
         { kind: 'paragraph', text: 'Пример быстрой проверки: если CAV в обычной квартире около 3,02 € за месяц — это нормально. Если счёт за 2 месяца, строка будет около 6,04 €. DGEG за месяц — примерно 0,09 € с IVA, то есть это не причина большого счёта.' },
-        { kind: 'warning', text: 'На Madeira и Açores ставки IVA ниже региональных, поэтому суммы IVA отличаются от континентальной Португалии. Правило чтения счёта то же, но проценты в строках налога будут другими.' }
+        { kind: 'warning', text: 'На Madeira и Açores действуют более низкие региональные ставки IVA, поэтому суммы IVA отличаются от континентальной Португалии. Правило чтения счёта то же, но проценты в строках налога будут другими.' }
       ]
     },
     {
@@ -134,6 +134,6 @@ export default {
     { title: 'E-REDES: передача показаний счётчика', url: 'https://www.e-redes.pt/pt-pt/como-ler-o-contador', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ERSExplica: применение IVA в счёте за электричество (200/300 kWh, Lei n.º 38/2024)', url: 'https://www.erse.pt/media/tcsfm4n2/ersexplica_iva-fatura_2025.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

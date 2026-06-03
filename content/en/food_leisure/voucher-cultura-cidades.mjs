@@ -89,6 +89,6 @@ export default {
     { title: 'Câmara Municipal do Porto — Cartão Porto', url: 'https://cartao.porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Cascais — Cartão Viver Cascais', url: 'https://www.cascais.pt/servico/viver-cascais-aderir-renovar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

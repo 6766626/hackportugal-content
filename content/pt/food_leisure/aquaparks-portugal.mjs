@@ -168,7 +168,7 @@ export default {
         { kind: 'checklist', items: [
           '👕 Fato de banho, toalha, chinelos — na maioria dos parques há aluguer de cacifos (3–5 € + caução)',
           '🧴 SPF 50+ — o sol português é implacável, sobretudo no Algarve',
-          '👶 Fraldas de piscina (sw diapers) são obrigatórias para bebés — fraldas normais não são permitidas',
+          '👶 Fraldas de piscina (swim diapers) são obrigatórias para bebés — fraldas normais não são permitidas',
           '🥪 Não é permitido trazer comida própria (só em alguns parques do norte) — há restaurantes/fast food no interior, com preços moderados',
           '💳 A bilheteira aceita Multibanco/cartões, mas cacifos e alugueres muitas vezes só em numerário — leve 10–20 € em trocos',
           '🚿 Há duches em todo o lado, mas na época alta há filas',
@@ -193,7 +193,7 @@ export default {
     { title: 'Aqualand Algarve — Tickets (site oficial)', url: 'https://www.aqualand.pt/tickets/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Aquashow Family Park — Visit Portugal', url: 'https://www.visitportugal.com/en/content/aquashow-family-park', kind: 'official', language: 'en', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: todos os 8 grandes parques aquáticos de Portugal (Algarve, norte, centro, Madeira) com preços de 2026 verificados, épocas de funcionamento, moradas e conselhos práticos. Fontes — sites oficiais do Aquashow, Slide & Splash, Aqualand e portal Visit Portugal.'

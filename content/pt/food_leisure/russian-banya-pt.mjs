@@ -75,8 +75,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Em Espanha, a diáspora russa é 5-10 vezes maior, por isso existem várias banyas russas públicas com serviço de venik. Se uma experiência autêntica for muito importante — por vezes é mais barato voar do que procurar em Portugal.' },
         { kind: 'checklist', items: [
-          '🇪🇸 Madrid: “Banya russa em Moskvá” (Calle Atocha) — banya clássica com sala de vapor, mestre de venik, lago',
-          '🇪🇸 Barcelona: “Banya Russa Barcelona” na zona de Eixample — banya + restaurante russo',
+          '🇪🇸 Madrid: existem banyas russas com sala de vapor e mestre de venik — procure endereços atuais nos chats e diretórios russófonos de Madrid',
+          '🇪🇸 Barcelona: PAR Banya (Carrer d\'Enric Granados, 85, zona de Eixample) — banya tradicional com vapor de venik, hammam e piscina',
           '🇪🇸 Málaga/Marbella: várias villas-banya privadas na zona das praias da Costa del Sol',
           '✈️ Lisboa ↔ Madrid: TAP ~50-80 € ida e volta; comboio Renfe ~9 horas a partir de Lisboa',
           '🚗 Porto ↔ Vigo ↔ Santiago: 3 horas de carro até à fronteira espanhola; na Galiza há vários restaurantes eslavos com saunas'
@@ -89,7 +89,7 @@ export default {
     { title: 'Atlas Lisboa — saunas e banhos de vapor públicos', url: 'https://www.atlaslisboa.com/lisbon-saunas-steamrooms/', kind: 'secondary', language: 'en', lastRetrieved: '2026-05-17' },
     { title: 'Direção-Geral da Saúde — Termalismo terapêutico (informação sobre termas)', url: 'https://www.dgs.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: banya russa em Portugal. Descrição honesta da realidade — não há banyas russas públicas, há saunas finlandesas/hammams/termas. Canais para procurar banyas privadas através da comunidade, preços, segurança. Alternativas: 5 grandes termas de Portugal, SPA em hotéis de Lisboa/Porto, viagem a Madrid/Barcelona.'

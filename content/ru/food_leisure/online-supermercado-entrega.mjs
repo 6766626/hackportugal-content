@@ -3,7 +3,7 @@ export default {
   id: 'online-supermercado-entrega',
   categoryId: 'food_leisure',
   title: 'Доставка продуктов на дом: Continente Online, Auchan, El Corte Inglés, Pingo Doce',
-  tldr: 'В 2026 доставка продуктов в Португалии работает нормально в Lisboa, Porto и пригородах, но покрытие сильно зависит от почтового кода. Continente Online обычно берёт около 3–7 € за слот, Auchan и Pingo Doce показывают цену после адреса, El Corte Inglés Supermercado/Express удобен в центре Lisboa и может привезти часть ассортимента примерно за 1 час. Для срочных покупок используйте Glovo Mercado и Bolt Market, но цены и наценки выше.',
+  tldr: 'В 2026 доставка продуктов в Португалии работает неплохо в Lisboa, Porto и пригородах, но покрытие сильно зависит от почтового кода. Continente Online обычно берёт около 3–7 € за слот, Auchan и Pingo Doce показывают цену после адреса, El Corte Inglés Supermercado/Express удобен в центре Lisboa и может привезти часть ассортимента примерно за 1 час. Для срочных покупок используйте Glovo Mercado и Bolt Market, но цены и наценки выше.',
   tags: ['supermercado', 'доставка', 'continente', 'glovo'],
   estimatedReadMinutes: 5,
   steps: [
@@ -35,7 +35,7 @@ export default {
               'Удобно покупать воду, бытовую химию, детские товары, товары Continente.',
               'Можно разрешить или запретить substituições — замены отсутствующих товаров.',
               'Цены и promos лучше проверять в день заказа: акции меняются часто.',
-              'Clubе/Cartão Continente может дать купоны, saldo em cartão и скидки на топливо Galp по отдельным кампаниям.'
+              'Club/Cartão Continente может дать купоны, saldo em cartão и скидки на топливо Galp по отдельным кампаниям.'
             ] }
           ] },
           { id: 'auchan', title: 'Auchan', content: [
@@ -125,6 +125,6 @@ export default {
     { title: 'Auchan Portugal — loja online и доставка', url: 'https://www.auchan.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Pingo Doce — loja online и serviços', url: 'https://www.pingodoce.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

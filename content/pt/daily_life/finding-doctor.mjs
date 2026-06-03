@@ -92,7 +92,7 @@ export default {
             { kind: 'paragraph', text: 'Chega ao serviço → um enfermeiro avalia o estado → atribui uma cor de prioridade (vermelho = 0 min, laranja = 10 min, amarelo = 60 min, verde = 120 min, azul = 240 min, branco = não urgente, deve ir ao Centro de Saúde).' }
           ]},
           { id: 'u3', title: 'Custo', content: [
-            { kind: 'paragraph', text: 'Desde 2022 (DL 52/2022), a maioria das taxas moderadoras do SNS foi abolida, mas no Serviço de Urgência podem ser cobradas se o paciente se apresentar sem referenciamento prévio do SNS24/médico de família e não houver internamento/isenção. Se a cor for «branco/azul» (não urgente), podem encaminhá-lo para o Centro de Saúde.' }
+            { kind: 'paragraph', text: 'Desde 2022 (DL 37/2022), a maioria das taxas moderadoras do SNS foi abolida, mas no Serviço de Urgência podem ser cobradas se o paciente se apresentar sem referenciamento prévio do SNS24/médico de família e não houver internamento/isenção. Se a cor for «branco/azul» (não urgente), podem encaminhá-lo para o Centro de Saúde.' }
           ]},
           { id: 'u4', title: 'Urgência privada', content: [
             { kind: 'paragraph', text: 'Numa clínica privada (CUF, Luz) — sem fila, mas 80–150 € pela primeira consulta. Mais rápido se a espera no SNS for de 4+ horas.' }
@@ -106,6 +106,6 @@ export default {
     { title: 'SNS 24 — serviços online', url: 'https://www.sns24.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ACSS — estatísticas do SNS', url: 'https://www.acss.min-saude.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

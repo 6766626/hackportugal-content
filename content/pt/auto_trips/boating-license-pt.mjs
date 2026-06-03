@@ -3,7 +3,7 @@ export default {
   id: 'boating-license-pt',
   categoryId: 'auto_trips',
   title: 'Licença para iate/barco em Portugal: Marinheiro, Patrão Local, Patrão de Costa',
-  tldr: 'Para uma embarcação de recreio ou iate em Portugal é necessária a Carta de navegador de recreio através da DGRM: escola, atestado médico, exame e emissão do cartão. A categoria básica Marinheiro é normalmente suficiente para pequenas embarcações durante o dia junto à costa; Patrão Local — para saídas locais até 5 milhas da costa; Patrão de Costa — para navegação mais exigente até 25 milhas. Licenças da UE/EEE são reconhecidas automaticamente em Portugal dentro dos respetivos direitos, mas licenças do UK/outros países terceiros devem ser verificadas previamente junto da DGRM ou da Capitania.',
+  tldr: 'Para uma embarcação de recreio ou iate em Portugal é necessária a Carta de navegador de recreio através da DGRM: escola, atestado médico, exame e emissão do cartão. A categoria básica Marinheiro é normalmente suficiente para pequenas embarcações durante o dia junto à costa; Patrão Local — para saídas locais até 6 milhas da costa; Patrão de Costa — para navegação mais exigente até 40 milhas. Licenças da UE/EEE são reconhecidas automaticamente em Portugal dentro dos respetivos direitos, mas licenças do UK/outros países terceiros devem ser verificadas previamente junto da DGRM ou da Capitania.',
   tags: ['dgrm', 'iate', 'barco', 'amn'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,8 +14,8 @@ export default {
         { kind: 'paragraph', text: 'A licença portuguesa chama-se Carta de navegador de recreio. É administrada pela DGRM, e na água a fiscalização é feita pela AMN, Capitania do Porto e Polícia Marítima. Para um cenário expat comum — embarcação em Cascais, Oeiras, Setúbal, Lagos, Vilamoura, Albufeira — escolhe-se mais frequentemente Marinheiro ou Patrão Local; Patrão de Costa é necessário se você realmente se afastar mais da costa.' },
         { kind: 'checklist', items: [
           'Marinheiro — categoria inicial: pequenas embarcações de recreio, navegação diurna, saídas curtas junto à costa.',
-          'Patrão Local — mínimo prático para a maioria dos proprietários de barcos: navegação local até 5 milhas náuticas da costa e até 10 milhas de um porto de abrigo.',
-          'Patrão de Costa — para navegação costeira até 25 milhas náuticas da costa.',
+          'Patrão Local — mínimo prático para a maioria dos proprietários de barcos: navegação local à vista da costa, até 6 milhas náuticas da costa e até 25 milhas de um porto de abrigo.',
+          'Patrão de Costa — para navegação costeira até 40 milhas náuticas da costa.',
           'Patrão de Alto Mar — categoria oceânica sem o limite costeiro comum; neste guia não é analisada em detalhe.',
           'Motonauta — categoria separada para mota de água / jet ski, se não houver uma licença superior adequada.',
           'Idade mínima: normalmente 16 anos para Marinheiro/Motonauta e 18 anos para Patrão Local, Patrão de Costa e superiores.',
@@ -106,7 +106,7 @@ export default {
       id: 'renewal-practical',
       title: 'Validade, renovação e conselhos práticos',
       content: [
-        { kind: 'paragraph', text: 'A Carta de navegador de recreio portuguesa exige renovação periódica, especialmente após certos patamares de idade. Segundo as regras do RNR, a validade está ligada à idade do titular: normalmente até aos 50 anos, depois renovação de 10 em 10 anos até aos 70 e de 5 em 5 anos depois dos 70. Na renovação, pode voltar a ser exigida aptidão médica.' },
+        { kind: 'paragraph', text: 'A Carta de navegador de recreio portuguesa exige renovação periódica, especialmente após certos patamares de idade. Segundo as regras do RNR, a validade está ligada à idade do titular: até aos 70 anos não é necessária renovação, depois é exigida de 5 em 5 anos entre os 70 e os 80 anos e de 2 em 2 anos a partir dos 80. Na renovação, pode voltar a ser exigida aptidão médica.' },
         { kind: 'checklist', items: [
           'Não espere pelo fim da validade: comece a renovação com 1–2 meses de antecedência.',
           'Se se mudou, atualize os contactos para não perder notificações da DGRM/escola.',
@@ -129,6 +129,6 @@ export default {
     { title: 'Autoridade Marítima Nacional: segurança e fiscalização no mar', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei n.º 93/2018: Regulamento da Náutica de Recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/93-2018-116956361', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'gyms-fitness',
   categoryId: 'daily_life',
   title: 'Fitness e desporto — ginásios, praias, actividades',
-  tldr: 'Cadeias de ginásios 2026: VivaGym (ex-Fitness Hut, económico, ~20–35 €/mês consoante o clube), Holmes Place (premium 89–149 €/mês), Phive (segmento médio 35–50 €), Onyria, Solinca. Actividades: surf (Ericeira, Lagos, Cascais), corrida (parques), futebol (comunidades), padel (superpopular), ioga. Há muitas actividades gratuitas ao ar livre.',
+  tldr: 'Cadeias de ginásios 2026: VivaGym (ex-Fitness Hut, económico, ~20–35 €/mês consoante o clube), Holmes Place (premium 89–149 €/mês), Phive (segmento médio 35–50 €), Solinca. Actividades: surf (Ericeira, Lagos, Cascais), corrida (parques), futebol (comunidades), padel (superpopular), ioga. Há muitas actividades gratuitas ao ar livre.',
   tags: ['fitness', 'ginásios', 'desporto', 'surf'],
   estimatedReadMinutes: 5,
   steps: [
@@ -101,6 +101,6 @@ export default {
     { title: 'Reserva Mundial de Surf da Ericeira (Save The Waves Coalition)', url: 'https://www.savethewaves.org/ericeira/', kind: 'official', language: 'en', lastRetrieved: '2026-05-30' },
     { title: 'Federação Portuguesa de Surf — FPS', url: 'https://www.surfingportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'cuidador-informal-estatuto',
   categoryId: 'healthcare',
   title: 'Cuidador Informal: informal carer status for caring for parents and relatives',
-  tldr: 'Estatuto do Cuidador Informal under Lei 100/2019 is an official status for a person who regularly or permanently cares for a dependent relative in Portugal. It gives a cartão de identificação, a support plan, training, the right to descanso do cuidador and, for a cuidador informal principal, monthly Segurança Social support: in 2026 the maximum is usually capped at IAS €537.13 and depends on household income. Applying is free via Segurança Social Direta or a balcão.',
+  tldr: 'Estatuto do Cuidador Informal under Lei 100/2019 is an official status for a person who regularly or permanently cares for a dependent relative in Portugal. It gives a cartão de identificação, a support plan, training, the right to descanso do cuidador and, for a cuidador informal principal, monthly Segurança Social support: in 2026 the reference maximum is 1.1 IAS, i.e. €590.84, and the amount depends on household income. Applying is free via Segurança Social Direta or a balcão.',
   tags: ['carer', 'family', 'segurança-social', 'care'],
   estimatedReadMinutes: 6,
   steps: [
@@ -80,15 +80,17 @@ export default {
         { kind: 'paragraph', text: 'The financial benefit is called subsídio de apoio ao cuidador informal principal. It is not an automatic pension and not a salary. Segurança Social calculates household income and applies limits linked to IAS.' },
         { kind: 'checklist', items: [
           'IAS in 2026: €537.13',
+          'The reference (cap) of the benefit is 1.1 IAS: €590.84 in 2026',
           'The needs threshold for principal is usually calculated in relation to 1.3 IAS: €698.27',
-          'The maximum monthly support should not be treated as guaranteed: the amount is individual',
+          'The subsídio = the difference between the €590.84 reference and the calculated household income, so the amount is individual',
           'The calculation may include salaries, pensions, social benefits, rental income and other regular household income',
           'If income is above the limit, the status may be recognised but the subsídio may not be granted',
           'The benefit is issued to the cuidador informal principal, not to the person cared for',
           'The IBAN must be Portuguese or a SEPA account accepted by Segurança Social',
+          'From 2026, the cuidador informal subsídio itself no longer counts as income when assessing other social benefits',
           'If income, address, household composition, hospitalisation or placement in an institution changes, Segurança Social must be notified'
         ] },
-        { kind: 'warning', text: 'Do not plan the family budget as if the payment will be exactly €537.13. In practice, the amount depends on Segurança Social’s calculation and may be zero even with recognised status.' }
+        { kind: 'warning', text: 'Do not plan the family budget as if the payment will be exactly €590.84. That is only the upper reference; in practice, the amount depends on Segurança Social’s calculation and may be zero even with recognised status.' }
       ]
     },
     {
@@ -142,7 +144,7 @@ export default {
   ],
   costs: [
     { label: 'Application for reconhecimento do Estatuto do Cuidador Informal', amountEUR: 0, note: 'There is no state fee; there may be costs for translations, medical certificates and travel.' },
-    { label: 'Indicative maximum monthly support for principal in 2026', amountEURMax: 537.13, note: 'Linked to IAS 2026; the actual amount depends on income and Segurança Social’s calculation.' },
+    { label: 'Indicative maximum monthly support for principal in 2026', amountEURMax: 590.84, note: '1.1 IAS 2026; the actual amount equals the difference from the calculated income and depends on Segurança Social.' },
     { label: '1.3 IAS threshold for the needs assessment in 2026', amountEUR: 698.27, note: 'Used as a key income reference; Segurança Social rules apply.' }
   ],
   sources: [
@@ -168,6 +170,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

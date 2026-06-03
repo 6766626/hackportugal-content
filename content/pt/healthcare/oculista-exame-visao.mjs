@@ -108,6 +108,6 @@ export default {
     { title: 'SNS 24 — acesso a cuidados de saúde e consultas no SNS', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Entidade Reguladora da Saúde — direitos dos utentes dos serviços de saúde', url: 'https://www.ers.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

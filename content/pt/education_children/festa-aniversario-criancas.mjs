@@ -144,6 +144,6 @@ export default {
     { title: 'Mundo das Crianças — programas e festas infantis', url: 'https://www.mundodascriancas.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Lisboa — regras de utilização de jardins e espaço público', url: 'https://www.lisboa.pt/cidade/ambiente/espacos-verdes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

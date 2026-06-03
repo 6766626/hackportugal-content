@@ -119,10 +119,10 @@ export default {
     { label: 'Centro de Dia privado', amountEURMin: 400, amountEURMax: 900, note: 'Os preços de mercado variam muito conforme a região, horário, alimentação e nível de cuidados.' }
   ],
   sources: [
-    { title: 'Carta Social — pesquisa de respostas sociais, incluindo Centro de Dia', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social — respostas sociais para pessoas idosas', url: 'https://www.seg-social.pt/idosos', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Segurança Social — informação sobre instituições particulares de solidariedade social', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Carta Social — pesquisa de respostas sociais, incluindo Centro de Dia', url: 'https://www.cartasocial.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Segurança Social — respostas sociais para pessoas idosas', url: 'https://www.seg-social.pt/ptss/pssd/menu/acao-social/apoios-respostas-sociais/respostas-sociais-idosos', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Segurança Social — apoios e respostas sociais', url: 'https://www.seg-social.pt/ptss/pssd/menu/acao-social/apoios-respostas-sociais', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

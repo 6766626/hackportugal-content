@@ -3,7 +3,7 @@ export default {
   id: 'junta-freguesia',
   categoryId: 'digital_gov',
   title: 'Junta de Freguesia — что это и какие услуги оказывает',
-  tldr: 'Junta de Freguesia (юнта-фрегезия) — местный орган самоуправления, примерно как «сельсовет» или районная администрация. Выдаёт Atestado de Residência (справку о проживании, нужна для AIMA/SNS), регистрирует união de facto, решает вопросы содержания районных улиц, проводит мероприятия для пенсионеров и детей.',
+  tldr: 'Junta de Freguesia (юнта-фрегезия) — местный орган самоуправления, примерно как «сельсовет» или районная администрация. Выдаёт Atestado de Residência (справку о проживании, нужна для AIMA/SNS), оформляет декларацию об união de facto, отвечает за содержание районных улиц, проводит мероприятия для пенсионеров и детей.',
   tags: ['junta', 'freguesia', 'atestado', 'местная администрация'],
   estimatedReadMinutes: 4,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what',
       title: 'Что такое Junta',
       content: [
-        { kind: 'paragraph', text: 'Португалия административно делится так: distrito → concelho (муниципалитет, Câmara Municipal) → freguesia (приход). Junta de Freguesia — исполнительный орган freguesia. В Лиссабоне 24 freguesia, в Порту 7.' },
+        { kind: 'paragraph', text: 'Португалия административно делится так: distrito → concelho (муниципалитет, Câmara Municipal) → freguesia (приход). Junta de Freguesia — исполнительный орган freguesia. В Лиссабоне 24 freguesia, в Порту — 7.' },
         { kind: 'paragraph', text: 'Junta — ближайший к жителю орган власти. Обычно находится рядом с домом, там короткая очередь и более человеческое отношение.' }
       ]
     },
@@ -47,7 +47,7 @@ export default {
             ]}
           ]},
           { id: 'a2', title: '2. Прийти в Junta de Freguesia', content: [
-            { kind: 'paragraph', text: 'Без записи, обычно очередь 10-30 минут. Работают 9:00-17:00, обед 12:30-14:00.' }
+            { kind: 'paragraph', text: 'Без записи, обычно очередь 10–30 минут. Часы работы: 9:00–17:00, обед 12:30–14:00.' }
           ]},
           { id: 'a3', title: '3. Получить справку сразу', content: [
             { kind: 'paragraph', text: 'Выдают в тот же день, € 2–5. Atestado подтверждает факт на дату выдачи; срок приемлемости (например, 90 дней) обычно устанавливает приёмная сторона (банк, AIMA, SNS), а не Junta.' }
@@ -88,6 +88,6 @@ export default {
     { title: 'CML — Juntas de Freguesia de Lisboa', url: 'https://www.lisboa.pt/municipio/juntas-de-freguesia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CM-Porto — Juntas de Freguesia', url: 'https://www.cm-porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

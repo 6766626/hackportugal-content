@@ -3,7 +3,7 @@ export default {
   id: 'apanha-bivalves-mar',
   categoryId: 'food_leisure',
   title: 'Collecting shellfish (apanha de bivalves) — licence and sanitary zones',
-  tldr: 'Collecting shellfish on the beach and in the coastal zone (ameijoa, berbigão, conquilha, longueirão) is a separate Pesca Lúdica (recreational fishing) category from DGRM (Directorate-General for Natural Resources, Safety and Maritime Services).\n\nThe "Apanha Apeada" licence: ~€10 for 3 days, ~€25 for a year. Daily limit: 1 kg with shell per person. You may collect ONLY in sanitary classified zones (zonas classificadas): IPMA (Portuguese Institute for Sea and Atmosphere) publishes the A/B/C list every month. Collecting in unclassified zones is illegal OR requires mandatory heat treatment (even if the species is permitted).\n\nProhibited: crowbars, any mechanical tools, and collecting shells below the minimum size (ameijoa 25 mm, berbigão 25 mm, longueirão 100 mm).\n\nThe Pesca Lúdica à linha licence for rod fishing does NOT cover shellfish collection — a separate licence is required.',
+  tldr: 'Collecting shellfish on the beach and in the coastal zone (ameijoa, berbigão, conquilha, longueirão) is apanha lúdica within Pesca Lúdica (recreational fishing), regulated by DGRM (Directorate-General for Natural Resources, Safety and Maritime Services).\n\nManual gathering without tools needs no licence. If you use a tool (rake, knife, sacho), you need the recreational "apeada" licence: ~€2 per day, ~€4 per month, ~€8 per year (Portaria 14/2014). Daily limit for bivalves: 2 kg with shell per person. You may collect ONLY in sanitary classified zones (zonas classificadas): IPMA (Portuguese Institute for Sea and Atmosphere) publishes the A/B/C list every month. Collecting in unclassified zones is prohibited.\n\nImportant: collecting bivalves is prohibited from 1 May to 15 June (defeso) in oceanic and inland maritime waters.\n\nProhibited: crowbars, any mechanical tools, and collecting shells below the minimum size (ameijoa 25 mm, berbigão 25 mm, longueirão 100 mm).',
   tags: ['bivalves', 'shellfishing', 'collection', 'ameijoa', 'dgrm', 'ipma'],
   estimatedReadMinutes: 6,
   steps: [
@@ -19,7 +19,7 @@ export default {
           'Echinoderms: ouriço-do-mar (sea urchin) — specially regulated',
           'NOT included: rod fishing (requires Pesca Lúdica à linha), pulling an octopus out of a den by hand (prohibited since 2017), lobsters (professional harvesting only)'
         ] },
-        { kind: 'warning', text: 'The Pesca Lúdica à linha licence (for rod fishing) does NOT apply to bivalves. And vice versa. Many people think: “I have a licence”, go to dig ameijoa in the Algarve and receive a €250-€500 fine.' }
+        { kind: 'warning', text: 'Manual gathering without tools needs no licence. But as soon as you use a tool (rake, knife, sacho), you need the recreational “apeada” licence. Many people dig ameijoa in the Algarve with a rake and no licence at all and receive a €100-€500 fine.' }
       ]
     },
     {
@@ -40,17 +40,18 @@ export default {
     },
     {
       id: 'how-to-license',
-      title: 'Getting the Apanha Apeada licence',
+      title: 'Do you need a licence, and how to get one',
       content: [
-        { kind: 'paragraph', text: 'The licence is obtained through several channels (the portal.dgrm.mm.gov.pt host no longer works): at any Multibanco ATM (Pagamentos e Outros Serviços → Estado e Setor Público → Licenciamento de Pesca Lúdica — for holders of a Portuguese Multibanco card); at the DGRM counter in Lisbon (residents and foreigners); at the regional DRAP counters (Norte, Centro, LVT, Alentejo, Algarve); or via the BMar — Balcão Eletrónico do Mar portal at www.bmar.pt (for non-residents and foreigners, payment by bank transfer). General information is at www.dgrm.pt.' },
+        { kind: 'paragraph', text: 'First things first: manual gathering of shellfish without tools needs NO licence (Decreto-Lei 101/2013). A licence is required if you use a tool (rake, knife, sacho) — in that case the recreational “apeada” licence (for shore gathering and rod fishing) applies.' },
+        { kind: 'paragraph', text: 'It is obtained through several channels: at any Multibanco ATM (Pagamentos e Outros Serviços → Estado e Setor Público → Licenciamento de Pesca Lúdica — for holders of a Portuguese Multibanco card); at the DGRM counter in Lisbon; at the regional DRAP counters (Norte, Centro, LVT, Alentejo, Algarve); or via the BMar — Balcão Eletrónico do Mar portal at www.bmar.pt (for non-residents and foreigners, payment by bank transfer). General information is at www.dgrm.pt.' },
         { kind: 'checklist', items: [
-          '3 days: ~€10',
-          '1 month: ~€15',
-          '1 year: ~€25',
-          '3 years: ~€60',
+          'Manual gathering without tools: free, no licence needed',
+          '“Apeada” licence — 1 day: ~€2',
+          '“Apeada” licence — 1 month: ~€4',
+          '“Apeada” licence — 1 year: ~€8',
           'The licence is personal and cannot be transferred'
         ] },
-        { kind: 'paragraph', text: 'The “à linha apeada + apanha” combo is sometimes better value if you both fish and collect shellfish.' }
+        { kind: 'paragraph', text: 'Rates are set by Portaria 14/2014; check the final price on the portal when applying.' }
       ]
     },
     {
@@ -68,13 +69,14 @@ export default {
           'Polvo (octopus): 750 g (but pulling it out of a den by hand has been prohibited since 2017)',
           'Percebes: 25 mm at the base of attachment'
         ] },
-        { kind: 'paragraph', text: 'Daily limit:' },
+        { kind: 'paragraph', text: 'Daily limit (Portaria 14/2014; overall recreational catch cap is 10 kg per person per day):' },
         { kind: 'checklist', items: [
-          'All bivalves combined: 1 kg with shell per person per day',
+          'All bivalves combined: 2 kg with shell per person per day',
           'Percebes: 0.5 kg in total (specially protected species!)',
-          'Mexilhão: 1 kg',
+          'Mexilhão (mussels): 3 kg',
           'Polvo: up to 5 kg (hard to reach, but the rule exists)'
         ] },
+        { kind: 'warning', text: 'Closed season (defeso): collecting bivalves is prohibited from 1 May to 15 June in oceanic and inland maritime waters. Local capitanias may also impose additional closed periods and zones — always check the current edital.' },
         { kind: 'paragraph', text: 'Permitted and prohibited tools:' },
         { kind: 'checklist', items: [
           '✅ Manual collection only (fingers, thin stick)',
@@ -166,21 +168,22 @@ export default {
     }
   ],
   costs: [
-    { label: 'Apanha Apeada — 3 days', amountEUR: 10 },
-    { label: 'Apanha Apeada — 1 month', amountEUR: 15 },
-    { label: 'Apanha Apeada — 1 year', amountEUR: 25 },
-    { label: 'Combo (à linha + apanha) — year', amountEURMin: 35, amountEURMax: 50, note: 'Check the final price on the DGRM portal when applying' },
+    { label: 'Manual gathering without tools', amountEUR: 0, note: 'No licence required' },
+    { label: '“Apeada” licence — 1 day', amountEUR: 2 },
+    { label: '“Apeada” licence — 1 month', amountEUR: 4 },
+    { label: '“Apeada” licence — 1 year', amountEUR: 8, note: 'Rates per Portaria 14/2014; confirm when applying' },
     { label: 'Sacha (rake) for bivalves', amountEURMin: 15, amountEURMax: 35, note: 'At Decathlon and fishing shops' },
     { label: 'Fine without licence', amountEURMin: 100, amountEURMax: 500 },
     { label: 'Fine in a PROIBIDO zone', amountEURMin: 250, amountEURMax: 1500 }
   ],
   sources: [
-    { title: 'DGRM — Pesca Lúdica and Apanha', url: 'https://www.dgrm.pt/web/guest/pesca-ludica', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPMA — Bivalves: zones and sanitary classification', url: 'https://www.ipma.pt/pt/bivalves/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'IPMA Bivalves App — real-time zone map (iOS/Android)', url: 'https://www.ipma.pt/pt/bivalves/avisos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Decreto-Lei 246/2000 — Pesca Lúdica and Apanha', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2000-67074872', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 27/2001 — minimum size by species', url: 'https://dre.pt/dre/detalhe/portaria/27-2001-411720', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' }
+    { title: 'DGRM — Pesca Lúdica', url: 'https://www.dgrm.pt/pesca-pl-licenciamento', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'DGRM — Apanha (tools and species)', url: 'https://www.dgrm.pt/apanha', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'IPMA — Bivalves: zones and sanitary classification', url: 'https://www.ipma.pt/pt/bivalves/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'IPMA Bivalves App — real-time zone map (iOS/Android)', url: 'https://www.ipma.pt/pt/bivalves/avisos/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Decreto-Lei 101/2013 — legal regime for recreational fishing', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2013-34538275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Portaria 14/2014 — licences, fees and catch limits', url: 'https://dre.pt/dre/detalhe/portaria/14-2014-278910', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

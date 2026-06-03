@@ -105,6 +105,6 @@ export default {
     { title: 'Centro Vasco da Gama — site oficial do centro comercial', url: 'https://www.centrovascodagama.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'MAR Shopping Matosinhos — site oficial do centro comercial', url: 'https://www.marshopping.com/pt/matosinhos', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

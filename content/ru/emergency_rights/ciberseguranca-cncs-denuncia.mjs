@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'Позвоните в банк и попросите немедленно заблокировать карту, MB WAY, transferências, cartões virtuais и доступы к homebanking.',
           'Если использовали MB WAY: заблокируйте привязанные карты и проверьте lista de dispositivos autorizados.',
-          'Смените пароль к email, банку, Finanças, AIMA, SNS, redes sociais; включите 2FA через приложение, не SMS, если возможно.',
+          'Смените пароли к email, банку, Finanças, AIMA, SNS, redes sociais; по возможности включите 2FA через приложение, а не SMS.',
           'Сделайте скриншоты: SMS, email headers, номер телефона, IBAN, ссылку, профиль OLX/Facebook/Instagram, переписку, comprovativos.',
           'Не удаляйте подозрительные письма: сохраните .eml/.msg или полный cabeçalho técnico.',
           'Если отправили документ: отметьте риск identity theft и сохраните копию того, что ушло.',
@@ -35,7 +35,7 @@ export default {
           'Укажите тип инцидента: phishing, malware, ransomware, account takeover, DDoS, data breach, spoofing, scam website.',
           'Вставьте полные URL подозрительных страниц, не только скриншоты.',
           'Приложите email headers, исходный .eml/.msg, SMS-текст, номера телефонов, домены, IP, hashes файлов, если есть.',
-          'Укажите дату и время по Португалии, affected accounts, сумму ущерба, банк/платформу.',
+          'Укажите дату и время по Португалии, затронутые аккаунты, сумму ущерба, банк/платформу.',
           'Если вы компания или associação: добавьте NIPC, контакт técnico, DPO/ответственного, масштаб затронутых данных.',
           'Сохраните номер/подтверждение обращения CNCS: оно пригодится для банка, PJ и страховой.'
         ] },
@@ -46,7 +46,7 @@ export default {
       id: 'pj',
       title: 'Polícia Judiciária: когда это преступление',
       content: [
-        { kind: 'paragraph', text: 'Если у вас украли деньги, получили доступ к bank account, выманили códigos MB WAY, использовали ваши документы, шантажируют интимными фото, взломали email или магазин — подавайте denúncia/queixa в Polícia Judiciária. В PJ этим занимается Unidade Nacional de Combate ao Cibercrime e Criminalidade Tecnológica (UNC3T).' },
+        { kind: 'paragraph', text: 'Если у вас украли деньги, получили доступ к банковскому счёту, выманили códigos MB WAY, использовали ваши документы, шантажируют интимными фото, взломали email или магазин — подавайте denúncia/queixa в Polícia Judiciária. В PJ этим занимается Unidade Nacional de Combate ao Cibercrime e Criminalidade Tecnológica (UNC3T).' },
         { kind: 'checklist', items: [
           'Подайте заявление через официальные каналы PJ или лично в отделении Polícia Judiciária; при срочности можно также идти в PSP/GNR, которые примут denúncia и направят материалы.',
           'Опишите факты хронологически: дата, время, платформа, что нажали, какие коды ввели, куда ушли деньги.',
@@ -147,6 +147,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

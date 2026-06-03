@@ -2,7 +2,7 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'sesaram-madeira-saude',
   categoryId: 'healthcare',
-  title: 'Здравоохранение Мадейры и Азорских: SESARAM, SRS и отличия от SNS',
+  title: 'Здравоохранение Мадейры и Азорских островов: SESARAM, SRS и отличия от SNS',
   tldr: 'Мадейра и Açores — автономные регионы: вместо материкового SNS на практике работают региональные системы SESARAM (Madeira) и SRS-Açores. Для жизни на островах нужно регистрироваться в местном Centro de Saúde/Unidade de Saúde с NIF, документом пребывания и адресом. Номер utente может быть связан с национальным RNU, но маршрутизация, семейный врач, направления, анализы, госпитали и медицинские перевозки управляются регионом. Экстренная помощь — 112, но плановое лечение с материка не переносится автоматически.',
   tags: ['sesaram', 'açores', 'sns', 'utente'],
   estimatedReadMinutes: 5,
@@ -11,7 +11,7 @@ export default {
       id: 'what-is-different',
       title: 'Главное отличие: это не материковый SNS',
       content: [
-        { kind: 'paragraph', text: 'В континентальной Португалии медицину ведёт SNS через ACES/ULS, hospitais и Centros de Saúde. На Madeira действует Serviço de Saúde da Região Autónoma da Madeira, фактически через SESARAM, E.P.E.R.A.M. На Açores — Serviço Regional de Saúde dos Açores, с Unidade de Saúde de Ilha и региональными госпиталями.' },
+        { kind: 'paragraph', text: 'В континентальной Португалии медицину ведёт SNS через ACES/ULS, hospitais и Centros de Saúde. На Madeira действует Serviço de Saúde da Região Autónoma da Madeira, фактически через SESARAM, EPERAM. На Açores — Serviço Regional de Saúde dos Açores, с Unidade de Saúde de Ilha и региональными госпиталями.' },
         { kind: 'paragraph', text: 'Для пациента это выглядит так: вы не просто «переехали внутри SNS». Вам нужно встать на учёт в местной системе, прикрепиться к Centro de Saúde/Unidade de Saúde, обновить адрес и получить доступ к региональной сети направлений.' },
         { kind: 'checklist', items: [
           'Madeira: SESARAM объединяет больницы, Centros de Saúde и часть специализированной помощи.',
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

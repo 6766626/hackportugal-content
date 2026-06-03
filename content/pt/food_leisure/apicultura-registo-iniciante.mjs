@@ -3,7 +3,7 @@ export default {
   id: 'apicultura-registo-iniciante',
   categoryId: 'food_leisure',
   title: 'Apicultura para principiantes — registo na DGAV (Direção-Geral de Alimentação e Veterinária)',
-  tldr: 'Qualquer apiário em Portugal (mesmo uma única colmeia no jardim) tem de estar registado na DGAV (Direção-Geral de Alimentação e Veterinária — serviço público de segurança alimentar e veterinária)\.\n\nO registo é gratuito: faz-se online na aplicação «Atividade Apícola» na Área Reservada do Portal do IFAP, ou na DSAVR (Direção de Serviços de Alimentação e Veterinária Regional), ou através de uma organização de apicultores reconhecida com protocolo com o IFAP\.\n\nA declaração de existências inicial tem de ser entregue no prazo de 10 dias úteis após o início da atividade; a declaração anual de existências é entregue de 1 a 30 de setembro\.\n\nApós o registo, recebe um número de apicultor e passa a ter a obrigação de manter um caderno sanitário (caderno sanitário)\.\n\nDistâncias mínimas: 200 m em zona urbana, 50 m em zona rural (pode ser menos com uma vedação alta). Mel para consumo próprio — sem HACCP. Para vender, é necessária uma sala de extração registada (sala de extração) e inspeção da ASAE (Autoridade de Segurança Alimentar e Económica — fiscalização da segurança alimentar). A FNAP (federação nacional dos apicultores) — é a principal associação. Cursos para principiantes: 150-300 €. Uma colmeia produz 15-30 kg de mel por ano; kit inicial (colmeia + enxame + proteção) 250-500 €.',
+  tldr: 'Qualquer apiário em Portugal (mesmo uma única colmeia no jardim) tem de estar registado na DGAV (Direção-Geral de Alimentação e Veterinária — serviço público de segurança alimentar e veterinária)\.\n\nO registo é gratuito: faz-se online na aplicação «Atividade Apícola» na Área Reservada do Portal do IFAP, ou na DSAVR (Direção de Serviços de Alimentação e Veterinária Regional), ou através de uma organização de apicultores reconhecida com protocolo com o IFAP\.\n\nA declaração de existências inicial tem de ser entregue no prazo de 10 dias úteis após o início da atividade; a declaração anual de existências é entregue de 1 a 30 de setembro\.\n\nApós o registo, recebe um número de apicultor e passa a ter a obrigação de manter um caderno sanitário\.\n\nDistâncias mínimas (Decreto-Lei 203/2005): a mais de 50 m da via pública e a mais de 100 m de qualquer edificação em utilização. Mel para consumo próprio — sem HACCP. Para vender, é necessária uma sala de extração registada (sala de extração) e inspeção da ASAE (Autoridade de Segurança Alimentar e Económica — fiscalização da segurança alimentar). A FNAP (federação nacional dos apicultores) — é a principal associação. Cursos para principiantes: 150-300 €. Uma colmeia produz 15-30 kg de mel por ano; kit inicial (colmeia + enxame + proteção) 250-500 €.',
   tags: ['apicultura', 'abelha', 'mel', 'dgav', 'fnap'],
   estimatedReadMinutes: 6,
   steps: [
@@ -67,15 +67,13 @@ export default {
       id: 'distance-rules',
       title: 'Distâncias mínimas — onde pode colocar colmeias',
       content: [
-        { kind: 'paragraph', text: 'Esta é a causa mais frequente de conflitos com vizinhos. O Decreto-Lei 203/2005 e a Portaria 9/2021 estabelecem as distâncias mínimas:' },
+        { kind: 'paragraph', text: 'Esta é a causa mais frequente de conflitos com vizinhos. As distâncias mínimas são estabelecidas pelo artigo 5.º do Decreto-Lei 203/2005:' },
         { kind: 'checklist', items: [
-          '200 m de quaisquer edifícios onde estejam pessoas (habitação, escolas, hospitais) em zona urbana',
-          '50 m em zona rural',
-          '25 m, se existir uma barreira contínua com pelo menos 2 m de altura (sebe ou divisória de madeira)',
-          'Pode ser mesmo junto, se houver uma barreira na linha de visão — muro alto ou vedação',
-          '500 m de zonas de elevada concentração de apiários',
-          '200 m de aterros de resíduos sólidos urbanos e locais de armazenamento/transfega de pesticidas',
-          'Entre pontos vizinhos — pelo menos 50 m, para reduzir a competição entre enxames'
+          'A mais de 50 m da via pública',
+          'A mais de 100 m de qualquer edificação em utilização (habitação, escolas, hospitais)',
+          'Exceção: caminhos rurais e agrícolas, bem como edificações destinadas à atividade apícola do detentor do apiário',
+          'Distância entre apiários vizinhos (Anexo I): pelo menos 400 m para 11-30 colmeias e pelo menos 800 m para 31-100 colmeias',
+          'Máximo de 100 colónias por apiário'
         ] },
         { kind: 'warning', text: 'Se os vizinhos apresentarem queixa e as distâncias não forem cumpridas, o município (Câmara Municipal — câmara municipal) pode obrigar à deslocação das colmeias. Isto acontece frequentemente após os primeiros casos de picadas em crianças dos vizinhos. Verifique as regras do seu município — podem ser mais rigorosas.' }
       ]
@@ -112,7 +110,7 @@ export default {
           'Loque americana: doença de notificação obrigatória; em caso de suspeita, comunique imediatamente à DGAV',
           'Vespa velutina (vespa asiática): principal ameaça no norte do país, são obrigatórias medidas de proteção',
           'Nosema: enfraquece as colónias no inverno',
-          'Caderno sanitário (caderno sanitário): é obrigatório registar todos os tratamentos — a DGAV fiscaliza'
+          'Caderno sanitário: é obrigatório registar todos os tratamentos — a DGAV fiscaliza'
         ] },
         { kind: 'paragraph', text: 'A DGAV recomenda consulta veterinária pelo menos uma vez por ano. Uma visita veterinária custa normalmente 30-80 €.' }
       ]
@@ -124,13 +122,13 @@ export default {
         { kind: 'paragraph', text: 'Se quiser vender mel, há mais requisitos:' },
         { kind: 'checklist', items: [
           'O registo de apicultor já está feito',
-          'Abra atividade nas Finanças (autoridade tributária) com o código CIRS 1311 — apicultura',
+          'Abra atividade nas Finanças (autoridade tributária) com o código CAE 01491 — apicultura',
           'Registe a sala de extração (sala de extração) na DGAV — o local onde extrai o mel (requisitos HACCP)',
           'O espaço deve ser adequado à produção alimentar: superfícies laváveis, proteção contra insetos, controlo de temperatura',
           'Análises laboratoriais dos lotes de mel (humidade, HMF, diastase) pelo menos uma vez por época: 30-80 € por análise',
           'Rotulagem de acordo com os requisitos da UE: nome, NIF do apicultor, número do lote, país de origem, peso, prazo de validade',
           'Venda em mercados — autorização do município (Câmara Municipal)',
-          'Venda online — IVA obrigatório se o volume de negócios > 14 500 € por ano (a partir de 2025 podem ocorrer alterações)',
+          'Venda online — IVA obrigatório se o volume de negócios > 15 000 € por ano (limiar do regime de isenção do artigo 53.º do CIVA, em vigor desde 1 de julho de 2025)',
           'IGP (Indicação Geográfica Protegida — indicação geográfica protegida): Mel da Serra de Aire, Mel do Alentejo, Mel de Trás-os-Montes — segmento premium, exige registo adicional'
         ] }
       ]
@@ -181,9 +179,9 @@ export default {
     { title: 'DGAV — Direção-Geral de Alimentação e Veterinária', url: 'https://www.dgav.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'DGAV — Apicultura: registo e legislação', url: 'https://www.dgav.pt/animais/conteudo/animais-de-producao/abelhas/identificacao-registo-e-movimentacao-animal/registo/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'Decreto-Lei 203/2005 — registo de apicultores', url: 'https://dre.pt/dre/detalhe/decreto-lei/203-2005-243676', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
-    { title: 'Portaria 9/2021 — distâncias das colmeias', url: 'https://dre.pt/dre/detalhe/portaria/9-2021-153700104', kind: 'law', language: 'pt', lastRetrieved: '2026-05-03' },
+    { title: 'gov.pt — Fazer o registo apícola e declarar existências de abelhas', url: 'https://www2.gov.pt/inicio/espaco-empresa/balcao-do-empreendedor/fazer-o-registo-apicola-e-declarar-existencias-de-abelhas', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'IFAP — apoio à apicultura', url: 'https://www.ifap.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

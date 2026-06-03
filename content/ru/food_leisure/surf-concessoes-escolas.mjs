@@ -33,7 +33,7 @@ export default {
           'Praia da Areia Branca (Lourinhã): спокойнее, чем Peniche',
           'Praia do Guincho (Cascais): летом — бирюзовая вода и ветер для кайта, зимой — мощнее',
           'Praia da Bordeira (Algarve): западное побережье, красиво и доступно',
-          'Praia da Falésia (Algarve south): мягкие волны, для начинающих'
+          'Praia da Falésia (юг Алгарве): мягкие волны, для начинающих'
         ] },
         { kind: 'paragraph', text: 'Средний уровень:' },
         { kind: 'checklist', items: [
@@ -116,7 +116,7 @@ export default {
       id: 'big-wave-nazare',
       title: 'Big wave Nazaré — особый случай',
       content: [
-        { kind: 'paragraph', text: 'Nazaré — место мирового рекорда по высоте пойманной волны (24+ м). Сезон: октябрь–март. Это не туристический серфинг — это буксировка (tow-in) или paddle с лодками сопровождения.' },
+        { kind: 'paragraph', text: 'Nazaré — место мирового рекорда по высоте пойманной волны (26+ м). Сезон: октябрь–март. Это не туристический серфинг — это буксировка (tow-in) или paddle с лодками сопровождения.' },
         { kind: 'checklist', items: [
           'Нужен местный гид или связи в сообществе шейперов',
           'Обязательно: гидроцикл для tow‑in + пилот + команда безопасности',
@@ -182,6 +182,6 @@ export default {
     { title: 'AMN — концессии в Domínio Público Marítimo', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' },
     { title: 'IPMA — прогноз серфинга и приливы/отливы', url: 'https://www.ipma.pt/pt/maritima/marobs/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-03' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

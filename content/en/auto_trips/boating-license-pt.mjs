@@ -3,7 +3,7 @@ export default {
   id: 'boating-license-pt',
   categoryId: 'auto_trips',
   title: 'Yacht/motorboat licence in Portugal: Marinheiro, Patrão Local, Patrão de Costa',
-  tldr: 'For a recreational motorboat or yacht in Portugal, you need a Carta de navegador de recreio via DGRM: a school, medical certificate, exam and card issuance. The basic Marinheiro is usually enough for small boats during the day near the coast; Patrão Local is for local trips up to 5 miles from the coast; Patrão de Costa is for more serious navigation up to 25 miles. EU/EEA licences are recognised automatically in Portugal within their own permissions, but UK/other third-country licences should be checked in advance with DGRM or the Capitania.',
+  tldr: 'For a recreational motorboat or yacht in Portugal, you need a Carta de navegador de recreio via DGRM: a school, medical certificate, exam and card issuance. The basic Marinheiro is usually enough for small boats during the day near the coast; Patrão Local is for local trips up to 6 miles from the coast; Patrão de Costa is for more serious navigation up to 40 miles. EU/EEA licences are recognised automatically in Portugal within their own permissions, but UK/other third-country licences should be checked in advance with DGRM or the Capitania.',
   tags: ['dgrm', 'yacht', 'motorboat', 'amn'],
   estimatedReadMinutes: 5,
   steps: [
@@ -14,8 +14,8 @@ export default {
         { kind: 'paragraph', text: 'The Portuguese licence is called Carta de navegador de recreio. It is administered by DGRM, while on-water control is carried out by AMN, Capitania do Porto and Polícia Marítima. For a typical expat scenario — a boat in Cascais, Oeiras, Setúbal, Lagos, Vilamoura, Albufeira — people most often choose Marinheiro or Patrão Local; Patrão de Costa is needed if you genuinely go further offshore.' },
         { kind: 'checklist', items: [
           'Marinheiro — entry-level category: small recreational craft, daytime navigation, short trips near the coast.',
-          'Patrão Local — the practical minimum for most motorboat owners: local navigation up to 5 nautical miles from the coast and up to 10 miles from a safe harbour.',
-          'Patrão de Costa — for coastal navigation up to 25 nautical miles from the coast.',
+          'Patrão Local — the practical minimum for most motorboat owners: local navigation within sight of the coast, up to 6 nautical miles from the coast and up to 25 miles from a port of shelter.',
+          'Patrão de Costa — for coastal navigation up to 40 nautical miles from the coast.',
           'Patrão de Alto Mar — ocean category without the usual coastal limit; this guide does not cover it in detail.',
           'Motonauta — a separate category for mota de água / jet ski, if there is no higher suitable licence.',
           'Minimum age: usually 16 for Marinheiro/Motonauta and 18 for Patrão Local, Patrão de Costa and above.',
@@ -106,7 +106,7 @@ export default {
       id: 'renewal-practical',
       title: 'Validity, renewal and practical tips',
       content: [
-        { kind: 'paragraph', text: 'A Portuguese Carta de navegador de recreio requires periodic renewal, especially after age thresholds. Under RNR rules, validity is linked to the holder’s age: usually until age 50, then renewal every 10 years until 70 and every 5 years after 70. Medical fitness may again be required on renewal.' },
+        { kind: 'paragraph', text: 'A Portuguese Carta de navegador de recreio requires periodic renewal, especially after age thresholds. Under RNR rules, validity is linked to the holder’s age: no renewal is required until age 70, then renewal is needed every 5 years between 70 and 80, and every 2 years after 80. Medical fitness may again be required on renewal.' },
         { kind: 'checklist', items: [
           'Do not wait until expiry: start renewal 1–2 months in advance.',
           'If you have moved, update your contacts so you do not miss notifications from DGRM/the school.',
@@ -129,6 +129,6 @@ export default {
     { title: 'Autoridade Marítima Nacional: safety and control at sea', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei n.º 93/2018: Regulamento da Náutica de Recreio', url: 'https://dre.pt/dre/detalhe/decreto-lei/93-2018-116956361', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

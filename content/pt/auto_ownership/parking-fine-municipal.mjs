@@ -3,7 +3,7 @@ export default {
   id: 'parking-fine-municipal',
   categoryId: 'auto_ownership',
   title: 'Multas de estacionamento: EMEL em Lisboa, Porto e outros municípios',
-  tldr: 'Em Portugal, os municípios gerem o estacionamento pago, mas as multas seguem o Código da Estrada. A multa típica por estacionamento não pago/com tempo expirado numa zona com parquímetro é de 30–150 €.\n\nEm Lisboa, as notificações chegam frequentemente da EMEL; no Porto — através da Câmara Municipal do Porto/sistema municipal de avença; noutras cidades — através da Câmara ou de um concessionário. A contestação normalmente começa pelas instruções da notificação, e a defesa formal — junto da ANSR no prazo de 15 dias úteis após a notificação oficial.',
+  tldr: 'Em Portugal, os municípios gerem o estacionamento pago, mas as multas seguem o Código da Estrada. A multa típica por estacionamento não pago/com tempo expirado numa zona com parquímetro é de 30–150 €.\n\nEm Lisboa, as notificações chegam frequentemente da EMEL; no Porto — através da Câmara Municipal do Porto/sistema municipal de avença; noutras cidades — através da Câmara ou de um concessionário. A contestação normalmente começa pelas instruções da notificação, e a defesa formal apresenta-se junto do município (Câmara Municipal) no prazo de 15 dias úteis após a notificação oficial.',
   tags: ['estacionamento', 'emel', 'porto', 'multas'],
   estimatedReadMinutes: 5,
   steps: [
@@ -49,7 +49,7 @@ export default {
           'Se tiver dístico de residente, verifique se estava válido exatamente nessa zona e para essa matrícula.',
           'Pode pagar através dos dados indicados na notificação, se reconhecer a infração.',
           'Se considerar que houve erro — apresente reclamação/contestação pelo canal indicado pela EMEL e junte provas.',
-          'Quando chega a notificação oficial de contraordenação, a defesa formal segue as regras da ANSR e do Código da Estrada.'
+          'Quando chega a notificação oficial de contraordenação, a defesa formal apresenta-se junto do município — a entidade municipal competente (em Lisboa, a Câmara Municipal de Lisboa) — segundo as regras do Código da Estrada.'
         ] },
         { kind: 'warning', text: 'O dístico de residente da EMEL não dá o direito de estacionar em qualquer lugar em Lisboa. Está associado a uma zona/condições específicas. Um erro frequente dos expats é mudar-se para uma freguesia vizinha e continuar a usar o dístico antigo.' }
       ]
@@ -74,7 +74,7 @@ export default {
       id: 'contest',
       title: 'Como contestar sem perder prazos',
       content: [
-        { kind: 'paragraph', text: 'A contestação divide-se em duas fases: reclamação informal junto do serviço municipal/concessionário e defesa formal no processo de contraordenação. Se já recebeu uma notificação oficial, oriente-se pelo prazo de 15 dias úteis para a defesa indicado no Código da Estrada.' },
+        { kind: 'paragraph', text: 'A contestação divide-se em duas fases: reclamação informal junto do serviço municipal/concessionário e defesa formal no processo de contraordenação. Nas infrações de estacionamento, a defesa apresenta-se junto do município (a entidade municipal competente, p. ex. a Câmara Municipal de Lisboa), e não junto da ANSR. Se já recebeu uma notificação oficial, oriente-se pelo prazo de 15 dias úteis para a defesa indicado no Código da Estrada.' },
         { kind: 'checklist', items: [
           'Fotografe o local: sinais, marcações no pavimento, parquímetro, número da zona, ausência/ilegibilidade das placas.',
           'Guarde o comprovativo de pagamento: recibo, email, PDF da aplicação, extrato do cartão, MB WAY.',
@@ -83,7 +83,7 @@ export default {
           'Se existia residente permit/dístico/avença, junte comprovativo de validade na data da infração.',
           'Escreva de forma breve em português: “Venho apresentar defesa/reclamação…” + factos + anexos.',
           'Envie através do canal indicado na notificação: EMEL, portal do município, ePorto/CMP, email, balcão ou carta registada.',
-          'Após a notificação oficial da ANSR, não ignore a carta: o silêncio normalmente acaba em decisão e cobrança.'
+          'Após a notificação oficial, não ignore a carta: o silêncio normalmente acaba em decisão e, depois, em cobrança coerciva e agravamentos através da ANSR.'
         ] },
         { kind: 'warning', text: 'O pagamento voluntário da coima mínima fecha muitas vezes a contestação como reconhecimento da infração. Se quiser contestar, verifique primeiro se o procedimento concreto permite pagar como depósito sem reconhecimento de culpa.' }
       ]
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

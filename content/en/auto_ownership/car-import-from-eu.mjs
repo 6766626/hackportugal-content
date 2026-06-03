@@ -29,9 +29,9 @@ export default {
         { kind: 'checklist', items: [
           'Car price in Germany: €18,000',
           'Transport (car transporter Germany → Portugal): €1,200-1,800 or driving it yourself (fuel + motels ~€400)',
-          'ISV (registration tax): €1,500-3,500 (depends on engine capacity and CO₂; for a 5-year-old car the discount is 40%)',
-          'Registration with IMT + matriculation: €135',
-          'IPO (roadworthiness inspection): €40',
+          'ISV (registration tax): €1,500-3,500 (depends on engine capacity and CO₂; for a 5-year-old car the discount is about 43%)',
+          'Registration with IMT (matriculation): €45 with COC or €165 without COC',
+          'Inspection for plate assignment (cat. B): €93.52',
           'Insurance for the first year: €400-800',
           'Total: ~€21,500-24,700',
           'Same car in Portugal: €23,000-26,000',
@@ -69,7 +69,7 @@ export default {
               'Submission: via Portal das Finanças (NIF + CMD) → IVA/ISV → DAV',
               'Attach: COC, contract, German vehicle registration document, VIN, photos',
               'AT calculates ISV based on the vehicle characteristics',
-              'ISV payment: around 30 days to pay'
+              'ISV payment: within 10 working days of submitting the DAV (using the DUC reference)'
             ]}
           ]},
           { id: 'p4', title: 'Step 4: ISV — calculation and payment', content: [
@@ -77,7 +77,7 @@ export default {
               'ISV = Componente Cilindrada (engine capacity tax) + Componente Ambiental (CO₂ tax)',
               'Engine-capacity scale: €10-30 for each 250 cm³ for small combustion engines → €3-4+ per cm³ for large ones',
               'CO₂ scale: €5-350 for each g/km above the threshold values',
-              'Discount for used cars: 5-20% in the 1st year, up to 65% after 5 years',
+              'Discount for used cars (by age): ~10% at 1 year, ~43% at 5 years, max 65% for cars over 8 years old',
               '0% ISV: electric cars (BEV)',
               'Reduced rate: PHEV with range >50 km',
               '💡 Simulator: portaldasfinancas.gov.pt → Simuladores → ISV'
@@ -87,17 +87,18 @@ export default {
             { kind: 'checklist', items: [
               'After paying ISV — AT issues certificado desalfandegamento',
               'With it, you go to IMT (Instituto da Mobilidade e dos Transportes)',
-              'Appointment at portal.imt-ip.pt → Matrícula — fee €135',
+              'Appointment at portal.imt-ip.pt → Matrícula — fee €45 with COC, €165 without COC',
               'You receive: Documento Único Automóvel (DUA) + Portuguese plates',
               'Timeframe: 2-4 weeks'
             ]}
           ]},
-          { id: 'p6', title: 'Step 6: IPO (roadworthiness inspection)', content: [
+          { id: 'p6', title: 'Step 6: Inspection (for matriculation)', content: [
             { kind: 'checklist', items: [
               'Mandatory after import — at any certified centre',
-              'Cost: ~€40',
+              'Plate assignment requires a cat. B inspection (issues the Certificado Modelo 112): ~€93.52 (2026)',
+              'The recurring periodic inspection (IPO) afterwards — ~€37 for light vehicles (2026)',
               'They check: exhaust, brakes, lights, safety',
-              'German TÜV is not accepted — IPO must be done again',
+              'German TÜV is not accepted — the inspection must be done again',
               'It usually passes without problems if the German TÜV is valid'
             ]}
           ]},
@@ -147,8 +148,8 @@ export default {
     { label: 'Transport by car transporter Germany → Portugal', amountEURMin: 1200, amountEURMax: 1800 },
     { label: 'ISV (used, 5 years)', amountEURMin: 1500, amountEURMax: 3500, note: 'average car' },
     { label: 'ISV for an electric car', amountEUR: 0 },
-    { label: 'IMT matriculation', amountEUR: 135 },
-    { label: 'IPO roadworthiness inspection', amountEUR: 40 },
+    { label: 'IMT matriculation', amountEURMin: 45, amountEURMax: 165, note: '€45 with COC, €165 without COC' },
+    { label: 'Inspection for matriculation (cat. B)', amountEUR: 94, note: 'Modelo 112, 2026' },
     { label: 'COC (certificate)', amountEURMin: 200, amountEURMax: 500, note: 'if not provided by the seller' }
   ],
   timelineDaysMin: 30,
@@ -158,6 +159,6 @@ export default {
     { title: 'IMT — Matriculation', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do ISV (DL 22-A/2007)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34525875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

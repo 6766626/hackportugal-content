@@ -3,7 +3,7 @@ export default {
   id: 'judo-karate-criancas',
   categoryId: 'education_children',
   title: 'Judo, Karate and martial arts for children',
-  tldr: 'In Portugal, children’s Judo, Karate, Taekwondo and BJJ classes usually accept children from ages 4–6, while official competitions more often start at around age 8, depending on the federation and club. Municipal and school clubs cost around €25–35/month, private academias €35–50/month, plus a kimono/dobok €25–70, a licence and insurance. Check whether the club is linked to FPJudo or FPK, and whether there is seguro desportivo and exame médico-desportivo.',
+  tldr: 'In Portugal, children’s Judo, Karate, Taekwondo and BJJ classes usually accept children from ages 4–6, while official competitions more often start at around age 8, depending on the federation and club. Municipal and school clubs cost around €25–35/month, private academias €35–50/month, plus a kimono/dobok €25–70, a licence and insurance. Check whether the club is linked to FPJ or FNK-P, and whether there is seguro desportivo and exame médico-desportivo.',
   tags: ['judo', 'karate', 'children', 'sport'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,9 +27,9 @@ export default {
       id: 'check-club',
       title: '2. Check the club: federation, insurance, coach',
       content: [
-        { kind: 'paragraph', text: 'Do not choose a class only because it is close to home. In children’s martial arts, the coach, safety and the club’s link to a federation matter more: Federação Portuguesa de Judo (FPJudo), Federação Nacional de Karate - Portugal (FPK) or the relevant Taekwondo/BJJ federation.' },
+        { kind: 'paragraph', text: 'Do not choose a class only because it is close to home. In children’s martial arts, the coach, safety and the club’s link to a federation matter more: Federação Portuguesa de Judo (FPJ), Federação Nacional de Karate - Portugal (FNK-P) or the relevant Taekwondo/BJJ federation.' },
         { kind: 'checklist', items: [
-          'Ask whether the club is registered with FPJudo or FPK and whether the child can obtain a licença federativa.',
+          'Ask whether the club is registered with FPJ or FNK-P and whether the child can obtain a licença federativa.',
           'Check whether seguro desportivo is included in the annual fee or paid separately.',
           'Ask for the coach’s name and their graduação / cédula de treinador if the club takes part in official competitions.',
           'Watch a training session: children should fall on tatami, not on a hard floor.',
@@ -70,7 +70,7 @@ export default {
           'To take part, licença federativa, seguro desportivo and sometimes exame médico-desportivo are usually needed.',
           'A belt alone does not guarantee entry: the coach and the tournament rules decide.',
           'Do not enter a child for competitions if they cannot yet fall safely, stop on command and follow rules.',
-          'Check the calendario distrital/regional with the club: tournaments are often held at weekends and require travel.'
+          'Check the calendário distrital/regional with the club: tournaments are often held at weekends and require travel.'
         ] },
         { kind: 'warning', text: 'Competitions are not compulsory. A good children’s club should not pressure a child for medals, especially in the first year of adapting to Portugal.' }
       ]
@@ -81,8 +81,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Start with official federation websites and local channels. In Portugal, many classes operate through small associações, so not all have a good website; Facebook, Instagram or the pavilhão municipal timetable is often more up to date.' },
         { kind: 'checklist', items: [
-          'FPJudo: look for clubes, associações distritais and the judo calendar.',
-          'FPK: check clubes and associações for karate.',
+          'FPJ: look for clubes, associações distritais and the judo calendar.',
+          'FNK-P: check clubes and associações for karate.',
           'Ask at Câmara Municipal or Junta de Freguesia about atividades desportivas para crianças.',
           'Check escola / ATL: many schools have after-school karate, judo or taekwondo.',
           'Search for “judo crianças”, “karate infantil”, “taekwondo kids”, “jiu-jitsu crianças” + the town/city name.',
@@ -100,10 +100,10 @@ export default {
     { label: 'Belt exam', amountEURMin: 10, amountEURMax: 30, note: 'The fee is set by the club/association; sometimes included in mensalidade.' }
   ],
   sources: [
-    { title: 'Federação Portuguesa de Judo — clubs, calendar and federation information', url: 'https://www.fpjudo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Federação Nacional de Karate - Portugal — structure, clubes and eventos', url: 'https://www.fpkarate.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Federação Portuguesa de Judo (FPJ) — clubs, calendar and federation information', url: 'https://www.fpj.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Federação Nacional de Karate - Portugal (FNK-P) — structure, clubes and eventos', url: 'https://www.fnkp.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'IPDJ — framework for federated sport and seguro desportivo', url: 'https://ipdj.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

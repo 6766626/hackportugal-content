@@ -168,6 +168,6 @@ export default {
     { title: 'CMVM — brokers regulados', url: 'https://www.cmvm.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Autoridade Tributária — IRS Anexo J (rendimentos e contas estrangeiras)', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-18' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

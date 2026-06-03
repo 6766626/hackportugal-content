@@ -4,7 +4,7 @@ export default {
   categoryId: 'digital_gov',
   title: 'Drones in Portugal — registration, rules, where you can fly',
   tldr: 'Portugal applies the EU-wide rules EU 2019/947: operator registration with ANAC (free) for drones ≥250 g or with a camera + theoretical training. In the Open category, you can fly up to 120 m high. You cannot fly over people, within 5 km of airports, or over national parks without permission. Fines of up to €2,000 for breaches.',
-  tags: ['drone', 'drones', 'anac', 'russian federation/eu regulation'],
+  tags: ['drone', 'drones', 'anac', 'eu regulation'],
   estimatedReadMinutes: 5,
   steps: [
     {
@@ -29,7 +29,7 @@ export default {
             { kind: 'paragraph', text: 'On the same portal — 40 questions, free of charge, with retakes allowed. On completion — an A1/A3 certificate (Open category), valid for 5 years. For A2 (closer to people) — an additional in-person exam for €90.' }
           ]},
           { id: 'r4', title: '4. Insurance', content: [
-            { kind: 'paragraph', text: 'Mandatory for commercial operators and drones ≥ 20 kg. Recommended for private use. Insurers: Fidelidade, Generali, AXA — third-party liability up to €750,000, €50-150/year.' }
+            { kind: 'paragraph', text: 'Under Portuguese law (Decreto-Lei 58/2018), third-party liability insurance is mandatory for drones with a maximum take-off mass above 900 g, as well as for commercial operators. For light private drones it is recommended. Insurers: Fidelidade, Generali, AXA — third-party liability up to €750,000, €50-150/year.' }
           ]}
         ]}
       ]
@@ -94,12 +94,12 @@ export default {
       title: 'Fines',
       content: [
         { kind: 'checklist', items: [
-          'Flying without registration: €500-1,500',
-          'Geozone breach (airport): €1,000-2,000',
-          'Flying over people in A3: €500-1,000',
-          'Flying in a natural park without permission: €250-750 + possible confiscation',
-          'Night flight without permission: €500',
-          'Fine check: GNR / PSP at the time of flight or through ANAC'
+          'Fines are set by Decreto-Lei 58/2018 and split into three offence levels (for individuals; legal entities pay more)',
+          'Very serious offence (muito grave), e.g. flying without operator registration: €2,000-3,500',
+          'Serious offence (grave), e.g. geozone breach or flying outside the category rules: €1,000-2,500',
+          'Minor offence (leve): €300-600',
+          'Additional sanctions: a ban on operating drones for up to 2 years and/or confiscation of the aircraft',
+          'On-the-spot checks: GNR / PSP; processing and collection through ANAC'
         ]}
       ]
     }
@@ -115,8 +115,9 @@ export default {
     { title: 'ANAC — Registration of Unmanned Aircraft Operators', url: 'https://www.anac.pt/vPT/Generico/drones/registo_uas/Paginas/OperadoresdeUAS.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Portugal drone portal (registration + geozones)', url: 'https://voanouceu.anac.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulation (EU) 2019/947', url: 'https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
-    { title: 'ICNF — natural parks', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ICNF — natural parks', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei n.º 58/2018 (registration, insurance, fines)', url: 'https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=3035&tabela=leis', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

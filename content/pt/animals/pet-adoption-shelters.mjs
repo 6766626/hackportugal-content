@@ -3,7 +3,7 @@ export default {
   id: 'pet-adoption-shelters',
   categoryId: 'animals',
   title: 'Adoptar um animal em Portugal — abrigos e processo',
-  tldr: 'Em Portugal, a adopção num abrigo é gratuita ou tem uma contribuição simbólica (10-50 €) para cobrir a esterilização e o chip. Principais fontes: CRO municipais (Centro de Recolha Oficial), associações privadas (União Zoófila, ANIMAL, Bianca, CB), Animais de Rua (Lisboa), Casa dos Animais Lisboa. No site adopt.cao.pt há uma base nacional. A lei exige chip + registo no SIAC + seguro (para cães de raças perigosas).\n\nA esterilização está normalmente incluída.',
+  tldr: 'Em Portugal, a adopção num abrigo é gratuita ou tem uma contribuição simbólica (10-50 €) para cobrir a esterilização e o chip. Principais fontes: CRO municipais (Centro de Recolha Oficial), associações privadas (União Zoófila, ANIMAL, Bianca), Animais de Rua (Lisboa), Casa dos Animais Lisboa. No site adopt.cao.pt há uma base nacional. A lei exige chip + registo no SIAC + seguro (para cães de raças perigosas).\n\nA esterilização está normalmente incluída.',
   tags: ['adopção', 'abrigo', 'cão', 'gato', 'cro', 'animal'],
   estimatedReadMinutes: 6,
   steps: [
@@ -149,7 +149,7 @@ export default {
           '🐾 Passeios 2-3 vezes por dia (cães), brincadeiras (gatos)',
           '📸 Redes sociais: ajude o abrigo — publique fotografias, recomende',
           '🎁 Devolução ao abrigo (se não resultar): normalmente há 30 dias para devolver; não abandone na rua!',
-          '⚖️ Lei 92/95: maus-tratos = até 2 anos de prisão + coima de 5 000 €'
+          '⚖️ Os maus-tratos são crime (art. 387.º do Código Penal, introduzido pela Lei 69/2014): até 2 anos de prisão; as coimas administrativas (Lei 92/95) aplicam-se em separado'
         ]}
       ]
     },
@@ -182,9 +182,10 @@ export default {
   sources: [
     { title: 'SIAC — Sistema de Informação de Animais de Companhia', url: 'https://www.siac.vet/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Lei 92/95 — Protecção animal', url: 'https://diariodarepublica.pt/dr/detalhe/lei/92-1995-241458', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Código Penal, art. 387.º (Lei 69/2014) — Maus-tratos a animais', url: 'https://diariodarepublica.pt/dr/detalhe/lei/69-2014-56167988', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Decreto-Lei 315/2009 + Lei 110/2015 — Cães perigosos', url: 'https://diariodarepublica.pt/dr/detalhe/lei/110-2015-69859225', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Portaria 422/2004 — Lista de raças potencialmente perigosas', url: 'https://diariodarepublica.pt/dr/detalhe/portaria/422-2004', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'expat-community-channels',
   categoryId: 'country_specific',
   title: 'Где общаются иммигранты: каналы, группы и форумы по странам',
-  tldr: 'В Португалии у каждой крупной диаспоры — свои Telegram-каналы, Facebook-группы и форумы, где быстро отвечают на бытовые вопросы (NIF, аренда, AIMA, врачи, школы, банки)\.\n\nСамые активные сообщества: бразильцы (Telegram + крупные FB-группы), американцы (Americans & Friends PT — де-факто стандарт), британцы (British Expats forum + Algarve FB), индийцы (несколько городских FB-групп), и общие expat-сети (Reddit r/PortugalExpats, InterNations, Expats Portugal Forum). Эти каналы — НЕ замена официальным источникам (AIMA, Finanças, посольство), но отличный способ найти живой опыт людей в твоей ситуации.',
+  tldr: 'В Португалии у каждой крупной диаспоры — свои Telegram-каналы, Facebook-группы и форумы, где быстро отвечают на бытовые вопросы (NIF, аренда, AIMA, врачи, школы, банки).\n\nСамые активные сообщества: бразильцы (Telegram + крупные FB-группы), американцы (Americans & Friends PT — де-факто стандарт), британцы (British Expats forum + Algarve FB), индийцы (несколько городских FB-групп), и общие expat-сети (Reddit r/PortugalExpats, InterNations, Expats Portugal Forum). Эти каналы — НЕ замена официальным источникам (AIMA, Finanças, посольство), но отличный способ найти живой опыт людей в твоей ситуации.',
   tags: ['сообщество', 'telegram', 'facebook', 'reddit', 'диаспора'],
   estimatedReadMinutes: 6,
   steps: [
@@ -33,7 +33,7 @@ export default {
           'Консульство Бразилии в Лиссабоне и Порту — для CPF, паспорта, eleitoral, нотариальных документов',
           'Igrejas evangélicas brasileiras в больших городах — параллельная сеть бытовой поддержки (особенно для семей)'
         ]},
-        { kind: 'warning', text: 'Бразильских FB-групп с похожими названиями много («Brasileiros em Lisboa», «Brasileiros no Porto», «Brasileiras em Portugal» и т.д.)\.\n\nМногие из них реальные, но есть и спам/коммерческие. Смотрите на активность за последние 2 недели, размер группы и реальные посты — не только название.' }
+        { kind: 'warning', text: 'Бразильских FB-групп с похожими названиями много («Brasileiros em Lisboa», «Brasileiros no Porto», «Brasileiras em Portugal» и т.д.).\n\nМногие из них реальные, но есть и спам/коммерческие. Смотрите на активность за последние 2 недели, размер группы и реальные посты — не только название.' }
       ]
     },
     {
@@ -82,7 +82,7 @@ export default {
       id: 'general-expat',
       title: 'Общие expat-сети (для всех)',
       content: [
-        { kind: 'paragraph', text: 'Эти ресурсы работают независимо от страны исхода — полезны всем, особенно для общих тем (визы, налоги, недвижимость, школы, дигитальные кочевники).' },
+        { kind: 'paragraph', text: 'Эти ресурсы работают независимо от страны исхода — полезны всем, особенно для общих тем (визы, налоги, недвижимость, школы, цифровые кочевники).' },
         { kind: 'checklist', items: [
           'Reddit r/PortugalExpats — англоязычное сообщество для переезжающих и живущих',
           'Expats Portugal Forum — старейший форум, активные ветки по AIMA, недвижимости, здравоохранению',
@@ -90,7 +90,7 @@ export default {
           'InterNations Portugal — оффлайн-мероприятия по городам (Lisboa, Porto, Algarve), нетворкинг для профессионалов',
           'Reddit r/portugal — основной сабреддит Португалии (PT-EN смесь); r/Lisbon, r/Porto — городские'
         ]},
-        { kind: 'warning', text: 'Большинство общих expat-форумов скошены в сторону американских/британских переезжающих с финансовым достатком. Для других ситуаций (студенты, работники низкоквалифицированного труда, беженцы) ваши соответствующие национальные/языковые группы будут полезнее.' }
+        { kind: 'warning', text: 'Большинство общих expat-форумов смещены в сторону американских/британских переезжающих с финансовым достатком. Для других ситуаций (студенты, работники низкоквалифицированного труда, беженцы) ваши соответствующие национальные/языковые группы будут полезнее.' }
       ]
     },
     {
@@ -112,7 +112,7 @@ export default {
     { title: 'Embassy of India in Lisbon', url: 'https://www.eoilisbon.gov.in/', kind: 'official', language: 'en', lastRetrieved: '2026-05-13' },
     { title: 'AIMA — официальный сайт', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-13' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60,
   recentlyChangedAt: '2026-05-13',
   changeSummary: 'Новый гайд: подборка верифицированных каналов и групп для бразильцев, американцев, британцев, индийцев и общих expat-сетей в Португалии. Telegram, Facebook-группы, форумы (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — со ссылками в Community-разделе приложения.'

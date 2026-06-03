@@ -129,6 +129,6 @@ export default {
     { title: 'Official Bricomarché Portugal website — stores and bricolage categories', url: 'https://www.bricomarche.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Official Maxmat website — stores, campanhas and range', url: 'https://www.maxmat.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

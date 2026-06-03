@@ -29,6 +29,7 @@ export default {
           'Rendimento não superior ao limite definido pelo programa: referência — até ao 8.º escalão IRS',
           'Sem dívidas em atraso perante a Autoridade Tributária e a Segurança Social',
           'Não ter utilizado anteriormente uma garantia do Estado semelhante',
+          'O contrato de crédito é celebrado até 31 de dezembro de 2026 — prazo-limite do programa (é possível uma prorrogação, mas não está garantida)',
           'O banco aprova o crédito à habitação de acordo com as suas regras de stress test e taxa de esforço'
         ] },
         { kind: 'paragraph', text: 'A nacionalidade, por si só, não é o critério principal. Para um expat, o mais importante é a permanência legal, a residência fiscal, rendimentos comprováveis e a disponibilidade do banco para financiar um não residente/novo residente.\n\nNa prática, os bancos exigem com mais frequência autorização de residência, contrato de trabalho sem termo ou recibos verdes/rendimento estrangeiro estável com documentação.' }
@@ -127,6 +128,6 @@ export default {
     { title: 'Decreto-Lei 44/2024 — garantia pessoal do Estado para aquisição da primeira habitação própria e permanente', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/44-2024-870793703', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Banco de Portugal — crédito à habitação e FINE', url: 'https://clientebancario.bportugal.pt/pt-pt/credito-habitacao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

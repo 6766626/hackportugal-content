@@ -16,7 +16,7 @@ export default {
           'Non-residents with income outside Portugal — usually 60–70%; specific conditions depend on the bank',
           'EU citizens: banks assess tax residency, the source/currency of income, employment stability — EU citizenship in itself does not mean the same conditions as a PT resident',
           'Non-EU citizens: there is no universal “2 years of residence permit” rule; some banks are more favourable to a stable residence permit with PT income — assessment is individual',
-          'Replace with: "Golden Visa: new ARI through property purchases are no longer available; for existing ARI applicants/holders, the bank will still individually check the source of funds, sanctions risks and income."'
+          'Golden Visa: new ARI via property purchase is no longer available (Lei 56/2023, Mais Habitação); for existing ARI applicants and holders, the bank will still individually check the source of funds, sanctions risks and income.'
         ]},
         { kind: 'warning', text: 'Citizens of the Russian Federation have faced restrictions in some banks since 2022 — there is less choice, and interest rates may be higher. Check the conditions with the specific bank.' }
       ]

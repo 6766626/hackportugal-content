@@ -112,7 +112,7 @@ export default {
     { title: 'Embassy of India in Lisbon', url: 'https://www.eoilisbon.gov.in/', kind: 'official', language: 'en', lastRetrieved: '2026-05-13' },
     { title: 'AIMA — official website', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-13' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 60,
   recentlyChangedAt: '2026-05-13',
   changeSummary: 'New guide: a selection of verified channels and groups for Brazilians, Americans, British people, Indians and general expat networks in Portugal. Telegram, Facebook groups, forums (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — with links in the Community section of the app.'

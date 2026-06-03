@@ -3,7 +3,7 @@ export default {
   id: 'carta-social-rede-social',
   categoryId: 'healthcare',
   title: 'Carta Social — национальная база социальных учреждений',
-  tldr: 'Carta Social — бесплатная государственная карта и поиск по социальным учреждениям Португалии: creche, ama, ATL/CATL, centro de dia, lar/ERPI, apoio domiciliário, IPSS и частные лицензированные организации. В 2026 база доступна на cartasocial.pt, фильтруется по distrito, concelho, freguesia и типу resposta social; часто показывает контакты, вместимость и вакансии. Для реального места всё равно звоните учреждению: данные о vagas обновляются не всегда ежедневно.',
+  tldr: 'Carta Social — бесплатная государственная карта и поиск по социальным учреждениям Португалии: creche, ama, ATL/CATL, centro de dia, lar/ERPI, apoio domiciliário, IPSS и частные лицензированные организации. В 2026 году база доступна на cartasocial.pt, фильтруется по distrito, concelho, freguesia и типу resposta social; часто показывает контакты, вместимость и вакансии. Для реального места всё равно звоните учреждению: данные о vagas обновляются не всегда ежедневно.',
   tags: ['carta social', 'ipss', 'creche', 'lar', 'соцуслуги'],
   estimatedReadMinutes: 5,
   steps: [
@@ -86,7 +86,7 @@ export default {
           '“Natureza jurídica” показывает тип организации: IPSS, associação, sociedade, fundação и т.д.',
           '“Resposta social” — конкретная услуга, а не всё учреждение целиком',
           'Одна entidade может иметь несколько respostas sociais по одному адресу',
-          '“Capacidade” — разрешённое количество мест, не равно свободным местам',
+          '“Capacidade” — разрешённое количество мест, это не то же самое, что свободные места',
           '“Utentes” — фактически обслуживаемые пользователи на дату обновления',
           '“Acordo de cooperação” с Segurança Social может означать субсидируемые места',
           'Частные учреждения могут быть лицензированы, но без субсидируемой цены',
@@ -107,7 +107,7 @@ export default {
           'Попросите список документов: NIF, NISS, utente, ВНЖ/паспорт, comprovativo de morada, IRS',
           'Для пожилых уточните медицинские ограничения, ночной уход, врачебное сопровождение',
           'Проверьте учреждение лично: доступность, запах, персонал, меню, безопасность',
-          'Если вам отказывают без объяснений, попросите de admissão и наличие livro de reclamações'
+          'Если вам отказывают без объяснений, попросите критерии приёма (critérios de admissão) и проверьте наличие livro de reclamações'
         ] },
         { kind: 'warning', text: 'Не переводите “резервационный депозит” незнакомой организации только по WhatsApp. Проверяйте, что название, NIF и адрес совпадают с карточкой Carta Social и официальным e-mail учреждения.' }
       ]
@@ -122,6 +122,6 @@ export default {
     { title: 'GEP — Carta Social, Gabinete de Estratégia e Planeamento (MTSSS)', url: 'https://www.gep.mtsss.gov.pt/carta-social', kind: 'official', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'Segurança Social — IPSS и социальные ответы', url: 'https://www.seg-social.pt/ipss', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

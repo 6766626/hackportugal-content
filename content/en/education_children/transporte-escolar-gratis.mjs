@@ -28,12 +28,12 @@ export default {
       id: 'eligibility',
       title: 'Check entitlement to free travel',
       content: [
-        { kind: 'paragraph', text: 'The basic rule for 2026: free school transport is provided to pupils in compulsory education if the distance from their place of residence to the school is more than 3 km. The municipality may specify how it measures the distance: by road, by the shortest pedestrian route or using a GIS map.' },
+        { kind: 'paragraph', text: 'The basic rule for 2026: free school transport is provided to pupils in compulsory education if the distance from their place of residence to the school is more than 3 km — and if the school has a canteen (refeitório), the threshold is often 4 km. The municipality may specify how it measures the distance: by road, by the shortest pedestrian route or using a GIS map.' },
         { kind: 'checklist', items: [
           'The child is aged 6 to 18, or is still completing escolaridade obrigatória',
           'There is a confirmed matrícula or renovação de matrícula for the school year',
           'The school belongs to your area or the child has been officially assigned there',
-          'The home is more than 3 km from the school',
+          'The home is more than 3 km from the school (4 km if the school has a canteen)',
           'There is no other free school option closer to home that the family voluntarily declined to use',
           'The child actually lives in that municipality',
           'The application is submitted within the deadlines published by the Câmara Municipal',
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

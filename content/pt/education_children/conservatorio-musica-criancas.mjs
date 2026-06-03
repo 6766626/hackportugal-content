@@ -107,15 +107,15 @@ export default {
   ],
   sources: [
     {
-      title: 'Conservatório de Música de Lisboa — informação da escola e admissão',
-      url: 'https://www.cmlc.pt',
+      title: 'Escola Artística de Música do Conservatório Nacional (Lisboa) — admissão e matrículas',
+      url: 'https://www.emcn.edu.pt',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Conservatório de Música do Porto — cursos, admissões e matrículas',
-      url: 'https://www.cmusica.pt',
+      url: 'https://conservatoriodemusicadoporto.pt',
       kind: 'company',
       language: 'pt',
       lastRetrieved: '2026-04-28'
@@ -135,6 +135,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

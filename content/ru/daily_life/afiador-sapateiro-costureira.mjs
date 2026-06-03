@@ -28,7 +28,7 @@ export default {
       id: 'afiador',
       title: 'Как поймать afiador 🔪',
       content: [
-        { kind: 'paragraph', text: 'Классический afiador в Португалии ездит по району и подаёт звук на маленькой флейте apito. Если слышите резкий повторяющийся свист во дворе или на улице — это может быть точильщик. Он останавливается, если выйти к подъезду или махнуть с балкона.' },
+        { kind: 'paragraph', text: 'Классический afiador в Португалии ездит по району и издаёт звук маленькой флейтой apito. Если слышите резкий повторяющийся свист во дворе или на улице — это может быть точильщик. Он останавливается, если выйти к подъезду или махнуть с балкона.' },
         { kind: 'checklist', items: [
           'Спросите у соседей: “Sabe quando passa o afiador?” — соседи часто знают день и примерное время маршрута',
           'В старых районах Lisboa, Porto, Olhão, Setúbal и Faro afiador чаще появляется утром, до жары и до обеда',
@@ -38,14 +38,14 @@ export default {
           'Для кухонных ножей ресторанного уровня ищите “afiação profissional” или “cutelaria”; это уже мастерская, не уличный маршрут',
           'Имейте наличные монеты: 1–4 € за обычный нож — нормальный бытовой диапазон в 2026, но цена зависит от состояния лезвия'
         ] },
-        { kind: 'warning', text: 'Не отдавайте дорогие японские ножи первому уличному afiador без вопроса о типе камня и угле заточки. Для carbon steel, damascus, single bevel и ножей дороже 100 € лучше специализированную cutelaria или afiação profissional.' }
+        { kind: 'warning', text: 'Не отдавайте дорогие японские ножи первому уличному afiador без вопроса о типе камня и угле заточки. Для carbon steel, damascus, single bevel и ножей дороже 100 € лучше выбрать специализированную cutelaria или afiação profissional.' }
       ]
     },
     {
       id: 'sapateiro',
       title: 'Где искать sapateiro 👞',
       content: [
-        { kind: 'paragraph', text: 'Сапожники в Португалии часто работают в маленьких помещениях у рынков, торговых галерей, станций метро, старых commercial streets и рядом с ключными мастерскими. Вывеска может быть “Sapateiro”, “Reparação de calçado”, “Chaves e sapatos” или “Sapataria”.' },
+        { kind: 'paragraph', text: 'Сапожники в Португалии часто работают в маленьких помещениях у рынков, торговых галерей, станций метро, старых commercial streets и рядом с мастерскими по изготовлению ключей. Вывеска может быть “Sapateiro”, “Reparação de calçado”, “Chaves e sapatos” или “Sapataria”.' },
         { kind: 'checklist', items: [
           'Откройте Google Maps и ищите “sapateiro perto de mim”, “reparação de calçado”, “conserto de sapatos”',
           'Проверьте mercados municipais: у входов часто есть мастерские ремонта обуви и ключей',
@@ -67,7 +67,7 @@ export default {
           'Ищите в Google Maps: “arranjos de roupa”, “costureira”, “atelier de costura”, “modista”',
           'Зайдите в lavandaria: спросите, делают ли “bainhas” — подшив, “apertar” — ушить, “trocar fecho” — заменить молнию',
           'Зайдите в retrosaria: там знают местных портних, потому что те покупают нитки, молнии и фурнитуру',
-          'Для свадебного, пальто и дорогих тканей ищите именно “atelier de costura” или “alfaiate”, а не бытовую costureira',
+          'Для свадебного наряда, пальто и дорогих тканей ищите именно “atelier de costura” или “alfaiate”, а не бытовую costureira',
           'Принесите обувь, с которой будете носить брюки или платье: длину отмечают на вас',
           'Уточните, включена ли фурнитура: молнии, пуговицы, подкладка и резинки могут считаться отдельно',
           'Сфотографируйте изделие при сдаче, если вещь дорогая'
@@ -123,6 +123,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa: mercados, comércio local и городские сервисы', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal ePortugal: livro de reclamações и права потребителя при услугах', url: 'https://www.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }
