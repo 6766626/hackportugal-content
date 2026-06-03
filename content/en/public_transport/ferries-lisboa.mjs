@@ -3,7 +3,7 @@ export default {
   id: 'ferries-lisboa',
   categoryId: 'public_transport',
   title: 'Lisbon ferries — crossings over the Tejo and along the coast',
-  tldr: 'Transtejo/Soflusa — ferries across the Tejo: Lisbon—Cacilhas (10 min, €1.40), Cais do Sodré—Trafaria—Porto Brandão, Belém—Trafaria, Terreiro do Paço—Barreiro/Montijo. The Navegante card is accepted. For tourists — Tejo Boat Tour. For beach lovers — Cacilhas + bus 124 to Costa da Caparica. In winter the timetable is reduced; check in advance at ttsl.pt.',
+  tldr: 'Transtejo/Soflusa — ferries across the Tejo: Lisbon—Cacilhas (10 min, €2.00, zapping €1.60), Cais do Sodré—Trafaria—Porto Brandão, Belém—Trafaria, Terreiro do Paço—Barreiro/Montijo. The Navegante card is accepted. For tourists — Tejo Boat Tour. For beach lovers — Cacilhas + bus 124 to Costa da Caparica. In winter the timetable is reduced; check in advance at ttsl.pt.',
   tags: ['ferry', 'transtejo', 'soflusa', 'cacilhas', 'lisboa', 'tejo'],
   estimatedReadMinutes: 4,
   steps: [
@@ -15,8 +15,8 @@ export default {
           { id: 'cacilhas', title: 'Cais do Sodré ↔ Cacilhas (the most popular)', content: [
             { kind: 'checklist', items: [
               '⏱️ 10 min on the water',
-              '🕐 Every 15–30 min 06:00–01:00',
-              '💰 €1.40 (Navegante €0.90), Tejo 24h €6',
+              '🕐 Every 10–15 min by day, less often in the evening; runs almost around the clock',
+              '💰 Single €2.00, zapping €1.60; Tejo 24h €6',
               '🍷 Cacilhas — an area of cafés and waterside beer houses, excellent fado',
               '🍤 Famous seafood: Restaurante Ponto Final',
               '🚌 From Cacilhas bus 124 → Costa da Caparica (beach)'
@@ -26,7 +26,7 @@ export default {
             { kind: 'checklist', items: [
               '⏱️ 15 min',
               '🕐 Every 30–45 min 07:00–22:00',
-              '💰 €1.40',
+              '💰 €1.50',
               '🏰 Trafaria — a fishing village, with Costa da Caparica beaches nearby'
             ]}
           ]},
@@ -34,7 +34,7 @@ export default {
             { kind: 'checklist', items: [
               '⏱️ 25–30 min',
               '🕐 Less frequent, 1–2 times per hour',
-              '💰 €1.80',
+              '💰 €1.50',
               '🍷 Porto Brandão — a quiet fishing cove'
             ]}
           ]},
@@ -42,7 +42,7 @@ export default {
             { kind: 'checklist', items: [
               '⏱️ Barreiro 25 min, Montijo 30 min',
               '🕐 Every 30–60 min 06:00–23:00',
-              '💰 Barreiro €2.50, Montijo €3.30',
+              '💰 Barreiro €2.95, Montijo €3.25',
               '🚂 From Barreiro, CP trains to Alentejo (Évora, Beja, Faro)'
             ]}
           ]}
@@ -65,7 +65,7 @@ export default {
           { id: 'navegante', title: 'Monthly Navegante pass', content: [
             { kind: 'checklist', items: [
               '🌐 Navegante Metropolitano (Lisbon — Margem Sul) includes ferries',
-              '💰 €30/month — unlimited bus, metro, CP train and ferries',
+              '💰 €40/month — unlimited bus, metro, CP train and ferries (across the whole AML)',
               '🌟 The best-value option for residents of the north and south banks',
               '📲 Navegante card or Carris app'
             ]}
@@ -98,16 +98,17 @@ export default {
     }
   ],
   costs: [
-    { label: 'Cacilhas/Trafaria single ticket', amountEUR: 1.40 },
-    { label: 'Barreiro single ticket', amountEUR: 2.50 },
-    { label: 'Montijo single ticket', amountEUR: 3.30 },
+    { label: 'Cacilhas single ticket (zapping €1.60)', amountEUR: 2.00 },
+    { label: 'Trafaria/Porto Brandão single ticket', amountEUR: 1.50 },
+    { label: 'Barreiro single ticket', amountEUR: 2.95 },
+    { label: 'Montijo single ticket', amountEUR: 3.25 },
     { label: 'Tejo 24h tourist ticket', amountEUR: 6 },
-    { label: 'Navegante Metropolitano (unlimited)', amountEUR: 30, note: '€/month' }
+    { label: 'Navegante Metropolitano (unlimited)', amountEUR: 40, note: '€/month' }
   ],
   sources: [
     { title: 'Transtejo / Soflusa — official website', url: 'https://ttsl.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Carris Metropolitana — Navegante', url: 'https://www.carrismetropolitana.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

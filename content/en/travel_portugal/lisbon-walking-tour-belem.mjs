@@ -88,7 +88,7 @@ export default {
           '🚋 Tram no. 15 from Praça da Figueira — direct, 20 min',
           '🚆 Cascais line train from Cais do Sodré, get off at “Belém”, 10 min',
           '🚶 On foot from the centre along the Tagus — about 1 hour, scenic',
-          '💶 Jerónimos + Torre: combined ticket €16 (save €4) on Visit Lisboa',
+          '💶 Jerónimos + Torre: combined ticket €12 (save €4 vs €10 + €6 bought separately)',
           '⏰ Book online — the ticket-office queue can be up to 1.5 hours',
           '❌ Torre de Belém is closed on Mondays; Jerónimos is too'
         ]}
@@ -117,6 +117,6 @@ export default {
     { title: 'UNESCO — Monastery of the Hieronymites and Tower of Belém', url: 'https://whc.unesco.org/en/list/263/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Patrimonio Cultural PT', url: 'https://www.patrimoniocultural.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'ferry-madeira-acores',
   categoryId: 'public_transport',
   title: 'Ferries entre as ilhas da Madeira e dos Açores: Atlânticoline, Porto Santo Line, Naviera Armas',
-  tldr: 'Em abril de 2026 não existe ferry regular Madeira—Açores: são arquipélagos diferentes e entre eles viaja-se de avião.\n\nNos Açores, os ferries interilhas são operados pela Atlânticoline: durante todo o ano há ligações curtas Faial—Pico—São Jorge e Flores—Corvo; no verão acrescentam-se rotas mais longas entre as 9 ilhas.\n\nNa Madeira, o ferry de passageiros e automóveis Funchal—Porto Santo demora cerca de 2 h 30 min; o operador é a Porto Santo Line. A Naviera Armas não é o operador diário da ligação Funchal—Porto Santo.',
+  tldr: 'Em 2026 não existe ferry regular Madeira—Açores: são arquipélagos diferentes e entre eles viaja-se de avião.\n\nNos Açores, os ferries interilhas são operados pela Atlânticoline: durante todo o ano há ligações curtas Faial—Pico—São Jorge e Flores—Corvo; no verão acrescentam-se rotas mais longas entre as 9 ilhas.\n\nNa Madeira, o ferry de passageiros e automóveis Funchal—Porto Santo demora cerca de 2 h 30 min; o operador é a Porto Santo Line. A Naviera Armas não é o operador diário da ligação Funchal—Porto Santo.',
   tags: ['ferries', 'madeira', 'açores', 'atlanticoline', 'porto-santo'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,7 +16,7 @@ export default {
           'Açores: ferries interilhas da Atlânticoline entre as ilhas do arquipélago.',
           'Madeira: Funchal—Porto Santo é operado pela Porto Santo Line, navio Lobo Marinho.',
           'Porto Santo: pode viajar como passageiro, com automóvel, mota, bicicleta e bagagem, de acordo com as regras do operador.',
-          'Naviera Armas: historicamente e sazonalmente aparece em rotas Madeira/Canárias, mas em abril de 2026 não deve ser planeada como ligação diária Funchal—Porto Santo.',
+          'Naviera Armas: historicamente e sazonalmente aparece em rotas Madeira/Canárias, mas em 2026 não deve ser planeada como ligação diária Funchal—Porto Santo.',
           'Não use a Moby como operador português regular entre Madeira e Açores no horário de 2026; verifique apenas os sites oficiais da rota concreta.',
           'Portugal continental—Madeira em ferry regular também não é uma opção diária estável; para mudar-se com carro, é mais comum usar transporte de carga/transporte automóvel.'
         ] },
@@ -110,6 +110,6 @@ export default {
     { title: 'Portos dos Açores: infraestrutura marítima e portos do arquipélago', url: 'https://www.portosdosacores.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'APRAM: Administração dos Portos da Região Autónoma da Madeira', url: 'https://www.apram.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

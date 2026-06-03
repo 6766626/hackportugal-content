@@ -3,7 +3,7 @@ export default {
   id: 'natural-pools-beaches',
   categoryId: 'travel_portugal',
   title: 'Природные бассейны и лучшие пляжи Португалии',
-  tldr: 'В Португалии более 850 пляжей и множество piscinas naturais — природных бассейнов в скалах у океана. Топ: Azenhas do Mar (Sintra), Cabo Mondego (Figueira), Nossa Senhora da Guia (Cascais), пещерные пляжи Alentejo (Zambujeira)\.\n\nГолубые флаги 2025: более 370 пляжей. Бесплатные муниципальные бассейны есть в большинстве Junta. Самые тёплые: Algarve (22-24°C летом), Madeira (21-23°C круглый год)\.\n\nХолоднее: северное атлантическое побережье (17-20°C).',
+  tldr: 'В Португалии более 850 пляжей и множество piscinas naturais — природных бассейнов в скалах у океана. Топ: Azenhas do Mar (Sintra), Cabo Mondego (Figueira), Nossa Senhora da Guia (Cascais), пещерные пляжи Alentejo (Zambujeira).\n\nГолубые флаги 2025: более 400 пляжей. Бесплатные муниципальные бассейны есть в большинстве Junta. Самые тёплые: Algarve (22-24°C летом), Madeira (21-23°C круглый год).\n\nХолоднее: северное атлантическое побережье (17-20°C).',
   tags: ['пляжи', 'бассейны', 'природные бассейны', 'лето'],
   estimatedReadMinutes: 7,
   steps: [
@@ -53,7 +53,7 @@ export default {
       id: 'blue-flag-2025',
       title: '🔵 Голубой флаг — топ 2025',
       content: [
-        { kind: 'paragraph', text: 'Bandeira Azul — международный экологический сертификат ФЕЕ. В 2025 — более 370 пляжей и марин в Португалии. Критерии: чистая вода, санитарная инфраструктура, безопасность, экологическое образование.' },
+        { kind: 'paragraph', text: 'Bandeira Azul — международный экологический сертификат FEE. В 2025 — более 400 пляжей и марин в Португалии. Критерии: чистая вода, санитарная инфраструктура, безопасность, экологическое образование.' },
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Топ-пляжи по регионам (2025)', content: [
             { kind: 'checklist', items: [
@@ -107,7 +107,7 @@ export default {
           '⛱️ Оборудованные зоны (обычные): платные, лежак + зонтик € 15-25/день',
           '🏖️ Солнце: летнее солнце в PT очень сильное — SPF 50 обязательно с 11:00 до 17:00',
           '💧 Медузы (alforreca): иногда в сезон, спасатель уведомит',
-          '🚫 Нудистские пляжи: легальны на 21 пляже — знак «praia naturista». Не путать с обычными',
+          '🚫 Нудистские пляжи: официально 9 пляжей — знак «praia naturista» (плюс несколько, где нудизм негласно допускается). Не путать с обычными',
           '🐕 Собаки: запрет 15 июня - 30 сентября на всех пляжах с Голубым флагом; есть отдельные пляжи для собак'
         ]}
       ]
@@ -132,8 +132,8 @@ export default {
   sources: [
     { title: 'APA — Água Balnear (качество воды)', url: 'https://www.apambiente.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Portugal — Praias', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ABAE — Bandeira Azul Portugal', url: 'https://bandeiraazul.abae.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ABAAE — Bandeira Azul Portugal', url: 'https://bandeiraazul.abaae.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

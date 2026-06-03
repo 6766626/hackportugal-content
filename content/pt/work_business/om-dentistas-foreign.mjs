@@ -26,13 +26,13 @@ export default {
       id: 'diploma-recognition',
       title: 'Passo 1. Reconhecer o diploma estrangeiro através da DGES',
       content: [
-        { kind: 'paragraph', text: 'Para diplomas obtidos fora da UE, a OMD exige primeiro o reconhecimento da qualificação académica em Portugal. O regime-base de reconhecimento de graus estrangeiros está definido no Decreto-Lei 66/2018: o pedido é apresentado através da plataforma da DGES, e a decisão é tomada por uma instituição de ensino superior portuguesa que tenha um curso comparável de Medicina Dentária.' },
+        { kind: 'paragraph', text: 'Para diplomas obtidos fora da UE, a OMD exige primeiro o reconhecimento da qualificação académica em Portugal. O regime-base de reconhecimento de graus estrangeiros está definido no Decreto-Lei 66/2018: o pedido é apresentado através da plataforma da DGES, e a decisão é tomada por uma instituição pública de ensino superior portuguesa que tenha um curso comparável de Medicina Dentária.' },
         { kind: 'checklist', items: [
-          'Verifique qual é o procedimento adequado: o reconhecimento específico é o mais frequentemente necessário para uma profissão regulamentada, porque são comparados o plano de estudos, a carga horária e o grau',
+          'Para a inscrição na OMD com um diploma fora da UE é necessário o reconhecimento específico do grau/curso em Medicina Dentária, e não apenas o reconhecimento de nível: são comparados o plano de estudos, a carga horária e o conteúdo do programa',
           'Prepare o diploma, o suplemento/transcrição, o plano de estudos com horas e disciplinas, e a confirmação da duração do curso',
           'Documentos de países não lusófonos exigem normalmente tradução para português e legalização: Apostila de Haia ou legalização consular',
           'O pedido é apresentado online através da DGES; a instituição de ensino superior pode pedir syllabi adicionais, programas das disciplinas e comprovativo de prática clínica',
-          'A decisão da DGES/da instituição deve confirmar o reconhecimento do nível/grau, suficiente para continuar o procedimento na OMD',
+          'A decisão de reconhecimento é emitida por uma instituição pública de ensino superior portuguesa ao abrigo do DL 66/2018; para a OMD tem de ser um reconhecimento específico do curso/grau em Medicina Dentária, e não apenas o reconhecimento de nível (por exemplo, mestre)',
           'Guarde a decisão em PDF, os recibos e todas as traduções: a OMD irá verificar não só o diploma, mas também o percurso de reconhecimento'
         ] },
         { kind: 'warning', text: 'O reconhecimento do diploma pela DGES não dá o direito de tratar pacientes. É apenas a etapa académica. O direito ao exercício da profissão surge após a inscrição na OMD e a emissão do número profissional.' }
@@ -50,7 +50,7 @@ export default {
           'A duração máxima total é de 120 minutos; a prova inclui um componente oral, não é apenas escrita',
           'A OMD pode publicar datas concretas, instruções, regras de admissão e o regulamento separadamente da página geral de inscrição',
           'O candidato deve confirmar previamente a admissão, pagar as taxas aplicáveis, se forem indicadas pela OMD, e comparecer com documento de identificação',
-          'Há isenção da PCMD para candidatos que realizaram toda a formação em medicina dentária em português',
+          'Há isenção da PCMD para quem realizou toda a formação em medicina dentária em português numa instituição de ensino superior de país de língua oficial portuguesa, e para quem tenha formação em língua portuguesa considerada adequada pelo Conselho Diretivo da OMD',
           'Se não domina Portuguese medical vocabulary, planeie primeiro uma aprendizagem intensiva da língua a um nível não inferior a B2 para o ambiente profissional'
         ] },
         { kind: 'warning', text: 'Não confunda a prova de língua da OMD (PCMD) com o reconhecimento do diploma pela DGES. São etapas diferentes: a DGES/a instituição de ensino superior confirma a equivalência académica e os conhecimentos (Reconhecimento Específico), enquanto a PCMD apenas verifica o conhecimento da língua portuguesa para a profissão.' }
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

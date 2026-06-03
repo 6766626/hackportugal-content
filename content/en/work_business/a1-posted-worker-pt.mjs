@@ -39,7 +39,8 @@ export default {
           'The destination country is the EU, Iceland, Liechtenstein, Norway, or Switzerland',
           'A different regime applies to regular work in several countries: multi-state worker, not ordinary destacamento'
         ] },
-        { kind: 'warning', text: 'If the host country effectively becomes the normal place of work, or if the period is known in advance to be more than 24 months, the standard A1 for destacamento may not be suitable. A separate assessment of the applicable legislation is needed and, sometimes, an exceptional agreement under Reg. 883/2004 art. 16.' }
+        { kind: 'warning', text: 'If the host country effectively becomes the normal place of work, or if the period is known in advance to be more than 24 months, the standard A1 for destacamento may not be suitable. A separate assessment of the applicable legislation is needed and, sometimes, an exceptional agreement under Reg. 883/2004 art. 16.' },
+        { kind: 'warning', text: 'Important for third-country nationals (not EU/EEA/Switzerland citizens). For EU citizens the rule covers the EU, Iceland, Liechtenstein, Norway, and Switzerland. For a third-country national legally resident in Portugal, A1 is usually possible for a posting to another EU state under Reg. (EU) 1231/2010, but this extension does not apply to Denmark and does not cover Iceland, Liechtenstein, Norway, or Switzerland. For those destinations, check in advance how the rules apply with Segurança Social and the destination country.' }
       ]
     },
     {
@@ -81,7 +82,7 @@ export default {
           'Check whether the employer needs to file a posted worker notification in the destination country',
           'Keep travel orders, tickets, the client contract, and timesheets',
           'Make sure the dates of actual work do not fall outside the A1 dates',
-          'Replace with: “If the dates, country, or facts of the posting change, the employer must request an amendment/new A1 in advance. If the total period of the same destacamento exceeds 24 months, standard art. 12 no longer fits: a request for an exceptional agreement under art. 16 is usually needed, and approval is not guaranteed.”',
+          'If the dates, country, or facts of the posting change, the employer must request an amendment or a new A1 in advance. If the total period of the same destacamento exceeds 24 months, standard art. 12 no longer fits: a request for an exceptional agreement under art. 16 is usually needed, and approval is not guaranteed',
           'Salary continues to be declared to Segurança Social in Portugal',
           'IRS and tax residence are assessed separately from A1',
           'It is better to cover medical care during the trip with EHIC/CESD and work insurance, because A1 is not health insurance'
@@ -109,7 +110,7 @@ export default {
   ],
   costs: [
     { label: 'A1 request in Segurança Social Direta', amountEUR: 0, note: 'No state fee is charged for a standard pedido de destacamento.' },
-    { label: 'Fines for absence of local posted worker registration', amountEURMin: 0, amountEURMax: 10000, note: 'These depend on the destination country and the breach; this is not a Portuguese fee, but a risk in the host country.' }
+    { label: 'Fines for absence of local posted worker registration', amountEURMin: 0, amountEURMax: 10000, note: 'These depend on the destination country, the number of workers, and the nature of the breach; this is not a Portuguese fee, but a risk in the host country. The 10,000 EUR figure is only a typical guide for a single missing notification: in some countries fines are calculated per worker and the total can substantially exceed this amount. Check the posted workers portal of the destination country.' }
   ],
   sources: [
     {
@@ -134,6 +135,13 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'EUR-Lex: Regulation (EU) No 1231/2010 — extension to third-country nationals',
+      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R1231',
+      kind: 'law',
+      language: 'en',
+      lastRetrieved: '2026-05-31'
+    },
+    {
       title: 'Your Europe: Form A1 — certificate of social security coverage',
       url: 'https://europa.eu/youreurope/citizens/work/social-security-forms/contact_points_pd_a1.pdf',
       kind: 'official',
@@ -141,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

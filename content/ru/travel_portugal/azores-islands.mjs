@@ -11,7 +11,7 @@ export default {
       id: 'overview',
       title: 'Об архипелаге',
       content: [
-        { kind: 'paragraph', text: 'Азорские острова — автономный регион Португалии. 9 островов вулканического происхождения, разделены на 3 группы: восточная (São Miguel, Santa Maria), центральная (Terceira, Graciosa, São Jorge, Pico, Faial), западная (Flores, Corvo)\.\n\nОбщая площадь 2333 км².' },
+        { kind: 'paragraph', text: 'Азорские острова — автономный регион Португалии. 9 островов вулканического происхождения, разделены на 3 группы: восточная (São Miguel, Santa Maria), центральная (Terceira, Graciosa, São Jorge, Pico, Faial), западная (Flores, Corvo).\n\nОбщая площадь 2333 км².' },
         { kind: 'paragraph', text: 'Климат мягкий субтропический (+14-24°C круглый год), но переменчивый: «может быть 4 сезона в один день». Много зелени, озёра, водопады.' }
       ]
     },
@@ -24,7 +24,7 @@ export default {
           '🌋 Lagoa das Sete Cidades — кратер с синим и зелёным озёрами. Miradouro da Vista do Rei',
           '♨️ Furnas — долина с горячими источниками. Cozido das Furnas — мясо готовят в вулкане 6 часов',
           '💧 Caldeira Velha — термальные бассейны в тропическом лесу',
-          '🌋 Lagoa do Fogo — кратерное озеро на 575 м. Пешие тропы',
+          '🌋 Lagoa do Fogo — кратерное озеро на высоте 575 м. Пешие тропы',
           '🐳 Наблюдение за китами — апрель-октябрь (кашалоты, синий кит, дельфины). Тур 50-80 €',
           '🌊 Praia Santa Bárbara — чёрный песок, место для серфинга',
           '🍍 Plantação de Ananases — плантации ананасов в теплицах, традиция XIX в.',
@@ -64,10 +64,10 @@ export default {
             { kind: 'paragraph', text: 'Самый западный, 50+ водопадов, нетронутая природа, гортензии.' }
           ]},
           { id: 'o5', title: 'Santa Maria', content: [
-            { kind: 'paragraph', text: 'Самый старый остров (8.2 млн лет), красный песок — редкость на Азорах. Фестиваль Santa Maria каждые 5 лет.' }
+            { kind: 'paragraph', text: 'Самый старый остров (8,2 млн лет), красный песок — редкость на Азорах. Фестиваль Santa Maria каждые 5 лет.' }
           ]},
           { id: 'o6', title: 'Graciosa', content: [
-            { kind: 'paragraph', text: 'Биосферный резерват UNESCO. Главная особенность — самый сухой остров. Furna do Enxofre — пещера с сернистым озером.' }
+            { kind: 'paragraph', text: 'Биосферный резерват UNESCO. Самый сухой остров архипелага. Furna do Enxofre — пещера с сернистым озером.' }
           ]},
           { id: 'o7', title: 'Corvo', content: [
             { kind: 'paragraph', text: 'Наименьший остров (17 км²), 400 жителей. Caldeirão — гигантский кратер.' }
@@ -146,6 +146,6 @@ export default {
     { title: 'Atlânticoline — паромы', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Parques Naturais dos Açores', url: 'https://parquesnaturais.azores.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

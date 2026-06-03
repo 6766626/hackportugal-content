@@ -21,7 +21,7 @@ export default {
       title: 'Who can apply',
       content: [
         { kind: 'checklist', items: [
-          'Age: if the aviso is marked as jovem empreendedor, it is usually checked that the founder/controlling socios are under 35 on the application date; the exact wording is in the aviso.',
+          'Age: if the aviso is marked as jovem empreendedor, it usually uses the “até 35 anos” formula — typically up to and including 35 (i.e. until the 36th birthday) for the founder/controlling socios on the application date; the exact cut-off and the reference date are in the aviso itself.',
           'The business must be in Portugal: ENI/empresário em nome individual or sociedade with NIPC, sede/estabelecimento in PT.',
           'An expat can participate if they have the right to work/run a business in Portugal: residence permit, visa with permission for the activity, EU residence, or another lawful status.',
           'A NIF is mandatory; for a company — certidão permanente, CAE, company IBAN, contabilidade organizada where required.',
@@ -114,7 +114,7 @@ export default {
           'Day 14–20: gather 2–3 orçamento from independent suppliers for Vale Empreendedorismo/Vales.',
           'Day 20–25: prepare the business plan and financial model; translate key materials into Portuguese.',
           'Day 25–30: register in Balcão dos Fundos, set up company representation and subscribe to COMPETE 2030 avisos.',
-          'In parallel: keep a reserve for your own share of expenses and VAT — IVA is often paid immediately, even if part of the expense is later reimbursed.'
+          'In parallel: keep a reserve for your own share of expenses and IVA. Important: recoverable IVA is usually not eligible — if the company can deduct/recover it, it is not reimbursed by the grant. Non-recoverable IVA can be eligible only where the aviso expressly allows it.'
         ] }
       ]
     }
@@ -131,6 +131,6 @@ export default {
     { title: 'Balcão dos Fundos — submitting Portugal 2030 candidaturas', url: 'https://balcaofundosue.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'European Commission — de minimis aid rules 2024–2030', url: 'https://competition-policy.ec.europa.eu/state-aid/legislation/regulations/de-minimis-regulation_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'rnal-2026-mudancas',
   categoryId: 'housing_rent',
   title: 'RNAL — Registo Nacional de Alojamento Local: изменения 2026',
-  tldr: 'В 2026 AL снова регулируется в основном через DL 128/2014 с изменениями DL 76/2024: национальная «заморозка» новых apartamentos и автоматическое истечение регистраций из Mais Habitação отменены, но Câmara Municipal может вводить zonas de contenção и лимиты. Write: "Любой AL обязан иметь действительный RNAL-номер и указывать его в объявлениях. Отдельно, при размещении иностранных гостей, действуют обязанности по boletins de alojamento через соответствующую систему безопасности/AIMA; налоговые обязанности выполняются через Finanças." Remove "MARGEM" unless you explain exactly what system you mean and cite an official source. За нелегальный AL штраф: физлица до 4 000 €, компании 25 000–40 000 €. Доход обычно идёт в IRS categoria B.',
+  tldr: 'В 2026 AL снова регулируется в основном через DL 128/2014 с изменениями DL 76/2024: национальная «заморозка» новых apartamentos и автоматическое истечение регистраций из Mais Habitação отменены, но Câmara Municipal может вводить zonas de contenção и лимиты. Любой AL обязан иметь действительный RNAL-номер и указывать его в объявлениях. Отдельно, при размещении иностранных гостей, действуют обязанности по boletins de alojamento через соответствующую систему безопасности/AIMA; налоговые обязанности выполняются через Finanças. За нелегальный AL штраф: физлица до 4 000 €, компании 25 000–40 000 €. Доход обычно идёт в IRS categoria B.',
   tags: ['rnal', 'al', 'аренда', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -25,7 +25,7 @@ export default {
           'Тип AL: apartamento, moradia, quartos, estabelecimento de hospedagem или hostel — от этого зависят требования.',
           'Право использовать объект: собственность, договор аренды или договор эксплуатации должны прямо позволять Alojamento Local.',
           'Если вы арендатор, нужен письменный договор с locador/senhorio, разрешающий AL; обычный contrato de arrendamento для жилья сам по себе не даёт права сдавать туристам.',
-          'Add: "Для apartamento в prédio em propriedade horizontal проверьте título constitutivo и regulamento do condomínio: если они запрещают AL/uses incompatible with AL, регистрация может быть оспорена. Даже после регистрации assembleia de condóminos может, в предусмотренных законом случаях, pedir ao presidente da Câmara o cancelamento do registo, especially for repeated nuisance or disturbance."',
+          'Для apartamento в prédio em propriedade horizontal проверьте título constitutivo и regulamento do condomínio: если они запрещают AL или несовместимое использование, регистрация может быть оспорена. После DL 76/2024 предварительное согласие condomínio для регистрации обычно не требуется (кроме hostels), но assembleia de condóminos может в предусмотренных законом случаях — при повторных доказанных нарушениях покоя — обратиться к presidente da Câmara, который вправе запретить эксплуатацию AL на срок до 5 лет.',
           'Segurança: огнетушитель, аптечка, аварийная информация, правила эвакуации и контакты 112.',
           'Livro de reclamações físico и eletrónico: для AL обязателен доступ к книге жалоб.',
           'Seguro de responsabilidade civil: обязателен для эксплуатации AL; отсутствие страховки может привести к отмене регистрации.',
@@ -37,7 +37,7 @@ export default {
       id: 'register-rnal',
       title: 'Как получить RNAL-номер',
       content: [
-        { kind: 'paragraph', text: 'Регистрация AL — это comunicação prévia com prazo в Câmara Municipal через Balcão do Empreendedor/SIBA. Write: "Регистрация подаётся как comunicação prévia com prazo через Balcão do Empreendedor. Номер/запись RNAL не означает, что можно сразу принимать гостей: нужно дождаться истечения применимого срока без oposição da Câmara, если муниципальные правила не требуют иного; Câmara может проверять документы и проводить vistoria."' },
+        { kind: 'paragraph', text: 'Регистрация AL подаётся как comunicação prévia com prazo в Câmara Municipal через Balcão do Empreendedor/SIBA. Номер/запись RNAL не означает, что можно сразу принимать гостей: нужно дождаться истечения применимого срока без oposição da Câmara, если муниципальные правила не требуют иного; Câmara может проверять документы и проводить vistoria.' },
         { kind: 'checklist', items: [
           'Зайдите через ePortugal/Balcão do Empreendedor или канал, указанный Câmara Municipal.',
           'Укажите titular da exploração: физлицо или компания, NIF/NIPC, адрес, контакты.',
@@ -48,7 +48,7 @@ export default {
           'После получения номера проверьте, что объект виден на rnal.turismodeportugal.pt.',
           'Разместите RNAL-номер во всех объявлениях: Airbnb, Booking, собственный сайт, Google, соцсети.'
         ] },
-        { kind: 'warning', text: 'SIBA/MARGEM/RNAL в 2026 продолжают использоваться для регистрации и актуализации данных. Если меняется titular, адрес, capacity, modalidade, название или право пользования объектом — обновляйте запись, а не просто меняйте объявление на платформе.' }
+        { kind: 'warning', text: 'SIBA/RNAL в 2026 продолжают использоваться для регистрации и актуализации данных. Если меняется titular, адрес, capacity, modalidade, название или право пользования объектом — обновляйте запись, а не просто меняйте объявление на платформе.' }
       ]
     },
     {
@@ -74,14 +74,14 @@ export default {
       id: 'fines-and-tax',
       title: 'Штрафы и IRS в 2026',
       content: [
-        { kind: 'paragraph', text: 'Separate them: "Exploração de AL sem registo válido é contraordenação muito grave: pessoas singulares 2 500–4 000 €, pessoas coletivas 25 000–40 000 €. Falhas de publicidade/identificação, como omitir o número de registo no anúncio, também são sancionáveis, mas devem ser tratadas separadamente conforme o artigo de contraordenações aplicável." Дополнительно возможны закрытие объекта, отмена регистрации и санкции от Câmara.' },
+        { kind: 'paragraph', text: 'Различайте два вида нарушений. Эксплуатация AL без действительной регистрации — contraordenação muito grave: для физлиц 2 500–4 000 €, для компаний 25 000–40 000 €. Нарушения по рекламе/идентификации (например, отсутствие номера регистрации в объявлении) тоже наказуемы, но идут по отдельной статье contraordenações. Дополнительно возможны закрытие объекта, отмена регистрации и санкции от Câmara.' },
         { kind: 'paragraph', text: 'Налогово AL обычно считается предпринимательским доходом IRS categoria B, а не обычной долгосрочной арендой categoria F. В regime simplificado налогооблагаемая база зависит от вида AL: для apartamentos/moradias часто применяется коэффициент 0,35 к валовой выручке; для некоторых hospedagem — иной коэффициент. При больших расходах может быть выгодна contabilidade organizada.' },
         { kind: 'checklist', items: [
           'Откройте atividade в Finanças до начала приёма гостей.',
           'Выставляйте faturas-recibos или используйте сертифицированную систему, если требуется.',
           'Проверьте IVA: малый бизнес может применять освобождение art. 53 CIVA при обороте до 15 000 €, но туристические услуги и платформы требуют отдельной проверки.',
           'Комиссии Airbnb/Booking не отменяют обязанность декларировать полную выручку.',
-          'Если вы нерезидент Portugal tax resident, проверьте retenção na fonte, соглашение об избежании двойного налогообложения и представителя.',
+          'Если вы налоговый нерезидент Португалии, проверьте retenção na fonte, соглашение об избежании двойного налогообложения и требование о налоговом представителе.',
           'Муниципалитет может взимать taxa turística: например, в Lisboa и Porto она собирается с гостя и декларируется отдельно.',
           'Если собственник просто сдаёт объект оператору AL по долгосрочному договору, у собственника может быть IRS categoria F, а у оператора — categoria B/IRC.'
         ] },
@@ -118,6 +118,6 @@ export default {
     { title: 'Decreto-Lei 128/2014 — regime jurídico da exploração dos estabelecimentos de alojamento local', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2014-70686104', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 76/2024 — изменения режима Alojamento Local после Mais Habitação', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-895143934', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'barcos-cacilhas-trafaria',
   categoryId: 'public_transport',
   title: 'Lisbon ferries: Cacilhas, Trafaria, Seixal, Montijo, Barreiro',
-  tldr: 'Transtejo & Soflusa ferries are a quick way to cross the Tejo without the bridge or traffic jams. Main routes: Cais do Sodré–Cacilhas, Cais do Sodré–Seixal, Cais do Sodré–Montijo, Belém–Porto Brandão–Trafaria and Terreiro do Paço–Barreiro. In 2026, single tickets usually cost around €1.45–€3.15, zapping is slightly cheaper, and the Navegante Metropolitano pass for €40/month covers all these routes. Best choice for Almada/Cacilhas and Barreiro; for Pragal/Setúbal, Fertagus is often faster.',
+  tldr: 'Transtejo & Soflusa ferries are a quick way to cross the Tejo without the bridge or traffic jams. Main routes: Cais do Sodré–Cacilhas, Cais do Sodré–Seixal, Cais do Sodré–Montijo, Belém–Porto Brandão–Trafaria and Terreiro do Paço–Barreiro. In 2026, single tickets usually cost around €1.50–€3.25, zapping is sometimes slightly cheaper, and the Navegante Metropolitano pass for €40/month covers all these routes. Best choice for Almada/Cacilhas and Barreiro; for Pragal/Setúbal, Fertagus is often faster.',
   tags: ['ferries', 'navegante', 'cacilhas', 'trafaria'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,12 +32,13 @@ export default {
         { kind: 'checklist', items: [
           'Passe Navegante Metropolitano: €40/month — covers the Lisbon Metropolitan Area, including Transtejo/Soflusa ferries, Metro, Carris, CP Urbanos, Fertagus within the AML zone and Carris Metropolitana.',
           'Passe Navegante Municipal: €30/month — for journeys within one município; before buying, check whether it covers your route.',
-          'Zapping on the cartão Navegante — convenient for occasional trips; the fare deducted is usually cheaper than a paper/single ticket.',
+          'Zapping on the cartão Navegante — convenient for occasional trips; on some routes the fare deducted is cheaper than a single ticket.',
           'A single ticket is bought from a machine or at the terminal ticket office; it is valid on the specific river route, not as a full transfer to Metro.',
-          'For Cais do Sodré ⇄ Cacilhas, the single-fare benchmark is around €1.50.',
-          'For Belém ⇄ Porto Brandão/Trafaria, the benchmark is around €1.45.',
-          'For Seixal and Barreiro, the benchmark is around €2.80.',
-          'For Montijo, the benchmark is around €3.15.',
+          'For Cais do Sodré ⇄ Cacilhas, the benchmark is around €2.00 for a single ticket and around €1.60 with zapping.',
+          'For Belém ⇄ Porto Brandão/Trafaria, the benchmark is around €1.50.',
+          'For Cais do Sodré ⇄ Seixal, the benchmark is around €2.85.',
+          'For Terreiro do Paço ⇄ Barreiro, the benchmark is around €2.95.',
+          'For Cais do Sodré ⇄ Montijo, the benchmark is around €3.25.',
           'Child, school, sub23 and senior fares depend on status and the Navegante profile setup; without a profile, the validator will deduct the standard fare.'
         ] },
         { kind: 'warning', text: 'Do not confuse passe and zapping. If the card has a monthly Navegante Metropolitano, the journey is covered. If there is no monthly passe, the card must have a positive zapping balance or a separate ticket. Ticket inspectors are regularly seen on the ferries.' }
@@ -100,16 +101,17 @@ export default {
   costs: [
     { label: 'Passe Navegante Metropolitano', amountEUR: 40, note: 'Monthly pass for the AML; covers Transtejo/Soflusa and most urban transport.' },
     { label: 'Passe Navegante Municipal', amountEUR: 30, note: 'Monthly pass within one município; usually insufficient for crossing the Tejo.' },
-    { label: 'Single ticket Cais do Sodré ⇄ Cacilhas', amountEUR: 1.5, note: '2026 fare benchmark; zapping is usually slightly cheaper.' },
-    { label: 'Single ticket Belém ⇄ Porto Brandão/Trafaria', amountEUR: 1.45, note: '2026 fare benchmark; check the current TTSL tabela tarifária.' },
-    { label: 'Single ticket Seixal or Barreiro', amountEUR: 2.8, note: 'Benchmark for Cais do Sodré–Seixal and Terreiro do Paço–Barreiro.' },
-    { label: 'Single ticket Cais do Sodré ⇄ Montijo', amountEUR: 3.15, note: '2026 fare benchmark; zapping is usually cheaper than a single ticket.' }
+    { label: 'Single ticket Cais do Sodré ⇄ Cacilhas', amountEUR: 2.0, note: '2026 fare benchmark; zapping on this route is around €1.60.' },
+    { label: 'Single ticket Belém ⇄ Porto Brandão/Trafaria', amountEUR: 1.5, note: '2026 fare benchmark; check the current TTSL tabela tarifária.' },
+    { label: 'Single ticket Cais do Sodré ⇄ Seixal', amountEUR: 2.85, note: '2026 fare benchmark; check the current TTSL tabela tarifária.' },
+    { label: 'Single ticket Terreiro do Paço ⇄ Barreiro', amountEUR: 2.95, note: '2026 fare benchmark; check the current TTSL tabela tarifária.' },
+    { label: 'Single ticket Cais do Sodré ⇄ Montijo', amountEUR: 3.25, note: '2026 fare benchmark; check the current TTSL tabela tarifária.' }
   ],
   sources: [
     { title: 'TTSL — horários, tarifas and Transtejo/Soflusa avisos', url: 'https://ttsl.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transtejo — institutional information and river links', url: 'https://www.transtejo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Navegante — passes and fares for the Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

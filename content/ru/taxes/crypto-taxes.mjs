@@ -18,7 +18,7 @@ export default {
               'Декларируется в IRS Anexo G (Mais-Valias) по актуальным códigos/instruções соответствующего года',
               'Прибыль = цена реализации − цена приобретения − комиссии',
               'Убытки учитываются только по правилам Categoria G; перенос обычно требует выбора englobamento и условий CIRS — проверить при заполнении Modelo 3',
-              'Касается обычных fungible cryptoassets. NFT, security tokens, деривативы, CFD, futures/options — отдельная классификация, могут не подпадать под 365-day exemption'
+              'Касается обычных взаимозаменяемых криптоактивов. NFT, security tokens, деривативы, CFD, фьючерсы/опционы — отдельная классификация, могут не подпадать под 365-day exemption'
             ]}
           ]},
           { id: 'r2', title: '📅 Долгосрочная продажа (≥365 дней)', content: [
@@ -41,10 +41,10 @@ export default {
           ]},
           { id: 'r4', title: '💰 Стейкинг / кредитование / майнинг', content: [
             { kind: 'checklist', items: [
-              'Staking/lending rewards: обычно Categoria E, ставка 28% как autonomous taxation, с опцией englobamento. Если reward выплачен в crypto — налоговый момент может откладываться до disposal (проверить специальные правила)',
-              'Mining/validation: при organized/professional activity — обычно Categoria B, не Categoria E',
+              'Вознаграждения за стейкинг/кредитование: обычно Categoria E, ставка 28% как autonomous taxation, с опцией englobamento. Если вознаграждение выплачено в криптовалюте — налоговый момент может откладываться до реализации (проверить специальные правила)',
+              'Mining/validation: при организованной/профессиональной деятельности — обычно Categoria B, не Categoria E',
               'Airdrops: не облагаются при получении; налог при продаже',
-              'DeFi yield farming: классифицировать по механике (lending interest / liquidity mining / governance rewards). Для passive — может быть Categoria E; для выплат в crypto проверять момент taxation и valuation. Для сложных DeFi-протоколов — получить мнение contabilista/AT'
+              'DeFi yield farming: классифицировать по механике (lending interest / liquidity mining / governance rewards). Для пассивного дохода — может быть Categoria E; для выплат в криптовалюте проверять момент taxation и valuation. Для сложных DeFi-протоколов — получить мнение contabilista/AT'
             ]}
           ]}
         ]}
@@ -74,7 +74,7 @@ export default {
             ]}
           ]},
           { id: 'd3', title: 'Стейкинг в Anexo E', content: [
-            { kind: 'paragraph', text: 'Отдельно от Anexo G. Используйте актуальный Anexo E/инструкции Modelo 3. Если reward получен в fiat — декларируется сумма в EUR на дату получения; если reward получен в crypto — применяются специальные правила valuation/taxation, возможна отсрочка до disposal.' }
+            { kind: 'paragraph', text: 'Отдельно от Anexo G. Используйте актуальный Anexo E / инструкции Modelo 3. Если вознаграждение получено в фиате — декларируется сумма в EUR на дату получения; если вознаграждение получено в криптовалюте — применяются специальные правила valuation/taxation, возможна отсрочка до реализации.' }
           ]}
         ]}
       ]
@@ -145,6 +145,6 @@ export default {
     { title: 'OE 2023 — введение режима', url: 'https://diariodarepublica.pt/dr/detalhe/lei/24-d-2022-203934281', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Koinly — налоговые отчёты для PT', url: 'https://koinly.io/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

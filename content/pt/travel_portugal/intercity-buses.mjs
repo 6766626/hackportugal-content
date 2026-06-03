@@ -76,7 +76,7 @@ export default {
           'Nos serviços de longa distância, normalmente há casa de banho',
           'Os autocarros ao fim da noite e noturnos ajudam a poupar numa noite de alojamento',
           'Sete Rios, em Lisboa, é o terminal principal. Oriente também tem alguns serviços',
-          'No Porto — Campanhã e Rodoviária Campanhã'
+          'No Porto — Terminal Intermodal de Campanhã (TIC), junto à estação de comboios e metro de Campanhã'
         ]}
       ]
     }
@@ -86,6 +86,6 @@ export default {
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Rede Expressos — informação do operador', url: 'https://rede-expressos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

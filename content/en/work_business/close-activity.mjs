@@ -36,7 +36,7 @@ export default {
               'Period: quarter / month in which the cessação occurred',
               'Deadline: under the usual rules for the IVA period — the return is usually due by the 20th day of the second month after the month/quarter, payment by the 25th (CIVA arts. 27, 41)',
               'If IVA is payable (you owe AT) — pay it',
-              'Replace with: “If there is crédito de IVA, you can request a reembolso in the final/periodic declaration subject to the CIVA conditions; the timeframe depends on AT checks and is not guaranteed as 30–60 days.”'
+              'If there is crédito de IVA, you can request a reembolso in the final/periodic return subject to the CIVA conditions; the timeframe depends on AT checks and is not guaranteed (do not count on a fixed 30–60 days)'
             ]}
           ]},
           { id: 'c4', title: '4. Final IRS', content: [
@@ -68,7 +68,7 @@ export default {
           'Reabertura atividade — possible at any time via Portal das Finanças',
           'Frequent openings/closures without a real reason may raise questions from AT/SS, so keep evidence of actual activity and the reasons for cessação/reabertura',
           'In practice it is better to leave a noticeable interval between closure and reopening, unless it is a forced measure',
-          'Replace with: “On reabertura, Segurança Social rules depend on the previous enquadramento and the break. Do not automatically count on a new 12 months without contributions; check Segurança Social Direta or request confirmation from SS/a contabilista.”'
+          'On reabertura, Segurança Social rules depend on the previous enquadramento and the length of the break. Do not automatically count on a new 12 months without contributions — check Segurança Social Direta or request confirmation from SS or a contabilista'
         ]}
       ]
     },
@@ -82,7 +82,7 @@ export default {
             { kind: 'checklist', items: [
               'Sócios (shareholders/partners) adopt a resolution at the Assembleia Geral',
               'Filing with the Conservatória Comercial — registration of dissolução',
-              'Replace with: “Publication of the registration act is carried out electronically through the official commercial acts publications portal / IRN after registration at the Conservatória Comercial.”',
+              'Publication of the registration act is carried out electronically through the official commercial acts publications portal (IRN) after registration at the Conservatória Comercial',
               'Cost: €100-200'
             ]}
           ]},
@@ -100,17 +100,17 @@ export default {
           { id: 'l3', title: 'Stage 3: Registo encerramento', content: [
             { kind: 'checklist', items: [
               'Final registration at the Conservatória Comercial',
-              'Add a separate point: “After cessação/encerramento the accountant files the final returns: declaração de cessação, Modelo 22 IRC within the special deadline after cessation, IES/DA within the special deadline, final IVA and retenções na fonte, if applicable.”',
+              'After cessação/encerramento the accountant files the final returns: declaração de cessação, Modelo 22 IRC within the special deadline after cessation, IES/DA within the special deadline, final IVA and retenções na fonte, if applicable',
               'Notification to Segurança Social of cessation',
               'Keep accounting documents for 5 years (by law)',
               'Certidão de encerramento — the company is officially closed'
             ]}
           ]},
-          { id: 'l4', title: 'Rename the block to: “Dissolução e liquidação imediata / extinção imediata de entidade comercial” and state that the procedure is possible with the unanimous decision of the participants and the absence of assets and liabilities to be liquidated.', content: [
+          { id: 'l4', title: 'Dissolução e liquidação imediata (fast-track option)', content: [
             { kind: 'checklist', items: [
               '“Empresa na Hora” dissolução — in one day at the Conservatória',
               'Only for simple cases: no outstanding debts, liabilities to AT, assets',
-              'Replace with: “State fee according to the IRN/RERN table; for immediate dissolução/liquidação people usually estimate around €300, but before filing you need to check the current IRN emolumentos.”',
+              'State fee according to the IRN/RERN emolumentos table; for immediate dissolução/liquidação the figure is around €300, but check the current IRN tariff before filing',
               'Suitable for ~40% of companies'
             ]}
           ]}
@@ -123,8 +123,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Bankruptcy → through court',
-          'Replace with: “PER — a recovery/creditor negotiation procedure for companies in financial difficulty or imminent insolvency; this is not liquidation bankruptcy.”',
-          'Remove PEVE from the current list or write: “PEVE was a temporary COVID procedure and in 2026 is not a standard option; for restructuring people usually look at PER/RERE, for liquidation — insolvência.”',
+          'PER (processo especial de revitalização) — a recovery and creditor-negotiation procedure for companies in financial difficulty or facing imminent insolvency; this is not liquidation bankruptcy',
+          'PEVE was a temporary COVID procedure (in force until 30 June 2023) and in 2026 is not a standard option; for restructuring people usually look at PER/RERE, for liquidation — insolvência',
           'Full insolvência with liquidation — 1-3 years, the court appoints an administrador',
           'For sócios: personal liability only if there is subsidiary liability, fraud or personal guarantees',
           'Unipessoal Lda — sócio is protected (limited liability)',
@@ -146,13 +146,13 @@ export default {
               'Final IRS/IRC submitted',
               'Final IES (for Lda) submitted',
               'Segurança Social contributions paid',
-              'Replace with: “After paying debts, taxes and approving the liquidation balance sheet, distribute the remainder among sócios according to liquidation rules and close the company bank account.”',
+              'After paying debts, taxes and approving the liquidation balance sheet, distribute the remainder among sócios according to liquidation rules and close the company bank account',
               'Cancel subscriptions (software, domains, hosting)'
             ]}
           ]},
           { id: 'f2', title: 'Legal', content: [
             { kind: 'checklist', items: [
-              'Replace the example with: “real estate/mediação imobiliária — IMPIC; insurance — ASF; turismo/animação turística — Turismo de Portugal, etc.”',
+              'Cancel or transfer sector licences with the relevant regulator: real estate/mediação imobiliária — IMPIC; insurance — ASF; turismo/animação turística — Turismo de Portugal, etc.',
               'Cancel registered trade marks (or transfer them)',
               'Revoke delegated access in Portal das Finanças for the former accountant',
               'Hand over archive documents (keep for 5 years)',
@@ -176,7 +176,7 @@ export default {
   costs: [
     { label: 'Cessação atividade (sole trader)', amountEUR: 0, note: 'free via Portal das Finanças' },
     { label: 'Final returns (if through an accountant)', amountEURMin: 100, amountEURMax: 300 },
-    { label: 'Simplified dissolução (Empresa na Hora)', amountEUR: 360 },
+    { label: 'Dissolução e liquidação imediata (Empresa na Hora)', amountEUR: 300, note: 'IRN emolumento, including registration' },
     { label: 'Closing a Unipessoal (with liquidation)', amountEURMin: 500, amountEURMax: 1000 },
     { label: 'Medium Lda (full process)', amountEURMin: 1500, amountEURMax: 5000 },
     { label: 'Insolvência (bankruptcy) through court', amountEURMin: 1000, amountEURMax: 5000 }
@@ -186,6 +186,6 @@ export default {
     { title: 'IRN — Conservatória Comercial', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Insolvency Code (CIRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2004-34453275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

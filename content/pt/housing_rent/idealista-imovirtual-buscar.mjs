@@ -69,8 +69,8 @@ export default {
           'NIF — é quase sempre necessário para o contrato e recibos de renda.',
           'Comprovativo de rendimentos: contrato de trabalho, últimos recibos de vencimento, declaração IRS, recibos verdes, declaração bancária.',
           'Fiador — garante em Portugal; é frequentemente exigido a estudantes, recém-chegados e pessoas sem rendimento local.',
-          'Escrever: «Caução — depósito/garantia de cumprimento das obrigações; por lei, para arrendamento habitacional, está limitada a um valor até 2 rendas mensais. Se pedirem mais — é motivo para negociar e verificar a legalidade da cláusula».',
-          'Escrever: «Rendas adiantadas — renda paga antecipadamente; por lei, a antecipação de renda não pode exceder 2 meses. Na prática, podem pedir 1–2 meses, mas a exigência de um adiantamento maior é uma bandeira vermelha/matéria para verificação jurídica».',
+          'Caução — depósito/garantia de cumprimento das obrigações; por lei, para arrendamento habitacional, está limitada a um valor até 2 rendas mensais. Se pedirem mais, é motivo para negociar e verificar a legalidade da cláusula.',
+          'Rendas adiantadas — renda paga antecipadamente; por lei, a antecipação de renda não pode exceder 2 meses. Na prática, podem pedir 1–2 meses, mas a exigência de um adiantamento maior é uma bandeira vermelha e matéria para verificação jurídica.',
           'Contrato de arrendamento — deve conter o imóvel, prazo, preço, NIF das partes, condições de rescisão e assinaturas.',
           'Recibos de renda — recibos electrónicos através do Portal das Finanças; são necessários para o IRS e para comprovar o arrendamento legal.',
           'Licença de utilização ou confirmação de que a habitação é legal para residência; especialmente importante para edifícios antigos e anexos.'
@@ -108,7 +108,7 @@ export default {
           'Verifique a humidade: cheiro a mofo, manchas junto às janelas, paredes frias, ausência de aquecimento.',
           'Confirme despesas: condomínio, IMI normalmente é pago pelo proprietário, mas serviços/utility bills — pelo arrendatário.',
           'Registe o estado do apartamento com fotos/vídeo no dia da entrega das chaves e envie ao proprietário por escrito.',
-          'Substituir por: «A indexação das rendas em 2026 orienta-se pelo coeficiente 1,0224, ou seja, 2,24%, se o contrato permitir a actualização anual nos termos da lei e o landlord tiver notificado o arrendatário dentro do procedimento estabelecido».',
+          'A indexação das rendas em 2026 orienta-se pelo coeficiente 1,0224, ou seja, 2,24%, se o contrato permitir a actualização anual nos termos da lei e o proprietário tiver notificado o arrendatário dentro do procedimento estabelecido.',
           'Se precisar de atestado de residência, SNS, escola ou documentos NHR/IFICI, o arrendamento ilegal sem contrato criará problemas.'
         ] },
         { kind: 'paragraph', text: 'Não tenha receio de negociar, mas em imóveis muito procurados a negociação perde muitas vezes para a rapidez. Uma posição negocial mais realista é propor um prazo estável, documentos transparentes, uma data de entrada rápida e uma caução normal, em vez de tentar baixar o preço em 10–15%.' }
@@ -126,6 +126,6 @@ export default {
     { title: 'Portal das Finanças — recibos de renda electrónicos', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — regime do arrendamento urbano e actualização de rendas', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

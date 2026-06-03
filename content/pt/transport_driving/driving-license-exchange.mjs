@@ -29,7 +29,7 @@ export default {
       id: 'deadline',
       title: 'Prazo',
       content: [
-        { kind: 'warning', text: 'Pelo Decreto-Lei 138/2012, as regras dependem do país de emissão. Se a carta for elegível para troca, o pedido normalmente deve ser feito após a fixação da residência dentro dos prazos estabelecidos; até 2 anos a contar da data de residência, a troca é possível sem exame para países com regime reconhecido, após 2 anos podem exigir exame prático. Para CPLP/OCDE, as condições são muitas vezes simplificadas. Para ucranianos com Proteção Temporária — validade durante todo o período de protecção (até 04.03.2027, ao abrigo do Regulamento EU 2022/1280).' }
+        { kind: 'warning', text: 'Pelo Decreto-Lei 138/2012, as regras dependem do país de emissão. Se a carta for elegível para troca, o pedido normalmente deve ser feito após a fixação da residência dentro dos prazos estabelecidos; até 2 anos a contar da data de residência, a troca é possível sem exame para países com regime reconhecido, após 2 anos podem exigir exame prático. Para CPLP/OCDE, as condições são muitas vezes simplificadas. Para ucranianos com Proteção Temporária — validade durante todo o período de protecção (até 04.03.2027; base — Decisão de Execução (UE) 2022/382 do Conselho, ao abrigo da Diretiva de Proteção Temporária 2001/55/CE, prorrogada até essa data).' }
       ]
     },
     {
@@ -55,7 +55,7 @@ export default {
             { kind: 'paragraph', text: 'Numa clínica acreditada pelo IMT. Verificam a visão, audição e estado geral de saúde. Emitem o "Atestado de Aptidão Física e Psíquica". Validade — 6 meses.' }
           ]},
           { id: 'p2', title: '2. Apresentar o pedido no IMT', content: [
-            { kind: 'paragraph', text: 'Online através de portal.imt-ip.pt ou presencialmente num centro de exames do IMT. Taxa ~30 €.' }
+            { kind: 'paragraph', text: 'Desde 21 de janeiro de 2026, o pedido de troca é feito exclusivamente online, através do portal.imt-ip.pt (é necessário criar conta). Uma deslocação presencial a um centro do IMT pode ser necessária mais tarde, para biometria ou exame. Taxa ~30 €.' }
           ]},
           { id: 'p3', title: '3. Se houver acordo — aguardar', content: [
             { kind: 'timeline', text: '60-120 dias. No fim — convite para levantar o novo cartão ou recepção por correio.' }
@@ -85,6 +85,6 @@ export default {
     { title: 'IMT — Troca de Carta de Condução (carta de condução)', url: 'https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Trocar Carta de Condução', url: 'https://www.gov.pt/cidadaos/-/informacoes/trocar-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

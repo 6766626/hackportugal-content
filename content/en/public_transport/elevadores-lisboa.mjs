@@ -3,7 +3,7 @@ export default {
   id: 'elevadores-lisboa',
   categoryId: 'public_transport',
   title: 'Lisbon lifts and funiculars: Bica, Glória, Lavra, Santa Justa',
-  tldr: 'Ascensor da Bica, Glória, Lavra and Elevador de Santa Justa are not museum attractions, but Carris lines. Navegante is valid on them: with a monthly Navegante Municipal for €30 or Metropolitano for €40, the journey is included at no extra cost. Single tickets from the driver are expensive: the funiculars are around €4.20 for 2 journeys, Santa Justa around €6.10 for ida e volta; zapping/a preloaded Navegante is usually better value. At peak times and at Santa Justa there are queues — it is often quicker to walk up.',
+  tldr: 'Important (May 2026): after the fatal Ascensor da Glória derailment on 3 September 2025, the funiculars were closed for inspections. The Elevador de Santa Justa is running now; Ascensor da Glória and Ascensor do Lavra remain closed, and Ascensor da Bica is expected to reopen by the start of summer — check the status on carris.pt. These are Carris lines, not museum attractions. Navegante is valid on them: with a monthly Navegante Municipal for €30 or Metropolitano for €40, the journey is included at no extra cost. Single tickets from the driver are expensive: the funiculars are around €4.20 for 2 journeys, Santa Justa around €6.10 for ida e volta; zapping/a preloaded Navegante is usually better value.',
   tags: ['carris', 'navegante', 'lifts', 'lisbon'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,8 @@ export default {
       title: 'What these lines are',
       content: [
         { kind: 'paragraph', text: 'In Lisbon, the word elevador can mean both a vertical lift and a rail funicular. All four lines in the centre are operated by Carris, so the payment rules are the same as on Carris buses and trams, with separate expensive onboard tickets for tourist routes.' },
-        { kind: 'checklist', items: ['Ascensor da Bica: Rua de São Paulo / Cais do Sodré ↔ Bairro Alto, one of the most photogenic climbs', 'Ascensor da Glória: Restauradores ↔ São Pedro de Alcântara / Bairro Alto, the most practical for going up from Baixa', 'Ascensor do Lavra: Largo da Anunciada ↔ Rua Câmara Pestana, the oldest and usually less touristy', 'Elevador de Santa Justa: Baixa ↔ Largo do Carmo / Chiado, a vertical lift with a view and a big queue', 'These are short lines: the journey takes about 2–5 minutes, but waiting at Santa Justa in summer can be 30–60 minutes'] }
+        { kind: 'warning', text: 'Status as of May 2026. After the fatal Ascensor da Glória derailment on 3 September 2025 (16 deaths), the city closed the funiculars for inspections. The Elevador de Santa Justa is running now. Ascensor da Glória and Ascensor do Lavra remain closed, and Ascensor da Bica is expected to reopen by the start of summer. Before travelling, check the service-changes section on carris.pt — the status may change.' },
+        { kind: 'checklist', items: ['Ascensor da Bica: Rua de São Paulo / Cais do Sodré ↔ Bairro Alto, one of the most photogenic climbs (closed as of May 2026, reopening expected by the start of summer)', 'Ascensor da Glória: Restauradores ↔ São Pedro de Alcântara / Bairro Alto, the most practical for going up from Baixa (closed as of May 2026 after the 2025 accident)', 'Ascensor do Lavra: Largo da Anunciada ↔ Rua Câmara Pestana, the oldest and usually less touristy (closed as of May 2026)', 'Elevador de Santa Justa: Baixa ↔ Largo do Carmo / Chiado, a vertical lift with a view and a big queue (running)', 'These are short lines: the journey takes about 2–5 minutes, but waiting at Santa Justa in summer can be 30–60 minutes'] }
       ]
     },
     {
@@ -38,7 +39,7 @@ export default {
       title: 'When it is better to walk',
       content: [
         { kind: 'paragraph', text: 'Funiculars are useful if you have a suitcase, a pushchair, after a long walk or if you live on a hill. But for a healthy adult it is often quicker to walk, especially when there is a queue of tourists by the carriage.' },
-        { kind: 'checklist', items: ['Santa Justa: to get up to Largo do Carmo, it is often quicker to enter on foot from the Chiado side or Rua do Carmo / Calçada do Sacramento', 'Glória: a good option uphill to Miradouro de São Pedro de Alcântara; downhill on foot is usually quicker', 'Bica: worth riding for the experience and photos, but at tourist peak times it can be quicker to walk via neighbouring streets', 'Lavra: the most practical if you need to go up to Campo Mártires da Pátria and do not want to walk up a steep slope', 'With a pushchair or wheelchair Santa Justa looks convenient, but queues and narrow approaches can spoil the route', 'After rain, lisboeta calçada is slippery: the funicular is safer than descending over polished cobbles'] }
+        { kind: 'checklist', items: ['Santa Justa: to get up to Largo do Carmo, it is often quicker to enter on foot from the Chiado side or Rua do Carmo / Calçada do Sacramento', 'Glória (once it reopens): a good option uphill to Miradouro de São Pedro de Alcântara; downhill on foot is usually quicker', 'Bica (once it reopens): worth riding for the experience and photos, but at tourist peak times it can be quicker to walk via neighbouring streets', 'Lavra (once it reopens): the most practical if you need to go up to Campo Mártires da Pátria and do not want to walk up a steep slope', 'With a pushchair or wheelchair Santa Justa looks convenient, but queues and narrow approaches can spoil the route', 'After rain, lisboeta calçada is slippery: the funicular is safer than descending over polished cobbles'] }
       ]
     },
     {
@@ -46,7 +47,7 @@ export default {
       title: 'Timing, queues and safety',
       content: [
         { kind: 'paragraph', text: 'These are central tourist lines, so the timetable matters less than the crowd. Carris publishes current horários and service alerts on its website and in apps; before travelling, check whether the line is stopped for maintenance.' },
-        { kind: 'checklist', items: ['The best time for Santa Justa is early morning or late evening, not in the middle of the day', 'On Glória and Bica, protect your phone: photos at the open window and a crowd at the entrance are a typical pickpocketing situation', 'Do not stand on the tracks for a photo: the carriages move slowly, but the streets are narrow and the driver’s visibility is limited', 'If the line is closed, look for a Carris bus, metro or walking route — replacements may not be clearly signposted on site', 'For daily life in Lisboa, a monthly Navegante is almost always better value than separate tourist tickets', 'If you are showing the city to guests, explain to them in advance the difference between “travelling as a Carris passenger” and “buying a tourist ticket at the lift”'] }
+        { kind: 'checklist', items: ['The best time for Santa Justa is early morning or late evening, not in the middle of the day', 'On funiculars such as Glória and Bica (when they are running), protect your phone: photos at the open window and a crowd at the entrance are a typical pickpocketing situation', 'Do not stand on the tracks for a photo: the carriages move slowly, but the streets are narrow and the driver’s visibility is limited', 'If the line is closed, look for a Carris bus, metro or walking route — replacements may not be clearly signposted on site', 'For daily life in Lisboa, a monthly Navegante is almost always better value than separate tourist tickets', 'If you are showing the city to guests, explain to them in advance the difference between “travelling as a Carris passenger” and “buying a tourist ticket at the lift”'] }
       ]
     }
   ],
@@ -61,6 +62,6 @@ export default {
     { title: 'Carris — timetables and information for Ascensores and Elevador de Santa Justa', url: 'https://www.carris.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Lisboa — information on city lifts, funiculars and mobility', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

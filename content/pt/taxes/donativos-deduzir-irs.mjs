@@ -3,7 +3,7 @@ export default {
   id: 'donativos-deduzir-irs',
   categoryId: 'taxes',
   title: 'Donativos IRS: benefícios fiscais por donativos ao abrigo da Lei do Mecenato',
-  tldr: 'Os donativos em Portugal podem reduzir o IRS se a entidade beneficiária tiver direito a receber donativos fiscalmente relevantes e o pagamento estiver emitido com o seu NIF. Regra base para pessoas singulares: 25% do valor do donativo é deduzido à collecta de IRS; para muitas IPSS, entidades religiosas, culturais e científicas aplica-se um limite até 15% da collecta. Na declaração de IRS 2025, entregue de 01/04 a 30/06/2026, isto verifica-se no Anexo H, Quadro 6. A consignação de IRS de 0,5% não é uma despesa e não é a mesma coisa.',
+  tldr: 'Os donativos em Portugal podem reduzir o IRS se a entidade beneficiária tiver direito a receber donativos fiscalmente relevantes e o pagamento estiver emitido com o seu NIF. Regra base para pessoas singulares: 25% do valor do donativo é deduzido à coleta de IRS; para muitas IPSS, entidades religiosas, culturais e científicas aplica-se um limite até 15% da coleta. Na declaração de IRS 2025, entregue de 01/04 a 30/06/2026, isto verifica-se no Anexo H, Quadro 6, campo 6B. A consignação de IRS de 0,5% não é uma despesa e não é a mesma coisa.',
   tags: ['irs', 'donativos', 'mecenato', 'anexo-h'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'O que conta como donativo para efeitos de IRS',
       content: [
         { kind: 'paragraph', text: 'Um donativo é uma doação gratuita em dinheiro ou em bens a uma organização reconhecida para efeitos de benefícios fiscais: IPSS, Misericórdias, algumas associações, fundações, Igreja e outras organizações religiosas, entidades culturais, científicas, educativas e sociais.' },
-        { kind: 'paragraph', text: 'Para uma pessoa singular residente, o efeito fiscal é normalmente este: 25% do valor do donativo é deduzido à collecta de IRS — o imposto calculado antes das deduções pessoais. Não é um reembolso automático de 25% para o cartão, mas sim uma redução do IRS final a pagar ou um aumento do reembolso, se tiver havido retenção na fonte.' },
+        { kind: 'paragraph', text: 'Para uma pessoa singular residente, o efeito fiscal é normalmente este: 25% do valor do donativo é deduzido à coleta de IRS — o imposto calculado antes das deduções pessoais. Não é um reembolso automático de 25% para o cartão, mas sim uma redução do IRS final a pagar ou um aumento do reembolso, se tiver havido retenção na fonte.' },
         { kind: 'checklist', items: [
           'O donativo foi feito a uma organização com direito a benefício fiscal ao abrigo do EBF / regime do mecenato',
           'O seu NIF consta da fatura, recibo ou recibo de donativo',
@@ -26,11 +26,11 @@ export default {
     },
     {
       id: 'deduction-rules',
-      title: 'Quanto pode deduzir: 25% e limite da collecta',
+      title: 'Quanto pode deduzir: 25% e limite da coleta',
       content: [
-        { kind: 'paragraph', text: 'A regra standard para pessoas singulares ao abrigo do Estatuto dos Benefícios Fiscais: 25% do valor dos donativos é deduzido à collecta de IRS. Para a maioria dos donativos a IPSS privadas e a entidades religiosas, culturais, científicas e sociais aplica-se um tecto: a dedução não pode exceder 15% da sua collecta.' },
-        { kind: 'paragraph', text: 'Exemplo: collecta de IRS = 3 000 €. Você fez um donativo de 1 000 € a uma IPSS com direito a benefício fiscal. Cálculo: 1 000 € × 25% = 250 €. Limite de 15% da collecta = 450 €. Assim, pode utilizar a dedução total de 250 €.' },
-        { kind: 'paragraph', text: 'Se, com a mesma collecta de 3 000 €, tiver feito um donativo de 3 000 €, a dedução calculada = 750 €, mas o limite de 15% da collecta = 450 €. No IRS, será aceite no máximo 450 €.' },
+        { kind: 'paragraph', text: 'A regra standard para pessoas singulares ao abrigo do Estatuto dos Benefícios Fiscais: 25% do valor dos donativos é deduzido à coleta de IRS. Para a maioria dos donativos a IPSS privadas e a entidades religiosas, culturais, científicas e sociais aplica-se um tecto: a dedução não pode exceder 15% da sua coleta.' },
+        { kind: 'paragraph', text: 'Exemplo: coleta de IRS = 3 000 €. Você fez um donativo de 1 000 € a uma IPSS com direito a benefício fiscal. Cálculo: 1 000 € × 25% = 250 €. Limite de 15% da coleta = 450 €. Assim, pode utilizar a dedução total de 250 €.' },
+        { kind: 'paragraph', text: 'Se, com a mesma coleta de 3 000 €, tiver feito um donativo de 3 000 €, a dedução calculada = 750 €, mas o limite de 15% da coleta = 450 €. No IRS, será aceite no máximo 450 €.' },
         { kind: 'warning', text: 'Na internet confundem-se frequentemente três coisas diferentes: donativos com dedução de 25%, consignação de IRS de 0,5% e regras de mecenato aplicáveis a empresas. Para pessoas singulares no IRS, não aplique “5%” como taxa universal de dedução. Se a organização falar de um regime especial de mecenato cultural/científico, peça-lhe o recibo fiscal e confirme o código do benefício no Anexo H.' }
       ]
     },
@@ -49,7 +49,7 @@ export default {
           'Indicação do enquadramento fiscal: EBF / Lei do Mecenato / entidade elegível',
           'Comprovativo de pagamento do banco, MB WAY ou Multibanco',
           'Email ou carta da organização, se o recibo tiver chegado separadamente',
-          'Para donativo in kind — avaliação do valor e documento de entrega'
+          'Para donativo em espécie — avaliação do valor e documento de entrega'
         ] },
         { kind: 'warning', text: 'A compra de um bilhete para um jantar de beneficência, merchandising, rifas ou adesão a um clube normalmente não constitui um donativo pelo valor total, se recebeu um bem ou serviço. A dedução fiscal só é possível sobre a parte gratuita, se esta estiver documentalmente separada.' }
       ]
@@ -58,7 +58,7 @@ export default {
       id: 'declare-anexo-h',
       title: 'Como declarar no IRS: Anexo H, Quadro 6',
       content: [
-        { kind: 'paragraph', text: 'A declaração de IRS relativa a 2025 é entregue no Portal das Finanças de 01/04/2026 a 30/06/2026. Os donativos são verificados no Modelo 3 → Anexo H → Quadro 6. Se o valor já estiver pré-preenchido, confirme o NIF da entidade beneficiária, o código do benefício e o montante.' },
+        { kind: 'paragraph', text: 'A declaração de IRS relativa a 2025 é entregue no Portal das Finanças de 01/04/2026 a 30/06/2026. Os donativos são verificados no Modelo 3 → Anexo H → Quadro 6, campo 6B. Se o valor já estiver pré-preenchido, confirme o NIF da entidade beneficiária, o código do benefício e o montante.' },
         { kind: 'substeps', items: [
           { id: 'login', title: '1. Entrar no Portal das Finanças', content: [
             { kind: 'paragraph', text: 'Use NIF + senha ou Chave Móvel Digital. Abra IRS → Entregar declaração → IRS Automático ou Modelo 3. Se tiver rendimentos complexos, recibos verdes, rendimentos estrangeiros ou alterações de residência fiscal, é mais frequente precisar do Modelo 3 preenchido manualmente.' }
@@ -73,7 +73,7 @@ export default {
               'O NIF/NIPC da organização está correcto',
               'O código do benefício corresponde ao tipo de entidade',
               'Não há duplicação do mesmo valor',
-              'A dedução não excede o limite de collecta aplicável',
+              'A dedução não excede o limite de coleta aplicável',
               'Após a simulação de IRS, é visível a redução do imposto ou o aumento do reembolso'
             ] }
           ] },
@@ -107,11 +107,11 @@ export default {
         { kind: 'warning', text: 'Se não foi residente fiscal em Portugal no ano do donativo ou entrega IRS como não residente apenas por rendimentos portugueses, as deduções pessoais à coleta podem não funcionar da mesma forma que para um residente. Verifique o estatuto de residência fiscal relativo ao ano, e não à data de entrega da declaração.' },
         { kind: 'checklist', items: [
           'O donativo foi feito com um cartão estrangeiro, mas o recibo não tem NIF — a dedução pode perder-se',
-          'O donativo foi feito a uma charity estrangeira sem estatuto fiscal português — normalmente não há dedução automática no IRS',
+          'O donativo foi feito a uma organização de solidariedade estrangeira sem estatuto fiscal português — normalmente não há dedução automática no IRS',
           'A organização é “sem fins lucrativos”, mas não tem direito a benefício fiscal — a palavra associação, por si só, não basta',
           'Inseriu o donativo como despesa geral familiar — é a categoria errada',
           'Declarou o valor no ano de pagamento errado face ao ano fiscal',
-          'Confundem collecta com retenção no salário: o limite de 15% é calculado sobre a collecta, não sobre o seu gross salary',
+          'Confundem coleta com retenção no salário: o limite de 15% é calculado sobre a coleta, não sobre o seu salário bruto',
           'Apagou o Anexo H porque “o IRS Automático calculou tudo” — os donativos podem ter ficado fora do cálculo'
         ] },
         { kind: 'paragraph', text: 'Teste prático antes de um donativo elevado: peça à organização a frase “emite recibo de donativo para efeitos fiscais em IRS?” e confirme o NIPC, o regime e o código/descrição para o Anexo H. Se a resposta for vaga, não conte com a dedução.' }
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

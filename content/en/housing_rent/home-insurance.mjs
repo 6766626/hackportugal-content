@@ -71,7 +71,7 @@ export default {
             { kind: 'checklist', items: [
               'ComparaJá.pt — quote aggregator',
               'Doctor Finanças — financial comparison site',
-              'Raconoscer / Seguros.pt — specialised sites',
+              'Compare o Mercado / Comparador.pt — specialised comparison sites',
               'Compare: price, franquia (excess), cover limits, exclusions',
               '💡 Bargaining power: show another quote — they may reduce the price by up to 20%'
             ]}
@@ -160,6 +160,6 @@ export default {
     { title: 'DL 72/2008 — Legal Framework for Insurance Contracts', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/72-2008-456608', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ComparaJá — insurance comparison', url: 'https://www.comparaja.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

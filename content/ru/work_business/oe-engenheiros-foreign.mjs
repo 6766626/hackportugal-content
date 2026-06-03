@@ -3,7 +3,7 @@ export default {
   id: 'oe-engenheiros-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Engenheiros: как иностранному инженеру получить право подписывать проекты',
-  tldr: 'Для большинства инженерных проектов в Португалии одной иностранной дипломной корочки недостаточно: чтобы подписывать peças escritas/desenhadas и termo de responsabilidade для Câmara Municipal, нужен статус в Ordem dos Engenheiros или другой признанной ordem/associação по специальности. В 2026 путь зависит от страны диплома: ЕС/ЕЭЗ — через Lei 9/2009 и признание профессиональной квалификации; UK Chartered Engineer — через MRA Engineering Council–OE; non-EU — обычно DGES reconhecimento + candidatura в OE + relatório profissional/оценка опыта.',
+  tldr: 'Для большинства инженерных проектов в Португалии одной иностранной дипломной корочки недостаточно: чтобы подписывать peças escritas/desenhadas и termo de responsabilidade для Câmara Municipal, нужно быть técnico legalmente habilitado по Lei 31/2009 — обычно через действительную inscrição в Ordem dos Engenheiros (OE) или Ordem dos Engenheiros Técnicos (OET) по специальности. В 2026 путь зависит от страны диплома: ЕС/ЕЭЗ — через Lei 9/2009 и признание профессиональной квалификации; UK Chartered Engineer — через MRA Engineering Council–OE; Бразилия — через Termo de Reciprocidade OE–CONFEA; прочие non-EU — обычно DGES reconhecimento + candidatura в OE + relatório profissional/оценка опыта.',
   tags: ['engenheiros', 'проекты', 'ordem', 'dges'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,11 +12,11 @@ export default {
       title: 'Зачем нужна Ordem dos Engenheiros',
       content: [
         { kind: 'paragraph', text: 'Ordem dos Engenheiros (OE) — публичная профессиональная ассоциация инженеров. Членство само по себе не заменяет лицензию на строительство, но для проектирования оно часто является практическим пропуском: заказчик, Câmara Municipal, fiscalização и страховая хотят видеть, что técnico autor имеет действительную inscrição и компетенцию по специальности.' },
-        { kind: 'paragraph', text: 'В проектах для licenciamento/comunicação prévia обычно подаются peças do projeto и termo de responsabilidade. Его подписывает técnico legalmente habilitado. Для инженерных дисциплин это, как правило, membro efetivo OE или специалист другой применимой профессиональной ассоциации, если закон допускает такую профессию для конкретного проекта.' },
+        { kind: 'paragraph', text: 'В проектах для licenciamento/comunicação prévia обычно подаются peças do projeto и termo de responsabilidade. Кто такой técnico legalmente habilitado, определяет Lei 31/2009 (qualificação dos técnicos de projeto, direção de obra e fiscalização) — Câmara проверяет не само членство, а habilitação под конкретный тип проекта. Для инженерных дисциплин это, как правило, membro efetivo da Ordem dos Engenheiros или membro da Ordem dos Engenheiros Técnicos в пределах своих atos próprios и especialidade; в отдельных областях закон допускает других технических специалистов.' },
         { kind: 'checklist', items: [
           'Строительные конструкции: estabilidade, betão, aço, geotecnia — обычно нужен инженер с соответствующей especialidade',
-          'Águas, esgotos, águas pluviais, gás, térmica, acústica, segurança contra incêndio — проверяют профиль и опыт',
-          'Электротехнические проекты: OE может быть достаточной, но для некоторых работ нужны отдельные правила DGEG/entidade inspetora',
+          'Águas, esgotos, águas pluviais — обычно по especialidade и habilitação; gás, eletricidade, térmica/SCE и segurança contra incêndio часто требуют отдельной регистрации у DGEG, ADENE или ANEPC помимо OE/OET',
+          'SCIE для 2-й, 3-й и 4-й категории риска подписывает técnico credenciado pela ANEPC; energético/SCE — perito qualificado ADENE; членства OE/OET для этого недостаточно',
           'Подпись архитектора не заменяет инженера по инженерным especialidades',
           'Иностранная компания может быть подрядчиком, но подписант проекта должен иметь португальскую профессиональную habilitação',
           'PDF с подписью без termo de responsabilidade и номера inscrição OE часто не принимают',
@@ -46,7 +46,8 @@ export default {
             { kind: 'paragraph', text: 'На практике это не “автоматическая замена карточки”: OE всё равно проверяет документы, дисциплину, good standing и соответствие португальской especialidade. Но MRA снижает неопределённость и обычно сильнее, чем обычная non-EU заявка без профессионального статуса.' }
           ]},
           { id: 'non-eu', title: 'Диплом вне ЕС: reconhecimento + relatório profissional', content: [
-            { kind: 'paragraph', text: 'Для дипломов из России, Беларуси, Украины, Казахстана, Бразилии и других non-EU стран OE обычно смотрит не только диплом, но и академическое признание в Португалии. Частый первый шаг — reconhecimento de grau académico через DGES/португальский вуз по Decreto-Lei 66/2018: reconhecimento automático, de nível или específico.' },
+            { kind: 'paragraph', text: 'Для дипломов из России, Беларуси, Украины, Казахстана и других non-EU стран OE обычно смотрит не только диплом, но и академическое признание в Португалии. Частый первый шаг — reconhecimento de grau académico через DGES/португальский вуз по Decreto-Lei 66/2018: reconhecimento automático, de nível или específico.' },
+            { kind: 'paragraph', text: 'Бразилия — отдельный случай: для академического reconhecimento это тоже non-EU, но если вы зарегистрированы в системе CONFEA/CREA, проверьте действующий Termo de Reciprocidade между OE и CONFEA. Он построен на полной взаимности (по профессиональным компетенциям, без revalidação диплома) и обычно даёт более быстрый путь, чем generic non-EU.' },
             { kind: 'paragraph', text: 'Дальше OE оценивает candidatura. Для non-EU инженера ключевой документ — relatório profissional: структурированный отчёт о проектах, ответственности, расчётах, нормах, ПО, объектах и роли кандидата. Его задача — доказать, что вы не просто “работали инженером”, а лично выполняли функции уровня português engenheiro.' }
           ]}
         ] }
@@ -103,7 +104,8 @@ export default {
           'Не подписывайте разделы вне вашей компетенции: это дисциплинарный и страховой риск',
           'Храните расчёты, версии чертежей и переписку: fiscalização может спросить обоснование',
           'Уточняйте у страховщика responsabilidade civil profissional: членство OE не равно автоматическому покрытию всех рисков',
-          'Для проектов под португальские нормы используйте Eurocódigos, legislação nacional и муниципальные regulamentos, а не только нормы страны происхождения'
+          'Для проектов под португальские нормы используйте Eurocódigos, legislação nacional и муниципальные regulamentos, а не только нормы страны происхождения',
+          'Перед подписью спецразделов проверьте отдельный реестр/entidade competente: ANEPC для SCIE (категории риска 2–4), ADENE/SCE для perito qualificado и энергосертификации, DGEG/entidade inspetora для газа и электрики — declaração da OE их не заменяет'
         ] },
         { kind: 'warning', text: 'Подпись “за друга”, подпись проекта, который вы не проверяли, или использование чужого номера OE — прямой риск дисциплинарного дела, гражданской ответственности и отказа Câmara в licenciamento.' }
       ]
@@ -118,7 +120,7 @@ export default {
           'Сделайте таблицу соответствия ваших дисциплин португальской especialidade OE',
           'Для non-EU заранее запустите reconhecimento DGES: без него OE может не принять академическую часть',
           'Если вы CEng из UK, сначала получите у Engineering Council подтверждение статуса и good standing',
-          'Переведите ключевые документы на португальский присяжным/tradutor или способом, принимаемым OE',
+          'Сделайте certified translation ключевых документов на португальский способом, который принимает OE/DGES: перевод, заверенный notário, advogado, solicitador или consulado (единого “tradutor juramentado” в Португалии нет — проверяйте требования принимающей стороны)',
           'В relatório profissional пишите конкретно: объект, год, площадь/мощность, нормы, расчёт, ваша подпись или ответственность',
           'Не обещайте клиенту срок licenciamento, пока OE не подтвердит habilitação',
           'После вступления следите за quotas и regularidade: просрочка членских взносов может испортить declaração для Câmara'
@@ -169,6 +171,20 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'Lei 31/2009 — qualificação dos técnicos de projeto, direção e fiscalização de obra',
+      url: 'https://diariodarepublica.pt/dr/detalhe/lei/31-2009-491903',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
+      title: 'ANEPC — credenciação de técnicos de SCIE (segurança contra incêndio em edifícios)',
+      url: 'https://prociv.gov.pt/pt/seguranca-contra-incendio/servicos/credenciacao-de-entidades/',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
       title: 'DGES — reconhecimento de graus e diplomas estrangeiros',
       url: 'https://www.dges.gov.pt/pt/pagina/reconhecimento',
       kind: 'official',
@@ -176,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

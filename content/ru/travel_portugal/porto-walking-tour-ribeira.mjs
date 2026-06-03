@@ -24,7 +24,7 @@ export default {
           },
           {
             name: '2. Livraria Lello',
-            description: 'Книжный магазин 1906 года в стиле неоготики и ар-нуво. Деревянная винтовая лестница-легенда: вероятный прототип для Хогвартса, хотя Роулинг это отрицает. Вход — € 8, сумма засчитывается при покупке книги.',
+            description: 'Книжный магазин 1906 года в стиле неоготики и ар-нуво. Деревянная винтовая лестница-легенда: вероятный прототип для Хогвартса, хотя Роулинг это отрицает. Вход — € 10, сумма засчитывается при покупке книги.',
             wikipedia: {
               ru: 'https://ru.wikipedia.org/wiki/Книжный_магазин_Лелло_и_брат',
               en: 'https://en.wikipedia.org/wiki/Livraria_Lello',
@@ -98,8 +98,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '👟 Крутые спуски от Clérigos к Ribeira — нужна обувь с нескользкой подошвой',
-          '🎟️ Lello — вход по временным слотам, бронировать онлайн заранее',
-          '🎟️ Palácio da Bolsa — только с гидом, экскурсии 30 мин, € 12',
+          '🎟️ Lello — вход по временным слотам; бронировать онлайн заранее',
+          '🎟️ Palácio da Bolsa — только с гидом, экскурсии 30 мин, € 14',
           '🚇 Финиш у Ribeira → метро «São Bento» или «Jardim do Morro» (Gaia)',
           '🍷 Опционально: через мост в Gaia — винные погреба (Graham\'s, Sandeman, Taylor\'s, Cálem)',
           '📸 Закат с верхнего яруса моста Луиша — лучшее фото Порту'
@@ -124,6 +124,6 @@ export default {
     { title: 'UNESCO — Historic Centre of Oporto', url: 'https://whc.unesco.org/en/list/755/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal do Porto', url: 'https://www.cm-porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

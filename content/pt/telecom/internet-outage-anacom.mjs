@@ -31,7 +31,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A lei principal é a Lei 16/2022, Lei das Comunicações Eletrónicas. Para um cliente particular, há duas regras práticas importantes: compensação pela indisponibilidade do serviço e direito a resolver o contrato se a avaria não for reparada durante demasiado tempo.' },
         { kind: 'checklist', items: [
-          'Se o serviço estiver indisponível durante mais de 24 horas consecutivas por motivos imputáveis ao operador, o cliente tem direito a compensação.',
+          'Se o serviço estiver indisponível durante mais de 24 horas — consecutivas ou acumuladas por período de faturação — por motivos imputáveis ao operador, o cliente tem direito a compensação.',
           'A compensação mínima é a parte proporcional da mensalidade pelo período de indisponibilidade; o contrato pode prever mais, mas não menos.',
           'O período em que o serviço não foi prestado não deve ser cobrado como serviço normal.',
           'Se a avaria durar mais de 15 dias após a comunicação ao operador, o consumidor pode resolver o contrato sem encargos — ou seja, sem multa por fidelização.',
@@ -162,6 +162,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

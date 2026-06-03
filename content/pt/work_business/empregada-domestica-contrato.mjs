@@ -59,7 +59,7 @@ export default {
               'NIF do trabalhador, se existir.',
               'Data de início do contrato.',
               'Horário e remuneração prevista.',
-              'Escreva: "A base contributiva é normalmente a remuneração convencional; o regime de remuneração real/efetiva aplica-se quando são cumpridas as condições da Segurança Social e é importante, por exemplo, para a protecção no desemprego. Antes de escolher, confirme as condições na Segurança Social Direta/guia oficial e registe isto com o trabalhador."'
+              'A base contributiva é normalmente a remuneração convencional; o regime de remuneração real/efetiva aplica-se quando são cumpridas as condições da Segurança Social e é importante, por exemplo, para a protecção no desemprego. Antes de escolher, confirme as condições na Segurança Social Direta/guia oficial e registe isto com o trabalhador.'
             ] }
           ] },
           { id: 'submit-admission', title: '2. Submeta a admissão', content: [
@@ -77,7 +77,7 @@ export default {
       title: 'Quanto pagar: salário, contribuições, subsídios de férias',
       content: [
         { kind: 'paragraph', text: 'A remuneração mínima full-time em 2026 tem como referência o SMN 920 € por mês, normalmente 14 pagamentos por ano: 12 salários + subsídio de férias + subsídio de Natal. Para part-time, calcule proporcionalmente às horas, mas não abaixo da taxa mínima.' },
-        { kind: 'paragraph', text: 'Acrescentar depois deste parágrafo: "Importante: conventional e real diferem não só no valor das contribuições, mas também no nível de protecção social; para ter direito ao subsídio de desemprego, o trabalhador doméstico normalmente precisa do regime sobre o salário efectivo/condições reconhecidas pela Segurança Social." Isto é a base para as contribuições, não uma autorização para pagar ao trabalhador 3,10 €/h.' },
+        { kind: 'paragraph', text: 'Importante: a remuneração convencional e a remuneração real diferem não só no valor das contribuições, mas também no nível de protecção social. Para ter direito ao subsídio de desemprego, o trabalhador doméstico normalmente precisa do regime sobre o salário efectivo (real), reconhecido pela Segurança Social. A base convencional está indexada ao IAS e serve apenas para calcular as contribuições — não é uma autorização para pagar ao trabalhador abaixo do salário mínimo.' },
         { kind: 'checklist', items: [
           'Full-time 40 h/semana: não inferior a 920 € gross/mês × 14 em 2026.',
           'Part-time: salário proporcional às horas, mais subsídios de férias e de Natal proporcionais.',
@@ -106,7 +106,7 @@ export default {
           'Em caso de alteração de salário, horas ou cessação do contrato, actualize os dados na Segurança Social.',
           'Em caso de despedimento, pague salário, subsídio de férias, proporção do Natal e compensações, se forem devidas.'
         ] },
-        { kind: 'warning', text: 'Se o trabalhador for cidadão estrangeiro sem direito a trabalhar, isto é um risco separado para a família. Verifique a autorização de residência, CPLP/documento temporário, autorização de residência ou outro documento que dê direito a trabalhar em Portugal.' }
+        { kind: 'warning', text: 'Se o trabalhador for cidadão estrangeiro sem direito a trabalhar, isto é um risco separado para a família. Verifique o título de residência, autorização de residência CPLP/documento temporário ou outro documento que dê direito a trabalhar em Portugal.' }
       ]
     },
     {
@@ -130,7 +130,7 @@ export default {
   costs: [
     { label: 'Salário mínimo full-time em 2026', amountEUR: 920, note: 'SMN por mês, normalmente 14 pagamentos por ano: 12 salários + férias + Natal.' },
     { label: 'IAS 2026 para a base convencional da Segurança Social', amountEUR: 537.13, note: 'Remuneração convencional; base horária de cerca de 3,10 € para cálculo de contribuições, não é o salário mínimo.' },
-    { label: 'Contribuições para a Segurança Social em remuneração conventional', amountEURMin: 0, amountEURMax: 0, note: 'Taxa normalmente de 28,3% da base convencional: 18,9% empregador + 9,4% trabalhador.' },
+    { label: 'Contribuições para a Segurança Social em remuneração convencional', amountEURMin: 0, amountEURMax: 0, note: 'Taxa normalmente de 28,3% da base convencional: 18,9% empregador + 9,4% trabalhador.' },
     { label: 'Contribuições para a Segurança Social em remuneração real', amountEURMin: 0, amountEURMax: 0, note: 'Taxa normalmente de 33,3% do salário efectivo: 22,3% empregador + 11% trabalhador.' },
     { label: 'Seguro de acidentes de trabalho doméstico', amountEURMin: 30, amountEURMax: 120, note: 'Referência anual; depende das horas, funções, salário e seguradora.' }
   ],
@@ -164,6 +164,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

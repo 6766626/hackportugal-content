@@ -114,13 +114,13 @@ export default {
     { label: 'Navegante Metropolitano', amountEUR: 40, note: 'Monthly pass for Área Metropolitana de Lisboa; the best choice for most residents of the metropolitan area.' },
     { label: 'Navegante Família Municipal', amountEUR: 60, note: 'Family monthly cap subject to household conditions.' },
     { label: 'Navegante Família Metropolitano', amountEUR: 80, note: 'Family monthly cap for travel across the whole metropolitan area.' },
-    { label: 'Lisboa Card', amountEURMin: 22, amountEURMax: 62, note: 'Depends on duration, age and the current Visit Lisboa fare; check 2026 adult fares on the official website before buying.' }
+    { label: 'Lisboa Card', amountEURMin: 31, amountEURMax: 62, note: 'Adult fare from 1 April 2026: 24h — €31, 48h — €51, 72h — €62; child fares are lower. Check current prices on the official website before buying.' }
   ],
   sources: [
     { title: 'Visit Lisboa — official Lisboa Card: conditions, included sites and prices', url: 'https://www.visitlisboa.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Metro Lisboa — tickets, Navegante occasional, zapping and 24h passes', url: 'https://www.metrolisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transportes Metropolitanos de Lisboa — Navegante Metropolitano, Municipal and Família', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

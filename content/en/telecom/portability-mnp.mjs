@@ -3,7 +3,7 @@ export default {
   id: 'portability-mnp',
   categoryId: 'telecom',
   title: 'Number portability (MNP) between operators',
-  tldr: 'Number portability between Portuguese operators under DL 56/2010 is FREE, takes 1 working day, and is requested from the new operator (they deal with the old one themselves).\n\nTo obtain the Código de Validação da Portabilidade (CVP): send an SMS with the text “CVP” to the short number 1696 from the old SIM (for mobile numbers).\n\nThe standard command for Portuguese operators is exactly “CVP”, not “PORT”. Portability does NOT reset the lock-in period with the old operator — if there is a penalty, it must be paid.',
+  tldr: 'Number portability between Portuguese operators (Lei das Comunicações Eletrónicas no. 16/2022 + Regulamento da Portabilidade no. 38/2025) is FREE, takes a maximum of 1 working day, and is requested from the new operator (they deal with the old one themselves).\n\nTo port your number you need the Código de Validação da Portabilidade (CVP) — a 12-digit code. For mobile numbers you can get it by SMS with the text “CVP” to your current operator’s own short number (each one differs: MEO 16200, Vodafone 12815, NOS 1242); on post-paid plans it is printed on your bill.\n\nPortability does NOT reset the lock-in period with the old operator — if there is a penalty, it must be paid.',
   tags: ['number portability', 'mnp', 'switching operator', 'porting code'],
   estimatedReadMinutes: 4,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'how-it-works',
       title: '🔄 How MNP works',
       content: [
-        { kind: 'paragraph', text: 'MNP (Mobile Number Portability) is guaranteed by law under DL 56/2010 — every user has the right to port their number when changing operator without losing it. The service is free. You do NOT need to go to the old operator’s shop.' },
+        { kind: 'paragraph', text: 'The right to port your number (MNP, Mobile Number Portability) when changing operator is guaranteed by law — the Lei das Comunicações Eletrónicas (Lei no. 16/2022); the procedure is detailed in the Regulamento da Portabilidade no. 38/2025 (in force since 10 November 2025). The service is free. You do NOT need to go to the old operator’s shop.' },
         { kind: 'checklist', items: [
           '📅 Porting time: 1 working day (by law — a maximum of 1 working day after consent)',
           '💰 Cost: €0',
@@ -26,12 +26,12 @@ export default {
       title: '📋 Step by step',
       content: [
         { kind: 'substeps', items: [
-          { id: 'p1', title: '1. Obtain the porting code from the old operator', content: [
+          { id: 'p1', title: '1. Obtain the porting code (CVP) from the old operator', content: [
             { kind: 'checklist', items: [
-              '📲 SMS “CVP” to number 1696 from the old SIM (Código de Validação da Portabilidade — the standard command for Portuguese operators)',
-              '🕒 You will receive the porting code by SMS within 1 hour',
-              '⚠️ The code is valid for 30 days',
-              '💡 Alternative: call the old operator’s support and ask them to arrange a number porting request'
+              '📲 For mobile: SMS with the text “CVP” from the old SIM to YOUR operator’s own short number — there is no single number, each one differs: MEO — 16200, Vodafone — 12815, NOS — 1242 (NOWO — 928190785)',
+              '🧾 On post-paid plans the CVP is printed on the monthly bill; on pre-paid the operator sends it by SMS within 24 hours of activation',
+              '🔢 The CVP is a 12-digit code; you give it to the new operator when requesting the port',
+              '💡 Alternative: request the CVP in your customer area, via the support line, or at the operator’s shop'
             ]}
           ]},
           { id: 'p2', title: '2. Submit the request with the new operator', content: [
@@ -72,7 +72,7 @@ export default {
           '🛑 Porting happens within 1 working day — but an operator may “drag it out” for 2–3 days. By law, you can complain to ANACOM',
           '🛑 If you had a post-paid plan with the old operator — the last bill for “unclosed” days arrives 2–3 weeks later',
           '🛑 Sometimes the new operator asks you to “pay extra for the SIM” (≈ €10) — formally this is unlawful for MNP customers',
-          '✅ Keep the SMS with the porting code as evidence for AT/ANACOM'
+          '✅ Keep the SMS with the porting code (CVP) as evidence for ANACOM'
         ]}
       ]
     },
@@ -96,9 +96,10 @@ export default {
     { label: 'Lock-in penalty (if the contract is active)', amountEURMin: 0, amountEURMax: 300, note: 'depends on the remaining term' }
   ],
   sources: [
-    { title: 'DL 56/2010 — Number portability', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/56-2010-307067', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ANACOM — Portability', url: 'https://www.anacom-consumidor.com/portabilidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ANACOM — Regulamento da Portabilidade no. 38/2025 (in force since 10.11.2025)', url: 'https://www.anacom.pt/render.jsp?contentId=1801193', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'ANACOM — How to find my Portability Validation Code (CVP)', url: 'https://www.anacom.pt/render.jsp?contentId=1471912', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'ANACOM — Number portability', url: 'https://www.anacom.pt/render.jsp?categoryId=324335', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

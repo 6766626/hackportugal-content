@@ -28,9 +28,9 @@ export default {
       id: 'who-must-file',
       title: 'Who must report foreign accounts',
       content: [
-        { kind: 'paragraph', text: 'The obligation applies to tax residents of Portugal who submit IRS Modelo 3. If in 2025 you were a tax resident of Portugal, then in the declaration submitted from 1 April to 30 June 6 you need to check all foreign accounts that existed during 2025.' },
+        { kind: 'paragraph', text: 'The obligation applies to tax residents of Portugal who submit IRS Modelo 3. If in 2025 you were a tax resident of Portugal, then in the declaration submitted from 1 April to 30 June 2026 you need to check all foreign accounts that existed during 2025.' },
         { kind: 'checklist', items: [
-          'You in Portugal for more than 183 days in 2025 — check Quadro 11',
+          'You lived in Portugal for more than 183 days in 2025 — check Quadro 11',
           'You had a habitual residence address in Portugal and resident status in Finanças — check Quadro 11',
           'You moved to Portugal in the middle of the year and became resident — report foreign accounts for the period of residency',
           'The account was opened but not used — still check the obligation',
@@ -62,7 +62,7 @@ export default {
       id: 'where-to-enter',
       title: 'Where to enter this in Portal das Finanças',
       content: [
-        { kind: 'paragraph', text: 'In the IRS Modelo 3 declaration, add Anexo J — Rendimentos obtidos no estrangeiro. Even if there is no foreign income, Anexo J may be needed specifically because of Qu 11.' },
+        { kind: 'paragraph', text: 'In the IRS Modelo 3 declaration, add Anexo J — Rendimentos obtidos no estrangeiro. Even if there is no foreign income, Anexo J may be needed specifically because of Quadro 11.' },
         { kind: 'substeps', items: [
           { id: 'open-modelo-3', title: '1. Open the IRS declaration', content: [
             { kind: 'paragraph', text: 'Portal das Finanças → IRS → Entregar Declaração → Modelo 3. For 2025 income, submission runs from 1 April to 30 June 2026.' }
@@ -91,12 +91,12 @@ export default {
       id: 'income-is-separate',
       title: 'Account separately, income separately',
       content: [
-        { kind: 'paragraph', text: 'Quadro 11 does not replace income reporting. If there was interest, dividends, coupons, sales of ETFs/shares, crypto income capital gains on a foreign account, they are declared in other quadros of Anexo J or other anexos depending on the type of income.' },
+        { kind: 'paragraph', text: 'Quadro 11 does not replace income reporting. If there was interest, dividends, coupons, sales of ETFs/shares, crypto income or capital gains on a foreign account, they are declared in other quadros of Anexo J or other anexos depending on the type of income.' },
         { kind: 'checklist', items: [
           'Interest from Wise Interest, Revolut Savings or a bank deposit — usually rendimento de capitais',
           'Dividends from shares/ETFs — separate reporting, often with foreign withholding tax',
-          'Sale of shares, ETFs, bonds — capital/loss; purchase/sale dates and prices are needed',
-          'A broker report in/GBP must be converted into euros using the applicable exchange rate',
+          'Sale of shares, ETFs, bonds — capital gain/loss; purchase/sale dates and prices are needed',
+          'A broker report in USD/GBP must be converted into euros using the applicable exchange rate',
           'Take broker fees into account only where they are tax-deductible',
           'If there is no income, Quadro 11 may still be the only completed section of Anexo J'
         ] },
@@ -109,7 +109,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '“The balance was €0, so it is not needed” — you need to check: the obligation concerns the existence of the account, not the balance',
-          '“This is not a bank, it is aobank” — if there is a foreign IBAN and the institution is outside Portugal, the account is usually reportable',
+          '“This is not a bank, it is a neobank” — if there is a foreign IBAN and the institution is outside Portugal, the account is usually reportable',
           '“Revolut will send everything itself” — CRS does not cancel your IRS obligation',
           '“Degiro is investments, not an account” — Quadro 11 covers contas de títulos',
           '“I only have a foreign card” — check whether there is a linked deposit account/IBAN',
@@ -137,18 +137,18 @@ export default {
     {
       title: 'Lei Geral Tributária — art. 63.º-A, obligation to mention accounts abroad',
       url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1988-34464575',
- kind: 'law',
+      kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Portal das Finanças — submission of the IRS Modelo 3 declaration',
-      url: 'https://www.portaldasfinancas.gov.pt/at/html.html',
+      url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

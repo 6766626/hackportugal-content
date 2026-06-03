@@ -27,11 +27,12 @@ export default {
       id: 'tiers',
       title: 'Статусы: Silver, Gold и что с “Platinum”',
       content: [
-        { kind: 'paragraph', text: 'В бытовых разговорах часто говорят “Platinum”, но у TAP Miles&Go в публичной логике 2026 ориентируйтесь на уровни Basic, Silver и Gold; верхние специальные уровни/приглашения TAP надо проверять в личном кабинете и правилах года. Для большинства экспатов реальная цель — Silver или Gold.' },
+        { kind: 'paragraph', text: 'В бытовых разговорах часто говорят “Platinum”, но у TAP Miles&Go такого уровня нет. В публичной логике 2026 ориентируйтесь на статусы Silver, Gold и Navigator (верхний уровень); базовый участник без статуса — это просто Miles&Go. Точные пороги и условия проверяйте в личном кабинете и правилах года. Для большинства экспатов реальная цель — Silver или Gold.' },
         { kind: 'checklist', items: [
-          'Basic — обычный участник без элитного статуса; копит и тратит мили.',
+          'Базовый уровень (без элитного статуса) — обычный участник Miles&Go: копит и тратит мили.',
           'Silver — первый элитный уровень TAP; даёт часть привилегий TAP, но не равен полноценному Star Alliance Gold.',
           'Gold — ключевой статус для частых перелётов; обычно соответствует Star Alliance Gold.',
+          'Navigator — верхний статус TAP с самыми высокими порогами; нужен только тем, кто летает очень много.',
           'Star Alliance Gold важен из-за lounge access, priority check-in, priority boarding и дополнительного багажа на многих партнёрах.',
           'Статусные мили и бонусные мили — разные вещи: первые нужны для уровня, вторые тратятся на билеты и апгрейды.',
           'Не все мили от партнёров считаются одинаково: у каждого партнёра и booking class есть таблица начисления.',
@@ -122,6 +123,6 @@ export default {
     { title: 'TAP Miles&Go — использование миль', url: 'https://www.flytap.com/en-pt/miles-and-go/use-miles', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Star Alliance — авиакомпании-участники', url: 'https://www.staralliance.com/en/member-airlines', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

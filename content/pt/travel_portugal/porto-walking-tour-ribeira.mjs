@@ -24,7 +24,7 @@ export default {
           },
           {
             name: '2. Livraria Lello',
-            description: 'Livraria de 1906 em estilo neogótico e Arte Nova. A lendária escadaria em madeira em caracol: provável protótipo de Hogwarts, embora Rowling o negue. Entrada — 8 €, valor descontado na compra de um livro.',
+            description: 'Livraria de 1906 em estilo neogótico e Arte Nova. A lendária escadaria em madeira em caracol: provável protótipo de Hogwarts, embora Rowling o negue. Entrada — 10 €, valor descontado na compra de um livro.',
             wikipedia: {
               ru: 'https://ru.wikipedia.org/wiki/%D0%9A%D0%BD%D0%B8%D0%B6%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%D0%9B%D0%B5%D0%BB%D0%BB%D0%BE_%D0%B8_%D0%B1%D1%80%D0%B0%D1%82',
               en: 'https://en.wikipedia.org/wiki/Livraria_Lello',
@@ -99,7 +99,7 @@ export default {
         { kind: 'checklist', items: [
           '👟 Descidas acentuadas dos Clérigos até à Ribeira — é preciso calçado com sola antiderrapante',
           '🎟️ Lello — entrada por horários marcados; reserve online com antecedência',
-          '🎟️ Palácio da Bolsa — apenas com guia; visitas de 30 min, 12 €',
+          '🎟️ Palácio da Bolsa — apenas com guia; visitas de 30 min, 14 €',
           '🚇 Final na Ribeira → metro «São Bento» ou «Jardim do Morro» (Gaia)',
           '🍷 Opcional: atravessar a ponte para Gaia — caves de vinho (Graham\'s, Sandeman, Taylor\'s, Cálem)',
           '📸 Pôr do sol no tabuleiro superior da Ponte Luís I — a melhor fotografia do Porto'
@@ -124,6 +124,6 @@ export default {
     { title: 'UNESCO — Centro Histórico do Porto', url: 'https://whc.unesco.org/en/list/755/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal do Porto', url: 'https://www.cm-porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

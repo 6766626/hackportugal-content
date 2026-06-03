@@ -17,7 +17,7 @@ export default {
           '🏝️ Остров — но все удобства + аэропорт с прямыми рейсами',
           '💻 Digital Nomads Village в Ponta do Sol — хаб программы',
           '🇬🇧 Английский понимают везде',
-          '💰 Автономный налоговый статус: 10% IRS в некоторых схемах',
+          '💰 Региональная ставка IRS для резидентов обычно ниже континентальной',
           '🚑 SNS полностью работает, есть частные клиники',
           '📚 Международные школы в Фуншале',
           '👨‍👩‍👧 Безопасно, размеренный темп'
@@ -76,13 +76,13 @@ export default {
       title: 'Логистика',
       content: [
         { kind: 'checklist', items: [
-          '✈️ Аэропорт Фуншала: 1.5ч до Lisboa (€ 50–200), прямые рейсы в Великобританию/Германию/Францию',
+          '✈️ Аэропорт Фуншала: 1,5 ч до Lisboa (€ 50–200), прямые рейсы в Великобританию/Германию/Францию',
           '🚐 Из аэропорта в город: автобус Aerobus € 5 / такси € 25–30',
           '🚗 Авто желательно — рельеф сложный, общественный транспорт слабый',
           '🚌 Horários do Funchal и SAM — автобусы по острову',
           '🏥 Hospital Dr. Nélio Mendonça (SNS), частные: Hospital Particular da Madeira',
           '🏫 International School of Madeira',
-          '🌊 Porto Santo — второй остров, 2ч на пароме, песчаные пляжи'
+          '🌊 Porto Santo — второй остров, 2 ч на пароме, песчаные пляжи'
         ]}
       ]
     }
@@ -92,6 +92,6 @@ export default {
     { title: 'Digital Nomads Madeira', url: 'https://digitalnomads.startupmadeira.eu/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Governo Regional Madeira', url: 'https://www.madeira.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

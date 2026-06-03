@@ -122,6 +122,6 @@ export default {
     { title: 'Startup Lisboa — incubadora e hub de startups de Lisboa', url: 'https://unicornfactorylisboa.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'UPTEC — Parque de Ciência e Tecnologia da Universidade do Porto', url: 'https://uptec.up.pt', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

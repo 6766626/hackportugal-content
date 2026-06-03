@@ -2,18 +2,18 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'passe-municipal-national',
   categoryId: 'public_transport',
-  title: 'Passe Metropolitano и национальная скидка 40 €/мес',
-  tldr: 'С 2024 действует национальная рамка по Decreto-Lei 1-A/2024: месячные проездные на общественный транспорт финансируются государством через систему passes.pt, с национальным лимитом/поддержкой до 40 €/мес и отдельными metropolitan pass около 20 €/мес в применимых зонах. Это не один универсальный билет на всё: правила зависят от AML, AMP, CIM/муниципалитета, оператора и типа поездок. В 2026 покупайте через местную карту: Navegante, Andante, CP/муниципальный passe.',
+  title: 'Месячные проездные в Португалии: Navegante, Andante, passe municipal/metropolitano и национальный passe CP',
+  tldr: 'В Португалии нет одного универсального билета на всё. Цена зависит от территории и оператора. В метрополиях действует государственная субсидия по программе PART: passe municipal (один concelho) около 30 €/мес и passe metropolitano (вся метрополия) около 40 €/мес — например Navegante в Лиссабоне и Andante в Порту. Отдельно есть национальные железнодорожные проездные CP: Passe Ferroviário Verde за 20 € на 30 дней (региональные/межрегиональные поезда + 2-й класс Intercidades, по Decreto-Lei 73/2024) и Passe Ferroviário Nacional за 49 €/мес на все региональные поезда. В 2026 покупайте через местную карту: Navegante, Andante или Cartão CP.',
   tags: ['passe', 'транспорт', 'метро', 'cp'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'what-it-is',
-      title: 'Что изменилось: лимит не равен «один билет на всю страну»',
+      title: 'Как устроены проездные: нет «одного билета на всю страну»',
       content: [
-        { kind: 'paragraph', text: 'Decreto-Lei 1-A/2024 закрепил национальное финансирование месячных проездных и скидок на общественный транспорт.\n\nНа практике это работает через местные системы: Área Metropolitana de Lisboa, Área Metropolitana do Porto, CIM, муниципалитеты и операторов вроде CP, Carris, Metro Lisboa, STCP, Fertagus, Transtejo/Soflusa.' },
-        { kind: 'paragraph', text: 'Главная идея для пользователя в 2026: месячный passe должен укладываться в национальную рамку поддержки — до 20 €/мес для применимого metropolitan/municipal формата и до 40 €/мес для более широкой национальной/межрегиональной комбинации, если она доступна в вашей зоне. Но название, покрытие и способ покупки отличаются по региону.' },
-        { kind: 'warning', text: 'Не путайте с разовыми билетами, туристическими картами и поездами CP Alfa Pendular/Intercidades. Национальная поддержка по DL 1-A/2024 не означает, что любой поезд или автобус по стране автоматически включён в один passe за 40 €.' }
+        { kind: 'paragraph', text: 'Месячные проездные в Португалии субсидируются государством через программу PART (Programa de Apoio à Redução Tarifária), но единого билета на весь транспорт страны не существует.\n\nНа практике это работает через местные системы: Área Metropolitana de Lisboa, Área Metropolitana do Porto, CIM, муниципалитеты и операторов вроде CP, Carris, Metro Lisboa, STCP, Fertagus, Transtejo/Soflusa.' },
+        { kind: 'paragraph', text: 'Главное, что нужно понять в 2026: цена и покрытие зависят от территории. В метрополиях есть два базовых уровня — passe municipal в пределах одного concelho (ориентир около 30 €/мес) и passe metropolitano на всю метрополию (около 40 €/мес). Отдельно от них работают национальные железнодорожные проездные CP. Название и точная цена отличаются по региону.' },
+        { kind: 'warning', text: 'Не путайте метрополийный passe за 40 € с национальными железнодорожными проездными CP. Passe Ferroviário Verde (20 € на 30 дней) и Passe Ferroviário Nacional (49 €/мес) покрывают региональные поезда CP, но не дают автоматического доступа к Alfa Pendular, Intercidades в полном объёме или к городскому транспорту метрополий. Один passe за 40 € — это метрополия, а не вся страна.' }
       ]
     },
     {
@@ -53,15 +53,15 @@ export default {
     },
     {
       id: 'where-to-check',
-      title: '3. Проверяйте право на 20 €/40 € через passe.pt',
+      title: '3. Сравните municipal, metropolitano и национальный passe',
       content: [
-        { kind: 'paragraph', text: 'passe.pt — национальная точка входа для информации о поддерживаемых passes. Там проверяют тип проездного, регион, оператора и применимую скидку. В 2026 это самый безопасный способ не переплатить за локальный вариант, когда есть metropolitan или national option.' },
+        { kind: 'paragraph', text: 'Проверяйте условия на сайтах операторов: navegante.pt для Лиссабона, linhandante.com для Порту, cp.pt для железнодорожных проездных. Там видно тип проездного, регион, зоны и цену. В 2026 это самый надёжный способ не переплатить за лишнее покрытие и не купить слишком узкий passe.' },
         { kind: 'checklist', items: [
-          'Откройте passe.pt и выберите регион или тип passe',
-          'Сравните municipal, metropolitan и intermunicipal варианты',
-          'Проверьте, входят ли ваши станции CP или автобусные линии',
-          'Проверьте, применяется ли лимит 20 €/мес или 40 €/мес именно к вашему профилю',
-          'Смотрите исключения: express, long-distance, tourist, airport shuttle',
+          'Откройте сайт нужного оператора и выберите регион или тип passe',
+          'Сравните passe municipal (один concelho, ориентир 30 €) и passe metropolitano (вся метрополия, ориентир 40 €)',
+          'Проверьте, входят ли ваши станции CP или автобусные линии в выбранный passe',
+          'Если ездите между регионами на поезде, сравните Passe Ferroviário Verde (20 €/30 дней) и Passe Ferroviário Nacional (49 €/мес)',
+          'Смотрите исключения: express, дальнее следование, туристические билеты, шаттлы аэропорта',
           'Сохраните PDF/скрин с условиями на случай спора в кассе',
           'Если оператор отказывает, попросите ссылку на тарифную таблицу 2026',
           'При переезде в другой concelho оформляйте новый passe — старый может перестать быть оптимальным'
@@ -100,21 +100,23 @@ export default {
           'После пополнения через Multibanco иногда нужна активация на валидаторе/терминале',
           'При штрафе просите auto de notícia и инструкцию по reclamação'
         ] },
-        { kind: 'warning', text: 'Контролёры обычно не принимают аргумент «я думал, что национальный лимит 40 € покрывает всё». Покрытие определяется конкретным passe и зонами, а не общей суммой поддержки в законе.' }
+        { kind: 'warning', text: 'Контролёры обычно не принимают аргумент «я думал, что мой passe покрывает всё». Покрытие определяется конкретным проездным и зонами: метрополийный passe не действует на национальных поездах за пределами своих зон, а железнодорожный passe не покрывает городской транспорт метрополий.' }
       ]
     }
   ],
   costs: [
-    { label: 'Metropolitan/municipal passe с применимой национальной поддержкой', amountEUR: 20, note: 'Ориентир по DL 1-A/2024 для применимых зон; фактическое название и покрытие зависят от региона.' },
-    { label: 'National/interregional monthly cap/support', amountEUR: 40, note: 'Национальная рамка поддержки; не гарантирует доступ к каждому поезду дальнего следования или частному экспресс-автобусу.' },
-    { label: 'Выпуск персональной карты', amountEURMin: 3, amountEURMax: 12, note: 'Зависит от системы: Navegante, Andante, CP или муниципальная карта; срочный выпуск обычно дороже.' }
+    { label: 'Passe municipal (один concelho) — например Navegante Municipal', amountEUR: 30, note: 'Ориентир по программе PART для метрополий; в Лиссабоне Navegante Municipal — 30 €/мес. Точная цена и название зависят от региона.' },
+    { label: 'Passe metropolitano (вся метрополия) — например Navegante Metropolitano', amountEUR: 40, note: 'Ориентир по программе PART; в Лиссабоне Navegante Metropolitano — 40 €/мес, в Порту аналог по Andante. Это метрополия, а не вся страна.' },
+    { label: 'Passe Ferroviário Verde (CP, 30 дней)', amountEUR: 20, note: 'Региональные/межрегиональные поезда + 2-й класс Intercidades, по Decreto-Lei 73/2024; нужна Cartão CP.' },
+    { label: 'Passe Ferroviário Nacional (CP, месяц)', amountEUR: 49, note: 'Все региональные поезда CP по стране; не действует на Alfa Pendular, Intercidades и городском транспорте метрополий.' },
+    { label: 'Выпуск персональной карты', amountEURMin: 3, amountEURMax: 12, note: 'Зависит от системы: Navegante, Andante, CP или муниципальная карта; Cartão CP — 6 € (3 € для студентов).' }
   ],
   sources: [
-    { title: 'Decreto-Lei 1-A/2024 — национальная правовая база поддержки passes', url: 'https://dre.pt/dre/detalhe/decreto-lei/1-a-2024', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'passe.pt — национальный портал проездных и скидок', url: 'https://www.passe.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Navegante — тарифы и карты Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Andante — тарифы и зоны Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Decreto-Lei n.º 73/2024 — Passe Ferroviário Verde', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/73-2024-891541243', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'CP — Passe Ferroviário Nacional', url: 'https://www.cp.pt/passageiros/pt/descontos-vantagens/descontos/ferroviario-nacional', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Navegante — тарифы и карты Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Andante — тарифы и зоны Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

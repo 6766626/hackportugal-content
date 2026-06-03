@@ -3,15 +3,15 @@ export default {
   id: 'lisbon-areas-by-budget',
   categoryId: 'housing_rent',
   title: 'Где жить в Лиссабоне: районы по бюджету и типу семьи',
-  tldr: 'В 2026 Greater Lisbon выбирают не «Лиссабон или нет», а связку бюджет + школа/офис + транспорт. Для одного: 900–1 300 €/мес — Almada, Amadora, Loures, Sintra; 1 300–1 800 € — Oeiras, Benfica, Telheiras; 1 800 €+ — Lisbon centre/Cascais. Семье с ребёнком T2/T3 обычно нужен бюджет 1 500–2 800 €/мес. Аренда: Lisbon 20–25 €/м², Oeiras 16–20 €/м², Cascais 18–24 €/м², Almada/Sintra/Loures 11–16 €/м².',
+  tldr: 'В 2026 в Большом Лиссабоне выбирают не «Лиссабон или нет», а связку бюджет + школа/офис + транспорт. Для одного: 900–1 300 €/мес — Almada, Amadora, Loures, Sintra; 1 300–1 800 € — Oeiras, Benfica, Telheiras; 1 800 €+ — центр Лиссабона/Cascais. Семье с ребёнком T2/T3 обычно нужен бюджет 1 500–2 800 €/мес. Аренда: Лиссабон 20–25 €/м², Oeiras 16–20 €/м², Cascais 18–24 €/м², Almada/Sintra/Loures 11–16 €/м².',
   tags: ['аренда', 'lisboa', 'oeiras', 'cascais', 'семья'],
   estimatedReadMinutes: 6,
   steps: [
     {
       id: 'map-logic',
-      title: 'Как читать карту Greater Lisbon',
+      title: 'Как читать карту Большого Лиссабона',
       content: [
-        { kind: 'paragraph', text: 'Greater Lisbon — это не только município de Lisboa. Для жизни важнее транспортная ось: поезд Cascais line, Sintra line, Fertagus через мост 25 de Abril, метро, A5/IC19/A2. Разница в аренде между Lisbon centre и Sintra/Almada может быть 600–1 200 € в месяц за похожий T2.' },
+        { kind: 'paragraph', text: 'Большой Лиссабон — это не только município de Lisboa. Для жизни важнее транспортная ось: поезд Cascais line, Sintra line, Fertagus через мост 25 de Abril, метро, A5/IC19/A2. Разница в аренде между центром Лиссабона и Sintra/Almada может быть 600–1 200 € в месяц за похожий T2.' },
         { kind: 'checklist', items: [
           'Если офис в Saldanha/Marquês/Campo Pequeno — смотрите Lisbon metro, Oeiras по Cascais line, Loures/Odivelas по metro/автобусу.',
           'Если офис в Parque das Nações — удобны Moscavide, Olivais, Sacavém, Loures, Vila Franca line.',
@@ -32,8 +32,8 @@ export default {
           'До 1 000 €/мес: студия/T0 или маленькая T1 в Amadora, Loures, Sintra, Margem Sul; в Lisboa почти всегда компромисс по состоянию или району.',
           '1 000–1 300 €/мес: T1 в Almada, Amadora, Loures, Sintra; иногда T1 в Benfica/Olivais/Algés.',
           '1 300–1 700 €/мес: T1/T2 в Oeiras, Algés, Benfica, Telheiras, Moscavide; T2 лучше искать вне центра.',
-          '1 700–2 200 €/мес: нормальный T2 для пары или семьи в Oeiras, Almada premium, Cascais не у моря, Lisbon outer ring.',
-          '2 200–3 000 €/мес: T2/T3 в Cascais/Oeiras/Lisbon good areas; уже можно выбирать школу, парковку и состояние.',
+          '1 700–2 200 €/мес: нормальный T2 для пары или семьи в Oeiras, премиальной части Almada, Cascais не у моря, на окраинах Лиссабона.',
+          '2 200–3 000 €/мес: T2/T3 в Cascais/Oeiras и хороших районах Лиссабона; уже можно выбирать школу, парковку и состояние.',
           '3 000 €+/мес: Cascais, Estoril, Chiado, Príncipe Real, Avenidas Novas, Parque das Nações, семейные T3/T4 с гаражом.'
         ] },
         { kind: 'warning', text: 'Не планируйте бюджет «ровно впритык». К аренде добавьте 120–250 €/мес за электричество/газ/воду/интернет для пары и 200–350 €/мес для семьи, плюс condomínio иногда включён, иногда нет.' }
@@ -144,6 +144,6 @@ export default {
     { title: 'Idealista — индексы цен аренды и продажи жилья по municípios и freguesias', url: 'https://www.idealista.pt/media/relatorios-preco-habitacao/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'CP — horários e linhas urbanas de Lisboa: Cascais, Sintra, Azambuja, Sado', url: 'https://www.cp.pt/passageiros/pt/consultar-horarios/horarios-resultado', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

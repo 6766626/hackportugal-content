@@ -33,7 +33,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Foz do Douro', content: [
-            { kind: 'paragraph', text: 'Junto à foz do Douro, zona premium. Praias, restaurantes, famílias. Longe do centro, é preciso carro ou a linha de metro 1. T1 — 1200-2000 €, moradias — 2500+ €.' }
+            { kind: 'paragraph', text: 'Junto à foz do Douro, zona premium. Praias, restaurantes, famílias. Longe do centro, é normalmente preciso autocarro, táxi ou carro; ao longo do rio circula o histórico elétrico 1, mas não é metro nem uma opção real para deslocações diárias. T1 — 1200-2000 €, moradias — 2500+ €.' }
           ]},
           { id: 'p2', title: 'Boavista', content: [
             { kind: 'paragraph', text: 'Zona de negócios. Casa da Música, arranha-céus para os padrões de Portugal. Boas escolas. T1 — 1000-1700 €.' }
@@ -56,7 +56,7 @@ export default {
             { kind: 'paragraph', text: 'Zona universitária, muitos jovens. Linha amarela do metro. T1 — 700-1100 €.' }
           ]},
           { id: 'b3', title: 'Areosa / Ramalde', content: [
-            { kind: 'paragraph', text: 'Bairros a norte, adequados para famílias. Linhas azul e amarela do metro. T1 — 700-1100 €.' }
+            { kind: 'paragraph', text: 'Bairros a norte, adequados para famílias. Ramalde tem estação de metro própria (linha azul A e outras); na Areosa muitas vezes é mais prático o autocarro ou as estações mais próximas, consoante a morada. T1 — 700-1100 €.' }
           ]}
         ]}
       ]
@@ -67,7 +67,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'o1', title: 'Vila Nova de Gaia', content: [
-            { kind: 'paragraph', text: 'Margem sul do Douro, famosas caves de vinho do Porto. Linhas amarela e violeta do metro através da Ponte Luís I. As mesmas vistas, 20-30% mais barato. T1 — 700-1200 €.' }
+            { kind: 'paragraph', text: 'Margem sul do Douro, famosas caves de vinho do Porto. A linha amarela do metro (D) atravessa para Gaia pela Ponte Luís I. As mesmas vistas, 20-30% mais barato. T1 — 700-1200 €.' }
           ]},
           { id: 'o2', title: 'Matosinhos', content: [
             { kind: 'paragraph', text: 'A oeste. Praias, marisco, porto de pesca. Linha azul do metro. T1 — 700-1200 €.' }
@@ -87,14 +87,14 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💰 A renda no Porto é 30-40% mais barata',
-          '🌆 O Porto é mais compacto, tudo fica a uma distância caminhável',
+          '🌆 O Porto é mais compacto do que Lisboa: o centro histórico faz-se bem a pé, mas Foz, Matosinhos, Maia, Gaia e os subúrbios a leste exigem transporte',
           '🌧️ O Porto é mais chuvoso e mais fresco (oceano, norte)',
           '🍷 Vinho do Porto, vale do Douro — uma característica única',
           '✈️ Menos voos internacionais, mas há voos directos para a Europa',
           '🎓 Excelentes universidades (Porto, Católica)',
           '🏝️ Boas praias (Matosinhos, Foz, Leça)',
           '👔 Menos expatriados, ambiente mais local',
-          '🚆 Alfa Pendular até Lisboa em 2,5 h'
+          '🚆 Alfa Pendular até Lisboa em cerca de 3 h (os comboios mais rápidos um pouco menos)'
         ]}
       ]
     }
@@ -104,6 +104,6 @@ export default {
     { title: 'INE — indicadores habitacionais do Norte', url: 'https://www.ine.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Porto — portal turístico', url: 'https://visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

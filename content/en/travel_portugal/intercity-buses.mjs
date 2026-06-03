@@ -76,7 +76,7 @@ export default {
           'Long-distance services usually have a toilet',
           'Late evening and night buses help you save on accommodation',
           'Sete Rios in Lisbon — the main station. Oriente — also has some services',
-          'In Porto — Campanhã and Rodoviária Campanhã'
+          'In Porto — Terminal Intermodal de Campanhã (TIC), next to the Campanhã train and metro station'
         ]}
       ]
     }
@@ -86,6 +86,6 @@ export default {
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Rede Expressos — operator information', url: 'https://rede-expressos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -14,9 +14,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'w1', title: 'Recibos verdes (ИП)', content: [
             { kind: 'checklist', items: [
-              '< 15 000 € оборот/год — бухгалтер не обязателен, можете сами через Portal das Finanças (IRS simplificado)',
+              '< 15 000 € оборот/год — бухгалтер не обязателен, можете подавать сами через Portal das Finanças (IRS simplificado)',
               '> 15 000 € оборот — обычно теряете isenção de IVA (CIVA art. 53) и должны подавать IVA; бухгалтер не обязателен, если остаётесь в regime simplificado, но может быть полезен',
-              'Contabilidade organizada обязательна при выходе из regime simplificado (обычно после превышения €200 000 в relevant tax periods по CIRS art. 28) или по добровольному выбору — тогда нужен Contabilista Certificado',
+              'Contabilidade organizada обязательна при выходе из regime simplificado (обычно после превышения €200 000 в течение двух налоговых периодов подряд по CIRS art. 28) или по добровольному выбору — тогда нужен Contabilista Certificado',
               'С режимом IFICI — часто нанимают даже при малом обороте для сложных деклараций'
             ]}
           ]},
@@ -31,7 +31,7 @@ export default {
           { id: 'w3', title: 'Когда не нужен', content: [
             { kind: 'checklist', items: [
               'Сотрудник по трудовому договору — работодатель платит налоги за вас',
-              'Обычная долгосрочная аренда как физлицо — Anexo F в IRS; contabilista certificado обычно не обязателен независимо от суммы. Для alojamento local или rental business могут применяться Category B/IVA',
+              'Обычная долгосрочная аренда как физлицо — Anexo F в IRS; contabilista certificado обычно не обязателен независимо от суммы. Для alojamento local или арендного бизнеса может применяться категория B/IVA',
               'Фрилансер < 15k — упрощённый режим через Portal самостоятельно',
               'Инвестиционный доход без активной деятельности — Anexo G, E в IRS'
             ]}
@@ -49,7 +49,7 @@ export default {
               'Ordem dos Contabilistas Certificados — occ.pt',
               'Раздел «Encontrar Contabilista» — поиск по городу, специализации',
               'Проверить регистрацию у всех, с кем общаетесь — не работайте с незарегистрированными',
-              'Нюанс: правительство требует, чтобы TOC сообщали обо всех клиентах — если бухгалтер без регистрации, он нарушает закон, и его подписи не работают'
+              'Нюанс: правительство требует, чтобы TOC сообщали обо всех клиентах — если бухгалтер без регистрации, он нарушает закон, и его подписи недействительны'
             ]}
           ]},
           { id: 'f2', title: 'Сообщества экспатов', content: [
@@ -78,7 +78,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🎯 Recibos verdes simple (< 15k оборот): не обязательно, но для помощи с IRS — 100-200 € разово',
-          '🎯 Recibos verdes с IVA (15-75k): 50-150 €/мес или поквартально; в regime simplificado IVA обычно trimestral (monthly — для оборотов выше CIVA threshold)',
+          '🎯 Recibos verdes с IVA (15-75k): 50-150 €/мес или поквартально; в regime simplificado декларация IVA обычно поквартальная (ежемесячная — при обороте выше порога CIVA, €650 000)',
           '🎯 Recibos verdes высокий оборот (75k+): 100-200 €/мес + SAF-T',
           '🏢 Unipessoal Lda (мелкий юр): 150-300 €/мес',
           '🏢 SA / большой Lda: 300-800 €/мес + аудитор',
@@ -168,6 +168,6 @@ export default {
     { title: 'Ordem dos Contabilistas Certificados (OCC)', url: 'https://www.occ.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças — obrigações declarativas', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'e-fatura-deductions',
   categoryId: 'taxes',
   title: 'e-Fatura: validating receipts and IRS tax deductions',
-  tldr: 'e-Fatura is a section of Portal das Finanças where receipts with your NIF are collected. For IRS 2025, filed from 1 April to 30 June 2026, check and confirm invoices by 25 February 2026: without validation, some expenses will not be included in deductions. Main limits: general family expenses — 35% up to €250 per taxpayer, healthcare — 15% up to €1,000, education — 30% up to €800, housing rent — 15% up to the set limit, IVA on restaurants/repairs/vets/gyms — up to €250 per household.',
+  tldr: 'e-Fatura is a section of Portal das Finanças where receipts with your NIF are collected. For IRS 2025, filed from 1 April to 30 June 2026, check and confirm invoices by 2 March 2026: without validation, some expenses will not be included in deductions. Main limits: general family expenses — 35% up to €250 per taxpayer, healthcare — 15% up to €1,000, education — 30% up to €800, housing rent — 15% up to the set limit, IVA on restaurants/repairs/vets/gyms — up to €250 per household.',
   tags: ['irs', 'efatura', 'deductions', 'nif'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What e-Fatura is and why it means money',
       content: [
         { kind: 'paragraph', text: 'e-Fatura links receipts and invoices to your NIF. When a shop, clinic, restaurant, school or landlord sends an invoice to Finanças, it appears in your personal area. This data is then automatically pulled into the IRS tax return.' },
-        { kind: 'paragraph', text: 'For 2025 expenses, the key date is 25 February 2026: by then you must confirm pending invoices, assign a category and correct errors. The IRS return for 2025 is filed from 1 April to 30 June 2026.' },
+        { kind: 'paragraph', text: 'For 2025 expenses, the key date is 2 March 2026: by then you must confirm pending invoices, assign a category and correct errors. The legal deadline is the last day of February, but in 2026 it shifts to the next working day because 28 February falls on a Saturday. The IRS return for 2025 is filed from 1 April to 30 June 2026.' },
         { kind: 'checklist', items: [
           'Always ask for your NIF to be added to the receipt: “com número de contribuinte, por favor”.',
           'Check e-Fatura at least once a quarter, not only in February.',
@@ -59,7 +59,7 @@ export default {
     },
     {
       id: 'validate',
-      title: 'Validation by 25 February: what to click',
+      title: 'Validation by 2 March: what to click',
       content: [
         { kind: 'substeps', items: [
           { id: 'pending', title: '1. Sort out “Faturas Pendentes”', content: [
@@ -85,7 +85,7 @@ export default {
       id: 'missing-or-wrong',
       title: 'If the receipt is missing or the category is wrong',
       content: [
-        { kind: 'paragraph', text: 'Sellers usually submit invoices by the 5th day of the following month, but delays happen. If the receipt is still missing by February, you can register it manually via “Registar Faturas”, but keep the original: Finanças may request proof.' },
+        { kind: 'paragraph', text: 'Sellers usually submit invoices by the 5th day of the following month, but delays happen. If the receipt is still missing by the end of February, you can register it manually via “Registar Faturas”, but keep the original: Finanças may request proof.' },
         { kind: 'checklist', items: [
           'Check whether the NIF was printed correctly on the receipt.',
           'Compare the date, amount, seller’s NIF and invoice number.',
@@ -93,7 +93,7 @@ export default {
           'If the category is wrong, try changing it in “Complementar Informação”.',
           'If the portal does not allow you to choose educação/saúde, the issue may be the seller’s CAE; ask the provider for a correct invoice or an explanation.',
           'For rent, check not e-Fatura but recibos de renda eletrónicos and contrato de arrendamento in Portal das Finanças.',
-          'After 25 February, corrections are harder: some data can be disputed later during the reclamação period, but it is better not to rely on this.'
+          'After validation closes, corrections are harder: some data can be disputed later during the reclamação period, but it is better not to rely on this.'
         ] },
         { kind: 'warning', text: 'Do not manually add fictitious invoices or invoices already recorded. Duplicates and unconfirmed expenses may lead to an IRS adjustment, juros compensatórios and fines.' }
       ]
@@ -105,7 +105,7 @@ export default {
         { kind: 'paragraph', text: 'After e-Fatura closes, Finanças calculates deduções à coleta. Before filing IRS, check the “Despesas para Deduções à Coleta” page and then Modelo 3 or IRS Automático, if available to you.' },
         { kind: 'checklist', items: [
           'By 15 March, the final deduction amounts usually become visible.',
-          'From 15 to 31 March, you can usually reclamar despesas gerais familiares and exigência de fatura if the amounts are incorrect.',
+          'From 16 to 31 March, you can usually reclamar despesas gerais familiares and exigência de fatura if the amounts are incorrect.',
           'From 1 April to 30 June 2026, the IRS return for 2025 is filed.',
           'Before submitting the return, simulate the result: “Simular”.',
           'Compare tributação conjunta and separada if you are married or in união de facto.',
@@ -151,6 +151,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

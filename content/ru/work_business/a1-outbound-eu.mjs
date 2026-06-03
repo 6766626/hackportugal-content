@@ -3,7 +3,7 @@ export default {
   id: 'a1-outbound-eu',
   categoryId: 'work_business',
   title: 'A1 для работников из Португалии, командированных в ЕС',
-  tldr: 'A1 — справка, что работник, нанятый в Португалии и временно отправленный работодателем в другую страну ЕС, продолжает платить Segurança Social в Португалии, а не в стране командировки. Стандартный лимит — до 24 месяцев по Reg. 883/2004 art. 12. Запрашивает обычно португальский работодатель через Segurança Social Direta до выезда. A1 не заменяет уведомление о posting в принимающей стране, трудовые гарантии и налоговую проверку.',
+  tldr: 'A1 — справка, что работник, нанятый в Португалии и временно отправленный работодателем в другую страну ЕС, продолжает платить Segurança Social в Португалии, а не в стране командировки. Стандартный лимит — до 24 месяцев по Reg. 883/2004 art. 12. Обычно её запрашивает португальский работодатель через Segurança Social Direta до выезда. A1 не заменяет уведомление о posting в принимающей стране, трудовые гарантии и налоговую проверку.',
   tags: ['a1', 'командировка', 'segurança-social', 'ес'],
   estimatedReadMinutes: 5,
   steps: [
@@ -27,9 +27,9 @@ export default {
       id: 'eligibility',
       title: 'Когда можно получить A1 до 24 месяцев',
       content: [
-        { kind: 'paragraph', text: 'Базовое правило — Reg. (EC) 883/2004 art. 12: работник, которого работодатель обычно ведёт деятельность в одной стране ЕС и направляет в другую страну ЕС, может оставаться в системе первой страны, если ожидаемая длительность работы не превышает 24 месяца.' },
+        { kind: 'paragraph', text: 'Базовое правило — Reg. (EC) 883/2004 art. 12: работник, которого работодатель, обычно ведущий существенную деятельность в одной стране ЕС, направляет в другую страну ЕС, может оставаться в системе первой страны, если ожидаемая длительность работы не превышает 24 месяца.' },
         { kind: 'checklist', items: [
-          'У работника есть активная привязка к Segurança Social в Португалии до командировки',
+          'Работник уже подпадает под португальскую Segurança Social до командировки (по практике ЕС — обычно минимум за месяц); найм специально под отправку за рубеж могут оспорить',
           'Есть трудовой договор с португальским работодателем',
           'Работодатель сохраняет authority: определяет задачи, оплату, дисциплину, отпуск',
           'Работа за рубежом заранее ограничена по сроку',
@@ -59,7 +59,7 @@ export default {
             ] }
           ] },
           { id: 'ssd-menu', title: '2. Подать в Segurança Social Direta', content: [
-            { kind: 'paragraph', text: 'Работодатель входит в Segurança Social Direta своим доступом. Меню и названия могут меняться, но нужная услуга относится к pedidos de destacamento / trabalhadores destacados para o estrangeiro / certificado A1.' },
+            { kind: 'paragraph', text: 'Работодатель входит в Segurança Social Direta своим доступом. Меню и названия могут меняться, но на практике путь такой: Emprego > Destacar trabalhador para o estrangeiro > Registar pedido de destacamento. Для срока до 24 месяцев используется форма RV1018-DGSS, для срока свыше 24 месяцев (исключение по art. 16) — форма RV1020-DGSS.' },
             { kind: 'paragraph', text: 'Если в интерфейсе нет нужной опции, практический путь — mensagem/pedido через Segurança Social Direta или контакт с Centro Distrital da Segurança Social работодателя. Для крупных компаний это часто делает payroll или HR-провайдер.' }
           ] },
           { id: 'receive-a1', title: '3. Получить certificado A1', content: [
@@ -105,9 +105,16 @@ export default {
   ],
   costs: [
     { label: 'Запрос A1 в Segurança Social', amountEUR: 0, note: 'Госпошлины за выдачу certificado A1 обычно нет; расходы могут быть только на payroll/юриста/провайдера работодателя.' },
-    { label: 'Штрафы за отсутствие posting compliance', amountEURMin: 0, amountEURMax: 0, note: 'Зависят от страны назначения; проверяйте правила конкретной инспекции труда до выезда.' }
+    { label: 'Штрафы за отсутствие posting compliance', note: 'Суммы зависят от страны назначения; конкретные значения уточняйте в инспекции труда принимающей страны до выезда.' }
   ],
   sources: [
+    {
+      title: 'Segurança Social: destacamento de trabalhadores para o estrangeiro / Documento Portátil A1',
+      url: 'https://www.seg-social.pt/ptss/pssd/menu/trabalho/entrada-saida-destacamento-trabalhadores/destacamento-trabalhadores',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
     {
       title: 'gov.pt: destacamento de trabalhadores de Portugal para países da União Europeia',
       url: 'https://www2.gov.pt/en/cidadaos-europeus-viajar-viver-e-fazer-negocios-em-portugal/trabalhadores-em-portugal/destacamento-de-trabalhadores-para-paises-da-uniao-europeia',
@@ -124,19 +131,19 @@ export default {
     },
     {
       title: 'Regulation (EC) No 883/2004, art. 12 and art. 16 — coordination of social security systems',
-      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004R0883-20140101',
+      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004R0883',
       kind: 'law',
       language: 'en',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Regulation (EC) No 987/2009 — implementing rules for social security coordination',
-      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0987-20180101',
+      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0987',
       kind: 'law',
       language: 'en',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

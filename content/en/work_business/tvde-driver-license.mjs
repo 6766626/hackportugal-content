@@ -18,7 +18,7 @@ export default {
           'Motorista TVDE course — 50 hours at an accredited school',
           'Certificado de motorista TVDE issued by IMT',
           'Clean or acceptable registo criminal for passenger transport',
-          'Write: "Medical and psychological fitness according to Grupo 2 requirements."',
+          'Medical and psychological fitness to Grupo 2 standard, with the Grupo 2 averbamento on the licence',
           'Connection with a licensed operador TVDE: your own operator or working through someone else’s',
           'Vehicle with DUA/Certificado de Matrícula showing TVDE use',
           'Insurance for atividade TVDE, not ordinary private third-party motor insurance',
@@ -39,7 +39,7 @@ export default {
               'NIF',
               'Address in Portugal',
               'Recent registo criminal — usually they ask for a fresh one, not older than 3 months',
-              'Write: "Medical certificate and avaliação psicológica according to Grupo 2 requirements are mandatory for the certificado de motorista TVDE."',
+              'Atestado médico and avaliação psicológica to Grupo 2 standard are mandatory for the certificado de motorista TVDE',
               'Legal right to work in Portugal: residence permit, EU citizenship or another status with access to work'
             ] }
           ] },
@@ -85,10 +85,11 @@ export default {
         { kind: 'paragraph', text: 'An ordinary passenger car with private insurance is not enough. The vehicle must be linked to atividade TVDE and pass document checks with the platform. Uber/Bolt may introduce their own requirements for the car’s age, class, condition and environmental standard — these may be stricter or phrased differently from the law.' },
         { kind: 'checklist', items: [
           'DUA/Certificado de Matrícula showing use for TVDE or the relevant anotação',
-          'Passenger car for passenger transport, usually up to 9 seats including the driver',
+          'Light passenger car with a capacity of no more than 9 seats, including the driver',
           'Matrícula portuguesa',
+          'Vehicle age under 7 years from the date of first registration (Lei 45/2018; check the current version)',
           'Seguro automóvel for transporte remunerado/TVDE, not ordinary private insurance',
-          'Write: "Valid inspeção under the regime applicable to TVDE/transportes remunerados; do not rely on the ordinary private-car schedule — check the periodicidade with IMT/centro de inspeção and the platform."',
+          'Inspeção under the TVDE regime: first one year after first registration, then annually — not the ordinary private-car schedule',
           'Dístico TVDE on the vehicle according to the rules of Lei 45/2018',
           'Owner’s document or rental/leasing contract if the car is not yours',
           'Photos of the vehicle and documents for Uber/Bolt',
@@ -126,7 +127,7 @@ export default {
           'NIF is mandatory for contracts, taxes and platforms',
           'NISS is needed for Segurança Social if you work as a trabalhador independente or employee',
           'Recibos verdes are not always suitable: the model depends on whether you are the driver, the operator or both at once',
-          'Write: "Platform/operator commissions reduce your economic margin, but the tax base depends on the model: trabalhador independente em regime simplificado, contabilidade organizada, ENI or sociedade. Do not automatically assume that all commissions are deductible from IRS/IRC; set up faturação and IVA with a contabilista."',
+          'Platform/operator commissions reduce your margin, but the tax base depends on the model (regime simplificado, contabilidade organizada, ENI or sociedade). Do not assume all commissions are deductible from IRS/IRC — set up faturação and IVA with a contabilista',
           'Costs: fuel/charging, car wash, tyres, maintenance, parking, portagens, Via Verde, insurance',
           'Keep faturas com NIF for expenses related to the activity',
           'If turnover grows, it is better to discuss the IVA regime and contabilidade organizada with a contabilista',
@@ -149,6 +150,6 @@ export default {
     { title: 'Portaria 293/2018 — formação de motoristas TVDE', url: 'https://dre.pt/dre/detalhe/portaria/293-2018-116820880', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Uber Portugal: requirements for TVDE drivers', url: 'https://www.uber.com/pt/pt-pt/drive/requirements/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '202605-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -11,7 +11,7 @@ export default {
       id: 'when-it-applies',
       title: 'Когда можно просить возврат IVA',
       content: [
-        { kind: 'paragraph', text: 'Pedido de reembolso — это возврат накопленного кредита IVA. Он появляется, когда deductible IVA по покупкам, импорту, аренде, бухгалтерии, оборудованию и другим бизнес-расходам больше IVA, который вы начислили клиентам.' },
+        { kind: 'paragraph', text: 'Pedido de reembolso — это возврат накопленного кредита IVA. Он появляется, когда вычитаемый IVA по покупкам, импорту, аренде, бухгалтерии, оборудованию и другим бизнес-расходам больше IVA, который вы начислили клиентам.' },
         { kind: 'checklist', items: [
           'Вы зарегистрированы как sujeito passivo de IVA: самозанятый с atividade aberta или компания.',
           'Вы подаёте declaração periódica de IVA — mensal или trimestral.',
@@ -38,7 +38,7 @@ export default {
           'Для компаний с постоянными инвестициями возврат часто выгоднее, чем бесконечный перенос кредита.',
           'Для фрилансеров с небольшими расходами проще переносить crédito, пока он не достигнет 250 €.'
         ] },
-        { kind: 'warning', text: 'Не смешивайте это с tourist tax free. Здесь речь о возврате IVA бизнесу или самозанятому налогоплательщику, зарегистрированному в Portuguese VAT system.' }
+        { kind: 'warning', text: 'Не смешивайте это с tourist tax free. Здесь речь о возврате IVA бизнесу или самозанятому налогоплательщику, зарегистрированному в португальской системе IVA.' }
       ]
     },
     {
@@ -56,7 +56,7 @@ export default {
           'Зайдите в Finanças → Dados Cadastrais → IBAN и подтвердите банковский счёт.',
           'Сохраните PDF декларации, список invoices и расчёт кредита — AT может запросить документы.'
         ] },
-        { kind: 'warning', text: 'Если вы заявляете крупный reembolso сразу после открытия atividade или покупки дорогого оборудования, это не запрещено, но риск запроса документов выше. Держите invoice, proof of payment, договор и объяснение бизнес-использования.' }
+        { kind: 'warning', text: 'Если вы заявляете крупный reembolso сразу после открытия atividade или покупки дорогого оборудования, это не запрещено, но риск запроса документов выше. Держите invoice, подтверждение оплаты, договор и объяснение бизнес-использования.' }
       ]
     },
     {
@@ -71,7 +71,7 @@ export default {
             { kind: 'paragraph', text: 'Путь в Portal das Finanças меняется, но раздел обычно находится через IVA → Declaração Periódica → Entregar declaração. Выберите период: месячный или квартальный.' }
           ] },
           { id: 'calculate', title: '3. Заполнить IVA и рассчитать crédito', content: [
-            { kind: 'paragraph', text: 'Укажите taxable operations, IVA liquidado, IVA dedutível, regularizações и другие поля. После расчёта проверьте, что получился excesso/crédito.' }
+            { kind: 'paragraph', text: 'Укажите облагаемые операции, IVA liquidado, IVA dedutível, regularizações и другие поля. После расчёта проверьте, что получился excesso/crédito.' }
           ] },
           { id: 'request', title: '4. Заполнить campo 95', content: [
             { kind: 'paragraph', text: 'Впишите сумму возврата в поле 95. Если часть кредита переносите, проверьте поле 96. Отправьте декларацию и сохраните comprovativo.' }
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

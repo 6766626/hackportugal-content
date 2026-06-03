@@ -3,22 +3,22 @@ export default {
   id: 'azores-madeira-subsidy',
   categoryId: 'travel_portugal',
   title: 'Açores e Madeira — Subsídio Social de Mobilidade e como comprar bilhetes',
-  tldr: 'O subsídio estatal Subsídio Social de Mobilidade (SSM) existe para residentes das regiões autónomas dos Açores e da Madeira/Porto Santo em viagens entre a região e o continente (ou entre regiões/ilhas do arquipélago), bem como para estudantes com ligação à região. NÃO funciona para residentes do continente como desconto turístico para voar para as ilhas. O direito é comprovado pela residência na região autónoma. O montante e o número de viagens subsidiadas são definidos pelos Decreto-Lei/Portaria em vigor — confirme as regras actualizadas na ANAC/IMT/SATA. Para turistas do continente — tarifas normais da TAP, SATA, Ryanair (procure ofertas antecipadas e opções low-cost).',
+  tldr: 'O subsídio estatal Subsídio Social de Mobilidade (SSM) existe para residentes das regiões autónomas dos Açores e da Madeira/Porto Santo em viagens entre a região e o continente (ou entre regiões/ilhas do arquipélago), bem como para estudantes com ligação à região. NÃO funciona para residentes do continente como desconto turístico para voar para as ilhas. O direito é comprovado pela residência na região autónoma. O montante do subsídio é definido pelo Decreto-Lei em vigor (37-A/2025, alterado pelo DL 1-A/2026, em vigor desde 15 de janeiro de 2026) — confirme as regras actualizadas em gov.pt. Para turistas do continente — tarifas normais da TAP, SATA, Ryanair (procure ofertas antecipadas e opções low-cost).',
   tags: ['açores', 'madeira', 'subsídio', 'voos'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'stp-overview',
-      title: '✈️ STP — Social Territorial de Passageiros',
+      title: '✈️ Subsídio Social de Mobilidade (SSM)',
       content: [
         { kind: 'paragraph', text: 'Programa de subsidiação de voos entre Portugal continental e as regiões autónomas (Açores, Madeira) — compensa a diferença de preços entre o continente e as ilhas.' },
         { kind: 'checklist', items: [
           '✅ Quem tem direito: residentes da região autónoma dos Açores ou da Madeira/Porto Santo (não do continente!) — estrangeiros com autorização de residência e residência real na região também são elegíveis',
           '✅ Residentes das ilhas → continente: com o SSM o passageiro paga um valor limitado por ida e volta — máximo 119 € (Açores–continente) / 79 € (Madeira–continente); estudantes 89 € / 59 € (Decreto-Lei 37-A/2025, alterado pelo DL 1-A/2026, em vigor desde 15 jan 2026). Este é o valor máximo que paga do seu bolso, não o valor do subsídio',
-          '✅ Residentes do continente → ilhas (como turistas): subsídio mais baixo, dependendo da rota',
-          '✅ Máximo de 4 viagens por ano para residentes das ilhas; 2 — para turistas',
-          '❌ Não se aplica a: viagens de negócios (se pagas pela empresa), não residentes',
-          '💰 Exemplo: bilhete Lisboa—Ponta Delgada 210 € → subsídio 80 € → custo final 130 €'
+          'ℹ️ Os turistas do continente NÃO têm direito — destina-se apenas a residentes da região, residentes equiparados e estudantes',
+          '✅ Pelas regras em vigor desde 15 de janeiro de 2026, foi eliminado o tecto máximo do custo do bilhete e não há limite ao número de viagens subsidiadas por ano',
+          '❌ Não se aplica a: não residentes do continente como desconto turístico',
+          '💰 Exemplo: bilhete Lisboa—Ponta Delgada ida e volta 210 € → paga no máximo 119 €, o subsídio cobre o resto'
         ]}
       ]
     },
@@ -39,9 +39,9 @@ export default {
           { id: 'h2', title: 'Opção B — reembolso após a viagem (Ryanair, outras transportadoras)', content: [
             { kind: 'checklist', items: [
               'Comprou o bilhete ao preço total sem NIF',
-              'Após a viagem — pedido em sata.pt → «Bonificação STP»',
-              'Anexar: cartões de embarque, factura, atestado de residência',
-              'Prazo de reembolso: até 30 dias após o voo',
+              'O pedido é feito online em gov.pt (acesso via Autenticação.gov) — após a compra do bilhete',
+              'A elegibilidade é verificada automaticamente; normalmente não são necessários certificados em papel',
+              'Se for pedido, anexe: cartões de embarque, factura',
               'Dinheiro para o IBAN em 30-60 dias',
               'Burocrático, mas funciona para transportadoras internacionais'
             ]}
@@ -66,10 +66,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'a1', title: 'Açores', content: [
             { kind: 'checklist', items: [
-              'Supersubsídio através da SATA para residentes dos Açores: até 80% de reembolso do custo do bilhete',
-              'Máximo de 6 viagens por ano',
-              'Subsídio adicional para estudantes / casos médicos — até 100%',
-              'Pedido através de srprorainol.azores.gov.pt ou dos serviços municipais'
+              'Complemento regional do Governo dos Açores além do SSM nacional — reduz ainda mais o preço final do bilhete',
+              'Programas de apoio próprios para estudantes e viagens por motivos de saúde',
+              'Condições actuais e pedido — no portal portal.azores.gov.pt'
             ]}
           ]},
           { id: 'm1', title: 'Madeira', content: [
@@ -134,11 +133,12 @@ export default {
     { label: 'Ferry para Porto Santo', amountEURMin: 50, amountEURMax: 80 }
   ],
   sources: [
-    { title: 'SATA Açores — Bonificação STP', url: 'https://www.sata.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'gov.pt — Subsídio Social de Mobilidade', url: 'https://www.gov.pt/servicos/pedir-o-subsidio-social-de-mobilidade', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'SATA Açores — Subsídio Social de Mobilidade', url: 'https://www.sata.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'TAP — residentes açorianos', url: 'https://www.flytap.com/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Governo dos Açores — Apoios', url: 'https://portal.azores.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Governo Regional da Madeira — Apoios', url: 'https://www.madeira.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

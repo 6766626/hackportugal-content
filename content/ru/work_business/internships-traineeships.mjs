@@ -3,7 +3,7 @@ export default {
   id: 'internships-traineeships',
   categoryId: 'work_business',
   title: 'Стажировки (Estágios) — программы и оплата',
-  tldr: 'Estágios — частая стартовая точка карьеры в Португалии.\n\nТипы: IEFP estágios (например Estágios INICIAR / +Talento) — обычно 6–9 месяцев, bolsa зависит от уровня QNQ/образования и считается в IAS (от ~1.3 IAS); Estágios curriculares (университет-партнёр, часто без обязательной оплаты); Estágios de Inserção — отдельная мера IEFP для pessoas com deficiência e incapacidade (не путать с CEI+ для безработных); extracurricular регулируется Decreto-Lei 66/2011 (письменный контракт, seguro, bolsa не ниже IAS €537.13 в 2026); частные стажировки от компаний, 600-1500 €/мес.',
+  tldr: 'Estágios — частая стартовая точка карьеры в Португалии.\n\nТипы: IEFP estágios (Estágios INICIAR — уровни QNQ 4–5; Estágios +Talento — уровни 6–8) обычно длятся 6 месяцев, bolsa зависит от уровня QNQ (в 2026: от €913.12 на уровне 4 до €1396.54 на уровне 8, валовая сумма); Estágios curriculares (университет-партнёр, часто без обязательной оплаты); Estágios de Inserção — отдельная мера IEFP для pessoas com deficiência e incapacidade (не путать с CEI+ для безработных); extracurricular регулируется Decreto-Lei 66/2011 (письменный контракт, seguro, bolsa не ниже IAS €537.13 в 2026); частные стажировки от компаний, 600-1500 €/мес.',
   tags: ['estágio', 'стажировка', 'iefp', 'выпускники'],
   estimatedReadMinutes: 6,
   steps: [
@@ -16,13 +16,13 @@ export default {
             { kind: 'checklist', items: [
               'Государственная программа через IEFP',
               'Цель: первая работа для выпускников / переквалификация',
-              'Длительность: обычно 6–9 мес в зависимости от меры',
-              'Bolsa: зависит от уровня квалификации QNQ и считается в кратных IAS. При IAS 2026 €537.13 ориентиры: 1.3 IAS ≈ €698.27, 1.4 IAS ≈ €751.98, 1.6 IAS ≈ €859.41; проверяйте таблицу конкретной medida IEFP',
-              '+ субсидия на питание ~6 €/рабочий день',
-              'Заменить на: «+ subsídio de alimentação/refeição и seguro de acidentes; транспортная поддержка — только если предусмотрена конкретной medida IEFP или для специальных категорий.»',
-              '+ страхование от несчастных случаев',
+              'Длительность: обычно 6 мес (до 12 мес для pessoas com deficiência); зависит от меры',
+              'Bolsa: зависит от уровня квалификации QNQ (валовая сумма, 2026). Estágios INICIAR — уровни 4–5: €913.12 и €966.83. Estágios +Talento — уровни 6–8: €1181.69 (licenciatura), €1289.11 (mestrado), €1396.54 (doutoramento). Сверяйтесь с ficha síntese конкретной medida на iefp.pt',
+              '+ subsídio de refeição (~€6.15/рабочий день, если работодатель не предоставляет питание)',
+              '+ subsídio de alimentação/refeição и seguro de acidentes; транспортная поддержка — только если предусмотрена конкретной medida IEFP или для специальных категорий',
+              '+ страхование от несчастных случаев (IEFP покрывает ~€17.70/мес)',
               'Подача: iefp.pt → Estágios → пройти регистрацию + подбор компании',
-              'Конкурс: ~30 000 мест в год, заполняются за месяцы'
+              'Число мест зависит от годового бюджета и avisos IEFP; по популярным направлениям места заканчиваются быстро'
             ]}
           ]},
           { id: 't2', title: 'Estágios de Inserção / CEI+ (для разных категорий)', content: [
@@ -35,7 +35,7 @@ export default {
           ]},
           { id: 't3', title: 'Erasmus+ / EURES', content: [
             { kind: 'checklist', items: [
-              'Erasmus+ Trainees: для студентов / недавних выпускников EU',
+              'Erasmus+ Traineeships: для студентов и недавних выпускников вузов, участвующих в Erasmus+; гражданство ЕС само по себе не главный критерий',
               '~3-6 мес в португальской компании',
               'Выплата Erasmus зависит от страны, доплата от EU + грант от домашнего университета',
               '600-1 100 €/мес общая сумма гранта',
@@ -96,7 +96,7 @@ export default {
           ]},
           { id: 'a4', title: '4. Во время estágio', content: [
             { kind: 'checklist', items: [
-              'Заменить на: «Обычно full-time по horário da entidade promotora, в пределах нормального рабочего времени. Возможность part-time нужно проверять в regulamento конкретной medida; по умолчанию на нее рассчитывать нельзя.»',
+              'Обычно full-time по horário da entidade promotora, в пределах нормального рабочего времени. Возможность part-time нужно проверять в regulamento конкретной medida; по умолчанию на неё рассчитывать нельзя',
               'Bolsa выплачивается ежемесячно принимающей организацией; IEFP финансирует/возмещает часть расходов entidade promotora по правилам конкретной меры',
               'Периодические оценки специалистом IEFP',
               'Промежуточный + финальный отчёты (наставник)',
@@ -106,9 +106,9 @@ export default {
           { id: 'a5', title: '5. После', content: [
             { kind: 'checklist', items: [
               'Сертификат IEFP о завершении',
-              'Заменить на: «Часть стажировок переходит в трудовой договор, но доля зависит от программы, работодателя и года; проверяйте статистику/отчеты IEFP по конкретной medida.»',
+              'Часть стажировок переходит в трудовой договор, но доля зависит от программы, работодателя и года; проверяйте статистику и отчёты IEFP по конкретной medida',
               'Если предложения нет — возвращаетесь к поиску работы (право на subsídio de desemprego после estágio не возникает, но могут быть другие пособия)',
-              'Заменить на: «Estágio IEFP можно указывать как профессиональный опыт, но для визы/ВНЖ он не всегда считается трудовым договором или достаточным основанием. Перед использованием estágio для иммиграционной подачи проверьте требования конкретной категории у AIMA/консульства.»'
+              'Estágio IEFP можно указывать как профессиональный опыт, но для визы или ВНЖ он не всегда считается трудовым договором или достаточным основанием. Перед использованием estágio для иммиграционной подачи проверьте требования конкретной категории у AIMA или в консульстве'
             ]}
           ]}
         ]}
@@ -129,9 +129,9 @@ export default {
           ]},
           { id: 'f2', title: 'Не-EU (студенты / работники с визой D)', content: [
             { kind: 'checklist', items: [
-              'D4 Student: можно работать до 20 часов в неделю — стажировка входит',
-              'Procuro Trabalho (D-visa): estágio может засчитываться как «trabalhar»',
-              'Заменить на: «D3 подходит для highly qualified activity, а не для обычной стажировки. Если позиция оформлена как internship/traineeship, нужно отдельно проверять подходящую визу/ВНЖ: student, traineeship/research/temporary stay или work-based route — в зависимости от договора и принимающей организации.»',
+              'Студенты (residência para estudo): могут работать или проходить стажировку, если деятельность совместима с учёбой. О работе нужно уведомить AIMA (с контратом/декларацией о начале деятельности и регистрацией в Segurança Social). На практике для ensino superior ориентируются на ~20 часов в неделю в учебный период, но жёсткого универсального лимита в законе нет — проверяйте условия вашего título de residência',
+              'Виза para procura de trabalho: стажировка может помочь найти работодателя, но сама по себе не всегда является contrato de trabalho для последующего ВНЖ. До estágio и до подачи на residência проверьте, будет ли у вас именно трудовой договор или иное подходящее основание',
+              'D3 подходит для highly qualified activity, а не для обычной стажировки. Если позиция оформлена как internship/traineeship, отдельно проверяйте подходящую визу или ВНЖ: student, traineeship/research/temporary stay или work-based route — в зависимости от договора и принимающей организации',
               'Estágios IEFP требуют ВНЖ / паспорт EU — туристическая виза не подходит',
               'TPD (Ukraine): полные права на работу, включая estágio'
             ]}
@@ -147,11 +147,11 @@ export default {
       title: '💡 Советы',
       content: [
         { kind: 'checklist', items: [
-          '🎯 Подавайтесь рано: IEFP открывает наборы каждые 2-3 мес, места заполняются быстро',
+          '🎯 Подавайтесь рано: IEFP открывает avisos и периоды подачи по конкретным мерам и бюджету; расписание не фиксированное, поэтому следите за iefp.pt и avisos da medida',
           '📝 CV на португальском: максимум 2 страницы, фото обычно ожидается, рекомендации приветствуются',
           '🗣️ Язык: португальский для большинства; технологии / консалтинг / стартапы часто дружелюбны к английскому',
           '🌐 Технологическая / стартап-сцена в Лиссабоне: проще для иностранцев, больше англоязычное сообщество',
-          'Заменить на: «Bolsa de estágio обычно может облагаться IRS как rendimento de trabalho/dependent income, но retenção na fonte зависит от суммы, статуса и актуальных таблиц; на низких bolsas удержание может быть нулевым. Итоговый налог считается в годовой декларации IRS.»',
+          '💰 Налоги: bolsa de estágio обычно облагается IRS как rendimento de trabalho, но retenção na fonte зависит от суммы, статуса и актуальных таблиц — на низких bolsas удержание может быть нулевым. Из bolsa IEFP также удерживают 11% в Segurança Social. Итоговый налог считается в годовой декларации IRS',
           '🎓 Дополнительно к estágio: оформить Cartão Jovem (€8/год) — скидки на транспорт, музеи',
           '🏆 Outsystems / Critical: лучшие компании для технологических стажировок, возможен переход на полную занятость + поддержка с разрешением на работу',
           '📅 Сезонность: IT-стажировки — основной набор сентябрь / февраль; финансы — июнь-июль; государственные программы — ежеквартально'
@@ -160,18 +160,20 @@ export default {
     }
   ],
   costs: [
-    { label: 'Bolsa IEFP estágio (1.3 IAS)', amountEUR: 698, note: '≈€698.27/мес при IAS 2026 €537.13' },
-    { label: 'Bolsa IEFP estágio (1.6 IAS)', amountEUR: 859, note: '≈€859.41/мес для более высокого уровня' },
+    { label: 'Bolsa Estágios INICIAR (уровень QNQ 4)', amountEUR: 913, note: '€913.12/мес валовая, 2026' },
+    { label: 'Bolsa Estágios +Talento (уровень QNQ 8)', amountEUR: 1397, note: '€1396.54/мес валовая, doutoramento, 2026' },
     { label: 'Минимум для extracurricular (Decreto-Lei 66/2011)', amountEUR: 537, note: 'IAS 2026 €537.13' },
     { label: 'Частная технологическая стажировка', amountEURMin: 800, amountEURMax: 1500, note: '€/мес' },
     { label: 'Грант Erasmus+ для стажёра', amountEURMin: 600, amountEURMax: 1100, note: '€/мес' },
     { label: 'Учебная стажировка', amountEURMin: 0, amountEURMax: 700, note: '€/мес' }
   ],
   sources: [
-    { title: 'IEFP — Estágios Profissionais', url: 'https://www.iefp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'IEFP — Estágios INICIAR', url: 'https://iefponline.iefp.pt/IEFP/medida/estagios-iniciar/overview.jsp', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'IEFP — Estágios +Talento', url: 'https://iefponline.iefp.pt/IEFP/medida/estagios-mais-talento/overview.jsp', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Decreto-Lei n.º 66/2011 (estágios extracurriculares)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/66-2011-673471', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Erasmus+ Portugal', url: 'https://erasmusmais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'EURES Portugal', url: 'https://eures.europa.eu/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -111,6 +111,6 @@ export default {
     { title: 'Segurança Social — contributions for employees', url: 'https://www.seg-social.pt/trabalhadores-por-conta-de-outrem', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'INE — remuneration statistics in Portugal', url: 'https://www.ine.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

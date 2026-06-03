@@ -35,7 +35,7 @@ export default {
       title: 'Main routes (2026 prices)',
       content: [
         { kind: 'checklist', items: [
-          'Lisbon ↔ Porto AP: 2 h 45 min, €25–40 (discounts up to -65% when buying 5 days in advance)',
+          'Lisbon ↔ Porto AP: 2 h 45 min, €25–40 (discounts up to -65% when buying 8+ days in advance)',
           'Lisbon ↔ Porto IC: 3 h, €20–32',
           'Lisbon ↔ Coimbra AP: 1 h 40 min, €18–25',
           'Lisbon ↔ Faro (Alentejo — Algarve): 3 h AP / 3 h 40 min IC, €20–35',
@@ -57,9 +57,9 @@ export default {
           ]},
           { id: 'b2', title: '2. Discounts — plan ahead', content: [
             { kind: 'checklist', items: [
-              '5 days in advance: -65% on AP (Lisbon — Porto from €40 to €14)',
-              '2 days in advance: -40%',
-              'Cartão Jovem (up to 30 years old): -25%',
+              '8+ days in advance: up to -65% on AP and IC (Lisbon — Porto from €40 to about €14)',
+              '5–7 days in advance: up to -56%',
+              'Cartão Jovem (ages 12–30): -25% on IC and Regional (not valid on AP)',
               'Cartão Amigo (annual card for €25): -20% on all journeys',
               'Family discount: 4+ = -50% for children aged 4–12',
               'Students with ID — additional discounts'
@@ -93,7 +93,7 @@ export default {
             { kind: 'checklist', items: [
               'Campanhã — main station, AP/IC',
               'São Bento — tourist station (azulejo tiles), Urbanos',
-              'Trindade — metro and Urbanos'
+              'Contumil — Urbanos hub, interchange for the north and east'
             ]}
           ]}
         ]}
@@ -104,6 +104,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Infraestruturas de Portugal', url: 'https://www.infraestruturasdeportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

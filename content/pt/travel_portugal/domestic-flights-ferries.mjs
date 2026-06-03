@@ -64,7 +64,7 @@ export default {
           'Madeira e Açores têm climas diferentes. Na Madeira, as temperaturas mantêm-se estáveis nos +20–25 °C; nos Açores, o tempo é variável',
           'Para a Madeira / Açores, reserve com antecedência: na época alta, julho–agosto, os preços são 2 vezes mais altos',
           'Ferries em Lisboa: use o cartão Navegante, fica mais barato',
-          'Aeroporto → cidade: Lisboa, Alameda, metro 1,70 €, 20 min; Porto, Aeroporto, metro (linha violeta), 2,25 €, 30 min',
+          'Aeroporto → cidade: Lisboa, Alameda, metro 1,90 €, 20 min; Porto, Aeroporto, metro (linha violeta), 2,25 €, 30 min',
           'Ryanair — leve sempre bagagem de cabine, a bagagem de porão é paga à parte',
           'TAP Miles & Go — acumulação de milhas (pode ser através do cartão Millennium BCP)'
         ]}
@@ -77,6 +77,6 @@ export default {
     { title: 'Atlânticoline', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Transtejo Soflusa — ferries através do Tejo', url: 'https://ttsl.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'oe-engenheiros-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Engenheiros: como um engenheiro estrangeiro pode obter o direito de assinar projectos',
-  tldr: 'Para a maioria dos projectos de engenharia em Portugal, um diploma estrangeiro por si só não basta: para assinar peças escritas/desenhadas e termo de responsabilidade para a Câmara Municipal, é necessário ter estatuto na Ordem dos Engenheiros ou noutra ordem/associação reconhecida da especialidade. Em 2026, o percurso depende do país do diploma: UE/EEE — através da Lei 9/2009 e do reconhecimento da qualificação profissional; UK Chartered Engineer — através do MRA Engineering Council–OE; non-EU — normalmente DGES reconhecimento + candidatura à OE + relatório profissional/avaliação da experiência.',
+  tldr: 'Para a maioria dos projectos de engenharia em Portugal, um diploma estrangeiro por si só não basta: para assinar peças escritas/desenhadas e termo de responsabilidade para a Câmara Municipal, é necessário ser técnico legalmente habilitado ao abrigo da Lei 31/2009 — normalmente através de uma inscrição válida na Ordem dos Engenheiros (OE) ou na Ordem dos Engenheiros Técnicos (OET) da especialidade. Em 2026, o percurso depende do país do diploma: UE/EEE — através da Lei 9/2009 e do reconhecimento da qualificação profissional; UK Chartered Engineer — através do MRA Engineering Council–OE; Brasil — através do Termo de Reciprocidade OE–CONFEA; restantes non-EU — normalmente DGES reconhecimento + candidatura à OE + relatório profissional/avaliação da experiência.',
   tags: ['engenheiros', 'projectos', 'ordem', 'dges'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,11 +12,11 @@ export default {
       title: 'Para que serve a Ordem dos Engenheiros',
       content: [
         { kind: 'paragraph', text: 'A Ordem dos Engenheiros (OE) é uma associação pública profissional de engenheiros. A inscrição, por si só, não substitui uma licença de construção, mas para projectar é muitas vezes o passe prático: o cliente, a Câmara Municipal, a fiscalização e a seguradora querem ver que o técnico autor tem uma inscrição válida e competência na especialidade.' },
-        { kind: 'paragraph', text: 'Nos projectos para licenciamento/comunicação prévia, normalmente são entregues peças do projeto e termo de responsabilidade. Este é assinado por um técnico legalmente habilitado. Nas disciplinas de engenharia, regra geral, trata-se de um membro efetivo OE ou de um especialista de outra associação profissional aplicável, se a lei admitir essa profissão para o projecto concreto.' },
+        { kind: 'paragraph', text: 'Nos projectos para licenciamento/comunicação prévia, normalmente são entregues peças do projeto e termo de responsabilidade. Quem é técnico legalmente habilitado é definido pela Lei 31/2009 (qualificação dos técnicos de projeto, direção de obra e fiscalização) — a Câmara não verifica a inscrição em si, mas a habilitação para aquele tipo concreto de projecto. Nas disciplinas de engenharia, regra geral, trata-se de um membro efetivo da Ordem dos Engenheiros ou de um membro da Ordem dos Engenheiros Técnicos, dentro dos seus atos próprios e da especialidade; em alguns domínios a lei admite outros técnicos.' },
         { kind: 'checklist', items: [
           'Estruturas de construção: estabilidade, betão, aço, geotecnia — normalmente é necessário um engenheiro com a especialidade adequada',
-          'Águas, esgotos, águas pluviais, gás, térmica, acústica, segurança contra incêndio — verificam o perfil e a experiência',
-          'Projectos electrotécnicos: a OE pode ser suficiente, mas para alguns trabalhos são necessárias regras próprias da DGEG/entidade inspetora',
+          'Águas, esgotos, águas pluviais — normalmente por especialidade e habilitação; gás, eletricidade, térmica/SCE e segurança contra incêndio exigem muitas vezes registo próprio na DGEG, ADENE ou ANEPC além da OE/OET',
+          'A SCIE para as 2.ª, 3.ª e 4.ª categorias de risco é assinada por técnico credenciado pela ANEPC; trabalho energético/SCE por perito qualificado ADENE — a inscrição na OE/OET não basta',
           'A assinatura de um arquitecto não substitui a de um engenheiro nas especialidades de engenharia',
           'Uma empresa estrangeira pode ser empreiteiro, mas o signatário do projecto deve ter habilitação profissional portuguesa',
           'Um PDF com assinatura sem termo de responsabilidade e número de inscrição OE muitas vezes não é aceite',
@@ -46,7 +46,8 @@ export default {
             { kind: 'paragraph', text: 'Na prática, isto não é uma “substituição automática do cartão”: a OE continua a verificar documentos, disciplina, good standing e correspondência com a especialidade portuguesa. Mas o MRA reduz a incerteza e é geralmente mais forte do que uma candidatura non-EU comum sem estatuto profissional.' }
           ]},
           { id: 'non-eu', title: 'Diploma fora da UE: reconhecimento + relatório profissional', content: [
-            { kind: 'paragraph', text: 'Para diplomas da Rússia, Bielorrússia, Ucrânia, Cazaquistão, Brasil e outros países non-EU, a OE normalmente analisa não só o diploma, mas também o reconhecimento académico em Portugal. Um primeiro passo frequente é o reconhecimento de grau académico através da DGES/de uma instituição de ensino superior portuguesa ao abrigo do Decreto-Lei 66/2018: reconhecimento automático, de nível ou específico.' },
+            { kind: 'paragraph', text: 'Para diplomas da Rússia, Bielorrússia, Ucrânia, Cazaquistão e outros países non-EU, a OE normalmente analisa não só o diploma, mas também o reconhecimento académico em Portugal. Um primeiro passo frequente é o reconhecimento de grau académico através da DGES/de uma instituição de ensino superior portuguesa ao abrigo do Decreto-Lei 66/2018: reconhecimento automático, de nível ou específico.' },
+            { kind: 'paragraph', text: 'O Brasil é um caso à parte: para o reconhecimento académico também é non-EU, mas se estiver inscrito no sistema CONFEA/CREA, verifique o Termo de Reciprocidade em vigor entre a OE e o CONFEA. Assenta na reciprocidade total (sobre competências profissionais, sem revalidação do diploma) e dá normalmente um percurso mais rápido do que uma candidatura non-EU comum.' },
             { kind: 'paragraph', text: 'Depois, a OE avalia a candidatura. Para um engenheiro non-EU, o documento-chave é o relatório profissional: um relatório estruturado sobre projectos, responsabilidades, cálculos, normas, software, obras e o papel do candidato. O objectivo é demonstrar que você não “trabalhou apenas como engenheiro”, mas desempenhou pessoalmente funções de nível de engenheiro português.' }
           ]}
         ] }
@@ -103,7 +104,8 @@ export default {
           'Não assine secções fora da sua competência: é um risco disciplinar e segurador',
           'Guarde cálculos, versões de desenhos e correspondência: a fiscalização pode pedir fundamentação',
           'Confirme com a seguradora a responsabilidade civil profissional: a inscrição na OE não equivale a cobertura automática de todos os riscos',
-          'Para projectos ao abrigo de normas portuguesas, use Eurocódigos, legislação nacional e regulamentos municipais, não apenas as normas do país de origem'
+          'Para projectos ao abrigo de normas portuguesas, use Eurocódigos, legislação nacional e regulamentos municipais, não apenas as normas do país de origem',
+          'Antes de assinar secções especiais, verifique o registo/entidade competente próprio: ANEPC para SCIE (categorias de risco 2–4), ADENE/SCE para o perito qualificado e certificação energética, DGEG/entidade inspetora para gás e eletricidade — uma declaração da OE não substitui estes registos'
         ] },
         { kind: 'warning', text: 'Assinar “por um amigo”, assinar um projecto que não verificou ou usar o número OE de outra pessoa é um risco directo de processo disciplinar, responsabilidade civil e recusa da Câmara no licenciamento.' }
       ]
@@ -118,7 +120,7 @@ export default {
           'Faça uma tabela de correspondência entre as suas disciplinas e a especialidade OE portuguesa',
           'Para non-EU, inicie antecipadamente o reconhecimento DGES: sem ele, a OE pode não aceitar a parte académica',
           'Se for CEng do UK, obtenha primeiro junto do Engineering Council a confirmação de estatuto e good standing',
-          'Traduza os documentos principais para português por tradutor juramentado/tradutor ou por um método aceite pela OE',
+          'Obtenha uma certified translation dos documentos principais para português por um método aceite pela OE/DGES: tradução certificada por notário, advogado, solicitador ou consulado (Portugal não tem um sistema único de “tradutor juramentado” — confirme os requisitos da entidade recetora)',
           'No relatório profissional, escreva de forma concreta: obra, ano, área/potência, normas, cálculo, a sua assinatura ou responsabilidade',
           'Não prometa ao cliente um prazo de licenciamento enquanto a OE não confirmar a habilitação',
           'Após a inscrição, acompanhe quotas e regularidade: atrasos no pagamento das quotas podem prejudicar a declaração para a Câmara'
@@ -169,6 +171,20 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'Lei 31/2009 — qualificação dos técnicos de projeto, direção e fiscalização de obra',
+      url: 'https://diariodarepublica.pt/dr/detalhe/lei/31-2009-491903',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
+      title: 'ANEPC — credenciação de técnicos de SCIE (segurança contra incêndio em edifícios)',
+      url: 'https://prociv.gov.pt/pt/seguranca-contra-incendio/servicos/credenciacao-de-entidades/',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
       title: 'DGES — reconhecimento de graus e diplomas estrangeiros',
       url: 'https://www.dges.gov.pt/pt/pagina/reconhecimento',
       kind: 'official',
@@ -176,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

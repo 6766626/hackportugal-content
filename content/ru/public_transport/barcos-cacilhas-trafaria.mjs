@@ -3,7 +3,7 @@ export default {
   id: 'barcos-cacilhas-trafaria',
   categoryId: 'public_transport',
   title: 'Паромы Лиссабона: Cacilhas, Trafaria, Seixal, Montijo, Barreiro',
-  tldr: 'Паромы Transtejo & Soflusa — быстрый способ пересечь Tejo без моста и пробок. Основные линии: Cais do Sodré–Cacilhas, Cais do Sodré–Seixal, Cais do Sodré–Montijo, Belém–Porto Brandão–Trafaria и Terreiro do Paço–Barreiro. В 2026 разовые билеты обычно стоят около 1,45–3,15 €, zapping чуть дешевле, passe Navegante Metropolitano за 40 €/мес покрывает все эти линии. Лучший выбор для Almada/Cacilhas и Barreiro; для Pragal/Setúbal часто быстрее Fertagus.',
+  tldr: 'Паромы Transtejo & Soflusa — быстрый способ пересечь Tejo без моста и пробок. Основные линии: Cais do Sodré–Cacilhas, Cais do Sodré–Seixal, Cais do Sodré–Montijo, Belém–Porto Brandão–Trafaria и Terreiro do Paço–Barreiro. В 2026 разовые билеты обычно стоят около 1,50–3,25 €, zapping иногда чуть дешевле, passe Navegante Metropolitano за 40 €/мес покрывает все эти линии. Лучший выбор для Almada/Cacilhas и Barreiro; для Pragal/Setúbal часто быстрее Fertagus.',
   tags: ['barcos', 'navegante', 'cacilhas', 'trafaria'],
   estimatedReadMinutes: 5,
   steps: [
@@ -30,14 +30,15 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Все эти линии входят в систему Navegante. Если у вас месячный passe Navegante Metropolitano за 40 €, отдельный билет на паром не нужен: просто валидируете карту на турникете. Navegante Municipal за 30 € работает только в пределах выбранного município и обычно не подходит для ежедневного пересечения Tejo между Лиссабоном и южным берегом.' },
         { kind: 'checklist', items: [
-          'Passe Navegante Metropolitano: 40 €/мес — покрывает Lisbon Metropolitan Area, включая паромы Transtejo/Soflusa, Metro, Carris, CP Urbanos, Fertagus в зоне AML и Carris Metropolitana.',
+          'Passe Navegante Metropolitano: 40 €/мес — покрывает Лиссабонскую агломерацию (AML), включая паромы Transtejo/Soflusa, Metro, Carris, CP Urbanos, Fertagus в зоне AML и Carris Metropolitana.',
           'Passe Navegante Municipal: 30 €/мес — для поездок внутри одного município; перед покупкой проверьте, покрывает ли ваш маршрут.',
-          'Zapping на cartão Navegante — удобно для редких поездок; списание обычно дешевле бумажного/разового билета.',
+          'Zapping на cartão Navegante — удобно для редких поездок; на некоторых линиях списание дешевле разового билета.',
           'Разовый билет покупают в автомате или кассе терминала; он действует на конкретную речную линию, а не как полноценная пересадка на метро.',
-          'Для Cais do Sodré ⇄ Cacilhas ориентир по разовому тарифу — около 1,50 €.',
-          'Для Belém ⇄ Porto Brandão/Trafaria ориентир — около 1,45 €.',
-          'Для Seixal и Barreiro ориентир — около 2,80 €.',
-          'Для Montijo ориентир — около 3,15 €.',
+          'Для Cais do Sodré ⇄ Cacilhas ориентир: разовый билет — около 2,00 €, zapping — около 1,60 €.',
+          'Для Belém ⇄ Porto Brandão/Trafaria ориентир — около 1,50 €.',
+          'Для Cais do Sodré ⇄ Seixal ориентир — около 2,85 €.',
+          'Для Terreiro do Paço ⇄ Barreiro ориентир — около 2,95 €.',
+          'Для Cais do Sodré ⇄ Montijo ориентир — около 3,25 €.',
           'Детские, школьные, sub23 и senior-тарифы зависят от статуса и оформления профиля Navegante; без профиля валидатор спишет обычный тариф.'
         ] },
         { kind: 'warning', text: 'Не путайте passe и zapping. Если на карте есть месячный Navegante Metropolitano, поездка покрыта. Если месячного passe нет, на карте должен быть положительный zapping-баланс или отдельный билет. Контролёры на паромах встречаются регулярно.' }
@@ -54,7 +55,7 @@ export default {
           'Pragal, Corroios, Fogueteiro, Coina, Setúbal: часто быстрее Fertagus, потому что поезд идёт напрямую к Entrecampos, Sete Rios, Campolide и Roma-Areeiro.',
           'Seixal ⇄ Cais do Sodré/Chiado/Baixa: паром обычно конкурентен автобусам, особенно в час пик, когда мосты стоят.',
           'Barreiro ⇄ Baixa/Alfama: Soflusa до Terreiro do Paço удобнее, чем автобус через мост, если ваш пункт назначения в центре.',
-          'Montijo ⇄ Cais do Sodré: паром хорош для commuting в центр, но вечером и в выходные проверяйте интервалы заранее.',
+          'Montijo ⇄ Cais do Sodré: паром удобен для ежедневных поездок в центр, но вечером и в выходные проверяйте интервалы заранее.',
           'Trafaria/Caparica: линия из Belém полезна, если вы уже на западной стороне Лиссабона; из Baixa часто быстрее ехать через Cacilhas или автобусом — зависит от расписания.',
           'Аэропорт: обычно не паром. Смотрите Metro/автобус/такси до Cais do Sodré или Terreiro do Paço, затем паром.'
         ] }
@@ -100,16 +101,17 @@ export default {
   costs: [
     { label: 'Passe Navegante Metropolitano', amountEUR: 40, note: 'Месячный проездной по AML; покрывает Transtejo/Soflusa и большинство городского транспорта.' },
     { label: 'Passe Navegante Municipal', amountEUR: 30, note: 'Месячный проездной внутри одного município; для пересечения Tejo обычно недостаточен.' },
-    { label: 'Разовый билет Cais do Sodré ⇄ Cacilhas', amountEUR: 1.5, note: 'Ориентир тарифа 2026; zapping обычно немного дешевле.' },
-    { label: 'Разовый билет Belém ⇄ Porto Brandão/Trafaria', amountEUR: 1.45, note: 'Ориентир тарифа 2026; проверяйте актуальную tabela tarifária TTSL.' },
-    { label: 'Разовый билет Seixal или Barreiro', amountEUR: 2.8, note: 'Ориентир для Cais do Sodré–Seixal и Terreiro do Paço–Barreiro.' },
-    { label: 'Разовый билет Cais do Sodré ⇄ Montijo', amountEUR: 3.15, note: 'Ориентир тарифа 2026; zapping обычно дешевле разового билета.' }
+    { label: 'Разовый билет Cais do Sodré ⇄ Cacilhas', amountEUR: 2.0, note: 'Ориентир тарифа 2026; zapping на этой линии около 1,60 €.' },
+    { label: 'Разовый билет Belém ⇄ Porto Brandão/Trafaria', amountEUR: 1.5, note: 'Ориентир тарифа 2026; проверяйте актуальную tabela tarifária TTSL.' },
+    { label: 'Разовый билет Cais do Sodré ⇄ Seixal', amountEUR: 2.85, note: 'Ориентир тарифа 2026; проверяйте актуальную tabela tarifária TTSL.' },
+    { label: 'Разовый билет Terreiro do Paço ⇄ Barreiro', amountEUR: 2.95, note: 'Ориентир тарифа 2026; проверяйте актуальную tabela tarifária TTSL.' },
+    { label: 'Разовый билет Cais do Sodré ⇄ Montijo', amountEUR: 3.25, note: 'Ориентир тарифа 2026; проверяйте актуальную tabela tarifária TTSL.' }
   ],
   sources: [
     { title: 'TTSL — horários, tarifas и avisos Transtejo/Soflusa', url: 'https://ttsl.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transtejo — informação institucional e ligações fluviais', url: 'https://www.transtejo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Navegante — passes e tarifas da Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

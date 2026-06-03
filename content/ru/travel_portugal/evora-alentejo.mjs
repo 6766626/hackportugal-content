@@ -96,12 +96,12 @@ export default {
       title: 'Советы',
       content: [
         { kind: 'checklist', items: [
-          '🗓️ Лучшие сезоны: апрель-май (цветение), сентябрь-октябрь (урожай, мягкий климат)',
+          '🗓️ Лучшие сезоны: апрель — май (цветение), сентябрь — октябрь (урожай, мягкий климат)',
           '🔥 Летом +35–40°C — жарко. Планируйте осмотр утром и вечером',
           '🏨 Pousadas — сеть отелей в исторических зданиях (монастыри, крепости). Pousada de Évora, Pousada de Estremoz, Pousada de Crato',
           '🚗 Авто обязательно для исследования региона',
-          '🎫 Évora Card: € 15 (3 дня) — музеи + транспорт со скидкой',
-          '💶 Цены ниже, чем в Лиссабоне/Порту, — пляжи и регион недооценены',
+          '🎫 Évora Ticket: единый билет в музеи и памятники сети Évora Museum — € 8 (1 день), € 10 (2 дня), € 12 (3 дня)',
+          '💶 Цены ниже, чем в Лиссабоне и Порту, — регион пока недооценён туристами',
           '🌻 Маршрут: Évora → Monsaraz → Marvão (2–3 дня)'
         ]}
       ]
@@ -112,6 +112,6 @@ export default {
     { title: 'Câmara Municipal de Évora — туристическая информация', url: 'https://www.cm-evora.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Alentejo', url: 'https://www.visitportugal.com/pt-pt/destinos/alentejo', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

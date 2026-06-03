@@ -3,7 +3,7 @@ export default {
   id: 'coimbra',
   categoryId: 'travel_portugal',
   title: 'Coimbra — a universidade mais antiga de Portugal',
-  tldr: 'Coimbra é uma cidade universitária no centro do país, a 1 h de Lisboa ou do Porto de comboio. Universidade de Coimbra (UNESCO, 1290), com a lendária Biblioteca Joanina. Ambiente de antiga academia, variante masculina do fado. 1 dia é suficiente.',
+  tldr: 'Coimbra é uma cidade universitária no centro do país, a 1–2 h de Lisboa ou do Porto de comboio. Universidade de Coimbra (UNESCO, 1290), com a lendária Biblioteca Joanina. Ambiente de antiga academia, variante masculina do fado. 1 dia é suficiente.',
   tags: ['coimbra', 'universidade', 'excursão'],
   estimatedReadMinutes: 6,
   steps: [
@@ -68,7 +68,7 @@ export default {
       title: 'Nas proximidades',
       content: [
         { kind: 'checklist', items: [
-          '🏛️ Conímbriga (15 km) — ruínas da maior cidade romana de Portugal, século II a. C. Mosaicos, fórum, termas. 5 €',
+          '🏛️ Conímbriga (15 km) — ruínas da cidade romana mais bem preservada de Portugal (séculos I–III d. C.). Mosaicos, fórum, termas. 5 €',
           '🌲 Serra da Lousã (30 km) — montanhas com aldeias de xisto (Talasnal, Candal, Cerdeira)',
           '⛰️ Penela (30 km) — castelo medieval do século XII',
           '🏖️ Figueira da Foz (45 km) — estância balnear no oceano',
@@ -96,6 +96,6 @@ export default {
     { title: 'Turismo de Coimbra — turismo municipal', url: 'https://www.visitportugal.com/en/node/73754', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo do Centro — região', url: 'https://www.turismodocentro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

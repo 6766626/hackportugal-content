@@ -3,7 +3,7 @@ export default {
   id: 'uber-eats-restaurante-onboarding',
   categoryId: 'work_business',
   title: 'Регистрация ресторана на Uber Eats / Glovo / Bolt Food',
-  tldr: 'Подключение ресторана к Uber Eats, Glovo или Bolt Food в Португалии — это не просто загрузить меню: платформы обычно берут comissão 25–30% + IVA, договоры могут включать промо-скидки, штрафы за отмены и ограничения видимости. К апрелю 2026 ресторан должен иметь легальную atividade, ASAE/ленивый HACCP-пакет, Livro de Reclamações, цены с IVA и фискальные документы с QR/ATCUD через сертифицированный software, иначе споры с платформой быстро превращаются в проблемы с AT и ASAE.',
+  tldr: 'Подключение ресторана к Uber Eats, Glovo или Bolt Food в Португалии — это не просто загрузить меню: платформы обычно берут comissão 25–30% + IVA, договоры могут включать промо-скидки, штрафы за отмены и ограничения видимости. К апрелю 2026 ресторан должен иметь легальную atividade, ASAE/упрощённый HACCP-пакет, Livro de Reclamações, цены с IVA и фискальные документы с QR/ATCUD через сертифицированный software, иначе споры с платформой быстро превращаются в проблемы с AT и ASAE.',
   tags: ['restaurante', 'delivery', 'asae', 'atcud'],
   estimatedReadMinutes: 6,
   steps: [
@@ -33,7 +33,7 @@ export default {
         { kind: 'paragraph', text: 'В Португалии Uber Eats, Glovo и Bolt Food обычно работают как маркетплейс + логистика. Комиссия не установлена законом: её дают в коммерческом предложении и договоре. Для small restaurant в 2026 реальный ориентир — 25–30% от заказа, иногда ниже при самовывозе или собственных курьерах, иногда выше с paid visibility, promos и delivery handled by platform.' },
         { kind: 'checklist', items: [
           'Comissão: процент от food subtotal или от всей корзины — проверьте базу расчёта',
-          'IVA на комиссию платформы: 30% + 23% IVA = 36,9% только в cash-flow. Если ваше предприятие — VAT-taxable с правом вычета, этот IVA вычитается как input VAT (или reverse charge для платформ из-за рубежа) — экономическая нагрузка остаётся 30%, не 36,9%. Уточняйте с TOC',
+          'IVA на комиссию платформы: 30% + 23% IVA = 36,9% только на уровне cash-flow. Если ваше предприятие — VAT-taxable с правом вычета, этот IVA вычитается как input VAT (или reverse charge для платформ из-за рубежа) — экономическая нагрузка остаётся 30%, не 36,9%. Уточняйте с TOC',
           'Кто оплачивает промо: скидка «-20%» часто списывается с ресторана полностью или частично',
           'Delivery fee: остаётся платформе или влияет на вашу выплату — смотрите payout statement',
           'Refunds: кто платит за «missing item», холодную еду, отмену курьера и chargeback',
@@ -112,7 +112,7 @@ export default {
           'Formação básica de higiene alimentar для персонала',
           'Упаковка food grade, подходящая для горячей/жирной еды',
           'Allergen information доступна до покупки в app и на упаковке/чеке, если нужно',
-          'Livro de Reclamações и ответ на reclamação в срок',
+          'Livro de Reclamações и ответ на reclamação в срок: для электронной книги — обычно до 15 рабочих дней (dias úteis)',
           'Цены и promo не вводят в заблуждение: цена, количество, composição блюда соответствуют факту'
         ] },
         { kind: 'warning', text: 'ASAE может прийти после жалобы из app: «food poisoning», аллерген не указан, недовес, плесень, посторонний предмет, отсутствие Livro de Reclamações. Храните фото/логи приготовления спорных заказов минимум до закрытия спора с платформой.' }
@@ -195,6 +195,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

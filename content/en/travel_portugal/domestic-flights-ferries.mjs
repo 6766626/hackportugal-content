@@ -64,7 +64,7 @@ export default {
           'Madeira and the Azores have different climates. In Madeira it is consistently +20–25 °C, while the Azores have changeable weather',
           'For Madeira / Azores, book in advance: in peak season, July–August, prices are 2 times higher',
           'Ferries in Lisbon: use the Navegante card, it is cheaper',
-          'Airport → city: Lisbon, Alameda, metro €1.70, 20 min; Porto, Aeroporto, metro (purple line), €2.25, 30 min',
+          'Airport → city: Lisbon, Alameda, metro €1.90, 20 min; Porto, Aeroporto, metro (purple line), €2.25, 30 min',
           'Ryanair — always take hand luggage; you have to pay extra for checked luggage',
           'TAP Miles & Go — earn miles (possible via a Millennium BCP card)'
         ]}
@@ -77,6 +77,6 @@ export default {
     { title: 'Atlânticoline', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Transtejo Soflusa — ferries across the Tagus', url: 'https://ttsl.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

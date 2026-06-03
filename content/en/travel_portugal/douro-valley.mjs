@@ -56,7 +56,7 @@ export default {
             { kind: 'paragraph', text: 'Moscatel do Douro (sweet wine), famous since the 17th century. A village among vineyards. Visit Adega Cooperativa de Favaios.' }
           ]},
           { id: 's6', title: 'Barragem do Carrapatelo', content: [
-            { kind: 'paragraph', text: 'A dam with a 35 m navigation lock — the highest in Europe. Cruise ships pass through it.' }
+            { kind: 'paragraph', text: 'A dam with a navigation lock: a 35 m lift — one of the highest in Europe. Cruise ships pass through it.' }
           ]}
         ]}
       ]
@@ -129,6 +129,6 @@ export default {
     { title: 'UNESCO — Alto Douro Wine Region', url: 'https://whc.unesco.org/en/list/1046/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Wines of Portugal — Douro region', url: 'https://www.winesofportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

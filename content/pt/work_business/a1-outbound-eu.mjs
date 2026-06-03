@@ -29,7 +29,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A regra de base é o Reg. (EC) 883/2004 art. 12: um trabalhador cujo empregador exerce normalmente atividade num país da UE e o envia para outro país da UE pode permanecer no sistema do primeiro país, se a duração prevista do trabalho não exceder 24 meses.' },
         { kind: 'checklist', items: [
-          'O trabalhador tem uma ligação ativa à Segurança Social em Portugal antes do destacamento',
+          'O trabalhador já está sujeito à Segurança Social portuguesa antes do destacamento (segundo as orientações da UE, normalmente há pelo menos um mês); contratar alguém apenas para o destacar pode ser contestado',
           'Existe um contrato de trabalho com um empregador português',
           'O empregador mantém a authority: define tarefas, remuneração, disciplina, férias',
           'O trabalho no estrangeiro está previamente limitado no tempo',
@@ -59,7 +59,7 @@ export default {
             ] }
           ] },
           { id: 'ssd-menu', title: '2. Submeter na Segurança Social Direta', content: [
-            { kind: 'paragraph', text: 'O empregador acede à Segurança Social Direta com as suas credenciais. Os menus e nomes podem mudar, mas o serviço necessário está relacionado com pedidos de destacamento / trabalhadores destacados para o estrangeiro / certificado A1.' },
+            { kind: 'paragraph', text: 'O empregador acede à Segurança Social Direta com as suas credenciais. Os menus e nomes podem mudar, mas na prática o caminho é Emprego > Destacar trabalhador para o estrangeiro > Registar pedido de destacamento. Para um período até 24 meses utiliza-se o formulário RV1018-DGSS; para mais de 24 meses (a exceção ao abrigo do art. 16), o formulário RV1020-DGSS.' },
             { kind: 'paragraph', text: 'Se a opção necessária não estiver disponível na interface, a via prática é uma mensagem/pedido através da Segurança Social Direta ou o contacto com o Centro Distrital da Segurança Social do empregador. Nas grandes empresas, isto é muitas vezes tratado pelo payroll ou por um fornecedor de RH.' }
           ] },
           { id: 'receive-a1', title: '3. Obter o certificado A1', content: [
@@ -105,9 +105,16 @@ export default {
   ],
   costs: [
     { label: 'Pedido de A1 na Segurança Social', amountEUR: 0, note: 'Normalmente não há taxa administrativa pela emissão do certificado A1; os custos podem existir apenas com payroll/jurista/fornecedor do empregador.' },
-    { label: 'Coimas por falta de compliance de destacamento', amountEURMin: 0, amountEURMax: 0, note: 'Dependem do país de destino; verifique as regras da inspeção do trabalho concreta antes da partida.' }
+    { label: 'Coimas por falta de compliance de destacamento', note: 'Os valores dependem do país de destino; confirme os montantes concretos junto da inspeção do trabalho do país de acolhimento antes da partida.' }
   ],
   sources: [
+    {
+      title: 'Segurança Social: destacamento de trabalhadores para o estrangeiro / Documento Portátil A1',
+      url: 'https://www.seg-social.pt/ptss/pssd/menu/trabalho/entrada-saida-destacamento-trabalhadores/destacamento-trabalhadores',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
     {
       title: 'gov.pt: destacamento de trabalhadores de Portugal para países da União Europeia',
       url: 'https://www2.gov.pt/en/cidadaos-europeus-viajar-viver-e-fazer-negocios-em-portugal/trabalhadores-em-portugal/destacamento-de-trabalhadores-para-paises-da-uniao-europeia',
@@ -124,19 +131,19 @@ export default {
     },
     {
       title: 'Regulation (EC) No 883/2004, art. 12 e art. 16 — coordenação dos sistemas de segurança social',
-      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004R0883-20140101',
+      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004R0883',
       kind: 'law',
       language: 'en',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Regulation (EC) No 987/2009 — regras de execução para a coordenação da segurança social',
-      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0987-20180101',
+      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0987',
       kind: 'law',
       language: 'en',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

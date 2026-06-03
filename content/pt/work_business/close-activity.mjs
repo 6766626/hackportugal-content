@@ -36,7 +36,7 @@ export default {
               'Período: trimestre / mês em que ocorreu a cessação',
               'Prazo: de acordo com as regras normais do período de IVA — a declaração é normalmente entregue até ao dia 20 do segundo mês após o mês/trimestre, pagamento até ao dia 25 (CIVA arts. 27, 41)',
               'Se houver IVA a pagar (deve à AT) — pagar',
-              'Substituir por: «Se existir crédito de IVA, pode pedir reembolso na declaração final/periódica, cumprindo as condições do CIVA; o prazo depende da verificação da AT e não é garantido como 30–60 dias».'
+              'Se existir crédito de IVA, pode pedir reembolso na declaração final/periódica, cumprindo as condições do CIVA; o prazo depende da verificação da AT e não é garantido (não conte com 30–60 dias fixos)'
             ]}
           ]},
           { id: 'c4', title: '4. IRS final', content: [
@@ -68,7 +68,7 @@ export default {
           'Reabertura atividade — possível a qualquer momento através do Portal das Finanças',
           'Aberturas/encerramentos frequentes sem motivo real podem suscitar questões da AT/SS, por isso guarde comprovativos da atividade efetiva e dos motivos da cessação/reabertura',
           'Na prática, é melhor manter um intervalo visível entre o encerramento e a reabertura, se não for uma medida forçada',
-          'Substituir por: «Na reabertura, as regras da Segurança Social dependem do enquadramento anterior e da interrupção. Não conte automaticamente com novos 12 meses sem contribuições; verifique a Segurança Social Direta ou peça confirmação à SS/contabilista».'
+          'Na reabertura, as regras da Segurança Social dependem do enquadramento anterior e da duração da interrupção. Não conte automaticamente com novos 12 meses sem contribuições — verifique a Segurança Social Direta ou peça confirmação à SS ou a um contabilista'
         ]}
       ]
     },
@@ -82,7 +82,7 @@ export default {
             { kind: 'checklist', items: [
               'Sócios (fundadores) tomam a decisão em Assembleia Geral',
               'Entrega na Conservatória Comercial — registo da dissolução',
-              'Substituir por: «A publicação do ato registado é efetuada eletronicamente através do portal das publicações oficiais de atos comerciais / IRN após o registo na Conservatória Comercial».',
+              'A publicação do ato registado é efetuada eletronicamente através do portal das publicações oficiais de atos comerciais (IRN) após o registo na Conservatória Comercial',
               'Custo: 100-200 €'
             ]}
           ]},
@@ -100,17 +100,17 @@ export default {
           { id: 'l3', title: 'Etapa 3: Registo encerramento', content: [
             { kind: 'checklist', items: [
               'Registo final na Conservatória Comercial',
-              'Adicionar ponto separado: «Após a cessação/encerramento, o contabilista entrega as declarações finais: declaração de cessação, Modelo 22 IRC em prazo especial após a cessação, IES/DA em prazo especial, IVA final e retenções na fonte, se aplicável».',
+              'Após a cessação/encerramento, o contabilista entrega as declarações finais: declaração de cessação, Modelo 22 IRC em prazo especial após a cessação, IES/DA em prazo especial, IVA final e retenções na fonte, se aplicável',
               'Notificação da Segurança Social sobre a cessação',
               'Conservação dos documentos contabilísticos durante 5 anos (por lei)',
               'Certidão de encerramento — a empresa está oficialmente encerrada'
             ]}
           ]},
-          { id: 'l4', title: 'Renomear o bloco para: «Dissolução e liquidação imediata / extinção imediata de entidade comercial» e indicar que o procedimento é possível mediante decisão unânime dos participantes e inexistência de ativos e passivos a liquidar.', content: [
+          { id: 'l4', title: 'Dissolução e liquidação imediata (via acelerada)', content: [
             { kind: 'checklist', items: [
               '«Empresa na Hora» dissolução — num dia na Conservatória',
               'Apenas para casos simples: sem dívidas por liquidar, sem dívidas à AT, sem ativos',
-              'Substituir por: «Emolumento segundo a tabela IRN/RERN; para dissolução/liquidação imediata, normalmente considera-se cerca de 300 €, mas antes da entrega é necessário verificar os emolumentos IRN atualizados».',
+              'Emolumento segundo a tabela IRN/RERN; para dissolução/liquidação imediata, o valor ronda os 300 €, mas verifique os emolumentos IRN atualizados antes da entrega',
               'Adequado a ~40% das empresas'
             ]}
           ]}
@@ -123,8 +123,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Insolvência → através do tribunal',
-          'Substituir por: «PER — procedimento de recuperação/negociação com credores para empresas em situação económica difícil ou imminent insolvency; não é uma insolvência liquidatária».',
-          'Remover PEVE da lista atual ou escrever: «O PEVE foi um procedimento temporário COVID e, em 2026, não é uma opção padrão; para reestruturação, normalmente analisa-se PER/RERE, para liquidação — insolvência».',
+          'PER (processo especial de revitalização) — procedimento de recuperação/negociação com credores para empresas em situação económica difícil ou em insolvência iminente; não é uma insolvência liquidatária',
+          'O PEVE foi um procedimento temporário COVID (vigorou até 30 de junho de 2023) e, em 2026, não é uma opção padrão; para reestruturação analisa-se normalmente PER/RERE, para liquidação — insolvência',
           'Insolvência completa com liquidação — 1-3 anos, o tribunal nomeia administrador',
           'Para sócios: responsabilidade pessoal apenas se existir subsidiary liability, fraud ou garantias pessoais',
           'Unipessoal Lda — sócio protegido (responsabilidade limitada)',
@@ -146,13 +146,13 @@ export default {
               'IRS/IRC final entregue',
               'IES final (para Lda) entregue',
               'Contribuições para a Segurança Social pagas',
-              'Substituir por: «Após o pagamento de dívidas, impostos e aprovação do balanço de liquidação, distribuir o remanescente entre os sócios segundo as regras da liquidação e encerrar a conta bancária da empresa».',
+              'Após o pagamento de dívidas, impostos e aprovação do balanço de liquidação, distribuir o remanescente entre os sócios segundo as regras da liquidação e encerrar a conta bancária da empresa',
               'Cancelar subscrições (software, domínios, alojamento)'
             ]}
           ]},
           { id: 'f2', title: 'Jurídicos', content: [
             { kind: 'checklist', items: [
-              'Substituir o exemplo por: «imobiliário/mediação imobiliária — IMPIC; seguros — ASF; turismo/animação turística — Turismo de Portugal, etc.»',
+              'Cancelar ou transferir licenças setoriais junto do regulador competente: imobiliário/mediação imobiliária — IMPIC; seguros — ASF; turismo/animação turística — Turismo de Portugal, etc.',
               'Cancelar marcas registadas (ou transferir)',
               'Revogar o acesso delegado no Portal das Finanças para o antigo contabilista',
               'Transferir documentos de arquivo (guardar 5 anos)',
@@ -176,7 +176,7 @@ export default {
   costs: [
     { label: 'Cessação atividade (trabalhador independente)', amountEUR: 0, note: 'gratuito através do Portal das Finanças' },
     { label: 'Declarações finais (se através de contabilista)', amountEURMin: 100, amountEURMax: 300 },
-    { label: 'Dissolução simplificada (Empresa na Hora)', amountEUR: 360 },
+    { label: 'Dissolução e liquidação imediata (Empresa na Hora)', amountEUR: 300, note: 'emolumento IRN, incluindo o registo' },
     { label: 'Encerramento de Unipessoal (com liquidação)', amountEURMin: 500, amountEURMax: 1000 },
     { label: 'Lda média (processo completo)', amountEURMin: 1500, amountEURMax: 5000 },
     { label: 'Insolvência através do tribunal', amountEURMin: 1000, amountEURMax: 5000 }
@@ -186,6 +186,6 @@ export default {
     { title: 'IRN — Conservatória Comercial', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código da Insolvência (CIRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2004-34453275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -50,8 +50,8 @@ export default {
           'IVA art. 53 CIVA: em 2026, a isenção é possível se o volume de negócios do ano anterior não tiver excedido 15 000 € e se forem cumpridas as condições do regime',
           'Se o cliente estiver fora de Portugal, verifique as regras de localização do IVA e o reverse charge — especialmente B2B na UE',
           'Algumas operações médicas, educativas e de seguros podem ser isentas ao abrigo de outros artigos do CIVA, mas isto não é uma isenção automática para todos os professores/terapeutas',
-          'A retenção na fonte em IRS depende frequentemente do tipo de serviço e do cliente; para muitos serviços, a taxa é de 25%, mas há exceções e dispensa em caso de baixo volume de negócios',
-          'No regime simplificado, a matéria coletável depende do coeficiente: muitos serviços são considerados a 75%, as vendas de bens a 15%, mas os detalhes dependem do código e da natureza do rendimento',
+          'A retenção na fonte em IRS surge sobretudo quando o cliente em Portugal está obrigado a reter (empresa ou entidade com contabilidade organizada); para particulares e a maioria dos clientes estrangeiros normalmente não há retenção. Para muitos serviços da tabela do art. 151 CIRS a taxa é de 25%, mas há exceções e dispensa em caso de baixo volume de negócios',
+          'No regime simplificado, a matéria coletável depende do coeficiente (art. 31 CIRS): os serviços profissionais da tabela do art. 151 CIRS são normalmente considerados a 75%, outros serviços fora dessa lista a 35%, as vendas de bens a 15%; confirme o coeficiente exato consoante a natureza do rendimento',
           'Se o volume de negócios crescer, verifique antecipadamente a passagem para IVA normal e a obrigação de entregar declarações periódicas',
           'Para operações com a UE, pode ser necessária a declaração recapitulativa e o registo VIES correto'
         ] },
@@ -63,7 +63,7 @@ export default {
       title: '4. Ter em conta a Segurança Social e o IFICI',
       content: [
         { kind: 'paragraph', text: 'Para trabalhador independente, a taxa normal de contribuições para a Segurança Social é de 21,4%. A base não é calculada diretamente a partir do CAE, mas sim do rendimento relevante: normalmente 70% do rendimento de serviços e 20% da venda de bens/produção. No entanto, o código ajuda a classificar a atividade e a evitar litígios quando há serviços e vendas mistos.' },
-        { kind: 'paragraph', text: 'Para o IFICI, o regime de incentivo fiscal que substituiu o antigo NHR para novos residentes, o CAE pode ser crítico não como uma “palavra mágica”, mas como prova de que a atividade pertence a uma área económica admissível ou a uma função altamente qualificada. Em 2026, as regras do IFICI estão ligadas a tipos específicos de atividade, ao empregador/cliente, à qualificação e ao registo dentro do prazo estabelecido.' },
+        { kind: 'paragraph', text: 'Para o IFICI — um regime de incentivo fiscal mais restrito, dirigido à investigação científica, à inovação e a certas funções altamente qualificadas, que sucedeu ao NHR para novos residentes mas não replica a sua amplitude —, o CAE pode ser importante não como uma “palavra mágica”, mas como prova de que a atividade pertence a uma área económica admissível ou a uma função altamente qualificada. Em 2026, as regras do IFICI estão ligadas a tipos específicos de atividade, ao empregador/cliente, à qualificação e ao registo dentro do prazo estabelecido.' },
         { kind: 'checklist', items: [
           'O primeiro ano de atividade pode dar isenção de Segurança Social até 12 meses, se for o primeiro registo como trabalhador independente',
           'Após a isenção, as declarações à Segurança Social são normalmente entregues trimestralmente',
@@ -83,7 +83,7 @@ export default {
           { id: 'start', title: 'Abertura de atividade', content: [
             { kind: 'checklist', items: [
               'Portal das Finanças → Cidadãos → Serviços → Atividade → Início de Atividade',
-              'Indique a data de início: deve corresponder ao primeiro serviço/venda real',
+              'Entregue o início de atividade antes de começar a operar e antes do primeiro recibo/fatura; a data de início deve corresponder ao início real da atividade (retroagir implica risco de coimas e correções)',
               'Escolha a atividade principal e as adicionais, se já forem necessárias',
               'Indique a previsão de volume de negócios — dela depende o regime de IVA',
               'Verifique o campo de IVA: art. 53, regime normal ou isenção especial',
@@ -125,6 +125,20 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'Código do IRS — art. 31.º (coeficientes do regime simplificado) e art. 101.º/101.º-B (retenção na fonte e dispensa)',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs31.aspx',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
+      title: 'IFICI — art. 58.º-A do EBF e Portaria n.º 352/2024/1 (atividades elegíveis e registo)',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/pages/faqs-01018.aspx',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
       title: 'Segurança Social — Guia Prático do Trabalhador Independente',
       url: 'https://www.seg-social.pt/trabalhadores-independentes',
       kind: 'official',
@@ -132,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

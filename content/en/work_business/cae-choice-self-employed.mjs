@@ -50,8 +50,8 @@ export default {
           'IVA art. 53 CIVA: in 2026, exemption may be possible if turnover in the previous year did not exceed €15,000 and the regime conditions are met',
           'If the client is outside Portugal, check the regras de localização do IVA and reverse charge — especially B2B in the EU',
           'Some medical, educational and insurance transactions may be isentas under other CIVA articles, but this is not an automatic exemption for all teachers/therapists',
-          'Retenção na fonte for IRS often depends on the type of service and client; for many services the rate is 25%, but there are exceptions and a dispensa at low turnover',
-          'Under regime simplificado, the tax base depends on the coefficient: many services are assessed at 75%, sales of goods at 15%, but the details depend on the code and nature of the income',
+          'Retenção na fonte for IRS mainly arises when the client in Portugal is obliged to withhold (a company or entidade com contabilidade organizada); for private individuals and most foreign clients retenção usually does not apply. For many services in the tabela do art. 151 CIRS the rate is 25%, but there are exceptions and a dispensa at low turnover',
+          'Under regime simplificado, the tax base depends on the coefficient (art. 31 CIRS): professional services in the tabela do art. 151 CIRS are usually assessed at 75%, other services outside that list at 35%, sales of goods at 15%; check the exact coefficient against the nature of the income',
           'If turnover is growing, check in advance the move to IVA normal and the obligation to file declarações periódicas',
           'For EU transactions, a declaração recapitulativa and correct VIES registration may be required'
         ] },
@@ -63,7 +63,7 @@ export default {
       title: '4. Take Segurança Social and IFICI into account',
       content: [
         { kind: 'paragraph', text: 'For a trabalhador independente, the standard Segurança Social contribution rate is 21.4%. The base is calculated not directly from the CAE, but from rendimento relevante: usually 70% of income from services and 20% from sales of goods/manufacturing. But the code helps classify the activity and avoid disputes when you have mixed services and sales.' },
-        { kind: 'paragraph', text: 'For IFICI, the tax incentive regime that replaced the old NHR for new residents, CAE may be critical not as a “magic word”, but as evidence that the activity falls within an eligible economic sector or highly qualified function. In 2026, the IFICI rules are tied to specific types of activity, employer/client, qualifications and registration within the prescribed deadline.' },
+        { kind: 'paragraph', text: 'For IFICI — a narrower tax incentive regime for scientific research, innovation and certain highly qualified functions, which succeeded NHR for new residents but does not replicate its breadth — CAE may be important not as a “magic word”, but as evidence that the activity falls within an eligible economic sector or highly qualified function. In 2026, the IFICI rules are tied to specific types of activity, employer/client, qualifications and registration within the prescribed deadline.' },
         { kind: 'checklist', items: [
           'The first year of atividade may provide an exemption from Segurança Social for up to 12 months, if this is the first registration as a trabalhador independente',
           'After the exemption, Segurança Social declarations are usually filed quarterly',
@@ -83,7 +83,7 @@ export default {
           { id: 'start', title: 'Opening atividade', content: [
             { kind: 'checklist', items: [
               'Portal das Finanças → Cidadãos → Serviços → Atividade → Início de Atividade',
-              'Enter the start date: it must match the real first service/sale',
+              'File início de atividade before you start operating and before the first recibo/fatura; the start date must match the real start of the activity (backdating risks fines and corrections)',
               'Choose the main atividade and additional ones if they are already needed',
               'Enter previsão de volume de negócios — the IVA regime depends on it',
               'Check the campo de IVA: art. 53, regime normal or special exemption',
@@ -125,6 +125,20 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'Código do IRS — art. 31 (regime simplificado coefficients) and art. 101/101-B (retenção na fonte and dispensa)',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs31.aspx',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
+      title: 'IFICI — art. 58.º-A EBF and Portaria n.º 352/2024/1 (eligible activities and registration)',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/pages/faqs-01018.aspx',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
       title: 'Segurança Social — Practical Guide for Trabalhador Independente',
       url: 'https://www.seg-social.pt/trabalhadores-independentes',
       kind: 'official',
@@ -132,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

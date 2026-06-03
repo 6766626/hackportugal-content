@@ -12,7 +12,7 @@ export default {
       title: 'Что такое Carris Metropolitana',
       content: [
         { kind: 'paragraph', text: 'Carris Metropolitana — бренд автобусной сети Área Metropolitana de Lisboa. Его создали, чтобы заменить разрозненных частных перевозчиков единой системой маршрутов, нумерации, расписаний и интеграции с Navegante.' },
-        { kind: 'paragraph', text: 'Запуск шёл поэтапно с 2022 года. Поэтому у старых жителей и Google-карт ещё встречаются старые названия линий, остановок и операторов. В 2026 году ориентируйтесь на carrismetropolitana.pt, приложение Carris Metropolitana и Navegante.' },
+        { kind: 'paragraph', text: 'Запуск шёл поэтапно с 2022 года. Поэтому у давних жителей и в Google Картах ещё встречаются прежние названия линий, остановок и операторов. В 2026 году ориентируйтесь на carrismetropolitana.pt, приложение Carris Metropolitana и Navegante.' },
         { kind: 'checklist', items: [
           'Это автобусы Большого Лиссабона, а не метро и не поезд',
           'Это не Carris Lisboa: городские автобусы внутри Lisboa обслуживает Carris',
@@ -62,7 +62,7 @@ export default {
       id: 'route-numbers',
       title: 'Как читать маршруты и не уехать не туда',
       content: [
-        { kind: 'paragraph', text: 'После перехода на Carris Metropolitana многие старые номера исчезли. Новые линии обычно имеют 4 цифры. У одной и той же остановки могут быть разные платформы для направлений, а у одного направления — варианты через разные bairros.' },
+        { kind: 'paragraph', text: 'После перехода на Carris Metropolitana многие старые номера исчезли. Новые линии обычно имеют 4 цифры. У одной и той же остановки могут быть разные платформы для разных направлений, а у одного направления — варианты пути через разные bairros.' },
         { kind: 'checklist', items: [
           'Всегда проверяйте конечную остановку, а не только номер линии',
           'Смотрите направление на электронном табло автобуса',
@@ -133,6 +133,6 @@ export default {
     { title: 'Официальный портал Navegante: тарифы и pass в Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transportes Metropolitanos de Lisboa: информация о сети и операторах', url: 'https://www.tmlmobilidade.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

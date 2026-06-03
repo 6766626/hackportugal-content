@@ -50,8 +50,8 @@ export default {
       id: 'calendar-and-strategy',
       title: '2026 calendar and application strategy',
       content: [
-        { kind: 'paragraph', text: 'As of April 2026, there is no single national calendar for Lisboa and Porto. Follow the Câmara pages: concursos may open several times a year or as flats/budget become available. Subscribing to municipal portal news is more useful than Telegram rumours.' },
-        { kind: 'checklist', items: ['Check the official CML/CMP website at least once every 2 weeks if you are actively looking for housing', 'Download the edital/regulamento PDF and save a copy: it is what defines the rules for your application', 'Compare the municipal programme with Porta 65 Jovem: sometimes the national subsidy is faster or more advantageous', 'Calculate renda líquida: rental burden is usually assessed after taxes and mandatory contributions', 'Take rent updates into account: in 2026 the coeficiente atualização anual de renda is 2.16%, if the contract allows indexation', 'Do not submit different information about household composition to different programmes — discrepancies may lead to refusal', 'After applying, check your email, área reservada and notificações regularly: the deadline to respond to a pedido de elementos may be short'] },
+        { kind: 'paragraph', text: 'As of May 2026, there is no single national calendar for Lisboa and Porto. Follow the Câmara pages: concursos may open several times a year or as flats/budget become available. Subscribing to municipal portal news is more useful than Telegram rumours.' },
+        { kind: 'checklist', items: ['Check the official CML/CMP website at least once every 2 weeks if you are actively looking for housing', 'Download the edital/regulamento PDF and save a copy: it is what defines the rules for your application', 'Compare the municipal programme with Porta 65 Jovem: sometimes the national subsidy is faster or more advantageous', 'Calculate renda líquida: rental burden is usually assessed after taxes and mandatory contributions', 'Take rent updates into account: in 2026 the coeficiente atualização anual de renda is 2.24%, if the contract allows indexation', 'Do not submit different information about household composition to different programmes — discrepancies may lead to refusal', 'After applying, check your email, área reservada and notificações regularly: the deadline to respond to a pedido de elementos may be short'] },
         { kind: 'paragraph', text: 'A good strategy: apply for Porta 65 Jovem in parallel, monitor CML/CMP and look for a market contract that you can genuinely afford without a subsidy for at least 3–6 months. Municipal programmes help, but they are not emergency housing.' }
       ]
     },
@@ -75,6 +75,6 @@ export default {
     { title: 'Portal da Habitação / IHRU — Porta 65 Jovem', url: 'https://www.portaldahabitacao.pt/porta-65-jovem', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — rent update coefficient 2026', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

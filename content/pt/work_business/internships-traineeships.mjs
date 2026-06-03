@@ -3,7 +3,7 @@ export default {
   id: 'internships-traineeships',
   categoryId: 'work_business',
   title: 'Estágios — programas e remuneração',
-  tldr: 'Estágios são um ponto de partida frequente para a carreira em Portugal.\n\nTipos: IEFP estágios (por exemplo Estágios INICIAR / +Talento) — normalmente 6–9 meses, a bolsa depende do nível QNQ/formação e é calculada em IAS (a partir de ~1,3 IAS); Estágios curriculares (universidade parceira, muitas vezes sem remuneração obrigatória); Estágios de Inserção — medida específica do IEFP para pessoas com deficiência e incapacidade (não confundir com CEI+ para desempregados); extracurricular regulado pelo Decreto-Lei 66/2011 (contrato escrito, seguro, bolsa não inferior ao IAS 537,13 € em 2026); estágios privados de empresas, 600-1500 €/mês.',
+  tldr: 'Estágios são um ponto de partida frequente para a carreira em Portugal.\n\nTipos: IEFP estágios (Estágios INICIAR — níveis QNQ 4–5; Estágios +Talento — níveis 6–8) normalmente duram 6 meses, e a bolsa depende do nível QNQ (em 2026: de 913,12 € no nível 4 até 1396,54 € no nível 8, valor bruto); Estágios curriculares (universidade parceira, muitas vezes sem remuneração obrigatória); Estágios de Inserção — medida específica do IEFP para pessoas com deficiência e incapacidade (não confundir com CEI+ para desempregados); extracurricular regulado pelo Decreto-Lei 66/2011 (contrato escrito, seguro, bolsa não inferior ao IAS 537,13 € em 2026); estágios privados de empresas, 600-1500 €/mês.',
   tags: ['estágio', 'estágio profissional', 'iefp', 'recém-licenciados'],
   estimatedReadMinutes: 6,
   steps: [
@@ -16,13 +16,13 @@ export default {
             { kind: 'checklist', items: [
               'Programa público através do IEFP',
               'Objectivo: primeiro emprego para recém-licenciados / requalificação',
-              'Duração: normalmente 6–9 meses, consoante a medida',
-              'Bolsa: depende do nível de qualificação QNQ e é calculada em múltiplos do IAS. Com o IAS 2026 de 537,13 €, valores indicativos: 1,3 IAS ≈ 698,27 €, 1,4 IAS ≈ 751,98 €, 1,6 IAS ≈ 859,41 €; confirme a tabela da medida IEFP específica',
-              '+ subsídio de alimentação ~6 €/dia útil',
-              'Substituir por: «+ subsídio de alimentação/refeição e seguro de acidentes; apoio ao transporte — apenas se previsto pela medida IEFP específica ou para categorias especiais.»',
-              '+ seguro de acidentes de trabalho',
+              'Duração: normalmente 6 meses (até 12 meses para pessoas com deficiência); consoante a medida',
+              'Bolsa: depende do nível de qualificação QNQ (valor bruto, 2026). Estágios INICIAR — níveis 4–5: 913,12 € e 966,83 €. Estágios +Talento — níveis 6–8: 1181,69 € (licenciatura), 1289,11 € (mestrado), 1396,54 € (doutoramento). Confirme a ficha síntese da medida específica em iefp.pt',
+              '+ subsídio de refeição (~6,15 €/dia útil, se a entidade não fornecer refeição)',
+              '+ subsídio de alimentação/refeição e seguro de acidentes; apoio ao transporte — apenas se previsto pela medida IEFP específica ou para categorias especiais',
+              '+ seguro de acidentes de trabalho (o IEFP comparticipa ~17,70 €/mês)',
               'Candidatura: iefp.pt → Estágios → fazer o registo + encontrar uma empresa',
-              'Concurso: ~30 000 lugares por ano, preenchidos em poucos meses'
+              'O número de lugares depende do orçamento anual e dos avisos do IEFP; nas áreas mais procuradas os lugares esgotam rapidamente'
             ]}
           ]},
           { id: 't2', title: 'Estágios de Inserção / CEI+ (para categorias diferentes)', content: [
@@ -35,7 +35,7 @@ export default {
           ]},
           { id: 't3', title: 'Erasmus+ / EURES', content: [
             { kind: 'checklist', items: [
-              'Erasmus+ Trainees: para estudantes / recém-licenciados da UE',
+              'Erasmus+ Traineeships: para estudantes e recém-licenciados de instituições que participam no Erasmus+; a cidadania da UE em si não é o critério principal',
               '~3-6 meses numa empresa portuguesa',
               'O pagamento Erasmus depende do país, com complemento da UE + bolsa da universidade de origem',
               '600-1 100 €/mês de montante total da bolsa',
@@ -96,7 +96,7 @@ export default {
           ]},
           { id: 'a4', title: '4. Durante o estágio', content: [
             { kind: 'checklist', items: [
-              'Substituir por: «Normalmente full-time segundo o horário da entidade promotora, dentro dos limites do período normal de trabalho. A possibilidade de part-time deve ser confirmada no regulamento da medida específica; por defeito, não se deve contar com ela.»',
+              'Normalmente full-time segundo o horário da entidade promotora, dentro dos limites do período normal de trabalho. A possibilidade de part-time deve ser confirmada no regulamento da medida específica; por defeito, não se deve contar com ela',
               'A bolsa é paga mensalmente pela entidade de acolhimento; o IEFP financia/reembolsa parte das despesas da entidade promotora segundo as regras da medida específica',
               'Avaliações periódicas por um técnico do IEFP',
               'Relatórios intermédio + final (orientador)',
@@ -106,9 +106,9 @@ export default {
           { id: 'a5', title: '5. Depois', content: [
             { kind: 'checklist', items: [
               'Certificado IEFP de conclusão',
-              'Substituir por: «Alguns estágios passam a contrato de trabalho, mas a proporção depende do programa, do empregador e do ano; confirme as estatísticas/relatórios do IEFP relativos à medida específica.»',
+              'Alguns estágios passam a contrato de trabalho, mas a proporção depende do programa, do empregador e do ano; confirme as estatísticas e relatórios do IEFP relativos à medida específica',
               'Se não houver proposta — volta à procura de emprego (não nasce direito a subsídio de desemprego depois do estágio, mas podem existir outros apoios)',
-              'Substituir por: «Um estágio IEFP pode ser indicado como experiência profissional, mas para visto/autorização de residência nem sempre é considerado contrato de trabalho ou fundamento suficiente. Antes de usar um estágio numa candidatura de imigração, confirme os requisitos da categoria específica junto da AIMA/consulado.»'
+              'Um estágio IEFP pode ser indicado como experiência profissional, mas para visto ou autorização de residência nem sempre é considerado contrato de trabalho ou fundamento suficiente. Antes de usar um estágio numa candidatura de imigração, confirme os requisitos da categoria específica junto da AIMA ou do consulado'
             ]}
           ]}
         ]}
@@ -129,9 +129,9 @@ export default {
           ]},
           { id: 'f2', title: 'Não UE (estudantes / trabalhadores com visto D)', content: [
             { kind: 'checklist', items: [
-              'D4 Student: é possível trabalhar até 20 horas por semana — o estágio está incluído',
-              'Procuro Trabalho (D-visa): o estágio pode contar como «trabalhar»',
-              'Substituir por: «O D3 é adequado para highly qualified activity, não para um estágio comum. Se a posição estiver formalizada como internship/traineeship, é necessário confirmar separadamente o visto/autorização de residência adequado: student, traineeship/research/temporary stay ou work-based route — consoante o contrato e a entidade de acolhimento.»',
+              'Estudantes (residência para estudo): podem trabalhar ou fazer estágio se a atividade for compatível com os estudos. É necessário notificar a AIMA (com o contrato de trabalho / declaração de início de atividade e inscrição na Segurança Social). Na prática, para o ensino superior costuma apontar-se ~20 horas por semana no período letivo, mas não há um limite universal rígido na lei — confirme as condições do seu título de residência',
+              'Visto para procura de trabalho: o estágio pode ajudar a encontrar um empregador, mas por si só nem sempre é um contrato de trabalho para a posterior autorização de residência. Antes do estágio e antes de pedir a residência, confirme se terá efetivamente um contrato de trabalho ou outro fundamento adequado',
+              'O D3 é adequado para highly qualified activity, não para um estágio comum. Se a posição estiver formalizada como internship/traineeship, confirme separadamente o visto ou autorização de residência adequado: student, traineeship/research/temporary stay ou work-based route — consoante o contrato e a entidade de acolhimento',
               'Estágios IEFP exigem autorização de residência / passaporte da UE — visto de turismo não serve',
               'TPD (Ukraine): direitos plenos de trabalho, incluindo estágio'
             ]}
@@ -147,11 +147,11 @@ export default {
       title: '💡 Conselhos',
       content: [
         { kind: 'checklist', items: [
-          '🎯 Candidate-se cedo: o IEFP abre candidaturas a cada 2-3 meses, e os lugares esgotam rapidamente',
+          '🎯 Candidate-se cedo: o IEFP abre avisos e períodos de candidatura por medida e orçamento; o calendário não é fixo, por isso acompanhe iefp.pt e os avisos da medida',
           '📝 CV em português: máximo 2 páginas, fotografia é normalmente esperada, recomendações são bem-vindas',
           '🗣️ Língua: português para a maioria; tecnologia / consultoria / startups são frequentemente mais receptivas ao inglês',
           '🌐 Ecossistema tecnológico / de startups em Lisboa: mais fácil para estrangeiros, comunidade anglófona maior',
-          'Substituir por: «A bolsa de estágio pode normalmente estar sujeita a IRS como rendimento de trabalho/dependent income, mas a retenção na fonte depende do montante, do estatuto e das tabelas em vigor; em bolsas baixas, a retenção pode ser zero. O imposto final é calculado na declaração anual de IRS.»',
+          '💰 Impostos: a bolsa de estágio está normalmente sujeita a IRS como rendimento de trabalho, mas a retenção na fonte depende do montante, do estatuto e das tabelas em vigor — em bolsas baixas, a retenção pode ser zero. À bolsa do IEFP são ainda descontados 11% para a Segurança Social. O imposto final é calculado na declaração anual de IRS',
           '🎓 Além do estágio: fazer o Cartão Jovem (8 €/ano) — descontos em transportes, museus',
           '🏆 Outsystems / Critical: melhores empresas para estágios tecnológicos, possível transição para emprego a tempo inteiro + apoio com autorização de trabalho',
           '📅 Sazonalidade: estágios de IT — recrutamento principal em Setembro / Fevereiro; finanças — Junho-Julho; programas públicos — trimestralmente'
@@ -160,18 +160,20 @@ export default {
     }
   ],
   costs: [
-    { label: 'Bolsa IEFP estágio (1,3 IAS)', amountEUR: 698, note: '≈698,27 €/mês com IAS 2026 de 537,13 €' },
-    { label: 'Bolsa IEFP estágio (1,6 IAS)', amountEUR: 859, note: '≈859,41 €/mês para nível mais elevado' },
+    { label: 'Bolsa Estágios INICIAR (nível QNQ 4)', amountEUR: 913, note: '913,12 €/mês bruto, 2026' },
+    { label: 'Bolsa Estágios +Talento (nível QNQ 8)', amountEUR: 1397, note: '1396,54 €/mês bruto, doutoramento, 2026' },
     { label: 'Mínimo para extracurricular (Decreto-Lei 66/2011)', amountEUR: 537, note: 'IAS 2026 537,13 €' },
     { label: 'Estágio tecnológico privado', amountEURMin: 800, amountEURMax: 1500, note: '€/mês' },
     { label: 'Bolsa Erasmus+ para estagiário', amountEURMin: 600, amountEURMax: 1100, note: '€/mês' },
     { label: 'Estágio curricular', amountEURMin: 0, amountEURMax: 700, note: '€/mês' }
   ],
   sources: [
-    { title: 'IEFP — Estágios Profissionais', url: 'https://www.iefp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'IEFP — Estágios INICIAR', url: 'https://iefponline.iefp.pt/IEFP/medida/estagios-iniciar/overview.jsp', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'IEFP — Estágios +Talento', url: 'https://iefponline.iefp.pt/IEFP/medida/estagios-mais-talento/overview.jsp', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Decreto-Lei n.º 66/2011 (estágios extracurriculares)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/66-2011-673471', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Erasmus+ Portugal', url: 'https://erasmusmais.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'EURES Portugal', url: 'https://eures.europa.eu/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

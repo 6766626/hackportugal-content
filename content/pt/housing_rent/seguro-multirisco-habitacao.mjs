@@ -54,7 +54,7 @@ export default {
           'Franquia — a sua parte em caso de sinistro; por exemplo 0 €, 50 €, 100 € ou uma percentagem do dano.',
           'Localização — Lisboa, Algarve, zonas de risco de inundação/sismo podem ser mais caras.',
           'Idade e estado do edifício — canalizações antigas, pavimentos de madeira, falta de manutenção aumentam o risco.',
-          'A cobertura de fenómenos sísmicos normalmente aumenta a prémio de forma visível.',
+          'A cobertura de fenómenos sísmicos normalmente aumenta o prémio de forma visível.',
           'Um pacote bancário pode dar desconto no spread, mas a própria apólice é muitas vezes mais cara do que no mercado.'
         ] },
         { kind: 'warning', text: 'Não subvalorize o capital seguro para poupar 20–40 € por ano. Se o capital for insuficiente, o segurador pode aplicar a regra proporcional: pagar apenas parte do dano.' }
@@ -123,6 +123,6 @@ export default {
     { title: 'Código Civil — art. 1429, seguro obrigatório contra incêndio em propriedade horizontal', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 72/2008 — regime jurídico do contrato de seguro', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/72-2008-249969', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

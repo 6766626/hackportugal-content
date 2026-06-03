@@ -33,7 +33,7 @@ export default {
           'Зайдите в Portal das Finanças → Todos os Serviços → Início de Atividade.',
           'Выберите режим Categoria B — trabalhador independente.',
           'Код деятельности обсудите с contabilista: часто рассматривают CAE 53200, другие courier/postal activities, или код CIRS для прочих услуг; от кода может зависеть коэффициент в IRS.',
-          'Write: “Если ожидаемый оборот не превышает 15 000 € в год, обычно возможен regime de isenção по art. 53 CIVA; в год открытия atividade лимит считается пропорционально/annualizado по ожидаемому обороту, поэтому при старте не с января проверьте расчёт с contabilista.”',
+          'Если ожидаемый оборот не превышает 15 000 € в год, обычно возможен regime de isenção по art. 53 CIVA. Важно: в год открытия atividade лимит считается не по фактически полученному, а пропорционально — ожидаемый оборот annualizado на полный год, поэтому при старте не с января проверьте расчёт с contabilista.',
           'Если превысите лимит IVA или выберете обычный режим, придётся начислять IVA и сдавать периодические декларации.',
           'При небольшом обороте обычно нет retenção na fonte, но это зависит от режима и клиента.',
           'Сохраните comprovativo de início de atividade: платформы или бухгалтер могут запросить его.',
@@ -78,21 +78,21 @@ export default {
           'Scooter/moto: быстрее и удобнее на расстояниях, но нужны права, capacete, seguro, топливо и ремонт.',
           'Автомобиль: комфорт в дождь, но парковка, пробки, combustível, seguro, IUC и износ часто съедают доход.',
           'IUC платится ежегодно за авто/мото и зависит от года, объёма двигателя, CO₂ и типа топлива.',
-          'Add a separate item: “Кроме seguro automóvel/moto для моторного транспорта, trabalhador independente должен оформить seguro de acidentes de trabalho для самостоятельной деятельности; проверьте, что полис покрывает доставку/estafeta.”',
+          'Кроме seguro automóvel/moto для моторного транспорта, trabalhador independente обязан оформить seguro de acidentes de trabalho для самостоятельной деятельности; проверьте, что полис покрывает именно доставку/estafeta.',
           'Для e-bike уточняйте лимиты: обычный pedelec до 25 км/ч и 250 W не равен мопеду; более мощные модели могут требовать другую правовую категорию.',
           'Купите термосумку, дождевик, power bank, держатель телефона и хороший свет — это не роскошь, а рабочие расходы.'
         ] },
-        { kind: 'warning', text: 'Rewrite to: “До первой доставки письменно проверьте два покрытия: seguro de responsabilidade civil/auto для транспорта с профессиональным использованием и seguro de acidentes de trabalho для atividade de estafeta/trabalhador independente.”' }
+        { kind: 'warning', text: 'До первой доставки письменно проверьте у seguradora два покрытия: seguro de responsabilidade civil/auto для транспорта с профессиональным использованием и seguro de acidentes de trabalho для atividade de estafeta/trabalhador independente. Обычная личная страховка может отказать в выплате, если полис исключает профессиональное использование.' }
       ]
     },
     {
       id: 'tax-social-security',
       title: '5. Налоги, Segurança Social и реальная чистая сумма',
       content: [
-        { kind: 'paragraph', text: 'Recibos verdes — это не “деньги на руки”. Из валовой суммы надо отложить на IRS, Segurança Social, IVA при необходимости, ремонт, связь, экипировку и простой. Write: “При первом início de atividade enquadramento в Segurança Social для trabalhador independente обычно начинается только с 1-го дня 12-го месяца после начала atividade; после этого подаются declarações trimestrais и платятся взносы. Если atividade уже была раньше, есть contrato de trabalho или особые ситуации — проверьте в Segurança Social Direta/у contabilista.”' },
+        { kind: 'paragraph', text: 'Recibos verdes — это не “деньги на руки”. Из валовой суммы надо отложить на IRS, Segurança Social, IVA при необходимости, ремонт, связь, экипировку и простой. При первом в жизни início de atividade enquadramento в Segurança Social для trabalhador independente обычно вступает в силу только с 12-го месяца после начала atividade: первые 12 месяцев действует освобождение, после этого подаются declarações trimestrais и платятся взносы. Если atividade уже была раньше, есть contrato de trabalho или другие особые ситуации — проверьте порядок в Segurança Social Direta или у contabilista.' },
         { kind: 'checklist', items: [
           'IRS: доход Categoria B декларируется ежегодно в Modelo 3, обычно с 1 апреля по 30 июня за предыдущий год.',
-          'Replace with: “Прогрессивные ставки IRS применяются к налогооблагаемой базе по ежегодной таблице IRS; ставки и brackets меняются по году и региону, поэтому проверяйте tabela de IRS for 2026 на Portal das Finanças/Orçamento do Estado.” If keeping a number, verify it against the official 2026 IRS table.',
+          'Прогрессивные ставки IRS применяются к налогооблагаемой базе по ежегодной таблице escalões; ставки и границы escalões меняются по году и региону, поэтому проверяйте актуальную tabela de IRS на 2026 год на Portal das Finanças или в Orçamento do Estado.',
           'В simplified regime Finanças учитывает не всю выручку, а часть по коэффициенту; коэффициент зависит от вида деятельности.',
           'Segurança Social: после освобождения independent worker подаёт квартальные declarações trimestrais.',
           'Стандартная ставка для trabalhador independente — 21,4% от relevant income; для услуг обычно relevant income считается от части выручки.',
@@ -134,6 +134,6 @@ export default {
     { title: 'Portal das Finanças — início de atividade, recibos verdes, IVA и IRS', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — trabalhadores independentes и contribuições', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

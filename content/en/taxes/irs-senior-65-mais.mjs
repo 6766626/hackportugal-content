@@ -3,7 +3,7 @@ export default {
   id: 'irs-senior-65-mais',
   categoryId: 'taxes',
   title: 'IRS for pensioners 65+: special rules and deductions',
-  tldr: 'In IRS, being aged 65+ does not by itself exempt you from filing a return. With OE 2025 (Lei 45-A/2024), the dedução específica base for both categories A and H is linked to the formula max(€4,104; 8.54 × IAS for that year).\n\nFor 2025 income (2026 return): €4,462.15 (8.54 × IAS 2025 €522.50) — for each pension recipient (Categoria H) or employee (Categoria A). You can claim lares: 25% of expenses with a limit of around €403. Pensão de alimentos: the recipient declares the income, the payer deducts 20% under a court or notarial decision. The Modelo 3 return for 2025 must be filed from 1 April to 30 June 2026.',
+  tldr: 'In IRS, being aged 65+ does not by itself exempt you from filing a return. With OE 2025 (Lei 45-A/2024), the dedução específica base for both categories A and H is linked to the formula max(€4,104; 8.54 × IAS for that year).\n\nFor 2025 income (2026 return): €4,462.15 (8.54 × IAS 2025 €522.50) — for each pension recipient (Categoria H) or employee (Categoria A). You can claim lares: 25% of expenses with a limit of €403.75. Pensão de alimentos: the recipient declares the income, the payer deducts 20% under a court or notarial decision. The Modelo 3 return for 2025 must be filed from 1 April to 30 June 2026.',
   tags: ['irs', 'pension', '65plus', 'lares', 'deductions'],
   estimatedReadMinutes: 6,
   steps: [
@@ -43,9 +43,9 @@ export default {
     },
     {
       id: 'lares',
-      title: 'Lares and care: deduction up to €403',
+      title: 'Lares and care: deduction up to €403.75',
       content: [
-        { kind: 'paragraph', text: 'Expenses for lares, casas de repouso, apoio domiciliário and institutions for elderly people can give a deduction of 25% of the amount with a limit of around €403 per year. This is a dedução à coleta: it reduces the IRS already calculated, not the income.' },
+        { kind: 'paragraph', text: 'Expenses for lares, casas de repouso, apoio domiciliário and institutions for elderly people can give a deduction of 25% of the amount with a limit of €403.75 per year. This is a dedução à coleta: it reduces the IRS already calculated, not the income.' },
         { kind: 'checklist', items: [
           'The invoice must include your NIF or the NIF of the family member for whom the expense is claimed.',
           'Check the expense category in e-Fatura: lares must be classified correctly.',
@@ -55,7 +55,7 @@ export default {
           'Medical services inside a lar may be treated as saúde if they are invoiced by a separate medical entidade and have the correct CAE/IVA.',
           'If the lar has not submitted the factura to e-Fatura, ask for it to be corrected before the invoice checking period closes.'
         ] },
-        { kind: 'warning', text: 'The €403 limit is not a cash refund. It only works if you have calculated IRS to reduce. With a very low pension and zero IRS, the deduction may not produce an actual refund.' }
+        { kind: 'warning', text: 'The €403.75 limit is not a cash refund. It only works if you have calculated IRS to reduce. With a very low pension and zero IRS, the deduction may not produce an actual refund.' }
       ]
     },
     {
@@ -111,7 +111,7 @@ export default {
   costs: [
     { label: 'Dedução específica for 2025 income (Categoria H and A) — single base', amountEUR: 4462.15, note: '8.54 × IAS 2025 (€522.50) = €4,462.15 — applies to each titular with Categoria H income (pensions) or A income (employment) in the IRS 2026 return.' },
     { label: 'Reference Dedução específica for 2026 income (2027 return)', amountEUR: 4587.09, note: '8.54 × IAS 2026 (€537.13) ≈ €4,587.09.' },
-    { label: 'Lares deduction', amountEURMax: 403, note: '25% of expenses, but not above the annual limit; the actual benefit depends on the calculated IRS.' },
+    { label: 'Lares deduction', amountEURMax: 403.75, note: '25% of expenses, but not above the annual limit of €403.75; the actual benefit depends on the calculated IRS.' },
     { label: 'Pensão de alimentos for the payer', amountEURMin: 0, amountEURMax: 0, note: 'Not a fixed amount: deduction of 20% of legally evidenced payments.' }
   ],
   sources: [
@@ -144,6 +144,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'salario-minimo-vs-medio',
   categoryId: 'work_business',
   title: 'Salário Mínimo Nacional 2026: 920 € и сравнение с salário médio',
-  tldr: 'В 2026 году Salário Mínimo Nacional в Португалии — 920 € брутто в месяц, обычно 14 выплат в год: 12 зарплат + subsídio de férias + subsídio de Natal. На руки при полной ставке и без IRS удержания это около 818,80 € за выплату после 11% Segurança Social. Для работодателя такая зарплата стоит 1 138,50 € за выплату из-за 23,75% взноса. Salário médio около 1 300 € брутто, а Lisbon software dev — примерно 2 500–4 500 € брутто.',
+  tldr: 'В 2026 году Salário Mínimo Nacional в Португалии — 920 € брутто в месяц, обычно 14 выплат в год: 12 зарплат + subsídio de férias + subsídio de Natal. На руки при полной ставке и без удержания IRS это около 818,80 € за выплату после 11% Segurança Social. Для работодателя такая зарплата стоит 1 138,50 € за выплату из-за 23,75% взноса. Salário médio около 1 300 € брутто, а Lisbon software dev — примерно 2 500–4 500 € брутто.',
   tags: ['smn', 'зарплата', 'ss', 'работа'],
   estimatedReadMinutes: 5,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'what-is-smn',
       title: 'Что такое SMN в 2026',
       content: [
-        { kind: 'paragraph', text: 'Salário Mínimo Nacional, официально retribuição mínima mensal garantida, — минимальная месячная брутто-зарплата за full-time работу. В 2026 году национальная RMMG/SMN на континенте — 920 € брутто в месяц. В Região Autónoma da Madeira и Região Autónoma dos Açores региональная минимальная зарплата выше: в 2026 году в Мадейре — 980 €, на Азорах — 966 €. Проверяйте региональный diploma и применимый коллективный договор.' },
+        { kind: 'paragraph', text: 'Salário Mínimo Nacional, официально retribuição mínima mensal garantida, — минимальная месячная брутто-зарплата за работу на полную ставку (full-time). В 2026 году национальная RMMG/SMN на континенте — 920 € брутто в месяц. В Região Autónoma da Madeira и Região Autónoma dos Açores региональная минимальная зарплата выше: в 2026 году в Мадейре — 980 €, на Азорах — 966 €. Проверяйте региональный diploma и применимый коллективный договор.' },
         { kind: 'paragraph', text: 'В Португалии зарплату обычно считают не как 12, а как 14 выплат в год: 12 обычных месяцев, subsídio de férias и subsídio de Natal. Поэтому годовой минимум при полной ставке — 920 € × 14 = 12 880 € брутто.' },
         { kind: 'checklist', items: [
           'SMN 2026: 920 € брутто в месяц',
@@ -40,7 +40,7 @@ export default {
           'Годовая стоимость для работодателя: 15 939 €',
           'Если вам предлагают 920 € “líquido”, требуйте письменный расчёт брутто, SS и IRS'
         ] },
-        { kind: 'warning', text: 'В Португалии “salário líquido” в разговоре часто считают приблизительно. Юридически важны брутто, categoria profissional, horário, 14 выплат, SS и IRS withholding table. Проверяйте payslip: recibo de vencimento.' }
+        { kind: 'warning', text: 'В Португалии “salário líquido” в разговоре часто считают приблизительно. Юридически важны брутто, categoria profissional, horário, 14 выплат, SS и таблица удержания IRS. Проверяйте payslip: recibo de vencimento.' }
       ]
     },
     {
@@ -89,7 +89,7 @@ export default {
           'Уточните, платят ли 14 выплат или 12 с duodécimos',
           'Проверьте, указан ли subsídio de alimentação отдельно от base salary',
           'Сверьте recibo de vencimento: base, SS 11%, IRS, meal allowance, overtime',
-          'Сверхурочные должны отражаться отдельно, а не “входить” молча в минималку',
+          'Сверхурочные должны отражаться отдельно, а не молча “входить” в минималку',
           'Если вы работаете ночью, в праздники или по сменам, проверьте доплаты',
           'При коллективном договоре sector/categoria может требовать зарплату выше SMN',
           'При сомнениях пишите в ACT или используйте Livro de Reclamações eletrónico'
@@ -102,7 +102,7 @@ export default {
     { label: 'SMN 2026, брутто за выплату', amountEUR: 920, note: 'Обычно 14 выплат в год при full-time contrato de trabalho' },
     { label: 'SMN 2026, ориентир нетто за выплату', amountEUR: 818.8, note: 'После 11% Segurança Social; IRS зависит от ситуации, но на минималке часто без удержания' },
     { label: 'Стоимость SMN для работодателя за выплату', amountEUR: 1138.5, note: '920 € + 23,75% Segurança Social' },
-    { label: 'Ориентир salário médio', amountEUR: 1300, note: 'Брутто за месяц; нетто зависит от IRS withholding table и семейного статуса' },
+    { label: 'Ориентир salário médio', amountEUR: 1300, note: 'Брутто за месяц; нетто зависит от таблицы удержания IRS и семейного статуса' },
     { label: 'Lisbon software dev, ориентир брутто', amountEURMin: 2500, amountEURMax: 4500, note: 'Для middle/senior employee-контрактов; market range, не legal minimum' }
   ],
   sources: [
@@ -111,6 +111,6 @@ export default {
     { title: 'Segurança Social — contribuições para trabalhadores por conta de outrem', url: 'https://www.seg-social.pt/trabalhadores-por-conta-de-outrem', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'INE — estatísticas de remunerações em Portugal', url: 'https://www.ine.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -12,15 +12,15 @@ export default {
       title: 'O que é o Subsídio de Refeição',
       content: [
         { kind: 'paragraph', text: 'O Subsídio de Refeição não é um «bónus», mas sim uma linha separada no recibo de vencimento: o empregador paga um montante fixo por cada dia efectivamente trabalhado, para cobrir a alimentação.' },
-        { kind: 'paragraph', text: 'Na Administração Pública, o valor de base em abril de 2026 é de 6,15 € por dia. Este valor é frequentemente usado como referência também nas empresas privadas, mas um empregador privado só é obrigado a pagar subsídio de refeição se tal estiver escrito no seu contrato de trabalho, regulamento interno ou CCT aplicável — contrato coletivo de trabalho.' },
+        { kind: 'paragraph', text: 'Na Administração Pública, o valor de base desde 1 de janeiro de 2026 é de 6,15 € por dia. Este valor é frequentemente usado como referência também nas empresas privadas, mas um empregador privado só é obrigado a pagar subsídio de refeição se tal estiver escrito no seu contrato de trabalho, regulamento interno ou CCT aplicável — contrato coletivo de trabalho.' },
         { kind: 'checklist', items: [
           'Normalmente é pago por dias de trabalho, e não por fins de semana.',
           'Normalmente não é pago durante férias, baixa médica e ausência sem remuneração.',
           'Pode ser pago em dinheiro juntamente com o salário.',
           'Pode ser pago em cartão refeição ou sob a forma de vale refeição.',
-          'Cartões frequentes: Edenred, Pluxee ex-Sodexo, Coverflex, Euroticket.',
+          'Cartões frequentes: Edenred, Pluxee (ex-Sodexo), Coverflex, Euroticket.',
           'O montante deve estar visível no payslip/recibo de vencimento numa linha separada.',
-          'Se trabalha em part-time, o montante pode ser proporcional às horas, se assim estiver definido no contrato ou no CCT.'
+          'No part-time há uma regra do Código do Trabalho: se o subsídio de refeição estiver previsto no CCT ou for normalmente pago na empresa, o trabalhador a tempo parcial também tem direito a ele; só se o período normal de trabalho diário for inferior a 5 horas é que o montante é calculado proporcionalmente ao período normal de trabalho semanal face ao tempo completo.'
         ] }
       ]
     },
@@ -28,7 +28,7 @@ export default {
       id: 'tax-free-limits-2026',
       title: 'Limites sem impostos em 2026',
       content: [
-        { kind: 'paragraph', text: 'Para efeitos de IRS e Segurança Social, o que importa não é apenas a existência do pagamento, mas a forma de pagamento e o limite diário. Em abril de 2026 aplicam-se estes limites práticos: dinheiro — até 6,15 € por dia; cartão/vale refeição — até 10,46 € por dia.' },
+        { kind: 'paragraph', text: 'Para efeitos de IRS e Segurança Social, o que importa não é apenas a existência do pagamento, mas a forma de pagamento e o limite diário. Em 2026 aplicam-se estes limites práticos: dinheiro — até 6,15 € por dia; cartão/vale refeição — até 10,46 € por dia.' },
         { kind: 'checklist', items: [
           'Dinheiro 6,15 € por dia: 0 € de IRS e 0 € de Segurança Social.',
           'Dinheiro 7 € por dia: 6,15 € isentos, 0,85 € é considerado salário.',
@@ -39,7 +39,7 @@ export default {
           'Sobre o excedente aplica-se normalmente Segurança Social: 11% para o trabalhador e 23,75% para o empregador.',
           'O limite aplica-se por dia, e não como um «banco» mensal sem ligação aos dias.'
         ] },
-        { kind: 'warning', text: 'O antigo limite em dinheiro de 5,20 € já não é uma referência actual para 2026. Para a prática corrente, utilize 6,15 € em dinheiro e 10,46 € em cartão/vale.' }
+        { kind: 'warning', text: 'O limite em dinheiro de 6,00 € do ano passado já não é atual para 2026. Para a prática corrente, utilize 6,15 € em dinheiro e 10,46 € em cartão/vale.' }
       ]
     },
     {
@@ -89,7 +89,7 @@ export default {
           'Isento: a parte até ao limite não deve entrar em IRS/Segurança Social.',
           'Tributável: apenas o excedente acima de 6,15 € em dinheiro ou 10,46 € em cartão deve ser tributado.',
           'Se esteve de férias durante todo o mês, o subsídio de refeição será normalmente 0 €.',
-          'Se trabalhou remote a partir de casa, o direito depende do contrato/CCT e da política interna, mas muitos empregadores continuam a pagar.',
+          'Se está em teletrabalho/remote, o simples facto de trabalhar a partir de casa não é, em regra, motivo para retirar o subsídio de refeição quando este já é devido pelo contrato, CCT, prática da empresa ou é pago a trabalhadores comparáveis no escritório. Mas se na empresa não existe sequer direito a subsídio de refeição, o teletrabalho por si só não o cria.',
           'Guarde os payslips: serão úteis em conflitos com HR, ACT e na verificação do IRS.'
         ] }
       ]
@@ -131,6 +131,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

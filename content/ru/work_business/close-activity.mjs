@@ -36,7 +36,7 @@ export default {
               'Период: квартал / месяц, в котором была cessação',
               'Срок: по обычным правилам периода IVA — декларация обычно до 20-го числа второго месяца после месяца/квартала, оплата до 25-го (CIVA arts. 27, 41)',
               'Если IVA к уплате (вы должны AT) — оплатить',
-              'Заменить на: «Если есть crédito de IVA, можно запросить reembolso в final/periodic declaration при соблюдении условий CIVA; срок зависит от проверки AT и не гарантирован как 30–60 дней».'
+              'Если есть crédito de IVA, можно запросить reembolso в финальной/периодической декларации при соблюдении условий CIVA; срок зависит от проверки AT и не гарантирован (не рассчитывайте на фиксированные 30–60 дней)'
             ]}
           ]},
           { id: 'c4', title: '4. Финальный IRS', content: [
@@ -68,7 +68,7 @@ export default {
           'Reabertura atividade — возможна в любой момент через Portal das Finanças',
           'Частые открытия/закрытия без реальной причины могут вызвать вопросы AT/SS, поэтому храните доказательства фактической деятельности и причин cessação/reabertura',
           'На практике лучше держать заметный интервал между закрытием и повторным открытием, если это не вынужденная мера',
-          'Заменить на: «При reabertura правила Segurança Social зависят от предыдущего enquadramento и перерыва. Не рассчитывайте автоматически на новые 12 месяцев без взносов; проверьте Segurança Social Direta или запросите подтверждение у SS/contabilista».'
+          'При reabertura правила Segurança Social зависят от предыдущего enquadramento и длительности перерыва. Не рассчитывайте автоматически на новые 12 месяцев без взносов — проверьте Segurança Social Direta или запросите подтверждение у SS либо contabilista'
         ]}
       ]
     },
@@ -82,7 +82,7 @@ export default {
             { kind: 'checklist', items: [
               'Sócios (учредители) принимают решение на Assembleia Geral',
               'Подача в Conservatória Comercial — регистрация dissolução',
-              'Заменить на: «Публикация регистрационного акта производится электронно через портал официальных публикаций коммерческих актов / IRN после регистрации в Conservatória Comercial».',
+              'Публикация регистрационного акта производится электронно через портал официальных публикаций коммерческих актов (IRN) после регистрации в Conservatória Comercial',
               'Стоимость: 100-200 €'
             ]}
           ]},
@@ -100,17 +100,17 @@ export default {
           { id: 'l3', title: 'Этап 3: Registo encerramento', content: [
             { kind: 'checklist', items: [
               'Финальная регистрация в Conservatória Comercial',
-              'Добавить отдельный пункт: «После cessação/encerramento бухгалтер подаёт финальные декларации: declaração de cessação, Modelo 22 IRC в специальный срок после прекращения, IES/DA в специальный срок, финальный IVA и retenções na fonte, если применимо».',
+              'После cessação/encerramento бухгалтер подаёт финальные декларации: declaração de cessação, Modelo 22 IRC в специальный срок после прекращения, IES/DA в специальный срок, финальный IVA и retenções na fonte, если применимо',
               'Уведомление Segurança Social о прекращении',
               'Хранение бухгалтерских документов 5 лет (по закону)',
               'Certidão de encerramento — компания официально закрыта'
             ]}
           ]},
-          { id: 'l4', title: 'Переименовать блок в: «Dissolução e liquidação imediata / extinção imediata de entidade comercial» и указать, что процедура возможна при единогласном решении участников и отсутствии активов и пассивов к ликвидации.', content: [
+          { id: 'l4', title: 'Dissolução e liquidação imediata (ускоренный вариант)', content: [
             { kind: 'checklist', items: [
               '«Empresa na Hora» dissolução — за день в Conservatória',
               'Только для простых случаев: нет непогашенных долгов, задолженности перед AT, активов',
-              'Заменить на: «Госпошлина по таблице IRN/RERN; для немедленной dissolução/liquidação обычно ориентируются примерно на €300, но перед подачей нужно проверить актуальные emolumentos IRN».',
+              'Госпошлина — по таблице emolumentos IRN/RERN; для немедленной dissolução/liquidação ориентир около €300, но перед подачей проверьте актуальный тариф IRN',
               'Подходит ~40% компаний'
             ]}
           ]}
@@ -123,8 +123,8 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Банкротство → через суд',
-          'Заменить на: «PER — процедура оздоровления/переговоров с кредиторами для компаний в трудном экономическом положении или imminent insolvency; это не ликвидационное банкротство».',
-          'Удалить PEVE из актуального списка или написать: «PEVE был временной COVID-процедурой и в 2026 году не является стандартным вариантом; для реструктуризации обычно смотрят PER/RERE, для ликвидации — insolvência».',
+          'PER (processo especial de revitalização) — процедура оздоровления и переговоров с кредиторами для компаний в трудном экономическом положении или на грани неплатёжеспособности; это не ликвидационное банкротство',
+          'PEVE был временной COVID-процедурой (действовал до 30.06.2023) и в 2026 году не является стандартным вариантом; для реструктуризации обычно смотрят PER/RERE, для ликвидации — insolvência',
           'Полная insolvência с ликвидацией — 1-3 года, суд назначает administrador',
           'Для sócios: личная ответственность только если есть subsidiary liability, fraud или личные гарантии',
           'Unipessoal Lda — sócio защищён (ограниченная ответственность)',
@@ -146,13 +146,13 @@ export default {
               'Финальный IRS/IRC подан',
               'Финальный IES (для Lda) подан',
               'Взносы Segurança Social оплачены',
-              'Заменить на: «После оплаты долгов, налогов и утверждения ликвидационного баланса распределить остаток между sócios по правилам ликвидации и закрыть банковский счёт компании».',
+              'После оплаты долгов, налогов и утверждения ликвидационного баланса распределить остаток между sócios по правилам ликвидации и закрыть банковский счёт компании',
               'Отменить подписки (софт, домены, хостинг)'
             ]}
           ]},
           { id: 'f2', title: 'Юридические', content: [
             { kind: 'checklist', items: [
-              'Заменить пример на: «недвижимость/mediação imobiliária — IMPIC; страхование — ASF; turismo/animação turística — Turismo de Portugal и т.д.»',
+              'Аннулировать или передать отраслевые лицензии у профильного регулятора: недвижимость/mediação imobiliária — IMPIC; страхование — ASF; turismo/animação turística — Turismo de Portugal и т.д.',
               'Отменить зарегистрированные товарные знаки (или передать)',
               'Отозвать делегированный доступ в Portal das Finanças для бывшего бухгалтера',
               'Передать архивные документы (хранить 5 лет)',
@@ -176,7 +176,7 @@ export default {
   costs: [
     { label: 'Cessação atividade (ИП)', amountEUR: 0, note: 'бесплатно через Portal das Finanças' },
     { label: 'Финальные декларации (если через бухгалтера)', amountEURMin: 100, amountEURMax: 300 },
-    { label: 'Simplified dissolução (Empresa na Hora)', amountEUR: 360 },
+    { label: 'Dissolução e liquidação imediata (Empresa na Hora)', amountEUR: 300, note: 'emolumento IRN, включая регистрацию' },
     { label: 'Закрытие Unipessoal (с ликвидацией)', amountEURMin: 500, amountEURMax: 1000 },
     { label: 'Средняя Lda (полный процесс)', amountEURMin: 1500, amountEURMax: 5000 },
     { label: 'Insolvência (банкротство) через суд', amountEURMin: 1000, amountEURMax: 5000 }
@@ -186,6 +186,6 @@ export default {
     { title: 'IRN — Conservatória Comercial', url: 'https://justica.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código da Insolvência (CIRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2004-34453275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

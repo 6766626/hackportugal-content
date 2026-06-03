@@ -3,7 +3,7 @@ export default {
   id: 'oe-engenheiros-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Engenheiros: how a foreign engineer can obtain the right to sign projects',
-  tldr: 'For most engineering projects in Portugal, a foreign degree certificate alone is not enough: to sign peças escritas/desenhadas and a termo de responsabilidade for the Câmara Municipal, you need status with the Ordem dos Engenheiros or another recognised ordem/associação for the speciality. In 2026, the route depends on the country of the degree: EU/EEA — through Lei 9/2009 and recognition of professional qualifications; UK Chartered Engineer — through the Engineering Council–OE MRA; non-EU — usually DGES reconhecimento + candidatura to the OE + relatório profissional/assessment of experience.',
+  tldr: 'For most engineering projects in Portugal, a foreign degree certificate alone is not enough: to sign peças escritas/desenhadas and a termo de responsabilidade for the Câmara Municipal, you must be a técnico legalmente habilitado under Lei 31/2009 — usually through a valid inscrição with the Ordem dos Engenheiros (OE) or the Ordem dos Engenheiros Técnicos (OET) for the speciality. In 2026, the route depends on the country of the degree: EU/EEA — through Lei 9/2009 and recognition of professional qualifications; UK Chartered Engineer — through the Engineering Council–OE MRA; Brazil — through the OE–CONFEA Termo de Reciprocidade; other non-EU — usually DGES reconhecimento + candidatura to the OE + relatório profissional/assessment of experience.',
   tags: ['engineers', 'projects', 'ordem', 'dges'],
   estimatedReadMinutes: 6,
   steps: [
@@ -12,11 +12,11 @@ export default {
       title: 'Why the Ordem dos Engenheiros is needed',
       content: [
         { kind: 'paragraph', text: 'The Ordem dos Engenheiros (OE) is a public professional association for engineers. Membership does not in itself replace a construction licence, but for design work it is often the practical entry pass: the client, Câmara Municipal, fiscalização and insurer want to see that the técnico autor has valid inscrição and competence in the speciality.' },
-        { kind: 'paragraph', text: 'For licenciamento/comunicação prévia projects, peças do projeto and a termo de responsabilidade are usually submitted. It is signed by a técnico legalmente habilitado. For engineering disciplines, this is generally a membro efetivo OE or a specialist from another applicable professional association, if the law allows that profession for the specific project.' },
+        { kind: 'paragraph', text: 'For licenciamento/comunicação prévia projects, peças do projeto and a termo de responsabilidade are usually submitted. Who counts as a técnico legalmente habilitado is set by Lei 31/2009 (qualification of técnicos de projeto, direção de obra and fiscalização) — the Câmara checks not membership as such but habilitação for that specific type of project. For engineering disciplines, this is generally a membro efetivo da Ordem dos Engenheiros or a membro da Ordem dos Engenheiros Técnicos, within their atos próprios and especialidade; in some fields the law allows other technical professionals.' },
         { kind: 'checklist', items: [
           'Structural engineering: estabilidade, betão, aço, geotecnia — usually requires an engineer with the relevant especialidade',
-          'Águas, esgotos, águas pluviais, gás, térmica, acústica, segurança contra incêndio — profile and experience are checked',
-          'Electrical engineering projects: OE may be sufficient, but some works require separate DGEG/entidade inspetora rules',
+          'Águas, esgotos, águas pluviais — usually by especialidade and habilitação; gás, eletricidade, térmica/SCE and segurança contra incêndio often require separate registration with DGEG, ADENE or ANEPC beyond OE/OET',
+          'SCIE for risk categories 2, 3 and 4 is signed by a técnico credenciado pela ANEPC; energy/SCE work by a perito qualificado ADENE — OE/OET membership alone is not enough',
           'An architect’s signature does not replace an engineer for engineering especialidades',
           'A foreign company may be the contractor, but the project signatory must have Portuguese professional habilitação',
           'A signed PDF without a termo de responsabilidade and OE inscrição number is often not accepted',
@@ -46,7 +46,8 @@ export default {
             { kind: 'paragraph', text: 'In practice, this is not an “automatic card swap”: the OE still checks the documents, discipline, good standing and alignment with the Portuguese especialidade. But the MRA reduces uncertainty and is usually stronger than a standard non-EU application without professional status.' }
           ]},
           { id: 'non-eu', title: 'Degree outside the EU: reconhecimento + relatório profissional', content: [
-            { kind: 'paragraph', text: 'For degrees from Russia, Belarus, Ukraine, Kazakhstan, Brazil and other non-EU countries, the OE usually looks not only at the degree, but also at academic recognition in Portugal. A common first step is reconhecimento de grau académico through DGES/a Portuguese university under Decreto-Lei 66/2018: reconhecimento automático, de nível or específico.' },
+            { kind: 'paragraph', text: 'For degrees from Russia, Belarus, Ukraine, Kazakhstan and other non-EU countries, the OE usually looks not only at the degree, but also at academic recognition in Portugal. A common first step is reconhecimento de grau académico through DGES/a Portuguese university under Decreto-Lei 66/2018: reconhecimento automático, de nível or específico.' },
+            { kind: 'paragraph', text: 'Brazil is a special case: for academic reconhecimento it is also non-EU, but if you are registered in the CONFEA/CREA system, check the current Termo de Reciprocidade between the OE and CONFEA. It is based on full reciprocity (on professional competences, without revalidação of the degree) and usually gives a faster path than a generic non-EU application.' },
             { kind: 'paragraph', text: 'The OE then assesses the candidatura. For a non-EU engineer, the key document is the relatório profissional: a structured report on projects, responsibilities, calculations, standards, software, assets and the candidate’s role. Its purpose is to prove that you did not merely “work as an engineer”, but personally performed functions at the level of a Portuguese engenheiro.' }
           ]}
         ] }
@@ -103,7 +104,8 @@ export default {
           'Do not sign sections outside your competence: this is a disciplinary and insurance risk',
           'Keep calculations, drawing versions and correspondence: fiscalização may ask for justification',
           'Check responsabilidade civil profissional with the insurer: OE membership does not mean automatic cover for all risks',
-          'For projects under Portuguese standards, use Eurocódigos, legislação nacional and municipal regulamentos, not only the standards of the country of origin'
+          'For projects under Portuguese standards, use Eurocódigos, legislação nacional and municipal regulamentos, not only the standards of the country of origin',
+          'Before signing special sections, check the separate register/entidade competente: ANEPC for SCIE (risk categories 2–4), ADENE/SCE for the perito qualificado and energy certification, DGEG/entidade inspetora for gas and electrical regimes — a declaração da OE does not replace these'
         ] },
         { kind: 'warning', text: 'Signing “for a friend”, signing a project you have not checked, or using someone else’s OE number is a direct risk of disciplinary proceedings, civil liability and refusal of licenciamento by the Câmara.' }
       ]
@@ -118,7 +120,7 @@ export default {
           'Make a table matching your subjects to the Portuguese OE especialidade',
           'For non-EU, start DGES reconhecimento in advance: without it, the OE may not accept the academic part',
           'If you are a CEng from the UK, first obtain confirmation of status and good standing from the Engineering Council',
-          'Translate key documents into Portuguese through a sworn/tradutor or by a method accepted by the OE',
+          'Get a certified translation of key documents into Portuguese by a method the OE/DGES accepts: a translation certified by a notário, advogado, solicitador or consulado (Portugal has no single “sworn translator” system — check the receiving entity’s requirements)',
           'In the relatório profissional, write specifically: asset, year, area/capacity, standards, calculation, your signature or responsibility',
           'Do not promise a client a licenciamento timeline until the OE has confirmed habilitação',
           'After joining, keep track of quotas and regularidade: overdue membership fees can spoil the declaração for the Câmara'
@@ -169,6 +171,20 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'Lei 31/2009 — qualification of técnicos de projeto, direção and fiscalização de obra',
+      url: 'https://diariodarepublica.pt/dr/detalhe/lei/31-2009-491903',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
+      title: 'ANEPC — credenciação of SCIE technicians (fire safety in buildings)',
+      url: 'https://prociv.gov.pt/pt/seguranca-contra-incendio/servicos/credenciacao-de-entidades/',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
       title: 'DGES — recognition of foreign degrees and diplomas',
       url: 'https://www.dges.gov.pt/pt/pagina/reconhecimento',
       kind: 'official',
@@ -176,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

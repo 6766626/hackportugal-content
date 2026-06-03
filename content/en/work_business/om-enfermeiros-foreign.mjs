@@ -26,7 +26,7 @@ export default {
           'Diploma from the EU/EEA/Switzerland: a professional recognition procedure under EU rules may be possible; the OE will still check the documents and the right to practise.',
           'Diploma from a third country: Reconhecimento Específico at a Portuguese public higher education institution under Decreto-Lei 66/2018 is usually required.',
           'If you have already worked as a nurse abroad: request a certificate of good standing / declaração de não sanção in advance from your professional body or regulator.',
-          'If the country does not have a nursing body: prepare an official explanation from the competent authority or employer stating that there are no sanctions/prohibitions.',
+          'If the country has no nursing body: request a document from the competent state health authority/regulator stating there is no prohibition/sanction; an employer letter can only be a supporting document, and you should confirm its acceptability with the OE.',
           'All foreign documents must be legalised: Hague Apostille or consular legalisation if the country is not part of the Hague Convention.',
           'Documents not in Portuguese, English, French or Spanish often require tradução certificada; for higher education institutions, it is better to confirm this in advance.'
         ] }
@@ -39,7 +39,7 @@ export default {
         { kind: 'paragraph', text: 'Reconhecimento Específico is Portuguese recognition that your foreign diploma corresponds to a specific cycle/field of study in Portugal. For enfermagem, it is handled through public instituições de ensino superior that offer an Enfermagem course. The legal basis is Decreto-Lei 66/2018.' },
         { kind: 'paragraph', text: 'The application is not submitted to the OE, but to the chosen higher education institution.\n\nTimelines and committees vary: some institutions open application windows, while others accept applications all year round. In practice, allow 3–9 months, especially if they appoint an analysis of currículo, interview, exames or additional unidades curriculares.' },
         { kind: 'checklist', items: [
-          'Diploma in higher/professional nursing education — as required by the chosen higher education institution.',
+          'A higher-education nursing diploma comparable to a Portuguese Licenciatura em Enfermagem (4 years, at least ~4,600 hours, half of them clinical practice). If you only hold a secondary/vocational (college) nursing qualification, check with the institution in advance: it may not be accepted as sufficient for the enfermeiro/enfermeira title.',
           'Diploma supplement with hours, credits, subjects and grades.',
           'Course programme / syllabus: clinical practice, pharmacology, adult nursing, maternal, paediatrics, mental health, etc.',
           'Document on the duration of studies and number of clinical hours, if this is not clear from the supplement.',
@@ -55,7 +55,7 @@ export default {
       id: 'portuguese-c1',
       title: '2️⃣ Portuguese language: prepare for C1',
       content: [
-        { kind: 'paragraph', text: 'For communicating with patients and doctors and completing clinical records, the OE requires sufficient command of Portuguese. The practical safe benchmark for 2026 is a certificado de língua portuguesa nível C1. The best-known option is CAPLE DAPLE C1, but the OE may accept other documents if they meet the procedure requirements.' },
+        { kind: 'paragraph', text: 'For communicating with patients and doctors and completing clinical records, the OE requires command of Portuguese. Under the current Prova de Comunicação Linguística regulation (Regulamento 339/2017), the certificate must correspond to at least level C1 of the CEFR. CAPLE DAPLE and DUPLE are recognised; the OE may accept another document if it meets the procedure requirements.' },
         { kind: 'checklist', items: [
           'Plan language study in parallel with reconhecimento: waiting for the institution’s decision and only then starting C1 is almost always a waste of time.',
           'CAPLE DAPLE C1 is not held every month and places run out; check the CAPLE calendário in advance.',
@@ -64,7 +64,7 @@ export default {
           'If you are from Brazil, language is usually not the main barrier, but the OE may still request formal documents under the procedure.',
           'English is useful in private healthcare and the Algarve/Lisboa, but it does not replace Portuguese for the OE and the SNS.'
         ] },
-        { kind: 'warning', text: 'B2 level is often insufficient for regulated medical practice. If the institution or the OE accepts another document in a specific case, this exception must be confirmed in writing before applying.' }
+        { kind: 'warning', text: 'B2 is below the OE formal minimum (C1): without passing the Prova de Comunicação Linguística, the inscrição will not be granted. If the OE accepts another document in a specific case, this exception must be confirmed in writing before applying.' }
       ]
     },
     {
@@ -82,7 +82,7 @@ export default {
           'Attach certificado de registo criminal, if required in the current OE form.',
           'Attach certificate of good standing / declaração profissional from the country where you were registered as a nurse.',
           'Pay the OE emolumentos and wait for análise do processo.',
-          'After approval, obtain inscrição/cédula and only then sign a contract specifically as an enfermeiro/enfermeira.'
+          'A conditional contrato/promessa de contrato for the visa can be signed before the cédula, but you may only start work and perform duties specifically as an enfermeiro/enfermeira after an active OE inscrição/cédula.'
         ] },
         { kind: 'paragraph', text: 'The timeframe depends on how complete the documents are. If the OE makes a pedido de elementos adicionais, respond quickly and in one package: incomplete replies restart the correspondence. Keep PDF receipts, emails and the processo number.' }
       ]
@@ -101,7 +101,7 @@ export default {
           'If you have a student residence permit or are waiting for AIMA, check the right to work in your exact status.',
           'Keep OE quotas and your contact details in Balcão Único up to date; arrears can hinder confirmation of status to an employer.'
         ] },
-        { kind: 'warning', text: 'The immigration part is separate: the OE does not issue a visa or residence permit. If you are moving from abroad, plan an appropriate D1/D3/D8 route or another status in advance. Since 23.10.2025, Lei 61/2025 has been in force, so “entering as a tourist and legalising later” is no longer a reliable strategy.' }
+        { kind: 'warning', text: 'The immigration part is separate: the OE does not issue a visa or residence permit. If you are moving from abroad to work in a Portuguese clinic, the usual routes are a D1 visa (with an employment contract or promessa de contrato) or D3 (if the position and qualification qualify as atividade altamente qualificada). The D8 visa is only for remote work for a foreign employer/clients and is not a route for a nursing job in Portugal. Since 23.10.2025, Lei 61/2025 has been in force, so “entering as a tourist and legalising later” is no longer a reliable strategy.' }
       ]
     }
   ],
@@ -118,6 +118,13 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'Ordem dos Enfermeiros — Normas para implementação de Prova de Comunicação Linguística (C1 level)',
+      url: 'https://www.ordemenfermeiros.pt/a-ordem/inscreva-se/normas-para-implementacao-de-prova-de-comunicacao-linguistica/',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
     },
     {
       title: 'Ordem dos Enfermeiros — Balcão Único',
@@ -141,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

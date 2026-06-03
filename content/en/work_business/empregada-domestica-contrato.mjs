@@ -59,7 +59,7 @@ export default {
               'The worker’s NIF, if any.',
               'Contract start date.',
               'Schedule and expected remuneração.',
-              'Write: "The contribution base is usually remuneração convencional; the remuneração real/efetiva regime applies when Segurança Social conditions are met and is important, for example, for unemployment protection. Before choosing, check the conditions in Segurança Social Direta/the official guide and record this with the worker."'
+              'The contribution base is usually remuneração convencional; the remuneração real/efetiva regime applies when Segurança Social conditions are met and is important, for example, for unemployment protection. Before choosing, check the conditions in Segurança Social Direta/the official guide and record this with the worker.'
             ] }
           ] },
           { id: 'submit-admission', title: '2. Submit the admissão', content: [
@@ -77,7 +77,7 @@ export default {
       title: 'How much to pay: salary, contributions, holiday pay',
       content: [
         { kind: 'paragraph', text: 'Minimum full-time pay in 2026 is based on SMN €920 per month, usually 14 payments per year: 12 salaries + subsídio de férias + subsídio de Natal. For part-time, calculate proportionally to the hours, but not below the minimum rate.' },
-        { kind: 'paragraph', text: 'Add after this paragraph: "Important: conventional and real differ not only in the amount of contributions, but also in the level of social protection; for a domestic worker to be entitled to subsídio de desemprego, the regime usually needs to be based on the actual salary/conditions recognised by Segurança Social." This is the contribution base, not permission to pay the worker €3.10/h.' },
+        { kind: 'paragraph', text: 'Important: remuneração convencional and remuneração real differ not only in the amount of contributions, but also in the level of social protection. For a domestic worker to be entitled to subsídio de desemprego, the regime usually needs to be based on the actual salary (real), as recognised by Segurança Social. The conventional base is tied to the IAS and is only for calculating contributions — it is not permission to pay the worker below the minimum salary.' },
         { kind: 'checklist', items: [
           'Full-time 40 h/week: not below €920 gross/month × 14 in 2026.',
           'Part-time: salary is proportional to hours, plus proportional holiday and Christmas payments.',
@@ -164,6 +164,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

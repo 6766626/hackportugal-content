@@ -197,7 +197,7 @@ export default {
         { kind: 'checklist', items: [
           '📋 Livro de Reclamações (complaints book) — the operator must reply within 15 days',
           '🏛️ ANACOM — regulator, online complaint at anacom.pt',
-          '⚖️ Arbitragem CNIACC — mandatory for operators for claims < €5,000',
+          '⚖️ Arbitragem CNIACC — mandatory for operators for claims up to €5,000',
           '🚫 Termination of service without reason — breach; compensation',
           '📅 For payment delays — 15 days’ notice before disconnection',
           '🔍 Tarifarios.anacom.pt — official tariff comparison tool (regularly updated)'
@@ -225,6 +225,6 @@ export default {
     { title: 'Decreto-Lei 74-B/2021 — communications services', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-170593125', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CNIACC — national arbitration for telecommunications', url: 'https://www.cniacc.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 120
 }

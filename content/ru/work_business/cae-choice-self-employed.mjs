@@ -50,8 +50,8 @@ export default {
           'IVA art. 53 CIVA: в 2026 освобождение возможно, если оборот за предыдущий год не превышал 15 000 € и соблюдены условия режима',
           'Если клиент вне Португалии, проверьте regras de localização do IVA и reverse charge — особенно B2B в ЕС',
           'Некоторые медицинские, образовательные и страховые операции могут быть isentas по другим статьям CIVA, но это не автоматическое освобождение для всех преподавателей/терапевтов',
-          'Retenção na fonte по IRS часто зависит от типа услуги и клиента; для многих услуг ставка 25%, но есть исключения и dispensa при низком обороте',
-          'В regime simplificado налоговая база зависит от коэффициента: многие услуги считаются по 75%, продажи товаров — по 15%, но детали зависят от кода и характера дохода',
+          'Retenção na fonte по IRS возникает в основном тогда, когда клиент в Португалии обязан удерживать налог (компания или entidade com contabilidade organizada); для частных лиц и большинства иностранных клиентов retenção обычно не применяется. Для многих услуг из tabela do art. 151 CIRS ставка 25%, но есть исключения и dispensa при низком обороте',
+          'В regime simplificado налоговая база зависит от коэффициента (art. 31 CIRS): профессиональные услуги из tabela do art. 151 CIRS — обычно 75%, прочие услуги вне этого списка — 35%, продажи товаров — 15%; конкретный коэффициент надо проверять по виду дохода',
           'Если оборот растёт, заранее проверьте переход на IVA normal и обязанность подавать declarações periódicas',
           'Для операций с ЕС может понадобиться declaração recapitulativa и корректная регистрация VIES'
         ] },
@@ -63,7 +63,7 @@ export default {
       title: '4. Учесть Segurança Social и IFICI',
       content: [
         { kind: 'paragraph', text: 'Для trabalhador independente стандартная ставка взносов Segurança Social — 21,4%. База считается не от CAE напрямую, а от rendimento relevante: обычно 70% дохода от услуг и 20% от продажи товаров/производства. Но код помогает классифицировать деятельность и избежать споров, когда у вас смешанные услуги и продажи.' },
-        { kind: 'paragraph', text: 'Для IFICI, режима налогового стимула, заменившего старый NHR для новых резидентов, CAE может быть критичен не как “магическое слово”, а как доказательство, что деятельность относится к допустимой экономической сфере или высококвалифицированной функции. В 2026 правила IFICI завязаны на конкретные виды деятельности, работодателя/заказчика, квалификацию и регистрацию в установленный срок.' },
+        { kind: 'paragraph', text: 'Для IFICI — более узкого режима налогового стимула для научных исследований, инноваций и ряда высококвалифицированных функций, который пришёл на смену NHR для новых резидентов, но не повторяет его широту, — CAE может быть важен не как “магическое слово”, а как доказательство, что деятельность относится к допустимой экономической сфере или высококвалифицированной функции. В 2026 правила IFICI завязаны на конкретные виды деятельности, работодателя/заказчика, квалификацию и регистрацию в установленный срок.' },
         { kind: 'checklist', items: [
           'Первый год atividade может давать освобождение от Segurança Social до 12 месяцев, если это первая регистрация как trabalhador independente',
           'После освобождения декларации Segurança Social обычно подаются ежеквартально',
@@ -83,7 +83,7 @@ export default {
           { id: 'start', title: 'Открытие atividade', content: [
             { kind: 'checklist', items: [
               'Portal das Finanças → Cidadãos → Serviços → Atividade → Início de Atividade',
-              'Укажите дату начала: она должна соответствовать реальной первой услуге/продаже',
+              'Подайте início de atividade до начала операций и до первого recibo/fatura; дата начала должна соответствовать реальному началу деятельности (задним числом — риск штрафов и корректировок)',
               'Выберите основную atividade и дополнительные, если они уже нужны',
               'Укажите previsão de volume de negócios — от неё зависит режим IVA',
               'Проверьте campo de IVA: art. 53, regime normal или специальное освобождение',
@@ -125,6 +125,20 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'Código do IRS — art. 31 (regime simplificado, коэффициенты) и art. 101/101-B (retenção na fonte и dispensa)',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs31.aspx',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
+      title: 'IFICI — art. 58.º-A do EBF и Portaria n.º 352/2024/1 (допустимые виды деятельности и регистрация)',
+      url: 'https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/questoes_frequentes/pages/faqs-01018.aspx',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
+    {
       title: 'Segurança Social — Guia Prático do Trabalhador Independente',
       url: 'https://www.seg-social.pt/trabalhadores-independentes',
       kind: 'official',
@@ -132,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

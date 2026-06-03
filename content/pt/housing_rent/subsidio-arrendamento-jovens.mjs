@@ -50,8 +50,8 @@ export default {
       id: 'calendar-and-strategy',
       title: 'Calendário de 2026 e estratégia de candidatura',
       content: [
-        { kind: 'paragraph', text: 'Em abril de 2026 não existe um calendário nacional único para Lisboa e Porto. Acompanhe as páginas da Câmara: os concursos podem abrir várias vezes por ano ou à medida que surgem habitações/orçamento. A subscrição das notícias do portal municipal é mais útil do que rumores no Telegram.' },
-        { kind: 'checklist', items: ['Verifique o site oficial da CML/CMP pelo menos uma vez a cada 2 semanas se estiver ativamente à procura de habitação', 'Descarregue o PDF do edital/regulamento e guarde uma cópia: é ele que define as regras da sua candidatura', 'Compare o programa municipal com o Porta 65 Jovem: por vezes, a subvenção nacional é mais rápida ou mais vantajosa', 'Calcule a renda líquida: o esforço com a renda é normalmente avaliado após impostos e contribuições obrigatórias', 'Tenha em conta a atualização da renda: em 2026, o coeficiente de atualização anual de renda é de 2,16%, se o contrato permitir indexação', 'Não apresente dados diferentes sobre a composição familiar em programas diferentes — divergências podem levar à recusa', 'Depois da candidatura, verifique regularmente o email, a área reservada e as notificações: o prazo para responder a um pedido de elementos pode ser curto'] },
+        { kind: 'paragraph', text: 'Em maio de 2026 não existe um calendário nacional único para Lisboa e Porto. Acompanhe as páginas da Câmara: os concursos podem abrir várias vezes por ano ou à medida que surgem habitações/orçamento. A subscrição das notícias do portal municipal é mais útil do que rumores no Telegram.' },
+        { kind: 'checklist', items: ['Verifique o site oficial da CML/CMP pelo menos uma vez a cada 2 semanas se estiver ativamente à procura de habitação', 'Descarregue o PDF do edital/regulamento e guarde uma cópia: é ele que define as regras da sua candidatura', 'Compare o programa municipal com o Porta 65 Jovem: por vezes, a subvenção nacional é mais rápida ou mais vantajosa', 'Calcule a renda líquida: o esforço com a renda é normalmente avaliado após impostos e contribuições obrigatórias', 'Tenha em conta a atualização da renda: em 2026, o coeficiente de atualização anual de renda é de 2,24%, se o contrato permitir indexação', 'Não apresente dados diferentes sobre a composição familiar em programas diferentes — divergências podem levar à recusa', 'Depois da candidatura, verifique regularmente o email, a área reservada e as notificações: o prazo para responder a um pedido de elementos pode ser curto'] },
         { kind: 'paragraph', text: 'Uma boa estratégia: apresentar paralelamente candidatura ao Porta 65 Jovem, monitorizar a CML/CMP e procurar um contrato de mercado que consiga suportar sem subvenção durante pelo menos 3–6 meses. Os programas municipais ajudam, mas não são emergency housing.' }
       ]
     },
@@ -75,6 +75,6 @@ export default {
     { title: 'Portal da Habitação / IHRU — Porta 65 Jovem', url: 'https://www.portaldahabitacao.pt/porta-65-jovem', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — coeficiente de atualização de rendas 2026', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

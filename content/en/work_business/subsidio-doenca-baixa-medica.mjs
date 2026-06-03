@@ -57,7 +57,7 @@ export default {
           'The employer can verify the document using a code',
           'It is not a CIT from a doctor',
           'Segurança Social does not pay subsídio de doença for this autodeclaração',
-          'If the illness continues, you need a doctor and a CIT from the 4th day or from the actual date that the doctor can reasonably state'
+          'If the illness continues after the autodeclaração, you need a doctor and a CIT for the period that follows; the first 3 days usually stay unpaid, and the CIT start date is set by the doctor on medical grounds, not at the worker’s request'
         ] },
         { kind: 'warning', text: 'Do not confuse “justifying an absence” with “receiving a benefit” — they are different things. The SNS24 autodeclaração resolves the disciplinary issue at work, but it does not create a right to money from Segurança Social.' }
       ]
@@ -66,13 +66,14 @@ export default {
       id: 'payment-rules',
       title: 'How much is paid and from which day',
       content: [
-        { kind: 'paragraph', text: 'The amount is calculated from the remuneração de referência — the daily base calculated from salaries registered with Segurança Social. In simplified terms: earnings from the first 6 months of the 8 months before the month in which the illness starts are taken and divided by 180. Holiday/Christmas subsidies may be counted under special rules, so the actual base in Segurança Social may differ from your “take-home pay”.' },
+        { kind: 'paragraph', text: 'The amount is calculated from the remuneração de referência — the daily base calculated from salaries registered with Segurança Social. In simplified terms: earnings from the first 6 of the 8 months before the month in which the illness starts are taken and divided by 180. The subsídio de férias and subsídio de Natal are generally not included in this calculation, so the base in Segurança Social is usually lower than your monthly salary, and lower still than your take-home pay.' },
         { kind: 'checklist', items: [
           'Up to 30 days of illness: 55% of the remuneração de referência',
           'From the 31st to the 90th day: 60%',
           'From the 91st to the 365th day: 70%',
           'From the 366th day: 75%',
-          'With a low base or 3+ children/a child with a disability, the first rates may increase by 5 percentage points under Segurança Social conditions',
+          'Only the 55% and 60% rates can rise to 60% and 65%: if the remuneração de referência is ≤ €500, or the household has 3+ children under 16 (or under 24 with abono de família), or a child with the disability supplement. The 70% and 75% rates are not increased',
+          'There is a floor and a cap: the daily benefit is at least 30% of the daily IAS (about €5.37 a day in 2026) but no more than the net remuneração de referência; check the exact amount in Segurança Social Direta',
           'For an employee, the usual período de espera is 3 days: payment starts from the 4th day',
           'Payment is made from the 1st day in cases of internamento hospitalar, cirurgia de ambulatório, tuberculose and in some situations related to parentalidade',
           'The maximum duration for a trabalhador por conta de outrem is usually 1095 days; a special regime applies for tuberculosis'
@@ -92,7 +93,7 @@ export default {
           'Inform your employer about the illness as early as possible: email, HR portal, Slack/Teams — whatever is used in the company',
           'If the doctor extends the baixa, make sure the new CIT has no gap in dates',
           'If the case has not appeared in Segurança Social Direta after a few days, call Segurança Social or check with the doctor whether the CIT was sent',
-          'Do not work during baixa if the CIT prohibits work: this may lead to repayment of the benefit and problems with the employer',
+          'Do not work during paid baixa, including remote work and freelance: a CIT certifies incapacity, it does not authorise working from home. A breach can lead to repayment of the benefit and disciplinary consequences',
           'If you become ill during férias, urgently check the holiday postponement rules with HR: a medical document and compliance with the procedure are required'
         ] },
         { kind: 'paragraph', text: 'The money usually arrives by bank transfer from Segurança Social. Timings depend on how quickly the CIT entered the system, whether you have a confirmed IBAN and whether there are any discrepancies in the employer’s contribuições.' }
@@ -117,7 +118,7 @@ export default {
   ],
   costs: [
     { label: 'Autodeclaração de doença via SNS24', amountEUR: 0, note: 'Free, up to 3 days, maximum 2 times per year; usually without payment of subsídio de doença' },
-    { label: 'SNS appointment to obtain a CIT', amountEUR: 0, note: 'In the SNS, user charges for most primary appointments have been abolished; a private consultation is paid according to the clinic/insurance tariff' },
+    { label: 'SNS appointment to obtain a CIT', amountEUR: 0, note: 'In SNS primary care (centro de saúde) it is usually free; a hospital urgência may carry a taxa moderadora without a referral; a private consultation is paid according to the clinic/insurance tariff' },
     { label: 'Minimum wage SMN 2026', amountEUR: 920, note: 'Reference point for salaries; the benefit is calculated not from the SMN, but from the registered remuneração de referência' },
     { label: 'IAS 2026', amountEUR: 537.13, note: 'Social benefits indicator; used in a number of Segurança Social limits and minimum rules' }
   ],
@@ -126,6 +127,6 @@ export default {
     { title: 'SNS24 — medical services portal and autodeclaração de doença', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Trabalho — justified absences due to illness', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

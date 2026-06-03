@@ -3,7 +3,7 @@ export default {
   id: 'csi-complemento-idosos',
   categoryId: 'healthcare',
   title: 'CSI — Complemento Solidário para Idosos: top-up for older people on low income',
-  tldr: 'Complemento Solidário para Idosos (CSI) is a monthly Segurança Social top-up for people aged 66 years and 9 months in 2026, if they have lived in Portugal for at least 6 consecutive years and have very low income. The maximum is around €600/month; in practice, they pay the difference between your assessed income and the CSI limit. Plus: 100% coverage of part of prescription medicines within the SNS and dental benefits. It is not immediately available to new D7/D8 pensioners: a residence period is required.',
+  tldr: 'Complemento Solidário para Idosos (CSI) is a monthly Segurança Social top-up for people aged 66 years and 9 months in 2026, if they have lived in Portugal for at least 6 consecutive years and have very low income. The maximum is around €670/month; in practice, they pay the difference between your assessed income and the CSI limit. Plus: 100% coverage of part of prescription medicines within the SNS and dental benefits. It is not immediately available to new D7/D8 pensioners: a residence period is required.',
   tags: ['csi', 'pension', 'elderly', 'sns'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,13 +11,13 @@ export default {
       id: 'what-is-csi',
       title: 'What CSI is and who actually needs it',
       content: [
-        { kind: 'paragraph', text: 'CSI is not a pension, but a social top-up to an older person’s income. It is paid by Segurança Social if income is below the set annual benchmark. If a person has almost no income, the payment may reach roughly €600/month; if there is a pension, rent, interest or a foreign pension, CSI is reduced.' },
+        { kind: 'paragraph', text: 'CSI is not a pension, but a social top-up to an older person’s income. It is paid by Segurança Social if income is below the set annual benchmark. If a person has almost no income, the payment may reach roughly €670/month; if there is a pension, rent, interest or a foreign pension, CSI is reduced.' },
         { kind: 'paragraph', text: 'For expats, this matters in two situations: you have lived in Portugal for a long time and your pension is small; or you are moving in with an elderly relative and planning their social protection. But CSI does not work as support immediately after relocation: the key condition is 6 years of lawful residence in Portugal in a row.' },
         { kind: 'checklist', items: [
           'Age in 2026: at least 66 years and 9 months — normal age for old-age pension.',
           'Residence: at least 6 consecutive years in Portugal on the application date.',
-          'Income: below the CSI limit; for a single applicant, the benchmark is around €7,200/year.',
-          'For a couple, the spouse’s/partner’s income is taken into account; the practical couple threshold is around €12,600/year.',
+          'Income: below the CSI limit; for a single applicant, the benchmark is around €8,040/year.',
+          'For a couple, the spouse’s/partner’s income is taken into account; the practical couple threshold is around €14,070/year.',
           'Foreign pensions, rent, interest, investment income and property income must be declared.',
           'You need to have a NISS and be registered with Segurança Social.',
           'You must already receive or be entitled to request the relevant pension, if it is due.',
@@ -34,7 +34,7 @@ export default {
           'Age: 66 years and 9 months or older in 2026.',
           'Residence: living in Portugal for 6 consecutive years immediately before the application.',
           'For third-country nationals: a valid residence permit / autorização de residência or other lawful residence status.',
-          'The applicant’s income is below the annual valor de referência CSI — around €7,200/year.',
+          'The applicant’s income is below the annual valor de referência CSI — around €8,040/year.',
           'If there is a spouse, união de facto or shared household, their income is also taken into account.',
           'Movable assets — bank balances, deposits, securities — must not exceed 240 IAS. With IAS at €537.13 in 2026, this is €128,911.20.',
           'Since 2024, the income of adult children generally no longer blocks CSI in the way it used to; the focus is on the applicant’s and couple’s resources.',
@@ -45,10 +45,10 @@ export default {
     },
     {
       id: 'how-much',
-      title: 'How much is paid: not a fixed €600, but a top-up to the limit',
+      title: 'How much is paid: not a fixed €670, but a top-up to the limit',
       content: [
         { kind: 'paragraph', text: 'CSI is calculated as the difference between the set annual benchmark and your assessed income. Therefore, two people of the same age may receive different amounts: one almost the maximum, another €40–100/month, a third €0.' },
-        { kind: 'paragraph', text: 'Simplified example: if the CSI limit is around €7,200/year, and your assessed pension and other income are €4,800/year, the annual top-up may be around €2,400, i.e. roughly €200/month. If income is zero, the maximum is around €600/month.' },
+        { kind: 'paragraph', text: 'Simplified example: if the CSI limit is around €8,040/year, and your assessed pension and other income are €4,800/year, the annual top-up may be around €3,240, i.e. roughly €270/month. If income is zero, the maximum is around €670/month.' },
         { kind: 'checklist', items: [
           'Portuguese old-age pension is taken into account.',
           'A foreign state or private pension is taken into account.',
@@ -58,7 +58,7 @@ export default {
           'If income has changed, it must be reported to Segurança Social.',
           'The payment is usually made monthly together with other social benefits or to the specified IBAN.'
         ] },
-        { kind: 'warning', text: 'Do not budget on the basis of “I will definitely get €600”. This is the maximum top-up with minimal resources. The real amount appears only after Segurança Social calculates it.' }
+        { kind: 'warning', text: 'Do not budget on the basis of “I will definitely get €670”. This is the maximum top-up with minimal resources. The real amount appears only after Segurança Social calculates it.' }
       ]
     },
     {
@@ -118,7 +118,7 @@ export default {
   ],
   costs: [
     { label: 'CSI application', amountEUR: 0, note: 'The Segurança Social public service is free.' },
-    { label: 'Maximum monthly top-up', amountEURMax: 600, note: 'Benchmark for 2026: maximum where assessed income is almost zero; the actual amount is calculated individually.' },
+    { label: 'Maximum monthly top-up', amountEURMax: 670, note: 'Benchmark for 2026 (valor de referência €8,040/year): maximum where assessed income is almost zero; the actual amount is calculated individually.' },
     { label: 'Movable asset threshold', amountEURMax: 128911.2, note: '240 IAS with IAS at €537.13 in 2026; includes bank balances, deposits and other financial assets.' }
   ],
   sources: [
@@ -137,6 +137,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

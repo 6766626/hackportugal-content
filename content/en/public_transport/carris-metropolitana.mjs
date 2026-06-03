@@ -133,6 +133,6 @@ export default {
     { title: 'Official Navegante portal: fares and passes in the Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transportes Metropolitanos de Lisboa: information about the network and operators', url: 'https://www.tmlmobilidade.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -33,12 +33,12 @@ export default {
           'Your details: name, NIF, NISS if you have one, telephone, email, address.',
           'Employer details: company name, NIPC/NIF, sede address and workplace address, name of the gerente/chefe.',
           'Contrato de trabalho or evidence of work without a contract: correspondence, shifts, badges, access permissions, photos of uniform, schedules.',
-          'Recibos de vencimento, extractos bancários, comprovativos de transferência, messages about delayed payment.',
+          'Recibos de vencimento, extratos bancários, comprovativos de transferência, messages about delayed payment.',
           'Timesheet/horário, shift records, WhatsApp/Slack/Email with requests to work weekends or overtime.',
           'Dismissal letter, comunicação de despedimento, acordo de revogação, aviso prévio, any documents you were asked to sign.',
           'Evidence of unsafe conditions: photos, videos, witnesses, absence of EPI, absence of formação, acidentes, relatório médico.',
           'If you are on recibos verdes but work like an employee: fixed schedule, manager, employer’s workplace, exclusivity, monthly payment.',
-          'Debt calculation: month, bruto/neto amount, what has not been paid — salário, subsídios, férias, horas extra, compensação.'
+          'Debt calculation: month, bruto/líquido amount, what has not been paid — salário, subsídios, férias, horas extra, compensação.'
         ] },
         { kind: 'warning', text: 'Do not sign an acordo de revogação, quitação or “received everything” without checking. Such documents can make later recovery more difficult, even if the money was not in fact paid.' }
       ]
@@ -63,7 +63,7 @@ export default {
             ] }
           ] },
           { id: 'write-facts', title: '3. Describe the facts using the “who-what-when-where” structure', content: [
-            { kind: 'paragraph', text: 'Example: “I have been working at Restaurante X, Rua Y, Lisboa, since 03.02.2026. No contract was issued. A salary of €920 net was promised verbally, and €920 for March 2026 has not been paid. I worked 6 days a week for 10 hours, and there are no recibos de vencimento.\n\nDocuments and correspondence are attached”.' }
+            { kind: 'paragraph', text: 'Example: “I have been working at Restaurante X, Rua Y, Lisboa, since 03.02.2026. No contract was issued. A salary of €920 bruto was promised verbally, and nothing has been paid for March 2026. I worked 6 days a week for 10 hours, and there are no recibos de vencimento.\n\nDocuments and correspondence are attached”.' }
           ] },
           { id: 'attach-files', title: '4. Attach files and submit', content: [
             { kind: 'paragraph', text: 'Upload PDF/JPG/PNG: contract, recibos, bank statements, correspondence, photos of working conditions. Save the comprovativo/case number.' }
@@ -97,7 +97,7 @@ export default {
         { kind: 'checklist', items: [
           'Non-payment of salary: claim salário, subsídio de férias, subsídio de Natal, férias não gozadas, horas extra, juros de mora.',
           'Dismissal: check the type — despedimento disciplinar, coletivo, extinção do posto de trabalho, inadaptação, caducidade, revogação.',
-          'Challenging a despedimento: as a guide — 60 days from receipt of the decision/dismissal date under Código do Trabalho art. 387; do not miss the deadline.',
+          'Challenging a despedimento: for most individual dismissals (disciplinar, extinção do posto de trabalho, inadaptação) the deadline is short — 60 days from receipt of the written decision under Código do Trabalho art. 387. For a despedimento coletivo a separate 6-month deadline applies, from the date the contract ends, under art. 388. Revogação and caducidade are challenged under different rules — show the documents to a lawyer urgently.',
           'After termination of the contract, employment credits are usually claimed within 1 year under art. 337 Código do Trabalho.',
           'In the labour court, a tentativa de conciliação/audiência de partes is held: the judge tries to reconcile the parties before further proceedings.',
           'If an agreement is reached, it is recorded in an auto and becomes enforceable.',
@@ -117,7 +117,7 @@ export default {
           'If the employer threatens to “cancel your visa”, record the threats in writing. The employer is not AIMA.',
           'Ask for contrato de trabalho and recibos de vencimento: they are important for your residence permit, NISS, IRS and Segurança Social.',
           'If you were set up as recibos verdes but in practice are subordinate like a worker, this may be falso trabalho independente.',
-          'The monthly minimum wage SMN in mainland Portugal in 2026 is €920; paying less than the full rate for full-time work is not allowed, except under special lawful regimes.',
+          'The monthly minimum wage SMN in mainland Portugal in 2026 is €920 bruto (before deductions) for full-time work; what reaches your account after the Segurança Social contribution is usually lower (around €818 líquido). Paying less than this rate for full-time work is not allowed, except under special lawful regimes.',
           'Keep evidence in your personal email/cloud, not only in your work account.',
           'If your Portuguese is weak, write the complaint in simple phrases; you can attach documents in English/Russian, but it is better to provide the key facts in Portuguese.'
         ] },
@@ -160,6 +160,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

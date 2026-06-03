@@ -3,7 +3,7 @@ export default {
   id: 'natural-pools-beaches',
   categoryId: 'travel_portugal',
   title: 'Piscinas naturais e melhores praias de Portugal',
-  tldr: 'Em Portugal há mais de 850 praias e muitas piscinas naturais — piscinas naturais nas rochas junto ao oceano. Top: Azenhas do Mar (Sintra), Cabo Mondego (Figueira), Nossa Senhora da Guia (Cascais), praias em grutas do Alentejo (Zambujeira).\n\nBandeiras Azuis 2025: mais de 370 praias. Existem piscinas municipais gratuitas na maioria das Junta. As mais quentes: Algarve (22-24°C no verão), Madeira (21-23°C todo o ano).\n\nMais frias: costa atlântica norte (17-20°C).',
+  tldr: 'Em Portugal há mais de 850 praias e muitas piscinas naturais — piscinas naturais nas rochas junto ao oceano. Top: Azenhas do Mar (Sintra), Cabo Mondego (Figueira), Nossa Senhora da Guia (Cascais), praias em grutas do Alentejo (Zambujeira).\n\nBandeiras Azuis 2025: mais de 400 praias. Existem piscinas municipais gratuitas na maioria das Junta. As mais quentes: Algarve (22-24°C no verão), Madeira (21-23°C todo o ano).\n\nMais frias: costa atlântica norte (17-20°C).',
   tags: ['praias', 'piscinas', 'piscinas naturais', 'verão'],
   estimatedReadMinutes: 7,
   steps: [
@@ -53,7 +53,7 @@ export default {
       id: 'blue-flag-2025',
       title: '🔵 Bandeira Azul — top 2025',
       content: [
-        { kind: 'paragraph', text: 'Bandeira Azul — certificado ecológico internacional da FEE. Em 2025 — mais de 370 praias e marinas em Portugal. Critérios: água limpa, infraestruturas sanitárias, segurança, educação ambiental.' },
+        { kind: 'paragraph', text: 'Bandeira Azul — certificado ecológico internacional da FEE. Em 2025 — mais de 400 praias e marinas em Portugal. Critérios: água limpa, infraestruturas sanitárias, segurança, educação ambiental.' },
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Melhores praias por região (2025)', content: [
             { kind: 'checklist', items: [
@@ -107,7 +107,7 @@ export default {
           '⛱️ Zonas concessionadas (normais): pagas, espreguiçadeira + chapéu de sol 15-25 €/dia',
           '🏖️ Sol: o sol de verão em PT é muito forte — SPF 50 obrigatório das 11:00 às 17:00',
           '💧 Medusas (alforreca): por vezes na época, o nadador-salvador avisará',
-          '🚫 Praias nudistas: legais em 21 praias — sinal «praia naturista». Não confundir com praias normais',
+          '🚫 Praias nudistas: 9 praias oficiais — sinal «praia naturista» (mais algumas onde o nudismo é tolerado). Não confundir com praias normais',
           '🐕 Cães: proibição de 15 de junho a 30 de setembro em todas as praias com Bandeira Azul; há praias próprias para cães'
         ]}
       ]
@@ -132,8 +132,8 @@ export default {
   sources: [
     { title: 'APA — Água Balnear (qualidade da água)', url: 'https://www.apambiente.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Portugal — Praias', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ABAE — Bandeira Azul Portugal', url: 'https://bandeiraazul.abae.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ABAAE — Bandeira Azul Portugal', url: 'https://bandeiraazul.abaae.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -33,7 +33,7 @@ export default {
           'Go to Portal das Finanças → Todos os Serviços → Início de Atividade.',
           'Choose the Categoria B — trabalhador independente regime.',
           'Discuss the activity code with a contabilista: CAE 53200, other courier/postal activities, or a CIRS code for other services are often considered; the code may affect the IRS coefficient.',
-          'Write: “If expected turnover does not exceed €15,000 per year, the regime de isenção under art. 53 CIVA is usually possible; in the year atividade is opened, the limit is calculated proportionally/annualised based on expected turnover, so if you do not start in January, check the calculation with a contabilista.”',
+          'If expected turnover does not exceed €15,000 per year, the regime de isenção under art. 53 CIVA is usually possible. Note: in the year atividade is opened, the limit is based not on cash actually received but on your expected turnover annualised over a full year, so if you do not start in January, check the calculation with a contabilista.',
           'If you exceed the IVA limit or choose the normal regime, you will have to charge IVA and submit periodic returns.',
           'With low turnover there is usually no retenção na fonte, but this depends on the regime and the client.',
           'Keep the comprovativo de início de atividade: platforms or an accountant may ask for it.',
@@ -78,21 +78,21 @@ export default {
           'Scooter/motorbike: faster and more convenient over distances, but you need a licence, capacete, seguro, fuel and repairs.',
           'Car: comfort in the rain, but parking, traffic, combustível, seguro, IUC and wear and tear often eat up income.',
           'IUC is paid annually for a car/motorbike and depends on the year, engine size, CO₂ and fuel type.',
-          'Add a separate item: “In addition to seguro automóvel/moto for motor transport, a trabalhador independente must take out seguro de acidentes de trabalho for self-employed activity; check that the policy covers delivery/estafeta.”',
+          'In addition to seguro automóvel/moto for motor transport, a trabalhador independente must take out seguro de acidentes de trabalho for self-employed activity; check that the policy specifically covers delivery/estafeta.',
           'For an e-bike, check the limits: an ordinary pedelec up to 25 km/h and 250 W is not the same as a moped; more powerful models may require a different legal category.',
           'Buy a thermal bag, rain jacket, power bank, phone holder and good lights — these are not luxuries, but work expenses.'
         ] },
-        { kind: 'warning', text: 'Rewrite to: “Before your first delivery, check two types of cover in writing: seguro de responsabilidade civil/auto for transport with professional use and seguro de acidentes de trabalho for atividade de estafeta/trabalhador independente.”' }
+        { kind: 'warning', text: 'Before your first delivery, check two types of cover in writing with your seguradora: seguro de responsabilidade civil/auto for transport with professional use and seguro de acidentes de trabalho for atividade de estafeta/trabalhador independente. Ordinary personal insurance may refuse to pay out if the policy excludes professional use.' }
       ]
     },
     {
       id: 'tax-social-security',
       title: '5. Taxes, Segurança Social and the real net amount',
       content: [
-        { kind: 'paragraph', text: 'Recibos verdes are not “cash in hand”. From the gross amount, you need to set aside money for IRS, Segurança Social, IVA if necessary, repairs, communications, equipment and downtime. Write: “At the first início de atividade, the Segurança Social enquadramento for a trabalhador independente usually starts only from the 1st day of the 12th month after the start of atividade; after that, declarações trimestrais are submitted and contributions are paid. If you had atividade before, have a contrato de trabalho or special circumstances — check with Segurança Social Direta/a contabilista.”' },
+        { kind: 'paragraph', text: 'Recibos verdes are not “cash in hand”. From the gross amount, you need to set aside money for IRS, Segurança Social, IVA if necessary, repairs, communications, equipment and downtime. At your first-ever início de atividade, the Segurança Social enquadramento for a trabalhador independente usually only takes effect from the 12th month after the start of atividade: the first 12 months are exempt, and after that declarações trimestrais are submitted and contributions are paid. If you had atividade before, have a contrato de trabalho or other special circumstances, check the rules with Segurança Social Direta or a contabilista.' },
         { kind: 'checklist', items: [
           'IRS: Categoria B income is declared annually in Modelo 3, usually from 1 April to 30 June for the previous year.',
-          'Replace with: “Progressive IRS rates apply to the taxable base according to the annual IRS table; rates and brackets change by year and region, so check the tabela de IRS for 2026 on Portal das Finanças/Orçamento do Estado.” If keeping a number, verify it against the official 2026 IRS table.',
+          'Progressive IRS rates apply to the taxable base according to the annual table of escalões; the rates and bracket limits change by year and region, so check the current tabela de IRS for 2026 on Portal das Finanças or in the Orçamento do Estado.',
           'Under the simplified regime, Finanças does not take all revenue into account, but only a portion according to a coefficient; the coefficient depends on the type of activity.',
           'Segurança Social: after the exemption, the independent worker submits quarterly declarações trimestrais.',
           'The standard rate for a trabalhador independente is 21.4% of relevant income; for services, relevant income is usually calculated from part of revenue.',
@@ -134,6 +134,6 @@ export default {
     { title: 'Portal das Finanças — início de atividade, recibos verdes, IVA and IRS', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — trabalhadores independentes and contribuições', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

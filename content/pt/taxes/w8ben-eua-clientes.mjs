@@ -17,7 +17,7 @@ export default {
           'serviços de freelancer prestados a partir de Portugal: normalmente 0% nos EUA, se não houver permanent establishment / fixed base nos EUA',
           'business profits: Article 7, normalmente 0% nos EUA sem permanent establishment',
           'independent personal services: Article 15, normalmente 0% sem fixed base nos EUA e na ausência de presença física prolongada nos EUA',
-          'royalties, incluindo parte dos pagamentos da Amazon KDP: Article 12, para o Portugal–US treaty normalmente até 10%, e não 0%',
+          'royalties, incluindo parte dos pagamentos da Amazon KDP: Article 13, para o Portugal–US treaty normalmente até 10%, e não 0%',
           'dividendos de ações dos EUA na IBKR: Article 10, normalmente 15% para um investidor de carteira',
           'capital gains em ações comuns dos EUA: normalmente 0% de withholding nos EUA, mas são declarados em Portugal',
           'o formulário não elimina o IRS português: um residente de Portugal declara worldwide income'
@@ -84,9 +84,9 @@ export default {
             id: 'amazon-kdp',
             title: 'Amazon KDP royalties — normalmente 10%',
             content: [
-              { kind: 'paragraph', text: 'A KDP classifica mais frequentemente os pagamentos a autores como royalties. Para o Portugal–US treaty, verifique o Article 12: a taxa sobre royalties é normalmente limitada a 10% do gross amount. Isto é melhor do que 30%, mas não é 0%.' },
+              { kind: 'paragraph', text: 'A KDP classifica mais frequentemente os pagamentos a autores como royalties. Para o Portugal–US treaty, verifique o Article 13: a taxa sobre royalties é normalmente limitada a 10% do gross amount. Isto é melhor do que 30%, mas não é 0%.' },
               { kind: 'checklist', items: [
-                'Article: 12',
+                'Article: 13',
                 'Rate of withholding: 10%',
                 'Type of income: royalties / copyright royalties',
                 'Explanation: beneficial owner is a resident of Portugal under the Portugal–US income tax treaty'
@@ -180,6 +180,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

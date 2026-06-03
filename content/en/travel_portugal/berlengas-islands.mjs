@@ -20,7 +20,7 @@ export default {
             { kind: 'checklist', items: [
               'Feeling Berlenga, Viamar, Julius Berlengas — the main operators (available at Peniche harbour)',
               'Fast boat: €22-28 return, 45 min each way',
-              'Regular boat: €18-22 return, 1:15 hour',
+              'Regular boat: €18-22 return, 1 h 15 min each way',
               'Summer timetable: departures 9:30 / 11:00 / 14:30',
               'Return from the island: 16:00 / 17:30',
               'In storms, sailings are cancelled — you get your money back or your trip is rescheduled'
@@ -64,7 +64,7 @@ export default {
         { kind: 'checklist', items: [
           '🏰 Forte São João Baptista — guest house in former monastic cells. €40-60/night. Book 5 months ahead',
           '🏕️ Campismo da Berlenga — tent camping. €10-15/night + landing fee. You must separately fit into the ICNF window (10 places/night)',
-          '🐟 There is one restaurant, Mar e Sol (salted cataley fish, sea urchins). €15-25/person',
+          '🐟 There is one restaurant, Mar e Sol (signature dish: fish caldeirada — stew; sea urchins). €15-25/person',
           '❌ No shops, no cash machines, no mobile signal (Vodafone occasionally works)',
           '⚡ Electricity only from the fort’s solar panels — from 18:00 to 23:00'
         ]}
@@ -92,11 +92,11 @@ export default {
           '⚠️ Take a motion-sickness tablet (Vertigin, Dramamine) 30 min before the trip — the boat rolls',
           '🥤 Water 2 l/person — on the island €3/bottle',
           '🐟 Fishing on the island is prohibited (nature reserve)',
-          '🐛 There are seagulls — they behave aggressively if food is exposed; do not feed them',
+          '🐦 There are seagulls — they behave aggressively if food is exposed; do not feed them',
           '🏊 Swim only in the designated area — dangerous currents outside it',
           '♻️ Take your rubbish with you',
           '📷 Phone in a plastic zip bag — sea spray',
-          '🚁 For people with disabilities: access to Berlengas is limited, there are no ramps'
+          '♿ For people with disabilities: access to Berlengas is limited, there are no ramps'
         ]}
       ]
     }
@@ -114,6 +114,6 @@ export default {
     { title: 'ICNF — Reserva Natural das Berlengas', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Peniche — Berlengas', url: 'https://visitpeniche.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

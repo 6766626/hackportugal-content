@@ -59,14 +59,14 @@ export default {
               'Documento de identificação of the legal representative',
               'IBAN proof: bank certificate or extracto with the titular name',
               'Address of the preparation location and contact person',
-              'CAE and type of activity restauração / take-away catering, if applicable'
+              'CAE and type of activity restauração / take-away / catering, if applicable'
             ] }
           ] },
           { id: 'menu-assets', title: 'Menu and operational details', content: [
             { kind: 'checklist', items: [
               'Menu with final prices including IVA',
               'Dish descriptions at least in PT; EN is useful in Lisbon, Porto, Algarve',
-              'Allergens: gluten, lactose, nuts, eggs,, shellfish, etc.',
+              'Allergens: gluten, lactose, nuts, eggs, fish, shellfish, etc.',
               'Dish photos: no misleading presentation and with real portion size',
               'Preparation time by category: 10, 20, 30+ minutes',
               'Delivery opening hours separate from the dining room',
@@ -112,7 +112,7 @@ export default {
           'Formação básica de higiene alimentar for staff',
           'Food-grade packaging suitable for hot/greasy food',
           'Allergen information available before purchase in the app and on the packaging/receipt, if needed',
-          'Livro de Reclamações and response to reclamação within the deadline',
+          'Livro de Reclamações and response to reclamação within the deadline: for the electronic book, usually up to 15 working days (dias úteis)',
           'Prices and promo are not misleading: the price, quantity and composição of the dish match reality'
         ] },
         { kind: 'warning', text: 'ASAE may come after a complaint from the app: “food poisoning”, allergen not stated, underweight portion, mould, foreign object, absence of Livro de Reclamações. Keep photos/logs of preparation for disputed orders at least until the dispute with the platform is closed.' }
@@ -195,6 +195,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

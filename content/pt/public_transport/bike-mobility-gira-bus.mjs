@@ -3,7 +3,7 @@ export default {
   id: 'bike-mobility-gira-bus',
   categoryId: 'public_transport',
   title: 'Partilha de bicicletas GIRA, BUGA, U-Bike e transporte de bicicletas',
-  tldr: 'Em Lisboa, a principal rede de partilha de bicicletas é a GIRA da EMEL: levanta a bicicleta na aplicação, devolve-a numa estação e é prática para deslocações curtas de 15–45 minutos. Em Aveiro existe a BUGA municipal, historicamente um serviço urbano gratuito com regras locais. A U-Bike não é um aluguer turístico, mas sim bicicletas de campus para estudantes/funcionários de instituições de ensino superior. Na CP, as bicicletas são geralmente transportadas gratuitamente, mas no Alfa Pendular/Intercidades são necessários lugares para bicicleta e reserva prévia; no metro de Lisboa/Porto — é possível, se houver espaço e forem respeitados os limites.',
+  tldr: 'Em Lisboa, a principal rede de partilha de bicicletas é a GIRA da EMEL: levanta a bicicleta na aplicação, devolve-a numa estação e é prática para deslocações curtas de 15–45 minutos. Em Aveiro existe a BUGA municipal, historicamente um serviço urbano gratuito com regras locais. A U-Bike não é um aluguer turístico, mas sim bicicletas de campus para estudantes e funcionários de instituições de ensino superior. Na CP, as bicicletas são transportadas gratuitamente, mas no Alfa Pendular uma bicicleta convencional tem de ser desmontada e acondicionada como bagagem, enquanto no Intercidades é preciso reservar antecipadamente um lugar com suporte para bicicleta; no metro de Lisboa/Porto é possível, se houver espaço e forem respeitados os limites.',
   tags: ['gira', 'buga', 'bicicleta', 'cp', 'metro'],
   estimatedReadMinutes: 5,
   steps: [
@@ -62,18 +62,19 @@ export default {
       id: 'cp-trains',
       title: 'Transporte de bicicleta na CP: comboios urbanos, regionais e de longo curso',
       content: [
-        { kind: 'paragraph', text: 'A CP permite o transporte de bicicletas, mas as regras dependem do tipo de comboio. O princípio de base para 2026: a bicicleta é transportada gratuitamente se houver espaço e forem respeitadas as condições de segurança; nos comboios de longo curso, é necessário reservar antecipadamente um lugar para bicicleta.' },
+        { kind: 'paragraph', text: 'A CP permite o transporte de bicicletas, mas as regras dependem do tipo de comboio. O princípio de base para 2026: o transporte é gratuito em todos os tipos de comboio, mas as condições diferem — nos urbanos e regionais basta haver espaço, no Intercidades é preciso reservar antecipadamente um lugar com suporte para bicicleta e no Alfa Pendular uma bicicleta convencional só pode seguir desmontada e acondicionada como bagagem.' },
         { kind: 'checklist', items: [
-          'Urbanos de Lisboa, Porto e Coimbra: normalmente é possível transportar a bicicleta gratuitamente, se a carruagem não estiver sobrelotada.',
+          'Urbanos de Lisboa, Porto e Coimbra: é possível transportar a bicicleta gratuitamente sem reserva, se a carruagem não estiver sobrelotada.',
           'Regional e InterRegional: o transporte é possível se houver espaço; a equipa do comboio pode recusar se a bicicleta dificultar a passagem ou a segurança.',
-          'Alfa Pendular e Intercidades: é necessário um comboio com lugares para bicicletas e reserva prévia ao comprar o bilhete.',
+          'Intercidades: os lugares com suporte para bicicleta (até 15 kg) são limitados e têm de ser reservados antecipadamente ao comprar o bilhete.',
+          'Alfa Pendular: não há suportes para bicicletas — uma bicicleta convencional tem de ser desmontada e acondicionada como bagagem de mão dentro do espaço disponível.',
           'Uma bicicleta dobrável, quando dobrada, é normalmente considerada bagagem, se não incomodar os passageiros.',
           'Não coloque a bicicleta junto às portas, saídas de emergência, no corredor nem nos lugares para pessoas com mobilidade reduzida.',
           'Retire alforges/bagagem se aumentarem o volume e dificultarem a fixação.',
           'Nas ligações com transbordo, reserve mais tempo: os elevadores nas estações podem não funcionar, e as escadas com bicicleta são pouco práticas.',
           'Se viajar em grupo, verifique o limite de lugares: várias bicicletas no mesmo Alfa/IC podem não estar disponíveis.'
         ] },
-        { kind: 'warning', text: 'O erro principal é comprar um bilhete Lisboa–Porto no Intercidades/Alfa Pendular e aparecer com uma bicicleta convencional sem bike slot. O revisor não é obrigado a deixar entrar a bicicleta se o lugar não estiver reservado ou o comboio não estiver equipado.' }
+        { kind: 'warning', text: 'O erro principal é comprar um bilhete Lisboa–Porto e aparecer com uma bicicleta convencional ao acaso. No Intercidades a bicicleta não entra sem um lugar com suporte reservado, e no Alfa Pendular uma bicicleta montada não é aceite — tem de ser desmontada e acondicionada como bagagem.' }
       ]
     },
     {
@@ -114,7 +115,7 @@ export default {
   costs: [
     { label: 'GIRA Lisboa', amountEURMin: 2, amountEURMax: 25, note: 'Referência para passes diários/mensais/anuais típicos; verifique o preço exacto e as penalizações na aplicação GIRA antes do pagamento.' },
     { label: 'BUGA Aveiro', amountEUR: 0, note: 'Serviço municipal historicamente gratuito; o registo, a caução ou o regime de levantamento dependem das regras actuais da Câmara Municipal de Aveiro.' },
-    { label: 'Transporte de bicicleta na CP', amountEUR: 0, note: 'Normalmente gratuito, mas no Alfa Pendular/Intercidades é necessário um comboio com bike places e reserva prévia.' },
+    { label: 'Transporte de bicicleta na CP', amountEUR: 0, note: 'Gratuito em todos os tipos de comboio, mas no Intercidades é preciso reservar antecipadamente um lugar com suporte e no Alfa Pendular a bicicleta só segue desmontada como bagagem.' },
     { label: 'Bom U-lock', amountEURMin: 35, amountEURMax: 90, note: 'Preço realista na Decathlon/lojas de bicicletas; um cabo barato não protege contra furto.' }
   ],
   sources: [
@@ -123,6 +124,6 @@ export default {
     { title: 'U-Bike Portugal — programa de mobilidade ciclável académica', url: 'https://www.u-bike.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Aveiro — informação municipal sobre a BUGA', url: 'https://www.cm-aveiro.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

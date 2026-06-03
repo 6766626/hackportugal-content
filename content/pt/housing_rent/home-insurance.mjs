@@ -71,7 +71,7 @@ export default {
             { kind: 'checklist', items: [
               'ComparaJá.pt — agregador de cotações',
               'Doctor Finanças — comparador financeiro',
-              'Raconoscer / Seguros.pt — especializados',
+              'Compare o Mercado / Comparador.pt — comparadores especializados',
               'Comparar: preço, franquia, limites de cobertura, exclusões',
               '💡 Poder de negociação: mostre outra cotação — podem baixar o preço até 20%'
             ]}
@@ -160,6 +160,6 @@ export default {
     { title: 'DL 72/2008 — Regime Jurídico do Contrato de Seguro', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/72-2008-456608', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ComparaJá — comparação de seguros', url: 'https://www.comparaja.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

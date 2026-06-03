@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'В Португалии междугородние автобусы закрывают то, куда поезд Comboios de Portugal не доезжает или едет с пересадками: малые города Alentejo, Trás-os-Montes, часть Algarve, пригороды вокруг Coimbra, Viseu, Bragança, Castelo Branco.' },
         { kind: 'checklist', items: [
-          'Лиссабон—Порту: 3 ч 15 мин – 3 ч 45 мин в зависимости от рейса и остановок; типичный онлайн-билет 15–25 € у Rede Expressos, у FlixBus на ранних датах бывает от 5–10 €.',
+          'Лиссабон—Порту: 3 ч 15 мин – 3 ч 45 мин в зависимости от рейса и остановок; типичный онлайн-билет 15–25 € у Rede Expressos, у FlixBus на ранних датах бывает 5–10 €.',
           'Лиссабон—Faro: около 3 ч 15 мин – 4 ч; часто дешевле поезда, особенно при покупке заранее.',
           'Порту—Braga/Guimarães/Aveiro: автобус удобен, если вам ближе автовокзал, но поезд часто дешевле и чаще.',
           'Лиссабон—Évora/Beja: Rede Expressos обычно практичнее поезда по расписанию.',
@@ -134,6 +134,6 @@ export default {
     { title: 'Vamus Algarve — региональные автобусные линии Algarve', url: 'https://vamusalgarve.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transdev Portugal — региональные автобусные маршруты', url: 'https://www.transdev.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

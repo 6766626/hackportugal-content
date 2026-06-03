@@ -3,7 +3,7 @@ export default {
   id: 'lisboa-wifi-gratis-municipal',
   categoryId: 'telecom',
   title: 'Wi‑Fi gratuito em Lisboa e no Porto: Lisboa WiFi Plus',
-  tldr: 'Em Lisboa funciona a rede municipal Lisboa WiFi Plus: mais de 300 pontos em espaços públicos da CML — praças, jardins, bibliotecas, mercados, Estação Oriente e zonas turísticas.\n\nNo Porto existe o Porto WiFi: cerca de 35 hotspots no centro e em locais municipais. A ligação normalmente não exige registo: escolher a rede, abrir o captive portal, aceitar os termos. As sessões são frequentemente limitadas a 60 minutos; depois pode voltar a ligar-se. Para bancos, Finanças, AIMA e logins de trabalho, use VPN ou internet móvel.',
+  tldr: 'Em Lisboa funciona a rede municipal Lisboa WiFi Plus: centenas de pontos em espaços públicos da CML — praças, jardins, bibliotecas, mercados, Estação Oriente e zonas turísticas.\n\nNo Porto existe o Porto Free Wi-Fi: uma rede de pontos de acesso no centro e em locais municipais. A ligação normalmente não exige registo: escolher a rede, abrir o captive portal, aceitar os termos. As sessões são frequentemente limitadas no tempo; depois pode voltar a ligar-se. Para bancos, Finanças, AIMA e logins de trabalho, use VPN ou internet móvel.',
   tags: ['wifi', 'lisboa', 'porto', 'telecomunicações'],
   estimatedReadMinutes: 4,
   steps: [
@@ -11,8 +11,8 @@ export default {
       id: 'what-it-is',
       title: 'Que redes são estas',
       content: [
-        { kind: 'paragraph', text: 'Lisboa WiFi Plus é a rede municipal gratuita da Câmara Municipal de Lisboa. Cobre mais de 300 pontos de acesso em espaços públicos da CML: praças, jardins, bibliotecas, mercados municipais, equipamentos culturais, zonas com elevado tráfego turístico e interfaces de transporte como a Estação Oriente.' },
-        { kind: 'paragraph', text: 'No Porto, a rede urbana equivalente chama-se Porto WiFi. Segundo a Câmara Municipal do Porto, estão disponíveis cerca de 35 hotspots em locais públicos essenciais da cidade.' },
+        { kind: 'paragraph', text: 'Lisboa WiFi Plus é a rede municipal gratuita da Câmara Municipal de Lisboa. Cobre centenas de pontos de acesso em espaços públicos da CML: praças, jardins, bibliotecas, mercados municipais, equipamentos culturais, zonas com elevado tráfego turístico e interfaces de transporte como a Estação Oriente.' },
+        { kind: 'paragraph', text: 'No Porto, a rede urbana equivalente chama-se Porto Free Wi-Fi e funciona com a Associação Porto Digital. Tem pontos de acesso em locais públicos essenciais da cidade — praças, bibliotecas e equipamentos culturais.' },
         { kind: 'checklist', items: [
           'Preço: 0 €',
           'Não precisa de cartão SIM',
@@ -61,11 +61,11 @@ export default {
     },
     {
       id: 'porto-wifi',
-      title: 'Porto WiFi: como funciona no Porto',
+      title: 'Porto Free Wi-Fi: como funciona no Porto',
       content: [
-        { kind: 'paragraph', text: 'Porto WiFi é a rede gratuita da Câmara Municipal do Porto. É menor do que a de Lisboa: a referência é cerca de 35 hotspots, sobretudo em locais públicos centrais e municipais.' },
+        { kind: 'paragraph', text: 'Porto Free Wi-Fi é a rede gratuita da Câmara Municipal do Porto, em colaboração com a Associação Porto Digital. Os pontos de acesso estão sobretudo em locais públicos centrais e municipais: praças, bibliotecas e equipamentos culturais.' },
         { kind: 'checklist', items: [
-          'Escolha a rede Porto WiFi',
+          'Escolha a rede Porto Free Wi-Fi',
           'Abra o captive portal no navegador',
           'Aceite as condições de utilização',
           'Não é necessário comprar um tarifário nem introduzir dados do cartão bancário',
@@ -112,7 +112,7 @@ export default {
   ],
   costs: [
     { label: 'Lisboa WiFi Plus', amountEUR: 0, note: 'Gratuito; as sessões são normalmente limitadas no tempo, frequentemente até 60 minutos, com possibilidade de novo acesso' },
-    { label: 'Porto WiFi', amountEUR: 0, note: 'Gratuito; cobertura menor, cerca de 35 hotspots' },
+    { label: 'Porto Free Wi-Fi', amountEUR: 0, note: 'Gratuito; cobertura menor do que em Lisboa' },
     { label: 'eSIM de reserva de curta duração', amountEURMin: 5, amountEURMax: 25, note: 'Referência para pacotes turísticos de dados; o preço depende do volume de GB e do fornecedor' }
   ],
   sources: [
@@ -124,13 +124,13 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Câmara Municipal do Porto — Porto WiFi e hotspots municipais',
-      url: 'https://www.cm-porto.pt',
+      title: 'Associação Porto Digital — Porto Free Wi-Fi e pontos de acesso municipais',
+      url: 'https://www.portodigital.pt/porto-free-wi-fi/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

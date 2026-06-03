@@ -29,7 +29,7 @@ export default {
       id: 'deadline',
       title: 'Deadline',
       content: [
-        { kind: 'warning', text: 'Under Decreto-Lei 138/2012, the rules depend on the issuing country. If the licence is eligible for exchange, the request usually needs to be made after residence is recorded and within the established deadlines; up to 2 years from the date of residence, exchange is possible without an exam for countries with a recognised regime, after 2 years a practical exam may be required. For CPLP/OECD, conditions are often simplified. For Ukrainians with Proteção Temporária — validity lasts for the full protection period (until 04.03.2027 under EU Regulation 2022/1280).' }
+        { kind: 'warning', text: 'Under Decreto-Lei 138/2012, the rules depend on the issuing country. If the licence is eligible for exchange, the request usually needs to be made after residence is recorded and within the established deadlines; up to 2 years from the date of residence, exchange is possible without an exam for countries with a recognised regime, after 2 years a practical exam may be required. For CPLP/OECD, conditions are often simplified. For Ukrainians with Proteção Temporária — validity lasts for the full protection period (until 04.03.2027; basis — Council Implementing Decision (EU) 2022/382 under the Temporary Protection Directive 2001/55/EC, extended to that date).' }
       ]
     },
     {
@@ -55,7 +55,7 @@ export default {
             { kind: 'paragraph', text: 'At an IMT-accredited clinic. They check vision, hearing, and general health. They issue an "Atestado de Aptidão Física e Psíquica". Validity — 6 months.' }
           ]},
           { id: 'p2', title: '2. Apply to IMT', content: [
-            { kind: 'paragraph', text: 'Online via portal.imt-ip.pt or in person at an IMT examination centre. Fee ~€30.' }
+            { kind: 'paragraph', text: 'Since 21 January 2026, the exchange request is submitted online only, via portal.imt-ip.pt (you need to create an account). A later in-person visit to an IMT centre may be needed for biometrics or an exam. Fee ~€30.' }
           ]},
           { id: 'p3', title: '3. If there is an agreement — wait', content: [
             { kind: 'timeline', text: '60-120 days. Upon completion — an invitation to collect the new card or receipt by post.' }
@@ -85,6 +85,6 @@ export default {
     { title: 'IMT — Troca de Carta de Condução (driving licence)', url: 'https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Exchange a driving licence', url: 'https://www.gov.pt/cidadaos/-/informacoes/trocar-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

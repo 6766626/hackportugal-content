@@ -3,7 +3,7 @@ export default {
   id: 'seguro-social-voluntario',
   categoryId: 'work_business',
   title: 'Seguro Social Voluntário: contribuições voluntárias para a Segurança Social',
-  tldr: 'O Seguro Social Voluntário é um regime voluntário da Segurança Social para residentes com 18+ anos que não pagam contribuições obrigatórias como trabalhadores por conta de outrem, recibos verdes ou empresários. Em 2026, a base é calculada a partir do IAS 537,13 €; a taxa normal é 26,9%, com um mínimo de cerca de 144,49 €/mês. O regime ajuda a não perder carreira contributiva para a pensão de velhice, invalidez e prestações à família em caso de morte, mas não substitui o SNS e não é necessário para quem já está abrangido pelo sistema obrigatório.',
+  tldr: 'O Seguro Social Voluntário é um regime voluntário da Segurança Social para pessoas com 18+ anos não abrangidas pelo sistema obrigatório (trabalhadores por conta de outrem, recibos verdes, empresários). Atenção: os cidadãos estrangeiros e apátridas têm normalmente de residir em Portugal há mais de um ano. Em 2026, a base é calculada a partir do IAS 537,13 €; a taxa normal é 26,9%, com um mínimo de cerca de 144,49 €/mês. O regime ajuda a não perder carreira contributiva para a pensão de velhice, invalidez e prestações à família em caso de morte, mas não substitui o SNS e não é necessário para quem já está abrangido pelo sistema obrigatório.',
   tags: ['segurança', 'contribuições', 'pensão', 'niss'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,7 +16,7 @@ export default {
         { kind: 'checklist', items: [
           'Idade: normalmente 18+.',
           'É necessário NISS — número da Segurança Social.',
-          'É necessário ser residente ou ter uma ligação legal a Portugal que a Segurança Social aceite para efeitos de registo.',
+          'Os cidadãos estrangeiros e apátridas têm, em regra, de residir em Portugal há mais de um ano; um visto, NIF, NISS ou morada, por si só, podem não bastar. É também necessário ser apto para o trabalho.',
           'Não deve estar simultaneamente abrangido por contribuições obrigatórias como trabalhador por conta de outrem, trabalhador independente / recibos verdes ou membro de órgãos estatutários.',
           'O regime é adequado para uma pausa no trabalho, assistência a familiares, estudos, período não remunerado, actividade religiosa/voluntária e alguns estatutos especiais.',
           'Se voltar a trabalhar com contrato ou abrir recibos verdes com contribuições obrigatórias, o regime voluntário normalmente termina ou deixa de ser necessário.'
@@ -69,12 +69,12 @@ export default {
           'Prepare um documento de identificação: passaporte, Cartão de Cidadão, autorização de residência ou outro documento que comprove a permanência legal.',
           'Prepare o NIF e a morada actual em Portugal.',
           'Reúna prova do motivo do registo: estatuto de estudante, declaração de cuidador, comprovativo de actividade voluntária/religiosa/de investigação ou explicação da ausência de cobertura obrigatória.',
-          'Se a Segurança Social pedir, anexe uma declaração médica de aptidão para o trabalho — isto acontece em alguns casos.',
+          'Confirme a lista de documentos atualizada: a Segurança Social pode pedir uma declaração médica de aptidão para o trabalho, uma vez que a aptidão para o trabalho é uma das condições do regime.',
           'Apresente o pedido de inscrição no Seguro Social Voluntário através de gov.pt ou num balcão.',
           'Aguarde o deferimento e confirme o enquadramento na Segurança Social Direta.',
           'Após a aprovação, pague todos os meses dentro do prazo — o registo por si só não cria carreira sem pagamento.'
         ] },
-        { kind: 'warning', text: 'Se não tiver autorização de residência, mas tiver visto D1-D8, documentos CPLP, manifestação/processo AIMA ou outro estatuto transitório, a decisão pode depender da forma como o balcão da Segurança Social interpreta a sua residência. Leve consigo todos os comprovativos de morada e de permanência legal.' }
+        { kind: 'warning', text: 'Se tiver apenas visto D1-D8, documentos CPLP, manifestação/processo AIMA ou outro estatuto transitório sem autorização de residência e sem residência confirmada, confirme antecipadamente o direito à inscrição: os estrangeiros têm, em regra, de residir em Portugal há mais de um ano para aderir ao SSV. Leve consigo todos os comprovativos de morada e de permanência legal.' }
       ]
     },
     {
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

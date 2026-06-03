@@ -12,15 +12,15 @@ export default {
       title: 'What Subsídio de Refeição is',
       content: [
         { kind: 'paragraph', text: 'Subsídio de Refeição is not a “bonus”, but a separate line on the recibo de vencimento: the employer pays a fixed amount for each day actually worked to cover meals.' },
-        { kind: 'paragraph', text: 'In Administração Pública, the base amount for April 2026 is €6.15 per day. This figure is often used as a benchmark in private companies too, but a private employer is only obliged to pay subsídio de refeição if it is written in your contrato de trabalho, internal regulations or applicable CCT — contrato coletivo de trabalho.' },
+        { kind: 'paragraph', text: 'In Administração Pública, the base amount since 1 January 2026 is €6.15 per day. This figure is often used as a benchmark in private companies too, but a private employer is only obliged to pay subsídio de refeição if it is written in your contrato de trabalho, internal regulations or applicable CCT — contrato coletivo de trabalho.' },
         { kind: 'checklist', items: [
           'It is usually paid for working days, not weekends.',
           'It is usually not paid for annual leave, sick leave or unpaid absence.',
           'It may be paid in cash together with salary.',
           'It may be paid onto a cartão refeição or as a vale refeição.',
-          'Common cards: Edenred, Pluxee ex-Sodexo, Coverflex, Euroticket.',
+          'Common cards: Edenred, Pluxee (ex-Sodexo), Coverflex, Euroticket.',
           'The amount must be visible in the payslip/recibo de vencimento as a separate line.',
-          'If you work part-time, the amount may be proportional to hours if this is established by the contract or CCT.'
+          'For part-time there is a Código do Trabalho rule: if subsídio de refeição is provided by the CCT or normally paid in the company, a part-time worker is also entitled to it; only if the daily working period is under 5 hours is the amount calculated in proportion to the weekly hours compared with full-time.'
         ] }
       ]
     },
@@ -28,7 +28,7 @@ export default {
       id: 'tax-free-limits-2026',
       title: 'Tax-free limits in 2026',
       content: [
-        { kind: 'paragraph', text: 'For IRS and Segurança Social, what matters is not the mere fact of payment, but the payment method and the daily limit. As of April 2026, these practical limits apply: cash — up to €6.15 per day; cartão/vale refeição — up to €10.46 per day.' },
+        { kind: 'paragraph', text: 'For IRS and Segurança Social, what matters is not the mere fact of payment, but the payment method and the daily limit. In 2026, these practical limits apply: cash — up to €6.15 per day; cartão/vale refeição — up to €10.46 per day.' },
         { kind: 'checklist', items: [
           'Cash €6.15 per day: €0 IRS and €0 Segurança Social.',
           'Cash €7 per day: €6.15 is exempt, €0.85 is treated as salary.',
@@ -39,7 +39,7 @@ export default {
           'Segurança Social is usually charged on the excess: 11% employee and 23.75% employer.',
           'The limit applies per day, not as a monthly “bank” detached from days worked.'
         ] },
-        { kind: 'warning', text: 'The old cash limit of €5.20 is no longer a relevant benchmark for 2026. For current practice, use €6.15 cash and €10.46 cartão/vale.' }
+        { kind: 'warning', text: 'Last year’s cash limit of €6.00 is no longer current for 2026. For current practice, use €6.15 cash and €10.46 cartão/vale.' }
       ]
     },
     {
@@ -89,7 +89,7 @@ export default {
           'Isento: the part up to the limit should not be included in IRS/Segurança Social.',
           'Tributável: only the excess above €6.15 cash or €10.46 cartão should be taxed.',
           'If you were on annual leave for the whole month, subsídio de refeição will usually be €0.',
-          'If you worked remote from home, entitlement depends on the contract/CCT and internal policy, but many employers continue to pay.',
+          'If you are in teletrabalho/remote, working from home alone is usually not grounds to remove subsídio de refeição when it is already due under the contrato, CCT, company practice or paid to comparable in-office workers. But if there is no entitlement to subsídio de refeição in the company at all, remote work does not create it by itself.',
           'Keep payslips: they are useful for disputes with HR, ACT and when checking IRS.'
         ] }
       ]
@@ -131,6 +131,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

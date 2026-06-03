@@ -3,7 +3,7 @@ export default {
   id: 'rental-sites-compared',
   categoryId: 'housing_rent',
   title: 'Где искать аренду жилья — сайты и стратегия',
-  tldr: 'Четыре основных канала: агрегаторы (Idealista, Imovirtual, Supercasa), среднесрочная аренда (Flatio, Uniplaces), напрямую от собственников (OLX Imóveis, группы Facebook), агенты (Century 21, ERA, RE/MAX). Для долгосрочной аренды начните с Idealista + OLX. Для переезда до получения NIF — Flatio / Uniplaces (принимают просто паспорт)\.\n\nСредний срок поиска в Лиссабоне/Порту — 3–8 недель.',
+  tldr: 'Четыре основных канала: агрегаторы (Idealista, Imovirtual, Supercasa), среднесрочная аренда (Flatio, Uniplaces), напрямую от собственников (OLX Imóveis, группы Facebook), агенты (Century 21, ERA, RE/MAX). Для долгосрочной аренды начните с Idealista + OLX. Для переезда до получения NIF — Flatio / Uniplaces (принимают просто паспорт).\n\nСредний срок поиска в Лиссабоне/Порту — 3–8 недель.',
   tags: ['аренда', 'idealista', 'imovirtual', 'olx', 'flatio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -44,7 +44,7 @@ export default {
               'Всё с мебелью и включёнными коммунальными услугами',
               'Контракт от 1 мес до 12+ мес',
               'Принимают паспорт + бронь без NIF',
-              'Платформа берёт 10–15 % с арендодателя, клиент без оплаты сверх',
+              'Платформа берёт комиссию с арендодателя, клиент сверху ничего не доплачивает',
               'Дороже Idealista на 20–40 %, но проще для новоприбывших'
             ]}
           ]},
@@ -125,7 +125,7 @@ export default {
           '🏠 Всегда осматривайте лично или через видеозвонок',
           '💶 Не вносите предоплату на Revolut без подписанного контракта',
           '🤝 Договаривайтесь — цена часто завышена на 5–15 %',
-          '📄 Каждый контракт в налоговой службе через Portal das Finanças — это закон'
+          '📄 Каждый контракт регистрируется в налоговой через Portal das Finanças — это требование закона'
         ]},
         { kind: 'warning', text: 'Типичные мошеннические схемы: запрос предоплаты через Western Union, «бронирование» без показа, «арендодатель живёт в другой стране». Всегда встречайтесь лично или используйте проверенную платформу.' }
       ]
@@ -137,6 +137,6 @@ export default {
     { title: 'AMI — Associação dos Mediadores Imobiliários', url: 'https://www.ami.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

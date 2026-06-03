@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Trabalho a tempo parcial é trabalho com um período normal inferior ao de um trabalhador full-time comparável: menos horas por semana, menos dias por mês ou apenas uma parte do ano. Em 2026, a semana full-time padrão no sector privado é normalmente até 40 horas, mas uma convenção colectiva pode prever menos.' },
         { kind: 'checklist', items: [
           'O contrato deve ser escrito e indicar as horas/dias de trabalho e a comparação com o horário full-time.',
-          'Se não houver forma escrita ou se o regime part-time estiver mal descrito, a disputa é normalmente interpretada contra o empregador.',
+          'Se a forma escrita não for observada, o contrato considera-se celebrado a tempo completo (art. 153 Código do Trabalho). A mesma consequência aplica-se se o contrato não indicar o período normal de trabalho e a comparação com o full-time.',
           'O salário é calculado proporcionalmente: com 20 h/sem em vez de 40 h/sem — no mínimo 50% do salário full-time aplicável.',
           'O SMN 2026 é 920 € por mês para full-time; para 50% de ocupação, a referência é não abaixo de 460 € brutos, se não houver CCT mais favorável.',
           'Férias: o direito a férias não é automaticamente “cortado” para 11 dias; normalmente mantêm-se 22 dias úteis, mas a remuneração de férias corresponde ao seu salário part-time.',
@@ -152,8 +152,15 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'Decreto-Lei 139/2025 — RMMG (SMN) 920 € no continente desde 01.01.2026',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/139-2025-992879809',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -12,7 +12,7 @@ export default {
       title: 'Что реально платит IFAP',
       content: [
         { kind: 'paragraph', text: 'IFAP — Instituto de Financiamento da Agricultura e Pescas. Через него проходят выплаты PEPAC 2023-2027: прямые платежи CAP, экологические меры, компенсации по зонам, животные/культуры и часть инвестпроектов. Для маленького участка важны не гранты на «мечту в деревне», а ежегодный Pedido Único и корректная регистрация хозяйства.' },
-        { kind: 'paragraph', text: 'Типичный микро-фермер с несколькими гектарами оливок, виноградника, фруктового сада, пастбища или огорода может видеть порядок 500-3 000 € в год. Это не гарантированная ставка: выплаты считаются по eligible hectares, культуре, региону, правам/режимам, экологическим обязательствам, животным и бюджету конкретной кампании.' },
+        { kind: 'paragraph', text: 'Типичный микро-фермер с несколькими гектарами оливок, виноградника, фруктового сада, пастбища или огорода может рассчитывать примерно на 500-3 000 € в год. Это не гарантированная ставка: выплаты считаются по eligible hectares, культуре, региону, правам/режимам, экологическим обязательствам, животным и бюджету конкретной кампании.' },
         { kind: 'checklist', items: [
           'PEPAC действует на период 2023-2027; заявки и выплаты идут ежегодными кампаниями',
           'Основная форма — Pedido Único, подаётся через Portal do IFAP или entidade reconhecida',
@@ -48,7 +48,7 @@ export default {
       id: 'register-ifap',
       title: 'Как зарегистрироваться в IFAP и подготовить участок',
       content: [
-        { kind: 'paragraph', text: 'Практический путь для новичка — не пытаться сразу заполнить всё самому, а пойти в associação agrícola, gabinete técnico или entidade reconhecida в вашем concelho. Они видят местные культуры, знают parcelário и обычно подают Pedido Único за небольшую плату. Но ответственность за данные остаётся на вас.' },
+        { kind: 'paragraph', text: 'Практический путь для новичка — не пытаться сразу заполнить всё самому, а пойти в associação agrícola, gabinete técnico или entidade reconhecida в вашем concelho. Они знают местные культуры и parcelário, обычно подают Pedido Único за небольшую плату. Но ответственность за данные остаётся на вас.' },
         { kind: 'substeps', items: [
           { id: 'beneficiario', title: '1. Стать beneficiário IFAP', content: [
             { kind: 'paragraph', text: 'Регистрация создаёт ваш número de beneficiário/NIFAP и привязывает NIF, адрес, контакты и IBAN. Проверьте, что имя в IFAP совпадает с банковским счётом и налоговыми данными.' }
@@ -95,7 +95,7 @@ export default {
       id: 'agricultor-familiar',
       title: 'Estatuto da Agricultura Familiar: зачем он нужен',
       content: [
-        { kind: 'paragraph', text: 'Estatuto da Agricultura Familiar создан Decreto-Lei 64/2018. Это не отдельная «зарплата от государства», а признание семейного сельхозхозяйства. Титул может дать приоритет или более выгодные условия в некоторых мерах PEPAC, программах развития сельских территорий, рынках locais, capacitação и административных процедурах.' },
+        { kind: 'paragraph', text: 'Estatuto da Agricultura Familiar создан Decreto-Lei 64/2018. Это не отдельная «зарплата от государства», а признание семейного фермерского хозяйства. Титул может дать приоритет или более выгодные условия в некоторых мерах PEPAC, программах развития сельских территорий, местных рынках, capacitação и административных процедурах.' },
         { kind: 'paragraph', text: 'Критерии проверяются не по красивому описанию quinta, а по доходам, труду семьи, регистрации хозяйства и лимитам. На практике титул полезен тем, кто действительно живёт сельским хозяйством хотя бы частично, а не просто владеет загородным домом с садом.' },
         { kind: 'checklist', items: [
           'Заявитель должен быть titular de exploração agrícola familiar и совершеннолетним',
@@ -125,7 +125,7 @@ export default {
           'Перед новыми инвестициями: проверить PEPAC avisos abertos, а не покупать технику «под будущий грант»',
           'Если доход от хозяйства становится регулярным: проверить Estatuto da Agricultura Familiar и Segurança Social'
         ] },
-        { kind: 'warning', text: 'Гранты на трактор, irrigation, estufa или turismo rural — это не та же процедура, что ежегодные прямые платежи. Обычно нужен aviso aberto, бизнес-план, orçamento, собственное финансирование и ожидание одобрения до расходов. Покупка до aprovação часто не компенсируется.' }
+        { kind: 'warning', text: 'Гранты на трактор, ирригацию, estufa или turismo rural — это не та же процедура, что ежегодные прямые платежи. Обычно нужен aviso aberto, бизнес-план, orçamento, собственное финансирование и ожидание одобрения до расходов. Покупка до aprovação часто не компенсируется.' }
       ]
     }
   ],
@@ -141,6 +141,6 @@ export default {
     { title: 'DGADR — Estatuto da Agricultura Familiar', url: 'https://www.dgadr.gov.pt/estatuto-da-agricultura-familiar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 64/2018 — Estatuto da Agricultura Familiar', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/64-2018-116068879', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

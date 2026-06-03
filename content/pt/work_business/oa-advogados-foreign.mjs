@@ -14,9 +14,9 @@ export default {
         { kind: 'paragraph', text: 'Em Portugal, “advogado” é uma profissão regulada. Para representar clientes em tribunal, assinar peças processuais, beneficiar do segredo profissional e usar o título advogado, é necessária inscrição na Ordem dos Advogados (OA).' },
         { kind: 'paragraph', text: 'Um diploma estrangeiro de Direito, por si só, não confere o direito de exercer como advogado. Pode trabalhar como legal consultant, paralegal, contract manager, compliance, tax/legal operations, mas não pode induzir clientes em erro fazendo crer que é advogado português.' },
         { kind: 'checklist', items: [
-          'Escreva antes: “Atenção: a legal consultation paga a terceiros em Portugal pode enquadrar-se nos actos próprios dos advogados e solicitadores. Sem inscrição na OA, é mais seguro trabalhar in-house, em back-office/legal operations, ou como foreign-law specialist com âmbito claro e, em matérias de direito português, sob a responsabilidade de um advogado/solicitador. Não preste aconselhamento de direito português e não represente clientes perante entidades/tribunais.”',
+          'Atenção: a legal consultation paga a terceiros em Portugal pode enquadrar-se nos actos próprios dos advogados e solicitadores. Sem inscrição na OA, é mais seguro trabalhar in-house, em back-office/legal operations, ou como foreign-law specialist com âmbito claro e, em matérias de direito português, sob a responsabilidade de um advogado/solicitador. Não preste aconselhamento de direito português e não represente clientes perante entidades/tribunais.',
           'Pode: trabalhar in-house numa empresa, em compliance, privacy, contracts, AML, relocation/legal operations',
-          'Esclareça: “Pode, como colaborador/back-office/paralegal, preparar minutas e traduções para um advogado/solicitador, se for o profissional registado a responder perante o cliente. Não pode vender de forma autónoma a preparação de documentos jurídicos como serviço, se isso se enquadrar nos actos próprios.”',
+          'Pode, como colaborador/back-office/paralegal, preparar minutas e traduções para um advogado/solicitador, se for o profissional registado a responder perante o cliente. Não pode vender de forma autónoma a preparação de documentos jurídicos como serviço, se isso se enquadrar nos actos próprios.',
           'Não pode: usar o título advogado sem inscrição na OA',
           'Não pode: representar um cliente num tribunal português como advogado',
           'Não pode: abrir uma “sociedade de advogados” sem cumprir as regras da OA',
@@ -75,7 +75,7 @@ export default {
           'Após prática efectiva e regular prolongada em direito português/EU, pode ser possível a integração na profissão em Portugal segundo as regras da directiva',
           'Em alternativa, pode aplicar-se o percurso de reconhecimento de qualificação profissional/aptidão, se a pessoa quiser obter directamente o título advogado'
         ] },
-        { kind: 'warning', text: 'Substitua por: “A EU/EEA route não confere direitos apenas por causa do passaporte: é necessário ser advogado profissionalmente qualificado num Estado EU/EEA sob um dos títulos reconhecidos. Ao mesmo tempo, a própria Diretiva 98/5/CE dirige-se a advogados nacionais de Estados-Membros/beneficiaries of EU/EEA free-movement rules, pelo que um cidadão non-EU com qualificação numa EU bar deve obter previamente confirmação escrita da OA de que este regime lhe é aplicável.”' }
+        { kind: 'warning', text: 'A EU/EEA route não confere direitos apenas por causa do passaporte: é necessário ser advogado profissionalmente qualificado num Estado EU/EEA sob um dos títulos reconhecidos. Ao mesmo tempo, a própria Diretiva 98/5/CE dirige-se a advogados nacionais de Estados-Membros, ou a quem beneficie das regras de livre circulação na EU/EEA, pelo que um cidadão non-EU com qualificação numa EU bar deve obter previamente confirmação escrita da OA de que este regime lhe é aplicável.' }
       ]
     },
     {
@@ -192,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

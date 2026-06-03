@@ -3,7 +3,7 @@ export default {
   id: 'estagios-iefp-jovens',
   categoryId: 'work_business',
   title: 'Estágios IEFP: стажировки для молодых через биржу труда',
-  tldr: 'Estágios IEFP — оплачиваемые стажировки через Centro de Emprego/IEFP для входа на португальский рынок труда.\n\nВ 2026 году стандартные молодёжные стажировки IEFP (Estágios INICIAR, +Talento) рассчитаны на возраст 18–35 лет; кандидату 30–35 лет особый статус не нужен. Деньги платит работодатель, IEFP компенсирует ему часть расходов. Частый ориентир в вакансиях — около 870 €/мес gross: фактическая bolsa зависит от IAS 537,13 €, уровня квалификации и программы.',
+  tldr: 'Estágios IEFP — оплачиваемые стажировки через Centro de Emprego/IEFP для входа на португальский рынок труда.\n\nВ 2026 году стандартные молодёжные стажировки IEFP (Estágios INICIAR, +Talento) рассчитаны на возраст 18–35 лет; кандидату 30–35 лет особый статус не нужен. Деньги платит работодатель, IEFP компенсирует ему часть расходов. По правилам 2026 года gross bolsa — 913,12 €/мес для квалификации QNQ уровня 4 и 966,83 €/мес для уровня 5: фактическая сумма зависит от IAS 537,13 €, уровня квалификации и программы.',
   tags: ['iefp', 'стажировка', 'работа', 'jovens'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Estágio IEFP — не обычный трудовой договор, а программа профессиональной стажировки, которую утверждает IEFP. Стажёр работает у компании по плану стажировки, получает bolsa de estágio, subsídio de alimentação и страхование от несчастных случаев. Деньги ежемесячно перечисляет работодатель; IEFP затем возмещает работодателю часть расходов по правилам конкретной меры.' },
         { kind: 'paragraph', text: 'Для экспата главный плюс — легальный первый опыт в Португалии, строка в CV и шанс получить contrato de trabalho после стажировки. Главный минус — стажировка временная, обычно до 12 месяцев, и не гарантирует найм.' },
-        { kind: 'warning', text: 'Не путайте: IEFP не «доплачивает вам сверху» напрямую. Если в вакансии написано 870 €/мес, это обычно gross bolsa, которую платит компания; компенсация IEFP идёт работодателю.' }
+        { kind: 'warning', text: 'Не путайте: IEFP не «доплачивает вам сверху» напрямую. Сумма из вакансии (например, 913,12 €/мес) — это обычно gross bolsa, которую платит компания; компенсация IEFP идёт работодателю.' }
       ]
     },
     {
@@ -37,18 +37,18 @@ export default {
     },
     {
       id: 'money',
-      title: 'Сколько платят: почему «870 €» не универсально',
+      title: 'Сколько платят: bolsa зависит от уровня квалификации',
       content: [
-        { kind: 'paragraph', text: 'В 2026 году базовый индекс IAS — 537,13 €. Многие IEFP bolsa считаются как множитель IAS и зависят от уровня квалификации по Quadro Nacional de Qualificações. Поэтому сумма в объявлении может отличаться: около 859–870 €/мес gross для одной категории, выше для licenciatura/mestrado и ниже для некоторых начальных уровней.' },
+        { kind: 'paragraph', text: 'В 2026 году базовый индекс IAS — 537,13 €. Bolsa в Estágios INICIAR / +Talento считается как множитель IAS и зависит от уровня квалификации по Quadro Nacional de Qualificações: 913,12 €/мес gross (уровень 4, 1,7 × IAS) и 966,83 €/мес gross (уровень 5, 1,8 × IAS). Поэтому сумма в объявлении может отличаться по категориям.' },
         { kind: 'checklist', items: [
           'Bolsa de estágio — gross-сумма до налогов и Segurança Social',
-          'Subsídio de alimentação обычно платится отдельно за рабочие дни',
+          'Subsídio de alimentação платится отдельно за рабочие дни (в 2026 ориентир — 6,15 €/день)',
           'Seguro de acidentes de trabalho обязан обеспечить работодатель',
           'IEFP компенсирует работодателю часть bolsa, питания и страховки по правилам программы',
           'Стажёр обычно делает descontos para Segurança Social; проверьте recibo de vencimento',
           'IRS может удерживаться, если доход и личная ситуация попадают под retenção na fonte',
           'Стажировка не равна SMN: минимальная зарплата 2026 — 920 €, но bolsa IEFP считается по своим правилам',
-          'Если компания обещает «net 870 €», попросите письменный расчёт gross/net до подписания'
+          'Если компания обещает «net» определённую сумму, попросите письменный расчёт gross/net до подписания'
         ] },
         { kind: 'warning', text: 'Не соглашайтесь на схему «официально estágio, неофициально полный рабочий день без выплат». Жалобы подаются в IEFP и ACT, но лучше не начинать с серой договорённости.' }
       ]
@@ -87,7 +87,7 @@ export default {
       id: 'program-types',
       title: 'Какие программы встречаются',
       content: [
-        { kind: 'paragraph', text: 'Названия мер IEFP меняются по годам и avisos de abertura. В апреле 2026 ориентируйтесь не на старое название из блога, а на активную страницу IEFP и aviso конкретной candidatura.' },
+        { kind: 'paragraph', text: 'Названия мер IEFP меняются по годам и avisos de abertura. В 2026 году ориентируйтесь не на старое название из блога, а на активную страницу IEFP и aviso конкретной candidatura.' },
         { kind: 'checklist', items: [
           'Estágios Profissionais / молодёжные стажировки — типовой путь для 18–35 после учёбы или при первом опыте',
           'Estágios INICIAR — формат для начала профессиональной карьеры; условия зависят от открытого aviso IEFP',
@@ -119,8 +119,8 @@ export default {
   ],
   costs: [
     { label: 'Регистрация кандидата в IEFP', amountEUR: 0, note: 'Бесплатно онлайн или в Centro de Emprego' },
-    { label: 'Ориентир bolsa около 1,6 IAS', amountEUR: 859.41, note: 'IAS 2026 = 537,13 €; фактическая сумма зависит от программы и квалификации' },
-    { label: 'Часто встречающийся ориентир в объявлениях', amountEUR: 870, note: 'Gross в месяц; не гарантированная сумма IEFP для всех кандидатов' }
+    { label: 'Bolsa, квалификация QNQ уровня 4 (1,7 × IAS)', amountEUR: 913.12, note: 'IAS 2026 = 537,13 €; gross в месяц для Estágios INICIAR / +Talento' },
+    { label: 'Bolsa, квалификация QNQ уровня 5 (1,8 × IAS)', amountEUR: 966.83, note: 'Gross в месяц; фактическая сумма зависит от программы и квалификации' }
   ],
   sources: [
     { title: 'IEFP — меры de estágios и apoios ao emprego', url: 'https://www.iefp.pt/estagios', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -128,6 +128,6 @@ export default {
     { title: 'gov.pt — inscrição no Centro de Emprego', url: 'https://www.gov.pt/pt/servicos/inscrever-se-no-centro-de-emprego', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'gov.pt — IEFP e políticas públicas de emprego', url: 'https://www.gov.pt/pt/entidades/instituto-do-emprego-e-formacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

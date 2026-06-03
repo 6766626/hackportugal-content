@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 't1', title: '🏔️ Monsanto — «самая португальская деревня»', content: [
-            { kind: 'paragraph', text: 'Деревня, буквально встроенная в гигантские гранитные валуны. Дома «разделяют» скалы со стенами. В 1938 году получила титул «Aldeia mais portuguesa de Portugal». Съёмки «House of the Dragon» (HBO) прошли здесь в 2021.' },
+            { kind: 'paragraph', text: 'Деревня, буквально встроенная в гигантские гранитные валуны. Скалы становятся частью стен и крыш домов. В 1938 году получила титул «Aldeia mais portuguesa de Portugal». Съёмки «House of the Dragon» (HBO) прошли здесь в 2021.' },
             { kind: 'checklist', items: [
               'Планируйте: 2 часа на осмотр, ещё час на замок (руины на вершине)',
               'Парковка внизу — далее пешком вверх',
@@ -22,16 +22,16 @@ export default {
             ]}
           ]},
           { id: 't2', title: '🏰 Belmonte — родина Кабрала', content: [
-            { kind: 'paragraph', text: 'Деревня Pedro Álvares Cabral — первооткрывателя Бразилии (1500). Еврейское наследие — крупнейшая сохранившаяся сефардская община в Европе.' },
+            { kind: 'paragraph', text: 'Деревня Pedro Álvares Cabral — первооткрывателя Бразилии (1500). Еврейское наследие: одна из последних криптоиудейских общин Европы — потомки сефардов-марранов, тайно хранивших веру около 500 лет.' },
             { kind: 'checklist', items: [
               'Castelo de Belmonte — можно войти',
               'Museu Judaico — бесплатно, с объяснениями',
-              'Музей Oliva (оливковое масло) — дегустации',
+              'Museu do Azeite (музей оливкового масла) — дегустации',
               'Рядом: 1 час до Serra da Estrela (лыжный курорт зимой)'
             ]}
           ]},
           { id: 't3', title: '🌲 Piódão — сланцевая деревня в горах', content: [
-            { kind: 'paragraph', text: 'Склон Serra do Açor. Все дома из чёрного сланца — создают однородный пейзаж. Узкие каменные улочки, маленькая синяя церковь Igreja Matriz.' },
+            { kind: 'paragraph', text: 'Склон Serra do Açor. Все дома из чёрного сланца — деревня выглядит единым целым. Узкие каменные улочки, маленькая синяя церковь Igreja Matriz.' },
             { kind: 'checklist', items: [
               'Дорога: узкий серпантин, 2-3 часа от Коимбры',
               'Остановиться: Inatel Piódão — отель от 70 € за ночь',
@@ -48,7 +48,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '1. Almeida — звёздная крепость XVII века (в стиле Вобана), отличный пример военной архитектуры',
-          '2. Belmonte — Cabral + евреи (см. выше)',
+          '2. Belmonte — Cabral + еврейское наследие (см. выше)',
           '3. Castelo Mendo — крохотная, с двумя городскими воротами, 300 жителей',
           '4. Castelo Novo — термальные воды, средневековый позорный столб',
           '5. Castelo Rodrigo — на границе с Испанией, отлично сохранилось, 16-летняя осада в истории',
@@ -109,6 +109,6 @@ export default {
     { title: 'Aldeias Históricas de Portugal', url: 'https://aldeiashistoricasdeportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Aldeias Históricas', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

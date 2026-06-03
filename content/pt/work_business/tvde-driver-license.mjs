@@ -18,7 +18,7 @@ export default {
           'Curso motorista TVDE — 50 horas numa escola acreditada',
           'Certificado de motorista TVDE emitido pelo IMT',
           'Registo criminal limpo ou admissível para transporte de passageiros',
-          'Escreva: "Aptidão médica e psicológica segundo os requisitos do Grupo 2."',
+          'Aptidão médica e psicológica segundo o Grupo 2, com averbamento do Grupo 2 na carta',
           'Ligação a um operador TVDE licenciado: operador próprio ou trabalho através de operador de terceiros',
           'Veículo com DUA/Certificado de Matrícula onde conste a utilização TVDE',
           'Seguro para atividade TVDE, não um seguro automóvel privado comum',
@@ -39,7 +39,7 @@ export default {
               'NIF',
               'Morada em Portugal',
               'Registo criminal recente — normalmente pedem um documento atualizado, com menos de 3 meses',
-              'Escreva: "Atestado médico e avaliação psicológica segundo os requisitos do Grupo 2 são obrigatórios para o certificado de motorista TVDE."',
+              'Atestado médico e avaliação psicológica segundo o Grupo 2 são obrigatórios para o certificado de motorista TVDE',
               'Direito legal de trabalhar em Portugal: autorização de residência, cidadania da UE ou outro estatuto com acesso ao trabalho'
             ] }
           ] },
@@ -85,10 +85,11 @@ export default {
         { kind: 'paragraph', text: 'Um automóvel ligeiro comum com seguro privado não é suficiente. O veículo deve estar associado à atividade TVDE e passar a verificação documental da plataforma. A Uber/Bolt podem impor os seus próprios requisitos quanto à idade, classe, estado e desempenho ambiental do automóvel — podem ser mais rigorosos ou formulados de forma diferente da lei.' },
         { kind: 'checklist', items: [
           'DUA/Certificado de Matrícula com indicação de utilização para TVDE ou anotação correspondente',
-          'Automóvel ligeiro para transporte de passageiros, normalmente até 9 lugares incluindo o motorista',
+          'Automóvel ligeiro de passageiros com lotação não superior a 9 lugares, incluindo o motorista',
           'Matrícula portuguesa',
+          'Idade do veículo inferior a 7 anos a contar da data da primeira matrícula (Lei 45/2018; confirme a versão atual)',
           'Seguro automóvel para transporte remunerado/TVDE, e não um seguro privado comum',
-          'Escreva: "Inspeção válida segundo o regime aplicável a TVDE/transportes remunerados; não confie no calendário normal de um veículo privado — confirme a periodicidade no IMT/centro de inspeção e junto da plataforma."',
+          'Inspeção segundo o regime TVDE: a primeira um ano após a primeira matrícula e, depois, anualmente — não o calendário normal de um veículo privado',
           'Dístico TVDE no veículo de acordo com as regras da Lei 45/2018',
           'Documento do proprietário ou contrato de aluguer/leasing, se o veículo não for seu',
           'Fotografias do veículo e dos documentos para Uber/Bolt',
@@ -126,7 +127,7 @@ export default {
           'NIF é obrigatório para contratos, impostos e plataformas',
           'NISS é necessário para a Segurança Social se trabalhar como trabalhador independente ou empregado',
           'Recibos verdes nem sempre servem: o modelo depende de ser motorista, operador ou ambos ao mesmo tempo',
-          'Escreva: "As comissões da plataforma/operador reduzem a sua margem económica, mas a base tributável depende do modelo: trabalhador independente em regime simplificado, contabilidade organizada, ENI ou sociedade. Não assuma automaticamente que todas as comissões são dedutíveis em IRS/IRC; configure a faturação e o IVA com um contabilista."',
+          'As comissões da plataforma/operador reduzem a sua margem, mas a base tributável depende do modelo (regime simplificado, contabilidade organizada, ENI ou sociedade). Não assuma que todas as comissões são dedutíveis em IRS/IRC — configure a faturação e o IVA com um contabilista',
           'Despesas: combustível/carregamento, lavagem, pneus, manutenção, estacionamento, portagens, Via Verde, seguro',
           'Guarde faturas com NIF das despesas relacionadas com a atividade',
           'Se o volume de negócios crescer, é melhor discutir o regime de IVA e a contabilidade organizada com um contabilista',
@@ -149,6 +150,6 @@ export default {
     { title: 'Portaria 293/2018 — formação de motoristas TVDE', url: 'https://dre.pt/dre/detalhe/portaria/293-2018-116820880', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Uber Portugal: requisitos para motoristas TVDE', url: 'https://www.uber.com/pt/pt-pt/drive/requirements/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

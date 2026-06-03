@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O IRS Jovem é uma isenção parcial do imposto sobre o rendimento IRS para jovens residentes fiscais em Portugal. Desde 2025, o modelo foi alargado: já não é necessário comprovar um nível de escolaridade específico, e o período máximo do benefício é de 10 anos de obtenção de rendimentos.' },
         { kind: 'paragraph', text: 'O benefício aplica-se a rendimentos da categoria A — salário ao abrigo de contrato de trabalho — e da categoria B — trabalho independente, recibos verdes, atividade aberta nas Finanças. Reduz a parte tributável do rendimento, não a própria taxa de IRS.' },
-        { kind: 'checklist', items: ['1.º ano de obtenção de rendimento: isenção de 100%', '2.º, 3.º e 4.º anos: isenção de 75%', '5.º, 6.º e 7.º anos: isenção de 50%', '8.º, 9.º e 10.º anos: isenção de 25%', 'Limite anual de isenção: 55 × IAS', 'IAS 2026: 537,13 €', 'Limite 2026: 29 542,15 € de rendimento isento', 'A parte restante do rendimento é tributada às taxas normais de IRS', 'Primeira taxa de IRS em 2026: 11,97% para o escalão inferior de rendimento coletável'] },
+        { kind: 'checklist', items: ['1.º ano de obtenção de rendimento: isenção de 100%', '2.º, 3.º e 4.º anos: isenção de 75%', '5.º, 6.º e 7.º anos: isenção de 50%', '8.º, 9.º e 10.º anos: isenção de 25%', 'Limite anual de isenção: 55 × IAS', 'IAS 2026: 537,13 €', 'Limite 2026: 29 542,15 € de rendimento isento', 'A parte restante do rendimento é tributada às taxas normais de IRS', 'Primeira taxa de IRS em 2026: 11,97% para o escalão inferior de rendimento coletável (rendimento de 2025)'] },
         { kind: 'warning', text: 'O limite de 29 542,15 € é o limite do montante de rendimento que pode ficar isento de IRS, não o salário máximo para poder beneficiar. Se o rendimento for superior, o benefício aplica-se apenas dentro desse limite.' }
       ]
     },
@@ -85,6 +85,6 @@ export default {
     { title: 'Lei n.º 45-A/2024 — Orçamento do Estado para 2025, alterações ao IRS Jovem', url: 'https://diariodarepublica.pt/dr/detalhe/lei/45-a-2024-902610097', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do IRS — art. 12.º-B, regime IRS Jovem', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

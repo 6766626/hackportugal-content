@@ -3,7 +3,7 @@ export default {
   id: 'rnal-2026-mudancas',
   categoryId: 'housing_rent',
   title: 'RNAL — Registo Nacional de Alojamento Local: alterações de 2026',
-  tldr: 'Em 2026, o AL volta a ser regulado sobretudo pelo DL 128/2014, com as alterações do DL 76/2024: a “congelação” nacional de novos apartamentos e a caducidade automática dos registos da Mais Habitação foram revogadas, mas a Câmara Municipal pode criar zonas de contenção e limites. Escreva: "Qualquer AL tem de ter um número RNAL válido e indicá-lo nos anúncios. Separadamente, no alojamento de hóspedes estrangeiros, aplicam-se obrigações relativas aos boletins de alojamento através do sistema de segurança/AIMA correspondente; as obrigações fiscais são cumpridas através das Finanças." Remova "MARGEM", salvo se explicar exactamente a que sistema se refere e citar uma fonte oficial. Coima por AL ilegal: pessoas singulares até 4 000 €, empresas 25 000–40 000 €. O rendimento normalmente enquadra-se em IRS categoria B.',
+  tldr: 'Em 2026, o AL volta a ser regulado sobretudo pelo DL 128/2014, com as alterações do DL 76/2024: a “congelação” nacional de novos apartamentos e a caducidade automática dos registos da Mais Habitação foram revogadas, mas a Câmara Municipal pode criar zonas de contenção e limites. Qualquer AL tem de ter um número RNAL válido e indicá-lo nos anúncios. Separadamente, no alojamento de hóspedes estrangeiros, aplicam-se obrigações relativas aos boletins de alojamento através do sistema de segurança/AIMA correspondente; as obrigações fiscais são cumpridas através das Finanças. Coima por AL ilegal: pessoas singulares até 4 000 €, empresas 25 000–40 000 €. O rendimento normalmente enquadra-se em IRS categoria B.',
   tags: ['rnal', 'al', 'arrendamento', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -25,7 +25,7 @@ export default {
           'Tipo de AL: apartamento, moradia, quartos, estabelecimento de hospedagem ou hostel — os requisitos dependem disso.',
           'Direito de utilizar o imóvel: propriedade, contrato de arrendamento ou contrato de exploração devem permitir expressamente Alojamento Local.',
           'Se você for arrendatário, é necessário um contrato escrito com o locador/senhorio que autorize AL; um contrato de arrendamento habitacional comum, por si só, não dá o direito de alojar turistas.',
-          'Acrescente: "Para apartamento em prédio em propriedade horizontal, verifique o título constitutivo e o regulamento do condomínio: se proibirem AL/usos incompatíveis com AL, o registo pode ser impugnado. Mesmo depois do registo, a assembleia de condóminos pode, nos casos previstos na lei, pedir ao presidente da Câmara o cancelamento do registo, especialmente por incómodo ou perturbação repetidos."',
+          'Para apartamento em prédio em propriedade horizontal, verifique o título constitutivo e o regulamento do condomínio: se proibirem AL ou usos incompatíveis, o registo pode ser impugnado. Após o DL 76/2024, deixou de ser exigida, em regra, autorização prévia do condomínio para registar (salvo hostels), mas a assembleia de condóminos pode, nos casos previstos na lei — por prática reiterada e comprovada de atos que perturbem o descanso —, pedir ao presidente da Câmara, que pode impedir a exploração de AL até ao prazo máximo de 5 anos.',
           'Segurança: extintor, estojo de primeiros socorros, informação de emergência, regras de evacuação e contactos 112.',
           'Livro de reclamações físico e eletrónico: para AL, o acesso ao livro de reclamações é obrigatório.',
           'Seguro de responsabilidade civil: é obrigatório para a exploração de AL; a falta de seguro pode levar ao cancelamento do registo.',
@@ -37,7 +37,7 @@ export default {
       id: 'register-rnal',
       title: 'Como obter um número RNAL',
       content: [
-        { kind: 'paragraph', text: 'O registo de AL é uma comunicação prévia com prazo à Câmara Municipal através do Balcão do Empreendedor/SIBA. Escreva: "O registo é submetido como comunicação prévia com prazo através do Balcão do Empreendedor. O número/registo RNAL não significa que possa começar imediatamente a receber hóspedes: é necessário aguardar o fim do prazo aplicável sem oposição da Câmara, salvo se as regras municipais exigirem outra coisa; a Câmara pode verificar documentos e realizar vistoria."' },
+        { kind: 'paragraph', text: 'O registo de AL é submetido como comunicação prévia com prazo à Câmara Municipal através do Balcão do Empreendedor/SIBA. O número/registo RNAL não significa que possa começar imediatamente a receber hóspedes: é necessário aguardar o fim do prazo aplicável sem oposição da Câmara, salvo se as regras municipais exigirem outra coisa; a Câmara pode verificar documentos e realizar vistoria.' },
         { kind: 'checklist', items: [
           'Entre através do ePortugal/Balcão do Empreendedor ou do canal indicado pela Câmara Municipal.',
           'Indique o titular da exploração: pessoa singular ou empresa, NIF/NIPC, morada, contactos.',
@@ -48,7 +48,7 @@ export default {
           'Depois de receber o número, confirme que o imóvel aparece em rnal.turismodeportugal.pt.',
           'Coloque o número RNAL em todos os anúncios: Airbnb, Booking, site próprio, Google, redes sociais.'
         ] },
-        { kind: 'warning', text: 'SIBA/MARGEM/RNAL continuam a ser usados em 2026 para registo e actualização de dados. Se mudar o titular, a morada, a capacidade, a modalidade, o nome ou o direito de utilização do imóvel — actualize o registo, não se limite a alterar o anúncio na plataforma.' }
+        { kind: 'warning', text: 'SIBA/RNAL continuam a ser usados em 2026 para registo e actualização de dados. Se mudar o titular, a morada, a capacidade, a modalidade, o nome ou o direito de utilização do imóvel — actualize o registo, não se limite a alterar o anúncio na plataforma.' }
       ]
     },
     {
@@ -74,7 +74,7 @@ export default {
       id: 'fines-and-tax',
       title: 'Coimas e IRS em 2026',
       content: [
-        { kind: 'paragraph', text: 'Separe-os: "Exploração de AL sem registo válido é contraordenação muito grave: pessoas singulares 2 500–4 000 €, pessoas coletivas 25 000–40 000 €. Falhas de publicidade/identificação, como omitir o número de registo no anúncio, também são sancionáveis, mas devem ser tratadas separadamente conforme o artigo de contraordenações aplicável." Adicionalmente, podem ocorrer encerramento do imóvel, cancelamento do registo e sanções da Câmara.' },
+        { kind: 'paragraph', text: 'Distinga os dois tipos de infração. A exploração de AL sem registo válido é contraordenação muito grave: pessoas singulares 2 500–4 000 €, pessoas coletivas 25 000–40 000 €. As falhas de publicidade/identificação, como omitir o número de registo no anúncio, também são sancionáveis, mas enquadram-se num artigo de contraordenações distinto. Adicionalmente, podem ocorrer encerramento do imóvel, cancelamento do registo e sanções da Câmara.' },
         { kind: 'paragraph', text: 'Em termos fiscais, o AL é normalmente considerado rendimento empresarial em IRS categoria B, e não arrendamento habitacional de longa duração em categoria F. No regime simplificado, a matéria colectável depende do tipo de AL: para apartamentos/moradias, aplica-se frequentemente o coeficiente 0,35 à receita bruta; para certos tipos de hospedagem, aplica-se outro coeficiente. Com despesas elevadas, a contabilidade organizada pode ser vantajosa.' },
         { kind: 'checklist', items: [
           'Abra atividade nas Finanças antes de começar a receber hóspedes.',
@@ -118,6 +118,6 @@ export default {
     { title: 'Decreto-Lei 128/2014 — regime jurídico da exploração dos estabelecimentos de alojamento local', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2014-70686104', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 76/2024 — alterações ao regime de Alojamento Local após a Mais Habitação', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-895143934', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

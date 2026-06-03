@@ -104,7 +104,7 @@ export default {
           { id: 'p4', title: '4. Employment contract', content: [
             { kind: 'checklist', items: [
               'Types of employment contract: sem termo (open-ended), a termo certo (fixed-term with a fixed date), a termo incerto (fixed-term without a fixed date). Recibos verdes are not an employment contract, but prestação de serviços/self-employment; check the risk of falso recibo verde',
-              'Probationary period (período experimental): 90 days / 180 for seniors',
+              'Probationary period (período experimental): 90 days — for most workers; 180 — for roles with special qualification, high responsibility or positions of trust; 240 — for management positions (cargo de direção / quadro superior)',
               'Min. wage 2026: €920/month before tax',
               'Usually 14 payments per year: 12 salaries + subsídio de férias + subsídio de Natal; sometimes subsidies are paid in instalments (duodécimos)',
               'Private health insurance — often a bonus'
@@ -141,6 +141,6 @@ export default {
     { title: 'ACT — Autoridade para as Condições do Trabalho', url: 'https://www.act.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do Trabalho (Labour Code)', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

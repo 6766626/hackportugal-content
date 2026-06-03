@@ -57,7 +57,7 @@ export default {
       id: 'contract-check',
       title: 'Before signing the rental contract',
       content: [
-        { kind: 'paragraph', text: 'In 2026, the standard safe scenario is: a written contrato de arrendamento, registration of the contract in Finanças by the owner, recibos de renda, deposit and first month by bank transfer. The 2026 rent increase for old contracts is guided by the 2.16% coefficient, unless the contract states otherwise within the law.' },
+        { kind: 'paragraph', text: 'In 2026, the standard safe scenario is: a written contrato de arrendamento, registration of the contract in Finanças by the owner, recibos de renda, deposit and first month by bank transfer. The 2026 rent increase for existing contracts is guided by the 2.24% coefficient, unless the contract states otherwise within the law.' },
         { kind: 'checklist', items: ['Ask for the caderneta predial or proof that the landlord has the right to rent out the property', 'The contract should include the address, term, renda, caução, NIF of the parties, termination conditions, furniture and expenses', 'Take a video of the flat when moving in: walls, appliances, windows, water/electricity/gas meters', 'Clarify whether condomínio is included in rent — the owner usually pays it, but utilities are paid by the tenant', 'Do not transfer caução before viewing the flat or checking the agent’s/owner’s power of attorney', 'If you need school, SNS, NIF address, AIMA procedures — make sure the contract works as comprovativo de morada', 'For pets, get written permission in the contract or by email, not a verbal “sem problema”', 'If the contract is for 1 year, check the renewal rules and denúncia/oposição à renovação deadlines'] },
         { kind: 'warning', text: 'A short contrato de alojamento local or “prestação de serviços” instead of a rental contract may not give the same rights as a contrato de arrendamento habitacional. For a family and documents, a full residential rental contract is better.' }
       ]
@@ -76,6 +76,6 @@ export default {
     { title: 'Andante — fares and passes for Área Metropolitana do Porto', url: 'https://andante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Idealista Portugal — rental market in Porto and surrounding municípios', url: 'https://www.idealista.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

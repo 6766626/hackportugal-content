@@ -18,7 +18,7 @@ export default {
           'Cascais: программа MobiCascais / Viver Cascais даёт бесплатный или льготный доступ к муниципальному транспорту; для пожилых порог обычно 60+, а не 65+.',
           'Другие муниципалитеты: правила отличаются. В Oeiras, Almada, Sintra, Loures, Braga, Coimbra и т.д. нужно проверять сайт своей Câmara Municipal.',
           'Льгота почти всегда привязана к месту жительства, а не к гражданству: иностранцы с законным проживанием и адресом в муниципалитете обычно могут подать заявку.',
-          'Бесплатность чаще означает месячный passe на карту, а не бесплатную разовую поездку без карты.'
+          'Бесплатный проезд чаще означает месячный passe на карту, а не бесплатную разовую поездку без карты.'
         ] }
       ]
     },
@@ -70,7 +70,7 @@ export default {
       id: 'documents',
       title: 'Документы для заявки',
       content: [
-        { kind: 'paragraph', text: 'Точный список зависит от Câmara Municipal, но у иностранца обычно просят стандартный набор. Лучше иметь бумажные PDF и оригиналы: в муниципальных balcões часто проще показать всё сразу, чем спорить о формате.' },
+        { kind: 'paragraph', text: 'Точный список зависит от Câmara Municipal, но у иностранца обычно просят стандартный набор. Лучше иметь и PDF-копии, и оригиналы: в муниципальных balcões часто проще показать всё сразу, чем спорить о формате.' },
         { kind: 'checklist', items: [
           'Документ личности: ВНЖ, Cartão de Cidadão гражданина ЕС, паспорт + действующий статус пребывания.',
           'NIF.',
@@ -130,6 +130,6 @@ export default {
     { title: 'Câmara Municipal do Porto — transportes e apoio à mobilidade', url: 'https://www.cm-porto.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Cascais — MobiCascais e Viver Cascais', url: 'https://www.cascais.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'ferry-madeira-acores',
   categoryId: 'public_transport',
   title: 'Ferries between the islands of Madeira and the Azores: Atlânticoline, Porto Santo Line, Naviera Armas',
-  tldr: 'In April 2026 there is no regular Madeira—Azores ferry: they are different archipelagos, and flights operate between them.\n\nIn the Azores, inter-island ferries are operated by Atlânticoline: year-round short routes Faial—Pico—São Jorge and Flores—Corvo, with longer routes between the 9 islands added in summer.\n\nIn Madeira, the passenger and vehicle ferry Funchal—Porto Santo takes about 2 h 30 min; the operator is Porto Santo Line. Naviera Armas is not a daily Funchal—Porto Santo operator.',
+  tldr: 'In 2026 there is no regular Madeira—Azores ferry: they are different archipelagos, and flights operate between them.\n\nIn the Azores, inter-island ferries are operated by Atlânticoline: year-round short routes Faial—Pico—São Jorge and Flores—Corvo, with longer routes between the 9 islands added in summer.\n\nIn Madeira, the passenger and vehicle ferry Funchal—Porto Santo takes about 2 h 30 min; the operator is Porto Santo Line. Naviera Armas is not a daily Funchal—Porto Santo operator.',
   tags: ['ferries', 'madeira', 'azores', 'atlanticoline', 'porto-santo'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,7 +16,7 @@ export default {
           'Açores: Atlânticoline inter-island ferries between the islands of the archipelago.',
           'Madeira: Funchal—Porto Santo is served by Porto Santo Line, vessel Lobo Marinho.',
           'Porto Santo: you can travel as a passenger, with a car, motorbike, bicycle and luggage under the operator’s rules.',
-          'Naviera Armas: historically and seasonally appears on Madeira/Canárias routes, but in April 2026 do not plan it as a daily Funchal—Porto Santo service.',
+          'Naviera Armas: historically and seasonally appears on Madeira/Canárias routes, but in 2026 do not plan it as a daily Funchal—Porto Santo service.',
           'Do not use Moby as a regular Portuguese operator between Madeira and Açores in the 2026 timetable; check only the official websites for the specific route.',
           'Mainland Portugal—Madeira by regular ferry is also not a stable daily option; for moving with a car, people more often use freight transport/car carrier services.'
         ] },
@@ -101,7 +101,7 @@ export default {
     { label: 'Atlânticoline, short inter-island crossing without car', amountEURMin: 4, amountEURMax: 20, note: 'Guide price for short routes; the exact price depends on the islands, residency and date.' },
     { label: 'Atlânticoline, longer seasonal route without car', amountEURMin: 25, amountEURMax: 70, note: 'For planning summer routes between island groups; check in the sales calendar.' },
     { label: 'Car on Atlânticoline', amountEURMin: 20, amountEURMax: 120, note: 'The range depends on the car length and route; deck spaces are limited.' },
-    { label: 'Porto Santo Line, adultunchal—Porto Santo return', amountEURMin: 60, amountEURMax: 90, note: 'Guide price for a non-resident fare; season, promotions and residency change the price.' },
+    { label: 'Porto Santo Line, adult Funchal—Porto Santo return', amountEURMin: 60, amountEURMax: 90, note: 'Guide price for a non-resident fare; season, promotions and residency change the price.' },
     { label: 'Porto Santo Line, car return', amountEURMin: 120, amountEURMax: 220, note: 'Depends on the category/length of the car and date; booked together with the passenger.' }
   ],
   sources: [
@@ -110,6 +110,6 @@ export default {
     { title: 'Portos dos Açores: maritime infrastructure and ports of the archipelago', url: 'https://www.portosdosacores.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'APRAM: Administração dos Portos da Região Autónoma da Madeira', url: 'https://www.apram.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

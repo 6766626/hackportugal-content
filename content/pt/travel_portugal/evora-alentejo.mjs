@@ -100,8 +100,8 @@ export default {
           '🔥 No Verão +35–40°C — faz calor. Planeie as visitas de manhã e ao fim da tarde',
           '🏨 Pousadas — rede de hotéis em edifícios históricos (mosteiros, fortalezas). Pousada de Évora, Pousada de Estremoz, Pousada de Crato',
           '🚗 O carro é indispensável para explorar a região',
-          '🎫 Évora Card: 15 € (3 dias) — museus + transporte com desconto',
-          '💶 Preços mais baixos do que em Lisboa/Porto — as praias e a região são subestimadas',
+          '🎫 Évora Ticket: bilhete único para os museus e monumentos da cidade (rede Évora Museum) — 8 € (1 dia), 10 € (2 dias), 12 € (3 dias)',
+          '💶 Preços mais baixos do que em Lisboa e Porto — a região ainda é subestimada pelos turistas',
           '🌻 Itinerário: Évora → Monsaraz → Marvão (2–3 dias)'
         ]}
       ]
@@ -112,6 +112,6 @@ export default {
     { title: 'Câmara Municipal de Évora — informação turística', url: 'https://www.cm-evora.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Alentejo', url: 'https://www.visitportugal.com/pt-pt/destinos/alentejo', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

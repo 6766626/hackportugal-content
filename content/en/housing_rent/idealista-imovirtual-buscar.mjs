@@ -69,8 +69,8 @@ export default {
           'NIF — almost always needed for the contract and recibos de renda.',
           'Comprovativo de rendimentos: contrato de trabalho, últimos recibos de vencimento, declaração IRS, recibos verdes, bank statement.',
           'Fiador — a guarantor in Portugal; often required for students, recém-chegados and people without local income.',
-          'Write: “Caução — a deposit/security for obligations; by law, for arrendamento habitacional it is limited to up to 2 monthly rents. If they ask for more — this is a reason to negotiate and check the legality of the clause”.',
-          'Write: “Rendas adiantadas — rent paid in advance; by law, antecipação de renda cannot exceed 2 months. In practice, 1–2 months may be requested, but a demand for a larger advance payment is a red flag/matter for legal checking”.',
+          'Caução — a deposit/security for obligations; by law, for arrendamento habitacional it is limited to up to 2 monthly rents. If they ask for more, this is a reason to negotiate and check the legality of the clause.',
+          'Rendas adiantadas — rent paid in advance; by law, antecipação de renda cannot exceed 2 months. In practice, 1–2 months may be requested, but a demand for a larger advance payment is a red flag and a matter for legal checking.',
           'Contrato de arrendamento — must include the property, term, price, the parties’ NIF, termination conditions and signatures.',
           'Recibos de renda — electronic receipts via Portal das Finanças; needed for IRS and proof of a legal rental.',
           'Licença de utilização or confirmation that the dwelling is legal for residential use; especially important for older buildings and extensions.'
@@ -108,7 +108,7 @@ export default {
           'Check damp: smell of mofo, stains by windows, cold walls, lack of heating.',
           'Clarify expenses: condomínio, IMI is usually paid by the owner, but serviços/utility bills — by the tenant.',
           'Record the condition of the flat with photos/videos on the day the keys are handed over and send them to the owner in writing.',
-          'Replace with: “Indexation of rendas in 2026 is based on the coefficient 1.0224, i.e. 2.24%, if the contract allows annual updating under the law and the landlord has notified the tenant in the prescribed manner”.',
+          'Indexation of rendas in 2026 is based on the coefficient 1.0224, i.e. 2.24%, if the contract allows annual updating under the law and the landlord has notified the tenant in the prescribed manner.',
           'If you need an atestado de residência, SNS, school or NHR/IFICI documents, an illegal rental without a contract will create problems.'
         ] },
         { kind: 'paragraph', text: 'Do not be afraid to negotiate, but for hot properties negotiation often loses to speed. A more realistic negotiating position is to offer a stable term, transparent documents, a quick move-in date and a normal deposit instead of trying to knock 10–15% off the price.' }
@@ -126,6 +126,6 @@ export default {
     { title: 'Portal das Finanças — electronic recibos de renda', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — regime do arrendamento urbano and atualização de rendas', url: 'https://diariodarepublica.pt', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

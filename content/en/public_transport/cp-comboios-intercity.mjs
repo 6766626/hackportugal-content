@@ -3,7 +3,7 @@ export default {
   id: 'cp-comboios-intercity',
   categoryId: 'public_transport',
   title: 'CP — trains: Alfa Pendular, Intercidades and suburban services',
-  tldr: 'CP (Comboios de Portugal) is the state railway company. Main train categories: Alfa Pendular (fast, Lisbon — Porto 2:50, ~€30), Intercidades (slower, ~€25), Regional/Urbano (suburban and regional).\n\nIt is best to buy tickets in advance — 60 days ahead via cp.pt or the “CP — Comboios de Portugal” app. Discounts: young people up to 30 — 50%, children aged 4–12 — 50%, ≥65 — 50%. Luggage is free. Bicycles: on Regional, and also on Urbano at weekends.',
+  tldr: 'CP (Comboios de Portugal) is the state railway company. Main train categories: Alfa Pendular (fast, Lisbon — Porto 2:50, ~€30), Intercidades (slower, ~€25), Regional/Urbano (suburban and regional).\n\nIt is best to buy tickets in advance — 60 days ahead via cp.pt or the “CP — Comboios de Portugal” app. Discounts: young people up to 30 (Cartão Jovem) — 25%, children aged 4–12 — 50%, ≥65 — 50%. Luggage is free. Bicycles: on Regional, and also on Urbano at weekends.',
   tags: ['cp', 'train', 'alfa pendular', 'intercidades', 'lisbon porto', 'comboio'],
   estimatedReadMinutes: 7,
   steps: [
@@ -81,7 +81,7 @@ export default {
               '🧒 Children aged 4–12: -50% (under 4 free if without a separate seat)',
               '👨‍🎓 Young people (Cartão Jovem ≤30): -25% on the fare + additional promotions',
               '👴 ≥ 65 years: -50%',
-              '👨‍👩‍👧‍👦 Family (≥3): -25% for everyone',
+              '👨‍👩‍👧‍👦 Family & Friends (Família & Amigos, 3–9 people): -50%, at weekends on AP/IC',
               '🎫 Tarifa Antecipada: -25% to -50%, limited availability',
               '👨‍🎓 Students (Cartão de Estudante): -25%',
               '🎖️ CP employees: free (for them and their family)'
@@ -132,6 +132,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — Instituto da Mobilidade e dos Transportes', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

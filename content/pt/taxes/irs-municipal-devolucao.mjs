@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Cada município tem direito a uma participação de até 5% no IRS dos residentes com morada fiscal no seu território. Isto está previsto na Lei 73/2013, art. 26 — Regime Financeiro das Autarquias Locais.' },
         { kind: 'paragraph', text: 'Se o município decidir não ficar com toda a participação, a diferença é devolvida ao contribuinte como devolução / benefício municipal no cálculo do IRS. O máximo é 5%.' },
-        { kind: 'paragraph', text: 'Isto não significa que lhe devolvam 5% do salário ou de todo o imposto retido. O cálculo é feito dentro da liquidação IRS segundo a fórmula da AT, a partir da sua collecta líquida depois das deduções aplicáveis.' },
+        { kind: 'paragraph', text: 'Isto não significa que lhe devolvam 5% do salário ou de todo o imposto retido. O cálculo é feito dentro da liquidação IRS segundo a fórmula da AT, a partir da sua coleta líquida depois das deduções aplicáveis.' },
         { kind: 'warning', text: 'O IRS Municipal funciona apenas para residentes fiscais em Portugal que entregam o IRS Modelo 3. Para não residentes com rendimentos portugueses, esta devolução municipal normalmente não se aplica.' }
       ]
     },
@@ -31,7 +31,7 @@ export default {
           'As taxas podem mudar em cada ano fiscal por decisão da Assembleia Municipal',
           'A verificação é feita no Portal das Finanças, na secção Taxas do Município'
         ] },
-        { kind: 'paragraph', text: 'Na prática, a diferença pode ser pequena para pessoas com collecta IRS baixa e mais visível para famílias com rendimento tributável elevado. A devolução aparece na liquidação IRS final; não é necessário apresentar um pedido separado.' }
+        { kind: 'paragraph', text: 'Na prática, a diferença pode ser pequena para pessoas com coleta IRS baixa e mais visível para famílias com rendimento tributável elevado. A devolução aparece na liquidação IRS final; não é necessário apresentar um pedido separado.' }
       ]
     },
     {
@@ -108,6 +108,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

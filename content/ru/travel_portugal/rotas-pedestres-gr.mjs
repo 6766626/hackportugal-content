@@ -11,7 +11,7 @@ export default {
       id: 'what-gr-pr',
       title: 'GR и PR: что означают маркировки',
       content: [
-        { kind: 'paragraph', text: 'Португальская сеть пеших маршрутов использует европейскую логику разметки, но на практике качество зависит от município, parque natural и местной ассоциации. Перед походом смотрите не только Google Maps, а официальный PDF/GPX трека.' },
+        { kind: 'paragraph', text: 'Португальская сеть пеших маршрутов использует европейскую логику разметки, но на практике качество зависит от município, parque natural и местной ассоциации. Перед походом смотрите не только Google Maps, но и официальный PDF/GPX трека.' },
         { kind: 'checklist', items: [
           'GR — Grande Rota: длинный маршрут, обычно более 30 км; многие GR идут на 100+ км и разбиваются на этапы.',
           'Разметка GR: красная + белая горизонтальные полосы.',
@@ -126,6 +126,6 @@ export default {
     { title: 'VisitPortugal — Caminhos de Santiago в Португалии', url: 'https://www.visitportugal.com/pt-pt/content/caminhos-de-santiago', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ANAC — правила использования drones в Португалии', url: 'https://www.anac.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

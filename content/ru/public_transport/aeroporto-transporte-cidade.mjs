@@ -3,7 +3,7 @@ export default {
   id: 'aeroporto-transporte-cidade',
   categoryId: 'public_transport',
   title: 'Транспорт из аэропорта в город — Lisbon, Porto, Faro',
-  tldr: 'В 2026 самый предсказуемый трансфер: LIS → Lisboa на метро linha Vermelha за 1,85 € + карта 0,50 €, OPO → Porto на Metro do Porto linha E за билет Z4 около 2,25 € + Andante 0,60 €. Из Faro Airport сначала автобус Próximo 16 до Faro, дальше Vamus по Algarve; прямые региональные рейсы зависят от сезона. Такси из аэропорта обычно дороже Bolt/Uber: Lisboa 12–25 €, Porto 25–35 €, Faro 10–15 €, ночью и с багажом выше.',
+  tldr: 'В 2026 самый предсказуемый трансфер: LIS → Lisboa на метро linha Vermelha за 1,90 € + карта 0,50 €, OPO → Porto на Metro do Porto linha E за билет Z4 около 2,30 € + Andante 0,60 €. Из Faro Airport сначала автобус Próximo 16 до Faro, дальше Vamus по Algarve; прямые региональные рейсы зависят от сезона. Такси из аэропорта обычно дороже Bolt/Uber: Lisboa 12–25 €, Porto 25–35 €, Faro 10–15 €, ночью и с багажом выше.',
   tags: ['аэропорт', 'metro', 'uber', 'vamus'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,13 +13,13 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Главный лайфхак Lisbon Airport: метро находится прямо у Terminal 1. Linha Vermelha идёт до Alameda / Saldanha, дальше пересадка на зелёную, жёлтую или синюю линии. До Saldanha обычно около 20 минут без пробок.' },
         { kind: 'checklist', items: [
-          'Метро: 1,85 € за поездку Carris/Metro + 0,50 € за карту Navegante occasional / Viva Viagem, если её ещё нет',
+          'Метро: 1,90 € за поездку Carris/Metro + 0,50 € за карту Navegante occasional / Viva Viagem, если её ещё нет',
           'Режим метро: примерно 06:30–01:00; ночью используйте такси, Bolt, Uber или автобус',
           'До Baixa/Chiado: linha Vermelha до Alameda, затем linha Verde до Baixa-Chiado',
           'До Cais do Sodré: linha Vermelha до Alameda, linha Verde до Cais do Sodré',
           'До Oriente: linha Vermelha, 3 станции; удобно для поездов CP и автобусов Rede Expressos / FlixBus',
           'Городские автобусы Carris от аэропорта есть, но они менее удобны с чемоданами и зависят от пробок',
-          'Старый формат Aerobus Lisboa не стоит считать гарантированным вариантом на 2026: проверяйте актуальность в день прилёта, базовый официальный маршрут — метро/автобус/такси'
+          'Старый формат Aerobus Lisboa не стоит считать гарантированным вариантом в 2026 году: проверяйте актуальность в день прилёта, базовый официальный маршрут — метро/автобус/такси'
         ] },
         { kind: 'warning', text: 'Если прилетаете в Terminal 2, сначала нужен бесплатный shuttle до Terminal 1. Метро и большинство городского транспорта находятся у Terminal 1; закладывайте 10–20 минут.' }
       ]
@@ -30,7 +30,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'В Porto самый простой вариант — Metro do Porto linha E / Violeta от Aeroporto до Trindade. Trindade — главный пересадочный узел; оттуда легко добраться до Aliados, Bolhão, São Bento, Casa da Música и Vila Nova de Gaia.' },
         { kind: 'checklist', items: [
-          'Нужен билет Andante Z4: в 2026 ориентир около 2,25 € за поездку + 0,60 € за карту Andante Azul',
+          'Нужен билет Andante Z4: в 2026 ориентир около 2,30 € за поездку + 0,60 € за карту Andante Azul',
           'До Trindade обычно 25–30 минут',
           'До São Bento: Aeroporto → Trindade, затем пересадка на linha D / Amarela до São Bento',
           'До Campanhã: Aeroporto → Trindade, затем пересадка на линии A/B/C/F или поезд CP, если удобнее',
@@ -38,7 +38,7 @@ export default {
           'Метро в Porto не круглосуточное; поздним вечером проверяйте последний рейс в приложении Anda или на сайте Metro do Porto',
           'С большим багажом метро обычно удобнее автобуса: нет доплаты за чемодан, но не блокируйте двери и проход'
         ] },
-        { kind: 'paragraph', text: 'Такси из OPO до центра Porto обычно выходит 25–35 € днём, дороже ночью, в праздники и при дальнем районе. Bolt/Uber часто показывают 15–25 €, но при surge pricing могут быть дороже такси.' }
+        { kind: 'paragraph', text: 'Такси из OPO до центра Porto обычно выходит 25–35 € днём, дороже ночью, в праздники и при поездке в дальние районы. Bolt/Uber часто показывают 15–25 €, но при surge pricing могут быть дороже такси.' }
       ]
     },
     {
@@ -50,10 +50,10 @@ export default {
           'Faro Airport → центр Faro: городской автобус Próximo, чаще всего linha 16, билет у водителя обычно около 2,60 €',
           'До автовокзала Faro: примерно 15–25 минут, зависит от трафика и расписания',
           'Faro → Albufeira / Portimão / Lagos / Tavira: проверяйте Vamus Algarve; расписания заметно меняются по сезону',
-          'Для поездов CP нужно доехать из аэропорта до станции Faro; пешком из аэропорта нельзя считать удобным вариантом',
+          'Для поездов CP нужно доехать из аэропорта до станции Faro; идти пешком от аэропорта неудобно',
           'Прямые Aerobus/шаттлы по Algarve могут работать сезонно; в апреле–октябре рейсов обычно больше, зимой меньше',
-          'Если прилет поздний, заранее проверяйте последний автобус Vamus: после 21:00–22:00 выбор резко падает',
-          'Для семьи 3–4 человека до курортов Algarve такси/transfer иногда рациональнее автобуса, особенно ночью'
+          'Если прилёт поздний, заранее проверяйте последний автобус Vamus: после 21:00–22:00 выбор резко падает',
+          'Для семьи из 3–4 человек до курортов Algarve такси/transfer иногда выгоднее автобуса, особенно ночью'
         ] },
         { kind: 'warning', text: 'Не планируйте стыковку “самолёт → последний Vamus” без запаса. В Faro задержка багажа на 20–40 минут легко ломает вечерний маршрут по Algarve.' }
       ]
@@ -95,9 +95,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Lisboa: метро LIS → город', amountEUR: 1.85, note: 'Разовая поездка Carris/Metro; карта Navegante occasional / Viva Viagem оплачивается отдельно' },
+    { label: 'Lisboa: метро LIS → город', amountEUR: 1.90, note: 'Разовая поездка Carris/Metro; карта Navegante occasional / Viva Viagem оплачивается отдельно' },
     { label: 'Lisboa: карта Navegante occasional / Viva Viagem', amountEUR: 0.50, note: 'Пополняемая бумажная карта для occasional tickets' },
-    { label: 'Porto: Metro do Porto Aeroporto → центр', amountEUR: 2.25, note: 'Ориентир для билета Andante Z4 в 2026; проверьте автомат перед покупкой' },
+    { label: 'Porto: Metro do Porto Aeroporto → центр', amountEUR: 2.30, note: 'Ориентир для билета Andante Z4 в 2026; проверьте автомат перед покупкой' },
     { label: 'Porto: карта Andante Azul', amountEUR: 0.60, note: 'Нужна для разовых поездок Metro do Porto / STCP' },
     { label: 'Faro: автобус аэропорт → город', amountEUR: 2.60, note: 'Ориентир для билета у водителя на городском автобусе Próximo' },
     { label: 'Такси/Bolt/Uber из аэропорта в центр', amountEURMin: 6, amountEURMax: 35, note: 'Faro дешевле, Porto обычно дороже; surge pricing и ночные тарифы меняют цену' }
@@ -108,6 +108,6 @@ export default {
     { title: 'Metro do Porto — тарифы Andante и линия Aeroporto', url: 'https://www.metrodoporto.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Vamus Algarve — региональные автобусы Algarve', url: 'https://vamusalgarve.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

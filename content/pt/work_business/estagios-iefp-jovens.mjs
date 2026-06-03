@@ -3,7 +3,7 @@ export default {
   id: 'estagios-iefp-jovens',
   categoryId: 'work_business',
   title: 'Estágios IEFP: estágios para jovens através do serviço de emprego',
-  tldr: 'Os Estágios IEFP são estágios remunerados através do Centro de Emprego/IEFP para entrar no mercado de trabalho português.\n\nEm 2026, os estágios para jovens padrão do IEFP (Estágios INICIAR, +Talento) destinam-se a pessoas dos 18 aos 35 anos; um candidato dos 30 aos 35 anos não precisa de estatuto especial. O pagamento é feito pelo empregador, e o IEFP reembolsa-lhe uma parte dos custos. Uma referência frequente nas ofertas é cerca de 870 €/mês brutos: a bolsa efetiva depende do IAS 537,13 €, do nível de qualificação e do programa.',
+  tldr: 'Os Estágios IEFP são estágios remunerados através do Centro de Emprego/IEFP para entrar no mercado de trabalho português.\n\nEm 2026, os estágios para jovens padrão do IEFP (Estágios INICIAR, +Talento) destinam-se a pessoas dos 18 aos 35 anos; um candidato dos 30 aos 35 anos não precisa de estatuto especial. O pagamento é feito pelo empregador, e o IEFP reembolsa-lhe uma parte dos custos. Segundo as regras de 2026, a bolsa bruta é de 913,12 €/mês para uma qualificação de nível 4 do QNQ e 966,83 €/mês para o nível 5: o valor efetivo depende do IAS 537,13 €, do nível de qualificação e do programa.',
   tags: ['iefp', 'estágio', 'trabalho', 'jovens'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Um Estágio IEFP não é um contrato de trabalho comum, mas sim um programa de estágio profissional aprovado pelo IEFP. O estagiário trabalha numa empresa de acordo com um plano de estágio, recebe uma bolsa de estágio, subsídio de alimentação e seguro de acidentes de trabalho. O dinheiro é pago mensalmente pelo empregador; depois, o IEFP reembolsa o empregador por uma parte dos custos, de acordo com as regras da medida concreta.' },
         { kind: 'paragraph', text: 'Para um expatriado, a principal vantagem é ter uma primeira experiência legal em Portugal, uma linha no CV e a possibilidade de obter um contrato de trabalho após o estágio. A principal desvantagem é que o estágio é temporário, normalmente até 12 meses, e não garante contratação.' },
-        { kind: 'warning', text: 'Não confunda: o IEFP não lhe “paga um extra” diretamente. Se a oferta indicar 870 €/mês, normalmente trata-se da bolsa bruta paga pela empresa; a compensação do IEFP vai para o empregador.' }
+        { kind: 'warning', text: 'Não confunda: o IEFP não lhe “paga um extra” diretamente. O valor indicado numa oferta (por exemplo, 913,12 €/mês) é normalmente a bolsa bruta paga pela empresa; a compensação do IEFP vai para o empregador.' }
       ]
     },
     {
@@ -37,18 +37,18 @@ export default {
     },
     {
       id: 'money',
-      title: 'Quanto pagam: porque “870 €” não é universal',
+      title: 'Quanto pagam: a bolsa depende do nível de qualificação',
       content: [
-        { kind: 'paragraph', text: 'Em 2026, o índice de referência IAS é 537,13 €. Muitas bolsas IEFP são calculadas como um múltiplo do IAS e dependem do nível de qualificação segundo o Quadro Nacional de Qualificações. Por isso, o valor anunciado pode variar: cerca de 859–870 €/mês brutos para uma categoria, mais para licenciatura/mestrado e menos para alguns níveis iniciais.' },
+        { kind: 'paragraph', text: 'Em 2026, o índice de referência IAS é 537,13 €. A bolsa nos Estágios INICIAR / +Talento é calculada como um múltiplo do IAS e depende do nível de qualificação segundo o Quadro Nacional de Qualificações: 913,12 €/mês brutos (nível 4, 1,7 × IAS) e 966,83 €/mês brutos (nível 5, 1,8 × IAS). Por isso, o valor anunciado pode variar consoante a categoria.' },
         { kind: 'checklist', items: [
           'Bolsa de estágio — valor bruto antes de impostos e Segurança Social',
-          'Subsídio de alimentação é normalmente pago à parte pelos dias úteis',
+          'Subsídio de alimentação é pago à parte pelos dias úteis (em 2026 a referência é 6,15 €/dia)',
           'Seguro de acidentes de trabalho deve ser assegurado pelo empregador',
           'O IEFP reembolsa o empregador por uma parte da bolsa, alimentação e seguro de acordo com as regras do programa',
           'O estagiário normalmente faz descontos para Segurança Social; confirme no recibo de vencimento',
           'Pode haver retenção de IRS se o rendimento e a situação pessoal se enquadrarem na retenção na fonte',
           'Um estágio não equivale ao SMN: o salário mínimo de 2026 é 920 €, mas a bolsa IEFP é calculada pelas suas próprias regras',
-          'Se a empresa prometer “870 € líquidos”, peça um cálculo escrito bruto/líquido antes de assinar'
+          'Se a empresa prometer um determinado valor “líquido”, peça um cálculo escrito bruto/líquido antes de assinar'
         ] },
         { kind: 'warning', text: 'Não aceite um esquema de “estágio oficial, mas trabalho a tempo inteiro não oficial sem pagamentos”. As queixas são apresentadas ao IEFP e à ACT, mas é melhor não começar com um acordo cinzento.' }
       ]
@@ -87,7 +87,7 @@ export default {
       id: 'program-types',
       title: 'Que programas existem',
       content: [
-        { kind: 'paragraph', text: 'Os nomes das medidas do IEFP mudam consoante os anos e os avisos de abertura. Em abril de 2026, não se oriente por um nome antigo visto num blogue, mas pela página ativa do IEFP e pelo aviso da candidatura concreta.' },
+        { kind: 'paragraph', text: 'Os nomes das medidas do IEFP mudam consoante os anos e os avisos de abertura. Em 2026, não se oriente por um nome antigo visto num blogue, mas pela página ativa do IEFP e pelo aviso da candidatura concreta.' },
         { kind: 'checklist', items: [
           'Estágios Profissionais / estágios para jovens — via típica para 18–35 anos após os estudos ou para uma primeira experiência',
           'Estágios INICIAR — formato para início de carreira profissional; as condições dependem do aviso IEFP aberto',
@@ -119,8 +119,8 @@ export default {
   ],
   costs: [
     { label: 'Inscrição do candidato no IEFP', amountEUR: 0, note: 'Gratuita online ou no Centro de Emprego' },
-    { label: 'Referência de bolsa cerca de 1,6 IAS', amountEUR: 859.41, note: 'IAS 2026 = 537,13 €; o valor efetivo depende do programa e da qualificação' },
-    { label: 'Referência frequente nas ofertas', amountEUR: 870, note: 'Bruto por mês; não é um valor IEFP garantido para todos os candidatos' }
+    { label: 'Bolsa, qualificação de nível 4 do QNQ (1,7 × IAS)', amountEUR: 913.12, note: 'IAS 2026 = 537,13 €; bruto por mês para Estágios INICIAR / +Talento' },
+    { label: 'Bolsa, qualificação de nível 5 do QNQ (1,8 × IAS)', amountEUR: 966.83, note: 'Bruto por mês; o valor efetivo depende do programa e da qualificação' }
   ],
   sources: [
     { title: 'IEFP — medidas de estágios e apoios ao emprego', url: 'https://www.iefp.pt/estagios', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -128,6 +128,6 @@ export default {
     { title: 'gov.pt — inscrição no Centro de Emprego', url: 'https://www.gov.pt/pt/servicos/inscrever-se-no-centro-de-emprego', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'gov.pt — IEFP e políticas públicas de emprego', url: 'https://www.gov.pt/pt/entidades/instituto-do-emprego-e-formacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

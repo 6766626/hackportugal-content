@@ -17,7 +17,7 @@ export default {
           'freelance services provided from Portugal: usually 0% in the US if there is no permanent establishment / fixed base in the US',
           'business profits: Article 7, usually 0% in the US without a permanent establishment',
           'independent personal services: Article 15, usually 0% without a fixed base in the US and in the absence of prolonged physical presence in the US',
-          'royalties, including some Amazon KDP payments: Article 12, under the Portugal–US treaty usually up to 10%, not 0%',
+          'royalties, including some Amazon KDP payments: Article 13, under the Portugal–US treaty usually up to 10%, not 0%',
           'US share dividends at IBKR: Article 10, usually 15% for a portfolio investor',
           'capital gains on ordinary US shares: usually 0% withholding in the US, but declared in Portugal',
           'the form does not cancel Portuguese IRS: a resident of Portugal declares worldwide income'
@@ -84,9 +84,9 @@ export default {
             id: 'amazon-kdp',
             title: 'Amazon KDP royalties — usually 10%',
             content: [
-              { kind: 'paragraph', text: 'KDP more often classifies payments to authors as royalties. For the Portugal–US treaty, check Article 12: the rate on royalties is usually capped at 10% of the gross amount. This is better than 30%, but not 0%.' },
+              { kind: 'paragraph', text: 'KDP more often classifies payments to authors as royalties. For the Portugal–US treaty, check Article 13: the rate on royalties is usually capped at 10% of the gross amount. This is better than 30%, but not 0%.' },
               { kind: 'checklist', items: [
-                'Article: 12',
+                'Article: 13',
                 'Rate of withholding: 10%',
                 'Type of income: royalties / copyright royalties',
                 'Explanation: beneficial owner is a resident of Portugal under the Portugal–US income tax treaty'
@@ -180,6 +180,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

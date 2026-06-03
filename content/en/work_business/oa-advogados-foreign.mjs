@@ -3,7 +3,7 @@ export default {
   id: 'oa-advogados-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Advogados: foreign lawyer in Portugal without BR reciprocity',
-  tldr: 'In Portugal you cannot simply “transfer” lawyer status: the word advogado is protected, and access to the profession is granted only by the Ordem dos Advogados (OA)\.\n\nAfter the end of practical BR reciprocity, the direct route for non-EU lawyers is recognition of the degree by a Portuguese university/DGES, then admission to the OA and a 12-month estágio (não prorrogável / non-extendable) with a patrono and final assessment. Since 1 April 2024, under Lei n.º 6/2024, de 19 de janeiro, the estágio lasts 12 months and the former phased structure and prova de agregação have been abolished. EU/EEA lawyers follow a separate route under Diretiva 98/5/CE: they may register under their home professional title.',
+  tldr: 'In Portugal you cannot simply “transfer” lawyer status: the word advogado is protected, and access to the profession is granted only by the Ordem dos Advogados (OA).\n\nAfter the end of practical BR reciprocity, the direct route for non-EU lawyers is recognition of the degree by a Portuguese university/DGES, then admission to the OA and a 12-month estágio (não prorrogável / non-extendable) with a patrono and final assessment. Since 1 April 2024, under Lei n.º 6/2024, de 19 de janeiro, the estágio lasts 12 months and the former phased structure and prova de agregação have been abolished. EU/EEA lawyers follow a separate route under Diretiva 98/5/CE: they may register under their home professional title.',
   tags: ['oa', 'advogado', 'lawyer', 'diploma', 'estágio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,9 +14,9 @@ export default {
         { kind: 'paragraph', text: 'In Portugal, “advogado” is a regulated profession. To represent clients in court, sign procedural documents, benefit from professional secrecy and use the title advogado, you need inscrição with the Ordem dos Advogados (OA).' },
         { kind: 'paragraph', text: 'A foreign law degree on its own does not give you the right to practise as an advogado. You may work as a legal consultant, paralegal, contract manager, in compliance, tax/legal operations, but you must not mislead clients into thinking that you are a Portuguese advogado.' },
         { kind: 'checklist', items: [
-          'Write instead: “Caution: paid legal consultation for third parties in Portugal may fall under actos próprios dos advogados e solicitadores. Without inscrição with the OA, it is safer to work in-house, in back-office/legal operations, or as a foreign-law specialist with a clear scope and, on Portuguese matters, under the responsibility of an advogado/solicitador. Do not give Portuguese-law advice and do not represent clients before authorities/courts.”',
+          'Caution: paid legal consultation for third parties in Portugal may fall under actos próprios dos advogados e solicitadores. Without inscrição with the OA, it is safer to work in-house, in back-office/legal operations, or as a foreign-law specialist with a clear scope and, on Portuguese matters, under the responsibility of an advogado/solicitador. Do not give Portuguese-law advice and do not represent clients before authorities/courts.',
           'Allowed: working in-house in a company, in compliance, privacy, contracts, AML, relocation/legal operations',
-          'Clarify: “You may, as an employee/back-office/paralegal, prepare drafts and translations for an advogado/solicitador, if the registered professional is the one responsible to the client. You may not independently sell the preparation of legal documents as a service if this falls under actos próprios.”',
+          'You may, as an employee/back-office/paralegal, prepare drafts and translations for an advogado/solicitador, if the registered professional is the one responsible to the client. You may not independently sell the preparation of legal documents as a service if this falls under actos próprios.',
           'Not allowed: using the title advogado without inscrição with the OA',
           'Not allowed: representing a client in a Portuguese court as an advogado',
           'Not allowed: opening a “sociedade de advogados” without complying with OA rules',
@@ -75,7 +75,7 @@ export default {
           'After long-term effective and regular practice in Portuguese/EU law, integration into the profession in Portugal may be possible under the directive rules',
           'Alternatively, the professional qualification recognition/aptidão route may apply if the person wants the title advogado directly'
         ] },
-        { kind: 'warning', text: 'Replace with: “The EU/EEA route does not give rights merely because of a passport: you must be a professionally qualified lawyer in an EU/EEA state under one of the recognised titles. At the same time, Diretiva 98/5/CE itself is addressed to advogados nacionais de Estados-Membros/beneficiaries of EU/EEA free-movement rules, so a non-EU citizen with a qualification in an EU bar should obtain written confirmation from the OA in advance that this regime applies to them.”' }
+        { kind: 'warning', text: 'The EU/EEA route does not give rights merely because of a passport: you must be a professionally qualified lawyer in an EU/EEA state under one of the recognised titles. At the same time, Diretiva 98/5/CE itself is addressed to lawyers who are nationals of EU Member States, or who otherwise benefit from EU/EEA free-movement rules, so a non-EU citizen with a qualification in an EU bar should obtain written confirmation from the OA in advance that this regime applies to them.' }
       ]
     },
     {
@@ -192,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

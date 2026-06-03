@@ -4,7 +4,7 @@ export default {
   categoryId: 'travel_portugal',
   title: 'Aldeias Históricas — 12 aldeias históricas de Portugal',
   tldr: 'Aldeias Históricas de Portugal — programa de preservação de 12 aldeias medievais no centro de Portugal: Belmonte, Castelo Mendo, Castelo Novo, Castelo Rodrigo, Idanha-a-Velha, Linhares da Beira, Marialva, Monsanto, Piódão, Sortelha, Trancoso, Almeida. Arquitectura em pedra, muralhas, castelos dos séculos XIII-XVI. Uma road trip compacta a partir do Porto ou de Lisboa — 2-3 dias, percurso de cerca de 500 km.',
-  tags: ['aldeias', 'história', 'monsanto', 'aldeias', 'road trip'],
+  tags: ['aldeias', 'história', 'monsanto', 'aldeias históricas', 'road trip'],
   estimatedReadMinutes: 7,
   steps: [
     {
@@ -22,11 +22,11 @@ export default {
             ]}
           ]},
           { id: 't2', title: '🏰 Belmonte — terra natal de Cabral', content: [
-            { kind: 'paragraph', text: 'A aldeia de Pedro Álvares Cabral — descobridor do Brasil (1500). Herança judaica — a maior comunidade sefardita preservada na Europa.' },
+            { kind: 'paragraph', text: 'A aldeia de Pedro Álvares Cabral — descobridor do Brasil (1500). Herança judaica: uma das últimas comunidades criptojudaicas da Europa — descendentes de sefarditas marranos que mantiveram a fé em segredo durante cerca de 500 anos.' },
             { kind: 'checklist', items: [
               'Castelo de Belmonte — é possível entrar',
               'Museu Judaico — gratuito, com explicações',
-              'Museu do Olival (azeite) — degustações',
+              'Museu do Azeite (azeite) — degustações',
               'Perto: 1 hora até à Serra da Estrela (estância de esqui no inverno)'
             ]}
           ]},
@@ -109,6 +109,6 @@ export default {
     { title: 'Aldeias Históricas de Portugal', url: 'https://aldeiashistoricasdeportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Aldeias Históricas', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

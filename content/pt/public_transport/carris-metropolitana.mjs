@@ -87,7 +87,7 @@ export default {
               'Encontre as paragens mais próximas em carrismetropolitana.pt',
               'Verifique a primeira e a última viagem num dia útil',
               'Verifique domingo e feriados',
-              'Veja a ligação à CP, Metro, Fertagus ou',
+              'Veja a ligação à CP, Metro, Fertagus ou barco',
               'Compare o tempo às 08:00 e às 22:00',
               'Verifique se precisa apenas de um pass municipal ou metropolitano'
             ] }
@@ -133,6 +133,6 @@ export default {
     { title: 'Portal oficial Navegante: tarifas e pass na Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transportes Metropolitanos de Lisboa: informação sobre a rede e operadores', url: 'https://www.tmlmobilidade.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

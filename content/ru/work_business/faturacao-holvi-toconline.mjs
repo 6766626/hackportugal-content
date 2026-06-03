@@ -31,7 +31,7 @@ export default {
         { kind: 'paragraph', text: 'Если у вас 1–5 клиентов в месяц, услуги без сложного склада и вы работаете как trabalhador independente, Portal das Finanças обычно достаточно. Вы заходите в Finanças → Faturas e Recibos Verdes → Emitir, выбираете клиента, atividade, IVA, retenção na fonte и тип документа.' },
         { kind: 'checklist', items: [
           'Подходит для фрилансера с простыми услугами: IT, дизайн, консалтинг, обучение, маркетинг.',
-          'Не стоит 0 €: нет абонентской платы, нет настройки SAF-T, нет покупки сертификата.',
+          'Стоит 0 €: нет абонентской платы, нет настройки SAF-T, нет покупки сертификата.',
           'Поддерживает fatura, recibo и fatura-recibo.',
           'Данные сразу у AT — не нужно отдельно отправлять SAF-T.',
           'Можно скачать PDF и отправить клиенту.',
@@ -57,7 +57,7 @@ export default {
             ] }
           ] },
           { id: 'holvi', title: 'Holvi — банк + инвойсы, но проверяйте fiscal compliance', content: [
-            { kind: 'paragraph', text: 'Написать жёстче: "Holvi можно рассматривать только как банковский/expense-инструмент, если ваш тип бизнеса и страна регистрации вообще поддерживаются Holvi. Для налогового документа в Португалии используйте Portal das Finanças или программу, которая именно для данного продукта указана в списке programas de faturação certificados da AT; инвойс Holvi сам по себе не заменяет fatura/fatura-recibo для AT." Но для Португалии ключевой вопрос не дизайн PDF, а сертификат AT, ATCUD, QR и comunicação à AT.' },
+            { kind: 'paragraph', text: 'Holvi стоит рассматривать только как банковский/expense-инструмент — и только если ваш тип бизнеса и страна регистрации вообще поддерживаются Holvi. Для налогового документа в Португалии используйте Portal das Finanças или программу, которая именно для данного продукта указана в списке programas de faturação certificados da AT; инвойс Holvi сам по себе не заменяет fatura/fatura-recibo для AT. Ключевой вопрос здесь не дизайн PDF, а сертификат AT, ATCUD, QR и comunicação à AT.' },
             { kind: 'warning', text: 'Если конкретный продукт Holvi для вашего аккаунта не указан в списке programas de faturação certificados AT, используйте Holvi для банковского учёта и напоминаний, а fiscal invoice/recibo выдавайте в Portal das Finanças или в сертифицированной программе.' }
           ] },
           { id: 'visee-faturalia-moloni', title: 'Visee, Faturalia, MOLONI — недорогие PT-сервисы', content: [
@@ -65,7 +65,7 @@ export default {
             { kind: 'checklist', items: [
               'Проверьте номер сертификата AT на сайте сервиса и в списке Portal das Finanças.',
               'Убедитесь, что сервис поддерживает ATCUD и QR code.',
-              'Уточнить: "Проверьте, какие именно документы поддерживаются: fatura, recibo, fatura-recibo, nota de crédito. Не путайте их с официальным recibo verde eletrónico в Portal das Finanças; если вы хотите именно emissão de recibos verdes eletrónicos через AT, используйте Portal das Finanças."',
+              'Проверьте, какие именно документы поддерживаются: fatura, recibo, fatura-recibo, nota de crédito. Не путайте их с официальным recibo verde eletrónico в Portal das Finanças; если вам нужна именно emissão de recibos verdes eletrónicos через AT, используйте Portal das Finanças.',
               'Проверьте поддержку retenção na fonte для recibos verdes.',
               'Проверьте экспорт SAF-T/PT и автоматическую comunicação à AT.',
               'Проверьте, можно ли дать доступ contabilista без передачи вашего пароля Finanças.'
@@ -85,7 +85,7 @@ export default {
           'Настройте séries документов на 2026 год и получите código de validação для ATCUD.',
           'Выберите типы документов: fatura, recibo, fatura-recibo, nota de crédito.',
           'Настройте IVA: normal, isenção art. 53 CIVA, autoliquidação или operações intracomunitárias — по вашей ситуации.',
-          'Настройте retenção na fonte: для многих услуг B2B в Португалии может быть 25%, но есть исключения и dispensa.',
+          'Настройте retenção na fonte: с 2025 базовая ставка для многих профессиональных услуг — 23% (можно выбрать 25%), но есть исключения и dispensa (например, при обороте до 15 000 €/год).',
           'Проверьте клиентов: NIF português, VAT ID ЕС через VIES, адрес, страна.',
           'Сделайте тестовый документ на малого клиента или в черновике, прежде чем массово выставлять счета.',
           'Дайте бухгалтеру доступ к программе или экспортируйте SAF-T/Excel каждый месяц.',
@@ -148,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

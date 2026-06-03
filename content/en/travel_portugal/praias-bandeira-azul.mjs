@@ -3,7 +3,7 @@ export default {
   id: 'praias-bandeira-azul',
   categoryId: 'travel_portugal',
   title: 'Bandeira Azul beaches and beach safety in Portugal',
-  tldr: 'Bandeira Azul is not “the most beautiful beach”, but an annual certification of water quality, safety, ecology and services. The 2026 list should be checked on bandeiraazul.org: as of 03/05/2026 the seasonal list may be updated before the start of the época balnear. Lifeguards usually work during the official bathing season, most often from May/June to September, but dates vary by município. The main rules: green flag — you may bathe, yellow — do not swim, red — do not enter the water; check IPMA for water temperature, UV and sea conditions.',
+  tldr: 'Bandeira Azul is not “the most beautiful beach”, but an annual certification of water quality, safety, ecology and services. The 2026 list should be checked on bandeiraazul.abaae.pt: as of 03/05/2026 the seasonal list may be updated before the start of the época balnear. Lifeguards usually work during the official bathing season, most often from May/June to September, but dates vary by município. The main rules: green flag — you may bathe, yellow — do not swim, red — do not enter the water; check IPMA for water temperature, UV and sea conditions.',
   tags: ['beaches', 'bandeiraazul', 'safety', 'ipma'],
   estimatedReadMinutes: 5,
   steps: [
@@ -28,9 +28,9 @@ export default {
       id: 'find-2026-list',
       title: 'Where to check the 2026 beach list',
       content: [
-        { kind: 'paragraph', text: 'The official list is published on bandeiraazul.org in the Praias / Galardoados section. Awards are usually announced before the start of the summer season; the status applies only to the current época balnear. As of 03/05/2026, make sure you check the year “2026”, not a saved page from the previous season.' },
+        { kind: 'paragraph', text: 'The official list is published on bandeiraazul.abaae.pt in the Praias / Galardoados section. Awards are usually announced before the start of the summer season; the status applies only to the current época balnear. As of 03/05/2026, make sure you check the year “2026”, not a saved page from the previous season.' },
         { kind: 'checklist', items: [
-          'Open bandeiraazul.org.',
+          'Open bandeiraazul.abaae.pt.',
           'Select “Praias” or the Galardoados map.',
           'Check the year filter: 2026.',
           'Look at the município and the exact beach name: similar names in neighbouring concelhos are often confused.',
@@ -97,7 +97,7 @@ export default {
       title: 'Quick checklist before the trip',
       content: [
         { kind: 'checklist', items: [
-          'Check the beach on bandeiraazul.org: whether it has Bandeira Azul specifically in the 2026 season.',
+          'Check the beach on bandeiraazul.abaae.pt: whether it has Bandeira Azul specifically in the 2026 season.',
           'Check AMN or the sign on the beach: época balnear dates and lifeguard hours.',
           'Check IPMA: water temperature, UV, wind, waves and avisos.',
           'Take water, SPF 50, a hat, cash/MB WAY for parking or the concessionário.',
@@ -116,10 +116,10 @@ export default {
     { label: 'Sun lounger and parasol', amountEURMin: 10, amountEURMax: 30, note: 'Guide price for a set/day on a concessionada praia; prices are not regulated uniformly.' }
   ],
   sources: [
-    { title: 'Official Bandeira Azul Portugal programme — beach list and criteria', url: 'https://www.bandeiraazul.org', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Official Bandeira Azul Portugal programme — beach list and criteria', url: 'https://bandeiraazul.abaae.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Marítima Nacional — beach safety and sinais de praia', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IPMA — forecast for praias, water temperature and weather warnings', url: 'https://www.ipma.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

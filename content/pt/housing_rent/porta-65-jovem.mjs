@@ -3,7 +3,7 @@ export default {
   id: 'porta-65-jovem',
   categoryId: 'housing_rent',
   title: 'Porta 65 Jovem — subsídio ao arrendamento para jovens dos 18 aos 35 anos',
-  tldr: 'Porta 65 Jovem é um subsídio estatal do IHRU ao arrendamento de habitação para jovens dos 18 aos 35 anos em Portugal. Em 2026, as candidaturas são submetidas online durante todo o ano através do Portal da Habitação / gov.pt. O apoio é normalmente atribuído por 12 meses, com possibilidade de renovação até 60 meses; o montante depende do rendimento, composição do agregado, município e limite de renda. Existe majoração de 20% para habitação em área de reabilitação urbana e para agregados monoparentais.',
+  tldr: 'Porta 65 Jovem é um subsídio estatal do IHRU ao arrendamento de habitação para jovens dos 18 aos 35 anos em Portugal. Em 2026, as candidaturas são submetidas online durante todo o ano através do Portal da Habitação / gov.pt. O apoio é normalmente atribuído por 12 meses, com possibilidade de renovação até 60 meses; o montante depende do rendimento, composição do agregado, município e limite de renda. Existe majoração de 20% para habitação em área de reabilitação urbana, majorações por dependentes e uma majoração adicional para agregados monoparentais.',
   tags: ['porta65', 'arrendamento', 'habitação', 'ihru'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Porta 65 Jovem não é um desconto dado pelo senhorio, mas sim um subsídio estatal mensal para uma parte da renda. O dinheiro é transferido para o IBAN do beneficiário após aprovação da candidatura.' },
         { kind: 'paragraph', text: 'O programa destina-se a jovens que arrendam habitação para residência permanente em Portugal continental ou regiões autónomas. Para expat, é uma forma prática de reduzir o peso do arrendamento, se já tiver NIF, acesso às Finanças e contrato de arrendamento.' },
-        { kind: 'checklist', items: ['A candidatura é gratuita e submetida online', 'São aceites jovens dos 18 aos 35 anos; em casal, um dos candidatos pode ser mais velho — até 37 anos segundo as regras do programa', 'O apoio é atribuído por 12 meses', 'Pode ser renovado enquanto as condições se mantiverem, normalmente até ao limite total de 60 meses', 'O subsídio depende do rendimento do household, do valor da renda, do município e da tipologia da habitação', 'Existe majoração de 20% para habitação em área de reabilitação urbana', 'Existe majoração de 20% para famílias monoparentais', 'Em 2026, as candidaturas são aceites durante todo o ano, sem o antigo modelo de períodos curtos de submissão'] }
+        { kind: 'checklist', items: ['A candidatura é gratuita e submetida online', 'São aceites jovens dos 18 aos 35 anos; em casal, um dos candidatos pode ser mais velho — até 37 anos segundo as regras do programa', 'O apoio é atribuído por 12 meses', 'Pode ser renovado enquanto as condições se mantiverem, normalmente até ao limite total de 60 meses', 'O subsídio depende do rendimento do household, do valor da renda, do município e da tipologia da habitação', 'Existe majoração de 20% para habitação em área de reabilitação urbana', 'Existem majorações por dependentes: +15% por um e +20% por dois ou mais', 'Para agregado monoparental acresce ainda +5% (um dependente) ou +10% (dois ou mais)', 'Em 2026, as candidaturas são aceites durante todo o ano, sem o antigo modelo de períodos curtos de submissão'] }
       ]
     },
     {
@@ -62,7 +62,7 @@ export default {
       title: 'Quanto é pago e como renovar',
       content: [
         { kind: 'paragraph', text: 'É melhor calcular antecipadamente o valor exacto no simulador do IHRU: a fórmula tem em conta o rendimento mensal corrigido, a renda, o município, número de pessoas, tipologia e majorações especiais. Em 2026 não existe uma taxa universal de “50% para todos”: duas pessoas com a mesma renda em Lisboa e Castelo Branco podem ter resultados diferentes.' },
-        { kind: 'checklist', items: ['O subsídio base é uma percentagem da renda admissível, e não necessariamente do valor total, se a sua renda estiver acima do limite do programa', 'Habitação em área de reabilitação urbana pode dar +20% ao subsídio', 'Household monoparental pode dar +20% ao subsídio', 'O apoio é atribuído por 12 meses', 'A renovação não é automática: é necessário voltar a confirmar as condições e os rendimentos', 'Se mudou de apartamento, composição da família, rendimento ou IBAN — actualize os dados antes da nova candidatura', 'Se o rendimento aumentou muito, o subsídio pode ser reduzido ou não renovado', 'Se deixou de viver nessa habitação, o apoio deve ser cessado; caso contrário, pode haver devolução de valores'] },
+        { kind: 'checklist', items: ['O subsídio base é uma percentagem da renda admissível, e não necessariamente do valor total, se a sua renda estiver acima do limite do programa', 'Habitação em área de reabilitação urbana pode dar +20% ao subsídio', 'Os dependentes dão +15% por um e +20% por dois ou mais', 'O agregado monoparental acresce ainda +5% ou +10% sobre a majoração por dependentes', 'O apoio é atribuído por 12 meses', 'A renovação não é automática: é necessário voltar a confirmar as condições e os rendimentos', 'Se mudou de apartamento, composição da família, rendimento ou IBAN — actualize os dados antes da nova candidatura', 'Se o rendimento aumentou muito, o subsídio pode ser reduzido ou não renovado', 'Se deixou de viver nessa habitação, o apoio deve ser cessado; caso contrário, pode haver devolução de valores'] },
         { kind: 'warning', text: 'Não planeie o orçamento como se o subsídio já estivesse aprovado. Primeiro pague a renda autonomamente: a decisão do IHRU pode demorar, e o indeferimento é possível por limites de rendimento, desconformidade do contrato ou erros nos dados das Finanças.' }
       ]
     },
@@ -96,13 +96,20 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Decreto-Lei n.º 308/2007 — regime Porta 65 Jovem',
-      url: 'https://dre.pt/dre/detalhe/decreto-lei/308-2007-640975',
+      title: 'Decreto-Lei n.º 308/2007 — regime Porta 65 Jovem (com alterações)',
+      url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34564575',
       kind: 'law',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
+    },
+    {
+      title: 'Decreto-Lei n.º 42/2024 — alargamento do acesso ao Porta 65 Jovem (em vigor desde 01.09.2024)',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/42-2024-870515824',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

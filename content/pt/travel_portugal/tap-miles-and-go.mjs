@@ -27,11 +27,12 @@ export default {
       id: 'tiers',
       title: 'Estatutos: Silver, Gold e o que acontece ao “Platinum”',
       content: [
-        { kind: 'paragraph', text: 'Em conversas informais fala-se muitas vezes em “Platinum”, mas na lógica pública do TAP Miles&Go em 2026 deve orientar-se pelos níveis Basic, Silver e Gold; níveis superiores especiais/convites da TAP devem ser verificados na área pessoal e nas regras do ano. Para a maioria dos expats, o objectivo realista é Silver ou Gold.' },
+        { kind: 'paragraph', text: 'Em conversas informais fala-se muitas vezes em “Platinum”, mas o TAP Miles&Go não tem esse nível. Na lógica pública de 2026, oriente-se pelos estatutos Silver, Gold e Navigator (nível superior); um membro sem estatuto é simplesmente Miles&Go. Verifique os limiares e condições exactos na área pessoal e nas regras do ano. Para a maioria dos expats, o objectivo realista é Silver ou Gold.' },
         { kind: 'checklist', items: [
-          'Basic — membro normal sem estatuto elite; acumula e usa milhas.',
+          'Nível base (sem estatuto elite) — membro normal Miles&Go: acumula e usa milhas.',
           'Silver — primeiro nível elite da TAP; dá parte dos benefícios TAP, mas não equivale a um Star Alliance Gold completo.',
           'Gold — estatuto-chave para quem voa frequentemente; normalmente corresponde a Star Alliance Gold.',
+          'Navigator — estatuto superior da TAP, com os limiares mais altos; só compensa para quem voa muito.',
           'Star Alliance Gold é importante devido a lounge access, priority check-in, priority boarding e bagagem adicional em muitos parceiros.',
           'Milhas de estatuto e milhas bónus são coisas diferentes: as primeiras servem para o nível, as segundas são usadas em bilhetes e upgrades.',
           'Nem todas as milhas de parceiros contam da mesma forma: cada parceiro e booking class tem uma tabela de crédito.',
@@ -122,6 +123,6 @@ export default {
     { title: 'TAP Miles&Go — utilização de milhas', url: 'https://www.flytap.com/en-pt/miles-and-go/use-miles', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Star Alliance — companhias aéreas membros', url: 'https://www.staralliance.com/en/member-airlines', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

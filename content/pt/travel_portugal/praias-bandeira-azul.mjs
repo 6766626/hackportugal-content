@@ -3,7 +3,7 @@ export default {
   id: 'praias-bandeira-azul',
   categoryId: 'travel_portugal',
   title: 'Praias com Bandeira Azul e segurança na praia em Portugal',
-  tldr: 'A Bandeira Azul não é “a praia mais bonita”, mas sim uma certificação anual da qualidade da água, segurança, ecologia e serviços. A lista de 2026 deve ser verificada em bandeiraazul.org: em 03.05.2026 a lista sazonal pode ser actualizada antes do início da época balnear. Os nadadores-salvadores trabalham normalmente durante a época balnear oficial, muitas vezes de Maio/Junho a Setembro, mas as datas variam por município. Regras principais: bandeira verde — pode tomar banho, amarela — não nadar, vermelha — não entrar na água; consulte o IPMA para a temperatura da água, UV e agitação marítima.',
+  tldr: 'A Bandeira Azul não é “a praia mais bonita”, mas sim uma certificação anual da qualidade da água, segurança, ecologia e serviços. A lista de 2026 deve ser verificada em bandeiraazul.abaae.pt: em 03.05.2026 a lista sazonal pode ser actualizada antes do início da época balnear. Os nadadores-salvadores trabalham normalmente durante a época balnear oficial, muitas vezes de Maio/Junho a Setembro, mas as datas variam por município. Regras principais: bandeira verde — pode tomar banho, amarela — não nadar, vermelha — não entrar na água; consulte o IPMA para a temperatura da água, UV e agitação marítima.',
   tags: ['praias', 'bandeiraazul', 'segurança', 'ipma'],
   estimatedReadMinutes: 5,
   steps: [
@@ -28,9 +28,9 @@ export default {
       id: 'find-2026-list',
       title: 'Onde consultar a lista de praias de 2026',
       content: [
-        { kind: 'paragraph', text: 'A lista oficial é publicada em bandeiraazul.org na secção Praias / Galardoados. Normalmente, as distinções são anunciadas antes do início da época de Verão; o estatuto só é válido para a época balnear em curso. Em 03.05.2026, confirme especificamente o ano “2026”, e não uma página guardada da época anterior.' },
+        { kind: 'paragraph', text: 'A lista oficial é publicada em bandeiraazul.abaae.pt na secção Praias / Galardoados. Normalmente, as distinções são anunciadas antes do início da época de Verão; o estatuto só é válido para a época balnear em curso. Em 03.05.2026, confirme especificamente o ano “2026”, e não uma página guardada da época anterior.' },
         { kind: 'checklist', items: [
-          'Abra bandeiraazul.org.',
+          'Abra bandeiraazul.abaae.pt.',
           'Seleccione “Praias” ou o mapa de Galardoados.',
           'Verifique o filtro do ano: 2026.',
           'Veja o município e o nome exacto da praia: nomes parecidos em concelhos vizinhos são frequentemente confundidos.',
@@ -97,7 +97,7 @@ export default {
       title: 'Checklist rápido antes da viagem',
       content: [
         { kind: 'checklist', items: [
-          'Verificar a praia em bandeiraazul.org: se tem Bandeira Azul especificamente na época de 2026.',
+          'Verificar a praia em bandeiraazul.abaae.pt: se tem Bandeira Azul especificamente na época de 2026.',
           'Verificar a AMN ou a placa na praia: datas da época balnear e horários dos nadadores-salvadores.',
           'Verificar o IPMA: temperatura da água, UV, vento, ondas e avisos.',
           'Levar água, SPF 50, chapéu, dinheiro/MB WAY para estacionamento ou concessionário.',
@@ -116,10 +116,10 @@ export default {
     { label: 'Espreguiçadeira e chapéu-de-sol', amountEURMin: 10, amountEURMax: 30, note: 'Valor indicativo por conjunto/dia numa praia concessionada; os preços não são regulados de forma uniforme.' }
   ],
   sources: [
-    { title: 'Programa oficial Bandeira Azul Portugal — lista de praias e critérios', url: 'https://www.bandeiraazul.org', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Programa oficial Bandeira Azul Portugal — lista de praias e critérios', url: 'https://bandeiraazul.abaae.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Autoridade Marítima Nacional — segurança nas praias e sinais de praia', url: 'https://www.amn.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'IPMA — previsão para praias, temperatura da água e avisos meteorológicos', url: 'https://www.ipma.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -44,7 +44,7 @@ export default {
               'Tudo mobilado e com serviços incluídos',
               'Contrato de 1 mês a mais de 12 meses',
               'Aceitam passaporte + reserva sem NIF',
-              'A plataforma cobra 10–15 % ao senhorio, sem pagamento adicional pelo cliente',
+              'A plataforma cobra uma comissão ao senhorio, sem pagamento adicional pelo cliente',
               'Mais caro do que o Idealista em 20–40 %, mas mais simples para recém-chegados'
             ]}
           ]},
@@ -137,6 +137,6 @@ export default {
     { title: 'AMI — Associação dos Mediadores Imobiliários', url: 'https://www.ami.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

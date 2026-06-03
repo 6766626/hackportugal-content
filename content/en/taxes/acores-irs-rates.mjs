@@ -66,7 +66,7 @@ export default {
       id: 'not-final-tax',
       title: 'Do not confuse withholding with final IRS',
       content: [
-        { kind: 'paragraph', text: 'The retenção table only decides how much to withhold now. Final IRS for 2026 is calculated in 2027 in the Modelo 3 return. It takes into account progressive rates, deductions, dependentes, despesas gerais familiares, saúde, educação, rendas, PPR and other deductions.' },
+        { kind: 'paragraph', text: 'The retenção table only decides how much to withhold now. Final IRS for 2026 is calculated in 2027 in the Modelo 3 return. It takes into account progressive rates, dependentes, despesas gerais familiares, saúde, educação, rendas, PPR and other deductions.' },
         { kind: 'checklist', items: [
           'Lower withholding every month does not mean the tax has been “forgiven”.',
           'If too little was withheld — there will be a nota de cobrança to pay after liquidação.',
@@ -134,6 +134,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

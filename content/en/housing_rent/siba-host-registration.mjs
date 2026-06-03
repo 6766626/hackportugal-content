@@ -30,9 +30,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Lei 23/2007, art. 16 requires the entrada and saída of a foreign national to be reported through a boletim de alojamento. The practical rule for the host: submit the details in SIBA no later than 3 working days after the check-in date and no later than 3 working days after the check-out date.' },
         { kind: 'checklist', items: [
-          'Check-in on Friday: the count runs by working days; Saturday and Sunday usually do not count',
+          'The count runs by working days; Saturday and Sunday usually do not count',
           'Public holidays in Portugal do not count as working days',
-          'If the guest arrived on 1 April 2026 and it is a working day, the safe deadline is by the end of 6 April 2026, provided there is no holiday/weekend in between',
+          'Under the SIBA rule, the day of check-in (the accommodation date) already counts as the first of the three working days; the deadline after departure is counted the same way',
+          'Example: a guest arrives on Wednesday 1 April 2026 — that is a working day and the first day of the period, so the boletim must be filed no later than Friday 3 April 2026',
           'If the booking is extended, check whether the check-out date needs to be updated in SIBA',
           'If the guest left earlier, submit the saída using the actual date',
           'If one guest cancelled the trip and did not stay overnight, no boletim is filed for that person',
@@ -130,6 +131,6 @@ export default {
     { title: 'SIBA — boletins de alojamento portal', url: 'https://siba.ssi.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'GuestReady: SIBA guest registration in Portugal', url: 'https://www.guestready.com/blog/siba-guest-registration-sef-aima-portugal/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -102,7 +102,7 @@ export default {
           '💧 Take water with you — there are cafés, but they are few and often expensive',
           '🎒 Watch your pockets in the tourist crowds around Sé and Castelo',
           '🚇 Start of the route — 3 min from Baixa-Chiado metro (exit “Rua Augusta”)',
-          '🎟️ Castelo de São Jorge: ticket €20 (2026), book online',
+          '🎟️ Castelo de São Jorge: ticket €17 (2026), book online',
           '🎵 In the evening in Alfama — dozens of local taverns with live fado (dinner + wine ~€35–50/person)'
         ]}
       ]
@@ -125,6 +125,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — Heritage', url: 'https://www.lisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UNESCO — intangible heritage: fado', url: 'https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

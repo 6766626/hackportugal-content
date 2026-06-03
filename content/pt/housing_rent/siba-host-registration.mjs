@@ -30,9 +30,10 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A Lei 23/2007, art. 16 exige a comunicação da entrada e da saída do cidadão estrangeiro através de boletim de alojamento. Regra prática para o anfitrião: submeta os dados no SIBA o mais tardar 3 dias úteis após a data de entrada e o mais tardar 3 dias úteis após a data de saída.' },
         { kind: 'checklist', items: [
-          'Entrada numa sexta-feira: a contagem é feita por dias úteis; sábado e domingo normalmente não contam',
+          'A contagem é feita por dias úteis; sábado e domingo normalmente não contam',
           'Os feriados nacionais em Portugal não contam como dias úteis',
-          'Se o hóspede chegou a 1 de abril de 2026 e esse dia é útil, o prazo seguro é até ao fim de 6 de abril de 2026, se não houver feriado/fim de semana pelo meio',
+          'Pela regra do SIBA, o dia da entrada (data do alojamento) já conta como o primeiro dos três dias úteis; o prazo após a saída conta-se da mesma forma',
+          'Exemplo: o hóspede chega na quarta-feira, 1 de abril de 2026 — esse dia é útil e é o primeiro dia do prazo, pelo que o boletim deve ser submetido o mais tardar na sexta-feira, 3 de abril de 2026',
           'Se a reserva for prolongada, verifique se é necessário atualizar a data de saída no SIBA',
           'Se o hóspede saiu mais cedo, envie a saída com a data efetiva',
           'Se um hóspede cancelou a viagem e não pernoitou, não se submete boletim para essa pessoa',
@@ -130,6 +131,6 @@ export default {
     { title: 'SIBA — portal de boletins de alojamento', url: 'https://siba.ssi.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'GuestReady: registo de hóspedes no SIBA em Portugal', url: 'https://www.guestready.com/blog/siba-guest-registration-sef-aima-portugal/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'lisboa-wifi-gratis-municipal',
   categoryId: 'telecom',
   title: 'Free Wi‑Fi in Lisbon and Porto: Lisboa WiFi Plus',
-  tldr: 'Lisbon has the municipal Lisboa WiFi Plus network: 300+ access points in CML public spaces — squares, gardens, libraries, markets, Estação Oriente and tourist areas.\n\nPorto has Porto WiFi: around 35 hotspots in the centre and municipal locations. Connection is usually without registration: choose the network, open the captive portal, accept the terms. Sessions are often limited to 60 minutes, after which you can reconnect. For banking, Finanças, AIMA and work logins, use a VPN or mobile internet.',
+  tldr: 'Lisbon has the municipal Lisboa WiFi Plus network: hundreds of access points in CML public spaces — squares, gardens, libraries, markets, Estação Oriente and tourist areas.\n\nPorto has Porto Free Wi-Fi: a network of access points in the centre and municipal locations. Connection is usually without registration: choose the network, open the captive portal, accept the terms. Sessions are often time-limited, after which you can reconnect. For banking, Finanças, AIMA and work logins, use a VPN or mobile internet.',
   tags: ['wifi', 'lisbon', 'porto', 'telecom'],
   estimatedReadMinutes: 4,
   steps: [
@@ -11,8 +11,8 @@ export default {
       id: 'what-it-is',
       title: 'What these networks are',
       content: [
-        { kind: 'paragraph', text: 'Lisboa WiFi Plus is the free municipal network of Câmara Municipal de Lisboa. It covers 300+ access points in CML public spaces: squares, gardens, libraries, municipal markets, cultural venues, areas with heavy tourist traffic and transport hubs such as Estação Oriente.' },
-        { kind: 'paragraph', text: 'In Porto, the equivalent city network is called Porto WiFi. According to Câmara Municipal do Porto, around 35 hotspots are available in key public places around the city.' },
+        { kind: 'paragraph', text: 'Lisboa WiFi Plus is the free municipal network of Câmara Municipal de Lisboa. It covers hundreds of access points in CML public spaces: squares, gardens, libraries, municipal markets, cultural venues, areas with heavy tourist traffic and transport hubs such as Estação Oriente.' },
+        { kind: 'paragraph', text: 'In Porto, the equivalent city network is called Porto Free Wi-Fi, run together with Associação Porto Digital. It covers access points in key public places around the city — squares, libraries and cultural venues.' },
         { kind: 'checklist', items: [
           'Price: €0',
           'No SIM card needed',
@@ -61,11 +61,11 @@ export default {
     },
     {
       id: 'porto-wifi',
-      title: 'Porto WiFi: how it works in Porto',
+      title: 'Porto Free Wi-Fi: how it works in Porto',
       content: [
-        { kind: 'paragraph', text: 'Porto WiFi is the free network of Câmara Municipal do Porto. It is smaller than Lisbon’s: as a guide, around 35 hotspots, mostly in central and municipal public places.' },
+        { kind: 'paragraph', text: 'Porto Free Wi-Fi is the free network of Câmara Municipal do Porto, run together with Associação Porto Digital. Its access points are mostly in central and municipal public places: squares, libraries and cultural venues.' },
         { kind: 'checklist', items: [
-          'Select the Porto WiFi network',
+          'Select the Porto Free Wi-Fi network',
           'Open the captive portal in your browser',
           'Accept the terms of use',
           'You do not need to buy a plan or enter bank card details',
@@ -112,7 +112,7 @@ export default {
   ],
   costs: [
     { label: 'Lisboa WiFi Plus', amountEUR: 0, note: 'Free; sessions are usually time-limited, often up to 60 minutes with the option to log in again' },
-    { label: 'Porto WiFi', amountEUR: 0, note: 'Free; coverage is smaller, around 35 hotspots' },
+    { label: 'Porto Free Wi-Fi', amountEUR: 0, note: 'Free; coverage is smaller than in Lisbon' },
     { label: 'Short-term backup eSIM', amountEURMin: 5, amountEURMax: 25, note: 'Indicative range for tourist data packages; the price depends on the GB allowance and provider' }
   ],
   sources: [
@@ -124,13 +124,13 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Câmara Municipal do Porto — Porto WiFi and municipal hotspots',
-      url: 'https://www.cm-porto.pt',
+      title: 'Associação Porto Digital — Porto Free Wi-Fi and municipal access points',
+      url: 'https://www.portodigital.pt/porto-free-wi-fi/',
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

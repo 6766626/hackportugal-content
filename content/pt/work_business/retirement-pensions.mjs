@@ -95,7 +95,7 @@ export default {
               'Antigo NHR (até 2024): taxa fixa de 10% para pensões estrangeiras × 10 anos (para quem ainda conseguiu entrar)',
               'IFICI (novo, 2024+): NÃO cobre pensões estrangeiras',
               'Convenções para evitar a dupla tributação (DTT): Portugal tem com a Federação Russa, Brasil, EUA, Reino Unido, França, Alemanha, Espanha — normalmente a dupla tributação é evitada por crédito de imposto',
-              'DTT com a Rússia (protocolo 1968) — pensões da Federação Russa são tributadas apenas no país de residência (ou seja, em Portugal) — situação simples',
+              'DTT com a Rússia (convenção de 2000) — em agosto de 2023 a Rússia suspendeu unilateralmente artigos-chave da convenção para países «hostis», incluindo Portugal. A eliminação da dupla tributação ao abrigo da convenção já não está garantida — confirme o regime atual com um consultor fiscal',
               'EUA: as pensões são tributadas em ambos os países, mas FTC + artigo da convenção são coordenados — consulte um especialista'
             ]}
           ]},
@@ -143,7 +143,7 @@ export default {
           '🏊 Piscinas municipais: desconto de 50%',
           '⚡ Tarifa Social Energia: 33% de desconto na electricidade para rendimentos baixos',
           '🏠 Isenção de IMI: para habitação própria permanente, proprietário ≥ 65, rendimento baixo',
-          '💰 Complemento Solidário para Idosos (CSI): complemento até ao rendimento mínimo (565 €/mês 2026) para reformados com baixos rendimentos',
+          '💰 Complemento Solidário para Idosos (CSI): complemento até ao rendimento mínimo (670 €/mês em 2026; valor de referência 8 040 €/ano) para reformados com baixos rendimentos',
           '🍴 Cantinas Sociais: refeições 1,5-3 € para idosos carenciados',
           '📞 Linha do Idoso (760 24 24 24): apoio e informação para idosos',
           '🏥 Apoio Domiciliário: serviços de cuidados ao domicílio através do município / Misericórdias'
@@ -173,13 +173,13 @@ export default {
     { label: 'Pensão pública média', amountEUR: 530, note: '€/mês' },
     { label: 'Contribuição máxima PPR (para dedução de 20%)', amountEUR: 2000, note: '€/ano até 35' },
     { label: 'Dedução IRS em PPR <35', amountEUR: 400, note: '€/ano' },
-    { label: 'Complemento Solidário para Idosos', amountEUR: 565, note: '€/mês de complemento' }
+    { label: 'Complemento Solidário para Idosos', amountEUR: 670, note: '€/mês de complemento em 2026 (8 040 €/ano)' }
   ],
   sources: [
     { title: 'Segurança Social — Pensões', url: 'https://www.seg-social.pt/pensoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ASF — comparação de PPR', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulamento (EC) 883/2004 — coordenação da segurança social da UE', url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32004R0883', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -132,6 +132,6 @@ export default {
     { title: 'CP — Comboios de Portugal, ticket purchase and fares', url: 'https://www.cp.pt/passageiros/pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Rede Expressos — intercity coaches in Portugal', url: 'https://rede-expressos.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

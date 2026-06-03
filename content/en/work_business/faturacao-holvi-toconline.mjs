@@ -57,7 +57,7 @@ export default {
             ] }
           ] },
           { id: 'holvi', title: 'Holvi — bank + invoices, but check fiscal compliance', content: [
-            { kind: 'paragraph', text: 'To put it more strictly: "Holvi can only be considered as a banking/expense tool if your type of business and country of registration are supported by Holvi at all. For a tax document in Portugal, use Portal das Finanças or software which, for that specific product, is listed in the programas de faturação certificados da AT; a Holvi invoice by itself does not replace a fatura/fatura-recibo for AT." But for Portugal the key issue is not the PDF design, but the AT certificate, ATCUD, QR and comunicação à AT.' },
+            { kind: 'paragraph', text: 'Holvi should be treated only as a banking/expense tool — and only if your type of business and country of registration are supported by Holvi at all. For a tax document in Portugal, use Portal das Finanças or software which, for that specific product, is listed in the programas de faturação certificados da AT; a Holvi invoice by itself does not replace a fatura/fatura-recibo for AT. The key issue here is not the PDF design, but the AT certificate, ATCUD, QR and comunicação à AT.' },
             { kind: 'warning', text: 'If the specific Holvi product for your account is not listed in the programas de faturação certificados AT, use Holvi for banking records and reminders, and issue the fiscal invoice/recibo in Portal das Finanças or in certified software.' }
           ] },
           { id: 'visee-faturalia-moloni', title: 'Visee, Faturalia, MOLONI — low-cost PT services', content: [
@@ -65,7 +65,7 @@ export default {
             { kind: 'checklist', items: [
               'Check the AT certificate number on the service website and in the Portal das Finanças list.',
               'Make sure the service supports ATCUD and QR code.',
-              'Clarify: "Check exactly which documents are supported: fatura, recibo, fatura-recibo, nota de crédito. Do not confuse them with the official recibo verde eletrónico in Portal das Finanças; if what you want is specifically emissão de recibos verdes eletrónicos through AT, use Portal das Finanças."',
+              'Check exactly which documents are supported: fatura, recibo, fatura-recibo, nota de crédito. Do not confuse them with the official recibo verde eletrónico in Portal das Finanças; if what you need is specifically emissão de recibos verdes eletrónicos through AT, use Portal das Finanças.',
               'Check support for retenção na fonte for recibos verdes.',
               'Check SAF-T/PT export and automatic comunicação à AT.',
               'Check whether you can give access to a contabilista without sharing your Finanças password.'
@@ -85,7 +85,7 @@ export default {
           'Set up document séries for 2026 and obtain the código de validação for ATCUD.',
           'Choose document types: fatura, recibo, fatura-recibo, nota de crédito.',
           'Set up IVA: normal, isenção art. 53 CIVA, autoliquidação or operações intracomunitárias — according to your situation.',
-          'Set up retenção na fonte: for many B2B services in Portugal it may be 25%, but there are exceptions and dispensa.',
+          'Set up retenção na fonte: since 2025 the standard rate for many professional services is 23% (you can opt for 25%), but there are exceptions and dispensa (for example, with turnover up to €15,000/year).',
           'Check clients: NIF português, EU VAT ID via VIES, address, country.',
           'Create a test document for a small client or as a draft before issuing invoices in bulk.',
           'Give the accountant access to the software or export SAF-T/Excel every month.',
@@ -148,6 +148,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

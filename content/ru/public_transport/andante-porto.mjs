@@ -3,7 +3,7 @@ export default {
   id: 'andante-porto',
   categoryId: 'public_transport',
   title: 'Andante — единая карта Порту: метро, автобус, пригородные поезда',
-  tldr: 'Andante — единый проездной для метро Порту, автобусов STCP и пригородных поездов CP в столичной зоне. Зональная система: чем дальше — тем дороже. Для туристов — Andante Tour на 1/3 дня (7–15 €). Для резидентов — месячный проездной Z2 за 30 €/мес, безлимитный региональный MetroPorto — 40 €/мес. Карту можно купить в автомате метро (Andante Azul = разовая, 0,60 €) или PayShop. Также есть Andante eTransit в приложении.',
+  tldr: 'Andante — единый проездной для метро Порту, автобусов STCP и пригородных поездов CP в столичной зоне. Зональная система: чем дальше — тем дороже. Для туристов — Andante Tour на 1/3 дня (7,75–16,55 €). Для резидентов — месячный проездной Z2 за 30 €/мес, безлимитный региональный MetroPorto — 40 €/мес. Карту можно купить в автомате метро (Andante Azul = для разовых билетов, 0,60 €) или PayShop. Также есть Andante eTransit в приложении.',
   tags: ['andante', 'porto', 'метро', 'автобус', 'stcp', 'проездной'],
   estimatedReadMinutes: 5,
   steps: [
@@ -30,8 +30,8 @@ export default {
             { kind: 'checklist', items: [
               '🟪 Andante Azul — карта за 0,60 € (можно пополнять разовыми билетами)',
               '💰 Разовый Z2: 1,40 € — 1 час в зоне 2',
-              '💰 Andante 24h Tour 1: 7 € — безлимит на сутки в Z4',
-              '💰 Andante 24h Tour 3: 15 € — 3 дня в Z4',
+              '💰 Andante 24h Tour 1: 7,75 € — безлимит на сутки по всей сети',
+              '💰 Andante 24h Tour 3: 16,55 € — 3 дня по всей сети',
               '💰 Andante Tour 24h (Z2): 4,15 € — для тех, кто ездит только по центру',
               '🎟️ Можно купить и сразу отметить у турникета или в автобусе'
             ]}
@@ -79,7 +79,7 @@ export default {
       title: '💡 Советы',
       content: [
         { kind: 'checklist', items: [
-          '🌅 По выходным дешевле: Andante Família на 4 человек = 7,50 € безлимит',
+          '🌅 По выходным дешевле: Andante Família на 4 человека = 7,50 €, безлимит',
           '🚖 Uber/Bolt в Порту иногда дешевле автобуса для 3–4 человек на короткое расстояние (1–2 €/чел)',
           '🛒 Купить Andante Branca (именную) выгоднее в долгосрочной перспективе, если планируете жить здесь',
           '🚲 BUGA — городские велосипеды Порту, бесплатно с залогом',
@@ -92,15 +92,15 @@ export default {
   costs: [
     { label: 'Andante Azul (карта)', amountEUR: 0.60 },
     { label: 'Разовый Z2', amountEUR: 1.40 },
-    { label: 'Andante Tour 24h Z4', amountEUR: 7 },
-    { label: 'Andante Tour 3 дня', amountEUR: 15 },
+    { label: 'Andante Tour 24h', amountEUR: 7.75 },
+    { label: 'Andante Tour 3 дня', amountEUR: 16.55 },
     { label: 'Mensal Z2', amountEUR: 30 },
     { label: 'Mensal MetroPorto (безлимит)', amountEUR: 40 }
   ],
   sources: [
-    { title: 'Metro do Porto — официальный сайт', url: 'https://www.metrodoporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'STCP — Sociedade de Transportes Colectivos do Porto', url: 'https://www.stcp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Metro do Porto — официальный сайт', url: 'https://www.metrodoporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'STCP — Sociedade de Transportes Colectivos do Porto', url: 'https://www.stcp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'rent-dispute-bna-julgados',
   categoryId: 'housing_rent',
   title: 'Dispute with a landlord: DECO, Julgados de Paz, BNA',
-  tldr: 'In Portugal, a dispute with a landlord is best handled step by step: written complaint → DECO/mediation → Julgados de Paz, if the amount is up to €15,000 and it is not an eviction → court. Write: "BNA is not a complaints service. Tenants most often encounter it through Procedimento Especial de Despejo, but BNA also provides Injunção em Matéria de Arrendamento for specific tenant/landlord claims provided for by law. For an ordinary complaint about a deposit or a domestic conflict, this is not a universal route." If you have received a BNA notice, deadlines are short: usually 15 days for oposição, so it is best to go to a lawyer immediately.',
+  tldr: 'In Portugal, a dispute with a landlord is best handled step by step: written complaint → DECO/mediation → Julgados de Paz, if the amount is up to €15,000 and it is not an eviction → court. BNA is not a complaints service: tenants most often encounter it through Procedimento Especial de Despejo, but BNA also provides Injunção em Matéria de Arrendamento for specific tenant or landlord claims provided for by law. For an ordinary complaint about a deposit or a domestic conflict, this is not a universal route. If you have received a BNA notice, deadlines are short: usually 15 days for oposição, so it is best to go to a lawyer immediately.',
   tags: ['rent', 'bna', 'julgados', 'deco'],
   estimatedReadMinutes: 6,
   steps: [
@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'Deposit not being returned — first a written demand, then DECO/mediation or Julgados de Paz, if the amount is up to €15,000.',
           'Landlord is not carrying out urgent repairs — written notice with a prazo, then Julgados de Paz or Tribunal Judicial; if there is a health risk, also Câmara Municipal.',
-          'Replace with the official 2026 coefficient, e.g. write: "for the ordinary annual atualização in 2026, use the official 2026 coefficient published by INE/Diário da República; do not confuse it with 2.16% for 2025" and insert the exact published 2026 percentage from the INE Aviso.',
+          'Unlawful rent increase — for the ordinary annual atualização in 2026, use the official 2026 coefficient (1.0224, i.e. 2.24%) published by INE in the Diário da República; do not confuse it with 2.16% for 2025. The coefficient changes every year, so check the INE Aviso for the relevant year.',
           'Landlord enters without permission — written prohibition; in case of threats or forced entry, call PSP/GNR.',
           'Notice of termination of the contract — check the form, deadline and grounds; do not move out solely because of a verbal request.',
           'You have received a letter from BNA or an agente de execução — this is already an eviction procedure; deadlines are short, and oposição through a lawyer is needed.',
@@ -37,7 +37,7 @@ export default {
           'Set a reasonable deadline: 5–10 working days for a reply, less only in an emergency.',
           'For repairs, state separately whether the defect prevents normal living or creates a health risk.',
           'For the deposit, ask for an itemised breakdown of deductions and copies of repair invoices.',
-          'Replace 2.16% with the official 2026 coefficient and add that the percentage changes every year and must be checked against the INE/Diário da República Aviso for that year.',
+          'For a rent increase, refer to the official 2026 coefficient (1.0224, i.e. 2.24%) rather than the 2.16% for 2025; remember that the percentage changes every year and must be checked against the INE/Diário da República Aviso for that year.',
           'Save proof of delivery, screenshots and outgoing files as PDFs.'
         ] },
         { kind: 'paragraph', text: 'The wording should be calm: the aim is to show that you gave the landlord a chance to correct the breach. This will be useful at DECO, Julgados de Paz or in court.' }
@@ -82,9 +82,9 @@ export default {
       id: 'bna-eviction',
       title: 'Step 4 — BNA: if it is already about eviction',
       content: [
-        { kind: 'paragraph', text: 'Change to: "BNA — Balcão Nacional do Arrendamento. This is an electronic channel of the Ministério da Justiça primarily for Procedimento Especial de Despejo, and also for Injunção em Matéria de Arrendamento in special cases. It is not a general tenant protection service and not a place for an ordinary ‘complaint’." It is usually used by a landlord who wants to terminate the contract and recover the imóvel: for example, because of non-payment of renda, expiry of the contract or valid termination.' },
+        { kind: 'paragraph', text: 'BNA — Balcão Nacional do Arrendamento. This is an electronic channel of the Ministério da Justiça primarily for Procedimento Especial de Despejo, and also for Injunção em Matéria de Arrendamento in special cases. It is not a general tenant protection service and not a place for an ordinary “complaint”. It is usually used by a landlord who wants to terminate the contract and recover the imóvel: for example, because of non-payment of renda, expiry of the contract or valid termination.' },
         { kind: 'checklist', items: [
-          'Clarify: "For Procedimento Especial de Despejo, formal grounds and documents are needed: a written contract, notices, evidence of debt or termination of the contract. For Injunção em Matéria de Arrendamento, separate grounds and evidence apply, for example for certain housing defects/risks."',
+          'For Procedimento Especial de Despejo, formal grounds and documents are needed: a written contract, notices, evidence of debt or termination of the contract. For Injunção em Matéria de Arrendamento, separate grounds and evidence apply, for example for certain housing defects or risks.',
           'If the landlord has not registered the contract with Finanças, this may complicate the procedure for them, but it does not always “save” the tenant.',
           'After notification, the tenant usually has 15 days for oposição; silence may lead to emissão de título de desocupação.',
           'Oposição must be legally substantiated: incorrect notice, debt already paid, wrong amount, invalid termination, breach of deadlines.',
@@ -127,6 +127,6 @@ export default {
     { title: 'Lei 78/2001 — organisation, jurisdiction and functioning of Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34480075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 6/2006 — Novo Regime do Arrendamento Urbano and lease termination procedures', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34515375', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

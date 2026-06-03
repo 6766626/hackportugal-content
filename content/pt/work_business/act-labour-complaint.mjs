@@ -33,7 +33,7 @@ export default {
           'Os seus dados: nome, NIF, NISS se tiver, telefone, email, morada.',
           'Dados do empregador: nome da empresa, NIPC/NIF, morada da sede e morada do local de trabalho, nome do gerente/chefe.',
           'Contrato de trabalho ou provas de trabalho sem contrato: mensagens, turnos, badges, acessos, fotografias de uniforme, escalas.',
-          'Recibos de vencimento, extractos bancários, comprovativos de transferência, mensagens sobre atrasos no pagamento.',
+          'Recibos de vencimento, extratos bancários, comprovativos de transferência, mensagens sobre atrasos no pagamento.',
           'Registo de ponto/horário, registos de turnos, WhatsApp/Slack/Email com pedidos para trabalhar ao fim de semana ou fazer horas extra.',
           'Carta de despedimento, comunicação de despedimento, acordo de revogação, aviso prévio, quaisquer documentos que lhe tenham pedido para assinar.',
           'Provas de condições inseguras: fotografias, vídeos, testemunhas, ausência de EPI, ausência de formação, acidentes, relatório médico.',
@@ -63,7 +63,7 @@ export default {
             ] }
           ] },
           { id: 'write-facts', title: '3. Descreva os factos segundo o esquema “quem-o quê-quando-onde”', content: [
-            { kind: 'paragraph', text: 'Exemplo: “Trabalho no Restaurante X, Rua Y, Lisboa, desde 03.02.2026. Não me foi entregue contrato. Foi prometido verbalmente um salário líquido de 920 €, mas em março de 2026 não foram pagos 920 €. Trabalhei 6 dias por semana, 10 horas por dia, e não há recibos de vencimento.\n\nOs documentos e a correspondência seguem em anexo”.' }
+            { kind: 'paragraph', text: 'Exemplo: “Trabalho no Restaurante X, Rua Y, Lisboa, desde 03.02.2026. Não me foi entregue contrato. Foi prometido verbalmente um salário de 920 € brutos, mas em março de 2026 não foi pago nada. Trabalhei 6 dias por semana, 10 horas por dia, e não há recibos de vencimento.\n\nOs documentos e a correspondência seguem em anexo”.' }
           ] },
           { id: 'attach-files', title: '4. Anexe ficheiros e envie', content: [
             { kind: 'paragraph', text: 'Carregue PDF/JPG/PNG: contrato, recibos, extratos bancários, correspondência, fotografias das condições de trabalho. Guarde o comprovativo/número do pedido.' }
@@ -97,7 +97,7 @@ export default {
         { kind: 'checklist', items: [
           'Falta de pagamento do salário: reclame salário, subsídio de férias, subsídio de Natal, férias não gozadas, horas extra, juros de mora.',
           'Despedimento: verifique o tipo — despedimento disciplinar, coletivo, extinção do posto de trabalho, inadaptação, caducidade, revogação.',
-          'Impugnação do despedimento: referência — 60 dias a contar da receção da decisão/data do despedimento, nos termos do Código do Trabalho art. 387; não deixe passar o prazo.',
+          'Impugnação do despedimento: para a maioria dos despedimentos individuais (disciplinar, extinção do posto de trabalho, inadaptação) o prazo é curto — 60 dias a contar da receção da decisão escrita, nos termos do Código do Trabalho art. 387. Para o despedimento coletivo aplica-se um prazo distinto de 6 meses a contar da cessação do contrato, nos termos do art. 388. A revogação e a caducidade impugnam-se segundo regras diferentes — mostre os documentos a um advogado com urgência.',
           'Após a cessação do contrato, os créditos laborais são normalmente reclamados no prazo de 1 ano nos termos do art. 337 Código do Trabalho.',
           'No tribunal do trabalho realiza-se uma tentativa de conciliação/audiência de partes: o juiz tenta reconciliar as partes antes da continuação do processo.',
           'Se houver acordo, este é registado em auto e torna-se executório.',
@@ -117,7 +117,7 @@ export default {
           'Se o empregador ameaçar “cancelar o visto”, registe as ameaças por escrito. O empregador não é a AIMA.',
           'Peça contrato de trabalho e recibos de vencimento: são importantes para a autorização de residência, NISS, IRS e Segurança Social.',
           'Se foi enquadrado como recibos verdes, mas na prática está subordinado como trabalhador, isto pode ser falso trabalho independente.',
-          'O salário mínimo mensal SMN em Portugal continental em 2026 é de 920 €; não é permitido pagar abaixo da taxa integral por trabalho a tempo completo, exceto em regimes legais especiais.',
+          'O salário mínimo mensal SMN em Portugal continental em 2026 é de 920 € brutos (antes de descontos) por trabalho a tempo completo; o que chega à conta depois do desconto para a Segurança Social é normalmente inferior (cerca de 818 € líquidos). Não é permitido pagar abaixo desta taxa por trabalho a tempo completo, exceto em regimes legais especiais.',
           'Guarde as provas no seu email/nuvem pessoal, e não apenas na conta de trabalho.',
           'Se o seu português for fraco, escreva a queixa em frases simples; pode anexar documentos em inglês/russo, mas é melhor apresentar os factos essenciais em português.'
         ] },
@@ -160,6 +160,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

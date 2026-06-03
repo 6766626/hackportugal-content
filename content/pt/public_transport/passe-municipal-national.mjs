@@ -2,18 +2,18 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'passe-municipal-national',
   categoryId: 'public_transport',
-  title: 'Passe Metropolitano e desconto nacional de 40 €/mês',
-  tldr: 'Desde 2024 está em vigor o enquadramento nacional do Decreto-Lei 1-A/2024: os passes mensais de transporte público são financiados pelo Estado através do sistema passes.pt, com limite/apoio nacional até 40 €/mês e passes metropolitanos separados de cerca de 20 €/mês nas zonas aplicáveis. Não é um bilhete universal único para tudo: as regras dependem da AML, AMP, CIM/município, operador e tipo de viagens. Em 2026, compre através do cartão local: Navegante, Andante, passe CP/municipal.',
+  title: 'Passes mensais em Portugal: Navegante, Andante, passe municipal/metropolitano e o passe ferroviário nacional da CP',
+  tldr: 'Não existe um bilhete universal único para tudo em Portugal. O preço depende do território e do operador. Nas áreas metropolitanas há apoio do Estado ao abrigo do programa PART: passe municipal (um concelho) de cerca de 30 €/mês e passe metropolitano (toda a área metropolitana) de cerca de 40 €/mês — por exemplo Navegante em Lisboa e Andante no Porto. À parte, existem passes ferroviários nacionais da CP: o Passe Ferroviário Verde a 20 € por 30 dias (comboios regionais/inter-regionais + Intercidades em 2.ª classe, ao abrigo do Decreto-Lei 73/2024) e o Passe Ferroviário Nacional a 49 €/mês para todos os comboios regionais. Em 2026, compre através do cartão local: Navegante, Andante ou Cartão CP.',
   tags: ['passe', 'transporte', 'metro', 'cp'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'what-it-is',
-      title: 'O que mudou: o limite não é “um bilhete para todo o país”',
+      title: 'Como funcionam os passes: não há “um bilhete para todo o país”',
       content: [
-        { kind: 'paragraph', text: 'O Decreto-Lei 1-A/2024 fixou o financiamento nacional dos passes mensais e dos descontos no transporte público.\n\nNa prática, isto funciona através de sistemas locais: Área Metropolitana de Lisboa, Área Metropolitana do Porto, CIM, municípios e operadores como CP, Carris, Metro Lisboa, STCP, Fertagus, Transtejo/Soflusa.' },
-        { kind: 'paragraph', text: 'A ideia principal para o utilizador em 2026: o passe mensal deve enquadrar-se no apoio nacional — até 20 €/mês para o formato metropolitano/municipal aplicável e até 40 €/mês para uma combinação nacional/inter-regional mais ampla, se estiver disponível na sua zona. Mas o nome, a cobertura e a forma de compra diferem consoante a região.' },
-        { kind: 'warning', text: 'Não confunda com bilhetes ocasionais, cartões turísticos e comboios CP Alfa Pendular/Intercidades. O apoio nacional ao abrigo do DL 1-A/2024 não significa que qualquer comboio ou autocarro do país esteja automaticamente incluído num único passe de 40 €.' }
+        { kind: 'paragraph', text: 'Os passes mensais em Portugal são subsidiados pelo Estado através do programa PART (Programa de Apoio à Redução Tarifária), mas não existe um bilhete único que cubra todo o transporte do país.\n\nNa prática, isto funciona através de sistemas locais: Área Metropolitana de Lisboa, Área Metropolitana do Porto, CIM, municípios e operadores como CP, Carris, Metro Lisboa, STCP, Fertagus, Transtejo/Soflusa.' },
+        { kind: 'paragraph', text: 'O essencial a perceber em 2026: o preço e a cobertura dependem do território. Nas áreas metropolitanas há dois níveis básicos — passe municipal num só concelho (cerca de 30 €/mês) e passe metropolitano para toda a área metropolitana (cerca de 40 €/mês). Os passes ferroviários nacionais da CP funcionam à parte destes. O nome e o preço exato variam consoante a região.' },
+        { kind: 'warning', text: 'Não confunda o passe metropolitano de 40 € com os passes ferroviários nacionais da CP. O Passe Ferroviário Verde (20 € por 30 dias) e o Passe Ferroviário Nacional (49 €/mês) cobrem comboios regionais da CP, mas não dão acesso automático ao Alfa Pendular, à totalidade do serviço Intercidades ou ao transporte urbano metropolitano. Um único passe de 40 € significa uma área metropolitana, não o país inteiro.' }
       ]
     },
     {
@@ -53,15 +53,15 @@ export default {
     },
     {
       id: 'where-to-check',
-      title: '3. Confirme o direito aos 20 €/40 € através do passe.pt',
+      title: '3. Compare os passes municipal, metropolitano e nacional',
       content: [
-        { kind: 'paragraph', text: 'O passe.pt é o ponto nacional de entrada para informação sobre passes apoiados. Aí confirmam-se o tipo de passe, a região, o operador e o desconto aplicável. Em 2026, esta é a forma mais segura de não pagar a mais por uma opção local quando existe uma opção metropolitana ou nacional.' },
+        { kind: 'paragraph', text: 'Confirme as condições nos sites dos operadores: navegante.pt para Lisboa, linhandante.com para o Porto, cp.pt para os passes ferroviários. Aí vê o tipo de passe, a região, as zonas e o preço. Em 2026, esta é a forma mais segura de não pagar a mais por cobertura desnecessária e de não comprar um passe demasiado estreito.' },
         { kind: 'checklist', items: [
-          'Abra o passe.pt e escolha a região ou o tipo de passe',
-          'Compare as opções municipal, metropolitana e intermunicipal',
-          'Confirme se as suas estações CP ou linhas de autocarro estão incluídas',
-          'Confirme se o limite de 20 €/mês ou 40 €/mês se aplica especificamente ao seu perfil',
-          'Veja as exceções: expressos, longa distância, turísticos, shuttle de aeroporto',
+          'Abra o site do operador relevante e escolha a região ou o tipo de passe',
+          'Compare o passe municipal (um concelho, cerca de 30 €) e o passe metropolitano (toda a área metropolitana, cerca de 40 €)',
+          'Confirme se as suas estações CP ou linhas de autocarro estão incluídas no passe escolhido',
+          'Se viaja entre regiões de comboio, compare o Passe Ferroviário Verde (20 €/30 dias) e o Passe Ferroviário Nacional (49 €/mês)',
+          'Veja as exceções: expressos, longa distância, bilhetes turísticos, shuttle de aeroporto',
           'Guarde o PDF/captura de ecrã com as condições para o caso de haver disputa na bilheteira',
           'Se o operador recusar, peça a ligação para a tabela tarifária de 2026',
           'Ao mudar-se para outro concelho, faça um novo passe — o antigo pode deixar de ser a opção ideal'
@@ -100,21 +100,23 @@ export default {
           'Depois de carregar através de Multibanco, por vezes é necessária ativação num validador/terminal',
           'Em caso de multa, peça o auto de notícia e as instruções para reclamação'
         ] },
-        { kind: 'warning', text: 'Os fiscais normalmente não aceitam o argumento “pensei que o limite nacional de 40 € cobria tudo”. A cobertura é determinada pelo passe concreto e pelas zonas, não pelo valor geral do apoio previsto na lei.' }
+        { kind: 'warning', text: 'Os fiscais normalmente não aceitam o argumento “pensei que o meu passe cobria tudo”. A cobertura é determinada pelo passe concreto e pelas zonas: um passe metropolitano não é válido em comboios nacionais fora das suas zonas, e um passe ferroviário não cobre o transporte urbano metropolitano.' }
       ]
     }
   ],
   costs: [
-    { label: 'Passe metropolitano/municipal com apoio nacional aplicável', amountEUR: 20, note: 'Referência ao abrigo do DL 1-A/2024 para zonas aplicáveis; o nome e a cobertura reais dependem da região.' },
-    { label: 'Limite/apoio mensal nacional/inter-regional', amountEUR: 40, note: 'Enquadramento nacional de apoio; não garante acesso a todos os comboios de longo curso ou autocarros expresso privados.' },
-    { label: 'Emissão de cartão personalizado', amountEURMin: 3, amountEURMax: 12, note: 'Depende do sistema: Navegante, Andante, CP ou cartão municipal; a emissão urgente costuma ser mais cara.' }
+    { label: 'Passe municipal (um concelho) — por exemplo Navegante Municipal', amountEUR: 30, note: 'Referência ao abrigo do programa PART para as áreas metropolitanas; em Lisboa o Navegante Municipal é 30 €/mês. O preço e o nome exatos dependem da região.' },
+    { label: 'Passe metropolitano (toda a área metropolitana) — por exemplo Navegante Metropolitano', amountEUR: 40, note: 'Referência ao abrigo do programa PART; em Lisboa o Navegante Metropolitano é 40 €/mês, com equivalente Andante no Porto. É uma área metropolitana, não o país inteiro.' },
+    { label: 'Passe Ferroviário Verde (CP, 30 dias)', amountEUR: 20, note: 'Comboios regionais/inter-regionais + Intercidades em 2.ª classe, ao abrigo do Decreto-Lei 73/2024; requer Cartão CP.' },
+    { label: 'Passe Ferroviário Nacional (CP, mês)', amountEUR: 49, note: 'Todos os comboios regionais da CP no país; não é válido no Alfa Pendular, Intercidades ou transporte urbano metropolitano.' },
+    { label: 'Emissão de cartão personalizado', amountEURMin: 3, amountEURMax: 12, note: 'Depende do sistema: Navegante, Andante, CP ou cartão municipal; o Cartão CP custa 6 € (3 € para estudantes).' }
   ],
   sources: [
-    { title: 'Decreto-Lei 1-A/2024 — base jurídica nacional de apoio aos passes', url: 'https://dre.pt/dre/detalhe/decreto-lei/1-a-2024', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'passe.pt — portal nacional de passes e descontos', url: 'https://www.passe.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Navegante — tarifas e cartões da Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Andante — tarifas e zonas da Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Decreto-Lei n.º 73/2024 — Passe Ferroviário Verde', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/73-2024-891541243', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'CP — Passe Ferroviário Nacional', url: 'https://www.cp.pt/passageiros/pt/descontos-vantagens/descontos/ferroviario-nacional', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Navegante — tarifas e cartões da Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Andante — tarifas e zonas da Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

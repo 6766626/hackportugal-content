@@ -57,7 +57,7 @@ export default {
           'O empregador pode verificar o documento através de código',
           'Não é um CIT emitido por médico',
           'A Segurança Social não paga subsídio de doença por esta autodeclaração',
-          'Se a doença continuar, é necessário médico e CIT a partir do 4.º dia ou da data efectiva que o médico justifique'
+          'Se a doença continuar após a autodeclaração, é necessário médico e CIT para o período seguinte; os primeiros 3 dias costumam ficar sem pagamento, e a data de início do CIT é definida pelo médico por critério clínico, não a pedido do trabalhador'
         ] },
         { kind: 'warning', text: 'Não confunda: “justificar a ausência” e “receber subsídio” são coisas diferentes. A autodeclaração SNS24 resolve a questão disciplinar no trabalho, mas não cria direito a dinheiro da Segurança Social.' }
       ]
@@ -66,13 +66,14 @@ export default {
       id: 'payment-rules',
       title: 'Quanto se recebe e a partir de que dia',
       content: [
-        { kind: 'paragraph', text: 'O valor é calculado a partir da remuneração de referência — a base diária apurada com base nos salários registados na Segurança Social. De forma simplificada: consideram-se as remunerações dos primeiros 6 meses dos 8 meses anteriores ao mês de início da doença e divide-se por 180. Os subsídios de férias/Natal podem ser considerados segundo regras especiais, pelo que a base efectiva na Segurança Social pode diferir do seu “salário líquido”.' },
+        { kind: 'paragraph', text: 'O valor é calculado a partir da remuneração de referência — a base diária apurada com base nas remunerações registadas na Segurança Social. De forma simplificada: consideram-se as remunerações dos primeiros 6 dos 8 meses anteriores ao mês de início da doença e divide-se por 180. Os subsídios de férias e de Natal, em regra, não entram neste cálculo, pelo que a base na Segurança Social costuma ser inferior ao seu salário mensal e ainda mais ao salário líquido.' },
         { kind: 'checklist', items: [
           'Até 30 dias de doença: 55% da remuneração de referência',
           'Do 31.º ao 90.º dia: 60%',
           'Do 91.º ao 365.º dia: 70%',
           'A partir do 366.º dia: 75%',
-          'Em caso de base baixa ou existência de 3+ filhos/filho com deficiência, as primeiras taxas podem aumentar 5 p.p. nas condições da Segurança Social',
+          'Apenas as taxas de 55% e 60% podem subir para 60% e 65%: se a remuneração de referência for ≤ 500 €, ou o agregado tiver 3+ filhos até aos 16 anos (ou até 24 com abono de família), ou um filho com bonificação por deficiência. Às taxas de 70% e 75% não se aplica',
+          'Há um mínimo e um limite: o subsídio diário não é inferior a 30% do IAS diário (cerca de 5,37 € por dia em 2026), mas não pode exceder a remuneração de referência líquida; confirme o valor exacto na Segurança Social Direta',
           'Para trabalhador por conta de outrem, o período de espera normal é de 3 dias: o pagamento começa no 4.º dia',
           'Desde o 1.º dia há pagamento em caso de internamento hospitalar, cirurgia de ambulatório, tuberculose e em algumas situações ligadas à parentalidade',
           'A duração máxima para trabalhador por conta de outrem é normalmente 1095 dias; em caso de tuberculose aplica-se um regime especial'
@@ -92,7 +93,7 @@ export default {
           'Comunique a doença ao empregador o mais cedo possível: email, portal de RH, Slack/Teams — conforme o procedimento da empresa',
           'Se o médico prolongar a baixa, confirme que o novo CIT não tem intervalo entre datas',
           'Se o processo não aparecer na Segurança Social Direta após alguns dias, ligue para a Segurança Social ou confirme junto do médico se o CIT foi enviado',
-          'Não trabalhe durante a baixa se o CIT proibir trabalho: isso pode levar à devolução do subsídio e a problemas com o empregador',
+          'Durante a baixa paga não trabalhe, incluindo trabalho remoto e freelance: o CIT atesta a incapacidade, não autoriza trabalhar a partir de casa. O incumprimento pode levar à devolução do subsídio e a consequências disciplinares',
           'Se adoeceu durante férias, esclareça rapidamente com RH as regras para adiar as férias: é necessário documento médico e cumprimento do procedimento'
         ] },
         { kind: 'paragraph', text: 'O dinheiro chega normalmente por transferência bancária da Segurança Social. Os prazos dependem da rapidez com que o CIT entrou no sistema, de ter um IBAN confirmado e de não existirem divergências nas contribuições do empregador.' }
@@ -117,7 +118,7 @@ export default {
   ],
   costs: [
     { label: 'Autodeclaração de doença através do SNS24', amountEUR: 0, note: 'Gratuita, até 3 dias, no máximo 2 vezes por ano; normalmente sem pagamento de subsídio de doença' },
-    { label: 'Consulta no SNS para obter CIT', amountEUR: 0, note: 'No SNS, as taxas moderadoras para a maioria dos cuidados primários foram abolidas; uma consulta privada é paga de acordo com o tarifário da clínica/seguro' },
+    { label: 'Consulta no SNS para obter CIT', amountEUR: 0, note: 'Nos cuidados de saúde primários do SNS (centro de saúde) costuma ser gratuito; a urgência hospitalar pode ter taxa moderadora sem referenciação; uma consulta privada é paga de acordo com o tarifário da clínica/seguro' },
     { label: 'Salário mínimo SMN 2026', amountEUR: 920, note: 'Referência para salários; o subsídio é calculado não a partir do SMN, mas da remuneração de referência registada' },
     { label: 'IAS 2026', amountEUR: 537.13, note: 'Indicador de apoios sociais; é usado em vários limites e regras mínimas da Segurança Social' }
   ],
@@ -126,6 +127,6 @@ export default {
     { title: 'SNS24 — portal de serviços de saúde e autodeclaração de doença', url: 'https://www.sns24.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do Trabalho — faltas justificadas por doença', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -3,7 +3,7 @@ export default {
   id: 'natural-pools-beaches',
   categoryId: 'travel_portugal',
   title: 'Natural pools and the best beaches in Portugal',
-  tldr: 'Portugal has more than 850 beaches and many piscinas naturais — natural pools in rocks by the ocean. Top picks: Azenhas do Mar (Sintra), Cabo Mondego (Figueira), Nossa Senhora da Guia (Cascais), cave beaches in Alentejo (Zambujeira).\n\nBlue Flags 2025: more than 370 beaches. Free municipal pools are available in most Junta. Warmest: Algarve (22-24°C in summer), Madeira (21-23°C all year round).\n\nColder: the northern Atlantic coast (17-20°C).',
+  tldr: 'Portugal has more than 850 beaches and many piscinas naturais — natural pools in rocks by the ocean. Top picks: Azenhas do Mar (Sintra), Cabo Mondego (Figueira), Nossa Senhora da Guia (Cascais), cave beaches in Alentejo (Zambujeira).\n\nBlue Flags 2025: more than 400 beaches. Free municipal pools are available in most Junta. Warmest: Algarve (22-24°C in summer), Madeira (21-23°C all year round).\n\nColder: the northern Atlantic coast (17-20°C).',
   tags: ['beaches', 'pools', 'natural pools', 'summer'],
   estimatedReadMinutes: 7,
   steps: [
@@ -53,7 +53,7 @@ export default {
       id: 'blue-flag-2025',
       title: '🔵 Blue Flag — top 2025',
       content: [
-        { kind: 'paragraph', text: 'Bandeira Azul is an international environmental certification by FEE. In 2025 — more than 370 beaches and marinas in Portugal. Criteria: clean water, sanitary infrastructure, safety, environmental education.' },
+        { kind: 'paragraph', text: 'Bandeira Azul is an international environmental certification by FEE. In 2025 — more than 400 beaches and marinas in Portugal. Criteria: clean water, sanitary infrastructure, safety, environmental education.' },
         { kind: 'substeps', items: [
           { id: 'b1', title: 'Top beaches by region (2025)', content: [
             { kind: 'checklist', items: [
@@ -107,7 +107,7 @@ export default {
           '⛱️ Equipped areas (standard): paid, sunbed + umbrella €15-25/day',
           '🏖️ Sun: the summer sun in PT is very strong — SPF 50 is essential from 11:00 to 17:00',
           '💧 Jellyfish (alforreca): sometimes in season, the lifeguard will notify you',
-          '🚫 Naturist beaches: legal on 21 beaches — sign “praia naturista”. Do not confuse with ordinary beaches',
+          '🚫 Naturist beaches: 9 official beaches — sign “praia naturista” (plus several where nudism is tolerated). Do not confuse with ordinary beaches',
           '🐕 Dogs: prohibited 15 June - 30 September on all Blue Flag beaches; there are separate dog-friendly beaches'
         ]}
       ]
@@ -132,8 +132,8 @@ export default {
   sources: [
     { title: 'APA — Água Balnear (water quality)', url: 'https://www.apambiente.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Portugal — Praias', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ABAE — Bandeira Azul Portugal', url: 'https://bandeiraazul.abae.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ABAAE — Bandeira Azul Portugal', url: 'https://bandeiraazul.abaae.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

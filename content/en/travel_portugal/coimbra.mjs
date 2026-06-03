@@ -3,7 +3,7 @@ export default {
   id: 'coimbra',
   categoryId: 'travel_portugal',
   title: 'Coimbra — Portugal’s oldest university',
-  tldr: 'Coimbra is a university city in the centre of the country, 1 hour from Lisbon or Porto by train. Universidade de Coimbra (UNESCO, 1290) with the legendary Biblioteca Joanina. An ancient academic atmosphere, the male version of fado. 1 day is enough.',
+  tldr: 'Coimbra is a university city in the centre of the country, 1–2 hours from Lisbon or Porto by train. Universidade de Coimbra (UNESCO, 1290) with the legendary Biblioteca Joanina. An ancient academic atmosphere, the male version of fado. 1 day is enough.',
   tags: ['coimbra', 'university', 'day trip'],
   estimatedReadMinutes: 6,
   steps: [
@@ -68,7 +68,7 @@ export default {
       title: 'Nearby',
       content: [
         { kind: 'checklist', items: [
-          '🏛️ Conímbriga (15 km) — ruins of Portugal’s largest Roman city, 2nd century BC. Mosaics, forum, baths. €5',
+          '🏛️ Conímbriga (15 km) — ruins of Portugal’s best-preserved Roman city (1st–3rd centuries AD). Mosaics, forum, baths. €5',
           '🌲 Serra da Lousã (30 km) — mountains with schist villages (Talasnal, Candal, Cerdeira)',
           '⛰️ Penela (30 km) — 12th-century medieval castle',
           '🏖️ Figueira da Foz (45 km) — beach resort on the ocean',
@@ -96,6 +96,6 @@ export default {
     { title: 'Turismo de Coimbra — municipal tourism', url: 'https://www.visitportugal.com/en/node/73754', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo do Centro — region', url: 'https://www.turismodocentro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

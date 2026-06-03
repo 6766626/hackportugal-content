@@ -134,6 +134,6 @@ export default {
     { title: 'NOS — Prepaid mobile tariffs', url: 'https://www.nos.pt/movel/tarifarios-movel/tarifarios-movel-pre-pagos', kind: 'company', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Vodafone Portugal: prepaid tariffs and eSIM', url: 'https://www.vodafone.pt/telemoveis/tarifarios.html', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

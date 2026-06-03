@@ -22,11 +22,11 @@ export default {
             ]}
           ]},
           { id: 't2', title: '🏰 Belmonte — Cabral’s birthplace', content: [
-            { kind: 'paragraph', text: 'The village of Pedro Álvares Cabral — the discoverer of Brazil (1500). Jewish heritage — the largest surviving Sephardic community in Europe.' },
+            { kind: 'paragraph', text: 'The village of Pedro Álvares Cabral — the discoverer of Brazil (1500). Jewish heritage: one of Europe’s last crypto-Jewish communities — descendants of Sephardic Marranos who secretly kept their faith for around 500 years.' },
             { kind: 'checklist', items: [
               'Castelo de Belmonte — you can go inside',
               'Museu Judaico — free, with explanations',
-              'Oliva Museum (olive oil) — tastings',
+              'Museu do Azeite (olive oil museum) — tastings',
               'Nearby: 1 hour to Serra da Estrela (ski resort in winter)'
             ]}
           ]},
@@ -109,6 +109,6 @@ export default {
     { title: 'Aldeias Históricas de Portugal', url: 'https://aldeiashistoricasdeportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Aldeias Históricas', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

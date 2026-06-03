@@ -121,6 +121,6 @@ export default {
     { title: 'Rota dos Vinhos do Alentejo — rotas e produtores', url: 'https://www.vinhosdoalentejo.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Vitivinícola Regional do Tejo — Vinhos do Tejo', url: 'https://www.vinhosdotejo.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

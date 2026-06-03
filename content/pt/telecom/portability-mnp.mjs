@@ -3,7 +3,7 @@ export default {
   id: 'portability-mnp',
   categoryId: 'telecom',
   title: 'Portabilidade de número (MNP) entre operadores',
-  tldr: 'A portabilidade de número entre operadores portugueses ao abrigo do DL 56/2010 é GRATUITA, demora 1 dia útil e é feita através de pedido junto do novo operador (é ele que comunica com o antigo)\.\n\nPara obter o Código de Validação da Portabilidade (CVP): SMS com o texto «CVP» para o número curto 1696 a partir do SIM antigo (para números móveis)\.\n\nO comando padrão dos operadores portugueses é precisamente «CVP», não «PORT». A portabilidade NÃO anula a fidelização no operador antigo — se houver penalização, terá de ser paga.',
+  tldr: 'A portabilidade de número entre operadores portugueses (Lei das Comunicações Eletrónicas n.º 16/2022 + Regulamento da Portabilidade n.º 38/2025) é GRATUITA, demora no máximo 1 dia útil e é feita através de pedido junto do novo operador (é ele que comunica com o antigo)\.\n\nPara portar o número precisa do Código de Validação da Portabilidade (CVP) — um código de 12 dígitos. Nos números móveis pode obtê-lo por SMS com o texto «CVP» para o número curto do seu próprio operador (varia consoante o operador: MEO 16200, Vodafone 12815, NOS 1242); nos tarifários pós-pagos vem impresso na fatura\.\n\nA portabilidade NÃO anula a fidelização no operador antigo — se houver penalização, terá de ser paga.',
   tags: ['portabilidade de número', 'mnp', 'mudança de operador', 'código de portabilidade'],
   estimatedReadMinutes: 4,
   steps: [
@@ -11,7 +11,7 @@ export default {
       id: 'how-it-works',
       title: '🔄 Como funciona a MNP',
       content: [
-        { kind: 'paragraph', text: 'A MNP (Mobile Number Portability) é garantida por lei pelo DL 56/2010 — cada utilizador tem o direito de portar o número ao mudar de operador, sem o perder. O serviço é gratuito. NÃO é necessário ir a uma loja do operador antigo.' },
+        { kind: 'paragraph', text: 'O direito de portar o número (MNP, Mobile Number Portability) ao mudar de operador é garantido por lei — a Lei das Comunicações Eletrónicas (Lei n.º 16/2022); o procedimento é detalhado no Regulamento da Portabilidade n.º 38/2025 (em vigor desde 10 de novembro de 2025). O serviço é gratuito. NÃO é necessário ir a uma loja do operador antigo.' },
         { kind: 'checklist', items: [
           '📅 Prazo da portabilidade: 1 dia útil (por lei — no máximo 1 dia útil após o consentimento)',
           '💰 Custo: 0 €',
@@ -26,12 +26,12 @@ export default {
       title: '📋 Passo a passo',
       content: [
         { kind: 'substeps', items: [
-          { id: 'p1', title: '1. Obter o código de portabilidade junto do operador antigo', content: [
+          { id: 'p1', title: '1. Obter o código de portabilidade (CVP) junto do operador antigo', content: [
             { kind: 'checklist', items: [
-              '📲 SMS «CVP» para o número 1696 a partir do SIM antigo (Código de Validação da Portabilidade — comando padrão dos operadores portugueses)',
-              '🕒 Receberá o código de portabilidade por SMS no prazo de 1 hora',
-              '⚠️ O código é válido durante 30 dias',
-              '💡 Alternativa: ligar para o apoio ao cliente do operador antigo e pedir para registar o pedido de portabilidade do número'
+              '📲 Nos móveis: SMS com o texto «CVP» a partir do SIM antigo para o número curto do SEU operador — não há um número único, varia consoante o operador: MEO — 16200, Vodafone — 12815, NOS — 1242 (NOWO — 928190785)',
+              '🧾 Nos tarifários pós-pagos o CVP vem impresso na fatura mensal; nos pré-pagos o operador envia-o por SMS no prazo de 24 horas após a ativação',
+              '🔢 O CVP é um código de 12 dígitos; tem de o indicar ao novo operador ao pedir a portabilidade',
+              '💡 Alternativa: solicitar o CVP na área de cliente, pela linha de apoio ou numa loja do operador'
             ]}
           ]},
           { id: 'p2', title: '2. Apresentar o pedido junto do novo operador', content: [
@@ -72,7 +72,7 @@ export default {
           '🛑 A portabilidade ocorre no prazo de 1 dia útil — mas o operador pode «arrastar» o processo por 2–3 dias. Por lei, pode reclamar à ANACOM',
           '🛑 Se tinha pós-pago no operador antigo — a última fatura pelos dias «não encerrados» chega 2–3 semanas depois',
           '🛑 Por vezes, o novo operador pede para «pagar mais pelo SIM» (≈ 10 €) — formalmente isto é ilegal para clientes MNP',
-          '✅ Guarde o SMS com o código de portabilidade como prova para a AT/ANACOM'
+          '✅ Guarde o SMS com o código de portabilidade (CVP) como prova para a ANACOM'
         ]}
       ]
     },
@@ -96,9 +96,10 @@ export default {
     { label: 'Penalização por fidelização (se o contrato estiver ativo)', amountEURMin: 0, amountEURMax: 300, note: 'depende do prazo restante' }
   ],
   sources: [
-    { title: 'DL 56/2010 — Portabilidade dos números', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/56-2010-307067', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ANACOM — Portabilidade', url: 'https://www.anacom-consumidor.com/portabilidade', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ANACOM — Regulamento da Portabilidade n.º 38/2025 (em vigor desde 10.11.2025)', url: 'https://www.anacom.pt/render.jsp?contentId=1801193', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'ANACOM — Como saber o meu Código de Validação da Portabilidade (CVP)', url: 'https://www.anacom.pt/render.jsp?contentId=1471912', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'ANACOM — Portabilidade de números', url: 'https://www.anacom.pt/render.jsp?categoryId=324335', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

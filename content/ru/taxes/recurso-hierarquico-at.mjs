@@ -3,7 +3,7 @@ export default {
   id: 'recurso-hierarquico-at',
   categoryId: 'taxes',
   title: 'Иерархическое обжалование решений Finanças: recurso hierárquico',
-  tldr: 'Recurso hierárquico — административная жалоба на решение Finanças вышестоящему руководителю Autoridade Tributária. Типичный срок — 30 дней с уведомления о решении, подача через Portal das Finanças → Contencioso → Recurso Hierárquico или письменно в Serviço de Finanças. Это не «пауза» для долга: cobrança и execução fiscal обычно продолжаются, если нет гарантии/приостановки. В 2026 используйте его для спорных liquidações, отказов по reclamação graciosa, IMI/IRS/IVA-решений, но не пропускайте судебные сроки.',
+  tldr: 'Recurso hierárquico — административная жалоба на решение Finanças вышестоящему руководителю Autoridade Tributária. Типичный срок — 30 дней с уведомления о решении, подача через Portal das Finanças → Contencioso → Recurso Hierárquico или письменно в Serviço de Finanças. Это не «пауза» по долгу: cobrança и execução fiscal обычно продолжаются, если нет гарантии/приостановки. В 2026 используйте его для спорных liquidações, отказов по reclamação graciosa, IMI/IRS/IVA-решений, но не пропускайте судебные сроки.',
   tags: ['finanças', 'налоги', 'обжалование', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -134,6 +134,6 @@ export default {
     { title: 'Re-activar: что такое recurso hierárquico в налоговом контексте', url: 'https://www.re-activar.pt/faqs/o-que-e-um-recurso-hierarquico-no-contexto-fiscal/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Caixa Geral de Depósitos: revisão oficiosa и отличие от других способов исправления налогов', url: 'https://www.cgd.pt/Site/Saldo-Positivo/leis-e-impostos/Pages/revisao-oficiosa.aspx', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -95,7 +95,7 @@ export default {
               'Old NHR (before 2024): fixed 10% for foreign pensions × 10 years (for those who qualified in time)',
               'IFICI (new, 2024+): does NOT cover foreign pensions',
               'Double tax treaties (DTT): Portugal has them with the Russian Federation, Brazil, the USA, the United Kingdom, France, Germany, Spain — double taxation is usually avoided through a credit',
-              'DTT with Russia (1968 protocol) — pensions from the Russian Federation are taxed only in the country of residence (that is, in Portugal) — a straightforward situation',
+              'DTT with Russia (2000 convention) — in August 2023 Russia unilaterally suspended key articles of the treaty for “unfriendly” countries, including Portugal. Relief from double taxation under the treaty is no longer guaranteed — check the current treatment with a tax adviser',
               'USA: pensions are taxed in both countries, but FTC + treaty article are reconciled — consult a specialist'
             ]}
           ]},
@@ -143,7 +143,7 @@ export default {
           '🏊 Municipal swimming pools: 50% discount',
           '⚡ Tarifa Social Energia: 33% discount on electricity for low income',
           '🏠 IMI exemption: for main residence, owner ≥ 65, low income',
-          '💰 Complemento Solidário para Idosos (CSI): top-up to minimum income (€565/month 2026) for low-income retirees',
+          '💰 Complemento Solidário para Idosos (CSI): top-up to minimum income (€670/month in 2026; reference value €8,040/year) for low-income retirees',
           '🍴 Cantinas Sociais: meals €1.5-3 for elderly people in need',
           '📞 Linha do Idoso (760 24 24 24): help and information for elderly people',
           '🏥 Apoio Domiciliário: home care services through the municipality / Misericórdias'
@@ -173,13 +173,13 @@ export default {
     { label: 'Average state pension', amountEUR: 530, note: '€/month' },
     { label: 'Maximum PPR contribution (for 20% deduction)', amountEUR: 2000, note: '€/year up to 35' },
     { label: 'IRS deduction on PPR <35', amountEUR: 400, note: '€/year' },
-    { label: 'Complemento Solidário para Idosos', amountEUR: 565, note: '€/month top-up' }
+    { label: 'Complemento Solidário para Idosos', amountEUR: 670, note: '€/month top-up in 2026 (€8,040/year)' }
   ],
   sources: [
     { title: 'Segurança Social — Pensions', url: 'https://www.seg-social.pt/pensoes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ASF — PPR comparison', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulation (EC) 883/2004 — coordination of EU social security', url: 'https://eur-lex.europa.eu/legal-content/PT/TXT/?uri=CELEX:32004R0883', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

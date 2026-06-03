@@ -2,8 +2,8 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'labour-rights',
   categoryId: 'work_business',
-  title: 'our rights in Portugal — what employees to know',
-  tldr: 'Employment in Portugal are governed the Código do Trabalho (Lei 7/2009).\n\nThe essentials: a 40-hour week (max. 48 hours including overtime), 22 working days of holiday + 13 public holidays, parental leave of 120-180 days paid at 90-100%, dismissal requires justification + compensation (cap of 12-20 months’ salary), minimum wage €920/month in 2026. Probation period: 90 days (general), 180 (positions of responsibility), 240 (management roles).\n\nTrade unions are active: CGTP-IN and UGT. Complaints about breaches of labour rights are submitted to ACT (Autoridade para as Condições do Trabalho).',
+  title: 'Labour rights in Portugal — what employees need to know',
+  tldr: 'Employment in Portugal is governed by the Código do Trabalho (Lei 7/2009).\n\nThe essentials: a 40-hour week (max. 48 hours including overtime), 22 working days of holiday + 13 public holidays, parental leave of 120-180 days paid at 90-100%, dismissal requires justification + compensation (cap of 12-20 months’ salary), minimum wage €920/month in 2026. Probation period: 90 days (general), 180 (positions of responsibility), 240 (management roles).\n\nTrade unions are active: CGTP-IN and UGT. Complaints about breaches of labour rights are submitted to ACT (Autoridade para as Condições do Trabalho).',
   tags: ['labour', 'employee rights', 'code'],
   estimatedReadMinutes: 8,
   steps: [
@@ -45,7 +45,7 @@ export default {
           'Minimum wage 2026: €920/month × 14 (including 13th salary + holiday pay)',
           'Subsídio de férias (holiday allowance): 1 monthly salary in June',
           'Subsídio de Natal (13th salary): 1 monthly salary in December',
-          'Subsídio de alimentação (meal allowance): not mandatory, but common. €6-9/working day. Up to €6/day is not subject to IRS when paid in cash; with cartão/vale refeição the limit is higher — €10.20/day',
+          'Subsídio de alimentação (meal allowance): not mandatory, but common. €6-9/working day. Up to €6.15/day is not subject to IRS when paid in cash; with cartão/vale refeição the limit is higher — €10.46/day',
           'Overtime (horas extras) under art. 268 CT + Lei 13/2023 (Agenda do Trabalho Digno): rates depend on the annual volume. Up to 100 hours/year: +25% for the first hour on a working day, +37.5% for subsequent hours, +50% on a rest day/public holiday. From the 101st hour/year: rates increase to +50%/+75%/+100%. A collective agreement may set more favourable conditions',
           'Night work (22:00-07:00): +25% extra',
           'Work on descanso semanal/feriado: usually +50% for each hour; in some cases descanso compensatório is also due. A collective agreement may set better conditions (Código do Trabalho arts. 268, 269)',
@@ -87,7 +87,7 @@ export default {
             { kind: 'checklist', items: [
               'First 3 days — not paid (as a general rule)',
               'From the 4th day — Subsídio de doença from Segurança Social, 55-75% of average salary',
-              'For long-term illness (>365 days) — 70%',
+              'The rate depends on duration: 55% (up to 30 days), 60% (31-90), 70% (91-365), 75% (over 365 days)',
               'Medical certificate (baixa) from a family doctor or emergency department',
               'Time off work — up to 4 hours for medical appointments without salary reduction'
             ]}
@@ -176,6 +176,6 @@ export default {
     { title: 'CGTP-IN', url: 'https://www.cgtp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UGT', url: 'https://www.ugt.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

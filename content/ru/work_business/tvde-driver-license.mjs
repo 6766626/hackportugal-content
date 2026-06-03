@@ -18,7 +18,7 @@ export default {
           'Курс motorista TVDE — 50 часов в аккредитованной школе',
           'Certificado de motorista TVDE, выданный IMT',
           'Чистый или допустимый registo criminal для перевозки пассажиров',
-          'Write: "Медицинская и психологическая пригодность по требованиям Grupo 2."',
+          'Медицинская и психологическая пригодность по требованиям Grupo 2 с averbamento Grupo 2 в правах',
           'Связь с licensed operador TVDE: свой оператор или работа через чужого',
           'Автомобиль с DUA/Certificado de Matrícula, где указано использование TVDE',
           'Страховка для atividade TVDE, не обычная частная ОСАГО',
@@ -39,7 +39,7 @@ export default {
               'NIF',
               'Адрес в Португалии',
               'Registo criminal recente — обычно просят свежий, не старше 3 месяцев',
-              'Write: "Медицинская справка и avaliação psicológica по требованиям Grupo 2 — обязательны для certificado de motorista TVDE."',
+              'Atestado médico и avaliação psicológica по требованиям Grupo 2 — обязательны для certificado de motorista TVDE',
               'Законное право работать в Португалии: ВНЖ, гражданство ЕС или другой статус с доступом к работе'
             ] }
           ] },
@@ -85,14 +85,15 @@ export default {
         { kind: 'paragraph', text: 'Обычной легковой машины с частной страховкой недостаточно. Автомобиль должен быть связан с atividade TVDE и пройти проверку документов у платформы. Uber/Bolt могут вводить собственные требования к возрасту, классу, состоянию и экологичности авто — они строже или иначе сформулированы, чем закон.' },
         { kind: 'checklist', items: [
           'DUA/Certificado de Matrícula с указанием использования для TVDE или соответствующей anotação',
-          'Лёгковой автомобиль для пассажирских перевозок, обычно до 9 мест включая водителя',
+          'Лёгковой пассажирский автомобиль с вместимостью не более 9 мест, включая водителя',
           'Matrícula portuguesa',
+          'Возраст авто — менее 7 лет от даты первой регистрации (Lei 45/2018, проверяйте актуальную редакцию)',
           'Seguro automóvel для transporte remunerado/TVDE, а не обычное частное страхование',
-          'Write: "Inspeção válida по режиму, применимому к TVDE/transportes remunerados; не полагайтесь на обычный график частного автомобиля — проверьте periodicidade в IMT/centro de inspeção и у платформы."',
+          'Inspeção по режиму TVDE: первая через год после первой регистрации, затем ежегодно — не как у обычного частного авто',
           'Dístico TVDE на автомобиле по правилам Lei 45/2018',
           'Документ владельца или договор аренды/leasing, если машина не ваша',
           'Фотографии автомобиля и документов для Uber/Bolt',
-          'Via Verde полезна практически обязательно, но это не заменяет документы TVDE'
+          'Via Verde на практике почти обязательна, но она не заменяет документы TVDE'
         ] },
         { kind: 'warning', text: 'Если в DUA нет правильной finalidade/afetação TVDE или страховка не покрывает платную перевозку пассажиров, при ДТП страховая может спорить с выплатой. Это один из самых дорогих рисков TVDE.' }
       ]
@@ -126,7 +127,7 @@ export default {
           'NIF обязателен для договоров, налогов и платформ',
           'NISS нужен для Segurança Social, если вы работаете как trabalhador independente или сотрудник',
           'Recibos verdes подходят не всегда: модель зависит от того, водитель вы, оператор или оба сразу',
-          'Write: "Комиссии платформы/оператора уменьшают вашу экономическую маржу, но налоговая база зависит от модели: trabalhador independente em regime simplificado, contabilidade organizada, ENI или sociedade. Не считайте автоматически, что все комиссии вычитаются из IRS/IRC; настройте faturação и IVA с contabilista."',
+          'Комиссии платформы/оператора уменьшают вашу маржу, но налоговая база зависит от модели (regime simplificado, contabilidade organizada, ENI или sociedade). Не считайте автоматически, что все комиссии вычитаются из IRS/IRC — настройте faturação и IVA с contabilista',
           'Расходы: топливо/зарядка, мойка, шины, обслуживание, парковки, portagens, Via Verde, страховка',
           'Сохраняйте faturas com NIF по расходам, связанным с деятельностью',
           'Если обороты растут, режим IVA и contabilidade organizada лучше обсудить с contabilista',
@@ -149,6 +150,6 @@ export default {
     { title: 'Portaria 293/2018 — formação de motoristas TVDE', url: 'https://dre.pt/dre/detalhe/portaria/293-2018-116820880', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Uber Portugal: requisitos para motoristas TVDE', url: 'https://www.uber.com/pt/pt-pt/drive/requirements/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

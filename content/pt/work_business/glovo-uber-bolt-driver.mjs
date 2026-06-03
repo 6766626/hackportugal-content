@@ -33,7 +33,7 @@ export default {
           'Entre no Portal das Finanças → Todos os Serviços → Início de Atividade.',
           'Escolha o regime Categoria B — trabalhador independente.',
           'Discuta o código de atividade com um contabilista: muitas vezes considera-se o CAE 53200, outras atividades de courier/postal, ou um código CIRS para outros serviços; o código pode influenciar o coeficiente em IRS.',
-          'Escreva: “Se o volume de negócios esperado não exceder 15 000 € por ano, normalmente é possível o regime de isenção ao abrigo do art. 53 CIVA; no ano de abertura de atividade, o limite é calculado proporcionalmente/anualizado com base no volume de negócios esperado, por isso, se não começar em janeiro, confirme o cálculo com um contabilista.”',
+          'Se o volume de negócios esperado não exceder 15 000 € por ano, normalmente é possível o regime de isenção ao abrigo do art. 53 CIVA. Atenção: no ano de abertura de atividade, o limite não se baseia no valor efetivamente recebido, mas no volume de negócios esperado anualizado para um ano completo, por isso, se não começar em janeiro, confirme o cálculo com um contabilista.',
           'Se ultrapassar o limite de IVA ou escolher o regime normal, terá de cobrar IVA e entregar declarações periódicas.',
           'Com um volume de negócios reduzido, normalmente não há retenção na fonte, mas isso depende do regime e do cliente.',
           'Guarde o comprovativo de início de atividade: as plataformas ou o contabilista podem pedi-lo.',
@@ -78,21 +78,21 @@ export default {
           'Scooter/mota: mais rápida e cómoda em distâncias maiores, mas exige carta, capacete, seguro, combustível e reparações.',
           'Automóvel: conforto com chuva, mas estacionamento, trânsito, combustível, seguro, IUC e desgaste consomem frequentemente o rendimento.',
           'O IUC é pago anualmente por automóveis/motas e depende do ano, cilindrada, CO₂ e tipo de combustível.',
-          'Acrescente um item separado: “Além do seguro automóvel/moto para veículos motorizados, o trabalhador independente deve contratar seguro de acidentes de trabalho para a atividade independente; confirme que a apólice cobre entregas/estafeta.”',
+          'Além do seguro automóvel/moto para veículos motorizados, o trabalhador independente deve contratar seguro de acidentes de trabalho para a atividade independente; confirme que a apólice cobre especificamente entregas/estafeta.',
           'Para e-bike, confirme os limites: uma pedelec normal até 25 km/h e 250 W não é equivalente a um ciclomotor; modelos mais potentes podem exigir outra categoria legal.',
           'Compre mochila térmica, impermeável, power bank, suporte de telemóvel e boas luzes — isto não é luxo, são despesas de trabalho.'
         ] },
-        { kind: 'warning', text: 'Reescrever para: “Antes da primeira entrega, confirme por escrito duas coberturas: seguro de responsabilidade civil/auto para o transporte com utilização profissional e seguro de acidentes de trabalho para atividade de estafeta/trabalhador independente.”' }
+        { kind: 'warning', text: 'Antes da primeira entrega, confirme por escrito com a seguradora duas coberturas: seguro de responsabilidade civil/auto para o transporte com utilização profissional e seguro de acidentes de trabalho para atividade de estafeta/trabalhador independente. Um seguro pessoal comum pode recusar o pagamento se a apólice excluir a utilização profissional.' }
       ]
     },
     {
       id: 'tax-social-security',
       title: '5. Impostos, Segurança Social e o valor líquido real',
       content: [
-        { kind: 'paragraph', text: 'Recibos verdes não são “dinheiro líquido”. Do valor bruto é necessário reservar dinheiro para IRS, Segurança Social, IVA quando aplicável, reparações, telecomunicações, equipamento e tempos sem trabalho. Escreva: “No primeiro início de atividade, o enquadramento na Segurança Social para trabalhador independente normalmente começa apenas no 1.º dia do 12.º mês após o início da atividade; depois disso são entregues declarações trimestrais e pagas contribuições. Se já teve atividade antes, existe contrato de trabalho ou situações especiais — confirme na Segurança Social Direta/com um contabilista.”' },
+        { kind: 'paragraph', text: 'Recibos verdes não são “dinheiro líquido”. Do valor bruto é necessário reservar dinheiro para IRS, Segurança Social, IVA quando aplicável, reparações, telecomunicações, equipamento e tempos sem trabalho. No primeiro início de atividade da sua vida, o enquadramento na Segurança Social para trabalhador independente normalmente só produz efeitos a partir do 12.º mês após o início da atividade: os primeiros 12 meses são isentos e, depois disso, são entregues declarações trimestrais e pagas contribuições. Se já teve atividade antes, existe contrato de trabalho ou outras situações especiais, confirme as regras na Segurança Social Direta ou com um contabilista.' },
         { kind: 'checklist', items: [
           'IRS: o rendimento da Categoria B é declarado anualmente no Modelo 3, normalmente de 1 de abril a 30 de junho relativamente ao ano anterior.',
-          'Substituir por: “As taxas progressivas de IRS aplicam-se à base tributável segundo a tabela anual de IRS; as taxas e os escalões mudam conforme o ano e a região, por isso confirme a tabela de IRS para 2026 no Portal das Finanças/Orçamento do Estado.” Se mantiver um número, verifique-o na tabela oficial de IRS de 2026.',
+          'As taxas progressivas de IRS aplicam-se à base tributável segundo a tabela anual de escalões; as taxas e os limites dos escalões mudam conforme o ano e a região, por isso confirme a tabela de IRS em vigor para 2026 no Portal das Finanças ou no Orçamento do Estado.',
           'No regime simplificado, as Finanças não consideram toda a receita, mas uma parte segundo um coeficiente; o coeficiente depende do tipo de atividade.',
           'Segurança Social: depois da isenção, o trabalhador independente entrega declarações trimestrais.',
           'A taxa padrão para trabalhador independente é de 21,4% do rendimento relevante; para serviços, o rendimento relevante é normalmente calculado sobre uma parte da receita.',
@@ -134,6 +134,6 @@ export default {
     { title: 'Portal das Finanças — início de atividade, recibos verdes, IVA e IRS', url: 'https://www.portaldasfinancas.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — trabalhadores independentes e contribuições', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

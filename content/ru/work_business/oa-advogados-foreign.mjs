@@ -3,7 +3,7 @@ export default {
   id: 'oa-advogados-foreign',
   categoryId: 'work_business',
   title: 'Ordem dos Advogados: иностранный юрист в Португалии без BR-реципрокности',
-  tldr: 'В Португалии нельзя просто “перевести” статус адвоката: слово advogado защищено, доступ к профессии даёт только Ordem dos Advogados (OA)\.\n\nПосле прекращения практической BR-реципрокности прямой путь для non-EU юристов — признание диплома в португальском вузе/DGES, затем допуск в OA и estágio 12 месяцев (não prorrogável / без продления) с patrono и финальной оценкой. С 1 апреля 2024 года по Lei n.º 6/2024, de 19 de janeiro estágio длится 12 месяцев, прежняя поэтапная структура и prova de agregação отменены. Юристы EU/EEA идут отдельно по Diretiva 98/5/CE: могут зарегистрироваться под домашним профессиональным титулом.',
+  tldr: 'В Португалии нельзя просто “перевести” статус адвоката: слово advogado защищено, доступ к профессии даёт только Ordem dos Advogados (OA).\n\nПосле прекращения практической BR-реципрокности прямой путь для non-EU юристов — признание диплома в португальском вузе/DGES, затем допуск в OA и estágio 12 месяцев (não prorrogável / без продления) с patrono и финальной оценкой. С 1 апреля 2024 года по Lei n.º 6/2024, de 19 de janeiro estágio длится 12 месяцев, прежняя поэтапная структура и prova de agregação отменены. Юристы EU/EEA идут отдельно по Diretiva 98/5/CE: могут зарегистрироваться под домашним профессиональным титулом.',
   tags: ['oa', 'advogado', 'юрист', 'diploma', 'estágio'],
   estimatedReadMinutes: 6,
   steps: [
@@ -14,9 +14,9 @@ export default {
         { kind: 'paragraph', text: 'В Португалии “advogado” — регулируемая профессия. Для представительства клиентов в суде, подписания процессуальных документов, адвокатской тайны и использования титула advogado нужна inscrição в Ordem dos Advogados (OA).' },
         { kind: 'paragraph', text: 'Иностранный диплом юриста сам по себе не даёт права практиковать как advogado. Можно работать legal consultant, paralegal, contract manager, compliance, tax/legal operations, но нельзя вводить клиентов в заблуждение, что вы португальский advogado.' },
         { kind: 'checklist', items: [
-          'Write instead: “Осторожно: платная legal consultation для третьих лиц в Португалии может попадать под actos próprios dos advogados e solicitadores. Без inscrição в OA безопаснее работать in-house, в back-office/legal operations, либо как foreign-law specialist под clear scope и, по португальским вопросам, под ответственностью advogado/solicitador. Не давайте Portuguese-law advice и не представляйте клиентов перед органами/судами.”',
+          'Осторожно: платная legal consultation для третьих лиц в Португалии может попадать под actos próprios dos advogados e solicitadores. Без inscrição в OA безопаснее работать in-house, в back-office/legal operations либо как foreign-law specialist с чётко очерченным scope, а по португальским вопросам — под ответственностью advogado/solicitador. Не давайте Portuguese-law advice и не представляйте клиентов перед органами/судами.',
           'Можно: работать in-house в компании, в compliance, privacy, contracts, AML, relocation/legal operations',
-          'Clarify: “Можно как сотрудник/back-office/paralegal готовить черновики и переводы для advogado/solicitador, если именно зарегистрированный профессионал отвечает перед клиентом. Нельзя самостоятельно продавать подготовку юридических документов как услугу, если это попадает под actos próprios.”',
+          'Можно как сотрудник/back-office/paralegal готовить черновики и переводы для advogado/solicitador, если именно зарегистрированный профессионал отвечает перед клиентом. Нельзя самостоятельно продавать подготовку юридических документов как услугу, если это попадает под actos próprios.',
           'Нельзя: использовать титул advogado без inscrição в OA',
           'Нельзя: представлять клиента в португальском суде как advogado',
           'Нельзя: открывать “sociedade de advogados” без соблюдения правил OA',
@@ -75,7 +75,7 @@ export default {
           'После длительной эффективной и регулярной практики в праве Португалии/EU возможна интеграция в профессию в Португалии по правилам директивы',
           'Альтернативно может применяться путь признания профессиональной квалификации/aptidão, если человек хочет титул advogado напрямую'
         ] },
-        { kind: 'warning', text: 'Replace with: “EU/EEA route не даёт прав только из-за паспорта: нужно быть профессионально квалифицированным адвокатом в государстве EU/EEA под одним из признанных титулов. При этом сама Diretiva 98/5/CE адресована advogados nacionais de Estados-Membros/beneficiaries of EU/EEA free-movement rules, поэтому non-EU гражданину с квалификацией в EU bar нужно заранее получить письменное подтверждение OA, что этот режим к нему применим.”' }
+        { kind: 'warning', text: 'EU/EEA route не даёт прав только из-за паспорта: нужно быть профессионально квалифицированным адвокатом в государстве EU/EEA под одним из признанных титулов. При этом сама Diretiva 98/5/CE адресована advogados nacionais de Estados-Membros и тем, кто пользуется правом свободного передвижения в EU/EEA, поэтому non-EU гражданину с квалификацией в EU bar нужно заранее получить письменное подтверждение OA, что этот режим к нему применим.' }
       ]
     },
     {
@@ -192,6 +192,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

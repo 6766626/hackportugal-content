@@ -3,7 +3,7 @@ export default {
   id: 'aceitar-pagamentos-cartao',
   categoryId: 'work_business',
   title: 'Приём платежей картой: POS, MB WAY merchant, SumUp и Stripe для самозанятых',
-  tldr: 'В Португалии self-employed/PME обычно принимают карты через банковский POS/SIBS, мобильный терминал SumUp или онлайн через Stripe. SumUp публично указывает комиссию 1,69% за транзакцию и без mensalidade; банковские POS часто имеют аренду терминала и MDR по договору. MB WAY для бизнеса подключается как merchant-сервис через банк/PSP, а не как личные переводы. Чек POS не заменяет fatura: продажу нужно оформить в Portal das Finanças или сертифицированной faturação.',
+  tldr: 'В Португалии self-employed/PME обычно принимают карты через банковский POS/SIBS, мобильный терминал SumUp или онлайн через Stripe. SumUp публично указывает комиссию 1,50% за транзакцию и без mensalidade; банковские POS часто имеют аренду терминала и MDR по договору. MB WAY для бизнеса подключается как merchant-сервис через банк/PSP, а не как личные переводы. Чек POS не заменяет fatura: продажу нужно оформить в Portal das Finanças или сертифицированной faturação.',
   tags: ['pos', 'mbway', 'stripe', 'sumup', 'faturas'],
   estimatedReadMinutes: 6,
   steps: [
@@ -38,7 +38,7 @@ export default {
             ] }
           ]},
           { id: 'sumup', title: 'SumUp', content: [
-            { kind: 'paragraph', text: 'SumUp удобен для freelancers, мастеров, pop-up продаж и небольших услуг: терминал покупается, mensalidade обычно нет, комиссия публичная. На странице цен SumUp Portugal указано 1,69% за транзакцию для card reader.' },
+            { kind: 'paragraph', text: 'SumUp удобен для freelancers, мастеров, pop-up продаж и небольших услуг: терминал покупается, mensalidade обычно нет, комиссия публичная. На странице цен SumUp Portugal указано 1,50% за транзакцию для card reader.' },
             { kind: 'warning', text: 'Проверьте актуальную цену терминала перед покупкой: акции меняются. Важнее не цена устройства, а комиссия с оборота и срок зачисления денег.' }
           ]},
           { id: 'stripe', title: 'Stripe', content: [
@@ -83,7 +83,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Сравнивайте не только процент. Итоговая стоимость = комиссия за транзакцию + фиксированная часть + аренда терминала + chargeback/refund + стоимость интеграции + бухгалтерское время на сверку.' },
         { kind: 'checklist', items: [
-          'SumUp: публично 1,69% за транзакцию; mensalidade обычно 0 €.',
+          'SumUp: публично 1,50% за транзакцию; mensalidade обычно 0 €.',
           'Stripe cards EEA: ориентир 1,5% + 0,25 € за успешную оплату; UK/international cards дороже.',
           'Банковский POS: MDR и mensalidade зависят от банка, оборота, сектора и типа карт.',
           'MB WAY merchant: комиссия задаётся банком/PSP; запросите цену отдельно от card acquiring.',
@@ -93,7 +93,7 @@ export default {
           'Спросите срок payout: D+1, D+2, weekly payout или rolling reserve.',
           'Проверьте, есть ли плата за возврат терминала, inactivity fee или minimum monthly fee.'
         ] },
-        { kind: 'paragraph', text: 'Пример: консультация 100 € через SumUp при 1,69% стоит 1,69 €, на счёт попадёт около 98,31 € до налогов. Онлайн-оплата Stripe картой EEA при 1,5% + 0,25 € стоит 1,75 €, на счёт попадёт около 98,25 € до налогов.' }
+        { kind: 'paragraph', text: 'Пример: консультация 100 € через SumUp при 1,50% стоит 1,50 €, на счёт поступит около 98,50 € до налогов. Онлайн-оплата Stripe картой EEA при 1,5% + 0,25 € стоит 1,75 €, на счёт поступит около 98,25 € до налогов.' }
       ]
     },
     {
@@ -112,7 +112,7 @@ export default {
           'Экспортируйте monthly statements из Stripe/SumUp/банка для бухгалтера.',
           'Возврат клиенту оформляйте nota de crédito, а не просто «минус» в выписке.'
         ] },
-        { kind: 'warning', text: 'Классическая ошибка: получить 98,31 € после комиссии и выписать fatura на 98,31 €. Налоговая продажа была 100 €, а комиссия 1,69 € — ваш расход.' }
+        { kind: 'warning', text: 'Классическая ошибка: получить 98,50 € после комиссии и выписать fatura на 98,50 €. Налоговая продажа была 100 €, а комиссия 1,50 € — ваш расход.' }
       ]
     },
     {
@@ -135,7 +135,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'SumUp card transaction fee', amountEURMin: 1.69, amountEURMax: 1.69, note: 'Это процент комиссии: 1,69% за транзакцию по публичной странице SumUp Portugal; в поле указано числом из-за формата справочника.' },
+    { label: 'SumUp card transaction fee', amountEURMin: 1.5, amountEURMax: 1.5, note: 'Это процент комиссии: 1,50% за транзакцию по публичной странице SumUp Portugal (тариф pay-as-you-go); в поле указано числом из-за формата справочника.' },
     { label: 'Stripe card fee EEA', amountEURMin: 1.5, amountEURMax: 1.5, note: 'Ориентир: 1,5% + 0,25 € за успешную оплату картой EEA; тарифы Stripe зависят от метода и страны карты.' },
     { label: 'Фиксированная часть Stripe EEA', amountEUR: 0.25, note: 'Добавляется к процентной комиссии за успешную карточную оплату по стандартному тарифу.' },
     { label: 'Аренда банковского POS', amountEURMin: 0, amountEURMax: 25, note: 'Типичный рыночный диапазон в месяц; точная mensalidade и MDR только в предложении банка/PSP.' }
@@ -170,6 +170,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

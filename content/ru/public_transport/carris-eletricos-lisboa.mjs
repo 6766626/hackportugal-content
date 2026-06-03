@@ -3,7 +3,7 @@ export default {
   id: 'carris-eletricos-lisboa',
   categoryId: 'public_transport',
   title: 'Лиссабонские электротрамваи 12, 15, 18, 28: туристы vs местные',
-  tldr: 'Электротрамваи Carris — не музей, а обычный транспорт. 28E красивый, но почти всегда забит туристами и карманниками; местным он полезен только вне пиков. 15E — нормальный способ до Belém и Algés, чаще современный трамвай. 12E, 18E и 24E помогают в холмистых районах, где метро нет. С Navegante поездка включена в проездной; разовый билет у водителя в elétrico дорогой — около 3,10 € в 2026.',
+  tldr: 'Электротрамваи Carris — не музей, а обычный транспорт. 28E красивый, но почти всегда забит туристами и карманниками; местным он полезен только вне пиков. 15E — нормальный способ до Belém и Algés, чаще современный трамвай. 12E, 18E и 24E помогают в холмистых районах, где метро нет. С Navegante поездка включена в проездной; разовый билет у водителя в elétrico дорогой — около 3,30 € в 2026.',
   tags: ['carris', 'электротрамвай', 'lisboa', 'navegante'],
   estimatedReadMinutes: 5,
   steps: [
@@ -47,7 +47,7 @@ export default {
           'Navegante municipal Lisboa: обычно 30 € / месяц, действует внутри муниципалитета Lisboa на Carris, Metro и других городских операторах по условиям тарифа.',
           'Navegante metropolitano: обычно 40 € / месяц, покрывает всю Área Metropolitana de Lisboa.',
           'Zapping на карте Navegante ocasional / Viva Viagem дешевле билета у водителя и подходит для редких поездок.',
-          'Билет у водителя в elétrico в 2026 — около 3,10 € за поездку; это туристическая цена за отсутствие подготовки.',
+          'Билет у водителя в elétrico в 2026 — около 3,30 € за поездку; это туристическая цена за отсутствие подготовки.',
           'Карта Navegante ocasional стоит около 0,50 € и покупается/пополняется в автоматах Metro, CP, Fertagus, на станциях и в некоторых pontos de venda.',
           'В исторических трамваях вход обычно через переднюю дверь; валидатор находится у водителя.',
           'Не прикладывайте одну и ту же карту за двух людей: каждому пассажиру нужна своя валидированная карта или билет.'
@@ -105,7 +105,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Билет у водителя в elétrico Carris', amountEUR: 3.10, note: 'Ориентир на 2026; дороже, чем zapping или проездной.' },
+    { label: 'Билет у водителя в elétrico Carris', amountEUR: 3.30, note: 'Ориентир на 2026; дороже, чем zapping или проездной.' },
     { label: 'Navegante municipal Lisboa', amountEUR: 30, note: 'Месячный проездной внутри Lisboa; трамваи Carris включены.' },
     { label: 'Navegante metropolitano', amountEUR: 40, note: 'Месячный проездной по Área Metropolitana de Lisboa.' },
     { label: 'Карта Navegante ocasional / Viva Viagem', amountEUR: 0.50, note: 'Носитель для zapping или разовых билетов; пополнение отдельно.' }
@@ -117,6 +117,6 @@ export default {
     { title: 'Navegante — проездные и тарифная система Lisboa/AML', url: 'https://www.navegante.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Carris — официальный сайт оператора транспорта Lisboa', url: 'https://www.carris.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

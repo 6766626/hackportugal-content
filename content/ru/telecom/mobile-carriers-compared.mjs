@@ -3,7 +3,7 @@ export default {
   id: 'mobile-carriers-compared',
   categoryId: 'telecom',
   title: 'Мобильные операторы и интернет — сравнение тарифов 2026',
-  tldr: 'Рынок Португалии изменил DIGI (2024) — мобильная связь от 5 €/мес, фибра 1 Gbps за 10 €/мес, фибра 10 Gbps за 15 €/мес. NOS запустил бюджетный бренд WOO (5 €/мес, 100 GB, без фиделизации). MEO/NOS/Vodafone — дороже (14,99–15 € за тот же объём), но лучше покрытие в сёлах и больше пакетов с TV. Младшие бренды MEO: Uzo и Moche (не повышают цены в 2026). Для контракта нужен NIF, CC/ВНЖ, IBAN.',
+  tldr: 'Рынок Португалии изменил приход DIGI (2024) — мобильная связь от 5 €/мес, фибра 1 Gbps за 10 €/мес, фибра 10 Gbps за 15 €/мес. NOS запустил бюджетный бренд WOO (5 €/мес, 100 GB, без фиделизации). MEO/NOS/Vodafone — дороже (14,99–15 € за тот же объём), но лучше покрытие в сёлах и больше пакетов с TV. Младшие бренды MEO: Uzo и Moche (не повышают цены в 2026). Для контракта нужен NIF, CC/ВНЖ, IBAN.',
   tags: ['мобильный', 'интернет', 'фибра', 'sim', 'meo', 'nos', 'vodafone', 'digi', 'woo', 'тариф'],
   estimatedReadMinutes: 8,
   steps: [
@@ -197,7 +197,7 @@ export default {
         { kind: 'checklist', items: [
           '📋 Livro de Reclamações (книга жалоб) — оператор обязан ответить в 15 дней',
           '🏛️ ANACOM — регулятор, жалоба онлайн на anacom.pt',
-          '⚖️ Arbitragem CNIACC — обязательна для операторов при требовании < 5 000 €',
+          '⚖️ Arbitragem CNIACC — обязательна для операторов при требовании до 5 000 €',
           '🚫 Прекращение услуги без причины — нарушение; компенсация',
           '📅 При задержках оплаты — уведомление за 15 дней перед отключением',
           '🔍 Tarifarios.anacom.pt — официальный сравнитель тарифов (регулярно обновляется)'
@@ -225,6 +225,6 @@ export default {
     { title: 'Decreto-Lei 74-B/2021 — услуги связи', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-170593125', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CNIACC — национальный арбитраж по телекоммуникациям', url: 'https://www.cniacc.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 120
 }

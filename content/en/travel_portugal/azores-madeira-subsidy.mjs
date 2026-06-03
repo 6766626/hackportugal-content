@@ -3,22 +3,22 @@ export default {
   id: 'azores-madeira-subsidy',
   categoryId: 'travel_portugal',
   title: 'Azores and Madeira — Subsídio Social de Mobilidade and how to buy tickets',
-  tldr: 'The state subsidy Subsídio Social de Mobilidade (SSM) exists for residents of the autonomous regions of the Azores and Madeira/Porto Santo when travelling between the region and the mainland (or between regions/islands of the archipelago), as well as for students with a connection to the region. It does NOT apply to mainland residents as a tourist discount for flying to the islands. Eligibility is confirmed by residence in the autonomous region. The amount and number of subsidised trips are determined by the current Decreto-Lei/Portaria — check the up-to-date rules on ANAC/IMT/SATA. For tourists from the mainland — standard TAP, SATA, Ryanair fares (look for early deals and low-cost options).',
+  tldr: 'The state subsidy Subsídio Social de Mobilidade (SSM) exists for residents of the autonomous regions of the Azores and Madeira/Porto Santo when travelling between the region and the mainland (or between regions/islands of the archipelago), as well as for students with a connection to the region. It does NOT apply to mainland residents as a tourist discount for flying to the islands. Eligibility is confirmed by residence in the autonomous region. The subsidy amount is determined by the current Decreto-Lei (37-A/2025, amended by DL 1-A/2026, in force since 15 January 2026) — check the up-to-date rules on gov.pt. For tourists from the mainland — standard TAP, SATA, Ryanair fares (look for early deals and low-cost options).',
   tags: ['azores', 'madeira', 'subsidy', 'flights'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'stp-overview',
-      title: '✈️ STP — Social Territorial de Passageiros',
+      title: '✈️ Subsídio Social de Mobilidade (SSM)',
       content: [
         { kind: 'paragraph', text: 'A flight subsidy programme between mainland Portugal and the autonomous regions (Azores, Madeira) — it compensates for the price difference between the mainland and the islands.' },
         { kind: 'checklist', items: [
           '✅ Who is eligible: residents of the autonomous region of the Azores or Madeira/Porto Santo (not the mainland!) — foreigners with a residence permit and real residence in the region also qualify',
           '✅ Island residents → mainland: with the SSM the passenger pays a capped amount per round trip — max €119 (Azores–mainland) / €79 (Madeira–mainland); students €89 / €59 (Decreto-Lei 37-A/2025, amended by DL 1-A/2026, in force since 15 Jan 2026). This is the capped fare you pay out of pocket, not the subsidy value',
-          '✅ Mainland residents → islands (as tourists): lower subsidy, depending on the route',
-          '✅ Maximum 4 trips per year for island residents; 2 for tourists',
-          '❌ Does not work for: business trips (if paid for by the company), non-residents',
-          '💰 Example: Lisbon—Ponta Delgada ticket €210 → subsidy €80 → final cost €130'
+          'ℹ️ Mainland tourists are NOT entitled to it — it is only for region residents, equivalent persons and students',
+          '✅ Under the rules in force since 15 January 2026, the ticket-price ceiling is removed and there is no cap on the number of subsidised trips per year',
+          '❌ Does not work for: mainland non-residents as a tourist discount',
+          '💰 Example: Lisbon—Ponta Delgada round-trip ticket €210 → you pay no more than €119, the subsidy covers the rest'
         ]}
       ]
     },
@@ -39,9 +39,9 @@ export default {
           { id: 'h2', title: 'Option B — refund after the trip (Ryanair, other carriers)', content: [
             { kind: 'checklist', items: [
               'You bought a ticket at full price without a NIF',
-              'After the trip — application on sata.pt → “Bonificação STP”',
-              'Attach: boarding passes, invoice, Atestado de Residência',
-              'Refund deadline: up to 30 days after the flight',
+              'The claim is filed online on gov.pt (sign in via Autenticação.gov) — after buying the ticket',
+              'Eligibility is checked automatically; paper certificates are usually not needed',
+              'If requested, attach: boarding passes, invoice',
               'Money to IBAN within 30-60 days',
               'Bureaucratic, but it works for international carriers'
             ]}
@@ -66,10 +66,9 @@ export default {
         { kind: 'substeps', items: [
           { id: 'a1', title: 'Azores', content: [
             { kind: 'checklist', items: [
-              'Super subsidy via SATA for residents of the Azores: up to 80% refund of the ticket price',
-              'Maximum 6 trips per year',
-              'Additional subsidy for students / medical cases — up to 100%',
-              'Apply via srprorainol.azores.gov.pt or municipal offices'
+              'A regional top-up from the Governo dos Açores on top of the national SSM — lowers the final ticket price even further',
+              'Separate support schemes for students and medical travel',
+              'Current conditions and applications — on the portal.azores.gov.pt portal'
             ]}
           ]},
           { id: 'm1', title: 'Madeira', content: [
@@ -134,11 +133,12 @@ export default {
     { label: 'Porto Santo ferry', amountEURMin: 50, amountEURMax: 80 }
   ],
   sources: [
-    { title: 'SATA Azores — Bonificação STP', url: 'https://www.sata.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'gov.pt — Subsídio Social de Mobilidade', url: 'https://www.gov.pt/servicos/pedir-o-subsidio-social-de-mobilidade', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'SATA Azores — Subsídio Social de Mobilidade', url: 'https://www.sata.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'TAP — Azorean residents', url: 'https://www.flytap.com/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Governo dos Açores — Support', url: 'https://portal.azores.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Governo Regional Madeira — Support', url: 'https://www.madeira.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

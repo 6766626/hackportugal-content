@@ -65,7 +65,7 @@ export default {
       id: 'amount-and-duration',
       title: 'Quanto se recebe e durante quanto tempo',
       content: [
-        { kind: 'paragraph', text: 'Fórmula padrão: o subsídio corresponde a 65% da remuneração de referência. Esta base é calculada com base nas remunerações sobre as quais foram pagas contribuições, durante o período definido antes do desemprego. A Segurança Social faz o cálculo automaticamente.' },
+        { kind: 'paragraph', text: 'Fórmula padrão: o subsídio corresponde a 65% da remuneração de referência. Esta base não é a última remuneração: é calculada com base nas remunerações com contribuições dos primeiros 12 dos 14 meses anteriores ao mês de desemprego, incluindo os subsídios de férias e de Natal, e dividida por 360. A Segurança Social faz o cálculo automaticamente.' },
         { kind: 'checklist', items: [
           'Limite máximo em 2026: 2,5 IAS = 1 342,83 € por mês, porque o IAS 2026 = 537,13 €.',
           'O mínimo está normalmente ligado ao IAS, mas se a sua remuneração de referência líquida for inferior ao IAS, o subsídio não pode exceder essa base líquida.',
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

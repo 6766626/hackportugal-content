@@ -20,7 +20,7 @@ export default {
       id: 'where-to-look',
       title: 'Где искать программы в 2026',
       content: [
-        { kind: 'paragraph', text: 'Смотрите не портал ePortugal, а сайт конкретной Câmara Municipal: разделы Apoios, Incentivos, Habitação, Fixação de População, Regulamentos Municipais, Avisos или Balcão Único. У маленьких municípios информация часто лежит PDF-регламентом и отдельным aviso de abertura.' },
+        { kind: 'paragraph', text: 'Смотрите не портал ePortugal, а сайт конкретной Câmara Municipal: разделы Apoios, Incentivos, Habitação, Fixação de População, Regulamentos Municipais, Avisos или Balcão Único. У маленьких municípios информация часто лежит в PDF-регламенте и отдельном aviso de abertura.' },
         { kind: 'checklist', items: [
           'Mértola — программы поддержки fixação de novos residentes и семей во внутреннем Alentejo; проверяйте свежий aviso на cm-mertola.pt.',
           'Ourique — местные incentivos à fixação de população/famílias; условия зависят от действующего regulamento municipal.',
@@ -121,6 +121,6 @@ export default {
     { title: 'Município de Torre de Moncorvo — официальный сайт, avisos и apoios municipais', url: 'https://www.cm-moncorvo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Pampilhosa da Serra — официальный сайт и programas de apoio', url: 'https://www.cm-pampilhosadaserra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

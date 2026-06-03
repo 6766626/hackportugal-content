@@ -3,7 +3,7 @@ export default {
   id: 'license-renewal',
   categoryId: 'driving_license',
   title: 'Renewing a Portuguese driving licence',
-  tldr: 'Portuguese licences (Group I categories — AM/A/B/BE, etc.): valid for 15 years until age 60, then renewal at 60, 65, 70; after 70 — every 2 years. For licences issued before 02/01/2013, and for Group II (professional C/D, etc.) — separate transitional/special rules apply (validity periods may be shorter).\n\nRenewal online via imt-online.imt.gov.pt with CMD/Chave Móvel Digital — government fee €30 + medical certificate (usually required from age 60 for Group I) + psychotechnical assessment (for certain cases / ages / categories).',
+  tldr: 'Portuguese licences (Group I categories — AM/A/B/BE, etc.): valid for 15 years until age 60, then renewal at 60, 65, 70; after 70 — every 2 years. For licences issued before 02/01/2013, and for Group II (professional C/D, etc.) — separate transitional/special rules apply (validity periods may be shorter).\n\nRenewal online via imt-online.imt.gov.pt with CMD/Chave Móvel Digital — government fee €27 online (€30 in person; 50% for drivers aged 70+) + medical certificate (usually required from age 60 for Group I) + psychotechnical assessment (for certain cases / ages / categories).',
   tags: ['licence', 'renewal', 'imt', 'licence renewal', 'medical examination'],
   estimatedReadMinutes: 5,
   steps: [
@@ -43,7 +43,7 @@ export default {
               '🌐 imt-online.imt.gov.pt → “Renovação de Carta de Condução”',
               '🔐 Log in via CMD',
               '📤 Upload the medical certificate and photo',
-              '💳 Pay €30 (government fee)',
+              '💳 Pay €27 (online government fee; 50% for drivers aged 70+)',
               '📩 Confirmation by email',
               '📬 The card arrives by post in 2-4 weeks',
               '✅ During processing, you can drive with the old card + a printed confirmation'
@@ -94,7 +94,7 @@ export default {
         { kind: 'checklist', items: [
           '📅 Appointment at agendamentos.imt-ip.pt',
           '🆔 Documents: original licence, Cartão de Cidadão/residence permit, medical certificate, 3.5×4.5 photo',
-          '💰 Fee: €30',
+          '💰 Fee: €30 (in person; 50% for drivers aged 70+, i.e. €15)',
           '⏰ Visit duration: 30 min',
           '📅 Slots are limited — book 2-4 weeks in advance',
           '🏛️ Also possible at large Loja de Cidadão offices (Lisboa, Porto)'
@@ -117,7 +117,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'IMT government fee (online renewal)', amountEUR: 30 },
+    { label: 'IMT government fee (online renewal)', amountEUR: 27, note: '€30 in person; 50% for drivers aged 70+' },
     { label: 'Medical certificate from a family doctor (from age 60)', amountEURMin: 15, amountEURMax: 30 },
     { label: 'Psychological assessment (for Group II/professional categories)', amountEURMin: 50, amountEURMax: 80 },
     { label: 'Duplicate if lost', amountEUR: 30 },
@@ -129,6 +129,6 @@ export default {
     { title: 'IMT — Driving licence renewal', url: 'https://www.imt-ip.pt/sites/IMTT/Portugues/CondutoresVeiculos/Pages/RenovacaoCartaConducao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT Online (online renewal)', url: 'https://www.imt-online.imt.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

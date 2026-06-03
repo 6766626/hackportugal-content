@@ -3,7 +3,7 @@ export default {
   id: 'cp-trains',
   categoryId: 'travel_portugal',
   title: 'Поезда CP (Comboios de Portugal) — как пользоваться',
-  tldr: 'CP — государственный железнодорожный оператор.\n\nТипы поездов: Alfa Pendular (быстрые Лиссабон — Порту за 2,5 ч), Intercidades (средние), Regional (медленные), Urbanos (пригородные)\.\n\nКарты скидок: Cartão Jovem, Cartão Amigo. Лиссабон — Порту на Alfa Pendular: около € 25–40, Intercidades: около € 20–30. Бронировать на cp.pt.',
+  tldr: 'CP — государственный железнодорожный оператор.\n\nТипы поездов: Alfa Pendular (быстрые Лиссабон — Порту за 2,5 ч), Intercidades (средние), Regional (медленные), Urbanos (пригородные).\n\nКарты скидок: Cartão Jovem, Cartão Amigo. Лиссабон — Порту на Alfa Pendular: около € 25–40, Intercidades: около € 20–30. Бронировать на cp.pt.',
   tags: ['поезд', 'cp', 'alfa pendular', 'intercidades'],
   estimatedReadMinutes: 5,
   steps: [
@@ -35,7 +35,7 @@ export default {
       title: 'Главные маршруты (цены 2026)',
       content: [
         { kind: 'checklist', items: [
-          'Лиссабон ↔ Порту AP: 2 ч 45 мин, € 25–40 (скидки до -65% при покупке за 5 дней)',
+          'Лиссабон ↔ Порту AP: 2 ч 45 мин, € 25–40 (скидки до -65% при покупке за 8+ дней)',
           'Лиссабон ↔ Порту IC: 3 ч, € 20–32',
           'Лиссабон ↔ Коимбра AP: 1 ч 40 мин, € 18–25',
           'Лиссабон ↔ Фару (Алентежу — Алгарве): 3 ч AP / 3 ч 40 мин IC, € 20–35',
@@ -57,9 +57,9 @@ export default {
           ]},
           { id: 'b2', title: '2. Скидки — планируйте заранее', content: [
             { kind: 'checklist', items: [
-              'За 5 дней: -65% на AP (Лиссабон — Порту с € 40 до € 14)',
-              'За 2 дня: -40%',
-              'Cartão Jovem (до 30 лет): -25%',
+              'За 8+ дней: до -65% на AP и IC (Лиссабон — Порту с € 40 примерно до € 14)',
+              'За 5–7 дней: до -56%',
+              'Cartão Jovem (12–30 лет): -25% на IC и Regional (на AP не действует)',
               'Cartão Amigo (годовая карта за € 25): -20% на все поездки',
               'Семейная скидка: 4+ = -50% для детей 4–12 лет',
               'Студенты с удостоверением — дополнительные скидки'
@@ -93,7 +93,7 @@ export default {
             { kind: 'checklist', items: [
               'Campanhã — основной вокзал, AP/IC',
               'São Bento — туристический вокзал (изразцы азулежу), Urbanos',
-              'Trindade — метро и Urbanos'
+              'Contumil — узел Urbanos, пересадки на север и восток'
             ]}
           ]}
         ]}
@@ -104,6 +104,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Infraestruturas de Portugal', url: 'https://www.infraestruturasdeportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

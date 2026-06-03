@@ -114,13 +114,13 @@ export default {
     { label: 'Navegante Metropolitano', amountEUR: 40, note: 'Passe mensal para a Área Metropolitana de Lisboa; a melhor escolha para a maioria dos residentes da aglomeração.' },
     { label: 'Navegante Família Municipal', amountEUR: 60, note: 'Limite mensal familiar desde que cumpridas as condições do agregado familiar.' },
     { label: 'Navegante Família Metropolitano', amountEUR: 80, note: 'Limite mensal familiar para viagens em toda a aglomeração.' },
-    { label: 'Lisboa Card', amountEURMin: 22, amountEURMax: 62, note: 'Depende da duração, idade e tarifa actual da Visit Lisboa; verifique as tarifas adult 2026 no site oficial antes de comprar.' }
+    { label: 'Lisboa Card', amountEURMin: 31, amountEURMax: 62, note: 'Tarifa de adulto a partir de 1 de abril de 2026: 24 h — 31 €, 48 h — 51 €, 72 h — 62 €; as tarifas de criança são mais baixas. Verifique os preços atuais no site oficial antes de comprar.' }
   ],
   sources: [
     { title: 'Visit Lisboa — Lisboa Card oficial: condições, locais incluídos e preços', url: 'https://www.visitlisboa.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Metro Lisboa — bilhetes, Navegante occasional, zapping e 24h passes', url: 'https://www.metrolisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transportes Metropolitanos de Lisboa — Navegante Metropolitano, Municipal e Família', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

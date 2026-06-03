@@ -3,7 +3,7 @@ export default {
   id: 'rnal-2026-mudancas',
   categoryId: 'housing_rent',
   title: 'RNAL — Registo Nacional de Alojamento Local: 2026 changes',
-  tldr: 'In 2026, AL is again regulated mainly through DL 128/2014 as amended by DL 76/2024: the national “freeze” on new apartamentos and the automatic expiry of registrations from Mais Habitação have been revoked, but Câmara Municipal may introduce zonas de contenção and limits. Write: "Any AL must have a valid RNAL number and display it in listings. Separately, when hosting foreign guests, obligations for boletins de alojamento apply through the relevant security/AIMA system; tax obligations are handled through Finanças." Remove "MARGEM" unless you explain exactly which system you mean and cite an official source. For illegal AL, the fine is: individuals up to €4,000, companies €25,000–€40,000. Income usually goes under IRS categoria B.',
+  tldr: 'In 2026, AL is again regulated mainly through DL 128/2014 as amended by DL 76/2024: the national “freeze” on new apartamentos and the automatic expiry of registrations from Mais Habitação have been revoked, but Câmara Municipal may introduce zonas de contenção and limits. Any AL must have a valid RNAL number and display it in listings. Separately, when hosting foreign guests, obligations for boletins de alojamento apply through the relevant security/AIMA system; tax obligations are handled through Finanças. For illegal AL, the fine is: individuals up to €4,000, companies €25,000–€40,000. Income usually goes under IRS categoria B.',
   tags: ['rnal', 'al', 'rent', 'irs'],
   estimatedReadMinutes: 6,
   steps: [
@@ -25,7 +25,7 @@ export default {
           'Type of AL: apartamento, moradia, quartos, estabelecimento de hospedagem or hostel — the requirements depend on this.',
           'Right to use the property: ownership, a tenancy agreement or an operating agreement must expressly allow Alojamento Local.',
           'If you are a tenant, you need a written agreement with the locador/senhorio allowing AL; an ordinary contrato de arrendamento for housing does not, by itself, give the right to let to tourists.',
-          'Add: "For an apartamento in a prédio em propriedade horizontal, check the título constitutivo and regulamento do condomínio: if they prohibit AL/uses incompatible with AL, the registration may be challenged. Even after registration, assembleia de condóminos may, in the cases provided by law, pedir ao presidente da Câmara o cancelamento do registo, especially for repeated nuisance or disturbance."',
+          'For an apartamento in a prédio em propriedade horizontal, check the título constitutivo and regulamento do condomínio: if they prohibit AL or incompatible uses, the registration may be challenged. After DL 76/2024, prior condominium authorisation is generally no longer required to register (except for hostels), but the assembleia de condóminos may, in the cases provided by law — for repeated, proven disturbance — petition the presidente da Câmara, who can prohibit AL operation for up to 5 years.',
           'Segurança: fire extinguisher, first-aid kit, emergency information, evacuation rules and 112 contacts.',
           'Livro de reclamações físico and eletrónico: access to the complaints book is mandatory for AL.',
           'Seguro de responsabilidade civil: mandatory for operating AL; lack of insurance may lead to cancellation of the registration.',
@@ -37,7 +37,7 @@ export default {
       id: 'register-rnal',
       title: 'How to get an RNAL number',
       content: [
-        { kind: 'paragraph', text: 'AL registration is a comunicação prévia com prazo with Câmara Municipal through Balcão do Empreendedor/SIBA. Write: "Registration is submitted as a comunicação prévia com prazo through Balcão do Empreendedor. The RNAL number/entry does not mean you can immediately start receiving guests: you must wait for the applicable period to expire without oposição da Câmara, unless municipal rules require otherwise; Câmara may check documents and carry out a vistoria."' },
+        { kind: 'paragraph', text: 'AL registration is submitted as a comunicação prévia com prazo with Câmara Municipal through Balcão do Empreendedor/SIBA. The RNAL number/entry does not mean you can immediately start receiving guests: you must wait for the applicable period to expire without oposição da Câmara, unless municipal rules require otherwise; Câmara may check documents and carry out a vistoria.' },
         { kind: 'checklist', items: [
           'Log in through ePortugal/Balcão do Empreendedor or the channel indicated by Câmara Municipal.',
           'Indicate the titular da exploração: individual or company, NIF/NIPC, address, contacts.',
@@ -48,7 +48,7 @@ export default {
           'After receiving the number, check that the property is visible on rnal.turismodeportugal.pt.',
           'Display the RNAL number in all listings: Airbnb, Booking, your own website, Google, social media.'
         ] },
-        { kind: 'warning', text: 'SIBA/MARGEM/RNAL continue to be used in 2026 for registration and updating data. If the titular, address, capacity, modalidade, name or right to use the property changes — update the entry, rather than simply changing the listing on the platform.' }
+        { kind: 'warning', text: 'SIBA/RNAL continue to be used in 2026 for registration and updating data. If the titular, address, capacity, modalidade, name or right to use the property changes — update the entry, rather than simply changing the listing on the platform.' }
       ]
     },
     {
@@ -74,7 +74,7 @@ export default {
       id: 'fines-and-tax',
       title: 'Fines and IRS in 2026',
       content: [
-        { kind: 'paragraph', text: 'Separate them: "Exploração de AL sem registo válido é contraordenação muito grave: pessoas singulares €2,500–€4,000, pessoas coletivas €25,000–€40,000. Falhas de publicidade/identificação, such as omitting the registration number from the listing, are also sanctionable, but should be treated separately according to the applicable administrative-offence article." In addition, the property may be closed, the registration cancelled and sanctions imposed by Câmara.' },
+        { kind: 'paragraph', text: 'Keep two kinds of offence apart. Operating AL without a valid registration is a contraordenação muito grave: individuals €2,500–€4,000, companies €25,000–€40,000. Advertising/identification failures, such as omitting the registration number from the listing, are also sanctionable, but fall under a separate contraordenações article. In addition, the property may be closed, the registration cancelled and sanctions imposed by Câmara.' },
         { kind: 'paragraph', text: 'For tax purposes, AL is usually considered business income under IRS categoria B, not ordinary long-term rental income under categoria F. Under the regime simplificado, the taxable base depends on the type of AL: for apartamentos/moradias, a coefficient of 0.35 is often applied to gross turnover; for some hospedagem, a different coefficient applies. If expenses are high, contabilidade organizada may be advantageous.' },
         { kind: 'checklist', items: [
           'Open atividade in Finanças before you start receiving guests.',
@@ -118,6 +118,6 @@ export default {
     { title: 'Decreto-Lei 128/2014 — legal regime for operating alojamento local establishments', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2014-70686104', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 76/2024 — changes to the Alojamento Local regime after Mais Habitação', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/76-2024-895143934', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

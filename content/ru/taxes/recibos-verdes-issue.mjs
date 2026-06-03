@@ -3,7 +3,7 @@ export default {
   id: 'recibos-verdes-issue',
   categoryId: 'taxes',
   title: 'Как выписать recibo verde (электронный чек самозанятого) — пошагово',
-  tldr: 'Recibo verde — электронный чек самозанятого / ИП. Выписывается в Portal das Finanças → «Recibos Verdes Eletrónicos». Нужны: открытая деятельность, NIF клиента, сумма, описание услуги. IVA зависит от режима: regime normal (часто 23% на материке, ставки зависят от услуги и региона) или regime de isenção art. 53 CIVA при обороте до €15 000/год при выполнении условий.\n\nСрок — до 5-го рабочего дня после момента exigibilidade (завершение услуги, выставление счёта или аванс).',
+  tldr: 'Recibo verde — электронный чек самозанятого / ИП. Выписывается в Portal das Finanças → «Recibos Verdes Eletrónicos». Нужны: открытая деятельность, NIF клиента, сумма и описание услуги. IVA зависит от режима: regime normal (часто 23% на материке; ставки зависят от услуги и региона) или regime de isenção art. 53 CIVA при обороте до €15 000/год и выполнении условий.\n\nСрок — до 5-го рабочего дня после момента exigibilidade (завершение услуги, выставление счёта или аванс).',
   tags: ['recibo verde', 'ип', 'самозанятый', 'деятельность'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,7 +16,7 @@ export default {
           '✅ Код деятельности: CAE и/или код CIRS по art. 151 (CAE 5-значный: например 70220 — management consultancy, 62010 — computer programming)',
           '✅ NIF и пароль от Portal das Finanças (или Chave Móvel Digital)',
           '✅ Решение по IVA: regime de isenção art. 53 CIVA (ожидаемый/предыдущий годовой оборот ≤ €15 000 + другие условия) или regime normal (ставка зависит от услуги и региона; часто 23% на материке)',
-          '✅ NISS нужен для Segurança Social; для emissão recibo достаточно abertura de atividade, NIF и доступа к Portal das Finanças',
+          '✅ NISS нужен для Segurança Social; для выписки recibo достаточно открытой деятельности (abertura de atividade), NIF и доступа к Portal das Finanças',
           '✅ IBAN для получения оплаты'
         ]}
       ]
@@ -123,6 +123,6 @@ export default {
     { title: 'Código do IRS (DRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'ferry-madeira-acores',
   categoryId: 'public_transport',
   title: 'Паромы между островами Мадейры и Азор: Atlânticoline, Porto Santo Line, Naviera Armas',
-  tldr: 'В апреле 2026 регулярного парома Мадейра—Азорские острова нет: это разные архипелаги, между ними летают самолёты.\n\nНа Азорах межостровные паромы ведёт Atlânticoline: круглый год короткие линии Faial—Pico—São Jorge и Flores—Corvo, летом добавляются дальние маршруты между 9 островами.\n\nНа Мадейре пассажирско-автомобильный паром Funchal—Porto Santo идёт около 2 ч 30 мин; оператор — Porto Santo Line. Naviera Armas не является ежедневным оператором Funchal—Porto Santo.',
+  tldr: 'В 2026 регулярного парома Мадейра—Азорские острова нет: это разные архипелаги, между ними летают самолёты.\n\nНа Азорах межостровные паромы ведёт Atlânticoline: круглый год короткие линии Faial—Pico—São Jorge и Flores—Corvo, летом добавляются дальние маршруты между 9 островами.\n\nНа Мадейре пассажирско-автомобильный паром Funchal—Porto Santo идёт около 2 ч 30 мин; оператор — Porto Santo Line. Naviera Armas не является ежедневным оператором Funchal—Porto Santo.',
   tags: ['паромы', 'madeira', 'acores', 'atlanticoline', 'porto-santo'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,7 +16,7 @@ export default {
           'Açores: межостровные паромы Atlânticoline между островами архипелага.',
           'Madeira: Funchal—Porto Santo обслуживает Porto Santo Line, судно Lobo Marinho.',
           'Porto Santo: можно ехать пассажиром, с автомобилем, мотоциклом, велосипедом и багажом по правилам оператора.',
-          'Naviera Armas: исторически и сезонно встречается на маршрутах Madeira/Canárias, но в апреле 2026 не планируйте её как ежедневный Funchal—Porto Santo.',
+          'Naviera Armas: исторически и сезонно встречается на маршрутах Madeira/Canárias, но в 2026 не планируйте её как ежедневный Funchal—Porto Santo.',
           'Moby как регулярный португальский оператор между Madeira и Açores в расписании 2026 не используйте; проверяйте только официальные сайты конкретного маршрута.',
           'Материк Portugal—Madeira на регулярном пароме тоже не является стабильной ежедневной опцией; для переезда с машиной чаще используют грузовую перевозку/автовоз.'
         ] },
@@ -110,6 +110,6 @@ export default {
     { title: 'Portos dos Açores: морская инфраструктура и порты архипелага', url: 'https://www.portosdosacores.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'APRAM: Administração dos Portos da Região Autónoma da Madeira', url: 'https://www.apram.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

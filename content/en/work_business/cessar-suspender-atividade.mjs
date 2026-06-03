@@ -71,7 +71,7 @@ export default {
       id: 'deadlines-and-who-can-file',
       title: 'Deadlines and who can file themselves',
       content: [
-        { kind: 'paragraph', text: 'For trabalhadores independentes, the general deadlines for atividade declarations apply. Changes to details are filed within 15 days from the date of the change. Cessação de atividade is filed within 30 days from the date the activity ended. These deadlines matter for IRS and IVA.' },
+        { kind: 'paragraph', text: 'For trabalhadores independentes, the general deadlines for atividade declarations apply. Changes to details are filed within 15 days from the date of the change. Cessação de atividade is filed within 30 days from the date the activity ended. These deadlines matter for IRS and IVA. Filing late can lead to a coima from AT, even if no extra tax is due.' },
         { kind: 'checklist', items: [
           'Regime simplificado + without contabilidade organizada: you can usually file it yourself online.',
           'Contabilidade organizada: the declaration must be prepared or filed by a contabilista certificado.',
@@ -100,7 +100,7 @@ export default {
           'Keep PDF evidence for at least several years: recibos, comprovativo, IVA, IRS, Segurança Social payments.',
           'If a client asks for an invoice after cessação for work performed before closure, first check with a contabilista or AT so as not to breach the cessação date.'
         ] },
-        { kind: 'paragraph', text: 'The service for closing or changing atividade in Portal Finanças is free. Only the services of a contabilista certificado may be paid, if you have contabilidade organizada or a complex situation involving IVA/international income.' }
+        { kind: 'paragraph', text: 'The service for closing or changing atividade in Portal das Finanças is free. Only the services of a contabilista certificado may be paid, if you have contabilidade organizada or a complex situation involving IVA/international income.' }
       ]
     },
     {
@@ -113,7 +113,7 @@ export default {
           'Assuming that ausência de rendimentos automatically closes atividade.',
           'Confusing cessação in Finanças with cancellation of NIF, NISS or tax residence.',
           'Not checking Segurança Social Direta after closure.',
-          'uing a recibo verde after the cessação date.',
+          'Issuing a recibo verde after the cessação date.',
           'Not saving the comprovativo and later having no proof of the closure date.',
           'Choosing alteração instead of cessação and thinking that atividade is closed.',
           'Ignoring IVA if there were previously declarations under the normal regime.',
@@ -130,9 +130,9 @@ export default {
   sources: [
     {
       title: 'gov.pt: changing, suspending, restarting or ending atividade independente',
-      url: 'https://www2.gov.pt/en/servicos/fazer-alteracoes-a-atividade-de-trabalho-independente-de-uma-pessoa-singular',
+      url: 'https://www.gov.pt/servicos/fazer-alteracoes-a-atividade-de-trabalho-independente-de-uma-pessoa-singular',
       kind: 'official',
-      language: 'en',
+      language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
@@ -152,11 +152,11 @@ export default {
     {
       title: 'Código do IVA in DRE: declarações de alteração e cessação de atividade',
       url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1984-34500675',
-      kind: '',
+      kind: 'law',
       language: 'pt',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

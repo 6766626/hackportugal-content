@@ -3,7 +3,7 @@ export default {
   id: 'navegante-lisboa',
   categoryId: 'public_transport',
   title: 'Navegante — Greater Lisbon travel pass',
-  tldr: 'Navegante is the unified travel pass for the Lisboa region: metro, Carris buses, CP trains, Transtejo river ferries, Fertagus, MTS. The two main types are: monthly Metropolitano (€40) or Municipal (€30).\n\nChildren under 12 travel free (since 2024), children aged 13–18 and students pay €20. It can be bought from a metro ticket machine, Carris offices, or via the app.',
+  tldr: 'Navegante is the unified travel pass for the Lisboa region: metro, Carris buses, CP trains, Transtejo river ferries, Fertagus, MTS. The two main types are: monthly Metropolitano (€40) or Municipal (€30).\n\nChildren under 12 travel free (since 2024), and students up to 23 (Sub18/Sub23) also travel free if enrolled in education. It can be bought from a metro ticket machine, Carris offices, or via the app.',
   tags: ['navegante', 'travel pass', 'lisbon', 'metro', 'bus'],
   estimatedReadMinutes: 5,
   steps: [
@@ -21,8 +21,8 @@ export default {
           { id: 't3', title: 'Navegante Social / discounts', content: [
             { kind: 'checklist', items: [
               'Children under 12 — FREE (since 2024)',
-              'Ages 13–18 + students up to 23 — €20/month',
-              'Seniors 65+ — €20/month',
+              'School pupils and students up to 23 (Sub18/Sub23) — FREE if enrolled in education',
+              'Seniors 65+ — €20/month (Metropolitano); Lisboa residents get the free Navegante Urbano 3.ª Idade',
               'Refugees / social support recipients — up to 50%'
             ]}
           ]},
@@ -94,8 +94,8 @@ export default {
   costs: [
     { label: 'Navegante Metropolitano', amountEUR: 40, note: '€/month' },
     { label: 'Navegante Municipal', amountEUR: 30, note: '€/month' },
-    { label: 'Children 13–18 / students', amountEUR: 20, note: '€/month' },
-    { label: 'Seniors 65+', amountEUR: 20 },
+    { label: 'Pupils and students up to 23 (Sub18/Sub23)', amountEUR: 0, note: 'free if enrolled' },
+    { label: 'Seniors 65+ (Metropolitano)', amountEUR: 20 },
     { label: 'First card (plastic)', amountEUR: 6 },
     { label: 'Fine for travelling without a valid ticket', amountEURMin: 60, amountEURMax: 120 }
   ],
@@ -106,6 +106,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

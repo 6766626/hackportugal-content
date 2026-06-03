@@ -134,6 +134,6 @@ export default {
     { title: 'Vamus Algarve — regional coach lines in the Algarve', url: 'https://vamusalgarve.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transdev Portugal — regional coach routes', url: 'https://www.transdev.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

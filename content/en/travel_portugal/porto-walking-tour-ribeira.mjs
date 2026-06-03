@@ -24,7 +24,7 @@ export default {
           },
           {
             name: '2. Livraria Lello',
-            description: 'A 1906 bookshop in Neo-Gothic and Art Nouveau style. The legendary wooden spiral staircase: a likely prototype for Hogwarts, although Rowling denies this. Entry is €8, credited towards the purchase of a book.',
+            description: 'A 1906 bookshop in Neo-Gothic and Art Nouveau style. The legendary wooden spiral staircase: a likely prototype for Hogwarts, although Rowling denies this. Entry is €10, credited towards the purchase of a book.',
             wikipedia: {
               ru: 'https://ru.wikipedia.org/wiki/%D0%9A%D0%BD%D0%B8%D0%B6%D0%BD%D1%8B%D0%B9_%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%D0%9B%D0%B5%D0%BB%D0%BB%D0%BE_%D0%B8_%D0%B1%D1%80%D0%B0%D1%82',
               en: 'https://en.wikipedia.org/wiki/Livraria_Lello',
@@ -55,7 +55,7 @@ export default {
             name: '5. Sé do Porto',
             description: 'A 12th-century fortress-like cathedral. The cloister has 18th-century azulejos, and there is a silver altar in the Chapel of the Blessed Sacrament. Nearby is a monument to Vimara Peres, the first Count of Portucale.',
             wikipedia: {
-              ru: 'https://ru.wikipedia.org/wiki/%D%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%9F%D0%BE%D1%80%D1%82%D1%83',
+              ru: 'https://ru.wikipedia.org/wiki/%D0%9A%D0%B0%D1%84%D0%B5%D0%B4%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D1%81%D0%BE%D0%B1%D0%BE%D1%80_%D0%9F%D0%BE%D1%80%D1%82%D1%83',
               en: 'https://en.wikipedia.org/wiki/Porto_Cathedral',
               pt: 'https://pt.wikipedia.org/wiki/S%C3%A9_Catedral_do_Porto'
             },
@@ -98,10 +98,10 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '👟 Steep descents from Clérigos to Ribeira — you need shoes with non-slip soles',
-          '🎟️ Lello — entry by timed slots book online in advance',
-          '🎟️ Palácio da Bolsa — guided visits only, 30-minute tours, €12',
+          '🎟️ Lello — entry by timed slots; book online in advance',
+          '🎟️ Palácio da Bolsa — guided visits only, 30-minute tours, €14',
           '🚇 Finish at Ribeira → “São Bento” or “Jardim do Morro” metro (Gaia)',
-          '🍷 Optional: cross the bridge to — wine cellars (Graham\'s, Sandeman, Taylor\'s, Cálem)',
+          '🍷 Optional: cross the bridge to Gaia — wine cellars (Graham\'s, Sandeman, Taylor\'s, Cálem)',
           '📸 Sunset from the bridge’s upper deck — the best photo of Porto'
         ]}
       ]
@@ -112,7 +112,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The city gave the country its name (“Portucale”) and still shares an informal “capital” role with Lisbon. In the 19th century, it was an industrial centre. The historic centre was added to the UNESCO list in 1996.' },
         { kind: 'wikiLink', title: 'Historic Centre of Porto (UNESCO)', urls: {
-          ru: 'https://ru.wikipedia.org/wiki/%0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%D0%9F%D0%BE%D1%80%D1%82%D1%83',
+          ru: 'https://ru.wikipedia.org/wiki/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9_%D1%86%D0%B5%D0%BD%D1%82%D1%80_%D0%9F%D0%BE%D1%80%D1%82%D1%83',
           en: 'https://en.wikipedia.org/wiki/Historic_Centre_of_Oporto',
           pt: 'https://pt.wikipedia.org/wiki/Centro_Hist%C3%B3rico_do_Porto'
         }}
@@ -124,6 +124,6 @@ export default {
     { title: 'UNESCO — Historic Centre of Oporto', url: 'https://whc.unesco.org/en/list/755/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Câmara Municipal do Porto', url: 'https://www.cm-porto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

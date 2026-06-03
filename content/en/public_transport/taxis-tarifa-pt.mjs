@@ -128,6 +128,6 @@ export default {
     { title: 'Lisboa Airport: taxis from the airport', url: 'https://www.aeroportolisboa.pt/en/lis/access-parking/getting-to-and-from-the-airport/taxi', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'FREE NOW Portugal: booking a Taxi through the app', url: 'https://www.free-now.com/pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'social-rules-condominio',
   categoryId: 'housing_rent',
   title: 'Vida num prédio de apartamentos — vizinhos, ruído, queixas',
-  tldr: 'Portugal é um país de protocolo quotidiano silencioso, mas os vizinhos variam. Regras de ruído: Regulamento Geral do Ruído (DL 9/2007) — período nocturno 23:00-07:00, diurno 07:00-20:00, entardecer 20:00-23:00 (definições padrão; os municípios podem acrescentar regras locais).\n\nOnde reclamar: GNR/PSP (infração pontual) → Câmara Municipal (infração continuada) → tribunal. Substituir por: «As coimas dependem da configuração da infração: para pessoas singulares, ao abrigo do RGR/Lei-Quadro das Contraordenações Ambientais, normalmente começam nos 200 € para infrações leves, mas em infrações graves os montantes são substancialmente mais elevados. Verifique o art. 28 DL 9/2007 e a Lei 50/2006 na redação em vigor». No condomínio, a assembleia geral aprova as regras internas; a assembleia realiza-se pelo menos 1 vez por ano. O Fundo Comum de Reserva é obrigatório.',
+  tldr: 'Portugal é um país de protocolo quotidiano silencioso, mas os vizinhos variam. Regras de ruído: Regulamento Geral do Ruído (DL 9/2007) — período nocturno 23:00-07:00, diurno 07:00-20:00, entardecer 20:00-23:00 (definições padrão; os municípios podem acrescentar regras locais).\n\nOnde reclamar: GNR/PSP (infração pontual) → Câmara Municipal (infração continuada) → tribunal. As coimas dependem da configuração da infração: para pessoas singulares, ao abrigo do RGR/Lei-Quadro das Contraordenações Ambientais, normalmente começam nos 200 € para infrações leves, mas em infrações graves os montantes são substancialmente mais elevados. Verifique o art. 28 DL 9/2007 e a Lei 50/2006 na redação em vigor. No condomínio, a assembleia geral aprova as regras internas; a assembleia realiza-se pelo menos 1 vez por ano. O Fundo Comum de Reserva é obrigatório.',
   tags: ['vizinhos', 'ruído', 'condomínio', 'queixas'],
   estimatedReadMinutes: 6,
   steps: [
@@ -18,7 +18,7 @@ export default {
               'Período diurno: 07:00-20:00',
               'Período entardecer: 20:00-23:00 (limites reduzidos)',
               '⚠️ Os municípios (Câmara Municipal) podem estabelecer regras locais adicionais e horas de silêncio — verifique o regulamento municipal da sua cidade',
-              'Escrever: «Lden/Lnight são usados para mapas de ruído e zonamento; para ruído doméstico vindo de vizinhos, é mais importante o regime de ruído de vizinhança e, em caso de medições, o critério de incomodidade. Não conte que a polícia vá verificar especificamente Lden 55/Lnight 45 dentro do apartamento».',
+              'Lden/Lnight são usados para mapas de ruído e zonamento; para ruído doméstico vindo de vizinhos, é mais importante o regime de ruído de vizinhança e, em caso de medições, o critério de incomodidade. Não conte que a polícia vá verificar especificamente Lden 55/Lnight 45 dentro do apartamento.',
               '🎵 Música no apartamento das 8:00-20:00 — dentro do razoável. Ao fim da tarde/noite — mais baixo. De noite — não deve ser audível através da parede'
             ]}
           ]},
@@ -26,7 +26,7 @@ export default {
             { kind: 'checklist', items: [
               'Música / TV alta, audível nos apartamentos vizinhos durante o período nocturno (23:00-07:00)',
               'Festas com ruído durante o período nocturno',
-              'Substituir por: «Obras/reparações ruidosas junto de habitações: regra geral — não realizar entre as 20:00-08:00, aos sábados, domingos e feriados sem licença especial de ruído. Obras dentro do edifício são normalmente admissíveis em dias úteis 08:00-20:00, com aviso aos moradores sobre a duração dos trabalhos. As regras municipais podem acrescentar detalhes».',
+              'Obras/reparações ruidosas junto de habitações: regra geral — não realizar entre as 20:00-08:00, aos sábados, domingos e feriados sem licença especial de ruído. Obras dentro do edifício são normalmente admissíveis em dias úteis 08:00-20:00, com aviso aos moradores sobre a duração dos trabalhos. As regras municipais podem acrescentar detalhes.',
               'Gritos, discussões, choro de bebé (crianças — exceção razoável em tribunal)',
               'Ladrar de cão na varanda (o dono é responsável)',
               'Ruído da água no duche depois das 23:00 (mais raro, mas há queixas em edifícios antigos)',
@@ -53,8 +53,8 @@ export default {
           { id: 'c2', title: 'Passo 2: Administrador do condomínio', content: [
             { kind: 'checklist', items: [
               'Se houver administrador — enviar uma comunicação formal (email é suficiente)',
-              'Escrever: «O administrador pode enviar uma advertência ao proprietário da fração e/ou levar o assunto à assembleia de condóminos. Se o infrator for arrendatário, normalmente atua-se através do proprietário-senhorio».',
-              'Substituir por: «Solução: advertência escrita ao proprietário → existindo fundamento no regulamento/decisão da assembleia, pode haver uma sanção pecuniária, cobrável ao infrator; o montante das sanções por ano é limitado por lei».',
+              'O administrador pode enviar uma advertência ao proprietário da fração e/ou levar o assunto à assembleia de condóminos. Se o infrator for arrendatário, normalmente atua-se através do proprietário-senhorio.',
+              'Procedimento: advertência escrita ao proprietário → existindo fundamento no regulamento ou em decisão da assembleia, pode haver uma sanção pecuniária, cobrável ao infrator; o montante das sanções por ano é limitado por lei.',
               'Se o administrador ignorar — passo seguinte'
             ]}
           ]},
@@ -72,7 +72,7 @@ export default {
               'Para uma infração continuada',
               'Entrega: online no site do município ou presencialmente no atendimento',
               'Medição de ruído: um técnico municipal desloca-se e mede o nível sonoro',
-              'Substituir por: «Se a infração for confirmada, pode ser iniciado processo de contraordenação. O valor da coima depende da classificação da infração pelo RGR e pela Lei 50/2006; não está universalmente limitado a 2 500 €/25 000 €».',
+              'Se a infração for confirmada, pode ser iniciado processo de contraordenação. O valor da coima depende da classificação da infração pelo RGR e pela Lei 50/2006; não está universalmente limitado a 2 500 €/25 000 €.',
               'Processo: 1-3 meses'
             ]}
           ]},
@@ -93,7 +93,7 @@ export default {
       id: 'condominio',
       title: '🏢 Como funciona o condomínio',
       content: [
-        { kind: 'paragraph', text: 'Substituir por: «O regime de condomínio/propriedade horizontal assenta sobretudo nos arts. 1414-1438-A do Código Civil e no DL 268/94; a Lei 8/2022 introduziu alterações importantes. O condomínio existe quando o edifício está constituído em propriedade horizontal com frações autónomas».' },
+        { kind: 'paragraph', text: 'O regime de condomínio/propriedade horizontal assenta sobretudo nos arts. 1414-1438-A do Código Civil e no DL 268/94; a Lei 8/2022 introduziu alterações importantes. O condomínio existe quando o edifício está constituído em propriedade horizontal com frações autónomas.' },
         { kind: 'substeps', items: [
           { id: 'cd1', title: 'Estrutura', content: [
             { kind: 'checklist', items: [
@@ -105,7 +105,7 @@ export default {
           ]},
           { id: 'cd2', title: 'Assembleia', content: [
             { kind: 'checklist', items: [
-              'Substituir por: «Ordinária: anualmente, regra geral na primeira quinzena de janeiro, para aprovar as contas do ano anterior e o orçamento; o regulamento/assembleia podem prever a realização no primeiro trimestre».',
+              'Ordinária: anualmente, regra geral na primeira quinzena de janeiro, para aprovar as contas do ano anterior e o orçamento; o regulamento ou a assembleia podem prever a realização no primeiro trimestre.',
               'Extraordinária: a pedido de 1/4 dos proprietários ou do administrador',
               'Votação: de acordo com a dimensão do apartamento (permilagens). 1 apartamento ≠ 1 voto',
               'As decisões são tomadas por maioria das permilagens; algumas (grandes reparações) — 2/3',
@@ -124,10 +124,10 @@ export default {
           { id: 'cd4', title: 'Infrações ao regulamento', content: [
             { kind: 'checklist', items: [
               '60 dias para impugnar uma decisão da assembleia',
-              'Substituir por: «Coimas/sanções pecuniárias são possíveis se previstas no regulamento ou por decisão da assembleia; o limite anual global das sanções é limitado pelo Código Civil art. 1434, pelo que não existe um intervalo fixo de 50-500 €».',
+              'Sanções pecuniárias são possíveis se previstas no regulamento ou por decisão da assembleia; o limite anual global das sanções é estabelecido pelo Código Civil art. 1434, pelo que não existe um intervalo fixo de 50-500 €.',
               'Grandes alterações no apartamento (demolir paredes): aprovação da assembleia',
               'Varanda: não se pode estender roupa para fora (em alguns condomínios), instalar ar condicionado (sem aprovação)',
-              'Substituir por: «O regulamento pode estabelecer regras para zonas comuns, higiene, trelas, elevador e ruído. A proibição total de manter um animal de estimação dentro de uma fração privada é juridicamente discutível; aplicam-se separadamente limites quanto ao número de animais e regras das autoridades municipais/veterinárias».',
+              'O regulamento pode estabelecer regras para zonas comuns, higiene, trelas, elevador e ruído. A proibição total de manter um animal de estimação dentro de uma fração privada é juridicamente discutível; aplicam-se separadamente limites quanto ao número de animais e regras das autoridades municipais/veterinárias.',
               'Colunas, festas — na maioria dos casos proibidas depois das 22:00'
             ]}
           ]}
@@ -140,11 +140,11 @@ export default {
       content: [
         { kind: 'checklist', items: [
           'Gozo pacífico: Lei 6/2006 (NRAU) — o senhorio garante a utilização tranquila',
-          'Escrever: «Se o ruído prejudicar substancialmente o uso da habitação, notifique o landlord por escrito e reúna provas. A possibilidade de redução da renda ou de resolução sem penalização não é automática; depende do contrato, do papel do landlord e da gravidade da infração, e muitas vezes exige legal advice».',
-          'Substituir por: «Em caso de obras ruidosas dentro do edifício, a responsible party deve afixar um notice em local acessível aos moradores com a duração dos trabalhos. Se as obras forem realizadas pelo seu landlord dentro da habitação arrendada, aplicam-se regras próprias do contrato de arrendamento e do Código Civil».',
+          'Se o ruído prejudicar substancialmente o uso da habitação, notifique o senhorio por escrito e reúna provas. A possibilidade de redução da renda ou de resolução sem penalização não é automática; depende do contrato, do papel do senhorio e da gravidade da infração, e muitas vezes exige aconselhamento jurídico.',
+          'Em caso de obras ruidosas dentro do edifício, o responsável deve afixar um aviso em local acessível aos moradores com a duração dos trabalhos. Se as obras forem realizadas pelo seu senhorio dentro da habitação arrendada, aplicam-se regras próprias do contrato de arrendamento e do Código Civil.',
           'Zonas comuns: tem direito a utilizá-las em igualdade com os proprietários (jardim, piscina, etc.)',
-          'Substituir por: «O arrendatário normalmente não vota nem tem direito automático de participação na assembleia; pode pedir ao landlord que apresente o assunto, emita uma procuração ou acorde a sua presença com o administrador/assembleia».',
-          'Substituir por: «EV charging: o regime está definido pelo Decreto-Lei 39/2010 na redação em vigor. A instalação em parking space exige notificação prévia por escrito à administração do condomínio e cumprimento dos requisitos técnicos/de segurança; opposition só é possível por fundamentos legais. Para o arrendatário, são adicionalmente importantes os direitos previstos no contrato de arrendamento e o consentimento/participação do proprietário, se o lugar não estiver na sua disponibilidade».'
+          'O arrendatário normalmente não vota nem tem direito automático de participação na assembleia; pode pedir ao senhorio que apresente o assunto, emita uma procuração ou acorde a sua presença com o administrador/assembleia.',
+          'Carregamento de veículos elétricos: o regime está definido pelo Decreto-Lei 93/2025 (RJME), que substituiu o anterior Decreto-Lei 39/2010. A instalação num lugar de estacionamento exige notificação prévia por escrito à administração do condomínio e cumprimento dos requisitos técnicos e de segurança; a oposição só é possível por fundamentos legais. Para o arrendatário, são adicionalmente importantes os direitos previstos no contrato de arrendamento e o consentimento/participação do proprietário, se o lugar não estiver na sua disponibilidade.'
         ]}
       ]
     },
@@ -158,7 +158,7 @@ export default {
           'Obras por baixo de si duram há mais de 3 meses → verificação de licenças no município, frequentemente ilegal',
           'Hostel vizinho / arrendamento de curta duração — ruído constante → AL (Alojamento Local) tem regras próprias; queixa na Câmara + ASAE; em algumas zonas (Bairro Alto, Baixa Lisbon) o AL é limitado',
           'Infiltração vinda do teto: notificação escrita ao vizinho, depois condomínio, depois seguradora',
-          'Substituir por: «Vizinho agressor: perante ameaça imediata — 112/PSP/GNR; apresente queixa-crime na PSP/GNR/Ministério Público. Para conflitos repetidos não criminais — Julgados de Paz ou mediação, se disponíveis».'
+          'Vizinho agressor: perante ameaça imediata — 112/PSP/GNR; apresente queixa-crime na PSP/GNR/Ministério Público. Para conflitos repetidos não criminais — Julgados de Paz ou mediação, se disponíveis.'
         ]}
       ]
     }
@@ -174,6 +174,6 @@ export default {
     { title: 'Lei 8/2022 — propriedade horizontal (condomínio)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/8-2022-180824432', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 6/2006 — NRAU (arrendamento urbano)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34454575', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

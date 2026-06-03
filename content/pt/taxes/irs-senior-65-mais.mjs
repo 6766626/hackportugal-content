@@ -3,7 +3,7 @@ export default {
   id: 'irs-senior-65-mais',
   categoryId: 'taxes',
   title: 'IRS para pensionistas 65+: regras especiais e deduções',
-  tldr: 'No IRS, ter 65+ anos, por si só, não dispensa a entrega da declaração. Com o OE 2025 (Lei 45-A/2024), a base da dedução específica para ambas as categorias A e H fica ligada à fórmula max(4 104 €; 8,54 × IAS desse ano).\n\nPara rendimentos de 2025 (declaração em 2026): 4 462,15 € (8,54 × IAS 2025 de 522,50 €) — por cada beneficiário de pensão (Categoria H) ou trabalhador (Categoria A). Pode declarar lares: 25% das despesas, com limite de cerca de 403 €. Pensão de alimentos: o beneficiário declara o rendimento, o pagador deduz 20% com base em decisão judicial/notarial. A declaração Modelo 3 relativa a 2025 é entregue de 1 de abril a 30 de junho de 2026.',
+  tldr: 'No IRS, ter 65+ anos, por si só, não dispensa a entrega da declaração. Com o OE 2025 (Lei 45-A/2024), a base da dedução específica para ambas as categorias A e H fica ligada à fórmula max(4 104 €; 8,54 × IAS desse ano).\n\nPara rendimentos de 2025 (declaração em 2026): 4 462,15 € (8,54 × IAS 2025 de 522,50 €) — por cada beneficiário de pensão (Categoria H) ou trabalhador (Categoria A). Pode declarar lares: 25% das despesas, com limite de 403,75 €. Pensão de alimentos: o beneficiário declara o rendimento, o pagador deduz 20% com base em decisão judicial/notarial. A declaração Modelo 3 relativa a 2025 é entregue de 1 de abril a 30 de junho de 2026.',
   tags: ['irs', 'pensão', '65mais', 'lares', 'deduções'],
   estimatedReadMinutes: 6,
   steps: [
@@ -43,9 +43,9 @@ export default {
     },
     {
       id: 'lares',
-      title: 'Lares e cuidados: dedução até 403 €',
+      title: 'Lares e cuidados: dedução até 403,75 €',
       content: [
-        { kind: 'paragraph', text: 'Despesas com lares, casas de repouso, apoio domiciliário e instituições para pessoas idosas podem dar uma dedução de 25% do valor, com limite de cerca de 403 € por ano. É uma dedução à coleta: reduz o IRS já calculado, não o rendimento.' },
+        { kind: 'paragraph', text: 'Despesas com lares, casas de repouso, apoio domiciliário e instituições para pessoas idosas podem dar uma dedução de 25% do valor, com limite de 403,75 € por ano. É uma dedução à coleta: reduz o IRS já calculado, não o rendimento.' },
         { kind: 'checklist', items: [
           'A fatura deve ter o seu NIF ou o NIF do familiar relativamente ao qual a despesa é declarada.',
           'Verifique a categoria das despesas no e-Fatura: os lares devem estar classificados corretamente.',
@@ -55,7 +55,7 @@ export default {
           'Serviços médicos dentro do lar podem entrar como saúde, se forem faturados por uma entidade médica separada e tiverem o CAE/IVA correto.',
           'Se o lar não comunicou a factura ao e-Fatura, peça a correção antes do fim do período de verificação de faturas.'
         ] },
-        { kind: 'warning', text: 'O limite de 403 € não é um reembolso em dinheiro. Só funciona se houver IRS calculado para reduzir. Com uma pensão muito baixa e IRS zero, a dedução pode não gerar reembolso efetivo.' }
+        { kind: 'warning', text: 'O limite de 403,75 € não é um reembolso em dinheiro. Só funciona se houver IRS calculado para reduzir. Com uma pensão muito baixa e IRS zero, a dedução pode não gerar reembolso efetivo.' }
       ]
     },
     {
@@ -111,7 +111,7 @@ export default {
   costs: [
     { label: 'Dedução específica para rendimentos de 2025 (Categoria H e A) — base única', amountEUR: 4462.15, note: '8,54 × IAS 2025 (522,50 €) = 4 462,15 € — aplica-se a cada titular com rendimento da Categoria H (pensões) ou A (trabalho) na declaração de IRS 2026.' },
     { label: 'Referência da dedução específica para rendimentos de 2026 (declaração em 2027)', amountEUR: 4587.09, note: '8,54 × IAS 2026 (537,13 €) ≈ 4 587,09 €.' },
-    { label: 'Dedução de lares', amountEURMax: 403, note: '25% das despesas, mas não acima do limite anual; o benefício efetivo depende do IRS calculado.' },
+    { label: 'Dedução de lares', amountEURMax: 403.75, note: '25% das despesas, mas não acima do limite anual de 403,75 €; o benefício efetivo depende do IRS calculado.' },
     { label: 'Pensão de alimentos do pagador', amountEURMin: 0, amountEURMax: 0, note: 'Não é um montante fixo: dedução de 20% dos pagamentos juridicamente comprovados.' }
   ],
   sources: [
@@ -144,6 +144,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

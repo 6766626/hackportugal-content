@@ -144,6 +144,6 @@ export default {
     { title: 'Rede Expressos — intercity coaches', url: 'https://rede-expressos.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ANA/VINCI Airports — Portugal airports and flights', url: 'https://www.ana.pt/en', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

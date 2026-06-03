@@ -15,10 +15,10 @@ export default {
         { kind: 'checklist', items: [
           'Reconhecimento de Qualificação Profissional — se tem uma qualificação pedagógica de professor e o direito de ensinar no país onde obteve a qualificação.',
           'Habilitação Própria — se tem um diploma académico na disciplina, mas não tem a formação profissional para a docência portuguesa completa.',
-          'Escreva: “Equivalência estrangeira de ensino básico/secundário — procedimento de reconhecimento de estudos escolares estrangeiros segundo as regras da DGE, normalmente apresentado através de uma escola portuguesa e não directamente na DGE; isto não confere estatuto de professor.”',
+          'Equivalência estrangeira de ensino básico/secundário — procedimento de reconhecimento de estudos escolares estrangeiros segundo as regras da DGE; normalmente é apresentado através de uma escola portuguesa e não directamente na DGE, e não confere estatuto de professor.',
           'Reconhecimento de grau académico na DGES/universidade — para ensino superior estrangeiro; muitas vezes é necessário antes da avaliação da qualificação de professor.',
           'DL 227/2005 — regime-chave para o reconhecimento de qualificação profissional estrangeira de professor.',
-          'DL 79/2014 — regime português de formação profissional para educadores de infância e professores dos ensinos básico e secundário.'
+          'DL 79/2014 (na redação atual, alterado até ao DL 9-A/2025) — regime português de formação profissional para educadores de infância e professores dos ensinos básico e secundário.'
         ] },
         { kind: 'warning', text: 'Habilitação Própria não equivale a “reconhecimento pleno como professor”. É uma via de recurso para contratação, mais frequentemente para vagas temporárias e em situações de falta de pessoal. Nos concursos, os candidatos com habilitação profissional ficam geralmente acima.' }
       ]
@@ -42,8 +42,9 @@ export default {
     },
     {
       id: 'habilitacao-propria',
-      title: 'Acrescente uma ressalva clara perto do início: “Habilitação Própria normalmente não é um procedimento separado de reconhecimento da profissão e não confere estatuto profissionalizado; é uma verificação da correspondência da formação académica aos requisitos de um grupo de recrutamento concreto no contexto de candidatura/contratação. Consulte o Guia/Lista de Habilitações da AGSE (ex-DGAE) actualizado para o grupo concreto.”',
+      title: '3. Quando usar Habilitação Própria',
       content: [
+        { kind: 'paragraph', text: 'Habilitação Própria normalmente não é um procedimento separado de reconhecimento da profissão e não confere estatuto profissionalizado: é uma verificação da correspondência da formação académica aos requisitos de um grupo de recrutamento concreto, no contexto de candidatura ou contratação. Consulte o Guia/Lista de Habilitações da AGSE (ex-DGAE) actualizado para o grupo concreto.' },
         { kind: 'paragraph', text: 'Habilitação Própria é uma via para pessoas com formação académica adequada na disciplina, mas sem formação profissional para a docência reconhecida.\n\nExemplo: um diploma de matemático, físico, engenheiro, filólogo ou biólogo pode ser adequado para determinados grupos de recrutamento, se o plano de estudos cobrir a área científica necessária.' },
         { kind: 'checklist', items: [
           'Primeiro reconheça o diploma estrangeiro de ensino superior em Portugal através da DGES/de uma universidade portuguesa, se a escola ou o concurso exigir grau reconhecido.',
@@ -123,8 +124,8 @@ export default {
     { title: 'Decreto-Lei 99/2025: cria a AGSE, I.P. e extingue a DGAE/DGEstE', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/99-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'DGE: Equivalências estrangeiras de escolaridade', url: 'https://www.dge.mec.pt/equivalencias-estrangeiras', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 227/2005: reconhecimento de qualificação profissional estrangeira de docentes', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/227-2005-469091', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Decreto-Lei 79/2014: regime jurídico da habilitação profissional para a docência', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/79-2014-25344769', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Decreto-Lei 79/2014 (na redação atual, alterado até ao DL 9-A/2025): regime jurídico da habilitação profissional para a docência', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/79-2014-25344769', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

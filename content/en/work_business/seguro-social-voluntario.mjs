@@ -3,7 +3,7 @@ export default {
   id: 'seguro-social-voluntario',
   categoryId: 'work_business',
   title: 'Seguro Social Voluntário: voluntary contributions to Segurança Social',
-  tldr: 'Seguro Social Voluntário is a voluntary Segurança Social scheme for residents aged 18+ who do not pay mandatory contributions as employees, recibos verdes or empresários. In 2026 the base is calculated from IAS €537.13; the standard rate is 26.9%, with a minimum of about €144.49/month. The scheme helps avoid gaps in your contributory career for old-age pension, disability and family benefits after death, but it does not replace SNS and is not needed by those already covered by the mandatory system.',
+  tldr: 'Seguro Social Voluntário is a voluntary Segurança Social scheme for people aged 18+ who are not covered by the mandatory system (employees, recibos verdes, empresários). Note: foreign and stateless citizens normally must have been residing in Portugal for more than one year. In 2026 the base is calculated from IAS €537.13; the standard rate is 26.9%, with a minimum of about €144.49/month. The scheme helps avoid gaps in your contributory career for old-age pension, disability and family benefits after death, but it does not replace SNS and is not needed by those already covered by the mandatory system.',
   tags: ['security', 'contributions', 'pension', 'niss'],
   estimatedReadMinutes: 5,
   steps: [
@@ -16,7 +16,7 @@ export default {
         { kind: 'checklist', items: [
           'Age: usually 18+.',
           'You need a NISS — the Segurança Social number.',
-          'You need to be a resident or have a lawful connection with Portugal that Segurança Social will accept for registration.',
+          'Foreign and stateless citizens normally must have been residing in Portugal for more than one year; a visa, NIF, NISS or address alone may not be enough. You must also be apto para o trabalho (fit for work).',
           'You must not simultaneously be covered by mandatory contributions as a trabalhador por conta de outrem, trabalhador independente / recibos verdes or member of órgãos estatutários.',
           'The scheme suits a work break, caring for relatives, study, an unpaid period, religious/volunteer activity and some special statuses.',
           'If you start working under a contract again or open recibos verdes with mandatory contributions, the voluntary scheme usually ends or becomes unnecessary.'
@@ -69,12 +69,12 @@ export default {
           'Prepare an identity document: passport, Cartão de Cidadão, residence permit or another document proving lawful stay.',
           'Prepare your NIF and current address in Portugal.',
           'Collect proof of the reason for registration: student status, declaração de cuidador, confirmation of volunteer/religious/research activity, or an explanation of the absence of mandatory coverage.',
-          'If Segurança Social asks, attach a medical declaration of fitness for work — this happens in some cases.',
+          'Check the current document list: Segurança Social may request a declaração médica of fitness for work, since aptidão para o trabalho is one of the scheme conditions.',
           'Submit the pedido de inscrição no Seguro Social Voluntário via gov.pt or at a balcão.',
           'Wait for deferimento and check the enquadramento in Segurança Social Direta.',
           'After approval, pay every month on time — registration itself does not create qualifying periods without payment.'
         ] },
-        { kind: 'warning', text: 'If you do not have a residence permit but have a D1-D8 visa, CPLP documents, Manifestação de Interesse/AIMA process or another transitional status, the decision may depend on how the Segurança Social balcão interprets your residência. Take all proof of address and lawful stay with you.' }
+        { kind: 'warning', text: 'If you only have a D1-D8 visa, CPLP documents, a Manifestação de Interesse/AIMA process or another transitional status without a residence permit and confirmed residência, check your eligibility in advance: foreigners normally need to have resided in Portugal for more than one year to enrol in SSV. Take all proof of address and lawful stay with you.' }
       ]
     },
     {
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

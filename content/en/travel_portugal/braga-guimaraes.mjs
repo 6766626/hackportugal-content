@@ -3,7 +3,7 @@ export default {
   id: 'braga-guimaraes',
   categoryId: 'travel_portugal',
   title: 'Braga and Guimarães — the “cradle of Portugal”',
-  tldr: 'Braga is the “Portuguese Rome”, the religious capital, with an 11th-century cathedral and the famous Bom Jesus do Monte (UNESCO)\.\n\nGuimarães (UNESCO) is where Portugal was born in 1128, with the castle of the first king, Afonso Henriques. From Porto — 1 hour by train. Both cities can be seen in a day with Porto as your base.',
+  tldr: 'Braga is the “Portuguese Rome”, the religious capital, with an 11th-century cathedral and the famous Bom Jesus do Monte (UNESCO).\n\nGuimarães (UNESCO) is where Portugal was born in 1128, with the castle of the first king, Afonso Henriques. From Porto — 1 hour by train. Both cities can be seen in a day with Porto as your base.',
   tags: ['braga', 'guimaraes', 'north', 'unesco'],
   estimatedReadMinutes: 7,
   steps: [
@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           '🚆 Porto-Campanhã → Braga: 1 hr by IC/AP train, €7–12',
           '🚆 Porto-Campanhã → Guimarães: 50 min by urban train, €4.70',
-          '🚌 Between Braga and Guimarães: there is practically no direct CP train (you need to change via Porto Urbanos hubs, which takes a long time). Better by bus ~40–50 min (Rede Expressos / GetBus, ~€5–7) or by car ~30 min (A3+A11)',
+          '🚌 Between Braga and Guimarães there is no direct CP train (only with a change at Lousado, ~1.5 hrs). Better by bus ~40–50 min (Rede Expressos / GetBus, ~€5–7) or by car ~30 min (A3+A11)',
           '🚌 Rede Expressos: Porto-Braga 45 min, €7; Porto-Guimarães 1 hr, €7',
           '🚗 Car: Porto-Braga 50 min via the A3, Porto-Guimarães 50 min via the A7'
         ]}
@@ -24,7 +24,7 @@ export default {
       id: 'braga',
       title: 'Braga — the “Portuguese Rome”',
       content: [
-        { kind: 'paragraph', text: 'The country’s oldest city (Roman Bracara Augusta, 2nd century BC). An archiepiscopal capital, with 35+ churches. Religious festivals (Semana Santa, processions) are the best season.' },
+        { kind: 'paragraph', text: 'The country’s oldest city (Roman Bracara Augusta, founded in 16 BC). An archiepiscopal capital, with 35+ churches. Religious festivals (Semana Santa, processions) are the best season.' },
         { kind: 'checklist', items: [
           '⛪ Sé de Braga — the country’s oldest cathedral (11th century), combining Romanesque, Gothic and Manueline styles. €5',
           '⛪ Bom Jesus do Monte (UNESCO) — a Baroque sanctuary on a hill 5 km from the centre. The legendary “stairway of the 5 senses”, and an 1882 funicular powered by water counterweight. Funicular — €3',
@@ -44,8 +44,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The historic capital of Portugal until 1139. On the wall is the inscription “Aqui nasceu Portugal” (“Portugal was born here”). The compact historic centre is UNESCO-listed.' },
         { kind: 'checklist', items: [
-          '🏰 Castelo de Guimarães (10th century) — the castle where Afonso Henriques, the first king, was born. €2',
-          '🏛️ Paço dos Duques de Bragança (15th century) — a castle-palace in Burgundian style, the residence of the dukes. €5',
+          '🏰 Castelo de Guimarães (10th century) — the castle where Afonso Henriques, the first king, was born. €5',
+          '🏛️ Paço dos Duques de Bragança (15th century) — a castle-palace in Burgundian style, the residence of the dukes. €5 (during restoration works; normally €10)',
           '⛪ Igreja de São Miguel do Castelo — a 12th-century Romanesque chapel, the place of Afonso’s baptism',
           '🏛️ Largo da Oliveira — the main square with an ancient olive tree and a Gothic monument',
           '⛪ Igreja da Nossa Senhora da Oliveira — a Gothic monastery-church',
@@ -63,7 +63,7 @@ export default {
           '09:00 — train Porto-Campanhã → Braga (1 hr)',
           '10:00–12:00 — Braga centre: Sé, Palácio do Raio, Largo do Paço',
           '12:00–14:00 — Bom Jesus do Monte (bus 2 or taxi €10). Lunch in a café by the funicular',
-          '14:00 — train Braga → Guimarães (35 min)',
+          '14:00 — bus Braga → Guimarães (~45 min; no direct train — only with a change at Lousado, ~1.5 hrs)',
           '15:00–18:00 — castle, Dukes’ Palace, historic centre, Largo da Oliveira',
           '18:00–19:00 — Teleférico da Penha at sunset (optional)',
           '19:30 — train to Porto (50 min)'
@@ -104,6 +104,6 @@ export default {
     { title: 'Visit Guimarães', url: 'https://www.cm-guimaraes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo do Porto e Norte', url: 'https://www.portoenorte.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

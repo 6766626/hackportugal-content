@@ -30,7 +30,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Avenidas Novas / Saldanha', content: [
-            { kind: 'paragraph', text: 'Business district. Metro on the blue and yellow lines. Many foreigners, restaurants, Corte Inglés. T1 €1,400–2,200, T2 €1,800–3,000.' }
+            { kind: 'paragraph', text: 'Business district. Metro on the blue and yellow lines. Many foreigners, restaurants, El Corte Inglés. T1 €1,400–2,200, T2 €1,800–3,000.' }
           ]},
           { id: 'f2', title: 'Areeiro / Roma', content: [
             { kind: 'paragraph', text: 'Quiet neighbourhoods with schools. Metro on the green line. There is a Russian-speaking club. T1 €1,200–1,800.' }
@@ -109,6 +109,6 @@ export default {
     { title: 'INE — housing statistics in Lisbon', url: 'https://www.ine.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Lisboa — tourist portal', url: 'https://www.visitlisboa.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

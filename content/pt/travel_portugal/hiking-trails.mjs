@@ -3,7 +3,7 @@ export default {
   id: 'hiking-trails',
   categoryId: 'travel_portugal',
   title: 'Caminhadas e trilhos ecológicos em Portugal — de um fim de semana a uma caminhada de vários dias',
-  tldr: 'Em Portugal há mais de 300 trilhos sinalizados (PR, GR, levadas)\.\n\nOs mais populares: levadas na Madeira (350 km), Rota Vicentina no sudoeste do Alentejo (450 km), trilhos PR na Serra da Estrela, Gerês, Açores. Percursos curtos de um dia (3-15 km, PR) estão disponíveis em todos os parques naturais; os trilhos GR de vários dias são assinalados com marcação vermelha e branca, e o alojamento é em albergues e casas rurais. A entrada é gratuita, mas alguns parques exigem registo online.\n\nÉpoca: abril-outubro no continente; Madeira — todo o ano.',
+  tldr: 'Em Portugal há mais de 300 trilhos sinalizados (PR, GR, levadas).\n\nOs mais populares: levadas na Madeira (350 km), Rota Vicentina no sudoeste do Alentejo (450 km), trilhos PR na Serra da Estrela, Gerês, Açores. Percursos curtos de um dia (3-15 km, PR) estão disponíveis em todos os parques naturais; os trilhos GR de vários dias são assinalados com marcação vermelha e branca, e o alojamento é em albergues e casas rurais. A entrada é gratuita, mas alguns parques exigem registo online.\n\nÉpoca: abril-outubro no continente; Madeira — todo o ano.',
   tags: ['caminhadas', 'trilhos ecológicos', 'trilhos', 'levadas'],
   estimatedReadMinutes: 7,
   steps: [
@@ -160,7 +160,7 @@ export default {
           '🚨 Número de emergência 112: funciona na maioria dos parques',
           '🐴 Animais selvagens: cavalos selvagens no Gerês, javalis, raposas, no Algarve — genetas. Não há perigo sério para as pessoas',
           '🐍 Cobras: vípera seoanei é venenosa — aparece raramente, normalmente foge. Verifique as botas de manhã',
-          '🔥 Incêndios: julho-setembro — risco elevado; nível vermelho = proibição de todos os trilhos abertos. Verificar em dgeg.gov.pt',
+          '🔥 Incêndios: julho-setembro — risco elevado; nível vermelho = proibição de todos os trilhos abertos. Verificar em ipma.pt',
           '🥵 Calor: no verão, começar antes das 8 da manhã, terminar até às 13. A diferença entre a manhã e o meio-dia é de 10°C',
           '🌨️ No inverno na Serra da Estrela: neve, gelo; não vá sem preparação',
           '📍 Mapas offline: descarregar com antecedência; nas montanhas de Portugal muitas vezes não há rede',
@@ -184,6 +184,6 @@ export default {
     { title: 'Rota Vicentina', url: 'https://rotavicentina.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Madeira Levadas', url: 'https://www.visitmadeira.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

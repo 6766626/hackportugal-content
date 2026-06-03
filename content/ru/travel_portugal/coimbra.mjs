@@ -3,7 +3,7 @@ export default {
   id: 'coimbra',
   categoryId: 'travel_portugal',
   title: 'Коимбра — старейший университет Португалии',
-  tldr: 'Коимбра — город-университет в центре страны, в 1 ч от Лиссабона или Порту поездом. Universidade de Coimbra (ЮНЕСКО, 1290) с легендарной Biblioteca Joanina. Атмосфера древней академии, мужской вариант фаду. Достаточно 1 дня.',
+  tldr: 'Коимбра — город-университет в центре страны, в 1–2 ч от Лиссабона или Порту поездом. Universidade de Coimbra (ЮНЕСКО, 1290) с легендарной Biblioteca Joanina. Атмосфера древней академии, мужской вариант фаду. Достаточно 1 дня.',
   tags: ['коимбра', 'университет', 'экскурсия'],
   estimatedReadMinutes: 6,
   steps: [
@@ -57,7 +57,7 @@ export default {
         { kind: 'paragraph', text: 'Студенты Коимбры носят чёрные плащи (capas e batinas) — так делают с XIII века. Весной, в мае, проходит Queima das Fitas, праздник выпускников: процессии, концерты, песни.' },
         { kind: 'checklist', items: [
           '🎵 Fado de Coimbra — мужской вариант фаду, исполняется только мужчинами в плащах. Отличается от лиссабонского. Концерты в Fado ao Centro или ao Capricho',
-          '🎓 Praxe — студенческие ритуалы посвящения первокурсников (сентябрь-октябрь)',
+          '🎓 Praxe — студенческие ритуалы посвящения первокурсников (сентябрь — октябрь)',
           '🎪 Queima das Fitas — 8 дней в мае, концерты в парке Санта-Круш',
           '🎭 Bar Académico — студенческие бары, но легко зайти с пропуском'
         ]}
@@ -68,7 +68,7 @@ export default {
       title: 'Рядом',
       content: [
         { kind: 'checklist', items: [
-          '🏛️ Conímbriga (15 км) — руины крупнейшего римского города Португалии, II в. до н. э. Мозаики, форум, термы. € 5',
+          '🏛️ Conímbriga (15 км) — руины лучше всего сохранившегося римского города Португалии (I–III вв. н. э.). Мозаики, форум, термы. € 5',
           '🌲 Serra da Lousã (30 км) — горы со сланцевыми деревнями (Talasnal, Candal, Cerdeira)',
           '⛰️ Penela (30 км) — средневековый замок XII в.',
           '🏖️ Figueira da Foz (45 км) — пляжный курорт на океане',
@@ -96,6 +96,6 @@ export default {
     { title: 'Turismo de Coimbra — муниципальный туризм', url: 'https://www.visitportugal.com/en/node/73754', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo do Centro — регион', url: 'https://www.turismodocentro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -128,7 +128,7 @@ export default {
           ]},
           { id: 'd7', title: 'Dependants', content: [
             { kind: 'checklist', items: [
-              'Fixed deductions for dependentes: €600 (1st child), €726 (2nd if under age 6), €900 (3rd and subsequent) — exact amounts depend on age and household composition',
+              'Fixed deductions for dependentes: €600 per child over age 3, €726 per child up to age 3 (inclusive), €900 from the second dependant onwards up to age 6 (regardless of the first dependant age) — exact amounts depend on age and household composition',
               'Elderly parents with low income — deduction',
               'Disability: enhanced deductions',
               'Single parent: +increase'
@@ -187,6 +187,6 @@ export default {
     { title: 'e-Fatura — electronic invoices portal', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — filing IRS', url: 'https://www.gov.pt/servicos/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

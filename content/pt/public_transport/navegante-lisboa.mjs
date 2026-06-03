@@ -3,7 +3,7 @@ export default {
   id: 'navegante-lisboa',
   categoryId: 'public_transport',
   title: 'Navegante — passe da Grande Lisboa',
-  tldr: 'Navegante é o passe único para a região de Lisboa: metro, autocarros Carris, comboios CP, ferries fluviais Transtejo, Fertagus, MTS. Dois tipos principais: mensal Metropolitano (40 €) ou Municipal (30 €).\n\nCrianças até aos 12 anos — grátis (desde 2024), jovens dos 13 aos 18 anos e estudantes — 20 €. Compra-se numa máquina do metro, nos postos da Carris ou através da aplicação.',
+  tldr: 'Navegante é o passe único para a região de Lisboa: metro, autocarros Carris, comboios CP, ferries fluviais Transtejo, Fertagus, MTS. Dois tipos principais: mensal Metropolitano (40 €) ou Municipal (30 €).\n\nCrianças até aos 12 anos viajam grátis (desde 2024) e os estudantes até aos 23 anos (Sub18/Sub23) também viajam grátis, desde que inscritos num estabelecimento de ensino. Compra-se numa máquina do metro, nos postos da Carris ou através da aplicação.',
   tags: ['navegante', 'passe', 'lisboa', 'metro', 'autocarro'],
   estimatedReadMinutes: 5,
   steps: [
@@ -21,8 +21,8 @@ export default {
           { id: 't3', title: 'Navegante Social / benefícios', content: [
             { kind: 'checklist', items: [
               'Crianças até aos 12 anos — GRÁTIS (desde 2024)',
-              '13–18 anos + estudantes até aos 23 anos — 20 €/mês',
-              'Idosos 65+ — 20 €/mês',
+              'Alunos e estudantes até aos 23 anos (Sub18/Sub23) — GRÁTIS se inscritos num estabelecimento de ensino',
+              'Idosos 65+ — 20 €/mês (Metropolitano); residentes em Lisboa têm o Navegante Urbano 3.ª Idade gratuito',
               'Refugiados / beneficiários de apoio social — até 50 %'
             ]}
           ]},
@@ -94,8 +94,8 @@ export default {
   costs: [
     { label: 'Navegante Metropolitano', amountEUR: 40, note: '€/mês' },
     { label: 'Navegante Municipal', amountEUR: 30, note: '€/mês' },
-    { label: 'Crianças 13–18 / estudantes', amountEUR: 20, note: '€/mês' },
-    { label: 'Idosos 65+', amountEUR: 20 },
+    { label: 'Alunos e estudantes até aos 23 (Sub18/Sub23)', amountEUR: 0, note: 'grátis se inscritos' },
+    { label: 'Idosos 65+ (Metropolitano)', amountEUR: 20 },
     { label: 'Primeiro cartão (plástico)', amountEUR: 6 },
     { label: 'Multa por viajar sem título válido', amountEURMin: 60, amountEURMax: 120 }
   ],
@@ -106,6 +106,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

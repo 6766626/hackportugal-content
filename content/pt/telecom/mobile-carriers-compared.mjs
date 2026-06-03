@@ -197,7 +197,7 @@ export default {
         { kind: 'checklist', items: [
           '📋 Livro de Reclamações — o operador é obrigado a responder em 15 dias',
           '🏛️ ANACOM — regulador, reclamação online em anacom.pt',
-          '⚖️ Arbitragem CNIACC — obrigatória para operadores em pedidos < 5 000 €',
+          '⚖️ Arbitragem CNIACC — obrigatória para operadores em pedidos até 5 000 €',
           '🚫 Cessação do serviço sem motivo — infração; compensação',
           '📅 Em caso de atrasos no pagamento — aviso com 15 dias antes do corte',
           '🔍 Tarifarios.anacom.pt — comparador oficial de tarifários (atualizado regularmente)'
@@ -225,6 +225,6 @@ export default {
     { title: 'Decreto-Lei 74-B/2021 — serviços de comunicações', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2021-170593125', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'CNIACC — arbitragem nacional de telecomunicações', url: 'https://www.cniacc.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 120
 }

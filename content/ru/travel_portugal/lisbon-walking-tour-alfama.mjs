@@ -3,7 +3,7 @@ export default {
   id: 'lisbon-walking-tour-alfama',
   categoryId: 'travel_portugal',
   title: 'Пешеходный маршрут по Алфаме — старейшему району Лиссабона',
-  tldr: 'Маршрут 3 км на 2,5–3,5 часа через сердце средневекового Лиссабона. Начало — Sé de Lisboa, финиш — Miradouro da Graça. Неспешный подъём по узким мощёным улочкам, замок, 3 смотровые площадки, музей фаду. Удобно сочетать с ужином в одной из местных таверн с живым фаду.',
+  tldr: 'Маршрут длиной 3 км, рассчитанный на 2,5–3,5 часа, через сердце средневекового Лиссабона. Начало — Sé de Lisboa, финиш — Miradouro da Graça. Неспешный подъём по узким мощёным улочкам, замок, 3 смотровые площадки, музей фаду. Удобно сочетать с ужином в одной из местных таверн с живым фаду.',
   tags: ['лиссабон', 'алфама', 'пешая экскурсия', 'фаду', 'достопримечательности'],
   estimatedReadMinutes: 6,
   steps: [
@@ -102,7 +102,7 @@ export default {
           '💧 Возьмите воду с собой — кафе есть, но встречаются редко и стоят дорого',
           '🎒 Следите за карманами в толпе туристов у Sé и Castelo',
           '🚇 Начало маршрута — в 3 мин от метро Baixa-Chiado (выход «Rua Augusta»)',
-          '🎟️ Castelo de São Jorge: билет 20 € (2026), бронировать онлайн',
+          '🎟️ Castelo de São Jorge: билет 17 € (2026), бронировать онлайн',
           '🎵 Вечером в Алфаме — десятки местных таверн с живым фаду (ужин + вино ~35–50 €/чел)'
         ]}
       ]
@@ -125,6 +125,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — Património', url: 'https://www.lisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UNESCO — нематериальное наследие: фаду', url: 'https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

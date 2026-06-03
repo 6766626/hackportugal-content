@@ -17,7 +17,7 @@ export default {
           'Проверяйте не название региона, а конкретный маршрут: origem → destino.',
           'Смотрите, входит ли оператор: Aveirobus, SMTUC/Coimbra, Vamus, Move Centro, CP или другой.',
           'Уточняйте тип pass: municipal, intermunicipal, regional, urbano, estudante, sénior.',
-          'Обычный месячный pass обычно действует календарный месяц, а не 30 дней с даты покупки.',
+          'Обычный месячный pass, как правило, действует календарный месяц, а не 30 дней с даты покупки.',
           'Первичная карта часто стоит отдельно: обычно 3–7 €, зависит от оператора.',
           'Для льгот почти всегда нужен NIF и документ: ВНЖ/паспорт, comprovativo de morada, declaração de matrícula или справка Segurança Social.',
           'Пополнение возможно в kiosks/lojas do operador, Multibanco, Payshop, app или онлайн — но не везде одинаково.',
@@ -35,7 +35,7 @@ export default {
           'Если ездите из соседнего concelho: проверяйте intermunicipal pass на passe.pt по точным остановкам.',
           'CP Linha do Norte / Linha do Vouga обычно не считается автоматически частью Aveirobus-pass.',
           'Студентам Universidade de Aveiro стоит проверить студенческий pass и отдельные соглашения с município.',
-          'Для льготного pass подготовьте NIF, документ личности и proof of address в Aveiro или регионе.',
+          'Для льготного pass подготовьте NIF, документ личности и comprovativo de morada в Aveiro или регионе.',
           'Карту лучше оформлять заранее в начале месяца: в первые рабочие дни очереди выше.'
         ] },
         { kind: 'warning', text: 'Aveirobus-pass не равен “проездному по округу Aveiro”. Если маршрут обслуживает другой оператор или поезд CP, нужна отдельная проверка тарифа.' }
@@ -65,7 +65,7 @@ export default {
         { kind: 'paragraph', text: 'В 2026 для регулярных поездок по Algarve чаще всего смотрят municipal pass для одного concelho или regional/intermunicipal pass Vamus. Практический потолок для обычного месячного регионального pass — около 40 €, но городские сети, аэропортовые маршруты, туристические shuttle и поезд CP Linha do Algarve могут иметь отдельные правила.' },
         { kind: 'checklist', items: [
           'Проверьте маршрут на vamusalgarve.pt или passe.pt: в Algarve расстояния большие, а частота рейсов разная по сезонам.',
-          'Faro Airport, praia routes и летние усиленные линии могут отличаться по тарифу.',
+          'Faro Airport, пляжные маршруты и летние усиленные линии могут отличаться по тарифу.',
           'CP Linha do Algarve не включайте в расчёт pass, пока не увидите это прямо в условиях.',
           'Если живёте в Loulé/Albufeira/Portimão/Lagos и ездите только внутри concelho, municipal pass может быть дешевле регионального.',
           'Для молодых студентов используйте Passe Gratuito Jovem Estudante/Sub23, если соответствуете требованиям.',
@@ -110,7 +110,7 @@ export default {
             ] }
           ] },
           { id: 'validate', title: '3. Проверьте карту после пополнения', content: [
-            { kind: 'paragraph', text: 'После carregamento проверьте receipt: месяц, зоны, origem/destino, operador. Ошибку проще исправить сразу в loja, чем после штрафа у контролёра.' }
+            { kind: 'paragraph', text: 'После carregamento проверьте чек: месяц, зоны, origem/destino, operador. Ошибку проще исправить сразу в loja, чем после штрафа у контролёра.' }
           ] }
         ] },
         { kind: 'warning', text: 'Не выбрасывайте старую карту при переезде внутри региона. Иногда на неё можно записать новый профиль или pass, а новая карта стоит отдельно.' }
@@ -121,7 +121,7 @@ export default {
     { label: 'Обычный municipal pass', amountEURMax: 30, note: 'Типичный субсидируемый потолок 2026 для поездок внутри одного município; фактическая цена зависит от оператора.' },
     { label: 'Обычный intermunicipal/regional pass', amountEURMax: 40, note: 'Ориентир 2026 для межмуниципальных поездок в рамках PART/региональной сети, если маршрут включён.' },
     { label: 'Выпуск транспортной карты', amountEURMin: 3, amountEURMax: 7, note: 'Разово; зависит от Aveirobus, Coimbra/SMTUC, Vamus, Move Centro или местного agente.' },
-    { label: 'Passe Gratuito Jovem Estudante / Sub23', amountEUR: 0, note: 'Для eligible студентов/школьников при ежегодном подтверждении matrícula; оформляется по правилам оператора и учебного заведения.' }
+    { label: 'Passe Gratuito Jovem Estudante / Sub23', amountEUR: 0, note: 'Для подходящих студентов/школьников при ежегодном подтверждении matrícula; оформляется по правилам оператора и учебного заведения.' }
   ],
   sources: [
     {
@@ -153,6 +153,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

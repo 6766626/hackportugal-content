@@ -29,7 +29,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The basic rule is Reg. (EC) 883/2004 art. 12: a worker whose employer normally carries out activity in one EU country and sends them to another EU country may remain in the system of the first country if the expected duration of the work does not exceed 24 months.' },
         { kind: 'checklist', items: [
-          'The worker has an active link to Segurança Social in Portugal before the posting',
+          'The worker is already subject to Portuguese Segurança Social before the posting (under EU guidance, normally for at least one month); hiring someone solely to post them abroad can be challenged',
           'There is an employment contract with a Portuguese employer',
           'The employer retains authority: setting tasks, pay, discipline and leave',
           'The work abroad is limited in advance by duration',
@@ -59,7 +59,7 @@ export default {
             ] }
           ] },
           { id: 'ssd-menu', title: '2. Submit in Segurança Social Direta', content: [
-            { kind: 'paragraph', text: 'The employer logs in to Segurança Social Direta with its own access. Menus and names may change, but the relevant service relates to pedidos de destacamento / trabalhadores destacados para o estrangeiro / certificado A1.' },
+            { kind: 'paragraph', text: 'The employer logs in to Segurança Social Direta with its own access. Menus and names may change, but in practice the path is Emprego > Destacar trabalhador para o estrangeiro > Registar pedido de destacamento. For a period up to 24 months, form RV1018-DGSS is used; for more than 24 months (the exception under art. 16), form RV1020-DGSS.' },
             { kind: 'paragraph', text: 'If the required option is not available in the interface, the practical route is a mensagem/pedido through Segurança Social Direta or contact with the employer’s Centro Distrital da Segurança Social. For large companies, this is often handled by payroll or an HR provider.' }
           ] },
           { id: 'receive-a1', title: '3. Receive the certificado A1', content: [
@@ -105,9 +105,16 @@ export default {
   ],
   costs: [
     { label: 'A1 request to Segurança Social', amountEUR: 0, note: 'There is usually no state fee for issuing a certificado A1; costs may arise only for the employer’s payroll/lawyer/provider.' },
-    { label: 'Fines for lack of posting compliance', amountEURMin: 0, amountEURMax: 0, note: 'They depend on the destination country; check the rules of the specific labour inspectorate before departure.' }
+    { label: 'Fines for lack of posting compliance', note: 'Amounts depend on the destination country; check the specific figures with the host country’s labour inspectorate before departure.' }
   ],
   sources: [
+    {
+      title: 'Segurança Social: posting workers abroad / Documento Portátil A1',
+      url: 'https://www.seg-social.pt/ptss/pssd/menu/trabalho/entrada-saida-destacamento-trabalhadores/destacamento-trabalhadores',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
+    },
     {
       title: 'gov.pt: posting workers from Portugal to European Union countries',
       url: 'https://www2.gov.pt/en/cidadaos-europeus-viajar-viver-e-fazer-negocios-em-portugal/trabalhadores-em-portugal/destacamento-de-trabalhadores-para-paises-da-uniao-europeia',
@@ -124,19 +131,19 @@ export default {
     },
     {
       title: 'Regulation (EC) No 883/2004, art. 12 and art. 16 — coordination of social security systems',
-      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004R0883-20140101',
+      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02004R0883',
       kind: 'law',
       language: 'en',
       lastRetrieved: '2026-04-28'
     },
     {
       title: 'Regulation (EC) No 987/2009 — implementing rules for social security coordination',
-      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0987-20180101',
+      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02009R0987',
       kind: 'law',
       language: 'en',
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

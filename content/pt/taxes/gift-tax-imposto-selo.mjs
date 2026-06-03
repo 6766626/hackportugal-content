@@ -3,7 +3,7 @@ export default {
   id: 'gift-tax-imposto-selo',
   categoryId: 'taxes',
   title: 'Imposto sobre presentes: Imposto do Selo de 10% e exceções para a família',
-  tldr: 'Em Portugal não existe um “imposto sobre doações” como imposto autónomo: os presentes são tributados em Imposto do Selo. A taxa base é de 10% para transmissões gratuitas e, no caso de doação de imóveis, aplica-se normalmente mais 0,8%. Há isenção total dos 10% para cônjuge/unido de facto, ascendants e descendants. Irmãos, amigos e parceiros sem união de facto não estão isentos. Presentes em dinheiro de familiares próximos acima de 5 000 € continuam a ter de ser declarados através da Modelo 1 IS.',
+  tldr: 'Em Portugal não existe um “imposto sobre doações” como imposto autónomo: os presentes são tributados em Imposto do Selo. A taxa base é de 10% para transmissões gratuitas e, no caso de doação de imóveis, aplica-se normalmente mais 0,8%. Há isenção total dos 10% para cônjuge/unido de facto, ascendentes e descendentes. Irmãos, amigos e parceiros sem união de facto não estão isentos. Presentes em dinheiro de familiares próximos acima de 5 000 € continuam a ter de ser declarados através da Modelo 1 IS.',
   tags: ['imposto', 'selo', 'presentes', 'finanças'],
   estimatedReadMinutes: 5,
   steps: [
@@ -44,12 +44,12 @@ export default {
       id: 'family-exemptions',
       title: 'Quem está isento: família em linha direta',
       content: [
-        { kind: 'paragraph', text: 'A principal exceção: isenção dos 10% para cônjuge ou unido de facto, descendants e ascendants. Esta é a linha familiar direta: pais, avós, filhos, netos. O cônjuge e o unido de facto oficialmente reconhecido também estão incluídos.' },
+        { kind: 'paragraph', text: 'A principal exceção: isenção dos 10% para cônjuge ou unido de facto, descendentes e ascendentes. Esta é a linha familiar direta: pais, avós, filhos, netos. O cônjuge e o unido de facto oficialmente reconhecido também estão incluídos.' },
         { kind: 'checklist', items: [
           'Estão isentos dos 10%: marido/mulher — cônjuge.',
           'Está isento o unido de facto, se a união de facto puder ser comprovada segundo as regras portuguesas.',
-          'Estão isentos os ascendants: pais, avós.',
-          'Estão isentos os descendants: filhos, netos.',
+          'Estão isentos os ascendentes: pais, avós.',
+          'Estão isentos os descendentes: filhos, netos.',
           'Não estão isentos: irmão, irmã, tio, tia, sobrinho, primo.',
           'Não está isento o parceiro com quem “apenas vivemos juntos”, se não existir estatuto de união de facto.',
           'Não estão isentos amigos e terceiros.',
@@ -62,8 +62,8 @@ export default {
       id: 'declaration-modelo-1',
       title: 'Modelo 1 IS: quando e como declarar',
       content: [
-        { kind: 'paragraph', text: 'A declaração chama-se Modelo 1 do Imposto do Selo — Participação de Transmissões Gratuitas. O prazo geral de entrega é até ao fim do 3.º mês seguinte ao mês em que ocorreu a doação ou surgiu a obrigação fiscal.\n\nPor exemplo, presente recebido em 10 de abril de 2026: prazo de referência — até 31 de julho de 2026.' },
-        { kind: 'paragraph', text: 'Para a família próxima existe um limite prático importante: presentes em dinheiro de cônjuge/unido de facto, ascendants ou descendants acima de 5 000 € estão isentos dos 10%, mas têm de ser declarados. Abaixo de 5 000 €, a obrigação declarativa para estes presentes em dinheiro geralmente não se aplica.' },
+        { kind: 'paragraph', text: 'A declaração chama-se Modelo 1 do Imposto do Selo — Participação de Transmissões Gratuitas. O prazo geral de entrega é até ao fim do 3.º mês seguinte ao da doação (ou ao do momento em que surgiu a obrigação fiscal).\n\nPor exemplo, presente recebido em 10 de abril de 2026: prazo de referência — até 31 de julho de 2026.' },
+        { kind: 'paragraph', text: 'Para a família próxima existe um limite prático importante: presentes em dinheiro de cônjuge/unido de facto, ascendentes ou descendentes acima de 5 000 € estão isentos dos 10%, mas têm de ser declarados. Abaixo de 5 000 €, a obrigação declarativa para estes presentes em dinheiro geralmente não se aplica.' },
         { kind: 'checklist', items: [
           'Entre no Portal das Finanças com NIF e palavra-passe ou Chave Móvel Digital (CMD).',
           'Procure a secção Imposto do Selo / Transmissões Gratuitas / Modelo 1.',
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

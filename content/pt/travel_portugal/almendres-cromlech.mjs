@@ -81,6 +81,6 @@ export default {
     { title: 'Visit Alentejo — Cromeleque dos Almendres', url: 'https://www.visitalentejo.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — megalitismo', url: 'https://www.visitportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

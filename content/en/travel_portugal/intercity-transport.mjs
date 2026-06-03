@@ -3,7 +3,7 @@ export default {
   id: 'intercity-transport',
   categoryId: 'travel_portugal',
   title: 'Intercity transport in Portugal — train, coach, plane',
-  tldr: 'Three channels: CP trains (comfort + Lisbon–Porto–Braga network + Alentejo), Rede Expressos coaches (cheap national network) and FlixBus (international)\.\n\nIslands — TAP, SATA, Ryanair flights and Atlanticoline ferries. Algarve — EVA coaches. The Omio aggregator brings everything together. When booking 2–4 weeks in advance, prices fall by 30–50%.',
+  tldr: 'Three channels: CP trains (comfort + Lisbon–Porto–Braga network + Alentejo), Rede Expressos coaches (cheap national network) and FlixBus (international).\n\nIslands — TAP, SATA, Ryanair flights and Atlanticoline ferries. Algarve — EVA coaches. The Omio aggregator brings everything together. When booking 2–4 weeks in advance, prices fall by 30–50%.',
   tags: ['transport', 'train', 'coach', 'plane', 'cp', 'rede expressos'],
   estimatedReadMinutes: 7,
   steps: [
@@ -28,7 +28,7 @@ export default {
               'Lisbon–Faro: €20–30',
               'Lisbon–Coimbra: €15–25',
               'Porto–Braga: €5–8',
-              'Discounts: 50% for children aged 4-13, 25-50% for students, 50% for pensioners aged 65+',
+              'Discounts: 50% for children aged 4-12, 25-50% for students, 50% for pensioners aged 65+',
               'Interrail Pass: available to residents of Portugal'
             ]}
           ]},
@@ -87,7 +87,7 @@ export default {
           '🇵🇹 TAP Portugal — main carrier, hub in Lisbon',
           '🇵🇹 SATA Azores Airlines — Azores specialist, inter-island flights',
           '💶 Ryanair — Porto/Lisbon to Madeira ~€40–80 in advance',
-          '🏝️ Madeira: Lisbon–Funchal 1:40 min, €50–150',
+          '🏝️ Madeira: Lisbon–Funchal 1:40, €50–150',
           '🏝️ Azores: Lisbon–Ponta Delgada 2:15, €80–200'
         ]}
       ]
@@ -135,6 +135,6 @@ export default {
     { title: 'Atlanticoline — ferries in the Azores', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

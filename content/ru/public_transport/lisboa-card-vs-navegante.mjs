@@ -3,7 +3,7 @@ export default {
   id: 'lisboa-card-vs-navegante',
   categoryId: 'public_transport',
   title: 'Lisboa Card vs Navegante: что брать туристу, что резиденту',
-  tldr: 'Для туриста на 1–3 дня Lisboa Card имеет смысл только если вы реально идёте в платные музеи/достопримечательности: транспорт включён, но цена карты в 2026 обычно выше простого проездного на 24 ч. Для резидента почти всегда выгоднее Navegante: Metropolitano — 40 €/мес на 18 муниципалитетов Área Metropolitana de Lisboa, Municipal — 30 €/мес внутри одного município. Если вы в Лиссабоне на несколько дней без музеев — берите Navegante occasional/Visitor с zapping или 24h pass.',
+  tldr: 'Для туриста на 1–3 дня Lisboa Card имеет смысл только если вы реально идёте в платные музеи/достопримечательности: транспорт включён, но в 2026 году карта обычно стоит дороже простого суточного проездного. Для резидента почти всегда выгоднее Navegante: Metropolitano — 40 €/мес на 18 муниципалитетов Área Metropolitana de Lisboa, Municipal — 30 €/мес внутри одного município. Если вы в Лиссабоне на несколько дней без музеев — берите Navegante occasional/Visitor с zapping или 24h pass.',
   tags: ['lisboa', 'navegante', 'транспорт', 'туризм'],
   estimatedReadMinutes: 5,
   steps: [
@@ -30,8 +30,8 @@ export default {
         { kind: 'checklist', items: [
           'Срок действия: 24 ч, 48 ч или 72 ч с момента первого использования.',
           'Включает Metro, Carris, трамваи, Elevadores, Santa Justa, а также поезда CP до Sintra и Cascais по условиям карты.',
-          'Главная ценность — не транспорт, а бесплатный/льготный вход в музеи и monuments.',
-          'Официальные цены меняются; в 2026 проверяйте Visit Lisboa перед покупкой. Старые диапазоны вроде 22–42 € часто уже не отражают актуальные adult-тарифы.',
+          'Главная ценность — не транспорт, а бесплатный или льготный вход в музеи и достопримечательности.',
+          'Официальные цены меняются; в 2026 проверяйте Visit Lisboa перед покупкой. Старые диапазоны вроде 22–42 € часто уже не отражают актуальные тарифы для взрослых.',
           'Покупать заранее онлайн удобно, но активируется карта при первом использовании.',
           'Не заменяет месячный Navegante и не подходит как «проездной для жизни» в Лиссабоне.'
         ] },
@@ -114,13 +114,13 @@ export default {
     { label: 'Navegante Metropolitano', amountEUR: 40, note: 'Месячный абонемент на Área Metropolitana de Lisboa; лучший выбор для большинства резидентов агломерации.' },
     { label: 'Navegante Família Municipal', amountEUR: 60, note: 'Семейный месячный лимит при соблюдении условий домохозяйства.' },
     { label: 'Navegante Família Metropolitano', amountEUR: 80, note: 'Семейный месячный лимит для поездок по всей агломерации.' },
-    { label: 'Lisboa Card', amountEURMin: 22, amountEURMax: 62, note: 'Зависит от срока, возраста и актуального тарифа Visit Lisboa; adult-тарифы 2026 проверяйте на официальном сайте перед покупкой.' }
+    { label: 'Lisboa Card', amountEURMin: 31, amountEURMax: 62, note: 'Тариф для взрослого с 1 апреля 2026: 24 ч — 31 €, 48 ч — 51 €, 72 ч — 62 €; детские тарифы ниже. Проверяйте актуальные цены на официальном сайте перед покупкой.' }
   ],
   sources: [
     { title: 'Visit Lisboa — официальная Lisboa Card: условия, включённые объекты и цены', url: 'https://www.visitlisboa.com', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Metro Lisboa — билеты, Navegante occasional, zapping и 24h passes', url: 'https://www.metrolisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transportes Metropolitanos de Lisboa — Navegante Metropolitano, Municipal и Família', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

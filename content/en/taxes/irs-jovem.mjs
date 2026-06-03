@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'IRS Jovem is a partial exemption from IRS income tax for young tax residents of Portugal. Since 2025, the model has been expanded: it is no longer necessary to prove a specific level of education, and the maximum relief period is 10 years of receiving income.' },
         { kind: 'paragraph', text: 'The relief applies to category A income — salary under a contrato de trabalho — and category B income — self-employment, recibos verdes, atividade aberta in Finanças. It reduces the taxable part of income, not the IRS rate itself.' },
-        { kind: 'checklist', items: ['1st year of receiving income: 100% exemption', '2nd, 3rd and 4th years: 75% exemption', '5th, 6th and 7th years: 50% exemption', '8th, 9th and 10th years: 25% exemption', 'Annual exemption cap: 55 × IAS', 'IAS 2026: €537.13', '2026 cap: €29,542.15 of exempt income', 'The remaining part of the income is taxed at the normal IRS rates', 'First IRS rate in 2026: 11.97% for the lowest band of taxable income'] },
+        { kind: 'checklist', items: ['1st year of receiving income: 100% exemption', '2nd, 3rd and 4th years: 75% exemption', '5th, 6th and 7th years: 50% exemption', '8th, 9th and 10th years: 25% exemption', 'Annual exemption cap: 55 × IAS', 'IAS 2026: €537.13', '2026 cap: €29,542.15 of exempt income', 'The remaining part of the income is taxed at the normal IRS rates', 'First IRS rate in 2026: 11.97% for the lowest band of taxable income (2025 income)'] },
         { kind: 'warning', text: 'The €29,542.15 cap is the limit on the amount of income that can be exempted from IRS, not the maximum salary for eligibility. If income is higher, the relief applies only within the limit.' }
       ]
     },
@@ -85,6 +85,6 @@ export default {
     { title: 'Lei n.º 45-A/2024 — Orçamento do Estado for 2025, IRS Jovem changes', url: 'https://diariodarepublica.pt/dr/detalhe/lei/45-a-2024-902610097', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Código do IRS — art. 12.º-B, IRS Jovem regime', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34500675', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

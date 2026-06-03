@@ -3,7 +3,7 @@ export default {
   id: 'porta-65-jovem',
   categoryId: 'housing_rent',
   title: 'Porta 65 Jovem — rent subsidy for young people aged 18–35',
-  tldr: 'Porta 65 Jovem is a state IHRU rent subsidy for housing rental for young people aged 18–35 in Portugal. Applications in 2026 are submitted online all year round via Portal da Habitação / gov.pt. Support is usually granted for 12 months, with the possibility of renewal up to 60 months; the amount depends on income, household composition, municipality and rent ceiling. There is a 20% supplement for housing in an área de reabilitação urbana and for monoparental households.',
+  tldr: 'Porta 65 Jovem is a state IHRU rent subsidy for housing rental for young people aged 18–35 in Portugal. Applications in 2026 are submitted online all year round via Portal da Habitação / gov.pt. Support is usually granted for 12 months, with the possibility of renewal up to 60 months; the amount depends on income, household composition, municipality and rent ceiling. There is a 20% supplement for housing in an área de reabilitação urbana, supplements for dependants and an extra supplement for monoparental households.',
   tags: ['porta65', 'rent', 'housing', 'ihru'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Porta 65 Jovem is not a landlord discount, but a monthly state subsidy for part of the renda. The money is transferred to the recipient’s IBAN after the application is approved.' },
         { kind: 'paragraph', text: 'The programme is intended for young people who rent housing for permanent residence in Portugal continental or regiões autónomas. For an expat, it is a practical way to reduce rent pressure if you already have a NIF, access to Finanças and a rental contract.' },
-        { kind: 'checklist', items: ['The application is free and submitted online', 'Young people aged 18–35 are accepted; in a couple, one of the applicants may be older — up to 37 under the programme rules', 'Support is granted for 12 months', 'It can be renewed while the conditions continue to be met, usually up to an overall limit of 60 months', 'The subsidy depends on household income, rent amount, municipality and housing typology', 'There is a 20% majoração for housing in an área de reabilitação urbana', 'There is a 20% majoração for monoparental families', 'Applications in 2026 are accepted all year round, without the old model of short application windows'] }
+        { kind: 'checklist', items: ['The application is free and submitted online', 'Young people aged 18–35 are accepted; in a couple, one of the applicants may be older — up to 37 under the programme rules', 'Support is granted for 12 months', 'It can be renewed while the conditions continue to be met, usually up to an overall limit of 60 months', 'The subsidy depends on household income, rent amount, municipality and housing typology', 'There is a 20% majoração for housing in an área de reabilitação urbana', 'There are supplements for dependants: +15% for one and +20% for two or more', 'A monoparental household adds a further +5% (one dependant) or +10% (two or more)', 'Applications in 2026 are accepted all year round, without the old model of short application windows'] }
       ]
     },
     {
@@ -62,7 +62,7 @@ export default {
       title: 'How much they pay and how to renew',
       content: [
         { kind: 'paragraph', text: 'It is best to calculate the exact amount in advance using the IHRU simulator: the formula takes into account rendimento mensal corrigido, renda, município, número de pessoas, typology and special supplements. In 2026 there is no universal “50% for everyone” rate: two people with the same rent in Lisboa and Castelo Branco may receive different results.' },
-        { kind: 'checklist', items: ['The basic subsidy is a percentage of the eligible rent, not necessarily of the full amount if your renda is above the programme limit', 'Housing in an área de reabilitação urbana may give +20% to the subsidy', 'A monoparental household may give +20% to the subsidy', 'Support is granted for 12 months', 'Renewal is not automatic: you must confirm the conditions and income again', 'If you changed flat, family composition, income or IBAN — update the data before the new application', 'If income has risen sharply, the subsidy may be reduced or not renewed', 'If you have stopped living in this property, support must be ended; otherwise, repayment of amounts may be required'] },
+        { kind: 'checklist', items: ['The basic subsidy is a percentage of the eligible rent, not necessarily of the full amount if your renda is above the programme limit', 'Housing in an área de reabilitação urbana may give +20% to the subsidy', 'Dependants give +15% for one and +20% for two or more', 'A monoparental household adds a further +5% or +10% on top of the dependant supplement', 'Support is granted for 12 months', 'Renewal is not automatic: you must confirm the conditions and income again', 'If you changed flat, family composition, income or IBAN — update the data before the new application', 'If income has risen sharply, the subsidy may be reduced or not renewed', 'If you have stopped living in this property, support must be ended; otherwise, repayment of amounts may be required'] },
         { kind: 'warning', text: 'Do not plan your budget as if the subsidy has already been approved. First, pay the rent yourself: the IHRU decision may take time, and refusal is possible because of income limits, contract mismatch or errors in Finanças data.' }
       ]
     },
@@ -96,13 +96,20 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
-      title: 'Decreto-Lei n.º 308/2007 — Porta 65 Jovem regime',
-      url: 'https://dre.pt/dre/detalhe/decreto-lei/308-2007-640975',
+      title: 'Decreto-Lei n.º 308/2007 — Porta 65 Jovem regime (as amended)',
+      url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/2007-34564575',
       kind: 'law',
       language: 'pt',
-      lastRetrieved: '2026-04-28'
+      lastRetrieved: '2026-05-31'
+    },
+    {
+      title: 'Decreto-Lei n.º 42/2024 — expanded access to Porta 65 Jovem (in force since 01.09.2024)',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/42-2024-870515824',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

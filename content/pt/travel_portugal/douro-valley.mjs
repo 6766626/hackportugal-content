@@ -56,7 +56,7 @@ export default {
             { kind: 'paragraph', text: 'Moscatel do Douro (vinho doce), famoso desde o século XVII. Aldeia entre vinhas. Visite a Adega Cooperativa de Favaios.' }
           ]},
           { id: 's6', title: 'Barragem do Carrapatelo', content: [
-            { kind: 'paragraph', text: 'Barragem com eclusa de navegação de 35 m — a mais alta da Europa. Por ali passam navios de cruzeiro.' }
+            { kind: 'paragraph', text: 'Barragem com eclusa de navegação: desnível de 35 m — uma das mais altas da Europa. Por ali passam navios de cruzeiro.' }
           ]}
         ]}
       ]
@@ -129,6 +129,6 @@ export default {
     { title: 'UNESCO — Região Vinhateira do Alto Douro', url: 'https://whc.unesco.org/en/list/1046/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Wines of Portugal — região do Douro', url: 'https://www.winesofportugal.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

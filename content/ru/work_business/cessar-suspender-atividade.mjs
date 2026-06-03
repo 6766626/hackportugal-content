@@ -36,7 +36,7 @@ export default {
           '3. Alteração / reinício — деятельность не закрывается: меняете коды деятельности, режим IVA, прогноз оборота, адрес, IBAN или возобновляете ранее приостановленную atividade.',
           'Для большинства expat-сценариев причина выбирается по факту: «deixou de exercer atividade» для закрытия или временная suspensão, если планируете вернуться.',
           'Дата события важнее даты подачи: укажите реальную дату прекращения или приостановки, потому что от неё считаются IRS, IVA и Segurança Social.',
-          'Если есть сомнение между suspension и cessação, проверьте последствия для IVA и Segurança Social до отправки.'
+          'Если есть сомнение между suspensão и cessação, проверьте последствия для IVA и Segurança Social до отправки.'
         ] },
         { kind: 'warning', text: 'Не выбирайте cessação задним числом без проверки. Если после указанной даты уже были recibos verdes, IVA-операции или банковские поступления за услуги, может появиться несостыковка в e-Fatura, IRS или IVA.' }
       ]
@@ -71,7 +71,7 @@ export default {
       id: 'deadlines-and-who-can-file',
       title: 'Сроки и кто может подать сам',
       content: [
-        { kind: 'paragraph', text: 'Для trabalhadores independentes действуют общие сроки деклараций atividade. Изменения данных подаются в течение 15 дней с даты изменения. Cessação de atividade подаётся в течение 30 дней с даты прекращения деятельности. Эти сроки важны для IRS и IVA.' },
+        { kind: 'paragraph', text: 'Для trabalhadores independentes действуют общие сроки деклараций atividade. Изменения данных подаются в течение 15 дней с даты изменения. Cessação de atividade подаётся в течение 30 дней с даты прекращения деятельности. Эти сроки важны для IRS и IVA. Просрочка может привести к coima от AT, даже если налога к доплате нет.' },
         { kind: 'checklist', items: [
           'Regime simplificado + без contabilidade organizada: обычно можно подать самому онлайн.',
           'Contabilidade organizada: декларацию должен подготовить или подать contabilista certificado.',
@@ -130,9 +130,9 @@ export default {
   sources: [
     {
       title: 'gov.pt: изменение, приостановка, возобновление или прекращение atividade independente',
-      url: 'https://www2.gov.pt/en/servicos/fazer-alteracoes-a-atividade-de-trabalho-independente-de-uma-pessoa-singular',
+      url: 'https://www.gov.pt/servicos/fazer-alteracoes-a-atividade-de-trabalho-independente-de-uma-pessoa-singular',
       kind: 'official',
-      language: 'en',
+      language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
@@ -157,6 +157,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

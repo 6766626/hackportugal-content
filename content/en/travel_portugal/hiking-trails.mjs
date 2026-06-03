@@ -160,7 +160,7 @@ export default {
           '🚨 Emergency number 112: works in most parks',
           '🐴 Wild animals: wild horses in Gerês, wild boar (javali), foxes, and in the Algarve — genets. There is no serious danger to humans',
           '🐍 Snakes: vípera seoanei is venomous — rarely seen and usually runs away. Check your boots in the morning',
-          '🔥 Fires: July-September — high risk; red level = ban on all open trails. Check on dgeg.gov.pt',
+          '🔥 Fires: July-September — high risk; red level = ban on all open trails. Check on ipma.pt',
           '🥵 Heat: in summer, start before 8 in the morning and finish by 13. The difference between morning and midday is 10°C',
           '🌨️ Winter in Serra da Estrela: snow, ice; do not go without preparation',
           '📍 Offline maps: download in advance; there is often no signal in Portugal’s mountains',
@@ -184,6 +184,6 @@ export default {
     { title: 'Rota Vicentina', url: 'https://rotavicentina.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Visit Madeira Levadas', url: 'https://www.visitmadeira.com/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

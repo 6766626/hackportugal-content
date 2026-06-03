@@ -81,7 +81,7 @@ export default {
       title: 'Из Порту: Douro, Aveiro, Viana, Galicia',
       content: [
         { kind: 'substeps', items: [
-          { id: 'douro', title: 'Douro — около 1 ч до Amarante/Peso da Régua дальше', content: [
+          { id: 'douro', title: 'Douro — около 1 ч до Amarante, Peso da Régua чуть дальше', content: [
             { kind: 'paragraph', text: 'Douro — виноградники, miradouros, quintas и дорога вдоль реки. На машине удобно строить маршрут Porto–Amarante–Peso da Régua–Pinhão. Поезд по Linha do Douro — один из самых красивых железнодорожных маршрутов страны.' },
             { kind: 'checklist', items: [
               'Для первого раза: Régua + Pinhão + дегустация в quinta',
@@ -95,7 +95,7 @@ export default {
             { kind: 'checklist', items: [
               'Без машины: Aveiro центр + автобус/такси до Costa Nova',
               'С машиной: добавьте Praia da Barra и маяк Farol da Barra',
-              'Хорошо для гостей, которые впервые приехали в север Португалии',
+              'Хорошо для гостей, которые впервые приехали на север Португалии',
               'Зимой берите ветровку: у лагуны и океана часто сильный ветер'
             ] }
           ] },
@@ -144,6 +144,6 @@ export default {
     { title: 'Rede Expressos — междугородние автобусы', url: 'https://rede-expressos.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ANA/VINCI Airports — аэропорты Португалии и рейсы', url: 'https://www.ana.pt/en', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

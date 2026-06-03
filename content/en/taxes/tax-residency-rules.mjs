@@ -47,9 +47,9 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A Portuguese tax resident declares worldwide income in IRS: salary, dividends, interest, rent, capital gains, pensions, income from recibos verdes, foreign accounts and brokers. A non-resident usually declares only Portuguese-source income.' },
         { kind: 'checklist', items: [
-          'A resident submits Modelo  IRS and, where there is foreign income, Anexo J.',
+          'A resident submits Modelo 3 IRS and, where there is foreign income, Anexo J.',
           'A non-resident with Portuguese rent, salary or capital gains may also be required to submit IRS.',
-          'The first IRS bracket in 2026 is 11.97%, but the final result depends on the scale, deductions and type of income.',
+          'The first IRS bracket in 2026 is 12.5% (CIRS art. 68), but the final result depends on the scale, deductions and type of income.',
           'Many investment income items are taxed autonomously at 28%, but a resident can sometimes choose englobamento — inclusion in the general progressive scale.',
           'For salary and self-employment, retenções na fonte and Segurança Social matter; NISS is needed for social contributions, but it does not determine tax residency.',
           'Double-taxation treaties resolve conflicts if two countries consider you resident.',
@@ -160,6 +160,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

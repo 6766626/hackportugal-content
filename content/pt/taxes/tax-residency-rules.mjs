@@ -49,7 +49,7 @@ export default {
         { kind: 'checklist', items: [
           'O residente entrega a Modelo 3 IRS e, havendo rendimentos estrangeiros, o Anexo J.',
           'Um não residente com rendas, salário ou mais-valias em Portugal também pode estar obrigado a entregar IRS.',
-          'O primeiro escalão de IRS em 2026 é 11,97%, mas o resultado final depende da escala, das deductions e do tipo de rendimento.',
+          'O primeiro escalão de IRS em 2026 é 12,5% (CIRS art. 68), mas o resultado final depende da escala, das deductions e do tipo de rendimento.',
           'Muitos rendimentos de investimento são tributados autonomamente a 28%, mas o residente pode por vezes optar pelo englobamento — inclusão na escala geral.',
           'Para salários e trabalho independente, são importantes as retenções na fonte e a Segurança Social; o NISS é necessário para contribuições sociais, mas não determina a residência fiscal.',
           'As convenções para evitar a dupla tributação resolvem conflitos se dois países o considerarem residente.',
@@ -121,7 +121,7 @@ export default {
           'Para trabalho remoto, verifique não só o IRS, mas também a social security: NISS, A1 para a UE, contribuições como trabalhador independente.',
           'Para o regime favorável IFICI, verifique os requisitos e prazos de registo específicos; não é um benefício automático para todos os D7/D8.'
         ] },
-        { kind: 'warning', text: 'Se recebe rendimentos do estrangeiro e se tornou residente em Portugal “o dinheiro não entrou numa conta portuguesa” não o isenta de IRS. O que importa não é a conta, mas a residência fiscal e a fonte/tipo de rendimento.' }
+        { kind: 'warning', text: 'Se recebe rendimentos do estrangeiro e se tornou residente em Portugal, “o dinheiro não entrou numa conta portuguesa” não o isenta de IRS. O que importa não é a conta, mas a residência fiscal e a fonte/tipo de rendimento.' }
       ]
     }
   ],
@@ -160,6 +160,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

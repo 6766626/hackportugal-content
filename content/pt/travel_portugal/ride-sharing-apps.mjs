@@ -3,7 +3,7 @@ export default {
   id: 'ride-sharing-apps',
   categoryId: 'auto_trips',
   title: 'Uber / Bolt / FreeNow / BlaBlaCar em Portugal',
-  tldr: 'Uber e Bolt são os líderes. Funcionam em todo o país. A Bolt é normalmente 10–20% mais barata. FreeNow — táxis oficiais através da aplicação. Táxi normal (carros pretos e verdes) — pagamento por taxímetro, mais caro no aeroporto. BlaBlaCar — viagens partilhadas entre cidades.',
+  tldr: 'Uber e Bolt são as principais aplicações nas grandes cidades e zonas turísticas; em vilas pequenas, no interior e nas ilhas a cobertura pode ser fraca. A Bolt é normalmente 10–20% mais barata. FreeNow — táxis oficiais através da aplicação. Táxi normal (carros pretos e verdes) — pagamento por taxímetro; do aeroporto vai por taxímetro ou por voucher de preço fixo. BlaBlaCar — viagens partilhadas entre cidades.',
   tags: ['uber', 'bolt', 'táxi', 'blablacar'],
   estimatedReadMinutes: 4,
   steps: [
@@ -22,7 +22,7 @@ export default {
             { kind: 'paragraph', text: 'Táxis oficiais (pretos e verdes) através da aplicação. Preço por taxímetro. Muitas vezes tem um custo mais previsível na hora de ponta, quando a Uber/Bolt aplica tarifa dinâmica.' }
           ]},
           { id: 'a4', title: 'Táxi normal', content: [
-            { kind: 'paragraph', text: 'Pode apanhá-lo na rua, encontrá-lo numa praça de táxis ou chamá-lo por telefone. Tarifa 1 (dia): valor inicial 3,25 € + 0,47 €/km. Tarifa 2 (noite, fins de semana): +20%. Aeroporto — preços fixos por destino.' }
+            { kind: 'paragraph', text: 'Pode apanhá-lo na rua, encontrá-lo numa praça de táxis ou chamá-lo por telefone. Vai por taxímetro: como referência, de dia a partir de cerca de 3,25 € de bandeirada + ~0,47 €/km, mais caro à noite e aos fins de semana; podem aplicar-se suplementos por bagagem, espera e portagens. No aeroporto o táxi normal também vai por taxímetro; o preço fixo só existe através do balcão oficial Taxi Voucher.' }
           ]},
           { id: 'a5', title: 'BlaBlaCar', content: [
             { kind: 'paragraph', text: 'Viagens partilhadas entre cidades. Lisboa—Porto pode custar 15–25 € (mais barato do que o autocarro). Lisboa—Madrid é um percurso popular. Pagamento através da aplicação, sem dinheiro.' }
@@ -52,8 +52,8 @@ export default {
           'Na Uber existe Uber Pool (viagens partilhadas) — mais barato, mas mais lento (actualmente não disponível em todo o lado)',
           'Evite táxis-armadilha em zonas turísticas — podem ligar o taxímetro antes de entrar ou escolher um percurso desnecessariamente longo',
           'Para viagens longas, BlaBlaCar é mais económico: Lisboa—Porto a partir de 15 € contra 20–40 € de comboio',
-          'Gorjetas: 5–10% é habitual em Portugal para Uber/Bolt (pode deixar na aplicação)',
-          'Pagamento: qualquer cartão internacional + MB WAY',
+          'As gorjetas não são esperadas: basta arredondar o valor ou deixar um pouco na aplicação por um bom serviço — 5–10% não é a norma',
+          'Pagamento: normalmente funcionam cartões internacionais Visa/Mastercard e MB WAY (por vezes Apple Pay / Google Pay) — um cartão estrangeiro pode ser recusado, tenha uma alternativa',
           'Se um táxi lhe cobrar a mais — anote o número e apresente queixa à Autoridade de Mobilidade e Transportes'
         ]}
       ]
@@ -62,8 +62,8 @@ export default {
   sources: [
     { title: 'AMT — regulador dos transportes em Portugal', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT — transporte individual', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Decreto-Lei 45/2018 — regulamentação TVDE (Uber/Bolt)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/45-2018', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Lei n.º 45/2018, de 10 de agosto — regulamentação TVDE (Uber/Bolt)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/45-2018-115991688', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

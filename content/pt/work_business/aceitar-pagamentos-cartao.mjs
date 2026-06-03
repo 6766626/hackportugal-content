@@ -3,7 +3,7 @@ export default {
   id: 'aceitar-pagamentos-cartao',
   categoryId: 'work_business',
   title: 'Aceitar pagamentos por cartão: POS, MB WAY merchant, SumUp e Stripe para trabalhadores independentes',
-  tldr: 'Em Portugal, trabalhadores independentes/PME normalmente aceitam cartões através de POS bancário/SIBS, terminal móvel SumUp ou online através da Stripe. A SumUp indica publicamente uma comissão de 1,69% por transação e sem mensalidade; os POS bancários muitas vezes têm aluguer do terminal e MDR conforme contrato. O MB WAY para negócios é ativado como serviço de merchant através de banco/PSP, e não como transferências pessoais. O talão do POS não substitui a fatura: a venda tem de ser emitida no Portal das Finanças ou em faturação certificada.',
+  tldr: 'Em Portugal, trabalhadores independentes/PME normalmente aceitam cartões através de POS bancário/SIBS, terminal móvel SumUp ou online através da Stripe. A SumUp indica publicamente uma comissão de 1,50% por transação e sem mensalidade; os POS bancários muitas vezes têm aluguer do terminal e MDR conforme contrato. O MB WAY para negócios é ativado como serviço de merchant através de banco/PSP, e não como transferências pessoais. O talão do POS não substitui a fatura: a venda tem de ser emitida no Portal das Finanças ou em faturação certificada.',
   tags: ['pos', 'mb way', 'stripe', 'sumup', 'faturas'],
   estimatedReadMinutes: 6,
   steps: [
@@ -38,7 +38,7 @@ export default {
             ] }
           ]},
           { id: 'sumup', title: 'SumUp', content: [
-            { kind: 'paragraph', text: 'A SumUp é prática para freelancers, técnicos, vendas pop-up e pequenos serviços: compra-se o terminal, normalmente não há mensalidade e a comissão é pública. Na página de preços da SumUp Portugal é indicado 1,69% por transação para card reader.' },
+            { kind: 'paragraph', text: 'A SumUp é prática para freelancers, técnicos, vendas pop-up e pequenos serviços: compra-se o terminal, normalmente não há mensalidade e a comissão é pública. Na página de preços da SumUp Portugal é indicado 1,50% por transação para card reader.' },
             { kind: 'warning', text: 'Verifique o preço atual do terminal antes de comprar: as promoções mudam. Mais importante do que o preço do equipamento é a comissão sobre o volume de vendas e o prazo de disponibilização do dinheiro.' }
           ]},
           { id: 'stripe', title: 'Stripe', content: [
@@ -83,7 +83,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Não compare apenas a percentagem. Custo total = comissão por transação + parte fixa + aluguer do terminal + chargeback/refund + custo de integração + tempo contabilístico para reconciliação.' },
         { kind: 'checklist', items: [
-          'SumUp: publicamente 1,69% por transação; mensalidade normalmente 0 €.',
+          'SumUp: publicamente 1,50% por transação; mensalidade normalmente 0 €.',
           'Stripe cards EEA: referência de 1,5% + 0,25 € por pagamento bem-sucedido; UK/international cards são mais caros.',
           'POS bancário: MDR e mensalidade dependem do banco, volume, setor e tipo de cartões.',
           'MB WAY merchant: a comissão é definida pelo banco/PSP; peça o preço separadamente do card acquiring.',
@@ -93,7 +93,7 @@ export default {
           'Pergunte o prazo de payout: D+1, D+2, weekly payout ou rolling reserve.',
           'Verifique se há taxa de devolução do terminal, inactivity fee ou minimum monthly fee.'
         ] },
-        { kind: 'paragraph', text: 'Exemplo: uma consulta de 100 € através da SumUp a 1,69% custa 1,69 €; entram na conta cerca de 98,31 € antes de impostos. Um pagamento online Stripe com cartão EEA a 1,5% + 0,25 € custa 1,75 €; entram na conta cerca de 98,25 € antes de impostos.' }
+        { kind: 'paragraph', text: 'Exemplo: uma consulta de 100 € através da SumUp a 1,50% custa 1,50 €; entram na conta cerca de 98,50 € antes de impostos. Um pagamento online Stripe com cartão EEA a 1,5% + 0,25 € custa 1,75 €; entram na conta cerca de 98,25 € antes de impostos.' }
       ]
     },
     {
@@ -112,7 +112,7 @@ export default {
           'Exporte monthly statements da Stripe/SumUp/banco para o contabilista.',
           'O reembolso ao cliente deve ser formalizado com nota de crédito, e não apenas como «menos» no extrato.'
         ] },
-        { kind: 'warning', text: 'Erro clássico: receber 98,31 € após comissão e emitir fatura de 98,31 €. A venda fiscal foi de 100 €, e a comissão de 1,69 € é a sua despesa.' }
+        { kind: 'warning', text: 'Erro clássico: receber 98,50 € após comissão e emitir fatura de 98,50 €. A venda fiscal foi de 100 €, e a comissão de 1,50 € é a sua despesa.' }
       ]
     },
     {
@@ -135,7 +135,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Comissão de transação com cartão SumUp', amountEURMin: 1.69, amountEURMax: 1.69, note: 'É a percentagem de comissão: 1,69% por transação segundo a página pública da SumUp Portugal; o campo está indicado como número devido ao formato do guia.' },
+    { label: 'Comissão de transação com cartão SumUp', amountEURMin: 1.5, amountEURMax: 1.5, note: 'É a percentagem de comissão: 1,50% por transação segundo a página pública da SumUp Portugal (tarifário pay-as-you-go); o campo está indicado como número devido ao formato do guia.' },
     { label: 'Comissão de cartão Stripe EEA', amountEURMin: 1.5, amountEURMax: 1.5, note: 'Referência: 1,5% + 0,25 € por pagamento bem-sucedido com cartão EEA; os tarifários da Stripe dependem do método e do país do cartão.' },
     { label: 'Parte fixa Stripe EEA', amountEUR: 0.25, note: 'Acresce à comissão percentual por pagamento bem-sucedido com cartão no tarifário standard.' },
     { label: 'Aluguer de POS bancário', amountEURMin: 0, amountEURMax: 25, note: 'Intervalo típico de mercado por mês; a mensalidade e o MDR exatos só constam da proposta do banco/PSP.' }
@@ -170,6 +170,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -21,7 +21,7 @@ export default {
       title: 'Quem pode candidatar-se',
       content: [
         { kind: 'checklist', items: [
-          'Idade: se o aviso estiver assinalado como jovem empreendedor, normalmente verifica-se que o fundador/socios com controlo têm menos de 35 anos à data da candidatura; a formulação exacta está no aviso.',
+          'Idade: se o aviso estiver assinalado como jovem empreendedor, costuma usar a fórmula «até 35 anos» — em regra até aos 35 anos inclusive (ou seja, até completar 36) para o fundador/socios com controlo à data da candidatura; o limite exacto e a data de referência estão no próprio aviso.',
           'O negócio deve estar em Portugal: ENI/empresário em nome individual ou sociedade com NIPC, sede/estabelecimento em PT.',
           'Um expat pode participar se tiver direito a trabalhar/exercer actividade empresarial em Portugal: autorização de residência, visto com autorização para actividade, residência UE ou outro estatuto legal.',
           'O NIF é obrigatório; para a empresa — certidão permanente, CAE, IBAN da empresa, contabilidade organizada quando necessário.',
@@ -114,7 +114,7 @@ export default {
           'Dia 14–20: recolha 2–3 orçamentos de fornecedores independentes para Vale Empreendedorismo/Vales.',
           'Dia 20–25: prepare o business plan e o modelo financeiro; traduza os materiais principais para português.',
           'Dia 25–30: registe-se no Balcão dos Fundos, configure a representação da empresa e subscreva os avisos COMPETE 2030.',
-          'Em paralelo: mantenha uma reserva para a sua parte das despesas e para o IVA — o IVA é frequentemente pago de imediato, mesmo que depois uma parte da despesa seja compensada.'
+          'Em paralelo: mantenha uma reserva para a sua parte das despesas e para o IVA. Importante: o IVA recuperável normalmente não é elegível — se a empresa o puder deduzir/recuperar, não é compensado pela subvenção. O IVA não recuperável só pode ser elegível quando o aviso o permitir expressamente.'
         ] }
       ]
     }
@@ -131,6 +131,6 @@ export default {
     { title: 'Balcão dos Fundos — submissão de candidaturas Portugal 2030', url: 'https://balcaofundosue.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Europeia — regras dos auxílios de minimis 2024–2030', url: 'https://competition-policy.ec.europa.eu/state-aid/legislation/regulations/de-minimis-regulation_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

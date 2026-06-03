@@ -3,7 +3,7 @@ export default {
   id: 'andante-porto',
   categoryId: 'public_transport',
   title: 'Andante — Porto’s unified card: metro, bus, suburban trains',
-  tldr: 'Andante is a unified travel pass for the Porto metro, STCP buses and CP suburban trains in the metropolitan area. Zone-based system: the further you go, the more expensive it is. For tourists — Andante Tour for 1/3 days (€7–15). For residents — monthly Z2 pass for €30/month, unlimited regional MetroPorto — €40/month. You can buy a card from a metro ticket machine (Andante Azul = occasional card, €0.60) or PayShop. There is also Andante eTransit in the app.',
+  tldr: 'Andante is a unified travel pass for the Porto metro, STCP buses and CP suburban trains in the metropolitan area. Zone-based system: the further you go, the more expensive it is. For tourists — Andante Tour for 1/3 days (€7.75–16.55). For residents — monthly Z2 pass for €30/month, unlimited regional MetroPorto — €40/month. You can buy a card from a metro ticket machine (Andante Azul = occasional card, €0.60) or PayShop. There is also Andante eTransit in the app.',
   tags: ['andante', 'porto', 'metro', 'bus', 'stcp', 'travel pass'],
   estimatedReadMinutes: 5,
   steps: [
@@ -30,8 +30,8 @@ export default {
             { kind: 'checklist', items: [
               '🟪 Andante Azul — card for €0.60 (can be topped up with occasional tickets)',
               '💰 Single Z2: €1.40 — 1 hour in zone 2',
-              '💰 Andante 24h Tour 1: €7 — unlimited travel for one day in Z4',
-              '💰 Andante 24h Tour 3: €15 — 3 days in Z4',
+              '💰 Andante 24h Tour 1: €7.75 — unlimited travel for one day across the whole network',
+              '💰 Andante 24h Tour 3: €16.55 — 3 days across the whole network',
               '💰 Andante Tour 24h (Z2): €4.15 — for those travelling only around the centre',
               '🎟️ You can buy it and validate it straight away at the gate or on the bus'
             ]}
@@ -92,15 +92,15 @@ export default {
   costs: [
     { label: 'Andante Azul (card)', amountEUR: 0.60 },
     { label: 'Single Z2', amountEUR: 1.40 },
-    { label: 'Andante Tour 24h Z4', amountEUR: 7 },
-    { label: 'Andante Tour 3 days', amountEUR: 15 },
+    { label: 'Andante Tour 24h', amountEUR: 7.75 },
+    { label: 'Andante Tour 3 days', amountEUR: 16.55 },
     { label: 'Mensal Z2', amountEUR: 30 },
     { label: 'Mensal MetroPorto (unlimited)', amountEUR: 40 }
   ],
   sources: [
-    { title: 'Metro do Porto — official website', url: 'https://www.metrodoporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'STCP — Sociedade de Transportes Colectivos do Porto', url: 'https://www.stcp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Metro do Porto — official website', url: 'https://www.metrodoporto.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'STCP — Sociedade de Transportes Colectivos do Porto', url: 'https://www.stcp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

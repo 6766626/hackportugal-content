@@ -14,7 +14,7 @@ export default {
         { kind: 'walkingRoute', distanceKm: 4.0, durationMinutes: 240, difficulty: 'easy', points: [
           {
             name: '1. Mosteiro dos Jerónimos',
-            description: 'Мануэлинский монастырь XVI века, объект ЮНЕСКО с 1983 г. Финансировалсяом на специи из Индии. Здесь находятся могилы Васко да Гамы и Луиша де Камоэнса. Внутренний двор — жемчужина стиля.',
+            description: 'Мануэлинский монастырь XVI века, объект ЮНЕСКО с 1983 г. Построен на доходы от торговли специями из Индии. Здесь находятся могилы Васко да Гамы и Луиша де Камоэнса. Внутренний двор — жемчужина стиля.',
             wikipedia: {
               ru: 'https://ru.wikipedia.org/wiki/Монастырь_иеронимитов',
               en: 'https://en.wikipedia.org/wiki/Jer%C3%B3nimos_Monastery',
@@ -88,7 +88,7 @@ export default {
           '🚋 Трамвай №15 от Praça da Figueira — прямой, 20 мин',
           '🚆 Поезд линии Cascais от Cais do Sodré, выход «Belém», 10 мин',
           '🚶 Из центра пешком вдоль Тежу — около 1 часа, живописно',
-          '💶 Jerónimos + Torre: комбинированный билет 16 € (экономия 4 €) на Visit Lisboa',
+          '💶 Jerónimos + Torre: комбинированный билет 12 € (экономия 4 € против раздельных 10 € + 6 €)',
           '⏰ Бронировать онлайн — в кассе очередь до 1,5 часа',
           '❌ Torre de Belém по понедельникам закрыта, Jerónimos тоже'
         ]}
@@ -117,6 +117,6 @@ export default {
     { title: 'UNESCO — Monastery of the Hieronymites and Tower of Belém', url: 'https://whc.unesco.org/en/list/263/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Patrimonio Cultural PT', url: 'https://www.patrimoniocultural.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

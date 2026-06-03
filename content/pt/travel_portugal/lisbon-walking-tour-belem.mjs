@@ -88,7 +88,7 @@ export default {
           '🚋 Elétrico n.º 15 a partir da Praça da Figueira — direto, 20 min',
           '🚆 Comboio da linha de Cascais a partir do Cais do Sodré, saída “Belém”, 10 min',
           '🚶 A pé desde o centro ao longo do Tejo — cerca de 1 hora, percurso pitoresco',
-          '💶 Jerónimos + Torre: bilhete combinado 16 € (poupança de 4 €) na Visit Lisboa',
+          '💶 Jerónimos + Torre: bilhete combinado 12 € (poupança de 4 € face aos 10 € + 6 € em separado)',
           '⏰ Reservar online — na bilheteira a fila pode chegar a 1,5 horas',
           '❌ A Torre de Belém está encerrada às segundas-feiras, tal como os Jerónimos'
         ]}

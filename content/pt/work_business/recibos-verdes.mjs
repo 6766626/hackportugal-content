@@ -27,7 +27,7 @@ export default {
           { id: 'o4', title: '4. IVA', content: [
             { kind: 'checklist', items: [
               'Regime de isenção (CIVA art. 53) — para volume de negócios anual/previsto ≤ 15 000 € e cumprimento das condições; ao abrir atividade, o volume de negócios previsto é calculado proporcionalmente ao ano',
-              'Confirmar: «Em caso de ultrapassagem normal do limite do art. 53 durante o ano, a alteração é apresentada em janeiro do ano seguinte, e o IVA aplica-se a partir de fevereiro; em caso de perda de outras condições, os prazos podem ser diferentes. Após a passagem para o regime normal, passam a existir declarações periódicas de IVA e pagamentos de IVA». A taxa normal é 23% (ou 13%/6% para determinados serviços). Para clientes B2B no estrangeiro, aplica-se frequentemente reverse charge / regras de localização'
+              'Se o volume de negócios do ano ultrapassar 15 000 €, mas não exceder 18 750 €, a alteração é apresentada nos primeiros 15 dias úteis de janeiro e a passagem para o regime normal ocorre a partir de 1 de janeiro. Se o volume de negócios ultrapassar 18 750 € durante o ano, a passagem para o regime normal é imediata: a fatura que excede o limite já é emitida com IVA. Após a passagem, passam a existir declarações periódicas de IVA e pagamentos de IVA. A taxa normal é 23% (ou 13%/6% para determinados serviços). Para clientes B2B no estrangeiro, aplica-se frequentemente reverse charge / regras de localização'
             ]}
           ]},
           { id: 'o5', title: '5. Segurança Social', content: [
@@ -48,7 +48,7 @@ export default {
             { kind: 'paragraph', text: 'Nome, NIF, morada. Para clientes estrangeiros, o IVA depende das regras de localização: serviços B2B a uma empresa estrangeira muitas vezes seguem sem IVA português / reverse charge ou operação fora do campo; B2C e digital services podem ser tributados de outra forma. Verifique de acordo com o tipo de serviço e o estatuto do cliente.' }
           ]},
           { id: 'i3', title: '3. Indicar o montante e a categoria', content: [
-            { kind: 'paragraph', text: 'Os serviços são incluídos na fatura. Escrever: «Se não estiver em isenção art. 53, ao emitir o documento deve escolher a taxa de IVA aplicável ou o motivo de não liquidação/isenção. Para clientes estrangeiros e reverse charge, não confie no “automático”: verifique as regras de localização e o estatuto do cliente».' }
+            { kind: 'paragraph', text: 'Os serviços são incluídos na fatura. Se não estiver em isenção art. 53, ao emitir o documento deve escolher a taxa de IVA aplicável ou o motivo de não liquidação/isenção. Para clientes estrangeiros e reverse charge, não confie no «automático»: verifique as regras de localização e o estatuto do cliente.' }
           ]},
           { id: 'i4', title: '4. Retenção de imposto (retenção)', content: [
             { kind: 'paragraph', text: 'A retenção na fonte nem sempre se aplica: normalmente quando o cliente português é uma empresa/entidade com organized accounting, obrigada a reter. Os particulares normalmente não fazem retenção. Pequenos TI podem ter dispensa de retenção nas condições do CIRS art. 101.º-B. As taxas dependem do tipo de rendimento: frequentemente 25% para professional services (art. 151), 11,5% para alguns outros rendimentos, 16,5% para determinados casos de IP/outros. Para clientes estrangeiros — normalmente 0.' }
@@ -68,7 +68,7 @@ export default {
           'Para muitos serviços profissionais, a base de IRS = 75% do volume de negócios; para outros tipos de rendimento aplicam-se outros coeficientes segundo o CIRS art. 31',
           'Aplica-se a escala progressiva de IRS para 2026: 11,97%–48% em 9 escalões',
           'Contribuições sociais de 21,4% sobre o rendimento relevante: 70% dos serviços ou 20% das vendas/produção, com declaração trimestral',
-          'Substituir por: «Pagamentos por conta de IRS podem ser determinados pela AT com base na declaração/liquidação de IRS anterior; não é um imposto automático para todos os TI. Se forem determinados, normalmente são pagos 3 vezes por ano — em julho, setembro e dezembro».'
+          'Pagamentos por conta de IRS podem ser determinados pela AT com base na declaração/liquidação de IRS anterior; não é um imposto automático para todos os TI. Se forem determinados, normalmente são pagos 3 vezes por ano — em julho, setembro e dezembro'
         ]},
         { kind: 'paragraph', text: 'Para sujeitos abrangidos pelo IFICI (novo regime, substituiu o NHR desde 2024): taxa fixa de 20% sobre atividade qualificada das listas aprovadas, desde que cumpridas as condições do regime.' }
       ]
@@ -92,6 +92,6 @@ export default {
     { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Abrir Atividade', url: 'https://www.gov.pt/cidadaos/-/informacoes/abrir-atividade-de-trabalhador-independente', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

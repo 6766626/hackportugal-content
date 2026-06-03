@@ -100,6 +100,6 @@ export default {
     { title: 'CCDR Algarve — regional administration', url: 'https://www.ccdr-alg.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMAL — association of Algarve municipalities', url: 'https://www.amal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

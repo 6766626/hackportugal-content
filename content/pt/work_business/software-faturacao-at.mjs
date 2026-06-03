@@ -34,7 +34,7 @@ export default {
           'É obrigatório em organised accounting ou em processos empresariais em que os documentos são emitidos através de um sistema',
           'É praticamente obrigatório para Lda, lojas, restaurantes, vendas online, gestão de armazém e POS',
           'Pode não ser necessário um programa separado se for self-employed e emitir faturas-recibo directamente no Portal das Finanças',
-          'Podem ser usados impressos tipográficos manuais de autorized print shops, mas isto é pouco prático e não serve para a maioria dos negócios digitais',
+          'Podem ser usados impressos tipográficos manuais de authorised print shops, mas isto é pouco prático e não serve para a maioria dos negócios digitais',
           'Se o volume de negócios crescer e houver muitos documentos, é melhor fazer a transição para um programa antes de surgir caos na numeração e no SAF-T',
           'Os receipts estrangeiros de Stripe/PayPal/Shopify não substituem a invoice portuguesa se a operação tiver de ser documentada segundo as regras PT'
         ] },
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

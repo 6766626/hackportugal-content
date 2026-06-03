@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Each município is entitled to a share of up to 5% of the IRS of residents with a tax address in its territory. This is provided for in Lei 73/2013, art. 26 — Regime Financeiro das Autarquias Locais.' },
         { kind: 'paragraph', text: 'If the município decides not to take the full share, the difference is returned to the taxpayer as devolução / benefício municipal in the IRS calculation. The maximum is 5%.' },
-        { kind: 'paragraph', text: 'This does not mean you will get back 5% of your salary or of all tax withheld. The calculation is done within the liquidação IRS under the AT formula, from your collecta líquida after applicable deductions.' },
+        { kind: 'paragraph', text: 'This does not mean you will get back 5% of your salary or of all tax withheld. The calculation is done within the liquidação IRS under the AT formula, from your coleta líquida after applicable deductions.' },
         { kind: 'warning', text: 'IRS Municipal only works for tax residents of Portugal who submit IRS Modelo 3. For non-residents with Portuguese income, this municipal devolução usually does not apply.' }
       ]
     },
@@ -31,7 +31,7 @@ export default {
           'Rates can change every tax year by decision of the Assembleia Municipal',
           'The check is done on Portal das Finanças in the Taxas do Município section'
         ] },
-        { kind: 'paragraph', text: 'In practice, the difference may be small for people with low IRS collecta and more noticeable for families with high taxable income. The refund appears in the final liquidação IRS; no separate application is needed.' }
+        { kind: 'paragraph', text: 'In practice, the difference may be small for people with low IRS coleta and more noticeable for families with high taxable income. The refund appears in the final liquidação IRS; no separate application is needed.' }
       ]
     },
     {
@@ -108,6 +108,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -104,7 +104,7 @@ export default {
           { id: 'p4', title: '4. Contrato de trabalho', content: [
             { kind: 'checklist', items: [
               'Tipos de contrato de trabalho: sem termo (sem prazo), a termo certo (com data fixa), a termo incerto (sem data fixa). recibos verdes — não são um contrato de trabalho, mas prestação de serviços/trabalho independente; verifique o risco de falso recibo verde',
-              'Período experimental: 90 dias / 180 para séniores',
+              'Período experimental: 90 dias — para a generalidade dos trabalhadores; 180 — para cargos de especial qualificação, elevada responsabilidade ou funções de confiança; 240 — para cargos de direção ou quadro superior',
               'Salário mín. 2026: 920 €/mês antes de impostos',
               'Normalmente 14 pagamentos por ano: 12 salários + subsídio de férias + subsídio de Natal; por vezes os subsídios são pagos em parcelas (duodécimos)',
               'Seguro de saúde privado — frequentemente um bónus'
@@ -141,6 +141,6 @@ export default {
     { title: 'ACT — Autoridade para as Condições do Trabalho', url: 'https://www.act.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Código do Trabalho', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

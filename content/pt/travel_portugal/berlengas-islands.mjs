@@ -20,7 +20,7 @@ export default {
             { kind: 'checklist', items: [
               'Feeling Berlenga, Viamar, Julius Berlengas — principais operadores (estão no porto de Peniche)',
               'Lancha rápida: 22-28 € ida e volta, 45 min por trajecto',
-              'Barco normal: 18-22 € ida e volta, 1:15 hora',
+              'Barco normal: 18-22 € ida e volta, 1 h 15 min por trajecto',
               'Horário de verão: partidas 9:30 / 11:00 / 14:30',
               'Regresso da ilha: 16:00 / 17:30',
               'Em caso de tempestade, as viagens são canceladas — devolvem-lhe o dinheiro ou remarcam a viagem'
@@ -64,7 +64,7 @@ export default {
         { kind: 'checklist', items: [
           '🏰 Forte de São João Baptista — casa de hóspedes nas antigas celas monásticas. 40-60 €/noite. Reserva com 5 meses de antecedência',
           '🏕️ Campismo da Berlenga — campismo em tendas. 10-15 €/noite + taxa de desembarque. É necessário inscrever-se separadamente na janela do ICNF (10 lugares/noite)',
-          '🐟 Há um restaurante, o Mar e Sol (peixe salgado cataley, ouriços-do-mar). 15-25 €/pessoa',
+          '🐟 Há um restaurante, o Mar e Sol (especialidade da casa: caldeirada de peixe; ouriços-do-mar). 15-25 €/pessoa',
           '❌ Não há lojas, não há caixas Multibanco, não há rede móvel (às vezes apanha Vodafone)',
           '⚡ Electricidade apenas dos painéis solares do forte — das 18:00 às 23:00'
         ]}
@@ -92,11 +92,11 @@ export default {
           '⚠️ Tome um comprimido para o enjoo (Vertigin, Dramamine) 30 min antes da viagem — o barco abana',
           '🥤 Água 2 l/pessoa — na ilha 3 €/garrafa',
           '🐟 A pesca na ilha é proibida (reserva natural)',
-          '🐛 Há gaivotas — comportam-se de forma agressiva se a comida estiver exposta; não as alimente',
+          '🐦 Há gaivotas — comportam-se de forma agressiva se a comida estiver exposta; não as alimente',
           '🏊 Nadar apenas na zona assinalada — fora dela há correntes perigosas',
           '♻️ Leve o lixo consigo',
           '📷 Telemóvel num saco zip de plástico — salpicos do mar',
-          '🚁 Para pessoas com deficiência: o acesso às Berlengas é limitado, não há rampas'
+          '♿ Para pessoas com deficiência: o acesso às Berlengas é limitado, não há rampas'
         ]}
       ]
     }
@@ -114,6 +114,6 @@ export default {
     { title: 'ICNF — Reserva Natural das Berlengas', url: 'https://www.icnf.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Peniche — Berlengas', url: 'https://visitpeniche.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

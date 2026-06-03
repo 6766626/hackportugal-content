@@ -3,7 +3,7 @@ export default {
   id: 'aceitar-pagamentos-cartao',
   categoryId: 'work_business',
   title: 'Accepting card payments: POS, MB WAY merchant, SumUp and Stripe for the self-employed',
-  tldr: 'In Portugal, self-employed workers/PME usually accept cards through a bank POS/SIBS, a SumUp mobile terminal, or online via Stripe. SumUp publicly states a 1.69% transaction fee and no mensalidade; bank POS solutions often have terminal rental and an MDR agreed by contract. MB WAY for business is connected as a merchant service through a bank/PSP, not as personal transfers. A POS receipt does not replace a fatura: the sale must be issued in Portal das Finanças or certified faturação software.',
+  tldr: 'In Portugal, self-employed workers/PME usually accept cards through a bank POS/SIBS, a SumUp mobile terminal, or online via Stripe. SumUp publicly states a 1.50% transaction fee and no mensalidade; bank POS solutions often have terminal rental and an MDR agreed by contract. MB WAY for business is connected as a merchant service through a bank/PSP, not as personal transfers. A POS receipt does not replace a fatura: the sale must be issued in Portal das Finanças or certified faturação software.',
   tags: ['pos', 'mbway', 'stripe', 'sumup', 'invoices'],
   estimatedReadMinutes: 6,
   steps: [
@@ -38,7 +38,7 @@ export default {
             ] }
           ]},
           { id: 'sumup', title: 'SumUp', content: [
-            { kind: 'paragraph', text: 'SumUp is convenient for freelancers, tradespeople, pop-up sales and small services: the terminal is purchased, there is usually no mensalidade, and the fee is public. The SumUp Portugal pricing page states 1.69% per transaction for the card reader.' },
+            { kind: 'paragraph', text: 'SumUp is convenient for freelancers, tradespeople, pop-up sales and small services: the terminal is purchased, there is usually no mensalidade, and the fee is public. The SumUp Portugal pricing page states 1.50% per transaction for the card reader.' },
             { kind: 'warning', text: 'Check the current terminal price before buying: promotions change. More important than the device price are the turnover fee and the time it takes for money to be paid out.' }
           ]},
           { id: 'stripe', title: 'Stripe', content: [
@@ -83,7 +83,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Do not compare only the percentage. Total cost = transaction fee + fixed component + terminal rental + chargeback/refund + integration cost + accounting time for reconciliation.' },
         { kind: 'checklist', items: [
-          'SumUp: publicly 1.69% per transaction; mensalidade is usually €0.',
+          'SumUp: publicly 1.50% per transaction; mensalidade is usually €0.',
           'Stripe EEA cards: benchmark 1.5% + €0.25 per successful payment; UK/international cards cost more.',
           'Bank POS: MDR and mensalidade depend on the bank, turnover, sector and card type.',
           'MB WAY merchant: the fee is set by the bank/PSP; ask for the price separately from card acquiring.',
@@ -93,7 +93,7 @@ export default {
           'Ask about payout timing: D+1, D+2, weekly payout or rolling reserve.',
           'Check whether there is a terminal return fee, inactivity fee or minimum monthly fee.'
         ] },
-        { kind: 'paragraph', text: 'Example: a €100 consultation through SumUp at 1.69% costs €1.69, and around €98.31 reaches the account before taxes. An online Stripe payment with an EEA card at 1.5% + €0.25 costs €1.75, and around €98.25 reaches the account before taxes.' }
+        { kind: 'paragraph', text: 'Example: a €100 consultation through SumUp at 1.50% costs €1.50, and around €98.50 reaches the account before taxes. An online Stripe payment with an EEA card at 1.5% + €0.25 costs €1.75, and around €98.25 reaches the account before taxes.' }
       ]
     },
     {
@@ -112,7 +112,7 @@ export default {
           'Export monthly statements from Stripe/SumUp/the bank for the accountant.',
           'Process a customer refund with a nota de crédito, not just a “minus” in the statement.'
         ] },
-        { kind: 'warning', text: 'Classic mistake: receiving €98.31 after the fee and issuing a fatura for €98.31. The taxable sale was €100, and the €1.69 fee is your expense.' }
+        { kind: 'warning', text: 'Classic mistake: receiving €98.50 after the fee and issuing a fatura for €98.50. The taxable sale was €100, and the €1.50 fee is your expense.' }
       ]
     },
     {
@@ -135,7 +135,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'SumUp card transaction fee', amountEURMin: 1.69, amountEURMax: 1.69, note: 'This is the fee percentage: 1.69% per transaction according to SumUp Portugal’s public page; the field is shown as a number because of the guide format.' },
+    { label: 'SumUp card transaction fee', amountEURMin: 1.5, amountEURMax: 1.5, note: 'This is the fee percentage: 1.50% per transaction according to SumUp Portugal’s public page (pay-as-you-go tariff); the field is shown as a number because of the guide format.' },
     { label: 'Stripe EEA card fee', amountEURMin: 1.5, amountEURMax: 1.5, note: 'Benchmark: 1.5% + €0.25 per successful EEA card payment; Stripe tariffs depend on the method and the card country.' },
     { label: 'Stripe EEA fixed component', amountEUR: 0.25, note: 'Added to the percentage fee for a successful card payment under the standard tariff.' },
     { label: 'Bank POS rental', amountEURMin: 0, amountEURMax: 25, note: 'Typical market range per month; the exact mensalidade and MDR are only in the bank/PSP proposal.' }
@@ -170,6 +170,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

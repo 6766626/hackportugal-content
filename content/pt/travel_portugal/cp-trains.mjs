@@ -35,7 +35,7 @@ export default {
       title: 'Rotas principais (preços de 2026)',
       content: [
         { kind: 'checklist', items: [
-          'Lisboa ↔ Porto AP: 2 h 45 min, 25–40 € (descontos até -65% ao comprar com 5 dias de antecedência)',
+          'Lisboa ↔ Porto AP: 2 h 45 min, 25–40 € (descontos até -65% ao comprar com 8+ dias de antecedência)',
           'Lisboa ↔ Porto IC: 3 h, 20–32 €',
           'Lisboa ↔ Coimbra AP: 1 h 40 min, 18–25 €',
           'Lisboa ↔ Faro (Alentejo — Algarve): 3 h AP / 3 h 40 min IC, 20–35 €',
@@ -57,9 +57,9 @@ export default {
           ]},
           { id: 'b2', title: '2. Descontos — planeie com antecedência', content: [
             { kind: 'checklist', items: [
-              'Com 5 dias de antecedência: -65% no AP (Lisboa — Porto de 40 € para 14 €)',
-              'Com 2 dias de antecedência: -40%',
-              'Cartão Jovem (até aos 30 anos): -25%',
+              'Com 8+ dias de antecedência: até -65% no AP e IC (Lisboa — Porto de 40 € para cerca de 14 €)',
+              'Com 5–7 dias de antecedência: até -56%',
+              'Cartão Jovem (dos 12 aos 30 anos): -25% em IC e Regional (não válido no AP)',
               'Cartão Amigo (cartão anual por 25 €): -20% em todas as viagens',
               'Desconto familiar: 4+ = -50% para crianças dos 4 aos 12 anos',
               'Estudantes com comprovativo — descontos adicionais'
@@ -93,7 +93,7 @@ export default {
             { kind: 'checklist', items: [
               'Campanhã — estação principal, AP/IC',
               'São Bento — estação turística (azulejos), Urbanos',
-              'Trindade — metro e Urbanos'
+              'Contumil — interface de Urbanos, ligações para norte e este'
             ]}
           ]}
         ]}
@@ -104,6 +104,6 @@ export default {
     { title: 'CP — Comboios de Portugal', url: 'https://www.cp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Infraestruturas de Portugal', url: 'https://www.infraestruturasdeportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

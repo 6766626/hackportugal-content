@@ -3,7 +3,7 @@ export default {
   id: 'rotas-vinho-douro-alentejo',
   categoryId: 'travel_portugal',
   title: 'Винные маршруты: Rotas do Vinho Douro, Alentejo и Tejo',
-  tldr: 'В Португалии винные маршруты — это не “музей с дегустацией”, а сеть quintas, adegas, ресторанов и инфоцентров. В Douro/Porto Wine Route — 60+ хозяйств, типичный визит с дегустацией стоит 15–50 €; в Alentejo удобная база — Évora/Reguengos de Monsaraz; Tejo и Lisboa проще для однодневной поездки из Лиссабона. Бронируйте заранее, не планируйте больше 2–3 дегустаций в день и назначайте водителя.',
+  tldr: 'В Португалии винные маршруты — это не “музей с дегустацией”, а сеть quintas, adegas, ресторанов и инфоцентров. В Douro/Porto Wine Route — 60+ хозяйств, типичный визит с дегустацией стоит 15–50 €; в Alentejo удобная база — Évora/Reguengos de Monsaraz; Tejo и Lisboa проще для однодневной поездки из Лиссабона. Бронируйте заранее, не планируйте больше 2–3 дегустаций в день и заранее выберите трезвого водителя.',
   tags: ['vinho', 'douro', 'alentejo', 'tejo', 'туризм'],
   estimatedReadMinutes: 6,
   steps: [
@@ -20,7 +20,7 @@ export default {
           'Уточняйте, включён ли tour + tasting или только prova',
           'Планируйте 2, максимум 3 дегустации в день',
           'Закладывайте 60–120 минут на одну quinta',
-          'Не садитесь за руль после дегустаций: Uber/Bolt вне городов доступны нестабильно',
+          'Не садитесь за руль после дегустаций: Uber/Bolt вне городов работают нестабильно',
           'Покупку вина можно оформить на месте; доставку по Португалии часто делают за доплату'
         ] }
       ]
@@ -121,6 +121,6 @@ export default {
     { title: 'Rota dos Vinhos do Alentejo — маршруты и производители', url: 'https://www.vinhosdoalentejo.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Vitivinícola Regional do Tejo — Vinhos do Tejo', url: 'https://www.vinhosdotejo.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

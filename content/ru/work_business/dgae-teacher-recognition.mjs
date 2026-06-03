@@ -15,10 +15,10 @@ export default {
         { kind: 'checklist', items: [
           'Reconhecimento de Qualificação Profissional — если у вас есть педагогическая квалификация учителя и право преподавать в стране получения квалификации.',
           'Habilitação Própria — если у вас есть академический диплом по предмету, но нет полной португальской formação profissional para a docência.',
-          'Write: “Equivalência estrangeira de ensino básico/secundário — процедура признания иностранного школьного образования по правилам DGE, обычно подаётся через португальскую школу, а не напрямую в DGE; это не даёт статус учителя.”',
+          'Equivalência estrangeira de ensino básico/secundário — признание иностранного школьного образования по правилам DGE; обычно подаётся через португальскую школу, а не напрямую в DGE, и не даёт статус учителя.',
           'Reconhecimento de grau académico в DGES/университете — для иностранного высшего образования; часто нужно до оценки квалификации учителя.',
           'DL 227/2005 — ключевой режим признания иностранной профессиональной квалификации учителя.',
-          'DL 79/2014 — португальский режим formação profissional для educadores de infância и professores dos ensinos básico e secundário.'
+          'DL 79/2014 (в действующей редакции, с поправками вплоть до DL 9-A/2025) — португальский режим formação profissional для educadores de infância и professores dos ensinos básico e secundário.'
         ] },
         { kind: 'warning', text: 'Habilitação Própria не равна “полноценному признанию учителя”. Это запасной путь для найма, чаще на временные вакансии и при нехватке кадров. В конкурсах кандидаты с habilitação profissional обычно идут выше.' }
       ]
@@ -42,8 +42,9 @@ export default {
     },
     {
       id: 'habilitacao-propria',
-      title: 'Add a clear caveat near the start: “Habilitação Própria обычно не является отдельной процедурой признания профессии и не выдаёт статус profissionalizado; это проверка соответствия академической подготовки требованиям конкретного grupo de recrutamento при кандидатуре/найме. Проверяйте актуальный Guia/Lista de Habilitações da AGSE (бывш. DGAE) для конкретной группы.”',
+      title: '3. Когда использовать Habilitação Própria',
       content: [
+        { kind: 'paragraph', text: 'Habilitação Própria обычно не является отдельной процедурой признания профессии и не выдаёт статус profissionalizado: это проверка соответствия академической подготовки требованиям конкретного grupo de recrutamento при кандидатуре или найме. Проверяйте актуальный Guia/Lista de Habilitações da AGSE (бывш. DGAE) для конкретной группы.' },
         { kind: 'paragraph', text: 'Habilitação Própria — это путь для людей с подходящим академическим образованием по предмету, но без признанной formação profissional para a docência.\n\nПример: диплом математика, физика, инженера, филолога или биолога может подходить для отдельных grupos de recrutamento, если учебный план покрывает нужную научную область.' },
         { kind: 'checklist', items: [
           'Сначала признайте иностранный диплом о высшем образовании в Португалии через DGES/португальский вуз, если школа или конкурс требует grau reconhecido.',
@@ -101,11 +102,11 @@ export default {
           'Путают DGE и AGSE (бывш. DGAE): DGE занимается equivalências estrangeiras для школьного образования, а AGSE — кадровыми и квалификационными вопросами учителей.',
           'Думают, что признание диплома в DGES автоматически даёт право преподавать. Нет: академическая степень и profissionalização — разные уровни.',
           'Подают только диплом без приложения с часами/ECTS.',
-          'Не доказывают право преподавать в стране происхождения, хотя именно это важно для professional recognition.',
+          'Не доказывают право преподавать в стране происхождения, хотя именно это важно для Reconhecimento de Qualificação Profissional.',
           'Выбирают неправильный grupo de recrutamento и получают отказ или бесполезное решение.',
           'Рассчитывают на постоянный контракт по Habilitação Própria. На практике это чаще временный и менее защищённый путь.',
           'Не учитывают португальский язык: даже хороший предметник может не пройти собеседование в школе без PT на уровне работы с учениками и родителями.',
-          'Используют старые инструкции SEF-era для иммиграционных документов. С октября 2023 миграционными ВНЖ занимается AIMA, не SEF.'
+          'Используют старые инструкции времён SEF для иммиграционных документов. С октября 2023 миграционными ВНЖ занимается AIMA, не SEF.'
         ] },
         { kind: 'warning', text: 'Если у вас диплом из России, Украины, Беларуси, Казахстана или другой страны вне ЕС, закладывайте время на архивные справки, апостиль и переводы. Это может занять месяцы и часто дольше, чем рассмотрение в Португалии.' }
       ]
@@ -123,8 +124,8 @@ export default {
     { title: 'Decreto-Lei 99/2025: создаёт AGSE, I.P. и упраздняет DGAE/DGEstE', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/99-2025', kind: 'law', language: 'pt', lastRetrieved: '2026-05-30' },
     { title: 'DGE: Equivalências estrangeiras школьного образования', url: 'https://www.dge.mec.pt/equivalencias-estrangeiras', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 227/2005: признание иностранной профессиональной квалификации docentes', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/227-2005-469091', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Decreto-Lei 79/2014: regime jurídico da habilitação profissional para a docência', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/79-2014-25344769', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Decreto-Lei 79/2014 (na redação atual, alterado até ao DL 9-A/2025): regime jurídico da habilitação profissional para a docência', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/79-2014-25344769', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

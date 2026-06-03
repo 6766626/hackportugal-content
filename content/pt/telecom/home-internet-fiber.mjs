@@ -3,7 +3,7 @@ export default {
   id: 'home-internet-fiber',
   categoryId: 'telecom',
   title: 'Internet em casa — fibra, instalação, mudança de casa',
-  tldr: 'Fibra doméstica em Portugal em 2026: DIGI 1 Gbps por 10 €/mês (3 meses de fidelização), DIGI 10 Gbps por 15 €/mês. NOS WOO «sem fidelização» a partir de 19 €/mês. MEO/NOS/Vodafone — pacote fibra + TV + móvel a partir de 35 €/mês (24 meses de fidelização)\.\n\nA instalação demora normalmente 1–3 semanas após o pedido. A morada tem de estar numa zona de cobertura (verificação por NIF + código postal no site do operador). Em caso de mudança de casa — pedido de mudança de morada 7 dias antes da data; por vezes é necessária uma nova instalação.',
+  tldr: 'Fibra doméstica em Portugal em 2026: DIGI 1 Gbps por 10 €/mês (3 meses de fidelização), DIGI 10 Gbps por 15 €/mês. NOS WOO «sem fidelização» a partir de 19 €/mês. MEO/NOS/Vodafone — pacote fibra + TV + móvel a partir de 35 €/mês (24 meses de fidelização).\n\nA instalação demora normalmente 1–3 semanas após o pedido. A morada tem de estar numa zona de cobertura (verificação por NIF + código postal no site do operador). Em caso de mudança de casa — pedido de mudança de morada 7 dias antes da data; por vezes é necessária uma nova instalação.',
   tags: ['fibra', 'internet', 'casa', 'fttd', 'mudança', 'mudança morada'],
   estimatedReadMinutes: 7,
   steps: [
@@ -129,6 +129,6 @@ export default {
     { title: 'ANACOM COM.escolha — comparador oficial de tarifários', url: 'https://www.anacom.pt/tarifarios/PaginaInicial.do', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'DL 24/2014 — direitos do consumidor em serviços à distância', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/24-2014-572691', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

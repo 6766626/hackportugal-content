@@ -26,13 +26,13 @@ export default {
       id: 'diploma-recognition',
       title: 'Step 1. Have your foreign diploma recognised through DGES',
       content: [
-        { kind: 'paragraph', text: 'For diplomas obtained outside the EU, the OMD requires you first to have the academic qualification recognised in Portugal. The basic regime for recognising foreign degrees is set by Decreto-Lei 66/2018: the application is submitted through the DGES platform, and the decision is made by a Portuguese higher education institution that has a comparable Medicina Dentária course.' },
+        { kind: 'paragraph', text: 'For diplomas obtained outside the EU, the OMD requires you first to have the academic qualification recognised in Portugal. The basic regime for recognising foreign degrees is set by Decreto-Lei 66/2018: the application is submitted through the DGES platform, and the decision is made by a Portuguese public higher education institution that has a comparable Medicina Dentária course.' },
         { kind: 'checklist', items: [
-          'Check which procedure fits: reconhecimento específico is most often needed for a regulated profession, because the curriculum, workload, and degree are compared',
+          'For inscrição with the OMD on a non-EU diploma you need reconhecimento específico of the degree/course in Medicina Dentária, not merely recognition of the level (reconhecimento de nível): the curriculum, workload, and programme content are compared',
           'Prepare the diploma, diploma supplement/transcript, curriculum with hours and subjects, and confirmation of the course duration',
           'Documents from non-Portuguese-speaking countries usually require translation into Portuguese and legalisation: Apostila de Haia or consular legalisation',
           'The application is submitted online through DGES; the university may request additional syllabi, course programmes, and proof of clinical practice',
-          'The DGES/university decision must confirm recognition of the level/degree sufficient to continue the procedure with the OMD',
+          'The recognition decision is issued by a Portuguese public higher education institution under DL 66/2018; for the OMD it must be reconhecimento específico of the course/degree in Medicina Dentária, not just recognition of the level (e.g. mestre)',
           'Keep the PDF decision, receipts, and all translations: the OMD will check not only the diploma but also the recognition route'
         ] },
         { kind: 'warning', text: 'DGES diploma recognition does not give you the right to treat patients. It is only the academic stage. The right to practise appears after inscrição with the OMD and the issue of a professional number.' }
@@ -50,7 +50,7 @@ export default {
           'The maximum total duration is 120 minutes; the test includes an oral component, it is not written-only',
           'The OMD may publish specific dates, instructions, admission rules, and the regulation separately from the general inscrição page',
           'The candidate needs to confirm admission in advance, pay the applicable fees if stated by the OMD, and attend with an identity document',
-          'There is an exemption from the PCMD for candidates who did all their dental training in Portuguese',
+          'There is an exemption from the PCMD for those who did all their dental training in Portuguese at a higher education institution in a Portuguese-speaking country, and for those whose Portuguese-language training the OMD Conselho Diretivo considers adequate',
           'If you do not have Portuguese medical vocabulary, first plan intensive language study to at least B2 level for a professional setting'
         ] },
         { kind: 'warning', text: 'Do not confuse the OMD language test (PCMD) with DGES diploma recognition. These are different stages: DGES/the university confirms academic equivalence and knowledge (Reconhecimento Específico), while the PCMD only checks Portuguese-language ability for the profession.' }
@@ -143,6 +143,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

@@ -122,6 +122,6 @@ export default {
     { title: 'Ryanair — official website for routes and baggage rules', url: 'https://www.ryanair.com', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'easyJet — official website for routes and baggage rules', url: 'https://www.easyjet.com', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

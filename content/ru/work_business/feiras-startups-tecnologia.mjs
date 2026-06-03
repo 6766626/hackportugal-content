@@ -19,7 +19,7 @@ export default {
           'UPTEC Porto — сильный университетский и deep-tech хаб Universidade do Porto: hardware, health, creative tech, software.',
           'Beta-i — акселератор и corporate innovation: полезен тем, кто продаёт B2B или ищет пилоты с корпорациями.',
           'Building Global Innovators — акселерационная среда вокруг tech/impact/scaleup-проектов, часто через программы и партнёрства.',
-          'Carcavelos Surf+Tech / Nova SBE ecosystem — хорош для founders near Cascais: бизнес-школа, surf-tech, sustainability, international MBA-network.',
+          'Carcavelos Surf+Tech / Nova SBE ecosystem — хорош для фаундеров рядом с Cascais: бизнес-школа, surf-tech, sustainability, international MBA-network.',
           'ServerLisboa и другие coworking-пространства — быстрый способ получить рабочую базу, адрес для встреч и локальный нетворк без долгого офисного договора.'
         ] }
       ]
@@ -89,7 +89,7 @@ export default {
           'Гранты и ваучеры требуют аккуратной бухгалтерии: NIF компании, certidão permanente, банковский счёт, contabilidade organizada при росте оборота.',
           'Английский обычно достаточен для pitch, но для налогов, трудовых договоров и заявок на господдержку нужен португальский или местный бухгалтер.'
         ] },
-        { kind: 'warning', text: 'Не путайте участие в акселераторе с правом на ВНЖ. Для иммиграционного статуса нужны отдельные основания: например D2, Startup Visa, D7/D8 или другой режим. AIMA с 2023 заменила SEF, сроки записи и продления ВНЖ в 2026 остаются непредсказуемыми.' }
+        { kind: 'warning', text: 'Не путайте участие в акселераторе с правом на ВНЖ. Для иммиграционного статуса нужны отдельные основания: например D2, Startup Visa, D7/D8 или другой режим. AIMA в 2023 году заменила SEF. Сроки записи и продления ВНЖ в 2026 остаются непредсказуемыми.' }
       ]
     },
     {
@@ -122,6 +122,6 @@ export default {
     { title: 'Startup Lisboa — инкубатор и стартап-хаб Lisboa', url: 'https://unicornfactorylisboa.com/', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'UPTEC — Parque de Ciência e Tecnologia da Universidade do Porto', url: 'https://uptec.up.pt', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

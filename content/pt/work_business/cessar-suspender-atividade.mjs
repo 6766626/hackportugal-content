@@ -71,7 +71,7 @@ export default {
       id: 'deadlines-and-who-can-file',
       title: 'Prazos e quem pode submeter por si',
       content: [
-        { kind: 'paragraph', text: 'Para trabalhadores independentes aplicam-se os prazos gerais das declarações de atividade. As alterações de dados são submetidas no prazo de 15 dias a contar da data da alteração. A cessação de atividade é submetida no prazo de 30 dias a contar da data de cessação da atividade. Estes prazos são importantes para IRS e IVA.' },
+        { kind: 'paragraph', text: 'Para trabalhadores independentes aplicam-se os prazos gerais das declarações de atividade. As alterações de dados são submetidas no prazo de 15 dias a contar da data da alteração. A cessação de atividade é submetida no prazo de 30 dias a contar da data de cessação da atividade. Estes prazos são importantes para IRS e IVA. A entrega fora do prazo pode dar origem a uma coima da AT, mesmo que não haja imposto adicional a pagar.' },
         { kind: 'checklist', items: [
           'Regime simplificado + sem contabilidade organizada: normalmente pode submeter por si online.',
           'Contabilidade organizada: a declaração deve ser preparada ou submetida por contabilista certificado.',
@@ -130,9 +130,9 @@ export default {
   sources: [
     {
       title: 'gov.pt: alteração, suspensão, reinício ou cessação de atividade independente',
-      url: 'https://www2.gov.pt/en/servicos/fazer-alteracoes-a-atividade-de-trabalho-independente-de-uma-pessoa-singular',
+      url: 'https://www.gov.pt/servicos/fazer-alteracoes-a-atividade-de-trabalho-independente-de-uma-pessoa-singular',
       kind: 'official',
-      language: 'en',
+      language: 'pt',
       lastRetrieved: '2026-04-28'
     },
     {
@@ -157,6 +157,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

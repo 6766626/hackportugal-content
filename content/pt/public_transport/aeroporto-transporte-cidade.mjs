@@ -3,7 +3,7 @@ export default {
   id: 'aeroporto-transporte-cidade',
   categoryId: 'public_transport',
   title: 'Transporte do aeroporto para a cidade — Lisboa, Porto, Faro',
-  tldr: 'Em 2026, o transfer mais previsível: LIS → Lisboa de metro na linha Vermelha por 1,85 € + cartão 0,50 €, OPO → Porto no Metro do Porto linha E com bilhete Z4 cerca de 2,25 € + Andante 0,60 €. A partir do Faro Airport, primeiro o autocarro Próximo 16 até Faro, depois Vamus pelo Algarve; as ligações regionais directas dependem da época. O táxi a partir do aeroporto costuma ser mais caro do que Bolt/Uber: Lisboa 12–25 €, Porto 25–35 €, Faro 10–15 €, mais caro à noite e com bagagem.',
+  tldr: 'Em 2026, o transfer mais previsível: LIS → Lisboa de metro na linha Vermelha por 1,90 € + cartão 0,50 €, OPO → Porto no Metro do Porto linha E com bilhete Z4 cerca de 2,30 € + Andante 0,60 €. A partir do Faro Airport, primeiro o autocarro Próximo 16 até Faro, depois Vamus pelo Algarve; as ligações regionais directas dependem da época. O táxi a partir do aeroporto costuma ser mais caro do que Bolt/Uber: Lisboa 12–25 €, Porto 25–35 €, Faro 10–15 €, mais caro à noite e com bagagem.',
   tags: ['aeroporto', 'metro', 'uber', 'vamus'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'O principal truque no Lisbon Airport: o metro fica mesmo junto ao Terminal 1. A linha Vermelha segue até Alameda / Saldanha; depois pode mudar para as linhas verde, amarela ou azul. Até Saldanha são normalmente cerca de 20 minutos, sem trânsito.' },
         { kind: 'checklist', items: [
-          'Metro: 1,85 € por viagem Carris/Metro + 0,50 € pelo cartão Navegante occasional / Viva Viagem, se ainda não o tiver',
+          'Metro: 1,90 € por viagem Carris/Metro + 0,50 € pelo cartão Navegante occasional / Viva Viagem, se ainda não o tiver',
           'Horário do metro: aproximadamente 06:30–01:00; à noite use táxi, Bolt, Uber ou autocarro',
           'Até Baixa/Chiado: linha Vermelha até Alameda, depois linha Verde até Baixa-Chiado',
           'Até Cais do Sodré: linha Vermelha até Alameda, linha Verde até Cais do Sodré',
@@ -30,7 +30,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'No Porto, a opção mais simples é o Metro do Porto linha E / Violeta do Aeroporto até Trindade. Trindade é o principal nó de ligação; a partir daí é fácil chegar aos Aliados, Bolhão, São Bento, Casa da Música e Vila Nova de Gaia.' },
         { kind: 'checklist', items: [
-          'Precisa de um bilhete Andante Z4: em 2026, a referência é cerca de 2,25 € por viagem + 0,60 € pelo cartão Andante Azul',
+          'Precisa de um bilhete Andante Z4: em 2026, a referência é cerca de 2,30 € por viagem + 0,60 € pelo cartão Andante Azul',
           'Até Trindade são normalmente 25–30 minutos',
           'Até São Bento: Aeroporto → Trindade, depois mudança para a linha D / Amarela até São Bento',
           'Até Campanhã: Aeroporto → Trindade, depois mudança para as linhas A/B/C/F ou comboio CP, se for mais cómodo',
@@ -95,9 +95,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Lisboa: metro LIS → cidade', amountEUR: 1.85, note: 'Viagem simples Carris/Metro; o cartão Navegante occasional / Viva Viagem é pago separadamente' },
+    { label: 'Lisboa: metro LIS → cidade', amountEUR: 1.90, note: 'Viagem simples Carris/Metro; o cartão Navegante occasional / Viva Viagem é pago separadamente' },
     { label: 'Lisboa: cartão Navegante occasional / Viva Viagem', amountEUR: 0.50, note: 'Cartão de papel recarregável para occasional tickets' },
-    { label: 'Porto: Metro do Porto Aeroporto → centro', amountEUR: 2.25, note: 'Referência para o bilhete Andante Z4 em 2026; confirme na máquina antes de comprar' },
+    { label: 'Porto: Metro do Porto Aeroporto → centro', amountEUR: 2.30, note: 'Referência para o bilhete Andante Z4 em 2026; confirme na máquina antes de comprar' },
     { label: 'Porto: cartão Andante Azul', amountEUR: 0.60, note: 'Necessário para viagens simples Metro do Porto / STCP' },
     { label: 'Faro: autocarro aeroporto → cidade', amountEUR: 2.60, note: 'Referência para o bilhete junto do motorista no autocarro urbano Próximo' },
     { label: 'Táxi/Bolt/Uber do aeroporto para o centro', amountEURMin: 6, amountEURMax: 35, note: 'Faro é mais barato, Porto normalmente mais caro; surge pricing e tarifas nocturnas alteram o preço' }
@@ -108,6 +108,6 @@ export default {
     { title: 'Metro do Porto — tarifas Andante e linha Aeroporto', url: 'https://www.metrodoporto.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Vamus Algarve — autocarros regionais do Algarve', url: 'https://vamusalgarve.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

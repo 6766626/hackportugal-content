@@ -3,7 +3,7 @@ export default {
   id: 'barcos-cacilhas-trafaria',
   categoryId: 'public_transport',
   title: 'Barcos de Lisboa: Cacilhas, Trafaria, Seixal, Montijo, Barreiro',
-  tldr: 'Os barcos da Transtejo & Soflusa são uma forma rápida de atravessar o Tejo sem ponte nem trânsito. Linhas principais: Cais do Sodré–Cacilhas, Cais do Sodré–Seixal, Cais do Sodré–Montijo, Belém–Porto Brandão–Trafaria e Terreiro do Paço–Barreiro. Em 2026, os bilhetes simples custam normalmente cerca de 1,45–3,15 €, o zapping é ligeiramente mais barato, e o passe Navegante Metropolitano por 40 €/mês cobre todas estas linhas. A melhor opção para Almada/Cacilhas e Barreiro; para Pragal/Setúbal, muitas vezes o Fertagus é mais rápido.',
+  tldr: 'Os barcos da Transtejo & Soflusa são uma forma rápida de atravessar o Tejo sem ponte nem trânsito. Linhas principais: Cais do Sodré–Cacilhas, Cais do Sodré–Seixal, Cais do Sodré–Montijo, Belém–Porto Brandão–Trafaria e Terreiro do Paço–Barreiro. Em 2026, os bilhetes simples custam normalmente cerca de 1,50–3,25 €, o zapping é por vezes ligeiramente mais barato, e o passe Navegante Metropolitano por 40 €/mês cobre todas estas linhas. A melhor opção para Almada/Cacilhas e Barreiro; para Pragal/Setúbal, muitas vezes o Fertagus é mais rápido.',
   tags: ['barcos', 'navegante', 'cacilhas', 'trafaria'],
   estimatedReadMinutes: 5,
   steps: [
@@ -32,12 +32,13 @@ export default {
         { kind: 'checklist', items: [
           'Passe Navegante Metropolitano: 40 €/mês — cobre a Lisbon Metropolitan Area, incluindo barcos Transtejo/Soflusa, Metro, Carris, CP Urbanos, Fertagus na zona AML e Carris Metropolitana.',
           'Passe Navegante Municipal: 30 €/mês — para viagens dentro de um único município; antes de comprar, confirme se cobre o seu percurso.',
-          'Zapping no cartão Navegante — conveniente para viagens ocasionais; o valor debitado é normalmente mais baixo do que o bilhete em papel/simples.',
+          'Zapping no cartão Navegante — conveniente para viagens ocasionais; nalgumas linhas o valor debitado é mais baixo do que o bilhete simples.',
           'O bilhete simples compra-se na máquina ou na bilheteira do terminal; é válido para uma linha fluvial específica, não como transbordo completo para o Metro.',
-          'Para Cais do Sodré ⇄ Cacilhas, a referência do bilhete simples é cerca de 1,50 €.',
-          'Para Belém ⇄ Porto Brandão/Trafaria, a referência é cerca de 1,45 €.',
-          'Para Seixal e Barreiro, a referência é cerca de 2,80 €.',
-          'Para Montijo, a referência é cerca de 3,15 €.',
+          'Para Cais do Sodré ⇄ Cacilhas, a referência é cerca de 2,00 € no bilhete simples e cerca de 1,60 € com zapping.',
+          'Para Belém ⇄ Porto Brandão/Trafaria, a referência é cerca de 1,50 €.',
+          'Para Cais do Sodré ⇄ Seixal, a referência é cerca de 2,85 €.',
+          'Para Terreiro do Paço ⇄ Barreiro, a referência é cerca de 2,95 €.',
+          'Para Cais do Sodré ⇄ Montijo, a referência é cerca de 3,25 €.',
           'Tarifas de criança, escolares, sub23 e sénior dependem do estatuto e da configuração do perfil Navegante; sem perfil, o validador debitará a tarifa normal.'
         ] },
         { kind: 'warning', text: 'Não confunda passe com zapping. Se o cartão tiver um Navegante Metropolitano mensal, a viagem está coberta. Se não tiver passe mensal, o cartão deve ter saldo zapping positivo ou um bilhete separado. Há fiscalização nos barcos com regularidade.' }
@@ -100,16 +101,17 @@ export default {
   costs: [
     { label: 'Passe Navegante Metropolitano', amountEUR: 40, note: 'Passe mensal na AML; cobre Transtejo/Soflusa e a maior parte dos transportes urbanos.' },
     { label: 'Passe Navegante Municipal', amountEUR: 30, note: 'Passe mensal dentro de um único município; para atravessar o Tejo é normalmente insuficiente.' },
-    { label: 'Bilhete simples Cais do Sodré ⇄ Cacilhas', amountEUR: 1.5, note: 'Referência da tarifa de 2026; o zapping é normalmente um pouco mais barato.' },
-    { label: 'Bilhete simples Belém ⇄ Porto Brandão/Trafaria', amountEUR: 1.45, note: 'Referência da tarifa de 2026; confirme a tabela tarifária TTSL atual.' },
-    { label: 'Bilhete simples Seixal ou Barreiro', amountEUR: 2.8, note: 'Referência para Cais do Sodré–Seixal e Terreiro do Paço–Barreiro.' },
-    { label: 'Bilhete simples Cais do Sodré ⇄ Montijo', amountEUR: 3.15, note: 'Referência da tarifa de 2026; o zapping é normalmente mais barato do que o bilhete simples.' }
+    { label: 'Bilhete simples Cais do Sodré ⇄ Cacilhas', amountEUR: 2.0, note: 'Referência da tarifa de 2026; o zapping nesta linha é cerca de 1,60 €.' },
+    { label: 'Bilhete simples Belém ⇄ Porto Brandão/Trafaria', amountEUR: 1.5, note: 'Referência da tarifa de 2026; confirme a tabela tarifária TTSL atual.' },
+    { label: 'Bilhete simples Cais do Sodré ⇄ Seixal', amountEUR: 2.85, note: 'Referência da tarifa de 2026; confirme a tabela tarifária TTSL atual.' },
+    { label: 'Bilhete simples Terreiro do Paço ⇄ Barreiro', amountEUR: 2.95, note: 'Referência da tarifa de 2026; confirme a tabela tarifária TTSL atual.' },
+    { label: 'Bilhete simples Cais do Sodré ⇄ Montijo', amountEUR: 3.25, note: 'Referência da tarifa de 2026; confirme a tabela tarifária TTSL atual.' }
   ],
   sources: [
     { title: 'TTSL — horários, tarifas e avisos Transtejo/Soflusa', url: 'https://ttsl.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Transtejo — informação institucional e ligações fluviais', url: 'https://www.transtejo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Navegante — passes e tarifas da Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

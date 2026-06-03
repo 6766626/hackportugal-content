@@ -30,7 +30,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'f1', title: 'Avenidas Novas / Saldanha', content: [
-            { kind: 'paragraph', text: 'Деловой центр. Метро синей и жёлтой линий. Много иностранцев, рестораны, Corte Inglés. T1 € 1400–2200, T2 € 1800–3000.' }
+            { kind: 'paragraph', text: 'Деловой центр. Метро синей и жёлтой линий. Много иностранцев, рестораны, El Corte Inglés. T1 € 1400–2200, T2 € 1800–3000.' }
           ]},
           { id: 'f2', title: 'Areeiro / Roma', content: [
             { kind: 'paragraph', text: 'Тихие районы со школами. Метро зелёной линии. Есть русскоязычный клуб. T1 € 1200–1800.' }
@@ -62,10 +62,10 @@ export default {
             { kind: 'paragraph', text: 'Северная часть, спокойная. Школы, парки. T1 € 900–1400, T2 € 1300–2000.' }
           ]},
           { id: 'b4', title: 'Almada / Cacilhas (южный берег)', content: [
-            { kind: 'paragraph', text: 'На южной стороне Тежу. На пароме 10 мин до центра Лиссабона. На 30–40% дешевле городских цен. T1 € 600–1000.' }
+            { kind: 'paragraph', text: 'Южный берег Тежу. Паром до центра Лиссабона — 10 мин. На 30–40% дешевле городских цен. T1 € 600–1000.' }
           ]},
           { id: 'b5', title: 'Seixal / Barreiro / Amora', content: [
-            { kind: 'paragraph', text: 'Ещё дальше на юг. Много переезжающих работников из Лиссабона. T1 € 500–900.' }
+            { kind: 'paragraph', text: 'Ещё дальше на юг. Многие переезжают сюда из Лиссабона. T1 € 500–900.' }
           ]}
         ]}
       ]
@@ -109,6 +109,6 @@ export default {
     { title: 'INE — статистика по жилью в Лиссабоне', url: 'https://www.ine.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Lisboa — туристический портал', url: 'https://www.visitlisboa.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

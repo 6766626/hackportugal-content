@@ -134,12 +134,12 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '✈️ Líquidos na bagagem de mão: <100 ml, ou coloque na bagagem de porão. Uma garrafa de Vinho do Porto — apenas na bagagem de porão ou no duty-free depois do controlo',
-          '🍷 Álcool: dentro da UE não há limite (para uso pessoal). Para fora da UE: 1 l de bebidas espirituosas ou 2 l de bebidas menos fortes ou 4 l de vinho sem direitos aduaneiros',
+          '🍷 Álcool: dentro da UE não há limite (para uso pessoal). Ao entrar na UE vindo de fora: 1 l de bebidas espirituosas (>22%) ou 2 l de vinho generoso ou espumante, mais 4 l de vinho tranquilo e 16 l de cerveja, sem direitos aduaneiros',
           '🍯 Mel: para os EUA/Canadá/Austrália podem existir restrições; dentro da UE — sem problemas',
           '🐟 Conservas de peixe: para os EUA/Reino Unido — sem problemas; para a Rússia — podem existir restrições devido a sanções',
           '🌱 Sementes/plantas: NÃO leve, são necessários certificados fitossanitários',
           '🪙 Artigos de cortiça: sem restrições',
-          '🇪🇺 Dentro da UE: não há limite de valor (mas, se houver suspeita de “comercial”, pode haver verificação). Limite para presentes de fora da UE para a UE: 430 € na bagagem de porão / 300 € na bagagem de mão',
+          '🇪🇺 Dentro da UE: não há limite de valor (mas, se houver suspeita de “comercial”, pode haver verificação). Limite sobre os bens ao entrar na UE vindo de fora: 430 € para viajantes por via aérea ou marítima / 300 € para viajantes por via terrestre',
           '✅ Os aeroportos de Lisboa, Porto e Faro têm grandes lojas de souvenirs duty-free depois do controlo — normalmente mais baratas do que na cidade para garrafas e chocolate'
         ]}
       ]
@@ -152,7 +152,7 @@ export default {
     { title: 'IVDP — Instituto dos Vinhos do Douro e Porto', url: 'https://www.ivdp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Visit Aveiro — Ovos moles DOP', url: 'https://www.visitaveiro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: souvenirs de Portugal. Top 10 autênticos (Galo, azulejos, cortiça, Vinho do Porto, Vinho Verde, ginjinha, conservas, ovos moles, azeite, lenço dos namorados), onde comprar em Lisboa (A Vida Portuguesa, Mercado da Ribeira, Conserveira) e no Porto (Mercado do Bolhão, Vila Nova de Gaia), como distinguir o autêntico do mercado de massa chinês, regras alfandegárias.'

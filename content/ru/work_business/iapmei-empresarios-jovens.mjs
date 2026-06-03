@@ -21,7 +21,7 @@ export default {
       title: 'Кто может претендовать',
       content: [
         { kind: 'checklist', items: [
-          'Возраст: если aviso помечен как jovem empreendedor, обычно проверяется, что основателю/контролирующим socios меньше 35 лет на дату подачи; точная формулировка — в aviso.',
+          'Возраст: если aviso помечен как jovem empreendedor, обычно используется формула «até 35 anos» — как правило, до 35 лет включительно (то есть до 36-летия) у основателя/контролирующих socios на дату подачи; точная граница и дата проверки — в самом aviso.',
           'Бизнес должен быть в Португалии: ENI/empresário em nome individual или sociedade с NIPC, sede/estabelecimento в PT.',
           'Экспат может участвовать, если у него есть право работать/вести бизнес в Португалии: ВНЖ, виза с разрешением на деятельность, EU residence, либо другой законный статус.',
           'NIF обязателен; для компании — certidão permanente, CAE, IBAN компании, contabilidade organizada при необходимости.',
@@ -114,7 +114,7 @@ export default {
           'День 14–20: соберите 2–3 orçamento от независимых поставщиков под Vale Empreendedorismo/Vales.',
           'День 20–25: подготовьте business plan и финансовую модель; переведите ключевые материалы на португальский.',
           'День 25–30: зарегистрируйтесь в Balcão dos Fundos, настройте представительство компании и подпишитесь на avisos COMPETE 2030.',
-          'Параллельно: держите резерв на собственную часть расходов и НДС — IVA часто платится сразу, даже если потом часть расхода компенсируют.'
+          'Параллельно: держите резерв на собственную часть расходов и IVA. Важно: возвращаемый IVA обычно не eligible — если компания может его вычесть/вернуть, в гранте он не компенсируется. Невозмещаемый IVA может быть eligible, только если это прямо допускает aviso.'
         ] }
       ]
     }
@@ -131,6 +131,6 @@ export default {
     { title: 'Balcão dos Fundos — подача candidaturas Portugal 2030', url: 'https://balcaofundosue.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Comissão Europeia — regras de auxílios de minimis 2024–2030', url: 'https://competition-policy.ec.europa.eu/state-aid/legislation/regulations/de-minimis-regulation_en', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

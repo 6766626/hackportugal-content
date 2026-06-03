@@ -3,7 +3,7 @@ export default {
   id: 'eviction-tenant-protections',
   categoryId: 'housing_rent',
   title: 'Proteção do arrendatário em caso de despejo: BNA, denúncia e oposição à renovação',
-  tldr: 'Em Portugal, o landlord não pode simplesmente mudar as fechaduras: o despejo segue por tribunal ou pelo Balcão Nacional do Arrendamento (BNA)\.\n\nSe recebeu uma denúncia, oposição à renovação ou uma notificação do BNA, o prazo principal é normalmente de 15 dias para oposição no BNA e 30 dias para respostas sobre “rendas antigas”. Em 2026, aplicam-se a Lei 6/2006 (NRAU) e as regras do Código Civil: verifique o prazo de aviso, o fundamento, a forma da carta e as proteções para pessoas com 65+, incapacidade ≥60% e contratos antigos.',
+  tldr: 'Em Portugal, o landlord não pode simplesmente mudar as fechaduras: o despejo segue por tribunal ou pelo Balcão Nacional do Arrendamento (BNA).\n\nSe recebeu uma denúncia, oposição à renovação ou uma notificação do BNA, o prazo principal é normalmente de 15 dias para oposição no BNA e 30 dias para respostas sobre “rendas antigas”. Em 2026, aplicam-se a Lei 6/2006 (NRAU) e as regras do Código Civil: verifique o prazo de aviso, o fundamento, a forma da carta e as proteções para pessoas com 65+, incapacidade ≥60% e contratos antigos.',
   tags: ['arrendamento', 'bna', 'despejo', 'denúncia'],
   estimatedReadMinutes: 6,
   steps: [
@@ -145,6 +145,6 @@ export default {
     { title: 'Código Civil — regras de arrendamento urbano, legislação consolidada', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Segurança Social — proteção jurídica / apoio judiciário', url: 'https://www.seg-social.pt/protecao-juridica', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

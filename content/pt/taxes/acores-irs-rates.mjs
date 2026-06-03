@@ -66,7 +66,7 @@ export default {
       id: 'not-final-tax',
       title: 'Não confunda retenção com IRS final',
       content: [
-        { kind: 'paragraph', text: 'A tabela de retenção decide apenas quanto reter agora. O IRS final de 2026 é calculado em 2027 na declaração Modelo 3. Aí são consideradas as taxas progressivas, deductions, dependentes, despesas gerais familiares, saúde, educação, rendas, PPR e outras deduções.' },
+        { kind: 'paragraph', text: 'A tabela de retenção decide apenas quanto reter agora. O IRS final de 2026 é calculado em 2027 na declaração Modelo 3. Aí são consideradas as taxas progressivas, dependentes, despesas gerais familiares, saúde, educação, rendas, PPR e outras deduções.' },
         { kind: 'checklist', items: [
           'Uma retenção menor todos os meses não significa que o imposto tenha sido “perdoado”.',
           'Se foi retido demasiado pouco — haverá uma nota de cobrança a pagar após a liquidação.',
@@ -134,6 +134,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

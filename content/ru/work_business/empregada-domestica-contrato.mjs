@@ -59,7 +59,7 @@ export default {
               'NIF работника, если есть.',
               'Дата начала договора.',
               'График и предполагаемая remuneração.',
-              'Write: "База взносов обычно remuneração convencional; режим remuneração real/efetiva применяется при соблюдении условий Segurança Social и важен, например, для защиты по безработице. Перед выбором проверьте условия в Segurança Social Direta/guia oficial и зафиксируйте это с работником."'
+              'База взносов обычно remuneração convencional; режим remuneração real/efetiva применяется при соблюдении условий Segurança Social и важен, например, для защиты по безработице. Перед выбором проверьте условия в Segurança Social Direta/guia oficial и зафиксируйте это с работником.'
             ] }
           ] },
           { id: 'submit-admission', title: '2. Подайте admissão', content: [
@@ -77,7 +77,7 @@ export default {
       title: 'Сколько платить: зарплата, взносы, отпускные',
       content: [
         { kind: 'paragraph', text: 'Минимальная оплата full-time в 2026 ориентируется на SMN 920 € в месяц, обычно 14 выплат в год: 12 зарплат + subsídio de férias + subsídio de Natal. Для part-time считайте пропорционально часам, но не ниже минимальной ставки.' },
-        { kind: 'paragraph', text: 'Add after this paragraph: "Важно: conventional и real отличаются не только суммой взносов, но и уровнем социальной защиты; для права на subsídio de desemprego домашнему работнику обычно нужен режим на фактическую зарплату/условия, признанные Segurança Social." Это база для взносов, а не разрешение платить работнику 3,10 €/ч.' },
+        { kind: 'paragraph', text: 'Важно: remuneração convencional и remuneração real отличаются не только суммой взносов, но и уровнем социальной защиты. Для права на subsídio de desemprego домашнему работнику обычно нужен режим взносов с фактической зарплаты (real), признанный Segurança Social. Условная база (convencional) привязана к IAS и нужна только для расчёта взносов — это не разрешение платить работнику меньше минимальной зарплаты.' },
         { kind: 'checklist', items: [
           'Full-time 40 ч/нед: не ниже 920 € gross/мес × 14 в 2026.',
           'Part-time: зарплата пропорциональна часам, плюс пропорциональные отпускные и рождественские.',
@@ -164,6 +164,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

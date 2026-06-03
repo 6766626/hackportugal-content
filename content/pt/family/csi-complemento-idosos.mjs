@@ -3,7 +3,7 @@ export default {
   id: 'csi-complemento-idosos',
   categoryId: 'healthcare',
   title: 'CSI — Complemento Solidário para Idosos: suplemento para idosos com baixos rendimentos',
-  tldr: 'O Complemento Solidário para Idosos (CSI) é um complemento mensal da Segurança Social para pessoas a partir dos 66 anos e 9 meses em 2026, se viverem em Portugal há pelo menos 6 anos consecutivos e tiverem rendimentos muito baixos. Máximo — cerca de 600 €/mês; na prática, é paga a diferença entre o seu rendimento considerado e o limite do CSI. Além disso: cobertura de 100% de parte dos medicamentos sujeitos a receita no âmbito do SNS e benefícios dentários. Não está imediatamente disponível para novos pensionistas D7/D8: é necessário cumprir o período de residência.',
+  tldr: 'O Complemento Solidário para Idosos (CSI) é um complemento mensal da Segurança Social para pessoas a partir dos 66 anos e 9 meses em 2026, se viverem em Portugal há pelo menos 6 anos consecutivos e tiverem rendimentos muito baixos. Máximo — cerca de 670 €/mês; na prática, é paga a diferença entre o seu rendimento considerado e o limite do CSI. Além disso: cobertura de 100% de parte dos medicamentos sujeitos a receita no âmbito do SNS e benefícios dentários. Não está imediatamente disponível para novos pensionistas D7/D8: é necessário cumprir o período de residência.',
   tags: ['csi', 'pensão', 'idosos', 'sns'],
   estimatedReadMinutes: 6,
   steps: [
@@ -11,13 +11,13 @@ export default {
       id: 'what-is-csi',
       title: 'O que é o CSI e para quem é realmente necessário',
       content: [
-        { kind: 'paragraph', text: 'O CSI não é uma pensão, mas sim um complemento social ao rendimento de uma pessoa idosa. É pago pela Segurança Social se os rendimentos forem inferiores ao valor anual de referência estabelecido. Se a pessoa quase não tiver rendimentos, a prestação pode chegar a cerca de 600 €/mês; se houver pensão, rendas, juros ou uma pensão estrangeira, o CSI é reduzido.' },
+        { kind: 'paragraph', text: 'O CSI não é uma pensão, mas sim um complemento social ao rendimento de uma pessoa idosa. É pago pela Segurança Social se os rendimentos forem inferiores ao valor anual de referência estabelecido. Se a pessoa quase não tiver rendimentos, a prestação pode chegar a cerca de 670 €/mês; se houver pensão, rendas, juros ou uma pensão estrangeira, o CSI é reduzido.' },
         { kind: 'paragraph', text: 'Para expatriados, isto é importante em duas situações: vive em Portugal há muito tempo e a sua pensão é baixa; ou muda-se para junto de um familiar idoso e está a planear a sua proteção social. Mas o CSI não funciona como apoio logo após a mudança: a condição essencial é ter 6 anos consecutivos de residência legal em Portugal.' },
         { kind: 'checklist', items: [
           'Idade em 2026: pelo menos 66 anos e 9 meses — idade normal de acesso à pensão de velhice.',
           'Residência: pelo menos 6 anos consecutivos em Portugal à data do pedido.',
-          'Rendimentos: abaixo do limite do CSI; para um requerente isolado, a referência é cerca de 7 200 €/ano.',
-          'Para um casal, são considerados os rendimentos do cônjuge/parceiro; o limiar prático do casal é cerca de 12 600 €/ano.',
+          'Rendimentos: abaixo do limite do CSI; para um requerente isolado, a referência é cerca de 8 040 €/ano.',
+          'Para um casal, são considerados os rendimentos do cônjuge/parceiro; o limiar prático do casal é cerca de 14 070 €/ano.',
           'Pensões estrangeiras, rendas, juros, rendimentos de investimento e rendimentos imobiliários são declarados.',
           'É necessário ter NISS e estar registado na Segurança Social.',
           'É necessário já receber ou ter direito a pedir a pensão correspondente, se esta for devida.',
@@ -34,7 +34,7 @@ export default {
           'Idade: 66 anos e 9 meses ou mais em 2026.',
           'Residência: viver em Portugal durante 6 anos consecutivos imediatamente antes do pedido.',
           'Para cidadãos de países terceiros: autorização de residência válida ou outro estatuto legal de residência.',
-          'Rendimento do requerente abaixo do valor anual valor de referência CSI — cerca de 7 200 €/ano.',
+          'Rendimento do requerente abaixo do valor anual de referência do CSI — cerca de 8 040 €/ano.',
           'Se existir cônjuge, união de facto ou economia comum, o rendimento dele/dela também é considerado.',
           'Ativos mobiliários — saldos bancários, depósitos, títulos — não devem exceder 240 IAS. Com IAS de 537,13 € em 2026, isto corresponde a 128 911,20 €.',
           'Desde 2024, os rendimentos dos filhos maiores de idade, regra geral, já não bloqueiam o CSI como antes; o foco está nos recursos do requerente e do casal.',
@@ -45,10 +45,10 @@ export default {
     },
     {
       id: 'how-much',
-      title: 'Quanto é pago: não são 600 € fixos, mas um complemento até ao limite',
+      title: 'Quanto é pago: não são 670 € fixos, mas um complemento até ao limite',
       content: [
         { kind: 'paragraph', text: 'O CSI é calculado como a diferença entre o valor anual de referência estabelecido e os seus rendimentos considerados. Por isso, duas pessoas da mesma idade podem receber montantes diferentes: uma — quase o máximo, outra — 40–100 €/mês, uma terceira — 0 €.' },
-        { kind: 'paragraph', text: 'Exemplo simplificado: se o limite do CSI for cerca de 7 200 €/ano e a sua pensão considerada e outros rendimentos forem 4 800 €/ano, o complemento anual pode ser cerca de 2 400 €, ou seja, aproximadamente 200 €/mês. Se os rendimentos forem zero, o máximo é cerca de 600 €/mês.' },
+        { kind: 'paragraph', text: 'Exemplo simplificado: se o limite do CSI for cerca de 8 040 €/ano e a sua pensão considerada e outros rendimentos forem 4 800 €/ano, o complemento anual pode ser cerca de 3 240 €, ou seja, aproximadamente 270 €/mês. Se os rendimentos forem zero, o máximo é cerca de 670 €/mês.' },
         { kind: 'checklist', items: [
           'A pensão portuguesa de velhice é considerada.',
           'Uma pensão estrangeira pública ou privada é considerada.',
@@ -58,7 +58,7 @@ export default {
           'Se o rendimento mudou, deve comunicá-lo à Segurança Social.',
           'O pagamento é normalmente feito mensalmente, juntamente com outras prestações sociais ou para o IBAN indicado.'
         ] },
-        { kind: 'warning', text: 'Não planeie o orçamento como “vou receber certamente 600 €”. Este é o complemento máximo para recursos mínimos. O valor real só é conhecido após o cálculo da Segurança Social.' }
+        { kind: 'warning', text: 'Não planeie o orçamento como “vou receber certamente 670 €”. Este é o complemento máximo para recursos mínimos. O valor real só é conhecido após o cálculo da Segurança Social.' }
       ]
     },
     {
@@ -118,7 +118,7 @@ export default {
   ],
   costs: [
     { label: 'Apresentação do pedido de CSI', amountEUR: 0, note: 'O serviço público da Segurança Social é gratuito.' },
-    { label: 'Complemento mensal máximo', amountEURMax: 600, note: 'Referência para 2026: máximo em caso de rendimentos considerados quase nulos; o valor efetivo é calculado individualmente.' },
+    { label: 'Complemento mensal máximo', amountEURMax: 670, note: 'Referência para 2026 (valor de referência 8 040 €/ano): máximo em caso de rendimentos considerados quase nulos; o valor efetivo é calculado individualmente.' },
     { label: 'Limite de ativos mobiliários', amountEURMax: 128911.2, note: '240 IAS com IAS de 537,13 € em 2026; inclui saldos bancários, depósitos e outros ativos financeiros.' }
   ],
   sources: [
@@ -137,6 +137,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

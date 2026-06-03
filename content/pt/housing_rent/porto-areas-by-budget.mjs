@@ -57,7 +57,7 @@ export default {
       id: 'contract-check',
       title: 'Antes de assinar o arrendamento',
       content: [
-        { kind: 'paragraph', text: 'Em 2026, o cenário seguro padrão: contrato de arrendamento escrito, registo do contrato nas Finanças pelo senhorio, recibos de renda, caução e primeiro mês por transferência bancária. A actualização da renda em 2026 para contratos antigos orienta-se pelo coeficiente de 2,16%, se o contrato não estabelecer outra coisa dentro da lei.' },
+        { kind: 'paragraph', text: 'Em 2026, o cenário seguro padrão: contrato de arrendamento escrito, registo do contrato nas Finanças pelo senhorio, recibos de renda, caução e primeiro mês por transferência bancária. A actualização da renda em 2026 para contratos existentes orienta-se pelo coeficiente de 2,24%, se o contrato não estabelecer outra coisa dentro da lei.' },
         { kind: 'checklist', items: ['Peça a caderneta predial ou prova de que o senhorio tem direito a arrendar o imóvel', 'O contrato deve incluir morada, prazo, renda, caução, NIF das partes, condições de rescisão, mobília e despesas', 'Grave um vídeo do apartamento à entrada: paredes, electrodomésticos, janelas, contadores de água/electricidade/gás', 'Esclareça se o condomínio está incluído na renda — normalmente é pago pelo proprietário, mas os serviços públicos são pagos pelo arrendatário', 'Não transfira a caução antes de visitar o apartamento ou verificar a procuração do agente/proprietário', 'Se precisa de escola, SNS, morada para NIF, procedimentos AIMA — certifique-se de que o contrato serve como comprovativo de morada', 'Para animais, obtenha autorização por escrito no contrato ou por email, não um “sem problema” verbal', 'Se o contrato for de 1 ano, verifique as regras de renovação e os prazos de denúncia/oposição à renovação'] },
         { kind: 'warning', text: 'Um contrato curto de Alojamento Local ou “prestação de serviços” em vez de arrendamento pode não dar os mesmos direitos que um contrato de arrendamento habitacional. Para uma família e documentos, é melhor um contrato completo de arrendamento para habitação.' }
       ]
@@ -76,6 +76,6 @@ export default {
     { title: 'Andante — tarifas e passes da Área Metropolitana do Porto', url: 'https://andante.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Idealista Portugal — mercado de arrendamento no Porto e municípios à volta', url: 'https://www.idealista.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

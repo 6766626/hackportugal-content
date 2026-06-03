@@ -3,7 +3,7 @@ export default {
   id: 'donativos-deduzir-irs',
   categoryId: 'taxes',
   title: 'IRS donations: tax relief for gifts under Lei do Mecenato',
-  tldr: 'Donations in Portugal can reduce IRS if the recipient is entitled to receive donativos fiscalmente relevantes and the payment is issued with your NIF. The basic rule for individuals: 25% of the donativo amount is deducted from the IRS collecta; for many IPSS, religious, cultural and scientific organisations, a limit of up to 15% of the collecta applies. In the IRS 2025 return, filed from 01/04 to 30/06/2026, this is checked in Anexo H, Quadro 6. Consignação de IRS 0.5% is not an expense and is not the same thing.',
+  tldr: 'Donations in Portugal can reduce IRS if the recipient is entitled to receive donativos fiscalmente relevantes and the payment is issued with your NIF. The basic rule for individuals: 25% of the donativo amount is deducted from the IRS coleta; for many IPSS, religious, cultural and scientific organisations, a limit of up to 15% of the coleta applies. In the IRS 2025 return, filed from 01/04 to 30/06/2026, this is checked in Anexo H, Quadro 6, field 6B. Consignação de IRS 0.5% is not an expense and is not the same thing.',
   tags: ['irs', 'donations', 'patronage', 'anexo-h'],
   estimatedReadMinutes: 5,
   steps: [
@@ -12,7 +12,7 @@ export default {
       title: 'What counts as a donativo for IRS',
       content: [
         { kind: 'paragraph', text: 'A donativo is a donation of money or assets, made without receiving anything in return, to an organisation recognised for tax-relief purposes: IPSS, Misericórdias, some associations, foundations, the Church and other religious organisations, cultural, scientific, educational and social entities.' },
-        { kind: 'paragraph', text: 'For an individual tax resident, the tax effect is usually this: 25% of the donation amount is deducted from the IRS collecta — the tax calculated before personal deductions. This is not an automatic 25% refund to your card, but a reduction in the final IRS payable or an increase in the refund if there was retenção na fonte.' },
+        { kind: 'paragraph', text: 'For an individual tax resident, the tax effect is usually this: 25% of the donation amount is deducted from the IRS coleta — the tax calculated before personal deductions. This is not an automatic 25% refund to your card, but a reduction in the final IRS payable or an increase in the refund if there was retenção na fonte.' },
         { kind: 'checklist', items: [
           'The donation was made to an organisation entitled to a tax benefit under the EBF / patronage regime',
           'Your NIF is shown on the receipt or recibo',
@@ -26,11 +26,11 @@ export default {
     },
     {
       id: 'deduction-rules',
-      title: 'How much you can deduct: 25% and the collecta limit',
+      title: 'How much you can deduct: 25% and the coleta limit',
       content: [
-        { kind: 'paragraph', text: 'The standard rule for individuals under the Estatuto dos Benefícios Fiscais: 25% of the donativos amount is deducted from the IRS collecta. For most donations to private IPSS, religious, cultural, scientific and social entities, a ceiling applies: the deduction cannot exceed 15% of your collecta.' },
-        { kind: 'paragraph', text: 'Example: IRS collecta = €3,000. You donated €1,000 to an IPSS entitled to a tax benefit. Calculation: €1,000 × 25% = €250. The 15% collecta limit = €450. This means you can use the full €250 deduction.' },
-        { kind: 'paragraph', text: 'If, with the same €3,000 collecta, you donated €3,000, the calculated deduction would be €750, but the 15% collecta limit is €450. In the IRS return, the maximum credited will be €450.' },
+        { kind: 'paragraph', text: 'The standard rule for individuals under the Estatuto dos Benefícios Fiscais: 25% of the donativos amount is deducted from the IRS coleta. For most donations to private IPSS, religious, cultural, scientific and social entities, a ceiling applies: the deduction cannot exceed 15% of your coleta.' },
+        { kind: 'paragraph', text: 'Example: IRS coleta = €3,000. You donated €1,000 to an IPSS entitled to a tax benefit. Calculation: €1,000 × 25% = €250. The 15% coleta limit = €450. This means you can use the full €250 deduction.' },
+        { kind: 'paragraph', text: 'If, with the same €3,000 coleta, you donated €3,000, the calculated deduction would be €750, but the 15% coleta limit is €450. In the IRS return, the maximum credited will be €450.' },
         { kind: 'warning', text: 'Online, three different things are often confused: donativos with a 25% deduction, consignação de IRS 0.5%, and corporate patronage rules for companies. For individuals in IRS, do not apply “5%” as a universal deduction rate. If the organisation mentions a special cultural/scientific patronage regime, ask it for the tax recibo and confirm the benefit code in Anexo H.' }
       ]
     },
@@ -58,7 +58,7 @@ export default {
       id: 'declare-anexo-h',
       title: 'How to declare it in IRS: Anexo H, Quadro 6',
       content: [
-        { kind: 'paragraph', text: 'The IRS return for 2025 is filed on Portal das Finanças from 01/04/2026 to 30/06/2026. Donativos are checked in Modelo 3 → Anexo H → Quadro 6. If the amount is already pre-filled, check the recipient’s NIF, the benefit code and the amount.' },
+        { kind: 'paragraph', text: 'The IRS return for 2025 is filed on Portal das Finanças from 01/04/2026 to 30/06/2026. Donativos are checked in Modelo 3 → Anexo H → Quadro 6, field 6B. If the amount is already pre-filled, check the recipient’s NIF, the benefit code and the amount.' },
         { kind: 'substeps', items: [
           { id: 'login', title: '1. Log in to Portal das Finanças', content: [
             { kind: 'paragraph', text: 'Use NIF + password or Chave Móvel Digital. Open IRS → Entregar declaração → IRS Automático or Modelo 3. If you have complex income, recibos verdes, foreign income or changes of residence, you will more often need to complete Modelo 3 manually.' }
@@ -73,7 +73,7 @@ export default {
               'The organisation’s NIF/NIPC is correct',
               'The benefit code matches the type of entity',
               'There is no duplicate of the same amount',
-              'The deduction does not exceed the applicable collecta limit',
+              'The deduction does not exceed the applicable coleta limit',
               'After the IRS simulation, you can see a tax reduction or a higher refund'
             ] }
           ] },
@@ -111,7 +111,7 @@ export default {
           'The organisation is “non-profit” but is not entitled to a tax benefit — the word associação alone is not enough',
           'The donativo was entered as despesa geral familiar — this is the wrong category',
           'The amount was declared for the payment year under the wrong tax year',
-          'Collecta is confused with payroll withholding: the 15% limit is calculated from collecta, not from your gross salary',
+          'Coleta is confused with payroll withholding: the 15% limit is calculated from coleta, not from your gross salary',
           'Anexo H was deleted because “IRS Automático calculated everything” — donativos may have been left out of the calculation'
         ] },
         { kind: 'paragraph', text: 'A practical test before making a large donation: ask the organisation the question “emite recibo de donativo para efeitos fiscais em IRS?” and confirm the NIPC, regime and code/description for Anexo H. If the answer is vague, do not rely on the deduction.' }
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

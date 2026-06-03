@@ -3,7 +3,7 @@ export default {
   id: 'home-insurance',
   categoryId: 'housing_rent',
   title: 'Страхование жилья — seguro multirriscos',
-  tldr: 'По закону (art. 1429 Código Civil) для квартир в condomínio (горизонтальная собственность) обязательно страхование от риска пожара — как для отдельных квартир, так и для общих частей. Multirriscos habitação шире (пожар + вода + кража + гражданская ответственность), но как договорное обязательство банк требует его при ипотеке — это не закон, а условие кредита. Для арендаторов страховка не обязательна, но рекомендуется (seguro de recheio, 50-150 €/год)\.\n\nЛучшие страховщики 2026: Fidelidade, Generali Tranquilidade (бренд Generali), Allianz, Zurich, Liberty. Годовая стоимость 150-500 € для квартиры 70-100 m² зависит от покрытия и франшизы.',
+  tldr: 'По закону (art. 1429 Código Civil) для квартир в condomínio (горизонтальная собственность) обязательно страхование от риска пожара — как для отдельных квартир, так и для общих частей. Multirriscos habitação шире (пожар + вода + кража + гражданская ответственность), но как договорное обязательство банк требует его при ипотеке — это не закон, а условие кредита. Для арендаторов страховка не обязательна, но рекомендуется (seguro de recheio, 50-150 €/год).\n\nЛучшие страховщики 2026: Fidelidade, Generali Tranquilidade (бренд Generali), Allianz, Zurich, Liberty. Годовая стоимость 150-500 € для квартиры 70-100 m² зависит от покрытия и франшизы.',
   tags: ['страховка', 'seguro', 'жильё', 'multirriscos'],
   estimatedReadMinutes: 5,
   steps: [
@@ -44,7 +44,7 @@ export default {
             { kind: 'checklist', items: [
               'Assistência domiciliária 24/7 — сантехник, электрик, слесарь при проблемах (+10-30 €/год)',
               'Ремонт бытовой техники — ремонт крупной техники после гарантии (+20-40 €/год)',
-              'Защита от киберкраж — защита от киберкраж и кражи личности (+5-15 €/год)',
+              'Защита от киберугроз — защита от кибермошенничества и кражи личных данных (+5-15 €/год)',
               'Страхование животных — ветеринария для животных (иногда можно добавить к страховке жилья)'
             ]}
           ]}
@@ -71,7 +71,7 @@ export default {
             { kind: 'checklist', items: [
               'ComparaJá.pt — агрегатор котировок',
               'Doctor Finanças — финансовый сравнитель',
-              'Raconoscer / Seguros.pt — специализированные',
+              'Compare o Mercado / Comparador.pt — специализированные сравнители',
               'Сравнить: цена, franquia (франшиза), лимиты покрытия, исключения',
               '💡 Сила торга: покажите другую котировку — могут снизить цену до 20%'
             ]}
@@ -160,6 +160,6 @@ export default {
     { title: 'DL 72/2008 — Regime Jurídico do Contrato de Seguro', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/72-2008-456608', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ComparaJá — сравнение страховок', url: 'https://www.comparaja.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

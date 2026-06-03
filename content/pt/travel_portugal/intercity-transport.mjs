@@ -28,7 +28,7 @@ export default {
               'Lisboa–Faro: 20–30 €',
               'Lisboa–Coimbra: 15–25 €',
               'Porto–Braga: 5–8 €',
-              'Descontos: 50% para crianças dos 4 aos 13 anos, 25-50% para estudantes, 50% para reformados 65+',
+              'Descontos: 50% para crianças dos 4 aos 12 anos, 25-50% para estudantes, 50% para reformados 65+',
               'Interrail Pass: disponível para residentes em Portugal'
             ]}
           ]},
@@ -87,7 +87,7 @@ export default {
           '🇵🇹 TAP Portugal — principal transportadora, hub em Lisboa',
           '🇵🇹 SATA Azores Airlines — especialista nos Açores, voos interilhas',
           '💶 Ryanair — Porto/Lisboa para a Madeira ~40–80 € com antecedência',
-          '🏝️ Madeira: Lisboa–Funchal 1:40 min, 50–150 €',
+          '🏝️ Madeira: Lisboa–Funchal 1:40, 50–150 €',
           '🏝️ Açores: Lisboa–Ponta Delgada 2:15, 80–200 €'
         ]}
       ]
@@ -115,7 +115,7 @@ export default {
           '🔍 Skyscanner — opções económicas',
           '📱 Aplicações CP + Rede Expressos + FlixBus — reserva direta mais barata',
           '📅 Com 10–30 dias de antecedência — melhores preços',
-          '💶 Bilhete combinado: muitas vezes é mais barato comprar separadamente CP autocarro local'
+          '💶 Bilhete combinado: muitas vezes é mais barato comprar separadamente CP + autocarro local'
         ]}
       ]
     }
@@ -135,6 +135,6 @@ export default {
     { title: 'Atlanticoline — ferries nos Açores', url: 'https://www.atlanticoline.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

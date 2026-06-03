@@ -3,7 +3,7 @@ export default {
   id: 'carris-eletricos-lisboa',
   categoryId: 'public_transport',
   title: 'Elétricos de Lisboa 12, 15, 18, 28: turistas vs residentes',
-  tldr: 'Os elétricos da Carris não são um museu, são transporte público normal. O 28E é bonito, mas está quase sempre cheio de turistas e carteiristas; para residentes só é útil fora das horas de ponta. O 15E é uma forma normal de chegar a Belém e Algés, geralmente num elétrico moderno. O 12E, 18E e 24E ajudam em zonas de colinas onde não há Metro. Com o Navegante, a viagem está incluída no passe; o bilhete simples comprado ao motorista no elétrico é caro — cerca de 3,10 € em 2026.',
+  tldr: 'Os elétricos da Carris não são um museu, são transporte público normal. O 28E é bonito, mas está quase sempre cheio de turistas e carteiristas; para residentes só é útil fora das horas de ponta. O 15E é uma forma normal de chegar a Belém e Algés, geralmente num elétrico moderno. O 12E, 18E e 24E ajudam em zonas de colinas onde não há Metro. Com o Navegante, a viagem está incluída no passe; o bilhete simples comprado ao motorista no elétrico é caro — cerca de 3,30 € em 2026.',
   tags: ['carris', 'elétrico', 'lisboa', 'navegante'],
   estimatedReadMinutes: 5,
   steps: [
@@ -47,7 +47,7 @@ export default {
           'Navegante municipal Lisboa: normalmente 30 € / mês, válido dentro do município de Lisboa na Carris, Metro e outros operadores urbanos segundo as condições tarifárias.',
           'Navegante metropolitano: normalmente 40 € / mês, cobre toda a Área Metropolitana de Lisboa.',
           'Zapping no cartão Navegante ocasional / Viva Viagem é mais barato do que o bilhete comprado ao motorista e serve para viagens pouco frequentes.',
-          'Bilhete ao motorista no elétrico em 2026 — cerca de 3,10 € por viagem; é o preço turístico por não se preparar.',
+          'Bilhete ao motorista no elétrico em 2026 — cerca de 3,30 € por viagem; é o preço turístico por não se preparar.',
           'O cartão Navegante ocasional custa cerca de 0,50 € e compra-se/carrega-se nas máquinas do Metro, CP, Fertagus, nas estações e em alguns pontos de venda.',
           'Nos elétricos históricos, a entrada é normalmente pela porta da frente; o validador fica junto ao motorista.',
           'Não valide o mesmo cartão para duas pessoas: cada passageiro precisa do seu próprio cartão validado ou bilhete.'
@@ -105,7 +105,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Bilhete ao motorista no elétrico Carris', amountEUR: 3.10, note: 'Referência para 2026; mais caro do que zapping ou passe.' },
+    { label: 'Bilhete ao motorista no elétrico Carris', amountEUR: 3.30, note: 'Referência para 2026; mais caro do que zapping ou passe.' },
     { label: 'Navegante municipal Lisboa', amountEUR: 30, note: 'Passe mensal dentro de Lisboa; elétricos Carris incluídos.' },
     { label: 'Navegante metropolitano', amountEUR: 40, note: 'Passe mensal para a Área Metropolitana de Lisboa.' },
     { label: 'Cartão Navegante ocasional / Viva Viagem', amountEUR: 0.50, note: 'Suporte para zapping ou bilhetes simples; carregamento à parte.' }
@@ -117,6 +117,6 @@ export default {
     { title: 'Navegante — passes e sistema tarifário Lisboa/AML', url: 'https://www.navegante.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Carris — site oficial do operador de transporte de Lisboa', url: 'https://www.carris.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

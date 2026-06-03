@@ -17,7 +17,7 @@ export default {
           'услуги фрилансера, оказанные из Португалии: обычно 0% в США, если нет permanent establishment / fixed base в США',
           'business profits: Article 7, обычно 0% в США без permanent establishment',
           'independent personal services: Article 15, обычно 0% без fixed base в США и при отсутствии длительного физического присутствия в США',
-          'royalties, включая часть выплат Amazon KDP: Article 12, для Portugal–US treaty обычно до 10%, а не 0%',
+          'royalties, включая часть выплат Amazon KDP: Article 13, для Portugal–US treaty обычно до 10%, а не 0%',
           'дивиденды акций США у IBKR: Article 10, обычно 15% для портфельного инвестора',
           'capital gains по обычным акциям США: обычно 0% withholding в США, но декларируются в Португалии',
           'форма не отменяет португальский IRS: резидент Португалии декларирует worldwide income'
@@ -84,9 +84,9 @@ export default {
             id: 'amazon-kdp',
             title: 'Amazon KDP royalties — обычно 10%',
             content: [
-              { kind: 'paragraph', text: 'KDP чаще классифицирует выплаты авторам как royalties. Для Portugal–US treaty проверяйте Article 12: ставка по royalties обычно ограничена 10% gross amount. Это лучше, чем 30%, но не 0%.' },
+              { kind: 'paragraph', text: 'KDP чаще классифицирует выплаты авторам как royalties. Для Portugal–US treaty проверяйте Article 13: ставка по royalties обычно ограничена 10% gross amount. Это лучше, чем 30%, но не 0%.' },
               { kind: 'checklist', items: [
-                'Article: 12',
+                'Article: 13',
                 'Rate of withholding: 10%',
                 'Type of income: royalties / copyright royalties',
                 'Explanation: beneficial owner is a resident of Portugal under the Portugal–US income tax treaty'
@@ -180,6 +180,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

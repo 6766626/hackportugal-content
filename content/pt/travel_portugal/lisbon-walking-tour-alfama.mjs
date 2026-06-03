@@ -102,7 +102,7 @@ export default {
           '💧 Leve água consigo — há cafés, mas são pouco frequentes e caros',
           '🎒 Tenha atenção aos bolsos nas multidões de turistas junto à Sé e ao Castelo',
           '🚇 Início do percurso — a 3 min do metro Baixa-Chiado (saída «Rua Augusta»)',
-          '🎟️ Castelo de São Jorge: bilhete 20 € (2026), reservar online',
+          '🎟️ Castelo de São Jorge: bilhete 17 € (2026), reservar online',
           '🎵 À noite em Alfama — dezenas de tabernas locais com fado ao vivo (jantar + vinho ~35–50 €/pessoa)'
         ]}
       ]
@@ -125,6 +125,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — Património', url: 'https://www.lisboa.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UNESCO — património imaterial: fado', url: 'https://ich.unesco.org/en/RL/fado-urban-popular-song-of-portugal-00563', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

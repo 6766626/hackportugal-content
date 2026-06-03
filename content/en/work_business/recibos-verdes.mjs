@@ -27,7 +27,7 @@ export default {
           { id: 'o4', title: '4. IVA (VAT)', content: [
             { kind: 'checklist', items: [
               'Regime de isenção (CIVA art. 53) — for annual/expected turnover ≤ €15,000 and if the conditions are met; when opening atividade, expected turnover is calculated pro rata for the year',
-              'Clarify: “If the art. 53 limit is normally exceeded during the year, the alteração is submitted in January of the following year, and IVA applies from February; if other conditions are lost, deadlines may differ. After moving to the regime normal, periodic VAT returns and IVA payments apply”. The standard rate is 23% (or 13%/6% for certain services). For B2B clients abroad, reverse charge / regras de localização often applies'
+              'If turnover for the year exceeds €15,000 but stays at €18,750 or below, the alteração is submitted within the first 15 working days of January, and you move to the regime normal from 1 January. If turnover exceeds €18,750 during the year, the switch to the regime normal is immediate: the invoice that breaches the limit already carries IVA. After the switch, periodic VAT returns and IVA payments apply. The standard rate is 23% (or 13%/6% for certain services). For B2B clients abroad, reverse charge / regras de localização often applies'
             ]}
           ]},
           { id: 'o5', title: '5. Segurança Social (social security)', content: [
@@ -48,7 +48,7 @@ export default {
             { kind: 'paragraph', text: 'Name, NIF, address. For foreign clients, IVA depends on regras de localização: B2B services to a foreign company often go without Portuguese IVA / reverse charge or operação fora do campo; B2C and digital services may be taxed differently. Check according to the type of service and the client’s status.' }
           ]},
           { id: 'i3', title: '3. Enter the amount and category', content: [
-            { kind: 'paragraph', text: 'Services are included in the invoice. Write: “If you are not in isenção art. 53, when issuing the document you need to choose the applicable IVA rate or the basis for não liquidação/isenção. For foreign clients and reverse charge, do not rely on ‘automatic’: check the regras de localização and the client’s status”.' }
+            { kind: 'paragraph', text: 'Services are included in the invoice. If you are not in isenção art. 53, when issuing the document you need to choose the applicable IVA rate or the basis for não liquidação/isenção. For foreign clients and reverse charge, do not rely on “automatic”: check the regras de localização and the client’s status.' }
           ]},
           { id: 'i4', title: '4. Withholding tax (retenção)', content: [
             { kind: 'paragraph', text: 'Retenção na fonte does not always apply: usually when the Portuguese client is a company/entidade with organised accounting and is required to withhold. Private individuals usually do not withhold. Small TI may have dispensa de retenção if the conditions under CIRS art. 101.º-B are met. Rates depend on the type of income: often 25% for professional services (art. 151), 11.5% for some other income, 16.5% for certain IP/other cases. For foreign clients — usually 0.' }
@@ -68,7 +68,7 @@ export default {
           'For many professional services, the IRS base = 75% of turnover; for other types of income, other coefficients under CIRS art. 31 apply',
           'The progressive IRS scale for 2026 applies: 11.97%–48% across 9 bands',
           'Social contributions of 21.4% on rendimento relevante: 70% of services or 20% of sales/production, based on the quarterly declaration',
-          'Replace with: “Pagamentos por conta de IRS may be assigned by AT based on the previous IRS return/assessment; this is not an automatic tax for all TI. If assigned, they are usually paid 3 times a year — in July, September and December”.'
+          'Pagamentos por conta de IRS may be assigned by AT based on the previous IRS return/assessment; this is not an automatic tax for all TI. If assigned, they are usually paid 3 times a year — in July, September and December'
         ]},
         { kind: 'paragraph', text: 'For IFICI taxpayers (the new regime, which replaced NHR from 2024): a fixed rate of 20% on qualifying activity from the approved lists, provided the regime conditions are met.' }
       ]
@@ -92,6 +92,6 @@ export default {
     { title: 'Segurança Social — Self-Employed Workers', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Opening Atividade', url: 'https://www.gov.pt/cidadaos/-/informacoes/abrir-atividade-de-trabalhador-independente', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

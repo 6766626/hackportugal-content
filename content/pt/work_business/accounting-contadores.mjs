@@ -16,7 +16,7 @@ export default {
             { kind: 'checklist', items: [
               '< 15 000 € de volume de negócios/ano — o contabilista não é obrigatório, pode tratar de tudo sozinho através do Portal das Finanças (IRS simplificado)',
               '> 15 000 € de volume de negócios — normalmente perde a isenção de IVA (CIVA art. 53) e tem de entregar IVA; o contabilista não é obrigatório se permanecer no regime simplificado, mas pode ser útil',
-              'A contabilidade organizada é obrigatória ao sair do regime simplificado (normalmente após exceder 200 000 € nos relevant tax periods nos termos do CIRS art. 28) ou por opção voluntária — nesse caso é necessário um Contabilista Certificado',
+              'A contabilidade organizada é obrigatória ao sair do regime simplificado (normalmente após exceder 200 000 € em dois períodos de tributação consecutivos nos termos do CIRS art. 28) ou por opção voluntária — nesse caso é necessário um Contabilista Certificado',
               'Com o regime IFICI — é frequente contratar mesmo com baixo volume de negócios, devido à complexidade das declarações'
             ]}
           ]},
@@ -78,7 +78,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🎯 Recibos verdes simples (< 15k de volume de negócios): não é obrigatório, mas para ajuda com o IRS — 100-200 € uma única vez',
-          '🎯 Recibos verdes com IVA (15-75k): 50-150 €/mês ou trimestralmente; no regime simplificado, o IVA é normalmente trimestral (monthly — para volumes de negócios acima do CIVA threshold)',
+          '🎯 Recibos verdes com IVA (15-75k): 50-150 €/mês ou trimestralmente; no regime simplificado, a declaração de IVA é normalmente trimestral (mensal — para volumes de negócios acima do limiar de IVA de 650 000 €)',
           '🎯 Recibos verdes com volume de negócios elevado (75k+): 100-200 €/mês + SAF-T',
           '🏢 Unipessoal Lda (pequena pessoa coletiva): 150-300 €/mês',
           '🏢 SA / Lda grande: 300-800 €/mês + auditor',
@@ -168,6 +168,6 @@ export default {
     { title: 'Ordem dos Contabilistas Certificados (OCC)', url: 'https://www.occ.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças — obrigações declarativas', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

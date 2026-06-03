@@ -121,6 +121,6 @@ export default {
     { title: 'Município de Torre de Moncorvo — official website, avisos and apoios municipais', url: 'https://www.cm-moncorvo.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Pampilhosa da Serra — official website and support programmes', url: 'https://www.cm-pampilhosadaserra.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

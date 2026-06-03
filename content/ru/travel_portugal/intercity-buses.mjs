@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'o1', title: 'Rede Expressos', content: [
-            { kind: 'paragraph', text: 'Главная сеть Португалии. Покрывает все крупные и средние города. Из Лиссабона — вокзал Sete Rios (метро Jardim Zoológico). Бронирование на rede-expressos.pt или в приложении. Цены 10–30 € в зависимости от времени.' },
+            { kind: 'paragraph', text: 'Главная сеть Португалии. Покрывает все крупные и средние города. Из Лиссабона — вокзал Sete Rios (метро Jardim Zoológico). Бронирование на rede-expressos.pt или в приложении. Цены 10–30 € в зависимости от времени отправления и даты покупки.' },
           ]},
           { id: 'o2', title: 'FlixBus', content: [
             { kind: 'paragraph', text: 'Немецкий оператор. Сильное покрытие маршрутов Лиссабон — Порту, Лиссабон — Фару, а также международных направлений (Испания, Франция, Германия). Лучшие цены при раннем бронировании (от 5 €). Wi-Fi и розетки.' },
@@ -76,7 +76,7 @@ export default {
           'В дальних рейсах обычно есть туалет',
           'Поздние вечерние и ночные автобусы помогают сэкономить на ночёвке',
           'Sete Rios в Лиссабоне — основной вокзал. Oriente — тоже с некоторыми рейсами',
-          'В Порту — Campanhã и Rodoviária Campanhã'
+          'В Порту — Terminal Intermodal de Campanhã (TIC), рядом с вокзалом и метро Campanhã'
         ]}
       ]
     }
@@ -86,6 +86,6 @@ export default {
     { title: 'AMT — Autoridade da Mobilidade e dos Transportes', url: 'https://www.amt-autoridade.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Rede Expressos — информация оператора', url: 'https://rede-expressos.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

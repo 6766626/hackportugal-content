@@ -3,7 +3,7 @@ export default {
   id: 'rental-contract',
   categoryId: 'housing_rent',
   title: 'Долгосрочная аренда в Португалии — правовая база и процесс',
-  tldr: 'Долгосрочная аренда (arrendamento habitacional) регулируется NRAU (Lei 6/2006 с поправками). Для contratos com prazo certo минимум 1 год и максимум 30 лет; если срок не указан, договор считается заключённым на 5 лет (Código Civil arts. 1094-1095)\.\n\nИсключения для contratos para fins especiais transitórios могут быть короче. По art. 1076 Código Civil лимит: caução до 2 месячных арендных плат + renda antecipada до 2 месяцев. Требования предоплаты 3-12 мес юридически уязвимы — обсудите с юристом легальную структуру (seguro de fiança, garantia bancária, fiador)\.\n\nДоговор регистрируется в Finanças владельцем, он же выдаёт recibos de renda.',
+  tldr: 'Долгосрочная аренда (arrendamento habitacional) регулируется NRAU (Lei 6/2006 с поправками). Для contratos com prazo certo минимум 1 год и максимум 30 лет; если срок не указан, договор считается заключённым на 5 лет (Código Civil arts. 1094-1095).\n\nИсключения для contratos para fins especiais transitórios могут быть короче. По art. 1076 Código Civil лимит: caução до 2 месячных арендных плат + renda antecipada до 2 месяцев. Требования предоплаты в 3-12 месяцев юридически уязвимы — обсудите с юристом легальную структуру (seguro de fiança, garantia bancária, fiador).\n\nДоговор регистрируется в Finanças владельцем, он же выдаёт recibos de renda.',
   tags: ['аренда', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
   steps: [
@@ -30,7 +30,7 @@ export default {
           'Seguro de fiança — страховая компания заменяет fiador, примерно 5-7% годовой аренды',
           'IMI — муниципальный налог на недвижимость, по закону платит владелец',
           'Condomínio — взносы дома; перед condomínio отвечает собственник. В аренде они часто включены в ренту, но договор может отдельно переложить на арендатора некоторые despesas/encargos, если это прямо прописано',
-          'Recibo de renda — ежемесячная налоговая квитанция/receipt от арендодателя, обычно электронная на Portal das Finanças, основа для налоговой декларации'
+          'Recibo de renda — ежемесячная налоговая квитанция от арендодателя, обычно электронная на Portal das Finanças, основа для налоговой декларации'
         ]}
       ]
     },
@@ -95,7 +95,7 @@ export default {
             { kind: 'paragraph', text: 'Составьте опись состояния (inventário) — список имеющейся мебели, состояние стен, пола, сантехники. Фотографируйте всё. Это защитит вас при возврате caução.' }
           ]},
           { id: 'p6', title: '6. Регистрация в Finanças', content: [
-            { kind: 'paragraph', text: 'Владелец обязан comunicar contrato de arrendamento à AT через Portal das Finanças (Modelo 2) до конца месяца, следующего за месяцем начала договора (Código do Imposto do Selo art. 60) — а НЕ просто «в течение 30 дней». После этого он должен emitir recibos de renda eletrónicos. Без регистрации и recibos вы, как правило, не сможете корректно заявить rent deduction в IRS. Для Junta/AIMA зарегистрированный договор сильно повышает надёжность доказательства адреса, но конкретный набор документов зависит от Junta и типа процедуры AIMA.' },
+            { kind: 'paragraph', text: 'Владелец обязан comunicar contrato de arrendamento à AT через Portal das Finanças (Modelo 2) до конца месяца, следующего за месяцем начала договора (Código do Imposto do Selo art. 60) — а НЕ просто «в течение 30 дней». После этого он должен emitir recibos de renda eletrónicos. Без регистрации и recibos вы, как правило, не сможете корректно заявить вычет за аренду в IRS. Для Junta/AIMA зарегистрированный договор сильно повышает надёжность доказательства адреса, но конкретный набор документов зависит от Junta и типа процедуры AIMA.' },
             { kind: 'warning', text: 'Если владелец отказывается регистрировать — это серьёзный тревожный сигнал (возможно, уклонение от налогов). Настаивайте или выбирайте другую квартиру.' }
           ]}
         ]}
@@ -107,7 +107,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Новоприбывшим иностранцам чаще всего недоступен fiador. Варианты:' },
         { kind: 'checklist', items: [
-          '⚠️ Предоплата 3-12 мес вперёд — распространённая рыночная практика для иностранцев без fiador, но как «предоплата аренды» это юридически уязвимо: art. 1076 CC ограничивает её 2 месяцами. Избыток сверх 2 месяцев не стоит оформлять как доп. денежный depósito/caução (это снова caução). Легальные альтернативы — seguro de fiança, garantia bancária, fiador или иная независимая гарантия — структуру проверьте с advogado/solicitador',
+          '⚠️ Предоплата 3-12 мес вперёд — распространённая рыночная практика для иностранцев без fiador, но как «предоплата аренды» это юридически уязвимо: art. 1076 CC ограничивает её 2 месяцами. Избыток сверх 2 месяцев не стоит оформлять как дополнительный денежный depósito/caução (это снова caução). Легальные альтернативы — seguro de fiança, garantia bancária, fiador или иная независимая гарантия — структуру проверьте с advogado/solicitador',
           '⚠️ «Увеличенная caução» 3-6 мес — также противоречит art. 1076 CC (макс 2 мес). Если арендодатель настаивает — оформите избыток через seguro de fiança/garantia bancária',
           'Seguro de fiança — страховая компания гарантирует обязательства, стоит 5-7% годовой аренды (легальный путь обхода лимитов art. 1076)',
           'Среднесрочная аренда (6-12 мес) через сервисы-посредники — обычно без fiador, но на 20-40% дороже',
@@ -128,7 +128,7 @@ export default {
               'Защита от выселения — самовольное выселение НЕЗАКОННО. Даже при задолженности 2+ мес или серьёзном нарушении арендодатель должен расторгнуть договор и использовать предусмотренную процедуру despejo через BAS (Balcão do Arrendatário e do Senhorio) / tribunal; нельзя просто менять замки или выносить вещи',
               'Капитальный ремонт — за счёт владельца (крыша, электропроводка, структурные дефекты)',
               'Возврат caução: лучше прямо указать срок в договоре (например 15–30 дней после entrega das chaves); универсального законного срока «30 дней» в общем режиме нет',
-              'Вычет в IRS: 15% расходов на renda de habitação permanente в пределах лимита текущего года — сверяйте actual cap по art. 78.º-E CIRS на portaldasfinancas.gov.pt'
+              'Вычет в IRS: 15% расходов на renda de habitação permanente в пределах лимита текущего года — сверяйте действующий лимит по art. 78.º-E CIRS на portaldasfinancas.gov.pt'
             ]}
           ]},
           { id: 'r2', title: 'Обязанности арендатора', content: [
@@ -181,6 +181,6 @@ export default {
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

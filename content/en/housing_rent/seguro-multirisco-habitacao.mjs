@@ -123,6 +123,6 @@ export default {
     { title: 'Código Civil — art. 1429, mandatory fire insurance in propriedade horizontal', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1966-34509075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Decreto-Lei 72/2008 — regime jurídico do contrato de seguro', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/72-2008-249969', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

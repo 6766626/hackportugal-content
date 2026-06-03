@@ -128,7 +128,7 @@ export default {
           ]},
           { id: 'd7', title: 'Dependentes', content: [
             { kind: 'checklist', items: [
-              'Deduções fixas por dependentes: 600 € (1.ª criança), 726 € (2.ª se tiver menos de 6 anos), 900 € (3.ª e seguintes) — os valores exatos dependem da idade e da composição do agregado',
+              'Deduções fixas por dependentes: 600 € por filho com mais de 3 anos, 726 € por filho até aos 3 anos (inclusive), 900 € a partir do segundo dependente até aos 6 anos (independentemente da idade do primeiro) — os valores exatos dependem da idade e da composição do agregado',
               'Pais idosos com baixos rendimentos — dedução',
               'Deficiência: deduções reforçadas',
               'Família monoparental: +majoração'
@@ -187,6 +187,6 @@ export default {
     { title: 'e-Fatura — portal de faturas eletrónicas', url: 'https://faturas.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'ePortugal — entrega do IRS', url: 'https://www.gov.pt/servicos/entregar-o-irs', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

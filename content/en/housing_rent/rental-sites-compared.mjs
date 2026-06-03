@@ -44,7 +44,7 @@ export default {
               'Everything is furnished and includes utilities',
               'Contract from 1 month to 12+ months',
               'They accept a passport + booking without a NIF',
-              'The platform charges the landlord 10–15%; the client pays nothing extra',
+              'The platform charges the landlord a commission; the client pays nothing extra',
               '20–40% more expensive than Idealista, but easier for new arrivals'
             ]}
           ]},
@@ -137,6 +137,6 @@ export default {
     { title: 'AMI — Association of Real Estate Agents', url: 'https://www.ami.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Renting a home', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

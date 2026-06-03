@@ -31,7 +31,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The main law is Lei 16/2022, Lei das Comunicações Eletrónicas. For a household customer, two practical rules matter: compensation for service unavailability and the right to terminate the contract if the fault is not fixed for too long.' },
         { kind: 'checklist', items: [
-          'If the service is unavailable for more than 24 consecutive hours for reasons attributable to the operator, the customer is entitled to compensation.',
+          'If the service is unavailable for more than 24 hours — consecutive or accumulated within a billing period — for reasons attributable to the operator, the customer is entitled to compensation.',
           'The minimum compensation is the proportional part of the mensalidade for the period of unavailability; the contract may give more, but not less.',
           'The period during which the service was not provided should not be charged as a normal service.',
           'If the avaria lasts more than 15 days after being reported to the operator, the consumer may terminate the contract without encargos — that is, without a penalty for fidelização.',
@@ -162,6 +162,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

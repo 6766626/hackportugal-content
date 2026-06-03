@@ -39,7 +39,8 @@ export default {
           'O país de destino é a UE, Islândia, Listenstaine, Noruega ou Suíça',
           'Para trabalho regular em vários países aplica-se outro regime: multi-state worker, e não o destacamento normal'
         ] },
-        { kind: 'warning', text: 'Se o país de acolhimento passar, na prática, a ser o local habitual de trabalho, ou se o prazo for desde logo superior a 24 meses, o A1 normal para destacamento pode não ser adequado. É necessária uma avaliação separada da legislação aplicável e, por vezes, um acordo excecional ao abrigo do Reg. 883/2004 art. 16.' }
+        { kind: 'warning', text: 'Se o país de acolhimento passar, na prática, a ser o local habitual de trabalho, ou se o prazo for desde logo superior a 24 meses, o A1 normal para destacamento pode não ser adequado. É necessária uma avaliação separada da legislação aplicável e, por vezes, um acordo excecional ao abrigo do Reg. 883/2004 art. 16.' },
+        { kind: 'warning', text: 'Importante para nacionais de países terceiros (que não sejam cidadãos da UE/EEE/Suíça). Para cidadãos da UE a regra abrange a UE, Islândia, Listenstaine, Noruega e Suíça. Para um nacional de país terceiro com residência legal em Portugal, o A1 é normalmente possível para um destacamento para outro Estado da UE ao abrigo do Reg. (EU) 1231/2010, mas esta extensão não se aplica à Dinamarca e não abrange a Islândia, o Listenstaine, a Noruega nem a Suíça. Para esses destinos, confirme antecipadamente como se aplicam as regras junto da Segurança Social e do país de destino.' }
       ]
     },
     {
@@ -81,7 +82,7 @@ export default {
           'Verifique se a entidade empregadora tem de fazer uma notificação de posted worker no país de destino',
           'Guarde travel orders, bilhetes, contrato com o cliente e folhas de horas',
           'Certifique-se de que as datas do trabalho efetivo não ultrapassam as datas do A1',
-          'Substituir por: “Se mudarem as datas, o país ou os factos do destacamento, a entidade empregadora deve pedir antecipadamente uma alteração/novo A1. Se o prazo total do mesmo destacamento ultrapassar 24 meses, o art. 12 normal já não é adequado: normalmente é necessário pedir um acordo excecional ao abrigo do art. 16, e a sua aprovação não é garantida.”',
+          'Se mudarem as datas, o país ou os factos do destacamento, a entidade empregadora deve pedir antecipadamente uma alteração ou um novo A1. Se o prazo total do mesmo destacamento ultrapassar 24 meses, o art. 12 normal já não é adequado: normalmente é necessário pedir um acordo excecional ao abrigo do art. 16, e a sua aprovação não é garantida',
           'O salário continua a ser declarado à Segurança Social em Portugal',
           'IRS e residência fiscal são avaliados separadamente do A1',
           'É melhor assegurar a cobertura médica durante a viagem com o EHIC/CESD e um seguro de trabalho, porque o A1 não é um seguro de saúde'
@@ -109,7 +110,7 @@ export default {
   ],
   costs: [
     { label: 'Pedido de A1 na Segurança Social Direta', amountEUR: 0, note: 'Não é cobrada taxa pública pelo pedido de destacamento normal.' },
-    { label: 'Coimas por falta de registo local de posted worker', amountEURMin: 0, amountEURMax: 10000, note: 'Dependem do país de destino e da infração; não é uma taxa portuguesa, mas sim um risco no país de acolhimento.' }
+    { label: 'Coimas por falta de registo local de posted worker', amountEURMin: 0, amountEURMax: 10000, note: 'Dependem do país de destino, do número de trabalhadores e da natureza da infração; não é uma taxa portuguesa, mas sim um risco no país de acolhimento. O valor de 10 000 EUR é apenas uma referência típica para uma única notificação em falta: em alguns países as coimas são calculadas por trabalhador e o total pode ultrapassar substancialmente este valor. Consulte o portal posted workers do país de destino.' }
   ],
   sources: [
     {
@@ -134,6 +135,13 @@ export default {
       lastRetrieved: '2026-04-28'
     },
     {
+      title: 'EUR-Lex: Regulamento (EU) No 1231/2010 — extensão a nacionais de países terceiros',
+      url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32010R1231',
+      kind: 'law',
+      language: 'en',
+      lastRetrieved: '2026-05-31'
+    },
+    {
       title: 'Your Europe: Formulário A1 — certificado de cobertura de segurança social',
       url: 'https://europa.eu/youreurope/citizens/work/social-security-forms/contact_points_pd_a1.pdf',
       kind: 'official',
@@ -141,6 +149,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

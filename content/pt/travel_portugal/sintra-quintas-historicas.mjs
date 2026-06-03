@@ -3,7 +3,7 @@ export default {
   id: 'sintra-quintas-historicas',
   categoryId: 'travel_portugal',
   title: 'Sintra em profundidade: Palácio da Pena, Monserrate e Quinta da Regaleira',
-  tldr: 'Sintra não é «um palácio em meia jornada», mas sim um roteiro cultural denso para 1–2 dias. Em maio de 2026, as referências são: Palácio da Pena — 20 € e apenas com horário previamente escolhido online; Quinta da Regaleira — 11 €; Monserrate — 12 € e, normalmente, menos multidões; Castelo dos Mouros — 12 €; Palácio Nacional de Sintra — 10 €. A Parques de Sintra não vende um bilhete combinado fixo: comprar vários monumentos na mesma compra dá um desconto progressivo (até cerca de 10% para 6 espaços). Confirme os preços actuais em parquesdesintra.pt. É melhor não levar carro para o centro histórico: comboio CP + autocarros 434/435 é mais simples.',
+  tldr: 'Sintra não é «um palácio em meia jornada», mas sim um roteiro cultural denso para 1–2 dias. Em maio de 2026, as referências são: Palácio da Pena — 20 € e apenas com horário previamente escolhido online; Quinta da Regaleira — 20 € (novo tarifário desde janeiro de 2026); Monserrate — 12 € e, normalmente, menos multidões; Castelo dos Mouros — 12 €; Palácio Nacional de Sintra — 13 €. A Parques de Sintra não vende um bilhete combinado fixo: comprar vários monumentos na mesma compra dá um desconto progressivo (até cerca de 10% para 6 espaços). Aos domingos e feriados, a entrada nos monumentos da Parques de Sintra é gratuita para residentes em Portugal (leve comprovativo de residência). Confirme os preços actuais em parquesdesintra.pt. É melhor não levar carro para o centro histórico: comboio CP + autocarros 434/435 é mais simples.',
   tags: ['sintra', 'pena', 'regaleira', 'monserrate', 'viagens'],
   estimatedReadMinutes: 6,
   steps: [
@@ -46,7 +46,7 @@ export default {
       id: 'regaleira',
       title: 'Quinta da Regaleira: não é só o Poço Iniciático',
       content: [
-        { kind: 'paragraph', text: 'A Quinta da Regaleira é uma propriedade privada com arquitectura mística, grutas, passagens subterrâneas, torres e jardins. O bilhete custa cerca de 11 €. Ao contrário da Pena, o principal interesse aqui não é o interior do palácio, mas o percurso pelo jardim: Poço Iniciático, Portal dos Guardiães, Lago da Cascata, Gruta do Oriente, Capela da Santíssima Trindade.' },
+        { kind: 'paragraph', text: 'A Quinta da Regaleira é uma propriedade privada com arquitectura mística, grutas, passagens subterrâneas, torres e jardins. O bilhete custa cerca de 20 € (tarifário de adulto desde janeiro de 2026). Ao contrário da Pena, o principal interesse aqui não é o interior do palácio, mas o percurso pelo jardim: Poço Iniciático, Portal dos Guardiães, Lago da Cascata, Gruta do Oriente, Capela da Santíssima Trindade.' },
         { kind: 'checklist', items: [
           'Vá de manhã ou 2–3 horas antes do fecho: a meio do dia, a fila para o Poço Iniciático é máxima.',
           'Use calçado com sola antiderrapante: as grutas e as pedras podem estar húmidas.',
@@ -82,7 +82,7 @@ export default {
       title: 'Castelo dos Mouros e Palácio Nacional de Sintra',
       content: [
         { kind: 'paragraph', text: 'O Castelo dos Mouros são muralhas acima de Sintra, com bilhete por cerca de 12 €. Não é um palácio, mas sim um percurso pelas muralhas com vistas para a Pena, a vila e o oceano em dias de bom tempo. O local é fisicamente activo: escadas, pedras, vento. É melhor combiná-lo com a Pena, porque ficam na mesma linha de serra.' },
-        { kind: 'paragraph', text: 'O Palácio Nacional de Sintra é o palácio branco com duas chaminés cónicas no centro histórico, com bilhete por cerca de 10 €. É o local mais conveniente em termos logísticos: há cafés, lojas, travesseiros e queijadas por perto. No interior, são importantes a Sala dos Cisnes, a Sala das Pegas, a Sala dos Brasões e a cozinha com chaminés gigantes.' },
+        { kind: 'paragraph', text: 'O Palácio Nacional de Sintra é o palácio branco com duas chaminés cónicas no centro histórico, com bilhete por cerca de 13 €. É o local mais conveniente em termos logísticos: há cafés, lojas, travesseiros e queijadas por perto. No interior, são importantes a Sala dos Cisnes, a Sala das Pegas, a Sala dos Brasões e a cozinha com chaminés gigantes.' },
         { kind: 'checklist', items: [
           'Escolha o Castelo dos Mouros com tempo limpo: com nevoeiro, o valor das vistas cai drasticamente.',
           'Não vale a pena ir às muralhas da fortaleza de sandálias ou depois de chuva forte.',
@@ -97,9 +97,9 @@ export default {
     },
     {
       id: 'tickets-routes',
-      title: 'Bilhetes, unified ticket e roteiros prontos',
+      title: 'Bilhetes, descontos e roteiros prontos',
       content: [
-        { kind: 'paragraph', text: 'A Parques de Sintra tem venda online, mas não existe um bilhete combinado fixo. Em vez disso, comprar vários monumentos na mesma compra dá um desconto progressivo: 5% para 2 espaços, 6% para 3, 7% para 4, 8% para 5 e até 10% para 6. Por exemplo, Pena (20 €) + Monserrate (12 €) + Castelo dos Mouros (12 €) comprados em separado são 44 €, enquanto na mesma compra com o desconto de 6% ficam por cerca de 41 €. A poupança é pequena, por isso não compre espaços a mais «por ganância»: Sintra penaliza programas sobrecarregados.' },
+        { kind: 'paragraph', text: 'A Parques de Sintra tem venda online, mas não existe um bilhete combinado fixo. Em vez disso, comprar vários monumentos na mesma compra dá um desconto progressivo: 5% para 2 espaços, 6% para 3, 7% para 4, 8% para 5 e até 10% para 6. Por exemplo, Pena (20 €) + Monserrate (12 €) + Castelo dos Mouros (12 €) comprados em separado são 44 €, enquanto na mesma compra com o desconto de 6% ficam por cerca de 41 €. A poupança é pequena, por isso não compre espaços a mais «por ganância»: Sintra penaliza programas sobrecarregados. Aos domingos e feriados, a entrada nos monumentos da Parques de Sintra (Pena, Monserrate, Castelo dos Mouros, Palácio Nacional de Sintra) é gratuita para residentes em Portugal — apresente o Cartão de Cidadão ou outro comprovativo de residência na bilheteira. Esta regra não se aplica à Quinta da Regaleira, de gestão privada.' },
         { kind: 'substeps', items: [
           { id: 'one-day-classic', title: '1 dia: clássicos pela primeira vez', content: [
             { kind: 'checklist', items: [
@@ -128,10 +128,10 @@ export default {
   ],
   costs: [
     { label: 'Palácio da Pena', amountEUR: 20, note: 'Referência para bilhete de adulto; reserve online com horário.' },
-    { label: 'Quinta da Regaleira', amountEUR: 11, note: 'Referência para bilhete de adulto para a propriedade e os jardins.' },
+    { label: 'Quinta da Regaleira', amountEUR: 20, note: 'Bilhete de adulto para a propriedade e os jardins; novo tarifário desde janeiro de 2026.' },
     { label: 'Parque e Palácio de Monserrate', amountEUR: 12, note: 'Normalmente tem menos filas do que a Pena e a Regaleira.' },
     { label: 'Castelo dos Mouros', amountEUR: 12, note: 'Percurso panorâmico pelas muralhas; depende do tempo.' },
-    { label: 'Palácio Nacional de Sintra', amountEUR: 10, note: 'Convenientemente localizado no centro histórico de Sintra.' },
+    { label: 'Palácio Nacional de Sintra', amountEUR: 13, note: 'Convenientemente localizado no centro histórico de Sintra.' },
     { label: 'Pena + Monserrate + Castelo dos Mouros na mesma compra', amountEUR: 41, note: 'Não há combo fixo: desconto progressivo até 10% para 6 espaços; aqui ~6% sobre 44 €.' }
   ],
   sources: [
@@ -140,6 +140,6 @@ export default {
     { title: 'Página oficial do Parque e Palácio de Monserrate', url: 'https://www.parquesdesintra.pt/pt/parques-monumentos/parque-e-palacio-de-monserrate/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Informação oficial da Quinta da Regaleira', url: 'https://www.regaleira.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

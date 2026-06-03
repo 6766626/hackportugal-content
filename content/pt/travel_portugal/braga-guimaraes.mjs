@@ -14,7 +14,7 @@ export default {
         { kind: 'checklist', items: [
           '🚆 Porto-Campanhã → Braga: 1 h de comboio IC/AP, 7–12 €',
           '🚆 Porto-Campanhã → Guimarães: 50 min de comboio urbano, 4,70 €',
-          '🚌 Entre Braga e Guimarães: praticamente não há comboio directo da CP (é preciso mudar por nós da Porto Urbanos, demora muito). Melhor autocarro ~40–50 min (Rede Expressos / GetBus, ~5–7 €) ou carro ~30 min (A3+A11)',
+          '🚌 Entre Braga e Guimarães não há comboio directo da CP (só com mudança em Lousado, ~1,5 h). Melhor autocarro ~40–50 min (Rede Expressos / GetBus, ~5–7 €) ou carro ~30 min (A3+A11)',
           '🚌 Rede Expressos: Porto-Braga 45 min, 7 €; Porto-Guimarães 1 h, 7 €',
           '🚗 Carro: Porto-Braga 50 min pela A3, Porto-Guimarães 50 min pela A7'
         ]}
@@ -24,7 +24,7 @@ export default {
       id: 'braga',
       title: 'Braga — a “Roma portuguesa”',
       content: [
-        { kind: 'paragraph', text: 'A cidade mais antiga do país (Bracara Augusta romana, séc. II a.C.). Capital arquiepiscopal, com mais de 35 igrejas. As festas religiosas (Semana Santa, procissões) — a melhor época.' },
+        { kind: 'paragraph', text: 'A cidade mais antiga do país (Bracara Augusta romana, fundada em 16 a.C.). Capital arquiepiscopal, com mais de 35 igrejas. As festas religiosas (Semana Santa, procissões) — a melhor época.' },
         { kind: 'checklist', items: [
           '⛪ Sé de Braga — a catedral mais antiga do país (séc. XI), combinação de estilo românico, gótico e manuelino. 5 €',
           '⛪ Bom Jesus do Monte (UNESCO) — santuário barroco numa colina a 5 km do centro. A lendária “escadaria dos 5 sentidos”, funicular de 1882 com contrapeso de água. Funicular — 3 €',
@@ -44,8 +44,8 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Capital histórica de Portugal até 1139. Na muralha há a inscrição “Aqui nasceu Portugal”. Centro histórico compacto — UNESCO.' },
         { kind: 'checklist', items: [
-          '🏰 Castelo de Guimarães (séc. X) — castelo onde nasceu Afonso Henriques, o primeiro rei. 2 €',
-          '🏛️ Paço dos Duques de Bragança (séc. XV) — castelo-palácio em estilo borgonhês, residência dos duques. 5 €',
+          '🏰 Castelo de Guimarães (séc. X) — castelo onde nasceu Afonso Henriques, o primeiro rei. 5 €',
+          '🏛️ Paço dos Duques de Bragança (séc. XV) — castelo-palácio em estilo borgonhês, residência dos duques. 5 € (durante as obras de restauro; normalmente 10 €)',
           '⛪ Igreja de São Miguel do Castelo — capela românica do séc. XII, local do baptismo de Afonso',
           '🏛️ Largo da Oliveira — praça principal com uma oliveira antiga e um monumento gótico',
           '⛪ Igreja da Nossa Senhora da Oliveira — mosteiro-igreja gótico',
@@ -63,7 +63,7 @@ export default {
           '09:00 — comboio Porto-Campanhã → Braga (1 h)',
           '10:00–12:00 — centro de Braga: Sé, Palácio do Raio, Largo do Paço',
           '12:00–14:00 — Bom Jesus do Monte (autocarro 2 ou táxi 10 €). Almoço no café junto ao funicular',
-          '14:00 — comboio Braga → Guimarães (35 min)',
+          '14:00 — autocarro Braga → Guimarães (~45 min; não há comboio directo — só com mudança em Lousado, ~1,5 h)',
           '15:00–18:00 — castelo, Paço dos Duques, centro histórico, Largo da Oliveira',
           '18:00–19:00 — Teleférico da Penha ao pôr do sol (opcional)',
           '19:30 — comboio para o Porto (50 min)'
@@ -104,6 +104,6 @@ export default {
     { title: 'Visit Guimarães', url: 'https://www.cm-guimaraes.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo do Porto e Norte', url: 'https://www.portoenorte.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

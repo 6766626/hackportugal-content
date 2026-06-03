@@ -16,7 +16,7 @@ export default {
             { kind: 'checklist', items: [
               '< €15,000 turnover/year — an accountant is not mandatory; you can do it yourself via Portal das Finanças (IRS simplificado)',
               '> €15,000 turnover — you usually lose the isenção de IVA (CIVA art. 53) and must submit IVA; an accountant is not mandatory if you remain in the regime simplificado, but can be useful',
-              'Contabilidade organizada is mandatory when leaving the regime simplificado (usually after exceeding €200,000 in relevant tax periods under CIRS art. 28) or by voluntary choice — in that case you need a Contabilista Certificado',
+              'Contabilidade organizada is mandatory when leaving the regime simplificado (usually after exceeding €200,000 in two consecutive tax periods under CIRS art. 28) or by voluntary choice — in that case you need a Contabilista Certificado',
               'With the IFICI regime — people often hire one even with low turnover for complex returns'
             ]}
           ]},
@@ -78,7 +78,7 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '🎯 Simple recibos verdes (< €15k turnover): not mandatory, but for help with IRS — €100-200 one-off',
-          '🎯 Recibos verdes with IVA (€15-75k): €50-150/month or quarterly; in the regime simplificado IVA is usually trimestral (monthly — for turnover above the CIVA threshold)',
+          '🎯 Recibos verdes with IVA (€15-75k): €50-150/month or quarterly; in the regime simplificado IVA returns are usually quarterly (monthly — for turnover above the CIVA threshold of €650,000)',
           '🎯 Recibos verdes high turnover (€75k+): €100-200/month + SAF-T',
           '🏢 Unipessoal Lda (small legal entity): €150-300/month',
           '🏢 SA / large Lda: €300-800/month + auditor',
@@ -168,6 +168,6 @@ export default {
     { title: 'Ordem dos Contabilistas Certificados (OCC)', url: 'https://www.occ.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças — declarative obligations', url: 'https://info.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

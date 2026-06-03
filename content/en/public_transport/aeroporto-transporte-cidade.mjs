@@ -3,7 +3,7 @@ export default {
   id: 'aeroporto-transporte-cidade',
   categoryId: 'public_transport',
   title: 'Transport from the airport to the city — Lisbon, Porto, Faro',
-  tldr: 'In 2026 the most predictable transfer: LIS → Lisboa by metro linha Vermelha for €1.85 + €0.50 card, OPO → Porto by Metro do Porto linha E with a Z4 ticket around €2.25 + €0.60 Andante. From Faro Airport first take Próximo bus 16 to Faro, then Vamus around the Algarve; direct regional services depend on the season. Taxis from the airport are usually more expensive than Bolt/Uber: Lisboa €12–25, Porto €25–35, Faro €10–15, higher at night and with luggage.',
+  tldr: 'In 2026 the most predictable transfer: LIS → Lisboa by metro linha Vermelha for €1.90 + €0.50 card, OPO → Porto by Metro do Porto linha E with a Z4 ticket around €2.30 + €0.60 Andante. From Faro Airport first take Próximo bus 16 to Faro, then Vamus around the Algarve; direct regional services depend on the season. Taxis from the airport are usually more expensive than Bolt/Uber: Lisboa €12–25, Porto €25–35, Faro €10–15, higher at night and with luggage.',
   tags: ['airport', 'metro', 'uber', 'vamus'],
   estimatedReadMinutes: 5,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'The main Lisbon Airport life hack: the metro is right by Terminal 1. Linha Vermelha goes to Alameda / Saldanha, then you can change to the green, yellow or blue lines. To Saldanha it usually takes about 20 minutes with no traffic.' },
         { kind: 'checklist', items: [
-          'Metro: €1.85 per Carris/Metro journey + €0.50 for the Navegante occasional / Viva Viagem card, if you do not already have one',
+          'Metro: €1.90 per Carris/Metro journey + €0.50 for the Navegante occasional / Viva Viagem card, if you do not already have one',
           'Metro operating hours: roughly 06:30–01:00; at night use a taxi, Bolt, Uber or bus',
           'To Baixa/Chiado: linha Vermelha to Alameda, then linha Verde to Baixa-Chiado',
           'To Cais do Sodré: linha Vermelha to Alameda, linha Verde to Cais do Sodré',
@@ -30,7 +30,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'In Porto the simplest option is Metro do Porto linha E / Violeta from Aeroporto to Trindade. Trindade is the main interchange; from there it is easy to reach Aliados, Bolhão, São Bento, Casa da Música and Vila Nova de Gaia.' },
         { kind: 'checklist', items: [
-          'You need an Andante Z4 ticket: in 2026 the guide price is around €2.25 per journey + €0.60 for the Andante Azul card',
+          'You need an Andante Z4 ticket: in 2026 the guide price is around €2.30 per journey + €0.60 for the Andante Azul card',
           'To Trindade it usually takes 25–30 minutes',
           'To São Bento: Aeroporto → Trindade, then change to linha D / Amarela to São Bento',
           'To Campanhã: Aeroporto → Trindade, then change to lines A/B/C/F or a CP train, if more convenient',
@@ -95,9 +95,9 @@ export default {
     }
   ],
   costs: [
-    { label: 'Lisboa: metro LIS → city', amountEUR: 1.85, note: 'Single Carris/Metro journey; the Navegante occasional / Viva Viagem card is paid for separately' },
+    { label: 'Lisboa: metro LIS → city', amountEUR: 1.90, note: 'Single Carris/Metro journey; the Navegante occasional / Viva Viagem card is paid for separately' },
     { label: 'Lisboa: Navegante occasional / Viva Viagem card', amountEUR: 0.50, note: 'Rechargeable paper card for occasional tickets' },
-    { label: 'Porto: Metro do Porto Aeroporto → centre', amountEUR: 2.25, note: 'Guide price for an Andante Z4 ticket in 2026; check the machine before buying' },
+    { label: 'Porto: Metro do Porto Aeroporto → centre', amountEUR: 2.30, note: 'Guide price for an Andante Z4 ticket in 2026; check the machine before buying' },
     { label: 'Porto: Andante Azul card', amountEUR: 0.60, note: 'Needed for single journeys on Metro do Porto / STCP' },
     { label: 'Faro: airport → city bus', amountEUR: 2.60, note: 'Guide price for a ticket from the driver on the Próximo city bus' },
     { label: 'Taxi/Bolt/Uber from the airport to the centre', amountEURMin: 6, amountEURMax: 35, note: 'Faro is cheaper, Porto is usually more expensive; surge pricing and night fares change the price' }
@@ -108,6 +108,6 @@ export default {
     { title: 'Metro do Porto — Andante fares and Aeroporto line', url: 'https://www.metrodoporto.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Vamus Algarve — Algarve regional buses', url: 'https://vamusalgarve.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

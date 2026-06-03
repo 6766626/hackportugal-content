@@ -16,7 +16,7 @@ export default {
         { kind: 'checklist', items: [
           'A bank transfer to a Portuguese account may be a gift/donativo for Imposto do Selo purposes.',
           'A gift of property in Portugal almost always requires an escritura/documento particular autenticado and registration.',
-          'The transfer of a car without payment may also be a transmissção gratuita.',
+          'The transfer of a car without payment may also be a transmissão gratuita.',
           'Debt forgiveness between individuals may be treated as a gratuitous benefit.',
           'Ordinary social gifts of low value are usually not a practical tax problem, but large amounts are better documented.',
           'IRS is usually not paid on a gift: it is not salary or business income, but Imposto do Selo is a separate tax.'
@@ -62,7 +62,7 @@ export default {
       id: 'declaration-modelo-1',
       title: 'Modelo 1 IS: when and how to declare',
       content: [
-        { kind: 'paragraph', text: 'The declaration is called Modelo 1 do Imposto do Selo — Participação de Transmissões Gratuitas. The general filing deadline is by the end of the 3rd month after the month in which the gift occurred or the tax obligation arose.\n\nFor example, a gift received on 10 April 2026: the indicative deadline is 31 July 2026.' },
+        { kind: 'paragraph', text: 'The declaration is called Modelo 1 do Imposto do Selo — Participação de Transmissões Gratuitas. The general filing deadline is by the end of the 3rd month following the month of the gift (or of the moment the tax obligation arose).\n\nFor example, a gift received on 10 April 2026: the indicative deadline is 31 July 2026.' },
         { kind: 'paragraph', text: 'For close family, there is an important practical threshold: cash gifts from cônjuge/unido de facto, ascendants or descendants above €5,000 are exempt from the 10%, but they must be declared. Below €5,000, the filing obligation for such cash gifts usually does not apply.' },
         { kind: 'checklist', items: [
           'Log in to Portal das Finanças with your NIF and password or Chave Móvel Digital (CMD).',
@@ -141,6 +141,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

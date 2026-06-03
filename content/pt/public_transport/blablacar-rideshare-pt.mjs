@@ -132,6 +132,6 @@ export default {
     { title: 'CP — Comboios de Portugal, compra de bilhetes e tarifas', url: 'https://www.cp.pt/passageiros/pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Rede Expressos — autocarros interurbanos em Portugal', url: 'https://rede-expressos.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

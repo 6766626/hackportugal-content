@@ -134,12 +134,12 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '✈️ Liquids in hand luggage: <100 ml, or put them in checked luggage. A bottle of Port wine — checked luggage only, or duty-free after security',
-          '🍷 Alcohol: within the EU there is no limit (for personal use). Outside the EU: 1 l of spirits or 2 l of lower-strength/fortified alcohol or 4 l of wine duty-free',
+          '🍷 Alcohol: within the EU there is no limit (for personal use). When entering the EU from outside: 1 l of spirits (>22%) or 2 l of fortified or sparkling wine, plus 4 l of still wine and 16 l of beer, duty-free',
           '🍯 Honey: for the USA/Canada/Australia there may be restrictions; within the EU — no problems',
           '🐟 Tinned fish: for the USA/UK — no problems; for Russia — there may be restrictions due to sanctions',
           '🌱 Seeds/plants: do NOT take them, phytosanitary certificates are required',
           '🪙 Cork products: no restrictions',
-          '🇪🇺 Within the EU: there is no value limit (but if “commercial” use is suspected, there may be a check). Limit for gifts from outside the EU into the EU: €430 in checked luggage / €300 in hand luggage',
+          '🇪🇺 Within the EU: there is no value limit (but if “commercial” use is suspected, there may be a check). Limit on goods when entering the EU from outside: €430 for air and sea travellers / €300 for land travellers',
           '✅ Lisboa, Porto and Faro airports have large duty-free souvenir shops after security — usually cheaper than the city for bottles and chocolate'
         ]}
       ]
@@ -152,7 +152,7 @@ export default {
     { title: 'IVDP — Instituto dos Vinhos do Douro e Porto', url: 'https://www.ivdp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Visit Aveiro — Ovos moles PDO', url: 'https://www.visitaveiro.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
   recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: souvenirs from Portugal. Top 10 authentic items (Galo, azulejos, cork, Port wine, Vinho Verde, ginjinha, tinned fish, ovos moles, olive oil, lenço dos namorados), where to buy in Lisbon (A Vida Portuguesa, Mercado da Ribeira, Conserveira) and Porto (Mercado do Bolhão, Vila Nova de Gaia), how to tell authentic items from Chinese mass-market goods, customs rules.'

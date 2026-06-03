@@ -112,7 +112,7 @@ export default {
           'Formação básica de higiene alimentar para o pessoal',
           'Embalagem food grade, adequada a comida quente/gordurosa',
           'Informação sobre alergénios disponível antes da compra na app e na embalagem/talão, se necessário',
-          'Livro de Reclamações e resposta à reclamação dentro do prazo',
+          'Livro de Reclamações e resposta à reclamação dentro do prazo: no livro eletrónico, normalmente até 15 dias úteis',
           'Preços e promo não são enganadores: preço, quantidade e composição do prato correspondem à realidade'
         ] },
         { kind: 'warning', text: 'A ASAE pode aparecer depois de uma reclamação na app: “food poisoning”, alergénio não indicado, peso insuficiente, bolor, corpo estranho, ausência de Livro de Reclamações. Guarde fotografias/logs da preparação das encomendas contestadas, pelo menos até ao encerramento do litígio com a plataforma.' }
@@ -195,6 +195,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

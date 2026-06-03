@@ -65,7 +65,7 @@ export default {
       id: 'amount-and-duration',
       title: 'How much is paid and for how long',
       content: [
-        { kind: 'paragraph', text: 'The standard formula: the benefit is 65% of the remuneração de referência. This base is calculated from salaries on which contributions were paid during the set period before unemployment. Segurança Social calculates it automatically.' },
+        { kind: 'paragraph', text: 'The standard formula: the benefit is 65% of the remuneração de referência. This base is not your last salary: it is calculated from earnings with contributions over the first 12 of the 14 months before the month of unemployment, including the subsídios de férias and de Natal, divided by 360. Segurança Social calculates it automatically.' },
         { kind: 'checklist', items: [
           'Cap in 2026: 2.5 IAS = €1,342.83 per month, because IAS 2026 = €537.13.',
           'The minimum is usually linked to the IAS, but if your net remuneração de referência is below the IAS, the benefit cannot exceed that net base.',
@@ -146,6 +146,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

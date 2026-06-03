@@ -45,7 +45,7 @@ export default {
           'Salário mínimo 2026: 920 €/mês × 14 (incluindo 13.º mês + subsídio de férias)',
           'Subsídio de férias: 1 salário mensal em junho',
           'Subsídio de Natal (13.º mês): 1 salário mensal em dezembro',
-          'Subsídio de alimentação: não é obrigatório, mas é comum. 6-9 €/dia útil. Até 6 €/dia não está sujeito a IRS quando pago em dinheiro; com cartão/vale refeição o limite é superior — 10,20 €/dia',
+          'Subsídio de alimentação: não é obrigatório, mas é comum. 6-9 €/dia útil. Até 6,15 €/dia não está sujeito a IRS quando pago em dinheiro; com cartão/vale refeição o limite é superior — 10,46 €/dia',
           'Trabalho suplementar (horas extras) nos termos do art. 268 CT + Lei 13/2023 (Agenda do Trabalho Digno): as taxas dependem do volume anual. Até 100 horas/ano: +25% pela primeira hora em dia útil, +37,5% pelas seguintes, +50% em dia de descanso/feriado. A partir da 101.ª hora/ano: as taxas sobem para +50%/+75%/+100%. O contrato coletivo pode estabelecer condições mais favoráveis',
           'Trabalho noturno (22:00-07:00): +25% adicional',
           'Trabalho em descanso semanal/feriado: normalmente +50% por cada hora; em alguns casos também há direito a descanso compensatório. O contrato coletivo pode estabelecer condições melhores (Código do Trabalho arts. 268, 269)',
@@ -87,7 +87,7 @@ export default {
             { kind: 'checklist', items: [
               'Os primeiros 3 dias — não são pagos (regra geral)',
               'A partir do 4.º dia — Subsídio de doença da Segurança Social, 55-75% do salário médio',
-              'Em doença prolongada (>365 dias) — 70%',
+              'A taxa depende da duração: 55% (até 30 dias), 60% (31-90), 70% (91-365), 75% (mais de 365 dias)',
               'Atestado médico (baixa) emitido pelo médico de família ou pelo serviço de urgência',
               'Dispensa do trabalho — até 4 horas para consultas médicas sem redução do salário'
             ]}
@@ -176,6 +176,6 @@ export default {
     { title: 'CGTP-IN', url: 'https://www.cgtp.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'UGT', url: 'https://www.ugt.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

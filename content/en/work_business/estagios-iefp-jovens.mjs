@@ -3,7 +3,7 @@ export default {
   id: 'estagios-iefp-jovens',
   categoryId: 'work_business',
   title: 'Estágios IEFP: traineeships for young people through the employment service',
-  tldr: 'Estágios IEFP are paid traineeships through the Centro de Emprego/IEFP for entering the Portuguese labour market.\n\nIn 2026, the standard IEFP youth traineeships (Estágios INICIAR, +Talento) target people aged 18–35; a candidate aged 30–35 needs no special status. The money is paid by the employer, and IEFP reimburses part of the employer’s costs. A common benchmark in vacancies is around €870/month gross: the actual bolsa depends on the IAS €537.13, qualification level, and programme.',
+  tldr: 'Estágios IEFP are paid traineeships through the Centro de Emprego/IEFP for entering the Portuguese labour market.\n\nIn 2026, the standard IEFP youth traineeships (Estágios INICIAR, +Talento) target people aged 18–35; a candidate aged 30–35 needs no special status. The money is paid by the employer, and IEFP reimburses part of the employer’s costs. Under the 2026 rules the gross bolsa is €913.12/month for a QNQ level 4 qualification and €966.83/month for level 5: the actual amount depends on the IAS €537.13, qualification level, and programme.',
   tags: ['iefp', 'traineeship', 'work', 'young-people'],
   estimatedReadMinutes: 6,
   steps: [
@@ -13,7 +13,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'An Estágio IEFP is not a standard employment contract, but a professional traineeship programme approved by IEFP. The trainee works for a company under a traineeship plan and receives a bolsa de estágio, subsídio de alimentação, and work accident insurance. The employer transfers the money monthly; IEFP then reimburses the employer for part of the costs under the rules of the specific measure.' },
         { kind: 'paragraph', text: 'For an expat, the main advantage is legal first work experience in Portugal, a line on the CV, and a chance to obtain a contrato de trabalho after the traineeship. The main disadvantage is that the traineeship is temporary, usually up to 12 months, and does not guarantee hiring.' },
-        { kind: 'warning', text: 'Do not confuse this: IEFP does not “top you up” directly. If a vacancy says €870/month, this is usually the gross bolsa paid by the company; IEFP compensation goes to the employer.' }
+        { kind: 'warning', text: 'Do not confuse this: IEFP does not “top you up” directly. The figure in a vacancy (for example, €913.12/month) is usually the gross bolsa paid by the company; IEFP compensation goes to the employer.' }
       ]
     },
     {
@@ -37,18 +37,18 @@ export default {
     },
     {
       id: 'money',
-      title: 'How much they pay: why “€870” is not universal',
+      title: 'How much they pay: the bolsa depends on qualification level',
       content: [
-        { kind: 'paragraph', text: 'In 2026, the base IAS index is €537.13. Many IEFP bolsas are calculated as a multiple of the IAS and depend on the qualification level under the Quadro Nacional de Qualificações. This means the amount in an advert can vary: around €859–870/month gross for one category, higher for licenciatura/mestrado and lower for some entry levels.' },
+        { kind: 'paragraph', text: 'In 2026, the base IAS index is €537.13. The bolsa in Estágios INICIAR / +Talento is calculated as a multiple of the IAS and depends on the qualification level under the Quadro Nacional de Qualificações: €913.12/month gross (level 4, 1.7 × IAS) and €966.83/month gross (level 5, 1.8 × IAS). This means the amount in an advert can vary by category.' },
         { kind: 'checklist', items: [
           'Bolsa de estágio is the gross amount before tax and Segurança Social',
-          'Subsídio de alimentação is usually paid separately for working days',
+          'Subsídio de alimentação is paid separately for working days (in 2026 a benchmark is €6.15/day)',
           'Seguro de acidentes de trabalho must be provided by the employer',
           'IEFP reimburses the employer for part of the bolsa, meals, and insurance under the programme rules',
           'The trainee usually makes descontos para Segurança Social; check the recibo de vencimento',
           'IRS may be withheld if income and personal circumstances fall under retenção na fonte',
           'A traineeship is not the same as the SMN: the 2026 minimum wage is €920, but the IEFP bolsa is calculated under its own rules',
-          'If the company promises “net €870”, ask for a written gross/net calculation before signing'
+          'If the company promises a certain “net” figure, ask for a written gross/net calculation before signing'
         ] },
         { kind: 'warning', text: 'Do not agree to a scheme of “officially estágio, unofficially full-time without payments”. Complaints can be filed with IEFP and ACT, but it is better not to start with a grey arrangement.' }
       ]
@@ -87,7 +87,7 @@ export default {
       id: 'program-types',
       title: 'Which programmes you may encounter',
       content: [
-        { kind: 'paragraph', text: 'The names of IEFP measures change by year and avisos de abertura. In April 2026, rely not on an old blog name but on the active IEFP page and the aviso for the specific candidatura.' },
+        { kind: 'paragraph', text: 'The names of IEFP measures change by year and avisos de abertura. In 2026, rely not on an old blog name but on the active IEFP page and the aviso for the specific candidatura.' },
         { kind: 'checklist', items: [
           'Estágios Profissionais / youth traineeships — the typical route for 18–35 after study or when getting first experience',
           'Estágios INICIAR — a format for starting a professional career; conditions depend on the open IEFP aviso',
@@ -119,8 +119,8 @@ export default {
   ],
   costs: [
     { label: 'Candidate registration with IEFP', amountEUR: 0, note: 'Free online or at the Centro de Emprego' },
-    { label: 'Bolsa benchmark around 1.6 IAS', amountEUR: 859.41, note: 'IAS 2026 = €537.13; the actual amount depends on the programme and qualification' },
-    { label: 'Common benchmark seen in adverts', amountEUR: 870, note: 'Gross per month; not a guaranteed IEFP amount for all candidates' }
+    { label: 'Bolsa, QNQ level 4 qualification (1.7 × IAS)', amountEUR: 913.12, note: 'IAS 2026 = €537.13; gross per month for Estágios INICIAR / +Talento' },
+    { label: 'Bolsa, QNQ level 5 qualification (1.8 × IAS)', amountEUR: 966.83, note: 'Gross per month; the actual amount depends on the programme and qualification' }
   ],
   sources: [
     { title: 'IEFP — estágio measures and apoios ao emprego', url: 'https://www.iefp.pt/estagios', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
@@ -128,6 +128,6 @@ export default {
     { title: 'gov.pt — inscrição with the Centro de Emprego', url: 'https://www.gov.pt/pt/servicos/inscrever-se-no-centro-de-emprego', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'gov.pt — IEFP and public employment policies', url: 'https://www.gov.pt/pt/entidades/instituto-do-emprego-e-formacao-profissional', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-30',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

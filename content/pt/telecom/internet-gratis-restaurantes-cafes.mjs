@@ -3,7 +3,7 @@ export default {
   id: 'internet-gratis-restaurantes-cafes',
   categoryId: 'telecom',
   title: 'Wi‑Fi gratuito em cafés e restaurantes em Portugal: etiqueta e segurança',
-  tldr: 'Em Portugal, o Wi‑Fi gratuito em cafés é um serviço comum, mas não garantido. Nas redes McDonald’s, Starbucks, A Padaria Portuguesa, FNAC e em muitos centros comerciais costuma existir; em pequenas pastelaria, a password é frequentemente dada depois do pedido. Pergunte com educação: “Tem WiFi?” ou “Qual é a password do WiFi, por favor?”. Para bancos, Finanças, AIMA, SNS e e-mail de trabalho, use VPN ou internet móvel: as redes públicas não são seguras. Clientes MEO podem usar MEO WiFi fora de casa.',
+  tldr: 'Em Portugal, o Wi‑Fi gratuito em cafés é um serviço comum, mas não garantido. Nas redes McDonald’s, Starbucks, A Padaria Portuguesa, FNAC e em muitos centros comerciais costuma existir; em pequenas pastelarias, a password é frequentemente dada depois do pedido. Pergunte com educação: “Tem WiFi?” ou “Qual é a password do WiFi, por favor?”. Para bancos, Finanças, AIMA, SNS e e-mail de trabalho, use VPN ou internet móvel: as redes públicas não são seguras. Clientes MEO podem usar MEO WiFi fora de casa.',
   tags: ['wifi', 'cafés', 'segurança', 'meo'],
   estimatedReadMinutes: 5,
   steps: [
@@ -122,6 +122,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'bike-mobility-gira-bus',
   categoryId: 'public_transport',
   title: 'GIRA, BUGA, U-Bike bike sharing and taking bicycles on transport',
-  tldr: 'In Lisbon, the main bike-sharing system is GIRA by EMEL: you take a bicycle in the app, return it to a station, and it is convenient for short 15–45 minute trips. Aveiro has the municipal BUGA, historically a free city service with local rules. U-Bike is not a tourist rental scheme, but campus bicycles for university students/staff. On CP, bicycles are usually carried free of charge, but on Alfa Pendular/Intercidades you need bicycle spaces and advance booking; on the Lisboa/Porto metro — it is allowed if there is space and the limits are respected.',
+  tldr: 'In Lisbon, the main bike-sharing system is GIRA by EMEL: you take a bicycle in the app, return it to a station, and it is convenient for short 15–45 minute trips. Aveiro has the municipal BUGA, historically a free city service with local rules. U-Bike is not a tourist rental scheme, but campus bicycles for university students and staff. On CP, bicycles travel free of charge, but on Alfa Pendular a regular bicycle must be disassembled and packed as luggage, while on Intercidades you must book a seat with a bike rack in advance; on the Lisboa/Porto metro it is allowed if there is space and the limits are respected.',
   tags: ['gira', 'buga', 'bicycle', 'cp', 'metro'],
   estimatedReadMinutes: 5,
   steps: [
@@ -62,18 +62,19 @@ export default {
       id: 'cp-trains',
       title: 'Taking a bicycle on CP: urban, regional and long-distance trains',
       content: [
-        { kind: 'paragraph', text: 'CP allows bicycles to be carried, but the rules depend on the type of train. The basic principle in 2026: a bicycle is carried free of charge if there is space and safety conditions are met; on long-distance trains, you must book a bicycle space in advance.' },
+        { kind: 'paragraph', text: 'CP allows bicycles to be carried, but the rules depend on the type of train. The basic principle in 2026: carriage is free of charge on every train type, but the conditions differ — on urban and regional trains you just need free space, on Intercidades you must book a seat with a bike rack in advance, and on Alfa Pendular a regular bicycle can only travel disassembled and packed as luggage.' },
         { kind: 'checklist', items: [
-          'Urbanos de Lisboa, Porto and Coimbra: bicycles can usually be carried free of charge if the carriage is not overcrowded.',
+          'Urbanos de Lisboa, Porto and Coimbra: bicycles can be carried free of charge without booking if the carriage is not overcrowded.',
           'Regional and InterRegional: carriage is possible subject to available space; train staff may refuse if the bicycle obstructs passage or safety.',
-          'Alfa Pendular and Intercidades: you need a train with bicycle spaces and advance booking when buying the ticket.',
+          'Intercidades: seats with a bike rack (bicycles up to 15 kg) are limited and must be booked in advance when buying the ticket.',
+          'Alfa Pendular: there are no bike racks — a regular bicycle must be disassembled and packed as hand luggage within the available luggage space.',
           'A folded folding bicycle is usually considered luggage if it does not inconvenience passengers.',
           'Do not place the bicycle by doors, emergency exits, in the aisle or in spaces for people with reduced mobility.',
           'Remove bags/luggage if they increase the size and prevent securing the bicycle.',
           'Allow more time for connections: lifts at stations may not work, and stairs with a bicycle are inconvenient.',
           'If travelling as a group, check the limit on spaces: several bicycles on one Alfa/IC may not be available.'
         ] },
-        { kind: 'warning', text: 'The main mistake is buying a Lisboa–Porto ticket on Intercidades/Alfa Pendular and turning up with a regular bicycle without a bike slot. The ticket inspector is not obliged to allow the bicycle on board if the space has not been booked or the train is not equipped.' }
+        { kind: 'warning', text: 'The main mistake is buying a Lisboa–Porto ticket and turning up with a regular bicycle on spec. On Intercidades the bicycle will not be allowed without a booked seat with a bike rack, and on Alfa Pendular an assembled bicycle will not be accepted at all — it must be disassembled and packed as luggage.' }
       ]
     },
     {
@@ -114,7 +115,7 @@ export default {
   costs: [
     { label: 'GIRA Lisboa', amountEURMin: 2, amountEURMax: 25, note: 'Indicative range for typical daily/monthly/annual passes; check the exact price and penalties in the GIRA app before payment.' },
     { label: 'BUGA Aveiro', amountEUR: 0, note: 'Municipal service historically free of charge; registration, deposit or collection arrangements depend on the current Câmara Municipal de Aveiro rules.' },
-    { label: 'Taking a bicycle on CP', amountEUR: 0, note: 'Usually free of charge, but on Alfa Pendular/Intercidades a train with bike places and advance booking is required.' },
+    { label: 'Taking a bicycle on CP', amountEUR: 0, note: 'Free of charge on every train type, but on Intercidades you must book a seat with a bike rack in advance, and on Alfa Pendular the bicycle travels only disassembled as luggage.' },
     { label: 'Good U-lock', amountEURMin: 35, amountEURMax: 90, note: 'Realistic price in Decathlon/bicycle shops; a cheap cable does not protect against theft.' }
   ],
   sources: [
@@ -123,6 +124,6 @@ export default {
     { title: 'U-Bike Portugal — academic bicycle mobility programme', url: 'https://www.u-bike.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Câmara Municipal de Aveiro — municipal BUGA information', url: 'https://www.cm-aveiro.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

@@ -3,7 +3,7 @@ export default {
   id: 'rent-dispute-bna-julgados',
   categoryId: 'housing_rent',
   title: 'Litígio com o senhorio: DECO, Julgados de Paz, BNA',
-  tldr: 'Em Portugal, um litígio com o senhorio deve ser escalado por etapas: reclamação escrita → DECO/mediação → Julgados de Paz, se o valor for até 15 000 € e não se tratar de despejo → tribunal. Escreva: "O BNA não é um serviço de reclamações. Na maioria das vezes, os inquilinos contactam com ele através do Procedimento Especial de Despejo, mas através do BNA também existe a Injunção em Matéria de Arrendamento para determinados pedidos do inquilino/senhorio previstos na lei. Para uma reclamação comum sobre caução ou um conflito doméstico, não é uma via universal." Se recebeu uma notificação do BNA, os prazos são curtos: normalmente 15 dias para oposição, sendo melhor contactar imediatamente um advogado.',
+  tldr: 'Em Portugal, um litígio com o senhorio deve ser escalado por etapas: reclamação escrita → DECO/mediação → Julgados de Paz, se o valor for até 15 000 € e não se tratar de despejo → tribunal. O BNA não é um serviço de reclamações: na maioria das vezes, os inquilinos contactam com ele através do Procedimento Especial de Despejo, mas através do BNA também existe a Injunção em Matéria de Arrendamento para determinados pedidos do inquilino ou do senhorio previstos na lei. Para uma reclamação comum sobre caução ou um conflito doméstico, não é uma via universal. Se recebeu uma notificação do BNA, os prazos são curtos: normalmente 15 dias para oposição, sendo melhor contactar imediatamente um advogado.',
   tags: ['arrendamento', 'bna', 'julgados', 'deco'],
   estimatedReadMinutes: 6,
   steps: [
@@ -15,7 +15,7 @@ export default {
         { kind: 'checklist', items: [
           'A caução não é devolvida — primeiro pedido escrito, depois DECO/mediação ou Julgados de Paz, se o valor for até 15 000 €.',
           'O senhorio não faz uma reparação urgente — notificação escrita com prazo, depois Julgados de Paz ou Tribunal Judicial; se houver risco para a saúde, também Câmara Municipal.',
-          'Substitua pelo coeficiente oficial de 2026, por exemplo escreva: "para a atualização anual normal em 2026 use o coeficiente oficial de 2026, publicado pelo INE/Diário da República; não o confunda com os 2,16% de 2025" e insira a percentagem exata de 2026 publicada no Aviso do INE.',
+          'Aumento ilegal da renda — para a atualização anual normal em 2026 use o coeficiente oficial de 2026 (1,0224, ou seja, 2,24%), publicado pelo INE no Diário da República; não o confunda com os 2,16% de 2025. O coeficiente muda todos os anos — verifique o Aviso do INE para o ano em causa.',
           'O senhorio entra sem autorização — proibição por escrito; em caso de ameaças ou arrombamento, chame a PSP/GNR.',
           'Notificação de cessação do contrato — verifique a forma, o prazo e o fundamento; não saia apenas por causa de um pedido verbal.',
           'Recebeu uma carta do BNA ou de um agente de execução — já é um procedimento de despejo; os prazos são curtos, é necessária oposição através de jurista.',
@@ -37,7 +37,7 @@ export default {
           'Defina um prazo razoável: 5–10 dias úteis para resposta, menos apenas em caso de avaria urgente.',
           'Quanto a reparações, escreva separadamente se o defeito impede a habitação normal ou cria risco para a saúde.',
           'Quanto à caução, peça a discriminação das retenções e cópias das faturas de reparação.',
-          'Substitua 2,16% pelo coeficiente oficial de 2026 e acrescente que a percentagem muda todos os anos e deve ser verificada no Aviso do INE/Diário da República desse ano.',
+          'Quanto ao aumento da renda, invoque o coeficiente oficial de 2026 (1,0224, ou seja, 2,24%) e não os 2,16% de 2025; tenha presente que a percentagem muda todos os anos e deve ser verificada no Aviso do INE/Diário da República desse ano.',
           'Guarde o proof of delivery, capturas de ecrã e ficheiros enviados em PDF.'
         ] },
         { kind: 'paragraph', text: 'A formulação deve ser calma: o objetivo é mostrar que deu ao senhorio a oportunidade de corrigir a violação. Isto será útil na DECO, nos Julgados de Paz ou em tribunal.' }
@@ -82,9 +82,9 @@ export default {
       id: 'bna-eviction',
       title: 'Passo 4 — BNA: se já estiver em causa o despejo',
       content: [
-        { kind: 'paragraph', text: 'Alterar para: "BNA — Balcão Nacional do Arrendamento. É um canal eletrónico do Ministério da Justiça sobretudo para o Procedimento Especial de Despejo, bem como para a Injunção em Matéria de Arrendamento em casos especiais. Não é um serviço geral de proteção dos inquilinos nem um local para uma ‘reclamação’ comum." Normalmente é utilizado pelo senhorio quando pretende cessar o contrato e recuperar o imóvel: por exemplo, por falta de pagamento da renda, termo do contrato ou cessação válida.' },
+        { kind: 'paragraph', text: 'BNA — Balcão Nacional do Arrendamento. É um canal eletrónico do Ministério da Justiça sobretudo para o Procedimento Especial de Despejo, bem como para a Injunção em Matéria de Arrendamento em casos especiais. Não é um serviço geral de proteção dos inquilinos nem um local para uma «reclamação» comum. Normalmente é utilizado pelo senhorio quando pretende cessar o contrato e recuperar o imóvel: por exemplo, por falta de pagamento da renda, termo do contrato ou cessação válida.' },
         { kind: 'checklist', items: [
-          'Esclarecer: "Para o Procedimento Especial de Despejo são necessários fundamentos e documentos formais: contrato escrito, notificações, provas da dívida ou da cessação do contrato. Para a Injunção em Matéria de Arrendamento aplicam-se fundamentos e provas distintos, por exemplo relativos a determinados defeitos/riscos da habitação."',
+          'Para o Procedimento Especial de Despejo são necessários fundamentos e documentos formais: contrato escrito, notificações, provas da dívida ou da cessação do contrato. Para a Injunção em Matéria de Arrendamento aplicam-se fundamentos e provas distintos, por exemplo relativos a determinados defeitos ou riscos da habitação.',
           'Se o senhorio não registou o contrato nas Finanças, isso pode complicar-lhe o procedimento, mas nem sempre “salva” o inquilino.',
           'Após a notificação, o inquilino tem normalmente 15 dias para oposição; o silêncio pode conduzir à emissão de título de desocupação.',
           'A oposição deve ser juridicamente fundamentada: notificação incorreta, dívida já paga, valor incorreto, cessação inválida, violação de prazos.',
@@ -127,6 +127,6 @@ export default {
     { title: 'Lei 78/2001 — organização, competência e funcionamento dos Julgados de Paz', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2001-34480075', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Lei 6/2006 — Novo Regime do Arrendamento Urbano e procedimentos de cessação do arrendamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2006-34515375', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

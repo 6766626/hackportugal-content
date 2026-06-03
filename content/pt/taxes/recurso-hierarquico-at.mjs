@@ -134,6 +134,6 @@ export default {
     { title: 'Re-activar: o que é um recurso hierárquico no contexto fiscal', url: 'https://www.re-activar.pt/faqs/o-que-e-um-recurso-hierarquico-no-contexto-fiscal/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Caixa Geral de Depósitos: revisão oficiosa e diferença face a outras formas de correção de impostos', url: 'https://www.cgd.pt/Site/Saldo-Positivo/leis-e-impostos/Pages/revisao-oficiosa.aspx', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }

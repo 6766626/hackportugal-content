@@ -2,18 +2,18 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'passe-municipal-national',
   categoryId: 'public_transport',
-  title: 'Passe Metropolitano and the national €40/month discount',
-  tldr: 'Since 2024, a national framework has applied under Decreto-Lei 1-A/2024: monthly public transport passes are funded by the state through the passes.pt system, with a national cap/support of up to €40/month and separate metropolitan pass options of around €20/month in applicable zones. This is not one universal ticket for everything: the rules depend on the AML, AMP, CIM/municipality, operator and type of journey. In 2026, buy through your local card: Navegante, Andante, CP/municipal passe.',
+  title: 'Monthly passes in Portugal: Navegante, Andante, passe municipal/metropolitano and the national CP pass',
+  tldr: 'There is no single universal ticket for everything in Portugal. The price depends on the territory and the operator. In the metropolitan areas there is a state subsidy under the PART programme: a passe municipal (one concelho) of around €30/month and a passe metropolitano (the whole metropolitan area) of around €40/month — for example Navegante in Lisbon and Andante in Porto. Separately, there are national CP railway passes: the Passe Ferroviário Verde at €20 for 30 days (regional/inter-regional trains + 2nd-class Intercidades, under Decreto-Lei 73/2024) and the Passe Ferroviário Nacional at €49/month for all regional trains. In 2026, buy through your local card: Navegante, Andante or Cartão CP.',
   tags: ['passe', 'transport', 'metro', 'cp'],
   estimatedReadMinutes: 5,
   steps: [
     {
       id: 'what-it-is',
-      title: 'What changed: the cap does not mean “one ticket for the whole country”',
+      title: 'How passes work: there is no “one ticket for the whole country”',
       content: [
-        { kind: 'paragraph', text: 'Decreto-Lei 1-A/2024 established national funding for monthly passes and discounts on public transport.\n\nIn practice, this works through local systems: Área Metropolitana de Lisboa, Área Metropolitana do Porto, CIM, municipalities and operators such as CP, Carris, Metro Lisboa, STCP, Fertagus, Transtejo/Soflusa.' },
-        { kind: 'paragraph', text: 'The main point for users in 2026: a monthly passe should fit within the national support framework — up to €20/month for an applicable metropolitan/municipal format and up to €40/month for a broader national/interregional combination, if available in your area. But the name, coverage and purchase method differ by region.' },
-        { kind: 'warning', text: 'Do not confuse this with single tickets, tourist cards or CP Alfa Pendular/Intercidades trains. National support under DL 1-A/2024 does not mean that any train or bus in the country is automatically included in one €40 passe.' }
+        { kind: 'paragraph', text: 'Monthly passes in Portugal are subsidised by the state through the PART programme (Programa de Apoio à Redução Tarifária), but there is no single ticket covering all transport in the country.\n\nIn practice, this works through local systems: Área Metropolitana de Lisboa, Área Metropolitana do Porto, CIM, municipalities and operators such as CP, Carris, Metro Lisboa, STCP, Fertagus, Transtejo/Soflusa.' },
+        { kind: 'paragraph', text: 'The main thing to understand in 2026: price and coverage depend on the territory. In the metropolitan areas there are two basic tiers — a passe municipal within one concelho (around €30/month) and a passe metropolitano for the whole metropolitan area (around €40/month). The national CP railway passes work separately from these. The name and exact price differ by region.' },
+        { kind: 'warning', text: 'Do not confuse the €40 metropolitan passe with the national CP railway passes. The Passe Ferroviário Verde (€20 for 30 days) and the Passe Ferroviário Nacional (€49/month) cover CP regional trains, but do not give automatic access to Alfa Pendular, the full Intercidades service or metropolitan urban transport. A single €40 passe means a metropolitan area, not the whole country.' }
       ]
     },
     {
@@ -53,15 +53,15 @@ export default {
     },
     {
       id: 'where-to-check',
-      title: '3. Check eligibility for €20/€40 through passe.pt',
+      title: '3. Compare the municipal, metropolitano and national passes',
       content: [
-        { kind: 'paragraph', text: 'passe.pt is the national entry point for information on supported passes. There you can check the type of pass, region, operator and applicable discount. In 2026, this is the safest way not to overpay for a local option when a metropolitan or national option exists.' },
+        { kind: 'paragraph', text: 'Check the conditions on the operators’ websites: navegante.pt for Lisbon, linhandante.com for Porto, cp.pt for railway passes. There you can see the type of pass, region, zones and price. In 2026, this is the safest way not to overpay for unnecessary coverage and not to buy a pass that is too narrow.' },
         { kind: 'checklist', items: [
-          'Open passe.pt and choose the region or type of passe',
-          'Compare municipal, metropolitan and intermunicipal options',
-          'Check whether your CP stations or bus routes are included',
-          'Check whether the €20/month or €40/month cap applies specifically to your profile',
-          'Look for exclusions: express, long-distance, tourist, airport shuttle',
+          'Open the relevant operator’s website and choose the region or type of passe',
+          'Compare the passe municipal (one concelho, around €30) and the passe metropolitano (whole metropolitan area, around €40)',
+          'Check whether your CP stations or bus routes are included in the chosen passe',
+          'If you travel between regions by train, compare the Passe Ferroviário Verde (€20/30 days) and the Passe Ferroviário Nacional (€49/month)',
+          'Look for exclusions: express, long-distance, tourist tickets, airport shuttle',
           'Save a PDF/screenshot of the conditions in case of a dispute at the ticket office',
           'If the operator refuses, ask for a link to the 2026 fare table',
           'When moving to another concelho, apply for a new passe — the old one may stop being optimal'
@@ -100,21 +100,23 @@ export default {
           'After topping up via Multibanco, activation on a validator/terminal is sometimes required',
           'In the event of a fine, ask for the auto de notícia and instructions for a reclamação'
         ] },
-        { kind: 'warning', text: 'Inspectors usually do not accept the argument “I thought the national €40 cap covered everything”. Coverage is determined by the specific passe and zones, not by the general amount of support in the law.' }
+        { kind: 'warning', text: 'Inspectors usually do not accept the argument “I thought my passe covered everything”. Coverage is determined by the specific pass and zones: a metropolitan passe is not valid on national trains outside its zones, and a railway pass does not cover metropolitan urban transport.' }
       ]
     }
   ],
   costs: [
-    { label: 'Metropolitan/municipal passe with applicable national support', amountEUR: 20, note: 'Reference point under DL 1-A/2024 for applicable zones; the actual name and coverage depend on the region.' },
-    { label: 'National/interregional monthly cap/support', amountEUR: 40, note: 'National support framework; does not guarantee access to every long-distance train or private express coach.' },
-    { label: 'Issuing a personalised card', amountEURMin: 3, amountEURMax: 12, note: 'Depends on the system: Navegante, Andante, CP or municipal card; urgent issue is usually more expensive.' }
+    { label: 'Passe municipal (one concelho) — e.g. Navegante Municipal', amountEUR: 30, note: 'Reference point under the PART programme for metropolitan areas; in Lisbon Navegante Municipal is €30/month. The exact price and name depend on the region.' },
+    { label: 'Passe metropolitano (whole metropolitan area) — e.g. Navegante Metropolitano', amountEUR: 40, note: 'Reference point under the PART programme; in Lisbon Navegante Metropolitano is €40/month, with an Andante equivalent in Porto. This is a metropolitan area, not the whole country.' },
+    { label: 'Passe Ferroviário Verde (CP, 30 days)', amountEUR: 20, note: 'Regional/inter-regional trains + 2nd-class Intercidades, under Decreto-Lei 73/2024; requires a Cartão CP.' },
+    { label: 'Passe Ferroviário Nacional (CP, month)', amountEUR: 49, note: 'All CP regional trains nationwide; not valid on Alfa Pendular, Intercidades or metropolitan urban transport.' },
+    { label: 'Issuing a personalised card', amountEURMin: 3, amountEURMax: 12, note: 'Depends on the system: Navegante, Andante, CP or municipal card; the Cartão CP costs €6 (€3 for students).' }
   ],
   sources: [
-    { title: 'Decreto-Lei 1-A/2024 — national legal framework for passe support', url: 'https://dre.pt/dre/detalhe/decreto-lei/1-a-2024', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'passe.pt — national portal for passes and discounts', url: 'https://www.passe.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Navegante — fares and cards for Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Andante — fares and zones for Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Decreto-Lei n.º 73/2024 — Passe Ferroviário Verde', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/73-2024-891541243', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'CP — Passe Ferroviário Nacional', url: 'https://www.cp.pt/passageiros/pt/descontos-vantagens/descontos/ferroviario-nacional', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Navegante — fares and cards for Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'Andante — fares and zones for Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

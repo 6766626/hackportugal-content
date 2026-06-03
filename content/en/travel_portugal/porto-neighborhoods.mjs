@@ -33,7 +33,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: 'Foz do Douro', content: [
-            { kind: 'paragraph', text: 'At the mouth of the Douro, a premium area. Beaches, restaurants, families. Far from the centre; you need a car or metro line 1. T1 — €1,200-2,000, villas — €2,500+.' }
+            { kind: 'paragraph', text: 'At the mouth of the Douro, a premium area. Beaches, restaurants, families. Far from the centre; you usually need a bus, taxi or car. The historic tram 1 runs along the river, but it is not a metro or a real option for a daily commute. T1 — €1,200-2,000, villas — €2,500+.' }
           ]},
           { id: 'p2', title: 'Boavista', content: [
             { kind: 'paragraph', text: 'Business district. Casa da Música, skyscrapers by Portuguese standards. Good schools. T1 — €1,000-1,700.' }
@@ -56,7 +56,7 @@ export default {
             { kind: 'paragraph', text: 'University area, lots of young people. Yellow metro line. T1 — €700-1,100.' }
           ]},
           { id: 'b3', title: 'Areosa / Ramalde', content: [
-            { kind: 'paragraph', text: 'Northern neighbourhoods, suitable for families. Blue and yellow metro lines. T1 — €700-1,100.' }
+            { kind: 'paragraph', text: 'Northern neighbourhoods, suitable for families. Ramalde has its own metro station (blue line A and others); in Areosa a bus or the nearest stations are often more convenient, depending on the address. T1 — €700-1,100.' }
           ]}
         ]}
       ]
@@ -67,7 +67,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'o1', title: 'Vila Nova de Gaia', content: [
-            { kind: 'paragraph', text: 'South bank of the Douro, famous port wine cellars. Yellow and violet metro lines across Ponte Luís I. Same views, 20-30% cheaper. T1 — €700-1,200.' }
+            { kind: 'paragraph', text: 'South bank of the Douro, famous port wine cellars. The yellow metro line (D) crosses into Gaia over Ponte Luís I. Same views, 20-30% cheaper. T1 — €700-1,200.' }
           ]},
           { id: 'o2', title: 'Matosinhos', content: [
             { kind: 'paragraph', text: 'To the west. Beaches, seafood, fishing port. Blue metro line. T1 — €700-1,200.' }
@@ -87,14 +87,14 @@ export default {
       content: [
         { kind: 'checklist', items: [
           '💰 Rent in Porto is 30-40% cheaper',
-          '🌆 Porto is more compact, everything is within walking distance',
+          '🌆 Porto is more compact than Lisbon: the historic centre is easy to walk, but Foz, Matosinhos, Maia, Gaia and the eastern suburbs need transport',
           '🌧️ Porto is rainier and cooler (ocean, north)',
           '🍷 Port wine, the Douro Valley — a unique feature',
           '✈️ Fewer international flights, but there are direct flights to Europe',
           '🎓 Excellent universities (Porto, Católica)',
           '🏝️ Good beaches (Matosinhos, Foz, Leça)',
           '👔 Fewer expats, more local atmosphere',
-          '🚆 Alfa Pendular to Lisbon in 2.5 h'
+          '🚆 Alfa Pendular to Lisbon in about 3 h (the fastest services a bit less)'
         ]}
       ]
     }
@@ -104,6 +104,6 @@ export default {
     { title: 'INE — Norte housing indicators', url: 'https://www.ine.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Visit Porto — tourism portal', url: 'https://visitporto.travel/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

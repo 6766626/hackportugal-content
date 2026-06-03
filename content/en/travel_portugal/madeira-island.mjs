@@ -17,7 +17,7 @@ export default {
           '🏝️ Island — but all conveniences + an airport with direct flights',
           '💻 Digital Nomads Village in Ponta do Sol — the programme hub',
           '🇬🇧 English is understood everywhere',
-          '💰 Autonomous tax status: 10% IRS in some schemes',
+          '💰 Regional IRS rate for residents is usually lower than on the mainland',
           '🚑 SNS operates fully, there are private clinics',
           '📚 International schools in Funchal',
           '👨‍👩‍👧 Safe, relaxed pace'
@@ -92,6 +92,6 @@ export default {
     { title: 'Digital Nomads Madeira', url: 'https://digitalnomads.startupmadeira.eu/', kind: 'official', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'Governo Regional Madeira', url: 'https://www.madeira.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

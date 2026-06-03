@@ -133,6 +133,6 @@ export default {
     { title: 'Câmara Municipal de Lisboa — noise, municipal rules and contacts', url: 'https://www.cm-lisboa.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Julgados de Paz — jurisdiction, costs and how it works', url: 'https://www.conselhodosjulgadosdepaz.com.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

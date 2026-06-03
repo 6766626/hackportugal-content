@@ -27,11 +27,12 @@ export default {
       id: 'tiers',
       title: 'Statuses: Silver, Gold and what about “Platinum”',
       content: [
-        { kind: 'paragraph', text: 'In everyday conversations people often say “Platinum”, but in TAP Miles&Go’s public 2026 logic, you should focus on the Basic, Silver and Gold levels; TAP’s top special levels/invitations should be checked in your personal account and in the rules for the year. For most expats, the realistic target is Silver or Gold.' },
+        { kind: 'paragraph', text: 'In everyday conversations people often say “Platinum”, but TAP Miles&Go has no such level. In its public 2026 logic, focus on the Silver, Gold and Navigator (top level) statuses; a member without status is simply Miles&Go. Check the exact thresholds and conditions in your personal account and in the rules for the year. For most expats, the realistic target is Silver or Gold.' },
         { kind: 'checklist', items: [
-          'Basic — a regular member without elite status; earns and spends miles.',
+          'Base level (no elite status) — a regular Miles&Go member who earns and spends miles.',
           'Silver — TAP’s first elite level; provides some TAP privileges, but is not equivalent to full Star Alliance Gold.',
           'Gold — the key status for frequent flying; usually corresponds to Star Alliance Gold.',
+          'Navigator — TAP’s top status with the highest thresholds; only worth it for very frequent flyers.',
           'Star Alliance Gold is important because of lounge access, priority check-in, priority boarding and extra baggage on many partners.',
           'Status miles and bonus miles are different things: the former are needed for status, the latter are spent on tickets and upgrades.',
           'Not all partner miles count in the same way: each partner and booking class has its own earning table.',
@@ -122,6 +123,6 @@ export default {
     { title: 'TAP Miles&Go — using miles', url: 'https://www.flytap.com/en-pt/miles-and-go/use-miles', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Star Alliance — member airlines', url: 'https://www.staralliance.com/en/member-airlines', kind: 'company', language: 'en', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

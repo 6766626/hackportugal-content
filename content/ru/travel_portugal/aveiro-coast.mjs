@@ -40,7 +40,7 @@ export default {
       id: 'costa-nova',
       title: 'Costa Nova — полосатые домики',
       content: [
-        { kind: 'paragraph', text: 'В 10 км от Авейру, у океана, находится Costa Nova do Prado. Знаменита палисадниками — домиками в ярких полосах (исторически — для рыбаков, чтобы с моря они могли различать свои дома).' },
+        { kind: 'paragraph', text: 'В 10 км от Авейру, у океана, находится Costa Nova do Prado. Знаменита палейру (palheiros) — домиками в ярких полосах (исторически их строили рыбаки, чтобы с моря различать свои дома, в том числе в тумане).' },
         { kind: 'checklist', items: [
           '🏖️ Пляж с бесконечным песком до горизонта — часть Costa de Prata',
           '🎨 Casas de Palheiro — полосатые домики (жёлто-белые, красно-белые)',
@@ -57,12 +57,12 @@ export default {
       title: 'Что попробовать',
       content: [
         { kind: 'checklist', items: [
-          '🥚 Ovos moles (защищённое географическое указание) — яичный желток в тонкой вафле-ракушке, rebuçados (рыбки, обёрнутые в бумажные обёртки)',
+          '🥚 Ovos moles (защищённое географическое указание) — яичный желток в тонкой вафле-ракушке, rebuçados (фигурные рыбки, обёрнутые в бумагу)',
           '🐟 Caldeirada de enguias — рагу из угрей из лагуны',
           '🐟 Bacalhau à Lagareiro — треска с картофелем и оливковым маслом',
           '🐚 Berbigão — моллюски из лагуны',
           '🍚 Arroz de lampreia — рис с миногой (сезон зимой)',
-          '🥧 Tripas de Aveiro — сладкие вафли-«кишки» в виде трубочек с кремом',
+          '🥧 Tripas de Aveiro — сладкие вафельные трубочки с кремом',
           '🍷 Bairrada — винный регион рядом (игристое и Baga)'
         ]}
       ]
@@ -101,6 +101,6 @@ export default {
     { title: 'Visit Aveiro — Região Centro', url: 'https://www.visitcentro.com/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Turismo de Portugal — Aveiro', url: 'https://www.visitportugal.com/en/destinos/centro-de-portugal/73753', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 365
 }

@@ -3,7 +3,7 @@ export default {
   id: 'carris-eletricos-lisboa',
   categoryId: 'public_transport',
   title: 'Lisbon electric trams 12, 15, 18, 28: tourists vs locals',
-  tldr: 'Carris electric trams are not a museum, but ordinary public transport. 28E is beautiful, but almost always packed with tourists and pickpockets; for locals it is only useful outside peak times. 15E is a normal way to get to Belém and Algés, more often a modern tram. 12E, 18E and 24E help in hilly areas where there is no metro. With Navegante, the trip is included in the pass; a single ticket from the driver on an elétrico is expensive — around €3.10 in 2026.',
+  tldr: 'Carris electric trams are not a museum, but ordinary public transport. 28E is beautiful, but almost always packed with tourists and pickpockets; for locals it is only useful outside peak times. 15E is a normal way to get to Belém and Algés, more often a modern tram. 12E, 18E and 24E help in hilly areas where there is no metro. With Navegante, the trip is included in the pass; a single ticket from the driver on an elétrico is expensive — around €3.30 in 2026.',
   tags: ['carris', 'electric tram', 'lisboa', 'navegante'],
   estimatedReadMinutes: 5,
   steps: [
@@ -47,7 +47,7 @@ export default {
           'Navegante municipal Lisboa: usually €30 / month, valid within the municipality of Lisboa on Carris, Metro and other city operators according to the fare conditions.',
           'Navegante metropolitano: usually €40 / month, covers the whole Área Metropolitana de Lisboa.',
           'Zapping on a Navegante ocasional / Viva Viagem card is cheaper than a ticket from the driver and works for occasional trips.',
-          'A ticket from the driver on an elétrico in 2026 is around €3.10 per trip; this is the tourist price for lack of preparation.',
+          'A ticket from the driver on an elétrico in 2026 is around €3.30 per trip; this is the tourist price for lack of preparation.',
           'A Navegante ocasional card costs around €0.50 and can be bought/topped up at Metro, CP and Fertagus machines, at stations and at some pontos de venda.',
           'On historic trams, boarding is usually through the front door; the validator is near the driver.',
           'Do not tap the same card for two people: each passenger needs their own validated card or ticket.'
@@ -105,7 +105,7 @@ export default {
     }
   ],
   costs: [
-    { label: 'Ticket from the driver on a Carris elétrico', amountEUR: 3.10, note: 'Guide figure for 2026; more expensive than zapping or a pass.' },
+    { label: 'Ticket from the driver on a Carris elétrico', amountEUR: 3.30, note: 'Guide figure for 2026; more expensive than zapping or a pass.' },
     { label: 'Navegante municipal Lisboa', amountEUR: 30, note: 'Monthly pass within Lisboa; Carris trams are included.' },
     { label: 'Navegante metropolitano', amountEUR: 40, note: 'Monthly pass for the Área Metropolitana de Lisboa.' },
     { label: 'Navegante ocasional / Viva Viagem card', amountEUR: 0.50, note: 'Card medium for zapping or single tickets; top-up separate.' }
@@ -117,6 +117,6 @@ export default {
     { title: 'Navegante — passes and Lisboa/AML fare system', url: 'https://www.navegante.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Carris — official website of the Lisboa transport operator', url: 'https://www.carris.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 180
 }

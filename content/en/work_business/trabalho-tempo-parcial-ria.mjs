@@ -14,7 +14,7 @@ export default {
         { kind: 'paragraph', text: 'Trabalho a tempo parcial is work with normal working time below that of a comparable full-time employee: fewer hours per week, fewer days per month or part of the year. In 2026, the standard full-time week in the private sector is usually up to 40 hours, but a collective agreement may provide for less.' },
         { kind: 'checklist', items: [
           'The contrato must be in writing and state the working hours/days and the comparison with a full-time schedule.',
-          'If there is no written form or the part-time regime is poorly described, a dispute is usually interpreted against the employer.',
+          'If the written form is not observed, the contract is deemed by law to be full-time (art. 153 Código do Trabalho). The same consequence applies if the contract does not state the normal working time and the comparison with full-time.',
           'Salário is calculated proportionally: with 20 h/week instead of 40 h/week — at least 50% of the applicable full-time salário.',
           'SMN 2026 is €920 per month for full-time; for 50% employment the benchmark is not below €460 gross, unless a more favourable CCT applies.',
           'Férias: the right to annual leave is not automatically “cut” to 11 days; 22 working days are usually preserved, but holiday pay corresponds to your part-time salary.',
@@ -152,8 +152,15 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'Decreto-Lei 139/2025 — RMMG (SMN) €920 on the mainland from 01.01.2026',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/139-2025-992879809',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-05-31'
     }
   ],
-  lastVerified: '2026-05-17',
+  lastVerified: '2026-05-31',
   verifyIntervalDays: 90
 }
