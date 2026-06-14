@@ -20,6 +20,7 @@
     --green: #0f7b45;
     --red: #b3261e;
     --blue: #1a73e8;
+    --app-store-blue: #007aff;
     --shadow: 0 18px 48px rgba(23, 32, 24, 0.12);
   }
 
@@ -117,6 +118,11 @@
     box-shadow: 0 12px 30px rgba(15, 123, 69, 0.18);
   }
 
+  .store-card.ios.is-recommended {
+    border-color: var(--app-store-blue);
+    box-shadow: 0 12px 30px rgba(0, 122, 255, 0.18);
+  }
+
   .platform {
     color: var(--muted);
     font-size: 14px;
@@ -163,7 +169,7 @@
   }
 
   .store-card.ios .cta {
-    background: #171717;
+    background: var(--app-store-blue);
   }
 
   .micro {
@@ -180,13 +186,9 @@
   }
 
   .phone {
-    width: min(340px, 100%);
+    width: min(360px, 100%);
     height: auto;
     display: block;
-    background: #111111;
-    border: 8px solid #111111;
-    border-radius: 30px;
-    box-shadow: var(--shadow);
   }
 
   footer {
@@ -249,8 +251,6 @@
 
     .phone {
       width: 230px;
-      border-width: 6px;
-      border-radius: 24px;
     }
   }
 </style>
@@ -268,14 +268,6 @@
       <p class="lead">Practical guides for life in Portugal: immigration, taxes, healthcare and everyday paperwork. Available in English, Russian and Portuguese.</p>
 
       <div class="stores" aria-label="Download options">
-        <a class="store-card android" data-platform-card="android" href="https://play.google.com/store/apps/details?id=pt.onein.hackportugal">
-          <span class="platform">Android</span>
-          <span class="store-title">Google Play</span>
-          <span class="store-body">Install HackPortugal on an Android phone or tablet.</span>
-          <span class="badge" data-recommended-for="android" hidden>Recommended for this device</span>
-          <span class="cta">Open Google Play</span>
-        </a>
-
         <a class="store-card ios" data-platform-card="ios" href="https://apps.apple.com/app/id6765956332">
           <span class="platform">iPhone and iPad</span>
           <span class="store-title">App Store</span>
@@ -283,13 +275,21 @@
           <span class="badge" data-recommended-for="ios" hidden>Recommended for this device</span>
           <span class="cta">Open App Store</span>
         </a>
+
+        <a class="store-card android" data-platform-card="android" href="https://play.google.com/store/apps/details?id=pt.onein.hackportugal">
+          <span class="platform">Android</span>
+          <span class="store-title">Google Play</span>
+          <span class="store-body">Install HackPortugal on an Android phone or tablet.</span>
+          <span class="badge" data-recommended-for="android" hidden>Recommended for this device</span>
+          <span class="cta">Open Google Play</span>
+        </a>
       </div>
 
       <p class="micro">HackPortugal is an independent reference app and is not affiliated with AIMA or the Portuguese government.</p>
     </div>
 
     <div class="visual" aria-hidden="true">
-      <img class="phone" src="phone-preview.png" alt="" width="340" height="760">
+      <img class="phone" src="iphone-preview.png" alt="" width="460" height="940">
     </div>
   </section>
 
