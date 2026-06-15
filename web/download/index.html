@@ -158,6 +158,10 @@
     font-weight: 800;
   }
 
+  .store-icon {
+    display: none;
+  }
+
   .store-card.android .cta {
     background: var(--green);
   }
@@ -240,12 +244,42 @@
   @media (max-width: 620px) {
     body {
       min-height: 100svh;
+      position: relative;
+      background: #18231c;
       overflow: hidden;
+    }
+
+    body::before,
+    body::after {
+      content: "";
+      position: fixed;
+      pointer-events: none;
+    }
+
+    body::before {
+      inset: -28px;
+      z-index: 0;
+      background:
+        linear-gradient(180deg, rgba(10, 24, 15, 0.04), rgba(10, 24, 15, 0.34)),
+        url("mobile-bg.jpg") center / cover no-repeat;
+      filter: blur(10px) saturate(1.12);
+      transform: scale(1.04);
+      opacity: 0.96;
+    }
+
+    body::after {
+      inset: 0;
+      z-index: 0;
+      background:
+        radial-gradient(circle at 50% 14%, rgba(255, 255, 255, 0.38), rgba(255, 255, 255, 0) 36%),
+        linear-gradient(180deg, rgba(246, 248, 245, 0.22), rgba(12, 24, 15, 0.2));
     }
 
     .shell {
       width: 100%;
       min-height: 100svh;
+      position: relative;
+      z-index: 1;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -259,24 +293,37 @@
       padding: 0;
     }
 
+    .hero > div:first-child {
+      width: min(100%, 374px);
+      margin: 0 auto;
+      padding: 24px 20px 22px;
+      border: 1px solid rgba(255, 255, 255, 0.72);
+      border-radius: 26px;
+      background: rgba(255, 255, 255, 0.8);
+      box-shadow: 0 22px 54px rgba(12, 24, 15, 0.18);
+      backdrop-filter: blur(20px) saturate(1.12);
+      -webkit-backdrop-filter: blur(20px) saturate(1.12);
+    }
+
     .brand {
       width: 100%;
       display: flex;
       justify-content: center;
-      margin: 0 0 22px;
-      font-size: 21px;
+      margin: 0 0 18px;
+      font-size: 20px;
     }
 
     .brand img {
-      width: 54px;
-      height: 54px;
+      width: 50px;
+      height: 50px;
+      box-shadow: 0 10px 24px rgba(13, 32, 19, 0.16);
     }
 
     h1 {
       max-width: 330px;
-      margin: 0 auto 28px;
+      margin: 0 auto 20px;
       text-align: center;
-      font-size: 32px;
+      font-size: 30px;
       line-height: 1.08;
     }
 
@@ -296,33 +343,48 @@
 
     .stores {
       grid-template-columns: 1fr;
-      width: min(100%, 360px);
+      width: 100%;
       margin: 0 auto;
       gap: 12px;
     }
 
     .store-card {
       min-height: 0;
-      height: 64px;
+      height: 70px;
+      display: grid;
+      grid-template-columns: 46px minmax(0, 1fr);
+      gap: 13px;
       align-items: center;
-      justify-content: center;
-      padding: 0 18px;
+      justify-content: start;
+      padding: 0 17px;
       color: #ffffff;
       border: 0;
-      border-radius: 12px;
+      border-radius: 18px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 14px 28px rgba(9, 27, 15, 0.18);
+    }
+
+    .store-card::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0));
+      pointer-events: none;
     }
 
     .store-card:hover,
     .store-card:focus-visible {
       transform: none;
+      box-shadow: 0 14px 28px rgba(9, 27, 15, 0.22);
     }
 
     .store-card.ios {
-      background: var(--app-store-blue);
+      background: linear-gradient(135deg, #0a84ff, #0057d9);
     }
 
     .store-card.android {
-      background: var(--green);
+      background: linear-gradient(135deg, #21a466, #0a6a3b);
     }
 
     .platform,
@@ -330,12 +392,61 @@
       display: none;
     }
 
+    .store-icon {
+      width: 46px;
+      height: 46px;
+      display: grid;
+      place-items: center;
+      position: relative;
+      z-index: 1;
+      border-radius: 13px;
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    .store-icon svg {
+      width: 28px;
+      height: 28px;
+      display: block;
+    }
+
+    .android .store-icon {
+      background: rgba(255, 255, 255, 0.92);
+    }
+
     .cta {
       margin: 0;
       padding: 0;
+      position: relative;
+      z-index: 1;
       background: transparent !important;
-      font-size: 18px;
-      line-height: 1;
+      font-size: 17px;
+      line-height: 1.1;
+      text-align: left;
+    }
+
+    @media (max-height: 640px) {
+      .hero > div:first-child {
+        padding: 20px 18px 18px;
+        border-radius: 24px;
+      }
+
+      .brand {
+        margin-bottom: 14px;
+      }
+
+      .brand img {
+        width: 46px;
+        height: 46px;
+      }
+
+      h1 {
+        margin-bottom: 16px;
+        font-size: 28px;
+      }
+
+      .store-card {
+        height: 66px;
+      }
     }
   }
 </style>
@@ -354,6 +465,13 @@
 
       <div class="stores" aria-label="Download options">
         <a class="store-card ios" data-platform-card="ios" href="https://apps.apple.com/app/id6765956332">
+          <span class="store-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" role="img">
+              <path d="M16.8 26.7h8.9" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" />
+              <path d="M20.2 10.4 11.6 29.7" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" />
+              <path d="M23.1 10.4 31.8 29.7" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" />
+            </svg>
+          </span>
           <span class="platform">iPhone and iPad</span>
           <span class="store-title">App Store</span>
           <span class="store-body">Install HackPortugal on iOS or iPadOS.</span>
@@ -362,6 +480,14 @@
         </a>
 
         <a class="store-card android" data-platform-card="android" href="https://play.google.com/store/apps/details?id=pt.onein.hackportugal">
+          <span class="store-icon" aria-hidden="true">
+            <svg viewBox="0 0 40 40" role="img">
+              <path d="M9.4 7.8v24.4l13-12.2Z" fill="#00a6ff" />
+              <path d="M22.4 20 9.4 7.8c.5-.4 1.2-.4 1.9 0l15.2 8.6Z" fill="#00d17f" />
+              <path d="M26.5 23.6 11.3 32.2c-.7.4-1.4.4-1.9 0l13-12.2Z" fill="#ff5a4f" />
+              <path d="M31.1 21c1.2-.7 1.2-1.3 0-2l-4.6-2.6-4.1 3.6 4.1 3.6Z" fill="#ffc83d" />
+            </svg>
+          </span>
           <span class="platform">Android</span>
           <span class="store-title">Google Play</span>
           <span class="store-body">Install HackPortugal on an Android phone or tablet.</span>
