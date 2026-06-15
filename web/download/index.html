@@ -21,7 +21,6 @@
     --red: #b3261e;
     --blue: #1a73e8;
     --app-store-blue: #007aff;
-    --shadow: 0 18px 48px rgba(23, 32, 24, 0.12);
   }
 
   * {
@@ -67,7 +66,6 @@
     width: 58px;
     height: 58px;
     border-radius: 8px;
-    box-shadow: 0 8px 22px rgba(23, 32, 24, 0.16);
   }
 
   h1 {
@@ -101,26 +99,22 @@
     background: var(--paper);
     border: 1px solid var(--line);
     border-radius: 8px;
-    box-shadow: 0 6px 20px rgba(23, 32, 24, 0.06);
-    transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+    transition: border-color 160ms ease, transform 160ms ease;
   }
 
   .store-card:hover,
   .store-card:focus-visible {
     border-color: var(--blue);
-    box-shadow: 0 12px 28px rgba(23, 32, 24, 0.12);
     outline: none;
     transform: translateY(-1px);
   }
 
   .store-card.is-recommended {
     border-color: var(--green);
-    box-shadow: 0 12px 30px rgba(15, 123, 69, 0.18);
   }
 
   .store-card.ios.is-recommended {
     border-color: var(--app-store-blue);
-    box-shadow: 0 12px 30px rgba(0, 122, 255, 0.18);
   }
 
   .platform {
@@ -186,7 +180,9 @@
   }
 
   .phone {
-    width: min(360px, 100%);
+    width: auto;
+    max-width: min(360px, 100%);
+    max-height: calc(100svh - 64px);
     height: auto;
     display: block;
   }
@@ -233,6 +229,7 @@
 
     .phone {
       width: 280px;
+      max-height: none;
     }
   }
 
@@ -289,7 +286,7 @@
     </div>
 
     <div class="visual" aria-hidden="true">
-      <img class="phone" src="iphone-preview.png" alt="" width="460" height="940">
+      <img class="phone" src="iphone-preview.png" alt="" width="416" height="900">
     </div>
   </section>
 
