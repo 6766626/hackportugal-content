@@ -206,6 +206,10 @@
     text-decoration: underline;
   }
 
+  .mobile-title {
+    display: none;
+  }
+
   @media (max-width: 860px) {
     .hero {
       min-height: auto;
@@ -234,20 +238,104 @@
   }
 
   @media (max-width: 620px) {
+    body {
+      min-height: 100svh;
+      overflow: hidden;
+    }
+
     .shell {
-      width: min(100% - 28px, 1120px);
+      width: 100%;
+      min-height: 100svh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: max(18px, env(safe-area-inset-top)) 20px max(18px, env(safe-area-inset-bottom));
+    }
+
+    .hero {
+      width: 100%;
+      min-height: auto;
+      display: block;
+      padding: 0;
+    }
+
+    .brand {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 0 0 22px;
+      font-size: 21px;
+    }
+
+    .brand img {
+      width: 54px;
+      height: 54px;
+    }
+
+    h1 {
+      max-width: 330px;
+      margin: 0 auto 28px;
+      text-align: center;
+      font-size: 32px;
+      line-height: 1.08;
+    }
+
+    .desktop-title,
+    .lead,
+    .store-body,
+    .badge,
+    .micro,
+    .visual,
+    footer {
+      display: none;
+    }
+
+    .mobile-title {
+      display: inline;
     }
 
     .stores {
       grid-template-columns: 1fr;
+      width: min(100%, 360px);
+      margin: 0 auto;
+      gap: 12px;
     }
 
     .store-card {
-      min-height: 190px;
+      min-height: 0;
+      height: 64px;
+      align-items: center;
+      justify-content: center;
+      padding: 0 18px;
+      color: #ffffff;
+      border: 0;
+      border-radius: 12px;
     }
 
-    .phone {
-      width: 230px;
+    .store-card:hover,
+    .store-card:focus-visible {
+      transform: none;
+    }
+
+    .store-card.ios {
+      background: var(--app-store-blue);
+    }
+
+    .store-card.android {
+      background: var(--green);
+    }
+
+    .platform,
+    .store-title {
+      display: none;
+    }
+
+    .cta {
+      margin: 0;
+      padding: 0;
+      background: transparent !important;
+      font-size: 18px;
+      line-height: 1;
     }
   }
 </style>
@@ -261,7 +349,7 @@
         <span>HackPortugal</span>
       </div>
 
-      <h1 id="page-title">Choose your app store</h1>
+      <h1 id="page-title"><span class="desktop-title">Choose your app store</span><span class="mobile-title">Download HackPortugal</span></h1>
       <p class="lead">Practical guides for life in Portugal: immigration, taxes, healthcare and everyday paperwork. Available in English, Russian and Portuguese.</p>
 
       <div class="stores" aria-label="Download options">
