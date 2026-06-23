@@ -3,11 +3,11 @@ export default {
   id: 'citizenship-by-descent',
   categoryId: 'nationality',
   title: 'Nacionalidade portuguesa por parentesco (Lei Orgânica 1/2026)',
-  tldr: '🆕 Ao abrigo da nova Lei Orgânica n.º 1/2026 (publicada em 18.05.2026, em vigor desde 19.05.2026), as vias diretas por parentesco são:\n\n👶 Filho de cidadão português — tratado por requerimento/declaração no IRN/Conservatória; não é exigido conhecimento da língua.\n\n👦 Neto de cidadão português — nacionalidade por origem (art. 1(1)(d/e) Lei 37/81), tratada por requerimento no IRN mediante conhecimento suficiente da língua portuguesa (sufficient knowledge — normalmente comprovado por CIPLE A2, embora em alguns casos o IRN aceite outros meios de prova).\n\n🚫 NÃO existe categoria direta para bisnetos: primeiro, o progenitor/avô/avó deve obter a nacionalidade; depois, o requerente apresenta o pedido como filho/neto.\n\n🚫 A via sefardita foi totalmente revogada (desde 19.05.2026). Os pedidos pela via sefardita apresentados ANTES de 19.05.2026 podem ser apreciados segundo o regime anterior (LO 1/2024 — residência ≥ 3 anos + comissão).\n\n⚖️ Disposição transitória: aos pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026 aplicam-se as regras anteriores (incluindo a via sefardita ao abrigo da LO 1/2024).',
+  tldr: '🆕 Ao abrigo da nova Lei Orgânica n.º 1/2026 (publicada em 18.05.2026, em vigor desde 19.05.2026), as vias diretas por parentesco são:\n\n👶 Filho de cidadão português — tratado por requerimento/declaração no IRN/Conservatória; não é exigido conhecimento da língua.\n\n👦 Neto de cidadão português — nacionalidade por origem (art. 1(1)(d/e) Lei 37/81), tratada por requerimento no IRN mediante conhecimento suficiente da língua portuguesa (sufficient knowledge — normalmente comprovado por CIPLE A2, embora em alguns casos o IRN aceite outros meios de prova).\n\n🆗 Bisneto de português originário — EXISTE uma via separada de NATURALIZAÇÃO (art. 6.º n.º 8): bastam ≥ 5 anos de residência legal (dispensa-se o prazo de 7/10 anos) mais os restantes requisitos do art. 6.º n.º 1. Para graus mais distantes (trineto e seguintes) continua a não haver via direta — primeiro, a geração intermédia tem de obter a nacionalidade.\n\n🚫 A via sefardita foi totalmente revogada (desde 19.05.2026). Os pedidos pela via sefardita apresentados ANTES de 19.05.2026 podem ser apreciados segundo o regime anterior (LO 1/2024 — residência ≥ 3 anos + comissão).\n\n⚖️ Disposição transitória: aos pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026 aplicam-se as regras anteriores (incluindo a via sefardita ao abrigo da LO 1/2024).',
   tags: ['nacionalidade', 'parentesco', 'antepassados'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (em vigor desde 19.05.2026): para as vias por parentesco, mantêm-se as categorias diretas — filhos e netos de portugueses. A via sefardita foi totalmente revogada para novos pedidos (anteriormente funcionava no regime da LO 1/2024 — residência ≥ 3 anos + comissão). Os pedidos apresentados ANTES de 19.05.2026 são apreciados segundo as regras anteriores, incluindo a via sefardita.',
+  recentlyChangedAt: '2026-06-23',
+  changeSummary: 'Adicionada a via de naturalização para bisnetos de portugueses originários (art. 6.º n.º 8 da Lei Orgânica 1/2026): 5 anos de residência, dispensa do prazo de 7/10 anos.',
   steps: [
     {
       id: 'categories',
@@ -20,8 +20,8 @@ export default {
           { id: 'd2', title: 'Neto de cidadão português', content: [
             { kind: 'paragraph', text: 'Trata-se de nacionalidade por origem, mas NÃO é “automática”: é necessário apresentar uma declaração/requerimento no IRN ou numa Conservatória e cumprir as condições do art. 1.º da Lei da Nacionalidade.\n\nNa prática, a prova-chave da ligação à comunidade portuguesa é o conhecimento suficiente da língua portuguesa, normalmente nível A2 (CIPLE ou equivalente reconhecido/dispensa). Só “ligações culturais” normalmente não bastam. Também são verificados fundamentos de exclusão de natureza criminal/de segurança.' }
           ]},
-          { id: 'd3', title: 'Bisneto e gerações seguintes — NÃO há via direta', content: [
-            { kind: 'paragraph', text: 'Não existe categoria direta de “bisneto” na Lei 37/81. A sequência habitual é: primeiro, a geração intermédia (progenitor ou avô/avó) obtém a nacionalidade; depois, o requerente verifica se pode apresentar o pedido como filho ou neto de cidadão português. Se não for possível construir a cadeia — restam as vias comuns, sobretudo a naturalização após 5 anos de residência legal (ao abrigo da nova lei após a publicação do Decreto AR 48/XVII no DRE — 7 anos para CPLP/UE, 10 anos para os restantes).' }
+          { id: 'd3', title: 'Bisneto de português originário — via separada de naturalização (5 anos de residência)', content: [
+            { kind: 'paragraph', text: 'Ao abrigo da nova redação da Lei 37/81 (art. 6.º n.º 8, em vigor desde 19.05.2026), o bisneto — descendente em 3.º grau na linha reta de portugueses originários — pode obter a nacionalidade por naturalização com dispensa do prazo de 7/10 anos: bastam ≥ 5 anos de residência legal em Portugal, mais os restantes requisitos do art. 6.º n.º 1 (língua A2, teste de cultura/história, ausência de condenação acima do limiar, meios de subsistência). É uma via precisamente por naturalização (e não “por origem”, como para filhos e netos). Para graus de parentesco mais distantes (trineto e seguintes) não há via direta — é necessário primeiro obter a nacionalidade para a geração intermédia.' }
           ]}
         ]}
       ]
@@ -90,6 +90,6 @@ export default {
     { title: 'Arquivo Nacional Torre do Tombo', url: 'https://antt.dglab.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-06-23',
   verifyIntervalDays: 90
 }

@@ -3,11 +3,11 @@ export default {
   id: 'manifestacao-replacement',
   categoryId: 'residence_permit',
   title: 'Manifestação de Interesse (legalisation intention application) has been abolished — what to do instead',
-  tldr: 'Manifestação de Interesse (MdI) — the mechanism for applying for a residence permit from within Portugal without a visa — was wound down in two stages. 03.06.2024 — Decreto-Lei 37-A/2024 ended acceptance of new MdI applications. Lei 61/2025 entered into force on 23.10.2025 and definitively abolished the regime; 31.12.2025 is the deadline in the transitional period for those who had confirmation of submission before 03.06.2024. Now all third-country nationals who are not part of CPLP need a visa from a consulate BEFORE entry. Previously submitted cases are processed under the old rules.',
+  tldr: 'Manifestação de Interesse (MdI) — the mechanism for applying for a residence permit from within Portugal without a visa — was wound down in two stages. 03.06.2024 — Decreto-Lei 37-A/2024 ended acceptance of new MdI applications. Lei 61/2025 entered into force on 23.10.2025 and definitively abolished the regime; 31.12.2025 was the deadline for actions in the transitional period for those who had confirmation of submission before 03.06.2024 — that deadline has now passed. Now all third-country nationals who are not part of CPLP need a visa from a consulate BEFORE entry. Previously submitted cases are processed under the old rules.',
   tags: ['manifestação', 'aima', 'residence permit', 'changes'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2025-10-23',
-  changeSummary: 'Lei 61/2025 entered into force on 23.10.2025 and abolished the MdI regime. New applications had already stopped being accepted on 03.06.2024 under Decreto-Lei 37-A/2024. 31.12.2025 is the deadline for the transitional period. Cases submitted before 03.06.2024 are processed under the old rules.',
+  changeSummary: 'Lei 61/2025 entered into force on 23.10.2025 and abolished the MdI regime. New applications had already stopped being accepted on 03.06.2024 under Decreto-Lei 37-A/2024. 31.12.2025 was the deadline for the transitional period and has now passed. Cases submitted before 03.06.2024 are processed under the old rules.',
   steps: [
     {
       id: 'context',
@@ -18,9 +18,9 @@ export default {
         { kind: 'checklist', items: [
           '📅 03.06.2024 — Decreto-Lei 37-A/2024: AIMA stopped accepting new MdI applications. Applications submitted BEFORE this date remained in the processing queue',
           '📅 23.10.2025 — Lei 61/2025 entered into force: definitive abolition of the MdI regime in the new text of the law',
-          '📅 31.12.2025 — the final deadline for actions under the transitional regime for MdI processes already existing before 03.06.2024. If AIMA requested documents / payment / an appointment, failure to meet the requirements on time may lead to archiving or refusal'
+          '📅 31.12.2025 — the final deadline for actions under the transitional regime for MdI processes already existing before 03.06.2024; this deadline has now passed. If AIMA requested documents / payment / an appointment, failure to meet the requirements on time could lead to archiving or refusal'
         ]},
-        { kind: 'paragraph', text: 'After 03.06.2024, it is not possible to submit an MdI. After 31.12.2025, the transitional route is closed; the regime is legally dead. The reason: bringing Portugal into line with EU standards and reducing the accumulated application backlog.' }
+        { kind: 'paragraph', text: 'After 03.06.2024, it is not possible to submit an MdI. The 31.12.2025 deadline has now passed and the transitional route is closed; the regime is legally dead. The reason: bringing Portugal into line with EU standards and reducing the accumulated application backlog.' }
       ]
     },
     {
@@ -71,6 +71,6 @@ export default {
     { title: 'Decreto-Lei 37-A/2024 (DRE) — end of MdI acceptance on 03.06.2024', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-a-2024-864229054', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 23/2007 (consolidated) — grounds for residence permit', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-06-23',
   verifyIntervalDays: 60
 }

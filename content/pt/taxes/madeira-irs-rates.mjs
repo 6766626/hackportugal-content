@@ -3,7 +3,7 @@ export default {
   id: 'madeira-irs-rates',
   categoryId: 'taxes',
   title: 'IRS na Madeira: taxa fiscal separada para residentes da região autónoma',
-  tldr: 'Aos residentes fiscais da Madeira aplica-se uma tabela de IRS própria, e não a tabela do mainland Portugal. Em 2026, a Madeira tem taxas reduzidas: para o escalão inferior, a MCS indica 8,75% contra a referência do continente de 12,50%; contudo, a primeira taxa nacional de IRS em vigor para 2026 é 11,97%, pelo que deve confirmar o cálculo final no simulador da AT. Para rendimentos de capitais, a taxa especial padrão na Madeira é 19,6% em vez de 28%. A condição-chave é ter fiscal domicile na Madeira.',
+  tldr: 'Aos residentes fiscais da Madeira aplica-se uma tabela de IRS própria, e não a tabela do mainland Portugal. Em 2026, a Madeira tem taxas reduzidas: para o escalão inferior, a MCS indica 8,75% contra a primeira taxa de IRS do continente para 2026 de 11,97%, pelo que deve confirmar o cálculo final no simulador da AT. Para rendimentos de capitais, a taxa especial padrão na Madeira é 19,6% em vez de 28%. A condição-chave é ter fiscal domicile na Madeira.',
   tags: ['irs', 'madeira', 'impostos', 'finanças'],
   estimatedReadMinutes: 5,
   steps: [

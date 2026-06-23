@@ -15,7 +15,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'NHR (Non-Habitual Resident) — antigo regime de 2009–2023. Dava uma taxa de IRS de 20% sobre determinados rendimentos profissionais de elevado valor acrescentado em Portugal e benefícios para categorias de rendimentos estrangeiros, desde que fossem tributados no país de origem ou ao abrigo de uma convenção para evitar a dupla tributação. A taxa de 10% sobre pensões estrangeiras foi introduzida em 01.04.2020 (antes disso, as pensões eram frequentemente isentas de imposto).\n\nDesde 01.01.2024, o NHR está encerrado para novos requerentes, salvo casos transitórios do OE/2024.' },
         { kind: 'paragraph', text: 'IFICI — novo regime 2024+. Taxa de IRS de 20% sobre o rendimento líquido das categorias A (salário) e B (atividade independente/empresarial) proveniente de atividade qualificada em Portugal. Adicionalmente — isenção para determinadas categorias de rendimentos estrangeiros (A, B, E, F, G), desde que cumpridas as condições. NÃO se aplica a pensões. NÃO se aplica a rendimentos provenientes de jurisdições com regime fiscal claramente mais favorável sem convenção.' },
-        { kind: 'warning', text: 'Essencial: o IFICI exige uma «atividade qualificada» de uma lista restrita. Trabalhadores remotos independentes sem esse estatuto pagam IRS pela escala progressiva (12,5%–48% em 9 escalões para 2026).' }
+        { kind: 'warning', text: 'Essencial: o IFICI exige uma «atividade qualificada» de uma lista restrita. Trabalhadores remotos independentes sem esse estatuto pagam IRS pela escala progressiva (11,97%–48% em 9 escalões para 2026).' }
       ]
     },
     {
@@ -70,15 +70,15 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Paga o IRS normal pela escala progressiva (9 escalões, OE 2026 com indexação de +3,51% e redução das taxas nos 2.º–5.º escalões):' },
         { kind: 'checklist', items: [
-          'Até 8 342 €: 12,5%',
-          '8 342 € – 12 587 €: 15,7%',
-          '12 587 € – 17 838 €: 21,2%',
-          '17 838 € – 23 089 €: 24,1%',
-          '23 089 € – 29 397 €: 31,1%',
-          '29 397 € – 43 090 €: 34,9%',
-          '43 090 € – 46 566 €: 43,1%',
-          '46 566 € – 86 634 €: 44,6%',
-          'A partir de 86 634 €: 48%'
+          'Até 8 342 €: 11,97%',
+          '8 342 € – 12 587 €: 10,99%',
+          '12 587 € – 17 838 €: 14,84%',
+          '17 838 € – 23 089 €: 16,87%',
+          '23 089 € – 29 397 €: 21,77%',
+          '29 397 € – 41 952 €: 26,11%',
+          '41 952 € – 44 987 €: 29,76%',
+          '44 987 € – 81 199 €: 37,35%',
+          'A partir de 81 199 €: 48%'
         ]},
         { kind: 'paragraph', text: 'Para trabalhadores independentes (recibos verdes), pode aplicar-se o regime simplificado: 75% da faturação — matéria coletável. Mais contribuições para a Segurança Social de 21,4% sobre 70% do rendimento relevante (limite: 12 × IAS = 6 445,56 €).\n\nOs primeiros 12 meses para recém-registados — isenção total de contribuições.' }
       ]

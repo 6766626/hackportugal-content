@@ -15,7 +15,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'NHR (Non-Habitual Resident) — the old regime from 2009–2023. It provided a 20% IRS rate on a range of high-value-added professional income in Portugal and relief for categories of foreign income, provided it was taxed in the source country or under a double taxation treaty. A 10% rate on foreign pensions was introduced from 01.04.2020 (before that, pensions were often tax-exempt).\n\nFrom 01.01.2024, NHR is closed to new applicants, except for OE/2024 transitional cases.' },
         { kind: 'paragraph', text: 'IFICI — the new 2024+ regime. A 20% IRS rate on net income in categories A (salary) and B (business activity) from qualifying activity in Portugal. In addition — an exemption for certain categories of foreign income (A, B, E, F, G), subject to conditions. It does NOT apply to pensions. It does NOT apply to income from jurisdictions with a significantly more favourable tax regime without a treaty.' },
-        { kind: 'warning', text: 'Key point: IFICI requires “qualifying activity” from a narrow list. Independent remote workers without such status pay IRS on the progressive scale (12.5%–48% across 9 bands for 2026).' }
+        { kind: 'warning', text: 'Key point: IFICI requires “qualifying activity” from a narrow list. Independent remote workers without such status pay IRS on the progressive scale (11.97%–48% across 9 bands for 2026).' }
       ]
     },
     {
@@ -70,15 +70,15 @@ export default {
       content: [
         { kind: 'paragraph', text: 'Pay ordinary IRS on the progressive scale (9 bands, OE 2026 with +3.51% indexation and rate reductions in bands 2–5):' },
         { kind: 'checklist', items: [
-          'Up to €8,342: 12.5%',
-          '€8,342 – €12,587: 15.7%',
-          '€12,587 – €17,838: 21.2%',
-          '€17,838 – €23,089: 24.1%',
-          '€23,089 – €29,397: 31.1%',
-          '€29,397 – €43,090: 34.9%',
-          '€43,090 – €46,566: 43.1%',
-          '€46,566 – €86,634: 44.6%',
-          'Over €86,634: 48%'
+          'Up to €8,342: 11.97%',
+          '€8,342 – €12,587: 10.99%',
+          '€12,587 – €17,838: 14.84%',
+          '€17,838 – €23,089: 16.87%',
+          '€23,089 – €29,397: 21.77%',
+          '€29,397 – €41,952: 26.11%',
+          '€41,952 – €44,987: 29.76%',
+          '€44,987 – €81,199: 37.35%',
+          'Over €81,199: 48%'
         ]},
         { kind: 'paragraph', text: 'For sole traders (recibos verdes), the simplified regime may be available: 75% of turnover is the taxable base. Plus social security contributions of 21.4% on 70% of relevant income (limit: 12 × IAS = €6,445.56).\n\nThe first 12 months for newly registered people are fully exempt from contributions.' }
       ]

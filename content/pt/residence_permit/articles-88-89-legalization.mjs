@@ -6,6 +6,8 @@ export default {
   tldr: 'Os artigos 88 e 89 da Lei 23/2007 são regimes para obter autorização de residência para trabalho por conta de outrem (88) e para profissionais independentes/empresários (89).\n\n88.1 e 89.1 — via normal com visto: primeiro visto de residência consular (D1 para 88.1, D2 para 89.1) → pedido na AIMA.\n\n88.2 e 89.2 eram uma via excecional a partir de Portugal SEM visto (através da Manifestação de Interesse) — foram revogados: novos pedidos cessaram em 03.06.2024 (Decreto-Lei 37-A/2024), e a Lei 61/2025 (em vigor desde 23.10.2025) eliminou definitivamente o regime.\n\nIMPORTANTE: o art. 89 NÃO é uma via para investidores; as autorizações de residência por investimento são um artigo separado da Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
   tags: ['art 88', 'art 89', 'legalização', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
+  recentlyChangedAt: '2026-06-23',
+  changeSummary: 'Clarificado o item sobre reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): sem requisito de período de residência quando o agregado inclui filhos menores/incapazes; isenções para Golden Visa (art. 90-A), altamente qualificados/docentes/agentes culturais (art. 90) e Cartão Azul UE (art. 121-A); para cônjuges sem dependentes menores, requisito de tempo de residência do requerente principal mais coabitação prévia (~18 meses) e provas de alojamento e meios. Confirme os prazos exatos com a AIMA.',
   steps: [
     {
       id: 'context',
@@ -108,7 +110,7 @@ export default {
           'Primeira autorização de residência — normalmente 2 anos, renovação — 3 anos',
           'Após 5 anos de residência legal — direito a autorização de residência permanente',
           'Naturalização: 5 anos ao abrigo da lei em vigor; 03.05.2026 o Presidente Seguro promulgou o Decreto AR 48/XVII — após publicação em DRE serão 7 anos para CPLP+EU / 10 anos para os restantes',
-          'Reagrupamento Familiar após a Lei 61/2025 não é automaticamente “imediato para todos”: verifique as condições atuais dos arts. 98–99 da Lei 23/2007 (meios de subsistência/alojamento, categoria do familiar); em alguns casos pode aplicar-se um período de espera — confirme urgentemente com a AIMA'
+          'Reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): não há requisito de período de residência se o agregado incluir filhos menores/incapazes; estão também isentos os titulares de Golden Visa (art. 90-A), os altamente qualificados/docentes/agentes culturais (art. 90) e os titulares de Cartão Azul UE (art. 121-A). Para cônjuges sem dependentes menores aplica-se um requisito de tempo de residência do requerente principal mais prova de coabitação prévia (cerca de 18 meses). São obrigatórias provas de alojamento adequado e de meios de subsistência (sem contar prestações sociais). Confirme os prazos exatos com a AIMA — os detalhes regulamentares ainda estão a ser finalizados.'
         ]}
       ]
     }
@@ -120,6 +122,6 @@ export default {
     { title: 'AIMA — tipos de autorizações de residência', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Provedor de Justiça', url: 'https://www.provedor-jus.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-06-23',
   verifyIntervalDays: 90
 }

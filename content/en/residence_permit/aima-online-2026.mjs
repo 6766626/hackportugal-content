@@ -2,25 +2,27 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'aima-online-2026',
   categoryId: 'residence_permit',
-  title: 'Renewing a residence permit via the AIMA online portal',
-  tldr: 'From 1 January 2026, residence permit renewals are handled via portal-renovacoes.aima.gov.pt. No appointment is needed if all documents are in order. Submission is possible 30 days before the card expires, but ideally — 60–90 days before. The residence permit card arrives by post; while you wait, legal status is confirmed by the comprovativo de submissão. Under art. 78 of Lei 23/2007 (and AIMA guidance from 2025) this comprovativo serves as a temporary residence title and is renewed until the final decision and card issuance, so if you applied on time your stay does not become illegal because of an AIMA delay.',
+  title: 'Renewing a residence permit through the AIMA online portal',
+  tldr: 'In 2026, residence permit renewal should be started online, but the route depends on the expiry date and card type. Ordinary cards expired from 01.07.2025 onward are renewed through portal-renovacoes.aima.gov.pt. Older cards expired from 22.02.2020 to 30.06.2025 go through services.aima.gov.pt/RAR/reqrenew or the AIMA/EMAIMA email route; CPLP, ARI and EU family cards have separate rules. According to gov.pt, you can apply from 90 days before the card expires. For cards that expired after 30.06.2025, residence rights are maintained for 6 months after the expiry date; if during that time you have started renewal and hold a comprovativo/recibo, AIMA considers your stay legal until the process concludes — even after those 6 months. After the renewal request is registered and paid, AIMA issues a comprovativo valid for 180 days: carry it together with the expired card.',
   tags: ['aima', 'residence permit', 'renewal', 'online'],
-  estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-01-01',
-  changeSummary: 'Launch of portal-renovacoes.aima.gov.pt on 01.01.2026. Deadline for renewing residence permits expired by 30.06.2025 — 15.04.2026.',
+  estimatedReadMinutes: 10,
+  recentlyChangedAt: '2026-06-23',
+  changeSummary: 'Corrected the framing of the 6-month period (Decreto Regulamentar 84/2007 art. 63.º n.º 14) and added the post-15.04.2026 deadline situation per AIMA clarifications.',
   steps: [
     {
       id: 'which-portal',
-      title: 'Which portal for which card',
+      title: 'Choose the right route first',
       content: [
-        { kind: 'paragraph', text: 'In 2026, renewals go through several portals — it is important to choose the right one, otherwise the system “does not see” your process:' },
+        { kind: 'paragraph', text: 'In 2026, AIMA does not have one universal entry point for all renewals. If you choose the wrong portal, the process may not appear or may go into the wrong channel.' },
         { kind: 'checklist', items: [
-          '✅ portal-renovacoes.aima.gov.pt — cards expiring from 01.07.2025 to 30.06.2026 (main channel)',
-          '✅ portal-renovacoes.aima.gov.pt — ARI / Golden Visa, expiring from 22.02.2020 to 30.06.2026',
-          '⚠️ Cards that expired BEFORE 30.06.2025 — via the AIMA main services portal (old channel), not via renovações',
-          '❌ EU citizens do not use this portal. The initial CRUE (certificado de registo de cidadão da UE) is issued at the Câmara Municipal / Junta de Freguesia for the place of residence, usually for 5 years. After 5 years — a separate procedure to request the permanent residence document for an EU citizen'
+          '✅ Residence permit expired or expiring from 01.07.2025: main route is portal-renovacoes.aima.gov.pt',
+          '✅ Residence permit expired from 22.02.2020 to 30.06.2025: if you did not receive an AIMA/EMAIMA email, use services.aima.gov.pt/RAR/reqrenew; as of 23.06.2026 this is already urgent because the 15.04.2026 deadline has passed',
+          '✅ CPLP: separate procedure on services.aima.gov.pt/CPLP, not the ordinary portal-renovacoes flow',
+          '✅ ARI / Golden Visa: separate ARI flow in Portal das Renovacoes, available from 16.02.2026 according to AIMA',
+          '✅ Long-term resident: AIMA opened renewal in Portal das Renovacoes, but check your NISS and address first',
+          '❌ First card after a D visa, first residence permit, EU citizen CRUE and residence cards for family members of EU citizens are not ordinary renewals through this portal'
         ]},
-        { kind: 'warning', text: 'Do not confuse portal-renovacoes.aima.gov.pt with the general portal.aima.gov.pt (single account). The renewal form is specifically in renovações.' }
+        { kind: 'warning', text: 'If your name, address, NIF, passport, NISS or other data changed, first submit an update through the AIMA contact form with the subject Alteracao de Dados. AIMA separately states that personal data changes are not handled as an ordinary renewal request.' }
       ]
     },
     {
@@ -28,211 +30,206 @@ export default {
       title: 'When to apply',
       content: [
         { kind: 'checklist', items: [
-          '🗓️ Officially — from 30 days before the residence permit expires',
-          '✅ Recommendation: 60–90 days before expiry (less stress, more time to correct errors)',
-          '⚠️ Less than 30 days before — the portal may accept it, but there is no guarantee it will be processed before expiry',
-          '⏰ If the residence permit has already expired: apply immediately. Formally, the fine is €75–€300 (art. 192 Lei 23/2007), but in 2025–2026 it is practically not applied for online renewals',
-          '🛡️ If AIMA has not processed your request on time — you remain in legal status on the basis of the comprovativo (art. 78 Lei 23/2007 + AIMA guidance)'
+          '🗓️ According to gov.pt, you can apply from 90 days before the card expires; temporary residence renewal should be requested no later than 30 days before expiry',
+          '✅ In practice: start checking the portal 90 days before expiry and apply as soon as AIMA opens your date/category',
+          '⚠️ Cards that expired after 30.06.2025: under Decreto Regulamentar 84/2007, art. 63.º n.º 14, residence rights are maintained for 6 months after the expiry date. If during that time you have started renewal and hold a comprovativo/recibo, AIMA considers your stay legal until the process concludes — even after those 6 months.',
+          '⚠️ If the card expired before 30.06.2025 and you did not start renewal by 15.04.2026, do not wait: submit the request through services.aima.gov.pt/RAR/reqrenew and discuss the case with an advogado or CLAIM',
+          '🧾 After registration of the request and payment, AIMA issues a comprovativo valid for 180 days. It proves the process, but it is not a full residence card for Schengen travel'
         ]},
-        { kind: 'warning', text: 'All residence permits with an expiry date before 30.06.2025 must be renewed by 15 April 2026. After this date, the status is considered invalid; restoration is through a complex procedure with a lawyer.' }
+        { kind: 'warning', text: 'Do not rely on old automatic extensions. AIMA explicitly announced the end of automatic extensions and links legal status to having started the renewal process.' }
       ]
     },
     {
       id: 'prerequisites',
-      title: 'What to check before applying',
+      title: 'What to check before starting',
       content: [
         { kind: 'checklist', items: [
-          '🔐 Chave Móvel Digital is activated with the signature function (not only authentication). Check on autenticacao.gov.pt',
-          '📱 Current Portuguese phone number in CMD (not a foreign one) — SMS codes are sent to it',
-          '📄 Passport is valid for ≥ 3 months after the planned date of receiving the new residence permit card',
-          '🏠 Address matches: in AIMA, Finanças, NISS and in the Atestado de Residência (if you plan to attach it)',
-          '💼 If you have employment/self-employment, or your residence permit category involves a Segurança Social check — check your NISS and that there are no debts. For categories with no obligation to pay contributions (for example, pensioners, family members without activity), the absence of payments is not in itself a “debt”',
-          '💸 For applicable categories, prepare the certidão de não dívida Finanças and comprovativo de situação contributiva Segurança Social',
-          '📷 Biometrics — if 5+ years have passed since the previous appointment, they may require an in-person visit for new biometrics (rare, but it happens)'
+          '📧 Access to the email you give AIMA: password, payment information and notifications arrive there; check Spam',
+          '🪪 Your valid/expired residence card number, NIF, date of birth and passport should match AIMA records',
+          '🏠 Morada should be current: the new card is sent to the address in the process/AIMA',
+          '🔢 NISS is needed for successful validation; if you have NISS but AIMA does not see it, update your data through the contact form',
+          '💸 Before applying, check that you have no debts with Financas and Seguranca Social; if portal validation takes too long, fresh certidoes help',
+          '🔐 Chave Movel Digital is not the only login method for Portal das Renovacoes, but it is useful for certificates, criminal record certificate and other public services',
+          '📄 Prepare colour PDF/JPG files, readable and not cropped; the document list in the portal is more important than any generic checklist'
         ]}
       ]
     },
     {
       id: 'how-to',
-      title: 'Step-by-step application',
+      title: 'Step-by-step through portal-renovacoes',
       content: [
         { kind: 'substeps', items: [
-          { id: 's1', title: '1. Log in to portal-renovacoes.aima.gov.pt', content: [
-            { kind: 'paragraph', text: 'Authentication is via Chave Móvel Digital (state electronic signature). For Portuguese citizens — via Cartão de Cidadão (Portuguese citizen identity card).\n\nImportant: this is a separate portal, not portal.aima.gov.pt (general account) — the link is specifically to renovações.' }
+          { id: 's1', title: '1. Register or log in', content: [
+            { kind: 'paragraph', text: 'Open portal-renovacoes.aima.gov.pt and create access using the card/document data. AIMA describes the process as registration in the portal: the password is sent to the email address you provide.' },
+            { kind: 'warning', text: 'Do not confuse Portal das Renovacoes with the general AIMA Services Portal. The general portal is for other services; ordinary renewals after 01.07.2025 go through renovações.' }
           ]},
-          { id: 's2', title: '2. Select the residence permit type', content: [
-            { kind: 'paragraph', text: 'The system will suggest the type from your current residence permit (picked up automatically). Check it — if the type is wrong, your process may still be in the old SEF database and a separate email request to the regional delegation is needed.' }
-          ]},
-          { id: 's3', title: '3. Upload scans', content: [
+          { id: 's2', title: '2. Wait for automatic checks', content: [
+            { kind: 'paragraph', text: 'After registration, the system runs checks, including tax and social security status. According to the practical guide in Downloads, this can take several days, so do not leave the process until the last week.' },
             { kind: 'checklist', items: [
-              'Passport — all completed pages, good-quality JPG/PDF',
-              'Current residence permit card (both sides)',
-              'Atestado de Residência (recent, not older than 3 months) from the Junta de Freguesia (local parish authority) OR a rental contract registered with Finanças OR a utility bill in your name',
-              'Portuguese criminal record: depending on the procedure, AIMA may request autorização para consulta do registo criminal português or certificado do registo criminal. The online certificate on ePortugal usually costs €5 and is valid for 3 months',
-              'For D7/D8 — proof of income: bank statement for 3 months, employment contract/client contract, pension documents',
-              'For Reagrupamento Familiar — marriage certificate/children’s birth certificates',
-              'Proof of NISS + no debts (Segurança Social Direta → Comprovativo de situação contributiva)',
-              'Finanças confirmation — certidão de não dívida (free in Portal das Finanças)',
-              'Proof of health insurance or SNS user number (if required for your residence permit type)'
+              'Financas: certidao de nao divida',
+              'Seguranca Social: comprovativo de situacao contributiva / regularidade',
+              'If the portal is stuck on validation, save screenshots and the attempt date'
+            ]}
+          ]},
+          { id: 's3', title: '3. Create Novo Pedido', content: [
+            { kind: 'paragraph', text: 'When validations pass, click Novo Pedido and choose Renovacao de Autorizacao de Residencia. The comment can usually be left empty unless the portal asks for an explanation.' },
+            { kind: 'warning', text: 'If the system shows the wrong category, old address, wrong NISS or does not let you start, do not submit blindly. First update the data through the AIMA contact form and keep the proof of that request.' }
+          ]},
+          { id: 's4', title: '4. Pay the DUC/Multibanco', content: [
+            { kind: 'paragraph', text: 'After a successful request, the portal creates the payment document. AIMA says payment is only possible 24 hours after the guias are issued. In user cases, the payment deadline often appeared as 10 days, but follow the deadline shown in your account.' },
+            { kind: 'warning', text: 'The amount depends on category, digital channel, age, exemptions and card type. Do not use old amounts from chats: pay exactly what the DUC/payment page says.' }
+          ]},
+          { id: 's5', title: '5. Upload documents', content: [
+            { kind: 'paragraph', text: 'According to the practical guide and community cases, document upload opens after payment; often the portal gives 10 days. If your portal shows a different deadline, trust the portal. Do not wait only for an email: check the account manually.' },
+            { kind: 'checklist', items: [
+              'Residence permit card — both sides',
+              'Passport — data page and stamp/visa pages if requested by the portal',
+              'Comprovativo de condicoes de alojamento: rental contract, domicilio fiscal, recibos de renda, atestado de residencia or another document from your list',
+              'Comprovativo de meios de subsistencia: employment contract, recibos verdes/faturas, IRS, bank statements, pension or documents matching your article',
+              'Certidao de nao divida Financas',
+              'Comprovativo de situacao contributiva / regularidade Seguranca Social, if applicable',
+              'Comprovativo de sistema de saude: SNS user number or insurance, if applicable',
+              'Requerimento Inicial / Modelo 1, if requested; for renewal choose Renovacao de A.R. TEMPORARIA/PERMANENTE and indicate the article of your permit',
+              'Autorizacao para consulta do registo criminal portugues or certificado do registo criminal — whichever your screen asks for'
             ]},
-            { kind: 'paragraph', text: 'In practice: file size limit — 5 MB per document. If it does not fit — compress it in ilovepdf.com or an equivalent. All scans — colour, not photos, readable.' }
-          ]},
-          { id: 's4', title: '4. Pay the fee', content: [
-            { kind: 'paragraph', text: 'The portal generates a Multibanco link (DUC — Documento Único de Cobrança) or provides card payment.\n\nFrom 01.03.2026, the new AIMA fee table applies (+33% compared with the old one): receipt + analysis €133, issue/renewal of residence permit (art. 75) ~€307.20, permanent residence permit (art. 76) ~€351.10, 2nd copy of the card — 50% of the issue cost. Payment is confirmed within 1–3 hours, but sometimes up to a day.' },
-            { kind: 'warning', text: 'If the amount paid is incomplete (a typical error — less arrived because of the exchange rate): pay the difference USING THE SAME DUC, but through a DIFFERENT bank (not the one from which you made the first payment).\n\nAvoid top-ups via CTT or Payshop — they are often not picked up. You cannot create a new DUC for the top-up.' }
-          ]},
-          { id: 's5', title: '5. Sign via CMD', content: [
-            { kind: 'paragraph', text: 'The final step is the electronic signature of the application via Chave Móvel Digital. You will receive an SMS code or a push notification in the Autenticação.gov app.' }
+            { kind: 'warning', text: 'The document list is personal. D7, D8, art. 88/89/90, student, family reunification and minors have different sets; a generic checklist does not replace your process screen.' }
           ]},
           { id: 's6', title: '6. Save the comprovativo', content: [
-            { kind: 'paragraph', text: 'After submission, the portal issues a comprovativo de submissão as a PDF. This is an IMPORTANT document for matters in Portugal. Save it everywhere: cloud, email, printout.\n\nIn Portugal, banks, schools, SNS and employers accept it as proof that the application has been submitted.' },
-            { kind: 'warning', text: 'Comprovativo de submissão is NOT a replacement for the residence permit card for travel and NOT a guaranteed travel document. Airlines and border officers of other Schengen countries are not obliged to accept it instead of a valid residence permit card. If the old card has expired and the new one has not yet arrived — there is a risk of denied boarding/entry. Before travelling, it is better to consult the Portuguese consulate in the transit country.' }
-          ]},
-          { id: 's7', title: '7. Wait for the decision', content: [
-            { kind: 'timeline', text: 'Standard — 30–90 days. Legal maximum — up to 120 days. Lei 61/2025 (in force 23.10.2025) established a general AIMA decision deadline of 9 months for residence permit applications (extendable only in exceptional cases). The EU Single Permit Directive (Directive (EU) 2024/1233) sets a 90-day decision period (+30 days in particularly complex cases); its transposition deadline was 21.05.2026 and it applies from 22.05.2026, but as of that date Portugal had not yet transposed it, so check the exact deadlines and how they apply to specific applications against current official sources. Notification arrives by email + in the personal account. Statuses: “Em análise”, “Notificado para entrevista”, “Aprovado”, “Indeferido”.' }
-          ]},
-          { id: 's7a', title: '7a. Comprovativo de Deferimento — confirmation of a positive decision', content: [
-            { kind: 'paragraph', text: 'As soon as the process is approved, a “Comprovativo de Deferimento” button appears in the personal account — a PDF with a QR code to verify authenticity. This is a document confirming AIMA’s POSITIVE decision until the physical card arrives.' },
+            { kind: 'paragraph', text: 'After the renewal request is registered and paid, AIMA issues a recibo/comprovativo de pedido de renovacao. According to the AIMA announcement of 15.10.2025, it is valid for 180 days.' },
             { kind: 'checklist', items: [
-              '🪪 In Portugal — banks, schools, SNS and employers usually accept it as proof of approved status',
-              '⚠️ ✈️ Airlines and border officers of other Schengen countries are NOT obliged to accept it instead of a valid physical residence permit card. The QR code helps verify the decision within Portugal itself, but does not make the PDF a standard travel document/Schengen residence permit',
-              '📱 Save the PDF in the cloud and on your phone — for matters in Portugal',
-              '🛂 If you plan to travel before receiving the card — discuss it with the Portuguese consulate/AIMA, or wait for the physical card'
+              'Save the PDF to cloud storage, phone and email',
+              'Carry the expired residence card together with the comprovativo',
+              'For banks, SNS, school and employers in Portugal, this is usually the key waiting-period document',
+              'For travel outside Portugal, it is not equivalent to a valid residence card; an airline or another Schengen country may refuse the PDF'
             ]}
+          ]},
+          { id: 's7', title: '7. Watch status and email', content: [
+            { kind: 'paragraph', text: 'After payment, AIMA starts analysis. In community cases, once documents are checked, green marks appear, then a status such as concluido/deferido and an email. If AIMA asks for extra documents, the response deadline is usually short, so do not miss the notice.' },
+            { kind: 'timeline', text: 'Real timelines vary widely: from a few weeks to several months. If there is no movement after 90 days, start a written trail: AIMA contact form, regional email, Livro Amarelo/Provedor de Justiça; for a long delay, discuss an administrative procedure against inaction with an advogado.' }
           ]},
           { id: 's8', title: '8. Receive the card', content: [
-            { kind: 'paragraph', text: 'The new plastic residence permit card arrives by CTT registered post to the address stated in the application. If you have not received it 30 days after the “Aprovado” status — write to the AIMA regional delegation.' },
-            { kind: 'paragraph', text: 'The CTT tracking number is NOT shown in the AIMA personal account after approval — you have to find it out only by calling the regional delegation. It is better to call 2 weeks after the “Aprovado” status.' }
+            { kind: 'paragraph', text: 'After deferimento, the card is usually sent by CTT to the current address. That is why the AIMA address matters. If the card does not arrive after approval, record the deferimento date, check the mailbox/CTT notice and contact AIMA.' }
           ]}
         ]}
       ]
     },
     {
-      id: 'practical-tips',
-      title: 'Practical tips (community experience)',
+      id: 'old-expired',
+      title: 'If the card expired before 30.06.2025',
       content: [
+        { kind: 'paragraph', text: 'This is no longer the ordinary portal-renovacoes scenario. AIMA separates old expired cards from cards after 01.07.2025: old cases are handled by Estrutura de Missao / services.aima.gov.pt, while AIMA handles renewals after 01.07.2025.' },
         { kind: 'checklist', items: [
-          '🖥️ Apply from a computer in Chrome — file upload failures happen on mobile',
-          '⏰ Do not apply at 08:00 / 09:00 on Monday morning — the portal is overloaded and the chance of technical errors is higher. Best times — Tue–Thu, 14:00–17:00',
-          '📸 If the process is “stuck” on one screen — take a screenshot, do NOT close the tab, wait 2 minutes',
-          '🚫 Do not try to apply again if the first attempt “froze” — check in the personal account after 24 hours; often the application was still sent',
-          '📋 Atestado de Residência (local parish authority) is sometimes issued without witnesses — check with your Junta. A utility bill or rental contract is often sufficient as an alternative',
-          '📷 Passport photos in the scans are not needed — AIMA uses biometrics from the previous appointment or calls you for new ones if necessary',
-          '🧾 Order the certidão de não dívida from Finanças and Segurança Social in advance — their generation may take 1–2 days',
-          '⚡ For a residence permit under D7/D8 — the bank statement must show STABLE income (not a one-off receipt of a large sum just before applying)',
-          '👨‍👩‍👦 For Reagrupamento Familiar: children under 16 — attached automatically; teenagers 16–18 apply separately for their own renewal'
+          'If you received an email from renovacao.ar@aima.gov.pt, follow the link in the email and keep all confirmations',
+          'If no email arrived, AIMA points to services.aima.gov.pt/RAR/reqrenew for cards expired from 22.02.2020 to 30.06.2025',
+          'After the request, you should be contacted by email for confirmation, payment, possible atendimento presencial/biometrics and document upload',
+          'AIMA stated that the recibo comprovativo should be made available up to 10 business days after payment confirmation',
+          'CPLP, ARI and EU/family cards are not covered by this RAR service'
         ]},
-        { kind: 'warning', text: 'If there is an error in your data in the AIMA database (for example, incorrect transliteration of the name, incorrect address from the old SEF process) — submission via the portal is often blocked. The solution — an email to the regional delegation requesting correction of the data, then submission.' }
+        { kind: 'warning', text: 'As of 23.06.2026, the 15.04.2026 deadline has already passed. The government did not introduce a new general extension after 15.04.2026. According to AIMA, holders of cards that expired before 30.06.2025 who never started renewal are now considered irregular; only a registered portal process with a comprovativo protects you. If you have not yet applied, submit urgently through services.aima.gov.pt/RAR/reqrenew and consult an advogado/CLAIM.' }
       ]
     },
     {
-      id: 'if-rejected',
-      title: 'Refusal or request for additional documents',
+      id: 'documents-details',
+      title: 'Documents people often confuse',
       content: [
-        { kind: 'paragraph', text: 'If after submission you receive a letter requesting additional documents (Notificação para aperfeiçoamento):' },
-        { kind: 'checklist', items: [
-          '📬 Deadline to reply — 10 working days from the date of notification',
-          '💻 Additions must be uploaded through the same portal-renovacoes, the “Processos em curso” tab',
-          '📧 If the deadline is not enough — you can request an extension by email from the regional delegation',
-          '🚫 Missing the deadline = automatic refusal (indeferimento por falta de elementos)'
-        ]},
-        { kind: 'paragraph', text: 'In the event of final refusal (Indeferimento):' },
-        { kind: 'checklist', items: [
-          '⚖️ Appeal deadlines depend on the type of notification and act. Often 10 working days for audiência prévia/aperfeiçoamento or 30 days for reclamação/recurso administrativo; for judicial impugnação the deadline is usually longer (often up to 3 months under CPTA). In case of indeferimento, show the letter to a lawyer immediately',
-          '🧑‍💼 We recommend hiring a lawyer with immigration practice — the chance of reconsideration is higher',
-          '🏛️ In parallel — a complaint to Provedor de Justiça (ombudsman), especially if the refusal is formal',
-          '⏰ While the appeal is ongoing — your status is usually preserved by the comprovativo'
-        ]}
-      ]
-    },
-    {
-      id: 'if-delayed',
-      title: 'AIMA has delayed the process — what to do',
-      content: [
-        { kind: 'paragraph', text: 'The standard deadline is 30–90 days. If 90 days have passed without a response — it is time to be proactive. Legal maximum — 120 days; after that AIMA is breaching the procedural deadline.' },
-        { kind: 'checklist', items: [
-          '🛡️ You remain in legal status while you hold a valid comprovativo — it serves as a temporary title and is renewed until the decision (art. 78 Lei 23/2007 + AIMA guidance)',
-          '📧 90+ days — email the AIMA regional delegation (see the guide “How to contact AIMA”) with the processo number and submission date',
-          '🏛️ 120+ days — complaint to Provedor de Justiça at provedor-jus.pt (it really can speed things up; AIMA is obliged to answer the ombudsman)',
-          '⚖️ 180+ days — discuss an administrative claim against AIMA’s inaction with an advogado. The type of procedure depends on the case (for example, intimação para a prática de ato devido); the court may oblige AIMA to act, but the specific deadline and outcome are not guaranteed. Intimação para prestação de informações is suitable only when you need to obtain information/copies of documents, and NOT to force AIMA to make a decision on a residence permit',
-          '✈️ For trips abroad — comprovativo + valid (NOT expired) old residence permit card + passport may help explain the situation, but do NOT guarantee boarding or entry. It is legally safer to wait for the new card. Before travelling, check the requirements of the carrier and the transit/entry country'
-        ]}
-      ]
-    },
-    {
-      id: 'special-cases',
-      title: 'Special cases — not through the main portal',
-      content: [
-        { kind: 'paragraph', text: 'Some categories require a separate procedure, not via portal-renovacoes:' },
         { kind: 'substeps', items: [
-          { id: 'sp1', title: 'Students continuing studies + work (art. 122.j Lei 23/2007)', content: [
-            { kind: 'checklist', items: [
-              'Submission via the AIMA contact form (not via renovações)',
-              'Request for a biometrics slot — only via lista de espera',
-              'Documents: passport, old residence permit, IRS tax return, employment contract, NISS, certidão de não dívida',
-              'Slot waiting time — 2–6 months'
-            ]}
+          { id: 'doc1', title: 'Housing', content: [
+            { kind: 'paragraph', text: 'Housing proof may be a contrato de arrendamento, recibos de renda, domicilio fiscal, atestado de residencia, owner declaration or property documents. Upload the exact type requested by the portal.' }
           ]},
-          { id: 'sp2', title: 'Professional courses (art. 92)', content: [
-            { kind: 'checklist', items: [
-              'Register in lista de espera via the form on the AIMA website',
-              'Documents: copy of passport, proof of course enrolment (IEFP / certified centre), payment receipt',
-              'Later AIMA schedules an in-person appointment — wait for the email call',
-              'Personal attendance is mandatory (not online)'
-            ]}
+          { id: 'doc2', title: 'Income', content: [
+            { kind: 'paragraph', text: 'For employment, people usually prepare contrato de trabalho, payslips and IRS/declaration. For independente: atividade aberta, recibos verdes/faturas, IRS and bank statement. For D7: pension, passive income and account movement. AIMA wants the income to be understandable, regular and connected to your article.' }
           ]},
-          { id: 'sp3', title: 'ARI / Golden Visa', content: [
-            { kind: 'paragraph', text: 'Renewal is possible via portal-renovacoes for ARI expired from 22.02.2020 to 30.06.2026. Minimum physical presence for ARI: 7 days in the first year and 14 days in each subsequent two-year period of validity of the permit (if the standard ARI rules apply; confirmed by stamps or comprovativo de alojamento).' }
+          { id: 'doc3', title: 'Registo criminal', content: [
+            { kind: 'paragraph', text: 'Justiça.gov.pt explicitly says foreign citizens requesting or renewing residence in Portugal can authorize AIMA to access the Portuguese criminal record instead of going to a counter for the certificate. But if your screen asks for a certificado, it can be requested online; the price is 5 €, and online issuance can take up to 3 business days.' }
           ]},
-          { id: 'sp4', title: 'CRUE for EU citizens', content: [
-            { kind: 'paragraph', text: 'CRUE for EU citizens is issued through the Câmara Municipal / Junta de Freguesia and is NOT renewed through the AIMA portal for residence permits of third-country nationals. After 5 years, a permanent residence document is usually issued under a separate procedure. Cartão de residência de familiar de cidadão da UE (for third-country family members of EU citizens) — this is a separate document with a different procedure, not CRUE.' }
+          { id: 'doc4', title: 'Modelo 1 / Requerimento Inicial', content: [
+            { kind: 'paragraph', text: 'The practical PDF in Downloads explains Modelo 1 separately. If the portal asks for Requerimento Inicial, fill in your personal data, mark Renovacao de A.R. TEMPORARIA/PERMANENTE and indicate the Lei 23/2007 article under which your current permit was issued.' }
+          ]},
+          { id: 'doc5', title: 'Minors and family', content: [
+            { kind: 'paragraph', text: 'Children and family reunification often have additional documents: certificates, parental consents, main applicant documents and proof of family relationship. Do not copy an adult D7/D8 list to a child without checking the screen.' }
           ]}
         ]}
       ]
     },
     {
-      id: 'first-card',
-      title: 'The first card after a D visa is NOT a renewal',
+      id: 'costs-2026',
+      title: 'AIMA fees in 2026',
       content: [
-        { kind: 'warning', text: 'This article is about renewing an already issued plastic residence permit card. If you only have a D visa and do not yet have a card, this is a primeira concessão / emissão inicial procedure — usually through an AIMA appointment/slot, not through portal-renovacoes. The renovações portal applies to already existing títulos de residência (if AIMA has opened the relevant category).' },
-        { kind: 'paragraph', text: 'What AIMA will check when issuing the first card after a D visa:' },
+        { kind: 'paragraph', text: 'The current AIMA table under Portaria 307/2023 shows two columns: standard fee and reduced digital-channel fee. Portal das Renovacoes calculates the exact amount itself; the figures below are reference points for checking the DUC, not a substitute for the payment document.' },
         { kind: 'checklist', items: [
-          '📄 Match between the D visa and the current situation (D7 → passive income; D8 → remote work; etc.)',
-          '💰 Proof of income FOR THE ENTIRE PERIOD since entry (complete bank statement)',
-          '🏠 Atestado de Residência — recent (not older than 2 months)',
-          '📝 If there was a condition in the D visa (for example, “open a bank account within 90 days”) — attach proof of fulfilment',
-          '⏰ Timeframe for issuing the first card — usually longer than a standard renewal'
+          'Rececao e Analise for renewal of AR temporaria/permanente: 133.00 €; digital channel 99.80 €',
+          'Art. 75(1) Concessao ou Renovacao AR Temporaria: 114.30 €; digital channel 85.80 €',
+          'Art. 76(2) Renovacao/Alteracao de Dados AR Permanente: 61.90 €; digital channel 46.30 €',
+          'Art. 90-A(2) Renovacao ARI: 4,210.30 €; digital channel 3,157.80 €',
+          'Second copy of the card: usually 50% of the relevant taxa de emissao'
+        ]},
+        { kind: 'warning', text: 'The 307.20 € line in the table refers to Apreciacao do Pedido for dispensa de visto consular under specific articles, not to standard art. 75 renewal. Do not use it as a universal amount for ordinary renewal.' }
+      ]
+    },
+    {
+      id: 'if-rejected-or-delayed',
+      title: 'If the request is stuck or refused',
+      content: [
+        { kind: 'paragraph', text: 'First separate a technical portal delay from a procedural AIMA request. Technical delay means no button, validation not passed or payment not active. Procedural request means AIMA has already asked for a document, correction or appointment.' },
+        { kind: 'checklist', items: [
+          'Save screenshots, emails, DUC, payment proof and process number',
+          'If Financas/Seguranca Social validation is stuck, attach fresh certidoes in the AIMA request',
+          'If you receive pedido de elementos / aperfeicoamento, answer within the deadline in the email; it is usually short',
+          'If you receive indeferimento, do not argue in chats: show the letter to an advogado, because deadlines for audiencia previa/reclamacao/recurso depend on the type of act',
+          'If the 180-day comprovativo is expiring and there is still no decision, write to AIMA in advance and keep proof that you tried to renew/clarify status'
+        ]},
+        { kind: 'warning', text: 'The comprovativo helps prove that the process was started, but it does not make an expired card a full travel document. Travel risk remains until the physical card arrives.' }
+      ]
+    },
+    {
+      id: 'not-renewal',
+      title: 'What is not an ordinary renewal',
+      content: [
+        { kind: 'checklist', items: [
+          'First card after a D visa: primeira concessao / emissao inicial through AIMA, not renewal',
+          'CRUE for EU citizens: handled under EU citizen rules, not through portal-renovacoes',
+          'Cartao de residencia para familiar de cidadao da UE: separate AIMA procedure',
+          'CPLP: separate services.aima.gov.pt/CPLP channel and often biometrics/appointment',
+          'First switch to permanent residence: not the same as renewing a temporary permit; check the separate permanent residence guide',
+          'Students who did not finish studies and are working under art. 122(j), and some highly qualified/student-without-visa cases, have separate contact-form routes published by AIMA'
         ]}
       ]
     }
   ],
   documents: [
-    { title: 'Chave Móvel Digital', note: 'mandatory with signature function' },
-    { title: 'Passport', note: 'valid for ≥ 3 months' },
-    { title: 'Current residence permit / D visa', note: 'both sides, scan' },
-    { title: 'Atestado de Residência', note: 'not older than 3 months, from Junta de Freguesia' },
-    { title: 'Certidão do registo criminal PT', note: 'usually €5 on ePortugal; sometimes AIMA requests not the certificate, but authorização for the check' },
-    { title: 'Comprovativo de situação contributiva (NISS)', note: 'free in Segurança Social Direta' },
-    { title: 'Certidão de não dívida Finanças', note: 'free in Portal das Finanças' },
-    { title: 'Proof of income (D7/D8)', note: 'bank statement for 3 months' },
-    { title: 'Health insurance / SNS user number', note: 'if required' }
+    { title: 'Residence permit card', note: 'both sides, even if already expired' },
+    { title: 'Passport', note: 'data page; additional pages if the portal asks' },
+    { title: 'Comprovativo de alojamento', note: 'contract, receipts, domicilio fiscal, atestado or another document from your list' },
+    { title: 'Comprovativo de meios de subsistencia', note: 'salary, recibos verdes, IRS, pension, bank statements — according to your article' },
+    { title: 'Certidao de nao divida Financas', note: 'useful to prepare in advance' },
+    { title: 'Comprovativo de situacao contributiva Seguranca Social', note: 'if applicable; check NISS' },
+    { title: 'SNS / health insurance', note: 'if required by your category' },
+    { title: 'Modelo 1 / Requerimento Inicial', note: 'if requested; indicate renewal and the Lei 23/2007 article' },
+    { title: 'Autorizacao para consulta do registo criminal or certificate', note: 'depends on what the screen asks for' }
   ],
   costs: [
-    { label: 'AIMA — receipt + analysis', amountEUR: 133, note: 'fees 01.03.2026' },
-    { label: 'AIMA — issue/renewal (art. 75)', amountEUR: 307.20, note: 'fees 01.03.2026' },
-    { label: 'AIMA — permanent residence permit (art. 76)', amountEUR: 351.10, note: 'fees 01.03.2026' },
-    { label: '2nd copy of the card (art. 75)', amountEUR: 153.60, note: '50% of the corresponding taxa emissão/concessão; for a permanent card the amount differs' },
-    { label: 'Fine for late renewal (rarely applied)', amountEURMin: 75, amountEURMax: 300 }
+    { label: 'Rececao e Analise — AR renewal', amountEUR: 133, note: 'digital channel: 99.80 €' },
+    { label: 'Art. 75(1) — renovacao AR temporaria', amountEUR: 114.30, note: 'digital channel: 85.80 €' },
+    { label: 'Art. 76(2) — renovacao/alteracao AR permanente', amountEUR: 61.90, note: 'digital channel: 46.30 €' },
+    { label: 'Art. 90-A(2) — renovacao ARI', amountEUR: 4210.30, note: 'digital channel: 3,157.80 €' },
+    { label: 'Online criminal record certificate', amountEUR: 5 },
+    { label: 'Late renewal fine/risk', amountEURMin: 75, amountEURMax: 300, note: 'depends on the case; not a substitute for advice' }
   ],
   timelineDaysMin: 30,
-  timelineDaysMax: 120,
+  timelineDaysMax: 180,
   sources: [
-    { title: 'AIMA — Portal de Renovações', url: 'https://portal-renovacoes.aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — official website', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Decreto-Lei 41/2023 — creation of AIMA (successor to SEF/ACM)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'Lei 23/2007 — entry and stay regime (art. 78 — renewal and validity of the comprovativo)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'ePortugal — Renew Residence Permit', url: 'https://www.gov.pt/servicos/renovar-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'gov.pt — Renovar a autorização de residência', url: 'https://www.gov.pt/servicos/renovar-a-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Portal das Renovações já está disponível', url: 'https://aima.gov.pt/pt/noticias/o-portal-das-renovacoes-ja-esta-disponivel', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Portal de Renovações: Autorizações de Residência', url: 'https://aima.gov.pt/pt/noticias/portal-de-renovacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Fim das Prorrogações Automáticas', url: 'https://aima.gov.pt/pt/noticias/asfn', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Esclarecimento: Direito de Residência', url: 'https://aima.gov.pt/pt/noticias/direito-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — AR expirada entre 22.02.2020 e 30.06.2025', url: 'https://aima.gov.pt/pt/noticias/dskhf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — services.aima.gov.pt para renovações antigas', url: 'https://aima.gov.pt/pt/noticias/services-aima-gov-pt-novo-servico-para-renovacao-de-autorizacoes-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Renovação do Título de Residente de Longa Duração', url: 'https://aima.gov.pt/pt/noticias/renovacao-do-titulo-de-residente-de-longa-duracao', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Tabela de Taxas', url: 'https://aima.gov.pt/documents/tabela-de-taxas-e-demais-encargos-a-cobrar-pelos-procedimentos-administrativos.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'Justiça.gov.pt — Registo criminal de pessoas', url: 'https://justica.gov.pt/Servicos/Pedir-e-consultar-registo-criminal-de-pessoas', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' }
   ],
-  lastVerified: '2026-05-31',
-  verifyIntervalDays: 60
+  lastVerified: '2026-06-23',
+  verifyIntervalDays: 45
 }

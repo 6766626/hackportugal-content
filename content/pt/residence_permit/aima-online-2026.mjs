@@ -2,25 +2,27 @@ export default {
   editorialVoice: 'hackportugal',
   id: 'aima-online-2026',
   categoryId: 'residence_permit',
-  title: 'Renovação da autorização de residência através do portal online da AIMA',
-  tldr: 'A partir de 1 de janeiro de 2026, a renovação da autorização de residência é feita através de portal-renovacoes.aima.gov.pt. Sem deslocação presencial, se todos os documentos estiverem em ordem. A submissão é possível 30 dias antes do termo do cartão, mas é aconselhável fazê-lo com 60–90 dias de antecedência. O cartão da autorização de residência chega por correio; enquanto aguarda, o estatuto legal é comprovado pelo comprovativo de submissão. Nos termos do art. 78.º da Lei 23/2007 (e dos esclarecimentos da AIMA de 2025), este comprovativo funciona como título de residência temporário e é renovado até à decisão final e à emissão do cartão, pelo que, se submeteu dentro do prazo, a sua permanência não se torna ilegal por causa de um atraso da AIMA.',
+  title: 'Renovar a autorização de residência através do portal online da AIMA',
+  tldr: 'Em 2026, a renovação da autorização de residência deve ser iniciada online, mas o percurso depende da data de caducidade e do tipo de cartão. Os cartões comuns caducados a partir de 01.07.2025 são renovados através de portal-renovacoes.aima.gov.pt. Cartões antigos caducados entre 22.02.2020 e 30.06.2025 seguem por services.aima.gov.pt/RAR/reqrenew ou pelo percurso indicado por email pela AIMA/EMAIMA; CPLP, ARI e cartões de familiares de cidadãos da UE têm regras próprias. Segundo o gov.pt, o pedido pode ser feito desde 90 dias antes do fim da validade. Para cartões caducados depois de 30.06.2025, o direito de residência mantém-se por 6 meses após a data de caducidade; se, durante esse período, tiver iniciado a renovação e tiver comprovativo/recibo, a AIMA considera a permanência legal até à conclusão do processo — mesmo depois desses 6 meses. Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias: leve-o consigo juntamente com o cartão caducado.',
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
-  estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-01-01',
-  changeSummary: 'Lançamento de portal-renovacoes.aima.gov.pt em 01.01.2026. Prazo-limite para renovar autorizações de residência caducadas até 30.06.2025 — 15.04.2026.',
+  estimatedReadMinutes: 10,
+  recentlyChangedAt: '2026-06-23',
+  changeSummary: 'Corrigida a interpretação do prazo de 6 meses (Decreto Regulamentar 84/2007 art. 63.º n.º 14) e acrescentada a situação após o prazo de 15.04.2026 segundo os esclarecimentos da AIMA.',
   steps: [
     {
       id: 'which-portal',
-      title: 'Que portal usar para cada cartão',
+      title: 'Escolha primeiro o percurso correto',
       content: [
-        { kind: 'paragraph', text: 'Em 2026, as renovações são feitas através de vários portais — é importante escolher o correto, caso contrário o sistema “não vê” o seu processo:' },
+        { kind: 'paragraph', text: 'Em 2026, a AIMA não tem uma entrada universal para todas as renovações. Se escolher o portal errado, o processo pode não aparecer ou seguir para o canal incorreto.' },
         { kind: 'checklist', items: [
-          '✅ portal-renovacoes.aima.gov.pt — cartões que caducam de 01.07.2025 a 30.06.2026 (canal principal)',
-          '✅ portal-renovacoes.aima.gov.pt — ARI / Golden Visa que caducam de 22.02.2020 a 30.06.2026',
-          '⚠️ Cartões que caducaram ANTES de 30.06.2025 — através do portal de serviços gerais da AIMA (canal antigo), não através de renovações',
-          '❌ Cidadãos da UE não utilizam este portal. O CRUE inicial (certificado de registo de cidadão da UE) é tratado na Câmara Municipal / Junta de Freguesia da área de residência, normalmente por 5 anos. Após 5 anos — procedimento separado para pedir o documento de residência permanente de cidadão da UE'
+          '✅ Autorização de residência caducada ou a caducar desde 01.07.2025: percurso principal em portal-renovacoes.aima.gov.pt',
+          '✅ Autorização de residência caducada entre 22.02.2020 e 30.06.2025: se não recebeu email da AIMA/EMAIMA, use services.aima.gov.pt/RAR/reqrenew; em 23.06.2026 isto já é urgente, porque o prazo de 15.04.2026 passou',
+          '✅ CPLP: procedimento separado em services.aima.gov.pt/CPLP, não o fluxo comum do portal-renovacoes',
+          '✅ ARI / Golden Visa: fluxo ARI separado no Portal das Renovacoes, disponível desde 16.02.2026 segundo a AIMA',
+          '✅ Residente de Longa Duração: a AIMA abriu a renovação no Portal das Renovacoes, mas confirme primeiro o NISS e a morada',
+          '❌ Primeiro cartão depois de visto D, primeira autorização de residência, CRUE de cidadãos da UE e cartões de familiares de cidadãos da UE não são renovações comuns através deste portal'
         ]},
-        { kind: 'warning', text: 'Não confunda portal-renovacoes.aima.gov.pt com o portal geral portal.aima.gov.pt (área única). É precisamente renovações que contém o formulário de renovação.' }
+        { kind: 'warning', text: 'Se mudou nome, morada, NIF, passaporte, NISS ou outros dados, submeta primeiro a atualização através do formulário de contacto da AIMA com o assunto Alteracao de Dados. A AIMA indica separadamente que alterações de dados pessoais não são tratadas como pedido comum de renovação.' }
       ]
     },
     {
@@ -28,211 +30,206 @@ export default {
       title: 'Quando submeter',
       content: [
         { kind: 'checklist', items: [
-          '🗓️ Oficialmente — a partir de 30 dias antes do termo da autorização de residência',
-          '✅ Recomendação: 60–90 dias antes do termo (menos stress, mais tempo para corrigir erros)',
-          '⚠️ Com menos de 30 dias — o portal pode aceitar, mas sem garantia de conclusão antes do termo',
-          '⏰ Se a autorização de residência já caducou: submeta imediatamente. Formalmente, a coima é de 75–300 € (art. 192 Lei 23/2007), mas em 2025–2026, nas renovações online, praticamente não é aplicada',
-          '🛡️ Se a AIMA não processar o seu pedido dentro do prazo — mantém-se em estatuto legal com o comprovativo (art. 78.º da Lei 23/2007 + esclarecimentos da AIMA)'
+          '🗓️ Segundo o gov.pt, pode submeter desde 90 dias antes de o cartão caducar; a renovação da autorização temporária deve ser pedida até 30 dias antes do fim da validade',
+          '✅ Na prática: comece a verificar o portal 90 dias antes e submeta assim que a AIMA abrir a sua data/categoria',
+          '⚠️ Cartões caducados depois de 30.06.2025: ao abrigo do Decreto Regulamentar 84/2007, art. 63.º n.º 14, o direito de residência mantém-se por 6 meses após a data de caducidade. Se, durante esse período, tiver iniciado a renovação e tiver comprovativo/recibo, a AIMA considera a permanência legal até à conclusão do processo — mesmo depois desses 6 meses.',
+          '⚠️ Se o cartão caducou antes de 30.06.2025 e não iniciou a renovação até 15.04.2026, não espere: submeta o pedido em services.aima.gov.pt/RAR/reqrenew e discuta o caso com um advogado ou CLAIM',
+          '🧾 Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias. É prova do processo, mas não é um cartão de residência completo para viagens Schengen'
         ]},
-        { kind: 'warning', text: 'Todas as autorizações de residência com data de termo até 30.06.2025 devem ser renovadas até 15 de abril de 2026. Após essa data, o estatuto é considerado inválido; a recuperação faz-se através de um procedimento complexo com advogado.' }
+        { kind: 'warning', text: 'Não conte com as antigas prorrogações automáticas. A AIMA anunciou expressamente o fim das prorrogações automáticas e liga o estatuto legal ao início do processo de renovação.' }
       ]
     },
     {
       id: 'prerequisites',
-      title: 'O que verificar antes de submeter',
+      title: 'O que verificar antes de começar',
       content: [
         { kind: 'checklist', items: [
-          '🔐 Chave Móvel Digital ativada com função de assinatura (não apenas autenticação). Verifique em autenticacao.gov.pt',
-          '📱 Número de telefone português atualizado na CMD (não estrangeiro) — é para esse número que chegam os códigos SMS',
-          '📄 Passaporte válido por ≥ 3 meses após a data prevista de receção do novo cartão da autorização de residência',
-          '🏠 A morada coincide: na AIMA, Finanças, NISS e no atestado de residência (se tenciona anexá-lo)',
-          '💼 Se tem trabalho/atividade independente ou se a sua categoria de autorização de residência pressupõe verificação pela Segurança Social — verifique o NISS e a inexistência de dívidas. Para categorias sem obrigação de pagar contribuições (por exemplo, reformados, familiares sem atividade), a ausência de pagamentos, por si só, não constitui “dívida”',
-          '💸 Para as categorias aplicáveis, prepare a certidão de não dívida Finanças e o comprovativo de situação contributiva Segurança Social',
-          '📷 Biometria — se passaram 5+ anos desde a vez anterior, podem exigir uma deslocação presencial para nova biometria (raro, mas acontece)'
+          '📧 Acesso ao email que indicar à AIMA: password, informação de pagamento e notificações chegam aí; verifique o Spam',
+          '🪪 O número do cartão de residência válido/caducado, NIF, data de nascimento e passaporte devem coincidir com os registos da AIMA',
+          '🏠 A morada deve estar atualizada: o novo cartão é enviado para a morada do processo/AIMA',
+          '🔢 O NISS é necessário para validação; se já tem NISS mas a AIMA não o vê, atualize os dados através do formulário de contacto',
+          '💸 Antes de submeter, confirme que não há dívidas às Financas e à Seguranca Social; se a validação do portal demorar, certidoes recentes ajudam',
+          '🔐 A Chave Movel Digital não é o único método de acesso ao Portal das Renovacoes, mas é útil para obter certidões, certificado do registo criminal e outros serviços públicos',
+          '📄 Prepare PDF/JPG a cores, legíveis e sem cortes; a lista de documentos no portal é mais importante do que qualquer checklist genérica'
         ]}
       ]
     },
     {
       id: 'how-to',
-      title: 'Submissão passo a passo',
+      title: 'Passo a passo no portal-renovacoes',
       content: [
         { kind: 'substeps', items: [
-          { id: 's1', title: '1. Entrar em portal-renovacoes.aima.gov.pt', content: [
-            { kind: 'paragraph', text: 'Autenticação através da Chave Móvel Digital (assinatura eletrónica do Estado). Para cidadãos portugueses — através do Cartão de Cidadão (documento de identificação de cidadão português).\n\nImportante: este é um portal separado, não portal.aima.gov.pt (área geral) — a ligação correta é para renovações.' }
+          { id: 's1', title: '1. Registe-se ou entre', content: [
+            { kind: 'paragraph', text: 'Abra portal-renovacoes.aima.gov.pt e crie acesso com os dados do cartão/documento. A AIMA descreve o processo como registo no portal: a password é enviada para o email indicado.' },
+            { kind: 'warning', text: 'Não confunda o Portal das Renovacoes com o Portal de Serviços geral da AIMA. O portal geral serve para outros serviços; as renovações comuns depois de 01.07.2025 seguem por renovações.' }
           ]},
-          { id: 's2', title: '2. Escolher o tipo de autorização de residência', content: [
-            { kind: 'paragraph', text: 'O sistema irá propor o tipo constante da sua autorização de residência em vigor (preenchido automaticamente). Verifique — se o tipo estiver incorreto, é possível que o seu processo ainda esteja na antiga base de dados do SEF; será necessário um pedido separado por email à delegação regional.' }
-          ]},
-          { id: 's3', title: '3. Carregar digitalizações', content: [
+          { id: 's2', title: '2. Aguarde as validações automáticas', content: [
+            { kind: 'paragraph', text: 'Depois do registo, o sistema faz validações, incluindo situação fiscal e contributiva. Segundo o guia prático em Downloads, isto pode levar vários dias, por isso não deixe o processo para a última semana.' },
             { kind: 'checklist', items: [
-              'Passaporte — todas as páginas preenchidas, boa qualidade JPG/PDF',
-              'Cartão atual da autorização de residência (ambos os lados)',
-              'Atestado de Residência (recente, com menos de 3 meses) da Junta de Freguesia (administração local) OU contrato de arrendamento registado nas Finanças, OU fatura de serviços públicos em seu nome',
-              'Registo criminal português: dependendo do procedimento, a AIMA pode pedir autorização para consulta do registo criminal português ou certificado do registo criminal. O certificado online no ePortugal custa normalmente 5 € e é válido por 3 meses',
-              'Para D7/D8 — comprovativo de rendimento: extrato bancário de 3 meses, contrato de trabalho/contrato com cliente, documentos de pensão',
-              'Para Reagrupamento Familiar — certidão de casamento/nascimento dos filhos',
-              'Comprovativo do NISS + inexistência de dívidas (Segurança Social Direta → Comprovativo de situação contributiva)',
-              'Comprovativo das Finanças — certidão de não dívida (gratuita no Portal das Finanças)',
-              'Comprovativo de seguro de saúde ou número de utente SNS (se exigido para o seu tipo de autorização de residência)'
+              'Financas: certidao de nao divida',
+              'Seguranca Social: comprovativo de situacao contributiva / regularidade',
+              'Se o portal ficar preso na validação, guarde capturas de ecrã e a data da tentativa'
+            ]}
+          ]},
+          { id: 's3', title: '3. Crie Novo Pedido', content: [
+            { kind: 'paragraph', text: 'Quando as validações passarem, clique em Novo Pedido e escolha Renovacao de Autorizacao de Residencia. O comentário normalmente pode ficar vazio, salvo se o portal pedir explicação.' },
+            { kind: 'warning', text: 'Se o sistema mostrar categoria errada, morada antiga, NISS incorreto ou não deixar iniciar o processo, não submeta às cegas. Atualize primeiro os dados pelo formulário de contacto da AIMA e guarde o comprovativo desse pedido.' }
+          ]},
+          { id: 's4', title: '4. Pague o DUC/Multibanco', content: [
+            { kind: 'paragraph', text: 'Depois de um pedido bem-sucedido, o portal gera o documento de pagamento. A AIMA informa que o pagamento só pode ocorrer 24 horas após a emissão das guias. Em casos de utilizadores, o prazo de pagamento apareceu muitas vezes como 10 dias, mas siga o prazo apresentado na sua área pessoal.' },
+            { kind: 'warning', text: 'O valor depende da categoria, canal digital, idade, isenções e tipo de cartão. Não use valores antigos de chats: pague exatamente o que consta do DUC/página de pagamento.' }
+          ]},
+          { id: 's5', title: '5. Carregue os documentos', content: [
+            { kind: 'paragraph', text: 'Segundo o guia prático e casos da comunidade, o carregamento de documentos abre depois do pagamento; muitas vezes o portal dá 10 dias. Se o seu portal mostrar outro prazo, siga o portal. Não espere apenas pelo email: verifique a área pessoal manualmente.' },
+            { kind: 'checklist', items: [
+              'Cartão de residência — ambos os lados',
+              'Passaporte — página de dados e páginas com carimbos/vistos se o portal pedir',
+              'Comprovativo de condicoes de alojamento: contrato de arrendamento, domicilio fiscal, recibos de renda, atestado de residencia ou outro documento da sua lista',
+              'Comprovativo de meios de subsistencia: contrato de trabalho, recibos verdes/faturas, IRS, extratos bancários, pensão ou documentos ligados ao seu artigo',
+              'Certidao de nao divida Financas',
+              'Comprovativo de situacao contributiva / regularidade Seguranca Social, se aplicável',
+              'Comprovativo de sistema de saude: número de utente SNS ou seguro, se aplicável',
+              'Requerimento Inicial / Modelo 1, se pedido; para renovação escolha Renovacao de A.R. TEMPORARIA/PERMANENTE e indique o artigo da sua autorização',
+              'Autorizacao para consulta do registo criminal portugues ou certificado do registo criminal — conforme o que o seu ecrã pedir'
             ]},
-            { kind: 'paragraph', text: 'Prática: o limite de tamanho do ficheiro é de 5 MB por documento. Se não couber — comprima em ilovepdf.com ou equivalente. Todas as digitalizações — a cores, não fotografias, legíveis.' }
+            { kind: 'warning', text: 'A lista de documentos é pessoal. D7, D8, art. 88/89/90, estudante, reagrupamento familiar e menores têm conjuntos diferentes; uma checklist genérica não substitui o ecrã do seu processo.' }
           ]},
-          { id: 's4', title: '4. Pagar a taxa', content: [
-            { kind: 'paragraph', text: 'O portal gera uma referência Multibanco (DUC — Documento Único de Cobrança) ou permite pagamento por cartão.\n\nA partir de 01.03.2026 aplica-se a nova tabela de taxas da AIMA (+33% face à anterior): receção + análise 133 €, emissão/renovação da autorização de residência (art. 75) ~307,20 €, autorização de residência permanente (art. 76) ~351,10 €, 2.ª via do cartão — 50% do custo de emissão. O pagamento é confirmado em 1–3 horas, mas por vezes pode demorar até um dia.' },
-            { kind: 'warning', text: 'Se o valor foi pago de forma incompleta (erro típico — chegou menos devido ao câmbio): pague o remanescente NO MESMO DUC, mas através de OUTRO banco (não aquele de onde fez o primeiro pagamento).\n\nEvite pagamentos complementares através dos CTT ou Payshop — muitas vezes não são associados. Não pode criar um novo DUC para o pagamento complementar.' }
-          ]},
-          { id: 's5', title: '5. Assinar através da CMD', content: [
-            { kind: 'paragraph', text: 'O passo final é a assinatura eletrónica do requerimento através da Chave Móvel Digital. Receberá um código SMS ou uma notificação push na aplicação Autenticação.gov.' }
-          ]},
-          { id: 's6', title: '6. Guardar o comprovativo', content: [
-            { kind: 'paragraph', text: 'Após a submissão, o portal emite um comprovativo de submissão em PDF. É um documento IMPORTANTE para tratar de assuntos em Portugal. Guarde-o em todo o lado: cloud, email, cópia impressa.\n\nEm Portugal, bancos, escolas, SNS e empregadores aceitam-no como prova de que o pedido foi submetido.' },
-            { kind: 'warning', text: 'Comprovativo de submissão NÃO é substituto do cartão da autorização de residência para viagens e NÃO é um documento de viagem garantido. Companhias aéreas e autoridades de fronteira de outros países Schengen não são obrigadas a aceitá-lo em vez de um cartão da autorização de residência válido. Se o cartão antigo caducou e o novo ainda não chegou — existe risco de recusa de embarque/entrada. Antes de viajar, é melhor consultar o consulado de Portugal no país de trânsito.' }
-          ]},
-          { id: 's7', title: '7. Aguardar a decisão', content: [
-            { kind: 'timeline', text: 'Padrão — 30–90 dias. Máximo por lei — até 120 dias. Lei 61/2025 (em vigor em 23.10.2025) estabeleceu um prazo geral de decisão da AIMA de 9 meses para os pedidos de autorização de residência (prorrogável apenas em casos excecionais). A diretiva da UE relativa à autorização única (Diretiva (UE) 2024/1233) prevê um prazo de decisão de 90 dias (+30 dias em casos de especial complexidade); o prazo de transposição era 21.05.2026 e aplica-se a partir de 22.05.2026, mas, nessa data, Portugal ainda não a tinha transposto, pelo que deve confirmar os prazos exatos e a forma de aplicação a cada pedido nas fontes oficiais atuais. A notificação chega por email + na área pessoal. Estados: “Em análise”, “Notificado para entrevista”, “Aprovado”, “Indeferido”.' }
-          ]},
-          { id: 's7a', title: '7a. Comprovativo de Deferimento — confirmação de decisão favorável', content: [
-            { kind: 'paragraph', text: 'Assim que o processo é aprovado, aparece na área pessoal o botão “Comprovativo de Deferimento” — PDF com código QR para verificação de autenticidade. Este é o documento que confirma a decisão FAVORÁVEL da AIMA até à chegada do cartão físico.' },
+          { id: 's6', title: '6. Guarde o comprovativo', content: [
+            { kind: 'paragraph', text: 'Após o registo do pedido e pagamento, a AIMA emite um recibo/comprovativo de pedido de renovacao. Segundo o comunicado da AIMA de 15.10.2025, é válido por 180 dias.' },
             { kind: 'checklist', items: [
-              '🪪 Em Portugal — bancos, escolas, SNS e empregadores normalmente aceitam-no como prova de estatuto aprovado',
-              '⚠️ ✈️ Companhias aéreas e autoridades de fronteira de outros países Schengen NÃO são obrigadas a aceitá-lo em vez do cartão físico válido da autorização de residência. O código QR ajuda a verificar a decisão em Portugal, mas não transforma o PDF num documento de viagem/autorização de residência Schengen padrão',
-              '📱 Guarde o PDF na cloud e no telemóvel — para tratar de assuntos em Portugal',
-              '🛂 Se planeia viajar antes de receber o cartão — fale com o consulado de Portugal/AIMA, ou aguarde pelo cartão físico'
+              'Guarde o PDF na cloud, no telefone e no email',
+              'Leve consigo o cartão caducado e o comprovativo',
+              'Para bancos, SNS, escola e empregadores em Portugal, este costuma ser o documento principal durante a espera',
+              'Para viagens fora de Portugal, não equivale a um cartão de residência válido; uma companhia aérea ou outro país Schengen pode recusar o PDF'
             ]}
           ]},
-          { id: 's8', title: '8. Receber o cartão', content: [
-            { kind: 'paragraph', text: 'O novo cartão de plástico da autorização de residência chega pelos CTT, por correio registado, para a morada indicada no requerimento. Se não o receber no prazo de 30 dias após o estado “Aprovado” — escreva à delegação regional da AIMA.' },
-            { kind: 'paragraph', text: 'O número de seguimento do envio CTT NÃO aparece na área pessoal da AIMA após a aprovação — terá de o obter apenas por telefone junto da delegação regional. É melhor ligar 2 semanas após o estado “Aprovado”.' }
+          { id: 's7', title: '7. Acompanhe o estado e o email', content: [
+            { kind: 'paragraph', text: 'Depois do pagamento, a AIMA inicia a análise. Em casos da comunidade, após a verificação dos documentos aparecem marcas verdes, depois um estado como concluido/deferido e um email. Se a AIMA pedir documentos adicionais, o prazo de resposta costuma ser curto, por isso não perca a notificação.' },
+            { kind: 'timeline', text: 'Os prazos reais variam muito: de algumas semanas a vários meses. Se não houver movimento após 90 dias, crie um rasto escrito: formulário de contacto AIMA, email regional, Livro Amarelo/Provedor de Justiça; para atraso prolongado, discuta com advogado uma ação administrativa contra a inércia.' }
+          ]},
+          { id: 's8', title: '8. Receba o cartão', content: [
+            { kind: 'paragraph', text: 'Após deferimento, o cartão normalmente é enviado por CTT para a morada atual. Por isso a morada na AIMA é crítica. Se o cartão não chegar depois da aprovação, registe a data do deferimento, verifique a caixa de correio/aviso CTT e contacte a AIMA.' }
           ]}
         ]}
       ]
     },
     {
-      id: 'practical-tips',
-      title: 'Conselhos práticos (experiência da comunidade)',
+      id: 'old-expired',
+      title: 'Se o cartão caducou antes de 30.06.2025',
       content: [
+        { kind: 'paragraph', text: 'Este já não é o cenário comum do portal-renovacoes. A AIMA separa cartões antigos caducados e cartões depois de 01.07.2025: os antigos são tratados pela Estrutura de Missao / services.aima.gov.pt, enquanto a AIMA assegura renovações depois de 01.07.2025.' },
         { kind: 'checklist', items: [
-          '🖥️ Submeta a partir de um computador no Chrome — no telemóvel há falhas frequentes no carregamento de ficheiros',
-          '⏰ Não submeta às 08:00 / 09:00 de segunda-feira — o portal está sobrecarregado e a probabilidade de erros técnicos é maior. Melhores horários — ter–qui, 14:00–17:00',
-          '📸 Se o processo ficar “preso” num ecrã — faça uma captura de ecrã, NÃO feche o separador, aguarde 2 minutos',
-          '🚫 Não tente submeter novamente se a primeira tentativa “bloqueou” — verifique 24 horas depois na área pessoal; muitas vezes o requerimento foi enviado na mesma',
-          '📋 Atestado de Residência (administração local) por vezes é emitido sem testemunhas — confirme na sua Junta. Uma fatura de serviços públicos ou contrato de arrendamento é frequentemente suficiente como alternativa',
-          '📷 Fotografias tipo passe nas digitalizações não são necessárias — a AIMA usa a biometria do atendimento anterior ou convoca para nova biometria, se necessário',
-          '🧾 Peça antecipadamente a certidão de não dívida nas Finanças e na Segurança Social — a geração pode demorar 1–2 dias',
-          '⚡ Para autorização de residência por D7/D8 — o extrato bancário deve mostrar rendimento ESTÁVEL (não uma entrada pontual de uma grande quantia antes da submissão)',
-          '👨‍👩‍👦 Para Reagrupamento Familiar: crianças até 16 anos — são anexadas automaticamente; adolescentes 16–18 submetem separadamente a sua própria renovação'
+          'Se recebeu email de renovacao.ar@aima.gov.pt, siga o link do email e guarde todas as confirmações',
+          'Se não recebeu email, a AIMA indica services.aima.gov.pt/RAR/reqrenew para cartões caducados entre 22.02.2020 e 30.06.2025',
+          'Após o pedido, deverá ser contactado por email para confirmação, pagamento, possível atendimento presencial/biometria e carregamento de documentos',
+          'A AIMA indicou que o recibo comprovativo deve ser disponibilizado até 10 dias úteis após a confirmação do pagamento',
+          'CPLP, ARI e cartões UE/familiares não estão abrangidos por este serviço RAR'
         ]},
-        { kind: 'warning', text: 'Se houver um erro nos seus dados na base da AIMA (por exemplo, transliteração incorreta do nome, morada incorreta de um processo antigo do SEF) — a submissão através do portal é frequentemente bloqueada. Solução — email à delegação regional a pedir a correção dos dados e, depois, submissão.' }
+        { kind: 'warning', text: 'Em 23.06.2026, o prazo de 15.04.2026 já passou. O Governo não introduziu uma nova prorrogação geral depois de 15.04.2026. Segundo a posição da AIMA, os titulares de cartões caducados antes de 30.06.2025 que não iniciaram a renovação são considerados em situação irregular; só um processo registado no portal com comprovativo protege. Se ainda não submeteu, submeta com urgência em services.aima.gov.pt/RAR/reqrenew e consulte um advogado/CLAIM.' }
       ]
     },
     {
-      id: 'if-rejected',
-      title: 'Indeferimento ou pedido de documentos adicionais',
+      id: 'documents-details',
+      title: 'Documentos que geram confusão',
       content: [
-        { kind: 'paragraph', text: 'Se, após a submissão, recebeu uma carta a exigir documentos adicionais (Notificação para aperfeiçoamento):' },
-        { kind: 'checklist', items: [
-          '📬 Prazo de resposta — 10 dias úteis a contar da data da notificação',
-          '💻 Os complementos devem ser carregados através do mesmo portal-renovacoes, separador “Processos em curso”',
-          '📧 Se o prazo não for suficiente — pode pedir prorrogação por email à delegação regional',
-          '🚫 Falhar o prazo = indeferimento automático (indeferimento por falta de elementos)'
-        ]},
-        { kind: 'paragraph', text: 'Em caso de indeferimento definitivo (Indeferimento):' },
-        { kind: 'checklist', items: [
-          '⚖️ Os prazos para impugnar dependem do tipo de notificação e de ato. Muitas vezes são 10 dias úteis para audiência prévia/aperfeiçoamento ou 30 dias para reclamação/recurso administrativo; para impugnação judicial, o prazo é normalmente mais longo (frequentemente até 3 meses pelo CPTA). Em caso de indeferimento, mostre imediatamente a carta a um advogado',
-          '🧑‍💼 Recomendamos contratar um advogado com prática em imigração — a probabilidade de reapreciação é maior',
-          '🏛️ Em paralelo — queixa ao Provedor de Justiça (provedor), sobretudo se o indeferimento for formal',
-          '⏰ Enquanto decorre a impugnação — o seu estatuto normalmente mantém-se com o comprovativo'
-        ]}
-      ]
-    },
-    {
-      id: 'if-delayed',
-      title: 'AIMA ultrapassou o prazo do processo — o que fazer',
-      content: [
-        { kind: 'paragraph', text: 'O prazo padrão é de 30–90 dias. Se passaram 90 dias sem resposta — é altura de agir. O máximo por lei é de 120 dias; depois disso, a AIMA viola o prazo processual.' },
-        { kind: 'checklist', items: [
-          '🛡️ Mantém-se em estatuto legal enquanto tiver um comprovativo válido — funciona como título temporário e é renovado até à decisão (art. 78.º da Lei 23/2007 + esclarecimentos da AIMA)',
-          '📧 90+ dias — email para a delegação regional da AIMA (ver guia “Como contactar a AIMA”) com o número do processo e a data de submissão',
-          '🏛️ 120+ dias — queixa ao Provedor de Justiça em provedor-jus.pt (acelera na prática; a AIMA é obrigada a responder ao provedor)',
-          '⚖️ 180+ dias — discutir com um advogado uma ação administrativa contra a inação da AIMA. O tipo de procedimento depende do caso (por exemplo, intimação para a prática de ato devido); o tribunal pode obrigar a AIMA a atuar, mas o prazo concreto e o resultado não são garantidos. Intimação para prestação de informações só é adequada quando é necessário obter informação/cópias de documentos, e NÃO para obrigar a AIMA a decidir sobre a autorização de residência',
-          '✈️ Para viagens ao estrangeiro — comprovativo + antigo cartão da autorização de residência válido (NÃO caducado) + passaporte podem ajudar a explicar a situação, mas NÃO garantem embarque ou entrada. Juridicamente, é mais seguro aguardar pelo novo cartão. Antes de viajar, confirme os requisitos da transportadora e do país de trânsito/entrada'
-        ]}
-      ]
-    },
-    {
-      id: 'special-cases',
-      title: 'Casos especiais — não através do portal principal',
-      content: [
-        { kind: 'paragraph', text: 'Algumas categorias exigem um procedimento separado, não através de portal-renovacoes:' },
         { kind: 'substeps', items: [
-          { id: 'sp1', title: 'Estudantes que continuam a estudar + trabalho (art. 122.j Lei 23/2007)', content: [
-            { kind: 'checklist', items: [
-              'Submissão através do formulário de contacto da AIMA (não através de renovações)',
-              'Pedido de vaga para biometria — apenas através da lista de espera',
-              'Documentos: passaporte, autorização de residência antiga, declaração de IRS, contrato de trabalho, NISS, certidão de não dívida',
-              'Tempo de espera por vaga — 2–6 meses'
-            ]}
+          { id: 'doc1', title: 'Habitação', content: [
+            { kind: 'paragraph', text: 'O comprovativo de habitação pode ser contrato de arrendamento, recibos de renda, domicilio fiscal, atestado de residencia, declaração do proprietário ou documentos de propriedade. Carregue exatamente o tipo pedido pelo portal.' }
           ]},
-          { id: 'sp2', title: 'Cursos profissionais (art. 92)', content: [
-            { kind: 'checklist', items: [
-              'Inscrever-se na lista de espera através do formulário no site da AIMA',
-              'Documentos: cópia do passaporte, comprovativo de inscrição no curso (IEFP / centro certificado), recibo de pagamento',
-              'Mais tarde, a AIMA agenda atendimento presencial — aguardar convocatória por email',
-              'Presença pessoal obrigatória (não online)'
-            ]}
+          { id: 'doc2', title: 'Rendimentos', content: [
+            { kind: 'paragraph', text: 'Para trabalho por conta de outrem, normalmente prepara-se contrato de trabalho, recibos de vencimento e IRS/declaração. Para independente: atividade aberta, recibos verdes/faturas, IRS e extrato bancário. Para D7: pensão, rendimento passivo e movimentos da conta. A lógica da AIMA é que o rendimento seja claro, regular e ligado ao seu artigo.' }
           ]},
-          { id: 'sp3', title: 'ARI / Golden Visa', content: [
-            { kind: 'paragraph', text: 'A renovação é possível através de portal-renovacoes para ARI caducados de 22.02.2020 a 30.06.2026. Presença física mínima para ARI: 7 dias no primeiro ano e 14 dias em cada período subsequente de dois anos de validade da autorização (se se aplicarem as regras ARI padrão; comprovada por carimbos ou comprovativo de alojamento).' }
+          { id: 'doc3', title: 'Registo criminal', content: [
+            { kind: 'paragraph', text: 'O Justiça.gov.pt diz expressamente que cidadãos estrangeiros que pedem ou renovam autorização de residência em Portugal podem autorizar a AIMA a aceder ao registo criminal português em vez de se deslocarem a um balcão para obter o certificado. Mas se o seu ecrã pedir certificado, este pode ser pedido online; custa 5 € e a emissão online pode demorar até 3 dias úteis.' }
           ]},
-          { id: 'sp4', title: 'CRUE para cidadãos da UE', content: [
-            { kind: 'paragraph', text: 'O CRUE de cidadãos da UE é tratado através da Câmara Municipal / Junta de Freguesia e NÃO é renovado através do portal da AIMA para autorizações de residência de cidadãos de países terceiros. Após 5 anos, normalmente é tratado o documento de residência permanente por procedimento separado. Cartão de residência de familiar de cidadão da UE (para familiares de cidadãos da UE provenientes de países terceiros) — é um documento separado com outro procedimento, não CRUE.' }
+          { id: 'doc4', title: 'Modelo 1 / Requerimento Inicial', content: [
+            { kind: 'paragraph', text: 'O PDF prático em Downloads explica o Modelo 1 em separado. Se o portal pedir Requerimento Inicial, preencha os dados pessoais, assinale Renovacao de A.R. TEMPORARIA/PERMANENTE e indique o artigo da Lei 23/2007 ao abrigo do qual a sua autorização atual foi emitida.' }
+          ]},
+          { id: 'doc5', title: 'Menores e família', content: [
+            { kind: 'paragraph', text: 'Crianças e reagrupamento familiar costumam ter documentos adicionais: certidões, autorizações parentais, documentos do requerente principal e prova do vínculo familiar. Não copie a lista de um adulto D7/D8 para uma criança sem verificar o ecrã.' }
           ]}
         ]}
       ]
     },
     {
-      id: 'first-card',
-      title: 'Primeiro cartão após visto D — isto NÃO é renovação',
+      id: 'costs-2026',
+      title: 'Taxas AIMA em 2026',
       content: [
-        { kind: 'warning', text: 'Este artigo é sobre a renovação de um cartão de plástico da autorização de residência já emitido. Se tem apenas um visto D e ainda não tem cartão, trata-se do procedimento de primeira concessão / emissão inicial — normalmente através de agendamento/vaga AIMA, e não através de portal-renovacoes. O portal renovações aplica-se a títulos de residência já existentes (se a AIMA tiver aberto a categoria correspondente).' },
-        { kind: 'paragraph', text: 'O que a AIMA irá verificar na primeira emissão do cartão após visto D:' },
+        { kind: 'paragraph', text: 'A tabela atual da AIMA ao abrigo da Portaria 307/2023 mostra duas colunas: taxa normal e taxa reduzida para canal digital. O Portal das Renovacoes calcula o valor exato; os valores abaixo servem para conferir o DUC, não substituem o documento de pagamento.' },
         { kind: 'checklist', items: [
-          '📄 Correspondência entre o visto D e a situação atual (D7 → rendimento passivo; D8 → trabalho remoto; etc.)',
-          '💰 Comprovativo de rendimento DE TODO O PERÍODO desde a entrada (extrato bancário completo)',
-          '🏠 Atestado de Residência — recente (com menos de 2 meses)',
-          '📝 Se o visto D tinha uma condição (por exemplo, “abrir conta bancária em 90 dias”) — anexar comprovativo de cumprimento',
-          '⏰ O prazo de emissão do primeiro cartão é normalmente mais longo do que uma renovação padrão'
+          'Rececao e Analise para renovação de AR temporaria/permanente: 133,00 €; canal digital 99,80 €',
+          'Art. 75(1) Concessao ou Renovacao AR Temporaria: 114,30 €; canal digital 85,80 €',
+          'Art. 76(2) Renovacao/Alteracao de Dados AR Permanente: 61,90 €; canal digital 46,30 €',
+          'Art. 90-A(2) Renovacao ARI: 4 210,30 €; canal digital 3 157,80 €',
+          'Segunda via do cartão: normalmente 50% da respetiva taxa de emissão'
+        ]},
+        { kind: 'warning', text: 'A linha de 307,20 € na tabela refere-se a Apreciacao do Pedido para dispensa de visto consular em artigos específicos, não à renovação normal do art. 75. Não a use como valor universal para renovação comum.' }
+      ]
+    },
+    {
+      id: 'if-rejected-or-delayed',
+      title: 'Se o pedido ficar parado ou for recusado',
+      content: [
+        { kind: 'paragraph', text: 'Primeiro separe atraso técnico do portal de um pedido processual da AIMA. Atraso técnico: não há botão, validação não passou ou pagamento não está ativo. Pedido processual: a AIMA já pediu documento, correção ou atendimento.' },
+        { kind: 'checklist', items: [
+          'Guarde capturas de ecrã, emails, DUC, comprovativo de pagamento e número do processo',
+          'Se a validação Financas/Seguranca Social estiver parada, anexe certidoes recentes no contacto com a AIMA',
+          'Se receber pedido de elementos / aperfeicoamento, responda dentro do prazo do email; normalmente é curto',
+          'Se receber indeferimento, não discuta em chats: mostre a carta a um advogado, porque os prazos para audiencia previa/reclamacao/recurso dependem do tipo de ato',
+          'Se o comprovativo de 180 dias estiver a expirar e ainda não houver decisão, escreva à AIMA com antecedência e guarde prova da tentativa de renovar/esclarecer o estatuto'
+        ]},
+        { kind: 'warning', text: 'O comprovativo ajuda a provar que o processo foi iniciado, mas não transforma um cartão caducado num documento de viagem completo. O risco de viajar mantém-se até chegar o cartão físico.' }
+      ]
+    },
+    {
+      id: 'not-renewal',
+      title: 'O que não é renovação comum',
+      content: [
+        { kind: 'checklist', items: [
+          'Primeiro cartão após visto D: primeira concessao / emissao inicial através da AIMA, não renovação',
+          'CRUE de cidadãos da UE: tratado pelas regras de cidadãos da UE, não pelo portal-renovacoes',
+          'Cartao de residencia para familiar de cidadao da UE: procedimento AIMA separado',
+          'CPLP: canal separado services.aima.gov.pt/CPLP e muitas vezes biometria/agendamento',
+          'Primeira passagem para residência permanente: não é o mesmo que renovar uma autorização temporária; consulte o guia separado de permanente',
+          'Estudantes que não concluíram estudos e trabalham ao abrigo do art. 122(j), e alguns casos de altamente qualificados/estudantes sem visto, têm percursos próprios por formulário de contacto publicados pela AIMA'
         ]}
       ]
     }
   ],
   documents: [
-    { title: 'Chave Móvel Digital', note: 'obrigatória com função de assinatura' },
-    { title: 'Passaporte', note: 'válido por ≥ 3 meses' },
-    { title: 'Autorização de residência atual / visto D', note: 'ambos os lados, digitalização' },
-    { title: 'Atestado de Residência', note: 'com menos de 3 meses, da Junta de Freguesia' },
-    { title: 'Certidão do registo criminal PT', note: 'normalmente 5 € no ePortugal; por vezes a AIMA pede não o certificado, mas a autorização para consulta' },
-    { title: 'Comprovativo de situação contributiva (NISS)', note: 'gratuito na Segurança Social Direta' },
-    { title: 'Certidão de não dívida Finanças', note: 'gratuita no Portal das Finanças' },
-    { title: 'Comprovativo de rendimento (D7/D8)', note: 'extrato bancário de 3 meses' },
-    { title: 'Seguro de saúde / número de utente SNS', note: 'se exigido' }
+    { title: 'Cartão de residência', note: 'ambos os lados, mesmo se já caducou' },
+    { title: 'Passaporte', note: 'página de dados; páginas adicionais se o portal pedir' },
+    { title: 'Comprovativo de alojamento', note: 'contrato, recibos, domicilio fiscal, atestado ou outro documento da sua lista' },
+    { title: 'Comprovativo de meios de subsistencia', note: 'salário, recibos verdes, IRS, pensão, extratos bancários — conforme o seu artigo' },
+    { title: 'Certidao de nao divida Financas', note: 'útil preparar antecipadamente' },
+    { title: 'Comprovativo de situacao contributiva Seguranca Social', note: 'se aplicável; verifique o NISS' },
+    { title: 'SNS / seguro de saúde', note: 'se exigido pela sua categoria' },
+    { title: 'Modelo 1 / Requerimento Inicial', note: 'se pedido; indicar renovação e artigo da Lei 23/2007' },
+    { title: 'Autorizacao para consulta do registo criminal ou certificado', note: 'depende do que o ecrã pedir' }
   ],
   costs: [
-    { label: 'AIMA — receção + análise', amountEUR: 133, note: 'tarifas 01.03.2026' },
-    { label: 'AIMA — emissão/renovação (art. 75)', amountEUR: 307.20, note: 'tarifas 01.03.2026' },
-    { label: 'AIMA — autorização de residência permanente (art. 76)', amountEUR: 351.10, note: 'tarifas 01.03.2026' },
-    { label: '2.ª via do cartão (art. 75)', amountEUR: 153.60, note: '50% da taxa emissão/concessão correspondente; para cartão permanente, o valor é diferente' },
-    { label: 'Coima por atraso (raramente aplicada)', amountEURMin: 75, amountEURMax: 300 }
+    { label: 'Rececao e Analise — renovação AR', amountEUR: 133, note: 'canal digital: 99,80 €' },
+    { label: 'Art. 75(1) — renovacao AR temporaria', amountEUR: 114.30, note: 'canal digital: 85,80 €' },
+    { label: 'Art. 76(2) — renovacao/alteracao AR permanente', amountEUR: 61.90, note: 'canal digital: 46,30 €' },
+    { label: 'Art. 90-A(2) — renovacao ARI', amountEUR: 4210.30, note: 'canal digital: 3 157,80 €' },
+    { label: 'Certificado do registo criminal online', amountEUR: 5 },
+    { label: 'Coima/risco por atraso', amountEURMin: 75, amountEURMax: 300, note: 'depende do caso; não substitui aconselhamento' }
   ],
   timelineDaysMin: 30,
-  timelineDaysMax: 120,
+  timelineDaysMax: 180,
   sources: [
-    { title: 'AIMA — Portal de Renovações', url: 'https://portal-renovacoes.aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'AIMA — site oficial', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Decreto-Lei 41/2023 — criação da AIMA (sucessora do SEF/ACM)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/41-2023', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'Lei 23/2007 — regime de entrada e permanência (art. 78.º — renovação e validade do comprovativo)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'ePortugal — Renovar Título de Residência', url: 'https://www.gov.pt/servicos/renovar-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'gov.pt — Renovar a autorização de residência', url: 'https://www.gov.pt/servicos/renovar-a-autorizacao-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Portal das Renovações já está disponível', url: 'https://aima.gov.pt/pt/noticias/o-portal-das-renovacoes-ja-esta-disponivel', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Portal de Renovações: Autorizações de Residência', url: 'https://aima.gov.pt/pt/noticias/portal-de-renovacoes', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Fim das Prorrogações Automáticas', url: 'https://aima.gov.pt/pt/noticias/asfn', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Esclarecimento: Direito de Residência', url: 'https://aima.gov.pt/pt/noticias/direito-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — AR expirada entre 22.02.2020 e 30.06.2025', url: 'https://aima.gov.pt/pt/noticias/dskhf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — services.aima.gov.pt para renovações antigas', url: 'https://aima.gov.pt/pt/noticias/services-aima-gov-pt-novo-servico-para-renovacao-de-autorizacoes-de-residencia', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Renovação do Título de Residente de Longa Duração', url: 'https://aima.gov.pt/pt/noticias/renovacao-do-titulo-de-residente-de-longa-duracao', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'AIMA — Tabela de Taxas', url: 'https://aima.gov.pt/documents/tabela-de-taxas-e-demais-encargos-a-cobrar-pelos-procedimentos-administrativos.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'Justiça.gov.pt — Registo criminal de pessoas', url: 'https://justica.gov.pt/Servicos/Pedir-e-consultar-registo-criminal-de-pessoas', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' }
   ],
-  lastVerified: '2026-05-31',
-  verifyIntervalDays: 60
+  lastVerified: '2026-06-23',
+  verifyIntervalDays: 45
 }

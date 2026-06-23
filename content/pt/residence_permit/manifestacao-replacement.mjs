@@ -3,11 +3,11 @@ export default {
   id: 'manifestacao-replacement',
   categoryId: 'residence_permit',
   title: 'Manifestação de Interesse (pedido de intenção de legalização) cancelada — o que fazer em alternativa',
-  tldr: 'Manifestação de Interesse (MdI) — mecanismo para pedir autorização de residência a partir de Portugal sem visto — foi encerrada em duas fases. 03.06.2024 — Decreto-Lei 37-A/2024 pôs fim à aceitação de novas MdI. Lei 61/2025 entrou em vigor em 23.10.2025 e revogou definitivamente o regime; 31.12.2025 — prazo final do período transitório para quem tinha comprovativo de submissão antes de 03.06.2024. Agora todos os cidadãos de países terceiros que não pertençam à CPLP precisam de visto no consulado ANTES da entrada. Os processos apresentados anteriormente são tratados segundo as regras antigas.',
+  tldr: 'Manifestação de Interesse (MdI) — mecanismo para pedir autorização de residência a partir de Portugal sem visto — foi encerrada em duas fases. 03.06.2024 — Decreto-Lei 37-A/2024 pôs fim à aceitação de novas MdI. Lei 61/2025 entrou em vigor em 23.10.2025 e revogou definitivamente o regime; 31.12.2025 foi o prazo final do período transitório para quem tinha comprovativo de submissão antes de 03.06.2024 — esse prazo já passou. Agora todos os cidadãos de países terceiros que não pertençam à CPLP precisam de visto no consulado ANTES da entrada. Os processos apresentados anteriormente são tratados segundo as regras antigas.',
   tags: ['manifestação', 'aima', 'autorização de residência', 'alterações'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2025-10-23',
-  changeSummary: 'Lei 61/2025 entrou em vigor em 23.10.2025 e revogou o regime MdI. Novos pedidos já tinham deixado de ser aceites em 03.06.2024 pelo Decreto-Lei 37-A/2024. 31.12.2025 — prazo final do período transitório. Os processos submetidos antes de 03.06.2024 são tratados segundo as regras antigas.',
+  changeSummary: 'Lei 61/2025 entrou em vigor em 23.10.2025 e revogou o regime MdI. Novos pedidos já tinham deixado de ser aceites em 03.06.2024 pelo Decreto-Lei 37-A/2024. 31.12.2025 foi o prazo final do período transitório e já passou. Os processos submetidos antes de 03.06.2024 são tratados segundo as regras antigas.',
   steps: [
     {
       id: 'context',
@@ -18,9 +18,9 @@ export default {
         { kind: 'checklist', items: [
           '📅 03.06.2024 — Decreto-Lei 37-A/2024: a AIMA deixou de aceitar novas MdI. Os pedidos submetidos ANTES dessa data permaneceram na fila para tratamento',
           '📅 23.10.2025 — Lei 61/2025 entrou em vigor: revogação definitiva do regime MdI no novo texto da lei',
-          '📅 31.12.2025 — prazo limite para actos no âmbito do regime transitório relativamente a processos MdI já existentes antes de 03.06.2024. Se a AIMA tiver pedido documentos / pagamento / marcação, o incumprimento dentro do prazo pode levar ao arquivamento ou indeferimento'
+          '📅 31.12.2025 — prazo limite para actos no âmbito do regime transitório relativamente a processos MdI já existentes antes de 03.06.2024; este prazo já passou. Se a AIMA tiver pedido documentos / pagamento / marcação, o incumprimento dentro do prazo pode ter levado ao arquivamento ou indeferimento'
         ]},
-        { kind: 'paragraph', text: 'Depois de 03.06.2024, já não é possível submeter MdI. Depois de 31.12.2025, a via transitória fica encerrada; o regime está juridicamente extinto. Motivo: alinhar Portugal com as normas da UE e reduzir a fila acumulada de pedidos.' }
+        { kind: 'paragraph', text: 'Depois de 03.06.2024, já não é possível submeter MdI. O prazo de 31.12.2025 já passou e a via transitória está encerrada; o regime está juridicamente extinto. Motivo: alinhar Portugal com as normas da UE e reduzir a fila acumulada de pedidos.' }
       ]
     },
     {
@@ -71,6 +71,6 @@ export default {
     { title: 'Decreto-Lei 37-A/2024 (DRE) — fim da aceitação de MdI em 03.06.2024', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/37-a-2024-864229054', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 23/2007 (consolidado) — fundamentos de autorização de residência', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-06-23',
   verifyIntervalDays: 60
 }

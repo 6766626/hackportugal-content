@@ -6,8 +6,8 @@ export default {
   tldr: '🆕 Ao abrigo da Lei Orgânica n.º 1/2026 (publicada em 18.05.2026, em vigor desde 19.05.2026), o prazo mínimo para pedir a nacionalidade por casamento ou união de facto MANTÉM-SE em 3 anos (Lei 37/81, art. 3) — os «5 anos» de que se fala referem-se à naturalização por residência, não ao casamento. A nova redação não aumenta a exigência para o casamento; ENDURECE o regime de oposição: o prazo em que o Ministério Público pode deduzir oposição passa de 1 ano para 2 anos, e a avaliação da «ligação efetiva à comunidade nacional» passa a ponderar parâmetros de língua/cultura/integração (em articulação com o art. 6). O certificado linguístico CIPLE formalmente NÃO é exigido por esta via. A presunção de ausência de oposição continua a aplicar-se a partir de >6 anos de casamento/união OU havendo filhos comuns com nacionalidade portuguesa (art. 9/10). Ficam excluídos do regime os condenados em pena de prisão efetiva superior a 3 anos por crimes graves (terrorismo, criminalidade violenta/organizada, etc.).\n\n⚖️ Disposição transitória: os procedimentos administrativos iniciados ANTES de 19.05.2026 continuam a reger-se pela versão anterior da lei.\n\nO simples registo da união de facto na Junta de Freguesia ou na Conservatória para efeitos de nacionalidade NÃO é suficiente — é necessária uma decisão judicial (sentença declarativa). Não é obrigatório residir em Portugal.',
   tags: ['nacionalidade', 'casamento', 'união'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (em vigor desde 19.05.2026): o prazo mínimo de casamento / união de facto para pedir a nacionalidade MANTÉM-SE em 3 anos (art. 3 não alterado). A reforma endurece não o prazo, mas o regime de oposição: o prazo do Ministério Público para deduzir oposição passa de 1 ano para 2 anos, e a avaliação da «ligação efetiva» passa a ponderar língua/cultura/integração. A presunção de ausência de oposição continua a aplicar-se a partir de >6 anos de casamento/união ou havendo filhos comuns com nacionalidade portuguesa. Os procedimentos iniciados ANTES de 19.05.2026 continuam a reger-se pela versão anterior. 🔴 O Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — em 08.05.2026 o TC declarou-o inconstitucional por UNANIMIDADE; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento; o PSD não irá reconfirmar.',
+  recentlyChangedAt: '2026-06-23',
+  changeSummary: 'Clarificado o estatuto da condenação criminal como presunção ilidível (art. 6.º n.º 14/15). Lei Orgânica n.º 1/2026 (em vigor desde 19.05.2026): o prazo mínimo de casamento / união de facto para pedir a nacionalidade MANTÉM-SE em 3 anos (art. 3 não alterado). A reforma endurece não o prazo, mas o regime de oposição: o prazo do Ministério Público para deduzir oposição passa de 1 ano para 2 anos, e a avaliação da «ligação efetiva» passa a ponderar língua/cultura/integração. A presunção de ausência de oposição continua a aplicar-se a partir de >6 anos de casamento/união ou havendo filhos comuns com nacionalidade portuguesa. Os procedimentos iniciados ANTES de 19.05.2026 continuam a reger-se pela versão anterior. 🔴 O Decreto 49/XVII conexo (perda da nacionalidade como pena criminal) — em 08.05.2026 o TC declarou-o inconstitucional por UNANIMIDADE; em 12.05.2026 o Presidente Seguro devolveu-o ao Parlamento; o PSD não irá reconfirmar.',
   steps: [
     {
       id: 'universal',
@@ -24,7 +24,7 @@ export default {
           '💍 Casamento com cidadão português ≥ 3 anos no momento da apresentação do pedido (Lei 37/81 art. 3 n.1)',
           '🤝 OU união de facto >3 anos com cidadão português, reconhecida por decisão judicial (Lei 37/81 art. 3 n.3) — sentença declarativa de tribunal; uma simples certidão ou registo na Junta de Freguesia para nacionalidade NÃO serve',
           '📜 Casamento válido no momento da apresentação do pedido (sem divórcio, sem separação de pessoas e bens com estatuto jurídico)',
-          '⚖️ Ausência de condenações criminais em qualquer país com pena ≥ 3 anos de prisão'
+          '⚖️ A condenação em pena ≥ 3 anos de prisão por crimes graves cria um impedimento, mas trata-se de uma presunção ILIDÍVEL (art. 6.º n.º 14/15): o Ministério Público pondera as circunstâncias e o requerente pode pedir ao tribunal o afastamento desse efeito'
         ]},
         { kind: 'paragraph', text: 'Formalmente NÃO é exigido por esta via:' },
         { kind: 'checklist', items: [
@@ -125,6 +125,6 @@ export default {
     { title: 'ePortugal — união de facto', url: 'https://www.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidência da República — Promulgação Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-06-23',
   verifyIntervalDays: 90
 }

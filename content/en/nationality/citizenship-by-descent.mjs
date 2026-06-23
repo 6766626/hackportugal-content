@@ -3,11 +3,11 @@ export default {
   id: 'citizenship-by-descent',
   categoryId: 'nationality',
   title: 'Portuguese citizenship by descent (Lei Orgânica 1/2026)',
-  tldr: '🆕 Under the new Lei Orgânica n.º 1/2026 (published on 18/05/2026, in force from 19/05/2026) the direct descent routes are:\n\n👶 Child of a Portuguese citizen — handled by application/declaration at IRN/Conservatória; no language requirement.\n\n👦 Grandchild of a Portuguese citizen — citizenship by origin (art. 1(1)(d/e) Lei 37/81), handled by application to IRN with sufficient knowledge of Portuguese (sufficient knowledge — usually evidenced by CIPLE A2, but in some cases IRN accepts other evidence).\n\n🚫 Great-grandchildren have NO direct category: the parent/grandparent must first obtain citizenship, after which the applicant applies as a child/grandchild.\n\n🚫 The Sephardic route has been fully abolished (from 19/05/2026). Applications under the Sephardic route submitted BEFORE 19/05/2026 may be assessed under the previous regime (LO 1/2024 — residence ≥ 3 years + committee).\n\n⚖️ Transitional provision: for applications submitted on Portal da Nacionalidade BEFORE 19/05/2026, the previous rules apply (including the Sephardic route under LO 1/2024).',
+  tldr: '🆕 Under the new Lei Orgânica n.º 1/2026 (published on 18/05/2026, in force from 19/05/2026) the direct descent routes are:\n\n👶 Child of a Portuguese citizen — handled by application/declaration at IRN/Conservatória; no language requirement.\n\n👦 Grandchild of a Portuguese citizen — citizenship by origin (art. 1(1)(d/e) Lei 37/81), handled by application to IRN with sufficient knowledge of Portuguese (sufficient knowledge — usually evidenced by CIPLE A2, but in some cases IRN accepts other evidence).\n\n🆗 Great-grandchild of an originarily-Portuguese ancestor — there IS a separate NATURALISATION route (art. 6(8)): ≥ 5 years of legal residence is enough (the 7/10-year rule is waived) plus the other art. 6(1) requirements. For more distant degrees (great-great-grandchildren and beyond) there is still no direct route — the intermediate generation must obtain citizenship first.\n\n🚫 The Sephardic route has been fully abolished (from 19/05/2026). Applications under the Sephardic route submitted BEFORE 19/05/2026 may be assessed under the previous regime (LO 1/2024 — residence ≥ 3 years + committee).\n\n⚖️ Transitional provision: for applications submitted on Portal da Nacionalidade BEFORE 19/05/2026, the previous rules apply (including the Sephardic route under LO 1/2024).',
   tags: ['citizenship', 'descent', 'ancestors'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (in force from 19/05/2026): for descent routes, the direct categories remain — children and grandchildren of Portuguese citizens. The Sephardic route has been fully abolished for new applications (it previously operated under the LO 1/2024 regime — residence ≥ 3 years + committee). Applications submitted BEFORE 19/05/2026 are assessed under the previous rules, including the Sephardic route.',
+  recentlyChangedAt: '2026-06-23',
+  changeSummary: 'Added the naturalization route for great-grandchildren of originarily-Portuguese ancestors (art. 6(8) Lei Orgânica 1/2026): 5 years residence, 7/10-year rule waived.',
   steps: [
     {
       id: 'categories',
@@ -20,8 +20,8 @@ export default {
           { id: 'd2', title: 'Grandchild of a Portuguese citizen', content: [
             { kind: 'paragraph', text: 'This is citizenship by origin, but it is NOT “automatic”: you must submit a declaration/application to IRN or a Conservatória and meet the conditions of art. 1.º Lei da Nacionalidade.\n\nIn practice, the key proof of connection to the Portuguese community is sufficient knowledge of the Portuguese language, usually A2 level (CIPLE or a recognised equivalent/exemption). “Cultural ties” alone are usually not enough. Criminal/security exclusion grounds are also checked.' }
           ]},
-          { id: 'd3', title: 'Great-grandchild and beyond — there is NO direct route', content: [
-            { kind: 'paragraph', text: 'There is no direct “great-grandchild” category in Lei 37/81. The usual sequence is: first, the intermediate generation obtains citizenship (the parent or grandparent); then the applicant checks whether they can apply as a child or grandchild of a Portuguese citizen. If the chain cannot be built — the ordinary routes remain, primarily naturalisation after 5 years of legal residence (under the new law after publication of Decreto AR 48/XVII in the DRE — 7 years for CPLP/EU, 10 years for everyone else).' }
+          { id: 'd3', title: 'Great-grandchild of an originarily-Portuguese ancestor — a separate naturalisation route (5 years of residence)', content: [
+            { kind: 'paragraph', text: 'Under the new version of Lei 37/81 (art. 6.º n.º 8, in force from 19/05/2026) a great-grandchild — a third-degree descendant in the direct line of an originarily-Portuguese ancestor (descendente em 3.º grau na linha reta de portugueses originários) — can obtain citizenship by naturalisation with the 7/10-year requirement waived: ≥ 5 years of legal residence in Portugal is enough, plus the other art. 6.º n.º 1 requirements (A2 language, culture/history test, no conviction above the threshold, means of subsistence). This is specifically a route through naturalisation (not “by origin”, as for children and grandchildren). For more distant degrees of kinship (great-great-grandchild and beyond) there is no direct route — you must first obtain citizenship for the intermediate generation.' }
           ]}
         ]}
       ]
@@ -90,6 +90,6 @@ export default {
     { title: 'Arquivo Nacional Torre do Tombo', url: 'https://antt.dglab.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidência da República — Promulgation of Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-06-23',
   verifyIntervalDays: 90
 }

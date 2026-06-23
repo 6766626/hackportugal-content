@@ -6,8 +6,8 @@ export default {
   tldr: '🆕 Under Lei Orgânica n.º 1/2026 (published 18/05/2026, in force from 19/05/2026), the minimum period to apply for citizenship by marriage or união de facto REMAINS 3 years (Lei 37/81, art. 3) — the “5 years” talk refers to naturalisation by residence, not to marriage. The new wording does not raise the bar for marriage; instead it TIGHTENS the opposition regime: the period within which the Ministério Público may file opposition is extended from 1 year to 2 years, and the assessment of “ligação efetiva à comunidade nacional” now factors in language/culture/integration parameters (aligned with art. 6). A CIPLE language certificate is formally NOT required for this route. The presumption of no opposition still applies from >6 years of marriage/union OR where there are common children who are Portuguese citizens (art. 9/10). Excluded from the regime: anyone sentenced to effective imprisonment of more than 3 years for serious crimes (terrorism, violent/organised crime, etc.).\n\n⚖️ Transitional provision: administrative procedures begun BEFORE 19/05/2026 continue under the previous version of the law.\n\nA simple registration of união de facto at the Junta de Freguesia or Conservatória is NOT sufficient for citizenship purposes — a court decision (sentença declarativa) is required. Living in Portugal is not mandatory.',
   tags: ['citizenship', 'marriage', 'união'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-05-18',
-  changeSummary: '🆕 Lei Orgânica n.º 1/2026 (in force from 19/05/2026): the minimum period of marriage / união de facto to apply for citizenship REMAINS 3 years (art. 3 unchanged). The reform tightens not the period itself but the opposition regime: the Ministério Público opposition window is extended from 1 year to 2 years, and the assessment of “effective ties” now factors in language/culture/integration. The presumption of no opposition still applies from >6 years of marriage/union or where there are common children who are Portuguese citizens. Procedures begun BEFORE 19/05/2026 continue under the previous version. 🔴 The accompanying Decreto 49/XVII (loss of citizenship as a criminal penalty) — on 08/05/2026 the Constitutional Court UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament; PSD will not reconfirm it.',
+  recentlyChangedAt: '2026-06-23',
+  changeSummary: 'Clarified the status of a criminal conviction as a rebuttable presumption (art. 6.º n.º 14/15). Lei Orgânica n.º 1/2026 (in force from 19/05/2026): the minimum period of marriage / união de facto to apply for citizenship REMAINS 3 years (art. 3 unchanged). The reform tightens not the period itself but the opposition regime: the Ministério Público opposition window is extended from 1 year to 2 years, and the assessment of “effective ties” now factors in language/culture/integration. The presumption of no opposition still applies from >6 years of marriage/union or where there are common children who are Portuguese citizens. Procedures begun BEFORE 19/05/2026 continue under the previous version. 🔴 The accompanying Decreto 49/XVII (loss of citizenship as a criminal penalty) — on 08/05/2026 the Constitutional Court UNANIMOUSLY found it unconstitutional; on 12/05/2026 President Seguro returned it to Parliament; PSD will not reconfirm it.',
   steps: [
     {
       id: 'universal',
@@ -24,7 +24,7 @@ export default {
           '💍 Marriage to a Portuguese citizen for ≥ 3 years at the time of application (Lei 37/81 art. 3 n.1)',
           '🤝 OR união de facto for >3 years with a Portuguese citizen, recognised by a court decision (Lei 37/81 art. 3 n.3) — sentença declarativa from a court; a simple certificate or registration at the Junta de Freguesia is NOT accepted for citizenship',
           '📜 Valid marriage at the time of application (no divorce, no legally recognised separation)',
-          '⚖️ No criminal convictions in any country with a sentence of ≥ 3 years’ imprisonment'
+          '⚖️ A conviction to ≥ 3 years’ imprisonment for serious crimes creates an impediment, but this is a REBUTTABLE presumption (art. 6.º n.º 14/15): the Ministério Público weighs the circumstances and the applicant may seek judicial removal of the effect'
         ]},
         { kind: 'paragraph', text: 'Formally NOT required for this route:' },
         { kind: 'checklist', items: [
@@ -125,6 +125,6 @@ export default {
     { title: 'ePortugal — união de facto', url: 'https://www.gov.pt/cidadaos/-/informacoes/reconhecimento-de-uniao-de-facto', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Presidency of the Republic — Promulgation of Decreto AR 48/XVII (Lei da Nacionalidade)', url: 'https://www.presidencia.pt/atualidade/toda-a-atualidade/2026/05/presidente-da-republica-promulga-decreto-da-assembleia-da-republica/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-06-23',
   verifyIntervalDays: 90
 }

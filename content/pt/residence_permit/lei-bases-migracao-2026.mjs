@@ -6,6 +6,8 @@ export default {
   tldr: 'Lei n.º 61/2025 de 22 de outubro de 2025 — a principal reforma do regime migratório, que elimina a Manifestação de Interesse como via massificada de legalização após a entrada (prazo transitório para processos já iniciados — 31.12.2025), cria um visto qualificado para procura de trabalho e torna mais rigoroso o controlo prévio à entrada. Para o expat, a principal conclusão é: entrar com o visto correto D1-D8/trabalho/família, marcar AIMA com antecedência e reunir provas de rendimento e alojamento. Taxas AIMA desde 01.03.2026 — 133 € pela receção e 307,20 € pela autorização de residência ao abrigo do art. 75.',
   tags: ['aima', 'autorização de residência', 'lei23', 'migração', 'irs'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-06-23',
+  changeSummary: 'Clarificada a secção sobre reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): descrita a estrutura do regime — sem requisito de período de residência quando o agregado inclui filhos menores/incapazes, isenções para Golden Visa (art. 90-A), altamente qualificados/docentes/agentes culturais (art. 90) e Cartão Azul UE (art. 121-A); para cônjuges sem dependentes menores, requisito de tempo de residência do requerente principal mais coabitação prévia (~18 meses). Confirme os prazos exatos com a AIMA.',
   steps: [
     {
       id: 'what-changed',
@@ -46,6 +48,7 @@ export default {
       content: [
         { kind: 'paragraph', text: 'A reforma reforça o princípio: o reagrupamento familiar deve estar ligado ao estatuto real e estável do residente principal. AIMA não analisa apenas a certidão de casamento ou de nascimento, mas também a duração/tipo de autorização de residência, a morada, o rendimento e a ausência de caráter fictício.' },
         { kind: 'paragraph', text: 'Na prática, isto significa: prepare o dossiê familiar com antecedência, ainda antes do primeiro pedido de autorização de residência do requerente principal. Se a família viajar em conjunto com vistos, a fase consular é tão importante como a marcação na AIMA. Se a família se juntar mais tarde, o requerente principal deve ter autorização de residência válida, alojamento e rendimento.' },
+        { kind: 'paragraph', text: 'Reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): não há requisito de período de residência se o agregado incluir filhos menores/incapazes; estão também isentos os titulares de Golden Visa (art. 90-A), os altamente qualificados/docentes/agentes culturais (art. 90) e os titulares de Cartão Azul UE (art. 121-A). Para cônjuges sem dependentes menores aplica-se um requisito de tempo de residência do requerente principal mais prova de coabitação prévia (cerca de 18 meses). São obrigatórias provas de alojamento adequado e de meios de subsistência (sem contar prestações sociais). Confirme os prazos exatos com a AIMA — os detalhes regulamentares ainda estão a ser finalizados.' },
         { kind: 'checklist', items: [
           'Passaportes de todos os membros da família, válidos com margem suficiente.',
           'Certidão de casamento/nascimento com apostila ou legalização, e tradução se necessário.',
@@ -130,6 +133,6 @@ export default {
     { title: 'Diário da República — Lei n.º 61/2025 de 22 de outubro (reforma migratória)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-18' },
     { title: 'AIMA — informação sobre residência, Reagrupamento Familiar e taxas', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-06-23',
   verifyIntervalDays: 90
 }

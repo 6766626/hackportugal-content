@@ -3,7 +3,7 @@ export default {
   id: 'madeira-irs-rates',
   categoryId: 'taxes',
   title: 'IRS in Madeira: a separate tax rate for residents of the autonomous region',
-  tldr: 'Tax residents of Madeira use a separate IRS table, not the mainland Portugal table. In 2026 Madeira has reduced rates: for the lower bracket MCS indicates 8.75% versus the mainland reference 12.50%; however, the current nationwide first IRS rate for 2026 is 11.97%, so check the final calculation in the AT simulator. For capital income, the standard special rate in Madeira is 19.6% instead of 28%. The key condition is fiscal domicile in Madeira.',
+  tldr: 'Tax residents of Madeira use a separate IRS table, not the mainland Portugal table. In 2026 Madeira has reduced rates: for the lower bracket MCS indicates 8.75% versus the mainland first IRS rate for 2026 of 11.97%, so check the final calculation in the AT simulator. For capital income, the standard special rate in Madeira is 19.6% instead of 28%. The key condition is fiscal domicile in Madeira.',
   tags: ['irs', 'madeira', 'taxes', 'finanças'],
   estimatedReadMinutes: 5,
   steps: [
