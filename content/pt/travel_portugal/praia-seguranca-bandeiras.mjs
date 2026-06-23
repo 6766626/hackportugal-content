@@ -6,7 +6,7 @@ export default {
   tldr: 'O Atlântico em Portugal é frio e tem correntes fortes — afogam-se aqui tanto residentes como turistas. A regra principal: tome banho apenas numa praia vigiada, dentro da zona entre as bandeiras amarela e vermelha, e olhe para a bandeira de sinalização do nadador-salvador. Verde significa que pode entrar, amarela significa só até à cintura sem nadar para fora, vermelha significa que não pode entrar na água de todo, e a bandeira axadrezada (preta e branca) significa que não há nadador-salvador. Isto NÃO é o mesmo que a Bandeira Azul (que é um rótulo ecológico de qualidade). Se for apanhado por um agueiro (corrente de retorno), não lute contra ele — nade ao longo da costa. O número de emergência na água e na praia é o 112.',
   tags: ['praia', 'segurança', 'verão', 'mar'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Novo guia: o significado das bandeiras de praia, praia vigiada vs não vigiada, correntes de retorno (agueiros), riscos de calor e do mar, e como pedir ajuda pelo 112.',
   steps: [
     {

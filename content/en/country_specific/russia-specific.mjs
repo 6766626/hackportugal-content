@@ -122,6 +122,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90,
-  recentlyChangedAt: '2026-05-13',
   changeSummary: '13.05.2026 Added a section on the announcement by the Embassy of Portugal in Moscow dated 17.04.2026: simplification of the document submission procedure for study visas D4 (national study), E9 (Erasmus Mundus) and E6 (for subsequent contact with AIMA). Clarified: the Embassy does not literally state “without appointment”; it refers to priority/simplified submission. BLS Moscow opening hours: applications 09:00–15:00, collection/consultations 15:00–16:00 (Mon–Fri).'
 }

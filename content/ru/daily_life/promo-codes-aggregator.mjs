@@ -186,6 +186,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: скидочные карты и промо в Португалии. Cartão Continente (главный), Pingo Doce Poupa Mais, Cartão Jovem Europeu (12-29 лет, ~60 категорий скидок), Cartão Família Numerosa (для 3+ детей), магазинные программы (KIWOKO, Decathlon, FNAC), кэшбэк-сайты (Letyshops, eBuyClub), купонные агрегаторы (Radarcupao, Ocacapromocoes), e-Fatura возврат IVA через IRS.'
 }

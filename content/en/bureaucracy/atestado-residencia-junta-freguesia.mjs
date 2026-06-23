@@ -6,7 +6,7 @@ export default {
   tldr: 'The atestado de residência (residence certificate) is an official document from your Junta de Freguesia (your local parish council) confirming where you live. It is requested for school/nursery enrolment, certain social benefits, banks, AIMA and other procedures. It is NOT the same as a comprovativo de morada (proof of address, e.g. a utility bill) or a certificado de residência from AIMA. You will need: photo ID, a comprovativo de morada and the junta form. A key catch for newcomers: if you are not on the electoral roll (recenseamento) of that freguesia, you will need 2 witnesses who are registered there and are not relatives of yours. The cost is usually free or up to ~€5 (≈€5.60 at a Loja do Cidadão).',
   tags: ['atestado de residência', 'junta de freguesia', 'documents', 'morada'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'New guide: how to obtain an atestado de residência at the Junta de Freguesia — documents, witnesses for those not on the electoral roll, cost, and the difference from a comprovativo de morada and the AIMA certificado.',
   steps: [
     {

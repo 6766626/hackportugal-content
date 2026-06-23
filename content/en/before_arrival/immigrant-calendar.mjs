@@ -146,6 +146,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: immigrant calendar — what to do month by month after arrival in Portugal. Month 1 (NIF, bank, rental), month 2 (NISS, SNS, Chave Móvel Digital), months 2-4 (AIMA), months 4-9 (obtaining the residence permit), year 1 (IRS, insurance), year 2 (residence permit renewal), year 5 (citizenship/permanent residence permit). Linked to all key guides in the app.'
 }

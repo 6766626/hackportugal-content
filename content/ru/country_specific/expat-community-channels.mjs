@@ -114,6 +114,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 60,
-  recentlyChangedAt: '2026-05-13',
   changeSummary: 'Новый гайд: подборка верифицированных каналов и групп для бразильцев, американцев, британцев, индийцев и общих expat-сетей в Португалии. Telegram, Facebook-группы, форумы (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — со ссылками в Community-разделе приложения.'
 }

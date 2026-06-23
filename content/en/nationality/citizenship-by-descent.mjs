@@ -6,7 +6,7 @@ export default {
   tldr: '🆕 Under the new Lei Orgânica n.º 1/2026 (published on 18/05/2026, in force from 19/05/2026) the direct descent routes are:\n\n👶 Child of a Portuguese citizen — handled by application/declaration at IRN/Conservatória; no language requirement.\n\n👦 Grandchild of a Portuguese citizen — citizenship by origin (art. 1(1)(d/e) Lei 37/81), handled by application to IRN with sufficient knowledge of Portuguese (sufficient knowledge — usually evidenced by CIPLE A2, but in some cases IRN accepts other evidence).\n\n🆗 Great-grandchild of an originarily-Portuguese ancestor — there IS a separate NATURALISATION route (art. 6(8)): ≥ 5 years of legal residence is enough (the 7/10-year rule is waived) plus the other art. 6(1) requirements. For more distant degrees (great-great-grandchildren and beyond) there is still no direct route — the intermediate generation must obtain citizenship first.\n\n🚫 The Sephardic route has been fully abolished (from 19/05/2026). Applications under the Sephardic route submitted BEFORE 19/05/2026 may be assessed under the previous regime (LO 1/2024 — residence ≥ 3 years + committee).\n\n⚖️ Transitional provision: for applications submitted on Portal da Nacionalidade BEFORE 19/05/2026, the previous rules apply (including the Sephardic route under LO 1/2024).',
   tags: ['citizenship', 'descent', 'ancestors'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Added the naturalization route for great-grandchildren of originarily-Portuguese ancestors (art. 6(8) Lei Orgânica 1/2026): 5 years residence, 7/10-year rule waived.',
   steps: [
     {

@@ -180,6 +180,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: karting in Portugal — ~15 centres. Main locations: OKL (the only outdoor track in Lisbon, €25/15 min), Karting Almancil (Algarve, opened by Senna in 1992, Mini F1 for children from 3 years old), AIA Kartódromo (FIA-certified), Baltar (1,023 m). 2026 prices, age categories, booking tips.'
 }

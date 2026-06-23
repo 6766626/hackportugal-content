@@ -122,6 +122,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90,
-  recentlyChangedAt: '2026-05-13',
   changeSummary: '13.05.2026 Adicionada secção sobre o anúncio da Embaixada de Portugal em Moscovo de 17.04.2026: simplificação do procedimento de entrega de documentos para vistos de estudo D4 (nacional de estudo), E9 (Erasmus Mundus) e E6 (para contacto posterior com a AIMA). Esclarecido: a embaixada não declara literalmente “sem marcação”; trata-se de entrega prioritária/simplificada. Horário da BLS Moscovo: recepção 09:00–15:00, entrega/consultas 15:00–16:00 (seg–sex).'
 }

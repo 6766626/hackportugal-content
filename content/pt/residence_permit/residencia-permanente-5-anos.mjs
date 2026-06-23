@@ -194,7 +194,6 @@ export default {
     { title: 'DRE — legislação consolidada sobre autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-31',
-  recentlyChangedAt: '2026-05-25',
   changeSummary: 'Grande atualização de Maio 2026: (1) Passo "A realidade da AIMA em 2026" com contornos (Livro Amarelo, intimação, Lojas regionais, CLAIM), prazo honesto de 1–2 anos, nota explícita de que o portal AIMA de Jan 2026 é apenas para renovações. (2) Passo "Quando começam a contar os 5 anos" com 8 nuances importantes (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT). (3) Mitos frequentes sobre ARP art. 80. (4) Corrigida referência à Portaria — a correta é Portaria 307/2023 (versão consolidada), não 480/2025/1. (5) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a ARP torna-se mais importante como estatuto intermédio durante os 7–10 anos de espera pela nacionalidade.',
   verifyIntervalDays: 90
 }

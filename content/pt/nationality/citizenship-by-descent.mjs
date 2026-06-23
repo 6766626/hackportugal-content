@@ -6,7 +6,7 @@ export default {
   tldr: '🆕 Ao abrigo da nova Lei Orgânica n.º 1/2026 (publicada em 18.05.2026, em vigor desde 19.05.2026), as vias diretas por parentesco são:\n\n👶 Filho de cidadão português — tratado por requerimento/declaração no IRN/Conservatória; não é exigido conhecimento da língua.\n\n👦 Neto de cidadão português — nacionalidade por origem (art. 1(1)(d/e) Lei 37/81), tratada por requerimento no IRN mediante conhecimento suficiente da língua portuguesa (sufficient knowledge — normalmente comprovado por CIPLE A2, embora em alguns casos o IRN aceite outros meios de prova).\n\n🆗 Bisneto de português originário — EXISTE uma via separada de NATURALIZAÇÃO (art. 6.º n.º 8): bastam ≥ 5 anos de residência legal (dispensa-se o prazo de 7/10 anos) mais os restantes requisitos do art. 6.º n.º 1. Para graus mais distantes (trineto e seguintes) continua a não haver via direta — primeiro, a geração intermédia tem de obter a nacionalidade.\n\n🚫 A via sefardita foi totalmente revogada (desde 19.05.2026). Os pedidos pela via sefardita apresentados ANTES de 19.05.2026 podem ser apreciados segundo o regime anterior (LO 1/2024 — residência ≥ 3 anos + comissão).\n\n⚖️ Disposição transitória: aos pedidos apresentados no Portal da Nacionalidade ANTES de 19.05.2026 aplicam-se as regras anteriores (incluindo a via sefardita ao abrigo da LO 1/2024).',
   tags: ['nacionalidade', 'parentesco', 'antepassados'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Adicionada a via de naturalização para bisnetos de portugueses originários (art. 6.º n.º 8 da Lei Orgânica 1/2026): 5 anos de residência, dispensa do prazo de 7/10 anos.',
   steps: [
     {

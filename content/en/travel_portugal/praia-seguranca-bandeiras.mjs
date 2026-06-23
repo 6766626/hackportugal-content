@@ -6,7 +6,7 @@ export default {
   tldr: 'The Atlantic in Portugal is cold and has strong currents — both locals and tourists drown here. The main rule: swim only on a vigiada (lifeguarded) beach, inside the zone between the yellow-and-red flags, and watch the lifeguard\'s signal flag. Green means you can swim, yellow means waist-deep only with no swimming out, red means stay out of the water entirely, and the chequered (black-and-white) flag means there is no lifeguard. This is NOT the same as the Bandeira Azul (Blue Flag), which is an eco-label for quality. If a rip current (agueiro) catches you, do not fight it — swim parallel to the shore. The emergency number in the water and on the beach is 112.',
   tags: ['beach', 'safety', 'praia', 'summer'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'New guide: the meaning of beach flags, vigiada vs nao vigiada, rip currents (agueiros), heat and marine hazards, calling for help on 112.',
   steps: [
     {

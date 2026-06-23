@@ -6,7 +6,7 @@ export default {
   tldr: 'If you own or rent a plot or house near forest or scrubland, the law (Decreto-Lei 82/2021, the SGIFR system) requires you to clear flammable vegetation around buildings every year: a minimum of 50 m around a house in a forest zone and 100 m around settlements (10+ houses). The 2026 deadline on the mainland is 31 May, and for municipalities under a declared calamidade (state of calamity) it is extended to 30 June. After the deadline come inspections by the GNR/SEPNA and the câmara (town council) plus fines (for individuals, up to several thousand euros; for companies, tens of thousands). If you do not clear it, the câmara can do it for you and bill you. The duty is annual.',
   tags: ['gestão de combustível', 'limpeza', 'fires', 'land'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'New guide: the legal duty to clear land (SGIFR / DL 82/2021), the 50/100 m distances, the 2026 deadlines (31 May / 30 June under calamidade), fines and the câmara doing the work in your place.',
   steps: [
     {

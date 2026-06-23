@@ -146,6 +146,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: calendário do imigrante — o que fazer mês a mês após a chegada a Portugal. Mês 1 (NIF, banco, arrendamento), mês 2 (NISS, SNS, Chave Móvel Digital), meses 2-4 (AIMA), meses 4-9 (obtenção da autorização de residência), ano 1 (IRS, seguros), ano 2 (renovação da autorização de residência), ano 5 (cidadania/autorização de residência permanente). Ligado a todos os guias principais na aplicação.'
 }

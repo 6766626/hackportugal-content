@@ -194,7 +194,6 @@ export default {
     { title: 'DRE — legislação consolidada sobre autorização de residência permanente', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
   lastVerified: '2026-05-31',
-  recentlyChangedAt: '2026-05-25',
   changeSummary: 'Большое обновление май 2026: (1) Шаг «Реальность AIMA в 2026» с обходными путями (Livro Amarelo, intimação, региональные офисы AIMA, центры CLAIM), честный срок 1–2 года, явное указание, что портал AIMA с января 2026 — только для продлений. (2) Шаг «Когда считать 5 лет» с 8 частными случаями (D-виза, MdI, очередь на продление, перерывы между ВНЖ, переход SEF→AIMA, смена типа визы, reagrupamento, дети в Португалии). (3) Распространённые мифы про ПМЖ art. 80. (4) Исправлена ссылка на портарию — правильная Portaria 307/2023 (versão consolidada), не 480/2025/1. (5) Lei Orgânica 1/2026 (в силе с 19.05.2026): ПМЖ становится важнее как промежуточный статус на 7–10 лет ожидания гражданства.',
   verifyIntervalDays: 90
 }

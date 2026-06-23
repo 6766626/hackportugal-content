@@ -7,7 +7,7 @@ export default {
   tags: ['aima', 'внж', 'продление', 'онлайн'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-06-23',
-  changeSummary: 'Исправлена трактовка 6-месячного срока (Decreto Regulamentar 84/2007 ст. 63.º n.º 14) и добавлена ситуация после дедлайна 15.04.2026 по разъяснениям AIMA.',
+  changeSummary: '📌 Исправлена трактовка 6-месячного срока (Decreto Regulamentar 84/2007 ст. 63.º n.º 14) и добавлена ситуация после дедлайна 15.04.2026 по разъяснениям AIMA.',
   steps: [
     {
       id: 'which-portal',

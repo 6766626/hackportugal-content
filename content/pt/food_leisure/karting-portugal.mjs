@@ -180,6 +180,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: karting em Portugal — ~15 centros. Principais localizações: OKL (a única pista outdoor em Lisboa, 25 €/15 min), Karting Almancil (Algarve, aberto por Senna em 1992, Mini F1 para crianças a partir dos 3 anos), AIA Kartódromo (certificado pela FIA), Baltar (1023 m). Preços 2026, categorias etárias, dicas de reserva.'
 }

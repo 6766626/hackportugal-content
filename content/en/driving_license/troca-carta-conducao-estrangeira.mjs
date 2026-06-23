@@ -6,7 +6,7 @@ export default {
   tldr: 'If you have become a resident of Portugal, sooner or later you must exchange your foreign licence for a Portuguese one at the IMT (the national mobility and transport authority). Since 21 January 2026 the exchange is filed ONLINE ONLY — there are no more in-person appointments for this service. Licences from the EU/EEA and from countries with an agreement are exchanged without a test (usually within 2 years of becoming a resident); licences from countries without a convention require a Portuguese driving test. You need an electronic atestado médico (medical certificate — the doctor sends it to the IMT directly), and for categories C/D also a psychological assessment. The exchange costs 30 €, and the finished card arrives in about 60 days. Check the exact rules for your country at imt-ip.pt.',
   tags: ['carta de condução', 'licence', 'IMT', 'troca'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'New guide: exchanging a foreign driving licence for a Portuguese one through the IMT — online only since 21 January 2026, EU/non-EU rules, atestado médico (medical certificate), timelines, cost.',
   steps: [
     {

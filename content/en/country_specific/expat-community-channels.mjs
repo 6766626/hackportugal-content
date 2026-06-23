@@ -114,6 +114,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 60,
-  recentlyChangedAt: '2026-05-13',
   changeSummary: 'New guide: a selection of verified channels and groups for Brazilians, Americans, British people, Indians and general expat networks in Portugal. Telegram, Facebook groups, forums (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — with links in the Community section of the app.'
 }

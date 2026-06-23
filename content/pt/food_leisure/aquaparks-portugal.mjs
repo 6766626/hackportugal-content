@@ -195,6 +195,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: todos os 8 grandes parques aquáticos de Portugal (Algarve, norte, centro, Madeira) com preços de 2026 verificados, épocas de funcionamento, moradas e conselhos práticos. Fontes — sites oficiais do Aquashow, Slide & Splash, Aqualand e portal Visit Portugal.'
 }

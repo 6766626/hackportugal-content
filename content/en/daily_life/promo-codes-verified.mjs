@@ -157,6 +157,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 90,
-  recentlyChangedAt: '2026-05-18',
   changeSummary: '🔥 Added 2 personal HackPortugal referral links to fintech services with active bonuses until 02/06/2026: Vivid Money (€20 per friend × 5 = €100, friend gets 3% annual interest for 60 days) and Revolut (€40 per friend, up to 10 rewards; friend must register + KYC + top up + 3 purchases of €5+ + order physical card). Savings strategy recalculated with the new subscription price €17.99/year: 5 Vivid friends + 1 Revolut friend = €140 pays back the subscription for 7+ years. Fintech section rewritten: for N26/Wise/Bunq we now state honestly that HackPortugal has no personal code, with bonuses and conditions described as general options.'
 }

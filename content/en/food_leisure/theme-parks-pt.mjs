@@ -138,6 +138,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: theme parks in Portugal — KidZania (Lisbon), Dino Parque (Lourinhã), Magikland (Penafiel), Sea Life (Porto), Zoomarine (Algarve) + lesser-known parks. Verified 2026 prices, age categories and lifehacks.'
 }

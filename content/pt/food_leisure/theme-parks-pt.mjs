@@ -138,6 +138,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: parques temáticos de Portugal — KidZania (Lisboa), Dino Parque (Lourinhã), Magikland (Penafiel), Sea Life (Porto), Zoomarine (Algarve) + menos conhecidos. Preços de 2026 verificados, categorias etárias, dicas práticas.'
 }

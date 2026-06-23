@@ -6,7 +6,7 @@ export default {
   tldr: 'Se passou a ser residente em Portugal, mais cedo ou mais tarde tem de trocar a carta de condução estrangeira por uma portuguesa no IMT. Desde 21.01.2026 a troca submete-se APENAS online — já não existe atendimento presencial para este serviço. As cartas da UE/EEE e de países com acordo trocam-se sem exame (o prazo é, normalmente, até 2 anos após a obtenção da residência); as cartas de países sem convenção exigem o exame de condução português. É preciso um atestado médico eletrónico (o médico envia-o ao IMT diretamente) e, para as categorias C/D, ainda uma avaliação psicológica. A troca custa 30 € e a carta final chega, em média, em 60 dias. Confirme as regras exatas para o seu país em imt-ip.pt.',
   tags: ['carta de condução', 'carta', 'IMT', 'troca'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Novo guia: troca da carta de condução estrangeira por uma portuguesa através do IMT — online desde 21.01.2026, regras UE/não-UE, atestado médico, prazos, custo.',
   steps: [
     {

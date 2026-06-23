@@ -120,6 +120,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: salões de beleza em Portugal — manicure/pedicure/sobrancelhas. Plataformas de marcação (Treatwell, Fresha, Mygon), preços 2026 (desde 5 € sobrancelhas até 450 € microblading), etiqueta e gorjetas (opcional, 1-2 €), como encontrar profissionais que falam russo (diáspora em Cascais/Estoril/Algarve), segurança e normas ASAE, dicas úteis para descontos.'
 }

@@ -6,7 +6,7 @@ export default {
   tldr: 'O atestado de residência é um documento oficial emitido pela sua Junta de Freguesia (o órgão autárquico local) que confirma onde vive. É pedido para a inscrição na escola/creche, para alguns apoios sociais, bancos, AIMA e outros procedimentos. NÃO é o mesmo que um comprovativo de morada (uma fatura da luz) nem que um certificado de residência da AIMA. Vai precisar de: documento de identificação, comprovativo de morada e o formulário da junta. Um pormenor essencial para quem chegou há pouco: se não estiver inscrito nos cadernos eleitorais (recenseamento) dessa freguesia, são precisas 2 testemunhas que estejam recenseadas aí e que não sejam seus familiares. O custo costuma ser gratuito ou até ~5 € (cerca de 5,60 € numa Loja do Cidadão).',
   tags: ['atestado de residência', 'junta de freguesia', 'documentos', 'morada'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Novo guia: como obter o atestado de residência na Junta de Freguesia — documentos, testemunhas para quem não está recenseado, custo e a diferença em relação ao comprovativo de morada e ao certificado da AIMA.',
   steps: [
     {

@@ -178,7 +178,6 @@ export default {
     { title: 'AIMA — Permanent Authorisation', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-31',
-  recentlyChangedAt: '2026-05-25',
   changeSummary: 'May 2026 update: (1) Deeper comparison of national ARP (art. 80) and EULTR (art. 125+): students count differently, different absence thresholds, different resource standards. (2) Step "When the 5 years start" with 9 edge cases (D-visa, MdI, renewal queue, gaps, SEF→AIMA, conversions, reagrupamento, children born in PT, students). (3) Common myths about ARP vs EULTR differences. (4) Lei Orgânica 1/2026 (in force from 19.05.2026): citizenship now takes 7/10 years, ARP becomes more important as an intermediate status.',
   verifyIntervalDays: 180
 }

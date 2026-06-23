@@ -183,6 +183,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: OLX, CustoJusto, Vinted em Portugal. Comparação de plataformas, consequências fiscais da DAC7 (>2 000 € ou >30 vendas = comunicado às Finanças), principais burlas de 2025-2026 (SMS falsos de pagamento, links de phishing, push MB WAY), conselhos da DECO PROteste para comprar/vender em segurança.'
 }

@@ -6,7 +6,7 @@ export default {
   tldr: 'Atestado de residência — официальная справка от вашей Junta de Freguesia (местного «сельсовета»), подтверждающая, где вы живёте. Её просят для записи в школу/садик, ряда соцпособий, банков, AIMA и других процедур. Это НЕ то же самое, что comprovativo de morada (счёт за свет) или certificado de residência от AIMA. Нужны: удостоверение личности, comprovativo de morada и формуляр junta. Ключевой нюанс для новоприбывших: если вы не внесены в избирательные списки (recenseamento) этой freguesia, потребуются 2 свидетеля, которые там зарегистрированы и не являются вашими родственниками. Стоимость обычно бесплатно или до ~5 € (≈5,60 € в Loja do Cidadão).',
   tags: ['atestado de residência', 'junta de freguesia', 'документы', 'morada'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Новый гайд: как получить atestado de residência в Junta de Freguesia — документы, свидетели для непрописанных, стоимость, отличие от comprovativo de morada и certificado AIMA.',
   steps: [
     {

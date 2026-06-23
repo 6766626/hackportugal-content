@@ -180,6 +180,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: картинг в Португалии — ~15 центров. Главные локации: OKL (единственная outdoor-трасса в Лиссабоне, 25 €/15 мин), Karting Almancil (Algarve, открыт Сенной в 1992, mini-F1 для детей с 3 лет), AIA Kartódromo (FIA-сертифицированная), Baltar (1023 м). Цены 2026, возрастные категории, советы по бронированию.'
 }

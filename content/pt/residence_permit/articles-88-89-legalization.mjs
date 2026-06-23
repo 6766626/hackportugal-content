@@ -7,7 +7,7 @@ export default {
   tags: ['art 88', 'art 89', 'legalização', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
   recentlyChangedAt: '2026-06-23',
-  changeSummary: 'Clarificado o item sobre reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): sem requisito de período de residência quando o agregado inclui filhos menores/incapazes; isenções para Golden Visa (art. 90-A), altamente qualificados/docentes/agentes culturais (art. 90) e Cartão Azul UE (art. 121-A); para cônjuges sem dependentes menores, requisito de tempo de residência do requerente principal mais coabitação prévia (~18 meses) e provas de alojamento e meios. Confirme os prazos exatos com a AIMA.',
+  changeSummary: '📌 Clarificado o item sobre reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): sem requisito de período de residência quando o agregado inclui filhos menores/incapazes; isenções para Golden Visa (art. 90-A), altamente qualificados/docentes/agentes culturais (art. 90) e Cartão Azul UE (art. 121-A); para cônjuges sem dependentes menores, requisito de tempo de residência do requerente principal mais coabitação prévia (~18 meses) e provas de alojamento e meios. Confirme os prazos exatos com a AIMA.',
   steps: [
     {
       id: 'context',

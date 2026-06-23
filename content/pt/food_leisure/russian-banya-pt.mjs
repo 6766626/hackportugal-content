@@ -91,6 +91,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: banya russa em Portugal. Descrição honesta da realidade — não há banyas russas públicas, há saunas finlandesas/hammams/termas. Canais para procurar banyas privadas através da comunidade, preços, segurança. Alternativas: 5 grandes termas de Portugal, SPA em hotéis de Lisboa/Porto, viagem a Madrid/Barcelona.'
 }

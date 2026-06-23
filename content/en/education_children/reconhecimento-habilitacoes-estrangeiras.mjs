@@ -6,7 +6,7 @@ export default {
   tldr: 'For a foreign higher-education degree to "work" in Portugal — for studying, public competitions, regulated professions — you usually need to have it recognised. This is handled by DGES through the Centro ENIC-NARIC Portugal (online application at dges.gov.pt). There are three kinds: reconhecimento automático (automatic recognition, for degrees/countries on a published list), reconhecimento de nível (level recognition — matching to licenciatura/mestrado/doutoramento) and reconhecimento específico (specific recognition — comparison with a particular Portuguese programme, often for regulated professions). For doctors, nurses, engineers, lawyers and teachers you additionally need admission from the relevant professional body (Ordem) or regulator. Secondary-school education is recognised separately. The service is paid; timelines depend on the kind.',
   tags: ['diploma', 'reconhecimento', 'DGES', 'NARIC'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'New guide: recognition of foreign higher-education degrees in Portugal — DGES/ENIC-NARIC, the three kinds of recognition, regulated professions, school-level equivalence.',
   steps: [
     {

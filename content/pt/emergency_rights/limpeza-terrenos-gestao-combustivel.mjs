@@ -6,7 +6,7 @@ export default {
   tldr: 'Se é dono ou arrendatário de um terreno/casa perto de floresta ou matos, a lei (Decreto-Lei 82/2021, sistema SGIFR) obriga-o a limpar todos os anos a vegetação combustível à volta das construções: no mínimo 50 m em redor da casa em zona florestal e 100 m à volta dos aglomerados populacionais (10+ casas). O prazo para 2026 no Continente é até 31 de maio, e para os municípios com calamidade declarada é prolongado até 30 de junho. Depois do prazo há fiscalizações da GNR/SEPNA e da câmara municipal e coimas (para particulares, até alguns milhares de euros; para empresas, dezenas de milhares). Se não limpar, a câmara pode fazê-lo por si e cobrar-lhe a despesa. A obrigação é anual.',
   tags: ['gestão de combustível', 'limpeza', 'incendios', 'terreno'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Novo guia: obrigação legal de limpeza de terrenos (SGIFR / DL 82/2021), distâncias de 50/100 m, prazos de 2026 (31 de maio / 30 de junho em calamidade), coimas e limpeza substitutiva pela câmara.',
   steps: [
     {

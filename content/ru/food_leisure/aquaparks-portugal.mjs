@@ -195,6 +195,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: все 8 крупных аквапарков Португалии (Алгарве, север, центр, Мадейра) с верифицированными ценами 2026 года, сезонами работы, адресами и практическими советами. Источники — официальные сайты Aquashow, Slide & Splash, Aqualand и портал Visit Portugal.'
 }

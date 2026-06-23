@@ -186,6 +186,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: discount cards and promos in Portugal. Cartão Continente (main one), Pingo Doce Poupa Mais, Cartão Jovem Europeu (ages 12-29, ~60 discount categories), Cartão Família Numerosa (for 3+ children), shop programmes (KIWOKO, Decathlon, FNAC), cashback sites (Letyshops, eBuyClub), coupon aggregators (Radarcupao, Ocacapromocoes), e-Fatura IVA refund through IRS.'
 }

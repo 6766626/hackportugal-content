@@ -7,7 +7,7 @@ export default {
   tags: ['aima', 'residence permit', 'renewal', 'online'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-06-23',
-  changeSummary: 'Corrected the framing of the 6-month period (Decreto Regulamentar 84/2007 art. 63.º n.º 14) and added the post-15.04.2026 deadline situation per AIMA clarifications.',
+  changeSummary: '📌 Corrected the framing of the 6-month period (Decreto Regulamentar 84/2007 art. 63.º n.º 14) and added the post-15.04.2026 deadline situation per AIMA clarifications.',
   steps: [
     {
       id: 'which-portal',

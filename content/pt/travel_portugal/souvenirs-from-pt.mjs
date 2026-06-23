@@ -154,6 +154,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Novo guia: souvenirs de Portugal. Top 10 autênticos (Galo, azulejos, cortiça, Vinho do Porto, Vinho Verde, ginjinha, conservas, ovos moles, azeite, lenço dos namorados), onde comprar em Lisboa (A Vida Portuguesa, Mercado da Ribeira, Conserveira) e no Porto (Mercado do Bolhão, Vila Nova de Gaia), como distinguir o autêntico do mercado de massa chinês, regras alfandegárias.'
 }

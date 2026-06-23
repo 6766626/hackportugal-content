@@ -6,7 +6,7 @@ export default {
   tldr: 'Lei n.º 61/2025 de 22 de outubro de 2025 — a principal reforma do regime migratório, que elimina a Manifestação de Interesse como via massificada de legalização após a entrada (prazo transitório para processos já iniciados — 31.12.2025), cria um visto qualificado para procura de trabalho e torna mais rigoroso o controlo prévio à entrada. Para o expat, a principal conclusão é: entrar com o visto correto D1-D8/trabalho/família, marcar AIMA com antecedência e reunir provas de rendimento e alojamento. Taxas AIMA desde 01.03.2026 — 133 € pela receção e 307,20 € pela autorização de residência ao abrigo do art. 75.',
   tags: ['aima', 'autorização de residência', 'lei23', 'migração', 'irs'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Clarificada a secção sobre reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): descrita a estrutura do regime — sem requisito de período de residência quando o agregado inclui filhos menores/incapazes, isenções para Golden Visa (art. 90-A), altamente qualificados/docentes/agentes culturais (art. 90) e Cartão Azul UE (art. 121-A); para cônjuges sem dependentes menores, requisito de tempo de residência do requerente principal mais coabitação prévia (~18 meses). Confirme os prazos exatos com a AIMA.',
   steps: [
     {

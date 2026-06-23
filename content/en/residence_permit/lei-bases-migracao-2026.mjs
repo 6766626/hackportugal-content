@@ -6,7 +6,7 @@ export default {
   tldr: 'Lei n.º 61/2025 of 22 October 2025 is the main reform of the migration regime, abolishing manifestação de interesse as a mass route to legalisation after entry (transitional deadline for cases already started — 31.12.2025), creating a qualified job-seeker visa, and tightening pre-entry checks. For an expat, the main takeaway is: enter through the correct D1-D8/work/family visa route, book with AIMA in advance, and gather proof of income and accommodation. AIMA fees from 01.03.2026 are €133 for the appointment and €307.20 for the residence permit under art. 75.',
   tags: ['aima', 'residence permit', 'lei23', 'migration', 'irs'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Clarified the reagrupamento familiar section per Lei 61/2025 (in force): described the structure of the regime — no residence-period requirement when the household includes minor/incapable children, exemptions for Golden Visa (art. 90-A), highly-qualified/teaching/cultural (art. 90) and EU Blue Card (art. 121-A); for spouses without minor dependents, a residence-time requirement for the main applicant plus prior cohabitation (~18 months). Confirm exact periods with AIMA.',
   steps: [
     {

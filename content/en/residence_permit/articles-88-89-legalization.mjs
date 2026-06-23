@@ -7,7 +7,7 @@ export default {
   tags: ['art 88', 'art 89', 'legalisation', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
   recentlyChangedAt: '2026-06-23',
-  changeSummary: 'Clarified the reagrupamento familiar item per Lei 61/2025 (in force): no residence-period requirement when the household includes minor/incapable children; exemptions for Golden Visa (art. 90-A), highly-qualified/teaching/cultural (art. 90) and EU Blue Card (art. 121-A); for spouses without minor dependents, a residence-time requirement for the main applicant plus prior cohabitation (~18 months) and proof of housing and means. Confirm exact periods with AIMA.',
+  changeSummary: '📌 Clarified the reagrupamento familiar item per Lei 61/2025 (in force): no residence-period requirement when the household includes minor/incapable children; exemptions for Golden Visa (art. 90-A), highly-qualified/teaching/cultural (art. 90) and EU Blue Card (art. 121-A); for spouses without minor dependents, a residence-time requirement for the main applicant plus prior cohabitation (~18 months) and proof of housing and means. Confirm exact periods with AIMA.',
   steps: [
     {
       id: 'context',

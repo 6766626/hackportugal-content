@@ -7,7 +7,7 @@ export default {
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-06-23',
-  changeSummary: 'Corrigida a interpretação do prazo de 6 meses (Decreto Regulamentar 84/2007 art. 63.º n.º 14) e acrescentada a situação após o prazo de 15.04.2026 segundo os esclarecimentos da AIMA.',
+  changeSummary: '📌 Corrigida a interpretação do prazo de 6 meses (Decreto Regulamentar 84/2007 art. 63.º n.º 14) e acrescentada a situação após o prazo de 15.04.2026 segundo os esclarecimentos da AIMA.',
   steps: [
     {
       id: 'which-portal',

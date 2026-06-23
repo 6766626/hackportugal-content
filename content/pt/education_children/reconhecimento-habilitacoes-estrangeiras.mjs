@@ -6,7 +6,7 @@ export default {
   tldr: 'Para que um diploma estrangeiro de ensino superior «funcione» em Portugal — para estudar, para concursos, para profissões regulamentadas — normalmente é preciso reconhecê-lo. Disto trata a DGES, através do Centro ENIC-NARIC Portugal (candidatura online em dges.gov.pt). Existem três tipos: reconhecimento automático (para diplomas/países de uma lista), reconhecimento de nível (equiparação a um nível — licenciatura/mestrado/doutoramento) e reconhecimento específico (comparação com um curso português concreto, muitas vezes para profissões regulamentadas). Para médicos, enfermeiros, engenheiros, advogados e professores é ainda necessária a admissão da respetiva Ordem/entidade reguladora. O ensino secundário é reconhecido em separado. O serviço é pago; os prazos dependem do tipo.',
   tags: ['diploma', 'reconhecimento', 'DGES', 'NARIC'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Novo guia: reconhecimento de diplomas estrangeiros de ensino superior em Portugal — DGES/ENIC-NARIC, os três tipos de reconhecimento, profissões regulamentadas, equivalência do ensino secundário.',
   steps: [
     {

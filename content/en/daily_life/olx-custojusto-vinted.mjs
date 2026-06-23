@@ -183,6 +183,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: OLX, CustoJusto, Vinted in Portugal. Platform comparison, DAC7 tax consequences (>€2,000 or >30 sales = reported to Finanças), main scams in 2025-2026 (fake payment SMS messages, phishing links, MB Way push notifications), DECO PROteste advice on safe buying/selling.'
 }

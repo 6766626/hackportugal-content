@@ -120,6 +120,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: beauty salons in Portugal — manicure/pedicure/brows. Booking platforms (Treatwell, Fresha, Mygon), 2026 prices (from €5 brows to €450 microblading), etiquette and tips (optional, €1-2), how to find Russian-speaking professionals (diaspora in Cascais/Estoril/Algarve), safety and ASAE standards, life hacks for discounts.'
 }

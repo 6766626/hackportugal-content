@@ -178,7 +178,6 @@ export default {
     { title: 'AIMA — Autorização Permanente', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
   lastVerified: '2026-05-31',
-  recentlyChangedAt: '2026-05-25',
   changeSummary: 'Atualização de Maio 2026: (1) Comparação mais profunda entre ARP nacional (art. 80) e EULTR (art. 125+): estudantes contam de forma diferente, limiares de ausência diferentes, padrões de recursos diferentes. (2) Passo "Quando começam a contar os 5 anos" com 9 nuances importantes (visto D, MdI, fila de renovação, intervalos, SEF→AIMA, conversões, reagrupamento, crianças nascidas em PT, estudantes). (3) Mitos frequentes sobre diferenças ARP vs EULTR. (4) Lei Orgânica 1/2026 (em vigor desde 19.05.2026): a nacionalidade agora exige 7/10 anos, a ARP torna-se mais importante como estatuto intermédio.',
   verifyIntervalDays: 180
 }

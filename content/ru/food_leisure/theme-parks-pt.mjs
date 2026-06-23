@@ -138,6 +138,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: тематические парки Португалии — KidZania (Лиссабон), Dino Parque (Lourinhã), Magikland (Penafiel), Sea Life (Порту), Zoomarine (Algarve) + менее известные. Верифицированные цены 2026, возрастные категории, лайфхаки.'
 }

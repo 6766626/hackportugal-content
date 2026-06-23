@@ -91,6 +91,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: Russian banya in Portugal. Honest description of the reality — there are no public Russian banyas, but there are Finnish saunas/hammams/Termas. Channels for finding private banyas through the community, pricing, safety. Alternatives: 5 major Termas in Portugal, spas in Lisbon/Porto hotels, a trip to Madrid/Barcelona.'
 }

@@ -154,6 +154,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'New guide: souvenirs from Portugal. Top 10 authentic items (Galo, azulejos, cork, Port wine, Vinho Verde, ginjinha, tinned fish, ovos moles, olive oil, lenço dos namorados), where to buy in Lisbon (A Vida Portuguesa, Mercado da Ribeira, Conserveira) and Porto (Mercado do Bolhão, Vila Nova de Gaia), how to tell authentic items from Chinese mass-market goods, customs rules.'
 }

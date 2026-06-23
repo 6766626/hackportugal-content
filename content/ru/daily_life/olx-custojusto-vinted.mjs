@@ -183,6 +183,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 180,
-  recentlyChangedAt: '2026-05-17',
   changeSummary: 'Новый гайд: OLX, CustoJusto, Vinted в Португалии. Сравнение платформ, налоговые последствия DAC7 (>2000 € или >30 продаж = в Finanças), главные мошенничества 2025-2026 (фейковые SMS оплаты, фишинговые ссылки, MB Way push), советы DECO PROteste по безопасной покупке/продаже.'
 }

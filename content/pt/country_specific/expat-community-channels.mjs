@@ -114,6 +114,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 60,
-  recentlyChangedAt: '2026-05-13',
   changeSummary: 'Novo guia: selecção de canais e grupos verificados para brasileiros, americanos, britânicos, indianos e redes gerais de expats em Portugal. Telegram, grupos de Facebook, fóruns (British Expats, Expats Portugal Forum, Reddit r/PortugalExpats) — com ligações na secção Community da aplicação.'
 }
