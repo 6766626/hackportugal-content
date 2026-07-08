@@ -52,7 +52,7 @@ export default {
             { kind: 'paragraph', text: 'Through the dedicated portal portal-rf.aima.gov.pt (launched in 2024) or at an in-person appointment. Select the “Reagrupamento Familiar” type.' }
           ]},
           { id: 'r3', title: '3. Receive preliminary approval', content: [
-            { kind: 'timeline', text: 'Up to 9 months under Lei 61/2025 (previously 3 months, extendable by a further 3; the rule on “tacit approval” after 6 months was also revoked). In practice in 2026 — 6–12 months. If approved, AIMA sends a notification to the consulate in the family’s country of residence.' }
+            { kind: 'timeline', text: 'Up to 9 months under Lei 61/2025 (previously 3 months, extendable by a further 3; the rule on “tacit approval” after 6 months was also revoked). In practice in 2026 — 6–12 months. In June 2026 AIMA publicly confirmed: first family-reunification cards take up to 9 months; work permits show no significant delays. If approved, AIMA sends a notification to the consulate in the family’s country of residence.' }
           ]},
           { id: 'r4', title: '4. The family obtains a visa at the consulate', content: [
             { kind: 'paragraph', text: 'On the basis of AIMA approval. Fee — around €90 per person.' }

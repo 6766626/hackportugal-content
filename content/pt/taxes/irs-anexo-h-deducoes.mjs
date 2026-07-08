@@ -35,7 +35,7 @@ export default {
           'Educação e formação: 30% das despesas, máximo 800 € por household. Escolas, universidades, Creche, manuais escolares, propinas, cursos reconhecidos.',
           'Estudante deslocado: a renda de habitação de um estudante longe da morada permanente pode entrar em educação se houver contrato de arrendamento correto e registo no Portal das Finanças; o limite global de educação pode aumentar segundo regras especiais.',
           'Lares: 25% das despesas com lares, apoio domiciliário e instituições semelhantes, máximo 403,75 €.',
-          'Imóvel — renda de habitação permanente: 15% das rendas ao abrigo de contrato de arrendamento, máximo 700–800 € (após indexação OE 2024/25).',
+          'Imóvel — renda de habitação permanente: 15% das rendas ao abrigo de contrato de arrendamento, máximo 700–800 € (após indexação OE 2024/25). Para os rendimentos de 2026 (declaração em 2027) o limite sobe para 900 €, e a partir de 2027 — 1 000 € (Decreto-Lei 97/2026).',
           'Imóvel — juros de crédito à habitação: a dedução por juros de crédito à habitação aplica-se sobretudo a créditos antigos, contratados até 31.12.2011, máximo 296 €.',
           'IMI, condomínio, obras e mobiliário não se tornam dedução do Anexo H apenas por estarem relacionados com a habitação.'
         ] },

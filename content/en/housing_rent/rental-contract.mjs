@@ -128,7 +128,7 @@ export default {
               'Protection against eviction — self-help eviction is ILLEGAL. Even with 2+ months’ arrears or a serious breach, the landlord must terminate the contract and use the prescribed despejo procedure through BAS (Balcão do Arrendatário e do Senhorio) / tribunal; they cannot simply change the locks or remove belongings',
               'Major repairs — at the owner’s expense (roof, electrical wiring, structural defects)',
               'Return of caução: it is best to state the deadline directly in the contract (for example 15–30 days after entrega das chaves); there is no universal statutory “30 days” deadline under the general regime',
-              'IRS deduction: 15% of expenses for renda de habitação permanente within the limit for the current year — check the actual cap under art. 78.º-E CIRS on portaldasfinancas.gov.pt'
+              'IRS deduction: 15% of expenses for renda de habitação permanente within the limit for the current year — check the actual cap under art. 78.º-E CIRS on portaldasfinancas.gov.pt. For 2026 income the cap rises to €900, and from 2027 — €1,000 (Decreto-Lei 97/2026)'
             ]}
           ]},
           { id: 'r2', title: 'Tenant obligations', content: [

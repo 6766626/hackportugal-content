@@ -35,7 +35,7 @@ export default {
           'Educação e formação: 30% of expenses, maximum €800 per household. Schools, universities, creche, textbooks, propinas, recognised courses.',
           'Estudante deslocado: housing rent paid by a student away from their permanent address may be included in educação with the correct contrato de arrendamento and registration in Portal das Finanças; the overall educação limit may increase under special rules.',
           'Lares: 25% of expenses with lares, apoio domiciliário and similar institutions, maximum €403.75.',
-          'Imóvel — permanent home rent: 15% of rendas under a contrato de arrendamento, maximum €700–800 (after OE 2024/25 indexation).',
+          'Imóvel — permanent home rent: 15% of rendas under a contrato de arrendamento, maximum €700–800 (after OE 2024/25 indexation). For 2026 income (filed in 2027) the cap rises to €900, and from 2027 — €1,000 (Decreto-Lei 97/2026).',
           'Imóvel — mortgage interest: the deduction for juros de crédito à habitação applies mainly to old loans taken out before 31.12.2011, maximum €296.',
           'IMI, condomínio, repairs and furniture do not become an Anexo H deduction just because they are connected with housing.'
         ] },

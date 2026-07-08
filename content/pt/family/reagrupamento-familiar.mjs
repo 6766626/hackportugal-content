@@ -52,7 +52,7 @@ export default {
             { kind: 'paragraph', text: 'Através do portal especializado portal-rf.aima.gov.pt (lançado em 2024) ou em atendimento presencial. Seleccionar o tipo «Reagrupamento Familiar».' }
           ]},
           { id: 'r3', title: '3. Obter a aprovação preliminar', content: [
-            { kind: 'timeline', text: 'Até 9 meses de acordo com a Lei 61/2025 (anteriormente eram 3 meses, prorrogáveis por mais 3; foi também revogada a regra de «deferimento tácito» ao fim de 6 meses). Na prática, em 2026 — 6–12 meses. Em caso de aprovação, a AIMA envia uma notificação ao consulado do país de residência da família.' }
+            { kind: 'timeline', text: 'Até 9 meses de acordo com a Lei 61/2025 (anteriormente eram 3 meses, prorrogáveis por mais 3; foi também revogada a regra de «deferimento tácito» ao fim de 6 meses). Na prática, em 2026 — 6–12 meses. Em junho de 2026 a AIMA confirmou publicamente: os primeiros cartões de reagrupamento demoram até 9 meses; nas autorizações de trabalho não há atrasos significativos. Em caso de aprovação, a AIMA envia uma notificação ao consulado do país de residência da família.' }
           ]},
           { id: 'r4', title: '4. A família obtém o visto no consulado', content: [
             { kind: 'paragraph', text: 'Com base na aprovação da AIMA. Taxa — cerca de 90 € por pessoa.' }

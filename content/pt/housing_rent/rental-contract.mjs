@@ -128,7 +128,7 @@ export default {
               'Protecção contra despejo — o despejo por iniciativa própria é ILEGAL. Mesmo com dívida de 2+ meses ou incumprimento grave, o senhorio deve resolver o contrato e usar o procedimento de despejo previsto através do BAS (Balcão do Arrendatário e do Senhorio) / tribunal; não pode simplesmente trocar fechaduras ou retirar bens',
               'Obras estruturais — a cargo do proprietário (telhado, instalação eléctrica, defeitos estruturais)',
               'Devolução da caução: é melhor indicar expressamente o prazo no contrato (por exemplo, 15–30 dias após a entrega das chaves); no regime geral, não existe um prazo legal universal de «30 dias»',
-              'Dedução no IRS: 15% das despesas com renda de habitação permanente dentro do limite do ano em curso — confirme o actual cap nos termos do art. 78.º-E CIRS em portaldasfinancas.gov.pt'
+              'Dedução no IRS: 15% das despesas com renda de habitação permanente dentro do limite do ano em curso — confirme o actual cap nos termos do art. 78.º-E CIRS em portaldasfinancas.gov.pt. Para os rendimentos de 2026 o limite sobe para 900 €, e a partir de 2027 — 1 000 € (Decreto-Lei 97/2026)'
             ]}
           ]},
           { id: 'r2', title: 'Deveres do arrendatário', content: [
