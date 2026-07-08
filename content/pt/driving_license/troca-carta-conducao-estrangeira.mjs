@@ -3,11 +3,11 @@ export default {
   id: 'troca-carta-conducao-estrangeira',
   categoryId: 'driving_license',
   title: 'Trocar a carta de condução estrangeira por uma portuguesa (troca de carta no IMT)',
-  tldr: 'Se passou a ser residente em Portugal, mais cedo ou mais tarde tem de trocar a carta de condução estrangeira por uma portuguesa no IMT. Desde 21.01.2026 a troca submete-se APENAS online — já não existe atendimento presencial para este serviço. As cartas da UE/EEE e de países com acordo trocam-se sem exame (o prazo é, normalmente, até 2 anos após a obtenção da residência); as cartas de países sem convenção exigem o exame de condução português. É preciso um atestado médico eletrónico (o médico envia-o ao IMT diretamente) e, para as categorias C/D, ainda uma avaliação psicológica. A troca custa 30 € e a carta final chega, em média, em 60 dias. Confirme as regras exatas para o seu país em imt-ip.pt.',
+  tldr: 'Se passou a ser residente em Portugal, mais cedo ou mais tarde tem de trocar a carta de condução estrangeira por uma portuguesa no IMT. Desde 21.01.2026 a troca submete-se APENAS online — já não existe atendimento presencial para este serviço. As cartas da UE/EEE e de países com acordo trocam-se sem exame (o prazo é, normalmente, até 2 anos após a obtenção da residência); as cartas de países sem convenção exigem o exame de condução português. É preciso um atestado médico eletrónico (o médico envia-o ao IMT diretamente) e, para as categorias C/D, ainda uma avaliação psicológica. A troca custa 30 € e a carta final chega, em média, em 60 dias. Confirme as regras exatas para o seu país em imt-ip.pt.\n\nDesde 09.06.2026 (Decreto-Lei 114/2026): aos cidadãos extracomunitários a carta é emitida com validade não superior à do visto/autorização de residência, com o código de restrição 794 averbado. A carta mantém-se válida enquanto o título estiver válido ou em renovação.',
   tags: ['carta de condução', 'carta', 'IMT', 'troca'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-22',
-  changeSummary: 'Novo guia: troca da carta de condução estrangeira por uma portuguesa através do IMT — online desde 21.01.2026, regras UE/não-UE, atestado médico, prazos, custo.',
+  recentlyChangedAt: '2026-07-07',
+  changeSummary: '🚗 Decreto-Lei 114/2026 (em vigor desde 09.06.2026): para cidadãos extracomunitários, a validade da carta portuguesa fica limitada à validade do visto/autorização de residência, com o código 794 averbado. A carta mantém-se válida enquanto o título estiver válido ou em renovação. A regra estende-se às cartas já emitidas (sem código 794, mas com verificação do estatuto de residência).',
   steps: [
     {
       id: 'who-must',
@@ -22,6 +22,22 @@ export default {
           '🛑 Uma carta estrangeira caducada não se troca — primeiro teria de a revalidar no país emissor.'
         ] },
         { kind: 'warning', text: 'As regras e os prazos dependem muito do país que emitiu a carta. Confirme o seu país e o prazo exato no IMT (imt-ip.pt) — não confie em conselhos de grupos de conversa.' }
+      ]
+    },
+    {
+      id: 'validity-dl114',
+      title: 'Desde 09.06.2026: validade da carta ligada ao título de residência',
+      content: [
+        { kind: 'paragraph', text: 'O Decreto-Lei n.º 114/2026 (em vigor desde 9 de junho de 2026) alterou as regras para cidadãos extracomunitários: a carta de condução portuguesa passa a ser emitida com validade não superior à do visto ou da autorização de residência (art. 16.º n.º 9 do RHLC). Os habituais 15 anos de validade só se aplicam a quem tem direito de residência sem limite de prazo; para os restantes, a data da carta é reduzida à data do documento de residência.' },
+        { kind: 'checklist', items: [
+          'É averbado na carta o código de restrição 794: «validade limitada à comprovação de visto ou autorização de residência válido ou em processo de renovação».',
+          'A carta mantém-se válida enquanto o título de residência estiver válido OU em processo de renovação: um cartão caducado com renovação pedida a tempo não anula a carta.',
+          'Mas a prova do estado de renovação cabe-lhe a si — guarde o comprovativo do pedido de renovação e os documentos digitais da AIMA.',
+          'Regime transitório (art. 4.º): a regra aplica-se também às cartas emitidas antes de 9 de junho de 2026. O código 794 não é averbado nessas cartas, mas a validade do visto/autorização pode ser verificada separadamente — a data no plástico deixou de ser o único critério.',
+          'O texto da lei não prevê exceções para a residência permanente nem para cidadãos da CPLP: a regra abrange todos os cidadãos extracomunitários com visto ou autorização de residência. Só os cidadãos da UE/EEE ficam de fora.',
+          'Como funcionará na prática para as cartas antigas (fiscalização na estrada, aluguer de carro, seguros) a lei não esclarece; acompanhe as orientações do IMT.'
+        ] },
+        { kind: 'warning', text: 'Conclusão prática: renove a autorização de residência a tempo e guarde o comprovativo da renovação. O estatuto de residência passa a determinar não só o direito de viver no país, mas também a validade da carta de condução.' }
       ]
     },
     {
@@ -101,8 +117,15 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-06-23'
+    },
+    {
+      title: 'Decreto-Lei n.º 114/2026 — 7.ª alteração ao RHLC (validade da carta ligada ao título de residência, código 794)',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/114-2026-1130121307',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-07-08'
     }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-07-08',
   verifyIntervalDays: 180
 }

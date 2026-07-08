@@ -6,6 +6,8 @@ export default {
   tldr: 'Portuguese licences (Group I categories — AM/A/B/BE, etc.): valid for 15 years until age 60, then renewal at 60, 65, 70; after 70 — every 2 years. For licences issued before 02/01/2013, and for Group II (professional C/D, etc.) — separate transitional/special rules apply (validity periods may be shorter).\n\nRenewal online via imt-online.imt.gov.pt with CMD/Chave Móvel Digital — government fee €27 online (€30 in person; 50% for drivers aged 70+) + medical certificate (usually required from age 60 for Group I) + psychotechnical assessment (for certain cases / ages / categories).',
   tags: ['licence', 'renewal', 'imt', 'licence renewal', 'medical examination'],
   estimatedReadMinutes: 5,
+  recentlyChangedAt: '2026-07-07',
+  changeSummary: 'Decreto-Lei 114/2026 (in force since 9 June 2026): for non-EU citizens, licence validity on renewal is capped at the residence permit validity (code 794).',
   steps: [
     {
       id: 'when-to-renew',
@@ -19,6 +21,7 @@ export default {
           '⚠️ Licences issued before 02/01/2013 — separate transitional rules; check on imt-ip.pt',
           '⚠️ If the licence expired less than 2 years ago — you can usually revalidar without an exam, but you cannot drive with an expired licence; apply for revalidação as soon as possible',
           '🔴 If the licence expired more than 2 years ago — the procedure depends on how long ago it expired: a special exam and/or training may be required. Check the current IMT table for carta caducada',
+          '🛂 Non-EU citizens: from 9 June 2026 (Decreto-Lei 114/2026) licences are issued and renewed with validity capped at your visa/residence permit — code 794 is entered on the card. The licence stays valid while the permit is valid or under renewal',
           '💡 IMT sends a notification 60 days in advance by post or email'
         ]}
       ]
@@ -129,6 +132,6 @@ export default {
     { title: 'IMT — Driving licence renewal', url: 'https://www.imt-ip.pt/sites/IMTT/Portugues/CondutoresVeiculos/Pages/RenovacaoCartaConducao.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'IMT Online (online renewal)', url: 'https://www.imt-online.imt.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-08',
   verifyIntervalDays: 365
 }

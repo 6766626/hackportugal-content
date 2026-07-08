@@ -3,11 +3,11 @@ export default {
   id: 'troca-carta-conducao-estrangeira',
   categoryId: 'driving_license',
   title: 'Exchanging a foreign licence for a Portuguese one (troca de carta at the IMT)',
-  tldr: 'If you have become a resident of Portugal, sooner or later you must exchange your foreign licence for a Portuguese one at the IMT (the national mobility and transport authority). Since 21 January 2026 the exchange is filed ONLINE ONLY — there are no more in-person appointments for this service. Licences from the EU/EEA and from countries with an agreement are exchanged without a test (usually within 2 years of becoming a resident); licences from countries without a convention require a Portuguese driving test. You need an electronic atestado médico (medical certificate — the doctor sends it to the IMT directly), and for categories C/D also a psychological assessment. The exchange costs 30 €, and the finished card arrives in about 60 days. Check the exact rules for your country at imt-ip.pt.',
+  tldr: 'If you have become a resident of Portugal, sooner or later you must exchange your foreign licence for a Portuguese one at the IMT (the national mobility and transport authority). Since 21 January 2026 the exchange is filed ONLINE ONLY — there are no more in-person appointments for this service. Licences from the EU/EEA and from countries with an agreement are exchanged without a test (usually within 2 years of becoming a resident); licences from countries without a convention require a Portuguese driving test. You need an electronic atestado médico (medical certificate — the doctor sends it to the IMT directly), and for categories C/D also a psychological assessment. The exchange costs 30 €, and the finished card arrives in about 60 days. Check the exact rules for your country at imt-ip.pt.\n\nFrom 9 June 2026 (Decreto-Lei 114/2026): non-EU citizens receive licences valid no longer than their visa/residence permit, with restriction code 794 entered on the card. The licence stays valid while the permit is valid or under renewal.',
   tags: ['carta de condução', 'licence', 'IMT', 'troca'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-22',
-  changeSummary: 'New guide: exchanging a foreign driving licence for a Portuguese one through the IMT — online only since 21 January 2026, EU/non-EU rules, atestado médico (medical certificate), timelines, cost.',
+  recentlyChangedAt: '2026-07-07',
+  changeSummary: '🚗 Decreto-Lei 114/2026 (in force since 9 June 2026): for non-EU citizens the validity of Portuguese licences is now capped at the validity of the visa/residence permit, with code 794 entered on the card. The licence stays valid while the permit is valid or under renewal. The rule also extends to previously issued licences (no 794 code, but residence status may be checked).',
   steps: [
     {
       id: 'who-must',
@@ -22,6 +22,22 @@ export default {
           '🛑 An expired foreign licence cannot be exchanged — you would first have to renew it in the issuing country.'
         ] },
         { kind: 'warning', text: 'The rules and deadlines depend heavily on the country that issued the licence. Check your own country and the exact deadline with the IMT (imt-ip.pt) — do not rely on advice from chat groups.' }
+      ]
+    },
+    {
+      id: 'validity-dl114',
+      title: 'From 9 June 2026: licence validity tied to your residence permit',
+      content: [
+        { kind: 'paragraph', text: 'Decreto-Lei n.º 114/2026 (in force since 9 June 2026) changed the rules for non-EU citizens: Portuguese licences are now issued with a validity no longer than your visa or residence permit (art. 16 n.º 9 of the RHLC driving-licence regulation). The usual 15-year card validity only applies if your right of residence has no time limit; for everyone else, the date on the licence is cut to the date on the residence card.' },
+        { kind: 'checklist', items: [
+          'Restriction code 794 is entered on the licence: "validity limited to proof of a visa or residence permit that is valid or under renewal".',
+          'The licence remains valid while the residence permit is valid OR under renewal: an expired residence card with a renewal filed on time does not void the licence.',
+          'But proving the renewal status is on you — keep the renewal submission receipt and the AIMA digital documents.',
+          'Transitional rule (art. 4): the rule also applies to licences issued before 9 June 2026. Code 794 is not stamped on them, but the validity of your visa/permit can be checked separately — the date on the plastic is no longer the only criterion.',
+          'The text of the law has no carve-outs for permanent residence or CPLP citizens: the rule covers all non-EU citizens holding a visa or residence permit. Only EU/EEA citizens are unaffected.',
+          'How this will work in practice for older licences (roadside checks, car rental, insurance claims) the law does not specify; watch for IMT guidance.'
+        ] },
+        { kind: 'warning', text: 'Practical takeaway: renew your residence permit on time and keep proof of the renewal. Your residence status now determines not only your right to live in the country, but also the validity of your driving licence.' }
       ]
     },
     {
@@ -101,8 +117,15 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-06-23'
+    },
+    {
+      title: 'Decreto-Lei n.º 114/2026 — 7th amendment to the RHLC (licence validity tied to the residence permit, code 794)',
+      url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/114-2026-1130121307',
+      kind: 'law',
+      language: 'pt',
+      lastRetrieved: '2026-07-08'
     }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-07-08',
   verifyIntervalDays: 180
 }

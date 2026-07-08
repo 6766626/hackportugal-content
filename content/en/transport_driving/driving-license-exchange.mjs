@@ -7,6 +7,8 @@ export default {
   audience: { citizenships: ['cplp', 'thirdCountry'] },
   tags: ['licence', 'imt', 'exchange'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-07',
+  changeSummary: 'Decreto-Lei 114/2026 (in force since 9 June 2026): on exchange, non-EU citizens receive licences valid no longer than their visa/residence permit, with code 794 entered on the card.',
   variants: [
     {
       id: 'eu',
@@ -29,7 +31,8 @@ export default {
       id: 'deadline',
       title: 'Deadline',
       content: [
-        { kind: 'warning', text: 'Under Decreto-Lei 138/2012, the rules depend on the issuing country. If the licence is eligible for exchange, the request usually needs to be made after residence is recorded and within the established deadlines; up to 2 years from the date of residence, exchange is possible without an exam for countries with a recognised regime, after 2 years a practical exam may be required. For CPLP/OECD, conditions are often simplified. For Ukrainians with Proteção Temporária — validity lasts for the full protection period (until 04.03.2027; basis — Council Implementing Decision (EU) 2022/382 under the Temporary Protection Directive 2001/55/EC, extended to that date).' }
+        { kind: 'warning', text: 'Under Decreto-Lei 138/2012, the rules depend on the issuing country. If the licence is eligible for exchange, the request usually needs to be made after residence is recorded and within the established deadlines; up to 2 years from the date of residence, exchange is possible without an exam for countries with a recognised regime, after 2 years a practical exam may be required. For CPLP/OECD, conditions are often simplified. For Ukrainians with Proteção Temporária — validity lasts for the full protection period (until 04.03.2027; basis — Council Implementing Decision (EU) 2022/382 under the Temporary Protection Directive 2001/55/EC, extended to that date).' },
+        { kind: 'warning', text: 'From 9 June 2026, Decreto-Lei 114/2026 applies: non-EU citizens receive Portuguese licences on exchange with a validity no longer than their visa/residence permit, and restriction code 794 is entered on the card. The licence stays valid while the permit is valid or under renewal. The rule also extends to previously issued licences (no 794 code, but residence status may be checked). Details in the guide "Exchanging a foreign licence for a Portuguese one (troca de carta at the IMT)".' }
       ]
     },
     {
@@ -85,6 +88,6 @@ export default {
     { title: 'IMT — Troca de Carta de Condução (driving licence)', url: 'https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Exchange a driving licence', url: 'https://www.gov.pt/cidadaos/-/informacoes/trocar-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-08',
   verifyIntervalDays: 180
 }

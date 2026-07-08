@@ -7,6 +7,8 @@ export default {
   audience: { citizenships: ['cplp', 'thirdCountry'] },
   tags: ['carta', 'imt', 'troca'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-07',
+  changeSummary: 'Decreto-Lei 114/2026 (em vigor desde 09.06.2026): na troca, os cidadãos extracomunitários recebem cartas com validade não superior à do visto/autorização de residência, com o código 794 averbado.',
   variants: [
     {
       id: 'eu',
@@ -29,7 +31,8 @@ export default {
       id: 'deadline',
       title: 'Prazo',
       content: [
-        { kind: 'warning', text: 'Pelo Decreto-Lei 138/2012, as regras dependem do país de emissão. Se a carta for elegível para troca, o pedido normalmente deve ser feito após a fixação da residência dentro dos prazos estabelecidos; até 2 anos a contar da data de residência, a troca é possível sem exame para países com regime reconhecido, após 2 anos podem exigir exame prático. Para CPLP/OCDE, as condições são muitas vezes simplificadas. Para ucranianos com Proteção Temporária — validade durante todo o período de protecção (até 04.03.2027; base — Decisão de Execução (UE) 2022/382 do Conselho, ao abrigo da Diretiva de Proteção Temporária 2001/55/CE, prorrogada até essa data).' }
+        { kind: 'warning', text: 'Pelo Decreto-Lei 138/2012, as regras dependem do país de emissão. Se a carta for elegível para troca, o pedido normalmente deve ser feito após a fixação da residência dentro dos prazos estabelecidos; até 2 anos a contar da data de residência, a troca é possível sem exame para países com regime reconhecido, após 2 anos podem exigir exame prático. Para CPLP/OCDE, as condições são muitas vezes simplificadas. Para ucranianos com Proteção Temporária — validade durante todo o período de protecção (até 04.03.2027; base — Decisão de Execução (UE) 2022/382 do Conselho, ao abrigo da Diretiva de Proteção Temporária 2001/55/CE, prorrogada até essa data).' },
+        { kind: 'warning', text: 'Desde 9 de junho de 2026 aplica-se o Decreto-Lei 114/2026: aos cidadãos extracomunitários a carta portuguesa emitida na troca tem validade não superior à do visto/autorização de residência, com o código de restrição 794 averbado. A carta mantém-se válida enquanto o título estiver válido ou em renovação. A regra estende-se às cartas já emitidas (sem código 794, mas com verificação do estatuto de residência). Detalhes no guia «Trocar a carta de condução estrangeira por uma portuguesa (troca de carta no IMT)».' }
       ]
     },
     {
@@ -85,6 +88,6 @@ export default {
     { title: 'IMT — Troca de Carta de Condução (carta de condução)', url: 'https://www.imt-ip.pt/sites/imtt/portugues/Paginas/imtt.aspx', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Trocar Carta de Condução', url: 'https://www.gov.pt/cidadaos/-/informacoes/trocar-a-carta-de-conducao', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-08',
   verifyIntervalDays: 180
 }

@@ -6,7 +6,7 @@ export default {
   tldr: 'Os artigos 88 e 89 da Lei 23/2007 são regimes para obter autorização de residência para trabalho por conta de outrem (88) e para profissionais independentes/empresários (89).\n\n88.1 e 89.1 — via normal com visto: primeiro visto de residência consular (D1 para 88.1, D2 para 89.1) → pedido na AIMA.\n\n88.2 e 89.2 eram uma via excecional a partir de Portugal SEM visto (através da Manifestação de Interesse) — foram revogados: novos pedidos cessaram em 03.06.2024 (Decreto-Lei 37-A/2024), e a Lei 61/2025 (em vigor desde 23.10.2025) eliminou definitivamente o regime.\n\nIMPORTANTE: o art. 89 NÃO é uma via para investidores; as autorizações de residência por investimento são um artigo separado da Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
   tags: ['art 88', 'art 89', 'legalização', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-23',
+  recentlyChangedAt: '2026-07-08',
   changeSummary: '📌 Clarificado o item sobre reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): sem requisito de período de residência quando o agregado inclui filhos menores/incapazes; isenções para Golden Visa (art. 90-A), altamente qualificados/docentes/agentes culturais (art. 90) e Cartão Azul UE (art. 121-A); para cônjuges sem dependentes menores, requisito de tempo de residência do requerente principal mais coabitação prévia (~18 meses) e provas de alojamento e meios. Confirme os prazos exatos com a AIMA.',
   steps: [
     {
