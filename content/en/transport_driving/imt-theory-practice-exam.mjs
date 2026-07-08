@@ -3,9 +3,11 @@ export default {
   id: 'imt-theory-practice-exam',
   categoryId: 'driving_license',
   title: 'Getting a licence from scratch — IMT theory and practical exams',
-  tldr: 'If you do not have a valid driving licence or your country’s licence cannot be exchanged without an exam (Russian Federation, BY and others without a bilateral agreement) — you need to take exams in Portugal. Through a driving school (escola de condução): 32 hours of theory + 32 hours of practice (category B), driving school fee €600–1,200 + €70 IMT state fee. Theory is taken at IMT, practice — in a learner car. The test is IN PORTUGUESE — an English version became routinely available from 2024.',
+  tldr: 'If you do not have a valid driving licence or your country’s licence cannot be exchanged without an exam (Russian Federation, BY and others without a bilateral agreement) — you need to take exams in Portugal. Through a driving school (escola de condução): 32 hours of theory + 32 hours of practice (category B), driving school fee €600–1,200 + €70 IMT state fee. Theory is taken at IMT, practice — in a learner car. The test is IN PORTUGUESE — an English version became routinely available from 2024. From 8 July 2026 (Decreto-Lei 114/2026) translation of the theory test is allowed for all categories and not only for first-time candidates but also for existing licence holders (exchange via exam) — on request and with IMT authorisation; an exam-with-translator regime is available from the IMT list (Russian and Ukrainian included).',
   tags: ['licence', 'imt', 'exam', 'theory', 'driving school', 'category b'],
   estimatedReadMinutes: 8,
+  recentlyChangedAt: '2026-07-07',
+  changeSummary: '🗣️ From 8 July 2026 (Decreto-Lei 114/2026, art. 44 RHLC) translation of the theory exam is allowed for all categories and not only for first-time candidates but also for existing licence holders (e.g. exchange via exam). Requires a request and IMT authorisation with proof of insufficient Portuguese. Until IMT publishes translated tests, the exam-with-translator regime applies — 14 languages on the IMT list, including Russian and Ukrainian.',
   steps: [
     {
       id: 'who',
@@ -58,6 +60,8 @@ export default {
               '✅ Pass mark — at least 27/30',
               '⏱️ 30 minutes for the test',
               '🌐 Language: Portuguese (by default), English (available from 2024 in most centres)',
+              '🆕 From 8 July 2026 (Decreto-Lei 114/2026): translation of the theory test is allowed for ALL categories (previously only AM/A1/A2/A/B1/B) and not only for candidates but also for existing licence holders. On request and with IMT authorisation — you must prove insufficient knowledge of Portuguese',
+              '🗣️ Until IMT publishes ready translated tests, the exam-with-translator regime applies, using the IMT translator list: 53 translators, 14 languages (English, Russian, Ukrainian, French, Spanish and others) — list at imt-ip.pt',
               '💰 IMT fee: €28',
               '🔁 If you fail: retake after 3 weeks, fee €28',
               '📚 The question bank is open — before the exam, practise tests via test-codigodaestrada.pt or apps'
@@ -138,8 +142,10 @@ export default {
   sources: [
     { title: 'IMT — Instituto da Mobilidade e dos Transportes', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANEC — Association of Driving Schools in Portugal', url: 'https://www.anec.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Código da Estrada — DRE', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34488475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Código da Estrada — DRE', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34488475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei n.º 114/2026 — amendment to art. 44.º RHLC (translation of the theory test)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/114-2026-1130121307', kind: 'law', language: 'pt', lastRetrieved: '2026-07-08' },
+    { title: 'IMT — Exam tests (exam-with-translator regime, translator list)', url: 'https://www.imt-ip.pt/condutores/obtencao/provas-de-exame/', kind: 'official', language: 'pt', lastRetrieved: '2026-07-08' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-08',
   verifyIntervalDays: 365
 }

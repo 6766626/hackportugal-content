@@ -8,7 +8,7 @@ export default {
   tags: ['carta', 'imt', 'troca'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2026-07-07',
-  changeSummary: 'Decreto-Lei 114/2026 (em vigor desde 09.06.2026): na troca, os cidadãos extracomunitários recebem cartas com validade não superior à do visto/autorização de residência, com o código 794 averbado.',
+  changeSummary: 'Decreto-Lei 114/2026 (em vigor desde 09.06.2026): na troca, os cidadãos extracomunitários recebem cartas com validade não superior à do visto/autorização de residência, com o código 794 averbado. Desde 08.07.2026 a prova teórica pode ser feita com tradução autorizada pelo IMT.',
   variants: [
     {
       id: 'eu',
@@ -64,7 +64,7 @@ export default {
             { kind: 'timeline', text: '60-120 dias. No fim — convite para levantar o novo cartão ou recepção por correio.' }
           ]},
           { id: 'p4', title: '3b. Se não houver acordo — exames', content: [
-            { kind: 'paragraph', text: 'Teoria sobre o Código da Estrada + prática num carro com instrutor. Curso em escola de condução 500-900 €. Exames pagos (~30-50 €).' }
+            { kind: 'paragraph', text: 'Teoria sobre o Código da Estrada + prática num carro com instrutor. Curso em escola de condução 500-900 €. Exames pagos (~30-50 €). Desde 08.07.2026 a prova teórica pode ser feita com tradução/tradutor autorizado pelo IMT (Decreto-Lei 114/2026) — a lista de tradutores do IMT inclui russo e ucraniano.' }
           ]}
         ]}
       ]

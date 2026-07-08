@@ -3,9 +3,11 @@ export default {
   id: 'imt-theory-practice-exam',
   categoryId: 'driving_license',
   title: 'Obter a carta de condução do zero — teoria e prática no IMT',
-  tldr: 'Se não tem uma carta de condução válida ou se a carta do seu país não pode ser trocada sem exame (Federação Russa, BY e outros sem acordo bilateral) — tem de fazer os exames em Portugal. Através de uma escola de condução (escola de condução): 32 horas de teoria + 32 horas de prática (categoria B), tarifa da escola de condução 600–1200 € + 70 € de taxa administrativa do IMT. A teoria é feita no IMT, a prática — num veículo de instrução. O teste É EM PORTUGUÊS — a versão em inglês passou a estar disponível de forma regular a partir de 2024.',
+  tldr: 'Se não tem uma carta de condução válida ou se a carta do seu país não pode ser trocada sem exame (Federação Russa, BY e outros sem acordo bilateral) — tem de fazer os exames em Portugal. Através de uma escola de condução (escola de condução): 32 horas de teoria + 32 horas de prática (categoria B), tarifa da escola de condução 600–1200 € + 70 € de taxa administrativa do IMT. A teoria é feita no IMT, a prática — num veículo de instrução. O teste É EM PORTUGUÊS — a versão em inglês passou a estar disponível de forma regular a partir de 2024. Desde 08.07.2026 (Decreto-Lei 114/2026) a tradução da prova teórica é permitida para todas as categorias e não só para candidatos, mas também para quem já tem carta (troca com exame) — mediante requerimento e autorização do IMT; existe o regime de exame com tradutor da lista do IMT (inclui russo e ucraniano).',
   tags: ['carta de condução', 'imt', 'exame', 'teoria', 'escola de condução', 'categoria b'],
   estimatedReadMinutes: 8,
+  recentlyChangedAt: '2026-07-07',
+  changeSummary: '🗣️ Desde 08.07.2026 (Decreto-Lei 114/2026, art. 44.º RHLC) a tradução da prova teórica é permitida para todas as categorias e não só para candidatos, mas também para quem já tem carta (por exemplo, troca com exame). Exige requerimento e autorização do IMT, com prova de domínio insuficiente do português. Enquanto o IMT não publicar testes traduzidos, aplica-se o regime de exame com tradutor — 14 línguas na lista do IMT, incluindo russo e ucraniano.',
   steps: [
     {
       id: 'who',
@@ -58,6 +60,8 @@ export default {
               '✅ Nota de aprovação — mínimo 27/30',
               '⏱️ 30 minutos para o teste',
               '🌐 Língua: português (por defeito), inglês (disponível desde 2024 na maioria dos centros)',
+              '🆕 Desde 08.07.2026 (Decreto-Lei 114/2026): a tradução da prova teórica é permitida para TODAS as categorias (antes, apenas AM/A1/A2/A/B1/B) e não só para candidatos, mas também para quem já tem carta. Mediante requerimento e autorização do IMT — é preciso comprovar domínio insuficiente do português',
+              '🗣️ Enquanto o IMT não publicar testes traduzidos, aplica-se o regime de exame com tradutor da lista do IMT: 53 tradutores, 14 línguas (inglês, russo, ucraniano, francês, espanhol e outras) — lista em imt-ip.pt',
               '💰 Taxa do IMT: 28 €',
               '🔁 Se reprovar: repetição após 3 semanas, taxa de 28 €',
               '📚 A base de perguntas é pública — antes do exame, resolva testes através de test-codigodaestrada.pt ou aplicações'
@@ -138,8 +142,10 @@ export default {
   sources: [
     { title: 'IMT — Instituto da Mobilidade e dos Transportes', url: 'https://www.imt-ip.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ANEC — Associação de escolas de condução de Portugal', url: 'https://www.anec.pt/', kind: 'company', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'Código da Estrada — DRE', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34488475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'Código da Estrada — DRE', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1994-34488475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei n.º 114/2026 — alteração ao art. 44.º RHLC (tradução da prova teórica)', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/114-2026-1130121307', kind: 'law', language: 'pt', lastRetrieved: '2026-07-08' },
+    { title: 'IMT — Provas de exame (regime com recurso a tradutor, lista de tradutores)', url: 'https://www.imt-ip.pt/condutores/obtencao/provas-de-exame/', kind: 'official', language: 'pt', lastRetrieved: '2026-07-08' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-08',
   verifyIntervalDays: 365
 }

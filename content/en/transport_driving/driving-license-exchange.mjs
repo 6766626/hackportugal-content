@@ -8,7 +8,7 @@ export default {
   tags: ['licence', 'imt', 'exchange'],
   estimatedReadMinutes: 6,
   recentlyChangedAt: '2026-07-07',
-  changeSummary: 'Decreto-Lei 114/2026 (in force since 9 June 2026): on exchange, non-EU citizens receive licences valid no longer than their visa/residence permit, with code 794 entered on the card.',
+  changeSummary: 'Decreto-Lei 114/2026 (in force since 9 June 2026): on exchange, non-EU citizens receive licences valid no longer than their visa/residence permit, with code 794 entered on the card. From 8 July 2026 the theory test can be taken with an IMT-authorised translation.',
   variants: [
     {
       id: 'eu',
@@ -64,7 +64,7 @@ export default {
             { kind: 'timeline', text: '60-120 days. Upon completion — an invitation to collect the new card or receipt by post.' }
           ]},
           { id: 'p4', title: '3b. If there is no agreement — exams', content: [
-            { kind: 'paragraph', text: 'Theory on the Highway Code + practical driving with an instructor. Driving school course €500-900. Exams are paid (~€30-50).' }
+            { kind: 'paragraph', text: 'Theory on the Highway Code + practical driving with an instructor. Driving school course €500-900. Exams are paid (~€30-50). From 8 July 2026 the theory test can be taken with a translation/translator authorised by the IMT (Decreto-Lei 114/2026) — the IMT translator list includes Russian and Ukrainian.' }
           ]}
         ]}
       ]
