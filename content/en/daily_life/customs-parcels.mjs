@@ -3,9 +3,11 @@ export default {
   id: 'customs-parcels',
   categoryId: 'daily_life',
   title: 'Customs clearance for parcels from non-EU countries — how to pay less',
-  tldr: 'Since 01/07/2021, the €22 threshold has been abolished — now any parcel from a non-EU country is subject to IVA + customs duty if the value is above €150. Clearance is handled through the recipient: CTT or the courier (DHL, FedEx, UPS) sends an SMS with a payment link. Online payment: card, MB WAY, Multibanco. The CTT fee for desalfandegamento depends on the product; couriers charge €10–40. Current tariffs are on ctt.pt.',
+  tldr: '🆕 Since 01.07.2026 the €150 duty-free threshold is gone: parcels from non-EU countries valued up to €150 now pay a flat customs duty of €3 for each product category (2 different product types in a parcel = €6) — on top of IVA, which has been charged on any parcel since 2021, and the clearance fee. Above €150 — the general regime: IVA + duty according to the goods code (0–17%). This hits Shein/Temu/AliExpress and private parcels. Clearance is handled through the recipient: CTT or the courier (DHL, FedEx, UPS) sends an SMS with a payment link (card, MB WAY, Multibanco). The CTT fee for customs clearance — from ~€7 + IVA; couriers — €10–40. Current tariffs are on ctt.pt.',
   tags: ['customs', 'parcel', 'iva', 'ctt', 'dhl'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-09',
+  changeSummary: '🆕 Since 01.07.2026 the duty exemption for parcels up to €150 from non-EU countries has been abolished: now a flat €3 per product category + IVA + clearance fee (EU Council decision, transitional regime until the customs reform). Above €150 — the general regime, unchanged.',
   steps: [
     {
       id: 'legal-basis',
@@ -14,12 +16,12 @@ export default {
         { kind: 'paragraph', text: 'EU Directive 2006/112 (VAT) + Regulation 952/2013 (Customs Code). In Portugal, implementation is through the Código do IVA, Código das Alfândegas.' },
         { kind: 'checklist', items: [
           '🎁 Gift from an individual to an individual: exemption up to €45 (if non-commercial)',
-          '📦 Commercial parcel < €150: IVA 23% only, no duty',
-          '📦 Commercial > €150: IVA + customs duty (0–17% according to HS code)',
+          '📦 Commercial parcel ≤ €150 (since 01.07.2026): IVA 23% + a flat duty of €3 for EACH product category in the parcel (2 different types = €6)',
+          '📦 Commercial > €150: IVA + customs duty (0–17% according to HS code) — unchanged',
           '📄 Any goods parcel from a non-EU country must be declared via IOSS or import',
           '🌍 Regional IVA rates: Madeira and Açores have their own standard rates (Açores — 16% standard, Madeira — 22% standard in 2026; check the current rates)',
           '🍷 Excise duties (IEC): alcohol, tobacco, energy products — on top of IVA. Perfume is NOT a harmonised excise good in the EU; for perfume, ordinary duty/VAT apply, with no excise',
-          '⏳ On the horizon: the EU has agreed to abolish the €150 duty-free threshold for e-commerce parcels. Transitional measures (including a handling fee) are expected during 2026, but as of May 2026 the €150 threshold still applies'
+          '🆕 Why: an EU Council decision — a transitional simplified regime ahead of the big EU customs reform; the flat €3/category applies from 01.07.2026 until the full reform'
         ]}
       ]
     },
@@ -65,7 +67,7 @@ export default {
       id: 'diy',
       title: 'Do-it-yourself customs clearance — cheaper',
       content: [
-        { kind: 'paragraph', text: 'Via Portal Aduaneiro on portaldasfinancas.gov.pt → “Alfândegas”. Declaração H7 is a simplified declaration for low-value consignments up to €150, not subject to customs duty, and not for excise goods/prohibited goods.' },
+        { kind: 'paragraph', text: 'Via Portal Aduaneiro on portaldasfinancas.gov.pt → “Alfândegas”. Declaração H7 is a simplified declaration for low-value consignments up to €150 (since 01.07.2026 these carry the flat €3/category duty); it is not for excise goods/prohibited goods.' },
         { kind: 'checklist', items: [
           '📝 Fill in H7: goods description, CN (HS) code, value, country',
           '💰 The system will calculate IVA + duty',
@@ -86,7 +88,7 @@ export default {
             { kind: 'paragraph', text: 'Formally, an exemption applies up to €45, but only if the sender indicated “GIFT” on CN22/CN23 and the declared value is < €45. Above that, the normal rules apply.' }
           ]},
           { id: 'q2', title: 'AliExpress / Shein — do they pay IVA?', content: [
-            { kind: 'paragraph', text: 'IOSS (Import One-Stop Shop) applies to goods with an intrinsic value up to €150 and does not apply to excise goods. If the marketplace is registered with IOSS, IVA is charged at the time of purchase. If you see “VAT included” on the receipt — all good. If not — CTT will notify you on import.' }
+            { kind: 'paragraph', text: 'IOSS (Import One-Stop Shop) applies to goods with an intrinsic value up to €150 and does not apply to excise goods. If the marketplace is registered with IOSS, IVA is charged at the time of purchase (“VAT included” on the receipt). But note: IOSS covers only IVA — it does not remove the new €3/category duty (since 01.07.2026) or the clearance fee; watch for CTT/courier notifications and for how marketplaces adjust their prices.' }
           ]},
           { id: 'q3', title: 'Books / electronics / clothes — different duty?', content: [
             { kind: 'checklist', items: [
@@ -109,14 +111,16 @@ export default {
     { label: 'IVA on goods > €0', amountEUR: 0, note: '23% of value + delivery' },
     { label: 'CTT fee for desalfandegamento', amountEURMin: 5, amountEURMax: 15, note: 'tariff depends on the product/procedure; see ctt.pt' },
     { label: 'DHL/UPS/FedEx processing', amountEURMin: 10, amountEURMax: 40 },
+    { label: 'Duty on a parcel ≤ €150 (since 01.07.2026)', amountEUR: 3, note: '€3 for each product category in the parcel' },
     { label: 'Customs duty (goods > €150)', amountEUR: 0, note: '0–17% according to HS' }
   ],
   sources: [
+    { title: 'CTT — Fim da isenção de direitos aduaneiros em compras até 150 € fora da União Europeia', url: 'https://www.ctt.pt/particulares/receber/desalfandegar/fim-da-isencao-de-direitos-aduaneiros-em-compras-ate-150-euros-fora-da-uniao-europeia', kind: 'official', language: 'pt', lastRetrieved: '2026-07-10' },
     { title: 'Portal das Finanças (tax portal) — Alfândegas', url: 'https://aduaneiro.portaldasfinancas.gov.pt/jsp/main.jsp', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulation (EU) 952/2013 — Customs Code', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0952', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'CTT — Parcels from abroad', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Importing goods from countries outside the EU', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 365
 }

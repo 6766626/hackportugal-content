@@ -97,7 +97,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: '1. Apply to AIMA', content: [
-            { kind: 'paragraph', text: 'Submission depends on the current AIMA channel: online portal, if AIMA has opened the relevant option, or appointment/submission through AIMA. Check the AIMA page for “autorização de residência permanente” / “estatuto de residente de longa duração” before applying.' }
+            { kind: 'paragraph', text: '🆕 Since 01.07.2026 AIMA’s Portal de Renovações also handles the permanent documents of EU nationals and their families: the certificado de residência permanente (art. 16) and the cartão de residência permanente for family members (art. 17) — previously this went through the Formulário de Contacto. The portal covers documents that expired/are expiring from 01.07.2025 to 31.10.2026. For other cases, check the AIMA page for “autorização de residência permanente” / “estatuto de residente de longa duração” before applying.' }
           ]},
           { id: 'p2', title: '2. Pay the fee', content: [
             { kind: 'paragraph', text: 'AIMA — concessão art. 76 = €351.10 (tabela 01.03.2026). Additional reception + analysis ~€133.' }
@@ -177,7 +177,7 @@ export default {
     { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Permanent Authorisation', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   changeSummary: 'May 2026 update: (1) Deeper comparison of national ARP (art. 80) and EULTR (art. 125+): students count differently, different absence thresholds, different resource standards. (2) Step "When the 5 years start" with 9 edge cases (D-visa, MdI, renewal queue, gaps, SEF→AIMA, conversions, reagrupamento, children born in PT, students). (3) Common myths about ARP vs EULTR differences. (4) Lei Orgânica 1/2026 (in force from 19.05.2026): citizenship now takes 7/10 years, ARP becomes more important as an intermediate status.',
   verifyIntervalDays: 180
 }

@@ -86,6 +86,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-29',
   changeSummary: '🔄 Sincronização maio 2026: (1) eportugal.gov.pt migrou para gov.pt — URLs das fontes actualizados; (2) menu do Portal das Finanças renomeado: «Dados Pessoais Relevantes» → «Dados Cadastrais»; (3) adicionada concretização: a carta com o código chega em ~5 dias úteis, 90 dias para confirmar; (4) adicionada coima de 75–375 € (RGIT) por incumprimento do prazo de 60 dias; (5) clarificados métodos de autenticação (CMD + telemóvel ou CC + PIN + leitor de cartões); (6) adicionado e-balcão como alternativa para alteração de estatuto residente/não residente.'
 }

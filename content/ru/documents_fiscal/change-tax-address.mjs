@@ -86,6 +86,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-29',
   changeSummary: '🔄 Сверка май 2026: (1) eportugal.gov.pt мигрировал на gov.pt — обновили URL источников; (2) меню Portal das Finanças переименовано: «Dados Pessoais Relevantes» → «Dados Cadastrais»; (3) добавили конкретику: код приходит ~5 раб. дней, на подтверждение 90 дней; (4) добавили штраф 75–375 € (RGIT) за пропуск 60-дневного срока; (5) уточнили методы аутентификации (CMD + телефон или CC + PIN + cardreader); (6) добавили e-balcão как альтернативу для смены статуса резидент/нерезидент.'
 }

@@ -6,7 +6,6 @@ export default {
   tldr: 'Portuguese licences (Group I categories — AM/A/B/BE, etc.): valid for 15 years until age 60, then renewal at 60, 65, 70; after 70 — every 2 years. For licences issued before 02/01/2013, and for Group II (professional C/D, etc.) — separate transitional/special rules apply (validity periods may be shorter).\n\nRenewal online via imt-online.imt.gov.pt with CMD/Chave Móvel Digital — government fee €27 online (€30 in person; 50% for drivers aged 70+) + medical certificate (usually required from age 60 for Group I) + psychotechnical assessment (for certain cases / ages / categories).',
   tags: ['licence', 'renewal', 'imt', 'licence renewal', 'medical examination'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-07-07',
   changeSummary: 'Decreto-Lei 114/2026 (in force since 9 June 2026): for non-EU citizens, licence validity on renewal is capped at the residence permit validity (code 794).',
   steps: [
     {

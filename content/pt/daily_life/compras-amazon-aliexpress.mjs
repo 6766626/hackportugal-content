@@ -3,9 +3,11 @@ export default {
   id: 'compras-amazon-aliexpress',
   categoryId: 'daily_life',
   title: 'Amazon ES/PT, AliExpress e eBay em Portugal: entrega, IVA e direitos aduaneiros',
-  tldr: 'Para Portugal, a opção mais previsível é a Amazon.es: a entrega a partir de armazéns da UE demora normalmente 2–5 dias úteis, sem alfândega nem direitos aduaneiros. A Amazon PT é cómoda pela interface/promoções locais, mas o catálogo é menor. O AliExpress é barato, muitas vezes com IVA incluído no preço através do IOSS, mas a entrega a partir da China pode demorar 3–8 semanas.\n\nDesde 01.07.2021, as encomendas comerciais provenientes de fora da UE estão sujeitas a IVA: em mainland Portugal a taxa normal é 23%; acima de 150 € acrescem a declaração aduaneira, eventuais direitos aduaneiros e taxas dos CTT/transportadora.',
+  tldr: 'Para Portugal, a opção mais previsível é a Amazon.es: a entrega a partir de armazéns da UE demora normalmente 2–5 dias úteis, sem alfândega nem direitos aduaneiros. A Amazon PT é cómoda pela interface/promoções locais, mas o catálogo é menor. O AliExpress é barato, muitas vezes com IVA incluído no preço através do IOSS, mas a entrega a partir da China pode demorar 3–8 semanas.\n\n🆕 Desde 01.07.2026 as encomendas provenientes de fora da UE ficaram mais caras: o limiar de isenção de direitos de 150 € foi abolido — agora, até 150 €, é cobrado um direito aduaneiro fixo de 3 € por cada categoria de produto, para além do IVA de 23% (cobrado desde 2021) e das taxas dos CTT/transportadora. Acima de 150 € — como antes: declaração, IVA e direitos segundo o código do artigo.',
   tags: ['amazon', 'aliexpress', 'ctt', 'direitos aduaneiros'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-09',
+  changeSummary: '🆕 Desde 01.07.2026 as encomendas de fora da UE (Shein/Temu/AliExpress da China, eBay dos EUA/Reino Unido) pagam um direito de 3 € por categoria de produto mesmo com valor até 150 € — além do habitual IVA de 23% e das taxas de desalfandegamento. As compras a partir de armazéns na UE não são afectadas.',
   steps: [
     {
       id: 'platforms',
@@ -25,11 +27,11 @@ export default {
     },
     {
       id: 'tax-rules',
-      title: 'IVA e alfândega em 2026: limite de 150 €',
+      title: 'IVA e alfândega em 2026: o que mudou a 1 de julho',
       content: [
-        { kind: 'paragraph', text: 'Desde 01.07.2021, a UE aboliu a isenção de IVA para pequenas encomendas importadas. Por isso, um artigo comercial proveniente de fora da UE está sujeito a IVA independentemente do preço. Para mainland Portugal, a taxa normal de IVA é 23%.' },
+        { kind: 'paragraph', text: 'Desde 01.07.2021, a UE aboliu a isenção de IVA para pequenas encomendas importadas — um artigo comercial proveniente de fora da UE está sujeito a IVA independentemente do preço (mainland — 23%). E desde 01.07.2026 foi também abolida a isenção de DIREITOS ADUANEIROS para encomendas até 150 €: agora é um valor fixo de 3 € por cada categoria de produto (regime transitório da UE até à grande reforma aduaneira).' },
         { kind: 'checklist', items: [
-          '0–150 €: normalmente não são cobrados direitos aduaneiros, mas aplica-se IVA a 23%. Se a loja usar IOSS, o IVA é pago no momento da compra.',
+          '0–150 € (desde 01.07.2026): IVA a 23% + direito de 3 € por cada categoria de produto na encomenda (2 tipos de produto diferentes = 6 €). Se a loja usar IOSS, o IVA é pago no momento da compra — mas o IOSS não cobre o direito de 3 €/categoria.',
           'Acima de 150 €: o IOSS não se aplica; é necessária uma declaração aduaneira de importação, é cobrado IVA a 23% e podem ser aplicados direitos aduaneiros segundo o código do artigo.',
           'O limite de 150 € para direitos aduaneiros é calculado pelo intrinsic value do artigo: geralmente o preço do artigo sem entrega nem seguro.',
           'A base do IVA é mais ampla: valor do artigo + entrega + seguro + direitos aduaneiros + taxas aduaneiras/postais, se estas forem incluídas na base de importação.',
@@ -37,7 +39,7 @@ export default {
           'Se o vendedor tiver escrito “gift” numa encomenda comercial, isso não anula o IVA e pode originar uma verificação.',
           'Para álcool, tabaco, perfumaria, baterias, medicamentos, suplementos alimentares, drones e equipamentos de rádio, podem existir restrições ou documentos adicionais.'
         ] },
-        { kind: 'warning', text: 'Não se guie por conselhos antigos de “até 22 € sem imposto”. Esta regra foi abolida na UE em 01.07.2021. Em 2026, os CTT e as transportadoras ainda podem pedir IVA e taxa de apresentação se a plataforma não tiver transmitido correctamente os dados IOSS.' }
+        { kind: 'warning', text: 'Não se guie por conselhos antigos de “até 22 € sem imposto” (abolido em 01.07.2021) nem de “até 150 € sem direitos aduaneiros” (abolido em 01.07.2026). As encomendas baratas da China passam agora a ter sempre custos adicionais: IVA + 3 €/categoria + eventual taxa de desalfandegamento — Shein/Temu/AliExpress estão a reestruturar os preços, esteja atento ao valor final no checkout.' }
       ]
     },
     {
@@ -160,8 +162,15 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'CTT — Fim da isenção de direitos aduaneiros em compras até 150 € fora da UE (01.07.2026)',
+      url: 'https://www.ctt.pt/particulares/receber/desalfandegar/fim-da-isencao-de-direitos-aduaneiros-em-compras-ate-150-euros-fora-da-uniao-europeia',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-07-10'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 180
 }

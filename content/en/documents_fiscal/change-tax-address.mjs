@@ -86,6 +86,5 @@ export default {
   ],
   lastVerified: '2026-05-31',
   verifyIntervalDays: 365,
-  recentlyChangedAt: '2026-05-29',
   changeSummary: '🔄 May 2026 sync: (1) eportugal.gov.pt migrated to gov.pt — source URLs updated; (2) Portal das Finanças menu renamed: “Dados Pessoais Relevantes” → “Dados Cadastrais”; (3) added specifics: confirmation letter arrives in ~5 business days, 90 days to confirm; (4) added 75–375 € fine (RGIT) for missing the 60-day deadline; (5) clarified authentication methods (CMD + phone or CC + PIN + card reader); (6) added e-balcão as an alternative for resident/non-resident status changes.'
 }

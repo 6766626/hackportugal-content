@@ -6,6 +6,10 @@ export default {
   tldr: 'Long-term renting (arrendamento habitacional) is governed by the NRAU (Lei 6/2006 as amended). For contratos com prazo certo the minimum is 1 year and the maximum is 30 years; if no term is specified, the contract is deemed to have been concluded for 5 years (Código Civil arts. 1094-1095).\n\nExceptions for contratos para fins especiais transitórios may be shorter. Under art. 1076 Código Civil the limit is: caução of up to 2 months’ rent + renda antecipada of up to 2 months. Requests for 3-12 months’ prepayment are legally vulnerable — discuss a lawful structure with a lawyer (seguro de fiança, garantia bancária, fiador).\n\nThe contract is registered with Finanças by the owner, who also issues recibos de renda.',
   tags: ['rent', 'nrau', 'contract', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
+  pendingLaw: {
+    summary: 'On 09.07.2026 the Council of Ministers approved a rental reform (so far only a bill going to Parliament — NOT law in force): termination after 2 months of unpaid rent (currently 3) or systematic late payments, simplified eviction, free rent increases in new contracts, advance rent of up to 3 months and removal of the caução cap, a transitional regime for pre-1990 contracts, Fundo de Emergência Habitacional. For now the previous NRAU rules described in this guide apply.',
+    sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
+  },
   steps: [
     {
       id: 'legal-framework',
@@ -181,6 +185,6 @@ export default {
     { title: 'Portal das Finanças — Registration of a Rental Contract', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Renting a home', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 180
 }

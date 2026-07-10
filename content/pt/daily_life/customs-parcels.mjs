@@ -3,9 +3,11 @@ export default {
   id: 'customs-parcels',
   categoryId: 'daily_life',
   title: 'Desalfandegamento de encomendas de países fora da UE — como pagar menos',
-  tldr: 'Desde 01.07.2021 foi eliminado o limiar de 22 € — agora qualquer encomenda de países fora da UE está sujeita a IVA + direitos aduaneiros, se o valor for superior a 150 €. O processo é feito através do destinatário: os CTT ou a transportadora (DHL, FedEx, UPS) enviam um SMS com uma ligação para pagamento. Pagamento online: cartão, MB WAY, Multibanco. A taxa dos CTT pelo desalfandegamento depende do produto; nas transportadoras — 10–40 €. Tarifas actualizadas em ctt.pt.',
+  tldr: '🆕 Desde 01.07.2026 já não existe o limiar de isenção de direitos de 150 €: as encomendas de países fora da UE com valor até 150 € pagam agora um direito aduaneiro fixo de 3 € por cada categoria de produto (2 tipos de produto diferentes na encomenda = 6 €) — para além do IVA, que é cobrado sobre qualquer encomenda desde 2021, e da taxa de desalfandegamento. Acima de 150 € — regime geral: IVA + direitos conforme o código da mercadoria (0–17 %). É um golpe para Shein/Temu/AliExpress e para as encomendas particulares. O processo é feito através do destinatário: os CTT ou a transportadora (DHL, FedEx, UPS) enviam um SMS com uma ligação para pagamento (cartão, MB WAY, Multibanco). A taxa dos CTT pelo desalfandegamento — a partir de ~7 € + IVA; nas transportadoras — 10–40 €. Tarifas actualizadas em ctt.pt.',
   tags: ['alfândega', 'encomenda', 'IVA', 'CTT', 'DHL'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-09',
+  changeSummary: '🆕 Desde 01.07.2026 foi eliminada a isenção de direitos aduaneiros para encomendas até 150 € de países fora da UE: agora aplica-se um valor fixo de 3 € por categoria de produto + IVA + taxa de desalfandegamento (decisão do Conselho da UE, regime transitório até à reforma aduaneira). Acima de 150 € — regime geral sem alterações.',
   steps: [
     {
       id: 'legal-basis',
@@ -14,12 +16,12 @@ export default {
         { kind: 'paragraph', text: 'Directiva EU 2006/112 (VAT) + Regulamento 952/2013 (Código Aduaneiro). Em Portugal, a aplicação faz-se através do Código do IVA, Código das Alfândegas.' },
         { kind: 'checklist', items: [
           '🎁 Presente de particular para particular: isenção até 45 € (se não for comercial)',
-          '📦 Encomenda comercial < 150 €: apenas IVA 23 %, sem direitos aduaneiros',
-          '📦 Comercial > 150 €: IVA + direitos aduaneiros (0–17 % conforme o código HS)',
+          '📦 Encomenda comercial ≤ 150 € (desde 01.07.2026): IVA 23 % + direito aduaneiro fixo de 3 € por CADA categoria de produto na encomenda (2 tipos diferentes = 6 €)',
+          '📦 Comercial > 150 €: IVA + direitos aduaneiros (0–17 % conforme o código HS) — sem alterações',
           '📄 Qualquer encomenda com mercadorias proveniente de países fora da UE deve ser declarada através do IOSS ou como importação',
           '🌍 Taxas regionais de IVA: Madeira e Açores têm as suas próprias taxas normais (Açores — 16% standard, Madeira — 22% standard em 2026; confirme os valores actualizados)',
           '🍷 Excise duties (IEC): álcool, tabaco, energy products — para além do IVA. O perfume NÃO é um harmonised excise good na EU; para perfume aplicam-se duty/VAT normais, sem excise',
-          '⏳ No horizonte: a UE acordou eliminar o limiar de isenção de direitos de 150 € para encomendas de e-commerce. Estão previstas medidas transitórias (incluindo uma taxa de processamento) durante 2026, mas em maio de 2026 o limiar de 150 € ainda se aplica'
+          '🆕 Porquê: decisão do Conselho da UE — regime simplificado transitório antes da grande reforma aduaneira da UE; o valor fixo de 3 €/categoria aplica-se desde 01.07.2026 até à reforma completa'
         ]}
       ]
     },
@@ -65,7 +67,7 @@ export default {
       id: 'diy',
       title: 'Desalfandegamento por conta própria — mais barato',
       content: [
-        { kind: 'paragraph', text: 'Através do Portal Aduaneiro em portaldasfinancas.gov.pt → «Alfândegas». Declaração H7 — declaração simplificada para low-value consignments até 150 €, não sujeitas a customs duty, e não aplicável a excise goods/mercadorias com proibições.' },
+        { kind: 'paragraph', text: 'Através do Portal Aduaneiro em portaldasfinancas.gov.pt → «Alfândegas». Declaração H7 — declaração simplificada para low-value consignments até 150 € (desde 01.07.2026 estas encomendas pagam o valor fixo de 3 €/categoria); não aplicável a excise goods/mercadorias com proibições.' },
         { kind: 'checklist', items: [
           '📝 Preencher a H7: descrição da mercadoria, código CN (HS), valor, país',
           '💰 O sistema calcula o IVA + direitos aduaneiros',
@@ -86,7 +88,7 @@ export default {
             { kind: 'paragraph', text: 'Formalmente, há isenção até 45 €, mas apenas se o remetente tiver indicado «GIFT» no CN22/CN23 e o valor declarado for < 45 €. Acima disso — aplicam-se as regras normais.' }
           ]},
           { id: 'q2', title: 'AliExpress / Shein — pagam o IVA?', content: [
-            { kind: 'paragraph', text: 'O IOSS (Import One-Stop Shop) aplica-se a bens com intrinsic value até 150 € e não se aplica a excise goods. Se o marketplace estiver registado no IOSS — o IVA é cobrado no momento da compra. Se vir «VAT included» no recibo — está tudo certo. Caso contrário — os CTT notificam no momento da importação.' }
+            { kind: 'paragraph', text: 'O IOSS (Import One-Stop Shop) aplica-se a bens com intrinsic value até 150 € e não se aplica a excise goods. Se o marketplace estiver registado no IOSS, o IVA é cobrado no momento da compra («VAT included» no recibo). Mas atenção: o IOSS cobre apenas o IVA — não elimina o novo direito de 3 €/categoria (desde 01.07.2026) nem a taxa de desalfandegamento; esteja atento às notificações dos CTT/transportadora e à forma como os marketplaces vão ajustar os preços.' }
           ]},
           { id: 'q3', title: 'Livros / tecnologia / roupa — os direitos aduaneiros variam?', content: [
             { kind: 'checklist', items: [
@@ -109,14 +111,16 @@ export default {
     { label: 'IVA sobre mercadoria > 0 €', amountEUR: 0, note: '23 % sobre o valor + envio' },
     { label: 'Taxa dos CTT pelo desalfandegamento', amountEURMin: 5, amountEURMax: 15, note: 'a tarifa depende do produto/procedimento; ver ctt.pt' },
     { label: 'Processamento DHL/UPS/FedEx', amountEURMin: 10, amountEURMax: 40 },
+    { label: 'Direito aduaneiro sobre encomenda ≤ 150 € (desde 01.07.2026)', amountEUR: 3, note: '3 € por cada categoria de produto na encomenda' },
     { label: 'Direitos aduaneiros (mercadoria > 150 €)', amountEUR: 0, note: '0–17 % conforme HS' }
   ],
   sources: [
+    { title: 'CTT — Fim da isenção de direitos aduaneiros em compras até 150 € fora da União Europeia', url: 'https://www.ctt.pt/particulares/receber/desalfandegar/fim-da-isencao-de-direitos-aduaneiros-em-compras-ate-150-euros-fora-da-uniao-europeia', kind: 'official', language: 'pt', lastRetrieved: '2026-07-10' },
     { title: 'Portal das Finanças — Alfândegas', url: 'https://aduaneiro.portaldasfinancas.gov.pt/jsp/main.jsp', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Regulamento (UE) 952/2013 — Código Aduaneiro', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R0952', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'CTT — Encomendas do estrangeiro', url: 'https://www.ctt.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ePortugal — Importar bens de países fora da UE', url: 'https://www.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 365
 }

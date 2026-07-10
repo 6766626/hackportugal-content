@@ -6,7 +6,7 @@ export default {
   tldr: 'In 2026, residence permit renewal should be started online, but the route depends on the expiry date and card type. Ordinary cards expired from 01.07.2025 onward are renewed through portal-renovacoes.aima.gov.pt. Older cards expired from 22.02.2020 to 30.06.2025 go through services.aima.gov.pt/RAR/reqrenew or the AIMA/EMAIMA email route; CPLP, ARI and EU family cards have separate rules. According to gov.pt, you can apply from 90 days before the card expires. For cards that expired after 30.06.2025, residence rights are maintained for 6 months after the expiry date; if during that time you have started renewal and hold a comprovativo/recibo, AIMA considers your stay legal until the process concludes — even after those 6 months. After the renewal request is registered and paid, AIMA issues a comprovativo valid for 180 days: carry it together with the expired card.',
   tags: ['aima', 'residence permit', 'renewal', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-07-08',
+  recentlyChangedAt: '2026-07-10',
   changeSummary: '📌 Corrected the framing of the 6-month period (Decreto Regulamentar 84/2007 art. 63.º n.º 14) and added the post-15.04.2026 deadline situation per AIMA clarifications.',
   steps: [
     {

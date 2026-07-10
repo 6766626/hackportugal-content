@@ -6,7 +6,6 @@ export default {
   tldr: 'Carta de condução portuguesa (categorias do grupo I — AM/A/B/BE, etc.): válida por 15 anos até aos 60 anos, depois renovação aos 60, 65, 70 e, após os 70, de 2 em 2 anos. Para cartas emitidas antes de 02.01.2013 e para o grupo II (categorias profissionais C/D, etc.) — aplicam-se regras transitórias/especiais próprias (os prazos podem ser mais curtos).\n\nRenovação online através de imt-online.imt.gov.pt com CMD/Chave Móvel Digital — taxa administrativa de 27 € online (30 € presencial; 50% para condutores com 70 ou mais anos) + atestado médico (normalmente exigido a partir dos 60 anos para o grupo I) + avaliação psicotécnica (para determinados casos / idades / categorias).',
   tags: ['carta de condução', 'renovação', 'imt', 'renovação da carta', 'exame médico'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-07-07',
   changeSummary: 'Decreto-Lei 114/2026 (em vigor desde 09.06.2026): para cidadãos extracomunitários, a validade da carta na renovação fica limitada à validade do título de residência (código 794).',
   steps: [
     {

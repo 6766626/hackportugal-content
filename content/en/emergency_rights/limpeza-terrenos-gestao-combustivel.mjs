@@ -6,7 +6,6 @@ export default {
   tldr: 'If you own or rent a plot or house near forest or scrubland, the law (Decreto-Lei 82/2021, the SGIFR system) requires you to clear flammable vegetation around buildings every year: a minimum of 50 m around a house in a forest zone and 100 m around settlements (10+ houses). The 2026 deadline on the mainland is 31 May, and for municipalities under a declared calamidade (state of calamity) it is extended to 30 June. After the deadline come inspections by the GNR/SEPNA and the câmara (town council) plus fines (for individuals, up to several thousand euros; for companies, tens of thousands). If you do not clear it, the câmara can do it for you and bill you. The duty is annual.',
   tags: ['gestão de combustível', 'limpeza', 'fires', 'land'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-22',
   changeSummary: 'New guide: the legal duty to clear land (SGIFR / DL 82/2021), the 50/100 m distances, the 2026 deadlines (31 May / 30 June under calamidade), fines and the câmara doing the work in your place.',
   steps: [
     {
@@ -46,11 +45,11 @@ export default {
         { kind: 'checklist', items: [
           '🗓️ On the mainland (Continente) the main deadline for work on the secondary faixas is 31 May 2026.',
           '⚠️ For municipalities covered by a declared calamidade (state of calamity, due to the 2026 bad weather), the deadline is extended to 30 June 2026.',
-          '📅 Today is 23.06.2026: for most municipalities the deadline has already passed, so clear it immediately without waiting for an inspection; for calamidade municipalities only a few days remain.',
-          'After that the active fire-risk season (verão, summer) begins and enforcement steps up.',
+          '📅 Both 2026 deadlines have already passed — if the land is not cleared, clear it immediately without waiting for an inspection: in summer GNR/SEPNA enforcement is at its maximum.',
+          'Summer is the peak of fire risk: on PIR “muito elevado”/“máximo” days, working with spark-producing machinery on the land is banned — mow early in the morning and check the day\'s class at ipma.pt/pt/riscoincendio.',
           'Confirm the exact date and the list of zones for your address with the câmara municipal or junta de freguesia (parish council), as dates and details vary by municipality.'
         ] },
-        { kind: 'warning', text: 'Do not confuse this with the período crítico (critical period, usually summer), when bonfires, queimadas (controlled burns), fireworks and spark-producing work are separately banned. Clearing your land must be done BEFORE the dangerous period begins.' }
+        { kind: 'warning', text: 'Do not confuse clearing your land with the fire bans: bonfires, queimadas, fireworks and spark-producing work are banned on PIR “muito elevado”/“máximo” days and during a Situação de Alerta (see the guide “Fires, barbecues, fireworks”). Clearing must be done BEFORE summer.' }
       ]
     },
     {
@@ -114,6 +113,6 @@ export default {
       lastRetrieved: '2026-06-23'
     }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 180
 }

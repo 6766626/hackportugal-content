@@ -6,7 +6,6 @@ export default {
   tldr: 'Se é dono ou arrendatário de um terreno/casa perto de floresta ou matos, a lei (Decreto-Lei 82/2021, sistema SGIFR) obriga-o a limpar todos os anos a vegetação combustível à volta das construções: no mínimo 50 m em redor da casa em zona florestal e 100 m à volta dos aglomerados populacionais (10+ casas). O prazo para 2026 no Continente é até 31 de maio, e para os municípios com calamidade declarada é prolongado até 30 de junho. Depois do prazo há fiscalizações da GNR/SEPNA e da câmara municipal e coimas (para particulares, até alguns milhares de euros; para empresas, dezenas de milhares). Se não limpar, a câmara pode fazê-lo por si e cobrar-lhe a despesa. A obrigação é anual.',
   tags: ['gestão de combustível', 'limpeza', 'incendios', 'terreno'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-06-22',
   changeSummary: 'Novo guia: obrigação legal de limpeza de terrenos (SGIFR / DL 82/2021), distâncias de 50/100 m, prazos de 2026 (31 de maio / 30 de junho em calamidade), coimas e limpeza substitutiva pela câmara.',
   steps: [
     {
@@ -46,11 +45,11 @@ export default {
         { kind: 'checklist', items: [
           '🗓️ No Continente, o prazo principal dos trabalhos nas faixas secundárias é até 31 de maio de 2026.',
           '⚠️ Para os municípios abrangidos por uma calamidade declarada (devido ao mau tempo de 2026), o prazo é prolongado até 30 de junho de 2026.',
-          '📅 Hoje é 23.06.2026: para a maioria dos municípios o prazo já passou — limpe de imediato, sem esperar pela fiscalização; para os municípios em calamidade faltam poucos dias.',
-          'A seguir começa o período ativo de risco de incêndio (verão) e a fiscalização intensifica-se.',
+          '📅 Ambos os prazos de 2026 já passaram — se o terreno não estiver limpo, limpe de imediato, sem esperar pela fiscalização: no verão o controlo da GNR/SEPNA está no máximo.',
+          'O verão é o pico do risco de incêndio: nos dias de PIR «muito elevado»/«máximo» é proibido trabalhar no terreno com máquinas que produzam faíscas — corte a erva de manhã cedo e verifique a classe do dia em ipma.pt/pt/riscoincendio.',
           'Confirme a data exata e a lista de zonas para a sua morada junto da câmara municipal ou da junta de freguesia, pois as datas e os pormenores variam consoante o município.'
         ] },
-        { kind: 'warning', text: 'Não confunda com o período crítico (normalmente o verão), em que são proibidos, em separado, as fogueiras, as queimadas, o fogo de artifício e os trabalhos que produzam faíscas. A limpeza do terreno deve estar feita ANTES de começar o período de perigo.' }
+        { kind: 'warning', text: 'Não confunda a limpeza do terreno com as proibições de fogo: fogueiras, queimadas, fogo de artifício e trabalhos que produzam faíscas são proibidos nos dias de PIR «muito elevado»/«máximo» e durante a Situação de Alerta (ver o guia «Fogueiras, churrascos e fogo-de-artifício»). A limpeza deve estar feita ANTES do verão.' }
       ]
     },
     {
@@ -114,6 +113,6 @@ export default {
       lastRetrieved: '2026-06-23'
     }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 180
 }

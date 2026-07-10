@@ -3,9 +3,11 @@ export default {
   id: 'compras-amazon-aliexpress',
   categoryId: 'daily_life',
   title: 'Amazon ES/PT, AliExpress and eBay in Portugal: delivery, IVA and duties',
-  tldr: 'For Portugal, the most predictable option is Amazon.es: delivery from EU warehouses usually takes 2–5 working days, with no customs or duties. Amazon PT is convenient for its interface/local deals, but the catalogue is smaller. AliExpress is cheap, often with IVA included in the price via IOSS, but delivery from China can take 3–8 weeks.\n\nSince 01/07/2021, commercial parcels from outside the EU have been subject to IVA: in mainland Portugal the standard rate is 23%; above €150, a customs declaration, possible duty and CTT/courier fees are added.',
+  tldr: 'For Portugal, the most predictable option is Amazon.es: delivery from EU warehouses usually takes 2–5 working days, with no customs or duties. Amazon PT is convenient for its interface/local deals, but the catalogue is smaller. AliExpress is cheap, often with IVA included in the price via IOSS, but delivery from China can take 3–8 weeks.\n\n🆕 Since 01/07/2026 parcels from outside the EU have become more expensive: the €150 duty-free threshold has been abolished — now up to €150 a flat duty of €3 per product category is charged, on top of 23% IVA (charged since 2021) and CTT/courier fees. Above €150 — as before: declaration, IVA and duty according to the goods code.',
   tags: ['amazon', 'aliexpress', 'ctt', 'duties'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-09',
+  changeSummary: '🆕 Since 01/07/2026 orders from outside the EU (Shein/Temu/AliExpress from China, eBay from the US/UK) pay a duty of €3 per product category even when the value is up to €150 — plus the existing 23% IVA and clearance fees. Purchases from EU warehouses are not affected.',
   steps: [
     {
       id: 'platforms',
@@ -25,11 +27,11 @@ export default {
     },
     {
       id: 'tax-rules',
-      title: 'IVA and customs in 2026: the €150 threshold',
+      title: 'IVA and customs in 2026: what changed on 1 July',
       content: [
-        { kind: 'paragraph', text: 'Since 01/07/2021, the EU has abolished the IVA exemption for small imported parcels. Therefore, commercial goods from outside the EU are subject to IVA regardless of price. For mainland Portugal, the standard IVA rate is 23%.' },
+        { kind: 'paragraph', text: 'Since 01/07/2021, the EU has abolished the IVA exemption for small imported parcels — commercial goods from outside the EU are subject to IVA regardless of price (mainland — 23%). And since 01/07/2026 the exemption from DUTY for parcels up to €150 has been abolished too: now it is a flat €3 for each product category (an EU transitional regime until the big customs reform).' },
         { kind: 'checklist', items: [
-          '€0–€150: customs duty is usually not charged, but 23% IVA applies. If the shop uses IOSS, IVA is paid at purchase.',
+          '€0–€150 (since 01/07/2026): 23% IVA + a duty of €3 for each product category in the parcel (2 different product types = €6). If the shop uses IOSS, IVA is paid at purchase — but IOSS does not cover the €3/category duty.',
           'Above €150: IOSS does not apply; an import customs declaration is required, 23% IVA is charged and customs duty may apply according to the commodity code.',
           'The €150 duty threshold is calculated on the intrinsic value of the goods: usually the price of the item excluding delivery and insurance.',
           'The IVA base is broader: item value + delivery + insurance + duties + customs/postal fees, if they are included in the import tax base.',
@@ -37,7 +39,7 @@ export default {
           'If the seller writes “gift” on a commercial order, this does not cancel IVA and may trigger an inspection.',
           'Alcohol, tobacco, perfume, batteries, medicines, food supplements, drones and radio devices may be subject to restrictions or require additional documents.'
         ] },
-        { kind: 'warning', text: 'Do not rely on old advice saying “under €22 tax-free”. This rule was abolished in the EU on 01/07/2021. In 2026, CTT and couriers may still request IVA and a clearance fee if the platform has not transmitted the IOSS data correctly.' }
+        { kind: 'warning', text: 'Do not rely on old advice saying “under €22 tax-free” (abolished on 01/07/2021) or “under €150 duty-free” (abolished on 01/07/2026). Cheap orders from China now always come with extra charges: IVA + €3/category + a possible clearance fee — Shein/Temu/AliExpress are restructuring their prices, so watch the final amount at checkout.' }
       ]
     },
     {
@@ -160,8 +162,15 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-04-28'
+    },
+    {
+      title: 'CTT — Fim da isenção de direitos aduaneiros em compras até 150 € fora da UE (01.07.2026)',
+      url: 'https://www.ctt.pt/particulares/receber/desalfandegar/fim-da-isencao-de-direitos-aduaneiros-em-compras-ate-150-euros-fora-da-uniao-europeia',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-07-10'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 180
 }

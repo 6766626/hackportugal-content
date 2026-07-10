@@ -6,6 +6,10 @@ export default {
   tldr: 'Долгосрочная аренда (arrendamento habitacional) регулируется NRAU (Lei 6/2006 с поправками). Для contratos com prazo certo минимум 1 год и максимум 30 лет; если срок не указан, договор считается заключённым на 5 лет (Código Civil arts. 1094-1095).\n\nИсключения для contratos para fins especiais transitórios могут быть короче. По art. 1076 Código Civil лимит: caução до 2 месячных арендных плат + renda antecipada до 2 месяцев. Требования предоплаты в 3-12 месяцев юридически уязвимы — обсудите с юристом легальную структуру (seguro de fiança, garantia bancária, fiador).\n\nДоговор регистрируется в Finanças владельцем, он же выдаёт recibos de renda.',
   tags: ['аренда', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
+  pendingLaw: {
+    summary: '09.07.2026 Совет министров одобрил реформу аренды (пока только законопроект, идёт в парламент — НЕ действующий закон): расторжение при 2 месяцах неуплаты (сейчас 3) или систематических опозданиях, упрощённое выселение, свободные повышения аренды в новых договорах, предоплата до 3 месяцев и отмена лимита caução, переходный режим для договоров до 1990 года, Fundo de Emergência Habitacional. Пока действуют прежние правила NRAU, описанные в этом гайде.',
+    sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
+  },
   steps: [
     {
       id: 'legal-framework',
@@ -181,6 +185,6 @@ export default {
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 180
 }

@@ -6,6 +6,10 @@ export default {
   tldr: 'O arrendamento de longa duração (arrendamento habitacional) é regulado pelo NRAU (Lei 6/2006, com alterações). Para contratos com prazo certo, o mínimo é 1 ano e o máximo 30 anos; se o prazo não for indicado, considera-se que o contrato foi celebrado por 5 anos (Código Civil arts. 1094-1095)\.\n\nAs excepções para contratos para fins especiais transitórios podem ter duração inferior. Nos termos do art. 1076 Código Civil, o limite é: caução até 2 rendas mensais + renda antecipada até 2 meses. Exigências de pagamento antecipado de 3-12 meses são juridicamente vulneráveis — discuta com um advogado uma estrutura legal (seguro de fiança, garantia bancária, fiador)\.\n\nO contrato é registado nas Finanças pelo proprietário, que também emite os recibos de renda.',
   tags: ['arrendamento', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
+  pendingLaw: {
+    summary: 'A 09.07.2026 o Conselho de Ministros aprovou uma reforma do arrendamento (por enquanto apenas uma proposta de lei, que segue para o Parlamento — NÃO é lei em vigor): resolução do contrato com 2 meses de rendas em atraso (actualmente 3) ou atrasos sistemáticos, despejo simplificado, aumentos de renda livres nos novos contratos, renda antecipada até 3 meses e fim do limite da caução, regime transitório para contratos anteriores a 1990, Fundo de Emergência Habitacional. Por enquanto aplicam-se as regras anteriores do NRAU descritas neste guia.',
+    sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
+  },
   steps: [
     {
       id: 'legal-framework',
@@ -181,6 +185,6 @@ export default {
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   verifyIntervalDays: 180
 }

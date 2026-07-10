@@ -97,7 +97,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'p1', title: '1. Подать в AIMA', content: [
-            { kind: 'paragraph', text: 'Подача зависит от актуального канала AIMA: онлайн-portal, если AIMA открыл соответствующую опцию, либо запись/подача через AIMA. Проверяйте страницу AIMA для «autorização de residência permanente» / «estatuto de residente de longa duração» перед подачей.' }
+            { kind: 'paragraph', text: '🆕 С 01.07.2026 Portal de Renovações AIMA обрабатывает и постоянные документы граждан ЕС и их семей: certificado de residência permanente (ст. 16) и cartão de residência permanente для членов семьи (ст. 17) — раньше это шло через Formulário de Contacto. Портал охватывает документы, истёкшие/истекающие с 01.07.2025 по 31.10.2026. Для остальных случаев проверяйте страницу AIMA для «autorização de residência permanente» / «estatuto de residente de longa duração» перед подачей.' }
           ]},
           { id: 'p2', title: '2. Оплатить пошлину', content: [
             { kind: 'paragraph', text: 'AIMA — concessão art. 76 = 351,10 € (tabela 01.03.2026). Дополнительно приём + анализ ~133 €.' }
@@ -177,7 +177,7 @@ export default {
     { title: 'Directive 2003/109/EC', url: 'https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32003L0109', kind: 'law', language: 'en', lastRetrieved: '2026-04-22' },
     { title: 'AIMA — Autorização Permanente', url: 'https://aima.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-10',
   changeSummary: 'Обновление май 2026: (1) Углублено сравнение национального ПМЖ (art. 80) и EULTR (art. 125+): студенты считаются по-разному, разные пороги отсутствий, разный уровень требований к доходу. (2) Шаг «Когда считать 5 лет» с 9 частными случаями (D-виза, MdI, очередь на продление, перерывы между ВНЖ, переход SEF→AIMA, смена типа визы, reagrupamento, дети в Португалии, студенты). (3) Распространённые мифы про разницу ПМЖ и EULTR. (4) Lei Orgânica 1/2026 (в силе с 19.05.2026): гражданство теперь 7/10 лет, ПМЖ становится важнее как промежуточный статус.',
   verifyIntervalDays: 180
 }
