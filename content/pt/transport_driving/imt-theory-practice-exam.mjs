@@ -6,7 +6,6 @@ export default {
   tldr: 'Se não tem uma carta de condução válida ou se a carta do seu país não pode ser trocada sem exame (Federação Russa, BY e outros sem acordo bilateral) — tem de fazer os exames em Portugal. Através de uma escola de condução (escola de condução): 32 horas de teoria + 32 horas de prática (categoria B), tarifa da escola de condução 600–1200 € + 70 € de taxa administrativa do IMT. A teoria é feita no IMT, a prática — num veículo de instrução. O teste É EM PORTUGUÊS — a versão em inglês passou a estar disponível de forma regular a partir de 2024. Desde 08.07.2026 (Decreto-Lei 114/2026) a tradução da prova teórica é permitida para todas as categorias e não só para candidatos, mas também para quem já tem carta (troca com exame) — mediante requerimento e autorização do IMT; existe o regime de exame com tradutor da lista do IMT (inclui russo e ucraniano).',
   tags: ['carta de condução', 'imt', 'exame', 'teoria', 'escola de condução', 'categoria b'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-07-07',
   changeSummary: '🗣️ Desde 08.07.2026 (Decreto-Lei 114/2026, art. 44.º RHLC) a tradução da prova teórica é permitida para todas as categorias e não só para candidatos, mas também para quem já tem carta (por exemplo, troca com exame). Exige requerimento e autorização do IMT, com prova de domínio insuficiente do português. Enquanto o IMT não publicar testes traduzidos, aplica-se o regime de exame com tradutor — 14 línguas na lista do IMT, incluindo russo e ucraniano.',
   steps: [
     {

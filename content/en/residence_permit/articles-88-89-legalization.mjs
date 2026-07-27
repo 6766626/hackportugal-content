@@ -6,8 +6,7 @@ export default {
   tldr: 'Articles 88 and 89 of Lei 23/2007 are residence permit routes for employment (88) and independent professionals/entrepreneurs (89).\n\n88.1 and 89.1 are the standard visa route: first a consular residence visa (D1 for 88.1, D2 for 89.1) → application to AIMA.\n\n88.2 and 89.2 used to be an exceptional route from inside Portugal WITHOUT a visa (through Manifestação de Interesse) — abolished: new applications stopped on 03.06.2024 (Decreto-Lei 37-A/2024), and Lei 61/2025 (in force on 23.10.2025) definitively removed the regime.\n\nIMPORTANT: art. 89 is NOT an investor route; investment residence permits are a separate article of Lei 23/2007 (art. 90-A — ARI/Golden Visa).',
   tags: ['art 88', 'art 89', 'legalisation', 'Lei 23/2007', 'Manifestação de Interesse'],
   estimatedReadMinutes: 7,
-  recentlyChangedAt: '2026-07-27',
-  changeSummary: '📌 Clarified the reagrupamento familiar item per Lei 61/2025 (in force): no residence-period requirement when the household includes minor/incapable children; exemptions for Golden Visa (art. 90-A), highly-qualified/teaching/cultural (art. 90) and EU Blue Card (art. 121-A); for spouses without minor dependents, a residence-time requirement for the main applicant plus prior cohabitation (~18 months) and proof of housing and means. Confirm exact periods with AIMA.',
+  changeSummary: 'Clarified the reagrupamento familiar item per Lei 61/2025 (in force): no residence-period requirement when the household includes minor/incapable children; exemptions for Golden Visa (art. 90-A), highly-qualified/teaching/cultural (art. 90) and EU Blue Card (art. 121-A); for spouses without minor dependents, a residence-time requirement for the main applicant plus prior cohabitation (~18 months) and proof of housing and means. Confirm exact periods with AIMA.',
   steps: [
     {
       id: 'context',

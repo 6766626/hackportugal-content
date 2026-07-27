@@ -6,7 +6,6 @@ export default {
   tldr: 'If you do not have a valid driving licence or your country’s licence cannot be exchanged without an exam (Russian Federation, BY and others without a bilateral agreement) — you need to take exams in Portugal. Through a driving school (escola de condução): 32 hours of theory + 32 hours of practice (category B), driving school fee €600–1,200 + €70 IMT state fee. Theory is taken at IMT, practice — in a learner car. The test is IN PORTUGUESE — an English version became routinely available from 2024. From 8 July 2026 (Decreto-Lei 114/2026) translation of the theory test is allowed for all categories and not only for first-time candidates but also for existing licence holders (exchange via exam) — on request and with IMT authorisation; an exam-with-translator regime is available from the IMT list (Russian and Ukrainian included).',
   tags: ['licence', 'imt', 'exam', 'theory', 'driving school', 'category b'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-07-07',
   changeSummary: '🗣️ From 8 July 2026 (Decreto-Lei 114/2026, art. 44 RHLC) translation of the theory exam is allowed for all categories and not only for first-time candidates but also for existing licence holders (e.g. exchange via exam). Requires a request and IMT authorisation with proof of insufficient Portuguese. Until IMT publishes translated tests, the exam-with-translator regime applies — 14 languages on the IMT list, including Russian and Ukrainian.',
   steps: [
     {

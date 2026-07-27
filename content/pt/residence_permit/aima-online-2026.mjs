@@ -7,7 +7,7 @@ export default {
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-07-27',
-  changeSummary: '📌 🆕 22.07.2026: a AIMA lançou (em modo de teste) o acompanhamento de todas as etapas do processo — desde a submissão até à produção do cartão e ao código de rastreio CTT, através do formulário de contacto do portal. Anteriormente: clarificada a regra dos 6 meses (DR 84/2007 art. 63.º n.º 14) e a situação após o prazo de 15.04.2026.',
+  changeSummary: '🆕 22.07.2026: a AIMA lançou (em modo de teste) o acompanhamento de todas as etapas do processo — desde a submissão até à produção do cartão e ao código de rastreio CTT, através do formulário de contacto do portal. Anteriormente: clarificada a regra dos 6 meses (DR 84/2007 art. 63.º n.º 14) e a situação após o prazo de 15.04.2026.',
   steps: [
     {
       id: 'which-portal',

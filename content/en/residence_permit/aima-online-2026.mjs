@@ -7,7 +7,7 @@ export default {
   tags: ['aima', 'residence permit', 'renewal', 'online'],
   estimatedReadMinutes: 10,
   recentlyChangedAt: '2026-07-27',
-  changeSummary: '📌 🆕 22.07.2026: AIMA launched (in test mode) tracking of all process stages — from submission to card production and the CTT tracking code, via the portal contact form. Previously: clarified the 6-month rule (DR 84/2007 art. 63.º n.º 14) and the situation after the 15.04.2026 deadline.',
+  changeSummary: '🆕 22.07.2026: AIMA launched (in test mode) tracking of all process stages — from submission to card production and the CTT tracking code, via the portal contact form. Previously: clarified the 6-month rule (DR 84/2007 art. 63.º n.º 14) and the situation after the 15.04.2026 deadline.',
   steps: [
     {
       id: 'which-portal',
