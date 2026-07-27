@@ -6,6 +6,8 @@ export default {
   tldr: 'Processo que permite trazer o cônjuge, filhos ou pais depois de obter a sua própria autorização de residência. É submetido através da AIMA (portal-rf.aima.gov.pt)\.\n\nImportante: a Lei 61/2025 (publicada em 22.10.2025, em vigor desde 23.10.2025) introduziu a exigência de 2 anos de residência legal ANTES da submissão. Contudo, o Tribunal Constitucional (Acórdão 785/2025) declarou inconstitucional o prazo absoluto de 2 anos na parte relativa aos cônjuges e aos filhos menores. Os requisitos concretos dependem da categoria do familiar — é necessária verificação individual.\n\nPrazo de decisão da AIMA — até 9 meses (anteriormente eram 3 meses, prorrogáveis até 6)\.\n\nExceções: titulares de Golden Visa, titulares do cartão azul UE, profissionais altamente qualificados, investigadores e vários outros estatutos qualificados; os cônjuges e as famílias com filhos menores têm proteção autónoma.',
   tags: ['família', 'reagrupamento familiar', 'reagrupamento', 'aima'],
   estimatedReadMinutes: 8,
+  recentlyChangedAt: '2026-07-26',
+  changeSummary: '🆕 25.07.2026: a AIMA iniciou o envio massivo de e-mails com datas de atendimento no regime transitório do reagrupamento familiar (~9 mil processos). Os e-mails chegam ao longo de ~2 semanas (muitas vezes de noite), os atendimentos são marcados até ao final de 2026. Não duplique os pedidos nem se apresse com ações judiciais — a AIMA promete agendar todos.',
   steps: [
     {
       id: 'who',
@@ -52,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'Através do portal especializado portal-rf.aima.gov.pt (lançado em 2024) ou em atendimento presencial. Seleccionar o tipo «Reagrupamento Familiar».' }
           ]},
           { id: 'r3', title: '3. Obter a aprovação preliminar', content: [
-            { kind: 'timeline', text: 'Até 9 meses de acordo com a Lei 61/2025 (anteriormente eram 3 meses, prorrogáveis por mais 3; foi também revogada a regra de «deferimento tácito» ao fim de 6 meses). Na prática, em 2026 — 6–12 meses. Em junho de 2026 a AIMA confirmou publicamente: os primeiros cartões de reagrupamento demoram até 9 meses; nas autorizações de trabalho não há atrasos significativos. Em caso de aprovação, a AIMA envia uma notificação ao consulado do país de residência da família.' }
+            { kind: 'timeline', text: 'Até 9 meses de acordo com a Lei 61/2025 (anteriormente eram 3 meses, prorrogáveis por mais 3; foi também revogada a regra de «deferimento tácito» ao fim de 6 meses). Na prática, em 2026 — 6–12 meses. Em junho de 2026 a AIMA confirmou publicamente: os primeiros cartões de reagrupamento demoram até 9 meses; nas autorizações de trabalho não há atrasos significativos. Em caso de aprovação, a AIMA envia uma notificação ao consulado do país de residência da família. 🆕 25.07.2026: a AIMA iniciou o envio massivo de e-mails com datas de atendimento para os requerentes do regime transitório (~9 mil processos; os e-mails são enviados ao longo de ~2 semanas, muitas vezes de noite; os atendimentos — até ao final de 2026). Conselho da AIMA: NÃO duplique o pedido por vários canais (isso «perturba o sistema») e não se apresse com novas ações judiciais — a AIMA promete agendar todos.' }
           ]},
           { id: 'r4', title: '4. A família obtém o visto no consulado', content: [
             { kind: 'paragraph', text: 'Com base na aprovação da AIMA. Taxa — cerca de 90 € por pessoa.' }
@@ -93,8 +95,9 @@ export default {
     { title: 'ePortugal — Reagrupamento Familiar', url: 'https://www.gov.pt/cidadaos/-/informacoes/reagrupamento-familiar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 23/2007 — artigos 98-108', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 61/2025 (DR N.º 204, 22.10.2025) — alterações à Lei 23/2007 (condição de 2 anos, prazo de decisão de 9 meses da AIMA)', url: 'https://files.diariodarepublica.pt/1s/2025/10/20400/0000900017.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'Tribunal Constitucional — Acórdão 785/2025 (inconstitucionalidade de várias normas do Reagrupamento Familiar)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20250785.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
+    { title: 'Tribunal Constitucional — Acórdão 785/2025 (inconstitucionalidade de várias normas do Reagrupamento Familiar)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20250785.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'DN Brasil — Imigrantes com pedido de reagrupamento familiar serão chamados pela AIMA (25.07.2026)', url: 'https://dnbrasil.dn.pt/imigrantes-com-pedido-de-reagrupamento-familiar-sero-chamados-pela-aima', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 90
 }

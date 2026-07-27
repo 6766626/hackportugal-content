@@ -6,6 +6,8 @@ export default {
   tldr: 'Если AIMA потеряла досье, не даёт слот, месяцами не выпускает cartão de residência или не отвечает на email, действуйте по лестнице: собрать доказательства → жалоба в Livro de Reclamações → дать AIMA до 60 дней на реакцию → жалоба в Provedor de Justiça → при срочном ущербе идти в Tribunal Administrativo с адвокатом. Provedor бесплатен, но не заменяет суд и не отменяет дедлайны по ВНЖ.',
   tags: ['aima', 'жалоба', 'provedor', 'внж'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-26',
+  changeSummary: '🆕 Судебная реальность по искам к AIMA (CSTAF, июль 2026): >100 тыс. дел в ожидании, среднее время первой инстанции — 861 день. 23.07.2026 правительство одобрило законопроект: подача исков по месту жительства истца (не только Лиссабон) + специализированные миграционные суды — пока НЕ закон.',
   steps: [
     {
       id: 'when-to-escalate',
@@ -116,7 +118,7 @@ export default {
           'проверьте, есть ли право на apoio judiciário через Segurança Social, если доход низкий',
           'не пропускайте сроки обжалования, если у вас есть формальное решение AIMA, а не просто молчание'
         ] },
-        { kind: 'paragraph', text: 'Суд — не последняя «жалоба», а юридический спор с процессуальными правилами. Он дороже, но иногда единственный рабочий способ заставить администрацию принять решение, когда месяцы ожидания уже причиняют реальный ущерб.' },
+        { kind: 'paragraph', text: 'Суд — не последняя «жалоба», а юридический спор с процессуальными правилами. Он дороже, но иногда единственный рабочий способ заставить администрацию принять решение, когда месяцы ожидания уже причиняют реальный ущерб. 🆕 Реалистичные ожидания (отчёт CSTAF, июль 2026): административные суды завалены именно делами AIMA — в ожидании больше 100 тыс. процессов, среднее время решения в первой инстанции в 2024 выросло до 861 дня; спецгруппа судей разобрала около пятой части завала за 3 месяца. 23.07.2026 правительство одобрило законопроект: иски к AIMA можно будет подавать в административный суд по месту ЖИТЕЛЬСТВА истца (сейчас — только Лиссабон), плюс предложены специализированные миграционные суды — это пока НЕ закон, нужен парламент.' },
         { kind: 'warning', text: 'Не полагайтесь только на посты в Facebook и Telegram-шаблоны. Один и тот же шаблон может навредить, если у вас отказ, просроченный статус, семейное дело или срочная медицинская ситуация.' }
       ]
     }
@@ -131,8 +133,9 @@ export default {
     { title: 'Provedor de Justiça: как подать жалобу', url: 'https://www.provedor-jus.pt/en/who-we-are/faq/file-a-complaint/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Electrónico', url: 'https://livroreclamacoes.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'AIMA — Perguntas Frequentes e contactos', url: 'https://aima.gov.pt/pt/perguntas-frequentes-faq-s', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
-    { title: 'Código de Processo nos Tribunais Administrativos — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Código de Processo nos Tribunais Administrativos — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DN — Governo vai distribuir processos contra a AIMA para tribunais de todo o país (23.07.2026)', url: 'https://www.dn.pt/sociedade/governo-vai-distribuir-processos-contra-a-aima-para-tribunais-de-todo-o-pas', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 90
 }

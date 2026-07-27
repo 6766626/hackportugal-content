@@ -7,7 +7,6 @@ export default {
   audience: { citizenships: ['cplp', 'thirdCountry'] },
   tags: ['licence', 'imt', 'exchange'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-07',
   changeSummary: 'Decreto-Lei 114/2026 (in force since 9 June 2026): on exchange, non-EU citizens receive licences valid no longer than their visa/residence permit, with code 794 entered on the card. From 8 July 2026 the theory test can be taken with an IMT-authorised translation.',
   variants: [
     {

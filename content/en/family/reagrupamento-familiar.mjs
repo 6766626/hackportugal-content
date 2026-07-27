@@ -6,6 +6,8 @@ export default {
   tldr: 'A process that allows you to bring a spouse, children or parents after obtaining your own residence permit. Applications are submitted through AIMA (portal-rf.aima.gov.pt).\n\nImportant: Lei 61/2025 (published 22.10.2025, in force from 23.10.2025) introduced a requirement of 2 years of legal residence BEFORE applying. However, the Constitutional Court (Acórdão 785/2025) ruled the absolute 2-year condition unconstitutional as it applies to spouses and minor children. The exact requirements depend on the family member category — individual checking is needed.\n\nAIMA decision time — up to 9 months (previously 3 months, extendable to 6).\n\nExceptions: Golden Visa holders, EU Blue Card holders, highly qualified professionals, researchers and several other qualified statuses; spouses and families with minor children have separate protection.',
   tags: ['family', 'reunification', 'reagrupamento', 'aima'],
   estimatedReadMinutes: 8,
+  recentlyChangedAt: '2026-07-26',
+  changeSummary: '🆕 25.07.2026: AIMA began a mass e-mail campaign with appointment dates under the transitional family-reunification regime (~9 thousand cases). E-mails arrive over ~2 weeks (often at night), appointments are scheduled through the end of 2026. Do not duplicate requests and do not rush into lawsuits — AIMA promises to schedule everyone.',
   steps: [
     {
       id: 'who',
@@ -52,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'Through the dedicated portal portal-rf.aima.gov.pt (launched in 2024) or at an in-person appointment. Select the “Reagrupamento Familiar” type.' }
           ]},
           { id: 'r3', title: '3. Receive preliminary approval', content: [
-            { kind: 'timeline', text: 'Up to 9 months under Lei 61/2025 (previously 3 months, extendable by a further 3; the rule on “tacit approval” after 6 months was also revoked). In practice in 2026 — 6–12 months. In June 2026 AIMA publicly confirmed: first family-reunification cards take up to 9 months; work permits show no significant delays. If approved, AIMA sends a notification to the consulate in the family’s country of residence.' }
+            { kind: 'timeline', text: 'Up to 9 months under Lei 61/2025 (previously 3 months, extendable by a further 3; the rule on “tacit approval” after 6 months was also revoked). In practice in 2026 — 6–12 months. In June 2026 AIMA publicly confirmed: first family-reunification cards take up to 9 months; work permits show no significant delays. If approved, AIMA sends a notification to the consulate in the family’s country of residence. 🆕 25.07.2026: AIMA began a mass e-mail campaign with appointment dates for transitional-regime applicants (~9 thousand cases; e-mails go out over ~2 weeks, often sent at night; appointments — through the end of 2026). AIMA advice: do NOT duplicate the request via several channels (it “disturbs the system”) and do not rush into new lawsuits — AIMA promises to schedule everyone.' }
           ]},
           { id: 'r4', title: '4. The family obtains a visa at the consulate', content: [
             { kind: 'paragraph', text: 'On the basis of AIMA approval. Fee — around €90 per person.' }
@@ -93,8 +95,9 @@ export default {
     { title: 'ePortugal — Reagrupamento Familiar', url: 'https://www.gov.pt/cidadaos/-/informacoes/reagrupamento-familiar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 23/2007 — Articles 98-108', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 61/2025 (DR No. 204, 22.10.2025) — amendments to Lei 23/2007 (2-year condition, 9-month AIMA decision period)', url: 'https://files.diariodarepublica.pt/1s/2025/10/20400/0000900017.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'Tribunal Constitucional — Acórdão 785/2025 (unconstitutionality of several Reagrupamento Familiar provisions)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20250785.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
+    { title: 'Tribunal Constitucional — Acórdão 785/2025 (unconstitutionality of several Reagrupamento Familiar provisions)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20250785.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'DN Brasil — Imigrantes com pedido de reagrupamento familiar serão chamados pela AIMA (25.07.2026)', url: 'https://dnbrasil.dn.pt/imigrantes-com-pedido-de-reagrupamento-familiar-sero-chamados-pela-aima', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 90
 }

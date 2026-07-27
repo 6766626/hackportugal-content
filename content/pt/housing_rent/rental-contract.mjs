@@ -7,7 +7,7 @@ export default {
   tags: ['arrendamento', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
   pendingLaw: {
-    summary: 'A 09.07.2026 o Conselho de Ministros aprovou uma reforma do arrendamento (por enquanto apenas uma proposta de lei, que segue para o Parlamento — NÃO é lei em vigor): resolução do contrato com 2 meses de rendas em atraso (actualmente 3) ou atrasos sistemáticos, despejo simplificado, aumentos de renda livres nos novos contratos, renda antecipada até 3 meses e fim do limite da caução, regime transitório para contratos anteriores a 1990, Fundo de Emergência Habitacional. Por enquanto aplicam-se as regras anteriores do NRAU descritas neste guia.',
+    summary: 'A 09.07.2026 o Conselho de Ministros aprovou uma reforma do arrendamento (NÃO é lei em vigor): resolução do contrato com 2 meses de rendas em atraso (actualmente 3) ou atrasos sistemáticos, despejo simplificado, aumentos de renda livres nos novos contratos, renda antecipada até 3 meses e fim do limite da caução, regime transitório para contratos anteriores a 1990, Fundo de Emergência Habitacional. Ponto de situação a 27.07.2026: a proposta de lei ainda NÃO foi entregue no Parlamento (o Governo seguirá pela via de uma autorização legislativa); o debate não deverá ocorrer antes de setembro. Por enquanto aplicam-se as regras anteriores do NRAU descritas neste guia.',
     sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
   },
   steps: [
@@ -185,6 +185,6 @@ export default {
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-07-10',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 180
 }

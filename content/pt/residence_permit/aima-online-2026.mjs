@@ -6,8 +6,8 @@ export default {
   tldr: 'Em 2026, a renovação da autorização de residência deve ser iniciada online, mas o percurso depende da data de caducidade e do tipo de cartão. Os cartões comuns caducados a partir de 01.07.2025 são renovados através de portal-renovacoes.aima.gov.pt. Cartões antigos caducados entre 22.02.2020 e 30.06.2025 seguem por services.aima.gov.pt/RAR/reqrenew ou pelo percurso indicado por email pela AIMA/EMAIMA; CPLP, ARI e cartões de familiares de cidadãos da UE têm regras próprias. Segundo o gov.pt, o pedido pode ser feito desde 90 dias antes do fim da validade. Para cartões caducados depois de 30.06.2025, o direito de residência mantém-se por 6 meses após a data de caducidade; se, durante esse período, tiver iniciado a renovação e tiver comprovativo/recibo, a AIMA considera a permanência legal até à conclusão do processo — mesmo depois desses 6 meses. Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias: leve-o consigo juntamente com o cartão caducado.',
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-07-10',
-  changeSummary: '📌 Corrigida a interpretação do prazo de 6 meses (Decreto Regulamentar 84/2007 art. 63.º n.º 14) e acrescentada a situação após o prazo de 15.04.2026 segundo os esclarecimentos da AIMA.',
+  recentlyChangedAt: '2026-07-27',
+  changeSummary: '📌 🆕 22.07.2026: a AIMA lançou (em modo de teste) o acompanhamento de todas as etapas do processo — desde a submissão até à produção do cartão e ao código de rastreio CTT, através do formulário de contacto do portal. Anteriormente: clarificada a regra dos 6 meses (DR 84/2007 art. 63.º n.º 14) e a situação após o prazo de 15.04.2026.',
   steps: [
     {
       id: 'which-portal',
@@ -104,7 +104,7 @@ export default {
             ]}
           ]},
           { id: 's7', title: '7. Acompanhe o estado e o email', content: [
-            { kind: 'paragraph', text: 'Depois do pagamento, a AIMA inicia a análise. Em casos da comunidade, após a verificação dos documentos aparecem marcas verdes, depois um estado como concluido/deferido e um email. Se a AIMA pedir documentos adicionais, o prazo de resposta costuma ser curto, por isso não perca a notificação.' },
+            { kind: 'paragraph', text: 'Depois do pagamento, a AIMA inicia a análise. Em casos da comunidade, após a verificação dos documentos aparecem marcas verdes, depois um estado como concluido/deferido e um email. Se a AIMA pedir documentos adicionais, o prazo de resposta costuma ser curto, por isso não perca a notificação. 🆕 Desde 22.07.2026, a AIMA testa uma ferramenta de acompanhamento de TODAS as etapas do processo — submissão, análise, decisão, produção do cartão, envio (incluindo o código de rastreio CTT): acesso através do formulário de contacto no portal da AIMA; a ferramenta ainda está em modo de teste.' },
             { kind: 'timeline', text: 'Os prazos reais variam muito: de algumas semanas a vários meses. Se não houver movimento após 90 dias, crie um rasto escrito: formulário de contacto AIMA, email regional, Livro Amarelo/Provedor de Justiça; para atraso prolongado, discuta com advogado uma ação administrativa contra a inércia.' }
           ]},
           { id: 's8', title: '8. Receba o cartão', content: [
@@ -228,8 +228,9 @@ export default {
     { title: 'AIMA — Renovação do Título de Residente de Longa Duração', url: 'https://aima.gov.pt/pt/noticias/renovacao-do-titulo-de-residente-de-longa-duracao', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'AIMA — Tabela de Taxas', url: 'https://aima.gov.pt/documents/tabela-de-taxas-e-demais-encargos-a-cobrar-pelos-procedimentos-administrativos.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'Justiça.gov.pt — Registo criminal de pessoas', url: 'https://justica.gov.pt/Servicos/Pedir-e-consultar-registo-criminal-de-pessoas', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
-    { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' }
+    { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 45
 }

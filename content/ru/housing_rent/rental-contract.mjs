@@ -7,7 +7,7 @@ export default {
   tags: ['аренда', 'nrau', 'contrato', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
   pendingLaw: {
-    summary: '09.07.2026 Совет министров одобрил реформу аренды (пока только законопроект, идёт в парламент — НЕ действующий закон): расторжение при 2 месяцах неуплаты (сейчас 3) или систематических опозданиях, упрощённое выселение, свободные повышения аренды в новых договорах, предоплата до 3 месяцев и отмена лимита caução, переходный режим для договоров до 1990 года, Fundo de Emergência Habitacional. Пока действуют прежние правила NRAU, описанные в этом гайде.',
+    summary: '09.07.2026 Совет министров одобрил реформу аренды (НЕ действующий закон): расторжение при 2 месяцах неуплаты (сейчас 3) или систематических опозданиях, упрощённое выселение, свободные повышения аренды в новых договорах, предоплата до 3 месяцев и отмена лимита caução, переходный режим для договоров до 1990 года, Fundo de Emergência Habitacional. Статус на 27.07.2026: законопроект в парламент так и не внесён (правительство пойдёт через autorização legislativa); обсуждение — не раньше сентября. Пока действуют прежние правила NRAU, описанные в этом гайде.',
     sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
   },
   steps: [
@@ -185,6 +185,6 @@ export default {
     { title: 'Portal das Finanças — Registo de Contrato de Arrendamento', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Arrendar casa', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-07-10',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 180
 }

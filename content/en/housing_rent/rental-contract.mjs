@@ -7,7 +7,7 @@ export default {
   tags: ['rent', 'nrau', 'contract', 'caução', 'fiador'],
   estimatedReadMinutes: 8,
   pendingLaw: {
-    summary: 'On 09.07.2026 the Council of Ministers approved a rental reform (so far only a bill going to Parliament — NOT law in force): termination after 2 months of unpaid rent (currently 3) or systematic late payments, simplified eviction, free rent increases in new contracts, advance rent of up to 3 months and removal of the caução cap, a transitional regime for pre-1990 contracts, Fundo de Emergência Habitacional. For now the previous NRAU rules described in this guide apply.',
+    summary: 'On 09.07.2026 the Council of Ministers approved a rental reform (NOT law in force): termination after 2 months of unpaid rent (currently 3) or systematic late payments, simplified eviction, free rent increases in new contracts, advance rent of up to 3 months and removal of the caução cap, a transitional regime for pre-1990 contracts, Fundo de Emergência Habitacional. Status as of 27.07.2026: the bill has still NOT been submitted to Parliament (the government will use an autorização legislativa route); debate not before September. For now the previous NRAU rules described in this guide apply.',
     sourceUrl: 'https://eco.sapo.pt/2026/07/09/atrasos-no-pagamento-das-rendas-passam-a-justificar-resolucao-do-contrato/'
   },
   steps: [
@@ -185,6 +185,6 @@ export default {
     { title: 'Portal das Finanças — Registration of a Rental Contract', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'ePortugal — Renting a home', url: 'https://www.gov.pt/cidadaos/-/informacoes/arrendar-uma-casa', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-07-10',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 180
 }

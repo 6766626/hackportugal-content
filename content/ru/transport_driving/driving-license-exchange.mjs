@@ -7,7 +7,6 @@ export default {
   audience: { citizenships: ['cplp', 'thirdCountry'] },
   tags: ['права', 'imt', 'обмен'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-07',
   changeSummary: 'Decreto-Lei 114/2026 (в силе с 09.06.2026): при обмене гражданам стран вне ЕС права выдают со сроком не дольше визы/ВНЖ, в карту вносится код 794. С 08.07.2026 теорию можно сдавать с переводом по разрешению IMT.',
   variants: [
     {

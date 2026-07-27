@@ -6,8 +6,8 @@ export default {
   tldr: 'В 2026 продление ВНЖ нужно начинать онлайн, но маршрут зависит от даты истечения и типа карты. Обычные карты, истекшие начиная с 01.07.2025, продлеваются через portal-renovacoes.aima.gov.pt. Старые карты, истекшие с 22.02.2020 по 30.06.2025, идут через services.aima.gov.pt/RAR/reqrenew или письмо AIMA/EMAIMA; CPLP, ARI и карты родственников граждан ЕС имеют отдельные правила. По gov.pt запрос можно подать с 90 дней до окончания карты. Для карт, истёкших после 30.06.2025, право проживания сохраняется 6 месяцев после даты истечения; если за это время вы начали продление и имеете comprovativo/recibo, AIMA считает пребывание законным до завершения процесса — даже после этих 6 месяцев. После регистрации запроса и оплаты AIMA выдаёт comprovativo на 180 дней: носите его вместе с истёкшей картой.',
   tags: ['aima', 'внж', 'продление', 'онлайн'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-07-10',
-  changeSummary: '📌 Исправлена трактовка 6-месячного срока (Decreto Regulamentar 84/2007 ст. 63.º n.º 14) и добавлена ситуация после дедлайна 15.04.2026 по разъяснениям AIMA.',
+  recentlyChangedAt: '2026-07-27',
+  changeSummary: '📌 🆕 22.07.2026: AIMA запустила (в тестовом режиме) отслеживание всех этапов процесса — от подачи до производства карты и трек-кода CTT, через contact form портала. Ранее: уточнена трактовка 6-месячного срока (DR 84/2007 ст. 63.º n.º 14) и ситуация после дедлайна 15.04.2026.',
   steps: [
     {
       id: 'which-portal',
@@ -104,7 +104,7 @@ export default {
             ]}
           ]},
           { id: 's7', title: '7. Следите за статусом и e-mail', content: [
-            { kind: 'paragraph', text: 'После оплаты AIMA начинает анализ. В кейсах из сообщества после проверки документов появляются зелёные отметки, затем статус вроде concluído/deferido и письмо. Если запросят дополнительные документы, срок ответа обычно короткий — не пропустите уведомление.' },
+            { kind: 'paragraph', text: 'После оплаты AIMA начинает анализ. В кейсах из сообщества после проверки документов появляются зелёные отметки, затем статус вроде concluído/deferido и письмо. Если запросят дополнительные документы, срок ответа обычно короткий — не пропустите уведомление. 🆕 С 22.07.2026 AIMA тестирует инструмент отслеживания ВСЕХ этапов процесса — подача, анализ, решение, производство карты, отправка (включая трек-код CTT): доступ через contact form на портале AIMA; инструмент пока в тестовом режиме.' },
             { kind: 'timeline', text: 'Реальные сроки сильно гуляют: от нескольких недель до нескольких месяцев. Если 90 дней нет движения, начинайте письменный трек: contact form AIMA, региональный e-mail, Livro Amarelo/Provedor de Justiça; для долгой просрочки обсуждайте с advogado административную процедуру против бездействия.' }
           ]},
           { id: 's8', title: '8. Получите карту', content: [
@@ -228,8 +228,9 @@ export default {
     { title: 'AIMA — Renovação do Título de Residente de Longa Duração', url: 'https://aima.gov.pt/pt/noticias/renovacao-do-titulo-de-residente-de-longa-duracao', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'AIMA — Tabela de Taxas', url: 'https://aima.gov.pt/documents/tabela-de-taxas-e-demais-encargos-a-cobrar-pelos-procedimentos-administrativos.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'Justiça.gov.pt — Registo criminal de pessoas', url: 'https://justica.gov.pt/Servicos/Pedir-e-consultar-registo-criminal-de-pessoas', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
-    { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' }
+    { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 45
 }

@@ -6,6 +6,8 @@ export default {
   tldr: 'Процесс, позволяющий привезти супруга, детей или родителей после получения собственного ВНЖ. Подаётся через AIMA (portal-rf.aima.gov.pt)\.\n\nВажно: Lei 61/2025 (опубликован 22.10.2025, вступил в силу 23.10.2025) ввёл правило о 2 годах легального проживания ДО подачи. Однако Конституционный суд (Acórdão 785/2025) признал абсолютное 2-летнее условие неконституционным в части, касающейся супругов и несовершеннолетних детей. Точные требования зависят от категории родственника — нужна индивидуальная проверка.\n\nСрок решения AIMA — до 9 мес. (ранее — 3 мес., продлеваемых до 6)\.\n\nИсключения: держатели Golden Visa, EU Blue Card, высококвалифицированные специалисты, исследователи и ряд других квалифицированных статусов; супруги и семьи с несовершеннолетними детьми защищены отдельно.',
   tags: ['семья', 'воссоединение', 'reagrupamento', 'aima'],
   estimatedReadMinutes: 8,
+  recentlyChangedAt: '2026-07-26',
+  changeSummary: '🆕 25.07.2026: AIMA начала массовую e-mail-рассылку дат приёма по переходному режиму воссоединения (~9 тыс. дел). Письма приходят в течение ~2 недель (часто ночью), приёмы назначаются до конца 2026. Не дублируйте запросы и не спешите с исками — AIMA обещает записать всех.',
   steps: [
     {
       id: 'who',
@@ -52,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'Через специализированный портал portal-rf.aima.gov.pt (запущен в 2024 году) или на очном приёме. Выбрать тип «Reagrupamento Familiar».' }
           ]},
           { id: 'r3', title: '3. Получить предварительное одобрение', content: [
-            { kind: 'timeline', text: 'До 9 месяцев согласно Lei 61/2025 (ранее — 3 месяца, продлеваемые ещё на 3; также отменено правило о «молчаливом одобрении» через 6 месяцев). Реально на 2026 — 6–12 мес. В июне 2026 AIMA публично подтвердила: первые карты по воссоединению — до 9 месяцев; по рабочим ВНЖ значительных задержек нет. При одобрении AIMA отправляет уведомление в консульство страны проживания семьи.' }
+            { kind: 'timeline', text: 'До 9 месяцев согласно Lei 61/2025 (ранее — 3 месяца, продлеваемые ещё на 3; также отменено правило о «молчаливом одобрении» через 6 месяцев). Реально на 2026 — 6–12 мес. В июне 2026 AIMA публично подтвердила: первые карты по воссоединению — до 9 месяцев; по рабочим ВНЖ значительных задержек нет. При одобрении AIMA отправляет уведомление в консульство страны проживания семьи. 🆕 25.07.2026: AIMA начала массовую рассылку e-mail с датами приёма для заявителей переходного режима (~9 тыс. дел; письма идут ~2 недели, часто отправляются ночью; приёмы — до конца 2026 года). Совет AIMA: НЕ дублируйте запрос по нескольким каналам (это «мешает системе») и не торопитесь с новыми исками — записать обещают всех.' }
           ]},
           { id: 'r4', title: '4. Семья получает визу в консульстве', content: [
             { kind: 'paragraph', text: 'На основании одобрения AIMA. Пошлина — около € 90 на человека.' }
@@ -93,8 +95,9 @@ export default {
     { title: 'ePortugal — Reagrupamento Familiar', url: 'https://www.gov.pt/cidadaos/-/informacoes/reagrupamento-familiar', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 23/2007 — статьи 98-108', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34532975', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Lei 61/2025 (DR N.º 204, 22.10.2025) — изменения Lei 23/2007 (2-летнее условие, 9-месячный срок решения AIMA)', url: 'https://files.diariodarepublica.pt/1s/2025/10/20400/0000900017.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-05-31' },
-    { title: 'Tribunal Constitucional — Acórdão 785/2025 (неконституционность ряда норм о Reagrupamento Familiar)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20250785.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' }
+    { title: 'Tribunal Constitucional — Acórdão 785/2025 (неконституционность ряда норм о Reagrupamento Familiar)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20250785.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
+    { title: 'DN Brasil — Imigrantes com pedido de reagrupamento familiar serão chamados pela AIMA (25.07.2026)', url: 'https://dnbrasil.dn.pt/imigrantes-com-pedido-de-reagrupamento-familiar-sero-chamados-pela-aima', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 90
 }

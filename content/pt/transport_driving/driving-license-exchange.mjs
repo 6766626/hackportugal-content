@@ -7,7 +7,6 @@ export default {
   audience: { citizenships: ['cplp', 'thirdCountry'] },
   tags: ['carta', 'imt', 'troca'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-07',
   changeSummary: 'Decreto-Lei 114/2026 (em vigor desde 09.06.2026): na troca, os cidadãos extracomunitários recebem cartas com validade não superior à do visto/autorização de residência, com o código 794 averbado. Desde 08.07.2026 a prova teórica pode ser feita com tradução autorizada pelo IMT.',
   variants: [
     {

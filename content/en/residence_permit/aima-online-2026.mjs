@@ -6,8 +6,8 @@ export default {
   tldr: 'In 2026, residence permit renewal should be started online, but the route depends on the expiry date and card type. Ordinary cards expired from 01.07.2025 onward are renewed through portal-renovacoes.aima.gov.pt. Older cards expired from 22.02.2020 to 30.06.2025 go through services.aima.gov.pt/RAR/reqrenew or the AIMA/EMAIMA email route; CPLP, ARI and EU family cards have separate rules. According to gov.pt, you can apply from 90 days before the card expires. For cards that expired after 30.06.2025, residence rights are maintained for 6 months after the expiry date; if during that time you have started renewal and hold a comprovativo/recibo, AIMA considers your stay legal until the process concludes — even after those 6 months. After the renewal request is registered and paid, AIMA issues a comprovativo valid for 180 days: carry it together with the expired card.',
   tags: ['aima', 'residence permit', 'renewal', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-07-10',
-  changeSummary: '📌 Corrected the framing of the 6-month period (Decreto Regulamentar 84/2007 art. 63.º n.º 14) and added the post-15.04.2026 deadline situation per AIMA clarifications.',
+  recentlyChangedAt: '2026-07-27',
+  changeSummary: '📌 🆕 22.07.2026: AIMA launched (in test mode) tracking of all process stages — from submission to card production and the CTT tracking code, via the portal contact form. Previously: clarified the 6-month rule (DR 84/2007 art. 63.º n.º 14) and the situation after the 15.04.2026 deadline.',
   steps: [
     {
       id: 'which-portal',
@@ -104,7 +104,7 @@ export default {
             ]}
           ]},
           { id: 's7', title: '7. Watch status and email', content: [
-            { kind: 'paragraph', text: 'After payment, AIMA starts analysis. In community cases, once documents are checked, green marks appear, then a status such as concluido/deferido and an email. If AIMA asks for extra documents, the response deadline is usually short, so do not miss the notice.' },
+            { kind: 'paragraph', text: 'After payment, AIMA starts analysis. In community cases, once documents are checked, green marks appear, then a status such as concluido/deferido and an email. If AIMA asks for extra documents, the response deadline is usually short, so do not miss the notice. 🆕 Since 22.07.2026, AIMA has been testing a tool for tracking ALL stages of the process — submission, analysis, decision, card production, dispatch (including the CTT tracking code): access via the contact form on the AIMA portal; the tool is still in test mode.' },
             { kind: 'timeline', text: 'Real timelines vary widely: from a few weeks to several months. If there is no movement after 90 days, start a written trail: AIMA contact form, regional email, Livro Amarelo/Provedor de Justiça; for a long delay, discuss an administrative procedure against inaction with an advogado.' }
           ]},
           { id: 's8', title: '8. Receive the card', content: [
@@ -228,8 +228,9 @@ export default {
     { title: 'AIMA — Renovação do Título de Residente de Longa Duração', url: 'https://aima.gov.pt/pt/noticias/renovacao-do-titulo-de-residente-de-longa-duracao', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'AIMA — Tabela de Taxas', url: 'https://aima.gov.pt/documents/tabela-de-taxas-e-demais-encargos-a-cobrar-pelos-procedimentos-administrativos.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'Justiça.gov.pt — Registo criminal de pessoas', url: 'https://justica.gov.pt/Servicos/Pedir-e-consultar-registo-criminal-de-pessoas', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
-    { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' }
+    { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' },
+    { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 45
 }

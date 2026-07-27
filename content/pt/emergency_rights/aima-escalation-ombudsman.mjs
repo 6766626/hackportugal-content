@@ -6,6 +6,8 @@ export default {
   tldr: 'Se a AIMA perdeu o processo, não disponibiliza vaga, demora meses a emitir o cartão de residência ou não responde a emails, siga uma escada: reunir provas → reclamação no Livro de Reclamações → dar à AIMA até 60 dias para reagir → reclamação ao Provedor de Justiça → em caso de prejuízo urgente, avançar para o Tribunal Administrativo com advogado. O Provedor é gratuito, mas não substitui o tribunal e não suspende prazos relativos à autorização de residência.',
   tags: ['aima', 'reclamação', 'provedor', 'autorização de residência'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-26',
+  changeSummary: '🆕 Realidade judicial das ações contra a AIMA (CSTAF, julho de 2026): >100 mil processos pendentes, tempo médio em primeira instância — 861 dias. Em 23.07.2026 o Governo aprovou uma proposta de lei: apresentação das ações no tribunal administrativo da residência do autor (não só Lisboa) + tribunais especializados de migrações — ainda NÃO é lei.',
   steps: [
     {
       id: 'when-to-escalate',
@@ -116,7 +118,7 @@ export default {
           'verifique se tem direito a apoio judiciário através da Segurança Social, se o rendimento for baixo',
           'não deixe passar prazos de impugnação se tiver uma decisão formal da AIMA, e não apenas silêncio'
         ] },
-        { kind: 'paragraph', text: 'O tribunal não é a última «reclamação», mas sim um litígio jurídico com regras processuais. É mais caro, mas por vezes é a única forma eficaz de obrigar a administração a tomar uma decisão quando meses de espera já causam prejuízo real.' },
+        { kind: 'paragraph', text: 'O tribunal não é a última «reclamação», mas sim um litígio jurídico com regras processuais. É mais caro, mas por vezes é a única forma eficaz de obrigar a administração a tomar uma decisão quando meses de espera já causam prejuízo real. 🆕 Expectativas realistas (relatório do CSTAF, julho de 2026): os tribunais administrativos estão sobrecarregados precisamente com processos da AIMA — mais de 100 mil processos pendentes, e o tempo médio de decisão em primeira instância subiu para 861 dias em 2024; uma equipa especial de juízes resolveu cerca de um quinto do acumulado em 3 meses. Em 23.07.2026 o Conselho de Ministros aprovou uma proposta de lei: as ações contra a AIMA poderão ser apresentadas no tribunal administrativo do local de RESIDÊNCIA do autor (atualmente — só Lisboa), e são ainda propostos tribunais especializados de migrações — isto ainda NÃO é lei, precisa do Parlamento.' },
         { kind: 'warning', text: 'Não confie apenas em publicações no Facebook e modelos do Telegram. O mesmo modelo pode prejudicar se tiver uma recusa, estatuto caducado, processo familiar ou situação médica urgente.' }
       ]
     }
@@ -131,8 +133,9 @@ export default {
     { title: 'Provedor de Justiça: como apresentar uma reclamação', url: 'https://www.provedor-jus.pt/en/who-we-are/faq/file-a-complaint/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Electrónico', url: 'https://livroreclamacoes.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'AIMA — Perguntas Frequentes e contactos', url: 'https://aima.gov.pt/pt/perguntas-frequentes-faq-s', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
-    { title: 'Código de Processo nos Tribunais Administrativos — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Código de Processo nos Tribunais Administrativos — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DN — Governo vai distribuir processos contra a AIMA para tribunais de todo o país (23.07.2026)', url: 'https://www.dn.pt/sociedade/governo-vai-distribuir-processos-contra-a-aima-para-tribunais-de-todo-o-pas', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 90
 }

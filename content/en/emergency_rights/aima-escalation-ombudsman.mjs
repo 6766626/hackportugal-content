@@ -6,6 +6,8 @@ export default {
   tldr: 'If AIMA has lost your file, is not giving you an appointment slot, has not issued your cartão de residência for months, or is not replying to email, proceed step by step: gather evidence → complain in the Livro de Reclamações → give AIMA up to 60 days to react → complain to the Provedor de Justiça → if there is urgent harm, go to the Tribunal Administrativo with a lawyer. The Provedor is free, but it does not replace the court and does not suspend residence permit deadlines.',
   tags: ['aima', 'complaint', 'provedor', 'residence permit'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-07-26',
+  changeSummary: '🆕 Court reality for lawsuits against AIMA (CSTAF, July 2026): >100 thousand cases pending, average first-instance time — 861 days. 23.07.2026 the government approved a bill: filing suits at the administrative court of the claimant\'s residence (not only Lisbon) + specialised migration courts — NOT law yet.',
   steps: [
     {
       id: 'when-to-escalate',
@@ -116,7 +118,7 @@ export default {
           'check whether you are entitled to apoio judiciário through Segurança Social if your income is low',
           'do not miss appeal deadlines if you have a formal AIMA decision, not just silence'
         ] },
-        { kind: 'paragraph', text: 'Court is not one final “complaint”, but a legal dispute with procedural rules. It is more expensive, but sometimes it is the only working way to force the administration to make a decision when months of waiting are already causing real harm.' },
+        { kind: 'paragraph', text: 'Court is not one final “complaint”, but a legal dispute with procedural rules. It is more expensive, but sometimes it is the only working way to force the administration to make a decision when months of waiting are already causing real harm. 🆕 Realistic expectations (CSTAF report, July 2026): the administrative courts are overloaded precisely with AIMA cases — more than 100 thousand proceedings pending, and the average first-instance decision time rose to 861 days in 2024; a special task force of judges cleared about a fifth of the backlog in 3 months. On 23.07.2026 the Council of Ministers approved a bill: lawsuits against AIMA could be filed at the administrative court of the claimant\'s place of RESIDENCE (currently — Lisbon only), plus specialised migration courts are proposed — this is NOT law yet, it still needs Parliament.' },
         { kind: 'warning', text: 'Do not rely only on Facebook posts and Telegram templates. The same template can harm you if you have a refusal, expired status, a family case, or an urgent medical situation.' }
       ]
     }
@@ -131,8 +133,9 @@ export default {
     { title: 'Provedor de Justiça: how to file a complaint', url: 'https://www.provedor-jus.pt/en/who-we-are/faq/file-a-complaint/', kind: 'official', language: 'en', lastRetrieved: '2026-04-28' },
     { title: 'Livro de Reclamações Electrónico', url: 'https://livroreclamacoes.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'AIMA — Frequently Asked Questions and contacts', url: 'https://aima.gov.pt/pt/perguntas-frequentes-faq-s', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
-    { title: 'Code of Procedure in the Administrative Courts — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Code of Procedure in the Administrative Courts — Lei 15/2002', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2002-34464475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'DN — Governo vai distribuir processos contra a AIMA para tribunais de todo o país (23.07.2026)', url: 'https://www.dn.pt/sociedade/governo-vai-distribuir-processos-contra-a-aima-para-tribunais-de-todo-o-pas', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-07-27',
   verifyIntervalDays: 90
 }
