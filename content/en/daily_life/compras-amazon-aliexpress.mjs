@@ -6,7 +6,6 @@ export default {
   tldr: 'For Portugal, the most predictable option is Amazon.es: delivery from EU warehouses usually takes 2–5 working days, with no customs or duties. Amazon PT is convenient for its interface/local deals, but the catalogue is smaller. AliExpress is cheap, often with IVA included in the price via IOSS, but delivery from China can take 3–8 weeks.\n\n🆕 Since 01/07/2026 parcels from outside the EU have become more expensive: the €150 duty-free threshold has been abolished — now up to €150 a flat duty of €3 per product category is charged, on top of 23% IVA (charged since 2021) and CTT/courier fees. Above €150 — as before: declaration, IVA and duty according to the goods code.',
   tags: ['amazon', 'aliexpress', 'ctt', 'duties'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: '🆕 Since 01/07/2026 orders from outside the EU (Shein/Temu/AliExpress from China, eBay from the US/UK) pay a duty of €3 per product category even when the value is up to €150 — plus the existing 23% IVA and clearance fees. Purchases from EU warehouses are not affected.',
   steps: [
     {

@@ -3,9 +3,11 @@ export default {
   id: 'mortgage-foreigners',
   categoryId: 'housing_buy',
   title: 'Crédito à habitação para estrangeiros em Portugal',
-  tldr: 'Estrangeiros residentes podem obter crédito à habitação: o LTV macroprudencial para habitação owner-occupied/permanent é até 90% do menor valor entre o preço de compra e a avaliação; para secondary residence — até 80%; non-resident borrowers — normalmente inferior. Euribor a 6 meses no início de maio de 2026 ≈ 2,45–2,56% (desceu do pico de ~4% em 2023). Spreads portugueses típicos de 0,6–1,5%. Taxa real ~3,0–4,0%.\n\nLimite macroprudencial do prazo (Banco de Portugal desde 2022): para borrowers até 30 anos — até 40 anos; para 30-35 anos — até 37 anos; para >35 anos — até 35 anos. Processo de 30–90 dias.',
+  tldr: 'Estrangeiros residentes podem obter crédito à habitação: o LTV macroprudencial para habitação owner-occupied/permanent é até 90% do menor valor entre o preço de compra e a avaliação; para secondary residence — até 80%; non-resident borrowers — normalmente inferior. Euribor a 6 meses no início de maio de 2026 ≈ 2,45–2,56% (desceu do pico de ~4% em 2023). Spreads portugueses típicos de 0,6–1,5%. Taxa real ~3,0–4,0%.\n\n🆕 Desde 01.08.2026 vigora a Recomendação Macroprudencial n.º 1/2026 do Banco de Portugal (substituiu a recomendação de 2018): o limite de esforço DSTI desceu de 50% para 45% do rendimento líquido (exceções — até 10% do montante de crédito concedido pelo banco por semestre); o limite de prazo foi simplificado para dois grupos etários — até 35 anos inclusive: máximo 40 anos, mais de 35: máximo 35 anos (o grupo 31–35 até ganhou: antes eram 37). Foi eliminada a possibilidade de 100% LTV na compra de imóveis ao próprio banco. As regras aplicam-se aos créditos cuja avaliação de solvabilidade o banco realiza a partir de 1 de agosto. Processo de 30–90 dias.',
   tags: ['crédito à habitação', 'banco', 'habitação', 'imobiliário'],
   estimatedReadMinutes: 7,
+  recentlyChangedAt: '2026-08-01',
+  changeSummary: '🆕 Desde 01.08.2026 — Recomendação Macroprudencial 1/2026 do BdP: DSTI reduzido de 50% para 45% do rendimento líquido, prazos simplificados para dois grupos (até 35 anos incl. — 40 anos, mais velhos — 35), eliminado o 100% LTV na compra ao banco. Os limites LTV 90/80% e os stress add-ons não mudaram; a garantia do Estado para jovens não foi afetada.',
   steps: [
     {
       id: 'eligibility',
@@ -16,7 +18,9 @@ export default {
           'Não residentes com rendimento fora de Portugal — normalmente 60–70%; as condições concretas dependem do banco',
           'Cidadãos da EU: os bancos avaliam a tax residency, a fonte/moeda do rendimento e a employment stability — a cidadania EU por si só não equivale às condições de um residente em Portugal',
           'Cidadãos não EU: não existe uma regra universal de “2 anos de autorização de residência”; alguns bancos são mais favoráveis a uma autorização de residência estável com rendimento em Portugal — avaliação individual',
-          'Golden Visa: novas ARI através da compra de imóveis já não estão disponíveis (Lei 56/2023, Mais Habitação); para requerentes e titulares de ARI existentes, o banco continua a verificar individualmente a origem dos fundos, riscos de sanções e rendimento.'
+          'Golden Visa: novas ARI através da compra de imóveis já não estão disponíveis (Lei 56/2023, Mais Habitação); para requerentes e titulares de ARI existentes, o banco continua a verificar individualmente a origem dos fundos, riscos de sanções e rendimento.',
+          '🆕 DSTI (taxa de esforço) desde 01.08.2026: todas as prestações de crédito ≤ 45% do rendimento líquido (era 50%); no cálculo, o banco adiciona à taxa um stress add-on (sem alterações desde 2023): +1,5 p.p. para créditos com mais de 10 anos (+0,5/+1,0 para mais curtos). É uma recomendação comply-or-explain: o banco pode desviar-se, mas tem de justificar — na prática quase todos seguem.',
+          '🆕 100% LTV na compra de um imóvel ao próprio banco — eliminado desde 01.08.2026 (aplica-se o limite geral de 90/80%). A garantia do Estado para jovens (até 35 anos, até 15% do preço, habitação até 450 mil €, contratos até 31.12.2026) NÃO foi afetada — com ela continua a ser possível financiamento até 100%.'
         ]},
         { kind: 'warning', text: 'Cidadãos da Federação Russa enfrentam restrições em alguns bancos desde 2022 — a escolha é mais limitada e as taxas de juro podem ser mais elevadas. Verifique as condições no banco concreto.' }
       ]
@@ -96,11 +100,12 @@ export default {
     }
   ],
   sources: [
+    { title: 'Banco de Portugal — Recomendação Macroprudencial n.º 1/2026 (em vigor desde 01.08.2026)', url: 'https://www.bportugal.pt/sites/default/files/documents/2026-07/Recomendacao_Macroprudencial_n.1-2026.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' },
     { title: 'Banco de Portugal — Guia do Crédito à Habitação', url: 'https://www.bportugal.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Decreto-Lei 74-A/2017 — regras do crédito à habitação', url: 'https://diariodarepublica.pt/dr/detalhe/decreto-lei/74-a-2017', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'ASF — Autoridade de Supervisão de Seguros (seguro de vida)', url: 'https://www.asf.com.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças (portal fiscal) — calculadoras de IMT, IS', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
   ],
-  lastVerified: '2026-05-18',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 90
 }

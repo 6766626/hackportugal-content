@@ -83,7 +83,7 @@ export default {
           '📄 Valid residence permit (título de residência)',
           '🎓 A2 certificate (CIPLE / PLA / diploma)',
           '💼 Proof of income: IRS Anexo A for 3 years, 12 monthly payslips or Anexo B (for self-employed workers)',
-          '🏠 Atestado de residência from Junta + rental contract',
+          '🏠 Housing proof under the AIMA rules (29.11.2025): compromisso de honra declaration + rental contract in your name / certidão predial / comodato; AIMA does not accept a junta atestado; if you are not named in the contract — personal declaration + certidão de domicílio fiscal (no older than 30 days)',
           '💳 Certidões sem dívida: Finanças + Segurança Social (free on e-portals)',
           '⚖️ Registo criminal: Portugal (free on gov.pt) + countries of residence ≥ 1 year in the last 5 years',
           '📸 2 photos 3x4',

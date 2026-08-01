@@ -83,7 +83,7 @@ export default {
           '📄 Действующий ВНЖ (título de residência)',
           '🎓 Сертификат A2 (CIPLE / PLA / диплом)',
           '💼 Подтверждение дохода: IRS Anexo A за 3 года, 12 месячных выписок по зарплате или Anexo B (для ИП)',
-          '🏠 Atestado de residência от Junta + договор аренды',
+          '🏠 Подтверждение жилья по правилам AIMA (29.11.2025): декларация compromisso de honra + договор аренды на ваше имя / certidão predial / comodato; atestado от Junta AIMA не принимает; если вас нет в договоре — личная декларация + certidão de domicílio fiscal (не старше 30 дней)',
           '💳 Certidões sem dívida: Finanças + Segurança Social (бесплатно на е-порталах)',
           '⚖️ Registo criminal: Португалия (бесплатно на gov.pt) + страны проживания ≥ 1 года за последние 5 лет',
           '📸 2 фото 3х4',

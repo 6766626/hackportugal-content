@@ -3,9 +3,11 @@ export default {
   id: 'certidao-domicilio-fiscal',
   categoryId: 'documents_fiscal',
   title: 'Certidão de domicílio fiscal — подтверждение налогового адреса',
-  tldr: 'Certidão de domicílio fiscal — официальная справка от Autoridade Tributária, подтверждающая ваш налоговый адрес в Португалии. Нужна для: подачи на гражданство, открытия счёта в некоторых банках, регистрации автомобиля, продления ВНЖ в пограничных случаях. Не путать: для подтверждения налогового резидентства по соглашениям об избежании двойного налогообложения нужна отдельная Certidão de Residência Fiscal. Бесплатно, скачивается онлайн через Portal das Finanças за 2 минуты.',
+  tldr: 'Certidão de domicílio fiscal — официальная справка от Autoridade Tributária, подтверждающая ваш налоговый адрес в Португалии. Главный сценарий для иммигрантов: подтверждение адреса в AIMA при получении/продлении ВНЖ, когда вашего имени НЕТ в договоре аренды — по правилам AIMA от 29.11.2025 в этом случае в день приёма нужна эта справка не старше 30 дней + личная декларация sob compromisso de honra (справки junta AIMA больше не принимает). Также нужна для: подачи на гражданство, открытия счёта в банке, регистрации автомобиля. Важно: справка подтверждает адрес, записанный в Finanças, — если он устарел, сначала обновите его. Не путать: для налогового резидентства по DTT нужна отдельная Certidão de Residência Fiscal. Бесплатно, скачивается онлайн через Portal das Finanças за 2 минуты.',
   tags: ['certidão', 'адрес', 'finanças'],
   estimatedReadMinutes: 3,
+  recentlyChangedAt: '2026-08-01',
+  changeSummary: '🆕 Добавлен главный AIMA-сценарий (правила от 29.11.2025): если вас нет в договоре аренды, для получения/продления ВНЖ в день приёма нужна эта справка не старше 30 дней + декларация sob compromisso de honra (№ registo predial, основание, имя и NIF владельца). Атестадо junta AIMA не принимает. Адрес в Finanças должен совпадать с заявленным в AIMA.',
   steps: [
     {
       id: 'what-for',
@@ -15,7 +17,7 @@ export default {
           'Подача на гражданство Португалии — IRN иногда запрашивает',
           'Открытие счёта в банке, если нет другого подтверждения адреса',
           'Регистрация автомобиля в IMT — подтверждение адреса владельца',
-          'Продление ВНЖ в спорных случаях — AIMA запрашивает',
+          '🛂 AIMA — получение/продление ВНЖ, когда вас НЕТ в договоре аренды/comodato (правило от 29.11.2025): в день приёма — эта справка не старше 30 дней + личная декларация sob compromisso de honra (№ регистрации недвижимости, основание проживания, имя и NIF владельца)',
           'Не путать: для зарубежных налоговых и применения DTT нужна отдельная Certidão de Residência Fiscal, а не certidão de domicílio fiscal',
           'Подача жалобы в Provedor de Justiça, суд, Finanças'
         ]}
@@ -64,7 +66,7 @@ export default {
         { kind: 'checklist', items: [
           'Официального срока нет — справка отражает адрес на момент выдачи',
           'Банки часто требуют справку "не старше 3 месяцев"',
-          'IRN/AIMA: зависит от процедуры; безопаснее подавать справку не старше 3 месяцев, если в конкретном списке документов не указан иной срок',
+          '🛂 Для AIMA (подтверждение жилья при отсутствии в договоре) — строго не старше 30 дней на день приёма; для IRN обычно достаточно не старше 3 месяцев',
           'Если адрес сменился — запросите новую, старая становится недействительной',
           'Для certidão de residência fiscal — действительна на конкретный налоговый год'
         ]}
@@ -74,7 +76,7 @@ export default {
       id: 'issues',
       title: 'Частые проблемы',
       content: [
-        { kind: 'warning', text: 'Если адрес в Finanças старый и вы переехали — сначала смените его (см. гайд «Смена налогового адреса»). Иначе справка подтвердит старый адрес.' },
+        { kind: 'warning', text: 'Если адрес в Finanças старый и вы переехали — сначала смените его (см. гайд «Смена налогового адреса»). Иначе справка подтвердит старый адрес. Для AIMA это критично: справка работает, только если налоговый адрес совпадает с адресом, который вы заявляете AIMA, — обновите morada в Finanças ДО запроса справки.' },
         { kind: 'warning', text: 'У нерезидентов domicílio fiscal в AT обычно — зарубежный адрес налогового резидентства, а не португальский; поэтому certidão может не подтвердить фактический адрес в Португалии. Если нужно подтвердить адрес в Португалии (например, для банка), можно использовать Atestado de Residência от Junta de Freguesia — но Junta выдаёт его только при подтверждении фактического проживания; список доказательств зависит от freguesia, а банк заранее стоит спросить, какой proof of address он принимает.' }
       ]
     }
@@ -87,8 +89,9 @@ export default {
   timelineDaysMax: 1,
   sources: [
     { title: 'Portal das Finanças — Certidões', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 365
 }

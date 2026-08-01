@@ -109,7 +109,8 @@ export default {
           'Gas and electricity “dual” is not always cheaper than the two best separate tariffs',
           'When moving home, this is not a “supplier switch” but a new contract or a change of titular at the address'
         ] },
-        { kind: 'paragraph', text: 'If you have just moved in, first find the CPE/CUI. They may be on the landlord’s old bill, in the connection contract, or you can request them from the network operator using the address and meter details.' }
+        { kind: 'paragraph', text: 'If you have just moved in, first find the CPE/CUI. They may be on the landlord’s old bill, in the connection contract, or you can request them from the network operator using the address and meter details.' },
+        { kind: 'paragraph', text: '🆕 From 28/08/2026 (Decreto-Lei 130/2026), consumers gain new rights: suppliers with more than 200,000 clients must offer at least one tariff with a fixed price and a fixed term (of at least 1 year); the social tariff automatically “moves” with you when changing supplier; and protection against disconnection is strengthened for disputed amounts and for vulnerable consumers.' }
       ]
     }
   ],
@@ -141,6 +142,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 180
 }

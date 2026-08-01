@@ -48,7 +48,7 @@ export default {
       title: 'Limits, income and approval in 2026',
       content: [
         { kind: 'paragraph', text: 'In Portugal, there is no universal formula saying that “the bank must lend X salaries”. The amount depends on net income, job stability, household expenses, other loans in the Central de Responsabilidades de Crédito and the bank’s internal risk rules.' },
-        { kind: 'paragraph', text: 'Banco de Portugal applies macroprudential recommendations: banks must assess DSTI — the share of all loan payments in net income. A practical market benchmark: if all prestações after the new loan approach 50% of net income, approval becomes difficult or the amount is reduced.' },
+        { kind: 'paragraph', text: 'Banco de Portugal applies macroprudential recommendations: banks must assess DSTI — the share of all loan payments in net income. Since 01.08.2026 (Recomendação Macroprudencial 1/2026), the recommended DSTI ceiling is 45% of net income (the previous market benchmark was 50%): if all prestações after the new loan approach this level, approval becomes difficult or the amount is reduced.' },
         { kind: 'checklist', items: [
           'Show your net monthly income: recibos de vencimento, contrato de trabalho, declaração IRS, recibos verdes.',
           'For recém-chegados, the bank may ask for 3–6 months of account movements in Portugal.',
@@ -129,6 +129,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 90
 }

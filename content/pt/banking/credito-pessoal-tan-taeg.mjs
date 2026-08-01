@@ -48,7 +48,7 @@ export default {
       title: 'Limites, rendimento e aprovação em 2026',
       content: [
         { kind: 'paragraph', text: 'Em Portugal não existe uma fórmula universal do tipo “o banco é obrigado a conceder X salários”. O montante depende do rendimento líquido, da estabilidade do emprego, das despesas do agregado, de outros créditos na Central de Responsabilidades de Crédito e das regras internas de risco do banco.' },
-        { kind: 'paragraph', text: 'O Banco de Portugal aplica recomendações macroprudenciais: os bancos devem avaliar o DSTI — a percentagem de todos os pagamentos de crédito no rendimento líquido. Referência prática de mercado: se todas as prestações após o novo crédito se aproximarem de 50% do rendimento líquido, a aprovação torna-se difícil ou o montante é reduzido.' },
+        { kind: 'paragraph', text: 'O Banco de Portugal aplica recomendações macroprudenciais: os bancos devem avaliar o DSTI — a percentagem de todos os pagamentos de crédito no rendimento líquido. Desde 01.08.2026 (Recomendação Macroprudencial 1/2026), o teto recomendado do DSTI é de 45% do rendimento líquido (a referência anterior do mercado era 50%): se todas as prestações após o novo crédito se aproximarem deste nível, a aprovação torna-se difícil ou o montante é reduzido.' },
         { kind: 'checklist', items: [
           'Mostre o rendimento mensal líquido: recibos de vencimento, contrato de trabalho, declaração IRS, recibos verdes.',
           'Para recém-chegados, o banco pode pedir 3–6 meses de movimentos de conta em Portugal.',
@@ -129,6 +129,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 90
 }

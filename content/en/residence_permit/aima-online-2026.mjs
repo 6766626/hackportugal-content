@@ -6,8 +6,8 @@ export default {
   tldr: 'In 2026, residence permit renewal should be started online, but the route depends on the expiry date and card type. Ordinary cards expired from 01.07.2025 onward are renewed through portal-renovacoes.aima.gov.pt. Older cards expired from 22.02.2020 to 30.06.2025 go through services.aima.gov.pt/RAR/reqrenew or the AIMA/EMAIMA email route; CPLP, ARI and EU family cards have separate rules. According to gov.pt, you can apply from 90 days before the card expires. For cards that expired after 30.06.2025, residence rights are maintained for 6 months after the expiry date; if during that time you have started renewal and hold a comprovativo/recibo, AIMA considers your stay legal until the process concludes — even after those 6 months. After the renewal request is registered and paid, AIMA issues a comprovativo valid for 180 days: carry it together with the expired card.',
   tags: ['aima', 'residence permit', 'renewal', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-07-27',
-  changeSummary: '🆕 22.07.2026: AIMA launched (in test mode) tracking of all process stages — from submission to card production and the CTT tracking code, via the portal contact form. Previously: clarified the 6-month rule (DR 84/2007 art. 63.º n.º 14) and the situation after the 15.04.2026 deadline.',
+  recentlyChangedAt: '2026-08-01',
+  changeSummary: '❗ Clarified the housing-proof package under the official AIMA rules (29.11.2025): declaração compromisso de honra + contract/certidão predial/comodato; an atestado from the Junta is NOT accepted; if you are not named in the contract — a personal declaration + certidão de domicílio fiscal no older than 30 days. Also: since 22.07.2026 AIMA has been testing tracking of all process stages up to the CTT tracking code.',
   steps: [
     {
       id: 'which-portal',
@@ -84,7 +84,7 @@ export default {
             { kind: 'checklist', items: [
               'Residence permit card — both sides',
               'Passport — data page and stamp/visa pages if requested by the portal',
-              'Comprovativo de condicoes de alojamento: rental contract, domicilio fiscal, recibos de renda, atestado de residencia or another document from your list',
+              'Comprovativo de alojamento (official AIMA rules of 29.11.2025): your own declaração sob compromisso de honra (minuta from aima.gov.pt → Impressos e Minutas) + a rental contract in your name with the latest recibo de renda, OR a certidão predial permanente (for owners), OR a contrato de comodato + certidão predial. ❗ AIMA does NOT accept an atestado de residência from the Junta de Freguesia. If you are not named in the contract — on the day of the atendimento add a personal declaration (registo predial no., basis of residence, owner\'s name and NIF/NIPC) + a certidão de domicílio fiscal from AT no older than 30 days',
               'Comprovativo de meios de subsistencia: employment contract, recibos verdes/faturas, IRS, bank statements, pension or documents matching your article',
               'Certidao de nao divida Financas',
               'Comprovativo de situacao contributiva / regularidade Seguranca Social, if applicable',
@@ -134,7 +134,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'doc1', title: 'Housing', content: [
-            { kind: 'paragraph', text: 'Housing proof may be a contrato de arrendamento, recibos de renda, domicilio fiscal, atestado de residencia, owner declaration or property documents. Upload the exact type requested by the portal.' }
+            { kind: 'paragraph', text: 'Housing proof under the AIMA rules (29.11.2025): a compromisso de honra declaration + a rental contract in your name with a recibo, a certidão predial (for owners) or a comodato; if you are not named in the contract — a personal declaration + a certidão de domicílio fiscal (no older than 30 days). ❗ AIMA does not accept an atestado de residência from the Junta de Freguesia. Upload the exact type requested by the portal.' }
           ]},
           { id: 'doc2', title: 'Income', content: [
             { kind: 'paragraph', text: 'For employment, people usually prepare contrato de trabalho, payslips and IRS/declaration. For independente: atividade aberta, recibos verdes/faturas, IRS and bank statement. For D7: pension, passive income and account movement. AIMA wants the income to be understandable, regular and connected to your article.' }
@@ -199,7 +199,7 @@ export default {
   documents: [
     { title: 'Residence permit card', note: 'both sides, even if already expired' },
     { title: 'Passport', note: 'data page; additional pages if the portal asks' },
-    { title: 'Comprovativo de alojamento', note: 'contract, receipts, domicilio fiscal, atestado or another document from your list' },
+    { title: 'Comprovativo de alojamento', note: 'compromisso de honra declaration + contract/certidão predial/comodato; junta atestado not accepted' },
     { title: 'Comprovativo de meios de subsistencia', note: 'salary, recibos verdes, IRS, pension, bank statements — according to your article' },
     { title: 'Certidao de nao divida Financas', note: 'useful to prepare in advance' },
     { title: 'Comprovativo de situacao contributiva Seguranca Social', note: 'if applicable; check NISS' },
@@ -229,8 +229,9 @@ export default {
     { title: 'AIMA — Tabela de Taxas', url: 'https://aima.gov.pt/documents/tabela-de-taxas-e-demais-encargos-a-cobrar-pelos-procedimentos-administrativos.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'Justiça.gov.pt — Registo criminal de pessoas', url: 'https://justica.gov.pt/Servicos/Pedir-e-consultar-registo-criminal-de-pessoas', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' },
-    { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
+    { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' },
+    { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-07-27',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 45
 }

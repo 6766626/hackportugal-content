@@ -3,9 +3,11 @@ export default {
   id: 'certidao-domicilio-fiscal',
   categoryId: 'documents_fiscal',
   title: 'Certidão de domicílio fiscal — comprovativo da morada fiscal',
-  tldr: 'A Certidão de domicílio fiscal é uma certidão oficial da Autoridade Tributária que confirma a sua morada fiscal em Portugal. Pode ser necessária para: pedido de nacionalidade, abertura de conta em alguns bancos, registo de veículo, renovação da autorização de residência em situações-limite. Não confundir: para comprovar residência fiscal ao abrigo de convenções para evitar a dupla tributação, é necessária uma Certidão de Residência Fiscal separada. É gratuita e pode ser descarregada online através do Portal das Finanças em 2 minutos.',
+  tldr: 'A Certidão de domicílio fiscal é uma certidão oficial da Autoridade Tributária que confirma a sua morada fiscal em Portugal. O principal cenário para imigrantes: comprovar a morada junto da AIMA na concessão/renovação da autorização de residência quando o seu nome NÃO consta do contrato de arrendamento — pelas regras da AIMA de 29.11.2025, nesse caso é necessária esta certidão com menos de 30 dias no dia do atendimento + uma declaração pessoal sob compromisso de honra (a AIMA já não aceita atestados da junta). Também é necessária para: pedido de nacionalidade, abertura de conta bancária, registo de veículo. Importante: a certidão confirma a morada registada nas Finanças — se estiver desatualizada, atualize-a primeiro. Não confundir: para a residência fiscal ao abrigo de uma DTT é necessária uma Certidão de Residência Fiscal separada. Gratuita, descarregada online através do Portal das Finanças em 2 minutos.',
   tags: ['certidão', 'morada', 'finanças'],
   estimatedReadMinutes: 3,
+  recentlyChangedAt: '2026-08-01',
+  changeSummary: '🆕 Adicionado o principal cenário AIMA (regras de 29.11.2025): se não constar do contrato de arrendamento, para a concessão/renovação da autorização de residência é necessária esta certidão com menos de 30 dias no dia do atendimento + declaração sob compromisso de honra (n.º do registo predial, fundamento, nome e NIF do proprietário). A AIMA não aceita atestados da junta. A morada nas Finanças deve coincidir com a declarada à AIMA.',
   steps: [
     {
       id: 'what-for',
@@ -15,7 +17,7 @@ export default {
           'Pedido de nacionalidade portuguesa — o IRN por vezes solicita',
           'Abertura de conta bancária, se não houver outro comprovativo de morada',
           'Registo de veículo no IMT — comprovativo da morada do proprietário',
-          'Renovação da autorização de residência em casos discutíveis — a AIMA solicita',
+          '🛂 AIMA — concessão/renovação da autorização de residência quando NÃO consta do contrato de arrendamento/comodato (regra de 29.11.2025): no dia do atendimento — esta certidão com menos de 30 dias + declaração pessoal sob compromisso de honra (n.º de registo do imóvel, fundamento da residência, nome e NIF do proprietário)',
           'Não confundir: para autoridades fiscais estrangeiras e aplicação de DTT é necessária uma Certidão de Residência Fiscal separada, e não a certidão de domicílio fiscal',
           'Apresentação de queixa ao Provedor de Justiça, tribunal, Finanças'
         ]}
@@ -64,7 +66,7 @@ export default {
         { kind: 'checklist', items: [
           'Não existe prazo oficial — a certidão reflecte a morada no momento da emissão',
           'Os bancos exigem frequentemente uma certidão "com menos de 3 meses"',
-          'IRN/AIMA: depende do procedimento; é mais seguro apresentar uma certidão com menos de 3 meses, se a lista concreta de documentos não indicar outro prazo',
+          '🛂 Para a AIMA (comprovativo de alojamento quando não consta do contrato) — estritamente com menos de 30 dias no dia do atendimento; para o IRN, normalmente basta com menos de 3 meses',
           'Se a morada mudou — peça uma nova, a antiga deixa de ser válida',
           'Para a certidão de residência fiscal — é válida para um ano fiscal específico'
         ]}
@@ -74,7 +76,7 @@ export default {
       id: 'issues',
       title: 'Problemas frequentes',
       content: [
-        { kind: 'warning', text: 'Se a morada nas Finanças estiver desactualizada e você se tiver mudado — altere-a primeiro (ver guia «Alteração da morada fiscal»). Caso contrário, a certidão confirmará a morada antiga.' },
+        { kind: 'warning', text: 'Se a morada nas Finanças estiver desactualizada e você se tiver mudado — altere-a primeiro (ver guia «Alteração da morada fiscal»). Caso contrário, a certidão confirmará a morada antiga. Para a AIMA isto é crítico: a certidão só funciona se a morada fiscal coincidir com a morada que declara à AIMA — atualize a morada nas Finanças ANTES de pedir a certidão.' },
         { kind: 'warning', text: 'Para não residentes, o domicílio fiscal na AT é normalmente a morada estrangeira de residência fiscal, e não a portuguesa; por isso, a certidão pode não comprovar a morada efectiva em Portugal. Se for necessário comprovar a morada em Portugal (por exemplo, para um banco), pode usar um atestado de residência da Junta de Freguesia — mas a Junta só o emite mediante confirmação da residência efectiva; a lista de provas depende da freguesia, e convém perguntar antecipadamente ao banco que proof of address aceita.' }
       ]
     }
@@ -87,8 +89,9 @@ export default {
   timelineDaysMax: 1,
   sources: [
     { title: 'Portal das Finanças — Certidões', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 365
 }

@@ -6,8 +6,8 @@ export default {
   tldr: 'Em 2026, a renovação da autorização de residência deve ser iniciada online, mas o percurso depende da data de caducidade e do tipo de cartão. Os cartões comuns caducados a partir de 01.07.2025 são renovados através de portal-renovacoes.aima.gov.pt. Cartões antigos caducados entre 22.02.2020 e 30.06.2025 seguem por services.aima.gov.pt/RAR/reqrenew ou pelo percurso indicado por email pela AIMA/EMAIMA; CPLP, ARI e cartões de familiares de cidadãos da UE têm regras próprias. Segundo o gov.pt, o pedido pode ser feito desde 90 dias antes do fim da validade. Para cartões caducados depois de 30.06.2025, o direito de residência mantém-se por 6 meses após a data de caducidade; se, durante esse período, tiver iniciado a renovação e tiver comprovativo/recibo, a AIMA considera a permanência legal até à conclusão do processo — mesmo depois desses 6 meses. Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias: leve-o consigo juntamente com o cartão caducado.',
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-07-27',
-  changeSummary: '🆕 22.07.2026: a AIMA lançou (em modo de teste) o acompanhamento de todas as etapas do processo — desde a submissão até à produção do cartão e ao código de rastreio CTT, através do formulário de contacto do portal. Anteriormente: clarificada a regra dos 6 meses (DR 84/2007 art. 63.º n.º 14) e a situação após o prazo de 15.04.2026.',
+  recentlyChangedAt: '2026-08-01',
+  changeSummary: '❗ Clarificado o pacote de comprovativo de alojamento pelas regras oficiais da AIMA (29.11.2025): declaração de compromisso de honra + contrato/certidão predial/comodato; o atestado da Junta NÃO é aceite; se não constar do contrato — declaração pessoal + certidão de domicílio fiscal com menos de 30 dias. Além disso: desde 22.07.2026 a AIMA testa o acompanhamento de todas as etapas do processo até ao código de rastreio CTT.',
   steps: [
     {
       id: 'which-portal',
@@ -84,7 +84,7 @@ export default {
             { kind: 'checklist', items: [
               'Cartão de residência — ambos os lados',
               'Passaporte — página de dados e páginas com carimbos/vistos se o portal pedir',
-              'Comprovativo de condicoes de alojamento: contrato de arrendamento, domicilio fiscal, recibos de renda, atestado de residencia ou outro documento da sua lista',
+              'Comprovativo de alojamento (regras oficiais da AIMA de 29.11.2025): a sua própria declaração sob compromisso de honra (minuta em aima.gov.pt → Impressos e Minutas) + contrato de arrendamento em seu nome com o último recibo de renda, OU certidão predial permanente (para proprietários), OU contrato de comodato + certidão predial. ❗ A AIMA NÃO aceita atestado de residência da Junta de Freguesia. Se não constar do contrato — no dia do atendimento junte uma declaração pessoal (n.º do registo predial, fundamento da residência, nome e NIF/NIPC do proprietário) + certidão de domicílio fiscal da AT com menos de 30 dias',
               'Comprovativo de meios de subsistencia: contrato de trabalho, recibos verdes/faturas, IRS, extratos bancários, pensão ou documentos ligados ao seu artigo',
               'Certidao de nao divida Financas',
               'Comprovativo de situacao contributiva / regularidade Seguranca Social, se aplicável',
@@ -134,7 +134,7 @@ export default {
       content: [
         { kind: 'substeps', items: [
           { id: 'doc1', title: 'Habitação', content: [
-            { kind: 'paragraph', text: 'O comprovativo de habitação pode ser contrato de arrendamento, recibos de renda, domicilio fiscal, atestado de residencia, declaração do proprietário ou documentos de propriedade. Carregue exatamente o tipo pedido pelo portal.' }
+            { kind: 'paragraph', text: 'Comprovativo de alojamento pelas regras da AIMA (29.11.2025): declaração de compromisso de honra + contrato de arrendamento em seu nome com recibo, certidão predial (para proprietários) ou comodato; se não constar do contrato — declaração pessoal + certidão de domicílio fiscal (com menos de 30 dias). ❗ A AIMA não aceita atestado de residência da Junta de Freguesia. Carregue exatamente o tipo pedido pelo portal.' }
           ]},
           { id: 'doc2', title: 'Rendimentos', content: [
             { kind: 'paragraph', text: 'Para trabalho por conta de outrem, normalmente prepara-se contrato de trabalho, recibos de vencimento e IRS/declaração. Para independente: atividade aberta, recibos verdes/faturas, IRS e extrato bancário. Para D7: pensão, rendimento passivo e movimentos da conta. A lógica da AIMA é que o rendimento seja claro, regular e ligado ao seu artigo.' }
@@ -199,7 +199,7 @@ export default {
   documents: [
     { title: 'Cartão de residência', note: 'ambos os lados, mesmo se já caducou' },
     { title: 'Passaporte', note: 'página de dados; páginas adicionais se o portal pedir' },
-    { title: 'Comprovativo de alojamento', note: 'contrato, recibos, domicilio fiscal, atestado ou outro documento da sua lista' },
+    { title: 'Comprovativo de alojamento', note: 'declaração de compromisso de honra + contrato/certidão predial/comodato; atestado da junta não é aceite' },
     { title: 'Comprovativo de meios de subsistencia', note: 'salário, recibos verdes, IRS, pensão, extratos bancários — conforme o seu artigo' },
     { title: 'Certidao de nao divida Financas', note: 'útil preparar antecipadamente' },
     { title: 'Comprovativo de situacao contributiva Seguranca Social', note: 'se aplicável; verifique o NISS' },
@@ -229,8 +229,9 @@ export default {
     { title: 'AIMA — Tabela de Taxas', url: 'https://aima.gov.pt/documents/tabela-de-taxas-e-demais-encargos-a-cobrar-pelos-procedimentos-administrativos.pdf', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'Justiça.gov.pt — Registo criminal de pessoas', url: 'https://justica.gov.pt/Servicos/Pedir-e-consultar-registo-criminal-de-pessoas', kind: 'official', language: 'pt', lastRetrieved: '2026-06-14' },
     { title: 'Lei 23/2007 — regime jurídico de entrada, permanência, saída e afastamento', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2007-34563275', kind: 'law', language: 'pt', lastRetrieved: '2026-06-14' },
-    { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
+    { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' },
+    { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-07-27',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 45
 }

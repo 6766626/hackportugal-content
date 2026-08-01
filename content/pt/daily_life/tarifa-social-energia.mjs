@@ -54,7 +54,7 @@ export default {
           'Veja a fatura em PDF: o desconto normalmente aparece como “Tarifa Social”, “Desconto Tarifa Social” ou uma linha semelhante.',
           'Se o desconto apareceu, normalmente não é necessário apresentar um pedido separado.'
         ] },
-        { kind: 'paragraph', text: 'Na prática, a primeira ativação automática pode demorar alguns ciclos de faturação. Se acabou de alterar o titular do contrato ou de passar a receber uma prestação, verifique a fatura seguinte e a posterior.' }
+        { kind: 'paragraph', text: 'Na prática, a primeira ativação automática pode demorar alguns ciclos de faturação. Se acabou de alterar o titular do contrato ou de passar a receber uma prestação, verifique a fatura seguinte e a posterior. 🆕 A partir de 28.08.2026 (Decreto-Lei 130/2026), a tarifa social mantém-se automaticamente quando muda de fornecedor — não é preciso voltar a “lutar” por ela após a transição.' }
       ]
     },
     {
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 180
 }

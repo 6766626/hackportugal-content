@@ -83,7 +83,7 @@ export default {
           '📄 Autorização de residência válida (título de residência)',
           '🎓 Certificado A2 (CIPLE / PLA / diploma)',
           '💼 Comprovativo de rendimentos: IRS Anexo A dos últimos 3 anos, 12 recibos mensais de vencimento ou Anexo B (para trabalhadores independentes)',
-          '🏠 Atestado de residência da Junta + contrato de arrendamento',
+          '🏠 Comprovativo de alojamento pelas regras da AIMA (29.11.2025): declaração de compromisso de honra + contrato de arrendamento em seu nome / certidão predial / comodato; a AIMA não aceita atestado da junta; se não constar do contrato — declaração pessoal + certidão de domicílio fiscal (com menos de 30 dias)',
           '💳 Certidões sem dívida: Finanças + Segurança Social (gratuitas nos portais eletrónicos)',
           '⚖️ Registo criminal: Portugal (gratuito em gov.pt) + países de residência ≥ 1 ano nos últimos 5 anos',
           '📸 2 fotografias 3x4',

@@ -3,10 +3,11 @@ export default {
   id: 'atestado-residencia-junta-freguesia',
   categoryId: 'documents_fiscal',
   title: 'Atestado de residência: comprovativo de morada emitido pela Junta de Freguesia',
-  tldr: 'O atestado de residência é um documento oficial emitido pela sua Junta de Freguesia (o órgão autárquico local) que confirma onde vive. É pedido para a inscrição na escola/creche, para alguns apoios sociais, bancos, AIMA e outros procedimentos. NÃO é o mesmo que um comprovativo de morada (uma fatura da luz) nem que um certificado de residência da AIMA. Vai precisar de: documento de identificação, comprovativo de morada e o formulário da junta. Um pormenor essencial para quem chegou há pouco: se não estiver inscrito nos cadernos eleitorais (recenseamento) dessa freguesia, são precisas 2 testemunhas que estejam recenseadas aí e que não sejam seus familiares. O custo costuma ser gratuito ou até ~5 € (cerca de 5,60 € numa Loja do Cidadão).',
+  tldr: 'O atestado de residência é um documento oficial emitido pela sua Junta de Freguesia (o órgão autárquico local) que confirma onde vive. É pedido para a inscrição na escola/creche, para alguns apoios sociais, bancos e procedimentos municipais. ❗ Para a AIMA o atestado NÃO funciona: desde 29.11.2025 a AIMA não aceita oficialmente atestados da junta como comprovativo de alojamento para a concessão/renovação de autorizações de residência — a AIMA tem o seu próprio pacote (contrato/certidão predial + declaração; se não constar do contrato — certidão de domicílio fiscal das Finanças com menos de 30 dias). NÃO é o mesmo que um comprovativo de morada (uma fatura da luz). Vai precisar de: documento de identificação, comprovativo de morada e o formulário da junta. Um pormenor essencial para quem chegou há pouco: se não estiver inscrito nos cadernos eleitorais (recenseamento) dessa freguesia, são precisas 2 testemunhas que estejam recenseadas aí e que não sejam seus familiares. O custo costuma ser gratuito ou até ~5 € (cerca de 5,60 € numa Loja do Cidadão).',
   tags: ['atestado de residência', 'junta de freguesia', 'documentos', 'morada'],
   estimatedReadMinutes: 6,
-  changeSummary: 'Novo guia: como obter o atestado de residência na Junta de Freguesia — documentos, testemunhas para quem não está recenseado, custo e a diferença em relação ao comprovativo de morada e ao certificado da AIMA.',
+  recentlyChangedAt: '2026-08-01',
+  changeSummary: '❗ Clarificação do âmbito: a AIMA NÃO aceita atestados da Junta de Freguesia como comprovativo de alojamento para autorizações de residência (regra oficial da AIMA de 29.11.2025). Para a AIMA — contrato/certidão predial + declaração e, se não constar do contrato — certidão de domicílio fiscal (Finanças, com menos de 30 dias). Para escolas, bancos e serviços municipais, o atestado continua a funcionar.',
   steps: [
     {
       id: 'what-and-why',
@@ -17,10 +18,10 @@ export default {
           '🏫 Inscrição de crianças na escola, creche e ATL e colocação por área de residência.',
           '👶 Alguns apoios municipais e sociais (cheque-bebé, famílias numerosas, etc.).',
           '🏦 Por vezes — para o banco, a seguradora ou o operador de comunicações.',
-          '🪪 Por vezes pedido em procedimentos administrativos, incluindo o contacto com a AIMA.',
+          '🛂 Para a AIMA — NÃO serve: desde 29.11.2025 a AIMA não aceita oficialmente atestados como comprovativo de alojamento para a concessão/renovação de autorizações de residência (detalhes abaixo).',
           'Confirma precisamente o facto de residir na morada, quando uma fatura comum não basta.'
         ] },
-        { kind: 'warning', text: 'Não confunda três coisas diferentes: o atestado de residência (junta) é um documento de confirmação; o comprovativo de morada é uma fatura comum de água/luz/gás em seu nome; o certificado de residência (AIMA) destina-se a procedimentos de imigração. Pergunte à entidade em causa exatamente qual é o que precisam.' }
+        { kind: 'warning', text: '❗ Desde 29.11.2025, a AIMA escreve expressamente: «Não são aceites como meio de prova atestados emitidos pelas Juntas de Freguesia». Para as autorizações de residência o pacote é outro: a sua própria declaração sob compromisso de honra (minuta oficial da AIMA) + contrato de arrendamento em seu nome com o último recibo, OU certidão predial (para proprietários), OU contrato de comodato. Se NÃO constar do contrato — no dia do atendimento junte uma declaração pessoal (n.º do registo predial, fundamento da residência, nome e NIF do proprietário) + certidão de domicílio fiscal das Finanças com menos de 30 dias (ver o guia sobre essa certidão). A proibição diz respeito apenas à AIMA: para escolas, bancos e o município, o atestado continua a funcionar.' }
       ]
     },
     {
@@ -74,7 +75,7 @@ export default {
           'Peça o atestado na freguesia onde realmente vive; pode saber qual é a sua freguesia pela morada no site do município.',
           'Peça logo tantas cópias quantas precisar — por vezes é mais prático do que voltar de novo.',
           'Se a morada mudou recentemente, atualize primeiro o comprovativo de morada (fatura/contrato).',
-          'Para procedimentos de imigração, confirme se precisa mesmo do atestado da junta ou do certificado de residência da AIMA.'
+          'Para a AIMA o atestado não serve (regra de 29.11.2025) — use o pacote dos guias sobre a renovação da autorização de residência e a certidão de domicílio fiscal; antes disso, confirme que a morada nas Finanças está atualizada.'
         ] },
         { kind: 'paragraph', text: 'Guias relacionados: mudança de morada em todos os serviços (Cartão de Cidadão, Finanças, NISS), Espaço Cidadão e Loja do Cidadão.' }
       ]
@@ -101,8 +102,15 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-06-23'
+    },
+    {
+      title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)',
+      url: 'https://aima.gov.pt/pt/noticias/hklkjl',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-08-01'
     }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 365
 }

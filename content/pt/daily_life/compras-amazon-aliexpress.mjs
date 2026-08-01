@@ -6,7 +6,6 @@ export default {
   tldr: 'Para Portugal, a opção mais previsível é a Amazon.es: a entrega a partir de armazéns da UE demora normalmente 2–5 dias úteis, sem alfândega nem direitos aduaneiros. A Amazon PT é cómoda pela interface/promoções locais, mas o catálogo é menor. O AliExpress é barato, muitas vezes com IVA incluído no preço através do IOSS, mas a entrega a partir da China pode demorar 3–8 semanas.\n\n🆕 Desde 01.07.2026 as encomendas provenientes de fora da UE ficaram mais caras: o limiar de isenção de direitos de 150 € foi abolido — agora, até 150 €, é cobrado um direito aduaneiro fixo de 3 € por cada categoria de produto, para além do IVA de 23% (cobrado desde 2021) e das taxas dos CTT/transportadora. Acima de 150 € — como antes: declaração, IVA e direitos segundo o código do artigo.',
   tags: ['amazon', 'aliexpress', 'ctt', 'direitos aduaneiros'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: '🆕 Desde 01.07.2026 as encomendas de fora da UE (Shein/Temu/AliExpress da China, eBay dos EUA/Reino Unido) pagam um direito de 3 € por categoria de produto mesmo com valor até 150 € — além do habitual IVA de 23% e das taxas de desalfandegamento. As compras a partir de armazéns na UE não são afectadas.',
   steps: [
     {

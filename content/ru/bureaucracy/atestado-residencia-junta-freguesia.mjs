@@ -3,10 +3,11 @@ export default {
   id: 'atestado-residencia-junta-freguesia',
   categoryId: 'documents_fiscal',
   title: 'Atestado de residência: справка о проживании из Junta de Freguesia',
-  tldr: 'Atestado de residência — официальная справка от вашей Junta de Freguesia (местного «сельсовета»), подтверждающая, где вы живёте. Её просят для записи в школу/садик, ряда соцпособий, банков, AIMA и других процедур. Это НЕ то же самое, что comprovativo de morada (счёт за свет) или certificado de residência от AIMA. Нужны: удостоверение личности, comprovativo de morada и формуляр junta. Ключевой нюанс для новоприбывших: если вы не внесены в избирательные списки (recenseamento) этой freguesia, потребуются 2 свидетеля, которые там зарегистрированы и не являются вашими родственниками. Стоимость обычно бесплатно или до ~5 € (≈5,60 € в Loja do Cidadão).',
+  tldr: 'Atestado de residência — официальная справка от вашей Junta de Freguesia (местного «сельсовета»), подтверждающая, где вы живёте. Её просят для записи в школу/садик, ряда соцпособий, банков и муниципальных процедур. ❗ Для AIMA atestado НЕ работает: с 29.11.2025 AIMA официально не принимает справки junta как подтверждение жилья для получения/продления ВНЖ — там свой пакет (договор/certidão predial + декларация; если вас нет в договоре — certidão de domicílio fiscal из Finanças не старше 30 дней). Это НЕ то же самое, что comprovativo de morada (счёт за свет). Нужны: удостоверение личности, comprovativo de morada и формуляр junta. Ключевой нюанс для новоприбывших: если вы не внесены в избирательные списки (recenseamento) этой freguesia, потребуются 2 свидетеля, которые там зарегистрированы и не являются вашими родственниками. Стоимость обычно бесплатно или до ~5 € (≈5,60 € в Loja do Cidadão).',
   tags: ['atestado de residência', 'junta de freguesia', 'документы', 'morada'],
   estimatedReadMinutes: 6,
-  changeSummary: 'Новый гайд: как получить atestado de residência в Junta de Freguesia — документы, свидетели для непрописанных, стоимость, отличие от comprovativo de morada и certificado AIMA.',
+  recentlyChangedAt: '2026-08-01',
+  changeSummary: '❗ Уточнение сферы применения: AIMA НЕ принимает atestados от Junta de Freguesia как подтверждение жилья для ВНЖ (официальное правило AIMA от 29.11.2025). Для AIMA — договор/certidão predial + декларация, а если вас нет в договоре — certidão de domicílio fiscal (Finanças, не старше 30 дней). Для школ, банков и муниципальных услуг atestado по-прежнему работает.',
   steps: [
     {
       id: 'what-and-why',
@@ -17,10 +18,10 @@ export default {
           '🏫 Запись детей в школу, садик (creche), ATL и распределение по месту жительства.',
           '👶 Часть муниципальных и социальных пособий (cheque-bebé, многодетные и т.п.).',
           '🏦 Иногда — для банка, страховой, оператора связи.',
-          '🪪 Иногда просят при административных процедурах, включая обращения в AIMA.',
+          '🛂 Для AIMA — НЕ подходит: с 29.11.2025 AIMA официально не принимает atestados как подтверждение жилья для получения/продления ВНЖ (подробности ниже).',
           'Подтверждает именно факт проживания по адресу, когда обычного счёта недостаточно.'
         ] },
-        { kind: 'warning', text: 'Не путайте три разные вещи: atestado de residência (junta) — справка-подтверждение; comprovativo de morada — обычный счёт за воду/свет/газ на ваше имя; certificado de residência (AIMA) — для иммиграционных процедур. Спрашивайте у инстанции, что именно им нужно.' }
+        { kind: 'warning', text: '❗ AIMA с 29.11.2025 прямо пишет: «Não são aceites como meio de prova atestados emitidos pelas Juntas de Freguesia». Для ВНЖ пакет другой: своя декларация sob compromisso de honra (официальная minuta AIMA) + договор аренды на ваше имя с последним recibo, ЛИБО certidão predial (собственникам), ЛИБО contrato de comodato. Если вас в договоре НЕТ — в день приёма добавьте личную декларацию (№ registo predial, основание проживания, имя и NIF владельца) + certidão de domicílio fiscal из Finanças не старше 30 дней (см. гайд про эту справку). Запрет касается только AIMA: для школ, банков и муниципалитета atestado остаётся рабочим.' }
       ]
     },
     {
@@ -74,7 +75,7 @@ export default {
           'Берите справку именно в той freguesia, где реально живёте; узнать свою freguesia можно по адресу на сайте муниципалитета.',
           'Сразу попросите столько экземпляров, сколько нужно — иногда это удобнее, чем приходить снова.',
           'Если адрес недавно сменился, сначала обновите comprovativo de morada (счёт/договор).',
-          'Для иммиграционных процедур уточняйте, нужен ли именно atestado junta или certificado de residência от AIMA.'
+          'Для AIMA atestado не подходит (правило от 29.11.2025) — используйте пакет из гайдов про продление ВНЖ и certidão de domicílio fiscal; перед этим проверьте, что адрес в Finanças актуален.'
         ] },
         { kind: 'paragraph', text: 'Связанные гайды: смена адреса во всех сервисах (Cartão de Cidadão, Finanças, NISS), Espaço Cidadão и Loja do Cidadão.' }
       ]
@@ -101,8 +102,15 @@ export default {
       kind: 'official',
       language: 'pt',
       lastRetrieved: '2026-06-23'
+    },
+    {
+      title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)',
+      url: 'https://aima.gov.pt/pt/noticias/hklkjl',
+      kind: 'official',
+      language: 'pt',
+      lastRetrieved: '2026-08-01'
     }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 365
 }

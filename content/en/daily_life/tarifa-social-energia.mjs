@@ -54,7 +54,7 @@ export default {
           'Look at the PDF bill: the discount is usually shown as “Tarifa Social”, “Desconto Tarifa Social” or a similar line.',
           'If the discount has appeared, a separate application is usually not needed.'
         ] },
-        { kind: 'paragraph', text: 'In practice, the first automatic activation may take several billing cycles. If you have only just transferred the contract or received the benefit, check the next and following bill.' }
+        { kind: 'paragraph', text: 'In practice, the first automatic activation may take several billing cycles. If you have only just transferred the contract or received the benefit, check the next and following bill. 🆕 From 28/08/2026 (Decreto-Lei 130/2026), the social tariff is automatically kept when changing supplier — no need to “fight for” it again after the switch.' }
       ]
     },
     {
@@ -140,6 +140,6 @@ export default {
       lastRetrieved: '2026-04-28'
     }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 180
 }

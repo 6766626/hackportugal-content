@@ -3,9 +3,11 @@ export default {
   id: 'certidao-domicilio-fiscal',
   categoryId: 'documents_fiscal',
   title: 'Certidão de domicílio fiscal — proof of tax address',
-  tldr: 'Certidão de domicílio fiscal is an official certificate from the Autoridade Tributária confirming your tax address in Portugal. Needed for: applying for citizenship, opening an account with some banks, registering a car, renewing a residence permit in borderline cases. Do not confuse it: to prove tax residence under double taxation treaties, you need a separate Certidão de Residência Fiscal. Free, downloaded online via Portal das Finanças in 2 minutes.',
+  tldr: 'Certidão de domicílio fiscal is an official certificate from the Autoridade Tributária confirming your tax address in Portugal. The main scenario for immigrants: proving your address to AIMA when obtaining/renewing a residence permit if your name is NOT in the rental contract — under the AIMA rules of 29.11.2025, in that case you need this certificate no older than 30 days on the day of the appointment + a personal declaration sob compromisso de honra (AIMA no longer accepts junta certificates). Also needed for: applying for citizenship, opening a bank account, registering a car. Important: the certificate confirms the address recorded in Finanças — if it is outdated, update it first. Do not confuse it: for tax residence under a DTT you need a separate Certidão de Residência Fiscal. Free, downloaded online via Portal das Finanças in 2 minutes.',
   tags: ['certidão', 'address', 'finanças'],
   estimatedReadMinutes: 3,
+  recentlyChangedAt: '2026-08-01',
+  changeSummary: '🆕 Added the main AIMA scenario (rules of 29.11.2025): if you are not named in the rental contract, for granting/renewing a residence permit you need this certificate no older than 30 days on the day of the appointment + a declaration sob compromisso de honra (registo predial no., basis, owner\'s name and NIF). AIMA does not accept junta atestados. The address in Finanças must match the one declared to AIMA.',
   steps: [
     {
       id: 'what-for',
@@ -15,7 +17,7 @@ export default {
           'Applying for Portuguese citizenship — IRN sometimes requests it',
           'Opening a bank account if there is no other proof of address',
           'Registering a car with IMT — proof of the owner’s address',
-          'Renewing a residence permit in disputed cases — AIMA requests it',
+          '🛂 AIMA — granting/renewing a residence permit when you are NOT named in the rental/comodato contract (rule of 29.11.2025): on the day of the appointment — this certificate no older than 30 days + a personal declaration sob compromisso de honra (property registration no., basis of residence, owner\'s name and NIF)',
           'Do not confuse it: for foreign tax authorities and applying a DTT, you need a separate Certidão de Residência Fiscal, not a certidão de domicílio fiscal',
           'Filing a complaint with the Provedor de Justiça, a court, Finanças'
         ]}
@@ -64,7 +66,7 @@ export default {
         { kind: 'checklist', items: [
           'There is no official validity period — the certificate reflects the address at the time of issue',
           'Banks often require a certificate "no older than 3 months"',
-          'IRN/AIMA: depends on the procedure; it is safer to submit a certificate no older than 3 months if the specific document list does not state another period',
+          '🛂 For AIMA (proof of housing when not named in the contract) — strictly no older than 30 days on the day of the appointment; for IRN, no older than 3 months is usually sufficient',
           'If the address has changed — request a new one; the old one becomes invalid',
           'For the certidão de residência fiscal — valid for the specific tax year'
         ]}
@@ -74,7 +76,7 @@ export default {
       id: 'issues',
       title: 'Common problems',
       content: [
-        { kind: 'warning', text: 'If the address in Finanças is old and you have moved — change it first (see the guide “Changing tax address”). Otherwise, the certificate will confirm the old address.' },
+        { kind: 'warning', text: 'If the address in Finanças is old and you have moved — change it first (see the guide “Changing tax address”). Otherwise, the certificate will confirm the old address. For AIMA this is critical: the certificate works only if the tax address matches the address you declare to AIMA — update your morada in Finanças BEFORE requesting the certificate.' },
         { kind: 'warning', text: 'For non-residents, the domicílio fiscal in AT is usually the foreign tax residence address, not the Portuguese one; therefore the certidão may not confirm the actual address in Portugal. If you need to prove an address in Portugal (for example, for a bank), you can use an atestado de residência from the Junta de Freguesia — but the Junta issues it only upon confirmation of actual residence; the list of evidence depends on the freguesia, and it is worth asking the bank in advance which proof of address it accepts.' }
       ]
     }
@@ -87,8 +89,9 @@ export default {
   timelineDaysMax: 1,
   sources: [
     { title: 'Portal das Finanças — Certificates', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'ePortugal — Certidão de residência fiscal', url: 'https://www.gov.pt/servicos/obter-certidao-de-residencia-fiscal', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-01',
   verifyIntervalDays: 365
 }
