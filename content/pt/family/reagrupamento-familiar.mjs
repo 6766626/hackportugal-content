@@ -6,8 +6,8 @@ export default {
   tldr: 'Processo que permite trazer o cônjuge, filhos ou pais depois de obter a sua própria autorização de residência. É submetido através da AIMA (portal-rf.aima.gov.pt)\.\n\nImportante: a Lei 61/2025 (publicada em 22.10.2025, em vigor desde 23.10.2025) introduziu a exigência de 2 anos de residência legal ANTES da submissão. Contudo, o Tribunal Constitucional (Acórdão 785/2025) declarou inconstitucional o prazo absoluto de 2 anos na parte relativa aos cônjuges e aos filhos menores. Os requisitos concretos dependem da categoria do familiar — é necessária verificação individual.\n\nPrazo de decisão da AIMA — até 9 meses (anteriormente eram 3 meses, prorrogáveis até 6)\.\n\nExceções: titulares de Golden Visa, titulares do cartão azul UE, profissionais altamente qualificados, investigadores e vários outros estatutos qualificados; os cônjuges e as famílias com filhos menores têm proteção autónoma.',
   tags: ['família', 'reagrupamento familiar', 'reagrupamento', 'aima'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-07-26',
-  changeSummary: '🆕 25.07.2026: a AIMA iniciou o envio massivo de e-mails com datas de atendimento no regime transitório do reagrupamento familiar (~9 mil processos). Os e-mails chegam ao longo de ~2 semanas (muitas vezes de noite), os atendimentos são marcados até ao final de 2026. Não duplique os pedidos nem se apresse com ações judiciais — a AIMA promete agendar todos.',
+  recentlyChangedAt: '2026-08-26',
+  changeSummary: '🆕 Agosto-2026: a vaga de agendamentos do reagrupamento continua — marcados ~55 mil atendimentos, ~15 mil cartões entregues; o objetivo da AIMA é agendar todos até ao final de 2026. A opção reagrupamento no formulário de contacto foi reposta em 08.08; em services.aima.gov.pt pode carregar documentos e acompanhar o processo. Não duplique os pedidos.',
   steps: [
     {
       id: 'who',
@@ -54,7 +54,7 @@ export default {
             { kind: 'paragraph', text: 'Através do portal especializado portal-rf.aima.gov.pt (lançado em 2024) ou em atendimento presencial. Seleccionar o tipo «Reagrupamento Familiar».' }
           ]},
           { id: 'r3', title: '3. Obter a aprovação preliminar', content: [
-            { kind: 'timeline', text: 'Até 9 meses de acordo com a Lei 61/2025 (anteriormente eram 3 meses, prorrogáveis por mais 3; foi também revogada a regra de «deferimento tácito» ao fim de 6 meses). Na prática, em 2026 — 6–12 meses. Em junho de 2026 a AIMA confirmou publicamente: os primeiros cartões de reagrupamento demoram até 9 meses; nas autorizações de trabalho não há atrasos significativos. Em caso de aprovação, a AIMA envia uma notificação ao consulado do país de residência da família. 🆕 25.07.2026: a AIMA iniciou o envio massivo de e-mails com datas de atendimento para os requerentes do regime transitório (~9 mil processos; os e-mails são enviados ao longo de ~2 semanas, muitas vezes de noite; os atendimentos — até ao final de 2026). Conselho da AIMA: NÃO duplique o pedido por vários canais (isso «perturba o sistema») e não se apresse com novas ações judiciais — a AIMA promete agendar todos.' }
+            { kind: 'timeline', text: 'Até 9 meses de acordo com a Lei 61/2025 (anteriormente eram 3 meses, prorrogáveis por mais 3; foi também revogada a regra de «deferimento tácito» ao fim de 6 meses). Na prática, em 2026 — 6–12 meses. Em junho de 2026 a AIMA confirmou publicamente: os primeiros cartões de reagrupamento demoram até 9 meses; nas autorizações de trabalho não há atrasos significativos. Em caso de aprovação, a AIMA envia uma notificação ao consulado do país de residência da família. 🆕 A vaga de agendamentos decorre desde 25.07.2026 e continua em agosto (as «2 semanas» prometidas prolongaram-se): até ao final de agosto foram marcados ~55 mil atendimentos de reagrupamento e ~15 mil cartões já foram entregues a familiares; o objetivo da AIMA é agendar todos até ao final de 2026. Conselho da AIMA: NÃO duplique o pedido por vários canais e não se apresse com ações judiciais. A opção reagrupamento no formulário de contacto funcionou com falhas no início de agosto — reposta em 08.08; através de services.aima.gov.pt já é possível carregar documentos em falta e acompanhar o processo.' }
           ]},
           { id: 'r4', title: '4. A família obtém o visto no consulado', content: [
             { kind: 'paragraph', text: 'Com base na aprovação da AIMA. Taxa — cerca de 90 € por pessoa.' }
@@ -98,6 +98,6 @@ export default {
     { title: 'Tribunal Constitucional — Acórdão 785/2025 (inconstitucionalidade de várias normas do Reagrupamento Familiar)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20250785.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'DN Brasil — Imigrantes com pedido de reagrupamento familiar serão chamados pela AIMA (25.07.2026)', url: 'https://dnbrasil.dn.pt/imigrantes-com-pedido-de-reagrupamento-familiar-sero-chamados-pela-aima', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' }
   ],
-  lastVerified: '2026-07-27',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 90
 }

@@ -54,7 +54,8 @@ export default {
               'Guarde o email e o acesso ao MEGA até ao fim do ano letivo.'
             ] }
           ] }
-        ] }
+        ] },
+        { kind: 'paragraph', text: '🆕 Ano letivo 2026/27: a plataforma MEGA abriu para os encarregados de educação a 22.07.2026 (manuaisescolares.pt ou a app Edu Rede Escolar; o primeiro acesso faz-se com as credenciais do Portal das Finanças, e o NIF tem de estar associado ao aluno na escola). Os vouchers foram emitidos por fases: 1.º ciclo — a partir de 3 de agosto, 5.º–9.º ano — a partir de 10 de agosto, secundário — a partir de 13 de agosto. A mecânica não mudou; os livros podem ser levantados por código QR nos pontos de entrega, incluindo as lojas Continente.' }
       ]
     },
     {
@@ -118,6 +119,6 @@ export default {
     { title: 'ePortugal — Matrículas escolares', url: 'https://www.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

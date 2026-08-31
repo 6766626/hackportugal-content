@@ -6,7 +6,6 @@ export default {
   tldr: 'Atestado de residência — официальная справка от вашей Junta de Freguesia (местного «сельсовета»), подтверждающая, где вы живёте. Её просят для записи в школу/садик, ряда соцпособий, банков и муниципальных процедур. ❗ Для AIMA atestado НЕ работает: с 29.11.2025 AIMA официально не принимает справки junta как подтверждение жилья для получения/продления ВНЖ — там свой пакет (договор/certidão predial + декларация; если вас нет в договоре — certidão de domicílio fiscal из Finanças не старше 30 дней). Это НЕ то же самое, что comprovativo de morada (счёт за свет). Нужны: удостоверение личности, comprovativo de morada и формуляр junta. Ключевой нюанс для новоприбывших: если вы не внесены в избирательные списки (recenseamento) этой freguesia, потребуются 2 свидетеля, которые там зарегистрированы и не являются вашими родственниками. Стоимость обычно бесплатно или до ~5 € (≈5,60 € в Loja do Cidadão).',
   tags: ['atestado de residência', 'junta de freguesia', 'документы', 'morada'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-08-01',
   changeSummary: '❗ Уточнение сферы применения: AIMA НЕ принимает atestados от Junta de Freguesia как подтверждение жилья для ВНЖ (официальное правило AIMA от 29.11.2025). Для AIMA — договор/certidão predial + декларация, а если вас нет в договоре — certidão de domicílio fiscal (Finanças, не старше 30 дней). Для школ, банков и муниципальных услуг atestado по-прежнему работает.',
   steps: [
     {

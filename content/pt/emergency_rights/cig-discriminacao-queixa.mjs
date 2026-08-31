@@ -101,7 +101,8 @@ export default {
           'Se precisar de indemnização por danos patrimoniais ou morais, a CIG não a cobrará por si — é necessário advogado e tribunal/acordo extrajudicial.',
           'Se a discriminação continuar, envie provas adicionais por mensagem separada com o mesmo número de processo.'
         ] },
-        { kind: 'paragraph', text: 'Base jurídica em 2026: Código do Trabalho art. 24–25 proíbe a discriminação no trabalho, incluindo sexo, orientação sexual e identidade de género; Lei 38/2018 protege o direito à autodeterminação da identidade de género e expressão de género; Lei 14/2008 regula a proibição de discriminação em razão do sexo no acesso a bens e serviços.' }
+        { kind: 'paragraph', text: 'Base jurídica em 2026: Código do Trabalho art. 24–25 proíbe a discriminação no trabalho, incluindo sexo, orientação sexual e identidade de género; Lei 38/2018 protege o direito à autodeterminação da identidade de género e expressão de género; Lei 14/2008 regula a proibição de discriminação em razão do sexo no acesso a bens e serviços.' },
+        { kind: 'paragraph', text: '🆕 A partir de 23.09.2026 vigora a Lei n.º 58/2026: nos espaços públicos é proibido o uso de vestuário que oculte o rosto (coimas de 150–3 000 €), e é separadamente proibido COAGIR alguém a cobrir o rosto em razão do sexo, religião, idade ou origem — a coacção pode também constituir crime. Excepções: razões de saúde, profissionais, artísticas, aviões, representações diplomáticas e locais de culto. Se estiver a ser coagido/a a cobrir o rosto — isso é fundamento para queixa e para contactar a polícia.' }
       ]
     }
   ],
@@ -114,8 +115,9 @@ export default {
     { title: 'CIG — site oficial da Comissão para a Cidadania e a Igualdade de Género', url: 'https://www.cig.gov.pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'CIG — Queixa por discriminação em razão do sexo, orientação sexual, identidade e expressão de género e características sexuais', url: 'https://www.cig.gov.pt/area-servicos/servicos/queixa-por-discriminacao/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-04' },
     { title: 'Lei 38/2018 — direito à autodeterminação da identidade de género e expressão de género', url: 'https://diariodarepublica.pt/dr/detalhe/lei/38-2018-115933863', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
-    { title: 'Código do Trabalho — Lei 7/2009, igualdade e não discriminação no trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' }
+    { title: 'Código do Trabalho — Lei 7/2009, igualdade e não discriminação no trabalho', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34546475', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
+    { title: 'Euronews — Portugal enacts law banning face coverings in public spaces (Lei 58/2026, 24.08.2026)', url: 'https://www.euronews.com/my-europe/2026/08/20/portugal-enacts-burqa-law-banning-face-coverings-in-public-space', kind: 'news', language: 'en', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 90
 }

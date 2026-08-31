@@ -19,7 +19,8 @@ export default {
           '⚠️ Para veículos usados importados: a taxa do imposto pode ser calculada tendo em conta a primeira matrícula na UE/EEE, mas o mês de pagamento é determinado pela matrícula portuguesa',
           '📅 Em 2026 mantém-se a regra do «mês do aniversário». Pelo Orçamento do Estado para 2026 (OE 2026), a partir de 2027 está prevista uma data única de pagamento do IUC (abril) para todos os veículos — acompanhe as atualizações'
         ]},
-        { kind: 'warning', text: 'A falta de pagamento do IUC é uma dívida fiscal perante a AT (Autoridade Tributária): são cobrados juros, coimas e pode haver penhora. O IUC não é uma condição automática para realizar a inspeção IPO, e a dívida é uma dívida pessoal do contribuinte; a venda do automóvel não é formalmente bloqueada apenas por uma dívida de IUC, mas na transacção deve ter-se em conta o risco de transferência de responsabilidade e de dívidas.' }
+        { kind: 'warning', text: 'A falta de pagamento do IUC é uma dívida fiscal perante a AT (Autoridade Tributária): são cobrados juros, coimas e pode haver penhora. O IUC não é uma condição automática para realizar a inspeção IPO, e a dívida é uma dívida pessoal do contribuinte; a venda do automóvel não é formalmente bloqueada apenas por uma dívida de IUC, mas na transacção deve ter-se em conta o risco de transferência de responsabilidade e de dívidas.' },
+        { kind: 'paragraph', text: '🆕 O calendário de pagamento do IUC foi reformado (DL n.º 161/2026, de 04.08.2026): em 2026 tudo se mantém — paga-se no mês da matrícula do veículo. Ano de transição 2027: um pagamento único em outubro (se o IUC ≤ 500 €) ou dois — julho e outubro (se > 500 €). A partir de 2028, o regime permanente: até ao fim de abril (≤ 100 €), abril + outubro (100–500 €), abril + julho + outubro (> 500 €). A ligação ao mês da matrícula desaparece.' }
       ]
     },
     {
@@ -103,8 +104,9 @@ export default {
   sources: [
     { title: 'Código do IUC (consolidado)', url: 'https://dre.pt/dre/legislacao-consolidada/decreto-lei/2007-34442375', kind: 'law', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'Portal das Finanças — IUC', url: 'https://www.portaldasfinancas.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Pagar o IUC', url: 'https://www.gov.pt/cidadaos/-/informacoes/pagar-o-imposto-unico-de-circulacao-iuc-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Pagar o IUC', url: 'https://www.gov.pt/cidadaos/-/informacoes/pagar-o-imposto-unico-de-circulacao-iuc-', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'Decreto-Lei n.º 161/2026 — reforma do calendário de pagamento do IUC (DR n.º 149, 04.08.2026)', url: 'https://files.diariodarepublica.pt/1s/2026/08/14900/0001000015.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

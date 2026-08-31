@@ -6,7 +6,8 @@ export default {
   tldr: 'Lei n.º 61/2025 de 22 de outubro de 2025 — a principal reforma do regime migratório, que elimina a Manifestação de Interesse como via massificada de legalização após a entrada (prazo transitório para processos já iniciados — 31.12.2025), cria um visto qualificado para procura de trabalho e torna mais rigoroso o controlo prévio à entrada. Para o expat, a principal conclusão é: entrar com o visto correto D1-D8/trabalho/família, marcar AIMA com antecedência e reunir provas de rendimento e alojamento. Taxas AIMA desde 01.03.2026 — 133 € pela receção e 307,20 € pela autorização de residência ao abrigo do art. 75.',
   tags: ['aima', 'autorização de residência', 'lei23', 'migração', 'irs'],
   estimatedReadMinutes: 6,
-  changeSummary: 'Clarificada a secção sobre reagrupamento familiar ao abrigo da Lei 61/2025 (em vigor): descrita a estrutura do regime — sem requisito de período de residência quando o agregado inclui filhos menores/incapazes, isenções para Golden Visa (art. 90-A), altamente qualificados/docentes/agentes culturais (art. 90) e Cartão Azul UE (art. 121-A); para cônjuges sem dependentes menores, requisito de tempo de residência do requerente principal mais coabitação prévia (~18 meses). Confirme os prazos exatos com a AIMA.',
+  recentlyChangedAt: '2026-08-31',
+  changeSummary: '🔴 A «Lei do Retorno e Asilo» está à porta: em 28.08.2026 o Tribunal Constitucional validou POR UNANIMIDADE as 11 normas contestadas (Acórdão 736/2026) e em 31.08 o Presidente promulgou a lei. Após a publicação no DR: fim da notificação de abandono voluntário (NAV), detenção até 180 dias, recursos sem efeito suspensivo em vários casos. O TC fixou limites: detenção como medida excecional, revisão a cada 30 dias, superior interesse da criança. A data de entrada em vigor será conhecida com a publicação — estamos a acompanhar.',
   steps: [
     {
       id: 'what-changed',
@@ -21,7 +22,8 @@ export default {
           'A Manifestação de Interesse como via massificada de legalização após a entrada foi eliminada; não se deve contar com ela em 2026.',
           'Reagrupamento Familiar exige uma preparação mais cuidadosa: parentesco, alojamento, rendimento e estatuto do requerente principal.',
           'Os regimes fiscais IFICI e IRS-Migrante não concedem autorização de residência automaticamente — são uma camada separada, posterior ou paralela à imigração.'
-        ] }
+        ] },
+        { kind: 'warning', text: '🔴 A próxima vaga de endurecimento — a «Lei do Retorno e Asilo» (Decreto 105/XVII): em 28.08.2026 o Tribunal Constitucional não se pronunciou pela inconstitucionalidade de nenhuma das 11 normas enviadas pelo Presidente (Acórdão n.º 736/2026, unanimidade) e em 31.08.2026 o Presidente Seguro promulgou a lei. O que muda após a publicação no DR: fim da notificação de abandono voluntário (NAV), detenção em CIT até 180 dias (prorrogável), procedimento de retorno na fronteira (até 12 semanas), triagem de 7/3 dias e recursos judiciais sem efeito suspensivo em vários artigos. Importante: o TC vinculou as normas a limites interpretativos — a detenção mantém-se medida EXCECIONAL de estrita necessidade, com revisão a cada 30 dias e ponderação do superior interesse da criança; as providências cautelares nos tribunais administrativos mantêm-se disponíveis. O número da lei e a data de entrada em vigor serão conhecidos com a publicação no Diário da República — até lá aplicam-se as regras atuais. Estamos a acompanhar.' }
       ]
     },
     {
@@ -127,11 +129,12 @@ export default {
     { label: 'Apostila/traduções de documentos familiares', amountEURMin: 30, amountEURMax: 150, note: 'Por documento; depende do país de emissão, do notário e do tradutor.' }
   ],
   sources: [
+    { title: 'Tribunal Constitucional — Acórdão n.º 736/2026: fiscalização preventiva da Lei de Estrangeiros e Asilo (28.08.2026)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20260736.html', kind: 'official', language: 'pt', lastRetrieved: '2026-08-31' },
     { title: 'Diário da República — Lei 23/2007, regime de entrada, permanência e autorização de residência de estrangeiros', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — Lei 37/2006, direito de residência de cidadãos da UE e membros da família', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34571875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — Lei n.º 61/2025 de 22 de outubro (reforma migratória)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-18' },
     { title: 'AIMA — informação sobre residência, Reagrupamento Familiar e taxas', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-08-31',
   verifyIntervalDays: 90
 }

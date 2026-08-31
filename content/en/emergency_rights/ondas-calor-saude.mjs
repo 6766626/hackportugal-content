@@ -6,7 +6,6 @@ export default {
   tldr: 'Heat in Portugal kills more people than wildfires: in just two heatwaves in summer 2026 the DGS counted ~123 excess deaths. Follow the IPMA avisos (weather warnings) — each district has its own thresholds: in Lisbon "red" means above 40 °C, in Guarda already above 36 °C. Since 2026 the summer "Módulo Verão" has been replaced by a single Plano Nacional de Preparação e Resposta Sazonal em Saúde (national seasonal health plan, 4 levels: verde/amarelo/laranja/vermelho). DGS survival basics: at least 1.5 L of water a day (without waiting to feel thirsty), stay out of the sun between 11:00 and 17:00, light loose clothing, cool rooms. Golpe de calor (heatstroke: body temperature ~40 °C, hot dry skin, confusion) means calling 112 immediately; when in doubt — SNS 24: 808 24 24 24. There is NO fixed "maximum temperature for work" in the law, but the employer must provide water, breaks and shade (ACT — Autoridade para as Condições do Trabalho). Leaving a child or an animal in a closed car in the heat is a criminal offence.',
   tags: ['onda de calor', 'heat', 'verão', 'health'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: 'New guide: heatwaves — IPMA aviso thresholds by district, the new unified Plano Sazonal em Saúde 2026–2027, the ÍCARO index, DGS rules, heatstroke warning signs (112 vs SNS 24), employer duties in the heat (ACT), children/animals in cars.',
   steps: [
     {

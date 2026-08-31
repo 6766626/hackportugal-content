@@ -6,6 +6,8 @@ export default {
   tldr: 'Португалия даёт широкий набор социальных пособий резидентам: RSI (rendimento social de inserção) — доплата до референтной суммы домохозяйства (100% базы для заявителя — €247,56/мес в 2026, 70% за каждого следующего взрослого, 50% за ребёнка); Subsídio de desemprego — около 65% remuneração de referência, максимум 2,5×IAS (€1 342,83 в 2026), срок по таблице Segurança Social по возрасту и стажу; Porta 65 Jovem — субсидия на аренду (размер по таблицам IHRU, не фиксированный cap); Tarifa Social Energia Elétrica — около 33,8% скидки на eligible tariff components (для газа — отдельный тариф ~31,2%); habitação social — аренда по renda apoiada formula. Требования: легальное проживание в PT, проверка доходов/имущества, и иногда минимальный стаж взносов.',
   tags: ['rsi', 'subsídio', 'социальная помощь', 'пособие'],
   estimatedReadMinutes: 7,
+  recentlyChangedAt: '2026-08-31',
+  changeSummary: '🆕 DL n.º 166/2026 (13.08): с 31.12.2026 RSI и ещё 12 пособий сливаются в единую Prestação Social Única (50% IAS); гражданам третьих стран нужен ≥1 год легального проживания с действующим ВНЖ; текущие получатели переводятся автоматически. Также: с ~17.10.2026 бесплатные лекарства по CSI — только дженерики/референтная цена (DL 169/2026). Portaria 394/2026/1 (27.08) задала порядок исполнения: заявление через форму SS, кросс-проверки с AT, план интеграции.',
   steps: [
     {
       id: 'rsi',
@@ -21,7 +23,8 @@ export default {
           '⏱️ Обработка: 30-60 дней',
           '📋 Обязательства: регистрация в IEFP как ищущий работу, посещение обязательных курсов / собеседований, не отказываться от «подходящей» работы'
         ]},
-        { kind: 'warning', text: 'Пособие по безработице, зарплата и другие доходы учитываются при расчёте RSI и могут уменьшить или исключить выплату. Движимое имущество семьи не должно превышать установленный лимит (обычно 60× IAS).\n\nНесоблюдение правил или сокрытие доходов означает потерю права и санкции.' }
+        { kind: 'warning', text: 'Пособие по безработице, зарплата и другие доходы учитываются при расчёте RSI и могут уменьшить или исключить выплату. Движимое имущество семьи не должно превышать установленный лимит (обычно 60× IAS).\n\nНесоблюдение правил или сокрытие доходов означает потерю права и санкции.' },
+        { kind: 'warning', text: '🆕 БОЛЬШАЯ РЕФОРМА с 31.12.2026 (DL n.º 166/2026): RSI и ещё 12 неконтрибутивных пособий (pensão social, subsídio social de desemprego, социальные родительские пособия и др.) сливаются в единую выплату — Prestação Social Única (PSU), база — 50% IAS. Для граждан третьих стран условие: легальное проживание с действующим ВНЖ не менее 1 года (беженцы и признанные апатриды проходят). Нынешние получатели RSI/pensão social будут переведены автоматически с гарантией текущих сумм. 🆕 Portaria n.º 394/2026/1 (27.08) уже задала порядок исполнения: заявление через форму Segurança Social (предпочтительно цифровое), кросс-проверки доходов с налоговой (AT), индивидуальный план интеграции на домохозяйство; эффекты по-прежнему с 31.12.2026.' }
       ]
     },
     {
@@ -119,7 +122,7 @@ export default {
           '🎒 Apoio às despesas escolares: скидка на учебники, материалы — ISS.gov.pt',
           '🧑‍🎓 Bolsa de estudo: для университета — DGES, 500-5 000 €/год',
           '♿ Complemento por Dependência: для инвалидов и нуждающихся в уходе — до 100-200 €/мес',
-          '👵 Complemento Solidário para Idosos (CSI): доплата для пожилых с годовыми ресурсами ниже референтного порога CSI; учитываются доходы заявителя, супруга/партнёра и в ряде случаев детей. Порог брать из актуального Guia Prático CSI',
+          '👵 Complemento Solidário para Idosos (CSI): доплата для пожилых с годовыми ресурсами ниже референтного порога CSI; учитываются доходы заявителя, супруга/партнёра и в ряде случаев детей. Порог брать из актуального Guia Prático CSI. 🆕 С ~17.10.2026 (DL 169/2026) бесплатные лекарства для получателей CSI ограничены: 100% компенсация — только на дженерики или до референтной цены',
           '🧑‍⚕️ Taxas moderadoras в SNS в основном отменены (Lei n.º 22/2022), но могут применяться в urgência без referral от SNS24/INEM/центра здоровья и без последующей госпитализации. Isenções существуют для minors, pregnant women, people with economic insufficiency, certain chronic conditions/disabilities и других legal categories'
         ]}
       ]
@@ -157,8 +160,9 @@ export default {
     { title: 'IHRU / Portal da Habitação — Porta 65 Jovem', url: 'https://www.portaldahabitacao.pt/web/guest/porta-65-jovem', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IEFP — Centro de Emprego', url: 'https://www.iefp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGEG — Tarifa Social de Energia Elétrica', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/energia-eletrica/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei n.º 166/2026 — Prestação Social Única (DR 1.ª série n.º 156, 13.08.2026)', url: 'https://files.diariodarepublica.pt/1s/2026/08/15600/0001100041.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-31',
   verifyIntervalDays: 180
 }

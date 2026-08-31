@@ -6,6 +6,8 @@ export default {
   tldr: 'O recibo verde é um recibo eletrónico de trabalhador independente. É emitido no Portal das Finanças → «Recibos Verdes Eletrónicos». São necessários: atividade aberta, NIF do cliente, montante e descrição do serviço. O IVA depende do regime: regime normal (frequentemente 23% no continente, com taxas dependentes do serviço e da região) ou regime de isenção art. 53 CIVA para volume de negócios até 15 000 €/ano, se cumpridas as condições.\n\nPrazo — até ao 5.º dia útil após o momento da exigibilidade (conclusão do serviço, emissão da fatura ou adiantamento).',
   tags: ['recibo verde', 'trabalhador independente', 'atividade'],
   estimatedReadMinutes: 5,
+  recentlyChangedAt: '2026-08-26',
+  changeSummary: '⚠️ Prática da AIMA (agosto de 2026): declarar rendimentos abaixo do real nas declarações trimestrais da SS ou pagar apenas os 20 € mínimos pode levar ao indeferimento do título de residência/renovação por «falta de rendimentos» — a base de rendimentos visível para o Estado é formada pelas declarações da Segurança Social. Declare o rendimento real.',
   steps: [
     {
       id: 'prereq',
@@ -108,7 +110,8 @@ export default {
             ]}
           ]},
           { id: 't2', title: 'Segurança Social — declaração trimestral', content: [
-            { kind: 'paragraph', text: 'Os Trabalhadores independentes pagam normalmente 21,4% sobre o rendimento relevante: geralmente 70% do rendimento de serviços ou 20% das vendas/produção/hotelaria/restauração. O cálculo é feito com base na declaração trimestral, com possível ajustamento de ±25%. No primeiro início de atividade existe normalmente uma isenção inicial de 12 meses; depois — mínimo de 20 € em certos casos. O limite mensal da base é 12×IAS = 6 445,56 € (IAS 2026 = 537,13 €).' }
+            { kind: 'paragraph', text: 'Os Trabalhadores independentes pagam normalmente 21,4% sobre o rendimento relevante: geralmente 70% do rendimento de serviços ou 20% das vendas/produção/hotelaria/restauração. O cálculo é feito com base na declaração trimestral, com possível ajustamento de ±25%. No primeiro início de atividade existe normalmente uma isenção inicial de 12 meses; depois — mínimo de 20 € em certos casos. O limite mensal da base é 12×IAS = 6 445,56 € (IAS 2026 = 537,13 €).' },
+            { kind: 'warning', text: '⚠️ Importante para imigrantes (prática da AIMA, agosto de 2026): se declarar rendimentos abaixo do real nas declarações trimestrais ou pagar apenas os 20 € mínimos à Segurança Social, a AIMA pode indeferir o primeiro título de residência ou a renovação por «falta de rendimentos» — mesmo que, na realidade, ganhe acima do salário mínimo. A base de rendimentos visível para o Estado é formada precisamente pelas declarações da SS. Se planeia obter o título de residência com recibos verdes — declare o rendimento real.' }
           ]},
           { id: 't3', title: 'IRS — uma vez por ano (Anexo B / C)', content: [
             { kind: 'paragraph', text: 'A Modelo 3 é normalmente entregue entre 1 de abril e 30 de junho. No regime simplificado, o coeficiente depende do tipo de rendimento: para muitos professional services — 0,75; para outros — 0,35, 0,15, etc.; parte das despesas pode exigir comprovação. O IFICI confere uma taxa de 20% apenas para eligible income, desde que cumpridas as condições.' }
@@ -121,8 +124,9 @@ export default {
     { title: 'Portal das Finanças — Faturas e Recibos Verdes', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Código do IVA (DRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1984-34470075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Código do IRS (DRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'DN Brasil — Recibos verdes: pagar o mínimo à Segurança Social pode gerar indeferimento no título de residência (11.08.2026)', url: 'https://dnbrasil.dn.pt/recibos-verdes-pagar-o-mnimo-segurana-social-pode-gerar-indeferimento-no-ttulo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

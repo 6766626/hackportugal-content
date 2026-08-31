@@ -65,7 +65,8 @@ export default {
           'Сохраните PDF/скрин с условиями на случай спора в кассе',
           'Если оператор отказывает, попросите ссылку на тарифную таблицу 2026',
           'При переезде в другой concelho оформляйте новый passe — старый может перестать быть оптимальным'
-        ] }
+        ] },
+        { kind: 'paragraph', text: '🆕 Passe Ferroviário Verde (20 €/мес, только поезда CP): в Европейскую неделю мобильности (16–22 сентября 2026) его действие расширяют на городские поезда (urbanos) Лиссабона и Порту и на Fertagus — раньше эти участки были исключены и требовали Navegante/Andante за 40 €. Alfa Pendular, метро и автобусы по-прежнему не входят. Точный день активации — следите за анонсом CP.' }
       ]
     },
     {
@@ -117,6 +118,6 @@ export default {
     { title: 'Navegante — тарифы и карты Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Andante — тарифы и зоны Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

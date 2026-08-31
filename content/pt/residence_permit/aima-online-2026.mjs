@@ -6,8 +6,8 @@ export default {
   tldr: 'Em 2026, a renovação da autorização de residência deve ser iniciada online, mas o percurso depende da data de caducidade e do tipo de cartão. Os cartões comuns caducados a partir de 01.07.2025 são renovados através de portal-renovacoes.aima.gov.pt. Cartões antigos caducados entre 22.02.2020 e 30.06.2025 seguem por services.aima.gov.pt/RAR/reqrenew ou pelo percurso indicado por email pela AIMA/EMAIMA; CPLP, ARI e cartões de familiares de cidadãos da UE têm regras próprias. Segundo o gov.pt, o pedido pode ser feito desde 90 dias antes do fim da validade. Para cartões caducados depois de 30.06.2025, o direito de residência mantém-se por 6 meses após a data de caducidade; se, durante esse período, tiver iniciado a renovação e tiver comprovativo/recibo, a AIMA considera a permanência legal até à conclusão do processo — mesmo depois desses 6 meses. Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias: leve-o consigo juntamente com o cartão caducado.',
   tags: ['aima', 'autorização de residência', 'renovação', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-08-01',
-  changeSummary: '❗ Clarificado o pacote de comprovativo de alojamento pelas regras oficiais da AIMA (29.11.2025): declaração de compromisso de honra + contrato/certidão predial/comodato; o atestado da Junta NÃO é aceite; se não constar do contrato — declaração pessoal + certidão de domicílio fiscal com menos de 30 dias. Além disso: desde 22.07.2026 a AIMA testa o acompanhamento de todas as etapas do processo até ao código de rastreio CTT.',
+  recentlyChangedAt: '2026-08-26',
+  changeSummary: '🆕 Em 03.08.2026 o portal abriu para cartões que caducam em novembro–dezembro de 2026 (janela — até 31.12.2026). Para CR em papel (cidadãos da UE e famílias): introduza o número SEM o zero inicial (esclarecimento da AIMA de 13.08). Anteriormente: pacote oficial de comprovativo de alojamento (atestado da junta não é aceite) e acompanhamento das etapas do processo.',
   steps: [
     {
       id: 'which-portal',
@@ -16,7 +16,7 @@ export default {
         { kind: 'paragraph', text: 'Em 2026, a AIMA não tem uma entrada universal para todas as renovações. Se escolher o portal errado, o processo pode não aparecer ou seguir para o canal incorreto.' },
         { kind: 'checklist', items: [
           '✅ Autorização de residência caducada ou a caducar desde 01.07.2025: percurso principal em portal-renovacoes.aima.gov.pt',
-          '✅ Autorização de residência caducada entre 22.02.2020 e 30.06.2025: se não recebeu email da AIMA/EMAIMA, use services.aima.gov.pt/RAR/reqrenew; em 23.06.2026 isto já é urgente, porque o prazo de 15.04.2026 passou',
+          '✅ Autorização de residência caducada entre 22.02.2020 e 30.06.2025: se não recebeu email da AIMA/EMAIMA, use services.aima.gov.pt/RAR/reqrenew; o prazo de 15.04.2026 passou há muito — juridicamente já é um caso urgente, não adie',
           '✅ CPLP: procedimento separado em services.aima.gov.pt/CPLP, não o fluxo comum do portal-renovacoes',
           '✅ ARI / Golden Visa: fluxo ARI separado no Portal das Renovacoes, disponível desde 16.02.2026 segundo a AIMA',
           '✅ Residente de Longa Duração: a AIMA abriu a renovação no Portal das Renovacoes, mas confirme primeiro o NISS e a morada',
@@ -32,6 +32,8 @@ export default {
         { kind: 'checklist', items: [
           '🗓️ Segundo o gov.pt, pode submeter desde 90 dias antes de o cartão caducar; a renovação da autorização temporária deve ser pedida até 30 dias antes do fim da validade',
           '✅ Na prática: comece a verificar o portal 90 dias antes e submeta assim que a AIMA abrir a sua data/categoria',
+          '🆕 O portal abre por «coortes» consoante o mês de caducidade: em 03.08.2026 abriu a receção para cartões que caducam em novembro–dezembro de 2026 (janela de cobertura — até 31.12.2026); a próxima coorte (janeiro de 2027) será anunciada pela AIMA separadamente',
+          '🆕 Cartões de Residência em papel (CR em papel — cidadãos da UE e seus familiares): ao introduzir o número no portal, RETIRE o zero inicial (exemplo da AIMA de 13.08: 011641 → 11641); se mesmo assim não passar — email para geral@aima.gov.pt com o assunto «Portal de Renovações, Agendamento CR papel, impossibilidade submeter pedido»',
           '⚠️ Cartões caducados depois de 30.06.2025: ao abrigo do Decreto Regulamentar 84/2007, art. 63.º n.º 14, o direito de residência mantém-se por 6 meses após a data de caducidade. Se, durante esse período, tiver iniciado a renovação e tiver comprovativo/recibo, a AIMA considera a permanência legal até à conclusão do processo — mesmo depois desses 6 meses.',
           '⚠️ Se o cartão caducou antes de 30.06.2025 e não iniciou a renovação até 15.04.2026, não espere: submeta o pedido em services.aima.gov.pt/RAR/reqrenew e discuta o caso com um advogado ou CLAIM',
           '🧾 Após o registo do pedido e pagamento, a AIMA emite um comprovativo válido por 180 dias. É prova do processo, mas não é um cartão de residência completo para viagens Schengen'
@@ -232,6 +234,6 @@ export default {
     { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' },
     { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-08-01',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 45
 }

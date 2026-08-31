@@ -6,6 +6,8 @@ export default {
   tldr: 'Portugal offers residents a broad set of social benefits: RSI (rendimento social de inserção) — a top-up to the household reference amount (100% of the base for the applicant — €247.56/month in 2026, 70% for each additional adult, 50% for a child); Subsídio de desemprego — around 65% of remuneração de referência, maximum 2.5×IAS (€1,342.83 in 2026), duration according to the Segurança Social table by age and contribution record; Porta 65 Jovem — rent support (amount according to IHRU tables, not a fixed cap); Tarifa Social Energia Elétrica — around a 33.8% discount on eligible tariff components (for gas — a separate tariff of around 31.2%); habitação social — rent under the renda apoiada formula. Requirements: legal residence in PT, income/assets assessment, and sometimes a minimum contribution record.',
   tags: ['rsi', 'subsidy', 'social support', 'benefit'],
   estimatedReadMinutes: 7,
+  recentlyChangedAt: '2026-08-31',
+  changeSummary: '🆕 DL n.º 166/2026 (13.08): from 31.12.2026, RSI and 12 other benefits merge into the single Prestação Social Única (50% of IAS); third-country nationals need ≥1 year of legal residence with a valid residence permit; current recipients are converted automatically. Also: from ~17.10.2026, free CSI medicines — generics/reference price only (DL 169/2026). Portaria 394/2026/1 (27.08) set the execution rules: SS form application, AT income cross-checks, integration plan.',
   steps: [
     {
       id: 'rsi',
@@ -21,7 +23,8 @@ export default {
           '⏱️ Processing: 30-60 days',
           '📋 Obligations: registration with IEFP as a jobseeker, attendance at mandatory courses / interviews, not refusing “suitable” work'
         ]},
-        { kind: 'warning', text: 'Unemployment benefit, salary and other income are taken into account when calculating RSI and may reduce or exclude the payment. The household’s movable assets must not exceed the set limit (usually 60× IAS).\n\nFailure to comply with the rules/concealing income = loss of entitlement and sanctions.' }
+        { kind: 'warning', text: 'Unemployment benefit, salary and other income are taken into account when calculating RSI and may reduce or exclude the payment. The household’s movable assets must not exceed the set limit (usually 60× IAS).\n\nFailure to comply with the rules/concealing income = loss of entitlement and sanctions.' },
+        { kind: 'warning', text: '🆕 BIG REFORM from 31.12.2026 (DL n.º 166/2026): RSI and 12 other non-contributory benefits (pensão social, subsídio social de desemprego, social parental benefits and others) merge into a single payment — the Prestação Social Única (PSU), with a base of 50% of IAS. For third-country nationals, the condition is legal residence with a valid residence permit for at least 1 year (refugees and recognised stateless persons qualify). Current recipients of RSI/pensão social will be converted automatically with their current amounts guaranteed. 🆕 Portaria n.º 394/2026/1 (27.08) has now set the execution rules: application via a Segurança Social form (digital preferred), income cross-checks with the tax authority (AT), an individual integration plan per household; effects still start on 31.12.2026.' }
       ]
     },
     {
@@ -119,7 +122,7 @@ export default {
           '🎒 Apoio às despesas escolares: discount on textbooks, materials — ISS.gov.pt',
           '🧑‍🎓 Bolsa de estudo: for university — DGES, €500-5,000/year',
           '♿ Complemento por Dependência: for disabled people and those needing care — up to €100-200/month',
-          '👵 Complemento Solidário para Idosos (CSI): a top-up for older people with annual resources below the CSI reference threshold; the income of the applicant, spouse/partner and, in some cases, children is taken into account. Use the current Guia Prático CSI for the threshold',
+          '👵 Complemento Solidário para Idosos (CSI): a top-up for older people with annual resources below the CSI reference threshold; the income of the applicant, spouse/partner and, in some cases, children is taken into account. Use the current Guia Prático CSI for the threshold. 🆕 From ~17.10.2026 (DL 169/2026), free medicines for CSI recipients are limited: 100% reimbursement — only for generics or up to the reference price',
           '🧑‍⚕️ Taxas moderadoras in SNS have largely been abolished (Lei n.º 22/2022), but may apply in urgência without referral from SNS24/INEM/health centre and without subsequent hospitalisation. Isenções exist for minors, pregnant women, people with economic insufficiency, certain chronic conditions/disabilities and other legal categories'
         ]}
       ]
@@ -157,8 +160,9 @@ export default {
     { title: 'IHRU / Portal da Habitação — Porta 65 Jovem', url: 'https://www.portaldahabitacao.pt/web/guest/porta-65-jovem', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IEFP — Centro de Emprego', url: 'https://www.iefp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGEG — Tarifa Social de Energia Elétrica', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/energia-eletrica/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei n.º 166/2026 — Prestação Social Única (DR 1.ª série n.º 156, 13.08.2026)', url: 'https://files.diariodarepublica.pt/1s/2026/08/15600/0001100041.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-31',
   verifyIntervalDays: 180
 }

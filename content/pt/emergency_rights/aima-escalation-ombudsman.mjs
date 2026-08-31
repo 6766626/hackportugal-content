@@ -6,7 +6,6 @@ export default {
   tldr: 'Se a AIMA perdeu o processo, não disponibiliza vaga, demora meses a emitir o cartão de residência ou não responde a emails, siga uma escada: reunir provas → reclamação no Livro de Reclamações → dar à AIMA até 60 dias para reagir → reclamação ao Provedor de Justiça → em caso de prejuízo urgente, avançar para o Tribunal Administrativo com advogado. O Provedor é gratuito, mas não substitui o tribunal e não suspende prazos relativos à autorização de residência.',
   tags: ['aima', 'reclamação', 'provedor', 'autorização de residência'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-26',
   changeSummary: '🆕 Realidade judicial das ações contra a AIMA (CSTAF, julho de 2026): >100 mil processos pendentes, tempo médio em primeira instância — 861 dias. Em 23.07.2026 o Governo aprovou uma proposta de lei: apresentação das ações no tribunal administrativo da residência do autor (não só Lisboa) + tribunais especializados de migrações — ainda NÃO é lei.',
   steps: [
     {

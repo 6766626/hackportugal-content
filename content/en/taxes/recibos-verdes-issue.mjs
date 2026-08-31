@@ -6,6 +6,8 @@ export default {
   tldr: 'A recibo verde is an electronic receipt for a self-employed person / sole trader. It is issued in Portal das Finanças → “Recibos Verdes Eletrónicos”. You need: an open activity, the client’s NIF, the amount, and a description of the service. IVA depends on the regime: regime normal (often 23% on the mainland, rates depend on the service and region) or regime de isenção art. 53 CIVA for turnover up to €15,000/year if the conditions are met.\n\nDeadline — by the 5th working day after the moment of exigibilidade (completion of the service, issue of the invoice, or advance payment).',
   tags: ['recibo verde', 'sole trader', 'self-employed', 'activity'],
   estimatedReadMinutes: 5,
+  recentlyChangedAt: '2026-08-26',
+  changeSummary: '⚠️ AIMA practice (August 2026): under-declaring income in the quarterly SS declarations or paying only the minimum €20 can lead to refusal of a residence permit/renewal for “falta de rendimentos” — the income base visible to the state is formed from the Segurança Social declarations. Declare your real income.',
   steps: [
     {
       id: 'prereq',
@@ -108,7 +110,8 @@ export default {
             ]}
           ]},
           { id: 't2', title: 'Segurança Social — quarterly declaration', content: [
-            { kind: 'paragraph', text: 'Trabalhadores independentes usually pay 21.4% sobre o rendimento relevante: usually 70% of service income or 20% of sales/production/hotelaria/restauração. The calculation is based on the quarterly declaração with a possible ±25% adjustment. With the first início de atividade, there is usually an isenção inicial of 12 months; after that — a €20 minimum in certain cases. Monthly base ceiling — 12×IAS = €6,445.56 (IAS 2026 = €537.13).' }
+            { kind: 'paragraph', text: 'Trabalhadores independentes usually pay 21.4% sobre o rendimento relevante: usually 70% of service income or 20% of sales/production/hotelaria/restauração. The calculation is based on the quarterly declaração with a possible ±25% adjustment. With the first início de atividade, there is usually an isenção inicial of 12 months; after that — a €20 minimum in certain cases. Monthly base ceiling — 12×IAS = €6,445.56 (IAS 2026 = €537.13).' },
+            { kind: 'warning', text: '⚠️ Important for immigrants (AIMA practice, August 2026): if you under-declare your income in the quarterly declarations or pay only the minimum €20 to Segurança Social, AIMA may refuse a first residence permit or a renewal for “falta de rendimentos” — even if you actually earn above the minimum wage. The income base visible to the state is formed precisely from the SS declarations. If you plan a residence permit based on recibos verdes — declare your real income.' }
           ]},
           { id: 't3', title: 'IRS — once a year (Anexo B / C)', content: [
             { kind: 'paragraph', text: 'Modelo 3 is usually filed from 1 April to 30 June. In regime simplificado, the coefficient depends on the type of income: for many professional services — 0.75; for others — 0.35, 0.15, etc.; part of the expenses may require proof. IFICI gives a 20% rate only for eligible income if the conditions are met.' }
@@ -121,8 +124,9 @@ export default {
     { title: 'Portal das Finanças — Faturas e Recibos Verdes', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IVA Code (DRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1984-34470075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IRS Code (DRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'DN Brasil — Recibos verdes: pagar o mínimo à Segurança Social pode gerar indeferimento no título de residência (11.08.2026)', url: 'https://dnbrasil.dn.pt/recibos-verdes-pagar-o-mnimo-segurana-social-pode-gerar-indeferimento-no-ttulo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

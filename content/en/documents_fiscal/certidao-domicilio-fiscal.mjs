@@ -6,7 +6,6 @@ export default {
   tldr: 'Certidão de domicílio fiscal is an official certificate from the Autoridade Tributária confirming your tax address in Portugal. The main scenario for immigrants: proving your address to AIMA when obtaining/renewing a residence permit if your name is NOT in the rental contract — under the AIMA rules of 29.11.2025, in that case you need this certificate no older than 30 days on the day of the appointment + a personal declaration sob compromisso de honra (AIMA no longer accepts junta certificates). Also needed for: applying for citizenship, opening a bank account, registering a car. Important: the certificate confirms the address recorded in Finanças — if it is outdated, update it first. Do not confuse it: for tax residence under a DTT you need a separate Certidão de Residência Fiscal. Free, downloaded online via Portal das Finanças in 2 minutes.',
   tags: ['certidão', 'address', 'finanças'],
   estimatedReadMinutes: 3,
-  recentlyChangedAt: '2026-08-01',
   changeSummary: '🆕 Added the main AIMA scenario (rules of 29.11.2025): if you are not named in the rental contract, for granting/renewing a residence permit you need this certificate no older than 30 days on the day of the appointment + a declaration sob compromisso de honra (registo predial no., basis, owner\'s name and NIF). AIMA does not accept junta atestados. The address in Finanças must match the one declared to AIMA.',
   steps: [
     {

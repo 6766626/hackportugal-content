@@ -6,6 +6,8 @@ export default {
   tldr: 'Обучение в Португалии обязательно с 6 до 18 лет (или до завершения secundário).\n\nГосударственные школы бесплатные, зачисление — по району проживания через Portal das Matrículas. Возможны частные школы (€ 3 000–15 000/год) и международные (€ 10 000–25 000/год).\n\nОсновные окна matrícula зависят от уровня обучения и ежегодного despacho; для pré-escolar/1.º ano 2026/2027 — 22 апреля – 1 июня 2026 (Despacho 4472-A/2026). Для переезда или перевода школа может принять заявление в течение года при наличии места.',
   tags: ['школа', 'образование', 'зачисление', 'дети'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-08-26',
+  changeSummary: '🆕 Учебный год 2026/27: научно-гуманитарные курсы secundário стартуют 21 сентября (Despacho 10430/2026), остальные уровни — 11–15 сентября. Экстраординарная фаза национальных экзаменов: 3–8 сентября, результаты 9 сентября (компенсация сбоев электронной проверки); засчитывается лучшая оценка.',
   steps: [
     {
       id: 'types',
@@ -53,7 +55,7 @@ export default {
             { kind: 'paragraph', text: 'Войти можно через autenticação.gov.pt: Chave Móvel Digital, Cartão de Cidadão или credenciais do Portal das Finanças (NIF+пароль AT). Если у родителей нет доступа к цифровым средствам — matrícula можно оформить при поддержке школы/agrupamento.' }
           ]},
           { id: 'e3', title: '3. Подать заявление на зачисление', content: [
-            { kind: 'paragraph', text: 'Окно основной сессии для 2026–2027 учебного года: 22 апреля – 1 июня 2026 (Portal das Matrículas, дошкольное образование + 1-й класс 1º Ciclo), согласно Despacho n.º 4472-A/2026. Для 2º Ciclo, 3º Ciclo и Secundário — свои сроки, проверяйте ежегодное распоряжение (despacho). Для перевода или переезда — в любое время, но желательно до конца июля.' }
+            { kind: 'paragraph', text: 'Окно основной сессии для 2026–2027 учебного года: 22 апреля – 1 июня 2026 (Portal das Matrículas, дошкольное образование + 1-й класс 1º Ciclo), согласно Despacho n.º 4472-A/2026. Для 2º Ciclo, 3º Ciclo и Secundário — свои сроки, проверяйте ежегодное распоряжение (despacho). Для перевода или переезда — в любое время, но желательно до конца июля. 🆕 Старт учебного года 2026/27: pré-escolar, básico, профессиональное и художественное образование — 11–15 сентября; НО научно-гуманитарные курсы secundário (10–12 классы) начинают ПОЗЖЕ — в понедельник 21 сентября 2026 (Despacho n.º 10430/2026, из-за сбоев электронной проверки экзаменов). Дополнительно: экстраординарная фаза национальных экзаменов — 3–8 сентября 2026, результаты 9 сентября; засчитывается лучшая из оценок.' }
           ]},
           { id: 'e4', title: '4. Документы', content: [
             { kind: 'paragraph', text: 'Обычно просят: ID ребёнка и родителя, NIF, подтверждение адреса, табель/sworn translation, карточку прививок, фото. Если у ребёнка нет NIF, número de utente, atestado da junta или иностранного полного пакета — школа НЕ должна блокировать доступ к обязательному образованию: возможно временное зачисление и параллельная процедура equivalência/posicionamento.' },
@@ -95,8 +97,9 @@ export default {
   sources: [
     { title: 'Portal das Matrículas — официальный', url: 'https://portaldasmatriculas.edu.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGE — Direcção-Geral da Educação', url: 'https://www.dge.mec.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Inscrever criança em escola', url: 'https://www.gov.pt/cidadaos/-/informacoes/matricular-ou-renovar-a-matricula-no-ensino-obrigatorio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Inscrever criança em escola', url: 'https://www.gov.pt/cidadaos/-/informacoes/matricular-ou-renovar-a-matricula-no-ensino-obrigatorio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'SPGL — Despacho n.º 10430/2026: adiamento do início dos cursos científico-humanísticos (21.08.2026)', url: 'https://www.spgl.pt/despacho-n-o-10430-2026-de-21-08', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

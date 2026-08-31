@@ -6,7 +6,6 @@ export default {
   tldr: '🆕 Since 01.07.2026 the €150 duty-free threshold is gone: parcels from non-EU countries valued up to €150 now pay a flat customs duty of €3 for each product category (2 different product types in a parcel = €6) — on top of IVA, which has been charged on any parcel since 2021, and the clearance fee. Above €150 — the general regime: IVA + duty according to the goods code (0–17%). This hits Shein/Temu/AliExpress and private parcels. Clearance is handled through the recipient: CTT or the courier (DHL, FedEx, UPS) sends an SMS with a payment link (card, MB WAY, Multibanco). The CTT fee for customs clearance — from ~€7 + IVA; couriers — €10–40. Current tariffs are on ctt.pt.',
   tags: ['customs', 'parcel', 'iva', 'ctt', 'dhl'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: '🆕 Since 01.07.2026 the duty exemption for parcels up to €150 from non-EU countries has been abolished: now a flat €3 per product category + IVA + clearance fee (EU Council decision, transitional regime until the customs reform). Above €150 — the general regime, unchanged.',
   steps: [
     {

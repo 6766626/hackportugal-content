@@ -6,6 +6,8 @@ export default {
   tldr: 'Portugal disponibiliza um conjunto amplo de prestações sociais a residentes: RSI (rendimento social de inserção) — complemento até ao montante de referência do agregado familiar (100% da base para o requerente — 247,56 €/mês em 2026, 70% por cada adulto adicional, 50% por criança); Subsídio de desemprego — cerca de 65% da remuneração de referência, máximo 2,5×IAS (1 342,83 € em 2026), duração segundo a tabela da Segurança Social por idade e carreira contributiva; Porta 65 Jovem — apoio à renda (montante segundo as tabelas do IHRU, sem limite fixo); Tarifa Social Energia Elétrica — cerca de 33,8% de desconto nas componentes tarifárias elegíveis (para gás — tarifa separada de ~31,2%); habitação social — renda segundo a fórmula de renda apoiada. Requisitos: residência legal em PT, verificação de rendimentos/património e, por vezes, período mínimo de contribuições.',
   tags: ['rsi', 'subsídio', 'apoio social', 'prestação'],
   estimatedReadMinutes: 7,
+  recentlyChangedAt: '2026-08-31',
+  changeSummary: '🆕 DL n.º 166/2026 (13.08): a partir de 31.12.2026, o RSI e mais 12 prestações fundem-se na Prestação Social Única (50% do IAS); cidadãos de países terceiros precisam de ≥1 ano de residência legal com autorização de residência válida; os atuais beneficiários são convertidos automaticamente. Também: a partir de ~17.10.2026, medicamentos gratuitos do CSI — apenas genéricos/preço de referência (DL 169/2026). A Portaria 394/2026/1 (27.08) fixou as normas de execução: requerimento por formulário da SS, cruzamento com a AT, plano de integração.',
   steps: [
     {
       id: 'rsi',
@@ -21,7 +23,8 @@ export default {
           '⏱️ Processamento: 30-60 dias',
           '📋 Obrigações: inscrição no IEFP como candidato a emprego, frequência de cursos / entrevistas obrigatórias, não recusar trabalho «adequado»'
         ]},
-        { kind: 'warning', text: 'O subsídio de desemprego, o salário e outros rendimentos são considerados no cálculo do RSI e podem reduzir ou excluir a prestação. O património mobiliário do agregado não deve exceder o limite estabelecido (normalmente 60× IAS).\n\nIncumprimento das regras/ocultação de rendimentos = perda do direito e sanções.' }
+        { kind: 'warning', text: 'O subsídio de desemprego, o salário e outros rendimentos são considerados no cálculo do RSI e podem reduzir ou excluir a prestação. O património mobiliário do agregado não deve exceder o limite estabelecido (normalmente 60× IAS).\n\nIncumprimento das regras/ocultação de rendimentos = perda do direito e sanções.' },
+        { kind: 'warning', text: '🆕 GRANDE REFORMA a partir de 31.12.2026 (DL n.º 166/2026): o RSI e mais 12 prestações não contributivas (pensão social, subsídio social de desemprego, prestações parentais sociais, etc.) fundem-se numa prestação única — a Prestação Social Única (PSU), com base de 50% do IAS. Para cidadãos de países terceiros, a condição é residência legal com autorização de residência válida há pelo menos 1 ano (refugiados e apátridas reconhecidos qualificam). Os atuais beneficiários do RSI/pensão social serão convertidos automaticamente com garantia dos montantes atuais. 🆕 A Portaria n.º 394/2026/1 (27.08) já fixou as normas de execução: requerimento através de formulário da Segurança Social (preferencialmente digital), cruzamento de rendimentos com a AT, plano individual de integração por agregado; os efeitos continuam a produzir-se a partir de 31.12.2026.' }
       ]
     },
     {
@@ -119,7 +122,7 @@ export default {
           '🎒 Apoio às despesas escolares: descontos em manuais, materiais — ISS.gov.pt',
           '🧑‍🎓 Bolsa de estudo: para universidade — DGES, 500-5 000 €/ano',
           '♿ Complemento por Dependência: para pessoas com deficiência e pessoas que necessitam de cuidados — até 100-200 €/mês',
-          '👵 Complemento Solidário para Idosos (CSI): complemento para idosos com recursos anuais abaixo do limiar de referência do CSI; são considerados os rendimentos do requerente, do cônjuge/parceiro e, em alguns casos, dos filhos. O limiar deve ser consultado no Guia Prático CSI actualizado',
+          '👵 Complemento Solidário para Idosos (CSI): complemento para idosos com recursos anuais abaixo do limiar de referência do CSI; são considerados os rendimentos do requerente, do cônjuge/parceiro e, em alguns casos, dos filhos. O limiar deve ser consultado no Guia Prático CSI actualizado. 🆕 A partir de ~17.10.2026 (DL 169/2026), os medicamentos gratuitos para beneficiários do CSI ficam limitados: comparticipação a 100% — apenas para genéricos ou até ao preço de referência',
           '🧑‍⚕️ Taxas moderadoras no SNS foram em grande medida eliminadas (Lei n.º 22/2022), mas podem aplicar-se em urgência sem referenciação pelo SNS24/INEM/centro de saúde e sem internamento subsequente. Existem isenções para menores, grávidas, pessoas com insuficiência económica, certas doenças crónicas/deficiências e outras categorias legais'
         ]}
       ]
@@ -157,8 +160,9 @@ export default {
     { title: 'IHRU / Portal da Habitação — Porta 65 Jovem', url: 'https://www.portaldahabitacao.pt/web/guest/porta-65-jovem', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'IEFP — Centro de Emprego', url: 'https://www.iefp.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'DGEG — Tarifa Social de Energia Elétrica', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/energia-eletrica/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'DGEG — Tarifa Social de Gás Natural', url: 'https://www.dgeg.gov.pt/pt/areas-setoriais/gas-natural/tarifa-social/', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'Decreto-Lei n.º 166/2026 — Prestação Social Única (DR 1.ª série n.º 156, 13.08.2026)', url: 'https://files.diariodarepublica.pt/1s/2026/08/15600/0001100041.pdf', kind: 'law', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-31',
   verifyIntervalDays: 180
 }

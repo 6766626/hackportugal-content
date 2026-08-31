@@ -6,8 +6,8 @@ export default {
   tldr: 'In 2026, residence permit renewal should be started online, but the route depends on the expiry date and card type. Ordinary cards expired from 01.07.2025 onward are renewed through portal-renovacoes.aima.gov.pt. Older cards expired from 22.02.2020 to 30.06.2025 go through services.aima.gov.pt/RAR/reqrenew or the AIMA/EMAIMA email route; CPLP, ARI and EU family cards have separate rules. According to gov.pt, you can apply from 90 days before the card expires. For cards that expired after 30.06.2025, residence rights are maintained for 6 months after the expiry date; if during that time you have started renewal and hold a comprovativo/recibo, AIMA considers your stay legal until the process concludes — even after those 6 months. After the renewal request is registered and paid, AIMA issues a comprovativo valid for 180 days: carry it together with the expired card.',
   tags: ['aima', 'residence permit', 'renewal', 'online'],
   estimatedReadMinutes: 10,
-  recentlyChangedAt: '2026-08-01',
-  changeSummary: '❗ Clarified the housing-proof package under the official AIMA rules (29.11.2025): declaração compromisso de honra + contract/certidão predial/comodato; an atestado from the Junta is NOT accepted; if you are not named in the contract — a personal declaration + certidão de domicílio fiscal no older than 30 days. Also: since 22.07.2026 AIMA has been testing tracking of all process stages up to the CTT tracking code.',
+  recentlyChangedAt: '2026-08-26',
+  changeSummary: '🆕 On 03.08.2026 the portal opened for cards expiring in November–December 2026 (window — through 31.12.2026). For paper CRs (EU citizens and families): enter the number WITHOUT the leading zero (AIMA clarification of 13.08). Previously: the official housing-proof package (junta atestado not accepted) and process-stage tracking.',
   steps: [
     {
       id: 'which-portal',
@@ -16,7 +16,7 @@ export default {
         { kind: 'paragraph', text: 'In 2026, AIMA does not have one universal entry point for all renewals. If you choose the wrong portal, the process may not appear or may go into the wrong channel.' },
         { kind: 'checklist', items: [
           '✅ Residence permit expired or expiring from 01.07.2025: main route is portal-renovacoes.aima.gov.pt',
-          '✅ Residence permit expired from 22.02.2020 to 30.06.2025: if you did not receive an AIMA/EMAIMA email, use services.aima.gov.pt/RAR/reqrenew; as of 23.06.2026 this is already urgent because the 15.04.2026 deadline has passed',
+          '✅ Residence permit expired from 22.02.2020 to 30.06.2025: if you did not receive an AIMA/EMAIMA email, use services.aima.gov.pt/RAR/reqrenew; the 15.04.2026 deadline has long passed — legally this is already an urgent case, do not delay',
           '✅ CPLP: separate procedure on services.aima.gov.pt/CPLP, not the ordinary portal-renovacoes flow',
           '✅ ARI / Golden Visa: separate ARI flow in Portal das Renovacoes, available from 16.02.2026 according to AIMA',
           '✅ Long-term resident: AIMA opened renewal in Portal das Renovacoes, but check your NISS and address first',
@@ -32,6 +32,8 @@ export default {
         { kind: 'checklist', items: [
           '🗓️ According to gov.pt, you can apply from 90 days before the card expires; temporary residence renewal should be requested no later than 30 days before expiry',
           '✅ In practice: start checking the portal 90 days before expiry and apply as soon as AIMA opens your date/category',
+          '🆕 The portal opens in “cohorts” by expiry month: on 03.08.2026 intake opened for cards expiring in November–December 2026 (coverage window — through 31.12.2026); AIMA will announce the next cohort (January 2027) separately',
+          '🆕 Paper Cartões de Residência (CR em papel — EU citizens and their family members): when entering the number in the portal, REMOVE the leading zero (AIMA example of 13.08: 011641 → 11641); if it still does not go through — email geral@aima.gov.pt with the subject «Portal de Renovações, Agendamento CR papel, impossibilidade submeter pedido»',
           '⚠️ Cards that expired after 30.06.2025: under Decreto Regulamentar 84/2007, art. 63.º n.º 14, residence rights are maintained for 6 months after the expiry date. If during that time you have started renewal and hold a comprovativo/recibo, AIMA considers your stay legal until the process concludes — even after those 6 months.',
           '⚠️ If the card expired before 30.06.2025 and you did not start renewal by 15.04.2026, do not wait: submit the request through services.aima.gov.pt/RAR/reqrenew and discuss the case with an advogado or CLAIM',
           '🧾 After registration of the request and payment, AIMA issues a comprovativo valid for 180 days. It proves the process, but it is not a full residence card for Schengen travel'
@@ -232,6 +234,6 @@ export default {
     { title: 'DN Brasil — Nova ferramenta da AIMA permite acompanhar cada etapa do processo de residência (22.07.2026)', url: 'https://dnbrasil.dn.pt/nova-ferramenta-da-aima-permite-acompanhar-cada-etapa-do-processo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-07-27' },
     { title: 'AIMA — Comprovativo de Alojamento: Concessão e Renovação de Autorização de Residência (29.11.2025)', url: 'https://aima.gov.pt/pt/noticias/hklkjl', kind: 'official', language: 'pt', lastRetrieved: '2026-08-01' }
   ],
-  lastVerified: '2026-08-01',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 45
 }

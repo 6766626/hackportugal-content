@@ -6,7 +6,6 @@ export default {
   tldr: 'Se vive junto a floresta ou mato, o plano para o caso de incêndio faz-se ANTES do incêndio. Verifique se a sua aldeia integra o programa «Aldeia Segura / Pessoas Seguras» (aldeiasseguras.pt): há um responsável local de segurança designado, pontos de abrigo/refúgio sinalizados e percursos de evacuação — em 2026 o programa abrange ~2 435 aldeias. O fogo aproxima-se: ligue 112, avise os vizinhos, molhe as paredes/o telhado e 10 m à volta da casa, feche todas as janelas/portas/persianas, afaste as botijas de gás e os materiais combustíveis das paredes. Ordem de evacuação da GNR/PSP — cumpra de imediato, leve o kit, os documentos e os animais, ajude os idosos. Já não é possível sair — abrigue-se numa casa de pedra, numa divisão do lado oposto ao fogo, e aguarde a passagem da frente de chamas. Incêndios ativos: mapa da ANEPC (prociv.gov.pt), sgifr.gov.pt, fogos.pt. Depois do incêndio: participação à seguradora (~8 dias, mas perder o prazo não retira, por si só, o direito à indemnização), fotografias dos danos; para quem perdeu a habitação — programa Porta de Entrada (IHRU através da câmara).',
   tags: ['incêndio rural', 'incêndio', 'evacuação', 'aldeia segura'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: 'Novo guia: o que fazer quando um incêndio rural se aproxima de casa — programa Aldeia Segura (pontos de abrigo/refúgio), checklist oficial da ANEPC, evacuar vs abrigar-se, fumo e saúde (DGS/QualAr), seguro e apoio Porta de Entrada depois do incêndio.',
   steps: [
     {

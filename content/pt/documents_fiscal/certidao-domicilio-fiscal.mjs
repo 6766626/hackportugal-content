@@ -6,7 +6,6 @@ export default {
   tldr: 'A Certidão de domicílio fiscal é uma certidão oficial da Autoridade Tributária que confirma a sua morada fiscal em Portugal. O principal cenário para imigrantes: comprovar a morada junto da AIMA na concessão/renovação da autorização de residência quando o seu nome NÃO consta do contrato de arrendamento — pelas regras da AIMA de 29.11.2025, nesse caso é necessária esta certidão com menos de 30 dias no dia do atendimento + uma declaração pessoal sob compromisso de honra (a AIMA já não aceita atestados da junta). Também é necessária para: pedido de nacionalidade, abertura de conta bancária, registo de veículo. Importante: a certidão confirma a morada registada nas Finanças — se estiver desatualizada, atualize-a primeiro. Não confundir: para a residência fiscal ao abrigo de uma DTT é necessária uma Certidão de Residência Fiscal separada. Gratuita, descarregada online através do Portal das Finanças em 2 minutos.',
   tags: ['certidão', 'morada', 'finanças'],
   estimatedReadMinutes: 3,
-  recentlyChangedAt: '2026-08-01',
   changeSummary: '🆕 Adicionado o principal cenário AIMA (regras de 29.11.2025): se não constar do contrato de arrendamento, para a concessão/renovação da autorização de residência é necessária esta certidão com menos de 30 dias no dia do atendimento + declaração sob compromisso de honra (n.º do registo predial, fundamento, nome e NIF do proprietário). A AIMA não aceita atestados da junta. A morada nas Finanças deve coincidir com a declarada à AIMA.',
   steps: [
     {

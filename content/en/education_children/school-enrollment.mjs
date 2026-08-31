@@ -6,6 +6,8 @@ export default {
   tldr: 'Education in Portugal is compulsory from age 6 to 18 (or until completion of secundário).\n\nState schools are free, and enrolment is by area of residence via Portal das Matrículas. Private schools (€3,000–15,000/year) and international schools (€10,000–25,000/year) are also possible.\n\nThe main matrícula windows depend on the level of education and the annual despacho; for pré-escolar/1.º ano 2026/2027 — 22 April – 1 June 2026 (Despacho 4472-A/2026). For relocation/transfer, a school may accept an application during the year if there is a place available.',
   tags: ['school', 'education', 'enrolment', 'children'],
   estimatedReadMinutes: 6,
+  recentlyChangedAt: '2026-08-26',
+  changeSummary: '🆕 School year 2026/27: científico-humanístico secundário courses start on 21 September (Despacho 10430/2026), the other levels — 11–15 September. Extraordinary phase of the national exams: 3–8 September, results on 9 September (compensation for the e-grading failures); the best grade counts.',
   steps: [
     {
       id: 'types',
@@ -53,7 +55,7 @@ export default {
             { kind: 'paragraph', text: 'You can log in via autenticação.gov.pt: Chave Móvel Digital, Cartão de Cidadão or credenciais do Portal das Finanças (NIF+AT password). If parents do not have access to digital means — the matrícula can be completed with support from the school/agrupamento.' }
           ]},
           { id: 'e3', title: '3. Submit an enrolment application', content: [
-            { kind: 'paragraph', text: 'Main session window for the 2026–2027 school year: 22 April – 1 June 2026 (Portal das Matrículas, pre-school education + Year 1 of 1º Ciclo), according to Despacho n.º 4472-A/2026. For 2º Ciclo, 3º Ciclo and Secundário — there are separate deadlines, check the despacho for each year. For a transfer or relocation — at any time, but preferably before the end of July.' }
+            { kind: 'paragraph', text: 'Main session window for the 2026–2027 school year: 22 April – 1 June 2026 (Portal das Matrículas, pre-school education + Year 1 of 1º Ciclo), according to Despacho n.º 4472-A/2026. For 2º Ciclo, 3º Ciclo and Secundário — there are separate deadlines, check the despacho for each year. For a transfer or relocation — at any time, but preferably before the end of July. 🆕 Start of the 2026/27 school year: pré-escolar, básico, vocational and artistic education — 11–15 September; BUT the científico-humanístico secundário courses (Years 10–12) start LATER — on Monday 21 September 2026 (Despacho n.º 10430/2026, due to the e-grading failures in the exams). In addition: the extraordinary phase of the national exams — 3–8 September 2026, results on 9 September; the best of the grades counts.' }
           ]},
           { id: 'e4', title: '4. Documents', content: [
             { kind: 'paragraph', text: 'Usually requested: ID of the child and parent, NIF, proof of address, school report/sworn translation, vaccination record, photo. If the child does not have a NIF, número de utente, atestado da junta or a complete foreign document package — the school must NOT block access to compulsory education: temporary enrolment and a parallel equivalência/posicionamento procedure are possible.' },
@@ -95,8 +97,9 @@ export default {
   sources: [
     { title: 'Portal das Matrículas — official', url: 'https://portaldasmatriculas.edu.gov.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
     { title: 'DGE — Directorate-General for Education', url: 'https://www.dge.mec.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
-    { title: 'ePortugal — Register a child at school', url: 'https://www.gov.pt/cidadaos/-/informacoes/matricular-ou-renovar-a-matricula-no-ensino-obrigatorio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' }
+    { title: 'ePortugal — Register a child at school', url: 'https://www.gov.pt/cidadaos/-/informacoes/matricular-ou-renovar-a-matricula-no-ensino-obrigatorio', kind: 'official', language: 'pt', lastRetrieved: '2026-04-22' },
+    { title: 'SPGL — Despacho n.º 10430/2026: adiamento do início dos cursos científico-humanísticos (21.08.2026)', url: 'https://www.spgl.pt/despacho-n-o-10430-2026-de-21-08', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

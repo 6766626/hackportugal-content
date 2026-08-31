@@ -6,7 +6,8 @@ export default {
   tldr: 'Lei n.º 61/2025 of 22 October 2025 is the main reform of the migration regime, abolishing manifestação de interesse as a mass route to legalisation after entry (transitional deadline for cases already started — 31.12.2025), creating a qualified job-seeker visa, and tightening pre-entry checks. For an expat, the main takeaway is: enter through the correct D1-D8/work/family visa route, book with AIMA in advance, and gather proof of income and accommodation. AIMA fees from 01.03.2026 are €133 for the appointment and €307.20 for the residence permit under art. 75.',
   tags: ['aima', 'residence permit', 'lei23', 'migration', 'irs'],
   estimatedReadMinutes: 6,
-  changeSummary: 'Clarified the reagrupamento familiar section per Lei 61/2025 (in force): described the structure of the regime — no residence-period requirement when the household includes minor/incapable children, exemptions for Golden Visa (art. 90-A), highly-qualified/teaching/cultural (art. 90) and EU Blue Card (art. 121-A); for spouses without minor dependents, a residence-time requirement for the main applicant plus prior cohabitation (~18 months). Confirm exact periods with AIMA.',
+  recentlyChangedAt: '2026-08-31',
+  changeSummary: '🔴 The "Lei do Retorno e Asilo" is at the doorstep: on 28.08.2026 the Constitutional Court UNANIMOUSLY cleared all 11 contested norms (Acórdão 736/2026), and on 31.08 the President promulgated the law. Once published in the DR it will abolish the voluntary-departure notification (NAV), extend detention up to 180 days and make several appeals non-suspensive. The TC set limits: detention stays an exceptional measure, reviewed every 30 days, with the child\'s best interests weighed. Entry-into-force date will be known upon publication — we are watching.',
   steps: [
     {
       id: 'what-changed',
@@ -21,7 +22,8 @@ export default {
           'manifestação de interesse as a mass route to legalisation after entry has been abolished; you cannot rely on it in 2026.',
           'reagrupamento familiar requires more careful preparation: family relationship, accommodation, income, and the status of the main applicant.',
           'tax regimes such as IFICI and IRS-Migrante do not grant a residence permit automatically — they are a separate layer after or alongside immigration.'
-        ] }
+        ] },
+        { kind: 'warning', text: '🔴 The next wave of tightening — the "Lei do Retorno e Asilo" (Decreto 105/XVII): on 28.08.2026 the Constitutional Court unanimously found NO unconstitutionality in all 11 norms referred by the President (Acórdão n.º 736/2026), and on 31.08.2026 President Seguro promulgated the law. What changes once it is published in the DR: abolition of the voluntary-departure notification (NAV), detention in CIT up to 180 days (extendable), a border return procedure (up to 12 weeks), 7/3-day screening, and several judicial challenges losing suspensive effect. Important: the TC bound the norms with interpretative limits — detention remains an EXCEPTIONAL measure of strict necessity, reviewed every 30 days, with the child\'s best interests weighed; interim relief in the administrative courts remains available. The law number and entry-into-force date will appear upon publication in the Diário da República — until then the current rules apply. We are watching.' }
       ]
     },
     {
@@ -127,11 +129,12 @@ export default {
     { label: 'Apostille/translations of family documents', amountEURMin: 30, amountEURMax: 150, note: 'Per document; depends on the issuing country, notary and translator.' }
   ],
   sources: [
+    { title: 'Tribunal Constitucional — Acórdão n.º 736/2026: fiscalização preventiva da Lei de Estrangeiros e Asilo (28.08.2026)', url: 'https://www.tribunalconstitucional.pt/tc/acordaos/20260736.html', kind: 'official', language: 'pt', lastRetrieved: '2026-08-31' },
     { title: 'Diário da República — Lei 23/2007, regime for entry, stay and residence permits for foreigners', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2007-67564445', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — Lei 37/2006, right of residence for EU citizens and family members', url: 'https://dre.pt/dre/legislacao-consolidada/lei/2006-34571875', kind: 'law', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Diário da República — Lei n.º 61/2025 de 22 de outubro (migration reform)', url: 'https://diariodarepublica.pt/dr/detalhe/lei/61-2025-941547426', kind: 'law', language: 'pt', lastRetrieved: '2026-05-18' },
     { title: 'AIMA — information on residência, reagrupamento familiar and taxas', url: 'https://aima.gov.pt/pt', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-06-23',
+  lastVerified: '2026-08-31',
   verifyIntervalDays: 90
 }

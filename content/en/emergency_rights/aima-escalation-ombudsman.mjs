@@ -6,7 +6,6 @@ export default {
   tldr: 'If AIMA has lost your file, is not giving you an appointment slot, has not issued your cartão de residência for months, or is not replying to email, proceed step by step: gather evidence → complain in the Livro de Reclamações → give AIMA up to 60 days to react → complain to the Provedor de Justiça → if there is urgent harm, go to the Tribunal Administrativo with a lawyer. The Provedor is free, but it does not replace the court and does not suspend residence permit deadlines.',
   tags: ['aima', 'complaint', 'provedor', 'residence permit'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-26',
   changeSummary: '🆕 Court reality for lawsuits against AIMA (CSTAF, July 2026): >100 thousand cases pending, average first-instance time — 861 days. 23.07.2026 the government approved a bill: filing suits at the administrative court of the claimant\'s residence (not only Lisbon) + specialised migration courts — NOT law yet.',
   steps: [
     {

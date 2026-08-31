@@ -54,7 +54,8 @@ export default {
               'Keep the email and access to MEGA until the end of the school year.'
             ] }
           ] }
-        ] }
+        ] },
+        { kind: 'paragraph', text: '🆕 School year 2026/27: the MEGA platform opened for parents on 22.07.2026 (manuaisescolares.pt or the Edu Rede Escolar app; first login is via Portal das Finanças credentials, and the NIF must be linked to the pupil at the school). Vouchers were issued in waves: 1.º ciclo — from 3 August, 5.º–9.º ano — from 10 August, secundário — from 13 August. The mechanics have not changed; books can be collected via QR code at pick-up points, including Continente stores.' }
       ]
     },
     {
@@ -118,6 +119,6 @@ export default {
     { title: 'ePortugal — School enrolments', url: 'https://www.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

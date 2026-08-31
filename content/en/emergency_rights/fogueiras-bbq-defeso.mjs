@@ -6,7 +6,6 @@ export default {
   tldr: 'Important: the fixed “período crítico 1 July — 30 September” NO LONGER exists in law. Under the current SGIFR regime (DL 82/2021), the bans kick in automatically on days when your municipality is in the PIR (Perigo de Incêndio Rural) danger class “muito elevado” or “máximo” — check daily at ipma.pt/pt/riscoincendio (all year round, but in summer that is most days inland). On top of that, the government can declare a Situação de Alerta with total bans (as on 3–9 July 2026: bans on forest access, any fire, fireworks and machinery work).\n\nOn muito elevado/máximo days the following are banned: bonfires and barbecues outside equipped areas, fireworks, burning plant residues, smoking in the forest, machinery that creates sparks. Fines for individuals: €280-€10,000. If your fire causes a forest fire — criminal liability up to 5 years. When it is allowed: municipal picnic areas (Parques de Merendas), hearths inside restaurants, your home kitchen. Fireworks require a Câmara licence all year round; burning piles of plant residues (queima de amontoados) requires a permit/notification all year round.',
   tags: ['bonfire', 'barbecue', 'fire', 'pir', 'icnf'],
   estimatedReadMinutes: 5,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: 'Guide aligned with the current SGIFR regime: the fixed período crítico no longer exists — the bans apply on days with PIR “muito elevado”/“máximo” (daily IPMA/ICNF map) and when a Situação de Alerta is declared (example: 3–9 July 2026, the entire mainland).',
   steps: [
     {

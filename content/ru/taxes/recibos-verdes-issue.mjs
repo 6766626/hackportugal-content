@@ -6,6 +6,8 @@ export default {
   tldr: 'Recibo verde — электронный чек самозанятого / ИП. Выписывается в Portal das Finanças → «Recibos Verdes Eletrónicos». Нужны: открытая деятельность, NIF клиента, сумма и описание услуги. IVA зависит от режима: regime normal (часто 23% на материке; ставки зависят от услуги и региона) или regime de isenção art. 53 CIVA при обороте до €15 000/год и выполнении условий.\n\nСрок — до 5-го рабочего дня после момента exigibilidade (завершение услуги, выставление счёта или аванс).',
   tags: ['recibo verde', 'ип', 'самозанятый', 'деятельность'],
   estimatedReadMinutes: 5,
+  recentlyChangedAt: '2026-08-26',
+  changeSummary: '⚠️ Практика AIMA (август 2026): занижение дохода в квартальных декларациях SS или уплата только минимальных €20 может привести к отказу в ВНЖ/продлении за «falta de rendimentos» — видимая база доходов формируется из деклараций Segurança Social. Декларируйте реальный доход.',
   steps: [
     {
       id: 'prereq',
@@ -108,7 +110,8 @@ export default {
             ]}
           ]},
           { id: 't2', title: 'Segurança Social — квартальная декларация', content: [
-            { kind: 'paragraph', text: 'Trabalhadores independentes обычно платят 21,4% sobre o rendimento relevante: обычно 70% дохода от услуг или 20% от sales/production/hotelaria/restauração. Расчёт по квартальной declaração с возможной корректировкой ±25%. При первом início de atividade обычно есть isenção inicial 12 месяцев; после — минимум €20 в отдельных случаях. Месячный потолок базы — 12×IAS = €6 445,56 (IAS 2026 = €537,13).' }
+            { kind: 'paragraph', text: 'Trabalhadores independentes обычно платят 21,4% sobre o rendimento relevante: обычно 70% дохода от услуг или 20% от sales/production/hotelaria/restauração. Расчёт по квартальной declaração с возможной корректировкой ±25%. При первом início de atividade обычно есть isenção inicial 12 месяцев; после — минимум €20 в отдельных случаях. Месячный потолок базы — 12×IAS = €6 445,56 (IAS 2026 = €537,13).' },
+            { kind: 'warning', text: '⚠️ Важно для иммигрантов (практика AIMA, август 2026): если вы занижаете доход в квартальных декларациях или платите только минимальные €20 в Segurança Social, AIMA может отказать в первичном ВНЖ или продлении за «falta de rendimentos» — даже если реально вы зарабатываете выше минималки. Видимая для государства база доходов формируется именно из деклараций SS. Планируете ВНЖ по recibos verdes — декларируйте реальный доход.' }
           ]},
           { id: 't3', title: 'IRS — раз в год (Anexo B / C)', content: [
             { kind: 'paragraph', text: 'Modelo 3 обычно подаётся с 1 апреля по 30 июня. В regime simplificado коэффициент зависит от вида дохода: для многих professional services — 0,75; для других — 0,35, 0,15 и др.; часть расходов может требовать подтверждения. IFICI даёт ставку 20% только для eligible income при выполнении условий.' }
@@ -121,8 +124,9 @@ export default {
     { title: 'Portal das Finanças — Faturas e Recibos Verdes', url: 'https://www.portaldasfinancas.gov.pt/at/html/index.html', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Código do IVA (DRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1984-34470075', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
     { title: 'Código do IRS (DRE)', url: 'https://diariodarepublica.pt/dr/legislacao-consolidada/decreto-lei/1988-34544875', kind: 'law', language: 'pt', lastRetrieved: '2026-05-17' },
-    { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' }
+    { title: 'Segurança Social — Trabalhadores Independentes', url: 'https://www.seg-social.pt/trabalhadores-independentes', kind: 'official', language: 'pt', lastRetrieved: '2026-05-17' },
+    { title: 'DN Brasil — Recibos verdes: pagar o mínimo à Segurança Social pode gerar indeferimento no título de residência (11.08.2026)', url: 'https://dnbrasil.dn.pt/recibos-verdes-pagar-o-mnimo-segurana-social-pode-gerar-indeferimento-no-ttulo-de-residncia', kind: 'news', language: 'pt', lastRetrieved: '2026-08-26' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

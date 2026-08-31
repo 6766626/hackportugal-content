@@ -6,7 +6,6 @@ export default {
   tldr: 'If you live next to forest or scrubland, you need a fire plan BEFORE the fire. Check whether your village is in the "Aldeia Segura / Pessoas Seguras" programme (aldeiasseguras.pt): it has a designated local safety officer, marked shelter points (abrigo/refúgio) and evacuation routes — in 2026 the programme covers ~2 435 villages. Fire approaching: call 112, warn your neighbours, soak the walls/roof and 10 m around the house with water, close all windows/doors/shutters, move gas cylinders and flammables away from the walls. An evacuation order from GNR/PSP — comply immediately, take your kit, documents and animals, help the elderly. If it is already too late to leave — shelter in a stone house, in a room on the side facing away from the fire, and wait for the fire front to pass. Active fires: ANEPC map (prociv.gov.pt), sgifr.gov.pt, fogos.pt. After the fire: file a participação (claim notice) with your insurer (~8 days, though missing the deadline does not by itself void the payout), photograph the damage; if you lost your home — the Porta de Entrada programme (IHRU via the câmara).',
   tags: ['incêndio rural', 'wildfire', 'evacuation', 'aldeia segura'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: 'New guide: what to do when a wildfire approaches your home — the Aldeia Segura programme (abrigo/refúgio points), the official ANEPC checklist, evacuation vs shelter, smoke and health (DGS/QualAr), insurance and Porta de Entrada support after the fire.',
   steps: [
     {

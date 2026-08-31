@@ -65,7 +65,8 @@ export default {
           'Guarde o PDF/captura de ecrã com as condições para o caso de haver disputa na bilheteira',
           'Se o operador recusar, peça a ligação para a tabela tarifária de 2026',
           'Ao mudar-se para outro concelho, faça um novo passe — o antigo pode deixar de ser a opção ideal'
-        ] }
+        ] },
+        { kind: 'paragraph', text: '🆕 Passe Ferroviário Verde (20 €/mês, apenas comboios da CP): na Semana Europeia da Mobilidade (16–22 de setembro de 2026), a sua validade é alargada aos comboios urbanos de Lisboa e do Porto e à Fertagus — antes, estes troços estavam excluídos e exigiam Navegante/Andante de 40 €. O Alfa Pendular, o metro e os autocarros continuam de fora. Para o dia exato de ativação, esteja atento ao anúncio da CP.' }
       ]
     },
     {
@@ -117,6 +118,6 @@ export default {
     { title: 'Navegante — tarifas e cartões da Área Metropolitana de Lisboa', url: 'https://www.navegante.pt', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' },
     { title: 'Andante — tarifas e zonas da Área Metropolitana do Porto', url: 'https://www.linhandante.com', kind: 'company', language: 'pt', lastRetrieved: '2026-05-31' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

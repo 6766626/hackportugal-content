@@ -6,7 +6,6 @@ export default {
   tldr: 'O calor em Portugal mata mais pessoas do que os incêndios: só em duas ondas de calor no verão de 2026 a DGS contabilizou ~123 mortes em excesso. Acompanhe os avisos do IPMA (os limiares variam por distrito: em Lisboa o «vermelho» é acima de 40 °C, na Guarda já acima de 36 °C). Desde 2026, em vez do «Módulo Verão», vigora um único Plano Nacional de Preparação e Resposta Sazonal em Saúde (4 níveis: verde/amarelo/laranja/vermelho). A base de sobrevivência da DGS: pelo menos 1,5 L de água por dia (sem esperar pela sede), não sair ao sol entre as 11:00 e as 17:00, roupa leve e larga, espaços frescos. Golpe de calor (temperatura corporal ~40 °C, pele quente e seca, confusão) — é 112 de imediato; em caso de dúvida — SNS 24: 808 24 24 24. NÃO existe na lei uma «temperatura máxima para trabalhar» fixa, mas o empregador é obrigado a garantir água, pausas e sombra (ACT). Deixar uma criança ou um animal num carro fechado ao calor é crime.',
   tags: ['onda de calor', 'calor', 'verão', 'saúde'],
   estimatedReadMinutes: 8,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: 'Novo guia: ondas de calor — limiares dos avisos IPMA por distrito, o novo Plano Sazonal em Saúde 2026–2027 unificado, índice ÍCARO, regras da DGS, sinais de golpe de calor (112 vs SNS 24), deveres do empregador no calor (ACT), crianças/animais no carro.',
   steps: [
     {

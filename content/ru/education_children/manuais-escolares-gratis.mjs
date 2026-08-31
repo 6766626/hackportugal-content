@@ -54,7 +54,8 @@ export default {
               'Сохраните email и доступ к MEGA до конца учебного года.'
             ] }
           ] }
-        ] }
+        ] },
+        { kind: 'paragraph', text: '🆕 Год 2026/27: платформа MEGA открыта для родителей с 22.07.2026 (manuaisescolares.pt или приложение Edu Rede Escolar; первый вход — через credenciais Portal das Finanças, NIF должен быть привязан к ученику в школе). Ваучеры выдавались волнами: 1.º ciclo — с 3 августа, 5.º–9.º классы — с 10 августа, secundário — с 13 августа. Механика не изменилась; забирать можно по QR-коду в пунктах выдачи, включая магазины Continente.' }
       ]
     },
     {
@@ -118,6 +119,6 @@ export default {
     { title: 'ePortugal — Matrículas escolares', url: 'https://www.gov.pt/servicos/matricular-um-aluno-na-escola', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' },
     { title: 'Portal MEGA — Manuais Escolares', url: 'https://manuaisescolares.pt/', kind: 'official', language: 'pt', lastRetrieved: '2026-04-28' }
   ],
-  lastVerified: '2026-05-31',
+  lastVerified: '2026-08-26',
   verifyIntervalDays: 180
 }

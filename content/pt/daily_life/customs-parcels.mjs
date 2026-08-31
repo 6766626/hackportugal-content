@@ -6,7 +6,6 @@ export default {
   tldr: '🆕 Desde 01.07.2026 já não existe o limiar de isenção de direitos de 150 €: as encomendas de países fora da UE com valor até 150 € pagam agora um direito aduaneiro fixo de 3 € por cada categoria de produto (2 tipos de produto diferentes na encomenda = 6 €) — para além do IVA, que é cobrado sobre qualquer encomenda desde 2021, e da taxa de desalfandegamento. Acima de 150 € — regime geral: IVA + direitos conforme o código da mercadoria (0–17 %). É um golpe para Shein/Temu/AliExpress e para as encomendas particulares. O processo é feito através do destinatário: os CTT ou a transportadora (DHL, FedEx, UPS) enviam um SMS com uma ligação para pagamento (cartão, MB WAY, Multibanco). A taxa dos CTT pelo desalfandegamento — a partir de ~7 € + IVA; nas transportadoras — 10–40 €. Tarifas actualizadas em ctt.pt.',
   tags: ['alfândega', 'encomenda', 'IVA', 'CTT', 'DHL'],
   estimatedReadMinutes: 6,
-  recentlyChangedAt: '2026-07-09',
   changeSummary: '🆕 Desde 01.07.2026 foi eliminada a isenção de direitos aduaneiros para encomendas até 150 € de países fora da UE: agora aplica-se um valor fixo de 3 € por categoria de produto + IVA + taxa de desalfandegamento (decisão do Conselho da UE, regime transitório até à reforma aduaneira). Acima de 150 € — regime geral sem alterações.',
   steps: [
     {
